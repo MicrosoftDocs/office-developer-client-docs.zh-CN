@@ -1,0 +1,50 @@
+---
+title: X Justify 单元格（“Action Tags”内容）
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm1026936
+localization_priority: Normal
+ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
+description: X-偏移量动作标记按钮相对于由 X 和 Y 单元格定义的点。
+ms.openlocfilehash: 043d7b198ae5a529c623545fb54ef5aa1d32217d
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19781681"
+---
+# <a name="x-justify-cell-action-tags-section"></a>X Justify 单元格（“Action Tags”内容）
+
+*X* -偏移量动作标记按钮相对于由 X 和 Y 单元格定义的点。 
+  
+> [!NOTE]
+> 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
+  
+|**值**|**说明**|**自动化常量**|
+|:-----|:-----|:-----|
+| 0  <br/> | 左对齐（默认值）。  <br/> |**visSmartTagXJustifyLeft** <br/> |
+| 1  <br/> | 居中。  <br/> |**visSmartTagXJustifyCenter** <br/> |
+| 2  <br/> | 右对齐。  <br/> |**visSmartTagXJustifyRight** <br/> |
+   
+## <a name="remarks"></a>备注
+
+X Justify 和 Y Justify 单元格确定动作标记按钮相对于 X 和 Y 单元格中定义的点的放置位置。 
+  
+若要获取对 X Justify 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+  
+|||
+|:-----|:-----|
+| 单元格名称：  <br/> | 智能标记。  *名称*。XJustify 其中智能标记。 *name*是动作标记行的名称  <br/> |
+   
+若要从某个程序按索引获取对 X Justify 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+  
+|||
+|:-----|:-----|
+| 内容索引：  <br/> |**visSectionSmartTag** <br/> |
+| 行索引：  <br/> |**visRowSmartTag** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 单元格索引：  <br/> |**visSmartTagXJustify** <br/> |
+   
+

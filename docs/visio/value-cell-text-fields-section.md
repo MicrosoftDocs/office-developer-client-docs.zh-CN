@@ -1,0 +1,41 @@
+---
+title: Value 单元格（“Text Fields”内容）
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm1095
+localization_priority: Normal
+ms.assetid: 3ca662c8-1ce4-89a9-3264-1ba533fcd444
+description: 包含域的函数。
+ms.openlocfilehash: 9bce4cbb1b3955f749cefa18130c6b01fe61244e
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19781618"
+---
+# <a name="value-cell-text-fields-section"></a>Value 单元格（“Text Fields”内容）
+
+包含域的函数。
+  
+## <a name="remarks"></a>注解
+
+您可以设置此单元格，使用**字段**对话框中的值 （在**插入**选项卡中的**文本**组中，单击**域**）。
+  
+要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Value 单元格的引用，请使用： 
+  
+|||
+|:-----|:-----|
+|单元格名称：  <br/> |Fields.Value [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+   
+若要从某个程序按索引获取对 Value 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+  
+|||
+|:-----|:-----|
+|内容索引：  <br/> |**visSectionTextField** <br/> |
+|行索引：  <br/> |**visRowField** +  *i*其中*i* = 0、 1、 2...  <br/> |
+|单元格索引：  <br/> |**visFieldCell** <br/> |
+   
+
