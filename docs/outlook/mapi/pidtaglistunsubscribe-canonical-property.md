@@ -1,0 +1,80 @@
+---
+title: PidTagListUnsubscribe 规范属性
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidTagListUnsubscribe
+api_type:
+- HeaderDef
+ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
+description: 上次修改时间： 2015 年 3 月 9 日
+ms.openlocfilehash: 87f5c3fc8475f9795847e4680babb26682608a5f
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19777816"
+---
+# <a name="pidtaglistunsubscribe-canonical-property"></a>PidTagListUnsubscribe 规范属性
+
+  
+  
+**适用于**： Outlook 
+  
+包含多用途 Internet 邮件扩展 (MIME) 消息的列表取消标头字段的值。
+  
+|||
+|:-----|:-----|
+|关联的属性：  <br/> |PR_LIST_UNSUBSCRIBE，PR_LIST_UNSUBSCRIBE_A，PR_LIST_UNSUBSCRIBE_W  <br/> |
+|标识符:  <br/> |0x1045  <br/> |
+|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|区域：  <br/> |其他  <br/> |
+   
+## <a name="remarks"></a>备注
+
+若要生成列表取消头字段中，客户端必须将这些属性设置为所需的值。 MIME 作者必须将这些属性的值复制到列表取消标头字段。
+  
+若要设置这些列表与服务器相关属性的值，MIME 客户端必须编写指定下表中的标题字段。
+  
+|**属性**|**首选标头字段名称**|**备用标头字段名称**|
+|:-----|:-----|:-----|
+|**PR_LIST_UNSUBSCRIBE** <br/> |取消列表订阅  <br/> |X 列表取消订阅  <br/> |
+   
+## <a name="related-resources"></a>相关资源
+
+### <a name="protocol-specifications"></a>协议规范
+
+[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+  
+> 提供了相关的 Exchange Server 协议规范参考。
+    
+[[MS OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+  
+> 从 Internet 标准电子邮件约定转换为消息对象。
+    
+### <a name="header-files"></a>头文件
+
+Mapidefs.h
+  
+> 提供数据类型定义。
+    
+Mapitags.h
+  
+> 包含作为替代名称列出的属性的定义。
+    
+## <a name="see-also"></a>另请参阅
+
+
+
+[MAPI 属性](mapi-properties.md)
+  
+[MAPI 规范属性](mapi-canonical-properties.md)
+  
+[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+  
+[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+
