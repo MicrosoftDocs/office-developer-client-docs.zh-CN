@@ -1,0 +1,36 @@
+---
+title: 可用事件和其 dispid （Outlook 导出 Api）
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: overview
+localization_priority: Normal
+ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
+description: 本节介绍 Outlook 使可用的事件的调度标识符。
+ms.openlocfilehash: 1542ff85579346a3674593e9ea38115170df2237
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19774181"
+---
+# <a name="available-events-and-their-dispids-outlook-exported-apis"></a><span data-ttu-id="1a12d-103">可用事件和其 dispid （Outlook 导出 Api）</span><span class="sxs-lookup"><span data-stu-id="1a12d-103">Available events and their dispids (Outlook exported APIs)</span></span>
+
+<span data-ttu-id="1a12d-104">本节介绍 Outlook 使可用的事件的调度标识符。</span><span class="sxs-lookup"><span data-stu-id="1a12d-104">This section describes the dispatch identifiers for the events that Outlook makes available.</span></span>
+  
+<span data-ttu-id="1a12d-105">Outlook 公开以下的调度标识符 (dispid)，以允许 c + + 加载项以收听和处理[idispatch:: Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx)函数中的相应事件。</span><span class="sxs-lookup"><span data-stu-id="1a12d-105">Outlook exposes the following dispatch identifiers (dispids) to allow C++ add-ins to listen to and handle the corresponding events from the [IDispatch::Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx) function.</span></span> 
+  
+|<span data-ttu-id="1a12d-106">**常量**</span><span class="sxs-lookup"><span data-stu-id="1a12d-106">**Constant**</span></span>|<span data-ttu-id="1a12d-107">**Dispid 事件**</span><span class="sxs-lookup"><span data-stu-id="1a12d-107">**Dispid for event**</span></span>|<span data-ttu-id="1a12d-108">**说明**</span><span class="sxs-lookup"><span data-stu-id="1a12d-108">**Description**</span></span>|<span data-ttu-id="1a12d-109">**参数**</span><span class="sxs-lookup"><span data-stu-id="1a12d-109">**Parameters**</span></span>|<span data-ttu-id="1a12d-110">**说明**</span><span class="sxs-lookup"><span data-stu-id="1a12d-110">**Remarks**</span></span>|
+|:-----|:-----|:-----|:-----|:-----|
+|<span data-ttu-id="1a12d-111">**dispidBeforePrint**</span><span class="sxs-lookup"><span data-stu-id="1a12d-111">**dispidBeforePrint**</span></span> <br/> |<span data-ttu-id="1a12d-112">0xFC8E</span><span class="sxs-lookup"><span data-stu-id="1a12d-112">0xFC8E</span></span>  <br/> |<span data-ttu-id="1a12d-113">用于处理来自打印操作之前，会触发的**idispatch:: Invoke**函数的应用程序级事件。</span><span class="sxs-lookup"><span data-stu-id="1a12d-113">Used to handle the application-level event from the **IDispatch::Invoke** function that fires before a printing operation.</span></span>  <br/> | <span data-ttu-id="1a12d-114">有 2 的未命名的参数：</span><span class="sxs-lookup"><span data-stu-id="1a12d-114">There are 2 unnamed parameters:</span></span>  <br/>  <span data-ttu-id="1a12d-115">第一个参数为类型 * * VT_BOOL</span><span class="sxs-lookup"><span data-stu-id="1a12d-115">The first parameter is of the type **VT_BOOL</span></span>|<span data-ttu-id="1a12d-116">VT_BREF * *。</span><span class="sxs-lookup"><span data-stu-id="1a12d-116">VT_BREF**.</span></span> <span data-ttu-id="1a12d-117">此参数来取消事件中返回**variant_true 时**。</span><span class="sxs-lookup"><span data-stu-id="1a12d-117">Return **VARIANT_TRUE** in this parameter to cancel the event.</span></span>  <br/>  <span data-ttu-id="1a12d-118">第二个参数不使用，并且应忽略。</span><span class="sxs-lookup"><span data-stu-id="1a12d-118">The second parameter is not used and should be ignored.</span></span>  <br/> |<span data-ttu-id="1a12d-119">此 dispid 位于以来 Outlook 2010。</span><span class="sxs-lookup"><span data-stu-id="1a12d-119">This dispid is available since Outlook 2010.</span></span>  <br/> |
+|<span data-ttu-id="1a12d-120">**dispidEventReadComplete**</span><span class="sxs-lookup"><span data-stu-id="1a12d-120">**dispidEventReadComplete**</span></span> <br/> |<span data-ttu-id="1a12d-121">0xFC8F</span><span class="sxs-lookup"><span data-stu-id="1a12d-121">0xFC8F</span></span>  <br/> |<span data-ttu-id="1a12d-122">用于处理来自 Outlook 已完成读取项目的属性时触发的**idispatch:: Invoke**函数的项目级事件。</span><span class="sxs-lookup"><span data-stu-id="1a12d-122">Used to handle the item-level event from the **IDispatch::Invoke** function that fires when Outlook has completed reading the properties of the item.</span></span>  <br/> |<span data-ttu-id="1a12d-123">没有只有一个参数_取消_其类型为 * * VT_BOOL</span><span class="sxs-lookup"><span data-stu-id="1a12d-123">There is only one parameter  _Cancel_ which is of the type **VT_BOOL</span></span>|<span data-ttu-id="1a12d-124">VT_BREF * *。</span><span class="sxs-lookup"><span data-stu-id="1a12d-124">VT_BREF**.</span></span> <span data-ttu-id="1a12d-125">此参数，以取消读取的操作中返回**variant_true 时**。</span><span class="sxs-lookup"><span data-stu-id="1a12d-125">Return **VARIANT_TRUE** in this parameter to cancel the read operation.</span></span>  <br/> |<span data-ttu-id="1a12d-126">此 dispid 位于以来 Outlook 2010。</span><span class="sxs-lookup"><span data-stu-id="1a12d-126">This dispid is available since Outlook 2010.</span></span>  <br/> <span data-ttu-id="1a12d-127">此事件对应于 Exchange 客户端扩展 (ECE) 事件**IExchExtMessageEvents::OnReadComplete**，并还**ReadComplete**事件已添加到对象模型以来 Outlook 2013。</span><span class="sxs-lookup"><span data-stu-id="1a12d-127">This event corresponds to the Exchange Client Extensions (ECE) event **IExchExtMessageEvents::OnReadComplete**, and also to the **ReadComplete** event that has been added to the object model since Outlook 2013.</span></span>  <br/> |
+   
+<span data-ttu-id="1a12d-128">有关如何使用 dispid 以收听和处理事件的示例，请参阅`CAppEventListener::Invoke` [MFC c + + 2003年.NET 中实现 XP Outlook 2002/事件接收器](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C)中所述在 c + + Outlook 解决方案中的函数。</span><span class="sxs-lookup"><span data-stu-id="1a12d-128">For an example of how to use a dispid to listen to and handle an event, see the  `CAppEventListener::Invoke` function in the C++ Outlook solution described in [Implementing Outlook 2002/XP Event Sinks in MFC C++ 2003 .NET](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C).</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="1a12d-129">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1a12d-129">See also</span></span>
+
+- [<span data-ttu-id="1a12d-130">Outlook 导出 Api</span><span class="sxs-lookup"><span data-stu-id="1a12d-130">Outlook exported APIs</span></span>](outlook-exported-apis.md)
+- [<span data-ttu-id="1a12d-131">（Outlook 导出的 Api） 的常量</span><span class="sxs-lookup"><span data-stu-id="1a12d-131">Constants (Outlook exported APIs)</span></span>](constants-outlook-exported-apis.md)
+- [<span data-ttu-id="1a12d-132">有关 outlook 导出 Api</span><span class="sxs-lookup"><span data-stu-id="1a12d-132">About APIs exported by Outlook</span></span>](about-apis-exported-by-outlook.md)
+- [<span data-ttu-id="1a12d-133">MFC c + + 2003年.NET 中实现 XP Outlook 2002/事件接收器</span><span class="sxs-lookup"><span data-stu-id="1a12d-133">Implementing Outlook 2002/XP Event Sinks in MFC C++ 2003 .NET</span></span>](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C)
+
