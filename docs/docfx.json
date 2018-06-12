@@ -45,7 +45,8 @@
        "ms.topic": "conceptual",
 	   "uhfHeaderId": "MSDocsHeader-Dev_Office",
 	   "ms.suite": "office",
-	   "ms.prod" : "office"
+	   "ms.prod" : "office",
+	   "bilingual_type": "hover over"
     },
     "fileMetadata": {
 	"ms.technology": 
