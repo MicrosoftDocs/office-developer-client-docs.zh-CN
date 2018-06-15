@@ -11,7 +11,7 @@ ms.openlocfilehash: 303a1dfe44960920a6679ea4cc85fb849f8a9cba
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19781010"
 ---
 # <a name="quickstyleshadowcolor-cell-quick-style-section"></a>QuickStyleShadowColor 单元格 （快速样式内容）

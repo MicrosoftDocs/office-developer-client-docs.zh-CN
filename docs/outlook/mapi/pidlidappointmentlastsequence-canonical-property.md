@@ -1,5 +1,5 @@
 ---
-title: PidLidCleanGlobalObjectId 规范属性
+title: PidLidAppointmentLastSequence 规范属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,37 +7,37 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- PidLidCleanGlobalObjectId
+- PidLidAppointmentLastSequence
 api_type:
 - COM
-ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
+ms.assetid: 52fa57be-746d-4b80-92b6-2ba83f796325
 description: 上次修改时间： 2015 年 3 月 9 日
-ms.openlocfilehash: a784c91a04cce572c8e30085b1760c28296a1d53
+ms.openlocfilehash: 425bb54f63f6a87c2f1ae6bffef9ce2b042de6bb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
-ms.locfileid: "19776730"
+ms.locfileid: "19776607"
 ---
-# <a name="pidlidcleanglobalobjectid-canonical-property"></a>PidLidCleanGlobalObjectId 规范属性
+# <a name="pidlidappointmentlastsequence-canonical-property"></a>PidLidAppointmentLastSequence 规范属性
 
   
   
 **适用于**： Outlook 
   
-指定清理全局**ObjectID**。
+指示向组织者发送给所有与会者的最后一个序列号。
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidCleanGlobalObjId  <br/> |
-|属性进行设置：  <br/> |PSETID_Meeting  <br/> |
-|长 ID （盖）：  <br/> |0x00000023  <br/> |
-|数据类型：  <br/> |PT_BINARY  <br/> |
+|关联的属性：  <br/> |dispidApptLastSequence  <br/> |
+|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
+|长 ID （盖）：  <br/> |0x00008203  <br/> |
+|数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
 ## <a name="remarks"></a>备注
 
-此属性的格式为**LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) 的相同。 此属性的值必须等于的**LID_GLOBAL_OBJID**，除 YH YL、 M、 值和 D 字段必须为零。 引用的定期系列 （包括孤立实例），以及定期系列本身，实例的所有对象都将都具有相同的该属性值。
+此属性没有任何意义 attendee。
   
 ## <a name="related-resources"></a>相关资源
 

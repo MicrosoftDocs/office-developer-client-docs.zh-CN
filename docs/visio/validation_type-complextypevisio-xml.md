@@ -10,7 +10,7 @@ ms.openlocfilehash: 26e7dec4ea54e118afd85ec25f334e69849a57dc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19781624"
 ---
 # <a name="validationtype-complextype-visio-xml"></a>Validation_Type 复杂类型 (Visio XML)

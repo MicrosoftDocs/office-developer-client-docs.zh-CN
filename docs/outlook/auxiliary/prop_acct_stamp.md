@@ -11,7 +11,7 @@ ms.openlocfilehash: ec1824d8c8c61d392b4e11cdb5213a85100d971e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19774445"
 ---
 # <a name="propacctstamp"></a>PROP_ACCT_STAMP

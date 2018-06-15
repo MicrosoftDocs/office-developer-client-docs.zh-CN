@@ -16,7 +16,7 @@ ms.openlocfilehash: fa279962043f6f7cb7a134b624000c9c7e65369f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19775263"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry

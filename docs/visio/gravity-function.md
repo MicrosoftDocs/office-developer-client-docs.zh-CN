@@ -13,7 +13,7 @@ ms.openlocfilehash: 0d8b0160c7e7d63fb5a272219a2694d35e6e6b61
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19780356"
 ---
 # <a name="gravity-function"></a>GRAVITY 函数

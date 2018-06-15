@@ -11,7 +11,7 @@ ms.openlocfilehash: 93c12a3eed1c7298b37f143fc836ad90ec3b09ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19780168"
 ---
 # <a name="embellishmentindex-cell-theme-properties-section"></a>EmbellishmentIndex 单元格 (主题 Properties)

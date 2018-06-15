@@ -1,5 +1,5 @@
 ---
-title: PidLidCleanGlobalObjectId 规范属性
+title: PidLidHomeAddress 规范属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,37 +7,37 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- PidLidCleanGlobalObjectId
+- PidLidHomeAddress
 api_type:
 - COM
-ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
+ms.assetid: 5e9c4258-46de-476e-8a64-be9e35a23a8b
 description: 上次修改时间： 2015 年 3 月 9 日
-ms.openlocfilehash: a784c91a04cce572c8e30085b1760c28296a1d53
+ms.openlocfilehash: 00f40a443d6ab730c8b612fd0fdfd93a1fd5cf52
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
-ms.locfileid: "19776730"
+ms.locfileid: "19776878"
 ---
-# <a name="pidlidcleanglobalobjectid-canonical-property"></a>PidLidCleanGlobalObjectId 规范属性
+# <a name="pidlidhomeaddress-canonical-property"></a>PidLidHomeAddress 规范属性
 
   
   
 **适用于**： Outlook 
   
-指定清理全局**ObjectID**。
+指定联系人的住宅地址的完整地址。
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidCleanGlobalObjId  <br/> |
-|属性进行设置：  <br/> |PSETID_Meeting  <br/> |
-|长 ID （盖）：  <br/> |0x00000023  <br/> |
-|数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |会议  <br/> |
+|关联的属性：  <br/> |dispidHomeAddress  <br/> |
+|属性进行设置：  <br/> |PSETID_Address  <br/> |
+|长 ID （盖）：  <br/> |0x0000801A  <br/> |
+|数据类型：  <br/> |PT_UNICODE  <br/> |
+|区域：  <br/> |联系人  <br/> |
    
 ## <a name="remarks"></a>备注
 
-此属性的格式为**LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) 的相同。 此属性的值必须等于的**LID_GLOBAL_OBJID**，除 YH YL、 M、 值和 D 字段必须为零。 引用的定期系列 （包括孤立实例），以及定期系列本身，实例的所有对象都将都具有相同的该属性值。
+此属性应为其他物理地址属性的组合，并基于客户端区域设置。
   
 ## <a name="related-resources"></a>相关资源
 
@@ -47,9 +47,9 @@ ms.locfileid: "19776730"
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定的属性和操作所允许的联系人和个人通讯组列表。
     
 ### <a name="header-files"></a>头文件
 
