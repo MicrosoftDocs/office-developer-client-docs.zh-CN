@@ -16,16 +16,16 @@ ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19775598"
 ---
-# <a name="imapisupportcompletemsg"></a><span data-ttu-id="d794c-103">IMAPISupport::CompleteMsg</span><span class="sxs-lookup"><span data-stu-id="d794c-103">IMAPISupport::CompleteMsg</span></span>
+# <a name="imapisupportcompletemsg"></a><span data-ttu-id="20130-103">IMAPISupport::CompleteMsg</span><span class="sxs-lookup"><span data-stu-id="20130-103">IMAPISupport::CompleteMsg</span></span>
 
   
   
-<span data-ttu-id="d794c-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="d794c-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="20130-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="20130-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="d794c-105">执行上一条消息后处理。</span><span class="sxs-lookup"><span data-stu-id="d794c-105">Performs postprocessing on a message.</span></span> 
+<span data-ttu-id="20130-105">执行上一条消息后处理。</span><span class="sxs-lookup"><span data-stu-id="20130-105">Performs postprocessing on a message.</span></span> 
   
 ```cpp
 HRESULT CompleteMsg(
@@ -35,41 +35,41 @@ HRESULT CompleteMsg(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d794c-106">参数</span><span class="sxs-lookup"><span data-stu-id="d794c-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="20130-106">参数</span><span class="sxs-lookup"><span data-stu-id="20130-106">Parameters</span></span>
 
- <span data-ttu-id="d794c-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="d794c-107">_ulFlags_</span></span>
+ <span data-ttu-id="20130-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="20130-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="d794c-108">[in]保留;必须为零。</span><span class="sxs-lookup"><span data-stu-id="d794c-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="20130-108">[in]保留;必须为零。</span><span class="sxs-lookup"><span data-stu-id="20130-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="d794c-109">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="d794c-109">_cbEntryID_</span></span>
+ <span data-ttu-id="20130-109">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="20130-109">_cbEntryID_</span></span>
   
-> <span data-ttu-id="d794c-110">[in]在_lpEntryID_参数指向的项标识符的字节数。</span><span class="sxs-lookup"><span data-stu-id="d794c-110">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="20130-110">[in]在_lpEntryID_参数指向的项标识符的字节数。</span><span class="sxs-lookup"><span data-stu-id="20130-110">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="d794c-111">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="d794c-111">_lpEntryID_</span></span>
+ <span data-ttu-id="20130-111">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="20130-111">_lpEntryID_</span></span>
   
-> <span data-ttu-id="d794c-112">[in]指向要处理的消息的项标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="d794c-112">[in] A pointer to the entry identifier of the message to process.</span></span>
+> <span data-ttu-id="20130-112">[in]指向要处理的消息的项标识符的指针。</span><span class="sxs-lookup"><span data-stu-id="20130-112">[in] A pointer to the entry identifier of the message to process.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d794c-113">返回值</span><span class="sxs-lookup"><span data-stu-id="d794c-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="20130-113">返回值</span><span class="sxs-lookup"><span data-stu-id="20130-113">Return value</span></span>
 
-<span data-ttu-id="d794c-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="d794c-114">S_OK</span></span> 
+<span data-ttu-id="20130-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="20130-114">S_OK</span></span> 
   
-> <span data-ttu-id="d794c-115">后处理过程成功。</span><span class="sxs-lookup"><span data-stu-id="d794c-115">The postprocessing was successful.</span></span>
+> <span data-ttu-id="20130-115">后处理过程成功。</span><span class="sxs-lookup"><span data-stu-id="20130-115">The postprocessing was successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="d794c-116">备注</span><span class="sxs-lookup"><span data-stu-id="d794c-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="20130-116">注解</span><span class="sxs-lookup"><span data-stu-id="20130-116">Remarks</span></span>
 
-<span data-ttu-id="d794c-117">**IMAPISupport::CompleteMsg**方法实现的消息存储提供程序支持对象和只能由与传输提供程序紧密耦合的消息存储提供程序调用。</span><span class="sxs-lookup"><span data-stu-id="d794c-117">The **IMAPISupport::CompleteMsg** method is implemented for message store provider support objects and is called only by message store providers that are tightly coupled with transport providers.</span></span> <span data-ttu-id="d794c-118">紧密耦合的存储提供程序调用**IMAPISupport::CompleteMsg**以指示 MAPI 后台处理程序后置处理一条消息。</span><span class="sxs-lookup"><span data-stu-id="d794c-118">Tightly coupled store providers call **IMAPISupport::CompleteMsg** to instruct the MAPI spooler to postprocess a message.</span></span> 
+<span data-ttu-id="20130-117">**IMAPISupport::CompleteMsg**方法实现的消息存储提供程序支持对象和只能由与传输提供程序紧密耦合的消息存储提供程序调用。</span><span class="sxs-lookup"><span data-stu-id="20130-117">The **IMAPISupport::CompleteMsg** method is implemented for message store provider support objects and is called only by message store providers that are tightly coupled with transport providers.</span></span> <span data-ttu-id="20130-118">紧密耦合的存储提供程序调用**IMAPISupport::CompleteMsg**以指示 MAPI 后台处理程序后置处理一条消息。</span><span class="sxs-lookup"><span data-stu-id="20130-118">Tightly coupled store providers call **IMAPISupport::CompleteMsg** to instruct the MAPI spooler to postprocess a message.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="d794c-119">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="d794c-119">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="20130-119">给调用方的说明</span><span class="sxs-lookup"><span data-stu-id="20130-119">Notes to callers</span></span>
 
-<span data-ttu-id="d794c-120">仅当紧密结合传输提供程序，您可以处理所有收件人，并且存在以下情况之一时，请调用**CompleteMsg** :</span><span class="sxs-lookup"><span data-stu-id="d794c-120">Call **CompleteMsg** only when you are tightly coupled with a transport provider, you can handle all of the message's recipients, and one of the following conditions exists:</span></span> 
+<span data-ttu-id="20130-120">仅当紧密结合传输提供程序，您可以处理所有收件人，并且存在以下情况之一时，请调用**CompleteMsg** :</span><span class="sxs-lookup"><span data-stu-id="20130-120">Call **CompleteMsg** only when you are tightly coupled with a transport provider, you can handle all of the message's recipients, and one of the following conditions exists:</span></span> 
   
-- <span data-ttu-id="d794c-121">邮件已预处理。</span><span class="sxs-lookup"><span data-stu-id="d794c-121">The message was preprocessed.</span></span>
+- <span data-ttu-id="20130-121">邮件已预处理。</span><span class="sxs-lookup"><span data-stu-id="20130-121">The message was preprocessed.</span></span>
     
-- <span data-ttu-id="d794c-122">邮件需要后处理 MAPI 后台打印程序。</span><span class="sxs-lookup"><span data-stu-id="d794c-122">The message requires postprocessing by the MAPI spooler.</span></span>
+- <span data-ttu-id="20130-122">邮件需要后处理 MAPI 后台打印程序。</span><span class="sxs-lookup"><span data-stu-id="20130-122">The message requires postprocessing by the MAPI spooler.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d794c-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d794c-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="20130-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="20130-123">See also</span></span>
 
 
 
-[<span data-ttu-id="d794c-124">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="d794c-124">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="20130-124">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="20130-124">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
