@@ -12,7 +12,7 @@ ms.openlocfilehash: 863c95856f3198c74bb9d72881154676386f6a9f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19778915"
 ---
 # <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>支持格式中传入消息的文本： 客户端职责

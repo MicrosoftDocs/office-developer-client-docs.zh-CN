@@ -21,7 +21,7 @@ ms.openlocfilehash: 8e2ee8730e737408899b6fe26ce55210e0c68e81
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19779544"
 ---
 # <a name="project-2013-programming-references"></a>Project 2013 编程参考文档

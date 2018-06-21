@@ -12,7 +12,7 @@ ms.openlocfilehash: 4d1bc5fc5a5e304d81ab4252a527d0e52b0d6e3c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19776413"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>映射到 MAPI 属性的 Internet 邮件属性

@@ -12,7 +12,7 @@ ms.openlocfilehash: 1277998edf4feb94da40d82372fd4d96fedf2d54
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19774038"
 ---
 # <a name="work-with-digital-signatures"></a>使用数字签名

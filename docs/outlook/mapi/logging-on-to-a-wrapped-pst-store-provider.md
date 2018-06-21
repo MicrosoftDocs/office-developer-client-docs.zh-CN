@@ -10,7 +10,7 @@ ms.openlocfilehash: 2dfa3820d8d2ab57f278e90bef5d5a40164da6fc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19776139"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>登录到换行的 PST 存储提供程序

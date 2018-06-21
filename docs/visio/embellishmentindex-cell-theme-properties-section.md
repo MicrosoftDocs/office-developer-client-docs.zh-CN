@@ -11,14 +11,14 @@ ms.openlocfilehash: 93c12a3eed1c7298b37f143fc836ad90ec3b09ab
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19780168"
 ---
 # <a name="embellishmentindex-cell-theme-properties-section"></a>EmbellishmentIndex 单元格 (主题 Properties)
 
 更改外观 （修饰符） 的标注、 容器、 时间线和组织结构图形状。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**EmbellishmentIndex**单元格的引用，请使用： 
   

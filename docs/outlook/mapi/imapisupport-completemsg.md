@@ -16,7 +16,7 @@ ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19775598"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
@@ -55,7 +55,7 @@ S_OK
   
 > 后处理过程成功。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **IMAPISupport::CompleteMsg**方法实现的消息存储提供程序支持对象和只能由与传输提供程序紧密耦合的消息存储提供程序调用。 紧密耦合的存储提供程序调用**IMAPISupport::CompleteMsg**以指示 MAPI 后台处理程序后置处理一条消息。 
   
