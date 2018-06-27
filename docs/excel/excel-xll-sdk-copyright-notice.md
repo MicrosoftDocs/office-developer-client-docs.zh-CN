@@ -11,7 +11,7 @@ ms.openlocfilehash: 0d01f908fb43215cb7d61a55220e3abe37157feb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "19773734"
 ---
 # <a name="excel-xll-sdk-copyright-notice"></a>Excel XLL SDK 版权声明
