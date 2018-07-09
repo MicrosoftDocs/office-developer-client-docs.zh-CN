@@ -202,7 +202,7 @@ ms.locfileid: "19779601"
   
  <span data-ttu-id="793df-269">_bstrProgID_</span><span class="sxs-lookup"><span data-stu-id="793df-269">_bstrProgID_</span></span>
   
-<span data-ttu-id="793df-270">标识双向通信使用者的 COM 的对象。</span><span class="sxs-lookup"><span data-stu-id="793df-270">Identifies the consumer's COM object for two-way communication.</span></span> <span data-ttu-id="793df-271">非空值必须为最多为 39 个字符。</span><span class="sxs-lookup"><span data-stu-id="793df-271">Must be non-empty with a maximum of 39 characters.</span></span> <span data-ttu-id="793df-272">请参阅[\<ProgID\>键](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx)的 Progid 的详细信息。</span><span class="sxs-lookup"><span data-stu-id="793df-272">See [\<ProgID\> Key](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx) for more information on ProgIDs.</span></span> 
+<span data-ttu-id="793df-270">标识双向通信使用者的 COM 的对象。</span><span class="sxs-lookup"><span data-stu-id="793df-270">Identifies the consumer's COM object for two-way communication.</span></span> <span data-ttu-id="793df-271">非空值必须为最多为 39 个字符。</span><span class="sxs-lookup"><span data-stu-id="793df-271">Must be non-empty with a maximum of 39 characters.</span></span> <span data-ttu-id="793df-272">请参阅[\<ProgID\>键](http://msdn.microsoft.com/zh-cn/library/ms690196.aspx.aspx)的 Progid 的详细信息。</span><span class="sxs-lookup"><span data-stu-id="793df-272">See [\<ProgID\> Key](http://msdn.microsoft.com/zh-cn/library/ms690196.aspx.aspx) for more information on ProgIDs.</span></span> 
   
  <span data-ttu-id="793df-273">_bstrFileSystemDirectoryHint_</span><span class="sxs-lookup"><span data-stu-id="793df-273">_bstrFileSystemDirectoryHint_</span></span>
   

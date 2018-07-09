@@ -94,7 +94,7 @@ HRESULT OpenProfileSection(
   
 <span data-ttu-id="08ed9-144">如果您请求**OpenProfileSection**具有只读权限打开不存在的节，则将返回 MAPI_E_NOT_FOUND。</span><span class="sxs-lookup"><span data-stu-id="08ed9-144">If you request that **OpenProfileSection** open a nonexistent section with read-only permission, it returns MAPI_E_NOT_FOUND.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="08ed9-145">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="08ed9-145">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="08ed9-145">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="08ed9-145">MFCMAPI reference</span></span>
 
 <span data-ttu-id="08ed9-146">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="08ed9-146">For MFCMAPI sample code, see the following table.</span></span>
   

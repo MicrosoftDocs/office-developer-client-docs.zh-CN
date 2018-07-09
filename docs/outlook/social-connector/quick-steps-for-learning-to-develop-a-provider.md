@@ -75,5 +75,5 @@ ms.locfileid: "19779327"
   
 ## <a name="see-also"></a><span data-ttu-id="3af07-144">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3af07-144">See also</span></span>
 
-- [<span data-ttu-id="3af07-145">Outlook Social Connector 提供程序开发入门（英文）</span><span class="sxs-lookup"><span data-stu-id="3af07-145">Getting Started with Developing an Outlook Social Connector Provider</span></span>](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [<span data-ttu-id="3af07-145">Outlook Social Connector 提供程序开发入门</span><span class="sxs-lookup"><span data-stu-id="3af07-145">Getting Started with Developing an Outlook Social Connector Provider</span></span>](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

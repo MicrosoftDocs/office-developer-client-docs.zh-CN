@@ -67,7 +67,7 @@ HRESULT CopyMessage(
     
 <span data-ttu-id="92043-123">向窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。</span><span class="sxs-lookup"><span data-stu-id="92043-123">For a list of interfaces that are related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="92043-124">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="92043-124">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="92043-124">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="92043-124">MFCMAPI reference</span></span>
 
 <span data-ttu-id="92043-125">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="92043-125">For MFCMAPI sample code, see the following table.</span></span>
   

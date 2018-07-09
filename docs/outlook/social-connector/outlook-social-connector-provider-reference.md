@@ -48,7 +48,7 @@ ms.locfileid: "19779323"
 ## <a name="see-also"></a><span data-ttu-id="0e7fb-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0e7fb-123">See also</span></span>
 
 - [<span data-ttu-id="0e7fb-124">Outlook Social Connector 2013 提供程序参考版权声明</span><span class="sxs-lookup"><span data-stu-id="0e7fb-124">Outlook Social Connector 2013 provider reference copyright notice</span></span>](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
-- [<span data-ttu-id="0e7fb-125">文档约定</span><span class="sxs-lookup"><span data-stu-id="0e7fb-125">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
+- [<span data-ttu-id="0e7fb-125">文档约定</span><span class="sxs-lookup"><span data-stu-id="0e7fb-125">Document Conventions</span></span>](http://msdn.microsoft.com/zh-cn/office/aa905365.aspx)   
 - [<span data-ttu-id="0e7fb-126">Microsoft 产品中的辅助功能</span><span class="sxs-lookup"><span data-stu-id="0e7fb-126">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)  
 - [<span data-ttu-id="0e7fb-127">Microsoft 联机隐私声明</span><span class="sxs-lookup"><span data-stu-id="0e7fb-127">Microsoft Online Privacy Notice</span></span>](https://privacy.microsoft.com/en-us/privacystatement)
     

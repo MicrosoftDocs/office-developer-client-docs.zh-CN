@@ -35,17 +35,17 @@ ms.locfileid: "19779409"
 [<span data-ttu-id="05fd6-119">批量更新自定义字段和从 Project Online 中的工作流创建项目网站</span><span class="sxs-lookup"><span data-stu-id="05fd6-119">Bulk update custom fields and create project sites from a Project Online workflow</span></span>](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
 
 
-[<span data-ttu-id="05fd6-120">SharePoint Designer 2013 和 Visio 2013 中的工作流开发</span><span class="sxs-lookup"><span data-stu-id="05fd6-120">Workflow development in SharePoint Designer 2013 and Visio 2013</span></span>](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
+[<span data-ttu-id="05fd6-120">SharePoint Designer 2013 和 Visio 2013 中的工作流开发</span><span class="sxs-lookup"><span data-stu-id="05fd6-120">Workflow development in SharePoint Designer 2013 and Visio 2013</span></span>](http://msdn.microsoft.com/zh-cn/library/jj163272%28office.15%29.aspx)
   
-[<span data-ttu-id="05fd6-121">SharePoint 工作流的新增功能</span><span class="sxs-lookup"><span data-stu-id="05fd6-121">What's new in workflows for SharePoint 2013</span></span>](http://msdn.microsoft.com/en-us/library/jj163177.aspx)
+[<span data-ttu-id="05fd6-121">SharePoint 工作流的新增功能</span><span class="sxs-lookup"><span data-stu-id="05fd6-121">What's new in workflows for SharePoint 2013</span></span>](http://msdn.microsoft.com/zh-cn/library/jj163177.aspx)
   
-[<span data-ttu-id="05fd6-122">使用 Visual Studio 开发 SharePoint 2013 工作流</span><span class="sxs-lookup"><span data-stu-id="05fd6-122">Develop SharePoint 2013 workflows using Visual Studio</span></span>](http://msdn.microsoft.com/en-us/library/jj163199.aspx)
+[<span data-ttu-id="05fd6-122">使用 Visual Studio 开发 SharePoint 2013 工作流</span><span class="sxs-lookup"><span data-stu-id="05fd6-122">Develop SharePoint 2013 workflows using Visual Studio</span></span>](http://msdn.microsoft.com/zh-cn/library/jj163199.aspx)
   
 [<span data-ttu-id="05fd6-123">创建项目工作流使用 Visual Studio 2012</span><span class="sxs-lookup"><span data-stu-id="05fd6-123">Creating Project Workflows using Visual Studio 2012</span></span>](http://blogs.msdn.com/b/project_programmability/archive/2012/11/07/creating-project-workflows-using-visual-studio-2012.aspx)
   
-[<span data-ttu-id="05fd6-124">Windows Workflow Foundation</span><span class="sxs-lookup"><span data-stu-id="05fd6-124">Windows Workflow Foundation</span></span>](http://msdn.microsoft.com/en-us/library/dd489441.aspx)
+[<span data-ttu-id="05fd6-124">Windows Workflow Foundation</span><span class="sxs-lookup"><span data-stu-id="05fd6-124">Windows Workflow Foundation</span></span>](http://msdn.microsoft.com/zh-cn/library/dd489441.aspx)
   
-[<span data-ttu-id="05fd6-125">开发人员的简介到 Windows Workflow Foundation (WF).NET 4 中</span><span class="sxs-lookup"><span data-stu-id="05fd6-125">A developer's introduction to Windows Workflow Foundation (WF) in .NET 4</span></span>](http://msdn.microsoft.com/en-us/library/ee342461.aspx)
+[<span data-ttu-id="05fd6-125">开发人员的简介到 Windows Workflow Foundation (WF).NET 4 中</span><span class="sxs-lookup"><span data-stu-id="05fd6-125">A developer's introduction to Windows Workflow Foundation (WF) in .NET 4</span></span>](http://msdn.microsoft.com/zh-cn/library/ee342461.aspx)
   
-[<span data-ttu-id="05fd6-126">(White paper) 的需求管理漫游指南</span><span class="sxs-lookup"><span data-stu-id="05fd6-126">Hitchhiker's guide to demand management (white paper)</span></span>](http://msdn.microsoft.com/en-us/library/ff973112.aspx)
+[<span data-ttu-id="05fd6-126">(White paper) 的需求管理漫游指南</span><span class="sxs-lookup"><span data-stu-id="05fd6-126">Hitchhiker's guide to demand management (white paper)</span></span>](http://msdn.microsoft.com/zh-cn/library/ff973112.aspx)
 

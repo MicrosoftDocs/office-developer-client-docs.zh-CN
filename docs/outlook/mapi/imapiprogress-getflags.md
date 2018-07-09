@@ -63,7 +63,7 @@ HRESULT GetFlags(
 
 <span data-ttu-id="66113-128">显示进度指示器，使您第一次调用**IMAPIProgress::GetFlags**调用。</span><span class="sxs-lookup"><span data-stu-id="66113-128">When you display a progress indicator, make your first call a call to **IMAPIProgress::GetFlags**.</span></span> <span data-ttu-id="66113-129">返回的值应为 MAPI_TOP_LEVEL，因为所有实现都初始化_lpulFlags_参数为此值的内容。</span><span class="sxs-lookup"><span data-stu-id="66113-129">The returned value should be MAPI_TOP_LEVEL, because all implementations initialize the contents of the  _lpulFlags_ parameter to this value.</span></span> <span data-ttu-id="66113-130">调用进度对象的顺序的详细信息，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。</span><span class="sxs-lookup"><span data-stu-id="66113-130">For more information about the sequence of calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="66113-131">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="66113-131">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="66113-131">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="66113-131">MFCMAPI reference</span></span>
 
 <span data-ttu-id="66113-132">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="66113-132">For MFCMAPI sample code, see the following table.</span></span>
   

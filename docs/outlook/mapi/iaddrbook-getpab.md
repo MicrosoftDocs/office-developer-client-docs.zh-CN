@@ -54,7 +54,7 @@ HRESULT GetPAB(
 
 <span data-ttu-id="ad7f9-116">客户端调用**GetPAB**方法检索的项标识符指定为 PAB 的容器。</span><span class="sxs-lookup"><span data-stu-id="ad7f9-116">Clients call the **GetPAB** method to retrieve the entry identifier of the container designated as the PAB.</span></span> <span data-ttu-id="ad7f9-117">如果尚未配置文件中建立 PAB，MAPI 选择作为 PAB 第一个容器允许进行修改的通讯簿层次结构中。</span><span class="sxs-lookup"><span data-stu-id="ad7f9-117">If a PAB has not been established in the profile, MAPI selects as the PAB the first container in the address book hierarchy that allows modifications.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="ad7f9-118">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="ad7f9-118">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ad7f9-118">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="ad7f9-118">MFCMAPI reference</span></span>
 
 <span data-ttu-id="ad7f9-119">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="ad7f9-119">For MFCMAPI sample code, see the following table.</span></span>
   

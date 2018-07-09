@@ -10,7 +10,7 @@ f1_keywords:
 - PSI code samples
 - PSI programming
 keywords:
-- 代码示例、 project server、 Project Server 编程 PSI，编译代码示例，PSI，编程 （英文）
+- 代码示例、 project server、 Project Server 编程 PSI，编译代码示例，PSI，编程
 localization_priority: Normal
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
 description: 了解可帮助您使用 Project Server 接口 (PSI) 参考主题中包含的基于 ASMX 的代码示例在 Visual Studio 中创建项目的信息。

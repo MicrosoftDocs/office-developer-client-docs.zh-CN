@@ -63,7 +63,7 @@ LPSPropValue PpropFindProp(
 
 <span data-ttu-id="ac46d-122">如果给定的属性标记指示 PT_UNSPECIFIED 类型的属性， **PpropFindProp**函数标记中找到仅属性标识符的匹配项。</span><span class="sxs-lookup"><span data-stu-id="ac46d-122">If the given property tag indicates a property of type PT_UNSPECIFIED, the **PpropFindProp** function finds a match only for the property identifier in the tag.</span></span> <span data-ttu-id="ac46d-123">否则为它找到匹配项整个属性标记，其中包括属性类型，并返回标识的属性。</span><span class="sxs-lookup"><span data-stu-id="ac46d-123">Otherwise, it finds a match for the entire property tag, including the property type, and returns the property identified.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="ac46d-124">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="ac46d-124">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ac46d-124">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="ac46d-124">MFCMAPI reference</span></span>
 
 <span data-ttu-id="ac46d-125">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="ac46d-125">For MFCMAPI sample code, see the following table.</span></span>
   

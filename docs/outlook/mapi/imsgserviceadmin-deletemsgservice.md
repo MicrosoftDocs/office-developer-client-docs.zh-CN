@@ -67,7 +67,7 @@ HRESULT DeleteMsgService(
 
 <span data-ttu-id="85e6b-124">若要检索要删除的消息服务的**MAPIUID**结构，请从邮件服务表中的消息服务的行中检索**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性列。</span><span class="sxs-lookup"><span data-stu-id="85e6b-124">To retrieve the **MAPIUID** structure for the message service to delete, retrieve the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property column from the message service's row in the message service table.</span></span> <span data-ttu-id="85e6b-125">有关详细信息，请参阅[IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md)方法中概述的过程。</span><span class="sxs-lookup"><span data-stu-id="85e6b-125">For more information, see the procedure outlined in the [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) method.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="85e6b-126">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="85e6b-126">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="85e6b-126">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="85e6b-126">MFCMAPI reference</span></span>
 
 <span data-ttu-id="85e6b-127">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="85e6b-127">For MFCMAPI sample code, see the following table.</span></span>
   

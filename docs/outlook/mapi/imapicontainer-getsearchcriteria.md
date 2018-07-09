@@ -100,7 +100,7 @@ HRESULT GetSearchCriteria(
 
 <span data-ttu-id="94cb0-150">在完成时与指向由_lppRestriction_和_lppContainerList_参数的数据结构，调用[MAPIFreeBuffer](mapifreebuffer.md)一次为每个结构必须释放。</span><span class="sxs-lookup"><span data-stu-id="94cb0-150">When you are finished with the data structures pointed to by the  _lppRestriction_ and  _lppContainerList_ parameters, call [MAPIFreeBuffer](mapifreebuffer.md) once for each structure to be released.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="94cb0-151">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="94cb0-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="94cb0-151">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="94cb0-151">MFCMAPI reference</span></span>
 
 <span data-ttu-id="94cb0-152">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="94cb0-152">For MFCMAPI sample code, see the following table.</span></span>
   

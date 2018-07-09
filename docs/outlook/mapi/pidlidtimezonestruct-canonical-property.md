@@ -25,7 +25,7 @@ ms.locfileid: "19777115"
   
 <span data-ttu-id="2ccab-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="2ccab-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="2ccab-105">包含映射到[TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx)结构，其中介绍了用于定期约会或会议请求的开始和结束时间的时区的持久化格式的流。</span><span class="sxs-lookup"><span data-stu-id="2ccab-105">Contains a stream that maps to the persisted format of a [TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx) structure, which describes the time zone to be used for the start and end time of a recurring appointment or meeting request.</span></span> 
+<span data-ttu-id="2ccab-105">包含映射到[TZREG](http://msdn.microsoft.com/zh-cn/library/bb820983%28v=office.12%29.aspx)结构，其中介绍了用于定期约会或会议请求的开始和结束时间的时区的持久化格式的流。</span><span class="sxs-lookup"><span data-stu-id="2ccab-105">Contains a stream that maps to the persisted format of a [TZREG](http://msdn.microsoft.com/zh-cn/library/bb820983%28v=office.12%29.aspx) structure, which describes the time zone to be used for the start and end time of a recurring appointment or meeting request.</span></span> 
   
 |||
 |:-----|:-----|

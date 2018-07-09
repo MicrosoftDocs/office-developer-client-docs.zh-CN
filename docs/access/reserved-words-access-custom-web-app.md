@@ -19,7 +19,7 @@ ms.locfileid: "19773613"
 <span data-ttu-id="250d7-105">Microsoft Access 定义、 操作和访问数据库中用于保留的关键字。</span><span class="sxs-lookup"><span data-stu-id="250d7-105">Microsoft Access uses reserved keywords for defining, manipulating, and accessing databases.</span></span> <span data-ttu-id="250d7-106">保留的关键字属于的语言的由访问用于分析和了解 SQL 语句的语法。</span><span class="sxs-lookup"><span data-stu-id="250d7-106">Reserved keywords are part of the grammar of the language that is used by Access to parse and understand SQL statements.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="250d7-p103">[!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="250d7-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="250d7-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="250d7-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="access-reserved-keywords"></a><span data-ttu-id="250d7-109">访问保留关键字</span><span class="sxs-lookup"><span data-stu-id="250d7-109">Access reserved keywords</span></span>
 

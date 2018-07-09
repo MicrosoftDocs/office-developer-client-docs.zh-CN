@@ -38,7 +38,7 @@ ms.locfileid: "19778274"
 
 <span data-ttu-id="a55f1-115">条件表示为**限制**，并且**PropertyValue**缓冲区包含打包为[[MS OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)中指定的**限制**结构。</span><span class="sxs-lookup"><span data-stu-id="a55f1-115">The condition is expressed as a **Restriction** and the **PropertyValue** buffer contains the **Restriction** structure packaged as specified in [[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="a55f1-116">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="a55f1-116">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="a55f1-116">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="a55f1-116">MFCMAPI reference</span></span>
 
 <span data-ttu-id="a55f1-117">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="a55f1-117">For MFCMAPI sample code, see the following table.</span></span>
   

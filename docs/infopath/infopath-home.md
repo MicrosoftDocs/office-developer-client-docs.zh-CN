@@ -36,6 +36,6 @@ ms.locfileid: "19774096"
   
 - [<span data-ttu-id="1f536-113">InfoPath 2013 支持</span><span class="sxs-lookup"><span data-stu-id="1f536-113">InfoPath 2013 support</span></span>](http://support.microsoft.com/ph/920)
   
-- [<span data-ttu-id="1f536-114">Microsoft 社区</span><span class="sxs-lookup"><span data-stu-id="1f536-114">Microsoft community</span></span>](http://answers.microsoft.com/en-us/office/forum/infopath)
+- [<span data-ttu-id="1f536-114">Microsoft 社区</span><span class="sxs-lookup"><span data-stu-id="1f536-114">Microsoft community</span></span>](http://answers.microsoft.com/zh-cn/office/forum/infopath)
   
 

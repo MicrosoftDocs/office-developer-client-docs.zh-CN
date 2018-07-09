@@ -109,7 +109,7 @@ HRESULT SetReadFlag(
   
 <span data-ttu-id="b3790-149">您可以通过消除在某些情况下的阅读报告的生成优化报表行为。</span><span class="sxs-lookup"><span data-stu-id="b3790-149">You can optimize report behavior by suppressing the generation of read reports under certain conditions.</span></span> <span data-ttu-id="b3790-150">但是，如果您不支持报告的禁止显示设置了 SUPPRESS_RECEIPT 标志在客户端调用**SetReadFlag** ，返回 MAPI_E_NO_SUPPRESS。</span><span class="sxs-lookup"><span data-stu-id="b3790-150">However, if you do not support the suppression of reports and a client calls **SetReadFlag** with the SUPPRESS_RECEIPT flag set, return MAPI_E_NO_SUPPRESS.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="b3790-151">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="b3790-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="b3790-151">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="b3790-151">MFCMAPI reference</span></span>
 
 <span data-ttu-id="b3790-152">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="b3790-152">For MFCMAPI sample code, see the following table.</span></span>
   

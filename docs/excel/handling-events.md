@@ -18,7 +18,7 @@ ms.locfileid: "19773746"
 
  <span data-ttu-id="857f3-104">**适用于**： Excel 2013 |Office 2013 |Visual Studio</span><span class="sxs-lookup"><span data-stu-id="857f3-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="857f3-105">启动在 Excel 2010 xll （英文） 可以接收旨在管理的异步函数生命周期的事件。</span><span class="sxs-lookup"><span data-stu-id="857f3-105">Starting in Excel 2010, XLLs can receive events designed to manage the asynchronous function life cycle.</span></span> <span data-ttu-id="857f3-106">事件如下所示：</span><span class="sxs-lookup"><span data-stu-id="857f3-106">The events are as follows:</span></span>
+<span data-ttu-id="857f3-105">启动在 Excel 2010 xll 可以接收旨在管理的异步函数生命周期的事件。</span><span class="sxs-lookup"><span data-stu-id="857f3-105">Starting in Excel 2010, XLLs can receive events designed to manage the asynchronous function life cycle.</span></span> <span data-ttu-id="857f3-106">事件如下所示：</span><span class="sxs-lookup"><span data-stu-id="857f3-106">The events are as follows:</span></span>
   
 - <span data-ttu-id="857f3-107">**CalculationEnded**： 引发完成 Excel 计算。</span><span class="sxs-lookup"><span data-stu-id="857f3-107">**CalculationEnded**: Raised when Excel is finished calculating.</span></span> <span data-ttu-id="857f3-108">此事件之后，您可以释放计算过程中分配资源。</span><span class="sxs-lookup"><span data-stu-id="857f3-108">After this event, you can free resources allocated during the calculation.</span></span>
     

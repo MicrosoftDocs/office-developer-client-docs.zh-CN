@@ -21,7 +21,7 @@ ms.locfileid: "19779635"
 <span data-ttu-id="f3f17-104">您可以添加、 显示、 隐藏和删除 ShapeSheet 中的部分。</span><span class="sxs-lookup"><span data-stu-id="f3f17-104">You can add, show, hide, and delete sections in the ShapeSheet.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="f3f17-105">如果您想要将您自己的自定义节添加到 shapesheet （英文），使用[用户定义的单元格](user-defined-cells-section.md)或[空闲](scratch-section.md)部分定义 ShapeSheet 逻辑。</span><span class="sxs-lookup"><span data-stu-id="f3f17-105">If you want to add your own custom section to the ShapeSheet, use the [User-defined Cells](user-defined-cells-section.md) or [Scratch](scratch-section.md) sections to define your ShapeSheet logic.</span></span> 
+> <span data-ttu-id="f3f17-105">如果您想要将您自己的自定义节添加到 shapesheet，使用[用户定义的单元格](user-defined-cells-section.md)或[空闲](scratch-section.md)部分定义 ShapeSheet 逻辑。</span><span class="sxs-lookup"><span data-stu-id="f3f17-105">If you want to add your own custom section to the ShapeSheet, use the [User-defined Cells](user-defined-cells-section.md) or [Scratch](scratch-section.md) sections to define your ShapeSheet logic.</span></span> 
   
 ### <a name="to-add-a-section"></a><span data-ttu-id="f3f17-106">若要添加内容</span><span class="sxs-lookup"><span data-stu-id="f3f17-106">To add a section</span></span>
 

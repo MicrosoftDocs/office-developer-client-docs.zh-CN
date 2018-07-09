@@ -84,7 +84,7 @@ HRESULT OpenAttach(
   
 <span data-ttu-id="b031d-137">您可以请求的读/写模式，而不是默认只读模式中打开附件。</span><span class="sxs-lookup"><span data-stu-id="b031d-137">You can request that the attachment be opened in read/write mode, instead of the default read-only mode.</span></span> <span data-ttu-id="b031d-138">但是，是否附件实际上都将在读/写模式中打开是最多的消息存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="b031d-138">However, whether the attachment will actually be opened in read/write mode is up to the message store provider.</span></span> <span data-ttu-id="b031d-139">您可以修改附件，或者是尝试准备处理可能失败，或检查的检索附件的**PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) 属性，如果可用授予的访问级别。</span><span class="sxs-lookup"><span data-stu-id="b031d-139">You can either attempt to modify the attachment, preparing to handle possible failure, or check the level of access that was granted by retrieving the attachment's **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property, if it is available.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="b031d-140">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="b031d-140">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="b031d-140">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="b031d-140">MFCMAPI reference</span></span>
 
 <span data-ttu-id="b031d-141">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="b031d-141">For MFCMAPI sample code, see the following table.</span></span>
   

@@ -42,7 +42,7 @@ ms.locfileid: "19773628"
   
 ## <a name="enable-udfs-on-office-online-server-preview"></a><span data-ttu-id="8ca7d-119">启用在 Office Online Server Preview 的 Udf</span><span class="sxs-lookup"><span data-stu-id="8ca7d-119">Enable UDFs on Office Online Server Preview</span></span>
 
-<span data-ttu-id="8ca7d-120">当管理员使用[New-officewebappsfarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) Windows PowerShell cmdlet 创建新的 Office Web Apps Server 服务器场时，默认情况下禁用 UDF 程序集。</span><span class="sxs-lookup"><span data-stu-id="8ca7d-120">When an adminstrator creates a new Office Web Apps Server farm by using the [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) Windows PowerShell cmdlet, UDF assemblies are disabled by default.</span></span> <span data-ttu-id="8ca7d-121">**ExcelUdfsAllowed**标志的默认值为 false。</span><span class="sxs-lookup"><span data-stu-id="8ca7d-121">The default value of the **ExcelUdfsAllowed** flag is false.</span></span> 
+<span data-ttu-id="8ca7d-120">当管理员使用[New-officewebappsfarm](https://technet.microsoft.com/zh-cn/library/jj219436.aspx) Windows PowerShell cmdlet 创建新的 Office Web Apps Server 服务器场时，默认情况下禁用 UDF 程序集。</span><span class="sxs-lookup"><span data-stu-id="8ca7d-120">When an adminstrator creates a new Office Web Apps Server farm by using the [New-OfficeWebAppsFarm](https://technet.microsoft.com/zh-cn/library/jj219436.aspx) Windows PowerShell cmdlet, UDF assemblies are disabled by default.</span></span> <span data-ttu-id="8ca7d-121">**ExcelUdfsAllowed**标志的默认值为 false。</span><span class="sxs-lookup"><span data-stu-id="8ca7d-121">The default value of the **ExcelUdfsAllowed** flag is false.</span></span> 
   
 <span data-ttu-id="8ca7d-122">若要启用 Udf，请在 Office Online Server Preview 上, 运行以下 Windows PowerShell 命令创建 Office Web Apps Server 服务器场之后。</span><span class="sxs-lookup"><span data-stu-id="8ca7d-122">To enable UDFs, run the following Windows PowerShell command on the Office Online Server Preview, after the Office Web Apps Server farm has been created.</span></span>
   
@@ -87,7 +87,7 @@ ms.locfileid: "19773628"
     
 ## <a name="see-also"></a><span data-ttu-id="8ca7d-142">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8ca7d-142">See also</span></span>
 
-- [<span data-ttu-id="8ca7d-143">配置 Excel Online 管理设置</span><span class="sxs-lookup"><span data-stu-id="8ca7d-143">Configure Excel Online administrative settings</span></span>](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)  
-- [<span data-ttu-id="8ca7d-144">Office Online Server Preview</span><span class="sxs-lookup"><span data-stu-id="8ca7d-144">Office Online Server Preview</span></span>](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
+- [<span data-ttu-id="8ca7d-143">配置 Excel Online 管理设置</span><span class="sxs-lookup"><span data-stu-id="8ca7d-143">Configure Excel Online administrative settings</span></span>](https://technet.microsoft.com/zh-cn/library/jj219698%28v=office.16%29.aspx)  
+- [<span data-ttu-id="8ca7d-144">Office Online Server Preview</span><span class="sxs-lookup"><span data-stu-id="8ca7d-144">Office Online Server Preview</span></span>](https://technet.microsoft.com/zh-cn/library/jj219456%28v=office.16%29.aspx)
     
 

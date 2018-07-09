@@ -46,7 +46,7 @@ typedef struct
   
 > <span data-ttu-id="4649f-110">**ROWENTRY**结构数组，其中包含的行和表中的行上执行的操作。</span><span class="sxs-lookup"><span data-stu-id="4649f-110">Array of **ROWENTRY** structures that contains the rows and the operations that are performed on those rows in the table.</span></span> 
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="4649f-111">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="4649f-111">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="4649f-111">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="4649f-111">MFCMAPI reference</span></span>
 
 <span data-ttu-id="4649f-112">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="4649f-112">For MFCMAPI sample code, see the following table.</span></span>
   

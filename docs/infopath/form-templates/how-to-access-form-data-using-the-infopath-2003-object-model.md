@@ -94,7 +94,7 @@ thisXDocument.UI.Alert(thisXDocument.URI)
 ```
 
 > [!NOTE]
-> <span data-ttu-id="1f79e-189">[!注释] 使用 **XDocument** 接口访问表单的基础 XML 文档时，实际上是在访问与当前打开表单相关联的 XML 文档。</span><span class="sxs-lookup"><span data-stu-id="1f79e-189">When you use the **XDocument** interface to access a form's underlying XML document, you are accessing the XML document that is associated with the currently open form.</span></span> 
+> <span data-ttu-id="1f79e-189">使用 **XDocument** 接口访问表单的基础 XML 文档时，实际上是在访问与当前打开表单相关联的 XML 文档。</span><span class="sxs-lookup"><span data-stu-id="1f79e-189">When you use the **XDocument** interface to access a form's underlying XML document, you are accessing the XML document that is associated with the currently open form.</span></span> 
   
 <span data-ttu-id="1f79e-p106">**XDocument** 接口的一个关键属性是 **DOM** 属性。该属性返回以表单的源 XML 数据填充的 XML DOM 的引用。使用 **DOM** 属性时，可以使用 XML DOM 支持的任何属性和方法。例如，下列代码使用 XML DOM 的 **xml** 属性来返回并显示表单的基础 XML 文档的全部内容。</span><span class="sxs-lookup"><span data-stu-id="1f79e-p106">A key property of the **XDocument** interface is the **DOM** property. This property returns a reference to the XML DOM that is populated with the source XML data of a form. When using the **DOM** property, you can use any of the properties and methods that are supported by the XML DOM. For example, the following code uses the **xml** property of the XML DOM to return and display all of the contents of a form's underlying XML document.</span></span> 
   

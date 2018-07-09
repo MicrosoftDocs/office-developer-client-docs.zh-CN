@@ -33,7 +33,7 @@ ms.locfileid: "19779322"
   
 ## <a name="related-sections"></a><span data-ttu-id="0ba86-115">相关部分</span><span class="sxs-lookup"><span data-stu-id="0ba86-115">Related sections</span></span>
 
-- [<span data-ttu-id="0ba86-116">Outlook Social Connector 提供程序开发入门（英文）</span><span class="sxs-lookup"><span data-stu-id="0ba86-116">Getting Started with Developing an Outlook Social Connector Provider</span></span>](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [<span data-ttu-id="0ba86-116">Outlook Social Connector 提供程序开发入门</span><span class="sxs-lookup"><span data-stu-id="0ba86-116">Getting Started with Developing an Outlook Social Connector Provider</span></span>](getting-started-with-developing-an-outlook-social-connector-provider.md)
   
 - [<span data-ttu-id="0ba86-117">OSC 典型调用序列 （英文)</span><span class="sxs-lookup"><span data-stu-id="0ba86-117">OSC Typical Calling Sequences</span></span>](osc-typical-calling-sequences.md)
   

@@ -1,5 +1,5 @@
 ---
-title: 发送答复 （英文）
+title: 发送答复
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778712"
 ---
-# <a name="sending-a-reply"></a><span data-ttu-id="22e0c-103">发送答复 （英文）</span><span class="sxs-lookup"><span data-stu-id="22e0c-103">Sending a reply</span></span>
+# <a name="sending-a-reply"></a><span data-ttu-id="22e0c-103">发送答复</span><span class="sxs-lookup"><span data-stu-id="22e0c-103">Sending a reply</span></span>
 
 <span data-ttu-id="22e0c-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="22e0c-104">**Applies to**: Outlook</span></span> 
   

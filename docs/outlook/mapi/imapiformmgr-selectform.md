@@ -85,7 +85,7 @@ HRESULT SelectForm(
 
 <span data-ttu-id="85ed7-134">**SelectForm**对话框显示处于非隐藏状态的表单 （即，其隐藏属性的表单清除）。</span><span class="sxs-lookup"><span data-stu-id="85ed7-134">The **SelectForm** dialog box displays only forms that are not hidden (that is, forms that have their hidden properties clear).</span></span> <span data-ttu-id="85ed7-135">如果表单查看器_ulFlags_参数中传递 MAPI_UNICODE 标志，所有字符串都是在 Unicode。</span><span class="sxs-lookup"><span data-stu-id="85ed7-135">If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode.</span></span> <span data-ttu-id="85ed7-136">如果传递 MAPI_UNICODE，窗体库提供程序不支持 Unicode 字符串应返回 MAPI_E_BAD_CHARWIDTH。</span><span class="sxs-lookup"><span data-stu-id="85ed7-136">Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="85ed7-137">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="85ed7-137">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="85ed7-137">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="85ed7-137">MFCMAPI reference</span></span>
 
 <span data-ttu-id="85ed7-138">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="85ed7-138">For MFCMAPI sample code, see the following table.</span></span>
   

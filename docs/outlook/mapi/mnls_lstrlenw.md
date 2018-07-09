@@ -24,7 +24,7 @@ ms.locfileid: "19776543"
 <span data-ttu-id="0c7cc-105">确定指定的 Unicode 字符串，不包括 null 终止符的长度。</span><span class="sxs-lookup"><span data-stu-id="0c7cc-105">Determines the length of the specified Unicode string, excluding the terminating null character.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="0c7cc-106">考虑使用[StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="0c7cc-106">Consider using [StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) instead.</span></span> 
+> <span data-ttu-id="0c7cc-106">考虑使用[StringCchLength](http://msdn.microsoft.com/zh-cn/library/ms647539%28VS.85%29.aspx) 。</span><span class="sxs-lookup"><span data-stu-id="0c7cc-106">Consider using [StringCchLength](http://msdn.microsoft.com/zh-cn/library/ms647539%28VS.85%29.aspx) instead.</span></span> 
   
 ```cpp
 int MNLS_lstrlen(
@@ -43,13 +43,13 @@ int MNLS_lstrlen(
   
 ## <a name="remarks"></a><span data-ttu-id="0c7cc-114">备注</span><span class="sxs-lookup"><span data-stu-id="0c7cc-114">Remarks</span></span>
 
-<span data-ttu-id="0c7cc-115">此函数的换行**lstrlen**函数。</span><span class="sxs-lookup"><span data-stu-id="0c7cc-115">This function wraps the **lstrlen** function.</span></span> <span data-ttu-id="0c7cc-116">有关详细信息，请参阅[lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="0c7cc-116">For more information, see [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="0c7cc-115">此函数的换行**lstrlen**函数。</span><span class="sxs-lookup"><span data-stu-id="0c7cc-115">This function wraps the **lstrlen** function.</span></span> <span data-ttu-id="0c7cc-116">有关详细信息，请参阅[lstrlen](http://msdn.microsoft.com/zh-cn/library/ms647492%28VS.85%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="0c7cc-116">For more information, see [lstrlen](http://msdn.microsoft.com/zh-cn/library/ms647492%28VS.85%29.aspx).</span></span>
   
 ## <a name="see-also"></a><span data-ttu-id="0c7cc-117">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0c7cc-117">See also</span></span>
 
 
 
-[<span data-ttu-id="0c7cc-118">lstrlen</span><span class="sxs-lookup"><span data-stu-id="0c7cc-118">lstrlen</span></span>](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx)
+[<span data-ttu-id="0c7cc-118">lstrlen</span><span class="sxs-lookup"><span data-stu-id="0c7cc-118">lstrlen</span></span>](http://msdn.microsoft.com/zh-cn/library/ms647492%28VS.85%29.aspx)
   
-[<span data-ttu-id="0c7cc-119">StringCchLength</span><span class="sxs-lookup"><span data-stu-id="0c7cc-119">StringCchLength</span></span>](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx)
+[<span data-ttu-id="0c7cc-119">StringCchLength</span><span class="sxs-lookup"><span data-stu-id="0c7cc-119">StringCchLength</span></span>](http://msdn.microsoft.com/zh-cn/library/ms647539%28VS.85%29.aspx)
 

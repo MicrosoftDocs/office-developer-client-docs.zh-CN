@@ -18,7 +18,7 @@ ms.locfileid: "19773421"
 <span data-ttu-id="d8e02-104">**Comment** 语句可用于在宏中提供说明性注释。</span><span class="sxs-lookup"><span data-stu-id="d8e02-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="d8e02-p101">[!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="d8e02-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="d8e02-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="d8e02-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="remarks"></a><span data-ttu-id="d8e02-107">注释</span><span class="sxs-lookup"><span data-stu-id="d8e02-107">Remarks</span></span>
 

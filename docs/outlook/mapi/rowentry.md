@@ -56,7 +56,7 @@ typedef struct
   
 > <span data-ttu-id="75c27-117">[SPropValue](spropvalue.md)结构表示要插入到表的列值的数组。</span><span class="sxs-lookup"><span data-stu-id="75c27-117">An array of [SPropValue](spropvalue.md) structures representing the columns values to be inserted into the table.</span></span> 
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="75c27-118">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="75c27-118">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="75c27-118">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="75c27-118">MFCMAPI reference</span></span>
 
 <span data-ttu-id="75c27-119">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="75c27-119">For MFCMAPI sample code, see the following table.</span></span>
   

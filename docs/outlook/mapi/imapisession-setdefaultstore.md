@@ -105,7 +105,7 @@ HRESULT SetDefaultStore(
     
 - <span data-ttu-id="74bb6-149">内部通知颁发给 MAPI 后台处理程序。</span><span class="sxs-lookup"><span data-stu-id="74bb6-149">An internal notification is issued to the MAPI spooler.</span></span> <span data-ttu-id="74bb6-150">正在进行的操作完成后，无更改;新的默认存储处理涉及默认的邮件存储，如消息下载的新操作。</span><span class="sxs-lookup"><span data-stu-id="74bb6-150">Operations already in progress are completed without change; new operations that involve the default message store, such as message downloading, are processed for the new default store.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="74bb6-151">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="74bb6-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="74bb6-151">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="74bb6-151">MFCMAPI reference</span></span>
 
 <span data-ttu-id="74bb6-152">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="74bb6-152">For MFCMAPI sample code, see the following table.</span></span>
   

@@ -46,7 +46,7 @@ ms.locfileid: "19775415"
    
 ## <a name="remarks"></a><span data-ttu-id="ce0f0-125">备注</span><span class="sxs-lookup"><span data-stu-id="ce0f0-125">Remarks</span></span>
 
-<span data-ttu-id="ce0f0-126">**IMAPIFormFactory**接口基于[IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx)接口，并实现**IMAPIFormFactory**对象应还继承**IClassFactory**。</span><span class="sxs-lookup"><span data-stu-id="ce0f0-126">The **IMAPIFormFactory** interface is based on the [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) interface, and objects that implement **IMAPIFormFactory** should also inherit from **IClassFactory**.</span></span>
+<span data-ttu-id="ce0f0-126">**IMAPIFormFactory**接口基于[IClassFactory](http://msdn.microsoft.com/zh-cn/library/ms694364%28VS.85%29.aspx)接口，并实现**IMAPIFormFactory**对象应还继承**IClassFactory**。</span><span class="sxs-lookup"><span data-stu-id="ce0f0-126">The **IMAPIFormFactory** interface is based on the [IClassFactory](http://msdn.microsoft.com/zh-cn/library/ms694364%28VS.85%29.aspx) interface, and objects that implement **IMAPIFormFactory** should also inherit from **IClassFactory**.</span></span>
   
  <span data-ttu-id="ce0f0-127">**IMAPIFormFactory**是表单查看器用于创建新表单对象时窗体服务器支持多个邮件类的接口 （即，多个窗体的对象的类型）。</span><span class="sxs-lookup"><span data-stu-id="ce0f0-127">**IMAPIFormFactory** is the interface that form viewers use to create new form objects when a form server supports more than one message class (that is, more than one type of form object).</span></span> 
   

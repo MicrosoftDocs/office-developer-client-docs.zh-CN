@@ -30,7 +30,7 @@ ms.locfileid: "19773651"
 
 
 
-[<span data-ttu-id="4827d-114">创建 xll （英文）</span><span class="sxs-lookup"><span data-stu-id="4827d-114">Creating XLLs</span></span>](creating-xlls.md)
+[<span data-ttu-id="4827d-114">创建 xll</span><span class="sxs-lookup"><span data-stu-id="4827d-114">Creating XLLs</span></span>](creating-xlls.md)
   
 [<span data-ttu-id="4827d-115">开发 Dll</span><span class="sxs-lookup"><span data-stu-id="4827d-115">Developing DLLs</span></span>](developing-dlls.md)
   

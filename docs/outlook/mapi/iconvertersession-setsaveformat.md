@@ -35,7 +35,7 @@ HRESULT IConverterSession::SetSaveFormat (
 
 <span data-ttu-id="e5e23-107">_mstSaveFormat_</span><span class="sxs-lookup"><span data-stu-id="e5e23-107">_mstSaveFormat_</span></span>
   
-> <span data-ttu-id="e5e23-108">[in]保存格式用于 MIME 流。</span><span class="sxs-lookup"><span data-stu-id="e5e23-108">[in] The save format to be used for a MIME stream.</span></span> <span data-ttu-id="e5e23-109">有关详细信息，请参阅枚举类型[MIMESAVETYPE](http://msdn.microsoft.com/en-us/library/ms715128%28VS.85%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="e5e23-109">For more information, see the enum type [MIMESAVETYPE](http://msdn.microsoft.com/en-us/library/ms715128%28VS.85%29.aspx).</span></span>
+> <span data-ttu-id="e5e23-108">[in]保存格式用于 MIME 流。</span><span class="sxs-lookup"><span data-stu-id="e5e23-108">[in] The save format to be used for a MIME stream.</span></span> <span data-ttu-id="e5e23-109">有关详细信息，请参阅枚举类型[MIMESAVETYPE](http://msdn.microsoft.com/zh-cn/library/ms715128%28VS.85%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="e5e23-109">For more information, see the enum type [MIMESAVETYPE](http://msdn.microsoft.com/zh-cn/library/ms715128%28VS.85%29.aspx).</span></span>
     
   - <span data-ttu-id="e5e23-110">**SAVE_RFC1521**： 使用 MIME，这是默认值。</span><span class="sxs-lookup"><span data-stu-id="e5e23-110">**SAVE_RFC1521**: Use MIME, which is the default.</span></span>      
   - <span data-ttu-id="e5e23-111">**SAVE_RFC822**： 使用 uuencode。</span><span class="sxs-lookup"><span data-stu-id="e5e23-111">**SAVE_RFC822**: Use uuencode.</span></span>
@@ -46,7 +46,7 @@ HRESULT IConverterSession::SetSaveFormat (
   
 > <span data-ttu-id="e5e23-114">呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="e5e23-114">The call was successful.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="e5e23-115">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="e5e23-115">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="e5e23-115">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="e5e23-115">MFCMAPI reference</span></span>
 
 <span data-ttu-id="e5e23-116">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="e5e23-116">For MFCMAPI sample code, see the following table.</span></span>
   

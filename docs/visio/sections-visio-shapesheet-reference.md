@@ -1,5 +1,5 @@
 ---
-title: 部分 （Visio ShapeSheet 参考 （英文）
+title: 部分 （Visio ShapeSheet 参考
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781226"
 ---
-# <a name="sections-visio-shapesheet-reference"></a><span data-ttu-id="5564c-102">部分 （Visio ShapeSheet 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="5564c-102">Sections (Visio ShapeSheet Reference)</span></span>
+# <a name="sections-visio-shapesheet-reference"></a><span data-ttu-id="5564c-102">部分 （Visio ShapeSheet 参考</span><span class="sxs-lookup"><span data-stu-id="5564c-102">Sections (Visio ShapeSheet Reference)</span></span>
 
 ## <a name="in-this-section"></a><span data-ttu-id="5564c-103">本节内容</span><span class="sxs-lookup"><span data-stu-id="5564c-103">In this section</span></span>
 

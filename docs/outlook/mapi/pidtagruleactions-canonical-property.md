@@ -38,7 +38,7 @@ ms.locfileid: "19778257"
 
 <span data-ttu-id="7635a-115">操作表示为规则操作和属性值缓冲区包含打包为[[MS OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)中指定规则操作数据缓冲区结构。</span><span class="sxs-lookup"><span data-stu-id="7635a-115">The actions are expressed as a rule action and the property value buffer contains the rule action data buffer structure packaged as specified in [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="7635a-116">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="7635a-116">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="7635a-116">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="7635a-116">MFCMAPI reference</span></span>
 
 <span data-ttu-id="7635a-117">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="7635a-117">For MFCMAPI sample code, see the following table.</span></span>
   

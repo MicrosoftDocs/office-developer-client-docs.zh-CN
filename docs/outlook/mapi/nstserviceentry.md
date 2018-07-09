@@ -55,7 +55,7 @@ HRESULT NSTServiceEntry(
   
 ## <a name="remarks"></a><span data-ttu-id="425f5-116">备注</span><span class="sxs-lookup"><span data-stu-id="425f5-116">Remarks</span></span>
 
-<span data-ttu-id="425f5-117">当使用**[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** 查找 msmapi32.dll 中此函数的地址，指定"NSTServiceEntry"作为过程名称。</span><span class="sxs-lookup"><span data-stu-id="425f5-117">When using **[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** to look for the address of this function in msmapi32.dll, specify "NSTServiceEntry" as the procedure name.</span></span> 
+<span data-ttu-id="425f5-117">当使用**[GetProcAddress](http://msdn.microsoft.com/zh-cn/library/ms683212.aspx)** 查找 msmapi32.dll 中此函数的地址，指定"NSTServiceEntry"作为过程名称。</span><span class="sxs-lookup"><span data-stu-id="425f5-117">When using **[GetProcAddress](http://msdn.microsoft.com/zh-cn/library/ms683212.aspx)** to look for the address of this function in msmapi32.dll, specify "NSTServiceEntry" as the procedure name.</span></span> 
   
 <span data-ttu-id="425f5-118">若要使用复制 API，MAPI 存储提供程序必须首先打开并通过调用**[NSTServiceEntry](nstserviceentry.md)** 环绕基于 PST 的本地存储区。</span><span class="sxs-lookup"><span data-stu-id="425f5-118">To use the Replication API, a MAPI store provider must first open and wrap a PST-based local store by calling **[NSTServiceEntry](nstserviceentry.md)**.</span></span> <span data-ttu-id="425f5-119">提供程序然后可以使用 API、 **[IOSTX](iostxiunknown.md)** 和**[IPSTX](ipstxiunknown.md)** 的主要接口执行复制。</span><span class="sxs-lookup"><span data-stu-id="425f5-119">The provider can then use the major interfaces of the API, **[IOSTX](iostxiunknown.md)** and **[IPSTX](ipstxiunknown.md)**, to carry out replication.</span></span> 
   

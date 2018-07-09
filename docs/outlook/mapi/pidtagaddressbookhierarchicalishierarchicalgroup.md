@@ -43,7 +43,7 @@ ms.locfileid: "19777303"
   
 > <span data-ttu-id="285f1-120">提供属性集定义和相关的 Microsoft Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="285f1-120">Provides property set definitions and references to related Microsoft Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="285f1-121">[[MS OXOABK]](http://msdn.microsoft.com/en-us/library/cc433489%28v=exchg.80%29)</span><span class="sxs-lookup"><span data-stu-id="285f1-121">[[MS-OXOABK]](http://msdn.microsoft.com/en-us/library/cc433489%28v=exchg.80%29)</span></span>
+<span data-ttu-id="285f1-121">[[MS OXOABK]](http://msdn.microsoft.com/zh-cn/library/cc433489%28v=exchg.80%29)</span><span class="sxs-lookup"><span data-stu-id="285f1-121">[[MS-OXOABK]](http://msdn.microsoft.com/zh-cn/library/cc433489%28v=exchg.80%29)</span></span>
   
 > <span data-ttu-id="285f1-122">指定的属性和用户、 联系人、 组和资源的操作列表。</span><span class="sxs-lookup"><span data-stu-id="285f1-122">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     

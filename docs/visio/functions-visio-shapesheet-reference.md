@@ -1,5 +1,5 @@
 ---
-title: 函数 （Visio ShapeSheet 参考 （英文）
+title: 函数 （Visio ShapeSheet 参考
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780336"
 ---
-# <a name="functions-visio-shapesheet-reference"></a><span data-ttu-id="9d40c-102">函数 （Visio ShapeSheet 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="9d40c-102">Functions (Visio ShapeSheet Reference)</span></span>
+# <a name="functions-visio-shapesheet-reference"></a><span data-ttu-id="9d40c-102">函数 （Visio ShapeSheet 参考</span><span class="sxs-lookup"><span data-stu-id="9d40c-102">Functions (Visio ShapeSheet Reference)</span></span>
 
 ## <a name="in-this-section"></a><span data-ttu-id="9d40c-103">本节内容</span><span class="sxs-lookup"><span data-stu-id="9d40c-103">In this section</span></span>
 

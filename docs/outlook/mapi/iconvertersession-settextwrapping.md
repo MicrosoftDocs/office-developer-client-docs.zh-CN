@@ -50,7 +50,7 @@ HRESULT IConverterSession::SetTextWrapping (
   
 > <span data-ttu-id="6ace6-113">呼叫成功。</span><span class="sxs-lookup"><span data-stu-id="6ace6-113">The call was successful.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="6ace6-114">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="6ace6-114">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="6ace6-114">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="6ace6-114">MFCMAPI reference</span></span>
 
 <span data-ttu-id="6ace6-115">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="6ace6-115">For MFCMAPI sample code, see the following table.</span></span>
   

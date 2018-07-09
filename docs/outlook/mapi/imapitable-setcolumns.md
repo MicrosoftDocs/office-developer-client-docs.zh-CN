@@ -107,7 +107,7 @@ MVI_PROP(ulPropTag)
   
 <span data-ttu-id="8531d-165">您可以调用[HrAddColumnsEx](hraddcolumnsex.md)更改一列。</span><span class="sxs-lookup"><span data-stu-id="8531d-165">You can also call [HrAddColumnsEx](hraddcolumnsex.md) to change a column set.</span></span> <span data-ttu-id="8531d-166">**HrAddColumnsEx**和**IMAPITable::SetColumns**之间的区别是**HrAddColumnsEx**是较低灵活;它只能添加列。</span><span class="sxs-lookup"><span data-stu-id="8531d-166">The difference between **HrAddColumnsEx** and **IMAPITable::SetColumns** is that **HrAddColumnsEx** is less flexible; it can only add columns.</span></span> <span data-ttu-id="8531d-167">额外的列的位于列集; 的开头以下这些列将显示所有的现有列。</span><span class="sxs-lookup"><span data-stu-id="8531d-167">The additional columns are placed at the beginning of the column set; all existing columns appear following these columns.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="8531d-168">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="8531d-168">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="8531d-168">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="8531d-168">MFCMAPI reference</span></span>
 
 <span data-ttu-id="8531d-169">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="8531d-169">For MFCMAPI sample code, see the following table.</span></span>
   

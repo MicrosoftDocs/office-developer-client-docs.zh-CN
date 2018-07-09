@@ -65,7 +65,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  <span data-ttu-id="cbf3a-126">_ppXmlStream_</span><span class="sxs-lookup"><span data-stu-id="cbf3a-126">_ppXmlStream_</span></span>
   
-> <span data-ttu-id="cbf3a-127">[输出]指向包含自动发现 XML 的[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)对象的指针。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-127">[out] A pointer to an [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object that contains the autodiscovery XML.</span></span> <span data-ttu-id="cbf3a-128">如果自动发现操作失败，则返回**null** 。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-128">Returns **null** if the autodiscovery operation fails.</span></span> <span data-ttu-id="cbf3a-129">在与之完成时，您必须释放[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-129">You must release the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object when you are finished with it.</span></span> 
+> <span data-ttu-id="cbf3a-127">[输出]指向包含自动发现 XML 的[IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx)对象的指针。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-127">[out] A pointer to an [IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx) object that contains the autodiscovery XML.</span></span> <span data-ttu-id="cbf3a-128">如果自动发现操作失败，则返回**null** 。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-128">Returns **null** if the autodiscovery operation fails.</span></span> <span data-ttu-id="cbf3a-129">在与之完成时，您必须释放[IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-129">You must release the [IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx) object when you are finished with it.</span></span> 
     
 ## <a name="return-values"></a><span data-ttu-id="cbf3a-130">返回值</span><span class="sxs-lookup"><span data-stu-id="cbf3a-130">Return values</span></span>
 
@@ -75,7 +75,7 @@ HRESULT HrGetAutoDiscoverXML(
     
 <span data-ttu-id="cbf3a-133">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="cbf3a-133">E_INVALIDARG</span></span> 
   
--  <span data-ttu-id="cbf3a-134">_pwzAddress_为**null**或不是有效的 SMTP 地址，或_ppXmlStream_是**null**指向[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-134">_pwzAddress_ is **null** or is not a valid SMTP address, or  _ppXmlStream_ is a **null** pointer to an [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) object.</span></span> 
+-  <span data-ttu-id="cbf3a-134">_pwzAddress_为**null**或不是有效的 SMTP 地址，或_ppXmlStream_是**null**指向[IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx)对象。</span><span class="sxs-lookup"><span data-stu-id="cbf3a-134">_pwzAddress_ is **null** or is not a valid SMTP address, or  _ppXmlStream_ is a **null** pointer to an [IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx) object.</span></span> 
     
 <span data-ttu-id="cbf3a-135">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="cbf3a-135">MAPI_E_NOT_FOUND</span></span> 
   

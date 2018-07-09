@@ -319,7 +319,7 @@ void Excel12_example(double *dbl_array, int size, double &sum, double &average, 
 
 
 
-[<span data-ttu-id="cc8aa-312">创建 xll （英文）</span><span class="sxs-lookup"><span data-stu-id="cc8aa-312">Creating XLLs</span></span>](creating-xlls.md)
+[<span data-ttu-id="cc8aa-312">创建 xll</span><span class="sxs-lookup"><span data-stu-id="cc8aa-312">Creating XLLs</span></span>](creating-xlls.md)
   
 [<span data-ttu-id="cc8aa-313">在 Excel 中访问 XLL 代码</span><span class="sxs-lookup"><span data-stu-id="cc8aa-313">Accessing XLL Code in Excel</span></span>](accessing-xll-code-in-excel.md)
   

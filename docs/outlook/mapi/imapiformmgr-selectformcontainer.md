@@ -71,7 +71,7 @@ HRESULT SelectFormContainer(
 
 <span data-ttu-id="45594-126">表单查看器通常调用**IMAPIFormMgr::SelectFormContainer**方法选择窗体所安装到一个窗体容器。</span><span class="sxs-lookup"><span data-stu-id="45594-126">Form viewers typically call the **IMAPIFormMgr::SelectFormContainer** method to select a form container into which a form is installed.</span></span> <span data-ttu-id="45594-127">**SelectFormContainer**不能用于选择本地窗体的容器，具有 HFRMREG_LOCAL 的值。</span><span class="sxs-lookup"><span data-stu-id="45594-127">**SelectFormContainer** cannot be used to select the local form container, which has the value HFRMREG_LOCAL.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="45594-128">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="45594-128">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="45594-128">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="45594-128">MFCMAPI reference</span></span>
 
 <span data-ttu-id="45594-129">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="45594-129">For MFCMAPI sample code, see the following table.</span></span>
   

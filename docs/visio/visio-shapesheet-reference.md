@@ -34,11 +34,11 @@ ms.locfileid: "19781642"
     
 ## <a name="see-also"></a><span data-ttu-id="8b71e-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8b71e-113">See also</span></span>
 
-- [<span data-ttu-id="8b71e-114">Visio 开发中心</span><span class="sxs-lookup"><span data-stu-id="8b71e-114">Visio Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [<span data-ttu-id="8b71e-114">Visio 开发中心</span><span class="sxs-lookup"><span data-stu-id="8b71e-114">Visio Developer Center</span></span>](http://msdn.microsoft.com/zh-cn/office/aa905478.aspx)
     
 - [<span data-ttu-id="8b71e-115">Microsoft 产品中的辅助功能</span><span class="sxs-lookup"><span data-stu-id="8b71e-115">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)
     
-- [<span data-ttu-id="8b71e-116">文档约定</span><span class="sxs-lookup"><span data-stu-id="8b71e-116">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="8b71e-116">文档约定</span><span class="sxs-lookup"><span data-stu-id="8b71e-116">Document Conventions</span></span>](http://msdn.microsoft.com/zh-cn/office/aa905365.aspx)
     
 - [<span data-ttu-id="8b71e-117">Visio SDK 版权声明</span><span class="sxs-lookup"><span data-stu-id="8b71e-117">Visio SDK copyright notice</span></span>](visio-sdk-copyright-notice.md)
     

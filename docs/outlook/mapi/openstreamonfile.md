@@ -120,7 +120,7 @@ HRESULT STDMETHODCALLTYPE OpenStreamOnFile(
   
 <span data-ttu-id="24b94-166">如果未设置 SOF_UNIQUEFILENAME 标志，则会忽略_lpszPrefix_ ，并且_lpszFileName_应包含的完全限定的路径和文件名的文件创建或打开。</span><span class="sxs-lookup"><span data-stu-id="24b94-166">If the SOF_UNIQUEFILENAME flag is not set,  _lpszPrefix_ is ignored, and  _lpszFileName_ should contain the fully qualified path and filename of the file to be opened or created.</span></span> <span data-ttu-id="24b94-167">将打开该文件，或创建基于其他_ulFlags_中设置的标志。</span><span class="sxs-lookup"><span data-stu-id="24b94-167">The file will be opened or created based on the other flags that are set in  _ulFlags_.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="24b94-168">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="24b94-168">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="24b94-168">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="24b94-168">MFCMAPI reference</span></span>
 
 <span data-ttu-id="24b94-169">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="24b94-169">For MFCMAPI sample code, see the following table.</span></span>
   

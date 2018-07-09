@@ -133,7 +133,7 @@ HRESULT GetNamesFromIDs(
   
 <span data-ttu-id="6b732-170">有关命名属性的详细信息，请参阅[MAPI 命名属性](mapi-named-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="6b732-170">For more information about named properties, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="6b732-171">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="6b732-171">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="6b732-171">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="6b732-171">MFCMAPI reference</span></span>
 
 <span data-ttu-id="6b732-172">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="6b732-172">For MFCMAPI sample code, see the following table.</span></span>
   

@@ -121,7 +121,7 @@ HrValidateIPMSubtree(
   
 > <span data-ttu-id="3e86b-165">占位符[PROP_TAG](prop_tag.md) IPM 收件箱 （PT_BINARY、 PROP_ID_NULL）。</span><span class="sxs-lookup"><span data-stu-id="3e86b-165">A placeholder [PROP_TAG](prop_tag.md) for the IPM Inbox (PT_BINARY, PROP_ID_NULL).</span></span> 
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="3e86b-166">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="3e86b-166">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="3e86b-166">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="3e86b-166">MFCMAPI reference</span></span>
 
 <span data-ttu-id="3e86b-167">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="3e86b-167">For MFCMAPI sample code, see the following table.</span></span>
   

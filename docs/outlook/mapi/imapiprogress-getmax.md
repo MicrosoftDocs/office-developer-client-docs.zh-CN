@@ -57,7 +57,7 @@ HRESULT GetMax(
 
 <span data-ttu-id="11b14-121">初始化的最大值为 1000年。</span><span class="sxs-lookup"><span data-stu-id="11b14-121">Initialize the maximum value to 1000.</span></span> <span data-ttu-id="11b14-122">服务提供商可以通过调用[IMAPIProgress::SetLimits](imapiprogress-setlimits.md)方法重置此值。</span><span class="sxs-lookup"><span data-stu-id="11b14-122">Service providers can reset this value by calling the [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) method.</span></span> <span data-ttu-id="11b14-123">有关如何实施**GetMax**和其他[IMAPIProgress](imapiprogressiunknown.md)方法的详细信息，请参阅[实现进度指示器](implementing-a-progress-indicator.md)。</span><span class="sxs-lookup"><span data-stu-id="11b14-123">For more information about how to implement **GetMax** and the other [IMAPIProgress](imapiprogressiunknown.md) methods, see [Implementing a Progress Indicator](implementing-a-progress-indicator.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="11b14-124">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="11b14-124">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="11b14-124">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="11b14-124">MFCMAPI reference</span></span>
 
 <span data-ttu-id="11b14-125">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="11b14-125">For MFCMAPI sample code, see the following table.</span></span>
   

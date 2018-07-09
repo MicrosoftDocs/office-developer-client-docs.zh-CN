@@ -89,5 +89,5 @@ ms.locfileid: "19777291"
 [<span data-ttu-id="5275c-139">MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="5275c-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
 
-[<span data-ttu-id="5275c-140">有关存储区 API</span><span class="sxs-lookup"><span data-stu-id="5275c-140">About the Store API</span></span>](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
+[<span data-ttu-id="5275c-140">有关存储区 API</span><span class="sxs-lookup"><span data-stu-id="5275c-140">About the Store API</span></span>](http://msdn.microsoft.com/zh-cn/library/aa192884.aspx)
 

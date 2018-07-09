@@ -1,5 +1,5 @@
 ---
-title: 行 （Visio ShapeSheet 参考 （英文）
+title: 行 （Visio ShapeSheet 参考
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781167"
 ---
-# <a name="rows-visio-shapesheet-reference"></a><span data-ttu-id="6b6c4-102">行 （Visio ShapeSheet 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="6b6c4-102">Rows (Visio ShapeSheet Reference)</span></span>
+# <a name="rows-visio-shapesheet-reference"></a><span data-ttu-id="6b6c4-102">行 （Visio ShapeSheet 参考</span><span class="sxs-lookup"><span data-stu-id="6b6c4-102">Rows (Visio ShapeSheet Reference)</span></span>
 
 ## <a name="in-this-section"></a><span data-ttu-id="6b6c4-103">本节内容</span><span class="sxs-lookup"><span data-stu-id="6b6c4-103">In this section</span></span>
 

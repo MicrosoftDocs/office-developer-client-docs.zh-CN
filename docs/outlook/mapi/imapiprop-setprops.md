@@ -103,7 +103,7 @@ HRESULT SetProps(
   
 <span data-ttu-id="76a99-150">调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放**SPropProblemArray**结构。</span><span class="sxs-lookup"><span data-stu-id="76a99-150">Call the [MAPIFreeBuffer](mapifreebuffer.md) function to free the **SPropProblemArray** structure.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="76a99-151">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="76a99-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="76a99-151">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="76a99-151">MFCMAPI reference</span></span>
 
 <span data-ttu-id="76a99-152">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="76a99-152">For MFCMAPI sample code, see the following table.</span></span>
   

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- api 函数参考 [excel 2007，] 函数 [Excel 2007]、 引用 [Excel 2007]，Excel 2007 XLL 软件开发工具包，参考 （英文）
+- api 函数参考 [excel 2007，] 函数 [Excel 2007]、 引用 [Excel 2007]，Excel 2007 XLL 软件开发工具包，参考
 localization_priority: Normal
 api_type:
 - COM
@@ -22,7 +22,7 @@ ms.locfileid: "19773743"
 
 <span data-ttu-id="42abd-105">**适用于**： Excel 2013 |Office 2013 |Visual Studio</span><span class="sxs-lookup"><span data-stu-id="42abd-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="42abd-106">Microsoft Excel 2013 XLL SDK 包含用于加快 xll （英文），以及两个示例项目，示例和泛型编写 Framework 库的源文件。</span><span class="sxs-lookup"><span data-stu-id="42abd-106">The Microsoft Excel 2013 XLL SDK contains source files for a Framework library that is designed to speed up the writing of XLLs, and two sample projects, Example and Generic.</span></span> 
+<span data-ttu-id="42abd-106">Microsoft Excel 2013 XLL SDK 包含用于加快 xll，以及两个示例项目，示例和泛型编写 Framework 库的源文件。</span><span class="sxs-lookup"><span data-stu-id="42abd-106">The Microsoft Excel 2013 XLL SDK contains source files for a Framework library that is designed to speed up the writing of XLLs, and two sample projects, Example and Generic.</span></span> 
   
 <span data-ttu-id="42abd-107">本节提供有关以下函数引用：</span><span class="sxs-lookup"><span data-stu-id="42abd-107">This section provides a function reference for the following:</span></span>
   

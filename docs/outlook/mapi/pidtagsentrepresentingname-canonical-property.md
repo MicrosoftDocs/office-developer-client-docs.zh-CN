@@ -46,11 +46,11 @@ ms.locfileid: "19778403"
   
 > <span data-ttu-id="669eb-123">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="669eb-123">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="669eb-124">[[MS OXOMSG]](http://msdn.microsoft.com/en-us/library/cc433482%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="669eb-124">[[MS-OXOMSG]](http://msdn.microsoft.com/en-us/library/cc433482%28EXCHG.80%29.aspx)</span></span>
+<span data-ttu-id="669eb-124">[[MS OXOMSG]](http://msdn.microsoft.com/zh-cn/library/cc433482%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="669eb-124">[[MS-OXOMSG]](http://msdn.microsoft.com/zh-cn/library/cc433482%28EXCHG.80%29.aspx)</span></span>
   
 > <span data-ttu-id="669eb-125">指定的属性和操作所允许的电子邮件消息对象。</span><span class="sxs-lookup"><span data-stu-id="669eb-125">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-<span data-ttu-id="669eb-126">[[MS OXORSS]](http://msdn.microsoft.com/en-us/library/cc463884%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="669eb-126">[[MS-OXORSS]](http://msdn.microsoft.com/en-us/library/cc463884%28EXCHG.80%29.aspx)</span></span>
+<span data-ttu-id="669eb-126">[[MS OXORSS]](http://msdn.microsoft.com/zh-cn/library/cc463884%28EXCHG.80%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="669eb-126">[[MS-OXORSS]](http://msdn.microsoft.com/zh-cn/library/cc463884%28EXCHG.80%29.aspx)</span></span>
   
 > <span data-ttu-id="669eb-127">指定的属性和表示 RSS 项目的操作。</span><span class="sxs-lookup"><span data-stu-id="669eb-127">Specifies the properties and operations that represent RSS items.</span></span>
     

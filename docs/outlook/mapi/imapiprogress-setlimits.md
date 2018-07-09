@@ -69,7 +69,7 @@ HRESULT SetLimits(
   
 <span data-ttu-id="0879b-128">有关详细了解如何以及何时调用进度对象，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。</span><span class="sxs-lookup"><span data-stu-id="0879b-128">For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="0879b-129">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="0879b-129">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="0879b-129">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="0879b-129">MFCMAPI reference</span></span>
 
 <span data-ttu-id="0879b-130">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="0879b-130">For MFCMAPI sample code, see the following table.</span></span>
   

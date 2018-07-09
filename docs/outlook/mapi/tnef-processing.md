@@ -35,7 +35,7 @@ ms.locfileid: "19778978"
     
 5. <span data-ttu-id="0f965-116">使用[ITnef: IUnknown](itnefiunknown.md)接口方法插入标记描述消息文本中的邮件附件的位置。</span><span class="sxs-lookup"><span data-stu-id="0f965-116">Use [ITnef : IUnknown](itnefiunknown.md) interface methods to insert tags describing the positions of message attachments in the message text.</span></span> 
     
-6. <span data-ttu-id="0f965-117">通过[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)方法访问已标记的邮件文本，并将其发送给邮件系统。</span><span class="sxs-lookup"><span data-stu-id="0f965-117">Access the tagged message text through [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) methods, and send it to the messaging system.</span></span> 
+6. <span data-ttu-id="0f965-117">通过[IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx)方法访问已标记的邮件文本，并将其发送给邮件系统。</span><span class="sxs-lookup"><span data-stu-id="0f965-117">Access the tagged message text through [IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx) methods, and send it to the messaging system.</span></span> 
     
  <span data-ttu-id="0f965-118">**若要检索封装的属性**</span><span class="sxs-lookup"><span data-stu-id="0f965-118">**To retrieve encapsulated properties**</span></span>
   

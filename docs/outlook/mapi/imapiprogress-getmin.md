@@ -57,7 +57,7 @@ HRESULT GetMin(
   
 <span data-ttu-id="87704-123">有关详细了解如何以及何时调用进度对象，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。</span><span class="sxs-lookup"><span data-stu-id="87704-123">For more information about how and when to make calls to a progress object, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="87704-124">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="87704-124">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="87704-124">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="87704-124">MFCMAPI reference</span></span>
 
 <span data-ttu-id="87704-125">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="87704-125">For MFCMAPI sample code, see the following table.</span></span>
   

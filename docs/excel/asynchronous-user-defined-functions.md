@@ -65,7 +65,7 @@ void MyAsyncUDF(LPXLOPER12 arg1, LPXLOPER12 pxAsyncHandle)
   
 ### <a name="handling-events"></a><span data-ttu-id="b17e9-147">处理事件</span><span class="sxs-lookup"><span data-stu-id="b17e9-147">Handling events</span></span>
 
-<span data-ttu-id="b17e9-148">启动在 Excel 2010 xll （英文） 可以接收旨在管理的异步函数生命周期的事件。</span><span class="sxs-lookup"><span data-stu-id="b17e9-148">Starting in Excel 2010, XLLs can receive events designed to manage the asynchronous function life cycle.</span></span> <span data-ttu-id="b17e9-149">有关详细信息，请参阅[处理事件](handling-events.md)。</span><span class="sxs-lookup"><span data-stu-id="b17e9-149">For more information, see [Handling Events](handling-events.md).</span></span>
+<span data-ttu-id="b17e9-148">启动在 Excel 2010 xll 可以接收旨在管理的异步函数生命周期的事件。</span><span class="sxs-lookup"><span data-stu-id="b17e9-148">Starting in Excel 2010, XLLs can receive events designed to manage the asynchronous function life cycle.</span></span> <span data-ttu-id="b17e9-149">有关详细信息，请参阅[处理事件](handling-events.md)。</span><span class="sxs-lookup"><span data-stu-id="b17e9-149">For more information, see [Handling Events](handling-events.md).</span></span>
   
 ## <a name="see-also"></a><span data-ttu-id="b17e9-150">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b17e9-150">See also</span></span>
 

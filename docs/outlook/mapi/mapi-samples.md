@@ -41,6 +41,6 @@ ms.locfileid: "19776323"
   
 [<span data-ttu-id="ee515-118">MAPI 概念</span><span class="sxs-lookup"><span data-stu-id="ee515-118">MAPI Concepts</span></span>](mapi-concepts.md)
   
-[<span data-ttu-id="ee515-119">MAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="ee515-119">MAPI Reference</span></span>](mapi-reference.md)
+[<span data-ttu-id="ee515-119">MAPI 参考</span><span class="sxs-lookup"><span data-stu-id="ee515-119">MAPI Reference</span></span>](mapi-reference.md)
   
 

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- 中访问 xll 代码 [excel 2007]，Xll [Excel 2007]，访问代码、 命令 [Excel 2007]、 注册、 函数 [Excel 2007]、 注册，从 Excel 调用 xll （英文）、 注册命令 [Excel 2007]，注册函数 [Excel 2007]
+- 中访问 xll 代码 [excel 2007]，Xll [Excel 2007]，访问代码、 命令 [Excel 2007]、 注册、 函数 [Excel 2007]、 注册，从 Excel 调用 xll、 注册命令 [Excel 2007]，注册函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
 description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
@@ -113,7 +113,7 @@ short WINAPI xll_cmd_name(void)
   
 ## <a name="see-also"></a><span data-ttu-id="29dd2-159">另请参阅</span><span class="sxs-lookup"><span data-stu-id="29dd2-159">See also</span></span>
 
-- [<span data-ttu-id="29dd2-160">创建 xll （英文）</span><span class="sxs-lookup"><span data-stu-id="29dd2-160">Creating XLLs</span></span>](creating-xlls.md)
+- [<span data-ttu-id="29dd2-160">创建 xll</span><span class="sxs-lookup"><span data-stu-id="29dd2-160">Creating XLLs</span></span>](creating-xlls.md)
 - [<span data-ttu-id="29dd2-161">从函数向导或替换对话框呼叫 XLL 函数</span><span class="sxs-lookup"><span data-stu-id="29dd2-161">Call XLL Functions from the Function Wizard or Replace Dialog Boxes</span></span>](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
 - [<span data-ttu-id="29dd2-162">加载项管理器和 XLL 接口函数</span><span class="sxs-lookup"><span data-stu-id="29dd2-162">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
 - [<span data-ttu-id="29dd2-163">Developing Excel XLLs</span><span class="sxs-lookup"><span data-stu-id="29dd2-163">Developing Excel XLLs</span></span>](developing-excel-xlls.md)

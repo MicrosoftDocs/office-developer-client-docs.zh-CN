@@ -40,7 +40,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 
  <span data-ttu-id="517dd-107">_pstm_</span><span class="sxs-lookup"><span data-stu-id="517dd-107">_pstm_</span></span>
   
-> <span data-ttu-id="517dd-108">[in]MIME 流[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)接口。</span><span class="sxs-lookup"><span data-stu-id="517dd-108">[in] [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface to a MIME stream.</span></span> 
+> <span data-ttu-id="517dd-108">[in]MIME 流[IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx)接口。</span><span class="sxs-lookup"><span data-stu-id="517dd-108">[in] [IStream](http://msdn.microsoft.com/zh-cn/library/aa380034%28VS.85%29.aspx) interface to a MIME stream.</span></span> 
     
  <span data-ttu-id="517dd-109">_pmsg_</span><span class="sxs-lookup"><span data-stu-id="517dd-109">_pmsg_</span></span>
   
@@ -80,7 +80,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 
 <span data-ttu-id="517dd-129">如果您指定**CCSF_USE_RTF** _ulFlags_的一部分，目标消息存储库支持 HTML 和 RTF 的 MAPI 邮件将被转换为 HTML 或 RTF。</span><span class="sxs-lookup"><span data-stu-id="517dd-129">If you have specified **CCSF_USE_RTF** as part of  _ulFlags_ and the destination message store supports both HTML and RTF, the MAPI message will be converted to either HTML or RTF.</span></span> <span data-ttu-id="517dd-130">如果邮件转换为 RTF 时，将压缩转换的格式 RTF，将在压缩的 RTF 字符串中嵌入任何 HTML 和将[PidTagRtfCompressed 规范属性](pidtagrtfcompressed-canonical-property.md)中包含字符串。</span><span class="sxs-lookup"><span data-stu-id="517dd-130">If the message is converted to RTF, the converted format will be compressed RTF, any HTML will be embedded in the compressed RTF string, and the string will be contained in the [PidTagRtfCompressed Canonical Property](pidtagrtfcompressed-canonical-property.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="517dd-131">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="517dd-131">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="517dd-131">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="517dd-131">MFCMAPI reference</span></span>
 
 <span data-ttu-id="517dd-132">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="517dd-132">For MFCMAPI sample code, see the following table.</span></span>
   

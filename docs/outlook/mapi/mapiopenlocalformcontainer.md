@@ -53,7 +53,7 @@ MAPIOpenLocalFormContainer(
 
 <span data-ttu-id="f3d6b-118">第三方安装程序可以使用指针返回到该接口到库中安装应用程序特定的表单，而无需程序事先登录到 MAPI。</span><span class="sxs-lookup"><span data-stu-id="f3d6b-118">The interface to which a pointer is returned can be used by third-party installation programs to install application-specific forms into the library without the program first having to log on to MAPI.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="f3d6b-119">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="f3d6b-119">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="f3d6b-119">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="f3d6b-119">MFCMAPI reference</span></span>
 
 <span data-ttu-id="f3d6b-120">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="f3d6b-120">For MFCMAPI sample code, see the following table.</span></span>
   

@@ -95,7 +95,7 @@ HRESULT EmptyFolder(
    
 <span data-ttu-id="6d03b-149">无法完成**EmptyFolder**时，不假定任何工作已完成。</span><span class="sxs-lookup"><span data-stu-id="6d03b-149">When **EmptyFolder** is unable to complete, do not assume that no work was done.</span></span> <span data-ttu-id="6d03b-150">**EmptyFolder**可能已经能够删除该文件夹的内容的一些前遇到错误。</span><span class="sxs-lookup"><span data-stu-id="6d03b-150">**EmptyFolder** might have been able to delete some of the folder's contents before encountering the error.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="6d03b-151">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="6d03b-151">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="6d03b-151">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="6d03b-151">MFCMAPI reference</span></span>
 
 <span data-ttu-id="6d03b-152">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="6d03b-152">For MFCMAPI sample code, see the following table.</span></span>
   

@@ -19,7 +19,7 @@ ms.locfileid: "19773875"
 <span data-ttu-id="6b2f7-104">**使用 Group**语句，可以指定一个块中的宏，您可以展开或折叠的操作。</span><span class="sxs-lookup"><span data-stu-id="6b2f7-104">The **Group** statement enables you to specify a block of actions within a macro that you can expand or collapse.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="6b2f7-p101">[!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="6b2f7-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="6b2f7-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="6b2f7-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="6b2f7-107">设置</span><span class="sxs-lookup"><span data-stu-id="6b2f7-107">Setting</span></span>
 

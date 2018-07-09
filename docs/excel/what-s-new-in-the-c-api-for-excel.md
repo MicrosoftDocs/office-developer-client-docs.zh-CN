@@ -39,7 +39,7 @@ ms.locfileid: "19773817"
   
 - <span data-ttu-id="32524-118">**64 位支持**</span><span class="sxs-lookup"><span data-stu-id="32524-118">**64-bit Support**</span></span>
     
-    <span data-ttu-id="32524-119">您现在可以编译并链接 32 位和 64 位 xll （英文）。</span><span class="sxs-lookup"><span data-stu-id="32524-119">You can now compile and link both 32-bit and 64-bit XLLs.</span></span> <span data-ttu-id="32524-120">有关详细信息，请参阅[创建 xll （英文）](creating-xlls.md)。</span><span class="sxs-lookup"><span data-stu-id="32524-120">For more information, see [Creating XLLs](creating-xlls.md).</span></span>
+    <span data-ttu-id="32524-119">您现在可以编译并链接 32 位和 64 位 xll。</span><span class="sxs-lookup"><span data-stu-id="32524-119">You can now compile and link both 32-bit and 64-bit XLLs.</span></span> <span data-ttu-id="32524-120">有关详细信息，请参阅[创建 xll](creating-xlls.md)。</span><span class="sxs-lookup"><span data-stu-id="32524-120">For more information, see [Creating XLLs](creating-xlls.md).</span></span>
     
 ## <a name="see-also"></a><span data-ttu-id="32524-121">另请参阅</span><span class="sxs-lookup"><span data-stu-id="32524-121">See also</span></span>
 

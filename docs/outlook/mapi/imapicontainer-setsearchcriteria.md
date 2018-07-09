@@ -115,7 +115,7 @@ HRESULT SetSearchCriteria(
   
 <span data-ttu-id="9a90f-169">有关搜索结果文件夹的详细信息，请参阅[MAPI 搜索文件夹](mapi-search-folders.md)。</span><span class="sxs-lookup"><span data-stu-id="9a90f-169">For more information about search-results folders, see [MAPI Search Folders](mapi-search-folders.md).</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="9a90f-170">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="9a90f-170">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="9a90f-170">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="9a90f-170">MFCMAPI reference</span></span>
 
 <span data-ttu-id="9a90f-171">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="9a90f-171">For MFCMAPI sample code, see the following table.</span></span>
   

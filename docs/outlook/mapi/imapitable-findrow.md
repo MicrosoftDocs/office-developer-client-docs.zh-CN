@@ -109,7 +109,7 @@ ULONG ulFlags
   
 <span data-ttu-id="5fb46-158">有关使用限制结构指定筛选器的详细信息，请参阅[有关限制](about-restrictions.md)。</span><span class="sxs-lookup"><span data-stu-id="5fb46-158">For more information about using restriction structures to specify a filter, see [About Restrictions](about-restrictions.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="5fb46-159">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="5fb46-159">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="5fb46-159">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="5fb46-159">MFCMAPI reference</span></span>
 
 <span data-ttu-id="5fb46-160">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="5fb46-160">For MFCMAPI sample code, see the following table.</span></span>
   

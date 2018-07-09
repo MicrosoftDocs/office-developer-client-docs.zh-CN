@@ -117,7 +117,7 @@ HRESULT OpenTnefStreamEx(
   
 <span data-ttu-id="ba02d-166">_WKeyVal_参数的基本值不能为零，不应**OpenTnefStreamEx**每次调用相同。</span><span class="sxs-lookup"><span data-stu-id="ba02d-166">The base value for the  _wKeyVal_ parameter must not be zero and should not be the same for every call to **OpenTnefStreamEx**.</span></span> <span data-ttu-id="ba02d-167">而是使用随机数基于从运行时库的随机数字生成器系统时间。</span><span class="sxs-lookup"><span data-stu-id="ba02d-167">Instead, use random numbers based on the system time from the run-time library's random number generator.</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="ba02d-168">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="ba02d-168">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ba02d-168">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="ba02d-168">MFCMAPI reference</span></span>
 
 <span data-ttu-id="ba02d-169">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="ba02d-169">For MFCMAPI sample code, see the following table.</span></span>
   

@@ -65,7 +65,7 @@ ms.locfileid: "19773723"
 <span data-ttu-id="51cd5-p110">���״����� C API ʱ���������ַ������ֽ��ַ�������������Ϊ 255 ���ַ����ڣ����� C API �ɷ�ӳ��Щ���ơ�ͨ��ʹ�� Excel 2007��C API ���º󣬿ɴ��� Excel ������ Unicode �ַ���������ζ�Ų�����ȷ��ʽע��� DLL �������Խ��� Unicode ���������� Unicode �ַ�����</span><span class="sxs-lookup"><span data-stu-id="51cd5-p110">When the C API was first introduced, worksheet strings were byte strings limited in length to 255 characters, and the C API reflected these limitations. With Excel 2007, the C API is updated to handle Excel long Unicode strings. This means that DLL functions registered in the right way can accept Unicode arguments and return Unicode strings.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="51cd5-159">[!ע��] Ϊ�������ݣ�C API ����Ȼ��ȫ֧���ֽ��ַ��������������Ծ���ͬ���� 255 ���ַ����ơ�</span><span class="sxs-lookup"><span data-stu-id="51cd5-159">Byte strings are still fully supported in the C API for backward compatibility; however they still have the same 255-character limit.</span></span> 
+> <span data-ttu-id="51cd5-159">Ϊ�������ݣ�C API ����Ȼ��ȫ֧���ֽ��ַ��������������Ծ���ͬ���� 255 ���ַ����ơ�</span><span class="sxs-lookup"><span data-stu-id="51cd5-159">Byte strings are still fully supported in the C API for backward compatibility; however they still have the same 255-character limit.</span></span> 
   
 ## <a name="returning-errors"></a><span data-ttu-id="51cd5-160">���ش���</span><span class="sxs-lookup"><span data-stu-id="51cd5-160">Returning Errors</span></span>
 

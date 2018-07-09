@@ -68,5 +68,5 @@ ms.locfileid: "19779347"
 
 - [<span data-ttu-id="30f36-179">功能 XML</span><span class="sxs-lookup"><span data-stu-id="30f36-179">XML for Capabilities</span></span>](xml-for-capabilities.md)
 - [<span data-ttu-id="30f36-180">朋友 XML</span><span class="sxs-lookup"><span data-stu-id="30f36-180">XML for Friends</span></span>](xml-for-friends.md)
-- [<span data-ttu-id="30f36-181">Outlook Social Connector 提供程序开发入门（英文）</span><span class="sxs-lookup"><span data-stu-id="30f36-181">Getting Started with Developing an Outlook Social Connector Provider</span></span>](getting-started-with-developing-an-outlook-social-connector-provider.md)
+- [<span data-ttu-id="30f36-181">Outlook Social Connector 提供程序开发入门</span><span class="sxs-lookup"><span data-stu-id="30f36-181">Getting Started with Developing an Outlook Social Connector Provider</span></span>](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

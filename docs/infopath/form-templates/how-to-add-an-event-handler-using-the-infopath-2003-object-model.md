@@ -225,7 +225,7 @@ namespace AuxDom
 <span data-ttu-id="b1e09-149">当您新建与 InfoPath 2003 托管代码对象模型兼容的 InfoPath 表单模板项目时，系统会将程序集级别的 **System.ComponentModel.Description** 属性应用于位于表单代码模块开头的类，以标识包含表单模板的所有事件处理程序的类。</span><span class="sxs-lookup"><span data-stu-id="b1e09-149">When you create a new InfoPath form template project that is compatible with the InfoPath 2003 managed code object model, an assembly-level **System.ComponentModel.Description** attribute is applied to the class at the beginning of the form code module to identify the class that contains all event handlers for the form template.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="b1e09-p105">[!重要信息] 不要修改该类中的 **System.ComponentModel.Description** 属性。如果对其进行了修改，表单模板将无法标识事件处理程序所在的位置，从而导致事件处理程序无法运行。</span><span class="sxs-lookup"><span data-stu-id="b1e09-p105">Do not modify the **System.ComponentModel.Description** attribute in this class. If you do so, your form template will not be able to identify where event handlers are located, and the event handlers will fail to run.</span></span> 
+> <span data-ttu-id="b1e09-p105">不要修改该类中的 **System.ComponentModel.Description** 属性。如果对其进行了修改，表单模板将无法标识事件处理程序所在的位置，从而导致事件处理程序无法运行。</span><span class="sxs-lookup"><span data-stu-id="b1e09-p105">Do not modify the **System.ComponentModel.Description** attribute in this class. If you do so, your form template will not be able to identify where event handlers are located, and the event handlers will fail to run.</span></span> 
   
 ```cs
 using System;

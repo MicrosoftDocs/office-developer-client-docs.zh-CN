@@ -1,5 +1,5 @@
 ---
-title: 参考 （Outlook 辅助参考） （英文）
+title: 参考 （Outlook 辅助参考）
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774456"
 ---
-# <a name="reference-outlook-auxiliary-reference"></a><span data-ttu-id="460e5-103">参考 （Outlook 辅助参考） （英文）</span><span class="sxs-lookup"><span data-stu-id="460e5-103">Reference (Outlook auxiliary reference)</span></span>
+# <a name="reference-outlook-auxiliary-reference"></a><span data-ttu-id="460e5-103">参考 （Outlook 辅助参考）</span><span class="sxs-lookup"><span data-stu-id="460e5-103">Reference (Outlook auxiliary reference)</span></span>
 
 <span data-ttu-id="460e5-104">此部分包含在 Outlook 2013 辅助参考以下 Api 的参考内容。</span><span class="sxs-lookup"><span data-stu-id="460e5-104">This section includes reference content for the following APIs in the Outlook 2013 Auxiliary Reference.</span></span>
 

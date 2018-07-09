@@ -1,5 +1,5 @@
 ---
-title: 开发 Excel xll （英文）
+title: 开发 Excel xll
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773649"
 ---
-# <a name="developing-excel-xlls"></a><span data-ttu-id="50e5f-104">开发 Excel xll （英文）</span><span class="sxs-lookup"><span data-stu-id="50e5f-104">Developing Excel XLLs</span></span>
+# <a name="developing-excel-xlls"></a><span data-ttu-id="50e5f-104">开发 Excel xll</span><span class="sxs-lookup"><span data-stu-id="50e5f-104">Developing Excel XLLs</span></span>
 
 <span data-ttu-id="50e5f-105">**适用于**： Excel 2013 |Office 2013 |Visual Studio</span><span class="sxs-lookup"><span data-stu-id="50e5f-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19773649"
   
 - [<span data-ttu-id="50e5f-116">从 DLL 或 XLL 调用 Excel</span><span class="sxs-lookup"><span data-stu-id="50e5f-116">Calling into Excel from the DLL or XLL</span></span>](calling-into-excel-from-the-dll-or-xll.md)
   
-- [<span data-ttu-id="50e5f-117">创建 xll （英文）</span><span class="sxs-lookup"><span data-stu-id="50e5f-117">Creating XLLs</span></span>](creating-xlls.md)
+- [<span data-ttu-id="50e5f-117">创建 xll</span><span class="sxs-lookup"><span data-stu-id="50e5f-117">Creating XLLs</span></span>](creating-xlls.md)
   
 - [<span data-ttu-id="50e5f-118">Evaluating Names and Other Worksheet Formula Expressions</span><span class="sxs-lookup"><span data-stu-id="50e5f-118">Evaluating Names and Other Worksheet Formula Expressions</span></span>](evaluating-names-and-other-worksheet-formula-expressions.md)
   

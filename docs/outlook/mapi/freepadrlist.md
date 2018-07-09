@@ -55,7 +55,7 @@ void FreePadrlist(
   
 <span data-ttu-id="ba3db-120">有关为**ADRLIST**和**SRowSet**结构分配内存的详细信息，请参阅[管理内存 ADRLIST 和 SRowSet 结构](managing-memory-for-adrlist-and-srowset-structures.md)。</span><span class="sxs-lookup"><span data-stu-id="ba3db-120">For more information about allocating memory for **ADRLIST** and **SRowSet** structures, see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="ba3db-121">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="ba3db-121">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ba3db-121">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="ba3db-121">MFCMAPI reference</span></span>
 
 <span data-ttu-id="ba3db-122">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="ba3db-122">For MFCMAPI sample code, see the following table.</span></span>
   

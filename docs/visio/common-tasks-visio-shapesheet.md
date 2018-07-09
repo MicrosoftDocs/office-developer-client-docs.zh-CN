@@ -36,7 +36,7 @@ ms.locfileid: "19779918"
     
 - [<span data-ttu-id="e8ef4-115">在同一窗口中打开每个 ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="e8ef4-115">Open Each ShapeSheet in the Same Window</span></span>](open-each-shapesheet-in-the-same-window.md)
     
-- [<span data-ttu-id="e8ef4-116">打开的形状、 页面或文档的 shapesheet （英文）</span><span class="sxs-lookup"><span data-stu-id="e8ef4-116">Open the ShapeSheet for a Shape, Page, or Document</span></span>](open-the-shapesheet-for-a-shape-page-or-document.md)
+- [<span data-ttu-id="e8ef4-116">打开的形状、 页面或文档的 shapesheet</span><span class="sxs-lookup"><span data-stu-id="e8ef4-116">Open the ShapeSheet for a Shape, Page, or Document</span></span>](open-the-shapesheet-for-a-shape-page-or-document.md)
     
 - [<span data-ttu-id="e8ef4-117">引用的公式的单元格</span><span class="sxs-lookup"><span data-stu-id="e8ef4-117">Reference a Cell in a Formula</span></span>](reference-a-cell-in-a-formula.md)
     

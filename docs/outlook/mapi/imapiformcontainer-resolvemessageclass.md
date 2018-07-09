@@ -73,7 +73,7 @@ HRESULT ResolveMessageClass(
   
 <span data-ttu-id="1fb72-128">解析的邮件类的类标识符返回窗体信息对象的一部分。</span><span class="sxs-lookup"><span data-stu-id="1fb72-128">The class identifier for the resolved message class is returned as part of the form information object.</span></span> <span data-ttu-id="1fb72-129">不要假设您调用[IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)或[IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)方法之后的类标识符存在之前 OLE 库中。</span><span class="sxs-lookup"><span data-stu-id="1fb72-129">Do not assume that the class identifier exists in the OLE library until after you call either the [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) or [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) method.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="1fb72-130">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="1fb72-130">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="1fb72-130">MFCMAPI 参考</span><span class="sxs-lookup"><span data-stu-id="1fb72-130">MFCMAPI reference</span></span>
 
 <span data-ttu-id="1fb72-131">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="1fb72-131">For MFCMAPI sample code, see the following table.</span></span>
   

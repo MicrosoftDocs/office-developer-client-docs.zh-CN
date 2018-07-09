@@ -46,7 +46,7 @@ int WINAPI xlAutoOpen(void);
     
 - <span data-ttu-id="c7a63-117">以下几种方式，可加载 XLL:</span><span class="sxs-lookup"><span data-stu-id="c7a63-117">An XLL can be loaded in several ways:</span></span>
     
-- <span data-ttu-id="c7a63-118">通过在**文件**菜单 （其中的 Excel 版本支持此方法的加载 xll （英文）） 中选择**打开**。</span><span class="sxs-lookup"><span data-stu-id="c7a63-118">By choosing **Open** on the **File** menu (where the version of Excel supports this method of loading XLLs).</span></span> 
+- <span data-ttu-id="c7a63-118">通过在**文件**菜单 （其中的 Excel 版本支持此方法的加载 xll） 中选择**打开**。</span><span class="sxs-lookup"><span data-stu-id="c7a63-118">By choosing **Open** on the **File** menu (where the version of Excel supports this method of loading XLLs).</span></span> 
     
 - <span data-ttu-id="c7a63-119">使用加载项管理器。</span><span class="sxs-lookup"><span data-stu-id="c7a63-119">Using the Add-In Manager.</span></span>
     
