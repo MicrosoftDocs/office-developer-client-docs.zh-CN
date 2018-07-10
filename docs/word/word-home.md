@@ -20,7 +20,7 @@ ms.locfileid: "19781777"
 > [!NOTE]
 > [!注释] 有兴趣开发跨[多个平台](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)扩展 Office 体验的解决方案？查看新的 [Office 外接程序模型](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)。  
   
-### <a name="viewed-most"></a>查看最
+### <a name="viewed-most"></a>查看大多数
   
 - [Word VBA 参考](https://msdn.microsoft.com/en-us/library/ee861527.aspx)
   

@@ -16,7 +16,7 @@ ms.locfileid: "19773402"
 
 查找开发解决方案和自定义 Access 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
   
-### <a name="viewed-most"></a>查看最
+### <a name="viewed-most"></a>查看次数最多
   
 - [Access VBA 参考](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
   

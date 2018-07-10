@@ -21,15 +21,15 @@ ms.locfileid: "19781640"
 > [!NOTE]
 > [!注释] 有兴趣开发跨[多个平台](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)扩展 Office 体验的解决方案？查看新的 [Office 外接程序模型](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)。 
   
-### <a name="viewed-most"></a>查看最
+### <a name="viewed-most"></a>查看大多数
   
-- [Visio VBA 参考 （英文）](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
+- [Visio VBA 参考](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
   
 - [Visio 另存为 Web 参考 （英文）](http://msdn.microsoft.com/library/83e06e12-2b4d-2bba-71e3-cb65307a3af0%28Office.15%29.aspx)
   
 - [Visio Viewer 参考](http://msdn.microsoft.com/library/6ee197eb-5d40-61a8-4ba4-8c13c9dc3a7e%28Office.15%29.aspx)
   
-- [Visio ShapeSheet 参考 （英文）](visio-shapesheet-reference.md)
+- [Visio ShapeSheet 参考](visio-shapesheet-reference.md)
   
 - [Visio 文件格式参考](visio-file-format-reference.md)
   
