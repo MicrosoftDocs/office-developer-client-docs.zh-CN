@@ -18,10 +18,10 @@ ms.locfileid: "19774159"
 <span data-ttu-id="b2a54-104">查找开发解决方案和自定义 OneNote 桌面客户端应用程序的操作说明内容、技术文章、参考内容和博客文章。</span><span class="sxs-lookup"><span data-stu-id="b2a54-104">Find how-to content, technical articles, reference content, and blog posts for developing solutions and customizing OneNote desktop client applications.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b2a54-p101">[!注释] 本文档中描述的 API 仅用于创建未连接方案中的 OneNote Win32 桌面客户端解决方案。对于已连接方案，请使用推荐的 OneNote 服务 API。要了解详细信息，请访问 [dev.onenote.com](http://dev.onenote.com/)。</span><span class="sxs-lookup"><span data-stu-id="b2a54-p101">The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](http://dev.onenote.com/).</span></span> 
+> <span data-ttu-id="b2a54-p101">本文档中描述的 API 仅用于创建未连接方案中的 OneNote Win32 桌面客户端解决方案。对于已连接方案，请使用推荐的 OneNote 服务 API。要了解详细信息，请访问 [dev.onenote.com](http://dev.onenote.com/)。</span><span class="sxs-lookup"><span data-stu-id="b2a54-p101">The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](http://dev.onenote.com/).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="b2a54-p102">[!注释] 有兴趣开发跨[多个平台](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)扩展 Office 体验的解决方案？查看新的 [Office 外接程序模型](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)。</span><span class="sxs-lookup"><span data-stu-id="b2a54-p102">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins).</span></span>  
+> <span data-ttu-id="b2a54-p102">有兴趣开发跨[多个平台](https://docs.microsoft.com/zh-cn/office/dev/add-ins/overview/office-add-in-availability)扩展 Office 体验的解决方案？查看新的 [Office 外接程序模型](https://docs.microsoft.com/zh-cn/office/dev/add-ins/overview/office-add-ins)。</span><span class="sxs-lookup"><span data-stu-id="b2a54-p102">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/zh-cn/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/zh-cn/office/dev/add-ins/overview/office-add-ins).</span></span>  
   
 ### <a name="viewed-most"></a><span data-ttu-id="b2a54-110">查看量最高</span><span class="sxs-lookup"><span data-stu-id="b2a54-110">Viewed most</span></span>
   
@@ -29,9 +29,9 @@ ms.locfileid: "19774159"
   
 ### <a name="office-add-ins"></a><span data-ttu-id="b2a54-112">Office 外接程序</span><span class="sxs-lookup"><span data-stu-id="b2a54-112">Office Add-ins</span></span>
   
-- [<span data-ttu-id="b2a54-113">OneNote 外接程序入门</span><span class="sxs-lookup"><span data-stu-id="b2a54-113">Get started with OneNote add-ins</span></span>](https://docs.microsoft.com/en-us/office/dev/add-ins/quickstarts/onenote-quickstart)
+- [<span data-ttu-id="b2a54-113">OneNote 外接程序入门</span><span class="sxs-lookup"><span data-stu-id="b2a54-113">Get started with OneNote add-ins</span></span>](https://docs.microsoft.com/zh-cn/office/dev/add-ins/quickstarts/onenote-quickstart)
   
-- [<span data-ttu-id="b2a54-114">平台概述</span><span class="sxs-lookup"><span data-stu-id="b2a54-114">Platform overview</span></span>](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)
+- [<span data-ttu-id="b2a54-114">平台概述</span><span class="sxs-lookup"><span data-stu-id="b2a54-114">Platform overview</span></span>](https://docs.microsoft.com/zh-cn/office/dev/add-ins/overview/office-add-ins)
   
 ### <a name="other-resources"></a><span data-ttu-id="b2a54-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="b2a54-115">Other resources</span></span>
   
@@ -41,6 +41,6 @@ ms.locfileid: "19774159"
   
 - [<span data-ttu-id="b2a54-118">Open XML SDK</span><span class="sxs-lookup"><span data-stu-id="b2a54-118">Open XML SDK</span></span>](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
   
-- [<span data-ttu-id="b2a54-119">适用于 Office 的 VSTO 外接程序</span><span class="sxs-lookup"><span data-stu-id="b2a54-119">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [<span data-ttu-id="b2a54-119">适用于 Office 的 VSTO 外接程序</span><span class="sxs-lookup"><span data-stu-id="b2a54-119">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/zh-cn/library/jj620922.aspx)
   
 
