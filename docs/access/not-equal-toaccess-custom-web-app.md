@@ -19,7 +19,7 @@ ms.locfileid: "19773581"
 <span data-ttu-id="afeb3-105">比较两个表达式。</span><span class="sxs-lookup"><span data-stu-id="afeb3-105">Compares two expressions.</span></span> <span data-ttu-id="afeb3-106">当比较非空表达式时，则结果为 TRUE，如果左侧的操作数不等于右侧操作数次;否则，则结果为 FALSE。</span><span class="sxs-lookup"><span data-stu-id="afeb3-106">When you compare non-null expressions, the result is TRUE if the left operand is not equal to the right operand; otherwise, the result is FALSE.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="afeb3-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="afeb3-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="afeb3-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="afeb3-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="afeb3-109">语法</span><span class="sxs-lookup"><span data-stu-id="afeb3-109">Syntax</span></span>
 

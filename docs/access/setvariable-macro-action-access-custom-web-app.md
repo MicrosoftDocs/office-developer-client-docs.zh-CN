@@ -19,7 +19,7 @@ ms.locfileid: "19773602"
 <span data-ttu-id="2112a-105">您可以使用**SetVariable**操作创建一个临时变量并将其设置为特定值。</span><span class="sxs-lookup"><span data-stu-id="2112a-105">You can use the **SetVariable** action to create a temporary variable and set it to a specific value.</span></span> <span data-ttu-id="2112a-106">该变量然后可作为条件或在后续操作的参数或您可以在另一个用户界面 (UI) 宏中使用该变量。</span><span class="sxs-lookup"><span data-stu-id="2112a-106">The variable can then be used as a condition or argument in subsequent actions, or you can use the variable in another user interface (UI) macro.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="2112a-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="2112a-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="2112a-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="2112a-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="2112a-109">设置</span><span class="sxs-lookup"><span data-stu-id="2112a-109">Setting</span></span>
 

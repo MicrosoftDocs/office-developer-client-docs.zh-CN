@@ -19,7 +19,7 @@ ms.locfileid: "19773609"
 <span data-ttu-id="00385-105">其他文本字符串中插入的文本字符串。</span><span class="sxs-lookup"><span data-stu-id="00385-105">Inserts a text string into another text string.</span></span> <span data-ttu-id="00385-106">删除指定的开始位置处的第一个字符串中的字符长度及其的开始位置处的第一个字符串中插入第二个字符串。</span><span class="sxs-lookup"><span data-stu-id="00385-106">It deletes a specified length of characters in the first string at the start position and then inserts the second string into the first string at the start position.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="00385-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="00385-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="00385-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="00385-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="00385-109">语法</span><span class="sxs-lookup"><span data-stu-id="00385-109">Syntax</span></span>
 

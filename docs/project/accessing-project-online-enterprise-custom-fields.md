@@ -206,8 +206,8 @@ private static ProjectContext projContext =
 ## <a name="see-also"></a><span data-ttu-id="0be50-211">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0be50-211">See also</span></span>
 
 - [<span data-ttu-id="0be50-212">项目开发门户</span><span class="sxs-lookup"><span data-stu-id="0be50-212">Project Development Portal</span></span>](http://dev.office.com/project.aspx)
-- [<span data-ttu-id="0be50-213">概述： 企业自定义域和查阅表格</span><span class="sxs-lookup"><span data-stu-id="0be50-213">Overview: Enterprise custom fields and lookup tables</span></span>](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [<span data-ttu-id="0be50-213">概述： 企业自定义域和查阅表格</span><span class="sxs-lookup"><span data-stu-id="0be50-213">Overview: Enterprise custom fields and lookup tables</span></span>](https://support.office.com/zh-cn/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - <span data-ttu-id="0be50-214">[本地和企业自定义域](https://msdn.microsoft.com/zh-cn/library/office/ms447495(v=office.14).aspx)</span><span class="sxs-lookup"><span data-stu-id="0be50-214">[Local and Enterprise Custom Fields](https://msdn.microsoft.com/zh-cn/library/office/ms447495(v=office.14).aspx)</span></span>
-- [<span data-ttu-id="0be50-215">添加或编辑 Project Server 2013 中的企业自定义域</span><span class="sxs-lookup"><span data-stu-id="0be50-215">Add or edit enterprise custom fields in Project Server 2013</span></span>](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)
+- [<span data-ttu-id="0be50-215">添加或编辑 Project Server 2013 中的企业自定义域</span><span class="sxs-lookup"><span data-stu-id="0be50-215">Add or edit enterprise custom fields in Project Server 2013</span></span>](https://docs.microsoft.com/zh-cn/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
 

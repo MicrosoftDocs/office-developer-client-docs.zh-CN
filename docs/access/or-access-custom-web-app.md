@@ -19,7 +19,7 @@ ms.locfileid: "19773576"
 <span data-ttu-id="5d0a1-105">结合以下两种情况。</span><span class="sxs-lookup"><span data-stu-id="5d0a1-105">Combines two conditions.</span></span> <span data-ttu-id="5d0a1-106">当任一两个条件为 true，则返回 TRUE。</span><span class="sxs-lookup"><span data-stu-id="5d0a1-106">Returns TRUE when either of the two conditions is true.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="5d0a1-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="5d0a1-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="5d0a1-p103">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="5d0a1-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="5d0a1-109">语法</span><span class="sxs-lookup"><span data-stu-id="5d0a1-109">Syntax</span></span>
 

@@ -456,6 +456,6 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 - [<span data-ttu-id="0ce5e-356">演练： 开发使用 WCF 的 PSI 应用程序</span><span class="sxs-lookup"><span data-stu-id="0ce5e-356">Walkthrough: Developing PSI applications using WCF</span></span>](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
 - [<span data-ttu-id="0ce5e-357">使用 WCF 模拟</span><span class="sxs-lookup"><span data-stu-id="0ce5e-357">Use Impersonation with WCF</span></span>](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
 - [<span data-ttu-id="0ce5e-358">项目 PSI 参考概述</span><span class="sxs-lookup"><span data-stu-id="0ce5e-358">Project PSI reference overview</span></span>](project-psi-reference-overview.md) 
-- [<span data-ttu-id="0ce5e-359">SharePoint 开发中心</span><span class="sxs-lookup"><span data-stu-id="0ce5e-359">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [<span data-ttu-id="0ce5e-359">SharePoint 开发中心</span><span class="sxs-lookup"><span data-stu-id="0ce5e-359">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/zh-cn/sharepoint/default.aspx)
     
 

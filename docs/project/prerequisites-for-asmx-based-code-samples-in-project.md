@@ -441,6 +441,6 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 - [<span data-ttu-id="6ea3c-312">在项目中的基于 WCF 的代码示例的先决条件</span><span class="sxs-lookup"><span data-stu-id="6ea3c-312">Prerequisites for WCF-based code samples in Project</span></span>](prerequisites-for-wcf-based-code-samples-in-project.md)
 - [<span data-ttu-id="6ea3c-313">使用 WCF 模拟</span><span class="sxs-lookup"><span data-stu-id="6ea3c-313">Use Impersonation with WCF</span></span>](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
 - [<span data-ttu-id="6ea3c-314">项目 PSI 参考概述</span><span class="sxs-lookup"><span data-stu-id="6ea3c-314">Project PSI reference overview</span></span>](project-psi-reference-overview.md)
-- [<span data-ttu-id="6ea3c-315">SharePoint 开发中心</span><span class="sxs-lookup"><span data-stu-id="6ea3c-315">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [<span data-ttu-id="6ea3c-315">SharePoint 开发中心</span><span class="sxs-lookup"><span data-stu-id="6ea3c-315">SharePoint Developer Center</span></span>](http://msdn.microsoft.com/zh-cn/sharepoint/default.aspx)
     
 

@@ -18,7 +18,7 @@ ms.locfileid: "19773611"
 ## <a name="in-this-section"></a><span data-ttu-id="1fd11-103">本节内容</span><span class="sxs-lookup"><span data-stu-id="1fd11-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="1fd11-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="1fd11-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="1fd11-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="1fd11-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 - [<span data-ttu-id="1fd11-106">CharIndex 函数 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="1fd11-106">CharIndex Function (Access custom web app)</span></span>](charindex-function-access-custom-web-app.md)
     
