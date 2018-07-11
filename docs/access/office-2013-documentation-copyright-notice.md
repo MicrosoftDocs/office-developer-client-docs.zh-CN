@@ -1,5 +1,6 @@
 ---
 title: Office 2013 文档版权声明
+author: umas
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,12 +8,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
 description: 本文档按原样提供。本文档中表示的信息和视图（包括 URL 和其他 Internet 网站引用）可能会发生更改，且不进行通知。您需承担使用本文档的风险。
-ms.openlocfilehash: 324af9613f81c4ccb61b422ab064bb802ce1a1ff
+ms.openlocfilehash: 00de9049a655bf2d4d5642012955fd999878887e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780808"
+ms.locfileid: "19773583"
 ---
 # <a name="office-2013-documentation-copyright-notice"></a>Office 2013 文档版权声明
 
