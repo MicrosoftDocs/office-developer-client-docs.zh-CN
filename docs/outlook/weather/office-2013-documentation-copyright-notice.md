@@ -12,7 +12,7 @@ ms.openlocfilehash: 4a686a9d3e95ed143db69962ab45337cdb4d373d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 07/11/2018
 ms.locfileid: "19779402"
 ---
 # <a name="office-2013-documentation-copyright-notice"></a>Office 2013 文档版权声明
