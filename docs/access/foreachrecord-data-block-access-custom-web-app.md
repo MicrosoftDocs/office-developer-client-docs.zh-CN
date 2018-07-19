@@ -19,10 +19,10 @@ ms.locfileid: "19773459"
 <span data-ttu-id="2e054-104">**ForEachRecord**数据块的域中的每个记录都重复一组语句。</span><span class="sxs-lookup"><span data-stu-id="2e054-104">A **ForEachRecord** data block repeats a set of statements for each record in a domain.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="2e054-p101">[!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="2e054-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="2e054-p101"> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="2e054-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="2e054-107">[!注释] **ForEachRecord** 数据块仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="2e054-107">The **ForEachRecord** data block is available only in Data Macros.</span></span> 
+> <span data-ttu-id="2e054-107"> **ForEachRecord** 数据块仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="2e054-107">The **ForEachRecord** data block is available only in Data Macros.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="2e054-108">设置</span><span class="sxs-lookup"><span data-stu-id="2e054-108">Setting</span></span>
 

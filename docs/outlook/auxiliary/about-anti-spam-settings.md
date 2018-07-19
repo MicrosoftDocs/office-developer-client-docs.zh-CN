@@ -38,5 +38,5 @@ ms.locfileid: "19774156"
 ## <a name="see-also"></a><span data-ttu-id="52e9d-124">另请参阅</span><span class="sxs-lookup"><span data-stu-id="52e9d-124">See also</span></span>
 
 - [<span data-ttu-id="52e9d-125">有关帐户管理 API</span><span class="sxs-lookup"><span data-stu-id="52e9d-125">About the Account Management API</span></span>](about-the-account-management-api.md)
-- [<span data-ttu-id="52e9d-126">将名称添加到的垃圾邮件筛选器列表</span><span class="sxs-lookup"><span data-stu-id="52e9d-126">Add names to the Junk Email Filter lists</span></span>](http://office.microsoft.com/en-us/outlook-help/add-names-to-the-junk-email-filter-lists-HA010355043.aspx?CTT=1)
+- [<span data-ttu-id="52e9d-126">将名称添加到的垃圾邮件筛选器列表</span><span class="sxs-lookup"><span data-stu-id="52e9d-126">Add names to the Junk Email Filter lists</span></span>](http://office.microsoft.com/zh-cn/outlook-help/add-names-to-the-junk-email-filter-lists-HA010355043.aspx?CTT=1)
 

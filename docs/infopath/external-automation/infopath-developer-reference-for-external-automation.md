@@ -25,9 +25,9 @@ ms.locfileid: "19773888"
   
 ## <a name="see-also"></a><span data-ttu-id="2aebb-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2aebb-109">See also</span></span>
 
-- [<span data-ttu-id="2aebb-110">InfoPath 开发人员中心</span><span class="sxs-lookup"><span data-stu-id="2aebb-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905434.aspx)  
-- [<span data-ttu-id="2aebb-111">Microsoft Office 开发人员中心</span><span class="sxs-lookup"><span data-stu-id="2aebb-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/default.aspx)
-- [<span data-ttu-id="2aebb-112">Office 开发人员文档中的文档约定</span><span class="sxs-lookup"><span data-stu-id="2aebb-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="2aebb-110">InfoPath 开发人员中心</span><span class="sxs-lookup"><span data-stu-id="2aebb-110">InfoPath Developer Center</span></span>](http://msdn.microsoft.com/zh-cn/office/aa905434.aspx)  
+- [<span data-ttu-id="2aebb-111">Microsoft Office 开发人员中心</span><span class="sxs-lookup"><span data-stu-id="2aebb-111">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/zh-cn/office/default.aspx)
+- [<span data-ttu-id="2aebb-112">Office 开发人员文档中的文档约定</span><span class="sxs-lookup"><span data-stu-id="2aebb-112">Document Conventions in Office Developer Documentation</span></span>](http://msdn.microsoft.com/zh-cn/office/aa905365.aspx)
 - [<span data-ttu-id="2aebb-113">Microsoft 辅助功能</span><span class="sxs-lookup"><span data-stu-id="2aebb-113">Microsoft Accessibility</span></span>](http://www.microsoft.com/ENABLE/)
 - [<span data-ttu-id="2aebb-114">Microsoft 联机隐私声明</span><span class="sxs-lookup"><span data-stu-id="2aebb-114">Microsoft Online Privacy Notice</span></span>](http://privacy.microsoft.com/en-us/default.mspx)
   

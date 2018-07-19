@@ -19,10 +19,10 @@ ms.locfileid: "19773483"
 <span data-ttu-id="c4dd8-104">**LookupRecord** 数据块可对特定记录执行一组操作。</span><span class="sxs-lookup"><span data-stu-id="c4dd8-104">A **LookupRecord** data block performs a set of actions on a specific record.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="c4dd8-p101">[!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="c4dd8-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="c4dd8-p101"> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="c4dd8-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="c4dd8-107">[!注释] **LookupRecord** 数据块仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="c4dd8-107">The **LookupRecord** data block is available only in Data Macros.</span></span> 
+> <span data-ttu-id="c4dd8-107"> **LookupRecord** 数据块仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="c4dd8-107">The **LookupRecord** data block is available only in Data Macros.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="c4dd8-108">设置</span><span class="sxs-lookup"><span data-stu-id="c4dd8-108">Setting</span></span>
 
