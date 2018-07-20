@@ -10,7 +10,7 @@ ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: 若要扩展 InfoPath 表单的功能，通常必须以编程方式访问与表单的基础 XML 文档有关的信息、访问 XML 文档所包含的数据或对 XML 文档执行某些操作。通过结合使用 XDocument 接口和 XDocumentsCollection 接口，InfoPath 对象模型可支持对表单的基础 XML 文档进行访问和操作。
 ms.openlocfilehash: 24e9abc8ce7327ab94b3608f1279c0f0d381ea83
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773982"
@@ -94,7 +94,7 @@ thisXDocument.UI.Alert(thisXDocument.URI)
 ```
 
 > [!NOTE]
-> [!注释] 使用 **XDocument** 接口访问表单的基础 XML 文档时，实际上是在访问与当前打开表单相关联的 XML 文档。 
+> 使用 **XDocument** 接口访问表单的基础 XML 文档时，实际上是在访问与当前打开表单相关联的 XML 文档。 
   
 **XDocument** 接口的一个关键属性是 **DOM** 属性。该属性返回以表单的源 XML 数据填充的 XML DOM 的引用。使用 **DOM** 属性时，可以使用 XML DOM 支持的任何属性和方法。例如，下列代码使用 XML DOM 的 **xml** 属性来返回并显示表单的基础 XML 文档的全部内容。 
   
@@ -113,6 +113,6 @@ thisXDocument.UI.Alert(xmldoc)
 ```
 
 > [!NOTE]
-> 若要了解有关 XML DOM 的详细信息和所有属性和方法，它支持，请参阅 MSDN 上的 MSXML SDK。 
+> 若要了解有关 XML DOM 及其支持的所有属性和方法的详细信息，请参阅 MSDN 上的 MSXML SDK。 
   
 

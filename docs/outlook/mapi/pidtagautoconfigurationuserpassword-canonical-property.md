@@ -1,5 +1,5 @@
 ---
-title: PidTagAutoConfigurationUserEmail Canonical Property
+title: PidTagAutoConfigurationUserPassword Canonical Property
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,30 +7,30 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 api_name:
-- PidTagAutoConfigurationUserEmail
+- PidTagAutoConfigurationUserPassword
 api_type:
 - HeaderDef
-ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
+ms.assetid: d33e7c45-55d8-4dc1-ade9-605542d87e61
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f7b273be8c123bd9fb9daf7993720cb36a9cbf35
+ms.openlocfilehash: 1b0fefd6d75ed3cf417e20d84bf0996a2e2f0a38
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777373"
+ms.locfileid: "19777378"
 ---
-# <a name="pidtagautoconfigurationuseremail-canonical-property"></a>PidTagAutoConfigurationUserEmail Canonical Property
+# <a name="pidtagautoconfigurationuserpassword-canonical-property"></a>PidTagAutoConfigurationUserPassword Canonical Property
 
   
   
 **适用于**： Outlook 
   
-表示用户的电子邮件地址。
+表示用户的密码。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_AUTOCFG_USER_EMAIL_W  <br/> |
-|标识符：  <br/> |0x67FD  <br/> |
+|相关属性：  <br/> |PR_AUTOCFG_USER_PASSWORD_W  <br/> |
+|标识符：  <br/> |0x67FC  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    

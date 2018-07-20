@@ -7,17 +7,17 @@ keywords:
 - digital signatures [infopath 2007],InfoPath 2007, digital signatures
 localization_priority: Normal
 ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
-description: Microsoft.Office.InfoPath 命名空间的对象模型提供了一些功能，以便通过编程方式使用数字签名。
+description: Microsoft.Office.InfoPath 命名空间的对象模型提供了以编程方式使用数字签名的功能。
 ms.openlocfilehash: 1277998edf4feb94da40d82372fd4d96fedf2d54
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19774038"
 ---
 # <a name="work-with-digital-signatures"></a>使用数字签名
 
-[Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间的对象模型提供了一些功能，以便通过编程方式使用数字签名。 
+[Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间的对象模型提供了以编程方式使用数字签名的功能。 
   
 ## <a name="digital-signature-features"></a>数字签名功能
 
@@ -31,7 +31,7 @@ ms.locfileid: "19774038"
     
 - 在文档中插入和查看签名。 
     
-- 查看可验证不可否认性信息已添加到每个签名为了提高安全性。 此附加信息，包括按照呈现给每个签名人的窗体视图，是签名的一部分，不能删除不会导致无效签名。 在任何时候，您可以通过单击窗体显示**验证数字签名**对话框中的签名撤销此数据。 
+- 查看已添加到每个签名来提高安全性的可验证的不可否认性信息。 此额外信息（其中包含表单的视图，因为它呈现给每个签名者）是签名的一部分，未使签名无效的情况下不可删除。 可以通过单击表单中的签名以显示****“验证数字签名”对话框来随时撤回此数据。 
     
 - 利用对象模型来处理数字签名。通过数字签名对象模型来将自定义信息添加到完全信任表单中的签名块。 
     
@@ -52,10 +52,10 @@ ms.locfileid: "19774038"
 |**名称**|**说明**|
 |:-----|:-----|
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |获取引发 [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) 事件的数据组。  <br/> |
-|[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |获取或设置是否显示**数字签名**对话框。  <br/> |
+|[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |获取或设置是否显示****“数字签名”对话框。  <br/> |
    
 > [!NOTE]
-> [!注释] 在随 InfoPath 2003 一起提供的 [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 托管代码对象模型中， [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) 事件的 [SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2.OnSign.aspx) 事件对象提供了一个 **XDocument** 属性，用来访问与该事件关联的表单的 **XDocument** 对象。这对于通过 InfoPath Forms Services 或 InfoPath 使用 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 对象模型创建的表单模板并不是必需的，这是因为可以使用 [this](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) (C#) 或 **Me** (Visual Basic) 关键字在表单代码中访问 **XmlForm** 类的对象模型成员。例如，若要访问 [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx) 类的 [Signed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) 属性以确定某个表单是否经过签名，您可以键入  `this.Signed` 或  `Me.Signed.`。
+> 在随 InfoPath 2003 一起提供的 [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 托管代码对象模型中， [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) 事件的 [SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2.OnSign.aspx) 事件对象提供了一个 **XDocument** 属性，用来访问与该事件关联的表单的 **XDocument** 对象。这对于通过 InfoPath Forms Services 或 InfoPath 使用 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 对象模型创建的表单模板并不是必需的，这是因为可以使用 [this](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) (C#) 或 **Me** (Visual Basic) 关键字在表单代码中访问 **XmlForm** 类的对象模型成员。例如，若要访问 [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx) 类的 [Signed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) 属性以确定某个表单是否经过签名，您可以键入  `this.Signed` 或  `Me.Signed.`。
   
 ### <a name="collections-and-objects"></a>集合和对象
 
@@ -80,7 +80,7 @@ ms.locfileid: "19774038"
   
 1. 用户选择向表单添加数字签名。
     
-2. 显示**数字签名**对话框，用户单击**添加**，然后选择要签署的数据。
+2. 显示“数字签名”**** 对话框，用户单击“添加”****，然后选择要签署的数据。
     
 3. 引发由 [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) 对象代表的选定数据的 [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) 事件，并执行 [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) 对象的 [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) 方法以及 [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) 集合的 [CreateSignature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) 方法。 
     
@@ -88,9 +88,9 @@ ms.locfileid: "19774038"
     
 5. 执行 [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) 对象的 [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) 方法。 
     
-6. 显示**签名**对话框中键入一个名称 （或选择一个签名图像），选择证书签名时使用，以及输入注释。 
+6. 显示“签名”**** 对话框，用来键入一个名称（或选择一个签名图像），选择签名时使用的证书以及输入注释。 
     
-7. 单击**登录**按钮时，签名被添加到表单的签名的集合并捕获并进行签名 （这可以通过单击****查看签名的表单**更高版本查看保存的不可否认性信息数字签名**对话框中，，然后单击**查看收集的其他签名信息**)。
+7. 单击“签名”**** 按钮时，签名将添加到表单的签名集合中，并且将捕获认可信息并与签名一起保存（以后可通过单击“数字签名”**** 对话框中的“查看签名的表单”****，然后单击“查看收集的附加签名信息”**** 来查看）。
     
 下面的示例在用户签署所选数据时调用 [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) 方法，并利用从受信任的时间戳服务中检索的时间戳值来副署签名。 
   

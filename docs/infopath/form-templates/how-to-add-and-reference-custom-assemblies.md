@@ -10,7 +10,7 @@ ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: 如果在托管代码表单模板项目中添加一个对自定义程序集的引用，则编译和发布项目时，该程序集将包含在表单模板文件 (.xsn) 内。
 ms.openlocfilehash: e182930ebe14b6f64d1b90509fe400cc1fb1b26e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773976"
@@ -29,13 +29,13 @@ ms.locfileid: "19773976"
 
 1. 在 Visual Studio 2008 中打开表单模板项目。
     
-2. 在"项目"菜单上单击"添加引用"。
+2. 在“项目”**** 菜单上，单击“添加引用”****。
     
-3. 单击**浏览**选项卡，找到指定的程序集，然后单击**确定**以添加引用。 
+3. 单击“浏览”**** 选项卡，找到并指定程序集，再单击“确定”****，以添加引用。 
     
 ## <a name="see-also"></a>另请参阅
 
 #### <a name="tasks"></a>任务
 
-[创建使用 InfoPath 2003 对象模型的表单模板](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
+[使用 InfoPath 2003 对象模型创建表单模板](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
 
