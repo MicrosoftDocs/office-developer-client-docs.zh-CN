@@ -8,10 +8,10 @@ localization_priority: Normal
 ms.assetid: 70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb
 description: 返回帐户戳。
 ms.openlocfilehash: ec1824d8c8c61d392b4e11cdb5213a85100d971e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.sourcegitcommit: c55eec212ae794592c83bbf06b01eab5ca6bff6d
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 07/25/2018
 ms.locfileid: "19774445"
 ---
 # <a name="propacctstamp"></a>PROP_ACCT_STAMP
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x000D001F  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 通过使用[IOlkAccount::GetProp](iolkaccount-getprop.md)获取此属性。 如果客户端试图设置该属性，则此属性返回**E_OLK_PROP_READ_ONLY**。 
   
