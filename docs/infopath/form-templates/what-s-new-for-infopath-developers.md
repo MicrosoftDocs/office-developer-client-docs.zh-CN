@@ -10,7 +10,7 @@ ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: InfoPath 旨在让您轻松地在 Microsoft SharePoint Server 平台上构建各种基于表单的应用程序。Microsoft SharePoint Server 2013 与 InfoPath Forms Services 和 Microsoft InfoPath 2013 结合使用可提供面向开发人员的许多功能。利用 SharePoint Server 2013 中提供的 InfoPath Forms Services，您可以将 InfoPath 表单模板部署到 SharePoint Server，以便没有 InfoPath 富客户端的用户可以在 Web 浏览器中打开并填写 InfoPath 表单。
 ms.openlocfilehash: a11c6b4018e60a470197ecd7ffdf3b79a13658b9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774092"
@@ -33,9 +33,9 @@ InfoPath 旨在让您轻松地在 Microsoft SharePoint Server 平台上构建各
     
 - 增强 SharePoint 列表表单
     
-- 使用 InfoPath 表单 web 部件的门户页面上承载表单
+- 使用 InfoPath 表单 Web 部件在门户页上托管表单
     
-- 更加丰富的 Web 表单
+- 更丰富的 Web 表单
     
 - 符合标准的浏览器表单
     
@@ -55,17 +55,17 @@ InfoPath 旨在让您轻松地在 Microsoft SharePoint Server 平台上构建各
   
 ## <a name="publish-forms-with-one-click"></a>只需单击一次即可发布表单
 
-InfoPath 在设计上可轻松比以往任何时候都要将更新发布到窗体正在 首次发布表单模板，而不是通过几个对话框中，单击之后，您可以完成的新**快速发布**按钮，这是可用的**快速访问工具栏**中，然后在新中单击一次此任务Microsoft Office Backstage，这是可通过单击**文件**选项卡。 
+InfoPath 旨在使发布对表单的更新比以前更为轻松。 首次发布表单模板后，你只需单击新的“快速发布”**** 按钮（可在“快速访问工具栏”**** 和新的 Microsoft Office Backstage 中找到，后者可通过单击“文件”**** 选项卡找到）一次，即可完成此任务，而无需在若干个对话框中单击。 
   
 ## <a name="enhance-sharepoint-list-forms"></a>增强 SharePoint 列表表单
 
-使用 InfoPath，您现在可以扩展和增强用于创建、 编辑和查看 SharePoint 列表项的表单。 通过打开列表，在**列表工具**，单击**列表**选项卡，然后单击**自定义窗体**，您可以自动生成类似于默认的 InfoPath 表单、 开的 SharePoint 列表表单。 然后，您可以自定义和增强修改布局、 创建其他视图，并在 InfoPath 中添加规则和数据验证此窗体。 当您完成修改改进的列表窗体时，您可以将其发布到 SharePoint 中使用新的一键式发布功能在 InfoPath 中。
+使用 InfoPath，现在可以扩展和增强用于创建、编辑和查看 SharePoint 列表中的项目的表单。 通过打开列表，单击“列表工具”**** 下的“列表”**** 选项卡，然后单击“自定义表单”****，可以自动生成类似于默认现成可用的 SharePoint 列表表单的 InfoPath 表单。 然后可以通过修改布局、创建其他视图和在 InfoPath 中添加规则和数据验证来自定义和增强此表单。 修改完改进的列表表单后，可以使用 InfoPath 中新的一键发布功能将其发布到 SharePoint。
   
-## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>使用 InfoPath 表单 web 部件的门户页面上承载表单
+## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>使用 InfoPath 表单 Web 部件在门户页上托管表单
 
-SharePoint Server 2013 中为比以往任何时候都以承载窗体使用新的**InfoPath 表单 web 部件**的网页上更轻松。 在 Microsoft Office SharePoint Server 2007，希望承载其网页上的 InfoPath 表单的用户必须在 Visual Studio 中编写代码。 现在，无需编写一行代码，您可以将**InfoPath 表单 web 部件**添加到 Web 部件页和其指向您已发布表单。您可以使用**InfoPath 表单 web 部件**来承载任何 InfoPath 浏览器表单发布到 SharePoint 列表或表单库的。 您还可以将其连接到在上其他 Web 部件，以发送或接收数据。 有关如何使用**InfoPath 表单 web 部件**的详细信息，请参阅 SharePoint 2010 SDK 中[使用 InfoPath 表单 web 部件](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx)。 
+在 SharePoint Server 2013 中，使用新的“InfoPath 表单 Web 部件”**** 在 Web 页面上托管表单比以往更容易。 在 Microsoft Office SharePoint Server 2007 中，希望在 Web 页面上托管其 InfoPath 表单的用户需要在 Visual Studio 中编写代码。 现在，无需编写任何代码，便可以将“InfoPath 表单 Web 部件”**** 添加到 Web 部件页面并将其指向已发布的表单。可以使用“InfoPath 表单 Web 部件”**** 托管发布到 SharePoint 列表或表单库的任何 InfoPath 浏览器表单。 还可以将其连接到页面上的其他 Web 部件以发送或接收数据。 有关如何使用“InfoPath 表单 Web 部件”**** 的详细信息，请参阅 SharePoint 2010 SDK 中的[使用 InfoPath 表单 Web 部件](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx)。 
   
-## <a name="richer-web-forms"></a>更加丰富的 Web 表单
+## <a name="richer-web-forms"></a>更丰富的 Web 表单
 
 客户端表单和浏览器表单之间的功能差距已经缩小，从而可为所有用户创造更加一致的表单填写体验。浏览器表单中现在支持的控件和功能包括：
   

@@ -1,5 +1,5 @@
 ---
-title: 添加事件处理程序使用 InfoPath 对象模型
+title: 使用 InfoPath 对象模型添加事件处理程序
 manager: soliver
 ms.date: 01/20/2015
 ms.audience: Developer
@@ -7,85 +7,85 @@ keywords:
 - onafterimport event [infopath 2007],OnAfterChange event [InfoPath 2007],OnBeforeChange event [InfoPath 2007],OnSubmitRequest event [InfoPath 2007],OnVersionUpgrade event [InfoPath 2007],InfoPath 2003-compatible form templates, event handlers,OnLoad event [InfoPath 2007],event handlers [InfoPath 2007], adding using InfoPath 2003 object model,OnValidate event [InfoPath 2007],OnContextChange event [InfoPath 2007],OnSaveRequest event [InfoPath 2007],OnClick event [InfoPath 2007],OnSwitchView event [InfoPath 2007],OnSign event [InfoPath 2007],OnMergeRequest event [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
-description: 用于与 InfoPath 2003 对象模型兼容的表单模板项目中添加事件处理程序函数菜单命令本质上是相同的其他类型的表单模板。
+description: 与 InfoPath 2003 对象模型兼容的表单模板项目中用于添加事件处理程序函数的菜单命令在本质上与其他类型的表单模板相同。
 ms.openlocfilehash: 9f037c59180b9c8d858ec73d79ef892974efe483
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773995"
 ---
-# <a name="add-an-event-handler-using-the-infopath-object-model"></a>添加事件处理程序使用 InfoPath 对象模型
+# <a name="add-an-event-handler-using-the-infopath-object-model"></a>使用 InfoPath 对象模型添加事件处理程序
 
-用于与 InfoPath 2003 对象模型兼容的表单模板项目中添加事件处理程序函数菜单命令本质上是相同的其他类型的表单模板。 例如，以便添加**OnLoad**事件处理程序，在 InfoPath 设计器中，打开表单模板中，单击**开发人员**选项卡上的**Onload 事件**命令。自动，焦点将切换到 Visual Studio 2012 代码编辑器中的**OnLoad**事件处理程序的表单代码。 
+与 InfoPath 2003 对象模型兼容的表单模板项目中用于添加事件处理程序函数的菜单命令在本质上与其他类型的表单模板相同。 例如，为了添加“OnLoad”**** 事件处理程序，在 InfoPath 设计器中的表单模板打开的状态下，单击“开发工具”**** 选项卡上的“On Load Event”**** 命令。焦点将自动切换到 Visual Studio 2012 代码编辑器中的“OnLoad”**** 事件处理程序的表单代码。 
   
 在与 InfoPath 2003 兼容的托管代码表单模板项目中，包含事件处理程序函数和事件处理程序本身的类都用代码模块中专用于 InfoPath 的属性来标识。
 
 ## <a name="adding-event-handlers"></a>添加事件处理程序
 
-以下所有过程都假设您在含有 Visual Studio 2008 的 Microsoft InfoPath 中打开了一个表单模板项目。
+以下所有过程假定你已使用 Visual Studio 2012 打开 Microsoft InfoPath 中的表单模板项目。
   
 ### <a name="add-an-event-handler-for-the-onclick-event-of-a-command-button"></a>为命令按钮的 OnClick 事件添加事件处理程序
 
-1. 在**控件**窗格中，单击**按钮**以向表单添加按钮。 
+1. 在“控件”**** 窗格中，单击“按钮”**** 向表单添加按钮。 
     
-2. 在**属性**选项卡中，单击**自定义代码**。
+2. 在“属性”**** 选项卡上，单击“自定义代码”****。
     
    焦点将切换到代码编辑器中 [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onbeforechange-onvalidate-or-onafterchange-event-of-a-field-or-group"></a>为域或组的 OnBeforeChange、OnValidate 或 OnAfterChange 事件添加事件处理程序
 
-1. 右键单击绑定到域或组，例如**文本框**控件的数据输入控件。 
+1. 右键单击绑定到字段或组的数据输入控件，例如“文本框”**** 控件。 
     
-2. 指向**编程**，，然后单击其中一个命令，如**Onvalidate 事件**。
+2. 指向“编程”****，然后单击其中一个命令，例如，“On Validate Event”****。
     
-   焦点将切换到代码编辑器中的以下事件之一事件处理程序的存根： [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx)、 [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx)或[OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx)。 
+   焦点将切换到代码编辑器中下面某个事件的事件处理程序的存根：[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx)、[OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) 或 [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx)。 
     
-### <a name="add-an-event-handler-for-the-onload-onswitchview-oncontextchange-or-onsign-event-of-a-form"></a>为表单的 OnLoad、OnSwitchView、OnContextChange 或 OnSign 事件添加事件处理程序
+### <a name="add-an-event-handler-for-the-onload-onswitchview-oncontextchange-or-onsign-event-of-a-form"></a>添加表单的 OnLoad、OnSwitchView、OnContextChange 或 OnSign 事件的事件处理程序
 
-- 在**工具**菜单中，指向**编程**，，然后单击您想要编写事件处理程序的表单事件。
+- 在“工具”**** 菜单上，指向“编程”****，然后单击要为其编写事件处理程序的表单事件。
     
-    焦点将切换到代码编辑器中下面某个事件处理程序的存根： [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx)、 [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx)、 [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx)或[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx)。 
+    焦点将切换到代码编辑器中下面某个事件的事件处理程序的存根：[OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx)、[OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx)、[OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx) 或 [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx)。 
     
-### <a name="add-an-event-handler-for-the-onsubmitrequest-event-of-a-form"></a>为表单的 OnSubmitRequest 事件添加事件处理程序
+### <a name="add-an-event-handler-for-the-onsubmitrequest-event-of-a-form"></a>添加表单的 OnSubmitRequest 事件的事件处理程序
 
-1. 在**数据**选项卡中，单击**提交选项**。
+1. 在“数据”**** 选项卡上，单击“提交选项”****。
     
-2. 选择**允许用户提交此表单**复选框，然后单击**执行使用代码的自定义操作**。
+2. 选中“允许用户提交此表单”**** 复选框，然后单击“使用代码执行自定义操作”****。
     
-3. 单击**编辑代码**，然后单击**确定**。
+3. 单击“编辑代码”****，然后单击“确定”****。
     
    焦点将切换到代码编辑器中 [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onsaverequest-event-of-a-form"></a>为表单的 OnSaveRequest 事件添加事件处理程序
 
-1. 单击**文件**选项卡，然后单击**表单选项**。
+1. 单击“文件”**** 选项卡，然后单击“表单选项”****。
     
-2. 在**保存**类别中中,，单击**使用自定义代码保存**，单击**编辑**，然后单击**确定**。
+2. 在“保存”**** 类别中，依次单击“使用自定义代码保存”****、“编辑”****，然后单击“确定”****。
     
    焦点将切换到代码编辑器中 [OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onversionupgrade-event-of-a-form"></a>为表单的 OnVersionUpgrade 事件添加事件处理程序
 
-1. 单击**文件**选项卡，然后单击**表单选项**。
+1. 单击“文件”**** 选项卡，然后单击“表单选项”****。
     
-2. 在**版本控制**类别中，从**更新现有表单**列表中选择**使用自定义事件**，单击**编辑**，然后单击**确定**。
+2. 在“版本控制”**** 类别中，从“更新现有表单”**** 列表中选择“使用自定义事件”****，单击“编辑”****，然后单击“确定”****。
     
     焦点将切换到代码编辑器中 [OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) 事件的事件处理程序的存根。 
     
 ### <a name="add-an-event-handler-for-the-onmergerequest-event-of-a-form"></a>为表单的 OnMergeRequest 事件添加事件处理程序
 
-1. 单击**文件**选项卡，然后单击**表单选项**。
+1. 单击“文件”**** 选项卡，然后单击“表单选项”****。
     
-2. 在**高级**类别中，选择**启用表单合并**和**使用自定义代码合并**复选框、 单击**编辑**，然后单击**确定**。
+2. 在“高级”**** 类别中，选中“启用表单合并”**** 和“使用自定义代码合并”**** 复选框，单击“编辑”****，然后单击“确定”****。
     
     焦点将切换到代码编辑器中 [OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) 事件的事件处理程序的存根。 
     
-## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>添加事件处理程序 OnAfterImport 事件
+## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>为 OnAfterImport 事件添加事件处理程序
 
 若要为 [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) 事件添加事件处理程序，必须打开托管代码表单模板的表单代码，手动添加事件处理程序函数。有关如何为此事件编写事件处理程序的信息，请单击 **OnAfterImport** 事件的链接。 
   
-## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>添加事件处理程序辅助数据源
+## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>为辅助数据源添加事件处理程序
 
 以下示例显示如何为辅助数据源添加一个事件处理程序。该示例假设存在一个来自名为 books.xml 的资源文件的辅助数据源，其架构如下所示：
   
@@ -225,7 +225,7 @@ namespace AuxDom
 当您新建与 InfoPath 2003 托管代码对象模型兼容的 InfoPath 表单模板项目时，系统会将程序集级别的 **System.ComponentModel.Description** 属性应用于位于表单代码模块开头的类，以标识包含表单模板的所有事件处理程序的类。 
   
 > [!IMPORTANT]
-> [!重要信息] 不要修改该类中的 **System.ComponentModel.Description** 属性。如果对其进行了修改，表单模板将无法标识事件处理程序所在的位置，从而导致事件处理程序无法运行。 
+> 不要修改该类中的 **System.ComponentModel.Description** 属性。如果对其进行了修改，表单模板将无法标识事件处理程序所在的位置，从而导致事件处理程序无法运行。 
   
 ```cs
 using System;
@@ -283,5 +283,5 @@ thisXDocument.UI.Alert.(e.Site.text)
   
 ## <a name="see-also"></a>另请参阅
 
-- [响应表单事件使用 InfoPath 2003 对象模型](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [使用 InfoPath 2003 对象模型响应表单事件](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

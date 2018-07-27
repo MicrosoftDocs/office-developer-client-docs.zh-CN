@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
-description: 在 Microsoft InfoPath 编辑器的合并表单功能旨在将多个表单中的数据合并到单个窗体。
+description: Microsoft InfoPath 编辑器的“合并表单”功能旨在将多个表单中的数据合并到一个表单。
 ms.openlocfilehash: e0e6bfc074829f262d7eef3cf7bf6a86c3b2253b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773974"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>启用 InfoPath 表单的自定义合并
 
-在 Microsoft InfoPath 编辑器的**合并表单**功能旨在将多个表单中的数据合并到单个窗体。 这也称为是数据聚合。 如果启用了合并表单，您可以单击**文件**选项卡，单击**保存&amp;发送**，单击下的**合并表单****导入&amp;链接**，然后单击**合并表单**按钮以选择一个或多个要与合并的表单当前打开的表单。 当前打开的窗体的目标表单并选择**合并表单**对话框中的表单称为源表单。
+Microsoft InfoPath 编辑器的“合并表单”**** 功能旨在将多个表单中的数据合并到一个表单。 这也称为“数据聚合”。 如果启用了合并表单功能，则可以单击“文件”**** 选项卡，单击“保存并发送”****，单击“导入和链接”**** 下的“合并表单”****，然后单击“合并表单”**** 按钮以选择一个或多个要与当前打开的表单合并的表单。 当前处于打开状态的表单是目标表单，在“合并表单”**** 对话框中选择的表单称为源表单。
   
 通过合并表单生成的数据的聚合可以包括源表单和目标表单中包含的所有数据，或者仅包括原始数据的一部分。默认操作如下。
   
@@ -72,7 +72,7 @@ ms.locfileid: "19773974"
 
 结合  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation` 命名空间中指定的属性，可以使用  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` 命名空间来指示实现接口 **IXMLDOMDocument** 的 XSL 对象。此接口最有用的成员之一是方法 **get-documentElement**。
   
-### <a name="get-documentelement"></a>get documentElement
+### <a name="get-documentelement"></a>get-documentElement
 
 **target:get-documentElement** 函数提供对目标文档的文档对象模型的访问。可以使用该函数来更改合并操作处理目标文档的当前内容的方式。 
   
@@ -90,7 +90,7 @@ ms.locfileid: "19773974"
 
 1. 选择要从中合并数据的 XML 源文档的种类。收集每种源文档的代表性示例。
     
-2. 派生每种类型的现有 InfoPath 表单的 XML 源文档的 XML 的架构。 此步骤很容易实现通过导出 Backstage**发布**选项卡上的**导出源文件**命令的 XML 架构。 对于不在 InfoPath 中创建的 XML 文档，您可以使用 Microsoft Visual Studio 之类的工具从示例 XML 文档中，创建一个架构或您可以从 InfoPath 中的 XML 文档中创建示例窗体，然后将导出的架构，InfoPath 派生 t他文档结构。 
+2. 为现有 InfoPath 表单的每种 XML 源文档派生 XML 模式。 通过使用 Backstage 的“发布”**** 选项卡上的“导出源文件”**** 命令导出 XML 架构，可以轻松完成此步骤。 对于不是在 InfoPath 中创建的 XML 文档，可以使用 Microsoft Visual Studio 等工具从示例 XML 文档创建架构，也可以从 InfoPath 中的 XML 文档创建示例表单，然后导出 InfoPath 从文档结构派生出来的架构。 
     
 3. 确定要从每种 XML 源文档中合并的数据。此步骤将几乎完全取决于源表单和目标表单的要求。对于某些表单，您可能需要从源表单中复制所有数据。对于其他表单，则可能只需要从表单的基础 XML 文档中复制一两个元素。在确定要合并什么数据时，要格外留意源文档和目标文档，以确保元素在两个表单之间有逻辑地映射。
     
@@ -129,9 +129,9 @@ ms.locfileid: "19773974"
         </xsl:template>
     ```
 
-5. 表单模板中添加的 XSL 转换文件和架构文件。 具有派生每种类型的源文档的架构并创建 XSL 转换转换每种文档类型，使 InfoPath 可以合并其数据后，将其添加到为资源到窗体。 单击**数据**选项卡上的**资源文件**然后单击**添加**，**资源文件**对话框中，浏览到您的架构或 XSL 转换文件，然后单击**确定**。 执行此操作来为每个架构文件和您创建的 XSL 转换文件。
+5. 在表单模板中添加 XSL 转换文件和架构文件。 为每种源文档派生架构并创建 XSL 转换以转换每种文档类型以便 InfoPath 可以合并其数据后，将它们作为资源添加到表单中。 单击“数据”**** 选项卡上的“资源文件”****，然后单击“资源文件”**** 对话框中的“添加”****，浏览到你的架构或 XSL 转换文件，然后单击“确定”****。 对创建的每个架构文件和 XSL 转换文件执行此操作。
     
-    如果您添加的架构使用**targetNamespace**属性，您必须对表单的.xsf 文件添加属性元素，以便 InfoPath 知道架构的命名空间。 若要访问此文件，单击**文件**选项卡，单击**发布**，然后单击**导出源文件**。 选择文件的位置，然后单击**确定**。 然后关闭设计 InfoPath 表单模板。
+    如果所添加的架构使用 **targetNamespace** 属性，则必须将一个属性元素添加到表单的 .xsf 文件中，以便 InfoPath 知道架构的命名空间。 若要访问此文件，请单击“文件”**** 选项卡，单击“发布”****，然后单击“导出源文件”****。 选择文件的位置，然后单击“确定”****。 然后关闭你正在设计的 InfoPath 表单模板。
     
     浏览到您为提取的文件指定的位置，并查找具有 .xsf 文件扩展名的文件。通常，此文件名为 manifest.xsf。在记事本中打开该文件，查找与您的架构对应的  `<xsf:file>` 标记，并添加"namespace"属性元素以指定 **targetNamespace**，如下面的示例所示。 
     
@@ -147,16 +147,16 @@ ms.locfileid: "19773974"
 
 6. 准备表单以支持自定义合并的最后一步是更新 .xsf 文件中与表单关联的 **importParameters** 元素。 
 
-    首先，在 .xsf 文件中查找  `<xsf:importParameters>` 标记。 对于您已经创建窗体的每个架构/XSL 转换对，向**xsf:importParameters**元素添加**xsf:importSource**元素： `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`。 
+    首先，在 .xsf 文件中找到 `<xsf:importParameters>` 标记。 对于为表单创建的每个架构/XSL 转换对，将 **xsf:importSource** 元素添加到 **xsf:importParameters** 元素：`<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`。 
     
-    **Xsf:importSource**元素的**name**属性包含可能在源 XML 文档中找到的表单模板的名称。 通常，您可以将此属性留空。 **schema** 属性包含在上一步中添加到表单模板的架构文件的名称。 最后， **transform** 属性包含要用于转换符合架构的表单的 XSL 转换的名称。 
+    **xsf:importSource** 元素的 **name** 属性包含可在源 XML 文档中找到的表单模板名称。 通常情况下，你可以将它留空。 **schema** 属性包含在上一步中添加到表单模板的架构文件的名称。 最后， **transform** 属性包含要用于转换符合架构的表单的 XSL 转换的名称。 
     
     您可以将自定义转换与 [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) 事件一起使用，也可以单独使用自定义转换。 
     
 ## <a name="creating-a-custom-merge-in-code"></a>在代码中创建自定义合并
 
-通过[合并](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx)事件处理程序中，使用**importParameters**元素与表单关联的.xsf 文件中的其相应**useScriptHandler**属性支持自定义代码合并。 
+通过使用 [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) 事件处理程序可以支持自定义与代码的合并，其中 .xsf 文件中 **importParameters** 元素的相应的 **useScriptHandler** 属性与表单相关联。 
 
-在托管代码中，您可以通过检查**使用自定义代码合并**，框，然后单击**编辑**按钮，在**高级**类别**表单选项**对话框的可从 Backstage 中启用[合并](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx)事件。 
+在托管代码中，可以通过选中“使用自定义代码合并”**** 框，然后单击 Backstage 中“表单选项”**** 对话框的“高级”**** 类别中的“编辑”**** 按钮来启用 [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) 事件。 
   
 
