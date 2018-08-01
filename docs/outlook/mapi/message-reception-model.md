@@ -1,5 +1,5 @@
 ---
-title: 消息接收模型
+title: 邮件接收模型
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19776503"
 ---
-# <a name="message-reception-model"></a>消息接收模型
+# <a name="message-reception-model"></a>邮件接收模型
 
   
   

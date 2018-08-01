@@ -11,7 +11,7 @@ keywords:
 - tempactivecell12 函数 [excel 2007，] TempActiveCell 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: ac5a200d-32d5-4313-9a6d-d730032aaf10
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 8ad409a76195d67fa61e7991ce6527c40e0a3265
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19773810"
 ---
 # <a name="tempactivecelltempactivecell12"></a>TempActiveCell/TempActiveCell12
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 创建临时**XLOPER**的框架库函数/ **XLOPER12**包含外部活动工作表的单元格引用。 
   
@@ -32,7 +32,7 @@ LPXLOPER12 TempActiveCell12(RW row, COL co);
 
 ## <a name="parameters"></a>参数
 
- _行_
+ _row_
   
 要引用的行。 行参数是从零开始的所以第 1 行传递为 0。 在 Microsoft Office Excel 2003 和早期版本，以及开始在兼容模式下运行的工作簿的 Excel 2007 中的最大值是 65535 = 2 ^16-1，WORD 整数可以采取的最大值。 启动运行工作簿的 Excel 2007 中的最大值是 1048575 = 2 ^20-1。 RW 被定义为 XLCALL 中的 32 位有符号整数。H。
   
@@ -62,5 +62,5 @@ short WINAPI TempActiveCellExample(void)
 
 
 
-[Framework 库中的函数](functions-in-the-framework-library.md)
+[框架库中的函数](functions-in-the-framework-library.md)
 

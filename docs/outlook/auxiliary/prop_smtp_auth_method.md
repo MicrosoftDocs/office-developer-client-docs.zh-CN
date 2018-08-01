@@ -22,12 +22,12 @@ ms.locfileid: "19774452"
 
 |||
 |:-----|:-----|
-|标识符:  <br/> |0x0208  <br/> |
+|标识符：  <br/> |0x0208  <br/> |
 |属性类型  <br/> |PT_DWORD  <br/> |
 |属性标记：  <br/> |0x02080003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 值是以下常量的位掩码。 其值，请参阅[常量 （帐户管理 API）](constants-account-management-api.md) 。 
   
@@ -39,6 +39,6 @@ ms.locfileid: "19774452"
     
 ## <a name="see-also"></a>另请参阅
 
-- [管理邮件下载 POP3 帐户](managing-message-downloads-for-pop3-accounts.md)  
+- [管理 POP3 帐户的邮件下载](managing-message-downloads-for-pop3-accounts.md)  
 - [常量 （帐户管理 API）](constants-account-management-api.md)
 

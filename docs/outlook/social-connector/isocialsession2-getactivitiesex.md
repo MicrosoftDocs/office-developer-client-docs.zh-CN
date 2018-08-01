@@ -37,7 +37,7 @@ _活动_
   
 > [输出]代表一组指定_startTime_以来_hashedAddresses_社交网络上的用户的活动的 XML 字符串。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 OSC 调用**GetActivitiesEx**如果 OSC 提供程序支持的活动的按需同步。 OSC 存储在内存中的_活动_中返回的信息。 有关如何 OSC 使用和更新内存中的此信息的详细信息，请参阅[同步朋友和活动](synchronizing-friends-and-activities.md)。
   
@@ -53,6 +53,6 @@ _StartTime_参数都是**日期**值以协调世界时 (UTC)。 必须是本地�
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialSession2: IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 - [同步朋友和活动](synchronizing-friends-and-activities.md)
 

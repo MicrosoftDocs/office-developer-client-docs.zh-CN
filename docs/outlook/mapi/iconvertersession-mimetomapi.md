@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 03a67371c67d5f0ac346470ec7ab38bb67d5ce2a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -76,7 +76,7 @@ E_INVALIDARG
   
 > 指示_pstm_为**null**， _pmsg_为**null**，或者_ulFlags_无效。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果您指定**CCSF_USE_RTF** _ulFlags_的一部分，目标消息存储库支持 HTML 和 RTF 的 MAPI 邮件将被转换为 HTML 或 RTF。 如果邮件转换为 RTF 时，将压缩转换的格式 RTF，将在压缩的 RTF 字符串中嵌入任何 HTML 和将[PidTagRtfCompressed 规范属性](pidtagrtfcompressed-canonical-property.md)中包含字符串。
   
@@ -93,7 +93,7 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   

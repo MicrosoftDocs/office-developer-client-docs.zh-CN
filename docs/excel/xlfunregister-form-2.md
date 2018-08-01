@@ -1,5 +1,5 @@
 ---
-title: xlfUnregister (窗体 2)
+title: xlfUnregister（窗体 2）
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - xlfunregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e0154e380b65b8c57e7e96a98ef131e26b49e203
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773865"
 ---
-# <a name="xlfunregister-form-2"></a>xlfUnregister (窗体 2)
+# <a name="xlfunregister-form-2"></a>xlfUnregister（窗体 2）
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 可从 DLL 或 XLL 命令的本身已调用由 Microsoft Excel 进行调用。 这是等效于从 Excel XLM 宏工作表调用**注销**。 
   
@@ -46,7 +46,7 @@ DLL 的名称。
 
 如果成功，则返回**TRUE** (**xltypeBool**)。 如果不成功，则返回**FALSE**。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 > [!NOTE] 
 > 不要尝试取消注册的所有与一个简单的函数调用的 DLL 的资源的[xlAutoClose](xlautoclose.md)实现调用此函数的形式。 这将导致**xlAutoClose**和堆栈溢出递归呼叫。 
@@ -57,8 +57,8 @@ DLL 的名称。
   
 ## <a name="see-also"></a>另请参阅
 
-- [xlfRegister (窗体 1)](xlfregister-form-1.md)
+- [xlfRegister（窗体 1）](xlfregister-form-1.md)
 - [xlfRegisterId](xlfregisterid.md)
-- [xlfUnregister (窗体 1)](xlfunregister-form-1.md)
-- [关键及有用的 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
+- [xlfUnregister（窗体 1）](xlfunregister-form-1.md)
+- [基本的有用 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
 

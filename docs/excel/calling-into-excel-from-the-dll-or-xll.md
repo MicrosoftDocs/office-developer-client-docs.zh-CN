@@ -8,7 +8,7 @@ keywords:
 - 对话框 [excel 2007]，调用 excel 命令、 Dll [Excel 2007]，导入 Excel，向 C API 函数 [Excel 2007]，传递参数调用命令 [Excel 2007] 中，调用带有对话框，命令 [Excel 2007]，可以从 DLL/XLL，Excel4 访问函数 [Excel 2007 中]，Excel12 函数 [Excel 2007，] XLCallVer 函数 [Excel 2007]，operRes 参数 [Excel 2007]、 函数 [Excel 2007]，可以从 DLL/XLL，Excel12v 访问函数 [Excel 2007] 中，仅 DLL 传递函数 [Excel 2007]，C API [Excel 2007]参数计数参数 [Excel 2007]、 国际版本中调用命令 [Excel 2007，]、 仅 DLL 命令 [Excel 2007]、 国际版本 [Excel 2007]、 调用函数和命令，将调用 Excel，Excel 4v 函数 [Xll [Excel 2007]Excel 2007] xlfn 参数 [Excel 2007]，[Excel 2007]，函数调用国际版本中
 localization_priority: Normal
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 3f36d2f59b7f5bef9f9ffdca4d13e95c788bf113
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773689"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>从 DLL 或 XLL 调用 Excel
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 使您能够访问内置 Excel 命令、 工作表功能和宏工作表函数的 DLL。 这些是可同时从 DLL 命令和从 Visual Basic for Applications (VBA)，并从注册的 XLL 命令和由 Excel 直接调用的函数调用的函数。
   
@@ -167,7 +167,7 @@ Excel 支持函数只能从 DLL 或 XLL 可访问的一个小数字。 这些为
 |[xlFree](xlfree.md) <br/> |0 | xlSpecial  <br/> |释放 Excel 分配内存资源。  <br/> |
 |[xlStack](xlstack.md) <br/> |1 | xlSpecial  <br/> |返回 Excel 堆栈上的可用空间。  <br/> |
 |[xlCoerce](xlcoerce.md) <br/> |2 | xlSpecial  <br/> |**XLOPER**和**XLOPER12**类型之间进行转换  <br/> |
-|[xlset，则](xlset.md) <br/> |3 | xlSpecial  <br/> |提供快速设置单元格的值的方法。  <br/> |
+|[xlSet](xlset.md) <br/> |3 | xlSpecial  <br/> |提供快速设置单元格的值的方法。  <br/> |
 |[xlSheetId](xlsheetid.md) <br/> |4 | xlSpecial  <br/> |从内部 ID 获取工作表名称  <br/> |
 |[xlSheetNm](xlsheetnm.md) <br/> |5 | xlSpecial  <br/> |从其名称中获取工作表内部 ID。  <br/> |
 |[xlAbort](xlabort.md) <br/> |6 | xlSpecial  <br/> |验证用户是否单击**取消**按钮，或者按 ESC 键。  <br/> |
@@ -319,13 +319,13 @@ void Excel12_example(double *dbl_array, int size, double &sum, double &average, 
 
 
 
-[创建 xll （英文）](creating-xlls.md)
+[创建 XLL](creating-xlls.md)
   
 [在 Excel 中访问 XLL 代码](accessing-xll-code-in-excel.md)
   
 [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
   
-[C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
+[C API 回调函数 Excel4、Excel12](c-api-callback-functions-excel4-excel12.md)
   
 [Developing Excel XLLs](developing-excel-xlls.md)
 

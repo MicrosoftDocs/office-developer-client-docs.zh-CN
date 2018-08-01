@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2c5d4ec8381d6614cc2bc92fb0a762b068a97a81
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -67,5 +67,5 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

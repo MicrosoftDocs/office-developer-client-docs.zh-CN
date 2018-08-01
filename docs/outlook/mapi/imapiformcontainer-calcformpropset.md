@@ -66,7 +66,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**IMAPIFormContainer::CalcFormPropSet**方法以获取属性由安装窗体容器中的所有窗体的数组。 **IMAPIFormContainer::CalcFormPropSet**工作[IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md)方法，如之处在于它运行在某个特定的容器中注册的每个窗体上。 
   
@@ -88,5 +88,5 @@ MAPI_E_BAD_CHARWIDTH
   
 [SMAPIFormPropArray](smapiformproparray.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a61056e7-365c-4972-abf7-26e2ab07105d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d19904b65b95468bd38df75aa8e05afdf0075961
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778350"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_WB_SF_DEFINITION  <br/> |
-|标识符:  <br/> |0x6845  <br/> |
+|相关属性：  <br/> |PR_WB_SF_DEFINITION  <br/> |
+|标识符：  <br/> |0x6845  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 包含此属性中的二进制大型对象 (BLOB) 的每个字段的特定内容取决于**PidTagSearchFolderTemplateId** ([PidTagSearchFolderTemplateId](pidtagsearchfoldertemplateid-canonical-property.md)) 属性中指定的模板 ID。 有关 BLOB 结构和搜索模板的信息，请参阅[[MS OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)。 
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

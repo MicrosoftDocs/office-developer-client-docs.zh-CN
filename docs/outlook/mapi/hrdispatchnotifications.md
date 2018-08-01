@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 28afa338b37e747ed441a8767981b7e63808e741
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -59,7 +59,7 @@ MAPI_E_NOT_INITIALIZED
   
 > 未初始化 MAPI。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **HrDispatchNotifications**函数会导致 MAPI 调度当前无需等待消息调度排队 MAPI 通知引擎中的所有通知。 这可能会产生对内存使用率有益影响。 有关详细信息，请参阅[强制通知](forcing-a-notification.md)。 
   

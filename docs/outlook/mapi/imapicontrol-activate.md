@@ -50,7 +50,7 @@ S_OK
   
 > 已成功激活按钮控件。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPIControl::Activate**方法执行关注的用户单击按钮控件的任务。 单击显示表中，处理的一部分发生后 MAPI 调用**激活**后第一个调用[IMAPIControl::GetState](imapicontrol-getstate.md)以确定能否启用按钮。 
   
@@ -62,5 +62,5 @@ S_OK
 
 [IMAPIControl::GetState](imapicontrol-getstate.md)
   
-[IMAPIControl: IUnknown](imapicontroliunknown.md)
+[IMAPIControl : IUnknown](imapicontroliunknown.md)
 

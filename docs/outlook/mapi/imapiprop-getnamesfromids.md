@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a2ec6def319b1f4686a61e9f97a936bfeba0d410
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -85,7 +85,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 一个或多个所指的_lppPropTags_属性标记数组中的条目的**cValues**成员设置为 0。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 按属性标识符对大多数属性的访问时，可以通过名称访问某些属性。 **IMAPIProp::GetNamesFromIDs**方法可调用它以执行下列操作： 
   
@@ -157,12 +157,12 @@ MFCMAPI 示例代码，请参阅下表。
   
 [SPropTagArray](sproptagarray.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
 [MAPI 命名属性](mapi-named-properties.md)
   
-[用于错误处理的宏](using-macros-for-error-handling.md)
+[使用宏进行错误处理](using-macros-for-error-handling.md)
 

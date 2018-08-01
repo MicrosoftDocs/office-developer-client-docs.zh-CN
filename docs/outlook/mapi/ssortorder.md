@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7cb511c7a021c4e65214acc7efa785be0e02ffc8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,7 +38,7 @@ typedef struct _SSortOrder
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 **ulPropTag**
   
@@ -60,7 +60,7 @@ typedef struct _SSortOrder
       
   - TABLE_SORT_CATEG_MIN： 表格应在以前的排序顺序在**SSortOrderSet**结构中所指定的类别中的数据行的**ulPropTag**成员的最小值排序。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SSortOrder**结构用于说明如何执行标准排序操作或分类的排序操作。 **SSortOrder**结构通常组合成**SSortOrderSet**结构来描述多个排序关键字和方向。 使用以下函数和接口方法中使用**SSortOrderSet**结构： 
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ecb40262959834ec511601ec3176887c919d944f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT

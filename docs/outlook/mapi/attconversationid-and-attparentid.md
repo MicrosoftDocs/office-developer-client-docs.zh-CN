@@ -1,5 +1,5 @@
 ---
-title: attConversationID 和 attParentID
+title: attConversationID and attParentID
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774567"
 ---
-# <a name="attconversationid-and-attparentid"></a>attConversationID 和 attParentID
+# <a name="attconversationid-and-attparentid"></a>attConversationID and attParentID
 
 **适用于**： Outlook 
   
@@ -24,7 +24,7 @@ ms.locfileid: "19774567"
 > [!NOTE]
 > MAPI 中的相应属性这些 TNEF 属性都映射到，PR_CONVERSATION_KEY 和 PR_PARENT_KEY 中, 已弃用 Microsoft Exchange Server： 利用**PR_CONVERSATION_KEY**，PidTagConversationKey 规范[属性](pidtagconversationkey-canonical-property.md)，在 Outlook 中仅，用于查找**IPM 保持。MessageManager**消息。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **PR_CONVERSATION_KEY**属性是**PR_CONVERSATION_INDEX**、 [PidTagConversationIndex 规范属性](pidtagconversationindex-canonical-property.md)和**PR_CONVERSATION_TOPIC**， [PidTagConversationTopic 规范的否则为过时的前提属性](pidtagconversationtopic-canonical-property.md)，而是应使用哪些。
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f8ac73b1977886208290285fec2d1bd0de1b4f92
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -34,7 +34,7 @@ typedef struct
 }  ROWENTRY, FAR * LPROWENTRY;
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 **ulRowFlags**
   
@@ -66,6 +66,6 @@ MFCMAPI 示例代码，请参阅下表。
    
 ## <a name="see-also"></a>另请参阅
   
-- [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)
+- [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
 - [MAPI 结构](mapi-structures.md)
 

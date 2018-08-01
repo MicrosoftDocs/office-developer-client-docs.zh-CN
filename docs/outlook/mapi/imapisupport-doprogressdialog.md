@@ -59,7 +59,7 @@ S_OK
   
 > 已成功检索进度对象。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于通讯簿和消息存储提供程序支持对象实现**IMAPISupport::DoProgressDialog**方法。 这些提供程序调用**DoProgressDialog**来访问 MAPI 实现的[IMAPIProgress](imapiprogressiunknown.md)接口，计算进度信息并显示一个标准的对话框。 
   
@@ -69,11 +69,11 @@ S_OK
 
 
 
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
 [显示进度指示器](how-to-display-a-progress-indicator.md)

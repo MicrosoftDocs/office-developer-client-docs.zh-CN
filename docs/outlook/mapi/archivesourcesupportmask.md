@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1e0c099783b4d44b1aaf746b07c77981c135ca9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "19774556"
 |属性类型  <br/> |PT_LONG  <br/> |
 |访问类型：  <br/> |只读或读/写，具体取决于存储提供程序  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要提供的任何存储功能，存储提供程序必须实现[IMAPIProp: IUnknown](imapipropiunknown.md)并返回任何传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)调用这些属性的有效属性标记。 当属性标记为任何这些属性传递给[IMAPIProp::GetProps](imapiprop-getprops.md)时，存储提供程序必须也会返回正确的属性值。 [HrGetOneProp](hrgetoneprop.md)和[HrSetOneProp](hrsetoneprop.md)用于获取或设置这些属性，可以调用存储提供程序。 
   

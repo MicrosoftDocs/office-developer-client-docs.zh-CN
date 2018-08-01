@@ -1,5 +1,5 @@
 ---
-title: MapiSvc.inf [帮助文件映射] 节
+title: MapiSvc.inf [帮助文件映射] 部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776403"
 ---
-# <a name="mapisvcinf-help-file-mappings-section"></a>MapiSvc.inf [帮助文件映射] 节
+# <a name="mapisvcinf-help-file-mappings-section"></a>MapiSvc.inf [帮助文件映射] 部分
 
   
   

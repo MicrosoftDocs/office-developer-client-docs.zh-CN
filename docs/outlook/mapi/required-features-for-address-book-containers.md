@@ -1,5 +1,5 @@
 ---
-title: 通讯簿容器的所需的功能
+title: 通讯簿容器的必需功能
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5eeaa9a8c1965954ad2eb0a6bfd2a174a355f10d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778636"
 ---
-# <a name="required-features-for-address-book-containers"></a>通讯簿容器的所需的功能
+# <a name="required-features-for-address-book-containers"></a>通讯簿容器的必需功能
 
   
   
@@ -37,6 +37,6 @@ ms.locfileid: "19778636"
 |提供了有关容器的详细的信息  <br/> |支持的容器上**PR_DETAILS_TABLE**属性。 有关详细信息，请参阅[显示收件人信息](displaying-recipient-information.md)和[显示表格](display-tables.md)。  <br/> |
 |提供容器的分层列表  <br/> |支持的容器属性**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))。 有关详细信息，请参阅[层次结构表](hierarchy-tables.md)。  <br/> |
 |支持消息的用户属性  <br/> |实现[IMailUser: IMAPIProp](imailuserimapiprop.md)接口。  <br/> |
-|解析模糊名称  <br/> | 支持**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性限制。  <br/>  （可选） 实现[IABContainer::ResolveNames](iabcontainer-resolvenames.md)方法。 有关详细信息，请参阅[实现名称解析](implementing-name-resolution.md)。  <br/> |
+|解析不确定的名称  <br/> | 支持**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性限制。  <br/>  （可选） 实现[IABContainer::ResolveNames](iabcontainer-resolvenames.md)方法。 有关详细信息，请参阅[实现名称解析](implementing-name-resolution.md)。  <br/> |
    
 

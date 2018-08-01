@@ -1,5 +1,5 @@
 ---
-title: What's New in 此版本
+title: 此版本的新增功能
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
-description: 上次修改时间： 2015 年 12 月 7 日
+description: 上次修改时间： 2015年12月7日
 ms.openlocfilehash: 4ffd92f44f1fe88b840e8f8119a92d2048f4f526
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779082"
 ---
-# <a name="whats-new-in-this-edition"></a>What's New in 此版本
+# <a name="whats-new-in-this-edition"></a>此版本的新增功能
 
  
   
@@ -31,7 +31,7 @@ Microsoft Outlook 2013 MAPI 参考已更新以包括有关各种新功能的文�
     
   - [Outlook MAPI 引用](outlook-mapi-reference.md)
     
-  - [Outlook MAPI 参考概述](outlook-mapi-reference-overview.md)
+  - [Outlook MAPI 引用概述](outlook-mapi-reference-overview.md)
     
 - **消息存储提供程序示例**—[示例自动换行 PST 的存储提供程序](message-store-provider-sample.md)现在已修改代码以识别和容纳 Outlook 2013。 详细信息，请参阅本主题中的以前进行了修订内容。 
     
@@ -39,21 +39,21 @@ Microsoft Outlook 2013 MAPI 参考已更新以包括有关各种新功能的文�
     
   - [MAPI 配置文件](mapi-profiles.md)
     
-  - [昵称缓存](nickname-cache.md)
+  - [别名缓存](nickname-cache.md)
     
-  - [记忆式键入流](autocomplete-stream.md)
+  - [自动完成流](autocomplete-stream.md)
     
 - **接口**- [IAddrBook::OpenEntry](iaddrbook-openentry.md)主题的文档打开的通讯簿条目，并返回到用于访问该接口的指针的方法。 以前，它包含*ulFlags*参数， **MAPI_GAL_ONLY**，它可用于打开全局地址列表 (GAL)，仅，并已经过修改，包括其定义中的标志。
     
 - **属性**— **PR_CONVERSATION_KEY**名为属性 （[PidTagConversationKey 规范属性](pidtagconversationkey-canonical-property.md)） 主题已添加，并将与**IPM 关联。MessageManager**仅在 Outlook 的 MAPI 邮件。 修改其和传输中性封装格式 (TNEF) 流文档与相关的以下主题： 
     
-  - [映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+  - [将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
     
-  - [MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+  - [将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
     
-  - [映射到 MAPI 属性 TNEF 属性](mapping-of-tnef-attributes-to-mapi-properties.md)
+  - [将 TNEF 属性映射到 MAPI 属性](mapping-of-tnef-attributes-to-mapi-properties.md)
     
-  - [attConversationID 和 attParentID](attconversationid-and-attparentid.md)
+  - [attConversationID and attParentID](attconversationid-and-attparentid.md)
     
 ## <a name="previously-revised-content"></a>以前修订后的内容
 
@@ -111,7 +111,7 @@ Microsoft Outlook 2013 MAPI 参考已更新以包括有关各种新功能的文�
 
 
 
-[Getting Started with Outlook MAPI 参考](getting-started-with-the-outlook-mapi-reference.md)
+[Outlook MAPI 引用入门](getting-started-with-the-outlook-mapi-reference.md)
   
 [CodePlex](http://mapistublibrary.codeplex.com/)
 

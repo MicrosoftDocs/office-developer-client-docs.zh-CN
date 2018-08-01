@@ -50,7 +50,7 @@ S_OK
   
 > 邮件已成功准备好。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 消息存储提供程序支持对象的实现**IMAPISupport::PrepareSubmit**方法。 消息存储提供程序调用**PrepareSubmit**其方法的实现， [IMessage::SubmitMessage](imessage-submitmessage.md) MAPI 后台处理程序提交准备一条消息。 
   
@@ -74,5 +74,5 @@ S_OK
   
 [IMessage::SubmitMessage](imessage-submitmessage.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

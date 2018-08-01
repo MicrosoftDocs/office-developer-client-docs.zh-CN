@@ -46,9 +46,10 @@ ms.locfileid: "19781657"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |代表 Microsoft Visio 实例中打开的窗口。  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |代表 Microsoft Visio 实例中打开的窗口。
+  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

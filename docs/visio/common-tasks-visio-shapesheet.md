@@ -18,32 +18,32 @@ ms.locfileid: "19779918"
 
 本导航页包含一些链接，这些链接指向有关 Visio 中可编程性的概述主题。单击下面的链接或者使用目录可浏览到相应的主题：
   
-- [添加、 更改或删除 ShapeSheet 中的行](add-change-or-delete-rows-in-the-shapesheet.md)
+- [添加、更改或删除 ShapeSheet 中的行](add-change-or-delete-rows-in-the-shapesheet.md)
     
 - [添加、 显示、 隐藏或删除节](add-show-hide-or-delete-a-section.md)
     
-- [更改名称和查看形状 ID](change-the-name-and-view-the-id-of-a-shape.md)
+- [更改名称并查看形状的 ID](change-the-name-and-view-the-id-of-a-shape.md)
     
-- [复制并粘贴到另一个单元格的公式](copy-and-paste-a-formula-from-one-cell-into-another.md)
+- [将公式从一个单元格复制并粘贴到另一个单元格](copy-and-paste-a-formula-from-one-cell-into-another.md)
     
-- [在单元格中显示公式或值](display-formulas-or-values-in-cells.md)
+- [显示单元格中的公式或值](display-formulas-or-values-in-cells.md)
     
-- [编辑公式的一部分](edit-a-part-of-a-formula.md)
+- [编辑公式的某个部分](edit-a-part-of-a-formula.md)
     
 - [输入空公式](enter-an-empty-formula.md)
     
-- [在 ShapeSheet 窗口移动](move-around-a-shapesheet-window.md)
+- [在 ShapeSheet 窗口周围移动](move-around-a-shapesheet-window.md)
     
 - [在同一窗口中打开每个 ShapeSheet](open-each-shapesheet-in-the-same-window.md)
     
-- [打开的形状、 页面或文档的 shapesheet （英文）](open-the-shapesheet-for-a-shape-page-or-document.md)
+- [打开形状、页面或文档的 ShapeSheet](open-the-shapesheet-for-a-shape-page-or-document.md)
     
-- [引用的公式的单元格](reference-a-cell-in-a-formula.md)
+- [引用公式中的单元格](reference-a-cell-in-a-formula.md)
     
-- [以开发人员模式运行 （显示开发人员选项卡）](run-in-developer-mode-display-the-developer-tab.md)
+- [在开发人员模式下运行（显示“开发人员”选项卡）](run-in-developer-mode-display-the-developer-tab.md)
     
 - [在 ShapeSheet 窗口中显示对象](show-an-object-in-the-shapesheet-window.md)
     
-- [键入新单元格的公式](type-a-new-formula-for-a-cell.md)
+- [为单元格键入新公式](type-a-new-formula-for-a-cell.md)
     
 

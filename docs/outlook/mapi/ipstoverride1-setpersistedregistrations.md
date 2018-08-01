@@ -50,7 +50,7 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 持久化的注册可能会影响应用程序的性能，如 Outlook 和 Windows 桌面搜索，打开 Pst 的。 请考虑使用或展开持久化注册的使用情况时的性能影响。
   
@@ -59,6 +59,6 @@ S_OK
   
 ## <a name="see-also"></a>另请参阅
 
-- [IPSTOVERRIDE1: IUnknown](ipstoverride1iunknown.md) 
-- [IPSTOVERRIDEREQ: IUnknown](ipstoverridereqiunknown.md)
+- [IPSTOVERRIDE1 : IUnknown](ipstoverride1iunknown.md) 
+- [IPSTOVERRIDEREQ : IUnknown](ipstoverridereqiunknown.md)
 

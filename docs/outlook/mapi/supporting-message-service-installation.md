@@ -1,5 +1,5 @@
 ---
-title: 支持的消息服务安装
+title: 支持邮件服务安装
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778914"
 ---
-# <a name="supporting-message-service-installation"></a>支持的消息服务安装
+# <a name="supporting-message-service-installation"></a>支持邮件服务安装
 
   
   
@@ -44,5 +44,5 @@ ms.locfileid: "19778914"
 
 
 
-[消息服务实现](message-service-implementation.md)
+[邮件服务实现](message-service-implementation.md)
 

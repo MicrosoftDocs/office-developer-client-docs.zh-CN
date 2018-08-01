@@ -50,5 +50,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [MAPI 常量](mapi-constants.md)
   
-[验证被阻止的附件](how-to-verify-an-attachment-is-blocked.md)
+[验证附件是否已遭阻止](how-to-verify-an-attachment-is-blocked.md)
 

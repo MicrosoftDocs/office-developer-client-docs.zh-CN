@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d907f2e8ecb9b6126898ff35b13427b088af9561
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cProps**
   
@@ -56,7 +56,7 @@ typedef struct
   
 > 窗体属性的数组。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SMAPIFormPropArray**结构作为参数传递给以下方法： 
   

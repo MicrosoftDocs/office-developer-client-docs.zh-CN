@@ -1,5 +1,5 @@
 ---
-title: 在 Excel 中进行内存管理
+title: Excel 中的内存管理
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - xloper12 内存 [excel 2007]，管理在 Excel 中的内存，Excel 堆栈，字符串 [Excel 2007]，管理内存，在 Excel 中，XLOPER 内存 [Excel 2007]，内存管理内存 [Excel 2007]，管理指南
 localization_priority: Normal
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 97c76d762fdc5e575c571804816e5581a7bec8bb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773806"
 ---
-# <a name="memory-management-in-excel"></a>在 Excel 中进行内存管理
+# <a name="memory-management-in-excel"></a>Excel 中的内存管理
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 内存管理是最重要的担心，如果您想要创建高效的和稳定 xll （英文）。 范围的 Microsoft Excel 中的问题会导致故障也管理内存 — 从低效的内存分配和初始化等小内存泄漏，例如 Excel 的不稳定的主要问题的小问题。
   
@@ -444,9 +444,9 @@ Excel 与它已加载的所有 Dll 共享其堆栈空间。 堆栈空间通常�
 
 
 
-[在 Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
+[Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
   
-[多线程和 Excel 中的内存争用](multithreading-and-memory-contention-in-excel.md)
+[Excel 中的多线程处理和内存争用](multithreading-and-memory-contention-in-excel.md)
   
 [Developing Excel XLLs](developing-excel-xlls.md)
 

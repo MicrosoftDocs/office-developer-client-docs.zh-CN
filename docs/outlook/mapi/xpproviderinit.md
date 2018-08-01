@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0415e782a98102314ce732f744c0d29590f646c2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -99,7 +99,7 @@ MAPI_E_VERSION
   
 > 正在使用 MAPI 的 SPI 版本不兼容与 SPI 正在使用此提供程序。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 调用入口点函数**XPProviderInit**初始化关注客户端登录的传输提供程序。 客户端的配置文件中指定每个传输提供程序调用**XPProviderInit**一次。 
   
@@ -119,7 +119,7 @@ MAPI 调用入口点函数**XPProviderInit**初始化关注客户端登录的传
 
 [ABProviderInit](abproviderinit.md)
   
-[IXPProvider: IUnknown](ixpprovideriunknown.md)
+[IXPProvider : IUnknown](ixpprovideriunknown.md)
   
 [MSProviderInit](msproviderinit.md)
 

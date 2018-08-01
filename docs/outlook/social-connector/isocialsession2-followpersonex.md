@@ -33,7 +33,7 @@ _displayName_
   
 > [in]一个字符串，包含要添加为朋友的人员的显示名称。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果 Outlook Social Connector (OSC) 提供有关超过**emailAddresses**参数，OSC 提供程序中的数组中的 SMTP 地址可以假定的第一个元素的主 SMTP 地址。 
   
@@ -45,5 +45,5 @@ _displayName_
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialSession2: IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 

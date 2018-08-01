@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1a865b571de9e471bcc1942ab54b02f658b4c158
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778184"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RELATED_IPMS  <br/> |
-|标识符:  <br/> |0x002D  <br/> |
+|相关属性：  <br/> |PR_RELATED_IPMS  <br/> |
+|标识符：  <br/> |0x002D  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 标识符使用相同的特定构造规则，如用于**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性。
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

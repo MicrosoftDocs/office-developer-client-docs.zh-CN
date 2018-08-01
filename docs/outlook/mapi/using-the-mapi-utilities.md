@@ -1,5 +1,5 @@
 ---
-title: 使用 MAPI 实用程序
+title: 使用 MAPI 实用工具
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779076"
 ---
-# <a name="using-the-mapi-utilities"></a>使用 MAPI 实用程序
+# <a name="using-the-mapi-utilities"></a>使用 MAPI 实用工具
 
   
   

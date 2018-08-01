@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778743"
 ---
-# <a name="sending-messages-transport-provider-tasks"></a>发送的邮件： 传输提供程序任务
+# <a name="sending-messages-transport-provider-tasks"></a>发送邮件：传输提供程序任务
 
   
   

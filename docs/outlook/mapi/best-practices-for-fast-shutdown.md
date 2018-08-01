@@ -41,7 +41,7 @@ ms.locfileid: "19774621"
 
 [MAPI 中的客户端关闭](client-shutdown-in-mapi.md)
   
-[快速关闭概述 （英文)](fast-shutdown-overview.md)
+[快速关闭概述](fast-shutdown-overview.md)
   
 [快速关闭用户选项](fast-shutdown-user-options.md)
 

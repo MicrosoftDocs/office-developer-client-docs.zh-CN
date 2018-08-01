@@ -1,5 +1,5 @@
 ---
-title: 通知
+title: NOTIFICATION
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7a8d25dc7cac4226f38baab593b254108210549e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776552"
 ---
-# <a name="notification"></a>通知
+# <a name="notification"></a>NOTIFICATION
  
 **适用于**： Outlook 
   
@@ -46,7 +46,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 **ulEventType**
   
@@ -96,7 +96,7 @@ typedef struct
   
 > 描述受影响的数据的特定类型的事件通知结构的联合。 **Info**成员中包含的结构取决于**ulEventType**成员的值。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 一个或多个**通知**结构与每个呼叫的注册的 advise 接收器[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法传递作为输入参数。 **通知**结构包含有关的特定事件的发生和描述受影响的对象的信息。 
   
@@ -116,7 +116,7 @@ printf("%s\n", pNotif -> newmail.lpszMessageClass)
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
 |[处理通知](handling-notifications.md) <br/> |讨论了客户端应如何处理通知。  <br/> |
-|[支持的事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

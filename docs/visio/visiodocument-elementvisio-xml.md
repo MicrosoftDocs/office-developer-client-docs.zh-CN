@@ -55,7 +55,7 @@ Microsoft Visio 文档的根元素。
 |[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |指定一组的绘图页可查看和设置是可刷新绘图中的记录集。  <br/> |
 |[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |包含文档的样式表元素的集合。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

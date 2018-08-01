@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: addf93cadae418017a40ba448328d2e1fc1decf6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -57,7 +57,7 @@ Nonread 的报告指示邮件的读取标志未设置和之前在已删除邮件
   
 |**报告类型**|**邮件类中使用的常量**|
 |:-----|:-----|
-|已阅读  <br/> |IPNRN  <br/> |
+|阅读  <br/> |IPNRN  <br/> |
 |Nonread  <br/> |IPNNRN  <br/> |
 |传递  <br/> |灾难恢复  <br/> |
 |原件  <br/> |NDR  <br/> |

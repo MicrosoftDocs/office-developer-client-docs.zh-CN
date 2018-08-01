@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8a44c88cbc971d9d5358fc6b24093e56e9565eb1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778305"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RULE_USER_FLAGS  <br/> |
-|标识符:  <br/> |0x6678  <br/> |
+|相关属性：  <br/> |PR_RULE_USER_FLAGS  <br/> |
+|标识符：  <br/> |0x6678  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果它已设置由客户端，服务器必须保留此属性的值。 服务器必须规则评估和处理过程中忽略它。
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

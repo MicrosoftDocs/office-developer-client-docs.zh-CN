@@ -31,5 +31,5 @@ ms.locfileid: "19778959"
 
 [MAPI 编程概述](mapi-programming-overview.md)
   
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

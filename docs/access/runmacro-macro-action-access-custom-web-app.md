@@ -19,7 +19,7 @@ ms.locfileid: "19773600"
 您可以使用**RunMacro**操作运行用户界面 (UI) 宏。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="setting"></a>设置
 
@@ -29,7 +29,7 @@ ms.locfileid: "19773600"
 |:-----|:-----|
 |**宏名** <br/> |要运行的 UI 宏的名称。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 当您运行的 UI 宏包含**RunMacro**操作，并会在到达**RunMacro**操作时，Access 将运行该呼叫的 UI 宏。 在完成呼叫的 UI 宏后，Access 将返回到原来的 UI 宏并运行的下一个操作。 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 276a2bd84156e9b396df71f51130e6704ad7c7fb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > 请求的配置文件节不存在。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IProviderAdmin::OpenProfileSection**方法将打开配置文件部分，使呼叫者读取信息和可能在当前配置文件中写入信息。 
   
@@ -106,14 +106,14 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
   
-[IProfSect: IMAPIProp](iprofsectimapiprop.md)
+[IProfSect : IMAPIProp](iprofsectimapiprop.md)
   
 [MAPIUID](mapiuid.md)
   
-[IProviderAdmin: IUnknown](iprovideradminiunknown.md)
+[IProviderAdmin : IUnknown](iprovideradminiunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

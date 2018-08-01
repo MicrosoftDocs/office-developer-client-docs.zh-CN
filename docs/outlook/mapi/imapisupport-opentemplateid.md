@@ -83,7 +83,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 外部地址簿提供程序不存在。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 只为通讯簿提供程序支持对象实现**IMAPISupport::OpenTemplateID**方法。 仅可用作条目属于其他通讯簿提供程序，也称为外的提供程序承载的通讯簿提供程序调用**OpenTemplateID** 。 宿主提供程序调用**OpenTemplateID**打开一个外部项，宿主提供程序中的数据绑定到外的提供程序中的代码时，发生此事件。 
   
@@ -101,9 +101,9 @@ MAPI_E_UNKNOWN_ENTRYID
 
 [IABLogon::OpenTemplateID](iablogon-opentemplateid.md)
   
-[IPropData: IMAPIProp](ipropdataimapiprop.md)
+[IPropData : IMAPIProp](ipropdataimapiprop.md)
   
 [PidTagTemplateid 规范属性](pidtagtemplateid-canonical-property.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

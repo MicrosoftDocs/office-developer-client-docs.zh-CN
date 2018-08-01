@@ -1,5 +1,5 @@
 ---
-title: WEEKDAY 函数 (VisioShapeSheet)
+title: WEEKDAY Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781658"
 ---
-# <a name="weekday-function-visioshapesheet"></a>WEEKDAY 函数 (VisioShapeSheet)
+# <a name="weekday-function-visioshapesheet"></a>WEEKDAY Function (VisioShapeSheet)
 
 返回一个表示整数，1 到 7 _datetime_或_expression_中的工作日。
   
@@ -29,14 +29,14 @@ WEEKDAY ("* * *datetime* * *"|* **表达式** * [，* * *lcid* * *])
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |必需  <br/> |**字符串** <br/> | 任何通常被识别为日期和时间的字符串或对包含日期和时间的单元格的引用。  <br/> |
-| _expression_ <br/> |必需  <br/> |**而异** <br/> |任何生成日期和时间的表达式。  <br/> |
-| _lcid_ <br/> |可选  <br/> |**数字** <br/> |用于计算非本地日期时间的区域设置标识符。区域设置标识符是系统头文件中描述的一个数字。  <br/> |
+| _expression_ <br/> |必需  <br/> |**因情况而异** <br/> |任何生成日期和时间的表达式。  <br/> |
+| _lcid_ <br/> |可选  <br/> |**Numeric** <br/> |用于计算非本地日期时间的区域设置标识符。区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 Integer
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _Datetime_或_expression_中的时间组件已被丢弃。 
   

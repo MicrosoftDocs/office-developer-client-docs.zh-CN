@@ -50,7 +50,7 @@ S_OK
   
 > 已成功创建配置支持对象。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于所有支持对象实现**IMAPISupport::GetSvcConfigSupportObj**方法。 服务提供商调用**GetSvcConfigSupportObj**创建配置支持对象以传递给消息服务入口点函数。 
   
@@ -60,15 +60,15 @@ S_OK
 
 
 
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
   
 [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)
   
 [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md)
   
-[IProfAdmin: IUnknown](iprofadminiunknown.md)
+[IProfAdmin : IUnknown](iprofadminiunknown.md)
   
 [MSGSERVICEENTRY](msgserviceentry.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

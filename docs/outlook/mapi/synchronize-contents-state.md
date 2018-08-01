@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 216691f2c1f94d658a5aa968d6a19148a9b3c06a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -47,11 +47,11 @@ ms.locfileid: "19778934"
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
 [MAPI 常量](mapi-constants.md)
   
-[有关的复制状态机](about-the-replication-state-machine.md)
+[关于复制状态计算机](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

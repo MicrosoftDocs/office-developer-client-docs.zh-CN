@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f346baf303db9da765eec183d168b370547ec2de
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778211"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RESOURCE_METHODS  <br/> |
-|标识符:  <br/> |0x3E02  <br/> |
+|相关属性：  <br/> |PR_RESOURCE_METHODS  <br/> |
+|标识符：  <br/> |0x3E02  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性指示支持哪种中**IMAPIStatus**状态对象实现的方法。 允许从不受支持方法返回 MAPI_E_NO_SUPPORT 状态对象。 
   
@@ -86,7 +86,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -88,7 +88,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用信号传输提供程序为其请求通知的事件有关的**IXPLogon::TransportNotify**方法。 这些事件包括 MAPI 后台处理程序请求取消邮件传输、 开始或结束的入站或出站传输操作和开始或结束的操作以清除入站或出站消息队列。 
   
@@ -108,5 +108,5 @@ MAPI 后台处理程序调用信号传输提供程序为其请求通知的事件
 - [IXPLogon::StartMessage](ixplogon-startmessage.md)
 - [IXPLogon::SubmitMessage](ixplogon-submitmessage.md)
 - [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)
-- [IXPLogon: IUnknown](ixplogoniunknown.md)
+- [IXPLogon : IUnknown](ixplogoniunknown.md)
 

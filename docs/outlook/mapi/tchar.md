@@ -32,7 +32,7 @@ typedef char TCHAR;
 
 ```
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于 Unicode 平台，TCHAR 被定义为同义 WCHAR 类型。 
   

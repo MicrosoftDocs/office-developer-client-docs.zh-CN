@@ -1,5 +1,5 @@
 ---
-title: Excel 命令、 函数和状态
+title: Excel 命令、函数和状态
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - '[excel 2007] 的状态、 命令 [Excel 2007]、 工作表函数 [Excel 2007]、 宏工作表函数 [Excel 2007]、 Excel 状态'
 localization_priority: Normal
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 60977216663fb2492f425a9b7c855b77815f0e7b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773671"
 ---
-# <a name="excel-commands-functions-and-states"></a>Excel 命令、 函数和状态
+# <a name="excel-commands-functions-and-states"></a>Excel 命令、函数和状态
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 能识别两种非常不同类型的新增功能： 命令和函数。
   
@@ -116,5 +116,5 @@ Excel 中可以许多状态之一在任何给定时间，具体取决于用户�
 
 [Excel Programming Concepts](excel-programming-concepts.md)
   
-[允许用户在冗长操作中中断](permitting-user-breaks-in-lengthy-operations.md)
+[在长时间的操作中允许用户中断](permitting-user-breaks-in-lengthy-operations.md)
 

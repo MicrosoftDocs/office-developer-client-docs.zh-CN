@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 21ea5faaccb81e763d6d062b6ff567db509d9d35
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -88,7 +88,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPISupport::SpoolerNotify**方法已实现的消息存储和传输提供程序支持对象。 这些提供程序调用**SpoolerNotify**以通知状态或服务的请求中的更改 MAPI 后台处理程序。 **SpoolerNotify**主要由传输提供程序，可能在会话期间随时调用。 
   
@@ -114,9 +114,9 @@ S_OK
   
 - [实现 FlushQueues 方法](implementing-the-flushqueues-method.md)
     
-- [与 MAPI 后台处理程序进行交互](interacting-with-the-mapi-spooler.md)
+- [与 MAPI 后台处理程序交互](interacting-with-the-mapi-spooler.md)
     
-- [消息接收模型](message-reception-model.md)
+- [邮件接收模型](message-reception-model.md)
     
 ## <a name="see-also"></a>另请参阅
 
@@ -128,5 +128,5 @@ S_OK
   
 [IXPLogon::SubmitMessage](ixplogon-submitmessage.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

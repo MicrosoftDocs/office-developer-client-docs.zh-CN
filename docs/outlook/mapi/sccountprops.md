@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 97dad50fed4179526e46381c4d9ea9d12d568377
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -65,7 +65,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 属性值数组中的至少一个属性具有 PROP_ID_NULL 或 PROP_ID_INVALID，标识符或属性数组包含任何属性值的多值的属性。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果_pcb_参数中传递 NULL，则**ScCountProps**函数验证通知的数组，但没有计数完成。 如果在_pcb_传递一个非空值，则**ScCountNotifications**函数确定数组的大小，并将存储原因_pcb_。 _Pcb_参数必须为足够大，使其包含整个数组。 
   

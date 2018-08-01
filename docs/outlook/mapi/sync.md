@@ -1,5 +1,5 @@
 ---
-title: 同步
+title: SYNC
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778936"
 ---
-# <a name="sync"></a>同步
+# <a name="sync"></a>SYNC
 
   
   
@@ -37,7 +37,7 @@ struct SYNC
 };
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  _ulFlags_
   
@@ -88,9 +88,9 @@ struct SYNC
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
-[有关的复制状态机](about-the-replication-state-machine.md)
+[关于复制状态计算机](about-the-replication-state-machine.md)
   
 [MAPI 常量](mapi-constants.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fd9a8d731d141dbb71a204a2d20b268951bef42f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SBinaryArray
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -50,7 +50,7 @@ typedef struct _SBinaryArray
   
 > 指向保存二进制值的数组[SBinary](sbinary.md)结构的指针。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SBinaryArray**结构用于描述 PT_MV_BINARY 类型的属性。 
   

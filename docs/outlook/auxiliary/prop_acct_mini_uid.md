@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x00030003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 通过使用[IOlkAccount::GetProp](iolkaccount-getprop.md)获取此属性。 如果客户端试图设置该属性，则此属性返回**E_OLK_PROP_READ_ONLY**。 
   

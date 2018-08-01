@@ -8,7 +8,7 @@ keywords:
 - 强制计算 [excel 2007，] 选择性重新计算 [Excel 2007，] 函数 [Excel 2007，] 可变，计算模式，重新计算的单元格 [Excel 2007]，依赖 [Excel 2007]，指定重新计算 [Excel 2007 工作表计算 [Excel 2007]]，工作簿树重建 [Excel 2007]，单元格区域计算 [Excel 2007]，Excel 重新计算，可变函数 [Excel 2007，] 函数 [Excel 2007]，稳定、 活动工作表计算 [Excel 2007]，dirty 非可变函数 [[Excel 2007]Excel 2007 中]，强制重新计算 [Excel 2007]
 localization_priority: Normal
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 9964f2c4282158e83891d82ba43fa19f23ab1eb6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773713"
 ---
 # <a name="excel-recalculation"></a>Excel 重新计算
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 例如，用户可以触发多种方式，Microsoft Excel 中的重新计算：
   
@@ -231,11 +231,11 @@ C API： 不支持
 
 
 
-[在 Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
+[Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
   
-[使用 Excel 数据类型](data-types-used-by-excel.md)
+[Excel 使用的数据类型](data-types-used-by-excel.md)
   
-[在 Excel 中进行内存管理](memory-management-in-excel.md)
+[Excel 中的内存管理](memory-management-in-excel.md)
   
 [Excel Programming Concepts](excel-programming-concepts.md)
 

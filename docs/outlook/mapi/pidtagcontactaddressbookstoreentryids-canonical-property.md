@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e8266b0fcac8318420bd67cfd90e8ff594638cf0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777452"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_CONTAB_STORE_ENTRYIDS  <br/> |
-|标识符:  <br/> |0x6626  <br/> |
+|相关属性：  <br/> |PR_CONTAB_STORE_ENTRYIDS  <br/> |
+|标识符：  <br/> |0x6626  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这是联系人通讯簿配置文件一节的属性。
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

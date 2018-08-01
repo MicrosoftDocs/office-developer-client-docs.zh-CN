@@ -34,7 +34,7 @@ ms.locfileid: "19781601"
 
 Number
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果文档的文档模具上存在名为_name_的主控形状，如线型、 填充图案、 开始箭头或结束箭头应用模式。 
   

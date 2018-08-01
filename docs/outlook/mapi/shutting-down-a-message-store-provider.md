@@ -1,5 +1,5 @@
 ---
-title: 关机的情况下消息存储提供程序
+title: 关闭邮件存储区提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778786"
 ---
-# <a name="shutting-down-a-message-store-provider"></a>关机的情况下消息存储提供程序
+# <a name="shutting-down-a-message-store-provider"></a>关闭邮件存储区提供程序
 
   
   
@@ -45,5 +45,5 @@ MAPI 的消息存储**IUnknown::Release**其实现中执行以下任务：
 
 
 
-[关闭服务提供商](shutting-down-a-service-provider.md)
+[关闭服务提供程序](shutting-down-a-service-provider.md)
 

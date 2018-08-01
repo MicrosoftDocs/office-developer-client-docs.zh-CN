@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d8d986554352e05398a843723ee802bb4969e5ca
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778196"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
-|标识符:  <br/> |0x3E0D  <br/> |
+|相关属性：  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
+|标识符：  <br/> |0x3E0D  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性将状态表中显示，并提供一些控制传输性能。 它可以将其视为另一种用于为空闲远程查看器。 当设置为 TRUE 时，远程查看器可以根据需要通常调用**IMAPIStatus::ValidateState** 。 值为 FALSE 指示远程查看器无法进行任何其他呼叫。 
   
@@ -60,7 +60,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

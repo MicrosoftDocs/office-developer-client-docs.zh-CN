@@ -1,5 +1,5 @@
 ---
-title: 映射到 MAPI 属性的 Internet 邮件属性
+title: 将 Internet Mail 属性映射到 MAPI 属性
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19776413"
 ---
-# <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>映射到 MAPI 属性的 Internet 邮件属性
+# <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>将 Internet Mail 属性映射到 MAPI 属性
 
   
   

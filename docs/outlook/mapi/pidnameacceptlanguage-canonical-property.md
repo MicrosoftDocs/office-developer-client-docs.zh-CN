@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d2c2fb31b722e76034b08077632c817d6adde802
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,9 +33,9 @@ ms.locfileid: "19777170"
 |属性进行设置：  <br/> |PS_INTERNET_HEADERS  <br/> |
 |属性名称：  <br/> |接受语言  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |Email  <br/> |
+|区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端应编写将接受语言标头字段与所需的值。 MIME 客户端可能会改为编写 X 接受语言标头字段。 MIME 读者应将任一标头字段的值复制到此属性的值。 如果存在两个标头字段时，MIME 读者应使用接受语言标头字段。
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

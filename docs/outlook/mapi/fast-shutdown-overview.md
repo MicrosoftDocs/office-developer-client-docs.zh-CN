@@ -1,5 +1,5 @@
 ---
-title: 快速关闭概述 （英文)
+title: 快速关闭概述
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774897"
 ---
-# <a name="fast-shutdown-overview"></a>快速关闭概述 （英文)
+# <a name="fast-shutdown-overview"></a>快速关闭概述
 
 **适用于**： Outlook 
   

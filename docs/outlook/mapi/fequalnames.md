@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0d8d1b8509f699b20f6e436d8af2c1d0d97cf4ba
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -60,7 +60,7 @@ FALSE
   
 > 两个属性名称不相等。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **FEqualNames**函数很有用，因为**MAPINAMEID**结构包含[GUID](guid.md) ，并可以表示多种方式中的属性名称本身。 这意味着不能由简单二进制方法比较两个结构。 
   

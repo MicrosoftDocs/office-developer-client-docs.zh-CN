@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7daa8ec536a81abc196bbb23a0e1a48e826579e2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775683"
 ---
-# <a name="imapisupport--iunknown"></a>IMAPISupport: IUnknown
+# <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
   
   
@@ -42,8 +42,8 @@ ms.locfileid: "19775683"
 |:-----|:-----|
 |[时出错](imapisupport-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面的支持对象错误的信息。  <br/> |
 |[GetMemAllocRoutines](imapisupport-getmemallocroutines.md) <br/> |检索 MAPI 内存分配和释放函数 （[MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)和[MAPIFreeBuffer](mapifreebuffer.md)） 的地址。  <br/> |
-|[订阅](imapisupport-subscribe.md) <br/> |注册以接收通知通过 MAPI 通知接收器。  <br/> |
-|[取消订阅](imapisupport-unsubscribe.md) <br/> |取消以前建立与调用**Subscribe**方法发送通知的责任。  <br/> |
+|[Subscribe](imapisupport-subscribe.md) <br/> |注册以接收通知通过 MAPI 通知接收器。  <br/> |
+|[Unsubscribe](imapisupport-unsubscribe.md) <br/> |取消以前建立与调用**Subscribe**方法发送通知的责任。  <br/> |
 |[Notify](imapisupport-notify.md) <br/> |将指定的事件的通知发送到最初通过**Subscribe**方法通知注册的 advise 源。  <br/> |
 |[ModifyStatusRow](imapisupport-modifystatusrow.md) <br/> |通过添加新行或修改现有行来修改状态表。  <br/> |
 |[OpenProfileSection](imapisupport-openprofilesection.md) <br/> |打开当前配置文件的一部分，并返回进一步访问[IProfSect](iprofsectimapiprop.md)指针  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "19775683"
 |[OpenTemplateID](imapisupport-opentemplateid.md) <br/> |在外部地址簿提供程序中打开一个收件人的项。  <br/> |
 |[OpenEntry](imapisupport-openentry.md) <br/> |打开一个对象并返回进一步访问的接口指针。  <br/> |
 |[GetOneOffTable](imapisupport-getoneofftable.md) <br/> |返回到 MAPI 一次性表格 （所有通讯都簿提供程序支持创建新的收件人的模板的列表） 的指针。  <br/> |
-|[Address](imapisupport-address.md) <br/> |显示通用的地址对话框。  <br/> |
+|[地址](imapisupport-address.md) <br/> |显示通用的地址对话框。  <br/> |
 |[详细信息](imapisupport-details.md) <br/> |显示一个对话框，显示有关特定通讯簿条目的详细信息。  <br/> |
 |[NewEntry](imapisupport-newentry.md) <br/> |直接到通讯簿容器或传出邮件的收件人列表中添加一个新收件人。  <br/> |
 |[DoConfigPropsheet](imapisupport-doconfigpropsheet.md) <br/> |显示配置属性表。  <br/> |
@@ -80,20 +80,20 @@ ms.locfileid: "19775683"
 |[IStorageFromStream](imapisupport-istoragefromstream.md) <br/> |实现的存储对象访问的流。  <br/> |
 |[GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) <br/> |创建一个邮件服务支持对象。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 地址书籍、 消息存储、 传输提供程序和消息每个服务都有其自己的支持对象。 服务提供商和消息服务中的它们的其他接口方法的实现一部分其支持对象调用方法。 每个不同的支持对象已完成实现其呼叫者; 应用于的方法不适用的方法返回 MAPI_E_NO_SUPPORT。 地址簿提供程序支持对象必须实现以下方法：
   
 ||||
 |:-----|:-----|:-----|
-|**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
+|**地址** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**详细信息** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
 |**时出错** <br/> |**GetMemAllocRoutines** <br/> |**GetOneOffTable** <br/> |
 |**IStorageFromStream** <br/> |**GetSvcConfigSupportObj** <br/> |**MakeInvalid** <br/> |
 |**ModifyStatusRow** <br/> |**NewEntry** <br/> |**NewUID** <br/> |
 |**Notify** <br/> |**OpenAddressBook** <br/> |**OpenEntry** <br/> |
 |**OpenProfileSection** <br/> |**OpenTemplateID** <br/> |**SetProviderUID** <br/> |
-|**订阅** <br/> |**取消订阅** <br/> |**WrapStoreEntryID** <br/> |
+|**Subscribe** <br/> |**Unsubscribe** <br/> |**WrapStoreEntryID** <br/> |
    
 消息存储提供程序支持对象必须实现以下方法：
   
@@ -108,7 +108,7 @@ ms.locfileid: "19775683"
 |**NewUID** <br/> |**Notify** <br/> |**OpenAddressBook** <br/> |
 |**OpenEntry** <br/> |**OpenProfileSection** <br/> |**PrepareSubmit** <br/> |
 |**Readreceipt 已** <br/> |**SetProviderUID** <br/> |**SpoolerNotify** <br/> |
-|**StoreLogoffTransports** <br/> |**订阅** <br/> |**取消订阅** <br/> |
+|**StoreLogoffTransports** <br/> |**Subscribe** <br/> |**Unsubscribe** <br/> |
 |**WrapStoreEntryID** <br/> |
    
 传输提供程序支持的对象必须实现以下方法：
@@ -121,7 +121,7 @@ ms.locfileid: "19775683"
 |**OpenAddressBook** <br/> |**RegisterPreprocessor** <br/> |**NewUID** <br/> |
 |**Notify** <br/> |**OpenProfileSection** <br/> |**OpenEntry** <br/> |
 |**StatusRecips** <br/> |**SpoolerNotify** <br/> |**SpoolerYield** <br/> |
-|**WrapStoreEntryID** <br/> |**订阅** <br/> |**取消订阅** <br/> |
+|**WrapStoreEntryID** <br/> |**Subscribe** <br/> |**Unsubscribe** <br/> |
    
 消息服务支持对象必须实现以下方法：
   

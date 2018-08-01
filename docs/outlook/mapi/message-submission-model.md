@@ -1,5 +1,5 @@
 ---
-title: 消息提交模型
+title: 邮件提交模型
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776523"
 ---
-# <a name="message-submission-model"></a>消息提交模型
+# <a name="message-submission-model"></a>邮件提交模型
 
   
   

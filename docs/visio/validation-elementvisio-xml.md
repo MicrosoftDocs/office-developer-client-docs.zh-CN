@@ -49,7 +49,7 @@ ms.locfileid: "19781613"
 |[规则集](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |包括文档中设置每个有效性规则的**规则集**元素。  <br/> |
 |[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |封装与文档的验证相关的属性。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

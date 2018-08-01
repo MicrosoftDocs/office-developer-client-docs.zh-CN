@@ -1,5 +1,5 @@
 ---
-title: 用于错误处理的策略
+title: 错误处理的策略
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778883"
 ---
-# <a name="strategies-for-error-handling"></a>用于错误处理的策略
+# <a name="strategies-for-error-handling"></a>错误处理的策略
 
   
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 047a3b99b2d615984252071a1264521a4b2240f8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -51,5 +51,5 @@ ms.locfileid: "19779084"
   
 ## <a name="see-also"></a>另请参阅
 
-- [实现服务提供程序的登录名](implementing-service-provider-logon.md)
+- [实现服务提供程序登录](implementing-service-provider-logon.md)
 

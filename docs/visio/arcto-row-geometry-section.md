@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779651"
 ---
-# <a name="arcto-row-geometry-section"></a>ArcTo 行（“Geometry”内容）
+# <a name="arcto-row-geometry-section"></a>ArcTo 行（“Geometry”部分）
 
 包含*x*和*y* -坐标和弓圆弧。 
   
@@ -32,6 +32,6 @@ ArcTo 行包含以下单元格。
 
 在 Visio 中绘制的弧形是椭圆弧，即使它们基于圆形也不例外。默认情况下，所绘制的弧形是用 ShapeSheet 窗口中的 EllipticalArcTo 行表示的。若要在 ShapeSheet 窗口中显示 ArcTo 行，必须先绘制一个弧形，然后将 EllipticalArcTo 行类型更改为 ArcTo 行类型；这时实际已将椭圆弧更改为圆弧了。
   
-若要更改行类型，右击该行，，，然后单击快捷菜单上的**更改行类型**。 
+若要更改行类型，请右击某一行，然后单击快捷菜单上的 **“更改行类型”**。 
   
 

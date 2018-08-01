@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b8acb69-4c84-4075-8457-d7aadce26c73
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b8b490242d6c0260fb4ba4335846da06a0e73d4c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776950"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidOtherAddress  <br/> |
+|相关属性：  <br/> |dispidOtherAddress  <br/> |
 |属性进行设置：  <br/> |PSETID_Address  <br/> |
 |长 ID （盖）：  <br/> |0x0000801C  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性应为其他物理地址属性的组合，并基于客户端区域设置。
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

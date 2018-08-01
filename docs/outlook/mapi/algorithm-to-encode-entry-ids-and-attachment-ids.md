@@ -1,5 +1,5 @@
 ---
-title: 编码条目 Id 和附件 Id 的算法
+title: 编码条目 ID 和附件 ID 的算法
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774546"
 ---
-# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>编码条目 Id 和附件 Id 的算法
+# <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>编码条目 ID 和附件 ID 的算法
 
   
   
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[有关基于通知存储索引](about-notification-based-store-indexing.md)
+[关于基于通知的存储区索引](about-notification-based-store-indexing.md)
   
-[有关基于通知的索引的 MAPI Url](about-mapi-urls-for-notification-based-indexing.md)
+[关于基于通知的索引的 MAPI URL](about-mapi-urls-for-notification-based-indexing.md)
 

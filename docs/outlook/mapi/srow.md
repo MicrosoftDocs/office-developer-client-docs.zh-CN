@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8b4e090b3dd6bf8ecd2517dee57093106147e22d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -39,7 +39,7 @@ typedef struct _SRow
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 **ulAdrEntryPad**
   
@@ -53,7 +53,7 @@ typedef struct _SRow
   
 > 指向一个[SPropValue](spropvalue.md)结构描述行中的列的属性值的数组。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SRow**结构描述表中的行。 它包含附带表通知的[TABLE_NOTIFICATION](table_notification.md)结构中。 
   
@@ -94,5 +94,5 @@ typedef struct _SRow
 - [SRowSet](srowset.md)
 - [TABLE_NOTIFICATION](table_notification.md)
 - [MAPI 结构](mapi-structures.md)
-- [ADRLIST 和 SRowSet 结构管理内存](managing-memory-for-adrlist-and-srowset-structures.md)
+- [管理 ADRLIST 和 SRowSet 结构的内存](managing-memory-for-adrlist-and-srowset-structures.md)
 

@@ -1,5 +1,5 @@
 ---
-title: MapiSvc.inf 消息服务各节中的列表项
+title: MapiSvc.inf 邮件服务部分中的列表条目
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776140"
 ---
-# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>MapiSvc.inf 消息服务各节中的列表项
+# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>MapiSvc.inf 邮件服务部分中的列表条目
 
   
   

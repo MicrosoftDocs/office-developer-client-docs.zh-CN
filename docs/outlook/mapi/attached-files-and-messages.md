@@ -1,5 +1,5 @@
 ---
-title: 附加的文件和消息
+title: 附加的文件和邮件
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774544"
 ---
-# <a name="attached-files-and-messages"></a>附加的文件和消息
+# <a name="attached-files-and-messages"></a>附加的文件和邮件
 
   
   
@@ -31,7 +31,7 @@ ms.locfileid: "19774544"
     
 - 如果长行或向上 25 %8 位找到字符，附件内容为文字，由区域设置来确定的字符集。 从由 ISO 标准 8859 定义的字符集，应选择它。 *Content-type: text/plain; charset = ISO-8859-1* （示例） 
     
-     *内容传送编码： 用引号括起来打印* 
+     *Content-Transfer-Encoding: quoted-printable* 
     
 - 25%或多个字符有较高的位设置，如果附件是二进制。 它是使用 Base64 算法进行编码。 *内容类型： 应用程序/八进制流* （默认情况下; 基于文件扩展名） 
     
@@ -79,5 +79,5 @@ Classes\
 
 
 
-[映射到 MAPI 属性的 Internet 邮件属性](mapping-of-internet-mail-attributes-to-mapi-properties.md)
+[将 Internet Mail 属性映射到 MAPI 属性](mapping-of-internet-mail-attributes-to-mapi-properties.md)
 

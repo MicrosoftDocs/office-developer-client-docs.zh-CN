@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781623"
 ---
-# <a name="value-cell-user-defined-cells-section"></a>Value 单元格（“User-Defined Cells”内容）
+# <a name="value-cell-user-defined-cells-section"></a>Value 单元格（“User-Defined Cells”部分）
 
 为相应的用户定义的单元格指定值。
   
@@ -24,13 +24,13 @@ ms.locfileid: "19781623"
 
 要在其他单元格中引用该值，请指定在行标签 User.Row 中输入的用户定义的名称。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Value 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Value 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 用户。  *名称*。值的位置用户。  *Name*是行名称  <br/> |
    
-若要从某个程序按索引获取对 Value 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Value 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

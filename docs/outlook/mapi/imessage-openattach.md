@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c702e4063bf5e5a06a9e476a02172a780c7e326a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -72,7 +72,7 @@ S_OK
   
 > 已成功打开附件。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMessage::OpenAttach**方法打开邮件附件。 
   
@@ -96,8 +96,8 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

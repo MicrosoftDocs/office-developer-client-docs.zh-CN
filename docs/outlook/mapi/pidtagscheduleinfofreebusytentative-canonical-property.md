@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 28453d29-30c5-405b-84d2-5bb5f281756c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a00505b765abdcb7b8fe9d68052774b30bbdf692
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778349"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SCHDINFO_FREEBUSY_TENTATIVE  <br/> |
-|标识符:  <br/> |0x6852  <br/> |
+|相关属性：  <br/> |PR_SCHDINFO_FREEBUSY_TENTATIVE  <br/> |
+|标识符：  <br/> |0x6852  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性在**PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) 中具有多个值作为值的数目。 每个二进制值表示的月和对应于**PR_SCHDINFO_MONTHS_TENTATIVE**中相同的索引处的值。 **PR_SCHDINFO_MONTHS_TENTATIVE**中的值相同的顺序排序的二进制值。
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

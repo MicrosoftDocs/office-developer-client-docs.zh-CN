@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5abfd9c98c5a83ca45792f094d0c9573b8affb85
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -25,12 +25,12 @@ ms.locfileid: "19778522"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_USERFIELDS  <br/> |
-|标识符:  <br/> |0x36E3  <br/> |
+|相关属性：  <br/> |PR_USERFIELDS  <br/> |
+|标识符：  <br/> |0x36E3  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 文件夹  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于每个项，Outlook 相应**IMessage**对象的[PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)属性中存储所有用户定义的字段的定义。 **PidLidPropertyDefinitionStream**属性将包含二进制流称为[属性定义](propertydefinition-stream-structure.md)，其中包含的字段定义。 有关字段定义流结构的详细信息，请参阅[流结构](stream-structures.md)。
   
@@ -59,17 +59,17 @@ Mapidefs.h
 
 
 
-[Outlook 项和计算字段](outlook-items-and-fields.md)
+[Outlook 项和字段](outlook-items-and-fields.md)
   
-[添加用户定义的新字段的定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[为新的用户定义字段添加定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[属性定义流示例](propertydefinition-stream-sample.md)
+[PropertyDefinition 流示例](propertydefinition-stream-sample.md)
   
 [MAPI 属性](mapi-properties.md)
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

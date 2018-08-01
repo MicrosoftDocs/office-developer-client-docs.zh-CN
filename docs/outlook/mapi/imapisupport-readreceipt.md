@@ -59,7 +59,7 @@ S_OK
   
 > 成功生成报告。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 只为消息存储提供程序支持对象实现**IMAPISupport::ReadReceipt**方法。 消息存储提供程序调用**readreceipt 已**以指示 MAPI 生成读取或 nonread 的报告_lpReadMessage_参数指向的邮件。 
   
@@ -95,5 +95,5 @@ S_OK
   
 [PidTagReadReceiptRequested 规范属性](pidtagreadreceiptrequested-canonical-property.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

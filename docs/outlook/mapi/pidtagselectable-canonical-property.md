@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 225c435107ba79183c737ddb8e09cda1ffbd83f4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778365"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SELECTABLE  <br/> |
-|标识符:  <br/> |0x3609  <br/> |
+|相关属性：  <br/> |PR_SELECTABLE  <br/> |
+|标识符：  <br/> |0x3609  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |通讯簿容器  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性主要用于可视一次性表的格式设置。 模板可以通过创建指示组标题条目进行分组。 此属性设置为 FALSE 的标题，则确保用户可以组和不此标题条目的选择实际的模板。 
   
@@ -83,7 +83,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

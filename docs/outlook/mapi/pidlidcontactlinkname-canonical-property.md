@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b9be1cd-e81e-42f3-b391-036afa2ae1b4
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 13c10a84383c9c2f775a7579485536bfd63f9a93
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776729"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidContactLinkName  <br/> |
+|相关属性：  <br/> |dispidContactLinkName  <br/> |
 |属性进行设置：  <br/> |PSETID_Common  <br/> |
 |长 ID （盖）：  <br/> |0x00008586  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 由分号和空格分隔**dispidContactLinkName**属性中的元素 （";"）。 
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

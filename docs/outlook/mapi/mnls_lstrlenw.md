@@ -41,7 +41,7 @@ int MNLS_lstrlen(
 
 此函数返回字符串的长度为之间的整数。 它是在字符串中，不包括 null 终止符的字符数。 如果_lpsz_为 NULL，则此函数将返回零。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此函数的换行**lstrlen**函数。 有关详细信息，请参阅[lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx)。
   

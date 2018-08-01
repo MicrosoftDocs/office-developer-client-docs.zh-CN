@@ -1,5 +1,5 @@
 ---
-title: 开发 Dll
+title: 开发 DLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - dll [excel 2007]，创建、 创建 Dll [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 030cdd4358d9a71841eca6acfcef6e71839e02a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773661"
 ---
-# <a name="developing-dlls"></a>开发 Dll
+# <a name="developing-dlls"></a>开发 DLL
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 库是提供了一些功能和数据到可执行应用程序的已编译代码的正文。 库可为静态链接或动态链接，并且其逆文件名称扩展名.lib 和.dll 分别。 静态库 （如 C 运行时库） 链接到应用程序在编译和因此成为生成可执行文件的一部分。 应用程序需要时，通常在应用程序启动时加载 DLL。 一个 DLL 可以加载并动态链接到另一个 DLL。
   
@@ -202,7 +202,7 @@ double WINAPI my_Cpp_export(double x)
   
 ## <a name="see-also"></a>另请参阅
 
-- [在 Excel 中访问 Dll](how-to-access-dlls-in-excel.md)
+- [在 Excel 中访问 DLL](how-to-access-dlls-in-excel.md)
 - [从 DLL 或 XLL 调用 Excel](calling-into-excel-from-the-dll-or-xll.md)
 - [Excel Programming Concepts](excel-programming-concepts.md)
 - [Developing Excel XLLs](developing-excel-xlls.md)

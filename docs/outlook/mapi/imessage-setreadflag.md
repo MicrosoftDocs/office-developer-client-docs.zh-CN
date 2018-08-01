@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0ae35166f01f597c2c3ab399a1b66e5760ab0dc8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -69,7 +69,7 @@ MAPI_E_INVALID_PARAMETER
     
    - CLEAR_READ_FLAG |GENERATE_RECEIPT_ONLY
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMessage::SetReadFlag**方法设置或清除**PR_MESSAGE_FLAGS**属性和呼叫[IMAPIProp::SaveChanges](imapiprop-savechanges.md)保存邮件中的消息的 MSGFLAG_READ 标志。 设置 MSGFLAG_READ 标志将邮件标记为已读，其中不一定表示预期接收人已实际阅读消息。 
   
@@ -124,6 +124,6 @@ MFCMAPI 示例代码，请参阅下表。
 - [IMAPIProp::GetProps](imapiprop-getprops.md)  
 - [IMAPIProp::SaveChanges](imapiprop-savechanges.md) 
 - [PidTagMessageFlags 规范属性](pidtagmessageflags-canonical-property.md) 
-- [IMessage: IMAPIProp](imessageimapiprop.md)
-- [MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+- [IMessage : IMAPIProp](imessageimapiprop.md)
+- [MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 泛型 DLL 中的函数
+title: 通用 DLL 中的函数
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - 泛型 dll [excel 2007，] 函数，函数 [Excel 2007，] 泛型 DLL
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e78f276e58ca1c98786e28ed5167762cf0bfdf7f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773767"
 ---
-# <a name="functions-in-the-generic-dll"></a>泛型 DLL 中的函数
+# <a name="functions-in-the-generic-dll"></a>通用 DLL 中的函数
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 文件夹`\EXAMPLES\GENERIC\`包含 Microsoft Visual Studio 项目文件和所需编译该示例 DLL GENERIC.xll 源代码文件。 编写您自己的 Microsoft Excel Xll 可作为模板用于此项目。 此项目中的源代码演示了许多 Excel C API 的功能。 
   
@@ -64,5 +64,5 @@ GENERIC.xll 还提供了三个工作表函数、 Func1、 FuncSum 和 FuncFib，
 
 
 
-[Framework 库中的函数](functions-in-the-framework-library.md)
+[框架库中的函数](functions-in-the-framework-library.md)
 

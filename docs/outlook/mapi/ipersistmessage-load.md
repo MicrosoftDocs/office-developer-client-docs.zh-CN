@@ -60,7 +60,7 @@ S_OK
   
 > 已成功加载窗体。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单查看器调用**IPersistMessage::Load**方法以加载的现有邮件窗体。 
   
@@ -90,16 +90,16 @@ S_OK
   
 [PidTagMessageStatus 规范属性](pidtagmessagestatus-canonical-property.md)
   
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[未初始化的状态](uninitialized-state.md)
+[Uninitialized 状态](uninitialized-state.md)
   
 [HandsOffAfterSave 状态](handsoffaftersave-state.md)
   
 [HandsOffFromNormal 状态](handsofffromnormal-state.md)
   
-[窗体状态](form-states.md)
+[表单状态](form-states.md)
 
 
 [IPersistStorage::Load](http://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)

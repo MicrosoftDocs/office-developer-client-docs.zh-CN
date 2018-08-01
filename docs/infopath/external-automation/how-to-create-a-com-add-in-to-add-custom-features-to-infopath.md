@@ -1,5 +1,5 @@
 ---
-title: 创建 COM 加载项自定义功能添加到 InfoPath
+title: 创建 COM 加载项并将自定义功能添加到 InfoPath
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773882"
 ---
-# <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>创建 COM 加载项自定义功能添加到 InfoPath
+# <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>创建 COM 加载项并将自定义功能添加到 InfoPath
 
 Microsoft InfoPath 支持 COM 加载项扩展窗体编辑的用户体验。 尽管支持的如 Microsoft Office Word 和 Microsoft Office Excel 具有 Office 2000 以来支持 COM 加载项首先 COM 加载项添加 InfoPath，其他 Office 应用程序中。
   
@@ -67,7 +67,7 @@ COM 加载项以供客户端计算机的每个用户安装注册表项位于 HKL
   
 1. 启动 Visual Studio。
     
-2. 在**文件**菜单中，单击**新建项目**。
+2. 在“文件”**** 菜单上，单击“新建项目”****。
     
 3. 在**新建项目**对话框的**项目类型**窗格中，单击**其他项目类型**文件夹，然后单击**扩展性**。
     
@@ -145,7 +145,7 @@ Visual studio 创建项目后，您将看到解决方案资源管理器窗口中
 
 InfoPath 表单编辑环境中发生的事件，可以捕获由 COM 加载项。 [ApplicationEvents](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.ApplicationEvents.aspx)对象的以下事件可由 COM 加载项，用于响应用户操作： 
   
-|**事件**|**说明**|
+|"事件"|**说明**|
 |:-----|:-----|
 |[NewXDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument.aspx)事件  <br/> |新建表单时发生。  <br/> |
 |[退出](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.Quit.aspx)事件  <br/> |用户退出 InfoPath 时发生。  <br/> |

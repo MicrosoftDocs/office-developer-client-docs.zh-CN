@@ -8,7 +8,7 @@ keywords:
 - 表达式求值 [excel 2007]，工作表 [Excel 2007]，名称评估，计算表达式 [Excel 2007，] 评估工作表名称 [Excel 2007]，[Excel 2007]，表达式评估，名称 [Excel 2007，] 评估，命名为评估 [Excel 2007]将转换为值、 xlfEvaluate 函数 [Excel 2007]、 工作表 [Excel 2007]、 表达式求值的字符串 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 9d726d89c859e2f7428b459971d5d13586f144e9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773665"
 ---
 # <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>评估名称和其他工作表的公式表达式
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Excel 公开通过 C API 的最重要功能之一是能够将转换任何字符串公式合法可输入工作表插入到一个值或值的数组。 这是非常重要的 XLL 函数和必须读取内容的已定义名称，例如的命令。 此功能已公开[xlfEvaluate 函数](xlfevaluate.md)中，通过此例中所示。
   
@@ -87,7 +87,7 @@ int WINAPI evaluate_expression_example(void)
   
 ## <a name="see-also"></a>另请参阅
 
-- [Excel 工作表和表达式评估](excel-worksheet-and-expression-evaluation.md)
-- [允许用户在冗长操作中中断](permitting-user-breaks-in-lengthy-operations.md)
-- [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
+- [Excel 工作表和表达式计算](excel-worksheet-and-expression-evaluation.md)
+- [在长时间的操作中允许用户中断](permitting-user-breaks-in-lengthy-operations.md)
+- [Excel XLL SDK 入门](getting-started-with-the-excel-xll-sdk.md)
 

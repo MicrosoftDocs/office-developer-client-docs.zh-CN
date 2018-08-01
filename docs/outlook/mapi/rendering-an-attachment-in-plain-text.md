@@ -1,5 +1,5 @@
 ---
-title: 呈现纯文本中的附件
+title: 以纯文本呈现附件
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778627"
 ---
-# <a name="rendering-an-attachment-in-plain-text"></a>呈现纯文本中的附件
+# <a name="rendering-an-attachment-in-plain-text"></a>以纯文本呈现附件
 
   
   

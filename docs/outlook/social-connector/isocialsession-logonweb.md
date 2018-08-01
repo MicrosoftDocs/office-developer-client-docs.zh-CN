@@ -33,7 +33,7 @@ _connectOut_
   
 > [输出]一个字符串，包含登录凭据。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Outlook Social Connector (OSC) 提供程序指示它支持基于表单的身份验证时，才调用**LogonWeb**方法。 提供程序指示它通过设置为**true** **功能**的 XML **useLogonWebAuth**需要基于表单的身份验证。 如果提供程序将**useLogonWebAuth**设置为**false**，则 OSC 使用基本身份验证，并调用[ISocialSession::Logon](isocialsession-logon.md)方法。 
   
@@ -55,10 +55,10 @@ Outlook Social Connector (OSC) 提供程序指示它支持基于表单的身份�
     
 如果 OSC 提供程序支持使用缓存的凭据登录，它指定**useLogonCached**为**true**的**功能**XML 中。 提供程序应该将提供程序希望 OSC 跨连接存储在_connectOut_字符串中的任何登录凭据。 OSC 不解释_connectOut_字符串。 OSC 验证该**useLogonCached**为**true**后，OSC 将其存储在 Windows 注册表之前对加密的安全的字符串。 OSC 将_connectIn_参数传递到此字符串上调用[ISocialSession2::LogonCached](isocialsession2-logoncached.md)登录到社交网络上的后续尝试。 
   
-有关错误代码的信息，请参阅[Outlook Social Connector 提供程序错误代码](outlook-social-connector-provider-error-codes.md)。
+有关错误代码信息，请参阅 [Outlook Social Connector 提供程序错误代码](outlook-social-connector-provider-error-codes.md)。
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 - [基于表单的身份验证](forms-based-authentication.md)
 

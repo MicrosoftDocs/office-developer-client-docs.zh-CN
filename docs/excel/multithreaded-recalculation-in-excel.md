@@ -8,7 +8,7 @@ keywords:
 - 线程安全 [excel 2007] 的单元格，Excel，并发任务 [Excel 2007]，[Excel 2007] 的线程安全功能，多线程重新计算 [Excel 2007，] MTR [Excel 2007]，XLL 函数 [Excel 2007]，注册为线程安全的重新计算 [多线程Excel 2007 中]，多线程，内存争用 [Excel 2007]，注册 XLL 函数，如线程安全 [Excel 2007]，不安全的功能 [Excel 2007]
 localization_priority: Normal
 ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 010a1029e0bf5ba1a36b324ebd402f6e90603fb9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773802"
 ---
 # <a name="multithreaded-recalculation-in-excel"></a>在 Excel 中的多线程重新计算
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Office Excel 2007 是 Excel 使用多线程重新计算 (MTR) 的工作表的第一版。 您可以配置 Excel 时要使用最多为 1024年并发线程重新计算，无论在计算机上的处理器内核处理器的数量。 
   
@@ -225,7 +225,7 @@ Excel Services Udf 创建使用 Microsoft.NET Framework 托管代码和可用但
 ## <a name="see-also"></a>另请参阅
 
 - [Excel 重新计算](excel-recalculation.md)  
-- [在 Excel 中进行内存管理](memory-management-in-excel.md) 
+- [Excel 中的内存管理](memory-management-in-excel.md) 
 - [在 Excel 中访问 XLL 代码](accessing-xll-code-in-excel.md)  
 - [Excel Programming Concepts](excel-programming-concepts.md)  
 - [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)

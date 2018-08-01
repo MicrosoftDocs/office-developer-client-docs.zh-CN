@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 73475c5ee4e715796e06642756c05746b271d128
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -52,7 +52,7 @@ typedef struct _SMAPIFormProp
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **ulFlags**
   
@@ -102,7 +102,7 @@ FPST_ENUM_PROP
   
 > 指向数组**SMAPIFormPropEnumVal**结构，其中每个保留的命名属性的值。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SMAPIFormProp**结构包含有关用作[IMAPIFormInfo](imapiforminfoimapiprop.md)接口; 的定义的一部分的窗体属性的信息**nSpecialType**包含适用于**u**联合**SMAPIFormProp**的一部分的标记。
   

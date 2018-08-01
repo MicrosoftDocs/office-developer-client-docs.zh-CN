@@ -54,5 +54,5 @@ S_OK
 
 
 
-[IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md)
+[IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md)
 

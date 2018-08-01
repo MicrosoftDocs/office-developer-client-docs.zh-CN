@@ -19,9 +19,9 @@ ms.locfileid: "19773603"
 保存当前记录。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SaveRecord**操作等效于使用操作栏中的**保存**按钮保存当前记录。 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4e6495d5521e0f277ac4d501a987de0142d0960d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778185"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_REMOTE_PROGRESS  <br/> |
-|标识符:  <br/> |0x3E0B  <br/> |
+|相关属性：  <br/> |PR_REMOTE_PROGRESS  <br/> |
+|标识符：  <br/> |0x3E0B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果没有传输正在进行，则此属性应设置为 1。 如果正在传输，它应从 0 到 100 指示转接的完成百分比设置为值。
   
@@ -70,7 +70,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

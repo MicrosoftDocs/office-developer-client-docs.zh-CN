@@ -1,5 +1,5 @@
 ---
-title: 测试以下和停止关注人员
+title: 测试关注和停止关注人员
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779324"
 ---
-# <a name="testing-following-and-stop-following-persons"></a>测试以下和停止关注人员
+# <a name="testing-following-and-stop-following-persons"></a>测试关注和停止关注人员
 
 本主题介绍方案来测试按照朋友，并停止关注朋友社交网络上的 Outlook Social Connector (OSC) 提供程序的功能。
   

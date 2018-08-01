@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ee2bc6ca-3769-4b56-a77d-81418d28f768
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3fd5a8d92621dcefce66fb42e843f78755fa84df
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777576"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_DISPLAY_TYPE  <br/> |
-|标识符:  <br/> |0x3900  <br/> |
+|相关属性：  <br/> |PR_DISPLAY_TYPE  <br/> |
+|标识符：  <br/> |0x3900  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 通讯簿  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性包含长整型，从而便于在其类型基于的表项的特殊处理。 显示的图标或其他 display 元素的显示类型相关联的通常包含此特殊处理。 
   
@@ -146,7 +146,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

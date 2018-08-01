@@ -1,5 +1,5 @@
 ---
-title: YEAR 函数 (VisioShapeSheet)
+title: YEAR Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781715"
 ---
-# <a name="year-function-visioshapesheet"></a>YEAR 函数 (VisioShapeSheet)
+# <a name="year-function-visioshapesheet"></a>YEAR Function (VisioShapeSheet)
 
 返回一个整数，表示公历年_datetime_或_expression_，根据系统当前区域和语言设置由设置的短日期样式设置格式。
   
@@ -29,14 +29,14 @@ ms.locfileid: "19781715"
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |必需  <br/> |**字符串** <br/> | 任何通常被识别为日期和时间的字符串或对包含日期和时间的单元格的引用。  <br/> |
-| _expression_ <br/> |必需  <br/> |**而异** <br/> |任何生成日期和时间的表达式。  <br/> |
-| _lcid_ <br/> |可选  <br/> |**数字** <br/> |用于计算非本地日期时间的区域设置标识符。区域设置标识符是系统头文件中描述的一个数字。  <br/> |
+| _expression_ <br/> |必需  <br/> |**因情况而异** <br/> |任何生成日期和时间的表达式。  <br/> |
+| _lcid_ <br/> |可选  <br/> |**Numeric** <br/> |用于计算非本地日期时间的区域设置标识符。区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 Integer
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _Datetime_或_expression_中的时间组件已被丢弃。 
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7f241fde8aedeae9debc66f728ee21c1c6bed6fb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.locfileid: "19776286"
   
 此外在这些主题中，您将了解讨论昵称缓存，存储在二进制流。
   
-- [昵称缓存](nickname-cache.md)
+- [别名缓存](nickname-cache.md)
     
-- [记忆式键入流](autocomplete-stream.md)
+- [自动完成流](autocomplete-stream.md)
     
 - [分析的二进制文件](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     

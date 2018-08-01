@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2af9d529cb92e1040427eba69270908dcf4a5d9f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _dir_entryid
 #pragma pack()
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **abFlags**
   
@@ -68,7 +68,7 @@ typedef struct _dir_entryid
   
 > 标识登录对象的 GUID。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 结构**DIR_ENTRYID**和[CONTAB_ENTRYID](contab_entryid.md)完全相同，除了**ulType**成员。 **UlType**成员的内容确定适合剩余字段的结构。 
   

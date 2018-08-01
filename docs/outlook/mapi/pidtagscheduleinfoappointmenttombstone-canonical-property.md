@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 37a6d101f6ee9c04236253e143aff3a51a9208d3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778329"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SCHDINFO_APPT_TOMBSTONE  <br/> |
-|标识符:  <br/> |0x686A  <br/> |
+|相关属性：  <br/> |PR_SCHDINFO_APPT_TOMBSTONE  <br/> |
+|标识符：  <br/> |0x686A  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 数据块开始使用定义为 32 位值的标头：
   
@@ -51,7 +51,7 @@ ms.locfileid: "19778329"
 |**值**|**说明**|
 |:-----|:-----|
 |StartTime  <br/> |以分钟为单位，自午夜，1601 年 1 月 1 日，UTC 会议对象的开始时间。  <br/> |
-|结束时间  <br/> |以分钟为单位，自午夜，1601 年 1 月 1 日，UTC 会议对象的结束时间。  <br/> |
+|EndTime  <br/> |以分钟为单位，自午夜，1601 年 1 月 1 日，UTC 会议对象的结束时间。  <br/> |
 |GlobalObjectIdSize  <br/> |以字节为单位 GlobalObjectId 字段的大小。  <br/> |
 |GlobalObjectId  <br/> |这记录会议的**LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) 属性的值表示。  <br/> |
 |UserName  <br/> |前两个字节是遵循 PT_STRING8 字符串的长度。  <br/> |
@@ -86,7 +86,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

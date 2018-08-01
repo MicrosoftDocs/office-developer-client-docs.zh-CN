@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0a83e0aa8f7ab1eb1f30e3ba97d3ea36f16fd873
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777827"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_MAPPING_SIGNATURE  <br/> |
-|标识符:  <br/> |0x0FF8  <br/> |
+|相关属性：  <br/> |PR_MAPPING_SIGNATURE  <br/> |
+|标识符：  <br/> |0x0FF8  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 建议具有命名属性的对象公开此属性。 客户端应用程序应该检查这两个对象的**PR_MAPPING_SIGNATURE**属性时复制命名到另一个对象的属性。 使用此属性可以减少翻译之间复制的属性的名称和标识符。 
   
@@ -77,7 +77,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

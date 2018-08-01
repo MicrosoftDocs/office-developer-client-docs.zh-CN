@@ -26,9 +26,9 @@ ms.locfileid: "19773888"
 ## <a name="see-also"></a>另请参阅
 
 - [InfoPath 开发人员中心](http://msdn.microsoft.com/en-us/office/aa905434.aspx)  
-- [Microsoft Office 开发人员中心](http://msdn.microsoft.com/en-us/office/default.aspx)
+- [Microsoft Office 开发中心](http://msdn.microsoft.com/en-us/office/default.aspx)
 - [Office 开发人员文档中的文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
 - [Microsoft 辅助功能](http://www.microsoft.com/ENABLE/)
-- [Microsoft 联机隐私声明](http://privacy.microsoft.com/en-us/default.mspx)
+- [Microsoft Online 隐私声明](http://privacy.microsoft.com/en-us/default.mspx)
   
 

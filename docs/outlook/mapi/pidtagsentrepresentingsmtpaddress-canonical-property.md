@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ed122a2-0967-4de3-a2ee-69f81ae77b16
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d3a3545c544c7b5cf5200468a94edf720dd326e1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -25,12 +25,12 @@ ms.locfileid: "19778398"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SENT_REPRESENTING_SMTP_ADDRESS，PR_SENT_REPRESENTING_SMTP_ADDRESS_A，PR_SENT_REPRESENTING_SMTP_ADDRESS_W  <br/> |
-|标识符:  <br/> |0x5D02  <br/> |
+|相关属性：  <br/> |PR_SENT_REPRESENTING_SMTP_ADDRESS，PR_SENT_REPRESENTING_SMTP_ADDRESS_A，PR_SENT_REPRESENTING_SMTP_ADDRESS_W  <br/> |
+|标识符：  <br/> |0x5D02  <br/> |
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性是正在表示发件人的邮件用户的地址属性的示例。 当客户端应用程序发送消息代表另一个客户端时，它应为该客户端的值设置所有表示发件人属性。 通常在其自己的代表发送消息用户离开表示发件人属性未设置。
   
@@ -90,7 +90,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

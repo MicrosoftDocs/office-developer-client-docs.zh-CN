@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 64f80a03-9ba4-495a-9666-b3a909335cb6
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5456e0abffd1ac25983809d32fde88644eaa01cb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778291"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RULE_PROVIDER，PR_RULE_PROVIDER_A，PR_RULE_PROVIDER_W  <br/> |
-|标识符:  <br/> |0x6681  <br/> |
+|相关属性：  <br/> |PR_RULE_PROVIDER，PR_RULE_PROVIDER_A，PR_RULE_PROVIDER_W  <br/> |
+|标识符：  <br/> |0x6681  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 延迟操作需要这些属性来标识的代码必须解释和执行规则操作。
   
@@ -70,7 +70,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -30,7 +30,7 @@ HRESULT Placeholder2(void *);
 
 始终 E_NOTIMPL，因为此成员是**IFreeBusyData**中的占位符，并且不受支持。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此成员必须返回 E_NOTIMPL。
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 59911531b6d8f9c094ef8563510aaa176e3a63b8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SShortArray
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -50,7 +50,7 @@ typedef struct _SShortArray
   
 > 为无符号的整数值的数组的指针。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 有关 PT_MV_SHORT 和其他属性类型的详细信息，请参阅[属性类型](property-types.md)。 
   

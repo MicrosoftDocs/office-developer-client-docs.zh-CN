@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3d0c337bd3e5a73bbbcbb72a109320cfb84efd50
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -102,9 +102,9 @@ ms.locfileid: "19778575"
     
 ## <a name="see-also"></a>另请参阅
 
-- [Outlook 项和计算字段](outlook-items-and-fields.md)
+- [Outlook 项和字段](outlook-items-and-fields.md)
 - [流结构](stream-structures.md)
-- [属性定义流结构](propertydefinition-stream-structure.md)
+- [PropertyDefinition 流结构](propertydefinition-stream-structure.md)
 - [FieldDefinition 流结构](fielddefinition-stream-structure.md)
 - [SkipBlock 流结构](skipblock-stream-structure.md)
 - [FirstSkipBlockContent 流结构](firstskipblockcontent-stream-structure.md)

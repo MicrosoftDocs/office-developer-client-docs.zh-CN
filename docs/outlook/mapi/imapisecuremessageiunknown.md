@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7f08528c067f48267ec70016839fd85c6823f657
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775681"
 ---
-# <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage: IUnknown
+# <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
   
   
@@ -30,7 +30,7 @@ ms.locfileid: "19775681"
 |||
 |:-----|:-----|
 |头文件：  <br/> |Exchsec.h  <br/> |
-|由公开：  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
+|由公开：  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
 |通过实现：  <br/> |Microsoft Outlook 2010 和 Microsoft Outlook 2013  <br/> |
 |调用：  <br/> |客户端  <br/> |
 |接口标识符：  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
@@ -53,5 +53,5 @@ ms.locfileid: "19775681"
 
 
 
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 

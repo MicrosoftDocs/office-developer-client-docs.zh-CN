@@ -1,5 +1,5 @@
 ---
-title: 管理配置文件和消息服务
+title: 管理配置文件和邮件服务
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774516"
 ---
-# <a name="administering-profiles-and-message-services"></a>管理配置文件和消息服务
+# <a name="administering-profiles-and-message-services"></a>管理配置文件和邮件服务
 
   
   
@@ -37,11 +37,11 @@ ms.locfileid: "19774516"
   
 ## <a name="in-this-section"></a>本节内容
 
-[创建一个配置文件](creating-a-profile.md)
+[创建配置文件](creating-a-profile.md)
   
 > 介绍如何创建一个配置文件。
     
-[复制一个配置文件](copying-a-profile.md)
+[复制配置文件](copying-a-profile.md)
   
 > 介绍如何将配置文件复制。
     
@@ -57,7 +57,7 @@ ms.locfileid: "19774516"
   
 > 介绍如何查找配置文件的名称。
     
-[添加的消息服务](adding-a-message-service.md)
+[添加邮件服务](adding-a-message-service.md)
   
 > 介绍如何添加邮件服务。
     
@@ -69,11 +69,11 @@ ms.locfileid: "19774516"
   
 > 介绍如何向一个配置文件复制的消息服务。
     
-[删除消息服务](deleting-a-message-service.md)
+[删除邮件服务](deleting-a-message-service.md)
   
 > 介绍如何删除消息服务。
     
-[添加或删除的消息服务提供程序](adding-or-deleting-providers-in-a-message-service.md)
+[在邮件服务中添加或删除提供程序](adding-or-deleting-providers-in-a-message-service.md)
   
 > 介绍如何添加或删除的消息服务提供程序。
     

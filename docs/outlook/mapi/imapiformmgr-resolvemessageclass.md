@@ -68,7 +68,7 @@ MAPI_E_NOT_FOUND
   
 > _SzMsgClass_参数中传递的邮件类不匹配的邮件类的窗体库中的任何表单。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单查看器调用**IMAPIFormMgr::ResolveMessageClass**方法解析为其表单窗体容器内的邮件类。 返回_ppResult_参数中的窗体信息对象提供了进一步访问具有给定的邮件类的窗体的属性。 
   
@@ -86,11 +86,11 @@ MAPI_E_NOT_FOUND
 
 
 
-[IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md)
+[IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
   
 [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)
   
 [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

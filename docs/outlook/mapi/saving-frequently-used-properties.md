@@ -1,5 +1,5 @@
 ---
-title: 保存通常用于属性
+title: 保存常用属性
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778662"
 ---
-# <a name="saving-frequently-used-properties"></a>保存通常用于属性
+# <a name="saving-frequently-used-properties"></a>保存常用属性
 
   
   

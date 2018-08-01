@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 22562e1177c9a649bc66b25b5e8e9e6ecc8e397c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -96,7 +96,7 @@ S_OK
   
 > 邮件内容已成功预处理。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 传输提供程序消息预处理器消息预处理期间可以演示的进度指示器。 但是，它应永远不会显示一个对话框，需要用户交互期间消息预处理。 
   
@@ -112,9 +112,9 @@ MAPI 后台处理程序负责提交邮件的任务。 这意味着原始邮件�
 
 
 
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

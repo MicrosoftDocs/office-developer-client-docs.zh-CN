@@ -49,7 +49,7 @@ MAPI_W_CANCEL_MESSAGE
   
 > 指示要停止邮件传递到尚未收到任何收件人的传输提供程序。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于传输提供程序支持对象实现**IMAPISupport::SpoolerYield**方法。 传输提供程序调用**SpoolerYield**以允许 MAPI 后台处理程序完成任何所需的处理。 
   
@@ -65,5 +65,5 @@ MAPI_W_CANCEL_MESSAGE
 
 
 
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

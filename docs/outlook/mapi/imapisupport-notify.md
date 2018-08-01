@@ -68,7 +68,7 @@ S_OK
   
 > 已成功生成通知。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPISupport::Notify**方法将执行所有服务提供商支持对象。 服务提供商调用**Notify**请求 MAPI 生成**IMAPISupport::Subscribe**方法通过以前通知注册通知接收器的通知。 
   
@@ -93,8 +93,8 @@ _LpKey_参数中传递的通知密钥应为到项中_lpKey_传递给**IMAPISuppo
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
 - [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  
 - [NOTIFCALLBACK](notifcallback.md) 
-- [通知](notification.md)  
+- [NOTIFICATION](notification.md)  
 - [NOTIFKEY](notifkey.md)  
 - [PidTagRecordKey 规范属性](pidtagrecordkey-canonical-property.md)  
-- [IMAPISupport: IUnknown](imapisupportiunknown.md)
+- [IMAPISupport : IUnknown](imapisupportiunknown.md)
 

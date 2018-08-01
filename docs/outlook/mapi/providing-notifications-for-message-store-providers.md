@@ -1,5 +1,5 @@
 ---
-title: 提供通知消息存储提供程序
+title: 提供邮件存储区提供程序的通知
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778579"
 ---
-# <a name="providing-notifications-for-message-store-providers"></a>提供通知消息存储提供程序
+# <a name="providing-notifications-for-message-store-providers"></a>提供邮件存储区提供程序的通知
 
   
   
@@ -31,5 +31,5 @@ ms.locfileid: "19778579"
 
 
 
-[消息存储功能](message-store-features.md)
+[邮件存储区功能](message-store-features.md)
 

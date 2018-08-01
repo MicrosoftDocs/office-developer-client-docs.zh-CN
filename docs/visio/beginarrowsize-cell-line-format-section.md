@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779665"
 ---
-# <a name="beginarrowsize-cell-line-format-section"></a>BeginArrowSize 单元格（“Line Format”内容）
+# <a name="beginarrowsize-cell-line-format-section"></a>BeginArrowSize 单元格（“Line Format”部分）
 
 确定线条起始处的箭头大小。
   
-|**值**|**Size**|**自动化常量**|
+|**值**|**Size**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 非常小  <br/> |**visArrowSizeVerySmall** <br/> |
 | 1  <br/> | 小  <br/> |**visArrowSizeSmall** <br/> |
@@ -30,17 +30,17 @@ ms.locfileid: "19779665"
 | 5  <br/> | 极大  <br/> |**visArrowSizeJumbo** <br/> |
 | 6  <br/> | 超大  <br/> |**visArrowSizeColossal** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-您还可以在**线条**对话框中设置箭头的大小。 
+您还可以在 **“线条”** 对话框中设置箭头的大小。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 BeginArrowSize 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 BeginArrowSize 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | BeginArrowSize  <br/> |
    
-若要从某个程序按索引获取对 BeginArrowSize 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 BeginArrowSize 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

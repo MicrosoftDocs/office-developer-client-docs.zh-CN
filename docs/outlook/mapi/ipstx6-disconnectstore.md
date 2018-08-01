@@ -43,7 +43,7 @@ HRESULT DisconnectStore(
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
 [MAPI 常量](mapi-constants.md)
 

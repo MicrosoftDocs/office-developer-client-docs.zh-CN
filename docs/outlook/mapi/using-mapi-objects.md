@@ -23,7 +23,7 @@ ms.locfileid: "19779079"
   
 时对象的用户想要对方法的调用，该对象通过继承相关的几个接口实现，用户不需要知道所属的方法的接口。 用户可以调用任何方法对任何具有指向对象的单个接口。 例如下, 图显示了客户端应用程序如何使用 folder 对象。 文件夹对象实现[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)接口，从[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx)间接到继承[IMAPIProp: IUnknown](imapipropiunknown.md)和[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)。 客户端可以调用**IMAPIProp**方法，如[IMAPIProp::GetProps](imapiprop-getprops.md)，之一和之一[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)方法，例如[IMAPIFolder::CreateMessage](imapifolder-createmessage.md)，具有相同的对象指针相同的方式。 客户端不识别或受影响的这一事实这些呼叫属于不同的接口。
   
-**客户端使用的一个 folder 对象**
+**客户端对文件夹对象的使用**
   
 ![客户端使用的一个 folder 对象](media/amapi_40.gif "客户端使用的一个 folder 对象")
   

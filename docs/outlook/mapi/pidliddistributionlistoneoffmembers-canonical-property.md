@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ae6202a1fdf7ec43bf2269236aa8120aa67e3c50
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776749"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidDLOneOffMembers  <br/> |
+|相关属性：  <br/> |dispidDLOneOffMembers  <br/> |
 |属性进行设置：  <br/> |PSETID_Address  <br/> |
 |长 ID （盖）：  <br/> |0x00008054  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些一次性 Entryid 封装的显示名称和个人通讯组列表成员的电子邮件地址。
   
@@ -69,7 +69,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

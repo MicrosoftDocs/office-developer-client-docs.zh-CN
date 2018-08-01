@@ -10,7 +10,7 @@ keywords:
 - excel 函数 [excel 2007，] Excel12f 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 56034984852713496465c3d1f79a9989fc47df1c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773678"
 ---
 # <a name="excelexcel12f"></a>Excel/Excel12f
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Framework 库函数。 **Excel**是[Excel4](excel4-excel12.md)函数的包装。 **Excel12f**是[Excel12](excel4-excel12.md)函数的包装。 每个检查所有参数为零，这将指示创建临时**XLOPER**或**XLOPER12**失败。 如果出现错误，每打印调试消息。 完成后，每个释放可能已创建的临时**XLOPER**s 和**XLOPER12**s 的所有临时内存。
   
@@ -76,5 +76,5 @@ short WINAPI Excel12fExample(void)
 [Excel4/Excel12](excel4-excel12.md)
 
 
-[Framework 库中的函数](functions-in-the-framework-library.md)
+[框架库中的函数](functions-in-the-framework-library.md)
 

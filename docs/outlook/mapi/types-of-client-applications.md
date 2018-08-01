@@ -1,5 +1,5 @@
 ---
-title: 客户端应用程序的类型
+title: 客户端应用程序类型
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779009"
 ---
-# <a name="types-of-client-applications"></a>客户端应用程序的类型
+# <a name="types-of-client-applications"></a>客户端应用程序类型
 
   
   

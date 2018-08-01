@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6301cd86a81dfbf38666b6fb3ea326bc1f801490
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778348"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SCHDINFO_MONTHS_OOF  <br/> |
-|标识符:  <br/> |0x6855  <br/> |
+|相关属性：  <br/> |PR_SCHDINFO_MONTHS_OOF  <br/> |
+|标识符：  <br/> |0x6855  <br/> |
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 格式、 computation 和此属性的约束的那些**PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) 相同，但引用标记外出 (OOF) 关联的约会calendar 对象。
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

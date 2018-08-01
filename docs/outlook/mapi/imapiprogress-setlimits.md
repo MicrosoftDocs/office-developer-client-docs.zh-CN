@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 14abfaadcdb1710a7cb8275c8f82d502aea8300e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -59,7 +59,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 服务提供商调用**IMAPIProgress::SetLimits**方法来设置或清除 MAPI_TOP_LEVEL 标志并设置本地和全局最小和最大值。 是否正在进行对象了解最小和最大值为本地域或全局设置会影响标志的值。 当设置 MAPI_TOP_LEVEL 标志时，这些值将被视为全局并用于计算整个操作的进度。 进度对象初始化为 1 的全局最小值和全局最大值为 1000年。 
   
@@ -87,10 +87,10 @@ MFCMAPI 示例代码，请参阅下表。
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
 [显示进度指示器](how-to-display-a-progress-indicator.md)
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9d40c21cde6bf3a6e8e37dda80dd6f900f233a0e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777459"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_CONTAINER_CLASS，PR_CONTAINER_CLASS_A，PR_CONTAINER_CLASS_W  <br/> |
-|标识符:  <br/> |0x3613  <br/> |
+|相关属性：  <br/> |PR_CONTAINER_CLASS，PR_CONTAINER_CLASS_A，PR_CONTAINER_CLASS_W  <br/> |
+|标识符：  <br/> |0x3613  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |Container  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些属性通常不使用 Exchange Server。 但是，Microsoft Office Outlook® 将它们附加到邮箱文件夹。 此外，版本的 Exchange Server 2003 邮箱管理器之前的 Exchange Server 可能会错误地处理不具有这些属性的文件夹。
   
@@ -89,7 +89,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

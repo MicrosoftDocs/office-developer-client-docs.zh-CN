@@ -1,5 +1,5 @@
 ---
-title: 有关 Microsoft Office InfoPath 主互操作程序集
+title: 关于 Microsoft Office InfoPath 主互操作程序集
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773881"
 ---
-# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>有关 Microsoft Office InfoPath 主互操作程序集
+# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>关于 Microsoft Office InfoPath 主互操作程序集
 
 作为公开作为 COM 接口的外部自动化其可编程性接口的组件对象模型 (COM) 应用程序生成 InfoPath 应用程序。 若要支持使用托管代码如 Visual C# 和 Visual Basic 的语言的 InfoPath 解决方案的创建，InfoPath 安装程序中的 **.NET 可编程性支持**选项，请安装三个互操作程序集。 互操作程序集是充当托管代码与非托管代码之间桥梁的 .NET 程序集，它将 COM 对象成员映射到等同的 .NET 托管成员。 
   

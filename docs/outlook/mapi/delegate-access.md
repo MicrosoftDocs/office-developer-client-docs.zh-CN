@@ -1,5 +1,5 @@
 ---
-title: 委派访问
+title: 代理访问
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774772"
 ---
-# <a name="delegate-access"></a>委派访问
+# <a name="delegate-access"></a>代理访问
 
   
   

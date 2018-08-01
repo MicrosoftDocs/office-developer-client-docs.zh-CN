@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 68c621f5f73073ed127767cc1db189769dab227d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -58,7 +58,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 **ulCtlType**
   
@@ -168,7 +168,7 @@ DT_SET_IMMEDIATE
   
 > 一个包含控件的数据，并且与控件的**PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) 属性相对应的结构。 每种类型的控件具有不同的结构。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **DTCTL**结构描述任何类型的一个控件。 大部分及其成员用于为控件设置属性。 
   

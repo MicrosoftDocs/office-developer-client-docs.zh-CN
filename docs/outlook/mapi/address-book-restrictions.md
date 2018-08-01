@@ -1,5 +1,5 @@
 ---
-title: 地址簿限制
+title: 通讯簿限制
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774517"
 ---
-# <a name="address-book-restrictions"></a>地址簿限制
+# <a name="address-book-restrictions"></a>通讯簿限制
 
   
   

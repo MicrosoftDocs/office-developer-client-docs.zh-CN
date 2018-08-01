@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 24a033269b072712fea6e9957d0ffac3573ce3a1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -25,12 +25,12 @@ Long 值，该值指示垃圾邮件筛选的级别。
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SPAM_THRESHOLD  <br/> |
+|相关属性：  <br/> |PR_SPAM_THRESHOLD  <br/> |
 |长 ID （盖）：  <br/> | 0x041B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="values"></a>值
+## <a name="values"></a>Values
 
 垃圾邮件筛选的值如下所示：
   
@@ -71,7 +71,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2eb1f0a517b430f2c96161e94faa22ec4d67ac41
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "19777194"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |统一消息  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 若要启用最终用户可以读取和编辑直接在语音邮件上的音频笔记，客户端提供用户可以在其中键入注释添加到语音邮件对象的此属性的一组编辑框。
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

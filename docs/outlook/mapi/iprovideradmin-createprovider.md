@@ -76,7 +76,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IProviderAdmin::CreateProvider**方法向邮件服务的服务提供商。 _LpszProvider_参数必须指向属于邮件服务提供程序的名称。 **CreateProvider**不验证该名称是否与服务; 中提供的名称匹配如果传递的名称不匹配的服务名称，调用成功，但结果将无法预料。 大多数消息服务不允许提供程序添加或删除配置文件时使用。 
   
@@ -87,5 +87,5 @@ MAPI_E_USER_CANCEL
 - [MAPIUID](mapiuid.md)  
 - [MSGSERVICEENTRY](msgserviceentry.md)  
 - [SPropValue](spropvalue.md)  
-- [IProviderAdmin: IUnknown](iprovideradminiunknown.md)
+- [IProviderAdmin : IUnknown](iprovideradminiunknown.md)
 

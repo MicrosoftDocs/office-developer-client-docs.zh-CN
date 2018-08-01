@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e8ca8d7a82360c1f96448b08c9eda18be502b9f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19777127"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidTaskStatus  <br/> |
+|相关属性：  <br/> |dispidTaskStatus  <br/> |
 |属性进行设置：  <br/> |PSETID_Task  <br/> |
 |长 ID （盖）：  <br/> |0x00008101  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |任务  <br/> |
+|区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性的值必须设置为下列选项之一。
   
@@ -100,7 +100,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

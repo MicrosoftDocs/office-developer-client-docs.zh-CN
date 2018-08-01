@@ -64,7 +64,7 @@ ms.locfileid: "19781624"
 |[规则集](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> ||
 |[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

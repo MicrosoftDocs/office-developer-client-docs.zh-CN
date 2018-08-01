@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 31dcef0c096847a78569c46313c9ede4222d8e36
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778347"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SEARCH  <br/> |
-|标识符:  <br/> |0x3607  <br/> |
+|相关属性：  <br/> |PR_SEARCH  <br/> |
+|标识符：  <br/> |0x3607  <br/> |
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |通讯簿容器  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 不支持高级的搜索功能的容器没有提供该属性。
   
@@ -54,14 +54,14 @@ Mapitags.h
 
 
 
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
 [MAPI 属性](mapi-properties.md)
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

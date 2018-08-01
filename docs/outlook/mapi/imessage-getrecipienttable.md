@@ -58,7 +58,7 @@ S_OK
   
 > 成功返回收件人的表。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMessage::GetRecipientTable**方法返回到邮件的收件人的表，其中包括所有邮件的收件人信息的指针。 没有用于每个收件人的一行。 
   
@@ -90,5 +90,5 @@ _UlFlags_参数中设置 MAPI_UNICODE 标志会影响以下呼叫到收件人表
   
 [IMessage::ModifyRecipients](imessage-modifyrecipients.md)
   
-[IMessage: IMAPIProp](imessageimapiprop.md)
+[IMessage : IMAPIProp](imessageimapiprop.md)
 

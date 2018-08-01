@@ -33,7 +33,7 @@ struct UPREAD
 };
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  _pupre_
   
@@ -47,9 +47,9 @@ struct UPREAD
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
-[有关的复制状态机](about-the-replication-state-machine.md)
+[关于复制状态计算机](about-the-replication-state-machine.md)
   
 [MAPI 常量](mapi-constants.md)
   

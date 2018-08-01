@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 750d8b8d50acb9cf7340e6553062412667398665
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -70,7 +70,7 @@ MAPI_E_NO_SUPPORT
   
 > 遇到了未知的属性类型。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端应用程序或服务提供商可以使用**PropCopyMore**函数复制超出将释放才能在其他地方使用它的表的属性。 
   

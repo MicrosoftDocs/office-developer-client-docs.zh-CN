@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70080200-a9ad-47c5-8cde-7310e1c4d324
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 13f36f1e86f9b24ae2a29881e103180ffee0484e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.locfileid: "19777156"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidWorkAddressCountryCode  <br/> |
+|相关属性：  <br/> |dispidWorkAddressCountryCode  <br/> |
 |属性进行设置：  <br/> |PSETID_Address  <br/> |
 |长 ID （盖）：  <br/> |0x000080DB  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

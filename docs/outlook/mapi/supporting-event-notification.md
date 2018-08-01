@@ -1,5 +1,5 @@
 ---
-title: 支持的事件通知
+title: 支持事件通知
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778889"
 ---
-# <a name="supporting-event-notification"></a>支持的事件通知
+# <a name="supporting-event-notification"></a>支持事件通知
 
   
   

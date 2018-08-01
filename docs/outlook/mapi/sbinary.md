@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fe07ed7c7f9c76f82b54732c019b9b5f8beb5db2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SBinary
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cb**
   
@@ -50,7 +50,7 @@ typedef struct _SBinary
   
 > 指向 PT_BINARY 属性值的指针。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 属性类型有关的信息，请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。
   

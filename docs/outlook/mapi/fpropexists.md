@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ccfb503f62ef039700f79cd8852883685f329dfe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -60,7 +60,7 @@ FALSE
   
 > 找不到给定的属性标记匹配。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果_ulPropTag_参数中的属性标记具有类型 PT_UNSPECIFIED， **FPropExists**函数查找匹配仅根据属性标识符。 否则，匹配是整个属性标记，包括类型。 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 694cc4e4626fb9070927232bb72252f716eb458e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777830"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_MEMBER_NAME，PR_MEMBER_NAME_A，PR_MEMBER_NAME_W  <br/> |
-|标识符:  <br/> |0x6672  <br/> |
+|相关属性：  <br/> |PR_MEMBER_NAME，PR_MEMBER_NAME_A，PR_MEMBER_NAME_W  <br/> |
+|标识符：  <br/> |0x6672  <br/> |
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 通过使用这些属性[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)界面来显示 ACL 表，即的人员或与显式权限的文件夹或邮箱角色的成员的名称。 
   
@@ -64,14 +64,14 @@ Mapitags.h
 
 
 
-[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)
+[IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
 
 
 [MAPI 属性](mapi-properties.md)
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

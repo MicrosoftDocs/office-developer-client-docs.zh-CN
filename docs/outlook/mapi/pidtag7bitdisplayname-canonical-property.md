@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4ae7645e45efb461ac53b6718569d909cec76504
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777273"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_7BIT_DISPLAY_NAME，PR_7BIT_DISPLAY_NAME_A，PR_7BIT_DISPLAY_NAME_W  <br/> |
-|标识符:  <br/> |0x39FF  <br/> |
+|相关属性：  <br/> |PR_7BIT_DISPLAY_NAME，PR_7BIT_DISPLAY_NAME_A，PR_7BIT_DISPLAY_NAME_W  <br/> |
+|标识符：  <br/> |0x39FF  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些属性映射到 7 位字符集**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 某些消息系统，如 Internet 和某些 X.400 链接被限制为 128 个字符 7 位 ASCII 代码集。 与此类邮件系统的网关可提高性能，通过调用[IAddrBook::PrepareRecips](iaddrbook-preparerecips.md)方法直接检索此属性，从而避免额外处理代码转换。 
   
@@ -84,7 +84,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

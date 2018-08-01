@@ -159,9 +159,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## <a name="see-also"></a>另请参阅
 
-- [有关示例包装 PST 存储提供程序](about-the-sample-wrapped-pst-store-provider.md) 
-- [安装示例自动换行 PST 存储提供程序](installing-the-sample-wrapped-pst-store-provider.md) 
-- [初始化换行的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)
-- [使用包装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)
-- [关机的情况下被环绕的 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)
+- [关于示例包装的 PST 存储区提供程序](about-the-sample-wrapped-pst-store-provider.md) 
+- [安装示例包装的 PST 存储区提供程序](installing-the-sample-wrapped-pst-store-provider.md) 
+- [初始化包装的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
+- [使用包装的 PST 存储区提供程序](using-a-wrapped-pst-store-provider.md)
+- [关闭包装的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
 

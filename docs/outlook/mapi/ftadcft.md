@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9be25dc655536ff5d32a635da57c54ebd12fea0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -54,7 +54,7 @@ FILETIME FtAdcFt(
 
 **FtAdcFt**函数将返回一个**FILETIME**结构，其中包含两个包含整数的总和。 两个输入的参数保持不变。 如果**pwCarry**为非 NULL，则它包含的执行结果 sum、 0 或 1。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **FtAdcFt**函数等同于**FtAddFt** _pwCarry_为 NULL 时。 如果_pwCarry_不为 NULL，并指向 0， **FtAdcFt**返回**FtAddFt**返回的同一个**FILETIME**值。 
   

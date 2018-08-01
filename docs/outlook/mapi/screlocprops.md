@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 06590fe55cb02b1abf036156877fd308548436f7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -75,7 +75,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 一个或两个参数无效，或遇到未知的属性类型。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **ScRelocProps**函数以为，属性值数组指针进行调整为其最初分配的类似于对**ScCopyProps**函数的调用一次调用的操作。 如果客户端应用程序或服务提供商使用的内存脱节块建立的属性值，它应使用[ScCopyProps](sccopyprops.md)改为复制属性。 
   

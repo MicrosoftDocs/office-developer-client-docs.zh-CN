@@ -1,5 +1,5 @@
 ---
-title: 操作系统环境问题
+title: 操作环境问题
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776561"
 ---
-# <a name="operating-environment-issues"></a>操作系统环境问题
+# <a name="operating-environment-issues"></a>操作环境问题
 
   
   

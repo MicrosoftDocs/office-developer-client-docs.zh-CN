@@ -1,5 +1,5 @@
 ---
-title: 命名约定的返回值
+title: 返回值命名约定
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778652"
 ---
-# <a name="return-value-naming-convention"></a>命名约定的返回值
+# <a name="return-value-naming-convention"></a>返回值命名约定
 
   
   

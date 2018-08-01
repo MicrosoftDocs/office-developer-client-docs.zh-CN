@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4d060d62deb685b4691846c2b8e48a82ae3195ea
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **lVerb**
   
@@ -69,7 +69,7 @@ MAPI_UNICODE
   
 > Unicode 格式的显示名称。 如果未设置 MAPI_UNICODE 标志的显示名称是 ANSI 格式。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SMAPIVerb**结构作为中的以下方法的参数传递： 
   

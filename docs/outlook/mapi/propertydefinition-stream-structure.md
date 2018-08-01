@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 289227ee171c2325cad0ed321dab4f635a0ca724
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -38,8 +38,8 @@ ms.locfileid: "19778582"
     
 ## <a name="see-also"></a>另请参阅
 
-- [Outlook 项和计算字段](outlook-items-and-fields.md)
-- [添加用户定义的新字段的定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
-- [属性定义流示例](propertydefinition-stream-sample.md)
+- [Outlook 项和字段](outlook-items-and-fields.md)
+- [为新的用户定义字段添加定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
+- [PropertyDefinition 流示例](propertydefinition-stream-sample.md)
 - [流结构](stream-structures.md)
 

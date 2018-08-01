@@ -105,7 +105,7 @@ S_OK
   
 > 通知注册成功。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPISupport::Subscribe**方法将执行所有服务提供商支持对象。 服务提供程序从其**Advise**方法之一来允许 MAPI 管理通知调用**订阅**。 
   
@@ -127,9 +127,9 @@ NOTIFY_SYNC 标志会影响后续调用**Notify**的操作。 NOTIFY_SYNC 设置
   
 [IMAPISupport::Notify](imapisupport-notify.md)
   
-[通知](notification.md)
+[NOTIFICATION](notification.md)
   
 [NOTIFKEY](notifkey.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

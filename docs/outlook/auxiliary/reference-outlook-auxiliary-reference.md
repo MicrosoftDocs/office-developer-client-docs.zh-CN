@@ -24,6 +24,6 @@ ms.locfileid: "19774456"
     
 - [忙/闲 API 参考](free-busy-api-reference.md)
     
-- [Outlook 导出 Api](outlook-exported-apis.md)
+- [Outlook 导出的 API](outlook-exported-apis.md)
     
 

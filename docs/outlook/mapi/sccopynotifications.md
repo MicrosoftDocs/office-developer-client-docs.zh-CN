@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 28a802ffc43b08d3e2ec2be26dd98fa78f474d91
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -70,7 +70,7 @@ E_INVALIDARG
   
 > 遇到无效的通知。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果_pcb_参数中传递 NULL，则会执行任何复制;如果在_pcb_传递一个非空值，则**ScCopyNotifications**函数将数组和阵列本身的大小复制到一个独立的内存块中。 如果_pcb_不为 NULL，则将它设置为_pvDst_参数中存储的字节数。 _PvDst_参数必须为足够大，使其包含整个数组。 
   

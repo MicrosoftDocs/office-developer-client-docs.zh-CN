@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d0bce7b3a12f259b7ac5f28219c8a92dd2200f07
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "19775082"
     
    下表介绍这些键：
     
-   |**注册表项**|**说明**|
+   |**键**|**说明**|
    |:-----|:-----|
    |MSIComponentID  <br/> |Windows Installer PublishComponent 类别 ID (GUID) 标识导出简单 MAPI 或 MAPI DLL 调用。 如果设置，此密钥优先于**DLLPath**或**DLLPathEx**键。  <br/> |
    |MSIApplicationLCID  <br/> |您的应用程序的区域设置标识符 (LCID)。 第一个字符串值标识子键从`HKLM\Software`和后面的字符串值标识该项下的注册表值，包含区域设置信息。  <br/> |

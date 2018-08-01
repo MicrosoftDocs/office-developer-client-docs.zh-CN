@@ -49,7 +49,7 @@ MAPI_E_BUSY
   
 > 阻止排序顺序检索操作启动的正在进行中是另一个操作。 应允许正在进行的操作完成或应停止。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPITable::QuerySortOrder**方法检索当前表格排序顺序。 [SSortOrderSet](ssortorderset.md)结构描述都排序次序。 
   
@@ -77,5 +77,5 @@ MAPI_E_BUSY
   
 [SSortOrderSet](ssortorderset.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 必需的所有邮件的属性
+title: 所有邮件的必需属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ebe4622ec9ed25be5ee8a736ed15e2f230ff05e3
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778639"
 ---
-# <a name="required-properties-for-all-messages"></a>必需的所有邮件的属性
+# <a name="required-properties-for-all-messages"></a>所有邮件的必需属性
 
   
   

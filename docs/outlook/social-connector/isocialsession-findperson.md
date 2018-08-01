@@ -33,11 +33,11 @@ _result_
   
 > [输出]一个 XML 字符串值，该值代表一个或多个人员匹配_userId_参数指定的标识信息。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果一个或多个人员匹配**FindPerson**请求，此方法将返回_结果_参数中的人员的信息。 Outlook Social Connector (OSC) 提供程序扩展性的架构中定义，_结果_XML 字符串必须符合**朋友**架构定义。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

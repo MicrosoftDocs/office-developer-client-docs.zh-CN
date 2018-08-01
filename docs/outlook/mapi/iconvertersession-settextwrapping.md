@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 81771a263a7496042d4950b465c0d5b03290399b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -63,7 +63,7 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[IConverterSession: IUnknown](iconvertersessioniunknown.md)
+[IConverterSession : IUnknown](iconvertersessioniunknown.md)
   
 [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)
   

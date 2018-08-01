@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0e39f2603a1eef45c456b7fb58744b79c6b75f16
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775253"
 ---
-# <a name="iaddrbook--imapiprop"></a>IAddrBook: IMAPIProp
+# <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
   
   
@@ -48,7 +48,7 @@ ms.locfileid: "19775253"
 |[CreateOneOff](iaddrbook-createoneoff.md) <br/> |创建一个一次性地址的项标识符。  <br/> |
 |[NewEntry](iaddrbook-newentry.md) <br/> |将一个新收件人添加到通讯簿容器或传出邮件的收件人列表。  <br/> |
 |[ResolveName](iaddrbook-resolvename.md) <br/> |执行名称解析，分配给收件人列表中的收件人的项标识符。  <br/> |
-|[Address](iaddrbook-address.md) <br/> |显示 Outlook 通讯簿对话框。  <br/> |
+|[地址](iaddrbook-address.md) <br/> |显示 Outlook 通讯簿对话框。  <br/> |
 |[详细信息](iaddrbook-details.md) <br/> |显示一个对话框，显示有关特定通讯簿条目的详细信息。  <br/> |
 |**RecipOptions** <br/> | *不受支持或记录。*  <br/> |
 |**QueryDefaultRecipOpt** <br/> | *不受支持或记录。*  <br/> |

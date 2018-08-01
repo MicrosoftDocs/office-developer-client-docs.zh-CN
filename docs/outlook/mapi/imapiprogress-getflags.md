@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8964ba8c4341bec431bdbc1690d639b345df8b1d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -49,7 +49,7 @@ S_OK
   
 > 已成功返回的标志值。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 启用服务提供商要区分顶级对象，并与 MAPI_TOP_LEVEL 标志的子对象，以便在操作中涉及的所有对象可以使用相同的[IMAPIProgress](imapiprogressiunknown.md)实现以显示进度。 这会导致标记显示的一个正数方向顺利。 是否设置 MAPI_TOP_LEVEL 标志确定服务提供程序如何设置对进度对象的后续呼叫中的其他参数。 
   
@@ -77,10 +77,10 @@ MFCMAPI 示例代码，请参阅下表。
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress: IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
 [显示进度指示器](how-to-display-a-progress-indicator.md)
   

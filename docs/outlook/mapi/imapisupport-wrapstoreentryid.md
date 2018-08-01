@@ -60,7 +60,7 @@ S_OK
   
 > 成功自动换行的项标识符。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPISupport::WrapStoreEntryID**方法将执行所有服务提供商支持对象。 服务提供商使用**WrapStoreEntryID**已生成的存储内部的项标识符的换行的消息存储的项标识符的 MAPI。 
   
@@ -86,5 +86,5 @@ S_OK
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

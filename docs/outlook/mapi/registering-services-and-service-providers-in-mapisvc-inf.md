@@ -1,5 +1,5 @@
 ---
-title: MapiSvc.inf 中注册服务和服务提供商
+title: 注册 MapiSvc.inf 中的服务和服务提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778605"
 ---
-# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>MapiSvc.inf 中注册服务和服务提供商
+# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>注册 MapiSvc.inf 中的服务和服务提供程序
 
  
   

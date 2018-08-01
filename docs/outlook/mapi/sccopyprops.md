@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 979415f1d792f92e593a7073cc84cfd6ba832b6c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -70,7 +70,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 遇到了未知的属性类型。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 新的数组和其数据驻留在创建一个分配，与缓冲区和[ScRelocProps](screlocprops.md)函数可用于调整中的单个[SPropValue](spropvalue.md)结构的指针。 在此调整之前, 指针是有效。 
   

@@ -1,5 +1,5 @@
 ---
-title: 表格定位
+title: 表定位
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778954"
 ---
-# <a name="table-positioning"></a>表格定位
+# <a name="table-positioning"></a>表定位
 
   
   

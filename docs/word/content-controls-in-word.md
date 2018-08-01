@@ -84,7 +84,7 @@ Word 2013 允许单个内容控件中三种可能的状态之一：
 > [!NOTE]
 > 如果不声明，否则本部分将讨论可视化的内容控件时不在**设计模式中**查看该文档。使用**内容控件属性**对话框中**显示为**下拉列表控件设置内容控件的显示的模式。 
   
-**图 1。内容控件属性对话框**
+**图 1. 内容控件属性对话框**
 
 ![内容控件属性对话框](media/DK2_WordCC_Fig01.jpg "内容控件属性对话框")
   
@@ -99,13 +99,13 @@ Word 2013 中的内容控件的默认呈现是按它们出现在 Word 2007 和 W
     
 - 鼠标悬停在内容控件上时，显示为阴影矩形
     
-**图 2。鼠标悬停在内容控件**
+**图 2. 鼠标悬停在内容控件上**
 
 ![通过内容鼠标上的控件](media/DK2_WordCC_Fig02.jpg "通过内容鼠标上的控件")
   
 - 在内容控件有焦点时（在用户选择此内容控件时），该控件显示为“边界框”（如果设置了标题，则围绕着内容和标题显示一行）
     
-**图 3。具有焦点的内容控件**
+**图 3. 具有焦点的内容控件**
 
 ![内容具有焦点的控件](media/DK2_WordCC_Fig03.jpg "内容具有焦点的控件")
   
@@ -114,7 +114,7 @@ Word 2013 中的内容控件的默认呈现是按它们出现在 Word 2007 和 W
 
 当内容控件设置为显示为**开始/结束标记**时，无论用户交互，显示标记，然后标题永远不会显示;但位于通过鼠标按钮，如**下拉列表**按钮。 
   
-**图 4。设置为开始/结束标记显示的内容控件**
+**图 4. 设置内容控件显示为开始/结束标记**
 
 ![内容控件设置为显示开始和结束标记](media/DK2_WordCC_Fig04.jpg "内容控件设置为显示开始和结束标记")
   
@@ -130,7 +130,7 @@ Word 2013 中的内容控件的默认呈现是按它们出现在 Word 2007 和 W
   
 您还可以通过使用 Word 2013 对象模型 （在下文中[新的 Word 2013 内容控件对象模型成员](#WordCC_NewOM)讨论） 设置内容控件的颜色。
   
-**图 5。内容控件属性对话框**
+**图 5. 内容控件属性对话框**
 
 ![内容控件属性对话框](media/DK2_WordCC_Fig05.jpg "内容控件属性对话框")
   
@@ -142,7 +142,7 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
 > [!NOTE]
 > 格式文本内容控件不能包含其他格式文本内容控件。如果一个格式文本内容控件位于另一个格式文本内容控件之中（例如，由于文件格式操作、复制和粘贴等），则它处于未链接的状态，直到它不再包含在一个映射的格式文本控件之中。 
   
-有关如何设置 XML 映射的详细信息，请参阅本主题后面部分[Word 2013 的新内容控件对象模型成员](#WordCC_NewOM)。 
+有关如何设置 XML 映射的详细信息，请参阅本主题后面的[新的 Word 2013 内容控件对象模型成员](#WordCC_NewOM)一节。 
   
 ### <a name="supporting-repeating-content"></a>支持重复内容
 <a name="WordCC_SupportingRepeating"> </a>
@@ -151,19 +151,19 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
   
 您可以围绕整个段落或表行插入重复的节内容控件。一旦此控件包围一节，您可以在所包含的节的上方或下方插入该节的副本。
   
-**图 6。重复节内容控件上下文菜单**
+**图 6. 重复节内容控件上下文菜单**
 
 ![重复节内容控件上下文](media/DK2_WordCC_Fig06.jpg "重复节内容控件上下文")
   
 图 6 中所示，可以通过使用一端 （显示为带加号 （![+ 号](media/DK2_WordCC_Fig06A.jpg "加号")） 按钮） 的内容控件的控件或选择上下文菜单中，在命令重复插入部分。 重复的内容将成为一个单独的节，这样就可以分配一个标题，使用**内容控件属性**对话框中的控件。 
   
-**图 7。分配内容控件属性对话框中的节标题**
+**图 7. 在内容控件属性对话框中指定节标题**
 
 ![内容控件属性对话框](media/DK2_WordCC_Fig07.jpg "内容控件属性对话框")
   
 一旦已授予部分中一个标题，如果在**内容控件属性**对话框中选择**允许用户添加和删除节**，用户可以通过添加或删除部分名称。 
   
-**图 8。使用重复节内容控件上下文菜单删除节**
+**图 8. 使用重复节内容控件上下文菜单来删除节**
 
 ![重复节内容控件上下文](media/DK2_WordCC_Fig08.jpg "重复节内容控件上下文")
   
@@ -173,11 +173,11 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
     
 - 当子控件为 XML 映射到的重复节内容控件外部的节点时。
     
-**图 9。重复节内容控件包含重复之前的子控件**
+**图 9. 重复节内容控件在重复前包含子控件**
 
 ![重复节内容控件之前重复](media/DK2_WordCC_Fig09.jpg "重复节内容控件之前重复")
   
-**图 10。重复节内容控件包含重复之后的子控件**
+**图 10. 重复节内容控件在重复后包含子控件**
 
 ![重复节内容控件后重复](media/DK2_WordCC_Fig10.jpg "重复节内容控件后重复")
   
@@ -232,7 +232,7 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
 
 以下元素添加到 WordprocessingML Open XML 文件格式架构中。
   
-**表 1。内容控件的 WordprocessingML Open XML 文件格式架构中的新元素**
+**表 1. 适用于内容控件的 WordprocessingML Open XML 文件格式架构中的新元素**
 
 |**元素**|**说明**|
 |:-----|:-----|
@@ -251,16 +251,16 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
 
 Word 2013 中的内容控件可视化增强功能包括几个对象模型新增内容。 下表列出可视化的**ContentControl**对象的新成员。 
   
-**表 2。新的 ContentControl 对象成员**
+**表 2. 新 ContentControl 对象成员**
 
 |**成员**|**说明**|
 |:-----|:-----|
 |. 作为**WdContentControlAppearance**的**外观** <br/> |获取或设置内容控件的可视化。  <br/> |
 |. **颜色**为**WdColor** <br/> |获取或设置内容控件的颜色。  <br/> |
    
-下表列出了新的**WdContentControlAppearance**枚举中常量。 
+下表列出了新 **WdContentControlAppearance** 枚举中的常量。 
   
-**表 3。新 WdContentControlAppearance 枚举常量**
+**表 3. 新 WdContentControlAppearance 枚举的常量**
 
 |**常量**|**说明**|
 |:-----|:-----|
@@ -341,39 +341,39 @@ End Sub
 ### <a name="repeating-section-content-controls-represented-in-the-object-model"></a>在对象模型中表示的重复节内容控件
 <a name="WordCC_RepeatingSection"> </a>
 
-重复节内容控件中提供了对象模型使用**ContentControl**对象和新的**RepeatingSectionItem**和**RepeatingSectionItemColl**对象的以下增加。 表 4 列出的最重要的新成员的重复节内容控件的**ContentControl**对象。 
+通过使用 **ContentControl** 对象和新 **RepeatingSectionItem** 和 **RepeatingSectionItemColl** 对象的以下添加项，重复节内容控件在对象模型中可用。表 4 列出了 **ContentControl** 对象中针对重复节内容控件的最重要新成员。 
   
-**表 4。ContentControl 对象成员**
+**表 4. ContentControl 对象成员**
 
 |**成员**|**说明**|
 |:-----|:-----|
-|为**布尔** **AllowInsertDeleteSection** <br/> |获取或设置是否用户可以添加或删除节内容控件中使用用户界面。 如果不是类型重复节内容控件调用此属性，则调用将失败并显示以下错误消息:"此属性仅可与重复节内容控件。"  <br/> |
-|**RepeatingSectionItemTitle** as **String** <br/> |获取或设置的重复节项目上下文菜单中使用的名称。 如果不是类型重复节内容控件调用此属性，则调用将失败并:"此属性仅可与重复节内容控件。"  <br/> |
-|作为**ContentControl** **InsertRepeatingSectionItemBefore** <br/> |添加在当前项之前的重复节项并返回新的重复节项。 如果不是重复部分项目的类型的内容控件调用此方法，则调用将失败并:"此属性仅可与重复节项内容控件。"  <br/> |
-|作为**ContentControl** **InsertRepeatingSectionItemAfter** <br/> |当前项之后添加重复部分项目并返回新的重复节项。 如果不是重复部分项目的类型的内容控件调用此方法，则调用将失败并:"此属性仅可与重复节项内容控件。"  <br/> |
+|**AllowInsertDeleteSection** 为 **Boolean** <br/> |获取或设置是否用户可以添加或删除节内容控件中使用用户界面。 如果不是类型重复节内容控件调用此属性，则调用将失败并显示以下错误消息:"此属性仅可与重复节内容控件。"  <br/> |
+|**RepeatingSectionItemTitle** 为 **String** <br/> |获取或设置的重复节项目上下文菜单中使用的名称。 如果不是类型重复节内容控件调用此属性，则调用将失败并:"此属性仅可与重复节内容控件。"  <br/> |
+|**InsertRepeatingSectionItemBefore** 为 **ContentControl** <br/> |添加在当前项之前的重复节项并返回新的重复节项。 如果不是重复部分项目的类型的内容控件调用此方法，则调用将失败并:"此属性仅可与重复节项内容控件。"  <br/> |
+|**InsertRepeatingSectionItemAfter** 为 **ContentControl** <br/> |当前项之后添加重复部分项目并返回新的重复节项。 如果不是重复部分项目的类型的内容控件调用此方法，则调用将失败并:"此属性仅可与重复节项内容控件。"  <br/> |
    
-表 5 列出**RepeatingSectionItem**对象的最重要的成员。 
+表 5 列出了 **RepeatingSectionItem** 对象的最重要成员。 
   
-**表 5。RepeatingSectionItem 对象成员**
+**表 5. RepeatingSectionItem 对象成员**
 
 |**成员**|**说明**|
 |:-----|:-----|
-|**区域**的**区域** <br/> |返回指定重复节项，但不包括开始和结束标记的区域。  <br/> |
+|**Range** 为 **Range** <br/> |返回指定重复节项，但不包括开始和结束标记的区域。  <br/> |
 |**删除** <br/> |删除指定的重复节项。  <br/> |
-|作为**RepeatingSectionItem** **InsertItemAfter** <br/> |在指定项后面添加一个重复节项，并返回新项。  <br/> |
-|作为**RepeatingSectionItem** **InsertItemBefore** <br/> |在指定项前面添加一个重复节项，并返回新项。  <br/> |
+|**InsertItemAfter** 为 **RepeatingSectionItem** <br/> |在指定项后面添加一个重复节项，并返回新项。  <br/> |
+|**InsertItemBefore** 为 **RepeatingSectionItem** <br/> |在指定项前面添加一个重复节项，并返回新项。  <br/> |
    
-表 6 列出**RepeatingSectionItemColl**对象的最重要的成员。 
+表 6 列出了 **RepeatingSectionItemColl** 对象最重要的成员。 
   
-**表 6。RepeatingSectionItemColl 对象成员**
+**表 6. RepeatingSectionItemColl 对象成员**
 
 |**成员**|**说明**|
 |:-----|:-----|
-|**项目**作为**RepeatingSectionItem** <br/> |返回一个单独的重复节项。  <br/> |
+|**Item** 为 **RepeatingSectionItem** <br/> |返回一个单独的重复节项。  <br/> |
    
-表 7 显示了对于重复节内容控件的**WdContentControlType**枚举的新成员。 
+表 7 显示重复节内容控件 **WdContentControlType** 枚举的新成员。 
   
-**表 7。WdContentControlType 枚举添加**
+**表 7. WdContentControlType 枚举添加项**
 
 |**常量**|**说明**|
 |:-----|:-----|
@@ -428,7 +428,7 @@ End Sub
   
 使用现有的 WordprocessingML 表示形式将重复节内容控件（即包围每个单独项）中的单个重复项保存为格式文本内容控件。表 8 列出了 WordprocessingML 架构中针对重复节内容控件的新元素。
   
-**表 8。重复节内容控件的 WordprocessingML 架构中的新元素**
+**表 8. WordprocessingML 架构中针对重复节内容控件的新元素**
 
 |**元素**|**说明**|
 |:-----|:-----|

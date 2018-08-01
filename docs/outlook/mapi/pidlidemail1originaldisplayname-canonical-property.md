@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 991c2969-0180-4c7d-95ee-e62fd24d67ef
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7d09830f471fbaa0e8ed6ae70420dfea6428b9df
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776759"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidEmail1OriginalDisplayName  <br/> |
+|相关属性：  <br/> |dispidEmail1OriginalDisplayName  <br/> |
 |属性进行设置：  <br/> |PSETID_Address  <br/> |
 |长 ID （盖）：  <br/> |0x00008084  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果**dispidEmail1AddrType** ([PidLidEmail1AddressType](pidlidemail1addresstype-canonical-property.md)) 属性的值为"SMTP"，各自**dispidEmail1OriginalDisplayName**属性的值应等于各自**的值dispidEmail1EmailAddress** ([PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md)) 属性。 此属性显示替代的用户友好地址，它等效于**dispidEmail1EmailAddress**属性中。 
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

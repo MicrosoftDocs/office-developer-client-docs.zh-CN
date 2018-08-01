@@ -1,5 +1,5 @@
 ---
-title: 分组和限制消息存储提供程序中的表
+title: 分组和限制邮件存储区提供程序中的表
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 33c76cdd0e7850f82949349ac2e5bb0dd4e056ef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775041"
 ---
-# <a name="grouping-and-restricting-tables-in-message-store-providers"></a>分组和限制消息存储提供程序中的表
+# <a name="grouping-and-restricting-tables-in-message-store-providers"></a>分组和限制邮件存储区提供程序中的表
 
   
   
@@ -37,5 +37,5 @@ ms.locfileid: "19775041"
 
 
 
-[消息存储功能](message-store-features.md)
+[邮件存储区功能](message-store-features.md)
 

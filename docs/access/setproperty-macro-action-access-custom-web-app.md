@@ -19,7 +19,7 @@ ms.locfileid: "19773598"
 您可以使用**SetProperty**操作设置视图上的控件的属性。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="setting"></a>设置
 
@@ -28,10 +28,10 @@ ms.locfileid: "19773598"
 |**操作参数**|**说明**|
 |:-----|:-----|
 | _控件名称_ <br/> |键入您要为其设置属性值的控件的字段的名称。 将此参数留空将视图属性设置。  <br/> |
-| _属性_ <br/> |选择您想要设置的属性。 请参阅**备注**部分中可以使用此操作设置的属性列表。  <br/> |
-| _值_ <br/> |键入的值的属性设置为。 属性，其值为是或是否，使用 **-1** ， **0**表示否。  <br/> |
+| _属性_ <br/> |请选择要设置的属性。有关可以使用此操作设置的属性的列表，请参阅本文的**说明**部分。<br/> |
+| _值_ <br/> |请键入要设置的属性值。对于值为“是”或“否”的属性，使用 **-1** 代表“是”，**0** 代表“否”。<br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 您可以使用**SetProperty**操作设置控件的下列属性： 
   
@@ -39,7 +39,7 @@ ms.locfileid: "19773598"
     
 - 已启用
     
-- 前景色
+- ForeColor
     
 - 值
     

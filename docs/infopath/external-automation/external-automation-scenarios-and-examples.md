@@ -50,7 +50,7 @@ Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPa
     
 3. 在 **.NET**选项卡上，单击**浏览**，导航到 <_驱动器_>: \Program Files\Microsoft Office\OFFICE14 文件夹，然后单击 Microsoft.Office.Interop.InfoPath.Xml.dll。
     
-4. 单击“**确定**”。
+4. 单击“确定”****。
     
 ## <a name="automate-changing-the-value-of-a-field"></a>自动更改字段的值
 
@@ -298,6 +298,6 @@ Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPa
     
 ## <a name="see-also"></a>另请参阅
 
-- [有关 Microsoft Office InfoPath 主互操作程序集](about-the-microsoft-office-infopath-primary-interop-assembly.md)
-- [有关 InfoPath XML 互操作程序集](about-the-infopath-xml-interop-assembly.md)
+- [关于 Microsoft Office InfoPath 主互操作程序集](about-the-microsoft-office-infopath-primary-interop-assembly.md)
+- [关于 InfoPath XML 互操作程序集](about-the-infopath-xml-interop-assembly.md)
 
