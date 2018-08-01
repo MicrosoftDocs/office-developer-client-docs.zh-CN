@@ -14,18 +14,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19774193"
 ---
-# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="b1b66-103">常量 （数据降级层 API）</span><span class="sxs-lookup"><span data-stu-id="b1b66-103">Constants (Data degradation layer API)</span></span>
+# <a name="constants-data-degradation-layer-api"></a><span data-ttu-id="12c34-103">常量 （数据降级层 API）</span><span class="sxs-lookup"><span data-stu-id="12c34-103">Constants (Data degradation layer API)</span></span>
 
-<span data-ttu-id="b1b66-104">本主题包含数据降级层 API 常量的定义。</span><span class="sxs-lookup"><span data-stu-id="b1b66-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
+<span data-ttu-id="12c34-104">本主题包含数据降级层 API 常量的定义。</span><span class="sxs-lookup"><span data-stu-id="12c34-104">This topic contains constant definitions for the Data Degradation Layer API.</span></span>
   
-## <a name="constants"></a><span data-ttu-id="b1b66-105">常量</span><span class="sxs-lookup"><span data-stu-id="b1b66-105">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="12c34-105">常量</span><span class="sxs-lookup"><span data-stu-id="12c34-105">Constants</span></span>
 
-|<span data-ttu-id="b1b66-106">**常量**</span><span class="sxs-lookup"><span data-stu-id="b1b66-106">**Constant**</span></span>|<span data-ttu-id="b1b66-107">**定义**</span><span class="sxs-lookup"><span data-stu-id="b1b66-107">**Definition**</span></span>|
+|<span data-ttu-id="12c34-106">**常量**</span><span class="sxs-lookup"><span data-stu-id="12c34-106">**Constant**</span></span>|<span data-ttu-id="12c34-107">**定义**</span><span class="sxs-lookup"><span data-stu-id="12c34-107">**Definition**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="b1b66-108">DDLWRAP_FLAG_ANSI</span><span class="sxs-lookup"><span data-stu-id="b1b66-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="b1b66-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="b1b66-109">0x00000001</span></span>  <br/> |
-|<span data-ttu-id="b1b66-110">DDLWRAP_FLAG_UNICODE</span><span class="sxs-lookup"><span data-stu-id="b1b66-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="b1b66-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="b1b66-111">0x00000002</span></span>  <br/> |
+|<span data-ttu-id="12c34-108">DDLWRAP_FLAG_ANSI</span><span class="sxs-lookup"><span data-stu-id="12c34-108">DDLWRAP_FLAG_ANSI</span></span>  <br/> |<span data-ttu-id="12c34-109">0x00000001</span><span class="sxs-lookup"><span data-stu-id="12c34-109">0x00000001</span></span>  <br/> |
+|<span data-ttu-id="12c34-110">DDLWRAP_FLAG_UNICODE</span><span class="sxs-lookup"><span data-stu-id="12c34-110">DDLWRAP_FLAG_UNICODE</span></span>  <br/> |<span data-ttu-id="12c34-111">0x00000002</span><span class="sxs-lookup"><span data-stu-id="12c34-111">0x00000002</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b1b66-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b1b66-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12c34-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="12c34-112">See also</span></span>
 
-- [<span data-ttu-id="b1b66-113">有关数据下降层 API</span><span class="sxs-lookup"><span data-stu-id="b1b66-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
+- [<span data-ttu-id="12c34-113">有关数据下降层 API</span><span class="sxs-lookup"><span data-stu-id="12c34-113">About the Data Degradation Layer API</span></span>](about-the-data-degradation-layer-api.md)
 

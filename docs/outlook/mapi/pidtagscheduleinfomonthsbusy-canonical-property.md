@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b15447d6-89aa-40ad-93fc-21fbfa5e3d0e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 293e8648374b61784f5bda0db124506f345b2701
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -17,56 +17,56 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778351"
 ---
-# <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a><span data-ttu-id="89ab9-103">PidTagScheduleInfoMonthsBusy 规范属性</span><span class="sxs-lookup"><span data-stu-id="89ab9-103">PidTagScheduleInfoMonthsBusy Canonical Property</span></span>
+# <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a><span data-ttu-id="f3f43-103">PidTagScheduleInfoMonthsBusy 规范属性</span><span class="sxs-lookup"><span data-stu-id="f3f43-103">PidTagScheduleInfoMonthsBusy Canonical Property</span></span>
 
   
   
-<span data-ttu-id="89ab9-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="89ab9-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="f3f43-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="f3f43-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="89ab9-105">包含有的类型/闲忙/闲数据的忙/闲邮件中存在的月份。</span><span class="sxs-lookup"><span data-stu-id="89ab9-105">Contains the months for which free/busy data of type busy is present in the free/busy message.</span></span>
+<span data-ttu-id="f3f43-105">包含有的类型/闲忙/闲数据的忙/闲邮件中存在的月份。</span><span class="sxs-lookup"><span data-stu-id="f3f43-105">Contains the months for which free/busy data of type busy is present in the free/busy message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="89ab9-106">关联的属性：</span><span class="sxs-lookup"><span data-stu-id="89ab9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="89ab9-107">PR_SCHDINFO_MONTHS_BUSY</span><span class="sxs-lookup"><span data-stu-id="89ab9-107">PR_SCHDINFO_MONTHS_BUSY</span></span>  <br/> |
-|<span data-ttu-id="89ab9-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="89ab9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="89ab9-109">0x6853</span><span class="sxs-lookup"><span data-stu-id="89ab9-109">0x6853</span></span>  <br/> |
-|<span data-ttu-id="89ab9-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="89ab9-110">Data type:</span></span>  <br/> |<span data-ttu-id="89ab9-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="89ab9-111">PT_MV_LONG</span></span>  <br/> |
-|<span data-ttu-id="89ab9-112">区域：</span><span class="sxs-lookup"><span data-stu-id="89ab9-112">Area:</span></span>  <br/> |<span data-ttu-id="89ab9-113">忙/闲</span><span class="sxs-lookup"><span data-stu-id="89ab9-113">Free/Busy</span></span>  <br/> |
+|<span data-ttu-id="f3f43-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="f3f43-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f3f43-107">PR_SCHDINFO_MONTHS_BUSY</span><span class="sxs-lookup"><span data-stu-id="f3f43-107">PR_SCHDINFO_MONTHS_BUSY</span></span>  <br/> |
+|<span data-ttu-id="f3f43-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="f3f43-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f3f43-109">0x6853</span><span class="sxs-lookup"><span data-stu-id="f3f43-109">0x6853</span></span>  <br/> |
+|<span data-ttu-id="f3f43-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="f3f43-110">Data type:</span></span>  <br/> |<span data-ttu-id="f3f43-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="f3f43-111">PT_MV_LONG</span></span>  <br/> |
+|<span data-ttu-id="f3f43-112">区域：</span><span class="sxs-lookup"><span data-stu-id="f3f43-112">Area:</span></span>  <br/> |<span data-ttu-id="f3f43-113">忙/闲</span><span class="sxs-lookup"><span data-stu-id="f3f43-113">Free/Busy</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="89ab9-114">备注</span><span class="sxs-lookup"><span data-stu-id="89ab9-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f3f43-114">说明</span><span class="sxs-lookup"><span data-stu-id="f3f43-114">Remarks</span></span>
 
-<span data-ttu-id="89ab9-115">格式、 computation 和此属性的约束的那些**PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) 相同，但引用标记的关联的 calendar 对象上繁忙的约会。</span><span class="sxs-lookup"><span data-stu-id="89ab9-115">The format, computation and constraints of this property are the same as those of **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) but refer to appointments that are marked busy on the associated calendar object.</span></span>
+<span data-ttu-id="f3f43-115">格式、 computation 和此属性的约束的那些**PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) 相同，但引用标记的关联的 calendar 对象上繁忙的约会。</span><span class="sxs-lookup"><span data-stu-id="f3f43-115">The format, computation and constraints of this property are the same as those of **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) but refer to appointments that are marked busy on the associated calendar object.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="89ab9-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="89ab9-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="f3f43-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="f3f43-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="89ab9-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="89ab9-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="f3f43-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="f3f43-117">Protocol specifications</span></span>
 
-<span data-ttu-id="89ab9-118">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="89ab9-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f3f43-118">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f3f43-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="89ab9-119">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="89ab9-119">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="f3f43-119">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="f3f43-119">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="89ab9-120">[[MS OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="89ab9-120">[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f3f43-120">[[MS OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f3f43-120">[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="89ab9-121">发布的用户或资源的可用性。</span><span class="sxs-lookup"><span data-stu-id="89ab9-121">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="f3f43-121">发布的用户或资源的可用性。</span><span class="sxs-lookup"><span data-stu-id="f3f43-121">Publishes the availability of a user or resource.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="89ab9-122">头文件</span><span class="sxs-lookup"><span data-stu-id="89ab9-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="f3f43-122">头文件</span><span class="sxs-lookup"><span data-stu-id="f3f43-122">Header files</span></span>
 
-<span data-ttu-id="89ab9-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="89ab9-123">Mapidefs.h</span></span>
+<span data-ttu-id="f3f43-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f3f43-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="89ab9-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="89ab9-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="f3f43-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="f3f43-124">Provides data type definitions.</span></span>
     
-<span data-ttu-id="89ab9-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="89ab9-125">Mapitags.h</span></span>
+<span data-ttu-id="f3f43-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="f3f43-125">Mapitags.h</span></span>
   
-> <span data-ttu-id="89ab9-126">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="89ab9-126">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="f3f43-126">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="f3f43-126">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="89ab9-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="89ab9-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f3f43-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f3f43-127">See also</span></span>
 
 
 
-[<span data-ttu-id="89ab9-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="89ab9-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f3f43-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="f3f43-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="89ab9-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="89ab9-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f3f43-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="f3f43-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="89ab9-130">映射到 MAPI 名称的规范属性名称</span><span class="sxs-lookup"><span data-stu-id="89ab9-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f3f43-130">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="f3f43-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="89ab9-131">MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="89ab9-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f3f43-131">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="f3f43-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

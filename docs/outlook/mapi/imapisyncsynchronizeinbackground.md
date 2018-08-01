@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775688"
 ---
-# <a name="imapisync--synchronizeinbackground"></a><span data-ttu-id="0a1cb-103">IMAPISync: SynchronizeInBackground</span><span class="sxs-lookup"><span data-stu-id="0a1cb-103">IMAPISync : SynchronizeInBackground</span></span>
+# <a name="imapisync--synchronizeinbackground"></a><span data-ttu-id="bee07-103">IMAPISync : SynchronizeInBackground</span><span class="sxs-lookup"><span data-stu-id="bee07-103">IMAPISync : SynchronizeInBackground</span></span>
 
  
   
-<span data-ttu-id="0a1cb-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="0a1cb-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="bee07-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="bee07-104">**Applies to**: Outlook</span></span> 
   
- <span data-ttu-id="0a1cb-105">启动同步。</span><span class="sxs-lookup"><span data-stu-id="0a1cb-105">Initiates a synchronization.</span></span> <span data-ttu-id="0a1cb-106">此方法是通过 Microsoft Outlook 2010 和 Microsoft Outlook 2013 调用，并由消息存储提供程序实现。</span><span class="sxs-lookup"><span data-stu-id="0a1cb-106">This method is called by Microsoft Outlook 2010 and Microsoft Outlook 2013 and implemented by message store providers.</span></span> 
+ <span data-ttu-id="bee07-105">启动同步。</span><span class="sxs-lookup"><span data-stu-id="bee07-105">Initiates a synchronization.</span></span> <span data-ttu-id="bee07-106">此方法是通过 Microsoft Outlook 2010 和 Microsoft Outlook 2013 调用，并由消息存储提供程序实现。</span><span class="sxs-lookup"><span data-stu-id="bee07-106">This method is called by Microsoft Outlook 2010 and Microsoft Outlook 2013 and implemented by message store providers.</span></span> 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -33,23 +33,23 @@ HRESULT SynchronizeInBackground (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0a1cb-107">参数</span><span class="sxs-lookup"><span data-stu-id="0a1cb-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bee07-107">参数</span><span class="sxs-lookup"><span data-stu-id="bee07-107">Parameters</span></span>
 
- <span data-ttu-id="0a1cb-108">_psibpb_</span><span class="sxs-lookup"><span data-stu-id="0a1cb-108">_psibpb_</span></span>
+ <span data-ttu-id="bee07-108">_psibpb_</span><span class="sxs-lookup"><span data-stu-id="bee07-108">_psibpb_</span></span>
   
-> <span data-ttu-id="0a1cb-109">通知的内容将同步的提供程序和访问提供可在同步过程中使用的接口。</span><span class="sxs-lookup"><span data-stu-id="0a1cb-109">Informs the provider of what will be synchronized and gives access to interfaces that can be used during the synchronization.</span></span> <span data-ttu-id="0a1cb-110">它是[MAPISIB](mapisib.md)结构。</span><span class="sxs-lookup"><span data-stu-id="0a1cb-110">It is a [MAPISIB](mapisib.md) structure.</span></span> 
+> <span data-ttu-id="bee07-109">通知的内容将同步的提供程序和访问提供可在同步过程中使用的接口。</span><span class="sxs-lookup"><span data-stu-id="bee07-109">Informs the provider of what will be synchronized and gives access to interfaces that can be used during the synchronization.</span></span> <span data-ttu-id="bee07-110">它是[MAPISIB](mapisib.md)结构。</span><span class="sxs-lookup"><span data-stu-id="bee07-110">It is a [MAPISIB](mapisib.md) structure.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="0a1cb-111">返回值</span><span class="sxs-lookup"><span data-stu-id="0a1cb-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bee07-111">返回值</span><span class="sxs-lookup"><span data-stu-id="bee07-111">Return value</span></span>
 
-<span data-ttu-id="0a1cb-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="0a1cb-112">S_OK</span></span> 
+<span data-ttu-id="bee07-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="bee07-112">S_OK</span></span> 
   
-> <span data-ttu-id="0a1cb-113">呼叫成功或多个预期值返回。</span><span class="sxs-lookup"><span data-stu-id="0a1cb-113">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="bee07-113">呼叫成功或多个预期值返回。</span><span class="sxs-lookup"><span data-stu-id="bee07-113">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="0a1cb-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0a1cb-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bee07-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bee07-114">See also</span></span>
 
 
 
-[<span data-ttu-id="0a1cb-115">IMAPISync: IUnknown</span><span class="sxs-lookup"><span data-stu-id="0a1cb-115">IMAPISync : IUnknown</span></span>](imapisynciunknown.md)
+[<span data-ttu-id="bee07-115">IMAPISync : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bee07-115">IMAPISync : IUnknown</span></span>](imapisynciunknown.md)
   
-[<span data-ttu-id="0a1cb-116">MAPISIB</span><span class="sxs-lookup"><span data-stu-id="0a1cb-116">MAPISIB</span></span>](mapisib.md)
+[<span data-ttu-id="bee07-116">MAPISIB</span><span class="sxs-lookup"><span data-stu-id="bee07-116">MAPISIB</span></span>](mapisib.md)
 

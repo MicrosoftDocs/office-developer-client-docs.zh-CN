@@ -16,28 +16,28 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779675"
 ---
-# <a name="avenuesizex-cell-page-layout-section"></a><span data-ttu-id="6bca6-103">AvenueSizeX 单元格（“Page Layout”内容）</span><span class="sxs-lookup"><span data-stu-id="6bca6-103">AvenueSizeX Cell (Page Layout Section)</span></span>
+# <a name="avenuesizex-cell-page-layout-section"></a><span data-ttu-id="f4322-103">AvenueSizeX 单元格（“Page Layout”部分）</span><span class="sxs-lookup"><span data-stu-id="f4322-103">AvenueSizeX Cell (Page Layout Section)</span></span>
 
-<span data-ttu-id="6bca6-104">确定使用**配置布局**对话框排放形状时在绘图页上的形状之间的水平空间量 (在**设计**选项卡的**布局**组中，单击**Re 布局页**中，，然后单击 * * 更多布局选项 * *)。</span><span class="sxs-lookup"><span data-stu-id="6bca6-104">Determines the amount of horizontal space between shapes on the drawing page when you lay out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click ** More Layout Options **).</span></span>
+<span data-ttu-id="f4322-104">确定使用**配置布局**对话框排放形状时在绘图页上的形状之间的水平空间量 (在**设计**选项卡的**布局**组中，单击**Re 布局页**中，，然后单击 * * 更多布局选项 * *)。</span><span class="sxs-lookup"><span data-stu-id="f4322-104">Determines the amount of horizontal space between shapes on the drawing page when you lay out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click ** More Layout Options **).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="6bca6-105">备注</span><span class="sxs-lookup"><span data-stu-id="6bca6-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f4322-105">说明</span><span class="sxs-lookup"><span data-stu-id="f4322-105">Remarks</span></span>
 
-<span data-ttu-id="6bca6-106">您还可以在**布局与排列间距**对话框来设置此值 （**设计**选项卡中，单击**页面设置**组中的箭头，单击**布局和路由**选项卡，然后单击**间距**）。</span><span class="sxs-lookup"><span data-stu-id="6bca6-106">You can also set this value in the **Layout and Routing Spacing** dialog box (on the **Design** tab, click the arrow in the **Page Setup** group, click the **Layout and Routing** tab, and then click **Spacing**).</span></span>
+<span data-ttu-id="f4322-106">您还可以在 **“布局与排列间距”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 组中的箭头，单击 **“布局与排列”** 选项卡，然后单击 **“间距”**）中设置此值。</span><span class="sxs-lookup"><span data-stu-id="f4322-106">You can also set this value in the **Layout and Routing Spacing** dialog box (on the **Design** tab, click the arrow in the **Page Setup** group, click the **Layout and Routing** tab, and then click **Spacing**).</span></span>
   
-<span data-ttu-id="6bca6-107">动态网格 AvenueSizeX 单元格中使用的设置只有一个形状时可用于计算水平间距。</span><span class="sxs-lookup"><span data-stu-id="6bca6-107">The dynamic grid uses the setting in the AvenueSizeX cell when only one shape is available for calculating horizontal spacing.</span></span> <span data-ttu-id="6bca6-108">在**视图**选项卡上的**视觉帮助**组中，使用动态网格中，选择**动态网格**。</span><span class="sxs-lookup"><span data-stu-id="6bca6-108">To use the dynamic grid, on the **View** tab, in the **Visual Aids** group, select **Dynamic Grid**.</span></span>
+<span data-ttu-id="f4322-p101">当只可计算一个形状的水平间距时，动态网格会使用 AvenueSizeX 单元格中的该设置。若要使用动态网格，请在 **“视图”** 选项卡上的 **“视觉帮助”** 组中选择 **“动态网格”**。</span><span class="sxs-lookup"><span data-stu-id="f4322-p101">The dynamic grid uses the setting in the AvenueSizeX cell when only one shape is available for calculating horizontal spacing. To use the dynamic grid, on the **View** tab, in the **Visual Aids** group, select **Dynamic Grid**.</span></span>
   
-<span data-ttu-id="6bca6-109">若要获取对 AvenueSizeX 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用：</span><span class="sxs-lookup"><span data-stu-id="6bca6-109">To get a reference to the AvenueSizeX cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="f4322-109">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 AvenueSizeX 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="f4322-109">To get a reference to the AvenueSizeX cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6bca6-110">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="6bca6-110">Cell name:</span></span>  <br/> | <span data-ttu-id="6bca6-111">AvenueSizeY</span><span class="sxs-lookup"><span data-stu-id="6bca6-111">AvenueSizeY</span></span>  <br/> |
+| <span data-ttu-id="f4322-110">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="f4322-110">Cell name:</span></span>  <br/> | <span data-ttu-id="f4322-111">AvenueSizeY</span><span class="sxs-lookup"><span data-stu-id="f4322-111">AvenueSizeY</span></span>  <br/> |
    
-<span data-ttu-id="6bca6-112">若要从某个程序按索引获取对 AvenueSizeX 单元格的引用，请使用带下列参数的**CellsSRC**属性：</span><span class="sxs-lookup"><span data-stu-id="6bca6-112">To get a reference to the AvenueSizeX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="f4322-112">若要从某个程序按索引获取对 AvenueSizeX 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="f4322-112">To get a reference to the AvenueSizeX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="6bca6-113">内容索引：</span><span class="sxs-lookup"><span data-stu-id="6bca6-113">Section index:</span></span>  <br/> |<span data-ttu-id="6bca6-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="6bca6-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="6bca6-115">行索引：</span><span class="sxs-lookup"><span data-stu-id="6bca6-115">Row index:</span></span>  <br/> |<span data-ttu-id="6bca6-116">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="6bca6-116">**visRowPageLayout**</span></span> <br/> |
-| <span data-ttu-id="6bca6-117">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="6bca6-117">Cell index:</span></span>  <br/> |<span data-ttu-id="6bca6-118">**visPLOAvenueSizeX**</span><span class="sxs-lookup"><span data-stu-id="6bca6-118">**visPLOAvenueSizeX**</span></span> <br/> |
+| <span data-ttu-id="f4322-113">内容索引：</span><span class="sxs-lookup"><span data-stu-id="f4322-113">Section index:</span></span>  <br/> |<span data-ttu-id="f4322-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="f4322-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="f4322-115">行索引：</span><span class="sxs-lookup"><span data-stu-id="f4322-115">Row index:</span></span>  <br/> |<span data-ttu-id="f4322-116">**visRowPageLayout**</span><span class="sxs-lookup"><span data-stu-id="f4322-116">**visRowPageLayout**</span></span> <br/> |
+| <span data-ttu-id="f4322-117">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="f4322-117">Cell index:</span></span>  <br/> |<span data-ttu-id="f4322-118">**visPLOAvenueSizeX**</span><span class="sxs-lookup"><span data-stu-id="f4322-118">**visPLOAvenueSizeX**</span></span> <br/> |
    
 
