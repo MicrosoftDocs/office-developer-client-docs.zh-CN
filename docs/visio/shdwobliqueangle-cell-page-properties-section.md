@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781343"
 ---
-# <a name="shdwobliqueangle-cell-page-properties-section"></a>ShdwObliqueAngle 单元格（“Page Properties”内容）
+# <a name="shdwobliqueangle-cell-page-properties-section"></a>ShdwObliqueAngle 单元格（“Page Properties”部分）
 
 包含指定应用默认页面阴影类型时的倾斜方向角度的数字。
   
@@ -28,13 +28,13 @@ ms.locfileid: "19781343"
   
 要为单个形状设置此行为，请使用“Fill Format”内容中的 ShapeShdwObliqueAngle 单元格。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ShdwObliqueAngle 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ShdwObliqueAngle 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | ShdwObliqueAngle  <br/> |
    
-若要从某个程序按索引获取对 ShdwObliqueAngle 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 ShdwObliqueAngle 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

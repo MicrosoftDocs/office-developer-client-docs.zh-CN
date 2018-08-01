@@ -60,7 +60,7 @@ ms.locfileid: "19780045"
 |:-----|:-----|:-----|
 |[数据记录集](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

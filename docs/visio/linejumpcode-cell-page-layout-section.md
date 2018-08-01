@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780567"
 ---
-# <a name="linejumpcode-cell-page-layout-section"></a>LineJumpCode 单元格（“Page Layout”内容）
+# <a name="linejumpcode-cell-page-layout-section"></a>LineJumpCode 单元格（“Page Layout”部分）
 
 确定要向其添加跨线的连接线。
   
-|**值**|**要向其添加跨线的连接线的连接器**|**自动化常量**|
+|**值**|**要向其添加跨线的连接线**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |无  <br/> |**visPLOJumpNone** <br/> |
 |1  <br/> |水平线  <br/> |**visPLOJumpHorizontal** <br/> |
@@ -29,17 +29,17 @@ ms.locfileid: "19780567"
 |4  <br/> |上次显示的线条 (top 形状在*z* -顺序)  <br/> |**visPLOJumpDisplayOrder** <br/> |
 |5  <br/> |首先显示的线条 (形状底部的*z* -顺序)  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-您还可以在**页面设置**对话框中**布局和路由**选项卡上设置此单元格的值 （**设计**选项卡中，单击**页面设置**箭头，然后单击**布局与排列**）。
+还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 LineJumpCode 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 LineJumpCode 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |LineJumpCode  <br/> |
    
-若要从某个程序按索引获取对 LineJumpCode 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 LineJumpCode 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

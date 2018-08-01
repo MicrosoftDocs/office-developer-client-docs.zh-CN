@@ -32,11 +32,11 @@ Project Server 2013 中的 Project 应用程序服务可与 SharePoint 网站集
   
 Project Server 维护项目时它具有完全控制;Project Professional 将数据保存到 Project Server 直接。 表 1 Project Server 拥有完全控制权限时比较的任务列表、 日程安排 web 部件，以及针对 SharePoint 的任务列表的控件和导入的项目的其他功能的行为。 日程安排 web 部件包含可在其中编辑项目计划 Project Web App 页上的网格。 绑定的模式是其中 statusing 数据一次输入任务和时间表;在单输入模式下，任务状态数据是从时间表单独输入。
   
-**表 1。SharePoint 任务列表和完全控制比较**
+**表 1. 比较 SharePoint 任务列表和完全控制权**
 
 | 功能 | 任务列表 | 完全控制权 |
 |:-----|:-----|:-----|
-|**在 SharePoint 中的任务列表** <br/> |读/写  <br/> |只读  <br/> |
+|**SharePoint 中的任务列表** <br/> |读/写  <br/> |只读  <br/> |
 |**日程安排 web 部件** <br/> |只读  <br/> |读/写  <br/> |
 |**报告** <br/> |通过 Project Server 进行的各种报告  <br/> |通过 Project Server 进行的各种报告  <br/> |
 |**其他 Project Server 功能** <br/> | 阻止的功能：  <br/>-服务器端项目编辑，与 Project Web App 或自定义客户端应用程序  <br/>-进展状况  <br/>-任务不是在绑定模式中可见  <br/> |启用了完整功能  <br/> |
@@ -56,7 +56,7 @@ Project Server 时，SharePoint 将维护控件、 任务列表和文档库中�
     
 - （D） 时在 Project Professional 发布新项目时，用户将具有创建项目的项目网站的选项。 作为 SharePoint 任务列表项目类型或完全控制企业项目类型 (EPT)，还可以在 Project Web App 中创建一个项目。 步骤 (D) 显示了完全控制 EPT。
     
-**图 1。使用项目网站作为 SharePoint 任务列表**
+**图 1. 将项目网站用作 SharePoint 任务列表**
 
 ![在可见性模式下使用项目网站](media/pj15_Architecture_VisibilityMode.gif "在可见性模式下使用项目网站")
 
@@ -78,7 +78,7 @@ Project Server 与网站集相关联，并且具有完全控制时, Project Serv
     
 - （C） 时在 Project Professional 发布新项目时，用户将具有创建项目的项目网站的选项。 此外可以完全控制 EPT 与 Project Web App 中创建和发布到网站集中的项目网站的只读的任务列表与项目。
     
-**图 2。使用完全控制权使用项目网站**
+**图 2. 使用具有完全控制权的项目网站**
 
 ![在托管模式下使用项目网站](media/pj15_Architecture_ManagedMode.gif "在托管模式下使用项目网站")
   
@@ -89,7 +89,7 @@ Project Server 与网站集相关联，并且具有完全控制时, Project Serv
   
 可以有多个与后端 Project Service 应用程序进行通信的 Project Web App 实例。 在本地安装，WFE 可以是在 SharePoint 场中的一台服务器上或可以与 Project Service 应用程序相同的 SharePoint 服务器上。 Project Online 包括 WFE、 Project Service 应用程序，以及本地或远程工作流管理器客户端 1.0 服务器。 
   
-**图 3。常规 Project Server 2013 体系结构**
+**图 3. 常规 Project Server 2013 体系结构**
 
 ![Project Server 体系结构](media/pj15_Architecture_ProjectServiceApp_WFE.gif "Project Server 体系结构")
 
@@ -141,7 +141,7 @@ Project Server 的 Project Web App 组件使用项目网站设置和项目网站
   
 - 优化对远程客户端中的 PSI 的调用。
     
-- 需要 Project Server 队列服务的 PSI 调用和不区分。 异步的 PSI 方法名称开头队列，如**QueueCreateProject**。
+- 区分需要 Project Server 队列服务的 PSI 调用和不需要该服务的 PSI 调用。异步 PSI 方法名称以 Queue 开头，如 **QueueCreateProject**。
     
 - 标识调用注册的本地事件处理程序的 PSI 调用。
     
@@ -169,7 +169,7 @@ Project Professional 2013 和 Project Web App 使用 PSI 访问中的草稿、 �
   
 图 4 显示**连接**窗格在**Internet 信息服务 (IIS) 管理器中**的单服务器安装的 SharePoint Server 2013 和 Project Server 2013 本地工作流管理网站的工作流管理器客户端 1.0。 SharePoint 网站集 (A) 包括前端 PSI 服务中的`_vti_bin\PSI`虚拟子目录。 SharePoint Web 服务应用程序 (B) 包括 Project Service 应用程序后, 端 PSI 服务中与`508c23fb7dfd4c83a8919fae24bc68c5/PSI`虚拟子目录。 GUID 是 Project Server 安装的 Project Service 应用程序实例的名称。 
   
-**图 4。IIS 管理器中显示前端 PSI (A) 和后端 PSI (B)**
+**图 4. 显示了前端 PSI (A) 和后端 PSI (B) 的 IIS 管理器**
 
 ![前端 PSI 和后端 PSI](media/pj15_Architecture_PSI_IIS.gif "前端 PSI 和后端 PSI")
   
@@ -189,11 +189,11 @@ Project Server 的内部对象模型包括业务对象，它们表示 Project �
   
 不会向第三方开发人员公开业务对象。PSI 将处理 API 与业务对象的映射，而 CSOM 会将其 API 映射到 PSI。业务对象的逻辑实体可分为三类：
   
-- **核心实体**是如项目、 任务、 工作分配、 资源和日历的对象。 核心实体包括基本的业务逻辑，如权限和命名规则。 
+- **核心实体**为项目、任务、分配、资源和日历等对象。核心实体包括基本业务逻辑，如权限和命名规则。 
     
-- **业务实体**是时间表、 项目组合和模型等对象。 业务实体包括附加业务逻辑和通常构建的核心实体的组合。 
+- **业务实体**为时间表、项目组合和模型等对象。业务实体包括其他业务逻辑且通常是通过将核心实体组合在一起来构建的。 
     
-- **支持实体**是安全性和验证等对象。 
+- **支持实体**为安全性和验证等对象。 
     
 在 Project Server 2010 中，所有业务对象是 Project Service 应用程序中都实现的。 Project Server 2013 中 WFE 承载多个处理同步方法并不需要 Project Calculation Service 的业务对象。 同步的 PSI 方法，如**DeleteProject**和**ReadAssignments**不要使用 Project Server 队列服务。 PSI 中的异步方法具有开头的名称`Queue`、 **QueueUpdateTimesheet** **QueueCreateProject**等。 异步方法向时控件返回给用户安排处理分析方法的 Project Server 队列服务发送邮件。
   
@@ -261,10 +261,10 @@ Project Server 允许在项目经理使用草稿版本时通过执行以下步�
     
 ## <a name="see-also"></a>另请参阅
 
-- [面向开发人员的 project 2013 概述](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
-- [Project Server 可编程性 （英文)](project-server-programmability.md)  
-- [客户端对象模型 (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)  
-- [PSI 支持和不执行](what-the-psi-does-and-does-not-do.md)  
+- [面向开发人员的 Project 2013 概述](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [Project Server 可编程性](project-server-programmability.md)  
+- [Project 2013 的客户端对象模型 (CSOM)](client-side-object-model-csom-for-project-2013.md)  
+- [PSI 执行和不执行的操作](what-the-psi-does-and-does-not-do.md)  
 - [开发 Project Server 工作流入门](getting-started-developing-project-server-workflows.md)   
 - [项目 PSI 参考概述](project-psi-reference-overview.md)   
 - [开放式数据协议](http://www.odata.org/)（http://www.odata.org）

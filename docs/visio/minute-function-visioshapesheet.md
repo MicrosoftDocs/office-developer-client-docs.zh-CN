@@ -1,5 +1,5 @@
 ---
-title: MINUTE 函数 (VisioShapeSheet)
+title: MINUTE Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780774"
 ---
-# <a name="minute-function-visioshapesheet"></a>MINUTE 函数 (VisioShapeSheet)
+# <a name="minute-function-visioshapesheet"></a>MINUTE Function (VisioShapeSheet)
 
 返回一个整数从 0 到 59 值，该值代表*datetime*或*expression*的分钟组件。 
   
@@ -36,7 +36,7 @@ ms.locfileid: "19780774"
 
 Integer
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _Datetime_和_expression_中的日期部分将被丢弃。 
   

@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781487"
 ---
-# <a name="text-block-format-section"></a>“Text Block Format”内容
+# <a name="text-block-format-section"></a>“Text Block Format”部分
 
 包含控制形状文本块中文本的对齐方式、边距以及默认制表位位置的单元格。
   

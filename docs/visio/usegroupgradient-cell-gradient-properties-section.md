@@ -1,5 +1,5 @@
 ---
-title: UseGroupGradient 单元格 （渐变 Properties 内容）
+title: UseGroupGradient 单元格（“Gradient Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781605"
 ---
-# <a name="usegroupgradient-cell-gradient-properties-section"></a>UseGroupGradient 单元格 （渐变 Properties 内容）
+# <a name="usegroupgradient-cell-gradient-properties-section"></a>UseGroupGradient 单元格（“Gradient Properties”部分）
 
 确定当形状以 Boolean 的形式进行分组以及其他形状时, 是否将形状承担渐变。 **UseGroupGradient**单元格的值影响的形状填充。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**UseGroupGradient**单元格的引用，请使用： 
   

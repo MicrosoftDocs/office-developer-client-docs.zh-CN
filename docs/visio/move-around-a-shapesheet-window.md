@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780775"
 ---
-# <a name="move-around-a-shapesheet-window"></a>在 ShapeSheet 窗口中移动
+# <a name="move-around-a-shapesheet-window"></a>在 ShapeSheet 窗口周围移动
 
 要在 ShapeSheet 窗口的单元格之间移动，请使用箭头键和 Tab 键。单击单元格可将其激活，也可以滚动显示 ShapeSheet 单元格而不改变活动单元格。
   

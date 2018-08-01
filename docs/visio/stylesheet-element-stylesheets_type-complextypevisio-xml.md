@@ -48,9 +48,9 @@ ms.locfileid: "19781463"
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
 |[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定单个属性。  <br/> |
-|[节](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |指定相关的属性的集合。  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |指定相关的属性的集合。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: FillGradientAngle 单元格 （渐变 Properties 内容）
+title: FillGradientAngle 单元格（“Gradient Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780241"
 ---
-# <a name="fillgradientangle-cell-gradient-properties-section"></a>FillGradientAngle 单元格 （渐变 Properties 内容）
+# <a name="fillgradientangle-cell-gradient-properties-section"></a>FillGradientAngle 单元格（“Gradient Properties”部分）
 
 确定具有线性方向，以度表示的渐变填充渐变的角度。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**FillGradientAngle**单元格的引用，请使用： 
   

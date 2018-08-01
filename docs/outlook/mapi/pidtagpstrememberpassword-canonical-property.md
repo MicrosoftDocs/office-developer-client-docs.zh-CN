@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 28e3522e51a5ec98c8ed7efed878aa436d06ed68
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -27,8 +27,8 @@ ms.locfileid: "19778101"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_PST_REMEMBER_PW  <br/> |
-|标识符:  <br/> |0x6701  <br/> |
+|相关属性：  <br/> |PR_PST_REMEMBER_PW  <br/> |
+|标识符：  <br/> |0x6701  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
    
@@ -58,7 +58,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

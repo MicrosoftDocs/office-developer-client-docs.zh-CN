@@ -51,7 +51,7 @@ ms.locfileid: "19781000"
 |[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |指定绘图页是否在使用 Visio Services 在浏览器中查看。  <br/> |
 |[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |指定记录集是否可刷新使用 Visio Services。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

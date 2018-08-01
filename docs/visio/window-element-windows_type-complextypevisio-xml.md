@@ -6,7 +6,9 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
-description: 代表 Microsoft Visio 实例中打开的窗口。 此元素包含最初由 Visio 在打开文件时完全重新创建应用程序工作区中的用户界面窗口所需的信息。
+description: >-
+  代表 Microsoft Visio 实例中打开的窗口。
+   此元素包含最初由 Visio 在打开文件时完全重新创建应用程序工作区中的用户界面窗口所需的信息。
 ms.openlocfilehash: 762b689d625c7865696a0bf8bb8c4acc25e3d8eb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +18,8 @@ ms.locfileid: "19781664"
 ---
 # <a name="window-element-windowstype-complextype-visio-xml"></a>窗口元素 （Windows_Type 复杂类型） (Visio XML)
 
-代表 Microsoft Visio 实例中打开的窗口。 此元素包含最初由 Visio 在打开文件时完全重新创建应用程序工作区中的用户界面窗口所需的信息。
+代表 Microsoft Visio 实例中打开的窗口。
+ 此元素包含最初由 Visio 在打开文件时完全重新创建应用程序工作区中的用户界面窗口所需的信息。
   
 ## <a name="element-information"></a>元素信息
 
@@ -62,7 +65,7 @@ ms.locfileid: "19781664"
 |[StencilGroupPos](stencilgrouppos-element-window_type-complextypevisio-xml.md) <br/> |[StencilGroupPos_Type](stencilgrouppos_type-complextypevisio-xml.md) <br/> |包含用于指定窗口中的组中的模具的相对位置的整数。  <br/> |
 |[TabSplitterPos](tabsplitterpos-element-window_type-complextypevisio-xml.md) <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> |指定绘图窗口的页面选项卡控件的宽度 （以在绘图窗口的总宽度的分数）。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

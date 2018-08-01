@@ -1,5 +1,5 @@
 ---
-title: What's new for Visio ShapeSheet 开发人员
+title: 面向 Visio ShapeSheet 开发人员的新增功能
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781666"
 ---
-# <a name="whats-new-for-visio-shapesheet-developers"></a>What's new for Visio ShapeSheet 开发人员
+# <a name="whats-new-for-visio-shapesheet-developers"></a>面向 Visio ShapeSheet 开发人员的新增功能
 
 Visio 2013 的自定义绘图解决方案提供了功能强大的单个平台。 新的 ShapeSheet 单元格和函数，新自动化对象、 属性、 方法和事件，以及为您提供更多选项定义和控制在您的解决方案元素的行为。
   
@@ -25,7 +25,7 @@ Visio 2013 的自定义绘图解决方案提供了功能强大的单个平台。
 
 下表列出了可用于构建 ShapeSheet 解决方案 Visio 2013 中的新单元格。
   
-|**新单元格**|**节**|
+|**新单元格**|**Section**|
 |:-----|:-----|
 |[BevelBottomHeight](bevelbottomheight-cell-bevel-properties-section.md) <br/> |Bevel 属性  <br/> |
 |[BevelBottomType](bevelbottomtype-cell-bevel-properties-section.md) <br/> |Bevel 属性  <br/> |
@@ -109,7 +109,7 @@ Visio 2013 的自定义绘图解决方案提供了功能强大的单个平台。
 
 下表列出了可用于构建 ShapeSheet 解决方案 Visio 2013 中的新行。
   
-|**新行**|**节**|
+|**新行**|**Section**|
 |:-----|:-----|
 |[GradientStop](gradient-stop-row-fill-gradient-section.md) <br/> |填充渐变  <br/> |
 |[GradientStop](gradient-stop-row-line-gradient-section.md) <br/> |行渐变  <br/> |
@@ -128,7 +128,7 @@ Visio 2013 的自定义绘图解决方案提供了功能强大的单个平台。
 |:-----|
 |[字体](font-function.md) <br/> |
 |[ISTHEMED](isthemed-function.md) <br/> |
-|[语言](language-function.md) <br/> |
+|[LANGUAGE](language-function.md) <br/> |
 |[THEMECBV](themecbv-function.md) <br/> |
 ||
 |[THEMEVAL](themeval-function.md) <br/> |

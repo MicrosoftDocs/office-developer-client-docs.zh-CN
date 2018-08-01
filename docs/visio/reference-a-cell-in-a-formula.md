@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781025"
 ---
-# <a name="reference-a-cell-in-a-formula"></a>在公式中引用单元格
+# <a name="reference-a-cell-in-a-formula"></a>引用公式中的单元格
 
 1. 双击您要放置引用的单元格，然后将插入点放在公式中所需的位置上。
     

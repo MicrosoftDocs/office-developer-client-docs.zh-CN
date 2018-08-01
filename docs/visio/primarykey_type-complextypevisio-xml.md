@@ -54,7 +54,7 @@ ms.locfileid: "19780977"
 |:-----|:-----|:-----|
 |[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

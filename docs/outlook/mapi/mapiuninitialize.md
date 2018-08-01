@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c1a78889ea98133af46089fdc93b0c1c4bb24226
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -45,7 +45,7 @@ void MAPIUninitialize ( void );
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**MAPIUninitialize**函数结束与 MAPI，与调用[MAPIInitialize](mapiinitialize.md)函数开始与其进行交互。 调用**MAPIUninitialize**后，可以由客户端不进行任何其他 MAPI 呼叫。 
   

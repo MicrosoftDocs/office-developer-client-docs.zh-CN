@@ -52,7 +52,7 @@ ms.locfileid: "19781629"
 |:-----|:-----|:-----|
 |[Row](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

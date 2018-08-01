@@ -32,7 +32,7 @@ BOOL Placeholder11(
 
 总是**false**，因为此成员是一个占位符，并且不受支持。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此成员必须返回**false**。
   

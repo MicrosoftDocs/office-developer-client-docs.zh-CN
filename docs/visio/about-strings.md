@@ -26,7 +26,7 @@ ms.locfileid: "19779604"
 
 在任何公式解析为字符串，包括自定义文本字段公式，您可以使用**格式**或**FORMATEX**函数。 FORMAT 函数返回字符串的格式化输出。 **FORMATEX**函数将转换类型的输入您为带格式的结果为单位的选择。 
   
-## <a name="displaying-formatted-shape-data"></a>显示带格式的形状数据
+## <a name="displaying-formatted-shape-data"></a>显示已设定格式的形状数据
 
 您可以通过在 Format 单元格中输入格式图片来设置形状数据项的显示值的格式。
   

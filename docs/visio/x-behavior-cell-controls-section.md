@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781671"
 ---
-# <a name="x-behavior-cell-controls-section"></a>X Behavior 单元格（“Controls”内容）
+# <a name="x-behavior-cell-controls-section"></a>X Behavior 单元格（“Controls”部分）
 
 控制的行为*x*的类型的控制手柄的坐标在手柄移动后将表现。 
   
-|**值**|**行为**|**定义**|**自动化常量**|
+|**值**|**行为**|**定义**|**自动常量**|
 |:-----|:-----|:-----|:-----|
 | 0  <br/> | 成比例  <br/> | 控制手柄可以移动，在伸展时它也随形状按比例移动。  <br/> |**visCtlProportional** <br/> |
 | 1  <br/> | 比例锁定  <br/> | 控制手柄可按比例与形状一起移动，但控制手柄本身不能移动。  <br/> |**visCtlLocked** <br/> |
@@ -33,15 +33,15 @@ ms.locfileid: "19781671"
 | 8  <br/> | 中心偏移，隐藏  <br/> | 与值 3 的含义相同，但控制手柄被隐藏起来了。  <br/> |**visCtlOffsetMidHidden** <br/> |
 | 9  <br/> | 右侧偏移，隐藏  <br/> | 与值 4 的含义相同，但控制手柄被隐藏起来了。  <br/> |**visCtlOffsetMaxHidden** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 X Behavior 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 X Behavior 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 控件。  *名称*。XConwhere 控件。  *name*是控制行的名称。  <br/> |
    
-若要从某个程序按索引获取对 X Behavior 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 X Behavior 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

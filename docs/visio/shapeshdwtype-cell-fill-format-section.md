@@ -16,31 +16,31 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781287"
 ---
-# <a name="shapeshdwtype-cell-fill-format-section"></a>ShapeShdwType 单元格（“Fill Format”内容）
+# <a name="shapeshdwtype-cell-fill-format-section"></a>ShapeShdwType 单元格（“Fill Format”部分）
 
 指定形状的阴影类型。 
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |使用页面默认值（默认值）  <br/> |**visFSTPageDefault** <br/> |
 |1  <br/> |简单  <br/> |**visFSTSimple** <br/> |
 |2  <br/> |倾斜  <br/> |**visFSTOblique** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 使用此单元格应用形状阴影的不同页面默认值 （在属性页部分的 ShdwType 单元格定义页面默认阴影类型）。
   
 用户界面 (UI) 中的偏移阴影介绍简单阴影类型。 简单阴影效果的形状的阴影投射到的并行面上形状后面。 倾斜阴影倾斜阴影在 UI 中所述，并为被强制转换到平面上垂直到形状的阴影效果。 
   
-预定义的简单和倾斜阴影类型的列表，请参阅**样式**框中**阴影**对话框 （在**主页**选项卡，**形状**组中，单击**阴影**，然后单击**阴影选项**）。
+有关预定义的简单阴影和倾斜阴影类型的列表，请查看 **“阴影”** 对话框（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“阴影”**，然后单击 **“阴影选项”**）中的 **“样式”** 框。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ShapeShdwType 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapeShdwType 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |ShapeShdwType  <br/> |
    
-若要从某个程序按索引获取对 ShapeShdwType 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ShapeShdwType 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7505c5dbcfc98a8b868424ae51cbe9c47b1d4338
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -44,7 +44,7 @@ __名称_
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 使用**SizedSPropTagArray**宏来使用显式边界创建属性标记数组。 
   

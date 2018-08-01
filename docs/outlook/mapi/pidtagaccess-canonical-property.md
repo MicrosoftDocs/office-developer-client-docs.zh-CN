@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c8a882e-62c1-4c57-8c63-ee5849f656b0
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bb00d4e0e1437f9b3c13ac5e7d0a9dc4f3610d32
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,19 +29,19 @@ ms.locfileid: "19777285"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ACCESS  <br/> |
-|标识符:  <br/> |0x0FF4  <br/> |
+|相关属性：  <br/> |PR_ACCESS  <br/> |
+|标识符：  <br/> |0x0FF4  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |访问控件属性  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性是只读的客户端。 它必须是按位**或**下表中的零个或多个值。 
   
 |**名称**|**值**|**说明**|
 |:-----|:-----|:-----|
 |MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |写入  <br/> |
-|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |已阅读  <br/> |
+|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |阅读  <br/> |
 |MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Delete  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |在文件夹层次结构中创建子文件夹  <br/> |
 |MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |创建内容的消息  <br/> |
@@ -79,7 +79,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

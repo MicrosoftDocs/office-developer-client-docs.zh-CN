@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: eab68d7a-e281-fc2e-5531-91e7a4e1485f
-description: 返回对 sheetref 中指定的工作表 （形状） 的引用或者，如果没有 sheetref 限定符，当前工作表。
+description: 返回对 sheetref 中指定工作表（形状）的引用；如果没有 sheetref 限定符，则返回对当前工作表的引用。
 ms.openlocfilehash: dcf5c0b42c3e6471ebc4bc201b8d80d420e94d29
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,8 @@ ms.locfileid: "19781340"
   
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Visio 2010 
+添加的版本： Visio 2010
+ 
   
 ## <a name="syntax"></a>语法
 

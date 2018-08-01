@@ -33,7 +33,7 @@ _personsCollection_
   
 > [输出]一个 XML 字符串，包含人和图片的详细信息的集合。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Outlook Social Connector (OSC) 调用**GetPeopleDetails**如果 OSC 提供程序支持的朋友和非朋友点播或混合同步。 
   
@@ -43,6 +43,6 @@ OSC 存储在内存中_personsCollection_参数返回的信息。 OSC 提供程�
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialSession2: IUnknown](isocialsession2iunknown.md)
+- [ISocialSession2 : IUnknown](isocialsession2iunknown.md)
 - [同步朋友和活动](synchronizing-friends-and-activities.md)
 

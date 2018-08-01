@@ -1,5 +1,5 @@
 ---
-title: 有关反垃圾邮件设置
+title: 关于反垃圾邮件设置
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774156"
 ---
-# <a name="about-anti-spam-settings"></a>有关反垃圾邮件设置
+# <a name="about-anti-spam-settings"></a>关于反垃圾邮件设置
 
 Outlook 允许用户指定为每个帐户的设置，可帮助保护帐户免受垃圾邮件。 此类反垃圾邮件设置存储在指定的用户的配置文件中的帐户一节。 [PROP_ACCT_PREFERENCES_UID](prop_acct_preferences_uid.md)属性用于获取唯一 ID (UID) 的配置文件中存储为此帐户，包括反垃圾邮件设置的用户的首选项部分。 
   

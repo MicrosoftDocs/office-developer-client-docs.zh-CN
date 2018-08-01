@@ -29,13 +29,13 @@ ms.locfileid: "19780555"
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |必需  <br/> |**字符串** <br/> |包含要提取的字符的文本字符串。  <br/> |
-| _num_chars_opt_ <br/> |可选  <br/> |**数字** <br/> |要提取的字符数。  <br/> |
+| _num_chars_opt_ <br/> |可选  <br/> |**Numeric** <br/> |要提取的字符数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _Num_chars_opt_的值必须大于或等于零 (0)。 
   

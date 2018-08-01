@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780778"
 ---
-# <a name="moveto-row-geometry-section"></a>MoveTo 行（“Geometry”内容）
+# <a name="moveto-row-geometry-section"></a>MoveTo 行（“Geometry”部分）
 
 包含*x*和*y* -第一个形状的顶点坐标或代表*x* -和*y* -路径中中断后的第一个顶点的坐标。 
   
@@ -27,7 +27,7 @@ ms.locfileid: "19780778"
 |[X](x-cell-geometry-section.md) <br/> |如果**MoveTo**行是部分中的第一行，则 X 单元格表示*x*的形状的第一个顶点的坐标。 如果**MoveTo**行出现在两行之间，则 X 单元格表示*x* -路径中断开后的第一个顶点的坐标。  <br/> |
 |[Y](y-cell-geometry-section.md) <br/> |如果**MoveTo**行是部分中的第一行，则 Y 单元格表示*y* -形状的第一个顶点的坐标。 如果**MoveTo**行出现在两行之间，则 Y 单元格表示*y* -路径中断开后的第一个顶点的坐标。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **MoveTo**行包含*x*和*y* -如果**MoveTo**行是部分中的第一行的形状的第一个顶点的坐标。 通常，这是放置时绘制形状，并且它不一定是对应于一维形状的起点的第一个顶点。 
   

@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780192"
 ---
-# <a name="eventdblclick-cell-events-section"></a>EventDblClick 单元格（“Events”内容）
+# <a name="eventdblclick-cell-events-section"></a>EventDblClick 单元格（“Events”部分）
 
 一种事件单元格，双击某个形状后会对其求值。
   
@@ -24,13 +24,13 @@ ms.locfileid: "19780192"
 
 只在事件发生后（而非输入公式后）才对事件单元格求值。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 EventDblClick 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 EventDblClick 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | EventDblClick  <br/> |
    
-若要从某个程序按索引获取对 EventDblClick 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 EventDblClick 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -28,7 +28,7 @@ SETATREFEXPR ([* * *expr_opt* * *])
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expr_opt_ <br/> |可选  <br/> |**而异** <br/> |表达式，用于替换为其分配到 SETATREF 函数中引用的单元格的表达式的值。 如果未指示，其初始值为 0 （零）。  <br/> |
+| _expr_opt_ <br/> |可选  <br/> |**因情况而异** <br/> |表达式，用于替换为其分配到 SETATREF 函数中引用的单元格的表达式的值。 如果未指示，其初始值为 0 （零）。  <br/> |
    
 ## <a name="remarks"></a>注解
 
@@ -56,6 +56,6 @@ PinY = INT (SETATREFEXPR （) /User.GridY +.5)\*User.GridY
   
 ## <a name="example-3"></a>示例 3
 
-使用 SETATREFEXPR 函数与 SETATREF 函数的示例，请参阅[SETATREF](setatref-function.md)函数。 
+有关 SETATREFEXPR 函数与 SETATREF 函数结合使用的示例，请参阅 [SETATREF](setatref-function.md) 函数。 
   
 

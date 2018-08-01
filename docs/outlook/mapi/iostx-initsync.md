@@ -55,7 +55,7 @@ HRESULT InitSync(
   
 [IOSTX::SyncHdrEnd](iostx-synchdrend.md)
   
-[IOSTX: IUnknown](iostxiunknown.md)
+[IOSTX : IUnknown](iostxiunknown.md)
 
 
 [MAPI 常量](mapi-constants.md)

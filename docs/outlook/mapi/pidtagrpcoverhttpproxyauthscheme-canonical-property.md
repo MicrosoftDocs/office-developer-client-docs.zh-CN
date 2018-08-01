@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b8c68c2cd34ba037dc725a7d15575159466d8123
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -25,12 +25,12 @@ ms.locfileid: "19778233"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ROH_PROXY_AUTH_SCHEME  <br/> |
-|标识符:  <br/> |0x6627  <br/> |
+|相关属性：  <br/> |PR_ROH_PROXY_AUTH_SCHEME  <br/> |
+|标识符：  <br/> |0x6627  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性可为基本身份验证或 NT LAN Manager (NTLM) 身份验证设置。 此属性的可能值如下所示。
   
@@ -73,7 +73,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

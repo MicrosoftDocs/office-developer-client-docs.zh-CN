@@ -1,5 +1,5 @@
 ---
-title: 更改形状行为部分
+title: “Change Shape Behavior”部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779853"
 ---
-# <a name="change-shape-behavior-section"></a>更改形状行为部分
+# <a name="change-shape-behavior-section"></a>“Change Shape Behavior”部分
 
 决定转给从旧的形状的替换形状替换操作期间的属性。 值替换为相应的形状读取形状替换操作期间的主控形状**更改形状行为**部分中的单元格。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 通过在**更改形状行为**部分中设置单元格，您可以确保替换操作期间的替换形状的某些属性保持不变。 在操作过程中，从旧的形状的本地形状值更新不受保护的属性。 
   

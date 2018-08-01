@@ -29,9 +29,9 @@ ms.locfileid: "19781167"
     
 - [EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md)
     
-- [渐变光圈行 （Fill 渐变内容）](gradient-stop-row-fill-gradient-section.md)
+- [Gradient Stop 行（“Fill Gradient”部分）](gradient-stop-row-fill-gradient-section.md)
     
-- [渐变光圈行 （Line 渐变内容）](gradient-stop-row-line-gradient-section.md)
+- [Gradient Stop 行（“Line Gradient”部分）](gradient-stop-row-line-gradient-section.md)
     
 - [Hyperlink Row (Hyperlinks Section)](hyperlink-row-hyperlinks-section.md)
     
@@ -45,15 +45,15 @@ ms.locfileid: "19781167"
     
 - [PolylineTo Row (Geometry Section)](polylineto-row-geometry-section.md)
     
-- [RelCubBezTo 行 （geometry 内容）](relcubbezto-row-geometry-section.md)
+- [RelCubBezTo 行（“Geometry”部分）](relcubbezto-row-geometry-section.md)
     
-- [RelEllipticalArcTo 行 （geometry 内容）](relellipticalarcto-row-geometry-section.md)
+- [RelEllipticalArcTo 行（“Geometry”部分）](relellipticalarcto-row-geometry-section.md)
     
-- [RelLineTo 行 （geometry 内容）](rellineto-row-geometry-section.md)
+- [RelLineTo 行（“Geometry”部分）](rellineto-row-geometry-section.md)
     
-- [RelMoveTo 行 （geometry 内容）](relmoveto-row-geometry-section.md)
+- [RelMoveTo 行（“Geometry”部分）](relmoveto-row-geometry-section.md)
     
-- [RelQuadBezTo 行 （geometry 内容）](relquadbezto-row-geometry-section.md)
+- [RelQuadBezTo 行（“Geometry”部分）](relquadbezto-row-geometry-section.md)
     
 - [Shape Data Row (Shape Data Section)](shape-data-row-shape-data-section.md)
     

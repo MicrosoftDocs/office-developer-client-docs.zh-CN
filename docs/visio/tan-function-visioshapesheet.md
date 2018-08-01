@@ -1,5 +1,5 @@
 ---
-title: TAN 函数 (VisioShapeSheet)
+title: TAN Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781484"
 ---
-# <a name="tan-function-visioshapesheet"></a>TAN 函数 (VisioShapeSheet)
+# <a name="tan-function-visioshapesheet"></a>TAN Function (VisioShapeSheet)
 
 返回一个角度的正切值。
   
@@ -28,7 +28,7 @@ TAN (* **角度** *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _角度_ <br/> |必需  <br/> |**数字** <br/> |要获取的正切值的角度。  <br/> |
+| _角度_ <br/> |必需  <br/> |**Numeric** <br/> |要获取的正切值的角度。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

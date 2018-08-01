@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780340"
 ---
-# <a name="glue-cell-layers-section"></a>Glue 单元格（“Layers”内容）
+# <a name="glue-cell-layers-section"></a>Glue 单元格（“Layers”部分）
 
 指定是否可粘附属于图层的形状。
   
@@ -29,13 +29,13 @@ ms.locfileid: "19780340"
 
 此单元格对应于**图层属性**对话框中的**粘附**选项 （**主页**选项卡，在**编辑**组中，单击**图层**，，然后单击**图层属性**）。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Glue 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Glue 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Layers.Glue [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 Glue 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Glue 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd57a5be-5550-4492-acb9-52255fac9014
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b5f806f838d617a6265279ee7e58dc2e28a662b2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776722"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidChangeHighlight  <br/> |
+|相关属性：  <br/> |dispidChangeHighlight  <br/> |
 |属性进行设置：  <br/> |PSETID_Appointment  <br/> |
 |长 ID （盖）：  <br/> |0x00008204  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性不是必需的。 可以设置的单个标志详见[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)。
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

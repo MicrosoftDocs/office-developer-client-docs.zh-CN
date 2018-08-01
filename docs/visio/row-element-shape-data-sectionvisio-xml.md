@@ -42,7 +42,7 @@ ms.locfileid: "19781163"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[节](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |指定一个形状的数据输入将数据与形状相关联。  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |指定一个形状的数据输入将数据与形状相关联。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19781163"
 |:-----|:-----|:-----|
 |[Cell](cell-element-shape-data-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定形状数据的一个的属性。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

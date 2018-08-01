@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781252"
 ---
-# <a name="shape-transform-section"></a>“Shape Transform”内容
+# <a name="shape-transform-section"></a>“Shape Transform”部分
 
 包含有关形状的常规位置信息：例如，其宽度、高度、角度以及旋转中心点；形状是否已被翻转；在组合内调整大小时，形状应如何变化。
   

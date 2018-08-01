@@ -16,21 +16,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781325"
 ---
-# <a name="shdwoffsetx-cell-page-properties-section"></a>ShdwOffsetX 单元格（“Page Properties”内容）
+# <a name="shdwoffsetx-cell-page-properties-section"></a>ShdwOffsetX 单元格（“Page Properties”部分）
 
 确定形状的投影与该形状水平偏移的距离（按页面单位）。
   
 ## <a name="remarks"></a>注解
 
-在**页面设置**对话框设置此值 （**设计**选项卡中，单击**页面设置**箭头）。 此值是比例的绘图无关。 缩放绘图时，如果阴影偏移量保持不变。 
+此值在 **“页面设置”** 对话框（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头）中设置。此值与绘图的缩放比例无关。即使绘图按比例缩放，阴影偏移量也仍保持不变。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ShdwOffsetX 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShdwOffsetX 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | ShdwOffsetX  <br/> |
    
-若要从某个程序按索引获取对 ShdwOffsetX 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ShdwOffsetX 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

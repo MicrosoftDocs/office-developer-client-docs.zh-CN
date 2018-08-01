@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779810"
 ---
-# <a name="bullet-cell-paragraph-section"></a>Bullet 单元格（“Paragraph”内容）
+# <a name="bullet-cell-paragraph-section"></a>Bullet 单元格（“Paragraph”部分）
 
 确定项目符号的样式。
   
@@ -37,16 +37,16 @@ ms.locfileid: "19779810"
 |行索引：  <br/> |**visRowParagraph** +  *i*其中*i* = 0、 1、 2...  <br/> |
 |单元格索引：  <br/> |**visBulletIndex** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-您还可以设置此单元格的值右键单击形状，指向**格式**，单击**文本**，然后单击**项目符号**选项卡。 
+您还可以通过以下方法设置此单元格的值：右键单击形状，指向 **“格式”**，单击 **“文本”**，然后单击 **“项目符号”** 选项卡。 
   
-若要获取对 Bullet 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Bullet 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Para.Bullet [ *i* ] 其中*i* = < 1 >，2，3，...  <br/> |
    
-若要从某个程序按索引获取对 Bullet 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Bullet 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 

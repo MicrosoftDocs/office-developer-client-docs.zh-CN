@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7883cb55-a7db-10c0-be20-5d3c561e490f
-description: 显示使用字段对话框在形状的文本中插入的公式和函数。
+description: 显示使用“域”对话框在形状的文本中插入的函数和公式。
 ms.openlocfilehash: ec01ae3743eaf5345685c7273404bfdb826579ba
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19781164"
 ---
 # <a name="row-element-field-section-visio-xml"></a>Row 元素 （字段部分） (Visio XML)
 
-显示使用字段对话框在形状的文本中插入的公式和函数。
+显示使用“域”对话框在形状的文本中插入的函数和公式。
   
 ## <a name="element-information"></a>元素信息
 
@@ -42,7 +42,7 @@ ms.locfileid: "19781164"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[节](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |显示使用字段对话框在形状的文本中插入的公式和函数。  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |显示使用“域”对话框在形状的文本中插入的函数和公式。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19781164"
 |:-----|:-----|:-----|
 |[Cell](cell-element-field-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |显示函数和公式在形状的文本中插入使用字段对话框  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

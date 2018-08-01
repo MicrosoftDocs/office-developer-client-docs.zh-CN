@@ -17,11 +17,11 @@ ms.locfileid: "19780336"
 
 ## <a name="in-this-section"></a>本节内容
 
-- [ABS 函数 (VisioShapeSheet)](abs-function-visioshapesheet.md)
+- [ABS Function (VisioShapeSheet)](abs-function-visioshapesheet.md)
     
 - [ACOS 函数](acos-function.md)
     
-- [和函数](and-function.md)
+- [AND 函数](and-function.md)
     
 - [ANG360 函数](ang360-function.md)
     
@@ -83,7 +83,7 @@ ms.locfileid: "19780336"
     
 - [COSH 函数](cosh-function.md)
     
-- [COS 函数 (VisioShapeSheet)](cos-function-visioshapesheet.md)
+- [COS Function (VisioShapeSheet)](cos-function-visioshapesheet.md)
     
 - [CREATOR 函数](creator-function.md)
     
@@ -97,13 +97,13 @@ ms.locfileid: "19780336"
     
 - [DATETIME 函数](datetime-function.md)
     
-- [DATEVALUE 函数 (VisioShapeSheet)](datevalue-function-visioshapesheet.md)
+- [DATEVALUE Function (VisioShapeSheet)](datevalue-function-visioshapesheet.md)
     
-- [DATE 函数 (VisioShapeSheet)](date-function-visioshapesheet.md)
+- [DATE Function (VisioShapeSheet)](date-function-visioshapesheet.md)
     
 - [DAYOFYEAR 函数](dayofyear-function.md)
     
-- [DAY 函数 (VisioShapeSheet)](day-function-visioshapesheet.md)
+- [DAY Function (VisioShapeSheet)](day-function-visioshapesheet.md)
     
 - [DECIMALSEP 函数](decimalsep-function.md)
     
@@ -143,7 +143,7 @@ ms.locfileid: "19780336"
     
 - [FLOOR 函数](floor-function.md)
     
-- [字体函数](font-function.md)
+- [FONT 函数](font-function.md)
     
 - [FONTTOID 函数](fonttoid-function.md)
     
@@ -169,7 +169,7 @@ ms.locfileid: "19780336"
     
 - [HELP 函数](help-function.md)
     
-- [HOUR 函数 (VisioShapeSheet)](hour-function-visioshapesheet.md)
+- [HOUR Function (VisioShapeSheet)](hour-function-visioshapesheet.md)
     
 - [HSL 函数](hsl-function.md)
     
@@ -185,7 +185,7 @@ ms.locfileid: "19780336"
     
 - [IFERROR 函数](iferror-function.md)
     
-- [如果函数](if-function.md)
+- [IF 函数](if-function.md)
     
 - [INDEX 函数](index-function.md)
     
@@ -201,7 +201,7 @@ ms.locfileid: "19780336"
     
 - [ISERRNA 函数](iserrna-function.md)
     
-- [ISERROR 函数 (VisioShapeSheet)](iserror-function-visioshapesheet.md)
+- [ISERROR Function (VisioShapeSheet)](iserror-function-visioshapesheet.md)
     
 - [ISERRVALUE 函数](iserrvalue-function.md)
     
@@ -211,7 +211,7 @@ ms.locfileid: "19780336"
     
 - [KEYWORDS 函数](keywords-function.md)
     
-- [语言函数](language-function.md)
+- [LANGUAGE Function](language-function.md)
     
 - [LEFT 的函数 (VisioShapeSheet)](left-function-visioshapesheet.md)
     
@@ -233,7 +233,7 @@ ms.locfileid: "19780336"
     
 - [LOCTOPAR 函数](loctopar-function.md)
     
-- [LOC 函数 (VisioShapeSheet)](loc-function-visioshapesheet.md)
+- [LOC Function (VisioShapeSheet)](loc-function-visioshapesheet.md)
     
 - [LOG10 函数](log10-function.md)
     
@@ -255,13 +255,13 @@ ms.locfileid: "19780336"
     
 - [MID 函数 (VisioShapeSheet)](mid-function-visioshapesheet.md)
     
-- [MINUTE 函数 (VisioShapeSheet)](minute-function-visioshapesheet.md)
+- [MINUTE Function (VisioShapeSheet)](minute-function-visioshapesheet.md)
     
 - [MIN 函数](min-function.md)
     
 - [MODULUS 函数](modulus-function.md)
     
-- [MONTH 函数 (VisioShapeSheet)](month-function-visioshapesheet.md)
+- [MONTH Function (VisioShapeSheet)](month-function-visioshapesheet.md)
     
 - [MSOSHADE 函数](msoshade-function.md)
     
@@ -275,7 +275,7 @@ ms.locfileid: "19780336"
     
 - [NOT 函数](not-function.md)
     
-- [NOW 函数 (VisioShapeSheet)](now-function-visioshapesheet.md)
+- [NOW Function (VisioShapeSheet)](now-function-visioshapesheet.md)
     
 - [NURBS 函数](nurbs-function.md)
     
@@ -287,7 +287,7 @@ ms.locfileid: "19780336"
     
 - [OPENTEXTWIN 函数](opentextwin-function.md)
     
-- [或函数](or-function.md)
+- [OR 函数](or-function.md)
     
 - [PAGECOUNT 函数](pagecount-function.md)
     
@@ -335,11 +335,11 @@ ms.locfileid: "19780336"
     
 - [REWIDEN 函数](rewiden-function.md)
     
-- [RGB 函数 (VisioShapeSheet)](rgb-function-visioshapesheet.md)
+- [RGB Function (VisioShapeSheet)](rgb-function-visioshapesheet.md)
     
 - [RIGHT 函数 (VisioShapeSheet)](right-function-visioshapesheet.md)
     
-- [ROUND 函数 (VisioShapeSheet)](round-function-visioshapesheet.md)
+- [ROUND Function (VisioShapeSheet)](round-function-visioshapesheet.md)
     
 - [RUNADDONWARGS 函数](runaddonwargs-function.md)
     
@@ -351,7 +351,7 @@ ms.locfileid: "19780336"
     
 - [SAT 函数](sat-function.md)
     
-- [第二个函数 (VisioShapeSheet)](second-function-visioshapesheet.md)
+- [SECOND Function (VisioShapeSheet)](second-function-visioshapesheet.md)
     
 - [SEGMENTCOUNT 函数](segmentcount-function.md)
     
@@ -373,7 +373,7 @@ ms.locfileid: "19780336"
     
 - [SINH 函数](sinh-function.md)
     
-- [SIN 函数 (VisioShapeSheet)](sin-function-visioshapesheet.md)
+- [SIN Function (VisioShapeSheet)](sin-function-visioshapesheet.md)
     
 - [SQRT 函数](sqrt-function.md)
     
@@ -389,7 +389,7 @@ ms.locfileid: "19780336"
     
 - [TANH 函数](tanh-function.md)
     
-- [TAN 函数 (VisioShapeSheet)](tan-function-visioshapesheet.md)
+- [TAN Function (VisioShapeSheet)](tan-function-visioshapesheet.md)
     
 - [TEXTHEIGHT 函数](textheight-function.md)
     
@@ -405,9 +405,9 @@ ms.locfileid: "19780336"
     
 - [THEMEVAL 函数](themeval-function.md)
     
-- [TIMEVALUE 函数 (VisioShapeSheet)](timevalue-function-visioshapesheet.md)
+- [TIMEVALUE Function (VisioShapeSheet)](timevalue-function-visioshapesheet.md)
     
-- [TIME 函数 (VisioShapeSheet)](time-function-visioshapesheet.md)
+- [TIME Function (VisioShapeSheet)](time-function-visioshapesheet.md)
     
 - [TINT 函数](tint-function.md)
     
@@ -429,12 +429,12 @@ ms.locfileid: "19780336"
     
 - [USERUI 函数](userui-function.md)
     
-- [使用函数](use-function.md)
+- [USE 函数](use-function.md)
     
 - [VERSION 函数](version-function.md)
     
-- [WEEKDAY 函数 (VisioShapeSheet)](weekday-function-visioshapesheet.md)
+- [WEEKDAY Function (VisioShapeSheet)](weekday-function-visioshapesheet.md)
     
-- [YEAR 函数 (VisioShapeSheet)](year-function-visioshapesheet.md)
+- [YEAR Function (VisioShapeSheet)](year-function-visioshapesheet.md)
     
 

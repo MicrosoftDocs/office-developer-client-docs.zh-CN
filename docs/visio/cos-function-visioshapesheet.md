@@ -1,5 +1,5 @@
 ---
-title: COS 函数 (VisioShapeSheet)
+title: COS Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779996"
 ---
-# <a name="cos-function-visioshapesheet"></a>COS 函数 (VisioShapeSheet)
+# <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 
 返回一个角度的余弦值。 
   
@@ -28,7 +28,7 @@ COS （*角度*）
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _角度_ <br/> |必需  <br/> |**数字** <br/> |要获取其余弦值的角度。  <br/> |
+| _角度_ <br/> |必需  <br/> |**Numeric** <br/> |要获取其余弦值的角度。  <br/> |
    
 ## <a name="remarks"></a>注解
 

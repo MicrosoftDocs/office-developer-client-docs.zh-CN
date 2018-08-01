@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781494"
 ---
-# <a name="thedata-cell-events-section"></a>TheData 单元格（“Events”内容）
+# <a name="thedata-cell-events-section"></a>TheData 单元格（“Events”部分）
 
 保留以供将来使用。
   

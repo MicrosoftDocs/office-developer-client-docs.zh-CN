@@ -16,21 +16,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780590"
 ---
-# <a name="linejumpfactory-cell-page-layout-section"></a>LineJumpFactorY 单元格（“Page Layout”内容）
+# <a name="linejumpfactory-cell-page-layout-section"></a>LineJumpFactorY 单元格（“Page Layout”部分）
 
 确定页中垂直动态连接线上的跨线的大小（相对于 LineToLineY 单元格的值）。该单元格的值范围可介于 0 到 10 之间，但建议使用 0 到 1 之间的小数值。
   
 ## <a name="remarks"></a>注解
 
-您还可以在**页面设置**对话框中**布局和路由**选项卡上设置此单元格的值 （**设计**选项卡中，单击**页面设置**箭头，然后单击**布局与排列**）。
+还可以在 **“页面设置”** 对话框中的 **“布局与排列”** 选项卡（在 **“设计”** 选项卡上，单击 **“页面设置”** 箭头，然后单击 **“布局与排列”**）上设置此单元格的值。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 LineJumpFactorY 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 LineJumpFactorY 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |LineJumpFactorY  <br/> |
    
-若要从某个程序按索引获取对 LineJumpFactorY 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 LineJumpFactorY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

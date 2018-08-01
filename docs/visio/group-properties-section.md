@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780373"
 ---
-# <a name="group-properties-section"></a>“Group Properties”内容
+# <a name="group-properties-section"></a>“Group Properties”部分
 
 包含用于组合的单元格，这些单元格控制如何向组合添加形状、移动组合成员和选择组合。 
   
 ## <a name="remarks"></a>注解
 
-也可以在**行为**对话框的**行为**选项卡上设置这些值 （在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡上的**形状设计**组中单击**行为**）。 
+还可以在 **“行为”** 对话框（在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上的 **“形状设计”** 组中单击**行为**）中的 **“行为”** 选项卡上设置这些值。 
   
 

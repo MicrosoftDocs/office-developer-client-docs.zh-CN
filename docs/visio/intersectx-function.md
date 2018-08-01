@@ -39,9 +39,9 @@ INTERSECTX (* * *x1* * *，* * *y1* * *，* **角度 1* * *，* * *x2* * *，* *
 
 Number
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-每行被指一个点 （*x，y*） 和一个角。 
+每一条直线都可以定义为一个点 (*x,y*) 和一个角。 
   
 Microsoft Visio 在粘附到旋转参考线的形状的 PinX 单元格中使用此函数。 
   

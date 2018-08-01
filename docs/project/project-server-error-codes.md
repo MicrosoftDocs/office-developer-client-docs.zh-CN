@@ -29,92 +29,92 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
   
 > [!NOTE]
 >  许多错误代码都是常规代码，并且可包含多个可能的原因。有关错误的详细信息，您可执行下列操作： 
-> - 对于基于 ASMX 的应用程序，使用**System.Web.Services.Protocols.SoapException** **PSClientError**对象显示列表或错误的层次结构中的 PSI 方法调用。 请参阅[ASMX 的错误代码示例](#pj15_ErrorCodes_ASMXExample)。 
-> - 对于基于 WCF 的应用程序，您可以使用**System.ServiceModel.FaultException**获取**PSClientError**对象以及用来获取其他错误信息。 请参阅[WCF 的错误代码示例](#pj15_ErrorCodes_WCFExample)。 
+> - 对于基于 ASMX 的应用程序，可使用 **System.Web.Services.Protocols.SoapException** 与 **PSClientError** 对象显示 PSI 方法调用错误的列表或层次结构。请参阅 [ASMX 的错误代码示例](#pj15_ErrorCodes_ASMXExample)。 
+> - 对于基于 WCF 的应用程序，可使用 **System.ServiceModel.FaultException** 获取 **PSClientError** 对象，还可获取其他错误信息。请参阅 [WCF 的错误代码示例](#pj15_ErrorCodes_WCFExample)。 
 > - 使用 Project Server 计算机上的应用程序事件日志。
 > - 使用统一日志记录服务 (ULS) 跟踪日志。 有关说明，请参阅[Getting Started with Project 2010 开发](http://msdn.microsoft.com/en-us/library/gg607685.aspx)中的*检查错误*一节。 
 > - 有关使用 ULS 日志的详细信息，请参阅 Project 支持博客文章[Project Server 2010： 出现意外时](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)，和搜索的博客以"读取 ULS 日志。" 
 > - 若要有助于查找或查看 ULS 数据中的具体问题，请使用[ULS 查看器](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer)。 
-> - 使用 Microsoft SQL Server 探查器帮助 catch 或监视器数据库错误。 有关详细信息，请参阅[SQL Server 探查器](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)。 
-> - 仅供内部使用许多的错误代码。 例如，因为**ExchangeSync**和**PWA** web 服务不支持第三方开发，您不可能会看到这些领域，例如**规则**和**StatusReports**方法中的方法的错误代码。 但是，本文中的表包括所有 Project Server 错误代码的完整性。 
+> - 使用 Microsoft SQL Server Profiler 帮助捕获或监视数据库错误。有关详细信息，请参阅 [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)。 
+> - 许多错误代码仅供内部使用。例如，由于第三方开发不支持 **ExchangeSync** 和 **PWA** Web 服务，因此您可能无法查看这两个区域中的方法的错误代码，如 **Rules** 方法和 **StatusReports** 方法。但是，为了完整性，本文中的表包含所有 Project Server 错误代码。 
   
 ## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>表 1. 错误代码功能区域和相关编号范围
 
 |Project Server 功能区域|错误代码编号范围|
 |:-----|:-----|
-|[表 3： 常规错误代码](#pj15_ErrorCodes_General) <br/> |0-99;500-999;9131;10000-10099;20000-20099;26000-26099  <br/> |
-|[表 4： 活动缓存](#pj15_ErrorCodes_ActiveCache) <br/> |12000-12099  <br/> |
-|[表 5: Active Directory 同步](#pj15_ErrorCodes_ActiveDirectory) <br/> |27000-27999  <br/> |
-|[表 6： 管理 web 服务](#pj15_ErrorCodes_Admin) <br/> |16600 - 16699；19011、19012 和 19032；20003；25000 - 25099  <br/> |
-|[表 7： 存档 （备份和还原）](#pj15_ErrorCodes_Archive) <br/> |25000 - 25999；29000 - 29099  <br/> |
-|[表 8： 工作分配](#pj15_ErrorCodes_Assignments) <br/> |120-199  <br/> |
-|[表 9： 日历](#pj15_ErrorCodes_Calendar) <br/> |77；13000 - 13999  <br/> |
-|[表 10： 多维数据集生成服务 (CBS)](#pj15_ErrorCodes_CBS) <br/> |17000-17999  <br/> |
+|[表 3：常规错误代码](#pj15_ErrorCodes_General) <br/> |0-99;500-999;9131;10000-10099;20000-20099;26000-26099  <br/> |
+|[表 4：活动缓存](#pj15_ErrorCodes_ActiveCache) <br/> |12000-12099  <br/> |
+|[表 5：Active Directory 同步](#pj15_ErrorCodes_ActiveDirectory) <br/> |27000-27999  <br/> |
+|[表 6：管理 Web 服务](#pj15_ErrorCodes_Admin) <br/> |16600 - 16699；19011、19012 和 19032；20003；25000 - 25099  <br/> |
+|[表 7：存档（备份和还原）](#pj15_ErrorCodes_Archive) <br/> |25000 - 25999；29000 - 29099  <br/> |
+|[表 8：工作分配](#pj15_ErrorCodes_Assignments) <br/> |120-199  <br/> |
+|[表 9：日历](#pj15_ErrorCodes_Calendar) <br/> |77；13000 - 13999  <br/> |
+|[表 10：多维数据集生成服务 (CBS)](#pj15_ErrorCodes_CBS) <br/> |17000-17999  <br/> |
 |[表 11： 签入-签出](#pj15_ErrorCodes_CICO) <br/> |10100-10199  <br/> |
-|[表 12： 自定义字段](#pj15_ErrorCodes_CustomFields) <br/> |11500-11999  <br/> |
-|[表 13： 查阅表格](#pj15_ErrorCodes_LookupTables) <br/> |11000-11499  <br/> |
-|[表 14： 杂项](#pj15_ErrorCodes_Miscellaneous) <br/> |11000-11499  <br/> |
-|[表 15： 通知](#pj15_ErrorCodes_Notifications) <br/> |16000-16599  <br/> |
-|[表 16： 优化器](#pj15_ErrorCodes_Optimizer)（项目组合分析）  <br/> |29000-29999  <br/> |
-|[表 17： 计划工具](#pj15_ErrorCodes_Planner)（项目组合分析）  <br/> |28000-28999  <br/> |
-|[表 18： 项目](#pj15_ErrorCodes_Projects) <br/> |100-499;1000-1199;9100-9199;和 23000 23999  <br/> |
-|[表 19： 报告数据服务](#pj15_ErrorCodes_RDS)(RDS)  <br/> |24000-24999  <br/> |
-|[表 20： 资源](#pj15_ErrorCodes_Resources) <br/> |2000-2999  <br/> |
-|[表 21： 资源计划](#pj15_ErrorCodes_ResourcePlans) <br/> |30000-30999  <br/> |
-|[表 22： 规则](#pj15_ErrorCodes_Rules) <br/> |21000-21099  <br/> |
-|[表 23： 安全性](#pj15_ErrorCodes_Security) <br/> |19000-19099  <br/> |
-|[表 24： 服务器事件](#pj15_ErrorCodes_Events) <br/> |19033；22000 - 22999  <br/> |
-|[表 25： 状态](#pj15_ErrorCodes_Statusing) <br/> |3100-3199  <br/> |
-|[表 26： 状态报告](#pj15_ErrorCodes_StatusReports) <br/> |12100-12299  <br/> |
-|[表 27： 任务](#pj15_ErrorCodes_Tasks) <br/> |7000-7099  <br/> |
-|[表 28： 时间表](#pj15_ErrorCodes_Timesheets) <br/> |3200-3299  <br/> |
-|[表 29： 用户委派](#pj15_ErrorCodes_UserDelegation) <br/> |43000-43500  <br/> |
-|[表 30： 工作流](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999：工作流  <br/> |
-|[表 31: WSSInterop 和 ObjectLinkProvider （SharePoint 集成）](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499：SharePoint 集成和项目工作区  <br/> 18000 - 18099：对象链接提供程序和 SharePoint 项目导入  <br/> |
+|[表 12：自定义域](#pj15_ErrorCodes_CustomFields) <br/> |11500-11999  <br/> |
+|[表 13：查阅表格](#pj15_ErrorCodes_LookupTables) <br/> |11000-11499  <br/> |
+|[表 14：杂项](#pj15_ErrorCodes_Miscellaneous) <br/> |11000-11499  <br/> |
+|[表 15：通知](#pj15_ErrorCodes_Notifications) <br/> |16000-16599  <br/> |
+|[表 16：优化器](#pj15_ErrorCodes_Optimizer)（项目组合分析）  <br/> |29000-29999  <br/> |
+|[表 17：计划工具](#pj15_ErrorCodes_Planner)（项目组合分析）  <br/> |28000-28999  <br/> |
+|[表 18：项目](#pj15_ErrorCodes_Projects) <br/> |100-499;1000-1199;9100-9199;和 23000 23999  <br/> |
+|[表 19：报告数据服务](#pj15_ErrorCodes_RDS) (RDS)  <br/> |24000-24999  <br/> |
+|[表 20：资源](#pj15_ErrorCodes_Resources) <br/> |2000-2999  <br/> |
+|[表 21：资源计划](#pj15_ErrorCodes_ResourcePlans) <br/> |30000-30999  <br/> |
+|[表 22：规则](#pj15_ErrorCodes_Rules) <br/> |21000-21099  <br/> |
+|[表 23：安全性](#pj15_ErrorCodes_Security) <br/> |19000-19099  <br/> |
+|[表 24：服务器事件](#pj15_ErrorCodes_Events) <br/> |19033；22000 - 22999  <br/> |
+|[表 25：状态](#pj15_ErrorCodes_Statusing) <br/> |3100-3199  <br/> |
+|[表 26：状态报告](#pj15_ErrorCodes_StatusReports) <br/> |12100-12299  <br/> |
+|[表 27：任务](#pj15_ErrorCodes_Tasks) <br/> |7000-7099  <br/> |
+|[表 28：时间表](#pj15_ErrorCodes_Timesheets) <br/> |3200-3299  <br/> |
+|[表 29：用户委派](#pj15_ErrorCodes_UserDelegation) <br/> |43000-43500  <br/> |
+|[表 30：工作流](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999：工作流  <br/> |
+|[表 31：WSSInterop 和 ObjectLinkProvider（SharePoint 集成）](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499：SharePoint 集成和项目工作区  <br/> 18000 - 18099：对象链接提供程序和 SharePoint 项目导入  <br/> |
    
 ## <a name="table-2-error-code-table-by-number-range"></a>表 2. 按编号范围排列的错误代码表
 
 |错误代码范围|错误代码表|
 |:-----|:-----|
-|0-99  <br/> |[表 3： 常规错误代码](#pj15_ErrorCodes_General)，除了 77 位于[表 9： 日历](#pj15_ErrorCodes_Calendar) <br/> |
-|100-119  <br/> |[表 18： 项目](#pj15_ErrorCodes_Projects) <br/> |
-|120-199  <br/> |[表 8： 工作分配](#pj15_ErrorCodes_Assignments) <br/> |
-|500-999  <br/> |[表 3： 常规错误代码](#pj15_ErrorCodes_General) <br/> |
-|1000-1199  <br/> |[表 18： 项目](#pj15_ErrorCodes_Projects) <br/> |
-|2000-2999  <br/> |[表 20： 资源](#pj15_ErrorCodes_Resources) <br/> |
-|3100-3199  <br/> |[表 25： 状态](#pj15_ErrorCodes_Statusing) <br/> |
-|3200-3299  <br/> |[表 28： 时间表](#pj15_ErrorCodes_Timesheets) <br/> |
-|7000-7099  <br/> |[表 27： 任务](#pj15_ErrorCodes_Tasks) <br/> |
-|9100-9199  <br/> |[表 18： 项目](#pj15_ErrorCodes_Projects)，除了 9131 位于[表 3： 常规错误代码](#pj15_ErrorCodes_General) <br/> |
-|10000-10099  <br/> |[表 3： 常规错误代码](#pj15_ErrorCodes_General) <br/> |
+|0-99  <br/> |[表 3：常规错误代码](#pj15_ErrorCodes_General)，除了 77 位于[表 9：日历](#pj15_ErrorCodes_Calendar)中之外 <br/> |
+|100-119  <br/> |[表 18：项目](#pj15_ErrorCodes_Projects) <br/> |
+|120-199  <br/> |[表 8：工作分配](#pj15_ErrorCodes_Assignments) <br/> |
+|500-999  <br/> |[表 3：常规错误代码](#pj15_ErrorCodes_General) <br/> |
+|1000-1199  <br/> |[表 18：项目](#pj15_ErrorCodes_Projects) <br/> |
+|2000-2999  <br/> |[表 20：资源](#pj15_ErrorCodes_Resources) <br/> |
+|3100-3199  <br/> |[表 25：状态](#pj15_ErrorCodes_Statusing) <br/> |
+|3200-3299  <br/> |[表 28：时间表](#pj15_ErrorCodes_Timesheets) <br/> |
+|7000-7099  <br/> |[表 27：任务](#pj15_ErrorCodes_Tasks) <br/> |
+|9100-9199  <br/> |[表 18：项目](#pj15_ErrorCodes_Projects)，除了 9131 位于[表 3：常规错误代码](#pj15_ErrorCodes_General)中之外 <br/> |
+|10000-10099  <br/> |[表 3：常规错误代码](#pj15_ErrorCodes_General) <br/> |
 |10100-10199  <br/> |[表 11： 签入-签出](#pj15_ErrorCodes_CICO) <br/> |
-|11000-11499  <br/> |[表 13： 查阅表格](#pj15_ErrorCodes_LookupTables) <br/> |
-|11500-11999  <br/> |[表 12： 自定义字段](#pj15_ErrorCodes_CustomFields) <br/> |
-|12000-12099  <br/> |[表 4： 活动缓存](#pj15_ErrorCodes_ActiveCache) <br/> |
-|12100-12299  <br/> |[表 26： 状态报告](#pj15_ErrorCodes_StatusReports) <br/> |
-|13000-13999  <br/> |[表 9： 日历](#pj15_ErrorCodes_Calendar) <br/> |
-|16000-16399  <br/> |[表 15： 通知](#pj15_ErrorCodes_Notifications) <br/> |
-|16400-16499  <br/> |[表 31: WssInterop 和对象链接提供程序 （SharePoint 集成）](#pj15_ErrorCodes_WSS) <br/> |
-|16600-16699  <br/> |[表 6： 管理 web 服务](#pj15_ErrorCodes_Admin) <br/> |
-|17000-17999  <br/> |[表 10： 多维数据集生成服务 (CBS)](#pj15_ErrorCodes_CBS) <br/> |
-|18000-18099  <br/> |[表 31: SharePoint 集成](#pj15_ErrorCodes_WSS) <br/> |
-|19000-19099  <br/> |[表 23： 安全性](#pj15_ErrorCodes_Security)，除了 19011、 19012 和 19032 是中的与安全相关代码[表 6： 管理 web 服务](#pj15_ErrorCodes_Admin) <br/> |
-|20000-20099  <br/> |[表 3： 常规错误代码](#pj15_ErrorCodes_General)，除了 20003 位于[表 6： 管理 web 服务](#pj15_ErrorCodes_Admin) <br/> |
-|21000-21099  <br/> |[表 22： 规则](#pj15_ErrorCodes_Rules) <br/> |
-|22000-22999  <br/> |[表 24： 服务器事件](#pj15_ErrorCodes_Events) <br/> |
-|23000-23999  <br/> |[表 18： 项目](#pj15_ErrorCodes_Projects) <br/> |
-|24000-24999  <br/> |[表 19： 报告数据服务](#pj15_ErrorCodes_RDS)(RDS)  <br/> |
-|25000-25999  <br/> |[表 7： 存档 （备份和还原）](#pj15_ErrorCodes_Archive)，除了 25004，25006 中[表 6： 管理 web 服务](#pj15_ErrorCodes_Admin) <br/> |
-|26000-26099  <br/> |[表 3： 常规错误代码](#pj15_ErrorCodes_General) <br/> |
-|27000-27999  <br/> |[表 5: Active Directory 同步](#pj15_ErrorCodes_ActiveDirectory) <br/> |
-|28000-28999  <br/> |[表 17： 计划工具](#pj15_ErrorCodes_Planner)（项目组合分析）  <br/> |
-|29000-29999  <br/> |[表 16： 优化器](#pj15_ErrorCodes_Optimizer)(Project 项目组合分析)，除了 29021 位于[表 7： 存档](#pj15_ErrorCodes_Archive) <br/> |
-|30000-30999  <br/> |[表 21： 资源计划](#pj15_ErrorCodes_ResourcePlans) <br/> |
-|31000-31999  <br/> 32000-32100  <br/> |[表 14： 杂项](#pj15_ErrorCodes_Miscellaneous)（审核，未使用）  <br/> 项目详细信息页  <br/> |
-|35000-35999  <br/> 40000-40499  <br/> |[表 30： 工作流](#pj15_ErrorCodes_Workflow) <br/> |
-|40500-40999  <br/> 42000-42999  <br/> |[表 14： 杂项](#pj15_ErrorCodes_Miscellaneous)（**ExchangeSync**; 内部使用）  <br/> Project Web App 日程表  <br/> |
-|43000-43500  <br/> |[表 29： 用户委派](#pj15_ErrorCodes_UserDelegation) <br/> |
-|50000-51999  <br/> |[表 14： 杂项](#pj15_ErrorCodes_Miscellaneous)（数据库错误）  <br/> |
+|11000-11499  <br/> |[表 13：查阅表格](#pj15_ErrorCodes_LookupTables) <br/> |
+|11500-11999  <br/> |[表 12：自定义域](#pj15_ErrorCodes_CustomFields) <br/> |
+|12000-12099  <br/> |[表 4：活动缓存](#pj15_ErrorCodes_ActiveCache) <br/> |
+|12100-12299  <br/> |[表 26：状态报告](#pj15_ErrorCodes_StatusReports) <br/> |
+|13000-13999  <br/> |[表 9：日历](#pj15_ErrorCodes_Calendar) <br/> |
+|16000-16399  <br/> |[表 15：通知](#pj15_ErrorCodes_Notifications) <br/> |
+|16400-16499  <br/> |[表 31：WssInterop 和对象链接提供程序（SharePoint 集成）](#pj15_ErrorCodes_WSS) <br/> |
+|16600-16699  <br/> |[表 6：管理 Web 服务](#pj15_ErrorCodes_Admin) <br/> |
+|17000-17999  <br/> |[表 10：多维数据集生成服务 (CBS)](#pj15_ErrorCodes_CBS) <br/> |
+|18000-18099  <br/> |[表 31：SharePoint 集成](#pj15_ErrorCodes_WSS) <br/> |
+|19000-19099  <br/> |[表 23：安全性](#pj15_ErrorCodes_Security)，除了 19011、19012 和 19032 是[表 6：管理 Web 服务](#pj15_ErrorCodes_Admin)中与安全相关的代码 <br/> |
+|20000-20099  <br/> |[表 3：常规错误代码](#pj15_ErrorCodes_General)，除了 20003 位于[表 6：管理 Web 服务](#pj15_ErrorCodes_Admin)中之外 <br/> |
+|21000-21099  <br/> |[表 22：规则](#pj15_ErrorCodes_Rules) <br/> |
+|22000-22999  <br/> |[表 24：服务器事件](#pj15_ErrorCodes_Events) <br/> |
+|23000-23999  <br/> |[表 18：项目](#pj15_ErrorCodes_Projects) <br/> |
+|24000-24999  <br/> |[表 19：报告数据服务](#pj15_ErrorCodes_RDS) (RDS)  <br/> |
+|25000-25999  <br/> |[表 7：存档（备份和还原）](#pj15_ErrorCodes_Archive)，除了 25004、25006 位于[表 6：管理 Web 服务](#pj15_ErrorCodes_Admin)中之外 <br/> |
+|26000-26099  <br/> |[表 3：常规错误代码](#pj15_ErrorCodes_General) <br/> |
+|27000-27999  <br/> |[表 5：Active Directory 同步](#pj15_ErrorCodes_ActiveDirectory) <br/> |
+|28000-28999  <br/> |[表 17：计划工具](#pj15_ErrorCodes_Planner)（项目组合分析）  <br/> |
+|29000-29999  <br/> |[表 16：优化器](#pj15_ErrorCodes_Optimizer)（项目组合分析），除了 29021 位于[表 7：存档](#pj15_ErrorCodes_Archive)中之外 <br/> |
+|30000-30999  <br/> |[表 21：资源计划](#pj15_ErrorCodes_ResourcePlans) <br/> |
+|31000-31999  <br/> 32000-32100  <br/> |[表 14：杂项](#pj15_ErrorCodes_Miscellaneous)（审核，未使用）  <br/> 项目详细信息页  <br/> |
+|35000-35999  <br/> 40000-40499  <br/> |[表 30：工作流](#pj15_ErrorCodes_Workflow) <br/> |
+|40500-40999  <br/> 42000-42999  <br/> |[表 14：杂项](#pj15_ErrorCodes_Miscellaneous)（**ExchangeSync**；内部使用）  <br/> Project Web App 日程表  <br/> |
+|43000-43500  <br/> |[表 29：用户委派](#pj15_ErrorCodes_UserDelegation) <br/> |
+|50000-51999  <br/> |[表 14：杂项](#pj15_ErrorCodes_Miscellaneous)（数据库错误）  <br/> |
 
 <a name="pj15_ErrorCodes_General"></a>
 
@@ -145,9 +145,9 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |GeneralQueueException = 9131  <br/> |异常：队列服务中存在常规错误。  <br/> |
 |GeneralItemDoesNotExist = 10000  <br/> |指定的项不存在。  <br/> |
 |GeneralLCIDInvalid = 10001  <br/> |区域设置标识符（语言 ID）无效。  <br/> |
-|GeneralRowDoesNotExist = 10002  <br/> |**DataTable**中的指定的行不存在。  <br/> |
-|GeneralInvalidColumnValue = 20000  <br/> |**DataTable**中的列值无效。  <br/> |
-|GeneralInvalidDataRowState = 20001  <br/> |**DataRow**状态无效。  <br/> |
+|GeneralRowDoesNotExist = 10002  <br/> |**DataTable** 中的指定行不存在。  <br/> |
+|GeneralInvalidColumnValue = 20000  <br/> |**DataTable** 中的列值无效。  <br/> |
+|GeneralInvalidDataRowState = 20001  <br/> |**DataRow** 状态无效。  <br/> |
 |GeneralDuplicatedNames = 20004  <br/> |存在重复的名称。名称必须是唯一的。  <br/> |
 |GeneralReadOnlyColumn = 20005  <br/> |列为只读列。  <br/> |
 |GeneralReadOnlyRow = 20006  <br/> |行为只读行。  <br/> |
@@ -181,7 +181,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |GeneralQueueInvalidGroupPriority = 26009  <br/> |队列中的组优先级无效。  <br/> |
 |GeneralQueueInvalidCorrelationPriority = 26010  <br/> |队列中的相关优先级无效。  <br/> |
 |GeneralQueueInvalidQueueID = 26011  <br/> |队列标识号无效。  <br/> |
-|GeneralQueueInvalidAdminAction = 26012  <br/> |队列的**Admin**操作无效。  <br/> |
+|GeneralQueueInvalidAdminAction = 26012  <br/> |队列的 **Admin** 操作无效。  <br/> |
 |GeneralQueueInvalidStatType = 26013  <br/> |队列状态类型无效。  <br/> |
 |GeneralQueueInvalidBlockPolicy = 26014  <br/> |队列阻止策略无效。  <br/> |
 |GeneralQueueCannotRetryJob = 26015  <br/> |队列无法重试作业。  <br/> |
@@ -190,14 +190,14 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |GeneralDalErrorGettingConnectionStrings = 26018  <br/> |获取数据访问层 (DAL) 的连接字符串时出错。  <br/> |
 |GeneralDalErrorConnectingToDatabase = 26019  <br/> |连接到数据库时出现 DAL 错误。  <br/> |
 |GeneralDalInvalidArgumentCountCreatingFilter = 26020  <br/> |用于创建筛选器的参数量无效。  <br/> |
-|GeneralDataTableCannotBeNull = 26024  <br/> |**DataTable**不能为**null**。  <br/> |
-|GeneralDatasetConstraints = 26025  <br/> |**DataSet**约束中存在错误。  <br/> |
-|GeneralInvalidDataSetStructure = 26027  <br/> |**DataSet**结构无效。  <br/> |
+|GeneralDataTableCannotBeNull = 26024  <br/> |**DataTable** 不能为 **null**。  <br/> |
+|GeneralDatasetConstraints = 26025  <br/> |**DataSet** 约束中存在错误。  <br/> |
+|GeneralInvalidDataSetStructure = 26027  <br/> |**DataSet** 结构无效。  <br/> |
 |GeneralDalNoRowsUpdated = 26028  <br/> |未在数据访问层 (DAL) 中更新任何行。  <br/> |
-|GeneralDataTableCannotBeEmpty = 26029  <br/> |**DataTable**不能为空。  <br/> |
+|GeneralDataTableCannotBeEmpty = 26029  <br/> |**DataTable** 不能为空。  <br/> |
 |GeneralWSSContentDBNotWritable = 26030  <br/> |无法写入 SharePoint 内容数据库。内容数据库为只读或存在网站集级别的锁定。  <br/> |
 |GeneralSPValidateFormDigestError = 26031  <br/> |由于超时通常验证在 Project Web App 回调中，窗体摘要时出错。  <br/> |
-|GeneralDelegationActiveForCurrentUser = 26032  <br/> |当前用户具有活动的委派。 由**WinProj**服务的 Project Professional 中的 web 方法会引发此错误。  <br/> |
+|GeneralDelegationActiveForCurrentUser = 26032  <br/> |当前用户具有有效的委派。此错误由 Project Professional 的 **WinProj** 服务中的 Web 方法引发。<br/> |
 
 <a name="pj15_ErrorCodes_ActiveCache"></a>
 
@@ -259,8 +259,8 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |AdminUserAccountNameNull = 28021  <br/> |用户帐户名称为 null。  <br/> |
 |AdminIsWindowsUserNull = 28022  <br/> |Windows (NTLM) 用户帐户似乎为 null。  <br/> |
 |AdminInvalidTimePeriodState = 28023  <br/> |时间段状态无效。  <br/> |
-|AdminGlobalUpdateFailed = 28024  <br/> |企业全局更新在调用**setservercurrency**过程中失败。  <br/> |
-|AdminGlobalCheckedOut = 28025  <br/> |在调用**setservercurrency**过程企业全局模板已签出。  <br/> |
+|AdminGlobalUpdateFailed = 28024  <br/> |企业全局更新在调用 **SetServerCurrency** 过程中失败。  <br/> |
+|AdminGlobalCheckedOut = 28025  <br/> |企业全局模板已在调用 **SetServerCurrency** 过程中签出。  <br/> |
 |AdminInvalidDatabaseTimeout = 28026  <br/> |由于无效的数据库而超时。  <br/> |
 |AdminInvalidDatabaseTimeoutType = 28027  <br/> |由于无效的数据库类型而超时。  <br/> |
 |AdminInvalidEntityType = 28028  <br/> |实体类型无效。 请参阅[EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx) 。  <br/> |
@@ -367,7 +367,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |CalCalendarUniqueIdToDuplicateShouldBeNull = 13035  <br/> |GUID 应为 null 以复制日历。  <br/> |
 |CalendarInvalidBaseCalendarUniqueId = 13037  <br/> |基准日历 GUID 无效。  <br/> |
 |CalendarInvalidUniqueIdToDuplicate = 13038  <br/> |GUID 对复制日历无效。  <br/> |
-|CalendarUnusedCalendarException = 13039  <br/> |日历例外没有相应的日历。 如果没有**ResourceDataSet.CalendarExceptions**表中，但没有**BaseCalendarUniqueId** **资源**表中的资源中的条目，则使用**UpdateResources**方法时，发生此事件。  <br/> |
+|CalendarUnusedCalendarException = 13039  <br/> |日历例外没有对应的日历。如果 **ResourceDataSet.CalendarExceptions** 表中存在条目，但 **Resources** 表中的资源没有 **BaseCalendarUniqueId** 时使用 **UpdateResources** 方法，则会出现此情况。<br/> |
 |CalendarCannotDeleteStandardCalendar = 13040  <br/> |无法删除标准日历。  <br/> |
 |CalendarCannotRenameStandardCalendar = 13041  <br/> |无法重命名标准日历。  <br/> |
 |CalendarCannotDeleteCalendarUsedByEnterpriseResource = 13042  <br/> |日历正由企业资源使用，无法删除它。  <br/> |
@@ -418,7 +418,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 
 ## <a name="table-11-check-in-and-check-out"></a>表 11。 签入和签
 
-|签入-签出错误代码|说明|
+|签入 - 签出错误代码|说明|
 |:-----|:-----|
 |CICOCheckedOutToOtherUser = 10100  <br/> |已签出给另一个用户。  <br/> |
 |CICOAlreadyCheckedOutToYou = 10101  <br/> |已签出给您。  <br/> |
@@ -492,7 +492,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |CustomFieldCannotModifyDepartmentUidOnBuiltinFields = 11732  <br/> |无法对内置自定义域修改部门 GUID。  <br/> |
 |CustomFieldCannotHaveBothLookupTableAndMultilineText = 11733  <br/> |自定义域不能同时包含查阅表格和多行文本。  <br/> |
 |CustomFieldCannotHaveBothFormulaAndMultilineText = 11734  <br/> |自定义域不能同时包含公式和多行文本。  <br/> |
-|CustomFieldDescriptionExceedsLimit = 11735  <br/> |自定义字段的说明过长。 **MD_PROP_DESCRIPTION**属性的最大长度为 1000年个字符。  <br/> |
+|CustomFieldDescriptionExceedsLimit = 11735  <br/> |自定义域说明太长。**MD_PROP_DESCRIPTION** 属性的最大长度为 1000 个字符。<br/> |
 |CustomFieldOnlyTextFieldsCanHaveMultilineText = 11736  <br/> |仅文本自定义域可具有多行文本。  <br/> |
 |CustomFieldOnlyProjectFieldsCanHaveMultilineText = 11737  <br/> |仅项目自定义域可具有多行文本。  <br/> |
 |CustomFieldCannotChangeWorkflowControlledBehaviorForNonProjectCustomFields = 11738  <br/> |自定义域无法更改工作流控制的非项目自定义域的行为。  <br/> |
@@ -582,8 +582,8 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |ProjectDetailPagesUnavailableWorker = 32002  <br/> |项目明细加载失败。无可用工作进程。  <br/> |
 |ProjectDetailPagesFailedToLoadProjectInWorker = 32003  <br/> |工作进程未能加载。  <br/> |
 |AppPermissionInvalidAppPermissionId = 32300  <br/> |应用程序权限 ID 存在问题。  <br/> |
-|InvariantValidationPSIFailed = 40000  <br/> |如果任何私有方法返回**ValidationMethodFailed** **PWA**方法返回。 内部使用。  <br/> |
-|ValidationMethodFailed = 40001  <br/> |检测到数据库不一致情况时，由私有**PWA**方法返回。 内部使用。  <br/> |
+|InvariantValidationPSIFailed = 40000  <br/> |如果任何私有方法返回 **ValidationMethodFailed**，则由 **PWA** 返回。内部使用。<br/> |
+|ValidationMethodFailed = 40001  <br/> |如果私有 **PWA** 方法检测到数据库不一致，则由这些私有方法返回。内部使用。<br/> |
 |GeneralExchangeSyncError = 40500  <br/> |Microsoft Exchange 同步中存在常规错误。内部使用。  <br/> |
 |ExchangeSyncRootFolderCreationFailed = 40501  <br/> |未能创建 Microsoft Exchange 同步的根文件夹。  <br/> |
 |ExchangeSyncTaskFolderCreationFailed = 40502  <br/> |未能创建任务文件夹。  <br/> |
@@ -606,7 +606,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 
 <a name="pj15_ErrorCodes_Notifications"></a>
 
-## <a name="table-15-notification"></a>表 15。 通知
+## <a name="table-15-notification"></a>表 15。 Notification
 
 |通知错误代码|说明|
 |:-----|:-----|
@@ -791,7 +791,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |PlannerCannotDeleteSolution = 28902  <br/> |计划工具无法删除解决方案。  <br/> |
 |PlannerCannotCreateMultipleSolutions = 28903  <br/> |计划工具无法创建多个解决方案。  <br/> |
 |PlannerCannotUpdateMultipleSolutions = 28904  <br/> |计划工具无法更新多个解决方案。  <br/> |
-|PlannerTableIsReadOnly = 28907  <br/> |**DataTable**为只读。  <br/> |
+|PlannerTableIsReadOnly = 28907  <br/> |**DataTable** 为只读。  <br/> |
 |PlannerCannotCommitSolution = 28908  <br/> |计划工具无法将解决方案提交到数据库。  <br/> |
 |PlannerFieldIsReadOnly = 28909  <br/> |域为只读。  <br/> |
 |PlannerProjectNotInParentSolution = 28910  <br/> |项目不在父解决方案中。  <br/> |
@@ -843,7 +843,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |ProjectOptCurrencyDigitsInvalid = 1037  <br/> |可选货币位数无效。  <br/> |
 |ProjectOptCurrencySymbolTooLong = 1038  <br/> |可选货币符号太长。  <br/> |
 |ProjectCannotDelete = 1039  <br/> |无法删除项目。仅常规或模板服务器端项目可删除。  <br/> |
-|ProjectCannotAdd = 1040  <br/> |不能在服务器端项目使用**AddToProject**方法。  <br/> |
+|ProjectCannotAdd = 1040  <br/> |无法对服务器端项目使用 **AddToProject** 方法。  <br/> |
 |ProjectOptCurrencySymbolInvalid = 1041  <br/> |可选货币符号无效。  <br/> |
 |ProjectHasNoWriteLock = 1042  <br/> |项目没有写锁定。  <br/> |
 |ProjectFilterInvalid = 1043  <br/> |项目筛选器无效。  <br/> |
@@ -857,10 +857,10 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |ProjectIsNotPublished = 1051  <br/> |未发布项目。  <br/> |
 |ProjectExceededLWPTaskLimit = 1052年  <br/> |超出项目建议的任务限制（轻型项目）。  <br/> |
 |ProjectOptFinishDateInvalid = 1053  <br/> |项目选项中的完成日期无效。  <br/> |
-|ProjectExceededItemsLimit = 1054  <br/> |超过要处理的项的限制。 Project Server service 应用程序不能使用**ProjectDataSet**添加或更新所有表中总计超过 1000 个项。 要处理超过 1000 个项，使用多个呼叫，例如， **QueueUpdateProject**。  <br/> |
+|ProjectExceededItemsLimit = 1054  <br/> |超出了要处理的项的限制。Project Server Service 应用程序在所有表中均无法使用 **ProjectDataSet** 添加或更新 1000 个以上的项。若要处理 1000 个以上的项，请使用多个调用，例如，调用 **QueueUpdateProject**。<br/> |
 |ProjectColumnNotReadOnly = 1055  <br/> |列为只读。  <br/> |
 |ProjectInvalidOwner = 1056  <br/> |项目所有者无效。  <br/> |
-|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |无法为没有实际工作分配的任务编辑**PctWorkComplete** 。  <br/> |
+|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |无法为没有实际工作分配的任务编辑 **PctWorkComplete**。  <br/> |
 |ProjectCannotEditMaterialResource = 1058  <br/> |无法编辑材料资源。  <br/> |
 |ProjectCannotEditFieldWhenTaskHasNoWorkAssignment = 1059  <br/> |无法编辑域，因为任务没有工作分配。  <br/> |
 |ProjectSubProjectNotFound = 1070  <br/> |. 未找到任何子项目。  <br/> |
@@ -1046,7 +1046,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |ResourcePlanInvalidProjectUID = 30011  <br/> |资源计划的项目 GUID 无效。  <br/> |
 |ResourcePlanResourceAlreadyExists = 30012  <br/> |资源已在资源计划中。  <br/> |
    
-表 22 中的错误代码都是**PWA** web 服务中的**规则**方法。 内部使用它们。 
+表 22 中的错误代码是 **PWA** Web 服务中 **Rules** 方法的错误代码。这些代码供内部使用。 
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
@@ -1066,7 +1066,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 
 <a name="pj15_ErrorCodes_Security"></a>
 
-## <a name="table-23-security"></a>表 23。 安全性
+## <a name="table-23-security"></a>表 23。 安全
 
 |安全性错误代码|说明|
 |:-----|:-----|
@@ -1146,38 +1146,38 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 
 |Statusing web 服务错误代码|说明|
 |:-----|:-----|
-|StatusingInvalidEntity = 3102  <br/> |**Statusing**的实体无效。  <br/> |
+|StatusingInvalidEntity = 3102  <br/> |**Statusing** 的实体无效。  <br/> |
 |StatusingGetDataForTaskFailed = 3103  <br/> |未能获取任务状态数据。  <br/> |
 |StatusingGetTaskOrAssnCntrFailed = 3104  <br/> |未能获取任务或工作分配中心的状态。  <br/> |
-|StatusingInvalidPIDForProjCntr = 3105  <br/> |项目中心的**Statusing**属性标识号无效。  <br/> |
-|StatusingDeleteAssnFailed = 3106  <br/> |未能删除**处于 Statusing**进程中的工作分配。  <br/> |
-|StatusingAssnSaveFailed = 3107  <br/> |未能保存**处于 Statusing**进程中的工作分配。  <br/> |
-|StatusingTaskSaveFailed = 3108  <br/> |未能保存**处于 Statusing**进程中的任务。  <br/> |
-|StatusingInvalidPID = 3109  <br/> |**Statusing**属性标识号无效。  <br/> |
-|StatusingSetDataValueInvalid = 3111  <br/> |**Statusing**数据值无效。  <br/> |
-|StatusingSetDataFailed = 3112  <br/> |未能设置**Statusing**数据值。  <br/> |
-|StatusingInvalidDelegationStart = 3113  <br/> |**DelegateAssignments**方法中工作分配的开始时间无效。  <br/> |
+|StatusingInvalidPIDForProjCntr = 3105  <br/> |项目中心的 **Statusing** 属性标识号无效。  <br/> |
+|StatusingDeleteAssnFailed = 3106  <br/> |未能删除处于 **Statusing** 进程中的工作分配。  <br/> |
+|StatusingAssnSaveFailed = 3107  <br/> |未能保存处于 **Statusing** 进程中的工作分配。  <br/> |
+|StatusingTaskSaveFailed = 3108  <br/> |未能保存处于 **Statusing** 进程中的任务。  <br/> |
+|StatusingInvalidPID = 3109  <br/> |**Statusing** 属性标识号无效。  <br/> |
+|StatusingSetDataValueInvalid = 3111  <br/> |**Statusing** 数据值无效。  <br/> |
+|StatusingSetDataFailed = 3112  <br/> |未能设置 **Statusing** 数据值。  <br/> |
+|StatusingInvalidDelegationStart = 3113  <br/> |**DelegateAssignments** 方法中工作分配的开始时间无效。  <br/> |
 |StatusingApprovalUpdateFailed = 3114  <br/> |未能更新状态审批。  <br/> |
 |StatusingInvalidApprovalType = 3115  <br/> |状态审批类型无效。  <br/> |
-|StatusingInternalError = 3116  <br/> |**Statusing**方法中存在内部处理错误。  <br/> |
-|StatusingInvalidUpdateData = 3117  <br/> |**Statusing**方法中的更新数据无效。  <br/> |
-|StatusingProjectUpdateFailed = 3118  <br/> |项目的**statusing**更新失败。  <br/> |
-|StatusingInvalidPreviewData = 3119  <br/> |**Statusing**预览数据无效。  <br/> |
-|StatusingInvalidTransaction = 3120  <br/> |**Statusing**事务无效。  <br/> |
+|StatusingInternalError = 3116  <br/> |**Statusing** 方法中存在内部处理错误。  <br/> |
+|StatusingInvalidUpdateData = 3117  <br/> |**Statusing** 方法中的更新数据无效。  <br/> |
+|StatusingProjectUpdateFailed = 3118  <br/> |项目的 **Statusing** 更新失败。  <br/> |
+|StatusingInvalidPreviewData = 3119  <br/> |**Statusing** 预览数据无效。  <br/> |
+|StatusingInvalidTransaction = 3120  <br/> |**Statusing** 事务无效。  <br/> |
 |StatusingTooManyResults = 3121  <br/> |结果太多。读取时间分段状态数据时，将返回 5000 以上的行。  <br/> |
-|StatusingInvalidInterval = 3122  <br/> |**Statusing**方法中的时间间隔无效。 间隔必须以分钟为单位，并且必须大于零。  <br/> |
-|StatusingApplyUpdatesFailed = 3123  <br/> |未能应用**Statusing**更新时进行排队请求。  <br/> |
-|StatusingApplyUpdatesFailure = 3124  <br/> |队列处理过程中应用**Statusing**更新失败。  <br/> |
-|StatusingInvalidWorkData = 3125  <br/> |**Statusing**的工作数据无效。  <br/> |
-|StatusingMissingNameAttribute = 3126  <br/> |**Statusing**的名称属性丢失。  <br/> |
-|StatusingInvalidNameAttribute = 3127  <br/> |**Statusing**的名称属性无效。  <br/> |
-|StatusingInvalidData = 3128  <br/> |**Statusing**数据无效。  <br/> |
+|StatusingInvalidInterval = 3122  <br/> |**Statusing** 方法中的间隔无效。间隔必须使用分钟，并且必须大于 0。<br/> |
+|StatusingApplyUpdatesFailed = 3123  <br/> |对请求进行排队时，未能应用 **Statusing** 更新。  <br/> |
+|StatusingApplyUpdatesFailure = 3124  <br/> |队列处理过程中，未能应用 **Statusing** 更新。  <br/> |
+|StatusingInvalidWorkData = 3125  <br/> |**Statusing** 的工作数据无效。  <br/> |
+|StatusingMissingNameAttribute = 3126  <br/> |**Statusing** 的名称属性丢失。  <br/> |
+|StatusingInvalidNameAttribute = 3127  <br/> |**Statusing** 的名称属性无效。  <br/> |
+|StatusingInvalidData = 3128  <br/> |**Statusing** 数据无效。  <br/> |
 |StatusingInvalidChangelist = 3130  <br/> |**UpdateStatus**方法的_changexml_参数中的 XML 数据无效。  <br/> |
-|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData**无法更新工作分配，因为用户没有权限。  <br/> |
-|StatusingInvalidChangeNumber = 3132  <br/> |**Statusing**更改编号无效。  <br/> |
-|StatusingPidNotEditable = 3133  <br/> |**Statusing**属性标识号不可编辑。  <br/> |
-|StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |无法设置时间分段数据手动任务中的**状态**。  <br/> |
-|StatusingCannotChangeTaskMode = 3135  <br/> |无法更改**Statusing**的任务模式。  <br/> |
+|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** 无法更新工作分配，因为用户没有权限。  <br/> |
+|StatusingInvalidChangeNumber = 3132  <br/> |**Statusing** 更改编号无效。  <br/> |
+|StatusingPidNotEditable = 3133  <br/> |**Statusing** 属性标识号不可编辑。  <br/> |
+|StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |无法在 **Statusing** 的手动任务中设置时间分段数据。  <br/> |
+|StatusingCannotChangeTaskMode = 3135  <br/> |无法更改 **Statusing** 的任务模式。  <br/> |
    
 表 26 中的错误代码都是**StatusReports** **PWA** web 服务中的方法。 它们内部用于 Project Web App 中。 
 
@@ -1187,14 +1187,14 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 
 |状态报告错误代码|说明|
 |:-----|:-----|
-|StatusReportsUnknownError = 12100  <br/> |**StatusReports**中存在未知的错误。  <br/> |
+|StatusReportsUnknownError = 12100  <br/> |**StatusReports** 中存在未知错误。  <br/> |
 |StatusReportsPeriodUnmatched = 12101  <br/> |无法匹配状态报告期间。  <br/> |
 |StatusReportsPeriodUnavailable = 12102  <br/> |状态报告期间不可用。  <br/> |
 |StatusReportsInvalidFormInput = 12103  <br/> |状态报告窗体中的数据无效。  <br/> |
 
 <a name="pj15_ErrorCodes_Tasks"></a>
 
-## <a name="table-27-task"></a>表 27。 任务 
+## <a name="table-27-task"></a>表 27。 Task 
 
 |任务错误代码|说明|
 |:-----|:-----|
@@ -1326,7 +1326,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |WorkflowMultipleStagesInProgress = 35119  <br/> |工作流中有多个容器正在进行。  <br/> |
 |WorkflowActivityInvalidArgument = 35120  <br/> |在工作流活动收到无效参数时将会收到的消息。  <br/> |
 |WorkflowMTWConfigurationError = 35121  <br/> |Microsoft Azure 工作流配置错误。  <br/> |
-|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |**ENTERPRISE_PROJECT_TYPE_UID**无效。  <br/> |
+|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |**ENTERPRISE_PROJECT_TYPE_UID** 无效。  <br/> |
 |EnterpriseProjectTypeCannotCreateEnterpriseProjectType = 35201  <br/> |无法创建企业项目类型。  <br/> |
 |EnterpriseProjectTypeCannotUpdateEnterpriseProjectType = 35202  <br/> |无法更新企业项目类型。  <br/> |
 |EnterpriseProjectTypeCannotDeleteEnterpriseProjectType = 35203  <br/> |无法删除企业项目类型。  <br/> |
@@ -1339,7 +1339,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |EnterpriseProjectTypeCannotReadWssSettings = 35210  <br/> |无法读取 SharePoint 设置。  <br/> |
 |EnterpriseProjectTypeCannotReadWssLanguagesAndTemplates = 35211  <br/> |无法读取 SharePoint 语言和网站模板。  <br/> |
 |EnterpriseProjectTypeInvalidDepartmentUid = 35212  <br/> |[DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.DEPARTMENT_UID.aspx)无效。  <br/> |
-|EnterpriseProjectTypeInvalidUri = 35213  <br/> |[ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx)无效。  <br/> |
+|EnterpriseProjectTypeInvalidUri = 35213  <br/> |[ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx) 无效。  <br/> |
 |EnterpriseProjectTypeUriRequiresHttp = 35214  <br/> |企业项目类型 URI 需要 HTTP 协议。  <br/> |
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |无法删除默认的企业项目类型。  <br/> |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |无法更改默认的企业项目类型。  <br/> |
@@ -1347,7 +1347,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |工作流的企业项目模板 (EPT) 需要关联的*创建*类型项目详细信息页面 (PDP)，以使用 EPT 创建项目。 EPT 定义中不包含 PDP 时发生此错误。 其他 PDP 类型都是*普通*编辑的项目和*工作流状态*显示与工作流项目的详细信息。  <br/> |
 |EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |EPT 定义允许只有一个*创建*类型项目详细信息页。  <br/> |
 |EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |工作流的企业项目模板 (EPT) 需要关联的*创建*类型项目详细信息页面 (PDP)，以使用 EPT 创建项目。 另一种类型的工作流的 EPT 定义中 PDP 时，将发生此错误。 其他 PDP 类型都是*普通*编辑的项目和*工作流状态*显示与工作流项目的详细信息。  <br/> |
-|EnterpriseProjectTypeInvalidData = 35221  <br/> |为企业项目类型的**WorkflowDataSet**具有无效的数据。  <br/> |
+|EnterpriseProjectTypeInvalidData = 35221  <br/> |企业项目类型的 **WorkflowDataSet** 具有无效的数据。  <br/> |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |未定义默认企业项目类型。  <br/> |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |企业项目类型至少需要一个项目详细信息页。  <br/> |
 |EnterpriseProjectTypeWorkflowStatusPDPNotAllowed = 35224  <br/> |企业项目类型不允许使用工作流状态的项目详细信息页。  <br/> |
@@ -1380,10 +1380,10 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 |WSSWebCannotStartOrEndOnPeriod = 16418  <br/> |SharePoint 网站名称不能以句点开头或结尾。  <br/> |
 |WSSCannotDeleteSiteCollection = 16419  <br/> |无法删除网站集。  <br/> |
 |WSSListUidInvalid = 16420  <br/> |SharePoint 列表 GUID 无效。  <br/> |
-|WSSSyncDataSetListUidMismatch = 16421  <br/> |SharePoint 列表 GUID 不匹配的列表同步的**DataSet**中的 GUID。  <br/> |
-|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |与 SharePoint 同步的**DataSet**缺少的项目设置行。  <br/> |
-|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |任务映射不是与 SharePoint 同步的**DataSet**中允许。  <br/> |
-|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |SharePoint 列表 GUID 为空与 SharePoint 同步的**DataSet**中。  <br/> |
+|WSSSyncDataSetListUidMismatch = 16421  <br/> |SharePoint 列表 GUID 与同步 **DataSet** 中的列表 GUID 不匹配。  <br/> |
+|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |要与 SharePoint 同步的 **DataSet** 缺少属性设置行。  <br/> |
+|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |要与 SharePoint 同步的 **DataSet** 中不允许任务映射。  <br/> |
+|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |SharePoint 列表 GUID 在要与 SharePoint 同步的 **DataSet** 中为空。  <br/> |
 |WSSSyncDataNotFound = 16425  <br/> |与 SharePoint 的同步中存在数据丢失。  <br/> |
 |WSSSyncCriticalDataValidationError = 16426  <br/> |与 SharePoint 的同步中存在严重的数据验证错误。  <br/> |
 |WSSSyncSharePointListNotAccessibleError = 16427  <br/> |SharePoint 列表不可访问。  <br/> |

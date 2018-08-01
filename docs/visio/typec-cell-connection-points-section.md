@@ -16,27 +16,27 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781577"
 ---
-# <a name="type--c-cell-connection-points-section"></a>Type / C 单元格（“Connection Points”内容）
+# <a name="type--c-cell-connection-points-section"></a>Type / C 单元格（“Connection Points”部分）
 
 确定连接点类型。
   
-|**值**|**类型**|**自动化常量**|
+|**值**|**类型**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |向内  <br/> |**visCnnctTypeInward** <br/> |
 |1  <br/> |向外  <br/> |**visCnnctTypeOutward** <br/> |
 |2  <br/> |向内&amp;向外  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-您还可以通过选择**连接器**工具，选择一个形状，然后右键单击连接点设置连接点类型。 若要执行此操作，您需要以[开发人员](run-in-developer-mode-display-the-developer-tab.md)模式运行。 
+您也可以通过选择 **“连接线”** 工具，再选择一个形状，然后右键单击连接点，来设置连接点类型。若要完成此操作，需要在[开发工具](run-in-developer-mode-display-the-developer-tab.md)模式下运行。 
   
-若要获取的引用类型 / C 单元格按名称从另一个公式或从程序使用**CellsU**属性，使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Type / C 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Connections.Type [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要获取的引用类型 / C 单元格从某个程序按索引使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Type / C 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

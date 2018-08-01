@@ -84,7 +84,7 @@ MAPI_E_TOO_COMPLEX
     
    - 仅支持这种类型的排序附件表指定排序操作以外从头到尾转接**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性中的表。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPITable::SortTable**方法在表视图中对行进行排序。 某些表格中支持标准和分类键列的排序各种上排序，而其他表在支持更多限制。 通讯簿提供程序通常不支持表排序。 消息存储提供程序通常支持的范围内它们保留文件夹的完整表格 （无限制） 进行排序时结果的排序顺序排序。 
   
@@ -116,5 +116,5 @@ MAPI_E_TOO_COMPLEX
 - [IMAPITable::QuerySortOrder](imapitable-querysortorder.md)
 - [IMAPITable::SetColumns](imapitable-setcolumns.md)
 - [SSortOrderSet](ssortorderset.md)
-- [IMAPITable: IUnknown](imapitableiunknown.md)
+- [IMAPITable : IUnknown](imapitableiunknown.md)
 

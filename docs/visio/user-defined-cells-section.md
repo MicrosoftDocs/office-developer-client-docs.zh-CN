@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781603"
 ---
-# <a name="user-defined-cells-section"></a>“User-defined Cells”内容
+# <a name="user-defined-cells-section"></a>“User-Defined Cells”部分
 
 在特定于用户的单元格中输入公式（可由其他单元格和加载项工具引用）的工作区。
   
@@ -26,6 +26,6 @@ ms.locfileid: "19781603"
   
 如果您的解决方案必须定义完善用途，建议使用单元格在**用户定义的单元格**部分为清楚起见因为可以名为用户的单元格。 **草稿**部分通常用于将隔离重复复杂的计算。 
   
-若要添加此部分中，使用**插入节**对话框 （在 ShapeSheet 窗口中单击右键，然后单击**插入节**）。
+若要添加此内容，请使用 **“插入内容”** 对话框（在 ShapeSheet 窗口中单击右键，然后单击 **“插入内容”**）。
   
 

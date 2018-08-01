@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780351"
 ---
-# <a name="glue-info-section"></a>“Glue Info”内容
+# <a name="glue-info-section"></a>“Glue Info”部分
 
 包含当某一维形状粘附于其他形状时为该一维形状生成的公式。
   

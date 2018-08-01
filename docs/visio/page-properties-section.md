@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19780828"
 ---
-# <a name="page-properties-section"></a>“Page Properties”内容
+# <a name="page-properties-section"></a>“Page Properties”部分
 
 包含控制页属性（如页面宽度、高度和比例）的单元格。
   

@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781574"
 ---
-# <a name="type-cell-text-fields-section"></a>Type 单元格（“Text Fields”内容）
+# <a name="type-cell-text-fields-section"></a>Type 单元格（“Text Fields”部分）
 
 指定文本域值的数据类型。
   
@@ -32,13 +32,13 @@ ms.locfileid: "19781574"
 
 您还可以设置此单元格，使用**字段**对话框中的值 （与选定形状，在**插入**选项卡中的**文本**组中，单击**域**）。 
   
-若要获取对 Type 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Type 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Fields.Type [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 Type 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Type 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

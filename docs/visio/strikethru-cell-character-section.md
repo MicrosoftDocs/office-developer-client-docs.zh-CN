@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781454"
 ---
-# <a name="strikethru-cell-character-section"></a>Strikethru 单元格（“Character”内容）
+# <a name="strikethru-cell-character-section"></a>Strikethru 单元格（“Character”部分）
 
 确定文本格式是否设置为带删除线。
   
@@ -27,15 +27,15 @@ ms.locfileid: "19781454"
    
 ## <a name="remarks"></a>注解
 
-您还可以使用**文本**对话框来设置此单元格的值 （在**主页**选项卡上，单击**字体**箭头）。 
+还可以使用 **“文本”** 对话框（在 **“开始”** 选项卡上，单击 **“字体”** 箭头）设置此单元格的值。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Strikethru 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Strikethru 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Char.Strikethru [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 Strikethru 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Strikethru 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

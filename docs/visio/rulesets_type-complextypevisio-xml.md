@@ -50,7 +50,7 @@ ms.locfileid: "19781197"
 |:-----|:-----|:-----|
 |[规则集](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

@@ -32,7 +32,7 @@ ISERR (* * *cellreference* * *)
    
 ## <a name="example-1"></a>示例 1
 
-|**Cell**|**Formula**|**返回值**|
+|**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch.B1  <br/> |=ISERR(Scratch.A1)  <br/> |FALSE  <br/> |
@@ -41,7 +41,7 @@ ISERR (* * *cellreference* * *)
   
 ## <a name="example-2"></a>示例 2
 
-|**Cell**|**Formula**|**返回值**|
+|**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |Scratch.X1  <br/> |="House"  <br/> |#VALUE!  <br/> |
 |Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |

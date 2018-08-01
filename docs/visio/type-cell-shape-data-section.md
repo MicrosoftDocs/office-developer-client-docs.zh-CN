@@ -16,30 +16,30 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781573"
 ---
-# <a name="type-cell-shape-data-section"></a>Type 单元格（“Shape Data”内容）
+# <a name="type-cell-shape-data-section"></a>Type 单元格（“Shape Data”部分）
 
 指定形状数据值的数据类型。
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |字符串。此为默认值。  <br/> |**visPropTypeString** <br/> |
-|1  <br/> |固定的列表。 在**定义形状数据**对话框中显示下拉组合中的列表项的框。 在 Format 单元格中指定列表项。 用户可以从列表中选择一个项目。  <br/> |**visPropTypeListFix** <br/> |
+|1  <br/> |固定列表。在 **“定义形状数据”** 对话框中的下拉组合框中显示列表项。在 Format 单元格中指定列表项。用户只能从该列表中选择一项。<br/> |**visPropTypeListFix** <br/> |
 |2  <br/> |数字。包括日期、时间、持续时间和货币值，以及标量、尺寸和角度。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeNumber** <br/> |
-|3  <br/> |布尔值。 显示 FALSE 和项目用户可以选择在**定义形状数据**对话框中的下拉列表框中，则返回 TRUE。  <br/> |**visPropTypeBool** <br/> |
-|4  <br/> |可变列表。 在**定义形状数据**对话框中显示下拉组合中的列表项的框。 在 Format 单元格中指定列表项。 用户可选择列表项或输入新项目添加到当前列表的 Format 单元格。  <br/> |**visPropTypeListVar** <br/> |
+|3  <br/> |布尔值。显示 FALSE 和 TRUE 项，这两项正是用户可以从 **“定义形状数据”** 对话框中的下拉列表框中选择的项。<br/> |**visPropTypeBool** <br/> |
+|4  <br/> |变量列表。在 **“定义形状数据”** 对话框中的下拉组合框中显示列表项。在 Format 单元格中指定列表项。用户可以选择列表项或在 Format 单元格中输入添加到当前列表中的新项。<br/> |**visPropTypeListVar** <br/> |
 |5  <br/> |日期或时间值。显示日、月和年，或者秒、分钟和小时，或者日期和时间的组合值。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeDate** <br/> |
 |6  <br/> |持续时间值。显示已经过去的时间。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeDuration** <br/> |
 |7  <br/> |货币值。使用系统的当前“区域设置”。在 Format 单元格中指定格式图片。  <br/> |**visPropTypeCurrency** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-若要获取对 Type 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Type 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |属性。*名称*。类型其中属性。 *Name*是行名称  <br/> |
    
-若要从某个程序按索引获取对 Type 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Type 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

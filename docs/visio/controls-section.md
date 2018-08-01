@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779998"
 ---
-# <a name="controls-section"></a>“Controls”内容
+# <a name="controls-section"></a>“Controls”部分
 
 包含与为形状定义的每个控制手柄相对应的行和单元格。
   

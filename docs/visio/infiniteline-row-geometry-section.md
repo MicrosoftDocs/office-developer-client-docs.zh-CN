@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780448"
 ---
-# <a name="infiniteline-row-geometry-section"></a>InfiniteLine 行（“Geometry”内容）
+# <a name="infiniteline-row-geometry-section"></a>InfiniteLine 行（“Geometry”部分）
 
 包含*x*和*y* -无限长线上两个点的坐标。 
   

@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781297"
 ---
-# <a name="shapesplit-cell-shape-layout-section"></a>ShapeSplit 单元格（“Shape Layout”内容）
+# <a name="shapesplit-cell-shape-layout-section"></a>ShapeSplit 单元格（“Shape Layout”部分）
 
 指示此形状是否可以拆分其他可拆分的形状。
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 不允许此形状拆分其他形状。  <br/> |**visSLOSplitNone** <br/> |
 | 1  <br/> | 允许此形状拆分其他形状。  <br/> |**visSLOSplitAllow** <br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "19781297"
 |:-----|:-----|
 | 单元格名称：  <br/> | ShapeSplit  <br/> |
    
-若要从某个程序按索引获取对 ShapeSplit 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ShapeSplit 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

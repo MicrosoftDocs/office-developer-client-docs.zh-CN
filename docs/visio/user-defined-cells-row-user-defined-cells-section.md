@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781600"
 ---
-# <a name="user-defined-cells-row-user-defined-cells-section"></a>User-defined Cells 行（“User-defined Cells”内容）
+# <a name="user-defined-cells-row-user-defined-cells-section"></a>User-defined Cells 行（“User-defined Cells”部分）
 
 包含解决方案中所有用户定义的单元格的值和说明性提示。对于每个用户定义的值/提示单元格对，形状都包含一个与之对应的 User-defined Cells 行。
   

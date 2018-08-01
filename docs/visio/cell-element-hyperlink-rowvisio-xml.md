@@ -42,7 +42,7 @@ ms.locfileid: "19779830"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Row 元素 （超链接内容）](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |包含与形状相关联的超链接的信息。 形状将包含一个**超链接**行的每个超链接。  <br/> |
+|[Row 元素（“Hyperlink”部分）](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |包含与形状相关联的超链接的信息。 形状将包含一个**超链接**行的每个超链接。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19779830"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定在绘图页上的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,11 +60,11 @@ ms.locfileid: "19779830"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
 |Address  <br/> |指定要跳转到的 URL 地址、文件名或 UNC 路径。  <br/> |[Address Cell (Hyperlinks Section)](address-cell-hyperlinks-section.md) <br/> |
 |默认  <br/> |确定形状或页面的默认超链接。  <br/> |[Default Cell (Hyperlinks Section)](default-cell-hyperlinks-section.md) <br/> |

@@ -42,7 +42,7 @@ ms.locfileid: "19781161"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[节](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |用于输入和测试可由其他单元格引用的公式的工作区。  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |用于输入和测试可由其他单元格引用的公式的工作区。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19781161"
 |:-----|:-----|:-----|
 |[Cell](cell-element-scratch-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定单个属性。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

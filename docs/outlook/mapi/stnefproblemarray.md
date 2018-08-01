@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: baa2ac2e859b42234fcb07dd2bf521424ef9b465
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _STnefProblemArray
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cProblem**
   
@@ -50,7 +50,7 @@ typedef struct _STnefProblemArray
   
 > [STnefProblem](stnefproblem.md)结构的数组。 每个结构包含有关的属性或特性处理问题的信息。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 输出参数在[ITnef::ExtractProps](itnef-extractprops.md)方法并在每个[ITnef::Finish](itnef-finish.md)方法属性或属性处理过程中出现问题，如果收到一个指向**STnefProblemArray**结构和**ExtractProps**并**完成**每个返回 MAPI_W_ERRORS_RETURNED 的值。 此错误值指示处理过程中出现的问题和生成**STnefProblemArray**结构。 
   

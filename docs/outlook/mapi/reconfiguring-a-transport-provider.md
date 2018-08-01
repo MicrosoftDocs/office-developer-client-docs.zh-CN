@@ -1,5 +1,5 @@
 ---
-title: 重新配置的传输提供程序
+title: 重新配置传输提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778597"
 ---
-# <a name="reconfiguring-a-transport-provider"></a>重新配置的传输提供程序
+# <a name="reconfiguring-a-transport-provider"></a>重新配置传输提供程序
 
   
   

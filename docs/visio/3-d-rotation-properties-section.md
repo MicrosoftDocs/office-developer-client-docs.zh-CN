@@ -1,5 +1,5 @@
 ---
-title: 三维旋转 Properties
+title: “3-D Rotation Properties”部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,14 +14,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779596"
 ---
-# <a name="3-d-rotation-properties-section"></a>三维旋转 Properties
+# <a name="3-d-rotation-properties-section"></a>“3-D Rotation Properties”部分
 
 显示形状的沿 x、 y 和 z 轴的旋转角度的当前值。
   
 > [!NOTE]
 > 三维旋转属性部分中不包含控制形状各种棱台效果的单元格。 若要设置棱台效果，更改[Bevel 属性](bevel-properties-section.md)部分中的单元格的值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 您可以更改**设置形状格式**对话框中的三维旋转值 (**主** > **形状样式** > **效果** > **三维旋转**或进行更改到一个单元格在**三维旋转属性**部分。 
   

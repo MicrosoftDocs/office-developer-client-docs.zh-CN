@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781450"
 ---
-# <a name="style-properties-section"></a>“Style Properties”内容
+# <a name="style-properties-section"></a>“Style Properties”部分
 
 包含控制样式行为（如样式是否包含文本、线条和填充属性）的单元格。
   

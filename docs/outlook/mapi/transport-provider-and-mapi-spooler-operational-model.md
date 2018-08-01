@@ -1,5 +1,5 @@
 ---
-title: 传输提供程序和 MAPI 后台处理程序操作的模型
+title: 传输提供程序和 MAPI 后台处理程序操作模型
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779007"
 ---
-# <a name="transport-provider-and-mapi-spooler-operational-model"></a>传输提供程序和 MAPI 后台处理程序操作的模型
+# <a name="transport-provider-and-mapi-spooler-operational-model"></a>传输提供程序和 MAPI 后台处理程序操作模型
 
   
   

@@ -26,7 +26,7 @@ ms.locfileid: "19781643"
   
 - [Visio 文件格式 (.vsdx) 简介](introduction-to-the-visio-file-formatvsdx.md)
     
-- [以编程方式处理的 Visio 文件格式](how-to-manipulate-the-visio-file-format-programmatically.md)
+- [以编程方式处理 Visio 文件格式](how-to-manipulate-the-visio-file-format-programmatically.md)
     
 - [架构映射](schema-mapvisio-xml.md)： 显示 Visio 文件格式的 XML 架构。
     
@@ -44,6 +44,6 @@ ms.locfileid: "19781643"
     
 - [Visio SDK 版权声明](visio-sdk-copyright-notice.md)
     
-- [Microsoft 联机隐私声明](http://privacy.microsoft.com/en-us/default.mspx)
+- [Microsoft Online 隐私声明](http://privacy.microsoft.com/en-us/default.mspx)
     
 

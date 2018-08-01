@@ -26,15 +26,15 @@ ms.locfileid: "19779768"
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |必需  <br/> |**数字** <br/> |Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
-| _color2_ <br/> |必需  <br/> |**数字** <br/> |Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
+| _color1_ <br/> |必需  <br/> |**Numeric** <br/> |Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
+| _color2_ <br/> |必需  <br/> |**Numeric** <br/> |Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
 | _float [0，1]_ <br/> |必需  <br/> |**Float** <br/> |用于混合_color2_和_color1_，分别比例。 实数从 0 到 1 之间。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
  **RGB**
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 返回的颜色由用于混合_color2_和_color1_，分别，按_float_参数指定的相对比例决定。 例如，如果_float_为 0.25，返回的颜色是 color1 的组合的 75%__ 和_color2_的 25%。 
   

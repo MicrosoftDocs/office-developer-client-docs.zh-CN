@@ -34,9 +34,9 @@ MID (* **文本** *，* * *start_num* * *，* * *num_chars* * *)
    
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果*start_num:* 
   

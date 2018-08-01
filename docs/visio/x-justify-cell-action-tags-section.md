@@ -16,30 +16,30 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781681"
 ---
-# <a name="x-justify-cell-action-tags-section"></a>X Justify 单元格（“Action Tags”内容）
+# <a name="x-justify-cell-action-tags-section"></a>X Justify 单元格（“Action Tags”部分）
 
 *X* -偏移量动作标记按钮相对于由 X 和 Y 单元格定义的点。 
   
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 左对齐（默认值）。  <br/> |**visSmartTagXJustifyLeft** <br/> |
 | 1  <br/> | 居中。  <br/> |**visSmartTagXJustifyCenter** <br/> |
 | 2  <br/> | 右对齐。  <br/> |**visSmartTagXJustifyRight** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 X Justify 和 Y Justify 单元格确定动作标记按钮相对于 X 和 Y 单元格中定义的点的放置位置。 
   
-若要获取对 X Justify 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 X Justify 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 智能标记。  *名称*。XJustify 其中智能标记。 *name*是动作标记行的名称  <br/> |
    
-若要从某个程序按索引获取对 X Justify 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 X Justify 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

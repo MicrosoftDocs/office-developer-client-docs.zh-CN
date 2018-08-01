@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2eb92c3f1555407a77332bd6ec3b2b7202f0553f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -44,7 +44,7 @@ __名称_
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 使用**SizedSSortOrderSet**宏来创建使用显式边界设置排序顺序。 
   
