@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779955"
 ---
-# <a name="connection-points-section"></a>“Connection Points”内容
+# <a name="connection-points-section"></a>“Connection Points”部分
 
 包含与为形状定义的各连接点相对应的行和单元格。
   
@@ -26,6 +26,6 @@ ms.locfileid: "19779955"
   
 如果形状没有**连接点**节，您可以在 ShapeSheet 窗口中插入**Connection** points。 右键单击在 ShapeSheet 窗口中，单击**插入节**，，然后单击**连接点**。 若要添加到现有的**Connection** points 连接点，右击某一行，然后单击快捷菜单上的**插入行**。 
   
-您可以更改显示可用于草稿计算的其他单元格本节中的连接点的行类型。 若要执行此操作，右击该行，，然后单击快捷菜单上的**更改行类型**。 
+您可以在此内容中更改连接点的行类型以显示可用于草稿计算的其他单元格。为此，请右键单击该行，然后在快捷菜单上单击 **“更改行类型”**。 
   
 

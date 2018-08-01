@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2185b059f2b831a14b90bad3a3c286ed72f8234d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _SCommentRestriction
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -55,7 +55,7 @@ typedef struct _SCommentRestriction
   
 > 给[SPropValue](spropvalue.md)结构，每个包含属性标记和的命名属性值的数组的指针。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SCommentRestriction**结构将与一组命名属性一起对象相关联。 注释限制是与其他限制不同，因为不会评估这些。 即，它们将被忽略[IMAPITable::Restrict](imapitable-restrict.md)方法。 没有任何影响后**IMAPITable::Restrict**呼叫已由[IMAPITable::QueryRows](imapitable-queryrows.md)方法返回的行。 
   

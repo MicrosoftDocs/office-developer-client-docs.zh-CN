@@ -1,5 +1,5 @@
 ---
-title: QuickStyleFillMatrix 单元格 （快速样式内容）
+title: QuickStyleFillMatrix 单元格（“Quick Style”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781002"
 ---
-# <a name="quickstylefillmatrix-cell-quick-style-section"></a>QuickStyleFillMatrix 单元格 （快速样式内容）
+# <a name="quickstylefillmatrix-cell-quick-style-section"></a>QuickStyleFillMatrix 单元格（“Quick Style”部分）
 
 确定形状继承的活动主题为介于 0 到 6 的整数的快速样式填充样式。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**QuickStyleFillMatrix**单元格的引用，请使用： 
   

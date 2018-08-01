@@ -27,11 +27,11 @@ ms.locfileid: "19779240"
 
 一个指向 GUID 值，该值代表社交网络的唯一标识符。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 GUID 必须变，并且必须未更改，即使该提供程序版本更改。
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

@@ -53,5 +53,5 @@ ms.locfileid: "19778899"
     
 ## <a name="see-also"></a>另请参阅
 
-- [消息服务实现](message-service-implementation.md)
+- [邮件服务实现](message-service-implementation.md)
 

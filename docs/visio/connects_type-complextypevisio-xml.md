@@ -50,7 +50,7 @@ ms.locfileid: "19779969"
 |:-----|:-----|:-----|
 |[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779963"
 ---
-# <a name="conlinejumpstyle-cell-shape-layout-section"></a>ConLineJumpStyle 单元格（“Shape Layout”内容）
+# <a name="conlinejumpstyle-cell-shape-layout-section"></a>ConLineJumpStyle 单元格（“Shape Layout”部分）
 
 确定动态连接线上的跨线的跨线样式。
   
-|**值**|**跨线样式**|**自动化常量**|
+|**值**|**跨线样式**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |页面默认值  <br/> |**visLOJumpStyleDefault** <br/> |
 |1  <br/> |弧形  <br/> |**visLOJumpStyleArc** <br/> |
@@ -39,16 +39,16 @@ ms.locfileid: "19779963"
 |行索引：  <br/> |**visRowShapeLayout** <br/> |
 |单元格索引：  <br/> |**visSLOJumpStyle** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 您还可以设置此单元格的值选择动态连接线，在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡上的**形状设计**组中单击**行为**，然后单击**连接器**选项卡。 
   
-若要获取对 ConLineJumpStyle 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ConLineJumpStyle 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |ConLineJumpStyle  <br/> |
    
-若要从某个程序按索引获取对 ConLineJumpStyle 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ConLineJumpStyle 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 

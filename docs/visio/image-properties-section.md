@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780431"
 ---
-# <a name="image-properties-section"></a>“Image Properties”内容
+# <a name="image-properties-section"></a>“Image Properties”部分
 
 包含位图（由像素组成的图像）的伽玛值、亮度、对比度、虚化、锐化和去除杂色值，并且仅为上述对象在 ShapeSheet 窗口中显示。
   

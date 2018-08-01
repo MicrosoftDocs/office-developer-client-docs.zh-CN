@@ -1,5 +1,5 @@
 ---
-title: LOC 函数 (VisioShapeSheet)
+title: LOC Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780607"
 ---
-# <a name="loc-function-visioshapesheet"></a>LOC 函数 (VisioShapeSheet)
+# <a name="loc-function-visioshapesheet"></a>LOC Function (VisioShapeSheet)
 
 获取一个形状的本地坐标中定义的点，并返回以与公式相关联的形状的本地坐标表示的等效点。 
   
@@ -28,11 +28,11 @@ LOC (* **指向** *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _点_ <br/> |必需  <br/> |**字符串** <br/> | 一个形状的本地坐标中定义的点。  <br/> |
+| _磅_ <br/> |必需  <br/> |**字符串** <br/> | 一个形状的本地坐标中定义的点。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
 ## <a name="remarks"></a>注解
 
@@ -44,6 +44,6 @@ LOC (PNT (Sheet.5 ！LocPinX，Sheet.5 ！LocPinY))
   
 在此表达式中，PNT 将 Sheet.5 中的一组本地坐标转换为一个点。（Sheet.5 是同一绘图页上的另一个形状。）然后，LOC 相对于当前形状的选择矩形的左下角，将这个点转换为当前形状的本地坐标系中的等效点。 
   
-Sheet.5 中的 5 是形状，其显示在**形状名**对话框 （**开发人员**选项卡） 中的 ID 号。 
+Sheet.5 中的 5 是形状的 ID 号，它显示在 **“形状名”** 对话框（**“开发工具”** 选项卡）中。 
   
 

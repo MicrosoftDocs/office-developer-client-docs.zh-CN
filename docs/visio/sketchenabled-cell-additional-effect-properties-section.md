@@ -1,5 +1,5 @@
 ---
-title: SketchEnabled 单元格 （其他效果属性内容）
+title: SketchEnabled 单元格（“Additional Effect Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781375"
 ---
-# <a name="sketchenabled-cell-additional-effect-properties-section"></a>SketchEnabled 单元格 （其他效果属性内容）
+# <a name="sketchenabled-cell-additional-effect-properties-section"></a>SketchEnabled 单元格（“Additional Effect Properties”部分）
 
 确定形状上或不，作为一个布尔值是否显示素描效果。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**SketchEnabled**单元格的引用，请使用： 
   

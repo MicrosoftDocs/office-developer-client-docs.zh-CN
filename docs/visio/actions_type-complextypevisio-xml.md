@@ -52,7 +52,7 @@ ms.locfileid: "19779628"
 |:-----|:-----|:-----|
 |[Row](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

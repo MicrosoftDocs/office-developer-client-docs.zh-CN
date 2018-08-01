@@ -28,14 +28,14 @@ SETATREFEVAL (* * *expr* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expr_ <br/> |必需  <br/> |**而异** <br/> | SETATREF 函数将_set_expression_重定向到另一个单元格时计算的表达式。  <br/> |
+| _expr_ <br/> |必需  <br/> |**因情况而异** <br/> | SETATREF 函数将_set_expression_重定向到另一个单元格时计算的表达式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 将 SETATREF 函数的*set_expression*参数分配给引用的单元格，Microsoft Visio 将*set_expression*写入单元格表达式作为默认情况下。 但是，如果*set_expression*参数的任何部分由 SETATREFEVAL 函数包装，Visio 将计算表达式并 SETATREFEVAL 函数替换之前解析 SETATREF 表达式及其结果。 
   
 ## <a name="example"></a>示例
 
-有关示例，请参阅[SETATREF](setatref-function.md)函数。 
+有关示例，请参阅 [SETATREF](setatref-function.md) 函数。 
   
 

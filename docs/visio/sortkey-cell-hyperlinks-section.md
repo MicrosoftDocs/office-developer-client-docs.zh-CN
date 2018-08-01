@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781416"
 ---
-# <a name="sortkey-cell-hyperlinks-section"></a>SortKey 单元格（“Hyperlinks”内容）
+# <a name="sortkey-cell-hyperlinks-section"></a>SortKey 单元格（“Hyperlinks”部分）
 
 确定超链接在快捷菜单上显示的顺序的数字。
   
@@ -24,13 +24,13 @@ ms.locfileid: "19781416"
 
 超链接按照从低到高的顺序在快捷菜单上显示，最低的数字显示在菜单的顶部。如果两个超链接行具有相同的 SortKey 单元格值，则顺序由物理行顺序确定。默认值为 0（零）。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 SortKey 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 SortKey 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |超链接。 *名称*。SortKey 其中超链接 *.name*是行名称  <br/> |
    
-若要从某个程序按索引获取对 SortKey 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 SortKey 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

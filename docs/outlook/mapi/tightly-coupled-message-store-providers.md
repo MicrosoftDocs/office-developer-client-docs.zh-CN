@@ -1,5 +1,5 @@
 ---
-title: 紧密耦合的消息存储提供程序
+title: 紧密耦合邮件存储区提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778970"
 ---
-# <a name="tightly-coupled-message-store-providers"></a>紧密耦合的消息存储提供程序
+# <a name="tightly-coupled-message-store-providers"></a>紧密耦合邮件存储区提供程序
 
   
   
@@ -35,5 +35,5 @@ ms.locfileid: "19778970"
 
 
 
-[开发 MAPI 消息存储提供程序](developing-a-mapi-message-store-provider.md)
+[开发 MAPI 邮件存储区提供程序](developing-a-mapi-message-store-provider.md)
 

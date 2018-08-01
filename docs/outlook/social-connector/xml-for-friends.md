@@ -1,5 +1,5 @@
 ---
-title: 朋友 XML
+title: 好友的 XML
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779354"
 ---
-# <a name="xml-for-friends"></a>朋友 XML
+# <a name="xml-for-friends"></a>好友的 XML
 
 Microsoft Outlook Social Connector (OSC) 提供程序的 XML 架构中的**朋友**元素允许 OSC 提供程序指定的列表与社交网络中的 Outlook 用户关联的人员的信息。 如果 OSC 提供程序支持缓存的同步，此列表的人员将包含仅朋友社交网络上的 Outlook 用户。 如果 OSC 支持点播或混合同步，此列表可能包含朋友和非朋友 Outlook 用户。 
 
@@ -102,10 +102,10 @@ Microsoft Outlook Social Connector (OSC) 提供程序的 XML 架构中的**朋�
 |**住宅电话** <br/> |该联系人的住宅电话号码。  <br/> |
 |**index** <br/> |此人的哈希地址_personsAddresses_字符串参数中的位置传递到调用**ISocialSession2::GetPeopleDetails**方法。 它还指示此人的**人员**XML 中返回**GetPeopleDetails** _personsCollection_字符串。  <br/> |
 |**行业** <br/> |此人正在从事的行业。  <br/> |
-|**兴趣** <br/> |兴趣或爱好的人员。  <br/> |
+|**interests** <br/> |兴趣或爱好的人员。  <br/> |
 |**lastModificationTime** <br/> |社交网络上次修改此人的配置文件的时间。  <br/> |
 |**lastName** <br/> |姓氏或联系人的姓。  <br/> |
-|**位置** <br/> |人员的位置。  <br/> |
+|**location** <br/> |人员的位置。  <br/> |
 |**昵称** <br/> |较短的名称或虚构的人员的姓名。  <br/> |
 |**otherAddress** <br/> |替代的人员的街道地址。  <br/> |
 |**otherCity** <br/> |此人的替代地址的城市。  <br/> |
@@ -116,7 +116,7 @@ Microsoft Outlook Social Connector (OSC) 提供程序的 XML 架构中的**朋�
 |**pictureUrl** <br/> |URL 的人员配置文件图片。  <br/> |
 |**关系** <br/> |在用户登录与此人的关系。  <br/> |
 |**学校** <br/> |学校的联系人转或拿起。  <br/> |
-|**技能** <br/> |个人的人员的技能。  <br/> |
+|**skills** <br/> |个人的人员的技能。  <br/> |
 |**state** <br/> |省或自治区的物理地址的联系人。  <br/> |
 |**title** <br/> |指定添加到此人的姓名。  <br/> |
 |**用户 Id** <br/> |若要确定社交网络中的人的 ID。  <br/> |

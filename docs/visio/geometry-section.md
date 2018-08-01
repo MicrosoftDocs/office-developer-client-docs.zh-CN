@@ -16,13 +16,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780331"
 ---
-# <a name="geometry-section"></a>“Geometry”内容
+# <a name="geometry-section"></a>“Geometry”部分
 
 包含列表的线条和弧组成的形状的顶点坐标的行。 
   
 可以在多个**geometry**节中表示形状的几何图形。 多个路径具有不同的属性 （例如[图像剪辑](clippingpath-cell-foreign-image-info-section.md)路径） 时，多个路径可能很有用。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **Geometry**内容包含下面的行类型。 有关详细信息，请参阅行主题。 
   
@@ -44,6 +44,6 @@ ms.locfileid: "19780331"
 |[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |移到某坐标相对于形状的高度和宽度。  <br/> |
 |[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |绘制二次相对于的宽度和高度形状的贝赛尔曲线。  <br/> |
    
-若要更改此部分中的行类型，右击该行，，然后单击快捷菜单上的**更改行类型**。 
+若要在此内容中更改行的类型，请右击该行，然后在快捷菜单上单击 **“更改行类型”**。 
   
 

@@ -16,19 +16,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779653"
 ---
-# <a name="alignbottom-cell-alignment-section"></a>AlignBottom 单元格（“Alignment”内容）
+# <a name="alignbottom-cell-alignment-section"></a>AlignBottom 单元格（“Alignment”部分）
 
 确定垂直位置，该位置是相对于其父级的原点、形状的下边框依其对齐的水平参考线或辅助点的原点而言的。
   
 ## <a name="remarks"></a>注释
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 AlignBottom 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 AlignBottom 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | AlignBottom  <br/> |
    
-若要从某个程序按索引获取对 AlignBottom 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 AlignBottom 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

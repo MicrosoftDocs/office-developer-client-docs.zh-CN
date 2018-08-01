@@ -1,5 +1,5 @@
 ---
-title: 标尺&amp;网格部分
+title: “Ruler &amp; Grid”部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781187"
 ---
-# <a name="ruler-amp-grid-section"></a>标尺&amp;网格部分
+# <a name="ruler-amp-grid-section"></a>“Ruler &amp; Grid”部分
 
 显示页的标尺和网格的当前设置。
   

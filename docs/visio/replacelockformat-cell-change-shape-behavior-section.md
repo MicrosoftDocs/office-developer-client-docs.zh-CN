@@ -1,5 +1,5 @@
 ---
-title: ReplaceLockFormat 单元格 （更改形状行为一节）
+title: ReplaceLockFormat 单元格（“Change Shape Behavior”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781071"
 ---
-# <a name="replacelockformat-cell-change-shape-behavior-section"></a>ReplaceLockFormat 单元格 （更改形状行为一节）
+# <a name="replacelockformat-cell-change-shape-behavior-section"></a>ReplaceLockFormat 单元格（“Change Shape Behavior”部分）
 
 指示在主控形状中的指定单元格的值是否覆盖形状替换操作期间要替换的形状 （包括本地值） 的值。 如果主控形状的**ReplaceLockFormat**单元格设置为 TRUE (1)，主控形状的格式值覆盖由主控形状的形状的所有相应值。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "19781071"
 |TRUE  <br/> |如果主控形状的**ReplaceLockFormat**单元格设置为 TRUE，主控形状的格式值覆盖由主控形状的形状的所有相应值。  <br/> |
 |FALSE  <br/> |如果主控形状的**ReplaceLockFormat**单元格设置为 FALSE，替换形状在替换操作后包含旧的形状的本地格式值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **ReplaceLockFormat**单元格确定主控形状是否覆盖形状替换操作过程中的以下各节中的单元格的本地格式值： 
   

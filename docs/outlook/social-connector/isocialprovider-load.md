@@ -33,11 +33,11 @@ _languageTag_
   
 > [in]Internet 工程任务组 (IETF) 语言标记，由[[RFC4646]](http://www.ietf.org/rfc/rfc4646.txt)和[[RFC4647]](http://www.ietf.org/rfc/rfc4647.txt)，值，该值代表当前 Outlook 用户界面语言。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 _SocialProviderInterfaceVersion_参数的版本格式为_X_。_格式_，其中_X_是主要版本和_格式_是 OSC 的次要版本。 Office 2013 的检查正在 15 的主要版本。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

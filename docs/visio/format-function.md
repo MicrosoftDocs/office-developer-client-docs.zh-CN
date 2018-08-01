@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251424
 localization_priority: Normal
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
-description: 返回作为根据 formatpicture 设置格式的字符串表达式的结果。
+description: 以字符串形式返回 expression 的结果，该字符串的格式根据 formatpicture 设置。
 ms.openlocfilehash: dcb898b3cb21d8cc5ebee7e56540d9e2eefcffdb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,9 +33,9 @@ ms.locfileid: "19780313"
    
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表达式的类型和格式图片中指定的类型控制返回的字符串的行为。 _Formatpicture_必须适用于表达式的类型。 有关指定图片格式的详细信息，请参阅[关于设置图片格式](about-format-pictures.md)。
   

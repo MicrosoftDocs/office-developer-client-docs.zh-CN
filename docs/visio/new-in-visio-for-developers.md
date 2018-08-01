@@ -39,11 +39,11 @@ Visio 2013 引入了一种新文件格式，该格式基于开放数据包约定
   
 - .vsdx （Visio 绘图）
     
-- .vsdm （Visio 启用宏的绘图）
+- .vsdm （Visio 启用宏的模具）
     
 - .vssx （Visio 模具）
     
-- .vssm （Visio 启用宏的模具）
+- .vssm （Visio 启用宏的绘图）
     
 - .vstx （Visio 模板）
     
@@ -60,7 +60,7 @@ Visio Services 保留了在浏览器中显示 Visio Web 绘图 (.vdw) 格式的�
 
 主题在 Visio 2013 中已经过重新设计，以便利用更多效果和样式，包括 Shape Art 效果的集成。 用户现在可以通过应用主题决定总体样式、 个性化具有主题变量的图表以及突出显示与快速样式进行交互的单个形状。 ShapeSheet 开发人员可以利用这些功能与新功能和 ShapeSheet 中的单元格。
   
-您还可以操作级别[页](http://msdn.microsoft.com/library/7a7f37ab-b448-eb70-b4f1-c185dfbd511e%28Office.15%29.aspx)、[形状](http://msdn.microsoft.com/library/da7a8872-4ebb-a607-e0ed-eebf68ff5630%28Office.15%29.aspx)和[Selection](http://msdn.microsoft.com/library/e5734140-6dbe-7de8-9695-1a22fb4ac628%28Office.15%29.aspx)对象的主题。 新的 Api，用于处理主题包括[Page.SetTheme](http://msdn.microsoft.com/library/5a186f58-9a7a-bd8a-826b-85da75a4d59f%28Office.15%29.aspx)方法、 [Page.SetThemeVariant](http://msdn.microsoft.com/library/8393a95f-83ca-0efa-d987-ae498bfe5e9d%28Office.15%29.aspx)方法、 [Shape.SetQuickStyle](http://msdn.microsoft.com/library/aebe80cb-fae9-0be7-e903-882f6eb58b63%28Office.15%29.aspx)方法和[Selection.SetQuickStyle](http://msdn.microsoft.com/library/39b810b5-0738-daed-0103-8a2df07559c6%28Office.15%29.aspx)方法。 
+您还可以在 [Page](http://msdn.microsoft.com/library/7a7f37ab-b448-eb70-b4f1-c185dfbd511e%28Office.15%29.aspx)、[Shape](http://msdn.microsoft.com/library/da7a8872-4ebb-a607-e0ed-eebf68ff5630%28Office.15%29.aspx) 和 [Selection](http://msdn.microsoft.com/library/e5734140-6dbe-7de8-9695-1a22fb4ac628%28Office.15%29.aspx) 对象级别操纵主题。与主题一起使用的新 API 包括 [Page.SetTheme](http://msdn.microsoft.com/library/5a186f58-9a7a-bd8a-826b-85da75a4d59f%28Office.15%29.aspx) 方法、[Page.SetThemeVariant](http://msdn.microsoft.com/library/8393a95f-83ca-0efa-d987-ae498bfe5e9d%28Office.15%29.aspx) 方法、[Shape.SetQuickStyle](http://msdn.microsoft.com/library/aebe80cb-fae9-0be7-e903-882f6eb58b63%28Office.15%29.aspx) 方法和 [Selection.SetQuickStyle](http://msdn.microsoft.com/library/39b810b5-0738-daed-0103-8a2df07559c6%28Office.15%29.aspx) 方法。 
   
 Visio 2013 中的新 Api 的详细列表，请参阅本文中的[Visio 对象模型更改](#vis15_WhatsNew_NewOM)部分。 关于 Visio 2013 中新的 ShapeSheet 单元格的详细信息，请参阅[What's new for Visio ShapeSheet 开发人员提供](what-s-new-for-visio-shapesheet-developers.md)的文章。
   
@@ -141,7 +141,7 @@ What's new in Visio Services 的详细信息，请参阅文章[在 SharePoint 20
 
 以下成员均已添加到 Visio 对象模型中的现有对象中。
   
- **表 1。Visio 对象模型增强功能**
+ **表 2. Visio 对象模型增强功能**
   
 |**对象或集合**|**新成员**|
 |:-----|:-----|
@@ -189,7 +189,7 @@ What's new in Visio Services 的详细信息，请参阅文章[在 SharePoint 20
 
 下列对象均已添加到 Visio 对象模型。
   
- **表 2。Visio 对象模型新增内容**
+ **表 2. Visio 对象模型新增功能**
   
 |**对象**|**属性**|**方法**|
 |:-----|:-----|:-----|
@@ -200,7 +200,7 @@ What's new in Visio Services 的详细信息，请参阅文章[在 SharePoint 20
    
 下表列出的新枚举和 Visio 2013 中引入的常量。
   
- **表 3。Visio 枚举新增功能**
+ **表 3. Visio 枚举新增功能**
   
 |**枚举**|**说明**|
 |:-----|:-----|
@@ -213,9 +213,9 @@ What's new in Visio Services 的详细信息，请参阅文章[在 SharePoint 20
 
 下表列出已弃用的对象和成员在 Visio 2013 中引入的。 仅弃用成员**弃用成员**列中列出的对象。 
   
- **表 4。Visio 对象模型弃用情况**
+ **表 4. Visio 对象模型弃用功能**
   
-|**对象或集合**|**已弃用的成员**|
+|**对象或集合**|**不建议使用的成员**|
 |:-----|:-----|
 |**Window**对象  <br/> |**PageTabWidth**属性  <br/> |
    
@@ -224,7 +224,7 @@ What's new in Visio Services 的详细信息，请参阅文章[在 SharePoint 20
 
 - [面向开发人员的 Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
     
-- [What's new for Visio ShapeSheet 开发人员](what-s-new-for-visio-shapesheet-developers.md)
+- [面向 Visio ShapeSheet 开发人员的新增功能](what-s-new-for-visio-shapesheet-developers.md)
     
 - [SharePoint 2013 中的 Visio Services](http://msdn.microsoft.com/en-us/library/jj164027%28office.15%29.aspx)
     

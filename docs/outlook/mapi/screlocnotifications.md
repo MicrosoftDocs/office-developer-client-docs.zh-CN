@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bb4ff6a128b9fed29ff0be5325c21e5600389740
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -75,7 +75,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 遇到无效的通知。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **ScRelocNotifications**函数_pcb_参数是可选的。 
   

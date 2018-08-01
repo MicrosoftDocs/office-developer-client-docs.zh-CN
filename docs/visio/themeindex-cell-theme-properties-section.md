@@ -1,5 +1,5 @@
 ---
-title: ThemeIndex 单元格 (主题 Properties)
+title: ThemeIndex 单元格（“Theme Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781505"
 ---
-# <a name="themeindex-cell-theme-properties-section"></a>ThemeIndex 单元格 (主题 Properties)
+# <a name="themeindex-cell-theme-properties-section"></a>ThemeIndex 单元格（“Theme Properties”部分）
 
 存储内置 Microsoft Visio 主题应用于文档，作为整数的枚举。 当新主题选择文档，文档的**ThemeIndex**单元格和所有页面和它包含的形状的内置的主题的索引的都更新。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**ThemeIndex**单元格的引用，请使用： 
   

@@ -50,6 +50,6 @@ Outlook Social Connector 2013 提供程序参考介绍如何开发 OSC 提供程
 - [Outlook Social Connector 2013 提供程序参考版权声明](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
 - [文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
 - [Microsoft 产品中的辅助功能](http://www.microsoft.com/enable/products/default.aspx)  
-- [Microsoft 联机隐私声明](https://privacy.microsoft.com/en-us/privacystatement)
+- [Microsoft Online 隐私声明](https://privacy.microsoft.com/en-us/privacystatement)
     
 

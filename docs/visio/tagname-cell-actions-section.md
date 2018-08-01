@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781488"
 ---
-# <a name="tagname-cell-actions-section"></a>TagName 单元格（“Actions”内容）
+# <a name="tagname-cell-actions-section"></a>TagName 单元格（“Actions”部分）
 
 包含此动作所关联的动作标记的名称。
   
@@ -35,13 +35,13 @@ ms.locfileid: "19781488"
     
 - 如果几个智能标记行具有相同的 TagName 值，它们将显示相同的动作。
     
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 TagName 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 TagName 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |操作。 *名称*。TagNamewhere 操作。  *name*是 Actions 行的名称  <br/> |
    
-若要从某个程序按索引获取对 TagName 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 TagName 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

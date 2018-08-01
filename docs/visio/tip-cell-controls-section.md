@@ -16,19 +16,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781533"
 ---
-# <a name="tip-cell-controls-section"></a>Tip 单元格（“Controls”内容）
+# <a name="tip-cell-controls-section"></a>Tip 单元格（“Controls”部分）
 
 表示说明性文本字符串，当用户将指针停留在形状的控制手柄之上时，说明性的文本字符串就作为工具提示显示出来。应用程序在单元格中自动用引号引起提示字符串，但引号不会在工具提示中显示出来。
   
 ## <a name="remarks"></a>注释
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Tip 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Tip 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 控件。  *名称*。Tipwhere 控件。  *name*是控制行的名称。  <br/> |
    
-若要从某个程序按索引获取对 Tip 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Tip 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

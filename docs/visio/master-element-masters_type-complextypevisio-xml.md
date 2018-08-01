@@ -42,18 +42,18 @@ ms.locfileid: "19780698"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[主控形状](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |包含文档的**主控形状**元素。  <br/> |
+|[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |包含文档的**主控形状**元素。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[连接](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |包含与绘图中的两个形状间的每个连接的**Connect**元素。  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |包含与绘图中的两个形状间的每个连接的**Connect**元素。  <br/> |
 |[图标](icon-element-master_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |指定的 MIME （多用途 Internet 邮件扩展） 的文档中的**主控形状**或**MasterShortcut**元素编码二进制图标 （.ico 格式）。  <br/> |
 |[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |包含定义**页**或**主控形状**的元素的页表的元素。  <br/> |
 |Shapes  <br/> |Shapes_Type  <br/> |包含**形状**元素的集合。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

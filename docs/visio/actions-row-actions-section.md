@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779629"
 ---
-# <a name="actions-row-actions-section"></a>Actions 行（“Actions”内容）
+# <a name="actions-row-actions-section"></a>Actions 行（“Actions”部分）
 
 包含指定快捷菜单或动作标记菜单上的自定义命令与关联的操作的单元格。 操作部分包含一个 Actions 行的每个操作。
   
@@ -27,8 +27,9 @@ ms.locfileid: "19779629"
   
 |**Cell**|**说明**|
 |:-----|:-----|
-|[Action](action-cell-actions-section.md) <br/> |包含当用户选择快捷菜单或动作标记菜单上的项时要执行的公式。  <br/> |
-|[菜单](menu-cell-actions-section.md) <br/> |定义动作标记菜单或快捷菜单上的菜单项显示的名称。  <br/> |
+|[Action](action-cell-actions-section.md) <br/> |包含当用户选择快捷菜单或动作标记菜单上的项时要执行的公式。
+  <br/> |
+|[Menu](menu-cell-actions-section.md) <br/> |定义动作标记菜单或快捷菜单上的菜单项显示的名称。  <br/> |
 |[TagName](tagname-cell-actions-section.md) <br/> |此动作应在其中显示的动作标记的逻辑名。  <br/> |
 |[ButtonFace](buttonface-cell-actions-section.md) <br/> |标识在快捷菜单或动作标记菜单上的项旁边显示的图标。  <br/> |
 |[SortKey](sortkey-cell-actions-section.md) <br/> |确定菜单项在动作标记菜单或快捷菜单上的显示顺序的数字。  <br/> |
@@ -38,7 +39,7 @@ ms.locfileid: "19779629"
 |[不可见](invisible-cell-actions-section.md) <br/> |指示菜单项在动作标记菜单或快捷菜单上是否可见。  <br/> |
 |[BeginGroup](begingroup-cell-actions-section.md) <br/> |指示是否向菜单中的菜单项上插入一个分隔符。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
  您可以添加任意多个操作。  *名称*行根据需要为这些行中，指定有意义的名称，并设置单元格的值。 将自定义命令添加到现有的 Actions 内容中，右击某一行，然后单击快捷菜单上的**插入行**。 
   

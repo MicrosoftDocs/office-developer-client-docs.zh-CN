@@ -1,5 +1,5 @@
 ---
-title: TIMEVALUE 函数 (VisioShapeSheet)
+title: TIMEVALUE Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781522"
 ---
-# <a name="timevalue-function-visioshapesheet"></a>TIMEVALUE 函数 (VisioShapeSheet)
+# <a name="timevalue-function-visioshapesheet"></a>TIMEVALUE Function (VisioShapeSheet)
 
 _Datetime_或_expression_返回表示的时间值将基于系统的区域和语言设置。
   
@@ -29,7 +29,7 @@ TIMEVALUE ("* * *datetime* * *"|* **表达式** * [，* * *lcid* * *])
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |必需  <br/> |**字符串** <br/> | 任何通常被识别为日期和时间的字符串或对包含日期和时间的单元格的引用。  <br/> |
-| _expression_ <br/> |必需  <br/> |**而异** <br/> | 任何生成日期和时间的表达式。  <br/> |
+| _expression_ <br/> |必需  <br/> |**因情况而异** <br/> | 任何生成日期和时间的表达式。  <br/> |
 | _lcid_ <br/> |可选  <br/> |**编号** <br/> |用于计算非本地日期时间的区域设置标识符。区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
 ## <a name="remarks"></a>注解

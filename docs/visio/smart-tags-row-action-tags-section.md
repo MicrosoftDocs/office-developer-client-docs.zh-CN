@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781411"
 ---
-# <a name="smart-tags-row-action-tags-section"></a>Smart Tags 行（“Action Tags”内容）
+# <a name="smart-tags-row-action-tags-section"></a>Smart Tags 行（“Action Tags”部分）
 
 包含与形状或页关联单个动作标记的信息。 形状或页包含一个智能标记行的每个动作标记。
   

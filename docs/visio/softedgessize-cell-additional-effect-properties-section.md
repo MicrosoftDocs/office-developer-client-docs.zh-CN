@@ -1,5 +1,5 @@
 ---
-title: SoftEdgesSize 单元格 （其他效果属性内容）
+title: SoftEdgesSize 单元格（“Additional Effect Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781407"
 ---
-# <a name="softedgessize-cell-additional-effect-properties-section"></a>SoftEdgesSize 单元格 （其他效果属性内容）
+# <a name="softedgessize-cell-additional-effect-properties-section"></a>SoftEdgesSize 单元格（“Additional Effect Properties”部分）
 
 确定柔化边缘效果，以向 100.00 0.00 从磅为单位的大小。 如果**SoftEdgesSize**单元格的值为 0，则该形状没有柔化边缘。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**SoftEdgesSize**单元格的引用，请使用： 
   

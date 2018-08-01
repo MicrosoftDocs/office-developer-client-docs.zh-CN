@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9a186af55a8a2846bbb8af9e51be45ef73ce5d66
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778531"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_VD_NAME，PR_VD_NAME_A，PR_VD_NAME_W  <br/> |
-|标识符:  <br/> |0x7006  <br/> |
+|相关属性：  <br/> |PR_VD_NAME，PR_VD_NAME_A，PR_VD_NAME_W  <br/> |
+|标识符：  <br/> |0x7006  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |类定义消息可传送  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些属性必须设置为包含视图定义的文件夹关联的信息 （从故障） 消息的非空字符串。
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

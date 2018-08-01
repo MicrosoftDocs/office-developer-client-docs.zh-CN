@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780795"
 ---
-# <a name="menu-cell-actions-section"></a>Menu 单元格（“Actions”内容）
+# <a name="menu-cell-actions-section"></a>Menu 单元格（“Actions”部分）
 
 定义形状或页的快捷菜单或动作标记菜单上显示的菜单项的名称。 
   
@@ -33,7 +33,7 @@ ms.locfileid: "19780795"
 |:-----|:-----|
 |单元格名称：  <br/> |操作。 *名称*。Menuwhere 操作。  *name*是 Actions 行的名称  <br/> |
    
-若要从某个程序按索引获取对 Menu 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Menu 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

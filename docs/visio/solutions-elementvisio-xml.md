@@ -47,7 +47,7 @@ ms.locfileid: "19781417"
 |:-----|:-----|:-----|
 |[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |指定 XML 存储在绘图中的解决方案的一个的实例。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

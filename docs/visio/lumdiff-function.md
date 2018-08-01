@@ -26,7 +26,7 @@ LUMDIFF (* * *color1* * *，* * *color2* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |必需  <br/> |**数字** <br/> |Microsoft Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
-| _color2_ <br/> |必需  <br/> |**数字** <br/> |Microsoft Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
+| _color1_ <br/> |必需  <br/> |**Numeric** <br/> |Microsoft Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
+| _color2_ <br/> |必需  <br/> |**Numeric** <br/> |Microsoft Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
    
 

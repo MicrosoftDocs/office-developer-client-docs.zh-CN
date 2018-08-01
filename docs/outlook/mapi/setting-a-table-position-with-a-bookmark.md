@@ -1,5 +1,5 @@
 ---
-title: 用书签将表位置设置
+title: 通过书签设置表位置
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d53f15cb439494ae99ff45509ed14c0928756d8f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778756"
 ---
-# <a name="setting-a-table-position-with-a-bookmark"></a>用书签将表位置设置
+# <a name="setting-a-table-position-with-a-bookmark"></a>通过书签设置表位置
 
   
   

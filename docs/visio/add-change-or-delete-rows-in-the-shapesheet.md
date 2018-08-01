@@ -1,5 +1,5 @@
 ---
-title: 添加、 更改或删除 ShapeSheet 中的行
+title: 添加、更改或删除 ShapeSheet 中的行
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779623"
 ---
-# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>添加、 更改或删除 ShapeSheet 中的行
+# <a name="add-change-or-delete-rows-in-the-shapesheet"></a>添加、更改或删除 ShapeSheet 中的行
 
 您可以添加新行，更改现有行的类型或删除在 Microsoft Visio ShapeSheet 中的行。
   

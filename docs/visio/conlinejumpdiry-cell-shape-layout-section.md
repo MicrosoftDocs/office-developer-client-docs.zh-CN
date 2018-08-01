@@ -16,27 +16,27 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779938"
 ---
-# <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY 单元格（“Shape Layout”内容）
+# <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY 单元格（“Shape Layout”部分）
 
 确定出现在形状的垂直动态连接线上的跨线的跨线方向。
   
-|**值**|**跨线方向**|**自动化常量**|
+|**值**|**跨线方向**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 页面默认值  <br/> |**visLOJumpDirYDefault** <br/> |
 | 1  <br/> | 左侧  <br/> |**visLOJumpDirYLeft** <br/> |
 | 2  <br/> | 右侧  <br/> |**visLOJumpDirYRight** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 设置默认垂直方向*所有*连接器的跨线的页上，使用 Page Layout 内容中的 PageLineJumpDirY 单元格。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ConLineJumpDirY 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ConLineJumpDirY 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | ConLineJumpDirY  <br/> |
    
-若要从某个程序按索引获取对 ConLineJumpDirY 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 ConLineJumpDirY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

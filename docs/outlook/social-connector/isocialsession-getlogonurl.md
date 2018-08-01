@@ -29,11 +29,11 @@ _url_
   
 > [输出]一个字符串，包含 web 身份验证中使用的格式的 URL。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 向用户显示窗体后，则[ISocialSession::LogonWeb](isocialsession-logonweb.md)方法_connectIn_参数调用与为空字符串。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

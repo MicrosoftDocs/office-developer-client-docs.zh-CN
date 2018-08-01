@@ -1,5 +1,5 @@
 ---
-title: ISERROR 函数 (VisioShapeSheet)
+title: ISERROR Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780489"
 ---
-# <a name="iserror-function-visioshapesheet"></a>ISERROR 函数 (VisioShapeSheet)
+# <a name="iserror-function-visioshapesheet"></a>ISERROR Function (VisioShapeSheet)
 
 返回 TRUE 的_cellreference_值是否任何错误类型;否则，将返回 FALSE。 引用另一个单元格的公式中使用 ISERROR 函数。 
   
@@ -32,7 +32,7 @@ ISERROR (* * *cellreference* * *)
    
 ## <a name="example-1"></a>示例 1
 
-|**Cell**|**Formula**|**返回值**|
+|**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch.B1  <br/> |=ISERROR(Scratch.A1)  <br/> |TRUE  <br/> |
@@ -41,7 +41,7 @@ ISERROR (* * *cellreference* * *)
   
 ## <a name="example-2"></a>示例 2
 
-|**Cell**|**Formula**|**返回值**|
+|**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
 |Scratch.X1  <br/> |="House"  <br/> |#VALUE!  <br/> |
 |Scratch.B1  <br/> |=ISERROR(Scratch.X1)  <br/> |TRUE  <br/> |

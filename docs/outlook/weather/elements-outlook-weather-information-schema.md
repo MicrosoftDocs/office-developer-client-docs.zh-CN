@@ -19,11 +19,11 @@ ms.locfileid: "19779340"
 
 本主题列出了 Outlook 天气信息 XML 架构中的元素。
   
-- [当前元素](current-element-weathertype-complextypeoutlook-weather-information-schema.md)
+- [current 元素](current-element-weathertype-complextypeoutlook-weather-information-schema.md)
     
-- [预测的元素](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md)
+- [forecast 元素](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md)
     
-- [天气元素](weather-element-weatherdata-elementoutlook-weather-information-schema.md)
+- [weather 元素](weather-element-weatherdata-elementoutlook-weather-information-schema.md)
     
 - [weatherdata 元素](weatherdata-element-outlook-weather-information-schema.md)
     

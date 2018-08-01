@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779667"
 ---
-# <a name="b-cell-geometry-section"></a>B 单元格（“Geometry”内容）
+# <a name="b-cell-geometry-section"></a>B 单元格（“Geometry”部分）
 
 在不同行中表示不同的信息。此表根据 B 单元格所在的行对 B 单元格进行了说明。
   
@@ -28,16 +28,16 @@ ms.locfileid: "19779667"
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | *Y* -; 无限长线上某个点的坐标与*x*配对- [A](a-cell-geometry-section.md)单元格所表示的坐标。  <br/> |
 |[椭圆](ellipse-row-geometry-section.md) <br/> | *Y* -椭圆; 上某个点的坐标与*x*配对- [A](a-cell-geometry-section.md)单元格所表示的坐标。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-若要从另一个公式或从使用**CellsU**属性的某个程序按名称获取对 B 单元格的引用使用： 
+要从另一个公式或程序使用 **CellsU** 属性按名称获取对 B 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Geometry *i* 。B *j*其中*i*和*j* = < 1 >，2，3...  <br/> |
 || Geometry *i* 。B1 （InfiniteLine 和 Ellipse 行）  <br/> |
    
-若要从某个程序按索引获取对 B 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 B 单元格的引用，请使用带下列参数的  **CellsSRC**  属性： 
   
 |||
 |:-----|:-----|
@@ -49,6 +49,6 @@ ms.locfileid: "19779667"
 ||**visNURBSWeight**（NURBSTo 行）  <br/> |
 ||**visSplineKnot2**（SplineStart 行）  <br/> |
 ||**visInfiniteLineY2**（InfiniteLine 行）  <br/> |
-||**visEllipseMajorY**（ellipse 行）  <br/> |
+||**visEllipseMajorY**（Ellipse 行）  <br/> |
    
 

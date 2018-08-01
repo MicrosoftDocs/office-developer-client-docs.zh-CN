@@ -50,7 +50,7 @@ ms.locfileid: "19779831"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定在绘图页上的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,11 +60,11 @@ ms.locfileid: "19779831"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
 |X  <br/> |如果**MoveTo**行是该节中的第一行，则**X**单元格表示形状的第一个顶点的 x 坐标。 如果**MoveTo**行出现在两行之间，则**X**单元格后路径中断开表示的第一个顶点的 x 坐标。  <br/> |[MoveTo Row (Geometry Section)](moveto-row-geometry-section.md) <br/> |
 |Y  <br/> |如果**MoveTo**行是该节中的第一行，则**Y**单元格表示形状的第一个顶点的 y 坐标。 如果**MoveTo**行出现在两行之间，则**Y**单元格后路径中断开表示的第一个顶点的 y 坐标。  <br/> |[MoveTo Row (Geometry Section)](moveto-row-geometry-section.md) <br/> |

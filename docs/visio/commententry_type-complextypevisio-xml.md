@@ -79,7 +79,7 @@ ms.locfileid: "19779905"
 |作者 Id  <br/> |xsd:unsignedInt  <br/> |必需  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
 |AutoCommentType  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
 |CommentID  <br/> |xsd:unsignedInt  <br/> |必需  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
-|日期  <br/> |化  <br/> |必需  <br/> ||化类型的值。  <br/> |
+|Date  <br/> |化  <br/> |必需  <br/> ||化类型的值。  <br/> |
 |完成  <br/> |化  <br/> |可选  <br/> ||化类型的值。  <br/> |
 |EditDate  <br/> |化  <br/> |可选  <br/> ||化类型的值。  <br/> |
 |PageID  <br/> |xsd:unsignedInt  <br/> |必需  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bae750e7e940bc1417b3d225c9c81129e9da77b4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SMAPIFormPropEnumVal
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **pszDisplayName**
   
@@ -50,7 +50,7 @@ typedef struct _SMAPIFormPropEnumVal
   
 > 显示名称指向**pszDisplayName**成员的一个枚举值。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 当用户选择窗体中的显示名称时，使用该[IMAPIProp](imapipropiunknown.md)接口实现与表单关联的存储该名称的相应的枚举值。 
   

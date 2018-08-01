@@ -16,17 +16,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781130"
 ---
-# <a name="resizemode-cell-shape-transform-section"></a>ResizeMode 单元格（“Shape Transform”内容）
+# <a name="resizemode-cell-shape-transform-section"></a>ResizeMode 单元格（“Shape Transform”部分）
 
 显示形状的当前调整大小行为设置。
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |使用组合的设置。  <br/> |**visXFormResizeDontCare** <br/> |
 |1  <br/> |仅重定位。  <br/> |**visXFormResizeSpread** <br/> |
 |2  <br/> |和组合一起缩放。  <br/> |**visXFormResizeScale** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 您可以在**行为**对话框中的**行为**选项卡上设置此值 （在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡的**形状设计**组中，单击**行为**）。 要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ResizeMode 单元格的引用，请使用： 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19781130"
 |:-----|:-----|
 |单元格名称：  <br/> |ResizeMode  <br/> |
    
-若要从某个程序按索引获取对 ResizeMode 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ResizeMode 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

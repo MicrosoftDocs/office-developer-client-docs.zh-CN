@@ -1,5 +1,5 @@
 ---
-title: 概述 XML 的活动订阅源
+title: 活动源项的 XML 概述
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779341"
 ---
-# <a name="overview-of-xml-for-an-activity-feed-item"></a>概述 XML 的活动订阅源
+# <a name="overview-of-xml-for-an-activity-feed-item"></a>活动源项的 XML 概述
 
 活动源包括社交网络上发生的一个或多个活动。 每个活动源由**activityFeed**元素，并具有以下三个信息特征： 
   

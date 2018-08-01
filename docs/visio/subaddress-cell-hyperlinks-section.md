@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781464"
 ---
-# <a name="subaddress-cell-hyperlinks-section"></a>SubAddress 单元格（“Hyperlinks”内容）
+# <a name="subaddress-cell-hyperlinks-section"></a>SubAddress 单元格（“Hyperlinks”部分）
 
 指定要链接到的目标文档内的位置。
   
@@ -24,9 +24,9 @@ ms.locfileid: "19781464"
 
 例如，如果 Address 单元格，"Drawing1.vsdx"SubAddress 单元格可以指定一个页面名称，例如"第 3 页"。 如果 Address 单元格，Microsoft Excel 文件"Samples.xlsx"此单元格值可以是工作表或工作表，如"工作表函数"或"Sheet1 中范围 ！A1: D10"。 Address 单元格是否"http://www.microsoft.com/office/"，此单元格的值可以是在文档中，例如"解决方案"命名的定位。
   
-您还可以在**超链接**对话框中设置此单元格的值 （在**插入**选项卡上的**链接**组中，单击**超链接**）。
+您还可以在 **“超链接”** 对话框（在 **“插入”** 选项卡上的 **“链接”** 组中，单击 **“超链接”**）中设置此单元格的值。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 SubAddress 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 SubAddress 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|

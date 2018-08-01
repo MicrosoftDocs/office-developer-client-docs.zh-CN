@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7561112b-ca72-4c49-a8a0-cc1879a4e151
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f2e565dc8137edee441643a5d02a154f78737099
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777859"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_MESSAGE_FLAGS  <br/> |
-|标识符:  <br/> |0x0E07  <br/> |
+|相关属性：  <br/> |PR_MESSAGE_FLAGS  <br/> |
+|标识符：  <br/> |0x0E07  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性是传输的同时发送和接收结束，具体取决于客户端应用程序或存储提供程序所涉及的不同值公开 nontransmittable message 属性。 此属性由客户端或消息存储提供程序创建和保存第一次，然后定期更新消息存储提供程序、 传输提供程序，和 MAPI 后台处理程序处理邮件消息时，其状态初始化更改。 
   
@@ -143,7 +143,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

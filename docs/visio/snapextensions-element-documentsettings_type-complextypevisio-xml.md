@@ -52,7 +52,7 @@ ms.locfileid: "19781385"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SnapExtensions**元素的值可以是下表中值的总和。 
   

@@ -31,11 +31,11 @@ Visio 2013 为 Visio 取代了 Visio 二进制文件格式 (.vsd) 和 Visio XML 
   
 - .vsdx （Visio 绘图）
     
-- .vsdm （Visio 启用宏的绘图）
+- .vsdm （Visio 启用宏的模具）
     
 - .vssx （Visio 模具）
     
-- .vssm （Visio 启用宏的模具）
+- .vssm （Visio 启用宏的绘图）
     
 - .vstx （Visio 模板）
     
@@ -163,13 +163,13 @@ XML 绘图格式和 Visio 2013 文件格式的最大区别是打包。 像普通
     
 4. 在**文件**菜单中，选择**新建**，然后选择 * * 项目 * *。
     
-5. 在**Visual C#** 或**Visual Basic**，下展开**Windows**，，然后选择**控制台应用程序**。
+5. 在“Visual C#”**** 或“Visual Basic”**** 下，展开“Windows”****，然后选择“控制台应用程序”****。
     
 6. 在**名称**框中，键入 VisioFileExplorer。 控制台应用程序项目打开。 
     
-7. 在**解决方案资源管理器**中，右键单击**VisioFileExplorer**，，然后单击**添加引用**。 
+7. 在“解决方案资源管理器”中，右键单击“VisioFileExplorer”，然后单击“添加引用”。 
     
-8. 在**添加引用**对话框的**程序集**，展开**框架**，，然后选择**WindowsBase**。
+8. 在“添加引用”**** 对话框的“程序集”**** 下，展开“框架”****，然后选择“WindowsBase”****。
     
 9. 将以下代码粘贴到解决方案中。
     

@@ -1,5 +1,5 @@
 ---
-title: Action Tag 内容
+title: “Action Tag”部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,14 +16,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779616"
 ---
-# <a name="action-tag-section"></a>Action Tag 内容
+# <a name="action-tag-section"></a>“Action Tag”部分
 
 包含与为形状或页定义的每个动作标记相对应的行。
   
 > [!NOTE]
 > 在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。 
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 **动作标记**内容控件的外观和绘图中的动作标记的位置。 使用**TagName**单元格，您可以使用一行或多行的操作部分，其中定义动作标记菜单显示的菜单项关联每个动作标记。 
   

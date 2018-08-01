@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3de56b12fa7d34004fddbfe3633b8b8307c0ffc1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -46,7 +46,7 @@ SizedDtblButton (n, u)
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 使用下列成员来创建新的结构：
   

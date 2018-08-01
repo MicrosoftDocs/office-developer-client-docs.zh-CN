@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780805"
 ---
-# <a name="onpage-cell-print-properties-section"></a>OnPage 单元格（“Print Properties”内容）
+# <a name="onpage-cell-print-properties-section"></a>OnPage 单元格（“Print Properties”部分）
 
 指示是否将绘图打印到指定数量的打印纸上。 
   
@@ -31,13 +31,13 @@ ms.locfileid: "19780805"
   
 此值对应于**页面设置**对话框中**打印设置**选项卡上的**调整为**选项 （**设计**选项卡中，单击**页面设置**箭头）。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 OnPage 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 OnPage 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |OnPage  <br/> |
    
-若要从某个程序按索引获取对 OnPage 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 OnPage 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -52,7 +52,7 @@ ms.locfileid: "19781215"
 |:-----|:-----|:-----|
 |[Row](row-element-scratch-sectionvisio-xml.md) <br/> |[ScratchRow_Type](scratchrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

@@ -32,7 +32,7 @@ USERUI (* **状态** *，* * *defaultexpression* * *，* * *userexpression* * *)
 | _defaultexpression_ <br/> |必需  <br/> |**字符串** <br/> |默认表达式。  <br/> |
 | _userexpression_ <br/> |必需  <br/> |**字符串** <br/> |为用户提供一个表达式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果_状态_为 0，则 USERUI 函数计算_defaultexpression_。 如果_状态_为 1，则其值_userexpression_。
   

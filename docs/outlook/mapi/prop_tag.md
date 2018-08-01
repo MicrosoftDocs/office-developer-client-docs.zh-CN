@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9e53c39b713aa782eb387b85667f5ded6193006f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -44,7 +44,7 @@ _ulPropID_
   
 > 新属性标记属性标识符。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **属性\_标记**宏创建类型_ulPropType_和_ulPropID_中指定的标识符的属性的属性标记。 例如，可以通过，如下所示使用**PROP_TAG**宏创建的项标识符的属性标记： 
   

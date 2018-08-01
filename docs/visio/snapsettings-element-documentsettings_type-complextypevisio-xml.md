@@ -52,7 +52,7 @@ ms.locfileid: "19781394"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 值可以是下表中值的总和。
   

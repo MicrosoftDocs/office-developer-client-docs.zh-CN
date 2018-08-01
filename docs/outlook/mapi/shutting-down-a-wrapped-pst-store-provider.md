@@ -1,5 +1,5 @@
 ---
-title: 关机的情况下被环绕的 PST 存储提供程序
+title: 关闭包装的 PST 存储区提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778779"
 ---
-# <a name="shutting-down-a-wrapped-pst-store-provider"></a>关机的情况下被环绕的 PST 存储提供程序
+# <a name="shutting-down-a-wrapped-pst-store-provider"></a>关闭包装的 PST 存储区提供程序
 
  
   
@@ -46,13 +46,13 @@ STDMETHODIMP CMSProvider::Shutdown(ULONG * pulFlags)
 
 
 
-[有关示例包装 PST 存储提供程序](about-the-sample-wrapped-pst-store-provider.md)
+[关于示例包装的 PST 存储区提供程序](about-the-sample-wrapped-pst-store-provider.md)
   
-[安装示例自动换行 PST 存储提供程序](installing-the-sample-wrapped-pst-store-provider.md)
+[安装示例包装的 PST 存储区提供程序](installing-the-sample-wrapped-pst-store-provider.md)
   
-[初始化换行的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)
+[初始化包装的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
   
-[登录到换行的 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
+[登录包装的 PST 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
   
-[使用包装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)
+[使用包装的 PST 存储区提供程序](using-a-wrapped-pst-store-provider.md)
 

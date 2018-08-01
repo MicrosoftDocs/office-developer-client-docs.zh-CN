@@ -16,21 +16,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781216"
 ---
-# <a name="scaley-cell-print-properties-section"></a>ScaleY 单元格（“Print Properties”内容）
+# <a name="scaley-cell-print-properties-section"></a>ScaleY 单元格（“Print Properties”部分）
 
 在打印纸上指定百分比的绘图页的放大倍数。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 仅当 OnPage 单元格的值为 FALSE 时，才使用此值。 ScaleX 和 ScaleY 单元格始终具有相同的值，此名称对应于**页面设置**对话框中**打印设置**选项卡上的**调整为**设置中的值 （**设计**选项卡中，单击**页面设置**箭头）。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ScaleY 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ScaleY 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |ScaleY  <br/> |
    
-若要从某个程序按索引获取对 ScaleY 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ScaleY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

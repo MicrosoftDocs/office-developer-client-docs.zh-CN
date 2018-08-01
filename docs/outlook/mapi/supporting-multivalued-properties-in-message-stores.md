@@ -1,5 +1,5 @@
 ---
-title: 在消息存储中支持多值的属性
+title: 支持邮件存储区中的多值属性
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778929"
 ---
-# <a name="supporting-multivalued-properties-in-message-stores"></a>在消息存储中支持多值的属性
+# <a name="supporting-multivalued-properties-in-message-stores"></a>支持邮件存储区中的多值属性
 
   
   
@@ -27,5 +27,5 @@ ms.locfileid: "19778929"
 
 
 
-[消息存储库中实现消息](implementing-messages-in-message-stores.md)
+[实现邮件存储区中的邮件](implementing-messages-in-message-stores.md)
 

@@ -49,7 +49,7 @@ ms.locfileid: "19781409"
 |:-----|:-----|:-----|
 |[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |解决方案与此解决方案关联的 XML 中指定到部件的关系。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|

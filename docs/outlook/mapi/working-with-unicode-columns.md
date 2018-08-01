@@ -1,5 +1,5 @@
 ---
-title: 使用 Unicode 列
+title: 处理 Unicode 列
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779090"
 ---
-# <a name="working-with-unicode-columns"></a>使用 Unicode 列
+# <a name="working-with-unicode-columns"></a>处理 Unicode 列
 
   
   

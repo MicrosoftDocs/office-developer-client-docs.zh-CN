@@ -19,21 +19,21 @@ ms.locfileid: "19781226"
 
 - [1-D Endpoints Section](1-d-endpoints-section.md)
     
-- [三维旋转 Properties](3-d-rotation-properties-section.md)
+- [“3-D Rotation Properties”部分](3-d-rotation-properties-section.md)
     
 - [Action Tag Section](action-tag-section.md)
     
 - [Actions Section](actions-section.md)
     
-- [其他效果属性部分](additional-effect-properties-section.md)
+- [“Additional Effect Properties”部分](additional-effect-properties-section.md)
     
 - [Alignment Section](alignment-section.md)
     
 - [Annotation Section](annotation-section.md)
     
-- [Bevel 属性部分](bevel-properties-section.md)
+- [“Bevel Properties”部分](bevel-properties-section.md)
     
-- [更改形状行为部分](change-shape-behavior-section.md)
+- [“Change Shape Behavior”部分](change-shape-behavior-section.md)
     
 - [Character Section](character-section.md)
     
@@ -47,7 +47,7 @@ ms.locfileid: "19781226"
     
 - [Fill Format Section](fill-format-section.md)
     
-- [填充渐变部分](fill-gradient-section.md)
+- [“Fill Gradient”部分](fill-gradient-section.md)
     
 - [Foreign Image Info Section](foreign-image-info-section.md)
     
@@ -55,7 +55,7 @@ ms.locfileid: "19781226"
     
 - [Glue Info Section](glue-info-section.md)
     
-- [渐变 Properties](gradient-properties-section.md)
+- [“Gradient Properties”部分](gradient-properties-section.md)
     
 - [Group Properties Section](group-properties-section.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "19781226"
     
 - [Line Format Section](line-format-section.md)
     
-- [Line 渐变内容](line-gradient-section.md)
+- [“Line Gradient”部分](line-gradient-section.md)
     
 - [Miscellaneous Section](miscellaneous-section.md)
     
@@ -83,7 +83,7 @@ ms.locfileid: "19781226"
     
 - [Protection Section](protection-section.md)
     
-- [快速样式部分](quick-style-section.md)
+- [“Quick Style”部分](quick-style-section.md)
     
 - [Reviewer Section](reviewer-section.md)
     
@@ -107,7 +107,7 @@ ms.locfileid: "19781226"
     
 - [Text Transform Section](text-transform-section.md)
     
-- [主题属性部分](theme-properties-section.md)
+- [“Theme Properties”部分](theme-properties-section.md)
     
 - [User-defined Cells Section](user-defined-cells-section.md)
     

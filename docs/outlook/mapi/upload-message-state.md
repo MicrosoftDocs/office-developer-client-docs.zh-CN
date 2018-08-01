@@ -1,11 +1,11 @@
 ---
-title: 上载邮件状态
+title: 上传邮件状态
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 752756cbcf6c1ce487188dd4b9ba55eee6506cd4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779050"
 ---
-# <a name="upload-message-state"></a>上载邮件状态
+# <a name="upload-message-state"></a>上传邮件状态
 
   
   
@@ -47,11 +47,11 @@ ms.locfileid: "19779050"
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
 [MAPI 常量](mapi-constants.md)
   
-[有关的复制状态机](about-the-replication-state-machine.md)
+[关于复制状态计算机](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

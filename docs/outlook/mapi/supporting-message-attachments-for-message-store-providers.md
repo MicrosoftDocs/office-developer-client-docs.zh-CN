@@ -1,5 +1,5 @@
 ---
-title: 消息存储提供程序的支持邮件附件
+title: 支持邮件存储区提供程序的邮件附件
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
-description: 上次修改时间： 2015 年 12 月 7 日
+description: 上次修改时间： 2015年12月7日
 ms.openlocfilehash: e3d6844f8fe6121d6ea063a9594aaf1fed581ee5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778898"
 ---
-# <a name="supporting-message-attachments-for-message-store-providers"></a>消息存储提供程序的支持邮件附件
+# <a name="supporting-message-attachments-for-message-store-providers"></a>支持邮件存储区提供程序的邮件附件
 
  
   
@@ -41,5 +41,5 @@ ms.locfileid: "19778898"
 
 
 
-[消息存储功能](message-store-features.md)
+[邮件存储区功能](message-store-features.md)
 

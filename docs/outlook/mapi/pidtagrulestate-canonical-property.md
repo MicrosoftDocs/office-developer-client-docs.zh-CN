@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 519ee2b91275e4253845afa35a9a80470071966d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778297"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RULE_STATE  <br/> |
-|标识符:  <br/> |0x6677  <br/> |
+|相关属性：  <br/> |PR_RULE_STATE  <br/> |
+|标识符：  <br/> |0x6677  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 下表定义了此属性的可能值。
   
@@ -112,7 +112,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

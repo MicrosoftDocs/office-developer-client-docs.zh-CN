@@ -119,5 +119,5 @@ ms.locfileid: "19778734"
     
 ## <a name="see-also"></a>另请参阅
 
-- [消息存储功能](message-store-features.md)
+- [邮件存储区功能](message-store-features.md)
 

@@ -41,9 +41,9 @@ Project Server 2013 客户端对象模型 (CSOM) 实现常见的服务器功能�
   
 表 1 列出**ProjectContext**属性表示 Project Server 对象。 您可以使用这些对象来检索其他 Project Server 2013 实体，如工作分配和任务。 
   
-**表 1。提供对 Project Server CSOM 和 JSOM 中的对象的访问的 ProjectContext 属性**
+**表 1. 提供对 CSOM 和 JSOM 中的 Project Server 对象的访问权的 ProjectContext 属性**
 
-|**CSOM （.NET、 Silverlight 和 Windows Phone）**|**JSOM**|
+|**CSOM（.NET、Silverlight 和 Windows Phone）**|**JSOM**|
 |:-----|:-----|
 |[CustomFields](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.CustomFields.aspx) <br/> |customFields  <br/> |
 |[EnterpriseProjectTypes](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.EnterpriseProjectTypes.aspx) <br/> |enterpriseProjectTypes  <br/> |
@@ -66,14 +66,14 @@ Project Server 2013 客户端对象模型 (CSOM) 实现常见的服务器功能�
   
 此外，查看这些介绍如何使用 CSOM 的文章：
   
-- [批量更新自定义字段和 Project Online 中的工作流中创建项目网站](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
+- [批量更新自定义字段并从 Project Online 中的工作流创建项目网站](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
     
-- [通过使用 JavaScript 对象模型来处理项目](create-retrieve-update-delete-projects-using-project-server-javascript.md)
+- [使用 JavaScript 对象模型处理项目](create-retrieve-update-delete-projects-using-project-server-javascript.md)
     
 > [!NOTE]
 > 您还可以使用.NET Framework 4 CSOM 开发的 Visual Studio 2010。 
   
-## <a name="reference"></a>引用
+## <a name="reference"></a>参考
 
 [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx)
   

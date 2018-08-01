@@ -20,7 +20,8 @@ ms.locfileid: "19781518"
   
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Visio 2013 
+添加的版本： Visio 2013
+ 
   
 ## <a name="syntax"></a>语法
 
@@ -37,7 +38,7 @@ ms.locfileid: "19781518"
 
  **编号**
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 > [!NOTE]
 > THEMECBV 函数无实际作用如果 QuickStyle 使用分配给该形状没有渐变作为参数传递中的颜色。 

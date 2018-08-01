@@ -27,11 +27,11 @@ ms.locfileid: "19779351"
 
 一个指向指定包含图标的社交网络的字节数组的结构。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 支持的图片资源是.bmp、.jpeg 和.png 格式。
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

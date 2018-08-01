@@ -50,7 +50,7 @@ ms.locfileid: "19780871"
 |:-----|:-----|:-----|
 |[网页](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

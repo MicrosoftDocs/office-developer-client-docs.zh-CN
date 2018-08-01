@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1604c4a1a0d1bf4008595b0d150b4f7eb3d1c2ed
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ typedef struct _SSortOrderSet
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cSorts**
   
@@ -61,7 +61,7 @@ typedef struct _SSortOrderSet
   
 > 每个定义排序顺序的**SSortOrder**结构数组。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SSortOrderSet**结构用于定义多个标准和分类排序的排序顺序。 
   

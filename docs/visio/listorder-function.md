@@ -20,7 +20,8 @@ ms.locfileid: "19780594"
   
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Visio 2010 
+添加的版本： Visio 2010
+ 
   
 ## <a name="syntax"></a>语法
 

@@ -50,7 +50,7 @@ ms.locfileid: "19781384"
 |:-----|:-----|:-----|
 |[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |包含浮点数指定管理角度单位为度。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

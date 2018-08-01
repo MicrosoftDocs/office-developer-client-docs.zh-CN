@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a9e1579-bebe-4a51-8ced-6dba9c3bcb63
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5cfad1c75aaab9afae47de5798f9e6b7ea530940
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _SPropTagArray
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -51,7 +51,7 @@ typedef struct _SPropTagArray
   
 > 属性标记的数组。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 属性标记是一个 32 位无符号的整数，由两部分组成： 
   

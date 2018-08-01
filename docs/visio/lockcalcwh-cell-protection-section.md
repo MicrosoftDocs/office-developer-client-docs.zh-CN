@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780611"
 ---
-# <a name="lockcalcwh-cell-protection-section"></a>LockCalcWH 单元格（“Protection”内容）
+# <a name="lockcalcwh-cell-protection-section"></a>LockCalcWH 单元格（“Protection”部分）
 
 锁定形状的选择矩形，使得在“Geometry”内容中编辑顶点或更改行类型时，不会重新计算选择矩形。
   
@@ -27,13 +27,13 @@ ms.locfileid: "19780611"
    
 ## <a name="remarks"></a>注释
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 LockCalcWH 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 LockCalcWH 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | LockCalcWH  <br/> |
    
-若要从某个程序按索引获取对 LockCalcWH 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 LockCalcWH 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

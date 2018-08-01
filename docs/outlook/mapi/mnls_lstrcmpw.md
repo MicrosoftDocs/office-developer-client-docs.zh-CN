@@ -43,7 +43,7 @@ int MNLS_lstrcmpW(
 
 返回到除 CSTR_EQUAL **MNLS_CompareStringW**等效呼叫的描述的值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
  _MNLS_lstrcmpW_通过调用[MNLS_CompareStringW](mnls_comparestringw.md)与 GetUserDefaultLCID，用于标志，0 的区域设置执行比较和 cch1 和 cch2-1。 
   

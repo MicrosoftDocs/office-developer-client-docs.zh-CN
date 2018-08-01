@@ -47,7 +47,7 @@ RUNMACRO 函数与 CALLTHIS 函数不同，不传递到拥有对_macroname_计�
     
 - 将关闭窗口的窗口消息张贴到文档中，而不是关闭该文档。
     
-有关在 Visio 中运行代码的详细信息，请参阅[关于安全设置和运行代码在 Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) ShapeSheet 参考中。 
+有关在 Visio 中运行代码的详细信息，请参阅本“ShapeSheet 参考”中的[关于 Visio 中的安全设置和运行代码](about-security-settings-and-running-code-in-visio-shapesheet.md)。 
   
 ## <a name="example"></a>示例
 

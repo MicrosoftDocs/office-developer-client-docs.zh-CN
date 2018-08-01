@@ -16,23 +16,23 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779647"
 ---
-# <a name="asianfont-cell-character-section"></a>AsianFont 单元格（“Character”内容）
+# <a name="asianfont-cell-character-section"></a>AsianFont 单元格（“Character”部分）
 
 包含用于设置含有亚洲字符的文字格式的字体编号。根据您的系统上安装的字体，字体编号会有所不同。 
   
 ## <a name="remarks"></a>注解
 
-**文本**对话框 （单击**主页**选项卡组的**字体**箭头） 中的**字体**选项卡上列出亚洲字体。 仅当您已添加了包含用于亚洲语言或复杂文种字符，在**Microsoft Office 语言首选项**对话框中的语言，将显示此列表。 （单击**开始**，单击**所有程序**，都单击**Microsoft Office**、 都单击**Microsoft Office 工具**，然后都单击**Microsoft Office 语言首选项**。
+亚洲字体在 **“文本”** 对话框中的 **“字体”** 选项卡（单击 **“开始”** 选项卡上的 **“字体”** 组中的箭头）上列出。只有在 **“Microsoft Office 语言首选项”** 对话框（依次单击 **“开始”**、**“所有程序”**、**“Microsoft Office”**、**“Microsoft Office 工具”** 和 **“Microsoft Office 语言首选项”**）中添加了包含亚洲或复杂文种字符的语言后，才会显示此列表。
   
 数字 0 表示未指定任何字体。如果西文字体或默认字体含有必需的字符，那么将使用这些字体。
   
-若要获取对 AsianFont 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 AsianFont 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Char.AsianFont [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 AsianFont 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 AsianFont 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: 测试朋友
+title: 测试好友
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779350"
 ---
-# <a name="testing-friends"></a>测试朋友
+# <a name="testing-friends"></a>测试好友
 
 本主题介绍测试和方案，验证 Outlook Social Connector (OSC) 提供程序适当地返回数据的朋友和非朋友，如果适用，具体取决于提供程序支持的同步模式。
 

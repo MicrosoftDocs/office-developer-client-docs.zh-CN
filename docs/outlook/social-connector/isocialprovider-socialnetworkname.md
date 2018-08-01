@@ -27,11 +27,11 @@ ms.locfileid: "19779225"
 
 一个字符串，包含社交网络的名称。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Outlook Social Connector (OSC) 提供程序应本地化社交网络名称。
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

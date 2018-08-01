@@ -1,5 +1,5 @@
 ---
-title: ROUND 函数 (VisioShapeSheet)
+title: ROUND Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19781129"
 ---
-# <a name="round-function-visioshapesheet"></a>ROUND 函数 (VisioShapeSheet)
+# <a name="round-function-visioshapesheet"></a>ROUND Function (VisioShapeSheet)
 
 舍入到由*numberofdigits*的精度。 
   

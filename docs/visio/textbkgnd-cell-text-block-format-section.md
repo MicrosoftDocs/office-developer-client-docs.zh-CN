@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781510"
 ---
-# <a name="textbkgnd-cell-text-block-format-section"></a>TextBkgnd 单元格（“Text Block Format”内容）
+# <a name="textbkgnd-cell-text-block-format-section"></a>TextBkgnd 单元格（“Text Block Format”部分）
 
 确定一个形状的文本背景色。
   
@@ -28,13 +28,13 @@ TextBkgnd 单元格可以具有任何值从 0 到 24 或 255。 值 0 和 255 ( 
   
 您可以在 TextBkgndTrans 单元格中设置文本背景色的透明度。
   
-若要获取对 TextBkgnd 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 TextBkgnd 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |TextBkgnd  <br/> |
    
-若要从某个程序按索引获取对 TextBkgnd 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 TextBkgnd 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

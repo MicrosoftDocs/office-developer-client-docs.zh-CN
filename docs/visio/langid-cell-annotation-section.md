@@ -16,24 +16,24 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780524"
 ---
-# <a name="langid-cell-annotation-section"></a>LangID 单元格（“Annotation”内容）
+# <a name="langid-cell-annotation-section"></a>LangID 单元格（“Annotation”部分）
 
 指示输入注释所使用的语言。
   
 > [!NOTE]
 > 此单元格用于跟踪注释，仅当打开 Microsoft Visio 2013 中的.vsd 文件或.vsd 文件格式保存.vsdx 文件时。 它不用于跟踪.vsdx Visio 2013 中的文档中的注释。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-此值是区域设置 ID (LCID) 的语言的输入注释所时语言栏上的活动。 Microsoft Office 应用程序所支持的语言的列表，请参阅[DocLangID](doclangid-cell-document-properties-section.md)单元格 （Document Properties 内容） 这一主题。 
+此值是输入注释时在语言栏上激活的语言的区域设置 ID (LCID)。有关 Microsoft Office 应用程序所支持的语言的列表，请参阅“[DocLangID](doclangid-cell-document-properties-section.md) 单元格（‘Document Properties’内容）”这一主题。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 LangID 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 LangID 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Annotation.LangID [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 LangID 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 LangID 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

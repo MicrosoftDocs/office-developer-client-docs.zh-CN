@@ -28,8 +28,8 @@ TRUNC (* **数量** *，* * *numberofdigits* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |必需  <br/> |**数字** <br/> |要截断的数字。  <br/> |
-| _numberofdigits_ <br/> |必需  <br/> |**数字** <br/> |要_截断_的数字数。  <br/> |
+| _number_ <br/> |必需  <br/> |**Numeric** <br/> |要截断的数字。  <br/> |
+| _numberofdigits_ <br/> |必需  <br/> |**Numeric** <br/> |要_截断_的数字数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

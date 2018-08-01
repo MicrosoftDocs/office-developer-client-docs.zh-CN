@@ -31,5 +31,5 @@ _result_
     
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialSession: IUnknown](isocialsessioniunknown.md)
+- [ISocialSession : IUnknown](isocialsessioniunknown.md)
 

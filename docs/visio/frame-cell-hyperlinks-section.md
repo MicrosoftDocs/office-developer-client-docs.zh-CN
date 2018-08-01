@@ -16,19 +16,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780322"
 ---
-# <a name="frame-cell-hyperlinks-section"></a>Frame 单元格（“Hyperlinks”内容）
+# <a name="frame-cell-hyperlinks-section"></a>Frame 单元格（“Hyperlinks”部分）
 
 代表当应用程序作为活动文档在某一容器应用程序中打开时的目标框架名。默认值为空字符串。
   
 ## <a name="remarks"></a>注释
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Frame 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Frame 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 超链接。  *名称*。框位置的超链接。  *name*是行名称  <br/> |
    
-若要从某个程序按索引获取对 Frame 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Frame 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -49,9 +49,11 @@ ms.locfileid: "19779968"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |代表在绘图中，如的线和框组织结构图中的两个形状间的连接。  <br/> |
+|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
+			表示绘图中的两个形状间的连接，如组织结构图中的线和框。
+  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

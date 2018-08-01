@@ -1,5 +1,5 @@
 ---
-title: 发送和接收窗体通知
+title: 发送和接收表单通知
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778729"
 ---
-# <a name="sending-and-receiving-form-notifications"></a>发送和接收窗体通知
+# <a name="sending-and-receiving-form-notifications"></a>发送和接收表单通知
 
   
   

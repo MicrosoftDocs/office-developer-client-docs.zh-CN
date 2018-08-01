@@ -26,14 +26,14 @@ TINT (* **颜色** *，* * *int* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |必需  <br/> |**数字** <br/> |Microsoft Visio 颜色的颜色索引或 RGB 值。  <br/> |
+| _color_ <br/> |必需  <br/> |**Numeric** <br/> |Microsoft Visio 颜色的颜色索引或 RGB 值。  <br/> |
 | _int_ <br/> |必需  <br/> |**Integer** <br/> |颜色发光度降低的数量。可以是正数或负数。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
  **RGB**
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 发光度的上限和下限限制分别为 0 和 240。 您可以为_int_参数，传递的整数的大小没有限制，但发光度不能超过这些限制。 
   

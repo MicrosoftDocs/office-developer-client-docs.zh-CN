@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8bfa5709dede4a9501d261e0f495acbc0894b470
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778742"
 ---
-# <a name="sending-messages-message-store-provider-tasks"></a>发送的邮件： 消息存储提供程序任务
+# <a name="sending-messages-message-store-provider-tasks"></a>发送邮件：邮件存储区提供程序任务
 
 **适用于**： Outlook 
   

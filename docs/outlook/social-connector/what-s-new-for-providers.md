@@ -1,5 +1,5 @@
 ---
-title: What's new for 提供程序
+title: 提供程序的新增功能
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779347"
 ---
-# <a name="whats-new-for-providers"></a>What's new for 提供程序
+# <a name="whats-new-for-providers"></a>提供程序的新增功能
 
 本主题列出了在 Outlook Social Connector 2013 (OSC) 的主要更改。 它提供 Outlook Social Connector 2013 和 Outlook Social Connector 1.1 之间可用的功能的比较。 该参数还描述接口成员和 XML 元素的已添加、 更改或弃用。 
   
@@ -34,18 +34,18 @@ Outlook Social Connector 2013 中的一些主要更改包括：
 |**功能**|**Outlook Social Connector 2013**|**Outlook Social Connector 1.1**|
 |:-----|:-----|:-----|
 |最终用户界面  <br/> |SharePoint Server、 SharePoint Workspace Lync 客户端，所有 Office 客户端应用程序中的联系人卡片和 Outlook 中的人员窗格  <br/> |在 Outlook 中的人员窗格  <br/> |
-|基本身份验证  <br/> |是  <br/> |是  <br/> |
-|基于表单的身份验证  <br/> |是  <br/> |是  <br/> |
-|缓存的身份验证  <br/> |是  <br/> |是  <br/> |
-|缓存的同步到默认的联系人文件夹的朋友存储  <br/> |是  <br/> |是  <br/> |
-|隐藏的**新闻源**文件夹朋友缓存的活动同步  <br/> |否  <br/> |是  <br/> |
-|朋友和非朋友网络上的按需同步 （图片、 名称、 标题）  <br/> |是  <br/> |是  <br/> |
-|朋友和非朋友网络上的按需活动同步  <br/> |是  <br/> |是  <br/> |
-|请按照网络  <br/> |是  <br/> |是  <br/> |
-|在网络上不会遵循  <br/> |是  <br/> |是  <br/> |
+|基本身份验证  <br/> |可访问  <br/> |可访问  <br/> |
+|基于表单的身份验证  <br/> |可访问  <br/> |可访问  <br/> |
+|缓存的身份验证  <br/> |可访问  <br/> |可访问  <br/> |
+|缓存的同步到默认的联系人文件夹的朋友存储  <br/> |可访问  <br/> |可访问  <br/> |
+|隐藏的**新闻源**文件夹朋友缓存的活动同步  <br/> |否  <br/> |可访问  <br/> |
+|朋友和非朋友网络上的按需同步 （图片、 名称、 标题）  <br/> |可访问  <br/> |可访问  <br/> |
+|朋友和非朋友网络上的按需活动同步  <br/> |可访问  <br/> |可访问  <br/> |
+|请按照网络  <br/> |可访问  <br/> |可访问  <br/> |
+|在网络上不会遵循  <br/> |可访问  <br/> |可访问  <br/> |
 |访问用户配置文件页面  <br/> |通过链接  <br/> |通过网络徽章  <br/> |
-|观察社交网络 （例如，显示配置文件和活动的非-朋友允许查看例如） 上的隐私设置  <br/> |是  <br/> |是  <br/> |
-|传递给提供程序的哈希电子邮件地址  <br/> |是  <br/> |是  <br/> |
+|观察社交网络 （例如，显示配置文件和活动的非-朋友允许查看例如） 上的隐私设置  <br/> |可访问  <br/> |可访问  <br/> |
+|传递给提供程序的哈希电子邮件地址  <br/> |可访问  <br/> |可访问  <br/> |
 
 <a name="OlSocialConnector_Changes"> </a>
 
@@ -61,7 +61,7 @@ Outlook Social Connector 2013 中的一些主要更改包括：
   
 |**架构元素**|**Comment**|
 |:-----|:-----|
-|**功能** <br/> |Outlook Social Connector 2013 中添加： **allowChangesToAutoConfigure**元素。  <br/> Outlook Social Connector 2013 中弃用： **cacheActivities**元素。  <br/> |
+|**capabilities** <br/> |Outlook Social Connector 2013 中添加： **allowChangesToAutoConfigure**元素。  <br/> Outlook Social Connector 2013 中弃用： **cacheActivities**元素。  <br/> |
 |**person** <br/> |Outlook Social Connector 2013 中添加： **askmeabout**、 **businessAddress**、 **businessCity**、 **businessCountryOrRegion**、 **businessState**、 **businessZip**、**行业**、**兴趣**、 **位置**， **otherAddress**、 **otherCity**、 **otherCountryOrRegion**、 **otherState**、 **otherZip**、**技能**、**学校**和**网站**的元素。  <br/> |
    
 ## <a name="see-also"></a>另请参阅

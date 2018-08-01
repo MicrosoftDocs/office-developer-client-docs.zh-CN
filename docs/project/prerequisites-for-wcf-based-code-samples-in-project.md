@@ -52,7 +52,7 @@ Project 2013 开发人员文档中保持不变从为 Office Project Server 2007 
     
        - Microsoft.Office.Project.Server.Library.dll
     
-    3. 有关如何编译和使用 ProjectServerServices.dll 代理程序集在 PSI 中的 WCF 服务的信息，请参阅[使用 PSI 代理程序集和 IntelliSense 说明](#pj15_PrerequisitesWCF_BuildingProxy)。
+    3. 有关如何在 PSI 中编译 ProjectServerServices.dll 代理程序集并将其用于 WCF 服务的信息，请参阅[使用 PSI 代理程序集和 IntelliSense 说明](#pj15_PrerequisitesWCF_BuildingProxy)。
     
 3. **安装 IntelliSense 文件。**
     
@@ -65,15 +65,15 @@ Project 2013 开发人员文档中保持不变从为 Office Project Server 2007 
 
 1. **创建一个控制台应用程序。**
     
-    当您创建控制台应用程序，在**新建项目**对话框中下拉列表中时，选择 **.NET Framework 4**。 您可以将 PSI 示例代码复制到新的应用程序。
+    创建控制台应用程序时，请在“新建项目”**** 对话框的下拉列表中，选择“.NET Framework 4”****。可以将 PSI 示例代码复制到新的应用程序中。
     
 2. **添加 WCF 所需的引用。**
     
     在解决方案资源管理器中，添加对**System.ServiceModel**引用 （见图 1）。 Web 应用程序将使用**System.ServiceModel.Web**。
     
-    此外添加对**system.runtime.serialization 的引用**。
+    此外，添加对 **System.Runtime.Serialization** 的引用。
     
-    **图 1。为基于 WCF 的应用程序 Visual Studio 中添加引用**
+    **图 1. 在 Visual Studio 中添加对基于 WCF 的应用程序的引用**
 
     ![添加 WCF 引用](media/pj15_PrerequisitesWCF_AddReference.gif "添加 WCF 引用")
   
@@ -93,11 +93,11 @@ Project 2013 开发人员文档中保持不变从为 Office Project Server 2007 
     
     添加 WCF 服务引用的方法有下列三种：
     
-    - 生成 PSI 代理程序集名为 ProjectServerServices.dll，并将程序集的引用。 请参阅[使用 PSI 代理程序集和 IntelliSense 说明](#pj15_PrerequisitesWCF_BuildingProxy)。
+    - 生成一个名为 ProjectServerServices.dll 的 PSI 代理程序集，然后设置对该程序集的引用。请参阅[使用 PSI 代理程序集和 IntelliSense 说明](#pj15_PrerequisitesWCF_BuildingProxy)。
     
-    - 向 Visual Studio 解决方案从 svcutil.exe 输出添加代理文件。 请参阅[添加 PSI 代理文件](#pj15_PrerequisitesWCF_AddingProxyFile)。
+    - 将 svcutil.exe 输出中的代理文件添加到 Visual Studio 解决方案。请参阅[添加 PSI 代理文件](#pj15_PrerequisitesWCF_AddingProxyFile)。
     
-    - 使用 Visual Studio 中添加服务引用。 请参阅[添加服务引用](#pj15_PrerequisitesWCF_AddingServiceReference)。
+    - 使用 Visual Studio 添加服务引用。请参阅[添加服务引用](#pj15_PrerequisitesWCF_AddingServiceReference)。
     
 ### <a name="using-a-psi-proxy-assembly-and-intellisense-descriptions"></a>使用 PSI 代理程序集和 IntelliSense 说明
 <a name="pj15_PrerequisitesWCF_BuildingProxy"> </a>
@@ -111,9 +111,9 @@ Project Server service pack 和更新，您可以更新代理源文件和 GenWCF
 > 
 > 中的脚本`Documentation\IntelliSense\ASMX`文件夹基于 WCF 的应用程序不起作用。 GenASMXProxyAssembly.cmd 脚本调用 Wsdl.exe，生成的 ASMX 服务的源代码文件。 ASMX 代理文件包括不同的类和属性。 例如，基于 ASMX 的资源的 web 服务包含**资源**类，而基于 WCF 的资源服务包括**资源**接口、 **ResourceChannel**接口以及**ResourceClient**类。 
   
-ASMX web 服务和 WCF 服务创建的任意命名空间是相同的以便 IntelliSense 的 ProjectServerServices.xml 文件处理任一程序集。 例如，资源服务在基于 WCF 的代理程序集和基于 ASMX 的代理程序集的命名空间为**SvcResource**。 当然，可以更改命名空间名称 — 如果您确保它们匹配代理程序集和 ProjectServerServices.xml IntelliSense 文件中。
+为 ASMX Web 服务和 WCF 服务创建的任意命名空间都是相同的，以便 IntelliSense 的 ProjectServerServices.xml 文件可用于任一程序集。例如，基于 WCF 的代理程序集和基于 ASMX 的代理程序集中的 Resource 服务的命名空间为 **SvcResource**。当然，如果您确保命名空间名称在代理程序集和 ProjectServerServices.xml IntelliSense 文件中是匹配的，则可更改它们。
   
-如果代码示例使用不同的 PSI 服务命名空间名称，例如**ProjectWebSvc**的 IntelliSense 以正常运行，则必须更改的示例使用**SvcProject**以便命名空间匹配代理程序集。 
+如果代码示例的 PSI 服务命名空间使用的名称不同，例如 **ProjectWebSvc**，若要 IntelliSense 起作用，您必须更改示例才能使用 **SvcProject**，以便命名空间与代理程序集匹配。 
   
 使用基于 WCF 的代理程序集的优势如下：
   
@@ -123,7 +123,7 @@ ASMX web 服务和 WCF 服务创建的任意命名空间是相同的以便 Intel
     
 - 如果将 ProjectServerServices.xml 文件添加到您在其中设置对 ProjectServerServices.dll 代理程序集的引用相同的目录，可以获取 PSI 类和成员的 IntelliSense 说明。 有关详细信息，请参阅中的 [ReadMe_IntelliSense] 文件`Documentation\IntelliSense`Project 2013 SDK 下载文件夹。 
     
-**图 2。资源服务中的方法使用 IntelliSense**
+**图 2. 将 IntelliSense 用于 Resource 服务中的方法**
 
 ![对 ReadResource 方法使用 Intellisense](media/pj15_PrerequisitesWCF_Intellisense.gif "对 ReadResource 方法使用 Intellisense")
   
@@ -134,7 +134,7 @@ ASMX web 服务和 WCF 服务创建的任意命名空间是相同的以便 Intel
 
 Project 2013 SDK 下载包括为代理程序集由 SvcUtil.exe 命令生成的源文件。 源文件位于 Source.zip 文件`Documentation\IntelliSense\WCF`子目录。 而不是设置代理程序集的引用，可以将一个或多个的源文件添加到 Visual Studio 解决方案。 例如，若要使用的 Project 服务和资源服务，添加 wcf。Project.cs 和 wcf。向解决方案 Resource.cs 文件。 
   
-在 WCF 中每个 PSI 服务中的主要类定义由接口和成员的访问的客户端类中实现。 例如， **SvcProject.Resource**接口实现**SvcProject.ResourceClient**类中。 若要定义为类变量名为**resourceClient** **ResourceClient**对象，例如，使用下面的代码。 在示例中， **SetClientEndpoints**方法创建一个使用**basicHttp_Project**终结点，其中 app.config 文件中定义的**resourceClient**对象。 有关 app.config 文件的详细信息，请参阅[添加服务配置文件](#pj15_PrerequisitesWCF_AddConfig)部分。 
+在 WCF 中，每个 PSI 服务中的主类都是由接口定义的，并且在客户端类中实现，以获取对成员的访问权限。例如，**SvcProject.Resource** 接口是在 **SvcProject.ResourceClient** 类中实现的。例如，若要将 **ResourceClient** 对象定义为名为 **resourceClient** 的类变量，请使用下列代码。在此示例中，**SetClientEndpoints** 方法将创建一个使用 **basicHttp_Project** 终结点（其是在 app.config 文件中定义的）的 **resourceClient** 对象。有关 app.config 文件的详细信息，请参阅[添加服务配置文件](#pj15_PrerequisitesWCF_AddConfig)部分。 
   
 ```cs
 private static SvcResource.ResourceClient resourceClient;
@@ -152,7 +152,7 @@ public void DisposeClients()
 ```
 
 > [!NOTE]
-> 无论是使用 PSI 代理程序集还是添加名为**SvcResource**的 Project 服务引用代理文件，您应使用相同的代码来创建和释放**resourceClient**对象。 
+> 无论您为名为 **SvcResource** 的 Project 服务引用使用 PSI 代理程序集还是添加代理文件，都将使用相同的代码创建和释放 **resourceClient** 对象。 
   
 ### <a name="adding-a-service-reference"></a>添加服务引用
 <a name="pj15_PrerequisitesWCF_AddingServiceReference"> </a>
@@ -166,7 +166,7 @@ public void DisposeClients()
   
 1. 若要获取对后端 WCF 服务的访问权限，请在 Project Server 计算机上运行 Visual Studio。
     
-2. 在**解决方案资源管理器**中，右键单击**引用**文件夹，然后选择**添加服务引用**。 
+2. 在“解决方案资源管理器”**** 中，右键单击“引用”**** 文件夹，然后选择“添加服务引用”****。 
     
 3. 在**添加服务引用**对话框中**地址**文本框中，键入http://localhost:32843/ _GUID_/psi/ _ServiceName_.svc，并按**Enter**。 Project Server service 应用程序，如 534c37eb00d74ccfadcecf9827e95239 的虚拟目录名称中替换_GUID_ 。 _ServiceName_替换该服务，如资源的名称 （请参阅图 3）。 
     
@@ -174,7 +174,7 @@ public void DisposeClients()
     
    - 在浏览器中打开 SharePoint 2013 管理中心应用程序。 选择**管理服务应用程序**，然后选择所需的 Project Server PSI 服务应用程序。 例如，选择**ProjectServerService**。 管理 Project Web App 网站页的 URL 包含虚拟目录名称。 例如，在`http://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`，虚拟目录名即`534c37eb00d74ccfadcecf9827e95239`（目录名称包含任何虚线）。 
     
-   - 打开**Internet 信息服务 (IIS) 管理器**对话框中的 Project Server 计算机上。 展开**连接**窗格中的**SharePoint Web 服务**节点，然后展开下方，服务虚拟目录，直到找到包含 PSI 文件夹的目录。 选择的目录，选择**高级设置**中**操作**窗格中，并在**虚拟路径**字段中复制的目录名称。 
+   - 在 Project Server 计算机上打开“Internet Information Services (IIS) 管理器”**** 对话框。在“连接”**** 窗格的“SharePoint Web 服务”**** 节点，然后展开该节点下的服务虚拟目录，直到您发现目录包含 PSI 文件夹。选择目录，然后选择“操作”**** 窗格中的“高级设置”****，然后将目录名称复制在“虚拟路径”**** 字段中。 
     
       > [!NOTE]
       > 可以有多个 Project Server Service 虚拟目录。 确保您选择包含所需的 Project Web App 实例的虚拟目录。 
@@ -209,7 +209,7 @@ public void DisposeClients()
     
 4. 服务引用解析后，请在**Namespace**文本框中键入引用名称。 Project 2013 开发人员文档中的代码示例使用任意命名空间名称**Svc _ServiceName_**。 例如，资源服务的代码示例在名为**SvcResource**。
     
-    **图 3。添加基于 WCF 的资源服务引用**
+    **图 3. 添加基于 WCF 的 Resource 服务引用**
 
     ![添加基于 WCF 的资源服务引用](media/pj15_PrerequisitesWCF_AddSvcReference.gif "添加基于 WCF 的资源服务引用")
   
@@ -222,9 +222,9 @@ Project Server 应用程序通常使用其他服务，例如 SharePoint 2013 web
   
 代码示例的本地引用列出在示例顶部的**using**语句。 
   
-1. 在**解决方案资源管理器**中，右键单击**引用**文件夹，然后选择**添加引用**。
+1. 在“解决方案资源管理器”**** 中，右键单击“引用”**** 文件夹，然后选择“添加引用”****。
     
-2. 选择**浏览**，，然后浏览到您先前复制 Project Server Dll 存储的位置。 选择您希望，Dll，然后选择**确定**。
+2. 选择“浏览”****，然后浏览到之前复制的 Project Server DLL 的存储位置。选择所需 DLL，然后选择“确定”****。
     
 > [!NOTE]
 > 确保您的开发计算机上的程序集版本与目标 Project Server 计算机上的程序集版本完全匹配。 
@@ -232,7 +232,7 @@ Project Server 应用程序通常使用其他服务，例如 SharePoint 2013 web
 ## <a name="adding-a-service-configuration-file"></a>添加服务配置文件
 <a name="pj15_PrerequisitesWCF_AddConfig"> </a>
 
-如果应用程序以编程方式配置 WCF 服务，而不使用服务配置文件。 否则，Windows 应用程序或控制台应用程序使用**system.serviceModel**元素在 app.config 文件;web 应用程序包含在 web.config 中**system.serviceModel** 。有关使用 app.config 文件或以编程方式配置的 WCF 服务的详细信息，请参阅[演练： 使用 WCF 开发 PSI 应用程序](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)。
+如果应用程序以编程方式配置 WCF 服务，则将不会使用服务配置文件。否则，Windows 应用程序或控制台应用程序将使用 app.config 文件中的 **system.serviceModel** 元素；Web 应用程序的 web.config 中包含 **system.serviceModel**。有关使用 app.config 文件或以编程方式配置 WCF 服务的详细信息，请参阅[演练：使用 WCF 开发 PSI 应用程序](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)。
   
 在生成服务代理源文件时, SvcUtil.exe 命令还将创建 app.config 文件中的默认**system.serviceModel**元素的基础 output.config 文件或 web.config 文件。 Project 2013 SDK 下载包括中的示例 output.config 文件`Documentation\IntelliSense\WCF\Source.zip`。 例如，资源服务 SvcUtil.exe 创建的默认 output.config 文件包含两个的绑定，名为**BasicHttpBinding_Resource**和**BasicHttpBinding_Resource1**。 **客户端**元素包含两个默认终结点。 一个终结点端口 32843 上的 HTTP 地址安全访问，其他为普通访问端口 32843，如下所示： 
   
@@ -302,7 +302,7 @@ PSI 服务配置不会使用默认绑定和终结点。Project Server 需要应�
             name="basicHttp_Resource" />
     ```
 
-5. 若要使用多个一个 PSI 服务，创建一个**终结点**元素用于每个服务，以及每个服务使用的**绑定**元素。 例如，以下终结点配置客户端项目服务和 QueueSystem 服务使用基本 HTTP 绑定。 
+5. 若要使用多个 PSI 服务，请为每个服务以及服务使用的每个 **binding** 元素创建一个 **endpoint** 元素。例如，下列终结点将客户端配置为对 Project 服务和 QueueSystem 服务使用 HTTP 绑定。 
     
     > [!NOTE]
     > 如果运行应用程序时收到“服务器太忙”或“HTTP 请求未经授权”的错误，请确保 app.config 文件中的终结点地址正确。 
@@ -324,13 +324,13 @@ PSI 服务配置不会使用默认绑定和终结点。Project Server 需要应�
 
 您可以通过使用 Visual Studio 中 （在**工具**菜单中） 的**WCF 服务配置编辑器**编辑 app.config 文件。 图 4 显示了如何在**Microsoft 服务配置编辑器**对话框中设置的**合同**元素。 如果解决方案使用 PSI 代理程序集，打开在 ProjectServerServices.dll`bin\debug`目录的 Visual Studio 解决方案。 **合同类型浏览器**对话框中显示的所有 WCF 服务协定 （参见图 5）。 
   
-**图 4。使用 WCF 服务配置编辑器**
+**图 4. 使用 WCF 服务配置编辑器**
 
 ![使用 WCF 服务配置编辑器](media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "使用 WCF 服务配置编辑器")
   
 如果解决方案使用的服务代理文件，如 wcfResource.cs，编译应用程序，然后打开中的可执行文件`bin\debug`目录。 有关编辑 app.config 文件的详细信息，请参阅[演练： 使用 WCF 开发 PSI 应用程序](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)。
   
-**图 5。使用合同类型浏览器中 WCF 服务配置编辑器**
+**图 5. 使用 WCF 服务配置编辑器中的合同类型浏览器**
 
 ![使用合同类型浏览器](media/pj15_PrerequisitesWCF_ContractTypeBrowser.gif "使用合同类型浏览器")
   
@@ -341,11 +341,11 @@ PSI 服务配置不会使用默认绑定和终结点。Project Server 需要应�
   
 `The server was unable to process the request due to an internal error. For more information about the error, either turn on Include ExceptionDetailInFaults (either from ServiceBehaviorAttribute or from the <serviceDebug> configuration behavior) on the server in order to send the exception information back to the client, or turn on tracing as per the Microsoft .NET Framework 3.0 SDK documentation and inspect the server trace logs.`
 
-为 WCF 解决问题中定义的每个 PSI 服务**OperationContextScope** , 应为 PSI 方法的所有呼叫。 不要将嵌套范围为多个服务;例如，当使用调用资源和项目服务，呼叫的每组应为其自己的范围内。 
+若要修复此 WCF 问题，对 PSI 方法的任何调用因位于为每个 PSI 服务定义的 **OperationContextScope** 中。请勿嵌套多个服务的域；例如，对 Resource 服务和 Project 服务使用调用时，每组呼叫应位于其自己的域中。 
   
 在以下示例中，可从应用程序中的每个**OperationContextScope**部分调用**DisableFormsAuth**方法。 则方法删除以前禁用表单身份验证，因此如果_isWindowsAuth_参数为**false**，可以继续进行表单身份验证的任何标题值。 如果_isWindowsAuth_为**true**，则**DisableFormsAuth**方法禁用表单身份验证。 
   
-在**WcfSample**方法中， **projectClient**对象是 PSI **SvcProject.ProjectClient**类的实例。 
+在 **WcfSample** 方法中，**projectClient** 对象是 PSI **SvcProject.ProjectClient** 类的一个实例。 
   
 ```cs
 // Class variable that determines whether to disable Forms authentication.
@@ -376,7 +376,7 @@ private void WcfSample()
 ```
 
 > [!NOTE]
-> **OperationContextScope**中的 PSI 调用，则需要仅对多个身份验证的环境中运行的应用程序。 如果 Project Server 使用仅 Windows 身份验证，则没有必要设置范围并添加禁用表单的身份验证 web 请求标头。 
+> 在 **OperationContextScope** 中调用 PSI 只需在多身份验证环境中运行的应用程序。如果 Project Server 仅使用 Windows 身份验证，则无需设置域和添加禁用表单身份验证的 Web 请求头。 
 > 
 > 基于 ASMX 的应用程序的解决方法是不同。 有关详细信息，请参阅*使用多身份验证*部分中[项目中的基于 ASMX 的代码示例的先决条件](prerequisites-for-asmx-based-code-samples-in-project.md)。 
   
@@ -406,7 +406,7 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
     
 - 使用 Project Web App 中的服务器设置页 ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) 来管理所有队列作业和删除或强制签入企业对象。 您必须具有管理权限才能访问这些服务器设置页上的链接。
     
-- 使用**Microsoft SQL Server Management Studio**运行 Project Server 数据库的表上的查询。 例如，使用下面的查询选择要在工作流容器中显示有关项目详细信息页面 (Pdp) 的信息的 MSP_WORKFLOW_STAGE_PDPS 表前 200 行。 
+- 使用“Microsoft SQL Server Management Studio”**** 运行针对 Project Server 数据库的表的查询。例如，使用以下查询选择 MSP_WORKFLOW_STAGE_PDPS 表的前 200 行来显示有关工作流容器中项目详细信息页 (PDP) 的信息。 
     
 ```sql
         SELECT TOP 200 [STAGE_UID]
@@ -440,11 +440,11 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
     
 - **工作流阶段**
     
-- **项目详细信息页面**
+- **项目详细信息页**
     
 - **时间报告阶段**
     
-- **时间表设置值和默认值**
+- **时间表设置和默认值**
     
 - **行分类**
     

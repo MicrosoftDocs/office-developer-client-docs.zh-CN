@@ -27,7 +27,7 @@ ms.locfileid: "19779416"
     
 - [类型 （Outlook 天气位置架构）](types-outlook-weather-location-schema.md)
     
-## <a name="related-sections"></a>相关部分
+## <a name="related-sections"></a>相关章节
 
 [扩展 Outlook 中的天气栏](extending-the-weather-bar-in-outlook.md)
   

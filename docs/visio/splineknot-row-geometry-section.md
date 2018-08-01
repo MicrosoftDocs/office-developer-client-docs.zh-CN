@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781426"
 ---
-# <a name="splineknot-row-geometry-section"></a>SplineKnot 行（“Geometry”内容）
+# <a name="splineknot-row-geometry-section"></a>SplineKnot 行（“Geometry”部分）
 
 包含*x*和*y* -样条控制点和样条节点的坐标。 
   

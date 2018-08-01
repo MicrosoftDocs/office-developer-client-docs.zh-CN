@@ -35,13 +35,13 @@ RUNADDONWARGS ("* **字符串** *"、"* **参数** *")
 
 实际上，_参数_应为 50 个或更少字符。 使用 RUNADDONWARGS 函数将程序，如加载项，对单元格，例如，绑定到操作或事件单元格。 
   
-RUNADDONWARGS 函数只能运行加载项的应用程序的**Addons**集合的成员。 必须包含在集合中，加载项必须是 EXE 文件或 VSL 文件： 
+RUNADDONWARGS 函数只能运行属于应用程序的 **Addons** 集合的成员的加载项。要加入该集合的加载项必须是 EXE 文件或 VSL 文件，且： 
   
-- 安装应用程序的**启动**或**Addons**路径中。 
+- 安装在应用程序的 **“Startup”** 或 **“Addons”** 路径中。 
     
-- 使用**Addons**集合的**Add**方法以编程方式添加。 
+- 使用 **Addons** 集合的 **Add** 方法，以编程方式添加。 
     
-有关在 Visio 中运行代码的详细信息，请参阅[关于安全设置和运行 Visio 中的代码](about-security-settings-and-running-code-in-visio-shapesheet.md)在 ShapeSheet 参考。 
+有关在 Visio 中运行代码的详细信息，请参阅本“ShapeSheet 参考”中的[关于 Visio 中的安全设置和运行代码](about-security-settings-and-running-code-in-visio-shapesheet.md)。 
   
 在 Visio 的早期版本中，此函数以 _RUNADDONWARGS 的形式出现。Visio 应用程序 4.0 版和更高版本接受这两种样式中的任意一种。
   

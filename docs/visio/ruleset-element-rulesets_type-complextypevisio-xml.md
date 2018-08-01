@@ -51,12 +51,12 @@ ms.locfileid: "19781200"
 |[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |代表图表有效性规则集中的一个有效性规则。  <br/> |
 |[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |指定规则设置属性。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
 |说明  <br/> |xsd: string  <br/> |可选  <br/> |指定在验证规则集的用户界面中显示的说明。 默认值为空字符串。  <br/> |Xsd: string 类型的值。  <br/> |
-|已启用  <br/> |化  <br/> |可选  <br/> |指定验证触发为当前文档时是否检查中指定的有效性规则集的规则。 默认值为 True。  <br/> |化类型的值。  <br/> |
+|已启用  <br/> |化  <br/> |可选  <br/> |指定验证触发为当前文档时是否检查中指定的有效性规则集的规则。 默认值为 True 。  <br/> |化类型的值。  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |必需  <br/> |指定有效性规则集的唯一的标识符。  <br/> |Xsd:unsignedInt 类型的值。  <br/> |
 |名称  <br/> |xsd: string  <br/> |可选  <br/> |指定有效性规则集的本地的名称。 默认值为 NameU 属性值。  <br/> |Xsd: string 类型的值。  <br/> |
 |NameU  <br/> |xsd: string  <br/> |必需  <br/> |指定有效性规则集的通用的名称。  <br/> |Xsd: string 类型的值。  <br/> |

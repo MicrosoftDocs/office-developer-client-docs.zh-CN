@@ -50,7 +50,7 @@ ms.locfileid: "19779833"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定在绘图页上的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,17 +60,17 @@ ms.locfileid: "19779833"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
-|X  <br/> |终顶点相对于形状的宽度的立方贝赛尔曲线的 x 轴坐标值。  <br/> |[RelCubBezTo 行 （geometry 内容）](relcubbezto-row-geometry-section.md) <br/> |
-|Y  <br/> |终顶点相对于形状的高度的立方贝赛尔曲线的 y 轴坐标值。  <br/> |[RelCubBezTo 行 （geometry 内容）](relcubbezto-row-geometry-section.md) <br/> |
-|A  <br/> |相对于形状的宽度; 控制点的位于曲线的起点控件的 x 坐标弧形上某个点。最佳位于之间的开始和终顶点的弧的控制点。  <br/> |[RelCubBezTo 行 （geometry 内容）](relcubbezto-row-geometry-section.md) <br/> |
-|B  <br/> |相对于形状的高度控制点曲线的起点控件的 y 坐标。  <br/> |[RelCubBezTo 行 （geometry 内容）](relcubbezto-row-geometry-section.md) <br/> |
-|C  <br/> |曲线的控件终点相对于形状的宽度; x 轴坐标值弧形上某个点。弧的起点控件点和结束顶点之间最佳位于控制点。  <br/> |[RelCubBezTo 行 （geometry 内容）](relcubbezto-row-geometry-section.md) <br/> |
-|D  <br/> |曲线控件终点相对于形状的高度 y 轴坐标值。  <br/> |[RelCubBezTo 行 （geometry 内容）](relcubbezto-row-geometry-section.md) <br/> |
+|X  <br/> |终顶点相对于形状的宽度的立方贝赛尔曲线的 x 轴坐标值。  <br/> |[RelCubBezTo 行（“Geometry”部分）](relcubbezto-row-geometry-section.md) <br/> |
+|Y  <br/> |终顶点相对于形状的高度的立方贝赛尔曲线的 y 轴坐标值。  <br/> |[RelCubBezTo 行（“Geometry”部分）](relcubbezto-row-geometry-section.md) <br/> |
+|A  <br/> |相对于形状的宽度; 控制点的位于曲线的起点控件的 x 坐标弧形上某个点。最佳位于之间的开始和终顶点的弧的控制点。  <br/> |[RelCubBezTo 行（“Geometry”部分）](relcubbezto-row-geometry-section.md) <br/> |
+|B  <br/> |相对于形状的高度控制点曲线的起点控件的 y 坐标。  <br/> |[RelCubBezTo 行（“Geometry”部分）](relcubbezto-row-geometry-section.md) <br/> |
+|C  <br/> |曲线的控件终点相对于形状的宽度; x 轴坐标值弧形上某个点。弧的起点控件点和结束顶点之间最佳位于控制点。  <br/> |[RelCubBezTo 行（“Geometry”部分）](relcubbezto-row-geometry-section.md) <br/> |
+|D  <br/> |曲线控件终点相对于形状的高度 y 轴坐标值。  <br/> |[RelCubBezTo 行（“Geometry”部分）](relcubbezto-row-geometry-section.md) <br/> |
    
 

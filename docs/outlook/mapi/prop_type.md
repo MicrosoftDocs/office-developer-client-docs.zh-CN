@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 91a9d15544ebc71d27c8a9a6f930f3c32ecaa4fe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -42,7 +42,7 @@ PROP_TYPE (ulPropTag)
   
 > 包含要返回的属性类型的属性标记。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **PROP_TYPE**宏可以用于确定属性的类型。 例如，调用 PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) 结果中 PT_BINARY 要返回的值。
   

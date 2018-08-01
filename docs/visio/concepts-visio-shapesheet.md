@@ -22,15 +22,15 @@ ms.locfileid: "19779935"
     
 - [关于货币常量](about-currency-constants.md)
     
-- [关于日期、 时间和持续时间值](about-date-time-and-duration-values.md)
+- [关于日期、时间和持续时间值](about-date-time-and-duration-values.md)
     
 - [关于错误值](about-error-values.md)
     
-- [关于设置图片格式](about-format-pictures.md)
+- [关于格式图片](about-format-pictures.md)
     
 - [关于公式](about-formulas.md)
     
-- [有关函数](about-functions.md)
+- [关于函数](about-functions.md)
     
 - [关于运算符](about-operators.md)
     

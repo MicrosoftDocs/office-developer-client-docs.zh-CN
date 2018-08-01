@@ -20,7 +20,8 @@ ms.locfileid: "19780809"
   
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Visio 2010 
+添加的版本： Visio 2010
+ 
   
 ## <a name="syntax"></a>语法
 
@@ -33,7 +34,7 @@ MSOTINT (* **颜色** *，* * *deltaLum* * *)
 | _color_ <br/> |必需  <br/> |**RGB** <br/> |标准 RGB（红、绿、蓝）颜色值或对颜色的引用。  <br/> |
 | _deltaLum_ <br/> |必需  <br/> |**Integer** <br/> |更改百分比白色 (-100%) 或黑色 （100%)_颜色_值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 越接近_color_值越接近白色或黑色，淡色由特定_deltaLum_值所产生的较小更改。 
   

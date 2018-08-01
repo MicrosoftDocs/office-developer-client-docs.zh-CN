@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781221"
 ---
-# <a name="run-in-developer-mode-display-the-developer-tab"></a>以开发人员模式运行（显示“开发工具”选项卡）
+# <a name="run-in-developer-mode-display-the-developer-tab"></a>在开发人员模式下运行（显示“开发人员”选项卡）
 
 - 单击**文件**选项卡，然后单击**选项**。
     
 - **Visio 选项**对话框中，单击**高级**，然后选择在**常规**下的**开发工具模式运行**。
     
-然后可以选择的对象并更快地访问 ShapeSheet 窗口中单击**显示 ShapeSheet** 。 
+然后，您可以选择一个对象，并单击 **“显示 ShapeSheet”**，以便更快地访问 ShapeSheet 窗口。 
   
 

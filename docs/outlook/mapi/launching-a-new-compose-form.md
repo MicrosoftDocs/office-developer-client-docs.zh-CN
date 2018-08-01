@@ -1,5 +1,5 @@
 ---
-title: 启动新的撰写窗体
+title: 启动新的撰写表单
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776154"
 ---
-# <a name="launching-a-new-compose-form"></a>启动新的撰写窗体
+# <a name="launching-a-new-compose-form"></a>启动新的撰写表单
 
   
   
@@ -39,5 +39,5 @@ ms.locfileid: "19776154"
 
 
 
-[窗体服务器交互](form-server-interactions.md)
+[表单服务器交互](form-server-interactions.md)
 

@@ -42,7 +42,8 @@ ms.locfileid: "19781395"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |代表 Microsoft Visio 实例中打开的窗口。  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |代表 Microsoft Visio 实例中打开的窗口。
+  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -52,7 +53,7 @@ ms.locfileid: "19781395"
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 值可以是下表中值的总和。
   

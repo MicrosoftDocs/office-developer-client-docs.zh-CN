@@ -42,7 +42,7 @@ ms.locfileid: "19779832"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Row 元素 （Controls 内容）](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |包含特定的控制手柄为形状定义的属性。  <br/> |
+|[Row 元素（“Controls”部分）](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |包含特定的控制手柄为形状定义的属性。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19779832"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定在绘图页上的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,11 +60,11 @@ ms.locfileid: "19779832"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
 |CanGlue  <br/> |确定控制手柄能否粘附到其他形状上。  <br/> |[Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md) <br/> |
 |提示  <br/> |表示说明性文本字符串，用户将指针悬停于形状的控制手柄上时，此字符串以工具提示的形式显示。  <br/> |[Tip Cell (Controls Section)](tip-cell-controls-section.md) <br/> |

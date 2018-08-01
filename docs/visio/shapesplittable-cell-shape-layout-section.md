@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781304"
 ---
-# <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable 单元格（“Shape Layout”内容）
+# <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable 单元格（“Shape Layout”部分）
 
 指示此一维形状是否可以拆分。 
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 不允许拆分此形状。  <br/> |**visSLOSplittableNone** <br/> |
 | 1  <br/> | 允许拆分此形状。  <br/> |**visSLOSplittableAllow** <br/> |
@@ -35,7 +35,7 @@ ms.locfileid: "19781304"
   
 若要启用或禁用页面拆分，请参阅[PageShapeSplit](pageshapesplit-cell-page-layout-section.md)单元格。 
   
-若要使某个形状可以拆分维可拆分形状，请参阅[ShapeSplit](shapesplit-cell-shape-layout-section.md)单元格。 
+若要使某个形状可以拆分其他一维可拆分形状，请参阅 [ShapeSplit](shapesplit-cell-shape-layout-section.md) 单元格。 
   
 若要获取对 ShapeSplittable 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
   
@@ -43,7 +43,7 @@ ms.locfileid: "19781304"
 |:-----|:-----|
 | 单元格名称：  <br/> | ShapeSplittable  <br/> |
    
-若要从某个程序按索引获取对 ShapeSplittable 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ShapeSplittable 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

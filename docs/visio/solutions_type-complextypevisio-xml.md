@@ -50,7 +50,7 @@ ms.locfileid: "19781414"
 |:-----|:-----|:-----|
 |[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

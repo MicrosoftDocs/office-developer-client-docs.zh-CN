@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bc00270b167c9f7317fa466d790d5020d961676f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知的原点出现错误，无法完成操作。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **UlPropSize**函数返回的大小，以字节为单位指定的属性的属性值。 它将忽略**SPropValue**结构的其余部分的大小。 
   

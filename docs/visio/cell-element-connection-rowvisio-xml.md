@@ -42,7 +42,7 @@ ms.locfileid: "19779820"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Row 元素 （连接内容）](row-element-connection-sectionvisio-xml.md) <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |包含的 x 坐标和 y 坐标、 水平和垂直方向和形状上的单个连接点类型。  <br/> |
+|[Row 元素（“Connection”部分）](row-element-connection-sectionvisio-xml.md) <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |包含的 x 坐标和 y 坐标、 水平和垂直方向和形状上的单个连接点类型。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19779820"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |包含的 x 轴或 y 坐标、 水平和垂直方向和形状上的单个连接点类型。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,11 +60,11 @@ ms.locfileid: "19779820"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
 |AutoGen  <br/> |指定是否自动生成的连接点。 1 表示自动生成的连接点。  <br/> |无。  <br/> |
 |DirX  <br/> |确定所需的对齐向量匹配连接点的 x 组件。  <br/> |[DirX / A Cell (Connection Points Section)](dirxa-cell-connection-points-section.md) <br/> |

@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781428"
 ---
-# <a name="splinestart-row-geometry-section"></a>SplineStart 行（“Geometry”内容）
+# <a name="splinestart-row-geometry-section"></a>SplineStart 行（“Geometry”部分）
 
 包含*x*和*y* -坐标样条的第二个控制点、 它的第二个节点、 第一个节点、 最后一个节点和样条的度数。 
   

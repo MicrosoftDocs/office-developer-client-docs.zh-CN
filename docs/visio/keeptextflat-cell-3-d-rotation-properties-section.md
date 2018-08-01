@@ -1,5 +1,5 @@
 ---
-title: KeepTextFlat 单元格 （三维旋转 Properties 内容）
+title: KeepTextFlat 单元格（“3-D Rotation Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780513"
 ---
-# <a name="keeptextflat-cell-3-d-rotation-properties-section"></a>KeepTextFlat 单元格 （三维旋转 Properties 内容）
+# <a name="keeptextflat-cell-3-d-rotation-properties-section"></a>KeepTextFlat 单元格（“3-D Rotation Properties”部分）
 
 指示是否将形状的文本将忽略三维形状的旋转角度。 不应用于二维旋转。 
   
@@ -25,7 +25,7 @@ ms.locfileid: "19780513"
 |TRUE  <br/> |与形状的几何形状文本不一起旋转。  <br/> |
 |FALSE  <br/> |形状文本进行转换，以与形状的几何旋转。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**KeepTextFlat**单元格的引用，请使用： 
   

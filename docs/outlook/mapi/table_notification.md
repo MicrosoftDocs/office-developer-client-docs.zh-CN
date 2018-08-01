@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fd77473ce728a51220a4c039f1d12d03d90e7f36
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _TABLE_NOTIFICATION
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 **ulTableEvent**
   
@@ -105,11 +105,11 @@ TABLE_SORT_DONE
   
 > 受影响的一个之前的行的**PR_INSTANCE_KEY**属性**SPropValue**结构。 如果受影响的行，表中的第一行**propPrior**必须设置为**PR_NULL**和不为零。 零不是有效属性标记。 
     
-**行**
+**row**
   
 > [SRow](srow.md)结构，描述受影响的行。 为所有表通知事件填充该结构。 对于不传递行数据的表通知事件， **SRow**结构的**cValues**成员设置为零， **lpProps**成员设置为 NULL。 因为此**SRow**结构是只读的。如果他们想要进行修改，客户端必须创建它的一个副本。 [ScDupPropset](scduppropset.md)函数可用于创建副本。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **表\_通知**结构是结构[通知](notification.md)结构的**信息**成员中包含的联合的成员之一。 **Info**成员包括**表\_通知**结构结构中的**ulEventType**成员设置为_fnevTableModified_时。
   
@@ -121,13 +121,13 @@ TABLE_SORT_DONE
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
 |[处理通知](handling-notifications.md) <br/> |讨论了客户端应如何处理通知。  <br/> |
-|[支持的事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用**IMAPISupport**方法生成通知。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用**IMAPISupport**方法生成通知。  <br/> |
    
 表通知是异步的因为客户端可以接收有关通过其他方式添加学习之后添加一行的通知。 可以接收 TABLE_ERROR 事件在**IMAPITable::Sort**、 **IMAPITable::Restrict**或**IMAPITable::SetColumns**方法时出现错误或进程时基础尝试更新一个表格，例如，新时或修改后的行。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [通知](notification.md) 
+- [NOTIFICATION](notification.md) 
 - [ScDupPropset](scduppropset.md)
 - [SRow](srow.md)
 - [SPropValue](spropvalue.md)

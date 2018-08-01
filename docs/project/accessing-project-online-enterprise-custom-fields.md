@@ -1,5 +1,5 @@
 ---
-title: 访问 Project Online 中的企业自定义域
+title: 访问 Project Online 企业自定义字段
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
@@ -13,20 +13,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779421"
 ---
-# <a name="accessing-project-online-enterprise-custom-fields"></a>访问 Project Online 中的企业自定义域
+# <a name="accessing-project-online-enterprise-custom-fields"></a>访问 Project Online 企业自定义字段
 
 Project Online 是 Office 365 服务，公司可以扩展以满足业务需求。 一个扩展区域是企业自定义域 (ECFs)。 ECFs 不可以添加到项目、 资源和任务的类型的值字段。 下表列出了将与项目、 资源和任务相关联的 ECFs，并为该 ECF 实例提供值的示例：
   
 |ECF 名称|ECF 类型|Association|示例值|
 |:-----|:-----|:-----|:-----|
-|理由  <br/> |TEXT  <br/> |Project  <br/> |最终用户可以记录重要统计信息和运行状况数据，包括运行状况评估和个性化的操作的结果达到更好的运行状况的计划。  <br/> |
+|字距调整  <br/> |TEXT  <br/> |Project  <br/> |最终用户可以记录重要统计信息和运行状况数据，包括运行状况评估和个性化的操作的结果达到更好的运行状况的计划。  <br/> |
 |风险评估  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
 |投资回报  <br/> |号码  <br/> |Project  <br/> |2.10  <br/> |
 |总成本  <br/> |成本  <br/> |Project  <br/> |$ 1,031,514  <br/> |
 |启动团队  <br/> |TEXT  <br/> |Resources  <br/> |是  <br/> |
-|位置角色  <br/> |TEXT  <br/> |资源  <br/> |测试人员  <br/> |
-|标记状态  <br/> |标志  <br/> |任务  <br/> |否  <br/> |
-|运行状况  <br/> |TEXT  <br/> |任务  <br/> |未指定  <br/> |
+|位置角色  <br/> |TEXT  <br/> |Resources  <br/> |测试人员  <br/> |
+|标记状态  <br/> |标志  <br/> |Task  <br/> |否  <br/> |
+|运行状况  <br/> |TEXT  <br/> |Task  <br/> |未指定  <br/> |
    
 ECFs 中定义的任何项目、 资源或任务从外部的 Project Web 应用程序 (PWA) 实例。 尚未，他们可以成为与项目、 资源或任务关联。 本文提供介绍性检查使用示例应用程序的自定义字段，并重点介绍检索 ECF 值。 
   

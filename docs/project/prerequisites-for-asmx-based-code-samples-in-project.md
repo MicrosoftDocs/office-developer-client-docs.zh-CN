@@ -57,7 +57,7 @@ ms.locfileid: "19779558"
       - Microsoft.Office.Project.Server.Events.Receivers.dll
       - Microsoft.Office.Project.Server.Library.dll
         
-   3. 有关如何编译和使用 ProjectServerServices.dll 代理程序集中 PSI 的 ASMX web 服务的信息，请参阅[使用 PSI 代理程序集和 IntelliSense 说明](#pj15_PrerequisitesASMX_BuildingProxy)。
+   3. 有关如何为 PSI 中的 ASMX Web 服务编译和使用 ProjectServerServices.dll 代理程序集的信息，请参阅[使用 PSI 代理程序集和 IntelliSense 说明](#pj15_PrerequisitesASMX_BuildingProxy)。
     
 3. **安装 IntelliSense 文件。**
     
@@ -68,15 +68,15 @@ ms.locfileid: "19779558"
 ## <a name="creating-the-application-and-adding-a-web-service-reference"></a>创建应用程序并添加 Web 服务引用
 <a name="pj15_PrerequisitesASMX_Configure"> </a>
 
-1. **创建一个控制台应用程序**。
+1. **创建控制台应用程序**。
     
-   当您创建控制台应用程序，在**新建项目**对话框中下拉列表中时，选择 **.NET Framework 4**。 您可以将 PSI 示例代码复制到新的应用程序。
+   创建控制台应用程序时，请在“新建项目”**** 对话框的下拉列表中，选择“.NET Framework 4”****。可以将 PSI 示例代码复制到新的应用程序中。
     
 2. **添加 ASMX 所需的引用。**
     
-   在解决方案资源管理器中，添加对**system.web.services 的引用**（见图 1）。 
+   在解决方案资源管理器中，添加对 **System.Web.Services** 的引用（见图 1）。 
     
-   **图 1。在 Visual Studio 中添加引用**
+   **图 1. 在 Visual Studio 中添加引用**
 
    ![添加在 Visual Studio 中的引用](media/pj15_PrerequisitesASMX_AddReference.gif "添加在 Visual Studio 中的引用")
   
@@ -90,7 +90,7 @@ ms.locfileid: "19779558"
     
    例如， [QueueRenameProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueRenameProject.aspx)的代码示例具有**Microsoft.SDK.Project.Samples.RenameProject**的命名空间。 如果 Visual Studio 项目的名称， **RenameProject**从 Program.cs 文件中，复制该命名空间，然后打开项目**属性**窗格 （在**项目**菜单中选择**RenameProject 属性**）。 在**应用程序**选项卡中，将命名空间复制到**默认命名空间**文本框。 
     
-5. **设置 web 引用**。
+5. **设置 Web 引用**。
     
    大多数示例都需要对一个或多个 PSI Web 服务的引用。它们将在示例本身中或示例前面的注释中列出。若要获取 Web 引用的正确命名空间，请确保您先设置默认应用程序命名空间。
     
@@ -98,9 +98,9 @@ ms.locfileid: "19779558"
     
    - 生成 PSI 代理程序集名为 ProjectServerServices.dll，并将程序集的引用。 若要获取智能感知，这是建议的方式添加 PSI 引用。 请参阅[使用 PSI 代理程序集和 IntelliSense 说明](#pj15_PrerequisitesASMX_BuildingProxy)。
     
-   - 向 Visual Studio 解决方案从 wsdl.exe 输出添加代理文件。 请参阅[添加 PSI 代理文件](#pj15_PrerequisitesASMX_AddingProxyFile)。
+   - 将 wsdl.exe 输出中的代理文件添加到 Visual Studio 解决方案。请参阅[添加 PSI 代理文件](#pj15_PrerequisitesASMX_AddingProxyFile)。
     
-   - 使用 Visual Studio 中添加 web 服务引用。 请参阅[添加 web 服务引用](#pj15_PrerequisitesASMX_AddingServiceReference)。
+   - 通过使用 Visual Studio 添加 Web 服务引用。请参阅[添加 Web 服务引用](#pj15_PrerequisitesASMX_AddingServiceReference)。
 
 <a name="pj15_PrerequisitesASMX_BuildingProxy"> </a>
 
@@ -166,13 +166,13 @@ WssInterop
 
 该脚本创建一个名为 ProjectServerServices.dll 的程序集。请避免将该程序集与基于 WCF 的程序集的 ProjectServerServices.dll 混淆。这两个程序集的名称相同，若要启用任一程序集，请将其与 ProjectServerServices.xml IntelliSense 文件一起使用。
   
-创建用于 ASMX web 服务和 WCF 服务的脚本的任意命名空间是相同，以便 ProjectServerServices.xml IntelliSense 文件处理任一程序集。 例如，资源服务在基于 WCF 的代理程序集和基于 ASMX 的代理程序集的命名空间为**SvcResource**。 当然，可以更改命名空间名称 — 如果您确保它们匹配代理程序集和 ProjectServerServices.xml IntelliSense 文件中。
+由于 ASMX Web 服务和 WCF 服务的脚本所创建的任意命名空间都是相同的，因此，ProjectServerServices.xml IntelliSense 文件将使用任一程序集。例如，基于 WCF 的代理程序集和基于 ASMX 的代理程序集中的 Resource 服务的命名空间为 **SvcResource**。当然，您可以更改命名空间名称 - 如果您确保它们在代理程序集和 ProjectServerServices.xml IntelliSense 文件中匹配。
   
-如果代码示例使用不同的 PSI web 服务命名空间名称，例如**ProjectWebSvc**的 IntelliSense 以正常运行，则必须更改的示例使用**SvcProject**以便命名空间匹配代理程序集。 
+如果代码示例为 PSI Web 服务命名空间使用其他名称（如 **ProjectWebSvc**），则若要让 IntelliSense 正常工作，您必须将示例更改为使用 **SvcProject**，以使命名空间与代理程序集匹配。 
   
 使用基于 ASMX 的代理程序集的优点在于，它包含所有 PSI web 服务命名空间;不需要创建多个 web 引用。 另一个优点是，如果将 ProjectServerServices.xml 文件添加到您在其中设置对 ProjectServerServices.dll 代理程序集的引用相同的目录，您可以获取 IntelliSense 说明的 PSI 类和成员。 图 2 显示了**Project.QueueCreateProject**方法的 IntelliSense 文本。 有关详细信息，请参阅 Project 2013 SDK 下载的 IntelliSense 文件夹中的 [ReadMe_IntelliSense] 文件。 
   
-**图 2。在 Project web 服务方法使用 IntelliSense**
+**图 2. 对 Project Web 服务中的方法使用 IntelliSense**
 
 ![PSI 服务中的方法使用 Intellisense](media/pj15_PrerequisitesASMX_Intellisense.gif "PSI 服务中的方法使用 Intellisense")
   
@@ -189,7 +189,7 @@ set WSDL="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\wsdl.exe"
 %WSDL% /nologo /l:cs /namespace:SvcProject /out:wsdl.Project.cs %VDIR%/Project.asmx?wsdl
 ```
 
-若要将一个**Project**对象定义为名为**项目**的类变量中，使用下面的代码。 **AddContextInfo**方法添加到 Windows 身份验证和基于表单的身份验证的**项目**对象的上下文信息。 
+若要将 **Project** 对象定义为一个名为 **project** 的类变量，请使用以下代码。**AddContextInfo** 方法将上下文信息添加到 **project** 对象中以进行 Windows 身份验证和基于表单的身份验证。 
   
 ```cs
 private static SvcProject.Project project;
@@ -208,18 +208,18 @@ public void AddContextInfo()
 ```
 
 > [!NOTE]
-> 无论是使用 PSI 代理程序集还是添加名为**SvcProject**的 Project 服务引用代理文件，将使用相同的代码创建一个**project**对象。 
+> 无论您是使用 PSI 代理程序集还是添加名为 **SvcProject** 的 Project 服务引用的代理文件，都应使用相同的代码来创建 **project** 对象。 
   
 ### <a name="adding-a-web-service-reference"></a>添加 Web 服务引用
 <a name="pj15_PrerequisitesASMX_AddingServiceReference"> </a>
 
 如果您不使用基于 ASMX 的代理程序集或添加 WSDL 输出文件，您可以设置一个或多个单独的 web 引用。 以下步骤演示如何使用 Visual Studio 2012 设置 web 引用。
   
-1. 在**解决方案资源管理器**中，右键单击**引用**文件夹，然后选择**添加服务引用**。 
+1. 在“解决方案资源管理器”**** 中，右键单击“引用”**** 文件夹，然后选择“添加服务引用”****。 
     
-2. 在**添加服务引用**对话框中，选择**高级**。
+2. 在“添加服务引用”**** 对话框中，选择“高级”****。
     
-3. 在**服务引用设置**对话框中，选择**添加 Web 引用**。
+3. 在“服务引用设置”**** 对话框中，选择“添加 Web 引用”****。
     
 4. 在**URL**文本框中，键入`http:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`，然后按**Enter**或选择**转**图标。 如果您有安装安全套接字层 (SSL)，您应使用 HTTPS 协议而不是 HTTP 协议。 
 
@@ -227,9 +227,9 @@ public void AddContextInfo()
     
    或者，打开 web 浏览器中，并导航到`http://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`。 将文件保存到本地目录，如`C:\Project\WebServices\ServiceName.wsdl`。 在**添加 Web 引用**对话框的**URL**，键入文件协议和文件的路径。 例如，键入`file://C:\Project\WebServices\Project.wsdl`。 
     
-5. 解析引用后，请在**Web 引用名称**文本框中键入引用名称。 Project 2013 开发人员文档中的代码示例使用任意标准引用名称_Svc **ServiceName**_。 例如，Project web 服务名为**SvcProject** （参见图 3）。 
+5. 解析引用后，请在**Web 引用名称**文本框中键入引用名称。 Project 2013 开发人员文档中的代码示例使用任意标准引用名称**Svc _ServiceName_**。 例如，Project web 服务名为**SvcProject** （参见图 3）。 
     
-   **图 3。添加 ASMX web 服务引用**
+   **图 3. 添加 ASMX Web 服务引用**
 
    ![添加 ASMX web 服务引用](media/pj15_PrerequisitesASMX_AddWebSvcReference.gif "添加 ASMX web 服务引用")
   
@@ -240,11 +240,11 @@ public void AddContextInfo()
 
 Project Server 应用程序通常使用其他服务，例如 SharePoint Server 2013 web 服务。 如果需要其他服务，它们是该示例中记下。
   
-代码示例的本地引用列出在示例顶部的**using**语句： 
+代码示例的本地引用将在位于该示例的顶部的 **using** 语句中列出： 
   
-1. 在**解决方案资源管理器**中，右键单击**引用**文件夹，然后选择**添加引用**。
+1. 在“解决方案资源管理器”**** 中，右键单击“引用”**** 文件夹，然后选择“添加引用”****。
     
-2. 选择**浏览**，，然后浏览到您先前复制 Project Server Dll 存储的位置。 选择 Dll 您需要，然后选择**确定**。
+2. 选择“浏览”****，然后浏览到之前复制的 Project Server DLL 的存储位置。选择您所需的 DLL，然后选择“确定”****。
     
 > [!NOTE]
 > 确保您的开发计算机上的程序集版本与目标 Project Server 计算机上的程序集版本完全匹配。 
@@ -256,12 +256,12 @@ Project Server 应用程序通常使用其他服务，例如 SharePoint Server 2
   
 `The server was unable to process the request due to an internal error. . . .`
 
-为 ASMX 解决问题，PSI 方法的所有呼叫都应为派生类定义的每个 PSI web 服务。 派生的类还必须使用**SvcLoginWindows.LoginWindows**类获取派生的 PSI 服务类的 cookie。 在以下示例中， **ProjectDerived**类派生自**SvcProject.Project**类。 派生的类添加**EnforceWindowsAuth**属性和替代 web 请求标头的每个呼叫中的**项目**类的方法。 如果**EnforceWindowsAuth**属性为**true**，则**GetWebRequest**方法添加禁用表单的身份验证的标头。 如果**EnforceWindowsAuth**为**false**，可以继续进行表单身份验证。
+若要为 ASMX 解决此问题，对 PSI 方法的所有调用都应成为针对每个 PSI Web 服务定义的派生类。该派生类还必须使用 **SvcLoginWindows.LoginWindows** 类获取派生 PSI 服务类的 cookie。在下面的示例中，**ProjectDerived** 类从 **SvcProject.Project** 类派生。派生的类会添加 **EnforceWindowsAuth** 属性，并为对 **Project** 类中的方法的每个调用重写 Web 请求标头。如果 **EnforceWindowsAuth** 属性为 **true**，则 **GetWebRequest** 方法将添加禁用表单身份验证的标头。如果 **EnforceWindowsAuth** 属性为 **false**，则可以继续进行表单身份验证。
   
-若要使用下面的**ASMXLogon_MultiAuth**示例，创建一个控制台应用程序，[创建应用程序并添加 web 服务引用](#pj15_PrerequisitesASMX_Configure)，请按照，然后添加 wsdl。LoginWindows.cs 代理文件和 wsdl。Project.cs 代理文件。 **在 Main**方法创建**ProjectDerived**类的**项目**实例。 该示例必须使用派生的**LoginWindowsDerived**类获取**项目**CookieContainer**对象。CookieContainer**属性，用于区分表单身份验证从 Windows 身份验证。 然后可以使用**project**对象**SvcProject.Project**类中进行任何方法的调用。 
+若要使用下面的 **ASMXLogon_MultiAuth** 示例，请创建一个控制台应用程序，按照[创建应用程序并添加 Web 服务引用](#pj15_PrerequisitesASMX_Configure)中的步骤进行操作，然后添加 wsdl.LoginWindows.cs 代理文件和 wsdl.Project.cs 代理文件。**Main** 方法将创建 **ProjectDerived** 类的 **project** 实例。该示例必须使用派生的 **LoginWindowsDerived** 类获取 **project.CookieContainer** 属性的 **CookieContainer** 对象，从而区分表单身份验证和 Windows 身份验证。随后，可使用 **project** 对象调用 **SvcProject.Project** 类中的任何方法。 
   
 > [!NOTE]
-> **LoginWindows**服务，则需要仅用于 ASMX 应用程序中的多个身份验证环境。 在**ASMXLogon_MultiAuth**示例中， **GetLogonCookie**方法获取**loginWindows**对象的 cookie。 **项目中。CookieContainer**属性设置为**loginWindows.CookieContainer**值。 
+> **LoginWindows** 服务仅对于多身份验证环境中的 ASMX 应用程序是必需的。在 **ASMXLogon_MultiAuth** 示例中，**GetLogonCookie** 方法将获取 **loginWindows** 对象的 cookie。**project.CookieContainer** 属性将设置为 **loginWindows.CookieContainer** 值。 
   
 ```cs
 using System;
@@ -361,7 +361,7 @@ namespace ASMXLogon_MultiAuth
 }
 ```
 
-在多个身份验证环境中运行的应用程序需要使用派生的**LoginWindows**类，并禁用表单身份验证 web 请求标头的 PSI 调用。 如果 Project Server 使用仅声明身份验证，则没有必要派生类中添加 web 请求标头。 在这两种环境中运行上面的示例。 
+对于在多身份验证环境中运行的应用程序，要求使用派生的 **LoginWindows** 类，并使用禁用表单身份验证的 Web 请求标头来调用 PSI。如果 Project Server 仅使用声明身份验证，则无需派生将添加 Web 请求标头的类。上一个示例在两种环境中均可运行。 
   
 基于 WCF 的应用程序的解决方法是不同。 有关详细信息，请参阅[项目中的基于 WCF 的代码示例的先决条件](prerequisites-for-wcf-based-code-samples-in-project.md)中的*使用多个身份验证*部分。
   
@@ -391,7 +391,7 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
     
 - 使用 Project Web App 中的服务器设置页 ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) 来管理所有队列作业和删除或强制签入企业对象。 您必须具有管理权限才能访问这些服务器设置页上的链接。
     
-- 使用**Microsoft SQL Server Management Studio**中的表中的项目数据库上运行查询。 例如，使用下面的查询选择 pub 前的 200 行。MSP_WORKFLOW_STAGE_PDPS 表以显示项目信息的详细信息页面 (Pdp) 中的工作流阶段。 
+- 使用“Microsoft SQL Server Management Studio”**** 对 Project 数据库中的表运行查询。例如，使用下列查询可选择 pub.MSP_WORKFLOW_STAGE_PDPS 表的前 200 行以显示有关工作流容器中的项目详细信息页 (PDP) 的信息。 
     
    ```sql
     SELECT TOP 200 [STAGE_UID]
@@ -425,11 +425,11 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
     
 - **工作流阶段**
     
-- **项目详细信息页面**
+- **项目详细信息页**
     
 - **时间报告阶段**
     
-- **时间表设置值和默认值**
+- **时间表设置和默认值**
     
 - **行分类**
     

@@ -16,13 +16,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781541"
 ---
-# <a name="transparency-cell-character-section"></a>Transparency 单元格（“Character”内容）
+# <a name="transparency-cell-character-section"></a>Transparency 单元格（“Character”部分）
 
 确定形状的某一范围文本颜色的透明度级别。
   
 |**值**|**说明**|
 |:-----|:-----|
-|0-100  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
+|
+          0 - 100
+  <br/> |表示透明度的百分比。默认值为 0%（完全不透明）。  <br/> |
    
 ## <a name="remarks"></a>注解
 
@@ -32,13 +34,13 @@ ms.locfileid: "19781541"
   
 如果“Characters”内容包含多行，则 Transparency 单元格包含应用于某形状文本的一个子范围的格式设置信息。否则，它就包含该形状的所有文本的格式设置信息。
   
-若要获取对 Transparency 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Transparency 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Char.ColorTrans [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 Transparency 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Transparency 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

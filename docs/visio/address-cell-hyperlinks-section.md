@@ -16,17 +16,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779649"
 ---
-# <a name="address-cell-hyperlinks-section"></a>Address 单元格（“Hyperlinks”内容）
+# <a name="address-cell-hyperlinks-section"></a>Address 单元格（“Hyperlinks”部分）
 
 指定要跳转到的 URL 地址、文件名或 UNC 路径。
   
 您可以为相对路径基于**属性**对话框的**摘要**选项卡上的**超链接基础**框中为文档定义的基路径指定地址 (单击**文件**选项卡，单击**信息**，单击 * * 属性 * *，然后单击**高级属性**)。 如果文档有无基路径，应用程序导航基于文档路径。 如果文档尚未保存，未定义超链接。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-您还可以在**超链接**对话框中设置 Address 单元格的值 （单击**插入**选项卡上的**超链接**）。 
+您还可以在 **“超链接”** 对话框（在 **“插入”** 选项卡上单击 **“超链接”**）中设置 Address 单元格的值。 
   
-若要从某个程序按索引获取对 Address 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Address 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -50,7 +50,7 @@ ms.locfileid: "19779826"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定在绘图页上的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,14 +60,14 @@ ms.locfileid: "19779826"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
-|GradientStopColor  <br/> |渐变光圈的颜色值。 此值可表达为文档的调色板中或通过使用**RGB**、 **THEMEVAL**或**HSL**函数颜色的索引号。  <br/> |[渐变光圈行 （Fill 渐变内容）](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopColorTrans  <br/> |以百分比形式的渐变颜色光圈，透明度量。  <br/> |[渐变光圈行 （Fill 渐变内容）](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopPosition  <br/> |沿行渐变的方向的渐变渐变的外部边缘的起点从百分比渐变光圈的位置。  <br/> |[渐变光圈行 （Fill 渐变内容）](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopColor  <br/> |渐变光圈的颜色值。 此值可表达为文档的调色板中或通过使用**RGB**、 **THEMEVAL**或**HSL**函数颜色的索引号。  <br/> |[Gradient Stop 行（“Fill Gradient”部分）](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopColorTrans  <br/> |以百分比形式的渐变颜色光圈，透明度量。  <br/> |[Gradient Stop 行（“Fill Gradient”部分）](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopPosition  <br/> |沿行渐变的方向的渐变渐变的外部边缘的起点从百分比渐变光圈的位置。  <br/> |[Gradient Stop 行（“Fill Gradient”部分）](gradient-stop-row-fill-gradient-section.md) <br/> |
    
 

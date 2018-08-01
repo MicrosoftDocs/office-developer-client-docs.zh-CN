@@ -1,5 +1,5 @@
 ---
-title: 第二个函数 (VisioShapeSheet)
+title: SECOND Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781223"
 ---
-# <a name="second-function-visioshapesheet"></a>第二个函数 (VisioShapeSheet)
+# <a name="second-function-visioshapesheet"></a>SECOND Function (VisioShapeSheet)
 
 返回一个整数，介于 0 和 59，值，该值代表_datetime_或_expression_的秒部分。
   
@@ -30,13 +30,13 @@ ms.locfileid: "19781223"
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |必需  <br/> |**字符串** <br/> |任何通常被识别为日期和时间的字符串或对包含日期和时间的单元格的引用。  <br/> |
 | _expression_ <br/> |必需  <br/> |**字符串** <br/> | 任何生成日期和时间的表达式。  <br/> |
-| _lcid_ <br/> |可选  <br/> |**数字** <br/> |用于评估非本地_datetime_的区域设置标识符。 区域设置标识符是系统头文件中所述的数字。  <br/> |
+| _lcid_ <br/> |可选  <br/> |**Numeric** <br/> |用于评估非本地_datetime_的区域设置标识符。 区域设置标识符是系统头文件中所述的数字。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 Integer
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 _Datetime_或_expression_中的日期部分将被丢弃。 
   

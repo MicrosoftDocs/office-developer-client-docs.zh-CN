@@ -1,5 +1,5 @@
 ---
-title: NoProofing 单元格 （miscellaneous 内容）
+title: NoProofing 单元格（“Miscellaneous”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19780793"
 ---
-# <a name="noproofing-cell-miscellaneous-section"></a>NoProofing 单元格 （miscellaneous 内容）
+# <a name="noproofing-cell-miscellaneous-section"></a>NoProofing 单元格（“Miscellaneous”部分）
 
 确定是否会自动更正拼写检查和拼写错误是否显示所选形状。 采用一个**布尔**值。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "19780793"
 |TRUE  <br/> |不自动更正拼写检查和拼写错误不显示所选形状。  <br/> |
 |FALSE  <br/> |自动更正拼写检查和拼写错误显示为所选形状。  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要获取 NoProofing 单元格的引用名称从另一个公式或从某个程序中，使用**CellsU**属性，使用： 
   

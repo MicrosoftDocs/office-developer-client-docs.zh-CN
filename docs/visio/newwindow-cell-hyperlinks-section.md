@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780788"
 ---
-# <a name="newwindow-cell-hyperlinks-section"></a>NewWindow 单元格（“Hyperlinks”内容）
+# <a name="newwindow-cell-hyperlinks-section"></a>NewWindow 单元格（“Hyperlinks”部分）
 
 指定是否在新窗口中打开超链接。
   
@@ -27,13 +27,13 @@ ms.locfileid: "19780788"
    
 ## <a name="remarks"></a>注释
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 NewWindow 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 NewWindow 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 超链接。  *名称*。NewWindow 其中超链接。  *Name*是行名称  <br/> |
    
-若要从某个程序按索引获取对 NewWindow 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 NewWindow 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

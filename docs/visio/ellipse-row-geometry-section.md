@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780169"
 ---
-# <a name="ellipse-row-geometry-section"></a>Ellipse 行（“Geometry”内容）
+# <a name="ellipse-row-geometry-section"></a>Ellipse 行（“Geometry”部分）
 
 包含*x*和*y* -椭圆中心点和椭圆上的两个点的坐标。 
   

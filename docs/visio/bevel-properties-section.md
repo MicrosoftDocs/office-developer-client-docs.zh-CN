@@ -1,5 +1,5 @@
 ---
-title: Bevel 属性部分
+title: “Bevel Properties”部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779673"
 ---
-# <a name="bevel-properties-section"></a>Bevel 属性部分
+# <a name="bevel-properties-section"></a>“Bevel Properties”部分
 
 显示任何各种棱台效果应用于形状的属性。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 您可以将凹凸效果应用于**设置形状格式**窗格中的形状 (**主** > **形状样式** > **Bevel** > **三维选项**，或通过的**Bevel 属性**部分中的单元格进行更改ShapeSheet。 
   

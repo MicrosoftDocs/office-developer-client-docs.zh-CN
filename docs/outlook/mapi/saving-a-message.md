@@ -1,5 +1,5 @@
 ---
-title: 保存一条消息
+title: 保存邮件
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778669"
 ---
-# <a name="saving-a-message"></a>保存一条消息
+# <a name="saving-a-message"></a>保存邮件
 
   
   

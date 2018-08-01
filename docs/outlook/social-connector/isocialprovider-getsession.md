@@ -25,15 +25,15 @@ HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
 
 ## <a name="parameters"></a>参数
 
-_会话_
+_Session_
   
-> [输出]**ISocialSession**接口。 
+> [out] **ISocialSession** 界面。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Outlook Social Connector (OSC) 使用**ISocialSession**接口登录到社交网络。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [ISocialProvider: IUnknown](isocialprovideriunknown.md)
+- [ISocialProvider : IUnknown](isocialprovideriunknown.md)
 

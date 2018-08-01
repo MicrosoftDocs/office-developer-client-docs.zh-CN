@@ -28,9 +28,9 @@ RUNADDON （"*字符串*"）
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |必需  <br/> |**字符串** <br/> | **Addons**集合中的加载项或 VBA 项目中的宏的名称。  <br/> |
+| _string_ <br/> |必需  <br/> |**字符串** <br/> | **Addons** 集合中的加载项或 VBA 项目中的宏的名称。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果包含 RUNADDON 函数调用的文档项目 （或另一个项目，如果它引用） 不具有一个名为_字符串_的宏 （不带任何参数的过程），Microsoft Visio 将运行名为_字符串_的加载项。 如果找不到名为_字符串_没有加载项，Visio 将不执行任何操作，并不报告任何错误。 （您可以使用**TraceFlags**属性要监视的过程和 Visio 尝试运行的加载项。） 
   
@@ -41,7 +41,7 @@ RUNADDON （"*字符串*"）
 > [!NOTE]
 >  从 Visio 2002 开始，RUNADDON 函数无法执行含有任意 VBA 代码的字符串。对于以前传递到 RUNADDON 函数的代码，可以将这些代码移到从该 RUNADDON 函数调用的某个文档的 VBA 项目的过程中。 
   
-有关在 Visio 中运行代码的详细信息，请参阅[关于安全设置和运行 Visio 中的代码](about-security-settings-and-running-code-in-visio-shapesheet.md)在 ShapeSheet 参考。 
+有关在 Visio 中运行代码的详细信息，请参阅本“ShapeSheet 参考”中的[关于 Visio 中的安全设置和运行代码](about-security-settings-and-running-code-in-visio-shapesheet.md)。 
   
 在 Visio 的早期版本中，此函数以 _RUNADDON 的形式出现。Visio 4.0 版和更高版本接受这两种样式中的任意一种。 
   
@@ -61,10 +61,10 @@ RUNADDON("Array Shapes")
 
 RUNADDON("ThisDocument.ReportStatistics")
   
-调用**ThisDocument**模块中包含此函数调用的文档项目中的 ReportStatistics 宏。 
+在包含此函数调用的文档项目中，调用 **ThisDocument** 模块中的 ReportStatistics 宏。 
   
 > [!NOTE]
->  若要调用**ThisDocument**模块中的宏，您必须以使用"ThisDocument"，如下所示的字符串。 
+>  若要调用 **ThisDocument** 模块中的宏，必须如示例所示，使用“ThisDocument”作为字符串的前缀。 
   
 ## <a name="example-4"></a>示例 4
 

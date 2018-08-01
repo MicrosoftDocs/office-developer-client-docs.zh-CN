@@ -16,19 +16,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779670"
 ---
-# <a name="beginy-cell-1-d-endpoints-section"></a>BeginY 单元格（“1-D Endpoints”内容）
+# <a name="beginy-cell-1-d-endpoints-section"></a>BeginY 单元格（“1-D Endpoints”部分）
 
 代表*y* -相对于其父级的原点一维形状的起始点的坐标。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 BeginY 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 BeginY 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | BeginY  <br/> |
    
-若要从某个程序按索引获取对 BeginY 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 BeginY 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

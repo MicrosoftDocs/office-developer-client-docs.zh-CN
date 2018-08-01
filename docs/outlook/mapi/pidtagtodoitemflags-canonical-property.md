@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cae4ef6e4d7634ca2b429eb946aa948f5d90cd92
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,19 +29,19 @@ ms.locfileid: "19778541"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
-|标识符:  <br/> |0x0E2B  <br/> |
+|相关属性：  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
+|标识符：  <br/> |0x0E2B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性是在其中的每个位应设置为 1 如果关联的条件下表中应用，否则为 0 位字段。
   
 ||||
 |:-----|:-----|:-----|
 |数值  <br/> |名称  <br/> |说明  <br/> |
-|不存在  <br/> |N/A  <br/> |未标记  <br/> |
+|不存在  <br/> |不适用  <br/> |未标记  <br/> |
 |1  <br/> |todoTimeFlagged  <br/> |对象为标记的时间  <br/> |
 |8  <br/> |todoRecipientFlagged  <br/> |只应在草稿 message 对象，设置和意味着对象进行了标记的收件人。  <br/> |
    
@@ -77,7 +77,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

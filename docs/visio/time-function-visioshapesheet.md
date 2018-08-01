@@ -1,5 +1,5 @@
 ---
-title: TIME 函数 (VisioShapeSheet)
+title: TIME Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781536"
 ---
-# <a name="time-function-visioshapesheet"></a>TIME 函数 (VisioShapeSheet)
+# <a name="time-function-visioshapesheet"></a>TIME Function (VisioShapeSheet)
 
 返回由_小时_、_分钟_和_秒_的时间。
   
@@ -28,9 +28,9 @@ ms.locfileid: "19781536"
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _小时_ <br/> |必需  <br/> |**数字** <br/> |小时成分。  <br/> |
-| _分钟_ <br/> |必需  <br/> |**数字** <br/> |分钟成分。  <br/> |
-| _第二个_ <br/> |必需  <br/> |**数字** <br/> |秒成分。  <br/> |
+| _小时_ <br/> |必需  <br/> |**Numeric** <br/> |小时成分。  <br/> |
+| _分钟_ <br/> |必需  <br/> |**Numeric** <br/> |分钟成分。  <br/> |
+| _第二个_ <br/> |必需  <br/> |**Numeric** <br/> |秒成分。  <br/> |
    
 ### <a name="return-value"></a>返回值
 

@@ -1,5 +1,5 @@
 ---
-title: VariationColorIndex 单元格 (主题 Properties)
+title: VariationColorIndex 单元格（“Theme Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781622"
 ---
-# <a name="variationcolorindex-cell-theme-properties-section"></a>VariationColorIndex 单元格 (主题 Properties)
+# <a name="variationcolorindex-cell-theme-properties-section"></a>VariationColorIndex 单元格（“Theme Properties”部分）
 
 确定活动主题变体在页上，作为整数的颜色索引。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**VariationColorIndex**单元格的引用，请使用： 
   
