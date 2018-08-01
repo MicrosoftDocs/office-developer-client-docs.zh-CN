@@ -1,5 +1,5 @@
 ---
-title: 删除消息服务
+title: 删除邮件服务
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774769"
 ---
-# <a name="deleting-a-message-service"></a><span data-ttu-id="dda77-103">删除消息服务</span><span class="sxs-lookup"><span data-stu-id="dda77-103">Deleting a Message Service</span></span>
+# <a name="deleting-a-message-service"></a><span data-ttu-id="8543c-103">删除邮件服务</span><span class="sxs-lookup"><span data-stu-id="8543c-103">Deleting a Message Service</span></span>
 
   
   
-<span data-ttu-id="dda77-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="dda77-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="8543c-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="8543c-104">**Applies to**: Outlook</span></span> 
   
- <span data-ttu-id="dda77-105">**从配置文件中删除的消息服务**</span><span class="sxs-lookup"><span data-stu-id="dda77-105">**To delete a message service from a profile**</span></span>
+ <span data-ttu-id="8543c-105">**从配置文件中删除的消息服务**</span><span class="sxs-lookup"><span data-stu-id="8543c-105">**To delete a message service from a profile**</span></span>
   
-1. <span data-ttu-id="dda77-106">调用**IMAPISession::GetMsgServiceTable**访问邮件服务表。</span><span class="sxs-lookup"><span data-stu-id="dda77-106">Call **IMAPISession::GetMsgServiceTable** to access the message service table.</span></span> 
+1. <span data-ttu-id="8543c-106">调用**IMAPISession::GetMsgServiceTable**访问邮件服务表。</span><span class="sxs-lookup"><span data-stu-id="8543c-106">Call **IMAPISession::GetMsgServiceTable** to access the message service table.</span></span> 
     
-2. <span data-ttu-id="dda77-107">找到消息服务的行，并将其**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 列_lpuid_参数中传递给[IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md)。</span><span class="sxs-lookup"><span data-stu-id="dda77-107">Locate the row for the message service and pass its **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column in the  _lpuid_ parameter to [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md).</span></span> 
+2. <span data-ttu-id="8543c-107">找到消息服务的行，并将其**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 列_lpuid_参数中传递给[IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md)。</span><span class="sxs-lookup"><span data-stu-id="8543c-107">Locate the row for the message service and pass its **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column in the  _lpuid_ parameter to [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md).</span></span> 
     
- <span data-ttu-id="dda77-108">**DeleteMsgService** _ulContext_参数设置为 MSG_SERVICE_DELETE 调用消息服务的入口点函数。</span><span class="sxs-lookup"><span data-stu-id="dda77-108">**DeleteMsgService** calls the message service's entry point function with the  _ulContext_ parameter set to MSG_SERVICE_DELETE.</span></span> <span data-ttu-id="dda77-109">消息服务会执行任何清理任务在此时之前从配置文件中删除这些空格。</span><span class="sxs-lookup"><span data-stu-id="dda77-109">Message services perform any clean up tasks at this time before they are removed from the profile.</span></span> 
+ <span data-ttu-id="8543c-108">**DeleteMsgService** _ulContext_参数设置为 MSG_SERVICE_DELETE 调用消息服务的入口点函数。</span><span class="sxs-lookup"><span data-stu-id="8543c-108">**DeleteMsgService** calls the message service's entry point function with the  _ulContext_ parameter set to MSG_SERVICE_DELETE.</span></span> <span data-ttu-id="8543c-109">消息服务会执行任何清理任务在此时之前从配置文件中删除这些空格。</span><span class="sxs-lookup"><span data-stu-id="8543c-109">Message services perform any clean up tasks at this time before they are removed from the profile.</span></span> 
   
 

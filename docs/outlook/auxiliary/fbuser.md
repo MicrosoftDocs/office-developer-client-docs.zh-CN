@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774176"
 ---
-# <a name="fbuser"></a><span data-ttu-id="f372a-103">FBUser</span><span class="sxs-lookup"><span data-stu-id="f372a-103">FBUser</span></span>
+# <a name="fbuser"></a><span data-ttu-id="78ecb-103">FBUser</span><span class="sxs-lookup"><span data-stu-id="78ecb-103">FBUser</span></span>
 
-<span data-ttu-id="f372a-104">标识用户可能也可能没有可用的忙/闲数据。</span><span class="sxs-lookup"><span data-stu-id="f372a-104">Identifies a user who may or may not have free/busy data available.</span></span>
+<span data-ttu-id="78ecb-104">标识用户可能也可能没有可用的忙/闲数据。</span><span class="sxs-lookup"><span data-stu-id="78ecb-104">Identifies a user who may or may not have free/busy data available.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f372a-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="f372a-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="78ecb-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="78ecb-105">Quick info</span></span>
 
 ```cpp
 typedef struct tagFBUser 
@@ -31,26 +31,26 @@ typedef struct tagFBUser
 
 ```
 
-## <a name="members"></a><span data-ttu-id="f372a-106">成员</span><span class="sxs-lookup"><span data-stu-id="f372a-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="78ecb-106">Members</span><span class="sxs-lookup"><span data-stu-id="78ecb-106">Members</span></span>
 
-<span data-ttu-id="f372a-107">_m_cbEid_</span><span class="sxs-lookup"><span data-stu-id="f372a-107">_m_cbEid_</span></span>
+<span data-ttu-id="78ecb-107">_m_cbEid_</span><span class="sxs-lookup"><span data-stu-id="78ecb-107">_m_cbEid_</span></span>
   
-> <span data-ttu-id="f372a-108">邮件用户表示[IMailUser](http://msdn.microsoft.com/library/wab._wab_IMailUser%28Office.15%29.aspx)接口的条目 ID 的长度。</span><span class="sxs-lookup"><span data-stu-id="f372a-108">The length of the entry ID of the mail user as represented by the [IMailUser](http://msdn.microsoft.com/library/wab._wab_IMailUser%28Office.15%29.aspx) interface.</span></span> 
+> <span data-ttu-id="78ecb-108">邮件用户表示[IMailUser](http://msdn.microsoft.com/library/wab._wab_IMailUser%28Office.15%29.aspx)接口的条目 ID 的长度。</span><span class="sxs-lookup"><span data-stu-id="78ecb-108">The length of the entry ID of the mail user as represented by the [IMailUser](http://msdn.microsoft.com/library/wab._wab_IMailUser%28Office.15%29.aspx) interface.</span></span> 
     
-<span data-ttu-id="f372a-109">_m_lpEid_</span><span class="sxs-lookup"><span data-stu-id="f372a-109">_m_lpEid_</span></span>
+<span data-ttu-id="78ecb-109">_m_lpEid_</span><span class="sxs-lookup"><span data-stu-id="78ecb-109">_m_lpEid_</span></span>
   
-> <span data-ttu-id="f372a-110">邮件用户表示**IMailUser**接口的条目 ID。</span><span class="sxs-lookup"><span data-stu-id="f372a-110">The entry ID of the mail user as represented by the **IMailUser** interface.</span></span> 
+> <span data-ttu-id="78ecb-110">邮件用户表示**IMailUser**接口的条目 ID。</span><span class="sxs-lookup"><span data-stu-id="78ecb-110">The entry ID of the mail user as represented by the **IMailUser** interface.</span></span> 
     
-<span data-ttu-id="f372a-111">_m_ulReserved_</span><span class="sxs-lookup"><span data-stu-id="f372a-111">_m_ulReserved_</span></span>
+<span data-ttu-id="78ecb-111">_m_ulReserved_</span><span class="sxs-lookup"><span data-stu-id="78ecb-111">_m_ulReserved_</span></span>
   
-> <span data-ttu-id="f372a-112">此参数仅供 Outlook 内部使用，不支持。</span><span class="sxs-lookup"><span data-stu-id="f372a-112">This parameter is reserved for Outlook internal use and is not supported.</span></span>
+> <span data-ttu-id="78ecb-112">此参数仅供 Outlook 内部使用，不支持。</span><span class="sxs-lookup"><span data-stu-id="78ecb-112">This parameter is reserved for Outlook internal use and is not supported.</span></span>
     
-<span data-ttu-id="f372a-113">_m_pwszReserved_</span><span class="sxs-lookup"><span data-stu-id="f372a-113">_m_pwszReserved_</span></span>
+<span data-ttu-id="78ecb-113">_m_pwszReserved_</span><span class="sxs-lookup"><span data-stu-id="78ecb-113">_m_pwszReserved_</span></span>
   
-> <span data-ttu-id="f372a-114">此参数仅供 Outlook 内部使用，不支持。</span><span class="sxs-lookup"><span data-stu-id="f372a-114">This parameter is reserved for Outlook internal use and is not supported.</span></span>
+> <span data-ttu-id="78ecb-114">此参数仅供 Outlook 内部使用，不支持。</span><span class="sxs-lookup"><span data-stu-id="78ecb-114">This parameter is reserved for Outlook internal use and is not supported.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f372a-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f372a-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="78ecb-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="78ecb-115">See also</span></span>
 
-- [<span data-ttu-id="f372a-116">有关的忙/闲的 API</span><span class="sxs-lookup"><span data-stu-id="f372a-116">About the Free/Busy API</span></span>](about-the-free-busy-api.md)  
-- [<span data-ttu-id="f372a-117">IFreeBusySupport</span><span class="sxs-lookup"><span data-stu-id="f372a-117">IFreeBusySupport</span></span>](ifreebusysupport.md)
+- [<span data-ttu-id="78ecb-116">关于忙/闲 API</span><span class="sxs-lookup"><span data-stu-id="78ecb-116">About the Free/Busy API</span></span>](about-the-free-busy-api.md)  
+- [<span data-ttu-id="78ecb-117">IFreeBusySupport</span><span class="sxs-lookup"><span data-stu-id="78ecb-117">IFreeBusySupport</span></span>](ifreebusysupport.md)
 

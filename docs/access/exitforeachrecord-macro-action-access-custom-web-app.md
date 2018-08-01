@@ -14,14 +14,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773431"
 ---
-# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="3dbae-103">ExitForEachRecord 宏操作 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="3dbae-103">ExitForEachRecord Macro Action (Access custom web app)</span></span>
+# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="05c2a-103">ExitForEachRecord 宏操作 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="05c2a-103">ExitForEachRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="3dbae-104">使用 **ExitForEachRecord** 操作可立即退出 **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** 数据块。</span><span class="sxs-lookup"><span data-stu-id="3dbae-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** data block.</span></span> 
+<span data-ttu-id="05c2a-104">使用 **ExitForEachRecord** 操作可立即退出 **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** 数据块。</span><span class="sxs-lookup"><span data-stu-id="05c2a-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** data block.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="3dbae-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="3dbae-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="05c2a-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="05c2a-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="3dbae-107">**ExitForEachRecord** 操作仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="3dbae-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
+> <span data-ttu-id="05c2a-107">[!注释] **ExitForEachRecord** 操作仅适用于数据宏。</span><span class="sxs-lookup"><span data-stu-id="05c2a-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
   
 

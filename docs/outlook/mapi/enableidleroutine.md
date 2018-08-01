@@ -1,0 +1,74 @@
+---
+title: EnableIdleRoutine
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.EnableIdleRoutine
+api_type:
+- COM
+ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
+description: 上次修改时间：2015 年 3 月 9 日
+ms.openlocfilehash: 00b5c123e588636654fb4287cc7b45500d47d89c
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19774870"
+---
+# <a name="enableidleroutine"></a><span data-ttu-id="71552-103">EnableIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="71552-103">EnableIdleRoutine</span></span>
+
+  
+  
+<span data-ttu-id="71552-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="71552-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="71552-105">启用或禁用[FNIDLE](fnidle.md)基于空闲例程。</span><span class="sxs-lookup"><span data-stu-id="71552-105">Enables or disables a [FNIDLE](fnidle.md) based idle routine.</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="71552-106">头文件：</span><span class="sxs-lookup"><span data-stu-id="71552-106">Header file:</span></span>  <br/> |<span data-ttu-id="71552-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="71552-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="71552-108">通过实现：</span><span class="sxs-lookup"><span data-stu-id="71552-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="71552-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="71552-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="71552-110">调用：</span><span class="sxs-lookup"><span data-stu-id="71552-110">Called by:</span></span>  <br/> |<span data-ttu-id="71552-111">客户端应用程序和服务提供商</span><span class="sxs-lookup"><span data-stu-id="71552-111">Client applications and service providers</span></span>  <br/> |
+   
+```cpp
+VOID EnableIdleRoutine(
+  FTG ftg,
+  BOOL fEnable
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="71552-112">参数</span><span class="sxs-lookup"><span data-stu-id="71552-112">Parameters</span></span>
+
+ <span data-ttu-id="71552-113">_ftg_</span><span class="sxs-lookup"><span data-stu-id="71552-113">_ftg_</span></span>
+  
+> <span data-ttu-id="71552-114">[in]标识非处于空闲状态的例程，以启用或禁用的函数标记。</span><span class="sxs-lookup"><span data-stu-id="71552-114">[in] Function tag that identifies the idle routine to be enabled or disabled.</span></span> 
+    
+ <span data-ttu-id="71552-115">_fEnable_</span><span class="sxs-lookup"><span data-stu-id="71552-115">_fEnable_</span></span>
+  
+> <span data-ttu-id="71552-116">[in]包含 TRUE，则空闲引擎应启用空闲例程或 FALSE，如果它应禁用。</span><span class="sxs-lookup"><span data-stu-id="71552-116">[in] Contains TRUE if the idle engine should enable the idle routine, or FALSE if it should disable it.</span></span>
+    
+## <a name="return-value"></a><span data-ttu-id="71552-117">返回值</span><span class="sxs-lookup"><span data-stu-id="71552-117">Return value</span></span>
+
+<span data-ttu-id="71552-118">无。</span><span class="sxs-lookup"><span data-stu-id="71552-118">None.</span></span>
+  
+## <a name="remarks"></a><span data-ttu-id="71552-119">说明</span><span class="sxs-lookup"><span data-stu-id="71552-119">Remarks</span></span>
+
+<span data-ttu-id="71552-120">下面的函数处理与 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程：</span><span class="sxs-lookup"><span data-stu-id="71552-120">The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](fnidle.md) function prototype:</span></span> 
+  
+|<span data-ttu-id="71552-121">**空闲例行函数**</span><span class="sxs-lookup"><span data-stu-id="71552-121">**Idle routine function**</span></span>|<span data-ttu-id="71552-122">**使用情况**</span><span class="sxs-lookup"><span data-stu-id="71552-122">**Usage**</span></span>|
+|:-----|:-----|
+|[<span data-ttu-id="71552-123">ChangeIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="71552-123">ChangeIdleRoutine</span></span>](changeidleroutine.md) <br/> |<span data-ttu-id="71552-124">更改已注册的空闲例程的特征。</span><span class="sxs-lookup"><span data-stu-id="71552-124">Changes the characteristics of a registered idle routine.</span></span>  <br/> |
+|[<span data-ttu-id="71552-125">DeregisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="71552-125">DeregisterIdleRoutine</span></span>](deregisteridleroutine.md) <br/> |<span data-ttu-id="71552-126">从 MAPI 系统中删除已注册的空闲例程。</span><span class="sxs-lookup"><span data-stu-id="71552-126">Removes a registered idle routine from the MAPI system.</span></span>  <br/> |
+|<span data-ttu-id="71552-127">**EnableIdleRoutine**</span><span class="sxs-lookup"><span data-stu-id="71552-127">**EnableIdleRoutine**</span></span> <br/> |<span data-ttu-id="71552-128">禁用或重新启用注册空闲例程，但不从 MAPI 系统中移除它。</span><span class="sxs-lookup"><span data-stu-id="71552-128">Disables or re-enables a registered idle routine without removing it from the MAPI system.</span></span>  <br/> |
+|[<span data-ttu-id="71552-129">FtgRegisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="71552-129">FtgRegisterIdleRoutine</span></span>](ftgregisteridleroutine.md) <br/> |<span data-ttu-id="71552-130">将一个空闲例程添加到 MAPI 系统，使用或不启用它。</span><span class="sxs-lookup"><span data-stu-id="71552-130">Adds an idle routine to the MAPI system, with or without enabling it.</span></span>  <br/> |
+|[<span data-ttu-id="71552-131">MAPIDeInitIdle</span><span class="sxs-lookup"><span data-stu-id="71552-131">MAPIDeInitIdle</span></span>](mapideinitidle.md) <br/> |<span data-ttu-id="71552-132">关闭调用应用程序的 MAPI 空闲引擎。</span><span class="sxs-lookup"><span data-stu-id="71552-132">Shuts down the MAPI idle engine for the calling application.</span></span>  <br/> |
+|[<span data-ttu-id="71552-133">MAPIInitIdle</span><span class="sxs-lookup"><span data-stu-id="71552-133">MAPIInitIdle</span></span>](mapiinitidle.md) <br/> |<span data-ttu-id="71552-134">初始化调用应用程序的 MAPI 空闲引擎。</span><span class="sxs-lookup"><span data-stu-id="71552-134">Initializes the MAPI idle engine for the calling application.</span></span>  <br/> |
+   
+ <span data-ttu-id="71552-135">**ChangeIdleRoutine**、 **DeregisterIdleRoutine**和**EnableIdleRoutine**接受作为输入参数的函数标记，则由**FtgRegisterIdleRoutine**返回。</span><span class="sxs-lookup"><span data-stu-id="71552-135">**ChangeIdleRoutine**, **DeregisterIdleRoutine**, and **EnableIdleRoutine** take as an input parameter the function tag returned by **FtgRegisterIdleRoutine**.</span></span> 
+  
+<span data-ttu-id="71552-136">当平台的所有前景任务都变为空闲时，MAPI 空闲引擎将调用已准备好执行的最高优先级空闲例程。</span><span class="sxs-lookup"><span data-stu-id="71552-136">When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute.</span></span> <span data-ttu-id="71552-137">不没有呼叫之间空闲例程的相同的优先级顺序不做任何担保。</span><span class="sxs-lookup"><span data-stu-id="71552-137">There is no guarantee of calling order among idle routines of the same priority.</span></span> 
+  
+

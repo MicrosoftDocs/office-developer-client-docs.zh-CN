@@ -1,0 +1,43 @@
+---
+title: 关于注册新域以进行自动配置
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: overview
+localization_priority: Normal
+ms.assetid: a7ab8a50-dd30-4ba5-b6d8-e6d1f482e6f1
+description: Outlook 提供了一种方法，以指定自动配置的新消息服务域和允许消息服务提供商配置帐户。
+ms.openlocfilehash: c1daea81fe18e5d1088a233a3fcdff076419d6bc
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19774170"
+---
+# <a name="about-registering-a-new-domain-for-automatic-configuration"></a><span data-ttu-id="4fcbb-103">关于注册新域以进行自动配置</span><span class="sxs-lookup"><span data-stu-id="4fcbb-103">About registering a new domain for automatic configuration</span></span>
+
+<span data-ttu-id="4fcbb-104">Outlook 提供了一种方法，以指定自动配置的新消息服务域和允许消息服务提供商配置帐户。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-104">Outlook provides a way to specify a new message service domain for automatic configuration and allow the message service provider to configure the account.</span></span>
+  
+<span data-ttu-id="4fcbb-105">在设计时消息服务提供程序，您可以使用在 Windows 注册表中以下项指定新域进行自动配置相应的消息服务提供商：</span><span class="sxs-lookup"><span data-stu-id="4fcbb-105">When designing a message service provider, you can use the following key in the Windows registry to specify a new domain to be automatically configured by the corresponding message service provider:</span></span> 
+  
+`HKLM\Software\Microsoft\Office\Outlook\AutoConfigDomains\<domain name>\`
+  
+<span data-ttu-id="4fcbb-106">在项中，`<domain name>`是自动配置的域。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-106">In the key, `<domain name>` is the domain for automatic configuration.</span></span> <span data-ttu-id="4fcbb-107">此域名支持通配符\*开头仅。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-107">This domain name supports a wildcard \* at the beginning only.</span></span> <span data-ttu-id="4fcbb-108">下表显示了此项支持的值。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-108">The following table shows the values that this key supports.</span></span> 
+  
+| <span data-ttu-id="4fcbb-109">值</span><span class="sxs-lookup"><span data-stu-id="4fcbb-109">Value</span></span> | <span data-ttu-id="4fcbb-110">类型</span><span class="sxs-lookup"><span data-stu-id="4fcbb-110">Type</span></span> | <span data-ttu-id="4fcbb-111">说明</span><span class="sxs-lookup"><span data-stu-id="4fcbb-111">Description</span></span> |
+|:-----|:-----|:-----|
+|<span data-ttu-id="4fcbb-112">友好名称</span><span class="sxs-lookup"><span data-stu-id="4fcbb-112">Friendly Name</span></span>  <br/> |<span data-ttu-id="4fcbb-113">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="4fcbb-113">REG_SZ</span></span>  <br/> |<span data-ttu-id="4fcbb-114">向用户显示自动配置过程中的域名。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-114">The domain name that is displayed to the user during automatic configuration.</span></span>  <br/> |
+|<span data-ttu-id="4fcbb-115">服务名称</span><span class="sxs-lookup"><span data-stu-id="4fcbb-115">Service Name</span></span>  <br/> |<span data-ttu-id="4fcbb-116">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="4fcbb-116">REG_SZ</span></span>  <br/> |<span data-ttu-id="4fcbb-117">邮件服务中支持此域的 mapisvc.inf 注册。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-117">The message service registered in mapisvc.inf that supports this domain.</span></span>  <br/> |
+|<span data-ttu-id="4fcbb-118">安装位置</span><span class="sxs-lookup"><span data-stu-id="4fcbb-118">Install Location</span></span>  <br/> |<span data-ttu-id="4fcbb-119">REG_SZ</span><span class="sxs-lookup"><span data-stu-id="4fcbb-119">REG_SZ</span></span>  <br/> |<span data-ttu-id="4fcbb-120">安装邮件服务提供商，如果未安装位置的 URL。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-120">The URL of the location to install the message service provider, if it is not already installed.</span></span>  <br/> |
+|<span data-ttu-id="4fcbb-121">最低版本</span><span class="sxs-lookup"><span data-stu-id="4fcbb-121">Minimum Version</span></span>  <br/> |<span data-ttu-id="4fcbb-122">REG_DWORD</span><span class="sxs-lookup"><span data-stu-id="4fcbb-122">REG_DWORD</span></span>  <br/> |<span data-ttu-id="4fcbb-123">.Dll 消息服务提供程序所需的最低版本。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-123">The minimum version of the .dll of the message service provider that is required.</span></span> <span data-ttu-id="4fcbb-124">此值是可选的。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-124">This value is optional.</span></span>  <br/> |
+   
+<span data-ttu-id="4fcbb-125">Outlook 开始时自动配置的电子邮件帐户，它会检查 Windows 注册表中以便按电子邮件地址指定的域的注册。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-125">When Outlook begins automatic configuration for an email account, it checks the Windows registry for the registration of the domain specified by the email address.</span></span> <span data-ttu-id="4fcbb-126">如果已在 Windows 注册表中指定的域，则 Outlook 将检查是否在 Mapisvc.inf 注册邮件服务。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-126">If the domain is already specified in the Windows registry, Outlook checks whether the message service is registered in Mapisvc.inf.</span></span> <span data-ttu-id="4fcbb-127">除非在 Windows 注册表中已指定，outlook 就无法继续使用自动配置的域。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-127">Outlook cannot proceed with automatic configuration of the domain unless it has been specified in the Windows registry.</span></span>
+  
+<span data-ttu-id="4fcbb-128">如果未指定的邮件服务当前在 Mapisvc.inf 中, 注册或消息服务提供商已安装但.dll 具有版本早于指定的最小，Outlook 使用指定的友好名称，并提示用户安装提供程序。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-128">If the specified message service is not currently registered in Mapisvc.inf, or the message service provider is installed but the .dll has a version earlier than the specified minimum, Outlook uses the specified friendly name and prompts the user to install the provider.</span></span> <span data-ttu-id="4fcbb-129">如果用户接受，Outlook 将用户重定向到指定的安装位置，以便用户可以安装提供程序。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-129">If the user accepts, Outlook redirects the user to the specified installation location so that the user can install the provider.</span></span> <span data-ttu-id="4fcbb-130">安装提供程序中 Mapisvc.inf 注册邮件服务。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-130">Installing the provider registers the message service in Mapisvc.inf.</span></span>
+  
+<span data-ttu-id="4fcbb-131">如果在 Mapisvc.inf 当前注册的邮件服务、 服务提供程序.dll 是相应版本，Outlook 使用[IMsgServiceAdmin::CreateMsgService](http://msdn.microsoft.com/library/0135f049-0311-45e5-9685-78597d599a4e%28Office.15%29.aspx)，创建邮件服务，然后将其配置使用[IMsgServiceAdmin::ConfigureMsgService](http://msdn.microsoft.com/library/a08f5905-2585-49ca-abb7-a77f2736f604%28Office.15%29.aspx)。</span><span class="sxs-lookup"><span data-stu-id="4fcbb-131">If the message service is currently registered in Mapisvc.inf and the service provider .dll is an appropriate version, Outlook creates the message service by using [IMsgServiceAdmin::CreateMsgService](http://msdn.microsoft.com/library/0135f049-0311-45e5-9685-78597d599a4e%28Office.15%29.aspx), and then configures it by using [IMsgServiceAdmin::ConfigureMsgService](http://msdn.microsoft.com/library/a08f5905-2585-49ca-abb7-a77f2736f604%28Office.15%29.aspx).</span></span> <span data-ttu-id="4fcbb-132">Outlook 自动配置使用以下三个属性来允许要设置帐户的提供程序： [PidTagAutoConfigurationUserName](http://msdn.microsoft.com/library/05dfa0e2-4ab1-4f57-9009-6a815aca87bd%28Office.15%29.aspx)、 [PidTagAutoConfigurationUserEmail](http://msdn.microsoft.com/library/845140c8-5454-4b47-acec-ab5aff00b768%28Office.15%29.aspx)和[PidTagAutoConfigurationUserPassword](http://msdn.microsoft.com/library/d33e7c45-55d8-4dc1-ade9-605542d87e61%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="4fcbb-132">Outlook automatic configuration uses the following three properties to allow the provider to set up the account: [PidTagAutoConfigurationUserName](http://msdn.microsoft.com/library/05dfa0e2-4ab1-4f57-9009-6a815aca87bd%28Office.15%29.aspx), [PidTagAutoConfigurationUserEmail](http://msdn.microsoft.com/library/845140c8-5454-4b47-acec-ab5aff00b768%28Office.15%29.aspx), and [PidTagAutoConfigurationUserPassword](http://msdn.microsoft.com/library/d33e7c45-55d8-4dc1-ade9-605542d87e61%28Office.15%29.aspx).</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="4fcbb-133">另请参阅</span><span class="sxs-lookup"><span data-stu-id="4fcbb-133">See also</span></span>
+
+- [<span data-ttu-id="4fcbb-134">MapiSvc.inf 的文件格式</span><span class="sxs-lookup"><span data-stu-id="4fcbb-134">File Format of MapiSvc.inf</span></span>](http://msdn.microsoft.com/library/b48eda17-83a8-4dc4-85c8-4ca827d13d25%28Office.15%29.aspx)
+

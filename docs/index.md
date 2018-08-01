@@ -1,1 +1,1 @@
-# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="a5dd0-101">欢迎访问 officedocs 开发客户端 docs ！</span><span class="sxs-lookup"><span data-stu-id="a5dd0-101">Welcome to officedocs-dev-client-docs!</span></span>
+# <a name="welcome-to-officedocs-dev-client-docs"></a><span data-ttu-id="4d898-101">欢迎访问 officedocs 开发客户端 docs ！</span><span class="sxs-lookup"><span data-stu-id="4d898-101">Welcome to officedocs-dev-client-docs!</span></span>

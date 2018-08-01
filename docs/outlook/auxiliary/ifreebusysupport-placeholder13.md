@@ -14,13 +14,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774232"
 ---
-# <a name="ifreebusysupportplaceholder13"></a><span data-ttu-id="f5036-103">IFreeBusySupport::Placeholder13</span><span class="sxs-lookup"><span data-stu-id="f5036-103">IFreeBusySupport::Placeholder13</span></span>
+# <a name="ifreebusysupportplaceholder13"></a><span data-ttu-id="df8d6-103">IFreeBusySupport::Placeholder13</span><span class="sxs-lookup"><span data-stu-id="df8d6-103">IFreeBusySupport::Placeholder13</span></span>
 
-<span data-ttu-id="f5036-104">此成员是一个占位符，不支持。</span><span class="sxs-lookup"><span data-stu-id="f5036-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="df8d6-104">此成员是一个占位符，不支持。</span><span class="sxs-lookup"><span data-stu-id="df8d6-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f5036-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="f5036-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="df8d6-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="df8d6-105">Quick info</span></span>
 
-<span data-ttu-id="f5036-106">请参阅[IFreeBusySupport](ifreebusysupport.md)。</span><span class="sxs-lookup"><span data-stu-id="f5036-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="df8d6-106">请参阅[IFreeBusySupport](ifreebusysupport.md)。</span><span class="sxs-lookup"><span data-stu-id="df8d6-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder13( 
@@ -28,16 +28,16 @@ HRESULT Placeholder13(
 );
 ```
 
-## <a name="return-values"></a><span data-ttu-id="f5036-107">返回值</span><span class="sxs-lookup"><span data-stu-id="f5036-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="df8d6-107">返回值</span><span class="sxs-lookup"><span data-stu-id="df8d6-107">Return values</span></span>
 
-<span data-ttu-id="f5036-108">始终 E_NOTIMPL，因为此成员是一个占位符，并且不受支持。</span><span class="sxs-lookup"><span data-stu-id="f5036-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="df8d6-108">始终 E_NOTIMPL，因为此成员是一个占位符，并且不受支持。</span><span class="sxs-lookup"><span data-stu-id="df8d6-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f5036-109">备注</span><span class="sxs-lookup"><span data-stu-id="f5036-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="df8d6-109">说明</span><span class="sxs-lookup"><span data-stu-id="df8d6-109">Remarks</span></span>
 
-<span data-ttu-id="f5036-110">此成员必须返回 E_NOTIMPL。</span><span class="sxs-lookup"><span data-stu-id="f5036-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="df8d6-110">此成员必须返回 E_NOTIMPL。</span><span class="sxs-lookup"><span data-stu-id="df8d6-110">This member must return E_NOTIMPL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f5036-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f5036-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df8d6-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="df8d6-111">See also</span></span>
 
-- [<span data-ttu-id="f5036-112">常量 (忙/闲 API)</span><span class="sxs-lookup"><span data-stu-id="f5036-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="f5036-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="f5036-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="df8d6-112">常量 (忙/闲 API)</span><span class="sxs-lookup"><span data-stu-id="df8d6-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="df8d6-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="df8d6-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 

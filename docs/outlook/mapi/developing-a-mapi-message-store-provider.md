@@ -1,0 +1,45 @@
+---
+title: 开发 MAPI 消息存储提供程序
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
+description: 上次修改时间： 2011 年 7 月 23 日
+ms.openlocfilehash: 040c851d64f60c319250fd0e08620285b6f2f0db
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19774791"
+---
+# <a name="developing-a-mapi-message-store-provider"></a><span data-ttu-id="386c0-103">开发 MAPI 消息存储提供程序</span><span class="sxs-lookup"><span data-stu-id="386c0-103">Developing a MAPI message store provider</span></span>
+  
+<span data-ttu-id="386c0-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="386c0-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="386c0-105">与其他 MAPI 服务提供商，类似消息存储库是演示基础存储机制，MAPI 客户端应用程序和 MAPI 后台处理程序的服务的动态链接库 (Dll)。</span><span class="sxs-lookup"><span data-stu-id="386c0-105">Like other MAPI service providers, message stores are dynamic-link libraries (DLLs) that present the services of an underlying storage mechanism to MAPI client applications and the MAPI spooler.</span></span> <span data-ttu-id="386c0-106">消息存储提供程序提供了为一组分层的文件夹和 MAPI 客户端和 MAPI 后台处理程序可以使用的邮件基础存储机制。</span><span class="sxs-lookup"><span data-stu-id="386c0-106">The message store provider presents the underlying storage mechanism as a hierarchical set of folders and messages that MAPI clients and the MAPI spooler can use.</span></span>
+  
+<span data-ttu-id="386c0-107">下图显示了基本的 MAPI 邮件存储体系结构。</span><span class="sxs-lookup"><span data-stu-id="386c0-107">The following illustration shows the basic MAPI message store architecture.</span></span>
+  
+<span data-ttu-id="386c0-108">**消息存储体系结构**</span><span class="sxs-lookup"><span data-stu-id="386c0-108">**Message store architecture**</span></span>
+  
+<span data-ttu-id="386c0-109">![消息存储体系结构](media/storearc.gif "消息存储体系结构")</span><span class="sxs-lookup"><span data-stu-id="386c0-109">![Message store architecture](media/storearc.gif "Message store architecture")</span></span>
+  
+<span data-ttu-id="386c0-110">您可以使用任何种类的您喜欢的基础存储机制来实现消息存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="386c0-110">You can implement a message store provider by using any sort of underlying storage mechanism you like.</span></span> <span data-ttu-id="386c0-111">但是，您需要注意的性能问题。</span><span class="sxs-lookup"><span data-stu-id="386c0-111">However, you need to be aware of performance concerns.</span></span> <span data-ttu-id="386c0-112">此外，必须作为 MAPI 对象的分层集合显示基础存储机制。</span><span class="sxs-lookup"><span data-stu-id="386c0-112">In addition, the underlying storage mechanism must be presented as a hierarchical collection of MAPI objects.</span></span> <span data-ttu-id="386c0-113">这些要求意味着消息存储通常会使用现有数据库产品的数据库中支持的对象的分层存储和具有编程接口或定义完善文件结构的实现。</span><span class="sxs-lookup"><span data-stu-id="386c0-113">These requirements mean that message stores are typically implemented by using an existing database product that supports hierarchical storage of objects in the database and that has a programming interface or well-defined file structure.</span></span> <span data-ttu-id="386c0-114">例如，Microsoft Office Access、 SQL 和 Oracle 数据库可用作基础存储机制。</span><span class="sxs-lookup"><span data-stu-id="386c0-114">For example, Microsoft Office Access, SQL, and Oracle databases can be used as the underlying storage mechanism.</span></span> <span data-ttu-id="386c0-115">某些数据库产品具有更加轻松地实现 MAPI 功能，因此您选择的数据库产品可能会影响您的消息存储提供程序需要支持的功能的功能集。</span><span class="sxs-lookup"><span data-stu-id="386c0-115">Some database products have feature sets that make it easier to implement MAPI features, so your choice of database product may be affected by the features that your message store provider needs to support.</span></span>
+  
+<span data-ttu-id="386c0-116">为您作用，因为它是通常更轻松地向 MAPI 客户端的存在数据库对象作为 MAPI 对象比若要实现您自己的分层存储机制基础存储机制保存使用现有数据库。</span><span class="sxs-lookup"><span data-stu-id="386c0-116">Using an existing database as the underlying storage mechanism saves you work because it is usually easier to present database objects to MAPI clients as MAPI objects than to implement your own hierarchical storage mechanism.</span></span> <span data-ttu-id="386c0-117">此操作使您能够将 MAPI 操作比如果您实现您自己的分层存储机制更高级别。</span><span class="sxs-lookup"><span data-stu-id="386c0-117">Doing this enables you to treat MAPI operations at a higher level than if you implement your own hierarchical storage mechanism.</span></span> <span data-ttu-id="386c0-118">例如，搜索特定主题行消息变得相当简单空格构建和提交相应数据库查询，而不是实现复杂例程搜索分层存储机制。</span><span class="sxs-lookup"><span data-stu-id="386c0-118">For example, searching for a message with a particular subject line becomes a fairly simple matter of constructing and submitting an appropriate database query, rather than implementing complex routines to search your hierarchical storage mechanism.</span></span>
+  
+<span data-ttu-id="386c0-119">消息存储提供程序通信使用 MAPI 客户端和 MAPI 后台处理程序，在文件夹和对象上执行操作。</span><span class="sxs-lookup"><span data-stu-id="386c0-119">Message store providers communicate with MAPI clients and the MAPI spooler to perform operations on folders and objects.</span></span> <span data-ttu-id="386c0-120">消息存储提供程序将转换到基础存储机制在较低级别的操作这些操作。</span><span class="sxs-lookup"><span data-stu-id="386c0-120">The message store provider translates those operations into lower level operations on the underlying storage mechanism.</span></span> <span data-ttu-id="386c0-121">MAPI 后台处理程序通常与进行通信的消息存储提供程序时发送和接收消息。</span><span class="sxs-lookup"><span data-stu-id="386c0-121">The MAPI spooler typically communicates with the message store provider while sending and receiving messages.</span></span> <span data-ttu-id="386c0-122">MAPI 客户端通常相互操作的文件夹层次结构和要阅读、 编辑、 删除和发送消息的消息存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="386c0-122">MAPI clients typically communicate with message store providers to manipulate the folder hierarchy and to read, edit, delete, and send messages.</span></span>
+  
+<span data-ttu-id="386c0-123">与以创建新邮件的消息存储提供程序进行通信的 MAPI 后台处理程序和 MAPI 客户端。</span><span class="sxs-lookup"><span data-stu-id="386c0-123">Both the MAPI spooler and MAPI clients communicate with the message store provider to create new messages.</span></span> <span data-ttu-id="386c0-124">客户端应用程序执行此操作时用户撰写邮件。</span><span class="sxs-lookup"><span data-stu-id="386c0-124">Client applications do this when users compose a message.</span></span> <span data-ttu-id="386c0-125">MAPI 后台处理程序执行此操作时它会接收传入消息。</span><span class="sxs-lookup"><span data-stu-id="386c0-125">The MAPI spooler does this when it receives an incoming message.</span></span> <span data-ttu-id="386c0-126">在任一情况下，创建新邮件是通常的收件箱文件夹的消息存储库，如果有。</span><span class="sxs-lookup"><span data-stu-id="386c0-126">In either case, the new message is usually created in the Inbox folder of the message store, if there is one.</span></span>
+  
+<span data-ttu-id="386c0-127">消息存储提供程序进行大量使用 MAPI 表、 文件夹、 邮件和属性。</span><span class="sxs-lookup"><span data-stu-id="386c0-127">Message store providers make heavy use of MAPI tables, folders, messages, and properties.</span></span> <span data-ttu-id="386c0-128">这些对象的实现详细信息均编档在[MAPI 表](mapi-tables.md)、 [MAPI 文件夹](mapi-folders.md)、 [MAPI 邮件](mapi-messages.md)和[MAPI 属性概述](mapi-property-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="386c0-128">The implementation details for those objects are documented in [MAPI Tables](mapi-tables.md), [MAPI Folders](mapi-folders.md), [MAPI Messages](mapi-messages.md), and [MAPI Property Overview](mapi-property-overview.md).</span></span> <span data-ttu-id="386c0-129">您应熟悉该材料然后再尝试实现消息存储提供程序。</span><span class="sxs-lookup"><span data-stu-id="386c0-129">You should familiarize yourself with that material before attempting to implement a message store provider.</span></span>
+  
+<span data-ttu-id="386c0-130">有两种重要类型的消息存储提供程序： 那些可用作用户的默认邮件存储和那些无法。</span><span class="sxs-lookup"><span data-stu-id="386c0-130">There are two important types of message store providers: those that can act as a user's default message store and those that cannot.</span></span> <span data-ttu-id="386c0-131">默认邮件存储区是一个客户端应用程序和 MAPI 后台处理程序可以执行任何消息任务，如接收消息或创建文件夹。</span><span class="sxs-lookup"><span data-stu-id="386c0-131">A default message store is one in which client applications and the MAPI spooler can perform any messaging task, such as receiving messages or creating folders.</span></span> <span data-ttu-id="386c0-132">默认消息存储提供程序必须支持多个所需的所有消息存储提供程序的最小数目超过的更多功能。</span><span class="sxs-lookup"><span data-stu-id="386c0-132">A default message store provider must support several more features than the minimum number required for all message store providers.</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="386c0-133">另请参阅</span><span class="sxs-lookup"><span data-stu-id="386c0-133">See also</span></span>
+
+- [<span data-ttu-id="386c0-134">MAPI 概念</span><span class="sxs-lookup"><span data-stu-id="386c0-134">MAPI concepts</span></span>](mapi-concepts.md)
+

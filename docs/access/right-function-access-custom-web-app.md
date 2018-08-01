@@ -14,22 +14,22 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773592"
 ---
-# <a name="right-function-access-custom-web-app"></a><span data-ttu-id="1e76f-103">Right 函数 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="1e76f-103">Right Function (Access custom web app)</span></span>
+# <a name="right-function-access-custom-web-app"></a><span data-ttu-id="69cee-103">Right 函数 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="69cee-103">Right Function (Access custom web app)</span></span>
 
-<span data-ttu-id="1e76f-104">返回指定数量的字符的字符串的右侧部分。</span><span class="sxs-lookup"><span data-stu-id="1e76f-104">Returns the right part of a character string with the specified number of characters.</span></span>
+<span data-ttu-id="69cee-104">返回指定数量的字符的字符串的右侧部分。</span><span class="sxs-lookup"><span data-stu-id="69cee-104">Returns the right part of a character string with the specified number of characters.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="1e76f-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="1e76f-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="69cee-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="69cee-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="1e76f-107">语法</span><span class="sxs-lookup"><span data-stu-id="1e76f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="69cee-107">语法</span><span class="sxs-lookup"><span data-stu-id="69cee-107">Syntax</span></span>
 
- <span data-ttu-id="1e76f-108">**右**(*TextExpression*，*长度*)</span><span class="sxs-lookup"><span data-stu-id="1e76f-108">**Right** (*TextExpression*, *Length*)</span></span> 
+ <span data-ttu-id="69cee-108">**右**(*TextExpression*，*长度*)</span><span class="sxs-lookup"><span data-stu-id="69cee-108">**Right** (*TextExpression*, *Length*)</span></span> 
   
-<span data-ttu-id="1e76f-109">**Right**函数包含以下参数。</span><span class="sxs-lookup"><span data-stu-id="1e76f-109">The **Right** function contains the following arguments.</span></span> 
+<span data-ttu-id="69cee-109">**Right**函数包含以下参数。</span><span class="sxs-lookup"><span data-stu-id="69cee-109">The **Right** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="1e76f-110">**参数名称**</span><span class="sxs-lookup"><span data-stu-id="1e76f-110">**Argument name**</span></span>|<span data-ttu-id="1e76f-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="1e76f-111">**Description**</span></span>|
+|<span data-ttu-id="69cee-110">**参数名称**</span><span class="sxs-lookup"><span data-stu-id="69cee-110">**Argument name**</span></span>|<span data-ttu-id="69cee-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="69cee-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="1e76f-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="1e76f-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="1e76f-113">文本表达式。</span><span class="sxs-lookup"><span data-stu-id="1e76f-113">A text expression.</span></span>  <br/> |
-| <span data-ttu-id="1e76f-114">*Length*</span><span class="sxs-lookup"><span data-stu-id="1e76f-114">*Length*</span></span>  <br/> |<span data-ttu-id="1e76f-115">是一个正整数，指定返回的*TextExpression*字符数。</span><span class="sxs-lookup"><span data-stu-id="1e76f-115">Is a positive integer that specifies how many characters of the  *TextExpression*  are returned.</span></span>  <br/> |
+| <span data-ttu-id="69cee-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="69cee-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="69cee-113">文本表达式。</span><span class="sxs-lookup"><span data-stu-id="69cee-113">A text expression.</span></span>  <br/> |
+| <span data-ttu-id="69cee-114">*Length*</span><span class="sxs-lookup"><span data-stu-id="69cee-114">*Length*</span></span>  <br/> |<span data-ttu-id="69cee-115">是一个正整数，指定返回的*TextExpression*字符数。</span><span class="sxs-lookup"><span data-stu-id="69cee-115">Is a positive integer that specifies how many characters of the  *TextExpression*  are returned.</span></span>  <br/> |
    
 

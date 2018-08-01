@@ -13,29 +13,29 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773416"
 ---
-# <a name="comparison-operators-access-custom-web-app"></a><span data-ttu-id="243eb-102">比较运算符 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-102">Comparison Operators (Access custom web app)</span></span>
+# <a name="comparison-operators-access-custom-web-app"></a><span data-ttu-id="8e619-102">比较运算符 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-102">Comparison Operators (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="243eb-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="243eb-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="8e619-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="8e619-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="243eb-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="243eb-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8e619-105">本节内容</span><span class="sxs-lookup"><span data-stu-id="8e619-105">In this section</span></span>
 
-- [<span data-ttu-id="243eb-106">\<（小于）（访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-106">\< (Less Than) (Access custom web app)</span></span>](less-thanaccess-custom-web-app.md)
+- [<span data-ttu-id="8e619-106">\<（小于）（访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-106">\< (Less Than) (Access custom web app)</span></span>](less-thanaccess-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-107">\<= （小于或等于） （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-107">\<= (Less Than or Equal To) (Access custom web app)</span></span>](equalsless-than-or-equal-toaccess-custom-web-app.md)
+- [<span data-ttu-id="8e619-107">\<= （小于或等于） （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-107">\<= (Less Than or Equal To) (Access custom web app)</span></span>](equalsless-than-or-equal-toaccess-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-108">\<\>（不等于）（访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-108">\<\> (Not Equal To) (Access custom web app)</span></span>](not-equal-toaccess-custom-web-app.md)
+- [<span data-ttu-id="8e619-108">\<\>（不等于）（访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-108">\<\> (Not Equal To) (Access custom web app)</span></span>](not-equal-toaccess-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-109">= （等于） （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-109">= (Equals) (Access custom web app)</span></span>](equalsequalsaccess-custom-web-app.md)
+- [<span data-ttu-id="8e619-109">= （等于） （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-109">= (Equals) (Access custom web app)</span></span>](equalsequalsaccess-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-110">\>（大于）（访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-110">\> (Greater Than) (Access custom web app)</span></span>](greater-thanaccess-custom-web-app.md)
+- [<span data-ttu-id="8e619-110">\>（大于）（访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-110">\> (Greater Than) (Access custom web app)</span></span>](greater-thanaccess-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-111">\>= （大于或等于） （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-111">\>= (Greater Than or Equal To) (Access custom web app)</span></span>](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
+- [<span data-ttu-id="8e619-111">\>= （大于或等于） （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-111">\>= (Greater Than or Equal To) (Access custom web app)</span></span>](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-112">之间 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-112">BETWEEN (Access custom web app)</span></span>](between-access-custom-web-app.md)
+- [<span data-ttu-id="8e619-112">之间 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-112">BETWEEN (Access custom web app)</span></span>](between-access-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-113">中 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-113">IN (Access custom web app)</span></span>](in-access-custom-web-app.md)
+- [<span data-ttu-id="8e619-113">中 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-113">IN (Access custom web app)</span></span>](in-access-custom-web-app.md)
     
-- [<span data-ttu-id="243eb-114">像 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="243eb-114">LIKE (Access custom web app)</span></span>](like-access-custom-web-app.md)
+- [<span data-ttu-id="8e619-114">像 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e619-114">LIKE (Access custom web app)</span></span>](like-access-custom-web-app.md)
     
 

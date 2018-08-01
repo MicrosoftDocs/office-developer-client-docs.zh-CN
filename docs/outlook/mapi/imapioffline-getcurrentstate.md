@@ -19,13 +19,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775488"
 ---
-# <a name="imapiofflinegetcurrentstate"></a><span data-ttu-id="9bac4-103">IMAPIOffline::GetCurrentState</span><span class="sxs-lookup"><span data-stu-id="9bac4-103">IMAPIOffline::GetCurrentState</span></span>
+# <a name="imapiofflinegetcurrentstate"></a><span data-ttu-id="b3cb5-103">IMAPIOffline::GetCurrentState</span><span class="sxs-lookup"><span data-stu-id="b3cb5-103">IMAPIOffline::GetCurrentState</span></span>
 
   
   
-<span data-ttu-id="9bac4-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="9bac4-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="b3cb5-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="b3cb5-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="9bac4-105">获取一个脱机对象的当前联机或脱机状态。</span><span class="sxs-lookup"><span data-stu-id="9bac4-105">Gets the current online or offline state of an offline object.</span></span>
+<span data-ttu-id="b3cb5-105">获取一个脱机对象的当前联机或脱机状态。</span><span class="sxs-lookup"><span data-stu-id="b3cb5-105">Gets the current online or offline state of an offline object.</span></span>
   
 ```cpp
 HRESULT GetCurrentState( 
@@ -33,28 +33,28 @@ HRESULT GetCurrentState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9bac4-106">参数</span><span class="sxs-lookup"><span data-stu-id="9bac4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b3cb5-106">参数</span><span class="sxs-lookup"><span data-stu-id="b3cb5-106">Parameters</span></span>
 
- <span data-ttu-id="9bac4-107">_pulState_</span><span class="sxs-lookup"><span data-stu-id="9bac4-107">_pulState_</span></span>
+ <span data-ttu-id="b3cb5-107">_pulState_</span><span class="sxs-lookup"><span data-stu-id="b3cb5-107">_pulState_</span></span>
   
-> <span data-ttu-id="9bac4-108">[输出]脱机对象的当前联机或脱机状态。</span><span class="sxs-lookup"><span data-stu-id="9bac4-108">[out] The current online or offline state of an offline object.</span></span> <span data-ttu-id="9bac4-109">它必须是这两个值之一：</span><span class="sxs-lookup"><span data-stu-id="9bac4-109">It must be one of these two values:</span></span>
+> <span data-ttu-id="b3cb5-108">[输出]脱机对象的当前联机或脱机状态。</span><span class="sxs-lookup"><span data-stu-id="b3cb5-108">[out] The current online or offline state of an offline object.</span></span> <span data-ttu-id="b3cb5-109">它必须是这两个值之一：</span><span class="sxs-lookup"><span data-stu-id="b3cb5-109">It must be one of these two values:</span></span>
     
-<span data-ttu-id="9bac4-110">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="9bac4-110">MAPIOFFLINE_STATE_ONLINE</span></span>
+<span data-ttu-id="b3cb5-110">MAPIOFFLINE_STATE_ONLINE</span><span class="sxs-lookup"><span data-stu-id="b3cb5-110">MAPIOFFLINE_STATE_ONLINE</span></span>
   
 > 
     
-<span data-ttu-id="9bac4-111">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="9bac4-111">MAPIOFFLINE_STATE_OFFLINE</span></span>
+<span data-ttu-id="b3cb5-111">MAPIOFFLINE_STATE_OFFLINE</span><span class="sxs-lookup"><span data-stu-id="b3cb5-111">MAPIOFFLINE_STATE_OFFLINE</span></span>
   
 > 
     
-## <a name="see-also"></a><span data-ttu-id="9bac4-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9bac4-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3cb5-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b3cb5-112">See also</span></span>
 
 
 
-[<span data-ttu-id="9bac4-113">IMAPIOffline::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="9bac4-113">IMAPIOffline::GetCapabilities</span></span>](imapioffline-getcapabilities.md)
+[<span data-ttu-id="b3cb5-113">IMAPIOffline::GetCapabilities</span><span class="sxs-lookup"><span data-stu-id="b3cb5-113">IMAPIOffline::GetCapabilities</span></span>](imapioffline-getcapabilities.md)
   
-[<span data-ttu-id="9bac4-114">IMAPIOffline::SetCurrentState</span><span class="sxs-lookup"><span data-stu-id="9bac4-114">IMAPIOffline::SetCurrentState</span></span>](imapioffline-setcurrentstate.md)
+[<span data-ttu-id="b3cb5-114">IMAPIOffline::SetCurrentState</span><span class="sxs-lookup"><span data-stu-id="b3cb5-114">IMAPIOffline::SetCurrentState</span></span>](imapioffline-setcurrentstate.md)
 
 
-[<span data-ttu-id="9bac4-115">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="9bac4-115">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="b3cb5-115">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="b3cb5-115">MAPI Constants</span></span>](mapi-constants.md)
 

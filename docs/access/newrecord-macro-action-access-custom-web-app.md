@@ -14,17 +14,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773580"
 ---
-# <a name="newrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="8e442-103">NewRecord 宏操作 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="8e442-103">NewRecord Macro Action (Access custom web app)</span></span>
+# <a name="newrecord-macro-action-access-custom-web-app"></a><span data-ttu-id="95436-103">NewRecord 宏操作 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="95436-103">NewRecord Macro Action (Access custom web app)</span></span>
 
-<span data-ttu-id="8e442-104">当前视图中创建新的空白记录。</span><span class="sxs-lookup"><span data-stu-id="8e442-104">Creates a new, blank record in the current view.</span></span>
+<span data-ttu-id="95436-104">当前视图中创建新的空白记录。</span><span class="sxs-lookup"><span data-stu-id="95436-104">Creates a new, blank record in the current view.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="8e442-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="8e442-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/zh-cn/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="95436-p101">Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。</span><span class="sxs-lookup"><span data-stu-id="95436-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="8e442-107">备注</span><span class="sxs-lookup"><span data-stu-id="8e442-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="95436-107">说明</span><span class="sxs-lookup"><span data-stu-id="95436-107">Remarks</span></span>
 
-<span data-ttu-id="8e442-108">您可以使用**NewRecord**操作视图的末尾添加一个空白记录，这样就可以输入新的数据。</span><span class="sxs-lookup"><span data-stu-id="8e442-108">You can use the **NewRecord** action to add a blank record at the end of view so you can enter new data.</span></span> 
+<span data-ttu-id="95436-108">您可以使用**NewRecord**操作视图的末尾添加一个空白记录，这样就可以输入新的数据。</span><span class="sxs-lookup"><span data-stu-id="95436-108">You can use the **NewRecord** action to add a blank record at the end of view so you can enter new data.</span></span> 
   
-<span data-ttu-id="8e442-109">**NewRecord**操作等效于使用在操作栏**添加**按钮添加一条记录。</span><span class="sxs-lookup"><span data-stu-id="8e442-109">The **NewRecord** action is equivalent to using the **Add** button in the action bar to add a record.</span></span> 
+<span data-ttu-id="95436-109">**NewRecord**操作等效于使用在操作栏**添加**按钮添加一条记录。</span><span class="sxs-lookup"><span data-stu-id="95436-109">The **NewRecord** action is equivalent to using the **Add** button in the action bar to add a record.</span></span> 
   
 
