@@ -16,20 +16,20 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781589"
 ---
-# <a name="typedesc-function"></a><span data-ttu-id="267dc-103">TYPEDESC 函数</span><span class="sxs-lookup"><span data-stu-id="267dc-103">TYPEDESC Function</span></span>
+# <a name="typedesc-function"></a><span data-ttu-id="de607-103">TYPEDESC 函数</span><span class="sxs-lookup"><span data-stu-id="de607-103">TYPEDESC Function</span></span>
 
-<span data-ttu-id="267dc-104">返回一个字符串，描述对象的内部类型。</span><span class="sxs-lookup"><span data-stu-id="267dc-104">Returns a string that describes an object's internal type.</span></span> 
+<span data-ttu-id="de607-104">返回一个字符串，描述对象的内部类型。</span><span class="sxs-lookup"><span data-stu-id="de607-104">Returns a string that describes an object's internal type.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="267dc-105">语法</span><span class="sxs-lookup"><span data-stu-id="267dc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="de607-105">语法</span><span class="sxs-lookup"><span data-stu-id="de607-105">Syntax</span></span>
 
-<span data-ttu-id="267dc-106">TYPEDESC ()</span><span class="sxs-lookup"><span data-stu-id="267dc-106">TYPEDESC ()</span></span>
+<span data-ttu-id="de607-106">TYPEDESC ()</span><span class="sxs-lookup"><span data-stu-id="de607-106">TYPEDESC ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="267dc-107">返回值</span><span class="sxs-lookup"><span data-stu-id="267dc-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="de607-107">返回值</span><span class="sxs-lookup"><span data-stu-id="de607-107">Return value</span></span>
 
-<span data-ttu-id="267dc-108">String</span><span class="sxs-lookup"><span data-stu-id="267dc-108">String</span></span>
+<span data-ttu-id="de607-108">字符串</span><span class="sxs-lookup"><span data-stu-id="de607-108">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="267dc-109">注解</span><span class="sxs-lookup"><span data-stu-id="267dc-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="de607-109">注解</span><span class="sxs-lookup"><span data-stu-id="de607-109">Remarks</span></span>
 
-<span data-ttu-id="267dc-110">下表列出了内部对象的说明性字符串。</span><span class="sxs-lookup"><span data-stu-id="267dc-110">The following table lists descriptive strings for internal objects.</span></span>
+<span data-ttu-id="de607-110">下表列出了内部对象的说明性字符串。</span><span class="sxs-lookup"><span data-stu-id="de607-110">The following table lists descriptive strings for internal objects.</span></span>
   
 

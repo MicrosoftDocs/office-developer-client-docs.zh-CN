@@ -15,25 +15,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779237"
 ---
-# <a name="isocialprovidergetsession"></a><span data-ttu-id="f8048-103">ISocialProvider::GetSession</span><span class="sxs-lookup"><span data-stu-id="f8048-103">ISocialProvider::GetSession</span></span>
+# <a name="isocialprovidergetsession"></a><span data-ttu-id="7b8ac-103">ISocialProvider::GetSession</span><span class="sxs-lookup"><span data-stu-id="7b8ac-103">ISocialProvider::GetSession</span></span>
 
-<span data-ttu-id="f8048-104">获取[ISocialSession](isocialsessioniunknown.md)接口。</span><span class="sxs-lookup"><span data-stu-id="f8048-104">Gets an [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
+<span data-ttu-id="7b8ac-104">获取[ISocialSession](isocialsessioniunknown.md)接口。</span><span class="sxs-lookup"><span data-stu-id="7b8ac-104">Gets an [ISocialSession](isocialsessioniunknown.md) interface.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f8048-105">参数</span><span class="sxs-lookup"><span data-stu-id="f8048-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7b8ac-105">参数</span><span class="sxs-lookup"><span data-stu-id="7b8ac-105">Parameters</span></span>
 
-<span data-ttu-id="f8048-106">_会话_</span><span class="sxs-lookup"><span data-stu-id="f8048-106">_session_</span></span>
+<span data-ttu-id="7b8ac-106">_Session_</span><span class="sxs-lookup"><span data-stu-id="7b8ac-106">_session_</span></span>
   
-> <span data-ttu-id="f8048-107">[输出]**ISocialSession**接口。</span><span class="sxs-lookup"><span data-stu-id="f8048-107">[out] An **ISocialSession** interface.</span></span> 
+> <span data-ttu-id="7b8ac-107">[out] **ISocialSession** 界面。</span><span class="sxs-lookup"><span data-stu-id="7b8ac-107">[out] An **ISocialSession** interface.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="f8048-108">备注</span><span class="sxs-lookup"><span data-stu-id="f8048-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b8ac-108">说明</span><span class="sxs-lookup"><span data-stu-id="7b8ac-108">Remarks</span></span>
 
-<span data-ttu-id="f8048-109">Outlook Social Connector (OSC) 使用**ISocialSession**接口登录到社交网络。</span><span class="sxs-lookup"><span data-stu-id="f8048-109">The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log on to the social network.</span></span> 
+<span data-ttu-id="7b8ac-109">Outlook Social Connector (OSC) 使用**ISocialSession**接口登录到社交网络。</span><span class="sxs-lookup"><span data-stu-id="7b8ac-109">The Outlook Social Connector (OSC) uses the **ISocialSession** interface to log on to the social network.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f8048-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f8048-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b8ac-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7b8ac-110">See also</span></span>
 
-- [<span data-ttu-id="f8048-111">ISocialProvider: IUnknown</span><span class="sxs-lookup"><span data-stu-id="f8048-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="7b8ac-111">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7b8ac-111">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

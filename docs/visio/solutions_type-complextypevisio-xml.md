@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781414"
 ---
-# <a name="solutionstype-complextype-visio-xml"></a><span data-ttu-id="21930-102">Solutions_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="21930-102">Solutions_Type complexType ('Visio XML')</span></span>
+# <a name="solutionstype-complextype-visio-xml"></a><span data-ttu-id="169d4-102">Solutions_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="169d4-102">Solutions_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="21930-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="21930-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="169d4-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="169d4-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="21930-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="21930-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="21930-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="21930-105">**Schema file**</span></span> <br/> |<span data-ttu-id="21930-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="21930-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="21930-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="21930-107">**Extension base**</span></span> <br/> |<span data-ttu-id="21930-108">无</span><span class="sxs-lookup"><span data-stu-id="21930-108">None</span></span>  <br/> |
+|<span data-ttu-id="169d4-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="169d4-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="169d4-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="169d4-105">**Schema file**</span></span> <br/> |<span data-ttu-id="169d4-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="169d4-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="169d4-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="169d4-107">**Extension base**</span></span> <br/> |<span data-ttu-id="169d4-108">无</span><span class="sxs-lookup"><span data-stu-id="169d4-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="21930-109">定义</span><span class="sxs-lookup"><span data-stu-id="21930-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="169d4-109">定义</span><span class="sxs-lookup"><span data-stu-id="169d4-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="Solutions_Type">
@@ -40,18 +40,18 @@ ms.locfileid: "19781414"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="21930-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="21930-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="169d4-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="169d4-110">Elements and attributes</span></span>
 
-<span data-ttu-id="21930-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="21930-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="169d4-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="169d4-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="21930-112">子元素</span><span class="sxs-lookup"><span data-stu-id="21930-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="169d4-112">子元素</span><span class="sxs-lookup"><span data-stu-id="169d4-112">Child elements</span></span>
 
-|<span data-ttu-id="21930-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="21930-113">**Element**</span></span>|<span data-ttu-id="21930-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="21930-114">**Type**</span></span>|<span data-ttu-id="21930-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="21930-115">**Description**</span></span>|
+|<span data-ttu-id="169d4-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="169d4-113">**Element**</span></span>|<span data-ttu-id="169d4-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="169d4-114">**Type**</span></span>|<span data-ttu-id="169d4-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="169d4-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="21930-116">Solution</span><span class="sxs-lookup"><span data-stu-id="21930-116">Solution</span></span>](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="21930-117">Solution_Type</span><span class="sxs-lookup"><span data-stu-id="21930-117">Solution_Type</span></span>](solution_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="169d4-116">Solution</span><span class="sxs-lookup"><span data-stu-id="169d4-116">Solution</span></span>](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="169d4-117">Solution_Type</span><span class="sxs-lookup"><span data-stu-id="169d4-117">Solution_Type</span></span>](solution_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="21930-118">属性</span><span class="sxs-lookup"><span data-stu-id="21930-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="169d4-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="169d4-118">Attributes</span></span>
 
-<span data-ttu-id="21930-119">无。</span><span class="sxs-lookup"><span data-stu-id="21930-119">None.</span></span>
+<span data-ttu-id="169d4-119">无。</span><span class="sxs-lookup"><span data-stu-id="169d4-119">None.</span></span>
   
 

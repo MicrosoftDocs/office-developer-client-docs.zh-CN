@@ -16,16 +16,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780430"
 ---
-# <a name="id-function"></a><span data-ttu-id="3078b-103">ID 函数</span><span class="sxs-lookup"><span data-stu-id="3078b-103">ID Function</span></span>
+# <a name="id-function"></a><span data-ttu-id="43981-103">ID 函数</span><span class="sxs-lookup"><span data-stu-id="43981-103">ID Function</span></span>
 
-<span data-ttu-id="3078b-104">返回形状的内部 ID 为数字。</span><span class="sxs-lookup"><span data-stu-id="3078b-104">Returns a shape's internal ID as a number.</span></span>
+<span data-ttu-id="43981-104">返回形状的内部 ID 为数字。</span><span class="sxs-lookup"><span data-stu-id="43981-104">Returns a shape's internal ID as a number.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="3078b-105">语法</span><span class="sxs-lookup"><span data-stu-id="3078b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="43981-105">语法</span><span class="sxs-lookup"><span data-stu-id="43981-105">Syntax</span></span>
 
-<span data-ttu-id="3078b-106">ID ()</span><span class="sxs-lookup"><span data-stu-id="3078b-106">ID ()</span></span>
+<span data-ttu-id="43981-106">ID ()</span><span class="sxs-lookup"><span data-stu-id="43981-106">ID ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="3078b-107">返回值</span><span class="sxs-lookup"><span data-stu-id="3078b-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="43981-107">返回值</span><span class="sxs-lookup"><span data-stu-id="43981-107">Return value</span></span>
 
-<span data-ttu-id="3078b-108">Number</span><span class="sxs-lookup"><span data-stu-id="3078b-108">Number</span></span>
+<span data-ttu-id="43981-108">Number</span><span class="sxs-lookup"><span data-stu-id="43981-108">Number</span></span>
   
 

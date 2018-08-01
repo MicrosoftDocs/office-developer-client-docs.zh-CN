@@ -16,16 +16,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780807"
 ---
-# <a name="opentextwin-function"></a><span data-ttu-id="e494b-103">OPENTEXTWIN 函数</span><span class="sxs-lookup"><span data-stu-id="e494b-103">OPENTEXTWIN Function</span></span>
+# <a name="opentextwin-function"></a><span data-ttu-id="21c57-103">OPENTEXTWIN 函数</span><span class="sxs-lookup"><span data-stu-id="21c57-103">OPENTEXTWIN Function</span></span>
 
-<span data-ttu-id="e494b-104">打开形状的文本块，以便能够编辑文本。</span><span class="sxs-lookup"><span data-stu-id="e494b-104">Opens the shape's text block so that the text can be edited.</span></span>
+<span data-ttu-id="21c57-104">打开形状的文本块，以便能够编辑文本。</span><span class="sxs-lookup"><span data-stu-id="21c57-104">Opens the shape's text block so that the text can be edited.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="e494b-105">语法</span><span class="sxs-lookup"><span data-stu-id="e494b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="21c57-105">语法</span><span class="sxs-lookup"><span data-stu-id="21c57-105">Syntax</span></span>
 
-<span data-ttu-id="e494b-106">OPENTEXTWIN( )</span><span class="sxs-lookup"><span data-stu-id="e494b-106">OPENTEXTWIN( )</span></span>
+<span data-ttu-id="21c57-106">OPENTEXTWIN( )</span><span class="sxs-lookup"><span data-stu-id="21c57-106">OPENTEXTWIN( )</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e494b-107">注解</span><span class="sxs-lookup"><span data-stu-id="e494b-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="21c57-107">注解</span><span class="sxs-lookup"><span data-stu-id="21c57-107">Remarks</span></span>
 
-<span data-ttu-id="e494b-p101">在 Visio 的早期版本中，此函数以 _OPENTEXTWIN 的形式出现。Visio 4.0 版和更高版本接受这两种样式中的任意一种。</span><span class="sxs-lookup"><span data-stu-id="e494b-p101">In earlier versions of Visio, this function appears as _OPENTEXTWIN. Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="21c57-p101">在 Visio 的早期版本中，此函数以 _OPENTEXTWIN 的形式出现。Visio 4.0 版和更高版本接受这两种样式中的任意一种。</span><span class="sxs-lookup"><span data-stu-id="21c57-p101">In earlier versions of Visio, this function appears as _OPENTEXTWIN. Visio versions 4.0 and later accept either style.</span></span> 
   
 

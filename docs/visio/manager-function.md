@@ -16,16 +16,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780684"
 ---
-# <a name="manager-function"></a><span data-ttu-id="8a985-103">MANAGER 函数</span><span class="sxs-lookup"><span data-stu-id="8a985-103">MANAGER Function</span></span>
+# <a name="manager-function"></a><span data-ttu-id="83ba2-103">MANAGER 函数</span><span class="sxs-lookup"><span data-stu-id="83ba2-103">MANAGER Function</span></span>
 
-<span data-ttu-id="8a985-104">从**管理器**字段中的文档属性返回的文本。</span><span class="sxs-lookup"><span data-stu-id="8a985-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
+<span data-ttu-id="83ba2-104">从**管理器**字段中的文档属性返回的文本。</span><span class="sxs-lookup"><span data-stu-id="83ba2-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="8a985-105">语法</span><span class="sxs-lookup"><span data-stu-id="8a985-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="83ba2-105">语法</span><span class="sxs-lookup"><span data-stu-id="83ba2-105">Syntax</span></span>
 
-<span data-ttu-id="8a985-106">MANAGER ()</span><span class="sxs-lookup"><span data-stu-id="8a985-106">MANAGER ()</span></span>
+<span data-ttu-id="83ba2-106">MANAGER ()</span><span class="sxs-lookup"><span data-stu-id="83ba2-106">MANAGER ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="8a985-107">返回值</span><span class="sxs-lookup"><span data-stu-id="8a985-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="83ba2-107">返回值</span><span class="sxs-lookup"><span data-stu-id="83ba2-107">Return value</span></span>
 
-<span data-ttu-id="8a985-108">String</span><span class="sxs-lookup"><span data-stu-id="8a985-108">String</span></span>
+<span data-ttu-id="83ba2-108">String</span><span class="sxs-lookup"><span data-stu-id="83ba2-108">String</span></span>
   
 

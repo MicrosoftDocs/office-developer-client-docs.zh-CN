@@ -15,13 +15,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778962"
 ---
-# <a name="syncstate"></a><span data-ttu-id="ba925-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="ba925-103">SYNCSTATE</span></span>
+# <a name="syncstate"></a><span data-ttu-id="bd2f7-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="bd2f7-103">SYNCSTATE</span></span>
 
-<span data-ttu-id="ba925-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="ba925-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="bd2f7-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="bd2f7-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="ba925-105">此结构定义复制状态机的状态。</span><span class="sxs-lookup"><span data-stu-id="ba925-105">This structure defines the states for the replication state machine.</span></span>
+<span data-ttu-id="bd2f7-105">此结构定义复制状态机的状态。</span><span class="sxs-lookup"><span data-stu-id="bd2f7-105">This structure defines the states for the replication state machine.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="ba925-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="ba925-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="bd2f7-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="bd2f7-106">Quick info</span></span>
 
 ```cpp
 typedef enum { 
@@ -41,9 +41,9 @@ typedef enum {
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ba925-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ba925-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bd2f7-107">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bd2f7-107">See also</span></span>
 
-- [<span data-ttu-id="ba925-108">有关复制 API</span><span class="sxs-lookup"><span data-stu-id="ba925-108">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="ba925-109">有关的复制状态机</span><span class="sxs-lookup"><span data-stu-id="ba925-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="ba925-110">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="ba925-110">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="bd2f7-108">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="bd2f7-108">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="bd2f7-109">关于复制状态计算机</span><span class="sxs-lookup"><span data-stu-id="bd2f7-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="bd2f7-110">MAPI 常量</span><span class="sxs-lookup"><span data-stu-id="bd2f7-110">MAPI Constants</span></span>](mapi-constants.md)
 

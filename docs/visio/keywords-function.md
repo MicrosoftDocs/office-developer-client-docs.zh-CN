@@ -16,16 +16,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780506"
 ---
-# <a name="keywords-function"></a><span data-ttu-id="7170e-103">KEYWORDS 函数</span><span class="sxs-lookup"><span data-stu-id="7170e-103">KEYWORDS Function</span></span>
+# <a name="keywords-function"></a><span data-ttu-id="dd7ee-103">KEYWORDS 函数</span><span class="sxs-lookup"><span data-stu-id="dd7ee-103">KEYWORDS Function</span></span>
 
-<span data-ttu-id="7170e-104">从**关键字**字段中的文档属性返回的文本。</span><span class="sxs-lookup"><span data-stu-id="7170e-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
+<span data-ttu-id="dd7ee-104">从**关键字**字段中的文档属性返回的文本。</span><span class="sxs-lookup"><span data-stu-id="dd7ee-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="7170e-105">语法</span><span class="sxs-lookup"><span data-stu-id="7170e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dd7ee-105">语法</span><span class="sxs-lookup"><span data-stu-id="dd7ee-105">Syntax</span></span>
 
-<span data-ttu-id="7170e-106">关键字 （)</span><span class="sxs-lookup"><span data-stu-id="7170e-106">KEYWORDS ()</span></span>
+<span data-ttu-id="dd7ee-106">关键字 （)</span><span class="sxs-lookup"><span data-stu-id="dd7ee-106">KEYWORDS ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="7170e-107">返回值</span><span class="sxs-lookup"><span data-stu-id="7170e-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="dd7ee-107">返回值</span><span class="sxs-lookup"><span data-stu-id="dd7ee-107">Return value</span></span>
 
-<span data-ttu-id="7170e-108">String</span><span class="sxs-lookup"><span data-stu-id="7170e-108">String</span></span>
+<span data-ttu-id="dd7ee-108">String</span><span class="sxs-lookup"><span data-stu-id="dd7ee-108">String</span></span>
   
 

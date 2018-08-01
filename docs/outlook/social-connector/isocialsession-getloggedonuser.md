@@ -15,21 +15,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779353"
 ---
-# <a name="isocialsessiongetloggedonuser"></a><span data-ttu-id="a1181-103">ISocialSession::GetLoggedOnUser</span><span class="sxs-lookup"><span data-stu-id="a1181-103">ISocialSession::GetLoggedOnUser</span></span>
+# <a name="isocialsessiongetloggedonuser"></a><span data-ttu-id="3b78b-103">ISocialSession::GetLoggedOnUser</span><span class="sxs-lookup"><span data-stu-id="3b78b-103">ISocialSession::GetLoggedOnUser</span></span>
 
-<span data-ttu-id="a1181-104">获取一个值，该值代表登录用户的[ISocialProfile](isocialprofileisocialperson.md)接口。</span><span class="sxs-lookup"><span data-stu-id="a1181-104">Gets an [ISocialProfile](isocialprofileisocialperson.md) interface that represents the logged-on user.</span></span> 
+<span data-ttu-id="3b78b-104">获取一个值，该值代表登录用户的[ISocialProfile](isocialprofileisocialperson.md)接口。</span><span class="sxs-lookup"><span data-stu-id="3b78b-104">Gets an [ISocialProfile](isocialprofileisocialperson.md) interface that represents the logged-on user.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a1181-105">参数</span><span class="sxs-lookup"><span data-stu-id="a1181-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3b78b-105">参数</span><span class="sxs-lookup"><span data-stu-id="3b78b-105">Parameters</span></span>
 
-<span data-ttu-id="a1181-106">_result_</span><span class="sxs-lookup"><span data-stu-id="a1181-106">_result_</span></span>
+<span data-ttu-id="3b78b-106">_result_</span><span class="sxs-lookup"><span data-stu-id="3b78b-106">_result_</span></span>
   
-> <span data-ttu-id="a1181-107">[输出]**ISocialProfile**接口。</span><span class="sxs-lookup"><span data-stu-id="a1181-107">[out] An **ISocialProfile** interface.</span></span> 
+> <span data-ttu-id="3b78b-107">[输出]**ISocialProfile**接口。</span><span class="sxs-lookup"><span data-stu-id="3b78b-107">[out] An **ISocialProfile** interface.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="a1181-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a1181-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3b78b-108">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3b78b-108">See also</span></span>
 
-- [<span data-ttu-id="a1181-109">ISocialSession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="a1181-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="3b78b-109">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3b78b-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

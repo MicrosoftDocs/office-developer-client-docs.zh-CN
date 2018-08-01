@@ -16,24 +16,24 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781533"
 ---
-# <a name="tip-cell-controls-section"></a><span data-ttu-id="0a2b2-104">Tip 单元格（“Controls”内容）</span><span class="sxs-lookup"><span data-stu-id="0a2b2-104">Tip Cell (Controls Section)</span></span>
+# <a name="tip-cell-controls-section"></a><span data-ttu-id="b354e-104">Tip 单元格（“Controls”部分）</span><span class="sxs-lookup"><span data-stu-id="b354e-104">Tip Cell (Controls Section)</span></span>
 
-<span data-ttu-id="0a2b2-p102">表示说明性文本字符串，当用户将指针停留在形状的控制手柄之上时，说明性的文本字符串就作为工具提示显示出来。应用程序在单元格中自动用引号引起提示字符串，但引号不会在工具提示中显示出来。</span><span class="sxs-lookup"><span data-stu-id="0a2b2-p102">Represents a descriptive text string that appears as a tool tip when a user pauses the pointer over a shape's control handle. The application automatically encloses the tip string in quotation marks in the cell, but the quotation marks are not displayed in the tool tip.</span></span>
+<span data-ttu-id="b354e-p102">表示说明性文本字符串，当用户将指针停留在形状的控制手柄之上时，说明性的文本字符串就作为工具提示显示出来。应用程序在单元格中自动用引号引起提示字符串，但引号不会在工具提示中显示出来。</span><span class="sxs-lookup"><span data-stu-id="b354e-p102">Represents a descriptive text string that appears as a tool tip when a user pauses the pointer over a shape's control handle. The application automatically encloses the tip string in quotation marks in the cell, but the quotation marks are not displayed in the tool tip.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0a2b2-107">注释</span><span class="sxs-lookup"><span data-stu-id="0a2b2-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b354e-107">注释</span><span class="sxs-lookup"><span data-stu-id="b354e-107">Remarks</span></span>
 
-<span data-ttu-id="0a2b2-108">要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Tip 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="0a2b2-108">To get a reference to the Tip cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b354e-108">要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Tip 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="b354e-108">To get a reference to the Tip cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0a2b2-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="0a2b2-109">Cell name:</span></span>  <br/> | <span data-ttu-id="0a2b2-110">控件。</span><span class="sxs-lookup"><span data-stu-id="0a2b2-110">Controls.</span></span>  <span data-ttu-id="0a2b2-111">*名称*。Tipwhere 控件。</span><span class="sxs-lookup"><span data-stu-id="0a2b2-111">*name*  .Tipwhere Controls.</span></span>  <span data-ttu-id="0a2b2-112">*name*是控制行的名称。</span><span class="sxs-lookup"><span data-stu-id="0a2b2-112">*name*  is the name of the controls row.</span></span>  <br/> |
+| <span data-ttu-id="b354e-109">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="b354e-109">Cell name:</span></span>  <br/> | <span data-ttu-id="b354e-110">控件。</span><span class="sxs-lookup"><span data-stu-id="b354e-110">Controls.</span></span>  <span data-ttu-id="b354e-111">*名称*。Tipwhere 控件。</span><span class="sxs-lookup"><span data-stu-id="b354e-111">*name*  .Tipwhere Controls.</span></span>  <span data-ttu-id="b354e-112">*name*是控制行的名称。</span><span class="sxs-lookup"><span data-stu-id="b354e-112">*name*  is the name of the controls row.</span></span>  <br/> |
    
-<span data-ttu-id="0a2b2-113">若要从某个程序按索引获取对 Tip 单元格的引用，请使用带下列参数的**CellsSRC**属性：</span><span class="sxs-lookup"><span data-stu-id="0a2b2-113">To get a reference to the Tip cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b354e-113">要从某个程序按索引获取对 Tip 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="b354e-113">To get a reference to the Tip cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0a2b2-114">内容索引：</span><span class="sxs-lookup"><span data-stu-id="0a2b2-114">Section index:</span></span>  <br/> |<span data-ttu-id="0a2b2-115">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="0a2b2-115">**visSectionControls**</span></span> <br/> |
-| <span data-ttu-id="0a2b2-116">行索引：</span><span class="sxs-lookup"><span data-stu-id="0a2b2-116">Row index:</span></span>  <br/> |<span data-ttu-id="0a2b2-117">**visRowControl** +  *i*其中*i* = 0、 1、 2...</span><span class="sxs-lookup"><span data-stu-id="0a2b2-117">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="0a2b2-118">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="0a2b2-118">Cell index:</span></span>  <br/> |<span data-ttu-id="0a2b2-119">**visCtlTip**</span><span class="sxs-lookup"><span data-stu-id="0a2b2-119">**visCtlTip**</span></span> <br/> |
+| <span data-ttu-id="b354e-114">内容索引：</span><span class="sxs-lookup"><span data-stu-id="b354e-114">Section index:</span></span>  <br/> |<span data-ttu-id="b354e-115">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="b354e-115">**visSectionControls**</span></span> <br/> |
+| <span data-ttu-id="b354e-116">行索引：</span><span class="sxs-lookup"><span data-stu-id="b354e-116">Row index:</span></span>  <br/> |<span data-ttu-id="b354e-117">**visRowControl** +  *i*其中*i* = 0、 1、 2...</span><span class="sxs-lookup"><span data-stu-id="b354e-117">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="b354e-118">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="b354e-118">Cell index:</span></span>  <br/> |<span data-ttu-id="b354e-119">**visCtlTip**</span><span class="sxs-lookup"><span data-stu-id="b354e-119">**visCtlTip**</span></span> <br/> |
    
 

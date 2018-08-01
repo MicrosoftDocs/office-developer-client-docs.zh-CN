@@ -15,9 +15,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779432"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="174a9-103">架构映射 （Outlook 天气信息架构）</span><span class="sxs-lookup"><span data-stu-id="174a9-103">Schema map (Outlook Weather Information Schema)</span></span>
+# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="a4612-103">架构映射 （Outlook 天气信息架构）</span><span class="sxs-lookup"><span data-stu-id="a4612-103">Schema map (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="174a9-104">本主题演示 Outlook 天气信息 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="174a9-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
+<span data-ttu-id="a4612-104">本主题演示 Outlook 天气信息 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="a4612-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>

@@ -15,12 +15,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781221"
 ---
-# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="66cee-102">以开发人员模式运行（显示“开发工具”选项卡）</span><span class="sxs-lookup"><span data-stu-id="66cee-102">Run in Developer Mode (Display the Developer Tab)</span></span>
+# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="c4e2c-102">在开发人员模式下运行（显示“开发人员”选项卡）</span><span class="sxs-lookup"><span data-stu-id="c4e2c-102">Run in Developer Mode (Display the Developer Tab)</span></span>
 
-- <span data-ttu-id="66cee-103">单击**文件**选项卡，然后单击**选项**。</span><span class="sxs-lookup"><span data-stu-id="66cee-103">Click the **File** tab and then click **Options**.</span></span>
+- <span data-ttu-id="c4e2c-103">单击**文件**选项卡，然后单击**选项**。</span><span class="sxs-lookup"><span data-stu-id="c4e2c-103">Click the **File** tab and then click **Options**.</span></span>
     
-- <span data-ttu-id="66cee-104">**Visio 选项**对话框中，单击**高级**，然后选择在**常规**下的**开发工具模式运行**。</span><span class="sxs-lookup"><span data-stu-id="66cee-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
+- <span data-ttu-id="c4e2c-104">**Visio 选项**对话框中，单击**高级**，然后选择在**常规**下的**开发工具模式运行**。</span><span class="sxs-lookup"><span data-stu-id="c4e2c-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
     
-<span data-ttu-id="66cee-105">然后可以选择的对象并更快地访问 ShapeSheet 窗口中单击**显示 ShapeSheet** 。</span><span class="sxs-lookup"><span data-stu-id="66cee-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
+<span data-ttu-id="c4e2c-105">然后，您可以选择一个对象，并单击 **“显示 ShapeSheet”**，以便更快地访问 ShapeSheet 窗口。</span><span class="sxs-lookup"><span data-stu-id="c4e2c-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
   
 
