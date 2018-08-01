@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780385"
 ---
-# <a name="halign-cell-paragraph-section"></a>HAlign 单元格（“Paragraph”内容）
+# <a name="halign-cell-paragraph-section"></a>HAlign 单元格（“Paragraph”部分）
 
 确定形状的文本块中文本的水平对齐方式。
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 左对齐  <br/> |**visHorzLeft** <br/> |
 | 1  <br/> | 居中  <br/> |**visHorzCenter** <br/> |
@@ -34,13 +34,13 @@ ms.locfileid: "19780385"
   
 强制对齐就是将段落中每一行（包括最后一行）的两端对齐。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 HAlign 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 HAlign 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Para.HorzAlign [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 HAlign 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 HAlign 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

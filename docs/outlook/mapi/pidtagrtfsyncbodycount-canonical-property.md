@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 09274c21df3a93abc19aa8158da976e2d16f3e7c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778276"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RTF_SYNC_BODY_COUNT  <br/> |
-|标识符:  <br/> |0x1007  <br/> |
+|相关属性：  <br/> |PR_RTF_SYNC_BODY_COUNT  <br/> |
+|标识符：  <br/> |0x1007  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 [RTFSync](rtfsync.md)函数计算中使用仅那些其认为是重要邮件的文本的字符数。 例如，从计数忽略一些空格和其他可忽略字符。 
   
@@ -70,7 +70,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

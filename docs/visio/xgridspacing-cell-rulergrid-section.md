@@ -1,5 +1,5 @@
 ---
-title: XGridSpacing 单元格 (标尺&amp;网格部分)
+title: XGridSpacing 单元格（“Ruler &amp; Grid”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781680"
 ---
-# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>XGridSpacing 单元格 (标尺&amp;网格部分)
+# <a name="xgridspacing-cell-ruler-amp-grid-section"></a>XGridSpacing 单元格（“Ruler &amp; Grid”部分）
 
 指定固定网格中水平线条间的距离 (XGridDensity = 0)。
   
@@ -24,13 +24,13 @@ ms.locfileid: "19781680"
 
 此单元格对应于水平**最小间距**选项中**标尺&amp;网格**对话框 （在**视图**选项卡上，单击**显示**箭头）。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 XGridSpacing 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 XGridSpacing 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |XGridSpacing  <br/> |
    
-若要从某个程序按索引获取对 XGridSpacing 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 XGridSpacing 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

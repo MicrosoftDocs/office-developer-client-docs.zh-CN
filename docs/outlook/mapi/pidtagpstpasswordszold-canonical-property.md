@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 69d62c4433d85a0e6cd9cf9b3f10acb9d758ffb1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -27,8 +27,8 @@ ms.locfileid: "19778097"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_PST_PW_SZ_OLD，PR_PST_PW_SZ_OLD_A，PR_PST_PW_SZ_OLD_W  <br/> |
-|标识符:  <br/> |0x6703  <br/> |
+|相关属性：  <br/> |PR_PST_PW_SZ_OLD，PR_PST_PW_SZ_OLD_A，PR_PST_PW_SZ_OLD_W  <br/> |
+|标识符：  <br/> |0x6703  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
    
@@ -58,7 +58,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

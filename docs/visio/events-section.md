@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780217"
 ---
-# <a name="events-section"></a>“Events”内容
+# <a name="events-section"></a>“Events”部分
 
 包含控制形状事件的公式。仅在事件发生时（而非输入公式后）才对 event 单元格求值。
   

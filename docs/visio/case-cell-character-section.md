@@ -16,25 +16,25 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779816"
 ---
-# <a name="case-cell-character-section"></a>Case 单元格（“Character”内容）
+# <a name="case-cell-character-section"></a>Case 单元格（“Character”部分）
 
 确定形状文本的大小写。全部大写字母 (1) 和首字母大写字母 (2) 都不会更改以全部大写字母输入的文本的外观。只有文本是以小写字母输入时，这些选项才有效。
   
-|**值**|**说明**|**自动化常量**|
+|**值**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 普通大小写  <br/> |**visCaseNormal** <br/> |
 | 1  <br/> | 全部大写字母  <br/> |**visCaseAllCaps** <br/> |
 | 2  <br/> | 仅首字母大写字母  <br/> |**visCaseInitialCaps** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Case 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Case 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Char.Case [ *i* ] 其中*i* = < 1 >，2，3，...  <br/> |
    
-若要从某个程序按索引获取对 Case 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Case 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

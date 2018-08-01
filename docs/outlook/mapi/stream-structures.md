@@ -24,7 +24,7 @@ ms.locfileid: "19778890"
 > [!NOTE]
 > 这些流结构 （如属性定义、 FieldDefinition 和 SkipBlock） 和其数据元素的名称不技术上一部分的编程接口的消息处理 API (MAPI)，并且仅用于文档此处提供实际流结构的目的。 开发人员可以添加标签这些流结构和数据元素的应用程序中，根据他们的选择。 
   
-- [属性定义流结构](propertydefinition-stream-structure.md)
+- [PropertyDefinition 流结构](propertydefinition-stream-structure.md)
     
 - [FieldDefinition 流结构](fielddefinition-stream-structure.md)
     
@@ -40,9 +40,9 @@ ms.locfileid: "19778890"
 
 
 
-[Outlook 项和计算字段](outlook-items-and-fields.md)
+[Outlook 项和字段](outlook-items-and-fields.md)
   
-[添加用户定义的新字段的定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[为新的用户定义字段添加定义](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[属性定义流示例](propertydefinition-stream-sample.md)
+[PropertyDefinition 流示例](propertydefinition-stream-sample.md)
 

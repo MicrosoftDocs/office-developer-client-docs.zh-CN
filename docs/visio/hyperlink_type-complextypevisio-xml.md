@@ -52,7 +52,7 @@ ms.locfileid: "19780401"
 |:-----|:-----|:-----|
 |[Row](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

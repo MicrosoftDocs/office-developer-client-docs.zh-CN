@@ -19,10 +19,10 @@ ms.locfileid: "19779404"
 
 本主题列出了 Outlook 天气信息 XML 架构中的类型。
   
-- [currentType 复杂类型](currenttype-complextype-outlook-weather-information-schema.md)
+- [currentType complexType](currenttype-complextype-outlook-weather-information-schema.md)
     
-- [forecastType 复杂类型](forecasttype-complextype-outlook-weather-information-schema.md)
+- [forecastType complexType](forecasttype-complextype-outlook-weather-information-schema.md)
     
-- [weatherType 复杂类型](weathertype-complextype-outlook-weather-information-schema.md)
+- [weatherType complexType](weathertype-complextype-outlook-weather-information-schema.md)
     
 

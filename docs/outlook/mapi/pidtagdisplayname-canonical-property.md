@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd094e00-5c60-4bb3-9a45-b943fab52876
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d914d071d0845dee7d402e45d281cd774095a5a0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777587"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_DISPLAY_NAME，PR_DISPLAY_NAME_A，PR_DISPLAY_NAME_W  <br/> |
-|标识符:  <br/> |0x3001  <br/> |
+|相关属性：  <br/> |PR_DISPLAY_NAME，PR_DISPLAY_NAME_A，PR_DISPLAY_NAME_W  <br/> |
+|标识符：  <br/> |0x3001  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 文件夹要求同级子文件夹具有唯一的显示名称。 例如，如果文件夹包含两个子文件夹，两个子文件夹无法对此属性使用相同的值。 此限制不适用于其他容器，如通讯簿和通讯组列表。 
   
@@ -104,7 +104,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

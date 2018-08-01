@@ -1,5 +1,5 @@
 ---
-title: ShapeShdwShow 单元格 （Fill Format 内容）
+title: ShapeShdwShow 单元格（“Fill Format”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781290"
 ---
-# <a name="shapeshdwshow-cell-fill-format-section"></a>ShapeShdwShow 单元格 （Fill Format 内容）
+# <a name="shapeshdwshow-cell-fill-format-section"></a>ShapeShdwShow 单元格（“Fill Format”部分）
 
 确定形状是否将阴影，显示为从 0 到 2 的整数。
   
@@ -24,7 +24,7 @@ ms.locfileid: "19781290"
 |1  <br/> |除非形状没有父不呈现阴影。 如果组合在一起，请使用子形状阴影。  <br/> |
 |2  <br/> |如果指定阴影，始终显示阴影。 显示的子形状阴影。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**ShapeShdwShow**单元格的引用，请使用： 
   

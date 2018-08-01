@@ -15,19 +15,23 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19780644"
 ---
-# <a name="lockthemecolors-cell-protection-section"></a>LockThemeColors 单元格（“Protection”内容）
+# <a name="lockthemecolors-cell-protection-section"></a>LockThemeColors 单元格（“Protection”部分）
 
 防止对形状应用主题颜色。 
   
-LockThemeColors 单元格的值对应于**保护**对话框中的**从主题颜色**复选框设置。 
+LockThemeColors 单元格的值与 **“保护”** 对话框中的 **“阻止应用主题颜色”** 复选框设置相对应。 
   
-若要引用 LockThemeColors 单元格按名称从另一个公式或从使用**CellsU**属性的某个程序使用： 
+若要从另一个公式或从使用 **CellsU** 属性的某个程序按名称引用 LockThemeColors 单元格，请使用：
+
+ 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |LockThemeColors  <br/> |
    
-要引用 LockThemeColors 单元格的索引从某个程序，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引引用 LockThemeColors 单元格，请使用带下列参数的 **CellsSRC** 属性：
+
+ 
   
 |||
 |:-----|:-----|

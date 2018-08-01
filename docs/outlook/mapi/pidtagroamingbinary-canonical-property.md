@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 97650550704ba844f10131f1a3045ebbfaaaefff
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -25,12 +25,12 @@ ms.locfileid: "19778243"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ROAMING_BINARYSTREAM  <br/> |
-|标识符:  <br/> |0x7C09  <br/> |
+|相关属性：  <br/> |PR_ROAMING_BINARYSTREAM  <br/> |
+|标识符：  <br/> |0x7C09  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Configuration  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性包含与**IPM 关联的数据流。配置**消息类消息。 Stream 的格式取决于邮件类。 例如，类类型**IPM 的消息。Configuration.Autocomplete**作为[记忆式键入流](autocomplete-stream.md)进行格式设置。
   
@@ -64,7 +64,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

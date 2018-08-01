@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2cf1f651-31dd-4f92-8c23-cc83e1989bc2
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 91f027176fc3dac35cb951e2ae7a109c5044cb08
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777422"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_CAR_TELEPHONE_NUMBER，PR_CAR_TELEPHONE_NUMBER_A，PR_CAR_TELEPHONE_NUMBER_W  <br/> |
-|标识符:  <br/> |0x3A1E  <br/> |
+|相关属性：  <br/> |PR_CAR_TELEPHONE_NUMBER，PR_CAR_TELEPHONE_NUMBER_A，PR_CAR_TELEPHONE_NUMBER_W  <br/> |
+|标识符：  <br/> |0x3A1E  <br/> |
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些属性提供标识和访问有关收件人的信息。 它们是按收件人和收件人的组织定义的。 
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

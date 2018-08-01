@@ -53,5 +53,5 @@ S_OK
 
 
 
-[IABProvider: IUnknown](iabprovideriunknown.md)
+[IABProvider : IUnknown](iabprovideriunknown.md)
 

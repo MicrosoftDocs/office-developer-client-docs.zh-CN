@@ -1,5 +1,5 @@
 ---
-title: BevelMaterialType 单元格 （凹凸效果 Properties 内容）
+title: BevelMaterialType 单元格（“Bevel Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779705"
 ---
-# <a name="bevelmaterialtype-cell-bevel-properties-section"></a>BevelMaterialType 单元格 （凹凸效果 Properties 内容）
+# <a name="bevelmaterialtype-cell-bevel-properties-section"></a>BevelMaterialType 单元格（“Bevel Properties”部分）
 
 确定的材料凹凸效果组成的类型。 
   
@@ -33,7 +33,7 @@ ms.locfileid: "19779705"
 |10  <br/> |半透明粉  <br/> |
 |11  <br/> |清除  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**BevelMaterialType**单元格的引用，请使用： 
   

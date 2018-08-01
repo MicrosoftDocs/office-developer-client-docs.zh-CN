@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 37a318df01101487fe0e8970251201c2515d1e8a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777591"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_EMSMDB_SECTION_UID  <br/> |
-|标识符:  <br/> |0x3d150102  <br/> |
+|相关属性：  <br/> |PR_EMSMDB_SECTION_UID  <br/> |
+|标识符：  <br/> |0x3d150102  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |多个 Exchange 帐户  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 Exchange 帐户，而不是一个一个 Exchange 帐户。 若要容纳多个 Exchange 帐户，已更改的 MAPI 配置文件布局。 在 Microsoft Office Outlook 2007 和更早版本，配置文件包含专用于 Exchange 设置，如服务器名称、 用户名和脱机文件夹文件 (.ost) 固定的配置文件部分。 位置。 使用的唯一标识符， **pbGlobalProfileSectionGuid**属性标识了这些设置。 用于 Exchange 设置部分称为 Exchange 全局配置文件部分。 有关 Outlook 2007 中的 Exchange 全局配置文件的详细信息，请参阅[如何打开全局配置文件部分](http://support.microsoft.com/kb/188482)。
   
@@ -44,11 +44,11 @@ Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 Exchange 帐户�
   
 您可以在任何以下接口查询后检索通过[IMAPIProp::GetProps](imapiprop-getprops.md) **PidTagExchangeProfileSectionId**上调用此属性： 
   
-- [IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+- [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
     
-- [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+- [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
     
-- [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)
+- [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
 如果对象 Exchange 未加入，呼叫将返回**MAPI_E_NOT_FOUND**。
   

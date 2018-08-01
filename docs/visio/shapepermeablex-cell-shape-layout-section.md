@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19781270"
 ---
-# <a name="shapepermeablex-cell-shape-layout-section"></a>ShapePermeableX 单元格（“Shape Layout”内容）
+# <a name="shapepermeablex-cell-shape-layout-section"></a>ShapePermeableX 单元格（“Shape Layout”部分）
 
 确定连接线是否可以水平穿绕可放置形状。
   
@@ -31,13 +31,13 @@ ms.locfileid: "19781270"
   
 在 Visio 2000 之前的版本中，您可以使用“Miscellaneous”内容中的 ObjInteract 单元格设置此行为。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ShapePermeableX 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapePermeableX 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |ShapePermeableX  <br/> |
    
-若要从某个程序按索引获取对 ShapePermeableX 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ShapePermeableX 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

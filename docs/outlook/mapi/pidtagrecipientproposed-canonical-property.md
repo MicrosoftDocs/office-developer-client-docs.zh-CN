@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3b05f33328e9e0b90251a99defa9816f86971337
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778152"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RECIPIENT_PROPOSED  <br/> |
-|标识符:  <br/> |0x5FE1  <br/> |
+|相关属性：  <br/> |PR_RECIPIENT_PROPOSED  <br/> |
+|标识符：  <br/> |0x5FE1  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |传输收件人  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 值为 TRUE 的此属性表示与会者提出建议新的日期和/或时间。 值为 FALSE 或不存在此属性是指与会者不具有尚未响应，或从参与者的最新响应未不包括新的日期 / 时间建议。 该值必须在 TRUE 不是定期系列中的与会者。
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

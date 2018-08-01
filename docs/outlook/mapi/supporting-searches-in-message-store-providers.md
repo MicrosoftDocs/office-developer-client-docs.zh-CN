@@ -1,5 +1,5 @@
 ---
-title: 在消息存储提供程序支持搜索
+title: 支持在邮件存储区提供程序中进行搜索
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778925"
 ---
-# <a name="supporting-searches-in-message-store-providers"></a>在消息存储提供程序支持搜索
+# <a name="supporting-searches-in-message-store-providers"></a>支持在邮件存储区提供程序中进行搜索
 
   
   
@@ -31,5 +31,5 @@ ms.locfileid: "19778925"
 
 
 
-[消息存储功能](message-store-features.md)
+[邮件存储区功能](message-store-features.md)
 

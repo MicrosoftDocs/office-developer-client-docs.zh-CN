@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ad7f49ac-6fe8-4037-90f3-8dabd5648bed
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5ff45bb8ae8fa011a8a46e7438dc73bab5649750
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778373"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SENDER_ADDRTYPE，PR_SENDER_ADDRTYPE_A，PR_SENDER_ADDRTYPE_W  <br/> |
-|标识符:  <br/> |0x0C1E  <br/> |
+|相关属性：  <br/> |PR_SENDER_ADDRTYPE，PR_SENDER_ADDRTYPE_A，PR_SENDER_ADDRTYPE_W  <br/> |
+|标识符：  <br/> |0x0C1E  <br/> |
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些属性是发件人的地址属性的示例。 它必须由传出的传输提供程序，应永远不会传播任何以前现有值设置。
   
@@ -90,7 +90,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

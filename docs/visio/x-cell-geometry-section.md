@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781675"
 ---
-# <a name="x-cell-geometry-section"></a>X 单元格（“Geometry”内容）
+# <a name="x-cell-geometry-section"></a>X 单元格（“Geometry”部分）
 
 代表*x* -坐标在本地坐标系中的形状。 下表描述了基于在它的行则 X 单元格所在。 
   
@@ -33,24 +33,24 @@ ms.locfileid: "19781675"
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | *X* -无限长线上某个点的坐标。  <br/> |
 |[椭圆](ellipse-row-geometry-section.md) <br/> | *X* -椭圆中心的坐标。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 X 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 X 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Geometry *i* 。X *j*其中*i*和*j* = < 1 >，2，3...  <br/> |
 || Geometry *i* 。X1 （InfiniteLine 和 Ellipse 行） 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 X 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 X 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionFirstComponent** +  *i*其中*i* = 0、 1、 2...  <br/> |
 | 行索引：  <br/> |**visRowVertex** +  *j*其中*j* = 0、 1、 2...  <br/> |
 ||**visRowVertex**（InfiniteLine 和 Ellipse 行）  <br/> |
-| 单元格索引：  <br/> |**visX**（MoveTo、 LineTo、 ArcTo、 EllipticalArcTo、 NURBSTo、 Polyline、 SplineStart 和 SplineKnot 行）  <br/> |
+| 单元格索引：  <br/> |**visX**（MoveTo、LineTo、ArcTo、EllipticalArcTo、NURBSTo、Polyline、SplineStart 和 SplineKnot 行）  <br/> |
 ||**visInfiniteLineX1**（InfiniteLine 行）  <br/> |
-||**visEllipseCenterX**（ellipse 行）  <br/> |
+||**visEllipseCenterX**（Ellipse 行）  <br/> |
    
 

@@ -50,7 +50,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单查看器调用**IMAPIFormFactory::LockServer**方法可在内存中保留的打开的窗体服务器应用程序。 在内存中保留表单服务器能够改善性能时经常创建和发布表单。 
   
@@ -62,5 +62,5 @@ S_OK
 
 
 
-[IMAPIFormFactory: IUnknown](imapiformfactoryiunknown.md)
+[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md)
 

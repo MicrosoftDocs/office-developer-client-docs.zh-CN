@@ -49,11 +49,11 @@ ms.locfileid: "19781482"
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
 |[cp](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |根据对应的 Char 元素格式的标记字符属性的开头，它是运行。  <br/> |
-|[文件夹](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |指示相应的 Field 元素的文本域插入点。  <br/> |
+|[fld](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |指示相应的 Field 元素的文本域插入点。  <br/> |
 |[pp](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |指定段落属性开始运行。  <br/> |
 |[tp](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |指定运行选项卡属性的开头。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

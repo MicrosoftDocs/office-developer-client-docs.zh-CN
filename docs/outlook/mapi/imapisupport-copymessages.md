@@ -92,7 +92,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 消息存储提供程序支持对象的实现**IMAPISupport::CopyMessages**方法。 消息存储提供程序可以[IMAPIFolder::CopyMessages](imapifolder-copymessages.md)复制或移动到另一个文件夹中一个或多个邮件其实现中调用**IMAPISupport::CopyMessages** 。 作为**IMAPISupport::CopyMessages**呼叫的一部分，消息存储提供程序可以指定 MAPI 应显示进度指示器。 
   
@@ -102,5 +102,5 @@ MAPI_E_USER_CANCEL
 
 [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

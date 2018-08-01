@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f9dd58c7-4119-90db-54f3-e1dd8e48451e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 68a45e0bfedf01b846fd77a638587fa4fb35fe7e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -27,8 +27,8 @@ ms.locfileid: "19778242"
 
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ROH_PROXY_PRINCIPAL_NAME  <br/> |
-|标识符:  <br/> |0x6625  <br/> |
+|相关属性：  <br/> |PR_ROH_PROXY_PRINCIPAL_NAME  <br/> |
+|标识符：  <br/> |0x6625  <br/> |
 |属性类型  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
@@ -66,7 +66,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69ed3d48-3741-4a9a-8f98-51382b850c27
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d26a686573a9dc178a46b7dfdc5c18485303b7ca
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19777086"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidTaskDueDate  <br/> |
+|相关属性：  <br/> |dispidTaskDueDate  <br/> |
 |属性进行设置：  <br/> |PSETID_Task  <br/> |
 |长 ID （盖）：  <br/> |0x00008105  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
-|区域：  <br/> |任务  <br/> |
+|区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果此属性未设置或设置为 0x5AE980E0 (1,525,252,320)，该任务具有没有截止日期。 但是，截止日期是可选的仅当没有开始日期指示**dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)) 属性中。 如果任务的截止日期，值必须具有时间组件的午夜，并且还必须设置**dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) 属性。 如果**dispidTaskStartDate**开始日期， **dispidTaskDueDate**属性的值必须大于或等于**dispidTaskStartDate**的值。
   
@@ -69,7 +69,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

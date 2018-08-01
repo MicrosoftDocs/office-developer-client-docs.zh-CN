@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5be5cd7c352201159c0257861c0072b56da65082
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -49,7 +49,7 @@ UINT UFromSz(
 
  **UFromSz**返回无符号的整数。 如果未与至少一个十进制开始字符串，则将返回零。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **UFromSz**函数将停止转换时到达不是小数数字字符串中的第一个字符。 **UFromSz**给定"55"的字符串，例如，返回 55 的整数值。 给定字符串"5a5b"，则函数返回 5 的整数值。 **UFromSz**给定字符串"a5b5"，将返回零。 
   

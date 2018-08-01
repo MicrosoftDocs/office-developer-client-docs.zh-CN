@@ -59,7 +59,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单查看器调用**IMAPIFormMgr::PrepareForm**方法从打开的窗体容器下载窗体。 大多数表单查看器不需要调用**PrepareForm**，因为[IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)和[IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)方法调用**PrepareForm**，如有必要。 
   
@@ -73,5 +73,5 @@ S_OK
   
 [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)
   
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 

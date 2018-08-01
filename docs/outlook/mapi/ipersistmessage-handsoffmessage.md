@@ -41,7 +41,7 @@ S_OK
   
 > 邮件已成功发布。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 窗体过渡到两个 HandsOff 状态：
   
@@ -63,8 +63,8 @@ S_OK
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 
 
-[窗体状态](form-states.md)
+[表单状态](form-states.md)
 

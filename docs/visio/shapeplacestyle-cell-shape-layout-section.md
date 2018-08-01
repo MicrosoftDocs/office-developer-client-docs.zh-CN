@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781273"
 ---
-# <a name="shapeplacestyle-cell-shape-layout-section"></a>ShapePlaceStyle 单元格（“Shape Layout”内容）
+# <a name="shapeplacestyle-cell-shape-layout-section"></a>ShapePlaceStyle 单元格（“Shape Layout”部分）
 
 指定在**配置布局**对话框排放形状时，形状在页面上的放置方式 （**设计**选项卡上，在**布局**组中，单击**Re 布局页**，然后单击**更多布局选项**）。 存储布局样式和对齐方式**VisCellIndices**值。 
   
@@ -51,13 +51,17 @@ ms.locfileid: "19781273"
 |**visLOPlaceRightToLeft** <br/> |5  <br/> |
 |**visLOPlaceTopToBottom** <br/> |1  <br/> |
    
-若要引用 ShapePlaceStyle 单元格按名称从另一个公式或使用**CellsU**属性从某个程序，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称引用 ShapePlaceStyle 单元格，请使用：
+
+ 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |ShapePlaceStyle  <br/> |
    
-要引用 ShapePlaceStyle 单元格的索引从某个程序，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引引用 ShapePlaceStyle 单元格，请使用带下列参数的 **CellsSRC** 属性：
+
+ 
   
 |||
 |:-----|:-----|

@@ -54,13 +54,13 @@ ms.locfileid: "19781567"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-trigger_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定绘图中的参考 toa 页。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
 |N  <br/> |xsd: string  <br/> |必需  <br/> |公式中要触发激活时调用的名称。  <br/> 请参阅备注部分。  <br/> |Xsd: string 类型的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**Trigger**元素的**N**属性必须为一组有限的对应于触发器说明的值之一。 请参阅下表为确定允许此**触发器**元素的**N**属性的值。 
   
@@ -88,6 +88,6 @@ ms.locfileid: "19781567"
 |RecalcType  <br/> |[形状](shape-element-shapes_type-complextypevisio-xml.md) <br/> |使用**类型**函数的跨部件引用存在时将出现在形状触发。  <br/> |
 |RelChanged  <br/> |[形状](shape-element-shapes_type-complextypevisio-xml.md) <br/> |将出现在形状使用**CONTAINERMEMBERCOUNT**函数的跨部件引用时触发存在。  <br/> |
 |ZOrderChanged  <br/> |[PageSheet （Page_Type 复杂类型）](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |显示在页，使用**CONTAINERSHEETREF**函数的跨部件引用存在时触发。  <br/> |
-|路径  <br/> |[形状](shape-element-shapes_type-complextypevisio-xml.md) <br/> |出现在页上，使用**POINTALONGPATH**、 **PATHLENGTH**或**PATHSEGMENT**函数的跨部件引用时触发存在。  <br/> |
+|Path  <br/> |[形状](shape-element-shapes_type-complextypevisio-xml.md) <br/> |出现在页上，使用**POINTALONGPATH**、 **PATHLENGTH**或**PATHSEGMENT**函数的跨部件引用时触发存在。  <br/> |
    
 

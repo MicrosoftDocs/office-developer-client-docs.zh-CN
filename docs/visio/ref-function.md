@@ -26,7 +26,7 @@ REF( )
   
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
 ## <a name="example"></a>示例
 

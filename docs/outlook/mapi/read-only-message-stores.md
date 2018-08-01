@@ -1,5 +1,5 @@
 ---
-title: 只读邮件存储
+title: 只读邮件存储区
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778599"
 ---
-# <a name="read-only-message-stores"></a>只读邮件存储
+# <a name="read-only-message-stores"></a>只读邮件存储区
 
   
   
@@ -53,5 +53,5 @@ ms.locfileid: "19778599"
 
 
 
-[开发 MAPI 消息存储提供程序](developing-a-mapi-message-store-provider.md)
+[开发 MAPI 邮件存储区提供程序](developing-a-mapi-message-store-provider.md)
 

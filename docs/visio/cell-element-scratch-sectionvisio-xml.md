@@ -42,7 +42,7 @@ ms.locfileid: "19779855"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Row 元素 （草稿内容）](row-element-scratch-sectionvisio-xml.md) <br/> |[ScratchRow_Type](scratch_type-complextypevisio-xml.md) <br/> |指定输入和测试可由其他单元格引用的公式的工作区。  <br/> |
+|[Row 元素（“Scratch”部分）](row-element-scratch-sectionvisio-xml.md) <br/> |[ScratchRow_Type](scratch_type-complextypevisio-xml.md) <br/> |指定输入和测试可由其他单元格引用的公式的工作区。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19779855"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定向页面的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,11 +60,11 @@ ms.locfileid: "19779855"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-### <a name="remarks"></a>备注
+### <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
 |A  <br/> |一种草稿单元格，可用于输入或测试公式。  <br/> |[Scratch Section](scratch-section.md) <br/> |
 |B  <br/> |一种草稿单元格，可用于输入或测试公式。  <br/> |[Scratch Section](scratch-section.md) <br/> |

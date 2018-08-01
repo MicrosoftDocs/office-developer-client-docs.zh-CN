@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4f2cab31d6eed19a262bd0e667166bc79f428877
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778317"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
-|标识符:  <br/> |0x686D  <br/> |
+|相关属性：  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
+|标识符：  <br/> |0x686D  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 当响应响应必须接受，除非另外一个约束条件的指定由**PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) 或**PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS**满足 ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)) 属性。 值为 FALSE 或不存在此属性指示客户端或服务器必须不自动接受会议请求。 这不是必需的属性。
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

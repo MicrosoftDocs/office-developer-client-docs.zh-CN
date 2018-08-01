@@ -16,11 +16,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781255"
 ---
-# <a name="shapefixedcode-cell-shape-layout-section"></a>ShapeFixedCode 单元格（“Shape Layout”内容）
+# <a name="shapefixedcode-cell-shape-layout-section"></a>ShapeFixedCode 单元格（“Shape Layout”部分）
 
 指定可放置形状的放置行为。
   
-|**值**|**选择模式**|**自动化常量**|
+|**值**|**选定模式**|**自动常量**|
 |:-----|:-----|:-----|
 |&amp;H1  <br/> |使用**配置布局**对话框排放形状时，不移动该形状。  <br/> |**visSLOFixedPlacement** <br/> |
 |&amp;H2  <br/> |不移动该形状，并且不允许将绘制的形状放置在它的上面。  <br/> |**visSLOFixedPlow** <br/> |
@@ -29,7 +29,7 @@ ms.locfileid: "19781255"
 |&amp;H40 (64)  <br/> |仅允许排列到具有连接点的面上。  <br/> |**visSLOFixedConnPtsOnly** <br/> |
 |&amp;H80 (128)  <br/> |不粘附到该形状的周界上，而是粘附到该形状的对齐框上。  <br/> |**visSLOFixedNoFoldToShape** <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 您还可以在**行为**对话框中的**位置**选项卡上设置此单元格的值 （与选定形状，在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡的**形状设计**组中，单击**行为**，，然后单击**位置**选项卡). 
   
@@ -37,13 +37,13 @@ ms.locfileid: "19781255"
   
 在 Visio 2000 之前的版本中，您可以使用“Miscellaneous”内容中的 ObjInteract 单元格设置此行为。 
   
-若要获取对 ShapeFixedCode 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapeFixedCode 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |ShapeFixedCode  <br/> |
    
-若要从某个程序按索引获取对 ShapeFixedCode 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ShapeFixedCode 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

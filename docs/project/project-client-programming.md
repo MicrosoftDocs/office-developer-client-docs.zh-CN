@@ -1,5 +1,5 @@
 ---
-title: Project 客户端编程 （英文）
+title: Project 客户端编程
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
@@ -20,7 +20,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779548"
 ---
-# <a name="project-client-programming"></a>Project 客户端编程 （英文）
+# <a name="project-client-programming"></a>Project 客户端编程
 
 Project 2013 桌面客户端应用程序 — Project Standard 2013 和 Project Professional 2013 — 可以自定义和扩展通过使用 VBA 编写宏。 Visual Studio 2012 可用于自定义功能区用户界面和创建新扩展性模型的项目中的任务窗格的通用的 Office 2013 平台上构建的 Office 加载项允许的复杂加载宏。 Project Standard 2013 和 Project Professional 2013 可以运行常规 Office 加载项，并使用任务窗格的加载专门为项目以与 SharePoint、 其他网站和 web 应用程序和外部数据集成开发。
   
@@ -33,11 +33,11 @@ Project 2013 中的 VBA **MSProject**对象模型在本质上与 Visual Studio 2
   
 可以在 Office 商店中销售任务窗格的加载项和面向 Office 和 SharePoint 的其他外接 (请参阅[http://office.microsoft.com/store/](http://office.microsoft.com/en-us/store/)) 与 Project Online 和本地安装一起使用。 无法在 Office 商店; 分布式 VBA 宏和 VSTO 外接程序它们旨在用于本地 Project Standard 和 Project Professional。 您可以将分发在项目中的 VBA 宏。MPP 文件，将其安装在您的计算机上的 Global.MPT 文件，或分发更新 Project Server 2013 中的企业全局模板中。 VSTO 加载项可通过[ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)部署时，它使轻松更新更安全地分发。 
   
-## <a name="reference"></a>引用
+## <a name="reference"></a>参考
 
 [项目的 VBA 开发人员参考](http://msdn.microsoft.com/en-us/library/ee861523%28office.15%29.aspx)包含介绍性和 VBA 帮助文章。 
   
-## <a name="related-sections"></a>相关部分
+## <a name="related-sections"></a>相关章节
 
 [Project Server 2013 体系结构](project-server-2013-architecture.md)显示 Project 客户端与 Project Server 的交互方式。 
   

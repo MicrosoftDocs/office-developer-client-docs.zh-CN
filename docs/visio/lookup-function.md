@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251457
 localization_priority: Normal
 ms.assetid: cb6ec664-6062-75d0-1514-8058b98c2c36
-description: 返回一个从零开始的索引，它指示的位置的子字符串键在列表中，则返回-1，如果目标字符串包含分隔符。
+description: 返回基于零的索引，该索引指示子字符串 key 在 list 中的位置，或者如果目标字符串包含 delimiter，则返回 -1。
 ms.openlocfilehash: e1fd433282871135d385d1c980c77041cd49cdf4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3f1cab24ef6bbd632ee3dc204e93f59e6f9ac846
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -33,10 +33,10 @@ ms.locfileid: "19776335"
   
 |**通讯簿提供程序接口**|**消息存储提供程序接口**|
 |:-----|:-----|
-|[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md) <br/> |[IMsgStore: IMAPIProp](imsgstoreimapiprop.md) <br/> |
-|[IDistList: IMAPIContainer](idistlistimapicontainer.md) <br/> |[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md) <br/> |
-|[IMailUser: IMAPIProp](imailuserimapiprop.md) <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
-| <br/> |[IAttach: IMAPIProp](iattachimapiprop.md) <br/> |
+|[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) <br/> |
+|[IDistList : IMAPIContainer](idistlistimapicontainer.md) <br/> |[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) <br/> |
+|[IMailUser : IMAPIProp](imailuserimapiprop.md) <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
+| <br/> |[IAttach : IMAPIProp](iattachimapiprop.md) <br/> |
    
 传输提供程序与他们通信与 MAPI 和客户端的方式的地址簿和消息存储提供程序不同。 传输提供程序通常等待 MAPI 提示他们的信息，而不是交流。 与其他提供程序，不同传输提供程序不支持的各种对象和通常由客户端访问的表。 但是，它们支持一个状态对象中，在执行所有服务提供程序，并在状态表中发布其属性。 传输提供程序通讯簿和消息存储提供程序调用[IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md)方法以注册用于构建它们的项标识符的唯一标识符，而呼叫[IXPLogon::AddressTypes](ixplogon-addresstypes.md)方法假定责任特定邮件的传递注册唯一标识符，以及地址类型。 
   

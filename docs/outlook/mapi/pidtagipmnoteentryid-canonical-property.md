@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c003f7b9-b0cd-4656-98fa-3466fda6832c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1d46110585fb5075041942560b3a8bd5d0b125a8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777777"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_IPM_NOTE_ENTRYID  <br/> |
-|标识符:  <br/> |0x36D3  <br/> |
+|相关属性：  <br/> |PR_IPM_NOTE_ENTRYID  <br/> |
+|标识符：  <br/> |0x36D3  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性存储在收件箱文件夹，以及消息存储库的根文件夹中。 若要访问特定的邮件存储区上的属性，请执行以下操作： 
   
@@ -82,7 +82,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

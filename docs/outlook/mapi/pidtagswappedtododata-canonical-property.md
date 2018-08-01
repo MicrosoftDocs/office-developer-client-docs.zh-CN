@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: dedb60c5356e1dbb6d35f27372a09c152da0fed0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778490"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SWAPPED_TODO_DATA  <br/> |
-|标识符:  <br/> |0x0E2D  <br/> |
+|相关属性：  <br/> |PR_SWAPPED_TODO_DATA  <br/> |
+|标识符：  <br/> |0x0E2D  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 作为辅助标志存储位置，如果发件人标志或发件人提醒受支持，此结构提供中用来存储的所有发件人标志中支持的信息的标记协议与相关属性和所有的位置属性与提醒设置协议有关支持的发件人提醒而无需公开的标志发件人或收件人的邮件的发件人提醒信息。
   
@@ -76,7 +76,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

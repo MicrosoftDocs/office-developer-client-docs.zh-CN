@@ -20,7 +20,8 @@ ms.locfileid: "19780388"
   
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Visio 2010 
+添加的版本： Visio 2010
+ 
   
 ## <a name="syntax"></a>语法
 
@@ -36,7 +37,7 @@ HASCATEGORY (* **类别** *)
 
  **Boolean**
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
  *类别*是可用于对形状进行分类的用户定义的字符串。 您可以在形状的 ShapeSheet User.msvShapeCategories 单元格中定义类别。 您可以通过使用分号分隔类别来定义形状的多个类别。 
   

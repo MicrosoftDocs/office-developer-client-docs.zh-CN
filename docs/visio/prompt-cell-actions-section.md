@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780968"
 ---
-# <a name="prompt-cell-actions-section"></a>Prompt 单元格（“Actions”内容）
+# <a name="prompt-cell-actions-section"></a>Prompt 单元格（“Actions”部分）
 
 从 Visio 2002 开始，不再使用这个单元格。
   

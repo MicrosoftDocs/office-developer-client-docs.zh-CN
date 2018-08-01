@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 222ca10e58b50fa06876718658d1a6f3843da2f2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778050"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_PRIMARY_SEND_ACCOUNT  <br/> |
-|标识符:  <br/> |0x0E28  <br/> |
+|相关属性：  <br/> |PR_PRIMARY_SEND_ACCOUNT  <br/> |
+|标识符：  <br/> |0x0E28  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Account  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 指定客户端用于将邮件发送第一台服务器。 这些属性的格式是实现相关。 这些属性可由客户端用来确定哪些服务器直接通过，邮件是可选但值没有任何意义到服务器。
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

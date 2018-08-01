@@ -50,7 +50,7 @@ ms.locfileid: "19779836"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定在绘图页上的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,17 +60,17 @@ ms.locfileid: "19779836"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
-|X  <br/> |点的样条第二个控制点的 x 坐标。  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
-|Y  <br/> |点的样条第二个控制点的 y 坐标。  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
+|X  <br/> |样条第二个控制点的 x 坐标。  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
+|Y  <br/> |样条第二个控制点的 y 坐标。  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
 |A  <br/> |样条的第二个节点。  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
 |B  <br/> |样条的第一个节点。  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
-|C  <br/> |样条的最后一个节点。  <br/> |[RelEllipticalArcTo 行 （geometry 内容）](splinestart-row-geometry-section.md) <br/> |
+|C  <br/> |样条的最后一个节点。  <br/> |[RelEllipticalArcTo 行（“Geometry”部分）](splinestart-row-geometry-section.md) <br/> |
 |D  <br/> |样条的角度（从 1 到 25 的整数）。  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
    
 

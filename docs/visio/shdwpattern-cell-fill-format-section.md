@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781324"
 ---
-# <a name="shdwpattern-cell-fill-format-section"></a>ShdwPattern 单元格（“Fill Format”内容）
+# <a name="shdwpattern-cell-fill-format-section"></a>ShdwPattern 单元格（“Fill Format”部分）
 
 确定某一形状的阴影的填充图案。
   
@@ -28,15 +28,15 @@ ms.locfileid: "19781324"
    
 ## <a name="remarks"></a>注解
 
-若要设置的填充图案，输入一个号码从 0 到 40，这是一种模式的索引。 在**填充**对话框中，可以查看填充图案集合 （在**主页**选项卡，**形状**组中，单击**填充**，然后单击**填充选项**）。
+若要设置填充图案，请输入一个介于 0 和 40 之间的数字，该数字是图案集合中的索引。您可以在 **“填充”** 对话框（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“填充”**，然后单击 **“填充选项”**）中查看填充图案集合。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ShdwPattern 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShdwPattern 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |ShdwPattern  <br/> |
    
-若要从某个程序按索引获取对 ShdwPattern 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 ShdwPattern 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

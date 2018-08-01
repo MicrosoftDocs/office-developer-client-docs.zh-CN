@@ -27,11 +27,11 @@ ms.locfileid: "19779322"
     
 - [应用示例提供程序模板](applying-a-sample-provider-template.md)： 介绍如何使用示例提供程序模板。
     
-## <a name="reference"></a>引用
+## <a name="reference"></a>参考
 
 - [Outlook Social Connector 提供程序参考](outlook-social-connector-provider-reference-0.md)
   
-## <a name="related-sections"></a>相关部分
+## <a name="related-sections"></a>相关章节
 
 - [Outlook Social Connector 提供程序开发入门（英文）](getting-started-with-developing-an-outlook-social-connector-provider.md)
   

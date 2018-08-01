@@ -1,5 +1,5 @@
 ---
-title: 消息存储提供程序提供读取和 Nonread 的报告
+title: 为邮件存储区提供程序提供读取和未读报告
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778607"
 ---
-# <a name="providing-read-and-nonread-reports-for-message-store-providers"></a>消息存储提供程序提供读取和 Nonread 的报告
+# <a name="providing-read-and-nonread-reports-for-message-store-providers"></a>为邮件存储区提供程序提供读取和未读报告
 
   
   
@@ -32,5 +32,5 @@ ms.locfileid: "19778607"
 
 
 
-[消息存储功能](message-store-features.md)
+[邮件存储区功能](message-store-features.md)
 

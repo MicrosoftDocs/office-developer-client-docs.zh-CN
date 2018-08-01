@@ -29,16 +29,17 @@ ms.locfileid: "19781462"
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _text_ <br/> |必需  <br/> |**字符串** <br/> | 要替换其字符的文本或对包含要替换其字符的文本的单元格的引用。  <br/> |
-| _old_text_ <br/> |必需  <br/> |**字符串** <br/> | 您想要替换的文本。  <br/> |
+| _old_text_ <br/> |必需  <br/> |**字符串** <br/> | 要替换的文本。 
+  <br/> |
 | _new_text_ <br/> |必需  <br/> |**字符串** <br/> | 您想要用于替换_old_text_的文本。  <br/> |
-| _start_num_opt_ <br/> |可选  <br/> |**数字** <br/> |指定要替换 old_text 的哪个匹配项。  <br/> |
+| _start_num_opt_ <br/> |可选  <br/> |**Numeric** <br/> |指定要替换 old_text 的哪个匹配项。  <br/> |
 | _ignore_case_opt_ <br/> |可选  <br/> |**Boolean** <br/> |如果区分大小写，则其值为 FALSE；否则为 TRUE。默认值为 FALSE。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
  如果指定_start_num_opt_，替换仅的_old_text_中的匹配项。 否则，将每一处的_old_text_中_的文本_更改为_new_text。_
   

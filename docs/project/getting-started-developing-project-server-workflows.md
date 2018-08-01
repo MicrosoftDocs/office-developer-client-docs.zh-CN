@@ -26,7 +26,7 @@ Project Server 2013 工作流使用的 SharePoint Server 2013 工作流平台，
   
 ## <a name="in-this-section"></a>本节内容
 
-[创建用于命令管理的 Project Server 工作流](create-a-project-server-workflow-for-demand-management.md)
+[为需求管理创建 Project Server 工作流](create-a-project-server-workflow-for-demand-management.md)
   
 ## <a name="see-also"></a>另请参阅
 
@@ -35,7 +35,7 @@ Project Server 2013 工作流使用的 SharePoint Server 2013 工作流平台，
 [批量更新自定义字段和从 Project Online 中的工作流创建项目网站](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
 
 
-[SharePoint Designer 2013 和 Visio 2013 中的工作流开发](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
+[Workflow development in SharePoint Designer 2013 and Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
   
 [SharePoint 工作流的新增功能](http://msdn.microsoft.com/en-us/library/jj163177.aspx)
   

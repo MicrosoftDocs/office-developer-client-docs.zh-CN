@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a07a7737e9b9354514a2d5ac2ec37a393a3cd4e4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SNotRestriction
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **ulReserved**
   
@@ -50,7 +50,7 @@ typedef struct _SNotRestriction
   
 > 指向[SRestriction](srestriction.md)结构，描述要加入到逻辑**NOT**运算符的限制。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 有关**SNotRestriction**结构的详细信息，请参阅[有关限制](about-restrictions.md)。 
   

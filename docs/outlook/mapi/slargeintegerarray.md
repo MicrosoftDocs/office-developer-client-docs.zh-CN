@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec9a674-c1a2-4137-856f-6cabe6f0eb9f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 4d6785783f69857bd93f3c5818983e832e16af05
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -40,7 +40,7 @@ typedef struct _SLargeIntegerArray
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cValues**
   
@@ -50,7 +50,7 @@ typedef struct _SLargeIntegerArray
   
 > 指向**LARGE_INTEGER**结构包含的整数值的数组。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 有关 PT_MV_18 的详细信息，请参阅[列表的属性类型](property-types.md)。
   

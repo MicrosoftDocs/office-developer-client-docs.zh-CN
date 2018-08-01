@@ -29,11 +29,11 @@ TEXTWIDTH (* * *shapename ！TheText* * * * * *[，最大宽度]* * *)
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _shapename ！ theText_ <br/> |必需  <br/> |**字符串** <br/> |单元格的引用的目标形状中名为 TheText。  _shapename ！_ 是要从中检索文本的名称。  <br/> |
-| _最大宽度_ <br/> |可选  <br/> |**数字** <br/> |文本块的最大宽度。  <br/> |
+| _最大宽度_ <br/> |可选  <br/> |**Numeric** <br/> |文本块的最大宽度。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-String
+字符串
   
 ## <a name="remarks"></a>注解
 

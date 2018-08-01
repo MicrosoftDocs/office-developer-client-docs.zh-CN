@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779814"
 ---
-# <a name="calendar-cell-shape-data-section"></a>Calendar 单元格（“Shape Data”内容）
+# <a name="calendar-cell-shape-data-section"></a>Calendar 单元格（“Shape Data”部分）
 
 确定当数据类型为日期时用于形状数据的日历。
   
@@ -24,13 +24,13 @@ ms.locfileid: "19779814"
 
 可能的值为：0（公历）、1（阿拉伯回历）、2（希伯来农历）、3（台历）、4（日本年号）、5（泰国佛历）、6（朝鲜檀纪历）、7（萨卡时代日历）、8（英语转译）和 9（法语转译）。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Calendar 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Calendar 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 属性。 *名称*。日历其中属性。 *name*是行名称  <br/> |
    
-若要从某个程序按索引获取对 Calendar 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Calendar 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

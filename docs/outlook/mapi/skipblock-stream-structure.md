@@ -33,7 +33,7 @@ SkipBlock 流结构的目的取决于其在一系列类似的 FieldDefinition �
 
 
 
-[Outlook 项和计算字段](outlook-items-and-fields.md)
+[Outlook 项和字段](outlook-items-and-fields.md)
   
 [流结构](stream-structures.md)
   

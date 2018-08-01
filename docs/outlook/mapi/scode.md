@@ -30,7 +30,7 @@ typedef ULONG SCODE;
 
 ```
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SCODE**数据类型是[HRESULT](hresult.md)的数据类型相同。 
   

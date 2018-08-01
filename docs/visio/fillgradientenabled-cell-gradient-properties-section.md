@@ -1,5 +1,5 @@
 ---
-title: FillGradientEnabled 单元格 （渐变 Properties 内容）
+title: FillGradientEnabled 单元格（“Gradient Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780258"
 ---
-# <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled 单元格 （渐变 Properties 内容）
+# <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled 单元格（“Gradient Properties”部分）
 
 确定是否启用此形状填充渐变。 
   
@@ -23,7 +23,7 @@ ms.locfileid: "19780258"
 |TRUE  <br/> |渐变填充形状上显示。  <br/> |
 |FALSE  <br/> |渐变填充形状上不显示。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**FillGradientEnabled**单元格的引用，请使用： 
   

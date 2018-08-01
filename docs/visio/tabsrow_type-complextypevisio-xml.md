@@ -54,7 +54,7 @@ ms.locfileid: "19781476"
 |:-----|:-----|:-----|
 |[Cell](cell-element-tabs-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

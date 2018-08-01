@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ab892513348541ec9de3c071a12268afa9337465
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > 该函数找不到匹配值。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 内部使用的基础上消息 DLL 其消息实现的 MAPI 组件提供了**MapStorageSCode**函数。 由于这些组件中打开 OLE 存储本身，它们必须能够映射 HRESULT 值问题与 OLE 存储返回错误值。 
   

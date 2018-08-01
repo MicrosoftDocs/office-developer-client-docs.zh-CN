@@ -1,5 +1,5 @@
 ---
-title: 与 Office 集成 IM 应用程序
+title: 将 IM 应用程序与 Office 集成
 manager: soliver
 ms.date: 07/25/2016
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779568"
 ---
-# <a name="integrating-im-applications-with-office"></a>与 Office 集成 IM 应用程序
+# <a name="integrating-im-applications-with-office"></a>将 IM 应用程序与 Office 集成
 
 本文介绍如何配置即时消息 (IM) 客户端应用程序，使其与 Office 2013，包括显示状态和发送即时消息从联系人卡片中的社会功能集成。
   
@@ -186,7 +186,7 @@ Office 应用程序获取联系人的状态，包括本地用户，通过执行�
   
 **表 1。注册表项设置默认 IM 客户端应用程序**
 
-|**注册表项**|**项**|**类型**|**值**|**示例**|
+|**键**|**项**|**类型**|**值**|**示例**|
 |:-----|:-----|:-----|:-----|:-----|
 |HKEY_LOCAL_MACHINE\Software\IM 提供程序\\< 应用程序名称\>  <br/> |FriendlyName  <br/> |REG_SZ  <br/> |第三方 IM 客户端应用程序的名称。  <br/> |Litware IM 2012  <br/> |
 ||ProcessName  <br/> |REG_SZ  <br/> |第三方 IM 客户端应用程序的过程名称。  <br/> |litware.exe  <br/> |

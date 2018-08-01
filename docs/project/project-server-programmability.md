@@ -54,7 +54,7 @@ Project Service 应用程序是逻辑服务提供程序可以管理 Project Web 
 > [!NOTE]
 > Project Web App 中的某些管理页 — 例如，PWA 设置页 — 不是编辑，而不显示**编辑页面**命令。 Project Web App 不允许您使用 SharePoint Designer 2013 中编辑页面。 您可以编辑项目网站页面使用 SharePoint Designer 2013。 
   
-**图 1。使用 Project Web App 中的编辑页面菜单**
+**图 1. 使用 Project Web App 中的“编辑页面”菜单**
 
 ![编辑 Project Web Access 主页](media/pj15_Programmability_PWAHome.gif "编辑 Project Web Access 主页")
   
@@ -74,11 +74,11 @@ For Project Online 中，您可以将按钮添加到 Project Web App 功能区�
   
 PSEntityProvision.xsd 架构文件位于 Project 2013 SDK 下载中，在`Documentation\Schemas\AppProvisioning`子目录。 图 2 显示了在 Visual Studio 中展开**LookupTable**序列所在的**PSEntityProvision**架构的 XML 架构浏览器视图。 
   
-**图 2。Project Server 实体架构设置 visual Studio 视图**
+**图 2. Project Server 实体设置架构的 Visual Studio 视图**
 
 ![Project Server 实体架构视图](media/pj15_Programmability_EntitySchema.gif "Project Server 实体架构视图")
   
-为 Project Server 安装功能的 SharePoint 包可以包含一个或多个遵循**PSEntityProvision**架构的 elements.xml 文件。 一个 XML 文件中的 Project Server 实体必须按以下顺序出现： 
+安装 Project Server 的功能的 SharePoint 包可包含遵循 **PSEntityProvision** 架构的一个或多个 elements.xml 文件。单个 XML 文件中的 Project Server 实体必须按以下顺序显示： 
   
 1. 工作流阶段
     
@@ -99,7 +99,7 @@ PSEntityProvision.xsd 架构文件位于 Project 2013 SDK 下载中，在`Docume
 ## <a name="upgrading-applications-with-the-project-server-apis"></a>使用 Project Server API 升级应用程序
 <a name="pj15_Programmability_APIs"> </a>
 
-升级以前版本的 Project Server 的已开发的应用程序时，您可以选择使用 CSOM 或 PSI 编程接口，包含要创建、 读取、 更新和删除项目实体 （CRUD 操作） 的方法。 尽管 CSOM 内部调用 PSI，但它不完全替换所有 PSI 方法。 对于方案和 PSI 和 CSOM 的限制，请参阅[What the PSI does and 不执行](what-the-psi-does-and-does-not-do.md)并[什么 CSOM 执行和不可实现的操作](what-the-csom-does-and-does-not-do.md)。
+在升级已为早期版本的 Project Server 开发的应用程序时，可以选择对包含用于创建、读取、更新和删除项目实体（CRUD 操作）的方法的编程接口使用 CSOM 或 PSI。虽然 CSOM 将内部调用 PSI，但无法完全取代所有 PSI 方法。有关 PSI 和 CSOM 的方案和限制，请参阅 [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md)和 [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md)。
   
 > [!NOTE]
 > 如果 CSOM 包括所需的功能，我们建议您升级应用程序使用 CSOM。 CSOM 使应用程序可用于在本地和联机 Project Server 2013 的安装。 
@@ -153,7 +153,7 @@ CSOM 内部调用 PSI;因此，如果 PSI 不能实现作业的操作，也不�
 > [!NOTE]
 > 由于必须完全重新 PDS 应用程序设计，Project Server 2013，我们建议您使用 CSOM。 
   
-有关 PDS 兼容性和 PDS 扩展移植到 PSI 的指南的详细信息，请参阅[PDS Parity in PSI Web 服务](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx)。
+有关 PDS 兼容性和将 PDS 扩展移植到 PSI 的指南的详细信息，请参阅 [PDS Parity in PSI Web Services](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx)。
   
 ### <a name="porting-applications-built-for-project-server-2007-and-project-server-2010"></a>移植为 Project Server 2007 和 Project Server 2010 生成的应用程序
 <a name="pj15_Programmability_Porting2007"> </a>
@@ -281,9 +281,9 @@ Project Server 2013 具有两个的计划引擎。 Project Professional 2013 中
 
 - [Project 2013 中面向开发人员的更新](updates-for-developers-in-project-2013.md)    
 - [Project Server 2013 体系结构](project-server-2013-architecture.md)    
-- [PSI 支持和不执行](what-the-psi-does-and-does-not-do.md)   
-- [CSOM 支持和不执行](what-the-csom-does-and-does-not-do.md)    
-- [客户端对象模型 (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)    
+- [PSI 执行和不执行的操作](what-the-psi-does-and-does-not-do.md)   
+- [CSOM 执行和不执行的操作](what-the-csom-does-and-does-not-do.md)    
+- [Project 2013 的客户端对象模型 (CSOM)](client-side-object-model-csom-for-project-2013.md)    
 - [开发 Project Server 工作流入门](getting-started-developing-project-server-workflows.md)    
 - [Project 2013 编程参考文档](project-2013-programming-references.md)    
 - [项目 PSI 参考概述](project-psi-reference-overview.md)    

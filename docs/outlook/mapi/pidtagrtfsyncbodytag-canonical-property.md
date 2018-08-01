@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2dab5018-4214-4162-93bc-e5565f3ac24c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: bad754d21652d3f5278a6dad3ec06f4a0b533036
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778270"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RTF_SYNC_BODY_TAG，PR_RTF_SYNC_BODY_TAG_A，PR_RTF_SYNC_BODY_TAG_W  <br/> |
-|标识符:  <br/> |0x1008  <br/> |
+|相关属性：  <br/> |PR_RTF_SYNC_BODY_TAG，PR_RTF_SYNC_BODY_TAG_A，PR_RTF_SYNC_BODY_TAG_W  <br/> |
+|标识符：  <br/> |0x1008  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 [RTFSync](rtfsync.md)函数使用的文本标记指示消息文本的开头。 修改文本时，标记用于查找以前的文本的开头。 
   
@@ -70,7 +70,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

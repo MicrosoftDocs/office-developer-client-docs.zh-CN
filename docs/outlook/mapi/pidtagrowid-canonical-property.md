@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e8d0e79e01040c1cc3d46e73a7e6a456a915a67f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778232"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ROWID  <br/> |
-|标识符:  <br/> |0x3000  <br/> |
+|相关属性：  <br/> |PR_ROWID  <br/> |
+|标识符：  <br/> |0x3000  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性是对象的仅对拥有表的生存期内有效临时值。 它显示为表的列，但不是存储。
   
@@ -73,7 +73,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

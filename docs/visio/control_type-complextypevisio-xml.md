@@ -52,7 +52,7 @@ ms.locfileid: "19780011"
 |:-----|:-----|:-----|
 |[Row](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

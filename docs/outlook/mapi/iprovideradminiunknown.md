@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 41195a49d1bf3566c81fe6e97697012209cbc5ac
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776022"
 ---
-# <a name="iprovideradmin--iunknown"></a>IProviderAdmin: IUnknown
+# <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
   
   
@@ -46,7 +46,7 @@ ms.locfileid: "19776022"
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |删除消息服务的服务提供商。  <br/> |
 |[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |从当前配置文件中打开配置文件一节并返回进一步访问[IProfSect](iprofsectimapiprop.md)指针。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端可以通过调用[IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md)方法; **IProviderAdmin**界面得到指针服务提供商其消息服务的入口点函数调用时传递**IProviderAdmin**指针。 
   

@@ -16,19 +16,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781688"
 ---
-# <a name="y-cell-connection-points-section"></a>Y 单元格（“Connection Points”内容）
+# <a name="y-cell-connection-points-section"></a>Y 单元格（“Connection Points”部分）
 
 代表*y* -在本地坐标系中的连接点的坐标。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Y 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Y 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Connections.Y *i*其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 Y 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Y 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

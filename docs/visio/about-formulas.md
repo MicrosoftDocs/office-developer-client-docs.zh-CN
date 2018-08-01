@@ -24,7 +24,7 @@ Microsoft Visio 公式在很多方面都类似于典型的电子表格公式。V
   
 单元格中的公式可以从主控形状或样式中的等价单元格继承，也可以进行局部定义。Visio 会对公式求值，然后将结果转化为适合于单元格的值和单位。在 ShapeSheet 窗口中，您可以将单元格内容显示为公式或值。
   
-## <a name="elements-of-a-formula"></a>公式中的元素
+## <a name="elements-of-a-formula"></a>公式的元素
 
 公式总是以一个自动插入的等号开始。公式可以包含以下任何元素：
   
@@ -46,7 +46,7 @@ Microsoft Visio 公式在很多方面都类似于典型的电子表格公式。V
     
 ## <a name="default-formulas"></a>默认的公式
 
-当您创建一个形状时，Visio 将创建为其默认的公式。 若要查看的默认公式是什么，绘制简单形状 （例如矩形、 椭圆或直线） 并打开其 ShapeSheet 窗口 （在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡中，单击**显示 ShapeSheet**）。
+创建形状时，默认情况下 Visio 会为它创建公式。若要查看这些默认公式，请绘制一个简单的形状（如矩形、椭圆或直线），然后打开它的 ShapeSheet 窗口（在[“开发工具”](run-in-developer-mode-display-the-developer-tab.md)选项卡上单击 **“显示 ShapeSheet”**）。
   
 ## <a name="inherited-formulas"></a>继承的公式
 

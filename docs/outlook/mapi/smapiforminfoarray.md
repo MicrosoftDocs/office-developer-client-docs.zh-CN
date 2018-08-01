@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6389bbf2094f51711d80896db0db9862059826cc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **cForms**
   
@@ -51,7 +51,7 @@ typedef struct
   
 > 为数组对窗体信息对象的指针的指针。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SMAPIFormInfoArray**结构作为中的以下方法的参数传递： 
   

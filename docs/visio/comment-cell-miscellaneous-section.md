@@ -16,21 +16,21 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779904"
 ---
-# <a name="comment-cell-miscellaneous-section"></a>Comment 单元格（“Miscellaneous”内容）
+# <a name="comment-cell-miscellaneous-section"></a>Comment 单元格（“Miscellaneous”部分）
 
 包含形状的字符串格式的注释文本。
   
 ## <a name="remarks"></a>注解
 
-您还可以通过单击**审阅**选项卡上的**新批注**中插入注释。 
+也可以通过单击 **“审阅”** 选项卡上的 **“新建批注”** 插入批注。 
   
-若要获取对 Comment 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Comment 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Comment  <br/> |
    
-若要从某个程序按索引获取对 Comment 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Comment 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

@@ -42,7 +42,7 @@ ms.locfileid: "19779801"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Row 元素 （Actions 内容）](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |指定快捷菜单或动作标记菜单上的自定义命令与关联的操作的一个的属性。  <br/> |
+|[Row 元素（“Actions”部分）](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |指定快捷菜单或动作标记菜单上的自定义命令与关联的操作的一个的属性。  <br/> |
    
 ### <a name="child-elements"></a>子元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "19779801"
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |指定在绘图页上的引用。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 |**属性**|**类型**|**必需**|**说明**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -60,18 +60,18 @@ ms.locfileid: "19779801"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |ShapeSheet 单元格的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
-|**值**|**说明**|**详细信息**|
+|**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
 |操作  <br/> |包含当用户选择快捷菜单或动作标记菜单上的命令时要执行的公式。  <br/> |[Action Cell (Actions Section)](action-cell-actions-section.md) <br/> |
 |BeginGroup  <br/> |指示是否在此动作之上的菜单中插入分隔符。  <br/> |[BeginGroup Cell (Actions Section)](begingroup-cell-actions-section.md) <br/> |
 |ButtonFace  <br/> |标识在快捷菜单或动作标记菜单上的项旁边显示的图标。  <br/> |[ButtonFace Cell (Actions Section)](buttonface-cell-actions-section.md) <br/> |
-|检查  <br/> |指示是否在快捷菜单或动作标记菜单上选取了某项。  <br/> |[Checked Cell (Actions Section)](checked-cell-actions-section.md) <br/> |
+|Checked  <br/> |指示是否在快捷菜单或动作标记菜单上选取了某项。  <br/> |[Checked Cell (Actions Section)](checked-cell-actions-section.md) <br/> |
 |已禁用  <br/> |指示快捷菜单或动作标记菜单上的某项是否被禁用。  <br/> |[Disabled Cell (Actions Section)](disabled-cell-actions-section.md) <br/> |
-|FlyoutChild  <br/> |确定该行是否为不是弹出子菜单的上一行的弹出子菜单。  <br/> |[FlyoutChild 单元格 （Actions 内容）](flyoutchild-cell-actions-section.md) <br/> |
+|FlyoutChild  <br/> |确定该行是否为不是弹出子菜单的上一行的弹出子菜单。  <br/> |[FlyoutChild 单元格（“Actions”部分）](flyoutchild-cell-actions-section.md) <br/> |
 |不可见  <br/> |指示动作标记或快捷菜单上是否显示动作。  <br/> |[Invisible Cell (Actions Section)](invisible-cell-actions-section.md) <br/> |
 |Menu  <br/> |定义形状或页的快捷菜单或动作标记菜单上显示的菜单项的名称。  <br/> |[Menu Cell (Actions Section)](menu-cell-actions-section.md) <br/> |
 |ReadOnly  <br/> |控制动作标记菜单或快捷菜单上的动作是否为只读。  <br/> |[ReadOnly Cell (Actions Section)](readonly-cell-actions-section.md) <br/> |

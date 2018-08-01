@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8e1a343486e78daae45ca7315ba4d29d44b688bc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19777083"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidTaskLastDelegate  <br/> |
+|相关属性：  <br/> |dispidTaskLastDelegate  <br/> |
 |属性进行设置：  <br/> |PSETID_Task  <br/> |
 |长 ID （盖）：  <br/> |0x00008125  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |任务  <br/> |
+|区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 发送任务请求之前, 客户端将该属性设置为任务分配人的名称。 发送任务响应前, 客户端将该属性设置为任务受理人的名称。
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

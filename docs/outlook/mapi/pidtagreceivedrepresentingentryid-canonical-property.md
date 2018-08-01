@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2ae2266c-f093-41e5-b4d0-e12aa0f03190
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 12e4c97947cfe579f550cc6d48ca0b64750b9ab6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778129"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RCVD_REPRESENTING_ENTRYID  <br/> |
-|标识符:  <br/> |0x0043  <br/> |
+|相关属性：  <br/> |PR_RCVD_REPRESENTING_ENTRYID  <br/> |
+|标识符：  <br/> |0x0043  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性是一个由接收用户的邮件用户的地址属性。 它必须由传入传输提供程序，也是负责授权或的代理人的验证设置。 如果正在表示没有消息的用户，此属性应设置为**PR_RECEIVED_BY_ENTRYID** ([PidTagReceivedByEntryId](pidtagreceivedbyentryid-canonical-property.md)) 属性中包含的项标识符。
   
@@ -78,7 +78,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

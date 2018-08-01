@@ -52,7 +52,7 @@ ms.locfileid: "19781469"
 |:-----|:-----|:-----|
 |[Row](row-element-tabs-sectionvisio-xml.md) <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

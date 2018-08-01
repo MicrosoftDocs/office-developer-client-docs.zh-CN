@@ -30,16 +30,18 @@ STRSAMEEX ("* * *string1* * *"，"* * *string2* * *"，* * *localeID* * *，* **
 |:-----|:-----|:-----|:-----|
 | _string1_ <br/> |必需  <br/> |**字符串** <br/> |要比较的第一个字符串。  <br/> |
 | _string2_ <br/> |必需  <br/> |**字符串** <br/> | 要比较的第二个字符串。  <br/> |
-| _localeID_ <br/> |必需  <br/> |**数字** <br/> |区域设置 ID 代码。  <br/> |
-| _标志_ <br/> |必需  <br/> |**数字** <br/> | 指定比较类型的位。  <br/> |
+| _localeID_ <br/> |必需  <br/> |**Numeric** <br/> |区域设置 ID 代码。  <br/> |
+| _标志_ <br/> |必需  <br/> |**Numeric** <br/> | 指定比较类型的位。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 Boolean
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-如果两个输入的字符串相同 TRUE 和 FALSE 如果它们不 STRSAMEEX 返回。 若要比较多字节字符串或大小写规则用于特定区域设置的比较，请使用此函数。
+如果两个输入字符串相同，则 STRSAMEEX 会返回 TRUE；如果它们不同，则返回 FALSE。使用此函数来比较多字节字符串或使用特定区域设置的大小写规则来进行比较。
+			
+
   
 您可以将下列任意标志的组合与 STRSAMEEX 函数一起使用。
   

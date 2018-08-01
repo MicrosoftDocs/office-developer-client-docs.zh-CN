@@ -1,5 +1,5 @@
 ---
-title: 将存储库类型专用属性
+title: 将存储类型视为专用的属性
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7f60d9524af18bb7f2e876386c45b84f207d42bc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776183"
 ---
-# <a name="make-store-type-private-property"></a>将存储库类型专用属性
+# <a name="make-store-type-private-property"></a>将存储类型视为专用的属性
 
   
   

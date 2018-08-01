@@ -61,7 +61,7 @@ ms.locfileid: "19780345"
 |[Cell](cell-element-geometry-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
 |[Row](row-element-geometry-sectionvisio-xml.md) <br/> |GeometryRow_Type  <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

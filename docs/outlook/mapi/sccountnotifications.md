@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c27472a309c26882051744a23fbe05e41c36aa3f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -65,7 +65,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 遇到无效的通知。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果_pcb_参数中传递 NULL，则**ScCountNotifications**函数仅验证通知的数组，但没有计数完成;如果在_pcb_传递一个非空值，则**ScCountNotifications**确定数组的大小，并将存储原因_pcb_。 _Pcb_参数必须为足够大，使其包含整个数组。 
   

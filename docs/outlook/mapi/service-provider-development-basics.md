@@ -1,5 +1,5 @@
 ---
-title: 服务提供程序开发基础知识
+title: 服务提供程序开发基础
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778755"
 ---
-# <a name="service-provider-development-basics"></a>服务提供程序开发基础知识
+# <a name="service-provider-development-basics"></a>服务提供程序开发基础
 
   
   
@@ -31,7 +31,7 @@ ms.locfileid: "19778755"
   
 [开发 MAPI 传输提供程序](developing-a-mapi-transport-provider.md)
   
-[开发 MAPI 消息存储提供程序](developing-a-mapi-message-store-provider.md)
+[开发 MAPI 邮件存储区提供程序](developing-a-mapi-message-store-provider.md)
   
 [MAPI 服务提供商](mapi-service-providers.md)
   

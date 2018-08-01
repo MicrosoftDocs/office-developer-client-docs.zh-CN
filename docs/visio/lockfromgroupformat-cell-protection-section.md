@@ -13,19 +13,23 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19780637"
 ---
-# <a name="lockfromgroupformat-cell-protection-section"></a>LockFromGroupFormat 单元格（“Protection”内容）
+# <a name="lockfromgroupformat-cell-protection-section"></a>LockFromGroupFormat 单元格（“Protection”部分）
 
 阻止格式更改向组合形状被传播到及其子形状，同时仍允许用户直接设置所选的子形状的格式。 
   
-LockFromGroupFormat 单元格的值对应于**保护**对话框中的**从组格式**复选框设置。 
+LockFromGroupFormat 单元格的值与 **“保护”** 对话框中的 **“阻止应用组格式”** 复选框设置相对应。 
   
-若要引用 LockFromGroupFormat 单元格按名称从另一个公式或从使用**CellsU**属性的某个程序使用： 
+若要从另一个公式或从使用 **CellsU** 属性的某个程序按名称引用 LockFromGroupFormat 单元格，请使用：
+
+ 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |LockFromGroupFormat  <br/> |
    
-要引用 LockFromGroupFormat 单元格的索引从某个程序，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引引用 LockFromGroupFormat 单元格，请使用带下列参数的 **CellsSRC** 属性：
+
+ 
   
 |||
 |:-----|:-----|

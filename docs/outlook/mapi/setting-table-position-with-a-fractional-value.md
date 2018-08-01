@@ -1,5 +1,5 @@
 ---
-title: 设置表的分数的值的位置
+title: 通过分数值设置表位置
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778763"
 ---
-# <a name="setting-table-position-with-a-fractional-value"></a>设置表的分数的值的位置
+# <a name="setting-table-position-with-a-fractional-value"></a>通过分数值设置表位置
 
   
   

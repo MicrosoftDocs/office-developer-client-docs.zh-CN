@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ce7092840037345ae99b31c39cfbd4ac96b99ff5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777493"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_CONTENT_UNREAD  <br/> |
-|标识符:  <br/> |0x3603  <br/> |
+|相关属性：  <br/> |PR_CONTENT_UNREAD  <br/> |
+|标识符：  <br/> |0x3603  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 消息存储通过计算此属性用于两个不同的但相关，目的。 MAPI folder 对象，它包含文件夹中的消息的数。 在分类 MAPI 表中的标题行中，它包含该标题行所对应的类别中的未读非关联消息的数目。
   
@@ -76,7 +76,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

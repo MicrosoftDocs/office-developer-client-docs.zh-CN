@@ -20,7 +20,8 @@ ms.locfileid: "19779797"
   
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Visio 2010 
+添加的版本： Visio 2010
+ 
   
 ## <a name="syntax"></a>语法
 
@@ -36,7 +37,7 @@ BOUNDINGBOXRECT (* **索引** *)
 
  **编号**
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
  *Index*可为以下值之一。 
   

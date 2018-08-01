@@ -52,7 +52,7 @@ ms.locfileid: "19780235"
 |:-----|:-----|:-----|
 |[Row](row-element-fill-gradient-sectionvisio-xml.md) <br/> |[FillGradientRow_Type](fillgradientrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

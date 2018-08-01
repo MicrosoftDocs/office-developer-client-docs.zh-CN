@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e3c4125bf4fcf1881a0cba9b04a8bb6aa71f527d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -75,7 +75,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPISession::SetDefaultStore**方法建立的消息存储为下列选项之一： 
   
@@ -123,8 +123,8 @@ MFCMAPI 示例代码，请参阅下表。
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[IMAPISession: IUnknown](imapisessioniunknown.md)
+[IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

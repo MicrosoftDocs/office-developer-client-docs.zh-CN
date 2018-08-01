@@ -19,6 +19,6 @@ ms.locfileid: "19779408"
 
 本主题列出了 Outlook 天气位置 XML 架构中的类型。
   
-- [weatherType 复杂类型](weathertype-complextype-outlook-weather-location-schema.md)
+- [weatherType complexType](weathertype-complextype-outlook-weather-location-schema.md)
     
 

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 301ebbf8e7a3e2a2deb303af5b198fd11511d495
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778895"
 ---
-# <a name="supporting-formatted-text-message-store-responsibilities"></a>支持的格式文本： 消息存储职责
+# <a name="supporting-formatted-text-message-store-responsibilities"></a>支持格式化文本：邮件存储区责任
 
   
   

@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780009"
 ---
-# <a name="d-cell-geometry-section"></a>D 单元格（“Geometry”内容）
+# <a name="d-cell-geometry-section"></a>D 单元格（“Geometry”部分）
 
 代表不同行中的不同信息。此表基于 D 单元格所在的行对它进行说明。
   
@@ -27,25 +27,25 @@ ms.locfileid: "19780009"
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | 样条的角度（从 1 到 25 的整数）。  <br/> |
 |[椭圆](ellipse-row-geometry-section.md) <br/> | *Y* -椭圆; 上某个点的坐标与*x*配对- [C](c-cell-geometry-section.md)单元格所表示的坐标。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 D 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 D 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Geometry *i* 。D *j*其中*i*和*j* = < 1 >，2，3...  <br/> |
 || Geometry *i* 。D1 （Ellipse 行） 其中*i* = < 1 >，2，3...  <br/> |
    
-若要从某个程序按索引获取对 D 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 D 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionFirstComponent** +  *i*其中*i* = 0、 1、 2...  <br/> |
 | 行索引：  <br/> |**visRowVertex** +  *j*其中*j* = 0、 1、 2...  <br/> |
-||**visRowVertex**（ellipse 行）  <br/> |
+||**visRowVertex**（Ellipse 行）  <br/> |
 | 单元格索引  <br/> |**visAspectRatio**（EllipticalArcTo 行）  <br/> |
 ||**visNURBSWeightPrev**（NURBSTo 行）  <br/> |
 ||**visSplineDegree**（SplineStart 行）  <br/> |
-||**visEllipseMinorY**（ellipse 行）  <br/> |
+||**visEllipseMinorY**（Ellipse 行）  <br/> |
    
 

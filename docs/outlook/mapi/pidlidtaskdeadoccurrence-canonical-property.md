@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 14207e513e935a296ff9b953b92ab1ab9ab41fd2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19777060"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidTaskDeadOccur  <br/> |
+|相关属性：  <br/> |dispidTaskDeadOccur  <br/> |
 |属性进行设置：  <br/> |PSETID_Task  <br/> |
 |长 ID （盖）：  <br/> |0x00008109  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |任务  <br/> |
+|区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 定期模式时不再有效其最后一个实例是在过去或其指定的实例数已生成。 客户端将该属性设置为 false，则新任务或为 TRUE 时，它将生成一个周期性任务的最后一个实例。 复制要生成的新实例的任务时，此属性设置为 TRUE 的副本，即已完成的实例上。
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

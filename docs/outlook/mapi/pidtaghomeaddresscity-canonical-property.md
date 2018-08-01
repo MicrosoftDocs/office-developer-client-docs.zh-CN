@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 17bc102aaa8db9a9b9fac1467690739840ead697
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,8 +29,8 @@ ms.locfileid: "19777678"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_HOME_ADDRESS_CITY，PR_HOME_ADDRESS_CITY_A，PR_HOME_ADDRESS_CITY_W  <br/> |
-|标识符:  <br/> |0x3A59  <br/> |
+|相关属性：  <br/> |PR_HOME_ADDRESS_CITY，PR_HOME_ADDRESS_CITY_A，PR_HOME_ADDRESS_CITY_W  <br/> |
+|标识符：  <br/> |0x3A59  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
@@ -64,7 +64,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

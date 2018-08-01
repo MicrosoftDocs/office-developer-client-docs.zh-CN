@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 234c797c-4a3c-4e05-be22-2a2fa377871f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 834e97d8bd7bf31a1241fcf0454594b015902673
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778139"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RCVD_REPRESENTING_SEARCH_KEY  <br/> |
-|标识符:  <br/> |0x0052  <br/> |
+|相关属性：  <br/> |PR_RCVD_REPRESENTING_SEARCH_KEY  <br/> |
+|标识符：  <br/> |0x0052  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性是一个正在接收用户所表示的邮件用户的地址属性。 它必须由传入传输提供程序，也是负责授权或的代理人的验证设置。 如果正在表示没有消息的用户，此属性应设置为**PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)) 属性中包含的搜索键。
   
@@ -89,7 +89,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

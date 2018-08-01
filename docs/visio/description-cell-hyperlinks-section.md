@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780105"
 ---
-# <a name="description-cell-hyperlinks-section"></a>Description 单元格（“Hyperlinks”内容）
+# <a name="description-cell-hyperlinks-section"></a>Description 单元格（“Hyperlinks”部分）
 
 代表超链接的说明性文本字符串。 
   
@@ -24,15 +24,15 @@ ms.locfileid: "19780105"
 
 使用此单元格可以存储有关超链接的注释；例如，“链接到我们的价格网站”。
   
-此外可以设置此单元格的值，在**超链接**对话框 （单击**插入**选项卡上的**超链接**）。 
+您还可以在 **“超链接”** 对话框（在 **“插入”** 选项卡上单击 **“超链接”**）中设置此单元格的值。 
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Description 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Description 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 超链接。  *名称*。说明其中超链接。  *Name*是超链接行的名称  <br/> |
    
-若要从某个程序按索引获取对 Description 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Description 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

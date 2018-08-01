@@ -1,5 +1,5 @@
 ---
-title: 语言函数
+title: LANGUAGE Function
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780544"
 ---
-# <a name="language-function"></a>语言函数
+# <a name="language-function"></a>LANGUAGE Function
 
 允许不同的语言表示之间的比较操作。 它最适用于将 Internet 工程任务组语言标记 (BCP 47) 值转换为区域设置 id (LCID) 值。
   
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Visio 2013 
+添加的版本： Visio 2013
+ 
   
 ## <a name="syntax"></a>语法
 

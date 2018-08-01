@@ -1,5 +1,5 @@
 ---
-title: GlowSize 单元格 （其他效果属性内容）
+title: GlowSize 单元格（“Additional Effect Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780354"
 ---
-# <a name="glowsize-cell-additional-effect-properties-section"></a>GlowSize 单元格 （其他效果属性内容）
+# <a name="glowsize-cell-additional-effect-properties-section"></a>GlowSize 单元格（“Additional Effect Properties”部分）
 
 确定外部发光以磅为单位的形状的大小。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**GlowSize**单元格的引用，请使用： 
   

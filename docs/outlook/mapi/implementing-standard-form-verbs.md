@@ -1,5 +1,5 @@
 ---
-title: 实现标准窗体谓词
+title: 实现标准表单谓词
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8135af7947f30ac600b8d9af364b2a79a3443ab6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775823"
 ---
-# <a name="implementing-standard-form-verbs"></a>实现标准窗体谓词
+# <a name="implementing-standard-form-verbs"></a>实现标准表单谓词
 
   
   

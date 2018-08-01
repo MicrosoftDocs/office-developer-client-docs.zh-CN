@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef82a75f-a09f-4880-ba6a-e739b16422a3
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e98416ba7796c66d719adcc27ba8029b7908bb79
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778381"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_WB_SF_EFP_FLAGS  <br/> |
-|标识符:  <br/> |0x6848  <br/> |
+|相关属性：  <br/> |PR_WB_SF_EFP_FLAGS  <br/> |
+|标识符：  <br/> |0x6848  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 具体而言，此属性应包含**PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) 属性和字段 b 的文件夹中的**ExtendedFlags**子属性中的标志。 有关文件夹标志信息，请参阅[[MS OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)。
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

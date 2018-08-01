@@ -79,7 +79,7 @@ ms.locfileid: "19778832"
     
 - [ScCreateConversationIndex](sccreateconversationindex.md)
     
-- [设置列和限制后排序表](sorting-tables-after-setting-columns-and-restrictions.md)
+- [设置列和限制后对表排序](sorting-tables-after-setting-columns-and-restrictions.md)
     
 ## <a name="see-also"></a>另请参阅
 

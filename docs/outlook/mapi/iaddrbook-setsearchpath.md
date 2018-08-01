@@ -54,7 +54,7 @@ MAPI_E_MISSING_REQUIRED_COLUMN
   
 > 一个**SRowSet**结构中所述的容器不包括其**PR_ENTRYID**属性。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端和服务提供商调用**SetSearchPath**方法以保存所做的用于将名称解析使用[IAddrBook::ResolveName](iaddrbook-resolvename.md)方法的容器搜索顺序的更改。 会话的实例之间保存搜索路径。 
   
@@ -72,5 +72,5 @@ MAPI_E_MISSING_REQUIRED_COLUMN
   
 [PidTagContainerFlags 规范属性](pidtagcontainerflags-canonical-property.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

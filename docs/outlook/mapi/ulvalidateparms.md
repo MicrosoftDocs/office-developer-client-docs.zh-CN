@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02c66b46-1f01-43fb-832c-bac27aaae19f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 12b1655b1e6786d2ebc985e834b635679e59f7d2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > 出现错误，无法完成操作。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 和服务之间传递参数提供程序将假定它们正确，且经过仅调试验证与[CheckParms](checkparms.md)宏。 提供程序应检查所有参数中传递的客户端应用程序，但客户端应假定 MAPI 和提供程序参数正确。 使用**HR_FAILED**宏来测试返回值。 
   

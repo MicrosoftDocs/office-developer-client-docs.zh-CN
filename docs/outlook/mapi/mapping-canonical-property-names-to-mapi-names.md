@@ -1,5 +1,5 @@
 ---
-title: 映射到 MAPI 名称的规范属性名称
+title: 将规范属性名称映射到 MAPI 名称
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6693326df818d2792d7448407148e57d53fff86f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776490"
 ---
-# <a name="mapping-canonical-property-names-to-mapi-names"></a>映射到 MAPI 名称的规范属性名称
+# <a name="mapping-canonical-property-names-to-mapi-names"></a>将规范属性名称映射到 MAPI 名称
 
   
   
@@ -328,7 +328,7 @@ ms.locfileid: "19776490"
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
 |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
-|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |关键字  <br/> |
+|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Keywords  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
 |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |LastPrinted  <br/> |
 |[PidNameLastSaveDateTime](pidnamelastsavedatetime-canonical-property.md) <br/> |LastSaveDtm  <br/> |
@@ -342,9 +342,9 @@ ms.locfileid: "19776490"
 |[PidNamePresentationFormat](pidnamepresentationformat-canonical-property.md) <br/> |PresFormat  <br/> |
 |[PidNameRevisionNumber](pidnamerevisionnumber-canonical-property.md) <br/> |RevNumber  <br/> |
 |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |DRMLicense  <br/> |
-|[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |安全性  <br/> |
+|[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |安全  <br/> |
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
-|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |主题  <br/> |
+|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Template  <br/> |
 |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |标题  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |字数统计  <br/> |

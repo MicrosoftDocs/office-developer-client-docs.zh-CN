@@ -32,7 +32,7 @@ SETATREF (* **参考 （英文）* * * [，* * *set_expression* * * [，* * *ign
 | _set_expression_ <br/> |可选  <br/> |**字符串** <br/> |分配给_引用_一个表达式。  <br/> |
 | _ignore_eval_ <br/> |可选  <br/> |**Boolean** <br/> |如果为 TRUE，则 SETATREF 函数计算为 (0) 零;如果为 FALSE （默认值） SETATREF 函数计算为_reference_的值。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 当用户操作在绘图窗口中或自动化方法，使 Microsoft Visio 更新包含 SETATREF 公式的单元格时，值改为重定向到 SETATREF 公式 （_引用_） 引用的单元格。 中包含 SETATREF 函数的单元格的公式保持不变。
   

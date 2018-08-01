@@ -1,5 +1,5 @@
 ---
-title: 使用消息存储提供程序接收消息
+title: 使用邮件存储区提供程序接收邮件
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778592"
 ---
-# <a name="receiving-messages-by-using-message-store-providers"></a>使用消息存储提供程序接收消息
+# <a name="receiving-messages-by-using-message-store-providers"></a>使用邮件存储区提供程序接收邮件
 
   
   
@@ -49,5 +49,5 @@ ms.locfileid: "19778592"
 
 
 
-[消息存储功能](message-store-features.md)
+[邮件存储区功能](message-store-features.md)
 

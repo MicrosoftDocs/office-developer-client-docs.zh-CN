@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19778915"
 ---
-# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>支持格式中传入消息的文本： 客户端职责
+# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>支持传入邮件中的格式化文本：客户端责任
 
   
   

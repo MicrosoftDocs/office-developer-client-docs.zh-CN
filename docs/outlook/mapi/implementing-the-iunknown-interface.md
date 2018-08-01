@@ -1,5 +1,5 @@
 ---
-title: 实现 IUnknown 接口
+title: 实施 IUnknown 接口
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775830"
 ---
-# <a name="implementing-the-iunknown-interface"></a>实现 IUnknown 接口
+# <a name="implementing-the-iunknown-interface"></a>实施 IUnknown 接口
 
   
   

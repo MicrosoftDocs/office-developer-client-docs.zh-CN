@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 884bbad509e459d4f329e6468dd99124cec6c7d9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777713"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_INITIAL_DETAILS_PANE  <br/> |
-|标识符:  <br/> |0x3F08  <br/> |
+|相关属性：  <br/> |PR_INITIAL_DETAILS_PANE  <br/> |
+|标识符：  <br/> |0x3F08  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 它必须存在所有通讯簿对象的名称服务提供程序界面 (NSPI) 服务器上，并且必须具有的值为零 (0)。 它必须未定义脱机通讯簿中的任何对象。
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

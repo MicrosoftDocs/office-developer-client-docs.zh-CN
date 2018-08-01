@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0a24fe3b-a1ef-4748-b3b3-3bf747473c9d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1fbeccd805953322b579d1490b5e74e5132aa7ce
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -99,11 +99,11 @@ _ircIdle_
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 下面的函数处理与 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程： 
   
-|**空闲例行函数**|**用法**|
+|**空闲例行函数**|**使用情况**|
 |:-----|:-----|
 |**ChangeIdleRoutine** <br/> |更改已注册的空闲例程的特征。  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |从 MAPI 系统中删除已注册的空闲例程。  <br/> |

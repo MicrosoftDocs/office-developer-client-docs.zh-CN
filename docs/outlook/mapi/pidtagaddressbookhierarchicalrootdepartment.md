@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c611640b-1a70-4a76-b7ff-c8ad8d320892
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 49c9b0a80f9bc3b45dfafa6f4e037fe55af289d5
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19777352"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
+|相关属性：  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
 |属性进行设置：  <br/> |通讯簿  <br/> |
 |长 ID （盖）：  <br/> |0x8C98  <br/> |
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |Exchange 通讯簿  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这是全局地址列表 (GAL) 容器的属性，并代表分层通讯根的可分辨的名称。 此属性才存在脱机通讯簿中而不会在 Active Directory 域服务 (AD DS)。 呼叫者应将 MAPI_CACHE_ONLY 传递给 GetProps 呼叫，以避免远程过程调用。 如果不存在，呼叫者应使用 PR_EMS_AB_HAB_ROOT_DEPARTMENT，其类型 PT_OBJECT 为，查找根部门。 
   
@@ -73,7 +73,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

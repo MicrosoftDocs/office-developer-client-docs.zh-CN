@@ -64,7 +64,7 @@ ms.locfileid: "19780223"
 |[FunctionDef](http://msdn.microsoft.com/library/dad99181-c14c-cce7-3883-106fe05f20a6%28Office.15%29.aspx) <br/> |[FunctionDef_Type](functiondef_type-complextypevisio-xml.md) <br/> ||
 |[SectionDef](http://msdn.microsoft.com/library/751da480-f387-4c68-6699-8948271c23ac%28Office.15%29.aspx) <br/> |[SectionDef_Type](sectiondef_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

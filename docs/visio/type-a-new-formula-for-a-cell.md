@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781580"
 ---
-# <a name="type-a-new-formula-for-a-cell"></a>为单元格键入新公式
+# <a name="type-a-new-formula-for-a-cell"></a>为单元格键入一个新公式
 
 1. 选择单元格。
     

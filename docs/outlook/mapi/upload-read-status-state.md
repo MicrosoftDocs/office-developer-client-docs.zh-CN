@@ -1,11 +1,11 @@
 ---
-title: 上载读取状态状态
+title: 上传“读取状态”状态
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 172eaf47d305cf6e4d1ba54ceb4ac4b4feab80e8
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779052"
 ---
-# <a name="upload-read-status-state"></a>上载读取状态状态
+# <a name="upload-read-status-state"></a>上传“读取状态”状态
 
   
   
@@ -43,11 +43,11 @@ ms.locfileid: "19779052"
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
 [MAPI 常量](mapi-constants.md)
   
-[有关的复制状态机](about-the-replication-state-machine.md)
+[关于复制状态计算机](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

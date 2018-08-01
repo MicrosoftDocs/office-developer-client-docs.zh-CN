@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 398ff2fd4bab49c8279e198e3efa416c53abda7c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -27,12 +27,12 @@ ms.locfileid: "19778058"
 
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_PROFILE_HOME_SERVER_FQDN  <br/> |
-|标识符:  <br/> |0x662A001F  <br/> |
+|相关属性：  <br/> |PR_PROFILE_HOME_SERVER_FQDN  <br/> |
+|标识符：  <br/> |0x662A001F  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性设置为用户的目录服务器的域名允许直接连接到域控制器 (DC)，它是已配置为使用针对 Microsoft Exchange Server 2007 的 Kerberos 身份验证的配置文件和早期版本中，通过在**PR_PROFILE_AUTH_PACKAGE**中设置**RPC_C_AUTHN_GSS_KERBEROS** 。
   
@@ -69,7 +69,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

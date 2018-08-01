@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780238"
 ---
-# <a name="fill-format-section"></a>“Fill Format”内容
+# <a name="fill-format-section"></a>“Fill Format”部分
 
 显示形状的当前填充格式属性以及该形状的投影，包括图案、前景色和背景色。 
   

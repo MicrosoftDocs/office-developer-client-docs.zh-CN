@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: c00c2fa04ae7e89f8c23c085ba021a935748ad4e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -49,7 +49,7 @@ MAPIOpenLocalFormContainer(
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 第三方安装程序可以使用指针返回到该接口到库中安装应用程序特定的表单，而无需程序事先登录到 MAPI。 
   
@@ -65,5 +65,5 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

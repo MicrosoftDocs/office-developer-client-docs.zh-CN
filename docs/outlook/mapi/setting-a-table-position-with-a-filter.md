@@ -1,5 +1,5 @@
 ---
-title: 设置使用筛选器的表位置
+title: 通过筛选器设置表位置
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778761"
 ---
-# <a name="setting-a-table-position-with-a-filter"></a>设置使用筛选器的表位置
+# <a name="setting-a-table-position-with-a-filter"></a>通过筛选器设置表位置
 
   
   

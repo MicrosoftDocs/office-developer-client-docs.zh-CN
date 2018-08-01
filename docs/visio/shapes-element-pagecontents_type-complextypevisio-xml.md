@@ -51,7 +51,7 @@ ms.locfileid: "19781291"
 |:-----|:-----|:-----|
 |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |包含定义形状的**主控形状**、**页面**或组形状元素中的元素。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

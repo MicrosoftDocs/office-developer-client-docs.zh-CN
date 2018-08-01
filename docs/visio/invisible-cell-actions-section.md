@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780462"
 ---
-# <a name="invisible-cell-actions-section"></a>Invisible 单元格（“Actions”内容）
+# <a name="invisible-cell-actions-section"></a>Invisible 单元格（“Actions”部分）
 
 指示动作标记或快捷菜单上是否显示动作。 
   
@@ -30,13 +30,13 @@ ms.locfileid: "19780462"
    
 ## <a name="remarks"></a>注解
 
-若要获取对 Invisible 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Invisible 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |操作。 *名称*。Invisiblewhere 操作。  *name*是 Actions 行的名称  <br/> |
    
-若要从某个程序按索引获取对 Invisible 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 Invisible 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

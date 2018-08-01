@@ -1,5 +1,5 @@
 ---
-title: HOUR 函数 (VisioShapeSheet)
+title: HOUR Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780408"
 ---
-# <a name="hour-function-visioshapesheet"></a>HOUR 函数 (VisioShapeSheet)
+# <a name="hour-function-visioshapesheet"></a>HOUR Function (VisioShapeSheet)
 
 返回一个表示整数，0 到 23 _datetime_或_expression_的一天的。
   
@@ -29,7 +29,7 @@ ms.locfileid: "19780408"
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
 | _datetime_ <br/> |必需  <br/> |**字符串** <br/> | 通常被识别为表示日期和时间的字符串或对包含日期和时间的单元格的引用。  <br/> |
-| _expression_ <br/> |必需  <br/> |**而异** <br/> |生成日期和时间的表达式。  <br/> |
+| _expression_ <br/> |必需  <br/> |**因情况而异** <br/> |生成日期和时间的表达式。  <br/> |
 | _lcid_ <br/> |可选  <br/> |**编号** <br/> | 用于计算非本地日期时间的区域设置标识符。区域设置标识符是系统头文件中描述的一个数字。  <br/> |
    
 ## <a name="remarks"></a>注解

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 03bc1a9f6f614d09cde0b4123176dd2a6d8dec1a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778418"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_SERVICE_INSTALL_ID，PR_SERVICE_INSTALL_ID_A，PR_SERVICE_INSTALL_ID_W  <br/> |
-|标识符:  <br/> |0x3D13  <br/> |
+|相关属性：  <br/> |PR_SERVICE_INSTALL_ID，PR_SERVICE_INSTALL_ID_A，PR_SERVICE_INSTALL_ID_W  <br/> |
+|标识符：  <br/> |0x3D13  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些属性可能为 component 参数**MsiProvideQualifiedComponent**调用的用于安装提供程序。 
   
@@ -58,7 +58,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 986719d2-8837-46b4-8d04-c24508f5e19a
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5398519dc841aa72f2c2655aac6c9f7acba7f335
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -27,12 +27,12 @@ ms.locfileid: "19777315"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ADDRTYPE，PR_ADDRTYPE_A，PR_ADDRTYPE_W  <br/> |
-|标识符:  <br/> |0x3002  <br/> |
+|相关属性：  <br/> |PR_ADDRTYPE，PR_ADDRTYPE_A，PR_ADDRTYPE_W  <br/> |
+|标识符：  <br/> |0x3002  <br/> |
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 这些属性是常见的基址属性的所有邮件用户的示例。 指定 MAPI 使用处理给定的邮件的邮件系统。
   
@@ -123,9 +123,9 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
   
 [MAPI 地址类型](mapi-address-types.md)
 

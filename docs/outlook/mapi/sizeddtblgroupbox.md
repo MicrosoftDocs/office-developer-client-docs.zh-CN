@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a3d8a76905aa9abb0e5bf001688608e03446704a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SizedDtblGroupBox**宏允许您定义一个组框控件时已知标签的长度。 使用下列成员来创建新的结构： 
   

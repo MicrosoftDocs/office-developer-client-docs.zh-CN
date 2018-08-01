@@ -73,7 +73,7 @@ MAPI_E_NO_SUPPORT
   
 > 表不支持分类和展开和折叠视图。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPITable::GetCollapseState**方法处理所[IMAPITable::SetCollapseState](imapitable-setcollapsestate.md)方法更改用户的分类表视图。 **GetCollapseState**保存数据所需的**SetCollapseState**用于重新生成适当类别分类的表的视图。 服务提供商确定要保存的数据。 但是，大多数服务提供商实现**GetCollapseState**保存下列： 
   
@@ -99,5 +99,5 @@ _LppbCollapseState_参数中存储的表的所有节点的当前状态。
 
 [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

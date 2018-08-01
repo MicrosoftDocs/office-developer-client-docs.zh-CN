@@ -1,5 +1,5 @@
 ---
-title: 填充渐变部分
+title: “Fill Gradient”部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780260"
 ---
-# <a name="fill-gradient-section"></a>填充渐变部分
+# <a name="fill-gradient-section"></a>“Fill Gradient”部分
 
 显示应用于形状的填充渐变颜色值。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 部分中的各[渐变停止行 （Fill 渐变内容）](gradient-stop-row-fill-gradient-section.md)行代表中填充的渐变光圈。 此部分可以为空。 
   

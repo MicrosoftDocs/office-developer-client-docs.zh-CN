@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781465"
 ---
-# <a name="tabs-section"></a>“Tabs”内容
+# <a name="tabs-section"></a>“Tabs”部分
 
 包含控制制表位位置和对齐方式的形状或样式的单元格。
   

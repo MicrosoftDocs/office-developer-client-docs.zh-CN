@@ -30,7 +30,7 @@ CALLTHIS ("* **过程** *"，["* **项目** *"]，[* * *arg1* * *，* * *arg2* *
 |:-----|:-----|:-----|:-----|
 | _过程_ <br/> |必需  <br/> |**字符串** <br/> | 要调用的过程的名称。  <br/> |
 | _项目_ <br/> |可选  <br/> |**字符串** <br/> |包含该过程的项目。  <br/> |
-| _arg_ <br/> |可选  <br/> |**数字、 字符串、 日期或货币** <br/> |作为参数传递给过程。  <br/> |
+| _arg_ <br/> |可选  <br/> |**Number、String、Date 或 Currency** <br/> |作为参数传递给过程。  <br/> |
    
 ## <a name="remarks"></a>注解
 
@@ -63,7 +63,7 @@ CALLTHIS 函数不同于 RUNADDON 函数，文档的项目不需要引用另一�
     
 - 将关闭窗口的窗口消息张贴到文档中，而不是关闭该文档。
     
-有关在 Visio 中运行代码的详细信息，请参阅[关于安全设置和运行 Visio 中的代码](about-security-settings-and-running-code-in-visio-shapesheet.md)在 ShapeSheet 参考。 
+有关在 Visio 中运行代码的详细信息，请参阅本“ShapeSheet 参考”中的[关于 Visio 中的安全设置和运行代码](about-security-settings-and-running-code-in-visio-shapesheet.md)。 
   
 ## <a name="example-1"></a>示例 1
 

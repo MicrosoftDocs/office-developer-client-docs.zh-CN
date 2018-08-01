@@ -55,7 +55,7 @@ S_OK
   
 > 已成功返回函数地址。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于所有支持对象实现**IMAPISupport::GetMemAllocRoutines**方法。 服务提供商调用**GetMemAllocRoutines**来获取三个内存分配函数传递给其初始化函数 （ [ABProviderInit](abproviderinit.md)、 [MSProviderInit](msproviderinit.md)或[XPProviderInit](xpproviderinit.md)） 的地址。 
   
@@ -69,5 +69,5 @@ S_OK
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

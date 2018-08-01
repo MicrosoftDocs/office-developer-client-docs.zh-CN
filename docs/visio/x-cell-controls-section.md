@@ -16,19 +16,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781679"
 ---
-# <a name="x-cell-controls-section"></a>X 单元格（“Controls”内容）
+# <a name="x-cell-controls-section"></a>X 单元格（“Controls”部分）
 
 代表*x* -指示形状的控制手柄在本地坐标系中的位置的坐标。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 X 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 X 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | 控件。  *名称*。其中 x 控件。  *name*是控制行的名称。  <br/> |
    
-若要从某个程序按索引获取对 X 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 X 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

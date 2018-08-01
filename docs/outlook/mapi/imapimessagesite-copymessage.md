@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5bf2ff74f6cda01608efd4b372aa4b03468c820f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -49,7 +49,7 @@ MAPI_E_NO_SUPPORT
   
 > 该操作不受此消息网站。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIMessageSite::CopyMessage**方法将当前的邮件复制到新文件夹。 **CopyMessage**不会更改当前正在显示给用户的邮件和新创建的邮件没有接口返回到表单。 
   
@@ -85,10 +85,10 @@ MFCMAPI 示例代码，请参阅下表。
   
 [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)
   
-[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md)
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
 [MAPI 表单接口](mapi-form-interfaces.md)
 

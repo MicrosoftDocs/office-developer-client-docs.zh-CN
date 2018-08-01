@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779817"
 ---
-# <a name="bulletstring-cell-paragraph-section"></a>BulletString 单元格（“Paragraph”内容）
+# <a name="bulletstring-cell-paragraph-section"></a>BulletString 单元格（“Paragraph”部分）
 
 允许您创建自定义的项目符号样式。 
   
@@ -24,15 +24,15 @@ ms.locfileid: "19779817"
 
 将样式作为字符串输入（加上引号）。例如，可输入下面的字符串：“ooo”。
   
-您还可以设置此单元格的值右键单击形状，指向**格式**，单击**文本**，然后单击**项目符号**选项卡。 
+您还可以通过以下方法设置此单元格的值：右键单击形状，指向 **“格式”**，单击 **“文本”**，然后单击 **“项目符号”** 选项卡。 
   
-若要获取对 BulletString 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 BulletString 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |Para.BulletStr [ *i* ] 其中*i* = < 1 >，2，3，...  <br/> |
    
-若要从某个程序按索引获取对 BulletString 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 BulletString 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

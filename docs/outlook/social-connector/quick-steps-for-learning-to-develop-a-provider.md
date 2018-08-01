@@ -1,5 +1,5 @@
 ---
-title: 快速学习开发提供程序的步骤
+title: 学习开发提供程序的快速步骤
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779327"
 ---
-# <a name="quick-steps-for-learning-to-develop-a-provider"></a>快速学习开发提供程序的步骤
+# <a name="quick-steps-for-learning-to-develop-a-provider"></a>学习开发提供程序的快速步骤
 
 若要开发 OSC 提供程序，您需要完成以下一般步骤：
   

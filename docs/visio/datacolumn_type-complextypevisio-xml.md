@@ -92,7 +92,7 @@ ms.locfileid: "19780025"
 |ColumnNameID  <br/> |xsd: string  <br/> |必需  <br/> ||Xsd: string 类型的值。  <br/> |
 |货币  <br/> |xsd:unsignedShort  <br/> |可选  <br/> ||Xsd:unsignedShort 类型的值。  <br/> |
 |DataType  <br/> |xsd:unsignedShort  <br/> |可选  <br/> ||Xsd:unsignedShort 类型的值。  <br/> |
-|度  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
+|Degree  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
 |DisplayOrder  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
 |DisplayWidth  <br/> |xsd:unsignedInt  <br/> |可选  <br/> ||Xsd:unsignedInt 类型的值。  <br/> |
 |超链接  <br/> |化  <br/> |可选  <br/> ||化类型的值。  <br/> |

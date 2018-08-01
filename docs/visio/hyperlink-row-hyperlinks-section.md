@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780419"
 ---
-# <a name="hyperlink-row-hyperlinks-section"></a>Hyperlink 行（“Hyperlinks”内容）
+# <a name="hyperlink-row-hyperlinks-section"></a>Hyperlink 行（“Hyperlinks”部分）
 
 包含与形状相关联的单个超链接的信息。对于每个超链接，形状中都将包含一个与之对应的 Hyperlink 行。
   
@@ -25,7 +25,7 @@ ms.locfileid: "19780419"
 |**Cell**|**说明**|
 |:-----|:-----|
 |[说明](description-cell-hyperlinks-section.md) <br/> |超链接的说明性文本字符串。  <br/> |
-|[Address](address-cell-hyperlinks-section.md) <br/> |要跳转到的 URL 地址、MS-DOS 文件名或 UNC 路径。  <br/> |
+|[地址](address-cell-hyperlinks-section.md) <br/> |要跳转到的 URL 地址、MS-DOS 文件名或 UNC 路径。  <br/> |
 |[SubAddress](subaddress-cell-hyperlinks-section.md) <br/> |要链接到的目标文档内的位置。  <br/> |
 |[ExtraInfo](extrainfo-cell-hyperlinks-section.md) <br/> |传递解析 URL 时要使用的信息的字符串。  <br/> |
 |[框架](frame-cell-hyperlinks-section.md) <br/> |Microsoft Office Visio 作为 ActiveX 容器中的活动文档打开时的目标框架名。默认值为空字符串。  <br/> |

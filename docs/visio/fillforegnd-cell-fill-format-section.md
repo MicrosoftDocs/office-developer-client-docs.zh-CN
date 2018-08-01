@@ -16,7 +16,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780261"
 ---
-# <a name="fillforegnd-cell-fill-format-section"></a>FillForegnd 单元格（“Fill Format”内容）
+# <a name="fillforegnd-cell-fill-format-section"></a>FillForegnd 单元格（“Fill Format”部分）
 
 确定用于形状的填充图案的前景（划线）颜色。
   
@@ -28,13 +28,13 @@ ms.locfileid: "19780261"
   
 您可以在 FillForegndTrans 单元格中设置前景填充的透明度。
   
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 FillForegnd 单元格的引用，请使用： 
+若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 FillForegnd 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 |单元格名称：  <br/> |FillForegnd  <br/> |
    
-若要从某个程序按索引获取对 FillForegnd 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对 FillForegnd 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

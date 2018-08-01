@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 93578300e2520dda4a9621b05ac6a79c54eca2ef
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -87,7 +87,7 @@ MAPI_E_TOO_COMPLEX
   
 > 服务提供程序不支持指定的搜索条件。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPIContainer::SetSearchCriteria**方法建立支持搜索，通常为一个搜索结果文件夹的容器中的搜索条件。 搜索结果文件夹包含一些主题的链接，符合搜索条件; 的邮件实际邮件仍存储在其原始位置。 搜索结果文件夹中包含的唯一数据是其内容表。 内容表中的搜索结果文件夹应用搜索限制后已合并的邮件存储的内容。 
   
@@ -133,7 +133,7 @@ MFCMAPI 示例代码，请参阅下表。
   
 [IMAPIFolder::CreateFolder](imapifolder-createfolder.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
   
 [SPropertyRestriction](spropertyrestriction.md)
   
@@ -141,8 +141,8 @@ MFCMAPI 示例代码，请参阅下表。
   
 [SSubRestriction](ssubrestriction.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

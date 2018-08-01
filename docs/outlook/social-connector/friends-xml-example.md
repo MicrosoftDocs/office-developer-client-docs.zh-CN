@@ -1,5 +1,5 @@
 ---
-title: 朋友 XML 示例
+title: 好友 XML 示例
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779195"
 ---
-# <a name="friends-xml-example"></a>朋友 XML 示例
+# <a name="friends-xml-example"></a>好友 XML 示例
 
 本主题中的 XML 示例是在其调用[ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法后返回 Outlook Social Connector (OSC) 到一个朋友 XML 字符串。 该示例演示**朋友**XML 的两个朋友每分隔**person**元素。 每个朋友社交网络上指定**userID**元素的唯一值。 
   

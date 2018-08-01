@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fb9050c9-5797-44f0-8bf5-6264f4e6d7c3
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 42b2f8e9695b1dbdc5ea02db5a4e8a0eaba6099c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知的原点出现错误，无法完成操作。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 已由[UlValidateParms](ulvalidateparms.md)宏取代**UlValidateParameters**宏。 **UlValidateParameters** RISC 平台上不会无法正常工作，现在将会阻止对它们进行编译。 仍编译，并能够正常运行 Intel 平台上，但**UlValidateParms**建议所有平台上。 
   

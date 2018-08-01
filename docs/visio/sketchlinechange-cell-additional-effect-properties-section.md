@@ -1,5 +1,5 @@
 ---
-title: SketchLineChange 单元格 （其他效果属性内容）
+title: SketchLineChange 单元格（“Additional Effect Properties”部分）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781374"
 ---
-# <a name="sketchlinechange-cell-additional-effect-properties-section"></a>SketchLineChange 单元格 （其他效果属性内容）
+# <a name="sketchlinechange-cell-additional-effect-properties-section"></a>SketchLineChange 单元格（“Additional Effect Properties”部分）
 
 确定随机选择的形状的线条从形状的几何量时使用素描效果的部分的长度的百分比。 如果**SketchLineChange**单元格的值设置为 0%的几何形状的行匹配形状的几何图形。 如果值为 100%的几何形状的线条不遵循的几何形状。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 为了获得最佳结果，理想**SketchLineChange**单元格的值的范围是 15%到 50%之间。 15%下面的值是几乎可以忽略;大于 50%的值可能太多 randomize 行。 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 2e656679fcf76992ec0b648274bd5ffa673b4007
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777505"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_CONVERSATION_TOPIC，PR_CONVERSATION_TOPIC_A，PR_CONVERSATION_TOPIC_W  <br/> |
-|标识符:  <br/> |0x0070  <br/> |
+|相关属性：  <br/> |PR_CONVERSATION_TOPIC，PR_CONVERSATION_TOPIC_A，PR_CONVERSATION_TOPIC_W  <br/> |
+|标识符：  <br/> |0x0070  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 会话线索表示一系列邮件和答复。 设置这些属性是线程，通常为**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 属性中的第一条消息。 后续的消息的线程中应使用同一主题不做任何修改。 
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

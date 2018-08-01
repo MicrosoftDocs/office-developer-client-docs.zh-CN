@@ -1,5 +1,5 @@
 ---
-title: 在 C 中实现 IUnknown
+title: 使用 C 实现 IUnknown
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775815"
 ---
-# <a name="implementing-iunknown-in-c"></a>在 C 中实现 IUnknown
+# <a name="implementing-iunknown-in-c"></a>使用 C 实现 IUnknown
 
 **适用于**： Outlook 
   
@@ -133,5 +133,5 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 ## <a name="see-also"></a>另请参阅
 
 - [实现 MAPI 对象](implementing-mapi-objects.md)
-- [实现 IUnknown 接口](implementing-the-iunknown-interface.md)
+- [实施 IUnknown 接口](implementing-the-iunknown-interface.md)
 

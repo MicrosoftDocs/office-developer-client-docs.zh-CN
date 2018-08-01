@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b5902c25197c2ae5790e654a8f29227e107b4a72
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -53,7 +53,7 @@ HRESULT NSTServiceEntry(
 
 返回值的信息，请参阅**[MSGSERVICEENTRY](msgserviceentry.md)**。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 当使用**[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** 查找 msmapi32.dll 中此函数的地址，指定"NSTServiceEntry"作为过程名称。 
   
@@ -83,5 +83,5 @@ HRESULT NSTServiceEntry(
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
 

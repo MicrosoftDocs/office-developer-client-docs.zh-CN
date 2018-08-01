@@ -49,7 +49,7 @@ ms.locfileid: "19781461"
 |:-----|:-----|:-----|
 |[样式表](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |表示在文档中定义的样式。  <br/> |
    
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

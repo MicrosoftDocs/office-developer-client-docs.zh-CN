@@ -16,19 +16,19 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779786"
 ---
-# <a name="brightness-cell-image-properties-section"></a>Brightness 单元格（“Image Properties”内容）
+# <a name="brightness-cell-image-properties-section"></a>Brightness 单元格（“Image Properties”部分）
 
 调整位图图像的亮度。输入 0% 到 49% 之间的值，可以减小图像的亮度；输入 51% 到 100% 之间的值，可以增加图像的亮度。默认值是 50%。
   
 ## <a name="remarks"></a>注释
 
-要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 Brightness 单元格的引用，请使用： 
+要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 Brightness 单元格的引用，请使用： 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | Brightness  <br/> |
    
-若要从某个程序按索引获取对 Brightness 单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+要从某个程序按索引获取对 Brightness 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
