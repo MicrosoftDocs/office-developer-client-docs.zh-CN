@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781025"
 ---
-# <a name="reference-a-cell-in-a-formula"></a><span data-ttu-id="ec0e2-102">在公式中引用单元格</span><span class="sxs-lookup"><span data-stu-id="ec0e2-102">Reference a Cell in a Formula</span></span>
+# <a name="reference-a-cell-in-a-formula"></a><span data-ttu-id="3ae6b-102">引用公式中的单元格</span><span class="sxs-lookup"><span data-stu-id="3ae6b-102">Reference a Cell in a Formula</span></span>
 
-1. <span data-ttu-id="ec0e2-103">双击您要放置引用的单元格，然后将插入点放在公式中所需的位置上。</span><span class="sxs-lookup"><span data-stu-id="ec0e2-103">Double-click the cell in which you want to place the reference, and then place the insertion point at the location you want in the formula.</span></span>
+1. <span data-ttu-id="3ae6b-103">双击您要放置引用的单元格，然后将插入点放在公式中所需的位置上。</span><span class="sxs-lookup"><span data-stu-id="3ae6b-103">Double-click the cell in which you want to place the reference, and then place the insertion point at the location you want in the formula.</span></span>
     
-2. <span data-ttu-id="ec0e2-104">单击要引用的单元格。</span><span class="sxs-lookup"><span data-stu-id="ec0e2-104">Click the cell you want to reference.</span></span>
+2. <span data-ttu-id="3ae6b-104">单击要引用的单元格。</span><span class="sxs-lookup"><span data-stu-id="3ae6b-104">Click the cell you want to reference.</span></span>
     
-3. <span data-ttu-id="ec0e2-p101">按 Enter 以接受公式，或者按 Esc 取消更改。</span><span class="sxs-lookup"><span data-stu-id="ec0e2-p101">Press ENTER to accept the formula. Or press ESC to cancel the changes.</span></span>
+3. <span data-ttu-id="3ae6b-p101">按 Enter 以接受公式，或者按 Esc 取消更改。</span><span class="sxs-lookup"><span data-stu-id="3ae6b-p101">Press ENTER to accept the formula. Or press ESC to cancel the changes.</span></span>
     
 

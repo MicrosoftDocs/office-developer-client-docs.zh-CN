@@ -16,8 +16,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780351"
 ---
-# <a name="glue-info-section"></a><span data-ttu-id="12ba5-103">“Glue Info”内容</span><span class="sxs-lookup"><span data-stu-id="12ba5-103">Glue Info Section</span></span>
+# <a name="glue-info-section"></a><span data-ttu-id="8438f-103">“Glue Info”部分</span><span class="sxs-lookup"><span data-stu-id="8438f-103">Glue Info Section</span></span>
 
-<span data-ttu-id="12ba5-104">包含当某一维形状粘附于其他形状时为该一维形状生成的公式。</span><span class="sxs-lookup"><span data-stu-id="12ba5-104">Contains formulas generated for a 1-D shape when the 1-D shape is glued to other shapes.</span></span>
+<span data-ttu-id="8438f-104">包含当某一维形状粘附于其他形状时为该一维形状生成的公式。</span><span class="sxs-lookup"><span data-stu-id="8438f-104">Contains formulas generated for a 1-D shape when the 1-D shape is glued to other shapes.</span></span>
   
 

@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780163"
 ---
-# <a name="dynamicgridenabledtype-complextype-visio-xml"></a><span data-ttu-id="b7bac-102">DynamicGridEnabled_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="b7bac-102">DynamicGridEnabled_Type complexType ('Visio XML')</span></span>
+# <a name="dynamicgridenabledtype-complextype-visio-xml"></a><span data-ttu-id="63cf6-102">DynamicGridEnabled_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="63cf6-102">DynamicGridEnabled_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="b7bac-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="b7bac-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="63cf6-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="63cf6-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="b7bac-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="b7bac-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="b7bac-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="b7bac-105">**Schema file**</span></span> <br/> |<span data-ttu-id="b7bac-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="b7bac-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="b7bac-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="b7bac-107">**Extension base**</span></span> <br/> |<span data-ttu-id="b7bac-108">化</span><span class="sxs-lookup"><span data-stu-id="b7bac-108">xsd:boolean</span></span>  <br/> |
+|<span data-ttu-id="63cf6-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="63cf6-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="63cf6-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="63cf6-105">**Schema file**</span></span> <br/> |<span data-ttu-id="63cf6-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="63cf6-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="63cf6-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="63cf6-107">**Extension base**</span></span> <br/> |<span data-ttu-id="63cf6-108">化</span><span class="sxs-lookup"><span data-stu-id="63cf6-108">xsd:boolean</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="b7bac-109">定义</span><span class="sxs-lookup"><span data-stu-id="b7bac-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="63cf6-109">定义</span><span class="sxs-lookup"><span data-stu-id="63cf6-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="DynamicGridEnabled_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "19780163"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="b7bac-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="b7bac-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="63cf6-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="63cf6-110">Elements and attributes</span></span>
 
-<span data-ttu-id="b7bac-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="b7bac-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="63cf6-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="63cf6-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="b7bac-112">子元素</span><span class="sxs-lookup"><span data-stu-id="b7bac-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="63cf6-112">子元素</span><span class="sxs-lookup"><span data-stu-id="63cf6-112">Child elements</span></span>
 
-<span data-ttu-id="b7bac-113">无。</span><span class="sxs-lookup"><span data-stu-id="b7bac-113">None.</span></span>
+<span data-ttu-id="63cf6-113">无。</span><span class="sxs-lookup"><span data-stu-id="63cf6-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="b7bac-114">属性</span><span class="sxs-lookup"><span data-stu-id="b7bac-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="63cf6-114">属性</span><span class="sxs-lookup"><span data-stu-id="63cf6-114">Attributes</span></span>
 
-<span data-ttu-id="b7bac-115">无。</span><span class="sxs-lookup"><span data-stu-id="b7bac-115">None.</span></span>
+<span data-ttu-id="63cf6-115">无。</span><span class="sxs-lookup"><span data-stu-id="63cf6-115">None.</span></span>
   
 

@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19780828"
 ---
-# <a name="page-properties-section"></a><span data-ttu-id="9a306-103">“Page Properties”内容</span><span class="sxs-lookup"><span data-stu-id="9a306-103">Page Properties Section</span></span>
+# <a name="page-properties-section"></a><span data-ttu-id="41ddb-103">“Page Properties”部分</span><span class="sxs-lookup"><span data-stu-id="41ddb-103">Page Properties Section</span></span>
 
-<span data-ttu-id="9a306-104">包含控制页属性（如页面宽度、高度和比例）的单元格。</span><span class="sxs-lookup"><span data-stu-id="9a306-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
+<span data-ttu-id="41ddb-104">包含控制页属性（如页面宽度、高度和比例）的单元格。</span><span class="sxs-lookup"><span data-stu-id="41ddb-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="9a306-105">注解</span><span class="sxs-lookup"><span data-stu-id="9a306-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="41ddb-105">注解</span><span class="sxs-lookup"><span data-stu-id="41ddb-105">Remarks</span></span>
 
-<span data-ttu-id="9a306-106">您可以设置页面属性的值进行的单元格中**网页属性**部分中，输入或通过使用**页面设置**对话框 （在**设计**选项卡上，单击**页面设置**组中的对话框启动器）。</span><span class="sxs-lookup"><span data-stu-id="9a306-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
+<span data-ttu-id="41ddb-106">您可以设置页面属性的值进行的单元格中**网页属性**部分中，输入或通过使用**页面设置**对话框 （在**设计**选项卡上，单击**页面设置**组中的对话框启动器）。</span><span class="sxs-lookup"><span data-stu-id="41ddb-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
   
 

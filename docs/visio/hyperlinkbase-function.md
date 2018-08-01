@@ -16,16 +16,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780406"
 ---
-# <a name="hyperlinkbase-function"></a><span data-ttu-id="f82ca-103">HYPERLINKBASE 函数</span><span class="sxs-lookup"><span data-stu-id="f82ca-103">HYPERLINKBASE Function</span></span>
+# <a name="hyperlinkbase-function"></a><span data-ttu-id="22a91-103">HYPERLINKBASE 函数</span><span class="sxs-lookup"><span data-stu-id="22a91-103">HYPERLINKBASE Function</span></span>
 
-<span data-ttu-id="f82ca-104">从文档属性的**超链接基础**字段返回的文本。</span><span class="sxs-lookup"><span data-stu-id="f82ca-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
+<span data-ttu-id="22a91-104">从文档属性的**超链接基础**字段返回的文本。</span><span class="sxs-lookup"><span data-stu-id="22a91-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f82ca-105">语法</span><span class="sxs-lookup"><span data-stu-id="f82ca-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="22a91-105">语法</span><span class="sxs-lookup"><span data-stu-id="22a91-105">Syntax</span></span>
 
-<span data-ttu-id="f82ca-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="f82ca-106">HYPERLINKBASE ()</span></span>
+<span data-ttu-id="22a91-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="22a91-106">HYPERLINKBASE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="f82ca-107">返回值</span><span class="sxs-lookup"><span data-stu-id="f82ca-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="22a91-107">返回值</span><span class="sxs-lookup"><span data-stu-id="22a91-107">Return value</span></span>
 
-<span data-ttu-id="f82ca-108">String</span><span class="sxs-lookup"><span data-stu-id="f82ca-108">String</span></span>
+<span data-ttu-id="22a91-108">String</span><span class="sxs-lookup"><span data-stu-id="22a91-108">String</span></span>
   
 

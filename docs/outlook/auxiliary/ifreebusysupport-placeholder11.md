@@ -14,13 +14,13 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774238"
 ---
-# <a name="ifreebusysupportplaceholder11"></a><span data-ttu-id="d43fb-103">IFreeBusySupport::Placeholder11</span><span class="sxs-lookup"><span data-stu-id="d43fb-103">IFreeBusySupport::Placeholder11</span></span>
+# <a name="ifreebusysupportplaceholder11"></a><span data-ttu-id="1ca35-103">IFreeBusySupport::Placeholder11</span><span class="sxs-lookup"><span data-stu-id="1ca35-103">IFreeBusySupport::Placeholder11</span></span>
 
-<span data-ttu-id="d43fb-104">此成员是一个占位符，不支持。</span><span class="sxs-lookup"><span data-stu-id="d43fb-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="1ca35-104">此成员是一个占位符，不支持。</span><span class="sxs-lookup"><span data-stu-id="1ca35-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="d43fb-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="d43fb-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="1ca35-105">快速信息</span><span class="sxs-lookup"><span data-stu-id="1ca35-105">Quick info</span></span>
 
-<span data-ttu-id="d43fb-106">请参阅[IFreeBusySupport](ifreebusysupport.md)。</span><span class="sxs-lookup"><span data-stu-id="d43fb-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="1ca35-106">请参阅[IFreeBusySupport](ifreebusysupport.md)。</span><span class="sxs-lookup"><span data-stu-id="1ca35-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 BOOL Placeholder11( 
@@ -28,16 +28,16 @@ BOOL Placeholder11(
 );
 ```
 
-## <a name="return-values"></a><span data-ttu-id="d43fb-107">返回值</span><span class="sxs-lookup"><span data-stu-id="d43fb-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="1ca35-107">返回值</span><span class="sxs-lookup"><span data-stu-id="1ca35-107">Return values</span></span>
 
-<span data-ttu-id="d43fb-108">总是**false**，因为此成员是一个占位符，并且不受支持。</span><span class="sxs-lookup"><span data-stu-id="d43fb-108">Always **false**, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="1ca35-108">总是**false**，因为此成员是一个占位符，并且不受支持。</span><span class="sxs-lookup"><span data-stu-id="1ca35-108">Always **false**, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d43fb-109">备注</span><span class="sxs-lookup"><span data-stu-id="d43fb-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1ca35-109">说明</span><span class="sxs-lookup"><span data-stu-id="1ca35-109">Remarks</span></span>
 
-<span data-ttu-id="d43fb-110">此成员必须返回**false**。</span><span class="sxs-lookup"><span data-stu-id="d43fb-110">This member must return **false**.</span></span>
+<span data-ttu-id="1ca35-110">此成员必须返回**false**。</span><span class="sxs-lookup"><span data-stu-id="1ca35-110">This member must return **false**.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d43fb-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d43fb-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1ca35-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1ca35-111">See also</span></span>
 
-- [<span data-ttu-id="d43fb-112">常量 (忙/闲 API)</span><span class="sxs-lookup"><span data-stu-id="d43fb-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md) 
-- [<span data-ttu-id="d43fb-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="d43fb-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="1ca35-112">常量 (忙/闲 API)</span><span class="sxs-lookup"><span data-stu-id="1ca35-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md) 
+- [<span data-ttu-id="1ca35-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="1ca35-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 

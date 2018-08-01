@@ -16,16 +16,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781456"
 ---
-# <a name="subject-function"></a><span data-ttu-id="0a513-103">SUBJECT 函数</span><span class="sxs-lookup"><span data-stu-id="0a513-103">SUBJECT Function</span></span>
+# <a name="subject-function"></a><span data-ttu-id="bac2b-103">SUBJECT 函数</span><span class="sxs-lookup"><span data-stu-id="bac2b-103">SUBJECT Function</span></span>
 
-<span data-ttu-id="0a513-104">从**主题**字段中的文档属性返回的文本。</span><span class="sxs-lookup"><span data-stu-id="0a513-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
+<span data-ttu-id="bac2b-104">从**主题**字段中的文档属性返回的文本。</span><span class="sxs-lookup"><span data-stu-id="bac2b-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="0a513-105">语法</span><span class="sxs-lookup"><span data-stu-id="0a513-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bac2b-105">语法</span><span class="sxs-lookup"><span data-stu-id="bac2b-105">Syntax</span></span>
 
-<span data-ttu-id="0a513-106">主题 （)</span><span class="sxs-lookup"><span data-stu-id="0a513-106">SUBJECT ()</span></span>
+<span data-ttu-id="bac2b-106">主题 （)</span><span class="sxs-lookup"><span data-stu-id="bac2b-106">SUBJECT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="0a513-107">返回值</span><span class="sxs-lookup"><span data-stu-id="0a513-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="bac2b-107">返回值</span><span class="sxs-lookup"><span data-stu-id="bac2b-107">Return value</span></span>
 
-<span data-ttu-id="0a513-108">String</span><span class="sxs-lookup"><span data-stu-id="0a513-108">String</span></span>
+<span data-ttu-id="bac2b-108">String</span><span class="sxs-lookup"><span data-stu-id="bac2b-108">String</span></span>
   
 

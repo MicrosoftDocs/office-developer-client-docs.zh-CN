@@ -16,8 +16,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781450"
 ---
-# <a name="style-properties-section"></a><span data-ttu-id="6d676-103">“Style Properties”内容</span><span class="sxs-lookup"><span data-stu-id="6d676-103">Style Properties Section</span></span>
+# <a name="style-properties-section"></a><span data-ttu-id="0d4ca-103">“Style Properties”部分</span><span class="sxs-lookup"><span data-stu-id="0d4ca-103">Style Properties Section</span></span>
 
-<span data-ttu-id="6d676-104">包含控制样式行为（如样式是否包含文本、线条和填充属性）的单元格。</span><span class="sxs-lookup"><span data-stu-id="6d676-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
+<span data-ttu-id="0d4ca-104">包含控制样式行为（如样式是否包含文本、线条和填充属性）的单元格。</span><span class="sxs-lookup"><span data-stu-id="0d4ca-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
   
 

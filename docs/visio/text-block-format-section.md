@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781487"
 ---
-# <a name="text-block-format-section"></a><span data-ttu-id="c231d-103">“Text Block Format”内容</span><span class="sxs-lookup"><span data-stu-id="c231d-103">Text Block Format Section</span></span>
+# <a name="text-block-format-section"></a><span data-ttu-id="7745f-103">“Text Block Format”部分</span><span class="sxs-lookup"><span data-stu-id="7745f-103">Text Block Format Section</span></span>
 
-<span data-ttu-id="c231d-104">包含控制形状文本块中文本的对齐方式、边距以及默认制表位位置的单元格。</span><span class="sxs-lookup"><span data-stu-id="c231d-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
+<span data-ttu-id="7745f-104">包含控制形状文本块中文本的对齐方式、边距以及默认制表位位置的单元格。</span><span class="sxs-lookup"><span data-stu-id="7745f-104">Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c231d-105">注解</span><span class="sxs-lookup"><span data-stu-id="c231d-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7745f-105">注解</span><span class="sxs-lookup"><span data-stu-id="7745f-105">Remarks</span></span>
 
-<span data-ttu-id="c231d-106">您还可以通过使用**文本**对话框来设置这些文本属性 （在**主页**选项卡上，单击**字体**组中的对话框启动器）。</span><span class="sxs-lookup"><span data-stu-id="c231d-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
+<span data-ttu-id="7745f-106">您还可以通过使用**文本**对话框来设置这些文本属性 （在**主页**选项卡上，单击**字体**组中的对话框启动器）。</span><span class="sxs-lookup"><span data-stu-id="7745f-106">You can also set these text attributes by using the **Text** dialog box (on the **Home** tab, click the dialog box launcher in the **Font** group).</span></span> 
   
 

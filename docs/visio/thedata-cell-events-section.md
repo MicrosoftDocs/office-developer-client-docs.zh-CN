@@ -16,8 +16,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781494"
 ---
-# <a name="thedata-cell-events-section"></a><span data-ttu-id="b0f62-103">TheData 单元格（“Events”内容）</span><span class="sxs-lookup"><span data-stu-id="b0f62-103">TheData Cell (Events Section)</span></span>
+# <a name="thedata-cell-events-section"></a><span data-ttu-id="08ca0-103">TheData 单元格（“Events”部分）</span><span class="sxs-lookup"><span data-stu-id="08ca0-103">TheData Cell (Events Section)</span></span>
 
-<span data-ttu-id="b0f62-104">保留以供将来使用。</span><span class="sxs-lookup"><span data-stu-id="b0f62-104">Reserved for future use.</span></span>
+<span data-ttu-id="08ca0-104">保留以供将来使用。</span><span class="sxs-lookup"><span data-stu-id="08ca0-104">Reserved for future use.</span></span>
   
 

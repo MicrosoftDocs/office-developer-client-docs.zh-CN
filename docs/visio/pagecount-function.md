@@ -16,16 +16,16 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780829"
 ---
-# <a name="pagecount-function"></a><span data-ttu-id="1117c-103">PAGECOUNT 函数</span><span class="sxs-lookup"><span data-stu-id="1117c-103">PAGECOUNT Function</span></span>
+# <a name="pagecount-function"></a><span data-ttu-id="bfa89-103">PAGECOUNT 函数</span><span class="sxs-lookup"><span data-stu-id="bfa89-103">PAGECOUNT Function</span></span>
 
-<span data-ttu-id="1117c-104">返回文档中的前景色页数。</span><span class="sxs-lookup"><span data-stu-id="1117c-104">Returns the number of foreground pages in a document.</span></span> 
+<span data-ttu-id="bfa89-104">返回文档中的前景色页数。</span><span class="sxs-lookup"><span data-stu-id="bfa89-104">Returns the number of foreground pages in a document.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="1117c-105">语法</span><span class="sxs-lookup"><span data-stu-id="1117c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bfa89-105">语法</span><span class="sxs-lookup"><span data-stu-id="bfa89-105">Syntax</span></span>
 
-<span data-ttu-id="1117c-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="1117c-106">PAGECOUNT ()</span></span>
+<span data-ttu-id="bfa89-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="bfa89-106">PAGECOUNT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="1117c-107">返回值</span><span class="sxs-lookup"><span data-stu-id="1117c-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="bfa89-107">返回值</span><span class="sxs-lookup"><span data-stu-id="bfa89-107">Return value</span></span>
 
-<span data-ttu-id="1117c-108">Number</span><span class="sxs-lookup"><span data-stu-id="1117c-108">Number</span></span>
+<span data-ttu-id="bfa89-108">Number</span><span class="sxs-lookup"><span data-stu-id="bfa89-108">Number</span></span>
   
 

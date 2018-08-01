@@ -16,32 +16,32 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781444"
 ---
-# <a name="sqrt-function"></a><span data-ttu-id="38481-103">SQRT 函数</span><span class="sxs-lookup"><span data-stu-id="38481-103">SQRT Function</span></span>
+# <a name="sqrt-function"></a><span data-ttu-id="fe8d5-103">SQRT 函数</span><span class="sxs-lookup"><span data-stu-id="fe8d5-103">SQRT Function</span></span>
 
-<span data-ttu-id="38481-104">返回数字的平方根。</span><span class="sxs-lookup"><span data-stu-id="38481-104">Returns the square root of a number.</span></span> 
+<span data-ttu-id="fe8d5-104">返回数字的平方根。</span><span class="sxs-lookup"><span data-stu-id="fe8d5-104">Returns the square root of a number.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="38481-105">语法</span><span class="sxs-lookup"><span data-stu-id="38481-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fe8d5-105">语法</span><span class="sxs-lookup"><span data-stu-id="fe8d5-105">Syntax</span></span>
 
-<span data-ttu-id="38481-106">SQRT (* **数量** *)</span><span class="sxs-lookup"><span data-stu-id="38481-106">SQRT(** *number* ** )</span></span> 
+<span data-ttu-id="fe8d5-106">SQRT (* **数量** *)</span><span class="sxs-lookup"><span data-stu-id="fe8d5-106">SQRT(** *number* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="38481-107">参数</span><span class="sxs-lookup"><span data-stu-id="38481-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="fe8d5-107">参数</span><span class="sxs-lookup"><span data-stu-id="fe8d5-107">Parameters</span></span>
 
-|<span data-ttu-id="38481-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="38481-108">**Name**</span></span>|<span data-ttu-id="38481-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="38481-109">**Required/Optional**</span></span>|<span data-ttu-id="38481-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="38481-110">**Data Type**</span></span>|<span data-ttu-id="38481-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="38481-111">**Description**</span></span>|
+|<span data-ttu-id="fe8d5-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="fe8d5-108">**Name**</span></span>|<span data-ttu-id="fe8d5-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="fe8d5-109">**Required/Optional**</span></span>|<span data-ttu-id="fe8d5-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="fe8d5-110">**Data Type**</span></span>|<span data-ttu-id="fe8d5-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="fe8d5-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="38481-112">_number_</span><span class="sxs-lookup"><span data-stu-id="38481-112">_number_</span></span> <br/> |<span data-ttu-id="38481-113">必需</span><span class="sxs-lookup"><span data-stu-id="38481-113">Required</span></span>  <br/> |<span data-ttu-id="38481-114">**数字**</span><span class="sxs-lookup"><span data-stu-id="38481-114">**Numeric**</span></span> <br/> |<span data-ttu-id="38481-115">要查找其平方根的数。</span><span class="sxs-lookup"><span data-stu-id="38481-115">The number whose square root you want to find.</span></span>  <br/> |
+| <span data-ttu-id="fe8d5-112">_number_</span><span class="sxs-lookup"><span data-stu-id="fe8d5-112">_number_</span></span> <br/> |<span data-ttu-id="fe8d5-113">必需</span><span class="sxs-lookup"><span data-stu-id="fe8d5-113">Required</span></span>  <br/> |<span data-ttu-id="fe8d5-114">**Numeric**</span><span class="sxs-lookup"><span data-stu-id="fe8d5-114">**Numeric**</span></span> <br/> |<span data-ttu-id="fe8d5-115">要查找其平方根的数。</span><span class="sxs-lookup"><span data-stu-id="fe8d5-115">The number whose square root you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="38481-116">返回值</span><span class="sxs-lookup"><span data-stu-id="38481-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="fe8d5-116">返回值</span><span class="sxs-lookup"><span data-stu-id="fe8d5-116">Return value</span></span>
 
-<span data-ttu-id="38481-117">Numeric</span><span class="sxs-lookup"><span data-stu-id="38481-117">Numeric</span></span>
+<span data-ttu-id="fe8d5-117">Numeric</span><span class="sxs-lookup"><span data-stu-id="fe8d5-117">Numeric</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="38481-118">注解</span><span class="sxs-lookup"><span data-stu-id="38481-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fe8d5-118">注解</span><span class="sxs-lookup"><span data-stu-id="fe8d5-118">Remarks</span></span>
 
-<span data-ttu-id="38481-119">如果_number_为负数，则 SQRT 函数将返回错误值 #NUM ！。</span><span class="sxs-lookup"><span data-stu-id="38481-119">If  _number_ is negative, the SQRT function returns the error value #NUM!.</span></span> 
+<span data-ttu-id="fe8d5-119">如果_number_为负数，则 SQRT 函数将返回错误值 #NUM ！。</span><span class="sxs-lookup"><span data-stu-id="fe8d5-119">If  _number_ is negative, the SQRT function returns the error value #NUM!.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="38481-120">示例</span><span class="sxs-lookup"><span data-stu-id="38481-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fe8d5-120">示例</span><span class="sxs-lookup"><span data-stu-id="fe8d5-120">Example</span></span>
 
-<span data-ttu-id="38481-121">SQRT(2)</span><span class="sxs-lookup"><span data-stu-id="38481-121">SQRT(2)</span></span> 
+<span data-ttu-id="fe8d5-121">SQRT(2)</span><span class="sxs-lookup"><span data-stu-id="fe8d5-121">SQRT(2)</span></span> 
   
-<span data-ttu-id="38481-122">返回 1.4142。</span><span class="sxs-lookup"><span data-stu-id="38481-122">Returns 1.4142.</span></span> 
+<span data-ttu-id="fe8d5-122">返回 1.4142。</span><span class="sxs-lookup"><span data-stu-id="fe8d5-122">Returns 1.4142.</span></span> 
   
 

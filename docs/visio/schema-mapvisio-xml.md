@@ -14,9 +14,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781236"
 ---
-# <a name="schema-map-visio-xml"></a><span data-ttu-id="1eed0-103">架构映射 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="1eed0-103">Schema map ('Visio XML')</span></span>
+# <a name="schema-map-visio-xml"></a><span data-ttu-id="64ebd-103">架构映射 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="64ebd-103">Schema map ('Visio XML')</span></span>
 
-<span data-ttu-id="1eed0-104">本主题演示 Visio 2013 文件格式的 XML 架构定义。</span><span class="sxs-lookup"><span data-stu-id="1eed0-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
+<span data-ttu-id="64ebd-104">本主题演示 Visio 2013 文件格式的 XML 架构定义。</span><span class="sxs-lookup"><span data-stu-id="64ebd-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

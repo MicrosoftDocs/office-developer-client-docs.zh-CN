@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779998"
 ---
-# <a name="controls-section"></a><span data-ttu-id="69a35-103">“Controls”内容</span><span class="sxs-lookup"><span data-stu-id="69a35-103">Controls Section</span></span>
+# <a name="controls-section"></a><span data-ttu-id="63319-103">“Controls”部分</span><span class="sxs-lookup"><span data-stu-id="63319-103">Controls Section</span></span>
 
-<span data-ttu-id="69a35-104">包含与为形状定义的每个控制手柄相对应的行和单元格。</span><span class="sxs-lookup"><span data-stu-id="69a35-104">Contains a row and cells for each control handle defined for the shape.</span></span>
+<span data-ttu-id="63319-104">包含与为形状定义的每个控制手柄相对应的行和单元格。</span><span class="sxs-lookup"><span data-stu-id="63319-104">Contains a row and cells for each control handle defined for the shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="69a35-105">注解</span><span class="sxs-lookup"><span data-stu-id="69a35-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="63319-105">注解</span><span class="sxs-lookup"><span data-stu-id="63319-105">Remarks</span></span>
 
-<span data-ttu-id="69a35-106">您可以定义在 ShapeSheet 窗口中的**Controls**内容中的控制手柄。</span><span class="sxs-lookup"><span data-stu-id="69a35-106">You can define control handles in the **Controls** section in the ShapeSheet window.</span></span> <span data-ttu-id="69a35-107">如果形状没有**Controls**内容，则可以插入一个在 ShapeSheet 窗口中。</span><span class="sxs-lookup"><span data-stu-id="69a35-107">If your shape has no **Controls** section, you can insert one in the ShapeSheet window.</span></span> <span data-ttu-id="69a35-108">在 ShapeSheet 窗口中右键单击，单击**插入节**，，然后选择**控件**复选框。</span><span class="sxs-lookup"><span data-stu-id="69a35-108">Right-click in the ShapeSheet window, click **Insert Section**, and then select the **Controls** check box.</span></span> <span data-ttu-id="69a35-109">若要添加到现有的**Controls**内容的控制手柄，右击某一行，然后单击快捷菜单上的**插入行**。</span><span class="sxs-lookup"><span data-stu-id="69a35-109">To add control handles to an existing **Controls** section, right-click a row and click **Insert Row** on the shortcut menu.</span></span> 
+<span data-ttu-id="63319-106">您可以定义在 ShapeSheet 窗口中的**Controls**内容中的控制手柄。</span><span class="sxs-lookup"><span data-stu-id="63319-106">You can define control handles in the **Controls** section in the ShapeSheet window.</span></span> <span data-ttu-id="63319-107">如果形状没有**Controls**内容，则可以插入一个在 ShapeSheet 窗口中。</span><span class="sxs-lookup"><span data-stu-id="63319-107">If your shape has no **Controls** section, you can insert one in the ShapeSheet window.</span></span> <span data-ttu-id="63319-108">在 ShapeSheet 窗口中右键单击，单击**插入节**，，然后选择**控件**复选框。</span><span class="sxs-lookup"><span data-stu-id="63319-108">Right-click in the ShapeSheet window, click **Insert Section**, and then select the **Controls** check box.</span></span> <span data-ttu-id="63319-109">若要添加到现有的**Controls**内容的控制手柄，右击某一行，然后单击快捷菜单上的**插入行**。</span><span class="sxs-lookup"><span data-stu-id="63319-109">To add control handles to an existing **Controls** section, right-click a row and click **Insert Row** on the shortcut menu.</span></span> 
   
 
