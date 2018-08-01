@@ -31,7 +31,7 @@ typedef struct tagFBUser
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 _m_cbEid_
   
@@ -51,6 +51,6 @@ _m_pwszReserved_
     
 ## <a name="see-also"></a>另请参阅
 
-- [有关的忙/闲的 API](about-the-free-busy-api.md)  
+- [关于忙/闲 API](about-the-free-busy-api.md)  
 - [IFreeBusySupport](ifreebusysupport.md)
 

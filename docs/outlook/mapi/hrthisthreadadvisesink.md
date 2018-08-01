@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 744d9a7588bff89e9d306e516a24da2db3038d4d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -54,7 +54,7 @@ HrThisThreadAdviseSink(
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 包装的用途是确保通知称为调用**HrThisThreadAdviseSink**函数的同一线程。 此函数用于保护必须在特定线程运行的通知回调。 
   

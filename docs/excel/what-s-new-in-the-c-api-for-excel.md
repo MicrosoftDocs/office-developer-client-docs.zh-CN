@@ -1,5 +1,5 @@
 ---
-title: What's New in Excel 的 C API
+title: 适用于 Excel 的 C API 中的新增功能
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - c api [excel 2007]，新增功能
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e80b667296af59f4d3f18238cd498830fcdc35a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/21/2018
 ms.locfileid: "19773817"
 ---
-# <a name="whats-new-in-the-c-api-for-excel"></a>What's New in Excel 的 C API
+# <a name="whats-new-in-the-c-api-for-excel"></a>适用于 Excel 的 C API 中的新增功能
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 与 Microsoft Excel 2013 一起使用，Microsoft Excel 2013 XLL 软件开发工具包 (SDK) 包括支持以下功能。
   
@@ -49,8 +49,8 @@ ms.locfileid: "19773817"
   
 [�� Excel ��ʹ�� C API ���б��](programming-with-the-c-api-in-excel.md)
   
-[多线程和 Excel 中的内存争用](multithreading-and-memory-contention-in-excel.md)
+[Excel 中的多线程处理和内存争用](multithreading-and-memory-contention-in-excel.md)
 
 
-[Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
+[Excel XLL SDK 入门](getting-started-with-the-excel-xll-sdk.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 有关 MAPI MIME 转换 API
+title: 关于 MAPI-MIME 转换 API
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774477"
 ---
-# <a name="about-the-mapi-mime-conversion-api"></a>有关 MAPI MIME 转换 API
+# <a name="about-the-mapi-mime-conversion-api"></a>关于 MAPI-MIME 转换 API
 
   
   

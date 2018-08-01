@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a9f74e46fe74689cbcfba5414f7f083c34ef4f98
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT

@@ -32,7 +32,7 @@ ms.locfileid: "19773409"
 | *month*  <br/> |整数表达式，指定一个月、 从 1 到 12。  <br/> |
 | *日。*  <br/> |指定一天的整数表达式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **DateFromParts**返回设置为指定的年、 月和日和设置为默认值的时间部分的日期部分与一个 date 值。 如果参数不是有效的则引发一个错误。 如果需要参数为 null，则返回 NULL。 
   

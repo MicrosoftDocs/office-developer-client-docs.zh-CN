@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3646505-a9f0-4a72-8277-b238c909f66f
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 95972d53f20f432bc8007f8bbc6734889773f938
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778220"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_REPORT_TIME  <br/> |
-|标识符:  <br/> |0x0032  <br/> |
+|相关属性：  <br/> |PR_REPORT_TIME  <br/> |
+|标识符：  <br/> |0x0032  <br/> |
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性表示上送达和原件报告的每个收件人属性和读取和 nonread 报表上的每封邮件属性。 
   
@@ -72,7 +72,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

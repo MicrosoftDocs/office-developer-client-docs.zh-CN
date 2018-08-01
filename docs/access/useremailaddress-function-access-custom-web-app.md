@@ -25,7 +25,7 @@ ms.locfileid: "19773615"
 
  **UserEmailAddress**() 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 仅适用于用户界面 (UI) 宏**UserEmailAddress**函数。 
   

@@ -1,5 +1,5 @@
 ---
-title: 启动窗体，若要读取的消息
+title: 启动要读取邮件的表单
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776141"
 ---
-# <a name="launching-a-form-to-read-a-message"></a>启动窗体，若要读取的消息
+# <a name="launching-a-form-to-read-a-message"></a>启动要读取邮件的表单
 
   
   
@@ -37,5 +37,5 @@ ms.locfileid: "19776141"
 
 
 
-[窗体服务器交互](form-server-interactions.md)
+[表单服务器交互](form-server-interactions.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cac9c735403e6cb65dfe3111a2246a8387339339
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776584"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidApptAuxFlags  <br/> |
+|相关属性：  <br/> |dispidApptAuxFlags  <br/> |
 |属性进行设置：  <br/> |PSETID_Appointment  <br/> |
 |长 ID （盖）：  <br/> |0x00008207  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性不是必需的。 下面是可以设置的单个标记。
   
@@ -77,7 +77,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

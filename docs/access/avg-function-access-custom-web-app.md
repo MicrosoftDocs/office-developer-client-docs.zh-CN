@@ -18,7 +18,7 @@ ms.locfileid: "19773438"
 计算的一组指定的字段中包含的值的算术平均值。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -30,9 +30,9 @@ ms.locfileid: "19773438"
 |:-----|:-----|
 |NumericExpression  <br/> |标识包含数值数据的字段的字符串表达式要平均值或表达式的计算使用该字段中的数据。 *NumericExpression*中可以包括表字段、 变量或函数 （这可能是固有或用户定义但不是其他 SQL 聚合函数） 的名称。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
-计算**平均**的平均值是算术平均值 （值的总和的值的数量的比率）。 您可以使用**Avg**，例如，计算平均运货成本。 
+使用 **Avg** 计算的平均值是算术平均值（值的总和除以值的数目）。例如，可以使用 **Avg** 计算运费的平均值。 
   
 **Avg**函数不包括**Null**值的计算中。 
   

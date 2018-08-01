@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b481eaf00b7568da5f02ffa3301e8f2698a98e1e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -77,7 +77,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单查看器调用**IMAPIFormMgr::SelectForm**方法向第一个存在一个对话框，允许用户选择一个窗体，然后检索窗体信息对象的介绍选定的窗体。 对话框将约束用户选择单个窗体。 
   
@@ -97,8 +97,8 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

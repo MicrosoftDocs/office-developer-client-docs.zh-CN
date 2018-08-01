@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e31a2a9c45a8896efbc43eb7f4b22f31f51e4013
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -45,9 +45,9 @@ Outlook 初始化的层次结构的指针具有关联的**DNHIER**数据结构�
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
-[有关的复制状态机](about-the-replication-state-machine.md)
+[关于复制状态计算机](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

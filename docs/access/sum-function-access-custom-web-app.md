@@ -19,7 +19,7 @@ ms.locfileid: "19773619"
 返回表达式中的所有值的总和。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -31,7 +31,7 @@ ms.locfileid: "19773619"
 |:-----|:-----|
 | *NumericExpression*  <br/> |表达式，用于标识包含您要添加的数字数据或表达式的计算使用该字段中的数据的字段。 *NumericExpression*中可以包括表字段、 一个常量或函数 （这可能是固有或用户定义但不是其他 SQL 聚合函数） 的名称。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **Sum**函数将忽略包含 Null 值的记录。 
   

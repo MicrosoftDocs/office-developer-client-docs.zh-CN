@@ -10,7 +10,7 @@ keywords:
 - xlfregisterid 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: cd401393b7465442cef9342b942a27456871c68b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773855"
 ---
 # <a name="xlfregisterid"></a>xlfRegisterId
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 可从本身已调用由 Microsoft Excel DLL 调用。 如果已注册一个函数，它将返回该函数的现有注册 ID，而不重新注册它。 如果尚未未注册一个函数，它将其注册并返回结果注册 id。
   
@@ -46,7 +46,7 @@ _pxTypeText_(**xltypeStr**)
 
 返回可用于对**xlfUnregister**后续调用的函数 (**xltypeNum**)，注册 ID。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 您不希望担心维护一个注册 ID，但您需要一个更高版本用于注销时，此函数很有用。 也是用于将分配给菜单、 工具和按钮时要分配的功能是在 DLL 中。
   
@@ -56,5 +56,5 @@ _pxTypeText_(**xltypeStr**)
 
 - [注册](xlfregister-form-1.md)
 - [注销](xlfunregister-form-1.md)
-- [关键及有用的 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
+- [基本的有用 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
 

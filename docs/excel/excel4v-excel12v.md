@@ -11,7 +11,7 @@ keywords:
 - excel12v 函数 [excel 2007，] Excel4v 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 7ffa0bc3ae6222af1ecd7f65de66d026ea178c87
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19773751"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 内部 Microsoft Excel 工作表函数、 宏工作表函数或命令或仅 XLL 特殊函数或命令，从调用 DLL，XLL 或代码资源中。
   
@@ -58,7 +58,7 @@ int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[
 
 这些函数返回**Excel4**和**Excel12**相同的值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 其中的参数传递给运算符数目为变量，这些函数很有用。 例如， **Excel4v**和**Excel12v**很有用时使用其中的总参数数目取决于所要所注册的函数的参数数目[xlfRegister](xlfregister-form-1.md)注册函数。 **Excel4v**和**Excel12v**也是有用时**Excel4**或**Excel12**编写一个包装函数。 在这些情况下，您需要转换变量参数列表中，通常会提供给变量的大小以回调到 Excel 使用**Excel4v**或**Excel12v**的单个数组参数为**Excel4**或**Excel12**，如。
   

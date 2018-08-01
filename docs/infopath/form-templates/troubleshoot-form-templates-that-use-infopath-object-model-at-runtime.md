@@ -31,8 +31,8 @@ ms.locfileid: "19774091"
   
 ## <a name="see-also"></a>另请参阅
 
-- [关于具有代码的表单模板的安全模型](about-the-security-model-for-form-templates-with-code.md)
+- [关于包含代码的表单模板的安全模型](about-the-security-model-for-form-templates-with-code.md)
 - [部署包含代码的 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md)
 - [使用 InfoPath 2003 对象模型处理错误](how-to-handle-errors-using-the-infopath-2003-object-model.md)
-- [调试使用 InfoPath 2003 对象模型的 InfoPath 项目](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+- [使用 InfoPath 2003 对象模型调试 InfoPath 项目](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
 

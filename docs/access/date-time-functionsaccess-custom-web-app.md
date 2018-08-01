@@ -16,7 +16,7 @@ ms.locfileid: "19773426"
 # <a name="datetime-functions-access-custom-web-app"></a>日期/时间函数 （访问自定义 web 应用程序）
 
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
 
 
 - [DateAdd 函数 （访问自定义 web 应用程序）](dateadd-function-access-custom-web-app.md)

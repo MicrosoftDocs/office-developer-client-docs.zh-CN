@@ -10,7 +10,7 @@ keywords:
 - xloper12toxloper 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 2c06102699db8810da803ecc0ddfa30375fcc125
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773862"
 ---
 # <a name="xloper12toxloper"></a>XLOper12ToXLOper
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 用于从新**XLOPER12**转换为旧**XLOPER**转换例程。
   
@@ -42,7 +42,7 @@ _pxloper_(**LPXLOPER**)
 
 如果为**TRUE**转换成功， **FALSE**否则。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 根据**XLOPER12**类型，此函数为转换后的值，指向目标**XLOPER**中分配新内存缓冲区。 呼叫者负责释放转换为成功; 如果与副本关联任何内存可**FreeXLOperT** ，也可直接通过使用**免费**。
   
@@ -60,5 +60,5 @@ _pxloper_(**LPXLOPER**)
   
 ## <a name="see-also"></a>另请参阅
 
-- [Framework 库中的函数](functions-in-the-framework-library.md)
+- [框架库中的函数](functions-in-the-framework-library.md)
 

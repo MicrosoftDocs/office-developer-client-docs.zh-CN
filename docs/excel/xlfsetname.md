@@ -10,7 +10,7 @@ keywords:
 - xlfsetname 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 48ce927f6bcb328a90779948a660cf9d0b460205
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773841"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 用于创建和删除已定义的名称 DLL 相关联。
   
@@ -44,7 +44,7 @@ _pxRes_（**xltypeBool**或**xltypeErr**）
   
 如果操作成功，则返回 TRUE 或 FALSE，如果无法创建或删除名称。 返回 #VALUE ！ 如果一个或多个参数无效。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 使用有效_pxFunctionText_参数**xlfRegister**注册函数或命令，Excel 将新建关联的 DLL 资源的名称。 当正在卸载 DLL 时，应使用[xlfSetName 函数](xlfsetname.md)删除此类名称。 但是，由于在 Excel 中的已知问题，此删除操作失败。 有关详细信息，请参阅[Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。
   
@@ -54,5 +54,5 @@ _pxRes_（**xltypeBool**或**xltypeErr**）
   
 ## <a name="see-also"></a>另请参阅
 
-- [关键及有用的 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
+- [基本的有用 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
 

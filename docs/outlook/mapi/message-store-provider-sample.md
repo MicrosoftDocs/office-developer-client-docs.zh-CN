@@ -1,5 +1,5 @@
 ---
-title: 消息存储提供程序示例
+title: 邮件存储区提供程序示例
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: b3c907b0a53a41a52516b23ffb1cf7400d887d89
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776506"
 ---
-# <a name="message-store-provider-sample"></a>消息存储提供程序示例
+# <a name="message-store-provider-sample"></a>邮件存储区提供程序示例
 
   
   
@@ -38,15 +38,15 @@ ms.locfileid: "19776506"
 
 本示例支持 Microsoft Outlook 2010 64年位，并已经过修改为 Outlook 2013。 请参阅以下主题的其他信息：
   
-- [有关复制 API](about-the-replication-api.md)
+- [关于复制 API](about-the-replication-api.md)
     
-- [初始化换行的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)
+- [初始化包装的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
     
-- [登录到换行的 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
+- [登录包装的 PST 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
     
-- [使用包装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)
+- [使用包装的 PST 存储区提供程序](using-a-wrapped-pst-store-provider.md)
     
-- [关机的情况下被环绕的 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)
+- [关闭包装的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
     
  **安装示例自动换行 PST 存储提供程序**
   

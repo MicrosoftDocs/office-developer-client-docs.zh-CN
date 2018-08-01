@@ -97,5 +97,5 @@ MAPI 后台处理程序使用每个字符串_lpppszAdrTypeArray_参数中的比�
   
 [MAPIUID](mapiuid.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

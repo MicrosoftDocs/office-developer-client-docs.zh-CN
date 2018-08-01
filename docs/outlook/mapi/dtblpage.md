@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 86cd30b15402f35e8396dedf6b685050ee4fb45e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -43,7 +43,7 @@ typedef struct _DTBLPAGE
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   
@@ -65,7 +65,7 @@ MAPI_UNICODE
   
 > 定义由**ulbLpszComponent**成员在字符串中选项卡式页面的唯一标识符。 **UlbLpszComponent**成员和**ulContext**成员必须都为非零值来**帮助**按钮正常工作。 如果此标识符为 0，组件字符串为 NULL，则没有与页面相关的帮助。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **DTBLPAGE**结构介绍用于分隔多个相关的对话框的控件的选项卡式的页面。 通常，这些对话框是用于显示配置、 消息或收件人选项的属性表。 通过单击选项卡，用户可以张工作表之间切换。 
   

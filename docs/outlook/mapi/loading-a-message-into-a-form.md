@@ -1,5 +1,5 @@
 ---
-title: 将一条消息加载到窗体
+title: 将邮件加载到表单
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776146"
 ---
-# <a name="loading-a-message-into-a-form"></a>将一条消息加载到窗体
+# <a name="loading-a-message-into-a-form"></a>将邮件加载到表单
 
   
   

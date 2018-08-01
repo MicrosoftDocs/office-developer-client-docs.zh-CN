@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d214cb5d449e2f7e42e7ee72774fdc146495adb4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -62,7 +62,7 @@ LONG LPropCompareProp(
     
 对于具有任何固有排序，如布尔值的属性类型或错误类型， **LPropCompareProp**函数返回未定义的值，如果两个属性值不相等。 未定义的该值是跨呼叫非零值和一致。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 仅当要进行比较的两个属性的类型都是相同，请使用**LPropCompareProp**函数。 
   

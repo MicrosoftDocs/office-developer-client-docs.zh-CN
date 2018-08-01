@@ -124,7 +124,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功，但消息存储提供程序已经可用的错误信息。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。 要从提供程序获取错误的信息，请调用[IMAPISession::GetLastError](imapisession-getlasterror.md)方法。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IMSProvider::SpoolerLogon**方法来登录到的消息存储。 MAPI 后台处理程序应使用期间和之后登录_lppMDB_参数中的消息存储提供程序返回的消息存储对象。 
   
@@ -140,5 +140,5 @@ MAPI 后台处理程序调用**IMSProvider::SpoolerLogon**方法来登录到的�
   
 [MAPIERROR](mapierror.md)
   
-[IMSProvider: IUnknown](imsprovideriunknown.md)
+[IMSProvider : IUnknown](imsprovideriunknown.md)
 

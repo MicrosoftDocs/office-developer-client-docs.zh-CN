@@ -54,7 +54,7 @@ S_OK
   
 > 已成功检索的搜索路径。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端和服务提供商调用**GetSearchPath**方法以获取用于将名称解析使用**ResolveName**方法的搜索路径。 通常情况下，客户端调用[IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md)方法之前呼叫**GetSearchPath**检索该配置文件中建立容器搜索路径。 但是，调用**SetSearchPath**是可选的。 
   
@@ -78,5 +78,5 @@ S_OK
   
 [SRowSet](srowset.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

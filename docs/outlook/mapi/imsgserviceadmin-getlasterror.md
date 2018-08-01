@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置该 MAPI_UNICODE 标记和消息服务管理对象不支持 Unicode。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin::GetLastError**方法检索信息[IMsgServiceAdmin](imsgserviceadminiunknown.md)方法的调用返回的最后一个错误。 客户端可以向其用户提供有关错误的详细信息通过在对话框中包括此信息。 
   
@@ -81,5 +81,5 @@ MAPI_E_BAD_CHARWIDTH
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

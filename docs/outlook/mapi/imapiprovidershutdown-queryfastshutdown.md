@@ -41,7 +41,7 @@ MAPI_E_NO_SUPPORT
   
 > MAPI 提供程序不支持 MAPI 客户端执行快速关闭。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 提供程序不需要支持客户端快速关闭仍应实现[IMAPIProviderShutdown](imapiprovidershutdowniunknown.md)接口，并让 MAPI_E_NO_SUPPORT **IMAPIProviderShutdown::QueryFastShutdown**方法。 对于作为 MAPI 客户端的 Outlook，这会导致 Outlook 等待它退出之前，必须释放的所有外部引用。 
   
@@ -51,7 +51,7 @@ MAPI 提供程序不需要支持客户端快速关闭仍应实现[IMAPIProviderS
 
 
 
-[IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md)
+[IMAPIProviderShutdown : IUnknown](imapiprovidershutdowniunknown.md)
 
 
 [MAPI 中的客户端关闭](client-shutdown-in-mapi.md)

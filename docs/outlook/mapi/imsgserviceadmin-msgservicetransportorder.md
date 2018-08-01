@@ -63,7 +63,7 @@ MAPI_E_NOT_FOUND
   
 > 一个或多个_lpUIDList_参数中传递的[MAPIUID](mapiuid.md)结构不引用当前配置文件中的传输提供程序。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMsgServiceAdmin::MsgServiceTransportOrder**方法设置配置文件中的传输提供程序传递的顺序。 _LpUIDList_参数必须包含传输提供程序条目标识符从[IMsgServiceAdmin 从返回的表的**PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) 属性获取一个已排序的列表：GetProviderTable](imsgserviceadmin-getprovidertable.md)方法。 客户端应用程序必须_lpUIDList_中传递的完整列表。
   
@@ -75,5 +75,5 @@ MAPI_E_NOT_FOUND
 
 [MAPIUID](mapiuid.md)
   
-[IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md)
+[IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md)
 

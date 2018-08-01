@@ -1,5 +1,5 @@
 ---
-title: 客户端命名职责
+title: 客户端命名责任
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: a97d108b2f36b40e5f8818ea81c138d7384ce9b0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774672"
 ---
-# <a name="client-naming-responsibilities"></a>客户端命名职责
+# <a name="client-naming-responsibilities"></a>客户端命名责任
 
   
   
@@ -44,7 +44,7 @@ PS_ROUTING_SEARCH_KEY
   
 下表说明了为每个网关可映射的剩余邮件路由到其完成它的第一个工作组成员时的工作组成员的三个存储的属性集的设置。
   
-|**属性集**|**第二个团队<br/>成员**|**第 3 个团队<br/>成员**|**第四个团队<br/>成员**|
+|**Property Set**|**第二个团队<br/>成员**|**第 3 个团队<br/>成员**|**第四个团队<br/>成员**|
 |:-----|:-----|:-----|:-----|
 |PS_ROUTING_EMAIL_ADDRESSES  <br/> |地址 = 0  <br/> |地址 = 1  <br/> |地址 = 2  <br/> |
 |PS_ROUTING_ADDRTYPE  <br/> |地址类型 = 0  <br/> |地址类型 = 1  <br/> |地址类型 = 2  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: 查找 POP3 帐户的消息下载历史记录
+title: 查找 POP3 帐户的邮件下载历史记录
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774363"
 ---
-# <a name="locating-the-message-download-history-for-a-pop3-account"></a>查找 POP3 帐户的消息下载历史记录
+# <a name="locating-the-message-download-history-for-a-pop3-account"></a>查找 POP3 帐户的邮件下载历史记录
 
 本主题介绍如何邮件客户端可以访问[PidTagAttachDataBinary](http://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx)属性获取 POP3 帐户的消息下载历史记录。 
 
@@ -34,17 +34,17 @@ Outlook 邮局协议 (POP) 提供程序允许用户检索并在其本地设备�
 
 收件箱的消息下载历史记录存储在二进制 MAPI 属性，可**PidTagAttachDataBinary**，在收件箱中的隐藏邮件的附件。 表 1 显示了为帮助您了解如何找到的消息下载历史记录的概念的资源。
   
-**表 1。核心概念**
+**表 1. 核心概念**
 
 |**文章标题**|**说明**|
 |:-----|:-----|
 |[MAPI 隐藏文件夹](http://msdn.microsoft.com/library/8b3b9c80-f7f4-4f37-bd6b-323469d020f1%28Office.15%29.aspx) <br/> |MAPI 允许邮件客户端中隐藏的文件夹和隐藏的邮件存储信息。 隐藏的文件夹中的关联部分的 MAPI 文件夹，通常包含对不可见的信息而不用户操作。 客户端决定的格式和内容存储在隐藏的文件夹中的隐藏邮件。  <br/> |
 |[MAPI 邮件](http://msdn.microsoft.com/library/417c113f-bd98-4515-85d1-09db7fc3a227%28Office.15%29.aspx) <br/> |MAPI 中对用户的客户端，或外部子树和用户看不到可见的标准 IPM 子树的文件夹中存储的邮件。 消息可以具有存储在附件，可以是一个文件，另一条消息或 OLE 对象的窗体中的其他数据。 对于消息下载历史记录，历史记录存储在一条消息，附加到另一个隐藏邮件的属性。  <br/> |
-|[消息属性概述](http://msdn.microsoft.com/library/447f54de-9f0d-4f73-89b6-bed9cfea9c15%28Office.15%29.aspx) <br/> |当客户端将信息存储在一条消息时，它将实际属性中的邮件存储的信息。 MAPI 支持许多属性 — 某些始终存在，可以通过客户端设置、 都是可选的其他人 — 和客户端无法所期望可用或设置为有效的值。 隐藏邮件的附件的**PidTagAttachDataBinary**属性中存储的消息下载历史记录。  <br/> |
+|[邮件属性概述](http://msdn.microsoft.com/library/447f54de-9f0d-4f73-89b6-bed9cfea9c15%28Office.15%29.aspx) <br/> |当客户端将信息存储在一条消息时，它将实际属性中的邮件存储的信息。 MAPI 支持许多属性 — 某些始终存在，可以通过客户端设置、 都是可选的其他人 — 和客户端无法所期望可用或设置为有效的值。 隐藏邮件的附件的**PidTagAttachDataBinary**属性中存储的消息下载历史记录。  <br/> |
 |[MAPI 配置文件](http://msdn.microsoft.com/library/493c87a4-317d-47ec-850b-342cac59594b%28Office.15%29.aspx) <br/> |在会话中的登录时，邮件客户端选择介绍要使用的提供程序和服务的配置文件。 一个配置文件分为包含属性的部分。 具体而言， [PidTagSearchKey](http://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) (**PR_SEARCH_KEY**) 和[PidTagProfileName](http://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx) (**PR_PROFILE_NAME**) 属性始终存在。 配置文件的搜索关键字唯一所有配置文件，并存储在配置文件部分的由**MUID_PROFILE_INSTANCE** （其中 MAPIGUID 中定义。H)。 使用[IMAPISession::OpenProfileSection](http://msdn.microsoft.com/library/e2757028-27e7-4fc0-9674-e8e30737ef1d%28Office.15%29.aspx)以打开部分，并使用[IMAPIProp::GetProps](http://msdn.microsoft.com/library/1c7a9cd2-d765-4218-9aee-52df1a2aae6c%28Office.15%29.aspx)获取属性值。  <br/> |
 |[内容表](http://msdn.microsoft.com/library/7b8efb4e-b5be-41b8-81bb-9aa1da421433%28Office.15%29.aspx) <br/> |消息存储提供程序实现其文件夹的内容表。 对相关部件的文件夹中的隐藏邮件，消息存储提供程序支持的关联的内容表和客户端可以使用[IMAPIContainer::GetContentsTable](http://msdn.microsoft.com/library/88c7a666-875d-473a-b126-dbbb7009f7d9%28Office.15%29.aspx)方法以返回到关联的内容表的指针。  <br/> |
-|[有关限制](http://msdn.microsoft.com/library/e119fa20-08b8-4c8d-93fc-56037220890d%28Office.15%29.aspx) <br/> [类型的限制](http://msdn.microsoft.com/library/0d3bd58b-7100-4117-91ac-27139715c85b%28Office.15%29.aspx) <br/> [构建限制](http://msdn.microsoft.com/library/12abbd8c-f825-493e-af42-344371d9658e%28Office.15%29.aspx) <br/> [代码示例限制](http://msdn.microsoft.com/library/9b82097c-dbd6-4ba0-a6cb-292301f9402b%28Office.15%29.aspx) <br/> |MAPI，在客户端可以使用限制筛选内容表格，搜索行表示的某些属性设置为特定值的邮件。 通过使用[SRestriction](http://msdn.microsoft.com/library/c12b4409-da6f-480b-87af-1e5baea2e8bd%28Office.15%29.aspx)数据结构，它可以包含的更多专用限制结构联合定义限制。 [IMAPITable::FindRow](http://msdn.microsoft.com/library/6511368c-9777-497e-9eea-cf390c04b92e%28Office.15%29.aspx)方法应用限制，并检索与限制条件匹配的表中的第一行。  <br/> |
-|[有关注册的索引的存储](http://msdn.microsoft.com/library/dd2aa06a-96e8-1291-18b5-fc3c40b74e4d%28Office.15%29.aspx) <br/> |[PidTagStoreProvider](http://msdn.microsoft.com/library/6f6cc66f-a08e-4f8e-b33a-d3674319248e%28Office.15%29.aspx) (**PR_MDB_PROVIDER**) 属性用于验证存储提供程序的类型。 例如，若要验证是否在 Exchange 存储存储区， **PidTagStoreProvider**属性应返回常量**pbExchangeProviderPrimaryUserGuid**，在公共头文件 edkmdb.h 中定义所表示的值。  <br/> |
+|[关于限制](http://msdn.microsoft.com/library/e119fa20-08b8-4c8d-93fc-56037220890d%28Office.15%29.aspx) <br/> [限制的类型](http://msdn.microsoft.com/library/0d3bd58b-7100-4117-91ac-27139715c85b%28Office.15%29.aspx) <br/> [生成限制](http://msdn.microsoft.com/library/12abbd8c-f825-493e-af42-344371d9658e%28Office.15%29.aspx) <br/> [示例限制代码](http://msdn.microsoft.com/library/9b82097c-dbd6-4ba0-a6cb-292301f9402b%28Office.15%29.aspx) <br/> |MAPI，在客户端可以使用限制筛选内容表格，搜索行表示的某些属性设置为特定值的邮件。 通过使用[SRestriction](http://msdn.microsoft.com/library/c12b4409-da6f-480b-87af-1e5baea2e8bd%28Office.15%29.aspx)数据结构，它可以包含的更多专用限制结构联合定义限制。 [IMAPITable::FindRow](http://msdn.microsoft.com/library/6511368c-9777-497e-9eea-cf390c04b92e%28Office.15%29.aspx)方法应用限制，并检索与限制条件匹配的表中的第一行。  <br/> |
+|[关于注册用于建立索引的存储区](http://msdn.microsoft.com/library/dd2aa06a-96e8-1291-18b5-fc3c40b74e4d%28Office.15%29.aspx) <br/> |[PidTagStoreProvider](http://msdn.microsoft.com/library/6f6cc66f-a08e-4f8e-b33a-d3674319248e%28Office.15%29.aspx) (**PR_MDB_PROVIDER**) 属性用于验证存储提供程序的类型。 例如，若要验证是否在 Exchange 存储存储区， **PidTagStoreProvider**属性应返回常量**pbExchangeProviderPrimaryUserGuid**，在公共头文件 edkmdb.h 中定义所表示的值。  <br/> |
    
 ## <a name="locating-the-appropriate-hidden-message-and-attachment"></a>查找相应的隐藏的邮件和附件
 
@@ -152,7 +152,7 @@ Outlook 邮局协议 (POP) 提供程序允许用户检索并在其本地设备�
 
 ## <a name="see-also"></a>另请参阅
 
-- [管理邮件下载 POP3 帐户](managing-message-downloads-for-pop3-accounts.md)   
+- [管理 POP3 帐户的邮件下载](managing-message-downloads-for-pop3-accounts.md)   
 - [分析 POP3 帐户的邮件下载历史记录](parsing-the-message-download-history-for-a-pop3-account.md)
 - [查找 POP3 UIDL 历史记录](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/03/locating-the-pop3-uidl-history.aspx)
     

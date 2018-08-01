@@ -1,11 +1,11 @@
 ---
-title: 断开连接的脱机状态外接程序
+title: 断开脱机状态加载项
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
-description: 上次修改时间： 2015 年 12 月 7 日
+description: 上次修改时间： 2015年12月7日
 ms.openlocfilehash: 82f529f58a62f412ed8b25d1ceaf508463491612
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19774788"
 ---
-# <a name="disconnecting-an-offline-state-add-in"></a>断开连接的脱机状态外接程序
+# <a name="disconnecting-an-offline-state-add-in"></a>断开脱机状态加载项
 
 **适用于**： Outlook 
   
@@ -145,9 +145,9 @@ void UnloadLibraries()
 
 ## <a name="see-also"></a>另请参阅
 
-- [有关脱机状态 API](about-the-offline-state-api.md)
-- [安装示例脱机状态外接程序](installing-the-sample-offline-state-add-in.md)
-- [有关示例脱机状态外接程序](about-the-sample-offline-state-add-in.md)
-- [设置的脱机状态外接程序](setting-up-an-offline-state-add-in.md)
-- [监控的连接状态更改使用的脱机状态外接程序](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [关于脱机状态 API](about-the-offline-state-api.md)
+- [安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)
+- [关于示例脱机状态加载项](about-the-sample-offline-state-add-in.md)
+- [设置脱机状态加载项](setting-up-an-offline-state-add-in.md)
+- [使用脱机状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 

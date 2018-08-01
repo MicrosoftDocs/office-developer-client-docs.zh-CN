@@ -10,7 +10,7 @@ keywords:
 - xlgethwnd 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: a22365d6c945aaa5995e2c519c757a1a7515655a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773864"
 ---
 # <a name="xlgethwnd"></a>xlGetHwnd
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 返回顶级 Microsoft Excel 窗口的窗口句柄。
   
@@ -37,7 +37,7 @@ Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 包含**val.w**字段中的窗口句柄 (**xltypeInt**)。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此函数可用于编写 Windows API 代码。
   

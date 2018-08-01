@@ -58,7 +58,7 @@ S_OK
   
 > 已成功检索按钮控件的状态。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 服务提供商实现**IMAPIControl::GetState**方法使 MAPI 按钮控件的状态。 如果启用按钮，则它可以响应鼠标单击或击键。 如果它被禁用，该按钮变暗，并对鼠标单击或击键没有响应。 
   
@@ -70,5 +70,5 @@ S_OK
 
 [IMAPIControl::Activate](imapicontrol-activate.md)
   
-[IMAPIControl: IUnknown](imapicontroliunknown.md)
+[IMAPIControl : IUnknown](imapicontroliunknown.md)
 

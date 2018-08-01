@@ -18,7 +18,7 @@ ms.locfileid: "19773456"
 使用 **CancelRecordChange** 操作可在提交更改之前取消在 **[CreateRecord](createrecord-data-block-access-custom-web-app.md)** 或 **[EditRecord](editrecord-data-block-access-custom-web-app.md)** 数据块中对某一记录应用的更改。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 > [!NOTE]
 > [!注释] **CancelRecordChange** 操作仅适用于数据宏。 

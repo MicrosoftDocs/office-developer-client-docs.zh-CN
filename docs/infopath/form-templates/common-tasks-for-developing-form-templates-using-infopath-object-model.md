@@ -27,7 +27,7 @@ ms.locfileid: "19773957"
     
 - [使用 InfoPath 2003 对象模型添加事件处理程序](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
     
-- [调试使用 InfoPath 2003 对象模型的 InfoPath 项目](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+- [使用 InfoPath 2003 对象模型调试 InfoPath 项目](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
     
 - [添加和引用自定义程序集](how-to-add-and-reference-custom-assemblies.md)
     

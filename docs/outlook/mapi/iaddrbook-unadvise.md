@@ -45,7 +45,7 @@ S_OK
   
 > 成功取消注册。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端调用**Unadvise**方法停止接收有关到特定的通讯簿条目的更改的通知。 取消通知注册时，它的指针到呼叫者的建议接收器地址簿提供程序版本。 但是，发布**Unadvise**呼叫过程中或在某些更高版本的时候，如果出现另一个线程正在调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法。 通知时，直至**OnNotify**方法返回延迟版本。 
   
@@ -57,5 +57,5 @@ S_OK
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

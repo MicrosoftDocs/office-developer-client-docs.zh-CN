@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e1f15a5f031f5c5a9568b8a36722eaac011b814c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -71,7 +71,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端应用程序调用基于**LPFNBUTTON**原型，用于定义按钮，在详细信息对话框的回调函数。 客户端将指针传递给回调函数中调用[IAddrBook::Details](iaddrbook-details.md)方法。 
   

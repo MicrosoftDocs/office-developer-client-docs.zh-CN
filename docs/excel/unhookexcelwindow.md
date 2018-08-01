@@ -10,7 +10,7 @@ keywords:
 - unhookexcelwindow 函数
 localization_priority: Normal
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 7b70bf4ed0ff45921df407605baa692c7621bca4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773828"
 ---
 # <a name="unhookexcelwindow"></a>UnhookExcelWindow
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 删除以前安装的**HookExcelWindow** **ExcelCursorProc** 。 这将具有已完成，以便**ExcelCursorProc**已在 Microsoft Excel 主**WndProc**之前调用。
   
@@ -38,7 +38,7 @@ Excel 主窗口的句柄。
 
 该函数不返回值。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此函数将还原 Excel 默认**WndProc**使用**SetWindowLong()** 还原**HookExcelWindow()** 保存的地址。
   
@@ -50,5 +50,5 @@ Excel 主窗口的句柄。
 
 
 
-[泛型 DLL 中的函数](functions-in-the-generic-dll.md)
+[通用 DLL 中的函数](functions-in-the-generic-dll.md)
 

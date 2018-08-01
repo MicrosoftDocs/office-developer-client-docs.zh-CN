@@ -10,7 +10,7 @@ keywords:
 - xlgetinst 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 9484f7bbc1f5e0fc5b0def17f2ce79ef226dcd17
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773851"
 ---
 # <a name="xlgetinst"></a>xlGetInst
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 返回当前正在呼叫 DLL 的 Microsoft Excel 实例的实例句柄。
   
@@ -37,7 +37,7 @@ Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 在**val.w**字段将实例句柄 (**xltypeInt**)。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 用于区分多个运行实例 Excel 的 DLL 调用此函数。
   

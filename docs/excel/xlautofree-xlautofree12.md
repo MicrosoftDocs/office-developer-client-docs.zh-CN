@@ -10,7 +10,7 @@ keywords:
 - xlautofree 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: a2d2b8e60b484ba8156acc80d543493e3ec9c564
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773836"
 ---
 # <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel XLL 工作表函数返回**XLOPER**后立即调用/ **XLOPER12**向其设置标志告知 XLL 仍需要释放的内存。 这样，XLL 返回动态分配数组、 字符串和不内存泄漏工作表的外部引用。 有关详细信息，请参阅[在 Excel 中进行内存管理](memory-management-in-excel.md)。
   
@@ -47,7 +47,7 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 
 此函数不会返回一个值，并应声明为返回无效。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 当 Excel 配置为使用多线程的工作簿重新计算， **xlAutoFree**/ **xlAutoFree12**称为用于调用的函数的返回它的同一线程。 调用**xlAutoFree**/ **xlAutoFree12**始终进行更改之前在该线程上进行评估任何后续的工作表的单元格。 这样可简化您 XLL 中的线程安全设计。 
   

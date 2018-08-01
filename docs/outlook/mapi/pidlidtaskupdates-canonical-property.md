@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 21d9fbcc-67b3-4475-b5c1-ff6af92404da
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8eda44012b01f9de94b44a3e13c30b3b382feed6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,11 +29,11 @@ ms.locfileid: "19777119"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidTaskUpdates  <br/> |
+|相关属性：  <br/> |dispidTaskUpdates  <br/> |
 |属性进行设置：  <br/> |PSETID_Task  <br/> |
 |长 ID （盖）：  <br/> |0x0000811B  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |任务  <br/> |
+|区域：  <br/> |Task  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

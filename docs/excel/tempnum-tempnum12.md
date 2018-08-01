@@ -11,7 +11,7 @@ keywords:
 - tempnum12 函数 [excel 2007，] TempNum 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 5ebe58dba32c2cf0382bf0811713eaa0a5471dda
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19773818"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 创建临时**XLOPER**的框架库函数/ **XLOPER12**包含 Microsoft Excel 工作表数目 (IEEE 8 字节 double)。 
   
@@ -60,5 +60,5 @@ short WINAPI TempNumExample(void)
 
 
 
-[Framework 库中的函数](functions-in-the-framework-library.md)
+[框架库中的函数](functions-in-the-framework-library.md)
 

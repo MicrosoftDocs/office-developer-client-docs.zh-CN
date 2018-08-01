@@ -29,7 +29,7 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- **[性别](gender.md)**
+- **[Gender](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
@@ -233,8 +233,8 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 ## <a name="see-also"></a>另请参阅
 
-- [访问远程服务器时 Outlook 上的存储是在缓存 Exchange 模式](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Outlook 配置文件中检测 Exchange Server 的版本](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
-- [打开上远程服务器时 Outlook 的存储是在缓存 Exchange 模式](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [管理 OST 一条消息，而无需调用在缓存的 Exchange 模式下同步](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [当 Outlook 处于缓存 Exchange 模式下时，访问远程服务器上的存储区](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
+- [在 Outlook 配置文件中检测 Exchange Server 的版本](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [当 Outlook 处于缓存 Exchange 模式下时，打开远程服务器上的存储区](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [在缓存 Exchange 模式下管理 OST 中的邮件（不调用同步）](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

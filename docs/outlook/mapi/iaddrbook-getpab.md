@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 3d67d71effde87711e3be9aca1b979627acda37d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功返回 PAB 的项标识符。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端调用**GetPAB**方法检索的项标识符指定为 PAB 的容器。 如果尚未配置文件中建立 PAB，MAPI 选择作为 PAB 第一个容器允许进行修改的通讯簿层次结构中。 
   
@@ -72,8 +72,8 @@ MFCMAPI 示例代码，请参阅下表。
   
 [PidTagContainerFlags 规范属性](pidtagcontainerflags-canonical-property.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

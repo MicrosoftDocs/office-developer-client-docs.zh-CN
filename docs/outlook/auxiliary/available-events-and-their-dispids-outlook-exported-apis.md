@@ -1,5 +1,5 @@
 ---
-title: 可用事件和其 dispid （Outlook 导出 Api）
+title: 可用的事件和其 dispid （Outlook 导出的 Api）
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774181"
 ---
-# <a name="available-events-and-their-dispids-outlook-exported-apis"></a>可用事件和其 dispid （Outlook 导出 Api）
+# <a name="available-events-and-their-dispids-outlook-exported-apis"></a>可用的事件和其 dispid （Outlook 导出的 Api）
 
 本节介绍 Outlook 使可用的事件的调度标识符。
   
@@ -29,8 +29,8 @@ Outlook 公开以下的调度标识符 (dispid)，以允许 c + + 加载项以�
   
 ## <a name="see-also"></a>另请参阅
 
-- [Outlook 导出 Api](outlook-exported-apis.md)
+- [Outlook 导出的 API](outlook-exported-apis.md)
 - [（Outlook 导出的 Api） 的常量](constants-outlook-exported-apis.md)
-- [有关 outlook 导出 Api](about-apis-exported-by-outlook.md)
+- [关于 Outlook 导出的 API](about-apis-exported-by-outlook.md)
 - [MFC c + + 2003年.NET 中实现 XP Outlook 2002/事件接收器](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C)
 

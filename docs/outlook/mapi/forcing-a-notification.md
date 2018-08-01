@@ -1,5 +1,5 @@
 ---
-title: 强制通知
+title: 强制执行通知
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774960"
 ---
-# <a name="forcing-a-notification"></a>强制通知
+# <a name="forcing-a-notification"></a>强制执行通知
 
   
   

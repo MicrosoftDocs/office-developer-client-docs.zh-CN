@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cb777074d1657a3ee5c2f1e9f70d2b304858c1b2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -83,7 +83,7 @@ MAPI_W_POSITION_CHANGED
   
 > 调用成功，但操作中使用的书签不再设置在所在的行时上次使用它;如果未用过该书签，，则不再中位置相同时创建它。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPITable::FindRow**方法在要与一组_lpRestriction_参数指向的**SRestriction**结构中所述的搜索条件匹配的表中查找第一行。 
   
@@ -127,8 +127,8 @@ MFCMAPI 示例代码，请参阅下表。
   
 [SRestriction](srestriction.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

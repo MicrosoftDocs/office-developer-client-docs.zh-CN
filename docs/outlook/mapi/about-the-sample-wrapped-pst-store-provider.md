@@ -1,5 +1,5 @@
 ---
-title: 有关示例包装 PST 存储提供程序
+title: 关于示例包装的 PST 存储区提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774474"
 ---
-# <a name="about-the-sample-wrapped-pst-store-provider"></a>有关示例包装 PST 存储提供程序
+# <a name="about-the-sample-wrapped-pst-store-provider"></a>关于示例包装的 PST 存储区提供程序
 
  
   
@@ -37,23 +37,23 @@ ms.locfileid: "19774474"
   
 ## <a name="in-this-section"></a>本节内容
 
-- [安装示例自动换行 PST 存储提供程序](installing-the-sample-wrapped-pst-store-provider.md)
+- [安装示例包装的 PST 存储区提供程序](installing-the-sample-wrapped-pst-store-provider.md)
     
 - 介绍如何下载并安装示例自动换行 PST 存储提供程序。
     
-- [初始化换行的 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)
+- [初始化包装的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
     
 - 实现包装的 PST 存储提供程序的第一步是初始化和配置的换行的 PST 存储提供程序。
     
-- [登录到换行的 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
+- [登录包装的 PST 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
     
 - 初始化换行的 PST 存储提供程序后，您必须实现函数，以便 MAPI 和 MAPI 后台处理程序可以登录到的换行的 PST 存储提供程序。
     
-- [使用包装的 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)
+- [使用包装的 PST 存储区提供程序](using-a-wrapped-pst-store-provider.md)
     
 - 若要使用换行的 PST 存储提供程序必须打包**[IMAPISupport::IUnknown](imapisupportiunknown.md)** 界面，以实现常见换行 PST 存储提供程序任务。 
     
-- [关机的情况下被环绕的 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)
+- [关闭包装的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
     
 - 使用换行的 PST 存储提供程序之后，您必须正确关闭的换行的 PST 存储提供程序。
     
@@ -61,7 +61,7 @@ ms.locfileid: "19774474"
 
 
 
-[有关复制 API](about-the-replication-api.md)
+[关于复制 API](about-the-replication-api.md)
   
-[开发 MAPI 消息存储提供程序](developing-a-mapi-message-store-provider.md)
+[开发 MAPI 邮件存储区提供程序](developing-a-mapi-message-store-provider.md)
 

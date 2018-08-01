@@ -22,13 +22,13 @@ ms.locfileid: "19774449"
 
 |||
 |:-----|:-----|
-|标识符:  <br/> |0x0101  <br/> |
+|标识符：  <br/> |0x0101  <br/> |
 |属性类型  <br/> |PT_UNICODE  <br/> |
 |属性标记：  <br/> |0x0101001F  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
-- [管理邮件下载 POP3 帐户](managing-message-downloads-for-pop3-accounts.md) 
+- [管理 POP3 帐户的邮件下载](managing-message-downloads-for-pop3-accounts.md) 
 - [常量 （帐户管理 API）](constants-account-management-api.md)
 

@@ -5,7 +5,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9
-description: 您可以使用 CreateRecord 数据块在指定表格中创建一条新记录。
+description: 您可以使用 CreateRecord 数据块在指定表中创建新记录。
 ms.openlocfilehash: dc4be7653081c7c02426d84c74b7b56e597706fa
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773479"
 您可以使用 **CreateRecord** 数据块在指定表中创建新记录。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 > [!NOTE]
 > [!注释] **CreateRecord** 数据块仅适用于数据宏。 
@@ -31,7 +31,7 @@ ms.locfileid: "19773479"
   
 |**参数名称**|**必需**|**说明**|
 |:-----|:-----|:-----|
-|**创建中的记录** <br/> |是  <br/> |要在其中创建新记录的表的名称。  <br/> |
+|**Create a Record In** <br/> |是  <br/> |要在其中创建新记录的表的名称。  <br/> |
 |**Alias** <br/> |否  <br/> |一个字符串，标识的记录。 您可以使用记录的别名来标识该记录  <br/> |
    
 ## <a name="remarks"></a>注释
@@ -43,7 +43,7 @@ ms.locfileid: "19773479"
 ||
 |:-----|
 |[CancelRecordChange 宏操作](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
-|[注释宏语句](comment-macro-block-access-custom-web-app.md) <br/> |
+|[Comment 宏语句](comment-macro-block-access-custom-web-app.md) <br/> |
 |[Group 宏语句](group-macro-block-access-custom-web-app.md) <br/> |
 |[如果...然后...Else 宏语句](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
 |[SetField 宏操作](setfield-macro-action-access-custom-web-app.md) <br/> |

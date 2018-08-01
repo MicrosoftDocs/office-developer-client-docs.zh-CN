@@ -1,5 +1,5 @@
 ---
-title: attDate 属性
+title: attDate Attributes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774579"
 ---
-# <a name="attdate-attributes"></a>attDate 属性
+# <a name="attdate-attributes"></a>attDate Attributes
 
   
   

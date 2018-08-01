@@ -1,5 +1,5 @@
 ---
-title: 显示对话框从 DLL 或 XLL 中
+title: 从 DLL 或 XLL 内显示对话框
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,7 +8,7 @@ keywords:
 - xll [excel 2007]，显示对话框中，对话框 [Excel 2007]，显示从 DLL 或 XLL，显示对话框从 Dll [Excel 2007]
 localization_priority: Normal
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: afb21125bc54a2607a997c7b2f7c73ef2f528f28
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773651"
 ---
-# <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>显示对话框从 DLL 或 XLL 中
+# <a name="displaying-dialog-boxes-from-within-a-dll-or-xll"></a>从 DLL 或 XLL 内显示对话框
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 若要显示 Win32 对话框中使用，例如 Windows SDK 函数**DialogBox**，首先必须适用于 Excel 获取完整的 32 位实例和主窗口句柄。 有关详细信息，请参阅[访问 Excel 实例，主窗口句柄](how-to-access-excel-instance-and-main-window-handles.md)。 
   
@@ -30,9 +30,9 @@ ms.locfileid: "19773651"
 
 
 
-[创建 xll （英文）](creating-xlls.md)
+[创建 XLL](creating-xlls.md)
   
-[开发 Dll](developing-dlls.md)
+[开发 DLL](developing-dlls.md)
   
 [访问 Excel 实例和主窗口句柄](how-to-access-excel-instance-and-main-window-handles.md)
   

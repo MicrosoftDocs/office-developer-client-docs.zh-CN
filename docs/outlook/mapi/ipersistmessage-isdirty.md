@@ -45,7 +45,7 @@ S_FALSE
   
 > 窗体不具有自上次保存以来所做的更改。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单查看器调用**IPersistMessage::IsDirty**方法以确定是否邮件有未保存的数据。 
   
@@ -53,5 +53,5 @@ S_FALSE
 
 
 
-[IPersistMessage: IUnknown](ipersistmessageiunknown.md)
+[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
 

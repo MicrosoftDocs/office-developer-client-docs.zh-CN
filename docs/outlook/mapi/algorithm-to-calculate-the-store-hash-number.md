@@ -1,5 +1,5 @@
 ---
-title: 要计算的存储哈希算法
+title: 用于计算存储区哈希数的算法
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774523"
 ---
-# <a name="algorithm-to-calculate-the-store-hash-number"></a>要计算的存储哈希算法
+# <a name="algorithm-to-calculate-the-store-hash-number"></a>用于计算存储区哈希数的算法
  
 **适用于**： Outlook 
   
@@ -242,6 +242,6 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   
 ## <a name="see-also"></a>另请参阅
 
-- [有关基于通知存储索引](about-notification-based-store-indexing.md)
-- [有关基于通知的索引的 MAPI Url](about-mapi-urls-for-notification-based-indexing.md)
+- [关于基于通知的存储区索引](about-notification-based-store-indexing.md)
+- [关于基于通知的索引的 MAPI URL](about-mapi-urls-for-notification-based-indexing.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 41d1a4abe79892fa1c9c8789e159a19645318497
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -27,12 +27,12 @@ ms.locfileid: "19778249"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ROAMING_DICTIONARY  <br/> |
-|标识符:  <br/> |0x7C07  <br/> |
+|相关属性：  <br/> |PR_ROAMING_DICTIONARY  <br/> |
+|标识符：  <br/> |0x7C07  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Configuration  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此属性包含一个使用 UTF8 编码的 UNICODE XML 文档。 具有词典流一条消息必须设置此属性与下面的架构：
   
@@ -94,7 +94,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

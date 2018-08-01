@@ -1,5 +1,5 @@
 ---
-title: 有关复制 API
+title: 关于复制 API
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774466"
 ---
-# <a name="about-the-replication-api"></a>有关复制 API
+# <a name="about-the-replication-api"></a>关于复制 API
 
   
   
@@ -70,7 +70,7 @@ ms.locfileid: "19774466"
     
 - **[SKEY](skey.md)**
     
-- **[同步](sync.md)**
+- **[SYNC](sync.md)**
     
 - **[SYNCCONT](synccont.md)**
     

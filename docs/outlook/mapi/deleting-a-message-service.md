@@ -1,5 +1,5 @@
 ---
-title: 删除消息服务
+title: 删除邮件服务
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774769"
 ---
-# <a name="deleting-a-message-service"></a>删除消息服务
+# <a name="deleting-a-message-service"></a>删除邮件服务
 
   
   

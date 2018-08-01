@@ -1,5 +1,5 @@
 ---
-title: 窗体配置文件 [平台] 节
+title: 表单配置文件 [平台] 部分
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ddc6db2303d9d5f114fdb27b6e15e699a04e73f4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774968"
 ---
-# <a name="form-configuration-file-platforms-section"></a>窗体配置文件 [平台] 节
+# <a name="form-configuration-file-platforms-section"></a>表单配置文件 [平台] 部分
 
 **适用于**： Outlook 
   

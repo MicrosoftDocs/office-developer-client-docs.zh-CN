@@ -19,7 +19,7 @@ ms.locfileid: "19773427"
 返回指定表达式的指数值。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -31,7 +31,7 @@ ms.locfileid: "19773427"
 |:-----|:-----|
 | *NumericExpression*  <br/> |Double 类型时，或者可以隐式转换为 Double 类型的表达式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **E** (2.718281...)，该常量是自然对数的。 
   

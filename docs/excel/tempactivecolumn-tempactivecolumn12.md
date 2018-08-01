@@ -11,7 +11,7 @@ keywords:
 - tempactivecolumn12 函数 [excel 2007，] TempActiveColumn 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: ac3dbb0bb43527f790e6934d73bee30a33f8555f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19773816"
 ---
 # <a name="tempactivecolumntempactivecolumn12"></a>TempActiveColumn/TempActiveColumn12
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 创建临时**XLOPER**的框架库函数/ **XLOPER12**包含对整列在活动工作表上的外部引用。 
   
@@ -58,5 +58,5 @@ short WINAPI TempActiveColumnExample(void)
 
 
 
-[Framework 库中的函数](functions-in-the-framework-library.md)
+[框架库中的函数](functions-in-the-framework-library.md)
 

@@ -107,7 +107,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 无法识别_lpEntryID_中指定的项标识符。 如果负责的相应条目的地址簿提供程序未打开，则通常会返回此值。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端和服务提供商调用**IAddrBook::OpenEntry**方法打开的通讯簿条目。 MAPI 转发到适当的地址簿提供程序，基于[MAPIUID](mapiuid.md)结构包含传递_lpEntryID_参数中的项标识符的调用。 通讯簿提供程序将打开以只读方式条目，除非设置了_ulFlags_参数中的 MAPI_MODIFY 或 MAPI_BEST_ACCESS 标志。 但是，这些标志为建议。 如果通讯簿提供程序不允许请求的项的修改，则将返回 MAPI_E_NO_ACCESS。 
   
@@ -115,5 +115,5 @@ _LpInterface_参数指示应使用哪个接口访问打开的条目。 在_lpInt
   
 ## <a name="see-also"></a>另请参阅
 
-- [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+- [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

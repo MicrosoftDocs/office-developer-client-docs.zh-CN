@@ -49,7 +49,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > 无法完成所请求的操作。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPITable::CreateBookmark**方法通过创建值调用书签标记的表的位置。 可以使用书签以返回到书签标识的位置。 与在表中的行对象相关联的书签的位置。 
   
@@ -75,5 +75,5 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 [IMAPITable::SeekRow](imapitable-seekrow.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

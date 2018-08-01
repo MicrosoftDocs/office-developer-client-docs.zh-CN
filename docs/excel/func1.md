@@ -10,7 +10,7 @@ keywords:
 - func1 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773749"
 ---
 # <a name="func1"></a>Func1
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 示例用户定义的工作表函数演示的静态的字符串值返回。 加载 GENERIC.xll 时，以便它可以调用从工作表中注册此函数。
   
@@ -46,5 +46,5 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 
 
-[泛型 DLL 中的函数](functions-in-the-generic-dll.md)
+[通用 DLL 中的函数](functions-in-the-generic-dll.md)
 

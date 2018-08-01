@@ -19,7 +19,7 @@ ms.locfileid: "19773452"
 确定指定的表达式是否为 NULL。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -32,7 +32,7 @@ ms.locfileid: "19773452"
 | *expression*  <br/> |任何有效的表达式。  <br/> |
 | *NOT*  <br/> |指定布尔值的结果取反。 谓词取消其返回值，如果的值不是 NULL 值和 FALSE 如果值为 NULL，则返回 TRUE。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果*表达式*的值为 NULL，则为 NULL，则返回 TRUE;否则，将返回 FALSE。 
   

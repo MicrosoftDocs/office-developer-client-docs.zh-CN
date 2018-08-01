@@ -19,7 +19,7 @@ ms.locfileid: "19773487"
 确定特定字符串是否与指定的模式匹配。 模式可以包含常规字符和通配符。 模式匹配时，常规字符必须完全匹配字符串中指定的字符。 但是，通配符可以与字符串的任意部分相匹配。 使用通配符可使**LIKE**运算符比使用 = 更灵活和 ！ = 字符串比较运算符。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -29,11 +29,11 @@ ms.locfileid: "19773487"
   
 |**参数名称**|**必需**|**说明**|
 |:-----|:-----|:-----|
-| *Expression*  <br/> |是  <br/> |一个有效表达式。  <br/> |
-| *Pattern*  <br/> |是  <br/> |要在*表达式*中搜索特定字符串。 可以包含通配符字符。 引用一组有效通配符字符的备注。  <br/> |
+| *Expression*  <br/> |可访问  <br/> |一个有效表达式。  <br/> |
+| *Pattern*  <br/> |可访问  <br/> |要在*表达式*中搜索特定字符串。 可以包含通配符字符。 引用一组有效通配符字符的备注。  <br/> |
 | *EscapeChar*  <br/> |否  <br/> |应解释通配符放置通配符来指示前面的字符，为常规字符，而不是通配符。  *EscapeChar*是没有默认值和计算结果必须为只有一个字符的字符表达式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 下表包含有效的*模式*参数中使用通配符。 
   

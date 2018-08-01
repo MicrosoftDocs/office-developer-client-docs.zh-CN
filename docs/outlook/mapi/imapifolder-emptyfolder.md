@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7d8653b8f0cb2196319c4a9c2b4bca89c8be5a24
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -71,7 +71,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但不是完全清空文件夹。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPIFolder::EmptyFolder**方法将删除所有文件夹的内容而不删除该文件夹本身。 
   
@@ -109,10 +109,10 @@ MFCMAPI 示例代码，请参阅下表。
 
 [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md)
   
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
-[用于错误处理的宏](using-macros-for-error-handling.md)
+[使用宏进行错误处理](using-macros-for-error-handling.md)
 

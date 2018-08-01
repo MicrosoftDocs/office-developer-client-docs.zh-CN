@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 8c9a166ac06685c0a450e1e0bd60b2fbef67d336
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19773632"
 ---
 # <a name="developing-excel-cluster-connectors"></a>开发 Excel 群集连接器
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Excel 群集连接器的自动卸载用户定义的群集安全函数调用中 XLL 群集服务器提供一种方法。 群集安全用户定义函数的说明，请参阅[群集安全函数](cluster-safe-functions.md)。 此卸载可以通过启用详细计算的资源用于提高性能。 群集连接器通常是由高性能计算群集供应商开发。
   

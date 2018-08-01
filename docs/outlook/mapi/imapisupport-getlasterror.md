@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志 MAPI 不支持 Unicode，或未设置 MAPI_UNICODE 和 MAPI 支持仅 Unicode。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于所有支持对象实现**IMAPISupport::GetLastError**方法。 呼叫者可以向其用户提供有关错误的详细信息通过在对话框中包括的**MAPIERROR**结构中的数据。 
   
@@ -83,7 +83,7 @@ MAPI_E_BAD_CHARWIDTH
   
 [MAPIFreeBuffer](mapifreebuffer.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
 [MAPI 扩展错误](mapi-extended-errors.md)

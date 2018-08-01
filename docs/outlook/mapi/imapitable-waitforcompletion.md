@@ -63,7 +63,7 @@ MAPI_E_TIMEOUT
   
 > 在指定时间的异步操作未完成。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPITable::WaitForCompletion**方法挂起处理，直到表当前正在进行任何异步操作完成。 **WaitForCompletion**可以允许异步操作到完全完成或运行一定数量的毫秒，由_ulTimeout_之前被打扰。 若要检测正在进行的异步操作，请调用[IMAPITable::GetStatus](imapitable-getstatus.md)方法。 
   
@@ -81,5 +81,5 @@ MAPI_E_TIMEOUT
   
 [IMAPITable::SortTable](imapitable-sorttable.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

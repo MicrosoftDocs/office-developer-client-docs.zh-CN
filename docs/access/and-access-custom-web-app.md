@@ -18,7 +18,7 @@ ms.locfileid: "19773453"
 合并两个 Boolean 表达式并当两个表达式都为 TRUE 时返回 TRUE。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -28,7 +28,7 @@ ms.locfileid: "19773453"
 
 当两个表达式都为 TRUE 时，则返回 TRUE。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 在语句中使用多个逻辑运算符时，先评估 AND 运算符。 通过使用括号，可以更改求值的顺序。
   

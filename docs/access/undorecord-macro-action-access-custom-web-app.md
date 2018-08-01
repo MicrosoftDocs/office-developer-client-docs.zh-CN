@@ -19,9 +19,9 @@ ms.locfileid: "19773614"
 放弃对当前记录的更改。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **UndoRecord**操作等效于使用栏放弃更改操作中的**取消**按钮。 
   

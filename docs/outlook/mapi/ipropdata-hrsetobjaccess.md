@@ -53,7 +53,7 @@ S_OK
   
 > 成功将对象的访问级别设置。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IPropData::HrSetObjAccess**方法将设置为整个对象，而不是为各个属性的访问级别。 **HrSetObjAccess**可用于更改时创建的对象已建立的访问级别。 
   
@@ -73,5 +73,5 @@ S_OK
   
 [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md)
   
-[IPropData: IMAPIProp](ipropdataimapiprop.md)
+[IPropData : IMAPIProp](ipropdataimapiprop.md)
 

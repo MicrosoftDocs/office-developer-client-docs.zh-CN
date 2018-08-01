@@ -1,5 +1,5 @@
 ---
-title: 控件对象实现
+title: 控制对象实现
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774695"
 ---
-# <a name="control-object-implementation"></a>控件对象实现
+# <a name="control-object-implementation"></a>控制对象实现
 
   
   

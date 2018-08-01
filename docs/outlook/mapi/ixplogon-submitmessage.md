@@ -84,7 +84,7 @@ MAPI_E_WAIT
   
 > 暂时出现问题阻止传输提供程序处理邮件。 _LpulReturnParm_参数应设置为的 MAPI 后台处理程序重新提交邮件之前所经过的秒数。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 MAPI 后台处理程序调用**IXPLogon::SubmitMessage**方法时要提供的传输提供程序的消息。 通过使用_lpMessage_参数情况下，邮件传递到传输提供程序。 
   
@@ -128,5 +128,5 @@ MAPI 后台处理程序调用**IXPLogon::SubmitMessage**方法时要提供的传
   
 [IXPLogon::TransportNotify](ixplogon-transportnotify.md)
   
-[IXPLogon: IUnknown](ixplogoniunknown.md)
+[IXPLogon : IUnknown](ixplogoniunknown.md)
 

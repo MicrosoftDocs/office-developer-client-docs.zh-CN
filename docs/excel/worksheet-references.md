@@ -8,7 +8,7 @@ keywords:
 - 引用 [excel 2007]、 工作表、 工作表引用 [Excel 2007]、 外部工作表引用 [Excel 2007]、 活动工作表 [Excel 2007]、 当前工作表 [Excel 2007]、 内部的工作表引用 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: b7089fb891c96be9182189e3a5f30057721cebbc
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773835"
 ---
 # <a name="worksheet-references"></a>工作表引用
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 中的引用是指的矩形块的单元格 （它可能只有一个单元格），或在某些情况下，非连续单元格块大量数据类型。 内部，Excel 将使用一个引用类型称为内部引用当前的工作表上的单元格。 不在当前工作表的任意单元格被描述另一种称为外部引用的引用。 请参阅定义活动和当前的下一节。
   
@@ -52,5 +52,5 @@ Excel 正在重新计算引用当前的术语。 当前工作簿和工作表是�
   
 [Evaluating Names and Other Worksheet Formula Expressions](evaluating-names-and-other-worksheet-formula-expressions.md)
   
-[Excel 工作表和表达式评估](excel-worksheet-and-expression-evaluation.md)
+[Excel 工作表和表达式计算](excel-worksheet-and-expression-evaluation.md)
 

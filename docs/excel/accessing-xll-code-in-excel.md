@@ -8,7 +8,7 @@ keywords:
 - 中访问 xll 代码 [excel 2007]，Xll [Excel 2007]，访问代码、 命令 [Excel 2007]、 注册、 函数 [Excel 2007]、 注册，从 Excel 调用 xll （英文）、 注册命令 [Excel 2007]，注册函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 1523f9e8213cb955f1bfd995c42f921b001299fe
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773637"
 ---
 # <a name="accessing-xll-code-in-excel"></a>在 Excel 中访问 XLL 代码
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 可在 Microsoft Excel、 函数和 XLL 包含的命令：
   
@@ -113,8 +113,8 @@ short WINAPI xll_cmd_name(void)
   
 ## <a name="see-also"></a>另请参阅
 
-- [创建 xll （英文）](creating-xlls.md)
-- [从函数向导或替换对话框呼叫 XLL 函数](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+- [创建 XLL](creating-xlls.md)
+- [从函数向导或替换对话框调用 XLL 函数](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
 - [加载项管理器和 XLL 接口函数](add-in-manager-and-xll-interface-functions.md)
 - [Developing Excel XLLs](developing-excel-xlls.md)
 

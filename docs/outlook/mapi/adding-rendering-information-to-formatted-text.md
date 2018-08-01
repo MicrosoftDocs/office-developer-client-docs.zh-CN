@@ -1,5 +1,5 @@
 ---
-title: 添加呈现信息格式化文本
+title: 将生成的信息添加到格式化文本
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774511"
 ---
-# <a name="adding-rendering-information-to-formatted-text"></a>添加呈现信息格式化文本
+# <a name="adding-rendering-information-to-formatted-text"></a>将生成的信息添加到格式化文本
 
   
   

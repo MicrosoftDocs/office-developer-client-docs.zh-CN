@@ -10,7 +10,7 @@ keywords:
 - convertxlreftoxlref12 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 94580044-9497-425f-a31e-53bb4d94dc30
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: f2830633482e5329d285907b610386b708c406a4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773646"
 ---
 # <a name="convertxlreftoxlref12"></a>ConvertXLRefToXLRef12
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 尝试**XLREF**转换**XLREF12**的框架函数。
   
@@ -42,7 +42,7 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 
  如果为**TRUE**转换成功， **FALSE**否则。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 传入的**XLREF**是有效的则此操作应始终为成功。 相比之下，转换的其他方式从**XLREF12** **XLREF**，由[ConvertXLRef12ToXLRef](convertxlref12toxlref.md)，执行失败提供的引用引用的 Excel 2007 工作表中不支持早期版本中的一部分。
   
@@ -72,5 +72,5 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxref, LPXLREF12 pxref12)
 
 
 
-[Framework 库中的函数](functions-in-the-framework-library.md)
+[框架库中的函数](functions-in-the-framework-library.md)
 

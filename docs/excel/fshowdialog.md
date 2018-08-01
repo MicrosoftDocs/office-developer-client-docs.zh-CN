@@ -10,7 +10,7 @@ keywords:
 - fshowdialog 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: ae6d8b2f0b95641678947e9bd75daa2237b080b1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773758"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 示例用户定义的命令，加载和显示示例本机 Windows 的对话框。 当加载 GENERIC.xll 时，它会创建用户定义的菜单中，一般，通过其访问此命令。
   
@@ -36,7 +36,7 @@ int WINAPI fShowDialog(void);
 
 函数返回整数零指示成功完成
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 显示本机 Windows 对话框中的步骤如下所示：
   
@@ -56,5 +56,5 @@ int WINAPI fShowDialog(void);
 
 
 
-[泛型 DLL 中的函数](functions-in-the-generic-dll.md)
+[通用 DLL 中的函数](functions-in-the-generic-dll.md)
 

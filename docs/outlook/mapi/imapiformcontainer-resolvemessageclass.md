@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 713a177d5ceddf5fd4d97a0e35d87b2250748faf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -63,7 +63,7 @@ MAPI_E_NOT_FOUND
   
 > _SzMessageClass_参数中传递的邮件类不匹配窗体容器中的任何窗体的邮件类。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端应用程序调用**IMAPIFormContainer::ResolveMessageClass**方法解析为窗体容器内的窗体的邮件类。 返回_ppforminfo_参数中的窗体信息对象提供了进一步访问具有给定的邮件类的窗体的属性。 
   
@@ -85,11 +85,11 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[IMAPIFormInfo: IMAPIProp](imapiforminfoimapiprop.md)
+[IMAPIFormInfo : IMAPIProp](imapiforminfoimapiprop.md)
   
 [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md)
   
 [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)
   
-[IMAPIFormContainer: IUnknown](imapiformcontaineriunknown.md)
+[IMAPIFormContainer : IUnknown](imapiformcontaineriunknown.md)
 

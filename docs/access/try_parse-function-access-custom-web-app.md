@@ -30,9 +30,9 @@ ms.locfileid: "19773625"
 |**参数名称**|**说明**|
 |:-----|:-----|
 | *TextExpression*  <br/> |一个文本表达式，表示要分析到指定的数据类型的格式化的值。  <br/> |
-| *数据类型*  <br/> |要分析*TextExpression*将数据类型。  <br/> |
+| *DataType*  <br/> |要分析*TextExpression*将数据类型。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **Try_Parse**仅用于从字符串转换为日期/时间和号码的类型。 常规类型转换，继续使用**转换**。 
   

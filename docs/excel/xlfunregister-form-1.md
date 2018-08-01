@@ -1,5 +1,5 @@
 ---
-title: xlfUnregister (窗体 1)
+title: xlfUnregister（窗体 1）
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - xlfunregister 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 6077027a27c054c5a5e65a751373c41a87cb3836
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773850"
 ---
-# <a name="xlfunregister-form-1"></a>xlfUnregister (窗体 1)
+# <a name="xlfunregister-form-1"></a>xlfUnregister（窗体 1）
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 可从 DLL 或 XLL 命令的本身已调用由 Microsoft Excel 进行调用。 这是等效于从 Excel XLM 宏工作表调用**注销**。 
   
@@ -48,7 +48,7 @@ _pxRegisterId_(**xltypeNum**)
 
 如果成功，则返回**TRUE** (**xltypeBool**)，否则为将返回 FALSE。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 注册时的功能是第一个 ID 的函数将返回的**xlfRegister**注册。 也可以获得通过调用[xlfRegisterId 函数](xlfregisterid.md)或[xlfEvaluate 函数](xlfevaluate.md)。 请注意该 xlfRegisterId 尝试注册功能，如果尚未注册。 因此，如果只想要获取的 ID，以便可以取消注册函数，则最好获取通过将已注册的名称传递给**xlfEvaluate**。 如果尚未注册该函数， **xlfEvaluate**将失败并 #NAME？错误。 
   
@@ -91,8 +91,8 @@ int WINAPI fExit(void)
 
 ## <a name="see-also"></a>另请参阅
 
-- [xlfRegister (窗体 1)](xlfregister-form-1.md)
+- [xlfRegister（窗体 1）](xlfregister-form-1.md)
 - [xlfRegisterId](xlfregisterid.md)
-- [xlfUnregister (窗体 2)](xlfunregister-form-2.md)
-- [关键及有用的 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
+- [xlfUnregister（窗体 2）](xlfunregister-form-2.md)
+- [基本的有用 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
 

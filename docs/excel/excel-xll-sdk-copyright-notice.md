@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 92a242e6-c94c-4eef-a4b2-efd1b8f62de8
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 0d01f908fb43215cb7d61a55220e3abe37157feb
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19773734"
 ---
 # <a name="excel-xll-sdk-copyright-notice"></a>Excel XLL SDK 版权声明
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 本文档"按原样"提供。本文档中表示的信息和视图（包括 URL 和其他 Internet 网站引用）可能会发生更改，且不进行通知。您需承担使用本文档的风险。 
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b67fcb83-a0e2-4349-88f5-bcc181306eac
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: c5508df8466932b6fb5c7e04164aa00a5ea31a8d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19773746"
 ---
 # <a name="handling-events"></a>处理事件
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 启动在 Excel 2010 xll （英文） 可以接收旨在管理的异步函数生命周期的事件。 事件如下所示：
   

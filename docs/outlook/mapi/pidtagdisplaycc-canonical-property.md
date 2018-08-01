@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 00377e78-a208-4942-a7a6-893b2a71ab0b
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6257557a8848c1abbaf8ceb15f719c50e4fec8c4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777570"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_DISPLAY_CC，PR_DISPLAY_CC_A，PR_DISPLAY_CC_W  <br/> |
-|标识符:  <br/> |0x0E03  <br/> |
+|相关属性：  <br/> |PR_DISPLAY_CC，PR_DISPLAY_CC_A，PR_DISPLAY_CC_W  <br/> |
+|标识符：  <br/> |0x0E03  <br/> |
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |邮件  <br/> |
+|区域：  <br/> |Message  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 消息存储库使用[IMessage::ModifyRecipients](imessage-modifyrecipients.md)方法计算这些消息对象的属性。 消息存储还维护这些属性，以便它始终反映消息的上次保存的状态。 在每次调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)时同步值。 
   
@@ -76,7 +76,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

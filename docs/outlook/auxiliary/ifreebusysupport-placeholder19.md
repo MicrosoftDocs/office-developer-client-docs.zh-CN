@@ -35,7 +35,7 @@ HRESULT Placeholder19(
 
 始终 E_NOTIMPL，因为此成员是一个占位符，并且不受支持。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此成员必须返回 E_NOTIMPL。
   

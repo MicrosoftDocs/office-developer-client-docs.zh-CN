@@ -8,7 +8,7 @@ keywords:
 - 版本兼容性 [excel 2007]，XLL 兼容性 [Excel 2007] 中，向后兼容性 [Excel 2007]
 localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 095961fa909a67b354ed43a7e093b79a9ebb4f18
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773640"
 ---
 # <a name="backward-compatibility"></a>向后兼容性
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 本主题介绍 XLL 不同版本的 Microsoft Excel 中的兼容性的问题。
   
@@ -73,7 +73,7 @@ ms.locfileid: "19773640"
   
 ## <a name="see-also"></a>另请参阅
 
-- [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md) 
+- [C API 回调函数 Excel4、Excel12](c-api-callback-functions-excel4-excel12.md) 
 - [�� Excel ��ʹ�� C API ���б��](programming-with-the-c-api-in-excel.md)
-- [What's New in the C API for Excel](what-s-new-in-the-c-api-for-excel.md)
+- [适用于 Excel 的 C API 中的新增功能](what-s-new-in-the-c-api-for-excel.md)
 

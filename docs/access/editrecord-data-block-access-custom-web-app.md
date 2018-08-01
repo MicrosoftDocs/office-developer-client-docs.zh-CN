@@ -18,7 +18,7 @@ ms.locfileid: "19773434"
 您可以使用 **EditRecord** 数据块更改现有记录中包含的值。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 > [!NOTE]
 > [!注释] **EditRecord** 数据块仅适用于数据宏。 
@@ -31,14 +31,14 @@ ms.locfileid: "19773434"
 |:-----|:-----|
 |**Alias** <br/> |一个字符串，标识要编辑的记录。 如果不指定*Alias*参数，则被编辑当前记录。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **EditRecord**语句之后, 可插入的命令将执行提交到记录更改之前的块。 **EditRecord**数据块有以下操作。 
   
 ||
 |:-----|
 |[CancelRecordChange 宏操作](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
-|[注释宏语句](comment-macro-block-access-custom-web-app.md) <br/> |
+|[Comment 宏语句](comment-macro-block-access-custom-web-app.md) <br/> |
 |[Group 宏语句](group-macro-block-access-custom-web-app.md) <br/> |
 |[如果...然后...Else 宏语句](ifthenelse-macro-block-access-custom-web-app.md) <br/> |
 |[SetField 宏操作](setfield-macro-action-access-custom-web-app.md) <br/> |

@@ -8,7 +8,7 @@ keywords:
 - xlfgetdef
 localization_priority: Normal
 ms.assetid: 68f5edbd-9040-46d3-acd5-dd51ca82f6fa
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 030c4e501e8a9eb4b6ce29d7fe0e171324b50b5c
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "19773861"
 ---
 # <a name="xlfgetdef"></a>xlfGetDef
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 返回为文本，为特定区域、 值或公式工作簿中的定义的名称。 在 Excel 中，此值显示在**名称管理器**对话框中，单击**名称管理器**中使用**xlfGetDef** **公式**选项卡上**定义名称**部分获取时显示的**名称**列对应于定义的名称。 若要获取的名称定义，请使用[xlfGetName](xlfgetname.md)。
   
@@ -54,7 +54,7 @@ _pxTypeNum_(**xltypeNum**)
   
 返回与指定的定义关联的名称。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 下表列出了通过调用**xlfGetDef**用指定的参数返回的值的四个示例。 
   
@@ -68,5 +68,5 @@ _pxTypeNum_(**xltypeNum**)
 ## <a name="see-also"></a>另请参阅
 
 - [xlfGetName](xlfgetname.md)
-- [关键及有用的 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
+- [基本的有用 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
 

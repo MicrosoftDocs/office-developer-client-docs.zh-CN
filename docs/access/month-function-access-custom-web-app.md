@@ -31,7 +31,7 @@ ms.locfileid: "19773582"
 |:-----|:-----|
 | *Date*  <br/> |一个可解析为日期/时间值的表达式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
  **月**返回**DatePart** （月、 日期） 相同的值。 
   

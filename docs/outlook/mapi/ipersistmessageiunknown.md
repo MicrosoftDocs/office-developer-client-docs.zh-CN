@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 62fb2b069a50408713eea741cf837c421a749fcd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776010"
 ---
-# <a name="ipersistmessage--iunknown"></a>IPersistMessage: IUnknown
+# <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
@@ -49,7 +49,7 @@ ms.locfileid: "19776010"
 |[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |通知窗体的保存操作已完成。  <br/> |
 |[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |使窗体释放其当前邮件。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 实现**IPersistMessage**接口所需的所有表单。 
   

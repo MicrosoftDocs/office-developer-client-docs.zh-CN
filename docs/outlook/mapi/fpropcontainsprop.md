@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: abf33e4167d836aeb88fdefb30ba05840e80ce63
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -79,7 +79,7 @@ FALSE
   
 > 要比较的属性值不是类型 PT_STRING8 或 PT_BINARY、 的属性值是不同类型的或不包含_lpSPropValueSrc_搜索字符串中的_lpSPropValueDst_属性值指定。 
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 比较方法取决于[SPropValue](spropvalue.md)属性定义中指定的属性类型和_ulFuzzyLevel_参数中提供的级别模糊推断方法。 [FPropCompareProp](fpropcompareprop.md)和**FPropContainsProp**函数可以用于准备用于生成表的限制。 
   

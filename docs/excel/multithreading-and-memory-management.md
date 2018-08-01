@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f7e052a-4270-4b83-b1ed-feabf6dbeaa2
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 4f5495648c9012b0e028358037090f7e10ef5219
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19773800"
 ---
 # <a name="multithreading-and-memory-management"></a>多线程处理和内存管理
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 正确处理内存至关重要的 Microsoft Excel 中创建可靠的 XLL 加载项。 未能分配相应的内存缓冲区释放它们时不再需要它们会降低性能，创建资源争用和 destabilizes Excel。
   
@@ -24,11 +24,11 @@ ms.locfileid: "19773800"
   
 以下主题介绍如何管理内存和 xll （英文） 中的线程数：
   
-- [在 Excel 中进行内存管理](memory-management-in-excel.md)
+- [Excel 中的内存管理](memory-management-in-excel.md)
     
-- [多线程和 Excel 中的内存争用](multithreading-and-memory-contention-in-excel.md)
+- [Excel 中的多线程处理和内存争用](multithreading-and-memory-contention-in-excel.md)
     
-- [在 Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
+- [Excel 中的多线程重新计算](multithreaded-recalculation-in-excel.md)
     
 ## <a name="see-also"></a>另请参阅
 

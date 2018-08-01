@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 183c8eb5112fc35f088bc5c6ac11748e3449f15a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776594"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidApptNotAllowPropose  <br/> |
+|相关属性：  <br/> |dispidApptNotAllowPropose  <br/> |
 |属性进行设置：  <br/> |PSETID_Appointment  <br/> |
 |长 ID （盖）：  <br/> |0x0000825A  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 值为 FALSE 或不存在此属性指示允许与会者建议新的日期/时间。
   
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,7 +19,7 @@ ms.locfileid: "19773627"
 **SetReturnVar**操作创建返回变量，并将其设置为特定值。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 > [!NOTE]
 > **SetReturnVar**操作仅适用于数据宏。 
@@ -31,9 +31,9 @@ ms.locfileid: "19773627"
 |**参数名称**|**必需**|**说明**|
 |:-----|:-----|:-----|
 | _名称_ <br/> |是  <br/> |一个用于指定变量名称的字符串。  <br/> |
-| _Expression_ <br/> |是  <br/> |一个表达式，用于设置为临时变量的值。 不在表达式前面放等号 （=）。 您可以单击**生成**按钮以使用**表达式生成器**设置此参数。  <br/> |
+| _Expression_ <br/> |可访问  <br/> |一个表达式，用于设置为临时变量的值。 不在表达式前面放等号 （=）。 您可以单击**生成**按钮以使用**表达式生成器**设置此参数。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **SetReturnVar**操作用于创建**ReturnVar**，这是可供使用**RunDataMacro**操作调用的数据宏的宏的变量。 
   

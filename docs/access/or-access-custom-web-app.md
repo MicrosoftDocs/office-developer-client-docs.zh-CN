@@ -19,7 +19,7 @@ ms.locfileid: "19773576"
 结合以下两种情况。 当任一两个条件为 true，则返回 TRUE。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -31,7 +31,7 @@ ms.locfileid: "19773576"
 |:-----|:-----|
 | *布尔表达式*  <br/> |返回 TRUE 或 FALSE 任何有效表达式。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 在语句中使用多个逻辑运算符时，**或**运算符计算后**和**运算符。 但是，您可以通过使用括号更改求值的顺序。 
   

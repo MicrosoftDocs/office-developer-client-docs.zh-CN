@@ -1,5 +1,5 @@
 ---
-title: 使用会话中访问对象
+title: 使用会话访问对象
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ee20e73e5bc7bb6854b956da541d3a318a267d0f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774509"
 ---
-# <a name="accessing-objects-by-using-the-session"></a>使用会话中访问对象
+# <a name="accessing-objects-by-using-the-session"></a>使用会话访问对象
 
   
   

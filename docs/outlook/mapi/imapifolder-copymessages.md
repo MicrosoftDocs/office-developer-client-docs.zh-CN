@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e6e9e9cefc75ffc78ee7beb47e89063ea1a66ce7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但并非所有项已成功复制或移动。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPIFolder::CopyMessages**方法复制，或将邮件移动到另一个文件夹。 
   
@@ -128,5 +128,5 @@ MAPI_W_PARTIAL_COMPLETION
 
 
 
-[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)
+[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 

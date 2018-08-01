@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: e63d661ab8c7e410d6a0dd786819cc189813017e
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777291"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
-|标识符:  <br/> |0x36D8  <br/> |
+|相关属性：  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
+|标识符：  <br/> |0x36D8  <br/> |
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此多值属性的前五个条目于以下特殊文件夹，如果存在存储中：
   
@@ -84,10 +84,10 @@ Mapidefs.h
 
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 
 
-[有关存储区 API](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
+[关于存储区 API](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
 

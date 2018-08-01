@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ef9b99f06b62fd361bb780debb527ec2d7457589
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -67,7 +67,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表单查看器通常调用**IMAPIFormMgr::SelectFormContainer**方法选择窗体所安装到一个窗体容器。 **SelectFormContainer**不能用于选择本地窗体的容器，具有 HFRMREG_LOCAL 的值。 
   
@@ -83,8 +83,8 @@ MFCMAPI 示例代码，请参阅下表。
 
 
 
-[IMAPIFormMgr: IUnknown](imapiformmgriunknown.md)
+[IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

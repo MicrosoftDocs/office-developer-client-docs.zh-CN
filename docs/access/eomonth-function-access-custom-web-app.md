@@ -31,7 +31,7 @@ ms.locfileid: "19773428"
 | *Date*  <br/> |在日期/时间格式，或接受的文本表示形式日期开始的日期。  <br/> |
 | *NumberOfMonth*  <br/> |一个数字，表示的*日期*之前或之后的月数。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果*日期*不是有效日期，**则 eomonth 将**返回错误。 
   

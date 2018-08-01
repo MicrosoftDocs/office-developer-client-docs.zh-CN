@@ -11,7 +11,7 @@ keywords:
 - excel4 函数 [excel 2007，] Excel12 函数 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "19773736"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 内部 Microsoft Excel 工作表函数、 宏工作表函数或命令或仅 XLL 特殊函数或命令，从调用 DLL/XLL 或代码资源中。
   
@@ -72,7 +72,7 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |无效的异步函数句柄。  <br/> 此值只使用 Excel 2010。  <br/> |
 |512  <br/> |**xlRetNotClusterSafe** <br/> |在群集上不支持呼叫。  <br/> 此值只使用 Excel 2010。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 ### <a name="valid-ifunction-values"></a>有效 iFunction 值
 
@@ -82,7 +82,7 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 |:-----|:-----|:-----|:-----|
 |**xlAbort** <br/> |**xlEnableXLMsgs** <br/> |**xlGetInst** <br/> |**xlSheetNm** <br/> |
 |**xlCoerce** <br/> |**xlFree** <br/> |**xlGetName** <br/> |**xlStack** <br/> |
-|**xlDefineBinaryName** <br/> |**xlGetBinaryName** <br/> |**xlset，则** <br/> |**xlUDF** <br/> |
+|**xlDefineBinaryName** <br/> |**xlGetBinaryName** <br/> |**xlSet** <br/> |**xlUDF** <br/> |
 |**xlDisableXLMsgs** <br/> |**xlGetHwnd** <br/> |**xlSheetId** <br/> ||
    
 ### <a name="different-types-of-functions"></a>不同类型的函数

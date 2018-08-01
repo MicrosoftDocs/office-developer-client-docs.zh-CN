@@ -1,5 +1,5 @@
 ---
-title: 显示窗体图标
+title: 显示表单图标
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774809"
 ---
-# <a name="displaying-form-icons"></a>显示窗体图标
+# <a name="displaying-form-icons"></a>显示表单图标
 
   
   

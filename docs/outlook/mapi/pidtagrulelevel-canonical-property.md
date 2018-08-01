@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b1a30543-250d-4afb-87f2-448d90ee7cf9
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 55627161010996d59cf495845e73515da2a75fcf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19778281"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_RULE_LEVEL  <br/> |
-|标识符:  <br/> |0x6683  <br/> |
+|相关属性：  <br/> |PR_RULE_LEVEL  <br/> |
+|标识符：  <br/> |0x6683  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果设置此属性，必须在 0x00000000 传递客户端。 
   
@@ -68,14 +68,14 @@ Mapitags.h
 
 
 
-[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)
+[IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md)
 
 
 [MAPI 属性](mapi-properties.md)
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

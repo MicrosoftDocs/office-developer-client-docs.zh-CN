@@ -59,7 +59,7 @@ S_OK
   
 > 已成功准备好的收件人列表。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 客户端和服务提供商调用**PrepareRecips**方法以执行下列操作： 
   
@@ -89,5 +89,5 @@ MAPI 将每个收件人的短期条目标识符转换为长期条目标识符。
   
 [SRowSet](srowset.md)
   
-[IAddrBook: IMAPIProp](iaddrbookimapiprop.md)
+[IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

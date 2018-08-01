@@ -74,7 +74,7 @@ MAPI_E_INVALID_ENTRYID
   
 > 一个或两个条目标识符不属于通讯簿提供程序。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 通讯簿提供程序实现**CompareEntryIDs**方法比较两个条目标识符来确定它们是否引用同一个对象。 
   
@@ -86,5 +86,5 @@ MAPI_E_INVALID_ENTRYID
 
 
 
-[IABLogon: IUnknown](iablogoniunknown.md)
+[IABLogon : IUnknown](iablogoniunknown.md)
 

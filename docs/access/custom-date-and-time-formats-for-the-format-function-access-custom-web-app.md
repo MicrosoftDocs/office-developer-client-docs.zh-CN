@@ -18,7 +18,7 @@ ms.locfileid: "19773464"
 了解如何控制如何通过创建自定义的格式显示日期或时间。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="format-specifications"></a>格式规范
 
@@ -58,7 +58,7 @@ ms.locfileid: "19773464"
 |zz  <br/> |显示带前导零 （例如，-08） 的时区偏移量  <br/> |
 |zzz  <br/> |显示完整的时区偏移量 (例如，-08:00)  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 格式字符串是区分大小写。 可通过使用不同的大小写不同的格式。 例如，设置格式的 date 值与字符串"D"时您获取的日期的长格式 （根据您当前的区域设置）。 但是，如果大小写更改为"d"您的短格式获取的日期。 此外，意外的结果或错误可能会发生的预期格式不匹配任何定义的格式字符串的大小写。
   

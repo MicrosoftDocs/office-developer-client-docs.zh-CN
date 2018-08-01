@@ -1,5 +1,5 @@
 ---
-title: MAPI 示例
+title: MAPI 示例（英文）
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19776323"
 ---
-# <a name="mapi-samples"></a>MAPI 示例
+# <a name="mapi-samples"></a>MAPI 示例（英文）
 
   
   
@@ -23,7 +23,7 @@ ms.locfileid: "19776323"
   
 ## <a name="in-this-section"></a>本节内容
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
   
 > 介绍如何下载和使用 MFCMAPI 示例应用程序作为此引用。
     
@@ -35,12 +35,12 @@ ms.locfileid: "19776323"
   
 > 显示如何创建使用 MAPI 的 Outlook 项目的代码示例。
     
-## <a name="related-sections"></a>相关部分
+## <a name="related-sections"></a>相关章节
 
-[Getting Started with Outlook MAPI 参考](getting-started-with-the-outlook-mapi-reference.md)
+[Outlook MAPI 引用入门](getting-started-with-the-outlook-mapi-reference.md)
   
 [MAPI 概念](mapi-concepts.md)
   
-[MAPI 参考 （英文）](mapi-reference.md)
+[MAPI 引用](mapi-reference.md)
   
 

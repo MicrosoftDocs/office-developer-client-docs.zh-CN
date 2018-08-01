@@ -45,7 +45,7 @@ MAPI_E_UNABLE_TO_ABORT
   
 > 异步操作正在编写中，无法停止或已完成。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPITable::Abort**方法停止当前正在进行的任何异步操作。 
   
@@ -67,5 +67,5 @@ MAPI_E_UNABLE_TO_ABORT
   
 [IMAPITable::SortTable](imapitable-sorttable.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

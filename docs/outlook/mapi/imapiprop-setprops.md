@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 304295e3ac77fb67ec5875620a7a269377b542c1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -129,5 +129,5 @@ MFCMAPI 示例代码，请参阅下表。
   
 [SPropValue](spropvalue.md)
   
-[IMAPIProp: IUnknown](imapipropiunknown.md)
+[IMAPIProp : IUnknown](imapipropiunknown.md)
 

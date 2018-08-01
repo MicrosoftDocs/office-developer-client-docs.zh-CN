@@ -1,5 +1,5 @@
 ---
-title: 创建一个配置文件
+title: 创建配置文件
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774742"
 ---
-# <a name="creating-a-profile"></a>创建一个配置文件
+# <a name="creating-a-profile"></a>创建配置文件
 
   
   
@@ -25,11 +25,11 @@ ms.locfileid: "19774742"
   
 ## <a name="in-this-section"></a>本节内容
 
-[使用配置文件向导创建一个配置文件](creating-a-profile-by-using-the-profile-wizard.md)
+[使用配置文件向导创建配置文件](creating-a-profile-by-using-the-profile-wizard.md)
   
 > 介绍如何调用配置文件向导中的应用程序通过使用户可以以交互方式选择消息服务和服务提供商创建一个配置文件。
     
-[使用自定义代码创建一个配置文件](creating-a-profile-by-using-custom-code.md)
+[使用自定义代码创建配置文件](creating-a-profile-by-using-custom-code.md)
   
 > 介绍如何编写 C 或 c + + 代码，通常需要一组特定消息服务的非交互式客户端应用程序的最佳选择。
     

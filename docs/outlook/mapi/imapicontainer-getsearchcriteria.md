@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 13c151a134e4334e8ed2e75e031a6fc9dddbf941
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -88,7 +88,7 @@ MAPI_E_NOT_INITIALIZED
   
 > 搜索条件从不已建立的容器。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPIContainer::GetSearchCriteria**方法获取支持搜索，通常为一个搜索结果文件夹的容器中的搜索条件。 通过调用容器的**IMAPIContainer::SetSearchCriteria**方法创建搜索条件。 
   
@@ -120,8 +120,8 @@ MFCMAPI 示例代码，请参阅下表。
   
 [PidTagSearch 规范属性](pidtagsearch-canonical-property.md)
   
-[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)
+[IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

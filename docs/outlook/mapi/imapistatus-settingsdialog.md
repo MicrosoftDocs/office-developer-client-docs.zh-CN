@@ -58,7 +58,7 @@ MAPI_E_NO_SUPPORT
   
 > 状态对象不支持此方法，由 STATUS_SETTINGS_DIALOG 标志**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中不存在。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMAPIStatus::SettingsDialog**方法显示配置属性表。 所有服务提供商应都支持**留待**方法，但不是必需的。 服务提供商可以实现自己的属性表或使用支持对象的[IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md)方法中提供的实现。 **DoConfigPropsheet**生成读/写属性表。 
   
@@ -102,5 +102,5 @@ MAPI_E_NO_SUPPORT
   
 [PidTagResourceMethods 规范属性](pidtagresourcemethods-canonical-property.md)
   
-[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)
+[IMAPIStatus : IMAPIProp](imapistatusimapiprop.md)
 

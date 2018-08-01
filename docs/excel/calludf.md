@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 1d55f22de88b274d0403f81717d0fddefbea0219
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "19773630"
 ---
 # <a name="calludf"></a>CallUDF
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 在高性能计算环境中调用用户定义函数。
   
@@ -58,7 +58,7 @@ _Parameter1_
 
 **xlHpcRetSuccess** UDF 调用成功启动; 如果**xlHpcRetInvalidSessionId** _SessionId_参数无效; 如果在其他失败时，包括超时**xlHpcRetCallFailed** 。如果调用返回任何错误代码 （任何**xlHpcRetSuccess**除外），然后 Excel 认为已失败的 UDF 调用，使无效_pxAsyncHandle_，并不需要执行的回调。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 此函数异步执行。
   

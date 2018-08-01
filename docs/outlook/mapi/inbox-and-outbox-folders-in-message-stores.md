@@ -1,5 +1,5 @@
 ---
-title: 收件箱和发件箱文件夹中邮件存储
+title: 邮件存储区的收件箱和发件箱文件夹
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775930"
 ---
-# <a name="inbox-and-outbox-folders-in-message-stores"></a>收件箱和发件箱文件夹中邮件存储
+# <a name="inbox-and-outbox-folders-in-message-stores"></a>邮件存储区的收件箱和发件箱文件夹
 
   
   
@@ -31,5 +31,5 @@ ms.locfileid: "19775930"
 
 
 
-[消息存储库中实现文件夹](implementing-folders-in-message-stores.md)
+[实现邮件存储区中的文件夹](implementing-folders-in-message-stores.md)
 

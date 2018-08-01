@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 70c3c0b60e4792c46d5cba8d40e810664ab3fbb0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,8 +29,8 @@ ms.locfileid: "19777477"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_CONTENT_LENGTH  <br/> |
-|标识符:  <br/> |0x0009  <br/> |
+|相关属性：  <br/> |PR_CONTENT_LENGTH  <br/> |
+|标识符：  <br/> |0x0009  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
@@ -54,7 +54,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

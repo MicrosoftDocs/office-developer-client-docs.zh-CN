@@ -39,7 +39,7 @@ PackedAnsiString 流结构包含 ANSI 字符串表示形式，根据在其上运
 
 
 
-[Outlook 项和计算字段](outlook-items-and-fields.md)
+[Outlook 项和字段](outlook-items-and-fields.md)
   
 [流结构](stream-structures.md)
   

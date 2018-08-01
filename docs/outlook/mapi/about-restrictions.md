@@ -1,5 +1,5 @@
 ---
-title: 有关限制
+title: 关于限制
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774476"
 ---
-# <a name="about-restrictions"></a>有关限制
+# <a name="about-restrictions"></a>关于限制
 
   
   

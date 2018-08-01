@@ -97,7 +97,7 @@ S_OK
   
 > 成功的通讯簿条目显示详细信息对话框。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 对于通讯簿提供程序支持对象实现**IMAPISupport::Details**方法。 通讯簿提供程序呼叫**详细信息**，以显示一个对话框，提供有关在通讯簿中的特定条目详细信息。 _LpfButtonCallback_、 _lpvButtonContext_和_lpszButtonText_参数可用于将客户端定义按钮添加到对话框。 单击按钮时，MAPI 调用的回调函数所指的_lpfButtonCallback_， _lpvButtonContext_中传递按钮和数据的项标识符。 如果不需要的可扩展的按钮， _lpszButtonText_应为 NULL。 
   
@@ -111,5 +111,5 @@ S_OK
   
 [LPFNBUTTON](lpfnbutton.md)
   
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

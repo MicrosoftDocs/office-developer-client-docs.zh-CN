@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ad26cb9b77404d6470f7a8d787eb85edc5cce402
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -54,7 +54,7 @@ typedef struct _ADRPARM
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
 **cbABContEntryID**
   
@@ -160,7 +160,7 @@ DIALOG_SDI
   
 > 指向限制可以提供要显示在对话框中的地址条目的地址簿容器**SRestriction**结构。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 由客户端和服务提供商使用的**ADRPARM**结构用于控制的外观和行为的 MAPI 通用地址对话框。 有两种类型的地址对话框： 无模式和模式。 一些**ADRPARM**结构中的成员将应用于两个版本的对话框中，但某些仅适用于两个版本之一。 下表在其使用通用的地址对话框中与**ADRPARM**结构的成员。 
   
@@ -170,11 +170,11 @@ DIALOG_SDI
 |**ulFlags** <br/> |模式和无模式  <br/> |
 |**lpReserved** <br/> |模式和无模式  <br/> |
 |**ulHelpContext**和**lpszHelpFileName** <br/> |模式和无模式  <br/> |
-|**lpfnABSDI** <br/> |无模式  <br/> |
-|**lpfnDismiss**和**lpvDismissContext** <br/> |无模式  <br/> |
+|**lpfnABSDI** <br/> |Modeless  <br/> |
+|**lpfnDismiss**和**lpvDismissContext** <br/> |Modeless  <br/> |
 |**lpszCaption** <br/> |模式和无模式  <br/> |
-|**lpszNewEntryTitle** <br/> |模式  <br/> |
-|**lpszDestWellsTitle**、 **cDestFields**、 **nDestFieldFocus**、 **lppszDestTitles**和**lpulDestComps** <br/> |模式  <br/> |
+|**lpszNewEntryTitle** <br/> |Modal  <br/> |
+|**lpszDestWellsTitle**、 **cDestFields**、 **nDestFieldFocus**、 **lppszDestTitles**和**lpulDestComps** <br/> |Modal  <br/> |
 |**lpContRestriction** <br/> |模式和无模式  <br/> |
 |**lpHierRestriction** <br/> |模式和无模式  <br/> |
    

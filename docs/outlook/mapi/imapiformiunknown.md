@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: fce8bc45d5cc87c238288653ab989b62076ad451
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19775422"
 ---
-# <a name="imapiform--iunknown"></a>IMAPIForm: IUnknown
+# <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   

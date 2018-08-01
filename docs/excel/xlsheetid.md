@@ -10,7 +10,7 @@ keywords:
 - xlsheetid 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e4e184d4e456ffe26292fe31b1b41463834216f9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773858"
 ---
 # <a name="xlsheetid"></a>xlSheetId
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 若要构建外部引用查找命名工作表的工作表 ID。
   
@@ -41,7 +41,7 @@ _pxSheetName_(**xltypeStr**)
 > [!NOTE]
 > _PxRes-\>val.mref.lpmref_数组指针设置为 NULL 此呼叫后，以便不需要调用**xlFree**释放内存中通常包含此类型，尽管完全可以安全地这样做。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 包含指定的工作表的工作簿必须打开要使用此函数。 没有方法来构造向未打开工作簿从 DLL 的引用。 有关使用**xlSheetId**构造引用的详细信息，请参阅[在 Excel 中进行内存管理](memory-management-in-excel.md) **xltypeRef**构造的示例。 
   

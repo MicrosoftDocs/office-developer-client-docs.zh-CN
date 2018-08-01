@@ -19,7 +19,7 @@ ms.locfileid: "19773613"
 Microsoft Access 定义、 操作和访问数据库中用于保留的关键字。 保留的关键字属于的语言的由访问用于分析和了解 SQL 语句的语法。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="access-reserved-keywords"></a>访问保留关键字
 
@@ -37,7 +37,7 @@ Microsoft Access 定义、 操作和访问数据库中用于保留的关键字�
 |AUTHORIZATION  <br/> |完整  <br/> |还原  <br/> |
 |备份  <br/> |函数  <br/> |RESTRICT  <br/> |
 |开始  <br/> |转到  <br/> |Return  <br/> |
-|之间  <br/> |授予  <br/> |还原  <br/> |
+|BETWEEN  <br/> |授予  <br/> |还原  <br/> |
 |Break  <br/> |组  <br/> |REVOKE  <br/> |
 |浏览  <br/> |无  <br/> |RIGHT  <br/> |
 |批量  <br/> |HOLDLOCK  <br/> |回滚  <br/> |
@@ -59,24 +59,24 @@ Microsoft Access 定义、 操作和访问数据库中用于保留的关键字�
 |继续  <br/> |键  <br/> |关闭  <br/> |
 |CONVERT  <br/> |消除  <br/> |某些  <br/> |
 |创建  <br/> |LEFT  <br/> |统计信息  <br/> |
-|跨  <br/> |类似于  <br/> |SYSTEM_USER  <br/> |
+|跨  <br/> |LIKE  <br/> |SYSTEM_USER  <br/> |
 |货币  <br/> |LINENO  <br/> |表  <br/> |
 |当前  <br/> |负载  <br/> |TABLESAMPLE  <br/> |
-|CURRENT_DATE  <br/> |LongText  <br/> |Text  <br/> |
+|CURRENT_DATE  <br/> |LongText  <br/> |文本  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTSIZE  <br/> |
 |CURRENT_TIMESTAMP  <br/> |毫秒  <br/> |然后  <br/> |
-|CURRENT_USER  <br/> |分钟  <br/> |时间  <br/> |
-|CURSOR  <br/> |月  <br/> |自  <br/> |
+|CURRENT_USER  <br/> |分钟  <br/> |Time  <br/> |
+|CURSOR  <br/> |Month  <br/> |自  <br/> |
 |数据库  <br/> |国家/地区  <br/> |TOP  <br/> |
-|日期  <br/> |否  <br/> |事务  <br/> |
+|Date  <br/> |否  <br/> |事务  <br/> |
 |DateWithTime  <br/> |NOCHECK  <br/> |事务  <br/> |
-|日  <br/> |NONCLUSTERED  <br/> |触发器  <br/> |
+|Day  <br/> |NONCLUSTERED  <br/> |触发器  <br/> |
 |DayofYear  <br/> |NOT  <br/> |截断  <br/> |
 |DBCC  <br/> |NULL  <br/> |TRY_CONVERT  <br/> |
 |解除分配  <br/> |则 NULLIF  <br/> |TSEQUAL  <br/> |
 |DECLARE  <br/> |的  <br/> |联合  <br/> |
 |默认值  <br/> |关闭  <br/> |唯一  <br/> |
-|删除  <br/> |偏移量  <br/> |逆透视  <br/> |
+|DELETE  <br/> |偏移量  <br/> |逆透视  <br/> |
 |拒绝  <br/> |ON  <br/> |更新  <br/> |
 |DESC  <br/> |OPEN  <br/> |UPDATETEXT  <br/> |
 |磁盘  <br/> |OPENDATASOURCE  <br/> |使用  <br/> |
@@ -93,8 +93,8 @@ Microsoft Access 定义、 操作和访问数据库中用于保留的关键字�
 |EXEC  <br/> |规划  <br/> |使用  <br/> |
 |执行  <br/> |PRECISION  <br/> |在组  <br/> |
 |存在  <br/> |主  <br/> |WRITETEXT  <br/> |
-|退出  <br/> |打印  <br/> |年  <br/> |
-|外部  <br/> |进程内  <br/> |是  <br/> |
+|退出  <br/> |打印  <br/> |Year  <br/> |
+|外部  <br/> |进程内  <br/> |可访问  <br/> |
 |FETCH  <br/> |过程  <br/> |YesNo  <br/> |
 |文件  <br/> |PUBLIC  <br/> ||
    
@@ -125,9 +125,9 @@ Microsoft Access 定义、 操作和访问数据库中用于保留的关键字�
 |ASSERTION  <br/> |找到  <br/> |PUBLIC  <br/> |
 |在  <br/> |从  <br/> |读取  <br/> |
 |AUTHORIZATION  <br/> |完整  <br/> |REAL  <br/> |
-|平均  <br/> |获取  <br/> |引用  <br/> |
+|平均  <br/> |GET  <br/> |引用  <br/> |
 |开始  <br/> |全局  <br/> |相对  <br/> |
-|之间  <br/> |转到  <br/> |RESTRICT  <br/> |
+|BETWEEN  <br/> |转到  <br/> |RESTRICT  <br/> |
 |BIT  <br/> |转到  <br/> |REVOKE  <br/> |
 |BIT_LENGTH  <br/> |授予  <br/> |RIGHT  <br/> |
 |BOTH  <br/> |组  <br/> |回滚  <br/> |
@@ -158,7 +158,7 @@ Microsoft Access 定义、 操作和访问数据库中用于保留的关键字�
 |COUNT  <br/> |前导  <br/> |然后  <br/> |
 |创建  <br/> |LEFT  <br/> |时间  <br/> |
 |跨  <br/> |级别  <br/> |时间戳  <br/> |
-|当前  <br/> |类似于  <br/> |TIMEZONE_HOUR  <br/> |
+|当前  <br/> |LIKE  <br/> |TIMEZONE_HOUR  <br/> |
 |CURRENT_DATE  <br/> |本地  <br/> |TIMEZONE_MINUTE  <br/> |
 |CURRENT_TIME  <br/> |LOWER  <br/> |自  <br/> |
 |CURRENT_TIMESTAMP  <br/> |MATCH  <br/> |TRAILING  <br/> |
@@ -173,7 +173,7 @@ Microsoft Access 定义、 操作和访问数据库中用于保留的关键字�
 |默认值  <br/> |NCHAR  <br/> |更新  <br/> |
 |可延迟  <br/> |下一步  <br/> |UPPER  <br/> |
 |延迟  <br/> |否  <br/> |USAGE  <br/> |
-|删除  <br/> |无  <br/> |用户  <br/> |
+|DELETE  <br/> |无  <br/> |用户  <br/> |
 |DESC  <br/> |NOT  <br/> |USING  <br/> |
 |描述  <br/> |NULL  <br/> |VALUE  <br/> |
 |描述符  <br/> |则 NULLIF  <br/> |值  <br/> |
@@ -282,7 +282,7 @@ Microsoft Access 定义、 操作和访问数据库中用于保留的关键字�
 |FULLTEXTTABLE  <br/> |REGR_AVGY  <br/> |XMLPI  <br/> |
 |合成  <br/> |REGR_COUNT  <br/> |XMLQUERY  <br/> |
 |常规  <br/> |REGR_INTERCEPT  <br/> |XMLSERIALIZE  <br/> |
-|获取  <br/> |REGR_R2  <br/> |XMLTABLE  <br/> |
+|GET  <br/> |REGR_R2  <br/> |XMLTABLE  <br/> |
 |全局  <br/> |REGR_SLOPE  <br/> |XMLTEXT  <br/> |
 |转到  <br/> |REGR_SXX  <br/> |XMLVALIDATE  <br/> |
 |分组  <br/> |REGR_SXY  <br/> |YEAR  <br/> |

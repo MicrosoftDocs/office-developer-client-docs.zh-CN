@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5f42e1eb0d120d2fbb785e63b451acdd2d5a91f1
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -103,7 +103,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 _LpAllocateBuffer_、 _lpAllocateMore_和_lpFreeBuffer_输入的参数分别指向[MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)，和[MAPIFreeBuffer](mapifreebuffer.md)函数。 调用**CreateTable**客户端应用程序中指针传递给 MAPI 函数只名为;服务提供商将指针传递给它在其初始化呼叫中收到或与调用[IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法检索这些函数。 
   
@@ -111,5 +111,5 @@ _LpAllocateBuffer_、 _lpAllocateMore_和_lpFreeBuffer_输入的参数分别指�
 
 
 
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 

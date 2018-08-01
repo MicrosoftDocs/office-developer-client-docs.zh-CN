@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 9eeab1e1186aeb5a9b458facd59bd4cc155e8014
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -62,7 +62,7 @@ MAPI_E_BUSY
   
 > 另一个操作正在进行阻止设置启动操作列中。 应允许正在进行的操作完成或应停止。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 表的列集是组的表中的行的列组成的属性。 没有为每种类型的表的默认列。 默认列集由属性表实施自动包含组成。 表的用户可以更改通过调用**IMAPITable::SetColumns**方法设置此默认值。 它们可以请求将其他列添加到默认的设置如果表实施支持其列被删除或更改列的顺序。 **SetColumns**与每个行的行中的这些列顺序指定返回的列。 
   
@@ -141,8 +141,8 @@ MFCMAPI 示例代码，请参阅下表。
   
 [TABLE_NOTIFICATION](table_notification.md)
   
-[IMAPITable: IUnknown](imapitableiunknown.md)
+[IMAPITable : IUnknown](imapitableiunknown.md)
 
 
-[MFCMAPI 作为的代码示例](mfcmapi-as-a-code-sample.md)
+[MFCMAPI 代码示例](mfcmapi-as-a-code-sample.md)
 

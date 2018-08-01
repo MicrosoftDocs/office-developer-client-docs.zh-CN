@@ -108,5 +108,5 @@ MAPI_E_NOT_FOUND
 - [IMAPIProp::GetProps](imapiprop-getprops.md)
 - [PidTagEntryId 规范属性](pidtagentryid-canonical-property.md)
 - [SPropValue](spropvalue.md)
-- [IABLogon: IUnknown](iablogoniunknown.md)
+- [IABLogon : IUnknown](iablogoniunknown.md)
 

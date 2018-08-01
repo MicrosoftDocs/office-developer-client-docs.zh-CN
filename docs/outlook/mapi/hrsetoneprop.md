@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14ae3242-fddf-4199-a9a7-4ab153b31064
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 8af0d5c6eaff0c1e01e01c24c46f299e0c637f68
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -54,7 +54,7 @@ HrSetOneProp(
 
 无。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 不同的[IMAPIProp::SetProps](imapiprop-setprops.md)方法， **HrSetOneProp**函数永远不会返回任何警告。 设置只有一个属性，因为它只是成功或失败。 设置或更改多个属性， **SetProps**是更快。 
   

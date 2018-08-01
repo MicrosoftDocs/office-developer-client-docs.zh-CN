@@ -10,7 +10,7 @@ keywords:
 - xlfevaluate 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e468dc18b8f78f56acaa67c2f23dd53254088ad0
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773839"
 ---
 # <a name="xlfevaluate"></a>xlfEvaluate
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 使用 Microsoft Excel 分析程序和函数计算器无法在工作表单元格中输入任何表达式进行求值。
   
@@ -38,7 +38,7 @@ Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 
 返回的计算的字符串可以是任何类型**xltypeNum**、 **xltypeStr**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil**、 **xltypeMulti**结果。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 字符串可以包含仅函数，不命令等效。 它等效于按**F9**公式栏中。 如果从已注册为线程安全的 XLL 工作表函数调用**xlfEvaluate** ，则表达式必须只包含线程安全功能。 
   
@@ -70,5 +70,5 @@ short WINAPI EvaluateExample(void)
 
 ## <a name="see-also"></a>另请参阅
 
-- [关键及有用的 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
+- [基本的有用 C API XLM 函数](essential-and-useful-c-api-xlm-functions.md)
 

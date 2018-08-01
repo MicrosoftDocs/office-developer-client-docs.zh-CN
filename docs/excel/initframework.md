@@ -10,7 +10,7 @@ keywords:
 - initframework 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 2d7e3286d794d6f21da9ef83ca44d18ec242c063
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773748"
 ---
 # <a name="initframework"></a>InitFramework
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 初始化 Framework 库中，只需初始化临时**XLOPER**的框架库函数/ **XLOPER12**内存数据结构，释放任何已分配的内存。 
   
@@ -30,7 +30,7 @@ short WINAPI InitFramework(void);
 
 ## <a name="parameters"></a>参数
 
-此函数不采用任何参数。
+此函数无需使用任何参数。
   
 ## <a name="return-value"></a>返回值
 
@@ -54,5 +54,5 @@ short WINAPI InitFrameworkExample(void)
 
 
 
-[Framework 库中的函数](functions-in-the-framework-library.md)
+[框架库中的函数](functions-in-the-framework-library.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 访问应用程序中使用宏筛选视图
+title: 通过在 Access 应用程序中使用宏来筛选视图
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773490"
 ---
-# <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>访问应用程序中使用宏筛选视图
+# <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>通过在 Access 应用程序中使用宏来筛选视图
 
 了解如何使用 RequeryRecords 宏操作和数据宏筛选 Access 应用程序中的视图。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
 
 Access 应用程序中的默认列表视图，可以筛选的字段中包含的值的问题。 可能想要筛选通过匹配值基于一组条件，而不是视图的实例。 为此，您必须创建宏。 本文演示如何创建用于筛选视图以显示位于以前到期或截止随后 7 天的任务的宏。
   
@@ -43,7 +43,7 @@ Access 应用程序中的默认列表视图，可以筛选的字段中包含的�
 
 1. 打开 Access 并选择 **"自定义 Web 应用程序"**。
     
-2. 输入名称和您的应用程序的 web 位置。 您还可以从**位置**列表中选择一个位置，然后选择**创建**。
+2. 输入你的应用的名称和 Web 位置。 你也可以从“位置”**** 列表中选择一个位置并选择“创建”****。
     
 3. 在**搜索**框中键入**任务**，然后按 ENTER。 
     
@@ -105,7 +105,7 @@ UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数�
 
 1. 在 Access 中打开应用程序。
     
-2. 在**创建**组中，选择**高级**，然后选择**数据宏**。
+2. 在“创建”**** 组中，依次选择“高级”****、“数据宏”****。
     
     在宏设计视图中打开一个空白数据宏。
     
@@ -122,7 +122,7 @@ UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数�
   
    **图 1。添加新操作列表框**
 
-   ![添加新操作下拉列表](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "添加新操作下拉列表")
+   ![“添加新操作”下拉列表](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "“添加新操作”下拉列表")
   
 7. 在**名称**框中，输入**TaskFound**。 
     
@@ -144,7 +144,7 @@ UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数�
 
 1. 选择**任务**表。 这会选择的任务列表表单。 
     
-2. 视图选择器中选择**列表**，选择**设置中的操作**图标，然后选择**编辑**。
+2. 在视图选择器中，依次选择“列表”****、“设置/操作”图标****、“编辑”****。
     
     在设计视图中打开视图。
     
@@ -199,7 +199,7 @@ UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数�
   
    **图 6。添加新操作列表框**
 
-   ![添加新操作下拉列表](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "添加新操作下拉列表")
+   ![“添加新操作”下拉列表](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "“添加新操作”下拉列表")
   
 7. 在**位置**框中，输入 **[任务]。 [截止日期]\<DateAdd(Day,7,Today()) 和 [任务]。[状态]\< \>"完成"**。 
     
@@ -259,7 +259,7 @@ UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数�
     
 4. 关闭宏设计视图。
     
-5. 关闭任务列表视图。 当提示您保存所做的更改时，请选择**是**。 
+5. 关闭任务列表视图。 当你收到保存更改的提示时，选择“是”****。 
     
 现在，我们已准备好自定义项的文本。 选择**启动应用程序**以在 web 浏览器中打开应用程序，然后选择自定义 FilterTasks 操作栏按钮。 显示随后 7 天内到期且或以前的任何任务。 如果应用程序包含没有紧急任务，则显示一条消息。 
   
@@ -269,6 +269,6 @@ UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数�
   
 ## <a name="see-also"></a>另请参阅
 
-- [Access 中面向开发人员的新增功能](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
+- [面向 Access 2013 开发人员的新增功能](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
     
 

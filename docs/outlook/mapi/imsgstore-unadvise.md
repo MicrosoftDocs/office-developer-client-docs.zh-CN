@@ -45,7 +45,7 @@ S_OK
   
 > 成功取消注册。
     
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 **IMsgStore::Unadvise**方法取消注册的通知。 呼叫者到其指针告知接收器，它用于注册的**Advise**调用中接收**Unadvise**版本。 
   
@@ -59,5 +59,5 @@ S_OK
   
 [IMsgStore::Advise](imsgstore-advise.md)
   
-[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)
+[IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

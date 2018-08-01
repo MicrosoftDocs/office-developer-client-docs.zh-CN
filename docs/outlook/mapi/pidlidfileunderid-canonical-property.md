@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 08e2403be35b87393d22f9109f59c0572c53073b
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,13 +29,13 @@ ms.locfileid: "19776859"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |dispidFileUnderId  <br/> |
+|相关属性：  <br/> |dispidFileUnderId  <br/> |
 |属性进行设置：  <br/> |PSETID_Address  <br/> |
 |长 ID （盖）：  <br/> |0x00008006  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 如果此属性缺失或设置为不具体的下表中或在[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)的值，该应用程序可以选择自己的逻辑重新计算的其他联系人姓名属性更改为**dispidFileUnder**值。 
   
@@ -90,7 +90,7 @@ Mapidefs.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -42,7 +42,7 @@ _ppunk_
 |S_OK  <br/> |调用成功。  <br/> |
 |S_FALSE  <br/> |将枚举器重已达到结束。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 从**IUnknown**继承*ppunk*由指定的接口。 客户端可以查询此接口 （使用**IUnknown::QueryInterface**） 以获取指向**IOlkAccount**接口，并获取或设置为此帐户的信息。 
   

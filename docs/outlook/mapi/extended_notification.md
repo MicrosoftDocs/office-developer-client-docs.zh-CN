@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -41,7 +41,7 @@ typedef struct _EXTENDED_NOTIFICATION
 
 ```
 
-## <a name="members"></a>成员
+## <a name="members"></a>Members
 
  **ulEvent**
   
@@ -55,7 +55,7 @@ typedef struct _EXTENDED_NOTIFICATION
   
 > 指向特定于事件的参数。 使用的参数的类型取决于**ulEvent**成员; 的值这些参数由的提供程序发出事件记录。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **EXTENDED_NOTIFICATION**结构是联合的结构[通知](notification.md)结构的**信息**成员中包含的成员之一。 如果**通知**结构的**信息**成员包含**EXTENDED_NOTIFICATION**结构，**通知**结构的**ulEventType**成员设置为_fnevExtended_。
   
@@ -69,13 +69,13 @@ typedef struct _EXTENDED_NOTIFICATION
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
 |[处理通知](handling-notifications.md) <br/> |讨论了客户端应如何处理通知。  <br/> |
-|[支持的事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-[通知](notification.md)
+[NOTIFICATION](notification.md)
 
 
 [MAPI 结构](mapi-structures.md)

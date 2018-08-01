@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
-description: 上次修改时间： 2015 年 3 月 9 日
+description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 560106e98f446529a68eded88a8f8283dd3f531d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -29,12 +29,12 @@ ms.locfileid: "19777731"
   
 |||
 |:-----|:-----|
-|关联的属性：  <br/> |PR_INTERNET_ARTICLE_NUMBER  <br/> |
-|标识符:  <br/> |0x0E23  <br/> |
+|相关属性：  <br/> |PR_INTERNET_ARTICLE_NUMBER  <br/> |
+|标识符：  <br/> |0x0E23  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 在 IMAPI 消息存储库，此属性对应于 IMAPI UID。
   
@@ -68,7 +68,7 @@ Mapitags.h
   
 [MAPI 规范属性](mapi-canonical-properties.md)
   
-[映射到 MAPI 名称的规范属性名称](mapping-canonical-property-names-to-mapi-names.md)
+[将规范属性名称映射到 MAPI 名称](mapping-canonical-property-names-to-mapi-names.md)
   
-[MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
+[将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 

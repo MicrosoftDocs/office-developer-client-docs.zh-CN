@@ -10,7 +10,7 @@ keywords:
 - xlcoerce 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: e0474b81a6d24663fe85303efc8fe2fd62cfdd82
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773845"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 将转换为一种类型的**XLOPER**/ 到另一个**XLOPER12**或查找工作表上单元格的值。 
   
@@ -42,7 +42,7 @@ Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestTyp
 
 返回被强制的值 （**xltypeStr**、 **xltypeNum**、 **xltypeBool**、 **xltypeErr**、 **xltypeNil**或**xltypeMulti**）。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
  **xlCoerce**无法转换**xltypeBigData**或**xltypeFlow**。 作为_pxDestType_传递**xltypeMissing**或**xltypeNil**类型等效于省略该参数。 在某些情况下，转换可能会失败。 例如，某些字符串不能转换为数字，而其他人可以。 
   
@@ -74,7 +74,7 @@ short WINAPI xlCoerceExample(short iVal)
 
 
 
-[xlset，则](xlset.md)
+[xlSet](xlset.md)
 
 
 [只能从 DLL 或 XLL 调用的 C API 函数](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)

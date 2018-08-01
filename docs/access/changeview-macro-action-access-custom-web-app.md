@@ -18,7 +18,7 @@ ms.locfileid: "19773454"
 您可以使用**ChangeView**操作就地视图之间导航。 
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="setting"></a>设置
 
@@ -26,12 +26,12 @@ ms.locfileid: "19773454"
   
 |**操作参数**|**必需**|**说明**|
 |:-----|:-----|:-----|
-|Table  <br/> |是  <br/> |要打开的表的名称。  <br/> |
-|视图  <br/> |是  <br/> |要打开的视图的名称。  <br/> |
+|Table  <br/> |可访问  <br/> |要打开的表的名称。  <br/> |
+|视图  <br/> |可访问  <br/> |要打开的视图的名称。  <br/> |
 |其中  <br/> |否  <br/> |如果指定，则将替换对象记录源的 Where 条件。  <br/> |
 |Order By  <br/> |否  <br/> |一个字符串表达式，包含作为记录排序依据的一个或多个字段的名称或可选的 ASC 或 DESC 关键字。 默认情况下，此参数为空。  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 调用**ChangeView**操作时，会清除任何排序或筛选用户应用的。 
   

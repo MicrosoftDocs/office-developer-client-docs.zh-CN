@@ -1,5 +1,5 @@
 ---
-title: 窗体配置文件 [谓词] 节
+title: 表单配置文件 [谓词] 部分
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774966"
 ---
-# <a name="form-configuration-file-verbs-section"></a>窗体配置文件 [谓词] 节
+# <a name="form-configuration-file-verbs-section"></a>表单配置文件 [谓词] 部分
 
   
   

@@ -56,7 +56,7 @@ Office Online Server Preview 上创建一个**新建 OfficeWebAppsExcelUserDefin
     
 - **程序集位置**
     
-- **启用**（默认设置为 False） 
+- **Enable**（默认设置为 False） 
     
 - **说明**
     
@@ -66,7 +66,7 @@ Office Online Server Preview 上创建一个**新建 OfficeWebAppsExcelUserDefin
   
 `New-OfficeWebAppsExcelUserDefinedFunction -Assembly "CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38" -AssemblyLocation GAC -Enable:$true -Description "My GAC Server UDFs"`
   
-创建新的 UDF 引用后，立即拿引用在服务器上运行**iisreset** 。 
+创建新的 UDF 引用之后，在服务器上运行 **iisreset** 以立即继续引用。 
   
 ## <a name="additional-office-online-server-preview-udf-windows-powershell-commands"></a>其他 Office Online Server 预览 UDF Windows PowerShell 命令
 
@@ -74,9 +74,9 @@ Office Online Server Preview 上创建一个**新建 OfficeWebAppsExcelUserDefin
   
 - **Get OfficeWebAppsExcelUserDefinedFunction**（无需的参数）-返回 Office Online Server Preview 配置的 UDF 定义的列表。 
     
-- **设置 OfficeWebAppsExcelUserDefinedFunction**（identity 参数所需）-设置现有 UDF 定义的属性。 
+- **Set- OfficeWebAppsExcelUserDefinedFunction**（需要标识参数）- 设置现有 UDF 定义的属性。 
     
-- **删除 OfficeWebAppsExcelUserDefinedFunction**（identity 参数所需）-删除现有的 UDF 定义。 
+- **Remove-OfficeWebAppsExcelUserDefinedFunction**（需要标识参数）- 删除现有 UDF 定义。 
     
 ## <a name="udf-sample"></a>UDF 示例
 

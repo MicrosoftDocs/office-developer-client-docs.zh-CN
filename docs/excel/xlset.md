@@ -1,5 +1,5 @@
 ---
-title: xlset，则
+title: xlSet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +10,7 @@ keywords:
 - xlset，则函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 63f50e441f5d851677f36754a17bcd6403705239
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -18,9 +18,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19773870"
 ---
-# <a name="xlset"></a>xlset，则
+# <a name="xlset"></a>xlSet
 
-**适用于**： Excel 2013 |Office 2013 |Visual Studio 
+**适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 很快将常量值放入单元格或区域。 有关详细信息，请参阅[Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)中的"xlset，则和带数组公式的工作簿"。
   
@@ -38,7 +38,7 @@ _pxValue_
   
 值或值放入单元格或单元格。 有关详细信息，请参阅"备注"部分。
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 ### <a name="pxvalue-argument"></a>pxValue 参数
 

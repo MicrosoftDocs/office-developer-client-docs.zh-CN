@@ -18,7 +18,7 @@ ms.locfileid: "19773465"
 用由另一个数。
   
 > [!IMPORTANT]
-> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
@@ -34,7 +34,7 @@ ms.locfileid: "19773465"
   
 如果整数*被除数*除以整数*除数*，结果将为整数类型的值已被截断结果的小数部分。 
   
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>说明
 
 返回的实际值 / 运算符为除以第二个表达式的第一个表达式的商。
   

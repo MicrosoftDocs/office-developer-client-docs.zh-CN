@@ -55,7 +55,7 @@ S_OK
   
 > 后处理过程成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPISupport::CompleteMsg**方法实现的消息存储提供程序支持对象和只能由与传输提供程序紧密耦合的消息存储提供程序调用。 紧密耦合的存储提供程序调用**IMAPISupport::CompleteMsg**以指示 MAPI 后台处理程序后置处理一条消息。 
   
@@ -71,5 +71,5 @@ S_OK
 
 
 
-[IMAPISupport: IUnknown](imapisupportiunknown.md)
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
 

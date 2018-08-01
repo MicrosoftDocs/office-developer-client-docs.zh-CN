@@ -10,7 +10,7 @@ keywords:
 - excelcursorproc 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
-description: ���÷�Χ�� Excel 2013?| Office 2013?| Visual Studio
+description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: 07be8da4a07b988d5e848048a088859b58ea3a14
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
@@ -20,7 +20,7 @@ ms.locfileid: "19773741"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
- **适用于**： Excel 2013 |Office 2013 |Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
 通过 Microsoft Excel 窗口显示一个模式对话框时，光标通过 Excel 窗口是忙游标。 此**WndProc**陷阱 WM_SETCURSOR 键入 Windows 消息和更改光标回正常的箭头。 
   
@@ -56,5 +56,5 @@ Lresult 替换： 如果消息处理 0，否则返回的结果由默认**WndProc
 
 
 
-[泛型 DLL 中的函数](functions-in-the-generic-dll.md)
+[通用 DLL 中的函数](functions-in-the-generic-dll.md)
 

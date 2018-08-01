@@ -1,5 +1,5 @@
 ---
-title: 常用的对象
+title: 常用对象
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19774658"
 ---
-# <a name="commonly-used-objects"></a>常用的对象
+# <a name="commonly-used-objects"></a>常用对象
 
   
   
@@ -49,7 +49,7 @@ ms.locfileid: "19774658"
     
     提供有关以下类型的对象的信息：
     
-  - 窗体
+  - 表单
     
   - 邮件
     
@@ -77,7 +77,7 @@ ms.locfileid: "19774658"
     
     介绍如何实现传输登录名和提供商对象、 状态对象、 传输中性封装格式 (TNEF) 对象和文件夹。
     
-- [开发 MAPI 消息存储提供程序](developing-a-mapi-message-store-provider.md)
+- [开发 MAPI 邮件存储区提供程序](developing-a-mapi-message-store-provider.md)
     
     介绍如何实现消息存储登录和提供程序的对象、 消息存储库、 文件夹、 邮件、 附件、 recipients 和相关的表。
     
