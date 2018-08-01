@@ -16,8 +16,8 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780217"
 ---
-# <a name="events-section"></a><span data-ttu-id="330e2-104">“Events”内容</span><span class="sxs-lookup"><span data-stu-id="330e2-104">Events Section</span></span>
+# <a name="events-section"></a><span data-ttu-id="4654a-104">“Events”部分</span><span class="sxs-lookup"><span data-stu-id="4654a-104">Events Section</span></span>
 
-<span data-ttu-id="330e2-p102">包含控制形状事件的公式。仅在事件发生时（而非输入公式后）才对 event 单元格求值。</span><span class="sxs-lookup"><span data-stu-id="330e2-p102">Contains formulas that control shape events. Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="4654a-p102">包含控制形状事件的公式。仅在事件发生时（而非输入公式后）才对 event 单元格求值。</span><span class="sxs-lookup"><span data-stu-id="4654a-p102">Contains formulas that control shape events. Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
 

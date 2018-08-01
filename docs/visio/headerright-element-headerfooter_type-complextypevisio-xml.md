@@ -14,42 +14,42 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780399"
 ---
-# <a name="headerright-element-headerfootertype-complextype-visio-xml"></a><span data-ttu-id="9860d-103">HeaderRight 元素 （HeaderFooter_Type 复杂类型） (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="9860d-103">HeaderRight element (HeaderFooter_Type complexType) ('Visio XML')</span></span>
+# <a name="headerright-element-headerfootertype-complextype-visio-xml"></a><span data-ttu-id="b62c6-103">HeaderRight 元素 （HeaderFooter_Type 复杂类型） (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="b62c6-103">HeaderRight element (HeaderFooter_Type complexType) ('Visio XML')</span></span>
 
-<span data-ttu-id="9860d-104">包含文档页眉的右侧部分显示的文本字符串。</span><span class="sxs-lookup"><span data-stu-id="9860d-104">Contains the text string that appears in the right portion of a document's header.</span></span>
+<span data-ttu-id="b62c6-104">包含文档页眉的右侧部分显示的文本字符串。</span><span class="sxs-lookup"><span data-stu-id="b62c6-104">Contains the text string that appears in the right portion of a document's header.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="9860d-105">元素信息</span><span class="sxs-lookup"><span data-stu-id="9860d-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="b62c6-105">元素信息</span><span class="sxs-lookup"><span data-stu-id="b62c6-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="9860d-106">**元素类型**</span><span class="sxs-lookup"><span data-stu-id="9860d-106">**Element type**</span></span> <br/> |[<span data-ttu-id="9860d-107">HeaderRight_Type</span><span class="sxs-lookup"><span data-stu-id="9860d-107">HeaderRight_Type</span></span>](headerright_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="9860d-108">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="9860d-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="9860d-109">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="9860d-109">**Schema file**</span></span> <br/> |<span data-ttu-id="9860d-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="9860d-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="9860d-111">**文档部件**</span><span class="sxs-lookup"><span data-stu-id="9860d-111">**Document parts**</span></span> <br/> |<span data-ttu-id="9860d-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="9860d-112">document.xml</span></span>  <br/> |
+|<span data-ttu-id="b62c6-106">**元素类型**</span><span class="sxs-lookup"><span data-stu-id="b62c6-106">**Element type**</span></span> <br/> |[<span data-ttu-id="b62c6-107">HeaderRight_Type</span><span class="sxs-lookup"><span data-stu-id="b62c6-107">HeaderRight_Type</span></span>](headerright_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="b62c6-108">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="b62c6-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="b62c6-109">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="b62c6-109">**Schema file**</span></span> <br/> |<span data-ttu-id="b62c6-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="b62c6-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="b62c6-111">**文档部件**</span><span class="sxs-lookup"><span data-stu-id="b62c6-111">**Document parts**</span></span> <br/> |<span data-ttu-id="b62c6-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="b62c6-112">document.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="9860d-113">定义</span><span class="sxs-lookup"><span data-stu-id="9860d-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="b62c6-113">定义</span><span class="sxs-lookup"><span data-stu-id="b62c6-113">Definition</span></span>
 
 ```XML
 < xs:element name="HeaderRight" type="HeaderRight_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="9860d-114">元素和属性</span><span class="sxs-lookup"><span data-stu-id="9860d-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="b62c6-114">元素和属性</span><span class="sxs-lookup"><span data-stu-id="b62c6-114">Elements and attributes</span></span>
 
-<span data-ttu-id="9860d-115">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="9860d-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="b62c6-115">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="b62c6-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="9860d-116">父元素</span><span class="sxs-lookup"><span data-stu-id="9860d-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="b62c6-116">父元素</span><span class="sxs-lookup"><span data-stu-id="b62c6-116">Parent elements</span></span>
 
-|<span data-ttu-id="9860d-117">**元素**</span><span class="sxs-lookup"><span data-stu-id="9860d-117">**Element**</span></span>|<span data-ttu-id="9860d-118">**类型**</span><span class="sxs-lookup"><span data-stu-id="9860d-118">**Type**</span></span>|<span data-ttu-id="9860d-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="9860d-119">**Description**</span></span>|
+|<span data-ttu-id="b62c6-117">**元素**</span><span class="sxs-lookup"><span data-stu-id="b62c6-117">**Element**</span></span>|<span data-ttu-id="b62c6-118">**类型**</span><span class="sxs-lookup"><span data-stu-id="b62c6-118">**Type**</span></span>|<span data-ttu-id="b62c6-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="b62c6-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="9860d-120">HeaderFooter</span><span class="sxs-lookup"><span data-stu-id="9860d-120">HeaderFooter</span></span>](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="9860d-121">HeaderFooter_Type</span><span class="sxs-lookup"><span data-stu-id="9860d-121">HeaderFooter_Type</span></span>](headerfooter_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="9860d-122">包含文档的页眉和页脚的元素。</span><span class="sxs-lookup"><span data-stu-id="9860d-122">Contains elements for a document's header and footer.</span></span>  <br/> |
+|[<span data-ttu-id="b62c6-120">HeaderFooter</span><span class="sxs-lookup"><span data-stu-id="b62c6-120">HeaderFooter</span></span>](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="b62c6-121">HeaderFooter_Type</span><span class="sxs-lookup"><span data-stu-id="b62c6-121">HeaderFooter_Type</span></span>](headerfooter_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="b62c6-122">包含文档的页眉和页脚的元素。</span><span class="sxs-lookup"><span data-stu-id="b62c6-122">Contains elements for a document's header and footer.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="9860d-123">子元素</span><span class="sxs-lookup"><span data-stu-id="9860d-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="b62c6-123">子元素</span><span class="sxs-lookup"><span data-stu-id="b62c6-123">Child elements</span></span>
 
-<span data-ttu-id="9860d-124">无。</span><span class="sxs-lookup"><span data-stu-id="9860d-124">None.</span></span>
+<span data-ttu-id="b62c6-124">无。</span><span class="sxs-lookup"><span data-stu-id="b62c6-124">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="9860d-125">属性</span><span class="sxs-lookup"><span data-stu-id="9860d-125">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="b62c6-125">属性</span><span class="sxs-lookup"><span data-stu-id="b62c6-125">Attributes</span></span>
 
-<span data-ttu-id="9860d-126">无。</span><span class="sxs-lookup"><span data-stu-id="9860d-126">None.</span></span>
+<span data-ttu-id="b62c6-126">无。</span><span class="sxs-lookup"><span data-stu-id="b62c6-126">None.</span></span>
   
 

@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780238"
 ---
-# <a name="fill-format-section"></a><span data-ttu-id="745b7-103">“Fill Format”内容</span><span class="sxs-lookup"><span data-stu-id="745b7-103">Fill Format Section</span></span>
+# <a name="fill-format-section"></a><span data-ttu-id="bfd5f-103">“Fill Format”部分</span><span class="sxs-lookup"><span data-stu-id="bfd5f-103">Fill Format Section</span></span>
 
-<span data-ttu-id="745b7-104">显示形状的当前填充格式属性以及该形状的投影，包括图案、前景色和背景色。</span><span class="sxs-lookup"><span data-stu-id="745b7-104">Shows the current fill formatting attributes for the shape and the shape's drop shadow, including pattern, foreground color, and background color.</span></span> 
+<span data-ttu-id="bfd5f-104">显示形状的当前填充格式属性以及该形状的投影，包括图案、前景色和背景色。</span><span class="sxs-lookup"><span data-stu-id="bfd5f-104">Shows the current fill formatting attributes for the shape and the shape's drop shadow, including pattern, foreground color, and background color.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="745b7-105">注解</span><span class="sxs-lookup"><span data-stu-id="745b7-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bfd5f-105">注解</span><span class="sxs-lookup"><span data-stu-id="bfd5f-105">Remarks</span></span>
 
-<span data-ttu-id="745b7-106">在**设置形状格式**窗格中，可以设置填充格式 （在**主页**选项卡的**形状样式**组中，单击**填充**，然后单击**填充选项**），通过应用填充样式，或在**填充格式**中的单元格进行输入部分。</span><span class="sxs-lookup"><span data-stu-id="745b7-106">You can set fill formats in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**), by applying a fill style, or by making an entry in a cell in the **Fill Format** section.</span></span> 
+<span data-ttu-id="bfd5f-106">在**设置形状格式**窗格中，可以设置填充格式 （在**主页**选项卡的**形状样式**组中，单击**填充**，然后单击**填充选项**），通过应用填充样式，或在**填充格式**中的单元格进行输入部分。</span><span class="sxs-lookup"><span data-stu-id="bfd5f-106">You can set fill formats in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**), by applying a fill style, or by making an entry in a cell in the **Fill Format** section.</span></span> 
   
 

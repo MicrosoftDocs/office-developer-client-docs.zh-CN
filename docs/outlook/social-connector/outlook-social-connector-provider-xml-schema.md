@@ -15,9 +15,9 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779332"
 ---
-# <a name="outlook-social-connector-provider-xml-schema"></a><span data-ttu-id="cf230-104">Outlook Social Connector 提供程序的 XML 架构</span><span class="sxs-lookup"><span data-stu-id="cf230-104">Outlook Social Connector provider XML schema</span></span>
+# <a name="outlook-social-connector-provider-xml-schema"></a><span data-ttu-id="1e524-104">Outlook Social Connector 提供程序的 XML 架构</span><span class="sxs-lookup"><span data-stu-id="1e524-104">Outlook Social Connector provider XML schema</span></span>
 
-<span data-ttu-id="cf230-105">返回由 OSC 提供商提供 OSC 提供程序扩展性方法中的所有 XML 必须都符合以下 OSC 提供程序 XML 架构。</span><span class="sxs-lookup"><span data-stu-id="cf230-105">All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema.</span></span> <span data-ttu-id="cf230-106">OSC 架构完整地复制此处复制。</span><span class="sxs-lookup"><span data-stu-id="cf230-106">The OSC schema is reproduced here in its entirety.</span></span> <span data-ttu-id="cf230-107">当前架构定义文件，OutlookSocialProvider1_1.xsd，还提供在下载本文附带的提供程序模板。</span><span class="sxs-lookup"><span data-stu-id="cf230-107">The current schema definition file, OutlookSocialProvider1_1.xsd, is also provided in the download for the provider templates that accompany this article.</span></span> <span data-ttu-id="cf230-108">有关详细信息，请参阅[Outlook Social Connector 2013： 提供程序模板](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。</span><span class="sxs-lookup"><span data-stu-id="cf230-108">For more information, see [Outlook Social Connector 2013: Provider templates](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).</span></span> 
+<span data-ttu-id="1e524-105">返回由 OSC 提供商提供 OSC 提供程序扩展性方法中的所有 XML 必须都符合以下 OSC 提供程序 XML 架构。</span><span class="sxs-lookup"><span data-stu-id="1e524-105">All XML that is returned by OSC providers in OSC provider extensibility methods must comply with the following OSC provider XML schema.</span></span> <span data-ttu-id="1e524-106">OSC 架构完整地复制此处复制。</span><span class="sxs-lookup"><span data-stu-id="1e524-106">The OSC schema is reproduced here in its entirety.</span></span> <span data-ttu-id="1e524-107">当前架构定义文件，OutlookSocialProvider1_1.xsd，还提供在下载本文附带的提供程序模板。</span><span class="sxs-lookup"><span data-stu-id="1e524-107">The current schema definition file, OutlookSocialProvider1_1.xsd, is also provided in the download for the provider templates that accompany this article.</span></span> <span data-ttu-id="1e524-108">有关详细信息，请参阅[Outlook Social Connector 2013： 提供程序模板](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。</span><span class="sxs-lookup"><span data-stu-id="1e524-108">For more information, see [Outlook Social Connector 2013: Provider templates](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -458,13 +458,13 @@ ms.locfileid: "19779332"
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="cf230-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="cf230-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1e524-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1e524-109">See also</span></span>
 
-- [<span data-ttu-id="cf230-110">功能 XML 示例</span><span class="sxs-lookup"><span data-stu-id="cf230-110">Capabilities XML Example</span></span>](capabilities-xml-example.md)  
-- [<span data-ttu-id="cf230-111">朋友 XML 示例</span><span class="sxs-lookup"><span data-stu-id="cf230-111">Friends XML Example</span></span>](friends-xml-example.md) 
-- [<span data-ttu-id="cf230-112">活动源的 XML 示例</span><span class="sxs-lookup"><span data-stu-id="cf230-112">Activity Feed XML Example</span></span>](activity-feed-xml-example.md)  
-- [<span data-ttu-id="cf230-113">功能 XML</span><span class="sxs-lookup"><span data-stu-id="cf230-113">XML for Capabilities</span></span>](xml-for-capabilities.md)  
-- [<span data-ttu-id="cf230-114">朋友 XML</span><span class="sxs-lookup"><span data-stu-id="cf230-114">XML for Friends</span></span>](xml-for-friends.md)  
-- [<span data-ttu-id="cf230-115">活动的 XML</span><span class="sxs-lookup"><span data-stu-id="cf230-115">XML for Activities</span></span>](xml-for-activities.md)  
-- [<span data-ttu-id="cf230-116">Outlook Social Connector 提供程序接口</span><span class="sxs-lookup"><span data-stu-id="cf230-116">Outlook Social Connector Provider Interfaces</span></span>](outlook-social-connector-provider-interfaces.md)
+- [<span data-ttu-id="1e524-110">功能 XML 示例</span><span class="sxs-lookup"><span data-stu-id="1e524-110">Capabilities XML Example</span></span>](capabilities-xml-example.md)  
+- [<span data-ttu-id="1e524-111">朋友 XML 示例</span><span class="sxs-lookup"><span data-stu-id="1e524-111">Friends XML Example</span></span>](friends-xml-example.md) 
+- [<span data-ttu-id="1e524-112">活动源的 XML 示例</span><span class="sxs-lookup"><span data-stu-id="1e524-112">Activity Feed XML Example</span></span>](activity-feed-xml-example.md)  
+- [<span data-ttu-id="1e524-113">功能 XML</span><span class="sxs-lookup"><span data-stu-id="1e524-113">XML for Capabilities</span></span>](xml-for-capabilities.md)  
+- [<span data-ttu-id="1e524-114">朋友 XML</span><span class="sxs-lookup"><span data-stu-id="1e524-114">XML for Friends</span></span>](xml-for-friends.md)  
+- [<span data-ttu-id="1e524-115">活动的 XML</span><span class="sxs-lookup"><span data-stu-id="1e524-115">XML for Activities</span></span>](xml-for-activities.md)  
+- [<span data-ttu-id="1e524-116">Outlook Social Connector 提供程序接口</span><span class="sxs-lookup"><span data-stu-id="1e524-116">Outlook Social Connector Provider Interfaces</span></span>](outlook-social-connector-provider-interfaces.md)
 

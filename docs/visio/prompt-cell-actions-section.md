@@ -16,12 +16,12 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780968"
 ---
-# <a name="prompt-cell-actions-section"></a><span data-ttu-id="ea5c6-103">Prompt 单元格（“Actions”内容）</span><span class="sxs-lookup"><span data-stu-id="ea5c6-103">Prompt Cell (Actions Section)</span></span>
+# <a name="prompt-cell-actions-section"></a><span data-ttu-id="64d41-103">Prompt 单元格（“Actions”部分）</span><span class="sxs-lookup"><span data-stu-id="64d41-103">Prompt Cell (Actions Section)</span></span>
 
-<span data-ttu-id="ea5c6-104">从 Visio 2002 开始，不再使用这个单元格。</span><span class="sxs-lookup"><span data-stu-id="ea5c6-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
+<span data-ttu-id="64d41-104">从 Visio 2002 开始，不再使用这个单元格。</span><span class="sxs-lookup"><span data-stu-id="64d41-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="ea5c6-105">注释</span><span class="sxs-lookup"><span data-stu-id="ea5c6-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="64d41-105">注释</span><span class="sxs-lookup"><span data-stu-id="64d41-105">Remarks</span></span>
 
-<span data-ttu-id="ea5c6-106">在 Visio 的早期版本中，在选择某一快捷命令后，该单元格指定的相应的说明性提示便出现在状态栏中。</span><span class="sxs-lookup"><span data-stu-id="ea5c6-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
+<span data-ttu-id="64d41-106">在 Visio 的早期版本中，在选择某一快捷命令后，该单元格指定的相应的说明性提示便出现在状态栏中。</span><span class="sxs-lookup"><span data-stu-id="64d41-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
   
 

@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19778813"
 ---
-# <a name="skey"></a><span data-ttu-id="600d8-103">SKEY</span><span class="sxs-lookup"><span data-stu-id="600d8-103">SKEY</span></span>
+# <a name="skey"></a><span data-ttu-id="5f650-103">SKEY</span><span class="sxs-lookup"><span data-stu-id="5f650-103">SKEY</span></span>
 
   
   
-<span data-ttu-id="600d8-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="600d8-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="5f650-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="5f650-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="600d8-105">某个 Outlook 项目的的源键。</span><span class="sxs-lookup"><span data-stu-id="600d8-105">Source key for an Outlook item.</span></span>
+<span data-ttu-id="5f650-105">某个 Outlook 项目的的源键。</span><span class="sxs-lookup"><span data-stu-id="5f650-105">Source key for an Outlook item.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="600d8-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="600d8-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="5f650-106">快速信息</span><span class="sxs-lookup"><span data-stu-id="5f650-106">Quick info</span></span>
 
 ```cpp
 struct SKEY 
@@ -33,23 +33,23 @@ struct SKEY
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="600d8-107">成员</span><span class="sxs-lookup"><span data-stu-id="600d8-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="5f650-107">Members</span><span class="sxs-lookup"><span data-stu-id="5f650-107">Members</span></span>
 
- <span data-ttu-id="600d8-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="600d8-108">_guid_</span></span>
+ <span data-ttu-id="5f650-108">_guid_</span><span class="sxs-lookup"><span data-stu-id="5f650-108">_guid_</span></span>
   
-> <span data-ttu-id="600d8-109">创建对象的服务器的 GUID。</span><span class="sxs-lookup"><span data-stu-id="600d8-109">GUID of the server creating the object.</span></span>
+> <span data-ttu-id="5f650-109">创建对象的服务器的 GUID。</span><span class="sxs-lookup"><span data-stu-id="5f650-109">GUID of the server creating the object.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="600d8-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="600d8-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5f650-110">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5f650-110">See also</span></span>
 
 
 
-[<span data-ttu-id="600d8-111">有关复制 API</span><span class="sxs-lookup"><span data-stu-id="600d8-111">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="5f650-111">关于复制 API</span><span class="sxs-lookup"><span data-stu-id="5f650-111">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="600d8-112">有关的复制状态机</span><span class="sxs-lookup"><span data-stu-id="600d8-112">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="5f650-112">关于复制状态计算机</span><span class="sxs-lookup"><span data-stu-id="5f650-112">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="600d8-113">UPDELE</span><span class="sxs-lookup"><span data-stu-id="600d8-113">UPDELE</span></span>](updele.md)
+[<span data-ttu-id="5f650-113">UPDELE</span><span class="sxs-lookup"><span data-stu-id="5f650-113">UPDELE</span></span>](updele.md)
   
-[<span data-ttu-id="600d8-114">UPMSG</span><span class="sxs-lookup"><span data-stu-id="600d8-114">UPMSG</span></span>](upmsg.md)
+[<span data-ttu-id="5f650-114">UPMSG</span><span class="sxs-lookup"><span data-stu-id="5f650-114">UPMSG</span></span>](upmsg.md)
   
-[<span data-ttu-id="600d8-115">UPREADE</span><span class="sxs-lookup"><span data-stu-id="600d8-115">UPREADE</span></span>](upreade.md)
+[<span data-ttu-id="5f650-115">UPREADE</span><span class="sxs-lookup"><span data-stu-id="5f650-115">UPREADE</span></span>](upreade.md)
 

@@ -13,17 +13,17 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780235"
 ---
-# <a name="fillgradienttype-complextype-visio-xml"></a><span data-ttu-id="f1610-102">FillGradient_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="f1610-102">FillGradient_Type complexType ('Visio XML')</span></span>
+# <a name="fillgradienttype-complextype-visio-xml"></a><span data-ttu-id="be52c-102">FillGradient_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="be52c-102">FillGradient_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="f1610-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="f1610-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="be52c-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="be52c-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f1610-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="f1610-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="f1610-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="f1610-105">**Schema file**</span></span> <br/> |<span data-ttu-id="f1610-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="f1610-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="f1610-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="f1610-107">**Extension base**</span></span> <br/> |<span data-ttu-id="f1610-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="f1610-108">Section_Type</span></span>  <br/> |
+|<span data-ttu-id="be52c-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="be52c-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="be52c-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="be52c-105">**Schema file**</span></span> <br/> |<span data-ttu-id="be52c-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="be52c-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="be52c-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="be52c-107">**Extension base**</span></span> <br/> |<span data-ttu-id="be52c-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="be52c-108">Section_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="f1610-109">定义</span><span class="sxs-lookup"><span data-stu-id="f1610-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="be52c-109">定义</span><span class="sxs-lookup"><span data-stu-id="be52c-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="FillGradient_Type">
@@ -42,18 +42,18 @@ ms.locfileid: "19780235"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="f1610-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="f1610-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="be52c-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="be52c-110">Elements and attributes</span></span>
 
-<span data-ttu-id="f1610-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="f1610-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="be52c-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="be52c-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="f1610-112">子元素</span><span class="sxs-lookup"><span data-stu-id="f1610-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="be52c-112">子元素</span><span class="sxs-lookup"><span data-stu-id="be52c-112">Child elements</span></span>
 
-|<span data-ttu-id="f1610-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="f1610-113">**Element**</span></span>|<span data-ttu-id="f1610-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="f1610-114">**Type**</span></span>|<span data-ttu-id="f1610-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="f1610-115">**Description**</span></span>|
+|<span data-ttu-id="be52c-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="be52c-113">**Element**</span></span>|<span data-ttu-id="be52c-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="be52c-114">**Type**</span></span>|<span data-ttu-id="be52c-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="be52c-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="f1610-116">Row</span><span class="sxs-lookup"><span data-stu-id="f1610-116">Row</span></span>](row-element-fill-gradient-sectionvisio-xml.md) <br/> |[<span data-ttu-id="f1610-117">FillGradientRow_Type</span><span class="sxs-lookup"><span data-stu-id="f1610-117">FillGradientRow_Type</span></span>](fillgradientrow_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="be52c-116">Row</span><span class="sxs-lookup"><span data-stu-id="be52c-116">Row</span></span>](row-element-fill-gradient-sectionvisio-xml.md) <br/> |[<span data-ttu-id="be52c-117">FillGradientRow_Type</span><span class="sxs-lookup"><span data-stu-id="be52c-117">FillGradientRow_Type</span></span>](fillgradientrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="f1610-118">属性</span><span class="sxs-lookup"><span data-stu-id="f1610-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="be52c-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="be52c-118">Attributes</span></span>
 
-<span data-ttu-id="f1610-119">无。</span><span class="sxs-lookup"><span data-stu-id="f1610-119">None.</span></span>
+<span data-ttu-id="be52c-119">无。</span><span class="sxs-lookup"><span data-stu-id="be52c-119">None.</span></span>
   
 

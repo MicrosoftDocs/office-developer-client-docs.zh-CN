@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779203"
 ---
-# <a name="isocialpersongetfriendsandcolleaguesids"></a><span data-ttu-id="c80e0-103">ISocialPerson::GetFriendsAndColleaguesIDs</span><span class="sxs-lookup"><span data-stu-id="c80e0-103">ISocialPerson::GetFriendsAndColleaguesIDs</span></span>
+# <a name="isocialpersongetfriendsandcolleaguesids"></a><span data-ttu-id="a6d03-103">ISocialPerson::GetFriendsAndColleaguesIDs</span><span class="sxs-lookup"><span data-stu-id="a6d03-103">ISocialPerson::GetFriendsAndColleaguesIDs</span></span>
 
-<span data-ttu-id="c80e0-104">当前不支持此方法。</span><span class="sxs-lookup"><span data-stu-id="c80e0-104">This method is currently not supported.</span></span> 
+<span data-ttu-id="a6d03-104">当前不支持此方法。</span><span class="sxs-lookup"><span data-stu-id="a6d03-104">This method is currently not supported.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetFriendsAndColleaguesIDs([out, retval] SAFEARRAY(BSTR)* friendsIDs);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c80e0-105">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c80e0-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a6d03-105">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a6d03-105">See also</span></span>
 
-- [<span data-ttu-id="c80e0-106">ISocialPerson: IUnknown</span><span class="sxs-lookup"><span data-stu-id="c80e0-106">ISocialPerson : IUnknown</span></span>](isocialpersoniunknown.md)
+- [<span data-ttu-id="a6d03-106">ISocialPerson : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a6d03-106">ISocialPerson : IUnknown</span></span>](isocialpersoniunknown.md)
 

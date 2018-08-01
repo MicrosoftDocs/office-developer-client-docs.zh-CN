@@ -15,10 +15,10 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779408"
 ---
-# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="80389-103">类型 （Outlook 天气位置架构）</span><span class="sxs-lookup"><span data-stu-id="80389-103">Types (Outlook Weather Location Schema)</span></span>
+# <a name="types-outlook-weather-location-schema"></a><span data-ttu-id="5d81f-103">类型 （Outlook 天气位置架构）</span><span class="sxs-lookup"><span data-stu-id="5d81f-103">Types (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="80389-104">本主题列出了 Outlook 天气位置 XML 架构中的类型。</span><span class="sxs-lookup"><span data-stu-id="80389-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
+<span data-ttu-id="5d81f-104">本主题列出了 Outlook 天气位置 XML 架构中的类型。</span><span class="sxs-lookup"><span data-stu-id="5d81f-104">This topic lists the types in Outlook Weather Location XML schema.</span></span>
   
-- [<span data-ttu-id="80389-105">weatherType 复杂类型</span><span class="sxs-lookup"><span data-stu-id="80389-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
+- [<span data-ttu-id="5d81f-105">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="5d81f-105">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-location-schema.md)
     
 

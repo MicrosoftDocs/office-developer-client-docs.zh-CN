@@ -1,5 +1,5 @@
 ---
-title: 朋友 XML 示例
+title: 好友 XML 示例
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779195"
 ---
-# <a name="friends-xml-example"></a><span data-ttu-id="ee44c-105">朋友 XML 示例</span><span class="sxs-lookup"><span data-stu-id="ee44c-105">Friends XML example</span></span>
+# <a name="friends-xml-example"></a><span data-ttu-id="c86e1-105">好友 XML 示例</span><span class="sxs-lookup"><span data-stu-id="c86e1-105">Friends XML example</span></span>
 
-<span data-ttu-id="ee44c-106">本主题中的 XML 示例是在其调用[ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法后返回 Outlook Social Connector (OSC) 到一个朋友 XML 字符串。</span><span class="sxs-lookup"><span data-stu-id="ee44c-106">The XML example in this topic is a friend XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) method.</span></span> <span data-ttu-id="ee44c-107">该示例演示**朋友**XML 的两个朋友每分隔**person**元素。</span><span class="sxs-lookup"><span data-stu-id="ee44c-107">The example shows the **friends** XML for two friends, each delimited by the **person** element.</span></span> <span data-ttu-id="ee44c-108">每个朋友社交网络上指定**userID**元素的唯一值。</span><span class="sxs-lookup"><span data-stu-id="ee44c-108">Each friend specifies a unique value for the **userID** element on the social network.</span></span> 
+<span data-ttu-id="c86e1-106">本主题中的 XML 示例是在其调用[ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)方法后返回 Outlook Social Connector (OSC) 到一个朋友 XML 字符串。</span><span class="sxs-lookup"><span data-stu-id="c86e1-106">The XML example in this topic is a friend XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) method.</span></span> <span data-ttu-id="c86e1-107">该示例演示**朋友**XML 的两个朋友每分隔**person**元素。</span><span class="sxs-lookup"><span data-stu-id="c86e1-107">The example shows the **friends** XML for two friends, each delimited by the **person** element.</span></span> <span data-ttu-id="c86e1-108">每个朋友社交网络上指定**userID**元素的唯一值。</span><span class="sxs-lookup"><span data-stu-id="c86e1-108">Each friend specifies a unique value for the **userID** element on the social network.</span></span> 
   
-<span data-ttu-id="ee44c-109">**朋友**XML 的其余元素具有很容易理解的名称。</span><span class="sxs-lookup"><span data-stu-id="ee44c-109">The remaining elements of the **friends** XML have self-explanatory names.</span></span> <span data-ttu-id="ee44c-110">有关这些元素的详细说明，请参阅[朋友的 XML](xml-for-friends.md)。</span><span class="sxs-lookup"><span data-stu-id="ee44c-110">For detailed description of these elements, see [XML for Friends](xml-for-friends.md).</span></span> 
+<span data-ttu-id="c86e1-109">**朋友**XML 的其余元素具有很容易理解的名称。</span><span class="sxs-lookup"><span data-stu-id="c86e1-109">The remaining elements of the **friends** XML have self-explanatory names.</span></span> <span data-ttu-id="c86e1-110">有关这些元素的详细说明，请参阅[朋友的 XML](xml-for-friends.md)。</span><span class="sxs-lookup"><span data-stu-id="c86e1-110">For detailed description of these elements, see [XML for Friends](xml-for-friends.md).</span></span> 
   
-## <a name="xml-example"></a><span data-ttu-id="ee44c-111">XML 示例</span><span class="sxs-lookup"><span data-stu-id="ee44c-111">XML example</span></span>
+## <a name="xml-example"></a><span data-ttu-id="c86e1-111">XML 示例</span><span class="sxs-lookup"><span data-stu-id="c86e1-111">XML example</span></span>
 
-<span data-ttu-id="ee44c-112">下面的示例显示社交网络上的两个人员**朋友**XML。</span><span class="sxs-lookup"><span data-stu-id="ee44c-112">The following example shows the **friends** XML for two persons on the social network.</span></span> 
+<span data-ttu-id="c86e1-112">下面的示例显示社交网络上的两个人员**朋友**XML。</span><span class="sxs-lookup"><span data-stu-id="c86e1-112">The following example shows the **friends** XML for two persons on the social network.</span></span> 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -78,10 +78,10 @@ ms.locfileid: "19779195"
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ee44c-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ee44c-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c86e1-113">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c86e1-113">See also</span></span>
 
-- [<span data-ttu-id="ee44c-114">OSC 提供程序 XML 示例</span><span class="sxs-lookup"><span data-stu-id="ee44c-114">OSC Provider XML Examples</span></span>](osc-provider-xml-examples.md)  
-- [<span data-ttu-id="ee44c-115">功能 XML 示例</span><span class="sxs-lookup"><span data-stu-id="ee44c-115">Capabilities XML Example</span></span>](capabilities-xml-example.md) 
-- [<span data-ttu-id="ee44c-116">活动源的 XML 示例</span><span class="sxs-lookup"><span data-stu-id="ee44c-116">Activity Feed XML Example</span></span>](activity-feed-xml-example.md) 
-- [<span data-ttu-id="ee44c-117">Outlook Social Connector 提供程序的 XML 架构</span><span class="sxs-lookup"><span data-stu-id="ee44c-117">Outlook Social Connector Provider XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
+- [<span data-ttu-id="c86e1-114">OSC 提供程序 XML 示例</span><span class="sxs-lookup"><span data-stu-id="c86e1-114">OSC Provider XML Examples</span></span>](osc-provider-xml-examples.md)  
+- [<span data-ttu-id="c86e1-115">功能 XML 示例</span><span class="sxs-lookup"><span data-stu-id="c86e1-115">Capabilities XML Example</span></span>](capabilities-xml-example.md) 
+- [<span data-ttu-id="c86e1-116">活动源的 XML 示例</span><span class="sxs-lookup"><span data-stu-id="c86e1-116">Activity Feed XML Example</span></span>](activity-feed-xml-example.md) 
+- [<span data-ttu-id="c86e1-117">Outlook Social Connector 提供程序的 XML 架构</span><span class="sxs-lookup"><span data-stu-id="c86e1-117">Outlook Social Connector Provider XML Schema</span></span>](outlook-social-connector-provider-xml-schema.md)
 

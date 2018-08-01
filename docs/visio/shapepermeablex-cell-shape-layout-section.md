@@ -16,33 +16,33 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/15/2018
 ms.locfileid: "19781270"
 ---
-# <a name="shapepermeablex-cell-shape-layout-section"></a><span data-ttu-id="62b26-103">ShapePermeableX 单元格（“Shape Layout”内容）</span><span class="sxs-lookup"><span data-stu-id="62b26-103">ShapePermeableX Cell (Shape Layout Section)</span></span>
+# <a name="shapepermeablex-cell-shape-layout-section"></a><span data-ttu-id="3f0be-103">ShapePermeableX 单元格（“Shape Layout”部分）</span><span class="sxs-lookup"><span data-stu-id="3f0be-103">ShapePermeableX Cell (Shape Layout Section)</span></span>
 
-<span data-ttu-id="62b26-104">确定连接线是否可以水平穿绕可放置形状。</span><span class="sxs-lookup"><span data-stu-id="62b26-104">Determines whether a connector can route horizontally through a placeable shape.</span></span>
+<span data-ttu-id="3f0be-104">确定连接线是否可以水平穿绕可放置形状。</span><span class="sxs-lookup"><span data-stu-id="3f0be-104">Determines whether a connector can route horizontally through a placeable shape.</span></span>
   
-|<span data-ttu-id="62b26-105">**值**</span><span class="sxs-lookup"><span data-stu-id="62b26-105">**Value**</span></span>|<span data-ttu-id="62b26-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="62b26-106">**Description**</span></span>|
+|<span data-ttu-id="3f0be-105">**值**</span><span class="sxs-lookup"><span data-stu-id="3f0be-105">**Value**</span></span>|<span data-ttu-id="3f0be-106">**说明**</span><span class="sxs-lookup"><span data-stu-id="3f0be-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="62b26-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="62b26-107">TRUE</span></span>  <br/> |<span data-ttu-id="62b26-108">允许连接线水平穿绕可放置形状。</span><span class="sxs-lookup"><span data-stu-id="62b26-108">Enable connectors to route horizontally through a placeable shape.</span></span>  <br/> |
-|<span data-ttu-id="62b26-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="62b26-109">FALSE</span></span>  <br/> |<span data-ttu-id="62b26-110">不允许连接线水平穿绕可放置形状。</span><span class="sxs-lookup"><span data-stu-id="62b26-110">Do not let connectors route horizontally through a placeable shape.</span></span>  <br/> |
+|<span data-ttu-id="3f0be-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="3f0be-107">TRUE</span></span>  <br/> |<span data-ttu-id="3f0be-108">允许连接线水平穿绕可放置形状。</span><span class="sxs-lookup"><span data-stu-id="3f0be-108">Enable connectors to route horizontally through a placeable shape.</span></span>  <br/> |
+|<span data-ttu-id="3f0be-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="3f0be-109">FALSE</span></span>  <br/> |<span data-ttu-id="3f0be-110">不允许连接线水平穿绕可放置形状。</span><span class="sxs-lookup"><span data-stu-id="3f0be-110">Do not let connectors route horizontally through a placeable shape.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="62b26-111">注解</span><span class="sxs-lookup"><span data-stu-id="62b26-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f0be-111">注解</span><span class="sxs-lookup"><span data-stu-id="3f0be-111">Remarks</span></span>
 
-<span data-ttu-id="62b26-112">您还可以在**行为**对话框中的**位置**选项卡上设置此单元格的值 （与选定形状，在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡的**形状设计**组中，单击**行为**，，然后单击**位置**选项卡).</span><span class="sxs-lookup"><span data-stu-id="62b26-112">You can also set the value of this cell on the **Placement** tab in the **Behavior** dialog box (with a shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click the **Placement** tab).</span></span> 
+<span data-ttu-id="3f0be-112">您还可以在**行为**对话框中的**位置**选项卡上设置此单元格的值 （与选定形状，在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡的**形状设计**组中，单击**行为**，，然后单击**位置**选项卡).</span><span class="sxs-lookup"><span data-stu-id="3f0be-112">You can also set the value of this cell on the **Placement** tab in the **Behavior** dialog box (with a shape selected, on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab, in the **Shape Design** group, click **Behavior**, and then click the **Placement** tab).</span></span> 
   
-<span data-ttu-id="62b26-113">在 Visio 2000 之前的版本中，您可以使用“Miscellaneous”内容中的 ObjInteract 单元格设置此行为。</span><span class="sxs-lookup"><span data-stu-id="62b26-113">In versions earlier than Visio 2000, you set this behavior by using the ObjInteract cell in the Miscellaneous section.</span></span> 
+<span data-ttu-id="3f0be-113">在 Visio 2000 之前的版本中，您可以使用“Miscellaneous”内容中的 ObjInteract 单元格设置此行为。</span><span class="sxs-lookup"><span data-stu-id="3f0be-113">In versions earlier than Visio 2000, you set this behavior by using the ObjInteract cell in the Miscellaneous section.</span></span> 
   
-<span data-ttu-id="62b26-114">要从另一个公式或使用**CellsU**属性从某个程序按名称获取对 ShapePermeableX 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="62b26-114">To get a reference to the ShapePermeableX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="3f0be-114">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapePermeableX 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="3f0be-114">To get a reference to the ShapePermeableX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="62b26-115">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="62b26-115">Cell name:</span></span>  <br/> |<span data-ttu-id="62b26-116">ShapePermeableX</span><span class="sxs-lookup"><span data-stu-id="62b26-116">ShapePermeableX</span></span>  <br/> |
+|<span data-ttu-id="3f0be-115">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="3f0be-115">Cell name:</span></span>  <br/> |<span data-ttu-id="3f0be-116">ShapePermeableX</span><span class="sxs-lookup"><span data-stu-id="3f0be-116">ShapePermeableX</span></span>  <br/> |
    
-<span data-ttu-id="62b26-117">若要从某个程序按索引获取对 ShapePermeableX 单元格的引用，请使用带下列参数的**CellsSRC**属性：</span><span class="sxs-lookup"><span data-stu-id="62b26-117">To get a reference to the ShapePermeableX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="3f0be-117">若要从某个程序按索引获取对 ShapePermeableX 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="3f0be-117">To get a reference to the ShapePermeableX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="62b26-118">内容索引：</span><span class="sxs-lookup"><span data-stu-id="62b26-118">Section index:</span></span>  <br/> |<span data-ttu-id="62b26-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="62b26-119">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="62b26-120">行索引：</span><span class="sxs-lookup"><span data-stu-id="62b26-120">Row index:</span></span>  <br/> |<span data-ttu-id="62b26-121">**visRowShapeLayout**</span><span class="sxs-lookup"><span data-stu-id="62b26-121">**visRowShapeLayout**</span></span> <br/> |
-|<span data-ttu-id="62b26-122">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="62b26-122">Cell index:</span></span>  <br/> |<span data-ttu-id="62b26-123">**visSLOPermX**</span><span class="sxs-lookup"><span data-stu-id="62b26-123">**visSLOPermX**</span></span> <br/> |
+|<span data-ttu-id="3f0be-118">内容索引：</span><span class="sxs-lookup"><span data-stu-id="3f0be-118">Section index:</span></span>  <br/> |<span data-ttu-id="3f0be-119">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3f0be-119">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="3f0be-120">行索引：</span><span class="sxs-lookup"><span data-stu-id="3f0be-120">Row index:</span></span>  <br/> |<span data-ttu-id="3f0be-121">**visRowShapeLayout**</span><span class="sxs-lookup"><span data-stu-id="3f0be-121">**visRowShapeLayout**</span></span> <br/> |
+|<span data-ttu-id="3f0be-122">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="3f0be-122">Cell index:</span></span>  <br/> |<span data-ttu-id="3f0be-123">**visSLOPermX**</span><span class="sxs-lookup"><span data-stu-id="3f0be-123">**visSLOPermX**</span></span> <br/> |
    
 

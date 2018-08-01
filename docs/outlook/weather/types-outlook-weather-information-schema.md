@@ -15,14 +15,14 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19779404"
 ---
-# <a name="types-outlook-weather-information-schema"></a><span data-ttu-id="d4bdd-103">类型 （Outlook 天气信息架构）</span><span class="sxs-lookup"><span data-stu-id="d4bdd-103">Types (Outlook Weather Information Schema)</span></span>
+# <a name="types-outlook-weather-information-schema"></a><span data-ttu-id="203c5-103">类型 （Outlook 天气信息架构）</span><span class="sxs-lookup"><span data-stu-id="203c5-103">Types (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="d4bdd-104">本主题列出了 Outlook 天气信息 XML 架构中的类型。</span><span class="sxs-lookup"><span data-stu-id="d4bdd-104">This topic lists the types in the Outlook Weather Information XML schema.</span></span>
+<span data-ttu-id="203c5-104">本主题列出了 Outlook 天气信息 XML 架构中的类型。</span><span class="sxs-lookup"><span data-stu-id="203c5-104">This topic lists the types in the Outlook Weather Information XML schema.</span></span>
   
-- [<span data-ttu-id="d4bdd-105">currentType 复杂类型</span><span class="sxs-lookup"><span data-stu-id="d4bdd-105">currentType complexType</span></span>](currenttype-complextype-outlook-weather-information-schema.md)
+- [<span data-ttu-id="203c5-105">currentType complexType</span><span class="sxs-lookup"><span data-stu-id="203c5-105">currentType complexType</span></span>](currenttype-complextype-outlook-weather-information-schema.md)
     
-- [<span data-ttu-id="d4bdd-106">forecastType 复杂类型</span><span class="sxs-lookup"><span data-stu-id="d4bdd-106">forecastType complexType</span></span>](forecasttype-complextype-outlook-weather-information-schema.md)
+- [<span data-ttu-id="203c5-106">forecastType complexType</span><span class="sxs-lookup"><span data-stu-id="203c5-106">forecastType complexType</span></span>](forecasttype-complextype-outlook-weather-information-schema.md)
     
-- [<span data-ttu-id="d4bdd-107">weatherType 复杂类型</span><span class="sxs-lookup"><span data-stu-id="d4bdd-107">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-information-schema.md)
+- [<span data-ttu-id="203c5-107">weatherType complexType</span><span class="sxs-lookup"><span data-stu-id="203c5-107">weatherType complexType</span></span>](weathertype-complextype-outlook-weather-information-schema.md)
     
 

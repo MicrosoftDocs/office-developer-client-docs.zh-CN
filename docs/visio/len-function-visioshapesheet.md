@@ -16,28 +16,28 @@ ms.contentlocale: zh-CN
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19780558"
 ---
-# <a name="len-function-visioshapesheet"></a><span data-ttu-id="e9de5-103">LEN 函数 (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="e9de5-103">LEN Function (VisioShapeSheet)</span></span>
+# <a name="len-function-visioshapesheet"></a><span data-ttu-id="f6343-103">LEN 函数 (VisioShapeSheet)</span><span class="sxs-lookup"><span data-stu-id="f6343-103">LEN Function (VisioShapeSheet)</span></span>
 
-<span data-ttu-id="e9de5-104">文本字符串中返回字符的数。</span><span class="sxs-lookup"><span data-stu-id="e9de5-104">Returns the number of characters in a text string.</span></span>
+<span data-ttu-id="f6343-104">文本字符串中返回字符的数。</span><span class="sxs-lookup"><span data-stu-id="f6343-104">Returns the number of characters in a text string.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="e9de5-105">语法</span><span class="sxs-lookup"><span data-stu-id="e9de5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f6343-105">语法</span><span class="sxs-lookup"><span data-stu-id="f6343-105">Syntax</span></span>
 
-<span data-ttu-id="e9de5-106">LEN (* **文本** *)</span><span class="sxs-lookup"><span data-stu-id="e9de5-106">LEN (** *text* ** )</span></span> 
+<span data-ttu-id="f6343-106">LEN (* **文本** *)</span><span class="sxs-lookup"><span data-stu-id="f6343-106">LEN (** *text* ** )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="e9de5-107">参数</span><span class="sxs-lookup"><span data-stu-id="e9de5-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="f6343-107">参数</span><span class="sxs-lookup"><span data-stu-id="f6343-107">Parameters</span></span>
 
-|<span data-ttu-id="e9de5-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="e9de5-108">**Name**</span></span>|<span data-ttu-id="e9de5-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="e9de5-109">**Required/Optional**</span></span>|<span data-ttu-id="e9de5-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="e9de5-110">**Data Type**</span></span>|<span data-ttu-id="e9de5-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="e9de5-111">**Description**</span></span>|
+|<span data-ttu-id="f6343-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="f6343-108">**Name**</span></span>|<span data-ttu-id="f6343-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="f6343-109">**Required/Optional**</span></span>|<span data-ttu-id="f6343-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="f6343-110">**Data Type**</span></span>|<span data-ttu-id="f6343-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="f6343-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="e9de5-112">_text_</span><span class="sxs-lookup"><span data-stu-id="e9de5-112">_text_</span></span> <br/> |<span data-ttu-id="e9de5-113">必需</span><span class="sxs-lookup"><span data-stu-id="e9de5-113">Required</span></span>  <br/> |<span data-ttu-id="e9de5-114">**字符串**</span><span class="sxs-lookup"><span data-stu-id="e9de5-114">**String**</span></span> <br/> |<span data-ttu-id="e9de5-115">要查找其长度的字符串。</span><span class="sxs-lookup"><span data-stu-id="e9de5-115">The character string whose length you want to find.</span></span>  <br/> |
+| <span data-ttu-id="f6343-112">_text_</span><span class="sxs-lookup"><span data-stu-id="f6343-112">_text_</span></span> <br/> |<span data-ttu-id="f6343-113">必需</span><span class="sxs-lookup"><span data-stu-id="f6343-113">Required</span></span>  <br/> |<span data-ttu-id="f6343-114">**字符串**</span><span class="sxs-lookup"><span data-stu-id="f6343-114">**String**</span></span> <br/> |<span data-ttu-id="f6343-115">要查找其长度的字符串。</span><span class="sxs-lookup"><span data-stu-id="f6343-115">The character string whose length you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="e9de5-116">返回值</span><span class="sxs-lookup"><span data-stu-id="e9de5-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="f6343-116">返回值</span><span class="sxs-lookup"><span data-stu-id="f6343-116">Return value</span></span>
 
-<span data-ttu-id="e9de5-117">Numeric</span><span class="sxs-lookup"><span data-stu-id="e9de5-117">Numeric</span></span>
+<span data-ttu-id="f6343-117">Numeric</span><span class="sxs-lookup"><span data-stu-id="f6343-117">Numeric</span></span>
   
-## <a name="example"></a><span data-ttu-id="e9de5-118">示例</span><span class="sxs-lookup"><span data-stu-id="e9de5-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f6343-118">示例</span><span class="sxs-lookup"><span data-stu-id="f6343-118">Example</span></span>
 
-<span data-ttu-id="e9de5-119">LEN ("Seattle, WA")</span><span class="sxs-lookup"><span data-stu-id="e9de5-119">LEN ("Seattle, WA")</span></span> 
+<span data-ttu-id="f6343-119">LEN ("Seattle, WA")</span><span class="sxs-lookup"><span data-stu-id="f6343-119">LEN ("Seattle, WA")</span></span> 
   
-<span data-ttu-id="e9de5-120">返回 11。</span><span class="sxs-lookup"><span data-stu-id="e9de5-120">Returns 11.</span></span> 
+<span data-ttu-id="f6343-120">返回 11。</span><span class="sxs-lookup"><span data-stu-id="f6343-120">Returns 11.</span></span> 
   
 
