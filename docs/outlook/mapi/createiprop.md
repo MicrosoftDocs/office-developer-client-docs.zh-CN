@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 906dc4a24b994e079a977808c3f501aaaea9d84f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d6eb011e65ad44f4183eb5821697dcf2508032c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566878"
 ---
 # <a name="createiprop"></a>CreateIProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建属性的数据对象，即[IPropData](ipropdataimapiprop.md)对象。 
   
@@ -80,7 +80,7 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
   
 > 此对象不支持所请求的接口。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 _LpAllocateBuffer_、 _lpAllocateMore_和_lpFreeBuffer_输入的参数分别指向[MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)，和[MAPIFreeBuffer](mapifreebuffer.md)函数。 调用**CreateIProp**客户端应用程序中指针传递给 MAPI 函数只名为;服务提供商将指针传递给它在其初始化呼叫中收到或与调用[IMAPISupport::GetMemAllocRoutines](imapisupport-getmemallocroutines.md)方法检索这些函数。 
   

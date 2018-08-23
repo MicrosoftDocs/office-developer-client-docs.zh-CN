@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 66a150cf3f83465840aa0e79a9ef921b1534f814
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55da942e59c619dd384bef58349aa3a00d4a6d8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777398"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571470"
 ---
 # <a name="pidtagbodycrc-canonical-property"></a>PidTagBodyCrc 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息文本在一个循环冗余检查 (CRC) 值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777398"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储库可以使用任何 CRC 算法生成 PT_LONG 值。 它必须时**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性已设置第一次，只要随后已修改计算此属性作为[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法的一部分。
   

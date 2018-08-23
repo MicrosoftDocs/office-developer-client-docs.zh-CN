@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: eb84c408-2d8b-453b-92f4-5fd8851b84ca
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 52fd844954f41d5d09b5e78f7c23ff6f7469bb43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b651a913855e99e2f26dfd99fb725cc332201932
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776573"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565184"
 ---
 # <a name="opentnefstreamex"></a>OpenTnefStreamEx
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建可用于编码或到使用 TNEF 数据流解码 message 对象由传输或网关和消息存储传输中性封装格式 (TNEF) 对象。 这是 TNEF 访问的入口点。 
   
@@ -107,7 +107,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **OpenTnefStreamEx**函数是[OpenTnefStream](opentnefstream.md)，TNEF 访问的原始入口点的建议的替代。 
   

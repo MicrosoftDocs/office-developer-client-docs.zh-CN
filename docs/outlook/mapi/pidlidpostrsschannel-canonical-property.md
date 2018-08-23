@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 249966ee-0d00-4d2d-89b0-fb7525a89735
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d159b569fba4ec413727b22b32175ccdc9d7b0a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db72ce6f030b289dd32c7ec8e78d8eac3a57faaf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776945"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570896"
 ---
 # <a name="pidlidpostrsschannel-canonical-property"></a>PidLidPostRssChannel 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含内容的\<标题\>字段中的 Atom XML\<源\>或 RSS\<通道\>。
   

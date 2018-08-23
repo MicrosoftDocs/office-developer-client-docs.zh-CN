@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1fd1b06bbaa10c2d7c71ee4c161fd6a980da1865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caaa01982ff9e66fe7e17df4eaf37dcd25281d4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777305"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569552"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>PidTagAgingPeriod 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 代表用于确定的项目之前的项目存档文件夹中保留的时间长度的时间单位数。
   
@@ -36,7 +36,7 @@ ms.locfileid: "19777305"
 |属性类型  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由两个属性， **PR_AGING_PERIOD**和**[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)** 确定的项目之前的项目存档文件夹中保留的时间长度。 **PR_AGING_GRANULARITY**表示用于**PR_AGING_PERIOD**表示，确定此时间长度时的时间单位。 
   

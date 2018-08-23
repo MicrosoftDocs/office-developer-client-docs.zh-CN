@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4b6f850c8f88088863b37bd94de6b1f3d4c48d4f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3a62f6783e3b1a0a0423a08c7f5e866b42b81f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19774538"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569174"
 ---
 # <a name="adrentry"></a>ADRENTRY
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍属于收件人的零个或多个属性。
   
@@ -55,7 +55,7 @@ typedef struct _ADRENTRY
   
 > 指向收件人描述属性的属性值数组。 **RgPropVals**成员可以为 NULL。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ADRENTRY**结构介绍属于单个收件人的属性。 通常用来描述收件人的属性包括： 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 99146f93dcf634be6766f5c6fcc0d1c610b84d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f484174bd0a83c9bb874bec4896fe3dd925405c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775792"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568236"
 ---
 # <a name="implementing-a-provider-one-off-table"></a>实现提供程序一次性表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 客户端应用程序的用户将收件人添加到的传出邮件时调用提供商的[IABLogon::GetOneOffTable](iablogon-getoneofftable.md)方法。 通常情况下，请求的地址的类型是唯一的邮件系统。 如果您的提供商支持收件人的创建，它必须提供一个一次性表，用于公开每种类型的受支持的收件人地址的模板。 如果您的提供程序不支持收件人的创建，返回 MAPI_E_NO_SUPPORT 从**GetOneOffTable**呼叫。 
   

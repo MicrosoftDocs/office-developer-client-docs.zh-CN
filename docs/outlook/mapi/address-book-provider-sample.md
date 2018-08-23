@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c32017598407760d5dbbb01ee6c28267bbffd152
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebbed00fb920994f40b7ae139c7eddd658984b95
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774508"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566857"
 ---
 # <a name="address-book-provider-sample"></a>通讯簿提供程序示例
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此示例显示名称和电子邮件地址，从平面二进制文件读取支持单个只读的容器。 此示例支持一次性模板和配置文件向导除外的所有配置选项。
   

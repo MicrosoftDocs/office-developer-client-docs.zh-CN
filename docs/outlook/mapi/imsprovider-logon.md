@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b89c8129f68852bdd243a7f984497ab312aa2551
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567634"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 日志 MAPI 到消息存储提供程序的一个实例。
   
@@ -152,7 +152,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功，但消息存储提供程序已经可用的错误信息。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。 要从提供程序获取错误的信息，请调用[IMAPISession::GetLastError](imapisession-getlasterror.md)方法。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 调用**IMSProvider::Logon**方法执行大部分获取的消息存储访问所需的处理。 消息存储提供程序验证任何需要访问特定存储和 MAPI 后台处理程序和客户端应用程序可以登录到_lppMDB_参数中返回的消息存储对象的用户凭据。 
   

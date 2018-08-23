@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1ffde0814fe5024a3f89a93462c48136712f1013
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f26e7b7ec607c9714012870d5367a0e775c62f34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775798"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572100"
 ---
 # <a name="implementing-address-book-provider-logon-and-logoff"></a>实现通讯簿提供程序登录和注销
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通讯簿提供程序实现的方法通过支持会话登录和注销[IABProvider: IUnknown](iabprovideriunknown.md)接口。 * * IABProvider * * 界面直接从**IUnknown**继承并添加其他只有两个方法：**登录**和**关机**。 
   

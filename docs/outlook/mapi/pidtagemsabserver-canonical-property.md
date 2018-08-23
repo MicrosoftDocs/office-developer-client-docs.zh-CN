@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: de942619-2507-8fe0-bc81-f9da9ef7266f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 27e3a9687d66bd1cd3586a25a3ca5792523096c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d31272e63df7f68a83b23ca7a3824c081de3c1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777583"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569265"
 ---
 # <a name="pidtagemsabserver-canonical-property"></a>PidTagEmsAbServer 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定通讯簿容器路径中脱机方案或通讯簿容器所在 online 方案中的全局编录服务器的完全限定的域名。
   
@@ -36,7 +36,7 @@ ms.locfileid: "19777583"
 |数据类型：  <br/> |PT_TSTRING  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含属性类型与编译时重置为**PT_UNICODE** `UNICODE`符号在 Unicode 平台上，并为**PT_STRING8**不与编译时`UNICODE`符号。 
   

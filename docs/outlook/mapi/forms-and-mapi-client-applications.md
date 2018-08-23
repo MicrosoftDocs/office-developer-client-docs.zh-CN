@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f1256616eb73fae5f644e7e79a1b3c3350fa5727
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1357482b372e83be4aab1f77037908cafc0b3f05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774976"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569209"
 ---
 # <a name="forms-and-mapi-client-applications"></a>窗体和 MAPI 客户端应用程序
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 因为所有的 MAPI 邮件窗体的实例，客户端应用程序显示并与其交互表单对象，就像与其他消息对象。
   

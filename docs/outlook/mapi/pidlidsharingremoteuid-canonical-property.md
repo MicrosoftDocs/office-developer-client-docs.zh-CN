@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cfe3b728-317b-4871-adea-e2fdf8441da7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cb8b4a7c71f3ad81949f3eac6cab230f40c6d487
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd42711fc5647f16b33677a330e71d141f1962d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777039"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566864"
 ---
 # <a name="pidlidsharingremoteuid-canonical-property"></a>PidLidSharingRemoteUid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定要共享的远程文件夹的条目 ID。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777039"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为 PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的值的十六进制字符串表示形式中，在共享文件夹中。 这是邮件的共享的属性。
   

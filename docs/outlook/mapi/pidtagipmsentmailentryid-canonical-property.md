@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2bf7665d7867b9c7151f787bbc6b3cfd802bca35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee2e9e7f73e03e0a201a5ff41ea6e37a78c668a1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569573"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>PidTagIpmSentMailEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含标准人际邮件 (IPM) 发送邮件文件夹的项标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777768"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 已发送人际邮件是通常放置在已发送邮件文件夹中。 客户端可以使用此属性设置已提交的邮件上的**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 属性。 
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9a30554253bc11c8905273079429e4b41c20583a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6120439ea0d98ed6b64fe1542a4372265574723a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567529"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个名为的结构包含用于描述复选框控件和一个指定长度的标签[DTBLCHECKBOX](dtblcheckbox.md)结构。 
   
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SizedDtblCheckBox**宏可以定义一个复选框，当已知的标签字符数。 使用下列成员来创建新的结构： 
   

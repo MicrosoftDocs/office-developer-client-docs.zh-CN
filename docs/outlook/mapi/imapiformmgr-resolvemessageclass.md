@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a84698ccc132c750cbd071c05160117c40e352a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3cd84e4ddb6d722d9f3de11d65b100d86e69ecae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775456"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571813"
 ---
 # <a name="imapiformmgrresolvemessageclass"></a>IMAPIFormMgr::ResolveMessageClass
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将邮件类解析为其表单中的窗体容器中，并返回该窗体的窗体信息对象。
   
@@ -68,7 +68,7 @@ MAPI_E_NOT_FOUND
   
 > _SzMsgClass_参数中传递的邮件类不匹配的邮件类的窗体库中的任何表单。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::ResolveMessageClass**方法解析为其表单窗体容器内的邮件类。 返回_ppResult_参数中的窗体信息对象提供了进一步访问具有给定的邮件类的窗体的属性。 
   

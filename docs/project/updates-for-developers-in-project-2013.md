@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
 description: 新功能包括 Project 客户端的客户端对象模型 (CSOM)、 REST 接口、 OData 服务的报告、 远程事件接收器、 声明性工作流，和任务窗格的加载项。
-ms.openlocfilehash: facd52c5ba2473de41f2a6bede431af0f55ba4ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e524fe7b8cfa813bd198e99a99cf77d6e2b1905d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567837"
 ---
 # <a name="updates-for-developers-in-project"></a>Project 中面向开发人员的更新
 
@@ -24,7 +24,7 @@ Project Server 数据库合并为单个数据库;您可以通过 OData 服务访
 有关图表和 Project Server 2013 中的主要更改详细信息，请参阅[Project Server 2013 体系结构](project-server-2013-architecture.md)。
   
 > [!NOTE]
-> Project Server 2013 构建在 SharePoint Server 2013 平台上，并且 Project 2013 包括何种为其他 Office 2013 应用程序相同的基础结构。 文档模型为 SharePoint 加载项，基于 SharePoint 的工作流 Web 部件开发与其他 SharePoint 功能和文档的 Office 加载项，请参阅[Office 和 SharePoint 加载项](http://msdn.microsoft.com/library/fp161507%28office.15%29.aspx)和[SharePoint 2013 开发概述](http://msdn.microsoft.com/library/jj164084%28office.15%29.aspx)。 
+> Project Server 2013 构建在 SharePoint Server 2013 平台上，并且 Project 2013 包括何种为其他 Office 2013 应用程序相同的基础结构。 有关文档的模型的 SharePoint 加载项，基于 SharePoint 的工作流，Web 部件开发与其他 SharePoint 功能和文档的 Office 加载项，请参阅[SharePoint 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins)、 [Office 加载项](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)和[SharePoint2013 开发概述](http://msdn.microsoft.com/library/jj164084%28office.15%29.aspx)。 
   
 ## <a name="major-new-features-in-project-2013"></a>Project 2013 的主要新增功能
 <a name="pj15_WhatsNew_MajorNewFeatures"> </a>
@@ -78,7 +78,7 @@ Project Server 2013 的加载项可以使用同时在本地安装和 Project Onl
 > [!NOTE]
 > Project Server 2013 和 Project Online 不使用仅应用程序身份验证模型 SharePoint 2013 （请参阅[外接程序授权策略类型在 SharePoint 2013 中](http://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)） 中。 
   
-有关开发的信息，分发、 承载和管理外接程序，请参阅[SharePoint 加载项](http://msdn.microsoft.com/library/cd1eda9e-8e54-4223-93a9-a6ea0d18df70%28Office.15%29.aspx)和[Office 加载项](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)和 SharePoint Server 2013 和 Office 2013 开发人员文档中的相关的主题。 有关针对其他 SharePoint 加载项的权限请求范围的信息，请参阅[SharePoint 2013 中的加载项权限](http://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx)。
+有关开发的信息，分发、 承载和管理外接程序，请参阅[SharePoint 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins)和[Office 加载项](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)和 SharePoint Server 2013 和 Office 2013 开发人员文档中的相关的主题。 有关权限请求范围的其他 SharePoint 加载项的信息，请参阅[SharePoint 2013 中的加载项权限](http://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx)。
   
 ### <a name="integrating-with-sharepoint-server"></a>与 SharePoint Server 集成
 <a name="pj15_WhatsNew_IntegrationWSS"> </a>
@@ -162,7 +162,7 @@ Project Server 2010 中的四个数据库合并到 Project Server 2013 中为单
   
 Project Server 2013 介绍 OData 服务的联机和本地访问。 仅由的 OData 接口; 公开的联机报告表和视图供内部使用，您可以使用的 OData 接口，或直接访问报告的表和 SharePoint 场中 ProjectService 数据库中的视图。 Project Online 不支持多租户的数据库。 即多个 Project Web 应用程序的每个实例具有自己的 Project 数据库。 OData 服务内部报告的表和视图，运行 SQL 查询，并提供了 XML 或 JSON 负载。 有关 OData 服务的 Project Server 2013 中的报告和**ProjectData**架构引用的简介，请参阅[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)。
   
-有关 OData 查询的常规信息，请参阅[OData: URI 约定](http://www.odata.org/developers/protocols/uri-conventions#FilterSystemQueryOption)。 例如，您可以看到所有的 Project Web App 的项目名称其中开头在浏览器中使用下面的查询的"Test"的本地实例中的项目。 在浏览器页中，右键单击，然后单击**查看源文件**。
+有关 OData 查询的常规信息，请参阅[OData: URI 约定](https://www.odata.org/documentation/)。 例如，您可以看到所有的 Project Web App 的项目名称其中开头在浏览器中使用下面的查询的"Test"的本地实例中的项目。 在浏览器页中，右键单击，然后单击**查看源文件**。
   
 ```html
 http://ServerName /ProjectServerName /_api/ProjectData/Projects?$filter=startswith(ProjectName, 'Test') eq true
@@ -239,7 +239,7 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
   
 - **扩展**[PSI 扩展方案](https://msdn.microsoft.com/library/office/ff843378%28v=office.14%29.aspx)已被弃用，并将在将来版本中不支持。 这些内部部署 Project Server 2013 方案通过使用自定义 Windows Communication Foundation (WCF) 服务启用集成。 
   
-- **项目 PSI**PSI[项目类](https://msdn.microsoft.com/library/office/websvcproject.project_di_pj14mref.aspx%28Office.15%29.aspx)已被弃用。 对于所有新开发，使用[Project CSOM](https://msdn.microsoft.com/library/office/microsoft.projectserver.client_di_pj14mref.aspx%28Office.15%29.aspx)。 使用 Project PSI 的 project Server 2013 应用程序将继续工作，但 Project Online 的应用程序需要将替换其等效的 CSOM 方法的任何项目类的 PSI 方法。
+- **项目 PSI**PSI[项目类](https://docs.microsoft.com/en-us/office/client-developer/project/project-psi-reference-overview)已被弃用。 对于所有新开发，使用[Project CSOM](client-side-object-model-csom-for-project-2013.md)。 使用 Project PSI 的 project Server 2013 应用程序将继续工作，但 Project Online 的应用程序需要将替换其等效的 CSOM 方法的任何项目类的 PSI 方法。
   
 - **资源计划 PSI**[资源计划 PSI](https://msdn.microsoft.com/library/office/websvcresourceplan_di_pj14mref.aspx)已被弃用。 它将继续支持 Project 2013 开发的但将来版本中将不支持。 
   
@@ -272,7 +272,7 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
 ## <a name="comparing-project-server-on-premises-with-project-online"></a>比较 Project Server 内部部署与 Project Online
 <a name="pj15_WhatsNew_Comparing"> </a>
 
-为了帮助您决定是否使用 Project Server 本地或 Project Online，以及哪些类型的扩展名您可以开发在任一情况下，表 2 比较内部部署安装 Project Server 2013 和 Project Online 的可扩展功能。 表 2 不包括部署、 管理或使用率的差异。 有关 Project Online 和 Project Server 2013 的详细信息，请参阅[面向开发人员的 Project 2013](http://msdn.microsoft.com/en-US/office/fp161502)和[Project Online](http://www.microsoft.com/project/)。
+为了帮助您决定是否使用 Project Server 本地或 Project Online，以及哪些类型的扩展名您可以开发在任一情况下，表 2 比较内部部署安装 Project Server 2013 和 Project Online 的可扩展功能。 表 2 不包括部署、 管理或使用率的差异。 有关 Project Online 和 Project Server 2013 的详细信息，请参阅[面向开发人员的 Project 2013](http://msdn.microsoft.com/en-US/office/fp161502)和[Project Online](https://developer.microsoft.com/en-us/project)。
   
 **表 2。Project Server 的扩展性在本地和 Project Online**
 
@@ -309,6 +309,6 @@ Office 加载项提供销售解决方案和与 web 内容和其他 Office 2013 �
 - [面向开发人员的 office](http://msdn.microsoft.com/en-US/office)   
 - [SharePoint 相关应用程序中处理事件](http://msdn.microsoft.com/en-us/library/jj220048%28office.15%29.aspx)   
 - [Office 应用商店](http://office.microsoft.com/en-us/store/)   
-- [Project Online](http://www.microsoft.com/project/)
+- [Project Online](https://developer.microsoft.com/en-us/project)
     
 

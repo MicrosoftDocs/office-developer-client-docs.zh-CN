@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bd2d0a662585e8aba91250786f88dd310fe37e32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39f28d5a8e9c8c7f3dfc6a8d09cf022cea08800c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775179"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563919"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 Layers **IStorage**接口到**IStream**对象。 
   
@@ -82,7 +82,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持的附件使用**IStorage**接口的**HrIStorageFromStream**函数。 存储提供程序必须实现**IStream**接口。 **HrIStorageFromStream** **IStream**对象提供的**IStorage**接口。 就可以传递**ILockBytes**或中_lpUnkIn_ **IStream**接口。 
   

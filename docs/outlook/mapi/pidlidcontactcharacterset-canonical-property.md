@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a167e199-a9b2-47f9-a90e-2abc7c29828c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9706d1060347609708070140aae51d9dcadbb9c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70d8266bf0eb8543b9bea7d2258b576b6f02bcc2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776745"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567732"
 ---
 # <a name="pidlidcontactcharacterset-canonical-property"></a>PidLidContactCharacterSet 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定用于此联系人的字符集。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776745"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 应用程序可以使用此属性以帮助生成的**dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md))、 **dispidFileUnderList** ([PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) 和**dispidFileUnderId 选择字符集相关列表**([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)) 属性。 如果属性的值，"0x00000000"或"0x00000001"应用程序应视为属性未设置。
   

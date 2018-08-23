@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: abf33e4167d836aeb88fdefb30ba05840e80ce63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b08d3af8c61d8ced31e822bb787d49ad90b4df54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571673"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 比较两个属性值，通常是字符串或二进制数组，如果一个包含其他。 
   
@@ -79,7 +79,7 @@ FALSE
   
 > 要比较的属性值不是类型 PT_STRING8 或 PT_BINARY、 的属性值是不同类型的或不包含_lpSPropValueSrc_搜索字符串中的_lpSPropValueDst_属性值指定。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 比较方法取决于[SPropValue](spropvalue.md)属性定义中指定的属性类型和_ulFuzzyLevel_参数中提供的级别模糊推断方法。 [FPropCompareProp](fpropcompareprop.md)和**FPropContainsProp**函数可以用于准备用于生成表的限制。 
   

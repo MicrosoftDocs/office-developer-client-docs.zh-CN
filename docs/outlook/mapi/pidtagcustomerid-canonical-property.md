@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 85d1c44d-caab-48dc-a6a0-ad201cc365f7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fab644eee8b535efe3b83bfbcaaa4f7ec5cb2aa7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1abbcabcc360eee5eb3f3db3a37bdf9aa3339080
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777510"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568474"
 ---
 # <a name="pidtagcustomerid-canonical-property"></a>PidTagCustomerId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含联系人的客户 ID 号。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777510"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户或用户的组织定义这些属性的内容。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b5eb671be022a6c3aa22e66f68386691fe23b275
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48ca692779fb53cab386d8a18b5f0a50e11d531c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775711"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569433"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索当前表格排序顺序。
   
@@ -49,7 +49,7 @@ MAPI_E_BUSY
   
 > 阻止排序顺序检索操作启动的正在进行中是另一个操作。 应允许正在进行的操作完成或应停止。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::QuerySortOrder**方法检索当前表格排序顺序。 [SSortOrderSet](ssortorderset.md)结构描述都排序次序。 
   

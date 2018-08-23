@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f8105bae0f3d97c946eec25543406b61e7d55160
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c7cabcd01ab91fa81f050ba635ece8d6b7aba02
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777464"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568369"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>PidTagContactAddressBookFolderNames 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含联系人文件夹保留邮件用户的位置的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777464"
 |数据类型：  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些是联系人通讯簿配置文件一节的属性。
   

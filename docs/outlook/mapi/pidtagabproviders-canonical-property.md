@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 39abd90027d7a3d767da186b0dab0ba7f278e4f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21bbcc32cd71899a2546b17f8023ef49744ba5e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777252"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570799"
 ---
 # <a name="pidtagabproviders-canonical-property"></a>PidTagAbProviders 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含当前配置文件中的通讯簿提供程序标识符的列表。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777252"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 不要使用此属性。 它是通过 MAPI 供使用。
   

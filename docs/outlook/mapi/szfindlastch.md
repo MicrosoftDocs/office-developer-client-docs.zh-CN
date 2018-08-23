@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c221f98d6551ea63971dd378d522c1f2bebb312b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eeeff110e5de592d491865079adfa187e5dfa194
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778945"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570875"
 ---
 # <a name="szfindlastch"></a>SzFindLastCh
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 搜索的以 null 结尾的字符串中的字符的最后一个实例。 
   
@@ -54,7 +54,7 @@ LPSTR SzFindLastCh(
 
  **SzFindLastCh**返回到字符串中的字符的最后一个匹配项的指针。 如果字符，不会发生无处不在字符串中，或者如果_lpsz_参数为 NULL，则返回 NULL 的值。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SzFindLastCh**功能将搜索完全匹配只;它是敏感案例和发音差异。 支持 Unicode 和 DBCS 格式的搜索。 
   

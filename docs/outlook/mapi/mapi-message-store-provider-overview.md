@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5cc8261dfee6803492ffcf62c182930e2ac6d425
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 614d9ab1037f0fc2735112801e30e530bfafe4db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776275"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569069"
 ---
 # <a name="mapi-message-store-provider-overview"></a>MAPI 消息存储提供程序概述
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储提供程序处理对存储和检索的邮件和其他用户的客户端应用程序的信息。 使用称为的消息存储的分层系统，邮件信息的排列方式。 消息存储在多个级别实现与名为按住不同类型的邮件的文件夹的容器。 没有为邮件存储区; 中的级别数限制文件夹可以包含很多子文件夹。 
   

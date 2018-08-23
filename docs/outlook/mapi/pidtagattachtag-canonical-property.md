@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d8d8d32bddb98e0ac180b0898478c67297980492
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af5d05ee6d3592694952002c16e16188c3e458a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777386"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565618"
 ---
 # <a name="pidtagattachtag-canonical-property"></a>PidTagAttachTag 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含指定的应用程序提供附件 ASN.1 对象标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777386"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性标识最初生成附件的应用程序。
   

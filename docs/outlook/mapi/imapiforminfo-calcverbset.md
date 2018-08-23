@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 362afb1efeddeae72cc19256c377cb2c0f7ecba0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db3cc987b20a76116f2591485f57afae017d3e15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775409"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567711"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 到谓词窗体所使用的完整集合中返回的指针。
   
@@ -58,7 +58,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序调用**IMAPIFormInfo::CalcVerbSet**方法以获取指向由窗体的动作设置。 在**SMAPIVerbArray**结构中返回_ppMAPIVerbArray_参数中，返回动词顺序的索引号;每个动作索引是其**lVerb**成员中找到的。 客户端应用程序可以使用动词数组动态生成菜单、 隐藏或显示按钮，等等。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a9fdf3f-fd76-40fb-8217-967c6efba5f6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7309f65965fe3c88f927eeba0bbcccff97c479af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a9f0fac76f06bd638aeff89ff096507209cc0287
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775252"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568453"
 ---
 # <a name="iaddrbookgetdefaultdir"></a>IAddrBook::GetDefaultDir
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回初始的通讯簿容器的项标识符。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功返回的默认容器的项标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序和服务提供商调用**GetDefaultDir**方法检索默认通讯簿容器的项标识符。 默认容器是用户看到的第一次打开通讯簿时显示在通讯簿中。 如果尚未通过调用[IAddrBook::SetDefaultDir](iaddrbook-setdefaultdir.md)方法来设置默认容器，MAPI 分配名称的第一个容器不是个人通讯簿 (PAB) 作为默认容器。 如果找不到此类容器，PAB 将成为默认容器。 
   

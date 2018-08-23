@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3f1cab24ef6bbd632ee3dc204e93f59e6f9ac846
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f931382e790da13e7d4a746e286d9dc176b7b6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776335"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571904"
 ---
 # <a name="mapi-service-providers"></a>MAPI 服务提供商
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有三种常见类型的服务提供商：
   

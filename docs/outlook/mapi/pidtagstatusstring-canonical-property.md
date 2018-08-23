@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ea24b5e721317668c8f43278a5e4c38d73b3e91c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8370a613162e3bc8d4395a18e9a7e177255b9b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778446"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567298"
 ---
 # <a name="pidtagstatusstring-canonical-property"></a>PidTagStatusString 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一条消息，指示会话资源的当前状态。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778446"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性授予服务提供商和 MAPI 能够提供有关状态的会话资源，如集成的通讯簿或特定服务提供商的特定信息。 此属性说明，并提供其他信息的状态代码或**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性。 **PR_STATUS_CODE**是必需的所有状态对象， **PR_STATUS_STRING**和关联的属性是可选的。 传输提供程序不会提供一个值，当 MAPI 后台处理程序提供的默认值。 
   

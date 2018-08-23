@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7981dc8550485aa22859c4a8dc25541bedf1217c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47ea122fce7969b326dbd48f875696b91de464f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775748"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568572"
 ---
 # <a name="imapiviewcontextgetsavestream"></a>IMAPIViewContext::GetSaveStream
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索用于保存当前消息流。
   
@@ -67,7 +67,7 @@ S_OK
   
 > 成功检索的流。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIViewContext::GetSaveStream**方法检索流实现表单查看器中支持的另存为谓词处理的**IStream**接口的对象。 [IMAPIForm::DoVerb](imapiform-doverb.md)方法，这是在窗体服务器中实现，并调用表单查看器调用一个谓词，不应该返回直到邮件是完全转换为相应的文本格式，并放入适当的流。 
   

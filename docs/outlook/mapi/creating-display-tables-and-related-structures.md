@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 177fe21537e921a4b94a34ad531847701b16c344
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e17306e2b90f26dcef0a0214e78080fe78752e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774727"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568565"
 ---
 # <a name="creating-display-tables-and-related-structures"></a>创建显示表和相关的结构
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建显示表是类似于编写脚本语言的程序。 您可以创建显示表通过调用[BuildDisplayTable](builddisplaytable.md)或编写自定义代码以填充的行和列的表。 一般情况下，您应使用**BuildDisplayTable**技术，因为它是简单。 
   

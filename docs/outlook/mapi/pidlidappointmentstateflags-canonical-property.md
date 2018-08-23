@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e5f0f83-c40b-4b3a-8492-61d1b53b1e3c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 293eb489a1e926f0e60e823a536dacf6f409e353
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c42649b231e691fec8b5a8d7024b87346cd8ce18
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776674"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568544"
 ---
 # <a name="pidlidappointmentstateflags-canonical-property"></a>PidLidAppointmentStateFlags 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的描述对象的状态位字段。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776674"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不是必需的。 下面是可以设置的单个标记。
   

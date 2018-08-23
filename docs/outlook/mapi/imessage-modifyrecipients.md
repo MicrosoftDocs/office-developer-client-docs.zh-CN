@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3edcef69880dbc2a566a44582113c43802a47324
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0735008575db5e1cab62dbde4b699b15e04cedb0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567284"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 添加、 删除或修改邮件的收件人。
   
@@ -62,7 +62,7 @@ S_OK
   
 > 已成功修改的收件人列表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMessage::ModifyRecipients**方法可更改邮件的收件人列表。 它是从该列表中，在[ADRLIST](adrlist.md)结构中，保留收件人表构建。 
   

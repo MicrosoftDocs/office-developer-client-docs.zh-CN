@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b14529e987b85d1dcbe3689d4e852a9efd39a396
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 17b038fea2dd1614f94f005e32b9e6ba4423dbda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776533"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566262"
 ---
 # <a name="notifcallback"></a>NOTIFCALLBACK
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义一个 MAPI 调用发送事件通知的回调函数。 仅，可通过调用[HrAllocAdviseSink](hrallocadvisesink.md)函数创建 advise 接收器对象中自动换行时使用此回调函数。 
   
@@ -59,7 +59,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 
 **NOTIFCALLBACK**函数原型返回值有效的集取决于是否由客户端应用程序或服务提供商实现函数。 客户端应始终返回 S_OK。 提供程序可以返回 S_OK 或 CALLBACK_DISCONTINUE。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 CALLBACK_DISCONTINUE 是同步的回调函数仅; 有效的返回值它请求 MAPI 立即停止处理此通知的回调。 返回 CALLBACK_DISCONTINUE 时，MAPI _lpUlFlags_将参数设置为 NOTIFY_CANCELED 从[IMAPISupport::Notify](imapisupport-notify.md)返回时。 
   

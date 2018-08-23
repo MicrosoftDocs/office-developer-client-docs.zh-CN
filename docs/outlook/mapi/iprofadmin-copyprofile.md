@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cd70f5ee7b58bdf0b1fd61b1056bfc77e3e35992
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e22111ec920d89e0874baf71946681c204cacd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775991"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571204"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一个配置文件的副本。
   
@@ -85,7 +85,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由指向_lpszOldProfileName_，将其命名配置文件的副本所指的_lpszNewProfileName_ **IProfAdmin::CopyProfile**方法使。 将配置文件复制留副本与原始相同的密码。
   

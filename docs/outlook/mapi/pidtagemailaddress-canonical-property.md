@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bbd1e187-172e-4612-9efe-7c8e52967dfe
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cb8b7d0fca6b30f75bd35d1e4e48fa359100ad18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f70d5fbe9a52c491d5db668f541ce317f2675c6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777585"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569041"
 ---
 # <a name="pidtagemailaddress-canonical-property"></a>PidTagEmailAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息的用户的电子邮件地址。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777585"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是所有邮件用户的基址属性的示例。 它是以 null 结尾的字符串，其格式有意义仅为基础邮件系统。 
   

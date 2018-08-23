@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4cc97647c60322783050abbebd18726434632a43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb0b66cbf0de1ac351bb2026a48e0154de779206
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777829"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571190"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>PidTagMailPermission 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 TRUE，则允许消息的用户发送和接收消息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777829"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果未设置此属性，MAPI 会将其视为 TRUE 值。 
   

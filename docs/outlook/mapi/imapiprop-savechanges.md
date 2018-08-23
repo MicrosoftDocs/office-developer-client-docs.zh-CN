@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0a60b813a52779b28124ab6d69b493def35b14aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c12750b7899403e62b9c1603615e9fd6caa95eca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569524"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使永久自上次保存操作对对象进行的任何更改。 
   
@@ -81,7 +81,7 @@ MAPI_E_OBJECT_DELETED
   
 > 对象已被删除，因为它打开的。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIProp::SaveChanges**方法使属性更改永久支持处理，如邮件、 附件、 通讯簿容器和邮件用户对象的事务模型的对象。 不支持事务，如文件夹、 消息存储和配置文件节的对象进行的更改永久立即。 不需要调用**SaveChanges**是必需的。 
   

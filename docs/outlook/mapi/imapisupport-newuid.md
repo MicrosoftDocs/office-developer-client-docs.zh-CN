@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 14be41c21244abe8c54261a95a410828c973d66b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 244087c41e33e470c42434e9d57cee7317bcb78c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775632"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571687"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个新的[MAPIUID](mapiuid.md)结构用作唯一标识符。 
   
@@ -45,7 +45,7 @@ S_OK
   
 > 创建新的**MAPIUID**结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于所有支持对象实现**IMAPISupport::NewUID**方法。 服务提供商和消息服务调用**NewUID** ，只要他们需要生成的长期的唯一标识符。 消息存储提供程序，例如，可能会调用**NewUID**获取**MAPIUID**将放入新创建的消息的**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ad2e1f2d-57c3-4fb5-9e0f-db51640df84d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cf30d38efa7ab2d579746cca6add2aad8d4963f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12fb03ed5a165592113f49a202f777b0f301736d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776193"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568754"
 ---
 # <a name="mapi-client-application-overview"></a>MAPI 客户端应用程序概述
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 客户端应用程序是任何应用程序使用 MAPI 编程接口。 客户端应用程序实现用作的消息任务其主或第二焦点。 消息客户端应用程序，如应用程序发送和接收电子邮件，实现消息作为其主焦点。 对于非消息客户端应用程序，如库存或配置应用程序中，消息是辅助功能。
   

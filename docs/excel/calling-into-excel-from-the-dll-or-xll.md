@@ -1,7 +1,7 @@
 ---
 title: 从 DLL 或 XLL 调用 Excel
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -9,16 +9,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 3f36d2f59b7f5bef9f9ffdca4d13e95c788bf113
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 996226aa8e01d58edbe9b9a8d6e6996b2453d581
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773689"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567704"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>从 DLL 或 XLL 调用 Excel
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 使您能够访问内置 Excel 命令、 工作表功能和宏工作表函数的 DLL。 这些是可同时从 DLL 命令和从 Visual Basic for Applications (VBA)，并从注册的 XLL 命令和由 Excel 直接调用的函数调用的函数。
   
@@ -50,7 +50,7 @@ Excel 版本 4 中引入的**Excel4**和**Excel4v**函数。 他们使用**XLOPE
     
 在下列情况下，不能调用 Excel C API:
   
-- 从操作系统事件 （例如，从[DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx)函数）。 
+- 从操作系统事件 （例如，从[DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain)函数）。 
     
 - 从您的 DLL 创建后台线程。
     
@@ -66,7 +66,7 @@ Excel 版本 4 中引入的**Excel4**和**Excel4v**函数。 他们使用**XLOPE
 |4  <br/> |**xlretInvCount** <br/> |不正确的调用中提供的参数数目。  <br/> |
 |8  <br/> |**xlretInvXloper** <br/> |一个或多个参数**XLOPER**或**XLOPER12**值是不正确地形成或填充。  <br/> |
 |16  <br/> |**xlretStackOvfl** <br/> |Excel 检测到风险操作可能溢出其堆栈和，因此，不调用此函数。  <br/> |
-|32  <br/> |**xlretFailed** <br/> |命令或函数失败原因不描述其他返回值之一。 操作需要太多的内存，例如，将失败并出现此错误。 这可能是在试图将一个非常大**xltypeMulti**数组引用转换使用[xlCoerce](http://msdn.microsoft.com/library/guid_9d47c16c-a7e7-4998-b594-9cf001827b7b%28Office.15%29.aspx)函数。  <br/> |
+|32  <br/> |**xlretFailed** <br/> |命令或函数失败原因不描述其他返回值之一。 操作需要太多的内存，例如，将失败并出现此错误。 这可能是在试图将一个非常大**xltypeMulti**数组引用转换使用[xlCoerce](xlcoerce.md)函数。  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |尝试检索未计算的单元格的值的操作。 若要保留在 Excel 中的重新计算完整性，工作表函数不允许这样做。 但是，XLL 命令和函数注册为宏工作表函数允许访问未计算的单元格的值。  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |（在 Excel 2007 中从开始）注册为线程安全的 XLL 工作表函数尝试调用的 C API 函数，不是线程安全。 例如，线程安全函数不能调用 XLM 函数**xlfGetCell**。  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |（从开始在 Excel 2010 中）无效的异步函数句柄。  <br/> |
@@ -74,7 +74,7 @@ Excel 版本 4 中引入的**Excel4**和**Excel4v**函数。 他们使用**XLOPE
    
 如果该函数返回故障值之一表中 （即，它不会返回**xlretSuccess**），也将被**XLOPER**或**XLOPER12**返回值设置为 **#VALUE ！**。 在某些情况下，检查的这可能是足够测试的成功，但应注意呼叫可以返回两个**xlretSuccess**和 **#VALUE ！**。
   
-如果**xlretUncalced**或**xlretAbort**中的 C API 结果调用，DLL 或 XLL 代码应返回控件联接 Excel （而非[xlfree](http://msdn.microsoft.com/library/guid_8ce2eef2-0138-495d-b6cb-bbb727a3cda4%28Office.15%29.aspx)函数调用发布 Excel 分配内存的任何其他 C API 调用之前资源中**XLOPER**和**XLOPER12**值）。 
+如果**xlretUncalced**或**xlretAbort**中的 C API 结果调用，DLL 或 XLL 代码应返回控件联接 Excel （而非[xlfree](xlfree.md)函数调用发布 Excel 分配内存的任何其他 C API 调用之前资源中**XLOPER**和**XLOPER12**值）。 
   
 ### <a name="command-or-function-enumeration-argument-xlfn"></a>命令或函数枚举参数： xlfn
 
@@ -238,7 +238,7 @@ void Excel12v_example(double *dbl_array, int size, double &sum, double &average,
 
 替换**XLOPER**，并使用**Excel4v** **Excel12v** **XLOPER12**值的引用，在前面的代码将导致在将处理所有版本的 Excel 函数中。 此操作的 Excel 函数**SUM**、**平均**、**最小值**，和**最大**相当简单，就像它们中 C 的代码，并避免准备参数和调用 Excel 的开销更有效。 但是，许多 Excel 中包含的功能是更复杂，使有用在某些情况下，此方法。 
   
-[XlfRegister](http://msdn.microsoft.com/library/guid_c730124c-1886-4a0f-8f06-79763025537d%28Office.15%29.aspx)主题提供了使用**Excel4v**和**Excel12v**的另一个示例。 当注册 XLL 工作表函数，您可以提供**粘贴函数**对话框中使用的每个参数的描述性字符串。 因此，要提供给**xlfRegister**的总参数数目取决于 XLL 函数的参数数目，并且将因到下一个函数。 
+[XlfRegister](xlfregister-form-1.md)主题提供了使用**Excel4v**和**Excel12v**的另一个示例。 当注册 XLL 工作表函数，您可以提供**粘贴函数**对话框中使用的每个参数的描述性字符串。 因此，要提供给**xlfRegister**的总参数数目取决于 XLL 函数的参数数目，并且将因到下一个函数。 
   
 如果您始终调用的 C API 函数或命令具有相同数量的参数，您想要避免创建数组为这些参数的指针的额外的步骤。 在这种情况下，会使用**Excel4**和**Excel12**更加简练。 例如，当注册 XLL 函数和命令，您需要提供的 DLL 或 XLL 的完整路径和文件名称。 您可以获取**xlfGetName**调用中的文件名称，然后将它与**xlFree**，调用释放如**Excel4**和**Excel12**下面的示例中所示。
   
@@ -317,15 +317,9 @@ void Excel12_example(double *dbl_array, int size, double &sum, double &average, 
   
 ## <a name="see-also"></a>另请参阅
 
-
-
-[创建 XLL](creating-xlls.md)
-  
-[在 Excel 中访问 XLL 代码](accessing-xll-code-in-excel.md)
-  
-[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
-  
-[C API 回调函数 Excel4、Excel12](c-api-callback-functions-excel4-excel12.md)
-  
-[Developing Excel XLLs](developing-excel-xlls.md)
+- [创建 XLL](creating-xlls.md)  
+- [在 Excel 中访问 XLL 代码](accessing-xll-code-in-excel.md)  
+- [Excel XLL SDK API 函数引用](excel-xll-sdk-api-function-reference.md)  
+- [C API 回调函数 Excel4、Excel12](c-api-callback-functions-excel4-excel12.md)  
+- [Developing Excel XLLs](developing-excel-xlls.md)
 

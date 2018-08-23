@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8135af7947f30ac600b8d9af364b2a79a3443ab6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46585859e1dde4ecf38262f99cac5e3a9d29e5db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568747"
 ---
 # <a name="implementing-standard-form-verbs"></a>实现标准表单谓词
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 定义一组标准谓词或用户选择了菜单或单击按钮时，所有表单查看器应支持时执行的操作。 每个动作具有与之关联的标识，EXCHFORM 中定义的常量。H 头文件。 下表列出的标准窗体谓词和其关联的常量：
   

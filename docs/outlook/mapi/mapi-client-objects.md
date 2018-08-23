@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fb37c15e6544798a956e865e6c8c6d62bee44d28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4242e466b0e784bb260d0525db0e253f1c1f37f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776211"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568768"
 ---
 # <a name="mapi-client-objects"></a>MAPI 客户端对象
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 标准邮件客户端应用程序实现只有一个对象 — 通知接收器。 建议从继承接收器[IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md)接口和使用 MAPI 服务提供商的事件通知。 某些客户端还实现进度对象，以支持显示进度对话框。 
   
