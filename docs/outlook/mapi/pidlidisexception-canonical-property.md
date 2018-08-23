@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 802321fb-4261-4c3e-9de3-8b4f490dae13
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5a36cf21a36f83ec252923ddbb137b3b99456927
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1d4600810d4f773896f1880b7309c1f818c7dc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776880"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575775"
 ---
 # <a name="pidlidisexception-canonical-property"></a>PidLidIsException 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示代表异常 （包括孤立实例） 的对象。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776880"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 值为 FALSE 指示该对象表示定期系列或单个实例。 此属性对于任何对象不存在指示值为 false，表示除异常嵌入消息，其中假定值为 TRUE。
   

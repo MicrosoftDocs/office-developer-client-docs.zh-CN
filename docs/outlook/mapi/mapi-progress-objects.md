@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3007aeb5ac3810c57ed6fb4a555d5ce22e831768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6079a62464231536c0fa6b5bacc291997fe38d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776282"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567921"
 ---
 # <a name="mapi-progress-objects"></a>MAPI 进度对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用的方法和进度对象的数据，您可以控制如何标记报告进度。 客户端或 MAPI 实现进度对象，虽然大部分的负担，确保正确的进度显示属于服务提供商。 您可以通过指定特定的顺序和传递给进度对象方法的参数值保证其准确性。
   

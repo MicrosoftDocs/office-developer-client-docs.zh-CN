@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 065d78bf-4c9c-48dd-b1f1-b4e59f3f1243
 description: 上次修改时间： 2012 年 2 月 21 日
-ms.openlocfilehash: ab082c8ac70bf851097080fb41033f76bccc3044
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66e8c3b61caac6fb8d8b57d74ade6fa8aac3a9dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776522"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571702"
 ---
 # <a name="mnlsmultibytetowidechar"></a>MNLS_MultiByteToWideChar
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 类似于**MultiByteToWideChar**，映射到 utf-16 （宽字符） 字符串的字符串。 字符串不一定是从多字节字符设置。
   
@@ -63,7 +63,7 @@ int MNLS_MultiByteToWideChar(
 
 返回写入由_lpWideCharStr_ ，如果成功缓冲区的字符的数。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此函数的换行**MultiByteToWideChar**函数。 有关详细信息，请参阅[MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx)。
   

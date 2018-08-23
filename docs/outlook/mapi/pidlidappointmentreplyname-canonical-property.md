@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2f3a44d1-600f-412e-bc89-078841db5308
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5b6d88b60f9f5c6a01a92ecc5905f711fbf3ab3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54b1f0f3bf837ad21e1b271111d4be2ad2c2b3f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776644"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573983"
 ---
 # <a name="pidlidappointmentreplyname-canonical-property"></a>PidLidAppointmentReplyName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定上次答复会议请求的用户或会议更新对象。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776644"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 代理人响应时，仅 delegator 设置此属性。 值等于代理存储区的**PR_MAILBOX_OWNER_NAME** ([PidTagMailboxOwnerName](pidtagmailboxownername-canonical-property.md)) 属性。 此属性没有任何意义组织者。 有关**PR_MAILBOX_OWNER_NAME**的详细信息，请参阅存储对象[[MS OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)中指定的协议。
   

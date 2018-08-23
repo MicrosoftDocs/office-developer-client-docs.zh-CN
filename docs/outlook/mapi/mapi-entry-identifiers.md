@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b8212f4a055125858b77ee615a5d929a4a62bb82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8c9fb0b24d8954fae75274bfbedca9d7c62de93
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776222"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567858"
 ---
 # <a name="mapi-entry-identifiers"></a>MAPI 条目标识符
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 条目标识符是存储在[ENTRYID](entryid.md)结构用于唯一标识，并打开 MAPI 对象的二进制数据的片段。 大多数 MAPI 对象具有条目标识符。 对象的项标识符是类似于文件的文件名。 但是，他们不可传送，并且不能使用它们在产生的系统之外的系统上。 
   

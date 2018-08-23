@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4ae7645e45efb461ac53b6718569d909cec76504
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15ff5ded3c26a4283572a0f64f4e41452c7699f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777273"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566836"
 ---
 # <a name="pidtag7bitdisplayname-canonical-property"></a>PidTag7BitDisplayName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件用户的名称的 7 位 ASCII 表示形式。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777273"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性映射到 7 位字符集**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 某些消息系统，如 Internet 和某些 X.400 链接被限制为 128 个字符 7 位 ASCII 代码集。 与此类邮件系统的网关可提高性能，通过调用[IAddrBook::PrepareRecips](iaddrbook-preparerecips.md)方法直接检索此属性，从而避免额外处理代码转换。 
   

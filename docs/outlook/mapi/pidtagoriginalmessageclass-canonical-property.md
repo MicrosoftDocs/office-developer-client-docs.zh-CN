@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49deb153-03c6-4be2-a3a5-53cca01accba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7167b7b51698cda5610356779a8e8342b34a6082
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0abd3618f7a1586d8ca786fc1b6802c17e0f0f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777965"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573115"
 ---
 # <a name="pidtagoriginalmessageclass-canonical-property"></a>PidTagOriginalMessageClass 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于在报表中使用的原始消息的类。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777965"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |安全邮件属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性包含**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性为其生成报告的邮件的副本。
   

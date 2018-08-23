@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 276a2bd84156e9b396df71f51130e6704ad7c7fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f917989d9bac403f2bea5b2d6699b7a1caf2008
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776030"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573010"
 ---
 # <a name="iprovideradminopenprofilesection"></a>IProviderAdmin::OpenProfileSection
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从当前配置文件中打开配置文件一节并返回进一步访问[IProfSect](iprofsectimapiprop.md)指针。 
   
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > 请求的配置文件节不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IProviderAdmin::OpenProfileSection**方法将打开配置文件部分，使呼叫者读取信息和可能在当前配置文件中写入信息。 
   

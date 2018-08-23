@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 987b680a-4b9d-47f1-8ae4-9b7ae556ccf0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: de953cea5c394fa489a013a87575906f1ce09adc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f35a2d2cb6fca125abbb4269cba0a9812d61169c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569881"
 ---
 # <a name="pidlidcompanies-canonical-property"></a>PidLidCompanies 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含与项目关联的公司的名称。
   

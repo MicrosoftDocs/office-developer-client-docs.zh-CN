@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a92e9cd-8282-4cf0-93af-4089b3763594
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c3a21e8a6e69cae9d8b757a60fe56d63e079b3ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0ff4d8beb9c9d82d685630a35aefebaf7de71fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776367"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570826"
 ---
 # <a name="mapinameid"></a>MAPINAMEID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述的命名的属性。 
   
@@ -79,7 +79,7 @@ MNID_STRING
   
 > 联合描述的命名属性的名称。 名称可以存储在**盖**，整数值或**lpwstrName**中存储的 Unicode 字符字符串。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **MAPINAMEID**结构用于描述具有超过 0x8000 标识符的命名的属性属性。 属性集是一个重要组成部分的命名属性。 例如 PS_PUBLIC_STRINGS 或 PS_ROUTING_ADDRTYPE 是由 MAPI 的属性集。 
   

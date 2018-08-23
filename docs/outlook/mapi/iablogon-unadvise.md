@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d9f69098f9c53e75dea6f485248d61d277e181c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3fbf8b423cfd4206a0143b5639c85dbcacce2fae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570980"
 ---
 # <a name="iablogonunadvise"></a>IABLogon::Unadvise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 取消以前已设置为[IABLogon::Advise](iablogon-advise.md)方法的调用的通知。 
   
@@ -45,7 +45,7 @@ S_OK
   
 > 已成功取消通知注册。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 调用**Unadvise**方法取消容器，通知注册消息用户或通讯组列表对象。 
   

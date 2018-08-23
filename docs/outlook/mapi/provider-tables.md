@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a613bd744a113b4378c5bef94fb51f6ae3aa4041
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ccc51f33ff681021492949c2180fe70940157f4f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778576"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566136"
 ---
 # <a name="provider-tables"></a>提供程序表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供程序表包含有关服务提供商的信息。 有两个不同的提供程序表 (由 MAPI 实现和使用的客户端）。 第一个表格，通过调用[IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md)方法访问包含有关当前配置文件的提供程序的所有信息。 通过[IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md)，访问第二个表创建表，用于存储有关消息服务的服务提供程序的所有信息。
   

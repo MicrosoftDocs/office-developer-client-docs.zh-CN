@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6cd255c60987ec7a279e509aa2925a8029cce62e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a315f1564f2980ad16ce2ba3da2308960f7d4b88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578890"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>PidTagDefaultProfile 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果邮件的用户配置文件的 MAPI 默认配置文件，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777518"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不显示任何对象的属性但只能作为 profile 表中的列。 客户端应用程序可以使用[IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md)方法指定的默认配置文件。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7fdb8781c39d7814ff2c38ff4df4545511d28a5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e856cc8dc131c1b6266181a954a8da9cfb1d1ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778247"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566101"
 ---
 # <a name="pidtagrowtype-canonical-property"></a>PidTagRowType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个值，指示的表中的行类型。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778247"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性仅在内容表上显示。 类别仅存在时，该项目。
   

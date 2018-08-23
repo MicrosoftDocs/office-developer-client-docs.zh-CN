@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5ff1a5e3-5b96-4f08-9b9b-aeb14304b23b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5f3bcda3beb29fa91629ea1639522ef24dc6eb32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b88545ede6275bd834fad5869d972e2860a6c77e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778593"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573178"
 ---
 # <a name="receive-folder-tables"></a>接收文件夹表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 接收文件夹表包含指定为邮件存储区的接收文件夹的所有文件夹的信息。 接收文件夹是特定邮件类别的传入消息的放置位置的文件夹。 消息存储提供程序实现接收文件夹表和通过[IMsgStore::GetReceiveFolderTable](imsgstore-getreceivefoldertable.md)方法调用的客户端应用程序使用它们。 
   

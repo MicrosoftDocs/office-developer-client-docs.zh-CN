@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9eb052b5-c0ad-418b-9469-e11ffe450fb7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0186a9299bd5a9efaefb8cb38e3173f5851abae0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59f245972fabde8db5123c4d0d39e259257ecfdc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774532"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566192"
 ---
 # <a name="advanced-client-topics"></a>高级客户端主题
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本节包含有关如何在客户端应用程序中实现的某些更常见或变得比较困难功能的副标题。
   

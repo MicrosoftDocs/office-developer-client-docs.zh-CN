@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 2fcff3b3-01e7-4758-9c49-0af41abf0d6b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 57e6974219059c301786295b2d5e6b9a8fb724bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2963e65f97534cbba368b909fef79c982e81ec26
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568523"
 ---
 # <a name="mapi-address-book-provider-objects"></a>MAPI 地址簿提供程序对象
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 除了标准提供程序和登录对象中，通讯簿提供程序实现通讯簿容器、 通讯组列表、 邮件用户、 表、 状态对象和控件。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4fb7d91d-4c51-41c1-9cb6-7b837dd12f11
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 188424fc67534ea5df6ed5eb209909731e12c73c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be033af220135175003a6304c5429a5bdee6658e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777032"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566521"
 ---
 # <a name="pidlidsharinginitiatorsmtp-canonical-property"></a>PidLidSharingInitiatorSmtp 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定发起共享邮件的用户的 SMTP 地址。 这是邮件的共享的属性。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777032"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为**PR_SMTP_ADDRESS** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) 属性的值从通讯簿**dispidSharingInitiatorEid** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)) 属性标识的并且应忽略。
   

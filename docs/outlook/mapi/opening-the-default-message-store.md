@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1eb4e150be68ea01060c7afaed489c8759b576db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0366e889f1c63e5fe40760ca80cec701cd6b3713
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573535"
 ---
 # <a name="opening-the-default-message-store"></a>打开默认的邮件存储
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在任何特定的会话中一个消息存储用作默认邮件存储区。 默认邮件存储区具有以下特征：
   

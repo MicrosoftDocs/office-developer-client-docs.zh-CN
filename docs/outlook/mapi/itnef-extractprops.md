@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 26949f10e22c4d2ea49594ee3365ae7d3bb3662d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0765e46a6f0545682b16e484d08d296ea13e2136
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776116"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571344"
 ---
 # <a name="itnefextractprops"></a>ITnef::ExtractProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从 TNEF 封装提取属性。 
   
@@ -67,7 +67,7 @@ MAPI_E_CORRUPT_DATA
   
 > 正在为流解码的数据已损坏。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 传输提供程序、 消息存储提供程序，和网关调用**ITnef::ExtractProps**方法以提取 （即，解码） 从邮件或附件已传递给[OpenTnefStream](opentnefstream.md)函数封装的属性。 呼叫提供商或网关可以指定要解码属性的列表。 提供程序和网关还可以使用**ExtractProps**提供信息的附件的任何特殊处理。 
   

@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 69d62c4433d85a0e6cd9cf9b3f10acb9d758ffb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0de49d8077e51a78a72b929c4f27b2e80f13f19b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572461"
 ---
 # <a name="pidtagpstpasswordszold-canonical-property"></a>PidTagPstPasswordSzOld 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含要配置的个人存储表 （.pst 文件） 的密码。
   

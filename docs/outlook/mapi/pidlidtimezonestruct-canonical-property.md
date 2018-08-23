@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a1a96cdb3aed03b9621097f1ef858a09391c0693
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9c55aa308072db08e6103418be01f91d0d31a82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777115"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566311"
 ---
 # <a name="pidlidtimezonestruct-canonical-property"></a>PidLidTimeZoneStruct 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含映射到[TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx)结构，其中介绍了用于定期约会或会议请求的开始和结束时间的时区的持久化格式的流。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777115"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Microsoft Office Outlook 2003，早期版本的 Outlook 和应用程序上协作数据对象 (CDO) 1.21 基于其用户还未运行 Outlook 或 Exchange Server 提供的日历更新工具存储的开始时间和结束时间定期约会或会议请求为相对的时间，并将存储其中**dispidTimeZoneStruct**中创建约会或会议请求的时区。 但是，将忽略此方案，随时间推移，时区规则可以更改，导致某些约会和会议安排规则更改，并在不正确的时间之前该用户。 用户和用户未运行 Windows Vista 或那些没有开启自动更新的管理员应使用定位提供 Outlook 或 Exchange Server 调整此类约会和会议请求的时间的工具的日历。 有关这些日历调整工具和重定日历基值的 Api 的详细信息，请参阅[关于编程方式为夏时制调整日历](http://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
   

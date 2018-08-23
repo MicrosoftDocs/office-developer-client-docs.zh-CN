@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a863494f-0071-4d97-a6c4-26707ee00e04
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d969fd806e5038e6c918da45041402a981554a49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69945bc03d9183ea18a436186523741ce534b71e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774772"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568488"
 ---
 # <a name="delegate-access"></a>代理访问
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 委派访问指作为其他用户发送一条消息，或收到另一个用户的邮件用户的功能。 代理访问是如果他们的选择，可支持传输提供程序的 MAPI 服务提供程序无关功能。 但是，没有提供程序需要这样做。 如有必要，用户可以发送邮件作为，或筛选传入消息的另一个用户或用户时必须访问另一个用户的消息存储库时，可以有价值代理访问。 允许委派用户连接到另一个用户存储区之前, 的消息存储提供程序必须验证的代理用户具有适当的权限。 
   

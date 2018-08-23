@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 67b3c76a-f6f7-462b-955c-dc7b53e7e7eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bc2d577ad6c6b430c2339dfb0567ca56de0a7f8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b16cf3b8d0281ba8995058af6b18dbe22dcf592
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778209"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566115"
 ---
 # <a name="pidtagreportdispositionmode-canonical-property"></a>PidTagReportDispositionMode 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示对回执请求收款的邮件的处置。 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778209"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可能的值为"手动-操作/MDN-发送-自动"和"手动-操作/MDN-发送-手动"。
   

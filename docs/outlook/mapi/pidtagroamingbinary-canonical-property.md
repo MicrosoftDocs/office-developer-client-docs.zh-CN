@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 97650550704ba844f10131f1a3045ebbfaaaefff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 717c456024dd98495550f1377edc6a53f82ee042
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778243"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572408"
 ---
 # <a name="pidtagroamingbinary-canonical-property"></a>PidTagRoamingBinary 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含与**IPM 的一个子类关联邮件流。配置**类。 
   
@@ -30,7 +30,7 @@ ms.locfileid: "19778243"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Configuration  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含与**IPM 关联的数据流。配置**消息类消息。 Stream 的格式取决于邮件类。 例如，类类型**IPM 的消息。Configuration.Autocomplete**作为[记忆式键入流](autocomplete-stream.md)进行格式设置。
   

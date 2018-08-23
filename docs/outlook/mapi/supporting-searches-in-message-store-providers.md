@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 30a3fe28-31ca-4eb8-9353-f75f6d339dc7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0cd8bbe14e6af020ec5c93cd46a24853d1c8401c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f206623103f810b2868502aea7c6804cd306f022
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573192"
 ---
 # <a name="supporting-searches-in-message-store-providers"></a>支持在邮件存储区提供程序中进行搜索
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序通常具有一些专用于搜索消息存储区中的邮件的用户界面组件。 搜索条件中指定[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)通过[IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md)和[IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md)方法的接口。 
   

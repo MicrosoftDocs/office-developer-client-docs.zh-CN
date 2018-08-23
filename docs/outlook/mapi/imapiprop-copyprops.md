@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ff8f13a1dcf678e1d05b6e8e083597156422b83d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee6fcaf2fa168f6be91b798efa249799f738bfa0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775537"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571078"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制或移动所选的属性。 
   
@@ -129,7 +129,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不需要呼叫者的类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIProp::CopyProps**方法复制，或将所选的属性从当前对象移动到目标对象。 **CopyProps**主要用于答复或转发的邮件，其中只将某些从原始邮件属性的差旅与答复或转发副本。 
   

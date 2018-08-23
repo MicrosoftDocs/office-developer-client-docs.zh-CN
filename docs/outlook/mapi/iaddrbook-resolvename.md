@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aa72085c4e50fcef1f2d3da81e5409af3d55d89b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f09c88d9bd6720720e2d30ac24fa4a19aed5538
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775245"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567228"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 执行名称解析，分配给收件人列表中的收件人的项标识符。
   
@@ -84,7 +84,7 @@ MAPI_E_NOT_FOUND
   
 > 无法解析_lpAdrList_参数中的至少一个收件人。 通常，当设置 MAPI_DIALOG 标志，禁止显示的对话框中，则返回此值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端和服务提供商调用**ResolveName**方法以启动名称解析过程。 未解析的项是尚不具有条目标识符或**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的一个条目。
   

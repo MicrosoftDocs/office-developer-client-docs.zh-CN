@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e5f329ef0d3483683d5c94ed38c6631d86e77b93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: feb12be5cc836a0c7ff90dd5054a34d9df4b6622
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775575"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568187"
 ---
 # <a name="imapisessionopenprofilesection"></a>IMAPISession::OpenProfileSection
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开当前配置文件的节并返回进一步访问[IProfSect](iprofsectimapiprop.md)指针。 
   
@@ -80,7 +80,7 @@ MAPI_E_NOT_FOUND
   
 > 请求的配置文件节不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::OpenProfileSection**方法打开一个配置文件节或支持**IProfSect**接口的对象。 配置文件节用于进行读取和写入会话配置文件信息。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 15d98183548d4b73c35368d690ef63d5c3dfd9af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 06356d60b43d7e5be61d944c07001570bdd5c678
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776102"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571106"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 插入多个表行，原因可能替换现有行。
   
@@ -54,7 +54,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 一个或多个传入的行不具有索引列。 如果将返回此错误，不更改任何行。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrModifyRows**方法插入_lpSRowSet_参数指向[SRowSet](srowset.md)结构所描述的行。 如果在行集中的行的索引列值与现有行表中的值相匹配，将替换现有行。 如果没有行存在相匹配的**SRowSet**结构中包含的一个， **HrModifyRows**表末尾添加行。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ad2014d1d003a4d80646ed1b679f0d3827341c1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 968be38e794793405aac15340a92ccd6d680498d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775427"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571694"
 ---
 # <a name="imapiformmgrresolvemultiplemessageclasses"></a>IMAPIFormMgr::ResolveMultipleMessageClasses
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将一组的邮件类解析为其的窗体中的窗体容器中，并返回这些表单的信息对象的窗体的数组。
   
@@ -68,7 +68,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::ResolveMultipleMessageClasses**方法解析为窗体容器内的窗体的邮件类的组。 窗体信息对象_ppfrminfoarray_中返回的数组进一步提供对每个窗体的属性的访问。 
   

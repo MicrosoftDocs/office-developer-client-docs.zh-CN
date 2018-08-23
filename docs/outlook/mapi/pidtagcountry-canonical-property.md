@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c9470496-fb37-4019-ae1b-b4f93ac55048
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f9c09e963ecbb5ddeecff1ad43e021d8718e0729
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14d51b0af4828dc22127322f3f41f28b419e5ea8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569916"
 ---
 # <a name="pidtagcountry-canonical-property"></a>PidTagCountry 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的国家/地区的名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777527"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是该提供标识和访问有关收件人信息的属性的示例。 由收件人和收件人的组织定义这些属性。
   

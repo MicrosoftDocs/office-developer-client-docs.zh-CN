@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28efecc4-b4a0-4e0b-bad6-a9005c8e5ddb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: de1755b1bf0ad01f48baea178280d7df3a5f8c17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 06c6ca9207e9c8832f79b4532db4e3c1f5dcaeb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566087"
 ---
 # <a name="pidlidemail2addresstype-canonical-property"></a>PidLidEmail2AddressType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的第二个电子邮件地址的地址类型。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776757"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果存在此参数，此属性值必须是有效的地址类型。
   

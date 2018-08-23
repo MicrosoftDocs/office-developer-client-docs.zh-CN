@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6351be353100649e38a14543a44df5e115c9408b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cc2f5f3880466c0a70febedbc7aaec987b62bb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775767"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572082"
 ---
 # <a name="imessagecreateattach"></a>IMessage::CreateAttach
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个新附件。
   
@@ -64,7 +64,7 @@ S_OK
   
 > 附件已成功创建。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMessage::CreateAttach**方法创建一个新附件的邮件。 客户端具有调用附件的[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法和消息的**IMAPIProp::SaveChanges**方法之前，新的附件和该设置的任何属性不可用。 
   

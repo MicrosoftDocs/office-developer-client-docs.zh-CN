@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f24e2cf97aa27b220f1c214be9d4207b6871f888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d7d52485e334449a7cfb995de02f68f229615e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774674"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574676"
 ---
 # <a name="commonly-used-property-sets"></a>常用属性集
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题列出命名属性的常用的的集。
   

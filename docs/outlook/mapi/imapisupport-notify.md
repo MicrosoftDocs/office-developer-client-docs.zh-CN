@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: db23d1801bf32fd947a77dfd887c56f75ded5681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f79e5eaa3155bbe3373f5ad9c5182a4a65c62648
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775634"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572037"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将指定的事件的通知发送到最初通过[IMAPISupport::Subscribe](imapisupport-subscribe.md)方法通知注册的 advise 源。 
   
@@ -68,7 +68,7 @@ S_OK
   
 > 已成功生成通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::Notify**方法将执行所有服务提供商支持对象。 服务提供商调用**Notify**请求 MAPI 生成**IMAPISupport::Subscribe**方法通过以前通知注册通知接收器的通知。 
   
@@ -93,7 +93,7 @@ _LpKey_参数中传递的通知密钥应为到项中_lpKey_传递给**IMAPISuppo
 - [IMAPISupport::Subscribe](imapisupport-subscribe.md)  
 - [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)  
 - [NOTIFCALLBACK](notifcallback.md) 
-- [NOTIFICATION](notification.md)  
+- [通知](notification.md)  
 - [NOTIFKEY](notifkey.md)  
 - [PidTagRecordKey 规范属性](pidtagrecordkey-canonical-property.md)  
 - [IMAPISupport : IUnknown](imapisupportiunknown.md)

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4f9d2f4d271e467d8fac32b8f17faa8f66cd3f99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775264"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571757"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置中的配置文件的名称解析过程使用新的搜索路径。 
   
@@ -54,7 +54,7 @@ MAPI_E_MISSING_REQUIRED_COLUMN
   
 > 一个**SRowSet**结构中所述的容器不包括其**PR_ENTRYID**属性。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端和服务提供商调用**SetSearchPath**方法以保存所做的用于将名称解析使用[IAddrBook::ResolveName](iaddrbook-resolvename.md)方法的容器搜索顺序的更改。 会话的实例之间保存搜索路径。 
   

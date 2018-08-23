@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c744407790fecde6b6d89dff669ea4db07ce7701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4140dc39b7f866b0372e5940aef5efc0524ad593
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573108"
 ---
 # <a name="iabcontainerdeleteentries"></a>IABContainer::DeleteEntries
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 删除一个或多个条目，通常消息的用户、 通讯组列表或其他容器。
   

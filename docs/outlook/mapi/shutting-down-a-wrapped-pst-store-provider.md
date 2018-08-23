@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 0c9e5917-1b96-323d-bf8b-1d3aa1f677d0
 description: 上次修改时间： 2012 年 7 月 2 日
-ms.openlocfilehash: 5c8ad7443b0c1aa05f48284e4b09859ab53dd2c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43a65548bedc1729ff2bcb62bc3df78d2408bf12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778779"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571743"
 ---
 # <a name="shutting-down-a-wrapped-pst-store-provider"></a>关闭包装的 PST 存储区提供程序
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用换行的个人文件夹文件 (PST) 存储提供程序之后，您必须正确关闭的换行的 PST 存储提供程序。 有关使用换行的 PST 存储提供程序的详细信息，请参阅[使用自动换行 PST 存储提供程序](using-a-wrapped-pst-store-provider.md)。
   

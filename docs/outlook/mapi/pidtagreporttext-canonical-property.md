@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 09bd3bdf-28d6-432c-9213-562a9a271adc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ccd00b368471448e81e32edf99e645024119be00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ef6117557b504678012b79e2b89c13bdaf6b787
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778212"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571484"
 ---
 # <a name="pidtagreporttext-canonical-property"></a>PidTagReportText 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含可选文字由消息系统生成的报告。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778212"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通常，这些属性中包含的文本，以响应传递或原件报表或读取或从基础的消息系统，收到 nonread 的报告生成，但本身不是通过该系统已传输的文本。 
   

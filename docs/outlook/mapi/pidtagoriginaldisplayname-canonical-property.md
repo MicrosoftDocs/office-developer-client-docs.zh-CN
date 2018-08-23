@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 176245d9-724d-44f1-b7a3-eddf652533b2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4a43bc33f13d8325a55d09b5ef3031dc632cf587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d168082a16ad5e8df205d976349fd6406d9d18a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777928"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570770"
 ---
 # <a name="pidtagoriginaldisplayname-canonical-property"></a>PidTagOriginalDisplayName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含通讯簿中复制到个人通讯簿或其他可写通讯簿条目的原始显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777928"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性包含有关复制条目的原始源的信息。
   

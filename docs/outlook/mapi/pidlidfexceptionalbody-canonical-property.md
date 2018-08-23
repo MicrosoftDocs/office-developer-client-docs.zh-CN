@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 327516e8-ed3f-40fc-9604-03a70aecef5a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a2adbee409649f0268d96502a7dd3f658433052a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7653d7a56302deaad75443746ff7e83834af260f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776838"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571358"
 ---
 # <a name="pidlidfexceptionalbody-canonical-property"></a>PidLidFExceptionalBody 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示例外嵌入对象具有一个不同的定期 calendar 对象的主体的消息。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776838"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性的值为 TRUE，然后例外嵌入的对象必须具有正文的邮件。 如果此属性的值为 FALSE，或者如果属性不存在，客户端或服务器必须获得定期 calendar 对象的正文。
   

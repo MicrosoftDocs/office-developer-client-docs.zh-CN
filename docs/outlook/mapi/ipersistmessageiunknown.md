@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 62fb2b069a50408713eea741cf837c421a749fcd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 346a2bce6d5709490ad11da842ed4f3e794b1996
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776010"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569188"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启用表单查看器处理存储窗体和各种状态间转换。
   
@@ -49,7 +49,7 @@ ms.locfileid: "19776010"
 |[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |通知窗体的保存操作已完成。  <br/> |
 |[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |使窗体释放其当前邮件。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 实现**IPersistMessage**接口所需的所有表单。 
   

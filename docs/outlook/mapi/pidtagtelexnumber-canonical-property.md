@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49311177-17a5-415c-bcb2-dfeb48a5b491
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5371d1def980a6901742a69e7b5796bb82820f22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18b59b705017a2d4307104beba345d537e6bf268
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778493"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573220"
 ---
 # <a name="pidtagtelexnumber-canonical-property"></a>PidTagTelexNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收信人电报号码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778493"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 由收件人和收件人的组织定义这些属性。 
   

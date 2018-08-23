@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 32aa91d43e4674c0de20a0dbb670dcb9e2c782cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c19cce33ec351a5627870782ebb4fe509a98be2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778849"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573283"
 ---
 # <a name="spropproblem"></a>SPropProblem
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍错误与涉及属性的操作。
   
@@ -55,7 +55,7 @@ typedef struct _SPropProblem
   
 > 描述属性的问题的错误值。 此值可以是任何 MAPI [SCODE](scode.md)值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 从以下方法，则返回**SPropProblem**结构的数组： 
   

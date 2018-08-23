@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0d605e2c-10db-46e1-95d5-12fabd524baa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9b65c8e32580fa85302b874bd17c1829ad67fd63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b03245d7af4c6fb3879e597d8345e5d9888e164
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775843"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567207"
 ---
 # <a name="imsgserviceadminadminproviders"></a>IMsgServiceAdmin::AdminProviders
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回提供访问提供程序管理对象的指针。
   
@@ -59,7 +59,7 @@ MAPI_E_NOT_FOUND
   
 > **MAPIUID**由_lpUID_指向不存在。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgServiceAdmin::AdminProviders**方法提供对提供程序的管理对象访问。 提供程序管理是对象支持[IProviderAdmin](iprovideradminiunknown.md)接口，使客户端执行以下操作： 
   

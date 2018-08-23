@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d157e29e-7731-4e47-b4a7-e8622b223001
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bead72ab2b394634217c9ae219a03a98752ef27d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1cd432540a4336b46a589e953b5ce4dde7553597
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775204"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573661"
 ---
 # <a name="iablogongetlasterror"></a>IABLogon::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关以前的通讯簿提供程序错误的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志通讯簿提供程序不支持 Unicode，或未设置 MAPI_UNICODE 和通讯簿提供程序支持仅 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通讯簿提供程序实现**GetLastError**方法以提供有关失败的前一个方法调用的信息。 呼叫者可以向其用户提供有关错误的详细信息通过在对话框中包括的**MAPIERROR**结构中的数据。 
   

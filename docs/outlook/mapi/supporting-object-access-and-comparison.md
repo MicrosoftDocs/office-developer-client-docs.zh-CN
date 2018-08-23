@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2152cfbb91f2e343ebcee3f5b717a29805df1d25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f33dcedae5ffe30b85a58d5248d239be81c8efc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575278"
 ---
 # <a name="supporting-object-access-and-comparison"></a>支持对象访问和比较
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 服务提供商可以使用[IMAPISupport::OpenEntry](imapisupport-openentry.md)和[IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md)方法打开和比较属于其提供程序或其他提供程序的对象： 
   

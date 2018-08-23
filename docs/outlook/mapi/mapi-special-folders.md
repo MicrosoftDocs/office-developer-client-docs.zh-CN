@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0195c68dae4a9d144da68a5e6d4ab84edca5c880
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 396a6c01d0b9cd867706a7dd4997bd6ddd7fd147
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776331"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578288"
 ---
 # <a name="mapi-special-folders"></a>MAPI 特殊文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 定义几个是特殊的因为它们提供作为默认文件夹的预定义的角色的某些类型的邮件的文件夹。 通常不能删除这些特殊文件夹，并且其特殊的项标识符的属性。
   

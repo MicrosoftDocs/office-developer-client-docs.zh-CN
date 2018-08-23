@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 80ba893d-3380-4db1-9175-f5b84cb57def
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 69ee06ef8c8f5499dec41232d3dc7b374b15a744
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e97e1d5302d8247cb09ce7cb1b581582405300a5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774616"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568125"
 ---
 # <a name="callerrelease"></a>CALLERRELEASE
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义一个在释放表视图时，可以释放表数据对象的回调函数。 
   
@@ -59,7 +59,7 @@ void CALLERRELEASE(
 
 无 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序或已填充表数据对象的服务提供商可以调用[ITableData::HrGetView](itabledata-hrgetview.md)创建只读、 已排序的表的视图。 对**HrGetView**的调用将指针传递给**CALLERRELEASE**基于回调函数以及与表视图保存的上下文。 当表视图的引用计数返回为零，即被释放视图**IMAPITable**实现调用_ulCallerData_参数中传递上下文的回调函数。 
   

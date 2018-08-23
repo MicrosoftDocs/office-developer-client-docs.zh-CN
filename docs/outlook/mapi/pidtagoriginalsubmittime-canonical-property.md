@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2e027c0c-2370-437a-ad98-2bbb5e41e525
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 43d0387f1c25c5ac86168caaddddd9fb9171c827
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31324dff3c5780f693b1dc055fc2067436496cd3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573647"
 ---
 # <a name="pidtagoriginalsubmittime-canonical-property"></a>PidTagOriginalSubmitTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的原始的提交日期和时间报告中的邮件。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777969"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在首次提交一条消息，客户端应用程序应将此属性设置为**期限**([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) 属性的值。 转发邮件时不会更改。 这仅用于报表中使用。
   

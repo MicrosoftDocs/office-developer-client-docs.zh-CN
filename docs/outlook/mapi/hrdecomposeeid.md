@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e66d48b6caefe0fee67f41ea829db3201751cf27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7cae156e29503c8b50755c99023805aa6d14e704
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775160"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573367"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将一个对象，通常一条消息的消息存储的复合条目标识符分为存储区中对象的项标识符和存储的项标识符。
   
@@ -79,7 +79,7 @@ HrDecomposeEID(
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果复合_pEID_参数指定的标识符，它被拆分对象在其消息存储库中的项标识符和存储的项标识符。 非复合条目标识符字符串是简单复制。 要分隔的复合标识符通常是一个[HrComposeEID](hrcomposeeid.md)函数创建。 
   

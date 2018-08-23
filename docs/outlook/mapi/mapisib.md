@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 16452798-7a95-43da-b95e-908debcea050
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a8044eb6647e6f437c87bb4d8b021c62ea15f606
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f696d9739014659812de3309ec885f37a6f85cc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776393"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572135"
 ---
 # <a name="mapisib"></a>MAPISIB
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此结构用于[IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md)。
   

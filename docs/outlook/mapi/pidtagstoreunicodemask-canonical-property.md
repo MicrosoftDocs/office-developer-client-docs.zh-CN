@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 010b17de08ee5836a26c56f300b36822df2e981e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bfbaada3ced58a689ca4d4745e6e4c798755d4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778469"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574305"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>PidTagStoreUnicodeMask 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含客户端应用程序应查询以确定的消息存储的特征的标志位的掩码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778469"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性会泄露打算将其发送一条消息的客户端应用程序的消息存储的功能。 Flags 可以方便地通过客户端或另一个存储，如是否发送**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 或仅**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 的决策。 客户端应永远不会将该属性。 尝试返回**MAPI_E_COMPUTED**。 
   

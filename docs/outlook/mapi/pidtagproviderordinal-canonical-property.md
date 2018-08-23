@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b56ee557884e12728c98827f9eb1a280d7a29c30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4cd865fbc443a20ebf4b4cd9722fe52c44d5eddc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778089"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573808"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>PidTagProviderOrdinal 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含服务提供商的提供程序表中的位置的从零开始的索引。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778089"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通过 MAPI 计算此属性。
   

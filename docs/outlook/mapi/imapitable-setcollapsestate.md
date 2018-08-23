@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 252b6d6c7ff74acd5f0b288af48ff2901c2330ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51c239897e5e225a0765f78404526e2836371f30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567900"
 ---
 # <a name="imapitablesetcollapsestate"></a>IMAPITable::SetCollapseState
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 重建使用以前[IMAPITable::GetCollapseState](imapitable-getcollapsestate.md)方法调用已保存的数据分类表的当前展开还是折叠状态。 
   
@@ -68,7 +68,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > 表无法完成重建折叠或展开视图。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::SetCollapseState**方法重建表视图展开或折叠状态。 **SetCollapseState**和**GetCollapseState**协同工作，如下所示： 
   

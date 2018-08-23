@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 62b5a42a540a4fb96761c45cd51c510f12225e9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 218238bea277a2d57c77fcc9d71cd622f7da42fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571946"
 ---
 # <a name="sexistrestriction"></a>SExistRestriction
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍用于测试的特定属性作为表中的列存在是否存在限制。 
   
@@ -55,7 +55,7 @@ typedef struct _SExistRestriction
   
 > 保留;必须为零。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 存在限制用于保证涉及属性，如属性和内容的限制的限制其他类型的有意义的结果。 时涉及属性限制传递给[IMAPITable::Restrict](imapitable-restrict.md)或[IMAPITable::FindRow](imapitable-findrow.md)属性不存在，将不明确的限制结果。 通过创建加入带存在限制在属性限制**和**限制，呼叫者可以保证准确的结果。 
   

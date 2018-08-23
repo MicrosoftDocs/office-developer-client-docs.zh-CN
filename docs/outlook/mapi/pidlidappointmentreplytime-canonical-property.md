@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5bc2af5205e6e07b56212a6cf7077f9ef4bee89c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 755342da4bc280241e313fbb7efb818ab29b829f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776686"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571624"
 ---
 # <a name="pidlidappointmentreplytime-canonical-property"></a>PidLidAppointmentReplyTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的日期和时间当与会者响应收到会议请求或会议更新。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776686"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 必须以协调世界时 (UTC) 指定的值。
   

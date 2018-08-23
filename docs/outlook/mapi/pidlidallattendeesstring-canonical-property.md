@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2ffc0609-341d-4e35-8f53-ed3096c6fa7f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a9580428cd985902d3af6320dd754947565b74e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11b4ea96283bbef2dcb9afb109a6a81102727efc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776591"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570455"
 ---
 # <a name="pidlidallattendeesstring-canonical-property"></a>PidLidAllAttendeesString 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定除组织者，包括资源和不可发送与会者之外的所有与会者的列表。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776591"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 每个与会者的值是与会者的显示名称。 单独的条目必须用分号跟一个空格分隔。 此属性不是必需的。
   

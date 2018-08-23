@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d0a6d182-961c-4496-a3bd-f643612527a5
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: c70e89efba585183d2019bbda49102ecd14b9e20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e40bcbfffc6f149837f4a11351f2bdbbf0dcc524
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571596"
 ---
 # <a name="api-elements-deprecated-in-this-edition"></a>在此版本中弃用的 API 元素
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 Microsoft Outlook 2013 中弃用以下 API 元素。 不再受支持和不应新项目中使用它们。
   

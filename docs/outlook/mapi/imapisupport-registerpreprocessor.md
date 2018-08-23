@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9b5659ab-2b49-41ab-92ce-ca343e35d670
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 219c15fc00490983e970e4533f927cf4d91916b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87f5e3f159542359f614a6ab698e6f06a2faf41a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775658"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567914"
 ---
 # <a name="imapisupportregisterpreprocessor"></a>IMAPISupport::RegisterPreprocessor
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册传输提供程序的预处理器函数 （符合[PreprocessMessage](preprocessmessage.md)原型函数）。 
   
@@ -70,7 +70,7 @@ S_OK
   
 > 预处理器函数已成功注册。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于传输提供程序支持对象仅实现**IMAPISupport::RegisterPreprocessor**方法。 传输提供程序调用**RegisterPreprocessor**注册预处理器函数 （符合[PreprocessMessage](preprocessmessage.md)原型的函数）。 MAPI 后台处理程序可调用它之前，必须注册预处理器函数。 
   

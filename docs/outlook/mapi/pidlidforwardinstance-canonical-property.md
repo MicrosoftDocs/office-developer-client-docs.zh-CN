@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 055bdcaf-5002-44a6-b2b6-87244b2bea93
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0c32a60c7655f4e468a03013cb3979bde228ea3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47dd6f10d1dbd25ea275ea96a2eddb6e9c6dfacb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776854"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571771"
 ---
 # <a name="pidlidforwardinstance-canonical-property"></a>PidLidForwardInstance 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示会议请求中表示的异常定期系列，并且它已转发 （即使是在由组织者转发） 而不是由组织者发送的邀请。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776854"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性为 FALSE 的值指示会议请求不是转发的实例。 此属性不是必需的。
   

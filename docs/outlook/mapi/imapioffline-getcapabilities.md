@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 205c9dd28692592ddf133b1b30989ba9fd4236f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 699e77479e0d09e7549c0d2741d5ba54ecc8ce33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775481"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572030"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 获取为其脱机对象支持回调的条件。
   
@@ -47,7 +47,7 @@ MAPIOFFLINE_CAPABILITY_ONLINE
   
 > 脱机对象是能够提供联机通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在打开时使用**[HrOpenOfflineObj](hropenofflineobj.md)** 脱机对象，客户端可以查询[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)获取指向**IMAPIOffline**接口，并调用**IMAPIOffline::GetCapabilities**以找出回调支持由对象。 客户端然后可以选择使用**IMAPIOfflineMgr**设置回调。
   

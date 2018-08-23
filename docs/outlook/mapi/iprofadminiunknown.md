@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c6192e6f92078f2f9bab0d55e9952d21ebb82af6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28dd45f29610b7ad56b4d3302715311569d497c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776005"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577413"
 ---
 # <a name="iprofadmin--iunknown"></a>IProfAdmin : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 支持配置文件的管理。 
   

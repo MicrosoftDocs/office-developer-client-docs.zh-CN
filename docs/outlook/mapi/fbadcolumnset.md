@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5d1654908c50c348a27e1281168756100b7a88a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e5f19258fb7716e741928f02a0a87f3939c74e0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774912"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575096"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置表格列的有效性测试使用后续调用[IMAPITable::SetColumns](imapitable-setcolumns.md)方法中的服务提供商。 
   
@@ -55,7 +55,7 @@ FALSE
   
 > 指定的列集才有效。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **FBadColumnSet**函数处理无效 PT_ERROR 类型的列和有效 PT_NULL 类型的列。 
   

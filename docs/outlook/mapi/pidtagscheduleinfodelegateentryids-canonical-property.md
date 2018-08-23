@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8ea60fb989cd85b23e6dd9302bc03a9b5befd20f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7521d387fa45c191a67f2a20320fac700baed37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778322"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567214"
 ---
 # <a name="pidtagscheduleinfodelegateentryids-canonical-property"></a>PidTagScheduleInfoDelegateEntryIds 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的代理人的**Entryid** 。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778322"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 每个条目都必须包含每个代理人的通讯簿条目的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的值。 此属性必须设置委托信息对象中。
   

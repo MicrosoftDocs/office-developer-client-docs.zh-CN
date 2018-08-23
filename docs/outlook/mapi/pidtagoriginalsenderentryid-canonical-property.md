@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd182589-afea-4967-92f5-ba1914e4db3f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f18587e28c6a3954b86dd58f0167e826d3086c51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b30a61d3bce6d1e6295edb1e93e27b9f7fc8363
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777951"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574440"
 ---
 # <a name="pidtagoriginalsenderentryid-canonical-property"></a>PidTagOriginalSenderEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一条消息，即之前正在转发或答复邮件的第一个版本的发件人的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777951"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一条消息的原始发件人的地址属性之一。 在首次提交邮件，客户端应用程序应将此属性设置为**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 属性的值。 当转发或答复邮件永远不会更改它。
   

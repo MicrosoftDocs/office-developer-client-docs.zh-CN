@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 81c65f21-03ba-43eb-a6d4-d311e660ac5c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ff40eddf63e67f45495e90c1a960e45b7cc6cfb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eef65990637d9c164ffe75f682e01ed134510e32
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778745"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570273"
 ---
 # <a name="sending-messages-mapi-spooler-tasks"></a>发送邮件：MAPI 后台处理程序任务
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 后台处理程序时所涉及的邮件传输过程中的邮件存储区不与紧密耦合传输提供程序，以及邮件需要预处理时紧密耦合的存储和传输无法处理收件人。
   

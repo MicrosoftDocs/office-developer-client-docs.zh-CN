@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ee60e64559a0b4163074ddb62ed72c4600c8e03d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dba7bd1fb7b0ca9bc23dbc45e07f44d0cc0dc8fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774814"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568138"
 ---
 # <a name="displaying-table-rows-and-columns"></a>显示表行和列
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  属性页面可以使用通讯簿提供程序以便用户能够定义新的电子邮件收件人。 
   

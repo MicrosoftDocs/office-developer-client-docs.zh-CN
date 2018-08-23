@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5650fa2a-6e62-451c-964e-363f7bee2344
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a37d8138547c8c4e9308dbb0ebbc6750b152d795
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 163bce38d665a8566fd703420ff1f7b2f44f7c63
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571806"
 ---
 # <a name="imapisession--iunknown"></a>IMAPISession : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 管理与 MAPI 登录会话关联的对象。
   

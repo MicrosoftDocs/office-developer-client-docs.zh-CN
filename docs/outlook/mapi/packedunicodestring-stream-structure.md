@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2b4dcdcb50fb04410ed93940b46ea7a0d74fff41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00791ab47cc3c6bd435d6f581e5ada53ae59d73b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776579"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569195"
 ---
 # <a name="packedunicodestring-stream-structure"></a>PackedUnicodeString 流结构
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 PackedUnicodeString 流结构包含 Unicode (utf-16) 字符串表示形式。 未通过空字符终止此字符串。 此流中的数据元素存储在-little-endian 字节的顺序，紧跟彼此下面列出的顺序。 存在的实际数据元素取决于中 utf-16 表示形式的字符串的长度。
   

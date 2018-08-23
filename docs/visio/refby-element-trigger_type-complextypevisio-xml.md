@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: 指定绘图中的页面的引用。
-ms.openlocfilehash: 57ac63c4488b68d3af3c6e4a75417e2c7937723c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4726a8fe49a7492cd2f7833bbcf5e6810bae18d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781029"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572429"
 ---
 # <a name="refby-element-triggertype-complextype-visio-xml"></a>RefBy 元素 （Trigger_Type 复杂类型） (Visio XML)
 
@@ -42,9 +42,8 @@ ms.locfileid: "19781029"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Trigger](http://msdn.microsoft.com/library/6dbd2c66-3b29-03f6-648f-723d359ded0d%28Office.15%29.aspx) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |提供对 Microsoft Visio 重新计算 Visio 文件中的文档部件之间的关系的说明。  <br/> |
-|[Trigger](http://msdn.microsoft.com/library/e4eeb238-f6d0-fb23-db1c-01d55b0a8d88%28Office.15%29.aspx) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |提供对 Microsoft Visio 重新计算 Visio 文件中的文档部件之间的关系的说明。  <br/> |
 |[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |提供对 Microsoft Visio 重新计算 Visio 文件中的文档部件之间的关系的说明。  <br/> |
+
    
 ### <a name="child-elements"></a>子元素
 

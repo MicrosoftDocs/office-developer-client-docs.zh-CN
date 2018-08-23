@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a593d2a1-29f8-7e23-85bf-02fa3cfebe1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 37f21c438a0a337eecf5c15a27a0b891d19bcfb8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adcb8e78d4e85e19d4102795aa4d43f06a7f86ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775501"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568145"
 ---
 # <a name="imapiofflinenotify--iunknown"></a>IMAPIOfflineNotify : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 支持 Microsoft Outlook 2010 和 Microsoft Outlook 2013 中向客户端发送通知回调。
   
@@ -38,7 +38,7 @@ ms.locfileid: "19775501"
 |:-----|:-----|
 |[Notify](imapiofflinenotify-notify.md) <br/> |将通知发送到客户端有关连接状态的变化。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端必须实现此接口，并将指针传递给它为**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中的成员设置使用**[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** 回调时。 随后，Outlook 2010 或 Outlook 2013 都将能够使用此接口到客户端发送通知回调。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: eef42a8c7d19af313316bea68624ac67fb1ab4e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d8dbeaf101d5ebb687403a2200bd0ad73b9998
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577098"
 ---
 # <a name="creating-a-message-attachment"></a>创建邮件附件
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 邮件附件是一些其他的数据，如文件、 另一条消息或 OLE 对象，您可以发送或保存以及一条消息。 每个附件具有属性的集合，它标识，并介绍了其类型和呈现方式。 收件人，如只能通过它们属于邮件访问邮件附件。 因此，可以使用的附件，其消息必须打开。
   

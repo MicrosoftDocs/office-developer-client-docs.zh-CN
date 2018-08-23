@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 63d7360a-e3a3-4365-9d46-50df1c715bde
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3cf118866bbc305678201a42a9a91998334f5cb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e16a373ec35696f6d1a8ccc52263a1cf8570cfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572324"
 ---
 # <a name="mapi-string-properties"></a>MAPI 字符串属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 提供了三种不同的属性类型来描述字符串属性：
   

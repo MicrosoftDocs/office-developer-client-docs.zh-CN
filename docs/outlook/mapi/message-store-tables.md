@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 84631ea6d332829430bf9d99488f8a1a5fdebac0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 735c778cd8e6ccb41de3d3d8cb0fdc163493f712
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572016"
 ---
 # <a name="message-store-tables"></a>邮件存储区表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储表包含有关当前配置文件中的消息存储提供程序的信息。 没有为每个 MAPI 会话，由 MAPI 实现和客户端使用的一个消息存储表。 客户端可以使用此表中，例如，来查找特定提供程序的所有实例，或查找特定的邮件存储区。 
   

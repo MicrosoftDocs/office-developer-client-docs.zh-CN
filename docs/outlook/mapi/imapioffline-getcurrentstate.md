@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f3769e83-d678-1087-fc0f-b4f156386333
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3cf8ad3966c44add3fd85b9f1adf677039bfce15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d6b1dfcd3866b0d0e7151e9d5399e1274810d14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775488"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568201"
 ---
 # <a name="imapiofflinegetcurrentstate"></a>IMAPIOffline::GetCurrentState
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 获取一个脱机对象的当前联机或脱机状态。
   

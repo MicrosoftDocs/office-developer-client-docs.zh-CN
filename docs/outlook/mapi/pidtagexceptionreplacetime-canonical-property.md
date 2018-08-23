@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 506c4e89bda617ef307a64c266416c0538090ab0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20893f7c3d64698f70ae26c09c2d7ddc64ce3f9d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777592"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569930"
 ---
 # <a name="pidtagexceptionreplacetime-canonical-property"></a>PidTagExceptionReplaceTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示原始日期和时间，如果未异常时应出现定期模式中的实例。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777592"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |类定义消息非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 以协调世界时 (UTC)，必须指定此值。
   

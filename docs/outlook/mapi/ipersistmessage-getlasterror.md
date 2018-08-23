@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 16f091f4d9527cd82ebc1d1eadee2fb55b481929
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a39deb57a24b3a89ee10020a6442bcb1bca612a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775984"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575306"
 ---
 # <a name="ipersistmessagegetlasterror"></a>IPersistMessage::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关表单对象中前面的错误的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志通讯簿提供程序不支持 Unicode，或未设置 MAPI_UNICODE 和通讯簿提供程序支持仅 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象实现**IPersistMessage::GetLastError**方法以提供有关失败的前一个方法调用的信息。 窗体查看者可以通过在对话框中包含的数据从[MAPIERROR](mapierror.md)结构为其用户提供有关错误的详细信息。 
   

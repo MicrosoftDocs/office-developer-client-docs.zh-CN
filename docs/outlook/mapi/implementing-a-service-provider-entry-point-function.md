@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 632aff9c0f6fc60ee9730b5e43667b5b610ae8df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40bbe110c7453cf2360fc103710fbc3bcb7f1c67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775789"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572051"
 ---
 # <a name="implementing-a-service-provider-entry-point-function"></a>实现服务提供程序入口点函数
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 每个服务提供商 DLL 有入口点 MAPI 调用以将其加载的函数。 请注意此入口点函数不是[DllMain](http://msdn.microsoft.com/en-us/library/ms682583.aspx)，Win32 DLL 入口点函数相同。
   

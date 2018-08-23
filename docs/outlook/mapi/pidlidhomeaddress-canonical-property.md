@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e9c4258-46de-476e-8a64-be9e35a23a8b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 00f40a443d6ab730c8b612fd0fdfd93a1fd5cf52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b12052370e29b55aa565f403011493afed015427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19776878"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575579"
 ---
 # <a name="pidlidhomeaddress-canonical-property"></a>PidLidHomeAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的住宅地址的完整地址。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776878"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性应为其他物理地址属性的组合，并基于客户端区域设置。
   

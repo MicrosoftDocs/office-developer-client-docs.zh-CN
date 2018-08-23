@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a418c76-ebc7-47f2-ac91-797162e6e099
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7672c18f18d39ed1e4e8b4664ba7990563419a20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f95b97fc4150695c77871f8c4f768f6b5488ceb4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778499"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572458"
 ---
 # <a name="pidtagtemplateid-canonical-property"></a>PidTagTemplateid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))，表示为永久条目 ID 格式。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778499"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此值必须存在以名称服务提供程序界面 (NSPI) 服务器上的所有通讯簿对象，它可分辨的名称 (DN) 必须与值匹配的**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))，并且其 DN 必须按照 DN 格式指定特定于对象的类型。 
   

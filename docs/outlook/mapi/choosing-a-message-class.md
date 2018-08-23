@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f1e604120041e9d91d06276fabb2e9dd7505df51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3b486838c6ce2d7fc38d950a4de6f4589767073
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774685"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574235"
 ---
 # <a name="choosing-a-message-class"></a>选择邮件类别
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如[MAPI 邮件类](mapi-message-classes.md)中所述，邮件类很重要建立类型的自定义消息，并按扩展名，他们自己的窗体服务器之间的关系。 幸运的是，选择消息类字符串是相当简单。 邮件类的邮件类字符串的任意字符串，但它应使用以下约定：
   

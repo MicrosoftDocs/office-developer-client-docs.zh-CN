@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e693e1c3d6cb975a3a329e15c0b1a6d08817461a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cb9a2ba72ee9fd9c45aefe9d0797930a4871404a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775216"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579282"
 ---
 # <a name="iablogonopenstatusentry"></a>IABLogon::OpenStatusEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开提供程序的状态对象。
   
@@ -64,7 +64,7 @@ S_OK
   
 > 调用成功，并已打开状态对象。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通讯簿提供程序实现**OpenStatusEntry**方法向其状态对象授予访问权限。 所有通讯簿提供程序所都需实现支持，最少， [IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法状态对象。 有关详细信息，请参阅[状态对象实现](status-object-implementation.md)。
   

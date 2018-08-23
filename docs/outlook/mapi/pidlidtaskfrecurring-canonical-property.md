@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 47c9ccbb-161c-4829-8ffb-201f3b54cd45
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: eb97d278640b4cdd2b14152bf4745f883fe2edba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94ec76d3247421f163775245c43ee68e6f9b560b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777073"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569083"
 ---
 # <a name="pidlidtaskfrecurring-canonical-property"></a>PidLidTaskFRecurring 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示任务是否包含的定期模式。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777073"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果不设置此属性，则假定的默认值为 FALSE。 如果其设置为 true，则**dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) 和**dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) 属性还必须设置为[[MS OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)中指定。
   

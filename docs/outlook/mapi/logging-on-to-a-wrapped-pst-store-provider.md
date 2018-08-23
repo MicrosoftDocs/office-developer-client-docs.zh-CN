@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
 description: 上次修改时间： 2012 年 7 月 2 日
-ms.openlocfilehash: 2dfa3820d8d2ab57f278e90bef5d5a40164da6fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0716017788239c22f31007438089118d109010a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19776139"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570476"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>登录到换行的 PST 存储提供程序
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 您可以日志上 MAPI 到换行的 PST 存储提供程序之前，您必须初始化并配置的换行的个人文件夹文件 (PST) 存储提供程序。 有关详细信息，请参阅[初始化自动换行 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2bded946a1fc7d7ab181d3953defa24e247c003c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82490dbe597ebd3f7198aa7e0c904a10202ecd77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775625"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568208"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 处理已发送的邮件。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::DoSentMail**方法。 消息存储提供程序调用**DoSentMail**与[IMsgStore::FinishedMsg](imsgstore-finishedmsg.md)方法，该处理一条消息完成 MAPI 后台处理程序调用方法的实现。 **FinishedMsg**解除对邮件、 确保消息的引用计数为 1，且调用**DoSentMail**。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 55afc4bb-c5fc-4162-a293-7d82644b1965
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aa0a7f958ed1a5ed4140e87e25bd540123616568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58037aa74cbccb67ebd480650fd0ae967a12cbf3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776841"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575691"
 ---
 # <a name="pidlidfileunder-canonical-property"></a>PidLidFileUnder 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的所属存档时显示的联系人列表的名称。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776841"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 应用程序应将视为空 PT_UNICODE 此属性，如果缺少从联系人。
   

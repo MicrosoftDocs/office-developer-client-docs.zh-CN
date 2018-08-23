@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3790ce243890f1cce4d67352a8fb0b7191588269
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8017094f6af95940aab8352d52cd1160f0b7a827
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777656"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573759"
 ---
 # <a name="pidtagformversion-canonical-property"></a>PidTagFormVersion 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含为表单的版本。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777656"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性指示哪些设计版本是当前在窗体的效果。 定义和维护表单版本的设计器，并不一定与任何 MAPI 组件版本。 
   

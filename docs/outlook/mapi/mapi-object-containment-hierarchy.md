@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 33747835-6eeb-4e07-8f92-3cfa81eecd0f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 94fea23f71e6bc29b038db38f6f06cda0f85d635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6350202eb22edc478f7738bebf6d7f0bc4684ee0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776284"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566241"
 ---
 # <a name="mapi-object-containment-hierarchy"></a>MAPI 对象包容层次结构
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对象之间的内嵌关系指定具有访问的其他对象的某些对象的依赖关系。 客户端应用程序特定的对象的访问启用向其他人的访问。 在某些情况下，由服务提供商实现的对象的内嵌关系遵循逻辑层次结构。 在其他情况下，它是任意的。 
   

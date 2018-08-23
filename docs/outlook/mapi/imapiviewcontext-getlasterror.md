@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3306e37a-2500-4281-96c3-ca0d5c81909d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f7455e9013f3bd9460ae5f4d876c135594840b68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e373a4abd5e2435d08fc263316ff6ebf650410ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775739"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568096"
 ---
 # <a name="imapiviewcontextgetlasterror"></a>IMAPIViewContext::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面对视图上下文对象发生的错误的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 可以设置该 MAPI_UNICODE 标记**GetLastError**不支持 Unicode，或未设置 MAPI_UNICODE 和**GetLastError**仅支持 Unicode。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIViewContext::GetLastError**方法提供有关失败的前一个方法调用的信息。 呼叫者可以向其用户提供有关错误的详细信息通过在对话框中包括的**MAPIERROR**结构中的数据。 
   

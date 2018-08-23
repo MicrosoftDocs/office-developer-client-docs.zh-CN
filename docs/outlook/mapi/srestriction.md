@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c12b4409-da6f-480b-87af-1e5baea2e8bd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9748229799641d62b1649491c432f10164b49192
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f8a76cb317ac9bf1b6a4dc4a92b6d6f0098e1d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577399"
 ---
 # <a name="srestriction"></a>SRestriction
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍限制到特定行表的视图的筛选器。 
   
@@ -122,7 +122,7 @@ RES_SUBRESTRICTION
 |RES_SIZE  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
 |RES_SUBRESTRICTION  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要限制的数量和类型，其表的视图中的行并搜索的文件夹中的特定邮件，则客户端使用**SRestriction**结构。 若要实施的限制表上，客户端调用[IMAPITable::Restrict](imapitable-restrict.md)或[IMAPITable::FindRow](imapitable-findrow.md)。 若要实施的文件夹的限制，客户端调用该文件夹的[IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md)方法。 
   

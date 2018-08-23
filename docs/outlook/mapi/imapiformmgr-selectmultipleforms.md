@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 096437f10c5b992a1db55f6a856c38021a81b99a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b974b733c24e61cb256ac0cf7b377d5630966fdf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775452"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579289"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 显示一个对话框，使用户能够选择多个表单，并返回介绍这些表单的信息对象的窗体的数组。
   
@@ -82,7 +82,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::SelectMultipleForms**方法到第一个存在一个对话框，使用户能够选择多个窗体，然后检索数组表单信息的对象的描述所选的形式。 **SelectMultipleForms**对话框中显示所有窗体，它们处于隐藏状态 （也就是说，不管其隐藏的属性清除)。 
   

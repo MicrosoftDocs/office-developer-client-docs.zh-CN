@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e0b8dc9c-cc46-4d27-9497-7a55a0bfdff5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ae6f7d7066638ef1b149d3e411443384d531184d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e84dbc0976f5c438a7e0b5fd7cddcbf1c0659f40
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774751"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574795"
 ---
 # <a name="deinitmapiutil"></a>DeinitMapiUtil
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 释放由[ScInitMapiUtil](scinitmapiutil.md)函数或隐式[MAPIInitialize](mapiinitialize.md)函数显式调用的实用工具函数。 
   
@@ -45,7 +45,7 @@ VOID DeinitMapiUtil( void );
 
 无 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 初始化与[ScInitMapiUtil](scinitmapiutil.md)或[MAPIInitialize](mapiinitialize.md) **DeinitMapiUtil**函数版本函数。 
   

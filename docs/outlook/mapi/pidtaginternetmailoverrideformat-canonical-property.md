@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2c77393b44df1a3b21f20dbc0f6d8090299f9eda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73fa720b4285524d12a9dac468785f6ce211a2b1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777743"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574662"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>PidTagInternetMailOverrideFormat 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示的编码方法和 HTML 包含应该设置传出邮件上的附件。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777743"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关此属性划分到其中的子部分的信息，请参阅[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)。 
   

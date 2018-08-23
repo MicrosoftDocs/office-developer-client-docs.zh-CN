@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7f8b0d96-99d6-4f1c-8ac4-4dbb83626382
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 980b1b81a0afbfe05fee915ddd730aad31811132
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d0d2c07355140e89ffb24095d1ca3a302f6e5ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568446"
 ---
 # <a name="pidtagmessagerecipients-canonical-property"></a>PidTagMessageRecipients 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含可应用到内容表中查找包含满足限制的收件人子对象的所有消息的限制的表。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777861"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以在[IMAPIProp::CopyTo](imapiprop-copyto.md)操作中排除或[IMAPIProp::CopyProps](imapiprop-copyprops.md)操作中包括此属性。 作为**PT_OBJECT**类型的属性，它无法成功检索[IMAPIProp::GetProps](imapiprop-getprops.md)方法。 应由请求**IID_IMAPITable**接口标识符的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法访问其内容。 服务提供商必须将其报告[IMAPIProp::GetPropList](imapiprop-getproplist.md)方法如果设置，但可以选择将其报告或不如果它未设置。 
   

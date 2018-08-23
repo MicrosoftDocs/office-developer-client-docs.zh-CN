@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7c3c4479cd401a163e34c819ecd44e86d1d01965
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6393de45dbfd130e15a0678f2b6a7f18968dfa03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776346"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573213"
 ---
 # <a name="mapi-tables"></a>MAPI 表
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 表是一个 MAPI 对象，用于查看属于特定类型的其他 MAPI 对象的属性的集合。 MAPI 表行和列的格式结构化表示对象和代表对象的属性的每个列的每个行。 通常在每行中包含的属性之一是**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性，可用于打开和修改该对象的标识符。 
   

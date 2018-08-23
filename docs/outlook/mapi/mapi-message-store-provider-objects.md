@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f5bdf4a4cbf67aa9524819ffe4eee14b62714632
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2df6dcb2e20cf1750d78f2e0b3200026b51f712
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776265"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567424"
 ---
 # <a name="mapi-message-store-provider-objects"></a>MAPI 消息存储提供程序对象
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储提供程序实现提供程序和登录对象，如执行所有服务提供商。 他们还实现消息存储对象、 文件夹、 邮件、 附件和表。 作为一个选项，某些消息存储提供程序实现状态对象。
   

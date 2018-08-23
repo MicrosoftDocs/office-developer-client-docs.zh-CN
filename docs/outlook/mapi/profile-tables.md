@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 84c2d02da840dfcad077462954cb10894ba153d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1046c8d92feec16428329636257ed9c1f0ec8719
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571477"
 ---
 # <a name="profile-tables"></a>配置文件表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 配置文件表列出了有关与特定客户端应用程序关联的所有配置文件信息。 一个配置文件表是为每个会话，由 MAPI 客户端使用的实现。 
   

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f25b3fb967f4ed93ac38487f21145f35413764da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779045"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572289"
 ---
 # <a name="upfld"></a>UPFLD
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 用于[上载文件夹状态](upload-folder-state.md)期间上载文件夹的信息。
   

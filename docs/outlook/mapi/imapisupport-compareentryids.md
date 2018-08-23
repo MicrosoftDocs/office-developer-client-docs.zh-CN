@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: be6991d9-6353-4838-bc6b-39de51a94d8d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c939189c2c8f7d3147c3146f55deac0e032ce9df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9dbf02fc94519d40431fb6bd493ef8e68df59d11
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775605"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566542"
 ---
 # <a name="imapisupportcompareentryids"></a>IMAPISupport::CompareEntryIDs
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 比较两个条目标识符来确定它们是否引用同一个对象。 
   
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 一个或两个条目标识符指定为参数引用不是有效对象，可能是因为它们当前未打开和不可用。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于通讯簿和消息存储提供程序支持对象实现**IMAPISupport::CompareEntryIDs**方法。 **CompareEntryIDs**比较两个条目标识符属于单个服务提供程序确定它们是否引用同一个对象。 MAPI 从条目标识符，以确定服务提供程序负责为对象中提取[MAPIUID](mapiuid.md)部分。 MAPI 然后调用其登录对象**CompareEntryIDs**方法来执行比较。 
   

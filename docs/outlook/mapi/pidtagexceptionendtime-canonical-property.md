@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f57f20d5-5a63-42d1-be59-9880456bb05c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 10f8d93ad19cbe16627806b7718d851740d05d58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 719d0240dfae08fd5c583df3f8c192636c8bccee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777602"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570931"
 ---
 # <a name="pidtagexceptionendtime-canonical-property"></a>PidTagExceptionEndTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示的结束日期和时间的计算机的本地时区异常时创建例外。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777602"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |类定义消息非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 > [!NOTE]
 > 此属性仅供参考，必须不依赖的重要信息。 

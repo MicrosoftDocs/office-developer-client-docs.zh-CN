@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 301ebbf8e7a3e2a2deb303af5b198fd11511d495
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5f4be5a8593cfc483dfed1cffbb59f596e2e408
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778895"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567648"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>支持格式化文本：邮件存储区责任
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储提供程序使用**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性可发布是否能够处理富文本格式 (RTF)、 HTML 文本和 RTF 感知时是否它们存储中的格式化的文本压缩或未压缩格式。 消息存储提供程序指示它们是 RTF 感知通过设置 STORE_RTF_OK 位以及它们存储格式化的文本未压缩窗体中通过设置 STORE_UNCOMPRESSED_RTF 位。 消息存储提供程序表明它们是 HTML 感知通过设置 STORE_HTML_OK 位。
   

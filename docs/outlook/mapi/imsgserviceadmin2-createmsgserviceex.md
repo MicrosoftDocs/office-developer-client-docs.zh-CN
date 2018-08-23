@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4910dabd-9380-4fde-a440-5c64d74c0bba
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3aae61f7b21c507da7955dbb4393d13bfb5fa24c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f700389315ca7bd184a9d6defb0b44eaec99a38e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775850"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574774"
 ---
 # <a name="imsgserviceadmin2createmsgserviceex"></a>IMsgServiceAdmin2::CreateMsgServiceEx
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 向当前配置文件和新添加的服务 UID 的返回的消息服务。
   
@@ -85,7 +85,7 @@ MAPI_E_NOT_FOUND
   
 > 消息服务名称不在的 MapiSvc.inf **[服务]** 部分。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgServiceAdmin2::CreateMsgServiceEx**方法将消息服务添加到当前配置文件。 **CreateMsgServiceEx**调用消息服务的入口点函数，以执行任何特定于服务的配置任务。 如果_ulFlags_参数中设置 SERVICE_UI_ALLOWED 标志，指示正在安装该消息服务可以显示使用户可以配置其设置的属性表。 
   

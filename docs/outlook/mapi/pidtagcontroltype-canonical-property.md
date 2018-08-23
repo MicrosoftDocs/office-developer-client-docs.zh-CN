@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fba82fef7c5330f538521d8d5fbdbcecc061ee27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c1d415cc9aa4e66b6c4b17262f9a491fc01f6bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777509"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574123"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>PidTagControlType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个值，该值在对话框中使用的控件的控件类型。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777509"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可以具有完全下列值之一：
   

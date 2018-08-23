@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 498a740a6523434cc6c70793cf98fd1e2ccfbdb3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f65c197999f23d959657cbfee9c6fbb0aaf439f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778357"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566283"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>PidTagSearchRecipientEmailBcc 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含所查询的电子邮件地址或显示名称的存储区上的未发送邮件**密件抄送**行中的收件人列表中的 Unicode 字符串。 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778357"
 |属性类型  <br/> |PT_UNICODE  <br/> |
 |访问权限  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性才相关的尚未发送，存储区上的邮件，因为已发送或接收的消息不包含密件抄送信息。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3809fa35-76d8-44a5-8ad9-a1ed30f91dc0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bb1ab92675ec2f68f95b12865d7a684abc79e10c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 156280bec64f5bb50901beb864e44adafdf662b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776905"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574340"
 ---
 # <a name="pidlidlogdocumentsaved-canonical-property"></a>PidLidLogDocumentSaved 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示文档是否已保存期间日记功能。
   

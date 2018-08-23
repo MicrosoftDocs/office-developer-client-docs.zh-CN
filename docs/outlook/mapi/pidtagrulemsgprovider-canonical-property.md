@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 85cac5ac-f514-47b0-aeb1-658471743350
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7fb623e1294447b27dae31f9d73cf318ae55ff19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a514e8738723529587e0b0536b14d2409dec4b5a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778295"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573332"
 ---
 # <a name="pidtagrulemsgprovider-canonical-property"></a>PidTagRuleMsgProvider 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含有关拥有扩展的规则的客户端应用程序的其他信息。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778295"
 |相关属性：  <br/> |PR_RULE_MSG_PROVIDER  <br/> |
 |标识符：  <br/> |0x65EB  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |规则  <br/> |
+|区域：  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 

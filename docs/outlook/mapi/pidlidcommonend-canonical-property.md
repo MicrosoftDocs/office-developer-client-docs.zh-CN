@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c89f388a-1585-4bed-91b4-1b0c268292f3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4aaa8f1c0bb2d9eb43cd1850ea2148151a0f02fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc3849ac972ce7e3efbfa981ff950ee3615cb533
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776716"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571463"
 ---
 # <a name="pidlidcommonend-canonical-property"></a>PidLidCommonEnd 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示的结束日期和时间一条消息。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776716"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指示项目的结束时间。 它必须大于或等于**dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) 属性的值。
   

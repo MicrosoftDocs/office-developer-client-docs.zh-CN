@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: bc65aa379b6a6881dcee19d9b5cce06652f97771
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72911e58a0295c0f6c61c877882e4e1731e2d552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774658"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567725"
 ---
 # <a name="commonly-used-objects"></a>常用对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本节中的 Microsoft Outlook 2013 MAPI 参考的各个部分记录有关对象的信息。 因为几乎所有 MAPI 对象都公开单个 MAPI 接口，方法是将视为同义词的对象和都公开的接口。
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 38be3bc2df8931ca45da12e43436377545e8a977
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd840c7bef0607db37c6477bd8f4a7320a8188c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574753"
 ---
 # <a name="creating-message-text"></a>创建消息文本
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 尽管某些消息组成的 nothing 比收件人列表和主题行，大多数消息，专门 IPM 的内容。注意邮件，包含文本。 消息文本可为纯文本或格式，并存储在三个属性： **PR\_正文**([PidTagBody](pidtagbody-canonical-property.md))， **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) 和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))。 
 

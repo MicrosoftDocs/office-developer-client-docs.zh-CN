@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8964ba8c4341bec431bdbc1690d639b345df8b1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a5e4205a808c7a6e469d2e9cb0a1b3c17a92d21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775503"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573542"
 ---
 # <a name="imapiprogressgetflags"></a>IMAPIProgress::GetFlags
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回标记的操作对其计算进度信息的级别的进度对象中的设置。
   
@@ -49,7 +49,7 @@ S_OK
   
 > 已成功返回的标志值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 启用服务提供商要区分顶级对象，并与 MAPI_TOP_LEVEL 标志的子对象，以便在操作中涉及的所有对象可以使用相同的[IMAPIProgress](imapiprogressiunknown.md)实现以显示进度。 这会导致标记显示的一个正数方向顺利。 是否设置 MAPI_TOP_LEVEL 标志确定服务提供程序如何设置对进度对象的后续呼叫中的其他参数。 
   

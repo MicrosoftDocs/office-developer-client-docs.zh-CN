@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7e3459c639cac449cdc03361949c9618827515b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85cf254c9ea23ecbd6f311ba012d2e048a0b2a6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779010"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572443"
 ---
 # <a name="types-of-restrictions"></a>限制的类型
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有许多类型的限制，一些该焦点特定的列。 所有表实现都需要支持当前列集合中的列上的限制。 但是，要添加值，表实施者还可以支持基于当前未在表视图中的对象属性限制。
   

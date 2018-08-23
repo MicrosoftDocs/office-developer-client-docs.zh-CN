@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 773f6671-cc21-4d1f-a11d-308bc71c852d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 16f192ae816aba2dd0e34a42fba211c3ef70ba47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5c8fd8c757de995e2a2e4239be614cf171fcb44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776411"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566185"
 ---
 # <a name="mappings-and-mapping-signatures"></a>映射和映射签名
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果服务提供商支持命名的属性，每组标识符和名称对称为映射。 一个映射或几个可支持服务提供商。 是，一个消息存储提供程序，例如，可以实现其消息、 文件夹和消息存储对象，以使用单个列表的名称和其相应的标识符的所有**GetIDsFromNames**和**GetNamesFromIDs**方法。 其他消息存储提供程序可能对每个文件夹和邮件，其中包含一个列表或实现的每条消息和每个文件夹的唯一列表。 消息存储提供程序的唯一映射用于每个邮件必须不允许其文件夹内容表中显示，因为属性标识符将给定的属性名称，不同消息消息的命名的属性。 MAPI 建议提供程序使简单，并包括表其对象的所有单个列表执行操作。 
   

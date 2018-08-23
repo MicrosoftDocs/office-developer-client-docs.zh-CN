@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2ac8fb6f4e56b6f086e6061c227120cd49fc621a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a55fc361120472473bcba70152c153fb7824fb9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775884"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566549"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 允许的邮件存储的有序注销。
   
@@ -79,7 +79,7 @@ S_OK
   
 > 成功完成注销。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::StoreLogoff**方法 exerts 控件通过交互的邮件存储并注销过程中传输提供程序。 调用**StoreLogoff**是仅供正在使用仅的呼叫者的消息存储。 例如，当两个客户端使用相同的消息存储，并且其中之一调用**StoreLogoff**，立即发布的消息存储和控制返回到调用客户端。
   

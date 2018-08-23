@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 489930b35d24d2691c9b9fbb59b0fa95707a0618
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b37ea2e254e05ada3214309f58147e92f46393
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774544"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566829"
 ---
 # <a name="attached-files-and-messages"></a>附加的文件和邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果使用 TNEF MIME 编码消息内容时使用，所有附件属性和内容都位于 TNEF 流。 TNEF 本身是名为编码为 MIME 不 TNEF 所述的 Winmail.dat 的单个、 二进制附加的文件。 
   

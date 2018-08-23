@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 71c0bbec13c869c1401c60834f30ca61360c8b38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddb667715903656291a21ebb835690768146ee9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777280"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575223"
 ---
 # <a name="pidtagaccesslevel-canonical-property"></a>PidTagAccessLevel 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示对对象的客户端的访问级别。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777280"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |访问控件属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是只读的客户端。 它必须是下列值之一：
   

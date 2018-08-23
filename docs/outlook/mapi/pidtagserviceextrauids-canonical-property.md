@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4838a9af-7818-49aa-ace8-cb94dda8471f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 71f802014200d4b767c346c14df53f1193d44b0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0deb1b34a437d47ab53cdb2e13cda006d9116f65
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570119"
 ---
 # <a name="pidtagserviceextrauids-canonical-property"></a>PidTagServiceExtraUids 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含标识邮件服务的其他配置文件部分的[MAPIUID](mapiuid.md)结构的列表。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778406"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以为每个邮件筛选器创建新的配置文件部分。 当邮件服务的信息复制到另一个配置文件时，务必要复制的筛选器以及其他配置文件部分。 使用其他配置文件节的服务提供商可以存储这些配置文件节的**MAPIUID**结构中**PR_SERVICE_EXTRA_UIDS**，它允许 MAPI 复制其他消息服务信息。
   

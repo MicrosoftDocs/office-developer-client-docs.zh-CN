@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 86c91353b620482ca0862aa998aae1b3329cfc94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a84c0a93f80080b71f6049e73f0a0094c38c28ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566871"
 ---
 # <a name="capabilities-not-supported-by-form-managers"></a>表单管理器不支持的功能
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 以下功能不受支持的默认窗体管理器出于性能原因，但可以支持的自定义窗体经理。
   

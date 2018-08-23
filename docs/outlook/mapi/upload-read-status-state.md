@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 172eaf47d305cf6e4d1ba54ceb4ac4b4feab80e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41815a88fe1215d2a85a38592e04b0d0bbd43cc6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779052"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573045"
 ---
 # <a name="upload-read-status-state"></a>上传“读取状态”状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  本主题介绍上载读取的复制状态机状态状态期间出现的情况。 
   

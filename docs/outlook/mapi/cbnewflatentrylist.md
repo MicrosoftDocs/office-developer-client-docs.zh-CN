@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f7182631-7f0e-4f4a-995d-22c0bedd7b6a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a6a6febb82368aee78506f7864f178f1f5dfedf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c976375d428e477de688f42eaa3ff8396fcfd4fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774639"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571351"
 ---
 # <a name="cbnewflatentrylist"></a>CbNewFLATENTRYLIST
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 计算应包含几个[FLATENTRY](flatentry.md)结构指定大小的新[FLATENTRYLIST](flatentrylist.md)结构分配的字节数。 
   

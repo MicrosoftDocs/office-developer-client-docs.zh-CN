@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a50a38825434ef1e76f0ea5ff2e4d6d5d847a975
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7348d0395952036ee6b356b013072324b64e4b98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570819"
 ---
 # <a name="pidtagstorestate-canonical-property"></a>PidTagStoreState 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含描述消息存储库的状态标志。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778500"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性为动态，并且可以更改基于用户操作，与**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性不同。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e675bfdd-7598-45f3-a5aa-23b4734670dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 29b35250a3cbbee876338ca2366726b2dd14f957
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc164b4117099d9cef0602471af29ad4dbca9d06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777105"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571134"
 ---
 # <a name="pidlidtaskrecurrence-canonical-property"></a>PidLidTaskRecurrence 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含提供有关周期性任务信息的 RecurrencePattern 结构。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777105"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关如何创建并指定一个 RecurrencePattern 结构的信息，请参阅[创建简单的定期任务项](how-to-create-a-simple-recurrent-task-item.md)。
   

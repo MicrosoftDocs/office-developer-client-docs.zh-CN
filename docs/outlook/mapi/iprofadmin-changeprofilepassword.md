@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c57f945d16cc80c637b1a4074b25f9cf1fb1edc0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41066d4418760a676fbc02241bfc12d83275da9d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776007"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572996"
 ---
 # <a name="iprofadminchangeprofilepassword"></a>IProfAdmin::ChangeProfilePassword
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 已弃用。 更改配置文件的密码。
   
@@ -64,7 +64,7 @@ S_OK
   
 > 如果调用此方法，则它将返回 S_OK。 但是，不会执行任何操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 不要使用此方法。 MAPI 不支持的配置文件的密码。
   

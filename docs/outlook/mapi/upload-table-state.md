@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: fe167c90-c817-b627-0728-5c6393477c22
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 454df4dde2062d20855e4d9bceaf4400669693ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd54c30e8701a13637235e28ddcfef4c21d10a2b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779054"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576979"
 ---
 # <a name="upload-table-state"></a>上传表状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  本主题介绍的复制状态机上载表状态期间出现的情况。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 790800a0-34a2-4223-8b75-b50c57881022
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 478bf24d31cadded872757cdff61da58f602837c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e95af6c34c2b252220911a06b05fda35874ec15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776743"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572338"
 ---
 # <a name="pidlidemail1emailaddress-canonical-property"></a>PidLidEmail1EmailAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的第一个电子邮件地址。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776743"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须是适用于此电子邮件地址为指定的地址类型。
   

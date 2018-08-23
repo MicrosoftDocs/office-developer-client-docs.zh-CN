@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 60299c1b-1b46-4c3a-8fb9-a2b4d3383aac
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 43e10652a7dccdf0da6592df0f9fc2daf5ea9bee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4a0e87b24789e3ee4cb5ed6684d508b62e65b30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777035"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575971"
 ---
 # <a name="pidlidsmartnoattach-canonical-property"></a>PidLidSmartNoAttach 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 代表是否被视为上一条消息的附件为隐藏。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777035"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性为 TRUE，如果邮件的附件被视为为隐藏。
   

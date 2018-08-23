@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2505f555fd8867fdc24a14f523a74b6f478a3e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0797364eb4ec24793f64bad2f4d838507c236e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571064"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含显示表中生成的对话框的按钮控件的信息。
   
@@ -60,7 +60,7 @@ MAPI_UNICODE
   
 > 属性标记 PT_OBJECT 实现[IMAPIControl](imapicontroliunknown.md)接口的类型的属性。 当单击按钮时，MAPI 调用显示表[IMAPIProp](imapipropiunknown.md)实现，以检索此属性的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLBUTTON**结构描述一个按钮控件，单击时，允许用户开始操作。 通常情况下，单击按钮会将显示一个模式对话框或要调用的编程任务。 服务提供商可以实现通过一个按钮控件的任何内容。 如果按钮应该执行任务基于其他控件的值，这些控件必须设置 DT_SET_IMMEDIATE 标志。 
   

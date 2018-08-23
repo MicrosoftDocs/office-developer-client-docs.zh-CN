@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 56aaf5caf93f90f54d152ab3684ca592cd45cd1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776032"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575866"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索的登记个人文件夹 (.pst) 文件的列表。
   

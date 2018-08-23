@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 040c851d64f60c319250fd0e08620285b6f2f0db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36233d51f47c53d6a69494c0fcd799a7c83add29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774791"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567872"
 ---
 # <a name="developing-a-mapi-message-store-provider"></a>开发 MAPI 消息存储提供程序
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 与其他 MAPI 服务提供商，类似消息存储库是演示基础存储机制，MAPI 客户端应用程序和 MAPI 后台处理程序的服务的动态链接库 (Dll)。 消息存储提供程序提供了为一组分层的文件夹和 MAPI 客户端和 MAPI 后台处理程序可以使用的邮件基础存储机制。
   

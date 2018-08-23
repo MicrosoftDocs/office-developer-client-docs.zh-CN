@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: 本参考包含概念概述和编程参考以指导您开发解决方案的 OneNote 2013 桌面客户端应用程序。
-ms.openlocfilehash: 8af3f0b8623f0b457250ea11f185a25cadec7386
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3dde524dfa5357c4523db3b545ac583eaa3274
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774160"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566577"
 ---
 # <a name="onenote-developer-reference"></a>OneNote 开发人员参考
 
@@ -34,16 +34,11 @@ ms.locfileid: "19774160"
   
 ## <a name="see-also"></a>另请参阅
 
-- [面向开发人员的 OneNote](http://go.microsoft.com/fwlink/?LinkID=390615)
-    
-- [GitHub 示例](https://github.com/OneNoteDev/)（OneNote 服务 Api） 
-    
-- [Microsoft 产品中的辅助功能](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [面向开发人员的 OneNote](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [GitHub 示例](https://github.com/OneNoteDev/)（OneNote 服务 Api）     
+- [Microsoft 产品中的辅助功能](http://www.microsoft.com/enable/products/default.aspx)    
+- [文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
 - [OneNote 开发人员参考版权信息](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
     
-- [Microsoft Online 隐私声明](http://privacy.microsoft.com/en-us/default.mspx)
     
 

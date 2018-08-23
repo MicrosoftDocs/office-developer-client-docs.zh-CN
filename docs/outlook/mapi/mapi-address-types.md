@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 20eb429b2574f67e8b28ae96eeb96f42840123d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 80e933f5723746dbaeb39271cc813eb0ea56a705
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776181"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571183"
 ---
 # <a name="mapi-address-types"></a>MAPI 地址类型
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息的每个用户相关联的地址类型，描述**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 属性中存储的用户的地址的格式的字符串。 地址类型映射到地址格式。 即通过查看收件人的地址类型，客户端应用程序可以确定如何设置适用于收件人的地址的格式。 
   

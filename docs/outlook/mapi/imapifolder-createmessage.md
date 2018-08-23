@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8d7e6dfbf9e6a751845adb2319b66462bcde651f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e740e86fc25307457119aabf6e2aa0c42a9d69b9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775341"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568222"
 ---
 # <a name="imapifoldercreatemessage"></a>IMAPIFolder::CreateMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建新邮件。
   
@@ -67,7 +67,7 @@ S_OK
   
 > 邮件已成功创建。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::CreateMessage**方法使用泛型或关联的内容创建一个新的邮件和分配条目标识符。 项标识符由部件的表示的消息存储提供程序和代表单个邮件的部件组成。 
   

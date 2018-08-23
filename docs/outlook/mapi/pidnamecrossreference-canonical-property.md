@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d16e1adf-c911-427e-9c98-678a303e6791
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 148d71dc0e99e23ffe10445068170617cb26b01b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5daf8c1ee249cfc7fb1bc1ffb6dfc68b400fe953
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777218"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571127"
 ---
 # <a name="pidnamecrossreference-canonical-property"></a>PidNameCrossReference 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 [RFC3282] Xref 标头字段值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777218"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端必须所需的值都写入到 XRef 标头字段中。 MIME 读者必须将 XRef 标头字段的值复制到此属性的值。
   

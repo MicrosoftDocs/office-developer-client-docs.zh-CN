@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bd3f9f59-9020-46e6-9560-86a7a0eeca20
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 41157b97eb28787deaf19c2e974da23dfb77e0be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1404239a54f9b8991099a66831e3364d9a683d1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778634"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566332"
 ---
 # <a name="retrieving-mapi-properties"></a>检索 MAPI 属性
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当客户端或服务提供程序检索的对象的属性时，该对象可提供，该属性的值、 类型和标识符。 
   

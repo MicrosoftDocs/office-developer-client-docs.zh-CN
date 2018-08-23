@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bdb879a2412c817b7b314cd7bf6de1fa4c9f40d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b7e59c9ffccb2e063962b2cc4947b4fa54757bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572716"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 解压缩是在压缩富文本格式 (RTF) 中，电子邮件的正文将指示记下解压缩后的 stream 的格式，（可选） 将记下解压缩后的流转换为其本机格式，并返回记下解压缩后的流或转换后的本机流。
   
@@ -68,7 +68,7 @@ MAPI_E_INVALID_PARAMETER
   
 - 如果**MAPI_NATIVE_BODY**标志结合在由*pWCSInfo*指向**RTF_WCSINFO**结构的**ulFlags**字段中的**MAPI_MODIFY**标志，则返回此。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 记下解压缩后的流和其格式，和 （可选） 的本机正文流，使您可以访问由解压缩流封装在压缩 RTF 电子邮件的正文返回**WrapCompressedRTFStreamEx** 。 本机正文流可以的 RTF、 纯文本或 HTML。 
   

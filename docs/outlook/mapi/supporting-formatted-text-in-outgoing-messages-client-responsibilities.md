@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d5ce2e6b0f10ff6c2f6fd91ca9f73953f3ee7cd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 975dd172b6ad342351f014d0966d62a150f713c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778896"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571288"
 ---
 # <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>支持待发邮件中的格式化文本：客户端责任
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序设置的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性、 **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性或的传出消息的**PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) 属性。 仅支持纯文本的客户端设置仅**PR_BODY**属性。 Rtf 格式 (RTF)-请注意，客户端可能将**PR_BODY**和**PR_RTF_COMPRESSED**属性，或者仅**PR_RTF_COMPRESSED**，具体取决于消息存储提供程序正在使用。 HTML 感知客户端设置**PR_HTML**属性。 
   

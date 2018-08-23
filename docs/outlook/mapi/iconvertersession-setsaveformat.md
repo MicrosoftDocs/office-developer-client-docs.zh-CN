@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e5308a94-5191-2109-a881-b4f4a7ff1c61
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f1a4834fc600cc93eeb7fc96563723326c7f2169
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f24ad938fdb8c3ac234e1d78f2668139840c8b8f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775291"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568215"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在其中转换器将返回 MIME 流[IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)中的格式设置。
   

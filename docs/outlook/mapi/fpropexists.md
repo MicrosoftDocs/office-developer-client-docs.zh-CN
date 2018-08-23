@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ccfb503f62ef039700f79cd8852883685f329dfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d016c83678d9c1c94ee4ad4b8e12723c03f7bda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774992"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570434"
 ---
 # <a name="fpropexists"></a>FPropExists
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从**IMAPIProp**，如[IMessage](imessageimapiprop.md)或[IMAPIFolder](imapifolderimapicontainer.md)派生给定的属性标记[IMAPIProp](imapipropiunknown.md)接口或接口中的搜索。 
   
@@ -60,7 +60,7 @@ FALSE
   
 > 找不到给定的属性标记匹配。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果_ulPropTag_参数中的属性标记具有类型 PT_UNSPECIFIED， **FPropExists**函数查找匹配仅根据属性标识符。 否则，匹配是整个属性标记，包括类型。 
   

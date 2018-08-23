@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: abd2a3e2a1a810f902ad977413c89f2e8b0113a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5380b6541e609c17a9005c3390c6d5db06155306
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775408"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567242"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个数组的一组表单使用的属性。
   
@@ -71,7 +71,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::CalcFormPropSet**方法以获取的属性的一组窗体使用数组。 **CalcFormPropSet**采用任一交集或联合这些窗体的属性的设置，具体取决于的标记设置中_ulFlags_参数，并将返回**SMAPIFormPropArray**结构，其中包含的生成组属性。 
   

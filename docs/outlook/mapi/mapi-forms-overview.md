@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 91bc0641723a92d8dc86bf3d1037d8e9936930ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29132f24547dc744efcd6f2b6e4a8f6af87ab53c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776247"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574410"
 ---
 # <a name="mapi-forms-overview"></a>MAPI 表单概述
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 表单是邮件查看器。 每个邮件有规定用作其查看器的特定窗体的邮件类。 MAPI 定义多个邮件类，并已实现查看这些类的邮件的表单。 客户端软件开发人员可以创建新的邮件类和查看邮件使用的新类创建的自定义表单。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 53fe309fb15807ad698fef5a06781e5c3e0bae0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b29fdbb82635ca7706be15ee9f674262d2204ad5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776853"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576181"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>PidLidFlagString 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含标识之一的一组预定义的文本字符串标志相关联的索引。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776853"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果设置此属性，客户端应下表中 （例如，若要替换的字符串转换为当前用户的语言），使用相应的字符串值，并应忽略**dispidFlagRequest** ([中设置的值PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) 和**dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md))。 
   

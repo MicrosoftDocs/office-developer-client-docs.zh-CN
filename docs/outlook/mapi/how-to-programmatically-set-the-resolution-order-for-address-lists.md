@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 上次修改时间： 2012 年 7 月 6 日
-ms.openlocfilehash: 676d74c6441716203006f2db3e4a7d5777320a98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa1981c365e2a8e81dcd688a32fca25178c7fe52
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775115"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577322"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>以编程方式设置地址列表的解决方案顺序
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题包含在以编程方式设置消息和会议请求中的与会者都已解析通过电子邮件中的收件人的地址列表的顺序的 c + + 代码示例。
   

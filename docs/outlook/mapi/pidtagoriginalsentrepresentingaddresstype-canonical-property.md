@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93f40161-d4e5-4ef9-a55f-cee62529fc04
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7fcd358b2ada5137ed28f4439dcc9d4ebdc50305
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce3678c5137caec2e9f80c7fc15cde0ae99441ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777945"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572527"
 ---
 # <a name="pidtagoriginalsentrepresentingaddresstype-canonical-property"></a>PidTagOriginalSentRepresentingAddressType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的名义原始邮件已发送的邮件用户的地址类型。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777945"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是表示原始发件人的邮件的类型。 在对话的线程中使用它们。
   

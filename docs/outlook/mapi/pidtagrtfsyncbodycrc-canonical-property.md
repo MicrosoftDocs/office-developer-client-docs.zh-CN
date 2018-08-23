@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 95db4837-400f-476f-b313-60e8baa1c6d1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aa144ca93e8fad9b9b5a5da1ee457e5cc3bbd841
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c72b87eec6d0a14b0ebba10529ef5d898747028
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778267"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572975"
 ---
 # <a name="pidtagrtfsyncbodycrc-canonical-property"></a>PidTagRtfSyncBodyCrc 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的邮件文本计算循环冗余检查 (CRC)。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778267"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 [RTFSync](rtfsync.md)函数计算 CRC 使用其认为是重要邮件的字符。 例如，从 CRC 忽略一些空格和其他可忽略字符。 
   

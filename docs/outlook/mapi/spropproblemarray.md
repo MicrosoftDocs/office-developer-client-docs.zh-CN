@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3fd61828cd631c4abc0131da867ca213a3c44d20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e71658922b6cb80dadc7e034a51c10189c4207ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778866"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568495"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个或多个[SPropProblem](spropproblem.md)结构的数组。 
   
@@ -51,7 +51,7 @@ typedef struct _SPropProblemArray
   
 > 每个描述属性错误的**SPropProblem**结构数组。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关的**SPropProblem**和**SPropProblemArray**结构有属性相关的错误的工作原理的详细信息，请参阅[MAPI 命名属性](mapi-named-properties.md)。 
   

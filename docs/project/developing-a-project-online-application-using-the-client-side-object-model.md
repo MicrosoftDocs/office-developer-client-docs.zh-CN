@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 本文介绍使用.NET Framework 4.0 的桌面应用程序的 Microsoft Project Online 应用程序开发。 本文中描述的应用程序宿主服务器中检索信息。
-ms.openlocfilehash: a0a2b4042d4db127c56c5ba873ebe25418344571
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a65dbbdedb371fae9b8f0b99ea113ae38cbaffb5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779433"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572877"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>开发 Project Online 应用程序使用的客户端对象模型
 
@@ -100,7 +100,7 @@ VS 解决方案需要 ProjectServerClient 程序集从 Project 2103 SDK，几个
     
    如果需要请单击**浏览...** 在对话框的底部按钮并导航到要定位程序集的 Project 2013 SDK 安装目录。 
     
-3. 单击“确定”****。 
+3. 单击“**确定**”。 
     
 4. 将 PrjoctServer 客户端命名空间添加到.cs 文件中。
     
@@ -132,7 +132,7 @@ System.Security 程序集是.NET Framework 的一部分，且已安装与框架�
     
 2. 选中**程序集 =\>框架**左窗格中的引用管理器对话框中，然后检查**System.Security**。 
     
-3. 单击“确定”****。 
+3. 单击“**确定**”。 
     
 4. 将 System.Security 命名空间添加到.cs 文件中：
     
@@ -639,6 +639,6 @@ Value: Red
 
 ## <a name="see-also"></a>另请参阅
 
-有关文档和与 Project Online 和使用 CSOM 的应用程序开发相关的示例，请参阅[Project 开发门户](http://dev.office.com/project.aspx)。
+有关文档和与 Project Online 和使用 CSOM 的应用程序开发相关的示例，请参阅[Project 开发门户](https://developer.microsoft.com/en-us/project)。
     
 

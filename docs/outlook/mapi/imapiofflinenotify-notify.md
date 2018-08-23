@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 10c7cb9d-2e9d-72eb-6b07-31eed892e646
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 54843339c6843e075ec769da5751ae2fe753f302
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a84114a3363f9cbcd9455bce12d3171843bd18a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775513"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571113"
 ---
 # <a name="imapiofflinenotifynotify"></a>IMAPIOfflineNotify::Notify
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将通知发送到客户端有关连接状态的变化。
   
@@ -39,7 +39,7 @@ void STDMETHODCALLTYPE Notify(
   
 > [in]在 Outlook 发送到客户端的通知。 通知指示已更改的连接状态、 旧的连接状态和新的连接状态的一部分。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Outlook 使用此方法向客户发送通知回调。 若要使此接口可供 Microsoft Outlook 2010 或 Microsoft Outlook 2013，客户端必须实现此接口并将指针传递给它为**[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** 中的成员设置使用**[IMAPIOfflineMgr::Advise 回调时](imapiofflinemgr-advise.md)**. 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cecdb2c30d6c9df2aafbeed43714269b863ebc48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8fbc09d9d79f88ef783b8effe7a24e4b35564cee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19776503"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570371"
 ---
 # <a name="message-reception-model"></a>邮件接收模型
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传输提供程序控制 MAPI 后台处理程序是否必须轮询其为传入邮件或新邮件到达时是否它执行回调到 MAPI 后台处理程序。 返回从[IXPProvider::TransportLogon](ixpprovider-transportlogon.md)轮询请求时，传输提供程序设置 SP_LOGON_POLL 标志。 否则，传输提供程序使用[IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md)传入邮件时可用。 学习传入邮件可用之后, MAPI 后台处理程序打开一个新邮件，并请求获得要向邮件存储收到的邮件属性的传输提供程序。 
   

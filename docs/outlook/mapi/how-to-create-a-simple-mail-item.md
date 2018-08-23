@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: bbf99c4b-3008-4475-a60a-648eaed59d01
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1bbf80c8f614fc5e69773407c7882f3df8c0c81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f7e1c131bcdaa19fa4001c0ca566714cfffa456
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775078"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571421"
 ---
 # <a name="create-a-simple-mail-item"></a>创建简单的邮件项目
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 可以使用 MAPI 创建和发送一条消息，请求已读的回执。 已读的回执请求时，在邮件系统生成，并返回阅读的报告发件人在收件人打开邮件时会。
   

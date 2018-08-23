@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7d9b84f7c1697da1a5d9e31f765b1940cdb6bc24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec5ad586d06be96a17ed2a56504e65ebb50afc19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777440"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569902"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>PidTagContactAddressTypes 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一组联系人的地址类型。
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9e53c39b713aa782eb387b85667f5ded6193006f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cbead0a9953ae5106e1fcc7d07d965d4dc7bacb9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570987"
 ---
 # <a name="proptag"></a>PROP_TAG
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回属性标记创建的组合指定的属性类型和标识符。 
   
@@ -44,7 +44,7 @@ _ulPropID_
   
 > 新属性标记属性标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **属性\_标记**宏创建类型_ulPropType_和_ulPropID_中指定的标识符的属性的属性标记。 例如，可以通过，如下所示使用**PROP_TAG**宏创建的项标识符的属性标记： 
   

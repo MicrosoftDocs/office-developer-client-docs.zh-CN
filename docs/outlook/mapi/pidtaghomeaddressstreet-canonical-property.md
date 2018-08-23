@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 557fd222-8513-4e8a-b605-3def955107dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bbff39fa100892a74b36d2ca51bab7788ae7ab0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f22f9fef661f611adb9e47272d18f0a69d63f51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777683"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572121"
 ---
 # <a name="pidtaghomeaddressstreet-canonical-property"></a>PidTagHomeAddressStreet 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用户的地址的街道部分。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777683"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户或用户的组织定义这些属性。
   

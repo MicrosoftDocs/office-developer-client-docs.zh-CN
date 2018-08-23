@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bdda950cd1fab66db46590e0b9141bb3d2a75221
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 73a4c07c69fb10044cba6e9368cd4bc86c11ad54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775870"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575068"
 ---
 # <a name="imsgstorenotifynewmail"></a>IMsgStore::NotifyNewMail
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知新消息已到达的消息存储。 只能通过 MAPI 后台处理程序调用此方法。
   
@@ -45,7 +45,7 @@ S_OK
   
 > 已成功通知消息存储库。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序通知消息存储一条消息准备好交付调用**IMsgStore::NotifyNewMail**方法。 
   
@@ -63,7 +63,7 @@ MAPI 后台处理程序通知消息存储一条消息准备好交付调用**IMsg
   
 [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)
   
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [ScCopyNotifications](sccopynotifications.md)
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3dfc67c8bcd899396da5371c614fd221cd9b2251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6fd49e1a004202e0de02e262f6977ca8a07019d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774475"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571939"
 ---
 # <a name="about-table-notifications"></a>关于表通知
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端通常依靠表通知，若要了解的而不是注册直接从对象接收通知的对象更改。 导致发送通知的典型更改包括添加、 删除或修改的行和任何错误。 当到达通知时，客户端可以确定是进行重新加载表的另一个呼叫。 
   

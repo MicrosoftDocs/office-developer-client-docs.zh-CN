@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4f41abe2ee41946f68e1d79c75b36791364ea970
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778655"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570259"
 ---
 # <a name="sample-restriction-code"></a>代码示例限制
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 下面的代码示例演示如何创建限制筛选出所有邮件不包含单词"排球"的主题行中并不会发送到 Sue 从 Sam。 [SRestriction](srestriction.md)结构树是必需的与正在实施[SAndRestriction](sandrestriction.md)结构**和**限制的顶级节点。 加入**和**操作的三个限制是搜索发送到 Sue 的邮件的子对象限制，搜索从 Sam，消息内容限制搜索消息的另一个**和**限制具有主题包含"排球。" 由于**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 不是必需的属性，必须包含**存在**限制。 
   

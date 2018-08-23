@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 97000013-1950-4e15-8e58-35d793a5faca
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c08bd5eb9ad7b1aa5b420eec66c9a4cc605aa458
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bc714f8c6db2640c269f681c611fbb89e6e82d13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566556"
 ---
 # <a name="pidlidworkaddressstreet-canonical-property"></a>PidLidWorkAddressStreet 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定通讯地址的联系人的公司的街道部分。
   

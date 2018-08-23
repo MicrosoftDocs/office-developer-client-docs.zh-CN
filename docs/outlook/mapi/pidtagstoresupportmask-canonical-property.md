@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ada5694a-b5b1-471f-be33-906fc052681a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8d9f6311b19ddb489885004a9e507f780d9f1ea9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1936cb8e95e3faef8c92d6bf28f5b63b3ff72df5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778466"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572702"
 ---
 # <a name="pidtagstoresupportmask-canonical-property"></a>PidTagStoreSupportMask 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的标志位掩码的客户端应用程序查询，以确定的消息存储的特征。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778466"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性会泄露打算将其发送一条消息的客户端应用程序的消息存储的功能。 标志可支持的客户端或另一个存储，如是否发送**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 或仅**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 的决策。 客户端应始终不将**PR_STORE_SUPPORT_MASK**;试图设置此标志返回 MAPI_E_COMPUTED。 
   

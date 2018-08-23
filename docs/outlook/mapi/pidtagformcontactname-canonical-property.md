@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f94a0f9c7e4ec4a5c567a96e5ddb0dda25a318c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa57c042291b5ab71eb48c3f9f9b67fc1686b0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777636"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570462"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>PidTagFormContactName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含有关表单的信息的联系人的姓名。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777636"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 联系人通常包含一个人或别名，负责维护窗体的名称。 
   

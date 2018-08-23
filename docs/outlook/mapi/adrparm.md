@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ad26cb9b77404d6470f7a8d787eb85edc5cce402
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 560cae5e8a3d73d80a4907fd0fec43b389ef9fc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19774536"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572023"
 ---
 # <a name="adrparm"></a>ADRPARM
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍的显示和行为的通用的地址对话框。 
   
@@ -160,7 +160,7 @@ DIALOG_SDI
   
 > 指向限制可以提供要显示在对话框中的地址条目的地址簿容器**SRestriction**结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由客户端和服务提供商使用的**ADRPARM**结构用于控制的外观和行为的 MAPI 通用地址对话框。 有两种类型的地址对话框： 无模式和模式。 一些**ADRPARM**结构中的成员将应用于两个版本的对话框中，但某些仅适用于两个版本之一。 下表在其使用通用的地址对话框中与**ADRPARM**结构的成员。 
   

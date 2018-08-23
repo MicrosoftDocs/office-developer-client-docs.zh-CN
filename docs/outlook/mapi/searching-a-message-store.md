@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9e8d4639-7507-4d98-b56f-a65be369dc40
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 90ed7da43d7f9e5e8b5f3024f1eee99a2d7a2b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 74b63719f6d72e3c92cbcef6fdb26ee106d4b9aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571834"
 ---
 # <a name="searching-a-message-store"></a>搜索的消息存储
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序可以搜索通过查找与搜索条件匹配的消息的一个或多个文件夹中。 最简单的搜索技术涉及应用定义条件限制，并将结果放到搜索结果文件夹中，此搜索或以前搜索明确创建。 并非所有的消息存储库支持这种技术。 
 

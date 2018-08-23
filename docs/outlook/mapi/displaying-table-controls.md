@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 11b3279582c4cfb0d2c2249c6f4eddd7f0260b49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7af1e710006986807091c5c36d54da86204a71d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774817"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568460"
 ---
 # <a name="displaying-table-controls"></a>显示表控件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有许多不同类型的控件，无特有的 MAPI。 但是，MAPI 定义了使用自己结构[BuildDisplayTable](builddisplaytable.md)来描述数据所涉及的每个控件的唯一一套与结合使用。 
   

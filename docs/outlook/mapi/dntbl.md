@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: 6096118d72dfc51fb60025a55f581ebf97b000a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72dd2a27e89f00885710125f4ecb68be65f2185e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774836"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567697"
 ---
 # <a name="dntbl"></a>DNTBL
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 文件夹内容从服务器下载过程中[下载表状态](download-table-state.md)，存储区上的内容的完全同步的一部分的信息。
   

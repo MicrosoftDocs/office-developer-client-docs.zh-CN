@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dcfaf9f4e71a13a8697da0cac98f7ea9cc3d8708
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7635dd24f4fbc5128d3d96556802ab2e3fe56e35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777724"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571841"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>PidTagImplicitConversionProhibited 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果邮件传输代理 (MTA) 禁止发出隐式消息文本转换，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777724"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Server  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性为 TRUE，则在邮件系统必须不执行任何内容转换对邮件除非明确请求**PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)) 属性分别为每个收件人。
   

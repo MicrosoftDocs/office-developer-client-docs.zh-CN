@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: e3d6844f8fe6121d6ea063a9594aaf1fed581ee5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94d1230f4f26d080976fd15768bdfeb6ea04748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778898"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576097"
 ---
 # <a name="supporting-message-attachments-for-message-store-providers"></a>支持邮件存储区提供程序的邮件附件
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储提供程序不需要支持邮件附件。 但是，多个客户端应用程序还希望能够将附件添加到邮件。 如果您的消息存储将用于创建或存储 IPM。说明消息，则您应支持邮件附件。 默认消息存储提供程序还应支持邮件附件。 有关详细信息，请参阅[MAPI 邮件类](mapi-message-classes.md)和[默认邮件存储区](default-message-stores.md)。
   

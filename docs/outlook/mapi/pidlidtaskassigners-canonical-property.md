@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 07500bd0-bcff-4b03-8ed3-80508875e253
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 89e0b6eae35de9e40dba411afb82e19aa81fb635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20a4cf4fc847bdb361fb73161adeb96afb49e57e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777052"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570749"
 ---
 # <a name="pidlidtaskassigners-canonical-property"></a>PidLidTaskAssigners 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含条目，表示任务 assigners 的堆栈。 最新的任务分配人显示在堆栈的顶部。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777052"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端接收任务请求时，它将追加到此属性，在[[MS OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)，值，该值代表任务的发件人的条目中定义的结构。 当客户端收到任务拒绝时，客户端从此属性中删除最后一个任务分配人条目。 当客户端发送的任务响应时，客户端会将其发送到最后一个任务分配人列入此属性的值。
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0d3f24c41f2cfbd499d92e050c74da904dd4c377
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1775e5ea79fc71ac64a4536d3866b9a75ed96a6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775008"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566270"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 向 MAPI 系统[FNIDLE](fnidle.md)基于函数的空闲例程。 
   
@@ -95,7 +95,7 @@ _iroIdle_
 
 **FtgRegisterIdleRoutine**函数将返回标识已添加到 MAPI 系统空闲例程函数标记。 如果**FtgRegisterIdleRoutine**无法注册的客户端应用程序或服务提供商的空闲例程，例如内存问题，因为它返回 NULL。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 下面的函数处理与 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程。 
   

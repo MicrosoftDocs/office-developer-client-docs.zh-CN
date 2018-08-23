@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4666a5837c9f9f2ceb209088929aa3d343eb02f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21e052545c9c5e68bf1bc2f8c1ead054163f3b8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777620"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566143"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>PidTagExpiryTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间在邮件系统时使一条消息的内容失效。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777620"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于直接中处理的消息系统传递人际邮件。 
   

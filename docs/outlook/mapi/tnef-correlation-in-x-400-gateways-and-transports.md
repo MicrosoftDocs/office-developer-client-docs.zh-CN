@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0ffa0802-bfdd-4993-b4a3-142e5d15bfb4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ea5ca41ef21c72377ade72370e0aee1b313c92d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 297fff3482a4b7aea391c3e1869cd127cc49cad2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778979"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566815"
 ---
 # <a name="tnef-correlation-in-x400-gateways-and-transports"></a>X.400 网关和传输中的 TNEF 相关性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 网关和连接到基于 X.400 系统的传输使用 IM_THIS_IPM X.400 属性和**attMessageID** TNEF 属性的值来实现 TNEF 相关。 
   

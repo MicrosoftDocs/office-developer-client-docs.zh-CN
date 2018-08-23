@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: 包含的代码示例演示如何使用在 IMsgStore::OpenEntry IID_IMessageRaw 获取 IMessage 接口管理一条消息，脱机文件夹 (OST) 文件中的 c + + 中，而不在缓存 Exchange 客户端时强制整个邮件的下载模式。
-ms.openlocfilehash: e32bf4f64bfb91979133ee983e45481b3d5b9732
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f094f5a7deae705ed64b912483726aeb409fb107
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775117"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568103"
 ---
 # <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>管理 OST 中的邮件，而无需调用缓存 Exchange 模式同步
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题包含演示如何使用 c + + 中的代码示例`IID_IMessageRaw`中**[IMsgStore::OpenEntry](imsgstore-openentry.md)** 不强制下载整体的情况下获取**[IMessage](imessageimapiprop.md)** 接口管理一条消息，脱机文件夹 (OST) 文件中的消息时客户端缓存 Exchange 模式下。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9ea44c9ba75390f06ff12ddeed0c7b652538e07d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe6270d82d227f52dfd5dfa5454c73e815ad9f42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775407"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573815"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 请求窗体执行任何任务它将与特定动词。
   
@@ -64,7 +64,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
   
 > 由_iVerb_参数表示的动作有效，但表单无法执行与其当前关联的操作。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIForm::DoVerb**方法以请求窗体执行它将与该窗体支持每个动作相关联的任务。 
   

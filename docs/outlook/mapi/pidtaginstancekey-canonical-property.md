@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 14fc5571-acc0-4d75-8598-964aee5ba01c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bc16e88035f091a4f42a03342a70e7e3a1da5e0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53772fca5e8137dfd602d4c7d6f5e6ad40f9c50f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777730"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573430"
 ---
 # <a name="pidtaginstancekey-canonical-property"></a>PidTagInstanceKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含唯一标识表中的行的值。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777730"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Table  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是唯一标识表视图中的行的二进制值。 它是大多数表中所需的列。 如果行包括在两个视图中，有两个不同的实例键。 行的实例项可能不同每次打开表时，但打开表时均保持不变。 行添加在使用表时不要重新使用以前使用的实例键。 
   

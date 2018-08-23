@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656
 description: 有关开始进行 CSOM 开发使用 JavaScript 和.NET Framework，任务窗格中的加载项 Project Professional 2013，Project Server 接口的 Project 2013 平台的主要部件此部分中查找的信息的链接和报告的 OData 服务。
-ms.openlocfilehash: 84af1edcee75d529fbdbacf5e40fe91cdc3523c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e19fae2a187a9a4f809eaec4d8dade128b9529bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570301"
 ---
 # <a name="project-conceptual-and-how-to-articles"></a>项目概念性和帮助文章
 
@@ -27,7 +27,7 @@ Project Server 2013 基于 Office Project Server 2007 中引入的 Project Serve
   
 - [客户端对象模型 (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)包括开始进行 CSOM 开发使用 JavaScript 和.NET Framework 的主题。 
   
-- [Project 客户端编程](project-client-programming.md)包括 Project Professional 2013 中的任务窗格的加载项的简介。 单独 SDK 中的其他 Office 2013 客户端和项目包括文章和加载项的引用。 有关详细信息，请参阅 for Office 加载项的[开发人员文档](https://msdn.microsoft.com/library/office/jj220060.aspx)。 
+- [Project 客户端编程](project-client-programming.md)包括 Project Professional 2013 中的任务窗格的加载项的简介。 单独 SDK 中的其他 Office 2013 客户端和项目包括文章和加载项的引用。 有关详细信息，请参阅[Office 加载项](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)开发人员文档。 
   
 - [项目的编程任务](project-programming-tasks.md)演示如何开发外接程序 Project 2013 创建用于需求管理工作流、 自定义 Project Web App 功能区、 创建 Web 部件等。 
   

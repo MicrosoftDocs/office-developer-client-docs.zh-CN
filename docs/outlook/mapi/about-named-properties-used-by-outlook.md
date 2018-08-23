@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 75a08db313ac1b38a400fb329eefa914858ec71e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa4d52d25f120e8b3e2a4c0dcaa4845ad576127a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774469"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566227"
 ---
 # <a name="about-named-properties-used-by-outlook"></a>关于 Outlook 使用的命名属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 提供的工具，将名称分配给特定属性、 将这些名称映射到唯一标识符，以及使此名称为标识符映射各个会话持久性。 命名的属性标识的名称和属性集的全局唯一标识符 (GUID)。 名称可以是数字或字符串。 对于 Microsoft Outlook 2013 或 Microsoft Outlook 2010，属性设置通常由 Outlook 2013 或 Outlook 2010 中，如**PSETID_Appointment**定义的命名空间。 
   

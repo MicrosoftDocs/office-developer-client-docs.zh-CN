@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ce4cb8b-b1f7-420a-b0b2-322c70e4b0f3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 685ca78367ac4e0a8334a3d14c2fda9d57161e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1cc8471f9a3125ce89d5baefac6058e368e601d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778024"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570406"
 ---
 # <a name="pidtagpersonalhomepage-canonical-property"></a>PidTagPersonalHomePage 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用户的个人主页的 URL。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778024"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户或用户的组织定义这些属性。
   

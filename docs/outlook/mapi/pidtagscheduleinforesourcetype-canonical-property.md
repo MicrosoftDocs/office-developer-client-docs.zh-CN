@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f253378-0a2d-47e3-82d3-8055b5f776dd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2f1f86f72231ae39a70977742481cb435da9d923
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cb149f2ba8c6cd328fcffb00172a1f3f904a24e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778344"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572331"
 ---
 # <a name="pidtagscheduleinforesourcetype-canonical-property"></a>PidTagScheduleInfoResourceType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个值，必须设置为零 (0)。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778344"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为零 (0) 时发送和接收时被忽略。
   

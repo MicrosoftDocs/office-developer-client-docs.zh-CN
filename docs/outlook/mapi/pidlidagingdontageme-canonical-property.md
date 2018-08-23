@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb5936a2-6f78-428e-8900-dc7f2f1d67b0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bc142af5baae3f17db36dc25e1b64e06da47b9ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59f826efd331d214d199c4bead8badc4cfb2f62d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776588"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577406"
 ---
 # <a name="pidlidagingdontageme-canonical-property"></a>PidLidAgingDontAgeMe 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果该项目将不会自动存档，请指定值为 TRUE。
   

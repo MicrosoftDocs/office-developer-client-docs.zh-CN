@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 14207e513e935a296ff9b953b92ab1ab9ab41fd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5fca47055d0c88293156483a53118667c1c72276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777060"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574096"
 ---
 # <a name="pidlidtaskdeadoccurrence-canonical-property"></a>PidLidTaskDeadOccurrence 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示是否必须生成新的匹配项。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777060"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 定期模式时不再有效其最后一个实例是在过去或其指定的实例数已生成。 客户端将该属性设置为 false，则新任务或为 TRUE 时，它将生成一个周期性任务的最后一个实例。 复制要生成的新实例的任务时，此属性设置为 TRUE 的副本，即已完成的实例上。
   

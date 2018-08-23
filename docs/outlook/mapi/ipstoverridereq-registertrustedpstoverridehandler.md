@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
 description: 上次修改时间： 2013 年 2 月 24 日
-ms.openlocfilehash: 4fc3b7427fc13a024aab38c7b7df1d940a4730ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62269b823810964fc0e5749aa6a57d39c503e2b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776055"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573577"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启动个人文件夹 (.pst) 文件的解除过程。
   
@@ -51,7 +51,7 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 必须使用数字证书签名 wzDllPath 参数指定的 DLL。 DLL 必须还导出带以下签名的函数。
   

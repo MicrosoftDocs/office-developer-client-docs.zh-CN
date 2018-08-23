@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: bfee6c5e-d4c6-442e-af71-23156569fed5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5417b73fe13937a74bc01520a2dd9db359e894ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e98dabe5ffd5f109c42977f280e844903927920
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778403"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573073"
 ---
 # <a name="pidtagsentrepresentingname-canonical-property"></a>PidTagSentRepresentingName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含表示发件人的邮件用户的显示名称。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778403"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是正在表示发件人的邮件用户的地址属性的示例。 当客户端应用程序发送消息代表另一个客户端时，它应为该客户端的值设置所有表示发件人属性。 通常在其自己的代表发送消息用户离开表示发件人属性未设置。
   

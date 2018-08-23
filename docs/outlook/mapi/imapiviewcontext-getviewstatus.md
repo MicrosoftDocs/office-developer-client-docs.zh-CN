@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fb543f4188578483333614cb5768f903c9f243d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 992d51526c45334f6db3738e36994f4bb9c07c6e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572254"
 ---
 # <a name="imapiviewcontextgetviewstatus"></a>IMAPIViewContext::GetViewStatus
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索当前的查看器状态。 
   
@@ -77,7 +77,7 @@ S_OK
   
 > 成功返回将查看器的状态。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIViewContext::GetViewStatus**方法以确定是否在窗体视图中要激活的更多邮件或两个方向，即方向**下一步**命令在其中激活消息，请在方向**上一个**命令中激活邮件，或在两个方向。 指向_lpulStatus_参数的值用于确定是否有效的[IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)VCSTATUS_NEXT 和 VCSTATUS_PREV 标志。 如果设置，但不是 VCSTATUS_READONLY 标志 VCSTATUS_DELETE 标志，然后可以使用[IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md)方法删除邮件。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e4bce7f122522532023d18b43fe4bfdeda84af9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa39128ffaaaa3530b74a660c14971834a99561b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774914"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566346"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回专用 Mapi32.dll 的路径。
   
@@ -69,7 +69,7 @@ BOOL FGetComponentPath(
   
 > 找不到路径。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当您需要获取专用 Mapi32.dll 的路径，请使用**FGetComponentPath**函数。 
   

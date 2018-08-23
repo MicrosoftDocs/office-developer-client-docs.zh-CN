@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fd7f79ad7a36fd174bf9817ff463b00e6a334104
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b292e65ddabcbe052832687a3dcf01658de5e379
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567473"
 ---
 # <a name="attsentfor"></a>attSentFor
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 为盘点的字符串分布的端到端编码**attSentFor**属性。 **AttSentFor**的格式如下所示： 
   

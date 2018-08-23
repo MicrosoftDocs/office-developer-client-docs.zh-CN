@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8441a4898659a5cd278265cb0199bb9097244aa3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 64b0c0501a6ef4471f97e82b231ef430681f1306
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776009"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573388"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索的访问级别和一个或多个对象的属性的状态。
   
@@ -55,7 +55,7 @@ S_OK
   
 > 已成功返回的属性的访问级别和状态标志。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IPropData::HrGetPropAccess**方法检索一组标志指示的访问级别和一个或多个属性的状态。 
   

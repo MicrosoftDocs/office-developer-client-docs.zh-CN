@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0451d8635848705ef912b9a575d6390898251f4f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e12ce442540930d9fa366ced073afc4828a01244
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775466"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576111"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将当前邮件移动到文件夹中。
   
@@ -59,7 +59,7 @@ MAPI_E_NO_SUPPORT
   
 > 该操作不受此消息网站。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIMessageSite::MoveMessage**方法将当前邮件移至新文件夹。 
   

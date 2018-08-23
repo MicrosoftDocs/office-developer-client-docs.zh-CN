@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b2ac7aa4fca8583fc59d727c55433108bee62dee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c2089eee731fea8c80d8811f6b2e9f3c75ad1cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777677"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570525"
 ---
 # <a name="pidtaggender-canonical-property"></a>PidTagGender 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息的用户的性别。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777677"
 |数据类型：  <br/> |PT_I2  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性提供标识和访问有关消息的用户信息并且其内容。 按消息的用户和邮件用户的组织定义的内容。 
   

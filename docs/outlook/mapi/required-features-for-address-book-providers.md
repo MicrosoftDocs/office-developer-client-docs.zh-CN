@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e2ccddd7-65e8-41f6-8e21-a4ae98190a96
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ac76d1caf5db0b041a17d40d08671665b5427051
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 919b21490bb3b4418ba291e8e06198028c995b00
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570868"
 ---
 # <a name="required-features-for-address-book-providers"></a>通讯簿提供程序的必需功能
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通讯簿提供程序可以使用的临时或永久、 本地或远程、 一个或多个邮件系统，理解和磁盘文件或数据库表的格式化的收件人信息。 有多种通讯簿提供程序可以实现，从而添加值和改进与客户端和其他提供程序的互操作性的功能。 但是，所需的一些功能。
   

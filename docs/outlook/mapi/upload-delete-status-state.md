@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ff957e649d5de64c65ac169b3bc413ac7b6c9491
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a45cfafec5126c72f365858e41963bc95fa707a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779049"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574543"
 ---
 # <a name="upload-delete-status-state"></a>上传“删除状态”状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  本主题介绍的复制状态机上载删除状态状态期间出现的情况。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 310cba9a-a343-484d-a029-fcd51b731460
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 447832d88a9740875fcf39a32adcf4ebb99e05ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 41c4ee65ce6ae8f2e0d978f1e2bd95adb4f5872a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775313"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575173"
 ---
 # <a name="imapiclientshutdowndofastshutdown"></a>IMAPIClientShutdown::DoFastShutdown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示的 MAPI 客户端的目的立即退出该客户端进程。
   
@@ -41,7 +41,7 @@ MAPI_E_NO_SUPPORT
   
 > MAPI 子系统不支持客户端快速关闭。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要避免从 MAPI 客户端快速关闭数据丢失，MAPI 客户端应调用基于 MAPI 子系统中返回 S_OK 结果的[IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md)和**IMAPIClientShutdown::DoFastShutdown**方法[IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方法中。 有关详细信息，请参阅[Fast 关闭的最佳实践](best-practices-for-fast-shutdown.md)。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fcca6a7e8fa70a2df9042e8b3c2b28825cee9a7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d06523625a20760faec7a6c73a6beaef757818b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775370"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575075"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置 （例如，无论该邮件被标记为删除） 与消息关联的状态。
   
@@ -89,7 +89,7 @@ S_OK
   
 > 已成功设置邮件状态。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::SetMessageStatus**方法将邮件状态设置为在其**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中存储的值。 
   

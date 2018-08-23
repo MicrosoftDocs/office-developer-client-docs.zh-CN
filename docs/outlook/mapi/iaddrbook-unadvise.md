@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bf72e6f182f67861f909e21f0ec1871d76617974
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e06f78317a1e98d47a37cb7059042b254567fe8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19775268"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573682"
 ---
 # <a name="iaddrbookunadvise"></a>IAddrBook::Unadvise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 取消以前建立的通讯簿条目的通知注册。
   
@@ -45,7 +45,7 @@ S_OK
   
 > 成功取消注册。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端调用**Unadvise**方法停止接收有关到特定的通讯簿条目的更改的通知。 取消通知注册时，它的指针到呼叫者的建议接收器地址簿提供程序版本。 但是，发布**Unadvise**呼叫过程中或在某些更高版本的时候，如果出现另一个线程正在调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法。 通知时，直至**OnNotify**方法返回延迟版本。 
   

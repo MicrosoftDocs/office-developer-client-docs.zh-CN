@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 61176ec6f9ff00fa5a38a2b385cb5281fa40961e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ff428d96de40e70e63659c5a3e5fa1c7cf0d564
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777412"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569111"
 ---
 # <a name="pidtagconflictitems-canonical-property"></a>PidTagConflictItems 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个或多个条目都已参与自动冲突解决中的项的 Id。
   
@@ -36,7 +36,7 @@ ms.locfileid: "19777412"
 |属性类型  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |ICS  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 标准支持自动冲突解决的 Microsoft Outlook 项目的类型包括以下类型的标准项： 约会项目、 联系人项目、 日记项目、 邮件项目、 会议项目、 粘滞便笺项目和任务项。 项目属于邮件类派生的其中一种标准的项目类型还支持自动冲突解决。 在 Microsoft Outlook 2003 和 Microsoft Office Outlook 2007 中，当 Outlook 同步项目，并考虑存在可能产生的副本可能不包含所有的基本数据，Outlook 存储**冲突**的冲突副本**同步问题**文件夹下的文件夹。 
   

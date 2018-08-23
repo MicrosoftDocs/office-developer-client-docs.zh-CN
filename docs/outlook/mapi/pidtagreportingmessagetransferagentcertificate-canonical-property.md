@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 780510b4557d62d77dcd69859492d0974af3a535
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbadc9407a181ba58b4bcd726df05465b11dc789
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778204"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570944"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>PidTagReportingMessageTransferAgentCertificate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含生成报告的邮件传输代理的标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778204"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性对应于 X.400 报告每封邮件属性。
   

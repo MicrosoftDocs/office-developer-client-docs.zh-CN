@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 914c55e9-cb36-46a4-b5ee-382413fa25f9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6dc2bcf2003ee16fa4a6c66689b6af79653e2d04
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db94d68a01b65410cf4f3f1f461c780f2bb01918
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777088"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568530"
 ---
 # <a name="pidlidtasklastuser-canonical-property"></a>PidLidTaskLastUser 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 名称最新用户的任务所有者。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777088"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端发送任务请求之前，请将该属性设置为任务分配人的名称。 客户端发送接受任务之前，请将该属性设置为任务受理人的名称。 客户端发送任务拒绝之前，请将该属性设置为任务分配人的名称。
   

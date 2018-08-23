@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 66e318c3b7b772f2713b5c730590ce4a8ad5965b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775256"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570910"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 维护并提供对属性的邮件中的附件的访问。 **IAttach**接口都有其自己的方法都不唯一。 有关如何使用附件的详细信息，请参阅[MAPI 附件](mapi-attachments.md)和[附件表](attachment-tables.md)。 
   

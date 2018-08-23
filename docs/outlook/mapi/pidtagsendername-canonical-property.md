@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 33fb53a8-4c7b-4418-8849-b6f9a1580172
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6dd3f07ae4c854d3ee87206adf4a3090fe050971
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7098c4eee28442a4a47e70f6a9df9d4ddb9fade6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778377"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568404"
 ---
 # <a name="pidtagsendername-canonical-property"></a>PidTagSenderName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件发件人的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778377"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是发件人的地址属性的示例。 它必须由传出的传输提供程序，应永远不会传播任何以前现有值设置。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a85851663c22b33ea94099ac0ab14f81c424259b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a1db4ba7a70695b17631ca13f1728043be8164bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575964"
 ---
 # <a name="pidtagsendrichinfo-canonical-property"></a>PidTagSendRichInfo 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果收件人可以接收所有的消息内容，包括富文本格式 (RTF) 和对象链接与嵌入 (OLE) 对象，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778380"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议通讯组列表和邮件用户对象公开此属性。 
   

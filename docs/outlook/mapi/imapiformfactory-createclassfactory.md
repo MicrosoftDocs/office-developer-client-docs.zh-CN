@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 823e10a1f496f5f5e8bab00f94d700d06e753b48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cb5cb5a0169e716f7fcc7f596660bc0222c51c84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775416"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572156"
 ---
 # <a name="imapiformfactorycreateclassfactory"></a>IMAPIFormFactory::CreateClassFactory
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回窗体类工厂对象。
   
@@ -55,7 +55,7 @@ S_OK
   
 > 返回类工厂对象。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormFactory::CreateClassFactory**方法以获取特定窗体类工厂。 类工厂用于创建窗体处理邮件的特定类的实例并控制对这些实例的访问。 
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c3d0f6c4-4597-784f-8d44-6e5d905895b4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e59c0ba7810741943883b9e86e84c6fe141f3050
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b57ed45e067ce2debd40e033d386ad2b5ae895a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774953"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568516"
 ---
 # <a name="followupstatus"></a>FollowUpStatus
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定不同的后续状态邮件。
   

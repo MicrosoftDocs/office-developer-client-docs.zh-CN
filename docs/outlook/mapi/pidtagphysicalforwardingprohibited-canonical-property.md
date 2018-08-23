@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2651759d-914b-4376-92b2-6d5d4ffb5530
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 97ecd7f6b94c9b57efeff5ba0e7e306d2129000f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae13eea7ee2579254eb4aa057647e20cfa61f389
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778034"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566353"
 ---
 # <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>PidTagPhysicalForwardingProhibited 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 TRUE，则邮件发件人禁止特定收件人的物理邮件转发。
   

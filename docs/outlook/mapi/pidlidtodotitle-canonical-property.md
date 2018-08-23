@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 66208b2d31ca379389f3249abf281dd4d040e276
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9973e68dbceea03f31bfc47ede34f004fa3f39b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777125"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570413"
 ---
 # <a name="pidlidtodotitle-canonical-property"></a>PidLidToDoTitle 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含要合并的待办事项列表中的此消息对象标识的用户并以此来文本。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777125"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置对任务。 若要指示属性为空，未将此属性设置为零长度字符串中，但而是将其删除。 
   

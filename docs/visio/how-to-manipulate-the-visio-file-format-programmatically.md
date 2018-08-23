@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ''
-ms.openlocfilehash: 92ef2c084409dbe017951ff7dfdbf93839ff4b51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba3c03069235b1054dabd122471be996ec515772
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567844"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>以编程方式处理 Visio 文件格式
 
@@ -220,7 +220,7 @@ Visio 以前的版本专有的二进制文件格式 (.vsd) 或单文档 Visio XM
 ## <a name="select-and-read-package-parts-from-a-package"></a>从包中选择并读取包部件
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-为包打开该 Visio 2013 文件后，您可以访问内它使用[PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx)类**System.IO.Packaging**命名空间中包含的文档部件。 独立的或作为集合，可以实例化**PackagePart**对象。 **包**类公开的[GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx)方法以及获取**PackagePart**对象超出**包**的[GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx)方法。 **Package.GetParts**方法返回的[PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx)类中，您可以然后交互像实现的其他任何集合实例[IEnumerator\<T\>](https://msdn.microsoft.com/library/System.Collections.Generic.IEnumerator`1.aspx)接口。 
+为包打开该 Visio 2013 文件后，您可以访问内它使用[PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx)类**System.IO.Packaging**命名空间中包含的文档部件。 独立的或作为集合，可以实例化**PackagePart**对象。 **包**类公开的[GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx)方法以及获取**PackagePart**对象超出**包**的[GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx)方法。 **Package.GetParts**方法返回的[PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx)类中，您可以然后交互像实现的其他任何集合实例[IEnumerator\<T\>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2)接口。 
   
 使用以下过程中的代码，作为一个整体从 **Package** 中获取 **PackagePartCollection** 对象，循环访问集合中的 **PackagePart** 对象，并将每个 **PackagePart** 的 URI 和内容类型写入到控制台中。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8a2199ee2bba8b3b41af7bf26de6cdd3d8d0956e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f18d726c1b06a6fb7f79964165bbdb9074a6d4d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571365"
 ---
 # <a name="pidtagrequesteddeliverymethod-canonical-property"></a>PidTagRequestedDeliveryMethod 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此属性包含邮件发件人的发挥二进制交付方法 （服务提供商） 的数组。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778229"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 数组包含在此属性为每个服务提供商包含 ASN.1 标识符。
   

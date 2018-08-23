@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 963aea54bed36aa864dea1cd4b9a566eacd6daf4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c5295b07c6ed1e70bc2686b7e5ae0393de2b467
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574439"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>PidTagContactAddressBookDisplayNames 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息联系人通讯簿中的用户的显示名称的列表。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777415"
 |数据类型：  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户和用户的组织定义这些属性。
   

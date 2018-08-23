@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 31f09b1c2f7b23d63e17f59c28b7bcf377b769d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b37ae47e40906342aeecf179848311556a7d4ba4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775937"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573990"
 ---
 # <a name="integrating-mapi-form-server-code-with-windows-code"></a>将 MAPI 表单服务器代码与 Windows 代码集成
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 记住，表单服务器是 Win32 应用程序。 因此，有一些与加载到内存中窗体服务器和完全退出相关的任务。 类似于所有 Windows 应用程序，您窗体的服务器的入口点是**WinMain**函数。 此函数为适当的位置，以执行以下任务： 
   

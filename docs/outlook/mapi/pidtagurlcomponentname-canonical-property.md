@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3a2b0939bbfa5143e4bd99e74b0f84e3ca7efb12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 934a08916902aae145d1d36f35413c5dd40d78cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778528"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570420"
 ---
 # <a name="pidtagurlcomponentname-canonical-property"></a>PidTagUrlComponentName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息的 URL 组件名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778528"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性应该是唯一的文件夹中。 如果，未设置创建邮件时，消息存储应设置这些属性根据不同的消息属性，具体取决于邮件类。 例如， **IPM。注意**和**IPM。约会**邮件应将此属性设置取决于**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性和**IPM。联系人**邮件应该会根据**dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) 属性设置该属性。 对于大多数其他邮件类，此属性应基于**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。
   

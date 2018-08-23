@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1d0538f02f852580c064560460bb8b2ba54a2f65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b3ae4170cab109ae96a51eae6e70c674895eeae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779038"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575782"
 ---
 # <a name="transport-provider-sample"></a>传输提供程序示例
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此示例使用文件和目录传输和接收消息。 它实现并注册的非常简单预处理程序将一行文本追加到每个出站邮件。 该示例演示如何拆分传输中性封装格式 (TNEF) 和文本之间的消息内容。 它还支持所有配置选项 （属性表、 向导和编程配置） 和消息选项。 它不支持远程传输接口。 
   
@@ -94,7 +94,7 @@ ms.locfileid: "19779038"
     > [!IMPORTANT]
     > 必须存在此路径。 
   
-6. 单击“确定”****。
+6. 单击“**确定**”。
     
 7. 在**添加电子邮件帐户**对话框中单击**确定**。 单击**完成**，然后单击**关闭**。
     

@@ -11,17 +11,17 @@ api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
 description: 上次修改时间： 2017 年 9 月 20，
-ms.openlocfilehash: b59114926d44ba613efbbde1c8dd5d17c26756c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bcbc3d21a03c1585288ad23b1fb2d311d686f55c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775276"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570448"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将 MAPI 邮件转换为 MIME 流。
   
@@ -93,7 +93,7 @@ E_INVALIDARG
   
 > 传递标志无效，或*pmsg*或*pstm*为 NULL。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 仅支持标准的 Outlook 邮件类型。
   

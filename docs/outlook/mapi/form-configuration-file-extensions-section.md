@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7c26b86ad4d6c7fd565abddbfc76f50ac3dccaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 459c5f5a34421583141028cd9accad5e242d31ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774949"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573556"
 ---
 # <a name="form-configuration-file-extensions-section"></a>表单配置文件 [扩展名] 部分
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **[扩展]** 节列出了窗体，通常命名的属性集的扩展的属性，它们是超出基本窗体配置文件的 **[描述]** 节中列出的任何属性。 扩展的属性是使用较高的位属性标记中设置**GetProps** **IMAPIFormInfo**对象的方法的调用返回的属性。 如果有，通过检索这些标记，客户端应用程序可以确定窗体的扩展的属性。 这样，客户端调用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法，传递中窗体的属性的名称，并调用[IMAPIProp::GetProps](imapiprop-getprops.md)方法以获取属性。 
   

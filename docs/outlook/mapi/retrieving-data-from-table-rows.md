@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 91b1fa06fd47321e9c19d9751caac793e27e8f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b8690871dbe5b7234645f00cabab9c65706141e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778640"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573444"
 ---
 # <a name="retrieving-data-from-table-rows"></a>从表行检索数据
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从表中检索行包括：
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 809209863af912113ac5f0795cc7c3b0cf51e792
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc2bacb85da810333fb9c1741fd1a414396f2f74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776952"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578995"
 ---
 # <a name="pidlidpagedirstream-canonical-property"></a>PidLidPageDirStream 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示有关页面与消息关联的自定义表单的信息。
   

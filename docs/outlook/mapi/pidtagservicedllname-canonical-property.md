@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 54fe624c98ddb631326853f387372468a61b2f70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2917f2119fde38686397b65956113bc430b2e31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778404"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570812"
 ---
 # <a name="pidtagservicedllname-canonical-property"></a>PidTagServiceDllName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含要配置的呼叫的 dll 包含消息服务提供程序入口点函数的文件名。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778404"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当入口点函数名称出现在**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) 方法时，它指示存在的入口点。
   

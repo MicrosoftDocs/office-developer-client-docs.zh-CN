@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5a3cc16a-145f-4a40-bca9-99871a26b0ef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: db255f13d356ec6e10bbe90bea6decd6cb9e0f20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 243843b625cf17a3286ff2da87824f8867050090
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570336"
 ---
 # <a name="pidtaghome2telephonenumbers-canonical-property"></a>PidTagHome2TelephoneNumbers 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含列表的收件人的家庭电话的第二个电话号码。
   

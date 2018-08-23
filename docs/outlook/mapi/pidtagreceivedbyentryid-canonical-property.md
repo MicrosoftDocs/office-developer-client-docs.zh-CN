@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 737f8584-fc52-4324-ac40-2fc554a3095d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e7d457c898a1b8c733913de0fbb2fbfe9542dc9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab3ffed8dd5b8d73d8024d27790f18397d615c2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778118"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567466"
 ---
 # <a name="pidtagreceivedbyentryid-canonical-property"></a>PidTagReceivedByEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含实际收到邮件的邮件用户的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778118"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一个收到邮件的邮件用户的地址属性。 它必须由传入传输提供程序设置。
   

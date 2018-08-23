@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac299846-da85-4ef2-97eb-ee157273ccc3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9d3cef760163e57ebed8346ce78e09cf9f322b51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e7baf7e4faeea3deab5dce01bea7522ce8a0d92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567438"
 ---
 # <a name="pidlidyomicompanyname-canonical-property"></a>PidLidYomiCompanyName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的公司名称的拼音发音。
   

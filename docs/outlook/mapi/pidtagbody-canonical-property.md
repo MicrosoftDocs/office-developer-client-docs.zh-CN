@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47c0d0fe-4d57-4b81-bdb5-336de85c194c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 23d943d5576f5e9d7694b03c90dea79a878dee64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cbcfdf44044e3cf9e42b0f0503928c9f8720ec1f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574417"
 ---
 # <a name="pidtagbody-canonical-property"></a>PidTagBody 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息文本。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777380"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通常只能在人际邮件 (IPM) 中使用这些属性。 
   

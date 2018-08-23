@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 17b55de84c38deb515dfb528e0ed01306934739d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 783b8972c29b80e1005f0d55e00487dd0e2757b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779009"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572058"
 ---
 # <a name="types-of-client-applications"></a>客户端应用程序类型
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有两个主要类型的消息客户端： 处理人际邮件 (IPM) 和处理进程间通信 (IPC) 的消息。 在这些类型，消息客户端应用程序可进行分类，如下所示：
   

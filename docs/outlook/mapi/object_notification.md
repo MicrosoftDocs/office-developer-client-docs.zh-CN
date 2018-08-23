@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1593152786a3345827089e5f6702454896944b1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 876c8fc3667929e3c2e7403e71e6d392981d34f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573353"
 ---
 # <a name="objectnotification"></a>OBJECT_NOTIFICATION
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含有关对象已进行更改，如正在复制或修改的信息。
   
@@ -134,7 +134,7 @@ MAPI_SESSION
   
 > 指向包含属性标记标识受影响的事件属性[SPropTagArray](sproptagarray.md)结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **OBJECT_NOTIFICATION**结构是联合的结构[通知](notification.md)结构的**信息**成员中包含的成员之一。 如果**通知**结构的**信息**成员包含**OBJECT_NOTIFICATION**结构，**通知**结构的**ulEventType**成员设置为以下类型的事件之一： 
   
@@ -176,7 +176,7 @@ MAPI_SESSION
 
 
 
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [SPropTagArray](sproptagarray.md)
 

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5859d94f85ca3fe7a0c738ed596d3c1a11fb2e8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c30aa631e70f8f4be52c2fd42dd6bfad900f379e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776162"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566157"
 ---
 # <a name="managing-memory-in-mapi"></a>管理 MAPI 中的内存
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 了解如何以及何时以分配和释放内存是使用 MAPI 编程的重要组成部分。 MAPI 提供功能和宏的客户端或服务提供程序可用于管理内存中以一致方式。 三个函数，如下所示：
   

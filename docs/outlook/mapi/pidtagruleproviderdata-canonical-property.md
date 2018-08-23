@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 054299e6bdf685163bc23678a2070f5d702a4529
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4f1070b89971c631fd855a6f84d56b699152421
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778292"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566843"
 ---
 # <a name="pidtagruleproviderdata-canonical-property"></a>PidTagRuleProviderData 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端将使用的客户端设置不透明属性。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778292"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 服务器必须保留此属性的值，如果它已设置由客户端，但必须规则评估和处理过程中忽略其内容。
   

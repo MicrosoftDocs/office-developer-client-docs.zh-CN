@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 850e256b-6b50-428c-aede-287edaf7b005
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 55cf41d251db4c84dad9f12d8f83d0b0dda63ff3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a48d8248878c64de827bb09030073e6becba3024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775912"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571197"
 ---
 # <a name="imslogonopenstatusentry"></a>IMSLogon::OpenStatusEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开状态对象。
   
@@ -64,7 +64,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序实现**IMSLogon::OpenStatusEntry**方法打开状态对象。 此状态对象然后用于启用客户端调用[IMAPIStatus](imapistatusimapiprop.md)方法。 例如，客户端可以使用[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)方法重新配置消息存储登录会话或[IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法以验证邮件存储登录会话的状态。 
   

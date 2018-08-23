@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0e4e5d5910a7ff3551057760f065e79155d65e49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39b4474bcc6bd71993fb5dc42bb2bfc1bf9f5f48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776071"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573402"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 验证调用进程具有读取访问权限指定范围的内存。
   
@@ -52,7 +52,7 @@ BOOL IsBadBoundedStringPtr(
   
 调用进程不具有对所有字符，最多为字符串的 null 终止符的读取权限或最_cchMax_由指定的字符数多的读取访问权限时，返回的值将为非零。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IsBadBoundedStringPtr**函数等效于使用**IsBadStringPtr**。
   

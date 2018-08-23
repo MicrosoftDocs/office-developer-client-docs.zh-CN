@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5bacf3c73ba7f9a7720586c77ee520d289c40e11
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3e46732f9b74b9cdf2dc4c961e7b6b66e3d91d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565226"
 ---
 # <a name="hresult"></a>HRESULT
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一个 32 位值，用来描述错误或警告。
   
@@ -31,7 +31,7 @@ ms.locfileid: "19775151"
 typedef LONG HRESULT;
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 [SCODE](scode.md)数据类型相同的**HRESULT**数据类型。 
   

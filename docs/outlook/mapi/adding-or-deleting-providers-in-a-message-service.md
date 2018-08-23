@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 44bb4d34-ca96-4d5a-93fe-85e09bd7971d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 05d6d548032476062127f21b23aa2ce141ed1b65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569c9d8a7ed3f56d88d83ea6fdac4477d39e50a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569482"
 ---
 # <a name="adding-or-deleting-providers-in-a-message-service"></a>在邮件服务中添加或删除提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要添加或删除的消息服务服务提供商，请使用[IProviderAdmin: IUnknown](iprovideradminiunknown.md)接口。 您可以通过调用[IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md)检索**IProviderAdmin**指针。 提供程序表中，通过[IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md)，读取列出了有关当前安装的消息服务中的服务提供程序的信息。 客户端和服务提供商可以使用提供程序表中访问的提供程序 DLL 文件，例如，或**MAPIUID**、 显示名称和提供程序以及有关消息服务的信息的类型名称。 有关详细信息，请参阅[提供程序表](provider-tables.md)。
   

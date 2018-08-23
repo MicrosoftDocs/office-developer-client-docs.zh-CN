@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 844880e5a1e40b51ece30baafd969372e7d43121
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8fa8df4e1439db3f1bc688d282e5ebdd3503024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774874"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575502"
 ---
 # <a name="ending-a-mapi-session"></a>结束 MAPI 会话
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端可以响应用户的请求，其会话也立即或处理后所有出站邮件和结束时严重错误发生。 某些客户端需要保持登录以便的待处理的出站邮件可达到传输提供程序和邮件系统的目标。 如果这样的客户端发送一条消息，并且立即注销，直到用户登录后，并保持登录要传输的消息的时间不够长消息可以保留在传出队列中。
   

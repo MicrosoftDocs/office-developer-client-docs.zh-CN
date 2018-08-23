@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: dad36bfc5fed296cff3baa4cc11bb1fdf359c45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b73e246ad5e396ef67e89bff5f1e04a47f6ebcb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776238"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569923"
 ---
 # <a name="mapi-form-servers"></a>MAPI 表单服务器
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从用户的角度来看，窗体通常是一条消息或数据输入表单使用户能够输入结构化的信息的属性页。 但是，它可以是任何与邮件类关联的用户界面。 从程序员的角度来看，窗体组成：
   

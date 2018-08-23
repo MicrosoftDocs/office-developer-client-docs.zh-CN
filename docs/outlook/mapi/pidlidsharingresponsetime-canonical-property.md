@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5cf0cf25-d302-44a4-bee8-53f5cff62647
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9c7ea7d1772ac8dff69783fcff2556b34a3d18e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3d9e596bcc8659633228765ddd8f396aaee3c00
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777028"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570112"
 ---
 # <a name="pidlidsharingresponsetime-canonical-property"></a>PidLidSharingResponseTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定频率共享请求的收件人发送共享响应的时间。 这是邮件的共享的属性。
   

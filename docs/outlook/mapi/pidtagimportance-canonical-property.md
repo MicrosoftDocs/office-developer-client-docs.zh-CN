@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 274dd444-a863-4b53-bdbc-3763c375c43c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9f6a67dcff6c74f44bbc64ae8b95f3e0ec284a90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12fa3d0d1c5cc84c42049f4a208ea961f6631bcd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777721"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566206"
 ---
 # <a name="pidtagimportance-canonical-property"></a>PidTagImportance 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个值，指示邮件发件人的邮件的重要性的平均意见。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777721"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性和**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) 属性不能混淆。 重要性表示到用户的值，而优先级表示订单设计 サ 频率邮件应发送的消息的系统软件的速度。 更高的优先级通常指示较高的开销。 更高重要性通常是与用户界面的不同显示相关联。 
   
