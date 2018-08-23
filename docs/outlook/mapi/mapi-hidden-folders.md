@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8b3b9c80-f7f4-4f37-bd6b-323469d020f1
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 81b53bc138a64da673d6723e60fd90b086174efe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70aeda8789665a3f35bf75f83f32a92dbeedc8de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776250"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589103"
 ---
 # <a name="mapi-hidden-folders"></a>MAPI 隐藏文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 隐藏的文件夹是通用的客户端创建根文件夹的消息存储库，而不是人际邮件 (IPM) 子树的根文件夹中。 由于这些文件夹不放置在 IPM 子树中，它们是通常从视图中隐藏用户的消息存储提供程序。 隐藏的文件夹通常包含相关的消息存储到但不向用户相关的信息。 客户端创建隐藏的文件夹来存储，例如，要保存与文件夹层次结构的其余部分的其他信息。
   

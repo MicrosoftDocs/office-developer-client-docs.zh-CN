@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 37075cfc-461d-4983-9045-d9f1da6739be
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a5d2244270463fcc2fe0a9786112590e741a8a66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c225712e354d72b79313ee4c3f36da55f11b0a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778994"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587514"
 ---
 # <a name="transmitting-and-copying-named-properties"></a>传输和复制命名的属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 发送的命名的属性时，移动或复制，名称保持不变，但必须更改标识符遵守的目标对象映射。 对此规则唯一的例外是源和目标具有相同的映射签名时, 进行重新映射不必要。
   

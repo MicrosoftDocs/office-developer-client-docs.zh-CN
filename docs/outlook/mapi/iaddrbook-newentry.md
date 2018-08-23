@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e9b9ae316749659c6fc6a043bfb72c49010ccc9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eaf472a380acd62cddb2c20c35335ccb1e2ce07f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585855"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将一个新收件人添加到通讯簿容器或传出邮件的收件人列表。
   
@@ -84,7 +84,7 @@ S_OK
   
 > 已成功创建新的通讯簿条目。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **NewEntry**方法创建新通讯簿条目，直接将容器添加或要用于传出邮件地址。 
   

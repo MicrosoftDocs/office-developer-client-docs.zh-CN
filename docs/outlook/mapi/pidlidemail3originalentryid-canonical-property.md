@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b290d4a4-8d70-4656-9254-191c5179662f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc850be73432873b88d5f6106dd62b0e8fd6e662
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6f45f75c8dca021660d2bd7220237095b765dd9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776771"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587626"
 ---
 # <a name="pidlidemail3originalentryid-canonical-property"></a>PidLidEmail3OriginalEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定对象对应于第三个电子邮件地址的**EntryId** 。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776771"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须是此电子通讯一次性**EntryId**或有效的通讯簿对象**EntryId**。
   

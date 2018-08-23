@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb88750b-4773-4241-aa38-462a2634dbcb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 458a20e238d6023520ede3416ece239f2d553891
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cbd237e80f4862683c1fa914f8261f8351b148e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777080"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589019"
 ---
 # <a name="pidlidtaskfcreator-canonical-property"></a>PidLidTaskFCreator 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示任务最初创建由当前用户或用户代理，而不是通过处理任务要求。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777080"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端设置此属性为 TRUE 时用户创建任务和为 FALSE 时由另一个用户分配任务。 如果不设置此属性，则假定值为 TRUE。
   

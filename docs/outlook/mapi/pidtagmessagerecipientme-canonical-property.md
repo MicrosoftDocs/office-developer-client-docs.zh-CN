@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 90333258-8913-4f98-aefb-4cc2ab34abcf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e8ae52df1dd9775f706e2b1b2dc8b17b1f47a0bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e577ad597df1a4d206cf2c080edfd53499754027
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777877"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584259"
 ---
 # <a name="pidtagmessagerecipientme-canonical-property"></a>PidTagMessageRecipientMe 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果此消息的用户 （收件人）、 抄送 (CC) 或此邮件的密件抄送 (BCC) 收件人为主专门名为而不是通讯组列表的一部分，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777877"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性提供方便地确定是否用户名显示显式在收件人列表中，如果不检查列表中的所有条目。 值表示逻辑**或**运算属性**PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)) 和**PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md)) 和密件抄送信息 (其否则未显示在属性）。 
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b8c68c2cd34ba037dc725a7d15575159466d8123
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33dc327b9e8609a5a1a8a24e131ce4ea1d1e55bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778233"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583902"
 ---
 # <a name="pidtagrpcoverhttpproxyauthscheme-canonical-property"></a>PidTagRpcOverHttpProxyAuthScheme 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 代表要用于此配置文件的身份验证协议。
   
@@ -30,7 +30,7 @@ ms.locfileid: "19778233"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可为基本身份验证或 NT LAN Manager (NTLM) 身份验证设置。 此属性的可能值如下所示。
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 321cde5a-05db-498b-a9b8-cb54c8a14e34
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d69fb4423fca12134b4401907a16636562557cfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 10444131248edea2de712429d7c70a8490eb31ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778378"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584721"
 ---
 # <a name="pidtagsendersmtpaddress-canonical-property"></a>PidTagSenderSmtpAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含发送邮箱所有者的简单邮件传输协议 (SMTP) 电子邮件地址的格式。
   
@@ -30,7 +30,7 @@ ms.locfileid: "19778378"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是个发件人的地址属性的示例。 它必须由传出的传输提供程序，应永远不会传播任何以前现有值设置。
   

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 25f896038e25823f1fe49d3cafbd5835a0a43f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775124"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584798"
 ---
 # <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Outlook 时在缓存 Exchange 模式下打开存储在远程服务器
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题包含演示如何使用**MDB_ONLINE**标志远程服务器上的消息存储时打开 Microsoft Outlook 2010 或 Microsoft Outlook 2013 缓存 Exchange 模式下的 c + + 中的代码示例。 
   

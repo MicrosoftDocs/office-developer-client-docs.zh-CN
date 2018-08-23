@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0e96c0b99f0a5f7511ed59b483ab9409eafad882
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7cb77308ebc7229adcab290fc8e1f9e11ce45065
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776118"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587017"
 ---
 # <a name="ixplogonopenstatusentry"></a>IXPLogon::OpenStatusEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开传输提供程序的状态对象。
   
@@ -64,7 +64,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序的传输提供程序的状态表格行中的项标识符调用**OpenEntry**方法时，MAPI 后台处理程序调用**IXPLogon::OpenStatusEntry**方法。 **OpenStatusEntry**打开与此特定传输提供程序的登录关联的**IMAPIStatus**接口的对象。 此对象然后用于启用客户端应用程序调用**IMAPIStatus**方法 （例如，若要重新登录会话配置使用[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)方法，或使用[验证登录会话的状态IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法)。 
   

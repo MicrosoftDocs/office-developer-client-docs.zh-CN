@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2c1246c46e9723cd3f6d92f0a44fc1419eef4a2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46d993060d03b8c22c2d6c083c05f023648e6642
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775698"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589663"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回的数据所需重新生成当前折叠或展开分类表的状态。
   
@@ -73,7 +73,7 @@ MAPI_E_NO_SUPPORT
   
 > 表不支持分类和展开和折叠视图。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::GetCollapseState**方法处理所[IMAPITable::SetCollapseState](imapitable-setcollapsestate.md)方法更改用户的分类表视图。 **GetCollapseState**保存数据所需的**SetCollapseState**用于重新生成适当类别分类的表的视图。 服务提供商确定要保存的数据。 但是，大多数服务提供商实现**GetCollapseState**保存下列： 
   

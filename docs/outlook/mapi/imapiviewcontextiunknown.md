@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a7d62253baaaae7955e722874a15d05ed16e566e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae2729ec5620b6b408a5c999d4b6ede7143bed2f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775750"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584561"
 ---
 # <a name="imapiviewcontext--iunknown"></a>IMAPIViewContext : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 管理客户端应用程序的表单查看器中的窗体。 
   

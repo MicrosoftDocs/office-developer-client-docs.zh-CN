@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7fdf76bc56feb7e46370e7fcf66c55d229933eca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63e3eca4e91e560a28d57f05250264d7e0592142
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775749"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587255"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索当前打印的信息。
   
@@ -54,7 +54,7 @@ S_OK
   
 > 已成功检索打印的信息。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIViewContext::GetPrintSetup**方法检索有关的打印机设置打印当前消息在尝试之前的信息。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 09274c21df3a93abc19aa8158da976e2d16f3e7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b88c036b3bc9b29962204ea0b90bd460ee1cf90f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778276"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585169"
 ---
 # <a name="pidtagrtfsyncbodycount-canonical-property"></a>PidTagRtfSyncBodyCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息文本的有效字符的计数。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778276"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 [RTFSync](rtfsync.md)函数计算中使用仅那些其认为是重要邮件的文本的字符数。 例如，从计数忽略一些空格和其他可忽略字符。 
   

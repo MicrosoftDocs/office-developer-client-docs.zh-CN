@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: d8cd03fa184865446da48d7532764ba71e0e47d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586961"
 ---
 # <a name="required-and-optional-interfaces-for-message-store-providers"></a>邮件存储区提供程序的必需和可选接口
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 定义一组与消息存储提供程序相关的接口。 由于广泛的消息存储可以选择实现的功能，这些接口一些需要和某些不是。 下表列出了对消息存储提供程序相关的 MAPI 接口，指定是否接口是必需或可选的并描述及其用途。
   

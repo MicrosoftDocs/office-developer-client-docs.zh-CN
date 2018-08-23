@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d4ece3af-cb54-4727-8072-0c055381ec11
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8882457ff99f4150f2c9b086b92af32de29d60a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f69985f9cdaaba0681b823e6fe448d009ee9dfa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776264"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585708"
 ---
 # <a name="mapi-object-and-interface-overview"></a>MAPI 对象和接口概述
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 C + + 对象类或 C 数据结构从一个或多个 MAPI 接口或相关的函数集继承，MAPI 对象。 下面这些集合相关函数称为于 c + + 开发人员纯虚函数。 对于纯虚函数，MAPI 提供仅函数原型，不实现。 预计的客户端应用程序、 服务提供商或 MAPI 将通过创建继承自接口，且符合的消息的 api 功能描述对象类提供此实现。 只能通过继承的类，可以实例化 MAPI 接口。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6ac438a1-d36f-424f-b4b4-d6f2d26fd350
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ab9bad51efc4aa9b113bc8d215426c642fc60b9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f24486270f5f20596e76781c7ddf4cbc90e17a11
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777045"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583951"
 ---
 # <a name="pidlidsharinglocaltype-canonical-property"></a>PidLidSharingLocalType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定要共享的文件夹的**PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) 属性的值。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777045"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须是下列选项之一：
   

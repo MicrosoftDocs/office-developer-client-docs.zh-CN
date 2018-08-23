@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b637f4921165d70ddeda914b4299c35aabe8218f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 07c215511f010741e69c08c184df0ca3ce461e13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775013"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583615"
 ---
 # <a name="gateway-mappable-properties"></a>网关可映射属性
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 网关可映射属性是可能需要翻译时从一个消息域发送到其他的属性。 MAPI 的网关可映射属性启用邮件，其中包含正确需要网关，以确保目标邮件系统使用它的信息。 尽管无需网关开发人员提供此转换功能，但他们应考虑网关可映射属性作为有机会来提高处理的消息内容。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 21a6907f7511779d7e8ec6825ac68d109d2f48eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cb7934919722139622b6caf3aac741c9b2e54c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582460"
 ---
 # <a name="iabproviderlogon"></a>IABProvider::Logon
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 建立到活动会话的连接。
   
@@ -112,7 +112,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击登录对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 连接被建立与每个地址簿提供商会话配置文件中，当客户端调用[IMAPISession::OpenAddressBook](imapisession-openaddressbook.md)方法。 **OpenAddressBook**然后调用每个提供程序的**登录**方法。 
   

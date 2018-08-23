@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6e6c6ad9-1e07-4234-a5ef-18020d7ce468
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c6538f8fef7d8ccb87b6e6d9d2b9c68779ca8582
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd8075d2fddb7ada6803c869cbbd282c464e75bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776203"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585876"
 ---
 # <a name="mapi-attachments"></a>MAPI 附件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 某些消息存储提供程序使客户端与邮件相关联的文件、 OLE 对象、 邮件或二进制数据形式添加了的信息。 此添加了的信息称为邮件附件。 附件是创建、 维护和只能通过其邮件访问，因为它们被视为消息子对象。 而不是具有访问的项标识符，附件具有附件编号的顺序的数字已知。 此号码唯一标识在其消息中，但不是一定的消息存储中的附件。 两个不同的消息可以具有不同附件具有相同的附件编号。 只要邮件处于打开状态，并存储在**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性，附件号码才有效。
   

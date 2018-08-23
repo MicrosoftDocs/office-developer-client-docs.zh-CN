@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 124b9f05-032d-42f1-a3d3-4f4c9b9f7a06
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 234bfaffab2e82bbcebd7222f32a750e8585d958
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4687bc4bb5cc2dd6a2125eac8a620c64c495eca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777916"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588291"
 ---
 # <a name="pidtagorganizationalidnumber-canonical-property"></a>PidTagOrganizationalIdNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含工作证号码的联系人，如雇员 ID 号。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777916"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些是可选的属性。 由消息的用户或组织决定其使用。
   

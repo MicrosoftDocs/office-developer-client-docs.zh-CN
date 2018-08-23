@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a73c87f172b4c97379bb9cd117679d3947c188af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1c27f87cb113ebe30a42211035f6f50475a1be3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775622"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588179"
 ---
 # <a name="imapisupportistoragefromstream"></a>IMAPISupport::IStorageFromStream
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 实现的存储对象访问的流。
   
@@ -76,7 +76,7 @@ S_OK
   
 > 已成功创建的存储对象。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::IStorageFromStream**方法将执行所有服务提供商支持对象。 服务提供商调用**IStorageFromStream**可创建用于打开特定属性的存储对象。 [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx)接口自己实现服务提供商不需要调用**IStorageFromStream**。 
   

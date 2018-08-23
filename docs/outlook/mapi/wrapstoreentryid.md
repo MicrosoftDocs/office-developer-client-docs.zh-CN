@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b20107e3-5e23-4cde-9cd6-670c914ea70a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aff46cca7a7d530b2eede1790176058e3b91abc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 45263396e69852a9ae17ff6fce284663bdf2fb07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585134"
 ---
 # <a name="wrapstoreentryid"></a>WrapStoreEntryID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通过在邮件系统转换更易于使用的项标识符的消息存储内部的项标识符。 
   
@@ -78,7 +78,7 @@ MAPI_UNICODE
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储对象保留其只对与该消息存储的服务提供程序 coresident 有意义的内部条目标识符。 对于其他消息组件，MAPI 提供内部条目标识符，如属于消息存储使可识别的换行的版本。 Coresident 服务提供商应始终提供的原始解包的消息存储条目标识符;客户端应用程序应始终提供的换行的版本，然后可用任意位置和其他域中的消息的域。 
   

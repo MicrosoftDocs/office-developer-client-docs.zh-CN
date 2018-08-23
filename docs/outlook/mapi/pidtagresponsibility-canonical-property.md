@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e8ccef1-db0a-4230-9bd0-87540b53e890
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9dba26ab6948d7190521ff31a8732c4b058ab7c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2a1c49b29ba08775768fc74861ba36b3c6356fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589376"
 ---
 # <a name="pidtagresponsibility-canonical-property"></a>PidTagResponsibility 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 TRUE 如果某些传输提供程序已经接受邮件传递到此收件人和 FALSE，如果 MAPI 后台处理程序认为该传输提供程序应接受责任的责任。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778231"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当 MAPI 后台处理程序提供的出站邮件到传输提供程序，通过[IXPLogon::SubmitMessage](ixplogon-submitmessage.md)，它将该属性设置为 FALSE 的所有收件人为其 MAPI 后台处理程序认为该传输提供程序负责，和 TRUE 所有其他收件人。 传输提供程序应尝试处理与**PR_RESPONSIBILITY**设置为 FALSE 的所有收件人。 成功发送，或最终发送给收件人，出现故障后传输提供程序应将此属性设置为 TRUE 源消息以指示它已接受该收件人的责任。 
   

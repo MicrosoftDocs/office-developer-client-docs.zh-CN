@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b9992683-6ea9-4789-8554-024cc1dc7a5d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d07ef00f9eb8a20349f78a7426dcdd61f92fb342
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 110b6e917ac4352256163893d25370d74d33a2b9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589621"
 ---
 # <a name="pidnamecontenttype-canonical-property"></a>PidNameContentType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 [RFC3282] Content-type 标头字段值。
   

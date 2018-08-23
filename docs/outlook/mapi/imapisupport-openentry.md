@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84662230-6a25-4403-b87e-871427a40c6e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 04bf7f2ddda7377df72417df2472246a2cf329bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b122c98715bd2f6916fe6302fc0b7a01d2cc936
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775649"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584609"
 ---
 # <a name="imapisupportopenentry"></a>IMAPISupport::OpenEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开一个对象并返回进一步访问的接口指针。 
   
@@ -94,7 +94,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 无法识别格式_lpEntryID_参数中传递的项标识符。 如果包含对象的通讯簿提供程序未打开，则通常会返回此值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::OpenEntry**方法将执行所有服务提供商支持对象。 服务提供商调用**IMAPISupport::OpenEntry**检索可用于访问特定对象的接口的指针。 
   

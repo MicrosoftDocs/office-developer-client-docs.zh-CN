@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: daad8735-a3da-4a0b-9329-6eb253c281fd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: da2bd4e87c7076872ccff708983cfbe631b27122
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de3c56e3ed532d8f4c3cff272049384e9c6a3867
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586086"
 ---
 # <a name="pidlidnonsendablebcctrackstatus-canonical-property"></a>PidLidNonSendableBccTrackStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的每个与会者**dispidNonSendableBCC** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md)) 属性中列出的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776917"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 仅当**dispidNonSendableBCC**属性设置时，此属性是必需的。 此属性中的值的数目必须等于**dispidNonSendableBCC**中值的数目。 此属性中的每个值对应于在同一索引的**dispidNonSendableBCC**属性中的参与者。 
   

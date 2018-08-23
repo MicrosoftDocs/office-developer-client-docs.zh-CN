@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28f6471f74fb0fcc4f7e2f4114f0790e1564e17e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09f0d7988f85a6d6018c45cb64245ab331cda052
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774856"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582810"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述将显示表中生成的对话框中使用的标签。
   
@@ -55,7 +55,7 @@ MAPI_UNICODE
   
 > 标签为 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，标签为 ANSI 格式。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLLABEL**结构介绍与另一种控件添加到该控件的含义显示一个标签控件文本。 例如，大多数编辑控件位于旁边通知的类型信息的用户输入的标签。 某些控件，如组框和单选按钮，将保留其自己的标签。 
   

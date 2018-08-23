@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fb7a8ea39d6e7b1d7df1560658ceb67a79d39d92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e2e7a3f9279485d862fac5bb6413b3d3eb1343e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775676"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589082"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供一种机制，同步电子邮件，而不是使用传输 API。 此接口将公开的存储对象。 使用此接口和[IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md)、 传输提供程序可以提供更好的进度和比的错误消息的显示在 Microsoft Outlook 中的发送/接收对话框。
   

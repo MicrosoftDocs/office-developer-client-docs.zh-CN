@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 44261e5ac296004fd113d4c9123b99c482bcb732
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0e27d86098ec55849fa96cc150c60934ef2810b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776065"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585449"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启动同步会话，并获取相关联的**[IOSTX](iostxiunknown.md)** 接口。 
   
@@ -39,7 +39,7 @@ HRESULT GetSyncObject(
   
 >  [输出]指向要获取的**IOSTX**接口的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 呼叫者必须确保同时在多个线程上不同步的相同的文件夹。
   

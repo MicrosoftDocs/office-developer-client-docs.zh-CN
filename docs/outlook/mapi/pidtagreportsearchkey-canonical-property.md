@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4f4c40b-b6a8-45f3-b750-07b92c535322
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fa2770daf38fe93eb9fb69990eebc2a6fcfd6a27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b82e27358c9f30a649dc10e1a53ee7c321cb3d82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584959"
 ---
 # <a name="pidtagreportsearchkey-canonical-property"></a>PidTagReportSearchKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含搜索关键字的收件人的应将报告获得此消息。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778225"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一个发件人已委派接收此消息生成任何报告的收件人的地址属性。
   

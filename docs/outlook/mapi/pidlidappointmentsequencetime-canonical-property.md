@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0170bb9b-f43b-4089-9144-b8652c38f43d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc4658d57a127cf2cf7cd8794cf7bc8c745c0e3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a36728fc3db2506e7c8d929842de6916b55409c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776684"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588256"
 ---
 # <a name="pidlidappointmentsequencetime-canonical-property"></a>PidLidAppointmentSequenceTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的日期和时间上次修改此属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776684"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 必须以协调世界时 (UTC) 指定的值。
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c9386b98-615f-488c-8212-11d9abebbdcf
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: aa3ddecbd5af56eef16f5ae3a349a027e689fc8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fa48e97ed25fe1175ffd3a92ac961dcf5bde50b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774808"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588354"
 ---
 # <a name="displaying-configuration-property-sheets"></a>显示配置属性表
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传输提供程序使用[IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md)方法实现配置属性表。 调用**DoConfigPropSheet**时, 传输提供程序将一个指针传递到数组属性以及有关如何将其显示的信息。 MAPI 然后会向用户的属性通过标准的对话框中显示。 要实现的用户的一致的界面为带来的好处由于您传输提供程序时使用此属性表机制强烈建议。
   

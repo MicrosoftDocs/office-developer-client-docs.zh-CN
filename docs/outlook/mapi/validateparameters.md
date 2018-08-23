@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 921417d8fc73ca9c1f126b2cb0add23f6625e3f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 662330a7b8c665471e9bbe6af27dff84ee68c8cf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779085"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586065"
 ---
 # <a name="validateparameters"></a>ValidateParameters
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 调用检查参数客户端应用程序已传递给服务提供商的内部函数。 
   
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > 一个或多个参数不是有效的。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 已由[ValidateParms](validateparms.md)宏取代**ValidateParameters**宏。 **ValidateParameters** RISC 平台上不会无法正常工作，现在将会阻止对它们进行编译。 仍编译，并能够正常运行 Intel 平台上，但**ValidateParms**建议所有平台上。 
   

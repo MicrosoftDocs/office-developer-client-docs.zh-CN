@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 01a8e3c479ab3ddd1be9386e033b993fda5835a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 96e81442125ae49e0c2856a1cf3a97a16d3453cf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776177"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583335"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 建立一个会话中的客户端应用程序登录到传输提供程序。 
   
@@ -84,7 +84,7 @@ MAPI_E_UNKNOWN_LCID： 提供程序无法支持客户端的区域设置信息。
     
 MAPI_E_USER_CANCEL: 用户已取消该操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用**IXPProvider::TransportLogon**方法建立登录会话的用户。 
   

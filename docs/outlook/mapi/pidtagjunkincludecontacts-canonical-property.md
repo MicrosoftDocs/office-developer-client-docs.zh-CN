@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 25368f6c-4fba-4381-840c-ca122bd31b5f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4dde93bbec2594804ab18a3ee4eb3e116a57e528
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 121bba82a9ccd40a435769b5eb2d966ed60575f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586968"
 ---
 # <a name="pidtagjunkincludecontacts-canonical-property"></a>PidTagJunkIncludeContacts 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示是否在联系人文件夹中的联系人的电子邮件地址被视为特殊相对于垃圾邮件筛选器。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777783"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果设置为"0x00000001"，这些电子邮件地址必须填充垃圾电子邮件规则限制的"受信任的"联系人电子邮件地址部分以便从这些地址的邮件将被视为"非垃圾邮件"。 如果设置为"0x00000000"，从联系人文件夹的电子邮件地址必须添加到垃圾邮件规则，并且该规则的一部分必须为 NULL。
   

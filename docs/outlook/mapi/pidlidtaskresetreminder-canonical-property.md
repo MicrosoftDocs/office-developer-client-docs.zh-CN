@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f6da69ff-a913-4a65-bb07-8ad3c5685e5e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a95fc30de7511672cb27c9dd6fbc37b96e822e77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e16c1b46b5a8181b1225c706dbed6cd1bb3f486f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777109"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583174"
 ---
 # <a name="pidlidtaskresetreminder-canonical-property"></a>PidLidTaskResetReminder 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示以后的定期任务实例是否需要提醒，即使**dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) 为 FALSE。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777109"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 任务的提醒消除，并且否则设置为 FALSE 时，此值设置为 TRUE。 如果保留未设置，则假定默认值为 FALSE。
   

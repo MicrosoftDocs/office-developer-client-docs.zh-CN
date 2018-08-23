@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9755c342-87ba-47bb-9970-91f7eb796b4d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 45afcbc05aab5fae00b51708e1aae6bc21e91b36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de5204ee6c1a7c22b730a1063ca90dfa9b47c4f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777682"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582446"
 ---
 # <a name="pidtaghome2telephonenumber-canonical-property"></a>PidTagHome2TelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的家庭电话的备用电话号码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777682"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
   

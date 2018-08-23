@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 64031725e06a949464e7bfabb0a2f114d325470e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bf3d9159dd1ed31fb93569218770f1015579339
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775428"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582922"
 ---
 # <a name="imapiformmgropenformcontainer"></a>IMAPIFormMgr::OpenFormContainer
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开特定窗体容器[IMAPIFormContainer](imapiformcontaineriunknown.md)界面。 
   
@@ -75,7 +75,7 @@ MAPI_E_NO_INTERFACE
   
 > 指向_lpunk_对象不支持所需的接口。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::OpenFormContainer**方法打开特定窗体容器**IMAPIFormContainer**接口。 此接口然后可用于安装窗体插入和移除表单从窗体容器。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca1ea5ec-20d5-4b70-95de-c2246a10beae
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 409fc2e01b103378eb0df1bdd06ee8b5647148bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efedeb54decf1feae7b31f8af299a154606d7afc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776839"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582901"
 ---
 # <a name="pidlidfinvited-canonical-property"></a>PidLidFInvited 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示已发送邀请以代表此会议的会议。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776839"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 值为 FALSE 或不存在此属性，指示已从不发送会议请求。 TRUE 表示已发送会议请求。 一旦会议情况下，此值设置为 TRUE，则必须不能更改。
   

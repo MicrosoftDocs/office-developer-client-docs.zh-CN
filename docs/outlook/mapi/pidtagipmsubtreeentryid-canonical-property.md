@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9635c06ffa5638e370312e3b2b29e0c98161a766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ade74b13811445c39c73f778b6de49b67b59093b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587556"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>PidTagIpmSubtreeEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息存储库文件夹树中的人际邮件 (IPM) 文件夹子树的根的项标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777766"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性表示 IPM 层次结构的根。 IPM 客户端不应显示不支持此属性表示的文件夹的子文件夹的任何文件夹。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e8ca8d7a82360c1f96448b08c9eda18be502b9f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a89cf096e3775b57035be60cab01e3d687770cf8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777127"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582572"
 ---
 # <a name="pidlidtaskstatus-canonical-property"></a>PidLidTaskStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定任务的用户的进度的状态。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777127"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须设置为下列选项之一。
   

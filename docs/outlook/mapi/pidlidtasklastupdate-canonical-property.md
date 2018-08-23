@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 65b73d0f-f1f1-4c11-8834-f7c736a30ffc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: acd06027f1f9aa051a36192f07efa3ca0671a82e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c97ca1ff27eab1a935317b99cfbf4016d18fa7c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587486"
 ---
 # <a name="pidlidtasklastupdate-canonical-property"></a>PidLidTaskLastUpdate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示的协调世界时 (UTC) 和日期已对任务进行且由**dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)) 属性的最新更改。
   

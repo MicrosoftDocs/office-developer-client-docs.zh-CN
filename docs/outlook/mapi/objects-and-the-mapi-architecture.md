@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c3bcbda5-820d-4ef5-bffd-c254eea9dff6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0e89c2ad37b700a977962e5e0ff0ca30b9d910e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29a61ff8f7894c5582d31895bacd74e1ebcaa49c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776557"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583874"
 ---
 # <a name="objects-and-the-mapi-architecture"></a>对象和 MAPI 体系结构
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 体系结构中的一个或多个图层属于的所有 MAPI 定义对象。 客户端接口层包含客户端应用程序、 窗体查看器或窗体服务器可以实现的所有对象。 服务提供程序接口层包含任何类型的服务提供商可以实现的对象。 该层包括实现通过通讯簿、 消息存储、 传输提供程序和表单库的对象。 代表 MAPI 子系统层位于客户端与服务提供程序界面层之间。 MAPI 层包含的所有客户端或服务提供商使用 MAPI 实现的对象。 
   

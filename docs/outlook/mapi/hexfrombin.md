@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c1d333c7c019c30c3f6c6b3567453f2f022d4b5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f68de5e18d84c728241c188b932f99456f5be8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775105"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584833"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将二进制数转换为十六进制数的字符串表示形式。 
   
@@ -59,7 +59,7 @@ void HexFromBin(
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **HexFromBin**函数对其大小由_cb_参数的二进制数据的单位采用一个指针。 它在返回_sz_字符串中 (2 * _cb_) + 1 字节的内存，用十六进制数字此二进制信息的表示形式。 如果字节值为小数 10，例如的十六进制字符串将 0A，这样一个字节转换为字符串中的两个字节。 
   

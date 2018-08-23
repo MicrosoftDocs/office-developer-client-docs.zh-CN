@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 55e08ace-493c-4246-8ebf-c304f4abc56a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ba30514df028805135e9e31e7214ca336b1b3f85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48627c6d6eb2100e7dfcab832c86c1ec2e4ec8bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778033"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582803"
 ---
 # <a name="pidtagparententryid-canonical-property"></a>PidTagParentEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含包含文件夹或邮件的文件夹的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778033"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的所有文件夹和消息的消息存储通过计算。
   

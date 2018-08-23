@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f5c6ba8f-4ef5-4d60-b4e6-5b9160ec4e99
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6e917991e109ac04a14ea7d93eebcf9cce835845
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d90f502e2cd7f97ac273ebecedbd0363097b1d60
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584952"
 ---
 # <a name="imapisupportspooleryield"></a>IMAPISupport::SpoolerYield
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 到 MAPI 后台处理程序提供的 CPU 的控件，以便它可以执行它认为需要的任何任务。
   
@@ -49,7 +49,7 @@ MAPI_W_CANCEL_MESSAGE
   
 > 指示要停止邮件传递到尚未收到任何收件人的传输提供程序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于传输提供程序支持对象实现**IMAPISupport::SpoolerYield**方法。 传输提供程序调用**SpoolerYield**以允许 MAPI 后台处理程序完成任何所需的处理。 
   

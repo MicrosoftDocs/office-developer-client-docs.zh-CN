@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ab197ace-6e7d-4ec5-9f6d-4a63a1eda11c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 21469b944bb2ce5db0576e40012335d89d48cb49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 91eb93c9cf3afcecef698e27791c06831c13624d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777228"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589096"
 ---
 # <a name="pidnamecontentbase-canonical-property"></a>PidNameContentBase 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 [RFC3282] 内容库标头字段值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777228"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端必须所需的值都写入到内容库头字段映射到邮件正文 MIME 实体。 MIME 读者必须将此类的 MIME 实体的内容库标头字段的值复制到此属性的值。
   

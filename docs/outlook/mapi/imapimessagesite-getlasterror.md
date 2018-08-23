@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7ea282d7-388a-4f05-9780-f8dbc5c5d395
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 55d95beeedcd2ac74360dd436af25d6cc01fa824
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3426fd29090a6ab1bb0e66f9bb746e84abe3a25e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775472"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589446"
 ---
 # <a name="imapimessagesitegetlasterror"></a>IMAPIMessageSite::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面的错误消息网站对象发生的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志**GetLastError**不支持 Unicode，或未设置 MAPI_UNICODE 和**GetLastError**支持仅 Unicode。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIMessageSite::GetLastError**方法提供有关失败的前一个方法调用的信息。 呼叫者可以向其用户提供有关错误的详细信息通过在对话框中包括的**MAPIERROR**结构中的数据。 
   

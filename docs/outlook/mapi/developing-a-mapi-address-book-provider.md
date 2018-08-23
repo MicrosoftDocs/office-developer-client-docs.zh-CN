@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 03f53dbfbe57db76ee8ceefda3f6938301f70da8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 731ebf6f61db8e9f425d48ab63cb7b81035a41c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774777"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584280"
 ---
 # <a name="developing-a-mapi-address-book-provider"></a>开发 MAPI 通讯簿提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通讯簿提供程序提供客户端应用程序，消息存储和传输提供程序，以及为 MAPI 的收件人信息。 到存储分栏称为容器层次结构组织收件人信息。 配置文件中的每个通讯簿分配一个或更多首要，或父级到 MAPI 通讯簿，所有地址中的收件人信息集成视图的容器会话中书籍提供程序。 它是通过 MAPI 通讯簿的客户端和其他服务提供商访问通讯簿提供程序的数据。
   

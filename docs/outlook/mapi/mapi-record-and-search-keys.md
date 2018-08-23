@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: caa7b7f3-a5a1-4f07-98c9-22652ecd5d21
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1e1b05be64029f80ec8a7379ed7b313b9cf645fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4aa641ad0a41ff8015d2ece717d5a4cb3a7c4edf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587311"
 ---
 # <a name="mapi-record-and-search-keys"></a>MAPI 记录和搜索键
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 记录的键和搜索键是分配给多个 MAPI 对象的二进制标识符。 与对象的项标识符，其记录或搜索键直接是相当以及可传送。 
   

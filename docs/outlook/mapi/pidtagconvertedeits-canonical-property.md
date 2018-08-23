@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dbce468bc267b8776c2a37f1b88873636d31dbdd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffb7d73a80fce5316e5b948c0ca317501a15daa3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777514"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585995"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>PidTagConvertedEits 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含转换后的消息中的文本类型的标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777514"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指示哪些编码的信息类型 (EITs) 用于转换的邮件的文本组件。
   

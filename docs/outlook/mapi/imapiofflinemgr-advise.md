@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 53fa6bd49190bb88daeb0438dc0112e34322383e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0c8c4c6251581506c7bdd78c009bb12e8291c81
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775494"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586933"
 ---
 # <a name="imapiofflinemgradvise"></a>IMAPIOfflineMgr::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册接收回调脱机对象上的客户端。
   
@@ -63,7 +63,7 @@ E_NOINTERFACE
   
 > *PAdviseInfo*中指定的回调接口无效。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在打开时使用**[HrOpenOfflineObj](hropenofflineobj.md)** 脱机对象，客户端获取脱机支持**IMAPIOfflineMgr**的对象。 客户端可以检查回调对象使用**[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)** 支持的类型。 类型以及其他有关回调其想，，然后调用**IMAPIOfflineMgr::Advise**进行注册，以接收此类回调有关对象的详细信息，可以确定客户端。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4fd0bf5a542e006ec743dbb7fe03d3331875c6d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cdb1ef3cf6db2a1b63b68a105867aa6624b80c2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778623"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588893"
 ---
 # <a name="resending-an-undelivered-message"></a>重新发送未送达的邮件
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传输提供程序时它无法成功传递一条消息，您已提交发送未送达报告 (NDR)。 由客户端用户可以尝试重新发送这些未送达的消息。 如果您支持重新发送消息，您可以使用 MAPI 提供窗体或实现您自己。 MAPI 表单如果可能，显示失败的收件人和传递失败的原因的名称，并包括一个按钮，选中时，允许用户重新发送的邮件。
   

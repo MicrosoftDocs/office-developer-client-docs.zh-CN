@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d7294527fcd557ae2d4824b9a3215ff464f62c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 003655354ecac8e2910b3e6851da32c28ce31cfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774476"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586451"
 ---
 # <a name="about-restrictions"></a>关于限制
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 限制是一种方法来限制为仅与特定条件匹配的列的值这些行视图中的行数。 有许多不同的机会，使用的表的限制。 客户端应用程序可用于限制，例如，筛选搜索行的不支持属性，或具有属性设置为特定值，或查找内的重复收件人由特定人员，发送的邮件内容表消息。 
   

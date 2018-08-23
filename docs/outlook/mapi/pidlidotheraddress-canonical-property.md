@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b8acb69-4c84-4075-8457-d7aadce26c73
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b8b490242d6c0260fb4ba4335846da06a0e73d4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eaf6c8706b6f51a297fda3015b9ce9c5277760bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776950"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585960"
 ---
 # <a name="pidlidotheraddress-canonical-property"></a>PidLidOtherAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的完整地址的其他地址。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776950"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性应为其他物理地址属性的组合，并基于客户端区域设置。
   

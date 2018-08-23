@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 25942df6f6156266f16cf6e681270dbb530472e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65255e14fd849d730e92bd86027642eef2c687bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775076"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584973"
 ---
 # <a name="hide-meeting-update-option-property"></a>隐藏会议更新选项属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 隐藏该选项发送给仅添加或删除的与会者的会议更新。
   

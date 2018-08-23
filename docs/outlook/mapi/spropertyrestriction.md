@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f59b0041f271010e56dda2f73d2248f133bc1325
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d588380ccc84f51fe58bb0f092d5287b12b4270
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586534"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍用于匹配属性的值的常量属性限制。
   
@@ -67,7 +67,7 @@ typedef struct _SPropertyRestriction
   
 > 指向[SPropValue](spropvalue.md)结构，其中包含将在比较中使用的常量值的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SPropertyRestriction**结构中有两个属性标记。 一个在**ulPropTag**成员中声明，另一个是在所指的**lpProp** **SPropValue**结构的**ulPropTag**成员。 MAPI 要求属性标识符字段和属性类型字段。 在**SPropertyRestriction** **ulPropTag**是要匹配的属性和**SPropertyRestriction**到**ulPropTag**的类型的**SPropValue** **lpProp**指针指示如何的成员值解释**lpProp**联合。 必须匹配的两个属性类型，否则 MAPI_E_TOO_COMPLEX 在调用[IMAPITable::Restrict](imapitable-restrict.md)或[IMAPITable::FindRow](imapitable-findrow.md)使用限制时则返回的错误值。 
   

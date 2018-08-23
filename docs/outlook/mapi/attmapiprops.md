@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 806270c1-30e4-494e-9b03-7d1f2fc04099
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: eef480e8b024565ab282fb242a36336cd17384a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72f252791e374ed4b9b2a40c9b151ef2b91fefe6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774575"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588053"
 ---
 # <a name="attmapiprops"></a>attMAPIProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **AttMAPIProps**属性是特殊的这是的它可以用于对集合中的现有 TNEF 定义的属性没有对应的任何 MAPI 属性进行编码。 属性数据是一组计数排列的端到端的 MAPI 属性。 允许任何 MAPI 属性集合，其中的此编码，格式如下所示：  
   

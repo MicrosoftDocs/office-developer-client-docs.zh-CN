@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e42bbf23ea8cf4e6196017a962329366e168420d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776534"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585680"
 ---
 # <a name="mtsid"></a>MTSID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 X.400 邮件传输系统 (MTS) 条目标识符。 
   
@@ -51,7 +51,7 @@ typedef struct
   
 > 包含 MTS 条目标识符数据的字节数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **MTSID**结构仅用于 X.400 映射的 MAPI 条目标识符。 对应于 MAPI [FLATENTRY](flatentry.md)结构。 
   

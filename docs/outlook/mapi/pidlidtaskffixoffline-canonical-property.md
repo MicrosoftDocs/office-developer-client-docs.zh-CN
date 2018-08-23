@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bbaf7df4-2de0-4da3-9125-eb24dfa94cd8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b8da927fe0080a83748bbb2941979dcb246222fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 716d8b5b09ee0e29d1946042cae2631561d74df5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777085"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584651"
 ---
 # <a name="pidlidtaskffixoffline-canonical-property"></a>PidLidTaskFFixOffline 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示**dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)) 属性的准确性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777085"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果**dispidTaskFFixOffline**属性设置为 FALSE，或者是未设置，则**dispidTaskOwner**属性的值正确。 如果**dispidTaskFFixOffline**设置为 TRUE，客户端无法确定**dispidTaskOwner**准确值。 在这种情况下，客户端可以将**dispidTaskOwner**设置为一个通用的所有者名称，例如"Unknown"。 但是，如果客户端遇到**dispidTaskFFixOffline**值为 TRUE，并且可以确定正确的所有者名称，客户端应更新**dispidTaskOwner**并**dispidTaskFFixOffline**设置为 FALSE。 
   

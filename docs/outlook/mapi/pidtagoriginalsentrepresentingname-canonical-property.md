@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1be45cad-05a2-44cb-8c3d-7f6ac092fa0d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c71182fc5190e64bdeb95dd5d19dfa7c588a41d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2d7261aadd304b731fbf0d88cbd93cbdc07c118
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777981"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587339"
 ---
 # <a name="pidtagoriginalsentrepresentingname-canonical-property"></a>PidTagOriginalSentRepresentingName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的名义原始邮件已发送的邮件用户的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777981"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 原始表示邮件发件人的地址属性这些属性示例。 在对话的线程中使用它。
   

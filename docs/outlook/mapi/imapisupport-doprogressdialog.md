@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 527a7bb3201a4a6b1bc0807136bc88b80c189de2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32174e213334d784220b960364443e60db6d1d19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775621"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582775"
 ---
 # <a name="imapisupportdoprogressdialog"></a>IMAPISupport::DoProgressDialog
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索一个进度对象，它显示进度指示器。
   
@@ -59,7 +59,7 @@ S_OK
   
 > 已成功检索进度对象。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于通讯簿和消息存储提供程序支持对象实现**IMAPISupport::DoProgressDialog**方法。 这些提供程序调用**DoProgressDialog**来访问 MAPI 实现的[IMAPIProgress](imapiprogressiunknown.md)接口，计算进度信息并显示一个标准的对话框。 
   

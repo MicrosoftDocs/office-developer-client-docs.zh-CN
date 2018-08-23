@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9573f10c-66e1-4e87-93f0-89687e906b8b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 51241009262471bf30f7d71e3108b896bbce8df7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4ccfb8cf8201a17993932acc4c0104ace80b94d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778552"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588718"
 ---
 # <a name="preparing-a-recipient"></a>准备收件人
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序通过将其短期条目标识符格式转换为长期条目标识符和可能添加、 更改或重新排序属性准备收件人。 您可以准备属于邮件的收件人列表的收件人或一条消息，与无关的收件人。 通常情况下，客户端调用[IAddrBook::PrepareRecips](iaddrbook-preparerecips.md)直接要转换为长期条目标识符的短期条目标识符的通用的地址对话框中包含的收件人。 对于与传出邮件的收件人，收件人准备进行处理的名称解析过程。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 92540159386e6f37d93684aff037b235071010f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef0dc212a6a6f761cd8dd0cae5312c548c02ae50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776100"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583818"
 ---
 # <a name="itabledatahrqueryrow"></a>ITableData::HrQueryRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索表格行。
   
@@ -59,7 +59,7 @@ MAPI_E_INVALID_PARAMETER
   
 > [SPropValue](spropvalue.md)结构不包含索引列属性的_lpSPropValue_点。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrQueryRow**方法检索的所有行已索引列包含指向_lpSPropValue_属性结构中的索引列的值相匹配的属性。 **HrQueryRow**还返回行数，如果呼叫者请求其标识表中的行的位置。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 116e3cfaace9c0965001021575b76ec371667877
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 961ac2d26cd58e625c35d00bd1216cdee2ce57a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776123"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584728"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传输提供程序立即提供所有挂起的入站或出站消息的请求。
   
@@ -76,7 +76,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用**IXPLogon::FlushQueues**方法以指出 MAPI 后台处理程序即将开始处理邮件的传输提供程序。 传输提供程序应调用[IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md)方法，以便其状态的行的**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性中设置其状态的适当的位。 更新其状态的行之后, 传输提供程序应**FlushQueues**呼叫返回 S_OK。 MAPI 后台处理程序然后启动发送消息，与正在同步到 MAPI 后台处理程序的操作。 
   

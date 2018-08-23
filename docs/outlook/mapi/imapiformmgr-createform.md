@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ed3f793e4353cf78949a9df3a17dd3997a573f58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e86c3d9678739c09024c0655cbbbb702749a53f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586163"
 ---
 # <a name="imapiformmgrcreateform"></a>IMAPIFormMgr::CreateForm
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开一个窗体创建新邮件基于窗体的邮件类别。
   
@@ -73,7 +73,7 @@ MAPI_E_NO_INTERFACE
   
 > 通过 form 对象不支持所请求的接口。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::CreateForm**方法打开要创建新邮件窗体的邮件类所基于的表单。 **CreateForm**通过给定窗体信息对象中所述创建该窗体的窗体服务器实例中打开该窗体。 如果需要， **CreateForm**调用[IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md)方法下载到用户的磁盘的窗体服务器代码。 
   

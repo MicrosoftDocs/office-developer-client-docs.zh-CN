@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5c64258f-6828-43d7-be69-b294b0773717
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3469e5b6e4ab3d6a4af1f74c68cafe2ab3156fb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c65413a1e7157f7ff297b8f7f191a96361e410c2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774644"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587584"
 ---
 # <a name="cbspropattrarray"></a>CbSPropAttrArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 计算中的现有[SPropAttrArray](spropattrarray.md)结构的字节数。 
   

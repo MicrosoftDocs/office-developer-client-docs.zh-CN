@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1394039b-d509-49a5-8421-b7362d906879
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 516de39d721c532c003775bd366a52ed8144ab88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72a26875802b2b7f94261f11e78fe560e9cc49d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775910"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583426"
 ---
 # <a name="imsgstoreunadvise"></a>IMsgStore::Unadvise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 取消发送通知之前设置与对[IMsgStore::Advise](imsgstore-advise.md)方法的调用。 
   
@@ -45,7 +45,7 @@ S_OK
   
 > 成功取消注册。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::Unadvise**方法取消注册的通知。 呼叫者到其指针告知接收器，它用于注册的**Advise**调用中接收**Unadvise**版本。 
   

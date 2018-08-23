@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 23074402-6ac1-47f1-8a49-b8909f98a26e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a21eecfb1bf3bc4f09fc5becb9a4a99a97193330
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30482f7d6acef7377a1b63bc3de4e43be48d8608
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583356"
 ---
 # <a name="pidtagdisplaytypeex-canonical-property"></a>PidTagDisplayTypeEx 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个条目，相对于如何条目应显示在表中的行的全局地址列表的类型。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777584"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指定的一个条目，相对于它的全局地址列表中显示的方式的类型。 它提供不能用**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 表示的其他信息。
   

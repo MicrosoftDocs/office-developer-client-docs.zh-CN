@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5e8ed98-57af-40d0-85c4-9d9832626e6b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6f7137e3d5712e7d7ce12800a07b860679dd099a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 05cd1428966f6c61e2f5e13e574a0bbcb253f7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776698"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582600"
 ---
 # <a name="pidlidappointmentstartwhole-canonical-property"></a>PidLidAppointmentStartWhole 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示的日期和约会开始的时间。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776698"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指定的开始日期和事件的时间。 此属性必须采用协调世界时 (UTC)，并且必须小于**dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) 属性的值。 对于定期系列，该属性是开始日期和时间根据定期模式的第一个实例。
   

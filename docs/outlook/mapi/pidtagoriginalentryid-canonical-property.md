@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d60531b087d00ca63a060a4dbfac559ba3b01788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eab72c5b49ba501d8ab5516bf5a5eae9ea82abe0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777944"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588704"
 ---
 # <a name="pidtagoriginalentryid-canonical-property"></a>PidTagOriginalEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含复制到个人通讯簿通讯簿或其他写通讯簿条目的原始项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777944"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是包含有关复制条目的原始源的信息的属性之一。
   

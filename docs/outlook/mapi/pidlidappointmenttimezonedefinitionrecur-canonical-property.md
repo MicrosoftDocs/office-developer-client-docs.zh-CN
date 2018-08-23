@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 52fd57a0-9e34-4452-9ecd-2acb454446c9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5cff6ec7b39c26eec098d250688d98bf1e4799ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 06f086b84650c6719c49cabda418f4e2553e4e43
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776706"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589600"
 ---
 # <a name="pidlidappointmenttimezonedefinitionrecur-canonical-property"></a>PidLidAppointmentTimeZoneDefinitionRecur 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含映射到的存储的说明创建定期约会或会议请求时使用的时区[TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx)结构持久化格式的流。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776706"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 自 Microsoft Office Outlook 2007 和基于上协作数据对象 (CDO) 1.2.1 （英文) 的解决方案的 Microsoft Outlook 的运行 Outlook 或 Exchange Server 日历版本更新工具使用**dispidApptTZDefRecur**和**dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) 属性以确定是否应调整定期会议，是否更改时区的规则。 这些属性必须保持同步，因为旧客户端可能仍然操作**dispidTimeZoneStruct**属性。 若要检测是否同步两个属性，规则相匹配**dispidTimeZoneStruct** **wFlags**成员应具有的 TZRULE_FLAG_RECUR_CURRENT_TZREG 标记设置。 如果未设置此标志，或将其设置**dispidTimeZoneStruct**属性中的规则与标记的规则不匹配时，应丢弃**dispidApptTZDefRecur**属性，并应改用**dispidTimeZoneStruct** 。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a0bc2b5-d0c9-405b-97ad-b43839f908da
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 80d135da7f49d12d2d33f7cafe01295673a56902
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ec99eba9759588ff69fc141de8e499ee87d69ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776758"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586324"
 ---
 # <a name="pidlidemail1addresstype-canonical-property"></a>PidLidEmail1AddressType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的第一个电子邮件地址的地址类型。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776758"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果存在此参数，此属性值必须是有效的地址类型。
   

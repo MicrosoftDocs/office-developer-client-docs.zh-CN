@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a948c8c25eec9b31735bb34b91e2dec4bca5fcfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19775598"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583447"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 执行上一条消息后处理。 
   
@@ -55,7 +55,7 @@ S_OK
   
 > 后处理过程成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::CompleteMsg**方法实现的消息存储提供程序支持对象和只能由与传输提供程序紧密耦合的消息存储提供程序调用。 紧密耦合的存储提供程序调用**IMAPISupport::CompleteMsg**以指示 MAPI 后台处理程序后置处理一条消息。 
   

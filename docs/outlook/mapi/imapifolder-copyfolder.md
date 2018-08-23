@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5961e7a2118a46bdc9c0e66138363976ae2f7154
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 134a492dbc86dd0ce6b3795d5ae40b334c14d468
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775346"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585148"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制或移动的子文件夹。
   
@@ -120,7 +120,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但并非所有的项目复制成功。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::CopyFolder**方法复制，或将子文件夹从一个位置移至另一个。 正在复制或移动的子文件夹为子文件夹添加到目标文件夹中。 
   

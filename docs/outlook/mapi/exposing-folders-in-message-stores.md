@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d9309e47-2a92-4576-9921-c89cc48472c2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0e7b479931b6b2b00dd3927133187fe058b4c6e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62f50ed7925305eca7432da17130d2be0365ef03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774888"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582593"
 ---
 # <a name="exposing-folders-in-message-stores"></a>公开邮件存储区中的文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 每个消息存储提供程序必须提供客户端应用程序的顶级[IMAPIFolder](imapifolderimapicontainer.md)接口。 顶级文件夹对应的整个邮件存储;它提供用户看到的消息存储内容的文件夹的访问。 此外的顶级文件夹通常用作默认的接收文件夹 IPC 邮件文件夹以及从其阅读报告发送。 消息存储提供程序必须还提供 IPM 子树 — 的一组用于包含 IPM 邮件文件夹 — 客户端应用程序。 
   

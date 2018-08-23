@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 700ccfc9-493a-483b-aca0-aa2d7f6bb229
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cd8c44923e64fcea4464f758389db05bb6b7e374
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fee808a02262ef47bff0279c929824becc23912
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777922"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589397"
 ---
 # <a name="pidtagoriginaldeliverytime-canonical-property"></a>PidTagOriginalDeliveryTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一份原始邮件的传递日期和时间线程中的项目。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777922"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是从后续答复或正向操作中的原始**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) 属性复制，读取和 nonread 报表中使用。 送达报告改用**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) 属性。
   

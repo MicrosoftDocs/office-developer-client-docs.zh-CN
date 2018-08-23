@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c410a34a-f71e-4fe7-815b-13bb6433a7fa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 44fdac48aff2defb786077b6d77924261a385407
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d20510b0e33744bf8ef7a0c42721d3aac3dec81a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777237"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587241"
 ---
 # <a name="pidnameslidecount-canonical-property"></a>PidNameSlideCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 附加到文档的文件中指定的幻灯片的数目。
   

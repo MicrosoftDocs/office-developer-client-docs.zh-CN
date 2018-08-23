@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 69ed3d48-3741-4a9a-8f98-51382b850c27
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d26a686573a9dc178a46b7dfdc5c18485303b7ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b8ab295c9667d4cabb42c92dff7e8d1a3c2dd5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777086"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584707"
 ---
 # <a name="pidlidtaskduedate-canonical-property"></a>PidLidTaskDueDate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示用户希望完成任务的日期。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777086"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性未设置或设置为 0x5AE980E0 (1,525,252,320)，该任务具有没有截止日期。 但是，截止日期是可选的仅当没有开始日期指示**dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)) 属性中。 如果任务的截止日期，值必须具有时间组件的午夜，并且还必须设置**dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) 属性。 如果**dispidTaskStartDate**开始日期， **dispidTaskDueDate**属性的值必须大于或等于**dispidTaskStartDate**的值。
   

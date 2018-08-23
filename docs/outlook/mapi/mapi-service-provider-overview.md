@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e7cbc79f-3d60-4f21-a378-7b0088ee8ad3
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 15a53a0bb16db3683e4c1320ac2e54648c8c697b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14536755c304ede0139b6b1026bb1539a261942f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776327"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586408"
 ---
 # <a name="mapi-service-provider-overview"></a>MAPI 服务提供程序概述
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 子系统和消息的系统之间的各种服务提供商。 服务提供商就像连接到基础消息系统的 MAPI 客户端应用程序的驱动程序。 有三种类型的提供程序： 消息存储提供程序、 通讯簿或目录提供商和邮件传输提供程序。 MAPI 支持每种服务独立，使供应商，以提供一个或多个自定义服务提供商。 例如，供应商可能希望在创建使用员工的公司电话簿目录通讯簿提供程序或创建一个使用现有数据库的消息存储提供程序。
   

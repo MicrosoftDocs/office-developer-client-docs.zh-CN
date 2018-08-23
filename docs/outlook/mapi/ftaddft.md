@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e0e1535a770d4f1b437faf6a90c5f6415f6000ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b02fc316001ae11d64988cc29d0e62e9adde55e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775012"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585582"
 ---
 # <a name="ftaddft"></a>FtAddFt
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 添加到另一个无符号的 64 位整数。
   

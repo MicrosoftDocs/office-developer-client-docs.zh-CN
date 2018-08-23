@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1dd460e6-ce95-4fef-bb5e-8d778c9716d5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5a5e736e8be1120f5fb90048f01fdc8a44479060
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5cb43bfa3acd912e397644657223c177d6afb30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589320"
 ---
 # <a name="hrallocadvisesink"></a>HrAllocAdviseSink
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建 advise 接收器对象，由指定的呼叫的实现，回调函数以触发的事件通知的上下文。 
   
@@ -59,7 +59,7 @@ STDAPI HrAllocAdviseSink(
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要使用**HrAllocAdviseSink**函数，客户端应用程序或服务提供商创建一个对象，以接收通知，创建基于[NOTIFCALLBACK](notifcallback.md)函数原型对象，该对象与对应的通知回调函数和一个指针传递给作为_lpvContext_值的**HrAllocAdviseSink**函数中的对象。 这样执行通知;并作为通知过程的一部分，MAPI 调用的回调函数与作为上下文的对象指针。 
   

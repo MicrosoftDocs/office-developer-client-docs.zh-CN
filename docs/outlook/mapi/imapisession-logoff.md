@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7d6ccd64fea0af30e81a2db0bcb9630062b4b64d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587836"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 结束 MAPI 会话。
   
@@ -63,7 +63,7 @@ S_OK
   
 > 注销操作已成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::Logoff**方法结束 MAPI 会话。 **注销**返回时，无除外[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)方法可调用它。 
   

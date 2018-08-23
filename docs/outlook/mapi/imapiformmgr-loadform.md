@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1f3a876269868c30df48e0a0b62036cfdc199955
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e758acfa1cf0c11be666dd730d9bf589d2e9d77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586212"
 ---
 # <a name="imapiformmgrloadform"></a>IMAPIFormMgr::LoadForm
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启动打开现有邮件窗体。
   
@@ -111,7 +111,7 @@ MAPI_E_NOT_FOUND
   
 > _LpszMessageClass_中传递的邮件类不匹配的邮件类的窗体库中的任何表单。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::LoadForm**方法打开现有邮件窗体。 **LoadForm**打开 form 对象，将邮件加载到窗体对象、 设置适当的视图上下文，如有必要，并返回窗体对象的请求的接口。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 63b8224ad56e2b9985c9d733e2a3c27c67eb2f7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ac4a30d6afc7e5245441bfe2d501169dd3a9447
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586121"
 ---
 # <a name="opening-a-message-store-folder"></a>打开邮件存储文件夹
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 可打开任何文件夹之前，必须提供其条目标识符。 对于大多数文件夹，这意味着检索其**PR_ENTRYID**属性。 对于特殊文件夹，如的一些 IPM 子树文件夹和其他根文件夹，MAPI 定义通过调用的消息存储**IMAPIProp::GetProps**方法可访问的特殊条目标识符属性。 这些条目标识符始终是长期和名，如下所示： 
   

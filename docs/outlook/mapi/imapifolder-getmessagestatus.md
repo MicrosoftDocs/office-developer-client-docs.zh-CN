@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bac363183c15a2d53c15b46724266b6cb5744075
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775359"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583265"
 ---
 # <a name="imapifoldergetmessagestatus"></a>IMAPIFolder::GetMessageStatus
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 获取与特定的文件夹中的邮件 （例如，无论该邮件被标记为删除） 的状态。
   
@@ -84,7 +84,7 @@ S_OK
   
 > 已成功检索邮件状态。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::GetMessageStatus**方法返回一条消息，的状态。 邮件状态存储在消息的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性中。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6b68bb078b9b40a857182b224603355a1974a11a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ceb02fcf94a04b045a8ef387fc87b161a5515a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778177"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583300"
 ---
 # <a name="pidtagregisteredmailtype-canonical-property"></a>PidTagRegisteredMailType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此属性包含注册用于物理邮件传递的类型。
   

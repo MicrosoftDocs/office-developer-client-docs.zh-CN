@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a66d1c64-5c5a-4980-9acd-72448108fd2c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a05743f2fa10326a358dd92a72cf530740274f2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b10daf3bdc11d406b6f7248fd6aaa9e3c6c2a68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777413"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584714"
 ---
 # <a name="pidtagbodycontentlocation-canonical-property"></a>PidTagBodyContentLocation 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 MIME 内容位置标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777413"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要设置这些属性的值，MIME 客户端应所需的值都写入到内容位置标头字段映射到邮件正文 MIME 实体。
   

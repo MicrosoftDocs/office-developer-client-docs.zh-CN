@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 14abfaadcdb1710a7cb8275c8f82d502aea8300e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 010f69b70324d4280a34d2fe06d670e07d922d86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775510"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586772"
 ---
 # <a name="imapiprogresssetlimits"></a>IMAPIProgress::SetLimits
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置项的数目的上限和下限限制中操作，并且控制操作的进度信息的计算方式的标志。
   
@@ -59,7 +59,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 服务提供商调用**IMAPIProgress::SetLimits**方法来设置或清除 MAPI_TOP_LEVEL 标志并设置本地和全局最小和最大值。 是否正在进行对象了解最小和最大值为本地域或全局设置会影响标志的值。 当设置 MAPI_TOP_LEVEL 标志时，这些值将被视为全局并用于计算整个操作的进度。 进度对象初始化为 1 的全局最小值和全局最大值为 1000年。 
   

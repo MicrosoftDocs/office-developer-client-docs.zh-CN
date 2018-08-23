@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 589420db48edb348a22f34ce72b948f4d8207ae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e624ab4f39ef5a5385119779b0780ee7173a3ee7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776158"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586919"
 ---
 # <a name="long-term-entry-identifiers"></a>长期条目标识符
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对象需要与长寿命标识符时，将服务提供程序为对象分配的长期的项标识符。 长期条目标识符周或月始终是有效，可以在其他工作站，具体取决于提供程序上有效。 创建自定义的收件人的地址簿提供程序的长期标识符是通用有效。 
   

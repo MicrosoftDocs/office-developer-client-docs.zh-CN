@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: Project Online 是 Office 365 服务，公司可以扩展以满足业务需求。 一个扩展区域是企业自定义域 (ECFs)。 ECFs 不可以添加到项目、 资源和任务的类型的值字段。 下表列出了将与项目、 资源和任务相关联的 ECFs，并为该 ECF 实例提供值的示例：
-ms.openlocfilehash: d6c8f97ffc887b33e5d81af8e463cf10502845dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d560b258f2c9873844009cb6bc6e698abec029a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584602"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>访问 Project Online 企业自定义字段
 
@@ -205,7 +205,7 @@ ListPWACustomFields 方法检索并列出 ECFs 与项目关联。 此方法列�
   
 ## <a name="see-also"></a>另请参阅
 
-- [项目开发门户](http://dev.office.com/project.aspx)
+- [项目开发门户](https://developer.microsoft.com/en-us/project)
 - [概述： 企业自定义域和查阅表格](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [本地和企业自定义域](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
 - [添加或编辑 Project Server 2013 中的企业自定义域](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)

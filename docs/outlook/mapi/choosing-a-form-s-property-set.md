@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 456ef036b26fd8b9840d33f0f699474c3a6ce127
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ff8d9f1ae25c55d66847b8c0e5e66c406dfdfba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774665"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586149"
 ---
 # <a name="choosing-a-forms-property-set"></a>选择窗体的属性集
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 实现表单服务器时，您需要具有对每个邮件类所需的信息的属性。 这些属性可以是预定义的 MAPI 属性，也可以在您定义的自定义属性。 有关使用属性的详细信息，请参阅[MAPI 属性概述](mapi-property-overview.md)。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c702e4063bf5e5a06a9e476a02172a780c7e326a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48df5362106e849f061b0797736fad82fafa6584
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775761"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588711"
 ---
 # <a name="imessageopenattach"></a>IMessage::OpenAttach
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开附件。 
   
@@ -72,7 +72,7 @@ S_OK
   
 > 已成功打开附件。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMessage::OpenAttach**方法打开邮件附件。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c899eb0afd123b26e12081f5157be3bae7917813
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd5a14b07888c7a17d550941909b345eff3b0276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585456"
 ---
 # <a name="implementing-iunknown-in-c"></a>使用 C++ 实现 IUnknown
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在 c + + 中实现的[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx)接口[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)、 [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)和[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)方法是相当简单。 后的参数中传递的一些标准验证， **QueryInterface**实现检查的受支持接口的列表对请求的接口的标识符。 如果之间所支持的请求的标识符， **AddRef**称为，则返回**此**指针。 如果请求的标识符不在受支持的列表中，将输出指针设置为 NULL，并返回 MAPI_E_INTERFACE_NOT_SUPPORTED 值。 
   

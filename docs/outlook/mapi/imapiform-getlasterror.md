@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 81af8a0b-4ec2-459c-8ab2-29d28a8b680f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8b29298ab97518c2e346c2cdc5dee6baec28f8e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a83af0766c907f2868f7d5e116454e648d6f4463
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583769"
 ---
 # <a name="imapiformgetlasterror"></a>IMAPIForm::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面 form 对象生成的错误的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志**GetLastError**不支持 Unicode，或未设置 MAPI_UNICODE 和**GetLastError**支持仅 Unicode。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIForm::GetLastError**方法提供有关失败的前一个方法调用的信息。 呼叫者可以向其用户提供有关错误的详细信息通过在对话框中包括的**MAPIERROR**结构中的数据。 
   

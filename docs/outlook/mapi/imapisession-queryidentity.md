@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a2cdda90-5457-49a7-b98c-7273ffe5cbbc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c8f05707d63f922c9ce22e6e520c6c57e686f884
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b64653aa87ff7ac983409978a69f59148251d7d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775574"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583412"
 ---
 # <a name="imapisessionqueryidentity"></a>IMAPISession::QueryIdentity
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回会话中提供的主要标识的对象的项标识符。
   
@@ -54,7 +54,7 @@ MAPI_W_NO_SERVICE
   
 > 呼叫成功，但没有任何主标识会话。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::QueryIdentity**方法检索当前会话的主标识，并返回通过_lppEntryID_参数的值。 主 identity 是一个对象，通常消息，表示用户会话的用户。  _lppEntryID_返回[IMailUser](imailuserimapiprop.md)对象，它还存储为[PidTagEntryID](pidtagentryid-canonical-property.md)属性的主标识。 您可以使用_lppEntryID_中返回的值打开使用[IMAPISession::OpenEntry](imapisession-openentry.md) **IMailUser**对象。
   

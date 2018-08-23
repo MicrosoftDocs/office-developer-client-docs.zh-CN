@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: ab17dcf2-409b-4a57-9cc4-5794f995cd3e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ad6a4661025dfd8cbd39d8f58a36d94ab997ada2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 05666d8d6b7279588b4b442151640fa1696aedda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586779"
 ---
 # <a name="mapisvcinf-service-provider-sections"></a>MapiSvc.inf 服务提供程序部分
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 Mapisvc.inf 上述邮件服务部分中的**提供程序**条目中列出的项的每个包含服务提供程序的一部分。 **服务**提供程序部分是邮件服务节相似，，这两种类型的各节包含采用以下格式的条目： 
   

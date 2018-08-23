@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b0f86b2260299d2d0294598628f2895c50ed9452
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 124a0d8f23fcff9d1bca9d5debe4a9aa6fb6146c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777016"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587115"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>PidLidRemoteTransport 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 标识哪个帐户的标头项相关联，主要是为了实现 POP 保留在服务器功能。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777016"
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |远程邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是仅对具有邮件类 IPM 的邮件。远程。 Microsoft Outlook 保持在文件夹关联的信息 （从故障） 邮件中，为给定的存储到下载的各种帐户的映射，但它无法在注册表中保留此信息。
   

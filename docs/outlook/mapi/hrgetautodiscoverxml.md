@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: da466fc9add8cbc385014782f31749d3b6522da9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 490c834ee63c158b3f9c0e34f8de7f582c650bc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775158"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584063"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个值，该值代表从 Microsoft Exchange 2007 服务器的自动发现服务检索信息的可扩展标记语言 (XML) 流。
   

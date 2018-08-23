@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 40d7a45ab97e0d2f8e9d3db1e1d38eb3bdb75158
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d797932a9fd22944f1cfd78e7fb67cd3ddbf8632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778956"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588816"
 ---
 # <a name="synchronizing-text-and-formatting"></a>同步文本和格式设置
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 发送富文本格式 (RTF) 邮件的主要难题保持同步带格式的文本。 若要确保时邮件到达其目标它们以适合其原始发件人和文本和格式的同步、 MAPI 提供了[RTFSync](rtfsync.md)函数。 **RTFSync**通常调用之前显示传入消息的 RTF 感知客户端和 MAPI 后台处理程序时其下载到传输提供程序的消息。 呼叫者通过将一个或两个标志传递给**RTFSync**指定可能的区别的区域：
   

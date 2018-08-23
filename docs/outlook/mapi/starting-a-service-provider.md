@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 99f47ee4fe990b0e77fcf868977b72d83bfdbac7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d14a9961002d63733423af474e147ec5001051fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778874"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586331"
 ---
 # <a name="starting-a-service-provider"></a>启动服务提供程序
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在某些点客户端的 MAPI，启动会话后将启动服务提供商。 当客户端请求其服务已启动传输提供程序。 地址簿和消息存储提供程序已启动客户端的登录过程。
   

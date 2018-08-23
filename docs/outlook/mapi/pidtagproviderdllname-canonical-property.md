@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d75f22af3f8c9184da55ec57e08cf4db832ed174
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3bf6347102fc0865b081847a0b66763ba2654665
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778080"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589481"
 ---
 # <a name="pidtagproviderdllname-canonical-property"></a>PidTagProviderDllName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含基文件名的 MAPI 服务提供程序动态链接库 (DLL)。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778080"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 使用 DLL 文件命名约定。 基文件名包含唯一标识 DLL 的最多包含 6 个字符。 MAPI 将字符串 32 追加到基的 DLL 名称，来确定在 32 位平台运行的版本。 例如，当 MAPI 的名称。指定 DLL，MAPI 构造 MAPI32 的名称。表示的 dll 的相应 32 位版本的 DLL。
   

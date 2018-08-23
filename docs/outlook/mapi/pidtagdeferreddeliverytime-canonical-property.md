@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 263ac923-692f-40d4-bdd5-116dc5c49766
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b6b5f5aa5c595fb0c19ca9b8a9f8aeb94a2c2725
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b33d3d26c9369bd0a0e18cdf9e4b8ca850666657
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584868"
 ---
 # <a name="pidtagdeferreddeliverytime-canonical-property"></a>PidTagDeferredDeliveryTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间当邮件发件人要发送一条消息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777555"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 不会执行延迟的传送;它是基础消息系统的选项来处理推迟的传递。
   

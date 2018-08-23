@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cb683178a8e258f571cbc3d05a3b030481905433
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 524bbfe5f40a66585fb4ed4463b057ca6a0c881a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775591"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586800"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 显示通用的地址对话框。 
   
@@ -55,7 +55,7 @@ S_OK
   
 > 已成功地显示地址对话框。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于通讯簿提供程序支持对象实现**IMAPISupport::Address**方法。 通讯簿提供程序调用要创建或更新的邮件的收件人列表的**地址**。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d46ce99a-4d7f-45b0-ba21-154498c15775
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 70e594057f2d654e0527b0caa0951e44842df809
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad10b2ebd835b21f207fd43ecd8aebc7e1f475f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774873"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585302"
 ---
 # <a name="ensuring-a-thread-safe-notification"></a>确保线程安全通知
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果在多线程平台上运行您的客户端，您可能需要对[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法的调用发生在特定线程的保证。 因为调用**OnNotify**通常可以在任何线程上发生，就可以接收通知意外和不需要的线程，从而导致难以调试的错误。 
   

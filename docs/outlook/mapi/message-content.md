@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ce643afe-e5b6-42f2-b3cf-4efb957c4f2e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5e8debcd5a60357f05dfb7b6bde1faf972e50a26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85bd3f7db53f195295405fb0b02c25f084786a67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776502"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586079"
 ---
 # <a name="message-content"></a>邮件内容
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有两个可能的消息内容编码： 一个使用 MIME，其他使用 uuencode。 MIME 是首选编码。 此外，MAPI 定义的每个收件人属性， **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md))，其控制 TNEF 信息应包含传出邮件中。 因此，共有四种方式的编码消息内容的：
   

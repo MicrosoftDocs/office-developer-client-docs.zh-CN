@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a1df3ba8e57f1e91894b88d7e8a72feb681e13dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 45d4b0bfe7f902ee2cfe1d735c990d80f8fbb60d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777362"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588942"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>PidTagAttachRendering 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含附件的呈现信息与 Microsoft Windows 图元文件。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777362"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的用途是提供的图标或其他可在附件点父消息中显示的图形表示。 此类表示通常包括附件，如果有的名称和附件，如 Microsoft Office Word 文档的特性。 客户端应用程序可以在显示的邮件使用这种表示形式。 
   

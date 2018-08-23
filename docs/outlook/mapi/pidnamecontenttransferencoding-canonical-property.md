@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b297a81a6a6fa2e328b0c747eaf269c038288b1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e903e717342f1efd346d31c591dfbec516cb6c31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19777200"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582565"
 ---
 # <a name="pidnamecontenttransferencoding-canonical-property"></a>PidNameContentTransferEncoding 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 [RFC3282] 内容传输编码标头字段值。
   

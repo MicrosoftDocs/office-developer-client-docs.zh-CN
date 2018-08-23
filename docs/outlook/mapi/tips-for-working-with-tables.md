@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 451bab57d4e2e8669a25d119f9ce28a8f78e628f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9b4d6a469904058b0484428dbf20a90119e96bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586135"
 ---
 # <a name="tips-for-working-with-tables"></a>使用表的提示
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用 MAPI 表是一个小喜欢使用关系数据库表。 用户可以限制的行和视图中的列数，并指定它们的顺序。 行可以检索到的一个一次或组中。 可以将跟踪的当前位置光标移动到表中的特定位置。 
   

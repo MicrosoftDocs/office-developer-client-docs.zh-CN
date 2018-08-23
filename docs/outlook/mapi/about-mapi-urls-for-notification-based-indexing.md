@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 27ad80b9eca8332beeda147a8b2b4204f9f1cd38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57868996f95cfb135298378d2638bc57b2e69977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774462"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583671"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>关于基于通知的索引的 MAPI URL
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当存储提供程序通知对象是供索引编制索引器时，它将生成一个唯一标识到 MAPI 协议处理程序的对象的 MAPI URL。 MAPI Url 在 Unicode 中编码和具有以下格式： 
   

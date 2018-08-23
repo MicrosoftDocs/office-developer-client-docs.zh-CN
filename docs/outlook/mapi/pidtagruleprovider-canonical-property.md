@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 64f80a03-9ba4-495a-9666-b3a909335cb6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5456e0abffd1ac25983809d32fde88644eaa01cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a80669f3d8f3d262cc8787f60efb3bc4b24d4b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778291"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589439"
 ---
 # <a name="pidtagruleprovider-canonical-property"></a>PidTagRuleProvider 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的应用程序设置规则的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778291"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 延迟操作需要这些属性来标识的代码必须解释和执行规则操作。
   

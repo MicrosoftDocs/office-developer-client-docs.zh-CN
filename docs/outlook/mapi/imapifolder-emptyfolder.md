@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7d8653b8f0cb2196319c4a9c2b4bca89c8be5a24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 287577babc9a40b771aa9917211ba5dcbf8190ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775368"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584938"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 删除所有消息和子文件夹从文件夹而不删除该文件夹本身。
   
@@ -71,7 +71,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但不是完全清空文件夹。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::EmptyFolder**方法将删除所有文件夹的内容而不删除该文件夹本身。 
   

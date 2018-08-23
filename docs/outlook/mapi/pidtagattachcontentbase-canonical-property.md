@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 35c10264-6998-4c46-8cef-82708c96d9c7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cff0e2a5ffdb3b85e73b24ec8a30b7d88637ce48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40e2efbf512265dffeee43d09e85879e8c3a0e56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582418"
 ---
 # <a name="pidtagattachcontentbase-canonical-property"></a>PidTagAttachContentBase 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 邮件附件的内容的基本标头。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777328"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用这些属性 MHTML 支持。 它们表示的适当的 MIME 正文部分内容的基本标头。 
   

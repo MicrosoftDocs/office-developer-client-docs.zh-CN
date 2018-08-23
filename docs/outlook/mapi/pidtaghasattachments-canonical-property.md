@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3b618e5a79c3b7e3810ea541aa9b905dfa4188a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 505f9bb80c86b956cd920348f2120f7fc8494d8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587500"
 ---
 # <a name="pidtaghasattachments-canonical-property"></a>PidTagHasAttachments 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果邮件包含至少一个附件，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777669"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储从**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性的**MSGFLAG_HASATTACH**标志复制此属性。 然后，客户端应用程序可以使用**PR_HASATTACH**排序所依据邮件查看器中的邮件附件。 
   

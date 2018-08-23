@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 35bb0d6d-41d4-47d6-b161-be3721894201
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 83ab01363d478d197286bfa8f7b5b092a7ffd5a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03465df65498643ce02598fdc26ab78b44e1135a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777703"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588676"
 ---
 # <a name="pidtagiconindex-canonical-property"></a>PidTagIconIndex 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个数字，指示显示一组电子邮件对象时要使用的图标。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777703"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性，如果存在，为对客户端的提示。 客户端可能会忽略此属性的值。 
   

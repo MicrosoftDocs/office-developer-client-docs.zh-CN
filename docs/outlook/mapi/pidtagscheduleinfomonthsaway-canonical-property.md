@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6301cd86a81dfbf38666b6fb3ea326bc1f801490
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8caf16bad26eef10d7686d66c5a17320de5e3bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778348"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588102"
 ---
 # <a name="pidtagscheduleinfomonthsaway-canonical-property"></a>PidTagScheduleInfoMonthsAway 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个文章列表有外出 (OOF) 类型的忙/闲数据的忙/闲邮件中存在的月份。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778348"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 格式、 computation 和此属性的约束的那些**PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) 相同，但引用标记外出 (OOF) 关联的约会calendar 对象。
   

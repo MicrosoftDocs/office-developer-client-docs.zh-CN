@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7db0645b-f3ab-4fc4-b865-68c952aeb359
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1d4d4404d175458d5b708948b11c93b734a8bd1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c0263b905e01a8937e2472d6e8c165287e7ebc5d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588046"
 ---
 # <a name="pidtagreadreceiptrequested-canonical-property"></a>PidTagReadReceiptRequested 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果邮件发件人消息系统收件人已阅读邮件时生成读取的报表，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778111"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为 TRUE，以验证**PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) 和**PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)) 属性中的值。
   

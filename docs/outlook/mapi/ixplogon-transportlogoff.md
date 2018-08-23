@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b2b368ce-4486-4f90-985f-59e50ca95229
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 195f2d718428eb8bb618fc982488c276d8a536da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 761228a01e0dc778b962c62436e872ff20d72088
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776137"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586310"
 ---
 # <a name="ixplogontransportlogoff"></a>IXPLogon::TransportLogoff
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启动注销过程。 
   
@@ -45,7 +45,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。 如果返回 S_OK 之外的任何，提供程序被注销。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用**IXPLogon::TransportLogoff**方法终止传输提供程序会话的特定用户。 调用**TransportLogoff**之前, MAPI 后台处理程序放弃[IXPLogon::AddressTypes](ixplogon-addresstypes.md)方法中传递该会话的支持邮件的地址类型有关的任何数据。 
   

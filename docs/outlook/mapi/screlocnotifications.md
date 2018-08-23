@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bb4ff6a128b9fed29ff0be5325c21e5600389740
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4117558d27d64444cdac62651584fe6cfe8ff061
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583965"
 ---
 # <a name="screlocnotifications"></a>ScRelocNotifications
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 调整指定的事件通知阵列中的指针。 
   
@@ -75,7 +75,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 遇到无效的通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ScRelocNotifications**函数_pcb_参数是可选的。 
   

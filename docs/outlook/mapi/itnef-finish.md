@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2b95e0dd62d83dd83a064ee4627811fcb24af921
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aff805f7868ec0c2adc55ece94c45b76368ba6eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776113"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583762"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 处理排队的所有传输中性封装格式 (TNEF) 操作和等待完成。 
   
@@ -55,7 +55,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 传输提供程序、 消息存储提供程序，和网关呼叫给[ITnef::AddProps](itnef-addprops.md)和[ITnef::SetProps](itnef-setprops.md)方法的调用中请求的**ITnef::Finish**方法执行的编码的所有属性的都编码。 如果 TNEF 对象已打开了 TNEF_ENCODE 标记[OpenTnefStream](opentnefstream.md)或[OpenTnefStreamEx](opentnefstreamex.md)函数中，**完成**方法将编码为传递到该对象的封装流请求的属性。 如果 TNEF 对象已打开了 TNEF_DECODE 标记，**完成**方法解码 TNEF 流中的属性，并将它们写回其所属的消息。 
   

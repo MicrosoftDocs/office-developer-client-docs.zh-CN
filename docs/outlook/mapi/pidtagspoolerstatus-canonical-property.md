@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: df52f668e91b707c0436b394186b27fdbb3a5dbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d04144a4f5ef714b59b608bfe19367bcb3c1ced8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778443"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588571"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>PidTagSpoolerStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含基于可供 MAPI 后台处理程序的信息消息的状态。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778443"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性在消息对象上通过 MAPI 计算。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f7495030-e3b8-4c7c-9e19-284ba820e846
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9a3006b43eb9f210603ff3a3d890118e7fd61d7a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03917ad52f1dc1ce4d0b59cd54fe33f58f352061
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774760"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582943"
 ---
 # <a name="deleting-a-recipient"></a>删除收件人
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  **若要从可修改容器中删除一个或多个通讯簿条目**
   

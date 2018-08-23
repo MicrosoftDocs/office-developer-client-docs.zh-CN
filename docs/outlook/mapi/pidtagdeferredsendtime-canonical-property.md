@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ee206c2d-8371-4d19-b42b-78f6479e13ca
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3912c429f1aa932b4956d943579a4ed99634dca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f636c0a49d6ad96ab157d00780fa6ffc5c8f3236
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588270"
 ---
 # <a name="pidtagdeferredsendtime-canonical-property"></a>PidTagDeferredSendTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示当客户端希望推迟发送一条消息的时间。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777526"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果存在**PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) 和**PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) 属性，此属性的值通过使用以下公式重新计算和旧值将被忽略。
   

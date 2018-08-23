@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 90f16f33e7e116e124384f9988c0c7dddaad2da5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efbbffe184e965caae84db54383e1431dfb1a569
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777159"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585820"
 ---
 # <a name="pidlidvalidflagstringproof-canonical-property"></a>PidLidValidFlagStringProof 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 验证是否由代理知道**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) 属性的值设置**dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) 属性的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777159"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 非可发送的对象 （收到的邮件和非邮件对象），客户端应将该值设置为**PR_MESSAGE_DELIVERY_TIME**的值修改**dispidRequest**时。
   

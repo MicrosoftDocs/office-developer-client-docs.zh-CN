@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bde195cd-ca24-4715-8db7-04ab83ba8a3c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aad2509a8960ac7d371346afc61d235a5817c5ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f63af98eac8d777e164400acc97043ac1ccc69a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777699"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584994"
 ---
 # <a name="pidtaghtml-canonical-property"></a>PidTagHtml 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含以 HTML 格式的消息正文文本。
   

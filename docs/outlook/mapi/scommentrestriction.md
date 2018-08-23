@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2185b059f2b831a14b90bad3a3c286ed72f8234d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84fb79b1922669db9c8e5d518a833a6866f11cea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589180"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述注释限制，用来限制批注。 
   
@@ -55,7 +55,7 @@ typedef struct _SCommentRestriction
   
 > 给[SPropValue](spropvalue.md)结构，每个包含属性标记和的命名属性值的数组的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SCommentRestriction**结构将与一组命名属性一起对象相关联。 注释限制是与其他限制不同，因为不会评估这些。 即，它们将被忽略[IMAPITable::Restrict](imapitable-restrict.md)方法。 没有任何影响后**IMAPITable::Restrict**呼叫已由[IMAPITable::QueryRows](imapitable-queryrows.md)方法返回的行。 
   

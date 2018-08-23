@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ba540b0fd3371b3e12be9eeeb102a9bd9d7e8d22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc0039cf2210446704d25b2156bd4ff50041a524
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586275"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供对消息存储表包含有关会话配置文件中的所有邮件存储的信息的访问。
   
@@ -58,7 +58,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 设置该 MAPI_UNICODE 标记和会话不支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::GetMsgStoresTable**方法检索指向消息存储表的指针，由 MAPI 维护表包含有关配置文件中每个打开的邮件存储的信息。 
   

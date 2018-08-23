@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b0e54f78257eb6890e8afbb7941dc625dc79be0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6cdb07e1cbe68d90c6dcd9d5418f700ea5abc3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775064"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589649"
 ---
 # <a name="handling-mapi-forms"></a>处理 MAPI 窗体
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 表单是查看器的特定类一条消息。 允许其用户使用属于邮件类的各种邮件的客户端必须编写处理各种 MAPI 形式。 若要处理多个窗体，客户端实现称为表单查看器，其中包含下面的三个对象的组件：
   

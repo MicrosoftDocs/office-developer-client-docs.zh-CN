@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ed87a2a6e3232cec492da6be032cf54cd66c3772
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81f35f659342d6258d60f40b12bd0a3ac2dc20b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775210"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588473"
 ---
 # <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 执行一个或多个收件人的条目的名称解析。
   
@@ -92,7 +92,7 @@ MAPI_E_NO_SUPPORT
   
 > 通讯簿提供程序不支持批量名称解析使用此方法。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ResolveNames**方法尝试匹配未解析的收件人，数组中的条目_lpAdrList_参数中向此通讯簿容器中的收件人。 无法解析的收件人通常具有仅**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性和可能的一些其他属性。 无法解析的收件人没有**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性，而且其_lpFlagList_参数中的相应标志设置为 MAPI_UNRESOLVED。 相反，解析的收件人总是至少具有**PR_ENTRYID**属性以及**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))、 **PR_DISPLAY_NAME**，等**PR_ADDRTYPE** ([的其他几个属性PidTagAddressType](pidtagaddresstype-canonical-property.md))。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: edabb9a0f55cb34b4e144672e91ea50b8e9193b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6324dcc567aee48f190f8568c6c94b5ee87c731f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584562"
 ---
 # <a name="itnefencoderecips"></a>ITnef::EncodeRecips
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将编码消息的收件人的表中的邮件传输中性封装格式 (TNEF) 数据流的视图。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 传输提供程序、 消息存储提供程序，和网关呼叫**ITnef::EncodeRecips**方法执行 TNEF 编码特定收件人表视图。 TNEF 编码很有用，例如，如果提供程序或网关所需的特定列集、 排序顺序或限制的收件人的表。 
   

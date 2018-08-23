@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c429f9d8-19f4-4c67-a93f-a55ebf6a148f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3ebf6a5ee7499f8d77f9577e69dc82311c224283
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79ba36d08128a3073e1fd4b6af501c19200db38d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777238"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583608"
 ---
 # <a name="pidnametitle-canonical-property"></a>PidNameTitle 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定附加到文档的文件的标题。
   
@@ -31,7 +31,7 @@ ms.locfileid: "19777238"
 |:-----|:-----|
 |友好名称：  <br/> |无  <br/> |
 |属性进行设置：  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|属性名称：  <br/> |标题  <br/> |
+|属性名称：  <br/> |Title  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Common  <br/> |
    

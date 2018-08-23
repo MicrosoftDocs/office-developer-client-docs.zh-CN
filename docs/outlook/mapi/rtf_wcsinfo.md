@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c328e79b7e474369f11f8a4002e00137659db3c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2dd9f002401f8de52a9ad187b7e5850d47caf8a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778675"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587381"
 ---
 # <a name="rtfwcsinfo"></a>RTF_WCSINFO
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此结构使您可以指定要解压缩压缩富文本格式 (RTF) 中的邮件正文以及 （可选） 以其本机格式返回正文的流信息。
   

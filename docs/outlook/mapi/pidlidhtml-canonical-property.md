@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5598cbaf-cb9a-4d3a-b123-9108a7aa7c1c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d05d34c18152c397df04bcf5a82a79d9f1fdd55e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 636aa4d7f20dbd33676bbe65f38f6a9fab25a347
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776868"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587521"
 ---
 # <a name="pidlidhtml-canonical-property"></a>PidLidHtml 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的业务网页的 URL。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776868"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性值，如果存在此参数，应为**PR_BUSINESS_HOME_PAGE** ([PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)) 属性的值相同。
   

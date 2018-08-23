@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1353289da2b428fb58adecc6f7830a2eea4b519a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1b18db072cb7c62c10c8ee4ab79dd1d8754388f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588018"
 ---
 # <a name="pidlidclipend-canonical-property"></a>PidLidClipEnd 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 单个实例 calendar 对象指定的结束日期和时间事件以协调世界时 (UTC)。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776717"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于单实例 calendar 对象，它采用 UTC 指定的结束日期和时间的事件。 对于定期系列，此属性指定午夜采用 UTC，定期系列的最后一个实例的日期除非定期系列有无结束时，在其中案例值必须为 31 年 8 月 4500，11:59
   

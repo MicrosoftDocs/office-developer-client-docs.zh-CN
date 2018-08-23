@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d643bf62-62e5-41c7-ab88-5c4c358e5460
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d567a4d3a759976ac73c24b26963a8286a0be484
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50807f65cf280764289b8a29aebdb1e8e8ed8aa6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777014"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582621"
 ---
 # <a name="pidlidsendmeetingasical-canonical-property"></a>PidLidSendMeetingAsIcal 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定是否应作为 iCal 邮件发送会议请求。
   

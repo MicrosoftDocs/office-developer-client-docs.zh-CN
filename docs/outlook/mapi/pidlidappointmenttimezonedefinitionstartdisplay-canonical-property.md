@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 08239670-3211-420c-99d7-0056ed967cb8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f6d0c7c6f6f34330c143781fbac976392ee1c9a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ca53633f0c1e5b226f7e03c8ee702d4cda7d115
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586793"
 ---
 # <a name="pidlidappointmenttimezonedefinitionstartdisplay-canonical-property"></a>PidLidAppointmentTimeZoneDefinitionStartDisplay 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含映射到的存储选择单实例约会或会议请求的开始时间时使用的时区的说明[TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx)结构持久化格式的流。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776695"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Microsoft Office Outlook 2003 或更早版本和解决方案的基于上协作数据对象 (CDO) 1.2.1 （英文) 和 Outlook 或 Microsoft Exchange Server 已不运行日历更新工具存储的开始时间和结束时间的单实例约会和会议请求以协调世界时 (UTC)。 这些客户端不存储在其中创建约会或会议请求的时区的任何信息。
   

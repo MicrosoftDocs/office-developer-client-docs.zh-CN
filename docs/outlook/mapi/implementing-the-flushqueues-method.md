@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: baafd8b6437f4febaee9420b274c20ba3242cae6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01296995adbca2640c8da42b4d06c1c749be3266
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775832"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582411"
 ---
 # <a name="implementing-the-flushqueues-method"></a>实现 FlushQueues 方法
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 后台处理程序使用[IXPLogon::FlushQueues](ixplogon-flushqueues.md)方法下载和上载任何挂起邮件与传输提供程序。 通常，MAPI 后台处理程序将刷新队列的所有传输提供程序登录到会话，用户的配置文件传输顺序部分中设置启动的第一个传输提供程序。 刷新队列始终是由用户，直接请求的结果，因此发送和接收的消息时将刷新队列是同步到 MAPI 后台处理程序。 这些呼叫是同步的因为传输提供程序应尽可能快地处理它们。 
   

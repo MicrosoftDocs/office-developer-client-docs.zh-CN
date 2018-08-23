@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5429f98a0335ae99b719d0f15b66a95ba87430e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0c5cd70595ea43a0957e764150ee4d5153e32c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776135"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589684"
 ---
 # <a name="ixplogontransportnotify"></a>IXPLogon::TransportNotify
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 信号传输提供程序有关哪些请求发送通知的事件的匹配项。
   
@@ -88,7 +88,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用信号传输提供程序为其请求通知的事件有关的**IXPLogon::TransportNotify**方法。 这些事件包括 MAPI 后台处理程序请求取消邮件传输、 开始或结束的入站或出站传输操作和开始或结束的操作以清除入站或出站消息队列。 
   

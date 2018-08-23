@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3675c6a8ee2ee208f175dd5f7d219447aa52e9ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776409"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587164"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 用于唯一标识服务提供商的[GUID](guid.md)结构字节顺序独立版本。 
   
@@ -46,7 +46,7 @@ typedef struct _MAPIUID
   
 > 包含一个 16 字节标识符的数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **MAPIUID**结构是置于 Intel® 处理器字节顺序的**GUID**结构。 
   

@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 91820ae945ba44d36221e3a92ce5ee2fd47c02eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8ba845143d962b3627f57a60f45742227bc9f35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776339"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584784"
 ---
 # <a name="mapi-structures"></a>MAPI 结构
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 按字母顺序排列的以下项描述 MAPI 结构。 有关详细信息，，还提供其他出版物或本文档中的其他主题的交叉引用。
   
@@ -46,7 +46,7 @@ ms.locfileid: "19776339"
 |[MAPIERROR](mapierror.md) <br/> |[MAPIINIT_0](mapiinit_0.md) <br/> |
 |[MAPINAMEID](mapinameid.md) <br/> |[MAPIUID](mapiuid.md) <br/> |
 |[MTSID](mtsid.md) <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |
-|[NOTIFICATION](notification.md) <br/> |[NOTIFKEY](notifkey.md) <br/> |
+|[通知](notification.md) <br/> |[NOTIFKEY](notifkey.md) <br/> |
 |[OBJECT_NOTIFICATION](object_notification.md) <br/> |[ROWENTRY](rowentry.md) <br/> |
 |[ROWLIST](rowlist.md) <br/> |[SAndRestriction](sandrestriction.md) <br/> |
 |[SAppTimeArray](sapptimearray.md) <br/> |[SBinary](sbinary.md) <br/> |

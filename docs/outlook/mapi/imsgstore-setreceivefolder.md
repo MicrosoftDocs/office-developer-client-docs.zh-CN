@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c30c38e1dbc944fd3016badf2621aef5de1e08f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e2d4f76fe436fd18b439bbbb558b1169094b438
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775896"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589460"
 ---
 # <a name="imsgstoresetreceivefolder"></a>IMsgStore::SetReceiveFolder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 为特定邮件类别的传入消息的目标建立一个文件夹。
   
@@ -64,7 +64,7 @@ S_OK
   
 > 已成功建立的接收文件夹。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::SetReceiveFolder**方法设置或更改为特定邮件类的接收文件夹。 与**SetReceiveFolder**，客户端可以使用连续呼叫指定不同接收每个定义的邮件类的文件夹或指定为所有的多个邮件类的传入消息转到同一文件夹中。 例如，客户端可以有其自己的消息的类到达其自己的文件夹中。 传真应用程序可以指定一个文件夹存储提供程序将在其中放传入传真和提供程序将在其中放传出传真的另一个文件夹。
   

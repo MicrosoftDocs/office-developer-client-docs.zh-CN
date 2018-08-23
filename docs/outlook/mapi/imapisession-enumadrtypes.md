@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6bd13eb7180302a5ab770586cf36856ca5a22676
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 050068b542616d1ad4d133b289aba46db2888519
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775548"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587815"
 ---
 # <a name="imapisessionenumadrtypes"></a>IMAPISession::EnumAdrTypes
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 已弃用。 返回会话中的所有传输提供程序可以处理的地址类型。 
   
@@ -59,7 +59,7 @@ S_OK
   
 > 已成功检索地址类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::EnumAdrTypes**方法返回会话中的所有活动传输提供程序可以处理的地址类型列表。 当前未加载的传输提供程序的地址类型不包含在该列表中。 传输提供程序注册，以处理时 MAPI 调用其[IXPLogon::AddressTypes](ixplogon-addresstypes.md)方法的一个或多个地址类型。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fc444725aae20e7321fa287a90cf7d3e13b7ffb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56f124d7d42ac41e8b5cdb7cf61c9867bbf69837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776256"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587528"
 ---
 # <a name="mapi-message-service-overview"></a>MAPI 邮件服务概述
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息服务定义一组相关的服务提供程序，通常使用相同的消息系统的服务提供。 服务提供程序执行的消息系统和 MAPI 子系统之间进行通信工作，而消息服务执行工作的用户和使用常见的邮件系统的服务提供商之间的交互。  
   

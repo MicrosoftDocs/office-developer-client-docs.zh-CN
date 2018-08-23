@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 505b27b469a4ab197b41058ea5b933608818f0d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85a67216822360bcaf9544389f79980891951757
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776313"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584854"
 ---
 # <a name="mapi-service-provider-objects"></a>MAPI 服务提供商对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 服务提供程序实现多个对象。 某些使用 MAPI 的主要和一些使用客户端应用程序。 所有类型的服务提供商; 由实现几个对象rest 是特定于单个提供程序类型。 下表介绍的所有服务提供商对象。
   

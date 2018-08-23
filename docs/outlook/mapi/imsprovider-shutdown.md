@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 334ec8dd0c683cf9b765f387281c624b20520098
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 342b87a3a8f0349631e64600e294d4f19ab1099c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589089"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 关闭中有序的方式的消息存储提供程序。
   
@@ -45,7 +45,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 释放消息存储提供程序对象之前调用**IMSProvider::Shutdown**方法。 MAPI 的提供程序调用**关闭**之前释放提供程序的所有登录对象。 
   

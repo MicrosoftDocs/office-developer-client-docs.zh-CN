@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3e48f76a-bc97-4cbc-9082-c07dd674b73e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f6f986ae811f2c7a886231a3046038889b82d683
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0e6226dd0fc9c04070ed3d1dda1770f77fbc585c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776366"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583006"
 ---
 # <a name="mapiallocatemore"></a>MAPIAllocateMore
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 分配一个链接到另一个缓冲区[MAPIAllocateBuffer](mapiallocatebuffer.md)函数与先前分配的内存缓冲区。 
   
@@ -61,7 +61,7 @@ S_OK
   
 > 呼叫成功，到请求的内存返回一个指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 期间**MAPIAllocateMore**呼叫处理中，调用实现获取从操作系统的内存块。 内存缓冲区分配偶数字节的地址。 长整型访问其中是更高效的平台上, 操作系统分配其以字节为单位的大小是四个倍数的地址上的缓冲区。 
   

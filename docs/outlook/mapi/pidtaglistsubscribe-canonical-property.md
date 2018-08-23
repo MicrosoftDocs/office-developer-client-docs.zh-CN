@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 97387a82-8e40-4c76-818c-2229fac12e01
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5030e48ac87408f983696a365d3234c3362346c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4408bbc9461d11859292c1d4c356c2323598eb7b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777819"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584224"
 ---
 # <a name="pidtaglistsubscribe-canonical-property"></a>PidTagListSubscribe 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 消息的列表订阅标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777819"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要生成列表订阅头字段中，客户端必须将这些属性的值设置为所需的值。 MIME 作者必须将这些属性的值复制到的列表订阅标头字段。
   

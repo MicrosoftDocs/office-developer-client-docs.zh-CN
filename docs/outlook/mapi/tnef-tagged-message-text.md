@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bedfc0457b0de8287a4e7bc8bdf8fb57404e4fa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1d514dc8b50183e5d07d71b421a441487e933580
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778985"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588858"
 ---
 # <a name="tnef-tagged-message-text"></a>TNEF 标记的邮件文本
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 已标记的消息文本使用 TNEF 解析父邮件中的附件位置。 这是通过附件的位置的消息文本中添加占位符。 此占位符或附件标记介绍一种 TNEF 知道如何解决附件和其位置的方法中的附件。 标记的格式，如下所示：
   

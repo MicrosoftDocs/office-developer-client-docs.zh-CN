@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a0ea5628-1393-4ab8-bc34-a58cf130db51
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3210a8ab29127120ff139de51761bd84722ca52d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7016b1a7039d5df8d4e9fdedea580526eebe04bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778108"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585939"
 ---
 # <a name="pidtagreadreceiptsearchkey-canonical-property"></a>PidTagReadReceiptSearchKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息的用户向其邮件系统应直接邮件阅读的报表搜索键。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778108"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 除非**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性设置为 TRUE，则忽略此属性。
   

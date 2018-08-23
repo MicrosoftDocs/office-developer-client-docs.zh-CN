@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f31a08ce-3a56-4c90-9502-5bcb09d8d80f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f582322c8ba2ffa0369792e531adf1ec4ccb3e28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f25d6b2db00f5629a9bf88499f9f4e080422ac29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774984"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585645"
 ---
 # <a name="form-configuration-file-properties-section"></a>表单配置文件 [属性] 部分
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **属性**部分列出的窗体使用并发布; 属性的完整集合即，它会在创建其自定义消息的 MAPI 客户端应用程序的属性可显示列筛选内容表，设置搜索结果文件夹时使用，依此类推。 此属性列表中的每个条目引用后续 **[属性。** _字符串_**]** 部分如下所示。 
   

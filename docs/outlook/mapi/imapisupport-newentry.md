@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 588d002b-8412-4ab9-9757-04ad89e0a6f8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ae2a19d556fc9819312ce822f9347edcd6edc0d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d978b7a6bd8af9a505fa025aef2e5da68308468f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588592"
 ---
 # <a name="imapisupportnewentry"></a>IMAPISupport::NewEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 直接到通讯簿容器或传出邮件的收件人列表中添加一个新收件人。
   
@@ -80,7 +80,7 @@ S_OK
   
 > 已成功创建新条目。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于通讯簿提供程序支持对象实现**IMAPISupport::NewEntry**方法。 通讯簿提供程序调用**NewEntry**创建新的通讯簿条目，直接将容器添加或要用于传出邮件地址。 
   

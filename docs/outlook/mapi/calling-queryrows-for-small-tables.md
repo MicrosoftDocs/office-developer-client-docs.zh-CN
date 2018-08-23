@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8c38bb0f-de0b-4d70-9f6d-db652445e137
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 40533470681182719f5009b048e3b173b92ef290
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34975677bedccf3f9111985d371e21d482b45584
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774613"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589334"
 ---
 # <a name="calling-queryrows-for-small-tables"></a>为小型表调用 QueryRows
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当检索行时小表，而不是第一个构建限制调用[IMAPITable::QueryRows](imapitable-queryrows.md) 。 由于提供程序必须首先创建一个表，在原始的表中，查找匹配的行，然后将行复制到新表创建限制对性能的影响。 如果表中的行的总数少于 100，则可能要读取的所有行，然后调用[IMAPITable::FindRow](imapitable-findrow.md)查找相应行更有效。 如果仅偶尔需要此信息，这是一个特别是好的策略。 
   

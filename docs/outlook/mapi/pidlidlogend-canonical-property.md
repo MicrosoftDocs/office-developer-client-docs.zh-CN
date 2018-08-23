@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 621459ea-adf5-4420-9f0f-6f31b9b95508
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ef1c9814aa6d1f81a44883d09ac635a5eed76517
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 739fe4077fa57f0f12dd38f05f90851c5291b45a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776904"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585932"
 ---
 # <a name="pidlidlogend-canonical-property"></a>PidLidLogEnd 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示的结束日期和时间的日记邮件。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776904"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日记  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 活动的结束时间以协调世界时 (UTC)，必须等于**dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) 属性和大于或等于**dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)) 属性。
   

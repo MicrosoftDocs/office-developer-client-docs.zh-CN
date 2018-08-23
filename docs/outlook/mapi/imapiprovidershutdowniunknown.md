@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a679d04f7697abbe0172105febf87082c0cd9946
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81b7b0c235f610e7aaa0c17ecd1760df5d382552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775573"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587969"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 允许 MAPI 子系统通知的 MAPI 客户端，快速关闭 MAPI 提供程序，以便 MAPI 提供程序可以响应关闭。
   
@@ -44,7 +44,7 @@ ms.locfileid: "19775573"
 |[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |表示的 MAPI 提供程序，MAPI 客户端将要执行快速关闭，以便提供程序可以执行操作，以防止数据丢失。  <br/> |
 |[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |指示到 MAPI 提供程序 MAPI 客户端立即退出以便 MAPI 提供程序将保留更改以防止数据丢失。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 快速关闭允许 MAPI 客户端退出短时间内的其进程，希望客户端后，并加载 MAPI 提供程序已保存 MAPI 设置和数据。 MAPI 客户端始终发起快速关闭，并应查询的 MAPI 子系统的快速关闭加载 MAPI 提供程序的支持。 管理员可以设置在用户级别指定的所需允许快速关闭所有 MAPI 客户端提供程序支持级别的 Windows 注册表。 有关注册表设置的详细信息，请参阅[Fast 关闭用户选项](fast-shutdown-user-options.md)。 但是，对于快速关闭成功发生丢失数据，MAPI 提供程序应实现**IMAPIProviderShutdown**接口。 
   

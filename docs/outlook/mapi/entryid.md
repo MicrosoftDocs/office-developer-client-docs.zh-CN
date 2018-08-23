@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1b55703c9ad12e3645e6e9cb3dcfcbdf21b90d25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8540176b7675917dde7c618c40142605e9622282
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774877"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586219"
 ---
 # <a name="entryid"></a>ENTRYID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个 MAPI 对象的项标识符。 
   
@@ -71,13 +71,13 @@ MAPI_THISSESSION
   
 > 指示由服务提供商的二进制数据的数组。 客户端应用程序不能使用此数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ENTRYID**结构由消息存储和通讯簿提供程序来构造为它们的对象的唯一标识符。 条目标识符可用于确定以下类型的对象： 
   
 - 消息存储库
     
-- 文件夹
+- Folders
     
 - 邮件
     

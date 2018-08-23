@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 71e8cf50c1951abf1df6163cae4757ffebc979b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 124f4875834e035e29d4c63e52789bf07f18258d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774516"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587542"
 ---
 # <a name="administering-profiles-and-message-services"></a>管理配置文件和邮件服务
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 配置文件和消息服务管理可涉及创建新配置文件，删除旧的配置文件，并通过更改消息服务和服务提供商，其中包含修改现有配置文件的内容。 并非所有客户端支持为标准版功能的配置文件和消息服务管理。 某些客户端有什么要使用配置文件不是允许用户可以选择其中一个在登录时执行的操作。
   

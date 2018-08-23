@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6d461c88e96a3f749595b3e071737107480472aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c921d2c9eee69148713408ec2e2a5510a27011a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582705"
 ---
 # <a name="pidtagoriginalsensitivity-canonical-property"></a>PidTagOriginalSensitivity 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含分配发件人的邮件的第一个版本的敏感度值，即之前正在转发或答复邮件。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777968"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 为第一个邮件时的**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) 属性已提交，客户端应用程序应为相同的值设置该属性。 它应永远不会更改随后。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 01a65306e5e0d34ed6f1ce7231227224868ff5cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eb04983015e8557541e69981ec130ebf07598655
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778454"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588368"
 ---
 # <a name="pidtagstatus-canonical-property"></a>PidTagStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含定义文件夹的状态标志的 32 位位掩码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778454"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 文件夹此属性是类似于邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性。 它的标志为客户端应用程序仅提供并不影响消息存储库。 客户端可以使用或忽略这些设置。 客户端还可以定义自己的此属性的客户端贴合位的值。
   

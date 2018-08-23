@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb7bd25e-5938-4abd-ba2c-c1ad86c75922
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 58b4bb470921e3930c68f3f513b3edb2eb009f6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99c35ae1ef368db00f0889cc649c2835b1a633fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777216"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587563"
 ---
 # <a name="pidnameparagraphcount-canonical-property"></a>PidNameParagraphCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 附加到文档的文件中指定段落的数。
   

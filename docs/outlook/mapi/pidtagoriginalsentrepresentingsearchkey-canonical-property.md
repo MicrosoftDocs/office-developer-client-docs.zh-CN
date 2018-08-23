@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0fb1b803-f8b4-4d6d-8e2a-836daa98ac63
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ec87e9c602d556eec37fde292fbca8f40536530e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c3c8f121423cdd15d7f8e8beee80b667b29a09b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777988"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585519"
 ---
 # <a name="pidtagoriginalsentrepresentingsearchkey-canonical-property"></a>PidTagOriginalSentRepresentingSearchKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含搜索关键字的名义原始邮件已发送的消息用户。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777988"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是原始表示邮件发件人的地址属性之一。 在对话的线程中使用它。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7f81a0c3c9a9ad0a9bcef5c5685aa5b343237f19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f727d68e0e193e8f2e148d881968993f836f8ab0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776114"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582467"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知传输提供程序 MAPI 后台处理程序完成对出站邮件及其处理。
   
@@ -62,7 +62,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 完成处理参与提供扩展的传递或原件信息后，MAPI 后台处理程序调用**IXPLogon::EndMessage**方法。 
   

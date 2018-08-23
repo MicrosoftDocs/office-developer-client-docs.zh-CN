@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cbf34dd6-7733-47f6-9c41-9d82656ca9dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4468ecd5946c95fab62d0885d9c0b3343a1508dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5354618383a97b362348b14aea174d6f2266d6c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777346"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583279"
 ---
 # <a name="pidtagattachfilename-canonical-property"></a>PidTagAttachFilename 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含附件的基文件名和扩展名，不包括路径。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777346"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议 attachment 对象公开的**PR_ATTACH_METHOD** **ATTACH_BY_VALUE**、 **ATTACH_BY_REFERENCE**、 **ATTACH_BY_REF_RESOLVE**和**ATTACH_BY_REF_ONLY**值与这些属性([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性。 **PR_ATTACH_FILENAME**和关联的属性所需时使用以下任一值。 
   

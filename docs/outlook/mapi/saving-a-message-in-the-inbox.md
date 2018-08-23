@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3df04d4e-7e80-4232-aadc-c05c99ab59cb
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3c48ded73d924a400632a94feab65f7afca6e526
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e79133ed4928495dcf75b59877a82d3228773883
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778660"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586282"
 ---
 # <a name="saving-a-message-in-the-inbox"></a>保存收件箱中的某封邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  **若要在没有任何收件人的收件箱中存储一条消息**
   

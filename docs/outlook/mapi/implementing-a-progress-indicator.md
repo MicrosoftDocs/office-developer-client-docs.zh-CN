@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3a062a88-e87e-4c0c-944e-544a8f080930
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 767b8723d9a544a31ee5c4bbc1d6186a15387b44
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a359ec413da91b3e2819978e80ea0a921f6b245
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587122"
 ---
 # <a name="implementing-a-progress-indicator"></a>实现进度指示器
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 由客户端启动的操作的许多需要很长的时间。 这些可能冗长的操作的输入参数之一是指向进度对象的指针 — 实现的对象[IMAPIProgress: IUnknown](imapiprogressiunknown.md)接口。 进度对象控制的外观和显示进度指示器，客户端和 MAPI 实现。 您可以选择要实现进度对象。 MAPI 实现了可供服务提供商使用如果您选择不提供的实现。 
   

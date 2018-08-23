@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2cc57464-5b33-4b65-a1bf-abd0ccac209f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9e5bae7f6d64c056dccaf7bac571e10d5b874b7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7074d539518d017ad6ec00f8c6c362f096728e74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777679"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586842"
 ---
 # <a name="pidtaghobbies-canonical-property"></a>PidTagHobbies 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息的用户的爱好的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777679"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问信息消息的用户和用户的组织定义的内容。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 67e31027-6bc2-4a40-9b00-d61baef4ab0f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0218ff558e9dfca2f73bbad2dc42cdb7bd7121fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ddde5d206eb4be56ce6a7bae77eb00237f12a0f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778186"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584294"
 ---
 # <a name="pidtagrecipienttype-canonical-property"></a>PidTagRecipientType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件收件人的收件人类型。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778186"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性中包含的收件人类型包括一个必选的值和一个可选标志。
   

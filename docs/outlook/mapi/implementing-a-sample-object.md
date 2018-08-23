@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 85de8dd7211fa19b7cdbda9f5ced1f00a736ca9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d2f5fc2f26019902b27750613f7c360a751cd51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775782"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582929"
 ---
 # <a name="implementing-a-sample-object"></a>实现示例对象
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 建议接收器对象 — 对象支持的[IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md)接口 — 是 MAPI 对象客户端应用程序实现处理通知。 **IMAPIAdviseSink**直接从[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx)继承，并且只包含一个方法， **OnNotify**。 因此，若要实现接收器 advise 对象，客户端创建代码**IUnknown**中的三种方法和[OnNotify](imapiadvisesink-onnotify.md)。
   

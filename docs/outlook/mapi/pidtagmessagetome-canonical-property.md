@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: aeb0fa71-f471-46c5-ad9c-f8afb3fed533
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 42aec7a8d617bdf1abd385add30d903efa2b73d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51a8f1768f9b4ed859989058c66044c807068386
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583930"
 ---
 # <a name="pidtagmessagetome-canonical-property"></a>PidTagMessageToMe 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果此消息的用户专门命名为主 （方法） 此邮件的收件人，而不是通讯组列表的一部分，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777867"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性提供方便地确定是否用户名显示显式在主收件人列表中，如果不检查列表中的所有条目。 
   

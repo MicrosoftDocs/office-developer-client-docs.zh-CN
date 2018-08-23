@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d1c3b6d9-75aa-4bc2-9a10-4b9664a8d42e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0637e1a974f9a380cbc91b0a5ecaa9a1ada42ef3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 395803d48082cc53ffd89d18c3a82110e6d9aa62
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585246"
 ---
 # <a name="pidtagcontactaddressbookstorenames-canonical-property"></a>PidTagContactAddressBookStoreNames 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含与通讯簿关联的存储的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777429"
 |数据类型：  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是一个联系人通讯簿配置文件部分。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c32ee53c-b063-4a00-a6bf-75ce5e07f56a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f2b8f87987f93ec152d4986131a6b7990273c28d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39d195f3cea6acbd5d5ab80cbba9d041ce9f7137
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776318"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589145"
 ---
 # <a name="mapi-return-value-documentation"></a>MAPI 返回值文档
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本参考中的引用条目文档仅这些客户端应用程序需要一些处理的返回值。 返回值指示常见错误条件，可以通过检查失败推导不包含文档中。 例如，很多接口方法可以返回 MAPI_E_INVALID_PARAMETER，如果呼叫者指定输入参数的错误值。 此值未通常列出集中预期的返回值的原因是存在不需要专门为 MAPI_E_INVALID_PARAMETER 查找和无需从任何其他错误处理也不同。 另一方面，某些服务提供程序不支持事件通知，并将所做的客户端通过**IMAPISession** **Advise**方法返回 MAPI_E_NO_SUPPORT。 由于客户端需要显式检查此值，并提供用于处理它所表示的条件的代码应发生此错误，MAPI_E_NO_SUPPORT 纳入[IMAPISession::Advise](imapisession-advise.md)返回值的列表。
   

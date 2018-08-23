@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2f45028219f0f5f4cc881db3bc512626b3ad2f4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e1f546d33d4781f60df56b12fce437d1e7bd675
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775641"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588221"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开当前配置文件的节并返回进一步访问[IProfSect](iprofsectimapiprop.md)指针。 
   
@@ -75,7 +75,7 @@ MAPI_E_UNKNOWN_FLAGS
   
 > 使用保留或不受支持的标志，而且，因此，该操作未完成。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于所有支持对象实现**IMAPISupport::OpenProfileSection**方法。 服务提供商和消息服务调用**OpenProfileSection**以打开配置文件一节并检索指向其**IProfSect**接口实现。 
   

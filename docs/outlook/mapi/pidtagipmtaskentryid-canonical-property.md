@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ec8b7486-b547-4a4e-96e5-1fc825b23f3d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aa1c4979ce66a0e32aea7b04ef4412679545b3de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc4a8757586da8ec3a3d51f132fcc583ece748f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777781"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588949"
 ---
 # <a name="pidtagipmtaskentryid-canonical-property"></a>PidTagIpmTaskEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 Outlook 任务文件夹的**EntryID** 。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777781"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是读取或写入使用的属性和 Stream 对象的协议。 它是读取和写入收件箱或根文件夹。 存储的主邮件用户，并且它必须使用的根文件夹存储区时，代理用户时，实现必须使用收件箱文件夹。
   

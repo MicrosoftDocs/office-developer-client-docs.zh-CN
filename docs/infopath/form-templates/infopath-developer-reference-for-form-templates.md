@@ -12,12 +12,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
 description: 欢迎使用 InfoPath 2013 表单模板开发人员参考。此文档提供了概述、编程任务和类库参考信息，旨在帮助您构建包含用 Visual Basic 或 Visual C# 编写的业务逻辑的 InfoPath 表单模板。
-ms.openlocfilehash: 64c79657dcd348e162142193fac4e1040b0d6462
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9e1d023cf7c910c070269a7e46b26c53948fd16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773996"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588060"
 ---
 # <a name="infopath-developer-reference-for-form-templates"></a>InfoPath 表单模板开发人员参考
 
@@ -34,7 +34,6 @@ ms.locfileid: "19773996"
 [Office 开发人员文档中的文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
   
 [Microsoft 辅助功能](http://www.microsoft.com/ENABLE/)
-  
-[Microsoft Online 隐私声明](http://privacy.microsoft.com/en-us/default.mspx)
+
   
 

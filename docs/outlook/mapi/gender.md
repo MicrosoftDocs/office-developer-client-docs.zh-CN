@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7abc62938b3c33e42adedfe8ccd66e072314e333
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a74a6639023ae6ffddeabd03970b609e7b7babe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775023"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588452"
 ---
 # <a name="gender"></a>Gender
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定邮件用户的性别的可能值。
   

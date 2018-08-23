@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0dd79d9630837b5ec8a709d386ccc0db987dfb5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 923fd527eb7d04b31f15e6d8673e2e964fa0d1ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774681"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585638"
 ---
 # <a name="contents-tables"></a>内容表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 内容表包含有关 MAPI 容器中的对象的信息。 通讯簿提供程序实现的其容器，每个内容表和消息存储和远程传输提供程序实现其文件夹的内容表。 文件夹的内容表列出了其邮件的信息时的通讯簿容器内容表列出了有关其邮件用户和通讯组列表对象的信息。 内容表主要使用客户端应用程序。 
   

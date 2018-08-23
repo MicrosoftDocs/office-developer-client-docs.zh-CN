@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7525eee1-4016-49b8-9509-5ebbe1db819f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9f80feecda219e3bcebbf8ceb346b5034e821470
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d4f7ed75bb1144b7cd4a813b0d093246a30cca5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588347"
 ---
 # <a name="developing-a-tnef-enabled-transport-provider"></a>开发已启用 TNEF 的传输提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提升支持不同的 MAPI 功能集的邮件系统之间的互操作性，MAPI 时，可提供传输中性封装格式 (TNEF) 作为传输数据的标准方法。 此格式封装不支持二进制流传输提供程序将其发送时可并显示消息传输到基础的消息系统的 MAPI 属性。 接收的消息的传输提供程序然后可以对要检索的原始邮件的所有属性并使其可供客户端应用程序的二进制流进行解码。 TNEF 的操作模型是：
   

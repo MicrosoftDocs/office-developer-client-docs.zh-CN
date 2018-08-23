@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ae384529-55e2-4da1-9a41-acc292591a7c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9737b5f940f95c88c2d3c5c6e98fc885daf64219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97d541279f052099498cdf7bfd374a95238a376d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777044"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584217"
 ---
 # <a name="pidlidtaskdatecompleted-canonical-property"></a>PidLidTaskDateCompleted 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定当用户完成任务的日期。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777044"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果设置，此属性必须具有午夜时间组件的本地时区转换为协调世界时 (UTC)。
   

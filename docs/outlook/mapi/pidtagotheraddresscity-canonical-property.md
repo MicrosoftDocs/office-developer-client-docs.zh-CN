@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 480ec0dc-6c04-4284-99da-aa4b26f5d7d0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0e393170601c52f04c20fddd3362462bc2d14f9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e65e6032eea158bf358fc91dcb0fdf3032d7b3c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778017"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588543"
 ---
 # <a name="pidtagotheraddresscity-canonical-property"></a>PidTagOtherAddressCity 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 用户的其他位置，例如城镇或市/县包含邮件的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778017"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户或用户的组织定义这些属性。
   

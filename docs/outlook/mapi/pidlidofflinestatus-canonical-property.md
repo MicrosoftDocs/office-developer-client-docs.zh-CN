@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 34f50766c2c45d85bbb0bd9e12d32c5dd87e3cac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d9f8cf4fbdeab70e40447411ed8efd35ef7899e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588774"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>PidLidOfflineStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 确定实现 [MS LISTSWS] 的服务器上的文档文件的状态。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776930"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 下表显示了此属性的可能值。
   

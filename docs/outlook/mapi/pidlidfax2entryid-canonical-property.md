@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c0a67151-769b-4034-a182-3e4a5a86deb0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e944e77fac510d309add32d927c381843b7d86ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d320716586bc50c4c666b95335c6dcaa4a083424
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776796"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586058"
 ---
 # <a name="pidlidfax2entryid-canonical-property"></a>PidLidFax2EntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的住宅传真地址的 EntryID。
   

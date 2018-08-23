@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fd9a8d731d141dbb71a204a2d20b268951bef42f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778671"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586464"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的二进制值的数组。 
   
@@ -50,7 +50,7 @@ typedef struct _SBinaryArray
   
 > 指向保存二进制值的数组[SBinary](sbinary.md)结构的指针。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SBinaryArray**结构用于描述 PT_MV_BINARY 类型的属性。 
   

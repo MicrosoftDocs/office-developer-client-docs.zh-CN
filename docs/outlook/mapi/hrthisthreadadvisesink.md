@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 744d9a7588bff89e9d306e516a24da2db3038d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3df5e012867623d1c5e8fb5c3c93103548ab97be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775213"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588382"
 ---
 # <a name="hrthisthreadadvisesink"></a>HrThisThreadAdviseSink
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建现有通知接收器线程安全的换行通知接收器。 
   
@@ -54,7 +54,7 @@ HrThisThreadAdviseSink(
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 包装的用途是确保通知称为调用**HrThisThreadAdviseSink**函数的同一线程。 此函数用于保护必须在特定线程运行的通知回调。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e63792b1-9580-4702-a6d7-dd3ae5007a4a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f4675362de1e9efe4ef16285723cddeface9c403
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf4edcc22deafe47fccb4fa44782b33aa18b8cec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776960"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587178"
 ---
 # <a name="pidlidpercentcomplete-canonical-property"></a>PidLidPercentComplete 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示对任务所做的进度用户。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776960"
 |数据类型：  <br/> |PT_R8  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须大于或等于 0.0 数字和小于或等于 1.0，其中 1.0 表示为完成工作，和 0.0 指示工作尚未开始。
   

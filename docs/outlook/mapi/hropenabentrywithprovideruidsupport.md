@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1fafc810-7cf3-4c8c-bf21-055ae34da690
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bd42fcd34042c2f9579497f164c4a67f6ba97e35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6f5a0bd5da851c5107b8d3d40d683a7e3c1b26b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775207"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586009"
 ---
 # <a name="hropenabentrywithprovideruidsupport"></a>HrOpenABEntryWithProviderUIDSupport
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在于**HrOpenABEntryWithProviderUIDSupport**函数打开而不使用会话和通讯簿使用给定的支持对象的条目，请执行[HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md)函数相同的功能。 
   

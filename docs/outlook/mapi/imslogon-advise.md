@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 87be00bce55fabda6271b472a9e5c446aaf8054a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9cd0442a715fb5441ab8efefb9574f09f2e2c1ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775902"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587857"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用有关邮件存储区中的更改的通知的消息存储提供程序注册的对象。 消息存储然后将对注册对象发送有关更改的通知。
   
@@ -81,7 +81,7 @@ MAPI_E_NO_SUPPORT
   
 > 通过 MAPI 或一个或多个服务提供程序不支持此操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序实现**IMSLogon::Advise**方法注册通知回调对象。 当指定对象发生更改时，提供程序检查哪些事件掩码位设置_ulEventMask_参数中，因此，发生更改的类型。 如果设置了位，提供程序由_lpAdviseSink_参数来报告事件 advise 接收器对象调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法。 数据传递给**OnNotify**例程通知结构中介绍的事件。 
   
@@ -103,7 +103,7 @@ MAPI_E_NO_SUPPORT
   
 [IMSLogon::Unadvise](imslogon-unadvise.md)
   
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [IMSLogon : IUnknown](imslogoniunknown.md)
 

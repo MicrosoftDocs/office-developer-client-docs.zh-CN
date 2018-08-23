@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 65a54475afe526cce40030cbfd1cdb9e86126554
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11e1bd22da480669f72768e5d75b637e1257b6d1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776721"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589348"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>PidLidContactLinkSearchKey 规范属性
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含此消息对象链接到的联系人的**SearchKeys**的列表。 
   
@@ -33,7 +33,7 @@ ms.locfileid: "19776721"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 |**以字节为单位的长度**|**说明**|**备注**|
 |:-----|:-----|:-----|

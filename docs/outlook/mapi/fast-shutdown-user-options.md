@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
 description: 上次修改时间： 2012 年 6 月 26 日
-ms.openlocfilehash: a58f8b98ab2f5a5c1028440676a561427272d028
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd541ed09bc661f3697408d3f475928b9ef0bcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774900"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585190"
 ---
 # <a name="fast-shutdown-user-options"></a>快速关闭用户选项
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题介绍的三个 Windows 注册表设置的可用，Microsoft Outlook 2010 中启动和现在包括 Microsoft Outlook 2013 的用户的 MAPI 客户端的快速关闭。 管理员可以使用这些注册表设置来指定根据 MAPI 提供程序支持的客户端快速关闭的首选的客户端关闭行为。 反过来，管理员的设置确定如何 MAPI 子系统响应[IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md)方面提供快速关闭支持 MAPI 客户端的呼叫。 
   

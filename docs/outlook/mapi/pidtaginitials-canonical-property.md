@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db9e0115-99fb-4fa7-8726-0be991505506
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a3bf9e01c16b810d8e48e15016416dd864420498
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a4827627fcc11f903fbabcc4d4c8dc202188d3ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777714"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586142"
 ---
 # <a name="pidtaginitials-canonical-property"></a>PidTagInitials 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含首字母缩写的部件的收件人的完整名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777714"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。
   

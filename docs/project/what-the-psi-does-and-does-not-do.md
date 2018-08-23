@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: Project Server 接口 (PSI) 可帮助自动在本地安装的 Project Server 2013 中的多个服务器端进程。 但是，多个函数需要使用 Microsoft Project Professional 2013。
-ms.openlocfilehash: 0afdcdf43c4748fff42f7b5bc74af6c4b59b0b07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779563"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588109"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>PSI 执行和不执行的操作
 
@@ -231,14 +231,10 @@ PSI 可用于与已没有工作流或使用旧 WF3.5 定义 （Project Server 20
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
 ## <a name="see-also"></a>另请参阅
-<a name="pj14_WhatPSIDoes_AR"> </a>
 
-- [CSOM 执行和不执行的操作](what-the-csom-does-and-does-not-do.md)
-    
-- [Project Server 可编程性](project-server-programmability.md)
-    
-- [使用基于声明的身份验证的 SharePoint Online 中的远程身份验证](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)
-    
-- [Office 外接程序](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
+- [CSOM 执行和不执行的操作](what-the-csom-does-and-does-not-do.md)  
+- [Project Server 可编程性](project-server-programmability.md)   
+- [使用基于声明的身份验证的 SharePoint Online 中的远程身份验证](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Office 外接程序](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

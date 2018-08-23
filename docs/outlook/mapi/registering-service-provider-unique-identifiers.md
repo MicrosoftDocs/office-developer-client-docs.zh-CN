@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 80d2e4fd353f0746349563fd911e0af09a658b35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bde7ff73f58c8809d2dd6467daea28461e7c6ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586268"
 ---
 # <a name="registering-service-provider-unique-identifiers"></a>注册服务提供程序唯一标识符
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通讯簿、 消息存储和传输提供程序使用的唯一标识符称为[MAPIUID](mapiuid.md)注册到服务的各种类型的对象。 **MAPIUID**是包含 GUID 的 16 字节标识符。 您可以使用以下过程创建**MAPIUID** : 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b193e819-749e-4642-8afc-dbc47b17b617
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 11cd1040bb228d789248a89184572b87cd1688ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 244dae4d3413587b7a37e93328998b153fb8ece3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776351"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585330"
 ---
 # <a name="mapi-transport-provider-overview"></a>MAPI 传输提供程序概述
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传输提供程序处理邮件传输和接收和必要实现安全性。 他们还负责任何必要预处理和后处理任务。 没有为每个活动的邮件系统通常一个传输提供程序。
   

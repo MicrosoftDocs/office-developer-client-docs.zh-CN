@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c0b956dd-7139-49e3-a32a-d70bfb11e0b1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 34d29b9a15cc6f5a3f88a6477738eb63904e1fdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: df9b880739215a681986670926b843fec6cc3969
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776708"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584189"
 ---
 # <a name="pidlidbusinesscarddisplaydefinition-canonical-property"></a>PidLidBusinessCardDisplayDefinition 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用户自定义作为名片显示联系人的详细信息。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776708"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 名片的布局可以表示为一个图像和文本字段的数量。 图像可以是联系人的照片或卡片图片。 文本字段包含中设置该联系人上的另一个属性和用户提供可选的自定义的标签字符串的值。 请注意，多字节值存储在-little-endian 缓冲区中的格式。
   

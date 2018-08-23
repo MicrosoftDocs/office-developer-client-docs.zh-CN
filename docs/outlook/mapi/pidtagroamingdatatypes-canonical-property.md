@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d8b4df2dbb0d7fd2edeb82222f333c11c5f71987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b29f47191bc1f12653ddcc4e78dd8b3401f0480
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778236"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587640"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>PidTagRoamingDatatypes 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个位掩码，指示属性存在邮件的流。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778236"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Configuration  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为一个或多个下列值：
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2d37898b100398218d4f8762cdd3a16943d8f11a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776095"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589516"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 允许将属性添加到邮件或附件封装调用服务提供商或网关。 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> 将编码仅从邮件或附件_ulElemID_参数指定的属性。 如果设置此标志， _lpvData_中的值必须是[IStream](http://msdn.microsoft.com/library/stg.istream%28Office.15%29.aspx)指针。 
+> 将编码仅从邮件或附件_ulElemID_参数指定的属性。 如果设置此标志， _lpvData_中的值必须是[IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream)指针。 
     
 TNEF_PROP_EXCLUDE 
   
@@ -84,7 +84,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 传输提供程序、 消息存储提供程序，和网关呼叫**ITnef::AddProps**方法列表属性中包含或排除在邮件或附件的传输中性封装格式 (TNEF) 处理。 通过使用后续呼叫，提供程序或网关可以指定的属性添加和编码或排除要编码的列表。 提供程序和网关还可以使用**AddProps**提供，应注意任何特殊处理附件有关的信息。 
   

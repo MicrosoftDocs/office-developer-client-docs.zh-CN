@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a03df7e-9ce9-4720-8e58-bc7fa61eb932
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2b1398de87e7c08ddfbd6c30eb10ac71fcae3c8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1dcbc18a624ec209d86ad46c8ac7a3f16754fa0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777150"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583636"
 ---
 # <a name="pidlidworkaddresspostalcode-canonical-property"></a>PidLidWorkAddressPostalCode 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的工作地址的邮政编码 （邮政编码） 部分。
   

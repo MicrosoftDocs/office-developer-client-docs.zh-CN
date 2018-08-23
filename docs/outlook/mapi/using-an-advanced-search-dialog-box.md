@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c9a156e6-3472-4409-a4ba-3a1a65b7bdcd
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3c27b859f6d056d3b9a98bd4d71db8e500dff696
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 581607e184d67413e735c4cbfb874643b3222a80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779070"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588767"
 ---
 # <a name="using-an-advanced-search-dialog-box"></a>使用“高级搜索”对话框
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一些地址簿容器支持高级搜索功能，允许客户端搜索之外**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 的属性。 支持高级的搜索的通讯簿容器具有名为**PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) 的容器对象属性。 此容器对象提供对介绍搜索对话框中显示表访问 — 用于输入和编辑高级的搜索条件的对话框。
   

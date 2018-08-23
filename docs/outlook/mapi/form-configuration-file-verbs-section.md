@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5fe1b064b48bc9112a872677fbf5042b7dfe5449
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a06283e3eb072e1f502d0b1bd303ce9f0733578
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774966"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583972"
 ---
 # <a name="form-configuration-file-verbs-section"></a>表单配置文件 [谓词] 部分
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **[谓词]** 节列出了支持表单谓词的完整集合。 **[谓词]** 节的格式为： 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1335de3c1decf6c594f0148fbbf055061d7ce7e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a086d1b9bcc1eae620b2f0a5ce96a545ce68342
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776539"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585533"
 ---
 # <a name="one-off-entry-identifiers"></a>一次性条目标识符
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一次性条目标识符创建**IAddrBook::CreateOneOff**方法中的 MAPI 和不具有访问 MAPI 子系统，如网关组件的组件。 有关详细信息，请参阅[IAddrBook::CreateOneOff](iaddrbook-createoneoff.md)。 下图显示了一次性条目标识符格式。
   

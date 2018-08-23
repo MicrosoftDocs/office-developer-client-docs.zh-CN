@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9ee071bb303c7518a23c5e57909f8618b7aebdde
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01ea05eb864c78f3ded39ca3ebc62578076b9d37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775679"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584658"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 取消以前建立与调用[IMAPISupport::Subscribe](imapisupport-subscribe.md)方法发送通知的责任。 
   
@@ -49,7 +49,7 @@ MAPI_E_NOT_FOUND
   
 > 不存在_ulConnection_参数中传递的连接数。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::Unsubscribe**方法将执行所有服务提供商支持对象。 服务提供商调用**Unsubscribe**取消以前设置**订阅**通知注册。 **取消订阅**通过释放传入**Subscribe**呼叫的通知接收器指针取消注册。 
   

@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 62d5b04086e45b6b3d2cfa960472010827d60d6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e84308f3a9f9457c5db23c1ad9d42d6e856519e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778213"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583629"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>PidTagReportDisposition 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示请求收款的消息的回执状态。 
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778213"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有效值如下：
   

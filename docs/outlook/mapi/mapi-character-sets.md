@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: fbe63916-b3eb-4ea7-bc42-80a8b0281b03
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3f94823eb3f90ff9ac0f472a2de64e1904920d9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f7da3da8d23b28e13c39570b8f5971cb75a3310
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776206"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582530"
 ---
 # <a name="mapi-character-sets"></a>MAPI 字符集
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 兼容的客户端应用程序和服务提供商可以使用 ANSI 字符 （单字节） 或 Unicode 字符 （双字节）。 不支持 OEM 字符集。 OEM 字符串传递给 MAPI 方法或函数将导致该方法或函数失败。 使用 OEM 字符集中的文件名的客户端应用程序必须注意之前将它们传递给 MAPI 方法或函数将其转换为 ANSI。
   

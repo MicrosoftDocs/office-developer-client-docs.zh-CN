@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 15cf8ff7e282035ddff53565aa92e81e3886729c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02815c60b6bfc9809871af19e922913622588fc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775339"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584315"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 删除子文件夹。
   
@@ -89,7 +89,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但不是所有项都已成功删除。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::DeleteFolder**方法删除子文件夹。 默认情况下**DeleteFolder**运行只能在空文件夹，但您可以使用它成功对非空文件夹通过设置两个标志： DEL_FOLDERS 和 DEL_MESSAGES。 可以删除仅空文件夹或**DeleteFolder**呼叫的设置的 DEL_FOLDERS 和 DEL_MESSAGES 标志设置的文件夹。 DEL_FOLDERS 使所有文件夹的子文件夹要删除;DEL_MESSAGES 启用的所有文件夹的邮件中删除。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c3b371a226c9eb6a3cf675ee316bf22a597fe806
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27b21162c53a64675abbf31a8ab512719b413d5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774795"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583160"
 ---
 # <a name="disk-instances-and-cache-tables"></a>磁盘实例和缓存表
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要激活窗体，其可执行文件必须在用户的计算机上可用。 如果它们不可用，它们必须将复制从表单库到本地磁盘。 若要执行此操作，默认窗体管理器子目录中创建要包含窗体的可执行文件的用户的 Windows 目录 (。Exe。HLPs)。 此目录称为窗体的磁盘实例。
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 37b360ae6ef5b9df37d2bbf096459836db40e33c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7417975ba2263f4604d08b51d70b17af07c8c5a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777856"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584735"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>PidTagMessageDeliveryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含传送到客户端应用程序的消息的邮件传输系统 (MTS) 标识符。
   

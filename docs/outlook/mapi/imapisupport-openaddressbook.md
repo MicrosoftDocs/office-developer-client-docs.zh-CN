@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e9cd1c7ce0983a47311b2626cc3b40b47748b951
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26550691ef959fa7cefa83827dd1391538bd2d38
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588172"
 ---
 # <a name="imapisupportopenaddressbook"></a>IMAPISupport::OpenAddressBook
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供对通讯簿访问。
   
@@ -59,7 +59,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功，但无法加载一个或多个地址簿提供程序。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::OpenAddressBook**方法将执行所有服务提供商支持对象。 服务提供商，通常紧密耦合的消息存储和传输提供程序，调用**OpenAddressBook**才能访问通讯簿。 返回的**IAddrBook**指针可用于各种地址簿任务，包括打开通讯簿容器，查找邮件用户和显示地址对话框。 
   

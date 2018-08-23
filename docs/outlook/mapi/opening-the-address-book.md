@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 79e0bc93-f37d-4f6a-beed-7519d01e0056
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4b9d7b8cf71b4e00dac6022e1dda727ef7a23036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62a4e6a09570cc3d71b0797ed7fff162d05ee416
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583685"
 ---
 # <a name="opening-the-address-book"></a>打开在通讯簿
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 调用[IMAPISession::OpenAddressBook](imapisession-openaddressbook.md)打开集成的通讯簿和检索指向 MAPI [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)接口。 **IAddrBook**接口的方法可用于访问所有的配置文件中的地址簿提供程序的每个容器中的条目。 
   

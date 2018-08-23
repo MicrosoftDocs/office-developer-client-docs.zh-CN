@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 275dc17a141f1c002f62a43824174458e591d4de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf100ed916080a91366062f45b9e3349516bdb98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775758"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588515"
 ---
 # <a name="imessagegetattachmenttable"></a>IMessage::GetAttachmentTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回邮件的附件表。
   
@@ -58,7 +58,7 @@ S_OK
   
 > 已成功检索附件表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMessage::GetAttachmentTable**方法返回到邮件的附件表，其中包括有关的所有附件信息消息中的指针。 客户端可以获取对仅通过附件表附件的访问。 通过检索的附件数其**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) 属性客户端可以使用几个**IMessage**方法来处理附件。 
   

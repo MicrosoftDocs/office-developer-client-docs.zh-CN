@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 143ca03a5e98d638d29394f5c0803e349ab4de25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aead09eb10a3015a54867f14011c56b686bc8624
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775717"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586478"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将光标移到表中的特定位置。
   
@@ -79,7 +79,7 @@ MAPI_W_POSITION_CHANGED
   
 > 调用成功，但上次使用时不再在同一行设置_bkOrigin_参数中指定的书签。 如果未用过该书签，则不再在同一位置与创建它时一样。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::SeekRow**方法建立新 BOOKMARK_CURRENT 位置的指针。 _LRowCount_参数指示光标移动的行和移动的方向的数量。 
   

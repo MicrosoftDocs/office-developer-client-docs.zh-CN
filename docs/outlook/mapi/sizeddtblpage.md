@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a1530443600df7cb73ff27d5cfbeab46f81bc53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae3f84c6b219c7becb88737f0d6c9fcb9722ea34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778792"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584966"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个名为的结构包含用于描述的选项卡式的页面控件、 标签指定长度的和具有指定长度的帮助文件项[DTBLPAGE](dtblpage.md)结构。 
   
@@ -48,7 +48,7 @@ _u_
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SizedDtblPage**宏允许您定义的选项卡式的页面控件时已知的关联的标签名称和帮助文件项中的字符数。 使用下列成员来创建新的结构： 
   

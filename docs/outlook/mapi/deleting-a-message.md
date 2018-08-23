@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9ed166b4-6b7b-478f-bbe5-4115bb818ac0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c8d46ac6f47eb4dc68aebfa4562403ef1b738213
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad891a9884e72aa352dc114232cd5951c590272f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585099"
 ---
 # <a name="deleting-a-message"></a>删除邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当处于打开状态，并且用户阅读，或者关闭和用户正在查看的内容表时客户端可以删除一条消息。 若要防止用户无意删除一条消息，MAPI 时，可定义邮件删除为两个步骤：
   

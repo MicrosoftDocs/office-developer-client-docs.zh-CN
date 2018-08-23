@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ee20e73e5bc7bb6854b956da541d3a318a267d0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0696ad4d15274e4af18d2246dd124c1bfee1a2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774509"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589404"
 ---
 # <a name="accessing-objects-by-using-the-session"></a>使用会话访问对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 您收到来自呼叫到[MAPILogonEx](mapilogonex.md)会话指针可用于访问各种对象。 下表列出了用于访问各种对象的方法： 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: db3bc9dacb0756f3ed9f16969b95245950b947fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30c8f31c104be52da2900eb81c7b7c29dfa55015
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777642"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586527"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>PidTagFormDesignerGuid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于设计窗体的对象的唯一标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777642"
 |数据类型：  <br/> |PT_GUID  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性通常包含用于创建窗体的设计程序的全局唯一标识符 (GUID)。 此属性可以为空。 
   

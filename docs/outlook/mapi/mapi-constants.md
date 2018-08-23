@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d6d6c55776c1379ec1dab0e9a6f7ef0943d2480e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e35760ddb20f40a176d789be2db6c282fac05af8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776219"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586303"
 ---
 # <a name="mapi-constants"></a>MAPI 常量
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题包含常量定义、 MAPI 接口声明和 MAPI Api 使用的类和接口标识符。
   

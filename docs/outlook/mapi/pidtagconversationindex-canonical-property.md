@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c65cdda7-9515-4da9-be75-43ebf45a02df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bddb667cba99e240a6ce182c9c1c8ed47f467e15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 77fee834108a603c1cd10e8e47776cc34fd75a2b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777499"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584162"
 ---
 # <a name="pidtagconversationindex-canonical-property"></a>PidTagConversationIndex 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个二进制值，指示此消息在对话线程中的相对位置。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777499"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 会话线索表示一系列邮件和答复。 此属性通常使用连接的时间戳值来实现。 即使设置**PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))，其用途是可选的。 
   

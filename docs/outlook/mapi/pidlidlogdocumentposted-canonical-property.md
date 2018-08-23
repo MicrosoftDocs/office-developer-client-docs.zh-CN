@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27e43acf-8a5e-4ba5-8af0-36d11f071892
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b4f2537a31dbdbd4d05d24891751b2129efa8bc0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cbc7cd64988b894e923ea59b89b643945b85933
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585715"
 ---
 # <a name="pidlidlogdocumentposted-canonical-property"></a>PidLidLogDocumentPosted 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示文档是否是通过电子邮件发送或期间日记发布到服务器的文件夹。
   

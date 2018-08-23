@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e92db38a-9ae9-4d75-b768-674453c19fe3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 19af62b0163468d1a3b6fdb64848b1bd5b2112bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db53a5e0565ba19475a4f07e655b909faa4561a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777687"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586485"
 ---
 # <a name="pidtaghomeaddressstateorprovince-canonical-property"></a>PidTagHomeAddressStateOrProvince 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用户的地址的州或省部分。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777687"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户或用户的组织定义这些属性。
   

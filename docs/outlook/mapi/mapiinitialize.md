@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d22c24088960debcd18ccd818dad23656f6a01f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5fcebd1fefa0d077acbe62a45a19a622e13b35fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776382"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587367"
 ---
 # <a name="mapiinitialize"></a>MAPIInitialize
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 增加 MAPI 子系统引用计数和 MAPI dll 初始化全局数据。 
   
@@ -51,7 +51,7 @@ S_OK
   
 > MAPI 子系统初始化成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 引用计数 MAPI 子系统和[MAPIUninitialize](mapiuninitialize.md)函数递减**MAPIInitialize**函数增量内部引用计数。 因此，一个函数调用次数必须等于到其他呼叫的数目。 如果未以前初始化 MAPI， **MAPIInitialize**返回 S_OK。 
   

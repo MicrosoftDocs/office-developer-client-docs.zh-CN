@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: dd8e04b3-8959-4df4-ba2c-f6371180929b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e6e03d6461a9f12fb4f7bad2058cd3a8c0f57044
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f2c4efc8f8c04229901f03fd01381d13127575a3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778038"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589012"
 ---
 # <a name="pidtagpostalcode-canonical-property"></a>PidTagPostalCode 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收信人的邮政地址的邮政编码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778038"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
   

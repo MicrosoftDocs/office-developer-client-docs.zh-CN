@@ -12,22 +12,22 @@ keywords:
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7caf4923e336020928006f6838de5eaeba814a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773736"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586807"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 内部 Microsoft Excel 工作表函数、 宏工作表函数或命令或仅 XLL 特殊函数或命令，从调用 DLL/XLL 或代码资源中。
   
 所有的最新版本的 Excel 支持**Excel4**。 从 Excel 2007 开始，支持**Excel12** 。 
   
-仅当 Excel 已传递给 DLL 或 XLL 的控件时，可调用这些函数。 他们也称为 Excel 过后控件间接通过调用 Visual Basic for Applications (VBA)。 他们不能在其他任何时间调用。 例如，他们不能调用为[DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx)函数或其他时间在呼叫过程中时操作系统已调用 dll 文件，或从由 DLL 中创建的线程。 
+仅当 Excel 已传递给 DLL 或 XLL 的控件时，可调用这些函数。 他们也称为 Excel 过后控件间接通过调用 Visual Basic for Applications (VBA)。 他们不能在其他任何时间调用。 例如，他们不能调用为[DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain)函数或其他时间在呼叫过程中时操作系统已调用 dll 文件，或从由 DLL 中创建的线程。 
   
 [Excel4v 和 Excel12v](excel4v-excel12v.md)函数接受及其参数作为数组，，而**Excel4**和**Excel12**函数接受堆栈长度可变列表及其参数。 在所有其他方面， **Excel4** **Excel4v**，相同的行为和**Excel12**行为与**Excel12v**相同。
   
@@ -72,7 +72,7 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |无效的异步函数句柄。  <br/> 此值只使用 Excel 2010。  <br/> |
 |512  <br/> |**xlRetNotClusterSafe** <br/> |在群集上不支持呼叫。  <br/> 此值只使用 Excel 2010。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 ### <a name="valid-ifunction-values"></a>有效 iFunction 值
 

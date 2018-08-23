@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b4307a3-5a8c-89bf-1113-2549556a7fe7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 82923895353cf600c4d0b78b9a6e16fc7d57e466
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1ab1bd4eb6badc75065ce54d009e034f0fc2b29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778927"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584672"
 ---
 # <a name="synccont"></a>SYNCCONT
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将本地存储区中的指定文件夹的内容与服务器同步过程中[同步内容状态](synchronize-contents-state.md)信息。 此步骤需要刚刚上载或涉及上载，然后选择下载的完全同步。
   

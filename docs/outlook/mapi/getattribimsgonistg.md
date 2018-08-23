@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ddb6d692a8e76a9c24affc3af9f612a6f1c0d769
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e17e8ef7df33ffa248eec4195c00c77d0c49f94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775024"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587766"
 ---
 # <a name="getattribimsgonistg"></a>GetAttribIMsgOnIStg
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索上提供[OpenIMsgOnIStg](openimsgonistg.md)函数的[IMessage](imessageimapiprop.md)对象的属性的属性。 
   
@@ -65,7 +65,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功总体上讲，但无法访问并已返回与 PT_ERROR 属性类型的一个或多个属性。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Property 属性只能在 property 对象，即，实现的对象上访问[IMAPIProp: IUnknown](imapipropiunknown.md)接口。 使 MAPI 属性 OLE 结构化的存储对象上可用， [OpenIMsgOnIStg](openimsgonistg.md)生成[IMessage: IMAPIProp](imessageimapiprop.md) OLE **IStorage**对象上的对象。 此类对象上的属性属性可以设置或更改与[SetAttribIMsgOnIStg](setattribimsgonistg.md)和检索与**GetAttribIMsgOnIStg**。 
   

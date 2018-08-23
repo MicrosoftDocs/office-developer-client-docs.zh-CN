@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b8a6d74df3749a5445d95ad392f7f88d27190bfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3732d8cbfaf9a6a10c62eae9e7a12b04de8a80ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583678"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个一次性模板，用于创建要添加到的传出邮件的收件人列表的收件人的表。
   
@@ -62,7 +62,7 @@ MAPI_E_NO_SUPPORT
   
 > 通讯簿提供程序不提供任何一次性模板。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 调用**GetOneOffTable**方法使可用一次性模板创建收件人。 新的收件人添加到的传出邮件的收件人列表。 通讯簿提供程序应支持通知模板修改的 MAPI 其一次性表上的通知。 MAPI 保持打开，以允许动态更新一次性表。 
   

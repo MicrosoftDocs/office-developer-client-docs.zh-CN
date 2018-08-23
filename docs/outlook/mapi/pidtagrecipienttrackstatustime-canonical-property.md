@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f14dfe47-a9f8-4475-bb26-7da3411d8c6f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0db4efcf1e05536ee7abb3459caa0159f84ef798
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7263fc408bd2c3f6838e571407ed8984c61427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778162"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582761"
 ---
 # <a name="pidtagrecipienttrackstatustime-canonical-property"></a>PidTagRecipientTrackStatusTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间时与会者响应。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778162"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |传输收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 必须以协调世界时 (UTC) 指定的值。
   

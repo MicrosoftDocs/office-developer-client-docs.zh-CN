@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bb529cc7-ad09-4f86-89bc-0e8ad29a3f38
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6ba2f9542fd021c544d73d8208ed356a7bf95309
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7007c01803676412b3efca8b7825b2ed8d863e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776504"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582481"
 ---
 # <a name="message-service-implementation"></a>邮件服务实现
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息服务是组合在一起以简化安装和配置的一个或多个相关的服务提供商。 所有服务提供程序应都包含在邮件服务。
   

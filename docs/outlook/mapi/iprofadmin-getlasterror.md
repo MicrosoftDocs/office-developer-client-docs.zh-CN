@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb161d7b-ae5b-4f8e-a506-8346ac5e583d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 250074b28b98269df58fecfcb2d178f73e26c571
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65bf7debcae1367ccad9e109242fd4a72839a94e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775995"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584924"
 ---
 # <a name="iprofadmingetlasterror"></a>IProfAdmin::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面的配置文件管理对象发生的错误的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IProfAdmin::GetLastError**方法检索信息从配置文件管理对象方法调用返回的最后一个错误。 
   

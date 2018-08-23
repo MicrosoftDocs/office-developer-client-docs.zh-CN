@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4eaeb3338c95196ff346c5098e5d06371b00bc5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33f4634623662b7bc09e0830e8bd0b51adc7799d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776360"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583496"
 ---
 # <a name="mapideinitidle"></a>MAPIDeInitIdle
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 关闭调用应用程序的 MAPI 空闲引擎。 
   
@@ -45,7 +45,7 @@ void MAPIDeInitIdle( void );
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序或服务提供商应**MAPIDeInitIdle**需要时调用不再空闲引擎，例如，当要停止处理。 
   

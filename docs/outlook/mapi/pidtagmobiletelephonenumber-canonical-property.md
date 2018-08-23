@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d5f7bd94-6696-474a-a3f3-40928fd3086c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 86c71145d74b7ead536d83f2a6be71cd298931e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd9490304ac90ebc2cabebd78ab9f54ce45d6863
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777874"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587318"
 ---
 # <a name="pidtagmobiletelephonenumber-canonical-property"></a>PidTagMobileTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的移动电话号码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777874"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
   

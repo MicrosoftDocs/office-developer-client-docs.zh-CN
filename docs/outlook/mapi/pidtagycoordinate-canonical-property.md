@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 81d154d3044ecb5fb2e920874058f1c5136bc7ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 879960a8f61973b160c86eb4a473bf05bcd918fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778537"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586709"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>PidTagYCoordinate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的起始位置 （左上角） 对话框控件，以标准 Windows 对话框单位表示的 y 坐标。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778537"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))，此属性， **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) 和**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) 属性定位并调整控件的大小。
   

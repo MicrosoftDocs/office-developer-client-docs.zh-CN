@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 752ff2d6-ca64-4507-adf1-4c054c321203
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f82c213b6e0737c27c4e979fc90109b38b0746f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0a66443194a3f89b47218ed9dc0ed9ad9c2df83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778599"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584511"
 ---
 # <a name="read-only-message-stores"></a>只读邮件存储区
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 只读消息存储区是一中既 MAPI 客户端也 MAPI 后台处理程序可以创建、 修改或删除的邮件存储区中的对象。 有许多为什么您可能希望实现的只读消息存储的原因。 例如，credit 报告公司无法使用只读存储允许其客户或员工，请参阅但不能更改单个 credit 报告。 选择生成只读消息存储有意义的存储提供程序的结构和存储本身。 例如，只读消息存储不能具有发件箱文件夹中，因为然后 MAPI 客户端将在该文件夹中创建新的待发邮件的请求。 同样，它是存储提供程序负责确保基础存储机制的完整性。
   

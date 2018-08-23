@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e8293dc9-f2f1-4065-89f4-e734a8db63df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 33c62b81982aaac3659ad4d41ea2cf5298b42287
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21fdff2aa713905a27a3d0cc5545ceb59f030378
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777536"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586856"
 ---
 # <a name="pidtagdefcreatemailuser-canonical-property"></a>PidTagDefCreateMailuser 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息用户对象的默认模板条目标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777536"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序使用此属性可创建容器内的邮件用户对象。 支持的条目创建是可选的通讯簿容器;不支持的那些无需公开此属性。 
   

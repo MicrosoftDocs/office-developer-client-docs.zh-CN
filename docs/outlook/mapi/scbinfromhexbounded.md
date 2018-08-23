@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a00a9b2200f76dfd600f72bf387467b5792599c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 135db8d690d4d4bd610bd15893c358fedddb4605
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778676"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589278"
 ---
 # <a name="scbinfromhexbounded"></a>ScBinFromHexBounded
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的部分的字符串表示形式的十六进制数转换为二进制数。 
   

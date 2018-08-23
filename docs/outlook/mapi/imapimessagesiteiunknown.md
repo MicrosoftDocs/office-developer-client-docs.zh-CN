@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 883448f5-0d3f-486d-80a3-7b961c209cd0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 75ef8d6f2134e0269745f92dab1f790228692853
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cffa3024b8533f07f8f76fa5bbac219e23d61bdb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775484"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589502"
 ---
 # <a name="imapimessagesite--iunknown"></a>IMAPIMessageSite : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 处理邮件，并通过这种操作响应表单查看器代码 （通常客户端应用程序） 实现。
   

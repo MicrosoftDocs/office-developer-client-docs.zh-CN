@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: eaf84e1b2a747b313f1534eb66b190d86cf89df9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56c025713b0cc2b41a4bf4463f48f8d7c3d2124b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775935"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586415"
 ---
 # <a name="imsproviderspoolerlogon"></a>IMSProvider::SpoolerLogon
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 记录到的消息存储 MAPI 后台处理程序。
   
@@ -124,7 +124,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功，但消息存储提供程序已经可用的错误信息。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。 要从提供程序获取错误的信息，请调用[IMAPISession::GetLastError](imapisession-getlasterror.md)方法。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用**IMSProvider::SpoolerLogon**方法来登录到的消息存储。 MAPI 后台处理程序应使用期间和之后登录_lppMDB_参数中的消息存储提供程序返回的消息存储对象。 
   

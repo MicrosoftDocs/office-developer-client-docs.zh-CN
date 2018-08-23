@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d81bb81d-1708-4a8d-a4d5-c3ba087db9b7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2a87e32fe21aa6fb1d9296c568a74da994c146bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da11cf684c4bdcfb94d33791ed7c61d2e322e1a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778635"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586583"
 ---
 # <a name="retrieving-primary-and-provider-identity"></a>检索主要标识和提供程序标识
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 服务提供商，通常通讯簿提供程序，必须提供标识的可以用来代表会话中很多情况下的选项。 三个属性说明提供程序的标识：
   

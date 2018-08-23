@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ab582b869fb5a53d7ac4e97e039d9bde4a4f0430
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef20cf8460aa7d3d160208109e42b2de66658d54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776173"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589726"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>管理内存 ADRLIST 和 SRowSet 结构"
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 为尽可能使用单个**MAPIAllocateBuffer**呼叫缓冲区分配所有内存要求不适用于时使用的地址列表中或**ADRLIST**，和行集或**SRowSet**，结构。 
   

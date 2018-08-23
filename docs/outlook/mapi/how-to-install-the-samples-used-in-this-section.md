@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4c5b6cbdda63dcb79b23253e0db695ae658c4fa4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775112"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586912"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>安装使用本节中的示例
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要安装的 MFCMAPI 应用程序和 CreateOutlookItemsAddin 项目查看和运行代码示例[通过使用 MAPI 创建 Outlook 项目](creating-outlook-items-by-using-mapi.md)部分中的主题引用，请按照下列步骤。 
 

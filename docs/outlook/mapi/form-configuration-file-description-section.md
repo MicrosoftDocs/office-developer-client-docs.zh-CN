@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d3673c3b10afb55121339e335163ce9b2e5937e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ad5fd9cf437afc3999697792850548e4e5a1435
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774955"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582894"
 ---
 # <a name="form-configuration-file-description-section"></a>表单配置文件 [说明] 部分
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **[描述]** 节列出了窗体与窗体的用户界面，以及用于窗体的属性中的控件相关联的所有属性。 **Clsid**， **MessageClass**和**DisplayName**条目，分别标识窗体的邮件类、 其 GUID 和邮件类的显示名称的名称，是用于窗体库中找到的窗体的必填的条目. 剩余的条目是可选的。 **[说明]** 部分的格式为： 
   

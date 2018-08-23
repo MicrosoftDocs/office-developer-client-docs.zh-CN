@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8452a6e49059dd0912f1efffef7e749afd6cdf6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f37d398167e8210a2fd67ff08e63572eb6c9db9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776227"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585722"
 ---
 # <a name="mapi-form-interfaces"></a>MAPI 表单接口
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 定义以下与表单相关的接口。
   

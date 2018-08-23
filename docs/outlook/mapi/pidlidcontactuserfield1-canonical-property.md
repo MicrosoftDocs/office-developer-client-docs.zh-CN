@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9652a6f-5081-4472-830b-9f611bbbb1fa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2abe14ac60058cd3f56855104ba2340c4c553753
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15a24a96b7696c757d2d77d4c4ebd6a6d0763dab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776724"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584266"
 ---
 # <a name="pidlidcontactuserfield1-canonical-property"></a>PidLidContactUserField1 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 专为该联系人的 miscellaneous 使用该联系人上指定的第一个域。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776724"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含与任何其他特定于联系人的属性无关的文本。
   

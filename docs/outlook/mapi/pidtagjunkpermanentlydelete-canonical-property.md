@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5f06ad00-7205-48d8-a9ff-f5c6b5e38c5e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7ca24cc0db307715f71be1c030d200c9ca973360
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9265aab47bdc78fb74fa2652ab4a7b60ea275d7a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777773"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587444"
 ---
 # <a name="pidtagjunkpermanentlydelete-canonical-property"></a>PidTagJunkPermanentlyDelete 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示，如果设为 1，邮件标识为垃圾邮件可能被永久删除。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f2fedd98fe84d7359aebaca8d03a20f392dae2b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a120fb1710bf2bd351d956e4d05eb0af346ef4c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775226"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583384"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开具有数据驻留在承载通讯簿提供程序中的收件人条目。
   
@@ -87,7 +87,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 通过通讯簿提供程序无法识别_lpTemplateID_参数中传递的模板标识符。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 仅由需要维护控制它们位于的宿主提供商的容器中的项的副本的通讯簿提供程序实现**IABLogon::OpenTemplateID**方法。 提供程序实现**OpenTemplateID**称为外的通讯簿提供程序。 宿主提供程序调用[IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md)创建复制的条目或打开复制的条目，并在调用**IABLogon::OpenTemplateID**传递 MAPI。 **IABLogon::OpenTemplateID**将打开条目，并将绑定控件到宿主提供程序中的数据的代码。 
   

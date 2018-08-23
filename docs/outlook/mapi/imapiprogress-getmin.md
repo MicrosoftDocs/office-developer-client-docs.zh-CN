@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ab92aee6a8254a16c48352e371b711932bbe7427
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775505"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587822"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对于的进度的信息将显示在[IMAPIProgress::SetLimits](imapiprogress-setlimits.md)方法中返回的最小值。 
   
@@ -45,7 +45,7 @@ S_OK
   
 > 已检索的最小操作中的项目数。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 最小值表示数字形式操作的开始。 值可以是全局的最大值，用于表示显示整个进度的范围或本地值，用于表示仅显示的一部分。 
   

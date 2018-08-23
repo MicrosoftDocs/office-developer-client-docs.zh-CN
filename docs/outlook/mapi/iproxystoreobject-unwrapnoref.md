@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1122b6e0-e7e1-e68a-e090-435777343d04
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7c6c763e918947c423c5dae283b0d4ab2f880616
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8539f81ed1741063d878da492d925b63c488d1a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776020"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586429"
 ---
 # <a name="iproxystoreobjectunwrapnoref"></a>IProxyStoreObject::UnwrapNoRef
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 获取一个指向一个解包的 Internet 消息访问协议 (IMAP) 存储对象，提供对基础个人文件夹文件 (PST) 的访问而不调用同步和下载项目。
   
@@ -43,7 +43,7 @@ S_OK
   
 - 调用成功，并且已在_ppvObject_返回指向解包接口的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 第一个过程 IMAP 存储区，没有访问存储区中的一条消息可以强制尝试下载整个邮件的同步。 使用解包的存储而不会触发下载允许访问当前状态的消息。
   

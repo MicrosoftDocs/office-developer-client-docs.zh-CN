@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4c327336-4ce0-490d-9016-945305f18b16
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6378eeef770a059150bb1f4b3d82b9c4a312c4c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40341f3ed796945157f13a26a8377bc328da1494
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777733"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586905"
 ---
 # <a name="pidtaginternetcodepage-canonical-property"></a>PidTagInternetCodepage 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示用于**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 或**PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)) 属性的代码页。
   

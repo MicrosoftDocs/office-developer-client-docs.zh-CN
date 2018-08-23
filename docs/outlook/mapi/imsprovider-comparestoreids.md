@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9905a4e972f0e599629aac74b6fbc8bae06c93b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57b8438d655b3bc5b708fd7ed6734554a3a23ac4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775918"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585988"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 比较两个邮件存储条目标识符，以确定它们是否引用同一个 store 对象。
   
@@ -70,7 +70,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 处理调用[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)方法时，MAPI 调用**IMSProvider::CompareStoreIDs**方法。 此时调用**CompareStoreIDs** ，以确定哪些配置文件部分中，如果有，关联与在打开的消息存储。 打开特定存储提供程序没有邮件存储区时，可以进行**CompareStoreIDs**调用。 此外，MAPI 还调用**CompareStoreIDs**处理存储提供程序调用[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)方法时。 
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
 description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 9895c558af94eebebe2dacdb6f9bf674e3de6263
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3592584a08bf14725c0289831740e91fb8f1a5b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776056"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587619"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 避免进一步调用 HrTrustedPSTOverrideHandlerCallback 注册自动解锁个人文件夹 (.pst) 文件。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 持久化的注册可能会影响应用程序的性能，如 Outlook 和 Windows 桌面搜索，打开 Pst 的。 请考虑使用或展开持久化注册的使用情况时的性能影响。
   

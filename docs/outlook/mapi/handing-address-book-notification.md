@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f198be78dd36a6d0c9439da68ab322cd8cfa4172
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582915"
 ---
 # <a name="handing-address-book-notification"></a>向通讯簿通知
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 地址簿通知允许客户端若要了解到任何通讯簿条目或特定项所发生的事件。 您可以通过调用[IMAPITable::Advise](imapitable-advise.md)注册这些通知通过 MAPI 通讯簿通过调用[IAddrBook::Advise](iaddrbook-advise.md)或通过通讯簿容器层次结构或内容表。 
   

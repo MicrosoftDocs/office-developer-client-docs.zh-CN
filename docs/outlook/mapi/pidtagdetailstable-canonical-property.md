@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a267f9a9fb8d97256cf7a448b453d04db2118180
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1602d1753d9f7f6e6f407a85dab0a33255db7aae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777547"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585785"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>PidTagDetailsTable 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含嵌入的显示 table 对象。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777547"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 将此属性传递给对象[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法返回的[IMAPITable](imapitableiunknown.md)接口可用于显示表的创建。 MAPI 使用此表显示通讯簿对象的属性表以响应[IAddrBook::Details](iaddrbook-details.md)呼叫。 
   

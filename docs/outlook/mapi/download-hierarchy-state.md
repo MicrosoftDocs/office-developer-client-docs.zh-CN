@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e31a2a9c45a8896efbc43eb7f4b22f31f51e4013
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9c334bc86bdff4abb2762642a37e3f0933a0b29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589026"
 ---
 # <a name="download-hierarchy-state"></a>下载层次结构状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  本主题介绍的复制状态机下载层次结构状态期间出现的情况。 
   

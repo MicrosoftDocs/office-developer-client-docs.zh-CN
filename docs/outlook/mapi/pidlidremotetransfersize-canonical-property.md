@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a4c019b98ebf106cc6e8c81d5ba69edf5dacb53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ca2f1c1dba52127808468ffaa505d0ef71c10d89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777024"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589411"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>PidLidRemoteTransferSize 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示的传输大小，以字节为单位的远程项目。
   

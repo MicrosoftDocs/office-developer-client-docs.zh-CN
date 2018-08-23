@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0f9aa5d508afeaf5933c50763e1e42832ae4e3f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ae94b40d984adee0f3c888f69dfdbffb1e352e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775741"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584434"
 ---
 # <a name="imapiviewadvisesinkonsaved"></a>IMAPIViewAdviseSink::OnSaved
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知已保存窗体中的当前消息表单查看器。
   
@@ -41,7 +41,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Form 对象调用**IMAPIViewAdviseSink::OnSaved**方法后已成功保存窗体中的当前消息。 这样就可以查看器更新以反映邮件及其窗口。 
   

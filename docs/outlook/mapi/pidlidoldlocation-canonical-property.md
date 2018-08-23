@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5d31791b-c30d-4a97-b2d3-18cbe0e98792
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 96bfa9df94af8c4b8b7691027ad6de309206f3fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50cfe5031987fa2a51aef0d02afe94cc46422112
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776949"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585505"
 ---
 # <a name="pidlidoldlocation-canonical-property"></a>PidLidOldLocation 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示会议更新之前的**dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) 属性的原始值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776949"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不是必需的。
   

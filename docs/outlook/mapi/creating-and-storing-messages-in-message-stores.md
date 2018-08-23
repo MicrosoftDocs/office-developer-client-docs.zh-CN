@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 32cfae36fb519654c1fb92d2f3b688c966f9288f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be718ea3ef4da91d2f85a0229f5a506198a2527f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774731"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589173"
 ---
 # <a name="creating-and-storing-messages-in-message-stores"></a>在邮件存储区中创建和存储邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储提供程序如何创建和基础存储机制中存储的消息取决于主要基础存储机制本身。 一般情况下，则只需编写代码以保留的一条消息，及其值的属性。
   

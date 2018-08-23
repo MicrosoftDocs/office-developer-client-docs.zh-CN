@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc97abcb4b316b696032f2788f4e653717e1396b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ec5c2604c72d41078aa467764463e2659c62e65
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774533"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587941"
 ---
 # <a name="allocating-and-freeing-memory-in-mapi"></a>分配和释放 MAPI 中的内存
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 除了指定如何分配和释放内存，MAPI 定义了解时应释放调用的公共接口方法和 API 函数之间传递内存模型。 模型仅适用于参数不是到接口，如字符串和结构的指针的指针分配内存。 接口指针使用引用计数通过**IUnknown**实现的机制。 分配和释放非 MAPI 相关的内部在客户端应用程序或服务提供商的内存时, 使用任何机制有意义。 
   

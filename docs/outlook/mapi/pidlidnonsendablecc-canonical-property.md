@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 170afe1f-1223-4689-825c-d21ab14b213b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3f4859e4a354d83f62ca8fefa48f932425e2fc3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76ea38db86f678c250016c2f5e2feea3a173bb5c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776920"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589383"
 ---
 # <a name="pidlidnonsendablecc-canonical-property"></a>PidLidNonSendableCc 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的所有也是可选的与会者不可发送与会者的列表。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776920"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 每个与会者的值是与会者的通讯簿的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 单独的条目必须用分号跟一个空格分隔。 此属性不是必需的。
   

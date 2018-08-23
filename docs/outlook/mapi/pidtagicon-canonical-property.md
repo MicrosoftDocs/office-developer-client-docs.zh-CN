@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0aa5873d98b7ae9dea1bdaffc37f7996262b6062
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c84e4ad44fbbaad1a49d5866b8b505ca005ddfd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777701"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583853"
 ---
 # <a name="pidtagicon-canonical-property"></a>PidTagIcon 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含窗体的完整大小的图标的位图。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777701"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含一个图标，相同的内容的 32 × 32 像素图像。ICO 文件。 此属性通常从复制。ICO 文件指定相应的窗体配置文件的 [描述] 部分的视图行中。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1afe6a2e-a5e6-4844-9f82-908894fc6759
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d0b7baf4ab17d12145170961a43ca4be252146a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92c604c621e2837b76e9e49fd182524ad17fbcac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775077"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588340"
 ---
 # <a name="handsofffromnormal-state"></a>HandsOffFromNormal 状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 非常类似于[HandsOffAfterSave](handsoffaftersave-state.md)状态 HandsOffFromNormal 状态。 它是将窗体的内容保存到永久存储过程的一部分。 在此状态下，窗体对象应避免更改消息的属性的值的内存中副本因为可能没有其他机会保存这些更改。 下表介绍允许的 HandsOffFromNormal 状态转换。 
   

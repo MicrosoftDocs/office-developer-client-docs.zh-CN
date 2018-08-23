@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 524fa44ddd1325b51a7389d712ac045afbefb8d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad81ac74f517b36029d29f8a6ed1e1dfcb28fade
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775085"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583664"
 ---
 # <a name="create-a-complex-recurrent-appointment-item"></a>创建复杂的定期约会项目
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 可以使用 MAPI 创建定期约会项目。
   

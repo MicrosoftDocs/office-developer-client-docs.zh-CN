@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0db245efdd8aad73b0c094c35079f50925ca4478
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c941ea43a19b51e46c00b37aa89f504c55f180a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777538"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587206"
 ---
 # <a name="pidtagdefaultviewentryid-canonical-property"></a>PidTagDefaultViewEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含某个文件夹的默认视图的项的标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777538"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是应设置为初始视图的文件夹视图的项标识符。 如果"Normal"视图是要用作初始视图，则不需要设置属性。
   

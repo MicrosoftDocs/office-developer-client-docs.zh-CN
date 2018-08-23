@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e78d7e65-23a4-4359-b057-e06131cabf25
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c5764ea39af7a96a1bc6e6abfcbc29cc315adeda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94b563e7bbf759cfa77d364225693c5ffc8740d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777430"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585183"
 ---
 # <a name="pidtagcallbacktelephonenumber-canonical-property"></a>PidTagCallbackTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含在邮件收件人可以使用通发件人的电话号码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777430"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是该提供标识和访问有关收件人信息的属性的示例。 它们是按收件人和收件人的组织定义的。 
   
