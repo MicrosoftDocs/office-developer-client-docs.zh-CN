@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: 若要支持使用托管代码如 Visual C# 和 Visual Basic 的语言的 InfoPath 解决方案的创建，InfoPath 安装程序中的.NET 可编程性支持选项，请安装三个互操作程序集。
-ms.openlocfilehash: b6b37254773d758dc064e22045d68f29febe7bbe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564127"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>关于 Microsoft Office InfoPath 主互操作程序集
 
@@ -35,11 +35,11 @@ InfoPath 安装程序的默认安装选项安装 Microsoft.Office.Interop.InfoPa
   
 如果 Microsoft.Office.Interop.InfoPath 程序集不是在 GAC 中可见的您应确认 InfoPath 已正确安装。 默认情况下，安装程序中的 **.NET 可编程性支持**选项设置为**从本机运行**只要.NET Framework 1.1 版可再发行软件包、.NET Framework 1.1 软件开发工具包 (SDK) 或更高版本的.NET framework运行安装程序之前安装。 如果这些互操作程序集不可用您的计算机上，您必须确认.NET Framework 1.1 或更高版本安装，则，然后使用**程序和功能**从**控制面板**通过设置 **.NET 可编程性更改安装程序支持**下为**从本机运行** **Microsoft Office InfoPath**选项。
   
-下载.NET Framework 1.1 版可再发行软件包的信息，请参阅[.NET Framework 1.1 版可再发行软件包](http://msdn.microsoft.com/netframework/technologyinfo/redist/default.aspx)。
+有关下载.NET Framework 1.1 版可再发行软件包的信息，请参阅[.NET Framework 1.1 版可再发行软件包](https://www.microsoft.com/en-us/download/details.aspx?id=26)。
   
 ## <a name="the-microsoftofficeinteropinfopath-namespace"></a>Microsoft.Office.Interop.InfoPath Namespace
 
-尽管编写的过程管理给定任务的代码是非常类似于执行相同的应用程序或 JScript 中，查看**Microsoft.Office.Interop.InfoPath**时公开的对象模型使用如 Visual Basic 语言的任务从**对象浏览器**在 Microsoft Visual Studio 中的命名空间查找复杂。 这是因为使用.NET Framework 的互操作性要求公开的所有公共接口，以及所需的.NET Framework 本身某些其他构造 COM 服务器。 有关如何及使用原因互操作程序集公开的对象模型显示更复杂的详细信息，请参阅[InfoPath 2003 兼容对象模型](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx)主题的"如何 COM 对象是公开为托管代码"部分。 
+尽管编写的过程管理给定任务的代码是非常类似于执行相同的应用程序或 JScript 中，查看**Microsoft.Office.Interop.InfoPath**时公开的对象模型使用如 Visual Basic 语言的任务从**对象浏览器**在 Microsoft Visual Studio 中的命名空间查找复杂。 这是因为使用.NET Framework 的互操作性要求公开的所有公共接口，以及所需的.NET Framework 本身某些其他构造 COM 服务器。 有关如何及使用原因互操作程序集公开的对象模型显示更复杂的详细信息，请参阅[InfoPath 2003 兼容对象模型](../form-templates/infopath-2003-compatible-object-models.md)主题的"如何 COM 对象是公开为托管代码"部分。 
   
 ### <a name="using-intellisense"></a>使用 IntelliSense
 

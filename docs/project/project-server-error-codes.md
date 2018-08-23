@@ -14,18 +14,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: 本主题包含错误代码的表 Project Server 2013 中的 Project Server 接口 (PSI)。 表排列按功能区域和错误代码范围。
-ms.openlocfilehash: 9d63ed0dde638d123098ec4ffb8de083ddbb4fc6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d4960c0452c90e267c48ee06de014b9e04b038f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779592"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564141"
 ---
 # <a name="project-server-error-codes"></a>Project Server 错误代码
 
 本主题包含错误代码的表 Project Server 2013 中的 Project Server 接口 (PSI)。 表排列按功能区域和错误代码范围。
    
-Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误代码号。 [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx); 中被重复[Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx)枚举按名称列出了按字母顺序的错误代码。 本主题列出了 PSI 类或功能区和错误标识符 (ID) 号排列的表中的错误代码。 
+Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误代码号。 [WebSvcProject.PSErrorID](https://msdn.microsoft.com/en-us/library/office/websvcproject.pserrorid_di_pj14mref.aspx); 中被重复[Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/en-us/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx)枚举按名称列出了按字母顺序的错误代码。 本主题列出了 PSI 类或功能区和错误标识符 (ID) 号排列的表中的错误代码。 
   
 > [!NOTE]
 >  许多错误代码都是常规代码，并且可包含多个可能的原因。有关错误的详细信息，您可执行下列操作： 
@@ -1050,7 +1050,7 @@ Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误�
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
-## <a name="table-22-rules"></a>表 22。 规则
+## <a name="table-22-rules"></a>表 22。 Rules
 
 |规则错误代码|说明|
 |:-----|:-----|
@@ -1609,8 +1609,6 @@ CustomFieldRequiredValueNotProvided
 
 ## <a name="see-also"></a>另请参阅
 
-- [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx)
-- [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx)
 - [项目概念性和帮助文章](project-conceptual-and-how-to-articles.md)
 - [SQL Server 探查器](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
 - [Project Server 2010： 功能时出现意外的预期行为](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)

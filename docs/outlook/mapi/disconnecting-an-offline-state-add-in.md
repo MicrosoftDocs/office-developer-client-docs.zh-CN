@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 82f529f58a62f412ed8b25d1ceaf508463491612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19774788"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564134"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>断开脱机状态加载项
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 脱机状态外接程序断开连接时，您必须实现函数正确终止并清理外接程序。 有关详细信息设置和使用脱机状态外接程序来监视连接状态更改，请参阅[设置 Up 脱机状态外接程序](setting-up-an-offline-state-add-in.md)和[监视连接状态更改使用脱机状态外接程序](monitoring-connection-state-changes-using-an-offline-state-add-in.md)。
   

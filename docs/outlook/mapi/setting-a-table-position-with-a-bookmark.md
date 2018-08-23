@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d53f15cb439494ae99ff45509ed14c0928756d8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f43e3a7e3376cb437620204a29aed9fb732d3427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778756"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564092"
 ---
 # <a name="setting-a-table-position-with-a-bookmark"></a>通过书签设置表位置
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 书签是指示表中的特定位置的资源。 设置书签使得以后，一种功能，可以显著提高性能的表操作返回的位置。 MAPI 定义三个标准书签： 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: ac82f7e8-6453-4b4f-8223-3c23d09ca4c6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2b14c4fe8cbbadb2ccdd6a2f7870a07d2f96a3c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da49b4d8251f6b0b69d2ffbf80194943215675e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778976"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564162"
 ---
 # <a name="tips-for-better-table-performance"></a>更好的表性能的提示
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 因为许多表操作可以非常耗时并且没有方法以指示进度，非常有用用于提高性能的以下技术：
   

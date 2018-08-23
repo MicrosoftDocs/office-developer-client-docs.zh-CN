@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2fd79cfe18e7d39f26563c87b8fb15553bf32ddf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27e489447b501b6e0d3bb7d668cecc3750be443e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774570"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564120"
 ---
 # <a name="attachment-tables"></a>附件表
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 附件表包含有关与已提交的邮件或在组合下的一条消息相关联的 attachment 对象的所有信息。 
   

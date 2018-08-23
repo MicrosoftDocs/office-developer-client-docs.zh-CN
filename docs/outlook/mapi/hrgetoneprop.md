@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4dcdce72781669988a0cb15eb9b3a7cd73494bfb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99b63e7b0b31a603bf372b1d52e83af39784b628
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775184"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564155"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从属性界面，即接口派生自[IMAPIProp](imapipropiunknown.md)检索单个属性的值。 
   
@@ -61,7 +61,7 @@ MAPI_E_NOT_FOUND
   
 > 从指定的接口请求的属性不可用。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 不同的[IMAPIProp::GetProps](imapiprop-getprops.md)方法， **HrGetOneProp**函数永远不会返回任何警告。 检索只有一个属性，因为它只是成功或失败。 用于检索多个属性， **GetProps**是更快。 
   
