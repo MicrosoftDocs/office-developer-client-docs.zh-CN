@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1e3e49c-8d1d-4f7e-ba5a-be441f0f10ae
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 45bfe9f9314a154bd5f096ac20f76f6bf4f259c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1320528a2e123d36457bef929a8454155646f0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580997"
 ---
 # <a name="supporting-event-notification"></a>支持事件通知
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 支持事件通知可能非常复杂，因为 MAPI 提供三种支持对象方法的实现过程的最刁钻部分。 这些方法都作为一个单元，并提供程序必须使用所有这三个或其中任何一个。
   

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ca06502c-884c-c1ad-d2c9-31f2b2b30ae5
 description: 本参考包含概念概述、 编程任务、 示例和参考以指导您开发基于 Visio 2013 解决方案。
-ms.openlocfilehash: 4c75623aa0f1fc248c3b1b2b8f1ba1a4d43acedd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d379004aa420febeaea13925c03eaca90349fa7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781642"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579170"
 ---
 # <a name="visio-shapesheet-reference"></a>Visio ShapeSheet 引用
 
@@ -34,14 +34,10 @@ ms.locfileid: "19781642"
     
 ## <a name="see-also"></a>另请参阅
 
-- [Visio 开发中心](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
-    
-- [Microsoft 产品中的辅助功能](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [Visio 开发中心](http://msdn.microsoft.com/en-us/office/aa905478.aspx)    
+- [Microsoft 产品中的辅助功能](http://www.microsoft.com/enable/products/default.aspx)    
+- [文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
 - [Visio SDK 版权声明](visio-sdk-copyright-notice.md)
-    
-- [Microsoft Online 隐私声明](http://privacy.microsoft.com/en-us/default.mspx)
+
     
 

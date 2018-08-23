@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fefd81a7d6cdfda24df93ec928cd3305cb8ef8be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddb87af4b14be6d728bcceddb4d958ba49229ad4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775244"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579037"
 ---
 # <a name="iaddrbookcreateoneoff"></a>IAddrBook::CreateOneOff
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个一次性地址的项标识符。
   
@@ -78,7 +78,7 @@ S_OK
   
 > 一次性条目标识符已成功创建。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端调用**CreateOneOff**方法创建的项标识符一次性收件人 — 不属于任何容器与任何当前加载的地址簿提供程序的收件人。 一次性收件人可以会话有任何一种由一个活动地址簿提供程序支持的地址。 
   

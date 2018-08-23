@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6135dfae915a1e70743f9224352390c4b56ea02e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5125fc8f3e36087a05802c38127a8402ae67d468
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778664"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576300"
 ---
 # <a name="saving-mapi-properties"></a>保存 MAPI 属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 很多对象支持事务处理，对属性的更改不会成为永久性直到提交稍后由此模型。 由[IMAPIProp::SetProps](imapiprop-setprops.md)和[IMAPIProp::DeleteProps](imapiprop-deleteprops.md)方法处理对属性的更改，而是由[IMAPIProp::SaveChanges](imapiprop-savechanges.md)处理提交步骤。 此文件不成功调用**SaveChanges**可访问对象的属性的最新版本之后。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5cff3a6cbf4bfca7b414f9663e71834da71926d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 172abe64073b11d98bfb5f76999237218ef8944a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779031"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581347"
 ---
 # <a name="updating-mapi-properties"></a>更新 MAPI 属性
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端和服务提供商可以通过调用更新的属性值：
   

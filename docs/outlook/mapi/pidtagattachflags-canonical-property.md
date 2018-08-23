@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b934f9694061e17118be35e3fabeeff3bbc61a37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf92e62dc572a81b6e0aab4cb1b0fc8afe97800d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573094"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>PidTagAttachFlags 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含附件的标志的位掩码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777336"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于 MHTML 支持。 
   

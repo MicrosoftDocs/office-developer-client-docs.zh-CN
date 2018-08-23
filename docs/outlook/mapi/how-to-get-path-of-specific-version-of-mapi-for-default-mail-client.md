@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 277505beb11dbc2b32b7e970c2bcf2a34dbdf00b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775086"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581606"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>获取默认邮件客户端的特定版本的 MAPI 路径
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题演示如何获取 MAPI 的计算机上的默认邮件客户端使用的特定版本的路径的 c + + 中包括的代码示例。 MAPI 邮件客户端有一个选项以指定自定义的 DLL 的 MAPI 存根库应加载并调度 MAPI 呼叫到注册表中。 对于此自定义 DLL 设置的默认邮件客户端的注册表项下的默认邮件客户端的**HKLM\Software\Clients\Mail**项是**MSIComponentID**。 [FGetComponentPath](fgetcomponentpath.md)函数，通过 MAPI 存根库，导出 mapistub.dll，可以返回到自定义版本的 MAPI **MSIComponentID**注册表项所指定的路径。 
   

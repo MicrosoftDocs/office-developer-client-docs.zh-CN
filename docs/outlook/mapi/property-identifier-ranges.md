@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c01e95bb-be25-490d-880b-60674f890258
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aee199cbbd05606d20378023f103fa122f1457f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 479e5abda9137ddaedcabb8d914bc038ddf200f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581102"
 ---
 # <a name="property-identifier-ranges"></a>属性标识符范围
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 下表总结了不同属性标识符，描述每个范围中的属性的所有者的范围。
   

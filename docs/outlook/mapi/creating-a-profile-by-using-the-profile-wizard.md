@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4b611818-f99f-43a2-9f6b-1aa5b9564d1d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 29a135264772847a624e1a4558b68bcf822b18df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f30dca8323f74bc2817bab375b58fcc1bc15c18b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774726"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574256"
 ---
 # <a name="creating-a-profile-by-using-the-profile-wizard"></a>使用配置文件向导创建配置文件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 配置文件向导是 MAPI 功能，使用户能够创建配置文件中的最简单的可能方式。 配置文件向导显示对话框提示用户选择消息服务和输入的一些最重要的配置属性的值的一系列。 对于大多数其他必需的属性，该配置文件向导使用提供的默认值。 若要调用配置文件向导，请调用**LaunchWizard**，基于[LAUNCHWIZARDENTRY](launchwizardentry.md)原型的函数。 
   

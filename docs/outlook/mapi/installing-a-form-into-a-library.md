@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 54b2dece31937b1ff233d4d1e7d8bbc198bfe118
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d3b20c9fb4b4f1a26eb4ed1a9a498bd56a915a70
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775951"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579779"
 ---
 # <a name="installing-a-form-into-a-library"></a>将表单安装到库中
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 与 Windows SDK 一起提供的默认 MAPI 窗体管理器不提供安装在不同的表单库中的窗体的用户界面。 因此，您将需要创建一个小应用程序 — 或详细说明 — 用户可用来安装该表单。
   

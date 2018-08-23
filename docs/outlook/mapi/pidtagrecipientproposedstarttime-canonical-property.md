@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6687ff62-7ac6-409c-8c87-4e09d38e45f1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 65d5c2f94da219fc1cb87384ebdd3c1cf34bd9a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7500918daed361eac1c20e46e4046f47b6339c89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778156"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580857"
 ---
 # <a name="pidtagrecipientproposedstarttime-canonical-property"></a>PidTagRecipientProposedStartTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示会议建议开始时间。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778156"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |传输收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值时**PR_RECIPIENT_PROPOSED** ([PidTagRecipientProposed](pidtagrecipientproposed-canonical-property.md)) 属性的值设置为 TRUE，指示请求参与者设置为**dispidApptStartWhole** ([的值的值PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) 的单个实例会议对象或 exception 对象的属性。
   

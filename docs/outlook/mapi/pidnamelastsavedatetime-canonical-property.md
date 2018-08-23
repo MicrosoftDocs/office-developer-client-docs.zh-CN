@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f1c87aa-70b7-4c36-8840-04e70327bda7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 17eea6fbcac715f1bc6a36584eb68228fc7b3914
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a79bf71ad4d755e31cf8d43f07c371aa6aa9a277
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777225"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580283"
 ---
 # <a name="pidnamelastsavedatetime-canonical-property"></a>PidNameLastSaveDateTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定上次保存该文件的时间。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b52dcd87c8714ad59db560a5ae4a8300f9cc83ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579520"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 取消脱机对象的回调。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 呼叫成功。 此调用必须返回 S_OK。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 删除回调与*ulAdviseToken*从以前调用**[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** 返回关联的注册。 导致**IMAPIOfflineMgr**对象来释放其上与*ulAdviseToken*关联的**[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** 对象的引用。 
   

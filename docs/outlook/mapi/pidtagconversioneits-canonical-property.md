@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7877667d78cf844cce9ff8c183ff1dc575fa2798
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 601734fbaf3157fd0f3f3637b807a511076a6124
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777503"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577609"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>PidTagConversionEits 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含应用于在传输过程中一条消息，以描述转换的已编码的信息类型 (EITs)。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777503"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 X.400 环境未送达和送达报告使用此属性。
   

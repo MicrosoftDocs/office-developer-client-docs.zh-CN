@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4d71a0e26e2043bbaf961ae5096afc5789be36be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71ad53880c400d924d73c903bd77f7b447a69d8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777343"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577721"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>PidTagAttachExtension 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含指示附件的文档类型的文件扩展名。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777343"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由客户端应用程序提交次设置这些属性。 
   

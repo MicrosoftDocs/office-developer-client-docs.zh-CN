@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 566a56d855a517c937215b8a00eca3f6246bc212
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 528e18964cacfb59f30667295b792e850353f3ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777878"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579023"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>PidTagNonDeliveryReportDiagCode 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含诊断代码的表单原件报表中的一部分。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777878"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可以具有完全下列值之一：
   

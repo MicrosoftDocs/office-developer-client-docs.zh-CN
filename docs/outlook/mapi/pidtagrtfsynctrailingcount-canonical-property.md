@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3174ebbcf70104c82305e2a20df1e183d30265d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7efa8dccf4c2c6da0ad60688d06d241d336e3943
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581004"
 ---
 # <a name="pidtagrtfsynctrailingcount-canonical-property"></a>PidTagRtfSyncTrailingCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含可忽略重要个字符的消息后显示的字符数。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778258"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一个富文本格式 (RFT) 辅助属性。 这些属性使用[RTFSync](rtfsync.md)函数，不能直接通过客户端应用程序使用。 
   

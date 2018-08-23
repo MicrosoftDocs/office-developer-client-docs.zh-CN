@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 84076b613fe1fa43fc6c6f6042ec3d984a04bf71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f35780540f42fd4d3777b9fdd89c6795c97d98fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776883"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577056"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>PidLidIsInterpersonalFax 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示项目是否为 internet 传真项目。
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: ead51434-ae19-4c34-aa7a-bdeeccca5bd9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4bd64aadd5fc18ba79a8717a5c58df72cd3695ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 855b145bcca8007601eb8e841665306d4c58982f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576559"
 ---
 # <a name="mapi-address-book-provider-overview"></a>MAPI 地址簿提供程序概述
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通讯簿提供程序的句柄访问目录信息。 目录信息包括两种类型的邮件的收件人数据： 单个消息的用户和组的邮件用户通常在通讯组列表一起讨论。 根据收件人和通讯簿提供程序的类型，没有各种各样的可提供的信息。 例如，所有通讯簿提供程序都存储收件人的姓名、 地址和地址类型。
   

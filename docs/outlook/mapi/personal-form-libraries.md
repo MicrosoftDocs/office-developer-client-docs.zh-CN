@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0793fefd744eecc95899c4166cb8a1a6a2e6cd2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 546b45deaa856bbfa002797e491d9b47be0dd34a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776589"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581585"
 ---
 # <a name="personal-form-libraries"></a>个人表单库
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 顾名思义，个人窗体库包含关注某个特定用户的窗的体。 用户的个人窗体库是与默认的邮件存储中的用户配置文件; 标识关联的表单库每个工作站上安装的配置文件可以使用不同的默认存储区，因此，一个单独的个人窗体库。 个人窗体库可以包含还包含其他除了其他窗体的窗体库中的窗体的副本。
   

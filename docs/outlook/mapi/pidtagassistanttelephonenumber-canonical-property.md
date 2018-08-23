@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: edb0782c-6671-4e98-9028-a2f9ad547c1d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1242415e0698acb210f3e9ef8bfa00fd944816d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ecf43894089841b85fe8d5c81c608bc141d571d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777330"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579604"
 ---
 # <a name="pidtagassistanttelephonenumber-canonical-property"></a>PidTagAssistantTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收信人行政助理的电话号码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777330"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
   

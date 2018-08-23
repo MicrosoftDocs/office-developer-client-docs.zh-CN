@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1f8ecc22-badc-4278-a3c6-fcd398f5bf24
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c21f2885f7e9475c2149e42e2a8d947311916b4f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7813125e18f437087fa06c57f8442c84a81d80d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776894"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574060"
 ---
 # <a name="pidlidisrecurring-canonical-property"></a>PidLidIsRecurring 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定对象是定期系列相关联。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776894"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 TRUE 表示该对象代表定期系列或异常 （包括孤立实例）。 值为 FALSE 或不存在此属性，指示该对象代表单个实例。 请注意此属性与**PR_RECURRING** ([PidLidRecurring](pidlidrecurring-canonical-property.md)) 属性之间的差异。
   

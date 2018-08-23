@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8214390af883432d72f608452b8b944417884fd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43569b22cace7b2700d37ace49fd734b45fec73c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775243"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580878"
 ---
 # <a name="iaddrbookadvise"></a>IAddrBook::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册接收有关对一个或多个条目的更改的通知通讯簿中的客户端或服务提供程序。
   
@@ -87,7 +87,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 不能由任何配置文件中的地址簿提供程序处理_lpEntryID_中传递的项标识符。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端和服务提供商调用**Advise**方法注册特定类型或上的通讯簿条目的通知的类型。 通过使用_ulEventMask_参数传递的事件掩码表示通知的类型。 
   
@@ -111,7 +111,7 @@ MAPI 转发到的地址簿提供程序负责由_lpEntryID_参数中的项标识�
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b821394f32a938f4878ee93e685aafbeb0786597
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b5268f0b033126083a463f72e47c64957df07eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774632"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577686"
 ---
 # <a name="builddisplaytable"></a>BuildDisplayTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个或多个[DTPAGE](dtpage.md)结构中包含的属性页数据显示表。 
   
@@ -98,7 +98,7 @@ MAPI_UNICODE
 
 无
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 使用所指的_lpAllocateBuffer_、 _lpAllocateMore_和_lpFreeBuffer_对于大多数内存分配和释放，尤其是用于客户端应用程序分配内存，调用对象接口时的功能如[IMAPIProp::GetProps](imapiprop-getprops.md)和[IMAPITable::QueryRows](imapitable-queryrows.md)。 
   

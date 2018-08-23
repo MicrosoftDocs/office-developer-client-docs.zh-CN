@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b1ee2533-8077-4976-846b-d42d148bf8c6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d53304dd74a0e54974d479c66637079cd48b2fc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d65ccec0ab270a59252c8a3ae94bdeca839fa807
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775800"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582362"
 ---
 # <a name="implementing-mapi-objects"></a>实现 MAPI 对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 可以通过使用 c + + 类或 C 数据结构，具体取决于语言实现 MAPI 对象和 API 设置客户端或使用服务提供商。 服务提供商 C 或 c + + 中使用 MAPI 服务提供程序接口; 可编写C 或 c + + 中，还可以使用客户端应用程序。 如果可能，客户端和使用的面向对象的编程接口的服务提供商应使用 c + +。 
   

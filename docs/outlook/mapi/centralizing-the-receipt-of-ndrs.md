@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: fbe1f4f6-28f8-40b8-b551-192c0ba48c18
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0af587bd07de9445f143be316798059eaef402e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16a150105211231af54ccfdc5d1565aeecea729e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774651"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579436"
 ---
 # <a name="centralizing-the-receipt-of-ndrs"></a>集中 Ndr 的回执
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **具有未送达报告 (Ndr) 到达一个中心位置时同时运行多个客户端的实例**
   

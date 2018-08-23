@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f8eef7863cec565403d41dae26687b75f078e0d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bc8e4dfe934d516c07d5532ba6a95e51a3cbf962
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777102"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578078"
 ---
 # <a name="pidlidtaskmode-canonical-property"></a>PidLidTaskMode 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定任务的工作分配状态。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777102"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 值必须是下列选项之一。
   

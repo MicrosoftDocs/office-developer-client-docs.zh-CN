@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 259297d2-acd7-4bc5-9a77-0df92cbfa33e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 15fb6113e9c3428cff3865307736592fd6e2b2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9ee45ea7a3592a2b0fc0675bbdb6e640f9bd046
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778974"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580388"
 ---
 # <a name="threading-in-mapi"></a>MAPI 中的线程
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 线程是操作系统向其分配 CPU 时间的基本实体。 线程都有其自己的 register、 堆栈、 优先级和存储，但共享地址空间和处理资源如访问令牌。 线程还与另一个线程具有写入中读取的一个线程共享内存。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e9bc7c7c-86df-45d8-922b-76e3b076144a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8a9975090a8b90946482fa77fd2dafdb503c1f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87f3a1902c70cc9f875d472da406104ae1b45fda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573941"
 ---
 # <a name="pidlidsharingremotetype-canonical-property"></a>PidLidSharingRemoteType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定远程共享文件夹的类型。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777041"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为相同的值的**dispidSharingLocalType** ([PidLidSharingLocalType](pidlidsharinglocaltype-canonical-property.md)) 属性，并应忽略。
   

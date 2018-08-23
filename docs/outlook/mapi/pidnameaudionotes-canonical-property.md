@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2eb1f0a517b430f2c96161e94faa22ec4d67ac41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97986215a2280d64a7affa817e81d66e4fb82817
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777194"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577762"
 ---
 # <a name="pidnameaudionotes-canonical-property"></a>PidNameAudioNotes 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定附加到语音邮件的文本说明。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777194"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |统一消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要启用最终用户可以读取和编辑直接在语音邮件上的音频笔记，客户端提供用户可以在其中键入注释添加到语音邮件对象的此属性的一组编辑框。
   

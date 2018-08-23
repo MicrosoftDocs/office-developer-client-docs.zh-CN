@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5b02d149-e4c7-41ad-aa13-4268d82f4c42
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2b795009db981105c0857e78a9530d5396d889b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ec654310f7f364de1dd118cda178f168f073de6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777046"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578330"
 ---
 # <a name="pidlidtaskcomplete-canonical-property"></a>PidLidTaskComplete 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示任务已完成。
   

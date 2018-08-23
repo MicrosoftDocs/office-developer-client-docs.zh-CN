@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 81772115fcd4f081718dd560759f6ab93dc7c11c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569c1bd7ee2f4ac6c321f234be2954a57715549b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776521"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576665"
 ---
 # <a name="message-service-tables"></a>邮件服务表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 邮件服务表包含有关当前配置文件中的消息服务的信息。 对于每个 MAPI 会话，由 MAPI 实现并供提供配置支持的特殊用途客户端应用程序没有邮件服务的一个表。 
   

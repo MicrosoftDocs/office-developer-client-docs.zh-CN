@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f9ebe20-b037-422b-9991-69f85122a706
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6f6718bf63c48dec6d2d19b5931c6e7e81513a2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 442a5a69138fdd229289b4201224a4f151c8ccc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778119"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581900"
 ---
 # <a name="pidtagreceivedbyemailaddress-canonical-property"></a>PidTagReceivedByEmailAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息中接收的消息的用户的电子邮件地址。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778119"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是收到邮件的邮件用户的地址属性的示例。 它们必须由传入传输提供程序设置。
   

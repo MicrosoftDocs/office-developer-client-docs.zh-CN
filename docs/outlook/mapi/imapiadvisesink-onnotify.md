@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 73eb92b0c1b88e114775231695b91157a3d26a2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d052e7590ee502b55f2076d698587ab68820ca56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775304"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576699"
 ---
 # <a name="imapiadvisesinkonnotify"></a>IMAPIAdviseSink::OnNotify
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通过执行一个或多个任务响应通知。 执行的任务取决于事件以及生成通知的对象类型。 
   
@@ -50,7 +50,7 @@ S_OK
   
 > 通知已成功处理。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当客户端或 MAPI 服务提供商的**Advise**方法的调用，以注册，以接收通知的特定对象的特定类型时，将启动通知过程。 **Advise**方法的参数之一是指向实现[IMAPIAdviseSink](imapiadvisesinkiunknown.md)接口 advise 接收器对象的指针。 对目标对象对应于已注册的通知中，服务提供商，直接或间接通过 MAPI，事件发生时调用通知接收器**OnNotify**方法。 
   
@@ -107,7 +107,7 @@ MFCMAPI 示例代码，请参阅下表。
   
 [IMAPISupport::Notify](imapisupport-notify.md)
   
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md)
 

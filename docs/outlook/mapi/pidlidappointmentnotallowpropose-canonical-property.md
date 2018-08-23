@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 183c8eb5112fc35f088bc5c6ac11748e3449f15a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db88926cf86db2a628886dba4246107e0d3d571b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776594"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581375"
 ---
 # <a name="pidlidappointmentnotallowpropose-canonical-property"></a>PidLidAppointmentNotAllowPropose 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示是否与会者不允许建议新会议的日期/时间。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776594"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 值为 FALSE 或不存在此属性指示允许与会者建议新的日期/时间。
   

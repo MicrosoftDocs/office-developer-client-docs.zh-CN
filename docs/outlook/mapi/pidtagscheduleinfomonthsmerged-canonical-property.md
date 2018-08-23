@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b13b5d7b-413e-4405-8a35-0422477a9e86
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c1096df0eff4b43239978620f4ccf2e9d221095a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6de470a284b91126854a0c1324f5665fd72868ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778354"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577350"
 ---
 # <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a>PidTagScheduleInfoMonthsMerged 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的列表的忙/闲忙类型的数据或外出 (oof) 月消息中不存在的忙/闲信息的邮件。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778354"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性中不包含暂定的忙/闲信息的类型的事件。 语法/格式和约束此属性是那些**PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) 相同，但引用标记 OOF 或忙碌关联的 calendar 对象的约会。 
   

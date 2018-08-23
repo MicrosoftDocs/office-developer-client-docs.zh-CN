@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: 包含列表的线条和弧组成的形状的顶点坐标的行。
-ms.openlocfilehash: 7a829651c4cab62a5c583d068211b9ffa20e725e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1581c87ae34eff4f01054a2340c18f1e55456cfb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781152"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581690"
 ---
 # <a name="row-element-geometry-section-visio-xml"></a>Row 元素 （geometry 内容） (Visio XML)
 
@@ -78,7 +78,7 @@ ms.locfileid: "19781152"
 |N  <br/> |xsd: string  <br/> |可选  <br/> |指定行的唯一的独立于语言的名称。N 属性仅用于用户、 属性、 操作、 控件、 连接、 超链接和 ActionTag 部分。 行只能有一个 IX 或 N 属性。  <br/> |Xsd: string 类型的值。  <br/> |
 |T  <br/> |xsd: string  <br/> |可选  <br/> |指定由行和 geometry 可视化中使用的几何路径类型。 T 属性只用于 geometry 内容。  <br/> |Xsd: string 类型的值。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此**Row**元素的**T**属性必须为一组有限的 ShapeSheet 行对应的值之一。 请参阅下表为确定允许此**行**元素的**T**属性的值。 
   
@@ -87,7 +87,7 @@ ms.locfileid: "19781152"
 |ArcTo  <br/> |包含圆弧的 x 坐标、y 坐标和弓。  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
 |椭圆  <br/> |包含椭圆中心点和椭圆上两个点的 x 坐标和 y 坐标。  <br/> |[Ellipse Row (Geometry Section)](ellipse-row-geometry-section.md) <br/> |
 |EllipticalArcTo  <br/> |包含椭圆弧端点的 x 坐标和 y 坐标、弧形上控制点的 x 坐标和 y 坐标、x 轴与椭圆长轴之间的夹角以及椭圆长短轴之比。  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
-|InfiniteLine  <br/> |包含无限长线上两个点的 x 坐标和 y 坐标。  <br/> |[InfiniteLine Row (Geometry Section)](http://msdn.microsoft.com/library/Contains the x- and y-coordinates of two points on an infinite line.%28Office.15%29.aspx) <br/> |
+|InfiniteLine  <br/> |包含无限长线上两个点的 x 坐标和 y 坐标。  <br/> |[InfiniteLine Row (Geometry Section)](infiniteline-row-geometry-section.md) |
 |LineTo  <br/> |包含直线段终顶点的 x 坐标和 y 坐标。  <br/> |[LineTo Row (Geometry Section)](lineto-row-geometry-section.md) <br/> |
 |MoveTo  <br/> |包含形状的第一个顶点的 x 坐标和 y 坐标，或者表示路径中断开处后的第一个顶点的 x 坐标和 y 坐标。  <br/> |[MoveTo Row (Geometry Section)](moveto-row-geometry-section.md) <br/> |
 |NURBSTo  <br/> |包含非均匀有理 B 样条 (NURBS) 的 x 坐标和 y 坐标、倒数第二个节点的位置、最后一个权重的位置、第一个节点的位置、第一个权重的位置以及样条的公式。  <br/> |[NURBSTo Row (Geometry Section)](nurbsto-row-geometry-section.md) <br/> |

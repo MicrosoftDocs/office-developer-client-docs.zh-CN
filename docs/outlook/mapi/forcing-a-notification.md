@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9c7d6605-73ee-468c-981b-e0853106c9ba
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 40fc763071f7113e222c6987dfd70fb7d89bab4b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5affce8ab7a8b08019816ad9485641c401dd80c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774960"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578771"
 ---
 # <a name="forcing-a-notification"></a>强制执行通知
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当服务提供商使用[IMAPISupport: IUnknown](imapisupportiunknown.md)的通知，MAPI 方法提供了使用隐藏的窗口和其对应的窗口过程的通知。 为每个过程以接收通知，MAPI 发送给隐藏窗口的特殊的消息。 使用常量**szMAPINotificationMsg**中 MAPIDEFS 定义命名此消息。H。 
   

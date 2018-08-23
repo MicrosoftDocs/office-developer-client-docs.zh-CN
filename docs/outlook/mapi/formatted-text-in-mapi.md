@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6b82a755cbf2c8bd0f1d3676d4560e131dce3bd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bfaa4fd5f561c8138461db6ce8b9033c2a75b96b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774987"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580626"
 ---
 # <a name="formatted-text-in-mapi"></a>MAPI 中的格式化文本
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息的文本可存储和传输使用纯文本或带格式的文本。 带格式的文本更改其与，例如，一个或多个字体、 字号或文本颜色的外观，从而增强了消息文本。 建议的所有客户端和所有消息存储提供程序，只要有可能，都支持带格式的文本。 支持带格式的文本消息中添加通过改进消息可读性和进行消息处理更容易、 更高效的值。
   

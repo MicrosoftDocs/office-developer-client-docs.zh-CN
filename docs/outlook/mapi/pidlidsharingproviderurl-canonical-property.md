@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: eab12ef45846a8f58eb3cf327fbb40777010be7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b906ce83e26326755b483382eec8e494cbe7875
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777033"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577364"
 ---
 # <a name="pidlidsharingproviderurl-canonical-property"></a>PidLidSharingProviderUrl 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定由**dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 属性标识并与共享提供程序的 URL。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777033"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性通常用于提供的共享提供程序，有关详细信息，但应忽略。
   

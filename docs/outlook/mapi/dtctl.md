@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 68c621f5f73073ed127767cc1db189769dab227d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ce379ac70f140aae24880b118ca7293f2e72aa4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574711"
 ---
 # <a name="dtctl"></a>DTCTL
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述将显示表中生成的对话框中使用的控件。 
   
@@ -168,7 +168,7 @@ DT_SET_IMMEDIATE
   
 > 一个包含控件的数据，并且与控件的**PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)) 属性相对应的结构。 每种类型的控件具有不同的结构。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTCTL**结构描述任何类型的一个控件。 大部分及其成员用于为控件设置属性。 
   

@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: 43fd56932409861db86679eea6f1405dc4c37e62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a8e318f9bb5e538473e1b60c650e8730f692e50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779056"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577987"
 ---
 # <a name="upmov"></a>UPMOV
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 用于上载已移动的项目的信息。 [上载删除状态状态](upload-delete-status-state.md)和[上载表状态](upload-table-state.md)期间使用此信息。
   

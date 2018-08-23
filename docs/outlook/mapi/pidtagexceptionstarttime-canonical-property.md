@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fbbd261558cf75458e69371e7fb53857e0692e74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8de1a90c0dde029cc6880fe46b0c4d4af9b50ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777609"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579058"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>PidTagExceptionStartTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示的开始日期和时间的计算机的本地时区异常时创建例外。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777609"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |类定义消息非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 > [!NOTE]
 > 此属性仅供参考，必须不依赖的重要信息。 

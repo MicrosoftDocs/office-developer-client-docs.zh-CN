@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 152f3032876d6473f1716afa46507196cd5ecc55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de92a1328eb9a089a7914978ab20ab0bf5c430ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778870"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581956"
 ---
 # <a name="ssubrestriction"></a>SSubRestriction
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍用于筛选邮件的附件或收件人表的行的子对象限制。
   
@@ -58,7 +58,7 @@ PR_MESSAGE_ATTACHMENTS
   
 > 指向[SRestriction](srestriction.md)结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 所有表不支持子对象的限制。 通常情况下，仅文件夹内容表，搜索结果文件夹支持它们。 例如，子对象限制用来查找具有特定类型的附件或收件人的消息。 
   

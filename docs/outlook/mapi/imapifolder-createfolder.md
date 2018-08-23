@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 36fd729b1ca3e5d877d03358d581b83fc6d4782c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 694f7ec5715a7348c9bd90c28d14f30d43d19974
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775353"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581781"
 ---
 # <a name="imapifoldercreatefolder"></a>IMAPIFolder::CreateFolder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建新的子文件夹。
   
@@ -98,7 +98,7 @@ MAPI_E_COLLISION
   
 > 存在具有已_lpszFolderName_参数中指定的名称的文件夹。 文件夹名称必须是唯一的。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::CreateFolder**方法在当前文件夹中创建子文件夹，并将条目标识符分配给新文件夹。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e61ce7798c9e41dbb707d0d5773b116f7cce02d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebc7ed4563040e16c71e1df1094667f87a4c09b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776908"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572366"
 ---
 # <a name="pidlidmeetingtype-canonical-property"></a>PidLidMeetingType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示会议请求或会议更新的类型。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776908"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须设置为下列选项之一：
   

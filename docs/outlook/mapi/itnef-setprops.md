@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 09e4b427-316b-4630-9f3d-81e74f040d7b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 480a50bd8c3738ad7d0c178cb4cabfdecd15412e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81f9388b67d3194fe1442091b9f4f75a7671cb6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776107"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579646"
 ---
 # <a name="itnefsetprops"></a>ITnef::SetProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置用于封装的邮件或附件的一个或多个属性的值，而无需修改原始邮件或附件。 
   
@@ -64,7 +64,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 传输提供程序、 消息存储提供程序，和网关呼叫**ITnef::SetProps**方法可设置属性包括在邮件或附件封装而无需修改的原始邮件或附件。 与此呼叫设置的所有属性重都写封装的消息中的现有属性。 
   

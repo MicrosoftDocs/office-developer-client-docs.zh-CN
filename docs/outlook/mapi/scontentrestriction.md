@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 34177aee48adad7eecb40836a247705fc22d2a32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 43703051193ffacec6a54355eeea74edf904f186
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778709"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580570"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍内容限制，用来限制为仅这些内容匹配搜索字符串中包含的列的行表视图。 
   
@@ -69,7 +69,7 @@ typedef struct _SContentRestriction
   
 > 指针指向包含要用作搜索字符串的字符串值的属性值结构。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SContentRestriction**结构中有两个属性标记： **ulPropTag**成员和在**SPropValue**结构的**ulPropTag**成员另一个指向**lpProp**。 在这两个标记，MAPI 需要属性的类型字段，并忽略属性标识符字段。 但是，必须匹配的两个属性类型，否则 MAPI_E_TOO_COMPLEX 在调用[IMAPITable::Restrict](imapitable-restrict.md)或[IMAPITable::FindRow](imapitable-findrow.md)使用限制时则返回的错误值。 
   

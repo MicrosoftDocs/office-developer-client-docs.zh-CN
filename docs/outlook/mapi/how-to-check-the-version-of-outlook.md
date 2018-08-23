@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 15729f8d2c618f16fb5bebab885eaf610c09da77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6369ea8948ae1996b6f88bcacd218b8dcf397306
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775108"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574690"
 ---
 # <a name="check-the-version-of-outlook"></a>检查 Outlook 版本
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题提供的代码示例，如果已安装的版本为 Microsoft Outlook 2013、 Microsoft Outlook 2010、 Microsoft Office Outlook 2007 中，或 Microsoft Outlook 2003 检查安装版本的 Microsoft Outlook 的版本信息。 检查 Outlook 版本有时是 outlook 的确保当前运行版本所支持的 MAPI 应用程序调用 API 元素所必需的。
 

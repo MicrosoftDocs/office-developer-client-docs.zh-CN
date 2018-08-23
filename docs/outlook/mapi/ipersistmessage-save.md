@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 222d8257a802739ee8e513a0ea95a13f4b99322e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a95989cea7ad5529eb73276b4c771e4900804b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579898"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将修订后的表单保存回其已加载或创建的邮件。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功保存表单。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IPersistMessage::Save**方法将修订后的表单保存回其已加载或创建的邮件。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e2e00af3-1fb3-4314-936a-f480674d3d83
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cb9f4e0f58ea27d36ba911ed60527a2e53f23727
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78749a61bcbac64ded2c4791d9e239a12c38ce81
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579044"
 ---
 # <a name="pidlidappointmentsubtype-canonical-property"></a>PidLidAppointmentSubType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的事件是全天。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776673"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指定的事件是全天事件，指定的用户。 值为 TRUE 指示事件是全天事件，在这种情况下的开始时间和结束时间必须午夜以便持续时间为 24 小时的倍数，并为至少 24 个小时。 值为 FALSE 或不存在此属性指示该事件不是全天事件。 在客户端或服务器必须时用户碰巧创建 24 小时的事件，即使事件开始和结束午夜推断的值为 TRUE。
   

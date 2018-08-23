@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a2ec6def319b1f4686a61e9f97a936bfeba0d410
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 186afd6a80d0ae3ae0a767456e60b2ebaaa579b9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574382"
 ---
 # <a name="imapipropgetnamesfromids"></a>IMAPIProp::GetNamesFromIDs
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供对应于一个或多个属性标识符的属性名称。
   
@@ -85,7 +85,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 一个或多个所指的_lppPropTags_属性标记数组中的条目的**cValues**成员设置为 0。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 按属性标识符对大多数属性的访问时，可以通过名称访问某些属性。 **IMAPIProp::GetNamesFromIDs**方法可调用它以执行下列操作： 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: acf9cee9bf0713b909b0d82fc606b015ac28474e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f8a6baa9a910b91e633084f1d9cd8ac52b24d5b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775223"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575600"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个新项，可以是邮件用户、 通讯组列表或其他容器。
   
@@ -72,7 +72,7 @@ S_OK
   
 > 已成功创建新条目。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IABContainer::CreateEntry**方法会返回一个指针接口实现进一步访问该条目指定容器中创建特定类型的新条目。 使用已发布其一次性表中的可用模板的容器的列表中选择一个模板创建新条目。 呼叫者通过调用其[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法并请求**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性来访问容器的一次性表。 
   

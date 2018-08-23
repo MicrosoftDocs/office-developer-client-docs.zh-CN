@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 01563e3655d42abc62ea88a12f2878e5d81129d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2caa70600bd32234e38420f274bcd5c46ffb070
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578155"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含指向邮件类字符串的数组。
   
@@ -51,7 +51,7 @@ typedef struct
   
 > 指向邮件类字符串的数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SMessageClassArray**结构作为中的以下方法的参数传递： 
   

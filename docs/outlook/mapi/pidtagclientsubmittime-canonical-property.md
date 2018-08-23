@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ccf4a6054ecc89e280f2f5cbc4c72b2a8a829055
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c7ca5b2b6f5f3131c2fcb70ff0043825a68a91f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777410"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580122"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>PidTagClientSubmitTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间发件人提交一条消息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777410"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |消息时间  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 存储提供程序将**期限**设置为客户端应用程序调用[IMessage::SubmitMessage](imessage-submitmessage.md)的时间。 
   

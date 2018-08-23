@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9e4d1554-a47f-461c-8f79-0604d5542e8d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 65e6d8213d21a2b9f77a86d000a562012e0a3816
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0c57bcfc9c44fd88c0b05b9cd1e8d906220a1f42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777810"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575012"
 ---
 # <a name="pidtaglocaleid-canonical-property"></a>PidTagLocaleId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 建立翻译系统生成的邮件，例如送达报告的语言区域设置。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777810"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是可在专用邮箱登录。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 45033ab924dcf443e9d231b3a7b4348119758935
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 704a556b97f5fd90989641a17afe5a11d127e51b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577168"
 ---
 # <a name="imapisessionadvise"></a>IMAPISession::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册接收影响会话的指定事件的通知。
   
@@ -113,7 +113,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 配置文件中的服务提供程序的任何无法处理由_lpEntryID_指向的项标识符。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::Advise**方法建立呼叫者之间的连接的建议接收器对象，该会话和 （可选） 服务提供商。 此连接用于将通知发送到通知接收器一种或_ulEventMask_参数中指定的多个事件发生指向_lpEntryID_对象。 如果_lpEntryID_为 NULL，目标对象为会话，并仅为严重错误和扩展的事件发送通知。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1604c4a1a0d1bf4008595b0d150b4f7eb3d1c2ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8d85ba55c5aa2f3780ad8e04cf1326cd7c35865
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575936"
 ---
 # <a name="ssortorderset"></a>SSortOrderSet
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义一个表，用于标准或分类排序的排序关键字的集合。
   
@@ -61,7 +61,7 @@ typedef struct _SSortOrderSet
   
 > 每个定义排序顺序的**SSortOrder**结构数组。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SSortOrderSet**结构用于定义多个标准和分类排序的排序顺序。 
   

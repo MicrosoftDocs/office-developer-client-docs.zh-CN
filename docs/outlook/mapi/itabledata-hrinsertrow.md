@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 29fdbf060576ee9309473fddf8740b06229dae9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776080"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579884"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 插入表格行。 
   
@@ -54,7 +54,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 都有其索引列的值相同，如下表中存在已插入的行的行。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrInsertRow**方法插入表格中的特定位置插入一行。 _UliRow_参数指定的位置中的行后面插入新行。 
   

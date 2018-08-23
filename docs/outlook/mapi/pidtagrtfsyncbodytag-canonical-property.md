@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2dab5018-4214-4162-93bc-e5565f3ac24c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bad754d21652d3f5278a6dad3ec06f4a0b533036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c141ce5b4a8d44cc42a070d73e8e89f35e776fe9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778270"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576854"
 ---
 # <a name="pidtagrtfsyncbodytag-canonical-property"></a>PidTagRtfSyncBodyTag 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含出现在消息文本的开头的有效字符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778270"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 [RTFSync](rtfsync.md)函数使用的文本标记指示消息文本的开头。 修改文本时，标记用于查找以前的文本的开头。 
   

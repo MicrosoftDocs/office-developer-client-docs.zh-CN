@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f346baf303db9da765eec183d168b370547ec2de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2e1cff8148815c3e03b92e4d57d1c6a303943c9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778211"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578162"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>PidTagResourceMethods 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含这些标志指示**IMAPIStatus**接口中支持的状态对象的方法的位掩码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778211"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指示支持哪种中**IMAPIStatus**状态对象实现的方法。 允许从不受支持方法返回 MAPI_E_NO_SUPPORT 状态对象。 
   

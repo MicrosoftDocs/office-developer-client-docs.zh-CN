@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1b59071758aad9c71939eb9efc029005806b2a37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe722e8723fdc3868cbbc3188f03e13ef3f466f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775878"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575334"
 ---
 # <a name="imsgstoregetoutgoingqueue"></a>IMsgStore::GetOutgoingQueue
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供对传出队列表，具有信息的所有邮件的邮件存储传出队列中的表的访问。 只能通过 MAPI 后台处理程序调用此方法。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功返回传出队列表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::GetOutgoingQueue**方法提供了有权访问表的显示的消息存储队列的传出消息的 MAPI 后台处理程序。 通常情况下，消息发出传出队列表中调用其[IMessage::SubmitMessage](imessage-submitmessage.md)方法之后。 但是，由于提交的顺序将影响预处理和提交到传输提供程序的顺序，某些被标记为发送的消息可能未显示在传出队列表立即。 
   

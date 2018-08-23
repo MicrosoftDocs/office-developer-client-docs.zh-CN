@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e61a72691309b2ac632b764c0607f5b1e36b291b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fcb5486cc96403b872e07ab597545ca6f493907d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581319"
 ---
 # <a name="saving-a-message"></a>保存邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 保存一条消息之前，客户端通常呼叫消息的[IMAPIProp::SetProps](imapiprop-setprops.md)方法，以便设置除了消息文本属性、 附件属性、 **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))，和属性的几个属性收件人列表相关联。
   

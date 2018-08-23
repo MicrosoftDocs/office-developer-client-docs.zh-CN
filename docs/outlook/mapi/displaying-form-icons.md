@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 197e72ab-f9d6-4889-a677-0ce4c27b1aad
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b2e79e5568de38bee9a97c9df2598b30f1ba1bdf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ac8026489b06031e07ab4b2978c9ece04063bb1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774809"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579142"
 ---
 # <a name="displaying-form-icons"></a>显示表单图标
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在文件夹中显示的邮件的列表时, 很有用向用户如果从标准 IPM 区分自定义邮件类别的邮件。请注意消息。 自定义邮件类对应于窗体服务器和窗体服务器提供了图标表示本身。 用户打开邮件之前，您可以对每封邮件的邮件类的通知用户的邮件的列表中显示这些图标。 通常情况下，窗体的**PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) 属性中的图标是应显示在列表中的邮件。 窗体也有属性表中的窗体最小化时可显示**PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) 属性。
   

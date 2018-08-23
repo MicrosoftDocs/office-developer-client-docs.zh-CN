@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 38df67757082bd12e008e56632ec7e6961ba9d42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8dba5906a00beb6d38e4f3e375a9c57db79d42f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777616"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575957"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>PidTagFlagStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的消息对象的标志状态。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777616"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须存在会议相关对象上,，它应不存在于 task 对象。 当在其他消息对象上设置时，此属性必须设置为下列值之一：
   

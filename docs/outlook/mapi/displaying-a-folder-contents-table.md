@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 30099e9fe645f810e08ba331717cff975f69b313
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51c88e8c062a409db305e893b82f43d8c8ac7094
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580794"
 ---
 # <a name="displaying-a-folder-contents-table"></a>显示文件夹内容表
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 文件夹的内容表包含有关的所有消息的摘要信息。 内容的接收文件夹的邮件类的表中显示有关新的传入消息的摘要信息。 若要使此信息可供用户使用，检索表并根据需要显示的列和行。
   

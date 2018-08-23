@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5906b296f3a3898a27944373cbbc9c48e3483eb7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 777fdc66890bf245702304c0db81becf6e6c4147
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778116"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580290"
 ---
 # <a name="pidtagradiotelephonenumber-canonical-property"></a>PidTagRadioTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收信人无线电话号码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778116"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和收件人的组织定义的。 
   

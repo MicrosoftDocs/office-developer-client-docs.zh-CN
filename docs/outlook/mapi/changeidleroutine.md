@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 0a24fe3b-a1ef-4748-b3b3-3bf747473c9d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1fbeccd805953322b579d1490b5e74e5132aa7ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49682007946a4c5dda3800751deaebcc0e1e5740
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19774678"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579450"
 ---
 # <a name="changeidleroutine"></a>ChangeIdleRoutine
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 更改部分或全部[FNIDLE](fnidle.md)基于空闲例程的特征。 
   
@@ -99,7 +99,7 @@ _ircIdle_
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 下面的函数处理与 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程： 
   

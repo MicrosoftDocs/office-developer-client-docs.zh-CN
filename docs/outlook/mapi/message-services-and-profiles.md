@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0f55d4cda013810884177a0f47e861e3693defd7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60a102a68ee11cd6002be9edf47d0cee93ed2e15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776519"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581431"
 ---
 # <a name="message-services-and-profiles"></a>消息服务和配置文件
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 某些用户需要多个邮件系统，每个都与一个或多个服务提供商的服务。 由于麻烦安装和配置这些服务提供商的每个单独，且 MAPI 因为消息服务器通常需要一组相关的提供程序公开其所有功能，包括消息服务的概念。 消息服务帮助用户在安装和配置其服务提供商。
   

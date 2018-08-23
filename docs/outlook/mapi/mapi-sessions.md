@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 45dc993c337249ed7d4dffbd5324267de82981d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2ab44081c79e72e082687006ab06d0f83b8367e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575026"
 ---
 # <a name="mapi-sessions"></a>MAPI 会话
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序可以调用基础的消息系统之前，它必须建立一个会话或连接，与 MAPI 子系统。
   

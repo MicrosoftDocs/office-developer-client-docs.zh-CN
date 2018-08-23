@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 41d1a4abe79892fa1c9c8789e159a19645318497
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 263b7eb0de7fe724625d99c3f08ad12d5740dd52
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778249"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581634"
 ---
 # <a name="pidtagroamingdictionary-canonical-property"></a>PidTagRoamingDictionary 规范属性
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含描述漫游字典 XML 文档。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778249"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Configuration  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含一个使用 UTF8 编码的 UNICODE XML 文档。 具有词典流一条消息必须设置此属性与下面的架构：
   

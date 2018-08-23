@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c30377d3-6184-4c8a-8819-dd12c6b08ad4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 167f1c61569c6c9eec4f2361e453b58f0ab127d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f9043a62de37baa89440a6eaa90070f68a311df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777688"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580983"
 ---
 # <a name="pidtaghomeaddresspostofficebox-canonical-property"></a>PidTagHomeAddressPostOfficeBox 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用户的地址的邮政信箱信息。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777688"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户或用户的组织定义这些属性。
   

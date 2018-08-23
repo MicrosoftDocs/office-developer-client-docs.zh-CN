@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 332b78bcebbcd54de43376553ec4aea386c1c359
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a32c73f8a907b371c4d0f1c07050d44fd45801ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774928"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576286"
 ---
 # <a name="finding-a-profile-name"></a>查找配置文件名称
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有时，客户端需要查找当前正在使用的会话、 默认配置文件的名称或其他计算机上安装的配置文件的名称的配置文件的名称。
   

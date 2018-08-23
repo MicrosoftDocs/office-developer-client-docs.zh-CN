@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f35bbcc3-15dd-40ab-9bf4-bdb21f95d464
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 825922bec95a24fe718cdb7db82851a820c364ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c19a757b8adf474a3624f90a7cf19cc2308fa0d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778496"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582264"
 ---
 # <a name="pidtagtitle-canonical-property"></a>PidTagTitle 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的职务。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778496"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和收件人的组织定义的。 
   

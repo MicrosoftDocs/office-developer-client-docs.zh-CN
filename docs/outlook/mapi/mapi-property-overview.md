@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ed11677d09ae5acacced77373b2bca783d1ec0b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40a71592e658110dab81c9bcb4aec97f9930d014
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776301"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576475"
 ---
 # <a name="mapi-property-overview"></a>MAPI 属性概述
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 属性是 MAPI 对象的属性。 属性描述有关该对象，例如邮件或消息的用户的地址类型的主题行。 MAPI 定义多个属性，某些来描述许多对象和一些仅适合特定类型的对象。 客户端和服务提供商可以通过创建新的自定义属性扩展 MAPI 的一组预定义属性。 客户端可以定义属性来描述新的邮件类，并且服务提供商可以定义属性来公开其邮件系统的独特功能。
   

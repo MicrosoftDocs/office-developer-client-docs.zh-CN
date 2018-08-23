@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8a0b10596bdfdc1ea33f6d170ee1e021193d3788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28e7874d1e61c0a4fe0ad702f206ca03a9a1096a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575873"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示 MAPI 后台处理程序都有要提供的传输提供程序的消息。
   
@@ -84,7 +84,7 @@ MAPI_E_WAIT
   
 > 暂时出现问题阻止传输提供程序处理邮件。 _LpulReturnParm_参数应设置为的 MAPI 后台处理程序重新提交邮件之前所经过的秒数。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用**IXPLogon::SubmitMessage**方法时要提供的传输提供程序的消息。 通过使用_lpMessage_参数情况下，邮件传递到传输提供程序。 
   

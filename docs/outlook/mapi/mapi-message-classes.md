@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 64ef2bbb-585c-4908-8ad4-a1c954057e9b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 27b81c0939aa3e880f3998d33f4717c51bdbe681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eecbbb3b806ecaee6c7ceba5c92bd4b713ad1075
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776270"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575138"
 ---
 # <a name="mapi-message-classes"></a>MAPI 邮件类
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 每个邮件具有邮件类属性， **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))，它标识类型、 目的或消息的内容。 **PR_MESSAGE_CLASS**是必需的属性对所有新邮件。 邮件类决定用于向用户和发出传入消息的文件夹的邮件的形式。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7a42a3b50cfa5630ac66cb03caac06dd7cb00e6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cca22b466b1e0d2da9ca9cc009586df08316270c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778081"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581053"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>PidTagProviderUid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含正在处理一条消息的服务提供商**MAPIUID**结构。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778081"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性由所有服务提供商计算。 它包含提供商的[MAPIUID](mapiuid.md)结构相关联，且通常硬编码。 通常使用感仅特定的提供商所提供的通讯簿容器中的客户端应用程序。 
   

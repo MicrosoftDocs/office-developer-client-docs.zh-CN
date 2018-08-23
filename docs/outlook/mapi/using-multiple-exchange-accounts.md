@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: d5798f4836f6b5635c8e04bd380e53ade34384a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3fa32b680f5016d4417efdcf62e9bb1f04a51845
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779073"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581382"
 ---
 # <a name="using-multiple-exchange-accounts"></a>使用多个 Exchange 帐户
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 exchange 电子邮件帐户与集成。 在 Outlook 2010 或 Outlook 2013 中，用户无法将两个 exchange 帐户添加到的同一配置文件和仍享受丰富的 Exchange 功能，如已发布的全局地址列表 (GAL)、 Exchange 出的 Office 配置和文件夹共享。
   

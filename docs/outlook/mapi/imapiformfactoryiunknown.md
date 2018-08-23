@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 651ef6a7c1af70c75a85e13414c4fd7632d30290
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2aa08ea14df87f24cda3da0137ae4bfa2c50b40
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576013"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 支持在分布式计算环境中的可配置的运行时窗体。 
   
@@ -44,7 +44,7 @@ ms.locfileid: "19775415"
 |[时出错](imapiformfactory-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面对窗体中心对象发生的错误的信息。  <br/> |
 |[LockServer](imapiformfactory-lockserver.md) <br/> |在内存中保留的打开的窗体服务器。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFormFactory**接口基于[IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx)接口，并实现**IMAPIFormFactory**对象应还继承**IClassFactory**。
   

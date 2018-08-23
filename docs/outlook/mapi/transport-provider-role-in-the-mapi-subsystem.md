@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7ea60b73fb1abe32b6db5e3c73d6ef3fac53d35d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 263370590a35f19482cc5ad7e56c65f6df0087fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779000"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581298"
 ---
 # <a name="transport-provider-role-in-the-mapi-subsystem"></a>MAPI 子系统中的传输提供程序角色
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传输提供程序动态链接库 (Dll) 提供了 MAPI 后台处理程序和负责邮件发送和接收的邮件系统的一部分之间的接口。 MAPI 后台处理程序和传输提供程序一起工作以处理发送邮件还是接收邮件的职责。 MAPI 后台处理程序在首次使用并将其发布当不再需要时对其时加载传输提供程序 DLL。 多个传输提供程序可以安装在相同的系统，但 MAPI 提供所需一个后台处理程序。
   

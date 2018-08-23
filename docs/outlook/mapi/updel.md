@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b23291d-3355-d772-4647-d4bbd64b0b53
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bfc03f7fe573005a235154cf179dcf44bf4abd65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 057a1ff38ed3809ce03bce8f820f1d16eea7fb46
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779040"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581123"
 ---
 # <a name="updel"></a>UPDEL
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 已删除本地存储区中的项目的信息。 [上载删除状态状态](upload-delete-status-state.md)期间使用此信息。
   

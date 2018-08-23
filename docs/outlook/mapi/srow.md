@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8b4e090b3dd6bf8ecd2517dee57093106147e22d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56bf1366cdd44fac185277280d2e8ab80c644c45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778873"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579121"
 ---
 # <a name="srow"></a>SRow
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍包含特定对象的选定的属性表中的行。 
   
@@ -53,7 +53,7 @@ typedef struct _SRow
   
 > 指向一个[SPropValue](spropvalue.md)结构描述行中的列的属性值的数组。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SRow**结构描述表中的行。 它包含附带表通知的[TABLE_NOTIFICATION](table_notification.md)结构中。 
   

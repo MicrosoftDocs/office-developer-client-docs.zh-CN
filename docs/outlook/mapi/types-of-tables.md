@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 36456c6226b2eb74b8f15995ad0925381302523a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f55902190aa22694d89abd4d118a04d62a3c0d5b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779014"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581914"
 ---
 # <a name="types-of-tables"></a>表类型
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有许多不同类型的表，它提供的信息差分每种类型。 表允许客户端应用程序和服务提供商来轻松访问和处理许多类型的对象的重要属性。 
   

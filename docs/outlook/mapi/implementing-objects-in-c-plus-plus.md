@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ea9f37183f33459b09f2730b3efbb7afed3d4766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c233f9855674080496b2e54ba9548a53738ead8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775806"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574725"
 ---
 # <a name="implementing-objects-in-c"></a>在 c + + 中实现对象
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 C + + 客户端和服务提供商定义 MAPI 对象通过创建继承他们要实现的接口的类。 每个接口的方法是公共构造函数和类的析构函数。 如果类具有其他方法，它们可以是公共或专用，具体取决于实现。 所有数据成员都都专用。 
   

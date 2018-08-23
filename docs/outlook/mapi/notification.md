@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7a8d25dc7cac4226f38baab593b254108210549e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d427adde72c24d4ca879c7bd883af09c4ecad53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776552"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579968"
 ---
 # <a name="notification"></a>NOTIFICATION
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含有关发生的事件和受事件的数据的信息。
   
@@ -96,7 +96,7 @@ typedef struct
   
 > 描述受影响的数据的特定类型的事件通知结构的联合。 **Info**成员中包含的结构取决于**ulEventType**成员的值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 一个或多个**通知**结构与每个呼叫的注册的 advise 接收器[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法传递作为输入参数。 **通知**结构包含有关的特定事件的发生和描述受影响的对象的信息。 
   

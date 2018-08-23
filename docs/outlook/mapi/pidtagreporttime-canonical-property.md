@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b3646505-a9f0-4a72-8277-b238c909f66f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 95972d53f20f432bc8007f8bbc6734889773f938
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4efe68745c10521de243677c10a9ca32debd7122
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778220"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577798"
 ---
 # <a name="pidtagreporttime-canonical-property"></a>PidTagReportTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间在邮件系统时生成报表。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778220"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性表示上送达和原件报告的每个收件人属性和读取和 nonread 报表上的每封邮件属性。 
   

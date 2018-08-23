@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4b37555a-1d07-4f42-95e3-b8fa37ed0c3b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a139c39c5814b22d9b55bc937a7c300d89f1d5bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94d33910650de4f0d625d7a819c66ad8c599a47e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778148"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581452"
 ---
 # <a name="pidtagreceivedbysearchkey-canonical-property"></a>PidTagReceivedBySearchKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息中接收的消息的用户的搜索键。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778148"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一个收到邮件的邮件用户的地址属性。 它必须由传入传输提供程序设置。
   

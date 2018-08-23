@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ce5e8c43-06af-4afc-9138-5cc51d8fc401
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 12b0c9b40c7ff06e9a3cf8e7929489f30434fa12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6803c54ddd60c1bcebbe7a139c2edf2e7f4449d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572083"
 ---
 # <a name="imapitableseekrowapprox"></a>IMAPITable::SeekRowApprox
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将光标移到表中大约小数位置。 
   
@@ -54,7 +54,7 @@ MAPI_E_BUSY
   
 > 另一个操作正在进行阻止寻求操作从起始行中。 应允许正在进行的操作完成或应停止。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对**IMAPITable::SeekRowApprox**方法的调用之后表中的光标位置是试探性地分数，且可能不可准确。 例如，特定提供程序可能实现二进制树中，在表视为出于性能原因树顶部的表的中点。 如果不平衡树，然后使用的中间点可能不是表到完全一半。 
   

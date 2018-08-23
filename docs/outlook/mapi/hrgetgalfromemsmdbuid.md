@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5db1b45f42365837d7b0e7af91f859f221ff687b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b05baf1f819a821da3496cc63c2b2980894efd7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775165"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575712"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回标识_pEmsmdbUID_的 Exchange 服务的全局通讯簿条目标识符。 应使用[MAPIFreeBuffer](mapifreebuffer.md)释放返回的项标识符。
   

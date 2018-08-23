@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 714f99e2-80fc-4785-b707-611d8a6c229f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 30f5e0b59bacfab91a3a6c77c0b345d6299df9e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 038c13d24f3d797f7a4f8f9b7692240ce8004b74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778557"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580332"
 ---
 # <a name="property-entries-in-mapisvcinf-message-service-sections"></a>MapiSvc.inf 邮件服务部分中的属性条目
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置属性的项使用以下格式：
   

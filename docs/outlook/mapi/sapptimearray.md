@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 834a7141f0e7150140fa27c21d88db422d6f5561
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d277908d3ec96537f63511e4d50488a694696bd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581221"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含数组的时间值。
   
@@ -50,7 +50,7 @@ typedef struct _SAppTimeArray
   
 > 指向的应用程序时间值的数组。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SAppTimeArray**结构用于定义 PT_MV_APPTIME 类型的属性。 有关 PT_MV_APPTIME 的详细信息，请参阅[列表的属性类型](property-types.md)。
   

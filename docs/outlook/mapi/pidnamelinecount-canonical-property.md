@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 733e07b6-da9f-4ec0-80e4-2267213fceae
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d82ce0acb642ae6e3790595fa2479bad92383bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4aef0e62a0f9814bf81932c4d0e161b6998bf57b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777209"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572415"
 ---
 # <a name="pidnamelinecount-canonical-property"></a>PidNameLineCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 附加到文档的文件中指定行的数。
   

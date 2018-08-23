@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: eca3d4ff-2e92-4d20-a498-98e0773c1962
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 94e83f4a93bac4ee144c5fbf94fd4b3fdb6c2f55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6cc5edf1c93ca94fb9d8cab302ccd8e96373cd94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777318"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581942"
 ---
 # <a name="pidtaganr-canonical-property"></a>PidTagAnr 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含在通讯簿容器内容表属性限制中使用的字符串值。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777318"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性不属于任何对象;它提供通过[SPropertyRestriction](spropertyrestriction.md)结构中的通讯簿提供程序。 此属性包含可以对通讯簿容器内容表，以查找相应邮件的收件人，测试模糊名称解析 (ANR) 字符串。 
   

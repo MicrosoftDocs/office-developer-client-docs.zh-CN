@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fd40be7733934002b81482a8bf5cfe8c9ce12313
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c056b0e587de06f6c32ceb3cebbb96f2fb737208
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579079"
 ---
 # <a name="pidlidreminderset-canonical-property"></a>PidLidReminderSet 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定是否在对象上设置提醒。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777004"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果定期 calendar 对象具有此属性设置为 TRUE，客户端可以替代此值的例外。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6a36f4fb-17c0-4271-87d4-a92895f35f23
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ce9fea80a2dfed25002e5500dd4defaf5ff04421
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 910a62a660ea17992aa391d7453919d9fbb53c86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778030"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580430"
 ---
 # <a name="pidtagparentdisplay-canonical-property"></a>PidTagParentDisplay 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一条消息，在其中搜索过程中发现的文件夹的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778030"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对任何对象，这些属性不是。 它们仅可以显示搜索结果文件夹的内容表中。
   

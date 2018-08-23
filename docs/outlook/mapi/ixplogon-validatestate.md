@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 165fe3a72060e88dc34d8153c13ae58bcbd9ae0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4fd0dd02c5cf6f6a49b782d06c02e373dcfc3327
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776152"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577483"
 ---
 # <a name="ixplogonvalidatestate"></a>IXPLogon::ValidateState
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检查传输提供程序的外部状态。 
   
@@ -90,7 +90,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用**IXPLogon::ValidateState**方法以支持的状态对象调用[IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法。 传输提供程序应当给出答复到**IXPLogon::ValidateState**的呼叫就好像 MAPI 后台处理程序已打开了当前登录会话状态对象，然后在该对象上调用**IMAPIStatus::ValidateState** 。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e071b50f-2e75-4537-ac7b-4a2f5ebea83d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c00d5bb2e5da02b007579c7a8206baa98f64143f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95ed80a6d0ea6a6a7c8cc768b32981ac899b69e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779033"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578246"
 ---
 # <a name="uninitialized-state"></a>Uninitialized 状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 未初始化的状态是首次创建时，对象应中的初始状态窗体。 客户端应用程序在窗体对象上调用[IPersistMessage::InitNew](ipersistmessage-initnew.md)或[IPersistMessage::Load](ipersistmessage-load.md)方法时，使用消息数据成为初始化表单对象。 下表介绍允许的 Unitialized 状态转换。 
   

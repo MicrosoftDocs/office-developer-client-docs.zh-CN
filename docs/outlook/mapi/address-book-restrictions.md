@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b8ad765a2bbd3aafd87a7eff79993978816729b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54cd90cac6c00e8cf274e0b78a1bfec32401bb8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774517"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576510"
 ---
 # <a name="address-book-restrictions"></a>通讯簿限制
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 要在其容器的内容表支持三种类型的限制，通讯簿提供程序被必需:
   

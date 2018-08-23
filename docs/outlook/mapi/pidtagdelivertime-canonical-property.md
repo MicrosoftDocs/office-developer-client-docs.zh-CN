@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: da0ad17b-08ac-4c50-ac1d-13062b890dfd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 40839e34a61b5e5fdd3d7b69d8c553d7e469cd22
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 198e388f5cfb6ab0431e7b7a78b9a0be3d103597
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777544"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582117"
 ---
 # <a name="pidtagdelivertime-canonical-property"></a>PidTagDeliverTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间时原始邮件已送达。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777544"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是指示原始邮件已传递到为其生成送达报告的邮件用户的时间的送达报告的每个收件人属性。
   

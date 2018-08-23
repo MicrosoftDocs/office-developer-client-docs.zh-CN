@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1578e26ec96f69975c2304cb185f352193a52c2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3f53a894b7f7cdaa68e66530c7bd99bf49b9ed0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581354"
 ---
 # <a name="swstringarray"></a>SWStringArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于描述 PT_MV_UNICODE 类型的属性的字符串的数组。 
   
@@ -50,7 +50,7 @@ typedef struct _SWStringArray
   
 > 指向一个 null 结束 Unicode 字符的字符串数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关 PT_MV_UNICODE 的详细信息，请参阅[属性类型](property-types.md)。
   

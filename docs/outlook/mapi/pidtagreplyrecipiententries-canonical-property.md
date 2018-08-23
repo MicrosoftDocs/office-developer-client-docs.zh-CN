@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1ab8828dd2fc28a2fba1620fc251ba0a87c3e2bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce433dda7357bdce964f897ce985286d193ec0b1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576468"
 ---
 # <a name="pidtagreplyrecipiententries-canonical-property"></a>PidTagReplyRecipientEntries 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含要获取回复的收件人的项标识符的大小的数组。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778199"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含一个[FLATENTRYLIST](flatentrylist.md)结构，并不是多值的属性。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 464b1297-9d90-47bd-afc4-3dc63b106cb7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e755c18ef3cc32f9a00169f19cf336eace447a32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a6ba7af5e497ba59b43e9b80cfc9595961ed10e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579541"
 ---
 # <a name="mapi-named-properties"></a>MAPI 命名属性
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 提供的工具，用于为属性分配名称、 将这些名称映射到唯一标识符，以及使此映射持久。 永久名称标识符映射到可确保跨会话保持有效属性名称。
   

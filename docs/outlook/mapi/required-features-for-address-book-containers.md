@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5eeaa9a8c1965954ad2eb0a6bfd2a174a355f10d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 050a26f4b4e6c353881189f8c7b71c2e4c378d03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778636"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577210"
 ---
 # <a name="required-features-for-address-book-containers"></a>通讯簿容器的必需功能
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 大多数通讯簿提供程序支持至少一个容器，可修改其中一些。 通讯簿容器可以提供内容和层次结构表、 搜索功能和名称解析。 可修改容器允许删除如消息用户、 通讯组列表，或其他容器和项从其他容器中条目或一次性模板添加条目。
   

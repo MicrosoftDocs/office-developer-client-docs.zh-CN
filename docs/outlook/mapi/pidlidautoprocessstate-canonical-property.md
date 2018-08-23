@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 86ef98ac7b4084de3a96210298fe0d5509d12103
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7e2db23b43383ca405ac58216b94a23d3257fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776691"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578337"
 ---
 # <a name="pidlidautoprocessstate-canonical-property"></a>PidLidAutoProcessState 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的电子邮件的自动处理中所使用的选项。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776691"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 该属性可能不存在，在这种情况下使用"0x00000000"的默认值。 如果设置，此属性必须设置为下表中的值之一。
   

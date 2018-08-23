@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 27e706315ad81c12b33b1d7670b8196df7fef14d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e965b787c32ea87a06c375cc82f25e385eea8de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777331"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577469"
 ---
 # <a name="pidtagassociatedsharingprovider-canonical-property"></a>PidTagAssociatedSharingProvider 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 确定是否将个人文件夹文件 (PST) 存储提供程序配置为 Microsoft SharePoint 2010 太平洋标准时间。
   
@@ -30,7 +30,7 @@ ms.locfileid: "19777331"
 |数据类型：  <br/> |PT_CLSID  <br/> |
 |区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指示是否为 Microsoft SharePoint 2010 配置太平洋标准时间。 如果属性不存在，则 PST 尚未配置为 Microsoft SharePoint 2010 太平洋标准时间。
   

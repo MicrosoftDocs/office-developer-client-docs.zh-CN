@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3758cf72aa79dbf500138e96872352950fafbd2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9235da7e7ec6ec244ee1a75f4795e9c77ec28bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776132"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579947"
 ---
 # <a name="ixplogonstartmessage"></a>IXPLogon::StartMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启动入站邮件传输提供程序传输到 MAPI 后台处理程序。
   
@@ -55,7 +55,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 后台处理程序调用**IXPLogon::StartMessage**方法来启动入站邮件传输提供程序传输到 MAPI 后台处理程序。 传输提供程序开始使用所指的_lpMessage_消息之前，它应通过[IXPLogon::TransportNotify](ixplogon-transportnotify.md)方法调用潜在用于_lpulMsgRef_参数中存储消息引用。 
   

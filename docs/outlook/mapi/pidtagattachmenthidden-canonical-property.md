@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1c6444c6e8eace7dd2556d3b77a929c3112db1c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1604ae36bc20dc799fb21dec4c8742df4670ea1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777361"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581627"
 ---
 # <a name="pidtagattachmenthidden-canonical-property"></a>PidTagAttachmentHidden 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示附件是否从最终用户隐藏。
   

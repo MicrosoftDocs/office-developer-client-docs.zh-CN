@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d94087c2-a996-45b0-b5ed-0293d8a47d9b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e6375f6db7a2f4dae540267603f5ef50feb4f81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9ee0982d8a8f1eb137caa6d708b74794de36cdb9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777681"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581333"
 ---
 # <a name="pidtagftpsite-canonical-property"></a>PidTagFtpSite 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含联系人的文件传输协议 (FTP) URL。 FTP 是用于传输数据，[RFC959] 中指定的协议。
   

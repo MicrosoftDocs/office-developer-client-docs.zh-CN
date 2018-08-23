@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2e742ecd-2dcd-46a8-9d4e-2cec2c6f795e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 983cbaf4d3523bf1e5370e5ad3119ab8c1490f8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9ee41469914e52295af219428f26854662c9e2f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582244"
 ---
 # <a name="supporting-named-properties"></a>支持命名的属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 实现任何对象[IMAPIProp: IUnknown](imapipropiunknown.md)接口可支持命名的属性。 支持的命名属性是必需的： 
   

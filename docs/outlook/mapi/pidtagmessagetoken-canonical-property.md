@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7357b7b98d90d08f7d14e965458703e4e193f63a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b5def94096f7664169935a062d3b28171fb2919
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777869"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578428"
 ---
 # <a name="pidtagmessagetoken-canonical-property"></a>PidTagMessageToken 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件 ASN.1 安全令牌。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777869"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |安全邮件属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性传达受保护与安全相关信息从其原始发件人向其收件人。 与**PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) 属性一起使用，则保证与邮件内容的标签的关联。 在与**PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) 属性一起使用，它验证的消息内容未更改。
   

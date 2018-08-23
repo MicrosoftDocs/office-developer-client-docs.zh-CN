@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
 description: 上次修改时间： 2013 年 2 月 1 日
-ms.openlocfilehash: fa279962043f6f7cb7a134b624000c9c7e65369f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d380f784094064232cdb7369080612ba9ccac0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19775263"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576867"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开的通讯簿条目，并返回可用于访问该条目的接口的指针。
   
@@ -107,7 +107,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 无法识别_lpEntryID_中指定的项标识符。 如果负责的相应条目的地址簿提供程序未打开，则通常会返回此值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端和服务提供商调用**IAddrBook::OpenEntry**方法打开的通讯簿条目。 MAPI 转发到适当的地址簿提供程序，基于[MAPIUID](mapiuid.md)结构包含传递_lpEntryID_参数中的项标识符的调用。 通讯簿提供程序将打开以只读方式条目，除非设置了_ulFlags_参数中的 MAPI_MODIFY 或 MAPI_BEST_ACCESS 标志。 但是，这些标志为建议。 如果通讯簿提供程序不允许请求的项的修改，则将返回 MAPI_E_NO_ACCESS。 
   

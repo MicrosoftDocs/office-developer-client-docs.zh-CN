@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ddc0095-cd65-431c-afa9-f2fb5a7ac382
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 091c57f9bc68a43bcfa1eda49190c19a7293e2f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 254fe8368d470b3c9a555364ae31956ccb04a27f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579366"
 ---
 # <a name="pidlidinstantmessagingaddress-canonical-property"></a>PidLidInstantMessagingAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的即时消息地址。
   

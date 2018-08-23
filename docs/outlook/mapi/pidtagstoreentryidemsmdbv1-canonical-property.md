@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 40161358-4d41-43cf-83c7-fdd843bec87b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 74626b735599a5f1485b26fcb65d907b552b3089
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 505ea9ba5d7105f20f335035e42286fdab1cb1aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576321"
 ---
 # <a name="pidtagstoreentryidemsmdbv1-canonical-property"></a>PidTagStoreEntryIdEmsmdbV1 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 Microsoft Exchange Server 2010 或 Exchange Server 2013 的消息存储的项标识符的旧样式 （Microsoft Outlook 2002 和更早版本）。
   
@@ -30,7 +30,7 @@ ms.locfileid: "19778460"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 启动与 Microsoft Outlook 2003 的服务器 Fqdn 已集成到条目 Id，从而避免其他 Rpc 的引用。 但是，这使得条目 Id 更长时间，并介绍了其中的**CompareEntryIDs**方法必须用于确定是否两个条目 Id 是等效的更多方案。 PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) 属性访问由 Microsoft Outlook 2002 (Microsoft Office XP) 和早期版本的 Exchange Server 条目 ID 的旧格式。 这可以节省空间并还可以减少所需确定何时条目 Id 是等效的**CompareEntryIDs**呼叫的数目。 请注意，使用旧条目 Id 打开邮箱可能会引发一些其他的 Rpc 是否需要引用。 
   

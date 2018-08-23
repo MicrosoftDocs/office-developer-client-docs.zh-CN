@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 82b00a33c5de11b3fc9ccd3bde4cf31c79b99c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae8c3c4012874e1ca35761b103066cceebb1b165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576748"
 ---
 # <a name="upload-folder-state"></a>上传文件夹状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  本主题介绍的复制状态机上载文件夹状态期间出现的情况。 
   

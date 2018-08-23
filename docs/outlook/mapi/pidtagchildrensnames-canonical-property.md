@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5e09c078-b8e4-46ef-9ee7-e2ba937d53cf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ec8116d4850935209793553c39862f3cb1084495
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e0145401b812b902fff36ab5b55794e34916356
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777434"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572513"
 ---
 # <a name="pidtagchildrensnames-canonical-property"></a>PidTagChildrensNames 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的子级名称的列表
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777434"
 |数据类型：  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由用户或用户的组织定义这些属性。
   

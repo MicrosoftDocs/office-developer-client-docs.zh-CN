@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 517d0900e968ea55cedf6b17b31d97795fcf61c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76584e248f03deac62af94e4638fcead15594b3e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777884"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581130"
 ---
 # <a name="pidtagnextsendacct-canonical-property"></a>PidTagNextSendAcct 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定客户端当前尝试使用来发送电子邮件的服务器。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777884"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的格式是实现相关。 此属性可由客户端用来确定哪些服务器直接将电子邮件到，但是可选的和值没有任何意义到服务器。
   

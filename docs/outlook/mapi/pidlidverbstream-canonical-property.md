@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e24c183c-8c20-4d9c-a3c6-f26dc0cd0135
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 18e365bb5b99329b02367e555733ef7f2a5b54cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 74f36ad637b08f813d71c576ad4e291309415ac3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575922"
 ---
 # <a name="pidlidverbstream-canonical-property"></a>PidLidVerbStream 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定哪些投票响应用户可以进行响应的消息。
   

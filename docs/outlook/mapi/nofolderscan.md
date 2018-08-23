@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4949aef9-4c96-82cc-cd13-57981e07cc40
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3477104cc254ea5f22158b9791d7fd3bd776d819
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3416bc50e4628df2be09f9fe1a22d19530bcdff8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776529"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578050"
 ---
 # <a name="nofolderscan"></a>NoFolderScan
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定 Microsoft Office Outlook 是否应扫描存储区上的联系人文件夹。
   
@@ -33,7 +33,7 @@ ms.locfileid: "19776529"
 |属性类型  <br/> |PT_LONG  <br/> |
 |访问类型：  <br/> |只读或读/写，具体取决于存储提供程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要提供的任何存储功能，存储提供程序必须实现[IMAPIProp: IUnknown](imapipropiunknown.md)并返回任何传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)调用这些属性的有效属性标记。 当属性标记为任何这些属性传递给[IMAPIProp::GetProps](imapiprop-getprops.md)时，存储提供程序必须也会返回正确的属性值。 [HrGetOneProp](hrgetoneprop.md)和[HrSetOneProp](hrsetoneprop.md)用于获取或设置这些属性，可以调用存储提供程序。 
   

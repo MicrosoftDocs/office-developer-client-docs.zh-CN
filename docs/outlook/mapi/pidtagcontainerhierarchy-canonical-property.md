@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6917510d-ca1e-4049-9eab-09313753ecf0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 691c5977092b5e2ca6b453209982dd1333a6df89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c9598b583ba62adc42d6fb2b904dfe4981286ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777474"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578106"
 ---
 # <a name="pidtagcontainerhierarchy-canonical-property"></a>PidTagContainerHierarchy 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含嵌入层次结构表对象提供有关子容器。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777474"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |Container  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以在[IMAPIProp::CopyTo](imapiprop-copyto.md)操作中排除或[IMAPIProp::CopyProps](imapiprop-copyprops.md)操作中包括此属性。 作为**PT_OBJECT**类型的属性，它无法成功检索[IMAPIProp::GetProps](imapiprop-getprops.md)方法;应由请求 IID_IMAPITable 接口标识符的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法访问其内容。 服务提供商必须将其报告[IMAPIProp::GetPropList](imapiprop-getproplist.md)方法或如果其设置，但可以选择将其报告不如果它未设置。 
   

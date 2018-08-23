@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a4e3f9ab-b7ee-4dff-b7bd-2462c561735c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ba79af79ddadba2ca2223008e367738299475f02
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 173c679b7a94678b1b3b14bf82abf6638ecc5b55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575656"
 ---
 # <a name="pidlidglobalobjectid-canonical-property"></a>PidLidGlobalObjectId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的 calendar 对象的唯一标识符。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776889"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 一次设置 calendar 对象，此属性的值必须不会更改。 [[MS OXOCAL]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中找不到格式的详细的说明。
   

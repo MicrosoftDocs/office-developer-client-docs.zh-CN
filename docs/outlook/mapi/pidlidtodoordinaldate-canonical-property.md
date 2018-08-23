@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b6a500fc-07f4-4788-ae46-d179a96a48e2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d708424ccb15be15746fe8a33eea73a8e0f99323
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b19f36337459753e153a96021b1d70308b374bed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777122"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577756"
 ---
 # <a name="pidlidtodoordinaldate-canonical-property"></a>PidLidToDoOrdinalDate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 确定合并待办事项列表中的对象的排序顺序。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777122"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 标记对象后，此属性应设置为当前时间以协调世界时 (UTC)。 
   

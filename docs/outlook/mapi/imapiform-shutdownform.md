@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9a6ab96a70bce622f44de6576e7b77861302de4f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49ed8669a5496524917c15ac86e4a13060931057
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775374"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578568"
 ---
 # <a name="imapiformshutdownform"></a>IMAPIForm::ShutdownForm
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 关闭表单。
   
@@ -61,7 +61,7 @@ E_UNEXPECTED
   
 > 以前调用**ShutdownForm**已被关闭窗体。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIForm::ShutdownForm**方法关闭窗体。 
   

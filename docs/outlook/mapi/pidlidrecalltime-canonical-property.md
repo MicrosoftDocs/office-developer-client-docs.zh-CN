@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fd96b4110daf205bf5b6e843b0dbbc91a4839949
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1459dcdb32dce2826f10b5616f899cd424b634b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580598"
 ---
 # <a name="pidlidrecalltime-canonical-property"></a>PidLidRecallTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示邮件撤回启动频率的时间。
   

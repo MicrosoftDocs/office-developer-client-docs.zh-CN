@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: 指定可以包含在 DocumentSheet、 样式表、 PageSheet 或 ShapeSheet 的单元格元素。
-ms.openlocfilehash: fb983b31dc69741b12c27f47833213f7b5c3ba2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ea20f3b2a9bebae3d8f6d12e0d818e30685710
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779910"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575628"
 ---
 # <a name="cell-element-visio-xml"></a>单元格元素 (Visio XML)
 
@@ -62,7 +62,7 @@ ms.locfileid: "19779910"
 |U  <br/> |xsd: string  <br/> |可选  <br/> |代表单位默认值是度量的 DL。  <br/> |单元格的单位。  <br/> |
 |V  <br/> |xsd: string  <br/> |可选  <br/> |代表单元格的值。  <br/> |**ShapeSheet**单元格的值。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此**单元格**元素的**N**属性必须为一组有限的对应于 ShapeSheet 单元格的值之一。 请参阅下表为确定允许此**单元格**元素的**N**属性的值。 
   
@@ -149,7 +149,7 @@ ms.locfileid: "19779910"
 |EndArrowSize  <br/> |确定线条末端的箭头大小。  <br/> |[EndArrowSize Cell (Line Format Section)](endarrowsize-cell-line-format-section.md) <br/> |
 |EndTrigger  <br/> |包含由应用程序生成的触发器公式，该公式确定是否移动一维形状的终点以便保持其与另一个形状的连接。  <br/> |[EndTrigger Cell (Glue Info Section)](endtrigger-cell-glue-info-section.md) <br/> |
 |EndX  <br/> |代表一维形状的终点相对于其父级原点的 x 坐标。  <br/> |[EndX Cell (1-D Endpoints Section)](endx-cell-1-d-endpoints-section.md) <br/> |
-|EndY  <br/> |代表一维形状的终点相对于其父级原点的 y 坐标。  <br/> |[EndY Cell (1-D Endpoints Section)](http://msdn.microsoft.com/library/3fbfa4bc-7792-b6d9-d549-4602d252c293"%28Office.15%29.aspx) <br/> |
+|EndY  <br/> |代表一维形状的终点相对于其父级原点的 y 坐标。  <br/> |[EndY Cell (1-D Endpoints Section)](endy-cell-1-d-endpoints-section.md) <br/> |
 |EventDblClick  <br/> |一种事件单元格，双击某个形状后会对其求值。  <br/> |[EventDblClick Cell (Events Section)](eventdblclick-cell-events-section.md) <br/> |
 |EventDrop  <br/> |一种事件单元格，在绘图页上放下某个形状时（或者作为实例，或者在复制或粘贴该形状时）会对其求值。  <br/> |[EventDrop Cell (Events Section)](eventdrop-cell-events-section.md) <br/> |
 |EventMultiDrop  <br/> |一种事件单元格的多个形状放在绘图页上，或者作为实例时复制或粘贴形状时计算。  <br/> |[EventMultiDrop 单元格（“Events”部分）](eventmultidrop-cell-events-section.md) <br/> |
@@ -168,7 +168,7 @@ ms.locfileid: "19779910"
 |Gamma  <br/> |调整或校正图像的亮度，使之适合特定的输出设备，如监视器或扫描仪等。默认值为 1（不校正）。  <br/> |[Gamma Cell (Image Properties Section)](gamma-cell-image-properties-section.md) <br/> |
 |GlowColor  <br/> |确定用于外部发光应用于形状，以 RGB 或主题值的笔画的颜色。  <br/> |[GlowColor 单元格（“Additional Effect Properties”部分）](glowcolor-cell-additional-effect-properties-section.md) <br/> |
 |GlowColorTrans  <br/> |确定用于形状的发光的划线以百分比形式的颜色的透明度级别。  <br/> |[GlowColorTrans 单元格（“Additional Effect Properties”部分）](glowcolortrans-cell-additional-effect-properties-section.md) <br/> |
-|GlowSize  <br/> |确定外部发光以磅为单位的形状的大小。  <br/> |[GlowSize 单元格（“Additional Effect Properties”部分）](http://msdn.microsoft.com/library/2ddc7a08-25b8-4903-b0dd-be72d1fa8075"%28Office.15%29.aspx) <br/> |
+|GlowSize  <br/> |确定外部发光以磅为单位的形状的大小。  <br/> |[GlowSize 单元格（“Additional Effect Properties”部分）](glowsize-cell-additional-effect-properties-section.md) <br/> |
 |GlueType  <br/> |确定将一维形状粘附到另一个形状时是使用静态粘附（点到点）还是动态粘附（形状到形状）。  <br/> |[GlueType Cell (Glue Info Section)](gluetype-cell-glue-info-section.md) <br/> |
 |高度  <br/> |确定以绘图单位表示的形状的高度。  <br/> |[Height Cell (Shape Transform Section)](height-cell-shape-transform-section.md) <br/> |
 |HelpTopic  <br/> |指定形状的帮助主题 ID。  <br/> ||
@@ -222,7 +222,7 @@ ms.locfileid: "19779910"
 |LockGroup  <br/> |锁定某组，使该组不能被取消组合。  <br/> |[LockGroup Cell (Protection Section)](lockgroup-cell-protection-section.md) <br/> |
 |LockHeight  <br/> |锁定形状的高度，以便在调整该形状的大小时使其高度保持不变。  <br/> |[LockHeight Cell (Protection Section)](lockheight-cell-protection-section.md) <br/> |
 |LockMoveX  <br/> |锁定形状的水平位置，使它不能水平移动。  <br/> |[LockMoveX Cell (Protection Section)](lockmovex-cell-protection-section.md) <br/> |
-|LockMoveY  <br/> |锁定形状的垂直位置，使它不能垂直移动。  <br/> |[LockMoveY Cell (Protection Section)](http://msdn.microsoft.com/library/4ed8cab4-112a-e96a-f4e3-02490a6f87fa"%28Office.15%29.aspx) <br/> |
+|LockMoveY  <br/> |锁定形状的垂直位置，使它不能垂直移动。  <br/> |[LockMoveY Cell (Protection Section)](lockmovey-cell-protection-section.md) <br/> |
 |LockPreview  <br/> |确定每次保存绘图时是否保存预览。  <br/> |[LockPreview Cell (Document Properties Section)](lockpreview-cell-document-properties-section.md) <br/> |
 |LockReplace  <br/> |指示某个形状是否可以参与替换操作 （作为目标或替换形状中）。  <br/> |[LockReplace 单元格（“Protection”部分）](lockreplace-cell-protection-section.md) <br/> |
 |LockRotate  <br/> |锁定二维形状，以免它随旋转手柄或者“向左旋转 90°”或“向右旋转 90°”命令旋转。  <br/> |[LockRotate Cell (Protection Section)](lockrotate-cell-protection-section.md) <br/> |
@@ -289,7 +289,7 @@ ms.locfileid: "19779910"
 |ReflectionDist  <br/> |确定的距离反射与形状偏移中从 0.0 指向为因 100.0。  <br/> |[ReflectionDist 单元格（“Additional Effect Properties”部分）](reflectiondist-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionSize  <br/> |确定相对于形状，从 0.0 100.0%的百分比反射的大小。 值为 0 %reflectionsize 单元格中的形状没有反射;值为 100%显示形状的完整镜像。  <br/> |[ReflectionSize 单元格（“Additional Effect Properties”部分）](reflectionsize-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionTrans  <br/> |确定反射，从 0 到 100%的百分比的透明度。  <br/> |[ReflectionTrans 单元格（“Additional Effect Properties”部分）](reflectiontrans-cell-additional-effect-properties-section.md) <br/> |
-|关系  <br/> |存储容器、列表、标注和形状之间的关系。  <br/> |[Relationships 单元格（“Shape Layout”部分）](relationships-cell-shape-layout-section.md) <br/> |
+|Relationships  <br/> |存储容器、列表、标注和形状之间的关系。  <br/> |[Relationships 单元格（“Shape Layout”部分）](relationships-cell-shape-layout-section.md) <br/> |
 |ReplaceCopyCells  <br/> |指示从复制旧的形状的替换形状到形状替换操作期间 ShapeSheet 中的单元格的列表。  <br/> |[ReplaceCopyCells 单元格（“Change Shape Behavior”部分）](replacecopycells-cell-change-shape-behavior-section.md) <br/> |
 |ReplaceLockFormat  <br/> |指示在主控形状中的指定单元格的值是否覆盖形状替换操作期间要替换的形状 （包括本地值） 的值。 如果主控形状的 ReplaceLockFormat 单元格设置为 TRUE (1)，主控形状的格式值覆盖由主控形状的形状的所有相应值。  <br/> |[ReplaceLockFormat 单元格（“Change Shape Behavior”部分）](replacelockformat-cell-change-shape-behavior-section.md) <br/> |
 |ReplaceLockShapeData  <br/> |指示在主控形状中的指定单元格的值是否覆盖形状替换操作期间要替换的形状 （包括本地值） 的值。 ReplaceLockShapeData 确定是否主控形状的形状数据将覆盖所有要替换的形状的形状数据。  <br/> |[ReplaceLockShapeData 单元格（“Change Shape Behavior”部分）](replacelockshapedata-cell-change-shape-behavior-section.md) <br/> |

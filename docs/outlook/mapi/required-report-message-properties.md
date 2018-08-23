@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 902b991dcca8a48597a26c52081b8c1993c911b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d42bcf531c09ca2486b0181b86bae72e223d2007
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577161"
 ---
 # <a name="required-report-message-properties"></a>必需的报告邮件属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 下表介绍了客户端可能会看到支持报告邮件的属性。
   

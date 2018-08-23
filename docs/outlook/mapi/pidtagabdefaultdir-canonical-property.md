@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c7092375-c945-4f2a-94e0-6d969c6edd27
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ad0d148dd29ad634a420f405cea3b2582d1d8231
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40acb94d01afc6b46d5857c5d299195ec90a1d53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581494"
 ---
 # <a name="pidtagabdefaultdir-canonical-property"></a>PidTagAbDefaultDir 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含通讯簿容器，以显示第一个条目标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777251"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 不要使用此属性。 它是通过 MAPI 供使用。
   

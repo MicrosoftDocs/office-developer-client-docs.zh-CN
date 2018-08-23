@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 826863e30ae39d3c8d523bd2dff84731bcf16971
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33287d8ac6b1faeba8b8746a95850f6fd1c37462
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579485"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用窗体查看器通过调用[IMAPIForm::Advise](imapiform-advise.md)以前建立取消通知注册。
   
@@ -49,7 +49,7 @@ E_INVALIDARG
   
 > _UlConnection_参数中传递的连接数不代表有效的注册。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIForm::Unadvise**方法取消其第一次调用**IMAPIForm::Advise**方法来建立的通知的注册。 
   

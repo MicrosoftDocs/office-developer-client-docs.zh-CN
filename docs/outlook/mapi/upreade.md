@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 854e674002953c31c47d56096700dca582ce0a5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd593b68ef7ca25b1f8ceec613786cdbdd03fd76
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779065"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579072"
 ---
 # <a name="upreade"></a>UPREADE
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 用于[上载读取状态状态](upload-read-status-state.md)期间上载读取项的状态的扩展的信息。
   

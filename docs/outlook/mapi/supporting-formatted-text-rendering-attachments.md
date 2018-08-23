@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 14c1162bd4e225fd3ab2ea5ab11536b3bdf08edd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b6339d768ac476c24ce988ba761270a50d47464
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778901"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580311"
 ---
 # <a name="supporting-formatted-text-rendering-attachments"></a>支持格式化文本：显示附件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 没及其附件的邮件中呈现其中一个客户端应用程序设置消息组合期间这些附件的**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性。 不关心呈现位置的客户端离开此属性未设置。
   

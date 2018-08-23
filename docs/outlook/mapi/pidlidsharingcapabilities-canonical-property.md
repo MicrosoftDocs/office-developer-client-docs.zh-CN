@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 86b3eab2-2594-4204-aedf-8ce2ee3b81ce
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 73f39c0b97ebcd5c84bb908b62f758eaacd4eabf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b6bf95a68c868bfca247ea21d56dd872092c3e02
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777019"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578365"
 ---
 # <a name="pidlidsharingcapabilities-canonical-property"></a>PidLidSharingCapabilities 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将指定的共享邮件的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777019"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为下列值之一：
   

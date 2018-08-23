@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9e0316ead2adf00619bd87c57946ba72ed01f4b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c024f71279fac5dbb3d771442d9fbfb8a50e0f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777662"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578869"
 ---
 # <a name="pidtagformhostmap-canonical-property"></a>PidTagFormHostMap 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含主机地图的可用窗体。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777662"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 更改**IMAPIFormProp**接口的基础结构时，客户端应用程序应更新以及**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性，此属性。 
   

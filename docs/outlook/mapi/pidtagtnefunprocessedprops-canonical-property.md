@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ee05f2e539d379e8fe197161fa0f6453add31afb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c25888353857f9233ba487661f5f27d64cd678cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778507"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577427"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>PidTagTnefUnprocessedProps 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 筛选传输中性封装格式 (TNEF) 时，序列化属性。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778507"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用的 Microsoft Outlook 和 Outlook Web Access (OWA) 中的 TNEF 包含无法存储中创建的命名的属性的情况下保存原始 TNEF。
   

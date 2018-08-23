@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 418ffdd19412dcf948d36a5e7df33f7978d0df3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3bcad4c236f71390f7a048eb66860720e9180e06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775145"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582040"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建表示一个对象，通常一条消息的消息存储的复合条目标识符 ASCII 字符串。 
   
@@ -74,7 +74,7 @@ HrComposeMsgID(
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果邮件或其他对象为其创建的复合条目标识符位于的消息存储，标识符字符串创建从对象的项标识符的存储记录的键。 如果对象不是存储区中，即，如果_cbStoreRecordKey_参数中传递的存储记录密钥的字节数为零，对象的项标识符只需复制并转换为字符串。 
   

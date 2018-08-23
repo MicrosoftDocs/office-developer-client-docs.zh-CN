@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 799f83b397cbef9d7dcb6c9a88154b88afe35675
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2868533e0383309e013bb82aaa4300a0a40e335a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19777501"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577511"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>PidTagControlId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含在对话框中使用的控件的唯一标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777501"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含控件的唯一标识符。 此标识符应包含一个[GUID](guid.md)结构和**LONG**类型的二进制值。 在对话框中的所有控件应都使用相同的**GUID**标识服务提供商，并每个控件应都使用唯一**LONG**值，以确保控件不互相冲突。 
   

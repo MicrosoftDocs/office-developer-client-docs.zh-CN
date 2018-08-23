@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: cfc640fd419ad030de6922fa61817881caa70d07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22d56ffac5d9d628b04e364fa772ddc8de488a31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774465"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578652"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>关于在 Outlook 中设置地址列表的解析顺序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对于每个配置文件，Microsoft Office Outlook 支持多个地址列表和用户可以手动指定消息和会议请求中的与会者都已解析通过电子邮件中的收件人的地址列表的顺序。 例如，您可以设置解析顺序，以便姓名均已解析，首先对 Outlook 通讯簿，然后针对全局地址列表。 计算机上，用户可以打开通讯簿，单击**工具**和**选项**，以指定此解决方案顺序。 但是，在企业环境中，是面向 IT 管理员以编程方式设置按其姓名均已解析的地址列表的顺序更有效。 此类代码可以用作管理员部署在公司内启动自动化脚本的一部分。 
   

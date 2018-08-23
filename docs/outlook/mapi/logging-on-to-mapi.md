@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1ae3c47964ff238f57e98e0005a966008192f7c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63f71066b1afc90c3e495ed4f9ba654bcbdfe558
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776165"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579926"
 ---
 # <a name="logging-on-to-mapi"></a>登录到 MAPI
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序登录到 MAPI 子系统调用**MAPILogonEx**函数。 有关详细信息，请参阅[MAPILogonEx](mapilogonex.md)。 **MAPILogonEx**验证所选的模板和配置文件中每个服务提供程序的配置。 配置后，MAPI 开始消息存储提供程序之前通讯簿提供程序。 首先需要其服务时才会启动传输提供程序。 
   

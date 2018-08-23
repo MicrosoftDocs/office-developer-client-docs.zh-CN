@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2eb92c3f1555407a77332bd6ec3b2b7202f0553f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7622baaebf6918cf84c48e53291cf5ec2c0b1a4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778814"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572562"
 ---
 # <a name="sizedssortorderset"></a>SizedSSortOrderSet
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建命名的[SSortOrderSet](ssortorderset.md)结构，其中包含指定的数目的排序次序。 
   
@@ -44,7 +44,7 @@ __名称_
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用**SizedSSortOrderSet**宏来创建使用显式边界设置排序顺序。 
   

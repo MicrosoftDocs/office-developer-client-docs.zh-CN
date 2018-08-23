@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 40a72bed0b3e763ea482b228174b85d9f42185c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579443"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知表单查看器的当前消息，已提交到 MAPI 后台处理程序。
   
@@ -41,7 +41,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Form 对象调用**IMAPIViewAdviseSink::OnSubmitted**方法对[IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md)的调用返回了成功之后。 
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 80c1449a-6cd9-4b93-a300-395979894b71
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 01cc8a8a54137b72091abab3671c08b526ef9e31
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f76b44b3718f08eb68fc956ad4480d4327cb0656
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578624"
 ---
 # <a name="iprovideradmincreateprovider"></a>IProviderAdmin::CreateProvider
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 向消息服务的服务提供商。 
   
@@ -76,7 +76,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IProviderAdmin::CreateProvider**方法向邮件服务的服务提供商。 _LpszProvider_参数必须指向属于邮件服务提供程序的名称。 **CreateProvider**不验证该名称是否与服务; 中提供的名称匹配如果传递的名称不匹配的服务名称，调用成功，但结果将无法预料。 大多数消息服务不允许提供程序添加或删除配置文件时使用。 
   

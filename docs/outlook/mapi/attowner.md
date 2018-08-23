@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3c6a4050-fd97-42ce-abb1-118254b367bd
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0cb40c3c644618bdf65a2c90a91580a5be8fc88c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 865d929f3348710b7786f4182670f3304a3a9244
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774588"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578036"
 ---
 # <a name="attowner"></a>attOwner
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 为盘点的字符串分布的端到端编码**attOwner**属性。 **AttOwner**的格式如下所示： 
   

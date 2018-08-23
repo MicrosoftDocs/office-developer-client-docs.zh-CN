@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 93b9215a-5900-411c-a0ae-6bba62cd5a1e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 19f0398d5e36cce13467a4fae86c4ea1d4019dd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5a1e4130deb04d18c73b2a8bd4b5fe947abe90a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577770"
 ---
 # <a name="pidtagbodyhtml-canonical-property"></a>PidTagBodyHtml 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息文本的超文本标记语言 (HTML) 版本。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777390"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性包含相同的消息文本**PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md))，但在 HTML。 
   

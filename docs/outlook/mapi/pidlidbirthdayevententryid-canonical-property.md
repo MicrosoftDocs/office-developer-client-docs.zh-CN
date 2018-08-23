@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6807dcfc-d9bd-48a1-a093-3097b2cb107c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4a8cf9ac24f275d8b9cdbe03b5a90477771a2ab4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d8a142729d1c86c615653b2cbfc708268d4322e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776700"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576776"
 ---
 # <a name="pidlidbirthdayevententryid-canonical-property"></a>PidLidBirthdayEventEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的值，该值代表联系人的生日可选约会的**EntryId** 。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776700"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这通过此属性指定的约会必须使用**dispidApptStateFlags** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md))、 **dispidContactLinkSearchKey** ([PidLidContactLinkSearchKey](pidlidcontactlinksearchkey-canonical-property.md)) 和**链接到此联系人dispidContactLinkName** ([PidLidContactLinkName](pidlidcontactlinkname-canonical-property.md)) 属性，作为中指定[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)。
   

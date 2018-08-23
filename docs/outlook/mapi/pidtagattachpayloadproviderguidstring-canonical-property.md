@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c9d4b561-53b3-492b-9324-9376dd7abddf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9e581f040b3d7d9e204dd41431b1eba650b971a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1313ac62bd2ee6c1db27bd1c583f56dadc1bff1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777363"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574298"
 ---
 # <a name="pidtagattachpayloadproviderguidstring-canonical-property"></a>PidTagAttachPayloadProviderGuidString 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 MIME X-负载的提供程序的 Guid 标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777363"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要设置这些属性的值，MIME 客户端应写入 X 负载提供程序 Guid 标头字段将分析作为附件的 MIME 实体。
   

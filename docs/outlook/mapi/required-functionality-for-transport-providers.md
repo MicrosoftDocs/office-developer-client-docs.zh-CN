@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: eb5d70c31f28df16593fb020f13124ea217476ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc1189df1b8ad8f8e613d6813681ed3f4148b122
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778642"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580493"
 ---
 # <a name="required-functionality-for-transport-providers"></a>传输提供程序的必需功能
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 每个 MAPI 传输提供程序必须：
   

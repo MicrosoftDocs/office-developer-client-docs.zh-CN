@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ede1a35-4acc-4b8f-a1bd-027f35798a37
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a22f7628b306707474e4ffb6fdf4525e00bf0771
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b29eab30677dae7f720cecd9fde71e8bbbf752c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579716"
 ---
 # <a name="validateparms"></a>ValidateParms
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 调用检查参数客户端应用程序已传递给服务提供商的内部函数。 
   
@@ -60,7 +60,7 @@ MAPI_E_CALL_FAILED
   
 > 一个或多个参数不是有效的。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 和服务之间传递参数提供程序将假定它们正确，且经过仅调试验证与[CheckParms](checkparms.md)宏。 提供程序应检查所有参数中传递的客户端应用程序，但客户端应假定 MAPI 和提供程序参数正确。 使用**HR_FAILED**宏来测试返回值。 
   

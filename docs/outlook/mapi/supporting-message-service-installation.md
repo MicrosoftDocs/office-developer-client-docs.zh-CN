@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bf3e79ad32801a659df2c68016167d3b547ddc6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f82741e3c44c589a18a1428fd68cebe6a501d5c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778914"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581991"
 ---
 # <a name="supporting-message-service-installation"></a>支持邮件服务安装
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 安装您的消息服务的安装程序应执行以下操作：
   

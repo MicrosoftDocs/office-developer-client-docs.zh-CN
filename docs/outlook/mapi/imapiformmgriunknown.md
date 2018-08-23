@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4fdd50a1108a6546445516664b01fb0f994fbfdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4eaf424bd22f5cb7f40778d81a18cca0ef1dcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775443"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581515"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启用表单查看器获取有关的信息和激活窗体服务器。 
   

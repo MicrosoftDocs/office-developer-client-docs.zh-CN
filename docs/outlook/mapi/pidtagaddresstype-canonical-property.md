@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 986719d2-8837-46b4-8d04-c24508f5e19a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5398519dc841aa72f2c2655aac6c9f7acba7f335
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 464121a969beea06294049985052eb150651765f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777315"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580087"
 ---
 # <a name="pidtagaddresstype-canonical-property"></a>PidTagAddressType 规范属性
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息的用户的电子邮件地址类型，如 SMTP。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19777315"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是常见的基址属性的所有邮件用户的示例。 指定 MAPI 使用处理给定的邮件的邮件系统。
   

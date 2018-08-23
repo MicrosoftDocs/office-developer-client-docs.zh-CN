@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 50bb6ece-212f-472a-bb37-20ca984c5ef4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ff2092028e2bbfdb0c1e8b4eaa866a374204d687
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b16a7e9dfd21238efa1437d8e9d4fc22c9e04ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777208"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576783"
 ---
 # <a name="pidnamelastauthor-canonical-property"></a>PidNameLastAuthor 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定附加文件的最新的作者。
   

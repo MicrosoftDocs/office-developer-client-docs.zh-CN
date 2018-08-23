@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9295c37a46d3566089f708aaaa0b9fc3b5f30db2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef38893c9ad44556cc9220809b5e407f86fd2642
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774855"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576314"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述将显示表中生成的对话框中使用的分组框控件。
   
@@ -55,7 +55,7 @@ MAPI_UNICODE
   
 > 标签为 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，标签为 ANSI 格式。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLGROUPBOX**结构介绍用于直观地将在对话框中的其他控件相关联的分组框控件。 突出显示的项技术涉及周围的框中的其他控件。 
   

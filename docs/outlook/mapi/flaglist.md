@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2cf5ff69e8453b2da26fd5044823ddf4f99a9f45
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7a236c2a7e307d278cac5ef413cbd2f600bf09f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774943"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582096"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于指示过程名称解析过程中的地址条目的状态标志的列表。
   
@@ -62,7 +62,7 @@ MAPI_UNRESOLVED
   
 > 条目不已解决。 其他地址簿容器应尝试解析该收件人。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **FLAGLIST**结构用作[IABContainer::ResolveNames](iabcontainer-resolvenames.md)参数。 [ADRLIST](adrlist.md)结构中包含每个要解析的收件人。 通讯簿容器尝试解决每个收件人，如**FLAGLIST**结构中的相应条目中设置相应的标志。 所有**FLAGLIST**结构中的条目都**ADRLIST**结构中的项的顺序相同。 这便于与收件人关联的标记设置。 
   

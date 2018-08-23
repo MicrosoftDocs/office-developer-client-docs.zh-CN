@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 803481a71d505fc9f12e77b162a91200cac505d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d8157c761cd21d5c8fcdf04948646d8102e774a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777556"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580136"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>PidTagDeliveryPoint 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定一条消息已通过其或已传递给收件人功能实体的特性。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777556"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可以具有完全下列值之一： 
   

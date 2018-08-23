@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f58bd8499b63bcd526906f78143b76092f194cb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8cd211cc16b620ac47357271070e0b45b867bea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775865"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579940"
 ---
 # <a name="imsgstoregetreceivefolder"></a>IMsgStore::GetReceiveFolder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 获取时，传入邮件指定的邮件类的或为默认的目标接收的消息存储库文件夹建立的文件夹。
   
@@ -69,7 +69,7 @@ S_OK
   
 > 已成功返回的接收文件夹。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::GetReceiveFolder**方法获取接收文件夹中，指定要接收传入邮件的特定邮件类别的文件夹的项标识符。 呼叫者可以_lpszMessageClass_参数中指定的邮件类或 NULL。 如果_lpszMessageClass_为 NULL，则**GetReceiveFolder**将返回以下值： 
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf6892d0-a923-e926-5361-59efa49ebdc0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bd1c327eb2042957c8fb043736950af3dae520b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 261a59e628320f384deeb760ba71c9c0386cfde6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775073"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576041"
 ---
 # <a name="hdrsync"></a>HDRSYNC
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 同步过程中[下载邮件头状态](download-message-header-state.md)的邮件头信息。
   

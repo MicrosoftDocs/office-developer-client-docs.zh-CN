@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5c634fe200dde4bfe6f190f8bfa9e5dfa0868db4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82fa1b0af504cc4774b1dc077a6ef48378740d26
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778886"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580675"
 ---
 # <a name="srowset"></a>SRowSet
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个[SRow](srow.md)结构数组。 每个**SRow**结构介绍表中的行。 
   
@@ -51,7 +51,7 @@ typedef struct _SRowSet
   
 > **SRow**结构的数组。 没有一个结构表中的各行。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SRowSet**结构用于描述多个表中的数据行。 **SRowSet**结构[IAddrBook](iaddrbookimapiprop.md)、 [ITableData](itabledataiunknown.md)和[IMAPITable](imapitableiunknown.md)接口方法，除了以下函数中使用： 
   

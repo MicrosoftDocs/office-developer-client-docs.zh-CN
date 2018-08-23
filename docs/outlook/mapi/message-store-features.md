@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a26701b5b0f9f31277a442321e5e3016cfcb4d1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e99d9d2e1289ed98ba659e97b05c8ea6d891a74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776505"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581809"
 ---
 # <a name="message-store-features"></a>邮件存储区功能
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储提供程序是比其他 MAPI 服务提供商更复杂的这是的消息存储提供程序具有更广泛的可选它们可以实现的功能。 相当简短消息存储提供程序所需的功能的列表。 但是，典型的消息存储提供程序将支持大量的可选功能，因为的许多可选功能都非常有用或必需的大多数 MAPI 客户端。 下表列出了消息存储提供程序可以实现和每个功能是否必需或可选的所有消息存储提供程序和默认消息存储提供程序的主要功能。
   

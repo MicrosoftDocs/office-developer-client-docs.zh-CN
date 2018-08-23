@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dedb60c5356e1dbb6d35f27372a09c152da0fed0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8086bc3ea35fdbb4e0f7758b7931e305259a3a9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778490"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578666"
 ---
 # <a name="pidtagswappedtododata-canonical-property"></a>PidTagSwappedToDoData 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 维护第二个组不会影响已标记的状态的消息对象的属性值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778490"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 作为辅助标志存储位置，如果发件人标志或发件人提醒受支持，此结构提供中用来存储的所有发件人标志中支持的信息的标记协议与相关属性和所有的位置属性与提醒设置协议有关支持的发件人提醒而无需公开的标志发件人或收件人的邮件的发件人提醒信息。
   

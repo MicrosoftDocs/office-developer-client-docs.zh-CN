@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 104de38a41408091a6fbb69995de4f41f6fea6a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8ffed8070c219e6611aebbcb1dd5cd181b662850
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778763"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579695"
 ---
 # <a name="setting-table-position-with-a-fractional-value"></a>通过分数值设置表位置
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表用户可以移动到值，该值代表大概所占比例相对于总计行的位置。 而不是移动到精确的行，此方法的定位除以成几部分表基于分数。 表用户可以移动，例如，到表的一半点或为 7/8 通过表的方式的行。 
   

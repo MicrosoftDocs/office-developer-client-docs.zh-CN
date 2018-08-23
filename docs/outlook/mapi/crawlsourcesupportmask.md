@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d0a2f7ea-df6a-89e8-18c2-ac92e0a20edc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a1754a7c82d7164617c97df97b762efb1555ccda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc8ff946081fb7817f0f6018acefbe31293a13a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774719"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581774"
 ---
 # <a name="crawlsourcesupportmask"></a>CrawlSourceSupportMask
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定 Microsoft Office Outlook 是否应扫描存储区，包括联系人、 日历和任务文件夹，请在启动填充导航窗格中的文件夹。
   
@@ -37,7 +37,7 @@ ms.locfileid: "19774719"
 |属性类型  <br/> |PT_LONG  <br/> |
 |访问类型：  <br/> |只读或读/写，具体取决于存储提供程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要提供的任何存储功能，存储提供程序必须实现[IMAPIProp: IUnknown](imapipropiunknown.md)并返回任何传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)调用这些属性的有效属性标记。 当属性标记为任何这些属性传递给[IMAPIProp::GetProps](imapiprop-getprops.md)时，存储提供程序必须也会返回正确的属性值。 [HrGetOneProp](hrgetoneprop.md)和[HrSetOneProp](hrsetoneprop.md)用于获取或设置这些属性，可以调用存储提供程序。 
   

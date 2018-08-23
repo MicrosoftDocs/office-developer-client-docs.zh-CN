@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 146c8b4d711982118fd9da185a5b095a1bae6b2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18113fd48f33eaf067942116f168a54e8b91c55c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579233"
 ---
 # <a name="forwarding-a-message"></a>转发邮件
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 转发邮件涉及多个与发送原始邮件相同的任务。 首先，必须打开默认的邮件存储和指定用于保存传出消息，通常箱文件夹，并调用此文件夹[IMAPIFolder::CreateMessage](imapifolder-createmessage.md)方法来创建邮件转发。 您还必须打开包含原始邮件，通常收件箱文件夹。 有关打开不同的文件夹的信息，请参阅[打开邮件存储文件夹](opening-a-message-store-folder.md)。
   

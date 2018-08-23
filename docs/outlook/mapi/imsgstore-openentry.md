@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 124208a3f5c6bb300aca3699a04b15e842c46cd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 611680db87c02b9370d6c1b3ac7a8d68b47f3050
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574025"
 ---
 # <a name="imsgstoreopenentry"></a>IMsgStore::OpenEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开文件夹或消息并返回进一步访问的接口指针。 
   
@@ -90,7 +90,7 @@ MAPI_NO_CACHE
   
 > 当在缓存模式下打开存储区时，客户端或服务提供程序可以调用**IMsgStore::OpenEntry**，设置要打开的项目或远程存储上的文件夹的 MAPI_NO_CACHE 标志。 如果您使用 MDB_ONLINE 标志远程服务器上打开的消息存储，您不必使用 MAPI_NO_CACHE 标志。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::OpenEntry**方法打开文件夹或消息，并返回可用于进一步访问的接口的指针。 
   

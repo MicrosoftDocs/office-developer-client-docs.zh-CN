@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 59911531b6d8f9c094ef8563510aaa176e3a63b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b684309211bbc008856311158c67864d958c96a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573031"
 ---
 # <a name="sshortarray"></a>SShortArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于描述 PT_MV_SHORT 类型的属性的无符号的整数值的数组。
   
@@ -50,7 +50,7 @@ typedef struct _SShortArray
   
 > 为无符号的整数值的数组的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关 PT_MV_SHORT 和其他属性类型的详细信息，请参阅[属性类型](property-types.md)。 
   

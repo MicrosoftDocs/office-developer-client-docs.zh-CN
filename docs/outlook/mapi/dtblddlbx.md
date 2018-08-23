@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2db95697cd98e66da9fb3d0cd0180b238c0a8dff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3307bb252ca4436999a541f85657fed9878c798a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774840"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579394"
 ---
 # <a name="dtblddlbx"></a>DTBLDDLBX
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述将显示表中生成的对话框中使用的下拉列表控件。
   
@@ -60,7 +60,7 @@ typedef struct _DTBLDDLBX
   
 > 调用属性表属性类型可以打开使用**OpenProperty** PT_OBJECT 的标记。 表应具有两个列： **ulPRDisplayProperty**和**ulPRSetProperty**。 Table 的行应对应于列表中的项。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLDDLBX**结构描述用户选择将其展开之前将显示为单个项目的下拉列表控件。 
   

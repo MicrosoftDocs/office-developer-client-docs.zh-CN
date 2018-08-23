@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0f9826dab72968055604c5bb9f8f537facc5618e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66e23d73af53b05295bf2cbcd8c604ab3545bbca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775406"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573136"
 ---
 # <a name="imapiformcontainergetdisplay"></a>IMAPIFormContainer::GetDisplay
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个窗体容器的显示名称。
   

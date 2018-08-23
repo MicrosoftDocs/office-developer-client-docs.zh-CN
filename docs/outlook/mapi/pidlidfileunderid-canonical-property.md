@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 08e2403be35b87393d22f9109f59c0572c53073b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a4fdb94877fb9491005fc650c206ffefd3f8b94
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776859"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578414"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>PidLidFileUnderId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定如何生成和其他联系人命名属性更改时，重新计算**dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) 属性的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776859"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性缺失或设置为不具体的下表中或在[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)的值，该应用程序可以选择自己的逻辑重新计算的其他联系人姓名属性更改为**dispidFileUnder**值。 
   

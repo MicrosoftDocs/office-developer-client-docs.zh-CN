@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c1a1313a6d24e06cf4d92f5eb57368696a4862e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe75a242772441b23d3aaa87fc57486d1f074914
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777806"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581655"
 ---
 # <a name="pidtaglastverbexecuted-canonical-property"></a>PidTagLastVerbExecuted 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含执行的最后一个动作。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777806"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |历史记录  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可以具有以下值之一：
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1fb7224e110bbee6844cf2820782aac8be213ba3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c5d7a2114f4a85b9f63cd778e899a83d335ff45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778602"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581277"
 ---
 # <a name="removing-address-book-entries"></a>删除通讯簿条目
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 调用容器的[IABContainer::DeleteEntries](iabcontainer-deleteentries.md)方法，以删除一个或多个收件人。 **DeleteEntries**有两个参数： 一个表示要删除的收件人的项标识符和保留的标志值的数组。 删除收件人会影响您的容器; 将目录除了删除收件人，您的容器必须删除代表收件人的内容表行。 时行已从表中，您的容器必须为每个已注册的客户端发出表通知。 
   

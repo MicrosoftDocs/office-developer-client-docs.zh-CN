@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 19fd4678-21d3-47a6-a439-1d4959cac407
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0bce1d682057b81135d1684c40bc79e6710d4e2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 428e92dd783368374fa07c8df9629d60e83dd217
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776134"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582026"
 ---
 # <a name="linking-to-the-mapi-dlls"></a>链接到 MAPI DLL
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 客户端可以链接到 MAPI Dll 隐式或显式使用**LoadLibrary**和**GetProcAddress**的 Windows 功能。 显式链接 MAPI Dll 的信息，请参阅[MAPI 函数的链接](how-to-link-to-mapi-functions.md)。
   

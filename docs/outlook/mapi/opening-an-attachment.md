@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3875e51868e882ca454c06949347327a21a93eb9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 768528c59d7aa5888c0d0427f86b8be8e1d33669
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776547"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579975"
 ---
 # <a name="opening-an-attachment"></a>打开附件
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开附件涉及显示其数据。 例如，当打开的文件附件时，将显示文件的内容。 使用其条目标识符打开邮件和文件夹，而使用其附件号码打开附件 — **PR_ATTACH_NUM**属性。 有关详细信息，请参阅**PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md))。 可通过邮件的附件表都附件号码。
   

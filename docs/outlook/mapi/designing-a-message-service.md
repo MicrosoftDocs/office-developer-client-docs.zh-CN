@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 04aa4348560396c8237811252fd96a2b461cd791
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b572ebcec0a33d2134f4cf19b88e3132cbd47117
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581998"
 ---
 # <a name="designing-a-message-service"></a>设计的消息服务
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在开始编写代码以支持邮件服务之前，务必创建设计。 解决设计过程中的以下问题：
   

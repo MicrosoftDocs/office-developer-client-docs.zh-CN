@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 177bd84addb001970e52801fd2cddba3a8d81706
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd9cdd9119f94e1f7684be34e1b4ef6fb40ab2bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776283"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576503"
 ---
 # <a name="mapi-programming-overview"></a>MAPI 编程概述
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本 Microsoft Outlook 消息处理 API (MAPI) 参考专为 C 的 c + + 开发人员提供的各种需要和体验的消息。 这些开发人员希望使用 MAPI 来增加其具有邮件传送功能的应用程序，需要不的任何特定的必备知识。 您需要在消息中的背景和使用 MAPI 创建全面工作组应用程序或专用消息系统服务驱动程序组件对象模型 (COM)。
   

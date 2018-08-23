@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 249d2dcf3a298abde85bdc53620680146d43c168
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa3c010eafeba7908498965bc0491c993a4a9120
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776013"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572081"
 ---
 # <a name="iprofadmindeleteprofile"></a>IProfAdmin::DeleteProfile
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 删除配置文件。
   
@@ -54,7 +54,7 @@ MAPI_E_NOT_FOUND
   
 > 指定的配置文件不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IProfAdmin::DeleteProfile**方法删除配置文件。 如果要删除的配置文件正在使用中，调用**DeleteProfile**时， **DeleteProfile** ，则返回 S_OK，但不会立即删除配置文件。 相反， **DeleteProfile**标记为删除的配置文件并将不再正在时使用它，所有其活动会话结束后将其删除。 
   

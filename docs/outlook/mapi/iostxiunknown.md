@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7419a0df7a2f3b76caeeb1ca564624d437eddd52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c9252e83ce212bacf185d0eedb75d30617f9807
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775981"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581746"
 ---
 # <a name="iostx--iunknown"></a>IOSTX : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供同步的方法。 此接口检索将本地更改复制到的服务器和服务器到本地存储的更改的必要信息。
   
@@ -45,7 +45,7 @@ ms.locfileid: "19775981"
 |[SetSyncResult](iostx-setsyncresult.md) <br/> |设置同步的结果。  <br/> |
 | *占位符成员*  <br/> | *不受支持或记录。*  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当客户端上载或同步文件夹和本地存储区上的文件夹内容时，将本地存储从一种状态到另一个[有关复制状态机](about-the-replication-state-machine.md)中的状态转换关系图中所示。 以下是从一种状态的本地存储移动到另一个客户端的事件的顺序：
   

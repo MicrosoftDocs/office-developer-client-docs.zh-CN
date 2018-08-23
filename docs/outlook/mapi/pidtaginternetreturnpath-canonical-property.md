@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4530dbcf-9436-4f29-b79e-1bb0f791f60b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aa8a683c0033682aa46944c5cc78503dc1a7d729
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3f108ff1053c0aa1046597cd2f11b74bc2dab0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777748"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574172"
 ---
 # <a name="pidtaginternetreturnpath-canonical-property"></a>PidTagInternetReturnPath 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 消息的返回路径标头字段的值。 发件人电子邮件地址。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777748"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要检索此属性的值，首先使用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)获取的属性标记，然后指定[IMAPIProp::GetProps](imapiprop-getprops.md)获取值中的此属性标记。 调用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)时, 指定的输入的参数_lppPropNames_指向[MAPINAMEID](mapinameid.md)结构的以下值：
   

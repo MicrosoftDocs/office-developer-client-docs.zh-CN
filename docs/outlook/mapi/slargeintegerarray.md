@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ec9a674-c1a2-4137-856f-6cabe6f0eb9f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4d6785783f69857bd93f3c5818983e832e16af05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29b26996bc337045489758a14857a30fafe48e54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778820"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576433"
 ---
 # <a name="slargeintegerarray"></a>SLargeIntegerArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于描述 PT_MV_I8 类型的属性的[LARGE_INTEGER](http://go.microsoft.com/fwlink/?LinkId=132130)结构的数组。 
   
@@ -50,7 +50,7 @@ typedef struct _SLargeIntegerArray
   
 > 指向**LARGE_INTEGER**结构包含的整数值的数组。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关 PT_MV_18 的详细信息，请参阅[列表的属性类型](property-types.md)。
   

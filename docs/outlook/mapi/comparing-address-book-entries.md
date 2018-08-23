@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e375367b-d107-4768-95de-00b8b9dc3511
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 808d5f4bfca15cae4ca7aab6758d3b5361813bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5c46aed7a15ae4f48c8e4f1fe308fcb20ab3fe7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774666"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575355"
 ---
 # <a name="comparing-address-book-entries"></a>比较通讯簿条目
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 您的提供商[IABLogon::CompareEntryIDs](iablogon-compareentryids.md)实现提供程序的对象中的两个比较的项标识符。 确定两个条目标识符包含您的提供商注册[MAPIUID](mapiuid.md)后，MAPI 调用此方法。 因此，您**CompareEntryIDs**方法需要检查对于_lpEntryID1_和_lpEntryID2_参数中传递的项标识符属于您的提供商。 
   

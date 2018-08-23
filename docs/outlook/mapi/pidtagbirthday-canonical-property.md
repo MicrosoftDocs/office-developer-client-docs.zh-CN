@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 949910b2-2312-4791-9510-c11cca38ec0a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b5f3e3b88db255da0397aec2372b60b668984974
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39d49c7f3de97f68ed4a014fde222a2186f2b5a5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577616"
 ---
 # <a name="pidtagbirthday-canonical-property"></a>PidTagBirthday 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含联系人的生日。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777385"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是提供标识和有关联系人的访问信息的属性之一。 由用户和用户的组织定义这些属性。 
   

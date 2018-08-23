@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6ecd84e4ffa0959a037574998b5ff12d8f539c95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 708e77e4df097f5a0de008e09808ffcbc0289f61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778066"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574578"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>PidTagProfileName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含配置文件的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778066"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通过服务提供商，这些属性来计算。 **ServiceEntry**函数的提供程序实现可以使用这些属性来发现的配置文件名称。 
   

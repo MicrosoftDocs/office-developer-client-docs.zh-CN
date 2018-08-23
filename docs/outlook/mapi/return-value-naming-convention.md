@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2c1cdd7b-82f1-46f2-a7ce-e0efe857b7cd
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 990a48c661621a3a704236a850f5d09239a12fca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d7a95e4681370e1aaf4f8b4c4b7ca0814b3aae7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778652"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581844"
 ---
 # <a name="return-value-naming-convention"></a>返回值命名约定
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPICODE。H 头文件中包含许多客户端或服务提供程序可能会返回从接口方法实现或可能会看到呼叫从返回的值。
   

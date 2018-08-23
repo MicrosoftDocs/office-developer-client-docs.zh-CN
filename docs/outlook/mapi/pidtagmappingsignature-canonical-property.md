@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0a83e0aa8f7ab1eb1f30e3ba97d3ea36f16fd873
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6017871b9567406af0898eede0d5659b468b3343
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777827"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581032"
 ---
 # <a name="pidtagmappingsignature-canonical-property"></a>PidTagMappingSignature 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含特定 MAPI 对象的命名属性的映射签名。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777827"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议具有命名属性的对象公开此属性。 客户端应用程序应该检查这两个对象的**PR_MAPPING_SIGNATURE**属性时复制命名到另一个对象的属性。 使用此属性可以减少翻译之间复制的属性的名称和标识符。 
   

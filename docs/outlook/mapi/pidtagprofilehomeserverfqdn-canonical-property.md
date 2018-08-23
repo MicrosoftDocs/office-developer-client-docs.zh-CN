@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 398ff2fd4bab49c8279e198e3efa416c53abda7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b02a55f7b87bef6a4304d006f79472bcf21c811e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778058"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581872"
 ---
 # <a name="pidtagprofilehomeserverfqdn-canonical-property"></a>PidTagProfileHomeServerFQDN 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启用 Kerberos 身份验证的配置文件配置。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778058"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性设置为用户的目录服务器的域名允许直接连接到域控制器 (DC)，它是已配置为使用针对 Microsoft Exchange Server 2007 的 Kerberos 身份验证的配置文件和早期版本中，通过在**PR_PROFILE_AUTH_PACKAGE**中设置**RPC_C_AUTHN_GSS_KERBEROS** 。
   

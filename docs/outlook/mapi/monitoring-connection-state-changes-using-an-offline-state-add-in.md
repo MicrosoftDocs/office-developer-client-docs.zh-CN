@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9f7f3bc0e305fb5aa7d6ae1e1909b573b3376ef8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8385b2379f2fde8689ae2c7fc5d177af696f22e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579877"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>监控使用脱机状态加载项的连接状态更改
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 您可以使用脱机状态外接程序来监视连接状态更改之前，您必须实现函数来设置和初始化外接程序。 有关详细信息，请参阅[设置 Up 脱机状态外接程序](setting-up-an-offline-state-add-in.md)。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 23314418836893b40cbddf3b90bd95ec061a00c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d135e0c224866cd2a675df2ef9ec1b206f3169ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580752"
 ---
 # <a name="hierarchy-tables"></a>层次结构表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 层次结构表包含有关邮件存储区中的文件夹或通讯簿容器中的容器的信息。 层次结构表的每一行包含一组与一个文件夹或通讯簿容器信息的列。 层次结构表主要由客户端使用和消息存储提供程序以显示的文件夹和子文件夹树由实现并由通讯簿提供程序以在通讯簿中显示的容器树实现。 容器不能容纳子容器，由缺少其**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) 属性中，AB_SUBCONTAINERS 标志不实现层次结构表。
   

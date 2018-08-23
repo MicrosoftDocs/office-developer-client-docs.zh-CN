@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3d39a053-277f-4d59-ab2e-cee81710f2ab
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 36bf204823711e87ac6250f0997445f2745fbc19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c1b8c55a019ee3243de18d5e20ee4084bf6ca11f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776976"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581249"
 ---
 # <a name="pidlidrecurring-canonical-property"></a>PidLidRecurring 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定是否定期约会消息。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776976"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果约会的定期约会，并且如果它不定期为 FALSE，则此属性为 TRUE。
   

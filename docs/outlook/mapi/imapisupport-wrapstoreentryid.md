@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 25c04f8dee012f4985db98df7d1b3ae5536ef6b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3850da2917dbf463590643b9e7ba8420f4ea219
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775671"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576055"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 转换 MAPI 标准格式中的项标识符的消息存储内部的项标识符。
   
@@ -60,7 +60,7 @@ S_OK
   
 > 成功自动换行的项标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::WrapStoreEntryID**方法将执行所有服务提供商支持对象。 服务提供商使用**WrapStoreEntryID**已生成的存储内部的项标识符的换行的消息存储的项标识符的 MAPI。 
   

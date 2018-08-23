@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 871dafd7bf8959cf814d65991fe08fdb2b283c08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fb8919287420038b5c9165bb14b7d33d1ad2fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578862"
 ---
 # <a name="imapicontainergetcontentstable"></a>IMAPIContainer::GetContentsTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回到容器的内容表的指针。
   
@@ -78,7 +78,7 @@ MAPI_E_NO_SUPPORT
   
 > 容器未包含任何内容，并不能提供内容表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIContainer::GetContentsTable**方法返回容器的内容表格的指针。 内容表包含有关容器中的对象的摘要信息。 
   

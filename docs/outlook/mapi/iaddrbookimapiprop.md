@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0e39f2603a1eef45c456b7fb58744b79c6b75f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44bc6de420953bd665bd3caa336b76b15c1effd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775253"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579457"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 支持对 MAPI 通讯簿的访问，包括操作，例如显示常见对话框;打开容器，邮件用户和通讯组列表;而在执行名称解析。
   

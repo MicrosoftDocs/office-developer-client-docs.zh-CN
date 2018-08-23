@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 97ff2733-a2b1-4da0-b628-00850fc7925b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7064aee2ccd35b6b372bc6f911c7508113c26162
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38011c02791688ce5b1c291a1355ccaececd43fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776249"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574732"
 ---
 # <a name="mapi-forms-notifications"></a>MAPI 表单通知
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册有关和处理来自窗体对象通知其他 MAPI 对象不同于进程。 **IMAPIViewAdviseSink**或**IMAPIFormAdviseSink**接口而不是**IMAPIAdviseSink**也建议的窗体通知实现接收器。 [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md)和[IMAPIFormAdviseSink: IUnknown](imapiformadvisesinkiunknown.md)每个具有多个方法，一个用于每个可能的事件的相应告知源是能够生成。 例如， **IMAPIFormAdviseSink**具有两个方法： [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md)处理对表单查看器的状态和[IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md)显示新消息与正确的表单的更改。 
   

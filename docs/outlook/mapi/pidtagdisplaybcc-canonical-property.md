@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ab5bcd67-d54e-46e9-b94e-a652aac3e81c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 55ee55fefd82f29c8b780a350ecdfe0285b3d649
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd37d72d6a214f91e371b7126c90e3fda25cde2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777564"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578897"
 ---
 # <a name="pidtagdisplaybcc-canonical-property"></a>PidTagDisplayBcc 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含任何密件抄送 (BCC) 邮件的收件人，用分号 （;） 分隔的显示名称 ASCII 的列表。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777564"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |Message  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储库使用[IMessage::ModifyRecipients](imessage-modifyrecipients.md)方法计算这些消息对象的属性。 消息存储还维护这些属性，以便它始终反映消息的上次保存的状态。 在每次调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法时同步值。 
   

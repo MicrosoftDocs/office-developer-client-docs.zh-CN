@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c13ab9ce9c2564c39bfe9b2689f05439bc7b74ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd93866ae8823eb5897318fc2dda4e8432d974b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775314"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578463"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在该容器，返回进一步访问的接口指针中打开一个对象。
   
@@ -98,7 +98,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > _LpEntryID_参数中的项标识符不是格式的容器识别。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIContainer::OpenEntry**方法打开整个容器对象，并返回到接口实现用于进一步访问的指针。 
   

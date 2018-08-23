@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: dec42f8d-0f5c-4665-b53a-11cbc58b8b76
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5d860135d846df8ef1ea0784d7430c71ad0fe64e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7270bce12f6d91dbb5632f739f4644df866924d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776395"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573143"
 ---
 # <a name="mapisvcinf-default-services-section"></a>MapiSvc.inf [默认服务] 部分
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **[默认服务]** 部分列出的所有消息服务作为默认邮件服务所选的。 这些默认邮件服务是 **[服务]** 节中列出的消息服务的子集。 当配置文件配置程序创建默认配置文件时，本节中的消息服务都自动包含。 
   

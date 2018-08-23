@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 13c151a134e4334e8ed2e75e031a6fc9dddbf941
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4ca565f97851a2efe2f3279f062f6ea89a4c6326
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775321"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579961"
 ---
 # <a name="imapicontainergetsearchcriteria"></a>IMAPIContainer::GetSearchCriteria
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 获取容器的搜索条件。
   
@@ -88,7 +88,7 @@ MAPI_E_NOT_INITIALIZED
   
 > 搜索条件从不已建立的容器。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIContainer::GetSearchCriteria**方法获取支持搜索，通常为一个搜索结果文件夹的容器中的搜索条件。 通过调用容器的**IMAPIContainer::SetSearchCriteria**方法创建搜索条件。 
   

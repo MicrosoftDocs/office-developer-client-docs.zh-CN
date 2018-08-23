@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 284b4b451a31a9478caf31fe855d38bfeab2caf3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a10209bd965591e9049027e46d84d904bba14065
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778065"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580227"
 ---
 # <a name="pidtagprofileserverfullversion-canonical-property"></a>PidTagProfileServerFullVersion 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定配置文件中的帐户连接到 Microsoft Exchange Server 完整的版本和内部版本信息。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778065"
 |属性类型  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 一个配置文件可以指定一个或多个帐户连接到 Exchange 服务器，但他们必须连接到同一 Exchange 服务器。
   

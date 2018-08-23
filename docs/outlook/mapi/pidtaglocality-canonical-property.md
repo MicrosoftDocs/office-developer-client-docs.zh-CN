@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a918b596-a335-47a0-9d1c-109a0b0812a2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c3e4643e99236dbd9e5f277b18db6c774c20f913
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27c9ab646d6a03d63aa2b5a6820f9c3023186d8e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574599"
 ---
 # <a name="pidtaglocality-canonical-property"></a>PidTagLocality 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的位置，例如城镇或市/县的名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777813"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 由收件人和组织定义 Theys。
   

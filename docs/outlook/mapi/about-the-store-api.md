@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 31aff61ec5868b0f1e9ab34d498b2e8175519f0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d72df30eab5fde4288b5feba1d7045da05117bde
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579373"
 ---
 # <a name="about-the-store-api"></a>关于存储区 API
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 存储 API 提供了 miscellaneous 存储功能存储提供程序。 它提供了以下定义、 数据类型、 属性和接口。
   

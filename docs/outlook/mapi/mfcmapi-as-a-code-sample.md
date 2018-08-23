@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fc92cc8deb3d12c4bc8fca4c680fd4a675b4a578
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4d46dc8a84b52605d09a694e6873cb3813ae5b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776507"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578113"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI 作为的代码示例
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MFCMAPI 示例使用消息 API 来提供对通过图形用户界面的 MAPI 存储的访问。 下载此示例之后，您可以使用的源文件要检查的许多 MAPI 接口和引用的示例使用情况。 有关详细信息，请参阅[MAPI 接口](mapi-interfaces.md)。
   

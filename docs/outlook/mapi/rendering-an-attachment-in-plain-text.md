@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 72b447e9-b4f2-4557-baf5-0afefe463749
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 38db1d18f240188c7566a57afa23291a307446dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 031f8f17ae98bd62043a2cd8ce6c8c2d55a19c9f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778627"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582334"
 ---
 # <a name="rendering-an-attachment-in-plain-text"></a>以纯文本呈现附件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要呈现与纯文本邮件的附件，检索附件的**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性，并将其应用到**PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) 中的数据属性。 有两种方法来检索**PR_RENDERING_POSITION**:
   

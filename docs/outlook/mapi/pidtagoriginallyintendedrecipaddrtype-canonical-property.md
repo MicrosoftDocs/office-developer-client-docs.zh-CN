@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: dcfb6bd5-bff5-4a50-aec7-4bdfdabf7631
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ddb2a246ca77f751ddd428941cd16da6aa5e286b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9bd7e95b00d27073536d130d443bd20970d48109
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777962"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574354"
 ---
 # <a name="pidtagoriginallyintendedrecipaddrtype-canonical-property"></a>PidTagOriginallyIntendedRecipAddrtype 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含自动转发邮件的最初预期接收人的地址类型。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777962"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |Server  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是一个在最初预期的邮件收件人的地址属性。 它必须已转发邮件的自动代理设置。
   

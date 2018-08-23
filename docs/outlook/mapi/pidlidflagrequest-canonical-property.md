@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: df2e474206559dadf250bdf9a078c69da61187c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a2bcfbbc06427e5bf7e06f1c4060a29689fce3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776843"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575390"
 ---
 # <a name="pidlidflagrequest-canonical-property"></a>PidLidFlagRequest 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示会议请求的状态。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776843"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |标记  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在 Microsoft Office Outlook 会议请求是约会项目。
   

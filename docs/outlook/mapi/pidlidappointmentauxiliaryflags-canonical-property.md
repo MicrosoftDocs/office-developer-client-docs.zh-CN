@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cac9c735403e6cb65dfe3111a2246a8387339339
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e05144beeac8318b8c28153461742a491698996
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576624"
 ---
 # <a name="pidlidappointmentauxiliaryflags-canonical-property"></a>PidLidAppointmentAuxiliaryFlags 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的描述对象的辅助状态位字段。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776584"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不是必需的。 下面是可以设置的单个标记。
   

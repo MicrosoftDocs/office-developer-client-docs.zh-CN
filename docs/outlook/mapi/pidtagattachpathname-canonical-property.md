@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b7e0c174f0b31522cffbb4761ab64a50267874be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: add85bbf9c7608434be045bc30a11b8a28ccaa1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777359"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578407"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>PidTagAttachPathname 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含附件的完全限定路径和文件名。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777359"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议附件子对象公开这些属性。 它们设置指示附件数据不包含在邮件，但在常见的文件服务器上可用。 这些属性所需引用连同任何**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 标志指示附件： **ATTACH_BY_REFERENCE**、 **ATTACH_BY_REF_RESOLVE**或**ATTACH_BY_REF_仅**。 
   

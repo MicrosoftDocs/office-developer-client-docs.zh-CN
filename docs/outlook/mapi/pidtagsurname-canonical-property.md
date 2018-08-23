@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1663f032-4cdc-43ed-8fdc-a91a3a6a84ff
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e3fecd52eb2a3fec6b566df41824098727750833
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8c47e5ab5912f89988f48d28686b1cdd86bf937
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778488"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580325"
 ---
 # <a name="pidtagsurname-canonical-property"></a>PidTagSurname 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的姓氏。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778488"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和收件人的组织定义的。 
   

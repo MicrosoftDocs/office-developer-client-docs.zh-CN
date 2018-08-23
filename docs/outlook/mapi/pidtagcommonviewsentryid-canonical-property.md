@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cd9e6a46-2112-4663-891e-5e57b22c0950
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7d91ed369b3a6e8b4f62534d49b202b46c327baa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7449e59227b147d34c2329175d0251dbb9c427b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777423"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581340"
 ---
 # <a name="pidtagcommonviewsentryid-canonical-property"></a>PidTagCommonViewsEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含预定义的公共视图文件夹的项标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777423"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 公共视图文件夹包含一组预定义的标准视图说明符，而视图文件夹包含由消息的用户定义的说明符。 这些文件夹，不可见人际邮件 (IPM) 层次结构中，可以包含多个视图说明符，每个存储为邮件。 客户端应用程序可以选择合并两个说明符集并使其同时可用。 
   

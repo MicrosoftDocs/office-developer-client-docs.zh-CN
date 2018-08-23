@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f62ced8dd2ddec588a1ae285c13268059e49da46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15c635992134d61329f2f49c0fe3dd84d7225837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777303"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577126"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>PidTagAddressBookHierarchicalIsHierarchicalGroup
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果通讯组列表也是部门组，包含 TRUE。 此属性是仅在通讯组列表上可用。
   

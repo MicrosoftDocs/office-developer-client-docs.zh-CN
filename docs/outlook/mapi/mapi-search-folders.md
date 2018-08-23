@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 36c14d91-77f7-43a3-8d87-d50bcc21fad7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e74767f4b3a19442beac5f9c9ac375286bb47c81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5a95ca77496c3c4c2d28641ab649c2b4328a27c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776312"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578554"
 ---
 # <a name="mapi-search-folders"></a>MAPI 搜索文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 搜索结果文件夹包含链接到泛型文件夹中的邮件，而不是实际的邮件。 客户端通过调用带 FOLDER_SEARCH 作为_ulFolderType_参数的[IMAPIFolder::CreateFolder](imapifolder-createfolder.md)方法创建一个搜索结果文件夹。 客户端通过设置并应用搜索条件填充的搜索结果文件夹 — 筛选出与特定的特征的邮件的规则。 使用[IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md)方法设置搜索条件。 客户端构建表示搜索条件以应用并将它们传递给**SetSearchCriteria**的一个或多个[SRestriction](srestriction.md)结构。 **SetSearchCriteria**还指定指示搜索域的文件夹的列表和一组标志将如何执行搜索该控件。 
   

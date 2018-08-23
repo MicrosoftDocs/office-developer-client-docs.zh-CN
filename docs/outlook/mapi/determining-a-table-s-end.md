@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c879e972-05f4-4716-8fc2-db5b22f34ca8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7cbf11f16948d582ba36a0b4d20411549b723b38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9979baf144b6106adcec416ee04439404e05d19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774779"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576342"
 ---
 # <a name="determining-a-tables-end"></a>确定表末尾
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  常见错误是表的假定末尾已达到时： 
   

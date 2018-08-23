@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 79727700-5ef1-4a29-9ed0-fd46c7de3202
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 863c95856f3198c74bb9d72881154676386f6a9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8fdd9ea4dfbc40d7e800be5e2df666738d2cd23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19778915"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577455"
 ---
 # <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>支持传入邮件中的格式化文本：客户端责任
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 邮件系统之间传输邮件，如 MAPI 后台处理程序可确保的富文本格式保持同步的消息文本。 MAPI 后台处理程序调用[RTFSync](rtfsync.md)函数从中将其传递到传输提供程序的消息的换行版本。 传输提供程序保存到邮件通过调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法所做的更改，然后将其路由至新的收件人。 
   

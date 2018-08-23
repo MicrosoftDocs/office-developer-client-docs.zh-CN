@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3646f3e3906e62fe148fe1c2b6ddca39013391e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 629746cedf8c6f4a8c960912a9ab1bcdc7a09e9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777338"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574144"
 ---
 # <a name="pidtagattachdatabinary-canonical-property"></a>PidTagAttachDataBinary 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含通常通过对象链接和嵌入 (OLE) **IStream**接口访问的二进制附件数据。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777338"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含附件时**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性的值是 ATTACH_BY_VALUE，这是您的常用附件方法和必须支持的唯一一个。 **PR_ATTACH_DATA_BIN** ATTACH_OLE **PR_ATTACH_METHOD**的值时，还包含 OLE 1.0 **OLESTREAM**附件。 
   

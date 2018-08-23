@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0f92c2d-b5ba-4558-b8a2-484b2db32bec
 description: 上次修改时间： 2012 年 6 月 18 日
-ms.openlocfilehash: 2e4ae22ace37455c9ccb9d8ff2a7f07a48132234
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d3210c098d0a7c83721798c8c32ffd9f1e5ebb4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575460"
 ---
 # <a name="mnlslstrcpyw"></a>MNLS_lstrcpyW
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一个字符串复制到的缓冲区。
   
@@ -48,7 +48,7 @@ lpString2
   
 如果函数失败，则返回值为 NULL，lpString1 可能无法在 null 结尾。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此函数的换行**lstrcpy**函数。 有关详细信息，请参阅[lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx)。
   

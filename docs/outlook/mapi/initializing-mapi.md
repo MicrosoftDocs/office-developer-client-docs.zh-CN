@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5f1dac712731175978bc639cc7296171448a41e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775956"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574788"
 ---
 # <a name="initializing-mapi"></a>初始化 MAPI
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用 MAPI 库的所有客户端应用程序必须调用**MAPIInitialize**函数。 有关详细信息，请参阅[MAPIInitialize](mapiinitialize.md)。 **MAPIInitialize**会话初始化全局数据，并准备要接受呼叫的 MAPI 库。 有几个重要在某些情况下设置的标记： 
   

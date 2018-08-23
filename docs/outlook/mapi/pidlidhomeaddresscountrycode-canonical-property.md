@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 048ce01d-f2c2-40d1-88aa-25206be58dd1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f1da798d23e4ddf903844de6091f631d78bf44b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c775d982c02225fed5e4a78cd17294c4e83e7a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776877"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575761"
 ---
 # <a name="pidlidhomeaddresscountrycode-canonical-property"></a>PidLidHomeAddressCountryCode 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的住宅地址的国家/地区代码部分。
   

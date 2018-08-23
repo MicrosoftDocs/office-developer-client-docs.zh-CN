@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a8d4d575-7aa0-4542-91e2-322a6e400551
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a5fa4510f0bcad69bc17b8ac19433f66ec763fba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ef0da0c617bffc3820c7cd43f66ea07be2ad4a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778662"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580458"
 ---
 # <a name="saving-frequently-used-properties"></a>保存常用属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 存储需要花费时间和资源以检索和频繁访问的数据，以提高性能。 使用额外内存有时会重复检索更好的选择。 创建用于存储此数据缓存时，请使用警告和护理。 请记住设计不合理缓存可以对性能产生负面影响。
   

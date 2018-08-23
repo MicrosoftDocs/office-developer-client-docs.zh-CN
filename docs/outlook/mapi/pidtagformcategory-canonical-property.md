@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f4bd5ddb-f1e7-4e2a-b312-b1884f78cc1a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9278fa5eb7311493a453763cc1faa9cb75c6dc75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47978ca84bb6a3f542134b8fba4f8521ed3645bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777634"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578253"
 ---
 # <a name="pidtagformcategory-canonical-property"></a>PidTagFormCategory 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含窗体的类别。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777634"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由适合于应用程序的方式的客户端应用程序定义的类别名称。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7f241fde8aedeae9debc66f728ee21c1c6bed6fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776286"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579856"
 ---
 # <a name="mapi-profiles"></a>MAPI 配置文件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一个配置文件存储有关服务提供商和消息服务的计算机上安装的信息。 对于每个会话，客户端登录时选择介绍要使用的提供程序和服务的一个配置文件。 客户端都可以选择配置文件的集合中，并如果需要，建立一个为默认值。 当客户端启动会话和未显式指定一个配置文件时自动选择的配置文件的默认配置文件。
   

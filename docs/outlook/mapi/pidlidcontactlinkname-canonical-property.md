@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b9be1cd-e81e-42f3-b391-036afa2ae1b4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 13c10a84383c9c2f775a7579485536bfd63f9a93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd29ed24f155e3d39d367d677f3760b2aa12a18d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776729"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582376"
 ---
 # <a name="pidlidcontactlinkname-canonical-property"></a>PidLidContactLinkName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含**dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)) 属性的元素。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776729"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 由分号和空格分隔**dispidContactLinkName**属性中的元素 （";"）。 
   

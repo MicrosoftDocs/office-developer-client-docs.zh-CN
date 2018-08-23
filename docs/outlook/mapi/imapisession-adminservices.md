@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 487fab39-5c2c-4e1a-9f90-4da64f5e198b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 850d4d952102e11d11234fa3184b88e280a98c21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cb7fa7bb7dc17a89fc7cc40ae370accc40fa3941
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579836"
 ---
 # <a name="imapisessionadminservices"></a>IMAPISession::AdminServices
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回对消息服务的更改[IMsgServiceAdmin](imsgserviceadminiunknown.md)指针。 
   

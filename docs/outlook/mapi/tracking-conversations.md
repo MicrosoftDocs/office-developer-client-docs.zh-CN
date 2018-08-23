@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 58157d597d3bb1042d6bc16ff954495a507c8333
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae8b5a474675c0afd771f4e8dfd060d0b379c8f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778998"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572219"
 ---
 # <a name="tracking-conversations"></a>跟踪对话
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对话跟踪正在收集 エ ・ 复 ハ 一条消息。 客户端应在跟踪对话设置帮助的两个属性：
   

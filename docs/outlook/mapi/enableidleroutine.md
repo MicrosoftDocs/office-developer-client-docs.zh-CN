@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 00b5c123e588636654fb4287cc7b45500d47d89c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c53bd63e60281e999d0d379913b3609e9472a40e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774870"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579275"
 ---
 # <a name="enableidleroutine"></a>EnableIdleRoutine
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启用或禁用[FNIDLE](fnidle.md)基于空闲例程。 
   
@@ -54,7 +54,7 @@ VOID EnableIdleRoutine(
 
 无。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 下面的函数处理与 MAPI 空闲引擎和基于[FNIDLE](fnidle.md)函数原型的空闲例程： 
   

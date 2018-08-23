@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 33bf6780979ee25739abf93d89744e1517363c63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61e1039a89f47fe29f9b5a1ba9203cfc88d9797e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577518"
 ---
 # <a name="posting-a-message"></a>发布一条消息
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 发送一条消息是类似于发送一条消息。 主要区别是目标。 而不是正在跨一个或多个邮件系统定向到一个或多个收件人，已发布的消息仍保留在当前消息存储的文件夹中。
   

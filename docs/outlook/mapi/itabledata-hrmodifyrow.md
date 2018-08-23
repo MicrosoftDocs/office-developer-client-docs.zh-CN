@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a1388545597cf0000f270bf693c93f9349fb6426
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ef210aedc884e5c09eca6335199e2ef284b901c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776108"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574829"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 插入一个新的表格行，原因可能替换现有行。
   
@@ -49,7 +49,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 传入的行不具有索引列。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrModifyRow**方法插入_lpSRow_参数指向**SRow**结构所描述的行。 如果该行的行及其索引列的相同的值的_lpSRow_点表中已存在，将替换现有行。 如果没有行存在相匹配的**SRow**结构中包含的一个， **HrModifyRow**表末尾添加行。 
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a52c0501040d77ddb8172b212bf341a08704dcc3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 88185efea344844016547d0844277de6e0d661db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775364"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578316"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置或清除 MSGFLAG_READ 标志中的一个或多个文件夹的邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性并管理阅读报告的发送。 
   
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但不是所有的邮件已成功处理。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::SetReadFlags**方法设置或清除 MSGFLAG_READ 标志的一个或多个文件夹的邮件的**PR_MESSAGE_FLAGS**属性中。 设置 MSGFLAG_READ 标志将邮件标记为已读，不一定表示预期接收人已实际阅读消息。 
   

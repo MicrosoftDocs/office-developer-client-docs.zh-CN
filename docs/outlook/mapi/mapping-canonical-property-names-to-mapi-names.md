@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6693326df818d2792d7448407148e57d53fff86f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f82d5a13066294e8c007f70cd7f54d286ab8b02d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776490"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579359"
 ---
 # <a name="mapping-canonical-property-names-to-mapi-names"></a>将规范属性名称映射到 MAPI 名称
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题将每个规范属性名称映射到 MAPI 属性或它所表示的属性。 主题包含三个表： 与的数字标识符的命名属性表，第二个表的字符串标识符使用的命名属性和第三个表的已标记的属性。
   
@@ -346,7 +346,7 @@ ms.locfileid: "19776490"
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
 |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Template  <br/> |
-|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |标题  <br/> |
+|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Title  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |字数统计  <br/> |
 |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |X 共享功能  <br/> |
 |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-共享-Config-Url  <br/> |

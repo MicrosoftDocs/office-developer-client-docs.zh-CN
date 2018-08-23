@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7da0e480af9761c1317c1941da1d68d448a1ef63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c52fd6d6caaec6f215856daead809ceb0bd76729
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777865"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574991"
 ---
 # <a name="pidtagmessagesize-canonical-property"></a>PidTagMessageSize 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息对象上的所有属性的大小的总和，以字节为单位。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777865"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议消息对象公开此属性。 邮件大小表示的近似时该消息从一个消息存储库移至另一个被转移的字节数。 正在对消息对象的所有属性的大小的总和，它通常是相当大于单独的消息文本。 
   

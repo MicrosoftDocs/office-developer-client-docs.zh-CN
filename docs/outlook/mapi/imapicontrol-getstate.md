@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a6ae89bf9b2b16439cc06f0e106859dda10ea22c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d45c4722b6a0200ea3937ba606da0af5c793df2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19775320"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581851"
 ---
 # <a name="imapicontrolgetstate"></a>IMAPIControl::GetState
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索值，该值指示是否启用或禁用按钮控件。
   
@@ -58,7 +58,7 @@ S_OK
   
 > 已成功检索按钮控件的状态。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 服务提供商实现**IMAPIControl::GetState**方法使 MAPI 按钮控件的状态。 如果启用按钮，则它可以响应鼠标单击或击键。 如果它被禁用，该按钮变暗，并对鼠标单击或击键没有响应。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 26628646-7948-4341-aaef-5c476a857a52
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 32198635ed95c5eb33a7171734778ac9a224059c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5956974ab38e1d2e891945083d26f1dced23284
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774636"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578057"
 ---
 # <a name="cbnewflatmtsidlist"></a>CbNewFLATMTSIDLIST
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 计算应包含几个[MTSID](mtsid.md)结构指定大小的新[FLATMTSIDLIST](flatmtsidlist.md)结构分配的字节数。 
   

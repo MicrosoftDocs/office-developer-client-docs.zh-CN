@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 07ad94c423c3be425dc905dc578f55ad2c467a95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e31dd7b25b3abf333505c8bde57f61be7a10901
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774790"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580605"
 ---
 # <a name="display-table-implementation"></a>显示表实现
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 显示表用于显示属性表、 特殊的对话框中，其中包含的专用于显示和可能编辑一个或多个属性的一个或多个选项卡式的属性页。 关联与每个显示表是[IAttach: IMAPIProp](iattachimapiprop.md)接口实现。 [IMAPIProp](imapipropiunknown.md)实现维护属性表中显示的属性数据。 
   

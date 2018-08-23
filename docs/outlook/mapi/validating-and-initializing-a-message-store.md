@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 74f0a1fe-2a79-4b32-ab88-85a8839a2639
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 48883ec33db9ffd6b3e7cc6e16ae9c2487a31607
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a5a5045594e87953d967fddbdeefd5ac18c8a3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779093"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581970"
 ---
 # <a name="validating-and-initializing-a-message-store"></a>验证和初始化邮件存储区
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开时的消息存储通过[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)方法而不设置 MDB_NO_MAIL 标志，MAPI 创建几个文件夹，并将其分配默认名称和角色。 MAPI 负责创建这些文件夹，以避免将不可避免发生，如果客户端或消息存储提供程序负责创建不兼容性。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e748427b39418a80cae88e98b4aa7eef6df24393
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d2ae556f4dd98b5f6e274a21c608d4ea364d4ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775989"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576202"
 ---
 # <a name="ipersistmessageisdirty"></a>IPersistMessage::IsDirty
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检查自上次保存以来所做的更改的表单。
   
@@ -45,7 +45,7 @@ S_FALSE
   
 > 窗体不具有自上次保存以来所做的更改。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IPersistMessage::IsDirty**方法以确定是否邮件有未保存的数据。 
   

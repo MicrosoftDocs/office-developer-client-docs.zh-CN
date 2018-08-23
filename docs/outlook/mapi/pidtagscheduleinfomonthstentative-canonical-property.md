@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3179442c-6499-464a-93af-eb0a7a5b0d30
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 20620a5835e627eb7543a03037f9be75db6739ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78bb5114b78142ce18d3f83c34795b72910c87a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778346"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573710"
 ---
 # <a name="pidtagscheduleinfomonthstentative-canonical-property"></a>PidTagScheduleInfoMonthsTentative 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含标记暂定忙/闲信息消息中的月份。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778346"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性中的值数必须介于零和涵盖了发布的范围，这是**PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) 和**PR_FREEBUSY_PUBLISH_END 之间的时间段的月数之间**([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)) 属性。
   

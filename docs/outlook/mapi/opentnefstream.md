@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 866d3be5e1c7a4375db84d1f15802e01f8d10f23
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5abd3a80a9736a4d71525805e4bc38289975c34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776565"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577805"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 由传输提供程序启动 MAPI 传输中性封装格式 (TNEF) 会话调用。 
   
@@ -102,7 +102,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 更高版本创建**OpenTnefStream**函数的 TNEF 对象调用 OLE 方法**IUnknown::AddRef**添加支持对象、 stream 对象中，和 message 对象的引用。 传输提供程序可以发布给 OLE 方法**IUnknown::Release** TNEF 对象上的单个调用进行的所有三个对象的引用。 
   

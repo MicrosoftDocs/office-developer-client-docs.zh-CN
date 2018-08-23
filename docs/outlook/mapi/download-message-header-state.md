@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7407b6606634ecc0151f582e4481ecbff5e7dc57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9d1745d25e7f7a5052d767350ade6723067d1b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774820"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578841"
 ---
 # <a name="download-message-header-state"></a>下载邮件头状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  本主题介绍在下载邮件头状态的复制状态机时发生的情况。 
   

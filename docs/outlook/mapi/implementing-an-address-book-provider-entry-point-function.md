@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b60a80bc0ede0c2800f6cfd98a98f498b93a1d8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68ba23e6ab23ff7306cd1326b73512b1c9f2a0f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775793"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579674"
 ---
 # <a name="implementing-an-address-book-provider-entry-point-function"></a>实现通讯簿提供程序入口点函数
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当客户端应用程序调用[MAPILogonEx](mapilogonex.md)开始使用包含通讯簿提供程序的配置文件的会话时，MAPI 加载您的提供商和所有其他人的配置文件的一部分。 MAPI 提供程序的入口点函数的名称的学习通过查看配置文件中。 请记住此函数不是 DLL 入口点函数; 相同请参阅**DllMain** Win32 文档中的文档。 
   

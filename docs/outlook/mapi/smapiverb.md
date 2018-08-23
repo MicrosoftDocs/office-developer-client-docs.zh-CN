@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4d060d62deb685b4691846c2b8e48a82ae3195ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11f11ae2d90a951a119895f3e0e3e3ca0dbc0fc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778845"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573696"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述 MAPI 动词。
   
@@ -69,7 +69,7 @@ MAPI_UNICODE
   
 > Unicode 格式的显示名称。 如果未设置 MAPI_UNICODE 标志的显示名称是 ANSI 格式。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SMAPIVerb**结构作为中的以下方法的参数传递： 
   

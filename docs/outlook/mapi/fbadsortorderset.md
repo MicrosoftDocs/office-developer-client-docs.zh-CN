@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0e200ea20c55cfd5729ce4c1f590de2d61ca73bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b3f88495cafbd6ea764ca8901ac67c23749aebe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774910"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578575"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 验证排序顺序设置通过验证其内存分配。 
   
@@ -55,7 +55,7 @@ FALSE
   
 > 有效设置的指定的排序顺序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **FBadSortOrderSet**函数可用于准备 sort 方法，如[IMAPITable::SortTable](imapitable-sorttable.md)方法调用。 
   

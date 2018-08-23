@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6749e7b1-7a66-4aca-92b0-9a23a87fc121
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6db8c5d8be3bc7120c91da17135b0d871ec2b026
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c9ef670e5c066c29dc8495c3d0b08ed67284895
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776618"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577623"
 ---
 # <a name="pidlidappointmentproposedendwhole-canonical-property"></a>PidLidAppointmentProposedEndWhole 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定建议的计数器建议**dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) 属性的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776618"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 以协调世界时 (UTC)，必须指定此值。
   

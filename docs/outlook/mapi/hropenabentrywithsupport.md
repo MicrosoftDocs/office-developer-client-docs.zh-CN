@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eaa988ea-aee1-4066-8c78-2b6c28def5e0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 262b1aa2cd4a785b612ac0917b4b24358742ea6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58a6249295810e32c0a0f845e4830b8f393885ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775198"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579380"
 ---
 # <a name="hropenabentrywithsupport"></a>HrOpenABEntryWithSupport
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 不要使用此函数。
   

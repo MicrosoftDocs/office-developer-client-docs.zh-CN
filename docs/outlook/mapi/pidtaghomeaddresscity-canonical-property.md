@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 17bc102aaa8db9a9b9fac1467690739840ead697
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0be0cd923a3685a1573b1414260446281902998
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777678"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573528"
 ---
 # <a name="pidtaghomeaddresscity-canonical-property"></a>PidTagHomeAddressCity 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的住宅地址-市/的县。
   

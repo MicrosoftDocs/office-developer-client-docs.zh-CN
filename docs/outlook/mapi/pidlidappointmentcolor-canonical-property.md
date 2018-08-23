@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 251377a7b9118437aff3fbb6b2b9376cbf70375c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7dcfe32a5edc6587dfbd1351b61e2b1901e1d28
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776586"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579051"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>PidLidAppointmentColor 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定要显示日历时使用的颜色。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776586"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指定要显示日历时使用的颜色。 客户端或服务器应将此值与旧客户端的向后兼容性设置。 相反，它可以显示基于**关键字**([PidNameKeywords](pidnamekeywords-canonical-property.md)) 属性中指定[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)为的值的日历。 设置时，值必须是以下项之一。
   

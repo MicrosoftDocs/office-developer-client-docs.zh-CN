@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5d0daae7-248d-459f-9d96-cb949b86f590
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e467fb7c05a647265d007429930ee522fd77b2fa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd5a6071674dce97215bbeb7027752bfcedc94ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578071"
 ---
 # <a name="pidtagattachmentlinkid-canonical-property"></a>PidTagAttachmentLinkId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示此附件链接到的消息对象的类型。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777345"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 必须为 0，除非覆盖其他协议的扩展邮件和附件对象协议[[MS OXCMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)中所述。
   

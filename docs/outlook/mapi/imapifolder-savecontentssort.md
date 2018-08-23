@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7c8ccada96b3e34372d488e16c85627e8b6b0cd7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f79265c4356747e64aa8102dd4486db229baf5a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775361"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579660"
 ---
 # <a name="imapifoldersavecontentssort"></a>IMAPIFolder::SaveContentsSort
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置某个文件夹的内容表的默认排序次序。
   
@@ -58,7 +58,7 @@ MAPI_E_NO_SUPPORT
   
 > 消息存储提供程序不支持保存其文件夹内容表的排序次序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::SaveContentsSort**方法可创建一个文件夹内容表的默认排序次序。 即，当客户端代码调用**SaveContentsSort**后调用该文件夹的[IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)方法，将建立**SaveContentsSort**顺序出现返回的内容表中的行。
   

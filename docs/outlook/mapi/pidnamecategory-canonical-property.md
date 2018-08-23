@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 931a004f-3f20-452b-8d9e-422ee2dba106
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e83029e1813126351593b9311a71ca9dbbbba45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23b364a5b4c9cec3832a4e939fa53d53d3e15420
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777198"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574116"
 ---
 # <a name="pidnamecategory-canonical-property"></a>PidNameCategory 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定附加到文档的文件的类别。
   

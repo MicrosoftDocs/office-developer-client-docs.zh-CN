@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 47f00706-83df-49cb-bda7-ef572d76a020
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6881f5ed54baffd37ff25d26f455b82bf2526d41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79392d892944e8ae2470c3da905e47b804d514aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777034"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576818"
 ---
 # <a name="pidlidsharinginitiatorentryid-canonical-property"></a>PidLidSharingInitiatorEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将指定的共享邮件的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777034"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须为当前登录用户的通讯簿设置为**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的值 （请参阅[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)）。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 00662d7a5bf1c2addc5c4e0b39d657abd7073753
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 753067c8c0af15a44e0f3b71f6122d8683db4a98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776081"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572107"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 删除多个表行。
   
@@ -59,7 +59,7 @@ S_OK
   
 > 已成功删除的表格行。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrDeleteRows**方法查找并删除包含匹配指向按行中每个**aRow**条目的**lpProps**成员设置的属性的列的表格行。 索引列用于标识每一行;此列必须具有相同的属性标记为对[CreateTable](createtable.md)函数的调用中_ulPropTagIndexColumn_参数中传递的属性标记。 
   

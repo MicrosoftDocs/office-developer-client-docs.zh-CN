@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 165ffbd0-54aa-4692-8bd1-09e6ff3762df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5b93f84026cacd8568dc5ceec5574d144f6d1633
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8bbe8aa00ce446d228c23e1d474fa5140ae7b40a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778705"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581977"
 ---
 # <a name="scduppropset"></a>ScDupPropset
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制一个独立的 MAPI 内存组合的[ScCopyProps](sccopyprops.md)和[ScCountProps](sccountprops.md)函数的操作块中的属性值数组。 
   

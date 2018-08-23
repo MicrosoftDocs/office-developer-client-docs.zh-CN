@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0814d76dac97e40940f41c49dbf72efdd26b3cca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9ba7a2a0752dea353e914aaa14a09046b993e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774510"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580521"
 ---
 # <a name="address-book-identifiers"></a>通讯簿标识符
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 所有通讯簿提供程序都分配条目标识符使用**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 对其消息的用户和通讯组列表对象属性。 客户端应用程序使用这些条目标识符打开并访问分配到的对象。
   

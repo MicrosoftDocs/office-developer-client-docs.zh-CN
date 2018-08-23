@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 39ccc69a-0226-4dd7-9068-53b496b50e0f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 71bee7321c9b9e2425c70b2377961b74c0df8e73
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c07e3c62c5279c8c0f04506d0aff3cb0a1d8ed1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776911"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572618"
 ---
 # <a name="pidlidlogtypedesc-canonical-property"></a>PidLidLogTypeDesc 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述正在录制此活动。
   

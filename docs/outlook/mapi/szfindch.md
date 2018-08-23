@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b517eaffa56001d8c414888ee6cbc8ec4f49cf66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8426f782eb5fbf8a125833c51b25ccd605acbd64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778943"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573521"
 ---
 # <a name="szfindch"></a>SzFindCh
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 搜索的以 null 结尾的字符串中的字符的第一个匹配项。 
   
@@ -52,7 +52,7 @@ _频道_
 
 **SzFindCh**返回到字符串中的字符的第一个匹配项的指针。 如果字符，不会发生无处不在字符串中，或者如果_lpsz_参数为 NULL，则返回 NULL 的值。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SzFindCh**功能将搜索完全匹配只;它是敏感案例和发音差异。 支持 Unicode 和 DBCS 格式的搜索。 
   

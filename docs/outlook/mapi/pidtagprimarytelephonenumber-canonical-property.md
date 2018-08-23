@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eac130cd-51d1-4c73-a301-a7eafa3b7749
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1a05238899ee85b29c2e96b480a0462d7b273650
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02f3a0678c66ef684a69786f7613fa179c9b9862
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778063"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582208"
 ---
 # <a name="pidtagprimarytelephonenumber-canonical-property"></a>PidTagPrimaryTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的主电话号码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778063"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是提供标识和收件人的访问信息的属性的示例。 它们是按收件人和收件人的组织定义的。 
   

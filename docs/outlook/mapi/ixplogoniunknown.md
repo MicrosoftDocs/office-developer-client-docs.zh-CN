@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0b16fba054533f1cb5d21f3f4b1788c073eca13b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ecfbf33641c86d4f162c521466ca2bf0b79a61d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776143"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581403"
 ---
 # <a name="ixplogon--iunknown"></a>IXPLogon : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 后台处理程序访问提供传输提供程序。 
   

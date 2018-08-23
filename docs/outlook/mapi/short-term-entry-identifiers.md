@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f601971e61eb6430bef9d50b093642ee04b14044
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03352b55589138d406ad3e4ee0756fc44bca8c78
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778780"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580612"
 ---
 # <a name="short-term-entry-identifiers"></a>短期条目标识符
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 时的标识符必须快速构建和不需要时间或距离上次通过服务提供程序为对象分配的短期的项标识符。 只能通过当前工作站上当前会话的生存期保证短期的项标识符的唯一性。 通常，短期的项标识符是有效的仅直到松开它所表示的对象。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3ce4d57ab4837f40ffbc898fde68e44cc802676f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e8fb69e7d25420186d7269943c5d957311e813d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775373"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581753"
 ---
 # <a name="imapiformadvisesinkonactivatenext"></a>IMAPIFormAdviseSink::OnActivateNext
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示表单是否可以处理的下一条消息以显示的邮件类。
   
@@ -64,7 +64,7 @@ S_FALSE
   
 > 窗体并不处理的邮件类的下一条消息。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormAdviseSink::OnActivateNext**方法，可帮助确定是否可以在文件夹中显示下一条消息的窗体。 下一条消息可能的任何类中，一条消息，但它通常是相同的类或相关的类。 这样使客户端应用程序能够重复使用表单对象尽可能读取效率同一个类的多个邮件的过程。 
   

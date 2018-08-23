@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e932966e-cb7a-4d8b-8f06-6406fce1b3e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6bcda9c6281e25f3bae2f9c1dda2f8defb024b57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a88f05bab3f3effc60c0bcca24910106e6849903
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778339"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576805"
 ---
 # <a name="pidtagscheduleinfodontmaildelegates-canonical-property"></a>PidTagScheduleInfoDontMailDelegates 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果该委托不希望接收更新，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778339"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置委托信息对象中。
   

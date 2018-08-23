@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f3db5ac-f1cb-4c55-ab88-c126dd5f48ee
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 267fcc2b6f8902b1f9abb7adcd4409875fc1a7b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2fa762a44a107f826923d71faa79fe865413c55c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777147"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581039"
 ---
 # <a name="pidlidverbresponse-canonical-property"></a>PidLidVerbResponse 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定回应者选择的投票选项。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777147"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性通常设置为在其回应投票**dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) 属性中包含的分隔值之一。
   

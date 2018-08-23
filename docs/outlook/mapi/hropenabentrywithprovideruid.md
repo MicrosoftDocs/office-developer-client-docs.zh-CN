@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83821a86-abff-460c-bb8e-9fd9d232dc6b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e33e656e70802437ab8b8717c5e175e2a13e384e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ed68e1fdb7fb990a2c19aa0bd263439c0966231d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578204"
 ---
 # <a name="hropenabentrywithprovideruid"></a>HrOpenABEntryWithProviderUID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开使用由_pEmsabpUID_标识 Exchange 通讯簿**entryID** 。 此功能向[IAddrBook::OpenEntry](iaddrbook-openentry.md)有效同样，只不过使用此函数可确保[IAddrBook::OpenEntry](iaddrbook-openentry.md)通过使用预期的 Exchange 通讯簿提供程序打开。 
   

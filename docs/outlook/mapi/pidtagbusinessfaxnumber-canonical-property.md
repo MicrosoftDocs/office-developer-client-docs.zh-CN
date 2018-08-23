@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3f77a7e4-342e-49da-970f-3ef02f227724
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 10de01d1411abc860dfb37e8e913b8e2645cf45b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a84adb36c6b851c989b88f4cee6b090fd5e1679
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777403"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576762"
 ---
 # <a name="pidtagbusinessfaxnumber-canonical-property"></a>PidTagBusinessFaxNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的业务传真机的电话的号码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777403"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是该提供标识和访问有关收件人信息的属性的示例。 由收件人和收件人的组织定义这些属性。 
   

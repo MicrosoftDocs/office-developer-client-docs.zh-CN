@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 417c113f-bd98-4515-85d1-09db7fc3a227
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1146fa0441d0b55a7610368324489bd3a6bb24e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf7876dacac40420fdedb8b6f55c99efcf56c4f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776269"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579933"
 ---
 # <a name="mapi-messages"></a>MAPI 邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 邮件是传输到另一个通过 MAPI 后台处理程序和服务提供商通过邮件系统的一台客户端应用程序的 MAPI 对象。 MAPI 中的几乎在每个组件处理的邮件。 客户端让用户创建、 保存、 发送和删除此外，复制并将其从一个文件夹移动到另一个邮件。 消息存储提供程序负责为邮件管理和邮件传递到 MAPI 后台处理程序或传输提供程序。 MAPI 后台处理程序会将邮件移动到适当的传输提供程序，而传输提供程序处理的传送和接收邮件与邮件系统，然后设置收件人和消息选项属性。 通讯簿提供程序处理间接邮件，支持描述邮件收件人的属性。
   

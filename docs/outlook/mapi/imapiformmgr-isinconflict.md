@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d8f28a6b0a1633b0060f02af7e38ef058527eb24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 329771bf79e30f07c9de0a311aa2a836ca507c38
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775419"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580031"
 ---
 # <a name="imapiformmgrisinconflict"></a>IMAPIFormMgr::IsInConflict
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 确定窗体是否可以处理其自己的邮件冲突。 如果已通过多个用户同时编辑邮件有冲突。 这可能对公用文件夹中的邮件。
   
@@ -63,7 +63,7 @@ S_FALSE
   
 > 窗体处理自己消息冲突，或为其传递信息消息不存在冲突。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormMgr::IsInConflict**方法来发现是否特定窗体并不处理其自己的邮件冲突。 **IsInConflict**检查存在冲突标志_ulMessageFlags_和_ulMessageStatus_参数中的位掩码。 如果设置冲突标志， **IsInConflict**解析_szMessageClass_参数中传递的邮件类和如果窗体不处理其自己的冲突，则返回 S_OK。 如果表单处理自己冲突， **IsInConflict**返回 S_FALSE。 
   

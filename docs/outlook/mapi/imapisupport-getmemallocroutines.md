@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 782c04d05ea5cea811784b031e8a118a9c08cbb7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3ec99e4e284ca2cdc4fba8fcf53a6c5741594cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775626"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577812"
 ---
 # <a name="imapisupportgetmemallocroutines"></a>IMAPISupport::GetMemAllocRoutines
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索 MAPI 内存分配和释放函数 （[MAPIAllocateBuffer](mapiallocatebuffer.md)、 [MAPIAllocateMore](mapiallocatemore.md)和[MAPIFreeBuffer](mapifreebuffer.md)） 的地址。
   
@@ -55,7 +55,7 @@ S_OK
   
 > 已成功返回函数地址。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于所有支持对象实现**IMAPISupport::GetMemAllocRoutines**方法。 服务提供商调用**GetMemAllocRoutines**来获取三个内存分配函数传递给其初始化函数 （ [ABProviderInit](abproviderinit.md)、 [MSProviderInit](msproviderinit.md)或[XPProviderInit](xpproviderinit.md)） 的地址。 
   

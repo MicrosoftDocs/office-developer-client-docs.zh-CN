@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3ab069728f872d82246e8925c5ad35c07f41f02e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 924715f26e104739f2e60762511221da5facd5a5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775724"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578323"
 ---
 # <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 筛选器应用于表格，从而减少了设置为仅与指定的条件匹配这些行的行。
   
@@ -66,7 +66,7 @@ MAPI_E_TOO_COMPLEX
   
 > 表无法执行操作，因为太复杂_lpRestriction_参数指向特定筛选器。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::Restrict**方法建立的限制或筛选，请在表。 如果没有前面限制，则它会丢弃并新建一个应用。 应用了限制对基础数据的表; 没有影响它只会改变视图通过限制可以检索到包含满足在限制的数据行的行。 
   

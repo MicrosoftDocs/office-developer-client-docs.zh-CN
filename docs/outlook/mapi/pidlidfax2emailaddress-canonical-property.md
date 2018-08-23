@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 119c00cf-b7df-4354-aef8-575429e5ab3c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 16b1ebeb67b48c62bcccc804415d962831f13d7a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4dc5d1aee7a0e712853c9686c59dea724904b6f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776795"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578386"
 ---
 # <a name="pidlidfax2emailaddress-canonical-property"></a>PidLidFax2EmailAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的住宅传真地址的电子邮件地址。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776795"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性，如果存在此参数，应会包含一个用户可读的显示名称后, 跟"@"字符后, 跟传真号码。
   

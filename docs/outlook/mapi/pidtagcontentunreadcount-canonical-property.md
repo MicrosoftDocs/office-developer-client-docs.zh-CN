@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ce7092840037345ae99b31c39cfbd4ac96b99ff5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b15dd467b7418ea10d384183dc32284924a90212
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777493"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581074"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>PidTagContentUnreadCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 计算出的消息存储库包含文件夹中的未读邮件数。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777493"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储通过计算此属性用于两个不同的但相关，目的。 MAPI folder 对象，它包含文件夹中的消息的数。 在分类 MAPI 表中的标题行中，它包含该标题行所对应的类别中的未读非关联消息的数目。
   

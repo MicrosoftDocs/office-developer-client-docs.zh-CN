@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f0ea9833-81b8-4d9d-b91d-1a141c3f3725
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 269220e1155b49fb535d5f922486835fa9f9ff2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78ea7d6c830be6af3ee8cf63167fe74b3acc34e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777226"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578372"
 ---
 # <a name="pidnamerevisionnumber-canonical-property"></a>PidNameRevisionNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的文件的附加到文档的修订号。
   

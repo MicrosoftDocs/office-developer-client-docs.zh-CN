@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8f90d72e842df62c19c5aeeaf6c398c5db469560
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 236349a6b53eeb2f5c18c841c05cfb80a3fce824
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778413"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580220"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>PidTagServiceDeleteFiles 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含文件名的要卸载邮件服务时删除的列表。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778413"
 |数据类型：  <br/> |PT_MV_STRING8 PT_MV_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用控制面板卸载邮件服务时，将从计算机中删除这些属性中包含的列表中的文件名。 不包含在列表中支持多个邮件服务，任何 DLL 或其他邮件服务无法无意删除。
   

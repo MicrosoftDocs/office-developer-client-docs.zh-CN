@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f21fba96-c5ca-4d41-9b93-c7955ab7327f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6624c4abf05dc7df9fc79df43f1d0fe76251d052
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b77a58b04e5cdeee7a9e84051a6ed287c1a20115
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775685"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578309"
 ---
 # <a name="imapisupportstorelogofftransports"></a>IMAPISupport::StoreLogoffTransports
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 请求的消息存储的有序版本。
   
@@ -83,7 +83,7 @@ S_OK
   
 > 注销过程成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::StoreLogoffTransports**方法。 消息存储提供程序调用**StoreLogoffTransports**以提供一些控制如何 MAPI 句柄传输的消息存储提供程序活动正在关闭的客户端应用程序。 
   

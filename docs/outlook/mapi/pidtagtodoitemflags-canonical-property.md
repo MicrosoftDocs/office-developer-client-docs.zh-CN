@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cae4ef6e4d7634ca2b429eb946aa948f5d90cd92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79f6c90d1ebd2257cc428e88dfce3d9ee9dfeccf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778541"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573465"
 ---
 # <a name="pidtagtodoitemflags-canonical-property"></a>PidTagToDoItemFlags 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 代表一个待办事项已标记的条件。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778541"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是在其中的每个位应设置为 1 如果关联的条件下表中应用，否则为 0 位字段。
   

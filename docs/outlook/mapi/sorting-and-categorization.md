@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 5e63d276d25a26f937e9b4f44575fea1030f52d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778832"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581529"
 ---
 # <a name="sorting-and-categorization"></a>排序和分类
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对表进行排序顺序为其查看器有意义放置行。 例如，一个查看器可能更愿意按邮件主题，以便的对话的所有线程都在一起时另一个查看器可能希望在按发件人名称的消息的文件夹的内容表，请参阅。 新实例化的表一定不按任何特定的顺序。 
   

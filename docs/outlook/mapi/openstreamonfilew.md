@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 127c4a77b9184d8bb62925c5237c1aedec643992
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc8644a658b8aca97f80fcf0a942551509064bd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776568"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581557"
 ---
 # <a name="openstreamonfilew"></a>OpenStreamOnFileW
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 分配并初始化 OLE **IStream**对象，以访问文件的内容。 此函数采用 UNICODE 字符串作为参数，与[OpenStreamOnFile](openstreamonfile.md)，此函数的 ANSI 版本不同，从而可以包括路径和文件扩展名的文件名中的任意字符。
   
@@ -104,7 +104,7 @@ MAPI_E_NOT_FOUND
   
 > 指定的文件不存在。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **OpenStreamOnFileW**函数具有两个重要使用除了处理具有 Unicode 名称，可分辨由 SOF_UNIQUEFILENAME 标志的设置的文件。 **OpenStreamOnFileW**时未设置此标志，打开现有文件，例如，以将其内容复制到使用**附件的**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 属性**IStream**对象IStream::CopyTo**方法。 在这种情况下_lpszFileName_参数指定的路径和文件的文件名。 
   

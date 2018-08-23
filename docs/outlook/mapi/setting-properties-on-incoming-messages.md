@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cf4a0501-f42b-4652-a239-003022686475
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f6233afffd532c420ae170ae45b1bf93d6571865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44b5b489d3efce3ecea69ccd8b7b7a638b173c13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578435"
 ---
 # <a name="setting-properties-on-incoming-messages"></a>设置传入邮件的属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 子系统中的客户端应用程序期望中接收的任何消息的属性数目。 当传输提供程序到 MAPI，将显示一条消息时，应设置这些属性，因为它是过程任一仅使用所需的信息，为此，请或至少是最佳源的信息。
   

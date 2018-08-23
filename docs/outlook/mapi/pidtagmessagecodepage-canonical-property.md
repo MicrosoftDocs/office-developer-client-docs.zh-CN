@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: eef73e34-470c-4c37-94ce-ea95fe83bc10
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3a343ba1a8ef5a10f23a17b5ac62fd8def5fa7f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f75a5e10a59d7c6db4e43d2552a38d523b537790
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777837"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580199"
 ---
 # <a name="pidtagmessagecodepage-canonical-property"></a>PidTagMessageCodepage 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于消息的代码页。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777837"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性设置为零 (0)，则使用的文件夹对象代码页。
   
