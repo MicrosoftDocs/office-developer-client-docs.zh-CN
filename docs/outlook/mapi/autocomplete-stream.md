@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7fc1fae4ed648d59c273b20ced247f6d20e01a6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa93fcc1675531f2d128170c81904e0e286e0f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774600"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591077"
 ---
 # <a name="autocomplete-stream"></a>自动完成流
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 除了知道 Microsoft Outlook 如何与自动完成流交互之外，还必须了解自动完成流的二进制格式。
   

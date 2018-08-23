@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 05dfa0e2-4ab1-4f57-9009-6a815aca87bd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f6f31905a7a5574d86f569664c907ad65fc64c93
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c061760fd089db0e56c79479d2d095627355d72e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777375"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590545"
 ---
 # <a name="pidtagautoconfigurationusername-canonical-property"></a>PidTagAutoConfigurationUserName Canonical Property
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 表示用户的显示名称。
   
