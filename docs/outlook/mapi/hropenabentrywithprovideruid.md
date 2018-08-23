@@ -8,26 +8,26 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83821a86-abff-460c-bb8e-9fd9d232dc6b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e33e656e70802437ab8b8717c5e175e2a13e384e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ed68e1fdb7fb990a2c19aa0bd263439c0966231d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578204"
 ---
-# <a name="hropenabentrywithprovideruid"></a><span data-ttu-id="f606b-103">HrOpenABEntryWithProviderUID</span><span class="sxs-lookup"><span data-stu-id="f606b-103">HrOpenABEntryWithProviderUID</span></span>
+# <a name="hropenabentrywithprovideruid"></a><span data-ttu-id="d056f-103">HrOpenABEntryWithProviderUID</span><span class="sxs-lookup"><span data-stu-id="d056f-103">HrOpenABEntryWithProviderUID</span></span>
 
   
   
-<span data-ttu-id="f606b-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="f606b-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="d056f-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d056f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f606b-105">打开使用由_pEmsabpUID_标识 Exchange 通讯簿**entryID** 。</span><span class="sxs-lookup"><span data-stu-id="f606b-105">Opens the **entryID** using the Exchange Address Book identified by  _pEmsabpUID_.</span></span> <span data-ttu-id="f606b-106">此功能向[IAddrBook::OpenEntry](iaddrbook-openentry.md)有效同样，只不过使用此函数可确保[IAddrBook::OpenEntry](iaddrbook-openentry.md)通过使用预期的 Exchange 通讯簿提供程序打开。</span><span class="sxs-lookup"><span data-stu-id="f606b-106">This function works similarly to [IAddrBook::OpenEntry](iaddrbook-openentry.md) except that using this function ensures that [IAddrBook::OpenEntry](iaddrbook-openentry.md) is opened by using the expected Exchange Address Book provider.</span></span> 
+<span data-ttu-id="d056f-105">打开使用由_pEmsabpUID_标识 Exchange 通讯簿**entryID** 。</span><span class="sxs-lookup"><span data-stu-id="d056f-105">Opens the **entryID** using the Exchange Address Book identified by  _pEmsabpUID_.</span></span> <span data-ttu-id="d056f-106">此功能向[IAddrBook::OpenEntry](iaddrbook-openentry.md)有效同样，只不过使用此函数可确保[IAddrBook::OpenEntry](iaddrbook-openentry.md)通过使用预期的 Exchange 通讯簿提供程序打开。</span><span class="sxs-lookup"><span data-stu-id="d056f-106">This function works similarly to [IAddrBook::OpenEntry](iaddrbook-openentry.md) except that using this function ensures that [IAddrBook::OpenEntry](iaddrbook-openentry.md) is opened by using the expected Exchange Address Book provider.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f606b-107">头文件：</span><span class="sxs-lookup"><span data-stu-id="f606b-107">Header file:</span></span>  <br/> |<span data-ttu-id="f606b-108">abhelp.h</span><span class="sxs-lookup"><span data-stu-id="f606b-108">abhelp.h</span></span>  <br/> |
-|<span data-ttu-id="f606b-109">通过实现：</span><span class="sxs-lookup"><span data-stu-id="f606b-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="f606b-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="f606b-110">MAPI</span></span>  <br/> |
-|<span data-ttu-id="f606b-111">调用：</span><span class="sxs-lookup"><span data-stu-id="f606b-111">Called by:</span></span>  <br/> |<span data-ttu-id="f606b-112">客户端应用程序和服务提供商</span><span class="sxs-lookup"><span data-stu-id="f606b-112">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="d056f-107">头文件：</span><span class="sxs-lookup"><span data-stu-id="d056f-107">Header file:</span></span>  <br/> |<span data-ttu-id="d056f-108">abhelp.h</span><span class="sxs-lookup"><span data-stu-id="d056f-108">abhelp.h</span></span>  <br/> |
+|<span data-ttu-id="d056f-109">通过实现：</span><span class="sxs-lookup"><span data-stu-id="d056f-109">Implemented by:</span></span>  <br/> |<span data-ttu-id="d056f-110">MAPI</span><span class="sxs-lookup"><span data-stu-id="d056f-110">MAPI</span></span>  <br/> |
+|<span data-ttu-id="d056f-111">调用：</span><span class="sxs-lookup"><span data-stu-id="d056f-111">Called by:</span></span>  <br/> |<span data-ttu-id="d056f-112">客户端应用程序和服务提供商</span><span class="sxs-lookup"><span data-stu-id="d056f-112">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT HrOpenABEntryWithProviderUID(
@@ -42,62 +42,62 @@ HRESULT HrOpenABEntryWithProviderUID(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f606b-113">参数</span><span class="sxs-lookup"><span data-stu-id="f606b-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d056f-113">参数</span><span class="sxs-lookup"><span data-stu-id="d056f-113">Parameters</span></span>
 
- <span data-ttu-id="f606b-114">_pEmsmdbUID_</span><span class="sxs-lookup"><span data-stu-id="f606b-114">_pEmsmdbUID_</span></span>
+ <span data-ttu-id="d056f-114">_pEmsmdbUID_</span><span class="sxs-lookup"><span data-stu-id="d056f-114">_pEmsmdbUID_</span></span>
   
-> <span data-ttu-id="f606b-115">[in]指向标识包含 Exchange 通讯簿提供程序，此函数应该使用要显示的项标识符的详细信息的 Exchange 服务**emsmdbUID**的指针。</span><span class="sxs-lookup"><span data-stu-id="f606b-115">[in] A pointer to an **emsmdbUID** that identifies the Exchange Service that contains the Exchange Address Book Provider that this function should use to display details on the entry identifier.</span></span> <span data-ttu-id="f606b-116">如果传入的项标识符不是 Exchange 通讯簿提供程序条目标识符，则忽略此参数，并函数调用与[IAddrBook::Details](iaddrbook-details.md)相似之处。</span><span class="sxs-lookup"><span data-stu-id="f606b-116">If the incoming entry identifier is not an Exchange Address Book Provider entry identifier, this parameter is ignored and the function call behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span> <span data-ttu-id="f606b-117">如果此参数为 NULL 或零 MAPIUID，此函数的行为类似[IAddrBook::Details](iaddrbook-details.md)。</span><span class="sxs-lookup"><span data-stu-id="f606b-117">If this parameter is NULL or a zero MAPIUID, this function behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span>
+> <span data-ttu-id="d056f-115">[in]指向标识包含 Exchange 通讯簿提供程序，此函数应该使用要显示的项标识符的详细信息的 Exchange 服务**emsmdbUID**的指针。</span><span class="sxs-lookup"><span data-stu-id="d056f-115">[in] A pointer to an **emsmdbUID** that identifies the Exchange Service that contains the Exchange Address Book Provider that this function should use to display details on the entry identifier.</span></span> <span data-ttu-id="d056f-116">如果传入的项标识符不是 Exchange 通讯簿提供程序条目标识符，则忽略此参数，并函数调用与[IAddrBook::Details](iaddrbook-details.md)相似之处。</span><span class="sxs-lookup"><span data-stu-id="d056f-116">If the incoming entry identifier is not an Exchange Address Book Provider entry identifier, this parameter is ignored and the function call behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span> <span data-ttu-id="d056f-117">如果此参数为 NULL 或零 MAPIUID，此函数的行为类似[IAddrBook::Details](iaddrbook-details.md)。</span><span class="sxs-lookup"><span data-stu-id="d056f-117">If this parameter is NULL or a zero MAPIUID, this function behaves like [IAddrBook::Details](iaddrbook-details.md).</span></span>
     
- <span data-ttu-id="f606b-118">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="f606b-118">_pAddrBook_</span></span>
+ <span data-ttu-id="d056f-118">_pAddrBook_</span><span class="sxs-lookup"><span data-stu-id="d056f-118">_pAddrBook_</span></span>
   
-> <span data-ttu-id="f606b-119">[in]通讯簿用于打开的项标识符。</span><span class="sxs-lookup"><span data-stu-id="f606b-119">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="f606b-120">它不能为 NULL。</span><span class="sxs-lookup"><span data-stu-id="f606b-120">It cannot be NULL.</span></span>
+> <span data-ttu-id="d056f-119">[in]通讯簿用于打开的项标识符。</span><span class="sxs-lookup"><span data-stu-id="d056f-119">[in] The address book used to open the entry identifier.</span></span> <span data-ttu-id="d056f-120">它不能为 NULL。</span><span class="sxs-lookup"><span data-stu-id="d056f-120">It cannot be NULL.</span></span>
     
- <span data-ttu-id="f606b-121">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="f606b-121">_cbEntryID_</span></span>
+ <span data-ttu-id="d056f-121">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="d056f-121">_cbEntryID_</span></span>
   
-> <span data-ttu-id="f606b-122">[in]_LpEntryID_参数指定的项标识符的字节数。</span><span class="sxs-lookup"><span data-stu-id="f606b-122">[in] The byte count of the entry identifier specified by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="d056f-122">[in]_LpEntryID_参数指定的项标识符的字节数。</span><span class="sxs-lookup"><span data-stu-id="d056f-122">[in] The byte count of the entry identifier specified by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="f606b-123">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="f606b-123">_lpEntryID_</span></span>
+ <span data-ttu-id="d056f-123">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="d056f-123">_lpEntryID_</span></span>
   
->  <span data-ttu-id="f606b-124">[in]一个指向代表打开的通讯簿条目的项标识符。</span><span class="sxs-lookup"><span data-stu-id="f606b-124">[in] A pointer to the entry identifier that represents the address book entry to open.</span></span> 
+>  <span data-ttu-id="d056f-124">[in]一个指向代表打开的通讯簿条目的项标识符。</span><span class="sxs-lookup"><span data-stu-id="d056f-124">[in] A pointer to the entry identifier that represents the address book entry to open.</span></span> 
     
- <span data-ttu-id="f606b-125">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="f606b-125">_lpInterface_</span></span>
+ <span data-ttu-id="d056f-125">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="d056f-125">_lpInterface_</span></span>
   
-> <span data-ttu-id="f606b-126">[in]指向用于访问打开条目的接口的接口标识符 (IID) 的指针。</span><span class="sxs-lookup"><span data-stu-id="f606b-126">[in] A pointer to the interface identifier (IID) of the interface that is used to access the open entry.</span></span> <span data-ttu-id="f606b-127">传递 NULL 将返回标准接口的对象。</span><span class="sxs-lookup"><span data-stu-id="f606b-127">Passing NULL returns the standard interface of the object.</span></span> <span data-ttu-id="f606b-128">对于邮件用户，标准接口是[IMailUser: IMAPIProp](imailuserimapiprop.md)。</span><span class="sxs-lookup"><span data-stu-id="f606b-128">For messaging users, the standard interface is [IMailUser : IMAPIProp](imailuserimapiprop.md).</span></span> <span data-ttu-id="f606b-129">对于通讯组列表，它是[IDistList: IMAPIContainer](idistlistimapicontainer.md)而容器，则为： [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)。</span><span class="sxs-lookup"><span data-stu-id="f606b-129">For distribution lists, it is [IDistList : IMAPIContainer](idistlistimapicontainer.md)and for containers, it is [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md).</span></span> <span data-ttu-id="f606b-130">呼叫者可以设置_lpInterface_为相应的标准接口或继承层次结构中的接口。</span><span class="sxs-lookup"><span data-stu-id="f606b-130">Callers can set  _lpInterface_ to the appropriate standard interface or an interface in the inheritance hierarchy.</span></span> 
+> <span data-ttu-id="d056f-126">[in]指向用于访问打开条目的接口的接口标识符 (IID) 的指针。</span><span class="sxs-lookup"><span data-stu-id="d056f-126">[in] A pointer to the interface identifier (IID) of the interface that is used to access the open entry.</span></span> <span data-ttu-id="d056f-127">传递 NULL 将返回标准接口的对象。</span><span class="sxs-lookup"><span data-stu-id="d056f-127">Passing NULL returns the standard interface of the object.</span></span> <span data-ttu-id="d056f-128">对于邮件用户，标准接口是[IMailUser: IMAPIProp](imailuserimapiprop.md)。</span><span class="sxs-lookup"><span data-stu-id="d056f-128">For messaging users, the standard interface is [IMailUser : IMAPIProp](imailuserimapiprop.md).</span></span> <span data-ttu-id="d056f-129">对于通讯组列表，它是[IDistList: IMAPIContainer](idistlistimapicontainer.md)而容器，则为： [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)。</span><span class="sxs-lookup"><span data-stu-id="d056f-129">For distribution lists, it is [IDistList : IMAPIContainer](idistlistimapicontainer.md)and for containers, it is [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md).</span></span> <span data-ttu-id="d056f-130">呼叫者可以设置_lpInterface_为相应的标准接口或继承层次结构中的接口。</span><span class="sxs-lookup"><span data-stu-id="d056f-130">Callers can set  _lpInterface_ to the appropriate standard interface or an interface in the inheritance hierarchy.</span></span> 
     
- <span data-ttu-id="f606b-131">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="f606b-131">_ulFlags_</span></span>
+ <span data-ttu-id="d056f-131">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="d056f-131">_ulFlags_</span></span>
   
-> <span data-ttu-id="f606b-132">[in]一个位掩码的标志，控制如何打开条目，可以设置以下标志：</span><span class="sxs-lookup"><span data-stu-id="f606b-132">[in] A bitmask of flags that controls the how the entry is opened, The following flags can be set:</span></span>
+> <span data-ttu-id="d056f-132">[in]一个位掩码的标志，控制如何打开条目，可以设置以下标志：</span><span class="sxs-lookup"><span data-stu-id="d056f-132">[in] A bitmask of flags that controls the how the entry is opened, The following flags can be set:</span></span>
     
-<span data-ttu-id="f606b-133">MAPI_BEST_ACCESS</span><span class="sxs-lookup"><span data-stu-id="f606b-133">MAPI_BEST_ACCESS</span></span>
+<span data-ttu-id="d056f-133">MAPI_BEST_ACCESS</span><span class="sxs-lookup"><span data-stu-id="d056f-133">MAPI_BEST_ACCESS</span></span>
   
-> <span data-ttu-id="f606b-134">与最大允许网络和客户端权限打开的条目的请求。</span><span class="sxs-lookup"><span data-stu-id="f606b-134">Requests that the entry be opened with the maximum allowed network and client permissions.</span></span> <span data-ttu-id="f606b-135">例如，如果客户端具有读取和写入权限，通讯簿提供程序尝试打开条目具有读取和写入权限。</span><span class="sxs-lookup"><span data-stu-id="f606b-135">For example, if the client has read and write permission, the address book provider attempts to open the entry with read and write permission.</span></span> <span data-ttu-id="f606b-136">客户端可以检索通过调用打开条目的[IMAPIProp::GetProps](imapiprop-getprops.md)方法并检索 PR_ACCESS_LEVEL (PidTagAccessLevel) 属性授予的访问级别。</span><span class="sxs-lookup"><span data-stu-id="f606b-136">The client can retrieve the access level that was granted by calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method of the open entry and retrieving the PR_ACCESS_LEVEL (PidTagAccessLevel) property.</span></span> 
+> <span data-ttu-id="d056f-134">与最大允许网络和客户端权限打开的条目的请求。</span><span class="sxs-lookup"><span data-stu-id="d056f-134">Requests that the entry be opened with the maximum allowed network and client permissions.</span></span> <span data-ttu-id="d056f-135">例如，如果客户端具有读取和写入权限，通讯簿提供程序尝试打开条目具有读取和写入权限。</span><span class="sxs-lookup"><span data-stu-id="d056f-135">For example, if the client has read and write permission, the address book provider attempts to open the entry with read and write permission.</span></span> <span data-ttu-id="d056f-136">客户端可以检索通过调用打开条目的[IMAPIProp::GetProps](imapiprop-getprops.md)方法并检索 PR_ACCESS_LEVEL (PidTagAccessLevel) 属性授予的访问级别。</span><span class="sxs-lookup"><span data-stu-id="d056f-136">The client can retrieve the access level that was granted by calling the [IMAPIProp::GetProps](imapiprop-getprops.md) method of the open entry and retrieving the PR_ACCESS_LEVEL (PidTagAccessLevel) property.</span></span> 
     
-<span data-ttu-id="f606b-137">MAPI_CACHE_ONLY</span><span class="sxs-lookup"><span data-stu-id="f606b-137">MAPI_CACHE_ONLY</span></span>
+<span data-ttu-id="d056f-137">MAPI_CACHE_ONLY</span><span class="sxs-lookup"><span data-stu-id="d056f-137">MAPI_CACHE_ONLY</span></span>
   
-> <span data-ttu-id="f606b-138">使用仅脱机通讯簿执行名称解析。</span><span class="sxs-lookup"><span data-stu-id="f606b-138">Use only the offline address book to perform name resolution.</span></span> <span data-ttu-id="f606b-139">例如，您可以使用此标志以允许将客户端应用程序在缓存的 exchange 模式下打开全局地址列表 (GAL)，而不创建客户端和服务器之间的流量从缓存中访问该通讯簿中的条目。</span><span class="sxs-lookup"><span data-stu-id="f606b-139">For example, you can use this flag to allow a client application to open the global address list (GAL) in cached exchange mode and access an entry in that address book from the cache without creating traffic between the client and the server.</span></span> <span data-ttu-id="f606b-140">此标志仅受 Exchange 通讯簿提供程序支持。</span><span class="sxs-lookup"><span data-stu-id="f606b-140">This flag is supported only by the Exchange Address Book Provider.</span></span>
+> <span data-ttu-id="d056f-138">使用仅脱机通讯簿执行名称解析。</span><span class="sxs-lookup"><span data-stu-id="d056f-138">Use only the offline address book to perform name resolution.</span></span> <span data-ttu-id="d056f-139">例如，您可以使用此标志以允许将客户端应用程序在缓存的 exchange 模式下打开全局地址列表 (GAL)，而不创建客户端和服务器之间的流量从缓存中访问该通讯簿中的条目。</span><span class="sxs-lookup"><span data-stu-id="d056f-139">For example, you can use this flag to allow a client application to open the global address list (GAL) in cached exchange mode and access an entry in that address book from the cache without creating traffic between the client and the server.</span></span> <span data-ttu-id="d056f-140">此标志仅受 Exchange 通讯簿提供程序支持。</span><span class="sxs-lookup"><span data-stu-id="d056f-140">This flag is supported only by the Exchange Address Book Provider.</span></span>
     
-<span data-ttu-id="f606b-141">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="f606b-141">MAPI_DEFERRED_ERRORS</span></span>
+<span data-ttu-id="d056f-141">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="d056f-141">MAPI_DEFERRED_ERRORS</span></span>
   
-> <span data-ttu-id="f606b-142">允许的调用成功，可能之前该条目是完全打开且可用，这意味着该条目的后面对会返回一个错误。</span><span class="sxs-lookup"><span data-stu-id="f606b-142">Allows the call to succeed, potentially before the entry is fully open and available, implying that subsequent calls to the entry might return an error.</span></span>
+> <span data-ttu-id="d056f-142">允许的调用成功，可能之前该条目是完全打开且可用，这意味着该条目的后面对会返回一个错误。</span><span class="sxs-lookup"><span data-stu-id="d056f-142">Allows the call to succeed, potentially before the entry is fully open and available, implying that subsequent calls to the entry might return an error.</span></span>
     
-<span data-ttu-id="f606b-143">MAPI_GAL_ONLY</span><span class="sxs-lookup"><span data-stu-id="f606b-143">MAPI_GAL_ONLY</span></span>
+<span data-ttu-id="d056f-143">MAPI_GAL_ONLY</span><span class="sxs-lookup"><span data-stu-id="d056f-143">MAPI_GAL_ONLY</span></span>
   
-> <span data-ttu-id="f606b-144">使用仅 GAL 执行名称解析。</span><span class="sxs-lookup"><span data-stu-id="f606b-144">Use only the GAL to perform name resolution.</span></span> <span data-ttu-id="f606b-145">此标志仅受 Exchange 通讯簿提供程序支持。</span><span class="sxs-lookup"><span data-stu-id="f606b-145">This flag is supported only by the Exchange Address Book Provider.</span></span>
+> <span data-ttu-id="d056f-144">使用仅 GAL 执行名称解析。</span><span class="sxs-lookup"><span data-stu-id="d056f-144">Use only the GAL to perform name resolution.</span></span> <span data-ttu-id="d056f-145">此标志仅受 Exchange 通讯簿提供程序支持。</span><span class="sxs-lookup"><span data-stu-id="d056f-145">This flag is supported only by the Exchange Address Book Provider.</span></span>
     
-<span data-ttu-id="f606b-146">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="f606b-146">MAPI_MODIFY</span></span>
+<span data-ttu-id="d056f-146">MAPI_MODIFY</span><span class="sxs-lookup"><span data-stu-id="d056f-146">MAPI_MODIFY</span></span>
   
-> <span data-ttu-id="f606b-147">请求项打开的读取和写入权限。</span><span class="sxs-lookup"><span data-stu-id="f606b-147">Requests that the entry be opened with read and write permission.</span></span> <span data-ttu-id="f606b-148">因为条目具有只读访问权限打开默认情况下，客户端不应假定的读取和写入无论是否设置 MAPI_MODIFY 授予了权限。</span><span class="sxs-lookup"><span data-stu-id="f606b-148">Because entries are opened with read-only access by default, clients should not assume that read and write permission was granted regardless of whether MAPI_MODIFY is set.</span></span>
+> <span data-ttu-id="d056f-147">请求项打开的读取和写入权限。</span><span class="sxs-lookup"><span data-stu-id="d056f-147">Requests that the entry be opened with read and write permission.</span></span> <span data-ttu-id="d056f-148">因为条目具有只读访问权限打开默认情况下，客户端不应假定的读取和写入无论是否设置 MAPI_MODIFY 授予了权限。</span><span class="sxs-lookup"><span data-stu-id="d056f-148">Because entries are opened with read-only access by default, clients should not assume that read and write permission was granted regardless of whether MAPI_MODIFY is set.</span></span>
     
-<span data-ttu-id="f606b-149">MAPI_NO_CACHE</span><span class="sxs-lookup"><span data-stu-id="f606b-149">MAPI_NO_CACHE</span></span>
+<span data-ttu-id="d056f-149">MAPI_NO_CACHE</span><span class="sxs-lookup"><span data-stu-id="d056f-149">MAPI_NO_CACHE</span></span>
   
-> <span data-ttu-id="f606b-150">不使用脱机通讯簿执行名称解析。</span><span class="sxs-lookup"><span data-stu-id="f606b-150">Do not use the offline address book to perform name resolution.</span></span> <span data-ttu-id="f606b-151">此标志仅受 Exchange 通讯簿提供程序支持。</span><span class="sxs-lookup"><span data-stu-id="f606b-151">This flag is supported only by the Exchange Address Book Provider.</span></span>
+> <span data-ttu-id="d056f-150">不使用脱机通讯簿执行名称解析。</span><span class="sxs-lookup"><span data-stu-id="d056f-150">Do not use the offline address book to perform name resolution.</span></span> <span data-ttu-id="d056f-151">此标志仅受 Exchange 通讯簿提供程序支持。</span><span class="sxs-lookup"><span data-stu-id="d056f-151">This flag is supported only by the Exchange Address Book Provider.</span></span>
     
- <span data-ttu-id="f606b-152">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="f606b-152">_lpulObjType_</span></span>
+ <span data-ttu-id="d056f-152">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="d056f-152">_lpulObjType_</span></span>
   
-> <span data-ttu-id="f606b-153">[输出]一个指向打开条目的类型。</span><span class="sxs-lookup"><span data-stu-id="f606b-153">[out] A pointer to the type of the opened entry.</span></span>
+> <span data-ttu-id="d056f-153">[输出]一个指向打开条目的类型。</span><span class="sxs-lookup"><span data-stu-id="d056f-153">[out] A pointer to the type of the opened entry.</span></span>
     
- <span data-ttu-id="f606b-154">_lppUnk_</span><span class="sxs-lookup"><span data-stu-id="f606b-154">_lppUnk_</span></span>
+ <span data-ttu-id="d056f-154">_lppUnk_</span><span class="sxs-lookup"><span data-stu-id="d056f-154">_lppUnk_</span></span>
   
-> <span data-ttu-id="f606b-155">[输出]指向打开的条目的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="f606b-155">[out] A pointer to a pointer of the opened entry.</span></span>
+> <span data-ttu-id="d056f-155">[输出]指向打开的条目的指针的指针。</span><span class="sxs-lookup"><span data-stu-id="d056f-155">[out] A pointer to a pointer of the opened entry.</span></span>
     
 

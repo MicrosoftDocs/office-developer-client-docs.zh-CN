@@ -12,56 +12,56 @@ api_type:
 - COM
 ms.assetid: e00d8887-0db4-422d-96db-84cefe65dfc1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 316a8c9b943af7a3bd13a882b223f7fbcf4e6749
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 90c72abb0b1ae85593084e844b2965bd84fa346e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776888"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579030"
 ---
-# <a name="pidlidissilent-canonical-property"></a><span data-ttu-id="becb2-103">PidLidIsSilent 规范属性</span><span class="sxs-lookup"><span data-stu-id="becb2-103">PidLidIsSilent Canonical Property</span></span>
+# <a name="pidlidissilent-canonical-property"></a><span data-ttu-id="083a7-103">PidLidIsSilent 规范属性</span><span class="sxs-lookup"><span data-stu-id="083a7-103">PidLidIsSilent Canonical Property</span></span>
 
   
   
-<span data-ttu-id="becb2-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="becb2-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="083a7-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="083a7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="becb2-105">指示用户的会议响应正文中未包含任何文字。</span><span class="sxs-lookup"><span data-stu-id="becb2-105">Indicates that the user did not include any text in the body of the meeting response.</span></span>
+<span data-ttu-id="083a7-105">指示用户的会议响应正文中未包含任何文字。</span><span class="sxs-lookup"><span data-stu-id="083a7-105">Indicates that the user did not include any text in the body of the meeting response.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="becb2-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="becb2-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="becb2-107">LID_IS_SILENT</span><span class="sxs-lookup"><span data-stu-id="becb2-107">LID_IS_SILENT</span></span>  <br/> |
-|<span data-ttu-id="becb2-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="becb2-108">Property set:</span></span>  <br/> |<span data-ttu-id="becb2-109">PSETID_Meeting</span><span class="sxs-lookup"><span data-stu-id="becb2-109">PSETID_Meeting</span></span>  <br/> |
-|<span data-ttu-id="becb2-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="becb2-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="becb2-111">0x00000004</span><span class="sxs-lookup"><span data-stu-id="becb2-111">0x00000004</span></span>  <br/> |
-|<span data-ttu-id="becb2-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="becb2-112">Data type:</span></span>  <br/> |<span data-ttu-id="becb2-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="becb2-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="becb2-114">区域：</span><span class="sxs-lookup"><span data-stu-id="becb2-114">Area:</span></span>  <br/> |<span data-ttu-id="becb2-115">会议</span><span class="sxs-lookup"><span data-stu-id="becb2-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="083a7-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="083a7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="083a7-107">LID_IS_SILENT</span><span class="sxs-lookup"><span data-stu-id="083a7-107">LID_IS_SILENT</span></span>  <br/> |
+|<span data-ttu-id="083a7-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="083a7-108">Property set:</span></span>  <br/> |<span data-ttu-id="083a7-109">PSETID_Meeting</span><span class="sxs-lookup"><span data-stu-id="083a7-109">PSETID_Meeting</span></span>  <br/> |
+|<span data-ttu-id="083a7-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="083a7-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="083a7-111">0x00000004</span><span class="sxs-lookup"><span data-stu-id="083a7-111">0x00000004</span></span>  <br/> |
+|<span data-ttu-id="083a7-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="083a7-112">Data type:</span></span>  <br/> |<span data-ttu-id="083a7-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="083a7-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="083a7-114">区域：</span><span class="sxs-lookup"><span data-stu-id="083a7-114">Area:</span></span>  <br/> |<span data-ttu-id="083a7-115">会议</span><span class="sxs-lookup"><span data-stu-id="083a7-115">Meetings</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="becb2-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="becb2-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="083a7-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="083a7-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="becb2-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="becb2-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="083a7-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="083a7-117">Protocol specifications</span></span>
 
-<span data-ttu-id="becb2-118">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="becb2-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="083a7-118">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="083a7-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="becb2-119">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="becb2-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="083a7-119">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="083a7-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="becb2-120">[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="becb2-120">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="083a7-120">[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="083a7-120">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="becb2-121">指定的属性和约会、 会议请求和响应消息的操作。</span><span class="sxs-lookup"><span data-stu-id="becb2-121">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="083a7-121">指定的属性和约会、 会议请求和响应消息的操作。</span><span class="sxs-lookup"><span data-stu-id="083a7-121">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="becb2-122">头文件</span><span class="sxs-lookup"><span data-stu-id="becb2-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="083a7-122">头文件</span><span class="sxs-lookup"><span data-stu-id="083a7-122">Header files</span></span>
 
-<span data-ttu-id="becb2-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="becb2-123">Mapidefs.h</span></span>
+<span data-ttu-id="083a7-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="083a7-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="becb2-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="becb2-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="083a7-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="083a7-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="becb2-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="becb2-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="083a7-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="083a7-125">See also</span></span>
 
 
 
-[<span data-ttu-id="becb2-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="becb2-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="083a7-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="083a7-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="becb2-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="becb2-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="083a7-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="083a7-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="becb2-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="becb2-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="083a7-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="083a7-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="becb2-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="becb2-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="083a7-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="083a7-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
