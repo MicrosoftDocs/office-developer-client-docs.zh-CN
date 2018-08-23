@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 945dabec4ee34d38d2474c918e779d894f4a917c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b4b60084b8cb53a0a245b502b8fe70241fb4eb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778296"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591682"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>PidTagRulesTable 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 与所有规则应用于文件夹中包含的表。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778296"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是位于 Exchange 服务器上具有规则的所有 folder 对象。 包含此属性的值用于读取和修改的规则。 您可以使用具有**IID_IExchangeModifyTable**接口标识符[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法获取[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)接口到的文件夹的规则表。 您可以使用此接口读取和修改这些规则。 
   

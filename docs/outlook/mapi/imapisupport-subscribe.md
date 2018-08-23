@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e6baaff1-446e-431a-a09b-9b529153382b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6658f1c4bcfaf7557d9b53c5e70d87e124475580
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: beeca6ba958c38e12fba7dbc2884c81e58bdf3c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775694"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590118"
 ---
 # <a name="imapisupportsubscribe"></a>IMAPISupport::Subscribe
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册以接收通知通过 MAPI 通知接收器。
   
@@ -105,7 +105,7 @@ S_OK
   
 > 通知注册成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::Subscribe**方法将执行所有服务提供商支持对象。 服务提供程序从其**Advise**方法之一来允许 MAPI 管理通知调用**订阅**。 
   
@@ -127,7 +127,7 @@ NOTIFY_SYNC 标志会影响后续调用**Notify**的操作。 NOTIFY_SYNC 设置
   
 [IMAPISupport::Notify](imapisupport-notify.md)
   
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [NOTIFKEY](notifkey.md)
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8f14dc15-d7d7-4894-b6a8-0d589f576c42
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 869f7f0bb4ea5e7222201083cb6d41754d241396
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b53275d3bf26aa8bee3aeaef2148f5ead961e471
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778389"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591651"
 ---
 # <a name="pidtagsentmailentryid-canonical-property"></a>PidTagSentMailEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件应移动后提交的文件夹的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778389"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性通常复制**PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) 属性，该客户端应用程序的标准发送项目文件夹中。
   

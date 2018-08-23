@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1cf277d4-76ec-4902-9e54-f1780cee49bf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5425496a5b7845daabf736978e6ed24518451fe0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b6af0c7fae85a2ea6cbd53159674fdcd32c642c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777624"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592765"
 ---
 # <a name="pidtagextendedrulemessageactions-canonical-property"></a>PidTagExtendedRuleMessageActions 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含有关文件夹关联的信息 （从故障） 消息中使用的命名属性的其他信息。
   
@@ -32,9 +32,9 @@ ms.locfileid: "19777624"
 |相关属性：  <br/> |PR_EXTENDED_RULE_MSG_ACTIONS  <br/> |
 |标识符：  <br/> |0x0E99  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |规则  <br/> |
+|区域：  <br/> |Rules  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置对从故障邮件。 此属性的作用相同作为**PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md))，但包含版本的规则，以及规则操作中, 存储的命名的属性的其他信息，以及有关为操作的信息此规则执行。 用来包含操作的操作任何的缓冲区部分中包含的所有字符串值都必须为 Unicode 格式。
   

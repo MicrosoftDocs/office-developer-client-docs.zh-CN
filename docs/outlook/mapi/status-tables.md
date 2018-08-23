@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f2b2aca7-757f-4260-96a5-d0af55189711
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: afbef333af46051284fa51d52c2e3f77607b0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ee7d729000fbda895918458993437fd4fe72e370
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778885"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591609"
 ---
 # <a name="status-tables"></a>状态表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 状态表包含与当前会话的状态相关的信息。 一个状态表是为每个 MAPI 会话包含提供通过 MAPI 和服务提供商信息。 MAPI 提供的三行的数据： MAPI 子系统某一行、 某一行的 MAPI 后台处理程序和集成的通讯簿行。 传输提供程序所需状态信息提供给状态表，因为没有一行，每个活动传输提供程序。 地址簿和消息存储提供程序可以选择是否支持状态表。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4eee4382-98c3-4714-8920-8d72edef00b8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fbe7f02555f76532896c951f50648c528c250a58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e240ec4e7a61b9e7484f467926501f8c5f5a59f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775259"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592344"
 ---
 # <a name="iaddrbookdetails"></a>IAddrBook::Details
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 显示一个对话框，显示有关特定通讯簿条目的详细信息。
   
@@ -101,7 +101,7 @@ S_OK
   
 > 成功的通讯簿条目显示详细信息对话框。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序调用以显示一个对话框，提供了有关在通讯簿中的特定条目的详细信息， **Details**方法。 _LpfButtonCallback_、 _lpvButtonContext_和_lpszButtonText_参数用于将客户端定义按钮添加到对话框。 单击按钮时，MAPI 调用的回调函数所指的_lpfButtonCallback_， _lpvButtonContext_中传递按钮和数据的项标识符。 如果您不需要的可扩展的按钮， _lpszButtonText_应为 NULL。 
   

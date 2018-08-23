@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ad8e7f8cd4a082a456db4ca9b2bd1b5ba58e60b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2ec8b776bddc21d356d6e803f56f6f26738a9747
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590741"
 ---
 # <a name="pidtagfinderentryid-canonical-property"></a>PidTagFinderEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含通常创建搜索结果的文件夹的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777615"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性中包含的项标识符具有相同的格式为[ENTRYID](entryid.md)结构。 
   

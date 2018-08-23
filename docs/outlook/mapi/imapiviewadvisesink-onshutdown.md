@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c9c3aecf-5e4b-407a-8ea1-6211b4c6e0a5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2a09731dbd0ba2c5d6c1055a7c5ed11097c5ef27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f49ea23ed7fef91bcb360483611af2ee60429934
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775731"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592967"
 ---
 # <a name="imapiviewadvisesinkonshutdown"></a>IMAPIViewAdviseSink::OnShutdown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知表单查看器正在关闭窗体。
   
@@ -41,7 +41,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关窗体通知的详细信息，请参阅[发送和接收窗体通知](sending-and-receiving-form-notifications.md)。
   

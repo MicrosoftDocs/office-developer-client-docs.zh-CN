@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 383906b9-4471-456e-9de1-c3d898051627
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 256e6eb76a9155af5f466249d762f16ff32a6e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 405a8685b325ddf13e60e639aba0625f016ed7bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777195"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591441"
 ---
 # <a name="pidlidyomifirstname-canonical-property"></a>PidLidYomiFirstName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的给定名称的拼音发音。
   

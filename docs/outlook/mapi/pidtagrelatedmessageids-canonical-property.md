@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1a865b571de9e471bcc1942ab54b02f658b4c158
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0c3b200c416a21dab00e1ad31e70b58fbdbf845e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778184"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590608"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>PidTagRelatedMessageIds 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含与邮件相关的消息的标识符的列表。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778184"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 标识符使用相同的特定构造规则，如用于**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性。
   

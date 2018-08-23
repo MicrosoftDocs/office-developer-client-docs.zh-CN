@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 31b2353b76bbac5cd58cd791f4a289c7dbabdb78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1eb4d7ac8d0287388a1bb76185f23636eddcf809
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776355"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591672"
 ---
 # <a name="mapiinit0"></a>MAPIINIT_0
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传达给[MAPIInitialize](mapiinitialize.md)函数的选项。 
   
@@ -62,7 +62,7 @@ MAPI_NO_COINIT
   
 > 设置 MAPI_NO_COINT 标志，以便不会尝试通过调用[CoInitialize](http://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx)初始化 COM **MAPIInitialize** 。 如果**MAPIINIT_0**结构与_ulFlags_设置为 MAPI_NO_COINIT 一起传递到**MAPIInitialize** ，MAPI 将假定 COM 已初始化和将绕过**CoInitialize**调用。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 多线程的客户端应设置 MAPI_MULTITHREAD_NOTIFICATIONS 标志。 如果未设置标志，用于使**MAPIInitialize**第一次调用的线程上会生成通知。 
   

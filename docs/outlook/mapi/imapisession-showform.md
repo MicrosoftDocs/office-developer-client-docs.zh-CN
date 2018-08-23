@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d20c8e7432903ef9334f066df31694752384d034
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9e0ad958acc40dd28f3d9aab9996c1b7a36f38a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775579"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591483"
 ---
 # <a name="imapisessionshowform"></a>IMAPISession::ShowForm
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 显示窗体。
   
@@ -107,7 +107,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::ShowForm**方法显示已准备好**IMAPISession::PrepareForm**方法的邮件窗体。 
   

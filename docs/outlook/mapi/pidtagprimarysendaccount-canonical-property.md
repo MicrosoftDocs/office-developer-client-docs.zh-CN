@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 222ca10e58b50fa06876718658d1a6f3843da2f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a0f4ae75117dff3610175b785ab3f982cc7e7552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778050"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590405"
 ---
 # <a name="pidtagprimarysendaccount-canonical-property"></a>PidTagPrimarySendAccount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个字符串，用于将邮件发送第一台服务器的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778050"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Account  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 指定客户端用于将邮件发送第一台服务器。 这些属性的格式是实现相关。 这些属性可由客户端用来确定哪些服务器直接通过，邮件是可选但值没有任何意义到服务器。
   

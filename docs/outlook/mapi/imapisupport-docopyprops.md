@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2446ef52-578a-4004-9719-de9b0207ccad
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c93e01b1e4621cddc4c98d528e5f5339cba21dae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a30a323874c847d9a08b00512cfd30ff3cf5c5ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775601"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591126"
 ---
 # <a name="imapisupportdocopyprops"></a>IMAPISupport::DoCopyProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制或移动到另一个对象的一个或多个对象的属性。
   
@@ -131,7 +131,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不是呼叫者预期的类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::DoCopyProps**方法。 消息存储提供程序可以调用**DoCopyProps**实现其文件夹和邮件的[IMAPIProp::CopyProps](imapiprop-copyprops.md)方法。 **DoCopyProps**复制或移动的属性所指的_lpIncludeProps_属性标记数组中的标识和指向_lpSrcObj_对象中当前存在。 
   

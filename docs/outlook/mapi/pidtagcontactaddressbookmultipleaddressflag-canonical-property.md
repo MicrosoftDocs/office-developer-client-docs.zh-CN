@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 42f164f09dbffcc05986771aa05f7ce14eee789c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34f61f3ef64e5751f9be3df534c4379583447799
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777442"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592694"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflag-canonical-property"></a>PidTagContactAddressBookMultipleAddressFlag 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个提供程序支持每个联系人项目的多个电子邮件地址时为 TRUE 的标志。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777442"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性为 TRUE，则提供程序不允许没有电子邮件地址的联系人。 如果为 FALSE，提供程序将显示所有联系人拥有主电子邮件地址。 将有效仅的主电子邮件地址。 这是联系人通讯簿容器和联系人通讯簿容器的表中的列上的属性。
   

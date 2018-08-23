@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 42981aac-f9e7-45dd-91a2-15d9784f30aa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 825f6f1eff94635ca2d0f5226cfc3f421d41bcce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0701bb2cf08c79a69c9cd21e9acf1ce4e8ac4ee1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777364"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593072"
 ---
 # <a name="pidtagattachmentflags-canonical-property"></a>PidTagAttachmentFlags 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示此 Attachment 对象的特殊处理。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777364"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 必须 0x00000000，除非由其他协议的扩展邮件和附件对象协议[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中所述重写
   

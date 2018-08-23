@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e34070ae-4f7a-4506-9749-1dadd60a7d2e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6965a314682b897a488157bf5d909fd6f40680c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc83bace43e4807598ce1b1f723eb15695794a86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778031"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590601"
 ---
 # <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a>PidTagPhysicalDeliveryReportRequest 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含报表传送到完毕后物理邮件传递或传递的特定邮件收件人的邮件处理系统的模式。
   

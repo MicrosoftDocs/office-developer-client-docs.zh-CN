@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a8f17c3cf3d3d00930f87acd004b24f683a3fc8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 371d0305f8f00e66704bae03f93857c7275b6a10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774940"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589817"
 ---
 # <a name="flatentrylist"></a>FLATENTRYLIST
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个[FLATENTRY](flatentry.md)结构数组。 
   
@@ -54,7 +54,7 @@ typedef struct
   
 > 字节数组，其中包含一个或多个**FLATENTRY**结构排列的端到端。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在**abEntries**数组中，每个**FLATENTRY**结构自然地对齐边界上对齐。 额外字节都作为包含填充使任意两个**FLATENTRY**结构之间的确保自然对齐。 该数组中的第一个**FLATENTRY**结构对齐始终正确，因为**abEntries**成员的偏移量为 8。 若要计算的偏移量的下一个结构，使用向上舍入到 4 的下一步的倍数的第一个条目的大小。 使用[CbFLATENTRY](cbflatentry.md)宏来计算**FLATENTRY**结构的大小。 
   

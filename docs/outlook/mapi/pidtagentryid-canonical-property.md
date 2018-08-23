@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ca02e873-c2d2-4d58-8df8-c05fbcdc8fba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 971462b9e85878677b57ec7b53fe46aa64db6dba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3d49faba9d1e9cc8609ee55f7fb3c329e9ae947
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777613"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593037"
 ---
 # <a name="pidtagentryid-canonical-property"></a>PidTagEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于打开和编辑特定的 MAPI 对象的属性的 MAPI 条目标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777613"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性标识**OpenEntry**若要实例化对象，并提供对其所有属性通过**IMAPIProp**相应派生界面访问。 
   
@@ -48,16 +48,16 @@ ms.locfileid: "19777613"
   
 |**特征**|**PR_ENTRYID**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
 |:-----|:-----|:-----|:-----|
-|Attachment 对象上所需  <br/> |否  <br/> |可访问  <br/> |否  <br/> |
-|需要对文件夹对象  <br/> |可访问  <br/> |可访问  <br/> |否  <br/> |
-|消息存储对象上所需  <br/> |可访问  <br/> |可访问  <br/> |否  <br/> |
-|状态对象上所需  <br/> |可访问  <br/> |否  <br/> |否  <br/> |
-|创建客户端  <br/> |否  <br/> |否  <br/> |可访问  <br/> |
+|Attachment 对象上所需  <br/> |否  <br/> |是  <br/> |否  <br/> |
+|需要对文件夹对象  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|消息存储对象上所需  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|状态对象上所需  <br/> |是  <br/> |否  <br/> |否  <br/> |
+|创建客户端  <br/> |否  <br/> |否  <br/> |是  <br/> |
 |调用**SaveChanges**前可用 <br/> |取决于提供程序实现  <br/> |取决于提供程序实现  <br/> |用于消息，是。 其他人，取决于提供程序实现。  <br/> |
-|复制操作中发生的更改  <br/> |可访问  <br/> |可访问  <br/> |否  <br/> |
-|可更改后副本的客户端  <br/> |否  <br/> |否  <br/> |可访问  <br/> |
+|复制操作中发生的更改  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|可更改后副本的客户端  <br/> |否  <br/> |否  <br/> |是  <br/> |
 |唯一  <br/> |整个 world  <br/> |提供程序实例  <br/> |整个 world  <br/> |
-|二进制 （与 memcmp) 相当  <br/> |无需使用[IMAPISupport:: CompareEntryIDs](imapisupport-compareentryids.md) <br/> |可访问  <br/> |可访问  <br/> |
+|二进制 （与 memcmp) 相当  <br/> |无需使用[IMAPISupport:: CompareEntryIDs](imapisupport-compareentryids.md) <br/> |是  <br/> |是  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 

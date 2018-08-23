@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 39f255a277403073132dfd3cd21c995eefe904c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f03412c9ab639678c68016ec1a8eff937b6c1a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775400"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590986"
 ---
 # <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 管理表单库中的窗体。 此接口用于创建特定于应用程序的表单库。 
   

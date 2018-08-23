@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b0a9fc55-f4ab-45d8-98cc-b040f9ef6aa4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 38e9418d5d9559b67bd79536635359ffaa3f724d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a9499e2a980cbc00eb11c5199bb7329b255c7b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592659"
 ---
 # <a name="mapi-extended-errors"></a>MAPI 扩展错误
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 接口方法的实施者可以选择只返回 (S_OK) 成功和失败 (MAPI_E_CALL_FAILED) 或区分错误条件，返回尽可能多的错误值，如意义的情况。 大多数情况下可以使用由 MAPI MAPICODE 中定义的错误值之一。H 头文件。 但是，对于不包含的预定义的值，可以使用 MAPI_E_EXTENDED_ERROR 的值的情况。 MAPI_E_EXTENDED_ERROR 指示呼叫者有关错误的详细信息可用。 呼叫者的返回 MAPI_E_EXTENDED_ERROR 同一对象上调用**GetLastError**方法来检索的其他信息。 
   

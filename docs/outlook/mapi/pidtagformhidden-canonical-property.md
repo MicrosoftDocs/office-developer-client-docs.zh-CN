@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3ef877bca8f94844bb257387ff5cc272c10897b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 89eb6f0b8248fb0113356e60e0b94e4762c2a11a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777659"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590643"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>PidTagFormHidden 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果窗体是要取消显示从包含 TRUE 的撰写菜单和对话框。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777659"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 与表单相关的属性是只读的。 
   

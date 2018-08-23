@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca4eb6c2-98e9-4dbc-9f5a-f0f257456ead
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3515d0f751cb6d8d0d427079691456519bac97dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0d5ca3b40f6d46641b805593794827fa99b7fb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593380"
 ---
 # <a name="pidlidaddressbookproviderarraytype-canonical-property"></a>PidLidAddressBookProviderArrayType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的电子地址的状态，表示一位标志。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776578"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DispidABPArrayType**属性的值必须是指定联系对象的状态标志的组合。 下表中指定的单个标志。 如果设置此属性， **dispidABPEmailList** ([PidLidAddressBookProviderEmailList](pidlidaddressbookprovideremaillist-canonical-property.md)) 属性必须设置，以及。 这两个属性必须保持相互同步。 例如，如果**dispidABPArrayType**位"0x00000001 设置"， **dispidABPEmailList**值之一必须是"0x00000000"。 
   

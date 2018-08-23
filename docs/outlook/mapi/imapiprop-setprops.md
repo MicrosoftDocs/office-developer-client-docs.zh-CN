@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 304295e3ac77fb67ec5875620a7a269377b542c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 93bfcce9c45a4c6fd4d57be8c1222be286e0a945
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592029"
 ---
 # <a name="imapipropsetprops"></a>IMAPIProp::SetProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 更新一个或多个属性。
   

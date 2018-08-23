@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b7d4d758f7031c55aa3a23b662ec8727ea1e0719
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 101e74f3e35e3664dd29e59f166b2f0af6e1dcba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774493"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592036"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义为无模式的通讯簿对话框中的过程加速键的回调函数。 
   
@@ -52,7 +52,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 
 如果它处理的消息，带有**ACCELERATEABSDI**原型的函数将返回 TRUE。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 基于**ACCELERATEABSDI**原型函数仅用于无模式对话框，即，只有当客户端应用程序已在[ADRPARM](adrparm.md)结构的_ulFlags_成员设置 DIALOG_SDI 标志。 
   

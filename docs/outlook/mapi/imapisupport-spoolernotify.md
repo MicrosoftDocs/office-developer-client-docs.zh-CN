@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 21ea5faaccb81e763d6d062b6ff567db509d9d35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775664"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592113"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知状态或服务的请求中的更改 MAPI 后台处理程序。 
   
@@ -88,7 +88,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::SpoolerNotify**方法已实现的消息存储和传输提供程序支持对象。 这些提供程序调用**SpoolerNotify**以通知状态或服务的请求中的更改 MAPI 后台处理程序。 **SpoolerNotify**主要由传输提供程序，可能在会话期间随时调用。 
   

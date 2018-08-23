@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 44884f60-7e36-45b2-9712-4f9821a0dc1f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0918f079769a70aa11e4f26551ec232308e5eef0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 099a744940ffae49f49e9ca25f49dc54414b25dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778056"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590006"
 ---
 # <a name="pidtagprocessed-canonical-property"></a>PidTagProcessed 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 已处理的会议请求时，设置为 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778056"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可确保会议请求获取处理一次。 请求的创建者应将此属性设置为 FALSE，接收方应将其设置为 TRUE 后请求在日历中。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 70e18534-054f-49e7-9a5d-10db0db132d0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 419c9776b380436b1a7163803a8677fb6a89be97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cae255b90e8f2ccaaec4736c7ba1e9d6b7764f58
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774741"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593107"
 ---
 # <a name="creating-a-message-subject"></a>创建邮件主题
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 邮件的主题， **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))，是可选属性，用于汇总用途的一条消息。 如果您选择将其设置，使其包含字符的字符串 128 个字节或更少。 128 字节限制并不是通过 MAPI; 施加限制它是由一些消息存储提供程序的限制。 若要确保与执行实施它的提供程序互操作性，限制为 128 个字节的主题。 
   

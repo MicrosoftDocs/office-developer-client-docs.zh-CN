@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 645fe61d-414a-455e-b034-db3cfd003b9d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4558fcdba11aed92eb21972ed62320209ade77ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0e01d3f56ef01984f281e7fae5990ccb0eade88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777754"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593331"
 ---
 # <a name="pidtaginternetreferences-canonical-property"></a>PidTagInternetReferences 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 消息的引用标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777754"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要生成一个引用标头字段，客户端必须将这些属性设置为所需的值。 MIME 作者必须将这些属性的值复制到引用标头字段。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06e066f1-2b7d-4a6b-b88c-85a9bfa83bd3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8e3017d18491fde6b66c3173c43b8b9d0ee37ea8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 815a0475c678f30c520d2d7847571f4ddb31cac4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776703"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591959"
 ---
 # <a name="pidlidcalendartype-canonical-property"></a>PidLidCalendarType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定**dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) 属性中的日历类型字段的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776703"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当会议请求表示定期系列或异常时，这是**dispidApptRecur**属性中的日历类型字段的值。 否则为不设置此属性，将其假定为 0。 
   

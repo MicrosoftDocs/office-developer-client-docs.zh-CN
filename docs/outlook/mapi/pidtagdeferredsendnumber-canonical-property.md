@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f2ccd004415bcbd42b56b1269fbdb4622ef1f8c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30ee7c1a7eb86fd4cdfe90fb6711bd1b295fd5e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777568"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591084"
 ---
 # <a name="pidtagdeferredsendnumber-canonical-property"></a>PidTagDeferredSendNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含可用于计算延期发送一条消息的数目。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777568"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于计算**PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)) 属性时不存在。 当推迟发送一条消息时， **PR_DEFERRED_SEND_NUMBER**属性应设置以及**PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) 属性中，如果**PR_DEFERRED_SEND_TIME**属性不存在。 
   

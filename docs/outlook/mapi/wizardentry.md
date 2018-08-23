@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2c307d18c5b62e5190aa10632a47a3f16b80e81f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d78b4e6a4a0cc3363edefc84e7ae80dbe72c510
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779095"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590356"
 ---
 # <a name="wizardentry"></a>WIZARDENTRY
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义种服务提供程序入口点函数，其配置文件向导调用来检索足够的信息来显示提供程序的配置属性表。 
   
@@ -75,7 +75,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知的原点出现错误，无法完成操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 配置文件向导调用**WIZARDENTRY**基于函数，以显示服务提供商的配置用户界面的准备就绪时。 完成配置所有提供程序配置文件向导后，它将通过调用[IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)到配置文件写入的配置属性。 
   

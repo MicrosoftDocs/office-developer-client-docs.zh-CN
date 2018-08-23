@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 83ebb739302ca0e12604b9eaf854f273554826ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b8aa7f05c20eb3b100e9e04424dc752f064a61b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778970"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590293"
 ---
 # <a name="tightly-coupled-message-store-providers"></a>紧密耦合邮件存储区提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 与传输提供程序，为紧密耦合消息存储提供程序。 紧密耦合 MAPI 服务提供程序是指实现两个提供程序，以便的存储提供程序和传输提供程序可以通信，以使发送和接收消息更高效的过程。 此操作的好处是相互直接，而不是通过 MAPI 后台处理程序，可进行交互两个服务提供程序时，会导致性能改进。 以紧密耦合到传输提供程序的消息存储提供程序，传输提供程序必须发出的消息存储提供程序的条目标识符**PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) 属性中的传输提供程序MAPI 状态表中的行。 这样 MAPI 后台处理程序连接到传输提供程序的存储提供程序。
   

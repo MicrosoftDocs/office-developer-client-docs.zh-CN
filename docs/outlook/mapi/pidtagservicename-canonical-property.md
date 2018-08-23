@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 260a35af11b76b1867c693723c1a7fa8133082fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d950ee21c0c4c41e84c0fe1f8104219e63f84cec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592673"
 ---
 # <a name="pidtagservicename-canonical-property"></a>PidTagServiceName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含由 MapiSvc.inf 文件中的用户设置消息服务的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778405"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性中包含的名称是特定于邮件服务。 来自 MapiSvc.inf 中的 [服务] 一节。
   

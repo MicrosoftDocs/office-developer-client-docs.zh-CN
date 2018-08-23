@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c4b4093fd51d781b7226e5d6239a5d894ffe1107
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a9d6bbe6807c2893c1bb208976dae9e695aa125
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778187"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592800"
 ---
 # <a name="pidtagremoteprogresstext-canonical-property"></a>PidTagRemoteProgressText 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此属性包含一个字符串，指示远程传输的状态。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778187"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 与此文本相关联的数字代码传递**PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)) 属性中。
   

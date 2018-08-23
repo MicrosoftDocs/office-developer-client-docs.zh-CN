@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dcde242f5f2e956d1926d6914431008383f5aa55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0902aeb71ed66381772a808d21d77edb7e0e2da8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589873"
 ---
 # <a name="imapisessionopenaddressbook"></a>IMAPISession::OpenAddressBook
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开 MAPI 集成的通讯簿中，返回进一步访问[IAddrBook](iaddrbookimapiprop.md)指针。 
   
@@ -68,7 +68,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功，但无法打开一个或多个地址簿提供程序的容器。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::OpenAddressBook**方法打开 MAPI 集成的通讯簿中，所有配置文件中的地址簿提供程序的顶级容器的集合。 _LppAdrBook_参数中返回的指针进一步提供访问通讯簿的内容。 这样呼叫者进行执行任务，如打开各个容器、 查找邮件用户和显示常见地址对话框。 
   

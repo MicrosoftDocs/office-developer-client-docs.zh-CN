@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28a802ffc43b08d3e2ec2be26dd98fa78f474d91
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d4877c81a52b529aa183ea552430b481c6617f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593352"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将一组事件通知的复制到单个块的内存。 
   
@@ -70,7 +70,7 @@ E_INVALIDARG
   
 > 遇到无效的通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果_pcb_参数中传递 NULL，则会执行任何复制;如果在_pcb_传递一个非空值，则**ScCopyNotifications**函数将数组和阵列本身的大小复制到一个独立的内存块中。 如果_pcb_不为 NULL，则将它设置为_pvDst_参数中存储的字节数。 _PvDst_参数必须为足够大，使其包含整个数组。 
   

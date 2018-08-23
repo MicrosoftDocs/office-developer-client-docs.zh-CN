@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 270f86dd-2c1f-47eb-80f7-9d0d63936d61
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fa23377a8b080ae9dac3e31dfa137ca03a242c74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6de805da2aadd8ac40ca984c5f336d5ca7906248
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774747"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590125"
 ---
 # <a name="creating-a-recipient-list"></a>创建收件人列表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 收件人列表是每个邮件收件人中包含的属性值结构数组[ADRLIST](adrlist.md)结构 — 目标的邮件。 收件人可以表示 human 用户、 计算机或文件夹。 要发送的所有邮件都需要至少一个收件人的已通过名称解析过程的 — 确保**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的收件人的属性值数组中包含的过程。 
   

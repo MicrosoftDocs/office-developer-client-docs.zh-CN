@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e6e9e9cefc75ffc78ee7beb47e89063ea1a66ce7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e253aa6a701d565fbc61e8a0e0a6388f7199c000
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593261"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制或移动一个或多条消息。
   
@@ -90,7 +90,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但并非所有项已成功复制或移动。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::CopyMessages**方法复制，或将邮件移动到另一个文件夹。 
   

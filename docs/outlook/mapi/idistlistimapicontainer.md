@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7fee3c84d6a4d4a94397f5197f45637b0c7dd2be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b9fb9bf8c84433ee5000cc8832c2f09bfc5fe3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775302"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590622"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供对通讯组列表，在地址可修改访问簿容器。 **IDistList**可以创建、 复制和删除通讯组列表，除了执行名称解析。 
   
@@ -49,7 +49,7 @@ ms.locfileid: "19775302"
 |**PR_OBJECT_TYPE**([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_RECORD_KEY**([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IDistList**接口继承[IMAPIContainer](imapicontainerimapiprop.md) ，并包括作为通讯簿容器相同的方法。 因此，因为**IDistList**接口的方法是那些[IABContainer](iabcontainerimapicontainer.md)接口的完全相同，它们不会复制此处。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 452acccf-22fd-4450-b50f-eaa2b2c94515
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a191a8551d425d7e8b3b9a281936a4a0e2dfd587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11007fa18a57e296472c28f86480cb71b780e568
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779089"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593030"
 ---
 # <a name="working-with-large-columns"></a>处理大型列
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 列中的包含字符串或二进制属性数据可能很大，可能数千个字节长。 视图中包括一个或多个列与数百个字节通常是不切实际的因为 MAPI 使表实施者截断的值，最常到 255 个字节和 510 字节越来越少。 只要有可能，表实施应包括的表格列中的属性的完整值。 建议使用的替代是包含前 255 个字节。
   

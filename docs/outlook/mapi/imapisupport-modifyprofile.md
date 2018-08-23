@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 98e6331d5a9e52d5ae73ed12d8c045bdf226c2c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b16730681b5414f28ae45be7195b4fa551bf0e82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591987"
 ---
 # <a name="imapisupportmodifyprofile"></a>IMAPISupport::ModifyProfile
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对做的更改一条消息存储永久的配置文件部分。
   
@@ -49,7 +49,7 @@ S_OK
   
 > 对配置文件部分的更改都是成功的。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::ModifyProfile**方法。 消息存储提供程序调用**ModifyProfile**提示 MAPI 修改其配置文件信息。 
   

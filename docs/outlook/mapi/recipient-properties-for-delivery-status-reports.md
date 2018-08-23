@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a6ff82fa3cc4a7ad243285e9eb93b0ec880a3bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58711a18fa6dc512cca10644437bee2ecd4d2143
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778581"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592995"
 ---
 # <a name="recipient-properties-for-delivery-status-reports"></a>传递状态报告的收件人属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 以下属性都存在的收件人的传递状态报告。 **PR_DELIVER_TIME**未送达报告不用于 ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md))。 **PR_NDR_DIAG_CODE**([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) 和**PR_NDR_REASON_CODE** ([PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) 仅用于未送达报告。
   

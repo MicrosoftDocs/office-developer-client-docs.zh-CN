@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: 指定相关的属性的集合。
-ms.openlocfilehash: 7cb5e1c30960e69b252abc7af38e021607fd3502
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781234"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593520"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Section 元素 （Sheet_Type 复杂类型） (Visio XML)
 
@@ -53,7 +53,7 @@ ms.locfileid: "19781234"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[Cell](http://msdn.microsoft.com/library/70a9d6d6-a4ff-2b0d-febc-789a04a2f5b0%28Office.15%29.aspx) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定单个属性。  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定单个属性。  <br/> |
 |[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |指定**Cell_Type**元素的集合。  <br/> |
    
 ### <a name="attributes"></a>Attributes
@@ -64,13 +64,13 @@ ms.locfileid: "19781234"
 |IX  <br/> |xsd:unsignedInt  <br/> |可选  <br/> |指定的元素的从零开始的索引。 它必须是唯一的所有**Section_Type**元素包含**Sheet_Type**的相同**N**属性使用。 它必须是大于任何上述**Section_Type**元素的**IX**属性，包含**Sheet_Type**的相同**N**属性。  <br/> |Xsd:unsignedInt 类型的值。  <br/> |
 |N  <br/> |xsd: string  <br/> |必需  <br/> |指定的属性的集合的独立于语言的名称。 它必须是唯一的所有**Section_Type**元素包含**Sheet_Type**元素的除非它等于"几何"。 它必须等于**各节**中下面的副标题。  <br/> |Xsd: string 类型的值。  <br/> |
    
-### <a name="remarks"></a>说明
+### <a name="remarks"></a>注解
 
 此**部分**元素的**N**属性必须为一组有限的对应于**ShapeSheet**单元格的值之一。 请参阅下表为确定允许此**部分**元素的**N**属性的值。 
   
 |**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
-|操作  <br/> |用于公式计算的属性的集合。 它必须具有**ShapeSheet_Type**或**PageSheet_Type**父元素。  <br/> |[Actions Section](actions-section.md) <br/> |
+|Actions  <br/> |用于公式计算的属性的集合。 它必须具有**ShapeSheet_Type**或**PageSheet_Type**父元素。  <br/> |[Actions Section](actions-section.md) <br/> |
 |ActionTag  <br/> |用于仅公式计算的属性的集合。 它必须具有**ShapeSheet_Type**或**PageSheet_Type**父元素。  <br/> |[Action Tag Section](action-tag-section.md) <br/> |
 |连接  <br/> |用于仅公式计算的属性的集合。 它必须具有**ShapeSheet_Type**父元素。  <br/> ||
 |控件  <br/> |用于仅公式计算的属性的集合。 它必须具有**ShapeSheet_Type**父元素。  <br/> |[Controls Section](controls-section.md) <br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "19781234"
 |几何图形  <br/> |指定 geometry 可视化的相关属性的集合。 它必须具有**ShapeSheet_Type**父元素。 此元素的第一个**Row_Type**子元素必须类型 MoveTo，RelMoveTo、 椭圆或 InfiniteLine。  <br/> |[Geometry Section](geometry-section.md) <br/> |
 |Layers  <br/> |显示在绘图页中定义的所有图层属性的集合。 它必须是**PageSheet_Type**元素的子级。  <br/> |[Layers Section](layers-section.md) <br/> |
 |行渐变  <br/> |指定形状的线条颜色渐变的相关属性的集合。 它必须具有**ShapeSheet_Type**或**StyleSheet_Type**父元素。  <br/> |[“Line Gradient”部分](line-gradient-section.md) <br/> |
-|Paragraph  <br/> |相关的属性指定的形状的文本的段落属性的集合。 它必须具有**ShapeSheet_Type**父元素或**StyleSheet_Type**父元素。  <br/> |[Paragraph Section](paragraph-section.md) <br/> |
+|段落  <br/> |相关的属性指定的形状的文本的段落属性的集合。 它必须具有**ShapeSheet_Type**父元素或**StyleSheet_Type**父元素。  <br/> |[Paragraph Section](paragraph-section.md) <br/> |
 |Reviewer  <br/> |用于公式计算的属性的集合。 它必须具有**DocumentSheet_Type**父元素。  <br/> |[Reviewer Section](reviewer-section.md) <br/> |
 |挑战  <br/> |用于公式计算的属性的集合。 它必须具有**DocumentSheet_Type**、 **PageSheet_Type**或**ShapeSheet_Type**父元素。  <br/> |[Scratch Section](scratch-section.md) <br/> |
 |选项卡  <br/> |相关的属性指定的形状的文本的选项卡属性的集合。 它必须具有**ShapeSheet_Type**父元素或**StyleSheet_Type**父元素。  <br/> |[Tabs Section](tabs-section.md) <br/> |

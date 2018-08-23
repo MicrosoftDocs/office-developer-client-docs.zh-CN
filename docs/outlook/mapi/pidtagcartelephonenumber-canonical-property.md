@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2cf1f651-31dd-4f92-8c23-cc83e1989bc2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 91f027176fc3dac35cb951e2ae7a109c5044cb08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e770939f00896d8ec12ce990811c444f2a25f244
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777422"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593485"
 ---
 # <a name="pidtagcartelephonenumber-canonical-property"></a>PidTagCarTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收信人车载电话号码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777422"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问有关收件人的信息。 它们是按收件人和收件人的组织定义的。 
   

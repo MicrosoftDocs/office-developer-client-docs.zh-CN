@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 52c97d6c-7f4b-4522-aeac-0c1ed8475952
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4aec52497e02e99423fa50f378cd35dbf366c37c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4c8c6cf3bee0575a42bc42a1ebf5e185ef78ab4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777502"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591630"
 ---
 # <a name="pidtagconversationkey-canonical-property"></a>PidTagConversationKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含查找**IPM 时仅在 Microsoft Outlook 中使用的会话密钥。MessageManager**邮件，例如包含邮局协议 (POP3) 帐户的下载历史记录的邮件。 Microsoft Exchange Server 中已弃用此属性。 
   
@@ -30,7 +30,7 @@ ms.locfileid: "19777502"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 为对话并将其转换为[传输中性封装格式 (TNEF)](transport-neutral-encapsulation-format-tnef.md)邮件属性访问电子邮件时, 不使用此属性;而是使用[PidTagConversationIndex](pidtagconversationindex-canonical-property.md)和[PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)规范属性。 
   

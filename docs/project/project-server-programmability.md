@@ -25,12 +25,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: 了解 Project Server 2013 中的主要可编程性功能。 本文包含有关移植为 Project Server 的早期版本构建的应用程序的信息。
-ms.openlocfilehash: c2c03da1e0b7c010d4cad8801f98c0c0cf0b1883
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3901fe97f1c8291d0b35709f2350fc4358044b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779556"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592981"
 ---
 # <a name="project-server-programmability"></a>Project Server 可编程性
 
@@ -235,7 +235,7 @@ Project Server 2013 具有两个的计划引擎。 Project Professional 2013 中
   
 - **更改活动任务的状态**较旧的 Project Server 计划引擎可以显示不一致的开始或结束的时间使用[QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx)方法时更改活动状态的任务中，如果_的**ProjectDataSet**对象中有多个更改数据集_参数。 如果**TASK_IS_ACTIVE**属性为**QueueUpdateProject**的_数据集_参数中的唯一更改，您可以更新项目。
     
-    有关非活动任务和旧的计划引擎的详细信息，请参阅博客文章[Project 2010 中的介绍非活动任务](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)和[Project Server 2010： 计划在网站上，PSI 和 Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)。 Project Professional 2010 和 Project Server 2010 中的 Project Web App 中安排的比较，请参阅[基于 Web 的计划管理比较](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx)。
+    有关非活动任务和旧的计划引擎的详细信息，请参阅博客文章[Project 2010 中的介绍非活动任务](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)和[Project Server 2010： 计划在网站上，PSI 和 Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)。 Project Professional 2010 和 Project Server 2010 中的 Project Web App 中安排的比较，请参阅[基于 Web 的计划管理比较](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)。
     
 - **盈余不计算**较旧的计划引擎没有计算挣值域： ACWP，BAC、 BCWP、 BCWS、 CPI、 CV、 CV %、 EAC、 SPI、 SV、 SV %、 TCPI、 VAC、 工期差异，开始时间差异，完成时间差异、 成本差异和工时差异。 如果项目具有这些字段的值，并且该项目已更新使用**QueueUpdateProject**方法，则不要更改的字段值。 若要避免此问题，请使用**QueueUpdateProject2**方法。 
     
@@ -289,7 +289,5 @@ Project Server 2013 具有两个的计划引擎。 Project Professional 2013 中
 - [项目 PSI 参考概述](project-psi-reference-overview.md)    
 - [创建自定义操作的 SharePoint 相关应用程序部署](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    
 - [Project 2010 中引入非活动任务](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
-- [Project Server 2010: Web 2010:WEB、PSI 和 Project Professional 上的计划](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)
-- [基于 web 的计划管理比较](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx)
-    
+- [Project Server 2010: Web 2010:WEB、PSI 和 Project Professional 上的计划](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 

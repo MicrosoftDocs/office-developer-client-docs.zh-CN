@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bf3eee43a70fbc4abf32b60379fc7b191bd9d513
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 202d461d4acefe18e69b47db9319cb328c61406e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775727"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592316"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知窗体的打印状态的表单查看器。
   
@@ -66,7 +66,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的取消按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIViewAdviseSink::OnPrint**方法时打印，告知打印进度的查看器。 
   

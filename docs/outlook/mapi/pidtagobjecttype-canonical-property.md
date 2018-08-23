@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 37da4ff5-300d-479f-a8b4-6fc36df997d9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2830da6aad561045a7ecdd953286c90edea88ca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b2d435e132bf453cf41ec141d5a946bf54f9c66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777899"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591049"
 ---
 # <a name="pidtagobjecttype-canonical-property"></a>PidTagObjectType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含对象的类型。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777899"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性中包含的对象类型对应于可用于通过**OpenEntry**界面访问对象的主接口。 它通常是由咨询相应**OpenEntry**方法返回的_lpulObjType_参数中获取。 以其他方式获取接口后，调用[IMAPIProp::GetProps](imapiprop-getprops.md)获取此属性的值。 
   

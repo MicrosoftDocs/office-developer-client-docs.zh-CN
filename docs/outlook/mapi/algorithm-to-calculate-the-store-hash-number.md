@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: de4fa7cb24cd486e506f5d747319c44ce9c15a77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774523"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592099"
 ---
 # <a name="algorithm-to-calculate-the-store-hash-number"></a>用于计算存储区哈希数的算法
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 作为一部分的 MAPI 统一资源定位器 (URL)，存储提供程序将存储哈希编号发送到 MAPI 协议处理程序，以确定已准备好进行索引的对象。 MAPI 协议处理程序使用此存储哈希号码来标识存储区。 一般情况下，存储提供程序计算基于存储映射签名，如果对存储在全局配置文件部分中定义的**[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** 属性存储哈希数。 否则，存储提供程序使用存储条目 id。 要计算的存储哈希算法必须减少不明确问题标识存储区。 
   

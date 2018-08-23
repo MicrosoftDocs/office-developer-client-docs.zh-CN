@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06d1f8a3-53e1-4c9a-9703-75de7a11a772
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b4bab1948bc563b92dafa16922da3b9760cf1a1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f2cd536a2f287e880388457586f6bdfa9f67f2b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777110"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590846"
 ---
 # <a name="pidlidtaskstate-canonical-property"></a>PidLidTaskState 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示任务的当前工作分配状态。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777110"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须是下列选项之一。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: eb9107d9-ad5c-4264-a457-dea193597dc9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 426d3d5787f4ef8cde2883c5e2eb3699dd664965
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0cece598d4ad337e29edb3bb98b302de900e056d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776242"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593464"
 ---
 # <a name="mapi-form-objects"></a>MAPI 表单对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要显示特定消息并允许用户与之交互的窗体服务器动态创建窗体对象。 因此，form 对象是类的从[IMAPIForm](imapiformiunknown.md)由表单服务器实现派生的实例。 当客户端应用程序打开邮件时，该邮件类的窗体服务器创建窗体对象来处理邮件。 Form 对象然后创建其界面，并在其中显示消息的属性。 Form 对象和其界面将一直保持到用户将其关闭。 Form 对象处理邮件的属性的值对的任何更改。 
   

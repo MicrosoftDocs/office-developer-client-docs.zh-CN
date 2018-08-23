@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 01bd3235-22cc-4ff3-b2b6-341ce622128b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 06cad6e80a2def1c1c3d692a80efeebe0e654a92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d7886d08c21e8fff9aceb3437ecb6bbbd970ed7b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591420"
 ---
 # <a name="ipropdatahrsetobjaccess"></a>IPropData::HrSetObjAccess
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置该对象的访问级别。
   
@@ -53,7 +53,7 @@ S_OK
   
 > 成功将对象的访问级别设置。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IPropData::HrSetObjAccess**方法将设置为整个对象，而不是为各个属性的访问级别。 **HrSetObjAccess**可用于更改时创建的对象已建立的访问级别。 
   

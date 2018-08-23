@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d347c949-d0c3-4a36-8447-3fa01111cdc1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c728799832b10ad2d4533a9a040582b67054baad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cec34819cfa2c6e790f8808eb5bab70412f286b5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778511"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591427"
 ---
 # <a name="pidtagtextattachmentcharset-canonical-property"></a>PidTagTextAttachmentCharset 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件附件的字符设置值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778511"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的数据派生开头的内容类型 MIME 标头字段中的"文本 /"、"字符集"参数是否存在。
   

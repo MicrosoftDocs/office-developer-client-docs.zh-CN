@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2ab4681e-0013-4ba0-ba26-50517bbf3f5b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2520a7544eb4ba39cd83a7a0aa65b98bd8a67deb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d6167a7a3c983171f2ff9cb2a54c879a14dca0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777627"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591413"
 ---
 # <a name="pidtagfoldertype-canonical-property"></a>PidTagFolderType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个常量，指示文件夹类型。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777627"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可以具有完全下列值之一：
   

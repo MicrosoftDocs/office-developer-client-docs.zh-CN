@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 774aaea0365066981b9d6426a2579160f6578844
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ebd0c21a43ddb1deb01699f0ddf77d319216a4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778877"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590062"
 ---
 # <a name="status-table-and-status-objects"></a>状态表和状态对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 提供了一个表格的 MAPI 子系统、 MAPI 后台处理程序、 通讯簿或的特定服务提供商的状态信息。 您可以通过调用[IMAPISession::GetStatusTable](imapisession-getstatustable.md)访问此表。
   

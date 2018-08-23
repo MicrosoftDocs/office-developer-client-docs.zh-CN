@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9af170f3445757eb96b9fe78c7cbea2c29ef4612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 954609cbc62039c0d60874bde83fde50d1d11c30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776542"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591665"
 ---
 # <a name="msgserviceentry"></a>MSGSERVICEENTRY
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义以支持消息服务配置邮件服务入口点函数的原型。 
   
@@ -160,7 +160,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现仅支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用**MSGSERVICEENTRY**函数原型定义的函数启用消息服务来配置自己或执行其他特定于服务的操作。 该函数主要提供一个对话框，在其中用户可以向消息服务更改特定的设置。 它还可以使用_lpProps_参数中传递的属性值数组支持编程配置。 除非服务支持配置文件向导中，需要它的编程配置是可选的。 
   

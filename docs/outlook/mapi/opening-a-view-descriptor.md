@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 525c817cfc3bdcf96455d35025e85486ec8b5b42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 680d80c0827399f3b7a0ea5819e51be654a05810
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592477"
 ---
 # <a name="opening-a-view-descriptor"></a>打开视图描述符
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 很多文件夹可以打开与普通视图、 默认视图或任意数量的个性化视图。 视图介绍如何显示文件夹的内容。 普通视图时没有替代视图和首次打开文件夹时使用。 存在另一个视图，必须使用它以打开文件夹。
   

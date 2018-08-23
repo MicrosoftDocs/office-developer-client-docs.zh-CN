@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8e3f0094-e64b-4828-ba8f-5eed35f85366
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3ce8f76bf42b7483da047cd15f37596364c52fe4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34ed865e97452ee45d229640b2dadf38faffd537
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778430"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593310"
 ---
 # <a name="pidtagspamtrustedsenders-canonical-property"></a>PidTagSpamTrustedSenders 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含以分号分隔的电子邮件地址和组成的受信任的发件人的域列表。
   

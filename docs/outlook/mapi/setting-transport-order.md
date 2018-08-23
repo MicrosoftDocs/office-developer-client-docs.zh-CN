@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4a140ec3-9520-4119-a975-0fb6c1049967
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 71d7ebf2bc8c7bbf3b5ee6ce60959fdeee79abe3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e4c318678fdce7976140ff8f480ae638fd3ca4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778764"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593023"
 ---
 # <a name="setting-transport-order"></a>设置传输顺序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 后台处理程序分配的基于地址类型和传输提供程序声明它们可以处理的标识符的传出邮件的责任。 传输提供程序发布支持的地址类型和标识符的列表，存储在**MAPIUID**结构 — 当 MAPI 调用其[IXPLogon::AddressTypes](ixplogon-addresstypes.md)方法，直接登录后。 收件人的地址类型存储在其**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) 属性。
   

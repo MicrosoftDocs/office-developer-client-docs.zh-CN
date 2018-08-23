@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a355faf85a44f6257b77b7171aa965faabf57fe9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b66b450318c802e773c2f2c47e4a39500c582d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779079"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592766"
 ---
 # <a name="using-mapi-objects"></a>使用 MAPI 对象
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端和服务提供商使用 MAPI 对象通过在其接口实现中调用的方法。 这是唯一的方法，可以使用 MAPI 对象;实现由外部 MAPI 界面对象的方法不公开访问。 通过继承相关的所有对象的接口，因为对象的用户可以调用基接口或继承的接口之一中的方法，就好像它们属于同一接口。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c2bf94d9-0524-4a9d-8e30-1adbecd8f3dd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f61de288d0feaff580278c96f69d4dcf41aae4db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d83788d25ec7a8a1559d3454f5ffd079de9e7275
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776752"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593044"
 ---
 # <a name="pidlidemail3addresstype-canonical-property"></a>PidLidEmail3AddressType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的第三个电子邮件地址的地址类型。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776752"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果存在此参数，此属性值必须是有效的地址类型。
   

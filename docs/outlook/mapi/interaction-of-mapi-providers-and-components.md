@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2c0e010b-0432-4ef7-a243-3a4b46f0a19d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cb0f8d5077b4851a50ceb8523943ae760a8ee5ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c81da7673d6c0c59de6992bc46362069daf71b42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775967"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592624"
 ---
 # <a name="interaction-of-mapi-providers-and-components"></a>MAPI 提供程序与组件的交互
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 任何类型的 MAPI 服务提供程序必须遵循某些准则以使用 MAPI 的其他组件。 每个服务提供商必须：
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 96eaf6c3f9ddc9d4bf6bc16ddc28a6f38bc311f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc2704b69994cb80b15de82edad6c65423c6b5a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778503"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591847"
 ---
 # <a name="pidtagtransmittabledisplayname-canonical-property"></a>PidTagTransmittableDisplayName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含不能更改安全窗体中的收件人的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778503"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 应通过所有通讯簿提供程序实现这些属性。 它们包含传输邮件的收件人的显示名称的版本。 对于大多数通讯簿提供程序这些属性具有相同的值的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 没有返回 PT_ERROR 和 MAPI 更改的显示名称通过添加引号将名称括起来的安全的显示名称的提供程序。
   

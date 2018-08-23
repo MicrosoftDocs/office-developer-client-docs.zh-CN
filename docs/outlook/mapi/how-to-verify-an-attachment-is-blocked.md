@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: a21383e0ea6920075a57d872e82851462bf0e8d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb83b57de3bb484e4fb5f94f76a7d9bfa0fce876
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589796"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>验证被阻止的附件
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在 c + + 此代码示例演示如何使用[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md)接口以找出是否附件被阻止通过 Microsoft Outlook 2010 或 Microsoft Outlook 2013 的查看和编制索引。 
   

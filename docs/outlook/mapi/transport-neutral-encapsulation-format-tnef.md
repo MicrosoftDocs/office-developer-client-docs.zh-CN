@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 98d4fe3c-3908-4cd2-bfdb-ff1874a80b24
 description: 上次修改时间： 2013 年 3 月 12 日
-ms.openlocfilehash: 34b64df25cb2f7f591f7c799dec957a0072840dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 440c27b019b91ec8c2c02e37850d2768a273559b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779001"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591931"
 ---
 # <a name="transport-neutral-encapsulation-format-tnef"></a>传输中性封装格式 (TNEF)
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 TNEF 是用于转换的 MAPI 属性集的格式 — MAPI 邮件 — 到串行数据流。 由传输提供程序需要进行编码通过不直接支持这些属性的消息系统传输的 MAPI 邮件属性主要用于 TNEF 函数。 例如，基于 SMTP 传输使用 TNEF 编码属性类似**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))，其结构中的 SMTP 邮件没有直接的表示形式。
   

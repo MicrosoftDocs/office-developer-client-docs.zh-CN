@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 17f3ac0c5cd6005329212d0dcb458b37bb75f41d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c335d8fab820c9876adbe8f001696a02068460c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591406"
 ---
 # <a name="pidlidtaskownership-canonical-property"></a>PidLidTaskOwnership 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示相对于任务的当前用户的角色。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777111"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须为下列值之一。
   

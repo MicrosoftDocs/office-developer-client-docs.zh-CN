@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0ae35166f01f597c2c3ab399a1b66e5760ab0dc8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 40815f1df597a8fb1fd8adef3dcc09323e946d30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775765"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592960"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 设置或清除 MSGFLAG_READ 标志邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中并管理阅读报告的发送。
   
@@ -69,7 +69,7 @@ MAPI_E_INVALID_PARAMETER
     
    - CLEAR_READ_FLAG |GENERATE_RECEIPT_ONLY
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMessage::SetReadFlag**方法设置或清除**PR_MESSAGE_FLAGS**属性和呼叫[IMAPIProp::SaveChanges](imapiprop-savechanges.md)保存邮件中的消息的 MSGFLAG_READ 标志。 设置 MSGFLAG_READ 标志将邮件标记为已读，其中不一定表示预期接收人已实际阅读消息。 
   

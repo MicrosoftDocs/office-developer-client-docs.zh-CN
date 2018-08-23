@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2e41701d3a739864b1eafc8001833b7df5c8908b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 379fdc47f35fb183dd0bf551e421422abb106c0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775614"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591008"
 ---
 # <a name="imapisupportexpandrecips"></a>IMAPISupport::ExpandRecips
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 完成邮件的收件人列表中，展开特定的通讯组列表。
   
@@ -58,7 +58,7 @@ S_OK
   
 > 已成功处理邮件的收件人列表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::ExpandRecips**方法。 消息存储提供程序调用**ExpandRecips**提示 MAPI 以执行以下任务： 
   

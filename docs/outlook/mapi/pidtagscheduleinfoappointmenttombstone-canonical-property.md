@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 37a6d101f6ee9c04236253e143aff3a51a9208d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e554a496dd1869dd7c07b315d92a136676e05006
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778329"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590041"
 ---
 # <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>PidTagScheduleInfoAppointmentTombstone 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含表示已拒绝的会议数据块的列表。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778329"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 数据块开始使用定义为 32 位值的标头：
   

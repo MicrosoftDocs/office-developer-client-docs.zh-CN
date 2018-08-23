@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 46a87a6eb5c80244c04ae6257cd4441b8797ba36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efeff92f1a21d076c1ee58b82ad3ab25797df014
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775726"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592302"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **IMAPITable::SortTable**方法对行进行排序的表中，具体取决于排序条件。 
   
@@ -84,7 +84,7 @@ MAPI_E_TOO_COMPLEX
     
    - 仅支持这种类型的排序附件表指定排序操作以外从头到尾转接**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性中的表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::SortTable**方法在表视图中对行进行排序。 某些表格中支持标准和分类键列的排序各种上排序，而其他表在支持更多限制。 通讯簿提供程序通常不支持表排序。 消息存储提供程序通常支持的范围内它们保留文件夹的完整表格 （无限制） 进行排序时结果的排序顺序排序。 
   

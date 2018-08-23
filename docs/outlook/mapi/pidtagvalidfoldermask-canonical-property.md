@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ae09723c78fe4e333fb5c46e8c79da4b77c0b331
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 605e2f528ea0afc1a35348320abaffeb142d9921
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778535"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590720"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>PidTagValidFolderMask 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含这些标志指示邮件存储区中的文件夹的项标识符的有效性的位掩码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778535"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果用户删除文件夹，或者如果消息存储已损坏，某个文件夹的条目标识符可以成为无效。
   

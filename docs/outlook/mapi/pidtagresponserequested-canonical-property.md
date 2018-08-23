@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e52bb48c-7107-4ac4-b030-885409759ee7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b099bf5df657b5516fbf0948e742d1d1b36af2e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02ab7f88edda39fcb1c66eaf643a8263e9d509c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778224"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591728"
 ---
 # <a name="pidtagresponserequested-canonical-property"></a>PidTagResponseRequested 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 TRUE，如果发件人想对会议请求的响应。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778224"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于会议请求。 接收的客户端应用程序应提示用户可以接受或拒绝该请求，然后发送回发件人此响应。
   

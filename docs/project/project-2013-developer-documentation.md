@@ -16,12 +16,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: 查找文档、 代码示例、 操作方法文章和编程参考，以帮助您构建面向 Office 商店或专用应用程序目录，并以自定义和与其他桌面和业务的广泛集成 Project Server 和 Project 客户端企业项目管理应用程序。
-ms.openlocfilehash: 490b5bd2fcbe2f92653b6ebc84d36e5c28cdc8c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23c1229769a08f78b9ad35eab7403876cbe294d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779549"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590755"
 ---
 # <a name="project-2013-developer-documentation"></a>Project 2013 开发人员文档
 
@@ -30,7 +30,7 @@ ms.locfileid: "19779549"
 欢迎使用 Microsoft Project 2013 软件开发工具包 (SDK)。 SDK 包含文档、 代码示例、 操作方法文章和编程参考，以帮助您构建相关应用程序的公用存储或专用应用程序目录，并以自定义和集成 Project Server 和 Project 客户端与其他桌面的各种和企业项目管理业务应用程序。
   
 > [!NOTE]
-> Project Server 2013 构建在 SharePoint Server 2013 平台上，并且 Project 2013 包括何种为其他 Office 2013 应用程序相同的基础结构。 有关文档模型的 SharePoint 加载项，基于 SharePoint 的工作流，Web 部件开发与其他 SharePoint 功能和文档的 Office 加载项，请参阅[Office 和 SharePoint 相关应用程序](http://msdn.microsoft.com/en-us/library/fp161507%28office.15%29.aspx)。 
+> Project Server 2013 构建在 SharePoint Server 2013 平台上，并且 Project 2013 包括何种为其他 Office 2013 应用程序相同的基础结构。 有关文档的模型为 SharePoint 加载项，基于 SharePoint 的工作流， [SharePoint 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins)和[Office 加载项](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)，请参阅 Web 部件开发与其他 SharePoint 功能和 Office 加载项的文档。 
   
 ## <a name="introduction-to-the-project-sdk"></a>Project SDK 的简介
 <a name="pj15_Welcome_IntroToSDK"> </a>

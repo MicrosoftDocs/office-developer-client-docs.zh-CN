@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2a080b9e6a824e50648a6df0757826f45b5da1f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82c44f2292400c449ee0f82600c5b596728af7c0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590433"
 ---
 # <a name="mapi-canonical-properties"></a>MAPI 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 规范属性是一个虚拟属性表示的 MAPI 属性或定义具有相同属性标识符的多个 MAPI 属性。 规范属性仅用于加快一致的 MAPI 属性讨论或代码之外的文档中的标识。 与 MAPI 定义已标记的属性名称不同规范属性名称不被指 MAPI 头文件中的全局常量。
   

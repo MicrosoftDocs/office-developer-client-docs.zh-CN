@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a304ca8f-e404-4535-be76-0b673f2061a0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 24718c50d02da5d60a6594f56ea6100650fe9f1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 06a5c9de5c0ce4c0f936791086a731a55510a124
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775617"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592141"
 ---
 # <a name="imapisupportmodifystatusrow"></a>IMAPISupport::ModifyStatusRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通过添加新行或修改现有行来修改状态表。
   
@@ -59,7 +59,7 @@ S_OK
   
 > 已成功更新状态表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISupport::ModifyStatusRow**方法将执行所有服务提供商支持对象。 服务提供商调用**ModifyStatusRow**在登录时，将行添加到状态表和其他更新行在会话期间的时间。 **ModifyStatusRow**将 MAPI 提供构建状态表所需的信息。 
   

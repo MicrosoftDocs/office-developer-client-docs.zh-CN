@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 21889bf626d7f9128d1e01b3e6a15b5fa0d2e696
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf275c66a60ed977c442b468b7c9951325db5120
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593513"
 ---
 # <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对配置文件中的消息服务进行更改。
   
@@ -53,7 +53,7 @@ ms.locfileid: "19775889"
 |[SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) <br/> |指定要配置文件的主标识的供应商的消息服务。  <br/> |
 |[GetProviderTable](imsgserviceadmin-getprovidertable.md) <br/> |提供对提供程序表中，在配置文件中的服务提供商的列表的访问。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 实现可以通过以下两种**IMsgServiceAdmin**界面得到指针： 通过调用[IMAPISession::AdminServices](imapisession-adminservices.md)方法或通过调用[IProfAdmin::AdminServices](iprofadmin-adminservices.md)方法。 对于主要关心配置文件配置的客户端， **IProfAdmin::AdminServices**是首选的方式获取**IMsgServiceAdmin**接口，因为未登录到 MAPI 会话的提供程序。 如果客户端需要能够对活动配置文件进行更改，然后应该调用**IMAPISession::AdminServices**获取**IMsgServiceAdmin**指针。 注意虽然 MAPI 不允许使用要删除的配置文件，没有任何安全措施，以防止客户端配置文件中删除所有邮件服务。 
   

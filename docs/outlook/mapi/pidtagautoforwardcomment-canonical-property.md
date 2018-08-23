@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f399baa4643172aaa596b665fbefb478891f6e96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12bf24cc120a628559d1523405e27bbad3f1f8f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777374"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591756"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>PidTagAutoForwardComment 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含由自动转发代理添加注释。
   

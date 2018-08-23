@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 01ac66b3-1868-6b1e-7026-ab61380c8cc5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 40409edf80bfe937819f85f10e849c3d49526ebf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da7d757516ac47fbe74b9fec23ade41579e04e60
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778364"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592631"
 ---
 # <a name="pidtagsearchownerid-canonical-property"></a>PidTagSearchOwnerId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的将通知发送给有关对象的索引器供索引过程的进程 ID。
   

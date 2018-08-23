@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fc3c0ab3-6920-4e82-bc69-6c083159628f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0ea3e2f88b3e0df2f358894cdf604dda651821b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e014128da9045bb71089a9b73118d6f962025778
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777154"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590979"
 ---
 # <a name="pidlidworkaddress-canonical-property"></a>PidLidWorkAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的完整工作地址。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777154"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性应为其他物理地址属性的组合，并基于客户端区域设置。
   

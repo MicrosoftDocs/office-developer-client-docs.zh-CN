@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 10890c1fe430ddbc45c16908df3ac340284c9f18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5f136a0d26b7519bc1b7b3d8f448f5f382767ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776567"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591252"
 ---
 # <a name="outgoing-queue-tables"></a>传出队列表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传出的队列表包含有关邮件存储区的所有传出邮件的信息。 消息存储提供程序实现 MAPI 后台处理程序使用的传出队列的表。 存储区不支持发送或接收的消息不需要实现此表。 
   

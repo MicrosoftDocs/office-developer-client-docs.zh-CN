@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 52dc4f0a11c480c08b5ea66a7f987e968287d490
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e3ab726d6b1d00db20a4d0dac05f4f0d1fa3259c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776997"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591294"
 ---
 # <a name="pidlidreminderplaysound-canonical-property"></a>PidLidReminderPlaySound 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定客户端是否应在提醒过期时播放声音。
   

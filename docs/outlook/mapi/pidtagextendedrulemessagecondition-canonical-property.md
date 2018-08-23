@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 891851e1-e4a4-4c20-a26c-7223bcca35f7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 81ac1cb85e64b4ecdcf63997d4bdcd0f45b3364b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92008a387bb0130207af012df209a3aa6881d40e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593170"
 ---
 # <a name="pidtagextendedrulemessagecondition-canonical-property"></a>PidTagExtendedRuleMessageCondition 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含有关包含在扩展的规则条件的任何命名属性的信息。
   
@@ -32,9 +32,9 @@ ms.locfileid: "19777608"
 |相关属性：  <br/> |PR_EXTENDED_RULE_MSG_CONDITION  <br/> |
 |标识符：  <br/> |0x0E9A  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |规则  <br/> |
+|区域：  <br/> |Rules  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置对从故障邮件。 它**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)) 的作用相同，但包含有关使用的命名属性的其他信息。 此条件属性值的任何部分中包含的所有字符串值都必须为 Unicode 格式。
   

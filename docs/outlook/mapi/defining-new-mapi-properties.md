@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1a2325ea-ddfa-480f-b65f-f5b20471fb40
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 68e877568565cfcc30b60e9b21f55b7dc1600b28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f922ee95cda84311d840aa9de339883c57efba56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774771"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590321"
 ---
 # <a name="defining-new-mapi-properties"></a>定义新的 MAPI 属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 丰富的属性以供客户端和服务提供商提供的 MAPI，尽管 MAPI 启用要创建必要的新属性。 定义新的公共属性的有效方案的一些包括客户端创建属性以支持新的邮件类和服务提供程序创建新属性公开唯一消息系统功能。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 55922f49d33abfed67b11ceade6d2762e8edacde
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 31cabf50602f9e0f7a70118ddc794387990862ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776685"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591266"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>PidLidAutoFillLocation 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示从表示的资源 RecipientRow **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) 属性的值设置为**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776685"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 RecipientRow 的详细信息，请参阅[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)中指定的邮件和附件对象协议。
   

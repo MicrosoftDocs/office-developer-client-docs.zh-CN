@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e1f15a5f031f5c5a9568b8a36722eaac011b814c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b302de68f27e85c67430f82bd3e2c33009600e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776148"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591350"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义一个 MAPI 调用激活通讯簿对话框中的一个可选的按钮控件的回调函数。 此按钮通常是一个**详细信息**按钮。 
   
@@ -71,7 +71,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序调用基于**LPFNBUTTON**原型，用于定义按钮，在详细信息对话框的回调函数。 客户端将指针传递给回调函数中调用[IAddrBook::Details](iaddrbook-details.md)方法。 
   

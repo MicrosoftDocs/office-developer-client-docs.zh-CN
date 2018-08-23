@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5004dc1f-6bd3-4764-b83c-d04d83161dba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4799cd14000b46053d1e571a7ab1c2c0c394a014
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8835b7234a209d5cb80a19593632380f6d83826
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777554"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593156"
 ---
 # <a name="pidtagdiscardreason-canonical-property"></a>PidTagDiscardReason 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件传输代理 (MTA) 为什么已丢弃的消息的原因。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777554"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性中包含的原因是原件报表中使用的邮件。
   

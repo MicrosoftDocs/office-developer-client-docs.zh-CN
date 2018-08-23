@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: 在 Office Online Server Preview Excel Online 中使用用户定义函数 (Udf) 调用自定义函数。
-ms.openlocfilehash: ae2d668ebd4a4df278a5c19e702de248b1749b84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12f452241754be1b4b1e545c69225aed055f4965
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590179"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server-preview"></a>在 Office Online Server Preview 中配置 Excel Online 中的 UDF
 
@@ -83,11 +83,11 @@ Office Online Server Preview 上创建一个**新建 OfficeWebAppsExcelUserDefin
 以下文件提供使用 UDF 和 UDF 二进制的示例工作簿：
   
 - [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) -使用 UDF 的示例工作簿  
-- [EcsUdfsCommonSet.dll](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/EcsUdfsCommonSet.dll) -UDF 二进制文件 
+- [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll) -UDF 二进制文件 
     
 ## <a name="see-also"></a>另请参阅
 
-- [配置 Excel Online 管理设置](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)  
-- [Office Online Server Preview](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
+- [配置 Excel Online 管理设置](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings)  
+- [Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/office-online-server)
     
 

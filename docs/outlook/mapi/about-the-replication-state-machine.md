@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9ea18f8e5c7eb758780727829fb1e18d2a19ec92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30dd43a3ac9a315cd41919872b918bee639ca259
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774480"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593051"
 ---
 # <a name="about-the-replication-state-machine"></a>关于复制状态计算机
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题包含 Microsoft Outlook 2013 和 Microsoft Outlook 2010 的数据复制的状态机器的概述。
   
@@ -49,14 +49,14 @@ ms.locfileid: "19774480"
 |**State** <br/> |**复制数据** <br/> |**状态标识符** <br/> |**数据结构** <br/> |
 |[空闲状态](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
 |[同步状态](synchronize-state.md) <br/> |文件夹或项目  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
-|[上载层次结构状态](upload-hierarchy-state.md) <br/> |文件夹  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
+|[上载层次结构状态](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
 |[上载文件夹状态](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[同步内容状态](synchronize-contents-state.md) <br/> |Items  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
 |[上载表状态](upload-table-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
 |[上载邮件状态](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
 |[上载读取状态状态](upload-read-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
 |[上载删除状态状态](upload-delete-status-state.md) <br/> |Items  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
-|[下载层次结构状态](download-hierarchy-state.md) <br/> |文件夹  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
+|[下载层次结构状态](download-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
 |[下载表状态](download-table-state.md) <br/> |Items  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[下载邮件头状态](download-message-header-state.md) <br/> |邮件头  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
    

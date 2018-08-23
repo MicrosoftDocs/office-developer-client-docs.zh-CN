@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 64b2c147acb02b6c29cf080076b6fe2e3eefb717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d3f540a14c833e0ee0ed212f6f3b3b709d72ec0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775592"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591035"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制或移动邮件从一个文件夹到另一个文件夹。
   
@@ -92,7 +92,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::CopyMessages**方法。 消息存储提供程序可以[IMAPIFolder::CopyMessages](imapifolder-copymessages.md)复制或移动到另一个文件夹中一个或多个邮件其实现中调用**IMAPISupport::CopyMessages** 。 作为**IMAPISupport::CopyMessages**呼叫的一部分，消息存储提供程序可以指定 MAPI 应显示进度指示器。 
   

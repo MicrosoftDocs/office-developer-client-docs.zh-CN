@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 45846fe3-7ab3-4019-98bb-fe615889c31c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4cb0243f38137afa820c3499a8b95954098bd6fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 639d5e96eb56fb543d6a6026b1c9400631cee819
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777058"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593338"
 ---
 # <a name="pidlidspamoriginalfolder-canonical-property"></a>PidLidSpamOriginalFolder 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示一条消息之前已在哪个文件夹而被筛选出到垃圾邮件文件夹。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777058"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值是文件夹的包含邮件之前它已移动的**EntryID** 。 邮件标记为垃圾邮件时，应设置该属性。 
   

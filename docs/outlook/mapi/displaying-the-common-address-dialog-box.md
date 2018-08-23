@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 276f9fa8-c333-4381-b20f-22fe9d2f27cd
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a7b603504956be9ec3066e5ff5e1d5db7d59852a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00d1063310aaf1a8948e04d725d7e11418cf986c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774830"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592421"
 ---
 # <a name="displaying-the-common-address-dialog-box"></a>显示“常用地址”对话框
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 常见地址对话框中可用于各种寻址的任务，如构建收件人列表。 若要显示此对话框中，调用**IAddrBook::Address**。 根据您设置的许多参数和如何设置，您可以从特定的容器，您显示对特定类型的条目限制。
   

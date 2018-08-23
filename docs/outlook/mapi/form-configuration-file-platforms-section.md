@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ddc6db2303d9d5f114fdb27b6e15e699a04e73f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d86edfb6fcc72c5968a8ff5d9cd739e20e5dec43
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589894"
 ---
 # <a name="form-configuration-file-platforms-section"></a>表单配置文件 [平台] 部分
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 **[平台]** 节列出了由此窗体支持的平台的完整集合。 每个平台项包含前缀**平台。** _字符串_，其中_字符串_是平台的任意字符串代码。 每个字符串对应于单个 **[平台]** 节的**CPU**条目。 每个条目 **[平台]** 节中的定义的引用的后续_平台字符串_ **[平台。** _平台字符串_**]** 部分如下所示。 
   

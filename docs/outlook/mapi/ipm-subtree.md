@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: eebc029d4ed72f355170710061c4d3717ed0aa1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6fe642d10a50d25874aee170441a07c184b46575
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775986"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591091"
 ---
 # <a name="ipm-subtree"></a>IPM 子树
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 的发送和接收来自 human，而不是计算机、 收件人的所有客户端创建下方的消息存储的根文件夹的文件夹的树。 Human 收件人之间交换消息称为人际邮件和已知此树为人际邮件或 IPM，子树。 
   

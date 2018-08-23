@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b9bd389a-6975-41a2-a2f4-e501312e434b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c33fea8a2aba875fcdc06dea3343add4b7ac5dde
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c4d7273b7393d421092bb06377aece0842b5fb67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775391"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590818"
 ---
 # <a name="imapiformfactorylockserver"></a>IMAPIFormFactory::LockServer
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在内存中保留的打开的窗体服务器。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**IMAPIFormFactory::LockServer**方法可在内存中保留的打开的窗体服务器应用程序。 在内存中保留表单服务器能够改善性能时经常创建和发布表单。 
   

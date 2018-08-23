@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 03375a11be3f6f128db5f6147c5fbe901d0a0fa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e76ad936cb8dc99897bc1c74d3a47b0d2aa4be46
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774482"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590048"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 初始化通讯簿提供程序的操作。 
   
@@ -97,7 +97,7 @@ MAPI_E_VERSION
   
 > 正在使用 MAPI 的 SPI 版本不兼容与 SPI 正在使用此提供程序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 调用入口点函数**ABProviderInit**初始化通讯簿提供程序关注客户端登录。 
   

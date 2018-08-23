@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 396db029-1d4a-203d-2256-3353d03c6767
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 30ec82788e46ca07c6529ce74872e0a0c7c012a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b6a36c1e0c3854342b627b6fddd6eb5459211f62
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776050"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590426"
 ---
 # <a name="ipstx2setspoolsuspendstate"></a>IPSTX2::SetSpoolSuspendState
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在后台处理程序上设置的挂起的状态。
   

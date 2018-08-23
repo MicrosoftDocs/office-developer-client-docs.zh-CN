@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f7fcb385-186d-d5fe-7104-fe0af09d5768
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 62c18ac609547563ad0e98cbd914866e05888ac8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2523c149d98dacf9ad321a4a443382a39753fd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779069"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592337"
 ---
 # <a name="uptble"></a>UPTBLE
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 扩展的[上载表状态](upload-table-state.md)期间上载文件夹的内容的信息。
   

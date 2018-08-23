@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 026a120406b714a50a9191e4761021693a250b94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d4b62c4131ecc58db6957144321146625b43f7bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775565"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591021"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建数值令牌[IMAPISession::ShowForm](imapisession-showform.md)方法用来访问的消息。 
   
@@ -55,7 +55,7 @@ S_OK
   
 > 窗体准备已成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::PrepareForm**方法创建邮件标记为_lpMessage_参数指向邮件，并调用消息的[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)方法。 此标记_ulMessageToken_参数中传递给**IMAPISession::ShowForm**。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d1837f1-494f-481b-9e09-ab8249f1488c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9dba148646678f0740c5b2c338ae345ecd76dfac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2d74c9d5632e81e5b98cd1a4a02d5646cf3f6300
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776508"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592309"
 ---
 # <a name="message-text"></a>邮件文本
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对于在 MIME 模式下的出站邮件，内容类型取决于是否有附件和消息文本的外观。 如果有附件，内容类型是_多部分/混合;_ 消息文本，每个附件成为单独消息内容，每个都有其自己的内容类型的部分。 如果不有任何附件，消息的内容类型为_text/plain_并且没有只有一个部件。 
   

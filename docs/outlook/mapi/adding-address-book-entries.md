@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 63444a65-d56a-4dbd-9aa6-e60f18ba8104
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: adbfbb73ac0f5f1e1cba547fa7a91393891fdb1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5b2aa2830e2721b9f895b22df12c9d712188625
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774497"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590132"
 ---
 # <a name="adding-address-book-entries"></a>添加通讯簿条目
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将邮件用户或通讯组列表添加到容器、 客户端调用[IAddrBook::NewEntry](iaddrbook-newentry.md)或提供商呼叫与目标容器_lpEIDContainer_参数中的项标识符[IMAPISupport::NewEntry](imapisupport-newentry.md) 。 MAPI 轮流调用容器的[IABContainer::CreateEntry](iabcontainer-createentry.md)方法来创建使用一次性模板一次性表中的条目。 一个一次性模板允许客户端创建特定类型的一个新收件人。 大部分字段是可编辑。 _LpEntryID_参数指向该模板可能的您的提供商提供，或者如果您的提供商支持外的模板，可能从一个外的提供程序，模板。 可以从外部模板创建收件人的提供程序实现的**CreateEntry**通常更多的提供程序不能实现比复杂。 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6314d91c-4948-4fd1-bacc-932d4bb2c22f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 573ac849bba026ec6a5988220a7e49688393440d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d544c741685d401aaf36fe19be50ab402c9e5604
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592680"
 ---
 # <a name="pidtagdefaultstore-canonical-property"></a>PidTagDefaultStore 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果消息存储为默认的邮件存储消息存储表中，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777531"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性显示为消息存储表中的列。 值基于**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))。 
   

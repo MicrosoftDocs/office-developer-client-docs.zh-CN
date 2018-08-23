@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ae8a9214-e53f-4c57-8dbe-aa7cc6903aa8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0d9e7caf43bcee654aa92652e94bc8c2ebba18e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c92347ab1a786196e7f0d99b286e8f4134ce7c24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774621"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590699"
 ---
 # <a name="best-practices-for-fast-shutdown"></a>快速关闭的最佳实践
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题建议为管理员、 MAPI 客户端和 MAPI 提供程序使用 Windows 注册表设置和快速关闭接口客户端关闭期间减少数据丢失的最佳做法。
   

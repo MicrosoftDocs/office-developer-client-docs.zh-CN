@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f311dd2-853e-46f7-966a-c2ab7a1fb6c5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 46ccc3c7e07e6920508fea630c96700d39366a35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f2e8ecba7c92dcbcb719591464e10fb4af2d2344
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778388"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591763"
 ---
 # <a name="pidtagsenderentryid-canonical-property"></a>PidTagSenderEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件发件人的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778388"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一个发件人的地址属性。 它必须由传出的传输提供程序，应永远不会传播任何以前现有值设置。
   

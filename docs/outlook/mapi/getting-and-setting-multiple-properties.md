@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 150f2a55bff4188c1f692de8276ed869bcf66c3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 88c3e0bdb3cc6660e35faf62c5bb63ec2f6352bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775035"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590370"
 ---
 # <a name="getting-and-setting-multiple-properties"></a>获取和设置多个属性
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 获取和设置尽可能使用最少的多个属性的呼叫，远程 curtailed 活动并减少了开销涉及与每个属性数。 尽管服务提供商尝试进行远程过程调用的检索或修改之前收集属性，您可以通过首先请求多个属性来优化这项成果。
   

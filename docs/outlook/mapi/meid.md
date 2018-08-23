@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
 description: 上次修改时间： 2012 年 7 月 3 日
-ms.openlocfilehash: 1b725dc5151f1f088f2547a1ef82d322c8458b6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591938"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 某个 Outlook 项目的的标识符。 它包含的项标识符以及其他相关信息。
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 87bc5753-ef39-4275-a850-cfeb340a4a8b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9ac212172658445a1bb5be2fa21a7b21effb7ea0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e68acf07232d86ef4bd76086d0ae25fd927b74fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777427"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589880"
 ---
 # <a name="pidtagcompanyname-canonical-property"></a>PidTagCompanyName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的公司名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777427"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问有关收件人的信息。 它们是按收件人和收件人的组织定义的。 
   

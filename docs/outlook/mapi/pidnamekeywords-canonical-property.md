@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b71579a4652df62e696cd0dc6113dde44fad4287
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa337541b45c2cb602f0848769b3b07028ea0fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777207"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590538"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>PidNameKeywords 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含关键字或 message 对象的类别。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777207"
 |数据类型：  <br/> |PT_MV_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 多字符串值，该值指定的类别的消息对象，在此属性多值字符串，每个字符串的长度必须少于 256。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 03a67371c67d5f0ac346470ec7ab38bb67d5ce2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60a058cc119290a0e14a76c914ac6d5a2d7a693b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19775277"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593016"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将 MIME 流转换为 MAPI 邮件。
   
@@ -76,7 +76,7 @@ E_INVALIDARG
   
 > 指示_pstm_为**null**， _pmsg_为**null**，或者_ulFlags_无效。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果您指定**CCSF_USE_RTF** _ulFlags_的一部分，目标消息存储库支持 HTML 和 RTF 的 MAPI 邮件将被转换为 HTML 或 RTF。 如果邮件转换为 RTF 时，将压缩转换的格式 RTF，将在压缩的 RTF 字符串中嵌入任何 HTML 和将[PidTagRtfCompressed 规范属性](pidtagrtfcompressed-canonical-property.md)中包含字符串。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4fa47824-b4ef-41e1-9096-c1b1cdacd7ac
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 68a842ccfdaea8ecdb975e1c510711b0e43fd576
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6845c3d86fb3d34119a296ebbae76a7322d7d8c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778711"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590909"
 ---
 # <a name="sending-a-message"></a>发送邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当您准备要发送消息时，调用其[IMessage::SubmitMessage](imessage-submitmessage.md)方法。 **SubmitMessage**传出队列中放置邮件和消息的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中设置 MSGFLAG_SUBMIT 标志。
   

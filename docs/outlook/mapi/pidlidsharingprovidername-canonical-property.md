@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 67e6497c-e053-4b2d-a81c-c6cf6017f8bd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a184207463e1f6139df2baa064101e8d2d8dc896
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53dd5b0a808ca818a6086c09a9e59220a6d6d654
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777055"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593457"
 ---
 # <a name="pidlidsharingprovidername-canonical-property"></a>PidLidSharingProviderName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定由**dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 标识的共享服务提供商的用户可显示名称。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777055"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 应忽略此属性。
   

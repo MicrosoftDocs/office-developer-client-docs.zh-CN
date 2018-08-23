@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6f0ebd2112b65140a106a1376896f6de9c00da1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d98b7cf1d6c5cdc8517ea2e653115d9a7c01e3c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774882"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593296"
 ---
 # <a name="error-handling-in-mapi"></a>MAPI 中的错误处理
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用 32 位数字，因此已知句柄或 HRESULT 返回成功、 警告和错误值。 HRESULT 不真正是任何; 句柄它是只具有编码值中的多个字段的 32 位值。 零结果指示成功和非零结果指示故障。
   

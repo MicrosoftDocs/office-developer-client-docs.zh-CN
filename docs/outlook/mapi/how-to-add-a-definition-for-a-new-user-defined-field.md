@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 26c329323eebff6cfdf4f4be4dffe9a62f8745e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2f9d1623c3733292ebf5c65452ac0d65f577c4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775080"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592715"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>添加新用户定义的字段的定义
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当您向 Microsoft Outlook 项目中添加用户定义的字段时，您将字段定义添加到相应[属性定义](propertydefinition-stream-structure.md)流结构。 使用以下过程将一个新的字段定义添加到属性定义流结构。 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 87f5c3fc8475f9795847e4680babb26682608a5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1a4011a22f1029cc4002d4506eb4d335bd280bec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777816"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593436"
 ---
 # <a name="pidtaglistunsubscribe-canonical-property"></a>PidTagListUnsubscribe 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 消息的列表取消标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777816"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要生成列表取消头字段中，客户端必须将这些属性设置为所需的值。 MIME 作者必须将这些属性的值复制到列表取消标头字段。
   

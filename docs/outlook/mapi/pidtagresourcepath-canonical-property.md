@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac49538e-6ee8-4ab4-9d79-88a83c7d0149
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d7385ea403e7ea45c97f6fd98e422ad7eb762c4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a00abec7627eb12e23e7b76f5d0900514d710ffb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778227"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593093"
 ---
 # <a name="pidtagresourcepath-canonical-property"></a>PidTagResourcePath 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含服务提供商的服务器的路径。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778227"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性中包含的路径代表所建议的路径，用户可以在何处找到资源。 提供程序特定的这些属性定义。 例如，计划应用程序使用这些属性来指定其日程安排的应用程序文件的建议的位置。
   

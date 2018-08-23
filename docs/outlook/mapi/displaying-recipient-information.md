@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7071c05f6f59740163f97f840c7fa48d83bea815
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4610d9e643541e39144f2af86a2d64928b8e9ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774821"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591287"
 ---
 # <a name="displaying-recipient-information"></a>显示收件人信息
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 提供了用于显示收件人的详细信息的常见的对话框。 显示表和**IMAPIProp**实现被创建详细信息对话框。 显示表描述了显示的详细信息的外观和**IMAPIProp**实现收件人控件数据。 您的提供程序负责提供显示表和**IMAPIProp**实现的每个收件人。 
   

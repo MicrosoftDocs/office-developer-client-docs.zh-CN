@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b5347205e10b44d62a7e11cbe2f4179970f1bd64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775367"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591070"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册的窗体查看有关影响窗体的事件通知。
   
@@ -54,7 +54,7 @@ E_OUTOFMEMORY
   
 > 由于内存不足，注册成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用窗体**IMAPIForm::Advise**方法来注册到窗体发生更改时通知。 
   

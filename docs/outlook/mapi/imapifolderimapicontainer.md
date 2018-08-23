@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 64a64029c3507d9ac4b520076a44e23170dd9bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1886987515f3cafe38418960baa4b6fd89e3b6f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775377"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590797"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在文件夹中执行操作的消息和子文件夹。
   

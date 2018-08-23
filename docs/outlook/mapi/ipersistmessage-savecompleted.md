@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7a82ce9a46017993adfc6c4c755b6c97b847e579
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7813636abc1c4d6ad756c7cf670e21d4acb7f540
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775994"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592743"
 ---
 # <a name="ipersistmessagesavecompleted"></a>IPersistMessage::SaveCompleted
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知窗体的保存操作已完成。 
   
@@ -57,7 +57,7 @@ E_UNEXPECTED
     
    - [NoScribble](noscribble-state.md)
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IPersistMessage::SaveCompleted**调用表单查看器通知的表单的已保存所有挂起的更改。 仅当表单处于以下状态之一时，应该调用**SaveCompleted** : 
   
@@ -83,19 +83,9 @@ E_UNEXPECTED
 |窗体处于 HandsOff 状态之一，并且_pMessage_参数设置为 NULL。  <br/> |返回 E_INVALIDARG。  <br/> |
 |窗体处于以外 HandsOff 状态的状态或 NoScribble 状态。  <br/> |返回 E_UNEXPECTED。  <br/> |
    
-有关保存存储对象的详细信息，请参阅[IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx)或[IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx)方法的文档。 
+有关保存存储对象的详细信息，请参阅[IPersistStorage::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted)或[IPersistFile::SaveCompleted](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted)方法的文档。 
   
 ## <a name="see-also"></a>另请参阅
 
-
-
-[IPersistMessage : IUnknown](ipersistmessageiunknown.md)
-
-
-[表单状态](form-states.md)
-
-
-[IPersistStorage::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersiststorage_savecompleted%28Office.15%29.aspx)
-  
-[IPersistFile::SaveCompleted](http://msdn.microsoft.com/library/_com_ipersistfile_savecompleted%28Office.15%29.aspx)
-
+- [IPersistMessage : IUnknown](ipersistmessageiunknown.md)
+- [表单状态](form-states.md)

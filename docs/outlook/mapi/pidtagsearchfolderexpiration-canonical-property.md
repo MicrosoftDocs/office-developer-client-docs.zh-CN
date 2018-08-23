@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bd70d18242fadee964ad96305728e63617a0276f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2f72f68926665087ee8e3a0c9e8394042a8f955
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778359"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590769"
 ---
 # <a name="pidtagsearchfolderexpiration-canonical-property"></a>PidTagSearchFolderExpiration 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含搜索文件夹容器将过期时间和应更新或重新创建。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778359"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的格式必须为协调世界时 (UTC) 午夜 1601 年 1 月 1 日以来的分钟数。
   

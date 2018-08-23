@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0d0b8f3a394d2ec2239e8ab186d4021b60b00ea4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e022508f85b3f2c473809e730377ad74f55a43c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778121"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590279"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>PidTagReceiptTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间生成的送达报告。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778121"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置消息存储提供程序接收邮件列表并生成报表。 
   

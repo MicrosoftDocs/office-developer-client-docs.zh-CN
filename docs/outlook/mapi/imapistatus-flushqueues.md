@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d6c221ae307edb9d84cfcc0026660ea4bce7fadd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30aaaaa250155215149a941da7f7e528d65b8dc3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775582"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592197"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 强制等待发送或接收立即上载或下载的所有邮件。 MAPI 后台处理程序状态对象和传输提供程序实现的状态对象支持此方法。
   
@@ -88,7 +88,7 @@ MAPI_E_NO_SUPPORT
   
 > 状态对象不支持此操作，如缺少 STATUS_FLUSH_QUEUES 标志状态对象的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中所示。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIStatus::FlushQueues**方法请求的 MAPI 后台处理程序传输提供程序立即发送传出队列中的所有邮件或从传入的队列接收所有的消息。 **FlushQueues**是只能通过 MAPI 后台处理程序状态对象和由传输提供程序提供的状态对象实现的。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9da9a13f87eac097fba078da1f1d6c3f78f69c0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b15f12c9a7ac2041c895b935098f9681e4b3a3c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775883"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589950"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启用对已发送的邮件执行处理的消息存储提供程序。 只能通过 MAPI 后台处理程序调用此方法。
   
@@ -59,7 +59,7 @@ MAPI_E_NO_SUPPORT
   
 > 消息存储提供程序不支持已发送的邮件处理。 如果呼叫者不是 MAPI 后台处理程序，则返回此错误值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::FinishedMsg**方法对已发送的邮件执行处理。 此过程可涉及删除邮件，并将其移动到另一个文件夹或两种操作。 处理的类型取决于是否设置**PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) 和**PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) 属性。 
   

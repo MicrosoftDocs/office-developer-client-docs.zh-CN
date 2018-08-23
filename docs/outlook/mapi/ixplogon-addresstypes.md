@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a7bb1aca501e24843950114bb76b6a09b20f2467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65d633f0c2b0ce56793eaa55a417b5d6a816d449
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776119"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589845"
 ---
 # <a name="ixplogonaddresstypes"></a>IXPLogon::AddressTypes
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回的收件人的传输提供程序处理的类型。
   

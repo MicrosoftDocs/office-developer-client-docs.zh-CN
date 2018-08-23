@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c27513474048e9805bc29116aa094bc47f8f0cae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9bfb94b2929f780a428fb932efb3538f94f5aaea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776740"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591462"
 ---
 # <a name="pidliddistributionlistmembers-canonical-property"></a>PidLidDistributionListMembers 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定对应的个人通讯组列表成员的对象的 Entryid 的列表。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776740"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 个人通讯组列表中的成员可以是其他个人通讯组列表、 联系人、 全局地址列表用户或通讯组列表或一次性电子邮件地址中包含的电子地址。 每个 EntryId 的格式必须是一次性的 EntryId， [[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)中指定或换行的 EntryId。 
   

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dbe81a2a27f302a38eba6f3c5045df905d8db682
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7b74ecb44d9a38fc73ceed4077d6f7a939f92f5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19775286"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591798"
 ---
 # <a name="idle-state"></a>空闲状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  本主题介绍复制状态机空闲状态期间出现的情况。 
   

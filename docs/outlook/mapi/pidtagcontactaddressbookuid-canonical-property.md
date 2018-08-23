@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 89a6f68e9fc29b6053befb552bec48a8e9cbf162
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66eac870ffcb524be95b773697f06b2d9c03376b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777435"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590587"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>PidTagContactAddressBookUid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含标识联系人通讯簿此会话的 UID。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777435"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果您有多个联系人通讯簿配置，则此属性必须设置为每个。 
   

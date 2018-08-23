@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1009f0ea-6f35-484d-b04d-5b6e844c14dd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1cfb8f7070a8001e94fa70e90c52635c9b8be122
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 07653bea747e6e697cb1edb5669ae106c9e213fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776991"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591476"
 ---
 # <a name="pidlidreminderfileparameter-canonical-property"></a>PidLidReminderFileParameter 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定客户端应在该对象的提醒过期时播放的声音的文件名。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776991"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性不存在，则客户端可以使用默认值。
   

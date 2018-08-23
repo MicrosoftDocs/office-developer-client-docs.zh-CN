@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fc6c12d914e581c3f975e94809f0bdea73020099
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: baf45fa33ca085f51a6f9c20f72ec1fd1545ad79
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779015"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592368"
 ---
 # <a name="uladdref"></a>UlAddRef
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供一种方法来调用 OLE 方法**IUnknown::AddRef**。 
   
@@ -55,7 +55,7 @@ MAPI_E_CALL_FAILED
   
 > 意外或未知的原点出现错误，无法完成操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
  **UlAddRef**返回**IUnknown::AddRef**方法，这是新的接口的引用计数值返回的值。 值为非零值。 
   

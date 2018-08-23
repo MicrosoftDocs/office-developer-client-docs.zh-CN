@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a5ddc10aa068a7d0a18ae4b648959f258e89d132
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9d441f10a41b2f29f29d6d22a45f3c6f52270a1a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777897"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590237"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>PidTagNonReceiptReason 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含未收到一条消息的原因的窗体未送达报告的一部分的原因。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777897"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 原因可以包括，例如，消息已被丢弃。
   

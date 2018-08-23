@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 369d8c78-3cf6-4a55-ba14-9da0377d6ccf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 33f3b8e7d3d0e0d4461c947aa8e9b3ee66373d2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f91b4cdeb301eba6eb9753fc5e7dc3e3d5d892c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777072"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592617"
 ---
 # <a name="pidlidtaskglobalid-canonical-property"></a>PidLidTaskGlobalId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 查找现有任务，使用在收到任务响应或任务更新后的 GUID。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777072"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性保留未分配的任务未设置。
   

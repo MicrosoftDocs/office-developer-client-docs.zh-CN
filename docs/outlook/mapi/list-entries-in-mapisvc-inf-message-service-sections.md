@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f4f052d6-ef63-421a-9d8c-4f3c6df83863
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cfb06e8dd305add6049d035c44685be047dc744f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5b5c468b56e5b34d265e7f00bbee96142a88e1c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776140"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591119"
 ---
 # <a name="list-entries-in-mapisvcinf-message-service-sections"></a>MapiSvc.inf 邮件服务部分中的列表条目
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有两种类型的部分列表条目： 一个列出了服务提供程序部分和一列中列出 miscellaneous 消息特定于服务的部分。 使用以下格式的 mapisvc.inf 中出现以下两种类型的项：
   

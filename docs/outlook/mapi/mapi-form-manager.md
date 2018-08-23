@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d12d879ea5a82c5e0e3978d90694b3851aaac5cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776229"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592295"
 ---
 # <a name="mapi-form-manager"></a>MAPI 窗体管理器
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 窗体管理器是实现[IMAPIFormMgr](imapiformmgriunknown.md)接口的对象。 大多数组织将使用 MAPI，称为默认窗体管理器与提供的窗体管理器。 但是，组织可以替换默认窗体管理器自定义窗体管理器如果需要。 窗体管理器负责表单库中查找窗体，加载用户请求的响应中的窗体并安装到用户的本地表单库、 文件夹表单库或个人表单库的表单。 
   

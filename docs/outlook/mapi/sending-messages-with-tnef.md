@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6e2df265-b9dd-4e19-8ca5-3e31804e9120
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fb26d854b47894d8f37763b17e5ba0b26fd25ff6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9de158e2f269c7b000734beb93b26df195255bcf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778752"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592281"
 ---
 # <a name="sending-messages-with-tnef"></a>使用 TNEF 发送邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 许多传输提供程序自动发送所有传出邮件使用传输中性封装格式 (TNEF)。 TNEF 用于传输多个客户端和消息存储提供程序支持在其邮件、 各种类型和自定义属性自定义邮件类的附件中的格式化的文本。 尽管大多数传输提供程序的默认模式是发送传出邮件 TNEF，某些传输提供程序不支持它。 缺少的 TNEF 支持不是标准消息的客户端的发送和接收 IPM 消息的问题。 但是，对于基于窗体的客户端或需要自定义属性的客户端，使用 TNEF 非常重要。 设计器的依赖于窗体或自定义属性的客户端必须知道他们使用的传输提供程序的功能。
   

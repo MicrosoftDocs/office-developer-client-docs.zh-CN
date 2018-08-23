@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 22084d78-c606-4ca9-baa7-09438456d547
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 95c3f4227e62bdfb8c6c438b574b4f3df3d02746
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 350d9502413efda4773a2704cff1eeb62aaa014d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776741"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593366"
 ---
 # <a name="pidlidcontactuserfield3-canonical-property"></a>PidLidContactUserField3 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 专为该联系人的 miscellaneous 使用该联系人上指定第三个字段。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776741"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含与任何其他特定于联系人的属性无关的文本。
   

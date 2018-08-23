@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 070fa55b5116f6e5adad8f3e33bf5629583bec3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0726ceae42fecdf39512c9095295ea643b138c64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777275"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590580"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>PidTagAbDefaultPab 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含要用作个人通讯簿 (PAB) 通讯簿容器的项标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777275"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 不要使用此属性。 它是通过 MAPI 供使用。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 35e7df1d6c2d9c65af6597d22519a41cecc2ff47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 427eed260dbe56e2a83d7ddccff3eb2cebe8c27c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778087"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589985"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>PidTagProofOfSubmissionRequested 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 ASN.1 证明提交值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778087"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性对应于 X.400 提交信封每封邮件属性。
   

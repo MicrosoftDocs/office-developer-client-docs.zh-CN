@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5e4bd4f6038db3dbb33ec3511d953448fea7a6c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec581e2170b92721410106eae00e2d36b3c775a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776337"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591336"
 ---
 # <a name="mapi-spooler-overview"></a>MAPI 后台处理程序概述 （英文)
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 后台处理程序是一个函数，负责向发送消息和接收消息从邮件系统的 Microsoft Office Outlook 进程。 MAPI 后台处理程序播放消息接收和发送中的一个重要的角色。 当邮件系统不可用时，MAPI 后台处理程序存储消息，并自动将它们转发在以后。 保留到或发送数据在必要时，此功能称为存储和转发，其中远程连接共有和网络流量较高的环境中的关键功能。 MAPI 后台处理程序作为后台线程在 Outlook 中运行。
   

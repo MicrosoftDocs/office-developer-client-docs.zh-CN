@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d6a53d112e4c12cd9092ac627e99cf3c13d901f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c320b2c42b9a14c6dc428fc3df59991528cdbe36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776016"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592568"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供能够检索和更改对象的属性的访问。 
   
@@ -46,7 +46,7 @@ ms.locfileid: "19776016"
 |[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |检索的访问级别和一个或多个对象的属性的状态。  <br/> |
 |[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |添加到对象类型 PT_OBJECT 的一个或多个属性。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IPropData::IMAPIProp**接口是由 MAPI 实现，主要由服务提供商访问此实现通过调用[CreateIProp](createiprop.md)函数。 
   

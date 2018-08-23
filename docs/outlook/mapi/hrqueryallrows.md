@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5c62e5919c6e605aa4b60f48072996ed1fd4c355
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c165bcaedfc3dbab0c950d0674228b15dfeee958
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775186"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592274"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索表中的所有行。 
   
@@ -80,7 +80,7 @@ MAPI_E_TABLE_TOO_BIG
   
 > 值大于数为_crowsMax_参数传递的表中的行数。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序或服务提供商具有不能控制**HrQueryAllRows**尝试检索，以外通过提出限制_展示_参数指向的行数。 _CrowsMax_参数不会限制为特定的表格行数检索但而定义最大可用来保存所有检索的行的内存量。 仅针对大规模内存溢出保护是通过设置_crowsMax_提供应急功能。 错误返回 MAPI_E_TABLE_TOO_BIG 意味着表包含太多行一次性彻底保留在内存中。 
   

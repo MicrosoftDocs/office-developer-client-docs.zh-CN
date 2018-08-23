@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3b40c8433f93237db2ae4fd5449fe8a0da486539
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46c77ce0f14e3b7719256d8b305cb3dad767b3f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774614"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590097"
 ---
 # <a name="building-a-restriction"></a>构建限制
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要构建限制，客户端应用程序创建的各种类型的一个或多个限制结构层次结构，并将指针传递给[IMAPITable::Restrict](imapitable-restrict.md)或[IMAPITable::FindRow](imapitable-findrow.md)方法的层次结构。 下面的图和[限制的示例代码](sample-restriction-code.md)中的代码示例演示如何与不同类型的链接的限制结构实施的典型的限制。 
 

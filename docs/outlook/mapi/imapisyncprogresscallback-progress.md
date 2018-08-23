@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 12624ef6212f9113041bf5cf3a82e2b7df6eca9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5803441486f01883d08cd99048d8eae133cd3f14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775674"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592127"
 ---
 # <a name="imapisyncprogresscallbackprogress"></a>IMAPISyncProgressCallback::Progress
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 更新发送/接收对话框中的状态。 存储提供程序定期调用此函数。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1040a0730c4b26b51d3c2b7763488502b2c5323c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ce5aa8c43e284b493a0709808a196c6c6889f88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775623"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592106"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制或移动到另一个对象的一个对象，特别是排除的属性，除外的所有属性。
   
@@ -145,7 +145,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不需要呼叫者的类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::DoCopyTo**方法。 消息存储提供程序可以调用**DoCopyTo**实现其文件夹和邮件的[IMAPIProp::CopyTo](imapiprop-copyto.md)方法。 
   

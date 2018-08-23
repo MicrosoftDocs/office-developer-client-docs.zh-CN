@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 73475c5ee4e715796e06642756c05746b271d128
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e8e2474d2adb882dd0ba43aeb0d8b05044a6ce6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778815"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592057"
 ---
 # <a name="smapiformprop"></a>SMAPIFormProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述用于窗体的命名的属性。 
   
@@ -102,7 +102,7 @@ FPST_ENUM_PROP
   
 > 指向数组**SMAPIFormPropEnumVal**结构，其中每个保留的命名属性的值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SMAPIFormProp**结构包含有关用作[IMAPIFormInfo](imapiforminfoimapiprop.md)接口; 的定义的一部分的窗体属性的信息**nSpecialType**包含适用于**u**联合**SMAPIFormProp**的一部分的标记。
   

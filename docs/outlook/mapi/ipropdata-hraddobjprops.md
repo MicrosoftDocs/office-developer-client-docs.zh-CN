@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 985b763ade9670c064c6c338953debf7beaa2783
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae0d6d58f96738a9686dbdda86336c040c2e2f68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776017"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591680"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 添加到对象类型 PT_OBJECT 的一个或多个属性。
   
@@ -62,7 +62,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 某些，而不是全部已添加的属性。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IPropData::HrAddObjProps**方法添加到对象类型 PT_OBJECT 的一个或多个属性。 **HrAddObjProps**提供对象属性的[IMAPIProp::SetProps](imapiprop-setprops.md)方法的替代项，因为无法通过调用**SetProps**创建对象属性。 被包含在列表中的[IMAPIProp::GetPropList](imapiprop-getproplist.md)方法返回的属性标记属性标记中添加对象属性结果。 
   

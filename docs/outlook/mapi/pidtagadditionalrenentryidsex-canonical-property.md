@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d3a8dc45bb131f5d2e7ff370617a10e3096a99f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fcea014ca4c1b1629505127484c44ae990eed855
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590804"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>PidTagAdditionalRenEntryIdsEx 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个 store 对象的特殊文件夹条目 Id。 此多值属性中的每个条目可以映射到一个或多个条目 Id，即，没有条目和其相关联的条目 Id-一对多关系。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777300"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果使用此属性，则它包含指定条目 Id 的文件夹的块的数组。 块按照指定以下四个表的格式。
   

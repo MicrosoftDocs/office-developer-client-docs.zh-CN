@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d0418ac2ec5d01d58c63e4ad48a1066cc386e946
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eefd0c62314a35c4c6c956b8d4a4d92d5746d1c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774849"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590461"
 ---
 # <a name="dtbledit"></a>DTBLEDIT
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述将显示表中生成的对话框中使用编辑控件。
   
@@ -73,7 +73,7 @@ MAPI_UNICODE
   
 > 属性标记类型 PT_TSTRING 的属性。 **UlPropTag**成员标识显示和编辑控件中编辑其数据的字符串属性。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLEDIT**结构介绍编辑控件上一个对话框，包含字母数字信息的区域。 几乎在所有对话框都有至少一个编辑控件。 编辑控件可以由用户可修改或只读的。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: adf9b28e941e9ead9b83660f58701f13f35cabc7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775743"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592932"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知表单查看器的新的或现有邮件已加载的窗体。
   
@@ -41,7 +41,7 @@ S_OK
   
 > 通知已成功。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIViewAdviseSink::OnNewMessage**方法时使用的[IPersistMessage::InitNew](ipersistmessage-initnew.md)或[IPersistMessage::Load](ipersistmessage-load.md)方法的窗体加载一条消息。 
   

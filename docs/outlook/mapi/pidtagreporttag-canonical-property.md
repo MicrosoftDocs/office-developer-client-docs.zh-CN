@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c832842568ea3d64d50b56d226b66d551402ba6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a328d71aef57f85a5bd33db5cc219dff181dafc0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778221"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593303"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>PidTagReportTag 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含在邮件系统应将复制到生成的邮件的所有报告的二进制标记值。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778221"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性，如**PR_SUBJECT_IPM** ([PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)) 属性，用于将报告与原始邮件相关联。 
   

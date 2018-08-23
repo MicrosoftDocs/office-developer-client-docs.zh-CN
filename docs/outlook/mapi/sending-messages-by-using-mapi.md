@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 36de3b70b0ab7b16f8abed85bbd0983224e00568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6a3172dcd962c04d72aacd14d2e42990fb0f78c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778735"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593450"
 ---
 # <a name="sending-messages-by-using-mapi"></a>使用 HTML 发送邮件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序调用[IMessage::SubmitMessage](imessage-submitmessage.md)方法发送消息。 **SubmitMessage**调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)保存邮件之前将控制转到以下任意 MAPI 后台处理程序或直接到传输提供程序。 
   
