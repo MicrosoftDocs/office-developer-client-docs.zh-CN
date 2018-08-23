@@ -8,36 +8,36 @@ api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 84c2d02da840dfcad077462954cb10894ba153d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1046c8d92feec16428329636257ed9c1f0ec8719
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778555"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571477"
 ---
-# <a name="profile-tables"></a><span data-ttu-id="0099b-103">配置文件表</span><span class="sxs-lookup"><span data-stu-id="0099b-103">Profile Tables</span></span>
+# <a name="profile-tables"></a><span data-ttu-id="9329e-103">配置文件表</span><span class="sxs-lookup"><span data-stu-id="9329e-103">Profile Tables</span></span>
 
   
   
-<span data-ttu-id="0099b-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="0099b-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="9329e-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9329e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0099b-105">配置文件表列出了有关与特定客户端应用程序关联的所有配置文件信息。</span><span class="sxs-lookup"><span data-stu-id="0099b-105">The profile table lists information about all profiles associated with a particular client application.</span></span> <span data-ttu-id="0099b-106">一个配置文件表是为每个会话，由 MAPI 客户端使用的实现。</span><span class="sxs-lookup"><span data-stu-id="0099b-106">There is one profile table for every session, implemented by MAPI for use by clients.</span></span> 
+<span data-ttu-id="9329e-105">配置文件表列出了有关与特定客户端应用程序关联的所有配置文件信息。</span><span class="sxs-lookup"><span data-stu-id="9329e-105">The profile table lists information about all profiles associated with a particular client application.</span></span> <span data-ttu-id="9329e-106">一个配置文件表是为每个会话，由 MAPI 客户端使用的实现。</span><span class="sxs-lookup"><span data-stu-id="9329e-106">There is one profile table for every session, implemented by MAPI for use by clients.</span></span> 
   
-<span data-ttu-id="0099b-107">客户端通过调用[IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md)方法访问配置文件表。</span><span class="sxs-lookup"><span data-stu-id="0099b-107">Clients access the profile table by calling the [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) method.</span></span> 
+<span data-ttu-id="9329e-107">客户端通过调用[IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md)方法访问配置文件表。</span><span class="sxs-lookup"><span data-stu-id="9329e-107">Clients access the profile table by calling the [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) method.</span></span> 
   
-<span data-ttu-id="0099b-108">配置文件表是一个静态表。</span><span class="sxs-lookup"><span data-stu-id="0099b-108">The profile table is a static table.</span></span> <span data-ttu-id="0099b-109">配置文件表中不包含已标记为删除的配置文件。</span><span class="sxs-lookup"><span data-stu-id="0099b-109">Profiles that have been marked for deletion are not included in the profile table.</span></span>
+<span data-ttu-id="9329e-108">配置文件表是一个静态表。</span><span class="sxs-lookup"><span data-stu-id="9329e-108">The profile table is a static table.</span></span> <span data-ttu-id="9329e-109">配置文件表中不包含已标记为删除的配置文件。</span><span class="sxs-lookup"><span data-stu-id="9329e-109">Profiles that have been marked for deletion are not included in the profile table.</span></span>
   
-<span data-ttu-id="0099b-110">为与大多数表实现，如果调用**GetProfileTable** ，并且没有配置文件供客户端，表创建零行。</span><span class="sxs-lookup"><span data-stu-id="0099b-110">As with most table implementations, if **GetProfileTable** is called and there are no profiles available to the client, the table is created with zero rows.</span></span> 
+<span data-ttu-id="9329e-110">为与大多数表实现，如果调用**GetProfileTable** ，并且没有配置文件供客户端，表创建零行。</span><span class="sxs-lookup"><span data-stu-id="9329e-110">As with most table implementations, if **GetProfileTable** is called and there are no profiles available to the client, the table is created with zero rows.</span></span> 
   
-<span data-ttu-id="0099b-111">以下属性构成 profile 表中所需的列：</span><span class="sxs-lookup"><span data-stu-id="0099b-111">The following properties make up the required column set in profile tables:</span></span>
+<span data-ttu-id="9329e-111">以下属性构成 profile 表中所需的列：</span><span class="sxs-lookup"><span data-stu-id="9329e-111">The following properties make up the required column set in profile tables:</span></span>
   
- <span data-ttu-id="0099b-112">**PR_DEFAULT_PROFILE**([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="0099b-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span></span> 
+ <span data-ttu-id="9329e-112">**PR_DEFAULT_PROFILE**([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="9329e-112">**PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md))</span></span> 
   
- <span data-ttu-id="0099b-113">**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="0099b-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span></span> 
+ <span data-ttu-id="9329e-113">**PR_DISPLAY_NAME**([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span><span class="sxs-lookup"><span data-stu-id="9329e-113">**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="0099b-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0099b-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9329e-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9329e-114">See also</span></span>
 
 
 
-[<span data-ttu-id="0099b-115">MAPI 表</span><span class="sxs-lookup"><span data-stu-id="0099b-115">MAPI Tables</span></span>](mapi-tables.md)
+[<span data-ttu-id="9329e-115">MAPI 表</span><span class="sxs-lookup"><span data-stu-id="9329e-115">MAPI Tables</span></span>](mapi-tables.md)
 
