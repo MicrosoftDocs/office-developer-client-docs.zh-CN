@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: a7b10007-42d8-4755-8362-f8ad9a8dad68
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c1ba49ba1b4deacb684da1411d86ebd4dd19e63f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26ca126603ac1e695bd14a10cd8d9e637382b2e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775382"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584301"
 ---
-# <a name="imapiformsetviewcontext"></a><span data-ttu-id="f9721-103">IMAPIForm::SetViewContext</span><span class="sxs-lookup"><span data-stu-id="f9721-103">IMAPIForm::SetViewContext</span></span>
+# <a name="imapiformsetviewcontext"></a><span data-ttu-id="ef61b-103">IMAPIForm::SetViewContext</span><span class="sxs-lookup"><span data-stu-id="ef61b-103">IMAPIForm::SetViewContext</span></span>
 
   
   
-<span data-ttu-id="f9721-104">**适用于**： Outlook</span><span class="sxs-lookup"><span data-stu-id="f9721-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="ef61b-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef61b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f9721-105">建立窗体视图上下文。</span><span class="sxs-lookup"><span data-stu-id="f9721-105">Establishes a view context for the form.</span></span> 
+<span data-ttu-id="ef61b-105">建立窗体视图上下文。</span><span class="sxs-lookup"><span data-stu-id="ef61b-105">Establishes a view context for the form.</span></span> 
   
 ```cpp
 HRESULT SetViewContext(
@@ -33,56 +33,56 @@ HRESULT SetViewContext(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f9721-106">参数</span><span class="sxs-lookup"><span data-stu-id="f9721-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ef61b-106">参数</span><span class="sxs-lookup"><span data-stu-id="ef61b-106">Parameters</span></span>
 
- <span data-ttu-id="f9721-107">_pViewContext_</span><span class="sxs-lookup"><span data-stu-id="f9721-107">_pViewContext_</span></span>
+ <span data-ttu-id="ef61b-107">_pViewContext_</span><span class="sxs-lookup"><span data-stu-id="ef61b-107">_pViewContext_</span></span>
   
-> <span data-ttu-id="f9721-108">[in]指向新窗体视图上下文的指针。</span><span class="sxs-lookup"><span data-stu-id="f9721-108">[in] A pointer to the new view context for the form.</span></span>
+> <span data-ttu-id="ef61b-108">[in]指向新窗体视图上下文的指针。</span><span class="sxs-lookup"><span data-stu-id="ef61b-108">[in] A pointer to the new view context for the form.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="f9721-109">返回值</span><span class="sxs-lookup"><span data-stu-id="f9721-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ef61b-109">返回值</span><span class="sxs-lookup"><span data-stu-id="ef61b-109">Return value</span></span>
 
-<span data-ttu-id="f9721-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="f9721-110">S_OK</span></span> 
+<span data-ttu-id="ef61b-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="ef61b-110">S_OK</span></span> 
   
-> <span data-ttu-id="f9721-111">已成功设置视图上下文。</span><span class="sxs-lookup"><span data-stu-id="f9721-111">The view context was successfully set.</span></span>
+> <span data-ttu-id="ef61b-111">已成功设置视图上下文。</span><span class="sxs-lookup"><span data-stu-id="ef61b-111">The view context was successfully set.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f9721-112">说明</span><span class="sxs-lookup"><span data-stu-id="f9721-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ef61b-112">注解</span><span class="sxs-lookup"><span data-stu-id="ef61b-112">Remarks</span></span>
 
-<span data-ttu-id="f9721-113">表单查看器调用**IMAPIForm::SetViewContext**方法为当前建立了特定窗体视图上下文。</span><span class="sxs-lookup"><span data-stu-id="f9721-113">Form viewers call the **IMAPIForm::SetViewContext** method to establish a particular form view context as current.</span></span> <span data-ttu-id="f9721-114">窗体可以一次只有一个视图上下文。</span><span class="sxs-lookup"><span data-stu-id="f9721-114">A form can have only one view context at a time.</span></span> 
+<span data-ttu-id="ef61b-113">表单查看器调用**IMAPIForm::SetViewContext**方法为当前建立了特定窗体视图上下文。</span><span class="sxs-lookup"><span data-stu-id="ef61b-113">Form viewers call the **IMAPIForm::SetViewContext** method to establish a particular form view context as current.</span></span> <span data-ttu-id="ef61b-114">窗体可以一次只有一个视图上下文。</span><span class="sxs-lookup"><span data-stu-id="ef61b-114">A form can have only one view context at a time.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="f9721-115">针对实施者的注释</span><span class="sxs-lookup"><span data-stu-id="f9721-115">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="ef61b-115">针对实施者的注释</span><span class="sxs-lookup"><span data-stu-id="ef61b-115">Notes to implementers</span></span>
 
-<span data-ttu-id="f9721-116">大多数窗体服务器通过使用下面的算法来实现**SetViewContext** :</span><span class="sxs-lookup"><span data-stu-id="f9721-116">Most form servers implement **SetViewContext** by using the following algorithm:</span></span> 
+<span data-ttu-id="ef61b-116">大多数窗体服务器通过使用下面的算法来实现**SetViewContext** :</span><span class="sxs-lookup"><span data-stu-id="ef61b-116">Most form servers implement **SetViewContext** by using the following algorithm:</span></span> 
   
-- <span data-ttu-id="f9721-117">如果表单已经存在了视图上下文，通过在_pmnvs_参数中，调用与**null** [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md)方法取消窗体的注册，然后调用视图上下文， [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)要引用计数递减方法。</span><span class="sxs-lookup"><span data-stu-id="f9721-117">If a view context already exists for the form, cancel the form's registration by calling the [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) method with **null** in the  _pmnvs_ parameter, and then call the view context's [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method to decrement its reference count.</span></span> 
+- <span data-ttu-id="ef61b-117">如果表单已经存在了视图上下文，通过在_pmnvs_参数中，调用与**null** [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md)方法取消窗体的注册，然后调用视图上下文， [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)要引用计数递减方法。</span><span class="sxs-lookup"><span data-stu-id="ef61b-117">If a view context already exists for the form, cancel the form's registration by calling the [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) method with **null** in the  _pmnvs_ parameter, and then call the view context's [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) method to decrement its reference count.</span></span> 
     
-- <span data-ttu-id="f9721-118">如果不**为 null**的新视图上下文，通过使用_pViewContext_参数设置一个新视图的呼叫**IMAPIViewContext::SetAdviseSink**建议接收器。</span><span class="sxs-lookup"><span data-stu-id="f9721-118">If the new view context is not **null**, call **IMAPIViewContext::SetAdviseSink** by using the  _pViewContext_ parameter to set up a new view advise sink.</span></span> 
+- <span data-ttu-id="ef61b-118">如果不**为 null**的新视图上下文，通过使用_pViewContext_参数设置一个新视图的呼叫**IMAPIViewContext::SetAdviseSink**建议接收器。</span><span class="sxs-lookup"><span data-stu-id="ef61b-118">If the new view context is not **null**, call **IMAPIViewContext::SetAdviseSink** by using the  _pViewContext_ parameter to set up a new view advise sink.</span></span> 
     
-- <span data-ttu-id="f9721-119">如果不**为 null**的新视图上下文，调用[IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)方法来确定已设置的状态标志。</span><span class="sxs-lookup"><span data-stu-id="f9721-119">If the new view context is not **null**, call the [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method to determine which status flags have been set.</span></span> 
+- <span data-ttu-id="ef61b-119">如果不**为 null**的新视图上下文，调用[IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)方法来确定已设置的状态标志。</span><span class="sxs-lookup"><span data-stu-id="ef61b-119">If the new view context is not **null**, call the [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method to determine which status flags have been set.</span></span> 
     
-- <span data-ttu-id="f9721-120">如果不**为 null**的新视图上下文，将其存储，并调用其[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx)方法，以增加引用计数。</span><span class="sxs-lookup"><span data-stu-id="f9721-120">If the new view context is not **null**, store it and call its [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) method to increment its reference count.</span></span> 
+- <span data-ttu-id="ef61b-120">如果不**为 null**的新视图上下文，将其存储，并调用其[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx)方法，以增加引用计数。</span><span class="sxs-lookup"><span data-stu-id="ef61b-120">If the new view context is not **null**, store it and call its [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) method to increment its reference count.</span></span> 
     
-- <span data-ttu-id="f9721-121">更新依赖于视图上下文的任何用户界面元素。</span><span class="sxs-lookup"><span data-stu-id="f9721-121">Update any user interface elements that depend on the view context.</span></span> 
+- <span data-ttu-id="ef61b-121">更新依赖于视图上下文的任何用户界面元素。</span><span class="sxs-lookup"><span data-stu-id="ef61b-121">Update any user interface elements that depend on the view context.</span></span> 
     
-<span data-ttu-id="f9721-122">根据从**IMAPIViewContext::GetViewStatus**返回的状态标志， **SetViewContext**还可以执行其他操作。</span><span class="sxs-lookup"><span data-stu-id="f9721-122">Depending on the status flags returned from **IMAPIViewContext::GetViewStatus**, **SetViewContext** can also perform other actions.</span></span> <span data-ttu-id="f9721-123">例如，如果返回 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志， **SetViewContext**可以启用新的视图上下文**下一步**和**上一页**按钮。</span><span class="sxs-lookup"><span data-stu-id="f9721-123">For example, if the VCSTATUS_NEXT and VCSTATUS_PREV flags are returned, **SetViewContext** can enable the **Next** and **Previous** buttons for the new view context.</span></span> 
+<span data-ttu-id="ef61b-122">根据从**IMAPIViewContext::GetViewStatus**返回的状态标志， **SetViewContext**还可以执行其他操作。</span><span class="sxs-lookup"><span data-stu-id="ef61b-122">Depending on the status flags returned from **IMAPIViewContext::GetViewStatus**, **SetViewContext** can also perform other actions.</span></span> <span data-ttu-id="ef61b-123">例如，如果返回 VCSTATUS_NEXT 和 VCSTATUS_PREV 标志， **SetViewContext**可以启用新的视图上下文**下一步**和**上一页**按钮。</span><span class="sxs-lookup"><span data-stu-id="ef61b-123">For example, if the VCSTATUS_NEXT and VCSTATUS_PREV flags are returned, **SetViewContext** can enable the **Next** and **Previous** buttons for the new view context.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="f9721-124">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="f9721-124">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="ef61b-124">MFCMAPI 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="ef61b-124">MFCMAPI reference</span></span>
 
-<span data-ttu-id="f9721-125">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="f9721-125">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="ef61b-125">MFCMAPI 示例代码，请参阅下表。</span><span class="sxs-lookup"><span data-stu-id="ef61b-125">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="f9721-126">**文件**</span><span class="sxs-lookup"><span data-stu-id="f9721-126">**File**</span></span>|<span data-ttu-id="f9721-127">**函数**</span><span class="sxs-lookup"><span data-stu-id="f9721-127">**Function**</span></span>|<span data-ttu-id="f9721-128">**Comment**</span><span class="sxs-lookup"><span data-stu-id="f9721-128">**Comment**</span></span>|
+|<span data-ttu-id="ef61b-126">**文件**</span><span class="sxs-lookup"><span data-stu-id="ef61b-126">**File**</span></span>|<span data-ttu-id="ef61b-127">**函数**</span><span class="sxs-lookup"><span data-stu-id="ef61b-127">**Function**</span></span>|<span data-ttu-id="ef61b-128">**Comment**</span><span class="sxs-lookup"><span data-stu-id="ef61b-128">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="f9721-129">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="f9721-129">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="f9721-130">CreateAndDisplayNewMailInFolder</span><span class="sxs-lookup"><span data-stu-id="f9721-130">CreateAndDisplayNewMailInFolder</span></span>  <br/> |<span data-ttu-id="f9721-131">MFCMAPI 使用**IMAPIForm::SetViewContext**方法在窗体上设置 MFCMAPI 的视图上下文，在显示窗体前。</span><span class="sxs-lookup"><span data-stu-id="f9721-131">MFCMAPI uses the **IMAPIForm::SetViewContext** method to set MFCMAPI's view context on the form before the form is displayed.</span></span>  <br/> |
+|<span data-ttu-id="ef61b-129">MAPIFormFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="ef61b-129">MAPIFormFunctions.cpp</span></span>  <br/> |<span data-ttu-id="ef61b-130">CreateAndDisplayNewMailInFolder</span><span class="sxs-lookup"><span data-stu-id="ef61b-130">CreateAndDisplayNewMailInFolder</span></span>  <br/> |<span data-ttu-id="ef61b-131">MFCMAPI 使用**IMAPIForm::SetViewContext**方法在窗体上设置 MFCMAPI 的视图上下文，在显示窗体前。</span><span class="sxs-lookup"><span data-stu-id="ef61b-131">MFCMAPI uses the **IMAPIForm::SetViewContext** method to set MFCMAPI's view context on the form before the form is displayed.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="f9721-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f9721-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ef61b-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="ef61b-132">See also</span></span>
 
 
 
-[<span data-ttu-id="f9721-133">IMAPIViewContext::GetViewStatus</span><span class="sxs-lookup"><span data-stu-id="f9721-133">IMAPIViewContext::GetViewStatus</span></span>](imapiviewcontext-getviewstatus.md)
+[<span data-ttu-id="ef61b-133">IMAPIViewContext::GetViewStatus</span><span class="sxs-lookup"><span data-stu-id="ef61b-133">IMAPIViewContext::GetViewStatus</span></span>](imapiviewcontext-getviewstatus.md)
   
-[<span data-ttu-id="f9721-134">IMAPIViewContext::SetAdviseSink</span><span class="sxs-lookup"><span data-stu-id="f9721-134">IMAPIViewContext::SetAdviseSink</span></span>](imapiviewcontext-setadvisesink.md)
+[<span data-ttu-id="ef61b-134">IMAPIViewContext::SetAdviseSink</span><span class="sxs-lookup"><span data-stu-id="ef61b-134">IMAPIViewContext::SetAdviseSink</span></span>](imapiviewcontext-setadvisesink.md)
   
-[<span data-ttu-id="f9721-135">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f9721-135">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
+[<span data-ttu-id="ef61b-135">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ef61b-135">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
 
 
-[<span data-ttu-id="f9721-136">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="f9721-136">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="ef61b-136">MFCMAPI 代码示例</span><span class="sxs-lookup"><span data-stu-id="ef61b-136">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 
