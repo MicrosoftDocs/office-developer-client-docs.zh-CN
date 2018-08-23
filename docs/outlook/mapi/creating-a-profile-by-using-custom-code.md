@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 74869293215b86c69ab4e0b1337be6014419fa3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c14d58e8a03633615798b50b256b9cc54fcc4f4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594731"
 ---
 # <a name="creating-a-profile-by-using-custom-code"></a>使用自定义代码创建配置文件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果您选择编写代码来创建一个配置文件，请确保您了解如何进行排序的配置文件条目的类型和数量的所需的每个项的信息。 排序配置文件中的条目的含义是[MAPI 配置文件](mapi-profiles.md)中所述。
   

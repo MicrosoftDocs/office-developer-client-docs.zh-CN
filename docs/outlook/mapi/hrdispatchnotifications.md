@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28afa338b37e747ed441a8767981b7e63808e741
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 60c5d7e980d1dc4d4263a2be2267008dbee1fd4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594696"
 ---
 # <a name="hrdispatchnotifications"></a>HrDispatchNotifications
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 强制调度的所有排队的通知。 
   
@@ -59,7 +59,7 @@ MAPI_E_NOT_INITIALIZED
   
 > 未初始化 MAPI。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **HrDispatchNotifications**函数会导致 MAPI 调度当前无需等待消息调度排队 MAPI 通知引擎中的所有通知。 这可能会产生对内存使用率有益影响。 有关详细信息，请参阅[强制通知](forcing-a-notification.md)。 
   

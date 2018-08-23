@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0782191010341019ebea71ebf545dec490521520
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a145a103620d23dae4f6a48c225251e8aecc278e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777048"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593667"
 ---
 # <a name="pidlidtaskactualeffort-canonical-property"></a>PidLidTaskActualEffort 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示用户执行任务的分钟数。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777048"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 值必须是大于或等于 0 和小于 0x5AE980DF (1,525,252,319)，其中 480 分钟等于一个天和 2400 分钟等于一周 （在工作日和工作周中的五天 8 小时）。
   

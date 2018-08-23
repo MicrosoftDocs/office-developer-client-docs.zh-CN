@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c2e6600af66f3dab8ff0fbb5442a1354687a3cbb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c5b2d7db745cc270c0be7ee2184e86c6a4f97aad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775907"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594297"
 ---
 # <a name="imslogoncompareentryids"></a>IMSLogon::CompareEntryIDs
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 比较两个条目标识符来确定它们是否引用同一个对象。 仅当要比较两个条目 identifiers 中的唯一标识符 (Uid) 处理该服务提供商，MAPI 引用到的服务提供此呼叫。
   
@@ -70,7 +70,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序实现**IMSLogon::CompareEntryIDs**方法比较两个条目中的消息存储，以确定它们是否引用同一个对象的给定项标识符。 如果两个条目标识符引用相同的对象，则**CompareEntryIDs**将_lpulResult_参数设置为 TRUE;如果它们引用不同对象， **CompareEntryIDs**将_lpulResult_设置为 FALSE。 
   

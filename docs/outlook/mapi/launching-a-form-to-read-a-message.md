@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 675de7eeda534d8761887cdcb6d5c94a209ca18b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9166090321aa24e35fe1c82908aec0c403095cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593737"
 ---
 # <a name="launching-a-form-to-read-a-message"></a>启动要读取邮件的表单
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端应用程序加载一条消息时，窗体服务器实施应产生预期方法调用其窗体服务器和窗体对象的以下序列：
   

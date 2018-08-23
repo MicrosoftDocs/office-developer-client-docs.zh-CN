@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7008549111f1b914cf2025c8d61ebc07196706fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0242015680f11e5be6ae8ea9987e5778dc7cdf05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594360"
 ---
 # <a name="itneffinishcomponent"></a>ITnef::FinishComponent
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 到传输中性封装格式 (TNEF) stream 一次处理从一个一条消息的各个组件。
   
@@ -78,7 +78,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 传输提供程序、 消息存储提供程序，和网关呼叫**ITnef::FinishComponent**方法执行 TNEF 处理的一个组件，一条消息或附件，如标志所指示的_ulFlags_参数中设置。 
   

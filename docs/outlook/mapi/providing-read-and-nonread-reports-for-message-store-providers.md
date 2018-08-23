@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9644b8c5-ecc0-4ea3-972a-2169c78b99e5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b082d063cc77be46fcd3d4e07ec6753f78f8f335
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e2552cbeaf528de634c39a5ebd175a2615782b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778607"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594437"
 ---
 # <a name="providing-read-and-nonread-reports-for-message-store-providers"></a>为邮件存储区提供程序提供读取和未读报告
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果消息存储提供程序可以接收邮件，则需要支持阅读的报告和邮件存储提供程序接收的消息的 nonread 的报告。 如果收到的邮件包含**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性，该属性值为 TRUE 的消息存储应向发送一封通知邮件发件人在用户打开邮件时指示邮件已被阅读。 同样，如果用户删除邮件，然后再打开它，消息存储应发出对指示未被阅读邮件发件人的回复。
   

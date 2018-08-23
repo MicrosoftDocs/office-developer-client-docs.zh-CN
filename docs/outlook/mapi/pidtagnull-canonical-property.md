@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 55db507055692c9e929b0125abf719d8c03ac967
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efb0812a88ad435c2456a729a6e950b371cc0250
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777908"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595347"
 ---
 # <a name="pidtagnull-canonical-property"></a>PidTagNull 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 代表一个 null 值或属性的设置，或保留数组空间。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777908"
 |数据类型：  <br/> |PT_NULL  <br/> |
 |区域：  <br/> |Common  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于保留空间数组中的[SPropValue](spropvalue.md)结构。 使用数组中的[SPropTagArray](sproptagarray.md)结构以告知保留空间返回的数组中的**SPropValue**结构的方法。 这样，计算属性便宜方式填充。 
   

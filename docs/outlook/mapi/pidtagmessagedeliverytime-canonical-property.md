@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4f9d44f2-4faa-4f16-9e33-22f80c17db85
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4fd74e99a8073db03ad47292677ff98efca58af3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b635ad72acc2bd98ca0c207dea71ea2df757e22b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593933"
 ---
 # <a name="pidtagmessagedeliverytime-canonical-property"></a>PidTagMessageDeliveryTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的日期和时间时邮件已送达。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777844"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |消息时间  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性描述了消息存储在服务器上的时间，而不是时传输提供程序将邮件从服务器复制到本地存储的下载时间。
   

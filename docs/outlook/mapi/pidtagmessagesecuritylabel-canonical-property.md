@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: aae41f1b-19bb-40c7-8564-0c87a5a4e47c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 24cf7d8d7b025e5a013ce3a5c1bb03da5ae8a6a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6caa322e1d266be1fe56aecd89736e757067758
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777858"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594367"
 ---
 # <a name="pidtagmessagesecuritylabel-canonical-property"></a>PidTagMessageSecurityLabel 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含邮件安全标签。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777858"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Server  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性提供在其**PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) 属性保护邮件的基础。 由令牌保证其与邮件内容的关联。
   

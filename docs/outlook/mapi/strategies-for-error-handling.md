@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: be941efd-04b3-48d0-9b9c-8195ad2bb58d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e778df216d0fe9b901cd9f7136c8014a6b8f0d0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0ec3ada71a3e604ea71c5d386f1ff0466132081
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778883"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594087"
 ---
 # <a name="strategies-for-error-handling"></a>错误处理的策略
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 由于接口方法是虚拟，不能为呼叫者，了解整套可以从任何一个的调用返回的值。 一种方法的实现可能返回五个值;另一个可能返回 8。 MAPI 文档中的引用条目列表几个可针对每种方法; 返回的值这些是您的客户端或服务提供商可以检查和处理，因为它们具有特殊含义的值。 可返回其他值，但因为它们不是有意义，特殊代码以处理那些没有必要。 对成功或失败的简单检查就足够了。
   

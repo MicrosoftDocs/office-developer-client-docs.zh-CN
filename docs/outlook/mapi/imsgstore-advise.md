@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6a315cef8263f7e241a815a0f054dc3174d88fa7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddd9d3c0a61a3a2a585edd6c370285b2f6d424e3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775858"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593716"
 ---
 # <a name="imsgstoreadvise"></a>IMsgStore::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册接收影响消息存储库的指定事件的通知。
   
@@ -113,7 +113,7 @@ MAPI_E_NO_SUPPORT
   
 > 消息存储提供程序不支持的通知消息存储通过注册。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::Advise**方法建立呼叫者之间的连接的建议接收器对象和消息存储库或消息存储库中的对象。 此连接用于将通知发送到通知接收器当一个或多个事件， _ulEventMask_参数中指定发生 advise 源对象。 当_lpEntryID_参数指向的有效条目标识符，advise 源是由此条目标识符标识的对象。 _LpEntryID_为 NULL，advise 源时消息存储库。 
   
@@ -155,7 +155,7 @@ MFCMAPI 示例代码，请参阅下表。
   
 [IMsgStore::Unadvise](imsgstore-unadvise.md)
   
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

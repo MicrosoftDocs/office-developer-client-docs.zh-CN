@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d7d64c8a7d4df4898502f4574ca879c736547b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e65ebd3ea485ca54978d622e8aaf093dc5eff74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778939"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594066"
 ---
 # <a name="supporting-rtf-text-for-message-store-providers"></a>支持邮件存储区提供程序的 RTF 文本
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 某些客户端应用程序允许用户在其消息中使用富文本格式 (RTF) 文本。 如果您的消息存储提供程序需要在消息中支持 RTF 的文本，它需要处理**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性，除了**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性。 主要，这意味着存储这两个属性，并确保**PR_BODY**包含**PR_RTF_COMPRESSED**中的文本的纯文本版本。 实现此目的， [RTFSync](rtfsync.md)函数很有用。 
   

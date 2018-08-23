@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 04952b51-f005-4933-a1d1-695c6dc736cc
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 399fa54f7120ff72778b89f1122c6852cb15a677
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 86aab965a00c9d988a78c5732b90ef4740d70ce4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775402"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594094"
 ---
 # <a name="imapiformcontainergetlasterror"></a>IMAPIFormContainer::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前面生成的窗体 container 对象的错误的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志**GetLastError**不支持 Unicode，或未设置 MAPI_UNICODE 和**GetLastError**支持仅 Unicode。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFormContainer::GetLastError**方法提供有关失败的前一个方法调用的信息。 呼叫者可以向其用户提供有关错误的详细信息通过在对话框中包括的**MAPIERROR**结构中的数据。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a95222f8ec75c519558636cf54111f28cbe14066
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b457fce208923ce01686812f20031e365842ccd8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775797"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593674"
 ---
 # <a name="implementing-an-advise-sink-object"></a>实现通知接收器对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端可以实现自己 advise 接收器对象也可以使用的实用工具函数， [HrAllocAdviseSink](hrallocadvisesink.md)。 **HrAllocAdviseSink**调用的回调函数的**OnNotify**实现用来创建 advise 接收器对象。 
   
@@ -37,7 +37,7 @@ ms.locfileid: "19775797"
 |:-----|:-----|
 |移动对象  <br/> |如果移动的对象的原始父与新父级，更新文件夹或通讯簿容器层次结构中最高视图开头。 如果两个父容器无关，更新这两个其视图。  <br/> |
 |新的邮件  <br/> |更改通知的一个或多个新邮件到达用户的用户界面。 当前视图中放置的接收文件夹。  <br/> |
-|错误  <br/> |对于除会话的所有对象，如果必要和返回记录错误。 对于会话对象中，先注销如果可能。  <br/> |
+|Error  <br/> |对于除会话的所有对象，如果必要和返回记录错误。 对于会话对象中，先注销如果可能。  <br/> |
 |搜索完成  <br/> |没有必要的处理。  <br/> |
    
 > [!NOTE]

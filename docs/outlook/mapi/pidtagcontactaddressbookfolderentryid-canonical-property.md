@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 54361b61-de14-4409-b120-7a01a401be49
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9fac2c315b461bd08ba9305706842b667cd99eff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c98d168ab0f3092ad3f4ada89b21fa85372b9537
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593926"
 ---
 # <a name="pidtagcontactaddressbookfolderentryid-canonical-property"></a>PidTagContactAddressBookFolderEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含联系人文件夹中保留邮件用户的位置的消息存储的标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777418"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这是联系人通讯簿容器和联系人通讯簿容器的表中的列上的属性。
   

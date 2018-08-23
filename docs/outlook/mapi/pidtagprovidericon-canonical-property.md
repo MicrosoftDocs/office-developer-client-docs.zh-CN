@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 92407d56bd095135ac1c6c292aa4b1da4755e93c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61dc61872e8d1ed525d5ac3c46c56ccc3e45ea5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593695"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>PidTagProviderIcon 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含指定自定义图标或图标以显示在 Microsoft Office Outlook 的状态栏中联机和脱机状态 MAPI 提供程序的 Unicode 字符串。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778084"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性指定资源文件包含自定义图标表示处于联机状态，MAPI 提供程序和 （可选），另一个自定义图标处于脱机状态。 Outlook 始终请求 Unicode 表示这些属性。 
   

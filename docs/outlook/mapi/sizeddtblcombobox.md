@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fea2b496a34d7aa7f9469158fae14daf6a770608
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778801"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593653"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个名为的结构包含用于描述组合框控件和最大可以关联的编辑控件中输入的字符数[DTBLCOMBOBOX](dtblcombobox.md)结构。 
   
@@ -44,7 +44,7 @@ _u_
   
 > 新结构的的名称。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SizedDtblComboBox**宏允许您定义组合框时已知启用的字符串的长度。 使用下列成员来创建新的结构： 
   

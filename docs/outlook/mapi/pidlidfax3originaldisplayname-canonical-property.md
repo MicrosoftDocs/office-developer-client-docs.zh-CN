@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 13d0c431-7e46-4971-9b62-62e680a4cae9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7f1327791ea6479ce599ea7b56c5131fea868a50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0c9b88497f8c58dbbbebd89f3974aae4a823cb04
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595095"
 ---
 # <a name="pidlidfax3originaldisplayname-canonical-property"></a>PidLidFax3OriginalDisplayName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的原始显示名称的其他传真地址。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776844"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性，如果存在此参数，必须将设置为**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) 属性相同的值。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d2c2fb31b722e76034b08077632c817d6adde802
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f66a570273d78f63ced110a4bdc8a12a49c531b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777170"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595242"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>PidNameAcceptLanguage 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 [RFC3282] 接受语言标头字段值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777170"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端应编写将接受语言标头字段与所需的值。 MIME 客户端可能会改为编写 X 接受语言标头字段。 MIME 读者应将任一标头字段的值复制到此属性的值。 如果存在两个标头字段时，MIME 读者应使用接受语言标头字段。
   

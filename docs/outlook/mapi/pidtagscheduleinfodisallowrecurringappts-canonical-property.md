@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 61e082dd-f5bc-479b-990a-c9c0360f883e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f5f3feb5b3186f8d0239558aa410c7f71bdf54f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19e2cc0b95aaefbca1ec618c55b8d397de4d340e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778330"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593688"
 ---
 # <a name="pidtagscheduleinfodisallowrecurringappts-canonical-property"></a>PidTagScheduleInfoDisallowRecurringAppts 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 拒绝对定期约会的自动响应时包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778330"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) 属性的值为 TRUE 时，此属性才有意义。 此属性不存在指示必须接受定期会议。 这不是必需的属性。
   

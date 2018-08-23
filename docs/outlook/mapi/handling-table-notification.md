@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 95ef351e4fe906608319a3e25de8f20a44e23d9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b36e4697bfd4360f4ea6ea47c70eaaae434696d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775070"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595130"
 ---
 # <a name="handling-table-notification"></a>处理表通知
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 作为的替代方式直接注册 advise source 对象，如文件夹或消息的用户，客户端可以在内容通知注册或层次结构表。 跟踪更改通讯簿条目、 文件夹和邮件内容或层次结构表可以更简单、 更加比通过单个对象。 
 

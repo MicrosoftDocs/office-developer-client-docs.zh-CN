@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ebe4622ec9ed25be5ee8a736ed15e2f230ff05e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 068bd55761ffd6b10761412314de97791c016f9b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778639"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594325"
 ---
 # <a name="required-properties-for-all-messages"></a>所有邮件的必需属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 下表介绍了客户端可以预期设置或请参阅支持的所有类的邮件的属性。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cbaf37415608dd1d79a06be65b34632f2b4afc89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce2b2497bd89f00ce7f063d3e482752fabfeb731
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779002"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594332"
 ---
 # <a name="tnef-stream-syntax"></a>TNEF 流语法
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题提供类似的 TNEF 流语法说明 Bakus-诺尔。 在此说明，有进一步定义的终结元素是斜体。 常量和文字项目是以粗体显示。 在同一行顺序列出了序列的元素。 例如，_流_项包含常量**TNEF_SIGNATURE**后, 跟一个_键_后, 跟一个_对象_。 当项目具有多个可能的实现时，列出连续线上。 例如， _Message_Seq_后, 跟_Attach_Seq_或只_Attach_Seq_ _Message_Seq_可以包括一个_对象_。
   

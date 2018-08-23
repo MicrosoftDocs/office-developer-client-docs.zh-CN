@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 59c0deefc680bdb5eafca681aedbee7fda29a273
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3008422420dc9bd02f32cbb6900ffe4ebba38877
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595088"
 ---
 # <a name="pidlidimapdeleted-canonical-property"></a>PidLidImapDeleted 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表示标记为删除的 Internet 邮件访问协议 (IMAP) 项。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776871"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |IMAP  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果设置为非零值，该项目已标记为删除。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bce70d891bc33dcddb94fc05992c09991c6cdc63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33d811af0fc9e06902750075ba39bfb6ca88903f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775687"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593709"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传入的存储提供程序作为字段的 MAPISIB 结构到在呼叫过程中[IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md)。 存储提供程序使用此接口提供反馈到 Microsoft Outlook 同步的状态。
   

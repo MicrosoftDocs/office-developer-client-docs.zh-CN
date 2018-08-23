@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: f06a1034-ee49-4a09-831e-9752713228a8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cf52062eacbd13b45087df9d8558bffd43ccd744
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de0acb88eee6addc0347f5281e5fbe5070bad0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774503"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595404"
 ---
 # <a name="acting-as-a-host-address-book-provider"></a>充当主机通讯簿提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 宿主提供程序是通讯簿提供程序，包括其容器中的其他提供程序的收件人，并依赖于由其他提供程序部分控制其维护的收件人的实现。 宿主提供程序使用这些外的收件人的模板的标识符将这些收件人数据绑定到外的提供程序中的代码。 您的提供商检索收件人的**PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) 属性，并将其传递[IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md)将调用时启动此绑定进程。 
   

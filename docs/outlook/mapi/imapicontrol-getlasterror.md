@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 83290b8e-fffc-41c8-a01e-578d130b65c5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2be5e40de6894b99d9de86423e99dd95a08bc04c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ef5fee7a2e84133f88a00703f7602831d26e3d3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775312"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594724"
 ---
 # <a name="imapicontrolgetlasterror"></a>IMAPIControl::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含有关前一个按钮控件错误的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 服务提供商实现**IMAPIControl::GetLastError**方法以提供有关失败的前一个方法调用的信息。 MAPI 可以通过在消息或对话框中显示的数据从**MAPIERROR**结构授予用户有关错误的详细的信息。 
   

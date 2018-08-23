@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1fd711683ff476ef5d381bca2f9db6bc25b07c68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4dd7e9715c2d3c99eda44f7eed0b3360a2e33be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775702"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595298"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 折叠的扩展的表类别，删除任何级别较低的标题和叶行属于表视图中的类别。
   
@@ -68,7 +68,7 @@ MAPI_E_INVALID_ENTRYID
   
 > _PbInstanceKey_参数标识的行不存在。 此错误是 MAPI_E_NOT_FOUND; 替代方法服务提供商可以返回其中任何一个。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::CollapseRow**方法折叠表类别，并将其删除表视图中。 行折叠开始_pbInstanceKey_参数指向**PR_INSTANCE_KEY**属性标识的行。 从视图中删除的行数返回_lpulRowCount_参数的内容。 
   

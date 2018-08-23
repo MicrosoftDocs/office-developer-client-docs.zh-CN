@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 78543caa-e6ec-4ac7-bfdd-70c56f8fd955
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8c104af106a885f42f8063bcf5fb55d654f2688e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc31d26ba1aa695ad0b64114ac7992e10bb548ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777776"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595405"
 ---
 # <a name="pidtagjunkaddrecipientstosafesenderslist-canonical-property"></a>PidTagJunkAddRecipientsToSafeSendersList 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示要添加到安全发件人列表的邮件收件人。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777776"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果存在此参数，则此属性必须设置为 0 或 1。 1 表示邮件收件人是要添加到安全发件人列表。 0 值表示邮件收件人的不是要添加到安全发件人列表。
   

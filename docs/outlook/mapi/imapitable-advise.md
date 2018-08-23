@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 781146193748cdd9408a3320e90a73a070ced2af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd6b119bd88fccf80bf2488592a24b3398e6e8af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775704"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594241"
 ---
 # <a name="imapitableadvise"></a>IMAPITable::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册接收通知的影响表指定事件的 advise 接收器对象。
   
@@ -61,7 +61,7 @@ MAPI_E_NO_SUPPORT
   
 > 表实现不支持为其行和列的更改，或不支持通知。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用**IMAPITable::Advise**方法注册的提供程序通知回调中实现一个 table 对象。 当对 table 对象发生了更改时，提供程序将检查以了解哪些事件掩码位_ulEventMask_参数中的设置，因此发生更改的类型。 如果位设置，然后提供程序调用[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法所指示的报告，事件将_lpAdviseSink_参数 advise 接收器对象。 数据传递给**OnNotify**例程通知结构中介绍的事件。 
   

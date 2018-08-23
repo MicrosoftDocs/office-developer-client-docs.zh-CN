@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e9deaa7c-430b-4e97-8ed6-f7c615956e0f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2ad57b91a1b9d06ab8284fa53c283d17e4eb5613
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3ddfcdd95f0423ba92c37c434f18078eadf90d82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776036"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594017"
 ---
 # <a name="iprovideradmingetprovidertable"></a>IProviderAdmin::GetProviderTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供对邮件服务提供程序表中，消息服务的服务提供商的列表的访问。
   
@@ -54,7 +54,7 @@ S_OK
   
 > 已成功返回提供程序表中。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IProviderAdmin::GetProviderTable**方法检索与邮件服务提供程序表，MAPI 维护，包含有关每个邮件服务中的服务提供商信息表的指针。 
   

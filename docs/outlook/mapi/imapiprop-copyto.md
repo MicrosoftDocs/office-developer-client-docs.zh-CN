@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aa2869b1e3495bfb8a431e79a55d11a1ee1c5ca6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bbc9dcf2218907b5d31ce1fc9f904e6ae1da47d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594010"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制或移动的所有属性，特别是排除属性除外。
   
@@ -139,7 +139,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不需要呼叫者的类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 默认情况下， **IMAPIProp::CopyTo**方法复制或移动的所有当前对象的属性对目标对象。 **CopyTo**应复制或移动完全，与所有或其属性保持不变的大多数对象时使用。 
   

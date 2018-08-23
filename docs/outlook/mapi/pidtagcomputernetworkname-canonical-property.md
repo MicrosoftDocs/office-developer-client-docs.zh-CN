@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 69467594-0d88-43e5-a6ab-9987a24cc846
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ef2563cb3939b935b7e52ab84c1a1ac7b7b5bbb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c786c19db1f195a089f751bcb162448b44f98f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777416"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595207"
 ---
 # <a name="pidtagcomputernetworkname-canonical-property"></a>PidTagComputerNetworkName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于将邮件传输的网络的名称。
   

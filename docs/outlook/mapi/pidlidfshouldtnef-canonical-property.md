@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 15354a4a07304913cce06d50564b66abe5062a96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad9d81342ed749b6b1b640fd8118519aae7469a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595172"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>PidLidFShouldTNEF 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示是否对项目使用传输中性封装格式 (TNEF) 编码。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776867"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性设置 Microsoft Word 设置为电子邮件编辑器，然后发送富文本格式 (RTF) 流中嵌入的 OLE 对象时。
   

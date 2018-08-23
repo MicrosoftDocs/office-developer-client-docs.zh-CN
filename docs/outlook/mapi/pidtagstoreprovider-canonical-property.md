@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b634f815d2aedecc716227c6525b846db38ca869
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 02d2c30fede7e554910a1bedb01b79c488447bb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778462"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595354"
 ---
 # <a name="pidtagstoreprovider-canonical-property"></a>PidTagStoreProvider 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个提供程序定义[MAPIUID](mapiuid.md)结构，指示邮件存储的类型。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778462"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 [MAPIUID](mapiuid.md)结构标识消息存储库的类型。 此值计算的消息存储对象上的消息存储提供程序，并且是唯一的每个提供程序。 它通常用于浏览消息存储表如公用文件夹中查找所需类型的存储区。 
   

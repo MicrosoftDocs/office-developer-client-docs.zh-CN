@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: dfe66d5d-7b82-46c6-871b-2ce809bbca7e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cc467336b240ce4ee3fa2407f8e72e9c921bb9fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: beff2f67426707051e62e11776fead9abc0e1534
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777107"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595249"
 ---
 # <a name="pidlidtaskstatusoncomplete-canonical-property"></a>PidLidTaskStatusOnComplete 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示是否已经请求任务受理人发送电子邮件消息更新时它们完成所分配的任务。
   

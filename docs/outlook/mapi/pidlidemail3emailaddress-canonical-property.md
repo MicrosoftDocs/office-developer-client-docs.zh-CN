@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3a468bb6-c4c2-42ee-8283-492196872ca0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a4015937dd2f3dc77cb3f549a0a70027b4fcea55
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82328e285d0bf77ced074ba19aed306a27cea574
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776763"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594773"
 ---
 # <a name="pidlidemail3emailaddress-canonical-property"></a>PidLidEmail3EmailAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的第三个电子邮件地址。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776763"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须是适用于此电子邮件地址为指定的地址类型。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d683d5fc959b219569417c74494cb47d7c2c059e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e95423a1aa9a04247a70592a797d2395cafecc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778869"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595368"
 ---
 # <a name="starting-a-mapi-session"></a>启动 MAPI 会话
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 虽然大量会话开始备份过程中执行，但需要执行的任务是操作的最少。 MAPI 中完成的此工作的大部分[MAPIInitialize](mapiinitialize.md)和[MAPILogonEx](mapilogonex.md)呼叫处理。 这两个这些函数接受作为输入参数的控制的会话的用户界面通知处理等方面的标志。 若要了解调用**MAPIInitialize**初始化 MAPI 库和**MAPILogonEx**用于登录到 MAPI 子系统时设置每个这些标志的后果至关重要。 
   

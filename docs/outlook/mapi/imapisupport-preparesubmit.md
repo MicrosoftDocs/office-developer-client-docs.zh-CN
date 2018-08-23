@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f6902b45cde3e5349d69b6f35c3f8980deb031b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5f45a6457bba738b290d967260bbd34c0f88f93f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595060"
 ---
 # <a name="imapisupportpreparesubmit"></a>IMAPISupport::PrepareSubmit
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提交到 MAPI 后台处理程序准备一条消息。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 邮件已成功准备好。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储提供程序支持对象的实现**IMAPISupport::PrepareSubmit**方法。 消息存储提供程序调用**PrepareSubmit**其方法的实现， [IMessage::SubmitMessage](imessage-submitmessage.md) MAPI 后台处理程序提交准备一条消息。 
   

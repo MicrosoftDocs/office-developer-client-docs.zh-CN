@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: be975f74-4b95-45a4-bbee-959fa8e4ad45
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fc3324cb686733f06b9cc0945c93b7df2e5980ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eddcc911653830f63ae4afc564af891d3d7213e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777040"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595235"
 ---
 # <a name="pidlidsharingremotename-canonical-property"></a>PidLidSharingRemoteName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定共享远程文件夹的名称。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777040"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性必须设置为**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性的值中，在共享文件夹中。
   

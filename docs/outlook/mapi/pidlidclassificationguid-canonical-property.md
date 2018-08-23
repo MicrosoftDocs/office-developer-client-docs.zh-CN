@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e95c2445-7711-4683-8c39-3979b64fe100
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8bf81b60afb70ad60e382acb5d0cd0a94ca1e244
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b24b76b311c169f9e8d6e6fc8443a064047a3e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776718"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594318"
 ---
 # <a name="pidlidclassificationguid-canonical-property"></a>PidLidClassificationGuid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定现有邮件分类的全局唯一标识符 (GUID)。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776718"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关其他信息，请参阅[如何为 Outlook 2007 部署邮件分类](http://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
   

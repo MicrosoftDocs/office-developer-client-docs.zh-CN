@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d9a15abc05bf0f0a6fef35dd489f12925b88014a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 791dfe094aa0ff1aab656b56fbdf7d59e880b92e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775860"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593730"
 ---
 # <a name="imsgserviceadmincopymsgservice"></a>IMsgServiceAdmin::CopyMsgService
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将邮件服务复制到一个配置文件。 
   
@@ -87,7 +87,7 @@ MAPI_E_NOT_FOUND
   
 > 指向_lpUID_ **MAPIUID**不引用现有消息服务。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgServiceAdmin::CopyMsgService**方法将消息服务复制到配置文件、 活动配置文件或另一个配置文件。 包含要复制的消息服务的配置文件和目标不具有的相同的配置文件，但也可以是。 
   

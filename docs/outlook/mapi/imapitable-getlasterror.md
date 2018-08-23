@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 832e2c18-ddba-4d18-a391-710d21fe23e6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b8ee83ad550106ae82f3308b9ef5692f66f5f5b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7b1db5bcc718858b01f122f53406c885998741
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775706"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593814"
 ---
 # <a name="imapitablegetlasterror"></a>IMAPITable::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回[MAPIERROR](mapierror.md)结构包含有关在表格的上一个错误。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现仅支持 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::GetLastError**方法返回的详细的信息，如果可用，有关失败的前一个方法调用。 可以在一条消息或对话框中显示此信息。 
   

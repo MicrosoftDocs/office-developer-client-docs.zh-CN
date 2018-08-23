@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a6659f64f6e8d2e3dc61819b2263efe672cdd15c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 179d76b56c1ba9b40768c691d0b1555377f7adb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595046"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从表中，开始在当前光标位置返回一个或多个行。
   
@@ -67,7 +67,7 @@ MAPI_E_INVALID_PARAMETER
   
 > _IRowCount_参数设置为零。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::QueryRows**方法获取表中的一个或多个数据行。 _IRowCount_参数的值会影响检索的起始点。 如果_IRowCount_为正数，则读取行时向前，当前位置开始。 如果_IRowCount_为负数， **QueryRows**通过向后移动指定的行数重置的起始点。 光标重置之后，将向顺序读取行。 
   

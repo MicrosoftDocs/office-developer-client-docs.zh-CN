@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 180022af-4c1c-408c-a3fe-ed075cef79ab
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fd2575d401aa8a39d6f3b2cd08377b587b430ef1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cee58299147c9f97ff61a3b8c460125349910637
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775386"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594458"
 ---
 # <a name="imapiformadvisesink--iunknown"></a>IMAPIFormAdviseSink : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 允许表单服务器表单查看器从接收通知。 
   
@@ -43,7 +43,7 @@ ms.locfileid: "19775386"
 |[OnChange](imapiformadvisesink-onchange.md) <br/> |指示在表单查看器的状态发生更改。  <br/> |
 |[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |指示表单是否可以处理的下一条消息以显示的邮件类。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单服务器表单使用建议接收器对象而不是其 form 对象并将其包含实现**IMAPIFormAdviseSink** 。 因此，表单查看器应产生预期失败的调用窗体[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)方法来获取此接口的指针。 
   

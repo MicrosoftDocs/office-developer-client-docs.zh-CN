@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2cd55464-263f-4f83-b874-524271773934
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9f1fd2d4e4bfdc9ccbbb771fedf1141769c8c8ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffeee38920bf1c864b93e6513913c140cb658d8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595305"
 ---
 # <a name="working-with-unicode-columns"></a>处理 Unicode 列
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 可以使用标准的 8 位字符，这些属性类型 PT_STRING8 或 16 位 Unicode 字符，它们是属性类型 PT_UNICODE 表示表中的字符串。 表实施可以自由选择其表支持 Unicode 字符串。 因为 Unicode 添加值为客户端和服务提供程序通过扩展的功能集，请尽可能支持 Unicode 建议。 
   

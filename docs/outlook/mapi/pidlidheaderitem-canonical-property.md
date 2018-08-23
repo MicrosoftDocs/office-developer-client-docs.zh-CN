@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0c278ebc8a60187870e9eeb82ec639e5306a866d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 916797012d62c5ce0b67dedf957dde09ba9ba27b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776860"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595137"
 ---
 # <a name="pidlidheaderitem-canonical-property"></a>PidLidHeaderItem 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定是否 Microsoft Outlook 已下载到客户端计算机仅一条消息，或在标头和邮件正文头 Outlook 配置缓存 Exchange 模式下时。
   

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: 本主题介绍成功安装 Outlook Social Connector (OSC) 提供程序的先决条件和安装检查提供程序安装程序应完成正常工作。
-ms.openlocfilehash: cb8ed24db28c3b0e945c4db4b2daa4a2470d7dd5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9854bf5c2b524c6d735fe974046583dab990012
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779218"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593996"
 ---
 # <a name="installation-checklist"></a>安装清单
 
@@ -90,7 +90,7 @@ http://g.live.com/0CR1033/80
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      限定的组件 ID 是一种方法的单级间接寻址，类似于指针的 GUID。 有关 Windows Installer 的详细信息，请参阅[Windows Installer 文档路线图](http://msdn.microsoft.com/library/_msi_roadmap_to_windows_installer_documentation.aspx)。
+      限定的组件 ID 是一种方法的单级间接寻址，类似于指针的 GUID。 有关 Windows Installer 的详细信息，请参阅[Windows Installer 文档路线图](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation)。
       
    2. 如果存在指定合格的组件，安装 OSC 的版本。 继续执行步骤 5 以查找当前的 Outlook 用户界面区域，准备安装 OSC 的最新版本。
       

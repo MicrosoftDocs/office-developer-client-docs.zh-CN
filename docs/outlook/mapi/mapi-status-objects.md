@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 38310619-1b1d-4934-8533-d0612676c0b0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f5b48f8cd4ef6ff41733ec9a18d1ab682f5e6bcb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69a4d25fc6a7abec68c94cc947e5944322d230a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776340"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594948"
 ---
 # <a name="mapi-status-objects"></a>MAPI 状态对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 状态对象报告 MAPI 资源的信息。 例如，服务提供程序、 MAPI 发送/接收进程或通讯簿。
   

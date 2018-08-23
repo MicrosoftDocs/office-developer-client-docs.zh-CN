@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9025bcebdd5e656070b31cd82e6519166a3e3791
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7095907a1fb437e225922d0bef08b4ad79a4b6f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779119"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594591"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建一个文本流中未压缩富文本格式 (RTF) 从**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中使用的压缩文件格式。 
   
@@ -69,7 +69,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果_ulFlags_参数中传递 MAPI_MODIFY 标志，则_lpCompressedRTFStream_参数必须已被打开的读取和写入。 新的、 未压缩 RTF 的文本应写入_lpUncompressedRTFStream_中返回的流接口。 因为它不可能要追加的现有流，必须编写的整个邮件文本。 
   

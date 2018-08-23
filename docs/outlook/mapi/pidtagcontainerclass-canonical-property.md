@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9d40c21cde6bf3a6e8e37dda80dd6f900f233a0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a3a83153dc799154edc6a46946682684cad8a09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777459"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593772"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>PidTagContainerClass 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含描述文件夹的类型的文本字符串。 通常，则忽略此属性，尽管版本的 Exchange Server 2003 邮箱管理器之前的 Microsoft® Exchange Server 希望此属性才存在此参数。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777459"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |Container  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性通常不使用 Exchange Server。 但是，Microsoft Office Outlook® 将它们附加到邮箱文件夹。 此外，版本的 Exchange Server 2003 邮箱管理器之前的 Exchange Server 可能会错误地处理不具有这些属性的文件夹。
   

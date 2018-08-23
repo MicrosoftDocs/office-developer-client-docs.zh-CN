@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8066de8e-2b77-4bac-8df3-e64b03ee42b9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: df2fa19656aa1bff810a082cda94a091e2c7fc9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e8bed42ee44e48540df52e806c7113e02b60cd07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777790"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593632"
 ---
 # <a name="pidtagitemtemporaryflags-canonical-property"></a>PidTagItemTemporaryflags 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个标志，指示已读取，但未标记为已读消息。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777790"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于在 Outlook 的未读邮件搜索文件夹保持联系的而不实际将其标记为已读，将它们从文件夹中删除已读取的消息。 当视图更改此属性删除和项目被标记为阅读。 此属性将不会同步到 Exchange 服务器。
   

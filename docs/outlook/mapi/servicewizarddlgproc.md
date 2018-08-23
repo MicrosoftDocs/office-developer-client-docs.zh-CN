@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 649046aa48f293caa5bd71cc670481b5c205459a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fdd5d01b96c9ea756ee64f113ccb5119a9693668
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778760"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594465"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义由配置文件向导以允许服务提供程序响应用户事件提供程序的属性表或页面显示时调用的回调函数。 
   
@@ -99,7 +99,7 @@ FALSE
   
 > 服务提供商尚未处理的收到的窗口消息。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当用户从一个属性页面移动到另一个时，提供程序负责为隐藏旧页上的控件和显示下一页或上一页页上的控件。 当用户单击**下一步**按钮时， **SERVICEWIZARDDLGPROC**基于函数使用的 WM_COMMAND 消息和 WIZ_NEXT 调用_wParam_参数中。 下面的步骤介绍之间用户单击**下一步**和第一个提供程序的配置页面呈现时间时发生的情形。 
   

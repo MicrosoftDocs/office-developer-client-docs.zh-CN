@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 983c22772acfea7837e85d409b7928a35aed91ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fdf75787153f9a85e6a7bcddff44cf2c468a7975
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775568"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595032"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开的消息存储并返回进一步访问[IMsgStore](imsgstoreimapiprop.md)指针。 
   
@@ -102,7 +102,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功，但消息存储提供程序已经可用的错误信息。 返回此警告时，应处理呼叫为成功。 要从提供程序获取错误的信息，请调用[IMAPISession::GetLastError](imapisession-getlasterror.md)方法。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::OpenMsgStore**方法打开特定邮件存储区。 
   
