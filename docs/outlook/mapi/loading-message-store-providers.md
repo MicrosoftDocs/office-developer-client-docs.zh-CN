@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 96e2ca38391931508dd9f3f78f3ba69e6f8b9c15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776145"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568698"
 ---
 # <a name="loading-message-store-providers"></a>加载邮件存储区提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当客户端应用程序打开的消息存储时，MAPI 将消息存储提供程序的 DLL 加载到内存中。 MAPI 加载 DLL 之后，非常特定的方法调用序列消息存储提供程序和 MAPI 之间。 此方法的调用序列启用 MAPI 获取顶级[IMSProvider: IUnknown](imsprovideriunknown.md)， [IMSLogon: IUnknown](imslogoniunknown.md)，和[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)接口，并允许消息存储提供程序获取 MAPI 支持对象。 后的呼叫顺序的消息存储提供程序应该就可以接受来自客户端登录。 
   

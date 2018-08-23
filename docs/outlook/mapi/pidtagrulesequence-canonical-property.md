@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c42f2539-f7d6-464a-a82c-f0ac51823168
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 29579f91a85e74b568610c749d9408f813f157f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f36562ba189cd8f547056b93c0f0373ee9a3360
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778311"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563490"
 ---
 # <a name="pidtagrulesequence-canonical-property"></a>PidTagRuleSequence 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一个用来确定计算和执行规则的顺序的值。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778311"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 根据此值递增顺序顺序计算规则。 此属性中具有相同的值的规则的求值顺序未定义。
   

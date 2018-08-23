@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f623345-b30e-452f-a822-9308b455697a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1ad4f83cb9021cef82ce62b6b6f5616a3fc3d118
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20dcef118a5e3f513f8330802684a59f0f0dcf73
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565345"
 ---
 # <a name="pidnamecontentclass-canonical-property"></a>PidNameContentClass 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 [RFC3282] Content-class 标头字段值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777205"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要设置此属性的值，多用途 Internet 邮件扩展 (MIME) 客户端必须编写内容类标头字段与所需的值。 MIME 读者必须将内容类标头字段的值复制到此属性的值。 
   

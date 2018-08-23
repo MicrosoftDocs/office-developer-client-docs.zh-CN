@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f0cf6fa03d8f38b7d160a8747111445cfdac1ae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9197201388530bd7755eb1987ecc863220e3847
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566605"
 ---
 # <a name="sbitmaskrestriction"></a>SBitMaskRestriction
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述一个位掩码限制，用来执行按位**AND**操作和测试结果。 
   
@@ -63,7 +63,7 @@ BMR_NEZ
   
 > 要应用于由**ulPropTag**标识属性的位掩码。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SBitMaskRestriction**结构执行按位**AND**操作使用**ulMask**成员和描述**ulPropTag**成员属性的值中所述的位掩码。 如果结果为零，则满足 BMR_EQZ。 如果不为零，也就是说，如果该属性值有至少一个相同位设置为**ulMask**，然后 BMR_NEZ 被满足。
   

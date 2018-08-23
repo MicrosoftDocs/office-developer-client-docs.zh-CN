@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f16585a96164835784bfa1af3752bd652daf76e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 157703fc9702bb954b4a5c570fc3d5c045e181cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775729"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567186"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从窗体接收通知。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: aaba816ca7efab6cee939087a18332561f31b81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e29b909e90d2767bcf1bb9382a46e6f2c1cd9f2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569797"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>使用邮件的发送消息存储提供程序
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息存储提供程序不需要支持传出邮件提交 （即，客户端应用程序使用的消息存储提供程序来发送邮件的功能）。 客户端应用程序需要使用的消息存储时发送邮件，因为必须消息的数据存储这二者之间用户已完成的时间撰写及其 MAPI 后台处理程序提供邮件到传输提供程序的时间提交到基础邮件系统。 如果您的消息存储提供程序不支持传出邮件提交，它不能用作默认邮件存储区。
   

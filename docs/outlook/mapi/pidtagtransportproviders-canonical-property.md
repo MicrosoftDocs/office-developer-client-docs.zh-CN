@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6ff3548883e273fc10a885a67209b0da52c23a12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4027d7c6650c7330053e7745638de859a944b664
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563042"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>PidTagTransportProviders 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含当前配置文件中的传输提供程序的标识符列表。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778512"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 配置文件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 不要使用此属性。 它是通过 MAPI 供使用。
   

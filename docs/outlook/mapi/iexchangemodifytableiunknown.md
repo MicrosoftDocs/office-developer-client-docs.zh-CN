@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1093975e6cbdd79004125a0a4a3098ffa421ab0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51a83e1e28534cc237419d9c4ae475c1d719c5de
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565072"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 支持对 Microsoft Exchange Server table 对象的访问，特别是系统访问控制列表 (SACL) table 对象和规则对 Microsoft Exchange Server 文件夹的 table 对象。 此接口类似于[IMAPITable: IUnknown](imapitableiunknown.md)界面，但它添加支持用于控制 Sacl 和规则的特定于 Microsoft Exchange 服务器的结构。 
   
@@ -64,7 +64,7 @@ ms.locfileid: "19775300"
 |**PR_MEMBER_NAME**([PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_MEMBER_RIGHTS**([PidTagMemberRights](pidtagmemberrights-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要获得**IExchangeModifyTable**接口，调用类型 PT_OBJECT 上一个 folder 对象的属性上的 MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法。 当调用**OpenProperty**方法时，将传递_lpiid_参数中的值**IID_IExchangeModifyTable** 。 
   

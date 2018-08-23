@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e8266b0fcac8318420bd67cfd90e8ff594638cf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 545249f4777abc7d1a0a566631c777a6a1ba190b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777452"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563758"
 ---
 # <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a>PidTagContactAddressBookStoreEntryIds 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含充当联系人地址的文件夹中找到簿条目存储的条目 Id。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777452"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这是联系人通讯簿配置文件一节的属性。
   

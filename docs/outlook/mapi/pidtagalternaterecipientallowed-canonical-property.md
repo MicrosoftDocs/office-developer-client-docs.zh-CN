@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc77f9c7b58fc925048d6dec2bee2ff96a8723b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fcea0f0bc19140c5a0762143ce91bd41ea8fd07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777316"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569321"
 ---
 # <a name="pidtagalternaterecipientallowed-canonical-property"></a>PidTagAlternateRecipientAllowed 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 TRUE，如果发件人允许自动转接的此消息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777316"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果不允许自动转接，或者如果已不指定任何备用收件人，应生成原件报告。 
   

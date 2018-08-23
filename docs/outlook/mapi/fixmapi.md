@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c064301a18a8adbfb6109170ed16cb6981d96c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 863e401f66a8012b3bd9954ed56c02382f1bd4e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774927"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565933"
 ---
 # <a name="fixmapi"></a>FixMAPI
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端上创建 mapi32.dll 当前副本的备份副本，计算机，并还原 mapi32.dll 与 MAPI 存根库，mapistub.dll。
   
@@ -41,7 +41,7 @@ DWORD STDAPICALLTYPE FixMAPI(void);
   
 如果函数失败，则返回的值为零。 若要获取扩展的错误的信息，请调用的 Microsoft Windows 软件开发工具包 (SDK) 函数，**[时出错](http://msdn.microsoft.com/en-us/library/ms679360.aspx)**。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
  如果该文件标记为只读， **FixMAPI**不替换当前 mapi32.dll 文件。 
   

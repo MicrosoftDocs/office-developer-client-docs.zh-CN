@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f40cd807-7aac-49f4-8e82-b0e5e1634b08
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7c356e01b2f1bdf30d72f901bc1e4dd6da8b0dc5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d388ab81be33689612872795d690a26efca064f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777139"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563063"
 ---
 # <a name="pidliduserx509certificate-canonical-property"></a>PidLidUserX509Certificate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息的用户的 X.509 版本 3 安全证书。
   

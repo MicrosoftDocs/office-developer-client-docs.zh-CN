@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6c149a215a048b96408025e08df55972fa989f46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 140efe0b2d1b428a94b5bb2919d461779613932a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776084"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564680"
 ---
 # <a name="itabledatahrenumrow"></a>ITableData::HrEnumRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 检索根据其位置表中的行。 
   
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功检索行或_ulRowNumber_参数指定的行号行不存在。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrEnumRow**方法检索行基于序列号。 这个数字表示插入的顺序 （0 表示的第一行和减 1 之间的行数指示最后一行）。 MAPI 维护表数据对象的生存期内行插入此时间顺序。 
   

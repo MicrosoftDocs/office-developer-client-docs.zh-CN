@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 573709c4374786bb1bd3d763c8ba91de59f7fb1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a34c21e20fa45cd3265ec42c9d992eb828203f66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776274"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563910"
 ---
 # <a name="mapi-profile-overview"></a>MAPI 配置文件概述 （英文)
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一个配置文件信息的消息服务和客户端应用程序的用户希望可在特定的 MAPI 会话过程中的服务提供商的集合。 每个用户都至少一个配置文件;许多用户仍使用原来多个。 例如，用户可能具有一个配置文件以使用基于服务器的消息存储服务和另一个配置文件以在本地计算机上处理的消息存储服务。 用户可能需要访问一组消息系统使用某一天和另一天中的 rest 设置的一部分的合适的传输服务。 配置文件提供灵活的方式选择的消息系统服务的组合。 
   

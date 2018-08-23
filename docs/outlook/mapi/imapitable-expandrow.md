@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1b3d8c74d85696e733b378a4cac2b8e2a3b6a072
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce78c6873f3a1dc034ae33f3c9e965ef8f2f1815
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775692"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563777"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 展开折叠的表类别，添加叶或属于到表视图类别的级别较低的标题行。
   
@@ -74,7 +74,7 @@ MAPI_E_NOT_FOUND
   
 > _PbInstanceKey_参数标识的行不存在。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::ExpandRow**方法扩展折叠的表类别，添加叶或属于到表视图类别的级别较低的标题行。 可以_ulRowCount_参数中指定的_lppRows_参数中要返回的行数限制。 时_ulRowCount_设置为的值大于零，由_lppRows_指向在行集中返回一个或多个行集 BOOKMARK_CURRENT 移至紧挨行中的最后一行的行的书签的位置。
   

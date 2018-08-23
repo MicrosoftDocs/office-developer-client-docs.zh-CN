@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 977c18ce-ece5-4ad1-ac97-5a680846ab83
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 423b03d674028a2f81b4c042d6e65e9acfb57274
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b369e20101bbaba5e246b2ef9f6ab3ed1771ef6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775944"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563553"
 ---
 # <a name="initializing-the-transport-provider"></a>初始化传输提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 传输-后台处理程序接口定义 MAPI 后台处理程序向传输提供程序的呼叫。 传输提供程序动态链接库 (DLL) 中实现这些例程。 使用 MAPI 后台处理程序的 DLL 的第一个直接入口点必须传输提供程序初始化函数[XPProviderInit](xpproviderinit.md)。
   

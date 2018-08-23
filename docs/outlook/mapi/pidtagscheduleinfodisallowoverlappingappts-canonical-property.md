@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 27978a09-daf7-4a50-927a-96d9c4a97d02
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3719c0d86b0f14324e65b963d2a81a27f6cd52ba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c563284eb261d9b1fe4823f5d3ae90629144e1f8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778326"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565625"
 ---
 # <a name="pidtagscheduleinfodisallowoverlappingappts-canonical-property"></a>PidTagScheduleInfoDisallowOverlappingAppts 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 TRUE，则不允许使用重叠的约会。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778326"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) 属性的值为 TRUE 时，此属性才有意义。 值为 TRUE 指示的时自动对会议请求的响应，客户端或服务器必须拒绝重叠以前计划的事件的实例。 值为 FALSE 或不存在此属性表示必须接受重叠的实例。 这不是必需的属性。
   

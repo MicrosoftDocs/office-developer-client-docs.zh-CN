@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: da31da0ae0437e1578a681d9232b0693932b2aec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3b3b6b5ca0b06fc55a60e035ffd9118391cab8f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774905"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565912"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 验证的 Unicode 字符串数组中的所有字符串。 
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3ff29ac7e7f9b7876bb678930390ca556351ecf6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5ab459239bdcdcad30c4b6c82d5a3f8641bd4aca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775610"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567802"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 确认可供 MAPI 资源或服务提供商的外部状态信息。 此方法支持所有状态对象。 
   
@@ -92,7 +92,7 @@ MAPI_E_USER_CANCEL
   
 > 用户取消验证操作，通常通过单击对话框中的**取消**按钮。 只能通过远程传输提供程序，则返回此值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIStatus::ValidateState**方法检查与状态对象相关联的资源的状态。 **ValidateState**是[IMAPIStatus](imapistatusimapiprop.md)界面所需的所有状态对象中的唯一方法。 完全本方法的行为取决于实现。 下表介绍了每种状态对象的不同类型的实现。 
   

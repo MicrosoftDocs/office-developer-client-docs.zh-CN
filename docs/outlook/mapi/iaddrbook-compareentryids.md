@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 807e592cf535ac060fd275075035ae8beb7d6e78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6f983e49132e7ab6ea402a8e32bb5ec56d1efba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775230"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564848"
 ---
 # <a name="iaddrbookcompareentryids"></a>IAddrBook::CompareEntryIDs
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 比较两个条目标识符属于特定地址簿提供程序，以确定它们是否引用同一个通讯簿对象。 
   
@@ -74,7 +74,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 任何通讯簿提供程序无法识别一个或两个使用_lpEntryID1_或_lpEntryID2_参数传递的项标识符。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序和服务提供程序调用**CompareEntryIDs**方法比较两个条目标识符属于单个地址簿提供程序，以确定它们是否引用同一个对象。 **CompareEntryIDs**很有用，因为对象可以有多个有效项标识符。 例如，安装新版本的通讯簿提供程序后，会发生这种情况。 
   

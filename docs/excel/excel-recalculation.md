@@ -1,7 +1,7 @@
 ---
 title: Excel 重新计算
 manager: kelbow
-ms.date: 03/09/2018
+ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -9,16 +9,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 9964f2c4282158e83891d82ba43fa19f23ab1eb6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70ca322173fb76eb1871d841b6246b62b3a5000a
+ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773713"
+ms.lasthandoff: 08/22/2018
+ms.locfileid: "22554167"
 ---
 # <a name="excel-recalculation"></a>Excel 重新计算
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 例如，用户可以触发多种方式，Microsoft Excel 中的重新计算：
   
@@ -131,6 +131,8 @@ Excel 有三种计算模式：
 - 重新计算为常规工作簿重新计算，以便大表可能需要更长时间重新计算工作簿的 rest 比异步处理。
     
 - 容许循环引用。 如果用于获取结果计算依赖的模拟运算表中的一个或多个值，Excel 不返回错误的循环依赖关系。 
+
+- 模拟运算表不使用多线程的计算。
     
 Excel 给定 Excel 处理重新计算的模拟运算表和取决于复杂或较长的计算的大型表花费很长时间才能计算事实的不同方式，允许您禁用自动计算的模拟运算表。 若要执行此操作，设置为自动 （数据表除外） 的计算模式。 在此模式中计算后，用户将通过按 F9 或某个等效的编程操作重新计算模拟运算表。
   
@@ -237,5 +239,5 @@ C API： 不支持
   
 [Excel 中的内存管理](memory-management-in-excel.md)
   
-[Excel Programming Concepts](excel-programming-concepts.md)
+[Excel 编程概念](excel-programming-concepts.md)
 

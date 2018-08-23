@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5247ca71c88b9c0f8591a732746a17204265741c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f7c243995c633389ab8fa80a26dddd152347276
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775529"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565359"
 ---
 # <a name="imapipropgetidsfromnames"></a>IMAPIProp::GetIDsFromNames
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供属性的标识符的对应于一个或多个属性的名称。
   
@@ -80,7 +80,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功总体上讲，但不是会返回一个或多个属性标识符。 不可用的每个属性的相应属性类型设置为**PT_ERROR**和其标识符为零。 返回此警告时，处理为成功的呼叫。 若要测试此警告，请使用**HR_FAILED**宏。 请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIProp::GetIDsFromNames**方法检索保留一个或多个命名属性的属性标识符的属性标记的数组。 **IMAPIProp::GetIDsFromNames**可调用它以执行下列操作： 
   

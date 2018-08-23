@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e8d0e79e01040c1cc3d46e73a7e6a456a915a67f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efa778f51ac047c911deb6a3c4d5d9e718dc33fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778232"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565037"
 ---
 # <a name="pidtagrowid-canonical-property"></a>PidTagRowid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的收件人的表或状态表中的收件人的唯一标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778232"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是对象的仅对拥有表的生存期内有效临时值。 它显示为表的列，但不是存储。
   

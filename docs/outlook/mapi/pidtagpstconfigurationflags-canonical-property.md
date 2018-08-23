@@ -10,16 +10,16 @@ api_type:
 - COM
 ms.assetid: e4234ddf-d9dc-4dc9-8eda-dbbee151b5d7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b5a3978741f7ecb871e3c3de28e52dffdcf3a74f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b79b40a59a2bf7b68c58bffbccca04034b853a15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570203"
 ---
 # <a name="pidtagpstconfigurationflags-canonical-property"></a>PidTagPstConfigurationFlags 规范属性
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定配置个人存储表 （.pst 文件） 的标志。
   
@@ -30,7 +30,7 @@ ms.locfileid: "19778090"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的有效值如下：
   

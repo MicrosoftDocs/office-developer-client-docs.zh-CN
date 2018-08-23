@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c342bb2a-157e-4748-bf21-0926f95e5312
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cf62338ef2dfca2c4e7edc3cdf05ffae50f269e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c57324972f02366822a64e9e6c642d0f22ce158b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778143"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563378"
 ---
 # <a name="pidtagreceivedrepresentingaddresstype-canonical-property"></a>PidTagReceivedRepresentingAddressType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含由实际接收邮件的用户的邮件用户的地址类型。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778143"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是由接收用户的邮件用户的地址属性的示例。 它必须由传入传输提供程序，也是负责授权或的代理人的验证设置。 如果正在表示没有消息的用户，此属性应设置为**PR_RECEIVED_BY_ADDRTYPE** ([PidTagReceivedByAddressType](pidtagreceivedbyaddresstype-canonical-property.md)) 属性中包含的地址类型。
   

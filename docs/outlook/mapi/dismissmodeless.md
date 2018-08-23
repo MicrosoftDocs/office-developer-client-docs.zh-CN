@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc830665f425b747d2fdb05641dc037a2e84f695
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c66ff2338eb5751dbffe392a6a26258fb1c89476
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774810"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565835"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义一个时它解除了无模式的通讯簿对话框 MAPI 调用的回调函数。 
   
@@ -54,7 +54,7 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 
 无
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当客户端应用程序调用无模式的通讯簿对话框时，它在其 Windows 消息循环中包括对基于[ACCELERATEABSDI](accelerateabsdi.md)原型，其检查和处理快捷键函数的调用。 当关闭对话框时，MAPI 调用**DISMISSMODELESS**基于函数，以便客户端应用程序将停止调用**ACCELERATEABSDI**基于函数。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: de737118-5f3b-464f-b036-f4a3489d411a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6d2c85aa76a372ba79e55dbf5b22024288214df6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d369093589ffad03bf087b02905c443cf6f46c34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778909"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564267"
 ---
 # <a name="supporting-formatted-text-gateway-responsibilities"></a>支持格式化文本：网关责任
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
  **若要处理的传出邮件，网关的富文本格式**
   

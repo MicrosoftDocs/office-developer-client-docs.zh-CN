@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 38d55f45280b0b037dc9b5cbbd0dc8809ed04e35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92807cb216e8a7f4eef6b4d95a8d12826b176e6e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564666"
 ---
 # <a name="imsgserviceadminsetprimaryidentity"></a>IMsgServiceAdmin::SetPrimaryIdentity
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定要配置文件的主标识的供应商的消息服务。
   
@@ -54,7 +54,7 @@ MAPI_E_NO_ACCESS
   
 > **SetPrimaryIdentity**尝试指定具有其**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 属性中设置 SERVICE_NO_PRIMARY_IDENTITY 标志的消息服务。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgServiceAdmin::SetPrimaryIdentity**方法建立作为的配置文件的主标识供应商的消息服务。 主标识通常是登录到邮件服务的用户。 它由三个属性表示： 
   

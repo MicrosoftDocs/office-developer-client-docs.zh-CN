@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 379378f2092f7b119a40ac44cbdcfa03f254b448
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e019ad8d0063514cd41017b459cc701c45c22a2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778888"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569594"
 ---
 # <a name="status-object-implementation"></a>状态对象实现
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 所有服务提供程序必须实现状态对象，并提供了该属性设置为会话状态表。 在状态表中，具体取决于您控制的资源数可以包括一个或多个行。 传输提供程序，例如，应创建行状态表中管理每个消息队列。 更改时，必须更新相应的状态表格行。 状态对象被实现提供访问状态表中包含的信息，不包含表中的其他信息。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c35d9e38-f4cf-4908-aaa1-a4263b58f7e8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d5d0f465ecdf4865ca86448448c56d54d5df4505
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5d86af111bc778839a78f9b56ba7126e6c973d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567375"
 ---
 # <a name="imapimessagesitegetsession"></a>IMAPIMessageSite::GetSession
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回当前消息是创建或打开的 MAPI 会话。
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > 为当前消息不存在任何会话。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 向窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   

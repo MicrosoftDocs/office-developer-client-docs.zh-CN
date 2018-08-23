@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 24cb6429-1276-45f1-be0e-6c9d2ff6ce19
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 81ed520f9f1f7f31283476d32373255e9ca77653
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6f025d54632fdb88a846f978b38a476355395b61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777112"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563371"
 ---
 # <a name="pidlidtimezonedescription-canonical-property"></a>PidLidTimeZoneDescription 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定时区的字符串的说明。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777112"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指定的可读的时区表示**dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) 属性中的数据的说明。
   

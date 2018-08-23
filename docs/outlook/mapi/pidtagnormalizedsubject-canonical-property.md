@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 2000e6e8-d908-4814-8093-28f8011250c8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 74061f33a88dceb371cad00ef44f611b583f7ae2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b5bc464bc5a251579d262f5926193b7f7a731728
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777895"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563659"
 ---
 # <a name="pidtagnormalizedsubject-canonical-property"></a>PidTagNormalizedSubject 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含与删除任何前缀的邮件主题。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777895"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性由消息存储计算，或按以下方式传输提供程序从**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 和**PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) 属性。
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 47b698eb12577442e5b2d9ea9ecae3e8a13e402b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 726d424b6cf8d3141b36c3b61a38a6928277ec2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774922"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567172"
 ---
 # <a name="file-format-of-mapisvcinf"></a>MapiSvc.inf 文件格式
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MapiSvc.inf 文件作为中央数据库的 MAPI 邮件服务配置信息。 MapiSvc.inf 包含有关每个工作站、 属于每个邮件服务，服务提供程序的信息和信息的 MAPI 子系统上安装的消息服务的信息。 MapiSvc.inf 是主要的配置文件信息来源。 即一个新的配置文件生成时或一个现有的修改，为每个消息服务的相关信息或从 MapiSvc.inf 复制服务提供商。 
   

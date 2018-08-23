@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ddc61aa42b1087ed5f0ecb7986125ceef27cddce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37d37d6402b165ea57626fe4791cfb1a4bcf76cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775954"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565114"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 为特定状态同步准备本地存储并检索复制的必需信息。
   
@@ -148,7 +148,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端调用**[IOSTX::SetSyncResult](iostx-setsyncresult.md)** 将同步的结果设置，然后调用**[IOSTX::SyncEnd](iostx-syncend.md)** 结束该状态。 客户端必须为**IOSTX::SyncBeg**来确定状态是否已成功复制每个呼叫的呼叫**[IOSTX::SyncEnd](iostx-syncend.md)** 。 一旦确定此，可以开始 Outlook 清理其内部状态。 
   

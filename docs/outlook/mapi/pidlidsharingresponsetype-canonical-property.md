@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c27b1239-3612-4bb3-9f22-4b89ee9900cd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a645ee26b56355c6594f5667585becbcff2e3eec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: beb2c46b43ae77de08900aeb987d875e85575aba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777049"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563182"
 ---
 # <a name="pidlidsharingresponsetype-canonical-property"></a>PidLidSharingResponseType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的收件人的共享请求的响应的响应的类型。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777049"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须设置为下列值之一：
   

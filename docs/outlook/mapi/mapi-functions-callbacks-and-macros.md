@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 8708606cafffe0e6e1af06189b6ef8961e5a7a05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565394"
 ---
 # <a name="mapi-functions-callbacks-and-macros"></a>MAPI 功能、 回调和宏
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 下面的字母条目包含 MAPI 函数、 回调和宏的文档。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e23c73931c9051b61d30b7ea7e9c54d06a4d9c33
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 99a8473abf01467c534c0ea829e342fa46489e99
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775780"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568019"
 ---
 # <a name="implementing-a-logon-object"></a>实现登录对象
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 每个通讯簿、 消息存储和传输提供程序实例化的[IABProvider::Logon](iabprovider-logon.md)、 [IMSProvider::Logon](imsprovider-logon.md)，或[IXPProvider::TransportLogon](ixpprovider-transportlogon.md)其实现一部分登录对象。 登录对象实现帮助 MAPI 服务客户端请求的方法。 根据您的服务提供商的类型，登录对象将支持以下接口之一。 
   

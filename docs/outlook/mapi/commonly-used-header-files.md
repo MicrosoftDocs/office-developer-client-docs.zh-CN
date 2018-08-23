@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a87f7595eb03062e54ea3aa8f7dca1f1b0f1e568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 377dc67b737f8b40c89d7f45d6fff544ce63193e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563882"
 ---
 # <a name="commonly-used-header-files"></a>常用头文件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 每个参考主题包括一个表的名称定义 API 元素的位置的 MAPI 头文件。 下表介绍了开发人员经常使用 MAPI 头文件。
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f9085c59-18b1-451d-85d7-b08377708a9d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9ed460a377e2a2f0d2780f97eaebff1f76b9d9fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1fcfd5e257798d21a296f077f0f5eacbcbb82a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777668"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569622"
 ---
 # <a name="pidtaghasdeferredactionmessages-canonical-property"></a>PidTagHasDeferredActionMessages 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果邮件至少一个延迟的操作规则，包含 TRUE。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19777668"
 |相关属性：  <br/> |PR_HAS_DAMS  <br/> |
 |标识符：  <br/> |0x3FEA  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |规则  <br/> |
+|区域：  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 

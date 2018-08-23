@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b456b07b-4d83-46bf-a305-4f322ea7dbd1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: acde7f18324d5642f7b8f8b5aa25721c4019ce3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 93e5510802fe5ff0327d7ed3fc702fa61cd3c1c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778473"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565576"
 ---
 # <a name="pidtagsubfolders-canonical-property"></a>PidTagSubfolders 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 TRUE，则文件夹包含子文件夹。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778473"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储必须提供此属性的所有文件夹。
   

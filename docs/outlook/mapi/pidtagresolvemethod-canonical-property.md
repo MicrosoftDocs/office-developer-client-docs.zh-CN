@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7f55b85e21f007be7c1b9d42d42473e3a8d2becb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e67cbb113899487f489ef7235d92d1adfcb76163
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778230"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563637"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>PidTagResolveMethod 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含某个文件夹的冲突解决值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778230"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含冲突解决消息的文件夹将指示如何解决冲突。 此属性不是必需的。 但是，如果设置，则之外以下标志不必须存在：
   

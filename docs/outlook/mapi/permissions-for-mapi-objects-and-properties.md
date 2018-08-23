@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 32669cbe-5460-4043-99cc-c609608f48da
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: aad19bbc016af6bdc0b17124b46112656af53a4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 11c8a58e6cfe0719e8683c4e7a0fd966972117c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776585"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569377"
 ---
 # <a name="permissions-for-mapi-objects-and-properties"></a>MAPI 对象和属性的权限
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 访问权限或的一组 permissable 操作可以是特征以及支持这些对象的各个属性的 MAPI 对象。 对象访问取决于对象的父对象。 对于一条消息，其文件夹决定访问权限。 对于消息的用户或通讯组列表中，其通讯簿容器使此决定。 当一条消息，如对象驻留在两个文件夹中时，可以不同对象的两个副本的权限。 
   

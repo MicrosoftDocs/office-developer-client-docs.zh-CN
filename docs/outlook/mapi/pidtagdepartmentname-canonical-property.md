@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d8cb407e-5c3a-4b4c-b20e-78efcd373081
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1b33f051426e5bdf5ab4f949fa59535081e49185
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ead835b9ace2bb775c06421a25b439ed22d93e0f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777566"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566927"
 ---
 # <a name="pidtagdepartmentname-canonical-property"></a>PidTagDepartmentName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人适用于该部门的名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777566"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问有关收件人的信息。 它们是按收件人和组织定义的。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a95330ab-fde7-4ad1-82ce-143ff2120306
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5d08bd4d3932c2e0b4d7d179bb9e0cb04467e8d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8be851270b4b4212928728eb8c7f44996f91d6fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778045"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563663"
 ---
 # <a name="pidtagprimaryfaxnumber-canonical-property"></a>PidTagPrimaryFaxNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含收件人的主传真机的电话的号码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778045"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
   

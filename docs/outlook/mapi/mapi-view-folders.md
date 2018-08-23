@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a1936ec2-bf8a-4242-a41d-64d26b813bd0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cb26771e9968175ab67366e35cf019ce23d51b8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a89588294f07dca97fb48e56d2cde890c3f80ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776352"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568817"
 ---
 # <a name="mapi-view-folders"></a>MAPI 查看文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 查看文件夹是根文件夹，包含定义替代显示布局人际邮件 (IPM) 文件夹的内容的相关的信息。 查看文件夹位于邮件存储的根目录下，因此，不可见的典型的客户端应用程序中。 不是每个消息存储包括查看文件夹;仅配置为默认的邮件存储用作会话的消息存储必须包括它们。  
   

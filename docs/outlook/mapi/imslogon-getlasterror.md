@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a865a751f3e274008c7004315906d6705ba55161
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 811be1f6506cee092e487af3bd43bdf6e136d4eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775936"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568894"
 ---
 # <a name="imslogongetlasterror"></a>IMSLogon::GetLastError
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回一个[MAPIERROR](mapierror.md)结构，其中包含上次消息存储对象发生的错误有关的信息。 
   
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
   
 > 既设置了 MAPI_UNICODE 标志实现不支持 Unicode，或未设置 MAPI_UNICODE 并实现支持仅 Unicode。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMSLogon::GetLastError**方法用于检索要显示给用户有关从方法调用该消息存储对象返回的最后一个错误消息中的信息。 
   

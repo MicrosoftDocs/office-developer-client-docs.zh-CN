@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2292d53997fd4d54e9272789be83ea94a93c6a3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e28bde9571081d61b37f6939a991c11ddeb75a4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566045"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>PidLidExceptionReplaceTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定的日期和时间内定期模式的例外将替换的时间。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776783"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 必须以协调世界时 (UTC) 指定的值。 此属性允许要找的特定实例的异常附件对象。
   

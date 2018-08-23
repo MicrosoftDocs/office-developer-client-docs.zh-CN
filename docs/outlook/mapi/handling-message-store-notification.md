@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 898f8b6ff3d0b0dd42a670596b54171f18b4a5e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33002f31c185262bf21b4e74095e0774f55e3bf5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775056"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564589"
 ---
 # <a name="handling-message-store-notification"></a>处理消息存储通知
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要注册的消息存储通知，调用[IMAPISession::Advise](imapisession-advise.md)或[IMsgStore::Advise](imsgstore-advise.md)方法，并指定_lpEntryID_参数的内容中的消息存储库、 文件夹或消息条目标识符。 消息存储提供程序支持对象和表格的通知。 是否注册与特定的消息存储对象、 介绍这些对象的文件夹层次结构和内容表个或两个对象和表取决于您希望查看，请执行操作，您发出的呼叫通知以及如何升级消息存储提供程序支持通知。 
   

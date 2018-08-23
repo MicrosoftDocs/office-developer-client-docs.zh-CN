@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c64e9a7497a70ea34dc09a5749dd281a24f9413d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c7ce2805248bf91ce7da071c67ece28a5b8ca07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564281"
 ---
 # <a name="srealarray"></a>SRealArray
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于描述 PT_MV_R4 类型的属性的浮点值的数组。 
   
@@ -50,7 +50,7 @@ typedef struct _SRealArray
   
 > 指向的浮点值的数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关 PT_MV_R4 属性类型的详细信息，请参阅[属性类型](property-types.md)。
   

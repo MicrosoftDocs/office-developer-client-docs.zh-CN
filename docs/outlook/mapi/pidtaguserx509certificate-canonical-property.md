@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d27ef47a3ba387ae2e7acbcefc75b07ddd794e80
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7686f36ca105ab92161757d492a86b4b78461dfd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778534"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564078"
 ---
 # <a name="pidtaguserx509certificate-canonical-property"></a>PidTagUserX509Certificate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息的用户的 X.509 版本 3 安全证书。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778534"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 利用公钥安全的应用程序使用此属性。 它包含一个或多个 X.509 版本 3 安全证书的二进制表示形式。 
   

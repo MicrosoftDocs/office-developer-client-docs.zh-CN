@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 56288f55-b3ba-42df-9c90-f9b5857f19a1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4e752d3264a64ad7b467947c44d01eb7c47ec863
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7077210504614d7d95a7f545ea6f37ce02c92fdf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563245"
 ---
 # <a name="pidtagsearchfoldertemplateid-canonical-property"></a>PidTagSearchFolderTemplateId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于搜索的模板的 ID。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778372"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 搜索文件夹条件被指定的模板。 此属性定义的搜索文件夹的邮件标识其相应的模板。 除了定义搜索条件，模板还定义要从搜索中排除的文件夹，定义要从搜索中排除的项目并指定**PR_WB_SF_STORAGE_TYPE** ([PidTagSearchFolderStorageType](pidtagsearchfolderstoragetype-canonical-property.md)) 的值。
   

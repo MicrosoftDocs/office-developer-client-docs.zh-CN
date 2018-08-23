@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4a60e2fe3a58e1d696ae9645e03ce8dde5340d9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 29dd2e3b47d0f43df7824274d2fdcc4f7f16eeb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776155"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569853"
 ---
 # <a name="ltid"></a>LTID
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 Outlook 存储区中某个对象的通用长术语 ID。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 93ae6d54-41cd-433c-8124-eb07d71baa57
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e2b091fa21dae4a1a8da23954d5f998010483da1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d2a46be04f235ba55aa5f2feef222ea7372b211
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774753"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569860"
 ---
 # <a name="deferring-mapi-errors"></a>推迟 MAPI 错误
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一些接口方法接受 MAPI_DEFERRED_ERRORS 标志作为输入参数。 当此标志设置时，该方法不需要立即返回值;它可以让呼叫者了解在某些更高版本时调用的结果。
   

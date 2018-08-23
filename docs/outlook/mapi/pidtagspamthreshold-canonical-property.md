@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 24a033269b072712fea6e9957d0ffac3573ce3a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a9a5e72a585a2af8914b858cb4d174899706797e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778419"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566773"
 ---
 # <a name="pidtagspamthreshold-canonical-property"></a>PidTagSpamThreshold 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 Long 值，该值指示垃圾邮件筛选的级别。
   

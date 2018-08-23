@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e2871f5804cda172328fbd3ebdc43f860de939ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a176b51577c7d4616d988a0b28f2afcfb554e9f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775876"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564981"
 ---
 # <a name="imsgstoreabortsubmit"></a>IMsgStore::AbortSubmit
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 尝试从传出队列中删除一条消息。
   
@@ -63,7 +63,7 @@ MAPI_E_UNABLE_TO_ABORT
   
 > 由_lpEntryID_标识邮件已被锁定通过 MAPI 后台处理程序，且不能中止操作。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgStore::AbortSubmit**方法尝试删除的消息存储传出队列中的已提交的邮件。 
   

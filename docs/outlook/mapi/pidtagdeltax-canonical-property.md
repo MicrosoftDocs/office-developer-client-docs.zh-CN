@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7e264a75a02a08518efcf3202a60d2a4654ddfe5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a3a77864780fe641aabfd275567ae8ecc5e604
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568999"
 ---
 # <a name="pidtagdeltax-canonical-property"></a>PidTagDeltaX 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的标准 Windows 对话框单位对话框控件的宽度。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777553"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))、 **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))、 **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) 属性，此属性控制位置和大小对话框控件。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 42e2633ac6d534be2c75c47b24c1da5ed9771e18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 013903f36bf648c4aed194c88104e7dd981b199f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563938"
 ---
 # <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在邮件中的访问资源存储登录对象。
   
@@ -48,7 +48,7 @@ ms.locfileid: "19775925"
 |[取消通知](imslogon-unadvise.md) <br/> |删除以前使用调用**IMSLogon::Advise**方法建立的邮件存储更改的通知的对象的注册。  <br/> |
 |[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |打开状态对象。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储登录对象是 MAPI 直接调用打开的邮件存储提供程序的一部分。 MAPI 呼叫和消息存储对象，该客户端应用程序调用; 对象的消息存储登录对象之间没有一对一的对应关系可以当作登录并存储对象作为公开两个接口的一个对象。 两个对象一起创建组合在一起和释放。
   

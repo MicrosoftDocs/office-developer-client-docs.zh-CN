@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5705af6c8efaf42ae27d1b39bb28d162971ebf9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d6ec40005683cc67c51a63d6b186c042c8e170d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775044"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568173"
 ---
 # <a name="handling-an-incoming-message"></a>处理传入消息
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 对传入邮件是已跨一个或多个邮件系统发送的消息。 它可能已发送只对您或其他很多个收件人。 传入消息被置于指定用于保存的特定类的邮件的接收文件夹。 您可以设置另一个接收您处理，或使用的所有类的一个文件夹每个邮件类的文件夹。
   

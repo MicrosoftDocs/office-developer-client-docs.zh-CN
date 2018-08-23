@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ad3499cc1ff3bd8b633fa48173ab8455d5d8d124
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a2dbe8d2143fd330ae1f5ca5804e30b79909576
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776558"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569402"
 ---
 # <a name="opening-message-text"></a>打开消息文本
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 存储的消息的文本中其**PR\_正文**属性或**PR\_RTF\_压缩**属性。 有关详细信息，请参阅**PR\_正文**([PidTagBody](pidtagbody-canonical-property.md))， **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) 和**PR\_RTF\_压缩**([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))。 
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bd094e00-5c60-4bb3-9a45-b943fab52876
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d914d071d0845dee7d402e45d281cd774095a5a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70b0508d9a19df42e4ab164aba58aaef44b0c01a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565485"
 ---
 # <a name="pidtagdisplayname-canonical-property"></a>PidTagDisplayName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含给定的 MAPI 对象的显示名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777587"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 文件夹要求同级子文件夹具有唯一的显示名称。 例如，如果文件夹包含两个子文件夹，两个子文件夹无法对此属性使用相同的值。 此限制不适用于其他容器，如通讯簿和通讯组列表。 
   

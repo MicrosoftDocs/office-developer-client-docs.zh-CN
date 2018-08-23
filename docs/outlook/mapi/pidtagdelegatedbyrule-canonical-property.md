@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d851f5cfa2697ea2a81f80c90e8051c59172d549
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e9337a49067e9789ece40ed932dbaae133aac0f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777529"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568180"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>PidTagDelegatedByRule 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示是否将某个文件夹的邮件委派的规则。
   

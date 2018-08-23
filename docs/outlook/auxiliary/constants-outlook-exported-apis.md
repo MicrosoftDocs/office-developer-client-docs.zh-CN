@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: 本主题包含常量定义的 Outlook 导出 Api。
-ms.openlocfilehash: 54b491e436b7b9275a227de40439ddb66d8d0c5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774173"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564463"
 ---
 # <a name="constants-outlook-exported-apis"></a>（Outlook 导出的 Api） 的常量
 
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Miscellaneous 调度标识符
 
-Outlook 公开以下调度标识符 (dispid)，以便开发人员可以使用[idispatch:: Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx)访问的相应属性或方法，或收听对应的事件。 
+Outlook 公开以下调度标识符 (dispid)，以便开发人员可以使用[idispatch:: Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)访问的相应属性或方法，或收听对应的事件。 
   
 |**关联的常量**|**Dispid 值**|**说明**|**适用的接口**|
 |:-----|:-----|:-----|:-----|

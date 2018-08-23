@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b2e4c621295289305b34c218202dcfca13460095
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d3b41d5f694c990be7d9aae61b86b705d1b8e17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777885"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569401"
 ---
 # <a name="pidtagnondeliveryreportfromsearchkey-canonical-property"></a>PidTagNonDeliveryReportFromSearchKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果原件报表上设置，表示搜索关键字的失败的发送-作为用户。
   

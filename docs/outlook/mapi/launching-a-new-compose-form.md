@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8d1b94c70e4de6310d2e84cf002c4e3199fced2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66aa5fe08b1c0be3906fa9a0483bbdec37c095c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776154"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564498"
 ---
 # <a name="launching-a-new-compose-form"></a>启动新的撰写表单
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 窗体服务器实施应产生预期方法调用与其窗体服务器的以下序列和表单对象时客户端应用程序打开一个新邮件以撰写：
   

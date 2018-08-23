@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b393155d00b47fa8cce23c1b5ac7043237a58983
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cdb7dde4853188eb0621dc3c2f45c2dc713441d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778558"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570238"
 ---
 # <a name="pidtagwizardnopabpage-canonical-property"></a>PidTagWizardNoPabPage 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要隐藏个人通讯簿 (PAB) 页配置文件向导时，此属性包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778558"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange 管理  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 调用基于[LAUNCHWIZARDENTRY](launchwizardentry.md)函数原型的函数时，服务提供商可以设置该属性。 此属性会通知配置文件向导提供程序不希望 PAB 页后，可以在用户对话框显示。 
   

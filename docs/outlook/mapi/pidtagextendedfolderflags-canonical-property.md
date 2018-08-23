@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: e0c04f98-3d66-4ab5-ba05-69f9df539fcf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4a4d3c940539c23be8ec212cb85e3dd4f3a04aab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23c43586157806c603ad7fd8c146270a9d71170a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777614"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563784"
 ---
 # <a name="pidtagextendedfolderflags-canonical-property"></a>PidTagExtendedFolderFlags 规范属性
  
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含有关文件夹扩展的标志。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19777614"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是包含文件夹的编码子属性的二进制流。 它的格式设置为一系列的可变长度子项目。 Sub 项目的第 8 位是标志的 ID 字段，这表明哪种类型 sub 该项表示。 第二个 8 位是按照的数据的字节数。
   

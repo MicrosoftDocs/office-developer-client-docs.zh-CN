@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c542b07eac626da5fbbb6a96b4545ad3c8558b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b489e73f9453e5d2ae6657969c2bc18fc9a4620e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777487"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562937"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>PidTagContentCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 计算出的消息存储库包含文件夹中的消息的数。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777487"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储通过计算此属性用于两个不同的但相关，目的。 MapiFolder 对象，它包含文件夹中的消息的数。 在分类 MAPI 表中的标题行中，它包含非关联的标题行所对应的类别中的消息数。
   

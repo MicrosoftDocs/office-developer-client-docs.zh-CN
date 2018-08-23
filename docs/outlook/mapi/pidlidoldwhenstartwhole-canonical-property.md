@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 73064a22-68bf-4d3f-91f5-1eec807debf8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2dfc6859b596d74af9337ff462e357c95f2ec591
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec9ff524a53b8bb5d7bb62cc9d76bc4691e95e7e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776944"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565387"
 ---
 # <a name="pidlidoldwhenstartwhole-canonical-property"></a>PidLidOldWhenStartWhole 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示会议更新之前的**dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) 属性的原始值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776944"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不是必需的。
   

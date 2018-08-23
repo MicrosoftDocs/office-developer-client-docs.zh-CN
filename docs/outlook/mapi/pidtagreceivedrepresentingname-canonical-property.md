@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8f699782-8a82-4834-bc55-a0b3cf18a117
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0df2cef2f82523fd5085f5567cac41dab860916d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 854b9c69a4a3ca74ee18a30e54ebded4976c18e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563749"
 ---
 # <a name="pidtagreceivedrepresentingname-canonical-property"></a>PidTagReceivedRepresentingName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含由接收用户的邮件用户的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778141"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是由接收用户的邮件用户的地址属性的示例。 它们必须由传入传输提供程序，也是负责授权或的代理人的验证设置。 如果正在表示没有消息的用户，这些属性应设置为**PR_RECEIVED_BY_NAME** ([PidTagReceivedByName](pidtagreceivedbyname-canonical-property.md)) 属性中包含的显示名称。
   

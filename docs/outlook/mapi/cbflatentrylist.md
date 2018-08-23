@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a9f74e46fe74689cbcfba5414f7f083c34ef4f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a8e26340c4a4c80210b61f777ad00dbe3897b4f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565261"
 ---
 # <a name="cbflatentrylist"></a>CbFLATENTRYLIST
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 计算中的现有[FLATENTRYLIST](flatentrylist.md)结构的字节数。 
   

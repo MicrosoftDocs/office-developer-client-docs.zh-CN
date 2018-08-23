@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e63d661ab8c7e410d6a0dd786819cc189813017e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b357a068249b12468be52f8782f646f394e4060
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777291"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567823"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>PidTagAdditionalRenEntryIds 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的条目 Id 的某些特殊文件夹。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777291"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此多值属性的前五个条目于以下特殊文件夹，如果存在存储中：
   

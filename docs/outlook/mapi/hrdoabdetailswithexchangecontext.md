@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b4e7fed2-88e4-4e14-90b6-913a1b7e338a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cb6138072cd5dedc528168d4056041661c40fd06
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d882fa1e705969ae06da46710fc7216625ca932e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566374"
 ---
 # <a name="hrdoabdetailswithexchangecontext"></a>HrDoABDetailsWithExchangeContext
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 确保**OpenEntry**方法打开的预期的 Exchange 通讯簿提供程序。 此函数工作方式类似于[IAddrBook::Details](iaddrbook-details.md)，但打开**entryID**使用_pEmsmdbUID_参数标识的 Exchange 通讯簿。 
   

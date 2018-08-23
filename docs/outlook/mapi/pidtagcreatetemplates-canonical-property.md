@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 82da274670c9266a746defcf6bbd5dbcf621901b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777515"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563357"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>PidTagCreateTemplates 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含嵌入的 table 对象，其中包含对话框框模板条目标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777515"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要了解哪些对象可以创建在容器内的模板，请在该属性调用[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法。 生成的对象是一次性的表，使您可以创建在容器内的所有模板的项标识符。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 88ddfd9e6bb27abfeee9750c71e98d4fad9d1a14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 21b738424b27d3d89d8de84c8c9ff2ff86dd945b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776233"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564085"
 ---
 # <a name="mapi-folders"></a>MAPI 文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 文件夹是充当组织的邮件的基本单位的 MAPI 对象。 按层次结构排列，文件夹可以包含邮件和其他文件夹。 文件夹更加轻松地查找和处理邮件。
   

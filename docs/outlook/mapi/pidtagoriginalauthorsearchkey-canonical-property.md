@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e5b283376d018b7b2675e05f994d586126437590
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 225c0813139a74b735b5b8a3d5a729e630cd3511
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563336"
 ---
 # <a name="pidtagoriginalauthorsearchkey-canonical-property"></a>PidTagOriginalAuthorSearchKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含搜索关键字的作者的消息，即之前正在转发或答复邮件的第一版。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777921"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Server  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一个邮件的作者的地址属性。 在首次提交邮件，客户端应用程序应将此属性设置为**PR_SENDER_SEARCH_KEY**[PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)属性的值。 当转发或答复邮件永远不会更改它。 
   

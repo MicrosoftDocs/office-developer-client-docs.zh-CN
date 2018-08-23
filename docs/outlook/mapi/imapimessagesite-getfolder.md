@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ea95ea4efbbf50e5551a27eb81fe5d5ab3b73948
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78fb610c5afc3cac4f6de84240f734e5ae196110
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775448"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565541"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果存在此类的文件夹，则返回已创建或打开，当前邮件文件夹。 此方法中嵌入的邮件，不直接在文件夹中存储的_ppFolder_参数返回 NULL。 
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > 不存在文件夹的邮件。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 向窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   

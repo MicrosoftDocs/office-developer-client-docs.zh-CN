@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4d1bc5fc5a5e304d81ab4252a527d0e52b0d6e3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54443001e3cb14603c8f8f798f2a4068d73b00eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19776413"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568061"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>将 Internet Mail 属性映射到 MAPI 属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此附录介绍 MAPI 消息属性和简单邮件传输协议 (SMTP) 邮件属性之间的 MAPI 传输提供程序或其连接到 Internet 的 MAPI 感知网关应翻译。 SMTP 是何种 Internet 上使用的消息协议。 SMTP 定义一组的邮件头 — 对邮件信封进行 — 和邮件内容格式。 SMTP 完全记录集中的两个文档，RFC 821 和 RFC 822，可以在 Internet 找到 FTP 和 WWW 网站的号码。
   

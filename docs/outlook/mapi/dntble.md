@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10fb1650-6c3e-f467-91cd-48e5ddd82827
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: 51a79075dac62a051f5a28dbcb70e7d6ff200e65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d92e8d7b3fb14051ffceb829f3df3f6fa12e6e23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774864"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565856"
 ---
 # <a name="dntble"></a>DNTBLE
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在[下载表状态](download-table-state.md)期间，从服务器下载文件夹的内容的信息。 此下载的过程使用 Microsoft Exchange 增量更改同步 (ICS)。 ICS 的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
   

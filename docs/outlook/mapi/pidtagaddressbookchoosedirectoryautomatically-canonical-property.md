@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 48dfced07a8fd78a1af22679759effbd3c6da343
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b685fd0ebe4a2d0bfcfd8aab3015602b84932db7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777302"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564939"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>PidTagAddressBookChooseDirectoryAutomatically 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 启用 Microsoft Outlook 2010 和 Microsoft Outlook 2013，选择最合适的全局地址列表 (GAL) 或联系人的当前邮箱文件夹。
   
@@ -30,7 +30,7 @@ ms.locfileid: "19777302"
 |属性类型  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性对应于通讯簿选项对话框中的**自动选择**设置。 当此属性存在 IID_CAPONE_PROF 配置文件一节，并设置为**true**，通讯簿对话框不再默认为[SetDefaultDir](iaddrbook-setdefaultdir.md)方法中，指定的容器，但选择通讯簿的 Outlook 2010 或 Outlook 2013考虑适用于在其中显示对话框中的上下文。 请注意，这可能会导致不好的体验的第三方通讯簿提供程序。 
   

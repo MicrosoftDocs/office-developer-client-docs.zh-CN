@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: df225a0852b09e048656e817c54ea28b0de59888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa30a173251193d74d6560c8dce2663463a18e36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774492"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565982"
 ---
 # <a name="about-the-offline-state-api"></a>关于脱机状态 API
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 脱机状态 API 支持指示 Microsoft Outlook 2013 和 Microsoft Outlook 2010 中的用户的连接状态的变化的回调 — 例如，从要在 Outlook 2013 或 Outlook 2010 中的联机到脱机。 API 使用 Outlook 2013 或 Outlook 2010 中的全局脱机对象来跟踪此更改为给定的用户帐户配置文件。 通知是回调的唯一受支持的设备。 此 api 的客户端，为邮件提供商希望此类连接状态更改通知执行以下操作：
   

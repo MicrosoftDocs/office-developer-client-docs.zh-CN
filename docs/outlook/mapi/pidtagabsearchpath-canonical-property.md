@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: dfb7ce1b-8e2f-4360-a7d3-876ff5163c34
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7d0a799bb100aa56a47d243916eb136458ca8969
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e489d5ccef9dcec9cdad08c068276e69fdf09566
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777288"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567970"
 ---
 # <a name="pidtagabsearchpath-canonical-property"></a>PidTagAbSearchPath 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含要搜索来解析名称的通讯簿容器的项标识符的列表。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777288"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 不要使用此属性。 它是通过 MAPI 供使用。
   

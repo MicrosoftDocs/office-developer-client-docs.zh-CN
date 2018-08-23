@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ac6584819b5dfa96a5f7816f1d77b89323e3eaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc71974d841005785932cc9017d44c3c0614687d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775201"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563385"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 打开基于给定配置文件的脱机对象。
   
@@ -77,7 +77,7 @@ MAPI_E_NOT_FOUND
   
 - 函数调用失败。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这是客户端发出时在客户端需要的任何给定配置文件的连接状态更改通知的第一个呼叫。 时调用**HrOpenOfflineObj**，客户端获取脱机支持**IMAPIOfflineMgr**的对象。 客户端可以检查回调对象 （通过使用[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)） 支持的类型，然后设置回调 （通过使用[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)）。
   

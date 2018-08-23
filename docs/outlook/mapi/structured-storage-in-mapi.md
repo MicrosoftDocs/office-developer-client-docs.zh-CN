@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 642a678b-4bf2-4246-85cb-c798de23e36f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 462ee84d5e9acd26f80bae6516179f21651749be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 937643d90534f73477b90fd7ce883615a7e296f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778910"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569713"
 ---
 # <a name="structured-storage-in-mapi"></a>MAPI 中的结构化的存储
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 结构化的存储是指存储 COM.中引入的分层组织 结构化的存储环境中存储分为两个或三种类型的对象： 
   

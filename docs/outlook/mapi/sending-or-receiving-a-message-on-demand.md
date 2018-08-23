@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ece5340497f83862b711f076c8c6346e14ec9355
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 668e1c57c59bf2356be808e0347e1bd5135478a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778744"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563889"
 ---
 # <a name="sending-or-receiving-a-message-on-demand"></a>发送或接收按需型消息
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端通常依靠 MAPI 子系统 — MAPI 后台处理程序和服务提供程序 — 处理的邮件传输和接收的时间。 但是，您可以通过使用 MAPI 后台处理程序或传输提供程序的状态对象修改此计时。
   

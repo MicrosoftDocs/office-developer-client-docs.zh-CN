@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28c269db15d0c0a81950a61ee9e6629ad067b789
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12226039457782162eb74a19713fa77936332f80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565142"
 ---
 # <a name="pidtagidentitysearchkey-canonical-property"></a>PidTagIdentitySearchKey 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含服务提供商的标识在邮件系统中定义的搜索键。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777695"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不显示任何对象的属性但只能作为状态表中的列。 它是标识的公开状态表格行的服务提供程序的一部分。 提供程序的标识通常是指其帐户的服务器上，但可以参考消息系统中定义的提供程序的任何表示。 
   

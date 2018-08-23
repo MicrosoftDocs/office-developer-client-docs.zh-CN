@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a99ef76e63e634c661bf82bdab10b86c843e0df0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c98427ab326ada0b717282dc4077d526780aa45c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774972"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568159"
 ---
 # <a name="form-storage"></a>窗体存储
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 尽管不需要知道的如何从物理上隔离存储窗体的所有详细信息，它可了解几个主要概念。 因此之前描述的三种类型的默认窗体管理器支持的表单库，本主题概述了如何存储窗体。
   

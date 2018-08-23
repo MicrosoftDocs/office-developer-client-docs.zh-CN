@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0fcd1c79d1c0debfb18d270dc0e40de42842c6d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebe10ae741975b33ee58e1e99032aaca64ef38d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778992"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569727"
 ---
 # <a name="tnef-stream-structure"></a>TNEF 流结构
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 TNEF 流开头的标识作为 TNEF 流流 32 位签名。 关注签名是一个 16 位无符号的整数，用作为键来交叉引用标记的消息文本中其位置的附件。 用于将 stream 的其余部分是 TNEF 属性的序列。 在 TNEF 流中，消息属性显示第一个和附件属性按照。 属于特定的附件属性分组在一起，开头**attAttachRenddata**属性。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 3d466bde-b70d-44b6-ba03-6ad8353ec759
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ec5a431d04799e3f19c23dd0437aeac13fbf0968
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e7c94b387a5fe9f9682854de4097f6f1bbcd786
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778597"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565597"
 ---
 # <a name="reconfiguring-a-transport-provider"></a>重新配置传输提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 您可以使用传输提供程序的状态对象更改的一些提供程序的属性。 可以更改属性的范围取决于包含在提供程序的属性表和如何定义这些属性的属性。 
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64897258-dd7e-a730-d4f5-d9c217308491
-ms.openlocfilehash: 4d751df50d4239263947a917cb16f2305cb06170
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e097e740b543661e5c49a81d75c047c8749ce1d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781166"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564253"
 ---
 # <a name="rowdeftype-complextype-visio-xml"></a>RowDef_Type 复杂类型 (Visio XML)
 
@@ -48,7 +48,7 @@ ms.locfileid: "19781166"
 
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
-|[CellDef](http://msdn.microsoft.com/library/f94c8227-020a-f613-3715-96a5eaaf14fb%28Office.15%29.aspx) <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
+|CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Attributes
 

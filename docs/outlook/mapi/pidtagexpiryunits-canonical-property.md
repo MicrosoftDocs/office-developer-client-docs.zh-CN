@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1c753bb84ccbfe2fa6869d56806fd042a6d60e9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6aab4228af0f584d96a2a8cc02c5f36e05a01e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777594"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569601"
 ---
 # <a name="pidtagexpiryunits-canonical-property"></a>PidTagExpiryUnits 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍当**PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) 属性相乘的时间单位。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777594"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性，如果设置，必须是下列值之一：
   

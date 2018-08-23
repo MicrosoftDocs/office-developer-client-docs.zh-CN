@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4bc4d680903d81b51a39ed39db3861597443d116
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 274e7206171e1874e3625896952f861d25f3b382
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775069"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564533"
 ---
 # <a name="handsoffaftersave-state"></a>HandsOffAfterSave 状态
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 HandsOffAfterSave 状态是将窗体的内容保存到永久存储过程的一部分。 在此状态下，窗体对象应避免更改消息的属性的值的内存中副本因为可能没有其他机会保存这些更改。 下表介绍允许的 HandsOffAfterSave 状态转换。
   

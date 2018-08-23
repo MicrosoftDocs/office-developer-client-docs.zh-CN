@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2baed391-85bd-4e88-8800-c19bc2d2d54a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 256412f6ccbe66da067411bf9f66ad0478cf5ca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9b52edf7f4633fdf9c925a8d8db4953590713b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562930"
 ---
 # <a name="resolving-a-recipient-name"></a>解析收件人姓名
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 时，从而解决了一条消息，收件人列表是构建具有与每个收件人的属性。 发送邮件时，这些属性之一必须是收件人的长期条目标识符。 若要确保每个收件人，包括**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性，传递[ADRLIST](adrlist.md)结构描述您收件人列表中，将调用[IAddrBook _lpAdrList_参数的内容：ResolveName](iaddrbook-resolvename.md)。
   

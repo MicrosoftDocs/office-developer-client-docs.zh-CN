@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8e1578da3a9caea7533b75fe6dc16c3d7c3488d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82d043adfe6e480b4d490f44ad89d73535c80c9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777834"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569776"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>PidTagMessageCcMe 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果此消息的用户专门命名为此邮件的抄送 (CC) 收件人，而不是通讯组列表的一部分，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777834"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性提供方便地确定是否用户名显式中出现抄送收件人列表中，如果不检查列表中的所有条目。 
   

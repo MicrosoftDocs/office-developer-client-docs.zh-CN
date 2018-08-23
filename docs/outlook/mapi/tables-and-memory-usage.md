@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 390cec0cc59f189f83af2c5339512d82e125771e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778964"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563014"
 ---
 # <a name="tables-and-memory-usage"></a>表和内存使用情况
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 与表中检索数据连接的重要问题是内存使用率。 可用内存不足可能导致[IMAPITable::QueryRows](imapitable-queryrows.md)和[HrQueryAllRows](hrqueryallrows.md)失败，返回所需的行数小于。 决定哪些方法或函数用于检索表数据取决于是否可以预期表以适合在内存中，并不能转换，如果是可接受的失败。 
   

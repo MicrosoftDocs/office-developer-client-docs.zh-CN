@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d6724914896fe7c40e9a456785aa5c92b84532fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774950"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567158"
 ---
 # <a name="folder-fields-stream-structures"></a>文件夹字段流结构
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 消息的[PidTagUserFields](pidtaguserfields-canonical-property.md)属性包含二进制数据流，FolderUserFields，其中包含的文件夹的用户定义的字段定义。 本主题描述有关用户定义的字段定义的文件夹的流结构。 
 
@@ -130,7 +130,7 @@ FolderFieldDefinitionCommon 流结构包含 FolderFieldDefinitionA 和 FolderFie
     |FCAPM_MULTILINE_TEXT  <br/> |0x00000100  <br/> |字段可以包含多行文本。  <br/> |
     |FCAPM_PERCENT  <br/> |0x01000000  <br/> |此字段的类型 ftFloat 是百分比字段。  <br/> |
     |FCAPM_DATEONLY  <br/> |0x01000000  <br/> |此字段的类型 ftTime 是仅日期时间字段。  <br/> |
-    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |对于类型 ftInteger 此字段，没有单位允许显示格式;例如此类作为"Computer-640 k。..."的格式 不允许使用。  <br/> |
+    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |对于类型 ftInteger 此字段，没有单位允许显示格式;例如此类作为格式"计算机-640 k。..."不允许使用。  <br/> |
     |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0x80000000  <br/> |字段可编辑项中： 这是专为自定义窗体。  <br/> |
    
 - **dwString**: DWORD （4 个字节）。 请参阅第一个以下注释。

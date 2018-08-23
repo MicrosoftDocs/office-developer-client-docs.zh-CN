@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b667f56553b717f1bc938b6ce045dbfdde8fdc0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e09a1de5f85edd7e352a090c573fed9ca16f017f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775585"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565548"
 ---
 # <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 不显示用户界面中修改服务提供商的密码。 （可选） 在服务提供商实现的状态对象支持使用此方法。
   
@@ -67,7 +67,7 @@ MAPI_E_NO_SUPPORT
   
 > 状态对象不支持此操作，如缺少 STATUS_CHANGE_PASSWORD 标志状态对象的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中所示。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 并非所有状态对象都支持**IMAPIStatus::ChangePassword**方法。 它只受服务提供商的要求客户端输入密码。 MAPI 实现的状态对象都未支持密码更改操作。 
   

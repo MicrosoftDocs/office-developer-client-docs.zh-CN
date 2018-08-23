@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 957aa00f-23d8-4f3b-bbc2-7d54f17b47b5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 725256a64cb7d55be494ba623247255dfe5936c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cf2f08a69ee87c40789b764596e514c91483c2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776290"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563154"
 ---
 # <a name="mapi-property-identifier-overview"></a>MAPI 属性标识符概述
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 属性标识符是一个数字，用于指示属性用于和谁负责执行它。 属性标识符可以分为若干通过 MAPI 范围;标识符属于范围中的其中指示其使用情况和所有权。 
   

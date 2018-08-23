@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: 了解如何使用 CSISyncClient 控制 Office 文档缓存 (ODC)。
-ms.openlocfilehash: adaa56bf040889bd8220506bcfab8fdb0b7ab6c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779601"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565282"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>使用 CSISyncClient 控制 Office 文档缓存 (ODC)
 
@@ -202,7 +202,7 @@ GetSupportedFileExtensions 返回当前受支持的 CsiSyncClient COM 对象的�
   
  _bstrProgID_
   
-标识双向通信使用者的 COM 的对象。 非空值必须为最多为 39 个字符。 请参阅[\<ProgID\>键](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx)的 Progid 的详细信息。 
+标识双向通信使用者的 COM 的对象。 非空值必须为最多为 39 个字符。 请参阅[\<ProgID\>键](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key)有关 Progid 的详细信息。 
   
  _bstrFileSystemDirectoryHint_
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 44a31e46c43a065c720564f2aa193913dbfd9a2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775196"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565324"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 复制一个或多个条目，通常消息的用户或通讯组列表。
   
@@ -80,7 +80,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 复制操作成功总体上讲，但无法复制一个或多个条目。 返回此值时，应处理呼叫为成功。 若要测试此值，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IABContainer::CopyEntries**方法将从同一个容器或其他容器复制条目。 调用**CopyEntries**功能上等效于调用以下为每个要复制的项： 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 319dcb95de6fafcdac9a1a755163206a4849d8d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7dc60cf3c49032a2c871872765b19e96c49f6da5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775833"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568782"
 ---
 # <a name="imscapabilities--iunknown"></a>IMSCapabilities : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供有关可支持的存储区的信息。
   
@@ -38,7 +38,7 @@ ms.locfileid: "19775833"
 |:-----|:-----|
 |**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |返回基于指定的选定内容存储的功能。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
  **IMSCapabilities**提供了存储如果存储区支持该接口可以支持的信息。 
   

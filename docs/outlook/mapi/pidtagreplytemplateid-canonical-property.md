@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3645e7a6-ef30-494f-bf71-fa06f819bc0c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 03569d05f724df773b1ca3aaf8b7a8f5132b8681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b8af182d905a1b7449d96a525696fb6af912d3ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778202"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563791"
 ---
 # <a name="pidtagreplytemplateid-canonical-property"></a>PidTagReplyTemplateId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含答复模板的全局唯一标识符 (GUID)。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778202"
 |相关属性：  <br/> |PR_REPLY_TEMPLATE_ID  <br/> |
 |标识符：  <br/> |0x65C2  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |规则  <br/> |
+|区域：  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 

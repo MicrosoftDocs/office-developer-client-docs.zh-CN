@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f3642c890c3922611d57dea6f03aca5606876864
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cda629cf78d3f7915b64c130867ed4f8ebbd6f8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775684"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563840"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 生成送达和原件报告。
   
@@ -54,7 +54,7 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功总体上讲，但没有这种类型的收件人的收件人的选项。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于传输提供程序支持对象实现**IMAPISupport::StatusRecips**方法。 传输提供程序调用**StatusRecips**请求的 MAPI 发送到一组一个或多个收件人的邮件的传递或原件报表。 
   

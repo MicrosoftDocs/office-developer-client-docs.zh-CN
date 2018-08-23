@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cf1febe89c49b29cdfaf8d27760c4fb27b4c4990
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33adef7a8248e137869912afc2026583828b087e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776524"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570168"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 初始化操作的消息存储提供程序。
   
@@ -99,7 +99,7 @@ MAPI_E_VERSION
   
 > 正在使用 MAPI 的 SPI 版本不兼容与 SPI 正在使用此提供程序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 调用入口点函数**MSProviderInit**初始化关注客户端登录的消息存储提供程序。 
   

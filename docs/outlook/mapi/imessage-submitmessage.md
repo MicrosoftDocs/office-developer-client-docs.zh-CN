@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9ce93469-c55d-48d1-9abb-a637716ed4f2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1d325c67c836e727d8285bd2dceecf88bf68327c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 67c86f39898b4bd0c019b9b3095c9449e6e60b1b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775769"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567319"
 ---
 # <a name="imessagesubmitmessage"></a>IMessage::SubmitMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 保存所有消息的属性，并将邮件标记为已准备好发送。
   
@@ -53,7 +53,7 @@ MAPI_E_NO_RECIPIENTS
   
 > 邮件的收件人表为空。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMessage::SubmitMessage**方法将邮件标记为已准备好进行传输。 MAPI 将消息传递给基础邮件系统发送的标记的顺序。 由于此功能，一条消息可能消息存储区中保持之前基础消息系统可以负责为它一些时间。 在目标接收的顺序处于基础邮件系统的控件，并且不一定匹配已发送邮件的顺序。 
   

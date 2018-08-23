@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: acc96bb9-1592-c480-53ee-1325f65297e1
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: a9d0bf684ba9a6cf00e6fd5003d517cb69f59a47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1240faddf2ebc8b645b6c6bde6aba243e9019507
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563560"
 ---
 # <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a>确定 Outlook 是否下载只有一条消息标头
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题介绍使用命名的[PidLidHeaderItem 规范属性](pidlidheaderitem-canonical-property.md)来确定是否仅邮件的标头或标头和邮件正文，Microsoft Outlook 2013 已下载的 Visual c + + 中的代码示例。 
   

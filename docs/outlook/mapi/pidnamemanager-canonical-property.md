@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d1883d22-5eca-4d00-8222-3fc74782c7a9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fa1eca4780a4fde1a388f8e140d76c776c3b63d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f4d555f6ed0cc960c9752bfc2e27a70596b9a73
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567830"
 ---
 # <a name="pidnamemanager-canonical-property"></a>PidNameManager 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定附加到文档的文件的管理器。
   

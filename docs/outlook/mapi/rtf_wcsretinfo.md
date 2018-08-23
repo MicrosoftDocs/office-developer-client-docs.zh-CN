@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3a38a4604230c0aa3f5b0d104ae3b838f544b31d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf8cf115c6188b5058717437c470e11797ff5b9a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778657"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564960"
 ---
 # <a name="rtfwcsretinfo"></a>RTF_WCSRETINFO
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 此结构提供有关本机格式返回从解压缩封装压缩富文本格式 (RTF) 中的邮件正文中的流信息。
   

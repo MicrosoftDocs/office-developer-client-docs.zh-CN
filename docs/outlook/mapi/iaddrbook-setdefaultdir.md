@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 00d5b2bfc6b0c024f0ef12ce19fed90ef0af6721
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68cca0b483aca91001f8ee71289f4b1673fb2888
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775248"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564652"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 建立默认通讯簿容器为指定的容器。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功设置默认通讯簿容器。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端和服务提供商调用**SetDefaultDir**方法建立新的默认通讯簿容器。 默认容器是首次打开通讯簿时显示在通讯簿中的用户看到的容器。 **SetDefaultDir**将默认容器保存为配置文件中的条目。 容器将保持为默认值，直到在同一个会话或另一个会话中进行**SetDefaultDir**到另一个呼叫，或者删除容器。 
   

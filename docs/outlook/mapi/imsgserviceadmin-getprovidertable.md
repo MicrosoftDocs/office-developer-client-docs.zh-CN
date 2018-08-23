@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4272edef5b1b72944d1d27f0e4dd99ee4956aa57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 834b010dc4810e26264bb418de9630bc83b99810
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775844"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565289"
 ---
 # <a name="imsgserviceadmingetprovidertable"></a>IMsgServiceAdmin::GetProviderTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供对提供程序表中，在配置文件中的服务提供商的列表的访问。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功返回提供程序表中。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMsgServiceAdmin::GetProviderTable**方法提供了访问 MAPI 提供程序表中，列出所有通讯簿、 消息存储和传输提供程序当前安装的配置文件中的表。 
   

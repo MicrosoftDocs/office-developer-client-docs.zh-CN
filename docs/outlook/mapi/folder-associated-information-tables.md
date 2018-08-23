@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 09cac591aac9d266571348531e378974b86a3a9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c9c75d0ae4b9fe060d6717dfa11ad418cbb715b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774957"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564645"
 ---
 # <a name="folder-associated-information-tables"></a>文件夹关联的信息表
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 定义各种 MAPI 组件处理相关的信息表时要使用 MAPI_ASSOCIATED 标志。 每个文件夹中的消息存储应有以及其标准内容表关联的内容表。 客户端应用程序的文件夹关联的内容表来保存表单和视图中存储特殊的邮件。 实际上，若要支持表单和视图，消息存储提供程序必须实现关联的内容表。
   

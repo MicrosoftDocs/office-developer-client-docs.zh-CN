@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 289227ee171c2325cad0ed321dab4f635a0ca724
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b2de22eef455e59b7877524ce998e93a0a708e0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778582"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566654"
 ---
 # <a name="propertydefinition-stream-structure"></a>属性定义流结构
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 属性定义流结构是包含在 Microsoft Outlook 项目中，所有用户定义的字段定义和一些内置字段的数据绑定设置[FieldDefinition](fielddefinition-stream-structure.md)流结构的数组。 
   

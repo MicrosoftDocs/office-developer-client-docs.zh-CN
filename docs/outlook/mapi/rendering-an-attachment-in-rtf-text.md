@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cf22e360a0319a662c9b7dd31856dbb6eccec02a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d8fc10f876408d616c5acefb664ba5d61c927a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778611"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562972"
 ---
 # <a name="rendering-an-attachment-in-rtf-text"></a>以 RTF 文本呈现附件
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 Rtf 格式 (RTF)-感知客户端可以通过查看消息的**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中下面的转义序列从 RTF 邮件文本检索呈现位置信息：
   

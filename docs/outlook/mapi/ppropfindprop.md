@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b7755f2ec067003e47d358a9736c6d7d96ede267
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f720160193613bbbb4bbd447f78c14e6e5378eb8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778565"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565653"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 搜索属性中指定属性设置。
   
@@ -59,7 +59,7 @@ LPSPropValue PpropFindProp(
 
  **PpropFindProp**返回[SPropValue](spropvalue.md)结构定义符合输入的属性标记，则为 NULL，如果没有匹配的属性。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果给定的属性标记指示 PT_UNSPECIFIED 类型的属性， **PpropFindProp**函数标记中找到仅属性标识符的匹配项。 否则为它找到匹配项整个属性标记，其中包括属性类型，并返回标识的属性。 
   

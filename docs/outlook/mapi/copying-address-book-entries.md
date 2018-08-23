@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ce7f7e2db341be62912935b7a55d69eaf5db8ab5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eca0c9f63a4efaaa7f9fd066cf5dce451b8f6175
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774697"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565884"
 ---
 # <a name="copying-address-book-entries"></a>复制通讯簿条目
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 时调用容器的[IABContainer::CopyEntries](iabcontainer-copyentries.md)方法从相同的一个或多个收件人或另一个容器的复制到此容器。 **CopyEntries**具有四个输入的参数： 表示要复制的收件人的项标识符、 窗口句柄进度指示器、 进度对象指针，和一个标志值的数组。 如果 AB_NO_DIALOG 标志未设置和使用_lpProgress_参数中的进度对象，如果不为 NULL，则您的提供商应显示进度。 如果_lpProgress_为 NULL，则调用[IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md)使用 MAPI 进度对象。 有关显示进度的详细信息，请参阅[显示进度指示器](mapi-progress-indicators.md)。
   

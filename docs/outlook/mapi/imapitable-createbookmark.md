@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 34bd6de95f731c03466f19e0bc4fd6e2c9910900
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e9135a52c15c18b70116aaf52e1ee63af413673
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775691"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563847"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在表的当前位置创建一个书签。
   
@@ -49,7 +49,7 @@ MAPI_E_UNABLE_TO_COMPLETE
   
 > 无法完成所请求的操作。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::CreateBookmark**方法通过创建值调用书签标记的表的位置。 可以使用书签以返回到书签标识的位置。 与在表中的行对象相关联的书签的位置。 
   

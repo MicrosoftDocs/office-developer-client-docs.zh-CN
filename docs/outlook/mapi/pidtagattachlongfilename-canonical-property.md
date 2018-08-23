@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0debee5d480c4ea0c0a8fb4b54d9fa5d92a45987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f1e86924c0464814e3aa1e219930bd23fc78fb5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777344"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563483"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>PidTagAttachLongFilename 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含附件的长文件名和扩展名，不包括路径。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777344"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性与 ATTACH_BY_VALUE、 ATTACH_BY_REFERENCE、 ATTACH_BY_REF_RESOLVE 和 ATTACH_BY_REF_ONLY **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性的值。 支持长文件名的平台应发送时，设置的**PR_ATTACH_LONG_FILENAME**和**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) 属性，并应检查**PR_ATTACH_LONG_FILENAME**首先时接收。 
   

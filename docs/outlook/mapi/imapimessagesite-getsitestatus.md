@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7d81533b13f4f44a0644215e009dc3477717e9a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9b804728541b0f2a0499bbf0078bfee2e5aed6ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775461"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563805"
 ---
 # <a name="imapimessagesitegetsitestatus"></a>IMAPIMessageSite::GetSiteStatus
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回信息有关邮件消息网站对象中为当前消息的网站的功能。
   
@@ -73,7 +73,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIMessageSite::GetSiteStatus**方法获取当前消息的消息网站对象的功能。 _LpulStatus_参数中返回的标志提供有关邮件网站的信息。 通常情况下，窗体启用或禁用菜单命令，具体取决于标志提供有关功能的信息的邮件网站实现。 如果新邮件[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)方法或[IPersistMessage::Load](ipersistmessage-load.md)方法加载到窗体时，必须检查状态标志。 某些消息网站对象，尤其是只读的对象，不允许保存或删除的邮件。 
   

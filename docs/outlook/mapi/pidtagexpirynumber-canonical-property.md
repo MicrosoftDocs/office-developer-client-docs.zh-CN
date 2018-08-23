@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 087585e936f04f18ad15f390a083213e2285da83
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b9659beac383ab5da206e5184a3501036da2cd80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777600"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564526"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>PidTagExpiryNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 定义到期发送时间与**PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) 属性一起使用。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777600"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果存在必须介于 0 到 999 之间，之间设置此属性的值。
   

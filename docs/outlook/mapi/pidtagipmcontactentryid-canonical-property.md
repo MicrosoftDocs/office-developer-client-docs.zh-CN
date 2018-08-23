@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: fccbbb15-dd08-4310-83d7-bf57eb3ed5de
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a230e13bf81c83504a9da1b0f8d0cd340eb18403
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c09d4848373a530e80298d6c01ad3d411d9eb60e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777759"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567410"
 ---
 # <a name="pidtagipmcontactentryid-canonical-property"></a>PidTagIpmContactEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含 Outlook 联系人文件夹的**EntryID** 。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777759"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性存储和消息存储库的根文件夹中收件箱文件夹。 若要访问特定的邮件存储区上的属性，请执行以下操作： 
   

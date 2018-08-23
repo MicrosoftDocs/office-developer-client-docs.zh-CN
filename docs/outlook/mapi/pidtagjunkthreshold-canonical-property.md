@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0f8484e195b1cda8e1d633133cdff89c571d8ecd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d4337105b2dcae94956f0b1badf66c663467dc3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565660"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>PidTagJunkThreshold 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 力度指示应将传入邮件发送到垃圾邮件文件夹。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777784"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性对应于高 / 低/无筛选设置。 "0xFFFFFFFF"的值表示的垃圾邮件筛选不应将应用，但仍必须应用阻止列表。 "0x80000000"值表示的所有邮件是除这些来自受信任的发件人列表上的发件人的邮件的垃圾邮件或发送到受信任的收件人列表上的收件人。 参数的值如下所示：
   

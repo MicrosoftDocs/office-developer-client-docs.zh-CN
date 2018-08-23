@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98e4d2e3-95fc-4644-8aa8-a9787717de68
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 70dfc267acbbf4d23f744d3b8e4050162cb56152
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61af11204cb9f78700f00e8dcc2f69fcb96245c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566899"
 ---
 # <a name="pidlidworkaddresspostofficebox-canonical-property"></a>PidLidWorkAddressPostOfficeBox 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定联系人的公司的邮政信箱部分。
   

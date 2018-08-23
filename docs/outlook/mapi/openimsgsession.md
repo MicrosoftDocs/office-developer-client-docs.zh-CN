@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e7f652e7426792d8b4c878b7f6738439aec65348
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39dd053b2896ebcfcdec97d976af3e75e19f8c0b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776550"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564953"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建并打开在其中创建邮件分组的邮件会话。 
   
@@ -45,7 +45,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [in]对内存分配器对象公开的 OLE [IMalloc](http://msdn.microsoft.com/library/047f281e-2665-4d6d-9a0b-918cd3339447%28Office.15%29.aspx)接口的指针。 MAPI 需要时使用的 OLE [IStorage](http://msdn.microsoft.com/library/stg.istorage%28Office.15%29.aspx)界面使用此分配方法。 
+> [in]对内存分配器对象公开的 OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc)接口的指针。 MAPI 需要时使用的 OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage)界面使用此分配方法。 
     
  _ulFlags_
   
@@ -73,7 +73,7 @@ MAPI_UNICODE
   
 > 时调用此函数，客户端或服务提供程序设置 MAPI_UNICODE 标志创建 Unicode.msg 文件。 生成的[Imessage](imessageimapiprop.md)文件显示在其 PR_STORE_SUPPORT_MASK STORE_UNICODE_OK，并支持 Unicode 属性。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息会话由客户端应用程序和服务提供商想要处理多个相关 MAPI [IMessage: IMAPIProp](imessageimapiprop.md)基于基础 OLE **IStorage**对象的对象。 在客户端或提供程序使用的**OpenIMsgSession**和[CloseIMsgSession](closeimsgsession.md)函数来包装创建的此类邮件内的邮件会话。 后打开消息会话时，在客户端或提供程序将指针传递给它-上- **IStorage**对象创建新**IMessage** [OpenIMsgOnIStg](openimsgonistg.md)将调用。 
   

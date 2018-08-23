@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dce3f4b5bfdcb34148c25c880d8d2d8173755b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774623"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563574"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>在 32 位和 64 位平台上构建 MAPI 应用程序
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题介绍以更改并重新构建在 64 位平台上，运行 32 位 MAPI 的应用程序和 64 位应用程序在 32 位平台上运行，MAPI 开发人员应采取的操作。 本主题中的 64 位平台是安装 64 位 Microsoft Outlook 和 64 位 Windows，一台计算机，32 位平台安装 32 位 Outlook 和 32 位或 64 位 Windows 的计算机。 
   

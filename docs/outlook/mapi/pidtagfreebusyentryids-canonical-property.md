@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e0feaac0cb4c52b2f2acff1460a4d8a41196954d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 603adf8df0c00efc592572fd9a46434f42845011
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564736"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>PidTagFreeBusyEntryIds 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含**Entryid**委托信息消息、 登录的用户，以及其**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 等于"FreeBusy 数据。"文件夹的忙/闲消息
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bc2a9116-948e-4da3-96b8-26d73bcd63c4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1d38c0ac7ddbd24123dd51d7315644f3ad786d15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f15749077596bd6c89828eb730cadd5624a75fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774676"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564582"
 ---
 # <a name="constructing-entry-identifiers"></a>构建条目标识符
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 使用[ENTRYID](entryid.md)结构构建条目标识符。 **ENTRYID**结构组成描述的项标识符和实际的项标识符的属性的标志。 
   

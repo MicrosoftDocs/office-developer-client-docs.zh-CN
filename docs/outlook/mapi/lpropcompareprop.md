@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d214cb5d449e2f7e42e7ee72774fdc146495adb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0985ed0c5d4482bb22f46bdc9198afc343c61e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776168"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565534"
 ---
 # <a name="lpropcompareprop"></a>LPropCompareProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 比较两个属性值来确定它们是否相等。 
   
@@ -62,7 +62,7 @@ LONG LPropCompareProp(
     
 对于具有任何固有排序，如布尔值的属性类型或错误类型， **LPropCompareProp**函数返回未定义的值，如果两个属性值不相等。 未定义的该值是跨呼叫非零值和一致。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 仅当要进行比较的两个属性的类型都是相同，请使用**LPropCompareProp**函数。 
   

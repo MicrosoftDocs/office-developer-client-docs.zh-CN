@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ff23472254df2bd9d2195c7cf2c4258b856ec430
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d01f07b5eb5ca34b4bd825b62b7d1520b853d6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776548"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564260"
 ---
 # <a name="olfi"></a>OLFI
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 个人文件夹文件 (PST) 存储提供程序用于分配新的邮件或文件夹在脱机模式下的条目 ID 的长期 ID 结构的队列。
   
@@ -67,7 +67,7 @@ typedef struct {
   
 - 标识的下一个可用的条目的长期 ID 结构。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 条目 ID 是 4 字节 MAPI 项标识符的文件夹或一条消息。 有关详细信息，请参阅[ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424)。
   

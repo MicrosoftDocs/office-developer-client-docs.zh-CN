@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
-ms.openlocfilehash: 3e0504ecb70362e84360c6cc9962fea5b8f470a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 311d055e0a319ec26cdc4eba5ac3b50dc9e63d9d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774356"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565177"
 ---
 # <a name="iolkerrorunknown"></a>IOlkErrorUnknown
 
@@ -21,7 +21,7 @@ ms.locfileid: "19774356"
 
 |||
 |:-----|:-----|
-|继承：  <br/> |[IUnknown](http://msdn.microsoft.com/library/com.iunknown%28Office.15%29.aspx) <br/> |
+|继承：  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |提供者：  <br/> |客户端  <br/> |
 |接口标识符：  <br/> |IID_IOlkErrorUnknown  <br/> |
    
@@ -31,7 +31,7 @@ ms.locfileid: "19774356"
 |:-----|:-----|
 |[时出错](iolkerrorunknown-getlasterror.md) <br/> |获取指定的错误消息字符串。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此接口提供了有关[IOlkAccountManager](iolkaccountmanager.md)、 [IOlkAccountNotify](iolkaccountnotify.md)和[IOlkAccount](iolkaccount.md)中的错误的额外信息。 它也是**IOlkAccountManager**、 **IOlkAccountNotify**和**IOlkAccount**的基接口。 
   

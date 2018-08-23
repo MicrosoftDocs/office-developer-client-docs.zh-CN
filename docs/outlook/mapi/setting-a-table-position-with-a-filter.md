@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0d66124b-a018-4db4-b55b-a0e5ed467e14
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 4c3a5c13433fb2f037be24ddd4c877579429f7bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c4db9c67fc712143657fe66b86ea33ef2b9c272
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778761"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565590"
 ---
 # <a name="setting-a-table-position-with-a-filter"></a>通过筛选器设置表位置
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 表用户可以将光标移到一组的筛选条件相匹配的行。 筛选器可以根据各种如列属性的值、 位掩码或子对象的准则。 使用[SRestriction](srestriction.md)结构的 MAPI 中指定了筛选器。 
   

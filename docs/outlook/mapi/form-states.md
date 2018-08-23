@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 969aca6fd37f237a607df36cc58f249828449e27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 195a82bfcc163ee01d2d42c71e79a8f5c9c620e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774995"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564631"
 ---
 # <a name="form-states"></a>窗体状态
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 窗体对象可以五个不同的状态，具体取决于在其中调用了哪些方法和是否任何错误发生在执行这些方法之一。 以下主题中描述的状态：
   

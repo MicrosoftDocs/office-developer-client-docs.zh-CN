@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9a186af55a8a2846bbb8af9e51be45ef73ce5d66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55d838661dcbe0efb604e6a623a434f9ae87512e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567781"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>PidTagViewDescriptorName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含视图描述符的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778531"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |类定义消息可传送  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性必须设置为包含视图定义的文件夹关联的信息 （从故障） 消息的非空字符串。
   

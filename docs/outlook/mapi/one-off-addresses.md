@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 598ced18d659fcbe52ded07cc3bb80dc396eddbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 504ae8dddbddb1c7049574b1bdcc575a10a62c8f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570091"
 ---
 # <a name="one-off-addresses"></a>一次性地址
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 一次性地址用于向一次性收件人，没有任何会话的通讯簿容器中的相应条目的收件人发送邮件。 新条目添加到通讯簿或新收件人的传出邮件的收件人列表中时，客户端可以创建一次性地址。 可以是一次性地址添加到任何容器的可修改。
   

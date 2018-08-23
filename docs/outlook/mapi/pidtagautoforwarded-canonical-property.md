@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8303a60ee0d61a56c79fadf471bc6111fcbde7d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 49e5e3f84d747210ba42870be5fc328c83bae883
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777379"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565898"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>PidTagAutoForwarded 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果客户端请求 X-MS-Exchange-组织的自动，转发头字段中，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777379"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规报告  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果此属性设置为 FALSE 或不使用，将创建没有 X-MS-Exchange-组织的自动，转发标头字段。
   

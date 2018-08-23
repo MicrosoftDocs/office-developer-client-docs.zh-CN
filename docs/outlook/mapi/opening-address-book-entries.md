@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c36c70eacffcb4a41af0e73eea85143ab737867f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd86b9cc86f30aac75b732b97208933de4d336e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776564"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566427"
 ---
 # <a name="opening-address-book-entries"></a>打开通讯簿条目
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在客户端或提供程序已请求您对象之一打开的 MAPI 调用您的提供商[IABLogon::OpenEntry](iablogon-openentry.md)方法。 MAPI，表示目标对象的项标识符通过确定属于您的提供商检查的项标识符的[MAPIUID](mapiuid.md)部分并将它与提供程序注册**调用**MAPIUID**匹配IMAPISupport::SetProviderUID**。 MAPI 然后调用**OpenEntry**方法。 您的提供商必须响应通过检索相应对象 — 容器、 通讯组列表或消息用户。 
   

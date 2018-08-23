@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 03256f2dec62d0228c4d5456dcd1b60f66b13ad2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b161c8c0da78b5ca872b87cad9a297169426d4cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775220"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565002"
 ---
 # <a name="iablogoncompareentryids"></a>IABLogon::CompareEntryIDs
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 比较两个条目标识符来确定它们是否引用同一个对象。
   
@@ -74,7 +74,7 @@ MAPI_E_INVALID_ENTRYID
   
 > 一个或两个条目标识符不属于通讯簿提供程序。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通讯簿提供程序实现**CompareEntryIDs**方法比较两个条目标识符来确定它们是否引用同一个对象。 
   

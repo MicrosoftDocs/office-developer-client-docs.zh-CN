@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 451b71da-a888-4d8f-9814-12f9f846de05
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: fdd66e4a27209e6b80757bcf52408eb0cea43794
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4c19e88ac1cfb29a9841ec78516410e23b3e5403
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775052"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567578"
 ---
 # <a name="handling-notifications"></a>处理通知
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 通知启用一个对象，告知另一个对象，它已经过更改。 更改类型称为事件。 MAPI 定义为其生成通知的多个事件。 
   

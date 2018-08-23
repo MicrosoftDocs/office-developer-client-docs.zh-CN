@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1ef9b85fd8dad980f92f5e06a4b54daf146fbcec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778913"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563350"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>支持只读邮件存储区中的表单和视图
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 如果您的消息存储提供程序允许对基础存储机制的只读权限，客户端应用程序和 MAPI 窗体管理器将无法执行某些操作。 具体而言，将无法添加或修改自定义视图，客户端和 MAPI 窗体管理器将不能安装关联的内容存储的文件夹的表中的表单。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cbc934eec5331a0302ba222108ee92a0dc696b1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 252a5f9cbb923728b78a232666a275ebbd2576c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568705"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>PidTagRecipientTrackStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示参与者返回的响应状态。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778176"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |传输收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果未设置此值，它必须假定为 respNone。 否则，它必须是下列选项之一：
   

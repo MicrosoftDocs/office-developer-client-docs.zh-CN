@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fd77473ce728a51220a4c039f1d12d03d90e7f36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7f32145e0947411c48e1e6c3a941c9913a08709c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778963"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565842"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍受某些类型的事件，如错误或更改表中的行。 这会导致表通知要生成。 
   
@@ -109,7 +109,7 @@ TABLE_SORT_DONE
   
 > [SRow](srow.md)结构，描述受影响的行。 为所有表通知事件填充该结构。 对于不传递行数据的表通知事件， **SRow**结构的**cValues**成员设置为零， **lpProps**成员设置为 NULL。 因为此**SRow**结构是只读的。如果他们想要进行修改，客户端必须创建它的一个副本。 [ScDupPropset](scduppropset.md)函数可用于创建副本。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **表\_通知**结构是结构[通知](notification.md)结构的**信息**成员中包含的联合的成员之一。 **Info**成员包括**表\_通知**结构结构中的**ulEventType**成员设置为_fnevTableModified_时。
   
@@ -127,7 +127,7 @@ TABLE_SORT_DONE
   
 ## <a name="see-also"></a>另请参阅
 
-- [NOTIFICATION](notification.md) 
+- [通知](notification.md) 
 - [ScDupPropset](scduppropset.md)
 - [SRow](srow.md)
 - [SPropValue](spropvalue.md)

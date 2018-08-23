@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 644fad96c8aec3701233351469a84ef93341b397
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f5a4a073559c58599b175b6f85a6dfe697aec623
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775514"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563833"
 ---
 # <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 有关连接的用户帐户的状态更改通知回调的注册的支持。
   
@@ -48,7 +48,7 @@ ms.locfileid: "19775514"
 | *占位符成员*  <br/> | *此成员是一个占位符，不支持。*  <br/> |
 | *占位符成员*  <br/> | *此成员是一个占位符，不支持。*  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在打开用户帐户配置文件使用**[HrOpenOfflineObj](hropenofflineobj.md)** 脱机对象时，客户端获取脱机支持**IMAPIOfflineMgr**的对象。 
   

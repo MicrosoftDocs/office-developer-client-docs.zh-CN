@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 71706fc970170f74aa5555da29d904c08c0422f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778788"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567193"
 ---
 # <a name="shutting-down-a-service-provider"></a>关闭服务提供程序
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 当客户端调用[IMAPISession::Logoff](imapisession-logoff.md)方法来结束会话并关闭所有活动服务提供商时，MAPI 轮流调用以下方法： 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b3286e9e666d59997693df636263cb04f7b767d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a26a8483e584ccc5cf9f33e0dbd75f379c01633
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569664"
 ---
 # <a name="pidtagmessagesubmissionid-canonical-property"></a>PidTagMessageSubmissionId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的邮件传输代理 (MTA) 的邮件传输系统 (MTS) 标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777881"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性返回的邮件提交的成功完成后 MTA。 有关此消息，如请求取消 MTA 与任何将来联系人使用此属性中 MTS 标识符。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cb777074d1657a3ee5c2f1e9f70d2b304858c1b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2a50a5f536e337e5ca37e61f17d4dfd40aa9c51e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775701"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565331"
 ---
 # <a name="imapitablefindrow"></a>IMAPITable::FindRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 在与特定的搜索条件匹配并将光标移至该行的表中查找的下一行。
   
@@ -83,7 +83,7 @@ MAPI_W_POSITION_CHANGED
   
 > 调用成功，但操作中使用的书签不再设置在所在的行时上次使用它;如果未用过该书签，，则不再中位置相同时创建它。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::FindRow**方法在要与一组_lpRestriction_参数指向的**SRestriction**结构中所述的搜索条件匹配的表中查找第一行。 
   

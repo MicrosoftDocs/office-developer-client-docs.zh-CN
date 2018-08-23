@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f6566f567c228b6416a64dbd58653561bb592e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b842bee8d9e243aa38bafe39d786a31b5527b054
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776040"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567942"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供 Internet 消息访问协议 (IMAP) 存储对象的已解包并不调用同步和下载项目的情况下允许访问个人文件夹文件 (PST) 中的项。
   
@@ -43,7 +43,7 @@ ms.locfileid: "19776040"
 |[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |获取一个指向解包 IMAP 存储区。  <br/> |
 | *占位符成员*  <br/> | *不受支持或记录。*  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对要获取**IProxyStoreObject**接口的源消息存储调用[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) 。 然后调用**IProxyStoreObject::UnwrapNoRef**获取解包的 store 对象。 如果**QueryInterface**返回错误**MAPI_E_INTERFACE_NOT_SUPPORTED**，然后存储不具有已包装。 
   

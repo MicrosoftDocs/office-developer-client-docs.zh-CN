@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fc9116b6-a525-daff-9068-c5653d278ab2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a284b12d33a01cc654351846cb5d77f977ed7ef0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01031abce0141a58b4f2e9c86e5b85da6887153e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776061"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565051"
 ---
 # <a name="ipstx4--ipstx3"></a>IPSTX4 : IPSTX3
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 执行复制通过 IOSTX 界面时，该接口提供了帮助程序功能。
   

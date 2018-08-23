@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 72290fd3-00d7-4055-bbfa-0c47b6e0f62d
 description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 26fe135da93e0f5f94d9f7d264453b74f97a518b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97e7c90c2fdc715d7d0749300cc62854fffa6447
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774725"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563980"
 ---
 # <a name="copying-or-moving-a-message-or-a-folder"></a>复制或移动邮件或文件夹
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端可以使用四种方法之一来复制或移动邮件或文件夹：
   

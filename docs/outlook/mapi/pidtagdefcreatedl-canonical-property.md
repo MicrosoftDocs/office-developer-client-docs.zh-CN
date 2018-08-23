@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3fb86fba3b0ff8a79858fad59dca61069aff6db9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48c068599506e5c050c69594caca46f28be83b0b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777543"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565800"
 ---
 # <a name="pidtagdefcreatedl-canonical-property"></a>PidTagDefCreateDl 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含默认通讯组列表的模板条目标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777543"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端应用程序使用此属性来创建通讯组列表容器中。 支持的条目创建是可选的通讯簿容器;不支持的那些无需公开此属性。 
   

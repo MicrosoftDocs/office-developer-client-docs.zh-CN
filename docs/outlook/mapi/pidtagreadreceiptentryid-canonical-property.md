@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 82bc5fd99df115527f703eff7261d02d1bf4d3ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 658f3694e7592fab54b2ddf303da2e15e4510354
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778103"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567102"
 ---
 # <a name="pidtagreadreceiptentryid-canonical-property"></a>PidTagReadReceiptEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含消息用户其中邮件系统应直接读取此消息的报表的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778103"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 除非**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性设置为 TRUE，则忽略此属性。
   

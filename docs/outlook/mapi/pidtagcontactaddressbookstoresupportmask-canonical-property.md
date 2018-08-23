@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5cd113c263c97ba306fcf7bf97c750e710eac922
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7219a8936381c498e7b27898f5efae8e40697b59
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777448"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565611"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmask-canonical-property"></a>PidTagContactAddressBookStoreSupportMask 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含从包含联系人文件夹的存储区获得的**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) 属性。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777448"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 联系人通讯簿提供程序使用此属性来评估适用性的存储支持的功能。 这是联系人通讯簿容器和联系人通讯簿容器的表中的列上的属性。
   

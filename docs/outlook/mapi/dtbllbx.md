@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 04fbfb2e6938c1ae5971e90b30f5ef749e7963e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35e19a4281c46ae7c2b5cbd76c1ecea35bf87665
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774850"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569762"
 ---
 # <a name="dtbllbx"></a>DTBLLBX
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 描述将显示表中生成的对话框中使用的列表。
   
@@ -63,7 +63,7 @@ MAPI_NO_VBAR
   
 > 调用属性表属性类型可以打开使用**OpenProperty** PT_OBJECT 的标记。 该表应具有的列数取决于列表是否是单个或多个所选内容列表。 如果**ulPRSetProperty**成员设置为**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md))，允许多重选择列表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLLBX**结构介绍用于显示多个项目，并使用户可以选择一个或多个项目的控件的列表。 
   

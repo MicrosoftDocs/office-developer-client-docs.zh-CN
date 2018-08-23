@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 69bbed644a8173bf9291ca48a63960f693108318
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adccbaf65adec2c517c4890f722198e8262092cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774985"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564603"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 将使用指定的关系运算符的两个属性值进行比较。 
   
@@ -63,7 +63,7 @@ FALSE
   
 > 属性值不满足指定的关系。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 比较方法取决于[SPropValue](spropvalue.md)属性定义中指定的属性类型。 **FPropCompareProp**和[FPropContainsProp](fpropcontainsprop.md)函数可以用于准备用于生成表的限制。 
   

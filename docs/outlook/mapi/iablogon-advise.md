@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 926fef0e1b2f905d510102e69afb667414e6cce3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea72a6fd2a22fe87ad63bb9c8fa6c1416d876b66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775224"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564246"
 ---
 # <a name="iablogonadvise"></a>IABLogon::Advise
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 注册呼叫者接收影响的容器，消息用户或通讯组列表的指定事件的通知。
   
@@ -86,7 +86,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 通讯簿提供程序无法处理_lpEntryID_中传递的项标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通讯簿提供程序实现**IABLogon::Advise**方法注册呼叫者到其容器之一对象发生更改时收到通知。 呼叫者可以注册通知消息的用户、 通讯组列表，或整个容器。 
   
@@ -128,7 +128,7 @@ _LpAdviseSink_参数中传递到**Advise** advise 接收器指针可以指向已
   
 [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)
   
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [IABLogon : IUnknown](iablogoniunknown.md)
 

@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: a98b0b26-9b19-44ca-9b4e-0ad4d1c54325
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 27a5978d85cf06a31f583b82cd39d0001852876b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56e663ced33da933b4276911b609f2fae1c5d78e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776554"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563961"
 ---
 # <a name="openimsgonistg"></a>OpenIMsgOnIStg
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 生成上现有 OLE **IStorage**对象，用于在消息会话中的一个新[IMessage](imessageimapiprop.md)对象。 
   
@@ -110,7 +110,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Property 属性只能在 property 对象，即，实现的对象上访问[IMAPIProp: IUnknown](imapipropiunknown.md)接口。 使 MAPI 属性 OLE 结构化的存储对象上可用， **OpenIMsgOnIStg**生成[IMessage: IMAPIProp](imessageimapiprop.md) OLE **IStorage**对象上的对象。 此类对象上的属性属性可以设置或更改与[SetAttribIMsgOnIStg](setattribimsgonistg.md)和检索与[GetAttribIMsgOnIStg](getattribimsgonistg.md)。 
   

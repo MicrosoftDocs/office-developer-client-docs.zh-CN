@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d0fc4e91-ed90-4d27-bd23-f01e99728e2d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 57da2d4c78914323b5dafa4f5ba5b7628d0e2f2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 468cda97398bc393b1c0a65e2c13df5ba3ade3aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777522"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568908"
 ---
 # <a name="pidtagcorrelatemtsid-canonical-property"></a>PidTagCorrelateMtsid 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于将报告与已发送邮件关联的邮件传输系统 (MTS) 标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777522"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当传输提供程序遇到该属性设置为 TRUE 已提交的邮件时，它将此属性设置为该消息的 MTS 标识符。 以下传输，此属性与人际邮件 (IPM) 发送邮件文件夹中的消息存储。
   

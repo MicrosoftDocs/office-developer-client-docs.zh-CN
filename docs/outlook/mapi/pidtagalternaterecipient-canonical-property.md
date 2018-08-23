@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: df787b60-2f53-42ac-89b5-1b52c906f472
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ea78d9487e4929c2df3d49a9b85ba4aefac90a59
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3ebb520de8929185a8b67b585976b4d768727b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777307"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562951"
 ---
 # <a name="pidtagalternaterecipient-canonical-property"></a>PidTagAlternateRecipient 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含由原始收件人指定的备用收件人的项标识符的列表。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777307"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于自动转发邮件。 它包含的备用收件人[FLATENTRYLIST](flatentrylist.md)结构。 如果不允许自动转接，或者如果已不指定任何备用收件人，则生成原件报表。 
   

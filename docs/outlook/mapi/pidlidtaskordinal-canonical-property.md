@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1021860e-4c40-4c22-aa68-b568d046aaf7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 033bc038988373b11f3eac863a256717624999f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c3b7c37c800230749f841ba64f4d52cfc9877af0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777094"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563651"
 ---
 # <a name="pidlidtaskordinal-canonical-property"></a>PidLidTaskOrdinal 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供的辅助手段自定义排序的任务。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777094"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性可能仍未设置。 如果设置，其值必须大于"0x800186A0"(-2,147,383,648) 和少于"0x7FFE7960"(2,147,383,648)，并且必须唯一同一文件夹中的任务。
   

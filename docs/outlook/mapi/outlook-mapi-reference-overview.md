@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: 上次修改时间： 2013 年 2 月 1 日
-ms.openlocfilehash: c0d7faaa957167977606cd93800a085d62b214f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb7831ab79512eb8ca0018905e359654d7177cac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776569"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564778"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Outlook MAPI 引用概述
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题提供有关 Outlook 2013 MAPI 参考文档的概述信息。
   

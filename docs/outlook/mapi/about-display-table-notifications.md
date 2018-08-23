@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a696357c97a85442bbfd5532892c06d570f6367c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 487a5dbcdefe901b514083ee910972354574bd82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774468"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564456"
 ---
 # <a name="about-display-table-notifications"></a>有关显示表通知
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 显示表上的通知发送负责创建显示表为 MAPI 服务提供商。 MAPI 注册这些通知通过调用显示表的[IMAPITable::Advise](imapitable-advise.md)方法，并指定已修改的表的事件。 
   

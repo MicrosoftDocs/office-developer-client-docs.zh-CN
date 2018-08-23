@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 72c71a6109f55f7ec06499e214a1aa11292a9e52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 76ad693b05e3989bd64ba66565ae4def22110ad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564897"
 ---
 # <a name="folderuserfields-stream-sample"></a>FolderUserFields 流示例
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 本主题介绍 FolderUserFields 流的示例。 流包含用户定义的字段的定义`TextField1`。 类型为**文本**，并 FolderUserFields 流包含 FolderUserFieldsAnsi 和 FolderUserFieldsUnicode 部件。 有关详细信息，请参阅[文件夹字段流结构](folder-fields-stream-structures.md)。
   

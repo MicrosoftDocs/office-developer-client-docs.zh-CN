@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 60b7a411-a884-4836-8aca-a205bd503fef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 84118414b9960c42babe91b43b13982f90d376bd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2f4f6ec43d7bebb7c27b6fad26aa5d831b548ac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776692"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568579"
 ---
 # <a name="pidlidautolog-canonical-property"></a>PidLidAutoLog 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定是否为此联系人相关联的每个操作创建日志。
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 1a724fac-2e64-48a7-92b5-d7cf1528cb2c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 18c11c3f945e00ae1f12e5c948b81abfb88e41ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 810895836ea4d9e4aa82c189f68d13eefd409163
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776417"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568726"
 ---
 # <a name="mapping-of-tnef-attributes-to-mapi-properties"></a>将 TNEF 属性映射到 MAPI 属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 下表列出 TNEF 实现和其映射到 MAPI 属性中定义的所有属性。 在某些情况下，多个 MAPI 属性被编码为单个属性。 某些属性已扩展本节后面的说明。
   

@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 656e5c5532edfc6c791ca30aa30f4c4d96847295
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5f35474910f2257e18bcdc3b6b1dc661e2dc63a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775530"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563973"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回可用于访问属性的接口的指针。
   
@@ -99,7 +99,7 @@ MAPI_E_INVALID_PARAMETER
   
 > 属性类型标记中的设置为 PT_UNSPECIFIED。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIProp::OpenProperty**方法提供了访问通过特定接口属性。 **OpenProperty**是[IMAPIProp::GetProps](imapiprop-getprops.md)和[IMAPIProp::SetProps](imapiprop-setprops.md)方法的替代方法。 当**GetProps**或**SetProps**失败由于属性是太长或太复杂时，调用**OpenProperty**。 **OpenProperty**通常用于访问类型 PT_OBJECT 的属性。 
   
@@ -109,8 +109,8 @@ MAPI_E_INVALID_PARAMETER
   
 |**附件的类型**|**要使用的接口标识符**|
 |:-----|:-----|
-|二进制数  <br/> |IID_IStream  <br/> |
-|字符串  <br/> |IID_IStream  <br/> |
+|Binary  <br/> |IID_IStream  <br/> |
+|String  <br/> |IID_IStream  <br/> |
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    

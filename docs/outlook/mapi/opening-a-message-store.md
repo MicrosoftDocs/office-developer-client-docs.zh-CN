@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 39d6df6db329abf7509f816165341ea0eda8331b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4bab31dbcd1f7139980d7df5559c1ee52a6f167f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776541"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563644"
 ---
 # <a name="opening-a-message-store"></a>打开的消息存储
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 配置文件中，根据客户端将需要在典型的会话过程中打开一个或多个邮件存储区。 打开的消息存储是指访问一个指向其[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)实现。 **IMsgStore**接口提供通知，使文件夹分配，以及访问文件夹和邮件的方法。 
   

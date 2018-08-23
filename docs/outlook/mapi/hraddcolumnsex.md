@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c79d9ebb5be1d8af6c9136514d8a2b695513f755
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 566a9d23c46ec717eb5eed711fff801b15d49fc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775142"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564232"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 添加或移到现有表的起点的列。 
   
@@ -76,7 +76,7 @@ S_OK
   
 > 调用成功，并指定的列已移动或添加。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 传递给**HrAddColumnsEx**使用_lpproptagColumnsNew_参数的属性将成为公开上后续调用[IMAPITable::QueryRows](imapitable-queryrows.md)方法的第一个属性。 前面的表的_lpproptagColumnsNew_参数中未指定任何属性公开后的添加和移动的所有属性。 
   

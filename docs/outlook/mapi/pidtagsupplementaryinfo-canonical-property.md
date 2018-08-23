@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6f9d383b6be2ce8efc135b85e9bea151df535cfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9800b1822ca6881c451e01e890d582c77b64546
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778497"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566745"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>PidTagSupplementaryInfo 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于报告的其他信息。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778497"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性包含生成的邮件传输代理的信息或传输提供程序相关的报告。 通常用于与基础邮件系统产生的传递或原件报表文本。
   

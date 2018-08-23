@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7062e0b73d2d70be12fb9cead6813ef9c36fdd43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 133a2ae3896b9aaedb502cb77516040c53584882
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563735"
 ---
 # <a name="imapimessagesitenewmessage"></a>IMAPIMessageSite::NewMessage
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 创建新邮件。
   
@@ -70,7 +70,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIMessageSite::NewMessage**方法创建新邮件。 窗体使用**NewMessage**获得其视图的新邮件和关联的邮件网站。 然后，它可以修改新邮件。 
   

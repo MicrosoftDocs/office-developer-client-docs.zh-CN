@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 375eac56253772b363ae320b3f7044ac600e71f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 633a7e0ea7cc2b6ffdbc555e2e470ec66ef77f8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777196"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565604"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>PidNameAttachmentMacInfo 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含组成基于 Macintosh 的电子邮件客户端使用的相应标头和资源的分叉数据 [RFC3282] 附件值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777196"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 有关详细信息，请参阅 MS OXCMAIL 部分 2.2.4.2 Apple 文件格式。
   

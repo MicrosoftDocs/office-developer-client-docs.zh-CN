@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c70fd9eb771268db4030cefdf2f27b75ae5963b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87299ce4335492a744dd4ee965b4f8b85bcedc84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776142"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564890"
 ---
 # <a name="launching-a-form-server"></a>启动表单服务器
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 从持久存储加载表单时发生的交互非常系列 (即，从表单库) 显示一条消息，如下所示：
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8787a873-6752-4b17-8ea3-8fed793e1371
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bd6fe1298a38733cb9d4916a931138c616e110bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de1fe8fd5ef5a6e79934478c62b2403c48f85b5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776285"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565877"
 ---
 # <a name="mapi-primary-identity"></a>MAPI 主标识
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 大多数 MAPI 会话具有会话中提供的主要标识的特定服务提供商。 通常，它是通讯簿提供程序，它提供标识通过其消息的用户对象或通讯组列表之一。 实际上，MAPI 建议消息服务包括通讯簿提供程序的主标识使用它的一个对象。 当所属的消息服务的服务提供商提供的主要标识时，消息服务中其他服务提供商的所有共享此标识。
   

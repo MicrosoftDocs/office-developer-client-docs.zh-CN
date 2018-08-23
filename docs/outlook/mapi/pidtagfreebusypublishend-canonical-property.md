@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1f7f439b211b60f7acad3a9dd19c50a21923c1cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b539de9793c45e4b393452c264d72dda6fa58c4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777655"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568796"
 ---
 # <a name="pidtagfreebusypublishend-canonical-property"></a>PidTagFreeBusyPublishEnd 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含发布范围的结束时间。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777655"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值为发布的范围的开始日期计算通过添加**PR_FREEBUSY_COUNT_MONTHS** ([PidTagFreeBusyCountMonths](pidtagfreebusycountmonths-canonical-property.md)) 的值。 此值表示为午夜，采用协调世界时 (UTC) 1601 年 1 月 1 日的分钟数。
   

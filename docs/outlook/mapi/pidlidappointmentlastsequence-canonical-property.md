@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 52fa57be-746d-4b80-92b6-2ba83f796325
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 425bb54f63f6a87c2f1ae6bffef9ce2b042de6bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a17db4a79d4021e40c34254e3e531965e06d9367
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19776607"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570217"
 ---
 # <a name="pidlidappointmentlastsequence-canonical-property"></a>PidLidAppointmentLastSequence 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指示向组织者发送给所有与会者的最后一个序列号。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776607"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性没有任何意义 attendee。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 37d0ce65e125b2420af775d61ead51db189758ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 989c6872e78ef78e5e0b18149a186d4f920ca603
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776085"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563462"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 删除表格行。
   
@@ -49,7 +49,7 @@ MAPI_E_NOT_FOUND
   
 > 未识别_lpSPropValue_参数指向的属性表中的行。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrDeleteRow**方法将删除包含_lpSPropValue_参数指向的属性相匹配的列的表格行。 删除行的数据，并从所有打开的视图中删除行。 
   

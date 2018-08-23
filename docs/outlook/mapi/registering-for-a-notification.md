@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 45625387-dbd2-4ca8-926b-ef87998d01d7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2d01527bb3c5176087aabeb69dbc8d99738df772
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5a35add66fb685b3c17464269456edf6b456711e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778618"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570210"
 ---
 # <a name="registering-for-a-notification"></a>注册通知
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 客户端可以通讯簿或消息存储通知注册为其初始化过程的一部分。
   

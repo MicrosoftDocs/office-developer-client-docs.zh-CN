@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 13122af2-06c8-4342-983d-e38178743d8f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 475c93e7f2c246e0351f3054b0f827fb7ee015a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03c4c0810c69f8dd8f22ce84212200d3ccad1dab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777512"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563238"
 ---
 # <a name="pidtagcreationtime-canonical-property"></a>PidTagCreationTime 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含的创建日期和时间一条消息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777512"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |消息时间  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储设置此属性为其创建每条消息。
   

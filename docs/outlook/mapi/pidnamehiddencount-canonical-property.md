@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 74074f5ad28bca5bc98242cefebd0111d9cf6415
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6c0b235b3e931a8c188f5c92c3d9eb3f3c326a83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777212"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563497"
 ---
 # <a name="pidnamehiddencount-canonical-property"></a>PidNameHiddenCount 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 指定附加到文档的文件的隐藏的值。
   

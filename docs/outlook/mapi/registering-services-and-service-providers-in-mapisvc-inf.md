@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 上次修改时间： 2013 年 7 月 18 日
-ms.openlocfilehash: 2eb7f1b496e0732b157ea4f9105a0e067329c52f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778605"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566920"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>注册 MapiSvc.inf 中的服务和服务提供程序
 
  
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 系统上安装新的提供程序需要更新 MapiSvc.inf 文件以指向新的提供程序。 标准属性设置在配置期间，其中包括以下，告知 MAPI 在哪里可以找到提供程序的动态链接库 (.dll):
   

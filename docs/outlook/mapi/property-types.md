@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fd0f25f20c9e628a80d27f2b70e01dacc98229b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fba09af82a3eccc05c72e44ffea14ca979714ff0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563595"
 ---
 # <a name="property-types"></a>属性类型
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 MAPI 支持单值和多值属性。 与单值属性，没有基类型的属性的值。 与多值属性，有多个基类型的值。 
   

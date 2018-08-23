@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b30c6e9840ed5dddfd2d3a5f149a3f0f6e8da605
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 88b6f220f812f419b3f881aaa7f70a22186b589e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775343"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563798"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 返回到容器的层次结构表的指针。
   
@@ -74,7 +74,7 @@ MAPI_E_NO_SUPPORT
   
 > 容器具有没有子容器，并不能提供层次结构表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIContainer::GetHierarchyTable**方法返回到容器的层次结构表的指针。 层次结构表包含有关容器中的子容器的摘要信息。 文件夹层次结构表子文件夹; 有关保留的信息通讯簿层次结构表保留信息子地址簿容器和通讯组列表。 
   

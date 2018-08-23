@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4e7df570851aa515e07117d05103f7c0631c90f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 98c3f33c5f9b4745787d6acb55d7afb230e23518
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776074"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564239"
 ---
 # <a name="ipstx--iunknown"></a>IPSTX : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 执行复制通过**[IOSTX](iostxiunknown.md)** 界面时，该接口提供了帮助程序功能。 
   

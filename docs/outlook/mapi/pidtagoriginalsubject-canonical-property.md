@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8668ba4f-3236-4a87-a5aa-9cf7eea3d87b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6cf81a5b4c10cb7bff5f03a1b25d11bbaa8ff277
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b49398b822e6972a8a6d02e1dff9c2316ce6eb33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777971"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566633"
 ---
 # <a name="pidtagoriginalsubject-canonical-property"></a>PidTagOriginalSubject 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于报告有关邮件原始邮件的主题。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777971"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性最初设置为相同的值的**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性。
   

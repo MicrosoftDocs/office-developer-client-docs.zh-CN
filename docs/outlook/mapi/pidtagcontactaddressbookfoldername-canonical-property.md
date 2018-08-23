@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a4a72e6d5136d7e78648cb62849f7162b7b35f6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d131681ab9a49f1d25d14641855fb19c2456b0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777426"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565408"
 ---
 # <a name="pidtagcontactaddressbookfoldername-canonical-property"></a>PidTagContactAddressBookFolderName 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含用于通讯簿条目的文件夹名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777426"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 文件夹名称中不能使用以下字符：
   

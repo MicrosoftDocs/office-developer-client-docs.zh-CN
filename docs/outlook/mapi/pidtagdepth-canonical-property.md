@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 04d444a5-e97f-48e6-89a5-8a6cb2136408
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 25af87004ef5616a6c6fc575c647fdd1794d710f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 100d59a0fd95fcad1976e82aebf6892227c08ec9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777546"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564911"
 ---
 # <a name="pidtagdepth-canonical-property"></a>PidTagDepth 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一个整数，表示相对级别的缩进或深度层次结构表中的对象。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777546"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性还可以内容表或层次结构表中的层次结构深度中指定行分类的级别。 其中零表示最左边的类别，是从零开始，深度。 在所有情况下，属性值表示相对值，而不是一个绝对的值。 在层次结构表中，例如，深度值是相对于从中检索到的层次结构表的容器。 从根容器，深度不代表绝对深度。 
   

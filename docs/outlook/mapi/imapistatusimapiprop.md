@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e36a987174ffb2abb4c0f5fc95bf695f31af942e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23663cea49c50f3f584d6b06e331545320e8283b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775588"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565380"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 提供有关 MAPI 子系统、 集成的通讯簿中，和 MAPI 后台处理程序的状态信息。 服务提供商实现**IMAPIStatus**可提供有关其自身的状态信息。 
   
@@ -56,7 +56,7 @@ ms.locfileid: "19775588"
 |**PR_RESOURCE_TYPE**([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_STATUS_CODE**([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 实现的状态对象支持下列方法：
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b9a41f44-4c7e-4c57-b536-63fb85e4fae6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: dd68bc2054136a7f587b05dc56dbeabd06de1f08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0105ac92c53424199685e76223e6d75792fb674e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774705"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566906"
 ---
 # <a name="copying-a-recipient"></a>复制收件人
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 若要将一个或多个收件人复制到另一个容器或相同的容器，请先检查目标容器可修改。 容器的可修改其**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) 属性中设置 AB_MODIFIABLE 标志。
   

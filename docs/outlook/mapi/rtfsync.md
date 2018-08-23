@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f6afa890f61bb2f394e3cf69e0f2c54699a2ad9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565737"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 确保富文本格式 (RTF) 消息文本匹配的纯文本版本。 有必要阅读 RTF 版本之前和之后修改的 RTF 版本调用此函数。 
   
@@ -65,7 +65,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 如果**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) 属性缺失或为 FALSE，然后才能调用读取**RTFSync**函数的**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性，应已 RTF_SYNC_BODY_更改设置标志。 
   

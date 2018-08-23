@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2ffc6973d2670402ec8095120eea3db02f529d0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a120c44a83ad5e5a822e3959417b162e8ccbdd8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566913"
 ---
 # <a name="pidtagmemberrights-canonical-property"></a>PidTagMemberRights 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含一组所指示文件夹或邮箱上的此成员的权限的位。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777847"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性由[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口用于在文件夹中定义的成员的权限。 可以显示和修改这些权限。 下面的值为此属性定义的权限。 
   

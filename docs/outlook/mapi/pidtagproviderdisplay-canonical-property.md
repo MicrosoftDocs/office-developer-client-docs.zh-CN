@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1546ee1aa970be71d853dba59ce0fab7cc5a4dac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a37382cda1a96025f950d941f83fb5b6a0497bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778076"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565499"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>PidTagProviderDisplay 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含服务提供商的供应商定义的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778076"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 仅在属于服务提供商的配置文件部分定义这些属性和**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))。 它们必须存在于 MAPISVC.INF 中。
   

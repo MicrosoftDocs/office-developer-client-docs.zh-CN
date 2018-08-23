@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cad25cca-248d-4845-9d60-7aa60f2dda62
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cba8de706e7262ff59abdb6367fb505a2303dcf3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3d1d2a20720bd1c4b15464cd24aac4415721ae8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563175"
 ---
 # <a name="pidtagremindersonlineentryid-canonical-property"></a>PidTagRemindersOnlineEntryId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 包含提醒文件夹的**EntryID** 。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778178"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性存储和消息存储库的根文件夹中收件箱文件夹。 若要访问特定的邮件存储区上的属性，请执行以下过程。 
   

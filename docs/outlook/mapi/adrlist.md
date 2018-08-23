@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b2d3dce7835f92d9ad78f7d8837e655fdd8fd412
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 87b91b66807ce79533029a8d5b5c4956bc4d5ce9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565765"
 ---
 # <a name="adrlist"></a>ADRLIST
 
-**适用于**： Outlook 
+**适用于**： Outlook 2013 |Outlook 2016 
   
 介绍属于一个或多个收件人的零个或多个属性。 
   
@@ -49,7 +49,7 @@ typedef struct _ADRLIST
   
 > [ADRENTRY](adrentry.md)结构数组，每个收件人的一个结构。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ADRLIST**结构包含一个或多个**ADRENTRY**结构，每个描述收件人的属性。 收件人可以是未解析。 这意味着缺少的属性值的数组中的项标识符。 解析的收件人是指**PR\_ENTRYID**包括的 ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。 通常，已解析的收件人也有电子邮件地址的**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 属性。 但是，不需要的电子邮件地址。 **ADRLIST**结构用于，例如，描述传出消息和 MAPI 在通讯簿中显示的项的收件人列表。 
   
