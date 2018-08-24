@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ce3a583c-16a9-4268-9476-926d2780eae5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0e39f4edc871b49675f1ffcc1bc541345c8829d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9572f44f1f4865fcce5d7aa8bd8478340b0de968
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775202"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594717"
 ---
 # <a name="hropenabentrywithresolvedrow"></a>HrOpenABEntryWithResolvedRow
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 在于它会自动从解决的行中获取**emsabpUID**和打开**entryID**执行[HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md)相同的功能。
   

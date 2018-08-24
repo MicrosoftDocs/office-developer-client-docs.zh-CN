@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 93be3351749ac3e9d285fb214f746d58b55fb5b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f30a5848e07de03e61d3a63188aa7b608504ff24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573731"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>PidTagSensitivity 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个值，指示邮件发件人的邮件的敏感度的平均意见。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778390"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议消息对象公开此属性。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 86cd30b15402f35e8396dedf6b685050ee4fb45e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd0caff8a6c7834bdd01ef4be64805bde66dd6d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774871"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578820"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 描述将显示表中生成的对话框中使用的选项卡式的页面。 
   
@@ -65,7 +65,7 @@ MAPI_UNICODE
   
 > 定义由**ulbLpszComponent**成员在字符串中选项卡式页面的唯一标识符。 **UlbLpszComponent**成员和**ulContext**成员必须都为非零值来**帮助**按钮正常工作。 如果此标识符为 0，组件字符串为 NULL，则没有与页面相关的帮助。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLPAGE**结构介绍用于分隔多个相关的对话框的控件的选项卡式的页面。 通常，这些对话框是用于显示配置、 消息或收件人选项的属性表。 通过单击选项卡，用户可以张工作表之间切换。 
   

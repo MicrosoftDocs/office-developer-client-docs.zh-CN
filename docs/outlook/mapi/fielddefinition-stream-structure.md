@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 775dc1b5fdcf40867f67fbab25879bd97de24f4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a43d4f12aa28de29116d7d074b743d6c0d61d964
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774915"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594507"
 ---
 # <a name="fielddefinition-stream-structure"></a>FieldDefinition 流结构
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 FieldDefinition 流结构包含用户定义的字段的字段定义或一组的内置字段的数据绑定设置。
   

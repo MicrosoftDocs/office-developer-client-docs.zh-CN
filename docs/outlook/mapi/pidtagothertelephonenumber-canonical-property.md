@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 60b11733-20c2-4fe9-8406-c3103b2852ba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c3af4e5afa272233cb435b2f856c0aadb42ed16f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9c3fc0eb5b14df27885ec835058f29f9693fb1b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778013"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584770"
 ---
 # <a name="pidtagothertelephonenumber-canonical-property"></a>PidTagOtherTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的收件人的备用电话号码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778013"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c20cd7f82df2fb7f878db177fdc940022e1da351
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7bf69e560142ab282d6545389e02766389e4d018
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580696"
 ---
 # <a name="iaddrbookgetsearchpath"></a>IAddrBook::GetSearchPath
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 返回一个已排序的列表项标识符启动[IAddrBook::ResolveName](iaddrbook-resolvename.md)方法的名称解析进程中包含的容器。 
   
@@ -54,7 +54,7 @@ S_OK
   
 > 已成功检索的搜索路径。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端和服务提供商调用**GetSearchPath**方法以获取用于将名称解析使用**ResolveName**方法的搜索路径。 通常情况下，客户端调用[IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md)方法之前呼叫**GetSearchPath**检索该配置文件中建立容器搜索路径。 但是，调用**SetSearchPath**是可选的。 
   

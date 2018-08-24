@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7845abc4f3010daf8e13d56ac4b13d0333bad07e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd0439c71df7083e3c4787a5d317fa11d2b99c61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775360"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578631"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 删除一个或多个邮件。
   
@@ -72,7 +72,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 调用成功，但不是所有的邮件已成功删除。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPIFolder::DeleteMessages**方法从文件夹中删除邮件。 无法删除的邮件的不存在、 已在其他地方移动的、 具有读/写权限打开或当前提交。 
   

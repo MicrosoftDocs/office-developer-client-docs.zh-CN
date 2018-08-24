@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc7fa8b546783819b701604a5e489f0fd030ae86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffc47e924b7a0f94db66adbffe01b2cdc619dc8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775136"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580731"
 ---
 # <a name="hraddcolumns"></a>HrAddColumns
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 添加或移到现有表的起点的列。
   
@@ -62,7 +62,7 @@ HRESULT HrAddColumns(
   
 > 调用成功，并指定的列已移动或添加。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **HrAddColumns**函数等效于**HrAddColumnsEx**使用_lpfnFilterColumns_设置为 NULL。 
   

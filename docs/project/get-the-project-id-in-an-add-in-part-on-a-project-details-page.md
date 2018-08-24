@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: 外接程序部件承载宿主页上与完全隔离的 iframe 元素中。 若要从项目详细信息页面 (PDP) 中的外接程序部分获取有关当前项目的信息，可以使用 window.postMessage 方法和事件侦听器的事件处理程序解析出的项目 ID 从邮件。
-ms.openlocfilehash: 6704dae7ded385f86d2da47a1334ae4c81622a74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779411"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594423"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>在 Project 详细信息页上获取加载项部件中的项目 ID
 
@@ -38,7 +38,7 @@ ms.locfileid: "19779411"
             
         - 您必须为某人之外系统帐户身份登录。 系统帐户没有安装外接程序的权限。
     
-有关加载项项目的详细信息，请参阅[Project Server 2013 的加载项创建的先决条件](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites)。 有关本地安装程序 （包括如何禁用环回检查，如有必要） 的指南，请参阅[设置本地开发环境的 SharePoint 加载项的设置](http://msdn.microsoft.com/library/b0878c12-27c9-4eea-ae3b-7e79e5a8838d%28Office.15%29.aspx)。 如果您正在远程开发，请参阅[Developing SharePoint 相关应用程序在远程系统上](http://msdn.microsoft.com/library/bf35d59c-9b84-42e5-877e-fa6881a7b6fc%28Office.15%29.aspx)。
+有关加载项项目的详细信息，请参阅[Project Server 2013 的加载项创建的先决条件](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites)。 有关本地安装程序 （包括如何禁用环回检查，如有必要） 的指南，请参阅[设置本地开发环境的 SharePoint 加载项的设置](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins)。 如果您正在远程开发，请参阅[Developing SharePoint 相关应用程序在远程系统上](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins)。
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>创建 SharePoint 托管外接程序和客户端 web 部件
 <a name="CreateApp"> </a>

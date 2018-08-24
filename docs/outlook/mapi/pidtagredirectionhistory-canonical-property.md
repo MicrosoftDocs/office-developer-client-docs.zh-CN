@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 26e66d9a9c7427688deb3d1e888b6c2ac8d06634
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e986313ccac7533178e2c6b466053d5665b9e7e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574522"
 ---
 # <a name="pidtagredirectionhistory-canonical-property"></a>PidTagRedirectionHistory 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含有关涵盖邮件已送达路由的信息。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778169"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性是一条消息时自动转发自动代理使用。
   

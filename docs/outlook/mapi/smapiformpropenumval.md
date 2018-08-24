@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bae750e7e940bc1417b3d225c9c81129e9da77b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c49a17389a9bfc998f892e0becf96dca4cd773f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778823"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578715"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 将枚举的整数值映射到该值的显示名称。 
   
@@ -50,7 +50,7 @@ typedef struct _SMAPIFormPropEnumVal
   
 > 显示名称指向**pszDisplayName**成员的一个枚举值。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当用户选择窗体中的显示名称时，使用该[IMAPIProp](imapipropiunknown.md)接口实现与表单关联的存储该名称的相应的枚举值。 
   

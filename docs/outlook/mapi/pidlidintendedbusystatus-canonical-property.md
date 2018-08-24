@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 30f1e2389698f5ec96874f46a685a7e087dbb773
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58642cd84c9f9b784a8a9d7246bfed0dab58e119
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577049"
 ---
 # <a name="pidlidintendedbusystatus-canonical-property"></a>PidLidIntendedBusyStatus 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 当发送会议请求或会议更新时，会议组织者的日历中指定**dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) 属性的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776879"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的允许的值为那些属性**dispidBusyStatus**相同。
   

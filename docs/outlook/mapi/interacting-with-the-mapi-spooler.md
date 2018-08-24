@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 5cc1d0a8-ad23-4173-b220-b7c0169073fa
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: faf3d48b63d1858a2b91f66c83d9ce08e9daa02b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8032172ef19fbb01af68058b2e0255e269183a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587892"
 ---
 # <a name="interacting-with-the-mapi-spooler"></a>与 MAPI 后台处理程序交互
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 中的方法[IXPLogon: IUnknown](ixplogoniunknown.md)接口使用 MAPI 后台处理程序调用传输提供程序时。 它应可能为传输提供程序，以便他们快速返回实现这些方法的大多数大多数类型。 这是不可或缺的因为如果方法需要很长时间，以返回然后它应该被回 MAPI 后台处理程序的呼叫释放 CPU 的其他任务。 
   

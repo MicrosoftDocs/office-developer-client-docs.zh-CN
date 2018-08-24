@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 07fcb881-d873-45bf-b048-30f41d0d8d85
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: be2d30f511540b2eb7aa6e55531753811aaa580d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ffc47eca3457eef876d88a4be43888f24c403b10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778485"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575341"
 ---
 # <a name="pidtagsubjectprefix-canonical-property"></a>PidTagSubjectPrefix 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含通常如指示上一条消息，某些操作的主题前缀"FW:"用于呼叫转移。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778485"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议对所有的消息对象都使用这些属性。 
   

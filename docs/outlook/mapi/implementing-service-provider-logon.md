@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: eb64f2780530fd30784bf9a9b197bcde205b4a5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1baa987961eecc6ee08b3ceb039062c8f1090ff7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775818"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589551"
 ---
 # <a name="implementing-service-provider-logon"></a>实现服务提供程序登录
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 MAPI 提供程序对象以开始使用您从您的入口点函数返回的指针的登录过程中调用的方法。 该方法，如下所示，取决于您的服务提供程序的类型：
   

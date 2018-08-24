@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 上次修改时间： 2013 年 1 月 30 日
-ms.openlocfilehash: 1ea1d3e6f636cf6a3ad47b6fdfe88d0f7130a5f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776530"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574529"
 ---
 # <a name="nickname-cache"></a>别名缓存
 
  
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 Microsoft Office Outlook 2007、 Microsoft Outlook 2010 和 Microsoft Outlook 2013 交互昵称缓存，也称为"记忆式键入流。" 记忆式键入流是 Outlook 仍然存在记忆式键入列表，这是在**到**、**抄送**，显示名称的列表和**密件抄送**编辑框时用户撰写电子邮件时的位置。 本主题介绍 Outlook 2007、 Outlook 2010 和 Outlook 2013 如何记忆式键入流交互，并讨论该文件，用于与记忆式键入流进行交互的建议的方式的二进制格式。 
   

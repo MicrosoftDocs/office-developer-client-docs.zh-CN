@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 25ce90ac-526e-48a0-9edb-bd266375d4f4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 150a0c6eb7efa83f5ff1d12d915351bf5ca9d45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6613e4168fea6536b1df873da12f2c215be515bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588501"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 激活查看订单中的下一页或上一页消息。 
   
@@ -70,7 +70,7 @@ S_FALSE
   
 > 邮件已成功激活，但过程中打开窗体的不同类型。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单对象调用**IMAPIViewContext::ActivateNext**方法更改向用户显示什么消息。 _UlDir_参数中传递的值表示哪些消息应该激活的并在某些情况下，原因。 VCDIR_NEXT 和 VCDIR_PREVIOUS 标志对应于用户分别在视图中，选择**下一步**或**上一步**命令。 这些操作通常对应于上移或下移一条消息中的邮件将表单查看器的列表。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d83fce761afb4673b71df9d620ac3fd794d6009f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d8c995f5fbca322fca44cdcbb0de224af6b2fbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590286"
 ---
 # <a name="sending-a-reply"></a>发送答复 （英文）
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 客户端应用程序通常支持两种类型的答复： 一个仅发送给原始邮件和一个发送给所有发件人除了原始邮件的收件人列表中包含其他收件人的发件人。 通常，此第二个类型的答复称为所有邮件的答复。
   

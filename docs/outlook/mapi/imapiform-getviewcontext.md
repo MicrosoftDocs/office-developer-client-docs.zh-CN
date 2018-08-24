@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2c463252aa029ac4c7cb2fac6e962a5d8af31b97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f09f29d67bff6588c826b92d93aead491510cef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775371"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574816"
 ---
 # <a name="imapiformgetviewcontext"></a>IMAPIForm::GetViewContext
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 返回表单的当前视图上下文。 
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > 没有窗体视图上下文。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 表单查看器调用**GetViewContext**以获取视图上下文中向[IMAPIForm::SetViewContext](imapiform-setviewcontext.md)以前呼叫建立的指针。 如果对**SetViewContext**不进行了任何以前的呼叫， **GetViewContext**将_ppViewContext_设置为 NULL。 
   

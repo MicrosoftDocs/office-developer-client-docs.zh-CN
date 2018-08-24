@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ef31b61a-93b6-4ae8-bc71-f5ef5caf43f4
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5e56fd8c053ff32bdeb7b243701c0330b378cdc0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e785d42639d51dab154a0bde239f858a92ddd143
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588620"
 ---
 # <a name="imapisupportreadreceipt"></a>IMAPISupport::ReadReceipt
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 生成一个读取或 nonread 的报销单以供一条消息。
   
@@ -59,7 +59,7 @@ S_OK
   
 > 成功生成报告。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 只为消息存储提供程序支持对象实现**IMAPISupport::ReadReceipt**方法。 消息存储提供程序调用**readreceipt 已**以指示 MAPI 生成读取或 nonread 的报告_lpReadMessage_参数指向的邮件。 
   

@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fe5549e41008dbf5b5f50f9f32769f1a820e3bc0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d212a86aae0503a5e02a5a7ecddb83db10a4d664
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776255"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572373"
 ---
 # <a name="mapi-implemented-objects"></a>MAPI 实现的对象
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 MAPI 实现供客户端应用程序和服务提供商使用的多个对象。 会话对象允许客户端用于会话服务，以访问表，以及与服务提供商进行通信。 通讯簿对象提供对不同的地址簿提供程序的所有客户端集成的访问。 
   

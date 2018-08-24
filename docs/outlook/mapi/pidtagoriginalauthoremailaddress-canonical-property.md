@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 67cda756-ba71-4f29-a601-55359e44d93b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1954e1760fead9cbe13f0f2394f8095cab7f26ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd019378a8db7b2e356f0c8b2f30a59e685b9e8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777927"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595431"
 ---
 # <a name="pidtagoriginalauthoremailaddress-canonical-property"></a>PidTagOriginalAuthorEmailAddress 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一条消息，即之前正在转发或答复邮件的第一个版本的作者的电子邮件地址。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777927"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |Server  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这些属性是邮件的作者的地址属性的示例。 在首次提交邮件，客户端应用程序应将这些属性设置为**PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) 属性的值。 当转发或答复邮件永远不会更改它。
   

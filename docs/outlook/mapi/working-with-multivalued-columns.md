@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ee3307836e8b167efbc2cdc870e698257526ef97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 78f6083cf17bb21152df1a7ea09825f3be7f0e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779112"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572940"
 ---
 # <a name="working-with-multivalued-columns"></a>处理多值列
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 多值的列包含的数据的多值属性，这是该属性的值而不是单个值的基类型的数组。 无表在其默认列集合中包含多值的属性，因为多值的属性包含表格中的表的用户请求时，才。 
   

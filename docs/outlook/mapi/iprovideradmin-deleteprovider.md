@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e0f8dc1beeb669532e3731b38a4f03966403f76c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: db09b44bd8eeeb3ab56513b1b9c2cab69f776002
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776011"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590083"
 ---
 # <a name="iprovideradmindeleteprovider"></a>IProviderAdmin::DeleteProvider
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 删除消息服务的服务提供商。
   
@@ -49,7 +49,7 @@ MAPI_E_NOT_FOUND
   
 > 无法识别**MAPIUID** _lpUID_参数指向。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IProviderAdmin::DeleteProvider**方法删除消息服务的服务提供商。 **DeleteProvider**确定服务提供商删除匹配**MAPIUID**结构所指的_lpUID_注册的活动服务提供商的标识符的设置。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cc4abf1a-c08c-4462-9d7c-6af506dc07c9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 667eda2a018d2a5d712950a31e05ec0ba9bb32ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: faba91d813d27f7ea45e978724ce0d4707803cba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778718"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590104"
 ---
 # <a name="scuncfromlocalpath"></a>ScUNCFromLocalPath
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 查找通用命名约定 (UNC) 路径对应的给定的本地路径。
   

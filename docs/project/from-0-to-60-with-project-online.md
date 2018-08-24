@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 应用程序开发人员可以自定义 Project Online 承载的网站 （SharePoint） 使用独立应用程序和/或项目外接程序。丰富的应用程序是可能的范围从寻址的那些参与一个项目到 PMO 支持功能，如以下任一需求：
-ms.openlocfilehash: c50ed12e9f1127f6313a02db4d84a151778e17b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779417"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594528"
 ---
 # <a name="from-0-to-60-with-project-online"></a>Project Online 从入门到精通
 
@@ -83,7 +83,7 @@ Project Online 包括 API 支持以适应以下方案：
     
    Project Online 检查外接程序和管理访问的 Project Online 主机上的信息的用户权限的应用程序范围。 如果访问明确拒绝中任意一种或两个设置，Project Online 拒绝访问的信息。 否则，授予访问权限。
     
-3. 启用 sideloading 网站上。 请参阅[配置 Project Online 应用程序开发的](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)文章的详细信息。 
+3. 启用[sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)网站上。  
     
 4. 生成项目。
     
@@ -101,7 +101,7 @@ Project Online 包括 API 支持以适应以下方案：
     
 - .NET framework 4.0 或更高版本
     
-- [SharePointOnline CSOM 包](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx)（对于 CSOM 调用） 
+- [SharePointOnline CSOM 包](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM)（对于 CSOM 调用） 
     
 - 编程语言，例如，C# 
     
@@ -115,7 +115,7 @@ Project Online 包括 API 支持以适应以下方案：
     
    Project Online 检查外接程序和管理访问的 Project Online 主机上的信息的用户权限的应用程序范围。 如果访问明确拒绝中任意一种或两个设置，Project Online 拒绝访问的信息。 否则，授予访问权限。
     
-3. 启用 sideloading 网站上。 请参阅[配置 Project Online 应用程序开发的](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)文章的详细信息。 
+3. 启用[sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)网站上。 
     
 4. 生成项目。
     
@@ -133,7 +133,7 @@ Project Online 包括 API 支持以适应以下方案：
     
 - .NET framework 4.0 或更高版本
     
-- [SharePointOnline CSOM 包](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx)（对于 CSOM 调用） 
+- [SharePointOnline CSOM 包](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM)（对于 CSOM 调用） 
     
 - 编程语言，例如，C# 
     
@@ -167,6 +167,6 @@ Project Online 包括 API 支持以适应以下方案：
     
 ## <a name="see-also"></a>另请参阅
 
-有关文档和与 Project Online 和使用 CSOM 的应用程序开发相关的示例，请参阅[Project 开发门户](http://dev.office.com/project.aspx)。
+有关文档和与 Project Online 和使用 CSOM 的应用程序开发相关的示例，请参阅[Project 开发门户](https://developer.microsoft.com/en-us/project)。
     
 

@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 71c67c37cc4f9cd3ddd7a55c37c4ebd6ddd35cfd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa231842c5fd51deb80144f12fdf53e51ccc980
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776575"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582873"
 ---
 # <a name="outlook-items-and-fields"></a>Outlook 项和字段
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook 提供了专用于他们的功能 （例如邮件项目、 约会、 联系人、 任务和 notes） 的项目类型。 Outlook 提供了每种类型的项目，通常称作内置字段的标准字段。 Outlook 还允许用户创建自定义字段，通常称作用户定义的字段。 每个字段相关联的数据类型和值。 数据类型的示例是**货币**、**日期/时间**、**持续时间**、**整数**、**关键字**和**文本**。 用户可以通过在 Outlook 中使用窗体设计器中定义自定义字段。
   

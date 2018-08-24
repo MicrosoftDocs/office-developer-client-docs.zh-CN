@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0de5bf5d5bb4d8c5606e97bdbc6e70493609a05f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7c1241f2ad31dee8277f3b3b77ac02137067a12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774857"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576307"
 ---
 # <a name="dtblmvlistbox"></a>DTBLMVLISTBOX
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 描述将显示表中生成的对话框中显示多值的列表。
   
@@ -50,7 +50,7 @@ typedef struct _DTBLMVLISTBOX
   
 > 属性标记类型 PT_MV_TSTRING 的多值属性。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **DTBLMVLISTBOX**结构介绍具有只读的项目列表的标准多值的列表。 通过使用标准的多值的列表，立即显示的值。 
   

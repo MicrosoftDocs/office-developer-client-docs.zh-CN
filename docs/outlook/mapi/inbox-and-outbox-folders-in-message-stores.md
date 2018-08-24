@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8e4ce129-137d-4618-80a6-88781a578d01
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2bd71ee4fca53fbf3d309cbaf9d33835b84c0c2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6781209cd1bf87f4becf1893b7cba5618549fbce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582887"
 ---
 # <a name="inbox-and-outbox-folders-in-message-stores"></a>邮件存储区的收件箱和发件箱文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 若要将默认邮件存储区，消息存储提供程序必须实现收件箱并发件箱文件夹。 他们通常存储在消息存储的 IPM 子树。 这些文件夹是特殊的它们被指定为邮件传递到并发送，但没有特殊功能都是必需的它们的文件夹。 发送和接收消息发生通过客户端应用程序、 MAPI 后台处理程序，和的消息存储提供程序之间定义的调用序列。 收件箱和发件箱文件夹是只用于期间那些举行邮件的文件夹调用序列 （英文）。 重要的一点不是文件夹是特殊，或偶数收件箱和发件箱; 已命名重要的一点是，消息存储提供程序使用这些作为其支持的一部分的发送和接收消息。
   

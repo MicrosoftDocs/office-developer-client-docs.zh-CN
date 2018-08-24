@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0e6c38091e5b2e10e82012bc470ea41037f57c7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26d9982248fde015a584eb79cc248bafc5afc6bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779007"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594031"
 ---
 # <a name="transport-provider-and-mapi-spooler-operational-model"></a>传输提供程序和 MAPI 后台处理程序操作模型
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 传输提供程序初始化、 启动、 处理、 关机和取消初始化通过一系列调用从 MAPI 后台打印到传输提供程序。 呼叫顺序编排会出现，如下所示：
   

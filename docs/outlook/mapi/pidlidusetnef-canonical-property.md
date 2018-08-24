@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 73fa4311a61be9259d8c45aca79d719785c213a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0d5588218fd74f005de19daba002cd622c13a17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777152"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587185"
 ---
 # <a name="pidlidusetnef-canonical-property"></a>PidLidUseTnef 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定该邮件从 MAPI 转换为多用途 Internet 邮件扩展 (MIME) 或简单邮件传输协议 (SMTP) 格式时，是否应在上一条消息中包括传输中性封装格式 (TNEF)。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19777152"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性指定该邮件从 TNEF 转换为 MIME 或 SMTP 格式时是否应在 TNEF 包括上一条消息。 此属性可能不存在，并且如果是这样，TNEF 不能包含对邮件。
   

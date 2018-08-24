@@ -13,12 +13,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0ad49ff6-8dff-4379-a52c-d292c53c2bc0
 description: Project 2013 桌面客户端应用程序 — Project Standard 2013 和 Project Professional 2013 — 可以自定义和扩展通过使用 VBA 编写宏。 Visual Studio 2012 可用于自定义功能区用户界面和创建新扩展性模型的项目中的任务窗格的通用的 Office 2013 平台上构建的 Office 加载项允许的复杂加载宏。 Project Standard 2013 和 Project Professional 2013 可以运行常规 Office 加载项，并使用任务窗格的加载专门为项目以与 SharePoint、 其他网站和 web 应用程序和外部数据集成开发。
-ms.openlocfilehash: e8604b4d479d0c64f8d45ad2363d7391d57408ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e89c5a1f6486ce49ad8b95bcd7a92497b7a2436
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779548"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594738"
 ---
 # <a name="project-client-programming"></a>Project 客户端编程
 
@@ -43,15 +43,9 @@ Project 2013 中的 VBA **MSProject**对象模型在本质上与 Visual Studio 2
   
 ## <a name="see-also"></a>另请参阅
 
-
-
-[面向开发人员的 project](http://msdn.microsoft.com/en-us/office/aa905469)
-  
-[Office 开发中心](https://dev.office.com)
-  
-[Visual Studio 开发中心](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
-  
-[ClickOnce 安全和部署](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
-  
-[可用字段引用](http://office.microsoft.com/en-us/project-help/available-fields-reference-HA102749299.aspx?CTT=1)
+- [面向开发人员的 project](http://msdn.microsoft.com/en-us/office/aa905469)
+- [Office 开发中心](https://dev.office.com)
+- [Visual Studio 开发中心](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
+- [ClickOnce 安全和部署](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
+- [可用字段引用](https://support.office.com/en-us/article/available-fields-reference-615a4563-1cc3-40f4-b66f-1b17e793a460)
 

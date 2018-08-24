@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d6621e2bcd7831016efd7ac43f93ef83aaf41c29
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36d1518764985c4783d967e263ca5c05d63f935f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775707"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588480"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 释放与一个书签关联的内存。
   
@@ -49,7 +49,7 @@ MAPI_E_INVALID_BOOKMARK
   
 > 不存在指定的书签。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::FreeBookmark**方法释放不再需要的书签。 此呼叫后，该书签不再有效。 从内存中发布一个表时，所有及其关联的书签也将被释放。 
   

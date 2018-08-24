@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5e23d9b829a941e3add8b8d8e137c73052b08aa6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de9b5e377840b1fbfa3b6dd73fd952c0c72efeb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19774904"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580640"
 ---
 # <a name="extendednotification"></a>EXTENDED_NOTIFICATION
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 介绍与服务提供程序特定的事件相关的信息。 
   
@@ -55,7 +55,7 @@ typedef struct _EXTENDED_NOTIFICATION
   
 > 指向特定于事件的参数。 使用的参数的类型取决于**ulEvent**成员; 的值这些参数由的提供程序发出事件记录。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **EXTENDED_NOTIFICATION**结构是联合的结构[通知](notification.md)结构的**信息**成员中包含的成员之一。 如果**通知**结构的**信息**成员包含**EXTENDED_NOTIFICATION**结构，**通知**结构的**ulEventType**成员设置为_fnevExtended_。
   
@@ -75,7 +75,7 @@ typedef struct _EXTENDED_NOTIFICATION
 
 
 
-[NOTIFICATION](notification.md)
+[通知](notification.md)
 
 
 [MAPI 结构](mapi-structures.md)

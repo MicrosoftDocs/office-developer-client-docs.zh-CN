@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 33c76cdd0e7850f82949349ac2e5bb0dd4e056ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec1c07a8d2c88680ebd94cf8ecd6901ed86ad100
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578785"
 ---
 # <a name="grouping-and-restricting-tables-in-message-store-providers"></a>分组和限制邮件存储区提供程序中的表
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 客户端应用程序经常允许用户一些控制文件夹的内容的显示方式。 通常情况下，用户可以选择一个或多个邮件属性的值根据分组的邮件，或者可以选择要排除匹配特定条件的邮件。 这通过使用[IMAPITable: IUnknown](imapitableiunknown.md)接口。 客户端应用程序可以限制用户指定任何条件返回从表的行。 因此，一条消息存储提供程序需要实现以下**IMAPITable**方法。 
   

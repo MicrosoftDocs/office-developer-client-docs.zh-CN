@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: c92181c4-79ca-4310-8bf1-2bc335c8e0cd
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f4b9cb00512838e6b54c0cc910b8f7279120db3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 667d7afe1772786507ffc8eb75f901439ada61d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774671"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587865"
 ---
 # <a name="composing-a-new-message-by-using-a-form"></a>使用表单撰写新邮件
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 若要使用窗体撰写新邮件，请首先创建一个新的自定义消息对象。
   

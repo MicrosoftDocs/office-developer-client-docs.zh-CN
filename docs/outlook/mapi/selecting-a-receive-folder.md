@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 144c7179-b390-479f-a2aa-324974f04eba
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 87f8b4f4011e405d9848f12b5cae56f27fff1ab8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a4245b5dd1b70d4cf695190c65b447cf92566ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778714"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574480"
 ---
 # <a name="selecting-a-receive-folder"></a>选择接收文件夹
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 接收文件夹是特定类的传入消息的放置位置。 有关 IPM 和相关的报告消息，MAPI 分配收件箱，如默认的接收文件夹。 有关 IPC 和相关的报告消息，MAPI 分配消息存储库的根文件夹，如默认的接收文件夹。 您可以更改这些分配或进行的其他邮件类的其他工作分配。 为您的客户端的支持的类是可选的消息进行显式接收文件夹工作分配。
   

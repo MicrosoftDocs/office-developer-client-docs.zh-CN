@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 57b59e5c-fae7-48da-bb4d-90e4482a6e70
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b1baa181ce8fb76247ee44f531032c6ae1817a5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ab80bde8aa6cbcdb6960e7b9becdb51a4b351a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578747"
 ---
 # <a name="pidlidfax1addresstype-canonical-property"></a>PidLidFax1AddressType 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定联系人的业务传真地址的地址类型。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776768"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性，如果存在此参数，必须设置为"传真"。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 573f40c5-e0d2-4281-8c22-10a1ae1f0dee
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 70c8bd36142d18b541ad6a2e0ded3bebcfb6dbb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d246fc0cfc60d0a2b9ff12ee70eae2366cf9b53a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775535"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594836"
 ---
 # <a name="imapisecuremessagegetbasemessage"></a>IMAPISecureMessage::GetBaseMessage
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 检索基础[IMessage: IMAPIProp](imessageimapiprop.md)这[IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md)封装。 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fe6395029e312a19bce6252e73b4616bb0aa0851
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae09488b99cd55e5cfca23f504d81ac5919633d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574151"
 ---
 # <a name="pidtagfolderassociatedcontents-canonical-property"></a>PidTagFolderAssociatedContents 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含嵌入的内容 table 对象，其中提供有关将关联的目录的信息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777619"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 关联的内容表表示不会显示标准内容表中的子文件夹。 它包含的文件夹关联，或隐藏邮件。 
   

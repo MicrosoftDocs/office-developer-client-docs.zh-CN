@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b328a65f400e424fb2cd177e710fb8bcffa392c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de63e728fbabf9c153f7a4faa68cad1d7a9331ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776174"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587920"
 ---
 # <a name="mapi-address-book"></a>MAPI 通讯簿
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 集成的通讯簿是 MAPI 实现以提供从配置文件中的地址簿提供程序的所有访问寻址信息集成集合的对象。 通讯簿中，使用客户端应用程序和服务提供商不必区分消息系统的唯一的寻址方案。 相反，它们可查找任何收件人的地址在任何消息系统中，只要安装在邮件系统通讯簿提供程序。
   

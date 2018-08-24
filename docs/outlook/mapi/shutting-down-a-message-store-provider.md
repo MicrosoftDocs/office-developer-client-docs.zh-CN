@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b5c9874ca465bb0ebed62f218d1512feb1a2f9ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c7ae4ab6de20d69581a98323c14a2c15f436cad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778786"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572821"
 ---
 # <a name="shutting-down-a-message-store-provider"></a>关闭邮件存储区提供程序
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 如果您的提供商消息存储提供程序，它可以关闭通过以下方式之一：
   

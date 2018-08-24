@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 974060d779f1a91461e7ab3d0af3ef0a7cca082b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57f036872276ed2ff85bf6f8a53801f3af605607
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576188"
 ---
 # <a name="pidtagcontentidentifier-canonical-property"></a>PidTagContentIdentifier 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个关键的值，以确定其内容在邮件收件人。
   

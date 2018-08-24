@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 790180f9-8864-47d4-97fb-35fe16b957c0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b912d81c1413fb40b6ddccc2f54bc393a6b67857
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6018c05d1191211242066425e4ae546c1618094
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774511"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594556"
 ---
 # <a name="adding-rendering-information-to-formatted-text"></a>将生成的信息添加到格式化文本
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示附件呈现的位置中带格式的文本的位置，则必须将占位符字符序列的插入消息的**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中。 占位符序列构成下列字符： `\objattph`。
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7a9a5d090babce8105fab43bf8401448373777cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b523277a3865e62e8ed95883213b28d2155ffb54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777826"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594794"
 ---
 # <a name="pidtaglisthelp-canonical-property"></a>PidTagListHelp 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 消息的列表帮助标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777826"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 若要生成列表帮助头字段，客户端必须将**PR_LIST_HELP**或相关联的属性的值设置为所需的值。 MIME 作者必须将此值复制到列表帮助标头字段。 
   

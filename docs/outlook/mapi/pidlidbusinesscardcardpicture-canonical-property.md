@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2c7af147-f7eb-41ef-8403-93584a2041ba
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8e241022504291ad70f45a3318a7901bbbba213f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b83316b599ea9ee62bde78cbd734dfb6b2d8b80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776704"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588494"
 ---
 # <a name="pidlidbusinesscardcardpicture-canonical-property"></a>PidLidBusinessCardCardPicture 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含要在名片上使用的图像。
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776704"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性的值必须是可移植网络图形 (PNG) 或 JPEG 流。 此属性应使用与**dispidBCDisplayDefinition** ([PidLidBusinessCardDisplayDefinition](pidlidbusinesscarddisplaydefinition-canonical-property.md)) 属性结合使用，如下所示： **dispidBCCardPicture**不应存在于联系人如果**dispidBCDisplayDefinition**不存在。 此属性也不应存在如果**dispidBCCardPicture**中的数据不需要一个名片图像。 
   

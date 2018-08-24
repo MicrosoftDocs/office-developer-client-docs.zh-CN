@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c3c66b9e54f0776a8afd6b4638d36dec3393dda8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 502bc24ece37c91e2cac23cf8486df96d5a71377
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775710"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584336"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 检索当前表行位置的指针，根据分数的值。
   
@@ -55,7 +55,7 @@ S_OK
   
 > 该方法返回_lpulRow_、 _lpulNumerator_和_lpulDenominator_中有效的值。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPITable::QueryPosition**方法确定当前行位置，并返回这两个当前行和分数的值，该值指示它表末尾的相对位置的数量。 MAPI 将当前行定义为要读取的下一行。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a8e353bbb4f276169ae26ba9d05821158bf55f00
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 079b54757cfcd5c9b38365abc5a6d901e2b06724
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776063"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580717"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 设置要模拟 Outlook 协议管理器后台打印到的服务器的传出邮件的本地存储。
   
@@ -37,7 +37,7 @@ HRESULT EmulateSpooler(
   
 >  [in]将此参数设置为 True，如果本地存储应模拟后台处理程序;将其设置为 false，则如果不需要。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 本地存储调用**IPSTX::EmulateSpooler**操作作为 Outlook 协议管理器中，为后端服务器 （例如，MSN 服务器或 AOL 服务器） 进行处理传出队列中的后台打印邮件。 存储同步过程中模拟后台处理程序，然后调用这两种方法： 
   

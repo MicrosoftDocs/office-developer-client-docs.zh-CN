@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 71e0a08436c925f0d68d63111722cc01bd73cc5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ba93cd0343121751ab12514fe3f09e5a480d5b23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778894"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582271"
 ---
 # <a name="statusobjectnotification"></a>STATUS_OBJECT_NOTIFICATION
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 介绍受更改状态对象。 
   
@@ -60,7 +60,7 @@ typedef struct
   
 > 指向介绍已更改的状态对象的属性的**SPropValue**结构的数组。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **STATUS_OBJECT_NOTIFICATION**结构是联合的结构[通知](notification.md)结构的**信息**成员中包含的成员之一。 包含状态的对象通知事件的类型_fnevStatusObjectModified_ **STATUS_OBJECT_NOTIFICATION**结构。 状态对象通知是内部的 MAPI 通知;客户端与服务提供程序无法为其注册和服务提供程序无法生成它。
   
@@ -76,7 +76,7 @@ typedef struct
 
 
 
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [SPropValue](spropvalue.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e237e73f59fa691821dcb55b59f5d17518451797
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efeac5a54c576d8b76d94ea7af8949e64dbccab6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588508"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 初始化新邮件。
   
@@ -50,7 +50,7 @@ S_OK
   
 > 已成功初始化新邮件。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 当用户写入属于窗体处理邮件类的新消息时，表单查看器调用**IPersistMessage::InitNew**方法。 如果窗体对象具有一个有效的用户界面指针，应显示的消息对象的用户界面。 
   

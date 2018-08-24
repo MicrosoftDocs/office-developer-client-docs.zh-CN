@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e7b3774d8dce446f0e87f041f11dac607f464680
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 357ace3267f22d751a20a12c96f108ee2f8ae1e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778971"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595200"
 ---
 # <a name="tchar"></a>TCHAR
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 Win32 字符的字符串的可以用来描述 ANSI、 DBCS 或 Unicode 字符串。 ANSI 和 DBCS 平台 TCHAR 定义，如下所示：
   
@@ -32,7 +32,7 @@ typedef char TCHAR;
 
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 对于 Unicode 平台，TCHAR 被定义为同义 WCHAR 类型。 
   

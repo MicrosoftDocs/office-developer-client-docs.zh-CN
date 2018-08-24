@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: dcbd12b4-4b50-4be6-a201-45e5d4611ce0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b03deae18556a44f4d4865d7083761893e478472
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e25c265f3136fa7caf407e4b2bf160b67ba0111
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777428"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594857"
 ---
 # <a name="pidtagcontactaddressbooksortflag-canonical-property"></a>PidTagContactAddressBookSortFlag 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个时，应按文件下和 FALSE 排序联系人，他们应按显示名称排序时为 TRUE 的标志。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777428"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |联系人通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 这是联系人通讯簿配置文件一节的属性。
   

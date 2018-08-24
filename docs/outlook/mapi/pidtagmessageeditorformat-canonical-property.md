@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 197b21ed-9f2f-425f-a6ed-cae1208fa2ca
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a6a3eb88377777a3d27687179bfdcb82057be3a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c9c12d3e8314dea5be67727d0f286e7df13038fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777857"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574368"
 ---
 # <a name="pidtagmessageeditorformat-canonical-property"></a>PidTagMessageEditorFormat 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定编辑器，用于显示一条消息的格式。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777857"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **PR_MSG_EDITOR_FORMAT**的可能值可以是下列选项之一： 
   

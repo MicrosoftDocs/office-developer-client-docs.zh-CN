@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a913f2f3a72a365ec7d5078eccf31c4212ca83a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0eb0374788da629c4c28eff2fce93536cf65a4ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776091"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582985"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 创建表视图中，返回到[IMAPITable](imapitableiunknown.md)实现的指针。 
   
@@ -60,7 +60,7 @@ S_OK
   
 > 成功创建的视图。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **ITableData::HrGetView**方法在表中， _lpSSortOrderSet_参数指向的顺序排序创建只读视图的数据。 光标置于视图中的第一行开头处。 返回**IMAPITable**接口实现用于访问该视图。 
   

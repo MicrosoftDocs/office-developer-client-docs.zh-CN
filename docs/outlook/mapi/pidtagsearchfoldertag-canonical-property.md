@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5e2f158607496a8cee9f9c731f2d7d6e185a2851
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7d5f63a7a57a01096151b3b6992796381ebddbdc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778355"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574515"
 ---
 # <a name="pidtagsearchfoldertag-canonical-property"></a>PidTagSearchFolderTag 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含用于与匹配的搜索文件夹容器同步此定义消息的值。
   
@@ -32,7 +32,7 @@ ms.locfileid: "19778355"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 定义邮件发生更改时，更改此属性。 它必须更改每次迭代，但它可能不唯一。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 443cc68e-7898-4285-a606-f916fcd18554
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 85e517601d291f144652befa267d8fd8f76dea64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b182d2b568a3c7cf874dfe2fcf7a7503aa44193f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778262"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574487"
 ---
 # <a name="pidtagrtfinsync-canonical-property"></a>PidTagRtfInSync 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 如果**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性具有相同的文本内容此消息的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778262"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 值为 TRUE 表示**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性，此消息的纯文本版本和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性，富文本格式 (RTF) 版本中，完全相同的除外**PR_BODY**和中**PR_RTF_COMPRESSED**格式中的空格。 两个版本中的文本包含的顺序相同的字符。
   

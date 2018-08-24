@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 62bc0e75d0a405ebe9f68ec9f4af1ca038bda219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eec8ea4b4ddee8b6c399bbb4871c286fea4fae3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588403"
 ---
 # <a name="pidtagfolderwebviewinfo-cannonical-property"></a>PidTagFolderWebViewInfo Cannonical Property
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含在 Microsoft Outlook 中的文件夹主页的 URL。 此属性包含调用**WebViewPersistenceObject**二进制流。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777646"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 文件夹  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可为指定的任何 Outlook 文件夹主页 URL。 从属性对话框的文件夹的**主页**选项卡，可以在 Outlook 中访问此信息。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 53dfb62bb33a4941e2b5627e729763101e24319d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bf6386ae3a7d835c8748e332235d8737c7a502e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775211"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589467"
 ---
 # <a name="iablogonopenentry"></a>IABLogon::OpenEntry
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 打开的容器，消息用户或通讯组列表，并返回指向接口实现，以提供更多访问的指针。
   
@@ -76,7 +76,7 @@ MAPI_MODIFY
   
 > [输出]指向打开的对象的指针的指针。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 S_OK 
   
@@ -94,7 +94,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > _LpEntryID_参数中的项标识符不是格式的识别通讯簿提供程序。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 MAPI 调用**OpenEntry**方法打开容器中，消息用户或通讯组列表。 
   

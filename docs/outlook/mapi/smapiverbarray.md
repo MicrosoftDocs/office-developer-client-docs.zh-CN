@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8736f75c-3e95-42dd-9bc1-2f0bd23c4a02
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1767c86cb5390572b95530060f2295034ed35f43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a2911779e5f9edb8c0bba7c3476a74ce410477c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778841"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569461"
 ---
 # <a name="smapiverbarray"></a>SMAPIVerbArray
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含描述 MAPI 谓词的[SMAPIVerb](smapiverb.md)结构的数组。 
   
@@ -51,7 +51,7 @@ typedef struct
   
 > MAPI 谓词的数组。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **SMAPIVerbArray**结构作为中[IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md)方法的参数传递。 
   

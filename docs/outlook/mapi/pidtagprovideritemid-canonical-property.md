@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 35a2d88ec838a9a76355ba6580e9cdbb3f28de56
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0f13b0b8d2f7eb6fd7ba60e9e351b62251aa13d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572835"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>PidTagProviderItemId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定存储区中的文件夹或项目的标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778104"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MapiNonTransmittable  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 存储提供程序可以指定的文件夹或项目，此属性的值，但应保留值之间会话相同。 存储提供程序使用此属性标识的搜索引擎从返回的搜索结果。
   

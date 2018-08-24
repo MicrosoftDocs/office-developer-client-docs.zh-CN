@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 88a4360d-6ab8-466e-8ebd-af80227ee00a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f83f3f51c8b11aececa31fa277fb799ce1ada512
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6af54b773b875531437a275f14c961a06ef799ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776311"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569517"
 ---
 # <a name="mapi-recipients"></a>MAPI 收件人
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 每个邮件传输有一个或多个收件人或一组描述其中是邮件传送的属性。 仅在邮件的上下文中使用的收件人，因为它们被视为一条消息，而不是单独的 MAPI 对象的子对象。 客户端和提供程序处理使用**IMessage**界面的收件人。 有关详细信息，请参阅[IMessage: IMAPIProp](imessageimapiprop.md)。
   

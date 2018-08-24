@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9d8eb3f2c52f20ffe57d84823a0ed736337b4d9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b18a4ae4ee25898d1100d9763714e5be21c69fd8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580724"
 ---
 # <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 这是处于连接状态更改通知。 表示已更改的连接状态、 旧的连接状态和新的连接状态的一部分。
   
@@ -82,7 +82,7 @@ typedef struct
     
    - MAPIOFFLINE_STATE_ONLINE
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 脱机状态 API 支持联机/脱机更改仅通知。 客户端必须检查的 Outlook 检查实际更改之前将返回以下值：
   

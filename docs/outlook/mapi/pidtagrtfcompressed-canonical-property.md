@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fd0ccb88-55ce-4d7c-9573-6e5d6239b6a8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c93d850551e766e97292d5417c3be5577f557af0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c88e6789b5b48e946d86a0458674a0fbe6b76356
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575446"
 ---
 # <a name="pidtagrtfcompressed-canonical-property"></a>PidTagRtfCompressed 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含消息文本，通常在压缩的窗体中的富文本格式 (RTF) 版本。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778251"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性包含相同的消息文本作为**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性，但以 rtf 格式。 
   

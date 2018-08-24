@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 645f98342b4b3ec2bebf3f233f719bd5cae69da9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad0da261b3059ca83f2d547c25a508ec9337aa72
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775774"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584742"
 ---
 # <a name="implementing-a-form-viewer"></a>实现表单查看器
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 表单查看器包括三个对象： 消息网站视图告知接收器和了视图上下文。 每个对象，可以与窗体服务器和其表单进行交互。
   

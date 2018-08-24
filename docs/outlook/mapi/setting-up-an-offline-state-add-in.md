@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: 7b3d0eed6039552813798d4ceb30158444902b36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778768"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576251"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>设置的脱机状态外接程序
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 若要实现的脱机状态外接程序，您必须实现连接、 初始化和其他设置功能。 本主题，这些连接、 初始化和安装程序中使用从示例脱机状态加载项的代码示例演示了函数。 示例脱机状态加载项是 COM 加载项程序，将**脱机状态**菜单添加到 Outlook 并使用脱机状态 API。 通过**脱机状态**菜单中，可以启用或禁用状态监控、 检查的当前状态，并更改的当前状态。 有关下载和安装加载项示例脱机状态的详细信息，请参阅[安装示例脱机状态外接程序](installing-the-sample-offline-state-add-in.md)。 有关脱机状态 API 的详细信息，请参阅[有关脱机状态 API](about-the-offline-state-api.md)。
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9dc368e6502bbb14cf42f6bc5a08fd2893f98bf6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775672"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594983"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 提供发送/接收对话框中显示的详细信息。 如果同步过程中遇到错误，存储提供程序调用此函数。
   

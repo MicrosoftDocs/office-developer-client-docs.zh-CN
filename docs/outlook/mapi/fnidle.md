@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bf1a84a1f305580fc9d9085753ab7eb5c62b8aa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cbad4b903592f83fc7d72fde21f149c9835f2e23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774962"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575635"
 ---
 # <a name="fnidle"></a>FNIDLE
  
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 定义一个空闲例程 MAPI 空闲引擎定期调用根据优先级。 
   
@@ -50,7 +50,7 @@ FALSE
   
 > 具有**FNIDLE**原型空闲例程应始终返回 FALSE。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 空闲例程的特定功能由实现客户端应用程序或服务提供商。 
   

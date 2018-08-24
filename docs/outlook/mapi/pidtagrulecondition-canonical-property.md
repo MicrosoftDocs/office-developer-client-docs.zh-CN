@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8a11e846-c62f-4c06-876f-94623d50cc3b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f4eae388d51b0428d508a675681fa4cd1d94e46f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 81dbd097523f4cb5016a3e846f63cfbe1c643de2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778274"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575859"
 ---
 # <a name="pidtagrulecondition-canonical-property"></a>PidTagRuleCondition 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 使用评估规则时的条件。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778274"
 |数据类型：  <br/> |PT_SRESTRICTION  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 条件表示为**限制**，并且**PropertyValue**缓冲区包含打包为[[MS OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)中指定的**限制**结构。
   

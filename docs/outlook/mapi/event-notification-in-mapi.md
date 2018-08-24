@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9c1fd58a31481d8666ca931408c16bd73aaba660
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 18ce10ad73ba769f0ecc0bd9e4f12096f4227e42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774902"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594542"
 ---
 # <a name="event-notification-in-mapi"></a>MAPI 中的事件通知
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 事件通知是信息两个 MAPI 对象之间的通信。 通过一个对象，客户端或服务提供程序注册更改或错误，调用事件，这可能需要其他对象中的位置的通知。 在事件发生后，更改或错误的通知的第一个对象。 接收通知的对象调用通知接收器;负责通知的对象调用 advise 源。
   

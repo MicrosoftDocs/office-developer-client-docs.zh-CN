@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 52a6132dcd6aa2c3a2951f3d1a6458808364dccb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2831e31e8139dd2348c2deffa6da41793d0a3f4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778272"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576244"
 ---
 # <a name="pidtagruleid-canonical-property"></a>PidTagRuleId 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定首次创建规则时，消息服务器将生成的每个规则的唯一标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778272"
 |数据类型：  <br/> |PT_I8  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 客户端不能指定此属性时创建一个新规则，但必须指定时修改或删除规则。
   

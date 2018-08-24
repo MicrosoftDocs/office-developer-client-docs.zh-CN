@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7de404f421a405d80dd7f98beba5168969222fc9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 48a69fa49735014dcbfffad0673f1d4da62452e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594829"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 提供对状态表中，一个表，包含会话中所有 MAPI 资源的信息的访问。
   
@@ -54,7 +54,7 @@ S_OK
   
 > 已成功返回表。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IMAPISession::GetStatusTable**方法提供了访问状态表包含有关的所有 MAPI 资源会话中的信息。 没有有关 MAPI 子系统表中的一个行、 一行，MAPI 后台处理程序、 一行，集成的通讯簿中，和配置文件中每个服务提供商的一行。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b5d013a-15ac-469a-98c8-3ed1e80f6faf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3535e8969ceff975077285aed89f979c24821bdf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 717f934c0dadc46935b72c409469633e0779fb3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778335"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576335"
 ---
 # <a name="pidtagscheduleinfofreebusyaway-canonical-property"></a>PidTagScheduleInfoFreeBusyAway 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的时间的忙/闲状态设置为 OOF。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778335"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 格式、 computation 和此属性的约束的那些**PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) 相同，但参考关联的日历标记 OOF 的约会。
   

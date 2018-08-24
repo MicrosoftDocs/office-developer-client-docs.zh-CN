@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee735ae8-e527-4538-a633-c3f57a36f0a1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d91e7ceb877a4f1a7ce10d33e1a25a8773db0547
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f1d7174d6af73b74be7dbba6065ad799a728ae41
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594514"
 ---
 # <a name="pidlidlinkedtaskitems-canonical-property"></a>PidLidLinkedTaskItems 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定与日历相关的任务的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的列表。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "19776892"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不是必需的。
   

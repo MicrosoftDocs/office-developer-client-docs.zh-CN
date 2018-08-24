@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c4a46710311f2c4d26ec3d667c7bf535df69f595
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6de157864bff5be41b6e030d555be7b60dcda5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777357"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594752"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>PidTagAttachNumber 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含唯一标识其父消息中的附件数。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777357"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 消息存储生成和维护此属性。 附件数是次要排序关键字后的呈现位置，以对附件表。 
   

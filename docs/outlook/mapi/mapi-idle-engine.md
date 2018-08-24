@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c535da245be09f930a70c5fae2a892f33087ebf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fdc254053c2d35c83866bd8a076279fd383db02
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776253"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583034"
 ---
 # <a name="mapi-idle-engine"></a>MAPI 空闲引擎
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 MAPI 提供了几个统称为空闲引擎的功能。 这些功能允许客户端、 通讯簿提供程序和消息存储提供程序在慢速时间内或响应慢时间会话中执行各种任务。 例如，客户端和服务提供商可以推迟速度慢的操作或关闭一长段仍保留未使用的文件。 通常传输提供程序不使用空闲引擎，因为该**IXPLogon::Idle**方法采用其位置。 有关详细信息，请参阅[IXPLogon::Idle](ixplogon-idle.md)。
   

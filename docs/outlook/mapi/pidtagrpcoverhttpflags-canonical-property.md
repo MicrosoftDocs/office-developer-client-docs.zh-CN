@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 151aa730f2ae6a4d39ffa474eb7ecd79ed5602eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b36f71958528b25829b1ff85b29572b3590f9d4f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778235"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594815"
 ---
 # <a name="pidtagrpcoverhttpflags-canonical-property"></a>PidTagRpcOverHttpFlags 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含 Microsoft Office Outlook 用于使用远程过程调用 (RPC) 通过超文本传输协议 (HTTP) 连接到 Microsoft Exchange Server 配置文件中的设置。
   
@@ -30,7 +30,7 @@ ms.locfileid: "19778235"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **PR_ROH_FLAGS**属性存储在邮件应用程序编程接口 (MAPI) 配置文件的全局配置文件部分中。 **PR_ROH_FLAGS**的值是一个位掩码，一个或多个以下标志组成。 
   

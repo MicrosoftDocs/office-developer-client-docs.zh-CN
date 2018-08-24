@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 554f98f7bda8c6616ce06b86142213c18bff1f69
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584763"
 ---
 # <a name="writing-a-remote-viewer"></a>编写远程查看器
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 远程查看器是提供控制的访问存储在另一台计算机上的电子邮件客户端应用程序中的窗口。 此控制的访问可能较慢的通讯链接上运行。 而不是每次用户打开一个文件夹，则检索可用的消息的完整选定内容，远程查看器将首先显示仅邮件头。 用户然后选择 from 标头的完整中显示的消息。 远程查看器客户端可以允许他们他们下载程序之前删除邮件的用户。 
   

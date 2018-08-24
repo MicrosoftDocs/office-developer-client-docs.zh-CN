@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aad4d3be8757ca4cd7719bfd7a53ae8bbf6711f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 779585f73a7032ae0259b30ebfc16868c733c7fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776525"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569510"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 介绍与新消息的到达相关的信息。 
   
@@ -79,7 +79,7 @@ MAPI_UNICODE
   
 > 位掩码的标志，描述新到达消息的当前状态。 **UlMessageFlags**成员是**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 消息的副本。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **NEWMAIL_NOTIFICATION**结构是联合的结构[通知](notification.md)结构的**信息**成员中包含的成员之一。 **通知**结构的**ulEventType**成员时**通知**结构的**信息**成员包含**NEWMAIL_NOTIFICATION**结构，设置为_fnevNewMail。_
   
@@ -97,7 +97,7 @@ MAPI 仅将**NEWMAIL_NOTIFICATION**结构用作**通知**结构，其中包含�
 
 
 
-[NOTIFICATION](notification.md)
+[通知](notification.md)
   
 [PidTagMessageFlags 规范属性](pidtagmessageflags-canonical-property.md)
 

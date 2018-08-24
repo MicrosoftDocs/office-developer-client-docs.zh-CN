@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0eb6d62b64595474957415e94275d0ac52cc2b6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 519093b3c538037b5a42bc19cc65ed31ae19f07b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775200"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580703"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 提供对通讯簿容器的访问。 MAPI 和客户端应用程序调用**IABContainer**执行名称解析和创建、 复制方法，并删除收件人。 
   
@@ -60,7 +60,7 @@ ms.locfileid: "19775200"
 |**PR_DEF_CREATE_MAILUSER**([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_DISPLAY_TYPE**([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **IABContainer**接口从[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx)接口通过间接继承[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)和[IMAPIProp: IUnknown](imapipropiunknown.md)接口。 通讯簿提供程序实现**IABContainer**接口。 
   

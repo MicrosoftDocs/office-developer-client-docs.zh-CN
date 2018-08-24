@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7daa8ec536a81abc196bbb23a0e1a48e826579e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4843a52d7441de1e1ab545e80346db8dd308c4bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775683"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590202"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 提供实现通常由服务提供商和消息服务入口点函数执行的任务。 MAPI 调用其提供商对象的登录方法时，服务提供商收到指向其支持对象的指针。 消息服务对其入口点函数的调用中收到其支持对象指针。
   
@@ -80,7 +80,7 @@ ms.locfileid: "19775683"
 |[IStorageFromStream](imapisupport-istoragefromstream.md) <br/> |实现的存储对象访问的流。  <br/> |
 |[GetSvcConfigSupportObj](imapisupport-getsvcconfigsupportobj.md) <br/> |创建一个邮件服务支持对象。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 地址书籍、 消息存储、 传输提供程序和消息每个服务都有其自己的支持对象。 服务提供商和消息服务中的它们的其他接口方法的实现一部分其支持对象调用方法。 每个不同的支持对象已完成实现其呼叫者; 应用于的方法不适用的方法返回 MAPI_E_NO_SUPPORT。 地址簿提供程序支持对象必须实现以下方法：
   

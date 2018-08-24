@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 54e65b23-7c5f-4ef3-9e32-329f5f461e1e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5c4253e56e0488b7de983b6d7e8af973cef69f6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 37a79d0106de9ec2e75e8ea3954105d7ebaa52b5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778325"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595277"
 ---
 # <a name="pidtagscheduleinfofreebusy-canonical-property"></a>PidTagScheduleInfoFreeBusy 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含过时信息。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19778325"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性不应设置，必须被忽略。
   

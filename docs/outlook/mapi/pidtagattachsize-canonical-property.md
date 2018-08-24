@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2d6b585c00ffb3d9dd5fb0864d98b0a221c7d8c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd98044868bbec36ed14fcf90deb2990039244b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777368"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573738"
 ---
 # <a name="pidtagattachsize-canonical-property"></a>PidTagAttachSize 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含附件上的所有属性的大小的总和，以字节为单位。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777368"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 建议附件子对象公开**PR_ATTACH_SIZE**属性。 包含在**PR_ATTACH_SIZE**总和包括**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 或**PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 属性的大小。 因此， **PR_ATTACH_SIZE**大于通常表达附件的内容。 
   

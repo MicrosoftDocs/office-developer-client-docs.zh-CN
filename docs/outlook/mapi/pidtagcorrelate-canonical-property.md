@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: be34993e-ffcc-47f5-b2d4-95ffa707bc5c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ce8573310e17e26b4e2deb4c0a0f835a6569151e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 063e41bf9fe306b3862e302abb4495ca56e3087b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777530"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575453"
 ---
 # <a name="pidtagcorrelate-canonical-property"></a>PidTagCorrelate 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含 TRUE，如果发件人的邮件请求邮件系统的相关功能。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777530"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性用于请求的传入报告的原始发送邮件的相关性。 当传输提供程序遇到已提交的邮件**PR_CORRELATE**设置为 TRUE 时，它将**PR_CORRELATE_MTSID** ([PidTagCorrelateMtsid](pidtagcorrelatemtsid-canonical-property.md)) 属性设置为该邮件的邮件传输系统 (MTS) 标识符。
   

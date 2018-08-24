@@ -7,18 +7,18 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
 description: 本节介绍 Outlook 使可用的事件的调度标识符。
-ms.openlocfilehash: 1542ff85579346a3674593e9ea38115170df2237
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94787063e0fd5be30de1ef772813979d3cb2f21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774181"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582971"
 ---
 # <a name="available-events-and-their-dispids-outlook-exported-apis"></a>可用的事件和其 dispid （Outlook 导出的 Api）
 
 本节介绍 Outlook 使可用的事件的调度标识符。
   
-Outlook 公开以下的调度标识符 (dispid)，以允许 c + + 加载项以收听和处理[idispatch:: Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx)函数中的相应事件。 
+Outlook 公开以下的调度标识符 (dispid)，以允许 c + + 加载项以收听和处理[idispatch:: Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)函数中的相应事件。 
   
 |**常量**|**Dispid 事件**|**说明**|**参数**|**说明**|
 |:-----|:-----|:-----|:-----|:-----|

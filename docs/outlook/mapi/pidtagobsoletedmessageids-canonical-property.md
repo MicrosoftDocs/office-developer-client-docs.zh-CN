@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b15b87064cc30035004596e93c20ca7d5f653c9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1717e30679fb3f6721690db75fb5dd402048eb09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19777924"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575047"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>PidTagObsoletedMessageIds 规范属性
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含此消息取代的消息的标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "19777924"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Server  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性中包含的标识符是标准搜索键使用**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性的格式。
   

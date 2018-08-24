@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 94ea0fe7fba4e49c1f646d889f3727cf5ef4739d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a5df2e8f50d8de05ec43b03ae5b56887e76d505
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19778592"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590188"
 ---
 # <a name="receiving-messages-by-using-message-store-providers"></a>使用邮件存储区提供程序接收邮件
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 消息存储提供程序无需支持传入的邮件提交 （即，为支持的功能的传输提供商和 MAPI 后台处理程序使用消息存储提供程序的邮件的传递点）。 但是，如果您的消息存储提供程序不支持传入的邮件提交，它不能用作默认邮件存储区。
   

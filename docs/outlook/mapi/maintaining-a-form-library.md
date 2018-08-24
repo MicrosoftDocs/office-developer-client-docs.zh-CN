@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 8488f7ec-e44b-4d1a-ba42-baea8c71d350
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5ccb5a2881d3cef3ff21a106e7e9ea33e0aedd9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6713055837e3b9b664d5fa1465c9a889919ee5ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19776161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590090"
 ---
 # <a name="maintaining-a-form-library"></a>维护表单库
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 表单库保留所有窗体的重要信息： 其属性、 其谓词和所在服务器的可执行文件。 某些客户端允许其用户进行维护、 安装或删除表单服务器。 如果您想要向用户提供此功能，您必须有权：
   

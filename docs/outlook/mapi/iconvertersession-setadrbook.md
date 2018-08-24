@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e6880a32e30b8f208ce5ba0a2d30e635ff464461
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ae00fd0711b8fcae01db6a89da7607d79d8757c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775279"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584357"
 ---
 # <a name="iconvertersessionsetadrbook"></a>IConverterSession::SetAdrBook
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定到 MIME 转换器 MAPI 解析不明确的地址，将 MAPI 邮件转换为 MIME 流时使用可选 MAPI 通讯簿。
   
@@ -44,7 +44,7 @@ S_OK
   
 > 成功函数调用。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 转换 MAPI 邮件 MIME 流通常不需要登录到 MAPI 配置文件。 但是，指定转换的 MAPI 通讯簿需要登录到一个配置文件来获取通讯簿。
   

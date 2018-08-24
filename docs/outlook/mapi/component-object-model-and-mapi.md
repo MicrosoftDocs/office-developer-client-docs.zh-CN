@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cf687a7bfadb0981ca3440c2f81bc5de8f910924
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 605de2a1aa93a4f02277700b1aa49f7d43728a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774689"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582936"
 ---
 # <a name="component-object-model-and-mapi"></a>组件对象模型和 MAPI
 
   
   
-**适用于**： Outlook 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 Windows SDK 文档中包含的规则实现符合到组件对象模型 (COM) 的对象的全面讨论。 这些规则地址如何执行下列操作：
   
