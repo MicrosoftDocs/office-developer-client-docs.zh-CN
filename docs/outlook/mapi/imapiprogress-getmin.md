@@ -14,7 +14,7 @@ ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22587822"
@@ -23,9 +23,9 @@ ms.locfileid: "22587822"
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-对于的进度的信息将显示在[IMAPIProgress::SetLimits](imapiprogress-setlimits.md)方法中返回的最小值。 
+在显示其进度信息的 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) 方法中返回最小值。 
   
 ```cpp
 HRESULT GetMin(
@@ -37,33 +37,33 @@ HRESULT GetMin(
 
  _lpulMin_
   
-> [输出]一个指向操作中的项的最小数目。
+> [out] 指向操作中项数目最小值的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已检索的最小操作中的项目数。
+> 已检索到操作中项数目最小值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-最小值表示数字形式操作的开始。 值可以是全局的最大值，用于表示显示整个进度的范围或本地值，用于表示仅显示的一部分。 
+最小值表示在数值窗体中操作的开始。 该值可以是全局最大值，用于表示整个进度显示的范围，也可以是本地值，用于仅表示显示的一部分。 
   
-是否正在进行对象能够理解的最小值为本地域或全局设置会影响标志的值。 当设置 MAPI_TOP_LEVEL 标志时，最小值被视为全局和用于计算整个操作的进度。 时未设置 MAPI_TOP_LEVEL，最小值被视为本地，并提供程序将其内部来显示较低级别的子对象的进度。 进度对象保存仅使它返回到通过**GetMin**呼叫提供程序的本地最小值。 
+标记设置的值会影响进度对象是将最小值理解为本地最小值还是全局最小值。 设置 MAPI_TOP_LEVEL 标记时，将最小值视为全局最小值，用于计算整个操作的进度。 如果未设置 MAPI_TOP_LEVEL，则将最小值视为本地最小值，并且提供程序在内部使用它来显示较低级别子对象的进度。 进度对象仅保存本地最小值，以通过 **GetMin** 调用将其返回给提供程序。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-初始化的最小值为 1。 服务提供商可以通过调用**IMAPIProgress::SetLimits**方法重置此值。 有关如何实施**GetMin**和其他[IMAPIProgress](imapiprogressiunknown.md)方法的详细信息，请参阅[实现进度指示器](implementing-a-progress-indicator.md)。
+将最小值初始化为 1。 服务提供程序可以通过调用 **IMAPIProgress::SetLimits** 方法重置此值。 有关如何实现 **GetMin** 和其他 [IMAPIProgress](imapiprogressiunknown.md) 方法的详细信息，请参阅[实现进度指示器](implementing-a-progress-indicator.md)。
   
-有关详细了解如何以及何时调用进度对象，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。
+有关如何调用进度对象以及何时调用的详细信息，请参阅[显示进度指示器](how-to-display-a-progress-indicator.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI 使用**IMAPIProgress::GetMin**方法获取进度指示器的最小值。 除非限制先前已设置通过调用**IMAPIProgress::SetLimits**方法会返回 1。  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI 使用 **IMAPIProgress::GetMin** 方法获取进度指示器的最小值。 除非之前通过调用 **IMAPIProgress::SetLimits** 方法设置了限制，否则返回 1。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

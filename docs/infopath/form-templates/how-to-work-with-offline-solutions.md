@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: InfoPath 对象模型提供 Application 类的 MachineOnlineState 属性，该属性使您的表单代码能够检查用户的计算机是否已连接至网络。通过检查 MachineOnlineState 属性的值，您的表单代码可以根据连接状态执行不同的操作。
-ms.openlocfilehash: fcdaae31dd6a0c76cf1c453f267be430a2b34bba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab149b488d2b2df1e91ba2cb435960c6749ecefb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773993"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574557"
 ---
 # <a name="work-with-offline-solutions"></a>使用脱机解决方案
 
@@ -154,11 +154,11 @@ InfoPath 对象模型提供 [Application](https://msdn.microsoft.com/library/Mic
     
 4. 在 Internet Explorer 中，单击“文件”**** 菜单上的“脱机工作”****。 
     
-5. 在 InfoPath 中，单击“提交”****。 你应当看到一条消息，指出表单将作为电子邮件提交。
+5. 在 InfoPath 中，单击“提交”****。 应该会看到一条消息，指出表单将作为电子邮件提交。
     
-6. 单击“发送”****。 你应该看到一条消息，指出表单已脱机提交并将在你连接至网络时提交。
+6. 单击“发送”****。您应该看到一条消息，指出表单已脱机提交并将在您连接至网络时提交。
     
 ## <a name="see-also"></a>另请参阅
 
-- [设计供脱机时使用的表单模板](http://office.microsoft.com/en-us/infopath/HA102117391033.aspx?pid=CH100341121033)
+- [设计供脱机时使用的表单模板](https://support.office.com/zh-CN/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

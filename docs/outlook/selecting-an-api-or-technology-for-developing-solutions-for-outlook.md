@@ -1,21 +1,21 @@
 ---
-title: 选择用于开发 Outlook 解决方案的 API 或技术
+title: 选择某个 API 或技术开发适用于 Outlook 的解决方案
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
-description: 本文介绍 API 和相关技术，您可以将它们用于扩展 Outlook 2013，并帮助您决定适用于您方案的 API 或技术。
-ms.openlocfilehash: 267ddcd69354664254755dc45ef0b0ca90f7da32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本文介绍 API 和相关技术，用户可以将它们用于扩展 Outlook 2013 和 Outlook 2016，并帮助决定适用于用户方案的 API 或技术。
+ms.openlocfilehash: e78e96f776b8f7c584dbd82163f41d0f5d8c80f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779220"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593422"
 ---
-# <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>选择用于开发 Outlook 解决方案的 API 或技术
+# <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>选择某个 API 或技术开发适用于 Outlook 的解决方案
 
-本文介绍 API 和相关技术，您可以将它们用于扩展 Outlook 2013，并帮助您决定适用于您方案的 API 或技术。
+本文介绍 API 和相关技术，用户可以将它们用于扩展 Outlook 2013 和 Outlook 2016，并帮助决定适用于用户方案的 API 或技术。
   
 Microsoft 支持各类 API 以及扩展 Outlook 的技术： 
   
@@ -65,7 +65,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 
 从 Office 2013 开始，开发人员可以使用 Office 外接程序平台将 Web 服务和内容扩展到 Office 富客户端和 Web 客户端的上下文环境中。Office 外接程序是一个使用常见 Web 技术开发的网页，它托管在 Office 客户端应用程序（如 Outlook）中，并可在本地或在云中运行。在几种 Office 外接程序类型当中，Outlook 支持的类型被称为邮件应用程序。虽然对象模型、PIA 和 MAPI 通常用于在应用程序级别自动化 Outlook，然而您可以使用适用于 Office 的 JavaScript API 在项目级别与电子邮件的内容和属性、会议请求或约会进行交互。您可以将邮件应用程序发布到 Office 商店或内部 Exchange 目录。 
   
-最终用户和管理员可以在 Exchange 邮箱上安装邮件应用程序，并在 Outlook 富客户端和 Outlook Web App 中使用邮件应用程序。作为开发人员，您可以选择仅限在桌面上使用的邮件应用程序，也可选择在平板电脑或智能手机上使用。图 1 显示了在[示例：创建邮件应用程序以查看 Outlook 中的 YouTube 视频](http://msdn.microsoft.com/library/bfde1d24-2c13-4798-9b13-5f307d49370f%28Office.15%29.aspx)中详细介绍的 YouTube 邮件应用程序的示例。YouTube 邮件应用程序允许最终用户选择 YouTube 视频的 URL 并在台式机或平板电脑上观看 Outlook 或 Outlook Web App 中的视频。
+最终用户和管理员可以在 Exchange 邮箱上安装邮件应用程序，并在 Outlook 富客户端和 Outlook Web App 中使用邮件应用程序。作为开发人员，您可以选择仅限在桌面上使用的邮件应用程序，也可选择在平板电脑或智能手机上使用。图 1 显示了在[示例：创建邮件应用程序以查看 Outlook 中的 YouTube 视频](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f)中详细介绍的 YouTube 邮件应用程序的示例。YouTube 邮件应用程序允许最终用户选择 YouTube 视频的 URL 并在台式机或平板电脑上观看 Outlook 或 Outlook Web App 中的视频。
   
 **图 1. 选定的邮件的 YouTube 邮件应用程序处于活动状态，其中包含指向 YouTube.com 上视频的 URL**
 
@@ -95,7 +95,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
 |语言和工具  <br/> |您可以使用任何常见的 Web 技术（包括 HTML5、JavaScript、CSS3、XML 和 REST API）来实现邮件应用程序。您可以使用您的首选的 Web 开发工具。或者，使用 Napa、Visual Studio 2008，或这些工具的更高版本来提供了便利，节省您的开发时间。  <br/> |
 |托管实现  <br/> |如果适用于您方案，则您可以使用托管的 .aspx 页来实现适用于您的邮件应用程序的服务器端代码。  <br/> |
 |可脚本化  <br/> |适用于 Office 的 JavaScript API 可在脚本中直接使用。  <br/> |
-|测试和调试工具  <br/> |您可以使用您喜欢的任何 Web 开发工具。Napa 和 Visual Studio 提供了方便进行应用程序测试和调试的集成开发环境。[排查 Outlook 外接程序激活问题](http://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx)和[示例：Outlook 项目的调试属性](http://msdn.microsoft.com/library/e3f14f07-cf35-4896-aab0-cb7625ca09b5%28Office.15%29.aspx)提供了有关进行故障排除和调试邮件应用程序的更多帮助。  <br/> |
+|测试和调试工具  <br/> |您可以使用您喜欢的任何 Web 开发工具。Napa 和 Visual Studio 提供了方便进行应用程序测试和调试的集成开发环境。[排查 Outlook 外接程序激活问题](http://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx)和[示例：Outlook 项目的调试属性](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-faca78cd)提供了有关进行故障排除和调试邮件应用程序的更多帮助。  <br/> |
 |专家可用性  <br/> |具有所需的 Web 开发专业技能级别的 Office 外接程序程序员相对比较容易找到。该平台适用于专业开发人员和非专业开发人员。  <br/> |
 |可查看的信息  <br/> |有关开发和发布 Office 外接程序的信息可在[构建适用于 Office 和 SharePoint 的应用程序](http://msdn.microsoft.com/zh-CN/office/apps/fp160950.aspx)中找到。适用于邮件应用程序的特定文档可在[Outlook 外接程序](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx)中找到。  <br/> |
 |开发人员和部署许可  <br/> |请参阅 [许可 Office 和 SharePoint 加载项](http://msdn.microsoft.com/library/3e0e8ff6-66d6-44ff-b0c2-59108ebd9181%28Office.15%29.aspx)，了解有关 Office 外接程序应用程序许可证框架的信息。  <br/> |
@@ -263,7 +263,7 @@ Microsoft 支持各类 API 以及扩展 Outlook 的技术：
     
 - 您可以检测事件，如发送邮件或修改邮件属性。
     
-- 您可以在 Outlook 2013 和 Exchange Server 2013 以及 Outlook 和 Exchange 的早期版本上使用外接程序。另一方面，从 Outlook 2013 和 Exchange Server 2013 开始，邮件应用程序可以使用 Outlook 和 Exchange，而不能使用它们较早的版本
+- 可以在 Outlook 2013 和 Exchange Server 2013 以及 Outlook 和 Exchange 的早期版本上使用加载项。另一方面，从 Outlook 2013 和 Exchange Server 2013 开始，邮件应用程序可以使用 Outlook 和 Exchange，而不能使用它们较早的版本。
     
 有关对象模型和 PIA 支持的方案的详细信息，请参阅下一节[对象模型或 PIA 的决定因素](#OLSelectAPI_FactorsOM)。有关对 Office 外接程序平台与其他 Office 相关扩展性技术的比较，请参阅 [Office 和 SharePoint 相关应用程序的背景](http://blogs.msdn.com/b/officeapps/archive/2012/07/23/introducing-apps-for-the-new-office-and-sharepoint.aspx)。
   
@@ -883,40 +883,25 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
   
 ### <a name="major-references-and-resources"></a>主要引用和资源
 
-- [Office 加载项](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
-    
-- [Outlook 2013 开发人员参考](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)
-    
-- [Outlook 2010 主互操作程序集引用](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)
-    
-- [Outlook MAPI 引用](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)
-    
-- [Outlook 2013 辅助参考](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)
-    
-- [Outlook Social Connector 提供程序引用](social-connector/outlook-social-connector-provider-reference.md)
-    
-- [扩展 Outlook 中的天气栏](weather/extending-the-weather-bar-in-outlook.md)
-    
-- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)
-    
-- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)
-    
-- [Outlook 2010 的 XML 架构中的新增功能](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)
-    
-- [Outlook 2010：XML 架构参考](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)
-    
+- [Office 加载项](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
+- [Outlook 2013 开发人员参考](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)   
+- [Outlook 2010 主互操作程序集引用](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)   
+- [Outlook MAPI 引用](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)   
+- [Outlook 2013 辅助参考](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
+- [Outlook Social Connector 提供程序引用](social-connector/outlook-social-connector-provider-reference.md)   
+- [扩展 Outlook 中的天气栏](weather/extending-the-weather-bar-in-outlook.md)   
+- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
+- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
+- [Outlook 2010 的 XML 架构中的新增功能](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)   
+- [Outlook 2010：XML 架构参考](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)   
 - [为 32 位和 64 位系统开发 Outlook 2010 解决方案](http://msdn.microsoft.com/library/076753e1-6252-4189-843c-7b1be1967176%28Office.15%29.aspx)
     
 ### <a name="code-samples"></a>代码示例
 
-- [邮件应用程序示例](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)
-    
-- 对象模型的代码示例：[如何实现...（outlook 2013 开发人员参考 （英文）](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)
-    
-- PIA 代码示例：[在 Outlook 2010 中如何实现...](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)
-    
+- [邮件应用程序示例](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
+- 对象模型的代码示例：[如何实现...（outlook 2013 开发人员参考 （英文）](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
+- PIA 代码示例：[在 Outlook 2010 中如何实现...](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
 - [MAPI 示例（英文）](http://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
-    
 - 辅助 API 代码示例：[示例任务（英文）](auxiliary/sample-tasks.md)
     
 
