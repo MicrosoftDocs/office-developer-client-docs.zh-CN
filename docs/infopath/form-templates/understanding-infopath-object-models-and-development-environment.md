@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 支持两种用于在表单模板中开发业务逻辑的编程模型，并且支持通过托管代码实现的外部自动化。
-ms.openlocfilehash: 638306eabf9f761ff126953e66228cad8cc5c3ae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 18d5d68cdc047ddcb049874d677c6a20e851f2db
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579527"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19774094"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>了解 InfoPath 对象模型和开发环境
 
@@ -89,14 +89,14 @@ InfoPath 2003 兼容的托管代码对象模型在 InfoPath 2003 Service Pack 1 
 
 除了利用托管代码编写业务逻辑之外，开发人员还可以通过使用在外部应用程序中运行的托管代码来自动执行 InfoPath。此功能和编写代码所需的程序集在 InfoPath 2003 Service Pack 1 中引入。用于自动执行 InfoPath 的对象和成员已经过更新，以便在为 InfoPath 2013 编写外部自动化代码时提供其他功能。
   
-用于外部自动化的类和成员通过 [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) 和 [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) 命名空间公开。编写自动化代码所需的程序集文件位于 C:\Program Files\Microsoft Office\Office14 文件夹中。 
+用于外部自动化的类和成员通过 [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) 和 [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/zh-CN/library/microsoft.office.interop.infopath.xml) 命名空间公开。编写自动化代码所需的程序集文件位于 C:\Program Files\Microsoft Office\Office14 文件夹中。 
   
 |**程序集**|**说明**|
 |:-----|:-----|
 |Microsoft.Office.Interop.InfoPath.dll  <br/> |提供针对 InfoPath COM 对象模型的 COM Interop，用于通过 C# 或 Visual Basic 编写的外部自动化代码。  <br/> |
 |Microsoft.Office.Interop.InfoPath.Xml.dll  <br/> |提供针对 MSXML 的 COM Interop，用于使用 C# 或 Visual Basic 编写的外部自动化代码中的 XML DOM 操作。  <br/> |
    
-有关 **Microsoft.Office.Interop.InfoPath** 和 **Microsoft.Office.Interop.InfoPath.Xml** 命名空间（这两个命名空间专门用来使用外部应用程序中的托管代码来实现 InfoPath 应用程序的自动化）提供的对象模型的详细信息，请参阅 [InfoPath 开发人员中心](http://msdn.microsoft.com/en-us/office/aa905434.aspx)。
+有关 **Microsoft.Office.Interop.InfoPath** 和 **Microsoft.Office.Interop.InfoPath.Xml** 命名空间（这两个命名空间专门用来使用外部应用程序中的托管代码来实现 InfoPath 应用程序的自动化）提供的对象模型的详细信息，请参阅 [InfoPath 开发人员中心](http://msdn.microsoft.com/zh-CN/office/aa905434.aspx)。
   
 ### <a name="the-infopath-forms-services-object-model"></a>InfoPath Forms Services 对象模型
 
@@ -110,13 +110,16 @@ InfoPath 2003 兼容的托管代码对象模型在 InfoPath 2003 Service Pack 1 
   
 ## <a name="infopath-development-environment"></a>InfoPath 开发环境
 
-可通过将 Visual Studio 2008 与已安装的 [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) 加载项来执行 InfoPath 2013 中的业务逻辑的开发。 
+可通过将 Visual Studio 2008 与已安装的 [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=30364) 加载项来执行 InfoPath 2013 中的业务逻辑的开发。 
   
 > [!NOTE]
 > InfoPath 2013 不支持创建或编辑使用通过 JScript 或 VBScript 编写的业务逻辑的表单模板，尽管 InfoPath Filler 支持打开在 InfoPath 的早期版本中创建的基于脚本的表单模板。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [演练：创建包含代码的基本表单模板](walkthrough-creating-a-basic-form-template-with-code.md)
-- [演练：使用 InfoPath 2003 对象模型创建和调试基本表单模板](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
+
+
+[演练：创建包含代码的基本表单模板](walkthrough-creating-a-basic-form-template-with-code.md)
+  
+[演练：使用 InfoPath 2003 对象模型创建和调试基本表单模板](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 

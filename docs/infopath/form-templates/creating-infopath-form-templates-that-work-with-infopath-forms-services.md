@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 7bd4fbbb-49c6-46a1-9584-895e5aa9a772
 description: 部署到 Microsoft SharePoint Server 2013（带有 InfoPath Forms Services）且与浏览器兼容的表单支持大多数 InfoPath 表单使用方案中的功能和控件。但是，由 InfoPath Forms Services 提供的与浏览器兼容的表单不支持所有 InfoPath 功能。其中某些功能和控件未在服务器上实现，其他功能在服务器上不具有有意义的表示形式。
-ms.openlocfilehash: c633c93eef5fa2d773ed1497f933f2cc3ee0e3bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 65201358fc651325920bd3eefc863e839bb1f1a6
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595452"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19774007"
 ---
 # <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>创建使用 InfoPath Forms Services 的 InfoPath 表单模板
 
