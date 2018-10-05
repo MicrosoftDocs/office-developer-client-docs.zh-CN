@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: eec8ea4b4ddee8b6c399bbb4871c286fea4fae3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70932e703511235e9f5e32efd95b18d1b66494e2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588403"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389958"
 ---
 # <a name="pidtagfolderwebviewinfo-cannonical-property"></a>PidTagFolderWebViewInfo Cannonical Property
 
@@ -34,7 +34,7 @@ ms.locfileid: "22588403"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 文件夹  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可为指定的任何 Outlook 文件夹主页 URL。 从属性对话框的文件夹的**主页**选项卡，可以在 Outlook 中访问此信息。 
   
@@ -91,7 +91,7 @@ cbData
     
 ### <a name="webviewpersistenceobject-stream-sample"></a>WebViewPersistenceObject 流示例
 
-本节介绍**WebViewPersistenceObject**流的示例。 Stream 指定的主页上 URL"http://www.microsoft.com"。 
+本节介绍**WebViewPersistenceObject**流的示例。 Stream 指定的主页上 URL"https://www.microsoft.com"。 
   
  **数据转储**
   
@@ -130,6 +130,6 @@ cbData
     
  _wzURL_
   
-> 偏移量 0x2C，0x32 字节： 25 WCHARs 的数组。 一个 Unicode 零结尾字符串值:"http://www.microsoft.com"。
+> 偏移量 0x2C，0x32 字节： 25 WCHARs 的数组。 一个 Unicode 零结尾字符串值:"https://www.microsoft.com"。
     
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bb48743f-1f7f-47fb-b339-223d9bbf7072
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0a12489ade6f91f8d7c2c227c4f6ca31a6445a19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e82bda6d233c5ddcee9cb8f7976c80314b471dcd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573864"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388327"
 ---
 # <a name="pidnamecreatedatetimereadonly-canonical-property"></a>PidNameCreateDateTimeReadOnly 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定何时创建该文件的时间。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22573864"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > 指定的属性和允许对文档的操作。
     

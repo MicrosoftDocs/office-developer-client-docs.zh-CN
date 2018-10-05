@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bb5667b9-22d6-5913-a170-626f8c93e2f9
 description: 指定是否在绘图窗口中显示标尺。
-ms.openlocfilehash: 7d029a4e64e29e7d04ba6211a1432beedf6ccc0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 96d50e1ad6f14ff192906c38f845dfa3881eca1d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781365"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386738"
 ---
 # <a name="showrulers-element-windowtype-complextype-visio-xml"></a>ShowRulers 元素 （Window_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781365"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ShowRulers_Type](showrulers_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |windows.xml  <br/> |
    

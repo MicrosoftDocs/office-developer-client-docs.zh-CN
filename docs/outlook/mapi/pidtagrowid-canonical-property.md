@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: efa778f51ac047c911deb6a3c4d5d9e718dc33fb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d58342e0460352bd9d260cb6e73de358cb2fc23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565037"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387718"
 ---
 # <a name="pidtagrowid-canonical-property"></a>PidTagRowid 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的收件人的表或状态表中的收件人的唯一标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22565037"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常见的 MAPI  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是对象的仅对拥有表的生存期内有效临时值。 它显示为表的列，但不是存储。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22565037"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 处理顺序和客户端和服务器之间的数据传输的流。
     

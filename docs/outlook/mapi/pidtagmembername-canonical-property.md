@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 08db12e8ec698ffb6bbbc58f623949d2cb092ceb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a119cf1446600153e433c4aae99037d9810015c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563525"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390889"
 ---
 # <a name="pidtagmembername-canonical-property"></a>PidTagMemberName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含成员的访问控制列表 (ACL) 表的显示的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22563525"
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 通过使用这些属性[IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md)界面来显示 ACL 表，即的人员或与显式权限的文件夹或邮箱角色的成员的名称。 
   
@@ -42,11 +42,11 @@ ms.locfileid: "22563525"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCPERM]](http://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[MS OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
 > 处理检索存储在服务器的文件夹的权限列表。
     

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: c6ba2fe9-c183-4d26-854c-f3ac893e75cc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8d35a16432e1a7f7e78cce600d4a1bfa3133458b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5c3ad9c5e810e26a80b16fba2a3a1c2f7dd7889
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594822"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387802"
 ---
 # <a name="pidtagmessagehandlingsystemcommonname-canonical-property"></a>PidTagMessageHandlingSystemCommonName 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "22594822"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性包含处理系统的邮件的公用名。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22594822"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

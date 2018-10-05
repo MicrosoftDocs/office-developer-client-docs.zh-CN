@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: efbbffe184e965caae84db54383e1431dfb1a569
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dfe3b57c246e247eda365bed46af2e0f35f0e54b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585820"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391953"
 ---
 # <a name="pidlidvalidflagstringproof-canonical-property"></a>PidLidValidFlagStringProof 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 验证是否由代理知道**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) 属性的值设置**dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) 属性的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22585820"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 非可发送的对象 （收到的邮件和非邮件对象），客户端应将该值设置为**PR_MESSAGE_DELIVERY_TIME**的值修改**dispidRequest**时。
   
@@ -45,11 +45,11 @@ ms.locfileid: "22585820"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定的属性和与标记的操作。
     

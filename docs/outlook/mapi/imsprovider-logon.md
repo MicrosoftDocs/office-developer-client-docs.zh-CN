@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c7f62c69c7a06f7ca0e4bfddcf789cddc536ea6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567634"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386563"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 日志 MAPI 到消息存储提供程序的一个实例。
   
@@ -152,13 +152,13 @@ MAPI_W_ERRORS_RETURNED
   
 > 调用成功，但消息存储提供程序已经可用的错误信息。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。 要从提供程序获取错误的信息，请调用[IMAPISession::GetLastError](imapisession-getlasterror.md)方法。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 MAPI 调用**IMSProvider::Logon**方法执行大部分获取的消息存储访问所需的处理。 消息存储提供程序验证任何需要访问特定存储和 MAPI 后台处理程序和客户端应用程序可以登录到_lppMDB_参数中返回的消息存储对象的用户凭据。 
   
 除了为客户端和 MAPI 后台处理程序使用返回的消息存储对象，提供程序也会返回 MAPI 用于控制在打开的存储的消息存储登录对象。 消息存储登录对象和消息存储对象应紧密链接内的消息存储提供程序以便如何影响其他。 使用的存储对象和登录对象应相同;应一一对应登录对象之间的存储对象，以便对象就像它们是公开两个接口的一个对象。 两个对象应还创建组合在一起和释放在一起。 
   
-MAPI 支持对象，由 MAPI 和传递给_lpMAPISup_参数中的提供程序提供访问的提供程序需要的 MAPI 中的功能。 包括函数的保存和检索配置文件信息、 访问通讯簿，等等。 _LpMAPISup_指针可以打开每个存储的不同。 时处理呼叫消息存储登录后，存储提供程序应使用的特定于存储_lpMAPISup_变量。 提供程序的任何**登录**调用，以打开的消息存储并成功创建消息存储登录对象，必须将指针保存到存储登录对象中的 MAPI 支持对象和必须调用[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)方法添加的引用支持的对象。 
+MAPI 支持对象，由 MAPI 和传递给_lpMAPISup_参数中的提供程序提供访问的提供程序需要的 MAPI 中的功能。 包括函数的保存和检索配置文件信息、 访问通讯簿，等等。 _LpMAPISup_指针可以打开每个存储的不同。 时处理呼叫消息存储登录后，存储提供程序应使用的特定于存储_lpMAPISup_变量。 提供程序的任何**登录**调用，以打开的消息存储并成功创建消息存储登录对象，必须将指针保存到存储登录对象中的 MAPI 支持对象和必须调用[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法添加的引用支持的对象。 
   
 如果提供程序**登录**呼叫期间显示对话框，则应使用_ulUIParam_参数。 但是，如果_ulFlags_包含 MDB_NO_DIALOG 标志应不显示对话框。 如果用户界面需要调用但_ulFlags_不允许使用它，或者如果其他原因无法显示用户界面，提供程序应返回 MAPI_E_LOGON_FAILED。 如果**登录**显示一个对话框，并且用户取消了登录，通常通过单击对话框的**取消**按钮，提供程序应返回 MAPI_E_USER_CANCEL。 
   
@@ -178,7 +178,7 @@ _LpEntryID_参数可以为**null**或指向解包的存储项的标识符此消�
   
 如果提供程序查找所有所需的信息不在配置文件中，则应返回 MAPI_E_UNCONFIGURED。 MAPI 将呼叫提供商的消息服务入口点函数以允许用户选择一个存储区，或甚至创建一个，并以输入帐户名和密码，需要。 MAPI 将自动创建新的存储; 新配置文件节本节新配置文件可以是临时或永久，具体取决于添加的方式。 如果存储提供程序调用**IMAPISupport::ModifyProfile**方法时，新的配置文件部分会成为永久性并存储添加到[IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)方法返回的消息存储的列表。 
   
-_LpInterface_参数指定新打开的存储对象所需的接口的 IID。 在_lpInterface_传递**null**指定 MAPI 消息存储接口， **IMsgStore**，都要求。 传递消息存储对象，IID_IMsgStore，还指定**IMsgStore**都要求。 如果在_lpInterface_传递 IID_IUnknown，则提供程序应使用的任何接口派生打开存储[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx)是最适用于提供程序 （同样，这通常是**IMsgStore**）。 当 IID_IUnknown 传递时，调用实现使用[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)方法存储打开操作成功后，选择一个接口。 
+_LpInterface_参数指定新打开的存储对象所需的接口的 IID。 在_lpInterface_传递**null**指定 MAPI 消息存储接口， **IMsgStore**，都要求。 传递消息存储对象，IID_IMsgStore，还指定**IMsgStore**都要求。 如果在_lpInterface_传递 IID_IUnknown，则提供程序应使用的任何接口派生打开存储[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)是最适用于提供程序 （同样，这通常是**IMsgStore**）。 当 IID_IUnknown 传递时，调用实现使用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)方法存储打开操作成功后，选择一个接口。 
   
 **IMSProvider::Logon**呼叫应返回足够的信息，如存储和访问的存储，以允许 MAPI 后台处理程序登录到的存储提供程序实现，而无演示对话框中的同一存储的凭据的路径。 在_lpcbSpoolSecurity_和_lppbSpoolSecurity_参数用于返回此信息。 提供程序通过将指针传递到的缓冲区中的[MSProviderInit](msproviderinit.md)函数_lpfAllocateBuffer_参数，则此数据分配的内存提供程序置于_lpcbSpoolSecurity_此缓冲区的大小。 
   

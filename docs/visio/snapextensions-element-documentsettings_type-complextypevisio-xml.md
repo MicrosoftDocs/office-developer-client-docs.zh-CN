@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d55b6676-125f-7cf1-509d-21dee548f5a1
 description: 指定是否启用或禁用活动窗口的特定管理单元扩展设置。
-ms.openlocfilehash: 4c00d8d45c1eb33f57f727779db91e358a83a969
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f21653fca7f1f5fa7be7449f1e588cf5ef67263
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781385"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387613"
 ---
 # <a name="snapextensions-element-documentsettingstype-complextype-visio-xml"></a>SnapExtensions 元素 （DocumentSettings_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781385"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 上次修改时间： 2013 年 1 月 30 日
-ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 841b01ae8dfcf841b0a1d64113ce7258c4c61583
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574529"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389258"
 ---
 # <a name="nickname-cache"></a>别名缓存
 
@@ -37,7 +37,7 @@ Microsoft Office Outlook 2007、 Microsoft Outlook 2010 和 Microsoft Outlook 20
   
  **Outlook 2007**
   
-为 Outlook 2007 记忆式键入流存储在具有相同名称配置文件和.nk2 扩展名的文件。 例如，如果使用的"outlook"的默认配置文件，则该文件将调用"outlook.nk2"。 .Nk2 文件存储在 %appdata%\microsoft\outlook。 有关昵称缓存二进制文件格式的详细信息，请参阅[Outlook 2003/2007 NK2 文件格式和开发人员的准则](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)。
+为 Outlook 2007 记忆式键入流存储在具有相同名称配置文件和.nk2 扩展名的文件。 例如，如果使用的"outlook"的默认配置文件，则该文件将调用"outlook.nk2"。 .Nk2 文件存储在 %appdata%\microsoft\outlook。 有关昵称缓存二进制文件格式的详细信息，请参阅[Outlook 2003/2007 NK2 文件格式和开发人员的准则](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)。
   
  **Outlook 2010 和 Outlook 2013**
   
@@ -84,5 +84,5 @@ Outlook 加载记忆式键入流，当初始化具有寻址的功能的项。 �
 [MAPI 配置文件](mapi-profiles.md)
 
 
-[Outlook 2003/2007 NK2 文件格式和开发人员指南](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+[Outlook 2003/2007 NK2 文件格式和开发人员指南](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: 您可以根据您的应用程序和基于 Web 的体验集成 Office for iOS、Office for Android、Office Online 和 Excel、PowerPoint 或 Word Mobile，使您的用户可以从第三方解决方案无缝切换到 Office 应用程序的工作环境中。
-ms.openlocfilehash: cbd66c9ea6427826a2c043cdb4660f5d3c481efe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3656e458857124430949a515f2f517fca7cad23b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774101"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388285"
 ---
 # <a name="integrate-with-office"></a>与 Office 集成
 
@@ -19,7 +19,7 @@ ms.locfileid: "19774101"
   
 通用 Office、Office for iPad、Office for iPhone、适用于 Android 平板电脑的 Office 和适用于 Android 手机的 Office 可以从本机与第三方云存储提供程序集成。您可以通过您的应用程序来集成 Office，使用户能够在 Excel、OneNote、PowerPoint 或 Word 中打开、编辑和保存文档。
   
-如果您是云存储提供商，您可以注册我们的[合作伙伴计划](http://dev.office.com/programs/officecloudstorage)以集成 Office Online 应用程序，从而使用户可以在任何 Web 浏览器中查看和编辑 Excel、PowerPoint 和 Word 文档。 
+如果您是云存储提供商，您可以注册我们的[合作伙伴计划](https://developer.microsoft.com/office/cloud-storage-partner-program)以集成 Office Online 应用程序，从而使用户可以在任何 Web 浏览器中查看和编辑 Excel、PowerPoint 和 Word 文档。 
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -37,9 +37,9 @@ ms.locfileid: "19774101"
     
 ## <a name="see-also"></a>另请参阅
 
-- [Office 客户端开发](https://msdn.microsoft.com/zh-CN/library/dn833103.aspx)
+- [Office 客户端开发](https://msdn.microsoft.com/library/dn833103.aspx)
     
-- [Office 开发](http://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
+- [Office 开发](https://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     
 - [与 Office Online 集成](https://wopi.readthedocs.org/en/latest/)
     

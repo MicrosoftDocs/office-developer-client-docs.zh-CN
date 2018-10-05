@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: fcab369a-a1f4-4425-a272-e35046914a4d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: da7d19407856570a628529877252360d1537bae7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e6b9ddf37c1db8ea28ae2f82caed2a487e551e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595389"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389272"
 ---
 # <a name="pidtagsearchkey-canonical-property"></a>PidTagSearchKey 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个标识用于搜索的相关的对象的二进制相当关键字。
   
@@ -32,7 +32,7 @@ ms.locfileid: "22595389"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |ID 属性  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的相关对象，如邮件副本提供跟踪，从而便于查找不需要匹配项，如重复的收件人。
   
@@ -61,15 +61,15 @@ MAPI 的邮件的收件人，用于构建搜索关键字使用的特定规则。
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

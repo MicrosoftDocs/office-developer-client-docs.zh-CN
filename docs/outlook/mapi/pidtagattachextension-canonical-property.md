@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 71ad53880c400d924d73c903bd77f7b447a69d8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 26efa868de29bc8a6a180b717230951b76da26a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577721"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388421"
 ---
 # <a name="pidtagattachextension-canonical-property"></a>PidTagAttachExtension 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含指示附件的文档类型的文件扩展名。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22577721"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 由客户端应用程序提交次设置这些属性。 
   
@@ -44,7 +44,7 @@ ms.locfileid: "22577721"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

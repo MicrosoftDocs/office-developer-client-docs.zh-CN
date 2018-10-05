@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ae09488b99cd55e5cfca23f504d81ac5919633d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c85c5d7c3e80508c4d328f69ac4ad15f0f2c355a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574151"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391059"
 ---
 # <a name="pidtagfolderassociatedcontents-canonical-property"></a>PidTagFolderAssociatedContents 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "22574151"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 关联的内容表表示不会显示标准内容表中的子文件夹。 它包含的文件夹关联，或隐藏邮件。 
   
@@ -56,15 +56,15 @@ ms.locfileid: "22574151"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 处理顺序和客户端和服务器之间的数据传输的流。
     
-[[MS OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议项目之间进行转换。
     

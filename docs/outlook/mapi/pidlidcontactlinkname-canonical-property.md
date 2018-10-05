@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7b9be1cd-e81e-42f3-b391-036afa2ae1b4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cd29ed24f155e3d39d367d677f3760b2aa12a18d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3236c848a4aef83f3a675994c834ef27a5b7bb53
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582376"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386094"
 ---
 # <a name="pidlidcontactlinkname-canonical-property"></a>PidLidContactLinkName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含**dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)) 属性的元素。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22582376"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 由分号和空格分隔**dispidContactLinkName**属性中的元素 （";"）。 
   
@@ -43,11 +43,11 @@ ms.locfileid: "22582376"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

@@ -5,12 +5,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: 找出与 64 位版本的 Office 兼容 32 位版本的 Office 的方式。
-ms.openlocfilehash: 924f7a1aa891addc5841e6cdefc5226dcb056096
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eeff11f11d4f2595b7111c0233703d09b1c46651
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779559"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390938"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>32 位和 64 位版本的 Office 之间的兼容性
 
@@ -67,7 +67,7 @@ VBA 7 替换基本 Office 2007 和早期版本中的 VBA 代码。 VBA 7 是 32 
 VBA 和类型库的组合为您提供了大量功能来创建 Office 应用程序。 但是，有时必须与您通信直接计算机的操作系统和其他组件，如管理时内存或过程，使用用户界面元素 linke windows 和控件，或修改 Windows 注册表时。 在这些情况下，最好的选择是使用 DLL 文件中嵌入外部函数之一。 执行此操作的 API 调用使用**Declare**语句在 VBA 中。 
   
 > [!NOTE]
-> Microsoft 提供的 Win32API.txt 文件包含 1,500 Declare 语句和用于复制到您的代码所需的**Declare**语句的工具。 但是，这些语句的 32 位系统，并且必须转换为 64 位使用下文中讨论的信息。 现有**Declare**语句不会在 64 位 VBA 中编译，直到将它们标记为可安全执行 64-bit 使用**PtrSafe**属性。 您可以在 Excel MVP Jan Karel Pieterse 网站，找到此类型的转换的示例[http://www.jkp-ads.com/articles/apideclarations.asp](http://www.jkp-ads.com/articles/apideclarations.asp)。 [Office 代码兼容性检查器用户指南](http://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx)是一个非常有用的工具，如果需要请检查**PtrSafe**属性的 API **Declare**语句的语法和相应的返回类型。 
+> Microsoft 提供的 Win32API.txt 文件包含 1,500 Declare 语句和用于复制到您的代码所需的**Declare**语句的工具。 但是，这些语句的 32 位系统，并且必须转换为 64 位使用下文中讨论的信息。 现有**Declare**语句不会在 64 位 VBA 中编译，直到将它们标记为可安全执行 64-bit 使用**PtrSafe**属性。 您可以在 Excel MVP Jan Karel Pieterse 网站，找到此类型的转换的示例[https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp)。 [Office 代码兼容性检查器用户指南](https://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx)是一个非常有用的工具，如果需要请检查**PtrSafe**属性的 API **Declare**语句的语法和相应的返回类型。 
   
 **Declare**语句类似于以下内容，具体取决于您调用的子例程 （没有返回值） 或函数 （有返回值） 之一。 
   
@@ -219,7 +219,7 @@ End Sub
   
 #### <a name="when-should-i-convert-long-parameters-to-longptr"></a>何时应将长的参数为 LongPtr？
   
-您需要检查您要呼叫的函数 Microsoft 开发人员网络上的 Windows API 文档。 控点和指针需要转换为**LongPtr**。 例如，文档的[RegOpenKeyA](http://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx)提供了以下签名： 
+您需要检查您要呼叫的函数 Microsoft 开发人员网络上的 Windows API 文档。 控点和指针需要转换为**LongPtr**。 例如，文档的[RegOpenKeyA](https://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx)提供了以下签名： 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -241,7 +241,7 @@ LONG WINAPI RegOpenKeyEx(
 |[in] samDesired  <br/> |指定到项的所需的访问权限掩码。  <br/> |
 |phkResult [out]  <br/> |指向一个变量来接收打开密钥的句柄的*指针*。  <br/> |
    
-在[Win32API_PtrSafe.txt](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b)， **Declare**语句被定义为： 
+在[Win32API_PtrSafe.txt](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b)， **Declare**语句被定义为： 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
@@ -269,6 +269,6 @@ End TypeF
 ## <a name="see-also"></a>另请参阅
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [解析 Declare 语句](https://msdn.microsoft.com/en-us/library/office/aa671659.aspx)
+- [解析 Declare 语句](https://msdn.microsoft.com/library/office/aa671659.aspx)
     
 

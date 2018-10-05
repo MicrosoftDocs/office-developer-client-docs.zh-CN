@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
 description: 报告完成定位的约会。
-ms.openlocfilehash: 735d875b4151c86103a1ac0378bd33b84de64997
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9fab0d06bf0b9856b9a968f5c0db1bb15b0fe0bd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774458"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388915"
 ---
 # <a name="rebasetaskcomplete"></a>RebaseTaskComplete
 
@@ -22,9 +22,9 @@ ms.locfileid: "19774458"
 
 |||
 |:-----|:-----|
-|头文件：  <br/> |tzmovelib.h  <br/> |
-|通过实现：  <br/> |MAPI 客户端应用程序  <br/> |
-|调用：  <br/> |Outlook 调整对象  <br/> |
+|标头文件：  <br/> |tzmovelib.h  <br/> |
+|实现者：  <br/> |MAPI 客户端应用程序  <br/> |
+|调用者：  <br/> |Outlook 调整对象  <br/> |
 |指针类型：  <br/> |**PFNREBASETASKCOMPLETE** tzmovelib.h 中定义  <br/> |
    
 ```cpp
@@ -42,11 +42,11 @@ void STDAPICALLTYPE RebaseTaskComplete(
 
 _ulRowIndex_
   
-> [in]已处理的行。 此索引引用传递到[IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md) **[SRowSet](http://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** 结构。
+> [in]已处理的行。 此索引引用传递到[IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md) **[SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** 结构。
     
 _pRowCur_
   
-> 输入] 指向**[SRow](http://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** 结构的描述所处理的项。 
+> 输入] 指向**[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** 结构的描述所处理的项。 
     
 _hrResult_
   

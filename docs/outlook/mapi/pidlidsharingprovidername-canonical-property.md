@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 67e6497c-e053-4b2d-a81c-c6cf6017f8bd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 53dd5b0a808ca818a6086c09a9e59220a6d6d654
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0e5a3a242938d851ce3248ef5f1eeb8da27c801e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593457"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386115"
 ---
 # <a name="pidlidsharingprovidername-canonical-property"></a>PidLidSharingProviderName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定由**dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) 标识的共享服务提供商的用户可显示名称。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22593457"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 应忽略此属性。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22593457"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > 共享客户端之间的邮箱文件夹。
     

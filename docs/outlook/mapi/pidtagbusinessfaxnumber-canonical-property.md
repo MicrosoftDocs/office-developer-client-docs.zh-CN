@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3f77a7e4-342e-49da-970f-3ef02f227724
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0a84adb36c6b851c989b88f4cee6b090fd5e1679
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e41665b825bd8271acda3a84c2e9f764b74f152
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576762"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386710"
 ---
 # <a name="pidtagbusinessfaxnumber-canonical-property"></a>PidTagBusinessFaxNumber 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含收件人的业务传真机的电话的号码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22576762"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性是该提供标识和访问有关收件人信息的属性的示例。 由收件人和收件人的组织定义这些属性。 
   
@@ -42,15 +42,15 @@ ms.locfileid: "22576762"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和允许的联系人和个人通讯组列表对象的操作。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

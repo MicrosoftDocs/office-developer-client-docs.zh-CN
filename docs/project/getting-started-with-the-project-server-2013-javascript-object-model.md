@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30dc3194-7480-4e7c-b731-4a171d652ee0
 description: 在 Project Server 2013 中的 JavaScript 对象模型可在 Project Online 的移动和本地开发。 本主题简要概述了 JavaScript 对象模型，然后介绍如何创建检索和循环使用 JavaScript 对象模型的项目的应用程序页。
-ms.openlocfilehash: 94c882249474e22328031d55233cfba654dcff83
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ec8a10e987276807dc4648bd8948b2285f76fd37
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779423"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388208"
 ---
 # <a name="getting-started-with-the-project-server-2013-javascript-object-model"></a>Project Server 2013 JavaScript 对象模型入门
 
@@ -20,16 +20,16 @@ ms.locfileid: "19779423"
 ## <a name="using-the-project-server-javascript-object-model"></a>使用 Project Server JavaScript 对象模型
 <a name="pj15_GetStartedJSOM_UseJSOM"> </a>
 
-使用 JavaScript 对象模型是创建运行客户端 （如相对需要远程运行托管客户端代码） 的应用程序的好方法。 应用程序可以使用 JavaScript 对象模型来检索或更改通过发送到服务器的异步调用的对象。 使用 JavaScript 对象模型的应用程序通常是作为自定义 SharePoint 加载项、 应用程序页和 Web 部件部署。 有关详细信息，请参阅在[主机 web、 外接程序 web 和 SharePoint 组件在 SharePoint 2013 中](http://msdn.microsoft.com/library/b791cdf5-8aa2-47fa-bc4c-aee437354759%28Office.15%29.aspx)的"类型的 SharePoint 组件可在 SharePoint 相关应用程序"。
+使用 JavaScript 对象模型是创建运行客户端 （如相对需要远程运行托管客户端代码） 的应用程序的好方法。 应用程序可以使用 JavaScript 对象模型来检索或更改通过发送到服务器的异步调用的对象。 使用 JavaScript 对象模型的应用程序通常是作为自定义 SharePoint 加载项、 应用程序页和 Web 部件部署。 有关详细信息，请参阅在[主机 web、 外接程序 web 和 SharePoint 组件在 SharePoint 2013 中](https://msdn.microsoft.com/library/b791cdf5-8aa2-47fa-bc4c-aee437354759%28Office.15%29.aspx)的"类型的 SharePoint 组件可在 SharePoint 相关应用程序"。
   
 JavaScript 对象模型实现的主要功能的 Project Server 2013，但 JavaScript 对象模型和服务器对象模型没有一对一的奇偶校验。 JavaScript 对象模型的入口点是**ProjectContext**对象，它代表 Project Server 2013 的客户端上下文，并提供对服务器内容和功能的访问。 Project Server 2013 JavaScript 对象模型在位于默认路径中的 PS.js 文件中定义`%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS`应用程序服务器上。 Project Server 2013 还会安装 PS.为相同位置中的 Debug.js 文件。 PS.Debug.js 是提供 IntelliSense 信息的 PS.js unminified 的版本。 
   
-JavaScript 对象模型允许表单身份验证，并为当前用户的所有请求人均通过身份都验证。 有关安全性和设计自定义应用程序和解决方案的其他注意事项的详细信息，请参阅[身份验证、 授权和 SharePoint 2013 中的安全性](http://msdn.microsoft.com/library/8734790c-eb75-4d78-9604-7cc23b33b693%28Office.15%29.aspx)、[的 SharePoint 外接程序体系结构和开发的重要方面横向](http://msdn.microsoft.com/library/ae96572b-8f06-4fd3-854f-fc312f7f2d88%28Office.15%29.aspx)，并[与 SharePoint 解决方案比较的 SharePoint 加载项](http://msdn.microsoft.com/library/0e9efadb-aaf2-4c0d-afd5-d6cf25c4e7a8%28Office.15%29.aspx)。
+JavaScript 对象模型允许表单身份验证，并为当前用户的所有请求人均通过身份都验证。 有关安全性和设计自定义应用程序和解决方案的其他注意事项的详细信息，请参阅[身份验证、 授权和 SharePoint 2013 中的安全性](https://msdn.microsoft.com/library/8734790c-eb75-4d78-9604-7cc23b33b693%28Office.15%29.aspx)、[的 SharePoint 外接程序体系结构和开发的重要方面横向](https://msdn.microsoft.com/library/ae96572b-8f06-4fd3-854f-fc312f7f2d88%28Office.15%29.aspx)，并[与 SharePoint 解决方案比较的 SharePoint 加载项](https://msdn.microsoft.com/library/0e9efadb-aaf2-4c0d-afd5-d6cf25c4e7a8%28Office.15%29.aspx)。
   
 > [!NOTE]
-> 若要从 SharePoint 网站远程访问数据，SharePoint 2013 提供了使您可以进行客户端跨域调用的跨域库。 有关详细信息，请参阅[从加载项使用跨域库访问 SharePoint 2013 数据](http://msdn.microsoft.com/library/bc37ff5c-1285-40af-98ae-01286696242d%28Office.15%29.aspx)。 
+> 若要从 SharePoint 网站远程访问数据，SharePoint 2013 提供了使您可以进行客户端跨域调用的跨域库。 有关详细信息，请参阅[从加载项使用跨域库访问 SharePoint 2013 数据](https://msdn.microsoft.com/library/bc37ff5c-1285-40af-98ae-01286696242d%28Office.15%29.aspx)。 
   
-许多概念和 Project Server 2013 使用 JavaScript 对象模型的过程类似于那些相关的客户端对象模型中。 有关 Project Server 2013 托管客户端对象模型的详细信息，请参阅**Microsoft.ProjectServer.Client**。 有关 SharePoint 2013JavaScript 对象模型和托管客户端对象模型的详细信息，请参阅[完成基本操作使用 SharePoint 2013 中的 JavaScript 库代码](http://msdn.microsoft.com/library/29089af8-dbc0-49b7-a1a0-9e311f49c826%28Office.15%29.aspx)和[完成基本操作使用 SharePoint 2013 客户端库代码](http://msdn.microsoft.com/library/5a69c9e3-73bf-4ed5-bc19-182056bdb394%28Office.15%29.aspx)。
+许多概念和 Project Server 2013 使用 JavaScript 对象模型的过程类似于那些相关的客户端对象模型中。 有关 Project Server 2013 托管客户端对象模型的详细信息，请参阅**Microsoft.ProjectServer.Client**。 有关 SharePoint 2013JavaScript 对象模型和托管客户端对象模型的详细信息，请参阅[完成基本操作使用 SharePoint 2013 中的 JavaScript 库代码](https://msdn.microsoft.com/library/29089af8-dbc0-49b7-a1a0-9e311f49c826%28Office.15%29.aspx)和[完成基本操作使用 SharePoint 2013 客户端库代码](https://msdn.microsoft.com/library/5a69c9e3-73bf-4ed5-bc19-182056bdb394%28Office.15%29.aspx)。
   
 ## <a name="walkthrough-creating-an-application-page-that-retrieves-and-iterates-through-projects"></a>演练：创建可检索和循环访问各个项目的应用程序页
 <a name="pj15_GetStartedJSOM_UseJSOM"> </a>
@@ -68,7 +68,7 @@ JavaScript 对象模型允许表单身份验证，并为当前用户的所有请
         
     4. 在“SharePoint 自定义向导”**** 对话框中，选择“部署为场解决方案”****，然后选择“确定”**** 按钮。 
     
-3. 在解决方案资源管理器中编辑**ProjectsJSOM**项目与 Project Web App 实例的 URL 匹配的**Site URL**属性的值 (例如， `http://ServerName/PWA`)。
+3. 在解决方案资源管理器中编辑**ProjectsJSOM**项目与 Project Web App 实例的 URL 匹配的**Site URL**属性的值 (例如， `https://ServerName/PWA`)。
     
 4. 打开“GetProjectsJSOM”**** 项目的快捷菜单，然后添加 SharePoint“Layouts”映射文件夹。 
     

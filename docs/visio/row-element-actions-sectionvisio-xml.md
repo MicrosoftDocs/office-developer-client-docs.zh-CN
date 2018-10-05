@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: 包含描述形状或页的快捷菜单或动作标记菜单上的菜单项的行。
-ms.openlocfilehash: 67ddbf633a93a8295667d10d8957828ff4c76bfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 509fd06a77419bf684b214ff5a5d16f24a1f4a84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781133"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388908"
 ---
 # <a name="row-element-actions-section-visio-xml"></a>Row 元素 （Actions 内容） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781133"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |masters.xml、 主 #.xml、 pages.xml、 页 #.xml  <br/> |
    

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fcea014ca4c1b1629505127484c44ae990eed855
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 57ab68d4c53693c769a4aadf8737f57ef5e73fcd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590804"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390413"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>PidTagAdditionalRenEntryIdsEx 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个 store 对象的特殊文件夹条目 Id。 此多值属性中的每个条目可以映射到一个或多个条目 Id，即，没有条目和其相关联的条目 Id-一对多关系。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22590804"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果使用此属性，则它包含指定条目 Id 的文件夹的块的数组。 块按照指定以下四个表的格式。
   
@@ -75,7 +75,7 @@ ms.locfileid: "22590804"
 
 |**名称**|**值**|**ElementDataSize 的值**|**说明**|
 |:-----|:-----|:-----|:-----|
-|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |指示此块**ElementData**字段包含 DWORD 标头值。 如何解释此值取决于的块**PersistID**类型。  <br/> 对于[[MS OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx)中指定的所有**PersistID**类型，此值为零。  <br/> |
+|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |指示此块**ElementData**字段包含 DWORD 标头值。 如何解释此值取决于的块**PersistID**类型。  <br/> 对于[[MS OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx)中指定的所有**PersistID**类型，此值为零。  <br/> |
 |RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |变量  <br/> |指示此块包含**PersistID**指定的文件夹的**EntryID** 。  <br/> |
 |ELEMENT_SENTINEL  <br/> |0x0000  <br/> |0x0000  <br/> |指示将处理没有更多的**PersistElement**块。  <br/> |
    
@@ -85,19 +85,19 @@ ms.locfileid: "22590804"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > 允许处理的允许/阻止列表，并确定的垃圾邮件。
     
-[[MS OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > 指定的属性和用于创建和邮箱中查找的特殊文件夹的操作。
     
-[[MS OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
 > 标识，并将标记旨在到非可靠来源欺骗透露敏感信息 （如密码和其他个人信息） 的收件人的电子邮件。
     

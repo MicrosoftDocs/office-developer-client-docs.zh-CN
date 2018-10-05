@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9db1f8e163e44a44df1e798cebccb3639325275e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579856"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391428"
 ---
 # <a name="mapi-profiles"></a>MAPI 配置文件
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 一个配置文件存储有关服务提供商和消息服务的计算机上安装的信息。 对于每个会话，客户端登录时选择介绍要使用的提供程序和服务的一个配置文件。 客户端都可以选择配置文件的集合中，并如果需要，建立一个为默认值。 当客户端启动会话和未显式指定一个配置文件时自动选择的配置文件的默认配置文件。
   
@@ -29,7 +29,7 @@ ms.locfileid: "22579856"
     
 - [自动完成流](autocomplete-stream.md)
     
-- [分析的二进制文件](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+- [分析的二进制文件](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     
 ## <a name="profile-sections"></a>配置文件节
 

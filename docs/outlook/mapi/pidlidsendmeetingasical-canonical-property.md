@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: d643bf62-62e5-41c7-ab88-5c4c358e5460
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 50807f65cf280764289b8a29aebdb1e8e8ed8aa6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2189275855b54d9e3cba40d27ee0684cf95e2241
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582621"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388313"
 ---
 # <a name="pidlidsendmeetingasical-canonical-property"></a>PidLidSendMeetingAsIcal 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定是否应作为 iCal 邮件发送会议请求。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22582621"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
-[[MS OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
     

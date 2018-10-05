@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
 description: 指定是否在绘图窗口中显示网格。
-ms.openlocfilehash: c4b4ceafd0107fb620f32016619e8abe853f2eaf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a34ba3503cc8995554f1f6d696b27a6a4be37359
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781337"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386227"
 ---
 # <a name="showgrid-element-windowtype-complextype-visio-xml"></a>ShowGrid 元素 （Window_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781337"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |windows.xml  <br/> |
    

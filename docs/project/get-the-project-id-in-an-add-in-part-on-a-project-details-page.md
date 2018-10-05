@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: 外接程序部件承载宿主页上与完全隔离的 iframe 元素中。 若要从项目详细信息页面 (PDP) 中的外接程序部分获取有关当前项目的信息，可以使用 window.postMessage 方法和事件侦听器的事件处理程序解析出的项目 ID 从邮件。
-ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ffaf9cb7dac783a754b2d56b5ece4d5a7a0319be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594423"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389881"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>在 Project 详细信息页上获取加载项部件中的项目 ID
 
@@ -38,7 +38,7 @@ ms.locfileid: "22594423"
             
         - 您必须为某人之外系统帐户身份登录。 系统帐户没有安装外接程序的权限。
     
-有关加载项项目的详细信息，请参阅[Project Server 2013 的加载项创建的先决条件](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites)。 有关本地安装程序 （包括如何禁用环回检查，如有必要） 的指南，请参阅[设置本地开发环境的 SharePoint 加载项的设置](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins)。 如果您正在远程开发，请参阅[Developing SharePoint 相关应用程序在远程系统上](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins)。
+有关加载项项目的详细信息，请参阅[Project Server 2013 的加载项创建的先决条件](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites)。 有关本地安装程序 （包括如何禁用环回检查，如有必要） 的指南，请参阅[设置本地开发环境的 SharePoint 加载项的设置](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins)。 如果您正在远程开发，请参阅[Developing SharePoint 相关应用程序在远程系统上](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins)。
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>创建 SharePoint 托管外接程序和客户端 web 部件
 <a name="CreateApp"> </a>
@@ -157,7 +157,7 @@ GetProjectId 外接程序部件客户端 web 部件的 GetProjectId.aspx 页中�
   
 在 AppManifest.xml 文件中，指定加载项需要访问 Project Server 数据或 SharePoint 数据的权限。 
   
-请参阅[创建与 SharePoint 外接程序安装外接程序部件](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)以了解如何设置外接程序部件的自定义属性。 
+请参阅[创建与 SharePoint 外接程序安装外接程序部件](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)以了解如何设置外接程序部件的自定义属性。 
   
 ## <a name="example-getting-the-project-id-in-an-add-in-part-on-a-pdp-page"></a>示例： 在 PDP 页面上的外接程序部分中获取项目 ID
 <a name="CodeExample"> </a>
@@ -252,6 +252,6 @@ GetProjectId 外接程序部件客户端 web 部件的 GetProjectId.aspx 页中�
 
 - [Project 编程任务](project-programming-tasks.md)
 - [创建 SharePoint 托管的 Project Server 加载项](create-a-sharepoint-hosted-project-server-add-in.md)
-- [创建外接程序部件以与 SharePoint 外接程序一起安装](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
+- [创建外接程序部件以与 SharePoint 外接程序一起安装](https://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: Project Server 接口 (PSI) 可帮助自动在本地安装的 Project Server 2013 中的多个服务器端进程。 但是，多个函数需要使用 Microsoft Project Professional 2013。
-ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b93c3535ca6693a84d11370de17bc18375f168ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588109"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386339"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>PSI 执行和不执行的操作
 
@@ -49,12 +49,12 @@ PSI 专为补充 Project Professional 2013 的功能，而不是所有 Project P
     
 - **需求管理创建自定义工作流活动**在本地、 完全信任工作流活动中使用 PSI 修改和更新项目建议根据企业项目模板。 使用项目自定义域标记项目所需的初始和批准过程的信息。 添加任务，以确定关键里程碑或可交付结果的项目阶段。 当批准项目建议时，工作流可以更改到与 Project Professional 全面项目管理的建议。 
     
-- **创建 PSI 扩展**(**弃用。** 扩展 Project Server 2013 中弃用和将来版本中将不支持）使用 Windows Communication Foundation (WCF) 接口，可使用自定义服务的扩展 PSI。 PSI 扩展的 Project Server 计算机上，运行，并且可以使用内置的 PSI 服务使用的同一安全基础结构。 扩展可以查询报告表、 使用单独的数据库表，将其整合到保存带宽，并将与第三方应用程序和其他服务器端组件集成的 PSI 调用。 有关详细信息，请参阅[开发 PSI 扩展](http://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx)。
+- **创建 PSI 扩展**(**弃用。** 扩展 Project Server 2013 中弃用和将来版本中将不支持）使用 Windows Communication Foundation (WCF) 接口，可使用自定义服务的扩展 PSI。 PSI 扩展的 Project Server 计算机上，运行，并且可以使用内置的 PSI 服务使用的同一安全基础结构。 扩展可以查询报告表、 使用单独的数据库表，将其整合到保存带宽，并将与第三方应用程序和其他服务器端组件集成的 PSI 调用。 有关详细信息，请参阅[开发 PSI 扩展](https://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx)。
     
-- **在本地、 完全信任的应用程序中使用模拟**可以模拟 PSI 的 WCF 接口的呼叫，以便应用程序假定模拟用户的安全权限。 慎用和仔细，应使用模拟。 读取和更新为其他用户的状态信息不需要模拟。 新的应用程序需要模拟应该使用 CSOM 和 OAuth 协议，而非 PSI。 有关使用 PSI 的模拟的详细信息，请参阅[使用模拟 with WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)。
+- **在本地、 完全信任的应用程序中使用模拟**可以模拟 PSI 的 WCF 接口的呼叫，以便应用程序假定模拟用户的安全权限。 慎用和仔细，应使用模拟。 读取和更新为其他用户的状态信息不需要模拟。 新的应用程序需要模拟应该使用 CSOM 和 OAuth 协议，而非 PSI。 有关使用 PSI 的模拟的详细信息，请参阅[使用模拟 with WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)。
     
 > [!NOTE]
-> 在某些情况下，可以使用 CSOM 和 Project Online 的客户端应用程序中使用 PSI。 如果您使用基于 ASMX 的 PSI web 服务，应用程序必须包括进行身份验证中 CSOM 的[Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx)对象的方法以及身份验证**方法System.Web.Services.Protocols.SoapHttpClientProtocol**客户端对象。 使用 SharePoint CSOM 与 web 服务的示例，请参阅[SharePoint Online Using Claims-Based 身份验证中的远程身份验证](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)。 > 由于的约束的应用程序级权限，PSI 不能用于设计的应用程序中公共 Office 商店中的通讯组。 在这种情况下，您可以使用仅 CSOM。 
+> 在某些情况下，可以使用 CSOM 和 Project Online 的客户端应用程序中使用 PSI。 如果您使用基于 ASMX 的 PSI web 服务，应用程序必须包括进行身份验证中 CSOM 的[Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx)对象的方法以及身份验证**方法System.Web.Services.Protocols.SoapHttpClientProtocol**客户端对象。 使用 SharePoint CSOM 与 web 服务的示例，请参阅[SharePoint Online Using Claims-Based 身份验证中的远程身份验证](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)。 > 由于的约束的应用程序级权限，PSI 不能用于设计的应用程序中公共 Office 商店中的通讯组。 在这种情况下，您可以使用仅 CSOM。 
   
 ## <a name="what-the-psi-does-not-do"></a>PSI 不可实现的操作
 <a name="pj14_WhatPSIDoes_DoesNotDo"> </a>
@@ -234,7 +234,7 @@ PSI 可用于与已没有工作流或使用旧 WF3.5 定义 （Project Server 20
 
 - [CSOM 执行和不执行的操作](what-the-csom-does-and-does-not-do.md)  
 - [Project Server 可编程性](project-server-programmability.md)   
-- [使用基于声明的身份验证的 SharePoint Online 中的远程身份验证](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [使用基于声明的身份验证的 SharePoint Online 中的远程身份验证](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
 - [Office 外接程序](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

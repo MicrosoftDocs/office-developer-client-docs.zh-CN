@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: Microsoft InfoPath 是作为组件对象模型 (COM) 应用程序而编写的，它将可编程性接口作为 COM 接口同时向外部自动化和表单模板脚本公开。
-ms.openlocfilehash: 09ba36b39e520629764bd57a623e8fb490a63a89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3351a0fee6e23de0785aa28b0970c6a90361f16
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774028"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389027"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>InfoPath 2003 兼容对象模型
 
@@ -29,15 +29,15 @@ InfoPath 安装的三个互操作程序集的文件命名为：
     
 本主题讨论通过 Microsoft.Office.Interop.InfoPath.SemiTrust 互操作程序集公开的对象模型，该程序集专门用来从 InfoPath 表单模板 (.xsn) 内编写和运行托管代码业务逻辑。 
   
-有关 Microsoft.Office.Interop.InfoPath 和 Microsoft.Office.Interop.InfoPath.Xml 程序集的信息，请参阅 [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/zh-CN/library/microsoft.office.interop.infopath.aspx) 和 [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/zh-CN/library/microsoft.office.interop.infopath.xml) 命名空间的文档。 
+有关 Microsoft.Office.Interop.InfoPath 和 Microsoft.Office.Interop.InfoPath.Xml 程序集的信息，请参阅 [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) 和 [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) 命名空间的文档。 
   
 ## <a name="important-installation-information"></a>重要安装信息
 
-默认情况下，InfoPath 安装程序的**典型**安装选项会在 C:\Program Files\Microsoft Office\Office14 文件夹中安装 Microsoft.Office.Interop.InfoPath.SemiTrust 和 Microsoft.Office.Interop.InfoPath.Xml 程序集的副本。 Microsoft.Office.Interop.InfoPath 和 Microsoft.Office.Interop.InfoPath.Xml 程序集也安装在全局程序集缓存 (GAC) 中，可从 C:\Windows\Assembly 文件夹查看其内容。 
+默认情况下，InfoPath 安装程序的“典型”**** 安装选项将 Microsoft.Office.Interop.InfoPath.SemiTrust 和 Microsoft.Office.Interop.InfoPath.Xml 程序集的副本安装到 C:\Program Files\Microsoft Office\Office14 文件夹中。Microsoft.Office.Interop.InfoPath 和 Microsoft.Office.Interop.InfoPath.Xml 程序集也会安装到全局程序集缓存 (GAC) 中，可从 C:\Windows\Assembly 文件夹中查看其内容。 
   
 如果未安装这些程序集，则应确认已正确安装 Microsoft InfoPath。 只要在运行安装程序之前安装了 .NET Framework 2.0 或更高版本，InfoPath 安装程序中的 **.NET 可编程性支持**选项就会设置为**从本机运行**，实现 InfoPath 的**典型**安装。 如果计算机上没有这些互操作程序集，则必须确认已安装 .NET Framework 2.0 或更高版本，然后从**控制面板**运行**添加或删除程序**并设置 **.NET 可编程性支持**选项为**从本机运行**。
   
-有关下载 .NET Framework 2.0 Redistributable 的信息，请参阅 [.NET Framework 2.0 Redistributable](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)。
+有关下载 .NET Framework 2.0 Redistributable 的信息，请参阅 [.NET Framework 2.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)。
   
 ## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间
 

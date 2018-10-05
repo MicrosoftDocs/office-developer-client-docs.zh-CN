@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b0e4a3b3-d1df-454d-b74c-b980b0b456f6
 description: 本文介绍如何使用 SharePoint Designer 2013 中创建简单的工作流。
-ms.openlocfilehash: d548cbc47585add2648396f4736e6ad36a00bcb5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bbefc5d30ccb508a24c32fe41e733e6e8187ecd9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779439"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388299"
 ---
 # <a name="create-a-project-server-workflow-for-demand-management"></a>创建 Project Server 工作流的需求管理
 
-本文介绍如何使用 SharePoint Designer 2013 中创建简单的工作流。 您可以导出到 Visio 2013 的工作流可视化和编辑，或设计 Project Server 2013 工作流中使用 Visio 2013 和导入 SharePoint Designer 2013 到 Project Web App 的出版物的设计。 有关 SharePoint 工作流平台和使用 Visio 2013 和 SharePoint Designer 2013 创建工作流的详细信息，请参阅 SharePoint 2013 开发人员文档中的[Workflows in SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx)文章。 
+本文介绍如何使用 SharePoint Designer 2013 中创建简单的工作流。 您可以导出到 Visio 2013 的工作流可视化和编辑，或设计 Project Server 2013 工作流中使用 Visio 2013 和导入 SharePoint Designer 2013 到 Project Web App 的出版物的设计。 有关 SharePoint 工作流平台和使用 Visio 2013 和 SharePoint Designer 2013 创建工作流的详细信息，请参阅 SharePoint 2013 开发人员文档中的[Workflows in SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx)文章。 
   
-有关准备 Project Server 工作流的信息，请参阅[开始： 设置并配置 SharePoint 2013 工作流管理器](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx)。
+有关准备 Project Server 工作流的信息，请参阅[开始： 设置并配置 SharePoint 2013 工作流管理器](https://msdn.microsoft.com/library/jj163276%28office.15%29.aspx)。
 
 <a name="pj15_CreateWorkflowSPD_General"> </a>
 
@@ -67,7 +67,7 @@ ms.locfileid: "19779439"
 
 ## <a name="creating-a-branching-workflow"></a>创建分支工作流
 
-您可以使用 SharePoint Designer 2013 创建 Project Server 工作流之前，必须配置工作流管理器客户端 1.0 服务用于 Project Server 2013 工作流活动。 有关如何配置工作流管理器客户端 1.0 的信息，请参阅 SharePoint Server 2013 开发人员文档中的[Workflows in SharePoint 2013](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx)文章。 
+您可以使用 SharePoint Designer 2013 创建 Project Server 工作流之前，必须配置工作流管理器客户端 1.0 服务用于 Project Server 2013 工作流活动。 有关如何配置工作流管理器客户端 1.0 的信息，请参阅 SharePoint Server 2013 开发人员文档中的[Workflows in SharePoint 2013](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx)文章。 
   
 下面的详细的过程包含相同的步骤，如[创建常规工作流](#pj15_CreateWorkflowSPD_General)部分中所示。 
   
@@ -77,7 +77,7 @@ ms.locfileid: "19779439"
 
 Project Server 工作流可以集成具有多个阶段和阶段中的需求管理过程。 因为工作流可以很复杂，您必须了解的业务要求，并仔细规划工作流。 对于简单示例，设计使用项目建议的估计的成本来确定是否接受建议的分支工作流。 如果估计的成本更高版本比 25000 美元，拒绝此建议;否则为接受建议，并创建项目。
     
-因为您可以使用 Visio 2013 和 SharePoint Designer 2013 来帮助设计和 Project Server 2013 中创建工作流，您可以更轻松地尝试与工作流可以使用 Project Server 2010。 本文中的示例工作流设计是[创建分支工作流](http://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx)文章 Project 2010 SDK 中相同。 您可以设计并使用 Project Web App 的测试实例的远程计算机上创建测试工作流 — 不需要直接在 Project Server 2013 计算机上创建工作流。 
+因为您可以使用 Visio 2013 和 SharePoint Designer 2013 来帮助设计和 Project Server 2013 中创建工作流，您可以更轻松地尝试与工作流可以使用 Project Server 2010。 本文中的示例工作流设计是[创建分支工作流](https://msdn.microsoft.com/library/a02cafdc-d881-4271-b446-d8b2cd456a52%28Office.15%29.aspx)文章 Project 2010 SDK 中相同。 您可以设计并使用 Project Web App 的测试实例的远程计算机上创建测试工作流 — 不需要直接在 Project Server 2013 计算机上创建工作流。 
     
 #### <a name="2-create-the-entities-that-your-workflow-requires"></a>2.创建工作流需要的实体。
 
@@ -138,7 +138,7 @@ Project Web App 中查看可用工作流阶段和容器，可用的企业自定�
 
 SharePoint Designer 2013 中基于文本的设计器中使用声明性语句来构造工作流。 您可以开始键入在橙色插入行以获取上下文相关的自动完成语句的工作流逻辑和步骤，也可以使用功能区的**工作流**选项卡上的**插入**组中的控件插入的逻辑和步骤。 
     
-1. 在 SharePoint Designer 2013 Backstage 视图中，选择**打开网站**。 例如，打开`http://ServerName/pwa`。 在**导航**窗格中，选择**工作流**。 然后，在功能区中，在**新建**组中的**工作流**选项卡上选择**网站工作流**。 对于此示例，命名为工作流分支工作流。 确保**平台类型**下拉列表中选择了**SharePoint 2013 工作流-Project Server** （参见图 5）。 
+1. 在 SharePoint Designer 2013 Backstage 视图中，选择**打开网站**。 例如，打开`https://ServerName/pwa`。 在**导航**窗格中，选择**工作流**。 然后，在功能区中，在**新建**组中的**工作流**选项卡上选择**网站工作流**。 对于此示例，命名为工作流分支工作流。 确保**平台类型**下拉列表中选择了**SharePoint 2013 工作流-Project Server** （参见图 5）。 
     
     **图 5. 创建 Project Server 网站工作流**
 
@@ -275,7 +275,7 @@ Project Web App 中创建的工作流，EPT，然后通过创建项目建议来�
 
 若要更改工作流，您可以创建或修改工作流控制的自定义域和创建或修改工作流阶段。 您可以使用 SharePoint Designer 2013 中添加条件、 操作、 循环和阶段，然后保存并重新发布工作流。 若要重复使用或保存工作流的备份，您可以将其导出到 Visio 2013 文件中。 
   
-您还可以创建或编辑 Visio 2013 中的工作流并将文件导入 SharePoint Designer 2013，以供 Project Web App。 若要使用的未修改的工作流，Project Web App 实例必须包含相同的原始的 Project Web App 实例中的工作流阶段属性。 有关使用 Visio 来帮助创建工作流的详细信息，请参阅[在 SharePoint Designer 2013 和 Visio 2013 中的工作流开发](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)。
+您还可以创建或编辑 Visio 2013 中的工作流并将文件导入 SharePoint Designer 2013，以供 Project Web App。 若要使用的未修改的工作流，Project Web App 实例必须包含相同的原始的 Project Web App 实例中的工作流阶段属性。 有关使用 Visio 来帮助创建工作流的详细信息，请参阅[在 SharePoint Designer 2013 和 Visio 2013 中的工作流开发](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx)。
   
 > [!NOTE]
 > 到 Project Web App 的不同实例导入 Visio 2013 文件时，阶段将具有不同的容器 Guid，即使阶段名称相同。 导入工作流后，您必须配置要使用特定于 Project Web App 实例的值的阶段和操作的属性。 
@@ -318,7 +318,7 @@ Project Web App 中创建的工作流，EPT，然后通过创建项目建议来�
   
    8. 在功能区中的**图表验证**组中，**进程**选项卡上选择**检查图表**。 修复所有错误，然后保存该绘图。 例如，名称从 Visio.vsdx 文件测试工作流。
     
-      有关修复工作流错误的信息，请参阅[Visio 2013 中的解决 SharePoint Server 2013 工作流验证错误](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx)。
+      有关修复工作流错误的信息，请参阅[Visio 2013 中的解决 SharePoint Server 2013 工作流验证错误](https://msdn.microsoft.com/library/jj163971%28v=office.15%29.aspx)。
     
 2. 打开 SharePoint Designer 2013，然后打开对于**分支工作流**的示例使用同一个 Project Web App 网站。 
     
@@ -359,10 +359,10 @@ Visio 2013 和 SharePoint Designer 一起提供了针对设计人员、 项目�
 ## <a name="see-also"></a>另请参阅
 
 - [Project Server 2013 体系结构](project-server-2013-architecture.md)
-- [入门：设置和配置 SharePoint 2013 工作流管理器](http://msdn.microsoft.com/en-us/library/jj163276%28office.15%29.aspx)
-- [了解如何在 SharePoint 2013 中打包和部署工作流](http://msdn.microsoft.com/en-us/library/jj819316%28office.15%29.aspx)
-- [SharePoint 2013 中的工作流](http://msdn.microsoft.com/en-us/library/jj163986%28office.15%29.aspx)
-- [Workflow development in SharePoint Designer 2013 and Visio 2013](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
-- [纠正 Visio 2013 中的 SharePoint Server 2013 工作流验证错误](http://msdn.microsoft.com/en-us/library/jj163971%28v=office.15%29.aspx)
-- [工作流和需求管理](http://msdn.microsoft.com/library/cf7433a3-a531-4467-ac0c-df0c5d6881ae%28Office.15%29.aspx)
+- [入门：设置和配置 SharePoint 2013 工作流管理器](https://msdn.microsoft.com/library/jj163276%28office.15%29.aspx)
+- [了解如何在 SharePoint 2013 中打包和部署工作流](https://msdn.microsoft.com/library/jj819316%28office.15%29.aspx)
+- [SharePoint 2013 中的工作流](https://msdn.microsoft.com/library/jj163986%28office.15%29.aspx)
+- [Workflow development in SharePoint Designer 2013 and Visio 2013](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx)
+- [纠正 Visio 2013 中的 SharePoint Server 2013 工作流验证错误](https://msdn.microsoft.com/library/jj163971%28v=office.15%29.aspx)
+- [工作流和需求管理](https://msdn.microsoft.com/library/cf7433a3-a531-4467-ac0c-df0c5d6881ae%28Office.15%29.aspx)
 

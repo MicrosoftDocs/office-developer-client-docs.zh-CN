@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 278a77f2-65ec-4281-b406-942cc416a476
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e7dc8c06fca48c5f7c124a1fdf2228ebeb9da450
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 610e9d396442f981b7bcbf126e3086e6885399d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569979"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388936"
 ---
 # <a name="pidtagfreebusycountmonths-canonical-property"></a>PidTagFreeBusyCountMonths 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含用于计算将其发布到公用文件夹的忙/闲数据范围的开始和结束日期值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22569979"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |类定义消息可传送  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的值必须大于或等于 0 且小于或等于 36。 这不是必需的属性。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22569979"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > 发布的用户或资源的可用性。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0fb1b803-f8b4-4d6d-8e2a-836daa98ac63
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5c3c8f121423cdd15d7f8e8beee80b667b29a09b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ee23e2f25370a253b914779b3bfd0ab82fd08c7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585519"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388495"
 ---
 # <a name="pidtagoriginalsentrepresentingsearchkey-canonical-property"></a>PidTagOriginalSentRepresentingSearchKey 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含搜索关键字的名义原始邮件已发送的消息用户。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22585519"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是原始表示邮件发件人的地址属性之一。 在对话的线程中使用它。
   
@@ -44,11 +44,11 @@ ms.locfileid: "22585519"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象在允许的操作。
     

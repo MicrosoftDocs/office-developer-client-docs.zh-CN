@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 33dc327b9e8609a5a1a8a24e131ce4ea1d1e55bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea4b90bf1190fd71701f82d43aaee384c7987ed0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387193"
 ---
 # <a name="pidtagrpcoverhttpproxyauthscheme-canonical-property"></a>PidTagRpcOverHttpProxyAuthScheme 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 代表要用于此配置文件的身份验证协议。
   
@@ -30,7 +30,7 @@ ms.locfileid: "22583902"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性可为基本身份验证或 NT LAN Manager (NTLM) 身份验证设置。 此属性的可能值如下所示。
   
@@ -43,15 +43,15 @@ ms.locfileid: "22583902"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 定义所使用的基本的数据结构中远程操作。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     

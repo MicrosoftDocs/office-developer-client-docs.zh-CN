@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c921d2c9eee69148713408ec2e2a5510a27011a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e712a4cc49541ee4330f479d7a03af323bdbc887
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582705"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390077"
 ---
 # <a name="pidtagoriginalsensitivity-canonical-property"></a>PidTagOriginalSensitivity 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含分配发件人的邮件的第一个版本的敏感度值，即之前正在转发或答复邮件。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22582705"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 为第一个邮件时的**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) 属性已提交，客户端应用程序应为相同的值设置该属性。 它应永远不会更改随后。
   
@@ -44,11 +44,11 @@ ms.locfileid: "22582705"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象在允许的操作。
     

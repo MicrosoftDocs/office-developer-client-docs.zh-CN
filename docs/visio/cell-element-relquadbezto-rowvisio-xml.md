@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
 description: 包含 x 坐标或 y 坐标的相对于形状的宽度和高度二次贝塞尔曲线的终结点或曲线相对于形状的宽度和高度的控制点 x 或 y 坐标。
-ms.openlocfilehash: 5f823e5930d3dad8bf6e20727e4b527493f89892
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 986ed0a5f6e79f13b92f2ede54361916d9681e17
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779852"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388670"
 ---
 # <a name="cell-element-relquadbezto-row-visio-xml"></a>单元格元素 （RelQuadBezTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779852"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

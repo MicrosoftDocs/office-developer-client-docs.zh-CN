@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
 description: 包含 x-或直线段终顶点的 y 坐标。
-ms.openlocfilehash: 284b315c156fed8ea3592d2c6825ff6b4bf4c279
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b7d8128cbef57c4dd9fb69d5b82e1c1c2ccef68
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779829"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386591"
 ---
 # <a name="cell-element-lineto-row-visio-xml"></a>单元格元素 （LineTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779829"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

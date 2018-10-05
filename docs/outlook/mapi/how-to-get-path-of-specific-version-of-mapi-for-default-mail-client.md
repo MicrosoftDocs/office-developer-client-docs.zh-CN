@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1992e34a684a6b5894963eae0c299b21c064578c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581606"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390273"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>获取默认邮件客户端的特定版本的 MAPI 路径
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 本主题演示如何获取 MAPI 的计算机上的默认邮件客户端使用的特定版本的路径的 c + + 中包括的代码示例。 MAPI 邮件客户端有一个选项以指定自定义的 DLL 的 MAPI 存根库应加载并调度 MAPI 呼叫到注册表中。 对于此自定义 DLL 设置的默认邮件客户端的注册表项下的默认邮件客户端的**HKLM\Software\Clients\Mail**项是**MSIComponentID**。 [FGetComponentPath](fgetcomponentpath.md)函数，通过 MAPI 存根库，导出 mapistub.dll，可以返回到自定义版本的 MAPI **MSIComponentID**注册表项所指定的路径。 
   
@@ -36,7 +36,7 @@ ms.locfileid: "22581606"
     
 5. 调用**FGetComponentPath**，指定的值， `{FF1D0740-D227-11D1-A4B0-006008AF820E}`，以获取版本的 Outlook 2007 中使用的 MAPI 的路径。
     
-请注意，以支持英语和非英语区域设置的 MAPI 本地化的副本，该代码示例读取**MSIApplicationLCID**和**MSIOfficeLCID**子项的值并调用**FGetComponentPath**，首先指定**MSIApplicationLCID**以及*szQualifier* ，然后再次指定**MSIOfficeLCID**作为*szQualifier* 。 支持非英语语言的邮件客户端的注册表项的详细信息，请参阅[设置 Up MSI 的快捷键 Your MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)。
+请注意，以支持英语和非英语区域设置的 MAPI 本地化的副本，该代码示例读取**MSIApplicationLCID**和**MSIOfficeLCID**子项的值并调用**FGetComponentPath**，首先指定**MSIApplicationLCID**以及*szQualifier* ，然后再次指定**MSIOfficeLCID**作为*szQualifier* 。 支持非英语语言的邮件客户端的注册表项的详细信息，请参阅[设置 Up MSI 的快捷键 Your MAPI DLL](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)。
   
 ```cpp
 // HrGetRegMultiSZValueA 

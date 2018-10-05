@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ad7e37e1-bd12-409f-87e5-ebc0c298a072
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 55aa8e47dda82995ca1d246f36c271ef06e66954
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4956ce33d00135c34193dec3df832c6878b2c6db
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580178"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385961"
 ---
 # <a name="pidlidreminderoverride-canonical-property"></a>PidLidReminderOverride 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定客户端是否应尊重**dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) 和**dispidReminderFileParam** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) 属性的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22580178"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 客户端可以使用默认值来代替**dispidReminderPlaySound**和**dispidReminderFileParam**属性的值。 
   
@@ -43,11 +43,11 @@ ms.locfileid: "22580178"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > 指定属性和电子邮件和其他对象提醒的交互模型。
     

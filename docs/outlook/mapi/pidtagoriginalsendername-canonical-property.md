@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 5e3b7764-b122-4405-be4f-7fec571c7dfc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 11f8df87dd9248a9d6061892bb0500274478646d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 521fb544152dcb903450ff7dbd05ecbac808afe0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579163"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391015"
 ---
 # <a name="pidtagoriginalsendername-canonical-property"></a>PidTagOriginalSenderName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一条消息，即之前正在转发或答复邮件的第一个版本的发件人的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22579163"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性是一条消息的原始发件人的地址属性的示例。 在首次提交邮件，客户端应用程序应将这些属性设置为**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) 属性的值。 当转发或答复邮件永远不会更改它。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22579163"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象在允许的操作。
     

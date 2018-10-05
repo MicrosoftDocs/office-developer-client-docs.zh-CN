@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 653bdf26988c46be5f866cfbda331510c5a54afd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dea709b457e28efef62718fc388621e01c4eb5bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575705"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387326"
 ---
 # <a name="pidtaglastmodificationtime-canonical-property"></a>PidTagLastModificationTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的日期和时间上次修改的对象或子对象。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22575705"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |消息时间  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性最初设置为相同的值的**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) 属性。 附件子对象可将其更新根据需要通过复制由本地文件系统维护的上次修改时间。 客户端应用程序直到第一个呼叫[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法可以设置该属性。 此后提供程序应在每个**IMAPIProp::SaveChanges**呼叫期间更新**操作**。 
   
@@ -42,15 +42,15 @@ ms.locfileid: "22575705"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 同步服务器和客户端之间的消息对象数据的句柄。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

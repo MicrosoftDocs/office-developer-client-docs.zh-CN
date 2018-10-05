@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 98643832-7861-385d-3a52-0060ea413e2e
 description: 指定形状数据的一个的属性。
-ms.openlocfilehash: 899b518f86979c831c0c05913420c7a62f0ea717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5e0c79d9439fb3800a277e039143060eec708b11
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779873"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390639"
 ---
 # <a name="cell-element-shape-data-section-visio-xml"></a>单元格 （Shape Data 内容） (Visio XML) 元素
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779873"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

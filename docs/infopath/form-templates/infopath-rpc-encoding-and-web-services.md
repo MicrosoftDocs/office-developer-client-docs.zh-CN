@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: Web 服务可以向描述 Web 服务的 Web 服务描述语言 (WSDL) 协定中的 Web 方法公开两种绑定样式中的一种：Document 或 RPC。
-ms.openlocfilehash: 01b75df42bce97d62ebb5e273588cb522e5e2a09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0eacf013c9cdf74f18f3de1d4412ca4ca165a960
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774006"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387676"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath、RPC 编码和 Web 服务
 
@@ -62,7 +62,7 @@ Web 服务可以向描述 Web 服务的 Web 服务描述语言 (WSDL) 协定中�
     
    ```
 
-有关详细信息，请在 http://support.microsoft.com/ 上搜索 Microsoft 知识库文章"如何：将当前凭据传递给 ASP.NET Web 服务"。
+有关详细信息，请在 https://support.microsoft.com/ 上搜索 Microsoft 知识库文章"如何：将当前凭据传递给 ASP.NET Web 服务"。
     
 ## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>在不使用 Visual Studio .NET 的情况下创建代理 Web 服务
 

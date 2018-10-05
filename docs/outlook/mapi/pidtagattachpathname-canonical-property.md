@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: add85bbf9c7608434be045bc30a11b8a28ccaa1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 05df7fe04f511de9310edc7a8ef09130e6354ad2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578407"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389167"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>PidTagAttachPathname 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含附件的完全限定路径和文件名。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22578407"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议附件子对象公开这些属性。 它们设置指示附件数据不包含在邮件，但在常见的文件服务器上可用。 这些属性所需引用连同任何**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 标志指示附件： **ATTACH_BY_REFERENCE**、 **ATTACH_BY_REF_RESOLVE**或**ATTACH_BY_REF_仅**。 
   
@@ -48,11 +48,11 @@ MAPI 仅适用于路径和文件名 ansi 字符集。 使用 OEM 字符集中的
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     

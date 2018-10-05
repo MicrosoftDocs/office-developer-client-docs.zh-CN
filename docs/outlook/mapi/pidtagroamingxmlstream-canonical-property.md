@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ce55b50e-3dbf-4690-9102-c08f35ada82e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e1d9a8bce2207529d1062f50a86547379c6255e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3e7ce1f810a1dd37cd4370ceb423b664d75878a2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569400"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387011"
 ---
 # <a name="pidtagroamingxmlstream-canonical-property"></a>PidTagRoamingXmlStream 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含任意 XML 流。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22569400"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Configuration  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含任意 XML 数据的流。 在邮件中的其他属性可能意味着要使用此属性中的特定架构。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22569400"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > 指定的位置和客户端和服务器配置数据，如共享的类别列表和工作时间的属性。
     

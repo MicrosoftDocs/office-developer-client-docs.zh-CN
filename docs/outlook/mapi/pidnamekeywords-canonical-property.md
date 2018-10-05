@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: caa337541b45c2cb602f0848769b3b07028ea0fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 90e5b370dace12dbe529465259b8551516fda491
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590538"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386367"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>PidNameKeywords 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含关键字或 message 对象的类别。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22590538"
 |数据类型：  <br/> |PT_MV_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 多字符串值，该值指定的类别的消息对象，在此属性多值字符串，每个字符串的长度必须少于 256。
   
@@ -43,15 +43,15 @@ ms.locfileid: "22590538"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > 指定的属性和允许对文档的操作。
     

@@ -8,26 +8,26 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 39b4474bcc6bd71993fb5dc42bb2bfc1bf9f5f48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d5ebb0e16138c3cc65ff6fd7c635e5498c9c1ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388901"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 验证调用进程具有读取访问权限指定范围的内存。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |mapiwin.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商。  <br/> |
+|标头文件：  <br/> |mapiwin.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商。  <br/> |
    
 ```cpp
 BOOL IsBadBoundedStringPtr(
@@ -52,7 +52,7 @@ BOOL IsBadBoundedStringPtr(
   
 调用进程不具有对所有字符，最多为字符串的 null 终止符的读取权限或最_cchMax_由指定的字符数多的读取访问权限时，返回的值将为非零。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IsBadBoundedStringPtr**函数等效于使用**IsBadStringPtr**。
   
@@ -60,5 +60,5 @@ BOOL IsBadBoundedStringPtr(
 
 
 
-[IsBadStringPtr](http://msdn.microsoft.com/en-us/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
+[IsBadStringPtr](https://msdn.microsoft.com/library/windows/desktop/aa366714%28v=vs.85%29.aspx)
 

@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bdc81d78927e530037c65ca7fd61d722cd96bab7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3c634defcad76755fc6604a23d2091bb21e15111
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581438"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391442"
 ---
 # <a name="implementing-iunknown-in-c"></a>使用 C 实现 IUnknown
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-C 中的[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)方法的实现都是非常类似于 c + + 实现的。 有的实现的两个基本步骤： 
+C 中的[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)方法的实现都是非常类似于 c + + 实现的。 有的实现的两个基本步骤： 
   
 1. 正在验证参数。
     
-2. 检查的接口对象支持的列表对请求的接口的标识符和返回 E_NO_INTERFACE 值或有效的接口指针。 如果返回的接口指针，实现还应调用[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)方法，以增加引用计数。 
+2. 检查的接口对象支持的列表对请求的接口的标识符和返回 E_NO_INTERFACE 值或有效的接口指针。 如果返回的接口指针，实现还应调用[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法，以增加引用计数。 
     
 **QueryInterface** C 中实现和 c + + 的主要区别是 C 版本中的其他第一个参数。 因为对象指针添加到参数列表中， **QueryInterface** C 实现必须具有比 c + + 实施的多个参数验证。 检查接口标识符、 增加引用计数，以及返回一个对象指针的逻辑应在两种语言相同。 
   
@@ -64,7 +64,7 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-类似于 c + + 实现 c **AddRef**方法的实现，而[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)方法的 C 实现可以获得更精细比 c + + 版本。 这是因为的许多功能所涉及释放对象可以并入 c + + 构造函数和对析构函数，并且 C 已没有这种机制。 所有这些功能必须包含**Release**方法。 此外，由于其他参数以及其显式 vtable 详细验证是所需的。 
+类似于 c + + 实现 c **AddRef**方法的实现，而[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法的 C 实现可以获得更精细比 c + + 版本。 这是因为的许多功能所涉及释放对象可以并入 c + + 构造函数和对析构函数，并且 C 已没有这种机制。 所有这些功能必须包含**Release**方法。 此外，由于其他参数以及其显式 vtable 详细验证是所需的。 
   
 下面的**AddRef**方法调用演示了一个典型的 C 实现状态对象。 
   

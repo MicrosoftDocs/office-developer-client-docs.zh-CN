@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 53fddc3f-e9d9-db76-6b84-11befdb23fb0
 description: Microsoft InfoPath 支持将表单中的格式文本框控件绑定到从 Web 服务收到的 XML 元素，以及通过 Web 服务将数据从格式文本框控件提交到 XML 元素。该元素必须遵循可扩展超文本标记语言 (XHTML) 格式。例如，名为 MyRichTextElement 的元素（包含格式文本）的架构将具有以下 XML 架构定义：
-ms.openlocfilehash: 07a7a3dbc0f054160adce54e316b01797feacd8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d10f4a8cedcff43d1c351068859aee0edf607c81
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774079"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391813"
 ---
 # <a name="rich-text-and-web-services"></a>格式文本和 Web 服务
 
@@ -21,18 +21,18 @@ Microsoft InfoPath 支持将表单中的“格式文本框”**** 控件绑定�
 <xsd:element name="MyRichTextElement"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3.org/1999/xhtml" processContents="lax" 
+            <xsd:any namespace="https://www.w3.org/1999/xhtml" processContents="lax" 
                 minOccurs="0" maxOccurs="unbounded"/> 
         </xsd:sequence> 
     </xsd:complexType> 
 </xsd:element>
 ```
 
-应使用包装节点包装 XHTML 元素，然后才能将“格式文本框”**** 控件与该元素绑定；此包装节点可属于任何命名空间。 包装节点可以如下所示： 
+应使用包装节点包装 XHTML 元素，然后才能将“格式文本框”**** 控件与该元素绑定；此包装节点可属于任何命名空间。包装节点看起来可能类似于： 
   
 ```xml
-<xhtmlNode xmlns="http:// someNamespace"> 
-    <div xmlns="http://www.w3.org/1999/xhtml">Your rich text here</div> 
+<xhtmlNode xmlns="https:// someNamespace"> 
+    <div xmlns="https://www.w3.org/1999/xhtml">Your rich text here</div> 
 </xhtmlNode>
 ```
 
@@ -55,9 +55,9 @@ public XmlNode getXhtml()
             XmlDocument document = new XmlDocument(); 
  
             // Create a wrapping node with the name of the rich text field. 
-            // The "http://someNameSpace" can be any arbitrary namespace 
+            // The "https://someNameSpace" can be any arbitrary namespace 
             XmlNode richNode = document.CreateNode 
-                        (XmlNodeType.Element, "MyRichTextElement", "http://someNameSpace"); 
+                        (XmlNodeType.Element, "MyRichTextElement", "https://someNameSpace"); 
  
             // Temporary XmlDocument 
             XmlDocument tempDocument = new XmlDocument(); 
@@ -69,7 +69,7 @@ public XmlNode getXhtml()
             catch (XmlException) 
             { 
                 // If the file does not exist or content is not valid XML 
-                tempDocument.LoadXml("<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"); 
+                tempDocument.LoadXml("<div xmlns=\"https://www.w3.org/1999/xhtml\"></div>"); 
             } 
  
             // Add the file content to the xml 
@@ -98,7 +98,7 @@ public void setXhtml(XmlNode xn)
             { 
                 // If nothing was submitted or the rich text field is empty, 
                 // create a DIV that references the XHTML namespace 
-                XmlElement div = document.CreateElement("div", "http://www.w3.org/1999/xhtml"); 
+                XmlElement div = document.CreateElement("div", "https://www.w3.org/1999/xhtml"); 
                 // Copy the node to our own XmlDocument 
                 document.AppendChild(div); 
             } 
@@ -106,7 +106,7 @@ public void setXhtml(XmlNode xn)
             { 
                 // If plain text is passed in, wrap it in a DIV 
                 // that references the XHTML namespace 
-                XmlElement div = document.CreateElement("div", "http://www.w3.org/1999/xhtml"); 
+                XmlElement div = document.CreateElement("div", "https://www.w3.org/1999/xhtml"); 
                 // Copy the text to the DIV. 
                 div.AppendChild(document.ImportNode(xn, true)); 
                 // Copy the node to our own XmlDocument 
@@ -160,6 +160,6 @@ public void setXhtml(XmlNode xn)
     
 15. 保存或发布表单。
     
-测试表单时，打开表单，输入一些格式文本内容，如图片、表格以及格式化文本。 单击功能区上的“提交”****，将格式文本内容存储在服务器上的 out.xml 文件中。 单击“视图”**** 选项卡上的“查询”****，然后单击表单上的“运行查询”**** 按钮。 “格式文本框”**** 控件应显示 out.xml 文件中的 XHTML 内容。 如果格式文本字段包含多行，则 Web 服务将仅接受第一行，并忽略其余行。 
+若要测试表单，请打开表单，输入一些格式文本内容，例如图片、表和带格式文本。在功能区上单击“提交”**** 以将格式文本内容存储在服务器上的 out.xml 文件中。在“视图”**** 选项卡上单击“查询”****，然后单击表单上的“运行查询”**** 按钮。“格式文本框”**** 控件应显示 out.xml 文件中的 XHTML 内容。如果格式文本域包含多个行，Web 服务将接受接受第一行，并忽略其余各行。 
   
 

@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: 了解如何使用 RequeryRecords 宏操作和数据宏筛选 Access 应用程序中的视图。
-ms.openlocfilehash: 9cd8c74b3949a0bb496798df663b1b42fb2868d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ce65ef0c04fe91334d00649810c608cdab2f310
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773490"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390406"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>通过在 Access 应用程序中使用宏来筛选视图
 
@@ -32,7 +32,7 @@ Access 应用程序中的默认列表视图，可以筛选的字段中包含的�
 - SharePoint 2013 开发环境
     
 > [!NOTE]
-> 有关设置 SharePoint 开发环境的详细信息，请参阅[设置 SharePoint 2013 的常规开发环境](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx)。 > 的有关获取 Access 2013 和 SharePoint 2013 的详细信息，请参阅[下载](http://msdn.microsoft.com/en-US/office/apps/fp123627)。 
+> 有关设置 SharePoint 开发环境的详细信息，请参阅[设置 SharePoint 2013 的常规开发环境](https://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx)。 有关获取 Access 2013 和 SharePoint 2013 的详细信息，请参阅[下载](https://msdn.microsoft.com/office/apps/fp123627)。 
   
 ## <a name="create-the-app"></a>创建应用程序
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
@@ -263,12 +263,12 @@ UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数�
     
 现在，我们已准备好自定义项的文本。 选择**启动应用程序**以在 web 浏览器中打开应用程序，然后选择自定义 FilterTasks 操作栏按钮。 显示随后 7 天内到期且或以前的任何任务。 如果应用程序包含没有紧急任务，则显示一条消息。 
   
-## <a name="conclusion"></a>结论
+## <a name="conclusion"></a>结束语
 
 您可以使用中的 UI 宏**RequeryRecords**宏操作筛选根据您选择的标准视图。 根据所需的行为，您可能要创建验证记录满足的条件，才能使用**RequeryRecords**宏操作的数据宏。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [面向 Access 2013 开发人员的新增功能](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
+- [面向 Access 2013 开发人员的新增功能](https://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
     
 

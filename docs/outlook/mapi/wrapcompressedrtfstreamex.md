@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4b7e59c9ffccb2e063962b2cc4947b4fa54757bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: af176c0ce327e6498a5d07f6d902c50f7323f813
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572716"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391729"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 解压缩是在压缩富文本格式 (RTF) 中，电子邮件的正文将指示记下解压缩后的 stream 的格式，（可选） 将记下解压缩后的流转换为其本机格式，并返回记下解压缩后的流或转换后的本机流。
   
@@ -26,8 +26,8 @@ ms.locfileid: "22572716"
 |||
 |:-----|:-----|
 |导出：  <br/> |msmapi32.dll  <br/> |
-|调用：  <br/> |客户端  <br/> |
-|通过实现：  <br/> |Outlook  <br/> |
+|调用者：  <br/> |客户端  <br/> |
+|实现者：  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT __stdcall WrapCompressedRTFStreamEx( 
@@ -68,11 +68,11 @@ MAPI_E_INVALID_PARAMETER
   
 - 如果**MAPI_NATIVE_BODY**标志结合在由*pWCSInfo*指向**RTF_WCSINFO**结构的**ulFlags**字段中的**MAPI_MODIFY**标志，则返回此。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 记下解压缩后的流和其格式，和 （可选） 的本机正文流，使您可以访问由解压缩流封装在压缩 RTF 电子邮件的正文返回**WrapCompressedRTFStreamEx** 。 本机正文流可以的 RTF、 纯文本或 HTML。 
   
-Microsoft Office Outlook 对象模型提供的**MailItem**对象和[MailItem.BodyFormat 属性 (Outlook)](http://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx)指示正文文本的格式的**Body**属性。 按照设计，不受信任的 Outlook 解决方案调用生成的 Outlook 安全 Guard 的安全对话框。 使用导出 MAPI 函数**WrapCompressedRTFStreamEx**允许使用 MAPI，而不是 Outlook 对象模型，并避免这些安全对话框的解决方案。 
+Microsoft Office Outlook 对象模型提供的**MailItem**对象和[MailItem.BodyFormat 属性 (Outlook)](https://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx)指示正文文本的格式的**Body**属性。 按照设计，不受信任的 Outlook 解决方案调用生成的 Outlook 安全 Guard 的安全对话框。 使用导出 MAPI 函数**WrapCompressedRTFStreamEx**允许使用 MAPI，而不是 Outlook 对象模型，并避免这些安全对话框的解决方案。 
   
 因为**MAPI\_NATIVE_BODY**标志不能组合与**MAPI\_修改** **ulFlags**字段中的标志**RTF\_WCSINFO**结构指向*pWCSInfo*，您只能访问本机在只读模式下的正文流。 若要访问本机正文流读/写模式，您应使用**WrapCompressedRTFStream**函数。 
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 7561112b-ca72-4c49-a8a0-cc1879a4e151
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8082b0b6d47a16a79f5e426375e20b17d22298d4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5b660b592e77279a4d60f3a036724341352c9b6a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586618"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390917"
 ---
 # <a name="pidtagmessageflags-canonical-property"></a>PidTagMessageFlags 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含指示的原点和消息的当前状态标志的位掩码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22586618"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是传输的同时发送和接收结束，具体取决于客户端应用程序或存储提供程序所涉及的不同值公开 nontransmittable message 属性。 此属性由客户端或消息存储提供程序创建和保存第一次，然后定期更新消息存储提供程序、 传输提供程序，和 MAPI 后台处理程序处理邮件消息时，其状态初始化更改。 
   
@@ -114,11 +114,11 @@ MSGFLAG_UNSENT
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

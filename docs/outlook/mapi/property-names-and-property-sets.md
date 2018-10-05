@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0272464d9a397f169b27aa15c80a17b49a3e9977
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa9d6afcaf1b360f37e8c8873c9d1a823fcd4888
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571827"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391652"
 ---
 # <a name="property-names-and-property-sets"></a>属性名称和属性集
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 每个命名属性的名称具有两个部分：
   
@@ -27,7 +27,7 @@ ms.locfileid: "22571827"
     
 - Unicode 字符串或 32 位数字值。 
     
-介绍了使用[MAPINAMEID](mapinameid.md)结构的命名属性的名称。 此结构包含属性集成员、 数字或字符串的格式，指定名称的成员和确定使用哪种格式的成员。 由于属性集的属性名称的一部分，它不是可选。 MAPI 定义了供客户端和服务提供商使用的多个属性集，但如果不合适现有属性集，可以定义一组新属性。 客户端和服务提供商可以通过调用[CoCreateGUID](http://msdn.microsoft.com/en-us/library/ms688568.aspx)函数来定义自己的属性集。 通常这些属性集创建自定义客户端应用程序。 
+介绍了使用[MAPINAMEID](mapinameid.md)结构的命名属性的名称。 此结构包含属性集成员、 数字或字符串的格式，指定名称的成员和确定使用哪种格式的成员。 由于属性集的属性名称的一部分，它不是可选。 MAPI 定义了供客户端和服务提供商使用的多个属性集，但如果不合适现有属性集，可以定义一组新属性。 客户端和服务提供商可以通过调用[CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx)函数来定义自己的属性集。 通常这些属性集创建自定义客户端应用程序。 
   
 MAPI 的属性集由以下常量表示：
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ddd9d3c0a61a3a2a585edd6c370285b2f6d424e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b4abef731541e308b2c2ebc6f4aaddf4458e257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593716"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388243"
 ---
 # <a name="imsgstoreadvise"></a>IMsgStore::Advise
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 注册接收影响消息存储库的指定事件的通知。
   
@@ -113,17 +113,17 @@ MAPI_E_NO_SUPPORT
   
 > 消息存储提供程序不支持的通知消息存储通过注册。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMsgStore::Advise**方法建立呼叫者之间的连接的建议接收器对象和消息存储库或消息存储库中的对象。 此连接用于将通知发送到通知接收器当一个或多个事件， _ulEventMask_参数中指定发生 advise 源对象。 当_lpEntryID_参数指向的有效条目标识符，advise 源是由此条目标识符标识的对象。 _LpEntryID_为 NULL，advise 源时消息存储库。 
   
 发送通知，消息存储提供程序或 MAPI 调用注册的通知接收器的[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法。 向**OnNotify**，通知结构参数之一包含介绍特定事件的信息。
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 您可以支持使用或不从 MAPI 帮助的通知。 MAPI 具有三个帮助服务提供商实现通知的支持对象方法： [IMAPISupport::Subscribe](imapisupport-subscribe.md)、 [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md)和[IMAPISupport::Notify](imapisupport-notify.md)。 如果您选择使用 MAPI 支持方法，调用**Advise**方法时调用**Subscribe**和释放_lpAdviseSink_指针。 
   
-如果您选择自己支持通知，呼叫通知接收器由_lpAdviseSink_参数保留一份此指针的[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)方法。 维护此副本，直到您[IMsgStore::Unadvise](imsgstore-unadvise.md)方法调用取消注册。 
+如果您选择自己支持通知，呼叫通知接收器由_lpAdviseSink_参数保留一份此指针的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法。 维护此副本，直到您[IMsgStore::Unadvise](imsgstore-unadvise.md)方法调用取消注册。 
   
 无论如何支持通知，分配给通知注册的非零值的连接数并返回_lpulConnection_参数中。 直到**Unadvise**已调用，并且已完成，则不释放此连接数。 
   
@@ -137,11 +137,11 @@ MAPI_E_NO_SUPPORT
   
 有关处理通知的详细信息，请参阅[处理通知](handling-notifications.md)。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI 使用**IMsgStore::Advise**方法注册整个邮件存储区上的通知。  <br/> |
    
@@ -155,7 +155,7 @@ MFCMAPI 示例代码，请参阅下表。
   
 [IMsgStore::Unadvise](imsgstore-unadvise.md)
   
-[通知](notification.md)
+[NOTIFICATION](notification.md)
   
 [IMsgStore : IMAPIProp](imsgstoreimapiprop.md)
 

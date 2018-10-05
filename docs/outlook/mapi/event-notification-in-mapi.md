@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 18ce10ad73ba769f0ecc0bd9e4f12096f4227e42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30d4ad5e0fc1ecdc4c8eb06f75d39e38dd481269
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594542"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389972"
 ---
 # <a name="event-notification-in-mapi"></a>MAPI 中的事件通知
 
@@ -59,6 +59,6 @@ ms.locfileid: "22594542"
   
 ![事件通知调用](media/amapi_51.gif "事件通知调用")
   
-（使用的 AdviseSink.h 和 AdviseSink.cpp 文件） 的 MFCMAPI **CAdviseSink**类实现所有呼叫**Advise**advise 接收器的对象。 有关 MFCMAPI 的详细信息，请参阅[MFCMAPI 用作代码示例](mfcmapi-as-a-code-sample.md)和[MFCMAPI](http://go.microsoft.com/fwlink/?LinkId=124154)。
+（使用的 AdviseSink.h 和 AdviseSink.cpp 文件） 的 MFCMAPI **CAdviseSink**类实现所有呼叫**Advise**advise 接收器的对象。 有关 MFCMAPI 的详细信息，请参阅[MFCMAPI 用作代码示例](mfcmapi-as-a-code-sample.md)和[MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154)。
   
 

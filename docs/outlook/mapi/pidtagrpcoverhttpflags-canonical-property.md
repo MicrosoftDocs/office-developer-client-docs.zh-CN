@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b36f71958528b25829b1ff85b29572b3590f9d4f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cf1f3b4d72426fb5f80decdc074a622b140657c8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594815"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388264"
 ---
 # <a name="pidtagrpcoverhttpflags-canonical-property"></a>PidTagRpcOverHttpFlags 规范属性
 
@@ -30,7 +30,7 @@ ms.locfileid: "22594815"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **PR_ROH_FLAGS**属性存储在邮件应用程序编程接口 (MAPI) 配置文件的全局配置文件部分中。 **PR_ROH_FLAGS**的值是一个位掩码，一个或多个以下标志组成。 
   
@@ -48,15 +48,15 @@ ms.locfileid: "22594815"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 定义所使用的基本的数据结构中远程操作。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     

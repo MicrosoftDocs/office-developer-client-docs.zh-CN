@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 82dcad38-d5fa-4892-91d9-1f3f25f1e600
 description: 定义用于确定行和弧组成 geometry 内容的格式和行为的属性的属性。
-ms.openlocfilehash: f7ac096206b9197d71691f485a7c5aafc08eb2c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebfdb4dc7809f8883143fdda39f873a36f7bf896
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779862"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389307"
 ---
 # <a name="cell-element-geometry-section-visio-xml"></a>单元格 （geometry 内容） (Visio XML) 元素
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779862"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

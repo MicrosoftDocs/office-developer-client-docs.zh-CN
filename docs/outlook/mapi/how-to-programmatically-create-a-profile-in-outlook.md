@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: 本主题介绍如何以编程方式通过向配置文件对象的 emsuid 部分添加 MAPI 属性来更新 Outlook 2016 中的配置文件。
-ms.openlocfilehash: fbd2dffc637cad022f78c9986eccd91a2c1fe4bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775118"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391050"
 ---
 # <a name="programmatically-create-a-profile-in-outlook"></a>在 Outlook 中以编程方式创建配置文件
 
@@ -25,7 +25,7 @@ ms.locfileid: "19775118"
 
 1. 确保正确配置 Outlook 2016 的属性。
     
-2. 使用[IMAPIProp](https://msdn.microsoft.com/zh-CN/library/cc815525.aspx)界面，转到 Outlook 配置文件部分。 
+2. 使用[IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx)界面，转到 Outlook 配置文件部分。 
     
    这在 Outlook 的 MAPI 中可能有困难，因为在 2010 及以上版本均不再设有全局配置文件部分。 要找到配置文件部分，需找到属性 PR_EMSMDB_SECTION_UID (0x3D150102)。 该值为配置文件部分的 GUID，采用二进制形式，后续步骤将使用该值。 您需要记住此值。 
     
@@ -316,10 +316,10 @@ Cleanup:
 
 ## <a name="use-mfcmapi-to-configure-outlook-profiles"></a>使用 MFCMAPI 配置 Outlook 配置文件
 
-[MFCMAPI](http://mfcmapi.codeplex.com)提供对 MAPI 存储的访问权限，以促进 Exchange 和 Outlook 问题的调查，并对 MAPI 开发提供开发者支持。 
+[MFCMAPI](https://mfcmapi.codeplex.com)提供对 MAPI 存储的访问权限，以促进 Exchange 和 Outlook 问题的调查，并对 MAPI 开发提供开发者支持。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MFCMAPI 创建 Outlook 配置文件](https://msdn.microsoft.com/zh-CN/library/office/mt723322.aspx)
+- [使用 MFCMAPI 创建 Outlook 配置文件](https://msdn.microsoft.com/library/office/mt723322.aspx)
   
 

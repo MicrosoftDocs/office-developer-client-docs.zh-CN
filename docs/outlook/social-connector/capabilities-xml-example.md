@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
 description: 本主题中的 XML 示例是一个 XML 字符串，它为社交网络调用 ISocialProvider::GetCapabilities 方法后，返回到 Outlook Social Connector (OSC)。 XML 演示如何 OSC 提供程序指定其功能和要求 OSC。
-ms.openlocfilehash: 5cafd6d29de8b4357e9e0ce6dab30b125f53b8ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53bd250432e7b27d984a846d206adc812c47898f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779204"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389543"
 ---
 # <a name="capabilities-xml-example"></a>功能 XML 示例
 
@@ -65,7 +65,7 @@ OSC 提供程序指定要显示其支持的身份验证和帐户配置的以下�
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
-<capabilities xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<capabilities xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <getFriends>true</getFriends>
   <cacheFriends>true</cacheFriends>
   <followPerson>true</followPerson>
@@ -81,8 +81,8 @@ OSC 提供程序指定要显示其支持的身份验证和帐户配置的以下�
   <dynamicContactsLookup>false</dynamicContactsLookup>
   <useLogonCached>false</useLogonCached>
   <hideRememberMyPassword>false</hideRememberMyPassword>
-  <createAccountUrl>http://contoso.com/createAccount</createAccountUrl>
-  <forgotPasswordUrl>http://contoso.com/forgotPassword</forgotPasswordUrl>
+  <createAccountUrl>https://contoso.com/createAccount</createAccountUrl>
+  <forgotPasswordUrl>https://contoso.com/forgotPassword</forgotPasswordUrl>
 </capabilities>
 
 ```

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 97387a82-8e40-4c76-818c-2229fac12e01
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4408bbc9461d11859292c1d4c356c2323598eb7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bee11c495d7f1ef21f9af70e6aa89f8c0d0f78b4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584224"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389601"
 ---
 # <a name="pidtaglistsubscribe-canonical-property"></a>PidTagListSubscribe 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 消息的列表订阅标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22584224"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 要生成列表订阅头字段中，客户端必须将这些属性的值设置为所需的值。 MIME 作者必须将这些属性的值复制到的列表订阅标头字段。
   
@@ -48,11 +48,11 @@ ms.locfileid: "22584224"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为消息对象。
     

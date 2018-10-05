@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d7fea7f92a315b9671d17c82a82d5d7d180f4bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584763"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391603"
 ---
 # <a name="writing-a-remote-viewer"></a>编写远程查看器
 
@@ -37,7 +37,7 @@ ms.locfileid: "22584763"
     
 5. 传递[IMAPISession::OpenEntry](imapisession-openentry.md)将调用表中的每一行的项标识符。 因为此接口从 MAPI 后台处理程序的过程上下文封送到客户端的过程上下文 — 与接口从通讯簿或消息通常获取不同存储提供程序 — 关于多线程是多个重要的问题。 
     
-6. 呼叫状态对象的[IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx)方法，传递 IID_IMAPIFolder 接口标识，以检索远程文件夹。 远程文件夹不是整个文件夹实现;它支持仅 folder 方法和属性的子集。 支持以下属性检索所需的方法， [IMAPIProp::GetProps](imapiprop-getprops.md)，之一：
+6. 呼叫状态对象的[IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx)方法，传递 IID_IMAPIFolder 接口标识，以检索远程文件夹。 远程文件夹不是整个文件夹实现;它支持仅 folder 方法和属性的子集。 支持以下属性检索所需的方法， [IMAPIProp::GetProps](imapiprop-getprops.md)，之一：
     
     |||
     |:-----|:-----|

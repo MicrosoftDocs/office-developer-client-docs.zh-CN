@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576251"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390959"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>设置的脱机状态外接程序
 
@@ -23,7 +23,7 @@ ms.locfileid: "22576251"
   
 ## <a name="on-connection-routine"></a>在连接例程
 
-每次加载加载项调用**[IDTExtensibility2.OnConnection 方法](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)**。 它是加载项的入口点，以便代码您放入`OnConnection`外接程序启动时将调用的函数。 在以下示例中，`OnConnection`函数调用`HrInitAddin`函数。 
+每次加载加载项调用**[IDTExtensibility2.OnConnection 方法](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)**。 它是加载项的入口点，以便代码您放入`OnConnection`外接程序启动时将调用的函数。 在以下示例中，`OnConnection`函数调用`HrInitAddin`函数。 
   
 ### <a name="cmyaddinonconnection-example"></a>CMyAddin::OnConnection() 示例
 

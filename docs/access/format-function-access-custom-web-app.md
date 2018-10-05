@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: 返回一个值，根据指定的模式设置格式。
-ms.openlocfilehash: 974b56ab8e6bc3f97c1931ba67ca9cd08c3511c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1739f87fd6e77c91aa66a64c0b7520fa6a641e95
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773468"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387795"
 ---
 # <a name="format-function-access-custom-web-app"></a>Format 函数 （访问自定义 web 应用程序）
 
@@ -36,13 +36,13 @@ ms.locfileid: "19773468"
 
 对于*格式*参数，则可以传递与任何以下模式匹配的字符串： 
   
-- [标准数字格式字符串](http://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx)
+- [标准数字格式字符串](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx)
     
-- [自定义数字格式字符串](http://msdn.microsoft.com/en-us/library/0c899ak8%28v=vs.110%29.aspx)
+- [自定义数字格式字符串](https://msdn.microsoft.com/library/0c899ak8%28v=vs.110%29.aspx)
     
-- [标准的日期和时间格式字符串](http://msdn.microsoft.com/en-us/library/az4se3k1%28v=vs.110%29.aspx)
+- [标准的日期和时间格式字符串](https://msdn.microsoft.com/library/az4se3k1%28v=vs.110%29.aspx)
     
-- [自定义日期和时间格式字符串](http://msdn.microsoft.com/en-us/library/8kb3ddd4%28v=vs.110%29.aspx)
+- [自定义日期和时间格式字符串](https://msdn.microsoft.com/library/8kb3ddd4%28v=vs.110%29.aspx)
     
 不能使用**Format**函数在 Access 2013 web 应用程序的以下方面： 
   

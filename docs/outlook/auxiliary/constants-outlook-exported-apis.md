@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: 本主题包含常量定义的 Outlook 导出 Api。
-ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564463"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386073"
 ---
 # <a name="constants-outlook-exported-apis"></a>（Outlook 导出的 Api） 的常量
 
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Miscellaneous 调度标识符
 
-Outlook 公开以下调度标识符 (dispid)，以便开发人员可以使用[idispatch:: Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)访问的相应属性或方法，或收听对应的事件。 
+Outlook 公开以下调度标识符 (dispid)，以便开发人员可以使用[idispatch:: Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke)访问的相应属性或方法，或收听对应的事件。 
   
 |**关联的常量**|**Dispid 值**|**说明**|**适用的接口**|
 |:-----|:-----|:-----|:-----|
@@ -51,6 +51,6 @@ Outlook 公开以下调度标识符 (dispid)，以便开发人员可以使用[id
 - [Outlook 导出的 API](outlook-exported-apis.md)
 - [关于 Outlook 导出的 API](about-apis-exported-by-outlook.md)
 - [确定某个 Outlook 项目是否已修改但未保存（Outlook 辅助参考）](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
-- [指定是否要在 Outlook（Outlook 辅助参考）中显示联系人的图片](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [指定是否要在 Outlook（Outlook 辅助参考）中显示联系人的图片](https://msdn.microsoft.com/library/office/gg262879.aspx)
 - [可用的事件和其 dispid （Outlook 导出的 Api）](available-events-and-their-dispids-outlook-exported-apis.md)
 

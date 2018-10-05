@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 29bedadf-903d-419d-804d-dc8bd92b745d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ac47f150ebdd39ed5f2abe4b30a2cac5768fd229
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2da826fe7ab9e4d7ca3eaaf0f9806193c47100d1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565128"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386675"
 ---
 # <a name="pidlidinternetaccountname-canonical-property"></a>PidLidInternetAccountName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定通过其发送的电子邮件的用户可见的电子邮件帐户名称。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22565128"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此字符串的格式是实现相关。 此属性在客户端可以用于确定哪个服务器定向邮件到，但是可选的和值没有任何意义到服务器。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22565128"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     

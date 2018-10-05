@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: fbf064201bf8d2733c3eea1e1a24f77b146a23c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 06f30b4856fc10127aec99975652e28a5e8dda30
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564568"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389083"
 ---
 # <a name="dnhier"></a>DNHIER
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-层次结构从服务器下载过程中[下载层次结构状态](download-hierarchy-state.md)，这完整的层次结构同步的信息。 此下载的过程使用 Microsoft Exchange 增量更改同步 (ICS)。 ICS 的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
+层次结构从服务器下载过程中[下载层次结构状态](download-hierarchy-state.md)，这完整的层次结构同步的信息。 此下载的过程使用 Microsoft Exchange 增量更改同步 (ICS)。 ICS 的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -51,7 +51,7 @@ _pstmReserved_
     
 _pxihc_
   
->  [输出]支持下载增量层次结构更改的**IExchangeImportHierarchyChanges**层次结构接口的指针。 **IExchangeImportHierarchyChanges**的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
+>  [输出]支持下载增量层次结构更改的**IExchangeImportHierarchyChanges**层次结构接口的指针。 **IExchangeImportHierarchyChanges**的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
     
 _cEntNew_
   

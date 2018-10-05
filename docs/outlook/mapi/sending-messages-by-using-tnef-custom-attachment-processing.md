@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da318b6f-128a-44b5-8357-a130022030a1
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 0c7cdf754b2a4b38516b1ac06074fdba9d2227f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9d154b26319f5ed72b1abd6aeef307d07a63bda
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577742"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388565"
 ---
 # <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>使用 TNEF 自定义附件处理发送邮件
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 发送邮件时，自定义附件处理：
   
@@ -41,7 +41,7 @@ ms.locfileid: "22577742"
     
 9. 通过调用[ITnef::OpenTaggedBody](itnef-opentaggedbody.md)方法来获取标记的消息文本。 从**IStream**接口，使用消息系统的附件模型编码和写出到邮件系统使用方法读取此标记的文本。 
     
-10. 调用[IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法以释放[ITnef](itnefiunknown.md)对象。 
+10. 调用[IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法以释放[ITnef](itnefiunknown.md)对象。 
     
 11. 编写邮件系统的附件模型通过在邮件系统的其余附件。
     

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: 有几种方法可以调试的 Outlook Social Connector (OSC) 提供程序：
-ms.openlocfilehash: ada439ca3b038ca9a0e849b47ff6a5f54e5016f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39deb7b6c0b11460826bdbf1957ffd8404d926e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779206"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386850"
 ---
 # <a name="debugging-a-provider"></a>调试提供程序
 
@@ -47,7 +47,7 @@ OSC 提供程序扩展性提供的调试 OSC 提供程序的功能。 若要调�
    
 ## <a name="fiddler"></a>Fiddler
 
-Fiddler 是线上调试工具检查的 API 调用从您的提供商发送到社交网络和社交网络发送到您的提供程序的 XML。 Fiddler 仅供以下位置下载： [Fiddler Web 调试代理](http://www.fiddler2.com/fiddler2/version.asp)。
+Fiddler 是线上调试工具检查的 API 调用从您的提供商发送到社交网络和社交网络发送到您的提供程序的 XML。 Fiddler 仅供以下位置下载： [Fiddler Web 调试代理](https://www.fiddler2.com/fiddler2/version.asp)。
   
 ## <a name="see-also"></a>另请参阅
 

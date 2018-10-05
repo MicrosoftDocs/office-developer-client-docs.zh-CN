@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: aaf48f2b-8c57-473c-8be4-f93619255eb8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b44d72a870f982de8b42de1331e1d6eddcb39b4c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eefed3fc54285b238e9a8acde1d63f6f591c08d4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564967"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391568"
 ---
 # <a name="pidtagviewdescriptorversion-canonical-property"></a>PidTagViewDescriptorVersion 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示视图描述符的版本。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22564967"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的值必须为 8。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22564967"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > 指定的位置和客户端和服务器配置数据，如共享的类别列表和工作时间的属性。
     

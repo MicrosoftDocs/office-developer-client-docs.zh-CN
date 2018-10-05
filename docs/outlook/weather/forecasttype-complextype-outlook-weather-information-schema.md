@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6301d6b6-34fa-af8d-e682-605d35cfdf47
 description: 定义有关的位置的预报的天气条件的参数。
-ms.openlocfilehash: 886c6cdbbeb9f07564854dc6a62cbcdad9703b62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75f20d7857fac85e1e95d23cf5ac826336648132
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779337"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390623"
 ---
 # <a name="forecasttype-complextype-outlook-weather-information-schema"></a>forecastType 复杂类型 （Outlook 天气信息架构）
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779337"
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**架构文件** <br/> |getweatherinfo.xsd  <br/> |
 |**扩展基** <br/> |无  <br/> |
    

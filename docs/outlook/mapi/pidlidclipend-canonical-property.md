@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b1b18db072cb7c62c10c8ee4ab79dd1d8754388f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 71a0a50f26b26d65ed34f38c2a0c7f930e6082a8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386066"
 ---
 # <a name="pidlidclipend-canonical-property"></a>PidLidClipEnd 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 单个实例 calendar 对象指定的结束日期和时间事件以协调世界时 (UTC)。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "22588018"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对于单实例 calendar 对象，它采用 UTC 指定的结束日期和时间的事件。 对于定期系列，此属性指定午夜采用 UTC，定期系列的最后一个实例的日期除非定期系列有无结束时，在其中案例值必须为 31 年 8 月 4500，11:59
   
@@ -45,11 +45,11 @@ ms.locfileid: "22588018"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

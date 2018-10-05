@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: caaa01982ff9e66fe7e17df4eaf37dcd25281d4e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d42b58bf4fd445f34064b179c873c8bc15b11b3f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569552"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391176"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>PidTagAgingPeriod 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 代表用于确定的项目之前的项目存档文件夹中保留的时间长度的时间单位数。
   
@@ -36,7 +36,7 @@ ms.locfileid: "22569552"
 |属性类型  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 由两个属性， **PR_AGING_PERIOD**和**[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)** 确定的项目之前的项目存档文件夹中保留的时间长度。 **PR_AGING_GRANULARITY**表示用于**PR_AGING_PERIOD**表示，确定此时间长度时的时间单位。 
   
@@ -56,15 +56,15 @@ ms.locfileid: "22569552"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 定义所使用的基本的数据结构中远程操作。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象允许的操作。
     

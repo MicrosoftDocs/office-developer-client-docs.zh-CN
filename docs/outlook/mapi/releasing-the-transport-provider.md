@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e0f37485-55c9-40f0-bc8c-48f7297f9f50
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: ea9656f9571777478d3db9a2613fbff5ddef0ee6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41d953db8e00ff52cd09a27e2f7550f9f1879321
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592288"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386220"
 ---
 # <a name="releasing-the-transport-provider"></a>释放传输提供程序
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 当 MAPI 或 MAPI 后台处理程序完成使用传输登录对象：
   
@@ -27,7 +27,7 @@ ms.locfileid: "22592288"
     
 2. 传输提供程序使状态对象无效通过调用[IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md)方法。 传输提供程序使失效的消息对象是否正在发送或接收在**TransportLogoff**呼叫的时间取决于已传递给**TransportLogoff**的标志。
     
-3. 传输提供程序调用支持对象的[IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法来从状态表中删除传输提供程序的行，从内部表中删除已设置[IMAPISupport 与任何唯一标识符 (Uid)::SetProviderUID](imapisupport-setprovideruid.md)方法。 它递减已知的登录对象上此提供商对象的计数。 如果计数为零时，MAPI 提供程序对象上调用[IXPProvider::Shutdown](ixpprovider-shutdown.md)方法和**版本**。 如果这是在此过程中使用此 DLL 的最后一个已知的提供程序对象，MAPI 会在以后对 DLL 调用**句**函数。 释放内存的 MAPI 支持对象，并支持对象**释放**方法返回。 
+3. 传输提供程序调用支持对象的[IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法来从状态表中删除传输提供程序的行，从内部表中删除已设置[IMAPISupport 与任何唯一标识符 (Uid)::SetProviderUID](imapisupport-setprovideruid.md)方法。 它递减已知的登录对象上此提供商对象的计数。 如果计数为零时，MAPI 提供程序对象上调用[IXPProvider::Shutdown](ixpprovider-shutdown.md)方法和**版本**。 如果这是在此过程中使用此 DLL 的最后一个已知的提供程序对象，MAPI 会在以后对 DLL 调用**句**函数。 释放内存的 MAPI 支持对象，并支持对象**释放**方法返回。 
     
 4. **TransportLogoff**方法，则返回 S_OK。 
     

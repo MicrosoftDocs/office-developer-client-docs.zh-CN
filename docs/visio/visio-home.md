@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: 查找开发解决方案和自定义 Visio 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
-ms.openlocfilehash: e55c5ab195cf8f17eae98dbe61154b6a8fa7651e
-ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
+ms.openlocfilehash: 7dbb12b76835641f9bf45bf78876fd667bacb19a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554160"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391190"
 ---
 # <a name="visio"></a>Visio
 
@@ -37,9 +37,9 @@ ms.locfileid: "22554160"
   
 ### <a name="downloads"></a>下载
   
-- [下载 Visio 2013 SDK](http://www.microsoft.com/download/details.aspx?id=36825)
+- [下载 Visio 2013 SDK](https://www.microsoft.com/download/details.aspx?id=36825)
 
-- [下载 Visio 2016 SDK](http://www.microsoft.com/download/details.aspx?id=51221)  
+- [下载 Visio 2016 SDK](https://www.microsoft.com/download/details.aspx?id=51221)  
 
 ### <a name="other-resources"></a>其他资源
   

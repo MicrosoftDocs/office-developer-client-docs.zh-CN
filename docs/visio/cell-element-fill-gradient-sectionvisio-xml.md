@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
 description: 包含颜色、 透明度和渐变填充的渐变光圈的位置。
-ms.openlocfilehash: c5366d1d3fcf5a4cd453bc62467353b940e89792
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c4cdf1f60f68748fd2500b2dec0b5a5ad553ff5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779826"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386353"
 ---
 # <a name="cell-element-fill-gradient-section-visio-xml"></a>单元格元素 （填充渐变部分） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779826"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml，母版页 #.xml、 页面 #.xml  <br/> |
    

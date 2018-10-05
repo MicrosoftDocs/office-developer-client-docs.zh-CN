@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ede62c792b1241a150c9d0a05adbe47fe0b6c0e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab246414f7caaf76f462d9b80e762fe614c77c21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567459"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390007"
 ---
 # <a name="pidtagruleactions-canonical-property"></a>PidTagRuleActions 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一的组与规则关联的操作。 
   
@@ -34,15 +34,15 @@ ms.locfileid: "22567459"
 |数据类型：  <br/> |PT_ACTIONS  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-操作表示为规则操作和属性值缓冲区包含打包为[[MS OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)中指定规则操作数据缓冲区结构。
+操作表示为规则操作和属性值缓冲区包含打包为[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)中指定规则操作数据缓冲区结构。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |ImportProcs.cpp  <br/> |PropCopyMore HrCopyActions  <br/> |这些函数演示如何将复制到另一个属性对于分析 PT_ACTIONS 属性。  <br/> |
    
@@ -50,11 +50,11 @@ MFCMAPI 示例代码，请参阅下表。
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > 处理传入的电子邮件服务器上。
     

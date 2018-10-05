@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 49e5e3f84d747210ba42870be5fc328c83bae883
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 25d1bb121df6470f5038a2106587e3f5b37f6bb7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565898"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386360"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>PidTagAutoForwarded 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 如果客户端请求 X-MS-Exchange-组织的自动，转发头字段中，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22565898"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规报告  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果此属性设置为 FALSE 或不使用，将创建没有 X-MS-Exchange-组织的自动，转发标头字段。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22565898"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 定义由 MS OXO 前缀文档描述的对象中的使用每个属性。
     
-[[MS OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为消息对象。
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 20788f40-a7a4-44f7-8e43-efd3a34e6b10
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cd5eb15a635f87741ad4ef6c837bbe540c2b7242
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e217a7f8ced3438908974cfaf11c0454d9856976
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386759"
 ---
 # <a name="pidlidnotewidth-canonical-property"></a>PidLidNoteWidth 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 以像素为单位指定显示一条消息窗口的宽度。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "22574018"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |粘滞便笺  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此值必须大于零。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22574018"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXONOTE]](http://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
+[[MS OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
 > 指定的属性和说明在允许的操作。
     

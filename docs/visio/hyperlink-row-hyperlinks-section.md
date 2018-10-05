@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e3c7ae27-2e54-a174-4fb3-d16093faf759
 description: 包含与形状相关联的单个超链接的信息。对于每个超链接，形状中都将包含一个与之对应的 Hyperlink 行。
-ms.openlocfilehash: 99295838f5d1860e3c34cf4e37866eb477fe81ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 36b9b62f248e4f5b9407156a79fa674dc2e8f14d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780419"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390252"
 ---
 # <a name="hyperlink-row-hyperlinks-section"></a>Hyperlink 行（“Hyperlinks”部分）
 
@@ -30,7 +30,7 @@ ms.locfileid: "19780419"
 |[ExtraInfo](extrainfo-cell-hyperlinks-section.md) <br/> |传递解析 URL 时要使用的信息的字符串。  <br/> |
 |[框架](frame-cell-hyperlinks-section.md) <br/> |Microsoft Office Visio 作为 ActiveX 容器中的活动文档打开时的目标框架名。默认值为空字符串。  <br/> |
 |[SortKey](sortkey-cell-hyperlinks-section.md) <br/> |确定超链接在快捷菜单上的显示顺序。  <br/> |
-|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |指定是否在新窗口中打开超链接。如果为 TRUE，则在新窗口中打开链接的页、文档或网站。默认值是 FALSE。  <br/> |
+|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |指定是否在新窗口中打开超链接。 如果为 true，则将在新窗口中打开链接的页面、 文档或网站。 默认值为 FALSE。  <br/> |
 |[Default](default-cell-hyperlinks-section.md) <br/> |形状或页的默认超链接。  <br/> |
 |[不可见](invisible-cell-hyperlinks-section.md) <br/> |指示超链接是否出现在快捷菜单上。  <br/> |
    

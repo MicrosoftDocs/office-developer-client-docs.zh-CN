@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 86b5d76cab1b85b38d76315cf7d905d1a07f0777
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 227ceb468c54cea98519057b2f837a4aee84820c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569062"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387214"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>PidTagOriginatorNonDeliveryReportRequested 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 如果邮件发件人的特定收件人请求原件报表，包含 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22569062"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性用于直接在邮件系统中处理未传送的消息。 在这种情况下，邮件还必须提供该**邮件已被阅读**([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) 属性设置为 FALSE。
   
@@ -42,7 +42,7 @@ ms.locfileid: "22569062"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     

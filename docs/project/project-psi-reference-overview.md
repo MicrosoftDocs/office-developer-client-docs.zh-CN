@@ -42,22 +42,22 @@ keywords:
 localization_priority: Normal
 ms.assetid: d3c33089-0cbe-48c3-bfc0-0be819ca4d73
 description: Project Server 接口 (PSI) 是用于开发与 Project Server 2013 本地集成的应用程序的 API。
-ms.openlocfilehash: 14ab540fd8a66cf18c576572fc0eff4df7c7d61c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58235e16afd208d0d4415e28ad200cc7ff62ac8b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779557"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390119"
 ---
 # <a name="project-psi-reference-overview"></a>项目 PSI 参考概述
 
 Project Server 接口 (PSI) 是用于开发与 Project Server 2013 本地集成的应用程序的 API。
   
-本文是记录的程序集、 命名空间，以及在 PSI 中的服务的概述。 [Project Server 2013 类类库和 web 服务引用](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)SDK 中包含所有 PSI 和 Project Server 2013 中的[Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx)命名空间的托管的代码文档。 若要开发 for Project Online 中的应用程序，必须使用**Microsoft.ProjectServer.Client**命名空间而非 PSI。 
+本文是记录的程序集、 命名空间，以及在 PSI 中的服务的概述。 [Project Server 2013 类类库和 web 服务引用](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)SDK 中包含所有 PSI 和 Project Server 2013 中的[Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx)命名空间的托管的代码文档。 若要开发 for Project Online 中的应用程序，必须使用**Microsoft.ProjectServer.Client**命名空间而非 PSI。 
 
-Project Server 2013 中的 PSI 具有双重接口。 Web 服务的 ASMX 接口定义的发现和 Web 服务描述语言 （disco 和 WSDL） 文件中`http://ServerName/ProjectServerName/_vti_bin/psi/`（例如，Projectdisco.aspx 和 Projectwsdl.aspx） 的虚拟目录。 您可以仅通过 Project Web App 的本地安装的 URL 访问 ASMX 接口 (例如， `http://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`。 若要在浏览器中显示的 web 服务，必须包括`?wsdl`URL 选项。 由于 ASMX 接口内置中使用 Windows Communication Foundation (WCF) 基础结构，Project Server web 服务的.asmx 文件不实际 PSI 的虚拟目录中存在。 
+Project Server 2013 中的 PSI 具有双重接口。 Web 服务的 ASMX 接口定义的发现和 Web 服务描述语言 （disco 和 WSDL） 文件中`https://ServerName/ProjectServerName/_vti_bin/psi/`（例如，Projectdisco.aspx 和 Projectwsdl.aspx） 的虚拟目录。 您可以仅通过 Project Web App 的本地安装的 URL 访问 ASMX 接口 (例如， `https://ServerName/ProjectServerName/_vti_bin/psi/project.asmx?wsdl)`。 若要在浏览器中显示的 web 服务，必须包括`?wsdl`URL 选项。 由于 ASMX 接口内置中使用 Windows Communication Foundation (WCF) 基础结构，Project Server web 服务的.asmx 文件不实际 PSI 的虚拟目录中存在。 
   
-WCF 服务接口定义的后端.svc 文件`http://ServerName:32843/GUID/PSI/`中的 SharePoint Web 服务应用程序虚拟目录。 Project Service 应用程序虚拟目录中的 URL 的 PSI 服务 (例如， `http://ServerName:32843/GUID/PSI/project.svc`) 包括.svc 文件。 但是，不能直接用于后端 URL 设置 WCF 服务引用。 若要开发应用程序或使用 PSI 的 WCF 服务的组件，您可以使用代理程序集或代理文件。 Project Server 2013 中的 Project 2013 SDK 下载包括用于 WCF 服务的代理文件，并脚本来获取更新的 WCF 代理文件并将这些文件编译为代理程序集的较新的 Project Server 构建。
+WCF 服务接口定义的后端.svc 文件`https://ServerName:32843/GUID/PSI/`中的 SharePoint Web 服务应用程序虚拟目录。 Project Service 应用程序虚拟目录中的 URL 的 PSI 服务 (例如， `https://ServerName:32843/GUID/PSI/project.svc`) 包括.svc 文件。 但是，不能直接用于后端 URL 设置 WCF 服务引用。 若要开发应用程序或使用 PSI 的 WCF 服务的组件，您可以使用代理程序集或代理文件。 Project Server 2013 中的 Project 2013 SDK 下载包括用于 WCF 服务的代理文件，并脚本来获取更新的 WCF 代理文件并将这些文件编译为代理程序集的较新的 Project Server 构建。
   
 Project Service 应用程序目录名称是一个 GUID 值，该值与相同的本地 Project Web App 实例的 GUID。 在**Internet 信息服务 (IIS) 管理器**窗口中，展开**SharePoint Web 服务**节点，选择 GUID 目录名，，然后选择要复制的**虚拟路径**值的**高级设置**。 
   
@@ -73,13 +73,13 @@ Project Service 应用程序目录名称是一个 GUID 值，该值与相同的�
 ### <a name="using-the-psi-reference"></a>使用 PSI 引用
 <a name="pj15_PSIRefOverview_Using"> </a>
 
-PSI 对象模型非常大，并且许多类和成员仅供内部使用。 因此，可以是令人费解的[Project Server 2013 类类库和 web 服务引用](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)中查找所需的主题。 将用于开发的参考主题大部分是以下组中：
+PSI 对象模型非常大，并且许多类和成员仅供内部使用。 因此，可以是令人费解的[Project Server 2013 类类库和 web 服务引用](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)中查找所需的主题。 将用于开发的参考主题大部分是以下组中：
   
 - **主要类的方法：** 在 PSI 中的每个服务包括主类，该类命名为服务的名称。 例如，**资源**服务包含一些[资源](https://msdn.microsoft.com/library/WebSvcResource.Resource.aspx)类，这是[WebSvcResource](https://msdn.microsoft.com/library/WebSvcResource.aspx)命名空间中。 要查看的**资源**类中可用的方法列表，请展开内容窗格中的类节点，然后选择**资源方法**主题。 
     
 - **DataRow 属性：** 有许多主类方法使用或返回**数据集**。 **DataSet**中的每个**DataTable**对象包含一个或多个**DataRow**对象中的数据。 在大多数情况下，您需要查看只有一行属性，不是所有的**数据集**、 **DataTable**或**DataRow**类的其他成员。 例如， **ResourceAssignmentDataSet**类包含子类**ResourceAssignmentDataTable**和[ResourceAssignmentDataSet.ResourceAssignmentRow](https://msdn.microsoft.com/library/WebSvcResource.ResourceAssignmentDataSet.ResourceAssignmentRow.aspx)类。 要查看的位于**ResourceAssignmentRow**类的属性的列表，请展开内容窗格中的类节点，然后选择**ResourceAssignmentDataSet.ResourceAssignmentRow 属性**主题。 
     
-除了服务命名空间， [Project Server 2013 类类库和 web 服务引用](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)的主题链接到的第三方解决方案的开发中使用的三个 Project Server 程序集的本地安装。 我们提供这些程序集仅最少量文档。 PSI 引用文档的主要类和 23 公共服务中的成员。 六个 PSI 服务是仅，供内部使用，且未进行归档。 
+除了服务命名空间， [Project Server 2013 类类库和 web 服务引用](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)的主题链接到的第三方解决方案的开发中使用的三个 Project Server 程序集的本地安装。 我们提供这些程序集仅最少量文档。 PSI 引用文档的主要类和 23 公共服务中的成员。 六个 PSI 服务是仅，供内部使用，且未进行归档。 
   
 > [!NOTE]
 > 从 Project Server 程序集和服务，可以单独使用客户端对象模型 (CSOM) 中的类。 您可以从 Project Server 计算机上，在远程开发环境中使用**Microsoft.ProjectServer.Client**命名空间和开发与 Project Online 或内部部署安装 Project Server 的集成的应用程序。 但是，CSOM 包含完整的 PSI 的功能的子集。 CSOM 使开发 Project Server 集成的最常见方案。 有关详细信息，请参阅[What the CSOM does and 不可实现的操作](what-the-csom-does-and-does-not-do.md)并[Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) 。 
@@ -90,7 +90,7 @@ PSI 对象模型非常大，并且许多类和成员仅供内部使用。 因此
 - Microsoft.Office.Project.Server.Library.dll
 - Microsoft.Office.Project.Server.Workflow.dll
     
-对 PSI 服务命名空间具有为 PSI 代理程序集，ProjectServerServices.dll，生成文档以便创建的任意名称。 在 PSI 引用中，每个服务命名空间具有占位符名称 （例如， _[项目 web 服务]_） 和 web 引用 (如`http://ServerName/ProjectServerName/_vti_bin/psi/Project.asmx?wsdl`)。 
+对 PSI 服务命名空间具有为 PSI 代理程序集，ProjectServerServices.dll，生成文档以便创建的任意名称。 在 PSI 引用中，每个服务命名空间具有占位符名称 （例如， _[项目 web 服务]_） 和 web 引用 (如`https://ServerName/ProjectServerName/_vti_bin/psi/Project.asmx?wsdl`)。 
   
 ## <a name="project-server-assemblies-and-namespaces"></a>Project Server 程序集和命名空间
 <a name="pj15_PSIRefOverview_Assemblies"> </a>
@@ -102,7 +102,7 @@ PSI 对象模型非常大，并且许多类和成员仅供内部使用。 因此
   
 当 for Project Online 进行开发，您可以使用仅 CSOM 访问 Project Server 功能。 您没有对 PSI 服务或其他 Project Server 程序集的访问。
   
-[Project Server 2013 类类库和 web 服务引用](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)psi 包括可从以下程序集的命名空间： 
+[Project Server 2013 类类库和 web 服务引用](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)psi 包括可从以下程序集的命名空间： 
   
 - **Microsoft.Office.Project.Server.Library.dll**该程序集包含一个归档的命名空间和三个未归档的命名空间，，如下所示： 
     
@@ -250,7 +250,7 @@ PSI 的 WCF 服务和 Project Server 2013 的相同的 ASMX web 服务的一组�
   
 15. **OData**报告表和视图提供内部的**OData**接口。 可通过后端**ProjectServiceApplication** URL 仅对**OData**服务的访问。 PSI 中的专用**OData**服务提供了一种方法， **ODataClient.ProcessOdataMessage**，Project Server 内部使用处理请求的报表数据。 HTTP 请求穿过前端**ProjectData**服务。 
     
-    有关**ProjectData**服务和 OData 协议用于读取报表数据的信息，请参阅[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)。
+    有关**ProjectData**服务和 OData 协议用于读取报表数据的信息，请参阅[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/library/office/jj163015.aspx)。
     
 16. **P12Upgrade**提供用于 Project Server 2013 安装程序以将 Office Project Server 2007 安装升级的内部方法。 访问**P12Upgrade**服务位于只能通过**ProjectServiceApplication** URL。 **P12Upgrade**方法不支持第三方开发。 
     
@@ -309,6 +309,6 @@ PSI 的 WCF 服务和 Project Server 2013 的相同的 ASMX web 服务的一组�
 - [PSI 执行和不执行的操作](what-the-psi-does-and-does-not-do.md)   
 - [在项目中的基于 ASMX 的代码示例的先决条件](prerequisites-for-asmx-based-code-samples-in-project.md)   
 - [在项目中的基于 WCF 的代码示例的先决条件](prerequisites-for-wcf-based-code-samples-in-project.md)   
-- [.NET Framework 开发人员中心](http://msdn.microsoft.com/en-us/netframework/aa496123.aspx)
+- [.NET Framework 开发人员中心](https://msdn.microsoft.com/netframework/aa496123.aspx)
     
 

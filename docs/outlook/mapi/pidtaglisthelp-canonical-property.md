@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b523277a3865e62e8ed95883213b28d2155ffb54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 588747205ee3922fef7b107dc024f074a6ee527e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594794"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387207"
 ---
 # <a name="pidtaglisthelp-canonical-property"></a>PidTagListHelp 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "22594794"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要生成列表帮助头字段，客户端必须将**PR_LIST_HELP**或相关联的属性的值设置为所需的值。 MIME 作者必须将此值复制到列表帮助标头字段。 
   
@@ -48,11 +48,11 @@ ms.locfileid: "22594794"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为消息对象。
     

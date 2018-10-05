@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 394e1430-04d6-4d61-be13-eb695309fa73
 description: 本主题介绍 POP3 BLOB 值，该值代表 POP3 帐户，以确定已下载或删除该帐户的消息的消息下载历史记录的结构。
-ms.openlocfilehash: ffed3178e4e8b45f17fc335575a7febd77d40902
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44a799f6b6fbe2a2841522c18405149a470b0236
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774418"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389006"
 ---
 # <a name="parsing-the-message-download-history-for-a-pop3-account"></a>分析 POP3 帐户的邮件下载历史记录
 
@@ -26,7 +26,7 @@ Outlook 邮局协议 (POP) 提供程序允许用户检索并在其本地设备�
   
 若要获取的收件箱邮件下载历史记录：
   
-- 按照中[查找邮件下载历史记录 POP3 帐户](locating-the-message-download-history-for-a-pop3-account.md)以查找[PidTagAttachDataBinary](http://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx)属性，其中包含代表 POP3 帐户的消息历史记录二进制大型对象 (BLOB) 的步骤。 
+- 按照中[查找邮件下载历史记录 POP3 帐户](locating-the-message-download-history-for-a-pop3-account.md)以查找[PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx)属性，其中包含代表 POP3 帐户的消息历史记录二进制大型对象 (BLOB) 的步骤。 
     
 - 阅读本主题，其中介绍 BLOB 的结构，并显示了示例标识的已下载或删除的 POP3 帐户的收件箱邮件的 BLOB。
 
@@ -91,6 +91,6 @@ POP BLOB 结构，如表 1 中所述开头**版本**和**计数**后, 跟**计�
 
 - [管理 POP3 帐户的邮件下载](managing-message-downloads-for-pop3-accounts.md)    
 - [查找一个 POP3 帐户的消息下载历史记录](locating-the-message-download-history-for-a-pop3-account.md)    
-- [分析 POP3 UIDL 历史记录](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
+- [分析 POP3 UIDL 历史记录](https://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
     
 

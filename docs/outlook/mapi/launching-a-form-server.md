@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 87299ce4335492a744dd4ee965b4f8b85bcedc84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dec8706ba00356660ec82c25e0213ef3e638691d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564890"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387725"
 ---
 # <a name="launching-a-form-server"></a>启动表单服务器
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 从持久存储加载表单时发生的交互非常系列 (即，从表单库) 显示一条消息，如下所示：
   
@@ -29,7 +29,7 @@ ms.locfileid: "22564890"
     
 3. 窗体管理器从相应的表单库加载的窗体服务器。 如果未安装了目标邮件的窗体服务器，则窗体管理器安装窗体的可执行文件，以及。
     
-4. 窗体管理器来获取的窗体对象在窗体对象上调用[IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) [IMAPIForm: IUnknown](imapiformiunknown.md)和[IPersistMessage: IUnknown](ipersistmessageiunknown.md)接口。 
+4. 窗体管理器来获取的窗体对象在窗体对象上调用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) [IMAPIForm: IUnknown](imapiformiunknown.md)和[IPersistMessage: IUnknown](ipersistmessageiunknown.md)接口。 
     
 5. 窗体管理器调用[IPersistMessage::Load](ipersistmessage-load.md)邮件与网站和邮件接口从查看器对象。 
     

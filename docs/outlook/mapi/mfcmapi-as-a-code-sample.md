@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b4d46dc8a84b52605d09a694e6873cb3813ae5b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d72c224db8b3ae4bb6fee3d34f73d9949cda6b8d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578113"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391657"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI 作为的代码示例
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 MFCMAPI 示例使用消息 API 来提供对通过图形用户界面的 MAPI 存储的访问。 下载此示例之后，您可以使用的源文件要检查的许多 MAPI 接口和引用的示例使用情况。 有关详细信息，请参阅[MAPI 接口](mapi-interfaces.md)。
   
@@ -27,7 +27,7 @@ MFCMAPI 示例使用消息 API 来提供对通过图形用户界面的 MAPI 存�
    
 ### <a name="to-download-mfcmapi"></a>若要下载 MFCMAPI
   
-1. 在[MFCMAPI](http://codeplex.com/MFCMAPI)页上，单击**源代码**选项卡。 
+1. 在[MFCMAPI](https://codeplex.com/MFCMAPI)页上，单击**源代码**选项卡。 
     
 2. 在**最近的签入**下的最新的生成单击**下载**。 
     

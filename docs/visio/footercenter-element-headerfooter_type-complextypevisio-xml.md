@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c2a720cc-544b-f923-5bec-67da31507444
 description: 包含文档页脚的中心部分显示的文本字符串。
-ms.openlocfilehash: d164263c93775dcb8baea80781a876fb1caec39a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 931dcd60604adb033fb5334e6fc7fdffe3a8193c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780289"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387424"
 ---
 # <a name="footercenter-element-headerfootertype-complextype-visio-xml"></a>FooterCenter 元素 （HeaderFooter_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780289"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2dcd9ff3-f380-48c7-ae9e-d4c717a9e41f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 35d67721537a241426afc17ec162b58edc638051
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8f7f41ed0d47efcedf7f32e0ecb19c184bb4fc91
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588431"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385989"
 ---
 # <a name="pidtagread-canonical-property"></a>PidTagRead 规范属性
 
@@ -38,11 +38,11 @@ ms.locfileid: "22588431"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > 包含允许的操作的核心 table 对象。
     

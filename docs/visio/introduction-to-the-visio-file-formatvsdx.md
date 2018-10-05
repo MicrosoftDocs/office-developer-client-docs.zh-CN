@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: 了解 Visio 2013 中的新文件格式浏览以编程方式使用 Visio 2013 文件格式的一些高级概念，并创建一个简单的控制台应用程序检查 Visio 2013 文件。
-ms.openlocfilehash: aa3497af7c467c8f51ab80ab82071776568b4978
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4efa90ee513def005653f4f8717b0149de1cdc3d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780463"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389363"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Visio 文件格式 (.vsdx) 简介
 
@@ -50,7 +50,7 @@ Visio 2013 为 Visio 取代了 Visio 二进制文件格式 (.vsd) 和 Visio XML 
 Visio 2013 文件格式使用开放式装箱约定 (OPC)，它定义存储一起使用的一些 sort─for 示例中，一个 ZIP 文件的容器的相关资源的应用程序数据的结构化的方法。 在基本级别，Visio 2013 文件实际上是包含其他类型的文件的 ZIP 容器。 实际上，您可以在 Visio 2013 为.vsdx 文件中保存绘图、 重命名的文件扩展名为"\*.zip"在 Windows 资源管理器，然后打开该文件的 like 文件夹以查看内的内容。
   
 > [!NOTE]
->  本文包含简要概述的开放打包约定。 您可以找到更多详细的其他文章中的约定的范围： > 有关自己的开放打包约定的详细信息，请参阅[OPC: 新标准打包您的数据](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx)。 > 的开放打包约定以及在 Microsoft Office 文件中的使用它们的详细信息，请参阅[Essentials 的开放打包约定](http://msdn.microsoft.com/en-us/library/ee361919.aspx)和[介绍 Office (2007) Open XML 文件格式](http://msdn.microsoft.com/en-us/library/aa338205.aspx)。 
+>  本文包含简要概述的开放打包约定。 您可以找到更多详细的其他文章中的约定的范围： > 有关自己的开放打包约定的详细信息，请参阅[OPC: 新标准打包您的数据](https://msdn.microsoft.com/magazine/cc163372.aspx)。 > 的开放打包约定以及在 Microsoft Office 文件中的使用它们的详细信息，请参阅[Essentials 的开放打包约定](https://msdn.microsoft.com/library/ee361919.aspx)和[介绍 Office (2007) Open XML 文件格式](https://msdn.microsoft.com/library/aa338205.aspx)。 
   
 ### <a name="packages-and-package-parts"></a>包和包部件
 
@@ -134,7 +134,7 @@ XML 绘图格式和 Visio 2013 文件格式的最大区别是打包。 像普通
 ## <a name="developer-scenarios-for-working-with-the-visio-2013-file-format"></a>使用 Visio 2013 文件格式的开发人员方案
 <a name="vis15_IntroVSDX_Scenarios"> </a>
 
-如上所述，Visio 2013 文件格式将利用如 ZIP 文件和 XML 存储数据的几种充分理解的技术。 操作绘图文件级别的 Visio 2013，解决方案只需使用.NET Framework 命名空间和类与使用 ZIP 文件或 XML，如[System.IO.Packaging](http://msdn.microsoft.com/en-us/library/system.io.packaging%28v=vs.110%29.aspx)或[System.Xml](http://msdn.microsoft.com/en-us/library/system.xml%28v=vs.110%29.aspx)关联。
+如上所述，Visio 2013 文件格式将利用如 ZIP 文件和 XML 存储数据的几种充分理解的技术。 操作绘图文件级别的 Visio 2013，解决方案只需使用.NET Framework 命名空间和类与使用 ZIP 文件或 XML，如[System.IO.Packaging](https://msdn.microsoft.com/library/system.io.packaging%28v=vs.110%29.aspx)或[System.Xml](https://msdn.microsoft.com/library/system.xml%28v=vs.110%29.aspx)关联。
   
 开发人员的 Visio 2013 文件格式的主要好处是，您可以读取和写入到 Visio 2013 文件不自动 Visio 客户端应用程序。 您可以使用 Visio 2013 文件格式的考虑作为开发人员某些方案包括：
   
@@ -284,12 +284,12 @@ XML 绘图格式和 Visio 2013 文件格式的最大区别是打包。 像普通
 
 关于 Visio 2013 文件格式、 开放打包约定或如何以编程方式与 Visio 2013or Office OpenXML 文件的详细信息，请参阅以下资源：
   
-- [面向开发人员的 Visio](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [面向开发人员的 Visio](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [OPC： 打包您的数据的新标准](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx)。
+- [OPC： 打包您的数据的新标准](https://msdn.microsoft.com/magazine/cc163372.aspx)。
     
-- [开放打包约定的基础知识](http://msdn.microsoft.com/en-us/library/ee361919.aspx)
+- [开放打包约定的基础知识](https://msdn.microsoft.com/library/ee361919.aspx)
     
-- [介绍 Office (2007) Open XML 文件格式](http://msdn.microsoft.com/en-us/library/aa338205.aspx)
+- [介绍 Office (2007) Open XML 文件格式](https://msdn.microsoft.com/library/aa338205.aspx)
     
 

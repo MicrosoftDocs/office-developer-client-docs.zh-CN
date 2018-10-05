@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5b357a068249b12468be52f8782f646f394e4060
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4984055d370f3f8ab617b11b2d834ba277ef105a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567823"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391393"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>PidTagAdditionalRenEntryIds 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的条目 Id 的某些特殊文件夹。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22567823"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此多值属性的前五个条目于以下特殊文件夹，如果存在存储中：
   
@@ -52,19 +52,19 @@ ms.locfileid: "22567823"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOSFLD]](http://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
 > 指定的属性和用于创建和邮箱中查找的特殊文件夹的操作。
     
-[[MS OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
 > 标识，并将标记旨在到非可靠来源欺骗透露敏感信息 （如密码和其他个人信息） 的收件人的电子邮件。
     
-[[MS OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > 允许处理的允许/阻止列表，并确定的垃圾邮件。
     
@@ -89,5 +89,5 @@ Mapidefs.h
 [将 MAPI 名称映射到规范属性名称](mapping-mapi-names-to-canonical-property-names.md)
 
 
-[关于存储区 API](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
+[关于存储区 API](https://msdn.microsoft.com/library/aa192884.aspx)
 

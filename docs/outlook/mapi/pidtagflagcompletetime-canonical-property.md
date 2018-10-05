@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6e1c2783abd186146fe738a3396e098711893d3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5dd0d4c19f30e189218b1aeddd333df58e42102a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583979"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387130"
 ---
 # <a name="pidtagflagcompletetime-canonical-property"></a>PidTagFlagCompleteTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定以协调世界时 (UTC) 的消息对象已标记为已完成的日期和时间。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22583979"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果未标记完成的消息对象中删除此属性。 时间最小分辨率必须的分钟 （值必须是 600000000 的倍数）。 此属性必须存在如果对象是会议相关的对象，并且它应不存在于 task 对象。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22583979"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定的属性和与标记的操作。
     

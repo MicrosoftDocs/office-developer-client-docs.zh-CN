@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 11e1bd22da480669f72768e5d75b637e1257b6d1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ea815631f63b5585a3f2705cfbd2639b8c655e6e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589348"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387494"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>PidLidContactLinkSearchKey 规范属性
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含此消息对象链接到的联系人的**SearchKeys**的列表。 
   
@@ -33,7 +33,7 @@ ms.locfileid: "22589348"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 |**以字节为单位的长度**|**说明**|**备注**|
 |:-----|:-----|:-----|
@@ -44,11 +44,11 @@ ms.locfileid: "22589348"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

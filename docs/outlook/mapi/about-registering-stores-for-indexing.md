@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96322d12b3b7b334b5f78f81910dcf34c3fc78e1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584182"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386528"
 ---
 # <a name="about-registering-stores-for-indexing"></a>关于注册用于建立索引的存储区
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 本主题是特定于 Microsoft Office Outlook 2007 中的即时搜索。
   
@@ -38,7 +38,7 @@ MAPI 协议处理程序检查 Windows 注册表中以便它应该索引搜索目
  想要编制索引的第三方存储提供程序必须在 Windows 注册表中进行注册。 
   
 > [!NOTE]
-> 管理员和用户可以使用组策略设置阻止 Windows 桌面搜索索引 Outlook 项目。 有关详细信息，请参阅[扩展 Windows 桌面搜索](http://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx)。 
+> 管理员和用户可以使用组策略设置阻止 Windows 桌面搜索索引 Outlook 项目。 有关详细信息，请参阅[扩展 Windows 桌面搜索](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx)。 
   
 ## <a name="registry-keys"></a>注册表项
 

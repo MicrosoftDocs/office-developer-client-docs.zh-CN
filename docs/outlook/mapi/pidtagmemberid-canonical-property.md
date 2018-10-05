@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: caf1cb2e16c298af452e638631293379fdd68b10
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b5d1d4456856f1640bbed8589fc0583060cd2520
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589782"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391743"
 ---
 # <a name="pidtagmemberid-canonical-property"></a>PidTagMemberId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含在 Microsoft Exchange Server 文件夹或邮箱上具有所述的权限表成员标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22589782"
 |数据类型：  <br/> |PT_I8  <br/> |
 |区域：  <br/> |访问控制  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性返回的标识符到表唯一。 目录用户标识符与每个成员标识符相关联，并由该属性。 此属性由[IExchangeModifyTable](iexchangemodifytableiunknown.md)接口用于检索具有显式权限的文件夹的成员的目录项标识符。 
   
@@ -42,11 +42,11 @@ ms.locfileid: "22589782"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCPERM]](http://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[MS OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
 > 处理检索存储在服务器的文件夹的权限列表。
     

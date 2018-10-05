@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: eab72c5b49ba501d8ab5516bf5a5eae9ea82abe0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f3f4f42d91c4091943d6183508e2bc76c17197fa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588704"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391032"
 ---
 # <a name="pidtagoriginalentryid-canonical-property"></a>PidTagOriginalEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含复制到个人通讯簿通讯簿或其他写通讯簿条目的原始项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22588704"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是包含有关复制条目的原始源的信息的属性之一。
   
@@ -44,15 +44,15 @@ ms.locfileid: "22588704"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 同步服务器和客户端之间的消息对象数据的句柄。
     

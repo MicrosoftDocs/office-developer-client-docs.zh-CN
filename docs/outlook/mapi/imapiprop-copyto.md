@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bbc9dcf2218907b5d31ce1fc9f904e6ae1da47d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f76b0a5482647fe3e181a36d7dcd8cb60ffc8985
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594010"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388579"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 复制或移动的所有属性，特别是排除属性除外。
   
@@ -139,13 +139,13 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不需要呼叫者的类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 默认情况下， **IMAPIProp::CopyTo**方法复制或移动的所有当前对象的属性对目标对象。 **CopyTo**应复制或移动完全，与所有或其属性保持不变的大多数对象时使用。 
   
 自动包括在操作对源对象中的任何子对象复制或移动全部。 默认情况下， **CopyTo**会覆盖目标对象的匹配从源对象的属性的任何属性。 如果任一复制或移动属性已经存在于目标对象，除非 MAPI_NOREPLACE 标志设置_ulFlags_参数中通过新的属性，来覆盖现有属性。 保持不变，不会被覆盖的目标对象中的现有信息。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 您可以提供**CopyTo**完全实现或依赖 MAPI 提供其支持对象中的实现。 如果您想要使用的 MAPI 实现，调用**IMAPISupport::DoCopyTo**。 但是，如果您执行委派到**DoCopyTo**处理和传递 MAPI_DECLINE_OK 标志，避免支持呼叫并改为返回 MAPI_E_DECLINE_COPY。 MAPI 将使用此标志以避免可能递归复制文件夹时可能发生调用。 
   
@@ -173,7 +173,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 如果您要复制对源对象类型是唯一的属性，您必须确保对目标对象类型相同。 **CopyTo**不阻止您关联通常属于一种类型的对象与其他类型的对象的属性。 由您要复制对目标对象有意义的属性。 例如，不应将消息属性复制到通讯簿容器。 
   
-若要确保您复制之间的相同类型的对象，检查源和目标对象相同的类型，通过比较对象指针或调用[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)。 设置所指的源对象的标准接口_lpInterface_接口标识符。 另外，确保**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性的对象类型是相同的两个对象。 例如，如果复制从一条消息，则可设置为 IID_IMessage 和**PR_OBJECT_TYPE** MAPI_MESSAGE 这两个对象的_lpInterface_ 。 
+若要确保您复制之间的相同类型的对象，检查源和目标对象相同的类型，通过比较对象指针或调用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)。 设置所指的源对象的标准接口_lpInterface_接口标识符。 另外，确保**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性的对象类型是相同的两个对象。 例如，如果复制从一条消息，则可设置为 IID_IMessage 和**PR_OBJECT_TYPE** MAPI_MESSAGE 这两个对象的_lpInterface_ 。 
   
 如果_lpDestObj_参数中传递了无效的指针，则结果将无法预料。 
   
@@ -189,15 +189,15 @@ MAPI_E_UNEXPECTED_TYPE
   
 排除接口的**CopyTo**功能的用途是可能不明显，排除属性的有效性。 复制到不知道的一组属性对象时，您可以排除接口。 例如，如果将属性从文件夹复制到附件中时，附件可以使用的唯一属性将是具有任何[IMAPIProp](imapipropiunknown.md)实现的泛型属性。 通过复制操作从排除[IMAPIFolder](imapifolderimapicontainer.md) ，附件不会收到任何更具体的文件夹属性。 
   
-当_rgiidExclude_参数用于排除一个接口时，它还不包括所有接口派生自的接口。 例如，不包括[IMAPIContainer](imapicontainerimapiprop.md)使文件夹或通讯簿容器排除，具体取决于提供程序的类型。 因为太多接口从它们派生，不要排除**IMAPIProp**或[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) 。 
+当_rgiidExclude_参数用于排除一个接口时，它还不包括所有接口派生自的接口。 例如，不包括[IMAPIContainer](imapicontainerimapiprop.md)使文件夹或通讯簿容器排除，具体取决于提供程序的类型。 因为太多接口从它们派生，不要排除**IMAPIProp**或[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) 。 
   
 忽略 MAPI_E_COMPUTED _lppProblems_参数中**SPropProblemArray**结构中返回的错误。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI 使用**IMAPIProp::CopyTo**方法将属性从.msg 文件复制到[IMAPIMessageSite](imapimessagesiteiunknown.md)对象。  <br/> |
 |FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI 使用**IMAPIProp::CopyTo**方法将属性复制源邮件到目标邮件在粘贴操作过程。  <br/> |

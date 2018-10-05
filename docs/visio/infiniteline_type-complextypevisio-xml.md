@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4463d388-f5dd-4c43-71d4-82ba216d8d39
-ms.openlocfilehash: 9e2b9146a875ecd32ccdc99e566a455aa36c2bf7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9db3947381da563f2f7d9973d7b2578094d5235
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780464"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390371"
 ---
 # <a name="infinitelinetype-complextype-visio-xml"></a>InfiniteLine_Type 复杂类型 (Visio XML)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19780464"
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15 2012 06 05.xsd  <br/> |
 |**扩展基** <br/> |GeometryRow_Type  <br/> |
    

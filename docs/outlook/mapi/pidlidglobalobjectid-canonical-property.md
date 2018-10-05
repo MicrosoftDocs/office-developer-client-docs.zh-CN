@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a4e3f9ab-b7ee-4dff-b7bd-2462c561735c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 173c679b7a94678b1b3b14bf82abf6638ecc5b55
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c7a77e6e295d1433bd617a55656ee15d172f1f06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575656"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390665"
 ---
 # <a name="pidlidglobalobjectid-canonical-property"></a>PidLidGlobalObjectId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定的 calendar 对象的唯一标识符。
   
@@ -35,19 +35,19 @@ ms.locfileid: "22575656"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-一次设置 calendar 对象，此属性的值必须不会更改。 [[MS OXOCAL]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中找不到格式的详细的说明。
+一次设置 calendar 对象，此属性的值必须不会更改。 [[MS OXOCAL]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中找不到格式的详细的说明。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

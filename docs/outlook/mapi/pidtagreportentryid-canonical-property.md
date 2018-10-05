@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ea2bcc06-0089-4999-b115-06a14de4a0f1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 558a2235f7cb617bf37ccff77ebeec6e4ba77604
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3b4432650d5c9fc77c4db0bc9aed4234d85e7fdf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582614"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387039"
 ---
 # <a name="pidtagreportentryid-canonical-property"></a>PidTagReportEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的项标识符的应接收此消息的报告的收件人。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22582614"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是一个发件人已委派接收此消息生成任何报告的收件人的地址属性。
   
@@ -44,11 +44,11 @@ ms.locfileid: "22582614"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件中允许的操作。
     

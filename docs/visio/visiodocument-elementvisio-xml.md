@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5954685-3a2d-7848-388f-5dd7e536551c
 description: Microsoft Visio 文档的根元素。
-ms.openlocfilehash: 5a325b78ec64708246f0c8a6f5396c2ce1569121
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9829fa8960d78777e0fff4306b96978da90a647d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781656"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391302"
 ---
 # <a name="visiodocument-element-visio-xml"></a>VisioDocument 元素 (Visio XML)
 
@@ -23,7 +23,7 @@ Microsoft Visio 文档的根元素。
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

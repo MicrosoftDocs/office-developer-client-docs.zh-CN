@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: 指定一个图层属性或页面其属性。
-ms.openlocfilehash: 92be29321ba637bb694c0cf5d3cddcb888618c1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e96fdc1dcd5c9a7a2cb8753beaff766c2b477af2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779859"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390973"
 ---
 # <a name="cell-element-layer-section-visio-xml"></a>单元格元素 （层部分） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779859"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |masters.xml、 pages.xml  <br/> |
    

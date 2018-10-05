@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bc61fb1ac3fce317be283b7f05813ad485791cea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563532"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389097"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>PidTagAttachMimeTag 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含有关多用途 Internet 邮件扩展 (MIME) 附件格式信息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22563532"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果**PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) 属性包含值**OID_MIMETAG**，这些属性来确定如何设置附件的格式应查看传输提供程序。 
   
@@ -44,11 +44,11 @@ ms.locfileid: "22563532"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9f73720860aa0ec54289f25a553bb00bfbe76b6a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 053ec531f69ff7734872466b7a661beff3177b2c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581046"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390357"
 ---
 # <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>PidLidAddressBookProviderEmailList 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定哪个电子通讯属性设置该联系人上。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "22581046"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性中的每个 PT_LONG 值必须是唯一的属性中，并且必须设置为下表中的值之一。 如果设置此属性，还必须设置**dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) 属性。 这两个属性必须保持相互同步。 例如，如果一个**dispidABPEmailList**中的值是"0x00000000"，然后**dispidABPArrayType**必须具有位"0x00000001"设置。 
   
@@ -52,11 +52,11 @@ ms.locfileid: "22581046"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的联系人和个人通讯组列表。
     

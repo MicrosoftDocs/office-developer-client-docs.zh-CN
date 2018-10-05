@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1470248e-be1c-fcb0-1d6b-0a5f60365924
 description: 您可以添加、 显示、 隐藏和删除 ShapeSheet 中的部分。
-ms.openlocfilehash: 37bd28083a38fa2c38630994ee42d3f001cf6893
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f1aa5cc20418fa3fc588c50d5e7a94bd9763774
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779635"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389188"
 ---
 # <a name="add-show-hide-or-delete-a-section"></a>添加、显示、隐藏或删除部分
 
@@ -53,9 +53,9 @@ ms.locfileid: "19779635"
     
 2. 指向内容标题。
     
-    如果指针变为减号![](media/IC_SSMinus_ZA07645855.gif)，您可以折叠该内容。
+    如果指针变为减号 ![如果指针变为减号，折叠章节](media/IC_SSMinus_ZA07645855.gif)您可以折叠该内容。
     
-    如果指针变为加号![](media/IC_SSPlus_ZA07645856.gif)，您可以展开该内容。
+    如果指针变为加号 ![如果指针变为加号，展开部分](media/IC_SSPlus_ZA07645856.gif)，那么您可以展开该内容。
     
 3. 单击此节标题。
     

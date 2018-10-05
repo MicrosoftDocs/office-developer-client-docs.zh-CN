@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1951643d-e3ca-4d04-bc0c-10d9d0b35dad
 description: 本主题中的表介绍的功能 XML 子元素和分组依据它们支持的区域。
-ms.openlocfilehash: 53bce69bbe22f6e950302a92b0ada21ed0f5a1f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6816bbdcd24eceffc47d6b9d0835a90c7089c039
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779197"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387249"
 ---
 # <a name="capabilities-xml-elements"></a>功能 XML 元素
 
@@ -71,7 +71,7 @@ ms.locfileid: "19779197"
 
 |**元素**|**说明**|
 |:-----|:-----|
-|**hashFunction** <br/> | 指定 OSC 提供程序支持的哈希函数。 若要保护的不在提供程序的社交网络或业务线应用程序的用户的个人身份信息，OSC 哈希电子邮件地址向传递**ISocialSession2::GetPeopleDetails**和**ISocialSession2::GetActivitiesEx**。  <br/>  如果设置为**true**时**dynamicContactsLookup**或**dynamicActivitiesLookupEx**设置为**true**，提供程序必须**hashFunction**设置为允许的值之一： **SHA1**、 **MD5**或**CRC32MD5**。 如果**hashFunction**缺失或指定一个不正确的值，OSC 将返回错误。  <br/> **SHA1**是 Internet 工程任务组 (IETF) 美国安全哈希算法 1 由[[RFC3174]](http://www.rfc-editor.org/rfc/rfc3174.txt)定义。 例如的电子邮件地址 melissa@contoso.com **SHA1**哈希值是`bb81577b567262a21a4df5f6e335c1250acd7b50`。  <br/> **MD5**是由[[RFC1321]](http://www.rfc-editor.org/rfc/rfc1321.txt)定义 Internet 工程任务组 (IETF) MD5 消息摘要算法。 例如的电子邮件地址 melissa@contoso.com **MD5**哈希值是`c8c39e61ca1662477b39b83d7b0a0615`。  <br/> **CRC32MD5** **CRC32**的组合， **MD5**定义，如下所示：  <br/>  删除前导和尾随空白将所有字符都转换为小写规范化的电子邮件地址。  <br/>  计算的规范化的电子邮件地址的**CRC32**值，并使用此值的小数的整数表示形式。 如果您的实现返回有符号的整数，您必须将有符号的整数转换为无符号整数。  <br/>  计算的规范化的电子邮件地址的**MD5**值，并使用此值 （使用小写 A 到 F） 的十六进制表示。  <br/>  合并这两个值以下划线。  <br/>  例如的电子邮件地址 melissa@contoso.com **CRC32MD5**哈希值是`2149665315_c8c39e61ca1662477b39b83d7b0a0615`。  <br/> |
+|**hashFunction** <br/> | 指定 OSC 提供程序支持的哈希函数。 若要保护的不在提供程序的社交网络或业务线应用程序的用户的个人身份信息，OSC 哈希电子邮件地址向传递**ISocialSession2::GetPeopleDetails**和**ISocialSession2::GetActivitiesEx**。  <br/>  如果设置为**true**时**dynamicContactsLookup**或**dynamicActivitiesLookupEx**设置为**true**，提供程序必须**hashFunction**设置为允许的值之一： **SHA1**、 **MD5**或**CRC32MD5**。 如果**hashFunction**缺失或指定一个不正确的值，OSC 将返回错误。  <br/> **SHA1**是 Internet 工程任务组 (IETF) 美国安全哈希算法 1 由[[RFC3174]](https://www.rfc-editor.org/rfc/rfc3174.txt)定义。 例如的电子邮件地址 melissa@contoso.com **SHA1**哈希值是`bb81577b567262a21a4df5f6e335c1250acd7b50`。  <br/> **MD5**是由[[RFC1321]](https://www.rfc-editor.org/rfc/rfc1321.txt)定义 Internet 工程任务组 (IETF) MD5 消息摘要算法。 例如的电子邮件地址 melissa@contoso.com **MD5**哈希值是`c8c39e61ca1662477b39b83d7b0a0615`。  <br/> **CRC32MD5** **CRC32**的组合， **MD5**定义，如下所示：  <br/>  删除前导和尾随空白将所有字符都转换为小写规范化的电子邮件地址。  <br/>  计算的规范化的电子邮件地址的**CRC32**值，并使用此值的小数的整数表示形式。 如果您的实现返回有符号的整数，您必须将有符号的整数转换为无符号整数。  <br/>  计算的规范化的电子邮件地址的**MD5**值，并使用此值 （使用小写 A 到 F） 的十六进制表示。  <br/>  合并这两个值以下划线。  <br/>  例如的电子邮件地址 melissa@contoso.com **CRC32MD5**哈希值是`2149665315_c8c39e61ca1662477b39b83d7b0a0615`。  <br/> |
    
 ## <a name="capabilities-for-supporting-authentication-and-account-configuration"></a>支持身份验证和帐户配置的功能
 

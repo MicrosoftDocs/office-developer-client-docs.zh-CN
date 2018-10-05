@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 829cc757-c5e3-40ed-846e-2dcaf9e13b92
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 77393be40db939088b775095cd38f254fb7406df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f4f0c9c1212d8030b2d05ec8a17304d082c06f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570399"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391778"
 ---
 # <a name="pidlidprivate-canonical-property"></a>PidLidPrivate 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示是否最终用户希望从其他用户有权访问 message 对象中隐藏该消息对象。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22570399"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

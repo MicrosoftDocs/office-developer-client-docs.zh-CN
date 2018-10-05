@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9d4b8f5f-1789-497c-8010-f83da9ba5966
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7fd41f46adf9b7d9aa3b48779b03cd6936a5fb5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09d0ee3be704dc55452b615a23ac9cf20d9254d8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583132"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389587"
 ---
 # <a name="pidlidnotecolor-canonical-property"></a>PidLidNoteColor 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定注释的建议的背景的色。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "22583132"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |粘滞便笺  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性必须为下表中的项之一：
   
@@ -51,11 +51,11 @@ ms.locfileid: "22583132"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXONOTE]](http://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
+[[MS OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
 > 指定的属性和说明在允许的操作。
     

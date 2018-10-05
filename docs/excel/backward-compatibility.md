@@ -9,16 +9,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 095961fa909a67b354ed43a7e093b79a9ebb4f18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e1368ef55b96be947527456e0f01918afec6663
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773640"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387970"
 ---
 # <a name="backward-compatibility"></a>向后兼容性
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 本主题介绍 XLL 不同版本的 Microsoft Excel 中的兼容性的问题。
   
@@ -63,7 +63,7 @@ ms.locfileid: "19773640"
   
 为什么您可能要注册不同函数启动 Excel 2007 中的另一个原因是它还允许 XLL 函数带最多 255 个参数，而不是早期版本的 30 限制。
   
-幸运的是，您可以同时按从您的项目导出两个版本的好处。 您可以然后检测正在运行的 Excel 版本，并有条件地注册最适当的函数。 有关详细信息和实现示例，请参阅[Developing 加载项 （xll （英文）） 在 Excel 2007 中](http://msdn.microsoft.com/en-us/library/aa730920.aspx)。
+幸运的是，您可以同时按从您的项目导出两个版本的好处。 您可以然后检测正在运行的 Excel 版本，并有条件地注册最适当的函数。 有关详细信息和实现示例，请参阅[Developing 加载项 （xll （英文）） 在 Excel 2007 中](https://msdn.microsoft.com/library/aa730920.aspx)。
   
 此方法会导致在 Excel 2003 中运行的工作表无法显示不同的结果运行启动 Excel 2007 中的同一工作表的可能性。 例如，Excel 2003 会将 Excel 2003 工作表单元格的 Unicode 字符串映射到 ASCII 字节字符串，然后截断它传递到 XLL 函数之前。 从 Excel 2007 开始，Excel 会将未转换的 Unicode 字符串传递给以正确的方式中注册的 XLL 函数。 这可能导致不同的结果。 您应注意这种可能性和后果给用户，而不仅仅是升级中。 例如，一些内置的数值函数进行了改进 Excel 2000 和 Excel 2003 之间。
   
@@ -74,6 +74,6 @@ ms.locfileid: "19773640"
 ## <a name="see-also"></a>另请参阅
 
 - [C API 回调函数 Excel4、Excel12](c-api-callback-functions-excel4-excel12.md) 
-- [�� Excel ��ʹ�� C API ���б��](programming-with-the-c-api-in-excel.md)
+- [在 Excel 中使用 C API 进行编程](programming-with-the-c-api-in-excel.md)
 - [适用于 Excel 的 C API 中的新增功能](what-s-new-in-the-c-api-for-excel.md)
 

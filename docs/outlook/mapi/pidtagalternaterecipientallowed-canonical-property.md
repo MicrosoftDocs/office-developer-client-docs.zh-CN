@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0fcea0f0bc19140c5a0762143ce91bd41ea8fd07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0faeb12ee54ec5d1c584bacd51590b157035f4fd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569321"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385954"
 ---
 # <a name="pidtagalternaterecipientallowed-canonical-property"></a>PidTagAlternateRecipientAllowed 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含 TRUE，如果发件人允许自动转接的此消息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22569321"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果不允许自动转接，或者如果已不指定任何备用收件人，应生成原件报告。 
   
@@ -42,19 +42,19 @@ ms.locfileid: "22569321"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 处理顺序和客户端和服务器之间的数据传输的流。
     
-[[MS OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
     
-[[MS OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > 进行编码和解码为有效的流表示形式的消息和附件对象。
     

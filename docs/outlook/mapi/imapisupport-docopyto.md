@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5ce5aa8c43e284b493a0709808a196c6c6889f88
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f6c802f1d5ead1750c05fafc54533487fe3732a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592106"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390630"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 复制或移动到另一个对象的一个对象，特别是排除的属性，除外的所有属性。
   
@@ -145,7 +145,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不需要呼叫者的类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 消息存储提供程序支持对象的实现**IMAPISupport::DoCopyTo**方法。 消息存储提供程序可以调用**DoCopyTo**实现其文件夹和邮件的[IMAPIProp::CopyTo](imapiprop-copyto.md)方法。 
   
@@ -171,7 +171,7 @@ _LpSrcInterface_指向通常是相同的界面标识符_lpDestInterface_指向�
   
 相反，如果您所知的补充信息的不应复制或移动，添加排除_rgiidExclude_参数中传递的数组中的接口的界面标识符。 例如，如果要复制的邮件，但不是任何其邮件附件， _rgiidExclude_数组中传递 IID_IMessage。 **DoCopyTo**忽略它无法识别的_rgiidExclude_中列出的任何接口。 
   
-当_rgiidExclude_参数用于排除一个接口时，它还不包括所有接口派生自的接口。 例如，不包括[IMAPIContainer](imapicontainerimapiprop.md)界面使文件夹或通讯簿容器排除，具体取决于提供程序的类型。 因为太多接口从它们派生，不要排除[IMAPIProp](imapipropiunknown.md)或[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) 。 
+当_rgiidExclude_参数用于排除一个接口时，它还不包括所有接口派生自的接口。 例如，不包括[IMAPIContainer](imapicontainerimapiprop.md)界面使文件夹或通讯簿容器排除，具体取决于提供程序的类型。 因为太多接口从它们派生，不要排除[IMAPIProp](imapipropiunknown.md)或[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) 。 
   
  **DoCopyTo**报告应用于作为一个整体，该操作的全局错误和的各个属性应用于单个错误。 这些单个错误保持**SPropProblemArray**结构中。 您可以隐藏错误属性级别通过传递 NULL，而不是有效的指针，property 问题数组结构参数的报告。 
   

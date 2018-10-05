@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a84d8143-5fe7-4a33-bce4-aebf7a824d5f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 353734d28dd10da1e503e268f9e06e9bf9c86cfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 309c20be5c17746ec10495400d069f1f9b857556
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567564"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391435"
 ---
 # <a name="pidlidfileunderlist-canonical-property"></a>PidLidFileUnderList 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定**dispidFileUnderId** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)) 属性的可能值的列表。
   
@@ -35,19 +35,19 @@ ms.locfileid: "22567564"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-每个中的多值属性的值必须是**dispidFileUnderId** [[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中指定的允许值之一。
+每个中的多值属性的值必须是**dispidFileUnderId** [[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)中指定的允许值之一。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的联系人和个人通讯组列表。
     

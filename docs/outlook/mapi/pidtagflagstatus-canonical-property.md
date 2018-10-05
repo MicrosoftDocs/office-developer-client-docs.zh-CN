@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8dba5906a00beb6d38e4f3e375a9c57db79d42f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bca8fccaa43bb3157b3d4e2af7d6aafa64972b41
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575957"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390553"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>PidTagFlagStatus 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定的消息对象的标志状态。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22575957"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性必须存在会议相关对象上,，它应不存在于 task 对象。 当在其他消息对象上设置时，此属性必须设置为下列值之一：
   
@@ -48,11 +48,11 @@ ms.locfileid: "22575957"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定的属性和与标记的操作。
     

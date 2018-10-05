@@ -8,19 +8,19 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0872b1b9-c21f-4bba-8cf1-4b010d8d7fb6
 description: Outlook Social Connector (OSC) 提供程序的 XML 架构定义大量信息的从社交网络通过传递网络的 OSC 提供程序为 OSC 的格式。
-ms.openlocfilehash: 93df682751146b501a316be62641b8cfd47a74a8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75809179131ce6c6b8bbe171d2670e59cebe3494
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779215"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390546"
 ---
 # <a name="developing-a-provider-with-the-osc-xml-schema"></a>开发具有 OSC XML 架构的提供程序
 
 Outlook Social Connector (OSC) 提供程序的 XML 架构定义大量信息的从社交网络通过传递网络的 OSC 提供程序为 OSC 的格式。 XML 架构允许 OSC 提供程序指定的提供程序、 朋友和活动源项目的社交网络上使用的三个主元素、**功能**、**朋友**和**activityFeed**和及其子功能元素。 OSC 提供程序实现接口和它们的方法中 OSC 提供程序扩展性，作为遵守 OSC 提供程序的 XML 架构的输出参数返回 XML 字符串。 OSC 调用这些方法来获取它可以了解该 XML 架构定义的信息。
   
 > [!NOTE]
-> OSC 提供程序扩展性支持调试提供程序通过设置`DebugProviders`的值`HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector`为 1 的注册表项。 当您打开调试提供程序时，OSC 验证提供程序 XML 针对**xmlns** XML 属性中指定的 OSC XML 架构的版本。 OSC 1.1 和版本的 Outlook Social Connector 2013 相 OSC，指定**xmlns**属性，如下所示：`xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
+> OSC 提供程序扩展性支持调试提供程序通过设置`DebugProviders`的值`HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector`为 1 的注册表项。 当您打开调试提供程序时，OSC 验证提供程序 XML 针对**xmlns** XML 属性中指定的 OSC XML 架构的版本。 OSC 1.1 和版本的 Outlook Social Connector 2013 相 OSC，指定**xmlns**属性，如下所示：`xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"`
   
 ## <a name="in-this-section"></a>本节内容
 

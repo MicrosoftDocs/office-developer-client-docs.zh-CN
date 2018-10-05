@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: 在 Microsoft Visio 中对从数据库中查询的数据进行存储、格式设置、刷新和公开操作。
-ms.openlocfilehash: 157213476214c736367b724dd6ca944060c53467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e2baaeed38318f35d4bd4ce4269f71b6304b148f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780039"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387284"
 ---
 # <a name="datarecordset-element-datarecordsetstype-complextype-visio-xml"></a>DataRecordSet 元素 （DataRecordSets_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780039"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |recordsets.xml  <br/> |
    

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: 为帮助客户充分利用 Project Online 和改进我们的服务扩展性和灵活性，我们为添加了两种方法可以在 Project Online 的应用程序和工作流中使用的客户端对象模型。
-ms.openlocfilehash: 4f8fee5de5efb69f410b78e9ce93b9dc9bb133f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4de42471cd8c2f12a982447ccffc27ec8104fa31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779434"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386157"
 ---
 # <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>批量更新自定义字段并从 Project Online 中的工作流创建项目网站
 
@@ -25,7 +25,7 @@ ms.locfileid: "19779434"
 除了提供更大的灵活性，这些方法还提供了显著的性能改进保存和发布工作流中的项目时。 本文介绍如何使用 REST API 中的方法，并提供用于创建工作流的批量更新自定义字段和创建项目网站的工作流的说明。
   
 > [!NOTE]
-> 若要了解更多 REST Api 调用从 SharePoint 2013 工作流，请参阅[从 POST 方法与工作流的使用 SharePoint REST 服务](http://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl)和[调用从 SharePoint Designer 工作流的 SharePoint 2013 Rest API](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/)。 
+> 若要了解更多 REST Api 调用从 SharePoint 2013 工作流，请参阅[从 POST 方法与工作流的使用 SharePoint REST 服务](https://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl)和[调用从 SharePoint Designer 工作流的 SharePoint 2013 Rest API](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/)。 
   
 ## <a name="bulk-update-project-custom-fields-from-a-workflow"></a>批量更新项目从工作流的自定义字段
 <a name="BulkUpdateCustomFields"> </a>
@@ -77,8 +77,8 @@ ms.locfileid: "19779434"
     
     |名称|类型|值|
     |:-----|:-----|:-----|
-    |Accept  <br/> |字符串  <br/> |应用程序/json;odata = verbose  <br/> |
-    |Content-Type  <br/> |字符串  <br/> |应用程序/json;odata = verbose  <br/> |
+    |Accept  <br/> |String  <br/> |应用程序/json;odata = verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |应用程序/json;odata = verbose  <br/> |
    
     ![添加 Accept 标头](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "添加 Accept 标头")
   
@@ -123,18 +123,18 @@ ms.locfileid: "19779434"
   
        |名称|类型|值|
        |:-----|:-----|:-----|
-       |customFieldDictionary (0) / __metadata/类型  <br/> |字符串  <br/> |SP。KeyValue  <br/> |
-       |customFieldDictionary (0) / 键  <br/> |字符串  <br/> |自定义\_ce23fbf43fa0e411941000155d3c8201  <br/> |
-       |customFieldDictionary (0) / 值  <br/> |字符串  <br/> |条目\_b9a2fd69279de411940f00155d3c8201; #Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
-       |customFieldDictionary (0) / ValueType  <br/> |字符串  <br/> |Edm.String  <br/> |
-       |customFieldDictionary （1）/__metadata/类型  <br/> |字符串  <br/> |SP。KeyValue  <br/> |
-       |customFieldDictionary （1）/键  <br/> |字符串  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
-       |customFieldDictionary （1）/值  <br/> |字符串  <br/> |90.5  <br/> |
-       |customFieldDictionary （1) / ValueType  <br/> |字符串  <br/> |Edm.Double  <br/> |
-       |customFieldDictionary （2）/__metadata/类型  <br/> |字符串  <br/> |SP。KeyValue  <br/> |
-       |customFieldDictionary （2）/键  <br/> |字符串  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary （2）/值  <br/> |字符串  <br/> |2015-04-01T00:00:00.0000000  <br/> |
-       |customFieldDictionary （2) / ValueType  <br/> |字符串  <br/> |Edm.DateTime  <br/> |
+       |customFieldDictionary (0) / __metadata/类型  <br/> |String  <br/> |SP。KeyValue  <br/> |
+       |customFieldDictionary (0) / 键  <br/> |String  <br/> |自定义\_ce23fbf43fa0e411941000155d3c8201  <br/> |
+       |customFieldDictionary (0) / 值  <br/> |String  <br/> |条目\_b9a2fd69279de411940f00155d3c8201; #Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
+       |customFieldDictionary (0) / ValueType  <br/> |String  <br/> |Edm.String  <br/> |
+       |customFieldDictionary （1）/__metadata/类型  <br/> |String  <br/> |SP。KeyValue  <br/> |
+       |customFieldDictionary （1）/键  <br/> |String  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
+       |customFieldDictionary （1）/值  <br/> |String  <br/> |90.5  <br/> |
+       |customFieldDictionary （1) / ValueType  <br/> |String  <br/> |Edm.Double  <br/> |
+       |customFieldDictionary （2）/__metadata/类型  <br/> |String  <br/> |SP。KeyValue  <br/> |
+       |customFieldDictionary （2）/键  <br/> |String  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
+       |customFieldDictionary （2）/值  <br/> |String  <br/> |2015-04-01T00:00:00.0000000  <br/> |
+       |customFieldDictionary （2) / ValueType  <br/> |String  <br/> |Edm.DateTime  <br/> |
    
        ![定义自定义字段更新的字典](media/41a1f18f-a6b2-40ff-904b-437baf962621.png "定义自定义字段更新的字典")
   
@@ -198,8 +198,8 @@ ms.locfileid: "19779434"
     
     |名称|类型|值|
     |:-----|:-----|:-----|
-    |Accept  <br/> |字符串  <br/> |应用程序/json;odata = verbose  <br/> |
-    |Content-Type  <br/> |字符串  <br/> |应用程序/json;odata = verbose  <br/> |
+    |Accept  <br/> |String  <br/> |应用程序/json;odata = verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |应用程序/json;odata = verbose  <br/> |
    
     ![添加 Accept 标头](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "添加 Accept 标头")
   
@@ -219,6 +219,6 @@ ms.locfileid: "19779434"
 
 - [Project 编程任务](project-programming-tasks.md)
 - [Project 2013 的客户端对象模型 (CSOM)](client-side-object-model-csom-for-project-2013.md)
-- [SharePoint 2013 中的工作流](http://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
+- [SharePoint 2013 中的工作流](https://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
     
 

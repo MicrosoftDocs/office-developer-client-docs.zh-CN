@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: 了解在 Outlook 2013 中如何在天气栏中插入第三方天气 Web 服务，以提供用户所选位置的天气状况。
-ms.openlocfilehash: 6b2462615813b056ec09168ab512d456e1a7bdd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779346"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386577"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>扩展 Outlook 中的天气栏
 
@@ -37,7 +37,7 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
 
 用户可以为天气栏指定不同的天气数据服务，只要该天气数据服务实施的 Web 服务支持以下协议以与 Outlook 通信：
   
-1. 天气数据服务支持 Web 服务的基 URL。例如，Contoso 天气 Web 服务的基 URL 可能为 http://service.contoso.com/data.aspx。
+1. 天气数据服务支持 Web 服务的基 URL。例如，Contoso 天气 Web 服务的基 URL 可能为 https://service.contoso.com/data.aspx。
     
 2. Web 服务允许 Outlook 将以下参数附加到基 URL，以请求位置代码： 
     
@@ -45,7 +45,7 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
     
    - weasearchstr= _city_：此参数指示位置，_城市_（例如，伦敦），用户需要了解该位置的天气预报。
     
-   - culture= _LCID_：此参数指示在该计算机上为用户安装的 Office 版本的区域的。 LCID 值是在[用于识别语言的 [RFC4646] 标签](http://www.ietf.org/rfc/rfc4646.txt)中定义的
+   - culture= _LCID_：此参数指示在该计算机上为用户安装的 Office 版本的区域的。 LCID 值是在[用于识别语言的 [RFC4646] 标签](https://www.ietf.org/rfc/rfc4646.txt)中定义的
     
    - src=outlook：此参数指明 Outlook 是请求服务的客户端应用程序。
     
@@ -61,7 +61,7 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
     
    - weadegreetype= _degreetype_：此参数指定对温度使用公制还是英制度量单位。 对于 _degreetype_，指定 c 表示公制，f 表示英制。 此参数为可选项，web 服务请求中并不始终会出现此参数。
     
-   - culture= _LCID_：此参数指示在该计算机上为用户安装的 Office 版本的区域的。 LCID 值是在[用于识别语言的 [RFC4646] 标签](http://www.ietf.org/rfc/rfc4646.txt)中定义的
+   - culture= _LCID_：此参数指示在该计算机上为用户安装的 Office 版本的区域的。 LCID 值是在[用于识别语言的 [RFC4646] 标签](https://www.ietf.org/rfc/rfc4646.txt)中定义的
     
    - src=outlook：此参数指明 Outlook 是请求服务的客户端应用程序。
     
@@ -74,7 +74,7 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
 ## <a name="setting-the-weather-bar-to-use-a-weather-service"></a>将天气栏设置为使用天气服务
 <a name="ol15_weatherbar_setting"> </a>
 
-管理员或高级用户可以使用 **WeatherServiceUrl** 注册表项对天气栏进行自定义，以使用特定的天气服务。例如，如果 Contoso 天气服务的基 URL 为 http://service.contoso.com/data.aspx，您可以将 **WeatherServiceUrl** 注册表项设置为该 URL。 
+管理员或高级用户可以使用 **WeatherServiceUrl** 注册表项对天气栏进行自定义，以使用特定的天气服务。例如，如果 Contoso 天气服务的基 URL 为 https://service.contoso.com/data.aspx，您可以将 **WeatherServiceUrl** 注册表项设置为该 URL。 
   
 下表介绍了 **WeatherServiceUrl** 注册表项。 
   
@@ -105,7 +105,7 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
 |**默认值** <br/> |0  <br/> |
 |**说明** <br/> |值为 0 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
    
-如果天气栏功能已被组策略禁用，“**日历**”选项卡将不包括“**在日历中显示天气**”复选框。 请与管理员联系以启用此功能。 
+如果天气栏功能已被组策略禁用，“日历”**** 选项卡将不包括“在日历中显示天气”**** 复选框。请与管理员联系以启用此功能。 
   
 ### <a name="office-is-disconnected-from-the-internet"></a>Office 已从 Internet 断开连接
 
@@ -123,7 +123,7 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
 |**默认值** <br/> |2  <br/> |
 |**说明** <br/> |值为 2 将启用天气栏，任何其他值将禁用天气栏。  <br/> |
    
-如果天气栏功能已被组策略禁用，“**日历**”选项卡将不包括“**在日历中显示天气**”复选框。 请与管理员联系以启用此功能。 
+如果天气栏功能已被组策略禁用，“日历”**** 选项卡将不包括“在日历中显示天气”**** 复选框。请与管理员联系以启用此功能。 
   
 ## <a name="weather-bar-example"></a>天气栏示例
 <a name="ol15_weatherbar_example"> </a>
@@ -134,17 +134,17 @@ Outlook 中的天气栏显示某个地理位置的天气状况和预报。用户
 
 Contoso 天气为其天气数据服务提供了以下基 URL：
   
-http://service.contoso.com/data.aspx
+https://service.contoso.com/data.aspx
   
 ### <a name="getting-a-location-code"></a>获取位置代码
 
 Outlook 将步骤 2 中所述的参数附加到基 URL，以获取地理位置  _city_ 的位置代码：
   
-http://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
+https://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
   
 例如，如果用户在天气栏中选择了 Tokyo，Outlook 将使用以下 URL 从 Contoso 天气获取东京的位置代码： 
   
-http://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
+https://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
   
 Contoso 天气使用以下 XML 进行响应，以提供东京的位置代码。XML 符合 Outlook 天气位置 XML 架构。请注意，天气服务通常会返回多个位置的数据（例如，如果所选位置是一个较大的大城市区）。在此示例中，对东京的响应包括两个位置，分别包含在 [weather](weather-element-weatherdata-elementoutlook-weather-location-schema.md) 元素内。相应的位置代码如下所示： 
   
@@ -169,11 +169,11 @@ Contoso 天气使用以下 XML 进行响应，以提供东京的位置代码。X
 
 获取位置的位置代码后，Outlook 会将步骤 3 中的参数附加到基 URL，以获取该位置代码的天气信息。
   
-http://service.contoso.com/data.aspx?wealocations= _code_
+https://service.contoso.com/data.aspx?wealocations= _code_
   
 例如，如果 Outlook 已从 Contoso 天气为 Tokyo 获取位置代码 wc:JAXX0085，Outlook 将在以下 URL 中使用此位置代码获取天气信息。
   
-http://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
+https://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
   
 Contoso 天气使用以下 XML 进行响应，以提供东京的位置代码的天气信息。 XML 符合 Outlook 天气信息 XML 架构。
   
@@ -181,8 +181,8 @@ Contoso 天气使用以下 XML 进行响应，以提供东京的位置代码的�
 <?xml version="1.0"?>
 <weatherdata>
   <weather timezone="9" attribution="Data provided by Trey Research" 
-    degreetype="F" imagerelativeurl="http://contoso.com/images/en-us/" 
-    url="http://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
+    degreetype="F" imagerelativeurl="https://contoso.com/images/en-us/" 
+    url="https://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
     weatherlocationname="Tokyo, JPN" 
     weatherlocationcode="wc:JAXX0085">
       <current winddisplay="9 mph NNW" windspeed="9" humidity="90" feelslike="44" 

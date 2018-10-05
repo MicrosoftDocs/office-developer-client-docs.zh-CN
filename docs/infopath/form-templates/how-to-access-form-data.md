@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: 如果要扩展 InfoPath 表单的功能，通常必须以编程方式访问有关表单的基础 XML 文档的信息，访问 XML 文档所包含的数据或对 XML 文档执行某操作。InfoPath 对象模型通过结合使用 XmlForm 类和 XmlFormCollection 类来支持对表单的基础 XML 文档的访问和操作。
-ms.openlocfilehash: c39862fd404575fe95bc1986ce7ab7d9689acfb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386829"
 ---
 # <a name="access-form-data"></a>访问表单数据
 
@@ -62,7 +62,7 @@ ms.locfileid: "19774018"
 |[DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) 属性  <br/> |获取与表单关联的 [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) 对象。  <br/> |
 |[Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx) 属性  <br/> |获取一个值，该值指示表单中的数据自上次保存之后是否被修改过。  <br/> |
 |[Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) 属性  <br/> |获取一个对与表单关联的 [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) 的引用。  <br/> |
-|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) 属性  <br/> |获取一个 [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx)，用于使用 [System.Reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx) 访问表单的主要表单代码文件中包含的函数和全局变量。  <br/> |
+|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) 属性  <br/> |获取一个 [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx)，用于使用 [System.Reflection](https://msdn.microsoft.com/library/system.reflection(v=vs.110).aspx) 访问表单的主要表单代码文件中包含的函数和全局变量。  <br/> |
 |[FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx) 属性  <br/> |获取一个对 [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) 类型的属性包的引用，启用浏览器功能的表单可以使用该属性包来维护服务器上各个会话的状态信息。  <br/> |
 |[Host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx) 属性  <br/> |获取一个 [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx)，在 InfoPath 的宿主实例中运行的代码可以使用它访问宿主应用程序的对象模型。  <br/> |
 |[Hosted](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx) 属性  <br/> |获取一个值，指示 InfoPath 是否作为控件承载在另一个应用程序中。  <br/> |

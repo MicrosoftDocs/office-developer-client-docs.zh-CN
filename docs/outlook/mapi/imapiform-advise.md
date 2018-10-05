@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591070"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387529"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 注册的窗体查看有关影响窗体的事件通知。
   
@@ -54,13 +54,13 @@ E_OUTOFMEMORY
   
 > 由于内存不足，注册成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看器调用窗体**IMAPIForm::Advise**方法来注册到窗体发生更改时通知。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-保留副本的视图的建议，以便您可以使用该事件发生时调用相应的[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md)方法_pAdvise_参数中传递的接收器指针。 呼叫视图建议接收器的[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx)方法保留指针，直到通知注册被取消。 设为非零值数_pulConnection_参数的内容。 
+保留副本的视图的建议，以便您可以使用该事件发生时调用相应的[IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md)方法_pAdvise_参数中传递的接收器指针。 呼叫视图建议接收器的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx)方法保留指针，直到通知注册被取消。 设为非零值数_pulConnection_参数的内容。 
   
 多个窗体实现帮助程序对象来处理注册和事件的后续的通知。 
   

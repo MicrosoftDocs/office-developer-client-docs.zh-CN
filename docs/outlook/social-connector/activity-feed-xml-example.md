@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa50ca36-8d01-4770-9d9c-30a5baa146ff
 description: 本主题中的 XML 示例为活动源后它为社交网络调用 ISocialSession2::GetActivitiesEx 方法返回 Outlook Social Connector (OSC) 到的 XML 字符串。
-ms.openlocfilehash: ab27ddfad5044994a19bb32759994a0e98c39ae6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6370b559c5160bfa48d32afa77715e9a7c126aab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779193"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390462"
 ---
 # <a name="activity-feed-xml-example"></a>活动源的 XML 示例
 
@@ -47,7 +47,7 @@ ms.locfileid: "19779193"
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<activityFeed xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<activityFeed xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <network>Contoso</network>
   <activities>
     <activityDetails>
@@ -61,16 +61,16 @@ ms.locfileid: "19779193"
           <name>Publisher</name>
           <id>4667647</id>
           <nameHint>Melissa Macbeth</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="listVariable">
           <name>ProfilePhoto</name>
           <listItems>
             <simpleTemplateVariable type="pictureVariable">
               <name>Photo</name>
-              <value>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</value>
+              <value>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</value>
               <altText>Melissa Macbeth</altText>
-              <href>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</href>
+              <href>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103873861033</href>
             </simpleTemplateVariable>
           </listItems>
         </templateVariable>
@@ -87,16 +87,16 @@ ms.locfileid: "19779193"
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="listVariable">
           <name>ProfilePhoto</name>
           <listItems>
             <simpleTemplateVariable type="pictureVariable">
               <name>Photo</name>
-              <value>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</value>
+              <value>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</value>
               <altText>Michael Affronti</altText>
-              <href>http://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</href>
+              <href>https://office.microsoft.com/global/images/default.aspx?assetid=ZA103895491033</href>
             </simpleTemplateVariable>
           </listItems>
         </templateVariable>
@@ -113,7 +113,7 @@ ms.locfileid: "19779193"
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com</profileUrl>
+          <profileUrl>https://www.contoso.com</profileUrl>
         </templateVariable>
         <templateVariable type="textVariable">
           <name>statusText</name>
@@ -132,12 +132,12 @@ ms.locfileid: "19779193"
           <name>Publisher</name>
           <id>5015012</id>
           <nameHint>Michael Affronti</nameHint>
-          <profileUrl>http://www.contoso.com/</profileUrl>
+          <profileUrl>https://www.contoso.com/</profileUrl>
         </templateVariable>
         <templateVariable type="linkVariable">
           <name>blogPost</name>
           <text>Connect your Inbox to Facebook and Windows Live with the Outlook Social Connector</text>
-          <value>http://blogs.office.com/b/office_blog/archive/2010/07/13/connect-to-facebook-and-windows-live-with-the-outlook-social-connector.aspx</value>
+          <value>https://blogs.office.com/b/office_blog/archive/2010/07/13/connect-to-facebook-and-windows-live-with-the-outlook-social-connector.aspx</value>
         </templateVariable>
       </templateVariables>
     </activityDetails>
@@ -150,7 +150,7 @@ ms.locfileid: "19779193"
         <type>Photo</type>
         <title>{publisher:Publisher} has a new profile photo: </title>
         <data>{list:ProfilePhoto({picture:Photo})}</data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
     <activityTemplateContainer>
@@ -160,7 +160,7 @@ ms.locfileid: "19779193"
         <type>Status Update</type>
         <title>{publisher:Publisher}: {text:statusText}</title>
                 <data></data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
     <activityTemplateContainer>
@@ -170,7 +170,7 @@ ms.locfileid: "19779193"
         <type>Other</type>
         <title>{publisher:Publisher} wrote a new blog post {link:blogPost}</title>
                 <data></data>
-        <icon>http://www.microsoft.com/about/images/rss_button.gif</icon>
+        <icon>https://www.microsoft.com/about/images/rss_button.gif</icon>
       </activityTemplate>
     </activityTemplateContainer>
   </templates>

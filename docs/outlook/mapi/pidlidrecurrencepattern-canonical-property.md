@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac21ba98-f16b-4365-9134-bca7748189ee
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 12a55ec4dfe0fb53a07aef73cb4e96771379e483
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d94ac430df54fc03d96ac761c53ca20201d899c2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589222"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386297"
 ---
 # <a name="pidlidrecurrencepattern-canonical-property"></a>PidLidRecurrencePattern 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定定期模式的 calendar 对象的说明。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22589222"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果设置此属性，它必须设置为**dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) 属性指定重复的说明。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22589222"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

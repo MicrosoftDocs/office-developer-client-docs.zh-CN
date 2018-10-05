@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: eb04983015e8557541e69981ec130ebf07598655
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de2342ef4d3e9d06f198e06dc19c65b7b144624f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588368"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387907"
 ---
 # <a name="pidtagstatus-canonical-property"></a>PidTagStatus 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含定义文件夹的状态标志的 32 位位掩码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22588368"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 文件夹此属性是类似于邮件的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性。 它的标志为客户端应用程序仅提供并不影响消息存储库。 客户端可以使用或忽略这些设置。 客户端还可以定义自己的此属性的客户端贴合位的值。
   
@@ -64,11 +64,11 @@ FLDSTATUS_TAGGED
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

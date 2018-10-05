@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6f3db5ac-f1cb-4c55-ab88-c126dd5f48ee
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2fa762a44a107f826923d71faa79fe865413c55c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 474df017954618e6411494454c1405445563b862
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581039"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386990"
 ---
 # <a name="pidlidverbresponse-canonical-property"></a>PidLidVerbResponse 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定回应者选择的投票选项。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22581039"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性通常设置为在其回应投票**dispidVerbStream** ([PidLidVerbStream](pidlidverbstream-canonical-property.md)) 属性中包含的分隔值之一。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22581039"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     

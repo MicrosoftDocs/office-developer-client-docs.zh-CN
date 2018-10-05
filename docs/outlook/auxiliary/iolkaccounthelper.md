@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
-ms.openlocfilehash: 3c28b1e8ab7e2d72d27cc6545b6ef57834ef5b6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 241babe45b543fb00c0d2756a2e846303a1717b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774326"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386409"
 ---
 # <a name="iolkaccounthelper"></a>IOlkAccountHelper
 
@@ -21,7 +21,7 @@ ms.locfileid: "19774326"
 
 |||
 |:-----|:-----|
-|继承：  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|继承：  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |提供者：  <br/> |客户端  <br/> |
 |接口标识符：  <br/> |IID_IOlkAccountHelper  <br/> |
    

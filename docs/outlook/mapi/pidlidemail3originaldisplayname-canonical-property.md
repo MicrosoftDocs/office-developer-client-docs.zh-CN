@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f3fa392a-c3b1-46dd-bf9b-5ce310719542
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0c85656c7e618a2329470f8326f434031726d1a2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e69bcde35bcfec7746893ee18423aca3a24a6c4a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590930"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389076"
 ---
 # <a name="pidlidemail3originaldisplayname-canonical-property"></a>PidLidEmail3OriginalDisplayName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定对应于指定为该联系人的电子邮件地址的第三个显示名称。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22590930"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果**dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) 属性的值为"SMTP"，各自**dispidEmail3OriginalDisplayName**属性的值应等于各自**的值dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md))。 此属性的用途是显示的替代的用户友好地址，它等效于**dispidEmail3EmailAddress**中。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22590930"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的联系人和个人通讯组列表。
     

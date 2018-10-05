@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: 指定合并的模具窗口的窗口是其成员的组。
-ms.openlocfilehash: bcc14e5bc685cf3dc5f6308c8cc9169f7d1b99c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c90ad41faa1444875ac6225942d56519adcc0f33
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781425"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386326"
 ---
 # <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>StencilGroup 元素 （Window_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781425"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |windows.xml  <br/> |
    

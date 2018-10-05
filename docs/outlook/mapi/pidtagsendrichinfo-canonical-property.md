@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a1db4ba7a70695b17631ca13f1728043be8164bd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7ad27d757d4ed6df58c597bf17d9e5412f83457
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575964"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386437"
 ---
 # <a name="pidtagsendrichinfo-canonical-property"></a>PidTagSendRichInfo 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 如果收件人可以接收所有的消息内容，包括富文本格式 (RTF) 和对象链接与嵌入 (OLE) 对象，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22575964"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议通讯组列表和邮件用户对象公开此属性。 
   
@@ -59,19 +59,19 @@ ms.locfileid: "22575964"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     
-[[MS OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件消息对象的约定。
     

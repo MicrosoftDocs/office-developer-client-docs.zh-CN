@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a0f4ae75117dff3610175b785ab3f982cc7e7552
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c32cc61fea63cd38215c30e04e8a467d4901cc9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590405"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387312"
 ---
 # <a name="pidtagprimarysendaccount-canonical-property"></a>PidTagPrimarySendAccount 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个字符串，用于将邮件发送第一台服务器的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22590405"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Account  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 指定客户端用于将邮件发送第一台服务器。 这些属性的格式是实现相关。 这些属性可由客户端用来确定哪些服务器直接通过，邮件是可选但值没有任何意义到服务器。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22590405"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     

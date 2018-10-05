@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 66aa5fe08b1c0be3906fa9a0483bbdec37c095c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 29d53ba1242014a501a01d161c19dade164f393a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564498"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391771"
 ---
 # <a name="launching-a-new-compose-form"></a>启动新的撰写表单
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 窗体服务器实施应产生预期方法调用与其窗体服务器的以下序列和表单对象时客户端应用程序打开一个新邮件以撰写：
   
@@ -29,7 +29,7 @@ ms.locfileid: "22564498"
     
 3. MAPI 窗体管理器加载窗体服务器中，如果它不是内存，并从窗体服务器获取[IMAPIForm](imapiformiunknown.md)接口。 
     
-4. 客户端应用程序所需的结果**IMAPIForm**接口，并调用[IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法获取对象的[IPersistMessage](ipersistmessageiunknown.md)接口。 
+4. 客户端应用程序所需的结果**IMAPIForm**接口，并调用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法获取对象的[IPersistMessage](ipersistmessageiunknown.md)接口。 
     
 5. 客户端应用程序调用[IPersistMessage::InitNew](ipersistmessage-initnew.md)方法[IMessage](imessageimapiprop.md)，视图上下文相关联的 form 对象并告知接收器对象。
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6cfcc048-03b9-4e34-bb92-480fe808e910
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7e8a624090181ae35e4bf2828f72b645e5011728
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b4e8ef3f38a373cd3bab7af6f01d42113fe5fdc3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570049"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391421"
 ---
 # <a name="pidlidlogtype-canonical-property"></a>PidLidLogType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含日记应用程序 (例如"MSWord") 的显示名称，通常是日志消息，通常为 string 自由格式属性。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22570049"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的日志。
     

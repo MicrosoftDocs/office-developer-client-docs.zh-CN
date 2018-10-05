@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
 description: 与 InfoPath 2003 对象模型兼容的表单模板项目中用于添加事件处理程序函数的菜单命令在本质上与其他类型的表单模板相同。
-ms.openlocfilehash: 9f037c59180b9c8d858ec73d79ef892974efe483
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773995"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386703"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>使用 InfoPath 对象模型添加事件处理程序
 
@@ -91,7 +91,7 @@ ms.locfileid: "19773995"
   
 ```xml
 <?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema">
     <xsd:element name="catalog">
         <xsd:complexType>
             <xsd:sequence>

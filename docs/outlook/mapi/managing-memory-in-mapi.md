@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c30aa631e70f8f4be52c2fd42dd6bfad900f379e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 66489c09be641d8fe9ae5f3ffff46a6d5004f473
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566157"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388068"
 ---
 # <a name="managing-memory-in-mapi"></a>管理 MAPI 中的内存
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 了解如何以及何时以分配和释放内存是使用 MAPI 编程的重要组成部分。 MAPI 提供功能和宏的客户端或服务提供程序可用于管理内存中以一致方式。 三个函数，如下所示：
   
@@ -43,6 +43,6 @@ ms.locfileid: "22566157"
 |[SizedDtblGroupBox](sizeddtblgroupbox.md) <br/> |[SizedSSortOrderSet](sizedssortorderset.md) <br/> |
 |[SizedDtblLabel](sizeddtbllabel.md) <br/> | <br/> |
    
-MAPI 还支持[IMalloc](http://msdn.microsoft.com/en-us/library/ms678425%28VS.85%29.aspx)的 COM 接口使用的内存管理。 服务提供商在初始化时通过 MAPI 授予**IMalloc**接口指针和还可以检索一星到[MAPIGetDefaultMalloc](mapigetdefaultmalloc.md)函数。 用于通过 MAPI 函数管理内存使用**IMalloc**方法的主要优点是，使用 COM 方法就可以重新分配现有缓冲区。 MAPI 内存函数不支持重新分配。 
+MAPI 还支持[IMalloc](https://msdn.microsoft.com/library/ms678425%28VS.85%29.aspx)的 COM 接口使用的内存管理。 服务提供商在初始化时通过 MAPI 授予**IMalloc**接口指针和还可以检索一星到[MAPIGetDefaultMalloc](mapigetdefaultmalloc.md)函数。 用于通过 MAPI 函数管理内存使用**IMalloc**方法的主要优点是，使用 COM 方法就可以重新分配现有缓冲区。 MAPI 内存函数不支持重新分配。 
   
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
 description: 显示文本的格式属性运行字体、 颜色、 文本样式、 大小写，例如形状的相对于基线上、 位置和磅值。
-ms.openlocfilehash: 11194506a593a445656852b107f6fd780a39b9b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d8aa3e508b2f045a2cf38faaa795922dcc14803
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781134"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387487"
 ---
 # <a name="row-element-character-section-visio-xml"></a>Row 元素 （Character 内容） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781134"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml，母版页 #.xml、 页面 #.xml  <br/> |
    

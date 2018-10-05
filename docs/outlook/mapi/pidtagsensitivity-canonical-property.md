@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f30a5848e07de03e61d3a63188aa7b608504ff24
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eab8ce71d28a672d7069a1c16da5cd2cc2e149f7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573731"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391736"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>PidTagSensitivity 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "22573731"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议消息对象公开此属性。
   
@@ -60,11 +60,11 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

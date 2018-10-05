@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0f65c197999f23d959657cbfee9c6fbb0aaf439f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5b0db4b3bc7903aae74fa7275d3e27e22d628514
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566283"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387746"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>PidTagSearchRecipientEmailBcc 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含所查询的电子邮件地址或显示名称的存储区上的未发送邮件**密件抄送**行中的收件人列表中的 Unicode 字符串。 
   
@@ -32,7 +32,7 @@ ms.locfileid: "22566283"
 |属性类型  <br/> |PT_UNICODE  <br/> |
 |访问权限  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性才相关的尚未发送，存储区上的邮件，因为已发送或接收的消息不包含密件抄送信息。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22566283"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Microsoft Exchange Server 协议规范参考。
     
-[[MS OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > 指定的属性和操作的搜索文件夹列表配置的操作。
     

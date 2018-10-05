@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f6fd33d6-04fb-4801-a004-fb80a14ca79d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 21d1ee071aa5df24d0ddf641ff6f458a7de1cb3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eaff90de919c1bdc04983bce32a2aa808ae56013
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594276"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389608"
 ---
 # <a name="pidlidappointmentendwhole-canonical-property"></a>PidLidAppointmentEndWhole 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 表示的日期和约会结束的时间。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22594276"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性对应于 Microsoft Office Outlook 对象模型中的约会的**dispidApptEndWhole**属性。 
   
@@ -45,11 +45,11 @@ ms.locfileid: "22594276"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

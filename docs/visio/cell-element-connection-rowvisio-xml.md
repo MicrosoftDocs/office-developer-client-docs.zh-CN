@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
 description: 包含的 x 轴或 y 坐标、 水平或垂直方向或形状上的单个连接点类型。
-ms.openlocfilehash: 52328e50b185a96ebb06634248b93a4332ac35c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 367d7e462c1eb5b8fa6ee0572346f45ad621fa15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779820"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388957"
 ---
 # <a name="cell-element-connection-row-visio-xml"></a>单元格元素 （连接行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779820"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

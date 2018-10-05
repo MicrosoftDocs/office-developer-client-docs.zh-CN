@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f4f1070b89971c631fd855a6f84d56b699152421
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e4d209c4f185ff253476beb04913e6a64884f9b6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566843"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388019"
 ---
 # <a name="pidtagruleproviderdata-canonical-property"></a>PidTagRuleProviderData 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 客户端将使用的客户端设置不透明属性。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22566843"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 服务器必须保留此属性的值，如果它已设置由客户端，但必须规则评估和处理过程中忽略其内容。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22566843"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > 处理传入的电子邮件服务器上。
     

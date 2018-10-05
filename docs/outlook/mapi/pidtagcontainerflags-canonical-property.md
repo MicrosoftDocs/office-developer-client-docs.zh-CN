@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b62fc62bb9232b7106019fca82f502221e50bad0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c9c446097213e5b743a47ec32db17ec0afe63b78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583559"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389181"
 ---
 # <a name="pidtagcontainerflags-canonical-property"></a>PidTagContainerFlags 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含描述的通讯簿容器功能标志的位掩码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22583559"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 可以为位掩码设置一个或多个以下标志：
   
@@ -68,15 +68,15 @@ AB_MODIFIABLE 标志并不表示哪些类型的条目可以添加到容器。 �
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     
-[[MS NSPI]](http://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[MS NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
 > 处理与名称服务提供程序界面 (NSPI) 服务器的客户端的通信。
     

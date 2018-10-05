@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 65b73d0f-f1f1-4c11-8834-f7c736a30ffc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c97ca1ff27eab1a935317b99cfbf4016d18fa7c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 95af98acad6b2aa4bc95ea5e6478e6ca21c8eb8f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587486"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391379"
 ---
 # <a name="pidlidtasklastupdate-canonical-property"></a>PidLidTaskLastUpdate 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示的协调世界时 (UTC) 和日期已对任务进行且由**dispidTaskHistory** ([PidLidTaskHistory](pidlidtasklastupdate-canonical-property.md)) 属性的最新更改。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22587486"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > 定义模型的任务、 任务分配和任务更新电子等效项的多个对象。
     
