@@ -12,60 +12,60 @@ api_type:
 - COM
 ms.assetid: 1009f0ea-6f35-484d-b04d-5b6e844c14dd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 07653bea747e6e697cb1edb5669ae106c9e213fe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 42eec18c74005e586657482ef6634669c489314d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591476"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400381"
 ---
-# <a name="pidlidreminderfileparameter-canonical-property"></a><span data-ttu-id="1ba6a-103">PidLidReminderFileParameter 规范属性</span><span class="sxs-lookup"><span data-stu-id="1ba6a-103">PidLidReminderFileParameter Canonical Property</span></span>
+# <a name="pidlidreminderfileparameter-canonical-property"></a><span data-ttu-id="89e36-103">PidLidReminderFileParameter 规范属性</span><span class="sxs-lookup"><span data-stu-id="89e36-103">PidLidReminderFileParameter Canonical Property</span></span>
 
   
   
-<span data-ttu-id="1ba6a-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1ba6a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="89e36-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="89e36-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1ba6a-105">指定客户端应在该对象的提醒过期时播放的声音的文件名。</span><span class="sxs-lookup"><span data-stu-id="1ba6a-105">Specifies the filename of the sound that a client should play when the reminder for that object becomes overdue.</span></span>
+<span data-ttu-id="89e36-105">指定客户端应在该对象的提醒过期时播放的声音的文件名。</span><span class="sxs-lookup"><span data-stu-id="89e36-105">Specifies the filename of the sound that a client should play when the reminder for that object becomes overdue.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1ba6a-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="1ba6a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1ba6a-107">dispidReminderFileParam</span><span class="sxs-lookup"><span data-stu-id="1ba6a-107">dispidReminderFileParam</span></span>  <br/> |
-|<span data-ttu-id="1ba6a-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="1ba6a-108">Property set:</span></span>  <br/> |<span data-ttu-id="1ba6a-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="1ba6a-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="1ba6a-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="1ba6a-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="1ba6a-111">0x0000851F</span><span class="sxs-lookup"><span data-stu-id="1ba6a-111">0x0000851F</span></span>  <br/> |
-|<span data-ttu-id="1ba6a-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="1ba6a-112">Data type:</span></span>  <br/> |<span data-ttu-id="1ba6a-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="1ba6a-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="1ba6a-114">区域：</span><span class="sxs-lookup"><span data-stu-id="1ba6a-114">Area:</span></span>  <br/> |<span data-ttu-id="1ba6a-115">Reminder</span><span class="sxs-lookup"><span data-stu-id="1ba6a-115">Reminder</span></span>  <br/> |
+|<span data-ttu-id="89e36-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="89e36-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="89e36-107">dispidReminderFileParam</span><span class="sxs-lookup"><span data-stu-id="89e36-107">dispidReminderFileParam</span></span>  <br/> |
+|<span data-ttu-id="89e36-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="89e36-108">Property set:</span></span>  <br/> |<span data-ttu-id="89e36-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="89e36-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="89e36-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="89e36-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="89e36-111">0x0000851F</span><span class="sxs-lookup"><span data-stu-id="89e36-111">0x0000851F</span></span>  <br/> |
+|<span data-ttu-id="89e36-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="89e36-112">Data type:</span></span>  <br/> |<span data-ttu-id="89e36-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="89e36-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="89e36-114">区域：</span><span class="sxs-lookup"><span data-stu-id="89e36-114">Area:</span></span>  <br/> |<span data-ttu-id="89e36-115">Reminder</span><span class="sxs-lookup"><span data-stu-id="89e36-115">Reminder</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="1ba6a-116">注解</span><span class="sxs-lookup"><span data-stu-id="1ba6a-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="89e36-116">说明</span><span class="sxs-lookup"><span data-stu-id="89e36-116">Remarks</span></span>
 
-<span data-ttu-id="1ba6a-117">如果此属性不存在，则客户端可以使用默认值。</span><span class="sxs-lookup"><span data-stu-id="1ba6a-117">If this property is not present, the client may use a default value.</span></span>
+<span data-ttu-id="89e36-117">如果此属性不存在，则客户端可以使用默认值。</span><span class="sxs-lookup"><span data-stu-id="89e36-117">If this property is not present, the client may use a default value.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="1ba6a-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="1ba6a-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="89e36-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="89e36-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="1ba6a-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="1ba6a-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="89e36-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="89e36-119">Protocol specifications</span></span>
 
-<span data-ttu-id="1ba6a-120">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1ba6a-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="89e36-120">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="89e36-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="1ba6a-121">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="1ba6a-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="89e36-121">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="89e36-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="1ba6a-122">[[MS OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1ba6a-122">[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="89e36-122">[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="89e36-122">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="1ba6a-123">指定属性和电子邮件和其他对象提醒的交互模型。</span><span class="sxs-lookup"><span data-stu-id="1ba6a-123">Specifies the properties and the interaction model for email and other object reminders.</span></span>
+> <span data-ttu-id="89e36-123">指定属性和电子邮件和其他对象提醒的交互模型。</span><span class="sxs-lookup"><span data-stu-id="89e36-123">Specifies the properties and the interaction model for email and other object reminders.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="1ba6a-124">头文件</span><span class="sxs-lookup"><span data-stu-id="1ba6a-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="89e36-124">头文件</span><span class="sxs-lookup"><span data-stu-id="89e36-124">Header files</span></span>
 
-<span data-ttu-id="1ba6a-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1ba6a-125">Mapidefs.h</span></span>
+<span data-ttu-id="89e36-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="89e36-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="1ba6a-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="1ba6a-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="89e36-126">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="89e36-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="1ba6a-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1ba6a-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="89e36-127">另请参阅</span><span class="sxs-lookup"><span data-stu-id="89e36-127">See also</span></span>
 
 
 
-[<span data-ttu-id="1ba6a-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="1ba6a-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="89e36-128">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="89e36-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="1ba6a-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="1ba6a-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="89e36-129">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="89e36-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="1ba6a-130">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="1ba6a-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="89e36-130">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="89e36-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="1ba6a-131">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="1ba6a-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="89e36-131">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="89e36-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

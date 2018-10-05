@@ -6,24 +6,24 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1110a656-d8cd-19d0-1af0-31a6675bf89b
-ms.openlocfilehash: 9934150dbca6e7a2787335a7afd939dcb48a4a15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4f48934d436fd0830019898cb6d24e940937f539
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781387"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399072"
 ---
-# <a name="snapanglestype-complextype-visio-xml"></a><span data-ttu-id="9bae1-102">SnapAngles_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="9bae1-102">SnapAngles_Type complexType ('Visio XML')</span></span>
+# <a name="snapanglestype-complextype-visio-xml"></a><span data-ttu-id="7eab7-102">SnapAngles_Type 复杂类型 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="7eab7-102">SnapAngles_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="9bae1-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="9bae1-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="7eab7-103">类型信息</span><span class="sxs-lookup"><span data-stu-id="7eab7-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="9bae1-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="9bae1-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="9bae1-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="9bae1-105">**Schema file**</span></span> <br/> |<span data-ttu-id="9bae1-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="9bae1-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="9bae1-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="9bae1-107">**Extension base**</span></span> <br/> |<span data-ttu-id="9bae1-108">无</span><span class="sxs-lookup"><span data-stu-id="9bae1-108">None</span></span>  <br/> |
+|<span data-ttu-id="7eab7-104">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="7eab7-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="7eab7-105">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="7eab7-105">**Schema file**</span></span> <br/> |<span data-ttu-id="7eab7-106">VisioSchema15 2012 06 05.xsd</span><span class="sxs-lookup"><span data-stu-id="7eab7-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="7eab7-107">**扩展基**</span><span class="sxs-lookup"><span data-stu-id="7eab7-107">**Extension base**</span></span> <br/> |<span data-ttu-id="7eab7-108">无</span><span class="sxs-lookup"><span data-stu-id="7eab7-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="9bae1-109">定义</span><span class="sxs-lookup"><span data-stu-id="9bae1-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="7eab7-109">定义</span><span class="sxs-lookup"><span data-stu-id="7eab7-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="SnapAngles_Type">
@@ -40,18 +40,18 @@ ms.locfileid: "19781387"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="9bae1-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="9bae1-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="7eab7-110">元素和属性</span><span class="sxs-lookup"><span data-stu-id="7eab7-110">Elements and attributes</span></span>
 
-<span data-ttu-id="9bae1-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="9bae1-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="7eab7-111">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="7eab7-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="9bae1-112">子元素</span><span class="sxs-lookup"><span data-stu-id="9bae1-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="7eab7-112">子元素</span><span class="sxs-lookup"><span data-stu-id="7eab7-112">Child elements</span></span>
 
-|<span data-ttu-id="9bae1-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="9bae1-113">**Element**</span></span>|<span data-ttu-id="9bae1-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="9bae1-114">**Type**</span></span>|<span data-ttu-id="9bae1-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="9bae1-115">**Description**</span></span>|
+|<span data-ttu-id="7eab7-113">**元素**</span><span class="sxs-lookup"><span data-stu-id="7eab7-113">**Element**</span></span>|<span data-ttu-id="7eab7-114">**类型**</span><span class="sxs-lookup"><span data-stu-id="7eab7-114">**Type**</span></span>|<span data-ttu-id="7eab7-115">**说明**</span><span class="sxs-lookup"><span data-stu-id="7eab7-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="9bae1-116">SnapAngle</span><span class="sxs-lookup"><span data-stu-id="9bae1-116">SnapAngle</span></span>](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="9bae1-117">SnapAngle_Type</span><span class="sxs-lookup"><span data-stu-id="9bae1-117">SnapAngle_Type</span></span>](snapangle_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="7eab7-116">SnapAngle</span><span class="sxs-lookup"><span data-stu-id="7eab7-116">SnapAngle</span></span>](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="7eab7-117">SnapAngle_Type</span><span class="sxs-lookup"><span data-stu-id="7eab7-117">SnapAngle_Type</span></span>](snapangle_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="9bae1-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="9bae1-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="7eab7-118">Attributes</span><span class="sxs-lookup"><span data-stu-id="7eab7-118">Attributes</span></span>
 
-<span data-ttu-id="9bae1-119">无。</span><span class="sxs-lookup"><span data-stu-id="9bae1-119">None.</span></span>
+<span data-ttu-id="7eab7-119">无。</span><span class="sxs-lookup"><span data-stu-id="7eab7-119">None.</span></span>
   
 

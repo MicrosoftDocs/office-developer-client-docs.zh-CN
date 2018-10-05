@@ -12,56 +12,56 @@ api_type:
 - COM
 ms.assetid: e24c183c-8c20-4d9c-a3c6-f26dc0cd0135
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 74f36ad637b08f813d71c576ad4e291309415ac3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e03349b987c2a73b43ad5c5b59f92d9ea834b1b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575922"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397882"
 ---
-# <a name="pidlidverbstream-canonical-property"></a><span data-ttu-id="8caaa-103">PidLidVerbStream 规范属性</span><span class="sxs-lookup"><span data-stu-id="8caaa-103">PidLidVerbStream Canonical Property</span></span>
+# <a name="pidlidverbstream-canonical-property"></a><span data-ttu-id="2df9f-103">PidLidVerbStream 规范属性</span><span class="sxs-lookup"><span data-stu-id="2df9f-103">PidLidVerbStream Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8caaa-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8caaa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2df9f-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2df9f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8caaa-105">指定哪些投票响应用户可以进行响应的消息。</span><span class="sxs-lookup"><span data-stu-id="8caaa-105">Specifies what voting responses the user can make in response to the message.</span></span>
+<span data-ttu-id="2df9f-105">指定哪些投票响应用户可以进行响应的消息。</span><span class="sxs-lookup"><span data-stu-id="2df9f-105">Specifies what voting responses the user can make in response to the message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8caaa-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="8caaa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8caaa-107">dispidVerbStream</span><span class="sxs-lookup"><span data-stu-id="8caaa-107">dispidVerbStream</span></span>  <br/> |
-|<span data-ttu-id="8caaa-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="8caaa-108">Property set:</span></span>  <br/> |<span data-ttu-id="8caaa-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="8caaa-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="8caaa-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="8caaa-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="8caaa-111">0x00008520</span><span class="sxs-lookup"><span data-stu-id="8caaa-111">0x00008520</span></span>  <br/> |
-|<span data-ttu-id="8caaa-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="8caaa-112">Data type:</span></span>  <br/> |<span data-ttu-id="8caaa-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="8caaa-113">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="8caaa-114">区域：</span><span class="sxs-lookup"><span data-stu-id="8caaa-114">Area:</span></span>  <br/> |<span data-ttu-id="8caaa-115">运行时配置</span><span class="sxs-lookup"><span data-stu-id="8caaa-115">Run-time configuration</span></span>  <br/> |
+|<span data-ttu-id="2df9f-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="2df9f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2df9f-107">dispidVerbStream</span><span class="sxs-lookup"><span data-stu-id="2df9f-107">dispidVerbStream</span></span>  <br/> |
+|<span data-ttu-id="2df9f-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="2df9f-108">Property set:</span></span>  <br/> |<span data-ttu-id="2df9f-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="2df9f-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="2df9f-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="2df9f-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="2df9f-111">0x00008520</span><span class="sxs-lookup"><span data-stu-id="2df9f-111">0x00008520</span></span>  <br/> |
+|<span data-ttu-id="2df9f-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="2df9f-112">Data type:</span></span>  <br/> |<span data-ttu-id="2df9f-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="2df9f-113">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="2df9f-114">区域：</span><span class="sxs-lookup"><span data-stu-id="2df9f-114">Area:</span></span>  <br/> |<span data-ttu-id="2df9f-115">运行时配置</span><span class="sxs-lookup"><span data-stu-id="2df9f-115">Run-time configuration</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="8caaa-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="8caaa-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="2df9f-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="2df9f-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="8caaa-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="8caaa-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="2df9f-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="2df9f-117">Protocol specifications</span></span>
 
-<span data-ttu-id="8caaa-118">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8caaa-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2df9f-118">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2df9f-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8caaa-119">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="8caaa-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="2df9f-119">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="2df9f-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="8caaa-120">[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8caaa-120">[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="2df9f-120">[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2df9f-120">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8caaa-121">指定的属性和操作所允许的电子邮件消息对象。</span><span class="sxs-lookup"><span data-stu-id="8caaa-121">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="2df9f-121">指定的属性和操作所允许的电子邮件消息对象。</span><span class="sxs-lookup"><span data-stu-id="2df9f-121">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="8caaa-122">头文件</span><span class="sxs-lookup"><span data-stu-id="8caaa-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="2df9f-122">头文件</span><span class="sxs-lookup"><span data-stu-id="2df9f-122">Header files</span></span>
 
-<span data-ttu-id="8caaa-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8caaa-123">Mapidefs.h</span></span>
+<span data-ttu-id="2df9f-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2df9f-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8caaa-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="8caaa-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="2df9f-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="2df9f-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8caaa-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8caaa-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2df9f-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2df9f-125">See also</span></span>
 
 
 
-[<span data-ttu-id="8caaa-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="8caaa-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="2df9f-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="2df9f-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8caaa-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="8caaa-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="2df9f-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="2df9f-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8caaa-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="8caaa-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="2df9f-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="2df9f-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8caaa-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="8caaa-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="2df9f-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="2df9f-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

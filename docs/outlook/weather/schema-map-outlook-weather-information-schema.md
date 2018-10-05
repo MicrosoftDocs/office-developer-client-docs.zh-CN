@@ -8,27 +8,27 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b2bf607-7c56-61a0-e40d-54af2b90aa6d
 description: 本主题演示 Outlook 天气信息 XML 架构的架构定义。
-ms.openlocfilehash: 827aa051eae45e3caa99be5c8e7f8f16f8bbff13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f2e91775b0fe0d9e9d1cfebe572ebc4aa6fa3e56
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779432"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396958"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="a4612-103">架构映射 （Outlook 天气信息架构）</span><span class="sxs-lookup"><span data-stu-id="a4612-103">Schema map (Outlook Weather Information Schema)</span></span>
+# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="a82e0-103">架构映射 （Outlook 天气信息架构）</span><span class="sxs-lookup"><span data-stu-id="a82e0-103">Schema map (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="a4612-104">本主题演示 Outlook 天气信息 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="a4612-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
+<span data-ttu-id="a82e0-104">本主题演示 Outlook 天气信息 XML 架构的架构定义。</span><span class="sxs-lookup"><span data-stu-id="a82e0-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>
 <xs:schema
   attributeFormDefault="unqualified" elementFormDefault="qualified"
-xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
-xmlns="http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+xmlns:xs="https://www.w3.org/2001/XMLSchema"
+targetNamespace="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
+xmlns="https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd"
 >
   <!-- get weather info  -->
-  <!-- http://weather.service.msn.com/data.aspx?src=vista&amp;weadegreetype=C&amp;culture=en-US&amp;wealocations=wc:10109953 -->
+  <!-- https://weather.service.msn.com/data.aspx?src=vista&amp;weadegreetype=C&amp;culture=en-US&amp;wealocations=wc:10109953 -->
   <xs:element name="weatherdata">
     <xs:annotation>
       <xs:documentation>Defines the weather element.</xs:documentation>

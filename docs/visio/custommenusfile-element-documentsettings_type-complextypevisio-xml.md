@@ -7,49 +7,49 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
 description: 包含定义自定义菜单和加速键的文档的 Microsoft Visio 用户界面 (.vsu) 文件的名称。
-ms.openlocfilehash: 2044c7e300dc51df8b8cd03ef861391d04494e0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 347660abab266493254b4dc2b47150f3b80fd371
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780002"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394377"
 ---
-# <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a><span data-ttu-id="f3db8-103">CustomMenusFile 元素 （DocumentSettings_Type 复杂类型） (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="f3db8-103">CustomMenusFile element (DocumentSettings_Type complexType) ('Visio XML')</span></span>
+# <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a><span data-ttu-id="5f7e2-103">CustomMenusFile 元素 （DocumentSettings_Type 复杂类型） (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="5f7e2-103">CustomMenusFile element (DocumentSettings_Type complexType) ('Visio XML')</span></span>
 
-<span data-ttu-id="f3db8-104">包含定义自定义菜单和加速键的文档的 Microsoft Visio 用户界面 (.vsu) 文件的名称。</span><span class="sxs-lookup"><span data-stu-id="f3db8-104">Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom menus and accelerators for a document.</span></span>
+<span data-ttu-id="5f7e2-104">包含定义自定义菜单和加速键的文档的 Microsoft Visio 用户界面 (.vsu) 文件的名称。</span><span class="sxs-lookup"><span data-stu-id="5f7e2-104">Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom menus and accelerators for a document.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="f3db8-105">元素信息</span><span class="sxs-lookup"><span data-stu-id="f3db8-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="5f7e2-105">元素信息</span><span class="sxs-lookup"><span data-stu-id="5f7e2-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f3db8-106">**元素类型**</span><span class="sxs-lookup"><span data-stu-id="f3db8-106">**Element type**</span></span> <br/> |[<span data-ttu-id="f3db8-107">CustomMenusFile_Type</span><span class="sxs-lookup"><span data-stu-id="f3db8-107">CustomMenusFile_Type</span></span>](custommenusfile_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="f3db8-108">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="f3db8-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="f3db8-109">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="f3db8-109">**Schema file**</span></span> <br/> |<span data-ttu-id="f3db8-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="f3db8-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="f3db8-111">**文档部件**</span><span class="sxs-lookup"><span data-stu-id="f3db8-111">**Document parts**</span></span> <br/> |<span data-ttu-id="f3db8-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="f3db8-112">document.xml</span></span>  <br/> |
+|<span data-ttu-id="5f7e2-106">**元素类型**</span><span class="sxs-lookup"><span data-stu-id="5f7e2-106">**Element type**</span></span> <br/> |[<span data-ttu-id="5f7e2-107">CustomMenusFile_Type</span><span class="sxs-lookup"><span data-stu-id="5f7e2-107">CustomMenusFile_Type</span></span>](custommenusfile_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="5f7e2-108">**命名空间**</span><span class="sxs-lookup"><span data-stu-id="5f7e2-108">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="5f7e2-109">**架构文件**</span><span class="sxs-lookup"><span data-stu-id="5f7e2-109">**Schema file**</span></span> <br/> |<span data-ttu-id="5f7e2-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="5f7e2-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="5f7e2-111">**文档部件**</span><span class="sxs-lookup"><span data-stu-id="5f7e2-111">**Document parts**</span></span> <br/> |<span data-ttu-id="5f7e2-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="5f7e2-112">document.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="f3db8-113">定义</span><span class="sxs-lookup"><span data-stu-id="f3db8-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="5f7e2-113">定义</span><span class="sxs-lookup"><span data-stu-id="5f7e2-113">Definition</span></span>
 
 ```XML
 < xs:element name="CustomMenusFile" type="CustomMenusFile_Type" minOccurs="0" maxOccurs="1" >
 </xs:element>
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="f3db8-114">元素和属性</span><span class="sxs-lookup"><span data-stu-id="f3db8-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="5f7e2-114">元素和属性</span><span class="sxs-lookup"><span data-stu-id="5f7e2-114">Elements and attributes</span></span>
 
-<span data-ttu-id="f3db8-115">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="f3db8-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="5f7e2-115">如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。</span><span class="sxs-lookup"><span data-stu-id="5f7e2-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="f3db8-116">父元素</span><span class="sxs-lookup"><span data-stu-id="f3db8-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="5f7e2-116">父元素</span><span class="sxs-lookup"><span data-stu-id="5f7e2-116">Parent elements</span></span>
 
-|<span data-ttu-id="f3db8-117">**元素**</span><span class="sxs-lookup"><span data-stu-id="f3db8-117">**Element**</span></span>|<span data-ttu-id="f3db8-118">**类型**</span><span class="sxs-lookup"><span data-stu-id="f3db8-118">**Type**</span></span>|<span data-ttu-id="f3db8-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="f3db8-119">**Description**</span></span>|
+|<span data-ttu-id="5f7e2-117">**元素**</span><span class="sxs-lookup"><span data-stu-id="5f7e2-117">**Element**</span></span>|<span data-ttu-id="5f7e2-118">**类型**</span><span class="sxs-lookup"><span data-stu-id="5f7e2-118">**Type**</span></span>|<span data-ttu-id="5f7e2-119">**说明**</span><span class="sxs-lookup"><span data-stu-id="5f7e2-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="f3db8-120">DocumentSettings</span><span class="sxs-lookup"><span data-stu-id="f3db8-120">DocumentSettings</span></span>](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f3db8-121">DocumentSettings_Type</span><span class="sxs-lookup"><span data-stu-id="f3db8-121">DocumentSettings_Type</span></span>](documentsettings_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="f3db8-122">包含指定文档设置的元素。</span><span class="sxs-lookup"><span data-stu-id="f3db8-122">Contains elements that specify document settings.</span></span>  <br/> |
+|[<span data-ttu-id="5f7e2-120">DocumentSettings</span><span class="sxs-lookup"><span data-stu-id="5f7e2-120">DocumentSettings</span></span>](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="5f7e2-121">DocumentSettings_Type</span><span class="sxs-lookup"><span data-stu-id="5f7e2-121">DocumentSettings_Type</span></span>](documentsettings_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="5f7e2-122">包含指定文档设置的元素。</span><span class="sxs-lookup"><span data-stu-id="5f7e2-122">Contains elements that specify document settings.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="f3db8-123">子元素</span><span class="sxs-lookup"><span data-stu-id="f3db8-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="5f7e2-123">子元素</span><span class="sxs-lookup"><span data-stu-id="5f7e2-123">Child elements</span></span>
 
-<span data-ttu-id="f3db8-124">无。</span><span class="sxs-lookup"><span data-stu-id="f3db8-124">None.</span></span>
+<span data-ttu-id="5f7e2-124">无。</span><span class="sxs-lookup"><span data-stu-id="5f7e2-124">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f3db8-125">属性</span><span class="sxs-lookup"><span data-stu-id="f3db8-125">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="5f7e2-125">属性</span><span class="sxs-lookup"><span data-stu-id="5f7e2-125">Attributes</span></span>
 
-<span data-ttu-id="f3db8-126">无。</span><span class="sxs-lookup"><span data-stu-id="f3db8-126">None.</span></span>
+<span data-ttu-id="5f7e2-126">无。</span><span class="sxs-lookup"><span data-stu-id="5f7e2-126">None.</span></span>
   
 

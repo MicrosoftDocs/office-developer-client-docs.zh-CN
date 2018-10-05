@@ -12,63 +12,63 @@ api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0ea7d0a17fdb6dba047cb97290d991ce384d4750
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3bf0f52dbeda37ac35024ae3bf38df8919e37b60
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573934"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393864"
 ---
-# <a name="pidtaginitialdetailspane-canonical-property"></a><span data-ttu-id="5ea28-103">PidTagInitialDetailsPane 规范属性</span><span class="sxs-lookup"><span data-stu-id="5ea28-103">PidTagInitialDetailsPane Canonical Property</span></span>
+# <a name="pidtaginitialdetailspane-canonical-property"></a><span data-ttu-id="7126b-103">PidTagInitialDetailsPane 规范属性</span><span class="sxs-lookup"><span data-stu-id="7126b-103">PidTagInitialDetailsPane Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5ea28-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5ea28-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7126b-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7126b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5ea28-105">指示显示模板以显示第一页。</span><span class="sxs-lookup"><span data-stu-id="5ea28-105">Indicates the page of a display template to display first.</span></span>
+<span data-ttu-id="7126b-105">指示显示模板以显示第一页。</span><span class="sxs-lookup"><span data-stu-id="7126b-105">Indicates the page of a display template to display first.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5ea28-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="5ea28-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5ea28-107">PR_INITIAL_DETAILS_PANE</span><span class="sxs-lookup"><span data-stu-id="5ea28-107">PR_INITIAL_DETAILS_PANE</span></span>  <br/> |
-|<span data-ttu-id="5ea28-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="5ea28-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5ea28-109">0x3F08</span><span class="sxs-lookup"><span data-stu-id="5ea28-109">0x3F08</span></span>  <br/> |
-|<span data-ttu-id="5ea28-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="5ea28-110">Data type:</span></span>  <br/> |<span data-ttu-id="5ea28-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="5ea28-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="5ea28-112">区域：</span><span class="sxs-lookup"><span data-stu-id="5ea28-112">Area:</span></span>  <br/> |<span data-ttu-id="5ea28-113">MAPI 显示表</span><span class="sxs-lookup"><span data-stu-id="5ea28-113">MAPI Display Tables</span></span>  <br/> |
+|<span data-ttu-id="7126b-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="7126b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7126b-107">PR_INITIAL_DETAILS_PANE</span><span class="sxs-lookup"><span data-stu-id="7126b-107">PR_INITIAL_DETAILS_PANE</span></span>  <br/> |
+|<span data-ttu-id="7126b-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="7126b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7126b-109">0x3F08</span><span class="sxs-lookup"><span data-stu-id="7126b-109">0x3F08</span></span>  <br/> |
+|<span data-ttu-id="7126b-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="7126b-110">Data type:</span></span>  <br/> |<span data-ttu-id="7126b-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="7126b-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="7126b-112">区域：</span><span class="sxs-lookup"><span data-stu-id="7126b-112">Area:</span></span>  <br/> |<span data-ttu-id="7126b-113">MAPI 显示表</span><span class="sxs-lookup"><span data-stu-id="7126b-113">MAPI Display Tables</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5ea28-114">注解</span><span class="sxs-lookup"><span data-stu-id="5ea28-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7126b-114">说明</span><span class="sxs-lookup"><span data-stu-id="7126b-114">Remarks</span></span>
 
-<span data-ttu-id="5ea28-115">它必须存在所有通讯簿对象的名称服务提供程序界面 (NSPI) 服务器上，并且必须具有的值为零 (0)。</span><span class="sxs-lookup"><span data-stu-id="5ea28-115">It must be present on all address book objects on an Name Service Provider Interface (NSPI) server, and must have the value zero (0).</span></span> <span data-ttu-id="5ea28-116">它必须未定义脱机通讯簿中的任何对象。</span><span class="sxs-lookup"><span data-stu-id="5ea28-116">It must not be defined for any objects in an Offline Address Book.</span></span>
+<span data-ttu-id="7126b-115">它必须存在所有通讯簿对象的名称服务提供程序界面 (NSPI) 服务器上，并且必须具有的值为零 (0)。</span><span class="sxs-lookup"><span data-stu-id="7126b-115">It must be present on all address book objects on an Name Service Provider Interface (NSPI) server, and must have the value zero (0).</span></span> <span data-ttu-id="7126b-116">它必须未定义脱机通讯簿中的任何对象。</span><span class="sxs-lookup"><span data-stu-id="7126b-116">It must not be defined for any objects in an Offline Address Book.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="5ea28-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="5ea28-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7126b-117">相关资源</span><span class="sxs-lookup"><span data-stu-id="7126b-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="5ea28-118">协议规范</span><span class="sxs-lookup"><span data-stu-id="5ea28-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="7126b-118">协议规范</span><span class="sxs-lookup"><span data-stu-id="7126b-118">Protocol specifications</span></span>
 
-<span data-ttu-id="5ea28-119">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5ea28-119">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7126b-119">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7126b-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5ea28-120">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="5ea28-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="7126b-120">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="7126b-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="5ea28-121">[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5ea28-121">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7126b-121">[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7126b-121">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5ea28-122">指定的属性和用户、 联系人、 组和资源的操作列表。</span><span class="sxs-lookup"><span data-stu-id="5ea28-122">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="7126b-122">指定的属性和用户、 联系人、 组和资源的操作列表。</span><span class="sxs-lookup"><span data-stu-id="7126b-122">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="5ea28-123">头文件</span><span class="sxs-lookup"><span data-stu-id="5ea28-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="7126b-123">头文件</span><span class="sxs-lookup"><span data-stu-id="7126b-123">Header files</span></span>
 
-<span data-ttu-id="5ea28-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5ea28-124">Mapidefs.h</span></span>
+<span data-ttu-id="7126b-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7126b-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5ea28-125">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="5ea28-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="7126b-125">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="7126b-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="5ea28-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="5ea28-126">Mapitags.h</span></span>
+<span data-ttu-id="7126b-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="7126b-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="5ea28-127">包含列为相关属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="5ea28-127">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="7126b-127">包含列为相关属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="7126b-127">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5ea28-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5ea28-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7126b-128">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7126b-128">See also</span></span>
 
 
 
-[<span data-ttu-id="5ea28-129">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="5ea28-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7126b-129">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="7126b-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5ea28-130">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="5ea28-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7126b-130">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="7126b-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5ea28-131">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="5ea28-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7126b-131">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="7126b-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5ea28-132">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="5ea28-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7126b-132">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="7126b-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
