@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ad96b448018ec43cda85aab1245afb1ca22552f8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d254df132db5542ce5235c1c3ab42ea768399f0a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583209"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382615"
 ---
 # <a name="pidtagsearchrecipientemailto-canonical-property"></a>PidTagSearchRecipientEmailTo 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含所查询的电子邮件地址或显示名称的邮件存储区上的**到**行中所述的收件人列表中的 Unicode 字符串。 
   
@@ -39,11 +39,11 @@ ms.locfileid: "22583209"
   
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Microsoft Exchange Server 协议规范参考。
     
-[[MS OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > 指定的属性和操作的搜索文件夹列表配置的操作。
     

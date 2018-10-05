@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e12ce442540930d9fa366ced073afc4828a01244
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c68e4fbda661a119416918a2c35d1780f1deccda
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576111"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382370"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 将当前邮件移动到文件夹中。
   
@@ -47,7 +47,7 @@ HRESULT MoveMessage(
     
  _prcPosRect_
   
-> [in]指向[矩形](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx)结构，其中包含当前表单的窗口的大小和位置的指针。 显示的下一个窗体也使用此窗口矩形。 
+> [in]指向[矩形](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx)结构，其中包含当前表单的窗口的大小和位置的指针。 显示的下一个窗体也使用此窗口矩形。 
     
 ## <a name="return-value"></a>返回值
 
@@ -59,13 +59,13 @@ MAPI_E_NO_SUPPORT
   
 > 该操作不受此消息网站。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单对象调用**IMAPIMessageSite::MoveMessage**方法将当前邮件移至新文件夹。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-表单查看器的实现**MoveMessage**必须调用传递 VCDIR_MOVE 标志，实际上将邮件移至新文件夹前的[IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)方法。 若要获取使用窗体的窗口的**矩形**结构，请调用 Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519)函数。 
+表单查看器的实现**MoveMessage**必须调用传递 VCDIR_MOVE 标志，实际上将邮件移至新文件夹前的[IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)方法。 若要获取使用窗体的窗口的**矩形**结构，请调用 Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。 
   
 有关与窗体服务器相关的接口的列表，请参阅[MAPI 表单接口](mapi-form-interfaces.md)。
   
@@ -73,11 +73,11 @@ MAPI_E_NO_SUPPORT
 
 **MoveMessage**返回时，以下窗体必须检查当前消息，然后关闭本身，如果不存在。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |未实现。  <br/> |
    

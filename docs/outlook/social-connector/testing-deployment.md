@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b585200-33e7-4607-a603-0c7e52a6b09d
 description: 本主题介绍一些您应测试关于安装和卸载 Outlook Social Connector (OSC) 提供程序的方案。
-ms.openlocfilehash: 0494d2ecab446b7da091f80df02267e281987d8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9c811683097a08b9f6e575d4ea2fee29cdd545d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779345"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383931"
 ---
 # <a name="testing-deployment"></a>测试部署
 
@@ -27,7 +27,7 @@ ms.locfileid: "19779345"
   
 OSC 提供程序可以编写任一 OSC 32 位或 64 位版本。 Outlook 2010 和 Outlook 2013 32 位和 64 位版本中可用，并且 Office Outlook 2003 和 Office Outlook 2007 均在仅 32 位版本中可用。 在 64 位 Windows 操作系统中，您可以安装 32 位或 64 位 Outlook。 32 位操作系统上您可以安装仅 32 位，但不是 64 位 Outlook。 根据安装的 Outlook 和 OSC 提供程序本身版本的位数，用户应使用适当的安装程序来安装 OSC 提供程序的相应位数。 例如，如果安装了 64 位 Outlook，并且 OSC 提供程序是一个本机 COM 组件，32 位 OSC 提供程序将不起作用，用户必须使用适当的安装程序来安装 64 位 OSC 提供程序。
   
-OSC 提供程序的部署代码可以假定用户具有受支持的计算机上的 Outlook 版本。 但是，如果当前版本的 OSC 不在客户端计算机上，您部署的代码可以下载和安装 OSC 的适当版本上使用特殊构建的 g 链接 Url http://g.live.com。 这些 g 链接取决于的版本和 Outlook 的位数和客户端计算机的区域设置。 有关使用 g 链接安装或更新 OSC 的详细信息，请参阅[安装清单](installation-checklist.md)。
+OSC 提供程序的部署代码可以假定用户具有受支持的计算机上的 Outlook 版本。 但是，如果当前版本的 OSC 不在客户端计算机上，您部署的代码可以下载和安装 OSC 的适当版本上使用特殊构建的 g 链接 Url https://g.live.com。 这些 g 链接取决于的版本和 Outlook 的位数和客户端计算机的区域设置。 有关使用 g 链接安装或更新 OSC 的详细信息，请参阅[安装清单](installation-checklist.md)。
   
 在安装之前 OSC 提供程序，Outlook 用户应确保 OSC 外接程序启用 Outlook 中。
   

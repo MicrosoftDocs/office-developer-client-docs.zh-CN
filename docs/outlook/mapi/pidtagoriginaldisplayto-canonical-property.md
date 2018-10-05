@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8c1cf14c-0339-4ced-8f68-4bfaa1e4d3e9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5adeec9a8f7092a2a32008a189918892ca50a952
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5a2f60051e5cb0717926a5c3e2f878a49919b04c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589194"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385065"
 ---
 # <a name="pidtagoriginaldisplayto-canonical-property"></a>PidTagOriginalDisplayTo 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含主 （收件人） 的原始邮件收件人的显示名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22589194"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性包含由分号分隔的 ASCII 列表。 它提供的 MAPI，并直接从**仅包含显示名称**([PidTagDisplayTo](pidtagdisplayto-canonical-property.md)) 时传递复制或生成原件报表或读取或 nonread 的报表。 此属性可能会出现在由其邮件类别定义其他消息。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22589194"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象在允许的操作。
     

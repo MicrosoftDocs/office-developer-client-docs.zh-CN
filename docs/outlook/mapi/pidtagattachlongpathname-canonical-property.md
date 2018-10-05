@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3262cf95-48b5-4764-a96e-d752ce35b2dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c0a3a96c3d8835550c4b0fda233183214cb4a786
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d8fe8525cf4fc11ac17ed6d73fb5d97e4f2d003e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587423"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383105"
 ---
 # <a name="pidtagattachlongpathname-canonical-property"></a>PidTagAttachLongPathname 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含附件的完全限定长路径和文件名。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22587423"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 您可以使用任何指示附件通过引用**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性的值时，这些属性都适用： **ATTACH_BY_REFERENCE**、 **ATTACH_BY_REF_RESOLVE**或**ATTACH_BY_REF_ONLY**。 支持长文件名的平台应设置**PR_ATTACH_LONG_PATHNAME**或相关的属性和时发送，并应检查**PR_ATTACH_LONG_PATHNAME **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) 属性**或时接收首先关联的属性。 
   
@@ -50,11 +50,11 @@ MAPI 仅适用于路径和文件名 ansi 字符集。 使用 OEM 字符集中的
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     

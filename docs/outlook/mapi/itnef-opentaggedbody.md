@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 14964f367e3dbca484c4e1612b374a6a72ddf17b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 154d6e4a4e333f3a6165c3875bdcd57957ebf70c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593779"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383739"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 打开上封装的消息的文本的流接口。
   
@@ -55,7 +55,7 @@ MAPI_MODIFY
     
  _lppStream_
   
-> [输出]指向到包含传入的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中的文本 stream 对象的指针的指针封装消息和支持[IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream)接口的。 
+> [输出]指向到包含传入的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中的文本 stream 对象的指针的指针封装消息和支持[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)接口的。 
     
 ## <a name="return-value"></a>返回值
 
@@ -63,7 +63,7 @@ S_OK
   
 > 呼叫成功，并返回预期的值。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序、 消息存储提供程序，和网关调用**ITnef::OpenTaggedBody**方法打开上封装的消息的文本的流接口 （即上 TNEF, 对象中）。 
   

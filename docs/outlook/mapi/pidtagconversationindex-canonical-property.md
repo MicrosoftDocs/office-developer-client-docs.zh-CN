@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c65cdda7-9515-4da9-be75-43ebf45a02df
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 77fee834108a603c1cd10e8e47776cc34fd75a2b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c6fa0d8f1323e8562a78080f50dbf448b8019ec2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584162"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383623"
 ---
 # <a name="pidtagconversationindex-canonical-property"></a>PidTagConversationIndex 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个二进制值，指示此消息在对话线程中的相对位置。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22584162"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 会话线索表示一系列邮件和答复。 此属性通常使用连接的时间戳值来实现。 即使设置**PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))，其用途是可选的。 
   
@@ -48,11 +48,11 @@ MAPI 提供了用于创建或更新的对话索引的[ScCreateConversationIndex]
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象在允许的操作。
     

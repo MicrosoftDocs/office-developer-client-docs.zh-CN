@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cbf34dd6-7733-47f6-9c41-9d82656ca9dc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c5354618383a97b362348b14aea174d6f2266d6c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f5dcf90e8224f1bf2e96042a7344109293cc2c3f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583279"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385706"
 ---
 # <a name="pidtagattachfilename-canonical-property"></a>PidTagAttachFilename 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含附件的基文件名和扩展名，不包括路径。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22583279"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议 attachment 对象公开的**PR_ATTACH_METHOD** **ATTACH_BY_VALUE**、 **ATTACH_BY_REFERENCE**、 **ATTACH_BY_REF_RESOLVE**和**ATTACH_BY_REF_ONLY**值与这些属性([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性。 **PR_ATTACH_FILENAME**和关联的属性所需时使用以下任一值。 
   
@@ -48,23 +48,23 @@ MAPI 仅适用于文件的名称，并在其他字符串传递给它，协会 (A
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为消息对象。
     
-[[MS OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     
-[[MS OXOSMIME]](http://msdn.microsoft.com/library/bb17d126-d211-462c-8cd3-454ed33c8746%28Office.15%29.aspx)
+[[MS OXOSMIME]](https://msdn.microsoft.com/library/bb17d126-d211-462c-8cd3-454ed33c8746%28Office.15%29.aspx)
   
 > 指定 S/MIME 签名和加密的邮件属性。
     
-[[MS OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > 进行编码和解码为有效的流表示形式的消息和附件对象。
     

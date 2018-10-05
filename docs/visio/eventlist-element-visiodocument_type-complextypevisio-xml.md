@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: 包含与对象应响应每个事件 EventItem 元素。
-ms.openlocfilehash: e1033ae93ca272b8ea1d9855d08ad13a444612db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5331f1b4a510b05b862f8c7c6306c89c6be4d9f0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780191"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383973"
 ---
 # <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>EventList 元素 （VisioDocument_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780191"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

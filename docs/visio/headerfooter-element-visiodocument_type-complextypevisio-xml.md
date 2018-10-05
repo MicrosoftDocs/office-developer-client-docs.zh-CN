@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
 description: 包含文档的页眉和页脚的元素。
-ms.openlocfilehash: e5933ad318b8100569046668e3cc372ce9a03788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eabb19100c4b37a546c0a271cfba5a0c865a7e83
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780390"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384442"
 ---
 # <a name="headerfooter-element-visiodocumenttype-complextype-visio-xml"></a>HeaderFooter 元素 （VisioDocument_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780390"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

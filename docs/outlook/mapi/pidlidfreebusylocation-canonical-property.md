@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 1e7a36e6-2e93-4aa5-bef8-66fd5c407700
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c7c123e7a715d13be9a7e46a63a4dfdc21fa2e39
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50fa3c1e1173a91d7c03759f4f635f1bb6e0600d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575397"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385653"
 ---
 # <a name="pidlidfreebusylocation-canonical-property"></a>PidLidFreeBusyLocation 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定客户端可以从中检索忙/闲信息的联系人中指定[[MS OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)为 iCal 文件的 URL 路径。
+指定客户端可以从中检索忙/闲信息的联系人中指定[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)为 iCal 文件的 URL 路径。
   
 |||
 |:-----|:-----|
@@ -39,11 +39,11 @@ ms.locfileid: "22575397"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的联系人和个人通讯组列表。
     

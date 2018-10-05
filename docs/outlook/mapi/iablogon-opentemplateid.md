@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a120fb1710bf2bd351d956e4d05eb0af346ef4c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc68878a25873533162df7e1671e483c3bb77865
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583384"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384631"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 打开具有数据驻留在承载通讯簿提供程序中的收件人条目。
   
@@ -87,7 +87,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > 通过通讯簿提供程序无法识别_lpTemplateID_参数中传递的模板标识符。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅由需要维护控制它们位于的宿主提供商的容器中的项的副本的通讯簿提供程序实现**IABLogon::OpenTemplateID**方法。 提供程序实现**OpenTemplateID**称为外的通讯簿提供程序。 宿主提供程序调用[IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md)创建复制的条目或打开复制的条目，并在调用**IABLogon::OpenTemplateID**传递 MAPI。 **IABLogon::OpenTemplateID**将打开条目，并将绑定控件到宿主提供程序中的数据的代码。 
   
@@ -101,7 +101,7 @@ MAPI_E_UNKNOWN_ENTRYID
     
 - 若要控制宿主提供程序的条目中的属性和原始条目中，如计算**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 从包含不同的编辑控件中显示的详细信息的值之间的交互地址的组件。
     
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 当宿主提供程序复制或从您的提供商创建一个条目，并提供通过**IABLogon::OpenTemplateID**属性对象实现时，您处理大部分呼叫维护条目。 但是，因为它是主机提供这些将呼叫转接到您，宿主提供程序可以截获任何呼叫，并执行自定义处理，然后转接呼叫。
   
@@ -117,7 +117,7 @@ MAPI_E_UNKNOWN_ENTRYID
     
 一般情况下，返回对宿主提供程序进行传递的条目的实现 intercept 的所有方法执行的相关属性的上下文特定操作。 如果_ulTemplateFlags_参数中传递 FILL_ENTRY 标志，则设置该条目的所有属性。 
   
-如果_lppMAPIPropNew_参数中返回新的 property 对象，请调用要维护的引用的宿主提供程序的属性对象的[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx)方法。 通过**IMAPIProp**实现_lppMAPIPropNew_中返回的绑定对象的所有呼叫将都路由到其对应的方法中的主机属性对象处理绑定对象后。 
+如果_lppMAPIPropNew_参数中返回新的 property 对象，请调用要维护的引用的宿主提供程序的属性对象的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx)方法。 通过**IMAPIProp**实现_lppMAPIPropNew_中返回的绑定对象的所有呼叫将都路由到其对应的方法中的主机属性对象处理绑定对象后。 
   
 通过绑定的属性对象传递任何命名属性的属性的标识符是提供程序的标识符命名空间中。 [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md)方法的实现应确定属性的名称，以便它可以执行任何特定于模板的任务。 同样，您的提供商将传递给宿主提供程序的属性也必须在您的命名空间。 例如，如果**OpenTemplateID**中设置的命名的属性，您应使用您标识符之一的名称 — 通过调用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法有必要，创建它。 
   

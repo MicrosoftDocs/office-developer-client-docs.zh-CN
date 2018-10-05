@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8cb7934919722139622b6caf3aac741c9b2e54c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59c6d4a05c91511ad8c481fd4ddbe42396442190
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582460"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384106"
 ---
 # <a name="iabproviderlogon"></a>IABProvider::Logon
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 建立到活动会话的连接。
   
@@ -112,13 +112,13 @@ MAPI_E_USER_CANCEL
   
 > 用户取消操作，通常通过单击登录对话框中的**取消**按钮。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 连接被建立与每个地址簿提供商会话配置文件中，当客户端调用[IMAPISession::OpenAddressBook](imapisession-openaddressbook.md)方法。 **OpenAddressBook**然后调用每个提供程序的**登录**方法。 
   
 _LpszProfileName_参数指向的配置文件名称显示在用户的客户端通过状态或缺少 MAPI_UNICODE 标志_ulFlags_参数中所示的字符集。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 在您的**登录**方法的实现，调用注册的唯一标识符或[MAPIUID](mapiuid.md)结构的[IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md)方法。 每个对象都有包含此**MAPIUID**条目标识符。 MAPI 使用**MAPIUID**以匹配具有其提供程序的对象。 例如，当客户端调用[IMAPISession::OpenEntry](imapisession-openentry.md)方法打开邮件用户， **OpenEntry**检查已传递中并与注册的**MAPIUID**相匹配时它的项标识符的**MAPIUID**部分通讯簿提供程序。 
   
@@ -126,7 +126,7 @@ _LpszProfileName_参数指向的配置文件名称显示在用户的客户端通
   
 MAPI 将传递给_lpMAPISup_参数中您**登录**方法支持对象提供许多中包含的方法的访问[IMAPISupport: IUnknown](imapisupportiunknown.md)接口。 MAPI 创建支持对象为提供程序类型的自定义。 例如，如果您需要登录到基础邮件系统或目录服务建立连接时，您可以调用[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)方法检索该特定登录会话的安全凭据。 
   
-如果成功**登录**，请确保您调用支持对象的[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx)方法，以增加引用计数。 这使您提供程序留会话的其余部分的支持对象指针。 如果您不调用此**AddRef**方法，MAPI 将卸载您的提供商。 
+如果成功**登录**，请确保您调用支持对象的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx)方法，以增加引用计数。 这使您提供程序留会话的其余部分的支持对象指针。 如果您不调用此**AddRef**方法，MAPI 将卸载您的提供商。 
   
 您可以包括在错误对话框、 登录屏幕或其他用户界面中_lpszProfileName_参数中传递的配置文件名称。 若要使用的配置文件名称，将其复制到已分配的存储。 
   

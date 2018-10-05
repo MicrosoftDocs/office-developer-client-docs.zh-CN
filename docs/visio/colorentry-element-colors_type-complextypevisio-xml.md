@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f325ad8-bbc7-28bf-9e48-1fde4fbdbdc0
 description: 包含颜色表项。
-ms.openlocfilehash: 934680b36428dd272d383ce421e86ae6d5c707cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14ef92069ce8d963ce4a0770324843321804c5cd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779906"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385338"
 ---
 # <a name="colorentry-element-colorstype-complextype-visio-xml"></a>ColorEntry 元素 （Colors_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779906"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ColorEntry_Type](colorentry_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

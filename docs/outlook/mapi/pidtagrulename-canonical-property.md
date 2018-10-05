@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eb326037-bc44-4b04-812c-7d1adf854cc9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 31d5d15c8ccda81fb41a87d285f8f1df70e2253b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 042a91132ff34005fc92ae331667c8c1df989d6e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566486"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384519"
 ---
 # <a name="pidtagrulename-canonical-property"></a>PidTagRuleName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定用户可读规则的名称。
   
@@ -38,15 +38,15 @@ ms.locfileid: "22566486"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > 处理传入的电子邮件服务器上。
     
-[[MS OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > 指定连接到和配置为代理人，以及与邮件和日历项目交互的邮箱，当这些代表其他用户操作的方法。
     

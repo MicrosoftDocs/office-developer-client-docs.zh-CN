@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e8fa8df4e1439db3f1bc688d282e5ebdd3503024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74c2a7247df02570761247a9e4a6fae378f37312
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575502"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385198"
 ---
 # <a name="ending-a-mapi-session"></a>结束 MAPI 会话
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 客户端可以响应用户的请求，其会话也立即或处理后所有出站邮件和结束时严重错误发生。 某些客户端需要保持登录以便的待处理的出站邮件可达到传输提供程序和邮件系统的目标。 如果这样的客户端发送一条消息，并且立即注销，直到用户登录后，并保持登录要传输的消息的时间不够长消息可以保留在传出队列中。
   
@@ -27,7 +27,7 @@ ms.locfileid: "22575502"
   
 1. 通过调用每个已注册的对象的**Unadvise**方法取消所有通知注册。 
     
-2. 通过调用其[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx)方法释放所有打开的对象。 打开的对象类型可以包括告知接收器、 状态表、 发件箱文件夹、 一个或多个邮件存储区和通讯簿。 
+2. 通过调用其[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx)方法释放所有打开的对象。 打开的对象类型可以包括告知接收器、 状态表、 发件箱文件夹、 一个或多个邮件存储区和通讯簿。 
     
 3. 调用[MAPIFreeBuffer](mapifreebuffer.md)以释放任何缓存的条目标识符，如**PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) 的内存。
     
@@ -35,7 +35,7 @@ ms.locfileid: "22575502"
     
 5. 通过调用会话的**IUnknown::Release**方法释放会话指针。 
     
-6. 如果您在初始化 OLE 库的会话启动期间调用[OleInitialize](http://msdn.microsoft.com/en-us/library/ms690134%28v=VS.85%29.aspx) ，取消初始化它们现在通过调用[OleUninitialize](http://msdn.microsoft.com/en-us/library/ms691326%28VS.85%29.aspx)。 只有以前呼叫过**OleInitialize**的客户端必须调用**OleUninitialize**。 
+6. 如果您在初始化 OLE 库的会话启动期间调用[OleInitialize](https://msdn.microsoft.com/library/ms690134%28v=VS.85%29.aspx) ，取消初始化它们现在通过调用[OleUninitialize](https://msdn.microsoft.com/library/ms691326%28VS.85%29.aspx)。 只有以前呼叫过**OleInitialize**的客户端必须调用**OleUninitialize**。 
     
 7. 通过调用[MAPIUninitialize](mapiuninitialize.md)取消初始化 MAPI 库。 如果您的某个时刻调用**OleInitialize** ，请确保**OleUninitialize**调用**MAPIUninitialize**到此调用前发生此事件。 Timing 至关重要。 如果调用**OleUninitialize**遵循**MAPIUninitialize**调用，您的客户端可能会丢弃终止。 
     

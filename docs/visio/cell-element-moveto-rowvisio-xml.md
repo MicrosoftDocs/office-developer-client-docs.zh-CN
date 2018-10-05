@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: 包含形状的第一个顶点的 x 坐标或 y-或者表示路径中断开后的第一个顶点 x 或 y 坐标。
-ms.openlocfilehash: dbcf8d111ab86671fb2aeb073d2a13f40810f941
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12c36b009b019592ae48d24a0e16c3edcd6110e3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779831"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382965"
 ---
 # <a name="cell-element-moveto-row-visio-xml"></a>单元格元素 （MoveTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779831"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

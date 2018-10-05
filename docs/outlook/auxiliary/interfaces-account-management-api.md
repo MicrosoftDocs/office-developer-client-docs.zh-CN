@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e67b0690-a3f4-4523-94a6-c0e4005bcb69
 description: 本节介绍帐户管理 API 中的接口。
-ms.openlocfilehash: 884857724622b01eb3d4eef975c27e354b13ff7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 31685e0fe04d0b72315a13c2f80fcb0fffc72a82
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590175"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382783"
 ---
 # <a name="interfaces-account-management-api"></a>接口 （帐户管理 API）
 
@@ -24,7 +24,7 @@ ms.locfileid: "22590175"
 |[IOlkAccountHelper](iolkaccounthelper.md) <br/> |在当前的 MAPI 会话管理帐户中提供的帮助器功能。  <br/> |
 |[IOlkAccountManager](iolkaccountmanager.md) <br/> |管理帐户的访问权并设置有关帐户更改的通知。  <br/> |
 |[IOlkAccountNotify](iolkaccountnotify.md) <br/> |为帐户的更改到客户端提供回调。  <br/> |
-|[IOlkEnum](iolkenum.md) <br/> |支持枚举作为[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown)对象的帐户。  <br/> |
+|[IOlkEnum](iolkenum.md) <br/> |支持枚举作为[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown)对象的帐户。  <br/> |
 |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |提供有关最后一个错误的额外信息。  <br/> |
    
 

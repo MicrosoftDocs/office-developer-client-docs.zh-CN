@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3edcb422eb0e3dd415d49c5e014c8b69095e7ec1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5a81e04d112e0adf201dcacf03673daac77a04ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577203"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382419"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 初始化转换期间使用的编码。
   
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> 一个[ENCODINGTYPE](http://msdn.microsoft.com/en-us/library/aa374936%28VS.85%29.aspx)值。 支持仅以下值： 
+> 一个[ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx)值。 支持仅以下值： 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -49,17 +49,17 @@ E_INVALIDARG
   
 > 传递的编码类型无效。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用[IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)执行转换之前调用**SetEncoding** 。 
   
 使用**SetEncoding**设置的最外面的消息正文将的邮件项目的编码。 Microsoft Outlook 2010 和 Microsoft Outlook 2013 中选择的任何单个附件的编码。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将转换为 EML 文件的 MAPI 邮件。  <br/> |

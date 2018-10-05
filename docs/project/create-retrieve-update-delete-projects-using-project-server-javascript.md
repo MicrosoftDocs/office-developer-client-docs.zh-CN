@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: 获取当前 ProjectContext 实例;检索和循环访问的服务器; 上的已发布项目的集合创建、 检索、 签出和使用 Project Server JavaScript 对象模型; 删除项目并更改项目的属性。
-ms.openlocfilehash: 966c1298d210cb608001e4ce2b390611a75bdb24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779414"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382909"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>创建、 检索、 更新和删除项目使用 Project Server JavaScript
 
@@ -53,7 +53,7 @@ ms.locfileid: "19779414"
     
 6. 在"SharePoint 自定义向导"对话框中，选择"部署场解决方案"，然后选择"完成"按钮。 
     
-7. 编辑**ProjectsJSOM**项目与 Project Web App 实例的 URL 匹配的**Site URL**属性的值 (例如， `http://ServerName/PWA`)。
+7. 编辑**ProjectsJSOM**项目与 Project Web App 实例的 URL 匹配的**Site URL**属性的值 (例如， `https://ServerName/PWA`)。
     
 ### <a name="to-create-the-application-page-in-visual-studio"></a>创建 Visual Studio 中的应用程序页
 

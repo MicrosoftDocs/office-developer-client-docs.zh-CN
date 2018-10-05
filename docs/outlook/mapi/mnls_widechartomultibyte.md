@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
 description: 上次修改时间： 2012 年 2 月 21 日
-ms.openlocfilehash: 6957888f6727175d73d277cf4f5b84dc234d22ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad41f9b6060e5cfbabecfd9bb29a47815929d6b5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570035"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385513"
 ---
 # <a name="mnlswidechartomultibyte"></a>MNLS_WideCharToMultiByte
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 此函数是类似于**WideCharToMultiByte**，映射到新的字符串的 utf-16 （宽字符） 字符串。 新的字符串不一定是从多字节字符设置。
   
@@ -73,13 +73,13 @@ int MNLS_WideCharToMultiByte(
 
 返回写入如果成功_lpMultiByteStr_指向缓冲区的字节数。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-此函数的换行**WideCharToMultiByte**函数。 有关详细信息，请参阅[WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)。
+此函数的换行**WideCharToMultiByte**函数。 有关详细信息，请参阅[WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)
+[WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)
 

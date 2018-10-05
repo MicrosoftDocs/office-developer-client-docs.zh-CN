@@ -9,16 +9,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: fb0eddfff2f34307143bb896fd451de357f2b639
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773809"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384421"
 ---
 # <a name="multithreading-and-memory-contention-in-excel"></a>Excel 中的多线程处理和内存争用
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 早版本的 Microsoft Excel 比在 Excel 2007 使用单个线程的所有工作表计算。 但是，从 Excel 2007 开始，Excel 可以配置用于介于 1 到 1024年并发线程工作表计算。 多处理器或多核计算机上, 默认的线程数等于内核处理器的数量。 因此，线程安全单元格或仅包含线程安全的函数的单元格都可以分配给并发线程，受到需要计算其引用单元格后的常用重新计算逻辑。
   
@@ -142,7 +142,7 @@ BOOL TLS_Action(DWORD DllMainCallReason)
 }
 ```
 
-获取索引后下, 一步是内存的为每个线程分配块。 [Windows 开发文档](http://msdn.microsoft.com/en-us/library/ms682583%28VS.85%29.aspx)建议这样做，每次**DllMain**回调函数调用与**DLL_THREAD_ATTACH**事件，以及在每个**DLL_THREAD_DETACH**内存。 但是，关注此建议将导致 DLL 执行不必要的工作线程在不用于重新计算。 
+获取索引后下, 一步是内存的为每个线程分配块。 [Windows 开发文档](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx)建议这样做，每次**DllMain**回调函数调用与**DLL_THREAD_ATTACH**事件，以及在每个**DLL_THREAD_DETACH**内存。 但是，关注此建议将导致 DLL 执行不必要的工作线程在不用于重新计算。 
   
 相反，则最好使用分配上第一个使用策略。 首先，您需要定义要为每个线程分配结构。 返回**XLOPERs**或**XLOPER12s**的上一个示例，以下足够了，但您可以创建任何结构符合您的需求。
   

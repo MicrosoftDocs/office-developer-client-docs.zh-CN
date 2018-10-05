@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 44752e147569619589b23a380b2fefa511724ca7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ac1f0d839b1ea059ec2b8d94556808bea3850862
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571729"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383903"
 ---
 # <a name="pidliddistributionlistchecksum-canonical-property"></a>PidLidDistributionListChecksum 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定的 32 位循环冗余复选 (CRC-32) 多项式校验和个人通讯组列表。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22571729"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |联系人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的值可用于检测何时**dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) 属性已更新而不是通过计算 CRC-32 上现有更新其他个人通讯组列表成员属性**dispidDLMembers** 、 将其与**dispidDLChecksum**属性的值进行比较的值。 
   
@@ -43,11 +43,11 @@ ms.locfileid: "22571729"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的联系人和个人通讯组列表。
     

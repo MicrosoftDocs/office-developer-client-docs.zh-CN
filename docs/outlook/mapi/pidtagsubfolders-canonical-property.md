@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b456b07b-4d83-46bf-a305-4f322ea7dbd1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 93e5510802fe5ff0327d7ed3fc702fa61cd3c1c4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8de14542c0d2a4e6d95fb4258697b827f82b8d06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565576"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384400"
 ---
 # <a name="pidtagsubfolders-canonical-property"></a>PidTagSubfolders 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含 TRUE，则文件夹包含子文件夹。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22565576"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 消息存储必须提供此属性的所有文件夹。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22565576"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > 处理文件夹的操作。
     

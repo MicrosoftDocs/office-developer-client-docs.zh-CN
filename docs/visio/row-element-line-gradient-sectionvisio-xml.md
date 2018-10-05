@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4d823766-5cb0-925c-f622-18025f44426c
 description: 包含颜色、 透明度和行渐变的渐变光圈的位置。
-ms.openlocfilehash: e8e37a811e35f7548f64eac8698b5e4107950e57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 105d93344343f223a6b5d909f1174f7df56ffb4d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781158"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383182"
 ---
 # <a name="row-element-line-gradient-section-visio-xml"></a>Row 元素 （Line 渐变内容） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781158"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml，母版页 #.xml、 页面 #.xml  <br/> |
    

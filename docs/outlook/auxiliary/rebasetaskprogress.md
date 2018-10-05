@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
 description: 报告进度枚举和定位的约会。
-ms.openlocfilehash: 4219ab1d59b596bebbe3ced03651716b04b51f81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e5df0cd6df10ab86b1a125b9807637438976726f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774454"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384351"
 ---
 # <a name="rebasetaskprogress"></a>RebaseTaskProgress
 
@@ -22,9 +22,9 @@ ms.locfileid: "19774454"
 
 |||
 |:-----|:-----|
-|头文件：  <br/> |tzmovelib.h  <br/> |
-|通过实现：  <br/> |MAPI 客户端应用程序  <br/> |
-|调用：  <br/> |Outlook 调整对象  <br/> |
+|标头文件：  <br/> |tzmovelib.h  <br/> |
+|实现者：  <br/> |MAPI 客户端应用程序  <br/> |
+|调用者：  <br/> |Outlook 调整对象  <br/> |
 |指针类型：  <br/> |**PFNREBASETASKPROGRESS** tzmovelib.h 中定义  <br/> |
    
 ```cpp
@@ -69,7 +69,7 @@ _State_
     
 _pRowCur_
   
-> [in]指向描述所扫描或修复的项的**[SRow](http://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** 结构的指针。 
+> [in]指向描述所扫描或修复的项的**[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** 结构的指针。 
     
 ## <a name="return-values"></a>返回值
 

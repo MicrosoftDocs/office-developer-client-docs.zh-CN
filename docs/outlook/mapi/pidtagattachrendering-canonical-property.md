@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 1f31f7f4-fbda-4337-95e5-5474dd1bf84a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 45d4b0bfe7f902ee2cfe1d735c990d80f8fbb60d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22d3e649641dbe688912ecece7fde73a555f4a88
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588942"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383189"
 ---
 # <a name="pidtagattachrendering-canonical-property"></a>PidTagAttachRendering 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含附件的呈现信息与 Microsoft Windows 图元文件。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22588942"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的用途是提供的图标或其他可在附件点父消息中显示的图形表示。 此类表示通常包括附件，如果有的名称和附件，如 Microsoft Office Word 文档的特性。 客户端应用程序可以在显示的邮件使用这种表示形式。 
   
@@ -52,7 +52,7 @@ ms.locfileid: "22588942"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

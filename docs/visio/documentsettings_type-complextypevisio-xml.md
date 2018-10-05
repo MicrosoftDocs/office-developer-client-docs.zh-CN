@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8fb61b5f-1bab-78b6-c56c-384e52609397
-ms.openlocfilehash: 93623133e7d7fd096e063f0d9d5227d65dcc4736
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 704591a2bf03f3eaf4d93b167475a8bae286da3e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780145"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384673"
 ---
 # <a name="documentsettingstype-complextype-visio-xml"></a>DocumentSettings_Type 复杂类型 (Visio XML)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19780145"
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15 2012 06 05.xsd  <br/> |
 |**扩展基** <br/> |无  <br/> |
    

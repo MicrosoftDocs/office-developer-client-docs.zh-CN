@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: InfoPath 旨在让您轻松地在 Microsoft SharePoint Server 平台上构建各种基于表单的应用程序。Microsoft SharePoint Server 2013 与 InfoPath Forms Services 和 Microsoft InfoPath 2013 结合使用可提供面向开发人员的许多功能。利用 SharePoint Server 2013 中提供的 InfoPath Forms Services，您可以将 InfoPath 表单模板部署到 SharePoint Server，以便没有 InfoPath 富客户端的用户可以在 Web 浏览器中打开并填写 InfoPath 表单。
-ms.openlocfilehash: a11c6b4018e60a470197ecd7ffdf3b79a13658b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d469dfb99290054008271867f24d947a42efeee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774092"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385149"
 ---
 # <a name="whats-new-for-infopath-developers"></a>为 InfoPath 开发人员提供的新功能
 
@@ -45,7 +45,7 @@ InfoPath 旨在让您轻松地在 Microsoft SharePoint Server 平台上构建各
     
 ## <a name="new-way-to-write-and-edit-code"></a>编写和编辑代码的新方法
 
-已从 InfoPath 2013 中删除已与 InfoPath 2010 集成的 Microsoft Visual Studio Tools for Applications IDE 工具。现在，若要在 InfoPath 2013 中编写或编辑表单代码，则需要 Visual Studio 2008 和已安装的 [Microsoft Visual Studio Tools for Applications 2012（该链接可能指向英文页面）](http://www.microsoft.com/en-us/download/details.aspx?id=38807) 加载项。虽然编程体验基本上未发生更改，但在为 InfoPath 表单编写托管代码时，您可以使用完整的 Visual Studio 开发体验。 
+已从 InfoPath 2013 中删除已与 InfoPath 2010 集成的 Microsoft Visual Studio Tools for Applications IDE 工具。现在，若要在 InfoPath 2013 中编写或编辑表单代码，则需要 Visual Studio 2008 和已安装的 [Microsoft Visual Studio Tools for Applications 2012（该链接可能指向英文页面）](https://www.microsoft.com/en-us/download/details.aspx?id=38807) 加载项。虽然编程体验基本上未发生更改，但在为 InfoPath 表单编写托管代码时，您可以使用完整的 Visual Studio 开发体验。 
   
 以下几节描述了 InfoPath 2010 和 SharePoint Server 2010 中首次添加的功能，并继续为使用 InfoPath 2013 和 SharePoint Server 2013 的开发人员提供了有价值的信息。
   
@@ -63,7 +63,7 @@ InfoPath 旨在使发布对表单的更新比以前更为轻松。 首次发布�
   
 ## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>使用 InfoPath 表单 Web 部件在门户页上托管表单
 
-在 SharePoint Server 2013 中，使用新的“InfoPath 表单 Web 部件”**** 在 Web 页面上托管表单比以往更容易。 在 Microsoft Office SharePoint Server 2007 中，希望在 Web 页面上托管其 InfoPath 表单的用户需要在 Visual Studio 中编写代码。 现在，无需编写任何代码，便可以将“InfoPath 表单 Web 部件”**** 添加到 Web 部件页面并将其指向已发布的表单。可以使用“InfoPath 表单 Web 部件”**** 托管发布到 SharePoint 列表或表单库的任何 InfoPath 浏览器表单。 还可以将其连接到页面上的其他 Web 部件以发送或接收数据。 有关如何使用“InfoPath 表单 Web 部件”**** 的详细信息，请参阅 SharePoint 2010 SDK 中的[使用 InfoPath 表单 Web 部件](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx)。 
+在 SharePoint Server 2013 中，使用新的“InfoPath 表单 Web 部件”**** 在 Web 页面上托管表单比以往更容易。 在 Microsoft Office SharePoint Server 2007 中，希望在 Web 页面上托管其 InfoPath 表单的用户需要在 Visual Studio 中编写代码。 现在，无需编写任何代码，便可以将“InfoPath 表单 Web 部件”**** 添加到 Web 部件页面并将其指向已发布的表单。可以使用“InfoPath 表单 Web 部件”**** 托管发布到 SharePoint 列表或表单库的任何 InfoPath 浏览器表单。 还可以将其连接到页面上的其他 Web 部件以发送或接收数据。 有关如何使用“InfoPath 表单 Web 部件”**** 的详细信息，请参阅 SharePoint 2010 SDK 中的[使用 InfoPath 表单 Web 部件](https://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx)。 
   
 ## <a name="richer-web-forms"></a>更丰富的 Web 表单
 

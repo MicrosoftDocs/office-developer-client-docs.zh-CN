@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office for Android 与 Android 存储访问框架集成，使 Office 能够打开其他文档提供程序存储的文件。
-ms.openlocfilehash: c217eb2aa6c0974c32e60f5015449de7b157d39d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24d7e48106aeb5e58a668b94cbde00eaa9175230
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774140"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384547"
 ---
 # <a name="office-for-android-support-for-the-android-storage-access-framework"></a>Android 存储访问框架的 Office for Android 支持
 
@@ -31,7 +31,7 @@ Android 4.4（API 级别 19）引入了存储访问框架 (SAF)。SAF 使用户�
 |:-----|:-----|:-----|
 |文档类型  <br/> |com_microsoft_office_doctype  <br/> |\<使用者\>  <br/> |
 |服务友好名称  <br/> |com_microsoft_office_servicename  <br/> |服务的任何用户友好名称，可用于标识 Office 应用的"最近使用的文件"列表中的文档。请注意，在显示服务的友好名称之前，必须提供"使用协议条款"属性。  <br/> |
-|使用协议条款  <br/> |com_microsoft_office_termsofuse  <br/> |\<我同意接受以下位置上列出的条款：http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
+|使用协议条款  <br/> |com_microsoft_office_termsofuse  <br/> |\<我同意接受以下位置上列出的条款：https://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 <a name="bk_addresources"> </a>

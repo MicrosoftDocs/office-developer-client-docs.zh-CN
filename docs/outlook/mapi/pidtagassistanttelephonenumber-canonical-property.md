@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: edb0782c-6671-4e98-9028-a2f9ad547c1d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ecf43894089841b85fe8d5c81c608bc141d571d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6eafe51490b231b9cc64242595aef54bcc85c3ae
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579604"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385443"
 ---
 # <a name="pidtagassistanttelephonenumber-canonical-property"></a>PidTagAssistantTelephoneNumber 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含收信人行政助理的电话号码。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22579604"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和组织定义的。 
   
@@ -44,15 +44,15 @@ ms.locfileid: "22579604"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的联系人和个人通讯组列表。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

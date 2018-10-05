@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a34c21e20fa45cd3265ec42c9d992eb828203f66
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e196800b717ce2528da4b9871bad7425f3a2c326
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563910"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385625"
 ---
 # <a name="mapi-profile-overview"></a>MAPI 配置文件概述 （英文)
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 一个配置文件信息的消息服务和客户端应用程序的用户希望可在特定的 MAPI 会话过程中的服务提供商的集合。 每个用户都至少一个配置文件;许多用户仍使用原来多个。 例如，用户可能具有一个配置文件以使用基于服务器的消息存储服务和另一个配置文件以在本地计算机上处理的消息存储服务。 用户可能需要访问一组消息系统使用某一天和另一天中的 rest 设置的一部分的合适的传输服务。 配置文件提供灵活的方式选择的消息系统服务的组合。 
   
@@ -39,7 +39,7 @@ ms.locfileid: "22563910"
     
 在安装时，当 MAPI 或消息服务加载到计算机上，或任何更高版本时，可以创建配置文件。 MAPI 提供配置文件管理配置文件向导。 
   
-配置文件向导是工作的应用程序创建新配置文件具有最少。 向导将使用默认值的设置，尽可能保存用户时间和精力。 用户输入值仅在绝对需要时。 有关详细信息，请参阅[创建使用配置文件向导配置文件](creating-a-profile-by-using-the-profile-wizard.md)。 您可以使用 Office 自定义工具以创建新的配置文件。 有关详细信息，请参阅[Office Customization Tool](http://go.microsoft.com/fwlink/?LinkId=123000)。
+配置文件向导是工作的应用程序创建新配置文件具有最少。 向导将使用默认值的设置，尽可能保存用户时间和精力。 用户输入值仅在绝对需要时。 有关详细信息，请参阅[创建使用配置文件向导配置文件](creating-a-profile-by-using-the-profile-wizard.md)。 您可以使用 Office 自定义工具以创建新的配置文件。 有关详细信息，请参阅[Office Customization Tool](https://go.microsoft.com/fwlink/?LinkId=123000)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e2654fad-444b-45bc-976d-3c5cbbc81b84
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1ee68f0f60f96798130115cbd313f6d7cd403486
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 10b6009bc86df4232c995e7c6bca463f45999528
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590496"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383175"
 ---
 # <a name="pidlidnonsendcctrackstatus-canonical-property"></a>PidLidNonSendCcTrackStatus 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的每个与会者的**dispidNonSendableCC** ([PidLidNonSendableCc](pidlidnonsendablecc-canonical-property.md)) 属性中列出的值。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22590496"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 仅当**dispidNonSendableCC**属性设置时，此属性是必需的。 此属性中的值的数目必须等于**dispidNonSendableCC**中值的数目。 此属性中的每个 PT_LONG 值对应于**dispidNonSendableCC**属性在同一索引中的与会者。 
   
@@ -43,11 +43,11 @@ ms.locfileid: "22590496"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

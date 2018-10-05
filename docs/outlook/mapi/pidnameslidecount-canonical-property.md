@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c410a34a-f71e-4fe7-815b-13bb6433a7fa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d20510b0e33744bf8ef7a0c42721d3aac3dec81a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 52210bb74ec033b5f01bed1ee7e807320654e8d7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587241"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385703"
 ---
 # <a name="pidnameslidecount-canonical-property"></a>PidNameSlideCount 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 附加到文档的文件中指定的幻灯片的数目。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22587241"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > 指定的属性和允许对文档的操作。
     

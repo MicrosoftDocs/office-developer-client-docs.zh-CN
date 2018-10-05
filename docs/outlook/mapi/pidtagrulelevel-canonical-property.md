@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b1a30543-250d-4afb-87f2-448d90ee7cf9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fb62c7dac13e422c52e70a223f3942e1b3bf2c78
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3de5093f1fa395b1fba061f88a9b67b5dedf4740
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591805"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385849"
 ---
 # <a name="pidtagrulelevel-canonical-property"></a>PidTagRuleLevel 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含规则退出级别。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22591805"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果设置此属性，必须在 0x00000000 传递客户端。 
   
@@ -42,15 +42,15 @@ ms.locfileid: "22591805"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > 指定连接到和配置为代理人，以及与邮件和日历项目交互的邮箱，当这些代表其他用户操作的方法。
     
-[[MS OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > 处理传入的电子邮件服务器上。
     

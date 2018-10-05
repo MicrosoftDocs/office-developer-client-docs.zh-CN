@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: 默认情况下，为与 InfoPath 2003 兼容的表单模板项目创建的 FormCode.cs 或 FormCode.vb 文件包含表单编程逻辑的所有源代码。项目的模板在 FormCode.cs 或 FormCode.vb 文件中生成的类与以下示例中的类非常类似，您可以在其中定义初始化和清理代码以及表单事件的处理程序。FormCode.cs 和 FormCode.vb 文件应用一个程序集级别的 System.ComponentModel.DescriptionAttribute 属性，此属性将该类标识为实现事件处理程序的唯一类。将 InfoPathNamespace 属性（由 InfoPathNamespaceAttribute 类型实现）应用于类以标识在该类内部使用的 XML DOM 选项命名空间。在 InfoPathNamespace 中引用的命名空间由 InfoPath 项目系统来维护。
-ms.openlocfilehash: 7111a8525b092998e21d4c267b5884f50fdb9777
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ae81c261ad9927195c0a4ac6d80f58a16a6ebf1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774004"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383119"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型初始化和清理代码
 
@@ -36,7 +36,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
     public partial class FormCode
     {
         private XDocument thisXDocument;
@@ -66,7 +66,7 @@ Namespace Template1
     ' The namespace prefixes defined in this attribute must remain synchronized with
     ' those in the form definition file (.xsf).
     <InfoPathNamespace( _
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
     Public Class FormCode
         Private thisXDocument As XDocument
         Private thisApplication As Application
@@ -163,7 +163,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
     public partial class Template1
     {
         private XDocument    thisXDocument;
@@ -198,7 +198,7 @@ Namespace Template1
         ' The namespace prefixes defined in this attribute must remain synchronized with
         ' those in the form definition file (.xsf).
         <InfoPathNamespace( _
-            "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
+            "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
         Public Class Template1
             Private thisXDocument As XDocument
             Private thisApplication As Application

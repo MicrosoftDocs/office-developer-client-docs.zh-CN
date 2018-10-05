@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 44884f60-7e36-45b2-9712-4f9821a0dc1f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 099a744940ffae49f49e9ca25f49dc54414b25dd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5d84e9cb693cbe732295ee1891b4219450eb09ae
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590006"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385023"
 ---
 # <a name="pidtagprocessed-canonical-property"></a>PidTagProcessed 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 已处理的会议请求时，设置为 TRUE。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22590006"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性可确保会议请求获取处理一次。 请求的创建者应将此属性设置为 FALSE，接收方应将其设置为 TRUE 后请求在日历中。
   
@@ -42,15 +42,15 @@ ms.locfileid: "22590006"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     
-[[MS OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > 指定的属性和允许的联系人和个人通讯组列表对象的操作。
     

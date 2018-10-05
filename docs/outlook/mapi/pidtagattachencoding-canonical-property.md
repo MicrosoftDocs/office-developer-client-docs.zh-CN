@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3b30cec6-da1e-4ef1-8c17-24b66f31cf0a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7475eef15398081a30307e7b4a077a0700a6ba8c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4bda4783012a3a5cd50d9c0aea6a37ccd238b660
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584196"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382769"
 ---
 # <a name="pidtagattachencoding-canonical-property"></a>PidTagAttachEncoding 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含指定的附件的编码 ASN.1 对象标识符。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22584196"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性标识用于转换附件中的数据的算法。
   
@@ -48,7 +48,7 @@ MAPIOID 中定义的对象标识符语法和示例对象标识符。H 头文件�
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9c4590b2-631e-4a57-a779-eed8268233da
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3833409871b3fd5b454447f16915d2f9f1162399
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7bca52400b5afb14270294d996cfd9b311262383
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384134"
 ---
 # <a name="pidlidformpropstream-canonical-property"></a>PidLidFormPropStream 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 代表保存为邮件的自定义属性中的数据。
   
@@ -39,7 +39,7 @@ ms.locfileid: "22587402"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     

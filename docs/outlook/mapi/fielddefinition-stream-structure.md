@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a43d4f12aa28de29116d7d074b743d6c0d61d964
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98584e450bb820dbce05b0f8d2c6d15551586130
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594507"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383273"
 ---
 # <a name="fielddefinition-stream-structure"></a>FieldDefinition 流结构
 
@@ -40,7 +40,7 @@ FieldDefinition 流结构包含用户定义的字段的字段定义或一组的�
     |PDO_FT_SWITCH  <br/> |0x00000020  <br/> |此字段的类型**组合**是具有**仅显示第一个非空字段，忽略后续字段**选项在并选择**合并公式字段**对话框。  <br/> |
     |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |此标志不使用 Outlook 中，但它并包含所有用户定义的字段定义。  <br/> |
    
-- VT： 单词 （2 个字节） 的字段，即[VARENUM](http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum.aspx)枚举中的常量的数据类型。 
+- VT： 单词 （2 个字节） 的字段，即[VARENUM](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum.aspx)枚举中的常量的数据类型。 
     
 - DispId: DWORD （4 个字节），字段的调度标识符。 对于用户定义的字段，则值为 0。
     

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 07fcb881-d873-45bf-b048-30f41d0d8d85
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ffc47eca3457eef876d88a4be43888f24c403b10
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8257c3c3583072d16e96e6ea9bba4632fc78f9ef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575341"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385646"
 ---
 # <a name="pidtagsubjectprefix-canonical-property"></a>PidTagSubjectPrefix 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "22575341"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议对所有的消息对象都使用这些属性。 
   
@@ -50,15 +50,15 @@ Subject 属性均通常较小字符串少于 256 个字符，并且消息存储�
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象在允许的操作。
     

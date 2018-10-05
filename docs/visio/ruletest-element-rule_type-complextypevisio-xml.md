@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: 指定确定目标对象是否满足有效性规则的逻辑表达式。
-ms.openlocfilehash: 25569530af5bc6f4b00e8600d1e25d968a01f246
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8fd37040bec383ab61edfa62a09bb766ed8cd3c5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781203"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384848"
 ---
 # <a name="ruletest-element-ruletype-complextype-visio-xml"></a>RuleTest 元素 （Rule_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781203"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |validation.xml  <br/> |
    

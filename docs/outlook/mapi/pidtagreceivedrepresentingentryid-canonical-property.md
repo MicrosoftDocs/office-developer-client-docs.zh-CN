@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2ae2266c-f093-41e5-b4d0-e12aa0f03190
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 490025f22cd643ffededd6d8022907761c7f15d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 33e41343e0c159be20ed1499fc24223947975e1d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567095"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383784"
 ---
 # <a name="pidtagreceivedrepresentingentryid-canonical-property"></a>PidTagReceivedRepresentingEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含由接收用户的邮件用户的项标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22567095"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性是一个由接收用户的邮件用户的地址属性。 它必须由传入传输提供程序，也是负责授权或的代理人的验证设置。 如果正在表示没有消息的用户，此属性应设置为**PR_RECEIVED_BY_ENTRYID** ([PidTagReceivedByEntryId](pidtagreceivedbyentryid-canonical-property.md)) 属性中包含的项标识符。
   
@@ -44,19 +44,19 @@ ms.locfileid: "22567095"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 处理顺序和客户端和服务器之间的数据传输的流。
     
-[[MS OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > 指定用于连接到和它们代表另一个用户操作时，作为代理人，以及与邮件和日历的对象交互配置邮箱的方法。
     

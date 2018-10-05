@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: 存储有关文档图表验证的信息。
-ms.openlocfilehash: f4a7c0893baebb09dccd743c3006a5512dec533d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e40cd3a79922b56800cbb566a0d88de23829cc0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781613"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382356"
 ---
 # <a name="validation-element-visio-xml"></a>Validation 元素 (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781613"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |validation.xml  <br/> |
    

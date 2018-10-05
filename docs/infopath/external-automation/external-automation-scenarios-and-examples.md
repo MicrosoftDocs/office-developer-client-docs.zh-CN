@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
 description: Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPath.dll) 和 InfoPath XML 互操作程序集 (Microsoft.Office.Interop.InfoPath.Xml.dll) 用于自动执行支持编写托管代码提供的成员InfoPath。
-ms.openlocfilehash: 1c76e5cb659c9d3f39eec4a7e517ab57c98c858a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773876"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383161"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>外部自动化方案和示例
 
@@ -21,7 +21,7 @@ Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPa
   
 ## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>建立对 Microsoft Office InfoPath 主互操作和 InfoPath XML 互操作程序集参考
 
-若要编写用于自动执行 InfoPath 托管的代码，必须建立对 Microsoft InfoPath 主互操作和 InfoPath XML 互操作程序集的引用。 Microsoft InfoPath 主互操作程序集提供与 COM 对象模型公开 IPEDITOR 互操作性支持。通过使用[Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx)命名空间的成员的 DLL。 InfoPath XML 互操作程序集提供支持的互操作性与 COM 对象模型公开由 Microsoft XML Core Services (MSXML) 使用[Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml)命名空间的成员。 
+若要编写用于自动执行 InfoPath 托管的代码，必须建立对 Microsoft InfoPath 主互操作和 InfoPath XML 互操作程序集的引用。 Microsoft InfoPath 主互操作程序集提供与 COM 对象模型公开 IPEDITOR 互操作性支持。通过使用[Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx)命名空间的成员的 DLL。 InfoPath XML 互操作程序集提供支持的互操作性与 COM 对象模型公开由 Microsoft XML Core Services (MSXML) 使用[Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml)命名空间的成员。 
   
 > [!IMPORTANT]
 > 自动执行 InfoPath 托管代码应用程序的用户必须具有 InfoPath、 Microsoft Office InfoPath 主互操作程序集和 InfoPath XML 互操作程序集安装在其计算机上。 InfoPath 的典型安装的情况下，InfoPath 安装程序中的 **.NET 可编程性支持**选项设置为**从本机运行**。
@@ -109,7 +109,7 @@ Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPa
             // namespace of the form. IMPORTANT:Replace the namespace 
             // value below with that of your sample form.
             myXMLDoc.setProperty("SelectionNamespaces",
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Select all instances of customerName that contain 
             //'Company A'.
             IXMLDOMNodeList myNames = 
@@ -161,7 +161,7 @@ Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPa
           ' namespace of the form. IMPORTANT:Replace the namespace 
           ' value below with that of your sample form.
           myXMLDoc.setProperty("SelectionNamespaces", _
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Select all instances of customerName that contain 
           ''Company A'.
           Dim myNames As IXMLDOMNodeList = _
@@ -247,7 +247,7 @@ Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPa
             // Set the MSXML SelectionNamespaces property to the my
             // namespace of the form. IMPORTANT:Replace the namespace
             // value below with that of your sample form.
-            doc.setProperty("SelectionNamespaces","xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+            doc.setProperty("SelectionNamespaces","xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Pre-populate the fields with specified values.
             doc.selectSingleNode("//my:FirstName").text="My Name";
             doc.selectSingleNode("//my:LastName").text="My LastName";
@@ -280,7 +280,7 @@ Microsoft Office InfoPath 主互操作程序集 (Microsoft.Office.Interop.InfoPa
           ' Set the MSXML SelectionNamespaces property to the my
           ' namespace of the form. IMPORTANT:Replace the namespace
           ' value below with that of your sample form.
-          doc.setProperty("SelectionNamespaces", "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+          doc.setProperty("SelectionNamespaces", "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Pre-populate the fields with specified values.
           doc.selectSingleNode("//my:FirstName").text = "My Name"
           doc.selectSingleNode("//my:LastName").text = "My LastName"

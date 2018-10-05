@@ -7,22 +7,22 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2e48a625-b3f7-9fd0-253e-fe12a1aca446
 description: Outlook 辅助参考包含概念性内容和四组 Api、 代码示例和可再发行组件安装程序允许开发人员扩展和将与 Outlook 集成的参考文档。 本参考中的 Api 由 Outlook 扩展性，Outlook 对象模型之外公开。
-ms.openlocfilehash: 5f289a1be8fe5d10ddac37394c940f2627415136
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 445d35c12e4c8984d47adcef3ecf50ebd881875b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774460"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384554"
 ---
 # <a name="welcome-to-the-outlook-auxiliary-reference"></a>欢迎使用 Outlook 辅助参考
 
 Outlook 辅助参考包含概念性内容和四组 Api、 代码示例和可再发行组件安装程序允许开发人员扩展和将与 Outlook 集成的参考文档。 本参考中的 Api 由 Outlook 扩展性，Outlook 对象模型之外公开。 
   
-如果您是新增开发 Outlook 解决方案，请参阅[选择的 API 或技术的开发 outlook 解决方案](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md)来标识的 Api 和技术的最适合您的需求。 
+如果你是第一次开发 Outlook 解决方案，请参阅[选择某个 API 或技术开发适用于 Outlook 的解决方案](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md)，以确定最适合你需求的 API 和技术。 
 
-有关 Outlook 对象模型的特定信息，请参阅[Outlook VBA 参考 （英文）](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)。 
+有关 Outlook 对象模型的特定信息，请参阅[Outlook VBA 参考 （英文）](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)。 
 
-有关消息处理 API (MAPI) 支持的 Outlook 的特定信息，请参阅[Outlook MAPI 参考 （英文）](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)。
+有关消息处理 API (MAPI) 支持的 Outlook 的特定信息，请参阅[Outlook MAPI 参考 （英文）](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)。
 
 ## <a name="conceptual"></a>概念 
 
@@ -44,7 +44,7 @@ Outlook 辅助参考包含概念性内容和四组 Api、 代码示例和可再�
     
 - [About meeting requests as informational updates and full updates](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
-- [有关以编程方式的夏时制调整日历](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)（还有可再发行软件包的安装程序的第三方日历调整工具，以早期版本的 Outlook 也适用于 Outlook 2010 相。 若要下载安装程序，请参阅[Outlook 2010： 辅助参考可再发行组件安装程序和头文件定位日历的](http://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b)。)
+- [有关以编程方式的夏时制调整日历](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)（还有可再发行软件包的安装程序的第三方日历调整工具，以早期版本的 Outlook 也适用于 Outlook 2010 相。 若要下载安装程序，请参阅[Outlook 2010： 辅助参考可再发行组件安装程序和头文件定位日历的](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b)。)
     
 - [关于将 TZDEFINITION 保存到流以提交到二进制属性](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 
@@ -72,7 +72,7 @@ Outlook 辅助参考中的示例操作方法任务包括：
     
 - [从约会中读取时区属性](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [指定是否要在 Outlook（Outlook 辅助参考）中显示联系人的图片](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [指定是否要在 Outlook（Outlook 辅助参考）中显示联系人的图片](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 - [使用访问忙/闲数据的相对时间](how-to-use-relative-time-to-access-free-busy-data.md)
     

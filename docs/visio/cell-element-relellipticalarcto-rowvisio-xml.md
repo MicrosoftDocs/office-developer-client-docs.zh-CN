@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: 包含 x 坐标或 y 坐标的相对于形状的宽度和高度的椭圆弧的终点相对于形状的宽度和高度，从椭圆的长轴或比率为 x 轴的角度弧形上控制点的 x 坐标或 y 坐标的控件椭圆的主要和次要刻度坐标轴。
-ms.openlocfilehash: 661f6971ca4c03c68950ead45065bd12160918d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55e7f664aaab34aa079bafe8f11c57e99fd8a935
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779854"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383154"
 ---
 # <a name="cell-element-relellipticalarcto-row-visio-xml"></a>单元格元素 （RelEllipticalArcTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779854"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

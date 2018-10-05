@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: 指定形状的文本运行格式属性，如字体、 颜色样式、 case、 位置相对于基线，或磅值。
-ms.openlocfilehash: 0d0725ec6ff19104d95780dcfbb3fff9715cbe92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6dd895b33353944d27abb0d64a6a6df64ca19896
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779821"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384246"
 ---
 # <a name="cell-element-character-section-visio-xml"></a>单元格 （Character 内容） (Visio XML) 元素
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779821"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml，母版页 #.xml、 页面 #.xml  <br/> |
    

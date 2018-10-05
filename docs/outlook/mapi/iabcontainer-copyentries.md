@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddb730ed92db4c8d281e7c8d5d9b18bc44505598
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565324"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382944"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 复制一个或多个条目，通常消息的用户或通讯组列表。
   
@@ -80,7 +80,7 @@ MAPI_W_PARTIAL_COMPLETION
   
 > 复制操作成功总体上讲，但无法复制一个或多个条目。 返回此值时，应处理呼叫为成功。 若要测试此值，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IABContainer::CopyEntries**方法将从同一个容器或其他容器复制条目。 调用**CopyEntries**功能上等效于调用以下为每个要复制的项： 
   
@@ -92,9 +92,9 @@ MAPI_W_PARTIAL_COMPLETION
     
 4. 新条目的[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法执行保存。 
     
-5. 新条目的[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx)方法来释放容器的引用。 
+5. 新条目的[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx)方法来释放容器的引用。 
     
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 所有容器都支持**IABContainer::CopyEntries**方法必须都进行修改。 指示可修改其**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) 属性中设置您的容器 AB_MODIFIABLE 标志。 
   

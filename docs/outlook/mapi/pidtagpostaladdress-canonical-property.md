@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: cf400713-3b42-4ee7-9dea-d52b8bf03ac3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5456cedb8882bc43b7ee59b53ffb7d6ba40c3414
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f6f67572914ae7dbcc6e6d6b992fb2f8ee463117
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569027"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383308"
 ---
 # <a name="pidtagpostaladdress-canonical-property"></a>PidTagPostalAddress 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含收信人的邮政地址。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22569027"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件用户  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性提供标识和访问收件人的信息。 它们是按收件人和收件人的组织定义的。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22569027"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

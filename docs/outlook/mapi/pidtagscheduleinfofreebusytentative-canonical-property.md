@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 28453d29-30c5-405b-84d2-5bb5f281756c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b943f9a3b6f63f185a1b44cfa811d010a287a3d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 18bc41d9038113b5b813f1cfd02d90b8e982703c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565814"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385114"
 ---
 # <a name="pidtagscheduleinfofreebusytentative-canonical-property"></a>PidTagScheduleInfoFreeBusyTentative 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的基块处于暂定忙/闲状态的时间。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22565814"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |忙/闲  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性在**PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) 中具有多个值作为值的数目。 每个二进制值表示的月和对应于**PR_SCHDINFO_MONTHS_TENTATIVE**中相同的索引处的值。 **PR_SCHDINFO_MONTHS_TENTATIVE**中的值相同的顺序排序的二进制值。
   
@@ -46,11 +46,11 @@ ms.locfileid: "22565814"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > 发布的用户或资源的可用性。
     

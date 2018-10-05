@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c611640b-1a70-4a76-b7ff-c8ad8d320892
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7019ef5e23d0325d43b17009137dd29a2ec95c0e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 22a1a62f4ee6ff492f36eb18e2d92c8d70febd72
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593534"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382608"
 ---
 # <a name="pidtagaddressbookhierarchicalrootdepartment"></a>PidTagAddressBookHierarchicalRootDepartment
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
  包含分层通讯根 (HAB) 的可分辨的名称 (DN)。 
   
@@ -35,7 +35,7 @@ ms.locfileid: "22593534"
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |Exchange 通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这是全局地址列表 (GAL) 容器的属性，并代表分层通讯根的可分辨的名称。 此属性才存在脱机通讯簿中而不会在 Active Directory 域服务 (AD DS)。 呼叫者应将 MAPI_CACHE_ONLY 传递给 GetProps 呼叫，以避免远程过程调用。 如果不存在，呼叫者应使用 PR_EMS_AB_HAB_ROOT_DEPARTMENT，其类型 PT_OBJECT 为，查找根部门。 
   
@@ -55,7 +55,7 @@ ms.locfileid: "22593534"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Microsoft Exchange Server 协议规范的引用。
     

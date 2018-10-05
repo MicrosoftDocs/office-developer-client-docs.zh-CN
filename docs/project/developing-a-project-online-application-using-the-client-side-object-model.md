@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 本文介绍使用.NET Framework 4.0 的桌面应用程序的 Microsoft Project Online 应用程序开发。 本文中描述的应用程序宿主服务器中检索信息。
-ms.openlocfilehash: a65dbbdedb371fae9b8f0b99ea113ae38cbaffb5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b6e7260fd2337d2b156f97605fdd201f5e0d4edc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572877"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385261"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>开发 Project Online 应用程序使用的客户端对象模型
 
@@ -39,11 +39,11 @@ Project Online 具有三个 online API 集： 客户端对象模型 (CSOM)、 Ja
     
 本文重点介绍使用.NET CSOM 接口的应用程序。
   
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 开始与基本系统运行 Windows 10，并添加以下各项：
   
-- .Net framework 4.0 或更高版本-使用完整的框架。 下载站点是https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx。
+- .Net framework 4.0 或更高版本-使用完整的框架。 下载站点是https://msdn.microsoft.com/vstudio/aa496123.aspx。
     
 - Visual Studio 2013 或更高版本-是可以接受任何版本。 使用 Visual Studio 2015 的社区版本开发示例应用程序。 社区 edition 位于https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx。
     
@@ -100,7 +100,7 @@ VS 解决方案需要 ProjectServerClient 程序集从 Project 2103 SDK，几个
     
    如果需要请单击**浏览...** 在对话框的底部按钮并导航到要定位程序集的 Project 2013 SDK 安装目录。 
     
-3. 单击“**确定**”。 
+3. 单击“确定”****。 
     
 4. 将 PrjoctServer 客户端命名空间添加到.cs 文件中。
     
@@ -132,7 +132,7 @@ System.Security 程序集是.NET Framework 的一部分，且已安装与框架�
     
 2. 选中**程序集 =\>框架**左窗格中的引用管理器对话框中，然后检查**System.Security**。 
     
-3. 单击“**确定**”。 
+3. 单击“确定”****。 
     
 4. 将 System.Security 命名空间添加到.cs 文件中：
     

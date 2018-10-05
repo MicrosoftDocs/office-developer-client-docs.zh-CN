@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b0d5588218fd74f005de19daba002cd622c13a17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 56f6e2355ee2e64cc766bafe27cd59454e210ab6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587185"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384977"
 ---
 # <a name="pidlidusetnef-canonical-property"></a>PidLidUseTnef 规范属性
 
@@ -35,7 +35,7 @@ ms.locfileid: "22587185"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性指定该邮件从 TNEF 转换为 MIME 或 SMTP 格式时是否应在 TNEF 包括上一条消息。 此属性可能不存在，并且如果是这样，TNEF 不能包含对邮件。
   
@@ -51,15 +51,15 @@ ms.locfileid: "22587185"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     
-[[MS OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > 进行编码和解码为有效的流表示形式的消息和附件对象。
     

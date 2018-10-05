@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 67e31027-6bc2-4a40-9b00-d61baef4ab0f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3ddde5d206eb4be56ce6a7bae77eb00237f12a0f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9d74fdb3acb6db94078d6090f0def050fb564cd9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584294"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385842"
 ---
 # <a name="pidtagrecipienttype-canonical-property"></a>PidTagRecipientType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含邮件收件人的收件人类型。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22584294"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性中包含的收件人类型包括一个必选的值和一个可选标志。
   
@@ -80,19 +80,19 @@ MAPI_SUBMITTED
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

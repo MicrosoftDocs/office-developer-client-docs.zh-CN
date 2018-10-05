@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a328d71aef57f85a5bd33db5cc219dff181dafc0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 870fbf2228206253261124907d6bd420f95fb7c1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593303"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384841"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>PidTagReportTag 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含在邮件系统应将复制到生成的邮件的所有报告的二进制标记值。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22593303"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性，如**PR_SUBJECT_IPM** ([PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)) 属性，用于将报告与原始邮件相关联。 
   
@@ -42,11 +42,11 @@ ms.locfileid: "22593303"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件中允许的操作。
     

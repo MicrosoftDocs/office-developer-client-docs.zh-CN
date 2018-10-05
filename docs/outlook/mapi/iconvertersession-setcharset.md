@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 69023d2c13037fb52a4d1dc4f7376efbd839aebc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14b2904e57852c564395f4b27c9d5270afd1454a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581697"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385723"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定一个可选的字符的 MAPI 时设置为 MIME 转换器使用将 MAPI 邮件转换为 MIME 流。
   
@@ -42,7 +42,7 @@ HRESULT SetCharset(
     
  _hcharset_
   
-> [in]设置 Windows Mail 的 mimeole.h 中定义的字符句柄。 指定**null**以指定您不希望应用任何特定的字符集。 对于非**null**值，使用如[MimeOleGetCodePageCharset](http://msdn.microsoft.com/en-us/library/ms714746%28VS.85%29.aspx)函数获取句柄的字符集。 
+> [in]设置 Windows Mail 的 mimeole.h 中定义的字符句柄。 指定**null**以指定您不希望应用任何特定的字符集。 对于非**null**值，使用如[MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx)函数获取句柄的字符集。 
     
  _csetapplytype_
   
@@ -54,11 +54,11 @@ S_OK
   
 > 成功函数调用。
     
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
 |MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将转换为 EML 文件的 MAPI 邮件。  <br/> |

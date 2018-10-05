@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b9659beac383ab5da206e5184a3501036da2cd80
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da90347f5aacdb2fcac8547eddd5b89a0a44820d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564526"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385821"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>PidTagExpiryNumber 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 定义到期发送时间与**PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) 属性一起使用。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22564526"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果存在必须介于 0 到 999 之间，之间设置此属性的值。
   
@@ -42,7 +42,7 @@ ms.locfileid: "22564526"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的电子邮件消息对象。
     

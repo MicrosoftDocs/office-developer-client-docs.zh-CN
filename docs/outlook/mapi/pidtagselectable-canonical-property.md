@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d376a5219125866f467be01709a6a611ed8d47f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17343a721cbcc642c8cffe95112f25710c0c130c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576419"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383455"
 ---
 # <a name="pidtagselectable-canonical-property"></a>PidTagSelectable 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含 TRUE，则可以选择一次性表中的条目。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22576419"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |通讯簿容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性主要用于可视一次性表的格式设置。 模板可以通过创建指示组标题条目进行分组。 此属性设置为 FALSE 的标题，则确保用户可以组和不此标题条目的选择实际的模板。 
   
@@ -52,11 +52,11 @@ MAPI 允许直观地通过两种方法对项目进行分组的通讯簿提供程
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABKT]](http://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
+[[MS OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的地址簿模板。
     

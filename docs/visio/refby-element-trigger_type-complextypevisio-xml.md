@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: 指定绘图中的页面的引用。
-ms.openlocfilehash: e4726a8fe49a7492cd2f7833bbcf5e6810bae18d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d987825345b64bd6e202970fc786aedaf49c6a94
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572429"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383315"
 ---
 # <a name="refby-element-triggertype-complextype-visio-xml"></a>RefBy 元素 （Trigger_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "22572429"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> ||
    

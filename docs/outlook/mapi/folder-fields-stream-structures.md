@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96051bd2b62fd7c0e908a1018aac0225e44986be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567158"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385086"
 ---
 # <a name="folder-fields-stream-structures"></a>文件夹字段流结构
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 消息的[PidTagUserFields](pidtaguserfields-canonical-property.md)属性包含二进制数据流，FolderUserFields，其中包含的文件夹的用户定义的字段定义。 本主题描述有关用户定义的字段定义的文件夹的流结构。 
 
@@ -66,7 +66,7 @@ FolderFieldDefinitionA 流结构与存储在 ANSI 中的字段名称中包含用
     
 - **FieldNameLength**： 单词 （2 个字节）， **FieldName**数组中的元素的数目。
     
-- **FieldName**: CHAR 的数组。 这是 ANSI CP_ACP 代码页表示的字段名称。 此数组的计数等于**FieldNameLength**。 字段名称都必须满足的[UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx)方法中指定的名称参数的限制。 
+- **FieldName**: CHAR 的数组。 这是 ANSI CP_ACP 代码页表示的字段名称。 此数组的计数等于**FieldNameLength**。 字段名称都必须满足的[UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx)方法中指定的名称参数的限制。 
     
    > [!NOTE]
    > 出于旧的兼容性，Outlook 可能能够处理不满足这些限制某些**FieldName**值，但是这种情况下不包含的此主题。 
@@ -83,7 +83,7 @@ FolderFieldDefinitionW 流结构与存储在 Unicode 中的字段名称中包含
     
 - **FieldNameLength**： 单词 （2 个字节）， **FieldName**数组中的元素的数目。
     
-- **FieldName**: WCHAR 的数组。 这是字段名称的 Unicode (utf-16) 表示形式。 此数组的计数等于**FieldNameLength**。 字段名称都必须满足的[UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx)方法中指定的名称参数的限制。 
+- **FieldName**: WCHAR 的数组。 这是字段名称的 Unicode (utf-16) 表示形式。 此数组的计数等于**FieldNameLength**。 字段名称都必须满足的[UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx)方法中指定的名称参数的限制。 
     
    > [!NOTE]
    > 出于旧的兼容性，Outlook 可能能够处理一些**FieldName**值不满足这些限制，但这种情况下不受本主题。 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 709e701f-b24e-4cd5-8c55-3f9e67f67a4a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2a097b8e8071c08b82a05f3c8e0b021db8ec5107
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 10dd12522a635098908285f1a9ee16c93d96f728
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585393"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383546"
 ---
 # <a name="pidlidcontacts-canonical-property"></a>PidLidContacts 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含与项关联的联系人的姓名。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22585393"
 |数据类型：  <br/> |PT_MV_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含每个通讯簿**EntryID** **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)) 属性的值中引用的**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。 它可能包括**dispidContactLinkEntry**中被引用的名称。
   
@@ -43,19 +43,19 @@ ms.locfileid: "22585393"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     
-[[MS OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的日志。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

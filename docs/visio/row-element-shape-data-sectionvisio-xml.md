@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
 description: 指定一个形状的数据输入将数据与形状相关联。
-ms.openlocfilehash: 19dc4fe4759e7546f56160e41100d73721f9f6e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7857ad8a28e11d6ed3ba34145ffc0606f306120f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781163"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385506"
 ---
 # <a name="row-element-shape-data-section-visio-xml"></a>Row 元素 （Shape Data 内容） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781163"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[形状 Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

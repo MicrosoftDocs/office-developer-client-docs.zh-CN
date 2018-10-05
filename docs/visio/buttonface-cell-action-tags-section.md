@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 26f370e1-5193-f47d-7b60-3597975be650
 description: 包含动作标记按钮上显示的按钮外表图像的 ID。
-ms.openlocfilehash: ca6be0a95b33e173219f4bdc1ba042c7162941b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e74b3281d894cebd8491112181198d427f0d337f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779807"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385478"
 ---
 # <a name="buttonface-cell-action-tags-section"></a>ButtonFace 单元格（“Action Tags”部分）
 
@@ -25,7 +25,7 @@ ms.locfileid: "19779807"
   
 ## <a name="remarks"></a>注解
 
-ButtonFace 单元格中包含的字符串表示的 Microsoft Office 按钮外表图像的 ID。 值为 0 （零） 或空白默认标准动作标记"i"信息按钮![](media/InfoPS_ZA10180114.gif)。
+ButtonFace 单元格中包含的字符串表示 Microsoft Office 按钮外表图像的 ID。值为 0（零）或空白时默认表示标准的动作标记“i”信息按钮 ![标准的动作标记"i"info 按钮](media/InfoPS_ZA10180114.gif).
   
 可在 ButtonFace 单元格的 Id 是与**CommandBarButton**对象的**FaceID**属性一起使用的 Id 相同。 关于这些 Id 的详细信息，请在 MSDN 上中搜索"命令栏按钮图像处理"。 
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cba4989ec3b1afcadb0caddd4af444cc9c96ebda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9a131c633b8dcf9b0e5070f01de8fcab90a18ade
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565954"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384197"
 ---
 # <a name="pidlidcustomflag-canonical-property"></a>PidLidCustomFlag 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定一条消息自定义方式，例如，使用自定义属性保存的位掩码。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22565954"
 |长 ID （盖）：  <br/> |0x00008251  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要检索此属性的值，首先使用**[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** 获取的属性标记，然后指定**[IMAPIProp::GetProps](imapiprop-getprops.md)** 获取值中的此属性标记。 
   
@@ -62,7 +62,7 @@ ms.locfileid: "22565954"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     

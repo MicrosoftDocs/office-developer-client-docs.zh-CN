@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
 description: 提供对 Microsoft Visio 重新计算 Visio 文件中的文档部件之间的关系的说明。
-ms.openlocfilehash: 909fff3ccec176cd3ce327fc208c176a68764fe3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a590ec1f9c19270f75d4d9e77804c0a7b45157b6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781567"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385436"
 ---
 # <a name="trigger-element-visio-xml"></a>Trigger 元素 (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781567"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

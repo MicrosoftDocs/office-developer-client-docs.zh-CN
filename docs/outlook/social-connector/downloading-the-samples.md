@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
 description: 本主题介绍如何下载本文档附带的代码示例。
-ms.openlocfilehash: d21e65c5a223b93bb8237c7ee85ed0131273887a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19145077d8048ad7117160ffc693fb90827f8fc2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779213"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382489"
 ---
 # <a name="downloading-the-samples"></a>下载示例
 
@@ -21,7 +21,7 @@ ms.locfileid: "19779213"
   
 ### <a name="to-download-the-sample-code-installation-package"></a>若要下载示例代码安装程序包
 
-1. 下载 OSCProviderSamples.zip 文件从[Outlook Social Connector 2013： 提供程序模板](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。
+1. 下载 OSCProviderSamples.zip 文件从[Outlook Social Connector 2013： 提供程序模板](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。
     
 2. 将.zip 文件解压缩到您选择的文件夹。 在 Windows 7，Visual Studio 2010 的默认路径为 C:\Users\_用户_\Documents\Visual Studio 2010\Projects。
     

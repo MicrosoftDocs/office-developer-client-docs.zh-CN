@@ -9,12 +9,12 @@ ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: >-
   代表 Microsoft Visio 实例中打开的窗口。
    此元素包含最初由 Visio 在打开文件时完全重新创建应用程序工作区中的用户界面窗口所需的信息。
-ms.openlocfilehash: 762b689d625c7865696a0bf8bb8c4acc25e3d8eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781664"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385345"
 ---
 # <a name="window-element-windowstype-complextype-visio-xml"></a>窗口元素 （Windows_Type 复杂类型） (Visio XML)
 
@@ -26,7 +26,7 @@ ms.locfileid: "19781664"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |windows.xml  <br/> |
    

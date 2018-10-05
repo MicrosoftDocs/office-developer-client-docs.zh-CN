@@ -11,16 +11,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 4fb4e8656b4f27105a30764cdda020849a07645e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3cd2e5072c8602fe301028e69592220a8345c211
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773849"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385079"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister（窗体 1）
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 可从 DLL 或 XLL 命令的本身已调用由 Microsoft Excel 进行调用。 这相当于调用从 Excel XLM 宏工作表的**注册**。 
   
@@ -79,12 +79,12 @@ _pxMacroType_（**xltypeNum**或**xltypeInt**）
 |||||
 |:-----|:-----|:-----|:-----|
 | _pxMacroType 值_ <br/> |0  <br/> |1  <br/> |2  <br/> |
-|可从工作表进行调用  <br/> |可访问  <br/> |可访问  <br/> |否  <br/> |
-|可以从宏表调用  <br/> |可访问  <br/> |可访问  <br/> |可访问  <br/> |
-|可从已定义的名称定义调用  <br/> |可访问  <br/> |可访问  <br/> |可访问  <br/> |
-|可从条件格式表达式调用  <br/> |可访问  <br/> |可访问  <br/> |否  <br/> |
-|列出在函数向导的工作表函数  <br/> |否  <br/> |可访问  <br/> |否  <br/> |
-|列出在函数向导的宏工作表函数  <br/> |否  <br/> |可访问  <br/> |可访问  <br/> |
+|可从工作表进行调用  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|可以从宏表调用  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|可从已定义的名称定义调用  <br/> |是  <br/> |是  <br/> |是  <br/> |
+|可从条件格式表达式调用  <br/> |是  <br/> |是  <br/> |否  <br/> |
+|列出在函数向导的工作表函数  <br/> |否  <br/> |是  <br/> |否  <br/> |
+|列出在函数向导的宏工作表函数  <br/> |否  <br/> |是  <br/> |是  <br/> |
    
 实际上，应使用的工作表函数，1 宏表等效函数 1 (注册类型为**#**) 您想要从工作表和 2 调用命令。 
   
@@ -101,7 +101,7 @@ _pxShortcutText_(**xltypeStr**)
   
 _pxHelpTopic_(**xltypeStr**)
   
-可选的帮助文件 （.chm 或.hlp） 以显示当用户单击帮助按钮 （时显示您的自定义函数） 引用。 可以在窗体中`filepath!HelpContextID`或`http://address/path_to_file_in_site!0`。 之前和之后的两个部分"！"所需。  *HelpContextID*不得包含单引号，并将由 Excel 转换为 long，十进制窗体中的 4 个字节无符号整数。 当使用 URL 窗体，Excel 将打开仅引用的帮助文件。 
+可选的帮助文件 （.chm 或.hlp） 以显示当用户单击帮助按钮 （时显示您的自定义函数） 引用。 可以在窗体中`filepath!HelpContextID`或`https://address/path_to_file_in_site!0`。 之前和之后的两个部分"！"所需。  *HelpContextID*不得包含单引号，并将由 Excel 转换为 long，十进制窗体中的 4 个字节无符号整数。 当使用 URL 窗体，Excel 将打开仅引用的帮助文件。 
   
 _pxFunctionHelp_(**xltypeStr**)
   

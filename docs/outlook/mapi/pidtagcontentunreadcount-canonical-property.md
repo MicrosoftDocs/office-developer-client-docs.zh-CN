@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b15dd467b7418ea10d384183dc32284924a90212
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9572a053182aaa59020a6816736b8a4b92e778b7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581074"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383830"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>PidTagContentUnreadCount 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 计算出的消息存储库包含文件夹中的未读邮件数。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22581074"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 消息存储通过计算此属性用于两个不同的但相关，目的。 MAPI folder 对象，它包含文件夹中的消息的数。 在分类 MAPI 表中的标题行中，它包含该标题行所对应的类别中的未读非关联消息的数目。
   
@@ -46,15 +46,15 @@ ms.locfileid: "22581074"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Microsoft Exchange Server 协议规范参考。
     
-[[MS OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > 处理文件夹的操作。
     
-[[MS OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > 包含允许的操作的核心 table 对象。
     

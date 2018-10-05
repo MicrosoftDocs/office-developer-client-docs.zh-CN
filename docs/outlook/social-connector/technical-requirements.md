@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
 description: 本主题介绍支持的编程语言，COM 可见性和方法可返回类型要求和 Outlook Social Connector (OSC) 提供程序扩展性 DLL 的详细信息。
-ms.openlocfilehash: 94b57e20957f3d8d779c4d3324ecbb8ccd37f60a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779329"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383112"
 ---
 # <a name="technical-requirements"></a>技术要求
 
@@ -33,7 +33,7 @@ OSC 提供程序必须是 COM 可见，由以下定义：
     
 - OSC 提供程序托管的语言开发是 COM 可见。
     
-- OSC 提供程序应将值添加到 Windows 注册表的指示提供程序 DLL 支持单线程单元 (STA) 和多线程的单元 (MTA) 线程模型。 有关 COM 线程模型的详细信息，请参阅[说明和工作原理的 OLE 线程模型](http://support.microsoft.com/kb/150777)。
+- OSC 提供程序应将值添加到 Windows 注册表的指示提供程序 DLL 支持单线程单元 (STA) 和多线程的单元 (MTA) 线程模型。 有关 COM 线程模型的详细信息，请参阅[说明和工作原理的 OLE 线程模型](https://support.microsoft.com/kb/150777)。
     
 OSC 提供程序扩展性中的方法必须返回如**字符串**或**bool**基元类型。 某些**字符串**返回的值必须遵守 OSC 提供程序扩展性的架构定义。 仅 XML 的返回值为支持。 
   

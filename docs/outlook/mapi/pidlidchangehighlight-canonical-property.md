@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cd57a5be-5550-4492-acb9-52255fac9014
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c38d1de1f2631277645ed10eb960ffc1956dfb6f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bbac700c2bf5a0e17967cbf94b68b03627a47256
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594710"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383827"
 ---
 # <a name="pidlidchangehighlight-canonical-property"></a>PidLidChangeHighlight 规范属性
 
@@ -35,19 +35,19 @@ ms.locfileid: "22594710"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-此属性不是必需的。 可以设置的单个标志详见[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)。
+此属性不是必需的。 可以设置的单个标志详见[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

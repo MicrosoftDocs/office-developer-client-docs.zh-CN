@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: db88926cf86db2a628886dba4246107e0d3d571b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aa9aacd8a1d75ed4c14a980e162a68c47995a55c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581375"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385415"
 ---
 # <a name="pidlidappointmentnotallowpropose-canonical-property"></a>PidLidAppointmentNotAllowPropose 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示是否与会者不允许建议新会议的日期/时间。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22581375"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 值为 FALSE 或不存在此属性指示允许与会者建议新的日期/时间。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22581375"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd9a5d5f-16fe-29b4-5af0-913b14d2be16
 description: 根据目标对象的父验证问题，指定是页上，或同时页及其与父验证问题关联的形状。 如果父验证问题目标为文档、 IssueTarget 指定的页和形状都不。
-ms.openlocfilehash: 72789782a37b29daa48cd01adb0b8eda4ebf73ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 74005bfb6035e32b7b34fdd5a8a5737813a562a0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780519"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385359"
 ---
 # <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>IssueTarget 元素 （Issue_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780519"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |validation.xml  <br/> |
    

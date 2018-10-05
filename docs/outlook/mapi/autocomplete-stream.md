@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: caa93fcc1675531f2d128170c81904e0e286e0f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591077"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384645"
 ---
 # <a name="autocomplete-stream"></a>自动完成流
 
@@ -71,7 +71,7 @@ ms.locfileid: "22591077"
   
 元数据（8 个字节）
   
-有关二进制结构的示例，请参阅 [Outlook 2003/2007 NK2 文件格式和开发人员指南](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)。
+有关二进制结构的示例，请参阅 [Outlook 2003/2007 NK2 文件格式和开发人员指南](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)。
   
 ## <a name="high-level-layout"></a>高级别布局
 
@@ -198,7 +198,7 @@ PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
    
 ## <a name="significant-properties"></a>重要属性
 
-如本主题前面所述，表示属性的二进制块具有与通讯簿收件人的属性对应的属性标记。 对于此处未列出的属性，可以在 http://msdn.microsoft.com/en-us/library/cc433490(EXCHG.80).aspx 查找属性说明。
+如本主题前面所述，表示属性的二进制块具有与通讯簿收件人的属性对应的属性标记。 对于此处未列出的属性，可以在 https://msdn.microsoft.com/library/cc433490(EXCHG.80).aspx 查找属性说明。
   
 |**属性名称**|**属性标记**|**说明（请参阅 MSDN 获取详细信息）**|
 |:-----|:-----|:-----|

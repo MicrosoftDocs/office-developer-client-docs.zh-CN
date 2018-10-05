@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc98b201b31048e22e093d92c9cf2d5ff1fb0257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563574"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383147"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>在 32 位和 64 位平台上构建 MAPI 应用程序
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 本主题介绍以更改并重新构建在 64 位平台上，运行 32 位 MAPI 的应用程序和 64 位应用程序在 32 位平台上运行，MAPI 开发人员应采取的操作。 本主题中的 64 位平台是安装 64 位 Microsoft Outlook 和 64 位 Windows，一台计算机，32 位平台安装 32 位 Outlook 和 32 位或 64 位 Windows 的计算机。 
   
@@ -53,7 +53,7 @@ MAPI 应用程序有 32 位版本的 Outlook，包括 Microsoft Outlook 2013 之
   
 ### <a name="32-bit-mapi-application-and-64-bit-outlook"></a>32 位 MAPI 应用程序和 64 位 Outlook
 
-32 位 MAPI 应用程序不支持安装 64 位 Outlook 与 64 位 Windows 的计算机上运行。 应用程序开发人员必须更新并重新生成作为一个用于 64 位平台的 64 位应用程序的应用程序。 这是因为 32 位应用程序无法加载的 64 位 Msmapi32.dll 文件。 有少量 API 应用程序开发人员必须包含构建其代码成功的 64 位环境的更改。 使用这些改变以支持 64 位平台，MAPI 头文件进行了更新。 您可以下载这些头文件在[Outlook 2010: MAPI 头文件](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1)。 开发人员可以使用此一组相同的 MAPI 头文件来构建 32 位和 64 位的 MAPI 应用程序。
+32 位 MAPI 应用程序不支持安装 64 位 Outlook 与 64 位 Windows 的计算机上运行。 应用程序开发人员必须更新并重新生成作为一个用于 64 位平台的 64 位应用程序的应用程序。 这是因为 32 位应用程序无法加载的 64 位 Msmapi32.dll 文件。 有少量 API 应用程序开发人员必须包含构建其代码成功的 64 位环境的更改。 使用这些改变以支持 64 位平台，MAPI 头文件进行了更新。 您可以下载这些头文件在[Outlook 2010: MAPI 头文件](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1)。 开发人员可以使用此一组相同的 MAPI 头文件来构建 32 位和 64 位的 MAPI 应用程序。
   
 ### <a name="64-bit-mapi-application-and-64-bit-outlook"></a>64 位 MAPI 应用程序和 64 位 Outlook
 
@@ -61,7 +61,7 @@ MAPI 应用程序有 32 位版本的 Outlook，包括 Microsoft Outlook 2013 之
   
 ### <a name="64-bit-mapi-application-and-32-bit-outlook"></a>64 位 MAPI 应用程序和 32 位 Outlook
 
-64 位 MAPI 应用程序不支持在安装 32 位 Outlook 和 32 位或 64 位 Windows 计算机上运行。 应用程序开发人员必须更新并重新生成作为 32 位应用程序以使用 32 位 Outlook 应用程序。 使用更新的 MAPI 头文件，可以在下载[Outlook 2010: MAPI 头文件](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1)。 开发人员可以使用此一组相同的 MAPI 头文件来构建 32 位和 64 位的 MAPI 应用程序。
+64 位 MAPI 应用程序不支持在安装 32 位 Outlook 和 32 位或 64 位 Windows 计算机上运行。 应用程序开发人员必须更新并重新生成作为 32 位应用程序以使用 32 位 Outlook 应用程序。 使用更新的 MAPI 头文件，可以在下载[Outlook 2010: MAPI 头文件](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1)。 开发人员可以使用此一组相同的 MAPI 头文件来构建 32 位和 64 位的 MAPI 应用程序。
   
 ### <a name="exception-mapisendmail"></a>异常： MAPISendMail
 

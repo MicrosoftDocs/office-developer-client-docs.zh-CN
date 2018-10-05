@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5127f5aef50b1040b3e6f4bc644395f2af7555cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c226fe79fd002cda3c557fc8416c25f98ad33626
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563539"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382874"
 ---
 # <a name="read-and-parse-a-recurrence-pattern"></a>读取并分析的定期模式
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 MAPI 可用于读取并分析的定期模式的约会。
   
@@ -29,7 +29,7 @@ MAPI 可用于读取并分析的定期模式的约会。
     
 2. 检索命名的属性**dispidApptRecur** （[PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md)）。 有关检索名为属性的信息，请参阅[MAPI 命名属性](mapi-named-properties.md)。
     
-3. 按照[[MS OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28EXCHG.80%29.aspx)读取约会定期模式结构中的指南。 
+3. 按照[[MS OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx)读取约会定期模式结构中的指南。 
     
 MFCMAPI 参考应用程序演示与的最后一步`BinToAppointmentRecurrencePatternStruct`MFCMapi 项目的 InterpretProp2.cpp 源文件中的函数。 `BinToAppointmentRecurrencePatternStruct`函数指针作为参数的内存的缓冲区中。 MFCMAPI 应用程序通过第一个映射**dispidApptRecur**命名属性设为一个属性标记，然后通过请求属性的值使用[IMAPIProp::GetProps](imapiprop-getprops.md)方法来获取此缓冲区。 如果该属性是太大，无法检索使用**GetProps**方法，MFCMAPI 打开的流界面检索使用[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法的属性。 然后，MFCMAPI 应用程序读取超出要构建缓冲区的流数据。 
   
@@ -212,5 +212,5 @@ AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULON
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MAPI 创建 Outlook 2007 项](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [使用 MAPI 创建 Outlook 2007 项](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

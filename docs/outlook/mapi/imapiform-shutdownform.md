@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 49ed8669a5496524917c15ac86e4a13060931057
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 073a76766a296d86e7a23809921b832d494a8f1b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578568"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384834"
 ---
 # <a name="imapiformshutdownform"></a>IMAPIForm::ShutdownForm
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 关闭表单。
   
@@ -61,23 +61,23 @@ E_UNEXPECTED
   
 > 以前调用**ShutdownForm**已被关闭窗体。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看器调用**IMAPIForm::ShutdownForm**方法关闭窗体。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 **ShutdownForm**在实现中执行以下任务：
   
 1. 检查的一个查看器不已调用**ShutdownForm**，并返回 E_UNEXPECTED，如果它具有。 尽管这是不可能，应检查。
     
-2. 调用窗体的[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx)方法，以便完成处理之前，仍可存储窗体和任何内部数据结构。 
+2. 调用窗体的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx)方法，以便完成处理之前，仍可存储窗体和任何内部数据结构。 
     
 3. 确定是否有任何未保存的更改窗体的数据。 保存未保存的数据，根据如何_ulSaveOptions_参数设置通过调用查看器的[IMAPIMessageSite::SaveMessage](imapimessagesite-savemessage.md)方法。 
     
 4. 销毁窗体的用户界面窗口。
     
-5. 通过调用其[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)方法释放窗体的邮件和消息网站对象。 
+5. 通过调用其[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法释放窗体的邮件和消息网站对象。 
     
 6. 通过调用其[IMAPIViewAdviseSink::OnShutdown](imapiviewadvisesink-onshutdown.md)方法通知所有已注册查看器的挂起关闭。 
     
@@ -90,7 +90,7 @@ E_UNEXPECTED
 10. 返回 S_OK。
     
 > [!NOTE]
-> 这些操作完成后，可能会调用的窗体对象上的唯一有效方法是从[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx)接口。 
+> 这些操作完成后，可能会调用的窗体对象上的唯一有效方法是从[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)接口。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 

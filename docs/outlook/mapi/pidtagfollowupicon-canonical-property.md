@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8fa96736b5404d84c6ab48851b916c5ab987ae2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 205b6ddc2b65297d69a2223aab7b745b223ee553
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593919"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383518"
 ---
 # <a name="pidtagfollowupicon-canonical-property"></a>PidTagFollowupIcon 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定消息对象的标志的颜色。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22593919"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |重命名邮件文件夹  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性必须存在除非**PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) 属性的值设置为"followupFlagged"，或 message 对象是会议相关对象。 此属性不应存在对任务对象。 当在其他消息对象上设置时，此属性必须设置为下列值之一。
   
@@ -52,11 +52,11 @@ ms.locfileid: "22593919"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定的属性和与标记的操作。
     

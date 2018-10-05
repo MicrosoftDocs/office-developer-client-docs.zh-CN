@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 3f0853fc-f9f2-4314-ac55-47fe1e52d019
 description: 本主题介绍如何解决 Outlook 中创建的自定义项类型的冲突。
-ms.openlocfilehash: d85c2022d909901c71c20214f91b316cce81c596
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 357dd9182f26c4e9e1e264afdee296859e7b3483
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774157"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382986"
 ---
 # <a name="about-conflict-resolution-for-custom-item-types"></a>关于自定义项目类型的冲突解决
 
@@ -33,7 +33,7 @@ ms.locfileid: "19774157"
 
 ### <a name="item-types-and-message-classes"></a>项目类型和邮件类
   
-在 Outlook 中的所有项都都与邮件类关联。 例如，默认情况下，邮件项目相关联的邮件类**IPM。注意**。 邮件类主要用于标识用于在 Outlook 中显示项目的窗体。 Outlook 支持的邮件类的映射到 Outlook 中内置的项目类型的列表。 若要详细了解邮件类，请参阅[项类型和邮件类](http://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx)。 
+在 Outlook 中的所有项都都与邮件类关联。 例如，默认情况下，邮件项目相关联的邮件类**IPM。注意**。 邮件类主要用于标识用于在 Outlook 中显示项目的窗体。 Outlook 支持的邮件类的映射到 Outlook 中内置的项目类型的列表。 若要详细了解邮件类，请参阅[项类型和邮件类](https://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx)。 
   
 用户可以创建自定义项类型、 自定义邮件类别分配的自定义项类型，并具有 Outlook 使用自定义窗体显示的自定义项类型。 例如，您可能希望 Outlook 显示自定义业务联系人窗体业务的联系人。 为此，您可以创建自定义邮件类**IPM。Contact.Business**、 创建的此邮件类的自定义窗体并分配与此邮件类的业务联系人。 
   
@@ -72,5 +72,5 @@ ms.locfileid: "19774157"
   
 ## <a name="see-also"></a>另请参阅
 
-- [Outlook 项目对象](http://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
+- [Outlook 项目对象](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
 

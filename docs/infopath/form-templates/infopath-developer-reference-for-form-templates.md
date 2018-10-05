@@ -12,12 +12,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7610acc3-f705-4a38-968c-5b3a358efc90
 description: 欢迎使用 InfoPath 2013 表单模板开发人员参考。此文档提供了概述、编程任务和类库参考信息，旨在帮助您构建包含用 Visual Basic 或 Visual C# 编写的业务逻辑的 InfoPath 表单模板。
-ms.openlocfilehash: e9e1d023cf7c910c070269a7e46b26c53948fd16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c399623dea14903325dc1720b0642040febc15e2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588060"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384456"
 ---
 # <a name="infopath-developer-reference-for-form-templates"></a>InfoPath 表单模板开发人员参考
 
@@ -27,13 +27,13 @@ ms.locfileid: "22588060"
   
 ## <a name="related-links"></a>相关链接
 
-[InfoPath 开发人员中心](http://msdn.microsoft.com/en-us/office/aa905434.aspx)
+[InfoPath 开发人员中心](https://msdn.microsoft.com/office/aa905434.aspx)
   
-[Microsoft Office 开发中心](http://msdn.microsoft.com/en-us/office/default.aspx)
+[Microsoft Office 开发中心](https://msdn.microsoft.com/office/default.aspx)
   
-[Office 开发人员文档中的文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+[Office 开发人员文档中的文档约定](https://msdn.microsoft.com/office/aa905365.aspx)
   
-[Microsoft 辅助功能](http://www.microsoft.com/ENABLE/)
+[Microsoft 辅助功能](https://www.microsoft.com/ENABLE/)
 
   
 
