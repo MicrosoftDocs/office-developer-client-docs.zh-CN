@@ -7,16 +7,16 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
 description: 本主题演示 Visio 2013 文件格式的 XML 架构定义。
-ms.openlocfilehash: 72479288565409a8940fc1843391dc931bfce7b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5332659d4365fe609d4eb8af5c1a87b108b1baee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781236"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388523"
 ---
-# <a name="schema-map-visio-xml"></a><span data-ttu-id="64ebd-103">架构映射 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="64ebd-103">Schema map ('Visio XML')</span></span>
+# <a name="schema-map-visio-xml"></a><span data-ttu-id="d7bc0-103">架构映射 (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="d7bc0-103">Schema map ('Visio XML')</span></span>
 
-<span data-ttu-id="64ebd-104">本主题演示 Visio 2013 文件格式的 XML 架构定义。</span><span class="sxs-lookup"><span data-stu-id="64ebd-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
+<span data-ttu-id="d7bc0-104">本主题演示 Visio 2013 文件格式的 XML 架构定义。</span><span class="sxs-lookup"><span data-stu-id="d7bc0-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -24,13 +24,13 @@ ms.locfileid: "19781236"
     Visio VSDX Schema
     Copyright (C) 2013 Microsoft Corporation. All rights reserved.
 -->
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.microsoft.com/office/visio/2011/1/core" xmlns="http://schemas.microsoft.com/office/visio/2011/1/core" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://schemas.microsoft.com/office/visio/2011/1/core" xmlns="https://schemas.microsoft.com/office/visio/2011/1/core" elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xsd:annotation>
         <xsd:documentation>
             Permission to copy, display and distribute the contents of this document (the "Specification"), in any medium for any purpose without fee or royalty is hereby granted, provided that you include the following notice on ALL copies of the Specification, or portions thereof, that you make:
-            Copyright (c) Microsoft Corporation.  All rights reserved.  Permission to copy, display and distribute this document is available at:  http://msdn.microsoft.com/library/en-us/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true.
+            Copyright (c) Microsoft Corporation.  All rights reserved.  Permission to copy, display and distribute this document is available at:  https://msdn.microsoft.com/library/en-us/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true.
             No right to create modifications or derivatives of this Specification is granted herein.
-            There is a separate patent license available to parties interested in implementing software programs that can read and write files that conform to the Specification.  This patent license is available at this location:  http://www.microsoft.com/mscorp/ip/format/xmlpatentlicense.asp.
+            There is a separate patent license available to parties interested in implementing software programs that can read and write files that conform to the Specification.  This patent license is available at this location:  https://www.microsoft.com/mscorp/ip/format/xmlpatentlicense.asp.
             THE SPECIFICATION IS PROVIDED "AS IS" AND MICROSOFT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR TITLE; THAT THE CONTENTS OF THE SPECIFICATION ARE SUITABLE FOR ANY PURPOSE; NOR THAT THE IMPLEMENTATION OF SUCH CONTENTS WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
             MICROSOFT WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATING TO ANY USE OR DISTRIBUTION OF THE SPECIFICATION.
             The name and trademarks of Microsoft may NOT be used in any manner, including advertising or publicity pertaining to the Specification or its contents without specific, written prior permission. Title to copyright in the Specification will at all times remain with Microsoft.

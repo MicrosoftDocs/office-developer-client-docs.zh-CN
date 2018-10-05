@@ -8,48 +8,48 @@ api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 87299ce4335492a744dd4ee965b4f8b85bcedc84
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dec8706ba00356660ec82c25e0213ef3e638691d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564890"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387725"
 ---
-# <a name="launching-a-form-server"></a><span data-ttu-id="14d32-103">启动表单服务器</span><span class="sxs-lookup"><span data-stu-id="14d32-103">Launching a Form Server</span></span>
+# <a name="launching-a-form-server"></a><span data-ttu-id="9e1f9-103">启动表单服务器</span><span class="sxs-lookup"><span data-stu-id="9e1f9-103">Launching a Form Server</span></span>
 
   
   
-<span data-ttu-id="14d32-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="14d32-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9e1f9-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9e1f9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="14d32-105">从持久存储加载表单时发生的交互非常系列 (即，从表单库) 显示一条消息，如下所示：</span><span class="sxs-lookup"><span data-stu-id="14d32-105">The series of interactions that occurs when a form is loaded from persistent storage (that is, from a form library) to display a message is as follows:</span></span>
+<span data-ttu-id="9e1f9-105">从持久存储加载表单时发生的交互非常系列 (即，从表单库) 显示一条消息，如下所示：</span><span class="sxs-lookup"><span data-stu-id="9e1f9-105">The series of interactions that occurs when a form is loaded from persistent storage (that is, from a form library) to display a message is as follows:</span></span>
   
-1. <span data-ttu-id="14d32-106">消息客户端获取消息的邮件类、 邮件标志和邮件状态。</span><span class="sxs-lookup"><span data-stu-id="14d32-106">The messaging client gets the message's message class, message flags, and message status.</span></span> <span data-ttu-id="14d32-107">此步骤是可选的;如果在步骤 2 中未提供这些部分数据，窗体管理器将检索它们。</span><span class="sxs-lookup"><span data-stu-id="14d32-107">This step is optional; if these pieces of data are not provided in step 2, the form manager will retrieve them.</span></span>
+1. <span data-ttu-id="9e1f9-106">消息客户端获取消息的邮件类、 邮件标志和邮件状态。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-106">The messaging client gets the message's message class, message flags, and message status.</span></span> <span data-ttu-id="9e1f9-107">此步骤是可选的;如果在步骤 2 中未提供这些部分数据，窗体管理器将检索它们。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-107">This step is optional; if these pieces of data are not provided in step 2, the form manager will retrieve them.</span></span>
     
-2. <span data-ttu-id="14d32-108">消息客户端呼叫与目标邮件[IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) 。</span><span class="sxs-lookup"><span data-stu-id="14d32-108">The messaging client calls [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) with the target message.</span></span> 
+2. <span data-ttu-id="9e1f9-108">消息客户端呼叫与目标邮件[IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) 。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-108">The messaging client calls [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) with the target message.</span></span> 
     
-3. <span data-ttu-id="14d32-109">窗体管理器从相应的表单库加载的窗体服务器。</span><span class="sxs-lookup"><span data-stu-id="14d32-109">The form manager loads the form server from the appropriate form library.</span></span> <span data-ttu-id="14d32-110">如果未安装了目标邮件的窗体服务器，则窗体管理器安装窗体的可执行文件，以及。</span><span class="sxs-lookup"><span data-stu-id="14d32-110">If the form server for the target message is not installed, the form manager installs the form's executable files, as well.</span></span>
+3. <span data-ttu-id="9e1f9-109">窗体管理器从相应的表单库加载的窗体服务器。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-109">The form manager loads the form server from the appropriate form library.</span></span> <span data-ttu-id="9e1f9-110">如果未安装了目标邮件的窗体服务器，则窗体管理器安装窗体的可执行文件，以及。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-110">If the form server for the target message is not installed, the form manager installs the form's executable files, as well.</span></span>
     
-4. <span data-ttu-id="14d32-111">窗体管理器来获取的窗体对象在窗体对象上调用[IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) [IMAPIForm: IUnknown](imapiformiunknown.md)和[IPersistMessage: IUnknown](ipersistmessageiunknown.md)接口。</span><span class="sxs-lookup"><span data-stu-id="14d32-111">The form manager calls [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) on the form object to obtain the form object's [IMAPIForm : IUnknown](imapiformiunknown.md) and [IPersistMessage : IUnknown](ipersistmessageiunknown.md) interfaces.</span></span> 
+4. <span data-ttu-id="9e1f9-111">窗体管理器来获取的窗体对象在窗体对象上调用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) [IMAPIForm: IUnknown](imapiformiunknown.md)和[IPersistMessage: IUnknown](ipersistmessageiunknown.md)接口。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-111">The form manager calls [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) on the form object to obtain the form object's [IMAPIForm : IUnknown](imapiformiunknown.md) and [IPersistMessage : IUnknown](ipersistmessageiunknown.md) interfaces.</span></span> 
     
-5. <span data-ttu-id="14d32-112">窗体管理器调用[IPersistMessage::Load](ipersistmessage-load.md)邮件与网站和邮件接口从查看器对象。</span><span class="sxs-lookup"><span data-stu-id="14d32-112">The form manager calls [IPersistMessage::Load](ipersistmessage-load.md) with the message site and message interfaces from the viewer object.</span></span> 
+5. <span data-ttu-id="9e1f9-112">窗体管理器调用[IPersistMessage::Load](ipersistmessage-load.md)邮件与网站和邮件接口从查看器对象。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-112">The form manager calls [IPersistMessage::Load](ipersistmessage-load.md) with the message site and message interfaces from the viewer object.</span></span> 
     
-6. <span data-ttu-id="14d32-113">Form 对象的邮件客户端[IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md)方法回拨。</span><span class="sxs-lookup"><span data-stu-id="14d32-113">The form object calls back to the messaging client's [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md) method.</span></span> 
+6. <span data-ttu-id="9e1f9-113">Form 对象的邮件客户端[IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md)方法回拨。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-113">The form object calls back to the messaging client's [IMAPIMessageSite::GetSiteStatus](imapimessagesite-getsitestatus.md) method.</span></span> 
     
-7. <span data-ttu-id="14d32-114">窗体管理器从消息客户端调用视图上下文接口 form 对象的[IMAPIForm::SetViewContext](imapiform-setviewcontext.md)方法。</span><span class="sxs-lookup"><span data-stu-id="14d32-114">The form manager calls the form object's [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) method with the view context interface from the messaging client.</span></span> 
+7. <span data-ttu-id="9e1f9-114">窗体管理器从消息客户端调用视图上下文接口 form 对象的[IMAPIForm::SetViewContext](imapiform-setviewcontext.md)方法。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-114">The form manager calls the form object's [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) method with the view context interface from the messaging client.</span></span> 
     
-8. <span data-ttu-id="14d32-115">Form 对象的邮件客户端[IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md)方法回拨。</span><span class="sxs-lookup"><span data-stu-id="14d32-115">The form object calls back to the messaging client's [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) method.</span></span> 
+8. <span data-ttu-id="9e1f9-115">Form 对象的邮件客户端[IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md)方法回拨。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-115">The form object calls back to the messaging client's [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) method.</span></span> 
     
-9. <span data-ttu-id="14d32-116">Form 对象的邮件客户端[IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)方法回拨。</span><span class="sxs-lookup"><span data-stu-id="14d32-116">The form object calls back to the messaging client's [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method.</span></span> 
+9. <span data-ttu-id="9e1f9-116">Form 对象的邮件客户端[IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)方法回拨。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-116">The form object calls back to the messaging client's [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) method.</span></span> 
     
-10. <span data-ttu-id="14d32-117">消息客户端调用 form 对象的[IMAPIForm::Advise](imapiform-advise.md)方法与视图上下文接口从查看器对象和消息网站对象。</span><span class="sxs-lookup"><span data-stu-id="14d32-117">The messaging client calls the form object's [IMAPIForm::Advise](imapiform-advise.md) method with the view context interfaces from the viewer object and the message site object.</span></span> 
+10. <span data-ttu-id="9e1f9-117">消息客户端调用 form 对象的[IMAPIForm::Advise](imapiform-advise.md)方法与视图上下文接口从查看器对象和消息网站对象。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-117">The messaging client calls the form object's [IMAPIForm::Advise](imapiform-advise.md) method with the view context interfaces from the viewer object and the message site object.</span></span> 
     
-11. <span data-ttu-id="14d32-118">消息客户端调用 form 对象的[IMAPIForm::DoVerb](imapiform-doverb.md)方法。</span><span class="sxs-lookup"><span data-stu-id="14d32-118">The messaging client calls the form object's [IMAPIForm::DoVerb](imapiform-doverb.md) method.</span></span> 
+11. <span data-ttu-id="9e1f9-118">消息客户端调用 form 对象的[IMAPIForm::DoVerb](imapiform-doverb.md)方法。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-118">The messaging client calls the form object's [IMAPIForm::DoVerb](imapiform-doverb.md) method.</span></span> 
     
-12. <span data-ttu-id="14d32-119">Form 对象创建其用户界面，如有必要，以及与用户交互。</span><span class="sxs-lookup"><span data-stu-id="14d32-119">The form object creates its user interface, if necessary, and interacts with the user.</span></span>
+12. <span data-ttu-id="9e1f9-119">Form 对象创建其用户界面，如有必要，以及与用户交互。</span><span class="sxs-lookup"><span data-stu-id="9e1f9-119">The form object creates its user interface, if necessary, and interacts with the user.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="14d32-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="14d32-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9e1f9-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9e1f9-120">See also</span></span>
 
 
 
-[<span data-ttu-id="14d32-121">表单服务器交互</span><span class="sxs-lookup"><span data-stu-id="14d32-121">Form Server Interactions</span></span>](form-server-interactions.md)
+[<span data-ttu-id="9e1f9-121">表单服务器交互</span><span class="sxs-lookup"><span data-stu-id="9e1f9-121">Form Server Interactions</span></span>](form-server-interactions.md)
 

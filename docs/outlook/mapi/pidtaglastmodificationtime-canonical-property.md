@@ -12,67 +12,67 @@ api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 653bdf26988c46be5f866cfbda331510c5a54afd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dea709b457e28efef62718fc388621e01c4eb5bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575705"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387326"
 ---
-# <a name="pidtaglastmodificationtime-canonical-property"></a><span data-ttu-id="7d0b5-103">PidTagLastModificationTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="7d0b5-103">PidTagLastModificationTime Canonical Property</span></span>
+# <a name="pidtaglastmodificationtime-canonical-property"></a><span data-ttu-id="471b6-103">PidTagLastModificationTime 规范属性</span><span class="sxs-lookup"><span data-stu-id="471b6-103">PidTagLastModificationTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="7d0b5-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7d0b5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="471b6-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="471b6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7d0b5-105">包含的日期和时间上次修改的对象或子对象。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-105">Contains the date and time when the object or subobject was last modified.</span></span> 
+<span data-ttu-id="471b6-105">包含的日期和时间上次修改的对象或子对象。</span><span class="sxs-lookup"><span data-stu-id="471b6-105">Contains the date and time when the object or subobject was last modified.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7d0b5-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="7d0b5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7d0b5-107">操作</span><span class="sxs-lookup"><span data-stu-id="7d0b5-107">PR_LAST_MODIFICATION_TIME</span></span>  <br/> |
-|<span data-ttu-id="7d0b5-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="7d0b5-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7d0b5-109">0x3008</span><span class="sxs-lookup"><span data-stu-id="7d0b5-109">0x3008</span></span>  <br/> |
-|<span data-ttu-id="7d0b5-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="7d0b5-110">Data type:</span></span>  <br/> |<span data-ttu-id="7d0b5-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="7d0b5-111">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="7d0b5-112">区域：</span><span class="sxs-lookup"><span data-stu-id="7d0b5-112">Area:</span></span>  <br/> |<span data-ttu-id="7d0b5-113">消息时间</span><span class="sxs-lookup"><span data-stu-id="7d0b5-113">Message time</span></span>  <br/> |
+|<span data-ttu-id="471b6-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="471b6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="471b6-107">操作</span><span class="sxs-lookup"><span data-stu-id="471b6-107">PR_LAST_MODIFICATION_TIME</span></span>  <br/> |
+|<span data-ttu-id="471b6-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="471b6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="471b6-109">0x3008</span><span class="sxs-lookup"><span data-stu-id="471b6-109">0x3008</span></span>  <br/> |
+|<span data-ttu-id="471b6-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="471b6-110">Data type:</span></span>  <br/> |<span data-ttu-id="471b6-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="471b6-111">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="471b6-112">区域：</span><span class="sxs-lookup"><span data-stu-id="471b6-112">Area:</span></span>  <br/> |<span data-ttu-id="471b6-113">消息时间</span><span class="sxs-lookup"><span data-stu-id="471b6-113">Message time</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="7d0b5-114">注解</span><span class="sxs-lookup"><span data-stu-id="7d0b5-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="471b6-114">说明</span><span class="sxs-lookup"><span data-stu-id="471b6-114">Remarks</span></span>
 
-<span data-ttu-id="7d0b5-115">此属性最初设置为相同的值的**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) 属性。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-115">This property is initially set to the same value as the **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) property.</span></span> <span data-ttu-id="7d0b5-116">附件子对象可将其更新根据需要通过复制由本地文件系统维护的上次修改时间。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-116">Attachment subobjects can update it as necessary by copying the last modification time maintained by the native file system.</span></span> <span data-ttu-id="7d0b5-117">客户端应用程序直到第一个呼叫[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法可以设置该属性。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-117">A client application can set this property until the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method.</span></span> <span data-ttu-id="7d0b5-118">此后提供程序应在每个**IMAPIProp::SaveChanges**呼叫期间更新**操作**。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-118">From then on the provider should update **PR_LAST_MODIFICATION_TIME** during every **IMAPIProp::SaveChanges** call.</span></span> 
+<span data-ttu-id="471b6-115">此属性最初设置为相同的值的**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) 属性。</span><span class="sxs-lookup"><span data-stu-id="471b6-115">This property is initially set to the same value as the **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)) property.</span></span> <span data-ttu-id="471b6-116">附件子对象可将其更新根据需要通过复制由本地文件系统维护的上次修改时间。</span><span class="sxs-lookup"><span data-stu-id="471b6-116">Attachment subobjects can update it as necessary by copying the last modification time maintained by the native file system.</span></span> <span data-ttu-id="471b6-117">客户端应用程序直到第一个呼叫[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法可以设置该属性。</span><span class="sxs-lookup"><span data-stu-id="471b6-117">A client application can set this property until the first call to the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method.</span></span> <span data-ttu-id="471b6-118">此后提供程序应在每个**IMAPIProp::SaveChanges**呼叫期间更新**操作**。</span><span class="sxs-lookup"><span data-stu-id="471b6-118">From then on the provider should update **PR_LAST_MODIFICATION_TIME** during every **IMAPIProp::SaveChanges** call.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="7d0b5-119">相关资源</span><span class="sxs-lookup"><span data-stu-id="7d0b5-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="471b6-119">相关资源</span><span class="sxs-lookup"><span data-stu-id="471b6-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="7d0b5-120">协议规范</span><span class="sxs-lookup"><span data-stu-id="7d0b5-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="471b6-120">协议规范</span><span class="sxs-lookup"><span data-stu-id="471b6-120">Protocol specifications</span></span>
 
-<span data-ttu-id="7d0b5-121">[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7d0b5-121">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="471b6-121">[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="471b6-121">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7d0b5-122">处理邮件和附件的对象。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-122">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="471b6-122">处理邮件和附件的对象。</span><span class="sxs-lookup"><span data-stu-id="471b6-122">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="7d0b5-123">[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7d0b5-123">[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="471b6-123">[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="471b6-123">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7d0b5-124">同步服务器和客户端之间的消息对象数据的句柄。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-124">Handles synchronizing messaging object data between a server and a client.</span></span>
+> <span data-ttu-id="471b6-124">同步服务器和客户端之间的消息对象数据的句柄。</span><span class="sxs-lookup"><span data-stu-id="471b6-124">Handles synchronizing messaging object data between a server and a client.</span></span>
     
-<span data-ttu-id="7d0b5-125">[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7d0b5-125">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="471b6-125">[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="471b6-125">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="7d0b5-126">指定的属性和用户、 联系人、 组和资源的操作列表。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-126">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="471b6-126">指定的属性和用户、 联系人、 组和资源的操作列表。</span><span class="sxs-lookup"><span data-stu-id="471b6-126">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="7d0b5-127">头文件</span><span class="sxs-lookup"><span data-stu-id="7d0b5-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="471b6-127">头文件</span><span class="sxs-lookup"><span data-stu-id="471b6-127">Header files</span></span>
 
-<span data-ttu-id="7d0b5-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7d0b5-128">Mapidefs.h</span></span>
+<span data-ttu-id="471b6-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="471b6-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="7d0b5-129">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="471b6-129">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="471b6-129">Provides data type definitions.</span></span>
     
-<span data-ttu-id="7d0b5-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="7d0b5-130">Mapitags.h</span></span>
+<span data-ttu-id="471b6-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="471b6-130">Mapitags.h</span></span>
   
-> <span data-ttu-id="7d0b5-131">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="7d0b5-131">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="471b6-131">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="471b6-131">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="7d0b5-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7d0b5-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="471b6-132">另请参阅</span><span class="sxs-lookup"><span data-stu-id="471b6-132">See also</span></span>
 
 
 
-[<span data-ttu-id="7d0b5-133">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="7d0b5-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="471b6-133">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="471b6-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="7d0b5-134">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="7d0b5-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="471b6-134">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="471b6-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="7d0b5-135">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="7d0b5-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="471b6-135">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="471b6-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="7d0b5-136">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="7d0b5-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="471b6-136">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="471b6-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

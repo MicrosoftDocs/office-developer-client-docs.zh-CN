@@ -12,56 +12,56 @@ api_type:
 - COM
 ms.assetid: 6cfcc048-03b9-4e34-bb92-480fe808e910
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7e8a624090181ae35e4bf2828f72b645e5011728
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b4e8ef3f38a373cd3bab7af6f01d42113fe5fdc3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570049"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391421"
 ---
-# <a name="pidlidlogtype-canonical-property"></a><span data-ttu-id="c28fa-103">PidLidLogType 规范属性</span><span class="sxs-lookup"><span data-stu-id="c28fa-103">PidLidLogType Canonical Property</span></span>
+# <a name="pidlidlogtype-canonical-property"></a><span data-ttu-id="09c7e-103">PidLidLogType 规范属性</span><span class="sxs-lookup"><span data-stu-id="09c7e-103">PidLidLogType Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c28fa-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c28fa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="09c7e-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="09c7e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c28fa-105">包含日记应用程序 (例如"MSWord") 的显示名称，通常是日志消息，通常为 string 自由格式属性。</span><span class="sxs-lookup"><span data-stu-id="c28fa-105">Contains the display name of the journaling application (for example, "MSWord"), and is typically a free-form attribute of a journal message, usually a string.</span></span>
+<span data-ttu-id="09c7e-105">包含日记应用程序 (例如"MSWord") 的显示名称，通常是日志消息，通常为 string 自由格式属性。</span><span class="sxs-lookup"><span data-stu-id="09c7e-105">Contains the display name of the journaling application (for example, "MSWord"), and is typically a free-form attribute of a journal message, usually a string.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c28fa-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="c28fa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c28fa-107">dispidLogType</span><span class="sxs-lookup"><span data-stu-id="c28fa-107">dispidLogType</span></span>  <br/> |
-|<span data-ttu-id="c28fa-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="c28fa-108">Property set:</span></span>  <br/> |<span data-ttu-id="c28fa-109">PSETID_Log</span><span class="sxs-lookup"><span data-stu-id="c28fa-109">PSETID_Log</span></span>  <br/> |
-|<span data-ttu-id="c28fa-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="c28fa-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c28fa-111">0x00008700</span><span class="sxs-lookup"><span data-stu-id="c28fa-111">0x00008700</span></span>  <br/> |
-|<span data-ttu-id="c28fa-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="c28fa-112">Data type:</span></span>  <br/> |<span data-ttu-id="c28fa-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c28fa-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="c28fa-114">区域：</span><span class="sxs-lookup"><span data-stu-id="c28fa-114">Area:</span></span>  <br/> |<span data-ttu-id="c28fa-115">日记</span><span class="sxs-lookup"><span data-stu-id="c28fa-115">Journal</span></span>  <br/> |
+|<span data-ttu-id="09c7e-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="09c7e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="09c7e-107">dispidLogType</span><span class="sxs-lookup"><span data-stu-id="09c7e-107">dispidLogType</span></span>  <br/> |
+|<span data-ttu-id="09c7e-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="09c7e-108">Property set:</span></span>  <br/> |<span data-ttu-id="09c7e-109">PSETID_Log</span><span class="sxs-lookup"><span data-stu-id="09c7e-109">PSETID_Log</span></span>  <br/> |
+|<span data-ttu-id="09c7e-110">长 ID （盖）：</span><span class="sxs-lookup"><span data-stu-id="09c7e-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="09c7e-111">0x00008700</span><span class="sxs-lookup"><span data-stu-id="09c7e-111">0x00008700</span></span>  <br/> |
+|<span data-ttu-id="09c7e-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="09c7e-112">Data type:</span></span>  <br/> |<span data-ttu-id="09c7e-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="09c7e-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="09c7e-114">区域：</span><span class="sxs-lookup"><span data-stu-id="09c7e-114">Area:</span></span>  <br/> |<span data-ttu-id="09c7e-115">日记</span><span class="sxs-lookup"><span data-stu-id="09c7e-115">Journal</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="c28fa-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="c28fa-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="09c7e-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="09c7e-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="c28fa-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="c28fa-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="09c7e-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="09c7e-117">Protocol specifications</span></span>
 
-<span data-ttu-id="c28fa-118">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c28fa-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="09c7e-118">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="09c7e-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c28fa-119">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="c28fa-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="09c7e-119">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="09c7e-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="c28fa-120">[[MS OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c28fa-120">[[MS-OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="09c7e-120">[[MS OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="09c7e-120">[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c28fa-121">指定的属性和操作所允许的日志。</span><span class="sxs-lookup"><span data-stu-id="c28fa-121">Specifies the properties and operations that are permissible for journals.</span></span>
+> <span data-ttu-id="09c7e-121">指定的属性和操作所允许的日志。</span><span class="sxs-lookup"><span data-stu-id="09c7e-121">Specifies the properties and operations that are permissible for journals.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="c28fa-122">头文件</span><span class="sxs-lookup"><span data-stu-id="c28fa-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="09c7e-122">头文件</span><span class="sxs-lookup"><span data-stu-id="09c7e-122">Header files</span></span>
 
-<span data-ttu-id="c28fa-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c28fa-123">Mapidefs.h</span></span>
+<span data-ttu-id="09c7e-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="09c7e-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c28fa-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="c28fa-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="09c7e-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="09c7e-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c28fa-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c28fa-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="09c7e-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="09c7e-125">See also</span></span>
 
 
 
-[<span data-ttu-id="c28fa-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="c28fa-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="09c7e-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="09c7e-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c28fa-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="c28fa-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="09c7e-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="09c7e-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c28fa-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="c28fa-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="09c7e-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="09c7e-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c28fa-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="c28fa-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="09c7e-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="09c7e-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

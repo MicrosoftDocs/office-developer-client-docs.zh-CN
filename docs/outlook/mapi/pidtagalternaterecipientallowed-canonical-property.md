@@ -12,71 +12,71 @@ api_type:
 - HeaderDef
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0fcea0f0bc19140c5a0762143ce91bd41ea8fd07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0faeb12ee54ec5d1c584bacd51590b157035f4fd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569321"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385954"
 ---
-# <a name="pidtagalternaterecipientallowed-canonical-property"></a><span data-ttu-id="94fbf-103">PidTagAlternateRecipientAllowed 规范属性</span><span class="sxs-lookup"><span data-stu-id="94fbf-103">PidTagAlternateRecipientAllowed Canonical Property</span></span>
+# <a name="pidtagalternaterecipientallowed-canonical-property"></a><span data-ttu-id="248de-103">PidTagAlternateRecipientAllowed 规范属性</span><span class="sxs-lookup"><span data-stu-id="248de-103">PidTagAlternateRecipientAllowed Canonical Property</span></span>
 
   
   
-<span data-ttu-id="94fbf-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="94fbf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="248de-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="248de-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="94fbf-105">包含 TRUE，如果发件人允许自动转接的此消息。</span><span class="sxs-lookup"><span data-stu-id="94fbf-105">Contains TRUE if the sender permits auto forwarding of this message.</span></span> 
+<span data-ttu-id="248de-105">包含 TRUE，如果发件人允许自动转接的此消息。</span><span class="sxs-lookup"><span data-stu-id="248de-105">Contains TRUE if the sender permits auto forwarding of this message.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="94fbf-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="94fbf-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="94fbf-107">PR_ALTERNATE_RECIPIENT_ALLOWED</span><span class="sxs-lookup"><span data-stu-id="94fbf-107">PR_ALTERNATE_RECIPIENT_ALLOWED</span></span>  <br/> |
-|<span data-ttu-id="94fbf-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="94fbf-108">Identifier:</span></span>  <br/> |<span data-ttu-id="94fbf-109">0x0002</span><span class="sxs-lookup"><span data-stu-id="94fbf-109">0x0002</span></span>  <br/> |
-|<span data-ttu-id="94fbf-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="94fbf-110">Data type:</span></span>  <br/> |<span data-ttu-id="94fbf-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="94fbf-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="94fbf-112">区域：</span><span class="sxs-lookup"><span data-stu-id="94fbf-112">Area:</span></span>  <br/> |<span data-ttu-id="94fbf-113">Address</span><span class="sxs-lookup"><span data-stu-id="94fbf-113">Address</span></span>  <br/> |
+|<span data-ttu-id="248de-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="248de-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="248de-107">PR_ALTERNATE_RECIPIENT_ALLOWED</span><span class="sxs-lookup"><span data-stu-id="248de-107">PR_ALTERNATE_RECIPIENT_ALLOWED</span></span>  <br/> |
+|<span data-ttu-id="248de-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="248de-108">Identifier:</span></span>  <br/> |<span data-ttu-id="248de-109">0x0002</span><span class="sxs-lookup"><span data-stu-id="248de-109">0x0002</span></span>  <br/> |
+|<span data-ttu-id="248de-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="248de-110">Data type:</span></span>  <br/> |<span data-ttu-id="248de-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="248de-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="248de-112">区域：</span><span class="sxs-lookup"><span data-stu-id="248de-112">Area:</span></span>  <br/> |<span data-ttu-id="248de-113">Address</span><span class="sxs-lookup"><span data-stu-id="248de-113">Address</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="94fbf-114">注解</span><span class="sxs-lookup"><span data-stu-id="94fbf-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="248de-114">说明</span><span class="sxs-lookup"><span data-stu-id="248de-114">Remarks</span></span>
 
-<span data-ttu-id="94fbf-115">如果不允许自动转接，或者如果已不指定任何备用收件人，应生成原件报告。</span><span class="sxs-lookup"><span data-stu-id="94fbf-115">If auto forwarding is not permitted or if no alternate recipient has been designated, a nondelivery report should be generated.</span></span> 
+<span data-ttu-id="248de-115">如果不允许自动转接，或者如果已不指定任何备用收件人，应生成原件报告。</span><span class="sxs-lookup"><span data-stu-id="248de-115">If auto forwarding is not permitted or if no alternate recipient has been designated, a nondelivery report should be generated.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="94fbf-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="94fbf-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="248de-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="248de-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="94fbf-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="94fbf-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="248de-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="248de-117">Protocol specifications</span></span>
 
-<span data-ttu-id="94fbf-118">[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="94fbf-118">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="248de-118">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="248de-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="94fbf-119">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="94fbf-119">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="248de-119">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="248de-119">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="94fbf-120">[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="94fbf-120">[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="248de-120">[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="248de-120">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="94fbf-121">处理顺序和客户端和服务器之间的数据传输的流。</span><span class="sxs-lookup"><span data-stu-id="94fbf-121">Handles the order and flow for data transfers between a client and server.</span></span>
+> <span data-ttu-id="248de-121">处理顺序和客户端和服务器之间的数据传输的流。</span><span class="sxs-lookup"><span data-stu-id="248de-121">Handles the order and flow for data transfers between a client and server.</span></span>
     
-<span data-ttu-id="94fbf-122">[[MS OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="94fbf-122">[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="248de-122">[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="248de-122">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="94fbf-123">IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。</span><span class="sxs-lookup"><span data-stu-id="94fbf-123">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="248de-123">IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。</span><span class="sxs-lookup"><span data-stu-id="248de-123">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-<span data-ttu-id="94fbf-124">[[MS OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="94fbf-124">[[MS-OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="248de-124">[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="248de-124">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="94fbf-125">进行编码和解码为有效的流表示形式的消息和附件对象。</span><span class="sxs-lookup"><span data-stu-id="94fbf-125">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
+> <span data-ttu-id="248de-125">进行编码和解码为有效的流表示形式的消息和附件对象。</span><span class="sxs-lookup"><span data-stu-id="248de-125">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="94fbf-126">头文件</span><span class="sxs-lookup"><span data-stu-id="94fbf-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="248de-126">头文件</span><span class="sxs-lookup"><span data-stu-id="248de-126">Header files</span></span>
 
-<span data-ttu-id="94fbf-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="94fbf-127">Mapidefs.h</span></span>
+<span data-ttu-id="248de-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="248de-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="94fbf-128">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="94fbf-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="248de-128">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="248de-128">Provides data type definitions.</span></span>
     
-<span data-ttu-id="94fbf-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="94fbf-129">Mapitags.h</span></span>
+<span data-ttu-id="248de-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="248de-129">Mapitags.h</span></span>
   
-> <span data-ttu-id="94fbf-130">包含列为相关属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="94fbf-130">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="248de-130">包含列为相关属性的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="248de-130">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="94fbf-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="94fbf-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="248de-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="248de-131">See also</span></span>
 
 
 
-[<span data-ttu-id="94fbf-132">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="94fbf-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="248de-132">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="248de-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="94fbf-133">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="94fbf-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="248de-133">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="248de-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="94fbf-134">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="94fbf-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="248de-134">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="248de-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="94fbf-135">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="94fbf-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="248de-135">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="248de-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

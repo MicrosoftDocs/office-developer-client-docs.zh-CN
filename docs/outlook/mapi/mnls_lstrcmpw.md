@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d26c59d7-c839-426f-8693-727fc6bef67e
 description: 上次修改时间： 2012 年 6 月 18 日
-ms.openlocfilehash: 36e22c60b32242425335b122b66c2c77e376848b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 03b0eb794b07bc56ec6dce4a567d89294b2c908a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580115"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386346"
 ---
-# <a name="mnlslstrcmpw"></a><span data-ttu-id="03329-103">MNLS_lstrcmpW</span><span class="sxs-lookup"><span data-stu-id="03329-103">MNLS_lstrcmpW</span></span>
+# <a name="mnlslstrcmpw"></a><span data-ttu-id="e98df-103">MNLS_lstrcmpW</span><span class="sxs-lookup"><span data-stu-id="e98df-103">MNLS_lstrcmpW</span></span>
 
  
   
-<span data-ttu-id="03329-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="03329-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e98df-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e98df-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="03329-105">比较两个 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="03329-105">Compares two Unicode strings.</span></span>
+<span data-ttu-id="e98df-105">比较两个 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="e98df-105">Compares two Unicode strings.</span></span>
   
 ```cpp
 int MNLS_lstrcmpW(
@@ -29,27 +29,27 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="03329-106">参数</span><span class="sxs-lookup"><span data-stu-id="03329-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e98df-106">参数</span><span class="sxs-lookup"><span data-stu-id="e98df-106">Parameters</span></span>
 
- <span data-ttu-id="03329-107">_lpString1_</span><span class="sxs-lookup"><span data-stu-id="03329-107">_lpString1_</span></span>
+ <span data-ttu-id="e98df-107">_lpString1_</span><span class="sxs-lookup"><span data-stu-id="e98df-107">_lpString1_</span></span>
   
-> <span data-ttu-id="03329-108">[in]指向要比较的第一个 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="03329-108">[in] Pointer to the first Unicode string to compare.</span></span>
+> <span data-ttu-id="e98df-108">[in]指向要比较的第一个 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="e98df-108">[in] Pointer to the first Unicode string to compare.</span></span>
     
- <span data-ttu-id="03329-109">_lpString2_</span><span class="sxs-lookup"><span data-stu-id="03329-109">_lpString2_</span></span>
+ <span data-ttu-id="e98df-109">_lpString2_</span><span class="sxs-lookup"><span data-stu-id="e98df-109">_lpString2_</span></span>
   
-> <span data-ttu-id="03329-110">[in]指向要比较的第二个 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="03329-110">[in] Pointer to the second Unicode string to compare.</span></span>
+> <span data-ttu-id="e98df-110">[in]指向要比较的第二个 Unicode 字符串。</span><span class="sxs-lookup"><span data-stu-id="e98df-110">[in] Pointer to the second Unicode string to compare.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="03329-111">返回值</span><span class="sxs-lookup"><span data-stu-id="03329-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e98df-111">返回值</span><span class="sxs-lookup"><span data-stu-id="e98df-111">Return value</span></span>
 
-<span data-ttu-id="03329-112">返回到除 CSTR_EQUAL **MNLS_CompareStringW**等效呼叫的描述的值。</span><span class="sxs-lookup"><span data-stu-id="03329-112">Returns the values described for an equivalent call to **MNLS_CompareStringW** except for CSTR_EQUAL.</span></span> 
+<span data-ttu-id="e98df-112">返回到除 CSTR_EQUAL **MNLS_CompareStringW**等效呼叫的描述的值。</span><span class="sxs-lookup"><span data-stu-id="e98df-112">Returns the values described for an equivalent call to **MNLS_CompareStringW** except for CSTR_EQUAL.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="03329-113">注解</span><span class="sxs-lookup"><span data-stu-id="03329-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e98df-113">说明</span><span class="sxs-lookup"><span data-stu-id="e98df-113">Remarks</span></span>
 
- <span data-ttu-id="03329-114">_MNLS_lstrcmpW_通过调用[MNLS_CompareStringW](mnls_comparestringw.md)与 GetUserDefaultLCID，用于标志，0 的区域设置执行比较和 cch1 和 cch2-1。</span><span class="sxs-lookup"><span data-stu-id="03329-114">_MNLS_lstrcmpW_ performs a comparison by calling [MNLS_CompareStringW](mnls_comparestringw.md) with a locale of GetUserDefaultLCID, 0 for flags, and -1 for cch1 and cch2.</span></span> 
+ <span data-ttu-id="e98df-114">_MNLS_lstrcmpW_通过调用[MNLS_CompareStringW](mnls_comparestringw.md)与 GetUserDefaultLCID，用于标志，0 的区域设置执行比较和 cch1 和 cch2-1。</span><span class="sxs-lookup"><span data-stu-id="e98df-114">_MNLS_lstrcmpW_ performs a comparison by calling [MNLS_CompareStringW](mnls_comparestringw.md) with a locale of GetUserDefaultLCID, 0 for flags, and -1 for cch1 and cch2.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="03329-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="03329-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e98df-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e98df-115">See also</span></span>
 
 
 
-[<span data-ttu-id="03329-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="03329-116">GetUserDefaultLCID</span></span>](http://msdn.microsoft.com/en-us/library/dd318135%28VS.85%29.aspx)
+[<span data-ttu-id="e98df-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="e98df-116">GetUserDefaultLCID</span></span>](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
 
