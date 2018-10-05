@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
-description: 本文档按原样提供。本文档中表示的信息和视图（包括 URL 和其他 Internet 网站引用）可能会发生更改，且不进行通知。您需承担使用本文档的风险。
-ms.openlocfilehash: 6e1b9ee36f541550a9643dd5b7eca3acbdd946e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本文档按原样提供。 信息和本文档，包括 URL 和其他 Internet 网站参考中提供的视图可能恕不另行通知。 您需承担使用本文档的风险。
+ms.openlocfilehash: e9b6b00609d4a3dda2a389957614ac93f9f7bacd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779319"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401683"
 ---
 # <a name="outlook-developer-reference-copyright-notice"></a>Outlook 开发人员参考版权声明
 
-本文档"按原样"提供。本文档中表示的信息和视图（包括 URL 和其他 Internet 网站引用）可能会发生更改，且不进行通知。您需承担使用本文档的风险。 
+本文档“按原样”提供。本文档中呈现的信息和视图（包括 URL 和其他 Internet 网站引用）可能会发生更改，恕不另行通知。使用本文档的风险由你自己承担。 
   
 此处所述的某些示例仅为说明起见而提供，纯属虚构。不存在真实关联或连接，请勿妄加推测。
   

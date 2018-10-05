@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c12750b7899403e62b9c1603615e9fd6caa95eca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c8244180a5cafedc887fa72f36f233fb5084f79
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569524"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398841"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 使永久自上次保存操作对对象进行的任何更改。 
   
@@ -81,15 +81,15 @@ MAPI_E_OBJECT_DELETED
   
 > 对象已被删除，因为它打开的。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIProp::SaveChanges**方法使属性更改永久支持处理，如邮件、 附件、 通讯簿容器和邮件用户对象的事务模型的对象。 不支持事务，如文件夹、 消息存储和配置文件节的对象进行的更改永久立即。 不需要调用**SaveChanges**是必需的。 
   
 服务提供商不需要生成其对象的项标识符已保存了所有属性之前，因为对象的**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性可能不可用直到后其**SaveChanges**方法调用了。 某些提供程序等待，直到 KEEP_OPEN_READONLY 标志设置**SaveChanges**呼叫。 KEEP_OPEN_READONLY 指示保存在当前呼叫中的更改将最后一个将对对象所做的更改。 
   
-某些消息存储实现执行操作不显示新创建的文件夹中的邮件客户端之前保存邮件使用**SaveChanges**更改，并使用[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)方法释放消息对象。 此外，某些对象实现无法生成新创建的对象，直到**PR_ENTRYID**属性后已调用**SaveChanges** ，并且某些可以仅在**SaveChanges**已由使用 KEEP_OPEN_READONLY 调用之后执行此操作在_ulFlags_中设置。
+某些消息存储实现执行操作不显示新创建的文件夹中的邮件客户端之前保存邮件使用**SaveChanges**更改，并使用[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法释放消息对象。 此外，某些对象实现无法生成新创建的对象，直到**PR_ENTRYID**属性后已调用**SaveChanges** ，并且某些可以仅在**SaveChanges**已由使用 KEEP_OPEN_READONLY 调用之后执行此操作在_ulFlags_中设置。
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 如果您收到 KEEP_OPEN_READONLY 标志，您可以离开以读/写对象的访问。 但是，提供程序可以从不使对象处于只读状态时传递 KEEP_OPEN_READWRITE 标志。
   

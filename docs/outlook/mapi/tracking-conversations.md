@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ae8b5a474675c0afd771f4e8dfd060d0b379c8f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f1dd7a23bbd643b496b7634b6ad0230c806585f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572219"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398603"
 ---
 # <a name="tracking-conversations"></a>跟踪对话
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 对话跟踪正在收集 エ ・ 复 ハ 一条消息。 客户端应在跟踪对话设置帮助的两个属性：
   
@@ -47,7 +47,7 @@ ms.locfileid: "22572219"
     
 - 包含以**FILETIME**单位表示的标头块中的当前时间与完成时间之间的区别三十一位。子块的这一部分将生成使用两种策略，具体取决于第一位的值之一。 如果此位为零， **ScCreateConversationIndex**放弃高 15 位和低 18 位。 如果此位是一个，该函数将丢弃高 10 位和低 23 位。 
     
-- 包含通过调用 Win32 函数[GetTickCount](http://msdn.microsoft.com/en-us/library/ms724408%28VS.85%29.aspx)生成一个随机数字的四位。
+- 包含通过调用 Win32 函数[GetTickCount](https://msdn.microsoft.com/library/ms724408%28VS.85%29.aspx)生成一个随机数字的四位。
     
 - 包含一系列的四位计数的取自随机数字的一部分。
     

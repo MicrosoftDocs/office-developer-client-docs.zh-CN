@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bc8e4dfe934d516c07d5532ba6a95e51a3cbf962
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d0ae319a6b5fa4c901ec7d318c7ebdd216a2adeb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578078"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398967"
 ---
 # <a name="pidlidtaskmode-canonical-property"></a>PidLidTaskMode 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定任务的工作分配状态。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22578078"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 值必须是下列选项之一。
   
@@ -52,11 +52,11 @@ ms.locfileid: "22578078"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > 定义模型的任务、 任务分配和任务更新电子等效项的多个对象。
     

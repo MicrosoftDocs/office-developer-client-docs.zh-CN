@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: 为了访问和操作表单模板数据源中的 XML 数据，可以让 Microsoft.Office.InfoPath 命名空间提供的许多托管代码对象模型成员创建 System.Xml.XPath 命名空间的 XPathNavigator 类的一个实例，或者可以向它们传递一个这样的实例。在您具有 InfoPath 对象模型成员所返回的 XPathNavigator 对象的访问权限后，可以使用 XPathNavigator 类的属性和方法处理数据。
-ms.openlocfilehash: a672ea2733d971c829b77e0c18a74f26c7050b34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774025"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393038"
 ---
 # <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>使用 XPathNavigator 和 XPathNodeIterator 类
 
@@ -55,7 +55,7 @@ MessageBox.Show("Main data source XML: " &amp; _
 您必须使用的重载的 **SelectSingleNode** 方法具有以下两个参数：一个采用 XPath 表达式作为字符串的  _xpath_ 参数，以及一个采用 _XmlNamespaceManager_ 对象来解析命名空间前缀的  **resolver** 参数。若要选择表单的主数据源中的单个节点，请为  _xpath_ 参数传入指定要选择的域或组的 XPath 表达式，以及由 **XmlForm** 对象的 [NamespaceManager](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NamespaceManager.aspx) 属性返回的 **XmlNamespaceManager** 对象。返回的 **XmlNamespaceManager** 对象在加载时通过表单模板的表单定义文件 (.xsf) 所定义的所有命名空间进行初始化。 
   
 > [!TIP]
-> 创建用于在表单数据源中选择节点的 XPath 表达式的最简单方法是右键单击“字段”**** 任务窗格中的字段或组，然后单击“复制 XPath”****。 若要创建和测试用于访问复杂或嵌套很深的 XML 架构中的节点的手动编辑的 XPath 表达式，请向表单添加“表达式框”**** 控件，指定控件的 XPath 表达式，然后预览表单以显示结果。 
+> 创建用于在表单数据源中选择节点的 XPath 表达式的最简单方法是：在“域”**** 任务窗格中右键单击相应域或组，然后单击“复制 XPath”****。若要创建和测试手动编辑的 XPath 表达式，以访问复杂或重重嵌套的 XML 架构中的节点，请将一个“表达式框”**** 控件添加到表单中，为该控件指定 XPath 表达式，然后预览表单以显示结果。 
   
 下面的示例使用 **SelectSingleNode** 方法选择  `EmailAlias` 域的单一节点。然后，它使用 **XPathNavigator** 类的 **SetValue** 方法和 [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) 类的 [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) 属性将该域的值设置为当前用户的别名。 
   
@@ -73,11 +73,11 @@ Dim emailAlias As XPathNavigator = _
 emailAlias.SetValue(Me.Application.User.UserName.ToString())
 ```
 
-有关如何创建 XPath 表达式的信息，请参阅 MSDN 上的 XPath 参考和 [XML Path 语言 (XPath) 版本 1.0 W3C 建议](http://www.w3.org/TR/xpath)。
+有关如何创建 XPath 表达式的信息，请参阅 MSDN 上的 XPath 参考和 [XML Path 语言 (XPath) 版本 1.0 W3C 建议](https://www.w3.org/TR/xpath)。
   
 ### <a name="setting-the-value-of-a-node-that-has-the-xsinil-attribute"></a>设置具有 xsi:nil 属性的节点的值
 
-对于某些数据类型，尝试以编程方式设置空白域的值时将引发"架构验证过程发现非数据类型错误"错误。导致出现此错误的原因通常是，元素的 [xsi:nil](http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) 属性设置为 **true**。如果您检查表单中空白域的基础 XML 元素，您会看到此设置。例如，以下空白日期域的 XML 段的 **xsi:nil** 属性设置为 **true**。
+对于某些数据类型，尝试以编程方式设置空白域的值时将引发"架构验证过程发现非数据类型错误"错误。导致出现此错误的原因通常是，元素的 [xsi:nil](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) 属性设置为 **true**。如果您检查表单中空白域的基础 XML 元素，您会看到此设置。例如，以下空白日期域的 XML 段的 **xsi:nil** 属性设置为 **true**。
   
 ```XML
 <my:myDate xsi:nil="true"></my:myDate>
@@ -101,7 +101,7 @@ emailAlias.SetValue(Me.Application.User.UserName.ToString())
 public void DeleteNil(XPathNavigator node)
 {
    if (node.MoveToAttribute(
-      "nil", "http://www.w3.org/2001/XMLSchema-instance"))
+      "nil", "https://www.w3.org/2001/XMLSchema-instance"))
       node.DeleteSelf();
 }
 ```
@@ -109,7 +109,7 @@ public void DeleteNil(XPathNavigator node)
 ```vb
 Public Sub DeleteNil(ByVal node As XPathNavigator)
    If (node.MoveToAttribute( _
-      "nil", "http://www.w3.org/2001/XMLSchema-instance")) Then
+      "nil", "https://www.w3.org/2001/XMLSchema-instance")) Then
       node.DeleteSelf()
    End If
 End Sub
@@ -151,7 +151,7 @@ myDate.SetValue(strCurDate)
   
 ### <a name="selecting-and-setting-a-set-of-repeating-nodes"></a>选择和设置一组重复节点
 
-若要指定一组为不确定数字的重复字段或组，请使用 **XPathNavigator** 类的 **Select** 方法。 此方法会返回一个 XPathNodeIterator 对象，你可以使用该对象迭代指定的节点集合。 
+若要指定一组不定数量的重复域或组，请使用 **XPathNavigator** 类的 **Select** 方法。此方法返回一个 XPathNodeIterator 对象，您可使用该对象来循环访问指定的节点集合。 
   
 下面的示例假定你的表单模板包含一个绑定到名为 `field1` 的重复元素的**项目符号列表**或类似的重复控件。 字段的 XPath 传递给 **Select** 方法，返回的 **XPathNodeIterator** 分配给 `nodes` 变量。 使用 MoveNext 方法迭代节点集合，使用 Current 属性返回位于当前节点上的 **XPathNavigator** 对象。 最后，使用 **Value** 属性检索并显示每个重复字段的值。 
   

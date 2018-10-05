@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f1c27f87cb113ebe30a42211035f6f50475a1be3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7200e7d226eb148fef094ab8540990644d2d4c99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588179"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392828"
 ---
 # <a name="imapisupportistoragefromstream"></a>IMAPISupport::IStorageFromStream
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 实现的存储对象访问的流。
   
@@ -44,7 +44,7 @@ HRESULT IStorageFromStream(
     
  _lpInterface_
   
-> [in]指向接口标识 (IID) 值，该值代表要用于访问由_lpUnkIn_指向流的接口的指针。 有有效的下列值： IID_IStream、 IID_ILockBytes，或**为空**，指示是否应使用[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)接口访问流。 
+> [in]指向接口标识 (IID) 值，该值代表要用于访问由_lpUnkIn_指向流的接口的指针。 有有效的下列值： IID_IStream、 IID_ILockBytes，或**为空**，指示是否应使用[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口访问流。 
     
  _ulFlags_
   
@@ -76,11 +76,11 @@ S_OK
   
 > 已成功创建的存储对象。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-**IMAPISupport::IStorageFromStream**方法将执行所有服务提供商支持对象。 服务提供商调用**IStorageFromStream**可创建用于打开特定属性的存储对象。 [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx)接口自己实现服务提供商不需要调用**IStorageFromStream**。 
+**IMAPISupport::IStorageFromStream**方法将执行所有服务提供商支持对象。 服务提供商调用**IStorageFromStream**可创建用于打开特定属性的存储对象。 [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx)接口自己实现服务提供商不需要调用**IStorageFromStream**。 
   
-时释放存储，由**IStorageFromStream**创建的存储对象将调用的流[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)方法来增加其引用计数，然后递减计数。 
+时释放存储，由**IStorageFromStream**创建的存储对象将调用的流[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法来增加其引用计数，然后递减计数。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
@@ -94,7 +94,7 @@ S_OK
     
 4. 返回到此存储对象的指针。
     
-如果使用的存储对象的附加接口实现，创建包装存储对象的对象和实现更高级别的[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)方法。 
+如果使用的存储对象的附加接口实现，创建包装存储对象的对象和实现更高级别的[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)方法。 
   
 不允许打开与**IStream**接口，如果**IStorage**与创建它的属性。 相反，不允许打开与**IStorage**接口，如果**IStream**与创建它的属性。 
   

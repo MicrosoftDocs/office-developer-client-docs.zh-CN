@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 084928ca-efc0-36da-fe4f-5cc45f226178
 description: 会议请求是具有 IPM 电子邮件。邮件类作为 Schedule.Meeting.Request。 默认情况下，与会者接收会议请求响应其直接。
-ms.openlocfilehash: 3565b2af03ef79d70fc9f2817c64a788f031c416
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e7ab7a85d3f9f7c0a67245b8d8ad27442f5c5e4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774168"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400129"
 ---
 # <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>关于信息性更新和完整更新形式的会议请求
 
-会议请求是具有**IPM 电子邮件。Schedule.Meeting.Request**作为邮件类。 默认情况下，与会者接收会议请求响应其直接。 Outlook 支持设置代理人可以代表主体的收件人的会议请求响应。 以编程方式，Outlook 设置的命名的属性[PidLidMeetingType](http://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx)的会议请求来识别当前更新状态。 
+会议请求是具有**IPM 电子邮件。Schedule.Meeting.Request**作为邮件类。 默认情况下，与会者接收会议请求响应其直接。 Outlook 支持设置代理人可以代表主体的收件人的会议请求响应。 以编程方式，Outlook 设置的命名的属性[PidLidMeetingType](https://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx)的会议请求来识别当前更新状态。 
   
 ## <a name="recipients-without-delegates"></a>没有代理人的收件人
 

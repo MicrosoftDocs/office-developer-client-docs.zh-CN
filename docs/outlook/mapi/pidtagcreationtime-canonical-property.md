@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 13122af2-06c8-4342-983d-e38178743d8f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 03c4c0810c69f8dd8f22ce84212200d3ccad1dab
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de853c66f0ef4270f4c443881bfa163d4abfa3e0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563238"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395390"
 ---
 # <a name="pidtagcreationtime-canonical-property"></a>PidTagCreationTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的创建日期和时间一条消息。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22563238"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |消息时间  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 消息存储设置此属性为其创建每条消息。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22563238"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

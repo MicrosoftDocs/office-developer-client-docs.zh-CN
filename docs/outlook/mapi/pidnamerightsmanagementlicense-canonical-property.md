@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1f528332c52664ac472670566c905d36dac65bfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 889b823a55c39ebc19e52c8cc9a1d078a5732a01
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565527"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395544"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>PidNameRightsManagementLicense 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 缓存权限管理电子邮件的使用许可证。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22565527"
 |数据类型：  <br/> |PT_MV_BINARY  <br/> |
 |区域：  <br/> |安全邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果该属性是存在对权限管理电子邮件，第一个此多个二进制属性的值必须包含权限管理电子邮件 （作为 [RFC1950] 中指定） 的 ZLIB 压缩的使用许可证。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22565527"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     

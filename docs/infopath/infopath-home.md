@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: 查找与开发解决方案和自定义 InfoPath 相关的操作说明内容、技术文章、参考和博客文章。
-ms.openlocfilehash: 79c608fcc13bf810ff8d2510c000549bf24ec157
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 20777234fbc23589659bc50ca44ad9cd24a178d1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774096"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394123"
 ---
 # <a name="infopath"></a>InfoPath
 
@@ -20,9 +20,9 @@ ms.locfileid: "19774096"
   
 ### <a name="get-started"></a>入门
   
-- [开始开发包含代码的表单模板](http://msdn.microsoft.com/library/66468447-2012-4497-b371-c61f64a8bb49%28Office.15%29.aspx)
+- [开始开发包含代码的表单模板](https://msdn.microsoft.com/library/66468447-2012-4497-b371-c61f64a8bb49%28Office.15%29.aspx)
   
-- [面向 InfoPath 开发人员的新增功能](http://msdn.microsoft.com/library/d0ad3111-bd41-4f35-8a34-62c17f20fc19%28Office.15%29.aspx)
+- [面向 InfoPath 开发人员的新增功能](https://msdn.microsoft.com/library/d0ad3111-bd41-4f35-8a34-62c17f20fc19%28Office.15%29.aspx)
   
 ### <a name="references"></a>引用
   
@@ -32,10 +32,10 @@ ms.locfileid: "19774096"
   
 ### <a name="community"></a>社区
   
-- [INFOPATHdev 博客](http://www.infopathdev.com/blogs/)
+- [INFOPATHdev 博客](https://www.infopathdev.com/blogs/)
   
-- [InfoPath 2013 支持](http://support.microsoft.com/ph/920)
+- [InfoPath 2013 支持](https://support.microsoft.com/ph/920)
   
-- [Microsoft 社区](http://answers.microsoft.com/zh-CN/office/forum/infopath)
+- [Microsoft 社区](https://answers.microsoft.com/en-us/office/forum/infopath)
   
 

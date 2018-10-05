@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6017871b9567406af0898eede0d5659b468b3343
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d12e8510686f51698981c47327f79ef40d3ec342
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581032"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396223"
 ---
 # <a name="pidtagmappingsignature-canonical-property"></a>PidTagMappingSignature 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含特定 MAPI 对象的命名属性的映射签名。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22581032"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |其他  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议具有命名属性的对象公开此属性。 客户端应用程序应该检查这两个对象的**PR_MAPPING_SIGNATURE**属性时复制命名到另一个对象的属性。 使用此属性可以减少翻译之间复制的属性的名称和标识符。 
   
@@ -48,11 +48,11 @@ ms.locfileid: "22581032"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574788"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399037"
 ---
 # <a name="initializing-mapi"></a>初始化 MAPI
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 使用 MAPI 库的所有客户端应用程序必须调用**MAPIInitialize**函数。 有关详细信息，请参阅[MAPIInitialize](mapiinitialize.md)。 **MAPIInitialize**会话初始化全局数据，并准备要接受呼叫的 MAPI 库。 有几个重要在某些情况下设置的标记： 
   
@@ -33,7 +33,7 @@ ms.locfileid: "22574788"
     
 - MAPI_NO_COINIT
     
-    设置 MAPI_NO_COINT 标志，以便不会尝试通过调用[CoInitialize](http://msdn.microsoft.com/en-us/library/ms886303.aspx)初始化 COM **MAPIInitialize** 。 如果**MAPIINIT_0**结构与_ulFlags_设置为 MAPI_NO_COINIT 一起传递到**MAPIInitialize** ，MAPI 将假定 COM 已初始化和绕过**CoInitialize**调用。
+    设置 MAPI_NO_COINT 标志，以便不会尝试通过调用[CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx)初始化 COM **MAPIInitialize** 。 如果**MAPIINIT_0**结构与_ulFlags_设置为 MAPI_NO_COINIT 一起传递到**MAPIInitialize** ，MAPI 将假定 COM 已初始化和绕过**CoInitialize**调用。
     
 MAPI 不传递 MAPI_MULTITHREAD_NOTIFICATIONS 标志，如果使用的线程上创建通知窗口的第一个**MAPIInitialize**呼叫。 MAPI 在如果传递 MAPI_MULTITHREAD_NOTIFICATIONS 单独的线程上创建通知窗口 — 线程专门处理通知。 MAPI 期望用于创建隐藏的通知窗口的主题： 
   

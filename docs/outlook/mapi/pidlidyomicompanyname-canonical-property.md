@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ac299846-da85-4ef2-97eb-ee157273ccc3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0e7baf7e4faeea3deab5dce01bea7522ce8a0d92
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 23021de5f887d888fbed1945500a5e80d40418e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567438"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394284"
 ---
 # <a name="pidlidyomicompanyname-canonical-property"></a>PidLidYomiCompanyName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定联系人的公司名称的拼音发音。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22567438"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和允许的联系人和个人通讯组列表对象的操作。
     

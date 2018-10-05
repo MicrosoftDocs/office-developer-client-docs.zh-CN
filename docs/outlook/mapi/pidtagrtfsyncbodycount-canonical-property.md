@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b88c036b3bc9b29962204ea0b90bd460ee1cf90f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f6e687412dfce1e5fcee6b4a4d64f3e5106455f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585169"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398799"
 ---
 # <a name="pidtagrtfsyncbodycount-canonical-property"></a>PidTagRtfSyncBodyCount 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含消息文本的有效字符的计数。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22585169"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 [RTFSync](rtfsync.md)函数计算中使用仅那些其认为是重要邮件的文本的字符数。 例如，从计数忽略一些空格和其他可忽略字符。 
   
@@ -44,11 +44,11 @@ ms.locfileid: "22585169"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > 进行编码和解码为有效的流表示形式的消息和附件对象。
     

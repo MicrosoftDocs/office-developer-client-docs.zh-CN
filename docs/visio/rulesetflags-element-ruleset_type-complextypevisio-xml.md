@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
 description: 指定规则设置属性。
-ms.openlocfilehash: f656e8ace045d45460ab353444c39c760448aa7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4a8ba44e2c77281f3d68fb3f5a7a2c58884ce66b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781196"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400095"
 ---
 # <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>RuleSetFlags 元素 （RuleSet_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781196"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |validation.xml  <br/> |
    

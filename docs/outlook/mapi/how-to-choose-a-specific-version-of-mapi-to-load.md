@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c5a7ba301d61468c0ff43a7e99d05976d55d239d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d353eba55e33b8ab48b3c47d2f31f1b5e0973b58
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576666"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399730"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>选择要加载的 MAPI 的特定版本
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 显式链接到的 MAPI 实现时, 必须认真地选择要加载的实现。 
   
@@ -27,7 +27,7 @@ ms.locfileid: "22576666"
     
 2. 您可以实现 MAPI 客户端查找算法来查找默认邮件客户端使用 MAPI 的版本和加载它。
     
-因为您可以更改要直接应用程序使用 MAPI 任何实现的[Mapi32.dll 存根注册表设置](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)，我们建议您将应用程序使用的测试与 MAPI 实现。 下面介绍显式链接这两种的方法。 
+因为您可以更改要直接应用程序使用 MAPI 任何实现的[Mapi32.dll 存根注册表设置](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)，我们建议您将应用程序使用的测试与 MAPI 实现。 下面介绍显式链接这两种的方法。 
   
 ## <a name="reading-from-the-registry"></a>注册表中读取
 
@@ -99,16 +99,16 @@ ms.locfileid: "22576666"
 10.  `GetMAPIPath`向呼叫方，然后将加载 MAPI 和显式链接到其[链接到 MAPI 函数](how-to-link-to-mapi-functions.md)中所述，则返回此路径。
     
 > [!NOTE] 
-> - 英语和非英语区域设置支持本地化的份 MAPI`GetMAPIPath`读取**MSIApplicationLCID**和**MSIOfficeLCID**子项的值。  `GetMAPIPath`然后调用**FGetComponentPath**，首先为**szQualifier**，指定**MSIApplicationLCID**和再次指定**szQualifier** **MSIOfficeLCID** 。 支持非英语语言的邮件客户端的注册表项的详细信息，请参阅[设置 Up MSI 的快捷键 Your MAPI DLL](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)。   
+> - 英语和非英语区域设置支持本地化的份 MAPI`GetMAPIPath`读取**MSIApplicationLCID**和**MSIOfficeLCID**子项的值。  `GetMAPIPath`然后调用**FGetComponentPath**，首先为**szQualifier**，指定**MSIApplicationLCID**和再次指定**szQualifier** **MSIOfficeLCID** 。 支持非英语语言的邮件客户端的注册表项的详细信息，请参阅[设置 Up MSI 的快捷键 Your MAPI DLL](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)。   
 > - 如果 MFCMAPI 不会收到 MAPI 使用路径`GetMAPIPath`，它从系统目录加载 MAPI 存根库。
-> - 使用 MAPI 存根库，则仅适用于[显式映射 MAPI 调用对 MAPI Dll](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx)中讨论的**MSMapiApps**注册表值。 应用程序加载特定实施的 MAPI 或加载默认实现不必设置**MSMapiApps**注册表项。 
+> - 使用 MAPI 存根库，则仅适用于[显式映射 MAPI 调用对 MAPI Dll](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)中讨论的**MSMapiApps**注册表值。 应用程序加载特定实施的 MAPI 或加载默认实现不必设置**MSMapiApps**注册表项。 
     
 ## <a name="see-also"></a>另请参阅
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [MAPI 编程概述](mapi-programming-overview.md)
 - [链接到 MAPI 函数](how-to-link-to-mapi-functions.md)
-- [Mapi32.dll 存根注册表设置](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)
-- [MAPI dll 设置 MSI 键](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)
-- [显式映射到 MAPI Dll 的 MAPI 调用](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx)
+- [Mapi32.dll 存根注册表设置](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
+- [MAPI dll 设置 MSI 键](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
+- [显式映射到 MAPI Dll 的 MAPI 调用](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
 

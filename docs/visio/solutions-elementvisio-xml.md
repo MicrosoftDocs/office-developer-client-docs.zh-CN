@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: 指定文档中存储的解决方案的属性。
-ms.openlocfilehash: 522aa3b1229d14f0639d10bb6082da40767c5ecd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65f6d3a34a62cd5e7b63ca0f6518a6e839b48360
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781417"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400216"
 ---
 # <a name="solutions-element-visio-xml"></a>解决方案元素 (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781417"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |solutions.xml  <br/> |
    

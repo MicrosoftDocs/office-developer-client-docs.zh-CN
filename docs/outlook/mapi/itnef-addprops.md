@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589516"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396314"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 允许将属性添加到邮件或附件封装调用服务提供商或网关。 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> 将编码仅从邮件或附件_ulElemID_参数指定的属性。 如果设置此标志， _lpvData_中的值必须是[IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream)指针。 
+> 将编码仅从邮件或附件_ulElemID_参数指定的属性。 如果设置此标志， _lpvData_中的值必须是[IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream)指针。 
     
 TNEF_PROP_EXCLUDE 
   
@@ -84,7 +84,7 @@ S_OK
   
 > 呼叫成功或多个预期值返回。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 传输提供程序、 消息存储提供程序，和网关呼叫**ITnef::AddProps**方法列表属性中包含或排除在邮件或附件的传输中性封装格式 (TNEF) 处理。 通过使用后续呼叫，提供程序或网关可以指定的属性添加和编码或排除要编码的列表。 提供程序和网关还可以使用**AddProps**提供，应注意任何特殊处理附件有关的信息。 
   
@@ -92,11 +92,11 @@ S_OK
   
 请注意[ITnef::Finish](itnef-finish.md)方法调用之前对**AddProps**时发生的任何实际 TNEF 编码。 此功能的含义，**完成**呼叫后，指针传递给**AddProps**必须保持才有效。 此时，所有对象和传入**AddProps**呼叫数据可以发布或释放。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI 使用**ITnef::AddProps**方法将属性从邮件复制到 TNEF 流。  <br/> |
    

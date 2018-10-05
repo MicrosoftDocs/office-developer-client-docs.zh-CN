@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: 本文介绍 Microsoft Project Online 的加载项开发来增强您使用 Project Online 的体验。 开发项目是作为演练实现的。 外接程序用于本文读取和显示的项目名称和 Id 的已发布项目从您的 Project Online 帐户并允许您以检索与各个项目的任务向下钻取。
-ms.openlocfilehash: ea5c7e3f3d20aa6bf5b6bb77a18eb87d06f549e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a472a6300f18aaa65649f44d944445642a59e1a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572541"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399303"
 ---
 # <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>开发的 Project Online 外接程序使用 JavaScript 对象模型 (JSOM)
 
@@ -37,15 +37,15 @@ Project Online 执行一个更多操作来保护信息属于其他租户中的�
 Project Online 外接程序的开发设置使用 Visual Studio SharePoint 外接程序项目类型。 外接程序编写 JavaScript 中, 并使用项目 JavaScript 对象模型 (JSOM) 与 Project Online 服务进行交互。 JSOM 从 SharePoint JSOM 继承其大部分功能。
   
 > [!NOTE]
-> 加载项可以发布和销售的 Office 商店或部署到 SharePoint 上专用应用程序目录。 有关详细信息，请参阅[部署和发布 Office 外接程序](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish)。
+> 加载项可以发布和销售的 Office 商店或部署到 SharePoint 上专用应用程序目录。 有关详细信息，请参阅[部署和发布 Office 外接程序](https://docs.microsoft.com/office/dev/add-ins/publish/publish)。
 > 
 > 使用本文中的外接程序是面向开发人员; 示例它不是为在生产环境中使用。 主要用途是显示 for Project Online 中的应用程序开发的示例。 
   
-## <a name="prerequisites"></a>先决条件
+## <a name="prerequisites"></a>必备组件
 
 向支持 Windows 环境中添加以下各项：
   
-- **.NET framework 4.0 或更高版本**： 4.0 版从框架的完整版本的兼容。 下载站点是https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx。
+- **.NET framework 4.0 或更高版本**： 4.0 版从框架的完整版本的兼容。 下载站点是https://msdn.microsoft.com/vstudio/aa496123.aspx。
     
 - **Visual Studio 2013 或更高版本**：  
     
@@ -92,7 +92,7 @@ Project Online 外接程序的开发设置使用 Visual Studio SharePoint 外接
     
 2. 您希望如何承载 SharePoint 外接程序？ 选择 [X] **SharePoint 承载**。
     
-   有关 SharePoint 加载项的详细信息，包括承载选项，请参阅[SharePoint 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins)。
+   有关 SharePoint 加载项的详细信息，包括承载选项，请参阅[SharePoint 加载项](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)。
     
 3. 单击“下一步”****。 
     
@@ -143,7 +143,7 @@ Sideloading 是用于测试和调试 Project Online 的加载项的机制。需�
     
 如果 Project Online 租户发生更改，如进入从试用订阅网站，您可以更新项目属性，包括服务器连接和网站 URL，使用属性窗口可通过**查看** > **属性窗口**命令。 
   
-您还可以将文件添加到项目。 如果是这样，您需要更新位于同一组 （内容、 图像、 页面或脚本） 以包含新文件中的 Elements.xml 文件。 有关项目文件的详细信息，请参阅[了解应用程序清单结构和包的 SharePoint 外接程序](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in)。
+您还可以将文件添加到项目。 如果是这样，您需要更新位于同一组 （内容、 图像、 页面或脚本） 以包含新文件中的 Elements.xml 文件。 有关项目文件的详细信息，请参阅[了解应用程序清单结构和包的 SharePoint 外接程序](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in)。
   
 ### <a name="set-application-scope"></a>设置应用程序范围
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: Microsoft InfoPath 支持 COM 加载项扩展窗体编辑的用户体验。 尽管支持的如 Microsoft Office Word 和 Microsoft Office Excel 具有 Office 2000 以来支持 COM 加载项首先 COM 加载项添加 InfoPath，其他 Office 应用程序中。
-ms.openlocfilehash: 4c70dfb71cf7b15a0978b4567ffac02a8ba524c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8dd16b161c4ea862cf3b15e56e26a2547c1fc4c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773882"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395481"
 ---
 # <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>创建 COM 加载项并将自定义功能添加到 InfoPath
 
@@ -129,11 +129,11 @@ Visual studio 创建项目后，您将看到解决方案资源管理器窗口中
     
 编译托管 COM 加载项用于共享的加载项项目开发所在计算机以外的计算机上，您必须执行额外的步骤来保护您的代码。 保护共享加载项项目的其他计算机上使用的信息，请参阅下面的三篇文章：
   
-- [部署的托管 COM 加载项中 Office XP](http://go.microsoft.com/fwlink/?LinkID=73473)
+- [部署的托管 COM 加载项中 Office XP](https://go.microsoft.com/fwlink/?LinkID=73473)
   
-- [使用 COM 加载项填充码解决方案部署托管 COM 加载项中 Office XP](http://go.microsoft.com/fwlink/?LinkID=73474)
+- [使用 COM 加载项填充码解决方案部署托管 COM 加载项中 Office XP](https://go.microsoft.com/fwlink/?LinkID=73474)
   
-- [隔离 Office 扩展 COM 填充码向导](http://go.microsoft.com/fwlink/?LinkID=73475)
+- [隔离 Office 扩展 COM 填充码向导](https://go.microsoft.com/fwlink/?LinkID=73475)
   
 > [!IMPORTANT]
 > 如果不隔离 COM 加载项可能会导致内存泄漏和应用程序不稳定。 
@@ -200,10 +200,10 @@ private void InfoPathApplicationEvents_XDocumentBeforeSave(
   
 ## <a name="see-also"></a>另请参阅
 
-- [创建 Microsoft Office 2000 COM 加载项](http://go.microsoft.com/fwlink/?LinkID=73468) 
-- [创建 Office 托管 COM 加载项使用 Visual Studio.NET](http://go.microsoft.com/fwlink/?LinkID=73470)
-- [使用 IDTExtensibility2 事件过程](http://go.microsoft.com/fwlink/?LinkID=73471)
-- [构建 Office COM 加载项与 Visual Basic.NET](http://go.microsoft.com/fwlink/?LinkID=73469)
-- [构建 Office COM 加载项使用 Visual C#.NET](http://go.microsoft.com/fwlink/?LinkID=73472)
-- [使用 Visual Studio 2005 Tools for the Office System SE 创建 InfoPath 2007 加载项](http://msdn.microsoft.com/en-us/library/bb968857%28office.12%29.aspx)
+- [创建 Microsoft Office 2000 COM 加载项](https://go.microsoft.com/fwlink/?LinkID=73468) 
+- [创建 Office 托管 COM 加载项使用 Visual Studio.NET](https://go.microsoft.com/fwlink/?LinkID=73470)
+- [使用 IDTExtensibility2 事件过程](https://go.microsoft.com/fwlink/?LinkID=73471)
+- [构建 Office COM 加载项与 Visual Basic.NET](https://go.microsoft.com/fwlink/?LinkID=73469)
+- [使用 Visual C#.NET 构建 Office COM 加载项](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [使用 Visual Studio 2005 Tools for the Office System SE 创建 InfoPath 2007 加载项](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 85cfd219eb83592a4e01263caf5d6923db39e0cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96c04a242c477204ea1447fb78c31d189eeac59a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583783"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392415"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 消息服务入口点函数 MAPI 的存储提供程序作为 NST 存储环绕基于 PST 的本地存储区。 
   
@@ -27,8 +27,8 @@ ms.locfileid: "22583783"
 
 |||
 |:-----|:-----|
-|通过实现：  <br/> |MAPI 提供程序  <br/> |
-|调用：  <br/> |MAPI  <br/> |
+|实现者：  <br/> |MAPI 提供程序  <br/> |
+|调用者：  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT NSTServiceEntry( 
@@ -53,9 +53,9 @@ HRESULT NSTServiceEntry(
 
 返回值的信息，请参阅**[MSGSERVICEENTRY](msgserviceentry.md)**。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-当使用**[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)** 查找 msmapi32.dll 中此函数的地址，指定"NSTServiceEntry"作为过程名称。 
+当使用**[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)** 查找 msmapi32.dll 中此函数的地址，指定"NSTServiceEntry"作为过程名称。 
   
 若要使用复制 API，MAPI 存储提供程序必须首先打开并通过调用**[NSTServiceEntry](nstserviceentry.md)** 环绕基于 PST 的本地存储区。 提供程序然后可以使用 API、 **[IOSTX](iostxiunknown.md)** 和**[IPSTX](ipstxiunknown.md)** 的主要接口执行复制。 
   

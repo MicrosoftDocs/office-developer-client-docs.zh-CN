@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: 通过使用在 Visual Studio 2008 中开发的托管代码扩展 InfoPath 表单，您可以大大增强这些表单的功能。随后，您可以将包含代码的表单发布到 SharePoint Server 2013 中的表单库。
-ms.openlocfilehash: d6a2cfa1847b4b59b6978b8f4a0775aedf07a72d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774002"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401095"
 ---
 # <a name="develop-with-visual-studio"></a>使用 Visual Studio 进行开发
 
@@ -19,7 +19,7 @@ ms.locfileid: "19774002"
   
 您可以通过三个高级步骤开始编程并部署包含托管代码的 InfoPath 表单：
   
-1. 使用 [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=38807) 附加设备安装 Visual Studio 2008。 
+1. 使用 [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) 附加设备安装 Visual Studio 2008。 
     
 2. 设置编程语言，然后在 Visual Studio 2008 代码编辑器中编写和调试代码。
     

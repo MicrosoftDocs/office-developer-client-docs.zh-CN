@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e823797e-dde9-6ee7-b5e4-9e57cef90b08
 description: 包含用于提供有关形状的其他信息的任意字符串值。
-ms.openlocfilehash: 9533f4b92cb73a6fc99ba82e2221eba40fb917b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebd70fc0f83bd7cbf0bd6465c5e06276675a8022
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780023"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401711"
 ---
 # <a name="data2-element-shapesheettype-complextype-visio-xml"></a>Data2 元素 （ShapeSheet_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780023"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |页面 #.xml、 母版页 #.xml  <br/> |
    

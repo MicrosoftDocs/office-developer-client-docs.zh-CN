@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e28bde9571081d61b37f6939a991c11ddeb75a4c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b364fb91bda7e895b546f9a281ef14ce33b073f9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566045"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396825"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>PidLidExceptionReplaceTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定的日期和时间内定期模式的例外将替换的时间。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22566045"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 必须以协调世界时 (UTC) 指定的值。 此属性允许要找的特定实例的异常附件对象。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22566045"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1baa987961eecc6ee08b3ceb039062c8f1090ff7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 533c00a0c994e7dfc5adc476899553bc39a2a9ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589551"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401641"
 ---
 # <a name="implementing-service-provider-logon"></a>实现服务提供程序登录
 
@@ -29,7 +29,7 @@ MAPI 提供程序对象以开始使用您从您的入口点函数返回的指针
     
 在实现任何登录方法执行以下任务：
   
-1. 递增上通过调用其[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)方法传递作为输入参数的支持对象的引用计数。 
+1. 递增上通过调用其[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法传递作为输入参数的支持对象的引用计数。 
     
 2. 调用支持对象的[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)方法，以访问您的配置文件一节。 
     

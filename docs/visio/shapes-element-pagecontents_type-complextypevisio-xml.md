@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2f9d51d7-e2b7-bc68-dede-c79fb9dbcf60
 description: 包含形状元素的集合。
-ms.openlocfilehash: eae86d230c19f1db8c7ed43cca8682460c3f7af1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7abece2a9fc8d88817f22c654567272becce981e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781291"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397567"
 ---
 # <a name="shapes-element-pagecontentstype-complextype-visio-xml"></a>形状元素 （PageContents_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781291"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |页面 #.xml、 母版页 #.xml  <br/> |
    

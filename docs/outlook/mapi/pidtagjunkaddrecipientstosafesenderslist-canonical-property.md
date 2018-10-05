@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 78543caa-e6ec-4ac7-bfdd-70c56f8fd955
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: dc31d26ba1aa695ad0b64114ac7992e10bb548ba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3a87beaa3873b5ccb449e5b1497262bad5bf1497
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595405"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394011"
 ---
 # <a name="pidtagjunkaddrecipientstosafesenderslist-canonical-property"></a>PidTagJunkAddRecipientsToSafeSendersList 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示要添加到安全发件人列表的邮件收件人。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22595405"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |垃圾邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果存在此参数，则此属性必须设置为 0 或 1。 1 表示邮件收件人是要添加到安全发件人列表。 0 值表示邮件收件人的不是要添加到安全发件人列表。
   
@@ -44,11 +44,11 @@ ms.locfileid: "22595405"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > 允许处理的允许/阻止列表，并确定的垃圾邮件。
     

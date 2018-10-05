@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: e019ad8d0063514cd41017b459cc701c45c22a2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e97efb70716ffbd7fa98f980ce8520cfcb988532
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569594"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392401"
 ---
 # <a name="status-object-implementation"></a>状态对象实现
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 所有服务提供程序必须实现状态对象，并提供了该属性设置为会话状态表。 在状态表中，具体取决于您控制的资源数可以包括一个或多个行。 传输提供程序，例如，应创建行状态表中管理每个消息队列。 更改时，必须更新相应的状态表格行。 状态对象被实现提供访问状态表中包含的信息，不包含表中的其他信息。
   
@@ -31,7 +31,7 @@ ms.locfileid: "22569594"
           
       2. 创建新的状态对象。
           
-      3. 存储提供程序的状态对象中的配置文件部分的引用，并调用配置文件部分的[IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法，以增加引用计数。 
+      3. 存储提供程序的状态对象中的配置文件部分的引用，并调用配置文件部分的[IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法，以增加引用计数。 
           
       4. 存储提供程序的状态对象中的登录对象的引用，并调用登录对象的**IUnknown::AddRef**方法，以增加引用计数。 
           

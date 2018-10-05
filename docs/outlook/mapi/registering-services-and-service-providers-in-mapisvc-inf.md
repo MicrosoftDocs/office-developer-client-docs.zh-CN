@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 上次修改时间： 2013 年 7 月 18 日
-ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566920"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399549"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>注册 MapiSvc.inf 中的服务和服务提供程序
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 系统上安装新的提供程序需要更新 MapiSvc.inf 文件以指向新的提供程序。 标准属性设置在配置期间，其中包括以下，告知 MAPI 在哪里可以找到提供程序的动态链接库 (.dll):
   
@@ -43,11 +43,11 @@ ms.locfileid: "22566920"
 > [!IMPORTANT]
 > 如果您在 MapiSvc.inf 中使用完整路径，您必须**WrapStoreEntryID**调用中使用同一个路径。 
   
-此外，可能会与 Unicode 使用供稿[GetACP](http://msdn.microsoft.com/en-us/library/windows/desktop/dd318070%28v=vs.85%29.aspx/)函数的代码页转换您使用的路径。 
+此外，可能会与 Unicode 使用供稿[GetACP](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/)函数的代码页转换您使用的路径。 
   
 > [!CAUTION]
-> 如果您选择包含不能排除通过[MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/windows/desktop/dd319072%28v=vs.85%29.aspx/)和[WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/windows/desktop/dd374130%28v=vs.85%29.aspx/)函数此类的往返行程的字符的路径，则会出现故障。 
+> 如果您选择包含不能排除通过[MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/)和[WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/)函数此类的往返行程的字符的路径，则会出现故障。 
   
-此功能的演示，CodePlex 上的[自动换行 PST 示例](http://ol2010mapisamples.codeplex.com/)已经过修改-相关的功能是**MergeWithMapiSvc**和**GenerateProviderPath**中。
+此功能的演示，CodePlex 上的[自动换行 PST 示例](https://ol2010mapisamples.codeplex.com/)已经过修改-相关的功能是**MergeWithMapiSvc**和**GenerateProviderPath**中。
   
 

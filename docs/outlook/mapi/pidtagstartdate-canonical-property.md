@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 908c2d9f-53f4-4aa8-b309-2f3ac2dca5b5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 82d9060513814b5011e33ca00d849a75f9defbf6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fd799a3dc5ba91d388285f649cccfeec188b6143
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577371"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395516"
 ---
 # <a name="pidtagstartdate-canonical-property"></a>PidTagStartDate 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的开始日期和时间的约会计划应用程序管理。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22577371"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 计划应用程序应设置此属性和**PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) 属性时发送会议请求。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22577371"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

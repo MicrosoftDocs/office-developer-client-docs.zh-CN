@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
 description: 获取枚举忙/闲数据块的指定的时间范围内的用户界面。
-ms.openlocfilehash: ab377b1029296b6b4bac68d7169dcf7b8dcd8b87
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774211"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394536"
 ---
 # <a name="ifreebusydataenumblocks"></a>IFreeBusyData::EnumBlocks
 
@@ -39,7 +39,7 @@ _ppenumfb_
     
 _ftmStart_
   
-> [in]枚举的开始时间。 在[FILETIME](http://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx)表示。
+> [in]枚举的开始时间。 在[FILETIME](https://msdn.microsoft.com/library/ 4af8e79a-697e-44a1-8576-fdc57726e9ef.aspx)表示。
     
 _ftmEnd_
   

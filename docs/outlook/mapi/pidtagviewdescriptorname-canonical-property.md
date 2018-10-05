@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 55d838661dcbe0efb604e6a623a434f9ae87512e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab906d83ae4ad46747fd9037728620db1d656d25
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567781"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394767"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>PidTagViewDescriptorName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含视图描述符的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22567781"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |类定义消息可传送  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性必须设置为包含视图定义的文件夹关联的信息 （从故障） 消息的非空字符串。
   
@@ -42,7 +42,7 @@ ms.locfileid: "22567781"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > 指定的位置和客户端和服务器配置数据，如共享的类别列表和工作时间的属性。
     

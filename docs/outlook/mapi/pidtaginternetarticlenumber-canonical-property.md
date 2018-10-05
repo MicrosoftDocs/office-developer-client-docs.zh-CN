@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c27e320341f2e2072fa45828263e2cb3873f6ad0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bb6e082e4ef284c2e269cd587102995f75f7e344
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584210"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400626"
 ---
 # <a name="pidtaginternetarticlenumber-canonical-property"></a>PidTagInternetArticleNumber 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 与消息存储中的项的号码。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22584210"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 在 IMAPI 消息存储库，此属性对应于 IMAPI UID。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22584210"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 定义所使用的基本的数据结构中远程操作。
     

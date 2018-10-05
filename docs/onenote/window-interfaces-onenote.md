@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Window和Windows接口是OneNote 2013 API 对象，使用户能够使用 OneNote 窗口。这些对象允许用户通过 OneNote windows 套枚举并修改某些窗口属性。
-ms.openlocfilehash: 83a3742419a4c8faf11c22c4766744d675151c1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774171"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399947"
 ---
 # <a name="window-interfaces-onenote"></a>窗口接口 （OneNote 2013)
 
@@ -87,7 +87,7 @@ ms.locfileid: "19774171"
 
 |||
 |:-----|:-----|
-|**描述** <br/> |如果传递的 OneNote 链接 （onenote: / /)，在 OneNote 中打开 OneNote 窗口到相应位置。但是，如果链接是外部链接，例如 http:// 或 file://，将出现一个安全对话框。时开除，OneNote 尝试打开链接，并返回 HResult.hrObjectDoesNotExist 错误。  <br/> |
+|**描述** <br/> |如果传递的 OneNote 链接 （onenote: / /)，在 OneNote 中打开 OneNote 窗口到相应位置。 但是，如果链接是外部链接，如 https:// 或 file://，将出现一个安全对话框。 时开除，OneNote 尝试打开链接，并返回 HResult.hrObjectDoesNotExist 错误。  <br/> |
 |**语法** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
 |**参数** <br/> | _bstrUrl_ 要导航到的 URL。  <br/> |
    

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d4b62c4131ecc58db6957144321146625b43f7bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591021"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393234"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 创建数值令牌[IMAPISession::ShowForm](imapisession-showform.md)方法用来访问的消息。 
   
@@ -55,19 +55,19 @@ S_OK
   
 > 窗体准备已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-**IMAPISession::PrepareForm**方法创建邮件标记为_lpMessage_参数指向邮件，并调用消息的[IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)方法。 此标记_ulMessageToken_参数中传递给**IMAPISession::ShowForm**。 
+**IMAPISession::PrepareForm**方法创建邮件标记为_lpMessage_参数指向邮件，并调用消息的[IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)方法。 此标记_ulMessageToken_参数中传递给**IMAPISession::ShowForm**。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果**PrepareForm**调用成功，请通过调用其[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)方法之前调用**ShowForm** _lpMessage_指向将邮件释放。 未能将邮件释放调用**ShowForm**之前可能会导致内存泄漏。 
+如果**PrepareForm**调用成功，请通过调用其[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法之前调用**ShowForm** _lpMessage_指向将邮件释放。 未能将邮件释放调用**ShowForm**之前可能会导致内存泄漏。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI 使用**IMAPISession::PrepareForm**方法，以及**IMAPISession::ShowForm**，窗体模式中显示一条消息。  <br/> |
    

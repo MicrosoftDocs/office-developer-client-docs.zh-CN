@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d4f93fc5-80fb-3195-d25b-9a407de7848e
 description: 包含浮点数指定管理角度单位为度。
-ms.openlocfilehash: fb7faaf3009f54d45a57d46f3dbebdcfe4ce7d1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c283be7d613c574d60412f645271d2c947ae0ffb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781382"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397000"
 ---
 # <a name="snapangle-element-snapanglestype-complextype-visio-xml"></a>SnapAngle 元素 （SnapAngles_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781382"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml、 windows.xml  <br/> |
    

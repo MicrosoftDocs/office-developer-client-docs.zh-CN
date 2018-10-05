@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4bf3d9159dd1ed31fb93569218770f1015579339
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 68a358c91e35c5a075e220794c78f4e5c96e43ee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582922"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393115"
 ---
 # <a name="imapiformmgropenformcontainer"></a>IMAPIFormMgr::OpenFormContainer
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 打开特定窗体容器[IMAPIFormContainer](imapiformcontaineriunknown.md)界面。 
   
@@ -75,21 +75,21 @@ MAPI_E_NO_INTERFACE
   
 > 指向_lpunk_对象不支持所需的接口。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看器调用**IMAPIFormMgr::OpenFormContainer**方法打开特定窗体容器**IMAPIFormContainer**接口。 此接口然后可用于安装窗体插入和移除表单从窗体容器。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果_hfrmreg_中的值，HFRMREG_FOLDER _lpunk_中使用该接口的标识符必须非**null** ，并且必须允许[IMAPIFolder](imapifolderimapicontainer.md)接口[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)方法调用。 
+如果_hfrmreg_中的值，HFRMREG_FOLDER _lpunk_中使用该接口的标识符必须非**null** ，并且必须允许[IMAPIFolder](imapifolderimapicontainer.md)接口[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)方法调用。 
   
 若要打开本地窗体容器，必须使用调用**OpenFormContainer**方法或[MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md)函数中;不能使用[IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md)方法以使用户能够选择本地窗体容器。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI 使用**IMAPIFormMgr::OpenFormContainer**方法检索的窗体容器，因此可以呈现容器的内容。  <br/> |
 |MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI 使用**IMAPIFormMgr::OpenFormContainer**方法检索的文件夹的窗体容器，因此可以呈现容器的内容。  <br/> |

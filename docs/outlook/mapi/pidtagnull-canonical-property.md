@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: efb0812a88ad435c2456a729a6e950b371cc0250
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7e9c3340dfad47a811b56c86e8e6104fb6aac7c2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595347"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400794"
 ---
 # <a name="pidtagnull-canonical-property"></a>PidTagNull 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 代表一个 null 值或属性的设置，或保留数组空间。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22595347"
 |数据类型：  <br/> |PT_NULL  <br/> |
 |区域：  <br/> |Common  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性用于保留空间数组中的[SPropValue](spropvalue.md)结构。 使用数组中的[SPropTagArray](sproptagarray.md)结构以告知保留空间返回的数组中的**SPropValue**结构的方法。 这样，计算属性便宜方式填充。 
   
@@ -44,7 +44,7 @@ ms.locfileid: "22595347"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > 指定的属性和操作所允许的联系人和个人通讯组列表。
     

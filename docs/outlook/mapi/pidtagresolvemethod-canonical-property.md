@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e67cbb113899487f489ef7235d92d1adfcb76163
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14bb31ae9aebbb6441948b5756b426508107c9f0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563637"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394900"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>PidTagResolveMethod 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含某个文件夹的冲突解决值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22563637"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含冲突解决消息的文件夹将指示如何解决冲突。 此属性不是必需的。 但是，如果设置，则之外以下标志不必须存在：
   
@@ -50,11 +50,11 @@ ms.locfileid: "22563637"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCSYNC]](http://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
+[[MS OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
 > 同步服务器和客户端之间的消息对象数据的句柄。
     
-[[MS OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > 定义所使用的基本的数据结构中远程操作。
     

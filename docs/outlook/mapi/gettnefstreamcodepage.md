@@ -8,26 +8,26 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d00a2ce3ebec24ca69875bdcb83066d8b891137a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585953"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399653"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 确定传输中性封装格式 (TNEF) 流的代码页。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |tnef.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商。  <br/> |
+|标头文件：  <br/> |tnef.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供商。  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -65,7 +65,7 @@ HRESULT GetTnefStreamCodepage(
   
 > 流未 TNEF 流，或时出错读取 attOemCodepage 属性。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用**GetTnefStreamCodepage**函数读取 TNEF 流来确定的代码页和子代码页的**attOemCodepage**属性。 如果找不到**attOemCodepage** ， **GetTnefStreamCodepage**返回 437 代码页和 subcode 页为 0。 
   
@@ -73,5 +73,5 @@ HRESULT GetTnefStreamCodepage(
 
 
 
-[attOemCodepage](http://msdn.microsoft.com/en-us/library/ee158667%28EXCHG.80%29.aspx)
+[attOemCodepage](https://msdn.microsoft.com/library/ee158667%28EXCHG.80%29.aspx)
 

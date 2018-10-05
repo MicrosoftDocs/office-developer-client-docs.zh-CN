@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3b3ae4170cab109ae96a51eae6e70c674895eeae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: def51a752abcb79a35980ed12eb73011c26d2597
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575782"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401403"
 ---
 # <a name="transport-provider-sample"></a>传输提供程序示例
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 此示例使用文件和目录传输和接收消息。 它实现并注册的非常简单预处理程序将一行文本追加到每个出站邮件。 该示例演示如何拆分传输中性封装格式 (TNEF) 和文本之间的消息内容。 它还支持所有配置选项 （属性表、 向导和编程配置） 和消息选项。 它不支持远程传输接口。 
   
-您可以从[Outlook 消息处理 API (MAPI) 代码示例](http://go.microsoft.com/fwlink/?LinkId=129740)下载此示例。
+您可以从[Outlook 消息处理 API (MAPI) 代码示例](https://go.microsoft.com/fwlink/?LinkId=129740)下载此示例。
   
 |||
 |:-----|:-----|
@@ -94,7 +94,7 @@ ms.locfileid: "22575782"
     > [!IMPORTANT]
     > 必须存在此路径。 
   
-6. 单击“**确定**”。
+6. 单击“确定”****。
     
 7. 在**添加电子邮件帐户**对话框中单击**确定**。 单击**完成**，然后单击**关闭**。
     

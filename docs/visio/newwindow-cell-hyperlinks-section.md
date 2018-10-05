@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 44995137-d241-937a-c097-0f9d79203cdf
 description: 指定是否在新窗口中打开超链接。
-ms.openlocfilehash: b4d927e1970e994047df3cb89afa7799a825511d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f9d1e4b1294dea3f211c8d0d69ffc49b6180066
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780788"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396335"
 ---
 # <a name="newwindow-cell-hyperlinks-section"></a>NewWindow 单元格（“Hyperlinks”部分）
 
@@ -22,7 +22,7 @@ ms.locfileid: "19780788"
   
 |**值**|**说明**|
 |:-----|:-----|
-| TRUE  <br/> | 在新窗口中打开链接的页、文档或网站。  <br/> |
+| TRUE  <br/> | 在新窗口中打开链接的页面、 文档或网站。  <br/> |
 | FALSE  <br/> | 默认值。不为超链接打开新窗口。  <br/> |
    
 ## <a name="remarks"></a>注释

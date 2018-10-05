@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 96266b948d80b07d7aefefbf29225d2f85089094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4c1c04e5b04be9bb67b050f5cf498be89d380410
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566696"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396321"
 ---
 # <a name="mapi-custom-form-objects"></a>MAPI 自定义窗体对象
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 自定义窗体对象是由三个不同组件实现：
   
@@ -47,7 +47,7 @@ ms.locfileid: "22566696"
 |视图上下文  <br/> |支持窗体命令激活下一个和上一个消息和保存或打印。  <br/> |
 |查看建议接收器  <br/> |处理从窗体服务器的通知。  <br/> |
    
-下图显示自定义表单组件、 对象和它们可实现的接口和对象的用户的组件之间的关系。 请注意，与大多数其他 MAPI 对象，该窗体对象实现通过直接继承不相关的两个接口。 对象公开了多个独立的接口，具有到一个接口的指针的对象的用户可以检索到的任何其他接口的指针。 导航之间对象的接口实现此功能是一项功能的[IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法。 
+下图显示自定义表单组件、 对象和它们可实现的接口和对象的用户的组件之间的关系。 请注意，与大多数其他 MAPI 对象，该窗体对象实现通过直接继承不相关的两个接口。 对象公开了多个独立的接口，具有到一个接口的指针的对象的用户可以检索到的任何其他接口的指针。 导航之间对象的接口实现此功能是一项功能的[IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法。 
   
 **自定义表单组件**
   

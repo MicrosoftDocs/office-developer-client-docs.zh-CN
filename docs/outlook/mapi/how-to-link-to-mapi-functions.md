@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 71108da8bb9914bb7ed0ad0b3adacc24e1d69e63
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577714"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400143"
 ---
 # <a name="link-to-mapi-functions"></a>链接到 MAPI 函数
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 有三种方法的链接： 隐式链接、 显式链接和使用 MAPI 存根库的新混合模型。
   
@@ -121,7 +121,7 @@ Microsoft Outlook 2010 和 64 位 MAPI，现在扩展到 Microsoft Outlook 2013 
     
 引入 MAPI 存根库的另一种方法是直接在您的项目复制的源文件，MapiStubLibrary.cpp 和 StubUtils.cpp，并删除 Mapi32.lib 到任何链接和显式链接到 MAPI 任何代码。
   
-若要访问 MAPI 存根库文件，并了解如何生成并将其集成到您的项目，以及有关此库问题如何时和为什么使用它，请参阅[MAPI 存根库](http://mapistublibrary.codeplex.com/documentation)CodePlex 网站上。 
+若要访问 MAPI 存根库文件，并了解如何生成并将其集成到您的项目，以及有关此库问题如何时和为什么使用它，请参阅[MAPI 存根库](https://mapistublibrary.codeplex.com/documentation)CodePlex 网站上。 
   
 ## <a name="see-also"></a>另请参阅
 
@@ -129,7 +129,7 @@ Microsoft Outlook 2010 和 64 位 MAPI，现在扩展到 Microsoft Outlook 2013 
 - [安装 MAPI 子系统](installing-the-mapi-subsystem.md)
 - [安装 MAPI 头文件](how-to-install-mapi-header-files.md)
 - [选择要加载的 MAPI 的特定版本](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [确定要使用的链接方法](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
-- [链接到 DLL 的可执行文件](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
-- [MAPI dll 设置 MSI 键](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)
+- [确定要使用的链接方法](https://msdn.microsoft.com/library/253b8k2c.aspx)
+- [链接到 DLL 的可执行文件](https://msdn.microsoft.com/library/9yd93633.aspx)
+- [MAPI dll 设置 MSI 键](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
 

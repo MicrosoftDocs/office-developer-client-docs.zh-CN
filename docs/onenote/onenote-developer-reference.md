@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: 本参考包含概念概述和编程参考以指导您开发解决方案的 OneNote 2013 桌面客户端应用程序。
-ms.openlocfilehash: 6a3dde524dfa5357c4523db3b545ac583eaa3274
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b19e9957d1faed1bda150df34f61209d9f40fc5d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566577"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395705"
 ---
 # <a name="onenote-developer-reference"></a>OneNote 开发人员参考
 
@@ -30,15 +30,15 @@ ms.locfileid: "22566577"
 - [错误代码](error-codes-onenote.md)： 列出了 OneNote 2013 对象模型中的错误代码。
     
 > [!NOTE]
-> [!注释] 本文档中描述的 API 仅用于创建未连接方案中的 OneNote Win32 桌面客户端解决方案。对于已连接方案，请使用推荐的 OneNote 服务 API。要了解详细信息，请访问 [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615)。 
+> [!注释] 本文档中描述的 API 仅用于创建未连接方案中的 OneNote Win32 桌面客户端解决方案。对于已连接方案，请使用推荐的 OneNote 服务 API。要了解详细信息，请访问 [dev.onenote.com](https://go.microsoft.com/fwlink/?LinkID=390615)。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [面向开发人员的 OneNote](http://go.microsoft.com/fwlink/?LinkID=390615)   
+- [面向开发人员的 OneNote](https://go.microsoft.com/fwlink/?LinkID=390615)   
 - [GitHub 示例](https://github.com/OneNoteDev/)（OneNote 服务 Api）     
-- [Microsoft 产品中的辅助功能](http://www.microsoft.com/enable/products/default.aspx)    
-- [文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)    
-- [OneNote 开发人员参考版权信息](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
+- [Microsoft 产品中的辅助功能](https://www.microsoft.com/enable/products/default.aspx)    
+- [文档约定](https://msdn.microsoft.com/office/aa905365.aspx)    
+- [OneNote 开发人员参考版权信息](https://msdn.microsoft.com/library/office/jj680116.aspx)
     
     
 

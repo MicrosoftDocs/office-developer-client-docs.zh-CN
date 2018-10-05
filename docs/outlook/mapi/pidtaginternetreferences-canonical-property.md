@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 645fe61d-414a-455e-b034-db3cfd003b9d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b0e01d3f56ef01984f281e7fae5990ccb0eade88
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 431a212b6e024d695fe2de084080996d8b1054d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593331"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395698"
 ---
 # <a name="pidtaginternetreferences-canonical-property"></a>PidTagInternetReferences 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 消息的引用标头字段的值。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22593331"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 若要生成一个引用标头字段，客户端必须将这些属性设置为所需的值。 MIME 作者必须将这些属性的值复制到引用标头字段。
   
@@ -44,11 +44,11 @@ ms.locfileid: "22593331"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > 从 Internet 标准电子邮件约定转换为消息对象。
     

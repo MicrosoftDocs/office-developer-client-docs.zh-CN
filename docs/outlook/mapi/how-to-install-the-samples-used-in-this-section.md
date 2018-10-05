@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 288ece7a26fb89fa240339da681f163909124823
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586912"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397056"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>安装使用本节中的示例
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 若要安装的 MFCMAPI 应用程序和 CreateOutlookItemsAddin 项目查看和运行代码示例[通过使用 MAPI 创建 Outlook 项目](creating-outlook-items-by-using-mapi.md)部分中的主题引用，请按照下列步骤。 
 
@@ -25,11 +25,11 @@ ms.locfileid: "22586912"
 
 ### <a name="to-download-and-install-the-mfcmapi-application-and-open-createoutlookitemsaddin-project"></a>若要下载和安装 MFCMAPI 应用程序并打开 CreateOutlookItemsAddin 项目
 
-1. 下载到您的系统上的文件夹的当前版本的可执行[MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154) 。 
+1. 下载到您的系统上的文件夹的当前版本的可执行[MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) 。 
     
 2. 提取中 MFCMapi.exe MFCMapi.exe 文件。 在您的硬盘上的空文件夹_版本_.zip。
     
-3. 下载[CreateOutlookItemsAddin](http://go.microsoft.com/fwlink/?LinkID=127828)项目的当前版本。 
+3. 下载[CreateOutlookItemsAddin](https://go.microsoft.com/fwlink/?LinkID=127828)项目的当前版本。 
     
 4. 提取 CreateOutlookItemsAddin.zip 文件提取到在步骤 2 中的 MFCMapi.exe 文件的文件夹中的所有文件。
     
@@ -70,7 +70,7 @@ ms.locfileid: "22586912"
 
 ### <a name="to-download-and-view-the-mfcmapi-application-source-code"></a>下载并查看 MFCMAPI 应用程序的源代码
 
-1. 下载到您的系统上的文件夹的[MFCMAPI](http://go.microsoft.com/fwlink/?LinkID=124154)应用程序的当前版本的源代码。 
+1. 下载到您的系统上的文件夹的[MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154)应用程序的当前版本的源代码。 
     
 2. 在您的硬盘上的空文件夹 MFCMAPI-_变更集_.zip 文件提取。
     

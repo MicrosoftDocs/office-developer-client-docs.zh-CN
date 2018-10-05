@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fd98044868bbec36ed14fcf90deb2990039244b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f3e4f19ab43a3da7c4840d762d5131813c83d996
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573738"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399744"
 ---
 # <a name="pidtagattachsize-canonical-property"></a>PidTagAttachSize 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "22573738"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 建议附件子对象公开**PR_ATTACH_SIZE**属性。 包含在**PR_ATTACH_SIZE**总和包括**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 或**PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 属性的大小。 因此， **PR_ATTACH_SIZE**大于通常表达附件的内容。 
   
@@ -44,7 +44,7 @@ ms.locfileid: "22573738"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

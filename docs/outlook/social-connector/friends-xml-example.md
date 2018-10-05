@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
 description: 本主题中的 XML 示例是在其调用 ISocialPerson::GetFriendsAndColleagues 方法后返回 Outlook Social Connector (OSC) 到一个朋友 XML 字符串。 该示例演示朋友 XML 的两个朋友每分隔 person 元素。 每个朋友社交网络上指定 userID 元素的唯一值。
-ms.openlocfilehash: 6944213e9483042862fa4cefd8420e39ade9139f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5dbda1e4439f807ccc6e7abddd0ef654ae801fe0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779195"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395208"
 ---
 # <a name="friends-xml-example"></a>好友 XML 示例
 
@@ -27,7 +27,7 @@ ms.locfileid: "19779195"
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<friends xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<friends xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <person>
     <userID>4667647</userID>
     <firstName>Melissa</firstName>
@@ -41,7 +41,7 @@ ms.locfileid: "19779195"
     <emailAddress>melissa@contoso.com</emailAddress>
     <emailAddress2>melissa@fabrikam.com</emailAddress2>
     <emailAddress3>melissa@adventureworks.com</emailAddress3>
-    <webProfilePage>http://contoso.com/melissa</webProfilePage>
+    <webProfilePage>https://contoso.com/melissa</webProfilePage>
     <phone>800-555-1212</phone>
     <cell>888-555-1212</cell>
     <workPhone>425-555-1212</workPhone>
@@ -64,7 +64,7 @@ ms.locfileid: "19779195"
     <emailAddress>michael@contoso.com</emailAddress>
     <emailAddress2>michael@fabrikam.com</emailAddress2>
     <emailAddress3>michael@adventureworks.com</emailAddress3>
-    <webProfilePage>http://contoso.com/michael</webProfilePage>
+    <webProfilePage>https://contoso.com/michael</webProfilePage>
     <phone>800-555-1212</phone>
     <cell>888-555-1212</cell>
     <workPhone>425-555-1212</workPhone>

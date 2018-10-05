@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: 0a8e318f9bb5e538473e1b60c650e8730f692e50
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577987"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393381"
 ---
 # <a name="upmov"></a>UPMOV
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 用于上载已移动的项目的信息。 [上载删除状态状态](upload-delete-status-state.md)和[上载表状态](upload-table-state.md)期间使用此信息。
   
@@ -82,7 +82,7 @@ _pfld_
     
 _pxicc_
   
->  [in]支持上载内容更改时使用增量更改同步 (ICS) 的**IExchangeImportContentsChanges**内容接口的指针。 **IExchangeImportContentsChanges**和 ICS 的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
+>  [in]支持上载内容更改时使用增量更改同步 (ICS) 的**IExchangeImportContentsChanges**内容接口的指针。 **IExchangeImportContentsChanges**和 ICS 的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
     
 _dwReserved_
   

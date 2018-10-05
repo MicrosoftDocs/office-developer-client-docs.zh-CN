@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
 description: 在联系人卡片或 Outlook 人员窗格中，Outlook Social Connector (OSC) 支持从社交网络有关联系人的显示信息。 SharePoint Server、 SharePoint Workspace，Lync 客户端和所有 Office 客户端应用程序支持的状态信息的支持联系人卡片。
-ms.openlocfilehash: 9e843d8013b329a88de88232f16740edae77c1d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d6881c5d596519422d01ca61a00b1a68e610f2c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779334"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399156"
 ---
 # <a name="synchronizing-friends-and-activities"></a>同步好友和活动
 
@@ -25,7 +25,7 @@ Outlook 人员窗格显示有关可以是发件人或收件人的所选 Outlook 
   
 为要显示当前所选人员信息的联系人卡片或人员窗格，OSC 将通过 OSC 提供程序和某种形式的缓存此类信息同步。 此同步取决于客户端计算机安装的 OSC 提供程序、 社交网络您已登录到其 OSC 提供程序和每个 OSC 提供程序这些社交网络支持同步模式。
   
-OSC 支持同步朋友、 非朋友和活动朋友和非朋友不同的方式： 缓存同步、 按需同步和混合同步。 之间同步这些模式的主要区别是 OSC 存储数据的位置 — 是否处于中用户的默认 Outlook 存储，或在用户的计算机上的内存中的文件夹。 在每种情况下本主题中所述没有数据仍保留在文件夹或内存刷新数据之前将默认最短时间。 在某些情况下，可以通过组策略自定义的最小时间量。 有关组策略对 OSC 行为进行控制的详细信息，请参阅[如何管理 Outlook Social Connector 使用组策略](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)。
+OSC 支持同步朋友、 非朋友和活动朋友和非朋友不同的方式： 缓存同步、 按需同步和混合同步。 之间同步这些模式的主要区别是 OSC 存储数据的位置 — 是否处于中用户的默认 Outlook 存储，或在用户的计算机上的内存中的文件夹。 在每种情况下本主题中所述没有数据仍保留在文件夹或内存刷新数据之前将默认最短时间。 在某些情况下，可以通过组策略自定义的最小时间量。 有关组策略对 OSC 行为进行控制的详细信息，请参阅[如何管理 Outlook Social Connector 使用组策略](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)。
   
 请注意，是否所选的人员不是社交网络的成员，OSC 不显示任何人或活动信息的人员的联系人卡片或人员窗格中。
   
@@ -140,5 +140,5 @@ OSC 提供程序通知 OSC 它支持通过**功能**XML 中指定以下元素的
 - [功能 XML 示例](capabilities-xml-example.md)  
 - [功能 XML](xml-for-capabilities.md)
 - [开发 OSC XML 架构的提供程序](developing-a-provider-with-the-osc-xml-schema.md)  
-- [如何使用组策略管理 Outlook Social Connector](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [如何使用组策略管理 Outlook Social Connector](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

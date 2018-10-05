@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: 定义在 Visio 用户界面中的外部数据窗口中的数据列的显示方式，并通过定义其数据类型和格式限定列中的数据。
-ms.openlocfilehash: f74061b9f3b8f4b93d8aa0e97e4e7c1e45131cbd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 453ff44131575bd3d6927fdddb81db5f3f431a3b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780049"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395845"
 ---
 # <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>DataColumn 元素 （DataColumns_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780049"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |recordsets.xml  <br/> |
    

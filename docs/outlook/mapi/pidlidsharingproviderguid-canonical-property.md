@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 103c9cf2-42fb-4fa5-b9c2-8a92725d3097
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ce69d563a0d797298a6d708bcf70f1b2e1ad950f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 68a1fef672b4f32c6ff0ebfea56bf240b7281f0f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565940"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396363"
 ---
 # <a name="pidlidsharingproviderguid-canonical-property"></a>PidLidSharingProviderGuid 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定共享提供程序全局唯一标识符 (GUID)。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22565940"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的值必须设置为"%xae.f0.06.00.00.00.00.00.c0.00.00.00.00.00.00.46"。 
   
@@ -43,11 +43,11 @@ ms.locfileid: "22565940"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > 共享客户端之间的邮箱文件夹。
     

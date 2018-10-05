@@ -14,18 +14,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
 description: 了解可帮助您使用 Project Server 接口 (PSI) 参考主题中包含的基于 ASMX 的代码示例在 Visual Studio 中创建项目的信息。
-ms.openlocfilehash: 73d097211dc3c68e1066c2ea1ad8d51a616184d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 26ad2e388b7e7f6f19e028b47c7f6d1a3fbd020c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779558"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399324"
 ---
 # <a name="prerequisites-for-asmx-based-code-samples-in-project"></a>在项目中的基于 ASMX 的代码示例的先决条件
 
 了解可帮助您使用 Project Server 接口 (PSI) 参考主题中包含的基于 ASMX 的代码示例在 Visual Studio 中创建项目的信息。
   
-[Project Server 2013 类类库和 web 服务引用](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)中包含的代码示例的许多原来创建的 Office Project 2007 SDK，并用于 ASMX web 服务的标准格式。 示例仍在 Project Server 2013 中工作，旨在复制到控制台应用程序和运行完整的单位。 例外示例中进行说明。 
+[Project Server 2013 类类库和 web 服务引用](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)中包含的代码示例的许多原来创建的 Office Project 2007 SDK，并用于 ASMX web 服务的标准格式。 示例仍在 Project Server 2013 中工作，旨在复制到控制台应用程序和运行完整的单位。 例外示例中进行说明。 
   
 新 Project 2013 SDK 中的 PSI 示例符合使用 Windows Communication Foundation (WCF) 服务的格式。 也可以修改用于 WCF 服务的基于 ASMX 的示例。 本文介绍如何使用 ASMX web 服务的示例。 有关使用这些示例使用 WCF 服务的信息，请参阅[项目中的基于 WCF 的代码示例的先决条件](prerequisites-for-wcf-based-code-samples-in-project.md)。
   
@@ -120,7 +120,7 @@ ms.locfileid: "19779558"
 @ECHO ---------------------------------------------------
 REM Replace ServerName with the name of the server and 
 REM the instance name of Project Web App. Do not use localhost.
-(set VDIR=http://ServerName/pwa/_vti_bin/psi)
+(set VDIR=https://ServerName/pwa/_vti_bin/psi)
 (set OUTDIR=.\Source)
 REM ** Wsdl.exe is the same version in the v6.0A and v7.0A subdirectories. 
 (set WSDL="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\wsdl.exe")
@@ -184,7 +184,7 @@ WssInterop
 Project 2013 SDK 下载包括 Wsdl.exe 命令生成的代理程序集的源文件。 源文件位于中 Source.zip`Documentation\IntelliSense\ASMX`子目录。 而不是设置代理程序集的引用，可以将一个或多个的源文件添加到 Visual Studio 解决方案。 例如，运行 GenASMXProxyAssembly.cmd 脚本后，添加 wsdl。向解决方案 Project.cs 文件。 而不是运行该脚本，您可以运行以下命令以生成单个源文件，例如： 
   
 ```MS-DOS
-set VDIR=http://ServerName/ProjectServerName/_vti_bin/psi
+set VDIR=https://ServerName/ProjectServerName/_vti_bin/psi
 set WSDL="C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\x64\wsdl.exe"
 %WSDL% /nologo /l:cs /namespace:SvcProject /out:wsdl.Project.cs %VDIR%/Project.asmx?wsdl
 ```
@@ -199,7 +199,7 @@ private static SvcLoginForms.LoginForms loginForms =
 public void AddContextInfo()
 {
     // Add the Url property.
-    project.Url = "http://ServerName /ProjectServerName /_vti_bin/psi/project.asmx";
+    project.Url = "https://ServerName /ProjectServerName /_vti_bin/psi/project.asmx";
     // Add Windows credentials.
     project.Credentials = CredentialCache.DefaultCredentials;
     // If Forms authentication is used, add the Project Server cookie.
@@ -221,11 +221,11 @@ public void AddContextInfo()
     
 3. 在“服务引用设置”**** 对话框中，选择“添加 Web 引用”****。
     
-4. 在**URL**文本框中，键入`http:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`，然后按**Enter**或选择**转**图标。 如果您有安装安全套接字层 (SSL)，您应使用 HTTPS 协议而不是 HTTP 协议。 
+4. 在**URL**文本框中，键入`https:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`，然后按**Enter**或选择**转**图标。 如果您有安装安全套接字层 (SSL)，您应使用 HTTPS 协议而不是 HTTP 协议。 
 
-   例如上的 Project 服务使用以下 URL `http://MyServer/pwa` Project Web app 网站：`http://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
+   例如上的 Project 服务使用以下 URL `https://MyServer/pwa` Project Web app 网站：`https://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
     
-   或者，打开 web 浏览器中，并导航到`http://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`。 将文件保存到本地目录，如`C:\Project\WebServices\ServiceName.wsdl`。 在**添加 Web 引用**对话框的**URL**，键入文件协议和文件的路径。 例如，键入`file://C:\Project\WebServices\Project.wsdl`。 
+   或者，打开 web 浏览器中，并导航到`https://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`。 将文件保存到本地目录，如`C:\Project\WebServices\ServiceName.wsdl`。 在**添加 Web 引用**对话框的**URL**，键入文件协议和文件的路径。 例如，键入`file://C:\Project\WebServices\Project.wsdl`。 
     
 5. 解析引用后，请在**Web 引用名称**文本框中键入引用名称。 Project 2013 开发人员文档中的代码示例使用任意标准引用名称**Svc _ServiceName_**。 例如，Project web 服务名为**SvcProject** （参见图 3）。 
     
@@ -272,7 +272,7 @@ namespace ASMXLogon_MultiAuth
     class Program
     {
         private const string PROJECT_SERVER_URL = 
-            "http://ServerName/ProjectServerName/_vti_bin/psi/";
+            "https://ServerName/ProjectServerName/_vti_bin/psi/";
         static void Main(string[] args)
         {
             bool isWindowsUser = true;
@@ -371,7 +371,7 @@ namespace ASMXLogon_MultiAuth
 大多数示例具有一个或多个必须更新示例以正确环境中的变量。 在以下示例中，情况下，如果您有 SSL 安装，使用 HTTPS 协议而不是 HTTP 协议。 _ServerName_替换为您使用的服务器的名称。 _ProjectServerName_替换为您的 Project Server 网站，如 PWA 的虚拟目录名称。 
   
 ```cs
-const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
+const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";
 ```
 
 您必须更改的所有其他变量或其他先决条件均已在代码示例的顶部注明。
@@ -385,11 +385,11 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
   
 - 使用 Project Professional 2013 客户端从 Project Server 计算机中，打开项目并查看所需的项。
     
-- 在 Project Web App 的项目中心页上查看已发布的项目 ( `http://ServerName/ProjectServerName/projects.aspx`)。
+- 在 Project Web App 的项目中心页上查看已发布的项目 ( `https://ServerName/ProjectServerName/projects.aspx`)。
     
-- 在 Project Web App 中查看队列日志。 打开服务器设置页 （右上角选择**设置**图标），然后选择下**个人设置**部分**我的排队作业**( `http://ServerName/ProjectServerName/MyJobs.aspx`)。 在**视图**下拉列表中，您可以按作业状态排序。 **正在进行和过去一周的失败作业**的默认状态。 
+- 在 Project Web App 中查看队列日志。 打开服务器设置页 （右上角选择**设置**图标），然后选择下**个人设置**部分**我的排队作业**( `https://ServerName/ProjectServerName/MyJobs.aspx`)。 在**视图**下拉列表中，您可以按作业状态排序。 **正在进行和过去一周的失败作业**的默认状态。 
     
-- 使用 Project Web App 中的服务器设置页 ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) 来管理所有队列作业和删除或强制签入企业对象。 您必须具有管理权限才能访问这些服务器设置页上的链接。
+- 使用 Project Web App 中的服务器设置页 ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) 来管理所有队列作业和删除或强制签入企业对象。 您必须具有管理权限才能访问这些服务器设置页上的链接。
     
 - 使用“Microsoft SQL Server Management Studio”**** 对 Project 数据库中的表运行查询。例如，使用下列查询可选择 pub.MSP_WORKFLOW_STAGE_PDPS 表的前 200 行以显示有关工作流容器中的项目详细信息页 (PDP) 的信息。 
     
@@ -407,7 +407,7 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 ## <a name="cleaning-up"></a>清理
 <a name="pj15_PrerequisitesASMX_Cleanup"> </a>
 
-测试某些代码示例后，没有企业对象和设置应删除或重置。 可以使用 Project Web App 中的服务器设置页来管理企业数据 ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`)。 在服务器设置页上的链接，可以删除旧项目、 强制签入项目、 管理作业队列的所有用户和执行其他管理任务。
+测试某些代码示例后，没有企业对象和设置应删除或重置。 可以使用 Project Web App 中的服务器设置页来管理企业数据 ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`)。 在服务器设置页上的链接，可以删除旧项目、 强制签入项目、 管理作业队列的所有用户和执行其他管理任务。
   
 以下是“服务器设置”页上的一些链接，可在运行完代码示例后使用这些链接进行典型的清理活动：
   
@@ -439,8 +439,8 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 <a name="pj15_PrerequisitesASMX_AR"> </a>
 
 - [在项目中的基于 WCF 的代码示例的先决条件](prerequisites-for-wcf-based-code-samples-in-project.md)
-- [使用 WCF 模拟](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
+- [使用 WCF 模拟](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)
 - [项目 PSI 参考概述](project-psi-reference-overview.md)
-- [SharePoint 开发中心](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [SharePoint 开发中心](https://msdn.microsoft.com/sharepoint/default.aspx)
     
 

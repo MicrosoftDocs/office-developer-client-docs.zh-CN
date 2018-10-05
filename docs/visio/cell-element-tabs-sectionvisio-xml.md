@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
 description: 指定形状和样式制表位位置或对齐的控件的属性。
-ms.openlocfilehash: da2fb31688227180bb38a4366c3293a2e16600c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6641c452144544dc769616130c96d6cf89aca23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779851"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395061"
 ---
 # <a name="cell-element-tabs-section-visio-xml"></a>单元格 （Tabs 内容） (Visio XML) 元素
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779851"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml，母版页 #.xml、 页面 #.xml  <br/> |
    
@@ -67,6 +67,6 @@ ms.locfileid: "19779851"
 |**值**|**说明**|**更多信息**|
 |:-----|:-----|:-----|
 |对齐方式  <br/> |指定制表位的对齐方式。  <br/> |[Alignment Cell (Tabs Section)](alignment-cell-tabs-section.md) <br/> |
-|位置  <br/> |指定制表位的位置。制表位位置与绘图比例无关。即使绘图比例进行调整，制表位位置仍然保持不变。  <br/> |[Position Cell (Tabs Section)](position-cell-tabs-section.md) <br/> |
+|Position  <br/> |指定制表位的位置。制表位位置与绘图比例无关。即使绘图比例进行调整，制表位位置仍然保持不变。  <br/> |[Position Cell (Tabs Section)](position-cell-tabs-section.md) <br/> |
    
 

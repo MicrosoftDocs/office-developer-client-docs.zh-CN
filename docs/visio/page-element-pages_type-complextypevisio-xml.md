@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
 description: 包含文档中定义的网页的元素。
-ms.openlocfilehash: 368c50a25a09d5f4fd808f3f019b074b7f6d246d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 800e4ab2c6446ab298747f0492800000bb44cca3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780814"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398006"
 ---
 # <a name="page-element-pagestype-complextype-visio-xml"></a>网页元素 （Pages_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780814"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |pages.xml  <br/> |
    

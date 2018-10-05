@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b5292f82-f299-ea96-6101-ebb799bbec9a
 description: 指定当在文档中启用粘附形状粘附到的对象。
-ms.openlocfilehash: 53cec76448d0779b3068822388d5b874f4754eb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 46d1ec09729cd26cfa3fc2f78a39edb6e7b7b02f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780346"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396608"
 ---
 # <a name="gluesettings-element-windowtype-complextype-visio-xml"></a>GlueSettings 元素 （Window_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780346"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |windows.xml、 document.xml  <br/> |
    

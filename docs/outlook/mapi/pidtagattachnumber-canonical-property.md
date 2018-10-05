@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f6de157864bff5be41b6e030d555be7b60dcda5e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 474ffaf2317cadd214074419f09bb913b1eee4ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594752"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401501"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>PidTagAttachNumber 规范属性
 
@@ -34,7 +34,7 @@ ms.locfileid: "22594752"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 消息存储生成和维护此属性。 附件数是次要排序关键字后的呈现位置，以对附件表。 
   
@@ -46,7 +46,7 @@ ms.locfileid: "22594752"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

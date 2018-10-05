@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d2926b09dd3dfd89ab771206e0c8848415238eba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3961330476cad8947f94152e49c90adb1e8f8b21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585477"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398071"
 ---
 # <a name="pidtagattachdataobject-canonical-property"></a>PidTagAttachDataObject 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含通常通过对象链接和嵌入 (OLE) **IStorage**界面访问一个 attachment 对象。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22585477"
 |数据类型：  <br/> |PT_OBJECT  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ATTACH_EMBEDDED_MSG**或**ATTACH_OLE** **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) 属性的值时，此属性包含附件。 可从**PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) 确定 OLE 编码类型。 
   
@@ -48,13 +48,13 @@ OLE 文档文件附件，消息存储提供程序必须响应上**PR_ATTACH_DATA
   
 如果客户端应用程序或服务提供商不能使用**PR_ATTACH_METHOD**借助**PR_ATTACH_DATA_OBJ**打开附件子对象，它应使用**PR_ATTACH_DATA_BIN**。 
   
-OLE 接口和格式的详细信息，请参阅[OLE 和数据传输](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)。
+OLE 接口和格式的详细信息，请参阅[OLE 和数据传输](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

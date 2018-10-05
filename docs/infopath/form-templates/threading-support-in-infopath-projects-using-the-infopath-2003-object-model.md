@@ -8,16 +8,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: 通过 Microsoft.Office.Interop.InfoPath.dll、Microsoft.Office.Interop.InfoPath.SemiTrust.dll 和 Microsoft.Office.Interop.InfoPath.Xml.dll 互操作程序集（由 Microsoft InfoPath 安装）访问的 COM 对象不支持在多个线程上进行调用。这包括由 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间封装的 Microsoft XML Core Services (MSXML) 对象的接口（多数接口的名称都以 IXMLDOM 开头），以及由 Microsoft.Office.Interop.InfoPath.Xml 命名空间公开的所有接口（这些接口都不是线程安全的）。
-ms.openlocfilehash: 314ef57e11295c0b2dbc9866c5faa392aab055ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774081"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395558"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型的 InfoPath 项目中的线程支持
 
-通过 Microsoft.Office.Interop.InfoPath.dll、Microsoft.Office.Interop.InfoPath.SemiTrust.dll 和 Microsoft.Office.Interop.InfoPath.Xml.dll 互操作程序集（由 Microsoft InfoPath 安装）访问的 COM 对象不支持在多个线程上进行调用。 这包括由 **Microsoft.Office.Interop.InfoPath.SemiTrust** 命名空间封装的 Microsoft XML Core Services (MSXML) 对象的接口（多数接口的名称都以 IXMLDOM 开头），以及由 [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/zh-CN/library/microsoft.office.interop.infopath.xml) 命名空间公开的所有接口（这些接口都不是线程安全的）。 
+通过 Microsoft.Office.Interop.InfoPath.dll、Microsoft.Office.Interop.InfoPath.SemiTrust.dll 和 Microsoft.Office.Interop.InfoPath.Xml.dll 互操作程序集（由 Microsoft InfoPath 安装）访问的 COM 对象不支持在多个线程上进行调用。 这包括由 **Microsoft.Office.Interop.InfoPath.SemiTrust** 命名空间封装的 Microsoft XML Core Services (MSXML) 对象的接口（多数接口的名称都以 IXMLDOM 开头），以及由 [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) 命名空间公开的所有接口（这些接口都不是线程安全的）。 
   
 对于这些 COM 对象的所有调用都必须在一个线程上发出。InfoPath 项目中的托管代码可以创建其他线程以执行后台工作，但是在主线程以外的线程上运行的代码不能调入 InfoPath 对象模型。
   
@@ -82,7 +82,7 @@ namespace AsyncUpdate
     }
     // The namespace prefixes defined in this attribute must remain 
     // synchronized with those in the form definition file (.xsf).
-    [InfoPathNamespace("xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
+    [InfoPathNamespace("xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
     public class AsyncUpdate
     {
         private XDocument thisXDocument;

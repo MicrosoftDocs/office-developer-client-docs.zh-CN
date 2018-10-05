@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
 description: 返回由 OSC 提供商提供 OSC 提供程序扩展性方法中的所有 XML 必须都符合以下 OSC 提供程序 XML 架构。 OSC 架构完整地复制此处复制。
-ms.openlocfilehash: 0cf46d2a995fe9362777e853b0f13a9aceacfb99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1ec7888f5b6d9a7264f597e0c1ef3855d27b011
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779332"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394102"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Outlook Social Connector 提供程序的 XML 架构
 
-返回由 OSC 提供商提供 OSC 提供程序扩展性方法中的所有 XML 必须都符合以下 OSC 提供程序 XML 架构。 OSC 架构完整地复制此处复制。 当前架构定义文件，OutlookSocialProvider1_1.xsd，还提供在下载本文附带的提供程序模板。 有关详细信息，请参阅[Outlook Social Connector 2013： 提供程序模板](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。 
+返回由 OSC 提供商提供 OSC 提供程序扩展性方法中的所有 XML 必须都符合以下 OSC 提供程序 XML 架构。 OSC 架构完整地复制此处复制。 当前架构定义文件，OutlookSocialProvider1_1.xsd，还提供在下载本文附带的提供程序模板。 有关详细信息，请参阅[Outlook Social Connector 2013： 提供程序模板](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)。 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -27,9 +27,9 @@ ms.locfileid: "19779332"
     All Rights Reserved
 -->
 <xs:schema
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />

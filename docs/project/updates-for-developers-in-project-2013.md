@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
 description: 新功能包括 Project 客户端的客户端对象模型 (CSOM)、 REST 接口、 OData 服务的报告、 远程事件接收器、 声明性工作流，和任务窗格的加载项。
-ms.openlocfilehash: e524fe7b8cfa813bd198e99a99cf77d6e2b1905d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c4c3f9b4bb5852f2a620b2695c15de390ac9d78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567837"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401760"
 ---
 # <a name="updates-for-developers-in-project"></a>Project 中面向开发人员的更新
 
@@ -24,7 +24,7 @@ Project Server 数据库合并为单个数据库;您可以通过 OData 服务访
 有关图表和 Project Server 2013 中的主要更改详细信息，请参阅[Project Server 2013 体系结构](project-server-2013-architecture.md)。
   
 > [!NOTE]
-> Project Server 2013 构建在 SharePoint Server 2013 平台上，并且 Project 2013 包括何种为其他 Office 2013 应用程序相同的基础结构。 有关文档的模型的 SharePoint 加载项，基于 SharePoint 的工作流，Web 部件开发与其他 SharePoint 功能和文档的 Office 加载项，请参阅[SharePoint 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins)、 [Office 加载项](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)和[SharePoint2013 开发概述](http://msdn.microsoft.com/library/jj164084%28office.15%29.aspx)。 
+> Project Server 2013 构建在 SharePoint Server 2013 平台上，并且 Project 2013 包括何种为其他 Office 2013 应用程序相同的基础结构。 有关文档的模型的 SharePoint 加载项，基于 SharePoint 的工作流，Web 部件开发与其他 SharePoint 功能和文档的 Office 加载项，请参阅[SharePoint 加载项](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)、 [Office 加载项](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)和[SharePoint2013 开发概述](https://msdn.microsoft.com/library/jj164084%28office.15%29.aspx)。 
   
 ## <a name="major-new-features-in-project-2013"></a>Project 2013 的主要新增功能
 <a name="pj15_WhatsNew_MajorNewFeatures"> </a>
@@ -33,7 +33,7 @@ Project Standard 2013 和 Project Professional 2013 中的新增功能包括改�
   
 Project Server 2013 中有许多新功能。 某些没有主要可编程性文章，如 Project Web App 中新的时间线。 在 Microsoft Office Online 上的产品帮助和最终用户文档和目标为管理员和 Microsoft TechNet 上的 IT 专业人员的主题，将记录这些功能。 其他新功能，如改进的时间表，轻松第三方开发人员与时间表和进展状况通过 Project Server 接口 (PSI) 进行交互。
   
-添加了 Project Online 和 Office 应用商店 (http://office.microsoft.com/store)的项目加载项是广泛的更改，其中的 Project Server 是可通过 Microsoft Azure 访问。 基于云的访问 Project Server 开发使用 Microsoft.NET Framework、 Microsoft Silverlight、 Windows Phone 和使用 JavaScript 的 web 应用程序外接程序中使用客户端对象模型 (CSOM)。 Project Online 要求是四个早期版本的 Project Server 数据库已合并到一个数据库。
+添加了 Project Online 和 Office 应用商店 (https://office.microsoft.com/store)的项目加载项是广泛的更改，其中的 Project Server 是可通过 Microsoft Azure 访问。 基于云的访问 Project Server 开发使用 Microsoft.NET Framework、 Microsoft Silverlight、 Windows Phone 和使用 JavaScript 的 web 应用程序外接程序中使用客户端对象模型 (CSOM)。 Project Online 要求是四个早期版本的 Project Server 数据库已合并到一个数据库。
   
 Project Server 2013 性能和可扩展性等任务状态、 时间表和项目管理的许多方面得到改进。 Project Server 工作流是经过重新设计的 Windows Workflow Foundation (WF4) 版本 4。 使用.NET Framework 4 和使用 PSI 的 Windows Communication Foundation (WCF) 提高了安全性、 性能和可伸缩性。 例如，您可以使用配置文件，而不更改应用程序代码或重新编译更改基于 WCF 的应用程序的传输协议。 Project Web App 缓存许多其中数据不会更改会显著的 PSI 调用。
   
@@ -47,7 +47,7 @@ Project Server 2013 性能和可扩展性等任务状态、 时间表和项目�
 
 通讯组和软件的市场营销具有已彻底改变与外接程序的概念。 Project 2013 的可以从公共 Office 商店中使其可供购买和下载或分布式 SharePoint 上专用目录中的加载项。 外接程序，通常执行少量相关任务的自我包含、 交互式程序。 项目加载项可以是任务窗格外接程序的 Project Standard 2013 或 Project Standard 2013 客户端或外接程序的 Project Server 2013 或 Project Online。
   
-Project 桌面客户端外接程序的信息，请参阅[任务窗格中的加载项项目](#pj15_WhatsNew_Agave)。 有关 Project Server 2013 的示例，请参阅[创建 SharePoint 承载 Project Server 加载项](create-a-sharepoint-hosted-project-server-add-in.md)。 [Office 和 SharePoint 加载项 SDK](http://msdn.microsoft.com/library/fp161507.aspx)中的文章，除了[Office 博客](https://blogs.office.com/dev/)具有许多也是为 Project 2013 和 Project Online 相关的文章。 
+Project 桌面客户端外接程序的信息，请参阅[任务窗格中的加载项项目](#pj15_WhatsNew_Agave)。 有关 Project Server 2013 的示例，请参阅[创建 SharePoint 承载 Project Server 加载项](create-a-sharepoint-hosted-project-server-add-in.md)。 [Office 和 SharePoint 加载项 SDK](https://msdn.microsoft.com/library/fp161507.aspx)中的文章，除了[Office 博客](https://blogs.office.com/dev/)具有许多也是为 Project 2013 和 Project Online 相关的文章。 
   
 Project Server 2013 的加载项可以使用同时在本地安装和 Project Online。 Project Server 加载项可以包括 Web 部件、 远程事件接收器和业务逻辑。 访问 Project Server 对象模型中加载项是通过 CSOM、 不 PSI。 数据存储可以是基于云的如与 SQL Azure、 外部如通过 Microsoft Business Connectivity Services (BCS)，使用本地数据库中，内部或混合。
   
@@ -59,7 +59,7 @@ Project Server 2013 的加载项可以使用同时在本地安装和 Project Onl
   
 ```XML
   <AppPermissionRequests>
-    <AppPermissionRequest Scope="http://sharepoint/projectserver/projects" Right="Write" />
+    <AppPermissionRequest Scope="https://sharepoint/projectserver/projects" Right="Write" />
   </AppPermissionRequests>
 ```
 
@@ -76,16 +76,16 @@ Project Server 2013 的加载项可以使用同时在本地安装和 Project Onl
 |**工作流** <br/> |**提升**（需要权限来运行工作流。 使用提升的权限，可在工作流中启用切换阶段阶段外接程序运行。 在外接程序中的业务逻辑控制阶段过渡）。  <br/> |
    
 > [!NOTE]
-> Project Server 2013 和 Project Online 不使用仅应用程序身份验证模型 SharePoint 2013 （请参阅[外接程序授权策略类型在 SharePoint 2013 中](http://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)） 中。 
+> Project Server 2013 和 Project Online 不使用仅应用程序身份验证模型 SharePoint 2013 （请参阅[外接程序授权策略类型在 SharePoint 2013 中](https://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)） 中。 
   
-有关开发的信息，分发、 承载和管理外接程序，请参阅[SharePoint 加载项](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins)和[Office 加载项](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)和 SharePoint Server 2013 和 Office 2013 开发人员文档中的相关的主题。 有关权限请求范围的其他 SharePoint 加载项的信息，请参阅[SharePoint 2013 中的加载项权限](http://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx)。
+有关开发的信息，分发、 承载和管理外接程序，请参阅[SharePoint 加载项](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)和[Office 加载项](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)和 SharePoint Server 2013 和 Office 2013 开发人员文档中的相关的主题。 有关权限请求范围的其他 SharePoint 加载项的信息，请参阅[SharePoint 2013 中的加载项权限](https://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx)。
   
 ### <a name="integrating-with-sharepoint-server"></a>与 SharePoint Server 集成
 <a name="pj15_WhatsNew_IntegrationWSS"> </a>
 
 Project Web App 中的许多功能需要 SharePoint Server 2013 OAuth 和基于声明的身份验证、 Project Server 授权和权限通过 SharePoint 组，如同步 SharePoint 任务的项目中的新基础结构列表和 Project Server 声明性工作流。 Project Service 应用程序可与 SharePoint 场中的任何网站集相关联。 项目同步可以是与 SharePoint 任务列表，其中 SharePoint 将维护项目。 此外可以与 SharePoint 任务列表，其中 Project Server 维护完全控制同步企业项目。 有关体系结构图表和项目同步的说明，请参阅[Project Server 2013 体系结构](project-server-2013-architecture.md)。
   
-SharePoint Server 2013 中有许多新功能。 有关详细信息，请参阅[SharePoint 开发人员 (英文）](http://msdn.microsoft.com/en-US/sharepoint)。
+SharePoint Server 2013 中有许多新功能。 有关详细信息，请参阅[SharePoint 开发人员 (英文）](https://msdn.microsoft.com/sharepoint)。
   
 ### <a name="integrating-with-workflows"></a>与工作流集成
 <a name="pj15_WhatsNew_Workflow"> </a>
@@ -108,7 +108,7 @@ OAuth 使项目经理具有项目创建调用无需使用模拟的工作流的�
   
 虽然 Project Server 2013 内部部署可以使用基于 WF3.5 已编译工作流，我们建议您升级到声明性工作流基于 WF4 旧的工作流。 较新的技术是更可伸缩且可靠。 业务分析师和 PMO 人员可以创建或使用 Visio 2013 更新工作流设计和实现无需使用 SharePoint Designer 2013 编码的 Project Server 工作流。
   
-有关为 Project Web App 中创建声明性工作流的信息，请参阅[Getting started 开发 Project Server 工作流](getting-started-developing-project-server-workflows.md)。 SharePoint Designer 和 Visual Studio 工作流功能的比较，请参阅[使用 Visual Studio 开发 SharePoint 2013 工作流](http://msdn.microsoft.com/en-us/library/office/jj163199.aspx)。
+有关为 Project Web App 中创建声明性工作流的信息，请参阅[Getting started 开发 Project Server 工作流](getting-started-developing-project-server-workflows.md)。 SharePoint Designer 和 Visual Studio 工作流功能的比较，请参阅[使用 Visual Studio 开发 SharePoint 2013 工作流](https://msdn.microsoft.com/library/office/jj163199.aspx)。
   
 ### <a name="client-side-object-model"></a>客户端对象模型
 <a name="pj15_WhatsNew_CSOM"> </a>
@@ -160,22 +160,22 @@ Project Server 2010 中的四个数据库合并到 Project Server 2013 中为单
 >
 > 实际上没有任何内容阻止您使用直接编程数据库访问来更新 Project 数据库中任何表和视图中的数据。您应注意，Project Professional 缓存、草稿和已发布数据的表以及报告表均依赖可被直接数据编辑中断的缓存同步协议。如果您使用直接访问更改数据损坏了 Project Server 数据库或损坏了 Project Professional 客户端缓存，则将收到产品支持无法帮助的警告！ 
   
-Project Server 2013 介绍 OData 服务的联机和本地访问。 仅由的 OData 接口; 公开的联机报告表和视图供内部使用，您可以使用的 OData 接口，或直接访问报告的表和 SharePoint 场中 ProjectService 数据库中的视图。 Project Online 不支持多租户的数据库。 即多个 Project Web 应用程序的每个实例具有自己的 Project 数据库。 OData 服务内部报告的表和视图，运行 SQL 查询，并提供了 XML 或 JSON 负载。 有关 OData 服务的 Project Server 2013 中的报告和**ProjectData**架构引用的简介，请参阅[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)。
+Project Server 2013 介绍 OData 服务的联机和本地访问。 仅由的 OData 接口; 公开的联机报告表和视图供内部使用，您可以使用的 OData 接口，或直接访问报告的表和 SharePoint 场中 ProjectService 数据库中的视图。 Project Online 不支持多租户的数据库。 即多个 Project Web 应用程序的每个实例具有自己的 Project 数据库。 OData 服务内部报告的表和视图，运行 SQL 查询，并提供了 XML 或 JSON 负载。 有关 OData 服务的 Project Server 2013 中的报告和**ProjectData**架构引用的简介，请参阅[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/library/office/jj163015.aspx)。
   
 有关 OData 查询的常规信息，请参阅[OData: URI 约定](https://www.odata.org/documentation/)。 例如，您可以看到所有的 Project Web App 的项目名称其中开头在浏览器中使用下面的查询的"Test"的本地实例中的项目。 在浏览器页中，右键单击，然后单击**查看源文件**。
   
 ```html
-http://ServerName /ProjectServerName /_api/ProjectData/Projects?$filter=startswith(ProjectName, 'Test') eq true
+https://ServerName /ProjectServerName /_api/ProjectData/Projects?$filter=startswith(ProjectName, 'Test') eq true
 ```
 
-要导入 PowerPivot Excel 2013 中的项目数据，数据功能区上，选择**自其他来源**下拉列表菜单中**从 OData 数据源**。 在**数据连接向导**对话框中，键入http://ServerName/ProjectServerName/_api/ProjectData/在数据源位置，选择**下一步**，，然后选择在向导的**选择表**页的**项目**表。 命名和保存.odc 文件，然后选择**完成**。 在**导入数据**对话框中，选择**数据透视表报告**。 在 Excel 表中，选择字段的数据透视表行和您想要显示的列。
+要导入 PowerPivot Excel 2013 中的项目数据，数据功能区上，选择**自其他来源**下拉列表菜单中**从 OData 数据源**。 在**数据连接向导**对话框中，键入https://ServerName/ProjectServerName/_api/ProjectData/在数据源位置，选择**下一步**，，然后选择在向导的**选择表**页的**项目**表。 命名和保存.odc 文件，然后选择**完成**。 在**导入数据**对话框中，选择**数据透视表报告**。 在 Excel 表中，选择字段的数据透视表行和您想要显示的列。
   
 内部部署 Project Server 用户具有正确的权限，可以直接访问报告的表和视图 Microsoft SQL Server 创建报表，通过在 Project Server 2010 中一样。 Project Server 2013 中用户还可以通过 OData 接口访问本地申报表。 您可以检索联机 Project Server 数据或本地通过 OData 服务的 REST 终结点。 例如，dbo。MSP_PROJECT 表并 dbo。MSP_EpmProject_UserView 视图可用于报告。 任何表或视图的`draft`， `pub`，或`ver`前缀仅供内部使用 Project server，且未进行报告使用。 例如，草稿。MSP_TASKS 表并出版物。MSP_PROJECTS_WORKING_VIEW 视图未进行归档，以及是仅供内部使用。 
   
 > [!NOTE]
 > 您可以通过在单独数据库中添加表、视图、字段和存储过程来扩展内部报告。您不能在 Project Server 数据库中修改现有报告表和视图。 
   
-报告表、 视图和项目数据库中的字段将记录在更高版本更新的 Project 2013 SDK 下载中的 HTML 帮助文件。 有关 OData XML 架构的**ProjectData**服务的文档，请参阅[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)。 报告表和 Project Server 2010 创建的视图的查询将在大多数情况下，使用 Project Server 2013 中的 Project 数据库。 与当前内部部署用户可以访问 SQL Server Analysis Services 中的 Project Server OLAP 多维数据集。 Project Online 中不可用 OLAP 多维数据集。
+报告表、 视图和项目数据库中的字段将记录在更高版本更新的 Project 2013 SDK 下载中的 HTML 帮助文件。 有关 OData XML 架构的**ProjectData**服务的文档，请参阅[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/library/office/jj163015.aspx)。 报告表和 Project Server 2010 创建的视图的查询将在大多数情况下，使用 Project Server 2013 中的 Project 数据库。 与当前内部部署用户可以访问 SQL Server Analysis Services 中的 Project Server OLAP 多维数据集。 Project Online 中不可用 OLAP 多维数据集。
   
 ### <a name="task-pane-add-ins-in-project"></a>任务窗格中的加载项项目
 <a name="pj15_WhatsNew_Agave"> </a>
@@ -205,7 +205,7 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
 > [!NOTE]
 > 仅适用于本地安装 SharePoint 管理中心。 有关 Project Online 和 SharePoint Online，您可以添加或删除使用基于 CSOM 的应用程序包的远程事件接收器。 
   
-在服务器端事件处理程序页上，添加内部部署 Project Server 安装本地事件处理程序的过程是为 Project Server[创建 Project Server 事件处理器并记录事件](http://msdn.microsoft.com/en-us/library/gg615466.aspx)主题中所述的过程几乎相同2010。 不同之处在于，新的事件处理程序页具有其他选项。 例如，选择**事件**列表中的**项目创建**，然后选择**新建事件处理程序**。 在新的事件处理程序页上，只有两个必需的域 （参见图 3） 的**名称**和**顺序**。 如果要添加的完全信任的本地事件处理程序，添加**程序集名称**字段和**类名称**字段中;保留**终结点 Url**为空。 如果您要添加远程事件接收器，请添加**终结点 Url**，并将**程序集名称**和**类名称**保留为空。 
+在服务器端事件处理程序页上，添加内部部署 Project Server 安装本地事件处理程序的过程是为 Project Server[创建 Project Server 事件处理器并记录事件](https://msdn.microsoft.com/library/gg615466.aspx)主题中所述的过程几乎相同2010。 不同之处在于，新的事件处理程序页具有其他选项。 例如，选择**事件**列表中的**项目创建**，然后选择**新建事件处理程序**。 在新的事件处理程序页上，只有两个必需的域 （参见图 3） 的**名称**和**顺序**。 如果要添加的完全信任的本地事件处理程序，添加**程序集名称**字段和**类名称**字段中;保留**终结点 Url**为空。 如果您要添加远程事件接收器，请添加**终结点 Url**，并将**程序集名称**和**类名称**保留为空。 
   
 > [!CAUTION]
 > Project Server 如果指定*同时*程序集名称/类名称和终结点 URL，请调用仅本地 （本地） 事件处理程序。 远程事件接收器将被忽略。 
@@ -225,7 +225,7 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
 > [!NOTE]
 > 对于本地 Project Server 安装，建议您使用 CSOM 开发事件接收器来迁移到远程事件接收器。因为远程事件接收器未在 Project Server Events 服务中运行第三方代码，因此远程事件接收器要更稳定。本地管理员免除了维护 Project Server Events 服务的责任。 
   
-有关事件的常规信息，请参阅[处理 SharePoint 相关应用程序中的事件](http://msdn.microsoft.com/en-us/library/jj220048%28office.15%29.aspx)。 
+有关事件的常规信息，请参阅[处理 SharePoint 相关应用程序中的事件](https://msdn.microsoft.com/library/jj220048%28office.15%29.aspx)。 
   
 ## <a name="deprecated-features"></a>已弃用的功能
 <a name="pj15_WhatsNew_Deprecated"> </a>
@@ -235,11 +235,11 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
   
 已弃用的功能在 Project 2013 中的某些解决方案，仍然可用，但不是应用于新的开发。 使用 Project Online，或使用默认的本地安装的 Project Server 2013 中 SharePoint 权限模式不工作的大多数以下功能和实践。 使用这些功能的现有解决方案可能不适用于升级到 Project Server 2013 的 Project Server 2010。 虽然使用的解决方案弃用功能可能继续在某些情况下，它们不完全支持的所有 Project 2013 安装。
   
-如果您的解决方案使用已弃用的功能，应在部署之前，全面测试它们，并且应修改这些尽快使用支持功能原样实践。 有关配置 Project 权限模式的内部部署 Project Server 2013 安全性的信息，请参阅中[What's new for Project Server 2013 中的 IT 专业人员](http://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx)的*SharePoint 权限模式下*一节。
+如果您的解决方案使用已弃用的功能，应在部署之前，全面测试它们，并且应修改这些尽快使用支持功能原样实践。 有关配置 Project 权限模式的内部部署 Project Server 2013 安全性的信息，请参阅中[What's new for Project Server 2013 中的 IT 专业人员](https://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx)的*SharePoint 权限模式下*一节。
   
 - **扩展**[PSI 扩展方案](https://msdn.microsoft.com/library/office/ff843378%28v=office.14%29.aspx)已被弃用，并将在将来版本中不支持。 这些内部部署 Project Server 2013 方案通过使用自定义 Windows Communication Foundation (WCF) 服务启用集成。 
   
-- **项目 PSI**PSI[项目类](https://docs.microsoft.com/en-us/office/client-developer/project/project-psi-reference-overview)已被弃用。 对于所有新开发，使用[Project CSOM](client-side-object-model-csom-for-project-2013.md)。 使用 Project PSI 的 project Server 2013 应用程序将继续工作，但 Project Online 的应用程序需要将替换其等效的 CSOM 方法的任何项目类的 PSI 方法。
+- **项目 PSI**PSI[项目类](https://docs.microsoft.com/office/client-developer/project/project-psi-reference-overview)已被弃用。 对于所有新开发，使用[Project CSOM](client-side-object-model-csom-for-project-2013.md)。 使用 Project PSI 的 project Server 2013 应用程序将继续工作，但 Project Online 的应用程序需要将替换其等效的 CSOM 方法的任何项目类的 PSI 方法。
   
 - **资源计划 PSI**[资源计划 PSI](https://msdn.microsoft.com/library/office/websvcresourceplan_di_pj14mref.aspx)已被弃用。 它将继续支持 Project 2013 开发的但将来版本中将不支持。 
   
@@ -249,13 +249,13 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
   
 - **对象链接提供程序 (OLP)** 在 Project server 的早期版本，PSI 中的**ObjectLinkProvider** service （请参阅[WebSvcObjectLinkProvider](https://msdn.microsoft.com/library/WebSvcObjectLinkProvider.aspx) ） 提供用于管理企业项目任务与项目网站中的专用的 SharePoint 列表之间的 web 对象链接方法问题、 风险、 可交付结果和文档。 Project Server 2013 中 OLP 已被弃用。 
   
-  您可以用于**[RelatedItemManager](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.client.relateditemmanager.aspx)** 类 SharePoint CSOM 中创建、 读取、 和删除任务列表中的项目和项目网站中的其他列表之间的 web 对象链接。 例如，若要添加到问题从任务项目的链接，可以使用**[AddSingleLink](http://msdn.microsoft.com/en-us/library/office/microsoft.sharepoint.client.relateditemmanager.addsinglelink.aspx)** 方法或**AddSingleLinkFromUrl**或**AddSingleLinkToUrl**的两个类似方法之一。 **RelatedItemManager**类还包括用于删除 web 对象链接和读取相关的项目的方法。 JSOM （JavaScript 对象模型） 中的等效类，请参阅[sp。RelatedItemManager object (sp.js)](http://msdn.microsoft.com/en-us/library/jj838582.aspx)。
+  您可以用于**[RelatedItemManager](https://msdn.microsoft.com/library/microsoft.sharepoint.client.relateditemmanager.aspx)** 类 SharePoint CSOM 中创建、 读取、 和删除任务列表中的项目和项目网站中的其他列表之间的 web 对象链接。 例如，若要添加到问题从任务项目的链接，可以使用**[AddSingleLink](https://msdn.microsoft.com/library/office/microsoft.sharepoint.client.relateditemmanager.addsinglelink.aspx)** 方法或**AddSingleLinkFromUrl**或**AddSingleLinkToUrl**的两个类似方法之一。 **RelatedItemManager**类还包括用于删除 web 对象链接和读取相关的项目的方法。 JSOM （JavaScript 对象模型） 中的等效类，请参阅[sp。RelatedItemManager object (sp.js)](https://msdn.microsoft.com/library/jj838582.aspx)。
   
-  我们建议使用 SharePoint CSOM 创建 OLP 类型应用程序的本地安装的 Project Server 2013 和 Project Online。 [Microsoft.SharePoint](http://msdn.microsoft.com/en-us/library/microsoft.sharepoint.aspx)命名空间不包括**RelatedItemManager** *** 类。 
+  我们建议使用 SharePoint CSOM 创建 OLP 类型应用程序的本地安装的 Project Server 2013 和 Project Online。 [Microsoft.SharePoint](https://msdn.microsoft.com/library/microsoft.sharepoint.aspx)命名空间不包括**RelatedItemManager** *** 类。 
   
 - **自定义权限**自定义安全权限才能访问特定的 Project Server 功能或扩展受支持 Office Project Server 2007，其中 SDK 文章介绍了如何创建它们通过直接修改的已发布数据库中。 Project Server 2010 中自定义权限仍工作，但已被弃用。 Project Server 2013 中自定义权限未处理的本地安装的默认 SharePoint 权限模式。 有关 Project 权限模式，支持自定义权限。 使用 Project Online，不能直接数据库访问权限。 
   
-- **模拟**基于 PSI 的应用程序中的模拟应用程序的用户可以在其中假定的不同的 Project Server 用户的安全权限在 Project Server 2013 中已弃用。 为以前指示，默认为本地 Project Server 2013 安装使用 SharePoint 权限模式，不允许模拟 Project Server 安全组中。 有关详细信息，请参阅[身份验证、 授权和 SharePoint 2013 中的安全性](http://msdn.microsoft.com/en-us/library/ms457529%28office.15%29.aspx)。
+- **模拟**基于 PSI 的应用程序中的模拟应用程序的用户可以在其中假定的不同的 Project Server 用户的安全权限在 Project Server 2013 中已弃用。 为以前指示，默认为本地 Project Server 2013 安装使用 SharePoint 权限模式，不允许模拟 Project Server 安全组中。 有关详细信息，请参阅[身份验证、 授权和 SharePoint 2013 中的安全性](https://msdn.microsoft.com/library/ms457529%28office.15%29.aspx)。
   
   Statusing 应用程序可能已在早期版本的 Project Server 中使用模拟的典型扩展。 Project Server 2010 引入**ReadStatusForResource**方法和 PSI，以及**StatusBrokerPermission**全局权限，这不需要模拟读取中的**SubmitStatusForResource**方法并代表另一个用户更新状态。 Project Server 2013 中的 CSOM 使用基础 PSI 透明地启用 statusing 扩展，并可用于 Project Online 或本地安装。 
   
@@ -267,12 +267,12 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
   
 - **项目向导**项目指南是 Office Project 2007 桌面应用程序中的标准功能其中中的任务窗格的 HTML 和 JavaScript 内容提供用于创建和管理项目的交互式指南。 Project 2010 中项目指南不可用在默认安装中，但可以通过 VBA 或 VSTO 加载项来启用。 Project 2010 SDK 下载包括已修改的项目向导文件。 
   
-  VBA 对象模型和**Microsoft.Office.Interop.MSProject**对象模型 Project 2013 中的仍包括 22**应用程序**类以及可以管理 Project 指南的**项目**类的成员。 但是，Project 2013 任务窗格应用程序可能会发生冲突的项目向导任务窗格和项目指南内容中的操作与无法轻松分布式或在 Office 商店中销售。 我们强烈建议您开发项目任务窗格与 Office 加载项，不是自定义项目指南内容的解决方案。 关于 Project 指南的详细信息，请参阅[Project 2010 SDK 文档](http://msdn.microsoft.com/en-us/library/ms512767.aspx)。
+  VBA 对象模型和**Microsoft.Office.Interop.MSProject**对象模型 Project 2013 中的仍包括 22**应用程序**类以及可以管理 Project 指南的**项目**类的成员。 但是，Project 2013 任务窗格应用程序可能会发生冲突的项目向导任务窗格和项目指南内容中的操作与无法轻松分布式或在 Office 商店中销售。 我们强烈建议您开发项目任务窗格与 Office 加载项，不是自定义项目指南内容的解决方案。 关于 Project 指南的详细信息，请参阅[Project 2010 SDK 文档](https://msdn.microsoft.com/library/ms512767.aspx)。
   
 ## <a name="comparing-project-server-on-premises-with-project-online"></a>比较 Project Server 内部部署与 Project Online
 <a name="pj15_WhatsNew_Comparing"> </a>
 
-为了帮助您决定是否使用 Project Server 本地或 Project Online，以及哪些类型的扩展名您可以开发在任一情况下，表 2 比较内部部署安装 Project Server 2013 和 Project Online 的可扩展功能。 表 2 不包括部署、 管理或使用率的差异。 有关 Project Online 和 Project Server 2013 的详细信息，请参阅[面向开发人员的 Project 2013](http://msdn.microsoft.com/en-US/office/fp161502)和[Project Online](https://developer.microsoft.com/en-us/project)。
+为了帮助您决定是否使用 Project Server 本地或 Project Online，以及哪些类型的扩展名您可以开发在任一情况下，表 2 比较内部部署安装 Project Server 2013 和 Project Online 的可扩展功能。 表 2 不包括部署、 管理或使用率的差异。 有关 Project Online 和 Project Server 2013 的详细信息，请参阅[面向开发人员的 Project 2013](https://msdn.microsoft.com/office/fp161502)和[Project Online](https://developer.microsoft.com/en-us/project)。
   
 **表 2。Project Server 的扩展性在本地和 Project Online**
 
@@ -286,7 +286,7 @@ Project Server 的本地安装，您可以作为 SharePoint 功能中 CSOM、 �
 |**通讯组** <br/> |-Office 商店 （的基于 CSOM 的应用程序）<br/>-在 SharePoint 上的专用应用程序目录<br/>-Intranet 文件共享  <br/> |-Office 商店<br/>-在 SharePoint 上的专用应用程序目录  <br/> |
 
    
-## <a name="conclusion"></a>结论
+## <a name="conclusion"></a>结束语
 <a name="pj15_WhatsNew_Conclusion"> </a>
 
 Project Server 2013 提供了大量新的开发功能和方案的合作伙伴和客户可以使用调整和扩展的功能和 Project Server 的大型企业和小型组织中的有效性。 可以使用 Office 2013 和 SharePoint 2013 的基础结构可帮助创建和分发可以极大地扩展的营销能力和自定义应用程序使用的 Project 2013 相关应用程序。 某些扩展性功能和实践的以前版本的 Project 2013，特别是 ASMX web 服务的 PSI 和涉及模拟或直接数据库更改，不能用于 Project Online 的功能中弃用。
@@ -295,20 +295,20 @@ CSOM 简介启用对 Project Online 的各种不同的设备和 web 应用程序
   
 Office 加载项提供销售解决方案和与 web 内容和其他 Office 2013 产品集成 Project Standard 2013 新的途径。 您还可以创建与 Project Server 数据集成 Project Professional 2013 的新方式以及通过任务窗格 Office 加载项的 SharePoint 列表。
   
-有关开发应用程序和使用的编程功能和 SharePoint Server 2013 的 CSOM 的详细信息，请参阅[面向开发人员的 SharePoint](http://msdn.microsoft.com/en-US/sharepoint)和[面向开发人员的 Office](http://msdn.microsoft.com/en-US/office)。
+有关开发应用程序和使用的编程功能和 SharePoint Server 2013 的 CSOM 的详细信息，请参阅[面向开发人员的 SharePoint](https://msdn.microsoft.com/sharepoint)和[面向开发人员的 Office](https://msdn.microsoft.com/office)。
   
 ## <a name="see-also"></a>另请参阅
 
 - [Project Server 2013 体系结构](project-server-2013-architecture.md)  
 - [Project 编程任务](project-programming-tasks.md) 
 - [Project 2013 的客户端对象模型 (CSOM)](client-side-object-model-csom-for-project-2013.md) 
-- [ProjectData - Project 2013 OData 服务引用](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)  
+- [ProjectData - Project 2013 OData 服务引用](https://msdn.microsoft.com/library/office/jj163015.aspx)  
 - [Project 任务窗格加载项](task-pane-add-ins-for-project.md)   
-- [OData: URI 约定](http://www.odata.org/documentation/uri-conventions#FilterSystemQueryOption)    
-- [面向开发人员的 SharePoint](http://msdn.microsoft.com/en-US/sharepoint)    
-- [面向开发人员的 office](http://msdn.microsoft.com/en-US/office)   
-- [SharePoint 相关应用程序中处理事件](http://msdn.microsoft.com/en-us/library/jj220048%28office.15%29.aspx)   
-- [Office 应用商店](http://office.microsoft.com/en-us/store/)   
+- [OData: URI 约定](https://www.odata.org/documentation/uri-conventions#FilterSystemQueryOption)    
+- [面向开发人员的 SharePoint](https://msdn.microsoft.com/sharepoint)    
+- [面向开发人员的 office](https://msdn.microsoft.com/office)   
+- [SharePoint 相关应用程序中处理事件](https://msdn.microsoft.com/library/jj220048%28office.15%29.aspx)   
+- [Office 应用商店](https://office.microsoft.com/en-us/store/)   
 - [Project Online](https://developer.microsoft.com/en-us/project)
     
 

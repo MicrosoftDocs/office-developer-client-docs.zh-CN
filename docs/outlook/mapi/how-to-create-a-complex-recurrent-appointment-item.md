@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ad81ac74f517b36029d29f8a6ed1e1dfcb28fade
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d44bf5cccd7e846530eae0c03b8d3ff525f3c012
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583664"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393360"
 ---
 # <a name="create-a-complex-recurrent-appointment-item"></a>创建复杂的定期约会项目
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 可以使用 MAPI 创建定期约会项目。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22583664"
   
 `AddAppointment`下面列出了方法。 请注意， _lpFolder_参数传递给`AddAppointment`方法是指向代表创建定期约会位置的文件夹[IMAPIFolder](imapifolderimapicontainer.md)接口的指针。 给定_lpFolder_参数值，该值代表**IMAPIFolder**接口，代码调用[IMAPIFolder::CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage**方法返回到指向**IMessage**接口的指针成功代码和一个指针。 大多数的`AddAppointment`的函数代码处理的指定属性中调用[IMAPIProp::SetProps](imapiprop-setprops.md)方法的准备工作。 如果对**SetProps**方法的调用成功，调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法将更改提交到存储并创建新的日历项目。 
   
-`AddAppointment`函数设置大量的命名属性。 命名的属性和如何创建这些信息，请参阅[创建 Outlook 2007 项使用 MAPI](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)。 用于约会项的命名的属性占用多个属性集，因为必须小心构建参数时要传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法。 
+`AddAppointment`函数设置大量的命名属性。 命名的属性和如何创建这些信息，请参阅[创建 Outlook 2007 项使用 MAPI](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)。 用于约会项的命名的属性占用多个属性集，因为必须小心构建参数时要传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法。 
   
-`AddAppointment`函数使用多个帮助程序函数来构建各种约会相关属性的结构。 `BuildTimeZoneStruct`和`BuildTimeZoneDefinition`帮助程序函数用于生成指定时间区域相关属性的结构。 与时间区域相关的属性是**dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md))， **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md))， **dispidApptTZDefRecur** ([PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md))， **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) 和**dispidApptTZDefEndDisplay** ([PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md))，并对它们进行讨论[[MS OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx)的相应部分。 
+`AddAppointment`函数使用多个帮助程序函数来构建各种约会相关属性的结构。 `BuildTimeZoneStruct`和`BuildTimeZoneDefinition`帮助程序函数用于生成指定时间区域相关属性的结构。 与时间区域相关的属性是**dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md))， **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md))， **dispidApptTZDefRecur** ([PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md))， **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) 和**dispidApptTZDefEndDisplay** ([PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md))，并对它们进行讨论[[MS OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx)的相应部分。 
 
-`BuildGlobalObjectID`函数用于构建指定**LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) 的结构和中讨论的**dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)) 属性[[MS OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28v=EXCHG.80%29.aspx)相应部分。 指定**dispidApptRecur**属性的结构使用生成的`BuildWeeklyAppointmentRecurrencePattern`函数。 
+`BuildGlobalObjectID`函数用于构建指定**LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) 的结构和中讨论的**dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)) 属性[[MS OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx)相应部分。 指定**dispidApptRecur**属性的结构使用生成的`BuildWeeklyAppointmentRecurrencePattern`函数。 
 
 有关构建的结构`BuildWeeklyAppointmentRecurrencePattern`函数中，请参阅[PidLidAppointmentRecur 规范属性](pidlidappointmentrecur-canonical-property.md)。 请注意，尽管大量不同的约会定期模式是可能的`BuildWeeklyAppointmentRecurrencePattern`函数仅生成每周约会定期模式。 它还使用多个硬编码的值，例如日历类型 （公历） 的第一天的周 （星期日），并且数修改或删除实例 （无）。 更多通用约会定期模式创建功能需要接受这些各种作为参数的变量。 
   
@@ -292,5 +292,5 @@ HRESULT AddAppointment(LPMAPIFOLDER lpFolder,
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MAPI 创建 Outlook 2007 项](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [使用 MAPI 创建 Outlook 2007 项](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

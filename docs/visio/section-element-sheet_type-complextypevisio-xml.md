@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: 指定相关的属性的集合。
-ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593520"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394333"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Section 元素 （Sheet_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "22593520"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml、 masters.xml、 主 #.xml、 pages.xml、 页 #.xml  <br/> |
    
@@ -54,7 +54,7 @@ ms.locfileid: "22593520"
 |**元素**|**类型**|**说明**|
 |:-----|:-----|:-----|
 |[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |指定单个属性。  <br/> |
-|[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |指定**Cell_Type**元素的集合。  <br/> |
+|[Row](https://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |指定**Cell_Type**元素的集合。  <br/> |
    
 ### <a name="attributes"></a>Attributes
 
@@ -64,7 +64,7 @@ ms.locfileid: "22593520"
 |IX  <br/> |xsd:unsignedInt  <br/> |可选  <br/> |指定的元素的从零开始的索引。 它必须是唯一的所有**Section_Type**元素包含**Sheet_Type**的相同**N**属性使用。 它必须是大于任何上述**Section_Type**元素的**IX**属性，包含**Sheet_Type**的相同**N**属性。  <br/> |Xsd:unsignedInt 类型的值。  <br/> |
 |N  <br/> |xsd: string  <br/> |必需  <br/> |指定的属性的集合的独立于语言的名称。 它必须是唯一的所有**Section_Type**元素包含**Sheet_Type**元素的除非它等于"几何"。 它必须等于**各节**中下面的副标题。  <br/> |Xsd: string 类型的值。  <br/> |
    
-### <a name="remarks"></a>注解
+### <a name="remarks"></a>说明
 
 此**部分**元素的**N**属性必须为一组有限的对应于**ShapeSheet**单元格的值之一。 请参阅下表为确定允许此**部分**元素的**N**属性的值。 
   

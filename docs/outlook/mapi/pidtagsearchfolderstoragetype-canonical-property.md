@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e780b33f693410d3936fbeb9acfc55213953042c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: accea8bdea25ac44e6cc5d8fe88cb32caf1961be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590020"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397721"
 ---
 # <a name="pidtagsearchfolderstoragetype-canonical-property"></a>PidTagSearchFolderStorageType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含在**PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)) 属性中指定所显示的二进制大型对象 (BLOB) 数据的标志。
   
@@ -34,19 +34,19 @@ ms.locfileid: "22590020"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |搜索  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-在[[MS OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)中指定的标志的定义。 **PR_WB_SF_STORAGE_TYPE**搜索。
+在[[MS OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)中指定的标志的定义。 **PR_WB_SF_STORAGE_TYPE**搜索。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > 指定的属性和操作的搜索文件夹列表配置的操作。
     

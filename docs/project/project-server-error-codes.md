@@ -14,28 +14,28 @@ keywords:
 localization_priority: Normal
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: 本主题包含错误代码的表 Project Server 2013 中的 Project Server 接口 (PSI)。 表排列按功能区域和错误代码范围。
-ms.openlocfilehash: 4d4960c0452c90e267c48ee06de014b9e04b038f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7fdfafa562492fe4d5671f1335ca58cf50c91e88
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564141"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401781"
 ---
 # <a name="project-server-error-codes"></a>Project Server 错误代码
 
 本主题包含错误代码的表 Project Server 2013 中的 Project Server 接口 (PSI)。 表排列按功能区域和错误代码范围。
    
-Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误代码号。 [WebSvcProject.PSErrorID](https://msdn.microsoft.com/en-us/library/office/websvcproject.pserrorid_di_pj14mref.aspx); 中被重复[Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/en-us/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx)枚举按名称列出了按字母顺序的错误代码。 本主题列出了 PSI 类或功能区和错误标识符 (ID) 号排列的表中的错误代码。 
+Project Server 2013 流程和 PSI 方法具有通常由功能区排列的错误代码号。 [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); 中被重复[Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx)枚举按名称列出了按字母顺序的错误代码。 本主题列出了 PSI 类或功能区和错误标识符 (ID) 号排列的表中的错误代码。 
   
 > [!NOTE]
 >  许多错误代码都是常规代码，并且可包含多个可能的原因。有关错误的详细信息，您可执行下列操作： 
 > - 对于基于 ASMX 的应用程序，可使用 **System.Web.Services.Protocols.SoapException** 与 **PSClientError** 对象显示 PSI 方法调用错误的列表或层次结构。请参阅 [ASMX 的错误代码示例](#pj15_ErrorCodes_ASMXExample)。 
 > - 对于基于 WCF 的应用程序，可使用 **System.ServiceModel.FaultException** 获取 **PSClientError** 对象，还可获取其他错误信息。请参阅 [WCF 的错误代码示例](#pj15_ErrorCodes_WCFExample)。 
 > - 使用 Project Server 计算机上的应用程序事件日志。
-> - 使用统一日志记录服务 (ULS) 跟踪日志。 有关说明，请参阅[Getting Started with Project 2010 开发](http://msdn.microsoft.com/en-us/library/gg607685.aspx)中的*检查错误*一节。 
-> - 有关使用 ULS 日志的详细信息，请参阅 Project 支持博客文章[Project Server 2010： 出现意外时](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)，和搜索的博客以"读取 ULS 日志。" 
-> - 若要有助于查找或查看 ULS 数据中的具体问题，请使用[ULS 查看器](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer)。 
-> - 使用 Microsoft SQL Server Profiler 帮助捕获或监视数据库错误。有关详细信息，请参阅 [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)。 
+> - 使用统一日志记录服务 (ULS) 跟踪日志。 有关说明，请参阅[Getting Started with Project 2010 开发](https://msdn.microsoft.com/library/gg607685.aspx)中的*检查错误*一节。 
+> - 有关使用 ULS 日志的详细信息，请参阅 Project 支持博客文章[Project Server 2010： 出现意外时](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)，和搜索的博客以"读取 ULS 日志。" 
+> - 若要有助于查找或查看 ULS 数据中的具体问题，请使用[ULS 查看器](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)。 
+> - 使用 Microsoft SQL Server Profiler 帮助捕获或监视数据库错误。有关详细信息，请参阅 [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)。 
 > - 许多错误代码仅供内部使用。例如，由于第三方开发不支持 **ExchangeSync** 和 **PWA** Web 服务，因此您可能无法查看这两个区域中的方法的错误代码，如 **Rules** 方法和 **StatusReports** 方法。但是，为了完整性，本文中的表包含所有 Project Server 错误代码。 
   
 ## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>表 1. 错误代码功能区域和相关编号范围
@@ -1610,8 +1610,8 @@ CustomFieldRequiredValueNotProvided
 ## <a name="see-also"></a>另请参阅
 
 - [项目概念性和帮助文章](project-conceptual-and-how-to-articles.md)
-- [SQL Server 探查器](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
-- [Project Server 2010： 功能时出现意外的预期行为](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
-- [ULS 查看器](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
+- [SQL Server 探查器](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
+- [Project Server 2010： 功能时出现意外的预期行为](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
+- [ULS 查看器](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
     
 

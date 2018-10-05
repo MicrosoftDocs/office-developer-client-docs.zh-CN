@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ec0aac33-624e-48f7-8177-8f7b8db6af7d
 description: 检索存储的帐户首选项配置文件一节的唯一标识符 (UID)。
-ms.openlocfilehash: 70e61264e5525f26e9f52e402bc785b544a0b90e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97f1a858c8f58e13b72b8d5f052b35359581b718
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774441"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395289"
 ---
 # <a name="propacctpreferencesuid"></a>PROP_ACCT_PREFERENCES_UID
 
@@ -31,7 +31,7 @@ See [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>说明
 
-使用中调用[IMAPISupport::OpenProfileSection](http://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) **PROP_ACCT_PREFERENCES_UID**检索包含帐户首选项配置文件一节。 
+使用中调用[IMAPISupport::OpenProfileSection](https://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) **PROP_ACCT_PREFERENCES_UID**检索包含帐户首选项配置文件一节。 
   
 ## <a name="see-also"></a>另请参阅
 

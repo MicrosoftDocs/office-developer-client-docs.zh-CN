@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 701fca52-0f96-4019-80cd-c0ccd059ff9b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3899f7000bfa1365228864d97b4410833b774bed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bd3a22bf55d03f3a9f06bf5c19650407bcc5627d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570779"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400514"
 ---
 # <a name="pidtagattachtransportname-canonical-property"></a>PidTagAttachTransportName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的修改，以便它可以与 TNEF 邮件相关联的附件文件的名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22570779"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 TNEF 和传输提供程序使用这些属性。 他们通常是不供客户端应用程序。 
   
@@ -44,7 +44,7 @@ TNEF 和传输提供程序使用这些属性。 他们通常是不供客户端�
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

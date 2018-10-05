@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
 description: 指定记录集的各个行的主关键字的值。
-ms.openlocfilehash: 3b91997b5fe8184eb89f8c53197a512d809171b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12d60bb0ccccdcd8c1790678cae4ad1e887e73b6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396721"
 ---
 # <a name="rowkeyvalue-element-primarykeytype-complextype-visio-xml"></a>RowKeyValue 元素 （PrimaryKey_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781186"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |recordsets.xml  <br/> |
    

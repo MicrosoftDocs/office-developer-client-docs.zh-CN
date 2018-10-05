@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c9a80ad3-6311-fe07-b6f7-9fd63424753b
-ms.openlocfilehash: aa42561277d5fc4de93eeedec8ceb6f36530fb80
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd9d4dffd83e1995319b0f0d661435fedb78f28c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774212"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393206"
 ---
 # <a name="ifreebusydata"></a>IFreeBusyData
 
@@ -21,7 +21,7 @@ ms.locfileid: "19774212"
 
 |||
 |:-----|:-----|
-|继承：  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|继承：  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |提供者：  <br/> |忙/闲提供程序  <br/> |
 |接口标识符：  <br/> |IID_IFreeBusyData  <br/> |
    

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 应用程序开发人员可以自定义 Project Online 承载的网站 （SharePoint） 使用独立应用程序和/或项目外接程序。丰富的应用程序是可能的范围从寻址的那些参与一个项目到 PMO 支持功能，如以下任一需求：
-ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00f79b05b886bfd2c54c118245e22f10bb5451bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594528"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392583"
 ---
 # <a name="from-0-to-60-with-project-online"></a>Project Online 从入门到精通
 
@@ -83,7 +83,7 @@ Project Online 包括 API 支持以适应以下方案：
     
    Project Online 检查外接程序和管理访问的 Project Online 主机上的信息的用户权限的应用程序范围。 如果访问明确拒绝中任意一种或两个设置，Project Online 拒绝访问的信息。 否则，授予访问权限。
     
-3. 启用[sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)网站上。  
+3. 启用[sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)网站上。  
     
 4. 生成项目。
     
@@ -115,7 +115,7 @@ Project Online 包括 API 支持以适应以下方案：
     
    Project Online 检查外接程序和管理访问的 Project Online 主机上的信息的用户权限的应用程序范围。 如果访问明确拒绝中任意一种或两个设置，Project Online 拒绝访问的信息。 否则，授予访问权限。
     
-3. 启用[sideloading](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)网站上。 
+3. 启用[sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins)网站上。 
     
 4. 生成项目。
     

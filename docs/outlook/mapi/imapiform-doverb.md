@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fe6270d82d227f52dfd5dfa5454c73e815ad9f42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 60a8c89afe0d70a1737c6ce694c66359fd6aae4f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573815"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398092"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 请求窗体执行任何任务它将与特定动词。
   
@@ -52,7 +52,7 @@ HRESULT DoVerb(
     
  _lprcPosRect_
   
-> [in]指向 Win32[矩形](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx)结构，其中包含的大小和窗体的窗口的位置。 
+> [in]指向 Win32[矩形](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx)结构，其中包含的大小和窗体的窗口的位置。 
     
 ## <a name="return-value"></a>返回值
 
@@ -64,13 +64,13 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
   
 > 由_iVerb_参数表示的动作有效，但表单无法执行与其当前关联的操作。 
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看器调用**IMAPIForm::DoVerb**方法以请求窗体执行它将与该窗体支持每个动作相关联的任务。 
   
 每个受支持的动作由传递给**DoVerb** _iVerb_参数中的数值标识。 **DoVerb**的典型实现包含**switch**语句的测试可用于窗体的_iVerb_参数的值。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 如果表单查看器_lpViewContext_参数中指定了视图上下文，则**DoVerb**实现而不是以前[IMAPIForm::SetViewContext](imapiform-setviewcontext.md)方法调用中传递的视图上下文中使用它。 进行任何更改是向内部数据结构所必需的且不保存视图上下文。 
   
@@ -86,7 +86,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
     
 某些谓词，如打印，应为模式相对于**DoVerb**呼叫 — 即，指示的操作必须**DoVerb**调用返回之前完成。 
   
-若要获取使用窗体的窗口的**矩形**结构，请调用[GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519)函数。 
+若要获取使用窗体的窗口的**矩形**结构，请调用[GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。 
   
 因为，但它通常保持有效**DoVerb**完成之后，它可以销毁立即的调用返回时，不要_hwndParent_参数中保存句柄。
   
@@ -94,13 +94,13 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
 
 您可以通过从其[IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)方法返回 VCSTATUS_MODAL 标志视图上下文实现指向_lpViewContext_用作模式谓词的非模式动词。 
   
-有关谓词 MAPI 中的详细信息，请参阅[窗体动词](form-verbs.md)。 有关在 OLE 动作的处理方式的详细信息，请参阅[OLE 和数据传输](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx)。
+有关谓词 MAPI 中的详细信息，请参阅[窗体动词](form-verbs.md)。 有关在 OLE 动作的处理方式的详细信息，请参阅[OLE 和数据传输](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI 使用**IMAPIForm::DoVerb**方法调用窗体上的动词。  <br/> |
    

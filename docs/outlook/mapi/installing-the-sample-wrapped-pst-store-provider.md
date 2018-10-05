@@ -6,24 +6,24 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: 5b16da68a5cc5ab9e005a262bf1518ea90aac570
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1574de555eb74d06c4dbe721e7e013ac59d3071
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587535"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397763"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>安装示例包装的 PST 存储区提供程序
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 本主题将引导您完成下载并安装示例自动换行 PST 存储提供程序的步骤。 示例自动换行 PST 存储提供程序，WrapPST，实现旨在与复制 API 结合使用换行的 PST 存储提供程序。 有关复制 API 的详细信息，请参阅[有关复制 API](about-the-replication-api.md)。
   
 ## <a name="install-the-sample-wrapped-pst-store-provider"></a>安装示例自动换行 PST 存储提供程序
 
-1. 若要下载示例自动换行 PST 存储提供程序，请参阅[Outlook 2007 辅助参考代码示例和可再发行组件安装程序](http://www.microsoft.com/en-us/download/details.aspx?id=24102)。
+1. 若要下载示例自动换行 PST 存储提供程序，请参阅[Outlook 2007 辅助参考代码示例和可再发行组件安装程序](https://www.microsoft.com/en-us/download/details.aspx?id=24102)。
     
 2. 打开**SampleWrappedPSTStoreProvider**文件夹，然后单击**提取所有文件**。
     

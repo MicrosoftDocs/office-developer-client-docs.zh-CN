@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 210e6731-7c94-90b1-c7c4-635df974fdb6
 description: 包含 x 坐标或 y 坐标的椭圆中心点和椭圆上的两个点。
-ms.openlocfilehash: 40458d7d9945897fd9d8f9764ff6b81884490b1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75c3cf86b7c8668b70915117e1fc70b07d2cef0b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779838"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394387"
 ---
 # <a name="cell-element-ellipse-row-visio-xml"></a>单元格元素 （Ellipse 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779838"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

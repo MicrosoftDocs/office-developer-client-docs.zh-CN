@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 9d54f937-c8de-4789-b134-56835f21aec2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 15a10793102e79428dc13b62631ffcf79df437c8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f39d78d9e5a9fed40085b069a841a69bc597cc4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572740"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393745"
 ---
 # <a name="pidlidscriptstream-canonical-property"></a>PidLidScriptStream 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 代表自定义窗体与消息关联后面的在 Visual Basic Scripting Edition (VBScript) 编写的代码。
   
@@ -39,7 +39,7 @@ ms.locfileid: "22572740"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     

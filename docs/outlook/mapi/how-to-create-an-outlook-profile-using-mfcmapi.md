@@ -5,12 +5,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 85581bc7-2d81-46af-8836-adef39c933fc
 description: MFCMAPI 提供对 MAPI 存储以加快调查的 Exchange 和 Outlook 问题和开发人员提供支持的 MAPI 开发访问。
-ms.openlocfilehash: 8df9a4c2783829b7f3540046daecb12ce0b6b86a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a300ad53918b22cc3de5554a1e3c29289cd9365
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19775094"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397875"
 ---
 # <a name="create-an-outlook-profile-using-mfcmapi"></a>使用 MFCMAPI 创建 Outlook 配置文件
 
@@ -103,7 +103,7 @@ MFCMAPI 提供对 MAPI 存储以加快调查的 Exchange 和 Outlook 问题和�
   
 ## <a name="see-also"></a>另请参阅
 
-- [Outlook MAPI 引用](https://msdn.microsoft.com/en-us/library/office/cc765775.aspx)  
-- [在 Outlook 中以编程方式创建一个配置文件](https://msdn.microsoft.com/en-us/library/office/mt707568.aspx)
+- [Outlook MAPI 引用](https://msdn.microsoft.com/library/office/cc765775.aspx)  
+- [在 Outlook 中以编程方式创建配置文件](https://msdn.microsoft.com/library/office/mt707568.aspx)
     
 

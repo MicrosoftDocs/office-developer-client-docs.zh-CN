@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8e91497c-0aa1-2021-9317-cf989e5b84a3
 description: 包含后的高度和宽度的形状的相对路径中断开的 x 坐标或 y 坐标形状的第一个顶点的 x 坐标或 y 坐标的第一个顶点。
-ms.openlocfilehash: 9cfc4c1a811598dea72c1487b56edd876d82e257
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc81ea1b36541fe471807e83057e7aaaacb70d70
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779848"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401578"
 ---
 # <a name="cell-element-relmoveto-row-visio-xml"></a>单元格元素 （RelMoveTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779848"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

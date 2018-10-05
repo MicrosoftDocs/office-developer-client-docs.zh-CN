@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: 包含与绘图中的两个形状间的每个连接的 Connect 元素。
-ms.openlocfilehash: 93930a8f21f9d250bf24d821b0eeb4036f6fe187
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00bba6be8b32fc2a8e1d996e89c6983e1e61e3a8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779968"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399954"
 ---
 # <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>连接元素 （PageContents_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779968"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |页面 #.xml、 母版页 #.xml  <br/> |
    

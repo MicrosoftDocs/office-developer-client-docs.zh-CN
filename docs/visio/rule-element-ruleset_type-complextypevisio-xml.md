@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: 代表图表有效性规则集中的一个有效性规则。
-ms.openlocfilehash: feae283c624bdece98dbc1136b0fe8765d911e12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92d52456164b89ff2aad31fa8d8f02f818c8bd1c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781180"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395908"
 ---
 # <a name="rule-element-rulesettype-complextype-visio-xml"></a>Rule 元素 （RuleSet_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781180"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |validation.xml  <br/> |
    

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 00ecaa82-3b40-24cc-91c0-b2562e92161d
 description: 显示形状文本的段落格式属性，如段落的缩进、行间距、项目符号和水平对齐方式。
-ms.openlocfilehash: ac4b2083889d3cf01b8c5bfe2fa64fe0ec1ad01a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 304c63bf810232b5a9a0f08b9b36718dd75dcc69
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781159"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398190"
 ---
 # <a name="row-element-paragraph-section-visio-xml"></a>Row 元素 （Paragraph 内容） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781159"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml，母版页 #.xml、 页面 #.xml  <br/> |
    

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7c84e4ad44fbbaad1a49d5866b8b505ca005ddfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad8d6934b5e57429de5039e9420742caa9dd4294
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583853"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397693"
 ---
 # <a name="pidtagicon-canonical-property"></a>PidTagIcon 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含窗体的完整大小的图标的位图。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22583853"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 非可传送  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含一个图标，相同的内容的 32 × 32 像素图像。ICO 文件。 此属性通常从复制。ICO 文件指定相应的窗体配置文件的 [描述] 部分的视图行中。 
   
@@ -42,7 +42,7 @@ ms.locfileid: "22583853"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     

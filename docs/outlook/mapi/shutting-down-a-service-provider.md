@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e25dad1e04927e10af38cdfbf8f30c9bd04234b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567193"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395173"
 ---
 # <a name="shutting-down-a-service-provider"></a>关闭服务提供程序
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 当客户端调用[IMAPISession::Logoff](imapisession-logoff.md)方法来结束会话并关闭所有活动服务提供商时，MAPI 轮流调用以下方法： 
   
@@ -33,7 +33,7 @@ ms.locfileid: "22567193"
   
 - 释放所有打开的对象，包括子对象和状态对象。
     
-- 调用支持对象的[IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法，以减少引用计数。 
+- 调用支持对象的[IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法，以减少引用计数。 
     
 - 删除所有提供商的注册[MAPIUID](mapiuid.md)结构。 
     

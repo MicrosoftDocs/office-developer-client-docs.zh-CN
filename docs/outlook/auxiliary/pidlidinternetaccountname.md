@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5acca047-ff2a-716c-8dd4-b676fce1a3cf
 description: 返回发送邮件的帐户的显示名称。
-ms.openlocfilehash: 223bc5bbd485426676376d94875274613ff59685
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2bd27cc7f868fb3f255a002ed70d0cb9b79516e3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774431"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393535"
 ---
 # <a name="pidlidinternetaccountname"></a>PidLidInternetAccountName
 
@@ -38,9 +38,9 @@ ms.locfileid: "19774431"
     
 - 默认情况下，Outlook 发送答复和转发的邮件通过标原始邮件上的帐户。
     
-通常，Outlook 协议经理提供了邮件，和 Outlook 设置**PidLidInternetAccountName**和**PidLidInternetAccountStamp**属性来指示发送邮件的帐户。 但是，如果与传输紧密耦合的消息存储，Outlook 协议经理不传递邮件和 Outlook 无法设置这些属性。 在此方案中，Outlook 调用[IMAPIProp::GetIDsFromNames](http://msdn.microsoft.com/library/e3f501a4-a8ee-43d7-bd83-c94e7980c398%28Office.15%29.aspx)函数。 如果希望公开这些命名的属性的消息存储提供程序，它应实现**IMAPIProp::GetIDsFromNames**并返回通过输出参数*lppPropTags*属性标记。 Outlook 可通过使用这些属性标记，然后调用[IMAPIProp::GetProps](http://msdn.microsoft.com/library/1c7a9cd2-d765-4218-9aee-52df1a2aae6c%28Office.15%29.aspx)方法和消息存储提供程序可以返回帐户名和图章的所需的帐户。 
+通常，Outlook 协议经理提供了邮件，和 Outlook 设置**PidLidInternetAccountName**和**PidLidInternetAccountStamp**属性来指示发送邮件的帐户。 但是，如果与传输紧密耦合的消息存储，Outlook 协议经理不传递邮件和 Outlook 无法设置这些属性。 在此方案中，Outlook 调用[IMAPIProp::GetIDsFromNames](https://msdn.microsoft.com/library/e3f501a4-a8ee-43d7-bd83-c94e7980c398%28Office.15%29.aspx)函数。 如果希望公开这些命名的属性的消息存储提供程序，它应实现**IMAPIProp::GetIDsFromNames**并返回通过输出参数*lppPropTags*属性标记。 Outlook 可通过使用这些属性标记，然后调用[IMAPIProp::GetProps](https://msdn.microsoft.com/library/1c7a9cd2-d765-4218-9aee-52df1a2aae6c%28Office.15%29.aspx)方法和消息存储提供程序可以返回帐户名和图章的所需的帐户。 
   
-若要支持这些命名属性，存储提供程序应产生预期 Outlook 使用**IMAPIProp::GetIDsFromNames**来获取此属性的属性标记。 Outlook 指定下列值对应于作为由**IMAPIProp::GetIDsFromNames**输入的参数*lppPropNames*指向在数组的一部分传递此命名属性的[MAPINAMEID](http://msdn.microsoft.com/library/9a92e9cd-8282-4cf0-93af-4089b3763594%28Office.15%29.aspx)结构。 
+若要支持这些命名属性，存储提供程序应产生预期 Outlook 使用**IMAPIProp::GetIDsFromNames**来获取此属性的属性标记。 Outlook 指定下列值对应于作为由**IMAPIProp::GetIDsFromNames**输入的参数*lppPropNames*指向在数组的一部分传递此命名属性的[MAPINAMEID](https://msdn.microsoft.com/library/9a92e9cd-8282-4cf0-93af-4089b3763594%28Office.15%29.aspx)结构。 
   
 |||
 |:-----|:-----|
@@ -52,5 +52,5 @@ ms.locfileid: "19774431"
 
 - [有关帐户管理 API](about-the-account-management-api.md)
 - [常量 （帐户管理 API）](constants-account-management-api.md)
-- [PidLidInternetAccountName 规范属性](http://msdn.microsoft.com/library/29bedadf-903d-419d-804d-dc8bd92b745d%28Office.15%29.aspx)
+- [PidLidInternetAccountName 规范属性](https://msdn.microsoft.com/library/29bedadf-903d-419d-804d-dc8bd92b745d%28Office.15%29.aspx)
 

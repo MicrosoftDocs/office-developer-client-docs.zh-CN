@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d2fb648de0c974c9b54ad925c271dd5eb7276b71
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 235efce341e1870f0c33917f1c6d42b021727308
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585512"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392723"
 ---
 # <a name="pidtagruleuserflags-canonical-property"></a>PidTagRuleUserFlags 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 此属性由客户端使用的客户端设置。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22585512"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |服务器端规则  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果它已设置由客户端，服务器必须保留此属性的值。 服务器必须规则评估和处理过程中忽略它。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22585512"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > 处理传入的电子邮件服务器上。
     

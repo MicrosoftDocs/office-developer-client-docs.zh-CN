@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: 了解如何使用 CSISyncClient 控制 Office 文档缓存 (ODC)。
-ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce33063f88492bcd6f9682a4a6431fb36f138d55
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565282"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399450"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>使用 CSISyncClient 控制 Office 文档缓存 (ODC)
 
@@ -202,7 +202,7 @@ GetSupportedFileExtensions 返回当前受支持的 CsiSyncClient COM 对象的�
   
  _bstrProgID_
   
-标识双向通信使用者的 COM 的对象。 非空值必须为最多为 39 个字符。 请参阅[\<ProgID\>键](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key)有关 Progid 的详细信息。 
+标识双向通信使用者的 COM 的对象。 非空值必须为最多为 39 个字符。 请参阅[\<ProgID\>键](https://docs.microsoft.com/windows/desktop/com/-progid--key)有关 Progid 的详细信息。 
   
  _bstrFileSystemDirectoryHint_
   
@@ -248,7 +248,7 @@ LocalFileChange 用于告知 CsiSyncClient COM 对象，以尝试上载指定的
   
  _bstrWebPath_
   
-一个字符串，用于标识的服务器上的文件。 此值必须为非空、 有效的 URL，但不得多于 INTERNET_MAX_URL_LENGTH，定义的http://support.microsoft.com/kb/208427。 
+一个字符串，用于标识的服务器上的文件。 此值必须为非空、 有效的 URL，但不得多于 INTERNET_MAX_URL_LENGTH，定义的https://support.microsoft.com/kb/208427。 
   
 ##### <a name="return-values"></a>返回值
 
@@ -287,7 +287,7 @@ RenameFile 将为给定的资源 Id 关联的新 URL 和本地路径。 如果�
   
  _bstrNewWebPath_
   
-一个指定文件的新 URL 的字符串。 此值必须为非空有效的 URL，但不得多于 INTERNET_MAX_URL_LENGTH，定义的http://support.microsoft.com/kb/208427。 
+一个指定文件的新 URL 的字符串。 此值必须为非空有效的 URL，但不得多于 INTERNET_MAX_URL_LENGTH，定义的https://support.microsoft.com/kb/208427。 
   
  _fBlockUploads_
   
@@ -340,7 +340,7 @@ ServerFileChange 告知 CsiSyncClient COM 对象标记指定的文件进行下�
 |:-----|:-----|
 |bstrFileSystemPath  <br/> |一个字符串，用于标识客户端上的文件。 此值必须是最多包含 256 个字符的非空本地路径。 此路径必须是由 FileSystemDirectoryHint 进行初始化通话时指定目录树中。  <br/> |
 |bstrResourceID  <br/> |标识文件的资源 Id 字符串。 此值必须为非空最多为 128 个字符。  <br/> |
-|bstrWebPath  <br/> |一个字符串，用于标识的服务器上的文件。 此值必须是有效的非空的 URL，但不得多于 INTERNET_MAX_URL_LENGTH，定义的http://support.microsoft.com/kb/208427。  <br/> |
+|bstrWebPath  <br/> |一个字符串，用于标识的服务器上的文件。 此值必须是有效的非空的 URL，但不得多于 INTERNET_MAX_URL_LENGTH，定义的https://support.microsoft.com/kb/208427。  <br/> |
    
 ##### <a name="return-values"></a>返回值
 

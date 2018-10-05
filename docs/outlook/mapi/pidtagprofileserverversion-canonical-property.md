@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5d41a536-81ff-733c-2fd7-460798e057c8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 79b6461ca4a796b292b86f0f3bdbd8a39ad65863
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 84ff229e9914ec9074d61023873279b110fb606a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575677"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397637"
 ---
 # <a name="pidtagprofileserverversion-canonical-property"></a>PidTagProfileServerVersion 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定的 Microsoft Outlook 配置文件中的帐户连接到 Microsoft Exchange Server 版本信息。
   
@@ -32,7 +32,7 @@ ms.locfileid: "22575677"
 |属性类型  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 一个配置文件可以指定一个或多个帐户连接到 Exchange 服务器，但他们必须连接到同一 Exchange 服务器。
   
@@ -48,7 +48,7 @@ Outlook 2007 不读取或写入到此属性。 它支持**[PR_PROFILE_SERVER_FUL
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义。
     

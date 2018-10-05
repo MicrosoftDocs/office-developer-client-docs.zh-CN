@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0ea7d0a17fdb6dba047cb97290d991ce384d4750
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3bf0f52dbeda37ac35024ae3bf38df8919e37b60
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573934"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393864"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>PidTagInitialDetailsPane 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示显示模板以显示第一页。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22573934"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 显示表  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 它必须存在所有通讯簿对象的名称服务提供程序界面 (NSPI) 服务器上，并且必须具有的值为零 (0)。 它必须未定义脱机通讯簿中的任何对象。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22573934"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

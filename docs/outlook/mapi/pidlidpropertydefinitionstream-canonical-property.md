@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 23850e7da71125642abd8484fb45b8ec23264748
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b5ddb87111cfb0039cb1150338945615bbd5afc5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587647"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393269"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>PidLidPropertyDefinitionStream 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 代表用户定义的字段的定义和消息的内置字段的数据绑定设置。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22587647"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |运行时配置  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 邮件的自定义窗体定义的一部分保存**PidLidPropertyDefinitionStream**属性的值。 
   
@@ -45,7 +45,7 @@ ms.locfileid: "22587647"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     

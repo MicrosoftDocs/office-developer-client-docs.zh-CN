@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b347117-a1c1-d090-0d71-ea8528ac70c6
 description: 封装了事件代码。
-ms.openlocfilehash: dcdd3aa264e8ddfb1aa6f2e908f1c43a0d470872
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6ed539bd6cb4524b2498b636295442bed917c72a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780195"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394396"
 ---
 # <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>EventItem 元素 （EventList_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780195"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

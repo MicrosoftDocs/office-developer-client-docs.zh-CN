@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7012f524-bc66-48ea-85b5-163e05029d35
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b4124a319f378ff2c60de7a1fddaa549aeb08a05
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b42be4b42d085aba8999a8c3f1a780ed972fa136
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583328"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399149"
 ---
 # <a name="pidlidtaskacceptancestate-canonical-property"></a>PidLidTaskAcceptanceState 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示任务的接受状态。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22583328"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 下表显示了此属性的可能值。
   
@@ -50,11 +50,11 @@ ms.locfileid: "22583328"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > 定义模型的任务、 任务分配和任务更新电子等效项的多个对象。
     

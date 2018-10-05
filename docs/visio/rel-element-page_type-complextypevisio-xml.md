@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d61b1b97-c360-4d9d-217f-e6f45f760e42
 description: 指定相应的网页 XML 与部件的关系。
-ms.openlocfilehash: 9fc42527d311faa66b0b4041a0f978818ee84595
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a45764817175f670cdb009157e21a1a25f31cc5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781040"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398904"
 ---
 # <a name="rel-element-pagetype-complextype-visio-xml"></a>Rel 元素 （Page_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781040"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |pages.xml、 masters.xml、 recordsets.xml、 页 #.xml、 主 #.xml  <br/> |
    
@@ -58,6 +58,6 @@ ms.locfileid: "19781040"
 
 **R: id**属性的值必须是**ST_RelationshipID**类型。 **ST_RelationshipID**类型是一个 string 类型的值必须是格式为删除的 #，最后一个字符必须数字。 号码必须是唯一的**Rel**元素的所有同级元素。 
   
-有关 ST_RelationshipID 类型的详细信息，请参阅[第 1 部分 ISO/IEC 29500 规范](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750)。
+有关 ST_RelationshipID 类型的详细信息，请参阅[第 1 部分 ISO/IEC 29500 规范](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750)。
   
 

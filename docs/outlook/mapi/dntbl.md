@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: 72dd2a27e89f00885710125f4ecb68be65f2185e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4716a6f42968d7451a5db36173c4e6a9e843c08e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567697"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398120"
 ---
 # <a name="dntbl"></a>DNTBL
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 文件夹内容从服务器下载过程中[下载表状态](download-table-state.md)，存储区上的内容的完全同步的一部分的信息。
   
@@ -75,11 +75,11 @@ _pstmReserved4_
     
 _pxicc_
   
->  [输出]支持下载内容更改的**IExchangeImportContentsChanges**内容接口的指针。 **IExchangeImportContentsChanges**的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
+>  [输出]支持下载内容更改的**IExchangeImportContentsChanges**内容接口的指针。 **IExchangeImportContentsChanges**的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
     
 _pxihc_
   
->  [输出]支持下载增量层次结构更改的**IExchangeImportHierarchyChanges**层次结构接口的指针。 **IExchangeImportHierarchyChanges**的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
+>  [输出]支持下载增量层次结构更改的**IExchangeImportHierarchyChanges**层次结构接口的指针。 **IExchangeImportHierarchyChanges**的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
     
 _pszName_
   
@@ -91,7 +91,7 @@ _ftLastMod_
     
 _ulRights_
   
->  [输出]文件夹的**[PR_RIGHTS](http://msdn.microsoft.com/en-us/library/ee238052%28v=EXCHG.80%29.aspx)** 属性的值。 
+>  [输出]文件夹的**[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** 属性的值。 
     
 _feid_
   
@@ -103,7 +103,7 @@ _uintReserved_
     
 _rgte_
   
-> [输出]普通 （或非隐藏） 的更改和关联 （或隐藏） 的项目。  *rgte [0]* 的普通项目， *rgte [1]* 用于关联的项目。 Outlook 时使用增量更改同步 (ICS) 下载期间填充此成员。 ICS 的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
+> [输出]普通 （或非隐藏） 的更改和关联 （或隐藏） 的项目。  *rgte [0]* 的普通项目， *rgte [1]* 用于关联的项目。 Outlook 时使用增量更改同步 (ICS) 下载期间填充此成员。 ICS 的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
     
 _lpsrReserved_
   

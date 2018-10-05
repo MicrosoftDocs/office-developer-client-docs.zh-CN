@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f1f489a3-e83a-4e96-bf9a-d98bc17d29f5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 68ad6bd888594d09ab8e1dac050f8181341f7ee4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 544b5b5ac945eeedf787af0e311491da1f9d0217
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570778"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394361"
 ---
 # <a name="pidlidfexceptionalattendees-canonical-property"></a>PidLidFExceptionalAttendees 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示此属性是定期 calendar 对象具有一个或多个异常，并至少一个嵌入的异常消息具有至少一个 RecipientRow。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22570778"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 值为 FALSE 或不存在此属性表示 calendar 对象既可以具有任何异常，或无嵌入的异常消息具有 RecipientRows。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22570778"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

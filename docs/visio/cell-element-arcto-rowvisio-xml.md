@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: 包含的 x 坐标、 y 坐标或圆弧弓。
-ms.openlocfilehash: a51cf775f787a34aa8f5de6f6cf90ffc230f3500
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 709251c40299425d59df97fc0c48901bb0204167
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779812"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393059"
 ---
 # <a name="cell-element-arcto-row-visio-xml"></a>单元格元素 （ArcTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779812"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

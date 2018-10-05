@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275
 description: MAPI 提供适用于 Microsoft Outlook 2013 和 Outlook 2016 的消息处理体系结构。
-ms.openlocfilehash: efb2f87c00c8621e4180aef605021da592969441
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb3f02d872609189eaeff6b5b8fe865851ec89a6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576790"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399973"
 ---
 # <a name="outlook-mapi-reference"></a>Outlook MAPI 引用
   
@@ -36,8 +36,8 @@ ms.locfileid: "22576790"
 
 - [Outlook MAPI 引用概述](outlook-mapi-reference-overview.md)  
 - [Outlook 消息处理 API (MAPI) 引用版权声明](outlook-messaging-api-mapi-reference-copyright-notice.md)
-- [Outlook 2010：MAPI 引用（Microsoft 下载中心）](http://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
-- [文档约定](http://msdn.microsoft.com/zh-CN/office/aa905365.aspx)
-- [Microsoft Office 2010 中的辅助功能](http://www.microsoft.com/enable/products/office2010/default.aspx)
-- [Microsoft Online 隐私声明](https://privacy.microsoft.com/zh-CN/privacystatement)
+- [Outlook 2010：MAPI 引用（Microsoft 下载中心）](https://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
+- [文档约定](https://msdn.microsoft.com/office/aa905365.aspx)
+- [Microsoft Office 2010 中的辅助功能](https://www.microsoft.com/enable/products/office2010/default.aspx)
+- [Microsoft Online 隐私声明](https://privacy.microsoft.com/en-us/privacystatement)
 

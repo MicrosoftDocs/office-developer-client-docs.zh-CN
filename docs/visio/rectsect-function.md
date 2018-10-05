@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: 计算 x 相关联的矩形的扇区和 y，并返回一个整数 0 到 4，指示扇区。
-ms.openlocfilehash: 1f35704cdb827c9c751f11593436c110755d7777
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb7ed37ac498765e21c62d7180413cdbcb932502
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781018"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395082"
 ---
 # <a name="rectsect-function"></a>RECTSECT 函数
 
@@ -38,7 +38,7 @@ RECTSECT (* **宽度** *，* **高度** *，* * *x* * *，* * *y* * *，* **选�
 
 请考虑矩形的*宽度*和*高度*，从该矩形的中心点点 （*x，y*）。 绘制通过要划分为四个部分和中心点的矩形的对角线。 扇区 0 到 4 表示中心点、 右、 top、 左，并分别下。 
   
-![](media/ShpSheetRef_CA_03_ZA07645862.gif)
+![扇区 0 到 4 表示中心点、 右、 top、 左，并分别下](media/ShpSheetRef_CA_03_ZA07645862.gif)
   
 ## <a name="example"></a>示例
 

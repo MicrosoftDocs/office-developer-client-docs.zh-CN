@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
 description: 上次修改时间： 2012 年 2 月 20 日
-ms.openlocfilehash: 3e23fa9fcb074fabacf1a2dd9ac3f632cdce5b5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576174"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396209"
 ---
 # <a name="mnlscomparestringw"></a>MNLS_CompareStringW
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 比较两个 Unicode 字符串。
   
@@ -37,11 +37,11 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> [in]区域设置标识符。 有关详细的定义，请参阅_Locale_参数的[CompareString](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)。
+> [in]区域设置标识符。 有关详细的定义，请参阅_Locale_参数的[CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)。
     
  _dwFlags_
   
-> [in]要忽略大小写和音调符号的标志。 有关详细的定义，请参阅[CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)的_dwCmpFlags_参数。
+> [in]要忽略大小写和音调符号的标志。 有关详细的定义，请参阅[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)的_dwCmpFlags_参数。
     
  _pstr1_
   
@@ -61,17 +61,17 @@ int MNLS_CompareStringW (
     
 ## <a name="return-value"></a>返回值
 
-返回 for [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)所述的值。
+返回 for [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)所述的值。
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-此函数的换行[CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)。 **MNLS_CompareStringW**采用相同参数具有[CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)相同的行为。
+此函数的换行[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)。 **MNLS_CompareStringW**采用相同参数具有[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)相同的行为。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)
+[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)
+[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

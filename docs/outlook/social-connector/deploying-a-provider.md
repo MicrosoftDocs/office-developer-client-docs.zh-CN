@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c5e816b5-2ff2-4f59-ba54-c3ed291f8bba
 description: 部署 Outlook Social Connector (OSC) 提供程序的建议的方法是使用 Windows Installer (.msi) 程序包。
-ms.openlocfilehash: 6641b63ce96abb1b9db0571c92180f873c73da78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f606d39bd368609464cdd0ea5b9a56243ec4e27d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779232"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392492"
 ---
 # <a name="deploying-a-provider"></a>部署提供程序
 
@@ -45,5 +45,5 @@ ms.locfileid: "19779232"
   
 ## <a name="see-also"></a>另请参阅
 
-- [如何使用组策略管理 Outlook Social Connector](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [如何使用组策略管理 Outlook Social Connector](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

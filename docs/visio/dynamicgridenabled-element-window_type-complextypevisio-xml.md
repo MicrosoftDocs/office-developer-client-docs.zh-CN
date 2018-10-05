@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ac14d132-bc91-194b-4a0b-8a4b72acdbfd
 description: 指定窗口是否启用动态网格功能。
-ms.openlocfilehash: bcdc266c7dcdb1722a7aefcf25bb7b8eb01c00eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b0fe38f85a69a9d4274b7e4535005d1a1f214029
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780155"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396944"
 ---
 # <a name="dynamicgridenabled-element-windowtype-complextype-visio-xml"></a>DynamicGridEnabled 元素 （Window_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780155"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |windows.xml、 document.xml  <br/> |
    

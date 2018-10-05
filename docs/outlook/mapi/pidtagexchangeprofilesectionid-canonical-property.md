@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3c90284671d6087c74d4541b1a4774cc13b3ada5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7843a31094d2564f30000f21ee888e525f39f960
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583188"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397182"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>PidTagExchangeProfileSectionId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含用于确定帐户，使用多个 Microsoft Exchange Server 帐户时动态生成的 GUID。
   
@@ -34,9 +34,9 @@ ms.locfileid: "22583188"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |多个 Exchange 帐户  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 Exchange 帐户，而不是一个一个 Exchange 帐户。 若要容纳多个 Exchange 帐户，已更改的 MAPI 配置文件布局。 在 Microsoft Office Outlook 2007 和更早版本，配置文件包含专用于 Exchange 设置，如服务器名称、 用户名和脱机文件夹文件 (.ost) 固定的配置文件部分。 位置。 使用的唯一标识符， **pbGlobalProfileSectionGuid**属性标识了这些设置。 用于 Exchange 设置部分称为 Exchange 全局配置文件部分。 有关 Outlook 2007 中的 Exchange 全局配置文件的详细信息，请参阅[如何打开全局配置文件部分](http://support.microsoft.com/kb/188482)。
+Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 Exchange 帐户，而不是一个一个 Exchange 帐户。 若要容纳多个 Exchange 帐户，已更改的 MAPI 配置文件布局。 在 Microsoft Office Outlook 2007 和更早版本，配置文件包含专用于 Exchange 设置，如服务器名称、 用户名和脱机文件夹文件 (.ost) 固定的配置文件部分。 位置。 使用的唯一标识符， **pbGlobalProfileSectionGuid**属性标识了这些设置。 用于 Exchange 设置部分称为 Exchange 全局配置文件部分。 有关 Outlook 2007 中的 Exchange 全局配置文件的详细信息，请参阅[如何打开全局配置文件部分](https://support.microsoft.com/kb/188482)。
   
 固定的配置文件部分位置不再足以容纳多个 Exchange 帐户。 相反，您的配置文件中的每个 Exchange 帐户，节存在的专用于该帐户的设置。 由唯一标识符**emsmdbUID**标识用于 Exchange 设置新建部分。
   
@@ -70,5 +70,5 @@ Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 Exchange 帐户�
 [使用多个 Exchange 帐户](using-multiple-exchange-accounts.md)
 
 
-[如何打开全局配置文件部分](http://support.microsoft.com/kb/188482)
+[如何打开全局配置文件部分](https://support.microsoft.com/kb/188482)
 

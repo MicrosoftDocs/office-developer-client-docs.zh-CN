@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7b251308-70ff-a1ec-e968-9d5993909505
 description: Outlook 将导出下列定义、 数据结构、 函数和接口原本供内部使用，但现已公开面向大众的文章。
-ms.openlocfilehash: 888a1d7f828b463dc17c03353d693d3df3544e53
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ed68b6c1b8082ee5cc22deb96333a0bd4d29390
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774158"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399366"
 ---
 # <a name="about-apis-exported-by-outlook"></a>有关 outlook 导出的 Api
 
@@ -44,7 +44,7 @@ Outlook 将导出下列定义、 数据结构、 函数和接口原本供内部�
   
 - [IOlkApptRebaser](iolkapptrebaser.md)
     
-### <a name="events"></a>活动
+### <a name="events"></a>事件
   
 - [可用的事件和其 dispid （Outlook 导出的 Api）](available-events-and-their-dispids-outlook-exported-apis.md)
     
@@ -52,6 +52,6 @@ Outlook 将导出下列定义、 数据结构、 函数和接口原本供内部�
   
 - [确定某个 Outlook 项目是否已修改但未保存（Outlook 辅助参考）](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-- [指定是否要在 Outlook（Outlook 辅助参考）中显示联系人的图片](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [指定是否要在 Outlook（Outlook 辅助参考）中显示联系人的图片](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 

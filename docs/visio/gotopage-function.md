@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b131badf-1656-132e-0aae-eeedb917ba7a
 description: 将显示在当前的活动窗口中具有名称 pagename 页。
-ms.openlocfilehash: 67f8a79b854fd6f2ae47e39877ffcdbe4a1be5cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c96585406b6104aeedbe46c35024a4f13bb0953e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780363"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397147"
 ---
 # <a name="gotopage-function"></a>GOTOPAGE 函数
 
@@ -32,7 +32,7 @@ GOTOPAGE ("* * *pagename* * *")
    
 ## <a name="remarks"></a>注解
 
-窗口已显示页上，如果该窗口将变为活动状态。 如果不存在*pagename* ，应用程序尝试导航到 http:// *pagename* /。 如果 Visio 正在就地服务器，GOTOPAGE 函数不起作用。 
+窗口已显示页上，如果该窗口将变为活动状态。 如果不存在*pagename* ，应用程序尝试导航到 https:// *pagename* /。 如果 Visio 正在就地服务器，GOTOPAGE 函数不起作用。 
   
 可以使用 HYPERLINK 函数浏览到任何 DOS、UNC 或 URL 路径。 
   

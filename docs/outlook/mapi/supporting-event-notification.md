@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: a1e3e49c-8d1d-4f7e-ba5a-be441f0f10ae
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1320528a2e123d36457bef929a8454155646f0da
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 83c102c25b17b6769c0c676bbadd874224f75cf6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580997"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397140"
 ---
 # <a name="supporting-event-notification"></a>支持事件通知
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 支持事件通知可能非常复杂，因为 MAPI 提供三种支持对象方法的实现过程的最刁钻部分。 这些方法都作为一个单元，并提供程序必须使用所有这三个或其中任何一个。
   
 MAPI 支持方法使用通知键管理 advise 接收器生成通知的对象之间的连接。 通知密钥是包含跨进程标识对象的二进制数据的[NOTIFKEY](notifkey.md)结构。 从 advise 源对象的长期条目标识符通常复制通知键。 如果客户端有提供对**Advise**的调用中的项标识符，您可以将其用于通知键。 如果**Advise** _lpEntryID_参数为 NULL，则使用条目标识符圆周可能容器对象，如消息存储库。 
   
-若要使用的支持方法，调用[IMAPISupport::Subscribe](imapisupport-subscribe.md)每当客户端调用注册通知您**Advise**方法。 分配[NOTIFKEY](notifkey.md)结构并创建 advise 源对象的唯一通知键。 例如，提示到特定文件夹时收到一条消息，通知客户端的消息存储提供程序创建该文件夹的通知键。 **NOTIFKEY**结构以及指向客户端的**Subscribe**的调用中传递一个指针建议接收器。 **Subscribe**调用通知接收器[IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法来增加引用计数和 MAPI 保留指针，直到被取消注册。 
+若要使用的支持方法，调用[IMAPISupport::Subscribe](imapisupport-subscribe.md)每当客户端调用注册通知您**Advise**方法。 分配[NOTIFKEY](notifkey.md)结构并创建 advise 源对象的唯一通知键。 例如，提示到特定文件夹时收到一条消息，通知客户端的消息存储提供程序创建该文件夹的通知键。 **NOTIFKEY**结构以及指向客户端的**Subscribe**的调用中传递一个指针建议接收器。 **Subscribe**调用通知接收器[IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法来增加引用计数和 MAPI 保留指针，直到被取消注册。 
   
 您可以传递 NOTIFY_SYNC 标志给**Subscribe**请求**Notify**行为同步，而不返回直到它所做的[IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md)方法的所有呼叫注册告知接收器。 设置仅供内部使用此标志。 响应客户端**Advise**呼叫时，不要设置它。 客户端和提供程序之间的事件通知始终是异步的。 即 MAPI 保证的呼叫期间事件发生之前所做的任何**OnNotify**呼叫将返回到客户端。 
   
@@ -33,7 +33,7 @@ MAPI 支持方法使用通知键管理 advise 接收器生成通知的对象之�
   
 如果设置了 CALLBACK_DISCONTINUE 标志情况下，为同步通知注册通知接收器返回从**OnNotify** ， [IMAPISupport::Notify](imapisupport-notify.md)设置 NOTIFY_CANCELED 标志，并返回不做任何调用**OnNotify**。 
   
-一旦返回了**订阅**，将不再能够留副本的任何需要客户端的建议接收器。 调用其释放其[IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法。 **Subscribe**返回非零值的连接数应返回到客户端。 连接的编号代表 advise 源和通知接收器之间的链接。 它在客户端调用成功**Unadvise**才有效。 
+一旦返回了**订阅**，将不再能够留副本的任何需要客户端的建议接收器。 调用其释放其[IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx)方法。 **Subscribe**返回非零值的连接数应返回到客户端。 连接的编号代表 advise 源和通知接收器之间的链接。 它在客户端调用成功**Unadvise**才有效。 
   
 已准备好取消注册客户端时，它将调用您**Unadvise**方法。 从[IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) **Unadvise**调用传递连接数。 **取消**呼叫通知接收器**IUnknown::Release**方法。 如同**Advise**和**Unadvise**，必须配对**Subscribe**和**Unsubscribe**调用。 您必须进行一次调用**取消**对**订阅**每个呼叫。 但是，不需要每次调用**Advise**方法调用**订阅**。 相反，您可以设置内部通知调用它。 
   

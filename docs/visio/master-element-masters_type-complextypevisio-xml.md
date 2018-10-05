@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c102fd71-c621-2bde-9fbb-8e9203fdf31e
 description: 包含用于定义文档主控形状的元素。
-ms.openlocfilehash: 51c5f0ad8bee5000e981fcfd4d15e2e49f2bda3b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6effa521b7c5ea69d41b6770ee2dbef61af097c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780698"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400486"
 ---
 # <a name="master-element-masterstype-complextype-visio-xml"></a>主元素 （Masters_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780698"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |masters.xml  <br/> |
    

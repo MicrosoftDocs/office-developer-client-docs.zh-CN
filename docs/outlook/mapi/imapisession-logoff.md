@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 317c3702415ddf30038ccd0d40cdf0f19abc61f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587836"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399646"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 结束 MAPI 会话。
   
@@ -63,9 +63,9 @@ S_OK
   
 > 注销操作已成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-**IMAPISession::Logoff**方法结束 MAPI 会话。 **注销**返回时，无除外[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)方法可调用它。 
+**IMAPISession::Logoff**方法结束 MAPI 会话。 **注销**返回时，无除外[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)方法可调用它。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
@@ -73,11 +73,11 @@ S_OK
   
 结束会话的详细信息，请参阅[结束 MAPI 会话](ending-a-mapi-session.md)。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI 使用**IMAPISession::Logoff**方法从之前将其释放会话中注销。  <br/> |
    

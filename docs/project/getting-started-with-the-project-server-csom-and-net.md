@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f
 description: Project Server 2013 客户端对象模型 (CSOM) 可用于开发使用.NET Framework 4 的 Project Online 和本地解决方案。 本文介绍如何创建控制台应用程序使用 CSOM 创建并发布项目。 后发布项目，应用程序等待完成发布操作，与 Project Server 队列服务，并列出的已发布的项目。
-ms.openlocfilehash: 1815122ce824fcd2f9b8c9119346ca02c720ae89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4e40cb3165bb2b3caf05b01736d90c21b6ac881
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779442"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401737"
 ---
 # <a name="getting-started-with-the-project-server-csom-and-net"></a>Project Server CSOM 和 .NET 入门
 
@@ -137,7 +137,7 @@ CSOM 开发要求**ProjectContext**对象以初始化与 Project Web App 的 URL
 1. 添加**程序**类常量和**QueueCreateProject**应用程序将使用的变量。 除了 Project Web App 的 URL，应用程序以秒为单位使用默认的企业项目类型 (EPT) 的名称、 项目以创建，并最大队列超时的名称。 在这种情况下， **timeoutSeconds**变量，可以测试超时的各个值影响应用程序。 **ProjectContext**对象是用于访问 CSOM 的主要对象。 
     
    ```cs
-    private const string pwaPath = "http://ServerName /pwa/"; // Change the path to your Project Web App instance.
+    private const string pwaPath = "https://ServerName /pwa/"; // Change the path to your Project Web App instance.
     private static string basicEpt = "Enterprise Project";   // Basic enterprise project type.
     private static string projName = string.Empty;
     private static int timeoutSeconds = 10;  // The maximum wait time for a queue job, in seconds.
@@ -386,7 +386,7 @@ eptUid = eptList.First(ept => ept.Name == eptName).Id;
     Press any key to exit...
    ```
 
-刷新 Project Web App 中的项目中心页 (`http://ServerName/ProjectServerName/Projects.aspx`)，以显示已发布的项目。 下图显示了发布测试项目。
+刷新 Project Web App 中的项目中心页 (`https://ServerName/ProjectServerName/Projects.aspx`)，以显示已发布的项目。 下图显示了发布测试项目。
 
 **在 Project Web App 中检查已发布的项目**
 
@@ -409,7 +409,7 @@ namespace QueueCreateProject
 {
     class Program
     {
-        private const string pwaPath = "http://ServerName /pwa/"; // Change the path to your Project Web App instance.
+        private const string pwaPath = "https://ServerName /pwa/"; // Change the path to your Project Web App instance.
         private static string basicEpt = "Enterprise Project";   // Basic enterprise project type.
         private static string projName = string.Empty;
         private static int timeoutSeconds = 10;  // The maximum wait time for a queue job, in seconds.

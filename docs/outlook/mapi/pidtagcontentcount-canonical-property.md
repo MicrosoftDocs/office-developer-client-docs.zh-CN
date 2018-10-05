@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b489e73f9453e5d2ae6657969c2bc18fc9a4620e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7e9994da72bbc38a546f220e5ecf8768b80c6f1f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22562937"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397014"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>PidTagContentCount 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 计算出的消息存储库包含文件夹中的消息的数。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22562937"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 消息存储通过计算此属性用于两个不同的但相关，目的。 MapiFolder 对象，它包含文件夹中的消息的数。 在分类 MAPI 表中的标题行中，它包含非关联的标题行所对应的类别中的消息数。
   
@@ -44,15 +44,15 @@ ms.locfileid: "22562937"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Microsoft Exchange Server 协议规范参考。
     
-[[MS OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > 处理文件夹的操作。
     
-[[MS OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > 包含允许的操作的核心 table 对象。
     

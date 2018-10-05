@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: 了解可帮助您使用 Project Server 接口 (PSI) 参考主题中包含的基于 WCF 的代码示例在 Visual Studio 中创建项目的信息。
-ms.openlocfilehash: 43700a9db4445dacf366c7ca2efe1bfb10914372
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2222e1b3651044c41f45e57481f80093aac67bdb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779555"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383378"
 ---
 # <a name="prerequisites-for-wcf-based-code-samples-in-project"></a>在项目中的基于 WCF 的代码示例的先决条件
 
 了解可帮助您使用 Project Server 接口 (PSI) 参考主题中包含的基于 WCF 的代码示例在 Visual Studio 中创建项目的信息。
    
-[Project Server 2013 类类库和 web 服务引用](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)中包含的基于 WCF 的代码示例的许多原来创建的 Project 2010 开发人员文档，并标准格式用于 WCF web 服务。 示例仍在 Project Server 2013 中工作，旨在复制到控制台应用程序和运行完整的单位。 例外示例中进行说明。 
+[Project Server 2013 类类库和 web 服务引用](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)中包含的基于 WCF 的代码示例的许多原来创建的 Project 2010 开发人员文档，并标准格式用于 WCF web 服务。 示例仍在 Project Server 2013 中工作，旨在复制到控制台应用程序和运行完整的单位。 例外示例中进行说明。 
   
 Project 2013 开发人员文档中保持不变从为 Office Project Server 2007 开发的示例的代码示例使用 ASMX Web 服务。 也可以修改用于 WCF 服务的基于 ASMX 的示例。 本文介绍如何使用 WCF 服务示例。 有关如何使用示例的 ASMX web 服务的信息，请参阅[项目中的基于 ASMX 的代码示例的先决条件](prerequisites-for-asmx-based-code-samples-in-project.md)。
   
@@ -168,11 +168,11 @@ public void DisposeClients()
     
 2. 在“解决方案资源管理器”**** 中，右键单击“引用”**** 文件夹，然后选择“添加服务引用”****。 
     
-3. 在**添加服务引用**对话框中**地址**文本框中，键入http://localhost:32843/ _GUID_/psi/ _ServiceName_.svc，并按**Enter**。 Project Server service 应用程序，如 534c37eb00d74ccfadcecf9827e95239 的虚拟目录名称中替换_GUID_ 。 _ServiceName_替换该服务，如资源的名称 （请参阅图 3）。 
+3. 在**添加服务引用**对话框中**地址**文本框中，键入https://localhost:32843/ _GUID_/psi/ _ServiceName_.svc，并按**Enter**。 Project Server service 应用程序，如 534c37eb00d74ccfadcecf9827e95239 的虚拟目录名称中替换_GUID_ 。 _ServiceName_替换该服务，如资源的名称 （请参阅图 3）。 
     
    您可通过下列方式之一获取 Project Server Service 虚拟目录的名称：
     
-   - 在浏览器中打开 SharePoint 2013 管理中心应用程序。 选择**管理服务应用程序**，然后选择所需的 Project Server PSI 服务应用程序。 例如，选择**ProjectServerService**。 管理 Project Web App 网站页的 URL 包含虚拟目录名称。 例如，在`http://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`，虚拟目录名即`534c37eb00d74ccfadcecf9827e95239`（目录名称包含任何虚线）。 
+   - 在浏览器中打开 SharePoint 2013 管理中心应用程序。 选择**管理服务应用程序**，然后选择所需的 Project Server PSI 服务应用程序。 例如，选择**ProjectServerService**。 管理 Project Web App 网站页的 URL 包含虚拟目录名称。 例如，在`https://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`，虚拟目录名即`534c37eb00d74ccfadcecf9827e95239`（目录名称包含任何虚线）。 
     
    - 在 Project Server 计算机上打开“Internet Information Services (IIS) 管理器”**** 对话框。在“连接”**** 窗格的“SharePoint Web 服务”**** 节点，然后展开该节点下的服务虚拟目录，直到您发现目录包含 PSI 文件夹。选择目录，然后选择“操作”**** 窗格中的“高级设置”****，然后将目录名称复制在“虚拟路径”**** 字段中。 
     
@@ -205,7 +205,7 @@ public void DisposeClients()
       > [!NOTE]
       > 删除 GUID 中的短划线以获取虚拟目录名称。 
   
-   例如，Url`http://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc`是标准的 Project Server 服务。 
+   例如，Url`https://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc`是标准的 Project Server 服务。 
     
 4. 服务引用解析后，请在**Namespace**文本框中键入引用名称。 Project 2013 开发人员文档中的代码示例使用任意命名空间名称**Svc _ServiceName_**。 例如，资源服务的代码示例在名为**SvcResource**。
     
@@ -232,16 +232,16 @@ Project Server 应用程序通常使用其他服务，例如 SharePoint 2013 web
 ## <a name="adding-a-service-configuration-file"></a>添加服务配置文件
 <a name="pj15_PrerequisitesWCF_AddConfig"> </a>
 
-如果应用程序以编程方式配置 WCF 服务，则将不会使用服务配置文件。否则，Windows 应用程序或控制台应用程序将使用 app.config 文件中的 **system.serviceModel** 元素；Web 应用程序的 web.config 中包含 **system.serviceModel**。有关使用 app.config 文件或以编程方式配置 WCF 服务的详细信息，请参阅[演练：使用 WCF 开发 PSI 应用程序](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)。
+如果应用程序以编程方式配置 WCF 服务，则将不会使用服务配置文件。否则，Windows 应用程序或控制台应用程序将使用 app.config 文件中的 **system.serviceModel** 元素；Web 应用程序的 web.config 中包含 **system.serviceModel**。有关使用 app.config 文件或以编程方式配置 WCF 服务的详细信息，请参阅[演练：使用 WCF 开发 PSI 应用程序](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)。
   
 在生成服务代理源文件时, SvcUtil.exe 命令还将创建 app.config 文件中的默认**system.serviceModel**元素的基础 output.config 文件或 web.config 文件。 Project 2013 SDK 下载包括中的示例 output.config 文件`Documentation\IntelliSense\WCF\Source.zip`。 例如，资源服务 SvcUtil.exe 创建的默认 output.config 文件包含两个的绑定，名为**BasicHttpBinding_Resource**和**BasicHttpBinding_Resource1**。 **客户端**元素包含两个默认终结点。 一个终结点端口 32843 上的 HTTP 地址安全访问，其他为普通访问端口 32843，如下所示： 
   
 ```XML
 <client>
-    <endpoint address="http://ServerName.domain:32843/GUID/PSI/Resource.svc/secure"
+    <endpoint address="https://ServerName.domain:32843/GUID/PSI/Resource.svc/secure"
         binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_Resource"
         contract="SvcResource.Resource" name="BasicHttpBinding_Resource" />
-address="http://ServerName.domain:32843/GUID/PSI/Resource.svc"
+address="https://ServerName.domain:32843/GUID/PSI/Resource.svc"
         binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_Resource1"
         contract="SvcResource.Resource" name="BasicHttpBinding_Resource1" />
 </client>
@@ -274,13 +274,13 @@ PSI 服务配置不会使用默认绑定和终结点。Project Server 需要应�
                                 maxArrayLength="16384" maxBytesPerRead="4096" 
                                 maxNameTableCharCount="500000000" />
                             <security mode="TransportCredentialOnly">
-                                <transport clientCredentialType="Ntlm" realm="http://SecurityDomain" />
+                                <transport clientCredentialType="Ntlm" realm="https://SecurityDomain" />
                             </security>
                         </binding>
                     </basicHttpBinding>
                 </bindings>
                 <client>
-                    <endpoint address="http://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
+                    <endpoint address="https://ServerName/ProjectServerName/_vti_bin/PSI/ProjectServer.svc"
                         behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
                         bindingConfiguration="basicHttpConf" 
                         contract="SvcServiceName.ServiceName"
@@ -295,7 +295,7 @@ PSI 服务配置不会使用默认绑定和终结点。Project Server 需要应�
 4. 替换`ServiceName`PSI 服务，如资源的名称。 确保您替换所有三个实例的服务名称，例如：
     
     ```XML
-        <endpoint address="http://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcResource.Resource"
@@ -309,12 +309,12 @@ PSI 服务配置不会使用默认绑定和终结点。Project Server 需要应�
   
     ```XML
         <client>
-        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcProject.Project"
             name="basicHttp_Project" />
-        <endpoint address="http://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
+        <endpoint address="https://ServerName/pwa/_vti_bin/PSI/ProjectServer.svc"
             behaviorConfiguration="basicHttpBehavior" binding="basicHttpBinding"
             bindingConfiguration="basicHttpConf" 
             contract="SvcQueueSystem.QueueSystem"
@@ -328,7 +328,7 @@ PSI 服务配置不会使用默认绑定和终结点。Project Server 需要应�
 
 ![使用 WCF 服务配置编辑器](media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "使用 WCF 服务配置编辑器")
   
-如果解决方案使用的服务代理文件，如 wcfResource.cs，编译应用程序，然后打开中的可执行文件`bin\debug`目录。 有关编辑 app.config 文件的详细信息，请参阅[演练： 使用 WCF 开发 PSI 应用程序](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)。
+如果解决方案使用的服务代理文件，如 wcfResource.cs，编译应用程序，然后打开中的可执行文件`bin\debug`目录。 有关编辑 app.config 文件的详细信息，请参阅[演练： 使用 WCF 开发 PSI 应用程序](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)。
   
 **图 5. 使用 WCF 服务配置编辑器中的合同类型浏览器**
 
@@ -386,7 +386,7 @@ private void WcfSample()
 大多数示例具有一个或多个必须更新示例以正确环境中的变量。 在以下示例中，情况下，如果您有 SSL 安装，使用 HTTPS 协议而不是 HTTP 协议。 _ServerName_替换为您使用的服务器的名称。 _ProjectServerName_替换为 project server 网站，如 PWA 的虚拟目录名称。 
   
 ```cs
-const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
+const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";
 ```
 
 代码示例顶部记录了必须更改的其他变量。
@@ -400,11 +400,11 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
   
 - 使用 Project Professional 2013 客户端从 Project Server 计算机中，打开项目并查看所需的项。
     
-- 在 Project Web App 的项目中心页上查看已发布的项目 ( `http://ServerName/ProjectServerName/projects.aspx`)。
+- 在 Project Web App 的项目中心页上查看已发布的项目 ( `https://ServerName/ProjectServerName/projects.aspx`)。
     
-- 在 Project Web App 中查看队列日志。 打开服务器设置页 （右上角选择**设置**图标），然后选择下**个人设置**部分**我的排队作业**( `http://ServerName/ProjectServerName/MyJobs.aspx`)。 在**视图**下拉列表中，您可以按作业状态排序。 **正在进行和过去一周的失败作业**的默认状态。 
+- 在 Project Web App 中查看队列日志。 打开服务器设置页 （右上角选择**设置**图标），然后选择下**个人设置**部分**我的排队作业**( `https://ServerName/ProjectServerName/MyJobs.aspx`)。 在**视图**下拉列表中，您可以按作业状态排序。 **正在进行和过去一周的失败作业**的默认状态。 
     
-- 使用 Project Web App 中的服务器设置页 ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) 来管理所有队列作业和删除或强制签入企业对象。 您必须具有管理权限才能访问这些服务器设置页上的链接。
+- 使用 Project Web App 中的服务器设置页 ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`) 来管理所有队列作业和删除或强制签入企业对象。 您必须具有管理权限才能访问这些服务器设置页上的链接。
     
 - 使用“Microsoft SQL Server Management Studio”**** 运行针对 Project Server 数据库的表的查询。例如，使用以下查询选择 MSP_WORKFLOW_STAGE_PDPS 表的前 200 行来显示有关工作流容器中项目详细信息页 (PDP) 的信息。 
     
@@ -422,7 +422,7 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 ## <a name="cleaning-up"></a>清理
 <a name="pj15_PrerequisitesWCF_Cleanup"> </a>
 
-测试某些代码示例后，没有企业对象和设置应删除或重置。 可以使用 Project Web App 中的服务器设置页来管理企业数据 ( `http://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`)。 在服务器设置页上的链接，可以删除旧项目、 强制签入项目、 管理作业队列的所有用户和执行其他管理任务。
+测试某些代码示例后，没有企业对象和设置应删除或重置。 可以使用 Project Web App 中的服务器设置页来管理企业数据 ( `https://ServerName/ProjectServerName/_layouts/15/pwa/admin/admin.aspx`)。 在服务器设置页上的链接，可以删除旧项目、 强制签入项目、 管理作业队列的所有用户和执行其他管理任务。
   
 下面是“服务器设置”页上的部分链接，可用于在运行代码示例之后进行常规清理活动：
   
@@ -453,9 +453,9 @@ const string PROJECT_SERVER_URI = "http://ServerName/ProjectServerName/";
 ## <a name="see-also"></a>另请参阅
 
 - [在项目中的基于 ASMX 的代码示例的先决条件](prerequisites-for-asmx-based-code-samples-in-project.md)   
-- [演练： 开发使用 WCF 的 PSI 应用程序](http://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
-- [使用 WCF 模拟](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
+- [演练： 开发使用 WCF 的 PSI 应用程序](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx)   
+- [使用 WCF 模拟](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx)  
 - [项目 PSI 参考概述](project-psi-reference-overview.md) 
-- [SharePoint 开发中心](http://msdn.microsoft.com/en-us/sharepoint/default.aspx)
+- [SharePoint 开发中心](https://msdn.microsoft.com/sharepoint/default.aspx)
     
 

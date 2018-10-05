@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d98b7cf1d6c5cdc8517ea2e653115d9a7c01e3c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98ee0856411cce3a3e9012185be6c30503de7779
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593296"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401690"
 ---
 # <a name="error-handling-in-mapi"></a>MAPI 中的错误处理
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 使用 32 位数字，因此已知句柄或 HRESULT 返回成功、 警告和错误值。 HRESULT 不真正是任何; 句柄它是只具有编码值中的多个字段的 32 位值。 零结果指示成功和非零结果指示故障。
   
@@ -39,9 +39,9 @@ R、 C、 N 和 r 位 HRESULT 中保留。
 |:-----|:-----|
 |FACILITY_NULL  <br/> |广泛适用常见的状态代码，如 S_OK 或 E_OUTOF_MEMORY;值为零。  <br/> |
 |FACILITY_ITF  <br/> |大多数接口方法; 从返回的状态代码由接口定义值。 即两个的 HRESULT 值完全相同 32 位的值从两个不同接口返回的可能有不同的含义。  <br/> |
-|FACILITY_DISPATCH  <br/> |为后期绑定[IDispatch](http://msdn.microsoft.com/en-us/library/ms221608.aspx)接口错误。  <br/> |
+|FACILITY_DISPATCH  <br/> |为后期绑定[IDispatch](https://msdn.microsoft.com/library/ms221608.aspx)接口错误。  <br/> |
 |FACILITY_RPC  <br/> |有关从远程过程调用的返回状态代码。  <br/> |
-|FACILITY_STORAGE  <br/> |从与结构化存储有关[IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx)或[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)方法调用返回的状态代码。 状态代码中的范围的 Windows 错误代码的代码 （低 16 位） 值 (即，少于 256 个) 为相应的 Windows 错误意义相同。  <br/> |
+|FACILITY_STORAGE  <br/> |从与结构化存储有关[IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx)或[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)方法调用返回的状态代码。 状态代码中的范围的 Windows 错误代码的代码 （低 16 位） 值 (即，少于 256 个) 为相应的 Windows 错误意义相同。  <br/> |
    
 代码字段是分配表示错误或警告的唯一编号。
   

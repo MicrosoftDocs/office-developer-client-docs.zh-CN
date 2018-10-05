@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 23544055-c554-28b7-c351-370ab9b3c96c
 description: 包含文档的所有问题元素。
-ms.openlocfilehash: 9205bf014c81aa699b8bc4a2a7412c5ce59c5fd0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da3156e34af1536fab39d3d4949acac1efe67264
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780491"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400577"
 ---
 # <a name="issues-element-validationtype-complextype-visio-xml"></a>问题元素 （Validation_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780491"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |validation.xml  <br/> |
    

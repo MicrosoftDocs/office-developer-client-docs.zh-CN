@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
 description: 指定是否在绘图窗口中显示参考线。
-ms.openlocfilehash: 41f070b6eae3380647840b7de2303b3beeb3561c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25e630d1d6e48aef922d225924b872097e1a7aee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781341"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396818"
 ---
 # <a name="showguides-element-windowtype-complextype-visio-xml"></a>ShowGuides 元素 （Window_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781341"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[ShowGuides_Type](showguides_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |windows.xml  <br/> |
    

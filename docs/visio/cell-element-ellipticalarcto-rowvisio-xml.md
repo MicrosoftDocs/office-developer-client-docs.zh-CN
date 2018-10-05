@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c0aa7a3-cc54-ffac-2c62-917b3d0a357e
 description: 包含 x 坐标或 y 坐标的椭圆弧终结点的 x 坐标或 y 坐标控件的 points 弧形，夹角从 x 轴到椭圆的长轴或比椭圆的主要和次要刻度轴上。
-ms.openlocfilehash: 01d28fae5943251b61d0d26211ee91f09f25b9cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22dc813108d8f7b5b517c298c40c73ead8d4eec4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779835"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395887"
 ---
 # <a name="cell-element-ellipticalarcto-row-visio-xml"></a>单元格元素 （EllipticalArcTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779835"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

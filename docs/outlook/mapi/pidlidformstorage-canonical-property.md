@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4f6847f3-157d-4ff0-abab-90d73a893ecf
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f700b1294ff08ab514d6a97386b5d40fbee0a75c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e1b99c49523e668cb6ea7143ce3ae93baddaeed
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570742"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394109"
 ---
 # <a name="pidlidformstorage-canonical-property"></a>PidLidFormStorage 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 表示与邮件相关联的窗体的属性。
   
@@ -39,7 +39,7 @@ ms.locfileid: "22570742"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     

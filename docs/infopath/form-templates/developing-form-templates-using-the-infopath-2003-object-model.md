@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: Microsoft InfoPath 继续支持利用 Microsoft Office InfoPath 2003 Toolkit for Visual Studio .NET 或 Visual Studio 2005 Tools for the Microsoft Office System 创建的、且具有依据 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间的成员编写的业务逻辑的表单模板项目。本节中的主题将此命名空间的类型和成员称为 InfoPath 2003 兼容对象模型，或简称为 InfoPath 2003 对象模型。InfoPath 还支持通过 Microsoft Office InfoPath 2007 创建的、使用 InfoPath 2003 兼容对象模型的表单模板项目。此外，还可以利用 InfoPath 创建使用 InfoPath 2003 兼容对象模型的新表单模板对象，以便为 Office InfoPath 2007 用户保留向后兼容性。本节中的所有主题专门讲述如何创建和开发使用 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间提供的 InfoPath 2003 兼容对象模型的表单模板。
-ms.openlocfilehash: 5d949242068586c752e7a92fa53792cda9ececea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a39f921f6c7465dbcf469062b866c808fa222851
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773965"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401410"
 ---
 # <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型开发表单模板
 
@@ -46,11 +46,11 @@ Microsoft InfoPath 继续支持利用 Microsoft Office InfoPath 2003 Toolkit for
     
 ## <a name="related-sections"></a>相关章节
 
-[InfoPath 开发人员门户](http://go.microsoft.com/fwlink?LinkID=11689)
+[InfoPath 开发人员门户](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > 包含许多链接，这些链接指向有关构建自定义 InfoPath 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。
     
-[Microsoft Office 开发人员中心](http://go.microsoft.com/fwlink?LinkID=27128)
+[Microsoft Office 开发人员中心](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > 包含许多链接，这些链接指向有关构建自定义 Office 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。
     

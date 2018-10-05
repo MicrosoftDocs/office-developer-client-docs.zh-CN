@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 490c834ee63c158b3f9c0e34f8de7f582c650bc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77f28654ffe0f6f459fde229bb7428f2c39e96c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584063"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400717"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 返回一个值，该值代表从 Microsoft Exchange 2007 服务器的自动发现服务检索信息的可扩展标记语言 (XML) 流。
   
@@ -32,8 +32,8 @@ ms.locfileid: "22584063"
 |||
 |:-----|:-----|
 |导出：  <br/> |olmapi32.dll  <br/> |
-|调用：  <br/> |客户端  <br/> |
-|通过实现：  <br/> |Outlook  <br/> |
+|调用者：  <br/> |客户端  <br/> |
+|实现者：  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT HrGetAutoDiscoverXML( 
@@ -65,7 +65,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  _ppXmlStream_
   
-> [输出]指向包含自动发现 XML 的[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)对象的指针。 如果自动发现操作失败，则返回**null** 。 在与之完成时，您必须释放[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)对象。 
+> [输出]指向包含自动发现 XML 的[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)对象的指针。 如果自动发现操作失败，则返回**null** 。 在与之完成时，您必须释放[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)对象。 
     
 ## <a name="return-values"></a>返回值
 
@@ -75,7 +75,7 @@ S_OK
     
 E_INVALIDARG 
   
--  _pwzAddress_为**null**或不是有效的 SMTP 地址，或_ppXmlStream_是**null**指向[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)对象。 
+-  _pwzAddress_为**null**或不是有效的 SMTP 地址，或_ppXmlStream_是**null**指向[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)对象。 
     
 MAPI_E_NOT_FOUND 
   

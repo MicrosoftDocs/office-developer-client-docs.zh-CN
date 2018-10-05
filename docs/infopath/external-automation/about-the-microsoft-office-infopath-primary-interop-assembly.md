@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: 若要支持使用托管代码如 Visual C# 和 Visual Basic 的语言的 InfoPath 解决方案的创建，InfoPath 安装程序中的.NET 可编程性支持选项，请安装三个互操作程序集。
-ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51773ad46b1371c410c4249e13a489f0c5550cd1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564127"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393353"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>关于 Microsoft Office InfoPath 主互操作程序集
 
@@ -27,7 +27,7 @@ InfoPath 安装的三个互操作程序集的文件命名为：
     
 - Microsoft.Office.Interop.InfoPath.Xml.dll
     
-本主题讨论通过 Microsoft.Office.Interop.InfoPath 互操作程序集，以独占方式的外部自动化代码用于公开的对象模型。 有关信息 Microsoft.Office.Interop.InfoPath.SemiTrust 程序集，用于以独占方式编写和运行托管的代码的 InfoPath 表单模板 (.xsn) 内从运行，请参阅[InfoPath 2003 兼容对象模型](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx)。
+本主题讨论通过 Microsoft.Office.Interop.InfoPath 互操作程序集，以独占方式的外部自动化代码用于公开的对象模型。 有关信息 Microsoft.Office.Interop.InfoPath.SemiTrust 程序集，用于以独占方式编写和运行托管的代码的 InfoPath 表单模板 (.xsn) 内从运行，请参阅[InfoPath 2003 兼容对象模型](https://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx)。
   
 ## <a name="important-installation-information"></a>重要安装信息
 

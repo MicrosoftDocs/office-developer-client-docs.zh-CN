@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 17875c13-f55b-4538-ac6f-c020281c3175
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 1a95989cea7ad5529eb73276b4c771e4900804b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3f1d6339000fcc53e0ee22dafec4362e65ca7f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579898"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397154"
 ---
 # <a name="ipersistmessagesave"></a>IPersistMessage::Save
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 将修订后的表单保存回其已加载或创建的邮件。
   
@@ -50,13 +50,13 @@ S_OK
   
 > 已成功保存表单。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 表单查看器调用**IPersistMessage::Save**方法将修订后的表单保存回其已加载或创建的邮件。 
   
  在窗体以[正常](normal-state.md)状态时应仅调用**保存**。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 未提交的已保存的更改;由呼叫者进行提交的更改。 从不对窗体的邮件，但属于**保存**呼叫期间的属性进行更改。 
   
@@ -66,7 +66,7 @@ S_OK
   
 如果**保存**窗体处于普通之外的任何状态时调用，，返回 E_UNEXPECTED。 
   
-有关保存存储对象的详细信息，请参阅[IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx)方法的文档。 
+有关保存存储对象的详细信息，请参阅[IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx)方法的文档。 
   
 ## <a name="see-also"></a>另请参阅
 

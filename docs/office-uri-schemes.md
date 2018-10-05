@@ -5,12 +5,12 @@ ms.date: 01/14/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
-ms.openlocfilehash: 834c4d2c2f47c6cc3f35423a7dfe3c13caf3d209
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 71325af974e4778d65bea7d74561bde3c9c8bca2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774146"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394032"
 ---
 # <a name="office-uri-schemes"></a>Office URI 方案
 
@@ -30,7 +30,7 @@ ms.locfileid: "19774146"
   
 本文档中定义的 URI 可能有一个或多个命令参数，其中每个都必须包括 < *command-argument-descriptor*  > 和 <  *command-argument*  > 元素，并且使用竖线 ("|") 字符分隔。当 URI 中包含多个命令参数时，必须有一个竖线 ("|") 字符将每个命令参数与后面的命令参数分隔。 
   
-这些方案不包括 RFC 3986 的第 3.2 节中定义的颁发机构组件。调用本文档中指定的命令将在调用命令的系统上下文中进行。例如，当从运行 Microsoft Windows 且已安装 Microsoft Office 2013 的个人计算机调用 URI "ms-excel:ofv|u|http://contoso/Q4/budget.xls" 时，预期结果是 Microsoft Excel 本地安装将启动并传递参数，以便在只读模式下打开位于  *http://contoso/Q4/budget.xls*  的文件。请注意，此规范中用作分隔符的竖线没有在 RFC 3986 的第 2.2 节中标明，而是保留作为可能的分隔符。这是故意为之，以便在无需对这些字符进行百分比编码的情况下，最大限度地增加 URI 命令参数可以支持的字符集。 
+这些方案不包括 RFC 3986 的第 3.2 节中定义的颁发机构组件。调用本文档中指定的命令将在调用命令的系统上下文中进行。例如，当从运行 Microsoft Windows 且已安装 Microsoft Office 2013 的个人计算机调用 URI "ms-excel:ofv|u|https://contoso/Q4/budget.xls" 时，预期结果是 Microsoft Excel 本地安装将启动并传递参数，以便在只读模式下打开位于  *https://contoso/Q4/budget.xls*  的文件。请注意，此规范中用作分隔符的竖线没有在 RFC 3986 的第 2.2 节中标明，而是保留作为可能的分隔符。这是故意为之，以便在无需对这些字符进行百分比编码的情况下，最大限度地增加 URI 命令参数可以支持的字符集。 
   
 方案语法包括以下部分：
   
@@ -92,7 +92,7 @@ Office URI 方案的缩写形式允许发出更紧凑的请求启动指定的 Of
     
 > 命令参数：文档的 URI，基于 http 或 https 方案
     
-> 示例： *ms-excel:ofv|u|http://contoso/Q4/budget.xls* 
+> 示例： *ms-excel:ofv|u|https://contoso/Q4/budget.xls* 
     
 ### <a name="edit-document"></a>编辑文档
 
@@ -104,7 +104,7 @@ Office URI 方案的缩写形式允许发出更紧凑的请求启动指定的 Of
     
 > 命令参数：文档的 URI，基于 http 或 https 方案
     
-> 示例： *ms-powerpoint:ofe|u|http://www.fourthcoffee.com/AllHandsDeck.ppt* 
+> 示例： *ms-powerpoint:ofe|u|https://www.fourthcoffee.com/AllHandsDeck.ppt* 
     
 ### <a name="new-document-from-template"></a>从模板新建文档
 
@@ -120,7 +120,7 @@ Office URI 方案的缩写形式允许发出更紧凑的请求启动指定的 Of
     
 > 可选命令参数 2：指定默认保存文件夹的 URI
     
-> 示例： *ms-word:nft|u|http://cohowinery/templates/elegance.pot|s|http://cohowinery/presentations* 
+> 示例： *ms-word:nft|u|https://cohowinery/templates/elegance.pot|s|https://cohowinery/presentations* 
     
 注意，如果提供了可选默认保存位置，必须指向与模板相同的主机名称。
   

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d43ec0bd2978c64e3a5ceb635f0dcda57de01cfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20ffc6f7f4d21f980e5f0f387464430ba187192a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590734"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392275"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>PidTagDelegateFlags 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定代理人是否可查看 delegator 私有消息对象。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22590734"
 |数据类型：  <br/> |PT_MV_LONG  <br/> |
 |区域：  <br/> |类定义消息可传送  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 每个条目的此属性必须设置为下列值之一。
   
@@ -49,7 +49,7 @@ ms.locfileid: "22590734"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > 指定用于连接到和它们代表另一个用户操作时，作为代理人，以及与邮件和日历的对象交互配置邮箱的方法。
     

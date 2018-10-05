@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
 description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 7325c42fe7e9c1e043609d5503a3782522f76188
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 23a8b84af50cc8a046206ab37144d84c4c9b6d56
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590055"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392884"
 ---
 # <a name="whats-new-in-this-edition"></a>此版本的新增功能
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook 2013 MAPI 参考已更新以包括有关各种新功能的文档。 
   
@@ -59,9 +59,9 @@ Microsoft Outlook 2013 MAPI 参考已更新以包括有关各种新功能的文�
 
 在以前版本的 Outlook MAPI 参考 （英文） 的以下功能中添加了内容：
   
-- Microsoft Outlook 2013 允许-并行等单击即点即用的非传统的部署方案。 这些方案，则会增加复杂性用于加载的正确的 MAPI 库的逻辑。 MAPI 开发人员现在可以选择将显式链接到 MAPI 函数，并可以选择显式链接到默认 MAPI 客户端 (例如，Msmapi32.dll 的 Outlook) 的 MAPI 存根而无需经过 MAPI 库和 Windows MAPI 存根。 有关用于隐式链接显式链接的详细信息，请参阅[MAPI 函数的链接](how-to-link-to-mapi-functions.md)。 **MAPI 存根库**，在[CodePlex](http://mapistublibrary.codeplex.com/)网站发布提供支持构建 32 位和 64 位的 MAPI 应用程序的 Mapi32.lib 顺便替换。 
+- Microsoft Outlook 2013 允许-并行等单击即点即用的非传统的部署方案。 这些方案，则会增加复杂性用于加载的正确的 MAPI 库的逻辑。 MAPI 开发人员现在可以选择将显式链接到 MAPI 函数，并可以选择显式链接到默认 MAPI 客户端 (例如，Msmapi32.dll 的 Outlook) 的 MAPI 存根而无需经过 MAPI 库和 Windows MAPI 存根。 有关用于隐式链接显式链接的详细信息，请参阅[MAPI 函数的链接](how-to-link-to-mapi-functions.md)。 **MAPI 存根库**，在[CodePlex](https://mapistublibrary.codeplex.com/)网站发布提供支持构建 32 位和 64 位的 MAPI 应用程序的 Mapi32.lib 顺便替换。 
     
-- **64 位 Microsoft Outlook 支持**— 适用 API 元素参考主题已进行了更新以对应于支持 64 位 Outlook 的新头文件。 将在下载这些头文件[Outlook 2010: MAPI 头文件](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1)。 在[检查版本的 Outlook](how-to-check-the-version-of-outlook.md)以显示如何检查安装的 Outlook 版本是否是 64 位 Microsoft Outlook 2010 和 Outlook 2013 已修订提供的新代码示例。 如果您现有的 32 位 MAPI 应用程序将运行 64 位操作系统上安装的 64 位 Outlook，您需要重新生成 32 位应用程序作为 64 位应用程序。 有关 64 位 Outlook 的 MAPI 支持的详细信息，请参阅[32 位和 64 位平台上构建 MAPI 应用程序](building-mapi-applications-on-32-bit-and-64-bit-platforms.md)。
+- **64 位 Microsoft Outlook 支持**— 适用 API 元素参考主题已进行了更新以对应于支持 64 位 Outlook 的新头文件。 将在下载这些头文件[Outlook 2010: MAPI 头文件](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1)。 在[检查版本的 Outlook](how-to-check-the-version-of-outlook.md)以显示如何检查安装的 Outlook 版本是否是 64 位 Microsoft Outlook 2010 和 Outlook 2013 已修订提供的新代码示例。 如果您现有的 32 位 MAPI 应用程序将运行 64 位操作系统上安装的 64 位 Outlook，您需要重新生成 32 位应用程序作为 64 位应用程序。 有关 64 位 Outlook 的 MAPI 支持的详细信息，请参阅[32 位和 64 位平台上构建 MAPI 应用程序](building-mapi-applications-on-32-bit-and-64-bit-platforms.md)。
     
 - **消息存储提供程序示例**—[示例自动换行 PST 的存储提供程序](message-store-provider-sample.md)具有先前已进行了更新以支持 64 位体系结构。 现在已扩展的示例[初始化自动换行 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)的主题提供信息的"Wrapped PST 和 Unicode 路径。" 
     
@@ -113,5 +113,5 @@ Microsoft Outlook 2013 MAPI 参考已更新以包括有关各种新功能的文�
 
 [Outlook MAPI 引用入门](getting-started-with-the-outlook-mapi-reference.md)
   
-[CodePlex](http://mapistublibrary.codeplex.com/)
+[CodePlex](https://mapistublibrary.codeplex.com/)
 

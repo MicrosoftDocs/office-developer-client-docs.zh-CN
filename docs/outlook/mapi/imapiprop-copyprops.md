@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ee6fcaf2fa168f6be91b798efa249799f738bfa0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7319f1abb4a74ee17b0a4a1220215c29434d256b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571078"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398400"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 复制或移动所选的属性。 
   
@@ -129,13 +129,13 @@ MAPI_E_UNEXPECTED_TYPE
   
 > 属性类型不需要呼叫者的类型。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **IMAPIProp::CopyProps**方法复制，或将所选的属性从当前对象移动到目标对象。 **CopyProps**主要用于答复或转发的邮件，其中只将某些从原始邮件属性的差旅与答复或转发副本。 
   
 源对象中的任何子对象自动包括在操作并复制或移动全部，无论使用了由[SPropTagArray](sproptagarray.md)结构指示的属性。 默认情况下**CopyProps**覆盖目标对象的匹配从源对象的属性的任何属性。 如果任一复制或移动属性已经存在于目标对象，除非 MAPI_NOREPLACE 标志设置_ulFlags_参数中通过新的属性，来覆盖现有属性。 保持不变，不会被覆盖的目标对象中的现有信息。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
 您可以提供**CopyProps**完全实现或依赖 MAPI 提供其支持对象中的实现。 如果您想要使用的 MAPI 实现，调用**IMAPISupport::DoCopyProps**方法。 但是，如果您执行委派到**DoCopyProps**处理和传递 MAPI_DECLINE_OK 标志，避免支持呼叫并改为返回 MAPI_E_DECLINE_COPY。 您将使用此标志由调用 MAPI 以避免可能递归复制文件夹时可能发生的。 
   
@@ -157,7 +157,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 如果要复制对源对象类型是唯一的属性，您必须确保目标对象属于同一类型。 **CopyProps**不阻止您关联通常属于一种类型的对象与其他类型的对象的属性。 由您要复制对目标对象有意义的属性。 例如，不应将消息属性复制到通讯簿容器。 
   
-若要确保您要复制的相同类型的对象之间，检查源和目标对象相同的类型，通过比较对象指针或调用[IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法。 设置所指的源对象的标准接口_lpInterface_接口标识符。 此外，还要确保**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性的对象类型是相同的两个对象。 例如，如果您从一条消息中进行复制，则可设置为 IID_IMessage 和**PR_OBJECT_TYPE** MAPI_MESSAGE 这两个对象的_lpInterface_ 。 
+若要确保您要复制的相同类型的对象之间，检查源和目标对象相同的类型，通过比较对象指针或调用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx)方法。 设置所指的源对象的标准接口_lpInterface_接口标识符。 此外，还要确保**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) 属性的对象类型是相同的两个对象。 例如，如果您从一条消息中进行复制，则可设置为 IID_IMessage 和**PR_OBJECT_TYPE** MAPI_MESSAGE 这两个对象的_lpInterface_ 。 
   
 如果_lpDestObj_参数中传递了无效的指针，则结果将无法预料。 
   
@@ -165,11 +165,11 @@ MAPI_E_UNEXPECTED_TYPE
   
 要复制的文件夹或通讯簿容器层次结构或内容表，包含**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) 或**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) 中的属性属性标记数组。 若要包含的文件夹关联的内容表，该数组中包括**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) 属性。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
 |MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI 使用**IMAPIProp::CopyProps**方法将命名的属性复制到另一条消息。  <br/> |
 |SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI 使用**IMAPIProp::CopyProps**方法粘贴已复制从另一个对象的属性。  <br/> |

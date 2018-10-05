@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
 description: 本主题显示一个函数，ReadTimeZones，调用 BinToTZDEFINITION 以及 BinToTZREG，所在的时区属性，PidLidAppointmentTimeZoneDefinitionStartDisplay 和 PidLidTimeZoneStruct，读取从约会的两个函数。
-ms.openlocfilehash: a344f44a1f195ec6dc5f80677f08f52be490e6b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396034"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>从约会中读取时区属性
 
-本主题显示一个函数，`ReadTimeZones`的呼叫的两个功能，`BinToTZDEFINITION`和`BinToTZREG`，以所在的时区属性， [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx)和[PidLidTimeZoneStruct](http://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)，读取约会。
+本主题显示一个函数，`ReadTimeZones`的呼叫的两个功能，`BinToTZDEFINITION`和`BinToTZREG`，以所在的时区属性， [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx)和[PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)，读取约会。
   
 **PidLidAppointmentTimeZoneDefinitionStartDisplay**包含映射到的[TZDEFINITION](tzdefinition.md)结构持久化格式的流并且**PidLidTimeZoneStruct**包含映射到的[TZREG](tzreg.md)持久化格式的流结构。 若要获取的确切的**TZDEFINITION**和**TZREG**结构`BinToTZDEFINITION`和`BinToTZREG`用于适当地分析流这些属性的值。 分别在[分析 stream 从二进制属性以读取 TZDEFINITION 结构](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)并[分析从二进制属性以读取 TZREG 结构流](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)，请中定义了这两个函数。 
   

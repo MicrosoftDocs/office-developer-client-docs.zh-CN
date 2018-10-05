@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
 description: Outlook Social Connector 2013 为个人和专业的通信提供了通信集线器。
-ms.openlocfilehash: 32a9eb88b7724f8735d0eb8623bb3716ad836a7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e570fe69cbbe0e8d472e712fb3b8592c97fe43c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779323"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396694"
 ---
 # <a name="outlook-social-connector-provider-reference"></a>Outlook Social Connector 提供程序参考
 
@@ -25,7 +25,7 @@ Outlook Social Connector 2013 为个人和专业的通信提供了通信集线�
   
 Outlook Social Connector 2013 提供程序参考介绍如何开发 OSC 提供程序使用 OSC 提供程序扩展性。 
   
-如果您是新增开发 Outlook 解决方案，请参阅[选择的 API 或技术的开发 outlook 解决方案](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md)来标识的 Api 和技术的最适合您的需求。 
+如果你是第一次开发 Outlook 解决方案，请参阅[选择某个 API 或技术开发适用于 Outlook 的解决方案](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md)，以确定最适合你需求的 API 和技术。 
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -48,8 +48,8 @@ Outlook Social Connector 2013 提供程序参考介绍如何开发 OSC 提供程
 ## <a name="see-also"></a>另请参阅
 
 - [Outlook Social Connector 2013 提供程序参考版权声明](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
-- [文档约定](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
-- [Microsoft 产品中的辅助功能](http://www.microsoft.com/enable/products/default.aspx)  
+- [文档约定](https://msdn.microsoft.com/office/aa905365.aspx)   
+- [Microsoft 产品中的辅助功能](https://www.microsoft.com/enable/products/default.aspx)  
 - [Microsoft Online 隐私声明](https://privacy.microsoft.com/en-us/privacystatement)
     
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e75407f62a7e6440f6c8dca8c1d2c76843048da4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7451d159ef97ef9d8160b386ec5bf88fb388706e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595396"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395068"
 ---
 # <a name="download-table-state"></a>下载表状态
 
@@ -35,7 +35,7 @@ ms.locfileid: "22595396"
   
 ## <a name="description"></a>说明
 
-此状态启动下载文件夹。 在此状态下，Outlook 初始化有关该文件夹具有关联的**DNTBL**数据结构。 客户端下载文件夹内容，并使用新的内容、 相应的修改或从服务器删除更新上本地存储的文件夹。 下载过程采用 Microsoft Exchange 增量更改同步 (ICS)。 ICS 的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。
+此状态启动下载文件夹。 在此状态下，Outlook 初始化有关该文件夹具有关联的**DNTBL**数据结构。 客户端下载文件夹内容，并使用新的内容、 相应的修改或从服务器删除更新上本地存储的文件夹。 下载过程采用 Microsoft Exchange 增量更改同步 (ICS)。 ICS 的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。
   
 此状态结束时，本地存储返回到同步内容状态。
   

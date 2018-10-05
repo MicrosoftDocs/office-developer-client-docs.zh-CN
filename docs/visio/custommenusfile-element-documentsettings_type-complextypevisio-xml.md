@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
 description: 包含定义自定义菜单和加速键的文档的 Microsoft Visio 用户界面 (.vsu) 文件的名称。
-ms.openlocfilehash: 2044c7e300dc51df8b8cd03ef861391d04494e0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 347660abab266493254b4dc2b47150f3b80fd371
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780002"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394377"
 ---
 # <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>CustomMenusFile 元素 （DocumentSettings_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780002"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

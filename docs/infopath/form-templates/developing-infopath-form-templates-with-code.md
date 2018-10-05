@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: 本节中的主题提供有关依据 Microsoft.Office.InfoPath 命名空间的成员，创建具有用托管代码（Visual Basic 或 C#）编写的业务逻辑的表单模板的信息。
-ms.openlocfilehash: 4b113e1c189fe8ebdb5781e969e7f67961d4ea18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 386542b5c5f4e502f48d97c2a18194638e8e1536
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773959"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399387"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>开发包含代码的 InfoPath 表单模板
 
@@ -43,11 +43,11 @@ ms.locfileid: "19773959"
     
 ## <a name="related-sections"></a>相关章节
 
-[InfoPath 开发人员门户](http://go.microsoft.com/fwlink?LinkID=11689)
+[InfoPath 开发人员门户](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > 包含许多链接，这些链接指向有关构建自定义 InfoPath 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。
     
-[Microsoft Office 开发人员中心](http://go.microsoft.com/fwlink?LinkID=27128)
+[Microsoft Office 开发人员中心](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > 包含许多链接，这些链接指向有关构建自定义 Office 解决方案的技术文章、代码示例、下载内容、支持以及其他 MSDN 文档。
     

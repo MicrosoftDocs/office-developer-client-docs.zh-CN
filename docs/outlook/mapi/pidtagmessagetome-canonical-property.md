@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: aeb0fa71-f471-46c5-ad9c-f8afb3fed533
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 51a8f1768f9b4ed859989058c66044c807068386
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96a0b010a8ba26a0c1b0cb409f1aaabb308a1c01
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583930"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400640"
 ---
 # <a name="pidtagmessagetome-canonical-property"></a>PidTagMessageToMe 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 如果此消息的用户专门命名为主 （方法） 此邮件的收件人，而不是通讯组列表的一部分，包含 TRUE。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22583930"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性提供方便地确定是否用户名显示显式在主收件人列表中，如果不检查列表中的所有条目。 
   
@@ -48,11 +48,11 @@ ms.locfileid: "22583930"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件消息对象在允许的操作。
     

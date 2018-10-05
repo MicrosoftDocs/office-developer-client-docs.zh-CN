@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: 本文介绍如何配置即时消息 (IM) 客户端应用程序，使其与 Office 2013，包括显示状态和发送即时消息从联系人卡片中的社会功能集成。
-ms.openlocfilehash: 383aac24be347cf637d9e2f255623035eea8bc40
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbb3c68126b16e04cd00e950828fc67d16fc7669
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779568"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401733"
 ---
 # <a name="integrating-im-applications-with-office"></a>将 IM 应用程序与 Office 集成
 
@@ -57,7 +57,7 @@ Office 2013 提供了丰富集成 IM 客户端应用程序，包括 Lync 2013。
 
 ![Office 2013 中的人员卡片](media/ocom15_peoplecard.png "Office 2013 中的人员卡片")
   
-若要启用此与 Office 的集成，IM 客户端应用程序必须实现一组 Office 提供连接到它的接口。 这种集成的 Api 都包含在 Microsoft.Office.UC.dll 文件，其中包括 Lync 的版本的 Office 2013 安装中包含的[UCCollborationLib](http://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx)命名空间 / for Business 的 Skype。 **UCCollaborationLib**命名空间包含与 Office 集成时必须实现的接口。 
+若要启用此与 Office 的集成，IM 客户端应用程序必须实现一组 Office 提供连接到它的接口。 这种集成的 Api 都包含在 Microsoft.Office.UC.dll 文件，其中包括 Lync 的版本的 Office 2013 安装中包含的[UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx)命名空间 / for Business 的 Skype。 **UCCollaborationLib**命名空间包含与 Office 集成时必须实现的接口。 
   
 > [!IMPORTANT] 
 > Lync 2013/Skype for Business 中嵌入所需的接口的类型库。 为第三方集成商它仅当在目标计算机上安装 Lync 2013 和 Skype for Business 时。 如果要使用标准 Office 集成，您需要提取类型库在目标计算机上安装它。 [Lync 2013 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=36824)包含 Microsoft.Office.UC.dll 文件。 
@@ -65,7 +65,7 @@ Office 2013 提供了丰富集成 IM 客户端应用程序，包括 Lync 2013。
 > [!NOTE]
 >  少量的 Office 2010 应用程序可以与第三方 IM 提供程序应用程序以类似方式集成： Outlook 2010、 Word 2010、 在 Excel 2010、 PowerPoint 2010 和 SharePoint Server 2010 （使用 ActiveX 控件）。 使用 Office 2013 的集成所需的步骤的许多也适用于 Office 2010。 有多个 Office 2010 如何集成使用 IM 提供程序应用程序中的主要区别： 
 >  - Office 2010 不显示联系人的照片。 
->  - 从 Office 2010 中，必须单独下载 Microsoft.Office.Uc.dll 文件。 [Lync 2010 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=18898)包含用于 Office 2010 的 Microsoft.Office.UC.dll 文件。 
+>  - 从 Office 2010 中，必须单独下载 Microsoft.Office.Uc.dll 文件。 [Lync 2010 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=18898)包含用于 Office 2010 的 Microsoft.Office.UC.dll 文件。 
 >  - 当 Office 应用程序上的 IM 客户端应用程序调用[IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration)方法时，它将传递字符串"14.0.0.0"中。 
 >  - Office 2010 枚举所有组和联系人，只要连接到 IM 客户端应用程序。 
   
@@ -108,7 +108,7 @@ Office 应用程序经过发现默认 IM 客户端应用程序的过程如下所
 
 Office 应用程序建立到 IM 客户端应用程序的连接后，它然后执行以下操作：
   
-1. Office 应用程序调用[IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)方法来检查[IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration)接口。 
+1. Office 应用程序调用[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)方法来检查[IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration)接口。 
     
 2. Office 应用程序然后调用**IUCOfficeIntegration.GetAuthenticationInfo**方法，传递中最高的支持的集成版本 (例如，"15.0.0.0")。 
     
@@ -130,7 +130,7 @@ Office 应用程序建立到 IM 客户端应用程序的连接后，它然后执
 
 身份验证后与 IM 客户端应用程序的连接，Office 应用程序尝试连接到一组 IM 客户端应用程序必须公开的所需的接口。 Office 应用程序可通过执行以下操作：
   
-- Office 应用程序获取[ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient)对象通过调用**IUCOfficeIntegration.GetInterface**方法，并在**oiInterfaceLyncClient**传递常量[UCCollaborationLib.OIInterface](http://msdn.microsoft.com/library/UCCollaborationLib.OIInterface)枚举中。 
+- Office 应用程序获取[ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient)对象通过调用**IUCOfficeIntegration.GetInterface**方法，并在**oiInterfaceLyncClient**传递常量[UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface)枚举中。 
     
 - Office 应用程序获取[IAutomation](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IAutomation)对象通过调用**IUCOfficeIntegration.GetInterface**方法，并在**oiInterfaceAutomation**传递常量**OIInterface**枚举中。 
     
@@ -140,7 +140,7 @@ Office 应用程序建立到 IM 客户端应用程序的连接后，它然后执
     
 - Office 应用程序通过访问**ILyncClient.State**属性，从 IM 客户端应用程序中获取的登录状态。 
     
-- Office 应用程序通过调用[UCCollaborationLib.OIFeature](http://msdn.microsoft.com/library/UCCollaborationLib.OIFeature)枚举中返回一个标志**IUCOfficeIntegration.GetSupportedFeatures**方法获取 IM 客户端应用程序的功能。 
+- Office 应用程序通过调用[UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature)枚举中返回一个标志**IUCOfficeIntegration.GetSupportedFeatures**方法获取 IM 客户端应用程序的功能。 
     
 - Office 应用程序访问**ILyncClient.Self**属性来获取对[ISelf](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ISelf)对象的引用。 
     
@@ -217,7 +217,7 @@ Office 应用程序获取联系人的状态，包括本地用户，通过执行�
 表 2 显示了必须继承自**IUCOfficeIntegration**和 **_IUCOfficeIntegration**类中实现的成员。
   
 > [!NOTE]
-> 有关**IUCOfficeIntegration** **_IUCOfficeIntegrationEvents**接口和其成员的详细信息，请参阅[UCCollaborationLib.IUCOfficeIntegration](http://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration)和[UCCollaborationLib._IUCOfficeIntegrationEvents](http://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
+> 有关**IUCOfficeIntegration** **_IUCOfficeIntegrationEvents**接口和其成员的详细信息，请参阅[UCCollaborationLib.IUCOfficeIntegration](https://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration)和[UCCollaborationLib._IUCOfficeIntegrationEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
   
 **表 2。IUCOfficeIntegration 和 _IUCOfficeIntegrationEvents 接口实现**
 
@@ -267,7 +267,7 @@ public string GetAuthenticationInfo(string _version)
 
 ```
 
-**GetInterface**方法调用的代码中，具体取决于什么作为的_界面_参数作为参数传入到 shuttles 类的引用。 Office 应用程序调用**GetInterface**方法时，它中传递两个值之一接口参数： **oiInterfaceILyncClient**常量 （1） 或 （2） 的[**oiInterfaceIAutomation**常量UCCollaborationLib.OIInterface](http://msdn.microsoft.com/library/UCCollaborationLib.OIInterface)枚举。 如果在 Office 应用程序通过**oiInterfaceILyncClient**常量， **GetInterface**方法将返回对实现**ILyncClient**接口的类的引用。 如果在 Office 应用程序通过**oiInterfaceIAutomation**常量，该**GetInterface**方法将返回实现**IAutomation**接口的类。 
+**GetInterface**方法调用的代码中，具体取决于什么作为的_界面_参数作为参数传入到 shuttles 类的引用。 Office 应用程序调用**GetInterface**方法时，它中传递两个值之一接口参数： **oiInterfaceILyncClient**常量 （1） 或 （2） 的[**oiInterfaceIAutomation**常量UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface)枚举。 如果在 Office 应用程序通过**oiInterfaceILyncClient**常量， **GetInterface**方法将返回对实现**ILyncClient**接口的类的引用。 如果在 Office 应用程序通过**oiInterfaceIAutomation**常量，该**GetInterface**方法将返回实现**IAutomation**接口的类。 
   
 使用下面的代码示例来实现 IM 客户端应用程序代码中的**GetInterface**方法。 
   
@@ -304,7 +304,7 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-**GetSupportedFeatures**方法返回有关 IM 客户端应用程序支持的 IM 功能的信息。 计其唯一参数，_版本_的字符串。 Office 应用程序调用**GetSupportFeatures**方法时，该方法将返回[UCCollaborationLib.OIFeature](http://msdn.microsoft.com/library/UCCollaborationLib.OIFeature)枚举中的一个值。 返回的值指定的 IM 客户端应用程序的每个功能对 Office 应用程序指示通过将一个标志添加到值的 IM 客户端的功能。 
+**GetSupportedFeatures**方法返回有关 IM 客户端应用程序支持的 IM 功能的信息。 计其唯一参数，_版本_的字符串。 Office 应用程序调用**GetSupportFeatures**方法时，该方法将返回[UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature)枚举中的一个值。 返回的值指定的 IM 客户端应用程序的每个功能对 Office 应用程序指示通过将一个标志添加到值的 IM 客户端的功能。 
   
 > [!NOTE]
 >  Office 2013 应用程序忽略**OIFeature**枚举中的以下常量： 
@@ -327,7 +327,7 @@ public OIFeature GetSupportedFeatures(string _version)
 ### <a name="ilyncclient-interface"></a>ILyncClient 接口
 <a name="off15_IMIntegration_ImplementRequired_ILyncClient"> </a>
 
-**ILyncClient**接口将映射到在即时消息客户端应用程序自身的功能。 它公开本地用户和其他几个设置登录到的应用程序 （本地用户，由[UCCollaborationLib.ISelf](http://msdn.microsoft.com/library/UCCollaborationLib.ISelf)接口） 的应用程序的状态、 联系人列表中的人员所引用的属性。 时正在尝试连接到 IM 客户端应用程序，Office 应用程序获取对实现**ILyncClient**接口的对象的引用。 从该参考中，可以访问 Office 何种 IM 客户端应用程序的功能。 
+**ILyncClient**接口将映射到在即时消息客户端应用程序自身的功能。 它公开本地用户和其他几个设置登录到的应用程序 （本地用户，由[UCCollaborationLib.ISelf](https://msdn.microsoft.com/library/UCCollaborationLib.ISelf)接口） 的应用程序的状态、 联系人列表中的人员所引用的属性。 时正在尝试连接到 IM 客户端应用程序，Office 应用程序获取对实现**ILyncClient**接口的对象的引用。 从该参考中，可以访问 Office 何种 IM 客户端应用程序的功能。 
   
 此外，实现**ILyncClient**接口的类还应实现 **_ILyncClientEvents**接口。 **_ILyncClientEvents**接口将公开几个所需的监控 IM 客户端应用程序的状态的事件。 
   
@@ -336,7 +336,7 @@ public OIFeature GetSupportedFeatures(string _version)
 > [!NOTE]
 > **ILyncClient**的任何成员或**\_ILyncClientEvents**表中未列出的接口必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E\_NOTIMPL**错误。 
 > 
-> 有关**ILyncClient** **_ILyncClientEvents**接口和其成员的详细信息，请参阅[UCCollaborationLib.ILyncClient](http://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient)和[UCCollaborationLib._ILyncClientEvents](http://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents)。 
+> 有关**ILyncClient** **_ILyncClientEvents**接口和其成员的详细信息，请参阅[UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient)和[UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents)。 
   
 **表 3。ILyncClient 和 ILyncClientEvents 接口实现。**
 
@@ -350,7 +350,7 @@ public OIFeature GetSupportedFeatures(string _version)
 ||**Uri** 属性  <br/> |获取 IM 客户端应用程序的 URI。  <br/> |
 |**_ILyncClientEvents** <br/> |**OnStateChanged**事件  <br/> |IM 客户端应用程序状态更改时引发。 您应处理此事件，并获取**eventData.NewState**属性。 当应用程序中的任何子系统导致状态更改时，绑定到 IM 客户端应用程序实例的所有进程引发该事件。  <br/> |
    
-在初始化过程中，Office 访问**ILyncClient.State**属性。 此属性需要从[UCCollaborationLib.ClientState](http://msdn.microsoft.com/library/UCCollaborationLib.ClientState)枚举返回一个值。 
+在初始化过程中，Office 访问**ILyncClient.State**属性。 此属性需要从[UCCollaborationLib.ClientState](https://msdn.microsoft.com/library/UCCollaborationLib.ClientState)枚举返回一个值。 
   
 ```cs
 private ClientState _clientState;
@@ -663,7 +663,7 @@ namespace SampleImplementation
 > [!NOTE]
 > 表中未列出的**IAutomation**任何的接口成员必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E_NOTIMPL**错误。 
 > 
-> 有关**IAutomation**接口和其成员的详细信息，请参阅[UCCollaborationLib.IAutomation](http://msdn.microsoft.com/library/UCCollaborationLib.IAutomation)。 
+> 有关**IAutomation**接口和其成员的详细信息，请参阅[UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation)。 
   
 **表 4。IAutomation 接口实现**
 
@@ -700,7 +700,7 @@ namespace SampleImplementation
 > [!NOTE]
 > 表中未列出的**IContact**任何的接口成员必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E_NOTIMPL**错误。 
 >
-> 有关**IContact**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContact](http://msdn.microsoft.com/library/UCCollaborationLib.IContact)。 
+> 有关**IContact**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact)。 
   
 **表 5。IContact 接口实现**
 
@@ -712,7 +712,7 @@ namespace SampleImplementation
 |**Settings**属性  <br/> |获取联系人属性的集合。  <br/> |
 |**CustomGroups**属性  <br/> |获取组的成员的联系人的集合。  <br/> |
    
-在初始化过程中，Office 应用程序调用**IContact.CanStart**方法来确定本地用户的 IM 功能。 **CanStart**方法所需的 __modalityTypes_形参的实参作为[UCCollaborationLib.ModalityTypes](http://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes)枚举中的标志。 如果当前用户可以参与请求形式 （即，用户是支持即时消息、 音频和视频消息，或应用程序共享的）， **CanStart**方法返回**true**。
+在初始化过程中，Office 应用程序调用**IContact.CanStart**方法来确定本地用户的 IM 功能。 **CanStart**方法所需的 __modalityTypes_形参的实参作为[UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes)枚举中的标志。 如果当前用户可以参与请求形式 （即，用户是支持即时消息、 音频和视频消息，或应用程序共享的）， **CanStart**方法返回**true**。
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -736,7 +736,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-**GetContactInformation**方法从**IContact**对象检索有关该联系人的信息。 调用的代码需要在值传递 __contactInformationType_参数，指示要检索的数据的[UCCollaborationLib.ContactInformationType](http://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType)枚举中。 
+**GetContactInformation**方法从**IContact**对象检索有关该联系人的信息。 调用的代码需要在值传递 __contactInformationType_参数，指示要检索的数据的[UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType)枚举中。 
   
 ```cs
 public object GetContactInformation(
@@ -767,7 +767,7 @@ public object GetContactInformation(
 }
 ```
 
-类似于**GetContactInformation**， **BatchGetContactInformation**方法检索有关该联系人的多个状态项目从**IContact**对象。 调用的代码需要从**ContactInformationType**枚举 __contactInformationTypes_参数传递的值的数组中。 该方法返回[UCCollaborationLib.IContactInformationDictionary](http://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary)对象，其中包含请求的数据。 
+类似于**GetContactInformation**， **BatchGetContactInformation**方法检索有关该联系人的多个状态项目从**IContact**对象。 调用的代码需要从**ContactInformationType**枚举 __contactInformationTypes_参数传递的值的数组中。 该方法返回[UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary)对象，其中包含请求的数据。 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -872,7 +872,7 @@ public class IMClientSelf : ISelf
 > [!NOTE]
 > 表中未列出的**IContactManager**任何的接口成员必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E\_NOTIMPL**错误。 
 >
-> 有关**IContactManager** **_IContactManagerEvents**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContactManager](http://msdn.microsoft.com/library/UCCollaborationLib.IContactManager)和[UCCollaborationLib._IContactManagerEvents](http://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents)。 
+> 有关**IContactManager** **_IContactManagerEvents**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContactManager](https://msdn.microsoft.com/library/UCCollaborationLib.IContactManager)和[UCCollaborationLib._IContactManagerEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents)。 
   
 **表 7。IContactManager 和 _IContactManagerEvents 接口实现**
 
@@ -938,7 +938,7 @@ public IMClientContactSubscription CreateSubscription()
 > [!NOTE]
 > 表中未列出的**IGroup**任何的接口成员必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E_NOTIMPL**错误。 
 >
-> 有关的**IGroup**和**IGroupCollection**接口及其成员的详细信息，请参阅[UCCollaborationLib.IGroup](http://msdn.microsoft.com/library/UCCollaborationLib.IGroup)和[UCCollaborationLib.IGroupCollection](http://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection)。 
+> 有关的**IGroup**和**IGroupCollection**接口及其成员的详细信息，请参阅[UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup)和[UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection)。 
   
 **表 9。IGroup 和 IGroupCollection 接口实现**
 
@@ -960,7 +960,7 @@ public IMClientContactSubscription CreateSubscription()
 > [!NOTE]
 > 表中未列出的**IContactSubscription**任何的接口成员必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E_NOTIMPL**错误。
 >
-> 有关**IContactSubscription**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContactSubscription](http://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription)。 
+> 有关**IContactSubscription**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription)。 
   
 **表 10。IContactSubscription 接口实现**
 
@@ -993,7 +993,7 @@ public void AddContact(IMClientContact _contact)
 > [!NOTE]
 > 表中未列出的**IContactEndPoint**任何的接口成员必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E_NOTIMPL**错误。
 >
-> 有关**IContactEndPoint**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContactEndpoint](http://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint)。 
+> 有关**IContactEndPoint**接口和其成员的详细信息，请参阅[UCCollaborationLib.IContactEndpoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint)。 
   
 **表 11。IContactEndPoint 接口实现**
 
@@ -1013,7 +1013,7 @@ public void AddContact(IMClientContact _contact)
 > [!NOTE]
 > 表中未列出的**ILocaleString**任何的接口成员必须存在但不需要实现。 已存在，但未实现的成员可以引发**NotImplementedException**或**E_NOTIMPL**错误。
 >
-> 有关**ILocalString**接口和其成员的详细信息，请参阅[UCCollaborationLib.ILocaleString](http://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString)。 
+> 有关**ILocalString**接口和其成员的详细信息，请参阅[UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString)。 
   
 **表 12。ILocaleString 接口实现**
 
@@ -1024,6 +1024,6 @@ public void AddContact(IMClientContact _contact)
    
 ## <a name="see-also"></a>另请参阅
 
-- [UCCollaborationLib](http://msdn.microsoft.com/library/UCCollaborationLib)命名空间 
+- [UCCollaborationLib](https://msdn.microsoft.com/library/UCCollaborationLib)命名空间 
     
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2bb0f4c5-eacf-e09b-2fce-dcff2d927557
 description: 指定文档的页眉的边距。
-ms.openlocfilehash: a0accb08fd2c781e112b7b54e074dccd4c4e4307
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8126ae73b1fb330234698343d14468fcbb3eed8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780386"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393374"
 ---
 # <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>HeaderMargin 元素 （HeaderFooter_Type 复杂类型） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780386"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml  <br/> |
    

@@ -6,20 +6,20 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 上次修改时间： 2012 年 7 月 6 日
-ms.openlocfilehash: aa1981c365e2a8e81dcd688a32fca25178c7fe52
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577322"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392914"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>以编程方式设置地址列表的解决方案顺序
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 本主题包含在以编程方式设置消息和会议请求中的与会者都已解析通过电子邮件中的收件人的地址列表的顺序的 c + + 代码示例。
   
-MAPI 中, 每个配置文件可以支持多个地址列表和每个地址列表位于其自己的容器。 MAPI 中，您可以用于名称解析配置文件中设置新的搜索路径的接口支持**[SetSearchPath](http://support.microsoft.com/kb/292590)** 方法。 若要使用的**IAddrBook::SetSearchPath**方法，您必须按所需的顺序，包含相关的通讯簿容器**[SRowSet](srowset.md)** 数组中定义所需要的分辨率顺序，然后将该数组指定为*lpSearchPath* 参数。 为每个项**SRowSet**数组中的第一个属性必须是相应的通讯簿的**[PR_ENTRYID](pidtagentryid-canonical-property.md)** 属性。 
+MAPI 中, 每个配置文件可以支持多个地址列表和每个地址列表位于其自己的容器。 MAPI 中，您可以用于名称解析配置文件中设置新的搜索路径的接口支持**[SetSearchPath](https://support.microsoft.com/kb/292590)** 方法。 若要使用的**IAddrBook::SetSearchPath**方法，您必须按所需的顺序，包含相关的通讯簿容器**[SRowSet](srowset.md)** 数组中定义所需要的分辨率顺序，然后将该数组指定为*lpSearchPath* 参数。 为每个项**SRowSet**数组中的第一个属性必须是相应的通讯簿的**[PR_ENTRYID](pidtagentryid-canonical-property.md)** 属性。 
   
 代码示例设置解析顺序执行以下步骤：
   

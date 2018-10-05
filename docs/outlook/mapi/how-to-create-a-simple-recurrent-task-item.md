@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 68d7472f993bcc35abbd4b733bae9f137b948608
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: be765915b729824b8c8b4209f125f354b02bad2b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576839"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394338"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>创建简单的重复性任务项目
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 可以使用 MAPI 创建创建任务项目。 本主题介绍如何创建简单的重复性任务项。
   
@@ -42,7 +42,7 @@ ms.locfileid: "22576839"
   
 `AddTask`下面列出了函数。 请注意， _lpFolder_参数传递给`AddTask`函数是代表在其中创建新任务的文件夹的[IMAPIFolder](imapifolderimapicontainer.md)接口的指针。 给定_lpFolder_值，该值代表**IMAPIFolder**接口，代码调用[IMAPIFolder::CreateMessage](imapifolder-createmessage.md)方法。 **CreateMessage**方法返回到指向**IMessage**接口的指针成功代码和一个指针。 大多数的`AddTask`的函数代码处理的指定属性中调用[IMAPIProp::SetProps](imapiprop-setprops.md)方法的准备工作。 如果对**SetProps**方法的调用成功，调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法将更改提交到存储并创建新的任务项。 
   
-`AddTask`函数设置大量的命名属性。 命名的属性和如何创建这些信息，请参阅[创建 Outlook 2007 项使用 MAPI](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)。 使用任务项目的命名的属性占用多个属性集，因为必须小心构建参数时要传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法。 
+`AddTask`函数设置大量的命名属性。 命名的属性和如何创建这些信息，请参阅[创建 Outlook 2007 项使用 MAPI](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)。 使用任务项目的命名的属性占用多个属性集，因为必须小心构建参数时要传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)方法。 
   
 `AddTask`函数使用`BuildWeeklyTaskRecurrencePattern`helper 函数来构建表示**dispidTaskRecur**属性设置为任务周期的结构。 有关任务定期结构信息`BuildWeeklyTaskRecurrencePattern`函数生成，请参阅[PidLidTaskRecurrence 规范属性](pidlidtaskrecurrence-canonical-property.md)和[PidLidRecurrencePattern 规范属性](pidlidrecurrencepattern-canonical-property.md)。 
 
@@ -178,5 +178,5 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 MAPI 创建 Outlook 2007 项](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [使用 MAPI 创建 Outlook 2007 项](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

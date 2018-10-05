@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
 description: 用户指定的可由其他单元格和加载项工具引用的信息片段一个属性。
-ms.openlocfilehash: 40555c58e6afdb3eefe5b1a14d4155ad4e57ed6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ce456b624f4a4b12a3f2fdc73f56651ea6985ed
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779844"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397497"
 ---
 # <a name="cell-element-user-defined-cells-section-visio-xml"></a>单元格元素 （用户定义的单元格部分） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779844"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml、 masters.xml、 主 #.xml、 pages.xml、 页 #.xml  <br/> |
    

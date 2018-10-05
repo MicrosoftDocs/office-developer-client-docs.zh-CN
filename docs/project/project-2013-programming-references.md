@@ -17,19 +17,19 @@ keywords:
 localization_priority: Normal
 ms.assetid: 79c78c44-1e08-4c9b-a7fe-a5089e666055
 description: 查找概述的 Project Server 接口 (PSI) 参考，如何 ProjectData OData 服务中使用 ASMX 接口和 PSI、 有关 Project Server 错误代码的信息和引用的 WCF 接口。
-ms.openlocfilehash: 8e2ee8730e737408899b6fe26ce55210e0c68e81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 27b2eb27d62ec1abdb1a835b5d874e211e7e793e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19779544"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399891"
 ---
 # <a name="project-2013-programming-references"></a>Project 2013 编程参考文档
 
 查找概述的 Project Server 接口 (PSI) 参考，如何使用**ProjectData** OData 服务的 ASMX 接口和 PSI、 有关 Project Server 错误代码的信息和引用的 WCF 接口。 
   
 > [!NOTE]
-> PSI 和 Project Server 2013 中的客户端对象模型 (CSOM) 的主要引用，请参阅以下各节：[类类库和 web 服务引用](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)和[Project Server 2013 的 JavaScript API 参考](javascript-library-and-rest-reference-for-project-server-2013.md)。 > Office 加载项，其中包括 Project 2013 任务窗格应用程序的 JavaScript 引用，请参阅[JavaScript API for Office](http://msdn.microsoft.com/en-us/library/fp142185.aspx)。 > 的 Project Standard 2013 和 Project Professional 2013 的 VBA 参考，请参阅[Project 2013 VBA 开发人员参考](http://msdn.microsoft.com/en-us/library/jj235035.aspx)。 > 报告表和本地 Project Server 2013 数据库中的视图参考尚不可用。 
+> PSI 和 Project Server 2013 中的客户端对象模型 (CSOM) 的主要引用，请参阅以下各节：[类类库和 web 服务引用](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)和[Project Server 2013 的 JavaScript API 参考](javascript-library-and-rest-reference-for-project-server-2013.md)。 > Office 加载项，其中包括 Project 2013 任务窗格应用程序的 JavaScript 引用，请参阅[JavaScript API for Office](https://msdn.microsoft.com/library/fp142185.aspx)。 > 的 Project Standard 2013 和 Project Professional 2013 的 VBA 参考，请参阅[Project 2013 VBA 开发人员参考](https://msdn.microsoft.com/library/jj235035.aspx)。 > 报告表和本地 Project Server 2013 数据库中的视图参考尚不可用。 
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -41,13 +41,13 @@ ms.locfileid: "19779544"
   
 [Project Server 错误代码](project-server-error-codes.md)列出的代码和按功能区域的 Project Server 错误的说明。 
   
-[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/en-us/library/office/jj163015.aspx)包括 Project Server 报告数据的 OData 服务、 简介使用 LINQ 查询和引用用于**ProjectData**服务中的 XML 元数据的 OData 源的概述。 
+[ProjectData-Project OData 服务引用](https://msdn.microsoft.com/library/office/jj163015.aspx)包括 Project Server 报告数据的 OData 服务、 简介使用 LINQ 查询和引用用于**ProjectData**服务中的 XML 元数据的 OData 源的概述。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[适用于 Office 的 JavaScript API](http://msdn.microsoft.com/en-us/library/fp142185.aspx)
+[适用于 Office 的 JavaScript API](https://msdn.microsoft.com/library/fp142185.aspx)
   
-[Project 2013 VBA 开发人员参考 （英文）](http://msdn.microsoft.com/en-us/library/jj235035.aspx)
+[Project 2013 VBA 开发人员参考 （英文）](https://msdn.microsoft.com/library/jj235035.aspx)
 

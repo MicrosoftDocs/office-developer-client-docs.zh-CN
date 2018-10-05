@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 56d6240f-d07b-48d1-aef0-bf57078ea6c3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: da38c8f04c0ffe6b4b26551cb23e84275900fcb4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de50616664048af6b931a09df7c65461e9ee3399
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563056"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393367"
 ---
 # <a name="pidlidappointmentrecur-canonical-property"></a>PidLidAppointmentRecur 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定定期系列时使用的定期模式和[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)中指定的区域之一发生的日期和时间。
+指定定期系列时使用的定期模式和[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)中指定的区域之一发生的日期和时间。
   
 |||
 |:-----|:-----|
@@ -35,9 +35,9 @@ ms.locfileid: "22563056"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |日历  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-此属性指定定期系列时使用的定期模式之一，发生此事件和区域中的详细说明[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)的日期和时间。 此属性的值还包含有关修改和删除例外; 信息如日期、 主题、 位置和其他几个属性的异常的信息。 此属性的定期日历项目中的二进制数据存储为**AppointmentRecurrencePattern**结构。 此属性必须存在在单个实例日历项目。 
+此属性指定定期系列时使用的定期模式之一，发生此事件和区域中的详细说明[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)的日期和时间。 此属性的值还包含有关修改和删除例外; 信息如日期、 主题、 位置和其他几个属性的异常的信息。 此属性的定期日历项目中的二进制数据存储为**AppointmentRecurrencePattern**结构。 此属性必须存在在单个实例日历项目。 
   
 有一些限制到定期事件：
   
@@ -51,15 +51,15 @@ ms.locfileid: "22563056"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     
-[[MS OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > 指定属性和电子邮件和其他对象提醒的交互模型。
     

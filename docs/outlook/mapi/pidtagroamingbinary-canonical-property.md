@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 717c456024dd98495550f1377edc6a53f82ee042
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ead7c9c33c92240ba5e458b68635b766caaa9760
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572408"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401669"
 ---
 # <a name="pidtagroamingbinary-canonical-property"></a>PidTagRoamingBinary 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含与**IPM 的一个子类关联邮件流。配置**类。 
   
@@ -30,7 +30,7 @@ ms.locfileid: "22572408"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Configuration  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性包含与**IPM 关联的数据流。配置**消息类消息。 Stream 的格式取决于邮件类。 例如，类类型**IPM 的消息。Configuration.Autocomplete**作为[记忆式键入流](autocomplete-stream.md)进行格式设置。
   
@@ -38,11 +38,11 @@ ms.locfileid: "22572408"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Microsoft Exchange Server 协议规范参考。
     
-[[MS OXOCFG]](http://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
+[[MS OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
 > 指定的位置和客户端和服务器配置数据，如共享的类别列表和工作时间的属性。
     

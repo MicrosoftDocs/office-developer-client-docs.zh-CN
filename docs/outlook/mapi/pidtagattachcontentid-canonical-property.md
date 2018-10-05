@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 78b157dfb11eb7e97d90142a148e3741e3d818d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fc7360e3070ed4d20be7ac0155ebdcb04cf2048
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572646"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396951"
 ---
 # <a name="pidtagattachcontentid-canonical-property"></a>PidTagAttachContentId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含多用途 Internet 邮件扩展 (MIME) 邮件附件的内容标识标头。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22572646"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 使用这些属性 MHTML 支持。 它们表示相应的 MIME 正文部分内容标识标头。 
   
@@ -42,7 +42,7 @@ ms.locfileid: "22572646"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

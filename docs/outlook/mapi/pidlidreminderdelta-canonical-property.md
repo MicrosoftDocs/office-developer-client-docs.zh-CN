@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 91cad169157b2dd0ff279e88b69db149c4c7df89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86a0203f930661452bb143e247c17ef6da8ed436
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590748"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398002"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>PidLidReminderDelta 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定以分钟为单位，当提醒前变为过期的时间和开始时间的日历对象之间的间隔。
   
@@ -35,19 +35,19 @@ ms.locfileid: "22590748"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-此属性必须设置对日历对象。 对于所有非日历对象，此属性应设置为"0x00000000"，并将被忽略。 时的定期 calendar 对象的一个实例消除提醒下, 一实例的信号时间的计算中使用此属性的值。 有关创建日历对象的详细信息，请参阅[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 。 
+此属性必须设置对日历对象。 对于所有非日历对象，此属性应设置为"0x00000000"，并将被忽略。 时的定期 calendar 对象的一个实例消除提醒下, 一实例的信号时间的计算中使用此属性的值。 有关创建日历对象的详细信息，请参阅[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > 指定属性和电子邮件和其他对象提醒的交互模型。
     

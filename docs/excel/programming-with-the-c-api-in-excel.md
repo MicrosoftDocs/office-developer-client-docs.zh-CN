@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 459e57d41ef7497c535e51944bbaf24daee84167
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53167241ebfaf8524fb58d14b4e1299809cdee50
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773808"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401620"
 ---
 # <a name="programming-with-the-c-api-in-excel"></a>在 Excel 中使用 C API 进行编程
 
@@ -90,10 +90,10 @@ Excel 宏 (XLM) 语言是 Excel 中提供的第一个用户可访问的编程环
     
 - 流控制操作，如 **GOTO** 和 **RETURN**。
     
-Excel 版本 3 中存在 C API 的限制版本。但是，在 Excel 版本 4 中，XLM 语言映射到了 C API。此后，DLL 已经能够调用所有工作表函数、宏表信息函数和命令，并且能够设置事件陷阱。DLL 无法从 C API 中调用 XLM 流控制函数。这些宏表函数和命令记录在帮助文件 XLMacr8.hlp（以前名为 Macrofun.hlp）中。要获取此帮助文件，请转到 [Microsoft 下载中心](http://download.microsoft.com)并搜索“XLMacr8.hlp”。 
+Excel 版本 3 中存在 C API 的限制版本。但是，在 Excel 版本 4 中，XLM 语言映射到了 C API。此后，DLL 已经能够调用所有工作表函数、宏表信息函数和命令，并且能够设置事件陷阱。DLL 无法从 C API 中调用 XLM 流控制函数。这些宏表函数和命令记录在帮助文件 XLMacr8.hlp（以前名为 Macrofun.hlp）中。要获取此帮助文件，请转到 [Microsoft 下载中心](https://download.microsoft.com)并搜索“XLMacr8.hlp”。 
   
 > [!NOTE]
-> Windows Vista 和 Windows 7 不会直接支持 .hlp 文件，但可以从 Microsoft 下载[适用于 Windows Vista 的 Windows 帮助程序 (WinHlp32.exe)](http://go.microsoft.com/fwlink/?LinkID=82148) 或[适用于 Windows 7 的 Windows 帮助程序 (WinHlp32.exe)](http://www.microsoft.com/download/en/details.aspx?id=91)，并将其从中打开。 
+> Windows Vista 和 Windows 7 不会直接支持 .hlp 文件，但可以从 Microsoft 下载[适用于 Windows Vista 的 Windows 帮助程序 (WinHlp32.exe)](https://go.microsoft.com/fwlink/?LinkID=82148) 或[适用于 Windows 7 的 Windows 帮助程序 (WinHlp32.exe)](https://www.microsoft.com/download/en/details.aspx?id=91)，并将其从中打开。 
   
 DLL 使用回调函数 **Excel4**、**Excel4v**、**Excel12** 和 **Excel12v**（后两个在 Excel 2007 中引入）调用这些函数和命令的 C API 等效项。与每个函数和命令对应的枚举常量在头文件中定义，并作为一个参数传递到这些回调。例如，**GET.CELL** 由 **xlfGetCell** 表示、**REGISTER** 由 **xlfRegister** 表示、**DEFINE.NAME** 由 **xlcDefineName** 表示。
   

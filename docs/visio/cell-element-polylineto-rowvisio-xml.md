@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a62fbb51-e2a7-cdae-3516-5ce9ba30f26d
 description: 包含 x 坐标或 y 坐标的最后一个点折线或折线公式。
-ms.openlocfilehash: 485682b43db045893bfc968cfb0859cf8cb2ce2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a27cc5a4c2b6c9833263a28bbcadc40f08d8e70
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779839"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398652"
 ---
 # <a name="cell-element-polylineto-row-visio-xml"></a>单元格元素 （PolyLineTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779839"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

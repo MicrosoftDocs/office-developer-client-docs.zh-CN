@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: 客户端对象模型 (CSOM) 是一套的联机设计用于 Project Server 2013 的 Api 和应用程序可以开发用于 Pc 和移动设备或平板电脑中使用的内部部署。 本文包含使用 CSOM 的一些典型方案，并还列出了 CSOM 的限制。
-ms.openlocfilehash: 232152d3d2ee902b438bc1fe3ece06acca713175
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad9f9e0404cb0063a1c58c8e66a022372881a24f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779562"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399289"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>CSOM 执行和不执行的操作
 
@@ -65,11 +65,11 @@ PSI 和 CSOM 都不处理的操作的列表，请参阅[What the PSI 执行 and 
 
 CSOM 未包含下列 PSI 服务的功能：
   
-- **管理服务**若要管理的管理设置和操作 Project Server 中和相关的项目网站，如创建财政周期和进行时间表设置使用[WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx)类中的 PSI 方法。 Project Web App 本身中的许多链接到服务器设置页的页面使用**管理员**方法 (http:// *ServerName*  /  *ProjectServerName* /_layouts/15/pwa/Admin/Admin.aspx)。 
+- **管理服务**若要管理的管理设置和操作 Project Server 中和相关的项目网站，如创建财政周期和进行时间表设置使用[WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx)类中的 PSI 方法。 Project Web App 本身中的许多链接到服务器设置页的页面使用**管理员**方法 (https:// *ServerName*  /  *ProjectServerName* /_layouts/15/pwa/Admin/Admin.aspx)。 
     
 - **存档服务**若要保存和管理项目、 资源和在存档表中的自定义字段等实体，请使用[存档](https://msdn.microsoft.com/library/WebSvcArchive.Archive.aspx)类中的 PSI 方法。 
     
-- **CubeAdmin 服务**若要创建和管理 OLAP 多维数据集的本地安装，在[WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx)类中，使用 PSI 方法，或使用 OLAP 数据库管理页 (http:// *ServerName*  /  ** ProjectServerName/_layouts/15/pwa /CubeAdmin/CubeAnalysisAdmin.aspx) Project Web App 中。 
+- **CubeAdmin 服务**若要创建和管理 OLAP 多维数据集的本地安装，在[WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx)类中，使用 PSI 方法，或使用 OLAP 数据库管理页 (https:// *ServerName*  /  *ProjectServerName* /_layouts/15/pwa/ CubeAdmin/CubeAnalysisAdmin.aspx) Project Web App 中。 
     
     > [!NOTE]
     > Project Online 不支持 OLAP 多维数据集。 
@@ -110,7 +110,7 @@ Project Server 2013 中的 CSOM 基于 SharePoint Server 2013 中的 CSOM 实现
   
 例如，如果您使用 CSOM 创建项目，然后编辑项目以添加具有最小信息量的 252 个任务（如短名称、任务 GUID 和 1d 的持续时间），则 **DraftProject.Update** 请求的数据总量小于 2 MB。但是，如果您尝试将 253 个此类任务添加到空项目，则将超出 2 MB 限制，您将收到以下异常：**Microsoft.SharePoint.Client.ServerException: 此请求使用太多资源**
   
-要捕获的 CSOM 请求中的数据通过 HTTP 或 HTTPS，您可以使用 web 调试工具，如[Fiddler](http://www.fiddler2.com) (http://www.fiddler2.com)。 实现请求大小的测试，包括到大型请求将断开与较小的组的解决方案的代码示例，请参阅[DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) 。 
+要捕获的 CSOM 请求中的数据通过 HTTP 或 HTTPS，您可以使用 web 调试工具，如[Fiddler](https://www.fiddler2.com) (https://www.fiddler2.com)。 实现请求大小的测试，包括到大型请求将断开与较小的组的解决方案的代码示例，请参阅[DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) 。 
   
 ## <a name="see-also"></a>另请参阅
 <a name="pj15_WhatTheCSOM_AR"> </a>

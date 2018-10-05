@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
 description: 指定快捷菜单或动作标记菜单上的自定义命令与关联的操作的一个的属性。
-ms.openlocfilehash: d0f103e6f241a7982bcc2663752d9338cf4c3eb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01b81a593de07be8059263d7a6e6538f31ed3be1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779801"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395670"
 ---
 # <a name="cell-element-actions-row-visio-xml"></a>单元格元素 （Actions 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779801"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |masters.xml、 主 #.xml、 pages.xml、 页 #.xml  <br/> |
    

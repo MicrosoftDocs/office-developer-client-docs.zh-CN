@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
 description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 272d4147d60df53ef30a668faa8abe89f96cd654
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 532c01d6885e72753067b2d30bf2bd5f88207176
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582320"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396055"
 ---
 # <a name="about-the-replication-api"></a>关于复制 API
 
@@ -30,7 +30,7 @@ ms.locfileid: "22582320"
 
 **IOSTX**接口是执行同步复制 API 中的主要接口。 **IOSTX**移动一系列状态，通过本地存储检索中每种状态信息的本地存储中的更改以及告知本地存储的服务器上的更改。 复制 API 还指定支持的同步的许多数据结构。 
   
-存储提供程序，为此 API 的客户端使用复制 API 包装本地存储，并将更改 （如对文件夹层次结构或添加新项的更改） 对本地存储推送到服务器，并还检索移动这些状态，有关更改服务器和的信息提供给**IOSTX**接口上的信息。 **IOSTX**接口采用增量更改同步 (ICS) 提供的 Microsoft Exchange Server。 有关 ICS 的详细信息，请参阅[ICS 评价标准](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx)。 通过**IOSTX**，客户端使用 ICS 监视和同步到层次结构或本地存储区上的内容的增量更改。 
+存储提供程序，为此 API 的客户端使用复制 API 包装本地存储，并将更改 （如对文件夹层次结构或添加新项的更改） 对本地存储推送到服务器，并还检索移动这些状态，有关更改服务器和的信息提供给**IOSTX**接口上的信息。 **IOSTX**接口采用增量更改同步 (ICS) 提供的 Microsoft Exchange Server。 有关 ICS 的详细信息，请参阅[ICS 评价标准](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)。 通过**IOSTX**，客户端使用 ICS 监视和同步到层次结构或本地存储区上的内容的增量更改。 
   
 ## <a name="the-ipstx-interface"></a>IPSTX 接口
 

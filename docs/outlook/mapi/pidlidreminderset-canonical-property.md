@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c056b0e587de06f6c32ceb3cebbb96f2fb737208
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59379b0b1345684a491f2f7f896f2b8fc8fd54c2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579079"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392387"
 ---
 # <a name="pidlidreminderset-canonical-property"></a>PidLidReminderSet 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定是否在对象上设置提醒。
   
@@ -35,21 +35,21 @@ ms.locfileid: "22579079"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果定期 calendar 对象具有此属性设置为 TRUE，客户端可以替代此值的例外。
   
-如果此属性为 false，则在定期 calendar 对象，禁用整个数据系列，包括例外提醒。 对于定期任务对象，该属性不能重写由异常 （有关详细信息，请参阅[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)和[[MS OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) ）。 
+如果此属性为 false，则在定期 calendar 对象，禁用整个数据系列，包括例外提醒。 对于定期任务对象，该属性不能重写由异常 （有关详细信息，请参阅[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)和[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) ）。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > 指定属性和电子邮件和其他对象提醒的交互模型。
     

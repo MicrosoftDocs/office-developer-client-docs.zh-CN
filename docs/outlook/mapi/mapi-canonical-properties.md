@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 82c44f2292400c449ee0f82600c5b596728af7c0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4b017089a675727703de9e2ed4d584e7f77a778a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590433"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401564"
 ---
 # <a name="mapi-canonical-properties"></a>MAPI 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 规范属性是一个虚拟属性表示的 MAPI 属性或定义具有相同属性标识符的多个 MAPI 属性。 规范属性仅用于加快一致的 MAPI 属性讨论或代码之外的文档中的标识。 与 MAPI 定义已标记的属性名称不同规范属性名称不被指 MAPI 头文件中的全局常量。
   
 ## <a name="naming-conventions"></a>命名约定
 
-属性规范名称开头前缀，"Pid"，表示"属性标识符"。 根据属性是否已标记的属性、 的数字标识符的命名的属性或与字符串名称的命名的属性，前缀进一步限定"PidTag，"作为"PidLid，"和"PidName"分别。 例如， [PidTagAccount](pidtagaccount-canonical-property.md)表示标记的属性，指定收件人的**PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md))、 **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) 和**PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md))帐户名;[PidLidContacts](pidlidcontacts-canonical-property.md)代表**dispidContacts**属性，具有的数字标识符，并指定一条消息; 相关联的联系人的名称的命名属性[PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md)表示"http://schemas.microsoft.com/outlook/phishingstamp，"了字符串的名称，并将会出现网络钓鱼邮件标记的字符串指定的命名的属性。 
+属性规范名称开头前缀，"Pid"，表示"属性标识符"。 根据属性是否已标记的属性、 的数字标识符的命名的属性或与字符串名称的命名的属性，前缀进一步限定"PidTag，"作为"PidLid，"和"PidName"分别。 例如， [PidTagAccount](pidtagaccount-canonical-property.md)表示标记的属性，指定收件人的**PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md))、 **PR_ACCOUNT_A** ([PidTagAccount](pidtagaccount-canonical-property.md)) 和**PR_ACCOUNT_W** ([PidTagAccount](pidtagaccount-canonical-property.md))帐户名;[PidLidContacts](pidlidcontacts-canonical-property.md)代表**dispidContacts**属性，具有的数字标识符，并指定一条消息; 相关联的联系人的名称的命名属性[PidNamePhishingStamp](pidnamephishingstamp-canonical-property.md)表示"https://schemas.microsoft.com/outlook/phishingstamp，"了字符串的名称，并将会出现网络钓鱼邮件标记的字符串指定的命名的属性。 
   
 ## <a name="representing-similar-properties-using-one-canonical-property"></a>表示使用一个规范属性类似属性
 
@@ -71,7 +71,7 @@ MAPI 使用属性标记来唯一定义属性。 具有相同的属性标记，�
   
 ## <a name="canonical-property-names-and-exchange-protocol-specifications"></a>规范属性名称和 Exchange 协议规范
 
-规范名称中使用 Exchange Server 与其他 Microsoft 产品进行通信的 Microsoft Exchange Server 协议规范引用。 有关 Exchange 协议规范所引用的消息对象属性的详细信息，请参阅[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)。
+规范名称中使用 Exchange Server 与其他 Microsoft 产品进行通信的 Microsoft Exchange Server 协议规范引用。 有关 Exchange 协议规范所引用的消息对象属性的详细信息，请参阅[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)。
   
 ## <a name="see-also"></a>另请参阅
 

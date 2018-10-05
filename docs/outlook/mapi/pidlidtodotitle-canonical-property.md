@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9973e68dbceea03f31bfc47ede34f004fa3f39b6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7ed69d9bab84a5c572026bb9480249c1212e3376
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570413"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397581"
 ---
 # <a name="pidlidtodotitle-canonical-property"></a>PidLidToDoTitle 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含要合并的待办事项列表中的此消息对象标识的用户并以此来文本。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22570413"
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Task  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性必须设置对任务。 若要指示属性为空，未将此属性设置为零长度字符串中，但而是将其删除。 
   
@@ -49,11 +49,11 @@ ms.locfileid: "22570413"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用
     
-[[MS OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > 指定的属性和与标记的操作。
     

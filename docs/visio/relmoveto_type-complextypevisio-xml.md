@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3759d7cc-061b-0c0b-c372-b7d60effbfd0
-ms.openlocfilehash: fd0af55b33bb6c14a3d5203d1f6c469e55f91d23
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff1a822b749fcddb2f3712a5eb82f12aabec0144
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781070"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395775"
 ---
 # <a name="relmovetotype-complextype-visio-xml"></a>RelMoveTo_Type 复杂类型 (Visio XML)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19781070"
 
 |||
 |:-----|:-----|
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**架构文件** <br/> |VisioSchema15 2012 06 05.xsd  <br/> |
 |**扩展基** <br/> |GeometryRow_Type  <br/> |
    

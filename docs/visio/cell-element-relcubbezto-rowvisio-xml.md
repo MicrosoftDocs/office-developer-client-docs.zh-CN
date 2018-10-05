@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
 description: 包含 x 坐标或 y 坐标的相对于形状的宽度和高度的立方贝赛尔曲线的终结点、 的控制点的位于曲线的相对于形状的宽度和高度，开头或 x 坐标或 y 坐标的控制点的 x 坐标或 y 坐标位于曲线的相对于形状的宽度和高度的尾。
-ms.openlocfilehash: e4a5353f3ecfb514b61ee893905e54c8951a2be5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 15cfbbfd9b773169e338d7d364540582229a4ac7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779833"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398610"
 ---
 # <a name="cell-element-relcubbezto-row-visio-xml"></a>单元格元素 （RelCubBezTo 行） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19779833"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |母版页 #.xml、 页面 #.xml  <br/> |
    

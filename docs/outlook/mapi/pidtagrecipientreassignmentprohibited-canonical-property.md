@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 8636774b-1fff-4b29-bc12-4d0bd63fcba2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1e758380a22531962d0d583935afa996d3c28404
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2dac2cb1d40fadbe0cad67b144891b0ece54aae9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582348"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395124"
 ---
 # <a name="pidtagrecipientreassignmentprohibited-canonical-property"></a>PidTagRecipientReassignmentProhibited 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定是否添加其他收件人转发的邮件时, 禁止的电子邮件。
   
@@ -32,7 +32,7 @@ ms.locfileid: "22582348"
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 基于电子邮件的**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) 值设置此属性。 如果**PR_SENSITIVITY**设置为"0x00000000"（正常） 或"0x00000003"（机密），则此属性必须设置为"0x00"或不存在这意味着该添加允许附加的或不同的收件人添加到电子邮件。 如果对象的**PR_SENSITIVITY**设置为"0x00000001"（个人） 或"0x00000002:uc"（专用） 电子邮件，必须将此属性设置"0x01"以防添加其他或不同之处的转接通过此电子邮件的收件人。 
   
@@ -40,11 +40,11 @@ ms.locfileid: "22582348"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > 指定的属性和电子邮件中允许的操作。
     

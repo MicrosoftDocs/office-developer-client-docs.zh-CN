@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 649490f18bb1a14a7056b49fd846e893fba304bd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d463be4a14ecf478bdcbddc50b4ad9360829befc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575208"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396195"
 ---
 # <a name="pidtagrenderingposition-canonical-property"></a>PidTagRenderingPosition 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含偏移量，以字符，用于在呈现主消息文本中的附件。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22575208"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 时提供的偏移量为-1 (0xFFFFFFFF)，则不使用此属性中呈现附件。 -1 以外的所有值都指示频率附件是要呈现的**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 属性中的位置。
   
@@ -48,11 +48,11 @@ ms.locfileid: "22575208"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

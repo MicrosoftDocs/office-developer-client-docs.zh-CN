@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 934a08916902aae145d1d36f35413c5dd40d78cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 26a9d432d98c546aefa8f511ba2c4c9bb26cfd80
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570420"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400332"
 ---
 # <a name="pidtagurlcomponentname-canonical-property"></a>PidTagUrlComponentName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 消息的 URL 组件名称。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22570420"
 |数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |区域：  <br/> |常规消息  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性应该是唯一的文件夹中。 如果，未设置创建邮件时，消息存储应设置这些属性根据不同的消息属性，具体取决于邮件类。 例如， **IPM。注意**和**IPM。约会**邮件应将此属性设置取决于**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) 属性和**IPM。联系人**邮件应该会根据**dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) 属性设置该属性。 对于大多数其他邮件类，此属性应基于**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 属性。
   
@@ -42,15 +42,15 @@ ms.locfileid: "22570420"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     
-[[MS OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > 进行编码和解码为有效的流表示形式的消息和附件对象。
     

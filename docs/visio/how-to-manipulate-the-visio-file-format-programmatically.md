@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ''
-ms.openlocfilehash: ba3c03069235b1054dabd122471be996ec515772
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3da5d0c0c63ba58649435d2e2289b58ab30de2ef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567844"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395817"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>以编程方式处理 Visio 文件格式
 
@@ -32,15 +32,15 @@ Visio 以前的版本专有的二进制文件格式 (.vsd) 或单文档 Visio XM
 本文中，我们将研究如何使用 Visio 2013 文件格式，以编程方式使用 Microsoft.NET Framework 4.5、 C# 或 Visual Basic 和 Visual Studio 2012。 您可以了解如何以打开一个 Visio 2013 文件，选择文件内的文档部件，更改数据部件中的创建的新文档部件。
   
 > [!NOTE]
-> 本文中的代码示例假定您已在[System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx)和[System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx)命名空间的类的基本了解。 > 本文还假定您了解的概念和术语的开放打包约定。 您应该熟悉包、 文档部件或包部件和关系的概念。 有关详细信息，请参阅[OPC: 新标准打包您的数据](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx)。 > 的代码演示如何创建 LINQ （语言集成查询） 查询以选择 XML。 大多数的代码示例使用用于生成 LINQ 查询查询语法。 您可以重新编写任何 LINQ 查询，如有必要，代码中使用 LINQ 方法语法，提供。 有关 LINQ 查询语法和方法的语法的详细信息，请参阅[LINQ 查询语法与方法语法 (C#)](http://msdn.microsoft.com/en-us/library/bb397947.aspx)> 表 1 显示了通过本文工作之前应熟悉的基本主题。 
+> 本文中的代码示例假定您已在[System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx)和[System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx)命名空间的类的基本了解。 > 本文还假定您了解的概念和术语的开放打包约定。 您应该熟悉包、 文档部件或包部件和关系的概念。 有关详细信息，请参阅[OPC: 新标准打包您的数据](https://msdn.microsoft.com/magazine/cc163372.aspx)。 > 的代码演示如何创建 LINQ （语言集成查询） 查询以选择 XML。 大多数的代码示例使用用于生成 LINQ 查询查询语法。 您可以重新编写任何 LINQ 查询，如有必要，代码中使用 LINQ 方法语法，提供。 有关 LINQ 查询语法和方法的语法的详细信息，请参阅[LINQ 查询语法与方法语法 (C#)](https://msdn.microsoft.com/library/bb397947.aspx)> 表 1 显示了通过本文工作之前应熟悉的基本主题。 
   
 **表 1. 操纵 Visio 2013 文件格式的核心概念**
 
 |**文章标题**|**说明**|
 |:-----|:-----|
 |[Visio 文件格式 (.vsdx) 简介](introduction-to-the-visio-file-formatvsdx.md) <br/> |此高级 overview 介绍一些 Visio 2013 文件格式的主要功能。 它讨论开放打包约定 (OPC)，因为它们具有已应用到 Visio 2013 文件格式。 它还列出了一些 Visio 2013 文件格式和以前的 Visio XML 绘图文件格式 (.vdx) 之间的差异。  <br/> |
-|[OPC： 打包您的数据的新标准](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx) <br/> |此 MSDN 杂志文章将开放打包约定作为概念进行介绍。  <br/> |
-|[开放打包约定的基础知识](http://msdn.microsoft.com/en-us/library/ee361919.aspx) <br/> [介绍 Office (2007) Open XML 文件格式](http://msdn.microsoft.com/en-us/library/aa338205.aspx) <br/> |以下两篇文章讨论如何开放打包约定已应用于 Microsoft Office 文件。 它们包含如何关系包中的工作原理以及还包括一些代码示例的说明。  <br/> |
+|[OPC： 打包您的数据的新标准](https://msdn.microsoft.com/magazine/cc163372.aspx) <br/> |此 MSDN 杂志文章将开放打包约定作为概念进行介绍。  <br/> |
+|[开放打包约定的基础知识](https://msdn.microsoft.com/library/ee361919.aspx) <br/> [介绍 Office (2007) Open XML 文件格式](https://msdn.microsoft.com/library/aa338205.aspx) <br/> |以下两篇文章讨论如何开放打包约定已应用于 Microsoft Office 文件。 它们包含如何关系包中的工作原理以及还包括一些代码示例的说明。  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>创建 .vsdx 文件和新的 Visual Studio 解决方案
 <a name="vis15_ManipulateFF_CreateFile"> </a>
@@ -220,7 +220,7 @@ Visio 以前的版本专有的二进制文件格式 (.vsd) 或单文档 Visio XM
 ## <a name="select-and-read-package-parts-from-a-package"></a>从包中选择并读取包部件
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-为包打开该 Visio 2013 文件后，您可以访问内它使用[PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx)类**System.IO.Packaging**命名空间中包含的文档部件。 独立的或作为集合，可以实例化**PackagePart**对象。 **包**类公开的[GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx)方法以及获取**PackagePart**对象超出**包**的[GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx)方法。 **Package.GetParts**方法返回的[PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx)类中，您可以然后交互像实现的其他任何集合实例[IEnumerator\<T\>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2)接口。 
+为包打开该 Visio 2013 文件后，您可以访问内它使用[PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx)类**System.IO.Packaging**命名空间中包含的文档部件。 独立的或作为集合，可以实例化**PackagePart**对象。 **包**类公开的[GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx)方法以及获取**PackagePart**对象超出**包**的[GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx)方法。 **Package.GetParts**方法返回的[PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx)类中，您可以然后交互像实现的其他任何集合实例[IEnumerator\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2)接口。 
   
 使用以下过程中的代码，作为一个整体从 **Package** 中获取 **PackagePartCollection** 对象，循环访问集合中的 **PackagePart** 对象，并将每个 **PackagePart** 的 URI 和内容类型写入到控制台中。 
   
@@ -307,7 +307,7 @@ Visio 以前的版本专有的二进制文件格式 (.vsd) 或单文档 Visio XM
   
 个通常不多，您需要选择一个**PackagePart** ，而不必循环访问所有这些。 您可以使用它与**包**或另一个**PackagePart**关系从**包**中获取**PackagePart**对象。 与每个其他相关的文件格式是单独的实体的介绍的文档部件如何与 Visio 2013 中的关系文件包或如何两个文档部件。 例如，Visio 2013 文件包本身已与它的 Visio 文档部件的关系和 Visio 文档部件具有与 Windows 部件的关系。 这些关系表示为[PackageRelationship](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationship.aspx)或[PackageRelationshipCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationshipCollection.aspx)类的实例。 
   
-**包**类公开几种方法来获取它包含作为**PackageRelationship**或**PackageRelationshipCollection**对象的关系。 [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx)方法可用于实例化**PackageRelationshipCollection**对象，其中包含单个特定类型的**PackageRelationship**对象。 当然，使用**Package.GetRelationshipsByType**方法要求您知道您需要的关系类型。 关系类型是 XML 命名空间格式的字符串。 例如，Visio 文档部件的关系类型是http://schemas.microsoft.com/visio/2010/relationships/document。 
+**包**类公开几种方法来获取它包含作为**PackageRelationship**或**PackageRelationshipCollection**对象的关系。 [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx)方法可用于实例化**PackageRelationshipCollection**对象，其中包含单个特定类型的**PackageRelationship**对象。 当然，使用**Package.GetRelationshipsByType**方法要求您知道您需要的关系类型。 关系类型是 XML 命名空间格式的字符串。 例如，Visio 文档部件的关系类型是https://schemas.microsoft.com/visio/2010/relationships/document。 
   
 一旦您知道 **PackagePart** 与 **Package** 或与另一个 **PackagePart** 的关系（即，您有一个 **PackageRelationship** 对象引用所需的 **PackagePart**），即可使用此关系获取该 **PackagePart** 的 URI。然后您可以将 URI 传递到 **Package.GetPart** 方法以返回 **PackagePart**。
   
@@ -370,14 +370,14 @@ Visio 以前的版本专有的二进制文件格式 (.vsd) 或单文档 Visio XM
   ```cs
   // Get a reference to the Visio Document part contained in the file package.
   PackagePart documentPart = GetPackagePart(visioPackage, 
-      "http://schemas.microsoft.com/visio/2010/relationships/document");
+      "https://schemas.microsoft.com/visio/2010/relationships/document");
   
   ```
 
   ```vb
   ' Get a reference to the Visio Document part contained in the file package.
   Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-      "http://schemas.microsoft.com/visio/2010/relationships/document")
+      "https://schemas.microsoft.com/visio/2010/relationships/document")
   
   ```
 
@@ -442,9 +442,9 @@ Visio 以前的版本专有的二进制文件格式 (.vsd) 或单文档 Visio XM
   // Get a reference to the collection of pages in the document, 
   // and then to the first page in the document.
   PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-      "http://schemas.microsoft.com/visio/2010/relationships/pages");
+      "https://schemas.microsoft.com/visio/2010/relationships/pages");
   PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-      "http://schemas.microsoft.com/visio/2010/relationships/page");
+      "https://schemas.microsoft.com/visio/2010/relationships/page");
   
   ```
 
@@ -452,9 +452,9 @@ Visio 以前的版本专有的二进制文件格式 (.vsd) 或单文档 Visio XM
   ' Get a reference to the collection of pages in the document,
   ' and then to the first page in the document.
   Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-      "http://schemas.microsoft.com/visio/2010/relationships/pages") 
+      "https://schemas.microsoft.com/visio/2010/relationships/pages") 
   Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-      "http://schemas.microsoft.com/visio/2010/relationships/page") 
+      "https://schemas.microsoft.com/visio/2010/relationships/page") 
   ```
 
 您可以对文档部件中包含的 XML 进行更改之前，您需要先将 XML 文档加载到一个对象，允许您读取的 XML 中，使用[XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx)类或[XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx)类。 这两个类公开任务选择 XML 元素包含在 XML 文档中; 例如的方法创建、 读取和写入属性;并向文档中插入新的 XML 元素。 
@@ -775,7 +775,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
       // Get the Custom File Properties part from the package and
       // and then extract the XML from it.
       PackagePart customPart = GetPackagePart(filePackage, 
-          "http://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
+          "https://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
           "custom-properties");
       XDocument customPartXML = GetXMLFromPart(customPart);
       // Check to see whether document recalculation has already been 
@@ -814,7 +814,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
           ' Get the Custom File Properties part from the package and
           ' then extract the XML from it.
           Dim customPart As PackagePart = GetPackagePart(filePackage, _
-              "http://schemas.openxmlformats.org/officeDocument/2006/" + _
+              "https://schemas.openxmlformats.org/officeDocument/2006/" + _
               "relationships/custom-properties")
           Dim customPartXML As XDocument = GetXMLFromPart(customPart)
           ' Check to see whether document recalculation has already been
@@ -1010,7 +1010,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
       // This code adds a new CUSTOM tab to the ribbon for this
       // document. The tab has one group that contains one button.
       XNamespace customUINS = 
-          "http://schemas.microsoft.com/office/2006/01/customui";
+          "https://schemas.microsoft.com/office/2006/01/customui";
       XDocument customUIXDoc = new XDocument(
           new XDeclaration("1.0", "utf-8", "true"),
           new XElement(customUINS + "customUI",
@@ -1044,7 +1044,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
       ' This code adds a new CUSTOM tab to the ribbon for this
       ' document. The tab has one group that contains one button.
       Dim customUINS As XNamespace = _
-          "http://schemas.microsoft.com/office/2006/01/customui"
+          "https://schemas.microsoft.com/office/2006/01/customui"
       Dim customUIXML = New XDocument( _
           New XDeclaration("1.0", "utf-8", "true"), _
           New XElement(customUINS + "customUI", _
@@ -1136,7 +1136,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
   CreateNewPackagePart(visioPackage, customUIXML, 
       new Uri("/customUI/customUI1.xml", UriKind.Relative),
       "application/xml",
-      "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
   ```
 
   ```vb
@@ -1145,7 +1145,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
   CreateNewPackagePart(visioPackage, customUIXML, _
       New Uri("/customUI/customUI1.xml", UriKind.Relative), _
       "application/xml", _
-      "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
   ```
 
 4. 选择 F5 键以调试解决方案。该程序完成运行后，选择任意键退出。
@@ -1162,7 +1162,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="https://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="customTab" label="CUSTOM">
@@ -1188,18 +1188,18 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
 
 - Al Edlund：
     
-  - 在 CodePlex 上的[pkgVisio-Visio 2013 XML 操作](http://pkgvisio.codeplex.com/documentation)项目。 
+  - 在 CodePlex 上的[pkgVisio-Visio 2013 XML 操作](https://pkgvisio.codeplex.com/documentation)项目。 
     
-  - [pkgVisio_pt1](http://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) YouTube 上的视频。 
+  - [pkgVisio_pt1](https://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) YouTube 上的视频。 
     
-  - [pkgVisio_pt2](http://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) YouTube 上的视频。 
+  - [pkgVisio_pt2](https://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) YouTube 上的视频。 
     
-- [Visio 开发中心](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Visio 开发中心](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [操作 Office Open XML 格式文档](http://msdn.microsoft.com/en-us/library/aa982683%28v=office.12%29.aspx)
+- [操作 Office Open XML 格式文档](https://msdn.microsoft.com/library/aa982683%28v=office.12%29.aspx)
     
-- [创建包含命名空间 (C#) (LINQ to XML) 的文档](http://msdn.microsoft.com/en-us/library/bb387075.aspx)
+- [创建包含命名空间 (C#) (LINQ to XML) 的文档](https://msdn.microsoft.com/library/bb387075.aspx)
     
-- [在不启动 Microsoft Office 的情况下向文档中添加自定义 XML 部件](http://msdn.microsoft.com/en-us/library/bb608597%28VS.90%29.aspx)
+- [在不启动 Microsoft Office 的情况下向文档中添加自定义 XML 部件](https://msdn.microsoft.com/library/bb608597%28VS.90%29.aspx)
     
 

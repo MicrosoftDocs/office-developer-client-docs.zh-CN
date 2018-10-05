@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: Office for Android 提供了一个可扩展的的解决方案，可与第三方应用程序集成。您可以将用户从您的应用程序传递到 Office，从 Android 应用程序与 Office 集成。
-ms.openlocfilehash: 2fd60c7e86d3390bc5343f3e09fb2235f97e0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4e674b3d66f3acba7e9c9c19e716ff0d73d803b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774099"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393024"
 ---
 # <a name="integrate-with-office-from-android-applications"></a>从 Android 应用程序与 Office 集成
 
@@ -106,8 +106,8 @@ URL 必须进行编码，并且必须是指向文件（不是重定向）的直�
 
 - [与 Office 集成](integrate-with-office.md)
     
-- [PackageManager](http://developer.android.com/reference/android/content/pm/PackageManager.html)
+- [PackageManager](https://developer.android.com/reference/android/content/pm/PackageManager.html)
     
-- [GetPackageManager()](http://developer.android.com/reference/android/content/Context.html)
+- [GetPackageManager()](https://developer.android.com/reference/android/content/Context.html)
     
 

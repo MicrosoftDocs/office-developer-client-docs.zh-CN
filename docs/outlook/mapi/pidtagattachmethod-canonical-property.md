@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
 description: 上次修改时间： 9 月 7，2016年
-ms.openlocfilehash: 697f7e8045ca198c2c10b9396f19cb2d7ce8346e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b84549ab31c939b4e6115795916ebd3520a96dbd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583650"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400724"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>PidTagAttachMethod 规范属性
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含一个 MAPI 定义的常数，表示可以访问附件的内容的方式。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22583650"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性可以具有完全下列值之一：
   
@@ -86,7 +86,7 @@ OLE 2.0 **IStorage**格式 OLE 对象时，数据是可通过**PR_ATTACH_DATA_OB
   
 OLE 接口和格式的详细信息，请参阅*OLE 程序员参考*。 
   
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 **ATTACH_BY_WEBREFERENCE** **PR_ATTACH_METHOD**后，附件内容不在邮件中。 相反，则**PR_ATTACH_LONG_FILENAME**属性包含附件内容，联机存储的绝对 URL。 
   
@@ -94,7 +94,7 @@ OLE 接口和格式的详细信息，请参阅*OLE 程序员参考*。
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > 处理邮件和附件的对象。
     

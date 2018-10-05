@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2f571c65-6b7a-5a3a-c075-3c52d3ab989b
 description: 代表超链接的说明性文本字符串。
-ms.openlocfilehash: 567a90b3162c109582c3149c156a994392980577
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b58e6dc3ec2fc3b64db00e0f19e0718fe897aaa3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780105"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396622"
 ---
 # <a name="description-cell-hyperlinks-section"></a>Description 单元格（“Hyperlinks”部分）
 
@@ -22,7 +22,7 @@ ms.locfileid: "19780105"
   
 ## <a name="remarks"></a>注解
 
-使用此单元格可以存储有关超链接的注释；例如，“链接到我们的价格网站”。
+此单元格用于存储有关超链接; 注释例如，"我们定价网站链接。"
   
 您还可以在 **“超链接”** 对话框（在 **“插入”** 选项卡上单击 **“超链接”**）中设置此单元格的值。 
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fe3a76fa246cba9447db2f99562670973af183ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568698"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398393"
 ---
 # <a name="loading-message-store-providers"></a>加载邮件存储区提供程序
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 当客户端应用程序打开的消息存储时，MAPI 将消息存储提供程序的 DLL 加载到内存中。 MAPI 加载 DLL 之后，非常特定的方法调用序列消息存储提供程序和 MAPI 之间。 此方法的调用序列启用 MAPI 获取顶级[IMSProvider: IUnknown](imsprovideriunknown.md)， [IMSLogon: IUnknown](imslogoniunknown.md)，和[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)接口，并允许消息存储提供程序获取 MAPI 支持对象。 后的呼叫顺序的消息存储提供程序应该就可以接受来自客户端登录。 
   
@@ -33,7 +33,7 @@ ms.locfileid: "22568698"
     
 4. MAPI 调用[IMSProvider::Logon](imsprovider-logon.md)，传递客户端应用程序的消息存储项标识符。
     
-5. **IMSProvider::Logon**创建并返回[IMSLogon: IUnknown](imslogoniunknown.md)接口和[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)接口，然后调用上的[IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法及其[IMAPISupport: IUnknown](imapisupportiunknown.md)接口。 如果客户端的消息存储条目标识符指的是已打开的消息存储，可以返回现有**IMSLogon**和**IMsgStore**接口的消息存储提供程序，并且不需要对其支持的对象调用**AddRef** 。 
+5. **IMSProvider::Logon**创建并返回[IMSLogon: IUnknown](imslogoniunknown.md)接口和[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)接口，然后调用上的[IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx)方法及其[IMAPISupport: IUnknown](imapisupportiunknown.md)接口。 如果客户端的消息存储条目标识符指的是已打开的消息存储，可以返回现有**IMSLogon**和**IMsgStore**接口的消息存储提供程序，并且不需要对其支持的对象调用**AddRef** 。 
     
 6. 如果客户端没有设置 MAPI_NO_MAIL 标志时其登录和它未在步骤 1，MAPI 中设置 MDB_NO_MAIL，消息存储的项标识符 MAPI 后台处理程序这样 MAPI 后台处理程序可以登录到的消息存储。
     

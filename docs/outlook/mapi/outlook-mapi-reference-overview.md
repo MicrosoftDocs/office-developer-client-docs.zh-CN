@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: 上次修改时间： 2013 年 2 月 1 日
-ms.openlocfilehash: bb7831ab79512eb8ca0018905e359654d7177cac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5c1daf44f89d1ef8aa7472d69dfd7e86bbb92f6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564778"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387998"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Outlook MAPI 引用概述
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 本主题提供有关 Outlook 2013 MAPI 参考文档的概述信息。
   
@@ -32,7 +32,7 @@ Microsoft Office Outlook 2007，之前 MAPI 程序员参考是 Microsoft Exchang
   
 与 Microsoft Exchange 实现不同的 MAPI Outlook 实现。 Outlook 实现专为客户端计算机上运行并强调低延迟。 Exchange 实施供服务器其中高可用性和更多线程重要。
   
-在最终用户系统上运行的应用程序使用本文档。 服务器应用程序，使用 MAPI 如果合适，Exchange 实现或使用如 Exchange Web 服务的当前 Exchange Api。 Exchange Web 服务的详细信息，请参阅[Exchange Web 服务引用](http://msdn.microsoft.com/en-us/library/bb204119.aspx)。
+在最终用户系统上运行的应用程序使用本文档。 服务器应用程序，使用 MAPI 如果合适，Exchange 实现或使用如 Exchange Web 服务的当前 Exchange Api。 Exchange Web 服务的详细信息，请参阅[Exchange Web 服务引用](https://msdn.microsoft.com/library/bb204119.aspx)。
   
 它可能可以编写使用 Outlook 或 Exchange 实现的 MAPI 的应用程序。 例如，MFCMAPI 也在任一平台上工作。 实现具有许多常见的功能，但有区别明显和不明显。 您将需要如果您希望您的应用程序，在所有的环境中工作，仔细测试这两个平台上。 此测试将需要两个系统，因为不支持运行于同一操作系统安装的两个实现。
   
@@ -46,7 +46,7 @@ Microsoft Office Outlook 2007，之前 MAPI 程序员参考是 Microsoft Exchang
     
 如果您是新开发面向 Outlook 的 MAPI 应用程序，请参阅以下主题：
   
-- [选择的 API 或技术来开发解决方案的 Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
+- [选择的 API 或技术来开发解决方案的 Outlook 2013](https://msdn.microsoft.com/library/jj900714.aspx)
     
 - [常用头文件](commonly-used-header-files.md)
     

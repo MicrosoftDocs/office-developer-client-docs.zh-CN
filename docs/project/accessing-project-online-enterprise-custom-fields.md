@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: Project Online 是 Office 365 服务，公司可以扩展以满足业务需求。 一个扩展区域是企业自定义域 (ECFs)。 ECFs 不可以添加到项目、 资源和任务的类型的值字段。 下表列出了将与项目、 资源和任务相关联的 ECFs，并为该 ECF 实例提供值的示例：
-ms.openlocfilehash: d560b258f2c9873844009cb6bc6e698abec029a6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 978fdfbf4ba75382ad85b9f92f8ac4df5c7f97c8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584602"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401151"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>访问 Project Online 企业自定义字段
 
 Project Online 是 Office 365 服务，公司可以扩展以满足业务需求。 一个扩展区域是企业自定义域 (ECFs)。 ECFs 不可以添加到项目、 资源和任务的类型的值字段。 下表列出了将与项目、 资源和任务相关联的 ECFs，并为该 ECF 实例提供值的示例：
   
-|ECF 名称|ECF 类型|Association|示例值|
+|ECF 名称|ECF 类型|关联|示例值|
 |:-----|:-----|:-----|:-----|
 |字距调整  <br/> |TEXT  <br/> |Project  <br/> |最终用户可以记录重要统计信息和运行状况数据，包括运行状况评估和个性化的操作的结果达到更好的运行状况的计划。  <br/> |
 |风险评估  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
@@ -207,7 +207,7 @@ ListPWACustomFields 方法检索并列出 ECFs 与项目关联。 此方法列�
 
 - [项目开发门户](https://developer.microsoft.com/en-us/project)
 - [概述： 企业自定义域和查阅表格](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
-- [本地和企业自定义域](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
-- [添加或编辑 Project Server 2013 中的企业自定义域](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)
+- [本地和企业自定义域](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
+- [添加或编辑 Project Server 2013 中的企业自定义域](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
 

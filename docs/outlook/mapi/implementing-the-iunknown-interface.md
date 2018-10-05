@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 01bba63b-a2a1-490e-8b78-5c9ba8d9547b
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: f9ab3b75743d882aca0145b73b8ef707204cc8de
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5165476ea131e40153191e8625af5ea3c49f47b1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571897"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397413"
 ---
 # <a name="implementing-the-iunknown-interface"></a>实施 IUnknown 接口
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx)接口中每个 MAPI 对象，, 实现的方法支持 interobject 通信和对象管理。 
+[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)接口中每个 MAPI 对象，, 实现的方法支持 interobject 通信和对象管理。 
   
- **IUnknown**具有三个方法： [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)、 [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx)和[IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx)。 **QueryInterface**启用一个对象，以确定另一个对象是否支持特定的接口。 与**QueryInterface**，事先不了解彼此的功能与两个对象可以进行交互。 如果实现**QueryInterface**的对象不支持问题的接口，它将返回的实现的接口的指针。 如果对象不支持所请求的接口，则返回的 MAPI_E_INTERFACE_NOT_SUPPORTED 值。 
+ **IUnknown**具有三个方法： [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)、 [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)和[IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx)。 **QueryInterface**启用一个对象，以确定另一个对象是否支持特定的接口。 与**QueryInterface**，事先不了解彼此的功能与两个对象可以进行交互。 如果实现**QueryInterface**的对象不支持问题的接口，它将返回的实现的接口的指针。 如果对象不支持所请求的接口，则返回的 MAPI_E_INTERFACE_NOT_SUPPORTED 值。 
   
 当**QueryInterface**返回请求的接口指针时，它还必须增加新对象的引用计数。 对象的引用计数是用于管理对象的生命周期的数值。 当引用计数大于 1 时，因为正在使用它无法释放对象的内存。 它是仅当引用计数降至 0 对象可以安全地释放。 
   

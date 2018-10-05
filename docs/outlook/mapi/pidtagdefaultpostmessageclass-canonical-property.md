@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 231c288f-547b-4463-9442-1499661b925e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2b4013b311289816f778d7559ee3bcc7dc061538
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0ab904625d3a23462a4fedf3b64f49c54b34ad28
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574333"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401725"
 ---
 # <a name="pidtagdefaultpostmessageclass-canonical-property"></a>PidTagDefaultPostMessageClass 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含自定义窗体邮件类的名称。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22574333"
 |数据类型：  <br/> |PT_STRING8  <br/> |
 |区域：  <br/> |MAPI 容器  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果此属性设置在文件夹，则必须包含完全基础邮件类别 (例如，"IPM。联系人"的联系人文件夹或"IPM。约会"的日历文件夹），或开始具有基本邮件类 (例如，"IPM。Contact.MyContact")。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22574333"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

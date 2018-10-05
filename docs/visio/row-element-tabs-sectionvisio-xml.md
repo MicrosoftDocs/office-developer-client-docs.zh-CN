@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: 包含控制制表位位置和对齐方式的形状或样式的单元格。
-ms.openlocfilehash: 7d233e5051e5b7ab9715d2840182b1426f31f5bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3299a35a3f7391e587a31869adf64caf3c614f08
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781178"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395286"
 ---
 # <a name="row-element-tabs-section-visio-xml"></a>Row 元素 （Tabs 内容） (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19781178"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |document.xml，母版页 #.xml、 页面 #.xml  <br/> |
    

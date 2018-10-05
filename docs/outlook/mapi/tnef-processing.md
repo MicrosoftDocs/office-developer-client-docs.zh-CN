@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d324fb3-d917-4502-b3a4-179c479deb79
 description: 上次修改时间： 2012 年 7 月 5 日
-ms.openlocfilehash: e6b3ef7c7eb469a5de909d440e22e522218a41f8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 066ad3dfb64161e326b92fef7774d5b3b9461d8a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569489"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399566"
 ---
 # <a name="tnef-processing"></a>TNEF 处理
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 以下一系列操作描述传输如何使用 TNEF 方法处理传出和传入邮件。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22569489"
     
 5. 使用[ITnef: IUnknown](itnefiunknown.md)接口方法插入标记描述消息文本中的邮件附件的位置。 
     
-6. 通过[IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx)方法访问已标记的邮件文本，并将其发送给邮件系统。 
+6. 通过[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)方法访问已标记的邮件文本，并将其发送给邮件系统。 
     
  **若要检索封装的属性**
   

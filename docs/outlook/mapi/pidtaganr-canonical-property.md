@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: eca3d4ff-2e92-4d20-a498-98e0773c1962
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6cc5edf1c93ca94fb9d8cab302ccd8e96373cd94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce08ba971662b7f5060e6b24a6d2c5ee1a921d5b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581942"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400437"
 ---
 # <a name="pidtaganr-canonical-property"></a>PidTagAnr 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含在通讯簿容器内容表属性限制中使用的字符串值。 
   
@@ -34,7 +34,7 @@ ms.locfileid: "22581942"
 |数据类型：  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |区域：  <br/> |通讯簿  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这些属性不属于任何对象;它提供通过[SPropertyRestriction](spropertyrestriction.md)结构中的通讯簿提供程序。 此属性包含可以对通讯簿容器内容表，以查找相应邮件的收件人，测试模糊名称解析 (ANR) 字符串。 
   
@@ -46,11 +46,11 @@ ms.locfileid: "22581942"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c27b1239-3612-4bb3-9f22-4b89ee9900cd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: beb2c46b43ae77de08900aeb987d875e85575aba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 34e8a3c73715a75b8007646e5ba3b0dc3e1ae919
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563182"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395530"
 ---
 # <a name="pidlidsharingresponsetype-canonical-property"></a>PidLidSharingResponseType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定的收件人的共享请求的响应的响应的类型。 这是邮件的共享的属性。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22563182"
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性的值必须设置为下列值之一：
   
@@ -49,11 +49,11 @@ ms.locfileid: "22563182"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > 共享客户端之间的邮箱文件夹。
     

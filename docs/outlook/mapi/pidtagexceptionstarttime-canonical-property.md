@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a8de1a90c0dde029cc6880fe46b0c4d4af9b50ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ed498295de6748dfa50f1f4a8ba2710c8be64f7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579058"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383777"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>PidTagExceptionStartTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指示的开始日期和时间的计算机的本地时区异常时创建例外。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22579058"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |类定义消息非可传送  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 > [!NOTE]
 > 此属性仅供参考，必须不依赖的重要信息。 
@@ -43,7 +43,7 @@ ms.locfileid: "22579058"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > 指定的属性和约会、 会议请求和响应消息的操作。
     

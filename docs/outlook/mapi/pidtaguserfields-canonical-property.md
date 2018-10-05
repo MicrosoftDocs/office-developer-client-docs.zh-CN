@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a584c6beec0f06ab4cc6bd95f4611d1f30189a8e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 680c9dd9db2743c031de7cda4673d7044ec533e8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595151"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397427"
 ---
 # <a name="pidtaguserfields-canonical-property"></a>PidTagUserFields 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含名称、 数据类型和用户定义的字段的其他信息。
   
@@ -30,7 +30,7 @@ ms.locfileid: "22595151"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 文件夹  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 对于每个项，Outlook 相应**IMessage**对象的[PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)属性中存储所有用户定义的字段的定义。 **PidLidPropertyDefinitionStream**属性将包含二进制流称为[属性定义](propertydefinition-stream-structure.md)，其中包含的字段定义。 有关字段定义流结构的详细信息，请参阅[流结构](stream-structures.md)。
   
@@ -45,7 +45,7 @@ ms.locfileid: "22595151"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     

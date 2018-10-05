@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1c65d2df-86a3-48d5-9fec-a9040f3b878c
 description: Outlook Social Connector (OSC) 提供程序参考介绍如何使用 OSC 提供程序扩展性开发 OSC 提供程序。
-ms.openlocfilehash: 19f5ffe8987d0b19017692ddb8f7888be2140033
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24f8eabe33103f53e848f055b72fd402bc5dd89a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779194"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392163"
 ---
 # <a name="getting-started-with-developing-an-outlook-social-connector-provider"></a>Outlook Social Connector 提供程序开发入门
 
-Outlook Social Connector (OSC) 提供程序参考介绍如何使用 OSC 提供程序扩展性开发 OSC 提供程序。 如果您是新增开发 Outlook 解决方案，请参阅[选择的 API 或技术用于开发 Outlook 解决方案](http://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx)来标识的 Api 和技术的最适合您的需求。 
+Outlook Social Connector (OSC) 提供程序参考介绍如何使用 OSC 提供程序扩展性开发 OSC 提供程序。 如果您是新增开发 Outlook 解决方案，请参阅[选择的 API 或技术用于开发 Outlook 解决方案](https://msdn.microsoft.com/library/8295da20-e567-4d08-b8e4-5c9b4498edd4%28Office.15%29.aspx)来标识的 Api 和技术的最适合您的需求。 
 
 本节提供 OSC、 OSC 提供程序可用于学习如何开发提供程序、 技术要求的开发提供程序，最佳实践的有用、 快速步骤和 what's new in 此发行版的概述。 
   
@@ -55,8 +55,8 @@ Outlook Social Connector (OSC) 提供程序参考介绍如何使用 OSC 提供�
   
 ## <a name="see-also"></a>另请参阅
 
-- [Microsoft Outlook Social Connector 32 位](http://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
-- [Outlook Social Connector (KB983403) 32 位版本的更新](http://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
-- [Outlook Social Connector (KB983403) 64 位版本的更新](http://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
-- [Outlook Social Connector 2013： 提供程序模板](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
+- [Microsoft Outlook Social Connector 32 位](https://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
+- [Outlook Social Connector (KB983403) 32 位版本的更新](https://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
+- [Outlook Social Connector (KB983403) 64 位版本的更新](https://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
+- [Outlook Social Connector 2013： 提供程序模板](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
 

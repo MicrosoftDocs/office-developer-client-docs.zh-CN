@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 265028b7-a583-f6ba-0214-5a4322f98f35
 description: 初始化 IOlkApptRebaser 对象用于在 Outlook 日历中定位约会。
-ms.openlocfilehash: fec0407c3f129290d03f9b26b0b3f072a229b003
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 33ad47d59ee2ca1b2461f730494f3466b9f8b54a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774199"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397539"
 ---
 # <a name="hrcreateapptrebaser"></a>HrCreateApptRebaser
 
@@ -22,9 +22,9 @@ ms.locfileid: "19774199"
 
 |||
 |:-----|:-----|
-|头文件：  <br/> |tzmovelib.h  <br/> |
-|通过实现：  <br/> |tzmovelib.dll  <br/> |
-|调用：  <br/> |MAPI 客户端应用程序  <br/> |
+|标头文件：  <br/> |tzmovelib.h  <br/> |
+|实现者：  <br/> |tzmovelib.dll  <br/> |
+|调用者：  <br/> |MAPI 客户端应用程序  <br/> |
 |指针类型：  <br/> |**LPHRCREATEAPPTREBASER** <br/> |
 |DLL 入口点：  <br/> |**HrCreateApptRebaser@44** <br/> |
    
@@ -106,7 +106,7 @@ pTZMissing
     
 _ppError_
   
-> [输出]指向包含用于错误的版本、 组件及上下文信息**MAPIERROR**结构的指针的指针。 可以为 NULL，如果需要未扩展的错误的信息。 释放与[MAPIFreeBuffer](http://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx)。 
+> [输出]指向包含用于错误的版本、 组件及上下文信息**MAPIERROR**结构的指针的指针。 可以为 NULL，如果需要未扩展的错误的信息。 释放与[MAPIFreeBuffer](https://msdn.microsoft.com/library/9412594f-8acc-4c7e-a668-4ec1da0ad9cf%28Office.15%29.aspx)。 
     
 _ppApptRebase_
   
@@ -118,9 +118,9 @@ _ppApptRebase_
   
 ## <a name="remarks"></a>注释
 
-当使用[GetProcAddress](http://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx)查找 tzmovelib.dll 中此函数的地址，指定**HrCreateApptRebaser@44**作为过程名称。 并非所有标记都有效与每个其他结合使用。 
+当使用[GetProcAddress](https://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx)查找 tzmovelib.dll 中此函数的地址，指定**HrCreateApptRebaser@44**作为过程名称。 并非所有标记都有效与每个其他结合使用。 
   
-有关的各种选项的详细信息，请参阅"command-line options for Outlook 所在的时区数据更新工具词汇表"一节中的[KB 931667： 如何使用 Microsoft Office outlook 的时区数据更新工具地址时区更改](http://support.microsoft.com/kb/931667/en-us)。
+有关的各种选项的详细信息，请参阅"command-line options for Outlook 所在的时区数据更新工具词汇表"一节中的[KB 931667： 如何使用 Microsoft Office outlook 的时区数据更新工具地址时区更改](https://support.microsoft.com/kb/931667/en-us)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 集成整个 SharePoint 场中的项目管理功能，并允许使用 Project Online 与客户端对象模型 (CSOM) 和的 OData 接口的报告数据。
-ms.openlocfilehash: 992fae3790b8bdb6ab55f41d42ef0229a75e255c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 633532d85b4d910c11a284231cb9a4c3e5a549cc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779564"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394093"
 ---
 # <a name="project-server-architecture"></a>Project Server 体系结构
 
@@ -113,7 +113,7 @@ Project Server 与网站集相关联，并且具有完全控制时, Project Serv
     > [!NOTE]
     > PSI 中的 web 服务 SOAP 基于 ASMX 接口 Project Server 2013 中仍然可用，但已被弃用。 
   
-    由内部 OData.svc WCF 服务实现报告的 OData 服务。 可以通过使用的报表数据来获取服务元数据文档`http://ServerName/ProjectServerName/_api/ProjectData/$metadata`。 
+    由内部 OData.svc WCF 服务实现报告的 OData 服务。 可以通过使用的报表数据来获取服务元数据文档`https://ServerName/ProjectServerName/_api/ProjectData/$metadata`。 
     
     CSOM 的 OData 服务适用于 Windows RT、 iOS 和 Android，其中您可以使用 REST 接口与 JavaScript 中的 HTML 页等的平台。 
     
@@ -165,7 +165,7 @@ Project Professional 2013 和 Project Web App 使用 PSI 访问中的草稿、 �
   
 某些业务线 (LOB) 应用程序和其他第三方开发的应用程序的 Project Server 2010 需要尚不会出现在 CSOM 的 PSI 服务。 如果这些目标仅在本地安装的 Project Server，应用程序可以继续使用 WCF 接口或 PSI 的 ASMX 接口。
   
-客户端应用程序调用 PSI 通过服务代理。 使用 WCF 接口的客户端访问所有 PSI 服务通过`http://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`。 使用 ASMX web 服务接口的客户端使用的特定服务的 Project Web App 的 URL。 例如，**资源**服务位于`http://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`。 如果应用程序没有 intranet 访问 Project Server，他们可以在外围网络 （不显示在图 3） 使用的 Project Web App 服务器。
+客户端应用程序调用 PSI 通过服务代理。 使用 WCF 接口的客户端访问所有 PSI 服务通过`https://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`。 使用 ASMX web 服务接口的客户端使用的特定服务的 Project Web App 的 URL。 例如，**资源**服务位于`https://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`。 如果应用程序没有 intranet 访问 Project Server，他们可以在外围网络 （不显示在图 3） 使用的 Project Web App 服务器。
   
 图 4 显示**连接**窗格在**Internet 信息服务 (IIS) 管理器中**的单服务器安装的 SharePoint Server 2013 和 Project Server 2013 本地工作流管理网站的工作流管理器客户端 1.0。 SharePoint 网站集 (A) 包括前端 PSI 服务中的`_vti_bin\PSI`虚拟子目录。 SharePoint Web 服务应用程序 (B) 包括 Project Service 应用程序后, 端 PSI 服务中与`508c23fb7dfd4c83a8919fae24bc68c5/PSI`虚拟子目录。 GUID 是 Project Server 安装的 Project Service 应用程序实例的名称。 
   
@@ -173,7 +173,7 @@ Project Professional 2013 和 Project Web App 使用 PSI 访问中的草稿、 �
 
 ![前端 PSI 和后端 PSI](media/pj15_Architecture_PSI_IIS.gif "前端 PSI 和后端 PSI")
   
-客户端应用程序无法直接访问后端 Project Service 应用程序中的 PSI 的 WCF 服务。 如果它们不需要访问 Project Online，客户端应用程序和组件的 LOB 应用程序使用 PSI 代理。 如图 4 中的**资源**服务的 WCF 接口的后端 URL 将为`http://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`。 端口 32843 是为 SharePoint Web 服务应用程序的默认 HTTP 端口 （32844 为 HTTPS 通信的端口）。 但是，web.config 文件中的为 Project Web App 块直接访问后端 PSI 服务。
+客户端应用程序无法直接访问后端 Project Service 应用程序中的 PSI 的 WCF 服务。 如果它们不需要访问 Project Online，客户端应用程序和组件的 LOB 应用程序使用 PSI 代理。 如图 4 中的**资源**服务的 WCF 接口的后端 URL 将为`https://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`。 端口 32843 是为 SharePoint Web 服务应用程序的默认 HTTP 端口 （32844 为 HTTPS 通信的端口）。 但是，web.config 文件中的为 Project Web App 块直接访问后端 PSI 服务。
   
 > [!NOTE]
 > Project 2013 SDK 下载包括用于 WCF 服务和 ASMX 服务的 PSI 代理文件以及如何将其编译为代理程序集的说明。 > 到创建使用 WCF 接口的更新的 PSI 代理文件，您需要在 Project Server 计算机上直接使用 svcutil.exe 实用程序或 Visual Studio。 
@@ -261,12 +261,12 @@ Project Server 允许在项目经理使用草稿版本时通过执行以下步�
     
 ## <a name="see-also"></a>另请参阅
 
-- [面向开发人员的 Project 2013 概述](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [面向开发人员的 Project 2013 概述](https://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
 - [Project Server 可编程性](project-server-programmability.md)  
 - [Project 2013 的客户端对象模型 (CSOM)](client-side-object-model-csom-for-project-2013.md)  
 - [PSI 执行和不执行的操作](what-the-psi-does-and-does-not-do.md)  
 - [开发 Project Server 工作流入门](getting-started-developing-project-server-workflows.md)   
 - [项目 PSI 参考概述](project-psi-reference-overview.md)   
-- [开放式数据协议](http://www.odata.org/)（http://www.odata.org）
+- [开放式数据协议](https://www.odata.org/)（http://www.odata.org）
     
 

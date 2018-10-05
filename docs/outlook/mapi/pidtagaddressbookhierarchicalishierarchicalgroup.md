@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 15c635992134d61329f2f49c0fe3dd84d7225837
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 37a0e31ea368f091e3ad9c46473d3d33299d5a21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577126"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396601"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>PidTagAddressBookHierarchicalIsHierarchicalGroup
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 如果通讯组列表也是部门组，包含 TRUE。 此属性是仅在通讯组列表上可用。
   
@@ -39,11 +39,11 @@ ms.locfileid: "22577126"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Microsoft Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](http://msdn.microsoft.com/en-us/library/cc433489%28v=exchg.80%29)
+[[MS OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
   
 > 指定的属性和用户、 联系人、 组和资源的操作列表。
     

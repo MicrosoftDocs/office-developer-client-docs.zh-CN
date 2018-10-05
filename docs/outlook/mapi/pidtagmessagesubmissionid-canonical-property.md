@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3a26a8483e584ccc5cf9f33e0dbd75f379c01633
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 723affa054cb35a9cc7a2ee28e051e3b9a6d04e0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569664"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401662"
 ---
 # <a name="pidtagmessagesubmissionid-canonical-property"></a>PidTagMessageSubmissionId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含的邮件传输代理 (MTA) 的邮件传输系统 (MTS) 标识符。
   
@@ -34,7 +34,7 @@ ms.locfileid: "22569664"
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |电子邮件  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 此属性返回的邮件提交的成功完成后 MTA。 有关此消息，如请求取消 MTA 与任何将来联系人使用此属性中 MTS 标识符。
   
@@ -42,11 +42,11 @@ ms.locfileid: "22569664"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供了相关的 Exchange Server 协议规范参考。
     
-[[MS OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > 进行编码和解码为有效的流表示形式的消息和附件对象。
     

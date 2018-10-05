@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 7d01f07b5eb5ca34b4bd825b62b7d1520b853d6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 027905721b5730b4c3d78f496022b88a8e6b84d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564260"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397021"
 ---
 # <a name="olfi"></a>OLFI
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 个人文件夹文件 (PST) 存储提供程序用于分配新的邮件或文件夹在脱机模式下的条目 ID 的长期 ID 结构的队列。
   
@@ -67,9 +67,9 @@ typedef struct {
   
 - 标识的下一个可用的条目的长期 ID 结构。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-条目 ID 是 4 字节 MAPI 项标识符的文件夹或一条消息。 有关详细信息，请参阅[ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424)。
+条目 ID 是 4 字节 MAPI 项标识符的文件夹或一条消息。 有关详细信息，请参阅[ENTRYID](https://msdn.microsoft.com/library/ms836424)。
   
 当 PST 存储提供程序将条目 ID 分配给一个新的对象时，首先需要标识服务器的 GUID 和标识存储区中的对象的索引。 即使跨所有条目 Id GUID 不唯一，GUID 和索引组合将提供一个唯一的项。 此 GUID 和索引对跟踪通过长期的 ID 结构**LTID**，这是**OLFI**结构的一部分。 
   

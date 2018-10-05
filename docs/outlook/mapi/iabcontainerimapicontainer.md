@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 519093b3c538037b5a42bc19cc65ed31ae19f07b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0905fbe2ba584aef49c50152aaf448267d477c10
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580703"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392184"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
@@ -27,10 +27,10 @@ ms.locfileid: "22580703"
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |Mapidefs.h  <br/> |
 |由公开：  <br/> |通讯簿容器对象  <br/> |
-|通过实现：  <br/> |通讯簿提供程序  <br/> |
-|调用：  <br/> |MAPI 和客户端应用程序  <br/> |
+|实现者：  <br/> |通讯簿提供程序  <br/> |
+|调用者：  <br/> |MAPI 和客户端应用程序  <br/> |
 |接口标识符：  <br/> |IID_IABContainer  <br/> |
 |指针类型：  <br/> |LPABCONT  <br/> |
 |事务模型：  <br/> |事务处理  <br/> |
@@ -60,9 +60,9 @@ ms.locfileid: "22580703"
 |**PR_DEF_CREATE_MAILUSER**([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |只读  <br/> |
 |**PR_DISPLAY_TYPE**([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
-**IABContainer**接口从[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx)接口通过间接继承[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)和[IMAPIProp: IUnknown](imapipropiunknown.md)接口。 通讯簿提供程序实现**IABContainer**接口。 
+**IABContainer**接口从[IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx)接口通过间接继承[IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md)和[IMAPIProp: IUnknown](imapipropiunknown.md)接口。 通讯簿提供程序实现**IABContainer**接口。 
   
 通讯簿容器中存在可以任意数量的消息的用户对象、 通讯组列表和其他通讯簿容器。 与任何容器，客户端或服务提供商可以使用通讯簿容器来打开其项之一或检索层次结构表或内容表。 通讯的簿容器还提供名称解析，取决于提供程序，可以添加、 删除或修改条目。
   

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
 description: Microsoft InfoPath 支持到另一个移动表单模板从一个位置，将其发送作为附件转发到电子邮件，并创建完全信任的表单模板进行数字签名或安装。
-ms.openlocfilehash: ea0145eb45f6a03dc8637ba5ec1dc1c80d240006
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774084"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396874"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>安全级别、 电子邮件部署和远程表单模板
 
@@ -186,7 +186,7 @@ InfoPath Designer 中的所有表单都是通过标识来创建的。此标识�
     
 ### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>在 extranet 上的示例： 部署受限表单模板
   
-1. 将"域"表单模板保存到运行 Microsoft SharePoint Foundation 2010 的网站。
+1. 在运行 Microsoft SharePoint Foundation 2010 网站上保存域表单模板。
     
 2. 将该表单模板的安全级别更改为"受限"。
     
@@ -200,7 +200,7 @@ InfoPath Designer 中的所有表单都是通过标识来创建的。此标识�
     
 7. 要求用户在填写表单后将其返回给您。
     
-8. 将表单保存回运行 SharePoint Foundation 2010 的网站，并通过使用**表单库设置**页中的**重新链接到此库的文档**选项重新链接该表单。 
+8. 将表单保存回运行 SharePoint Foundation 2010 的网站并通过使用**表单库设置**页中的**重新链接到此库的文档**选项重新链接该表单。 
     
 ## <a name="signature-verification-failure"></a>签名验证失败
 

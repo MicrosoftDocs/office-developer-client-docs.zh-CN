@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cc71974d841005785932cc9017d44c3c0614687d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ef929bf778fabc4350f553d185838dd5cb2cf0b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563385"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395796"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 打开基于给定配置文件的脱机对象。
   
@@ -32,8 +32,8 @@ ms.locfileid: "22563385"
 |||
 |:-----|:-----|
 |导出：  <br/> |msmapi32.dll  <br/> |
-|调用：  <br/> |客户端  <br/> |
-|通过实现：  <br/> |Outlook  <br/> |
+|调用者：  <br/> |客户端  <br/> |
+|实现者：  <br/> |Outlook  <br/> |
    
 ```cpp
 typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)( 
@@ -77,11 +77,11 @@ MAPI_E_NOT_FOUND
   
 - 函数调用失败。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 这是客户端发出时在客户端需要的任何给定配置文件的连接状态更改通知的第一个呼叫。 时调用**HrOpenOfflineObj**，客户端获取脱机支持**IMAPIOfflineMgr**的对象。 客户端可以检查回调对象 （通过使用[IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)） 支持的类型，然后设置回调 （通过使用[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)）。
   
-当使用[GetProcAddress](http://msdn.microsoft.com/en-us/library/ms683212.aspx)查找 msmapi32.dll 中此函数的地址，指定**HrOpenOfflineObj@20**作为过程名称。 
+当使用[GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx)查找 msmapi32.dll 中此函数的地址，指定**HrOpenOfflineObj@20**作为过程名称。 
   
  **HrOpenOfflineObj**仅适用于客户端的 COM 加载项，并在 Outlook 进程内运行的 Exchange 客户端扩展 MAPI 提供程序。 否则， **HrOpenOfflineObj**返回**MAPI_E_NOT_FOUND**。 
   

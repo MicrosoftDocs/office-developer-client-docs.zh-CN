@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
 description: 包含文档的 DataConnection 元素。
-ms.openlocfilehash: 4de4429985ab0417341224f7f9e267a9873c6504
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b1619253a2818f2a181d281c78a0445318ed6ca
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780033"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395026"
 ---
 # <a name="dataconnections-element-visio-xml"></a>DataConnections 元素 (Visio XML)
 
@@ -23,7 +23,7 @@ ms.locfileid: "19780033"
 |||
 |:-----|:-----|
 |**元素类型** <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |
-|**命名空间** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**架构文件** <br/> |VisioSchema15.xsd  <br/> |
 |**文档部件** <br/> |connections.xml  <br/> |
    

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c1a725583faf13fe8b46616d9d341798298a8b53
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3fcfd00f71a308dce625e6636edbe647f3d7258a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563434"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393388"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>PidLidReminderSignalTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 指定当提醒从过渡挂起到过期时间点。
   
@@ -35,7 +35,7 @@ ms.locfileid: "22563434"
 |数据类型：  <br/> |PT_SYSTIME  <br/> |
 |区域：  <br/> |Reminder  <br/> |
    
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 如果**dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) 属性为 TRUE，则必须设置此属性。 客户端必须设置的值以协调世界时 (UTC)。
   
@@ -43,11 +43,11 @@ ms.locfileid: "22563434"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > 提供属性集定义和相关的 Exchange Server 协议规范的引用。
     
-[[MS OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > 指定属性和电子邮件和其他对象提醒的交互模型。
     

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
 description: 上次修改时间： 2013 年 2 月 24 日
-ms.openlocfilehash: 62269b823810964fc0e5749aa6a57d39c503e2b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: acc0986dd80b549b0cb2b941a6937d47a4a959fe
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573577"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393871"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 启动个人文件夹 (.pst) 文件的解除过程。
   
@@ -51,7 +51,7 @@ S_OK
   
 > 函数调用成功。
     
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>说明
 
 必须使用数字证书签名 wzDllPath 参数指定的 DLL。 DLL 必须还导出带以下签名的函数。
   
@@ -61,7 +61,7 @@ extern "C" HRESULT __cdecl HrTrustedPSTOverrideHandlerCallback(IMsgStore *pmstor
 
 与指向 PST 的 IMsgStore 对象的、 指向实现 IPSTOVERRIDE1 接口，IUnknown 对象的指针和指向通过 pvClientData 最初提供数据的指针，将调用此函数。
   
-有关详细信息，请参阅[如何实现 PST 重写处理程序，以绕过 Outlook 2007 中的 PSTDisableGrow 策略](http://support.microsoft.com/kb/956070)。
+有关详细信息，请参阅[如何实现 PST 重写处理程序，以绕过 Outlook 2007 中的 PSTDisableGrow 策略](https://support.microsoft.com/kb/956070)。
   
 ## <a name="see-also"></a>另请参阅
 

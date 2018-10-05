@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: b1ee2533-8077-4976-846b-d42d148bf8c6
 description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d65ccec0ab270a59252c8a3ae94bdeca839fa807
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c0d67d10d54591de926724cbf594a44f17e9ea14
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582362"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397098"
 ---
 # <a name="implementing-mapi-objects"></a>实现 MAPI 对象
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 可以通过使用 c + + 类或 C 数据结构，具体取决于语言实现 MAPI 对象和 API 设置客户端或使用服务提供商。 服务提供商 C 或 c + + 中使用 MAPI 服务提供程序接口; 可编写C 或 c + + 中，还可以使用客户端应用程序。 如果可能，客户端和使用的面向对象的编程接口的服务提供商应使用 c + +。 
   
@@ -29,7 +29,7 @@ C + + 是首选，因为 MAPI 是面向对象的技术和 c + + 人士更容易�
   
 当实现 MAPI 对象时，客户端或服务提供程序创建接口方法、 特定于实现，任何私有方法的代码和代码以支持维护状态信息的私有数据成员的所有代码。 接口方法的代码必须遵循的规范 MAPI 发布文档的正常的行为。 
   
-有很多宏 Mapidefs.h 头文件和客户端和在其中任一种语言中的服务提供商可用于帮助他们与 MAPI 对象及其定义的 OLE 头文件中。 例如，是用于定义的每个 MAPI 的接口方法的宏。 要定义的[IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx)接口方法的宏在 Mapidefs.h 中显示，如下所示： 
+有很多宏 Mapidefs.h 头文件和客户端和在其中任一种语言中的服务提供商可用于帮助他们与 MAPI 对象及其定义的 OLE 头文件中。 例如，是用于定义的每个 MAPI 的接口方法的宏。 要定义的[IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)接口方法的宏在 Mapidefs.h 中显示，如下所示： 
   
 ```cpp
 #define MAPI_IUNKNOWN_METHODS(IPURE)          \
