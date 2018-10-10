@@ -6,41 +6,41 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5
 description: 查找开发解决方案和自定义 OneNote 桌面客户端应用程序的操作说明内容、技术文章、参考内容和博客文章。
-ms.openlocfilehash: 7d3380e2792c292e281a98c377bb73350040d177
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: db81109cd4d56bddb90ce70467070a94e12c9029
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391456"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454479"
 ---
-# <a name="onenote"></a><span data-ttu-id="0f180-103">OneNote</span><span class="sxs-lookup"><span data-stu-id="0f180-103">OneNote</span></span>
+# <a name="onenote"></a><span data-ttu-id="55fb2-103">OneNote</span><span class="sxs-lookup"><span data-stu-id="55fb2-103">OneNote</span></span>
 
-<span data-ttu-id="0f180-104">查找开发解决方案和自定义 OneNote 桌面客户端应用程序的操作说明内容、技术文章、参考内容和博客文章。</span><span class="sxs-lookup"><span data-stu-id="0f180-104">Find how-to content, technical articles, reference content, and blog posts for developing solutions and customizing OneNote desktop client applications.</span></span>
+<span data-ttu-id="55fb2-104">查找开发解决方案和自定义 OneNote 桌面客户端应用程序的操作说明内容、技术文章、参考内容和博客文章。</span><span class="sxs-lookup"><span data-stu-id="55fb2-104">Find how-to content, technical articles, reference content, and blog posts for developing solutions and customizing OneNote desktop client applications.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="0f180-p101">[!注释] 本文档中描述的 API 仅用于创建未连接方案中的 OneNote Win32 桌面客户端解决方案。对于已连接方案，请使用推荐的 OneNote 服务 API。要了解详细信息，请访问 [dev.onenote.com](https://dev.onenote.com/)。</span><span class="sxs-lookup"><span data-stu-id="0f180-p101">The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](https://dev.onenote.com/).</span></span> 
+> <span data-ttu-id="55fb2-p101">[!注释] 本文档中描述的 API 仅用于创建未连接方案中的 OneNote Win32 桌面客户端解决方案。对于已连接方案，请使用推荐的 OneNote 服务 API。要了解详细信息，请访问 [dev.onenote.com](https://dev.onenote.com/)。</span><span class="sxs-lookup"><span data-stu-id="55fb2-p101">The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](https://dev.onenote.com/).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="0f180-p102">有兴趣开发跨[多个平台](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)扩展 Office 体验的解决方案吗？查看新的 [Office 加载项模型](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)。</span><span class="sxs-lookup"><span data-stu-id="0f180-p102">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span></span>  
+> <span data-ttu-id="55fb2-p102">有兴趣开发跨[多个平台](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)扩展 Office 体验的解决方案吗？查看新的 [Office 加载项模型](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)。</span><span class="sxs-lookup"><span data-stu-id="55fb2-p102">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span></span>  
   
-### <a name="viewed-most"></a><span data-ttu-id="0f180-110">浏览次数最多</span><span class="sxs-lookup"><span data-stu-id="0f180-110">Viewed most</span></span>
+### <a name="viewed-most"></a><span data-ttu-id="55fb2-110">浏览次数最多</span><span class="sxs-lookup"><span data-stu-id="55fb2-110">Viewed most</span></span>
   
-- [<span data-ttu-id="0f180-111">OneNote 开发人员参考</span><span class="sxs-lookup"><span data-stu-id="0f180-111">OneNote developer reference</span></span>](onenote-developer-reference.md)
+- [<span data-ttu-id="55fb2-111">OneNote 开发人员参考</span><span class="sxs-lookup"><span data-stu-id="55fb2-111">OneNote developer reference</span></span>](onenote-developer-reference.md)
   
-### <a name="office-add-ins"></a><span data-ttu-id="0f180-112">Office 加载项</span><span class="sxs-lookup"><span data-stu-id="0f180-112">Office Add-ins</span></span>
+### <a name="office-add-ins"></a><span data-ttu-id="55fb2-112">Office 加载项</span><span class="sxs-lookup"><span data-stu-id="55fb2-112">Office Add-ins</span></span>
   
-- [<span data-ttu-id="0f180-113">OneNote 加载项入门</span><span class="sxs-lookup"><span data-stu-id="0f180-113">Get started with OneNote add-ins</span></span>](https://docs.microsoft.com/office/dev/add-ins/quickstarts/onenote-quickstart)
+- [<span data-ttu-id="55fb2-113">OneNote 加载项入门</span><span class="sxs-lookup"><span data-stu-id="55fb2-113">Get started with OneNote add-ins</span></span>](https://docs.microsoft.com/office/dev/add-ins/quickstarts/onenote-quickstart)
   
-- [<span data-ttu-id="0f180-114">平台概述</span><span class="sxs-lookup"><span data-stu-id="0f180-114">Platform overview</span></span>](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+- [<span data-ttu-id="55fb2-114">平台概述</span><span class="sxs-lookup"><span data-stu-id="55fb2-114">Platform overview</span></span>](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
-### <a name="other-resources"></a><span data-ttu-id="0f180-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="0f180-115">Other resources</span></span>
+### <a name="other-resources"></a><span data-ttu-id="55fb2-115">其他资源</span><span class="sxs-lookup"><span data-stu-id="55fb2-115">Other resources</span></span>
   
-- [<span data-ttu-id="0f180-116">Office VBA 对象库参考</span><span class="sxs-lookup"><span data-stu-id="0f180-116">Office VBA Object library reference</span></span>](https://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [<span data-ttu-id="55fb2-116">Office VBA 对象库参考</span><span class="sxs-lookup"><span data-stu-id="55fb2-116">Office VBA Object library reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [<span data-ttu-id="0f180-117">Office VBA 语言参考</span><span class="sxs-lookup"><span data-stu-id="0f180-117">Office VBA language reference</span></span>](https://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [<span data-ttu-id="55fb2-117">Office VBA 语言参考</span><span class="sxs-lookup"><span data-stu-id="55fb2-117">Office VBA language reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [<span data-ttu-id="0f180-118">Open XML SDK</span><span class="sxs-lookup"><span data-stu-id="0f180-118">Open XML SDK</span></span>](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [<span data-ttu-id="55fb2-118">Open XML SDK</span><span class="sxs-lookup"><span data-stu-id="55fb2-118">Open XML SDK</span></span>](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [<span data-ttu-id="0f180-119">适用于 Office 的 VSTO 外接程序</span><span class="sxs-lookup"><span data-stu-id="0f180-119">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/library/jj620922.aspx)
+- [<span data-ttu-id="55fb2-119">适用于 Office 的 VSTO 外接程序</span><span class="sxs-lookup"><span data-stu-id="55fb2-119">VSTO Add-ins for Office</span></span>](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 
