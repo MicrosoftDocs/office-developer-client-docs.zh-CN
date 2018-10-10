@@ -1,0 +1,34 @@
+---
+title: Recordset.StillExecuting Property (DAO)
+TOCTitle: StillExecuting Property
+ms:assetid: 0e53c98f-17ac-3569-d780-540a6932013e
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845245(v=office.15)
+ms:contentKeyID: 48543245
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 13a1ca4f3dc0408dbeb26ae56c105d0ee1cf3c6c
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25467185"
+---
+# <a name="recordsetstillexecuting-property-dao"></a>Recordset.StillExecuting Property (DAO)
+
+
+**适用于**： Access 2013 |Office 2013
+
+## <a name="syntax"></a>语法
+
+*表达式*。StillExecuting
+
+*表达式*一个表示**Recordset**对象的变量。
+
+## <a name="remarks"></a>注解
+
+使用 **StillExecuting** 属性可以确定最近调用的异步 **Execute** 或 **OpenConnection** 方法（即用 **dbRunAsync** 选项执行的方法）是否已完成。在 **StillExecuting** 属性为 **True** 的情况下，不能访问任何返回的对象。
+
+一旦 **StillExecuting** 属性返回 **False**，在返回相关 **Connection** 对象的 **OpenConnection** 调用之后，即可引用该对象。只要 **StillExecuting** 仍为 **True**，就不能引用该对象，而只能读取 **StillExecuting** 属性。
+
+使用 **[Cancel](connection-cancel-method-dao.md)** 方法可以终止执行正在进行的任务。
+
