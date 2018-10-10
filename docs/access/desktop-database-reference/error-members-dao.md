@@ -1,0 +1,51 @@
+---
+title: Error Members (DAO)
+TOCTitle: Error Members
+ms:assetid: 0f4a7fb7-3070-39c9-d71b-facd254a2ccd
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff845280(v=office.15)
+ms:contentKeyID: 48543262
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 29ff44b8ea8d553b631af4a15a57a3af6e6b74be
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25466772"
+---
+# <a name="error-members-dao"></a>Error Members (DAO)
+
+
+**适用于**： Access 2013 |Office 2013
+
+Error 对象包含有关数据访问错误的详细信息，其中每种错误都关系到与 DAO 有关的单个操作。
+
+## <a name="properties"></a>属性
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>名称</p></th>
+<th><p>说明</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong><a href="error-description-property-dao.md">说明</a></strong></p></td>
+<td><p>返回与某个错误关联的描述性字符串。这是 <strong>Error</strong> 对象的默认属性。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="error-number-property-dao.md">Number</a></strong></p></td>
+<td><p>返回一个数字值，该值指定错误。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="error-source-property-dao.md">Source</a></strong></p></td>
+<td><p>返回最初生成错误的对象或应用程序的名称。</p></td>
+</tr>
+</tbody>
+</table>
+
