@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b0f11822-d45e-48e6-bf59-990164e3d6d9
 description: 查找开发解决方案和自定义 Publisher 的操作方法内容、技术文章和参考。
-ms.openlocfilehash: 0beb7085648a81cf835d1aed6c7f33c011532f14
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 16e250b1b04a2c5c63e19aa3a6b7e0ad0cd1caef
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397238"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454542"
 ---
 # <a name="publisher"></a>Publisher
 
@@ -22,10 +22,10 @@ ms.locfileid: "25397238"
 
 ### <a name="viewed-most"></a>浏览次数最多
 
-- [Publisher VBA 参考](https://msdn.microsoft.com/VBA/VBA-Publisher)
+- [Publisher VBA 参考](https://docs.microsoft.com/office/vba/api/overview/publisher)
 
 - 
-  [Publisher 2010](https://msdn.microsoft.com/library/office/ff604963(v=office.14).aspx)
+  [Publisher 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604963(v=office.14))
 
 
 ### <a name="office-add-ins"></a>Office 加载项 
@@ -37,10 +37,10 @@ ms.locfileid: "25397238"
 
 ### <a name="other-resources"></a>其他资源
 
-- [Office VBA 对象库参考](https://msdn.microsoft.com/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference)
+- [Office VBA 对象库参考](https://docs.microsoft.com/office/vba/api/overview/library-reference)
 
-- [Office VBA 语言参考](https://msdn.microsoft.com/VBA/VBA-Language-Reference) 
+- [Office VBA 语言参考](https://docs.microsoft.com/office/vba/api/overview/language-reference) 
 
-- [Open XML SDK](https://msdn.microsoft.com/library/bb448854.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
-- [适用于 Office 的 VSTO 外接程序](https://msdn.microsoft.com/library/jj620922.aspx)
+- [适用于 Office 的 VSTO 外接程序](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
