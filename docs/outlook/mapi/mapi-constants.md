@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: 常量定义、MAPI 接口声明，以及 MAPI API 使用的类和接口标识符。
-ms.openlocfilehash: dfc7d16cdb2f57d3f095ceea5fa1ba2eba2e3afe
-ms.sourcegitcommit: b91294da1627f6580f52fd3867e2fec8073c6531
+ms.openlocfilehash: 343b777550d88276a1f5cad19f12ae7fc09c6244
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "25362041"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393731"
 ---
 # <a name="mapi-constants"></a>MAPI 常量
 
@@ -575,7 +575,7 @@ Outlook 的 MAPI 支持重新连接到 GC 服务器，而不需要特殊的重�
 |MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |在远程过程调用 (RPC) 连接令牌过期时返回。 如果当前事务的令牌不同于连接令牌，则意味着它已重新连接，因此将返回 **MAPI_E_RECONNECTED**，且可以作为相同的 **MAPI_E_END_OF_SESSION** 处理。 应重试调用。  <br/> |
 |MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |连接处于脱机状态时返回。 通常情况下，这意味着环境中出现了一些状况，比如服务器故障或网络连接丢失。 该错误最有可能在使用缓存模式配置文件和尝试绕过缓存与服务器通信时发生。 如果缓存无法初始建立到服务器的连接，它可能处于脱机状态，其中可能会显示 **MAPI_E_OFFLINE**。  <br/> |
    
-在所有可能出现的场景中，前两个错误都不会返回。 大多数情况下，将返回 **MAPI\_E_NETWORK_ERROR** 或 **MAPI_E_CALL_FAILED**。 使用 [Microsoft Exchange Server MAPI 客户端和协作数据对象 1.2.1](http://support.microsoft.com/kb/171440) 下载，两者都不会出现。 
+在所有可能出现的场景中，前两个错误都不会返回。 大多数情况下，将返回 **MAPI\_E_NETWORK_ERROR** 或 **MAPI_E_CALL_FAILED**。 使用 [Microsoft Exchange Server MAPI 客户端和协作数据对象 1.2.1](https://support.microsoft.com/kb/171440) 下载，两种错误都不会出现。 
   
 ### <a name="definitions-for-exchange-server-mailbox-cached-mode-quotas"></a>Exchange 服务器邮箱缓存模式配额的定义
 
