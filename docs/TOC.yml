@@ -20,7 +20,7 @@ items:
   - name: Office Online Server
     href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
   - name: Office for Mac
-    href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
+    href: https://docs.microsoft.com/office/vba/api/overview/office-mac
   - name: Office 共享
     href: shared/office-shared.md
     items:
@@ -38,20 +38,20 @@ items:
       - name: Office 中的兼容性问题
         href: shared/compatibility-issues-in-office.md
     - name: Office VBA 对象库参考
-      href: https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference
+      href: https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference
     - name: Office VBA 语言参考
-      href: https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference
+      href: https://docs.microsoft.com/office/vba/api/overview/language-reference
     - name: Office 主互操作程序集参考
-      href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
     - name: Open XML SDK 2.5
-      href: https://msdn.microsoft.com/en-us/library/office/bb448854.aspx
+      href: https://docs.microsoft.com/office/open-xml/open-xml-sdk
     - name: 使用 CSISyncClient 控制 ODC
       href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
   - name: Access
     href: access/access-home.md
     items:
     - name: Access VBA 参考
-      href: https://msdn.microsoft.com/en-us/library/mt346046.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/access
     - name: Access 自定义 Web 应用参考
       href: access/access-custom-web-app-reference.md
       items:
@@ -253,7 +253,7 @@ items:
           - name: 字符串运算符
             href: access/string-operators-access-custom-web-app.md
             items:
-            - name: 字符串串联运算符
+            - name: 字符串串联
               href: access/plusstring-concatenation-operatoraccess-custom-web-app.md
       - name: 宏函数参考
         href: access/macro-function-reference-access-custom-web-app.md
@@ -276,7 +276,7 @@ items:
             href: access/stopmacro-macro-action-access-custom-web-app.md
           - name: CancelRecordChange
             href: access/cancelrecordchange-macro-action-access-custom-web-app.md
-          - name: DeleteRecord Data
+          - name: DeleteRecord 数据
             href: access/deleterecord-data-macro-action-access-custom-web-app.md
           - name: RaiseError
             href: access/raiseerror-macro-action-access-custom-web-app.md
@@ -345,14 +345,14 @@ items:
           - name: OpenPopup
             href: access/openpopup-macro-action-access-custom-web-app.md
     - name: Access 桌面数据库参考
-      href: https://msdn.microsoft.com/en-us/library/dn142571.aspx
+      href: https://msdn.microsoft.com/library/dn142571.aspx
   - name: Excel
     href: excel/excel-home.md
     items:
     - name: Excel VBA 参考
-      href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/excel
     - name: Excel 主互操作程序集参考
-      href: https://msdn.microsoft.com/en-us/library/office/ff597926.aspx
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
     - name: Excel XLL SDK
       href: excel/welcome-to-the-excel-software-development-kit.md
       items:
@@ -361,7 +361,7 @@ items:
         items:
         - name: 在 Excel 中使用 C API 进行编程
           href: excel/programming-with-the-c-api-in-excel.md
-        - name: 适用于 Excel 的 C API 中的新增功能
+        - name: 适用于 Excel 的 C API 的最近更新
           href: excel/what-s-new-in-the-c-api-for-excel.md
         - name: 已知问题
           href: excel/known-issues-in-excel-xll-development.md
@@ -392,7 +392,7 @@ items:
             href: excel/calling-user-defined-functions-from-dlls.md
         - name: 在 Excel 中访问 XLL 代码
           href: excel/accessing-xll-code-in-excel.md
-        - name: 从函数向导或替换对话框调用 XLL 函数
+        - name: 从“函数向导”或“替换”对话框调用 XLL 函数
           href: excel/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
         - name: 从 DLL 或 XLL 调用 Excel
           href: excel/calling-into-excel-from-the-dll-or-xll.md
@@ -402,12 +402,12 @@ items:
           href: excel/handling-events.md
         - name: 评估名称和其他工作表公式表达式
           href: excel/evaluating-names-and-other-worksheet-formula-expressions.md
-        - name: 多线程处理和内存管理
+        - name: 多线程和内存管理
           href: excel/multithreading-and-memory-management.md
           items:
           - name: Excel 中的内存管理
             href: excel/memory-management-in-excel.md
-          - name: Excel 中的多线程处理和内存争用
+          - name: Excel 中的多线程和内存争用
             href: excel/multithreading-and-memory-contention-in-excel.md
           - name: Excel 中的多线程重新计算
             href: excel/multithreaded-recalculation-in-excel.md
@@ -415,9 +415,9 @@ items:
           href: excel/asynchronous-user-defined-functions.md
         - name: 群集安全函数
           href: excel/cluster-safe-functions.md
-        - name: 在长时间的操作中允许用户中断
+        - name: 允许用户中断冗长操作
           href: excel/permitting-user-breaks-in-lengthy-operations.md
-        - name: 从 DLL 或 XLL 内显示对话框
+        - name: 在 DLL 或 XLL 内显示对话框
           href: excel/displaying-dialog-boxes-from-within-a-dll-or-xll.md
         - name: 访问 Excel 实例和主窗口句柄
           href: excel/how-to-access-excel-instance-and-main-window-handles.md
@@ -452,7 +452,7 @@ items:
             href: excel/excel4-excel12.md
           - name: Excel4v/Excel12v
             href: excel/excel4v-excel12v.md
-        - name: 基本的有用 C API XLM 函数
+        - name: 实用的基本 C API XLM 函数
           href: excel/essential-and-useful-c-api-xlm-functions.md
           items:
           - name: xlfCaller
@@ -600,7 +600,7 @@ items:
           - name: ShowOptions
             href: excel/showoptions.md
     - name: 优化性能障碍的提示
-      href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
+      href: https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
   - name: Infopath
     href: infopath/infopath-home.md
     items:
@@ -610,16 +610,16 @@ items:
       - name: 开发包含代码的 InfoPath 表单模板
         href: infopath/form-templates/developing-infopath-form-templates-with-code.md
         items:
-        - name: 开发包含代码的表单模板入门
+        - name: 开始开发包含代码的表单模板
           href: infopath/form-templates/getting-started-developing-form-templates-with-code.md
           items:
-          - name: 面向 InfoPath 开发人员的新增功能
+          - name: 面向 InfoPath 开发人员的最近更新
             href: infopath/form-templates/what-s-new-for-infopath-developers.md
           - name: 了解 InfoPath 对象模型和开发环境
             href: infopath/form-templates/understanding-infopath-object-models-and-development-environment.md
           - name: 使用 Visual Studio 进行开发
             href: infopath/form-templates/how-to-develop-with-visual-studio.md
-          - name: 为 Visual Studio Tools for Applications 安装本地 .NET Framework 帮助
+          - name: 安装适用于 Visual Studio Tools for Applications 的本地 .NET Framework 帮助
             href: infopath/form-templates/how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md
           - name: 添加事件处理程序
             href: infopath/form-templates/how-to-add-an-event-handler.md
@@ -629,13 +629,13 @@ items:
             href: infopath/form-templates/how-to-preview-and-debug-form-templates-that-require-full-trust.md
           - name: 演练：创建包含代码的基本表单模板
             href: infopath/form-templates/walkthrough-creating-a-basic-form-template-with-code.md
-          - name: 将值记录到域中进行调试
+          - name: 将值记录到字段中以供调试
             href: infopath/form-templates/how-to-log-values-to-a-field-for-debugging.md
           - name: 打开或转换用 InfoPath 工具包创建的表单模板
             href: infopath/form-templates/how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md
           - name: 部署包含代码的 InfoPath 表单模板
             href: infopath/form-templates/how-to-deploy-infopath-form-templates-with-code.md
-          - name: 在包含代码的 InfoPath 表单模板中如何...
+          - name: 如何在包含代码的 InfoPath 表单模板中...
             href: infopath/form-templates/how-do-iin-infopath-form-templates-with-code.md
           - name: 使用 XPathNavigator 和 XPathNodeIterator 类
             href: infopath/form-templates/how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md
@@ -677,11 +677,11 @@ items:
         - name: 包含代码的 InfoPath 表单模板中的安全性
           href: infopath/form-templates/security-in-infopath-form-templates-with-code.md
           items:
-          - name: 有关包含代码的表单模板的安全模型
+          - name: 关于包含代码的表单模板的安全模型
             href: infopath/form-templates/about-the-security-model-for-form-templates-with-code.md
           - name: 其他 InfoPath 表单安全概念
             href: infopath/form-templates/additional-infopath-form-security-concepts.md
-          - name: 有关开发 InfoPath 表单的安全指南
+          - name: InfoPath 表单开发安全指南
             href: infopath/form-templates/security-guidelines-for-developing-infopath-forms.md
           - name: 为包含代码的表单模板配置安全设置
             href: infopath/form-templates/how-to-configure-security-settings-for-form-templates-with-code.md
@@ -691,7 +691,7 @@ items:
             href: infopath/form-templates/understanding-fully-trusted-forms.md
           - name: InfoPath 表单中的数字签名数据
             href: infopath/form-templates/digitally-signing-data-in-infopath-forms.md
-          - name: 部署签名的 InfoPath 表单模板
+          - name: 部署已签名的 InfoPath 表单模板
             href: infopath/form-templates/deploying-signed-infopath-form-templates.md
         - name: 使用 SharePoint 和 InfoPath Forms Services
           href: infopath/form-templates/working-with-sharepoint-and-infopath-forms-services.md
@@ -707,13 +707,13 @@ items:
             href: infopath/form-templates/about-form-template-components.md
           - name: 关于 InfoPath 对 XML 技术的支持
             href: infopath/form-templates/about-infopath-support-for-xml-technologies.md
-          - name: 提高 InfoPath 表单性能的指南
+          - name: InfoPath 表单性能提升指南
             href: infopath/form-templates/guidelines-for-improving-the-performance-of-infopath-forms.md
           - name: 在 InfoPath 中使用 XML 架构
             href: infopath/form-templates/working-with-xml-schemas-in-infopath.md
           - name: 在 InfoPath 表单模板中使用自定义 XSLT
             href: infopath/form-templates/using-custom-xslt-in-infopath-form-templates.md
-          - name: 将 InfoPath 作为 XML 编辑器放置到另一个应用程序中
+          - name: 将 InfoPath 托管为另一个应用程序中的 XML 编辑器
             href: infopath/form-templates/hosting-infopath-as-an-xml-editor-in-another-application.md
           - name: 格式文本和 Web 服务
             href: infopath/form-templates/rich-text-and-web-services.md
@@ -723,76 +723,76 @@ items:
             href: infopath/form-templates/integrate-an-infopath-form-with-a-microsoft-access-database.md
           - name: 创建可绑定到 InfoPath 表单数据的 ActiveX 控件
             href: infopath/form-templates/create-an-activex-control-that-can-bind-to-infopath-form-data.md
-          - name: 启用 InfoPath 表单的自定义合并
+          - name: 启用自定义合并 InfoPath 表单
             href: infopath/form-templates/enable-custom-merging-of-infopath-forms.md
       - name: 使用 InfoPath 2003 对象模型开发表单模板
         href: infopath/form-templates/developing-form-templates-using-the-infopath-2003-object-model.md
         items:
-        - name: 使用 InfoPath 2003 对象模型开发表单模板入门
+        - name: 开始使用 InfoPath 2003 对象模型开发表单模板
           href: infopath/form-templates/get-started-developing-form-templates-using-infopath-object-model.md
           items:
-          - name: 使用 InfoPath 2003 对象模型创建表单模板
+          - name: 创建表单模板
             href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-          - name: 演练：使用 InfoPath 2003 对象模型创建和调试基本表单模板
+          - name: 创建和调试基本表单模板
             href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
-          - name: 使用 InfoPath 2003 对象模型开发表单模板的常见任务
+          - name: 常见表单模板开发任务
             href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
           - name: 使用与 InfoPath 2003 不兼容的 Microsoft.Office.Interop.InfoPath.SemiTrust 成员
             href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
         - name: 使用 InfoPath 2003 对象模型创建表单模板
           href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
           items:
-          - name: 使用 InfoPath 2003 对象模型进行初始化并清理代码
+          - name: 初始化和清理代码
             href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
-          - name: 调试使用 InfoPath 2003 对象模型的 InfoPath 项目
+          - name: 调试 InfoPath 项目
             href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型添加事件处理程序
+          - name: 添加事件处理程序
             href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型的 InfoPath 项目中的线程支持
+          - name: InfoPath 项目中的线程支持
             href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型处理 MSXML 和 System.Xml
+          - name: 使用 MSXML 和 System.Xml
             href: infopath/form-templates/working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md
         - name: 了解 InfoPath 2003 对象模型
           href: infopath/form-templates/understanding-the-infopath-2003-object-model.md
           items:
           - name: InfoPath 2003 兼容对象模型
             href: infopath/form-templates/infopath-2003-compatible-object-models.md
-          - name: 使用 InfoPath 2003 对象模型访问应用程序数据
+          - name: 访问应用程序数据
             href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型访问外部数据源
+          - name: 访问外部数据源
             href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型访问表单数据
+          - name: 访问表单数据
             href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型显示警报和对话框
+          - name: 显示通知和对话框
             href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型处理错误
+          - name: 处理错误
             href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型响应表单事件
+          - name: 响应表单事件
             href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型处理表单窗口
+          - name: 使用表单窗口
             href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型处理视图
+          - name: 使用视图
             href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型处理数字签名
+          - name: 使用数字签名
             href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
-          - name: 使用 InfoPath 2003 对象模型处理脱机解决方案
+          - name: 使用脱机解决方案
             href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
-        - name: 使用 InfoPath 2003 对象模型的表单模板的疑难解答
+        - name: 排查使用 InfoPath 2003 对象模型的表单模板的问题
           href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model.md
           items:
-          - name: 运行时使用 InfoPath 2003 对象模型的表单模板的疑难解答
+          - name: 排查表单模板的运行时问题
             href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md
-          - name: 设计时使用 InfoPath 2003 对象模型的表单模板的疑难解答
+          - name: 排查表单模板的设计时问题
             href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
       - name: InfoPath 表单模板的类库参考
-        href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
+        href: https://msdn.microsoft.com/library/office/ee526341.aspx
     - name: InfoPath 外部自动化开发人员参考
       href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
       items:
       - name: 在 Visual Studio 中创建 InfoPath 项目
         href: infopath/external-automation/creating-infopath-projects-in-visual-studio.md
         items:
-        - name: 创建 COM 加载项并将自定义功能添加到 InfoPath
+        - name: 创建 COM 加载项以将自定义功能添加到 InfoPath
           href: infopath/external-automation/how-to-create-a-com-add-in-to-add-custom-features-to-infopath.md
       - name: 从其他应用程序自动执行 InfoPath
         href: infopath/external-automation/automating-infopath-from-other-applications.md
@@ -806,7 +806,7 @@ items:
         - name: 从外部应用程序自动执行 InfoPath
           href: infopath/external-automation/automating-infopath-from-an-external-application.md
       - name: InfoPath 外部自动化的类库参考
-        href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx
+        href: https://msdn.microsoft.com/library/office/ff663147.aspx
   - name: OneNote
     href: onenote/onenote-home.md
     items:
@@ -829,9 +829,336 @@ items:
     - name: 选择某个 API 或技术开发适用于 Outlook 的解决方案
       href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
     - name: Outlook VBA 参考
-      href: https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/outlook
     - name: Outlook 主互操作程序集参考
-      href: https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx
+      href: outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference.md
+      items:
+      - name: Outlook PIA 参考的最近更新
+        href: outlook/pia/what-s-new-in-the-outlook-pia-reference.md
+      - name: 设置以使用 Outlook PIA
+        href: outlook/pia/setting-up-to-use-the-outlook-pia.md
+        items:
+        - name: COM 和 .NET 之间的互操作性简介
+          href: outlook/pia/introduction-to-interoperability-between-com-and-net.md
+        - name: 为什么要使用 Outlook PIA
+          href: outlook/pia/why-use-the-outlook-pia.md
+        - name: 安装和引用 Outlook PIA
+          href: outlook/pia/installing-and-referencing-the-outlook-pia.md
+      - name: Outlook PIA 体系结构
+        href: outlook/pia/architecture-of-the-outlook-pia.md
+        items:
+        - name: 将 Outlook PIA 与对象模型相关联
+          href: outlook/pia/relating-the-outlook-pia-with-the-object-model.md
+        - name: Outlook PIA 中的对象
+          href: outlook/pia/objects-in-the-outlook-pia.md
+        - name: Outlook PIA 中的方法和属性
+          href: outlook/pia/methods-and-properties-in-the-outlook-pia.md
+        - name: Outlook PIA 中的事件
+          href: outlook/pia/events-in-the-outlook-pia.md
+      - name: 使用 Outlook PIA 开发托管 Outlook 加载项
+        href: outlook/pia/developing-managed-outlook-add-ins-using-the-outlook-pia.md
+        items:
+        - name: 连接到自定义事件处理程序
+          href: outlook/pia/connecting-to-custom-event-handlers.md
+        - name: 托管 Outlook 加载项开发最佳做法
+          href: outlook/pia/best-practices-in-developing-managed-outlook-add-ins.md
+          items:
+          - name: 系统性释放对象
+            href: outlook/pia/systematically-releasing-objects.md
+          - name: 使用独立应用程序域以免发生故障
+            href: outlook/pia/using-a-separate-application-domain-to-avoid-crashing.md
+          - name: 使用 Visual Studio 的 Office 开发人员工具提供的受信任应用程序对象
+            href: outlook/pia/using-a-trusted-application-object-provided-by-office-developer-tools-for-visual-studio.md
+          - name: 在事件处理程序中适当设定变量作用范围
+            href: outlook/pia/scoping-variables-appropriately-in-event-handlers.md
+          - name: 避免在托管 Outlook 加载项中使用不受支持的技术
+            href: outlook/pia/avoiding-unsupported-technologies-in-managed-outlook-add-ins.md
+          - name: 在需要依赖 Outlook 的多个版本时使用晚期绑定
+            href: outlook/pia/using-late-binding-if-depending-on-multiple-versions-of-outlook.md
+      - name: 我如何...
+        href: outlook/pia/how-do-i-outlook-2013-pia-reference.md
+        items:
+        - name: 帐户
+          href: outlook/pia/accounts.md
+          items:
+          - name: 获取帐户信息
+            href: outlook/pia/how-to-get-account-information.md
+          - name: 根据当前文件夹为特定帐户创建可发送项
+            href: outlook/pia/how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md
+          - name: 获取与文件夹关联的帐户
+            href: outlook/pia/how-to-get-the-account-for-a-folder.md
+          - name: 获取多个帐户的信息
+            href: outlook/pia/how-to-get-information-about-multiple-accounts.md
+          - name: 使用 Hotmail 帐户发送邮件项
+            href: outlook/pia/how-to-send-a-mail-item-by-using-a-hotmail-account.md
+        - name: 加载项管理
+          href: outlook/pia/add-in-administration.md
+          items:
+          - name: 确定 Outlook 是否是计算机上的即点即用应用程序
+            href: outlook/pia/how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
+        - name: 通讯簿
+          href: outlook/pia/address-book.md
+          items:
+          - name: 在“选择姓名”对话框中显示与“联系人”文件夹对应的通讯簿
+            href: outlook/pia/how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md
+          - name: 获取存储的全局地址列表或一组地址列表
+            href: outlook/pia/how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md
+          - name: 枚举全局地址列表条目
+            href: outlook/pia/how-to-enumerate-the-entries-in-the-global-address-list.md
+          - name: 显示配置文件的地址列表
+            href: outlook/pia/how-to-display-the-address-lists-for-a-profile.md
+        - name: 约会
+          href: outlook/pia/appointments.md
+          items:
+          - name: 创建属于全天事件的约会
+            href: outlook/pia/how-to-create-an-appointment-that-is-an-all-day-event.md
+          - name: 创建开始时采用太平洋时区且结束时采用东部时区的约会
+            href: outlook/pia/how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md
+          - name: 为约会项指定不同的收件人类型
+            href: outlook/pia/how-to-specify-different-recipient-types-for-an-appointment-item.md
+          - name: 使用默认定期模式创建定期约会
+            href: outlook/pia/how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md
+          - name: 创建模式为每周一次的定期约会
+            href: outlook/pia/how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md
+          - name: 创建使用 YearNth 模式的每年一次定期约会
+            href: outlook/pia/how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md
+          - name: 在定期约会系列中查找特定约会
+            href: outlook/pia/how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md
+          - name: 在定期约会系列中创建例外约会
+            href: outlook/pia/how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md
+          - name: 创建约会项提醒
+            href: outlook/pia/how-to-create-a-reminder-for-an-appointment-item.md
+          - name: 将约会 XML 数据导入 Outlook 约会对象
+            href: outlook/pia/how-to-import-appointment-xml-data-into-outlook-appointment-objects.md
+        - name: 附件
+          href: outlook/pia/attachments.md
+          items:
+          - name: 以编程方式删除邮件的安全级别 2 附件，并将它们保存到磁盘中
+            href: outlook/pia/how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md
+        - name: 日历
+          href: outlook/pia/calendar.md
+          items:
+          - name: 共享日历中指定时间段内闲/忙日程安排
+            href: outlook/pia/how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md
+          - name: 通过电子邮件共享日历信息
+            href: outlook/pia/how-to-share-calendar-information-through-e-mail.md
+          - name: 显示收件人的共享日历
+            href: outlook/pia/how-to-display-a-shared-calendar-of-a-recipient.md
+          - name: 将日历保存到磁盘中
+            href: outlook/pia/how-to-save-a-calendar-to-disk.md
+          - name: 打开并显示 iCalendar 文件内容
+            href: outlook/pia/how-to-open-and-display-the-contents-of-an-icalendar-file.md
+        - name: 颜色类别
+          href: outlook/pia/color-categories.md
+          items:
+          - name: 枚举和添加类别
+            href: outlook/pia/how-to-enumerate-and-add-categories.md
+          - name: 向项分配类别
+            href: outlook/pia/how-to-assign-categories-to-an-item.md
+        - name: 联系人
+          href: outlook/pia/contacts.md
+          items:
+          - name: 创建联系人项
+            href: outlook/pia/how-to-create-a-contact-item.md
+          - name: 创建自定义联系人项
+            href: outlook/pia/how-to-create-a-custom-contact-item.md
+          - name: 通过 vCard 文件创建联系人项，并将项保存到文件夹中
+            href: outlook/pia/how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md
+        - name: 对话
+          href: outlook/pia/conversations.md
+          items:
+          - name: 获取并显示对话中的项
+            href: outlook/pia/how-to-get-and-display-items-in-a-conversation.md
+          - name: 获取并枚举选定对话
+            href: outlook/pia/how-to-get-and-enumerate-selected-conversations.md
+        - name: 电子名片
+          href: outlook/pia/electronic-business-cards.md
+          items:
+          - name: 修改电子名片的布局
+            href: outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card.md
+          - name: 发送包含电子名片的邮件项
+            href: outlook/pia/how-to-send-a-mail-item-with-an-electronic-business-card.md
+        - name: Exchange 用户
+          href: outlook/pia/exchange-users.md
+          items:
+          - name: 获取当前用户的相关信息
+            href: outlook/pia/how-to-get-information-about-the-current-user.md
+          - name: 获取当前用户所属全部通讯组列表的相关信息
+            href: outlook/pia/how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md
+          - name: 创建通讯组列表
+            href: outlook/pia/how-to-create-a-distribution-list.md
+          - name: 获取 Exchange 通讯组列表的成员
+            href: outlook/pia/how-to-get-members-of-an-exchange-distribution-list.md
+          - name: 获取当前用户的经理信息
+            href: outlook/pia/how-to-get-information-about-the-current-user-s-manager.md
+          - name: 获取 Exchange 用户的经理闲/忙状态信息
+            href: outlook/pia/how-to-get-availability-information-for-an-exchange-user-s-manager.md
+          - name: 检查经理对会议请求的响应
+            href: outlook/pia/how-to-check-a-manager-s-response-to-a-meeting-request.md
+          - name: 获取当前用户的经理的直接下属的相关信息
+            href: outlook/pia/how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md
+        - name: 文件夹
+          href: outlook/pia/folders.md
+          items:
+          - name: 将文件夹添加到文件夹列表
+            href: outlook/pia/how-to-add-a-folder-to-the-folder-list.md
+          - name: 枚举文件夹
+            href: outlook/pia/how-to-enumerate-folders.md
+          - name: 获取默认文件夹并枚举它的子文件夹
+            href: outlook/pia/how-to-get-a-default-folder-and-enumerate-its-subfolders.md
+          - name: 根据文件夹路径获取文件夹
+            href: outlook/pia/how-to-get-a-folder-based-on-its-folder-path.md
+          - name: 选择文件夹并显示文件夹信息
+            href: outlook/pia/how-to-select-a-folder-and-display-folder-information.md
+          - name: 获取文件夹的默认邮件类别
+            href: outlook/pia/how-to-get-the-default-message-class-of-a-folder.md
+          - name: 访问在文件夹中存储为隐藏消息的解决方案专用数据
+            href: outlook/pia/how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md
+          - name: 确保文件夹级查询支持自定义项属性
+            href: outlook/pia/how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md
+        - name: 常规 Outlook 项
+          href: outlook/pia/general-outlook-items.md
+          items:
+          - name: 创建用于访问常见 Outlook 项成员的帮助程序类
+            href: outlook/pia/how-to-create-a-helper-class-to-access-common-outlook-item-members.md
+          - name: 显示有效资源管理器中的选定项
+            href: outlook/pia/how-to-display-selected-items-in-the-active-explorer.md
+        - name: 组共享
+          href: outlook/pia/group-sharing.md
+          items:
+          - name: 订阅 RSS 源
+            href: outlook/pia/how-to-subscribe-to-an-rss-feed.md
+          - name: 将 Outlook 与 SharePoint 文件夹同步
+            href: outlook/pia/how-to-synchronize-outlook-with-a-sharepoint-folder.md
+        - name: 邮件
+          href: outlook/pia/mail.md
+          items:
+          - name: 使用邮件模板创建邮件项
+            href: outlook/pia/how-to-create-a-mail-item-by-using-a-message-template.md
+          - name: 创建邮件项、附加报表并将邮件项发送给用户的经理
+            href: outlook/pia/how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md
+          - name: 在帐户 SMTP 地址给定的情况下发送电子邮件
+            href: outlook/pia/how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md
+          - name: 向邮件项添加投票选项
+            href: outlook/pia/how-to-add-voting-options-to-a-mail-item.md
+          - name: 添加作为邮件项响应的自定义操作
+            href: outlook/pia/how-to-add-a-custom-action-as-a-response-to-a-mail-item.md
+          - name: 获取邮件项发件人的 SMTP 地址
+            href: outlook/pia/how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md
+          - name: 为邮件项指定不同的收件人类型
+            href: outlook/pia/how-to-specify-different-recipient-types-for-a-mail-item.md
+        - name: 会议请求
+          href: outlook/pia/meeting-requests.md
+          items:
+          - name: 创建会议请求、添加收件人并指定位置
+            href: outlook/pia/how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md
+          - name: 获取会议组织者
+            href: outlook/pia/how-to-get-the-organizer-of-a-meeting.md
+          - name: 查看对会议请求的所有响应
+            href: outlook/pia/how-to-check-all-responses-to-a-meeting-request.md
+          - name: 查找与会议请求关联的约会项
+            href: outlook/pia/how-to-find-the-appointment-item-associated-with-a-meeting-request.md
+          - name: 自动接受会议请求
+            href: outlook/pia/how-to-automatically-accept-a-meeting-request.md
+          - name: 提示用户响应会议请求
+            href: outlook/pia/how-to-prompt-a-user-to-respond-to-a-meeting-request.md
+        - name: 收件人
+          href: outlook/pia/recipients.md
+          items:
+          - name: 显示“选择姓名”对话框以解析收件人
+            href: outlook/pia/how-to-display-the-select-names-dialog-box-to-resolve-recipients.md
+          - name: 使用“选择姓名”对话框获取收件人并将收件人分配到约会
+            href: outlook/pia/how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md
+          - name: 获取收件人的电子邮件地址
+            href: outlook/pia/how-to-get-the-e-mail-address-of-a-recipient.md
+        - name: 规则
+          href: outlook/pia/rules.md
+          items:
+          - name: 创建存档来自经理的邮件项并标记这些项以供跟进的规则
+            href: outlook/pia/how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md
+          - name: 立即执行规则
+            href: outlook/pia/how-to-execute-a-rule-instantly.md
+          - name: 在本地计算机上执行规则
+            href: outlook/pia/how-to-execute-a-rule-on-a-local-computer.md
+          - name: 创建根据主题中的多个字词为邮件项分配类别的规则
+            href: outlook/pia/how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md
+        - name: 使用 Outlook 事件的示例任务
+          href: outlook/pia/sample-tasks-using-outlook-events.md
+          items:
+          - name: 为检查器实现包装器并在每个检查器中跟踪项级事件
+            href: outlook/pia/how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md
+        - name: 搜索和筛选
+          href: outlook/pia/search-and-filter.md
+          items:
+          - name: 筛选并高效枚举文件夹中的项
+            href: outlook/pia/how-to-filter-and-efficiently-enumerate-items-in-a-folder.md
+          - name: 使用 SetColumns 高效枚举文件夹中的项
+            href: outlook/pia/how-to-use-setcolumns-to-efficiently-enumerate-items-in-a-folder.md
+          - name: 使用数组高效枚举文件夹中的项
+            href: outlook/pia/how-to-use-arrays-to-efficiently-enumerate-items-in-a-folder.md
+          - name: 根据上次修改时间枚举收件箱中的项
+            href: outlook/pia/how-to-enumerate-items-in-the-inbox-based-on-the-last-modification-time.md
+          - name: 筛选并显示上月修改的收件箱项
+            href: outlook/pia/how-to-filter-and-display-inbox-items-modified-in-the-last-month.md
+          - name: 在枚举文件夹中的项时筛选并显示多值属性
+            href: outlook/pia/how-to-filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder.md
+          - name: 在枚举文件夹中的项时筛选并显示计算属性
+            href: outlook/pia/how-to-filter-and-display-computed-properties-when-enumerating-items-in-a-folder.md
+          - name: 枚举文件夹中的隐藏项
+            href: outlook/pia/how-to-enumerate-hidden-items-in-a-folder.md
+          - name: 使用“即时搜索”在所有文件夹和所有存储中搜索主题包含某短语的项
+            href: outlook/pia/how-to-use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject.md
+          - name: 在文件夹中项的正文内搜索某短语
+            href: outlook/pia/how-to-search-for-a-phrase-in-the-body-of-items-in-a-folder.md
+          - name: 在文件夹中项的附件内搜索完全匹配的某短语
+            href: outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase.md
+          - name: 搜索并获取某个时间范围内的约会
+            href: outlook/pia/how-to-search-and-obtain-appointments-in-a-time-range.md
+          - name: 筛选定期约会并在主题中搜索某个字符串
+            href: outlook/pia/how-to-filter-recurring-appointments-and-search-for-a-string-in-the-subject.md
+          - name: 搜索项并通过聚合视图获取项
+            href: outlook/pia/how-to-search-and-obtain-items-in-an-aggregated-view.md
+        - name: 会话
+          href: outlook/pia/sessions.md
+          items:
+          - name: 获取并登录 Outlook 实例
+            href: outlook/pia/how-to-get-and-log-on-to-an-instance-of-outlook.md
+        - name: 存储
+          href: outlook/pia/stores.md
+          items:
+          - name: 获取配置文件中的存储的相关信息
+            href: outlook/pia/how-to-get-information-about-stores-in-a-profile.md
+          - name: 添加或删除存储
+            href: outlook/pia/how-to-add-or-remove-a-store.md
+        - name: 任务
+          href: outlook/pia/tasks.md
+          items:
+          - name: 创建任务项
+            href: outlook/pia/how-to-create-a-task-item.md
+          - name: 将任务分配给收件人
+            href: outlook/pia/how-to-assign-a-task-to-a-recipient.md
+          - name: 显示发送给收件人的任务请求项
+            href: outlook/pia/how-to-display-the-task-request-items-sent-to-a-recipient.md
+          - name: 响应任务请求项
+            href: outlook/pia/how-to-respond-to-a-task-request-item.md
+          - name: 创建定期任务
+            href: outlook/pia/how-to-create-a-recurring-task.md
+          - name: 标记来自经理的邮件项以供跟进
+            href: outlook/pia/how-to-flag-mail-items-from-a-manager-for-follow-up.md
+        - name: 视图
+          href: outlook/pia/views.md
+          items:
+          - name: 创建视图
+            href: outlook/pia/how-to-create-a-view.md
+          - name: 向视图添加字段
+            href: outlook/pia/how-to-add-fields-to-a-view.md
+          - name: 枚举表视图中的项
+            href: outlook/pia/how-to-enumerate-items-in-a-table-view.md
+      - name: 类库
+        href: outlook/pia/outlook-2013-interop-assembly-class-library.md
+        items:
+        - name: Microsoft.Office.Interop.Outlook 命名空间
+          href: https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
     - name: Outlook Social Connector 提供程序参考
       href: outlook/social-connector/outlook-social-connector-provider-reference.md
       items:
@@ -894,9 +1221,9 @@ items:
           items:
           - name: 活动源项的 XML 概述
             href: outlook/social-connector/overview-of-xml-for-an-activity-feed-item.md
-          - name: activityDetails 元素
+          - name: ActivityDetails 元素
             href: outlook/social-connector/activitydetails-element.md
-          - name: activityTemplateContainer 元素
+          - name: ActivityTemplateContainer 元素
             href: outlook/social-connector/activitytemplatecontainer-element.md
           - name: 模板变量
             href: outlook/social-connector/template-variables.md
@@ -1093,7 +1420,7 @@ items:
         - name: Outlook 配置
           href: outlook/auxiliary/outlook-configuration.md
           items:
-          - name: 关于自定义项目类型的冲突解决
+          - name: 关于自定义项类型的冲突解决
             href: outlook/auxiliary/about-conflict-resolution-for-custom-item-types.md
           - name: 关于脱机通讯簿的上次更新时间
             href: outlook/auxiliary/about-the-last-update-time-of-an-offline-address-book.md
@@ -1121,7 +1448,7 @@ items:
             href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md
           - name: 从约会中读取时区属性
             href: outlook/auxiliary/how-to-read-time-zone-properties-from-an-appointment.md
-          - name: 使用访问忙/闲数据的相对时间
+          - name: 使用相对时间以访问闲/忙数据
             href: outlook/auxiliary/how-to-use-relative-time-to-access-free-busy-data.md
       - name: 参考
         href: outlook/auxiliary/reference-outlook-auxiliary-reference.md
@@ -1297,7 +1624,7 @@ items:
             items:
             - name: HrCreateNewWrappedObject
               href: outlook/auxiliary/hrcreatenewwrappedobject.md
-        - name: 忙/闲 API 参考
+        - name: 闲/忙 API 参考
           href: outlook/auxiliary/free-busy-api-reference.md
           items:
           - name: 常量
@@ -1440,15 +1767,15 @@ items:
                 href: outlook/auxiliary/iolkapptrebaser-endrebaseappointments.md
           - name: 事件
             href: outlook/auxiliary/available-events-and-their-dispids-outlook-exported-apis.md
-    - name: Outlook MAPI 引用
+    - name: Outlook MAPI 参考
       href: outlook/mapi/outlook-mapi-reference.md
       items:
       - name: 入门
         href: outlook/mapi/getting-started-with-the-outlook-mapi-reference.md
         items:
-        - name: Outlook MAPI 引用概述
+        - name: Outlook MAPI 参考概述
           href: outlook/mapi/outlook-mapi-reference-overview.md
-        - name: 此版本的新增功能
+        - name: 此版本的最近更新
           href: outlook/mapi/what-s-new-in-this-edition.md
         - name: 常用头文件
           href: outlook/mapi/commonly-used-header-files.md
@@ -1456,12 +1783,12 @@ items:
           href: outlook/mapi/commonly-used-properties.md
         - name: 常用对象
           href: outlook/mapi/commonly-used-objects.md
-        - name: 在此版本中弃用的 API 元素
+        - name: 此版本弃用的 API 元素
           href: outlook/mapi/api-elements-deprecated-in-this-edition.md
       - name: 示例
         href: outlook/mapi/mapi-samples.md
         items:
-        - name: MFCMAPI 代码示例
+        - name: 作为代码示例的 MFCMAPI
           href: outlook/mapi/mfcmapi-as-a-code-sample.md
         - name: MAPI 服务提供程序示例
           href: outlook/mapi/mapi-service-provider-samples.md
@@ -1470,10 +1797,10 @@ items:
             href: outlook/mapi/downloading-the-outlook-mapi-samples.md
           - name: 通讯簿提供程序示例
             href: outlook/mapi/address-book-provider-sample.md
-          - name: 邮件存储区提供程序示例
+          - name: 邮件存储提供程序示例
             href: outlook/mapi/message-store-provider-sample.md
             items:
-            - name: 安装示例包装的 PST 存储区提供程序
+            - name: 安装包装的 PST 存储区示例提供程序
               href: outlook/mapi/installing-the-sample-wrapped-pst-store-provider.md
             - name: 初始化包装的 PST 存储区提供程序
               href: outlook/mapi/initializing-a-wrapped-pst-store-provider.md
@@ -1485,16 +1812,16 @@ items:
               href: outlook/mapi/shutting-down-a-wrapped-pst-store-provider.md
           - name: 传输提供程序示例
             href: outlook/mapi/transport-provider-sample.md
-        - name: 使用 MAPI 创建 Outlook 项目
+        - name: 使用 MAPI 创建 Outlook 项
           href: outlook/mapi/creating-outlook-items-by-using-mapi.md
           items:
           - name: 安装本部分中使用的示例
             href: outlook/mapi/how-to-install-the-samples-used-in-this-section.md
           - name: 创建简单邮件项
             href: outlook/mapi/how-to-create-a-simple-mail-item.md
-          - name: 创建简单重复任务项
+          - name: 创建简单定期任务项
             href: outlook/mapi/how-to-create-a-simple-recurrent-task-item.md
-          - name: 创建复杂重复约会项
+          - name: 创建复杂定期约会项
             href: outlook/mapi/how-to-create-a-complex-recurrent-appointment-item.md
           - name: 读取和分析定期模式
             href: outlook/mapi/how-to-read-and-parse-a-recurrence-pattern.md
@@ -1516,7 +1843,7 @@ items:
             href: outlook/mapi/mapi-service-provider-overview.md
           - name: 通讯簿提供程序概述
             href: outlook/mapi/mapi-address-book-provider-overview.md
-          - name: 邮件存储区提供程序概述
+          - name: 邮件存储提供程序概述
             href: outlook/mapi/mapi-message-store-provider-overview.md
           - name: 传输提供程序概述
             href: outlook/mapi/mapi-transport-provider-overview.md
@@ -1535,20 +1862,20 @@ items:
               href: outlook/mapi/installing-the-sample-offline-state-add-in.md
             - name: 设置脱机状态加载项
               href: outlook/mapi/setting-up-an-offline-state-add-in.md
-            - name: 使用脱机状态加载项监视连接状态更改
+            - name: 使用脱机状态加载项监视连接状态变化
               href: outlook/mapi/monitoring-connection-state-changes-using-an-offline-state-add-in.md
-            - name: 断开脱机状态加载项
+            - name: 断开脱机状态加载项连接
               href: outlook/mapi/disconnecting-an-offline-state-add-in.md
-          - name: 关于 MAPI 崩溃恢复 API
+          - name: 关于 MAPI 故障恢复 API
             href: outlook/mapi/about-the-mapi-crash-recovery-api.md
-          - name: 关于在 Outlook 中设置地址列表的解析顺序
+          - name: 关于设置 Outlook 中地址列表的解析顺序
             href: outlook/mapi/about-setting-the-resolution-order-for-address-lists-in-outlook.md
           - name: 关于复制 API
             href: outlook/mapi/about-the-replication-api.md
             items:
-            - name: 关于示例包装的 PST 存储区提供程序
+            - name: 关于包装的 PST 存储区示例提供程序
               href: outlook/mapi/about-the-sample-wrapped-pst-store-provider.md
-          - name: 关于复制状态计算机
+          - name: 关于复制状态机
             href: outlook/mapi/about-the-replication-state-machine.md
             items:
             - name: 下载层次结构状态
@@ -1575,24 +1902,24 @@ items:
               href: outlook/mapi/upload-read-status-state.md
             - name: 上传表状态
               href: outlook/mapi/upload-table-state.md
-          - name: 关于存储区 API
+          - name: 关于存储 API
             href: outlook/mapi/about-the-store-api.md
             items:
-            - name: 关于注册用于建立索引的存储区
+            - name: 关于注册存储以供编制索引
               href: outlook/mapi/about-registering-stores-for-indexing.md
-            - name: 关于基于通知的存储区索引
+            - name: 关于基于通知的存储索引
               href: outlook/mapi/about-notification-based-store-indexing.md
             - name: 关于基于通知的索引的 MAPI URL
               href: outlook/mapi/about-mapi-urls-for-notification-based-indexing.md
-            - name: 用于计算存储区哈希数的算法
+            - name: 用于计算存储哈希数的算法
               href: outlook/mapi/algorithm-to-calculate-the-store-hash-number.md
-            - name: 编码条目 ID 和附件 ID 的算法
+            - name: 用于编码条目 ID 和附件 ID 的算法
               href: outlook/mapi/algorithm-to-encode-entry-ids-and-attachment-ids.md
           - name: 关于 MAPI-MIME 转换 API
             href: outlook/mapi/about-the-mapi-mime-conversion-api.md
           - name: 关于附件安全 API
             href: outlook/mapi/about-the-attachment-security-api.md
-          - name: 关于 MAPI 添加件
+          - name: 关于附加 MAPI
             href: outlook/mapi/about-mapi-additions.md
           - name: 关于 Outlook 使用的命名属性
             href: outlook/mapi/about-named-properties-used-by-outlook.md
@@ -1608,9 +1935,9 @@ items:
               href: outlook/mapi/how-to-install-mapi-header-files.md
             - name: 链接到 MAPI 函数
               href: outlook/mapi/how-to-link-to-mapi-functions.md
-            - name: 选择要加载的 MAPI 的特定版本
+            - name: 选择要加载的特定版本 MAPI
               href: outlook/mapi/how-to-choose-a-specific-version-of-mapi-to-load.md
-            - name: 检查 Outlook 的版本
+            - name: 检查 Outlook 版本
               href: outlook/mapi/how-to-check-the-version-of-outlook.md
             - name: 测试和调试
               href: outlook/mapi/testing-and-debugging.md
@@ -1621,15 +1948,15 @@ items:
             - name: 操作环境问题
               href: outlook/mapi/operating-environment-issues.md
               items:
-              - name: 在 32 位和 64 位平台上构建 MAPI 应用程序
+              - name: 在 32 位和 64 位平台上生成 MAPI 应用程序
                 href: outlook/mapi/building-mapi-applications-on-32-bit-and-64-bit-platforms.md
               - name: 从 Windows 服务调用 MAPI
                 href: outlook/mapi/calling-mapi-from-windows-services.md
-            - name: 当 Outlook 处于缓存 Exchange 模式下时，访问远程服务器上的存储区
+            - name: 当 Outlook 处于缓存 Exchange 模式时，访问远程服务器上的存储
               href: outlook/mapi/how-to-access-store-on-remote-server-in-cached-exchange-mode.md
             - name: 使用 MFCMAPI 创建 Outlook 配置文件
               href: outlook/mapi/how-to-create-an-outlook-profile-using-mfcmapi.md
-            - name: 在 Outlook 配置文件中检测 Exchange Server 的版本
+            - name: 在 Outlook 配置文件中检测 Exchange Server 版本
               href: outlook/mapi/how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md
             - name: 确定 Outlook 是否仅下载邮件头
               href: outlook/mapi/how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md
@@ -1639,21 +1966,21 @@ items:
               href: outlook/mapi/how-to-get-path-of-specific-version-of-mapi-for-default-mail-client.md
             - name: 在缓存 Exchange 模式下管理 OST 中的邮件（不调用同步）
               href: outlook/mapi/how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md
-            - name: 获取给定联系人通讯簿条目的联系人消息
+            - name: 在联系人通讯簿条目给定的情况下获取联系人消息
               href: outlook/mapi/how-to-obtain-a-contact-message-given-a-contacts-address-book-entry.md
-            - name: 访问 IMAP 存储区上的邮件，而无需下载整个邮件
+            - name: 访问 IMAP 存储上的邮件（不下载整个邮件）
               href: outlook/mapi/how-to-access-message-on-imap-store-without-downloading-entire-message.md
-            - name: 当 Outlook 处于缓存 Exchange 模式下时，打开远程服务器上的存储区
+            - name: 当 Outlook 处于缓存 Exchange 模式时，打开远程服务器上的存储
               href: outlook/mapi/how-to-open-store-on-remote-server-in-cached-exchange-mode.md
             - name: 以编程方式设置地址列表的解析顺序
               href: outlook/mapi/how-to-programmatically-set-the-resolution-order-for-address-lists.md
-            - name: 在 Outlook 中以编程方式创建配置文件
+            - name: 以编程方式创建 Outlook 配置文件
               href: outlook/mapi/how-to-programmatically-create-a-profile-in-outlook.md
-            - name: 删除随邮件保存的自定义表单定义
+            - name: 删除随邮件一起保存的自定义表单定义
               href: outlook/mapi/how-to-remove-custom-form-definition-saved-with-a-message.md
-            - name: 检索压缩 RTF 格式的邮件正文，并将其转换为本机格式
+            - name: 检索压缩 RTF 格式的邮件正文，并将它转换为本机格式
               href: outlook/mapi/how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md
-            - name: 使用 MAPI 崩溃恢复 API
+            - name: 使用 MAPI 故障恢复 API
               href: outlook/mapi/how-to-use-the-mapi-crash-recovery-api.md
             - name: 验证附件是否已遭阻止
               href: outlook/mapi/how-to-verify-an-attachment-is-blocked.md
@@ -1672,7 +1999,7 @@ items:
               href: outlook/mapi/hierarchy-tables.md
             - name: 邮件服务表
               href: outlook/mapi/message-service-tables.md
-            - name: 邮件存储区表
+            - name: 邮件存储表
               href: outlook/mapi/message-store-tables.md
             - name: 一次性表
               href: outlook/mapi/one-off-tables.md
@@ -1688,12 +2015,12 @@ items:
               href: outlook/mapi/recipient-tables.md
             - name: 状态表
               href: outlook/mapi/status-tables.md
-            - name: 使用表的提示
+            - name: 表使用提示
               href: outlook/mapi/tips-for-working-with-tables.md
               items:
               - name: 从表行检索数据
                 href: outlook/mapi/retrieving-data-from-table-rows.md
-              - name: 表定位
+              - name: 表位置定位
                 href: outlook/mapi/table-positioning.md
                 items:
                 - name: 通过书签设置表位置
@@ -1702,13 +2029,13 @@ items:
                   href: outlook/mapi/setting-table-position-with-a-fractional-value.md
                 - name: 通过筛选器设置表位置
                   href: outlook/mapi/setting-a-table-position-with-a-filter.md
-              - name: 表和内存使用情况
+              - name: 表和内存使用
                 href: outlook/mapi/tables-and-memory-usage.md
-              - name: 处理大型列
+              - name: 使用大型列
                 href: outlook/mapi/working-with-large-columns.md
-              - name: 处理多值列
+              - name: 使用多值列
                 href: outlook/mapi/working-with-multivalued-columns.md
-              - name: 处理 Unicode 列
+              - name: 使用 Unicode 列
                 href: outlook/mapi/working-with-unicode-columns.md
               - name: 确定表末尾
                 href: outlook/mapi/determining-a-table-s-end.md
@@ -1717,7 +2044,7 @@ items:
               - name: 关于限制
                 href: outlook/mapi/about-restrictions.md
                 items:
-                - name: 限制的类型
+                - name: 限制类型
                   href: outlook/mapi/types-of-restrictions.md
                 - name: 通讯簿限制
                   href: outlook/mapi/address-book-restrictions.md
@@ -1731,7 +2058,7 @@ items:
                 href: outlook/mapi/about-display-table-notifications.md
               - name: 关于异步表操作
                 href: outlook/mapi/about-asynchronous-table-operations.md
-              - name: 实现更好的表性能的提示
+              - name: 表性能提升提示
                 href: outlook/mapi/tips-for-better-table-performance.md
           - name: 表单
             href: outlook/mapi/mapi-forms.md
@@ -1780,11 +2107,11 @@ items:
                 items:
                 - name: 初始化 MAPI
                   href: outlook/mapi/initializing-mapi.md
-                - name: 初始化 MAPI 的 OLE
+                - name: 为 MAPI 初始化 OLE
                   href: outlook/mapi/initializing-ole-for-mapi.md
                 - name: 初始化 MAPI 实用工具
                   href: outlook/mapi/initializing-the-mapi-utilities.md
-                - name: 登录到 MAPI
+                - name: 登录 MAPI
                   href: outlook/mapi/logging-on-to-mapi.md
               - name: 结束 MAPI 会话
                 href: outlook/mapi/ending-a-mapi-session.md
@@ -1803,7 +2130,7 @@ items:
                 href: outlook/mapi/creating-a-message-subject.md
               - name: 创建邮件文本
                 href: outlook/mapi/creating-message-text.md
-              - name: 将生成的信息添加到格式化文本
+              - name: 将呈现的信息添加到格式化文本
                 href: outlook/mapi/adding-rendering-information-to-formatted-text.md
               - name: 创建邮件附件
                 href: outlook/mapi/creating-a-message-attachment.md
@@ -1832,20 +2159,20 @@ items:
                 href: outlook/mapi/rendering-an-attachment-in-rtf-text.md
               - name: 打开附件
                 href: outlook/mapi/opening-an-attachment.md
-            - name: 处理邮件存储区
+            - name: 处理邮件存储
               href: outlook/mapi/handling-a-message-store.md
               items:
-              - name: 打开邮件存储区
+              - name: 打开邮件存储
                 href: outlook/mapi/opening-a-message-store.md
-              - name: 打开默认的邮件存储区
+              - name: 打开默认邮件存储
                 href: outlook/mapi/opening-the-default-message-store.md
-              - name: 验证和初始化邮件存储区
+              - name: 验证和初始化邮件存储
                 href: outlook/mapi/validating-and-initializing-a-message-store.md
-              - name: 搜索邮件存储区
+              - name: 搜索邮件存储
                 href: outlook/mapi/searching-a-message-store.md
               - name: 选择接收文件夹
                 href: outlook/mapi/selecting-a-receive-folder.md
-              - name: 打开邮件存储区文件夹
+              - name: 打开邮件存储文件夹
                 href: outlook/mapi/opening-a-message-store-folder.md
               - name: 显示文件夹内容表
                 href: outlook/mapi/displaying-a-folder-contents-table.md
@@ -1855,15 +2182,15 @@ items:
                 href: outlook/mapi/copying-or-moving-a-message-or-a-folder.md
               - name: 打开邮件
                 href: outlook/mapi/opening-a-message.md
-              - name: 查找邮件的图标
+              - name: 查找邮件图标
                 href: outlook/mapi/finding-the-icon-for-a-message.md
               - name: 打开视图描述符
                 href: outlook/mapi/opening-a-view-descriptor.md
               - name: 删除邮件
                 href: outlook/mapi/deleting-a-message.md
-              - name: 保存收件箱中的某封邮件
+              - name: 保存收件箱中的邮件
                 href: outlook/mapi/saving-a-message-in-the-inbox.md
-              - name: 查找已发送或保存的邮件
+              - name: 查找已发送或已保存的邮件
                 href: outlook/mapi/finding-sent-or-saved-messages.md
               - name: 跟踪对话
                 href: outlook/mapi/tracking-conversations.md
@@ -1916,13 +2243,13 @@ items:
                 href: outlook/mapi/registering-for-a-notification.md
               - name: 取消通知
                 href: outlook/mapi/canceling-a-notification.md
-              - name: 处理邮件存储区通知
+              - name: 处理邮件存储通知
                 href: outlook/mapi/handling-message-store-notification.md
               - name: 处理通讯簿通知
                 href: outlook/mapi/handing-address-book-notification.md
               - name: 处理表通知
                 href: outlook/mapi/handling-table-notification.md
-              - name: 实现通知接收器对象
+              - name: 实现建议接收器对象
                 href: outlook/mapi/implementing-an-advise-sink-object.md
               - name: 为通知计时
                 href: outlook/mapi/timing-a-notification.md
@@ -1988,18 +2315,18 @@ items:
                 href: outlook/mapi/using-the-mapi-utilities.md
               - name: 实现进度指示器
                 href: outlook/mapi/implementing-a-progress-indicator.md
-              - name: 集中处理 NDR 的回执
+              - name: 集中处理收到的 NDR
                 href: outlook/mapi/centralizing-the-receipt-of-ndrs.md
-            - name: 提高客户端性能
+            - name: 提升客户端性能
               href: outlook/mapi/improving-client-performance.md
               items:
-              - name: 避免在启动时使用某些方法
+              - name: 避免在启动时使用特定方法
                 href: outlook/mapi/avoiding-certain-methods-at-startup.md
-              - name: 获取和设置多个属性
+              - name: 获取并设置多个属性
                 href: outlook/mapi/getting-and-setting-multiple-properties.md
-              - name: 使用表处理属性
+              - name: 使用表来处理属性
                 href: outlook/mapi/using-a-table-to-work-with-properties.md
-              - name: 通过 GetProps 和 SetProps 获取和设置属性
+              - name: 使用 GetProps 和 SetProps 获取并设置属性
                 href: outlook/mapi/getting-and-setting-properties-with-getprops-and-setprops.md
               - name: 保存常用属性
                 href: outlook/mapi/saving-frequently-used-properties.md
@@ -2007,7 +2334,7 @@ items:
                 href: outlook/mapi/deferring-processing.md
               - name: 编写未压缩的格式化文本
                 href: outlook/mapi/writing-uncompressed-formatted-text.md
-              - name: 避免使用 IStream::SetSize 来扩展流
+              - name: 避免使用 IStream::SetSize 扩展流
                 href: outlook/mapi/avoiding-using-istream-setsize-to-extend-a-stream.md
               - name: 设置列和限制后对表排序
                 href: outlook/mapi/sorting-tables-after-setting-columns-and-restrictions.md
@@ -2015,7 +2342,7 @@ items:
                 href: outlook/mapi/calling-queryrows-for-small-tables.md
               - name: 使用 IStreamDocfile 打开 OLE 附件
                 href: outlook/mapi/opening-ole-attachments-with-istreamdocfile.md
-              - name: 使用字符字符串命名文件夹
+              - name: 使用字符串命名文件夹
                 href: outlook/mapi/naming-folders-by-using-character-strings.md
           - name: 开发 MAPI 表单服务器
             href: outlook/mapi/developing-mapi-form-servers.md
@@ -2044,7 +2371,7 @@ items:
                 href: outlook/mapi/declaring-form-interfaces.md
               - name: 将 MAPI 表单服务器代码与 Windows 代码集成
                 href: outlook/mapi/integrating-mapi-form-server-code-with-windows-code.md
-              - name: 实现表单服务器的 IClassFactory 接口
+              - name: 为表单服务器实现 IClassFactory 接口
                 href: outlook/mapi/implementing-the-iclassfactory-interface-for-form-servers.md
             - name: 创建表单配置文件
               href: outlook/mapi/creating-a-form-configuration-file.md
@@ -2064,13 +2391,13 @@ items:
           - name: 条目标识符
             href: outlook/mapi/mapi-entry-identifiers.md
             items:
-            - name: 构建条目标识符
+            - name: 构造条目标识符
               href: outlook/mapi/constructing-entry-identifiers.md
             - name: 短期条目标识符
               href: outlook/mapi/short-term-entry-identifiers.md
             - name: 长期条目标识符
               href: outlook/mapi/long-term-entry-identifiers.md
-          - name: 记录并搜索键
+          - name: 记录关键字和搜索关键字
             href: outlook/mapi/mapi-record-and-search-keys.md
           - name: 文件夹
             href: outlook/mapi/mapi-folders.md
@@ -2081,11 +2408,11 @@ items:
               href: outlook/mapi/mapi-special-folders.md
             - name: 接收文件夹
               href: outlook/mapi/mapi-receive-folders.md
-            - name: 搜索文件夹
+            - name: 搜索结果文件夹
               href: outlook/mapi/mapi-search-folders.md
             - name: 隐藏文件夹
               href: outlook/mapi/mapi-hidden-folders.md
-            - name: 查看文件夹
+            - name: 视图文件夹
               href: outlook/mapi/mapi-view-folders.md
           - name: 邮件
             href: outlook/mapi/mapi-messages.md
@@ -2110,7 +2437,7 @@ items:
             - name: Outlook 项和字段
               href: outlook/mapi/outlook-items-and-fields.md
               items:
-              - name: 为新的用户定义字段添加定义
+              - name: 为用户定义的新字段添加定义
                 href: outlook/mapi/how-to-add-a-definition-for-a-new-user-defined-field.md
               - name: PropertyDefinition 流示例
                 href: outlook/mapi/propertydefinition-stream-sample.md
@@ -2159,7 +2486,7 @@ items:
               href: outlook/mapi/nickname-cache.md
             - name: 自动完成流
               href: outlook/mapi/autocomplete-stream.md
-          - name: 主标识
+          - name: 主要标识
             href: outlook/mapi/mapi-primary-identity.md
           - name: 管理内存
             href: outlook/mapi/managing-memory-in-mapi.md
@@ -2173,26 +2500,26 @@ items:
             items:
             - name: 返回值命名约定
               href: outlook/mapi/return-value-naming-convention.md
-            - name: 使用宏进行错误处理
+            - name: 使用宏处理错误
               href: outlook/mapi/using-macros-for-error-handling.md
             - name: 返回值文档
               href: outlook/mapi/mapi-return-value-documentation.md
-            - name: 错误处理的策略
+            - name: 错误处理策略
               href: outlook/mapi/strategies-for-error-handling.md
             - name: 扩展错误
               href: outlook/mapi/mapi-extended-errors.md
             - name: 延迟错误
               href: outlook/mapi/deferring-mapi-errors.md
-          - name: 使用 HTML 发送邮件
+          - name: 使用 MAPI 发送邮件
             href: outlook/mapi/sending-messages-by-using-mapi.md
             items:
-            - name: 代理访问
+            - name: 委托访问
               href: outlook/mapi/delegate-access.md
             - name: 使用 TNEF 发送邮件
               href: outlook/mapi/sending-messages-with-tnef.md
             - name: 发送邮件：MAPI 后台处理程序任务
               href: outlook/mapi/sending-messages-mapi-spooler-tasks.md
-            - name: 发送邮件：邮件存储区提供程序任务
+            - name: 发送邮件：邮件存储提供程序任务
               href: outlook/mapi/sending-messages-message-store-provider-tasks.md
             - name: 发送邮件：传输提供程序任务
               href: outlook/mapi/sending-messages-transport-provider-tasks.md
@@ -2226,7 +2553,7 @@ items:
               href: outlook/mapi/fast-shutdown-overview.md
             - name: 快速关闭用户选项
               href: outlook/mapi/fast-shutdown-user-options.md
-            - name: 快速关闭的最佳实践
+            - name: 快速关闭最佳做法
               href: outlook/mapi/best-practices-for-fast-shutdown.md
           - name: 结构化存储
             href: outlook/mapi/structured-storage-in-mapi.md
@@ -2235,15 +2562,15 @@ items:
           - name: MAPI 中的格式化文本
             href: outlook/mapi/formatted-text-in-mapi.md
             items:
-            - name: 同步文本和格式设置
+            - name: 同步文本和格式化
               href: outlook/mapi/synchronizing-text-and-formatting.md
             - name: 支持待发邮件中的格式化文本：客户端责任
               href: outlook/mapi/supporting-formatted-text-in-outgoing-messages-client-responsibilities.md
-            - name: 支持传入邮件中的格式化文本：客户端责任
+            - name: 支持传入的邮件中的格式化文本：客户端责任
               href: outlook/mapi/supporting-formatted-text-in-incoming-messages-client-responsibilities.md
-            - name: 支持格式化文本：邮件存储区责任
+            - name: 支持格式化文本：邮件存储责任
               href: outlook/mapi/supporting-formatted-text-message-store-responsibilities.md
-            - name: 支持格式化文本：显示附件
+            - name: 支持格式化文本：呈现附件
               href: outlook/mapi/supporting-formatted-text-rendering-attachments.md
             - name: 支持格式化文本：网关责任
               href: outlook/mapi/supporting-formatted-text-gateway-responsibilities.md
@@ -2252,7 +2579,7 @@ items:
           - name: MAPI 文件格式
             href: outlook/mapi/mapi-file-formats.md
             items:
-            - name: MapiSvc.inf 的文件格式
+            - name: MapiSvc.inf 文件格式
               href: outlook/mapi/file-format-of-mapisvc-inf.md
               items:
               - name: MapiSvc.inf [帮助文件映射] 部分
@@ -2277,7 +2604,7 @@ items:
               items:
               - name: 表单配置文件 [说明] 部分
                 href: outlook/mapi/form-configuration-file-description-section.md
-              - name: 表单配置文件 [扩展名] 部分
+              - name: 表单配置文件 [扩展] 部分
                 href: outlook/mapi/form-configuration-file-extensions-section.md
               - name: 表单配置文件 [平台] 部分
                 href: outlook/mapi/form-configuration-file-platforms-section.md
@@ -2300,7 +2627,7 @@ items:
               items:
               - name: attMAPIProps
                 href: outlook/mapi/attmapiprops.md
-              - name: attDate Attributes
+              - name: attDate 属性
                 href: outlook/mapi/attdate-attributes.md
               - name: attOriginalMessageClass
                 href: outlook/mapi/attoriginalmessageclass.md
@@ -2352,7 +2679,7 @@ items:
               items:
               - name: 通讯簿提供程序对象
                 href: outlook/mapi/mapi-address-book-provider-objects.md
-              - name: 邮件存储区提供程序对象
+              - name: 邮件存储提供程序对象
                 href: outlook/mapi/mapi-message-store-provider-objects.md
               - name: 传输提供程序对象
                 href: outlook/mapi/mapi-transport-provider-objects.md
@@ -2367,7 +2694,7 @@ items:
                 href: outlook/mapi/implementing-objects-in-c-plus-plus.md
               - name: 使用 C 实现对象
                 href: outlook/mapi/implementing-objects-in-c.md
-              - name: 实施 IUnknown 接口
+              - name: 实现 IUnknown 接口
                 href: outlook/mapi/implementing-the-iunknown-interface.md
                 items:
                 - name: 使用 C++ 实现 IUnknown
@@ -2389,9 +2716,9 @@ items:
               href: outlook/mapi/mapi-string-properties.md
             - name: 规范属性
               href: outlook/mapi/mapi-canonical-properties.md
-            - name: 将规范属性名称映射到 MAPI 名称
+            - name: 将规范属性名映射到 MAPI 名称
               href: outlook/mapi/mapping-canonical-property-names-to-mapi-names.md
-            - name: 将 MAPI 名称映射到规范属性名称
+            - name: 将 MAPI 名称映射到规范属性名
               href: outlook/mapi/mapping-mapi-names-to-canonical-property-names.md
             - name: 对象和属性
               href: outlook/mapi/mapi-objects-and-properties.md
@@ -2412,15 +2739,15 @@ items:
             - name: 命名属性
               href: outlook/mapi/mapi-named-properties.md
               items:
-              - name: 支持命名的属性
+              - name: 支持命名属性
                 href: outlook/mapi/supporting-named-properties.md
-              - name: 属性名称和属性集
+              - name: 属性名和属性集
                 href: outlook/mapi/property-names-and-property-sets.md
               - name: 映射和映射签名
                 href: outlook/mapi/mappings-and-mapping-signatures.md
-              - name: 处理命名的属性错误
+              - name: 处理命名属性错误
                 href: outlook/mapi/handling-named-property-errors.md
-              - name: 传输和复制命名的属性
+              - name: 传输和复制命名属性
                 href: outlook/mapi/transmitting-and-copying-named-properties.md
               - name: 常用属性集
                 href: outlook/mapi/commonly-used-property-sets.md
@@ -2431,7 +2758,7 @@ items:
                 href: outlook/mapi/property-identifier-ranges.md
               - name: 属性类型
                 href: outlook/mapi/property-types.md
-            - name: 将 Internet Mail 属性映射到 MAPI 属性
+            - name: 将 Internet 邮件属性映射到 MAPI 属性
               href: outlook/mapi/mapping-of-internet-mail-attributes-to-mapi-properties.md
               items:
               - name: SMTP 地址
@@ -2448,7 +2775,7 @@ items:
         - name: 服务提供程序
           href: outlook/mapi/mapi-service-providers.md
           items:
-          - name: 服务提供程序开发基础
+          - name: 服务提供程序开发基础知识
             href: outlook/mapi/service-provider-development-basics.md
             items:
             - name: 支持对象概述
@@ -2470,9 +2797,9 @@ items:
             - name: 关闭服务提供程序
               href: outlook/mapi/shutting-down-a-service-provider.md
               items:
-              - name: 关闭邮件存储区提供程序
+              - name: 关闭邮件存储提供程序
                 href: outlook/mapi/shutting-down-a-message-store-provider.md
-              - name: 使对象无效
+              - name: 让对象无效
                 href: outlook/mapi/invalidating-an-object.md
             - name: 支持对象访问和比较
               href: outlook/mapi/supporting-object-access-and-comparison.md
@@ -2557,9 +2884,9 @@ items:
             items:
             - name: 传输提供程序概述
               href: outlook/mapi/transport-provider-overview.md
-            - name: 传输提供程序的类型
+            - name: 传输提供程序类型
               href: outlook/mapi/types-of-transport-providers.md
-            - name: 在 MAPI 子系统中传输提供程序角色
+            - name: MAPI 子系统中的传输提供程序角色
               href: outlook/mapi/transport-provider-role-in-the-mapi-subsystem.md
               items:
               - name: 传输提供程序和 MAPI 后台处理程序操作模型
@@ -2572,7 +2899,7 @@ items:
             - name: 传输提供程序的必需功能
               href: outlook/mapi/required-functionality-for-transport-providers.md
               items:
-              - name: MAPI 提供程序与组件的交互
+              - name: MAPI 提供程序和组件的交互
                 href: outlook/mapi/interaction-of-mapi-providers-and-components.md
               - name: 与 MAPI 后台处理程序交互
                 href: outlook/mapi/interacting-with-the-mapi-spooler.md
@@ -2582,7 +2909,7 @@ items:
                 href: outlook/mapi/releasing-the-transport-provider.md
               - name: 实现 FlushQueues 方法
                 href: outlook/mapi/implementing-the-flushqueues-method.md
-              - name: 设置传入邮件的属性
+              - name: 设置传入的邮件的属性
                 href: outlook/mapi/setting-properties-on-incoming-messages.md
             - name: 可选的传输提供程序功能
               href: outlook/mapi/optional-transport-provider-features.md
@@ -2603,76 +2930,76 @@ items:
               - name: 使用 TNEF 进行自定义处理
                 href: outlook/mapi/custom-processing-with-tnef.md
                 items:
-                - name: 使用 TNEF 自定义附件处理发送邮件
+                - name: 使用 TNEF 自定义附件处理来发送邮件
                   href: outlook/mapi/sending-messages-by-using-tnef-custom-attachment-processing.md
-                - name: 使用 TNEF 自定义附件处理接收邮件
+                - name: 使用 TNEF 自定义附件处理来接收邮件
                   href: outlook/mapi/receiving-messages-by-using-tnef-custom-attachment-processing.md
               - name: TNEF 标记的邮件文本
                 href: outlook/mapi/tnef-tagged-message-text.md
               - name: 使用 TNEF 对收件人表编码
                 href: outlook/mapi/encoding-recipient-tables-by-using-tnef.md
-          - name: 开发 MAPI 邮件存储区提供程序
+          - name: 开发 MAPI 邮件存储提供程序
             href: outlook/mapi/developing-a-mapi-message-store-provider.md
             items:
-            - name: 邮件存储区提供程序的结构
+            - name: 邮件存储提供程序的结构
               href: outlook/mapi/structure-of-message-store-providers.md
-            - name: 邮件存储区提供程序的必需和可选接口
+            - name: 邮件存储提供程序的必需和可选接口
               href: outlook/mapi/required-and-optional-interfaces-for-message-store-providers.md
-            - name: 邮件存储区功能
+            - name: 邮件存储功能
               href: outlook/mapi/message-store-features.md
               items:
-              - name: 实现邮件存储区中的文件夹
+              - name: 实现邮件存储中的文件夹
                 href: outlook/mapi/implementing-folders-in-message-stores.md
                 items:
-                - name: 公开邮件存储区中的文件夹
+                - name: 公开邮件存储中的文件夹
                   href: outlook/mapi/exposing-folders-in-message-stores.md
-                - name: 邮件存储区的收件箱和发件箱文件夹
+                - name: 邮件存储中的收件箱和发件箱文件夹
                   href: outlook/mapi/inbox-and-outbox-folders-in-message-stores.md
-                - name: 邮件存储区中的特殊文件夹
+                - name: 邮件存储中的特殊文件夹
                   href: outlook/mapi/special-folders-in-message-stores.md
-              - name: 实现邮件存储区中的邮件
+              - name: 实现邮件存储中的邮件
                 href: outlook/mapi/implementing-messages-in-message-stores.md
                 items:
-                - name: 在邮件存储区中创建和存储邮件
+                - name: 创建和存储邮件存储中的邮件
                   href: outlook/mapi/creating-and-storing-messages-in-message-stores.md
-                - name: 支持邮件存储区中的命名属性
+                - name: 支持邮件存储中的命名属性
                   href: outlook/mapi/supporting-named-properties-in-message-stores.md
-                - name: 支持邮件存储区中的多值属性
+                - name: 支持邮件存储中的多值属性
                   href: outlook/mapi/supporting-multivalued-properties-in-message-stores.md
-                - name: 支持多个客户端访问邮件存储区中的邮件
+                - name: 支持多个客户端访问邮件存储中的邮件
                   href: outlook/mapi/supporting-multiple-client-access-to-messages-in-message-stores.md
-              - name: 为邮件存储区提供程序提供读取和未读报告
+              - name: 提供邮件存储提供程序的已读和未读邮件报告
                 href: outlook/mapi/providing-read-and-nonread-reports-for-message-store-providers.md
-              - name: 实现邮件存储区提供程序的配置接口
+              - name: 实现邮件存储提供程序的配置接口
                 href: outlook/mapi/implementing-a-configuration-interface-for-message-store-providers.md
               - name: 文件夹关联的信息表
                 href: outlook/mapi/folder-associated-information-tables.md
-              - name: 使用邮件存储区提供程序发送邮件
+              - name: 使用邮件存储提供程序发送邮件
                 href: outlook/mapi/sending-messages-by-using-message-store-providers.md
-              - name: 使用邮件存储区提供程序接收邮件
+              - name: 使用邮件存储提供程序接收邮件
                 href: outlook/mapi/receiving-messages-by-using-message-store-providers.md
-              - name: 支持邮件存储区提供程序的邮件附件
+              - name: 支持邮件存储提供程序的邮件附件
                 href: outlook/mapi/supporting-message-attachments-for-message-store-providers.md
-              - name: 支持邮件存储区提供程序的 RTF 文本
+              - name: 支持邮件存储提供程序的 RTF 文本
                 href: outlook/mapi/supporting-rtf-text-for-message-store-providers.md
-              - name: 提供邮件存储区提供程序的通知
+              - name: 提供邮件存储提供程序的通知
                 href: outlook/mapi/providing-notifications-for-message-store-providers.md
-              - name: 分组和限制邮件存储区提供程序中的表
+              - name: 分组和限制邮件存储提供程序中的表
                 href: outlook/mapi/grouping-and-restricting-tables-in-message-store-providers.md
-              - name: 支持在邮件存储区提供程序中进行搜索
+              - name: 支持在邮件存储提供程序中搜索
                 href: outlook/mapi/supporting-searches-in-message-store-providers.md
-              - name: 生成和使用邮件存储区提供程序中的条目标识符
+              - name: 生成和使用邮件存储提供程序中的条目标识符
                 href: outlook/mapi/generating-and-using-entry-identifiers-in-message-store-providers.md
-            - name: 默认邮件存储区
+            - name: 默认邮件存储
               href: outlook/mapi/default-message-stores.md
-            - name: 只读邮件存储区
+            - name: 只读邮件存储
               href: outlook/mapi/read-only-message-stores.md
               items:
-              - name: 支持只读邮件存储区中的表单和视图
+              - name: 支持只读邮件存储中的表单和视图
                 href: outlook/mapi/supporting-forms-and-views-in-read-only-message-stores.md
-            - name: 紧密耦合邮件存储区提供程序
+            - name: 紧密耦合邮件存储提供程序
               href: outlook/mapi/tightly-coupled-message-store-providers.md
-            - name: 加载邮件存储区提供程序
+            - name: 加载邮件存储提供程序
               href: outlook/mapi/loading-message-store-providers.md
       - name: 参考
         href: outlook/mapi/mapi-reference.md
@@ -3909,7 +4236,7 @@ items:
             href: outlook/mapi/display-server-folder-sizes-property.md
           - name: 隐藏会议更新选项属性
             href: outlook/mapi/hide-meeting-update-option-property.md
-          - name: 将存储类型视为专用的属性
+          - name: 将存储类型设为专用属性
             href: outlook/mapi/make-store-type-private-property.md
           - name: NoFolderScan
             href: outlook/mapi/nofolderscan.md
@@ -4929,7 +5256,7 @@ items:
             href: outlook/mapi/pidtagfolderassociatedcontents-canonical-property.md
           - name: PidTagFolderType 规范属性
             href: outlook/mapi/pidtagfoldertype-canonical-property.md
-          - name: PidTagFolderWebViewInfo Cannonical Property
+          - name: PidTagFolderWebViewInfo 规范属性
             href: outlook/mapi/pidtagfolderwebviewinfo-cannonical-property.md
           - name: PidTagFollowupIcon 规范属性
             href: outlook/mapi/pidtagfollowupicon-canonical-property.md
@@ -5265,7 +5592,7 @@ items:
             href: outlook/mapi/pidtagoriginalsendername-canonical-property.md
           - name: PidTagOriginalSenderSearchKey 规范属性
             href: outlook/mapi/pidtagoriginalsendersearchkey-canonical-property.md
-          - name: PidTagOriginalSensitivity 规范属性
+          - name: PidTagOriginalSensitivity canonical 规范属性
             href: outlook/mapi/pidtagoriginalsensitivity-canonical-property.md
           - name: PidTagOriginalSentRepresentingAddressType 规范属性
             href: outlook/mapi/pidtagoriginalsentrepresentingaddresstype-canonical-property.md
@@ -6128,7 +6455,7 @@ items:
         - name: 数据类型
           href: outlook/mapi/mapi-data-types.md
           items:
-          - name: BOOKMARK
+          - name: 书签
             href: outlook/mapi/bookmark.md
           - name: DNHIER
             href: outlook/mapi/dnhier.md
@@ -6204,12 +6531,12 @@ items:
     href: powerpoint-home.md
     items:
     - name: PowerPoint VBA 参考
-      href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/powerpoint
   - name: Project
     href: project/project-home.md
     items:
     - name: Project VBA 参考
-      href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/project
     - name: 开发人员文档
       href: project/project-2013-developer-documentation.md
       items:
@@ -6249,12 +6576,12 @@ items:
         - name: Project 编程任务
           href: project/project-programming-tasks.md
           items:
-          - name: 开发 Project Server 工作流入门
+          - name: 开始开发 Project Server 工作流
             href: project/getting-started-developing-project-server-workflows.md
             items:
-            - name: 为需求管理创建 Project Server 工作流
+            - name: 创建 Project Server 工作流以用于需求管理
               href: project/create-a-project-server-workflow-for-demand-management.md
-          - name: 批量更新自定义字段并从 Project Online 中的工作流创建项目网站
+          - name: 批量更新自定义字段并通过 Project Online 中的工作流创建项目网站
             href: project/bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md
           - name: 使用 JavaScript 对象模型处理项目
             href: project/create-retrieve-update-delete-projects-using-project-server-javascript.md
@@ -6274,25 +6601,25 @@ items:
           - name: Project Server 错误代码
             href: project/project-server-error-codes.md
           - name: ProjectData - OData 服务引用
-            href: https://msdn.microsoft.com/en-us/library/office/jj163015.aspx
+            href: https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)
       - name: 类库和 Web 服务引用
-        href: https://docs.microsoft.com/en-us/dotnet/api/index?view=office-project-server
+        href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
       - name: JavaScript API 参考
-        href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
+        href: https://msdn.microsoft.com/library/office/jj712612.aspx
   - name: Publisher
     href: publisher-home.md
     items:
     - name: Publisher VBA 参考
-      href: https://msdn.microsoft.com/en-us/library/office/ee861522.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/publisher
   - name: Visio
     href: visio/visio-home.md
     items:
     - name: Visio VBA 参考
-      href: https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx
-    - name: Visio 另存为 Web 引用
-      href: https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/visio
+    - name: Visio“另存为 Web”参考
+      href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference
     - name: Visio Viewer 参考
-      href: https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference
     - name: Visio ShapeSheet 引用
       href: visio/visio-shapesheet-reference.md
       items:
@@ -6321,7 +6648,7 @@ items:
           href: visio/about-security-settings-and-running-code-in-visio-shapesheet.md
         - name: 关于字符串
           href: visio/about-strings.md
-        - name: 关于公式跟踪窗口
+        - name: 关于“公式跟踪”窗口
           href: visio/about-the-formula-tracing-window.md
         - name: 关于 ShapeSheet 电子表格
           href: visio/about-the-shapesheet-spreadsheet.md
@@ -6332,15 +6659,15 @@ items:
       - name: 常见任务
         href: visio/common-tasks-visio-shapesheet.md
         items:
-        - name: 添加、更改或删除 ShapeSheet 中的行
+        - name: 在 ShapeSheet 中添加、更改或删除行
           href: visio/add-change-or-delete-rows-in-the-shapesheet.md
-        - name: 添加、显示、隐藏或删除部分
+        - name: 添加、显示、隐藏或删除节
           href: visio/add-show-hide-or-delete-a-section.md
-        - name: 更改名称并查看形状的 ID
+        - name: 更改名称并查看形状 ID
           href: visio/change-the-name-and-view-the-id-of-a-shape.md
         - name: 将公式从一个单元格复制并粘贴到另一个单元格
           href: visio/copy-and-paste-a-formula-from-one-cell-into-another.md
-        - name: 显示单元格中的公式或值
+        - name: 在单元格中显示公式或值
           href: visio/display-formulas-or-values-in-cells.md
         - name: 编辑公式的某个部分
           href: visio/edit-a-part-of-a-formula.md
@@ -6352,13 +6679,13 @@ items:
           href: visio/open-each-shapesheet-in-the-same-window.md
         - name: 打开形状、页面或文档的 ShapeSheet
           href: visio/open-the-shapesheet-for-a-shape-page-or-document.md
-        - name: 引用公式中的单元格
+        - name: 在公式中引用单元格
           href: visio/reference-a-cell-in-a-formula.md
         - name: 在开发人员模式下运行（显示“开发人员”选项卡）
           href: visio/run-in-developer-mode-display-the-developer-tab.md
         - name: 在 ShapeSheet 窗口中显示对象
           href: visio/show-an-object-in-the-shapesheet-window.md
-        - name: 为单元格键入一个新公式
+        - name: 键入单元格的新公式
           href: visio/type-a-new-formula-for-a-cell.md
       - name: 参考
         href: visio/reference-visio-shapesheet.md
@@ -6366,845 +6693,845 @@ items:
         - name: 单元格
           href: visio/cells-visio-shapesheet-reference.md
           items:
-          - name: A 单元格（“Geometry”部分）
+          - name: A 单元格（“几何”部分）
             href: visio/a-cell-geometry-section.md
-          - name: Action 单元格（“Actions”部分）
+          - name: Action 单元格（“操作”部分）
             href: visio/action-cell-actions-section.md
-          - name: Active 单元格（“Layers”部分）
+          - name: Active 单元格（“层”部分）
             href: visio/active-cell-layers-section.md
-          - name: AddMarkup 单元格（“Document Properties”部分）
+          - name: AddMarkup 单元格（“文档属性”部分）
             href: visio/addmarkup-cell-document-properties-section.md
-          - name: Address 单元格（“Hyperlinks”部分）
+          - name: Address 单元格（“超链接”部分）
             href: visio/address-cell-hyperlinks-section.md
-          - name: AlignBottom 单元格（“Alignment”部分）
+          - name: AlignBottom 单元格（“对齐方式”部分）
             href: visio/alignbottom-cell-alignment-section.md
-          - name: AlignCenter 单元格（“Alignment”部分）
+          - name: AlignCenter 单元格（“对齐方式”部分）
             href: visio/aligncenter-cell-alignment-section.md
-          - name: AlignLeft 单元格（“Alignment”部分）
+          - name: AlignLeft 单元格（“对齐方式”部分）
             href: visio/alignleft-cell-alignment-section.md
-          - name: Alignment 单元格（“Tabs”部分）
+          - name: Alignment 单元格（“选项卡”部分）
             href: visio/alignment-cell-tabs-section.md
-          - name: AlignMiddle 单元格（“Alignment”部分）
+          - name: AlignMiddle 单元格（“对齐方式”部分）
             href: visio/alignmiddle-cell-alignment-section.md
-          - name: AlignRight 单元格（“Alignment”部分）
+          - name: AlignRight 单元格（“对齐方式”部分）
             href: visio/alignright-cell-alignment-section.md
-          - name: AlignTop 单元格（“Alignment”部分）
+          - name: AlignTop 单元格（“对齐方式”部分）
             href: visio/aligntop-cell-alignment-section.md
-          - name: Angle 单元格（“Shape Transform”部分）
+          - name: Angle 单元格（“形状转换”部分）
             href: visio/angle-cell-shape-transform-section.md
-          - name: AsianFont 单元格（“Character”部分）
+          - name: AsianFont 单元格（“字符”部分）
             href: visio/asianfont-cell-character-section.md
-          - name: Ask 单元格（“Shape Data”部分）
+          - name: Ask 单元格（“形状数据”部分）
             href: visio/ask-cell-shape-data-section.md
-          - name: AvenueSizeX 单元格（“Page Layout”部分）
+          - name: AvenueSizeX 单元格（“页面布局”部分）
             href: visio/avenuesizex-cell-page-layout-section.md
-          - name: AvenueSizeY 单元格（“Page Layout”部分）
+          - name: AvenueSizeY 单元格（“页面布局”部分）
             href: visio/avenuesizey-cell-page-layout-section.md
-          - name: AvoidPageBreaks 单元格（“Page Layout”部分）
+          - name: AvoidPageBreaks 单元格（“页面布局”部分）
             href: visio/avoidpagebreaks-cell-page-layout-section.md
-          - name: B 单元格（“Geometry”部分）
+          - name: B 单元格（“几何”部分）
             href: visio/b-cell-geometry-section.md
-          - name: BeginArrow 单元格（“Line Format”部分）
+          - name: BeginArrow 单元格（“线条格式”部分）
             href: visio/beginarrow-cell-line-format-section.md
-          - name: BeginArrowSize 单元格（“Line Format”部分）
+          - name: BeginArrowSize 单元格（“线条格式”部分）
             href: visio/beginarrowsize-cell-line-format-section.md
-          - name: BeginGroup 单元格（“Actions”部分）
+          - name: BeginGroup 单元格（“操作”部分）
             href: visio/begingroup-cell-actions-section.md
-          - name: BeginX 单元格（“1-D Endpoints”部分）
+          - name: BeginX 单元格（“一维端点”部分）
             href: visio/beginx-cell-1-d-endpoints-section.md
-          - name: BeginY 单元格（“1-D Endpoints”部分）
+          - name: BeginY 单元格（“一维端点”部分）
             href: visio/beginy-cell-1-d-endpoints-section.md
-          - name: BegTrigger 单元格（“Glue Info”部分）
+          - name: BegTrigger 单元格（“粘贴信息”部分）
             href: visio/begtrigger-cell-glue-info-section.md
-          - name: BevelBottomHeight 单元格（“Bevel Properties”部分）
+          - name: BevelBottomHeight 单元格（“棱台属性”部分）
             href: visio/bevelbottomheight-cell-bevel-properties-section.md
-          - name: BevelBottomType 单元格（“Bevel Properties”部分）
+          - name: BevelBottomType 单元格（“棱台属性”部分）
             href: visio/bevelbottomtype-cell-bevel-properties-section.md
-          - name: BevelBottomWidth 单元格（“Bevel Properties”部分）
+          - name: BevelBottomWidth 单元格（“棱台属性”部分）
             href: visio/bevelbottomwidth-cell-bevel-properties-section.md
-          - name: BevelContourColor 单元格（“Bevel Properties”部分）
+          - name: BevelContourColor 单元格（“棱台属性”部分）
             href: visio/bevelcontourcolor-cell-bevel-properties-section.md
-          - name: BevelContourSize 单元格（“Bevel Properties”部分）
+          - name: BevelContourSize 单元格（“棱台属性”部分）
             href: visio/bevelcontoursize-cell-bevel-properties-section.md
-          - name: BevelDepthColor 单元格（“Bevel Properties”部分）
+          - name: BevelDepthColor 单元格（“棱台属性”部分）
             href: visio/beveldepthcolor-cell-bevel-properties-section.md
-          - name: BevelDepthSize 单元格（“Bevel Properties”部分）
+          - name: BevelDepthSize 单元格（“棱台属性”部分）
             href: visio/beveldepthsize-cell-bevel-properties-section.md
-          - name: BevelLightingAngle 单元格（“Bevel Properties”部分）
+          - name: BevelLightingAngle 单元格（“棱台属性”部分）
             href: visio/bevellightingangle-cell-bevel-properties-section.md
-          - name: BevelLightingType 单元格（“Bevel Properties”部分）
+          - name: BevelLightingType 单元格（“棱台属性”部分）
             href: visio/bevellightingtype-cell-bevel-properties-section.md
-          - name: BevelMaterialType 单元格（“Bevel Properties”部分）
+          - name: BevelMaterialType 单元格（“棱台属性”部分）
             href: visio/bevelmaterialtype-cell-bevel-properties-section.md
-          - name: BevelTopHeight 单元格（“Bevel Properties”部分）
+          - name: BevelTopHeight 单元格（“棱台属性”部分）
             href: visio/beveltopheight-cell-bevel-properties-section.md
-          - name: BevelTopType 单元格（“Bevel Properties”部分）
+          - name: BevelTopType 单元格（“棱台属性”部分）
             href: visio/beveltoptype-cell-bevel-properties-section.md
-          - name: BevelTopWidth 单元格（“Bevel Properties”部分）
+          - name: BevelTopWidth 单元格（“棱台属性”部分）
             href: visio/beveltopwidth-cell-bevel-properties-section.md
-          - name: BlockSizeX 单元格（“Page Layout”部分）
+          - name: BlockSizeX 单元格（“页面布局”部分）
             href: visio/blocksizex-cell-page-layout-section.md
-          - name: BlockSizeY 单元格（“Page Layout”部分）
+          - name: BlockSizeY 单元格（“页面布局”部分）
             href: visio/blocksizey-cell-page-layout-section.md
-          - name: Blur 单元格（“Image Properties”部分）
+          - name: Blur 单元格（“图像属性”部分）
             href: visio/blur-cell-image-properties-section.md
-          - name: BottomMargin 单元格（“Text Block Format”部分）
+          - name: BottomMargin 单元格（“文本块格式”部分）
             href: visio/bottommargin-cell-text-block-format-section.md
-          - name: Brightness 单元格（“Image Properties”部分）
+          - name: Brightness 单元格（“图像属性”部分）
             href: visio/brightness-cell-image-properties-section.md
-          - name: Bullet 单元格（“Paragraph”部分）
+          - name: Bullet 单元格（“段落”部分）
             href: visio/bullet-cell-paragraph-section.md
-          - name: BulletFont 单元格（“Paragraph”部分）
+          - name: BulletFont 单元格（“段落”部分）
             href: visio/bulletfont-cell-paragraph-section.md
-          - name: BulletSize 单元格（“Paragraph”部分）
+          - name: BulletSize 单元格（“段落”部分）
             href: visio/bulletsize-cell-paragraph-section.md
-          - name: BulletString 单元格（“Paragraph”部分）
+          - name: BulletString 单元格（“段落”部分）
             href: visio/bulletstring-cell-paragraph-section.md
-          - name: ButtonFace 单元格（“Action Tags”部分）
+          - name: ButtonFace 单元格（“操作标记”部分）
             href: visio/buttonface-cell-action-tags-section.md
-          - name: ButtonFace 单元格（“Actions”部分）
+          - name: ButtonFace 单元格（“操作”部分）
             href: visio/buttonface-cell-actions-section.md
-          - name: C 单元格（“Geometry”部分）
+          - name: C 单元格（“几何”部分）
             href: visio/c-cell-geometry-section.md
-          - name: Calendar 单元格（“Miscellaneous”部分）
+          - name: Calendar 单元格（“杂项”部分）
             href: visio/calendar-cell-miscellaneous-section.md
-          - name: Calendar 单元格（“Shape Data”部分）
+          - name: Calendar 单元格（“形状数据”部分）
             href: visio/calendar-cell-shape-data-section.md
-          - name: Calendar 单元格（“Text Fields”部分）
+          - name: Calendar 单元格（“文本字段”部分）
             href: visio/calendar-cell-text-fields-section.md
-          - name: Can Glue 单元格（“Controls”部分）
+          - name: Can Glue 单元格（“控件”部分）
             href: visio/can-glue-cell-controls-section.md
-          - name: Case 单元格（“Character”部分）
+          - name: Case 单元格（“字符”部分）
             href: visio/case-cell-character-section.md
-          - name: CenterX 单元格（“Print Properties”部分）
+          - name: CenterX 单元格（“打印属性”部分）
             href: visio/centerx-cell-print-properties-section.md
-          - name: CenterY 单元格（“Print Properties”部分）
+          - name: CenterY 单元格（“打印属性”部分）
             href: visio/centery-cell-print-properties-section.md
-          - name: Checked 单元格（“Actions”部分）
+          - name: Checked 单元格（“操作”部分）
             href: visio/checked-cell-actions-section.md
-          - name: ClippingPath 单元格（“Foreign Image Info”部分）
+          - name: ClippingPath 单元格（“外部图像信息”部分）
             href: visio/clippingpath-cell-foreign-image-info-section.md
-          - name: Color 单元格（“Character”部分）
+          - name: Color 单元格（“字符”部分）
             href: visio/color-cell-character-section.md
-          - name: Color 单元格（“Layers”部分）
+          - name: Color 单元格（“层”部分）
             href: visio/color-cell-layers-section.md
-          - name: Color 单元格（“Reviewer”部分）
+          - name: Color 单元格（“审阅者”部分）
             href: visio/color-cell-reviewer-section.md
-          - name: ColorSchemeIndex 单元格（“Theme Properties”部分）
+          - name: ColorSchemeIndex 单元格（“主题属性”部分）
             href: visio/colorschemeindex-cell-theme-properties-section.md
-          - name: Comment 单元格（“Annotation”部分）
+          - name: Comment 单元格（“注释”部分）
             href: visio/comment-cell-annotation-section.md
-          - name: Comment 单元格（“Miscellaneous”部分）
+          - name: Comment 单元格（“杂项”部分）
             href: visio/comment-cell-miscellaneous-section.md
-          - name: ComplexScriptFont 单元格（“Character”部分）
+          - name: ComplexScriptFont 单元格（“字符”部分）
             href: visio/complexscriptfont-cell-character-section.md
-          - name: ComplexScriptSize 单元格（“Character”部分）
+          - name: ComplexScriptSize 单元格（“字符”部分）
             href: visio/complexscriptsize-cell-character-section.md
-          - name: CompoundType 单元格（“Line Format”部分）
+          - name: CompoundType 单元格（“线条格式”部分）
             href: visio/compoundtype-cell-line-format-section.md
-          - name: ConFixedCode 单元格（“Shape Layout”部分）
+          - name: ConFixedCode 单元格（“形状布局”部分）
             href: visio/confixedcode-cell-shape-layout-section.md
-          - name: ConLineJumpCode 单元格（“Shape Layout”部分）
+          - name: ConLineJumpCode 单元格（“形状布局”部分）
             href: visio/conlinejumpcode-cell-shape-layout-section.md
-          - name: ConLineJumpDirX 单元格（“Shape Layout”部分）
+          - name: ConLineJumpDirX 单元格（“形状布局”部分）
             href: visio/conlinejumpdirx-cell-shape-layout-section.md
-          - name: ConLineJumpDirY 单元格（“Shape Layout”部分）
+          - name: ConLineJumpDirY 单元格（“形状布局”部分）
             href: visio/conlinejumpdiry-cell-shape-layout-section.md
-          - name: ConLineJumpStyle 单元格（“Shape Layout”部分）
+          - name: ConLineJumpStyle 单元格（“形状布局”部分）
             href: visio/conlinejumpstyle-cell-shape-layout-section.md
-          - name: ConLineRouteExt 单元格（“Shape Layout”部分）
+          - name: ConLineRouteExt 单元格（“形状布局”部分）
             href: visio/conlinerouteext-cell-shape-layout-section.md
-          - name: ConnectorSchemeIndex 单元格（“Theme Properties”部分）
+          - name: ConnectorSchemeIndex 单元格（“主题属性”部分）
             href: visio/connectorschemeindex-cell-theme-properties-section.md
-          - name: Contrast 单元格（“Image Properties”部分）
+          - name: Contrast 单元格（“图像属性”部分）
             href: visio/contrast-cell-image-properties-section.md
-          - name: CtrlAsInput 单元格（“Page Layout”部分）
+          - name: CtrlAsInput 单元格（“页面布局”部分）
             href: visio/ctrlasinput-cell-page-layout-section.md
-          - name: D 单元格（“Connection Points”部分）
+          - name: D 单元格（“连接点”部分）
             href: visio/d-cell-connection-points-section.md
-          - name: D 单元格（“Geometry”部分）
+          - name: D 单元格（“几何”部分）
             href: visio/d-cell-geometry-section.md
-          - name: Date 单元格（“Annotation”部分）
+          - name: Date 单元格（“注释”部分）
             href: visio/date-cell-annotation-section.md
-          - name: Default 单元格（“Hyperlinks”部分）
+          - name: Default 单元格（“超链接”部分）
             href: visio/default-cell-hyperlinks-section.md
-          - name: DefaultTabstop 单元格（“Text Block Format”部分）
+          - name: DefaultTabstop 单元格（“文本块格式”部分）
             href: visio/defaulttabstop-cell-text-block-format-section.md
-          - name: Denoise 单元格（“Image Properties”部分）
+          - name: Denoise 单元格（“图像属性”部分）
             href: visio/denoise-cell-image-properties-section.md
-          - name: Description 单元格（“Action Tags”部分）
+          - name: Description 单元格（“操作标记”部分）
             href: visio/description-cell-action-tags-section.md
-          - name: Description 单元格（“Hyperlinks”部分）
+          - name: Description 单元格（“超链接”部分）
             href: visio/description-cell-hyperlinks-section.md
-          - name: DirX / A 单元格（“Connection Points”部分）
+          - name: DirX / A 单元格（“连接点”部分）
             href: visio/dirxa-cell-connection-points-section.md
-          - name: DirY / B 单元格（“Connection Points”部分）
+          - name: DirY / B 单元格（“连接点”部分）
             href: visio/diryb-cell-connection-points-section.md
-          - name: Disabled 单元格（“Action Tags”部分）
+          - name: Disabled 单元格（“操作标记”部分）
             href: visio/disabled-cell-action-tags-section.md
-          - name: Disabled 单元格（“Actions”部分）
+          - name: Disabled 单元格（“操作”部分）
             href: visio/disabled-cell-actions-section.md
-          - name: DisplayLevel 单元格（“Shape Layout”部分）
+          - name: DisplayLevel 单元格（“形状布局”部分）
             href: visio/displaylevel-cell-shape-layout-section.md
-          - name: DisplayMode 单元格（“Group Properties”部分）
+          - name: DisplayMode 单元格（“组属性”部分）
             href: visio/displaymode-cell-group-properties-section.md
-          - name: DisplayMode 单元格（“Action Tags”部分）
+          - name: DisplayMode 单元格（“操作标记”部分）
             href: visio/displaymode-cell-action-tags-section.md
-          - name: DistanceFromGround 单元格（“3-D Rotation Properties”）
+          - name: DistanceFromGround 单元格（“三维旋转属性”）
             href: visio/distancefromground-cell-3-d-rotation-properties.md
-          - name: DocLangID 单元格（“Document Properties”部分）
+          - name: DocLangID 单元格（“文档属性”部分）
             href: visio/doclangid-cell-document-properties-section.md
-          - name: DocLockDuplicatePage 单元格（“Document Properties”部分）
+          - name: DocLockDuplicatePage 单元格（“文档属性”部分）
             href: visio/doclockduplicatepage-cell-document-properties-section.md
-          - name: DocLockReplace 单元格（“Document Properties”部分）
+          - name: DocLockReplace 单元格（“文档属性”部分）
             href: visio/doclockreplace-cell-document-properties-section.md
-          - name: DontMoveChildren 单元格（“Group Properties”部分）
+          - name: DontMoveChildren 单元格（“组属性”部分）
             href: visio/dontmovechildren-cell-group-properties-section.md
-          - name: DoubleStrikethrough 单元格（“Character”部分）
+          - name: DoubleStrikethrough 单元格（“字符”部分）
             href: visio/doublestrikethrough-cell-character-section.md
-          - name: DoubleULine 单元格（“Character”部分）
+          - name: DoubleULine 单元格（“字符”部分）
             href: visio/doubleuline-cell-character-section.md
-          - name: DrawingResizeType 单元格（“Page Properties”部分）
+          - name: DrawingResizeType 单元格（“页面属性”部分）
             href: visio/drawingresizetype-cell-page-properties-section.md
-          - name: DrawingScale 单元格（“Page Properties”部分）
+          - name: DrawingScale 单元格（“页面属性”部分）
             href: visio/drawingscale-cell-page-properties-section.md
-          - name: DrawingScaleType 单元格（“Page Properties”部分）
+          - name: DrawingScaleType 单元格（“页面属性”部分）
             href: visio/drawingscaletype-cell-page-properties-section.md
-          - name: DrawingSizeType 单元格（“Page Properties”部分）
+          - name: DrawingSizeType 单元格（“页面属性”部分）
             href: visio/drawingsizetype-cell-page-properties-section.md
-          - name: DropOnPageScale 单元格（“Miscellaneous”部分）
+          - name: DropOnPageScale 单元格（“杂项”部分）
             href: visio/droponpagescale-cell-miscellaneous-section.md
-          - name: DynamicsOff 单元格（“Page Layout”部分）
+          - name: DynamicsOff 单元格（“页面布局”部分）
             href: visio/dynamicsoff-cell-page-layout-section.md
-          - name: DynFeedback 单元格（“Miscellaneous”部分）
+          - name: DynFeedback 单元格（“杂项”部分）
             href: visio/dynfeedback-cell-miscellaneous-section.md
-          - name: E 单元格（“Geometry”部分）
+          - name: E 单元格（“几何”部分）
             href: visio/e-cell-geometry-section.md
-          - name: EffectSchemeIndex 单元格（“Theme Properties”部分）
+          - name: EffectSchemeIndex 单元格（“主题属性”部分）
             href: visio/effectschemeindex-cell-theme-properties-section.md
-          - name: EmbellishmentIndex 单元格（“Theme Properties”部分）
+          - name: EmbellishmentIndex 单元格（“主题属性”部分）
             href: visio/embellishmentindex-cell-theme-properties-section.md
-          - name: EnableFillProps 单元格（“Style Properties”部分）
+          - name: EnableFillProps 单元格（“样式属性”部分）
             href: visio/enablefillprops-cell-style-properties-section.md
-          - name: EnableGrid 单元格（“Page Layout”部分）
+          - name: EnableGrid 单元格（“页面布局”部分）
             href: visio/enablegrid-cell-page-layout-section.md
-          - name: EnableLineProps 单元格（“Style Properties”部分）
+          - name: EnableLineProps 单元格（“样式属性”部分）
             href: visio/enablelineprops-cell-style-properties-section.md
-          - name: EnableTextProps 单元格（“Style Properties”部分）
+          - name: EnableTextProps 单元格（“样式属性”部分）
             href: visio/enabletextprops-cell-style-properties-section.md
-          - name: EndArrow 单元格（“Line Format”部分）
+          - name: EndArrow 单元格（“线条格式”部分）
             href: visio/endarrow-cell-line-format-section.md
-          - name: EndArrowSize 单元格（“Line Format”部分）
+          - name: EndArrowSize 单元格（“线条格式”部分）
             href: visio/endarrowsize-cell-line-format-section.md
-          - name: EndTrigger 单元格（“Glue Info”部分）
+          - name: EndTrigger 单元格（“粘贴信息”部分）
             href: visio/endtrigger-cell-glue-info-section.md
-          - name: EndX 单元格（“1-D Endpoints”部分）
+          - name: EndX 单元格（“一维端点”部分）
             href: visio/endx-cell-1-d-endpoints-section.md
-          - name: EndY 单元格（“1-D Endpoints”部分）
+          - name: EndY 单元格（“一维端点”部分）
             href: visio/endy-cell-1-d-endpoints-section.md
-          - name: EventDblClick 单元格（“Events”部分）
+          - name: EventDblClick 单元格（“事件”部分）
             href: visio/eventdblclick-cell-events-section.md
-          - name: EventDrop 单元格（“Events”部分）
+          - name: EventDrop 单元格（“事件”部分）
             href: visio/eventdrop-cell-events-section.md
-          - name: EventMultiDrop 单元格（“Events”部分）
+          - name: EventMultiDrop 单元格（“事件”部分）
             href: visio/eventmultidrop-cell-events-section.md
-          - name: EventXFMod 单元格（“Events”部分）
+          - name: EventXFMod 单元格（“事件”部分）
             href: visio/eventxfmod-cell-events-section.md
-          - name: ExtraInfo 单元格（“Hyperlinks”部分）
+          - name: ExtraInfo 单元格（“超链接”部分）
             href: visio/extrainfo-cell-hyperlinks-section.md
-          - name: FillBkgnd 单元格（“Fill Format”部分）
+          - name: FillBkgnd 单元格（“填充格式”部分）
             href: visio/fillbkgnd-cell-fill-format-section.md
-          - name: FillBkgndTrans 单元格（“Fill Format”部分）
+          - name: FillBkgndTrans 单元格（“填充格式”部分）
             href: visio/fillbkgndtrans-cell-fill-format-section.md
-          - name: FillForegnd 单元格（“Fill Format”部分）
+          - name: FillForegnd 单元格（“填充格式”部分）
             href: visio/fillforegnd-cell-fill-format-section.md
-          - name: FillForegndTrans 单元格（“Fill Format”部分）
+          - name: FillForegndTrans 单元格（“填充格式”部分）
             href: visio/fillforegndtrans-cell-fill-format-section.md
-          - name: FillGradientAngle 单元格（“Gradient Properties”部分）
+          - name: FillGradientAngle 单元格（“渐变属性”部分）
             href: visio/fillgradientangle-cell-gradient-properties-section.md
-          - name: FillGradientDir 单元格（“Gradient Properties”部分）
+          - name: FillGradientDir 单元格（“渐变属性”部分）
             href: visio/fillgradientdir-cell-gradient-properties-section.md
-          - name: FillGradientEnabled 单元格（“Gradient Properties”部分）
+          - name: FillGradientEnabled 单元格（“渐变属性”部分）
             href: visio/fillgradientenabled-cell-gradient-properties-section.md
-          - name: FillPattern 单元格（“Fill Format”部分）
+          - name: FillPattern 单元格（“填充格式”部分）
             href: visio/fillpattern-cell-fill-format-section.md
-          - name: Flags 单元格（“Paragraph”部分）
+          - name: Flags 单元格（“段落”部分）
             href: visio/flags-cell-paragraph-section.md
-          - name: FlipX 单元格（“Shape Transform”部分）
+          - name: FlipX 单元格（“形状转换”部分）
             href: visio/flipx-cell-shape-transform-section.md
-          - name: FlipY 单元格（“Shape Transform”部分）
+          - name: FlipY 单元格（“形状转换”部分）
             href: visio/flipy-cell-shape-transform-section.md
-          - name: FlyoutChild 单元格（“Actions”部分）
+          - name: FlyoutChild 单元格（“操作”部分）
             href: visio/flyoutchild-cell-actions-section.md
-          - name: Font 单元格（“Character”部分）
+          - name: Font 单元格（“字符”部分）
             href: visio/font-cell-character-section.md
-          - name: FontSchemeIndex 单元格（“Theme Properties”部分）
+          - name: FontSchemeIndex 单元格（“主题属性”部分）
             href: visio/fontschemeindex-cell-theme-properties-section.md
-          - name: Format 单元格（“Shape Data”部分）
+          - name: Format 单元格（“形状数据”部分）
             href: visio/format-cell-shape-data-section.md
-          - name: Format 单元格（“Text Fields”部分）
+          - name: Format 单元格（“文本字段”部分）
             href: visio/format-cell-text-fields-section.md
-          - name: Frame 单元格（“Hyperlinks”部分）
+          - name: Frame 单元格（“超链接”部分）
             href: visio/frame-cell-hyperlinks-section.md
-          - name: Gamma 单元格（“Image Properties”部分）
+          - name: Gamma 单元格（“图像属性”部分）
             href: visio/gamma-cell-image-properties-section.md
-          - name: GlowColor 单元格（“Additional Effect Properties”部分）
+          - name: GlowColor 单元格（“其他效果属性”部分）
             href: visio/glowcolor-cell-additional-effect-properties-section.md
-          - name: GlowColorTrans 单元格（“Additional Effect Properties”部分）
+          - name: GlowColorTrans 单元格（“其他效果属性”部分）
             href: visio/glowcolortrans-cell-additional-effect-properties-section.md
-          - name: GlowSize 单元格（“Additional Effect Properties”部分）
+          - name: GlowSize 单元格（“其他效果属性”部分）
             href: visio/glowsize-cell-additional-effect-properties-section.md
-          - name: Glue 单元格（“Layers”部分）
+          - name: Glue 单元格（“层”部分）
             href: visio/glue-cell-layers-section.md
-          - name: GlueType 单元格（“Glue Info”部分）
+          - name: GlueType 单元格（“粘贴信息”部分）
             href: visio/gluetype-cell-glue-info-section.md
-          - name: HAlign 单元格（“Paragraph”部分）
+          - name: HAlign 单元格（“段落”部分）
             href: visio/halign-cell-paragraph-section.md
-          - name: Height 单元格（“Shape Transform”部分）
+          - name: Height 单元格（“形状转换”部分）
             href: visio/height-cell-shape-transform-section.md
-          - name: HideForApply 单元格（“Style Properties”部分）
+          - name: HideForApply 单元格（“样式属性”部分）
             href: visio/hideforapply-cell-style-properties-section.md
-          - name: HideText 单元格（“Miscellaneous”部分）
+          - name: HideText 单元格（“杂项”部分）
             href: visio/hidetext-cell-miscellaneous-section.md
-          - name: ImgHeight 单元格（“Foreign Image Info”部分）
+          - name: ImgHeight 单元格（“外部图像信息”部分）
             href: visio/imgheight-cell-foreign-image-info-section.md
-          - name: ImgOffsetX 单元格（“Foreign Image Info”部分）
+          - name: ImgOffsetX 单元格（“外部图像信息”部分）
             href: visio/imgoffsetx-cell-foreign-image-info-section.md
-          - name: ImgOffsetY 单元格（“Foreign Image Info”部分）
+          - name: ImgOffsetY 单元格（“外部图像信息”部分）
             href: visio/imgoffsety-cell-foreign-image-info-section.md
-          - name: ImgWidth 单元格（“Foreign Image Info”部分）
+          - name: ImgWidth 单元格（“外部图像信息”部分）
             href: visio/imgwidth-cell-foreign-image-info-section.md
-          - name: IndFirst 单元格（“Paragraph”部分）
+          - name: IndFirst 单元格（“段落”部分）
             href: visio/indfirst-cell-paragraph-section.md
-          - name: IndLeft 单元格（“Paragraph”部分）
+          - name: IndLeft 单元格（“段落”部分）
             href: visio/indleft-cell-paragraph-section.md
-          - name: IndRight 单元格（“Paragraph”部分）
+          - name: IndRight 单元格（“段落”部分）
             href: visio/indright-cell-paragraph-section.md
-          - name: InhibitSnap 单元格（“Page Properties”部分）
+          - name: InhibitSnap 单元格（“页面属性”部分）
             href: visio/inhibitsnap-cell-page-properties-section.md
-          - name: Initials 单元格（“Reviewer”部分）
+          - name: Initials 单元格（“审阅者”部分）
             href: visio/initials-cell-reviewer-section.md
-          - name: Invisible 单元格（“Actions”部分）
+          - name: Invisible 单元格（“操作”部分）
             href: visio/invisible-cell-actions-section.md
-          - name: Invisible 单元格（“Hyperlinks”部分）
+          - name: Invisible 单元格（“超链接”部分）
             href: visio/invisible-cell-hyperlinks-section.md
-          - name: Invisible 单元格（“Shape Data”部分）
+          - name: Invisible 单元格（“形状数据”部分）
             href: visio/invisible-cell-shape-data-section.md
-          - name: IsDropSource 单元格（“Miscellaneous”部分）
+          - name: IsDropSource 单元格（“杂项”部分）
             href: visio/isdropsource-cell-miscellaneous-section.md
-          - name: IsDropTarget 单元格（“Group Properties”部分）
+          - name: IsDropTarget 单元格（“组属性”部分）
             href: visio/isdroptarget-cell-group-properties-section.md
-          - name: IsSnapTarget 单元格（“Group Properties”部分）
+          - name: IsSnapTarget 单元格（“组属性”部分）
             href: visio/issnaptarget-cell-group-properties-section.md
-          - name: IsTextEditTarget 单元格（“Group Properties”部分）
+          - name: IsTextEditTarget 单元格（“组属性”部分）
             href: visio/istextedittarget-cell-group-properties-section.md
-          - name: KeepTextFlat 单元格（“3-D Rotation Properties”部分）
+          - name: KeepTextFlat 单元格（“三维旋转属性”部分）
             href: visio/keeptextflat-cell-3-d-rotation-properties-section.md
-          - name: Label 单元格（“Shape Data”部分）
+          - name: Label 单元格（“形状数据”部分）
             href: visio/label-cell-shape-data-section.md
-          - name: LangID 单元格（“Shape Data”部分）
+          - name: LangID 单元格（“形状数据”部分）
             href: visio/langid-cell-shape-data-section.md
-          - name: LangID 单元格（“Miscellaneous”部分）
+          - name: LangID 单元格（“杂项”部分）
             href: visio/langid-cell-miscellaneous-section.md
-          - name: LangID 单元格（“Character”部分）
+          - name: LangID 单元格（“字符”部分）
             href: visio/langid-cell-character-section.md
-          - name: LangID 单元格（“Annotation”部分）
+          - name: LangID 单元格（“注释”部分）
             href: visio/langid-cell-annotation-section.md
-          - name: LeftMargin 单元格（“Text Block Format”部分）
+          - name: LeftMargin 单元格（“文本块格式”部分）
             href: visio/leftmargin-cell-text-block-format-section.md
-          - name: LineAdjustFrom 单元格（“Page Layout”部分）
+          - name: LineAdjustFrom 单元格（“页面布局”部分）
             href: visio/lineadjustfrom-cell-page-layout-section.md
-          - name: LineAdjustTo 单元格（“Page Layout”部分）
+          - name: LineAdjustTo 单元格（“页面布局”部分）
             href: visio/lineadjustto-cell-page-layout-section.md
-          - name: LineCap 单元格（“Line Format”部分）
+          - name: LineCap 单元格（“文本块格式”部分）
             href: visio/linecap-cell-line-format-section.md
-          - name: LineColor 单元格（“Line Format”部分）
+          - name: LineColor 单元格（“线条格式”部分）
             href: visio/linecolor-cell-line-format-section.md
-          - name: LineColorTrans 单元格（“Line Format”部分）
+          - name: LineColorTrans 单元格（“线条格式”部分）
             href: visio/linecolortrans-cell-line-format-section.md
-          - name: LineGradientAngle 单元格（“Gradient Properties”部分）
+          - name: LineGradientAngle 单元格（“渐变属性”部分）
             href: visio/linegradientangle-cell-gradient-properties-section.md
-          - name: LineGradientDir 单元格（“Gradient Properties”部分）
+          - name: LineGradientDir 单元格（“渐变属性”部分）
             href: visio/linegradientdir-cell-gradient-properties-section.md
-          - name: LineGradientEnabled 单元格（“Gradient Properties”部分）
+          - name: LineGradientEnabled 单元格（“渐变属性”部分）
             href: visio/linegradientenabled-cell-gradient-properties-section.md
-          - name: LineJumpCode 单元格（“Page Layout”部分）
+          - name: LineJumpCode 单元格（“页面布局”部分）
             href: visio/linejumpcode-cell-page-layout-section.md
-          - name: LineJumpFactorX 单元格（“Page Layout”部分）
+          - name: LineJumpFactorX 单元格（“页面布局”部分）
             href: visio/linejumpfactorx-cell-page-layout-section.md
-          - name: LineJumpFactorY 单元格（“Page Layout”部分）
+          - name: LineJumpFactorY 单元格（“页面布局”部分）
             href: visio/linejumpfactory-cell-page-layout-section.md
-          - name: LineJumpStyle 单元格（“Page Layout”部分）
+          - name: LineJumpStyle 单元格（“页面布局”部分）
             href: visio/linejumpstyle-cell-page-layout-section.md
-          - name: LinePattern 单元格（“Line Format”部分）
+          - name: LinePattern 单元格（“线条格式”部分）
             href: visio/linepattern-cell-line-format-section.md
-          - name: LineRouteExt 单元格（“Page Layout”部分）
+          - name: LineRouteExt 单元格（“页面布局”部分）
             href: visio/linerouteext-cell-page-layout-section.md
-          - name: LineToLineX 单元格（“Page Layout”部分）
+          - name: LineToLineX 单元格（“页面布局”部分）
             href: visio/linetolinex-cell-page-layout-section.md
-          - name: LineToLineY 单元格（“Page Layout”部分）
+          - name: LineToLineY 单元格（“页面布局”部分）
             href: visio/linetoliney-cell-page-layout-section.md
-          - name: LineToNodeX 单元格（“Page Layout”部分）
+          - name: LineToNodeX 单元格（“页面布局”部分）
             href: visio/linetonodex-cell-page-layout-section.md
-          - name: LineToNodeY 单元格（“Page Layout”部分）
+          - name: LineToNodeY 单元格（“页面布局”部分）
             href: visio/linetonodey-cell-page-layout-section.md
-          - name: LineWeight 单元格（“Line Format”部分）
+          - name: LineWeight 单元格（“线条格式”部分）
             href: visio/lineweight-cell-line-format-section.md
-          - name: LocalizeMerge 单元格（“Miscellaneous”部分）
+          - name: LocalizeMerge 单元格（“杂项”部分）
             href: visio/localizemerge-cell-miscellaneous-section.md
-          - name: Lock 单元格（“Layers”部分）
+          - name: Lock 单元格（“层”部分）
             href: visio/lock-cell-layers-section.md
-          - name: LockAspect 单元格（“Protection”部分）
+          - name: LockAspect 单元格（“保护”部分）
             href: visio/lockaspect-cell-protection-section.md
-          - name: LockBegin 单元格（“Protection”部分）
+          - name: LockBegin 单元格（“保护”部分）
             href: visio/lockbegin-cell-protection-section.md
-          - name: LockCalcWH 单元格（“Protection”部分）
+          - name: LockCalcWH 单元格（“保护”部分）
             href: visio/lockcalcwh-cell-protection-section.md
-          - name: LockCrop 单元格（“Protection”部分）
+          - name: LockCrop 单元格（“保护”部分）
             href: visio/lockcrop-cell-protection-section.md
-          - name: LockCustProp 单元格（“Protection”部分）
+          - name: LockCustProp 单元格（“保护”部分）
             href: visio/lockcustprop-cell-protection-section.md
-          - name: LockDelete 单元格（“Protection”部分）
+          - name: LockDelete 单元格（“保护”部分）
             href: visio/lockdelete-cell-protection-section.md
-          - name: LockEnd 单元格（“Protection”部分）
+          - name: LockEnd 单元格（“保护”部分）
             href: visio/lockend-cell-protection-section.md
-          - name: LockFormat 单元格（“Protection”部分）
+          - name: LockFormat 单元格（“保护”部分）
             href: visio/lockformat-cell-protection-section.md
-          - name: LockFromGroupFormat 单元格（“Protection”部分）
+          - name: LockFromGroupFormat 单元格（“保护”部分）
             href: visio/lockfromgroupformat-cell-protection-section.md
-          - name: LockGroup 单元格（“Protection”部分）
+          - name: LockGroup 单元格（“保护”部分）
             href: visio/lockgroup-cell-protection-section.md
-          - name: LockHeight 单元格（“Protection”部分）
+          - name: LockHeight 单元格（“保护”部分）
             href: visio/lockheight-cell-protection-section.md
-          - name: LockMoveX 单元格（“Protection”部分）
+          - name: LockMoveX 单元格（“保护”部分）
             href: visio/lockmovex-cell-protection-section.md
-          - name: LockMoveY 单元格（“Protection”部分）
+          - name: LockMoveY 单元格（“保护”部分）
             href: visio/lockmovey-cell-protection-section.md
-          - name: LockPreview 单元格（“Document Properties”部分）
+          - name: LockPreview 单元格（“文档属性”部分）
             href: visio/lockpreview-cell-document-properties-section.md
-          - name: LockReplace 单元格（“Protection”部分）
+          - name: LockReplace 单元格（“保护”部分）
             href: visio/lockreplace-cell-protection-section.md
-          - name: LockRotate 单元格（“Protection”部分）
+          - name: LockRotate 单元格（“保护”部分）
             href: visio/lockrotate-cell-protection-section.md
-          - name: LockSelect 单元格（“Protection”部分）
+          - name: LockSelect 单元格（“保护”部分）
             href: visio/lockselect-cell-protection-section.md
-          - name: LockTextEdit 单元格（“Protection”部分）
+          - name: LockTextEdit 单元格（“保护”部分）
             href: visio/locktextedit-cell-protection-section.md
-          - name: LockThemeColors 单元格（“Protection”部分）
+          - name: LockThemeColors 单元格（“保护”部分）
             href: visio/lockthemecolors-cell-protection-section.md
-          - name: LockThemeConnectors 单元格（“Protection”部分）
+          - name: LockThemeConnectors 单元格（“保护”部分）
             href: visio/lockthemeconnectors-cell-protection-section.md
-          - name: LockThemeFonts 单元格（“Protection”部分）
+          - name: LockThemeFonts 单元格（“保护”部分）
             href: visio/lockthemefonts-cell-protection-section.md
-          - name: LockThemeIndex 单元格（“Protection”部分）
+          - name: LockThemeIndex 单元格（“保护”部分）
             href: visio/lockthemeindex-cell-protection-section.md
-          - name: LockThemeEffects 单元格（“Protection”部分）
+          - name: LockThemeEffects 单元格（“保护”部分）
             href: visio/lockthemeeffects-cell-protection-section.md
-          - name: LockVariation 单元格（“Protection”部分）
+          - name: LockVariation 单元格（“保护”部分）
             href: visio/lockvariation-cell-protection-section.md
-          - name: LockVtxEdit 单元格（“Protection”部分）
+          - name: LockVtxEdit 单元格（“保护”部分）
             href: visio/lockvtxedit-cell-protection-section.md
-          - name: LockWidth 单元格（“Protection”部分）
+          - name: LockWidth 单元格（“保护”部分）
             href: visio/lockwidth-cell-protection-section.md
-          - name: LocPinX 单元格（“Shape Transform”部分）
+          - name: LocPinX 单元格（“形状转换”部分）
             href: visio/locpinx-cell-shape-transform-section.md
-          - name: LocPinY 单元格（“Shape Transform”部分）
+          - name: LocPinY 单元格（“形状转换”部分）
             href: visio/locpiny-cell-shape-transform-section.md
-          - name: Menu 单元格（“Actions”部分）
+          - name: Menu 单元格（“操作”部分）
             href: visio/menu-cell-actions-section.md
-          - name: Name 单元格（“Reviewer”部分）
+          - name: Name 单元格（“审阅者”部分）
             href: visio/name-cell-reviewer-section.md
-          - name: NewWindow 单元格（“Hyperlinks”部分）
+          - name: NewWindow 单元格（“超链接”部分）
             href: visio/newwindow-cell-hyperlinks-section.md
-          - name: NoAlignBox 单元格（“Miscellaneous”部分）
+          - name: NoAlignBox 单元格（“杂项”部分）
             href: visio/noalignbox-cell-miscellaneous-section.md
-          - name: NoCoauth 单元格（“Document Properties”部分）
+          - name: NoCoauth 单元格（“文档属性”部分）
             href: visio/nocoauth-cell-document-properties-section.md
-          - name: NoCtlHandles 单元格（“Miscellaneous”部分）
+          - name: NoCtlHandles 单元格（“杂项”部分）
             href: visio/noctlhandles-cell-miscellaneous-section.md
-          - name: NoFill 单元格（“Geometry”部分）
+          - name: NoFill 单元格（“几何”部分）
             href: visio/nofill-cell-geometry-section.md
-          - name: NoLine 单元格（“Geometry”部分）
+          - name: NoLine 单元格（“几何”部分）
             href: visio/noline-cell-geometry-section.md
-          - name: NoLiveDynamics 单元格（“Miscellaneous”部分）
+          - name: NoLiveDynamics 单元格（“杂项”部分）
             href: visio/nolivedynamics-cell-miscellaneous-section.md
-          - name: NonPrinting 单元格（“Miscellaneous”部分）
+          - name: NonPrinting 单元格（“杂项”部分）
             href: visio/nonprinting-cell-miscellaneous-section.md
-          - name: NoObjHandles 单元格（“Miscellaneous”部分）
+          - name: NoObjHandles 单元格（“杂项”部分）
             href: visio/noobjhandles-cell-miscellaneous-section.md
-          - name: NoProofing 单元格（“Miscellaneous”部分）
+          - name: NoProofing 单元格（“杂项”部分）
             href: visio/noproofing-cell-miscellaneous-section.md
-          - name: NoQuickDrag 单元格（“Geometry”部分）
+          - name: NoQuickDrag 单元格（“几何”部分）
             href: visio/noquickdrag-cell-geometry-section.md
-          - name: NoShow 单元格（“Geometry”部分）
+          - name: NoShow 单元格（“几何”部分）
             href: visio/noshow-cell-geometry-section.md
-          - name: NoSnap 单元格（“Geometry”部分）
+          - name: NoSnap 单元格（“几何”部分）
             href: visio/nosnap-cell-geometry-section.md
-          - name: ObjectKind 单元格（“Text Fields”部分）
+          - name: ObjectKind 单元格（“文本字段”部分）
             href: visio/objectkind-cell-text-fields-section.md
-          - name: ObjType 单元格（“Miscellaneous”部分）
+          - name: ObjType 单元格（“杂项”部分）
             href: visio/objtype-cell-miscellaneous-section.md
-          - name: OnPage 单元格（“Print Properties”部分）
+          - name: OnPage 单元格（“打印属性”部分）
             href: visio/onpage-cell-print-properties-section.md
-          - name: OutputFormat 单元格（“Document Properties”部分）
+          - name: OutputFormat 单元格（“文档属性”部分）
             href: visio/outputformat-cell-document-properties-section.md
-          - name: Overline 单元格（“Character”部分）
+          - name: Overline 单元格（“字符”部分）
             href: visio/overline-cell-character-section.md
-          - name: PageBottomMargin 单元格（“Print Properties”部分）
+          - name: PageBottomMargin 单元格（“打印属性”部分）
             href: visio/pagebottommargin-cell-print-properties-section.md
-          - name: PageHeight 单元格（“Page Properties”部分）
+          - name: PageHeight 单元格（“页面属性”部分）
             href: visio/pageheight-cell-page-properties-section.md
-          - name: PageLeftMargin 单元格（“Print Properties”部分）
+          - name: PageLeftMargin 单元格（“打印属性”部分）
             href: visio/pageleftmargin-cell-print-properties-section.md
-          - name: PageLineJumpDirX 单元格（“Page Layout”部分）
+          - name: PageLineJumpDirX 单元格（“页面布局”部分）
             href: visio/pagelinejumpdirx-cell-page-layout-section.md
-          - name: PageLineJumpDirY 单元格（“Page Layout”部分）
+          - name: PageLineJumpDirY 单元格（“页面布局”部分）
             href: visio/pagelinejumpdiry-cell-page-layout-section.md
-          - name: PageLockDuplicate 单元格（“Page Properties”部分）
+          - name: PageLockDuplicate 单元格（“页面属性”部分）
             href: visio/pagelockduplicate-cell-page-properties-section.md
-          - name: PageLockReplace 单元格（“Page Properties”部分）
+          - name: PageLockReplace 单元格（“页面属性”部分）
             href: visio/pagelockreplace-cell-page-properties-section.md
-          - name: PageRightMargin 单元格（“Print Properties”部分）
+          - name: PageRightMargin 单元格（“打印属性”部分）
             href: visio/pagerightmargin-cell-print-properties-section.md
-          - name: PageScale 单元格（“Page Properties”部分）
+          - name: PageScale 单元格（“页面属性”部分）
             href: visio/pagescale-cell-page-properties-section.md
-          - name: PageShapeSplit 单元格（“Page Layout”部分）
+          - name: PageShapeSplit 单元格（“页面布局”部分）
             href: visio/pageshapesplit-cell-page-layout-section.md
-          - name: PagesX 单元格（“Print Properties”部分）
+          - name: PagesX 单元格（“打印属性”部分）
             href: visio/pagesx-cell-print-properties-section.md
-          - name: PagesY 单元格（“Print Properties”部分）
+          - name: PagesY 单元格（“打印属性”部分）
             href: visio/pagesy-cell-print-properties-section.md
-          - name: PageTopMargin 单元格（“Print Properties”部分）
+          - name: PageTopMargin 单元格（“打印属性”部分）
             href: visio/pagetopmargin-cell-print-properties-section.md
-          - name: PageWidth 单元格（“Page Properties”部分）
+          - name: PageWidth 单元格（“页面属性”部分）
             href: visio/pagewidth-cell-page-properties-section.md
-          - name: PaperKind 单元格（“Print Properties”部分）
+          - name: PaperKind 单元格（“打印属性”部分）
             href: visio/paperkind-cell-print-properties-section.md
-          - name: PaperSource 单元格（“PrintProperties”部分）
+          - name: PaperSource 单元格（“打印属性”部分）
             href: visio/papersource-cell-printproperties-section.md
-          - name: Perspective 单元格（“3-D Rotation Properties”部分）
+          - name: Perspective 单元格（“三维旋转属性”部分）
             href: visio/perspective-cell-3-d-rotation-properties-section.md
-          - name: PinX 单元格（“Shape Transform”部分）
+          - name: PinX 单元格（“形状转换”部分）
             href: visio/pinx-cell-shape-transform-section.md
-          - name: PinY 单元格（“Shape Transform”部分）
+          - name: PinY 单元格（“形状转换”部分）
             href: visio/piny-cell-shape-transform-section.md
-          - name: PlaceDepth 单元格（“Page Layout”部分）
+          - name: PlaceDepth 单元格（“页面布局”部分）
             href: visio/placedepth-cell-page-layout-section.md
-          - name: PlaceFlip 单元格（“Page Layout”部分）
+          - name: PlaceFlip 单元格（“页面布局”部分）
             href: visio/placeflip-cell-page-layout-section.md
-          - name: PlaceStyle 单元格（“Page Layout”部分）
+          - name: PlaceStyle 单元格（“页面布局”部分）
             href: visio/placestyle-cell-page-layout-section.md
-          - name: PlowCode 单元格（“Page Layout”部分）
+          - name: PlowCode 单元格（“页面布局”部分）
             href: visio/plowcode-cell-page-layout-section.md
-          - name: Pos 单元格（“Character”部分）
+          - name: Pos 单元格（“字符”部分）
             href: visio/pos-cell-character-section.md
-          - name: Position 单元格（“Tabs”部分）
+          - name: Position 单元格（“选项卡”部分）
             href: visio/position-cell-tabs-section.md
-          - name: PreviewQuality 单元格（“Document Properties”部分）
+          - name: PreviewQuality 单元格（“文档属性”部分）
             href: visio/previewquality-cell-document-properties-section.md
-          - name: PreviewScope 单元格（“Document Properties”部分）
+          - name: PreviewScope 单元格（“文档属性”部分）
             href: visio/previewscope-cell-document-properties-section.md
-          - name: Print 单元格（“Layers”部分）
+          - name: Print 单元格（“层”部分）
             href: visio/print-cell-layers-section.md
-          - name: PrintGrid 单元格（“Print Properties”部分）
+          - name: PrintGrid 单元格（“打印属性”部分）
             href: visio/printgrid-cell-print-properties-section.md
-          - name: PrintPageOrientation 单元格（“Print Properties”部分）
+          - name: PrintPageOrientation 单元格（“打印属性”部分）
             href: visio/printpageorientation-cell-print-properties-section.md
-          - name: Prompt 单元格（“Actions”部分）
+          - name: Prompt 单元格（“操作”部分）
             href: visio/prompt-cell-actions-section.md
-          - name: Prompt 单元格（“Shape Data”部分）
+          - name: Prompt 单元格（“形状数据”部分）
             href: visio/prompt-cell-shape-data-section.md
-          - name: Prompt 单元格（“User-Defined Cells”部分）
+          - name: Prompt 单元格（“用户定义的单元格”部分）
             href: visio/prompt-cell-user-defined-cells-section.md
-          - name: QuickStyleEffectsMatrix 单元格（“Quick Style”部分）
+          - name: QuickStyleEffectsMatrix 单元格（“快速样式”部分）
             href: visio/quickstyleeffectsmatrix-cell-quick-style-section.md
-          - name: QuickStyleFillColor 单元格（“Quick Style”部分）
+          - name: QuickStyleFillColor 单元格（“快速样式”部分）
             href: visio/quickstylefillcolor-cell-quick-style-section.md
-          - name: QuickStyleFillMatrix 单元格（“Quick Style”部分）
+          - name: QuickStyleFillMatrix 单元格（“快速样式”部分）
             href: visio/quickstylefillmatrix-cell-quick-style-section.md
-          - name: QuickStyleFontColor 单元格（“Quick Style”部分）
+          - name: QuickStyleFontColor 单元格（“快速样式”部分）
             href: visio/quickstylefontcolor-cell-quick-style-section.md
-          - name: QuickStyleFontMatrix 单元格（“Quick Style”部分）
+          - name: QuickStyleFontMatrix 单元格（“快速样式”部分）
             href: visio/quickstylefontmatrix-cell-quick-style-section.md
-          - name: QuickStyleLineColor 单元格（“Quick Style”部分）
+          - name: QuickStyleLineColor 单元格（“快速样式”部分）
             href: visio/quickstylelinecolor-cell-quick-style-section.md
-          - name: QuickStyleLineMatrix 单元格（“Quick Style”部分）
+          - name: QuickStyleLineMatrix 单元格（“快速样式”部分）
             href: visio/quickstylelinematrix-cell-quick-style-section.md
-          - name: QuickStyleShadowColor 单元格（“Quick Style”部分）
+          - name: QuickStyleShadowColor 单元格（“快速样式”部分）
             href: visio/quickstyleshadowcolor-cell-quick-style-section.md
-          - name: QuickStyleType 单元格（“Quick Style”部分）
+          - name: QuickStyleType 单元格（“快速样式”部分）
             href: visio/quickstyletype-cell-quick-style-section.md
-          - name: QuickStyleVariation 单元格（“Quick Style”部分）
+          - name: QuickStyleVariation 单元格（“快速样式”部分）
             href: visio/quickstylevariation-cell-quick-style-section.md
-          - name: ReadOnly 单元格（“Actions”部分）
+          - name: ReadOnly 单元格（“操作”部分）
             href: visio/readonly-cell-actions-section.md
-          - name: ReflectionBlur 单元格（“Additional Effect Properties”部分）
+          - name: ReflectionBlur 单元格（“其他效果属性”部分）
             href: visio/reflectionblur-cell-additional-effect-properties-section.md
-          - name: ReflectionDist 单元格（“Additional Effect Properties”部分）
+          - name: ReflectionDist 单元格（“其他效果属性”部分）
             href: visio/reflectiondist-cell-additional-effect-properties-section.md
-          - name: ReflectionSize 单元格（“Additional Effect Properties”部分）
+          - name: ReflectionSize 单元格（“其他效果属性”部分）
             href: visio/reflectionsize-cell-additional-effect-properties-section.md
-          - name: ReflectionTrans 单元格（“Additional Effect Properties”部分）
+          - name: ReflectionTrans 单元格（“其他效果属性”部分）
             href: visio/reflectiontrans-cell-additional-effect-properties-section.md
-          - name: Relationships 单元格（“Shape Layout”部分）
+          - name: Relationships 单元格（“形状布局”部分）
             href: visio/relationships-cell-shape-layout-section.md
-          - name: ReplaceCopyCells 单元格（“Change Shape Behavior”部分）
+          - name: ReplaceCopyCells 单元格（“更改形状行为”部分）
             href: visio/replacecopycells-cell-change-shape-behavior-section.md
-          - name: ReplaceLockFormat 单元格（“Change Shape Behavior”部分）
+          - name: ReplaceLockFormat 单元格（“更改形状行为”部分）
             href: visio/replacelockformat-cell-change-shape-behavior-section.md
-          - name: ReplaceLockShapeData 单元格（“Change Shape Behavior”部分）
+          - name: ReplaceLockShapeData 单元格（“更改形状行为”部分）
             href: visio/replacelockshapedata-cell-change-shape-behavior-section.md
-          - name: ReplaceLockText 单元格（“Change Shape Behavior”部分）
+          - name: ReplaceLockText 单元格（“更改形状行为”部分）
             href: visio/replacelocktext-cell-change-shape-behavior-section.md
-          - name: ResizeMode 单元格（“Shape Transform”部分）
+          - name: ResizeMode 单元格（“形状转换”部分）
             href: visio/resizemode-cell-shape-transform-section.md
-          - name: ResizePage 单元格（“Page Layout”部分）
+          - name: ResizePage 单元格（“页面布局”部分）
             href: visio/resizepage-cell-page-layout-section.md
-          - name: RightMargin 单元格（“Text Block Format”部分）
+          - name: RightMargin 单元格（“文本块格式”部分）
             href: visio/rightmargin-cell-text-block-format-section.md
-          - name: RotateGradientWithShape 单元格（“Gradient Properties”部分）
+          - name: RotateGradientWithShape 单元格（“渐变属性”部分）
             href: visio/rotategradientwithshape-cell-gradient-properties-section.md
-          - name: RotationType 单元格（“3-D Rotation Properties”部分）
+          - name: RotationType 单元格（“三维旋转属性”部分）
             href: visio/rotationtype-cell-3-d-rotation-properties-section.md
-          - name: RotationXAngle 单元格（“3-D Rotation Properties”部分）
+          - name: RotationXAngle 单元格（“三维旋转属性”部分）
             href: visio/rotationxangle-cell-3-d-rotation-properties-section.md
-          - name: RotationYAngle 单元格（“3-D Rotation Properties”部分）
+          - name: RotationYAngle 单元格（“三维旋转属性”部分）
             href: visio/rotationyangle-cell-3-d-rotation-properties-section.md
-          - name: RotationZAngle 单元格（“3-D Rotation Properties”部分）
+          - name: RotationZAngle 单元格（“三维旋转属性”部分）
             href: visio/rotationzangle-cell-3-d-rotation-properties-section.md
-          - name: Rounding 单元格（“Line Format”部分）
+          - name: Rounding 单元格（“线条格式”部分）
             href: visio/rounding-cell-line-format-section.md
-          - name: RouteStyle 单元格（“Page Layout”部分）
+          - name: RouteStyle 单元格（“页面布局”部分）
             href: visio/routestyle-cell-page-layout-section.md
-          - name: Scale 单元格（“Character”部分）
+          - name: Scale 单元格（“字符”部分）
             href: visio/scale-cell-character-section.md
-          - name: ScaleX 单元格（“Print Properties”部分）
+          - name: ScaleX 单元格（“打印属性”部分）
             href: visio/scalex-cell-print-properties-section.md
-          - name: ScaleY 单元格（“Print Properties”部分）
+          - name: ScaleY 单元格（“打印属性”部分）
             href: visio/scaley-cell-print-properties-section.md
-          - name: SelectMode 单元格（“Group Properties”部分）
+          - name: SelectMode 单元格（“组属性”部分）
             href: visio/selectmode-cell-group-properties-section.md
-          - name: ShapeFixedCode 单元格（“Shape Layout”部分）
+          - name: ShapeFixedCode 单元格（“形状布局”部分）
             href: visio/shapefixedcode-cell-shape-layout-section.md
-          - name: ShapePermeablePlace 单元格（“Shape Layout”部分）
+          - name: ShapePermeablePlace 单元格（“形状布局”部分）
             href: visio/shapepermeableplace-cell-shape-layout-section.md
-          - name: ShapePermeableX 单元格（“Shape Layout”部分）
+          - name: ShapePermeableX 单元格（“形状布局”部分）
             href: visio/shapepermeablex-cell-shape-layout-section.md
-          - name: ShapePermeableY 单元格（“Shape Layout”部分）
+          - name: ShapePermeableY 单元格（“形状布局”部分）
             href: visio/shapepermeabley-cell-shape-layout-section.md
-          - name: ShapePlaceFlip 单元格（“Shape Layout”部分）
+          - name: ShapePlaceFlip 单元格（“形状布局”部分）
             href: visio/shapeplaceflip-cell-shape-layout-section.md
-          - name: ShapePlaceStyle 单元格（“Shape Layout”部分）
+          - name: ShapePlaceStyle 单元格（“形状布局”部分）
             href: visio/shapeplacestyle-cell-shape-layout-section.md
-          - name: ShapePlowCode 单元格（“Shape Layout”部分）
+          - name: ShapePlowCode 单元格（“形状布局”部分）
             href: visio/shapeplowcode-cell-shape-layout-section.md
-          - name: ShapeRouteStyle 单元格（“Shape Layout”部分）
+          - name: ShapeRouteStyle 单元格（“形状布局”部分）
             href: visio/shaperoutestyle-cell-shape-layout-section.md
-          - name: ShapeShdwBlur 单元格（“Fill Format”部分）
+          - name: ShapeShdwBlur 单元格（“填充格式”部分）
             href: visio/shapeshdwblur-cell-fill-format-section.md
-          - name: ShapeShdwObliqueAngle 单元格（“Fill Format”部分）
+          - name: ShapeShdwObliqueAngle 单元格（“填充格式”部分）
             href: visio/shapeshdwobliqueangle-cell-fill-format-section.md
-          - name: ShapeShdwOffsetX 单元格（“Fill Format”部分）
+          - name: ShapeShdwOffsetX 单元格（“填充格式”部分）
             href: visio/shapeshdwoffsetx-cell-fill-format-section.md
-          - name: ShapeShdwOffsetY 单元格（“Fill Format”部分）
+          - name: ShapeShdwOffsetY 单元格（“填充格式”部分）
             href: visio/shapeshdwoffsety-cell-fill-format-section.md
-          - name: ShapeShdwScaleFactor 单元格（“Fill Format”部分）
+          - name: ShapeShdwScaleFactor 单元格（“填充格式”部分）
             href: visio/shapeshdwscalefactor-cell-fill-format-section.md
-          - name: ShapeShdwShow 单元格（“Fill Format”部分）
+          - name: ShapeShdwShow 单元格（“填充格式”部分）
             href: visio/shapeshdwshow-cell-fill-format-section.md
-          - name: ShapeShdwType 单元格（“Fill Format”部分）
+          - name: ShapeShdwType 单元格（“填充格式”部分）
             href: visio/shapeshdwtype-cell-fill-format-section.md
-          - name: ShapeSplit 单元格（“Shape Layout”部分）
+          - name: ShapeSplit 单元格（“形状布局”部分）
             href: visio/shapesplit-cell-shape-layout-section.md
-          - name: ShapeSplittable 单元格（“Shape Layout”部分）
+          - name: ShapeSplittable 单元格（“形状布局”部分）
             href: visio/shapesplittable-cell-shape-layout-section.md
-          - name: Sharpen 单元格（“Image Properties”部分）
+          - name: Sharpen 单元格（“图像属性”部分）
             href: visio/sharpen-cell-image-properties-section.md
-          - name: ShdwForegnd 单元格（“Fill Format”部分）
+          - name: ShdwForegnd 单元格（“填充格式”部分）
             href: visio/shdwforegnd-cell-fill-format-section.md
-          - name: ShdwForegndTrans 单元格（“Fill Format”部分）
+          - name: ShdwForegndTrans 单元格（“填充格式”部分）
             href: visio/shdwforegndtrans-cell-fill-format-section.md
-          - name: ShdwObliqueAngle 单元格（“Page Properties”部分）
+          - name: ShdwObliqueAngle 单元格（“页面属性”部分）
             href: visio/shdwobliqueangle-cell-page-properties-section.md
-          - name: ShdwOffsetX 单元格（“Page Properties”部分）
+          - name: ShdwOffsetX 单元格（“页面属性”部分）
             href: visio/shdwoffsetx-cell-page-properties-section.md
-          - name: ShdwOffsetY 单元格（“Page Properties”部分）
+          - name: ShdwOffsetY 单元格（“页面属性”部分）
             href: visio/shdwoffsety-cell-page-properties-section.md
-          - name: ShdwPattern 单元格（“Fill Format”部分）
+          - name: ShdwPattern 单元格（“填充格式”部分）
             href: visio/shdwpattern-cell-fill-format-section.md
-          - name: ShdwScaleFactor 单元格（“Page Properties”部分）
+          - name: ShdwScaleFactor 单元格（“页面属性”部分）
             href: visio/shdwscalefactor-cell-page-properties-section.md
-          - name: ShdwType 单元格（“Page Properties”部分）
+          - name: ShdwType 单元格（“页面属性”部分）
             href: visio/shdwtype-cell-page-properties-section.md
-          - name: Size 单元格（“Character”部分）
+          - name: Size 单元格（“字符”部分）
             href: visio/size-cell-character-section.md
-          - name: SketchAmount 单元格（“Additional Effect Properties”部分）
+          - name: SketchAmount 单元格（“其他效果属性”部分）
             href: visio/sketchamount-cell-additional-effect-properties-section.md
-          - name: SketchEnabled 单元格（“Additional Effect Properties”部分）
+          - name: SketchEnabled 单元格（“其他效果属性”部分）
             href: visio/sketchenabled-cell-additional-effect-properties-section.md
-          - name: SketchFillChange 单元格（“Additional Effect Properties”部分）
+          - name: SketchFillChange 单元格（“其他效果属性”部分）
             href: visio/sketchfillchange-cell-additional-effect-properties-section.md
-          - name: SketchLineChange 单元格（“Additional Effect Properties”部分）
+          - name: SketchLineChange 单元格（“其他效果属性”部分）
             href: visio/sketchlinechange-cell-additional-effect-properties-section.md
-          - name: SketchLineWeight 单元格（“Additional Effect Properties”部分）
+          - name: SketchLineWeight 单元格（“其他效果属性”部分）
             href: visio/sketchlineweight-cell-additional-effect-properties-section.md
-          - name: SketchSeed 单元格（“Additional Effect Properties”部分）
+          - name: SketchSeed 单元格（“其他效果属性”部分）
             href: visio/sketchseed-cell-additional-effect-properties-section.md
-          - name: Snap 单元格（“Layers”部分）
+          - name: Snap 单元格（“层”部分）
             href: visio/snap-cell-layers-section.md
-          - name: SoftEdgesSize 单元格（“Additional Effect Properties”部分）
+          - name: SoftEdgesSize 单元格（“其他效果属性”部分）
             href: visio/softedgessize-cell-additional-effect-properties-section.md
-          - name: SortKey 单元格（“Actions”部分）
+          - name: SortKey 单元格（“操作”部分）
             href: visio/sortkey-cell-actions-section.md
-          - name: SortKey 单元格（“Hyperlinks”部分）
+          - name: SortKey 单元格（“超链接”部分）
             href: visio/sortkey-cell-hyperlinks-section.md
-          - name: SortKey 单元格（“Shape Data”部分）
+          - name: SortKey 单元格（“形状数据”部分）
             href: visio/sortkey-cell-shape-data-section.md
-          - name: Spacing 单元格（“Character”部分）
+          - name: Spacing 单元格（“字符”部分）
             href: visio/spacing-cell-character-section.md
-          - name: SpAfter 单元格（“Paragraph”部分）
+          - name: SpAfter 单元格（“段落”部分）
             href: visio/spafter-cell-paragraph-section.md
-          - name: SpBefore 单元格（“Paragraph”部分）
+          - name: SpBefore 单元格（“段落”部分）
             href: visio/spbefore-cell-paragraph-section.md
-          - name: SpLine 单元格（“Paragraph”部分）
+          - name: SpLine 单元格（“段落”部分）
             href: visio/spline-cell-paragraph-section.md
-          - name: Strikethru 单元格（“Character”部分）
+          - name: Strikethru 单元格（“字符”部分）
             href: visio/strikethru-cell-character-section.md
-          - name: Style 单元格（“Character”部分）
+          - name: Style 单元格（“字符”部分）
             href: visio/style-cell-character-section.md
-          - name: SubAddress 单元格（“Hyperlinks”部分）
+          - name: SubAddress 单元格（“超链接”部分）
             href: visio/subaddress-cell-hyperlinks-section.md
-          - name: TagName 单元格（“Action Tags”部分）
+          - name: TagName 单元格（“操作标记”部分）
             href: visio/tagname-cell-action-tags-section.md
-          - name: TagName 单元格（“Actions”部分）
+          - name: TagName 单元格（“操作”部分）
             href: visio/tagname-cell-actions-section.md
-          - name: TextBkgnd 单元格（“Text Block Format”部分）
+          - name: TextBkgnd 单元格（“文本块格式”部分）
             href: visio/textbkgnd-cell-text-block-format-section.md
-          - name: TextBkgndTrans 单元格（“Text Block Format”部分）
+          - name: TextBkgndTrans 单元格（“文本块格式”部分）
             href: visio/textbkgndtrans-cell-text-block-format-section.md
-          - name: TextDirection 单元格（“Text Block Format”部分）
+          - name: TextDirection 单元格（“文本块格式”部分）
             href: visio/textdirection-cell-text-block-format-section.md
-          - name: TextPosAfterBullet 单元格（“Paragraph”部分）
+          - name: TextPosAfterBullet 单元格（“段落”部分）
             href: visio/textposafterbullet-cell-paragraph-section.md
-          - name: TheData 单元格（“Events”部分）
+          - name: TheData 单元格（“事件”部分）
             href: visio/thedata-cell-events-section.md
-          - name: ThemeIndex 单元格（“Theme Properties”部分）
+          - name: ThemeIndex 单元格（“主题属性”部分）
             href: visio/themeindex-cell-theme-properties-section.md
-          - name: TheText 单元格（“Events”部分）
+          - name: TheText 单元格（“事件”部分）
             href: visio/thetext-cell-events-section.md
-          - name: Tip 单元格（“Controls”部分）
+          - name: Tip 单元格（“控件”部分）
             href: visio/tip-cell-controls-section.md
-          - name: TopMargin 单元格（“Text Block Format”部分）
+          - name: TopMargin 单元格（“文本块格式”部分）
             href: visio/topmargin-cell-text-block-format-section.md
-          - name: Transparency 单元格（“Character”部分）
+          - name: Transparency 单元格（“字符”部分）
             href: visio/transparency-cell-character-section.md
-          - name: Transparency 单元格（“Image Properties”部分）
+          - name: Transparency 单元格（“图像属性”部分）
             href: visio/transparency-cell-image-properties-section.md
-          - name: Transparency 单元格（“Layers”部分）
+          - name: Transparency 单元格（“层”部分）
             href: visio/transparency-cell-layers-section.md
-          - name: TxtAngle 单元格（“Text Transform”部分）
+          - name: TxtAngle 单元格（“文本转换”部分）
             href: visio/txtangle-cell-text-transform-section.md
-          - name: TxtHeight 单元格（“Text Transform”部分）
+          - name: TxtHeight 单元格（“文本转换”部分）
             href: visio/txtheight-cell-text-transform-section.md
-          - name: TxtLocPinX 单元格（“Text Transform”部分）
+          - name: TxtLocPinX 单元格（“文本转换”部分）
             href: visio/txtlocpinx-cell-text-transform-section.md
-          - name: TxtLocPinY 单元格（“Text Transform”部分）
+          - name: TxtLocPinY 单元格（“文本转换”部分）
             href: visio/txtlocpiny-cell-text-transform-section.md
-          - name: TxtPinX 单元格（“Text Transform”部分）
+          - name: TxtPinX 单元格（“文本转换”部分）
             href: visio/txtpinx-cell-text-transform-section.md
-          - name: TxtPinY 单元格（“Text Transform”部分）
+          - name: TxtPinY 单元格（“文本转换”部分）
             href: visio/txtpiny-cell-text-transform-section.md
-          - name: TxtWidth 单元格（“Text Transform”部分）
+          - name: TxtWidth 单元格（“文本转换”部分）
             href: visio/txtwidth-cell-text-transform-section.md
-          - name: Type / C 单元格（“Connection Points”部分）
+          - name: Type / C 单元格（“连接点”部分）
             href: visio/typec-cell-connection-points-section.md
-          - name: Type 单元格（“Shape Data”部分）
+          - name: Type 单元格（“形状数据”部分）
             href: visio/type-cell-shape-data-section.md
-          - name: Type 单元格（“Text Fields”部分）
+          - name: Type 单元格（“文本字段”部分）
             href: visio/type-cell-text-fields-section.md
-          - name: UICategory 单元格（“Text Fields”部分）
+          - name: UICategory 单元格（“文本字段”部分）
             href: visio/uicategory-cell-text-fields-section.md
-          - name: UICode 单元格（“Text Fields”部分）
+          - name: UICode 单元格（“文本字段”部分）
             href: visio/uicode-cell-text-fields-section.md
-          - name: UIFormat 单元格（“Text Fields”部分）
+          - name: UIFormat 单元格（“文本字段”部分）
             href: visio/uiformat-cell-text-fields-section.md
-          - name: UIVisibility 单元格（“Page Properties”部分）
+          - name: UIVisibility 单元格（“页面属性”部分）
             href: visio/uivisibility-cell-page-properties-section.md
-          - name: UpdateAlignBox 单元格（“Miscellaneous”部分）
+          - name: UpdateAlignBox 单元格（“杂项”部分）
             href: visio/updatealignbox-cell-miscellaneous-section.md
-          - name: UseGroupGradient 单元格（“Gradient Properties”部分）
+          - name: UseGroupGradient 单元格（“渐变属性”部分）
             href: visio/usegroupgradient-cell-gradient-properties-section.md
-          - name: Value 单元格（“Shape Data”部分）
+          - name: Value 单元格（“形状数据”部分）
             href: visio/value-cell-shape-data-section.md
-          - name: Value 单元格（“Text Fields”部分）
+          - name: Value 单元格（“文本字段”部分）
             href: visio/value-cell-text-fields-section.md
-          - name: Value 单元格（“User-Defined Cells”部分）
+          - name: Value 单元格（“用户定义的单元格”部分）
             href: visio/value-cell-user-defined-cells-section.md
-          - name: VariationColorIndex 单元格（“Theme Properties”部分）
+          - name: VariationColorIndex 单元格（“主题属性”部分）
             href: visio/variationcolorindex-cell-theme-properties-section.md
-          - name: VariationStyleIndex 单元格（“Theme Properties”部分）
+          - name: VariationStyleIndex 单元格（“主题属性”部分）
             href: visio/variationstyleindex-cell-theme-properties-section.md
-          - name: VerticalAlign 单元格（“Text Block Format”部分）
+          - name: VerticalAlign 单元格（“文本块格式”部分）
             href: visio/verticalalign-cell-text-block-format-section.md
-          - name: ViewMarkup 单元格（“Document Properties”部分）
+          - name: ViewMarkup 单元格（“文档属性”部分）
             href: visio/viewmarkup-cell-document-properties-section.md
-          - name: Visible 单元格（“Layers”部分）
+          - name: Visible 单元格（“层”部分）
             href: visio/visible-cell-layers-section.md
-          - name: WalkPreference 单元格（“Glue Info”部分）
+          - name: WalkPreference 单元格（“粘贴信息”部分）
             href: visio/walkpreference-cell-glue-info-section.md
-          - name: Width 单元格（“Shape Transform”部分）
+          - name: Width 单元格（“形状转换”部分）
             href: visio/width-cell-shape-transform-section.md
-          - name: X Behavior 单元格（“Controls”部分）
+          - name: X Behavior 单元格（“控件”部分）
             href: visio/x-behavior-cell-controls-section.md
-          - name: X 单元格（“Action Tags”部分）
+          - name: X 单元格（“操作标记”部分）
             href: visio/x-cell-action-tags-section.md
-          - name: X 单元格（“Annotation”部分）
+          - name: X 单元格（“注释”部分）
             href: visio/x-cell-annotation-section.md
-          - name: X 单元格（“Connection Points”部分）
+          - name: X 单元格（“连接点”部分）
             href: visio/x-cell-connection-points-section.md
-          - name: X 单元格（“Controls”部分）
+          - name: X 单元格（“控件”部分）
             href: visio/x-cell-controls-section.md
-          - name: X 单元格（“Geometry”部分）
+          - name: X 单元格（“几何”部分）
             href: visio/x-cell-geometry-section.md
-          - name: X Dynamics 单元格（“Controls”部分）
+          - name: X Dynamics 单元格（“控件”部分）
             href: visio/x-dynamics-cell-controls-section.md
-          - name: X Justify 单元格（“Action Tags”部分）
+          - name: X Justify 单元格（“操作标记”部分）
             href: visio/x-justify-cell-action-tags-section.md
-          - name: XGridDensity 单元格（“Ruler &amp; Grid”部分）
+          - name: XGridDensity 单元格（“标尺和网格”部分）
             href: visio/xgriddensity-cell-rulergrid-section.md
-          - name: XGridOrigin 单元格（“Ruler &amp; Grid”部分）
+          - name: XGridOrigin 单元格（“标尺和网格”部分）
             href: visio/xgridorigin-cell-rulergrid-section.md
-          - name: XGridSpacing 单元格（“Ruler &amp; Grid”部分）
+          - name: XGridSpacing 单元格（“标尺和网格”部分）
             href: visio/xgridspacing-cell-rulergrid-section.md
-          - name: XRulerDensity 单元格（“Ruler &amp; Grid”部分）
+          - name: XRulerDensity 单元格（“标尺和网格”部分）
             href: visio/xrulerdensity-cell-rulergrid-section.md
-          - name: XRulerOrigin 单元格（“Ruler &amp; Grid”部分）
+          - name: XRulerOrigin 单元格（“标尺和网格”部分）
             href: visio/xrulerorigin-cell-rulergrid-section.md
-          - name: Y Behavior 单元格（“Controls”部分）
+          - name: Y Behavior 单元格（“控件”部分）
             href: visio/y-behavior-cell-controls-section.md
-          - name: Y 单元格（“Action Tags”部分）
+          - name: Y 单元格（“操作标记”部分）
             href: visio/y-cell-action-tags-section.md
-          - name: Y 单元格（“Annotation”部分）
+          - name: Y 单元格（“注释”部分）
             href: visio/y-cell-annotation-section.md
-          - name: Y 单元格（“Connection Points”部分）
+          - name: Y 单元格（“连接点”部分）
             href: visio/y-cell-connection-points-section.md
-          - name: Y 单元格（“Controls”部分）
+          - name: Y 单元格（“控件”部分）
             href: visio/y-cell-controls-section.md
-          - name: Y 单元格（“Geometry”部分）
+          - name: Y 单元格（“几何”部分）
             href: visio/y-cell-geometry-section.md
-          - name: Y Dynamics 单元格（“Controls”部分）
+          - name: Y Dynamics 单元格（“控件”部分）
             href: visio/y-dynamics-cell-controls-section.md
-          - name: Y Justify 单元格（“Action Tags”部分）
+          - name: Y Justify 单元格（“操作标记”部分）
             href: visio/y-justify-cell-action-tags-section.md
-          - name: YGridDensity 单元格（“Ruler &amp; Grid”部分）
+          - name: YGridDensity 单元格（“标尺和网格”部分）
             href: visio/ygriddensity-cell-rulergrid-section.md
-          - name: YGridOrigin 单元格（“Ruler &amp; Grid”部分）
+          - name: YGridOrigin 单元格（“标尺和网格”部分）
             href: visio/ygridorigin-cell-rulergrid-section.md
-          - name: YGridSpacing 单元格（“Ruler &amp; Grid”部分）
+          - name: YGridSpacing 单元格（“标尺和网格”部分）
             href: visio/ygridspacing-cell-rulergrid-section.md
-          - name: YRulerDensity 单元格（“Ruler &amp; Grid”部分）
+          - name: YRulerDensity 单元格（“标尺和网格”部分）
             href: visio/yrulerdensity-cell-rulergrid-section.md
-          - name: YRulerOrigin 单元格（“Ruler &amp; Grid”部分）
+          - name: YRulerOrigin 单元格（“标尺和网格”部分）
             href: visio/yrulerorigin-cell-rulergrid-section.md
         - name: 函数
           href: visio/functions-visio-shapesheet-reference.md
@@ -7632,150 +7959,150 @@ items:
         - name: 行
           href: visio/rows-visio-shapesheet-reference.md
           items:
-          - name: Actions 行（“Actions”部分）
+          - name: Actions 行（“操作”部分）
             href: visio/actions-row-actions-section.md
-          - name: ArcTo 行（“Geometry”部分）
+          - name: ArcTo 行（“几何”部分）
             href: visio/arcto-row-geometry-section.md
-          - name: Connection Points 行（“Connection Points”部分）
+          - name: Connection Points 行（“连接点”部分）
             href: visio/connection-points-row-connection-points-section.md
-          - name: Controls 行（“Controls”部分）
+          - name: Controls 行（“控件”部分）
             href: visio/controls-row-controls-section.md
-          - name: Ellipse 行（“Geometry”部分）
+          - name: Ellipse 行（“几何”部分）
             href: visio/ellipse-row-geometry-section.md
-          - name: EllipticalArcTo 行（“Geometry”部分）
+          - name: EllipticalArcTo 行（“几何”部分）
             href: visio/ellipticalarcto-row-geometry-section.md
-          - name: Gradient Stop 行（“Fill Gradient”部分）
+          - name: Gradient Stop 行（“填充渐变”部分）
             href: visio/gradient-stop-row-fill-gradient-section.md
-          - name: Gradient Stop 行（“Line Gradient”部分）
+          - name: Gradient Stop 行（“线条渐变”部分）
             href: visio/gradient-stop-row-line-gradient-section.md
-          - name: Hyperlink 行（“Hyperlinks”部分）
+          - name: Hyperlink 行（“超链接”部分）
             href: visio/hyperlink-row-hyperlinks-section.md
-          - name: InfiniteLine 行（“Geometry”部分）
+          - name: InfiniteLine 行（“几何”部分）
             href: visio/infiniteline-row-geometry-section.md
-          - name: LineTo 行（“Geometry”部分）
+          - name: LineTo 行（“几何”部分）
             href: visio/lineto-row-geometry-section.md
-          - name: MoveTo 行（“Geometry”部分）
+          - name: MoveTo 行（“几何”部分）
             href: visio/moveto-row-geometry-section.md
-          - name: NURBSTo 行（“Geometry”部分）
+          - name: NURBSTo 行（“几何”部分）
             href: visio/nurbsto-row-geometry-section.md
-          - name: PolylineTo 行（“Geometry”部分）
+          - name: PolylineTo 行（“几何”部分）
             href: visio/polylineto-row-geometry-section.md
-          - name: RelCubBezTo 行（“Geometry”部分）
+          - name: RelCubBezTo 行（“几何”部分）
             href: visio/relcubbezto-row-geometry-section.md
-          - name: RelEllipticalArcTo 行（“Geometry”部分）
+          - name: RelEllipticalArcTo 行（“几何”部分）
             href: visio/relellipticalarcto-row-geometry-section.md
-          - name: RelLineTo 行（“Geometry”部分）
+          - name: RelLineTo 行（“几何”部分）
             href: visio/rellineto-row-geometry-section.md
-          - name: RelMoveTo 行（“Geometry”部分）
+          - name: RelMoveTo 行（“几何”部分）
             href: visio/relmoveto-row-geometry-section.md
-          - name: RelQuadBezTo 行（“Geometry”部分）
+          - name: RelQuadBezTo 行（“几何”部分）
             href: visio/relquadbezto-row-geometry-section.md
-          - name: Shape Data 行（“Shape Data”部分）
+          - name: Shape Data 行（“形状数据”部分）
             href: visio/shape-data-row-shape-data-section.md
-          - name: Smart Tags 行（“Action Tags”部分）
+          - name: Smart Tags 行（“操作标记”部分）
             href: visio/smart-tags-row-action-tags-section.md
-          - name: SplineKnot 行（“Geometry”部分）
+          - name: SplineKnot 行（“几何”部分）
             href: visio/splineknot-row-geometry-section.md
-          - name: SplineStart 行（“Geometry”部分）
+          - name: SplineStart 行（“几何”部分）
             href: visio/splinestart-row-geometry-section.md
-          - name: User-defined Cells 行（“User-defined Cells”部分）
+          - name: User-defined Cells 行（“用户定义的单元格”部分）
             href: visio/user-defined-cells-row-user-defined-cells-section.md
         - name: 部分
           href: visio/sections-visio-shapesheet-reference.md
           items:
-          - name: “1-D Endpoints”部分
+          - name: “一维端点”部分
             href: visio/1-d-endpoints-section.md
-          - name: “3-D Rotation Properties”部分
+          - name: “三维旋转属性”部分
             href: visio/3-d-rotation-properties-section.md
-          - name: “Action Tag”部分
+          - name: “行动标记”部分
             href: visio/action-tag-section.md
-          - name: “Actions”部分
+          - name: “操作”部分
             href: visio/actions-section.md
-          - name: “Additional Effect Properties”部分
+          - name: “其他效果属性”部分
             href: visio/additional-effect-properties-section.md
-          - name: “Alignment”部分
+          - name: “对齐方式”部分
             href: visio/alignment-section.md
-          - name: “Annotation”部分
+          - name: “注释”部分
             href: visio/annotation-section.md
-          - name: “Bevel Properties”部分
+          - name: “棱台属性”部分
             href: visio/bevel-properties-section.md
-          - name: “Change Shape Behavior”部分
+          - name: “更改形状行为”部分
             href: visio/change-shape-behavior-section.md
-          - name: “Character”部分
+          - name: “字符”部分
             href: visio/character-section.md
-          - name: “Connection Points”部分
+          - name: “连接点”部分
             href: visio/connection-points-section.md
-          - name: “Controls”部分
+          - name: “控件”部分
             href: visio/controls-section.md
-          - name: “Document Properties”部分
+          - name: “文档属性”部分
             href: visio/document-properties-section.md
-          - name: “Events”部分
+          - name: “事件”部分
             href: visio/events-section.md
-          - name: “Fill Format”部分
+          - name: “填充格式”部分
             href: visio/fill-format-section.md
-          - name: “Fill Gradient”部分
+          - name: “填充渐变”部分
             href: visio/fill-gradient-section.md
-          - name: “Foreign Image Info”部分
+          - name: “外部图像信息”部分
             href: visio/foreign-image-info-section.md
-          - name: “Geometry”部分
+          - name: “几何”部分
             href: visio/geometry-section.md
-          - name: “Glue Info”部分
+          - name: “粘贴信息”部分
             href: visio/glue-info-section.md
-          - name: “Gradient Properties”部分
+          - name: “渐变属性”部分
             href: visio/gradient-properties-section.md
-          - name: “Group Properties”部分
+          - name: “组属性”部分
             href: visio/group-properties-section.md
-          - name: “Hyperlinks”部分
+          - name: “超链接”部分
             href: visio/hyperlinks-section.md
-          - name: “Image Properties”部分
+          - name: “图像属性”部分
             href: visio/image-properties-section.md
-          - name: “Layer Membership”部分
+          - name: “层成员身份”部分
             href: visio/layer-membership-section.md
-          - name: “Layers”部分
+          - name: “层”部分
             href: visio/layers-section.md
-          - name: “Line Format”部分
+          - name: “线条格式”部分
             href: visio/line-format-section.md
-          - name: “Line Gradient”部分
+          - name: “线条渐变”部分
             href: visio/line-gradient-section.md
-          - name: “Miscellaneous”部分
+          - name: “杂项”部分
             href: visio/miscellaneous-section.md
-          - name: “Page Layout”部分
+          - name: “页面布局”部分
             href: visio/page-layout-section.md
-          - name: “Page Properties”部分
+          - name: “页面属性”部分
             href: visio/page-properties-section.md
-          - name: “Paragraph”部分
+          - name: “段落”部分
             href: visio/paragraph-section.md
-          - name: “Print Properties”部分
+          - name: “打印属性”部分
             href: visio/print-properties-section.md
-          - name: “Protection”部分
+          - name: “保护”部分
             href: visio/protection-section.md
-          - name: “Quick Style”部分
+          - name: “快速样式”部分
             href: visio/quick-style-section.md
-          - name: “Reviewer”部分
+          - name: “审阅者”部分
             href: visio/reviewer-section.md
-          - name: “Ruler &amp; Grid”部分
+          - name: “标尺和网格”部分
             href: visio/rulergrid-section.md
-          - name: “Scratch”部分
+          - name: “草稿”部分
             href: visio/scratch-section.md
-          - name: “Shape Data”部分
+          - name: “形状数据”部分
             href: visio/shape-data-section.md
-          - name: “Shape Layout”部分
+          - name: “形状布局”部分
             href: visio/shape-layout-section.md
-          - name: “Shape Transform”部分
+          - name: “形状转换”部分
             href: visio/shape-transform-section.md
-          - name: “Style Properties”部分
+          - name: “样式属性”部分
             href: visio/style-properties-section.md
-          - name: “Tabs”部分
+          - name: “选项卡”部分
             href: visio/tabs-section.md
-          - name: “Text Block Format”部分
+          - name: “文本块格式”部分
             href: visio/text-block-format-section.md
-          - name: “Text Fields”部分
+          - name: “文本字段”部分
             href: visio/text-fields-section.md
-          - name: “Text Transform”部分
+          - name: “文本转换”部分
             href: visio/text-transform-section.md
-          - name: “Theme Properties”部分
+          - name: “主题属性”部分
             href: visio/theme-properties-section.md
-          - name: “User-Defined Cells”部分
+          - name: “用户定义的单元格”部分
             href: visio/user-defined-cells-section.md
     - name: Visio 文件格式参考
       href: visio/visio-file-format-reference.md
@@ -7799,13 +8126,13 @@ items:
           href: visio/autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md
         - name: Cell 元素
           href: visio/cell-elementvisio-xml.md
-        - name: Cell 元素（“Action Tag”部分）
+        - name: Cell 元素（“行动标记”部分）
           href: visio/cell-element-action-tag-sectionvisio-xml.md
         - name: Cell 元素（“Actions”行）
           href: visio/cell-element-actions-rowvisio-xml.md
         - name: Cell 元素（“ArcTo”行）
           href: visio/cell-element-arcto-rowvisio-xml.md
-        - name: Cell 元素（“Character”部分）
+        - name: Cell 元素（“字符”部分）
           href: visio/cell-element-character-sectionvisio-xml.md
         - name: Cell 元素（“Connection”行）
           href: visio/cell-element-connection-rowvisio-xml.md
@@ -7815,19 +8142,19 @@ items:
           href: visio/cell-element-ellipse-rowvisio-xml.md
         - name: Cell 元素（“EllipticalArcTo”行）
           href: visio/cell-element-ellipticalarcto-rowvisio-xml.md
-        - name: Cell 元素（“Field”部分）
+        - name: Cell 元素（“字段”部分）
           href: visio/cell-element-field-sectionvisio-xml.md
-        - name: Cell 元素（“Fill Gradient”部分）
+        - name: Cell 元素（“填充渐变”部分）
           href: visio/cell-element-fill-gradient-sectionvisio-xml.md
-        - name: Cell 元素（“Geometry”部分）
+        - name: Cell 元素（“几何”部分）
           href: visio/cell-element-geometry-sectionvisio-xml.md
         - name: Cell 元素（“Hyperlink”行）
           href: visio/cell-element-hyperlink-rowvisio-xml.md
         - name: Cell 元素（“InfiniteLine”行）
           href: visio/cell-element-infiniteline-rowvisio-xml.md
-        - name: Cell 元素（“Layer”部分）
+        - name: Cell 元素（“层”部分）
           href: visio/cell-element-layer-sectionvisio-xml.md
-        - name: Cell 元素（“Line Gradient”部分）
+        - name: Cell 元素（“线条渐变”部分）
           href: visio/cell-element-line-gradient-sectionvisio-xml.md
         - name: Cell 元素（“LineTo”行）
           href: visio/cell-element-lineto-rowvisio-xml.md
@@ -7835,7 +8162,7 @@ items:
           href: visio/cell-element-moveto-rowvisio-xml.md
         - name: Cell 元素（“NURBSTo”行）
           href: visio/cell-element-nurbsto-rowvisio-xml.md
-        - name: Cell 元素（“Paragraph”部分）
+        - name: Cell 元素（“段落”部分）
           href: visio/cell-element-paragraph-sectionvisio-xml.md
         - name: Cell 元素（“PolyLineTo”行）
           href: visio/cell-element-polylineto-rowvisio-xml.md
@@ -7849,17 +8176,17 @@ items:
           href: visio/cell-element-relmoveto-rowvisio-xml.md
         - name: Cell 元素（“RelQuadBezTo”行）
           href: visio/cell-element-relquadbezto-rowvisio-xml.md
-        - name: Cell 元素（“Scratch”部分）
+        - name: Cell 元素（“草稿”部分）
           href: visio/cell-element-scratch-sectionvisio-xml.md
-        - name: Cell 元素（“Shape Data”部分）
+        - name: Cell 元素（“形状数据”部分）
           href: visio/cell-element-shape-data-sectionvisio-xml.md
         - name: Cell 元素（“SplineKnot”行）
           href: visio/cell-element-splineknot-rowvisio-xml.md
         - name: Cell 元素（“SplineStart”行）
           href: visio/cell-element-splinestart-rowvisio-xml.md
-        - name: Cell 元素（“Tabs”部分）
+        - name: Cell 元素（“选项卡”部分）
           href: visio/cell-element-tabs-sectionvisio-xml.md
-        - name: Cell 元素（“User-defined Cells”部分）
+        - name: Cell 元素（“用户定义的单元格”部分）
           href: visio/cell-element-user-defined-cells-sectionvisio-xml.md
         - name: ColorEntry 元素
           href: visio/colorentry-element-colors_type-complextypevisio-xml.md
@@ -8005,37 +8332,37 @@ items:
           href: visio/rel-element-page_type-complextypevisio-xml.md
         - name: Rel 元素 (Solution_Type complexType)
           href: visio/rel-element-solution_type-complextypevisio-xml.md
-        - name: Row 元素（“Actions”部分）
+        - name: Row 元素（“操作”部分）
           href: visio/row-element-actions-sectionvisio-xml.md
-        - name: Row 元素（“Action Tag”部分）
+        - name: Row 元素（“行动标记”部分）
           href: visio/row-element-action-tag-sectionvisio-xml.md
-        - name: Row 元素（“Character”部分）
+        - name: Row 元素（“字符”部分）
           href: visio/row-element-character-sectionvisio-xml.md
-        - name: Row 元素（“Connection”部分）
+        - name: Row 元素（“连接”部分）
           href: visio/row-element-connection-sectionvisio-xml.md
-        - name: Row 元素（“Controls”部分）
+        - name: Row 元素（“控件”部分）
           href: visio/row-element-controls-sectionvisio-xml.md
-        - name: Row 元素（“Field”部分）
+        - name: Row 元素（“字段”部分）
           href: visio/row-element-field-sectionvisio-xml.md
-        - name: Row 元素（“Fill Gradient”部分）
+        - name: Row 元素（“填充渐变”部分）
           href: visio/row-element-fill-gradient-sectionvisio-xml.md
-        - name: Row 元素（“Geometry”部分）
+        - name: Row 元素（“几何”部分）
           href: visio/row-element-geometry-sectionvisio-xml.md
-        - name: Row 元素（“Hyperlink”部分）
+        - name: Row 元素（“超链接”部分）
           href: visio/row-element-hyperlink-sectionvisio-xml.md
-        - name: Row 元素（“Layer”部分）
+        - name: Row 元素（“层”部分）
           href: visio/row-element-layer-sectionvisio-xml.md
-        - name: Row 元素（“Line Gradient”部分）
+        - name: Row 元素（“线条渐变”部分）
           href: visio/row-element-line-gradient-sectionvisio-xml.md
-        - name: Row 元素（“Paragraph”部分）
+        - name: Row 元素（“段落”部分）
           href: visio/row-element-paragraph-sectionvisio-xml.md
-        - name: Row 元素（“Scratch”部分）
+        - name: Row 元素（“草稿”部分）
           href: visio/row-element-scratch-sectionvisio-xml.md
-        - name: Row 元素（“Shape Data”部分）
+        - name: Row 元素（“形状数据”部分）
           href: visio/row-element-shape-data-sectionvisio-xml.md
-        - name: Row 元素（“Tabs”部分）
+        - name: Row 元素（“选项卡”部分）
           href: visio/row-element-tabs-sectionvisio-xml.md
-        - name: Row 元素（“User-defined Cells”部分）
+        - name: Row 元素（“用户定义的单元格”部分）
           href: visio/row-element-user-defined-cells-sectionvisio-xml.md
         - name: RowKeyValue 元素
           href: visio/rowkeyvalue-element-primarykey_type-complextypevisio-xml.md
@@ -8434,16 +8761,16 @@ items:
     - name: Word 中的内容控件
       href: word/content-controls-in-word.md
     - name: Word VBA 参考
-      href: https://msdn.microsoft.com/en-us/library/ee861527.aspx
-    - name: Word 主互操作程序集引用
-      href: https://msdn.microsoft.com/en-us/library/ff597928.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/word
+    - name: Word 主互操作程序集参考
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
   - name: Sway URI 方案
     href: swayuri.md
   - name: Office URI 方案
     href: office-uri-schemes.md
-ms.openlocfilehash: 2f3460ac612fea7fb558ed841fa9e21a0e97a4ac
-ms.sourcegitcommit: c55eec212ae794592c83bbf06b01eab5ca6bff6d
+ms.openlocfilehash: 7033a4730c3cc661ff44f20f44bdaaba629a7aaa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 07/16/2018
-ms.locfileid: "20389579"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389370"
