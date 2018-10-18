@@ -1,34 +1,28 @@
 ---
-title: Version 属性示例 (VJ++)
-TOCTitle: Version Property Example (VJ++)
-ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
-ms:contentKeyID: 48547600
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d0f96081b484094837ee9cc2e472db55fb5d9144
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467811"
+<span data-ttu-id="706f3-101"><<<<<<< 标头标题： Version 属性示例 （VJ + +） TOCTitle: Version 属性示例 （VJ + +） === 标题： Version 属性示例 （VJ + +） TOCTitle: Version 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="706f3-101"><<<<<<< HEAD title: Version Property Example (VJ++) TOCTitle: Version Property Example (VJ++) ======= title: Version property example (VJ++) TOCTitle: Version property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="706f3-102">母版页 ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15) ms:contentKeyID: 48547600 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="706f3-102">master ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15) ms:contentKeyID: 48547600 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="version-property-example-vj"></a><span data-ttu-id="59ea0-102">Version 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="59ea0-102">Version Property Example (VJ++)</span></span>
+
+<span data-ttu-id="706f3-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="706f3-103"><<<<<<< HEAD</span></span>
+# <a name="version-property-example-vj"></a><span data-ttu-id="706f3-104">Version 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="706f3-104">Version Property Example (VJ++)</span></span>
+=======
+# <a name="version-property-example-vj"></a><span data-ttu-id="706f3-105">Version 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="706f3-105">Version property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="706f3-106">master</span><span class="sxs-lookup"><span data-stu-id="706f3-106">master</span></span>
 
 
-<span data-ttu-id="59ea0-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="59ea0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="706f3-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="706f3-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="59ea0-p101">此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：</span><span class="sxs-lookup"><span data-stu-id="59ea0-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="706f3-p101">此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：</span><span class="sxs-lookup"><span data-stu-id="706f3-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="59ea0-106">当前的 DBMS 名称和版本。</span><span class="sxs-lookup"><span data-stu-id="59ea0-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="706f3-110">当前的 DBMS 名称和版本。</span><span class="sxs-lookup"><span data-stu-id="706f3-110">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="59ea0-107">OLE DB 版本。</span><span class="sxs-lookup"><span data-stu-id="59ea0-107">OLE DB version.</span></span>
+  - <span data-ttu-id="706f3-111">OLE DB 版本。</span><span class="sxs-lookup"><span data-stu-id="706f3-111">OLE DB version.</span></span>
 
-  - <span data-ttu-id="59ea0-108">提供程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="59ea0-108">provider name and version.</span></span>
+  - <span data-ttu-id="706f3-112">提供程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="706f3-112">provider name and version.</span></span>
 
-  - <span data-ttu-id="59ea0-109">ODBC 版本。</span><span class="sxs-lookup"><span data-stu-id="59ea0-109">ODBC version.</span></span>
+  - <span data-ttu-id="706f3-113">ODBC 版本。</span><span class="sxs-lookup"><span data-stu-id="706f3-113">ODBC version.</span></span>
 
-  - <span data-ttu-id="59ea0-110">ODBC 驱动程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="59ea0-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="706f3-114">ODBC 驱动程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="706f3-114">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

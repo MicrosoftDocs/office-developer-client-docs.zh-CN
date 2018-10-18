@@ -1,24 +1,18 @@
 ---
-title: State 属性示例 (VB)
-TOCTitle: State Property Example (VB)
-ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
-ms:contentKeyID: 48548366
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 09f80226664c06fcc6c78a8d17c59aa2bc22c7c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466885"
+<span data-ttu-id="b084d-101"><<<<<<< 标头标题： State 属性示例 (VB) TOCTitle: State 属性示例 (VB) === 标题： State 属性示例 (VB) TOCTitle: State 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b084d-101"><<<<<<< HEAD title: State Property Example (VB) TOCTitle: State Property Example (VB) ======= title: State property example (VB) TOCTitle: State property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="b084d-102">母版页 ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID: 48548366 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="b084d-102">master ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID: 48548366 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="state-property-example-vb"></a><span data-ttu-id="aa03a-102">State 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="aa03a-102">State Property Example (VB)</span></span>
+
+<span data-ttu-id="b084d-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="b084d-103"><<<<<<< HEAD</span></span>
+# <a name="state-property-example-vb"></a><span data-ttu-id="b084d-104">State 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b084d-104">State Property Example (VB)</span></span>
+=======
+# <a name="state-property-example-vb"></a><span data-ttu-id="b084d-105">State 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b084d-105">State property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="b084d-106">master</span><span class="sxs-lookup"><span data-stu-id="b084d-106">master</span></span>
 
 
-<span data-ttu-id="aa03a-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="aa03a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b084d-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="b084d-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="aa03a-104">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="aa03a-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="b084d-108">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="b084d-108">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```vb 
  

@@ -1,24 +1,18 @@
 ---
-title: Attributes 属性示例 (VC++)
-TOCTitle: Attributes Property Example (VC++)
-ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
-ms:contentKeyID: 48542976
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5c10c098cf6764489acf77b7d56df6b514df46c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468582"
+<span data-ttu-id="b66d6-101"><<<<<<< 标头标题： Attributes 属性示例 （VC + +） TOCTitle: Attributes 属性示例 （VC + +） === 标题： Attributes 属性示例 （VC + +） TOCTitle: Attributes 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="b66d6-101"><<<<<<< HEAD title: Attributes Property Example (VC++) TOCTitle: Attributes Property Example (VC++) ======= title: Attributes property example (VC++) TOCTitle: Attributes property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="b66d6-102">母版页 ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15) ms:contentKeyID: 48542976 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="b66d6-102">master ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15) ms:contentKeyID: 48542976 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="attributes-property-example-vc"></a><span data-ttu-id="e9b81-102">Attributes 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="e9b81-102">Attributes Property Example (VC++)</span></span>
+
+<span data-ttu-id="b66d6-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="b66d6-103"><<<<<<< HEAD</span></span>
+# <a name="attributes-property-example-vc"></a><span data-ttu-id="b66d6-104">Attributes 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="b66d6-104">Attributes Property Example (VC++)</span></span>
+=======
+# <a name="attributes-property-example-vc"></a><span data-ttu-id="b66d6-105">Attributes 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="b66d6-105">Attributes property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="b66d6-106">master</span><span class="sxs-lookup"><span data-stu-id="b66d6-106">master</span></span>
 
 
-<span data-ttu-id="e9b81-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9b81-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b66d6-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="b66d6-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="e9b81-p101">本示例演示 [Column](attributes-property-adox.md) 的 [Attributes](column-object-adox.md) 属性。将其设置为 **adColNullable** 将使用户可以把 [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) 的值设置为空字符串。在这种情况下，用户可区分数据未知的记录和未应用数据的记录。</span><span class="sxs-lookup"><span data-stu-id="e9b81-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="b66d6-p101">本示例演示 [Column](attributes-property-adox.md) 的 [Attributes](column-object-adox.md) 属性。将其设置为 **adColNullable** 将使用户可以把 [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) 的值设置为空字符串。在这种情况下，用户可区分数据未知的记录和未应用数据的记录。</span><span class="sxs-lookup"><span data-stu-id="b66d6-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```cpp 
  
@@ -221,7 +215,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-<span data-ttu-id="e9b81-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="e9b81-107">**ADOXAttributesX.h**</span></span>
+<span data-ttu-id="b66d6-111">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="b66d6-111">**ADOXAttributesX.h**</span></span>
 
 ```cpp
     // BeginAttributesH 

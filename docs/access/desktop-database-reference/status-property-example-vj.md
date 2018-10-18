@@ -1,24 +1,18 @@
 ---
-title: Status 属性示例 (VJ++)
-TOCTitle: Status Property Example (VJ++)
-ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
-ms:contentKeyID: 48547452
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7e596c350165159c4cc813e3b958598534d07a53
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467256"
+<span data-ttu-id="bada7-101"><<<<<<< 标头标题： Status 属性示例 （VJ + +） TOCTitle: Status 属性示例 （VJ + +） === 标题： Status 属性示例 （VJ + +） TOCTitle: Status 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="bada7-101"><<<<<<< HEAD title: Status Property Example (VJ++) TOCTitle: Status Property Example (VJ++) ======= title: Status property example (VJ++) TOCTitle: Status property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="bada7-102">母版页 ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15) ms:contentKeyID: 48547452 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="bada7-102">master ms:assetid: bdfc1b26-b384-e7e5-ff4b-d63ed62f70ca ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15) ms:contentKeyID: 48547452 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="status-property-example-vj"></a><span data-ttu-id="13014-102">Status 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="13014-102">Status Property Example (VJ++)</span></span>
+
+<span data-ttu-id="bada7-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="bada7-103"><<<<<<< HEAD</span></span>
+# <a name="status-property-example-vj"></a><span data-ttu-id="bada7-104">Status 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bada7-104">Status Property Example (VJ++)</span></span>
+=======
+# <a name="status-property-example-vj"></a><span data-ttu-id="bada7-105">Status 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="bada7-105">Status property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="bada7-106">master</span><span class="sxs-lookup"><span data-stu-id="bada7-106">master</span></span>
 
 
-<span data-ttu-id="13014-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="13014-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="bada7-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="bada7-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="13014-104">本示例使用 [Status](status-property-ado-recordset.md) 属性显示在批更新发生之前的批操作中修改的记录。</span><span class="sxs-lookup"><span data-stu-id="13014-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="bada7-108">本示例使用 [Status](status-property-ado-recordset.md) 属性显示在批更新发生之前的批操作中修改的记录。</span><span class="sxs-lookup"><span data-stu-id="bada7-108">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```java 
  

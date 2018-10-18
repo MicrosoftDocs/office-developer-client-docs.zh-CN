@@ -1,24 +1,18 @@
 ---
-title: Prepared 属性示例 (VB)
-TOCTitle: Prepared Property Example (VB)
-ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15)
-ms:contentKeyID: 48548000
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6e4048a21b8d4815dda3bc7a4f9377b24e8fac02
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466790"
+<span data-ttu-id="218df-101"><<<<<<< 标头标题： 只有在准备好属性示例 (VB) TOCTitle： 只有在准备好属性示例 (VB) === 标题： Prepared 的属性示例 (VB) TOCTitle: Prepared 的属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="218df-101"><<<<<<< HEAD title: Prepared Property Example (VB) TOCTitle: Prepared Property Example (VB) ======= title: Prepared property example (VB) TOCTitle: Prepared property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="218df-102">母版页 ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15) ms:contentKeyID: 48548000 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="218df-102">master ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15) ms:contentKeyID: 48548000 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="prepared-property-example-vb"></a><span data-ttu-id="2ad3f-102">Prepared 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="2ad3f-102">Prepared Property Example (VB)</span></span>
+
+<span data-ttu-id="218df-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="218df-103"><<<<<<< HEAD</span></span>
+# <a name="prepared-property-example-vb"></a><span data-ttu-id="218df-104">Prepared 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="218df-104">Prepared Property Example (VB)</span></span>
+=======
+# <a name="prepared-property-example-vb"></a><span data-ttu-id="218df-105">Prepared 的属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="218df-105">Prepared property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="218df-106">master</span><span class="sxs-lookup"><span data-stu-id="218df-106">master</span></span>
 
 
-<span data-ttu-id="2ad3f-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ad3f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="218df-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="218df-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="2ad3f-104">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="2ad3f-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="218df-108">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="218df-108">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```vb 
  

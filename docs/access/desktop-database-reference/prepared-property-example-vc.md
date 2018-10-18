@@ -1,24 +1,18 @@
 ---
-title: Prepared 属性示例 (VC++)
-TOCTitle: Prepared Property Example (VC++)
-ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
-ms:contentKeyID: 48546562
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5af614ada8ddc1ef68c40655cc0afb6832975d81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466257"
+<span data-ttu-id="c61cb-101"><<<<<<< 标头标题： 只有在准备好属性示例 （VC + +） TOCTitle： 只有在准备好属性示例 （VC + +） === 标题： Prepared 的属性示例 （VC + +） TOCTitle: Prepared 的属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="c61cb-101"><<<<<<< HEAD title: Prepared Property Example (VC++) TOCTitle: Prepared Property Example (VC++) ======= title: Prepared property example (VC++) TOCTitle: Prepared property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="c61cb-102">母版页 ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID: 48546562 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="c61cb-102">master ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID: 48546562 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="prepared-property-example-vc"></a><span data-ttu-id="c37ad-102">Prepared 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="c37ad-102">Prepared Property Example (VC++)</span></span>
+
+<span data-ttu-id="c61cb-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="c61cb-103"><<<<<<< HEAD</span></span>
+# <a name="prepared-property-example-vc"></a><span data-ttu-id="c61cb-104">Prepared 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="c61cb-104">Prepared Property Example (VC++)</span></span>
+=======
+# <a name="prepared-property-example-vc"></a><span data-ttu-id="c61cb-105">Prepared 的属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="c61cb-105">Prepared property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="c61cb-106">master</span><span class="sxs-lookup"><span data-stu-id="c61cb-106">master</span></span>
 
 
-<span data-ttu-id="c37ad-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c37ad-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c61cb-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c61cb-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c37ad-104">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="c37ad-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="c61cb-108">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="c61cb-108">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```cpp 
  

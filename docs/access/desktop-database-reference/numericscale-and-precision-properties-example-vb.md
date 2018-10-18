@@ -1,24 +1,18 @@
 ---
-title: NumericScale 和 Precision 属性示例 (VB)
-TOCTitle: NumericScale and Precision Properties Example (VB)
-ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15)
-ms:contentKeyID: 48545610
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5c1787ba817f04fa7f2f90a25be37cb3d89dbca3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466492"
+<span data-ttu-id="491b8-101"><<<<<<< 标头标题： NumericScale 和 Precision 属性示例 (VB) TOCTitle: NumericScale 和 Precision 属性示例 (VB) === 标题： NumericScale 和 Precision 属性示例 (VB) TOCTitle: NumericScale 和Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="491b8-101"><<<<<<< HEAD title: NumericScale and Precision Properties Example (VB) TOCTitle: NumericScale and Precision Properties Example (VB) ======= title: NumericScale and Precision properties example (VB) TOCTitle: NumericScale and Precision properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="491b8-102">母版页 ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15) ms:contentKeyID: 48545610 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="491b8-102">master ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15) ms:contentKeyID: 48545610 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="41e9f-102">NumericScale 和 Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="41e9f-102">NumericScale and Precision Properties Example (VB)</span></span>
+
+<span data-ttu-id="491b8-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="491b8-103"><<<<<<< HEAD</span></span>
+# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="491b8-104">NumericScale 和 Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="491b8-104">NumericScale and Precision Properties Example (VB)</span></span>
+=======
+# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="491b8-105">NumericScale 和 Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="491b8-105">NumericScale and Precision properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="491b8-106">master</span><span class="sxs-lookup"><span data-stu-id="491b8-106">master</span></span>
 
 
-<span data-ttu-id="41e9f-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="41e9f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="491b8-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="491b8-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="41e9f-104">本示例演示 [Column](numericscale-property-adox.md) 对象的 [NumericScale](precision-property-adox.md) 和 [Precision](column-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="41e9f-104">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="41e9f-105">此代码将显示*Northwind*数据库的**订单明细**表及其值。</span><span class="sxs-lookup"><span data-stu-id="41e9f-105">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
+<span data-ttu-id="491b8-108">本示例演示 [Column](numericscale-property-adox.md) 对象的 [NumericScale](precision-property-adox.md) 和 [Precision](column-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="491b8-108">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="491b8-109">此代码将显示*Northwind*数据库的**订单明细**表及其值。</span><span class="sxs-lookup"><span data-stu-id="491b8-109">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
 
 ```vb 
  

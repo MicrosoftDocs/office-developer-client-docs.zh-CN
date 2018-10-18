@@ -1,24 +1,18 @@
 ---
-title: 说明，HelpContext HelpFile 属性示例 （VJ + +）
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)
-ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
-ms:contentKeyID: 48548085
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 16b43b26cc9109461142a3b121d2db9bf399772a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466986"
+<span data-ttu-id="17faa-101"><<<<<<< 标头标题： 说明，HelpContext HelpFile 属性示例 （VJ + +） TOCTitle: Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 （VJ + +） === 标题: 说明，HelpFile 属性示例 （VJ + +） HelpContext TOCTitle: Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="17faa-101"><<<<<<< HEAD title: Description, HelpContext, HelpFile Properties Example (VJ++) TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++) ======= title: Description, HelpContext, HelpFile properties example (VJ++) TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="17faa-102">母版页 ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15) ms:contentKeyID: 48548085 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="17faa-102">master ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15) ms:contentKeyID: 48548085 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a><span data-ttu-id="9bd6c-102">Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9bd6c-102">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)</span></span>
+
+<span data-ttu-id="17faa-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="17faa-103"><<<<<<< HEAD</span></span>
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a><span data-ttu-id="17faa-104">Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="17faa-104">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VJ++)</span></span>
+=======
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a><span data-ttu-id="17faa-105">Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="17faa-105">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="17faa-106">master</span><span class="sxs-lookup"><span data-stu-id="17faa-106">master</span></span>
 
 
-<span data-ttu-id="9bd6c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bd6c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="17faa-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="17faa-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="9bd6c-104">此示例触发一个错误，将其捕获，并显示产生的 [Error](description-property-ado.md) 对象的 [Description](helpcontext-helpfile-properties-ado.md)、[HelpContext](helpcontext-helpfile-properties-ado.md)、[HelpFile](nativeerror-property-ado.md)、[NativeError](number-property-ado.md)、[Number](source-property-ado-error.md)、[Source](sqlstate-property-ado.md) 和 [SQLState](error-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="9bd6c-104">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
+<span data-ttu-id="17faa-108">此示例触发一个错误，将其捕获，并显示产生的 [Error](description-property-ado.md) 对象的 [Description](helpcontext-helpfile-properties-ado.md)、[HelpContext](helpcontext-helpfile-properties-ado.md)、[HelpFile](nativeerror-property-ado.md)、[NativeError](number-property-ado.md)、[Number](source-property-ado-error.md)、[Source](sqlstate-property-ado.md) 和 [SQLState](error-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="17faa-108">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
 
 ```java
     // BeginDescriptionJ

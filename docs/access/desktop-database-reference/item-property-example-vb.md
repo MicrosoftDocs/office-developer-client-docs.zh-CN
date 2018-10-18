@@ -1,26 +1,20 @@
 ---
-title: Item 属性示例 (VB)
-TOCTitle: Item Property Example (VB)
-ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
-ms:contentKeyID: 48548430
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 93c0780ba601516f975d51aca89265c4d2a648e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467787"
+<span data-ttu-id="76f35-101"><<<<<<< 标头标题： Item 属性示例 (VB) TOCTitle: Item 属性示例 (VB) === 标题： Item 属性示例 (VB) TOCTitle: Item 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="76f35-101"><<<<<<< HEAD title: Item Property Example (VB) TOCTitle: Item Property Example (VB) ======= title: Item property example (VB) TOCTitle: Item property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="76f35-102">母版页 ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15) ms:contentKeyID: 48548430 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="76f35-102">master ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15) ms:contentKeyID: 48548430 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="item-property-example-vb"></a><span data-ttu-id="ac710-102">Item 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="ac710-102">Item Property Example (VB)</span></span>
+
+<span data-ttu-id="76f35-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="76f35-103"><<<<<<< HEAD</span></span>
+# <a name="item-property-example-vb"></a><span data-ttu-id="76f35-104">Item 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="76f35-104">Item Property Example (VB)</span></span>
+=======
+# <a name="item-property-example-vb"></a><span data-ttu-id="76f35-105">Item 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="76f35-105">Item property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="76f35-106">master</span><span class="sxs-lookup"><span data-stu-id="76f35-106">master</span></span>
 
 
-<span data-ttu-id="ac710-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac710-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="76f35-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="76f35-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="ac710-p101">本示例演示 [Item](item-property-ado.md) 属性如何访问集合的成员。该示例使用参数化命令来打开 ***Pubs*** 数据库的 ***Authors*** 表。</span><span class="sxs-lookup"><span data-stu-id="ac710-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="76f35-p101">本示例演示 [Item](item-property-ado.md) 属性如何访问集合的成员。该示例使用参数化命令来打开 ***Pubs*** 数据库的 ***Authors*** 表。</span><span class="sxs-lookup"><span data-stu-id="76f35-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="ac710-p102">针对数据库发出的命令中的参数是根据索引和名称从 [Command](command-object-ado.md) 对象的 [Parameters](parameters-collection-ado.md) 集合访问的。返回的 [Recordset](recordset-object-ado.md) 中的字段随后根据索引和名称从该对象的 [Fields](fields-collection-ado.md) 集合进行访问。</span><span class="sxs-lookup"><span data-stu-id="ac710-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. The fields of the returned [Recordset](recordset-object-ado.md) are then accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="76f35-p102">针对数据库发出的命令中的参数是根据索引和名称从 [Command](command-object-ado.md) 对象的 [Parameters](parameters-collection-ado.md) 集合访问的。返回的 [Recordset](recordset-object-ado.md) 中的字段随后根据索引和名称从该对象的 [Fields](fields-collection-ado.md) 集合进行访问。</span><span class="sxs-lookup"><span data-stu-id="76f35-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. The fields of the returned [Recordset](recordset-object-ado.md) are then accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```vb 
  

@@ -1,24 +1,18 @@
 ---
-title: Type 属性示例 (Field) (VC++)
-TOCTitle: Type Property Example (Field) (VC++)
-ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
-ms:contentKeyID: 48547858
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 13bd264e4b48ed13cc1d9cd9f48281042c66f4f9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465981"
+<span data-ttu-id="649e9-101"><<<<<<< 标头标题： Type 属性示例 (Field) （VC + +） TOCTitle: Type 属性示例 (Field) （VC + +） === 标题： Type 属性示例 (Field) （VC + +） TOCTitle: Type 属性示例 (Field) （VC + +）</span><span class="sxs-lookup"><span data-stu-id="649e9-101"><<<<<<< HEAD title: Type Property Example (Field) (VC++) TOCTitle: Type Property Example (Field) (VC++) ======= title: Type property example (Field) (VC++) TOCTitle: Type property example (Field) (VC++)</span></span>
+>>>>>>> <span data-ttu-id="649e9-102">母版页 ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: 48547858 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="649e9-102">master ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: 48547858 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="type-property-example-field-vc"></a><span data-ttu-id="95239-102">Type 属性示例 (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="95239-102">Type Property Example (Field) (VC++)</span></span>
+
+<span data-ttu-id="649e9-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="649e9-103"><<<<<<< HEAD</span></span>
+# <a name="type-property-example-field-vc"></a><span data-ttu-id="649e9-104">Type 属性示例 (Field) (VC++)</span><span class="sxs-lookup"><span data-stu-id="649e9-104">Type Property Example (Field) (VC++)</span></span>
+=======
+# <a name="type-property-example-field-vc"></a><span data-ttu-id="649e9-105">Type 属性示例 (Field) （VC + +）</span><span class="sxs-lookup"><span data-stu-id="649e9-105">Type property example (Field) (VC++)</span></span>
+>>>>>>> <span data-ttu-id="649e9-106">master</span><span class="sxs-lookup"><span data-stu-id="649e9-106">master</span></span>
 
 
-<span data-ttu-id="95239-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="95239-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="649e9-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="649e9-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="95239-p101">此示例通过显示与 ***Employees***（雇员）表中的所有 [Field](field-object-ado.md) 对象的 [Type](type-property-ado.md) 属性值对应的常量名称来演示 **Type** 属性。若要运行此过程，必须使用 FieldType 函数。</span><span class="sxs-lookup"><span data-stu-id="95239-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="649e9-p101">此示例通过显示与 ***Employees***（雇员）表中的所有 [Field](field-object-ado.md) 对象的 [Type](type-property-ado.md) 属性值对应的常量名称来演示 **Type** 属性。若要运行此过程，必须使用 FieldType 函数。</span><span class="sxs-lookup"><span data-stu-id="649e9-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the **Type** property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
 
 ```cpp 
  

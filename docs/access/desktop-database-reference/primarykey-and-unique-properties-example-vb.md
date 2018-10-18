@@ -1,24 +1,18 @@
 ---
-title: PrimaryKey 和 Unique 属性示例 (VB)
-TOCTitle: PrimaryKey and Unique Properties Example (VB)
-ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15)
-ms:contentKeyID: 48546137
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 22653f1b8ad7806d3125f86acadf590e321eb073
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467821"
+<span data-ttu-id="a66f3-101"><<<<<<< 标头标题： PrimaryKey 和唯一属性示例 (VB) TOCTitle: PrimaryKey 和唯一属性示例 (VB) === 标题： PrimaryKey 和 Unique 属性示例 (VB) TOCTitle: PrimaryKey 和 Unique 属性示例(VB)</span><span class="sxs-lookup"><span data-stu-id="a66f3-101"><<<<<<< HEAD title: PrimaryKey and Unique Properties Example (VB) TOCTitle: PrimaryKey and Unique Properties Example (VB) ======= title: PrimaryKey and Unique properties example (VB) TOCTitle: PrimaryKey and Unique properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="a66f3-102">母版页 ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15) ms:contentKeyID: 48546137 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="a66f3-102">master ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15) ms:contentKeyID: 48546137 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="primarykey-and-unique-properties-example-vb"></a><span data-ttu-id="ed91c-102">PrimaryKey 和 Unique 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="ed91c-102">PrimaryKey and Unique Properties Example (VB)</span></span>
+
+<span data-ttu-id="a66f3-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="a66f3-103"><<<<<<< HEAD</span></span>
+# <a name="primarykey-and-unique-properties-example-vb"></a><span data-ttu-id="a66f3-104">PrimaryKey 和 Unique 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a66f3-104">PrimaryKey and Unique Properties Example (VB)</span></span>
+=======
+# <a name="primarykey-and-unique-properties-example-vb"></a><span data-ttu-id="a66f3-105">PrimaryKey 和 Unique 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a66f3-105">PrimaryKey and Unique properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="a66f3-106">master</span><span class="sxs-lookup"><span data-stu-id="a66f3-106">master</span></span>
 
 
-<span data-ttu-id="ed91c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed91c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a66f3-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="a66f3-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="ed91c-p101">本示例演示 [Index](primarykey-property-adox.md) 的 [PrimaryKey](unique-property-adox.md) 和 [Unique](index-object-adox.md) 属性。代码创建一个带有两个列的新表。 **PrimaryKey** 和 **Unique** 属性用于使其中一列成为不允许出现重复值的主键。</span><span class="sxs-lookup"><span data-stu-id="ed91c-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
+<span data-ttu-id="a66f3-p101">本示例演示 [Index](primarykey-property-adox.md) 的 [PrimaryKey](unique-property-adox.md) 和 [Unique](index-object-adox.md) 属性。代码创建一个带有两个列的新表。 **PrimaryKey** 和 **Unique** 属性用于使其中一列成为不允许出现重复值的主键。</span><span class="sxs-lookup"><span data-stu-id="a66f3-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
 
 ```vb 
  

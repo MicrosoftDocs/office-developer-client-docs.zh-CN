@@ -1,24 +1,18 @@
 ---
-title: Views 集合与 CommandText 属性示例 (VB)
-TOCTitle: Views Collection, CommandText Property Example (VB)
-ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
-ms:contentKeyID: 48545120
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a9e290c656d0d66dc180c86429c305588eac26d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465695"
+<span data-ttu-id="9389c-101"><<<<<<< 标头标题： Views 集合、 CommandText 属性示例 (VB) TOCTitle: Views 集合、 CommandText 属性示例 (VB) === 标题： Views 集合，CommandText 属性示例 (VB) TOCTitle: Views 集合CommandText 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="9389c-101"><<<<<<< HEAD title: Views Collection, CommandText Property Example (VB) TOCTitle: Views Collection, CommandText Property Example (VB) ======= title: Views Collection, CommandText property example (VB) TOCTitle: Views Collection, CommandText property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="9389c-102">母版页 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID: 48545120 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="9389c-102">master ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID: 48545120 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="4a3a9-102">Views 集合与 CommandText 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="4a3a9-102">Views Collection, CommandText Property Example (VB)</span></span>
+
+<span data-ttu-id="9389c-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="9389c-103"><<<<<<< HEAD</span></span>
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="9389c-104">Views 集合与 CommandText 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="9389c-104">Views Collection, CommandText Property Example (VB)</span></span>
+=======
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="9389c-105">Views 集合，CommandText 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="9389c-105">Views Collection, CommandText property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="9389c-106">master</span><span class="sxs-lookup"><span data-stu-id="9389c-106">master</span></span>
 
 
-<span data-ttu-id="4a3a9-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a3a9-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9389c-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="9389c-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="4a3a9-104">下面的代码演示如何使用 [Command](command-property-adox.md) 属性更新视图的文本。</span><span class="sxs-lookup"><span data-stu-id="4a3a9-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
+<span data-ttu-id="9389c-108">下面的代码演示如何使用 [Command](command-property-adox.md) 属性更新视图的文本。</span><span class="sxs-lookup"><span data-stu-id="9389c-108">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
 
 ```vb 
  

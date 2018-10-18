@@ -6,37 +6,41 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
 ms:contentKeyID: 48545473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb858186942ac026cbf3e1020c4ac658537093a5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 723820a2a1c5300bfdc3e688d693d29e2bddda33
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469008"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602509"
 ---
-# <a name="prompt-property--dynamic-ado"></a><span data-ttu-id="703a8-102">Prompt 属性  动态 (ADO)</span><span class="sxs-lookup"><span data-stu-id="703a8-102">Prompt Property--Dynamic (ADO)</span></span>
+# <a name="prompt-property--dynamic-ado"></a><span data-ttu-id="7d5f3-102">Prompt 属性  动态 (ADO)</span><span class="sxs-lookup"><span data-stu-id="7d5f3-102">Prompt Property--Dynamic (ADO)</span></span>
 
 
-<span data-ttu-id="703a8-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="703a8-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7d5f3-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d5f3-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="703a8-104">指定 OLE DB 提供程序是否应当提示用户输入初始化信息。</span><span class="sxs-lookup"><span data-stu-id="703a8-104">Specifies whether the OLE DB provider should prompt the user for initialization information.</span></span>
+<span data-ttu-id="7d5f3-104">指定 OLE DB 提供程序是否应当提示用户输入初始化信息。</span><span class="sxs-lookup"><span data-stu-id="7d5f3-104">Specifies whether the OLE DB provider should prompt the user for initialization information.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="703a8-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="703a8-105">Settings and Return Values</span></span>
+<span data-ttu-id="7d5f3-105"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="7d5f3-105"><<<<<<< HEAD</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="7d5f3-106">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="7d5f3-106">Settings and Return Values</span></span>
+=======
+## <a name="settings-and-return-values"></a><span data-ttu-id="7d5f3-107">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="7d5f3-107">Settings and return values</span></span>
+>>>>>>> <span data-ttu-id="7d5f3-108">master</span><span class="sxs-lookup"><span data-stu-id="7d5f3-108">master</span></span>
 
-<span data-ttu-id="703a8-106">设置和返回 [ConnectPromptEnum](connectpromptenum.md) 值。</span><span class="sxs-lookup"><span data-stu-id="703a8-106">Sets and returns a [ConnectPromptEnum](connectpromptenum.md) value.</span></span>
+<span data-ttu-id="7d5f3-109">设置和返回 [ConnectPromptEnum](connectpromptenum.md) 值。</span><span class="sxs-lookup"><span data-stu-id="7d5f3-109">Sets and returns a [ConnectPromptEnum](connectpromptenum.md) value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="703a8-107">备注</span><span class="sxs-lookup"><span data-stu-id="703a8-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7d5f3-110">备注</span><span class="sxs-lookup"><span data-stu-id="7d5f3-110">Remarks</span></span>
 
-<span data-ttu-id="703a8-p101">**Prompt** 是一个动态属性，可以由 OLE DB 提供程序追加到 [Connection](connection-object-ado.md) 对象的 [Properties](properties-collection-ado.md) 集合中。若要提示初始化信息，OLE DB 提供程序通常会向用户显示一个对话框。</span><span class="sxs-lookup"><span data-stu-id="703a8-p101">**Prompt** is a dynamic property, which may be appended to the [Connection](connection-object-ado.md) object's [Properties](properties-collection-ado.md) collection by the OLE DB provider. To prompt for initialization information, OLE DB providers will typically display a dialog box to the user.</span></span>
+<span data-ttu-id="7d5f3-p101">**Prompt** 是一个动态属性，可以由 OLE DB 提供程序追加到 [Connection](connection-object-ado.md) 对象的 [Properties](properties-collection-ado.md) 集合中。若要提示初始化信息，OLE DB 提供程序通常会向用户显示一个对话框。</span><span class="sxs-lookup"><span data-stu-id="7d5f3-p101">**Prompt** is a dynamic property, which may be appended to the [Connection](connection-object-ado.md) object's [Properties](properties-collection-ado.md) collection by the OLE DB provider. To prompt for initialization information, OLE DB providers will typically display a dialog box to the user.</span></span>
 
-<span data-ttu-id="703a8-p102">关闭 [Connection](connection-object-ado.md) 时， **Connection** 对象的动态属性将丢失。如果要使用默认值之外的其他值，则必须在重新打开 **Connection** 之前重新设置 **Prompt** 属性。</span><span class="sxs-lookup"><span data-stu-id="703a8-p102">Dynamic properties of a [Connection](connection-object-ado.md) object are lost when the **Connection** is closed. The **Prompt** property must be reset before re-opening the **Connection** to use a value other than the default.</span></span>
+<span data-ttu-id="7d5f3-p102">关闭 [Connection](connection-object-ado.md) 时， **Connection** 对象的动态属性将丢失。如果要使用默认值之外的其他值，则必须在重新打开 **Connection** 之前重新设置 **Prompt** 属性。</span><span class="sxs-lookup"><span data-stu-id="7d5f3-p102">Dynamic properties of a [Connection](connection-object-ado.md) object are lost when the **Connection** is closed. The **Prompt** property must be reset before re-opening the **Connection** to use a value other than the default.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="703a8-p103">[!注释] 不要指定提供程序应在用户无法响应对话框的情况下提示用户。例如，如果应用程序在服务器系统而不是用户客户端上运行，或者应用程序在没有用户登录的系统上运行，用户就无法进行响应。在这些情况下，应用程序将无限期地等待响应，从而表现为似乎已经锁定。</span><span class="sxs-lookup"><span data-stu-id="703a8-p103">Do not specify that the provider should prompt the user in scenarios in which the user will not be able to respond to the dialog box. For example, the user will not be able to respond if the application is running on a server system instead of on the user's client, or if the application is running on a system with no user logged on. In these cases, the application will wait indefinitely for a response and seem to lock up.</span></span></P>
+> <P><span data-ttu-id="7d5f3-p103">[!注释] 不要指定提供程序应在用户无法响应对话框的情况下提示用户。例如，如果应用程序在服务器系统而不是用户客户端上运行，或者应用程序在没有用户登录的系统上运行，用户就无法进行响应。在这些情况下，应用程序将无限期地等待响应，从而表现为似乎已经锁定。</span><span class="sxs-lookup"><span data-stu-id="7d5f3-p103">Do not specify that the provider should prompt the user in scenarios in which the user will not be able to respond to the dialog box. For example, the user will not be able to respond if the application is running on a server system instead of on the user's client, or if the application is running on a system with no user logged on. In these cases, the application will wait indefinitely for a response and seem to lock up.</span></span></P>
 
 
 
-<span data-ttu-id="703a8-115">**用法**</span><span class="sxs-lookup"><span data-stu-id="703a8-115">**Usage**</span></span>
+<span data-ttu-id="7d5f3-118">**用法**</span><span class="sxs-lookup"><span data-stu-id="7d5f3-118">**Usage**</span></span>
 
 ```vb
     Set cn = New Connection

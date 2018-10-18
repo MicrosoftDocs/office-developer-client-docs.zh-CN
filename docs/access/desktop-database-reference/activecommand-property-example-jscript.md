@@ -1,24 +1,18 @@
 ---
-title: ActiveCommand 属性示例 (JScript)
-TOCTitle: ActiveCommand Property Example (JScript)
-ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
-ms:contentKeyID: 48547070
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9d89547e56ddf6aa499a096b5991fc22cbf282e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465921"
+<span data-ttu-id="68c13-101"><<<<<<< 标头标题： ActiveCommand 属性示例 (JScript) TOCTitle: ActiveCommand 属性示例 (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 09/18/ 2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="68c13-101"><<<<<<< HEAD title: ActiveCommand Property Example (JScript) TOCTitle: ActiveCommand Property Example (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="50281-102">ActiveCommand 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="50281-102">ActiveCommand Property Example (JScript)</span></span>
 
+# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="68c13-102">ActiveCommand 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="68c13-102">ActiveCommand Property Example (JScript)</span></span>
 
-<span data-ttu-id="50281-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="50281-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="68c13-103">=== 标题： ActiveCommand 属性示例 (JScript) TOCTitle: ActiveCommand 属性示例 (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 10/17/2018 mtps_version: v =office.15</span><span class="sxs-lookup"><span data-stu-id="68c13-103">======= title: ActiveCommand property example (JScript) TOCTitle: ActiveCommand property example (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
 
-<span data-ttu-id="50281-p101">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActiveCommandJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="50281-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
+# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="68c13-104">ActiveCommand 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="68c13-104">ActiveCommand property example (JScript)</span></span>
+>>>>>>> <span data-ttu-id="68c13-105">master</span><span class="sxs-lookup"><span data-stu-id="68c13-105">master</span></span>
+
+<span data-ttu-id="68c13-106">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="68c13-106">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="68c13-p101">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActiveCommandJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="68c13-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveCommandJS --> 
@@ -34,7 +28,11 @@ ms.locfileid: "25465921"
 <html> 
  
 <head> 
+<<<<<<< HEAD
 <title>ActiveCommand Property Example (JScript)</title> 
+=======
+<title>ActiveCommand property example (JScript)</title> 
+>>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -48,7 +46,11 @@ BODY {
  
 <body bgcolor="White"> 
  
+<<<<<<< HEAD
 <h1>ActiveCommand Property Example (JScript)</h1> 
+=======
+<h1>ActiveCommand property example (JScript)</h1> 
+>>>>>>> master
  
 <% 
 if (strName.length > 0) 

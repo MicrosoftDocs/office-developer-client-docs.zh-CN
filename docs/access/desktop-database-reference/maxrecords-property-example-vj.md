@@ -1,24 +1,18 @@
 ---
-title: MaxRecords 属性示例 (VJ++)
-TOCTitle: MaxRecords Property Example (VJ++)
-ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15)
-ms:contentKeyID: 48548106
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7571950094da5c09df360e0cb80a4c056b252960
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466730"
+<span data-ttu-id="079a3-101"><<<<<<< 标头标题： MaxRecords 属性示例 （VJ + +） TOCTitle: MaxRecords 属性示例 （VJ + +） === 标题： MaxRecords 属性示例 （VJ + +） TOCTitle: MaxRecords 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="079a3-101"><<<<<<< HEAD title: MaxRecords Property Example (VJ++) TOCTitle: MaxRecords Property Example (VJ++) ======= title: MaxRecords property example (VJ++) TOCTitle: MaxRecords property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="079a3-102">母版页 ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15) ms:contentKeyID: 48548106 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="079a3-102">master ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15) ms:contentKeyID: 48548106 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="39d3d-102">MaxRecords 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="39d3d-102">MaxRecords Property Example (VJ++)</span></span>
+
+<span data-ttu-id="079a3-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="079a3-103"><<<<<<< HEAD</span></span>
+# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="079a3-104">MaxRecords 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="079a3-104">MaxRecords Property Example (VJ++)</span></span>
+=======
+# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="079a3-105">MaxRecords 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="079a3-105">MaxRecords property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="079a3-106">master</span><span class="sxs-lookup"><span data-stu-id="079a3-106">master</span></span>
 
 
-<span data-ttu-id="39d3d-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="39d3d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="079a3-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="079a3-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="39d3d-104">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="39d3d-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="079a3-108">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="079a3-108">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```java 
  

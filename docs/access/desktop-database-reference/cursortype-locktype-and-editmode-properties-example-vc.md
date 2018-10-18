@@ -1,24 +1,18 @@
 ---
-title: CursorType、LockType 和 EditMode 属性示例 (VC++)
-TOCTitle: CursorType, LockType, and EditMode Properties Example (VC++)
-ms:assetid: edbc4625-5013-cfcd-d709-ac8a85fe17b4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250205(v=office.15)
-ms:contentKeyID: 48548545
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 035db68d43cd19f3b19fc392760ffe46f4f4c9d7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467613"
+<span data-ttu-id="11f6e-101"><<<<<<< 标头标题： CursorType、 LockType 和 EditMode 属性示例 （VC + +） TOCTitle: CursorType、 LockType 和 EditMode 属性示例 （VC + +） === 标题： CursorType、 LockType 和 EditMode 属性示例 （VC + +）TOCTitle: CursorType、 LockType 和 EditMode 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="11f6e-101"><<<<<<< HEAD title: CursorType, LockType, and EditMode Properties Example (VC++) TOCTitle: CursorType, LockType, and EditMode Properties Example (VC++) ======= title: CursorType, LockType, and EditMode properties example (VC++) TOCTitle: CursorType, LockType, and EditMode properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="11f6e-102">母版页 ms:assetid: edbc4625-5013-cfcd-d709-ac8a85fe17b4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250205(v=office.15) ms:contentKeyID: 48548545 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="11f6e-102">master ms:assetid: edbc4625-5013-cfcd-d709-ac8a85fe17b4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250205(v=office.15) ms:contentKeyID: 48548545 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="cursortype-locktype-and-editmode-properties-example-vc"></a><span data-ttu-id="61010-102">CursorType、LockType 和 EditMode 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="61010-102">CursorType, LockType, and EditMode Properties Example (VC++)</span></span>
+
+<span data-ttu-id="11f6e-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="11f6e-103"><<<<<<< HEAD</span></span>
+# <a name="cursortype-locktype-and-editmode-properties-example-vc"></a><span data-ttu-id="11f6e-104">CursorType、LockType 和 EditMode 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="11f6e-104">CursorType, LockType, and EditMode Properties Example (VC++)</span></span>
+=======
+# <a name="cursortype-locktype-and-editmode-properties-example-vc"></a><span data-ttu-id="11f6e-105">CursorType、 LockType 和 EditMode 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="11f6e-105">CursorType, LockType, and EditMode properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="11f6e-106">master</span><span class="sxs-lookup"><span data-stu-id="11f6e-106">master</span></span>
 
 
-<span data-ttu-id="61010-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="61010-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="11f6e-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="11f6e-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="61010-p101">此示例演示如何在打开 [Recordset](cursortype-property-ado.md) 前设置 [CursorType](locktype-property-ado.md) 和 [LockType](recordset-object-ado.md) 属性。它还演示在各种情况下 [EditMode](editmode-property-ado.md) 属性的值。若要运行此过程，必须使用 EditModeOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="61010-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The EditModeOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="11f6e-p101">此示例演示如何在打开 [Recordset](cursortype-property-ado.md) 前设置 [CursorType](locktype-property-ado.md) 和 [LockType](recordset-object-ado.md) 属性。它还演示在各种情况下 [EditMode](editmode-property-ado.md) 属性的值。若要运行此过程，必须使用 EditModeOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="11f6e-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The EditModeOutput function is required for this procedure to run.</span></span>
 
 ```cpp 
  

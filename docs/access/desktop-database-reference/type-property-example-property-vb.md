@@ -1,26 +1,20 @@
 ---
-title: Type 属性示例（属性）(VB)
-TOCTitle: Type Property Example (Property) (VB)
-ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15)
-ms:contentKeyID: 48547209
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2b99729b4826f25aa8b5f32475ad4b3f0921e849
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466636"
+<span data-ttu-id="35524-101"><<<<<<< 标头标题： Type 属性示例 （属性） (VB) TOCTitle: Type 属性示例 （属性） (VB) === 标题： Type 属性示例 （属性） (VB) TOCTitle: Type 属性示例 （属性） (VB)</span><span class="sxs-lookup"><span data-stu-id="35524-101"><<<<<<< HEAD title: Type Property Example (Property) (VB) TOCTitle: Type Property Example (Property) (VB) ======= title: Type property example (Property) (VB) TOCTitle: Type property example (Property) (VB)</span></span>
+>>>>>>> <span data-ttu-id="35524-102">母版页 ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15) ms:contentKeyID: 48547209 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="35524-102">master ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15) ms:contentKeyID: 48547209 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="type-property-example-property-vb"></a><span data-ttu-id="3093f-102">Type 属性示例（属性）(VB)</span><span class="sxs-lookup"><span data-stu-id="3093f-102">Type Property Example (Property) (VB)</span></span>
+
+<span data-ttu-id="35524-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="35524-103"><<<<<<< HEAD</span></span>
+# <a name="type-property-example-property-vb"></a><span data-ttu-id="35524-104">Type 属性示例（属性）(VB)</span><span class="sxs-lookup"><span data-stu-id="35524-104">Type Property Example (Property) (VB)</span></span>
+=======
+# <a name="type-property-example-property-vb"></a><span data-ttu-id="35524-105">Type 属性示例 （属性） (VB)</span><span class="sxs-lookup"><span data-stu-id="35524-105">Type property example (Property) (VB)</span></span>
+>>>>>>> <span data-ttu-id="35524-106">master</span><span class="sxs-lookup"><span data-stu-id="35524-106">master</span></span>
 
 
-<span data-ttu-id="3093f-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="3093f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="35524-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="35524-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="3093f-p101">本示例演示 [Type](type-property-ado.md) 属性。该示例是列出集合的名称和类型（如 [Properties](properties-collection-ado.md)、[Fields](fields-collection-ado.md) 等）的实用程序模型。</span><span class="sxs-lookup"><span data-stu-id="3093f-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
+<span data-ttu-id="35524-p101">本示例演示 [Type](type-property-ado.md) 属性。该示例是列出集合的名称和类型（如 [Properties](properties-collection-ado.md)、[Fields](fields-collection-ado.md) 等）的实用程序模型。</span><span class="sxs-lookup"><span data-stu-id="35524-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
 
-<span data-ttu-id="3093f-p102">无需打开 [Recordset](recordset-object-ado.md) 即可访问其 **Properties** 集合；实例化 **Recordset** 对象时该集合即存在。然而，将 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** 将向 **Recordset** 对象的 **Properties** 集合添加一些动态属性，这使得本示例更具趣味性。为便于说明，我们将显式地使用 [Item](item-property-ado.md) 属性访问每个 [Property](property-object-ado.md) 对象。</span><span class="sxs-lookup"><span data-stu-id="3093f-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
+<span data-ttu-id="35524-p102">无需打开 [Recordset](recordset-object-ado.md) 即可访问其 **Properties** 集合；实例化 **Recordset** 对象时该集合即存在。然而，将 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** 将向 **Recordset** 对象的 **Properties** 集合添加一些动态属性，这使得本示例更具趣味性。为便于说明，我们将显式地使用 [Item](item-property-ado.md) 属性访问每个 [Property](property-object-ado.md) 对象。</span><span class="sxs-lookup"><span data-stu-id="35524-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
 
 ```vb 
  

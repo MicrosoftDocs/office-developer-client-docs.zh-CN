@@ -10,28 +10,28 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 039da9aeb6166b25b0800533f50aa7ec5053c3c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2464426bc7178638e8ebbfc9f5b2f6d1d1b61ca2
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465566"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602585"
 ---
-# <a name="dbenginecreateworkspace-method-dao"></a><span data-ttu-id="bcde3-102">DBEngine.CreateWorkspace Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="bcde3-102">DBEngine.CreateWorkspace Method (DAO)</span></span>
+# <a name="dbenginecreateworkspace-method-dao"></a><span data-ttu-id="fc8d1-102">DBEngine.CreateWorkspace Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc8d1-102">DBEngine.CreateWorkspace Method (DAO)</span></span>
 
 
-<span data-ttu-id="bcde3-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="bcde3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fc8d1-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc8d1-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
 
-<span data-ttu-id="bcde3-104">创建新的 **[Workspace](workspace-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="bcde3-104">Creates a new **[Workspace](workspace-object-dao.md)** object.</span></span>
+<span data-ttu-id="fc8d1-104">创建新的 **[Workspace](workspace-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-104">Creates a new **[Workspace](workspace-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bcde3-105">语法</span><span class="sxs-lookup"><span data-stu-id="bcde3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fc8d1-105">语法</span><span class="sxs-lookup"><span data-stu-id="fc8d1-105">Syntax</span></span>
 
-<span data-ttu-id="bcde3-106">*表达式*。CreateWorkspace （***名称***、***用户名***、***密码***、 ***UseType***）</span><span class="sxs-lookup"><span data-stu-id="bcde3-106">*expression* .CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span></span>
+<span data-ttu-id="fc8d1-106">*表达式*。CreateWorkspace （***名称***、***用户名***、***密码***、 ***UseType***）</span><span class="sxs-lookup"><span data-stu-id="fc8d1-106">*expression* .CreateWorkspace(***Name***, ***UserName***, ***Password***, ***UseType***)</span></span>
 
-<span data-ttu-id="bcde3-107">*表达式*一个代表**DBEngine**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="bcde3-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="fc8d1-107">*表达式*一个代表**DBEngine**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="bcde3-108">参数</span><span class="sxs-lookup"><span data-stu-id="bcde3-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="fc8d1-108">参数</span><span class="sxs-lookup"><span data-stu-id="fc8d1-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -42,45 +42,45 @@ ms.locfileid: "25465566"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="bcde3-109">名称</span><span class="sxs-lookup"><span data-stu-id="bcde3-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="bcde3-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="bcde3-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="bcde3-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="bcde3-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="bcde3-112">说明</span><span class="sxs-lookup"><span data-stu-id="bcde3-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="fc8d1-109">名称</span><span class="sxs-lookup"><span data-stu-id="fc8d1-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="fc8d1-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="fc8d1-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="fc8d1-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="fc8d1-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="fc8d1-112">说明</span><span class="sxs-lookup"><span data-stu-id="fc8d1-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bcde3-113">名称</span><span class="sxs-lookup"><span data-stu-id="bcde3-113">Name</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-114">必需</span><span class="sxs-lookup"><span data-stu-id="bcde3-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-115"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="bcde3-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="bcde3-p101">一个 <strong>String</strong>，对新的 <strong>Workspace</strong> 对象进行唯一命名。有关有效 <strong>Workspace</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="bcde3-p101">A <strong>String</strong> that uniquely names the new <strong>Workspace</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Workspace</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-113">名称</span><span class="sxs-lookup"><span data-stu-id="fc8d1-113">Name</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-114">必需</span><span class="sxs-lookup"><span data-stu-id="fc8d1-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-115"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="fc8d1-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-p101">一个 <strong>String</strong>，对新的 <strong>Workspace</strong> 对象进行唯一命名。有关有效 <strong>Workspace</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-p101">A <strong>String</strong> that uniquely names the new <strong>Workspace</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Workspace</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bcde3-118">UserName</span><span class="sxs-lookup"><span data-stu-id="bcde3-118">UserName</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-119">必需</span><span class="sxs-lookup"><span data-stu-id="bcde3-119">Required</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-120"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="bcde3-120"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="bcde3-p102">一个 <strong>String</strong> 类型的值，用于标识新的 <strong>Workspace</strong> 对象的所有者。有关详细信息，请参阅 <strong>UserName</strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="bcde3-p102">A <strong>String</strong> that identifies the owner of the new <strong>Workspace</strong> object. See the <strong>UserName</strong> property for more information.</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-118">UserName</span><span class="sxs-lookup"><span data-stu-id="fc8d1-118">UserName</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-119">必需</span><span class="sxs-lookup"><span data-stu-id="fc8d1-119">Required</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-120"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="fc8d1-120"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-p102">一个 <strong>String</strong> 类型的值，用于标识新的 <strong>Workspace</strong> 对象的所有者。有关详细信息，请参阅 <strong>UserName</strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-p102">A <strong>String</strong> that identifies the owner of the new <strong>Workspace</strong> object. See the <strong>UserName</strong> property for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bcde3-123">Password</span><span class="sxs-lookup"><span data-stu-id="bcde3-123">Password</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-124">必需</span><span class="sxs-lookup"><span data-stu-id="bcde3-124">Required</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-125"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="bcde3-125"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="bcde3-126">包含新的<strong>Workspace</strong>对象的密码的<strong>字符串</strong>。</span><span class="sxs-lookup"><span data-stu-id="bcde3-126">A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="bcde3-127">密码长度最多为 20 个字符，并且可以包括除 ASCII 字符 0 (null) 的任何字符。</span><span class="sxs-lookup"><span data-stu-id="bcde3-127">The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</span></span></p>
+<td><p><span data-ttu-id="fc8d1-123">Password</span><span class="sxs-lookup"><span data-stu-id="fc8d1-123">Password</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-124">必需</span><span class="sxs-lookup"><span data-stu-id="fc8d1-124">Required</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-125"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="fc8d1-125"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-126">包含新的<strong>Workspace</strong>对象的密码的<strong>字符串</strong>。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-126">A <strong>String</strong> containing the password for the new <strong>Workspace</strong> object.</span></span> <span data-ttu-id="fc8d1-127">密码长度最多为 20 个字符，并且可以包括除 ASCII 字符 0 (null) 的任何字符。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-127">The password can be up to 20 characters long and can include any characters except ASCII character 0 (null).</span></span></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="bcde3-p104">[!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。</span><span class="sxs-lookup"><span data-stu-id="bcde3-p104">Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</span></span></P>
+> <P><span data-ttu-id="fc8d1-p104">[!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-p104">Use strong passwords that combine upper- and lowercase letters, numbers, and symbols. Weak passwords don't mix these elements. Strong password: Y6dh!et5. Weak password: House27. Use a strong password that you can remember so that you don't have to write it down.</span></span></P>
 
 
 </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bcde3-133">UseType</span><span class="sxs-lookup"><span data-stu-id="bcde3-133">UseType</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-134">可选</span><span class="sxs-lookup"><span data-stu-id="bcde3-134">Optional</span></span></p></td>
-<td><p><span data-ttu-id="bcde3-135"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bcde3-135"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="bcde3-136"><strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong>值之一。</span><span class="sxs-lookup"><span data-stu-id="bcde3-136">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
+<td><p><span data-ttu-id="fc8d1-133">UseType</span><span class="sxs-lookup"><span data-stu-id="fc8d1-133">UseType</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-134">可选</span><span class="sxs-lookup"><span data-stu-id="fc8d1-134">Optional</span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-135"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="fc8d1-135"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="fc8d1-136"><strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong>值之一。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-136">One of the <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> values.</span></span></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="bcde3-137">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="bcde3-137">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="bcde3-138">Type 参数设置为<STRONG>dbUseODBC</STRONG>将导致运行时错误。</span><span class="sxs-lookup"><span data-stu-id="bcde3-138">Setting the type argument to <STRONG>dbUseODBC</STRONG> will result in a run-time error.</span></span> <span data-ttu-id="bcde3-139">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="bcde3-139">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="fc8d1-137">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-137">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="fc8d1-138">Type 参数设置为<STRONG>dbUseODBC</STRONG>将导致运行时错误。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-138">Setting the type argument to <STRONG>dbUseODBC</STRONG> will result in a run-time error.</span></span> <span data-ttu-id="fc8d1-139">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-139">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
 </td>
@@ -89,23 +89,27 @@ ms.locfileid: "25465566"
 </table>
 
 
-### <a name="return-value"></a><span data-ttu-id="bcde3-140">返回值</span><span class="sxs-lookup"><span data-stu-id="bcde3-140">Return Value</span></span>
+<span data-ttu-id="fc8d1-140"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="fc8d1-140"><<<<<<< HEAD</span></span>
+### <a name="return-value"></a><span data-ttu-id="fc8d1-141">返回值</span><span class="sxs-lookup"><span data-stu-id="fc8d1-141">Return Value</span></span>
+=======
+### <a name="return-value"></a><span data-ttu-id="fc8d1-142">返回值</span><span class="sxs-lookup"><span data-stu-id="fc8d1-142">Return value</span></span>
+>>>>>>> <span data-ttu-id="fc8d1-143">master</span><span class="sxs-lookup"><span data-stu-id="fc8d1-143">master</span></span>
 
-<span data-ttu-id="bcde3-141">Workspace</span><span class="sxs-lookup"><span data-stu-id="bcde3-141">Workspace</span></span>
+<span data-ttu-id="fc8d1-144">Workspace</span><span class="sxs-lookup"><span data-stu-id="fc8d1-144">Workspace</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="bcde3-142">注解</span><span class="sxs-lookup"><span data-stu-id="bcde3-142">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc8d1-145">注解</span><span class="sxs-lookup"><span data-stu-id="fc8d1-145">Remarks</span></span>
 
-<span data-ttu-id="bcde3-143">一旦使用 **CreateWorkspace** 方法来创建新的 **Workspace** 对象，将启动一个 **Workspace** 会话，并且您可以在应用程序中引用该 **Workspace** 对象。</span><span class="sxs-lookup"><span data-stu-id="bcde3-143">Once you use the **CreateWorkspace** method to create a new **Workspace** object, a **Workspace** session is started, and you can refer to the **Workspace** object in your application.</span></span>
+<span data-ttu-id="fc8d1-146">一旦使用 **CreateWorkspace** 方法来创建新的 **Workspace** 对象，将启动一个 **Workspace** 会话，并且您可以在应用程序中引用该 **Workspace** 对象。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-146">Once you use the **CreateWorkspace** method to create a new **Workspace** object, a **Workspace** session is started, and you can refer to the **Workspace** object in your application.</span></span>
 
-<span data-ttu-id="bcde3-p106">**Workspace** 对象不是永久性的，不能保存到磁盘中。一旦创建了 **Workspace** 对象，就不能改动此对象的任何属性设置，但在将 **Workspace** 对象追加到 [**Workspaces**](workspaces-collection-dao.md) 集合之前，可以修改 **Name** 属性。</span><span class="sxs-lookup"><span data-stu-id="bcde3-p106">**Workspace** objects aren't permanent, and you can't save them to disk. Once you create a **Workspace** object, you can't alter any of its property settings, except for the **Name** property, which you can modify before appending the **Workspace** object to the **[Workspaces](workspaces-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="fc8d1-p106">**Workspace** 对象不是永久性的，不能保存到磁盘中。一旦创建了 **Workspace** 对象，就不能改动此对象的任何属性设置，但在将 **Workspace** 对象追加到 [**Workspaces**](workspaces-collection-dao.md) 集合之前，可以修改 **Name** 属性。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-p106">**Workspace** objects aren't permanent, and you can't save them to disk. Once you create a **Workspace** object, you can't alter any of its property settings, except for the **Name** property, which you can modify before appending the **Workspace** object to the **[Workspaces](workspaces-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="bcde3-p107">您不必将新的 **Workspace** 对象追加到集合就可以使用该对象。仅当需要通过 **Workspaces** 集合引用新创建的 **Workspace** 对象时，才需要追加该对象。</span><span class="sxs-lookup"><span data-stu-id="bcde3-p107">You don't have to append the new **Workspace** object to a collection before you can use it. You append a newly created **Workspace** object only if you need to refer to it through the **Workspaces** collection.</span></span>
+<span data-ttu-id="fc8d1-p107">您不必将新的 **Workspace** 对象追加到集合就可以使用该对象。仅当需要通过 **Workspaces** 集合引用新创建的 **Workspace** 对象时，才需要追加该对象。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-p107">You don't have to append the new **Workspace** object to a collection before you can use it. You append a newly created **Workspace** object only if you need to refer to it through the **Workspaces** collection.</span></span>
 
-<span data-ttu-id="bcde3-148">要从 **Workspaces** 集合中删除 **Workspace** 对象，请关闭所有打开的数据库和连接，然后对 [Workspace](connection-close-method-dao.md) 对象使用 \*\*\*\*Close\*\*\*\* 方法。</span><span class="sxs-lookup"><span data-stu-id="bcde3-148">To remove a **Workspace** object from the **Workspaces** collection, close all open databases and connections and then use the **[Close](connection-close-method-dao.md)** method on the **Workspace** object.</span></span>
+<span data-ttu-id="fc8d1-151">要从 **Workspaces** 集合中删除 **Workspace** 对象，请关闭所有打开的数据库和连接，然后对 [Workspace](connection-close-method-dao.md) 对象使用 \*\*\*\*Close\*\*\*\* 方法。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-151">To remove a **Workspace** object from the **Workspaces** collection, close all open databases and connections and then use the **[Close](connection-close-method-dao.md)** method on the **Workspace** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="bcde3-149">示例</span><span class="sxs-lookup"><span data-stu-id="bcde3-149">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fc8d1-152">示例</span><span class="sxs-lookup"><span data-stu-id="fc8d1-152">Example</span></span>
 
-<span data-ttu-id="bcde3-p108">以下示例使用 **CreateWorkspace** 方法创建 Microsoft Access 工作区，并随后列出该工作区的属性。</span><span class="sxs-lookup"><span data-stu-id="bcde3-p108">This example uses the **CreateWorkspace** method to createMicrosoft Access workspace. It then lists the properties of the workspace.</span></span>
+<span data-ttu-id="fc8d1-p108">以下示例使用 **CreateWorkspace** 方法创建 Microsoft Access 工作区，并随后列出该工作区的属性。</span><span class="sxs-lookup"><span data-stu-id="fc8d1-p108">This example uses the **CreateWorkspace** method to createMicrosoft Access workspace. It then lists the properties of the workspace.</span></span>
 
 ```vb 
 Sub CreateWorkspaceX() 

@@ -1,26 +1,20 @@
 ---
-title: ActiveCommand 属性示例 (VJ++)
-TOCTitle: ActiveCommand Property Example (VJ++)
-ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15)
-ms:contentKeyID: 48548415
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 556bf57b1f6ebb27bf1119d0b4962d16aa38c2c6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468642"
+<span data-ttu-id="84978-101"><<<<<<< 标头标题： ActiveCommand 属性示例 （VJ + +） TOCTitle: ActiveCommand 属性示例 （VJ + +） ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 09/18/2015年mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="84978-101"><<<<<<< HEAD title: ActiveCommand Property Example (VJ++) TOCTitle: ActiveCommand Property Example (VJ++) ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="activecommand-property-example-vj"></a><span data-ttu-id="94379-102">ActiveCommand 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="94379-102">ActiveCommand Property Example (VJ++)</span></span>
 
+# <a name="activecommand-property-example-vj"></a><span data-ttu-id="84978-102">ActiveCommand 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="84978-102">ActiveCommand Property Example (VJ++)</span></span>
 
-<span data-ttu-id="94379-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="94379-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="84978-103">=== 标题： ActiveCommand 属性示例 （VJ + +） TOCTitle: ActiveCommand 属性示例 （VJ + +） ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 10/17/2018 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="84978-103">======= title: ActiveCommand property example (VJ++) TOCTitle: ActiveCommand property example (VJ++) ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
 
-<span data-ttu-id="94379-104">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="94379-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+# <a name="activecommand-property-example-vj"></a><span data-ttu-id="84978-104">ActiveCommand 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="84978-104">ActiveCommand property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="84978-105">master</span><span class="sxs-lookup"><span data-stu-id="84978-105">master</span></span>
 
-<span data-ttu-id="94379-105">将向子例程提供一个 [Recordset](recordset-object-ado.md) 对象，该对象的 **ActiveCommand** 属性用于显示创建 **Recordset** 的命令文本和参数。</span><span class="sxs-lookup"><span data-stu-id="94379-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="84978-106">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="84978-106">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="84978-107">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="84978-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+
+<span data-ttu-id="84978-108">将向子例程提供一个 [Recordset](recordset-object-ado.md) 对象，该对象的 **ActiveCommand** 属性用于显示创建 **Recordset** 的命令文本和参数。</span><span class="sxs-lookup"><span data-stu-id="84978-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```java 
  

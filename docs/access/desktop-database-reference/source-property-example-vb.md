@@ -1,24 +1,18 @@
 ---
-title: Source 属性示例 (VB)
-TOCTitle: Source Property Example (VB)
-ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
-ms:contentKeyID: 48545885
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6e430f7148df45e22a09c60332dde5d8b45713c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467844"
+<span data-ttu-id="4adf5-101"><<<<<<< 标头标题： 源属性示例 (VB) TOCTitle： 源属性示例 (VB) === 标题： Source 属性示例 (VB) TOCTitle: Source 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="4adf5-101"><<<<<<< HEAD title: Source Property Example (VB) TOCTitle: Source Property Example (VB) ======= title: Source property example (VB) TOCTitle: Source property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="4adf5-102">母版页 ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: 48545885 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="4adf5-102">master ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID: 48545885 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="source-property-example-vb"></a><span data-ttu-id="c6e97-102">Source 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="c6e97-102">Source Property Example (VB)</span></span>
+
+<span data-ttu-id="4adf5-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="4adf5-103"><<<<<<< HEAD</span></span>
+# <a name="source-property-example-vb"></a><span data-ttu-id="4adf5-104">Source 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="4adf5-104">Source Property Example (VB)</span></span>
+=======
+# <a name="source-property-example-vb"></a><span data-ttu-id="4adf5-105">Source 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="4adf5-105">Source property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="4adf5-106">master</span><span class="sxs-lookup"><span data-stu-id="4adf5-106">master</span></span>
 
 
-<span data-ttu-id="c6e97-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c6e97-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4adf5-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="4adf5-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c6e97-104">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="c6e97-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="4adf5-108">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="4adf5-108">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```vb 
  

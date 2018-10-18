@@ -6,27 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
 ms:contentKeyID: 48548367
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34f6aa2ddd052a9a9ea885c76b5f62b825e8a9e5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 25c52cf132cdc2c85671a4589e45c5989e504b8b
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465584"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607030"
 ---
-# <a name="recordset2getrows-method-dao"></a><span data-ttu-id="1de8d-102">Recordset2.GetRows Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="1de8d-102">Recordset2.GetRows Method (DAO)</span></span>
+# <a name="recordset2getrows-method-dao"></a><span data-ttu-id="317b4-102">Recordset2.GetRows Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="317b4-102">Recordset2.GetRows Method (DAO)</span></span>
 
 
-<span data-ttu-id="1de8d-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1de8d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="317b4-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="317b4-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="1de8d-104">检索 **[Recordset](recordset-object-dao.md)** 对象中的多行。</span><span class="sxs-lookup"><span data-stu-id="1de8d-104">Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="317b4-104">检索 **[Recordset](recordset-object-dao.md)** 对象中的多行。</span><span class="sxs-lookup"><span data-stu-id="317b4-104">Retrieves multiple rows from a **[Recordset](recordset-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1de8d-105">语法</span><span class="sxs-lookup"><span data-stu-id="1de8d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="317b4-105">语法</span><span class="sxs-lookup"><span data-stu-id="317b4-105">Syntax</span></span>
 
-<span data-ttu-id="1de8d-106">*表达式*。GetRows (***NumRows***)</span><span class="sxs-lookup"><span data-stu-id="1de8d-106">*expression* .GetRows(***NumRows***)</span></span>
+<span data-ttu-id="317b4-106">*表达式*。GetRows (***NumRows***)</span><span class="sxs-lookup"><span data-stu-id="317b4-106">*expression* .GetRows(***NumRows***)</span></span>
 
-<span data-ttu-id="1de8d-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="1de8d-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="317b4-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="317b4-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="1de8d-108">参数</span><span class="sxs-lookup"><span data-stu-id="1de8d-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="317b4-108">参数</span><span class="sxs-lookup"><span data-stu-id="317b4-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,58 +37,62 @@ ms.locfileid: "25465584"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1de8d-109">名称</span><span class="sxs-lookup"><span data-stu-id="1de8d-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="1de8d-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="1de8d-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="1de8d-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="1de8d-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="1de8d-112">说明</span><span class="sxs-lookup"><span data-stu-id="1de8d-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="317b4-109">名称</span><span class="sxs-lookup"><span data-stu-id="317b4-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="317b4-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="317b4-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="317b4-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="317b4-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="317b4-112">说明</span><span class="sxs-lookup"><span data-stu-id="317b4-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1de8d-113">NumRows</span><span class="sxs-lookup"><span data-stu-id="1de8d-113">NumRows</span></span></p></td>
-<td><p><span data-ttu-id="1de8d-114">可选</span><span class="sxs-lookup"><span data-stu-id="1de8d-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1de8d-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1de8d-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1de8d-116">要检索的行数。</span><span class="sxs-lookup"><span data-stu-id="1de8d-116">The number of rows to retrieve.</span></span></p></td>
+<td><p><span data-ttu-id="317b4-113">NumRows</span><span class="sxs-lookup"><span data-stu-id="317b4-113">NumRows</span></span></p></td>
+<td><p><span data-ttu-id="317b4-114">可选</span><span class="sxs-lookup"><span data-stu-id="317b4-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="317b4-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="317b4-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="317b4-116">要检索的行数。</span><span class="sxs-lookup"><span data-stu-id="317b4-116">The number of rows to retrieve.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a><span data-ttu-id="1de8d-117">返回值</span><span class="sxs-lookup"><span data-stu-id="1de8d-117">Return Value</span></span>
+<span data-ttu-id="317b4-117"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="317b4-117"><<<<<<< HEAD</span></span>
+### <a name="return-value"></a><span data-ttu-id="317b4-118">返回值</span><span class="sxs-lookup"><span data-stu-id="317b4-118">Return Value</span></span>
+=======
+### <a name="return-value"></a><span data-ttu-id="317b4-119">返回值</span><span class="sxs-lookup"><span data-stu-id="317b4-119">Return value</span></span>
+>>>>>>> <span data-ttu-id="317b4-120">master</span><span class="sxs-lookup"><span data-stu-id="317b4-120">master</span></span>
 
-<span data-ttu-id="1de8d-118">Variant</span><span class="sxs-lookup"><span data-stu-id="1de8d-118">Variant</span></span>
+<span data-ttu-id="317b4-121">Variant</span><span class="sxs-lookup"><span data-stu-id="317b4-121">Variant</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1de8d-119">说明</span><span class="sxs-lookup"><span data-stu-id="1de8d-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="317b4-122">说明</span><span class="sxs-lookup"><span data-stu-id="317b4-122">Remarks</span></span>
 
-<span data-ttu-id="1de8d-p101">使用 **GetRows** 方法从 **Recordset** 复制记录。**GetRows** 返回二维数组。第一个下标标识字段，第二个下标标识行号。例如，intField 表示字段，intRecord 标识行号：</span><span class="sxs-lookup"><span data-stu-id="1de8d-p101">Use the **GetRows** method to copy records from a **Recordset**. **GetRows** returns a two-dimensional array. The first subscript identifies the field and the second identifies the row number. For example, intField represents the field, and intRecord identifies the row number:</span></span>
+<span data-ttu-id="317b4-p101">使用 **GetRows** 方法从 **Recordset** 复制记录。**GetRows** 返回二维数组。第一个下标标识字段，第二个下标标识行号。例如，intField 表示字段，intRecord 标识行号：</span><span class="sxs-lookup"><span data-stu-id="317b4-p101">Use the **GetRows** method to copy records from a **Recordset**. **GetRows** returns a two-dimensional array. The first subscript identifies the field and the second identifies the row number. For example, intField represents the field, and intRecord identifies the row number:</span></span>
 
-<span data-ttu-id="1de8d-124">（intField、 intRecord） 后，avarRecords</span><span class="sxs-lookup"><span data-stu-id="1de8d-124">avarRecords(intField, intRecord)</span></span>
+<span data-ttu-id="317b4-127">（intField、 intRecord） 后，avarRecords</span><span class="sxs-lookup"><span data-stu-id="317b4-127">avarRecords(intField, intRecord)</span></span>
 
-<span data-ttu-id="1de8d-125">若要获取返回的第二行中的第一个字段值，请使用类似如下的代码：</span><span class="sxs-lookup"><span data-stu-id="1de8d-125">To get the first field value in the second row returned, use code like the following:</span></span>
+<span data-ttu-id="317b4-128">若要获取返回的第二行中的第一个字段值，请使用类似如下的代码：</span><span class="sxs-lookup"><span data-stu-id="317b4-128">To get the first field value in the second row returned, use code like the following:</span></span>
 
-<span data-ttu-id="1de8d-126">field1 = avarRecords(0,1)</span><span class="sxs-lookup"><span data-stu-id="1de8d-126">field1 = avarRecords(0,1)</span></span>
+<span data-ttu-id="317b4-129">field1 = avarRecords(0,1)</span><span class="sxs-lookup"><span data-stu-id="317b4-129">field1 = avarRecords(0,1)</span></span>
 
-<span data-ttu-id="1de8d-127">若要获取第一行中的第二个字段值，请使用类似如下的代码：</span><span class="sxs-lookup"><span data-stu-id="1de8d-127">To get the second field value in the first row, use code like the following:</span></span>
+<span data-ttu-id="317b4-130">若要获取第一行中的第二个字段值，请使用类似如下的代码：</span><span class="sxs-lookup"><span data-stu-id="317b4-130">To get the second field value in the first row, use code like the following:</span></span>
 
-<span data-ttu-id="1de8d-128">field2 = avarRecords(1,0)</span><span class="sxs-lookup"><span data-stu-id="1de8d-128">field2 = avarRecords(1,0)</span></span>
+<span data-ttu-id="317b4-131">field2 = avarRecords(1,0)</span><span class="sxs-lookup"><span data-stu-id="317b4-131">field2 = avarRecords(1,0)</span></span>
 
-<span data-ttu-id="1de8d-129">**GetRows** 返回数据后，avarRecords 变量自动成为二维数组。</span><span class="sxs-lookup"><span data-stu-id="1de8d-129">The avarRecords variable automatically becomes a two-dimensional array when **GetRows** returns data.</span></span>
+<span data-ttu-id="317b4-132">**GetRows** 返回数据后，avarRecords 变量自动成为二维数组。</span><span class="sxs-lookup"><span data-stu-id="317b4-132">The avarRecords variable automatically becomes a two-dimensional array when **GetRows** returns data.</span></span>
 
-<span data-ttu-id="1de8d-130">如果请求的行数多于可用行数，则 **GetRows** 仅返回可用行的数目。</span><span class="sxs-lookup"><span data-stu-id="1de8d-130">If you request more rows than are available, then **GetRows** returns only the number of available rows.</span></span> <span data-ttu-id="1de8d-131">由于数组的大小进行了调整以适合返回的行数，因此可以使用 Visual Basic for Applications **UBound** 函数确定 **GetRows** 实际上检索了多少行。</span><span class="sxs-lookup"><span data-stu-id="1de8d-131">You can use the Visual Basic for Applications **UBound** function to determine how many rows **GetRows** actually retrieved, because the array is sized to fit the number of returned rows.</span></span> <span data-ttu-id="1de8d-132">例如，如果将结果返回到**Variant**调用 varA 时，您可以使用下面的代码来确定实际返回多少行：</span><span class="sxs-lookup"><span data-stu-id="1de8d-132">For example, if you returned the results into a **Variant** called varA, you could use the following code to determine how many rows were actually returned:</span></span>
+<span data-ttu-id="317b4-133">如果请求的行数多于可用行数，则 **GetRows** 仅返回可用行的数目。</span><span class="sxs-lookup"><span data-stu-id="317b4-133">If you request more rows than are available, then **GetRows** returns only the number of available rows.</span></span> <span data-ttu-id="317b4-134">由于数组的大小进行了调整以适合返回的行数，因此可以使用 Visual Basic for Applications **UBound** 函数确定 **GetRows** 实际上检索了多少行。</span><span class="sxs-lookup"><span data-stu-id="317b4-134">You can use the Visual Basic for Applications **UBound** function to determine how many rows **GetRows** actually retrieved, because the array is sized to fit the number of returned rows.</span></span> <span data-ttu-id="317b4-135">例如，如果将结果返回到**Variant**调用 varA 时，您可以使用下面的代码来确定实际返回多少行：</span><span class="sxs-lookup"><span data-stu-id="317b4-135">For example, if you returned the results into a **Variant** called varA, you could use the following code to determine how many rows were actually returned:</span></span>
 
-<span data-ttu-id="1de8d-133">numReturned = UBound(varA,2) + 1</span><span class="sxs-lookup"><span data-stu-id="1de8d-133">numReturned = UBound(varA,2) + 1</span></span>
+<span data-ttu-id="317b4-136">numReturned = UBound(varA,2) + 1</span><span class="sxs-lookup"><span data-stu-id="317b4-136">numReturned = UBound(varA,2) + 1</span></span>
 
-<span data-ttu-id="1de8d-p103">需要使用 "+ 1"，因为返回的第一行位于数组的 0 元素中。可以检索的行数受可用内存量的限制。如果表较大的话，不应使用 **GetRows** 将整个表检索到数组中。</span><span class="sxs-lookup"><span data-stu-id="1de8d-p103">You need to use "+ 1" because the first row returned is in the 0 element of the array. The number of rows that you can retrieve is constrained by the amount of available memory. You shouldn't use **GetRows** to retrieve an entire table into an array if it is large.</span></span>
+<span data-ttu-id="317b4-p103">需要使用 "+ 1"，因为返回的第一行位于数组的 0 元素中。可以检索的行数受可用内存量的限制。如果表较大的话，不应使用 **GetRows** 将整个表检索到数组中。</span><span class="sxs-lookup"><span data-stu-id="317b4-p103">You need to use "+ 1" because the first row returned is in the 0 element of the array. The number of rows that you can retrieve is constrained by the amount of available memory. You shouldn't use **GetRows** to retrieve an entire table into an array if it is large.</span></span>
 
-<span data-ttu-id="1de8d-137">由于 **GetRows** 将 **Recordset** 的所有字段返回到包括"备注"和"长二进制"型字段的数组中，因此可能需要使用能够限制返回字段的查询。</span><span class="sxs-lookup"><span data-stu-id="1de8d-137">Because **GetRows** returns all fields of the **Recordset** into the array, including Memo and Long Binary fields, you might want to use a query that restricts the fields returned.</span></span>
+<span data-ttu-id="317b4-140">由于 **GetRows** 将 **Recordset** 的所有字段返回到包括"备注"和"长二进制"型字段的数组中，因此可能需要使用能够限制返回字段的查询。</span><span class="sxs-lookup"><span data-stu-id="317b4-140">Because **GetRows** returns all fields of the **Recordset** into the array, including Memo and Long Binary fields, you might want to use a query that restricts the fields returned.</span></span>
 
-<span data-ttu-id="1de8d-138">调用 **GetRows** 后，当前记录将被定位在下一个未读行上。</span><span class="sxs-lookup"><span data-stu-id="1de8d-138">After you call **GetRows**, the current record is positioned at the next unread row.</span></span> <span data-ttu-id="1de8d-139">即**GetRows**具有**移动**numrows 对当前记录相同的效果。</span><span class="sxs-lookup"><span data-stu-id="1de8d-139">That is, **GetRows** has the same effect on the current record as **Move**numrows.</span></span>
+<span data-ttu-id="317b4-141">调用 **GetRows** 后，当前记录将被定位在下一个未读行上。</span><span class="sxs-lookup"><span data-stu-id="317b4-141">After you call **GetRows**, the current record is positioned at the next unread row.</span></span> <span data-ttu-id="317b4-142">即**GetRows**具有**移动**numrows 对当前记录相同的效果。</span><span class="sxs-lookup"><span data-stu-id="317b4-142">That is, **GetRows** has the same effect on the current record as **Move**numrows.</span></span>
 
-<span data-ttu-id="1de8d-p105">如果尝试使用多个 **GetRows** 调用检索所有行，请使用 **[EOF](recordset2-eof-property-dao.md)** 属性，以确保位于 **Recordset** 的末尾。如果 **GetRows** 位于 **Recordset** 的末尾，或者无法在请求的范围内检索到某行，那么它返回的结果数将少于请求数目。例如，如果您尝试检索 10 条记录，但是无法检索第 5 条记录， **GetRows** 将返回 4 条记录，同时将第 5 条记录设置为当前记录。这不会生成运行时错误。如果另一个用户删除了动态集类型 **Recordset** 中的某条记录，则可能发生这种情况。有关如何处理这种情况的演示，请参阅示例。</span><span class="sxs-lookup"><span data-stu-id="1de8d-p105">If you are trying to retrieve all the rows by using multiple **GetRows** calls, use the **[EOF](recordset2-eof-property-dao.md)** property to be sure that you're at the end of the **Recordset**. **GetRows** returns less than the number requested if it's at the end of the **Recordset**, or if it can't retrieve a row in the range requested. For example, if you're trying to retrieve 10 records, but you can't retrieve the fifth record, **GetRows** returns four records and makes the fifth record the current record. This will not generate a run-time error. This might occur if another user deletes a record in a dynaset-type **Recordset**. See the example for a demonstration of how to handle this.</span></span>
+<span data-ttu-id="317b4-p105">如果尝试使用多个 **GetRows** 调用检索所有行，请使用 **[EOF](recordset2-eof-property-dao.md)** 属性，以确保位于 **Recordset** 的末尾。如果 **GetRows** 位于 **Recordset** 的末尾，或者无法在请求的范围内检索到某行，那么它返回的结果数将少于请求数目。例如，如果您尝试检索 10 条记录，但是无法检索第 5 条记录， **GetRows** 将返回 4 条记录，同时将第 5 条记录设置为当前记录。这不会生成运行时错误。如果另一个用户删除了动态集类型 **Recordset** 中的某条记录，则可能发生这种情况。有关如何处理这种情况的演示，请参阅示例。</span><span class="sxs-lookup"><span data-stu-id="317b4-p105">If you are trying to retrieve all the rows by using multiple **GetRows** calls, use the **[EOF](recordset2-eof-property-dao.md)** property to be sure that you're at the end of the **Recordset**. **GetRows** returns less than the number requested if it's at the end of the **Recordset**, or if it can't retrieve a row in the range requested. For example, if you're trying to retrieve 10 records, but you can't retrieve the fifth record, **GetRows** returns four records and makes the fifth record the current record. This will not generate a run-time error. This might occur if another user deletes a record in a dynaset-type **Recordset**. See the example for a demonstration of how to handle this.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1de8d-146">示例</span><span class="sxs-lookup"><span data-stu-id="1de8d-146">Example</span></span>
+## <a name="example"></a><span data-ttu-id="317b4-149">示例</span><span class="sxs-lookup"><span data-stu-id="317b4-149">Example</span></span>
 
-<span data-ttu-id="1de8d-p106">以下示例使用 **GetRows** 方法从 **Recordset** 中检索指定行数，并使用生成的数据填充数组。 **GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 **EOF**，或 **GetRows** 尝试检索已被其他用户删除的记录。只有当发生第二种情况时，函数才返回 **False**。若要使该过程运行，需要使用 GetRowsOK 函数。</span><span class="sxs-lookup"><span data-stu-id="1de8d-p106">This example uses the **GetRows** method to retrieve a specified number of rows from a **Recordset** and to fill an array with the resulting data. The **GetRows** method will return fewer than the desired number of rows in two cases: either if **EOF** has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. The GetRowsOK function is required for this procedure to run.</span></span>
+<span data-ttu-id="317b4-p106">以下示例使用 **GetRows** 方法从 **Recordset** 中检索指定行数，并使用生成的数据填充数组。 **GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 **EOF**，或 **GetRows** 尝试检索已被其他用户删除的记录。只有当发生第二种情况时，函数才返回 **False**。若要使该过程运行，需要使用 GetRowsOK 函数。</span><span class="sxs-lookup"><span data-stu-id="317b4-p106">This example uses the **GetRows** method to retrieve a specified number of rows from a **Recordset** and to fill an array with the resulting data. The **GetRows** method will return fewer than the desired number of rows in two cases: either if **EOF** has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. The GetRowsOK function is required for this procedure to run.</span></span>
 
 ```vb
     Sub GetRowsX() 

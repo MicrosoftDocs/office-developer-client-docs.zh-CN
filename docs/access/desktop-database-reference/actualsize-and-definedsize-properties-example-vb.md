@@ -1,24 +1,18 @@
 ---
-title: ActualSize 和 DefinedSize 属性示例 (VB)
-TOCTitle: ActualSize and DefinedSize Properties Example (VB)
-ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15)
-ms:contentKeyID: 48548884
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 4c3d06a5937ed58843271aa2787d5a6f861f981c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467657"
+<span data-ttu-id="2db11-101"><<<<<<< 标头标题： ActualSize 和 DefinedSize 属性示例 (VB) TOCTitle: ActualSize 和 DefinedSize 属性示例 (VB) ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID:48548884 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="2db11-101"><<<<<<< HEAD title: ActualSize and DefinedSize Properties Example (VB) TOCTitle: ActualSize and DefinedSize Properties Example (VB) ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID: 48548884 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="actualsize-and-definedsize-properties-example-vb"></a><span data-ttu-id="5823c-102">ActualSize 和 DefinedSize 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="5823c-102">ActualSize and DefinedSize Properties Example (VB)</span></span>
+
+# <a name="actualsize-and-definedsize-properties-example-vb"></a><span data-ttu-id="2db11-102">ActualSize 和 DefinedSize 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="2db11-102">ActualSize and DefinedSize Properties Example (VB)</span></span>
+<span data-ttu-id="2db11-103">=== 标题： ActualSize 和 DefinedSize 属性示例 (VB) TOCTitle: ActualSize 和 DefinedSize 属性示例 (VB) ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID: 48548884 ms.date: 10/16/2018 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="2db11-103">======= title: ActualSize and DefinedSize properties example (VB) TOCTitle: ActualSize and DefinedSize properties example (VB) ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID: 48548884 ms.date: 10/16/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="actualsize-and-definedsize-properties-example-vb"></a><span data-ttu-id="2db11-104">ActualSize 和 DefinedSize 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="2db11-104">ActualSize and DefinedSize properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="2db11-105">master</span><span class="sxs-lookup"><span data-stu-id="2db11-105">master</span></span>
 
 
-<span data-ttu-id="5823c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="5823c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2db11-106">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2db11-106">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="5823c-104">此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。</span><span class="sxs-lookup"><span data-stu-id="5823c-104">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
+<span data-ttu-id="2db11-107">此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。</span><span class="sxs-lookup"><span data-stu-id="2db11-107">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
 
 ```vb 
  

@@ -1,24 +1,18 @@
 ---
-title: Catalog 的 ActiveConnection 属性示例 (VC++)
-TOCTitle: Catalog ActiveConnection Property Example (VC++)
-ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
-ms:contentKeyID: 48543246
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 30eea3d77121712b33881cad13d3445de1467c81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466253"
+<span data-ttu-id="85546-101"><<<<<<< 标头标题： 目录 ActiveConnection 属性示例 （VC + +） TOCTitle： 目录 ActiveConnection 属性示例 （VC + +） === 标题： 目录 ActiveConnection 属性示例 （VC + +） TOCTitle： 目录 ActiveConnection属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="85546-101"><<<<<<< HEAD title: Catalog ActiveConnection Property Example (VC++) TOCTitle: Catalog ActiveConnection Property Example (VC++) ======= title: Catalog ActiveConnection property example (VC++) TOCTitle: Catalog ActiveConnection property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="85546-102">母版页 ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID: 48543246 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="85546-102">master ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID: 48543246 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="782c9-102">Catalog 的 ActiveConnection 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="782c9-102">Catalog ActiveConnection Property Example (VC++)</span></span>
+
+<span data-ttu-id="85546-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="85546-103"><<<<<<< HEAD</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="85546-104">Catalog 的 ActiveConnection 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="85546-104">Catalog ActiveConnection Property Example (VC++)</span></span>
+=======
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="85546-105">Catalog 的 ActiveConnection 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="85546-105">Catalog ActiveConnection property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="85546-106">master</span><span class="sxs-lookup"><span data-stu-id="85546-106">master</span></span>
 
 
-<span data-ttu-id="782c9-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="782c9-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="85546-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="85546-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="782c9-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为有效的打开连接将"打开"目录。从打开的目录中，可以访问该目录中包含的架构对象。</span><span class="sxs-lookup"><span data-stu-id="782c9-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="85546-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为有效的打开连接将"打开"目录。从打开的目录中，可以访问该目录中包含的架构对象。</span><span class="sxs-lookup"><span data-stu-id="85546-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

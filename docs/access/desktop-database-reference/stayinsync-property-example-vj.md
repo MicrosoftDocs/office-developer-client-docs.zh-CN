@@ -1,26 +1,20 @@
 ---
-title: StayInSync 属性示例 (VJ++)
-TOCTitle: StayInSync Property Example (VJ++)
-ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
-ms:contentKeyID: 48548448
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8e4c5c7e342aaba0ba980250db3e97bcb5a8fa0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465978"
+<span data-ttu-id="e0102-101"><<<<<<< 标头标题： StayInSync 属性示例 （VJ + +） TOCTitle: StayInSync 属性示例 （VJ + +） === 标题： StayInSync 属性示例 （VJ + +） TOCTitle: StayInSync 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="e0102-101"><<<<<<< HEAD title: StayInSync Property Example (VJ++) TOCTitle: StayInSync Property Example (VJ++) ======= title: StayInSync property example (VJ++) TOCTitle: StayInSync property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="e0102-102">母版页 ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: 48548448 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="e0102-102">master ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: 48548448 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="90a8a-102">StayInSync 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="90a8a-102">StayInSync Property Example (VJ++)</span></span>
+
+<span data-ttu-id="e0102-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="e0102-103"><<<<<<< HEAD</span></span>
+# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="e0102-104">StayInSync 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e0102-104">StayInSync Property Example (VJ++)</span></span>
+=======
+# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="e0102-105">StayInSync 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="e0102-105">StayInSync property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="e0102-106">master</span><span class="sxs-lookup"><span data-stu-id="e0102-106">master</span></span>
 
 
-<span data-ttu-id="90a8a-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="90a8a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e0102-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0102-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="90a8a-104">本示例演示 [StayInSync](stayinsync-property-ado.md) 属性如何帮助访问分级 [Recordset](recordset-object-ado.md) 中的行。</span><span class="sxs-lookup"><span data-stu-id="90a8a-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="e0102-108">本示例演示 [StayInSync](stayinsync-property-ado.md) 属性如何帮助访问分级 [Recordset](recordset-object-ado.md) 中的行。</span><span class="sxs-lookup"><span data-stu-id="e0102-108">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="90a8a-p101">外部循环显示每个作者的姓名、状态和 ID。每行的追加 **Recordset** 检索自 [Fields](fields-collection-ado.md) 集合并在父 **Recordset** 移至新行时通过 **StayInSync** 属性自动赋值给 **rstTitleAuthor** 。内部循环显示追加的记录集中每行的四个字段。</span><span class="sxs-lookup"><span data-stu-id="90a8a-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="e0102-p101">外部循环显示每个作者的姓名、状态和 ID。每行的追加 **Recordset** 检索自 [Fields](fields-collection-ado.md) 集合并在父 **Recordset** 移至新行时通过 **StayInSync** 属性自动赋值给 **rstTitleAuthor** 。内部循环显示追加的记录集中每行的四个字段。</span><span class="sxs-lookup"><span data-stu-id="e0102-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```java 
  

@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249679(v=office.15)
 ms:contentKeyID: 48546479
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 314f79b77f71b93ff4ce7d25223a426e9237e5f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c9476a2cae5a3df131ec8cc465866ae44189c1a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468092"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606274"
 ---
-# <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a><span data-ttu-id="eadbe-102">CopyRecord、CopyTo 和 SaveToFile 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="eadbe-102">CopyRecord, CopyTo, and SaveToFile Methods Example (VB)</span></span>
+# <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a><span data-ttu-id="379f2-102">CopyRecord、CopyTo 和 SaveToFile 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="379f2-102">CopyRecord, CopyTo, and SaveToFile Methods Example (VB)</span></span>
 
 
-<span data-ttu-id="eadbe-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="eadbe-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="379f2-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="379f2-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="eadbe-p101">本示例演示如何使用 [Stream](stream-object-ado.md) 或 [Record](record-object-ado.md) 对象创建文件的副本。在 Web 文件夹中创建了一个副本，用于进行 Internet 发布。还显示了其他属性和方法，包括 [Stream Type](type-property-ado-stream.md)、 **Open** 、 [LoadFromFile](loadfromfile-method-ado.md) 和 [Record Open](open-method-ado-record.md)。</span><span class="sxs-lookup"><span data-stu-id="eadbe-p101">This example demonstrates how to create copies of a file using [Stream](stream-object-ado.md) or [Record](record-object-ado.md) objects. One copy is made to a Web folder for Internet publishing. Other properties and methods shown include [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md), and [Record Open](open-method-ado-record.md).</span></span>
+<span data-ttu-id="379f2-104"><<<<<<< 头本示例演示如何创建使用[流](stream-object-ado.md)或[Record](record-object-ado.md)对象的文件的副本。</span><span class="sxs-lookup"><span data-stu-id="379f2-104"><<<<<<< HEAD This example demonstrates how to create copies of a file using [Stream](stream-object-ado.md) or [Record](record-object-ado.md) objects.</span></span> <span data-ttu-id="379f2-105">在 Web 文件夹中创建了一个副本，用于进行 Internet 发布。</span><span class="sxs-lookup"><span data-stu-id="379f2-105">One copy is made to a Web folder for Internet publishing.</span></span> <span data-ttu-id="379f2-106">还显示了其他属性和方法，包括 [Stream Type](type-property-ado-stream.md)、 **Open** 、 [LoadFromFile](loadfromfile-method-ado.md) 和 [Record Open](open-method-ado-record.md)。</span><span class="sxs-lookup"><span data-stu-id="379f2-106">Other properties and methods shown include [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md), and [Record Open](open-method-ado-record.md).</span></span>
+<span data-ttu-id="379f2-107">=== 本示例演示如何创建使用[流](stream-object-ado.md)或[Record](record-object-ado.md)对象的文件的副本。</span><span class="sxs-lookup"><span data-stu-id="379f2-107">======= This example demonstrates how to create copies of a file using [Stream](stream-object-ado.md) or [Record](record-object-ado.md) objects.</span></span> <span data-ttu-id="379f2-108">一个副本到 Internet 发布的 web 文件夹。</span><span class="sxs-lookup"><span data-stu-id="379f2-108">One copy is made to a web folder for Internet publishing.</span></span> <span data-ttu-id="379f2-109">还显示了其他属性和方法，包括 [Stream Type](type-property-ado-stream.md)、 **Open** 、 [LoadFromFile](loadfromfile-method-ado.md) 和 [Record Open](open-method-ado-record.md)。</span><span class="sxs-lookup"><span data-stu-id="379f2-109">Other properties and methods shown include [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md), and [Record Open](open-method-ado-record.md).</span></span>
+>>>>>>> <span data-ttu-id="379f2-110">master</span><span class="sxs-lookup"><span data-stu-id="379f2-110">master</span></span>
 
 ```vb 
  
@@ -69,7 +71,11 @@ Private Sub Form_Load()
  ' Save the second stream to a different path 
  objStream2.SaveToFile strStream2Path, adSaveCreateOverWrite 
  
+<<<<<<< HEAD
  ' Because strStreamPath is a Web Folder, open a Record on the URL 
+=======
+ ' Because strStreamPath is a web folder, open a Record on the URL 
+>>>>>>> master
  objRecord.Open "", strStreamURL 
  
  ' Display the Fields of the record 

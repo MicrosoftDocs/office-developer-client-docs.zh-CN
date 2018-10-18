@@ -1,24 +1,18 @@
 ---
-title: BOF、EOF 和 Bookmark 属性示例 (VJ++)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VJ++)
-ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
-ms:contentKeyID: 48545400
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0a0ac5777dc60f0d35169cf92504d09606b262f0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468007"
+<span data-ttu-id="8e800-101"><<<<<<< 标头标题： BOF、 EOF 和 Bookmark 属性示例 （VJ + +） TOCTitle: BOF、 EOF 和 Bookmark 属性示例 （VJ + +） === 标题： BOF、 EOF 和 Bookmark 属性示例 （VJ + +） TOCTitle: BOF、 EOF 和 Bookmark 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="8e800-101"><<<<<<< HEAD title: BOF, EOF, and Bookmark Properties Example (VJ++) TOCTitle: BOF, EOF, and Bookmark Properties Example (VJ++) ======= title: BOF, EOF, and Bookmark properties example (VJ++) TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8e800-102">母版页 ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: 48545400 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="8e800-102">master ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: 48545400 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="ebc6c-102">BOF、EOF 和 Bookmark 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ebc6c-102">BOF, EOF, and Bookmark Properties Example (VJ++)</span></span>
+
+<span data-ttu-id="8e800-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="8e800-103"><<<<<<< HEAD</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="8e800-104">BOF、EOF 和 Bookmark 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8e800-104">BOF, EOF, and Bookmark Properties Example (VJ++)</span></span>
+=======
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="8e800-105">BOF、 EOF 和 Bookmark 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="8e800-105">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8e800-106">master</span><span class="sxs-lookup"><span data-stu-id="8e800-106">master</span></span>
 
 
-<span data-ttu-id="ebc6c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="ebc6c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8e800-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e800-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="ebc6c-p101">此示例使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="ebc6c-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="8e800-p101">此示例使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="8e800-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```java 
  

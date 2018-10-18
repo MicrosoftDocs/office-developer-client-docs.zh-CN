@@ -1,24 +1,18 @@
 ---
-title: Clustered 属性示例 (VB)
-TOCTitle: Clustered Property Example (VB)
-ms:assetid: 1065622d-9473-209a-95be-c4b0ab5b687a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15)
-ms:contentKeyID: 48543293
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f4cf09b0e8393eca74b1ed8fbaca8591a99103b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467874"
+<span data-ttu-id="8736b-101"><<<<<<< 标头标题： 群集属性示例 (VB) TOCTitle： 群集属性示例 (VB) === 标题： Clustered 的属性示例 (VB) TOCTitle: Clustered 的属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="8736b-101"><<<<<<< HEAD title: Clustered Property Example (VB) TOCTitle: Clustered Property Example (VB) ======= title: Clustered property example (VB) TOCTitle: Clustered property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="8736b-102">母版页 ms:assetid: 1065622d-9473-209a-95be-c4b0ab5b687a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15) ms:contentKeyID: 48543293 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="8736b-102">master ms:assetid: 1065622d-9473-209a-95be-c4b0ab5b687a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15) ms:contentKeyID: 48543293 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="clustered-property-example-vb"></a><span data-ttu-id="d93df-102">Clustered 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="d93df-102">Clustered Property Example (VB)</span></span>
+
+<span data-ttu-id="8736b-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="8736b-103"><<<<<<< HEAD</span></span>
+# <a name="clustered-property-example-vb"></a><span data-ttu-id="8736b-104">Clustered 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="8736b-104">Clustered Property Example (VB)</span></span>
+=======
+# <a name="clustered-property-example-vb"></a><span data-ttu-id="8736b-105">Clustered 的属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="8736b-105">Clustered property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="8736b-106">master</span><span class="sxs-lookup"><span data-stu-id="8736b-106">master</span></span>
 
 
-<span data-ttu-id="d93df-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d93df-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8736b-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="8736b-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d93df-104">本示例演示 [Index](clustered-property-adox.md) 的 [Clustered](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="d93df-104">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="d93df-105">请注意，Microsoft Jet 数据库不支持聚簇的索引，因此本示例将返回**False**的**Clustered**属性的*Northwind*数据库中的所有索引。</span><span class="sxs-lookup"><span data-stu-id="d93df-105">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
+<span data-ttu-id="8736b-108">本示例演示 [Index](clustered-property-adox.md) 的 [Clustered](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="8736b-108">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="8736b-109">请注意，Microsoft Jet 数据库不支持聚簇的索引，因此本示例将返回**False**的**Clustered**属性的*Northwind*数据库中的所有索引。</span><span class="sxs-lookup"><span data-stu-id="8736b-109">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
 
 ```vb 
  

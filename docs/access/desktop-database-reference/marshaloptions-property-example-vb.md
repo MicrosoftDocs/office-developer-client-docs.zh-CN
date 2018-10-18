@@ -1,24 +1,18 @@
 ---
-title: MarshalOptions 属性示例 (VB)
-TOCTitle: MarshalOptions Property Example (VB)
-ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15)
-ms:contentKeyID: 48548691
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6da1e748f9cbf350b880f77ec18f1368a99eaa63
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466314"
+<span data-ttu-id="054aa-101"><<<<<<< 标头标题： MarshalOptions 属性示例 (VB) TOCTitle: MarshalOptions 属性示例 (VB) === 标题： MarshalOptions 属性示例 (VB) TOCTitle: MarshalOptions 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="054aa-101"><<<<<<< HEAD title: MarshalOptions Property Example (VB) TOCTitle: MarshalOptions Property Example (VB) ======= title: MarshalOptions property example (VB) TOCTitle: MarshalOptions property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="054aa-102">母版页 ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15) ms:contentKeyID: 48548691 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="054aa-102">master ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15) ms:contentKeyID: 48548691 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="4a45c-102">MarshalOptions 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="4a45c-102">MarshalOptions Property Example (VB)</span></span>
+
+<span data-ttu-id="054aa-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="054aa-103"><<<<<<< HEAD</span></span>
+# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="054aa-104">MarshalOptions 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="054aa-104">MarshalOptions Property Example (VB)</span></span>
+=======
+# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="054aa-105">MarshalOptions 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="054aa-105">MarshalOptions property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="054aa-106">master</span><span class="sxs-lookup"><span data-stu-id="054aa-106">master</span></span>
 
 
-<span data-ttu-id="4a45c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a45c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="054aa-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="054aa-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="4a45c-104">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="4a45c-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="054aa-108">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="054aa-108">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```vb 
  

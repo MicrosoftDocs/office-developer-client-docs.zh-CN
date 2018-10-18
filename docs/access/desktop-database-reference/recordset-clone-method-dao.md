@@ -10,51 +10,55 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 37f78b428cc4f872743fe39403608074460b276a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5a899f72c6603d81244c31775c1109f66520910e
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467780"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602977"
 ---
-# <a name="recordsetclone-method-dao"></a><span data-ttu-id="b1bc7-102">Recordset.Clone Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="b1bc7-102">Recordset.Clone Method (DAO)</span></span>
+# <a name="recordsetclone-method-dao"></a><span data-ttu-id="d45f8-102">Recordset.Clone Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="d45f8-102">Recordset.Clone Method (DAO)</span></span>
 
 
-<span data-ttu-id="b1bc7-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1bc7-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d45f8-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d45f8-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="b1bc7-104">创建一个引用原始 [Recordset](recordset-object-dao.md) 对象的复制 \*\*\*\*Recordset\*\*\*\* 对象。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-104">Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset** object.</span></span>
+<span data-ttu-id="d45f8-104">创建一个引用原始 [Recordset](recordset-object-dao.md) 对象的复制 \*\*\*\*Recordset\*\*\*\* 对象。</span><span class="sxs-lookup"><span data-stu-id="d45f8-104">Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b1bc7-105">语法</span><span class="sxs-lookup"><span data-stu-id="b1bc7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d45f8-105">语法</span><span class="sxs-lookup"><span data-stu-id="d45f8-105">Syntax</span></span>
 
-<span data-ttu-id="b1bc7-106">*表达式*。克隆</span><span class="sxs-lookup"><span data-stu-id="b1bc7-106">*expression* .Clone</span></span>
+<span data-ttu-id="d45f8-106">*表达式*。克隆</span><span class="sxs-lookup"><span data-stu-id="d45f8-106">*expression* .Clone</span></span>
 
-<span data-ttu-id="b1bc7-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="d45f8-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="d45f8-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-### <a name="return-value"></a><span data-ttu-id="b1bc7-108">返回值</span><span class="sxs-lookup"><span data-stu-id="b1bc7-108">Return Value</span></span>
+<span data-ttu-id="d45f8-108"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="d45f8-108"><<<<<<< HEAD</span></span>
+### <a name="return-value"></a><span data-ttu-id="d45f8-109">返回值</span><span class="sxs-lookup"><span data-stu-id="d45f8-109">Return Value</span></span>
+=======
+### <a name="return-value"></a><span data-ttu-id="d45f8-110">返回值</span><span class="sxs-lookup"><span data-stu-id="d45f8-110">Return value</span></span>
+>>>>>>> <span data-ttu-id="d45f8-111">master</span><span class="sxs-lookup"><span data-stu-id="d45f8-111">master</span></span>
 
-<span data-ttu-id="b1bc7-109">Recordset</span><span class="sxs-lookup"><span data-stu-id="b1bc7-109">Recordset</span></span>
+<span data-ttu-id="d45f8-112">Recordset</span><span class="sxs-lookup"><span data-stu-id="d45f8-112">Recordset</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b1bc7-110">注解</span><span class="sxs-lookup"><span data-stu-id="b1bc7-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d45f8-113">注解</span><span class="sxs-lookup"><span data-stu-id="d45f8-113">Remarks</span></span>
 
-<span data-ttu-id="b1bc7-p101">使用 **Clone** 方法可以创建多个重复的 **Recordset** 对象。每个 **Recordset** 都可以具有其自身的当前记录。使用 **Clone** 自身并不会更改对象中的数据或对象基础结构中的数据。使用 **Clone** 方法时，可以在两个或更多个 **Recordset** 对象之间共享书签，因为这些对象的书签是可以交换的。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-p101">Use the **Clone** method to create multiple, duplicate **Recordset** objects. Each **Recordset** can have its own current record. Using **Clone** by itself doesn't change the data in the objects or in their underlying structures. When you use the **Clone** method, you can share bookmarks between two or more **Recordset** objects because their bookmarks are interchangeable.</span></span>
+<span data-ttu-id="d45f8-p101">使用 **Clone** 方法可以创建多个重复的 **Recordset** 对象。每个 **Recordset** 都可以具有其自身的当前记录。使用 **Clone** 自身并不会更改对象中的数据或对象基础结构中的数据。使用 **Clone** 方法时，可以在两个或更多个 **Recordset** 对象之间共享书签，因为这些对象的书签是可以交换的。</span><span class="sxs-lookup"><span data-stu-id="d45f8-p101">Use the **Clone** method to create multiple, duplicate **Recordset** objects. Each **Recordset** can have its own current record. Using **Clone** by itself doesn't change the data in the objects or in their underlying structures. When you use the **Clone** method, you can share bookmarks between two or more **Recordset** objects because their bookmarks are interchangeable.</span></span>
 
-<span data-ttu-id="b1bc7-p102">如果要对需要多个当前记录的 **Recordset** 执行操作，可使用 **Clone** 方法。这样比打开第二个 **Recordset** 更加快速和高效。使用 **Clone** 方法创建了 **Recordset** 后，该记录集最初会缺少一个当前记录。若要在使用 **Recordset** 克隆之前使某记录成为当前记录，必须设置 **[Bookmark](recordset-bookmark-property-dao.md)** 属性，或使用 **[Move](recordset-movefirst-method-dao.md)** 方法之一、 **[Find](recordset-findfirst-method-dao.md)** 方法之一或 **[Seek](recordset-seek-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-p102">You can use the **Clone** method when you want to perform an operation on a **Recordset** that requires multiple current records. This is faster and more efficient than opening a second **Recordset**. When you create a **Recordset** with the **Clone** method, it initially lacks a current record. To make a record current before you use the **Recordset** clone, you must set the **[Bookmark](recordset-bookmark-property-dao.md)** property or use one of the **[Move](recordset-movefirst-method-dao.md)** methods, one of the **[Find](recordset-findfirst-method-dao.md)** methods, or the **[Seek](recordset-seek-method-dao.md)** method.</span></span>
+<span data-ttu-id="d45f8-p102">如果要对需要多个当前记录的 **Recordset** 执行操作，可使用 **Clone** 方法。这样比打开第二个 **Recordset** 更加快速和高效。使用 **Clone** 方法创建了 **Recordset** 后，该记录集最初会缺少一个当前记录。若要在使用 **Recordset** 克隆之前使某记录成为当前记录，必须设置 **[Bookmark](recordset-bookmark-property-dao.md)** 属性，或使用 **[Move](recordset-movefirst-method-dao.md)** 方法之一、 **[Find](recordset-findfirst-method-dao.md)** 方法之一或 **[Seek](recordset-seek-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="d45f8-p102">You can use the **Clone** method when you want to perform an operation on a **Recordset** that requires multiple current records. This is faster and more efficient than opening a second **Recordset**. When you create a **Recordset** with the **Clone** method, it initially lacks a current record. To make a record current before you use the **Recordset** clone, you must set the **[Bookmark](recordset-bookmark-property-dao.md)** property or use one of the **[Move](recordset-movefirst-method-dao.md)** methods, one of the **[Find](recordset-findfirst-method-dao.md)** methods, or the **[Seek](recordset-seek-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="b1bc7-p103">无论是对原始对象还是对复制对象使用 **[Close](connection-close-method-dao.md)** 方法，都不会影响其他对象。例如，对原始 **Recordset** 使用 **Close** 不会关闭克隆。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-p103">Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object. For example, using **Close** on the original **Recordset** doesn't close the clone.</span></span>
+<span data-ttu-id="d45f8-p103">无论是对原始对象还是对复制对象使用 **[Close](connection-close-method-dao.md)** 方法，都不会影响其他对象。例如，对原始 **Recordset** 使用 **Close** 不会关闭克隆。</span><span class="sxs-lookup"><span data-stu-id="d45f8-p103">Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object. For example, using **Close** on the original **Recordset** doesn't close the clone.</span></span>
 
 
 > [!NOTE]
 > <UL>
 > <LI>
-> <P><span data-ttu-id="b1bc7-121">在待定事务中关闭克隆 Recordset 将导致隐式 <STRONG>Rollback</STRONG> 操作。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-121">Closing a clone recordset within a pending transaction will cause an implicit <STRONG>Rollback</STRONG> operation.</span></span></P>
+> <P><span data-ttu-id="d45f8-124">在待定事务中关闭克隆 Recordset 将导致隐式 <STRONG>Rollback</STRONG> 操作。</span><span class="sxs-lookup"><span data-stu-id="d45f8-124">Closing a clone recordset within a pending transaction will cause an implicit <STRONG>Rollback</STRONG> operation.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="b1bc7-p104">在 Microsoft Access 工作区中克隆表类型的 <STRONG>Recordset</STRONG> 对象时，不会将 <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> 属性设置克隆到 Recordset 的新副本上。必须手动复制 <STRONG>Index</STRONG> 属性设置。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-p104">When you clone a table-type <STRONG>Recordset</STRONG> object in a Microsoft Access workspace, the <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> property setting is not cloned on the new copy of the recordset. You must copy the <STRONG>Index</STRONG> property setting manually.</span></span></P></LI></UL>
+> <P><span data-ttu-id="d45f8-p104">在 Microsoft Access 工作区中克隆表类型的 <STRONG>Recordset</STRONG> 对象时，不会将 <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> 属性设置克隆到 Recordset 的新副本上。必须手动复制 <STRONG>Index</STRONG> 属性设置。</span><span class="sxs-lookup"><span data-stu-id="d45f8-p104">When you clone a table-type <STRONG>Recordset</STRONG> object in a Microsoft Access workspace, the <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> property setting is not cloned on the new copy of the recordset. You must copy the <STRONG>Index</STRONG> property setting manually.</span></span></P></LI></UL>
 
 
 
-## <a name="example"></a><span data-ttu-id="b1bc7-124">示例</span><span class="sxs-lookup"><span data-stu-id="b1bc7-124">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d45f8-127">示例</span><span class="sxs-lookup"><span data-stu-id="d45f8-127">Example</span></span>
 
-<span data-ttu-id="b1bc7-125">以下示例使用 **Clone** 方法创建 **Recordset** 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="b1bc7-125">This example uses the **Clone** method to create copies of a **Recordset** and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="d45f8-128">以下示例使用 **Clone** 方法创建 **Recordset** 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="d45f8-128">This example uses the **Clone** method to create copies of a **Recordset** and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```vb
     Sub CloneX() 

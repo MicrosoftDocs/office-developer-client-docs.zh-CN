@@ -1,24 +1,18 @@
 ---
-title: Source 属性示例 (VJ++)
-TOCTitle: Source Property Example (VJ++)
-ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
-ms:contentKeyID: 48547821
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: aef4ad0bf1146236ba2df7ab51dd28005656c012
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467091"
+<span data-ttu-id="d94dc-101"><<<<<<< 标头标题： Source 属性示例 （VJ + +） TOCTitle: Source 属性示例 （VJ + +） === 标题： Source 属性示例 （VJ + +） TOCTitle: Source 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="d94dc-101"><<<<<<< HEAD title: Source Property Example (VJ++) TOCTitle: Source Property Example (VJ++) ======= title: Source property example (VJ++) TOCTitle: Source property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="d94dc-102">母版页 ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID: 48547821 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="d94dc-102">master ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID: 48547821 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="source-property-example-vj"></a><span data-ttu-id="b8776-102">Source 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b8776-102">Source Property Example (VJ++)</span></span>
+
+<span data-ttu-id="d94dc-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="d94dc-103"><<<<<<< HEAD</span></span>
+# <a name="source-property-example-vj"></a><span data-ttu-id="d94dc-104">Source 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d94dc-104">Source Property Example (VJ++)</span></span>
+=======
+# <a name="source-property-example-vj"></a><span data-ttu-id="d94dc-105">Source 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="d94dc-105">Source property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="d94dc-106">master</span><span class="sxs-lookup"><span data-stu-id="d94dc-106">master</span></span>
 
 
-<span data-ttu-id="b8776-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8776-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d94dc-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d94dc-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="b8776-104">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="b8776-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="d94dc-108">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="d94dc-108">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```java 
  

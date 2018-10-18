@@ -1,23 +1,17 @@
 ---
-title: SortOrder 属性示例 (VB)
-TOCTitle: SortOrder Property Example (VB)
-ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
-ms:contentKeyID: 48546472
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ef0aa4beace636bef859f35c5d2cc354a271e9a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466246"
+<span data-ttu-id="1244f-101"><<<<<<< 标头标题： SortOrder 属性示例 (VB) TOCTitle: SortOrder 属性示例 (VB) === 标题： SortOrder 属性示例 (VB) TOCTitle: SortOrder 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="1244f-101"><<<<<<< HEAD title: SortOrder Property Example (VB) TOCTitle: SortOrder Property Example (VB) ======= title: SortOrder property example (VB) TOCTitle: SortOrder property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="1244f-102">母版页 ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID: 48546472 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="1244f-102">master ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID: 48546472 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="sortorder-property-example-vb"></a><span data-ttu-id="de411-102">SortOrder 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="de411-102">SortOrder Property Example (VB)</span></span>
 
-<span data-ttu-id="de411-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="de411-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1244f-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="1244f-103"><<<<<<< HEAD</span></span>
+# <a name="sortorder-property-example-vb"></a><span data-ttu-id="1244f-104">SortOrder 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="1244f-104">SortOrder Property Example (VB)</span></span>
+=======
+# <a name="sortorder-property-example-vb"></a><span data-ttu-id="1244f-105">SortOrder 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="1244f-105">SortOrder property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="1244f-106">master</span><span class="sxs-lookup"><span data-stu-id="1244f-106">master</span></span>
 
-<span data-ttu-id="de411-p101">本示例演示追加到 [Index](sortorder-property-adox.md) 的 [Columns](column-object-adox.md) 集合中的 [Column](columns-collection-adox.md) 的 [SortOrder](index-object-adox.md) 属性。代码为 **Employees** （雇员）表中的 Country（国家）列追加一个升序索引，然后显示记录。接下来，代码为 **Employees** （雇员）表中的 Country（国家）列追加一个降序索引，并再次显示记录。升序索引和降序索引之间的区别即会显示出来。</span><span class="sxs-lookup"><span data-stu-id="de411-p101">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md). The code appends an ascending index to the Country column in the **Employees** table, then displays the records. Then the code appends a descending index to the Country column in the **Employees** table and displays the records again. The difference between ascending and descending indexes is shown.</span></span>
+<span data-ttu-id="1244f-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1244f-107">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="1244f-p101">本示例演示追加到 [Index](sortorder-property-adox.md) 的 [Columns](column-object-adox.md) 集合中的 [Column](columns-collection-adox.md) 的 [SortOrder](index-object-adox.md) 属性。代码为 **Employees** （雇员）表中的 Country（国家）列追加一个升序索引，然后显示记录。接下来，代码为 **Employees** （雇员）表中的 Country（国家）列追加一个降序索引，并再次显示记录。升序索引和降序索引之间的区别即会显示出来。</span><span class="sxs-lookup"><span data-stu-id="1244f-p101">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md). The code appends an ascending index to the Country column in the **Employees** table, then displays the records. Then the code appends a descending index to the Country column in the **Employees** table and displays the records again. The difference between ascending and descending indexes is shown.</span></span>
 
 
 ```vb 

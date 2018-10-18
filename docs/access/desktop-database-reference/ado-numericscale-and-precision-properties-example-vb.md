@@ -1,24 +1,18 @@
 ---
-title: ADO NumericScale and Precision Properties Example (VB)
-TOCTitle: NumericScale and Precision Properties Example (VB)
-ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15)
-ms:contentKeyID: 48543044
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 773363b968f592bc8773f498db0d4114ad16c41b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465816"
+<span data-ttu-id="683ba-101"><<<<<<< 标头标题： ADO NumericScale 和 Precision 属性示例 (VB) TOCTitle: NumericScale 和 Precision 属性示例 (VB) === 标题： ADO NumericScale 和 Precision 属性示例 (VB) TOCTitle: NumericScale 和Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="683ba-101"><<<<<<< HEAD title: ADO NumericScale and Precision Properties Example (VB) TOCTitle: NumericScale and Precision Properties Example (VB) ======= title: ADO NumericScale and Precision properties example (VB) TOCTitle: NumericScale and Precision properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="683ba-102">母版页 ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15) ms:contentKeyID: 48543044 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="683ba-102">master ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15) ms:contentKeyID: 48543044 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="ado-numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="ae325-102">ADO NumericScale and Precision Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="ae325-102">ADO NumericScale and Precision Properties Example (VB)</span></span>
+
+<span data-ttu-id="683ba-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="683ba-103"><<<<<<< HEAD</span></span>
+# <a name="ado-numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="683ba-104">ADO NumericScale and Precision Properties Example (VB)</span><span class="sxs-lookup"><span data-stu-id="683ba-104">ADO NumericScale and Precision Properties Example (VB)</span></span>
+=======
+# <a name="ado-numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="683ba-105">ADO NumericScale 和 Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="683ba-105">ADO NumericScale and Precision properties example (VB)</span></span>
+>>>>>>> <span data-ttu-id="683ba-106">master</span><span class="sxs-lookup"><span data-stu-id="683ba-106">master</span></span>
 
 
-<span data-ttu-id="ae325-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae325-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="683ba-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="683ba-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="ae325-104">本示例使用 [NumericScale](numericscale-property-ado.md) 和 [Precision](precision-property-ado.md) 属性显示 ***Pubs*** 数据库的 ***Discounts***（折扣）表中字段的数字小数位数和精确度。</span><span class="sxs-lookup"><span data-stu-id="ae325-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="683ba-108">本示例使用 [NumericScale](numericscale-property-ado.md) 和 [Precision](precision-property-ado.md) 属性显示 ***Pubs*** 数据库的 ***Discounts***（折扣）表中字段的数字小数位数和精确度。</span><span class="sxs-lookup"><span data-stu-id="683ba-108">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```vb 
  

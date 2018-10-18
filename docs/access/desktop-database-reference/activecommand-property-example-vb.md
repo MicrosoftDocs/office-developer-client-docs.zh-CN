@@ -1,26 +1,20 @@
 ---
-title: ActiveCommand 属性示例 (VB)
-TOCTitle: ActiveCommand Property Example (VB)
-ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
-ms:contentKeyID: 48545999
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f0636141505599464c95af0b9a7df704f9e21dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468139"
+<span data-ttu-id="e1d9c-101"><<<<<<< 标头标题： ActiveCommand 属性示例 (VB) TOCTitle: ActiveCommand 属性示例 (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 09/18/2015 mtps_版本： office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="e1d9c-101"><<<<<<< HEAD title: ActiveCommand Property Example (VB) TOCTitle: ActiveCommand Property Example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="activecommand-property-example-vb"></a><span data-ttu-id="d7c2c-102">ActiveCommand 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="d7c2c-102">ActiveCommand Property Example (VB)</span></span>
+
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="e1d9c-102">ActiveCommand 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e1d9c-102">ActiveCommand Property Example (VB)</span></span>
+<span data-ttu-id="e1d9c-103">=== 标题： ActiveCommand 属性示例 (VB) TOCTitle: ActiveCommand 属性示例 (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 10/17/2018 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="e1d9c-103">======= title: ActiveCommand property example (VB) TOCTitle: ActiveCommand property example (VB) ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15) ms:contentKeyID: 48545999 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="e1d9c-104">ActiveCommand 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e1d9c-104">ActiveCommand property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="e1d9c-105">master</span><span class="sxs-lookup"><span data-stu-id="e1d9c-105">master</span></span>
 
 
-<span data-ttu-id="d7c2c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7c2c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e1d9c-106">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1d9c-106">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d7c2c-104">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="d7c2c-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="e1d9c-107">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="e1d9c-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="d7c2c-105">将向子例程提供一个 [Recordset](recordset-object-ado.md) 对象，该对象的 **ActiveCommand** 属性用于显示创建 **Recordset** 的命令文本和参数。</span><span class="sxs-lookup"><span data-stu-id="d7c2c-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="e1d9c-108">将向子例程提供一个 [Recordset](recordset-object-ado.md) 对象，该对象的 **ActiveCommand** 属性用于显示创建 **Recordset** 的命令文本和参数。</span><span class="sxs-lookup"><span data-stu-id="e1d9c-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```vb 
  
@@ -87,11 +81,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-<span data-ttu-id="d7c2c-p101">仅为 **ActiveCommandXprint** 例程提供一个 **Recordset** 对象，不过它必须输出创建 **Recordset** 的命令文本和参数。因为 **Recordset** 对象的 **ActiveCommand** 属性将生成关联的 [Command](command-object-ado.md) 对象，因此可以完成此操作。</span><span class="sxs-lookup"><span data-stu-id="d7c2c-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="e1d9c-p101">仅为 **ActiveCommandXprint** 例程提供一个 **Recordset** 对象，不过它必须输出创建 **Recordset** 的命令文本和参数。因为 **Recordset** 对象的 **ActiveCommand** 属性将生成关联的 [Command](command-object-ado.md) 对象，因此可以完成此操作。</span><span class="sxs-lookup"><span data-stu-id="e1d9c-p101">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**. This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
 
-<span data-ttu-id="d7c2c-p102">**Command** 对象的 [CommandText](commandtext-property-ado.md) 属性将生成创建 **Recordset** 的参数化命令。**Command** 对象的 [Parameters](parameters-collection-ado.md) 集合将生成替代命令的参数占位符（“**?**”）的值。</span><span class="sxs-lookup"><span data-stu-id="d7c2c-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
+<span data-ttu-id="e1d9c-p102">**Command** 对象的 [CommandText](commandtext-property-ado.md) 属性将生成创建 **Recordset** 的参数化命令。**Command** 对象的 [Parameters](parameters-collection-ado.md) 集合将生成替代命令的参数占位符（“**?**”）的值。</span><span class="sxs-lookup"><span data-stu-id="e1d9c-p102">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**. The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
 
-<span data-ttu-id="d7c2c-110">最后，将输出一条错误消息或作者的姓名和 ID。</span><span class="sxs-lookup"><span data-stu-id="d7c2c-110">Finally, an error message or the author's name and ID are printed.</span></span>
+<span data-ttu-id="e1d9c-113">最后，将输出一条错误消息或作者的姓名和 ID。</span><span class="sxs-lookup"><span data-stu-id="e1d9c-113">Finally, an error message or the author's name and ID are printed.</span></span>
 
 ```vb 
  

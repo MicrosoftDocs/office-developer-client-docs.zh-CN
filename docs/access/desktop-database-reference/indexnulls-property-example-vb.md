@@ -1,23 +1,17 @@
 ---
-title: IndexNulls 属性示例 (VB)
-TOCTitle: IndexNulls Property Example (VB)
-ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
-ms:contentKeyID: 48545417
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f35220f3c9426686a452e184330b8704fabb961a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468718"
+<span data-ttu-id="937f6-101"><<<<<<< 标头标题： IndexNulls 属性示例 (VB) TOCTitle: IndexNulls 属性示例 (VB) === 标题： IndexNulls 属性示例 (VB) TOCTitle: IndexNulls 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="937f6-101"><<<<<<< HEAD title: IndexNulls Property Example (VB) TOCTitle: IndexNulls Property Example (VB) ======= title: IndexNulls property example (VB) TOCTitle: IndexNulls property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="937f6-102">母版页 ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: 48545417 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="937f6-102">master ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: 48545417 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="indexnulls-property-example-vb"></a><span data-ttu-id="e01b4-102">IndexNulls 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e01b4-102">IndexNulls Property Example (VB)</span></span>
 
-<span data-ttu-id="e01b4-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="e01b4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="937f6-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="937f6-103"><<<<<<< HEAD</span></span>
+# <a name="indexnulls-property-example-vb"></a><span data-ttu-id="937f6-104">IndexNulls 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="937f6-104">IndexNulls Property Example (VB)</span></span>
+=======
+# <a name="indexnulls-property-example-vb"></a><span data-ttu-id="937f6-105">IndexNulls 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="937f6-105">IndexNulls property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="937f6-106">master</span><span class="sxs-lookup"><span data-stu-id="937f6-106">master</span></span>
 
-<span data-ttu-id="e01b4-104">本示例演示 [Index](indexnulls-property-adox.md) 的 [IndexNulls](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="e01b4-104">This example demonstrates the [IndexNulls](indexnulls-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="e01b4-105">代码创建新的索引，并根据用户输入（来自名为 List1 的列表框）设置 **IndexNulls** 的值。</span><span class="sxs-lookup"><span data-stu-id="e01b4-105">The code creates a new index and sets the value of **IndexNulls** based on user input (from a list box named List1).</span></span> <span data-ttu-id="e01b4-106">然后，**索引**追加到*罗斯文*[目录](catalog-object-adox.md)中的**Employees** [表](table-object-adox.md)。</span><span class="sxs-lookup"><span data-stu-id="e01b4-106">Then, the **Index** is appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="e01b4-107">新的 **Index** 应用于基于 [Employees](recordset-object-ado.md) （雇员）表的 **Recordset**，并且该 **Recordset** 被打开。</span><span class="sxs-lookup"><span data-stu-id="e01b4-107">The new **Index** is applied to a [Recordset](recordset-object-ado.md) based on the **Employees** table, and the **Recordset** is opened.</span></span> <span data-ttu-id="e01b4-108">有一条新记录添加到 **Employees** （雇员）表中，并且索引字段为 **Null** 值。</span><span class="sxs-lookup"><span data-stu-id="e01b4-108">A new record is added to the **Employees** table, with a **Null** value in the indexed field.</span></span> <span data-ttu-id="e01b4-109">此新记录是否显示取决于 **IndexNulls** 属性的设置。</span><span class="sxs-lookup"><span data-stu-id="e01b4-109">Whether this new record is displayed depends on the setting of the **IndexNulls** property.</span></span>
+<span data-ttu-id="937f6-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="937f6-107">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="937f6-108">本示例演示 [Index](indexnulls-property-adox.md) 的 [IndexNulls](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="937f6-108">This example demonstrates the [IndexNulls](indexnulls-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="937f6-109">代码创建新的索引，并根据用户输入（来自名为 List1 的列表框）设置 **IndexNulls** 的值。</span><span class="sxs-lookup"><span data-stu-id="937f6-109">The code creates a new index and sets the value of **IndexNulls** based on user input (from a list box named List1).</span></span> <span data-ttu-id="937f6-110">然后，**索引**追加到*罗斯文*[目录](catalog-object-adox.md)中的**Employees** [表](table-object-adox.md)。</span><span class="sxs-lookup"><span data-stu-id="937f6-110">Then, the **Index** is appended to the **Employees** [Table](table-object-adox.md) in the *Northwind* [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="937f6-111">新的 **Index** 应用于基于 [Employees](recordset-object-ado.md) （雇员）表的 **Recordset**，并且该 **Recordset** 被打开。</span><span class="sxs-lookup"><span data-stu-id="937f6-111">The new **Index** is applied to a [Recordset](recordset-object-ado.md) based on the **Employees** table, and the **Recordset** is opened.</span></span> <span data-ttu-id="937f6-112">有一条新记录添加到 **Employees** （雇员）表中，并且索引字段为 **Null** 值。</span><span class="sxs-lookup"><span data-stu-id="937f6-112">A new record is added to the **Employees** table, with a **Null** value in the indexed field.</span></span> <span data-ttu-id="937f6-113">此新记录是否显示取决于 **IndexNulls** 属性的设置。</span><span class="sxs-lookup"><span data-stu-id="937f6-113">Whether this new record is displayed depends on the setting of the **IndexNulls** property.</span></span>
 
 ```vb
     ' IndexNullsVB 

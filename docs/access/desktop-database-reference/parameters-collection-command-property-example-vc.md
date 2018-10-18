@@ -1,24 +1,18 @@
 ---
-title: Parameters 集合与 Command 属性示例 (VC++)
-TOCTitle: Parameters Collection, Command Property Example (VC++)
-ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
-ms:contentKeyID: 48545237
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: b6fd25d09338e15086fc520c1d4b3a83b859d9a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465862"
+<span data-ttu-id="a690b-101"><<<<<<< 标头标题： Parameters 集合、 Command 属性示例 （VC + +） TOCTitle: Parameters 集合与 Command 属性示例 （VC + +） === 标题： Parameters 集合与 Command 属性示例 （VC + +） TOCTitle:Parameters 集合与 Command 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="a690b-101"><<<<<<< HEAD title: Parameters Collection, Command Property Example (VC++) TOCTitle: Parameters Collection, Command Property Example (VC++) ======= title: Parameters Collection, Command property example (VC++) TOCTitle: Parameters Collection, Command property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="a690b-102">母版页 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15) ms:contentKeyID: 48545237 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="a690b-102">master ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15) ms:contentKeyID: 48545237 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="parameters-collection-command-property-example-vc"></a><span data-ttu-id="420e5-102">Parameters 集合与 Command 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="420e5-102">Parameters Collection, Command Property Example (VC++)</span></span>
+
+<span data-ttu-id="a690b-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="a690b-103"><<<<<<< HEAD</span></span>
+# <a name="parameters-collection-command-property-example-vc"></a><span data-ttu-id="a690b-104">Parameters 集合与 Command 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="a690b-104">Parameters Collection, Command Property Example (VC++)</span></span>
+=======
+# <a name="parameters-collection-command-property-example-vc"></a><span data-ttu-id="a690b-105">Parameters 集合与 Command 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="a690b-105">Parameters Collection, Command property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="a690b-106">master</span><span class="sxs-lookup"><span data-stu-id="a690b-106">master</span></span>
 
 
-<span data-ttu-id="420e5-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="420e5-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a690b-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="a690b-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="420e5-104">下面的代码演示如何将 [Command](command-property-adox.md) 属性与 [Command](command-object-ado.md) 对象结合使用，以检索过程的参数信息。</span><span class="sxs-lookup"><span data-stu-id="420e5-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
+<span data-ttu-id="a690b-108">下面的代码演示如何将 [Command](command-property-adox.md) 属性与 [Command](command-object-ado.md) 对象结合使用，以检索过程的参数信息。</span><span class="sxs-lookup"><span data-stu-id="a690b-108">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
 
 ```cpp 
  

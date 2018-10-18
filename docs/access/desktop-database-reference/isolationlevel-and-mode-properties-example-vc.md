@@ -1,24 +1,18 @@
 ---
-title: IsolationLevel 和 Mode 属性示例 (VC++)
-TOCTitle: IsolationLevel and Mode Properties Example (VC++)
-ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15)
-ms:contentKeyID: 48546050
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 44059c4955f0edfe86adc5b36816cc2d4737296f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467460"
+<span data-ttu-id="dec0f-101"><<<<<<< 标头标题： IsolationLevel 和 Mode 属性示例 （VC + +） TOCTitle: IsolationLevel 和 Mode 属性示例 （VC + +） === 标题： IsolationLevel 和模式属性示例 （VC + +） TOCTitle: IsolationLevel 和模式属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="dec0f-101"><<<<<<< HEAD title: IsolationLevel and Mode Properties Example (VC++) TOCTitle: IsolationLevel and Mode Properties Example (VC++) ======= title: IsolationLevel and Mode properties example (VC++) TOCTitle: IsolationLevel and Mode properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="dec0f-102">母版页 ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15) ms:contentKeyID: 48546050 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="dec0f-102">master ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15) ms:contentKeyID: 48546050 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="isolationlevel-and-mode-properties-example-vc"></a><span data-ttu-id="fa47c-102">IsolationLevel 和 Mode 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="fa47c-102">IsolationLevel and Mode Properties Example (VC++)</span></span>
+
+<span data-ttu-id="dec0f-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="dec0f-103"><<<<<<< HEAD</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vc"></a><span data-ttu-id="dec0f-104">IsolationLevel 和 Mode 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="dec0f-104">IsolationLevel and Mode Properties Example (VC++)</span></span>
+=======
+# <a name="isolationlevel-and-mode-properties-example-vc"></a><span data-ttu-id="dec0f-105">IsolationLevel 和模式属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="dec0f-105">IsolationLevel and Mode properties example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="dec0f-106">master</span><span class="sxs-lookup"><span data-stu-id="dec0f-106">master</span></span>
 
 
-<span data-ttu-id="fa47c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa47c-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="dec0f-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="dec0f-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="fa47c-104">本示例使用 [Mode](mode-property-ado.md) 属性打开一个独占连接，并使用 [IsolationLevel](isolationlevel-property-ado.md) 属性打开一个在其他事务的隔离级别上实施的事务。</span><span class="sxs-lookup"><span data-stu-id="fa47c-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="dec0f-108">本示例使用 [Mode](mode-property-ado.md) 属性打开一个独占连接，并使用 [IsolationLevel](isolationlevel-property-ado.md) 属性打开一个在其他事务的隔离级别上实施的事务。</span><span class="sxs-lookup"><span data-stu-id="dec0f-108">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```cpp 
  
@@ -255,7 +249,7 @@ void PrintComError(_com_error &e)
 // EndIsolationLevelCpp 
 ```
 
-<span data-ttu-id="fa47c-105">**IsolationLevelX.h**</span><span class="sxs-lookup"><span data-stu-id="fa47c-105">**IsolationLevelX.h**</span></span>
+<span data-ttu-id="dec0f-109">**IsolationLevelX.h**</span><span class="sxs-lookup"><span data-stu-id="dec0f-109">**IsolationLevelX.h**</span></span>
 
 ```cpp 
  

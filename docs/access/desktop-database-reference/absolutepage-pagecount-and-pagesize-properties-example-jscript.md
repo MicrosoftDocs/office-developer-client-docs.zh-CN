@@ -1,23 +1,22 @@
 ---
-title: AbsolutePage、PageCount 和 PageSize 属性示例 (JScript)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript)
-ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15)
-ms:contentKeyID: 48545506
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 60e302cc61b9bbf61a7183d5e74ea6a9dac4a135
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465737"
+<span data-ttu-id="f0934-101"><<<<<<< 标头标题： AbsolutePage、 PageCount 和 PageSize 属性示例 (JScript) TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl:https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: 48545506 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="f0934-101"><<<<<<< HEAD title: AbsolutePage, PageCount, and PageSize Properties Example (JScript) TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: 48545506 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="e7937-102">AbsolutePage、PageCount 和 PageSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="e7937-102">AbsolutePage, PageCount, and PageSize Properties Example (JScript)</span></span>
 
-<span data-ttu-id="e7937-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7937-103">**Applies to**: Access 2013 | Office 2013</span></span>
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="f0934-102">AbsolutePage、PageCount 和 PageSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="f0934-102">AbsolutePage, PageCount, and PageSize Properties Example (JScript)</span></span>
 
-<span data-ttu-id="e7937-104">以下示例演示 AbsolutePage、 PageCount 和 PageSize 属性。</span><span class="sxs-lookup"><span data-stu-id="e7937-104">This example demonstrates the AbsolutePage, PageCount, and PageSize properties.</span></span> <span data-ttu-id="e7937-105">请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **AbsolutePageJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="e7937-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+<span data-ttu-id="f0934-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f0934-103">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<a name="this-example-demonstrates-the-absolutepage-pagecount-and-pagesize-properties-cut-and-paste-the-following-code-to-notepad-or-another-text-editor-and-save-it-as-absolutepagejsasp"></a><span data-ttu-id="f0934-104">以下示例演示 AbsolutePage、 PageCount 和 PageSize 属性。</span><span class="sxs-lookup"><span data-stu-id="f0934-104">This example demonstrates the AbsolutePage, PageCount, and PageSize properties.</span></span> <span data-ttu-id="f0934-105">请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **AbsolutePageJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="f0934-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+=======
+<span data-ttu-id="f0934-106">标题： AbsolutePage、 PageCount 和 PageSize 属性示例 (JScript) TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID:48545506 ms.date: 10/17/2018 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="f0934-106">title: AbsolutePage, PageCount, and PageSize properties example (JScript) TOCTitle: AbsolutePage, PageCount, and PageSize properties example (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: 48545506 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
+---
+
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="f0934-107">AbsolutePage、 PageCount 和 PageSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="f0934-107">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
+
+<span data-ttu-id="f0934-108">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f0934-108">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="f0934-109">此示例使用 [AbsolutePage](absolutepage-property-ado.md)、[PageCount](pagecount-property-ado.md) 和 [PageSize](pagesize-property-ado.md) 属性显示 ***Employees***（雇员）表中的姓名和雇用日期，每次显示五条记录。</span><span class="sxs-lookup"><span data-stu-id="f0934-109">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="f0934-110">请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **AbsolutePageJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="f0934-110">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+>>>>>>> <span data-ttu-id="f0934-111">master</span><span class="sxs-lookup"><span data-stu-id="f0934-111">master</span></span>
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 
