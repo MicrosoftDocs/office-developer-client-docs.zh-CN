@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249401(v=office.15)
 ms:contentKeyID: 48545353
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 929b166a308276836fbe4a48a2461ef7eb0caba2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fd0fdc8f64207e1233ac56812ef009da865ce01a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465542"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603460"
 ---
 # <a name="internettimeout-property-rds"></a>InternetTimeout 属性 (RDS)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25465542"
 
 指示请求超时前等待的毫秒数。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个 **Long** 值，该值表示请求超时前等待的毫秒数。
 

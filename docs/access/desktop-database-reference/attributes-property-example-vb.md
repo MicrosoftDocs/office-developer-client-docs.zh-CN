@@ -1,19 +1,13 @@
 ---
-title: Attributes 属性示例 (VB)
-TOCTitle: Attributes Property Example (VB)
-ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
-ms:contentKeyID: 48547442
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6041c142d8ba097478877a37f1412eb3a0901366
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465530"
+<<<<<<< 标头标题： Attributes 属性示例 (VB) TOCTitle: Attributes 属性示例 (VB) === 标题： Attributes 属性示例 (VB) TOCTitle: Attributes 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: 48547442 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="attributes-property-example-vb"></a>Attributes 属性示例 (VB)
+=======
+# <a name="attributes-property-example-vb"></a>Attributes 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

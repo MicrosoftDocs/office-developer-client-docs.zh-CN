@@ -1,19 +1,13 @@
 ---
-title: OriginalValue 和 UnderlyingValue 属性示例 (VB)
-TOCTitle: OriginalValue and UnderlyingValue Properties Example (VB)
-ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15)
-ms:contentKeyID: 48548189
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ab68cf5d1c398503b9d261bfb7a7b2e49a89a3d0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467076"
+<<<<<<< 标头标题： OriginalValue 和 UnderlyingValue 属性示例 (VB) TOCTitle: OriginalValue 和 UnderlyingValue 属性示例 (VB) === 标题： OriginalValue 和 UnderlyingValue 属性示例 (VB) TOCTitle:OriginalValue 和 UnderlyingValue 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15) ms:contentKeyID: 48548189 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a>OriginalValue 和 UnderlyingValue 属性示例 (VB)
+=======
+# <a name="originalvalue-and-underlyingvalue-properties-example-vb"></a>OriginalValue 和 UnderlyingValue 属性示例 (VB)
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

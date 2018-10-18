@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
 ms:contentKeyID: 48543705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c31950eda813ee4f3f07145d28a83106cf86b3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7276e642e15137bdcfcb939330a3642d96e9a5a2
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466641"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605175"
 ---
 # <a name="optimize-property--dynamic-ado"></a>Optimize 属性  动态 (ADO)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25466641"
 
 指定是否应在字段上创建索引。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个 **Boolean** 值，指示是否应创建索引。
 

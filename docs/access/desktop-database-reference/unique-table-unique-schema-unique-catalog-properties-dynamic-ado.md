@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
 ms:contentKeyID: 48548374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd21c8b7c71f5fe1c95d347758e486f3854efab0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 71701d605a9a9b156de7b2c6a23100e30932aaea
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466231"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602088"
 ---
 # <a name="unique-table-unique-schema-unique-catalog-properties--dynamic-ado"></a>Unique Table、Unique Schema、Unique Catalog 属性  动态 (ADO)
 
@@ -26,7 +26,11 @@ ms.locfileid: "25466231"
 
   - **Unique Catalog** 指定包含该表的数据库的*目录*或名称。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个表示表、架构或目录的名称的 **String** 值。
 

@@ -1,19 +1,13 @@
 ---
-title: DateCreated 和 DateModified 属性示例 (VB)
-TOCTitle: DateCreated and DateModified Properties Example (VB)
-ms:assetid: 5afdb5a9-394f-c38f-83a4-ae7017673c5e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249316(v=office.15)
-ms:contentKeyID: 48545063
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 31054def63b15e3beb5e6a3013596d192db6932f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465911"
+<<<<<<< 标头标题： DateCreated 和 DateModified 属性示例 (VB) TOCTitle: DateCreated 和 DateModified 属性示例 (VB) === 标题： DateCreated 和 DateModified 属性示例 (VB) TOCTitle: DateCreated 和DateModified 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 5afdb5a9-394f-c38f-83a4-ae7017673c5e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249316(v=office.15) ms:contentKeyID: 48545063 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="datecreated-and-datemodified-properties-example-vb"></a>DateCreated 和 DateModified 属性示例 (VB)
+=======
+# <a name="datecreated-and-datemodified-properties-example-vb"></a>DateCreated 和 DateModified 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

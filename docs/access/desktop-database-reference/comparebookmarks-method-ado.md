@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd6949c74e27cfb961b2a8731030b0af3b14ceb8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9fc4cf3540d22d3981bb13a7af3251dd625c2c99
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466126"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606246"
 ---
 # <a name="comparebookmarks-method-ado"></a>CompareBookmarks 方法 (ADO)
 
@@ -24,7 +24,11 @@ ms.locfileid: "25466126"
 
 *结果* = *recordset*。CompareBookmarks （*Bookmark1*、 *Bookmark2*）
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 返回一个 [CompareEnum](compareenum.md) 值，指示用书签所表示的两个记录的行相对位置。
 

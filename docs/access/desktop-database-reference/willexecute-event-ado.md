@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8a5c739ffd408a1f53539c88a3bdc4169eb4cebe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f3cdf4764cca2b40cee62f9d66ea748a4e627a5f
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465859"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606841"
 ---
 # <a name="willexecute-event-ado"></a>WillExecute 事件 (ADO)
 
@@ -63,7 +63,9 @@ WillExecute*源*， *CursorType*， *LockType*、*选项*、 *adStatus*、 *pCom
 
 ## <a name="remarks"></a>备注
 
-**WillExecute**事件可能出现 0:**连接。**[执行](https://msdn.microsoft.com/library/jj249832\(v=office.15\))**命令。**[执行](https://msdn.microsoft.com/library/jj248785\(v=office.15\))，或**Recordset。**[Open](open-method-ado-recordset.md)方法的*pConnection*参数应始终包含对**Connection**对象的有效引用。 如果由于**Connection.Execute**事件，在*pRecordset*和*pCommand*参数设置为**Nothing**。 如果由于**Recordset.Open**事件， *pRecordset*参数将引用的**Recordset**对象和*pCommand*参数设置为**Nothing**。 如果由于**Command.Execute**事件， *pCommand*参数将引用的**Command**对象和*pRecordset*参数设置为**Nothing**。
+<<<<<<< 标头**WillExecute**事件可能出现 0:**连接。**[执行](https://msdn.microsoft.com/library/jj249832\(v=office.15\))**命令。**[执行](https://msdn.microsoft.com/library/jj248785\(v=office.15\))，或**Recordset。**[Open](open-method-ado-recordset.md)方法的*pConnection*参数应始终包含对**Connection**对象的有效引用。 如果由于**Connection.Execute**事件，在*pRecordset*和*pCommand*参数设置为**Nothing**。 如果由于**Recordset.Open**事件， *pRecordset*参数将引用的**Recordset**对象和*pCommand*参数设置为**Nothing**。 如果由于**Command.Execute**事件， *pCommand*参数将引用的**Command**对象和*pRecordset*参数设置为**Nothing**。
+=== **WillExecute**事件可能会发生 0:**连接。**[执行](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)**命令。**[执行](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)，或**Recordset。**[Open](open-method-ado-recordset.md)方法的*pConnection*参数应始终包含对**Connection**对象的有效引用。 如果由于**Connection.Execute**事件，在*pRecordset*和*pCommand*参数设置为**Nothing**。 如果由于**Recordset.Open**事件， *pRecordset*参数将引用的**Recordset**对象和*pCommand*参数设置为**Nothing**。 如果由于**Command.Execute**事件， *pCommand*参数将引用的**Command**对象和*pRecordset*参数设置为**Nothing**。
+>>>>>>> master
 
 **WillExecute** 允许您检查和修改挂起的执行的参数。该事件可以返回取消挂起的命令的请求。
 

@@ -1,19 +1,13 @@
 ---
-title: Command 和 CommandText 属性示例 (VB)
-TOCTitle: Command and CommandText Properties Example (VB)
-ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
-ms:contentKeyID: 48545462
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0614e0bdd539abf237b78cae42386a3cb070ca41
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468063"
+<<<<<<< 标头标题： Command 和 CommandText 属性示例 (VB) TOCTitle： 命令和 CommandText 属性示例 (VB) === 标题： Command 和 CommandText 属性示例 (VB) TOCTitle: Command 和 CommandText属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 6bf35604-401b-0727-85e8-ac2ecda368df ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15) ms:contentKeyID: 48545462 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="command-and-commandtext-properties-example-vb"></a>Command 和 CommandText 属性示例 (VB)
+=======
+# <a name="command-and-commandtext-properties-example-vb"></a>Command 和 CommandText 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

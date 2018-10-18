@@ -1,19 +1,13 @@
 ---
-title: Attributes 和 Name 属性示例 (VC++)
-TOCTitle: Attributes and Name Properties Example (VC++)
-ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15)
-ms:contentKeyID: 48545203
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 56346ce15c2598686ab3684a1a972e276d94e939
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468845"
+<<<<<<< 标头标题： 属性和 Name 属性示例 （VC + +） TOCTitle: Attributes 和 Name 属性示例 （VC + +） === 标题： 属性和 Name 属性示例 （VC + +） TOCTitle： 属性和 Name 属性示例 （VC++)
+>>>>>>> 母版页 ms:assetid: 612b7d4a-b92d-5afd-eeaa-28d7ad1a880a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15) ms:contentKeyID: 48545203 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="attributes-and-name-properties-example-vc"></a>Attributes 和 Name 属性示例 (VC++)
+=======
+# <a name="attributes-and-name-properties-example-vc"></a>Attributes 和 Name 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

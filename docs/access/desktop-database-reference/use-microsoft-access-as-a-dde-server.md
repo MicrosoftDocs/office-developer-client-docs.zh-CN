@@ -1,22 +1,11 @@
 ---
-title: Microsoft Access 用作 DDE 服务器
-TOCTitle: Use Microsoft Access as a DDE Server
-ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15)
-ms:contentKeyID: 48546801
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- vbaac10.chm5186349
-f1_categories:
+标题： 使用 Microsoft Access 用作 DDE 服务器 TOCTitle： 使用 Microsoft Access 用作 DDE 服务器 <<<<<<< 标头 ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15) ms:contentKeyID: 48546801 ms.date: 09/18/2015年 ===说明： Microsoft Access 支持动态数据交换 (DDE) 作为目标 （客户端） 应用程序或源 （服务器） 应用程序。  
+ms:assetid: a3e82bf7-94b5-8eec-86bc-2d5387d66738 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821067(v=office.15) ms:contentKeyID: 48546801 ms.date: 10/16/2018
+>>>>>>> 主 mtps_version: office.15.aspx f1_keywords:
+- vbaac10.chm5186349 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 84b4e30877488d84e03839764c1996053e76a2e7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468062"
 ---
+
 # <a name="use-microsoft-access-as-a-dde-server"></a>Microsoft Access 用作 DDE 服务器
 
 **适用于**： Access 2013 |Office 2013 
@@ -26,12 +15,15 @@ Microsoft Access 以目标（客户端）应用程序或源（服务器）应用
 > [!TIP]
 > [!提示] 如果要从另一个应用程序中操纵 Microsoft Access 对象，可能需要考虑使用"自动化"。
 
-客户端和服务器之间的 DDE 对话是建立在特定的主题上的。主题可以是服务器应用程序所支持格式的数据文件，也可以是提供有关服务器应用程序本身信息的 System 主题。开始了特定主题的对话后，只能传送与该主题相关的数据项。
+<<<<<<< 标头 DDE 会话客户端和服务器之间建立在特定的主题。 主题可以是服务器应用程序所支持格式的数据文件，也可以是提供有关服务器应用程序本身信息的 System 主题。 开始了特定主题的对话后，只能传送与该主题相关的数据项。
+=== DDE 对话客户端和服务器之间建立在特定的主题。 主题可以是服务器应用程序所支持格式的数据文件，也可以是提供有关服务器应用程序本身信息的 System 主题。 在特定的主题开始对话后，可以传送仅与该主题相关的数据项。
+>>>>>>> master
 
 例如，假定您正在运行 Microsoft Word，并要将一个特定的 Microsoft Access 数据库中的数据插入到文档中。通过使用 **DDEInitiate** 函数将 DDE 通道打开，并指定数据库文件名称作为主题，即可开始与 Microsoft Access 的 DDE 对话，然后就可以通过该通道将数据库中的数据传送给 Microsoft Word。
 
 作为 DDE 服务器，Microsoft Access 支持以下主题：
 
+<<<<<<< 标头
   - System 主题
 
   - 数据库的名称（*database* 主题）
@@ -63,6 +55,33 @@ Microsoft Access 以目标（客户端）应用程序或源（服务器）应用
 > <P>[!注释] 当客户端应用程序通过 DDE 通道接收完数据后，应关闭该通道以节省内存资源。</P>
 
 
+=======
+- System 主题
+
+- 数据库的名称（*database* 主题）
+
+- 表的名称（*tablename* 主题）
+
+- 查询的名称（*queryname* 主题）
+
+- Microsoft Access SQL 字符串（*sqlstring* 主题）
+
+已建立 DDE 会话后，您可以使用**DDEExecute**语句将命令从客户端发送到服务器应用程序。 Microsoft Access 在用作 DDE 服务器时，将以下命令均识别为有效命令：
+
+- 当前数据库中的宏名称。
+
+- 可在 Visual Basic 中使用 **DoCmd** 对象的某个方法执行的任何操作。
+
+- 仅用于 DDE 运算的 OpenDatabase 和 CloseDatabase 操作。（有关如何使用这些操作的示例，请参阅本主题后面部分的示例。）
+
+> [!NOTE]
+> [!注释] 当将一个宏操作指定为 **DDEExecute** 语句时，该操作和所有参数均遵循 **DoCmd** 对象的语法且必须包含在方括号 ([ ]) 中。但支持 DDE 的应用程序并不识别 DDE 运算中的固有常量。同样，如果字符串包含逗号，则必须将该字符串参数包括在引号 (" ") 中。否则，就不需要引号。
+
+通过打开的 DDE 通道，客户端应用程序可以使用 **DDERequest** 函数向服务器应用程序请求文本数据。 反之，客户端可以使用 **DDEPoke** 语句将数据发送到服务器应用程序。 数据传输完成后，客户端可使用**DDETerminate**语句关闭 DDE 通道或**DDETerminateAll**语句关闭所有打开的通道。
+
+> [!NOTE]
+> [!注释] 当客户端应用程序通过 DDE 通道接收完数据后，应关闭该通道以节省内存资源。
+>>>>>>> master
 
 下面的示例将演示如何用 Visual Basic 创建 Microsoft Word 过程，并将 Microsoft Access 用作 DDE 服务器。（必须正在运行 Microsoft Access，才能使该示例工作。）
 
@@ -93,11 +112,17 @@ Microsoft Access 以目标（客户端）应用程序或源（服务器）应用
     End Sub
 ```
 
-以下章节提供有关 Microsoft Access 支持的有效 DDE 主题的信息。
+<a name="-head"></a><<<<<<< 标头
+=======
+<br/>
+
+>>>>>>> 以下各节提供有关 Microsoft Access 支持的有效 DDE 主题的信息的主控形状。
 
 ## <a name="the-system-topic"></a>System 主题
 
-System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主题。 它提供有关支持的应用程序的其他主题的信息。 若要访问此信息，您的代码必须首先调用**DDEInitiate**函数与作为*topic*参数，然后使用*item*参数提供下列选项之一执行**DDERequest**语句。
+<<<<<<< 标头 System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主题。 它提供有关支持的应用程序的其他主题的信息。 若要访问此信息，您的代码必须首先调用**DDEInitiate**函数与作为*topic*参数，然后使用*item*参数提供下列选项之一执行**DDERequest**语句。
+=== System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主题。 它提供有关支持的应用程序的其他主题的信息。 若要访问此信息，您的代码必须首先调用**DDEInitiate**函数与*topic*参数，然后使用*item*参数提供下列选项之一执行**DDERequest**语句。
+>>>>>>> master
 
 <table>
 <colgroup>
@@ -130,6 +155,10 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 </tbody>
 </table>
 
+<a name="-head"></a><<<<<<< 标头
+=======
+<br/>
+>>>>>>> master
 
 下面的示例说明如何使用带有 System 主题的 **DDEInitiate** 和 **DDERequest** 函数：
 
@@ -149,11 +178,16 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 
 *Database*主题是数据库的一个现有的文件名。 您可以键入刚的基名称 (Northwind) 或其路径和.mdb 扩展名 (c:\\访问\\示例\\Northwind.mdb)。 在开始与该数据库的 DDE 对话以后，可以请求该数据库中的对象列表。
 
+<<<<<<< 标头
 
 > [!NOTE]
 > <P>[!注释] 不能使用 DDE 来查询 Microsoft Access 工作组信息文件。</P>
 
 
+=======
+> [!NOTE]
+> [!注释] 不能使用 DDE 来查询 Microsoft Access 工作组信息文件。
+>>>>>>> master
 
 *database* 主题支持以下项目。
 
@@ -171,6 +205,7 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 <tbody>
 <tr class="odd">
 <td><p>TableList</p></td>
+<<<<<<< 标头
 <td><p>表列表。</p></td>
 </tr>
 <tr class="even">
@@ -192,6 +227,29 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 <tr class="even">
 <td><p>ModuleList</p></td>
 <td><p>模块列表。</p></td>
+=======
+<td><p>表的列表</p></td>
+</tr>
+<tr class="even">
+<td><p>QueryList</p></td>
+<td><p>查询列表</p></td>
+</tr>
+<tr class="odd">
+<td><p>FormList</p></td>
+<td><p>窗体列表</p></td>
+</tr>
+<tr class="even">
+<td><p>ReportList</p></td>
+<td><p>报表的列表</p></td>
+</tr>
+<tr class="odd">
+<td><p>MacroList</p></td>
+<td><p>宏列表</p></td>
+</tr>
+<tr class="even">
+<td><p>ModuleList</p></td>
+<td><p>模块列表</p></td>
+>>>>>>>主控形状
 </tr>
 <tr class="odd">
 <td><p>ViewList</p></td>
@@ -208,8 +266,12 @@ System 主题是标准的所有 Microsoft – 基于 Windows 的应用程序主�
 </tbody>
 </table>
 
+<a name="-head"></a><<<<<<< 标头
+=======
+<br/>
+>>>>>>> master
 
-下面的示例显示如何从 Visual Basic 过程中打开“罗斯文”示例数据库中的“雇员”窗体：
+下面的示例显示如何从 Visual Basic 过程中打开"罗斯文"示例数据库中的"雇员"窗体：
 
 ```vb
     ' In Visual Basic, initiate DDE conversation with 
@@ -295,6 +357,7 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 </tr>
 <tr class="even">
 <td><p>FieldNames;T</p></td>
+<<<<<<< 标头
 <td><p>字段名（第一行）及其数据类型（第二行）的双行列表。</p></td>
 </tr>
 <tr class="odd">
@@ -356,6 +419,28 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 <tr class="odd">
 <td><p></p></td>
 <td><p>12</p></td>
+=======
+<td><p>字段名（第一行）及其数据类型（第二行）的双行列表。</p>
+<p>下面是返回的值：</p>
+<p>值</p>
+<p><ul>
+<li>0</li>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+<li>6</li>
+<li>7</li>
+<li>8</li>
+<li>9</li>
+<li>10</li>
+<li>11</li>
+<li>12</li>
+</ul>
+</p>
+</td>
+>>>>>>>主控形状
 </tr>
 <tr class="even">
 <td><p>NextRow</p></td>
@@ -388,6 +473,10 @@ _databasename_ ;**SQL**[ _sqlstring_ ]
 </tbody>
 </table>
 
+<a name="-head"></a><<<<<<< 标头
+=======
+<br/>
+>>>>>>> master
 
 下面的示例显示在 Visual Basic 过程中如何使用 DDE 请求"罗斯文"示例数据库的表中的数据，并将该数据插入到文本文件中：
 

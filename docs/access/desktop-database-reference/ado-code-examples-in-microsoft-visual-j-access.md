@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249854(v=office.15)
 ms:contentKeyID: 48547184
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 329494a2389c3f054bf036b20f7a6f794708e0a0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36aa7d4adfa5499b2e41661009895057d6ea6faa
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467915"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606465"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j-access"></a>ADO Code Examples in Microsoft Visual J++ (Access)
 
@@ -20,6 +20,7 @@ ms.locfileid: "25467915"
 
   - [Microsoft Visual J++ 中的 ADO 代码示例](ado-code-examples-in-microsoft-visual-j.md)
 
+<<<<<<< 标头
   - [AbsolutePage、PageCount 和 PageSize 属性示例 (VJ++)](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [AbsolutePosition 和 CursorLocation 属性示例 (VJ++)](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -28,7 +29,18 @@ ms.locfileid: "25467915"
 
   - [ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VJ++)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
 
-  - [ActualSize 和 DefinedSize 属性示例 (VJ++)](actualsize-and-definedsize-properties-example-vj.md)
+  - [ActualSize 和 DefinedSize 属性示例 （VJ + +）](actualsize-and-definedsize-properties-example-vj.md)
+=======
+  - [AbsolutePage、 PageCount 和 PageSize 属性示例 （VJ + +）](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
+
+  - [AbsolutePosition 和 CursorLocation 属性示例 （VJ + +）](absoluteposition-and-cursorlocation-properties-example-vj.md)
+
+  - [ActiveCommand 属性示例 （VJ + +）](activecommand-property-example-vj.md)
+
+  - [ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例 （VJ + +）](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
+
+  - [ActualSize 和 DefinedSize 属性示例 （VJ + +）](actualsize-and-definedsize-properties-example-vj.md)
+>>>>>>> master
 
   - [AddNew 方法示例 (VJ++)](addnew-method-example-vj.md)
 
@@ -36,13 +48,23 @@ ms.locfileid: "25467915"
 
   - [AppendChunk 和 GetChunk 方法示例 (VJ++)](appendchunk-and-getchunk-methods-example-vj.md)
 
+<<<<<<< 标头
   - [Attributes 和 Name 属性示例 (VJ++)](attributes-and-name-properties-example-vj.md)
 
   - [BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VJ++)](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
 
   - [BOF、EOF 和 Bookmark 属性示例 (VJ++)](bof-eof-and-bookmark-properties-example-vj.md)
 
-  - [CacheSize 属性示例 (VJ++)](cachesize-property-example-vj.md)
+  - [CacheSize 属性示例 （VJ + +）](cachesize-property-example-vj.md)
+=======
+  - [Attributes 和 Name 属性示例 （VJ + +）](attributes-and-name-properties-example-vj.md)
+
+  - [BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VJ++)](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
+
+  - [BOF、 EOF 和 Bookmark 属性示例 （VJ + +）](bof-eof-and-bookmark-properties-example-vj.md)
+
+  - [CacheSize 属性示例 （VJ + +）](cachesize-property-example-vj.md)
+>>>>>>> master
 
   - [Cancel 方法示例 (VJ++)](cancel-method-example-vj.md)
 
@@ -50,6 +72,7 @@ ms.locfileid: "25467915"
 
   - [CompareBookmarks 方法示例 (VJ++)](comparebookmarks-method-example-vj.md)
 
+<<<<<<< 标头
   - [ConnectionString、ConnectionTimeout 和 State 属性示例 (VJ++)](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
 
   - [Count 属性示例 (VJ++)](count-property-example-vj.md)
@@ -62,7 +85,22 @@ ms.locfileid: "25467915"
 
   - [Execute、Requery 和 Clear 方法示例 (VJ++)](execute-requery-and-clear-methods-example-vj.md)
 
-  - [Filter 和 RecordCount 属性示例 (VJ++)](filter-and-recordcount-properties-example-vj.md)
+  - [Filter 和 RecordCount 属性示例 （VJ + +）](filter-and-recordcount-properties-example-vj.md)
+=======
+  - [ConnectionString、 ConnectionTimeout 和 State 属性示例 （VJ + +）](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
+
+  - [Count 属性示例 （VJ + +）](count-property-example-vj.md)
+
+  - [CursorType、 LockType 和 EditMode 属性示例 （VJ + +）](cursortype-locktype-and-editmode-properties-example-vj.md)
+
+  - [Delete 方法示例 (VJ++)](delete-method-example-vj.md)
+
+  - [Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 （VJ + +）](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
+
+  - [Execute、Requery 和 Clear 方法示例 (VJ++)](execute-requery-and-clear-methods-example-vj.md)
+
+  - [Filter 和 RecordCount 属性示例 （VJ + +）](filter-and-recordcount-properties-example-vj.md)
+>>>>>>> master
 
   - [Find 方法示例 (VJ++)](find-method-example-vj.md)
 
@@ -70,13 +108,23 @@ ms.locfileid: "25467915"
 
   - [GetString 方法示例 (VJ++)](getstring-method-example-vj.md)
 
+<<<<<<< 标头
   - [IsolationLevel 和 Mode 属性示例 (VJ++)](isolationlevel-and-mode-properties-example-vj.md)
 
   - [Item 属性示例 (VJ++)](item-property-example-vj.md)
 
   - [MarshalOptions 属性示例 (VJ++)](marshaloptions-property-example-vj.md)
 
-  - [MaxRecords 属性示例 (VJ++)](maxrecords-property-example-vj.md)
+  - [MaxRecords 属性示例 （VJ + +）](maxrecords-property-example-vj.md)
+=======
+  - [IsolationLevel 和模式属性示例 （VJ + +）](isolationlevel-and-mode-properties-example-vj.md)
+
+  - [Item 属性示例 （VJ + +）](item-property-example-vj.md)
+
+  - [MarshalOptions 属性示例 （VJ + +）](marshaloptions-property-example-vj.md)
+
+  - [MaxRecords 属性示例 （VJ + +）](maxrecords-property-example-vj.md)
+>>>>>>> master
 
   - [Move 方法示例 (VJ++)](move-method-example-vj.md)
 
@@ -84,19 +132,33 @@ ms.locfileid: "25467915"
 
   - [NextRecordset 方法示例 (VJ++)](nextrecordset-method-example-vj.md)
 
-  - [NumericScale 和 Precision 属性示例 (VJ++)](numericscale-and-precision-properties-example-vj.md)
+<<<<<<< 标头
+  - [NumericScale 和 Precision 属性示例 （VJ + +）](numericscale-and-precision-properties-example-vj.md)
+=======
+  - [NumericScale 和 Precision 属性示例 （VJ + +）](numericscale-and-precision-properties-example-vj.md)
+>>>>>>> master
 
   - [Open 和 Close 方法示例 (VJ++)](open-and-close-methods-example-vj.md)
 
   - [OpenSchema 方法示例 (VJ++)](openschema-method-example-vj.md)
 
+<<<<<<< 标头
   - [Optimize 属性示例 (VJ++)](optimize-property-example-vj.md)
 
   - [OriginalValue 和 UnderlyingValue 属性示例 (VJ++)](originalvalue-and-underlyingvalue-properties-example-vj.md)
 
   - [Prepared 属性示例 (VJ++)](prepared-property-example-vj.md)
 
-  - [Provider 和 DefaultDatabase 属性示例 (VJ++)](provider-and-defaultdatabase-properties-example-vj.md)
+  - [Provider 和 DefaultDatabase 属性示例 （VJ + +）](provider-and-defaultdatabase-properties-example-vj.md)
+=======
+  - [Optimize 属性示例 （VJ + +）](optimize-property-example-vj.md)
+
+  - [OriginalValue 和 UnderlyingValue 属性示例 （VJ + +）](originalvalue-and-underlyingvalue-properties-example-vj.md)
+
+  - [Prepared 的属性示例 （VJ + +）](prepared-property-example-vj.md)
+
+  - [Provider 和 DefaultDatabase 属性示例 （VJ + +）](provider-and-defaultdatabase-properties-example-vj.md)
+>>>>>>> master
 
   - [Refresh 方法示例 (VJ++)](refresh-method-example-vj.md)
 
@@ -104,6 +166,7 @@ ms.locfileid: "25467915"
 
   - [Save 和 Open 方法示例 (VJ++)](save-and-open-methods-example-vj.md)
 
+<<<<<<< 标头
   - [Sort 属性示例 (VJ++)](sort-property-example-vj.md)
 
   - [Source 属性示例 (VJ++)](source-property-example-vj.md)
@@ -112,7 +175,18 @@ ms.locfileid: "25467915"
 
   - [Status 属性示例 (VJ++)](status-property-example-vj.md)
 
-  - [StayInSync 属性示例 (VJ++)](stayinsync-property-example-vj.md)
+  - [StayInSync 属性示例 （VJ + +）](stayinsync-property-example-vj.md)
+=======
+  - [Sort 属性示例 （VJ + +）](sort-property-example-vj.md)
+
+  - [Source 属性示例 （VJ + +）](source-property-example-vj.md)
+
+  - [State 属性示例 （VJ + +）](state-property-example-vj.md)
+
+  - [Status 属性示例 （VJ + +）](status-property-example-vj.md)
+
+  - [StayInSync 属性示例 （VJ + +）](stayinsync-property-example-vj.md)
+>>>>>>> master
 
   - [Supports 方法示例 (VJ++)](supports-method-example-vj.md)
 
@@ -120,7 +194,13 @@ ms.locfileid: "25467915"
 
   - [UpdateBatch 和 CancelBatch 方法示例 (VJ++)](updatebatch-and-cancelbatch-methods-example-vj.md)
 
+<<<<<<< 标头
   - [Value 属性示例 (VJ++)](value-property-example-vj.md)
 
-  - [Version 属性示例 (VJ++)](version-property-example-vj.md)
+  - [Version 属性示例 （VJ + +）](version-property-example-vj.md)
+=======
+  - [Value 属性示例 （VJ + +）](value-property-example-vj.md)
+
+  - [Version 属性示例 （VJ + +）](version-property-example-vj.md)
+>>>>>>> master
 

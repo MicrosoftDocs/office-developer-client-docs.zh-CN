@@ -1,20 +1,14 @@
 ---
-title: AbsolutePage、PageCount 和 PageSize 属性示例 (VJ++)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VJ++)
-ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15)
-ms:contentKeyID: 48545480
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 776129bcd3adfedbe25aa6df6a30a5c0d8339263
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467892"
+<<<<<<< 标头标题： AbsolutePage、 PageCount 和 PageSize 属性示例 （VJ + +） TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 （VJ + +） ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15)ms:contentKeyID: 48545480 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-vj"></a>AbsolutePage、PageCount 和 PageSize 属性示例 (VJ++)
 
+=== 标题： AbsolutePage、 PageCount 和 PageSize 属性示例 （VJ + +） TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 （VJ + +） ms:assetid: 6cdf3880-1d77-5826-1d7b-7bf61a886d1b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249431(v=office.15) ms:contentKeyID:48545480 ms.date: 10/17/2018 mtps_version: office.15.aspx
+---
+
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vj"></a>AbsolutePage、 PageCount 和 PageSize 属性示例 （VJ + +）
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

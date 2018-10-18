@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249791(v=office.15)
 ms:contentKeyID: 48546955
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f16715de6f9b82080b402379baf6ac3d83ddc5c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d1bca66c6d770dca75a2716a56559cdc785eb356
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468093"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603404"
 ---
 # <a name="relatedcolumn-property-adox"></a>RelatedColumn 属性 (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25468093"
 
 指示相关表中相关列的名称（仅限键列）。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置和返回一个 **String** 值，该值为相关表中相关列的名称。
 

@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9f8fbed638c07e55b3ecb1730633dceee2b5c7e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bf41e23b56a05c8c119713b7fb459a34ca526169
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465917"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602511"
 ---
 # <a name="the-ole-db-provider-for-internet-publishing"></a>OLE DB Provider for Internet Publishing
 
 
 **适用于**： Access 2013 |Office 2013
 
-可以将 ADO [Record](record-object-ado.md) 和 [Stream](stream-object-ado.md) 对象与 Microsoft OLE DB Provider for Internet Publishing (Internet Publishing Provider) 结合使用来访问和操作资源（如 Microsoft FrontPage 提供的 Web 文件夹或文件）。使用 ADO，可以指定要成为 URL 的 **Record** 、 **Stream** 或 [Recordset](recordset-object-ado.md) 的源。然后，可以上载、下载、移动、复制和删除资源，或者直接操作资源属性。
+<<<<<<< 标头 ADO [Record](record-object-ado.md)和[Stream](stream-object-ado.md)对象可用于 Microsoft OLE DB Provider for Internet Publishing (Internet Publishing Provider) 来访问和处理资源，如 Web 文件夹或文件提供服务Microsoft frontpage。 使用 ADO，可以指定要成为 URL 的 **Record** 、 **Stream** 或 [Recordset](recordset-object-ado.md) 的源。 然后，可以上载、下载、移动、复制和删除资源，或者直接操作资源属性。
+=== 的 ADO [Record](record-object-ado.md)和[Stream](stream-object-ado.md)对象可用于 Microsoft OLE DB Provider for Internet Publishing (Internet Publishing Provider) 来访问和处理资源，如 web 文件夹或由 Microsoft FrontPage 的文件。 使用 ADO，可以指定要成为 URL 的 **Record** 、 **Stream** 或 [Recordset](recordset-object-ado.md) 的源。 然后，可以上载、下载、移动、复制和删除资源，或者直接操作资源属性。
+>>>>>>> master
 
 有关将 **Records** 和 **Streams** 与 Internet Publishing Provider 一起使用的示例代码，请参阅 [Internet Publishing 方案](internet-publishing-scenario.md)。
 

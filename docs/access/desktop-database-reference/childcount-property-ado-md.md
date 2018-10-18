@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fb6edf995651241d15b9bc9fc9df1ce507801bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 84e2e9873e076128c42e9fa7ae46d902f47865c7
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467149"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606022"
 ---
 # <a name="childcount-property-ado-md"></a>ChildCount 属性 (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25467149"
 
 指示在层次结构中将当前 [Member](member-object-ado-md.md) 对象作为父级的成员的数量。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个 **Long** 整数值，并且该值为只读。
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
 ms:contentKeyID: 48545952
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c1071751df32fbfe89a4ee47e9c6a0613dce68e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 806b2292b12bededd299a0ef628601589afe0ce9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468194"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603138"
 ---
 # <a name="record-object-ado"></a>Record 对象 (ADO)
 
@@ -36,9 +36,14 @@ ms.locfileid: "25468194"
 
 **Record** 对象的数据修改和导航方法也接受相对 URL，相对 URL 使用绝对 URL 或 **Connection** 对象上下文作为起始点来定位资源。
 
+<<<<<<< 标头
 
 > [!NOTE]
-> <P>[!注释] 使用 http 方案的 URL 将自动调用 <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>。有关详细信息，请参阅<A href="absolute-and-relative-urls.md">绝对和相对 URL</A>。</P>
+> <P>[!注释] 使用 HTTP 架构的 URL 将自动调用 <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>。有关详细信息，请参阅<A href="absolute-and-relative-urls.md">绝对 URL 和相对 URL</A>。</P>
+=======
+> [!NOTE]
+> [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
+>>>>>>> master
 
 
 

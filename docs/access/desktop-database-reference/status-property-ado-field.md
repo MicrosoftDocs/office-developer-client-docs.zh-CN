@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249507(v=office.15)
 ms:contentKeyID: 48545795
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8cee702f8255515c316333327c7a008c10952476
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 41534132fd4f199294e317310215d4f6e8ac5426
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466928"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603264"
 ---
 # <a name="status-property-ado-field"></a>Status 属性 (ADO Field)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25466928"
 
 指示 [Field](field-object-ado.md) 对象的状态。
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 返回一个 [FieldStatusEnum](fieldstatusenum.md) 值。默认值是 **adFieldOK** 。
 

@@ -1,19 +1,13 @@
 ---
-title: Value 属性示例 (VJ++)
-TOCTitle: Value Property Example (VJ++)
-ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
-ms:contentKeyID: 48543474
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 981e9df0b152979008cff31f7b11b2f59dcc682c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465790"
+<<<<<<< 标头标题： Value 属性示例 （VJ + +） TOCTitle: Value 属性示例 （VJ + +） === 标题： Value 属性示例 （VJ + +） TOCTitle: Value 属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15) ms:contentKeyID: 48543474 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="value-property-example-vj"></a>Value 属性示例 (VJ++)
+=======
+# <a name="value-property-example-vj"></a>Value 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

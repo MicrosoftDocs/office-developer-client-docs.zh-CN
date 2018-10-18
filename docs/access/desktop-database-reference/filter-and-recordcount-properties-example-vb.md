@@ -1,19 +1,13 @@
 ---
-title: Filter 和 RecordCount 属性示例 (VB)
-TOCTitle: Filter and RecordCount Properties Example (VB)
-ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
-ms:contentKeyID: 48544354
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7900a7c6c49aac179ee331042b11c725cfcb90ad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468929"
+<<<<<<< 标头标题： Filter 和 RecordCount 属性示例 (VB) TOCTitle: Filter 和 RecordCount 属性示例 (VB) === 标题： Filter 和 RecordCount 属性示例 (VB) TOCTitle: Filter 和 RecordCount 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: 48544354 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="filter-and-recordcount-properties-example-vb"></a>Filter 和 RecordCount 属性示例 (VB)
+=======
+# <a name="filter-and-recordcount-properties-example-vb"></a>Filter 和 RecordCount 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

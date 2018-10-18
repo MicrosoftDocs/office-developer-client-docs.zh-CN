@@ -1,19 +1,13 @@
 ---
-title: Provider 和 DefaultDatabase 属性示例 (VB)
-TOCTitle: Provider and DefaultDatabase Properties Example (VB)
-ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
-ms:contentKeyID: 48544107
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 445315a3d5271d5566667916180a05de74d44980
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466187"
+<<<<<<< 标头标题： Provider 和 DefaultDatabase 属性示例 (VB) TOCTitle: Provider 和 DefaultDatabase 属性示例 (VB) === 标题： Provider 和 DefaultDatabase 属性示例 (VB) TOCTitle： 提供程序和DefaultDatabase 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: 48544107 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="provider-and-defaultdatabase-properties-example-vb"></a>Provider 和 DefaultDatabase 属性示例 (VB)
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vb"></a>Provider 和 DefaultDatabase 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

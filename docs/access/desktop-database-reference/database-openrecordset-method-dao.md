@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: acb56a306bef248ceb7ab9aacd03f8ad25477726
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0dd33e24914d7e45d8678379df5825a42ef0b6fd
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468148"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605833"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset 方法 (DAO)
 
@@ -93,7 +93,11 @@ ms.locfileid: "25468148"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 Recordset
 

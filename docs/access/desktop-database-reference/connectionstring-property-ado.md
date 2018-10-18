@@ -1,26 +1,24 @@
 ---
-title: ConnectionString 属性 (ADO)
-TOCTitle: ConnectionString Property (ADO)
-ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15)
-ms:contentKeyID: 48547627
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 90e884f821c3ca7667020ffe041b4e064555c02b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468117"
+<<<<<<< 标头标题： ConnectionString 属性 (ADO) TOCTitle: ConnectionString 属性 (ADO) === 标题： ConnectionString 属性 (ADO) TOCTitle: ConnectionString 属性 (ADO)
+>>>>>>> 母版页 ms:assetid: c67a7daf-258f-d99d-6475-a4aa98d1e99d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15) ms:contentKeyID: 48547627 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="connectionstring-property-ado"></a>ConnectionString 属性 (ADO)
+=======
+# <a name="connectionstring-property-ado"></a>ConnectionString 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013
 
 指示用于建立数据源连接的信息。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个 **String** 值。
 

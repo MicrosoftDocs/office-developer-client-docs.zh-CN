@@ -1,19 +1,13 @@
 ---
-title: DataSource 属性 (ADO)
-TOCTitle: DataSource Property (ADO)
-ms:assetid: 5c5d6c9b-b7d4-45a5-0f6a-a5580a74361e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15)
-ms:contentKeyID: 48545087
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: fb1c65adcc6e7c513feeea1a506fc222c6b13e19
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468735"
+<<<<<<< 标头标题： DataSource 属性 (ADO) TOCTitle: DataSource 属性 (ADO) === 标题： DataSource 属性 (ADO) TOCTitle: DataSource 属性 (ADO)
+>>>>>>> 母版页 ms:assetid: 5c5d6c9b-b7d4-45a5-0f6a-a5580a74361e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15) ms:contentKeyID: 48545087 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="datasource-property-ado"></a>DataSource 属性 (ADO)
+=======
+# <a name="datasource-property-ado"></a>DataSource 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

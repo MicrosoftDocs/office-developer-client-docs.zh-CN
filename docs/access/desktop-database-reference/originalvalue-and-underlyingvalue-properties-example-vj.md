@@ -1,19 +1,13 @@
 ---
-title: OriginalValue 和 UnderlyingValue 属性示例 (VJ++)
-TOCTitle: OriginalValue and UnderlyingValue Properties Example (VJ++)
-ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
-ms:contentKeyID: 48545233
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6aaaa219fad82290a9e135edbf56998201d908d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466824"
+<<<<<<< 标头标题： OriginalValue 和 UnderlyingValue 属性示例 （VJ + +） TOCTitle: OriginalValue 和 UnderlyingValue 属性示例 （VJ + +） === 标题： OriginalValue 和 UnderlyingValue 属性示例 （VJ + +）TOCTitle: OriginalValue 和 UnderlyingValue 属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15) ms:contentKeyID: 48545233 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue 和 UnderlyingValue 属性示例 (VJ++)
+=======
+# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue 和 UnderlyingValue 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

@@ -1,26 +1,24 @@
 ---
-title: EditMode 属性 (ADO)
-TOCTitle: EditMode Property (ADO)
-ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
-ms:contentKeyID: 48543867
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a6c8377e0fa0fc2db1ec2d376ee3c8b9f16e8c99
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466232"
+<<<<<<< 标头标题： EditMode 属性 (ADO) TOCTitle: EditMode 属性 (ADO) === 标题： EditMode 属性 (ADO) TOCTitle: EditMode 属性 (ADO)
+>>>>>>> 母版页 ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID: 48543867 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="editmode-property-ado"></a>EditMode 属性 (ADO)
+=======
+# <a name="editmode-property-ado"></a>EditMode 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013
 
 指示当前记录的编辑状态。
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 返回 [EditModeEnum](editmodeenum.md) 值。
 

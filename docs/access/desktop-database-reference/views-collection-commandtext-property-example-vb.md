@@ -1,19 +1,13 @@
 ---
-title: Views 集合与 CommandText 属性示例 (VB)
-TOCTitle: Views Collection, CommandText Property Example (VB)
-ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
-ms:contentKeyID: 48545120
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a9e290c656d0d66dc180c86429c305588eac26d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465695"
+<<<<<<< 标头标题： Views 集合、 CommandText 属性示例 (VB) TOCTitle: Views 集合、 CommandText 属性示例 (VB) === 标题： Views 集合，CommandText 属性示例 (VB) TOCTitle: Views 集合CommandText 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID: 48545120 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="views-collection-commandtext-property-example-vb"></a>Views 集合与 CommandText 属性示例 (VB)
+=======
+# <a name="views-collection-commandtext-property-example-vb"></a>Views 集合，CommandText 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

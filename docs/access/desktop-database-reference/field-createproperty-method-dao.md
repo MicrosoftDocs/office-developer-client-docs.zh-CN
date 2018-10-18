@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
 ms:contentKeyID: 48547202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: da540f657b1b5bc6cc5442588ea63c3ade72fd2b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a5b911e9e02380e9ea6aa85100e2a60b3b086a49
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466195"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602998"
 ---
 # <a name="fieldcreateproperty-method-dao"></a>Field.CreateProperty Method (DAO)
 
@@ -72,7 +72,11 @@ ms.locfileid: "25466195"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 属性
 

@@ -1,19 +1,13 @@
 ---
-title: IsolationLevel 和 Mode 属性示例 (VJ++)
-TOCTitle: IsolationLevel and Mode Properties Example (VJ++)
-ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
-ms:contentKeyID: 48547711
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6b8ff091d17a8e46ad6439ef7964ab4a8ff87e00
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465718"
+<<<<<<< 标头标题： IsolationLevel 和 Mode 属性示例 （VJ + +） TOCTitle: IsolationLevel 和 Mode 属性示例 （VJ + +） === 标题： IsolationLevel 和模式属性示例 （VJ + +） TOCTitle: IsolationLevel 和模式属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID: 48547711 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="isolationlevel-and-mode-properties-example-vj"></a>IsolationLevel 和 Mode 属性示例 (VJ++)
+=======
+# <a name="isolationlevel-and-mode-properties-example-vj"></a>IsolationLevel 和模式属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250072(v=office.15)
 ms:contentKeyID: 48547959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7eefb2a3582f177e2a5de5597d2150b0030a882
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0b1d54b474683806349b849d8c80b0d371db8b8b
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465569"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604279"
 ---
 # <a name="attributes-property-adox"></a>Attributes 属性 (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25465569"
 
 描述列的特征。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个 **Long** 值。该值指定 [Column](column-object-adox.md) 对象所表示的表的特征，并且可为多个 [ColumnAttributesEnum](columnattributesenum.md) 常量的组合。默认值为零 (0)，表示既不是 **adColFixed** ，也不是 **adColNullable** 。
 

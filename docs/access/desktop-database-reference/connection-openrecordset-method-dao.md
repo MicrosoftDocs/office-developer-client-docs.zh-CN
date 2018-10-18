@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52dcd2c09d04ca0cb7078c946edc4525fe49280d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0b777e53bfad06e0b6c98490f7ec8bf3628c2823
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466938"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603178"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset Method (DAO)
 
@@ -90,7 +90,11 @@ ms.locfileid: "25466938"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 Recordset
 

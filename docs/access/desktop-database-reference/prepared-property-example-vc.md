@@ -1,19 +1,13 @@
 ---
-title: Prepared 属性示例 (VC++)
-TOCTitle: Prepared Property Example (VC++)
-ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
-ms:contentKeyID: 48546562
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5af614ada8ddc1ef68c40655cc0afb6832975d81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466257"
+<<<<<<< 标头标题： 只有在准备好属性示例 （VC + +） TOCTitle： 只有在准备好属性示例 （VC + +） === 标题： Prepared 的属性示例 （VC + +） TOCTitle: Prepared 的属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID: 48546562 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="prepared-property-example-vc"></a>Prepared 属性示例 (VC++)
+=======
+# <a name="prepared-property-example-vc"></a>Prepared 的属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

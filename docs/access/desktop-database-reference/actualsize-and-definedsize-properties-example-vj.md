@@ -1,20 +1,14 @@
 ---
-title: ActualSize 和 DefinedSize 属性示例 (VJ++)
-TOCTitle: ActualSize and DefinedSize Properties Example (VJ++)
-ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15)
-ms:contentKeyID: 48544261
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d4b078d2012b73da0470d24568518658d38c02d7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466875"
+<<<<<<< 标头标题： ActualSize 和 DefinedSize 属性示例 （VJ + +） TOCTitle: ActualSize 和 DefinedSize 属性示例 （VJ + +） ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15) ms:contentKeyID:48544261 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
 # <a name="actualsize-and-definedsize-properties-example-vj"></a>ActualSize 和 DefinedSize 属性示例 (VJ++)
 
+=== 标题： ActualSize 和 DefinedSize 属性示例 （VJ + +） TOCTitle: ActualSize 和 DefinedSize 属性示例 （VJ + +） ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15) ms:contentKeyID: 48544261 ms.date: 10/17/2018mtps_version: office.15.aspx
+---
+
+# <a name="actualsize-and-definedsize-properties-example-vj"></a>ActualSize 和 DefinedSize 属性示例 （VJ + +）
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 168799b517598211ca9de680730490a0a41d1dde
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0098e646ea48656f44bd3ccd380ae41efc94ffba
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468899"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606935"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Microsoft OLE DB Provider for ODBC
 
@@ -79,7 +79,11 @@ MSDASQL
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
+<<<<<<< 标头
 <td><p>指定 Web 文件夹中已发布文件或目录的 URL。</p></td>
+=======
+<td><p>指定文件或目录 web 文件夹中发布的 URL。</p></td>
+>>>>>>>主控形状
 </tr>
 </tbody>
 </table>

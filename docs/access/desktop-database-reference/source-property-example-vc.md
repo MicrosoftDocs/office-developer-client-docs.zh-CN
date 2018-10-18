@@ -1,19 +1,13 @@
 ---
-title: Source 属性示例 (VC++)
-TOCTitle: Source Property Example (VC++)
-ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
-ms:contentKeyID: 48543949
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7c0e4a5be5f6ec5e54bc598aeb183ff51109da56
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466116"
+<<<<<<< 标头标题： Source 属性示例 （VC + +） TOCTitle: Source 属性示例 （VC + +） === 标题： Source 属性示例 （VC + +） TOCTitle: Source 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID: 48543949 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="source-property-example-vc"></a>Source 属性示例 (VC++)
+=======
+# <a name="source-property-example-vc"></a>Source 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

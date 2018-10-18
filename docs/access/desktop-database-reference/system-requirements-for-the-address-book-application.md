@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8890e9dba072e2c35d9773ea389701bb7d631ee7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e1536b1a03ed0e7c873b2db06e76ee9b505ee00c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468491"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604426"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>通讯簿应用程序的系统要求
 
@@ -22,13 +22,15 @@ ms.locfileid: "25468491"
 
 **软件要求**
 
-运行此 Web 应用程序的服务器计算机软件要求如下：
+<<<<<<< 标头运行此 Web 应用程序的服务器计算机软件要求包括: === 运行此 web 应用程序的服务器计算机软件要求包括：
+>>>>>>> master
 
   - 带 Service Pack 3 或更高版本的 Microsoft Windows NT® Server 4.0，或 Microsoft Windows® 2000 Server。
 
   - 带 Active Server Pages 的 Microsoft Internet 信息服务 (IIS) 3.0 版或更高版本。
 
-运行此 Web 应用程序的客户端计算机软件要求包括：
+<<<<<<< 标头运行此 Web 应用程序的客户端计算机软件要求包括: === 运行此 web 应用程序的客户端计算机软件要求包括：
+>>>>>>> master
 
   - Microsoft Internet Explorer 4.0 或更高版本。
 

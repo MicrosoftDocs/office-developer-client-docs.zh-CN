@@ -1,19 +1,13 @@
 ---
-title: Keys 的 Append 方法、 Key 的 Type RelatedColumn 属性示例 （VC + +）
-TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)
-ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
-ms:contentKeyID: 48547840
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0181f93beee3546690ea2a4a806563b2cc220bc7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466181"
+<<<<<<< 标头标题： Keys 的 Append 方法，密钥类型 RelatedColumn 属性示例 （VC + +） TOCTitle: Keys 的 Append 方法、 密钥类型、 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 （VC + +） === 标题： Keys 的 Append 方法，项类型，RelatedColumn 属性示例 （VC + +） TOCTitle: Keys 的 Append 方法、 密钥类型、 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID: 48547840 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Keys 的 Append 方法，Key 的 Type、RelatedColumn、RelatedTable 和 UpdateRule 属性示例 (VC++)
+=======
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Keys 的 Append 方法，密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

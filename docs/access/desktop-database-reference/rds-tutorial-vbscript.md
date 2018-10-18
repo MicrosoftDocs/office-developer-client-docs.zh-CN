@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d8bc6d0bb2b2f5402a10a690bb0003170357b21
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d87dc84217b716505302464825a1857fecf67669
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467321"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606820"
 ---
 # <a name="rds-tutorial-vbscript"></a>RDS 教程 (VBScript)
 
@@ -43,7 +43,8 @@ ms.locfileid: "25467321"
 
 **步骤 1 - 指定服务器程序**
 
-VBScript 可以发现它运行其上的 IIS Web 服务器的名称，方法是访问可用于 Active Server Pages 的 VBScript **Request.ServerVariables** 方法：
+<<<<<<< 标头 VBScript 可以发现通过访问供 Active Server Pages 的 VBScript **Request.ServerVariables**方法运行的 IIS Web 服务器的名称: === VBScript 可以发现的 IIS web 名称服务器上运行它通过访问供 Active Server Pages 的 VBScript **Request.ServerVariables**方法：
+>>>>>>> master
 
 ```vb 
  

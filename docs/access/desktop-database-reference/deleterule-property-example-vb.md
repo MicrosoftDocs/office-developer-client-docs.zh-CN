@@ -1,19 +1,13 @@
 ---
-title: DeleteRule 属性示例 (VB)
-TOCTitle: DeleteRule Property Example (VB)
-ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15)
-ms:contentKeyID: 48544142
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: bdfcbd581c39faf4344701d322e47999c77b7bca
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467973"
+<<<<<<< 标头标题： DeleteRule 属性示例 (VB) TOCTitle: DeleteRule 属性示例 (VB) === 标题： DeleteRule 属性示例 (VB) TOCTitle: DeleteRule 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15) ms:contentKeyID: 48544142 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="deleterule-property-example-vb"></a>DeleteRule 属性示例 (VB)
+=======
+# <a name="deleterule-property-example-vb"></a>DeleteRule 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

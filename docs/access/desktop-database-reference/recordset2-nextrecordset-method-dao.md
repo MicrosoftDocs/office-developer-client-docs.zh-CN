@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4c0206b13fb8a846f50b5a2358d60d6807bdec26
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0f445014de9e2e1675d8667b33a0926529308995
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466194"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605273"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset Method (DAO)
 
@@ -28,7 +28,11 @@ ms.locfileid: "25466194"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 Boolean
 

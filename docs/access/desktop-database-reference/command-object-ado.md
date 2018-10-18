@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48f30471dd5df224e8fe01538dc02d85ded54d6a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466527"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605742"
 ---
 # <a name="command-object-ado"></a>Command 对象 (ADO)
 
@@ -34,7 +34,11 @@ ms.locfileid: "25466527"
 
   - 使用 [Parameter](parameter-object-ado.md) 对象和 [Parameters](parameters-collection-ado.md) 集合可定义参数化查询或存储过程参数。
 
+<<<<<<< 标头
   - 使用 **Execute** 方法可执行命令并返回 [Recordset](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) 对象（如果适用）。
+=======
+  - 使用 **Execute** 方法可执行命令并返回 [Recordset](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 对象（如果适用）。
+>>>>>>> master
 
   - 在执行命令之前，使用 [CommandType](commandtype-property-ado.md) 属性指定命令的类型可优化性能。
 

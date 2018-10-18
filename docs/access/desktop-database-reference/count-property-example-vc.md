@@ -1,19 +1,13 @@
 ---
-title: Count 属性示例 (VC++)
-TOCTitle: Count Property Example (VC++)
-ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15)
-ms:contentKeyID: 48545134
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9e2326e9773ee8ecb6959bfbc0c99ef2f0780391
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465791"
+<<<<<<< 标头标题： Count 属性示例 （VC + +） TOCTitle: Count 属性示例 （VC + +） === 标题： Count 属性示例 （VC + +） TOCTitle: Count 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15) ms:contentKeyID: 48545134 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="count-property-example-vc"></a>Count 属性示例 (VC++)
+=======
+# <a name="count-property-example-vc"></a>Count 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

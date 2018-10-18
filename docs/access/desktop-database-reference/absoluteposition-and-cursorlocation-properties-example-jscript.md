@@ -1,20 +1,14 @@
 ---
-title: AbsolutePosition 和 CursorLocation 属性示例 (JScript)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (JScript)
-ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15)
-ms:contentKeyID: 48548142
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5eb0358073aed527fdd2711645d2bbca3194d7bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465707"
+<<<<<<< 标头标题： AbsolutePosition 和 CursorLocation 属性示例 (JScript) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (JScript) ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl:https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID: 48548142 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
 # <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition 和 CursorLocation 属性示例 (JScript)
 
+=== 标题： AbsolutePosition 和 CursorLocation 属性示例 (JScript) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (JScript) ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID:48548142 ms.date: 10/17/2018 mtps_version: office.15.aspx
+---
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition 和 CursorLocation 属性示例 (JScript)
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 
@@ -29,7 +23,11 @@ ms.locfileid: "25465707"
 <html> 
  
 <head> 
+<<<<<<< HEAD
 <title>AbsolutePosition and CursorLocation Properties Example (JScript)</title> 
+=======
+<title>AbsolutePosition and CursorLocation properties example (JScript)</title> 
+>>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -54,7 +52,11 @@ BODY {
 </head> 
  
 <body> 
+<<<<<<< HEAD
 <h1>AbsolutePosition and CursorLocation Properties Example (JScript)</h1> 
+=======
+<h1>AbsolutePosition and CursorLocation properties example (JScript)</h1> 
+>>>>>>> master
 <% 
  // connection and recordset variables 
  var strCnxn = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

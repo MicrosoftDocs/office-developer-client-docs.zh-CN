@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
 ms:contentKeyID: 48546656
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9de96854eb08ff73fe9f70edf35dee972fd1a31e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e5a578d0a3e17bfa04c18ea4b2c69c43c22ffc5d
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466190"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606071"
 ---
 # <a name="the-ado-family-of-libraries"></a>ADO 系列库
 
@@ -26,7 +26,9 @@ ADO 系列包括三个主要库：ADO（包括 RDS）、ADO MD 和 ADOX。
 
 利用 ADO，您的客户端应用程序可以通过 OLE DB 提供程序访问和操控数据库服务器中的数据。ADO 的主要优势在于易用、高速、低内存开销而且磁盘空间需求量小。ADO 支持用于构建客户端/服务器和基于 Web 的应用程序的关键功能。
 
-ADO 还提供了远程数据服务 (RDS)，利用它可以将数据从服务器移动到客户端应用程序或网页，在客户端上操控数据，然后在单个来回行程中将更新返回给服务器。
+<<<<<<< 标头 ADO 还提供了远程数据服务 (RDS)，可以按其移动数据从服务器到客户端应用程序或 Web 页操作在客户端上的数据和往返返回到在单个服务器的更新。
+=== ADO 还提供了远程数据服务 (RDS)，可以通过其移动数据从服务器到客户端应用程序或网页，操作在客户端上的数据和往返返回到在单个服务器的更新。
+>>>>>>> master
 
 ## <a name="ado-md"></a>ADO MD
 

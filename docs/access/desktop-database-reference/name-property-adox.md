@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
 ms:contentKeyID: 48547674
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 51ea68718c7605df03ed8e4d44d4cb48011649fd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4ea92fcca60d0c2877bf89359aac4532356a9874
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465805"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604048"
 ---
 # <a name="name-property-adox"></a>Name 属性 (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25465805"
 
 指示对象的名称。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个 **String** 值。
 

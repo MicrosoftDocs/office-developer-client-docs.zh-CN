@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09e2b8238555a0d1b718f04c69f733039c1d8477
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 15009ca039d5df06bc732f4b58c066ad8f8d67c9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468936"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603761"
 ---
 # <a name="browseto-macro-action"></a>BrowseTo 宏操作
 
@@ -57,7 +57,11 @@ ms.locfileid: "25468936"
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
+<<<<<<< 标头
 <td><p>如果指定，将设置连续窗体中将成为当前页面的页面。该参数仅适用于 Web。</p></td>
+=======
+<td><p>如果指定，将设置连续窗体中将成为当前页面的页面。 此参数是仅 web。</p></td>
+>>>>>>>主控形状
 </tr>
 <tr class="even">
 <td><p>Data Mode</p></td>

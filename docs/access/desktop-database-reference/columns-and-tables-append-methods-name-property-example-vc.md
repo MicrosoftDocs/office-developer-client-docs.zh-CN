@@ -1,19 +1,13 @@
 ---
-title: Columns 和 Tables 的 Append 方法、Name 属性示例 (VC++)
-TOCTitle: Columns and Tables Append Methods, Name Property Example (VC++)
-ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
-ms:contentKeyID: 48545322
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2cfe3c66775228f73d21be3305ebac6b0972514b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466722"
+<<<<<<< 标头标题： 列和表格的 Append 方法、 Name 属性示例 （VC + +） TOCTitle： 列和表格 Append 方法、 Name 属性示例 （VC + +） === 标题： 列和表格 Append 方法、 Name 属性示例 （VC + +）TOCTitle： 列和表格 Append 方法、 Name 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15) ms:contentKeyID: 48545322 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Columns 和 Tables 的 Append 方法、Name 属性示例 (VC++)
+=======
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Columns 和 Tables 的 Append 方法、 Name 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

@@ -1,19 +1,13 @@
 ---
-title: Catalog 的 ActiveConnection 属性示例 (VB)
-TOCTitle: Catalog ActiveConnection Property Example (VB)
-ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15)
-ms:contentKeyID: 48543348
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3615932258524aedc2b81dbb5a7c88d71eff727e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467008"
+<<<<<<< 标头标题： 目录 ActiveConnection 属性示例 (VB) TOCTitle： 目录 ActiveConnection 属性示例 (VB) === 标题： 目录 ActiveConnection 属性示例 (VB) TOCTitle： 目录 ActiveConnection属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15) ms:contentKeyID: 48543348 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="catalog-activeconnection-property-example-vb"></a>Catalog 的 ActiveConnection 属性示例 (VB)
+=======
+# <a name="catalog-activeconnection-property-example-vb"></a>Catalog 的 ActiveConnection 属性示例 (VB)
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

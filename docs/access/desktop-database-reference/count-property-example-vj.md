@@ -1,19 +1,13 @@
 ---
-title: Count 属性示例 (VJ++)
-TOCTitle: Count Property Example (VJ++)
-ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15)
-ms:contentKeyID: 48545666
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 4dbe3120b1204525fceca2162fc3a102fe8caeb4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467590"
+<<<<<<< 标头标题： Count 属性示例 （VJ + +） TOCTitle: Count 属性示例 （VJ + +） === 标题： Count 属性示例 （VJ + +） TOCTitle: Count 属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15) ms:contentKeyID: 48545666 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="count-property-example-vj"></a>Count 属性示例 (VJ++)
+=======
+# <a name="count-property-example-vj"></a>Count 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

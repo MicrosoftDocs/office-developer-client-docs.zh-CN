@@ -1,19 +1,13 @@
 ---
-title: PrimaryKey 和 Unique 属性示例 (VC++)
-TOCTitle: PrimaryKey and Unique Properties Example (VC++)
-ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
-ms:contentKeyID: 48543158
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9cb0cdfa68ac3437e368e245a70a7743ac0b7724
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466963"
+<<<<<<< 标头标题： PrimaryKey 和唯一属性示例 （VC + +） TOCTitle: PrimaryKey 和唯一属性示例 （VC + +） === 标题： PrimaryKey 和 Unique 属性示例 （VC + +） TOCTitle: PrimaryKey 和 Unique 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey 和 Unique 属性示例 (VC++)
+=======
+# <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey 和 Unique 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

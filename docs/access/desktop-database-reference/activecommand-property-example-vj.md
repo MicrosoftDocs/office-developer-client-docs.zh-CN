@@ -1,20 +1,14 @@
 ---
-title: ActiveCommand 属性示例 (VJ++)
-TOCTitle: ActiveCommand Property Example (VJ++)
-ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15)
-ms:contentKeyID: 48548415
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 556bf57b1f6ebb27bf1119d0b4962d16aa38c2c6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468642"
+<<<<<<< 标头标题： ActiveCommand 属性示例 （VJ + +） TOCTitle: ActiveCommand 属性示例 （VJ + +） ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 09/18/2015年mtps_version: office.15.aspx
 ---
+
 # <a name="activecommand-property-example-vj"></a>ActiveCommand 属性示例 (VJ++)
 
+=== 标题： ActiveCommand 属性示例 （VJ + +） TOCTitle: ActiveCommand 属性示例 （VJ + +） ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID: 48548415 ms.date: 10/17/2018 mtps_version: office.15.aspx
+---
+
+# <a name="activecommand-property-example-vj"></a>ActiveCommand 属性示例 （VJ + +）
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

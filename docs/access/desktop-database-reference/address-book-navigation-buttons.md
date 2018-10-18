@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d68a15873bc5030fd51e54c2219a0ffd91f080f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9f37a188fd3ddb3608eda414fbdcea6402cd9d41
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467678"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603943"
 ---
 # <a name="address-book-navigation-buttons"></a>通讯簿导航按钮
 
 
 **适用于**： Access 2013 |Office 2013
 
-通讯簿应用程序在网页的底部显示导航按钮。您可以使用导航按钮，通过选择第一行或最后一行数据或与当前行相邻的行，在 HTML 网格显示中导航数据。
+<<<<<<< 标头的通讯簿应用程序底部的 Web 页上显示的导航按钮。 您可以使用导航按钮，通过选择第一行或最后一行数据或与当前行相邻的行，在 HTML 网格显示中导航数据。
+=== 通讯簿应用程序的网页底部显示的导航按钮。 您可以使用导航按钮，通过选择第一行或最后一行数据或与当前行相邻的行，在 HTML 网格显示中导航数据。
+>>>>>>> master
 
 ## <a name="navigation-sub-procedures"></a>导航子过程
 

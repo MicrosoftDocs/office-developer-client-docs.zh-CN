@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60eb05d87e7d31d283cdcf29c0f6240892fe29ef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f98872c3eae47e1b657e0b16b5df5b5c46b421a5
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466939"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607016"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions 属性 (RDS)
 
@@ -60,5 +60,7 @@ ms.locfileid: "25466939"
 
 ## <a name="remarks"></a>备注
 
-在 Web 应用程序中，通常会使用 **adcFetchAsync** （默认值），因为该值能提供更好的性能。而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
+<<<<<<< 标头中 Web 应用程序中，将通常想要使用**adcFetchAsync** （默认值），因为它提供了更好的性能。 而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
+=== 在 web 应用程序，您通常需要使用**adcFetchAsync** （默认值），因为它提供了更好的性能。 而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
+>>>>>>> master
 

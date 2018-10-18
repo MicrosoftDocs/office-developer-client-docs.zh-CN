@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05edf4979f7fe3a7084f2ab7a7b27f058447eac8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bbcba1ea6a495904e36f5ef085d52a67809019f
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466331"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602557"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Workspace.OpenDatabase Method (DAO)
 
@@ -71,7 +71,11 @@ ms.locfileid: "25466331"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 Database
 

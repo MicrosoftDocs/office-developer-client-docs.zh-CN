@@ -1,20 +1,14 @@
 ---
-title: ActiveCommand 属性示例 (VC++)
-TOCTitle: ActiveCommand Property Example (VC++)
-ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
-ms:contentKeyID: 48544157
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 02855ebac65b522ee9464143c4a28452b9831712
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467250"
+<<<<<<< 标头标题： ActiveCommand 属性示例 （VC + +） TOCTitle: ActiveCommand 属性示例 （VC + +） ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 09/18/2015年mtps_version: office.15.aspx
 ---
+
 # <a name="activecommand-property-example-vc"></a>ActiveCommand 属性示例 (VC++)
 
+=== 标题： ActiveCommand 属性示例 （VC + +） TOCTitle: ActiveCommand 属性示例 （VC + +） ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 10/17/2018 mtps_version: office.15.aspx
+---
+
+# <a name="activecommand-property-example-vc"></a>ActiveCommand 属性示例 （VC + +）
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

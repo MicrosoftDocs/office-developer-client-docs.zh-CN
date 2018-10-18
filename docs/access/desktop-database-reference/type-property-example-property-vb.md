@@ -1,19 +1,13 @@
 ---
-title: Type 属性示例（属性）(VB)
-TOCTitle: Type Property Example (Property) (VB)
-ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15)
-ms:contentKeyID: 48547209
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 2b99729b4826f25aa8b5f32475ad4b3f0921e849
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466636"
+<<<<<<< 标头标题： Type 属性示例 （属性） (VB) TOCTitle: Type 属性示例 （属性） (VB) === 标题： Type 属性示例 （属性） (VB) TOCTitle: Type 属性示例 （属性） (VB)
+>>>>>>> 母版页 ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15) ms:contentKeyID: 48547209 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="type-property-example-property-vb"></a>Type 属性示例（属性）(VB)
+=======
+# <a name="type-property-example-property-vb"></a>Type 属性示例 （属性） (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250189(v=office.15)
 ms:contentKeyID: 48548464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b867c44e80e3333d0dafdcef9fc166f4384e9469
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a834d9618d41e41c818a6a9d69788eff3724e8a7
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467864"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605469"
 ---
 # <a name="formattedvalue-property-ado-md"></a>FormattedValue 属性 (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25467864"
 
 指示单元格值的格式化显示。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个 **String** 值，并且该值为只读。
 

@@ -1,19 +1,13 @@
 ---
-title: Sort 属性示例 (VB)
-TOCTitle: Sort Property Example (VB)
-ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
-ms:contentKeyID: 48545539
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c537595c20253aba92224bceb6f46ae538f02f08
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466574"
+<<<<<<< 标头标题： Sort 属性示例 (VB) TOCTitle: Sort 属性示例 (VB) === 标题： Sort 属性示例 (VB) TOCTitle: Sort 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: 48545539 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="sort-property-example-vb"></a>Sort 属性示例 (VB)
+=======
+# <a name="sort-property-example-vb"></a>Sort 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

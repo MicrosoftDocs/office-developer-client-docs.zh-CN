@@ -1,19 +1,13 @@
 ---
-title: Type 属性示例（属性）(VC++)
-TOCTitle: Type Property Example (Property) (VC++)
-ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
-ms:contentKeyID: 48548168
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 31708d28134b42915b6c8e0ccef1b65b7f06fabb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467779"
+<<<<<<< 标头标题： Type 属性示例 （属性） （VC + +） TOCTitle: Type 属性示例 （属性） （VC + +） === 标题： Type 属性示例 （属性） （VC + +） TOCTitle: Type 属性示例 （属性） （VC + +）
+>>>>>>> 母版页 ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: 48548168 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="type-property-example-property-vc"></a>Type 属性示例（属性）(VC++)
+=======
+# <a name="type-property-example-property-vc"></a>Type 属性示例 （属性） （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

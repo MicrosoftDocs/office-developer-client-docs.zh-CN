@@ -1,26 +1,24 @@
 ---
-title: CacheSize 属性 (ADO)
-TOCTitle: CacheSize Property (ADO)
-ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
-ms:contentKeyID: 48544491
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ed4d104dcd6d0b90e6011a305cd3502cf671175b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468171"
+<<<<<<< 标头标题： CacheSize 属性 (ADO) TOCTitle: CacheSize 属性 (ADO) === 标题： CacheSize 属性 (ADO) TOCTitle: CacheSize 属性 (ADO)
+>>>>>>> 母版页 ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15) ms:contentKeyID: 48544491 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="cachesize-property-ado"></a>CacheSize 属性 (ADO)
+=======
+# <a name="cachesize-property-ado"></a>CacheSize 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013
 
 指示本地缓存在内存中的 [Recordset](recordset-object-ado.md) 对象的记录数。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个必须大于 0 的 **Long** 值。默认值为 1。
 

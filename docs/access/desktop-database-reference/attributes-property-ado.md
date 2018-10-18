@@ -1,23 +1,15 @@
 ---
-title: Attributes 属性 (ADO)
-TOCTitle: Attributes Property (ADO)
-ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15)
-ms:contentKeyID: 48544716
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- ado210.chm1231117
-f1_categories:
+<<<<<<< 标头标题： 属性属性 (ADO) TOCTitle： 属性属性 (ADO) === 标题： 属性属性 (ADO) TOCTitle： 属性属性 (ADO)
+>>>>>>> 母版页 ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15) ms:contentKeyID: 48544716 ms.date: 09/18/2015 mtps_version: office.15.aspx f1_keywords:
+- ado210.chm1231117 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9fa17593a5606d288e519969ff63f10a1df229ba
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466120"
 ---
+
+<<<<<<< 标头
 # <a name="attributes-property-ado"></a>Attributes 属性 (ADO)
+=======
+# <a name="attributes-property-ado"></a>Attributes 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013
@@ -27,9 +19,13 @@ ms.locfileid: "25466120"
 
 指示对象的一个或多个特征。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
-设置或返回一个 **Long** 值。
+设置或返回 **Long** 值。
 
 对于 [Connection](connection-object-ado.md) 对象， **Attributes** 属性为可读/写属性，其值可以为一个或多个 [XactAttributeEnum](xactattributeenum.md) 值的总和。默认值为零 (0)。
 

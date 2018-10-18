@@ -1,19 +1,13 @@
 ---
-title: IndexNulls 属性示例 (VB)
-TOCTitle: IndexNulls Property Example (VB)
-ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
-ms:contentKeyID: 48545417
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: f35220f3c9426686a452e184330b8704fabb961a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468718"
+<<<<<<< 标头标题： IndexNulls 属性示例 (VB) TOCTitle: IndexNulls 属性示例 (VB) === 标题： IndexNulls 属性示例 (VB) TOCTitle: IndexNulls 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: 48545417 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="indexnulls-property-example-vb"></a>IndexNulls 属性示例 (VB)
+=======
+# <a name="indexnulls-property-example-vb"></a>IndexNulls 属性示例 (VB)
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

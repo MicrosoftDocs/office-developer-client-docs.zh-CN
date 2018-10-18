@@ -1,19 +1,13 @@
 ---
-title: Filter 和 RecordCount 属性示例 (VJ++)
-TOCTitle: Filter and RecordCount Properties Example (VJ++)
-ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
-ms:contentKeyID: 48547798
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 34b80e88d933f4c2d2461ebb0b707ff1caf5ed5e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467768"
+<<<<<<< 标头标题： Filter 和 RecordCount 属性示例 （VJ + +） TOCTitle: Filter 和 RecordCount 属性示例 （VJ + +） === 标题： Filter 和 RecordCount 属性示例 （VJ + +） TOCTitle: Filter 和 RecordCount属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15) ms:contentKeyID: 48547798 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="filter-and-recordcount-properties-example-vj"></a>Filter 和 RecordCount 属性示例 (VJ++)
+=======
+# <a name="filter-and-recordcount-properties-example-vj"></a>Filter 和 RecordCount 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

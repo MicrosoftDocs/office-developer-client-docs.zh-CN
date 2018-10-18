@@ -10,21 +10,25 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c79d859b122eb3595c31b2ffcec192e2d69ed7b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7c9a3282f3bb508a4c68ecbd3f2c0465cfee9bac
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468597"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603096"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>初始化 Microsoft Excel 驱动程序
 
 
 **适用于**： Access 2013 |Office 2013
 
-安装 Microsoft® Excel 驱动程序时，安装程序会将一组默认值写入 Microsoft Windows® 注册表中的"Engines"和"ISAM Formats"子项。不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。以下各节说明了 Microsoft Excel 数据库驱动程序的初始化和 ISAM 格式设置。
+<<<<<<< 标头，当您安装 Microsoft® Excel 驱动程序，安装程序引擎和 ISAM 格式子项中的 Microsoft Windows® 注册表中写入一组默认值。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了 Microsoft Excel 数据库驱动程序的初始化和 ISAM 格式设置。
 
 ## <a name="microsoft-excel-initialization-settings"></a>Microsoft Excel 初始化设置
+=== 当您安装 Excel 驱动程序，安装程序引擎和 ISAM 格式子项中在 Windows 注册表中写入一组默认值。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了 Microsoft Excel 数据库驱动程序的初始化和 ISAM 格式设置。
+
+## <a name="excel-initialization-settings"></a>Excel 初始化设置
+>>>>>>> master
 
 **Access Connectivity 引擎\\引擎\\Excel**文件夹包括 Aceexcl.dll 驱动程序，用于向 Microsoft Excel 工作表的外部访问的初始化设置。 下面的示例显示了此文件夹中各项的典型设置。
 
@@ -147,4 +151,10 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 > [!NOTE]
 > [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
 
+<<<<<<< 标头
 
+=======
+## <a name="see-also"></a>另请参阅
+
+[使用 Excel 驱动程序 TypeGuessRows 设置](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+>>>>>>> master

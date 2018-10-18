@@ -1,19 +1,13 @@
 ---
-title: Provider 和 DefaultDatabase 属性示例 (VJ++)
-TOCTitle: Provider and DefaultDatabase Properties Example (VJ++)
-ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15)
-ms:contentKeyID: 48547380
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7d870c13824e7c14ad216bd614106d47f00b595a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467485"
+<<<<<<< 标头标题： Provider 和 DefaultDatabase 属性示例 （VJ + +） TOCTitle: Provider 和 DefaultDatabase 属性示例 （VJ + +） === 标题： Provider 和 DefaultDatabase 属性示例 （VJ + +） TOCTitle： 提供程序和 DefaultDatabase 属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15) ms:contentKeyID: 48547380 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="provider-and-defaultdatabase-properties-example-vj"></a>Provider 和 DefaultDatabase 属性示例 (VJ++)
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vj"></a>Provider 和 DefaultDatabase 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

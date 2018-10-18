@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
 ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47b7619123e9fd0761ff14f7938ae2bfe99f9b8a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 37fd3745966c9267006e6f67c85406d54b350dad
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467047"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606925"
 ---
 # <a name="indexcreateproperty-method-dao"></a>Index.CreateProperty Method (DAO)
 
@@ -72,7 +72,11 @@ ms.locfileid: "25467047"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 属性
 

@@ -1,26 +1,24 @@
 ---
-title: Mode 属性 (ADO)
-TOCTitle: Mode Property (ADO)
-ms:assetid: 62086f4f-8624-16c4-dae1-a17475d1864d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249365(v=office.15)
-ms:contentKeyID: 48545227
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6d258623756b53a82c06320185f9b75247087b2d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465518"
+<<<<<<< 标头标题： 模式属性 (ADO) TOCTitle： 模式属性 (ADO) === 标题： Mode 属性 (ADO) TOCTitle: Mode 属性 (ADO)
+>>>>>>> 母版页 ms:assetid: 62086f4f-8624-16c4-dae1-a17475d1864d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249365(v=office.15) ms:contentKeyID: 48545227 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="mode-property-ado"></a>Mode 属性 (ADO)
+=======
+# <a name="mode-property-ado"></a>Mode 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013
 
 指示在 [Connection](connection-object-ado.md)、[Record](record-object-ado.md) 或 [Stream](stream-object-ado.md) 对象中修改数据的可用权限。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个 [ConnectModeEnum](connectmodeenum.md) 值。**Connection** 的默认值为 **adModeUnknown**。**Record** 对象的默认值为 **adModeRead**。与基础源关联的 **Stream**（通过作为源的 URL 打开，或作为 **Record** 的默认 **Stream** 打开）的默认值为 **adModeRead**。不与基础源关联的 **Stream**（在内存中实例化）的默认值为 **adModeUnknown**。
 

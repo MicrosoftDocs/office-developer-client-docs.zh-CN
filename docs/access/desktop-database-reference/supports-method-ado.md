@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249059(v=office.15)
 ms:contentKeyID: 48543924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 61e6a4f3a5771c4d223380160204e4b0b350f210
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ceeab22cda05738fdcec090acb5b4a2d6fc88a5b
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465548"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604258"
 ---
 # <a name="supports-method-ado"></a>Supports 方法 (ADO)
 
@@ -24,7 +24,11 @@ ms.locfileid: "25465548"
 
 *boolean* = *recordset*。支持 (*CursorOptions*)
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 返回一个**Boolean**值，指示是否*CursorOptions*参数标识的功能的所有支持的提供程序。
 

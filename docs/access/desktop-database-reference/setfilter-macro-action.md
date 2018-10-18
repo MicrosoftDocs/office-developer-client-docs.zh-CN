@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fad18c6e7a9ca185e15598b532bbc6de4e5b4f9a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468326"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606393"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter 宏操作
 
@@ -41,14 +41,22 @@ ms.locfileid: "25468326"
 <tbody>
 <tr class="odd">
 <td><p>Filter Name</p></td>
+<<<<<<< 标头
 <td><p>如果提供该参数，则会将查询或筛选器的名称另存为查询。 客户端数据库中需要此参数或 WhereCondition 参数。 在 Web 数据库中，此参数不可用。</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
 <td><p>如果提供该参数，则为可限制数据表、窗体、报表或表中记录的 SQL WHERE 子句。在 Web 数据库中，该参数是必需的。</p></td>
+=======
+<td><p>如果提供该参数，则会将查询或筛选器的名称另存为查询。 客户端数据库中需要此参数或 WhereCondition 参数。 在 web 数据库中，此参数不可用。</p></td>
+</tr>
+<tr class="even">
+<td><p>Where Condition</p></td>
+<td><p>如果提供该参数，则为可限制数据表、窗体、报表或表中记录的 SQL WHERE 子句。 在 web 数据库中，此参数是必需的。</p></td>
+>>>>>>>主控形状
 </tr>
 <tr class="odd">
-<td><p>Control Name</p></td>
+<td><p>控件名称</p></td>
 <td><p>如果提供该参数，则为与要筛选的子窗体或子报表相对应的控件的名称。如果为空，则筛选当前对象。</p></td>
 </tr>
 </tbody>

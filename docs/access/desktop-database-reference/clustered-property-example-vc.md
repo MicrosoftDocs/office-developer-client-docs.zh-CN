@@ -1,19 +1,13 @@
 ---
-title: Clustered 属性示例 (VC++)
-TOCTitle: Clustered Property Example (VC++)
-ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
-ms:contentKeyID: 48546761
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5be7f193c339c2c002e5b1806103fbcca5306666
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468732"
+<<<<<<< 标头标题： 群集属性示例 （VC + +） TOCTitle： 群集属性示例 （VC + +） === 标题： Clustered 的属性示例 （VC + +） TOCTitle: Clustered 的属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID: 48546761 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="clustered-property-example-vc"></a>Clustered 属性示例 (VC++)
+=======
+# <a name="clustered-property-example-vc"></a>Clustered 的属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

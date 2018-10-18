@@ -1,19 +1,13 @@
 ---
-title: Version 属性示例 (VB)
-TOCTitle: Version Property Example (VB)
-ms:assetid: ffb7b04a-55b9-fa2f-41ec-44af225bd15f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15)
-ms:contentKeyID: 48548968
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 159a8c29db34c432ecd332c489ad3917eab00416
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467092"
+<<<<<<< 标头标题： 版本属性示例 (VB) TOCTitle： 版本属性示例 (VB) === 标题： Version 属性示例 (VB) TOCTitle: Version 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: ffb7b04a-55b9-fa2f-41ec-44af225bd15f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15) ms:contentKeyID: 48548968 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="version-property-example-vb"></a>Version 属性示例 (VB)
+=======
+# <a name="version-property-example-vb"></a>Version 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

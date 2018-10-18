@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249924(v=office.15)
 ms:contentKeyID: 48547462
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 284e2cac2c1a86d87e39d9913a262fbafb435ece
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0e067fbc90a0e05d31611d7284a735cf1cfe6aa1
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466275"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606778"
 ---
 # <a name="ordinal-property-ado-md-cell"></a>Ordinal 属性（ADO MD 单元格）
 
@@ -20,7 +20,11 @@ ms.locfileid: "25466275"
 
 根据单元格在单元格集内的位置唯一标识该单元格。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个 **Long** 整数值，并且该值为只读。
 

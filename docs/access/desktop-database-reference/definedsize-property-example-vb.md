@@ -1,19 +1,13 @@
 ---
-title: DefinedSize 属性示例 (VB)
-TOCTitle: DefinedSize Property Example (VB)
-ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15)
-ms:contentKeyID: 48543551
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 97676573e430c390344492480e84c6690f45ac95
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465932"
+<<<<<<< 标头标题： DefinedSize 属性示例 (VB) TOCTitle: DefinedSize 属性示例 (VB) === 标题： DefinedSize 属性示例 (VB) TOCTitle: DefinedSize 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15) ms:contentKeyID: 48543551 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="definedsize-property-example-vb"></a>DefinedSize 属性示例 (VB)
+=======
+# <a name="definedsize-property-example-vb"></a>DefinedSize 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

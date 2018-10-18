@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1f3227e7ae60d1b656b1a7e82b4a2d41bc36844
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0aed6889f16d55ee3ba7778bf9acc6134b744c5d
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467838"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602571"
 ---
 # <a name="configuring-rds-on-windows-2000"></a>在 Windows 2000 上配置 RDS
 
@@ -34,7 +34,11 @@ ms.locfileid: "25467838"
 
 4.  使用 RegEdit 实用工具，定位到注册表中"HKEY\_本地\_计算机\\系统\\CurrentControlSet\\服务\\W3SVC\\参数\\ADCLaunch"并验证是否存在键被调用的**RDSServer.Datafactory**。 如果没有，则创建此项。
 
-5.  使用 Internet 服务管理器，转到默认网站并查看 MSADC 虚拟根的属性。检查目录安全性/IP 地址和域名限制。如果检查到"访问被拒绝"，则选择"允许"。
+<<<<<<< 标头
+5.  使用 Internet 服务管理器，转到默认网站并查看 MSADC 虚拟根的属性。 检查目录安全性/IP 地址和域名限制。 如果检查到"访问被拒绝"，则选择"允许"。
+=======
+5.  使用 Internet 服务管理器，转到默认网站，并查看 MSADC 虚拟根的属性。 检查目录安全性/IP 地址和域名限制。 如果检查到"访问被拒绝"，则选择"允许"。
+>>>>>>> master
 
 如果所做更改不能解决问题，请尝试重新启动服务器。
 

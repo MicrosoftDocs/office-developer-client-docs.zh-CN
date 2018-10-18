@@ -1,19 +1,13 @@
 ---
-title: Connection 的 Close 方法，Table 的 Type 属性示例 (VC++)
-TOCTitle: Connection Close Method, Table Type Property Example (VC++)
-ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
-ms:contentKeyID: 48548006
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: cbe17bfd18f601d9fb84be81a4962dc702a40db0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467048"
+<<<<<<< 标头标题： Connection 的 Close 方法、 Table 的 Type 属性示例 （VC + +） TOCTitle: Connection 的 Close 方法，Table 的 Type 属性示例 （VC + +） === 标题： Connection 的 Close 方法，表 Type 属性示例 （VC + +） TOCTitle:Connection 的 Close 方法，表 Type 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15) ms:contentKeyID: 48548006 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="connection-close-method-table-type-property-example-vc"></a>Connection 的 Close 方法，Table 的 Type 属性示例 (VC++)
+=======
+# <a name="connection-close-method-table-type-property-example-vc"></a>Connection 的 Close 方法，表 Type 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

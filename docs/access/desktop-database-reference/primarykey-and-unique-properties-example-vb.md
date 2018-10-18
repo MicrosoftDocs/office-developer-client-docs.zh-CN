@@ -1,19 +1,13 @@
 ---
-title: PrimaryKey 和 Unique 属性示例 (VB)
-TOCTitle: PrimaryKey and Unique Properties Example (VB)
-ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15)
-ms:contentKeyID: 48546137
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 22653f1b8ad7806d3125f86acadf590e321eb073
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467821"
+<<<<<<< 标头标题： PrimaryKey 和唯一属性示例 (VB) TOCTitle: PrimaryKey 和唯一属性示例 (VB) === 标题： PrimaryKey 和 Unique 属性示例 (VB) TOCTitle: PrimaryKey 和 Unique 属性示例(VB)
+>>>>>>> 母版页 ms:assetid: 888f1a35-b883-2449-3b70-103e5116b29f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15) ms:contentKeyID: 48546137 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="primarykey-and-unique-properties-example-vb"></a>PrimaryKey 和 Unique 属性示例 (VB)
+=======
+# <a name="primarykey-and-unique-properties-example-vb"></a>PrimaryKey 和 Unique 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
 ms:contentKeyID: 48548693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b11ddeb5a2cffad6ef7703b04d5730b54c4949b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ba235094aa7f491cbd86bf753713d50f01009d47
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467070"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605399"
 ---
 # <a name="getstring-method-ado"></a>GetString 方法 (ADO)
 
@@ -25,7 +25,11 @@ ms.locfileid: "25467070"
 
 *Variant* = *recordset*。GetString （*StringFormat*、 *NumRows*、 *ColumnDelimiter*、 *RowDelimiter*、 *NullExpr*）
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 将 **Recordset** 作为值为字符串的 **变量型** (BSTR) 返回。
 

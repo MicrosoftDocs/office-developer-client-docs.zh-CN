@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41a934dc5ec30afe69fabdcf5d426f9a97c4a318
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58a4064f5d35726b30ec544232d1214a51739f60
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468214"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604988"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Microsoft JScript 中的 ADO 代码示例
 
@@ -36,6 +36,7 @@ ms.locfileid: "25468214"
 
 **属性**
 
+<<<<<<< 标头
   - [AbsolutePage、PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 
   - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-jscript.md)
@@ -49,4 +50,19 @@ ms.locfileid: "25468214"
   - [CacheSize 属性示例](cachesize-property-example-jscript.md)
 
   - [Filter 和 RecordCount 属性示例](filter-and-recordcount-properties-example-jscript.md)
+=======
+  - [AbsolutePage、 PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
+
+  - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-jscript.md)
+
+  - [ActiveCommand 属性示例](activecommand-property-example-jscript.md)
+
+  - [ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+
+  - [ActualSize 和 DefinedSize 属性示例](actualsize-and-definedsize-properties-example-jscript.md)
+
+  - [CacheSize 属性示例](cachesize-property-example-jscript.md)
+
+  - [Filter 和 RecordCount 属性示例](filter-and-recordcount-properties-example-jscript.md)
+>>>>>>> master
 

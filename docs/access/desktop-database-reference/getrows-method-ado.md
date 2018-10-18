@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc82a753adb5e9bd7a5a5d46b6ae8ce284a94375
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b0f7f38e44e26238e5a55feaaad302bbf427d678
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465761"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606148"
 ---
 # <a name="getrows-method-ado"></a>GetRows 方法 (ADO)
 
@@ -25,7 +25,11 @@ ms.locfileid: "25465761"
 
 *数组* = *recordset*。GetRows （*行*，*启动*，*字段*）
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 返回一个 **变量** ，其值是二维数组。
 

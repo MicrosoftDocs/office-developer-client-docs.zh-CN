@@ -1,19 +1,13 @@
 ---
-title: Optimize 属性示例 (VB)
-TOCTitle: Optimize Property Example (VB)
-ms:assetid: f4576247-6057-c1fe-013d-74feaab33174
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15)
-ms:contentKeyID: 48548686
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8ace24040fa5820f43462819b4c45617d61b0a5b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467525"
+<<<<<<< 标头标题： 优化属性示例 (VB) TOCTitle： 优化属性示例 (VB) === 标题： Optimize 属性示例 (VB) TOCTitle: Optimize 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: f4576247-6057-c1fe-013d-74feaab33174 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15) ms:contentKeyID: 48548686 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="optimize-property-example-vb"></a>Optimize 属性示例 (VB)
+=======
+# <a name="optimize-property-example-vb"></a>Optimize 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

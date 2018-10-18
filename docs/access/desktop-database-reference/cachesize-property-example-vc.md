@@ -1,19 +1,13 @@
 ---
-title: CacheSize 属性示例 (VC++)
-TOCTitle: CacheSize Property Example (VC++)
-ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15)
-ms:contentKeyID: 48547435
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: e8bf74622c3d16454e070f214a1c32bece327d0d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468729"
+<<<<<<< 标头标题： CacheSize 属性示例 （VC + +） TOCTitle: CacheSize 属性示例 （VC + +） === 标题： CacheSize 属性示例 （VC + +） TOCTitle: CacheSize 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15) ms:contentKeyID: 48547435 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="cachesize-property-example-vc"></a>CacheSize 属性示例 (VC++)
+=======
+# <a name="cachesize-property-example-vc"></a>CacheSize 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

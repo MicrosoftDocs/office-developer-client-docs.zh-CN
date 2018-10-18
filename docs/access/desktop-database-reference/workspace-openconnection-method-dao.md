@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
 ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc92153df224f9779097590308bb387c7ea74ecb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9ffa0f2ee4f1b4c1e02f5d8a94e98f9da09c1cc6
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467681"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603670"
 ---
 # <a name="workspaceopenconnection-method-dao"></a>Workspace.OpenConnection Method (DAO)
 
@@ -70,7 +70,11 @@ ms.locfileid: "25467681"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 Connection
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba0cdb22ee9234e935635038b86ac792dd5753cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ddd823baf153ebc78fc34ca838184f415edd29ef
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468785"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605917"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema 方法 (ADO)
 
@@ -25,7 +25,11 @@ ms.locfileid: "25468785"
 
 **设置 *** recordset* = *连接*。OpenSchema (* QueryType *，*条件*， *SchemaID*)
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回包含架构信息的 [Recordset](recordset-object-ado.md) 对象。 **Recordset** 将作为只读的静态游标打开。 *QueryType*确定**Recordset**中显示的列。
 

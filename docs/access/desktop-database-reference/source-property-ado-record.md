@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250235(v=office.15)
 ms:contentKeyID: 48548670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c568861b684856f14c644a4ef3341eed66afd569
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4d6e010ce8db93baaf8faddaeff5ab4dabda6a84
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466916"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603383"
 ---
 # <a name="source-property-ado-record"></a>Source 属性 (ADO Record)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25466916"
 
 指示由 [Record](record-object-ado.md) 表示的数据源或对象。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个 **Variant** 值，指示 **Record** 表示的实体。
 
@@ -36,8 +40,13 @@ ms.locfileid: "25466916"
 
 **Record** 对象关闭时， **Source** 属性为可读/写属性， **Record** 对象打开时为只读属性。
 
+<<<<<<< 标头
 
 > [!NOTE]
-> <P>[!注释] 使用 http 方案的 URL 将自动调用 <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>。有关详细信息，请参阅<A href="absolute-and-relative-urls.md">绝对 URL 和相对 URL</A>。</P>
+> <P>[!注释] 使用 HTTP 架构的 URL 将自动调用 <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>。有关详细信息，请参阅<A href="absolute-and-relative-urls.md">绝对 URL 和相对 URL</A>。</P>
+=======
+> [!NOTE]
+> [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
+>>>>>>> master
 
 

@@ -1,19 +1,13 @@
 ---
-title: StayInSync 属性示例 (VJ++)
-TOCTitle: StayInSync Property Example (VJ++)
-ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
-ms:contentKeyID: 48548448
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 8e4c5c7e342aaba0ba980250db3e97bcb5a8fa0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465978"
+<<<<<<< 标头标题： StayInSync 属性示例 （VJ + +） TOCTitle: StayInSync 属性示例 （VJ + +） === 标题： StayInSync 属性示例 （VJ + +） TOCTitle: StayInSync 属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: 48548448 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="stayinsync-property-example-vj"></a>StayInSync 属性示例 (VJ++)
+=======
+# <a name="stayinsync-property-example-vj"></a>StayInSync 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

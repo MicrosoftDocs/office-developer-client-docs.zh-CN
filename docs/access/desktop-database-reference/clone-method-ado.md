@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5cbf11605c13094d0595b44d804deb2169a9e9b7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6a93fb7fd333156c6939311c0e247f4b5f8aec16
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468309"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607037"
 ---
 # <a name="clone-method-ado"></a>Clone 方法 (ADO)
 
@@ -26,7 +26,11 @@ ms.locfileid: "25468309"
 
 **设置***rstDuplicate* =  *rstOriginal*。克隆 (*LockType*)
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 返回 **Recordset** 对象引用。
 

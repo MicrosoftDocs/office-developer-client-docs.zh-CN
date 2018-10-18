@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10af40231fc10e222f818896b3d65f44ac3d6d71
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e41633ddb2730af66ddeee400ad035d5a17ed90d
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466779"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607051"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Microsoft OLE DB Provider for Microsoft Indexing Service
 
 
 **适用于**： Access 2013 |Office 2013
 
-Microsoft OLE DB Provider for Microsoft Indexing Service 提供了对通过 Microsoft Indexing Service 建立索引的文件系统和 Web 数据的只读编程访问权。ADO 应用程序可以发出 SQL 查询，以检索内容和文件属性信息。
+<<<<<<< 标头 Microsoft OLE DB Provider for Microsoft Indexing Service 提供对文件系统和 Web 数据由 Microsoft Indexing Service 编制索引的编程只读访问权限。 ADO 应用程序可以发出 SQL 查询，以检索内容和文件属性信息。
+=== Microsoft OLE DB Provider for Microsoft Indexing Service 提供对由 Microsoft Indexing Service 编制索引的文件系统和 web 数据的编程只读访问权限。 ADO 应用程序可以发出 SQL 查询，以检索内容和文件属性信息。
+>>>>>>> master
 
 该提供程序为自由线程且支持 Unicode。
 

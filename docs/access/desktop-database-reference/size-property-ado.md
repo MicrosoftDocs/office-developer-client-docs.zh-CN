@@ -1,26 +1,24 @@
 ---
-title: Size 属性 (ADO)
-TOCTitle: Size Property (ADO)
-ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
-ms:contentKeyID: 48543753
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6b690bd735f01e077b52c13c6c6e9b478234c1e8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468321"
+<<<<<<< 标头标题： 大小属性 (ADO) TOCTitle： 大小属性 (ADO) === 标题： Size 属性 (ADO) TOCTitle: Size 属性 (ADO)
+>>>>>>> 母版页 ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15) ms:contentKeyID: 48543753 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="size-property-ado"></a>Size 属性 (ADO)
+=======
+# <a name="size-property-ado"></a>Size 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013
 
 指示 [Parameter](parameter-object-ado.md) 对象的最大大小，以字节或字符为单位。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回一个指示 **Parameter** 对象最大大小的 **Long** 值，以字节或字符为单位。
 

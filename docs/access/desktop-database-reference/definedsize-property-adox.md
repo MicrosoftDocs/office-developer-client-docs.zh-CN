@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249335(v=office.15)
 ms:contentKeyID: 48545126
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0caeff4438b0ff1af18967300376bf0d80b2ebe1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9edf50e799a57d2928831af03f7f29592b110440
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468708"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605693"
 ---
 # <a name="definedsize-property-adox"></a>DefinedSize 属性 (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25468708"
 
 指示声明的最大列大小。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置和返回一个 **Long** 值，该值为数据值的最大长度，以字符数计。
 

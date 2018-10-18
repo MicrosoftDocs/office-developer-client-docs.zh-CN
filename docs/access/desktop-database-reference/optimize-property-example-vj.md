@@ -1,19 +1,13 @@
 ---
-title: Optimize 属性示例 (VJ++)
-TOCTitle: Optimize Property Example (VJ++)
-ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15)
-ms:contentKeyID: 48547949
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 67b587fb7a0e4a87bafab83ba21cebc6c33a16ec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466894"
+<<<<<<< 标头标题： 优化属性示例 （VJ + +） TOCTitle： 优化属性示例 （VJ + +） === 标题： Optimize 属性示例 （VJ + +） TOCTitle: Optimize 属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15) ms:contentKeyID: 48547949 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="optimize-property-example-vj"></a>Optimize 属性示例 (VJ++)
+=======
+# <a name="optimize-property-example-vj"></a>Optimize 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

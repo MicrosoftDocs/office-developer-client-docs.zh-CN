@@ -1,19 +1,13 @@
 ---
-title: CacheSize 属性示例 (VJ++)
-TOCTitle: CacheSize Property Example (VJ++)
-ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15)
-ms:contentKeyID: 48548704
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 38b04e88777113216b7a5ad6bc22e2b2f8bd81fd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465979"
+<<<<<<< 标头标题： CacheSize 属性示例 （VJ + +） TOCTitle: CacheSize 属性示例 （VJ + +） === 标题： CacheSize 属性示例 （VJ + +） TOCTitle: CacheSize 属性示例 （VJ + +）
+>>>>>>> 母版页 ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15) ms:contentKeyID: 48548704 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="cachesize-property-example-vj"></a>CacheSize 属性示例 (VJ++)
+=======
+# <a name="cachesize-property-example-vj"></a>CacheSize 属性示例 （VJ + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

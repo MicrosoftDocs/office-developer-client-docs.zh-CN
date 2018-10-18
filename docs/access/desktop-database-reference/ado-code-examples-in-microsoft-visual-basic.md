@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eba2881e4a892f32c70875f80cb8db7c71fb5d34
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466149"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604608"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Microsoft Visual Basic 中的 ADO 代码示例
 
@@ -60,7 +60,11 @@ ms.locfileid: "25466149"
 
   - [GetString 方法示例](getstring-method-example-vb.md)
 
-  - [SkipLine Method、EOS 和 LineSeparator 属性示例](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+<<<<<<< 标头
+  - [SkipLine 方法、 EOS 和 LineSeparator 属性示例](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+=======
+  - [SkipLine 方法、 EOS 和 LineSeparator 属性示例](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+>>>>>>> master
 
   - [Move 方法示例](move-method-example-vb.md)
 
@@ -80,7 +84,11 @@ ms.locfileid: "25466149"
 
   - [Save 和 Open 方法示例](save-and-open-methods-example-vb.md)
 
-  - [Seek Method 和 Index 属性示例](seek-method-and-index-property-example-vb.md)
+<<<<<<< 标头
+  - [Seek 方法和 Index 属性示例](seek-method-and-index-property-example-vb.md)
+=======
+  - [Seek 方法和 Index 属性示例](seek-method-and-index-property-example-vb.md)
+>>>>>>> master
 
   - [Supports 方法示例](supports-method-example-vb.md)
 
@@ -90,6 +98,7 @@ ms.locfileid: "25466149"
 
 **属性**
 
+<<<<<<< 标头
   - [AbsolutePage、PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-vb.md)
@@ -153,4 +162,69 @@ ms.locfileid: "25466149"
   - [Value 属性示例](value-property-example-vb.md)
 
   - [Version 属性示例](version-property-example-vb.md)
+=======
+  - [AbsolutePage、 PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
+
+  - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-vb.md)
+
+  - [ActiveCommand 属性示例](activecommand-property-example-vb.md)
+
+  - [ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
+
+  - [ActualSize 和 DefinedSize 属性示例](actualsize-and-definedsize-properties-example-vb.md)
+
+  - [Attributes 和 Name 属性示例](attributes-and-name-properties-example-vb.md)
+
+  - [BOF、 EOF 和 Bookmark 属性示例](bof-eof-and-bookmark-properties-example-vb.md)
+
+  - [CacheSize 属性示例](cachesize-property-example-vb.md)
+
+  - [ConnectionString、 ConnectionTimeout 和 State 属性示例](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
+
+  - [Count 属性示例](count-property-example-vb.md)
+
+  - [CursorType、 LockType 和 EditMode 属性示例](cursortype-locktype-and-editmode-properties-example-vb.md)
+
+  - [Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
+
+  - [EOS 和 LineSeparator 属性、SkipLine 方法示例](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+
+  - [Filter 和 RecordCount 属性示例](filter-and-recordcount-properties-example-vb.md)
+
+  - [IsolationLevel 和模式属性示例](isolationlevel-and-mode-properties-example-vb.md)
+
+  - [Item 属性示例](item-property-example-vb.md)
+
+  - [MarshalOptions 属性示例](marshaloptions-property-example-vb.md)
+
+  - [MaxRecords 属性示例](maxrecords-property-example-vb.md)
+
+  - [NumericScale 和 Precision 属性示例](ado-numericscale-and-precision-properties-example-vb.md)
+
+  - [Optimize 属性示例](optimize-property-example-vb.md)
+
+  - [OriginalValue 和 UnderlyingValue 属性示例](originalvalue-and-underlyingvalue-properties-example-vb.md)
+
+  - [Prepared 的属性示例](prepared-property-example-vb.md)
+
+  - [Provider 和 DefaultDatabase 属性示例](provider-and-defaultdatabase-properties-example-vb.md)
+
+  - [Sort 属性示例](sort-property-example-vb.md)
+
+  - [Source 属性示例](source-property-example-vb.md)
+
+  - [State 属性示例](state-property-example-vb.md)
+
+  - [Status 属性示例](status-property-example-recordset-vb.md)
+
+  - [StayInSync 属性示例](stayinsync-property-example-vb.md)
+
+  - [Type 属性示例 (Field)](type-property-example-field-vb.md)
+
+  - [Type 属性示例 （属性）](type-property-example-property-vb.md)
+
+  - [Value 属性示例](value-property-example-vb.md)
+
+  - [Version 属性示例](version-property-example-vb.md)
+>>>>>>> master
 

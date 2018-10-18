@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249662(v=office.15)
 ms:contentKeyID: 48546421
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8388a8621d3810407561fa09a022ffd92b230a3c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: afc7b1f6a22e8793e7206407fa039f5c4274e5b9
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467152"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604356"
 ---
 # <a name="levelname-property-ado-md"></a>LevelName 属性 (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25467152"
 
 指示成员级别的名称。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个 **String** 值，并且该值为只读。
 

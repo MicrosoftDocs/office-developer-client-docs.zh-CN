@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 804a98a6fa7c93617a5b6e165a2a012969c66913
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2a22099e49489226c7848a54112e7ab5e70b64ff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467616"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603915"
 ---
 # <a name="readystate-property-rds"></a>ReadyState 属性 (RDS)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25467616"
 
 指示 [DataControl](datacontrol-object-rds.md) 对象将数据检索进其 [Recordset](recordset-object-ado.md) 对象的进度。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置或返回下列值之一。
 

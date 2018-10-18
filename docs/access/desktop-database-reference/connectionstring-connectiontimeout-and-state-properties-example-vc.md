@@ -1,19 +1,13 @@
 ---
-title: ConnectionString、ConnectionTimeout 和 State 属性示例 (VC++)
-TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VC++)
-ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15)
-ms:contentKeyID: 48544254
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 87583ef8ae8cdb290c1b24457625b7f674e496d0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466118"
+<<<<<<< 标头标题： ConnectionString、 ConnectionTimeout 和 State 属性示例 （VC + +） TOCTitle: ConnectionString、 ConnectionTimeout 和 State 属性示例 （VC + +） === 标题： ConnectionString，ConnectionTimeout 和 State 属性示例 （VC + +） TOCTitle: ConnectionString、 ConnectionTimeout 和 State 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 39bd3e86-1eb8-7fcb-45c8-b9b0ae5acf83 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15) ms:contentKeyID: 48544254 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>ConnectionString、ConnectionTimeout 和 State 属性示例 (VC++)
+=======
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>ConnectionString、 ConnectionTimeout 和 State 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

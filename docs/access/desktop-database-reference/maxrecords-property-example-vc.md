@@ -1,19 +1,13 @@
 ---
-title: MaxRecords 属性示例 (VC++)
-TOCTitle: MaxRecords Property Example (VC++)
-ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15)
-ms:contentKeyID: 48542910
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 09419dab570e05427ac5f30c002c596d5dc862c0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465514"
+<<<<<<< 标头标题： MaxRecords 属性示例 （VC + +） TOCTitle: MaxRecords 属性示例 （VC + +） === 标题： MaxRecords 属性示例 （VC + +） TOCTitle: MaxRecords 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15) ms:contentKeyID: 48542910 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="maxrecords-property-example-vc"></a>MaxRecords 属性示例 (VC++)
+=======
+# <a name="maxrecords-property-example-vc"></a>MaxRecords 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

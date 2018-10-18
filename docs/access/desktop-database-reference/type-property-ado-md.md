@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249230(v=office.15)
 ms:contentKeyID: 48544671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3ea67b96e24f01e167ca693dff356c595005904
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bf8efb435fb11a909b5deea7b1ed6891811a670e
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465539"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603481"
 ---
 # <a name="type-property-ado-md"></a>Type 属性 (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25465539"
 
 指示当前成员的类型。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个 [MemberTypeEnum](membertypeenum.md) 值，并且该值为只读。
 

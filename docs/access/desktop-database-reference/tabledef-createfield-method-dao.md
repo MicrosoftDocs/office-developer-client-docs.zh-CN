@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 89b42c1afe60add3b1eab33c13dd215b572e3ef5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1fd66910a3630d8968f75c5a59bb535520419994
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468982"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606981"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField Method (DAO)
 
@@ -69,7 +69,11 @@ ms.locfileid: "25468982"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 Field
 

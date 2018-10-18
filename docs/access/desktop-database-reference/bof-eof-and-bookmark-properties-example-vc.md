@@ -1,19 +1,13 @@
 ---
-title: BOF、EOF 和 Bookmark 属性示例 (VC++)
-TOCTitle: BOF, EOF, and Bookmark Properties Example (VC++)
-ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
-ms:contentKeyID: 48547914
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9decac7ec04c3b4dd456b3a406c54418aa955646
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467894"
+<<<<<<< 标头标题： BOF、 EOF 和 Bookmark 属性示例 （VC + +） TOCTitle: BOF、 EOF 和 Bookmark 属性示例 （VC + +） === 标题： BOF、 EOF 和 Bookmark 属性示例 （VC + +） TOCTitle: BOF、 EOF 和 Bookmark 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15) ms:contentKeyID: 48547914 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="bof-eof-and-bookmark-properties-example-vc"></a>BOF、EOF 和 Bookmark 属性示例 (VC++)
+=======
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a>BOF、 EOF 和 Bookmark 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

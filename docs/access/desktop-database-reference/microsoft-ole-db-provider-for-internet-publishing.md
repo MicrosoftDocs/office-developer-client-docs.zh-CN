@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249327(v=office.15)
 ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5bbc0ab2727a05cb5c140e3aff82778119ad791
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7221c6bd0a6e8576237fdf4cbfcabe70620f6af8
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468282"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603992"
 ---
 # <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Microsoft OLE DB Provider for Internet Publishing
 
@@ -66,7 +66,11 @@ MSDAIPP.DSO
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong> -或- <strong>URL</strong></p></td>
+<<<<<<< 标头
 <td><p>指定在 Web 文件夹中发布的文件或目录的 URL。</p></td>
+=======
+<td><p>指定文件或目录 web 文件夹中发布的 URL。</p></td>
+>>>>>>>主控形状
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>

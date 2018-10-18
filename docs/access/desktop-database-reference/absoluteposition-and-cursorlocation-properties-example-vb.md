@@ -1,19 +1,13 @@
 ---
-title: AbsolutePosition 和 CursorLocation 属性示例 (VB)
-TOCTitle: AbsolutePosition and CursorLocation Properties Example (VB)
-ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15)
-ms:contentKeyID: 48544966
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d32d302e1e20534e40d6d3f4c12e3fcbce78816a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467558"
+<<<<<<< 标头标题： AbsolutePosition 和 CursorLocation 属性示例 (VB) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (VB) ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
 # <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition 和 CursorLocation 属性示例 (VB)
+=== 标题： AbsolutePosition 和 CursorLocation 属性示例 (VB) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (VB) ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966ms.date: 10/17/2018 mtps_version: office.15.aspx
+---
+
+# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition 和 CursorLocation 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

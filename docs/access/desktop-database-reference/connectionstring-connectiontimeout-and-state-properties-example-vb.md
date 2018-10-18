@@ -1,19 +1,13 @@
 ---
-title: ConnectionString、ConnectionTimeout 和 State 属性示例 (VB)
-TOCTitle: ConnectionString, ConnectionTimeout, and State Properties Example (VB)
-ms:assetid: abdd0262-8647-d545-60e0-13f99337df06
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15)
-ms:contentKeyID: 48546984
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 79825670b05279071182f41a6523ac552c4ea1ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467258"
+<<<<<<< 标头标题： ConnectionString、 ConnectionTimeout 和 State 属性示例 (VB) TOCTitle: ConnectionString、 ConnectionTimeout 和 State 属性示例 (VB) === 标题： ConnectionString、 ConnectionTimeout和 State 属性示例 (VB) TOCTitle: ConnectionString、 ConnectionTimeout 和 State 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: abdd0262-8647-d545-60e0-13f99337df06 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15) ms:contentKeyID: 48546984 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vb"></a>ConnectionString、ConnectionTimeout 和 State 属性示例 (VB)
+=======
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vb"></a>ConnectionString、 ConnectionTimeout 和 State 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

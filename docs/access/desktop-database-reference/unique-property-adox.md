@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249012(v=office.15)
 ms:contentKeyID: 48543744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7fcf705fa11faf06c0639109f584d386303eba2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4f83a2dad6ad5ad1e9b79f2efab40af934d37321
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465975"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604489"
 ---
 # <a name="unique-property-adox"></a>Unique 属性 (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25465975"
 
 指示索引键是否必须为唯一。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置和返回一个 **Boolean** 值。
 

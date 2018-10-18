@@ -1,19 +1,13 @@
 ---
-title: 说明，HelpContext HelpFile 属性示例 (VB)
-TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState Properties Example (VB)
-ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)
-ms:contentKeyID: 48544304
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c8c15c60e5465e5bb0dae551e3234616e2da11ee
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466763"
+<<<<<<< 标头标题： 说明，HelpContext HelpFile 属性示例 (VB) TOCTitle: Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 (VB) === 标题: 说明，HelpFile 属性示例 (VB) HelpContext TOCTitle: Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 (VB)
+>>>>>>> 母版页 ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15) ms:contentKeyID: 48544304 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb"></a>Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例 (VB)
+=======
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb"></a>Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 (VB)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

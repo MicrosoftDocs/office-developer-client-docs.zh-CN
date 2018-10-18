@@ -1,20 +1,14 @@
 ---
-title: ActiveConnection，CommandText，CommandTimeout 属性示例 (JScript)
-TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (JScript)
-ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
-ms:contentKeyID: 48543909
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6057ddbe15e6ca24ec898aa2bd15799a22fa768d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468312"
+<<<<<<< 标头标题： ActiveConnection，CommandText，CommandTimeout 属性示例 (JScript) TOCTitle: ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 Size 和 Direction 属性示例 (JScript) ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID: 48543909 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a>ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (JScript)
 
+=== 标题： ActiveConnection、 CommandText，CommandTimeout 属性示例 (JScript) TOCTitle: ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和方向属性 example(JScript) ms:assetid:2a79222c-4dba-9c5a-fff7-c8dd2711801f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID: 48543909 ms.date: 10/17/2018 mtps_version: office.15.aspx
+---
+
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a>ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例 (JScript)
+>>>>>>> master
 
 **适用于**： Access 2013 |Office 2013
 

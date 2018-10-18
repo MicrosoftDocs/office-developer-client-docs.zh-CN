@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249825(v=office.15)
 ms:contentKeyID: 48547072
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6e9bf0cfd27e478b66ccc046412c0e874a4ebd6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 45164401bbab5cc9134fa7a354fde54bbb02fa37
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469017"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604781"
 ---
 # <a name="solutions-for-remote-data-access"></a>远程数据访问解决方案
 
@@ -24,7 +24,9 @@ ms.locfileid: "25469017"
 
 不过，您可能希望通过中间程序（如 Microsoft® Internet 信息服务 (IIS)）间接地访问数据源。这种安排有时称为三层系统。IIS 是一种客户端/服务器系统，为本地（或客户端）应用程序通过 Internet 或 Intranet 调用远程（或服务器）程序提供了有效的方式。服务器程序获取数据源的访问权，并可以选择对获得的数据进行处理。
 
-例如，Intranet 网页中包含用 Microsoft® Visual Basic Scripting Edition (VBScript) 编写的应用程序，该应用程序与 IIS 连接，而 IIS 又与实际数据源连接。IIS 检索数据，并采用某种方式对数据进行处理，然后将处理过的信息返回给应用程序。
+<<<<<<< 标头的示例中，intranet 网页包含在 Microsoft® Visual Basic Scripting Edition (VBScript) 中，将连接到 IIS 编写的应用程序。 IIS 检索数据，并采用某种方式对数据进行处理，然后将处理过的信息返回给应用程序。
+=== 例如，intranet 网页包含在 Microsoft® Visual Basic Scripting Edition (VBScript) 中，将连接到 IIS 编写的应用程序。 IIS 检索数据，并采用某种方式对数据进行处理，然后将处理过的信息返回给应用程序。
+>>>>>>> master
 
 在本例中，应用程序始终都不与数据源直接连接，与数据源直接连接的是 IIS。且 IIS 通过 ADO 来访问数据。
 

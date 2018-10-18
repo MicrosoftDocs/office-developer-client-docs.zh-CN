@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249124(v=office.15)
 ms:contentKeyID: 48544172
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 912dfec595f718c2144e69b4fbd3af592f8b6d5b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 32ddf737ae0d6aa9a7b2daf8adc2a07707c91c0c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466741"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603054"
 ---
 # <a name="filteraxis-property-ado-md"></a>FilterAxis 属性 (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25466741"
 
 指示有关当前单元格集的筛选信息。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个 [Axis](axis-object-ado-md.md) 对象，并且该值为只读。
 

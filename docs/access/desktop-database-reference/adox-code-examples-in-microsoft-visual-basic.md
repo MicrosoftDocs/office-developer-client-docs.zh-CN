@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249407(v=office.15)
 ms:contentKeyID: 48545383
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 83a83eadc9d6489b202682807e3e9e864ecb4f1e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f8d115e606a9208686443d3485b189af9aa5bdff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465591"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606911"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic"></a>ADOX Microsoft Visual Basic 代码示例
 
@@ -28,9 +28,15 @@ ms.locfileid: "25465591"
 
 **方法**
 
+<<<<<<< 标头
   - [Columns 和 Tables 的 Append 方法、Name 属性示例 (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 
   - [Connection 的 Close 方法，Table 的 Type 属性示例 (VB)](connection-close-method-table-type-property-example-vb.md)
+=======
+  - [Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
+
+  - [Connection 的 Close 方法，表 Type 属性示例 (VB)](connection-close-method-table-type-property-example-vb.md)
+>>>>>>> master
 
   - [Create 方法示例 (VB)](create-method-example-vb.md)
 
@@ -42,7 +48,11 @@ ms.locfileid: "25465591"
 
   - [Indexes 的 Append 方法示例 (VB)](indexes-append-method-example-vb.md)
 
-  - [Keys 的 Append 方法，Key 的 Type、RelatedColumn、RelatedTable 和 UpdateRule 属性示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+<<<<<<< 标头
+  - [Keys 的 Append 方法、 Key 的 Type、 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+=======
+  - [Keys 的 Append 方法、 密钥类型、 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+>>>>>>> master
 
   - [Procedures 的 Append 方法示例 (VB)](procedures-append-method-example-vb.md)
 
@@ -58,6 +68,7 @@ ms.locfileid: "25465591"
 
 **属性**
 
+<<<<<<< 标头
   - [Attributes 属性示例 (VB)](attributes-property-example-vb.md)
 
   - [Catalog 的 ActiveConnection 属性示例 (VB)](catalog-activeconnection-property-example-vb.md)
@@ -65,11 +76,21 @@ ms.locfileid: "25465591"
   - [Clustered 属性示例 (VB)](clustered-property-example-vb.md)
 
   - [Command 和 CommandText 属性示例 (VB)](command-and-commandtext-properties-example-vb.md)
+=======
+  - [Attributes 属性示例 (VB)](attributes-property-example-vb.md)
+
+  - [Catalog 的 ActiveConnection 属性示例 (VB)](catalog-activeconnection-property-example-vb.md)
+
+  - [Clustered 的属性示例 (VB)](clustered-property-example-vb.md)
+
+  - [Command 和 CommandText 属性示例 (VB)](command-and-commandtext-properties-example-vb.md)
+>>>>>>> master
 
   - [Command 属性，Parameters 集合示例 (VB)](parameters-collection-command-property-example-vb.md)
 
   - [CommandText 属性，Views 集合示例 (VB)](views-collection-commandtext-property-example-vb.md)
 
+<<<<<<< 标头
   - [DateCreated 和 DateModified 属性示例 (VB)](datecreated-and-datemodified-properties-example-vb.md)
 
   - [DefinedSize 属性示例 (VB)](definedsize-property-example-vb.md)
@@ -77,11 +98,21 @@ ms.locfileid: "25465591"
   - [DeleteRule 属性示例 (VB)](deleterule-property-example-vb.md)
 
   - [IndexNulls 属性示例 (VB)](indexnulls-property-example-vb.md)
+=======
+  - [DateCreated 和 DateModified 属性示例 (VB)](datecreated-and-datemodified-properties-example-vb.md)
+
+  - [DefinedSize 属性示例 (VB)](definedsize-property-example-vb.md)
+
+  - [DeleteRule 属性示例 (VB)](deleterule-property-example-vb.md)
+
+  - [IndexNulls 属性示例 (VB)](indexnulls-property-example-vb.md)
+>>>>>>> master
 
   - [Key 的 Type、RelatedColumn、RelatedTable 和 UpdateRule 属性，Keys 的 Append 方法示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
 
   - [Name 属性，Columns 和 Tables 的 Append 方法示例 (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 
+<<<<<<< 标头
   - [NumericScale 和 Precision 属性示例 (VB)](numericscale-and-precision-properties-example-vb.md)
 
   - [ParentCatalog 属性示例 (VB)](parentcatalog-property-example-vb.md)
@@ -89,14 +120,31 @@ ms.locfileid: "25465591"
   - [PrimaryKey 和 Unique 属性示例 (VB)](primarykey-and-unique-properties-example-vb.md)
 
   - [SortOrder 属性示例 (VB)](sortorder-property-example-vb.md)
+=======
+  - [NumericScale 和 Precision 属性示例 (VB)](numericscale-and-precision-properties-example-vb.md)
+
+  - [ParentCatalog 属性示例 (VB)](parentcatalog-property-example-vb.md)
+
+  - [PrimaryKey 和 Unique 属性示例 (VB)](primarykey-and-unique-properties-example-vb.md)
+
+  - [SortOrder 属性示例 (VB)](sortorder-property-example-vb.md)
+>>>>>>> master
 
   - [Table 的 Type 属性，Connection 的 Close 方法示例 (VB)](connection-close-method-table-type-property-example-vb.md)
 
 **集合**
 
+<<<<<<< 标头
   - [Parameters 集合与 Command 属性示例 (VB)](parameters-collection-command-property-example-vb.md)
 
   - [Views 和 Fields 集合示例 (VB)](views-and-fields-collections-example-vb.md)
 
-  - [Views 集合与 CommandText 属性的示例 (VB)](views-collection-commandtext-property-example-vb.md)
+  - [Views 集合与 CommandText 属性示例 (VB)](views-collection-commandtext-property-example-vb.md)
+=======
+  - [Parameters 集合与 Command 属性示例 (VB)](parameters-collection-command-property-example-vb.md)
+
+  - [Views 和 Fields 集合示例 (VB)](views-and-fields-collections-example-vb.md)
+
+  - [Views 集合，CommandText 属性示例 (VB)](views-collection-commandtext-property-example-vb.md)
+>>>>>>> master
 

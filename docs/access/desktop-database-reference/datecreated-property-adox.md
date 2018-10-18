@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250209(v=office.15)
 ms:contentKeyID: 48548564
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 962c5e00eee3c58d2c02040869fdf1cb454af538
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f96bdfc7b669aeea279ba746c92bfc299912c70
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467887"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602550"
 ---
 # <a name="datecreated-property-adox"></a>DateCreated 属性 (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25467887"
 
 指示创建对象的日期。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个指定创建日期的 **Variant** 值。如果提供程序不支持 **DateCreated** ，则该值为 null。
 

@@ -1,19 +1,13 @@
 ---
-title: BOF、EOF 属性 (ADO)
-TOCTitle: BOF, EOF Properties (ADO)
-ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
-ms:contentKeyID: 48548768
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 14cd61f6bd2985d71321d848a6426c06c4c7a94d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466239"
+<<<<<<< 标头标题： BOF、 EOF 属性 (ADO) TOCTitle: BOF、 EOF 属性 (ADO) === 标题： BOF、 EOF 属性 (ADO) TOCTitle: BOF、 EOF 属性 (ADO)
+>>>>>>> 母版页 ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15) ms:contentKeyID: 48548768 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="bof-eof-properties-ado"></a>BOF、EOF 属性 (ADO)
+=======
+# <a name="bof-eof-properties-ado"></a>BOF、 EOF 属性 (ADO)
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013
@@ -22,7 +16,11 @@ ms.locfileid: "25466239"
 
   - **EOF**  指示当前记录位置在 **Recordset** 对象中的最后一条记录之后。
 
+<<<<<<< 标头
 ## <a name="return-value"></a>返回值
+=======
+## <a name="return-value"></a>返回值
+>>>>>>> master
 
 **BOF** 和 **EOF** 属性将返回 **Boolean** 值。
 

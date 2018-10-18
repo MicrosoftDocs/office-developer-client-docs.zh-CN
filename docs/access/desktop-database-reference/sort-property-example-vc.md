@@ -1,19 +1,13 @@
 ---
-title: Sort 属性示例 (VC++)
-TOCTitle: Sort Property Example (VC++)
-ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
-ms:contentKeyID: 48543259
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 33f8134320192ad22b0ddc743c1e445cfad46d58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468348"
+<<<<<<< 标头标题： Sort 属性示例 （VC + +） TOCTitle: Sort 属性示例 （VC + +） === 标题： Sort 属性示例 （VC + +） TOCTitle: Sort 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID: 48543259 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="sort-property-example-vc"></a>Sort 属性示例 (VC++)
+=======
+# <a name="sort-property-example-vc"></a>Sort 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

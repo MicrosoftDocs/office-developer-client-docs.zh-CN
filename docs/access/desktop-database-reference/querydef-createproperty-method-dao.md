@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835663(v=office.15)
 ms:contentKeyID: 48548250
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec1af70f5d2a234eb5872cb451f76b8b2b51d250
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3fbe6e9749d8b51fba9af0a43844782aa3f06d12
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466208"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606766"
 ---
 # <a name="querydefcreateproperty-method-dao"></a>QueryDef.CreateProperty Method (DAO)
 
@@ -72,7 +72,11 @@ ms.locfileid: "25466208"
 </table>
 
 
+<<<<<<< 标头
 ### <a name="return-value"></a>返回值
+=======
+### <a name="return-value"></a>返回值
+>>>>>>> master
 
 属性
 

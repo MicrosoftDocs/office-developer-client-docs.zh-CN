@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a2d1e3cc0128f4490105b24d7181119f6fece9b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d2ff2381626e8cf81aa95ee9d49f9396bd4b0316
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466443"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602718"
 ---
 # <a name="createobject-method-rds"></a>CreateObject 方法 (RDS)
 
@@ -73,9 +73,17 @@ ms.locfileid: "25466443"
 
   - *awebsrvr*或*computername*
 
+<<<<<<< 标头
   - **字符串型** 值，代表标识在其中创建服务器业务对象实例的 Internet 信息服务 (IIS) Web 服务器的 URL。
 
 ## <a name="remarks"></a>说明
 
-*HTTP 协议*是标准的 Web 协议;*HTTPS*是安全的 Web 协议。 运行没有 HTTP 的本地网络时，请使用*DCOM 协议*。 *进程内*协议是本地的动态链接库 (DLL);它不使用网络。
+<a name="the-http-protocol-is-the-standard-web-protocol-https-is-a-secure-web-protocol-use-the-dcom-protocol-when-running-a-local-area-network-without-http-the-in-process-protocol-is-a-local-dynamic-link-library-dll-it-does-not-use-a-network"></a>*HTTP 协议*是标准的 Web 协议;*HTTPS*是安全的 Web 协议。 运行没有 HTTP 的本地网络时，请使用*DCOM 协议*。 *进程内*协议是本地的动态链接库 (DLL);它不使用网络。
+=======
+  - 一个**字符串**值，代表标识在其中创建服务器业务对象的实例的 Internet 信息服务 (IIS) web 服务器的 URL。
+
+## <a name="remarks"></a>说明
+
+*HTTP 协议*是标准的 web 协议;*HTTPS*是安全的 web 协议。 运行没有 HTTP 的本地网络时，请使用*DCOM 协议*。 *进程内*协议是本地的动态链接库 (DLL);它不使用网络。
+>>>>>>> master
 

@@ -1,19 +1,13 @@
 ---
-title: ADO NumericScale and Precision Properties Example (VC++)
-TOCTitle: NumericScale and Precision Properties Example (VC++)
-ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15)
-ms:contentKeyID: 48548611
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 79621765e310ba88e7923902c027c147c92eb9e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468464"
+<<<<<<< 标头标题： ADO NumericScale 和 Precision 属性示例 （VC + +） TOCTitle: NumericScale 和 Precision 属性示例 （VC + +） === 标题： ADO NumericScale 和 Precision 属性示例 （VC + +） TOCTitle:NumericScale 和 Precision 属性示例 （VC + +）
+>>>>>>> 母版页 ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15) ms:contentKeyID: 48548611 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
+
+<<<<<<< 标头
 # <a name="ado-numericscale-and-precision-properties-example-vc"></a>ADO NumericScale and Precision Properties Example (VC++)
+=======
+# <a name="ado-numericscale-and-precision-properties-example-vc"></a>ADO NumericScale 和 Precision 属性示例 （VC + +）
+>>>>>>> master
 
 
 **适用于**： Access 2013 |Office 2013

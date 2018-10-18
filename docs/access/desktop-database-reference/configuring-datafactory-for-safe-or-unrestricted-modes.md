@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: abb461473d15f163fac6ea00f2af5d39f7b40d0a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468590"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606400"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>配置安全模式或无限制模式的 DataFactory
 
@@ -30,7 +30,9 @@ ms.locfileid: "25468590"
 
 对于安全配置的处理程序注册表项，可使用提供的注册表文件 handsafe.reg 进行设置。若要以安全模式运行，请运行 handsafe.reg。对于无限制配置的处理程序注册表项，可使用提供的注册表文件 handunsf.reg 进行设置。若要以无限制模式运行，请运行 handunsf.reg。
 
-运行 handsafe.reg 或 handunsf.reg 之后，必须停止并重新启动 Web 服务器上的 World Wide Web Publishing Service，方法是：在命令窗口中键入命令"NET STOP W3SVC"和"NET START W3SVC"。
+<<<<<<< 标头运行 handsafe.reg 或 handunsf.reg 后，您必须停止并通过在命令窗口中键入以下命令重新启动 Web 服务器上的 World Wide Web 发布服务:"NET 停止 W3SVC"和"NET 启动 W3SVC"。
+=== 后运行 handsafe.reg 或 handunsf.reg，您必须停止并通过在命令窗口中键入以下命令重新启动 web 服务器上的 World Wide Web 发布服务:"NET 停止 W3SVC"和"NET 启动 W3SVC"。
+>>>>>>> master
 
 有关使用 RDS 的自定义处理程序功能的详细信息，请参阅技术文章"使用 RDS 2.1 中的自定义处理程序功能"。
 

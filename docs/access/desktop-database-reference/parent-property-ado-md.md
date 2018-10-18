@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249370(v=office.15)
 ms:contentKeyID: 48545238
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb1606a745cb8572f54b253bdbbbbbb461cfc74a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 10c183c997a3c0b49c74e08f7ef29fbe8c274516
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466761"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603334"
 ---
 # <a name="parent-property-ado-md"></a>Parent 属性 (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25466761"
 
 指示层次结构中作为当前成员的父级的成员。
 
+<<<<<<< 标头
 ## <a name="return-values"></a>返回值
+=======
+## <a name="return-values"></a>返回值
+>>>>>>> master
 
 返回一个 [Member](member-object-ado-md.md) 对象，并且该值为只读。
 

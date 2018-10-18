@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249326(v=office.15)
 ms:contentKeyID: 48545089
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1b49872800285a29f66339a9559560ae3cc356e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4b30b8b56fe8dd82627f99690594f72288f561aa
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468994"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603894"
 ---
 # <a name="indexnulls-property-adox"></a>IndexNulls 属性 (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25468994"
 
 指示索引字段具有 null 值的记录是否有索引项。
 
+<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
+=======
+## <a name="settings-and-return-values"></a>设置和返回值
+>>>>>>> master
 
 设置和返回一个 [AllowNullsEnum](allownullsenum.md) 值。默认值为 **adIndexNullsDisallow** 。
 
