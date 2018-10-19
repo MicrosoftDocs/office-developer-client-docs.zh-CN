@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: 使用 Office 2013 遥测日志确定 Office 2013 的兼容性问题，并确定为 Office 的早期版本生成的解决方案。
-ms.openlocfilehash: 95b23bfbb45a492147ec4d56849a08e0ec14e4a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebcf7908fb9f7e1558b0f0576fbbf9a6f0b07568
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779600"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393276"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>疑难解答遥测日志的 Office 文件和自定义解决方案
 
@@ -25,7 +25,7 @@ ms.locfileid: "19779600"
   
 Office 2013 遥测日志（基于 Excel 2013 构建的工具）帮助开发人员和有经验的用户通过显示所选 Microsoft Office 2013 应用程序内发生的事件来诊断兼容性问题。使用此工具，用户可以确定他们在其工作环境中使用的加载项的潜在问题，同时，向公司决策者提供他们需要的信息以决定是否升级到 Office 2013。遥测日志还提供有关 Office 2013 应用程序的对象模型中的特定更改或不推荐使用的情况的详细反馈，这可帮助开发人员可以迅速找出和重构有问题的代码或控件。IT 专业人员可以通过使用 Office 2013 遥测仪表板（遥测日志的辅助工具）查看多个客户端中的解决方案运行状况的趋势。
   
-有关详细信息，请参阅[部署 Office 遥测仪表板](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)。
+有关详细信息，请参阅[部署 Office 遥测仪表板](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)。
   
 ## <a name="how-the-telemetry-log-works"></a>遥测日志的工作方式
 <a name="OEV_Types"> </a>
@@ -126,11 +126,11 @@ Office 2013 遥测日志（基于 Excel 2013 构建的工具）帮助开发人�
 |**事件 ID**|**标题**|**严重性**|**说明**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |文档已成功加载  <br/> ||“文件”**** 列中列出的文件在 Office 应用程序中打开，未出现任何问题。  <br/> |
-|2  <br/> |文档无法加载  <br/> |警告  <br/> | 该应用程序不能加载该文件。可能有一些基础兼容性问题。  <br/><br/>有关如何修复 Excel 2013 中损坏的工作簿的详细信息，请参阅[修复损坏的工作簿](http://office.microsoft.com/zh-CN/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx)。<br/><br/>有关如何修复 Word 2013 中损坏的文档的详细信息，请参阅 [保存和恢复文档的备份副本](http://office.microsoft.com/zh-CN/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx)。 <br/> |
+|2  <br/> |文档无法加载  <br/> |警告  <br/> | 该应用程序不能加载该文件。可能有一些基础兼容性问题。  <br/><br/>有关如何修复 Excel 2013 中损坏的工作簿的详细信息，请参阅[修复损坏的工作簿](https://office.microsoft.com/zh-CN/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx)。<br/><br/>有关如何修复 Word 2013 中损坏的文档的详细信息，请参阅 [保存和恢复文档的备份副本](https://office.microsoft.com/zh-CN/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx)。 <br/> |
 |3  <br/> |模板已成功加载  <br/> ||“文件”**** 列中列出的模板文件在 Office 应用程序中打开，未出现任何问题。  <br/> |
-|4  <br/> |模板无法加载  <br/> |警告  <br/> | 应用程序不能加载模板文件。可能有一些基础兼容性问题，或者该模板的可用性可能已改变。  <br/><br/>有关如何修复 Excel 2013 中损坏的工作簿的详细信息，请参阅[修复损坏的工作簿](http://office.microsoft.com/zh-CN/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx)。<br/><br/>有关如何修复 Word 2013 中损坏的文档的详细信息，请参阅 [保存和恢复文档的备份副本](http://office.microsoft.com/zh-CN/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx)。 <br/> |
-|5  <br/> |加载项成功加载  <br/> ||在 Office 应用程序中成功加载了“文件”**** 列列出的加载项。 没有检测到兼容性问题。  <br/> |
-|6  <br/> |外接程序无法加载  <br/> |关键  <br/> | 应用程序无法加载“文件”**** 列中列出的加载项。  <br/><br/>有关如何修复 Excel 2013 中损坏的工作簿的详细信息，请参阅[修复损坏的工作簿](http://office.microsoft.com/zh-CN/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx)。 <br/><br/>  有关如何修复 Word 2013 中损坏的文档的详细信息，请参阅 [保存和恢复文档的备份副本](http://office.microsoft.com/zh-CN/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx)。 <br/> |
+|4  <br/> |模板无法加载  <br/> |警告  <br/> | 应用程序不能加载模板文件。可能有一些基础兼容性问题，或者该模板的可用性可能已改变。  <br/><br/>有关如何修复 Excel 2013 中损坏的工作簿的详细信息，请参阅[修复损坏的工作簿](https://office.microsoft.com/zh-CN/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx)。<br/><br/>有关如何修复 Word 2013 中损坏的文档的详细信息，请参阅 [保存和恢复文档的备份副本](https://office.microsoft.com/zh-CN/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx)。 <br/> |
+|5  <br/> |加载项成功加载  <br/> ||在 Office 应用程序中成功加载了“文件”**** 列内列出的加载项。没有检测到兼容性问题。<br/> |
+|6  <br/> |外接程序无法加载  <br/> |关键  <br/> | 应用程序无法加载“文件”**** 列中列出的加载项。  <br/><br/>有关如何修复 Excel 2013 中损坏的工作簿的详细信息，请参阅[修复损坏的工作簿](https://office.microsoft.com/zh-CN/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx)。 <br/><br/>  有关如何修复 Word 2013 中损坏的文档的详细信息，请参阅 [保存和恢复文档的备份副本](https://office.microsoft.com/zh-CN/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx)。 <br/> |
 |7  <br/> |外接程序清单已成功下载  <br/> ||主机应用程序成功加载 Office 外接程序清单。  <br/> |
 |8  <br/> |外接程序清单未下载  <br/> |关键  <br/> |主机应用程序无法从 SharePoint 目录、企业目录或 Office 外接程序加载 Office 商店的清单文件。  <br/> |
 |9  <br/> |无法分析外接程序清单  <br/> |关键  <br/> |主机应用程序加载了外接程序的 Office 外接程序清单，但不能读取 XML。  <br/> |
@@ -140,7 +140,7 @@ Office 2013 遥测日志（基于 Excel 2013 构建的工具）帮助开发人�
 |13  <br/> |文档已成功关闭  <br/> ||“文件”**** 列中列出的文件成功关闭。  <br/> |
 |14  <br/> |应用程序会话的时间已延长  <br/> ||打开特定文档或解决方案的应用程序会话应该只持续 24 小时。如果会话超过了 24 小时，宿主应用程序将创建一个新会话。  <br/> |
 |15  <br/> |由于字符串搜索超时，外接程序已被禁用  <br/> ||邮件加载项搜索主题行和电子邮件中的信息以确定是否应通过使用正则表达式将其显示。 Outlook 2013 禁用“文件”**** 列中列出的邮件应用，因为在尝试匹配正则表达式期间其会反复超时。  <br/> |
-|16  <br/> |应用程序崩溃时，文档已打开  <br/> |关键  <br/> |当应用程序（列于应用程序列）崩溃时，“文件”**** 列中列出的文件处于打开状态。 **应用程序**崩溃可能是或可能不是由于文件导致的。  <br/> |
+|16  <br/> |应用程序崩溃时，文档已打开  <br/> |关键  <br/> |当（应用程序列中列出的）应用程序发生故障时，“文件”**** 列列出的文件是打开的。该文件可能应对“应用程序”**** 故障负责，也可能不需要负责。<br/> |
 |17  <br/> |外接程序已成功关闭  <br/> |信息  <br/> |应用程序能够成功关闭加载项。  <br/> |
 |18  <br/> |应用程序已成功关闭  <br/> ||主机应用程序能够成功关闭 Office 外接程序。  <br/> |
 |19  <br/> |外接程序遇到运行时错误  <br/> |关键  <br/> |Office 外接程序 遇到一个导致它失败的问题。有关详细信息，请使用遇到错误的计算机上的 Windows 事件查看器查看 Microsoft Office 警报日志。  <br/> |
@@ -158,9 +158,9 @@ Office 2013 遥测日志（基于 Excel 2013 构建的工具）帮助开发人�
 ## <a name="see-also"></a>另请参阅
 <a name="OEV_Additional"> </a>
 
-- [Office 开发人员中心](http://msdn.microsoft.com/zh-CN/office/aa905340.aspx)
+- [Office 开发人员中心](https://msdn.microsoft.com/office/aa905340.aspx)
 - [Office 中的兼容性问题](compatibility-issues-in-office.md)
-- [部署 Office 遥测仪表板](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Office 开发人员中心](http://msdn.microsoft.com/zh-CN/office/aa905340)
+- [部署 Office 遥测仪表板](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
+- [Office 开发人员中心](https://msdn.microsoft.com/office/aa905340)
     
 

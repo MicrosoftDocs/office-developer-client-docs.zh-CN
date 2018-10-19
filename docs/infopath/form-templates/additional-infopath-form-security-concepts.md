@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: Microsoft InfoPath 安全模型基于 Internet Explorer 实现的安全模型。Internet Explorer 安全模型可使用安全区域和级别来帮助保护计算机免受不安全操作的危害。通过与 Internet Explorer 安全模型协同工作，InfoPath 可提供两种类型的表单部署，这些部署将影响 InfoPath 表单在此安全模型中的工作方式。
-ms.openlocfilehash: dc155e2c2962e2cca2b4465e5a9632f92488cef9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00b0e306507db19f55059fba91277af1ad1714b9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773961"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387417"
 ---
 # <a name="additional-infopath-form-security-concepts"></a>更多 InfoPath 表单安全性概念
 
@@ -138,7 +138,7 @@ InfoPath 为表单提供的其他安全措施包括使用数字签名保护表�
     
 - 可以使用 InfoPath 对象模型以编程方式将自定义信息添加到完全信任的表单中的签名块。
     
-- 可以通过捕获并包含其他信息（如时间戳）作为不可否认的证据来提高数字签名的安全性。 由于附加证据是签名的一部分，因此在不使签名无效的情况下无法删除。 你可以随时通过单击表单中的数字签名或从“数字签名”**** 对话框中显示的数字签名列表中选择数字签名来调用或检查捕获的数据。 
+- 通过捕获额外信息（如时间戳）并将其作为不可否认性证据，可以提高数字签名的安全性。由于此额外证据是签名的一部分，因此在签名没有失效的情况下不能将其删除。通过单击表单中的数字签名，或从“数字签名”**** 对话框中显示的数字签名列表中选择数字签名，您可以随时重新调用或检查捕获的数据。 
     
 -  可以插入并查看文档中的签名，并按照呈现给每个签名人的方式查看表单。 
     
@@ -154,7 +154,7 @@ InfoPath 为表单提供的其他安全措施包括使用数字签名保护表�
   
 ## <a name="activex-controls"></a>ActiveX 控件
 
-InfoPath 支持在使用 InfoPath 编辑器打开的表单中承载 ActiveX 控件。这些 ActiveX 控件可以是现成的（具有某些约束），也可以为供 InfoPath 使用而专门编写这些控件。InfoPath 表单中使用的 ActiveX 控件不会从网站自动下载。不同的是，必须将不在用户计算机上的 ActiveX 控件的 CAB 文件添加到表单模板文件中。
+InfoPath 支持在使用 InfoPath 编辑器打开的表单中托管 ActiveX 控件。这些 ActiveX 控件可以是现成的（具有某些约束），也可以是为了与 InfoPath 配合使用而专门编写的。InfoPath 表单中使用的 ActiveX 控件不会从网站自动下载。相反，必须将用户计算机上尚无的 ActiveX 控件的 CAB 文件添加到表单模板文件中。
   
 当在表单中使用 ActiveX 控件并且未在用户计算机上注册该控件，则打开表单时的行为将取决于该表单中 ActiveX 控件的设置。如果表单模板文件中未包含任何 CAB 文件，则 InfoPath 将不打开该表单。如果表单模板文件中包含 CAB 文件，则 InfoPath 将启动安装过程。为使 InfoPath 能够安装 CAB 文件，必须签署该文件，并且签名必须来自受信任的发布者。如果该发布者不在用户具有证书（包含指向受信任的证书根目录的信任链）的受信任的发布者列表中，则系统将提示用户是接受还是拒绝信任该发布者。如果用户选择不信任该发布者，则不会安装该控件的 CAB 文件，而且 InfoPath 不会打开该表单。
   
@@ -179,6 +179,6 @@ InfoPath 支持在使用 InfoPath 编辑器打开的表单中承载 ActiveX 控�
 
 您可以禁用表单提交功能，以防止用户提交表单。
   
-可通过“提交选项”**** 对话框（在设计模式中单击“数据”**** 选项卡菜单上的“提交选项”****）来启用或禁用表单提交功能。 禁用表单提交时，用户将无法在填写表单时单击“主页”**** 选项卡上的“提交”****。 
+可通过“提交选项”**** 对话框（在设计模式中单击“数据”**** 选项卡菜单上的“提交选项”****）来启用或禁用表单提交功能。禁用表单提交时，用户将无法在填写表单时单击“开始”**** 选项卡上的“提交”****。 
   
 

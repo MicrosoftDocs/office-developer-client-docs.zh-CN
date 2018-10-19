@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
-ms.openlocfilehash: 7a41bc4c9509f1d9cec49003fb775a3be2768703
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d837a83ea8773018033a27ec894375a22c15c8a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773475"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391120"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>在 Access 中创建和自定义 Web 应用
 
@@ -30,9 +30,9 @@ Access 2013 采用新的应用程序模型，使主题专家可以快速创建�
     
 - SharePoint 开发环境
     
-有关设置 SharePoint 开发环境的详细信息，请参阅[设置 SharePoint 的常规开发环境](https://docs.microsoft.com/zh-CN/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint)。 
+有关设置 SharePoint 开发环境的详细信息，请参阅[设置 SharePoint 的常规开发环境](https://docs.microsoft.com/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint)。 
   
-有关获取 Access 和 SharePoint 的详细信息，请参阅[下载](http://msdn.microsoft.com/zh-CN/office/apps/fp123627)。
+有关获取 Access 和 SharePoint 的详细信息，请参阅[下载](https://msdn.microsoft.com/office/apps/fp123627)。
 
 <a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a>
 
@@ -227,7 +227,7 @@ Access 创建一系列表和视图。
   
 11. 关闭宏设计视图。
     
-12. 关闭“问题列表”视图。 当你收到保存更改的提示时，选择“是”****。 
+12. 关闭“问题列表”视图。当看到更改保存提示时，选择“是”****。 
     
 现在我们准备好发布自定义文本了。 单击“启动应用”**** 在 Web 浏览器中打开应用，然后添加新问题。 输入客户名称后，“联系人号码”**** 框会自动更新，如图 10 所示。 
   
@@ -241,7 +241,7 @@ Access 创建一系列表和视图。
   
 ## <a name="see-also"></a>另请参阅
 
-- [面向 Access 2013 开发人员的新增功能](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
+- [面向 Access 2013 开发人员的新增功能](https://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
 - [Access custom web app reference](access-custom-web-app-reference.md)
   
 

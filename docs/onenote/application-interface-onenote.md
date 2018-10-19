@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: 应用程序接口包括帮助检索、操作和更新 OneNote 信息和内容的方法。这些方法分为四大类：
-ms.openlocfilehash: 25bb1aa570f6c36aa04140d9256d277bee65152b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b34cb5e4812842cc3660e24ad2a94268563a4964
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774147"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391477"
 ---
 # <a name="application-interface-onenote"></a>应用程序接口 (OneNote)
 
@@ -98,7 +98,7 @@ static void UpdateExistingHierarchy()
   
 ```XML
 <?xml version="1.0" ?> 
-    <one:Notebooks xmlns:one="http://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
+    <one:Notebooks xmlns:one="https://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
         <one:Notebook name="My Notebook" nickname="My Notebook" ID="{0B8E7305-AC2C-4BCB-8651-1CDA55AAE14C}{1}{B0}"> 
             <one:Section name="My Renamed Section" ID="{5F4E2908-44BA-4C02-91FE-49FC665E9A33}{1}{B0}" path="C:\My Section.one" /> 
         </one:Notebook> 
@@ -127,7 +127,7 @@ static void GetAllSections()
     {
         
         // OneNote 2013 Schema namespace.
-        string strNamespace = "http://schemas.microsoft.com/office/onenote/2013/onenote";
+        string strNamespace = "https://schemas.microsoft.com/office/onenote/2013/onenote";
         string outputXML;
         Application onApplication = new Application();
         onApplication.GetHierarchy(null, HierarchyScope.hsSections, out outputXML);
@@ -220,7 +220,7 @@ static void OpenSection()
 |**语法** <br/> | `HRESULT GetSpecialLocation(`<br/>`[in]SpecialLocation slToGet,`<br/>`[out]BSTR * pbstrSpecialLocationPath);` <br/> |
 |**参数** <br/> | _slToGet_ &ndash; [SpecialLocation](enumerations-onenote-developer-reference.md#odc_SpecialLocation) 枚举值之一，用于指定要获取的特殊文件夹位置。  <br/><br/>_pbstrSpecialLocationPath_ &ndash;（输出参数）指向你希望 OneNote 在其中写入特殊文件夹路径的字符串的指针。  <br/> |
    
-你可以使用此方法确定未归档笔记文件夹在磁盘上的位置。 这是 OneNote 用于存储将项目拖到 OneNote 中时的笔记，以及直接来自其他应用程序的笔记（例如当你在 Microsoft Outlook 或 Microsoft Internet Explorer 中单击“发送到 OneNote”**** 时产生的笔记）的文件夹。 
+您可以使用此方法确定未归档笔记文件夹在磁盘上的位置。这是 OneNote 用于存储将项目拖到 OneNote 中时的笔记，以及直接来自其他应用程序的笔记（例如当您在 Microsoft Outlook 或 Microsoft Internet Explorer 中单击“发送到 OneNote”**** 时产生的笔记）的文件夹。 
   
 ## <a name="page-content-methods"></a>页面内容方法
 <a name="ON14DevRef_Application_PageContent"> </a>
@@ -263,7 +263,7 @@ static void UpdatePageContent()
         OneNote.Application onApplication = new OneNote.Application();
         String strImportXML;
         strImportXML = "<?xml version=\"1.0\"?>" +
-            "<one:Page xmlns:one=\"http://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
+            "<one:Page xmlns:one=\"https://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
             ID=\"{3428B7BB-EF39-4B9C-A167-3FAE20630C37}{1}{B0}\">" +
             "    <one:PageSettings RTL=\"false\" color=\"automatic\">" +
             "        <one:PageSize>" +
@@ -319,7 +319,7 @@ static void UpdatePageContent()
 |:-----|:-----|
 |**说明** <br/> |将您指定的页面导出到 OneNote 支持的任何格式的文件。  <br/> |
 |**语法** <br/> | `HRESULT Publish(`<br/>`[in]BSTR bstrHierarchyID,`<br/>`[in]BSTR bstrTargetFilePath,`<br/>`[in,defaultvalue(pfOneNote)]PublishFormat pfPublishFormat,`<br/>`[in,defaultvalue(0)]BSTR bstrCLSIDofExporter);` <br/> |
-|**参数** <br/> | _bstrHierarchyID_ &ndash; 你想导出的层次结构的 OneNote ID。  <br/><br/>_bstrTargetFilePath_ &ndash; 你想保存生成的输出文件的位置的绝对路径。 你指定的文件必须是该位置尚不存在的文件。  <br/><br/>_pfPublishFormat_ &ndash; [PublishFormat](enumerations-onenote-developer-reference.md#odc_PublishFormat) 枚举值之一，用于指定你希望发布页面所用的格式（例如 MTHML、PDF 等）。  <br/><br/>_bstrCLSIDofExporter_ &ndash; 可以导出 Microsoft Windows 增强型图元文件 (.emf) 的注册 COM 应用程序的类 ID (CLSID)。 COM 应用程序必须实现 **IMsoDocExporter** 接口。 包含此参数是为了允许第三方开发人员写入自己的代码以使用自定义格式发布 OneNote 内容。 有关 **IMsoDocExporter** 界面的详细信息，请参阅 [扩展 Office 2007 固定格式导出功能](http://msdn.microsoft.com/zh-CN/library/office/aa338206%28v=office.12%29.aspx)。  <br/> |
+|**参数** <br/> | _bstrHierarchyID_ &ndash; 你想导出的层次结构的 OneNote ID。  <br/><br/>_bstrTargetFilePath_ &ndash; 你想保存生成的输出文件的位置的绝对路径。 你指定的文件必须是该位置尚不存在的文件。  <br/><br/>_pfPublishFormat_ &ndash; [PublishFormat](enumerations-onenote-developer-reference.md#odc_PublishFormat) 枚举值之一，用于指定你希望发布页面所用的格式（例如 MTHML、PDF 等）。  <br/><br/>_bstrCLSIDofExporter_ &ndash; 可以导出 Microsoft Windows 增强型图元文件 (.emf) 的注册 COM 应用程序的类 ID (CLSID)。 COM 应用程序必须实现 **IMsoDocExporter** 接口。 包含此参数是为了允许第三方开发人员写入自己的代码以使用自定义格式发布 OneNote 内容。 有关 **IMsoDocExporter** 界面的详细信息，请参阅 [扩展 Office 2007 固定格式导出功能](https://msdn.microsoft.com/library/office/aa338206%28v=office.12%29.aspx)。  <br/> |
    
 当前 OneNote 支持以下文件格式：
   
@@ -351,7 +351,7 @@ static void UpdatePageContent()
 
 |||
 |:-----|:-----|
-|**说明** <br/> |如果传递 OneNote 链接 (onenote://)，则在 OneNote 中将 OneNote 窗口打开到相应的位置。如果链接是 OneNote 外部的（例如 http:// 或 file://），将显示一个安全对话框。解除后，OneNote 将尝试打开链接，此时会返回 **HResult.hrObjectDoesNotExist** 错误。  <br/> |
+|**说明** <br/> |如果已传递 OneNote 链接 (onenote://)，OneNote 窗口便会在 OneNote 中的相应位置打开。如果链接是 OneNote 外部的（如 https:// 或 file://），便会看到安全对话框。解除后，OneNote 便会尝试打开链接，此时返回 **HResult.hrObjectDoesNotExist** 错误。<br/> |
 |**语法** <br/> | `HRESULT NavigateTo(`<br/>`[in]BSTR bstrUrl,`<br/>`[in,defaultvalue(0)]VARIANT_BOOL fNewWindow);` <br/> |
 |**参数** <br/> | _bstrUrl_ &ndash; 指示导航到何处的字符串。 这可以是 OneNote 链接，也可以是任何其他 URL，例如 Web 链接或网络位置。  <br/><br/>_fNewWindow_ &ndash;（可选）设置为 **true** 可在一个新的 OneNote 窗口中打开指定 URL。 设置为 **false** 不会打开一个新的 OneNote 窗口（如果已打开一个窗口）。  <br/> |
    
@@ -381,7 +381,7 @@ static void UpdatePageContent()
 |**语法**| `HRESULT FindPages(`<br/>`[in]BSTR bstrStartNodeID,`<br/>`[in]BSTR bstrSearchBSTR,`<br/>`[out]BSTR * pbstrHierarchyXmlOut,`<br/>`[in,defaultvalue(#)]VARIANT_BOOL fIncludeUnindexedPages,`<br/>`[in,defaultvalue(0)]VARIANT_BOOL fDisplay,`<br/>`[in,defaultvalue(#)]XMLSchema xsSchema);`|
 |**参数**| _bstrStartNodeID_ &ndash; 要在其下搜索内容的节点（根、笔记本、节组或节）。 此参数设置搜索的范围。<br/><br/>_bstrSearchString_ &ndash; 搜索字符串。 传递与你在 OneNote UI 的搜索框中键入的字符串完全相同的字符串。 可以使用按位运算符，例如 **AND** 和 **OR**，它们必须全部为大写。<br/><br/>_pbstrHierarchyXmlOut_ &ndash;（输出参数）指向你希望 OneNote 将输出 XML 字符串写入其中的字符串的指针。 生成的 XML 字符串包含从根向下到包含与搜索字符串匹配的任何页面的笔记本层次结构。 例如，**FindPages** 方法不会列出层次结构中没有页面匹配的节。 此外，如果单个节中只有一个页面与字符串匹配，则返回的层次结构包括该节和页面的路径，但不包括笔记本层次结构的任何其他部分。<br/><br/>_fIncludeUnindexedPages_ &ndash;（可选）设置为 **true** 可搜索尚未由 Windows Search 编制索引的页面，否则设置为 **false**。<br/><br/>_fDisplay_ &ndash;（可选）设置为 **true** 还可以在用户的 UI 中运行搜索，就像是用户自己键入的一样。 设置为 **false** 则在不更改 UI 的情况下执行查询（默认设置）。<br/><br/>_xsSchema_ &ndash;（可选）字符串 _pbstrHierarchyXmlOut_ 的 OneNote 架构版本。 此可选值用于指定包含 _pbstrHierarchyXmlOut_ 字符串的 OneNote XML 架构的版本。 如果未指定此值，则 OneNote 将假定 XML 在架构版本 _xsCurrent_ 中。 <br/><br/>**注意**：我们建议指定 OneNote 版本（例如 **xs2013**），而不是使用 **xsCurrent** 或将其留空，因为这样会使你的加载项使用 OneNote 的未来版本。           |
    
- 仅当您已在计算机上安装 Microsoft Search 3.0 或 4.0 时， **FindPages** 才能正常运行。Windows Vista 和 Windows 7 包括此组件。但是，如果您运行 Windows 的早期版本，则必须安装 [Windows Search](http://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) 才能使 **FindPages** 正常运行。 
+ 仅当您已在计算机上安装 Microsoft Search 3.0 或 4.0 时， **FindPages** 才能正常运行。Windows Vista 和 Windows 7 包括此组件。但是，如果您运行 Windows 的早期版本，则必须安装 [Windows Search](https://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) 才能使 **FindPages** 正常运行。 
   
 ### <a name="findmeta-method"></a>FindMeta 方法
 
@@ -391,7 +391,7 @@ static void UpdatePageContent()
 |**语法**| `HRESULT FindMeta (`<br/>`[in]BSTR bstrStartNodeID,`<br/>`[in]BSTR bstrSearchBSTRName,`<br/>`[out]BSTR * pbstrHierarchyXmlOut,`<br/>`[in,defaultvalue(#)]VARIANT_BOOL fIncludeUnindexedPages,`<br/>`[in,defaultvalue(#)]XMLSchema xsSchema);`|
 |**参数**| _bstrStartNodeID_ &ndash; 要在其下搜索内容的节点（根、笔记本、节组或节）。 此参数设置搜索的范围。<br/><br/>_bstrSearchStringName_ &ndash; 搜索字符串。 传入元数据名称的任何部分。 如果传入空字符串或 null 值，则具有元数据的所有对象将与查询匹配。<br/><br/>_pbstrHierarchyXmlOut_ &ndash;（输出参数）指向你希望 OneNote 将输出 XML 字符串写入其中的字符串的指针。 生成的 XML 字符串包含从根向下到包含与搜索字符串匹配的任何页面的笔记本层次结构。 例如，**FindPages** 方法不会列出层次结构中没有页面匹配的节。 此外，如果单个节中只有一个页面与字符串匹配，则返回的层次结构包括该节和页面的路径，但不包括笔记本层次结构的任何其他部分。  <br/><br/>_fIncludeUnindexedPages_ &ndash;（可选）设置为 **true** 可搜索尚未由 Windows Search 编制索引的页面，否则设置为 **false**。<br/><br/>_xsSchema_ &ndash;（可选）字符串 _pbstrHierarchyXmlOut_ 的 OneNote 架构版本。 此可选值用于指定包含 _pbstrHierarchyXmlOut_ 字符串的 OneNote XML 架构的版本。 如果未指定此值，则 OneNote 将假定 XML 在架构版本 _xsCurrent_ 中。 <br/><br/>**注意**：我们建议指定 OneNote 版本（例如 **xs2013**），而不是使用 **xsCurrent** 或将其留空，因为这样会使你的加载项使用 OneNote 的未来版本。           |
    
-仅当您已在计算机上安装 Microsoft Windows Search 3.0 或 4.0 时， **FindMeta** 才能正常运行。Windows Vista 和 Windows 7 包括此组件。但是，如果您运行 Windows 的早期版本，则必须安装 [Windows Search](http://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) 才能使 **FindMeta** 正常运行。 
+仅当您已在计算机上安装 Microsoft Windows Search 3.0 或 4.0 时， **FindMeta** 才能正常运行。Windows Vista 和 Windows 7 包括此组件。但是，如果您运行 Windows 的早期版本，则必须安装 [Windows Search](https://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) 才能使 **FindMeta** 正常运行。 
   
 ## <a name="functional-methods"></a>功能性方法
 <a name="ON14DevRef_Application_Functional"> </a>
@@ -441,7 +441,7 @@ static void UpdatePageContent()
 |**语法** <br/> | `HRESULT SetFilingLocation (`<br/>`[in]FilingLocation flToSet,`<br/>`[in]FilingLocationType fltToSet,`<br/>`[in]BSTR bstrFilingSectionID);`           <br/> |
 |**参数** <br/> | _flToSet_ &ndash; 要设置的归档位置的对象类型。  <br/><br/>_fltToSet_ &ndash; 类型要归档到的位置。  <br/><br/>_bstrFilingSectionID_ &ndash; 你希望在其中设置位置的节或页面的 OneNote ID。 如果不适用，则用户可以传入 null 或空字符串。  <br/> |
    
-可以归档的内容类型包括 Outlook 项目和 Internet Explorer 中的 Web 笔记，这些笔记在各个应用程序中通过“发送到 OneNote”**** 命令导入到 OneNote。 打印到 OneNote 的项目的归档位置也可以使用此方法进行设置。 
+可以归档的内容类型包括 Outlook 项目和 Internet Explorer 中的 Web 笔记，这些笔记在各个应用程序中通过“发送到 OneNote”**** 命令导入到 OneNote。打印到 OneNote 的项目的归档位置也可以使用此方法进行设置。 
   
 ## <a name="properties"></a>属性
 <a name="ON14DevRef_Application_Properties"> </a>
@@ -451,7 +451,7 @@ static void UpdatePageContent()
 |**属性**|**说明**|
 |:-----|:-----|
 |**Windows** <br/> |允许用户访问打开的 OneNote 窗口。此属性允许用户通过一系列 OneNote 窗口进行枚举并修改特定的窗口属性。有关详细信息，请参阅 [Windows 界面](window-interfaces-onenote.md)。  <br/> |
-|**COMAddIns** <br/> |返回 OneNote 的 **COMAddIns** 集合。该集合包含对 OneNote 可用的所有 COM 加载项。 **COMAddins** 集合的 **Count** 属性返回可用 COM 加载项的数目。有关详细信息，请参阅 [COMAddIns](http://msdn.microsoft.com/zh-CN/library/office/ff865489.aspx) 对象。  <br/> |
+|**COMAddIns** <br/> |返回 OneNote 的 **COMAddIns** 集合。该集合包含对 OneNote 可用的所有 COM 加载项。 **COMAddins** 集合的 **Count** 属性返回可用 COM 加载项的数目。有关详细信息，请参阅 [COMAddIns](https://msdn.microsoft.com/library/office/ff865489.aspx) 对象。  <br/> |
 |**LanguageSettings** <br/> |使您可以访问一些 API 以更改 OneNote 的公共语言设置。  <br/> |
    
 ## <a name="events"></a>活动
