@@ -6,12 +6,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: 查找开发解决方案和自定义 Excel 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
-ms.openlocfilehash: cf486b3bab5133de75cf59f8999ade1b8cca8aad
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: b12ee0ca7fa97e008767f3c207ea7fd54e914e6d
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394704"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454521"
 ---
 # <a name="excel"></a>Excel
 
@@ -34,8 +34,7 @@ ms.locfileid: "25394704"
   
 ### <a name="code-samples"></a>代码示例
   
-- 
-  [Office 开发中心内的 Excel 代码示例](https://developer.microsoft.com/en-us/excel/gallery/?filterBy=Samples)
+- [Office 开发中心内的 Excel 代码示例](https://developer.microsoft.com/excel/gallery/?filterBy=Samples)
   
 ### <a name="other-resources"></a>其他资源
   
@@ -47,10 +46,10 @@ ms.locfileid: "25394704"
   
 - [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [适用于 Office 的 VSTO 外接程序](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [适用于 Office 的 VSTO 加载项](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### <a name="support"></a>支持
   
-- [Office 开发人员中心](https://developer.microsoft.com/zh-CN/office)
+- [Office 开发人员中心](https://developer.microsoft.com/office)
   
 - [Office 支持](https://support.office.com/)
