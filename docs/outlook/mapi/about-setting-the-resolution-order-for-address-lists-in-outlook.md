@@ -1,32 +1,32 @@
 ---
-title: 关于在 Outlook 中设置地址列表的解析顺序
+title: 关于设置在 Outlook 中地址列表的解析顺序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
-description: 上次修改时间： 2012 年 7 月 5 日
+description: 上次修改时间：2012 年 7 月 5 日
 ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25391407"
 ---
-# <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>关于在 Outlook 中设置地址列表的解析顺序
+# <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>关于设置在 Outlook 中地址列表的解析顺序
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-对于每个配置文件，Microsoft Office Outlook 支持多个地址列表和用户可以手动指定消息和会议请求中的与会者都已解析通过电子邮件中的收件人的地址列表的顺序。 例如，您可以设置解析顺序，以便姓名均已解析，首先对 Outlook 通讯簿，然后针对全局地址列表。 计算机上，用户可以打开通讯簿，单击**工具**和**选项**，以指定此解决方案顺序。 但是，在企业环境中，是面向 IT 管理员以编程方式设置按其姓名均已解析的地址列表的顺序更有效。 此类代码可以用作管理员部署在公司内启动自动化脚本的一部分。 
+对于每个配置文件，Microsoft Office Outlook 支持多个地址列表，用户可以手动指定地址列表的顺序，按这个顺序解析电子邮件中的收件人和会议请求中的与会者。 例如，可以设置解析顺序，以便先按照 Outlook 通讯簿，再按照全局地址列表解析名称。 在计算机上，用户可以打开通讯簿，单击**工具**和**选项**指定这一解析顺序。 但是，在企业环境中，IT 管理员以编程方式设置解析名称的地址列表顺序会更有效。 此类代码可用作管理员在公司内部部署的启动自动化脚本的一部分。 
   
-MAPI 支持在**[IAddrBook](iaddrbookimapiprop.md)** 界面中，以便您可以用于名称解析配置文件中设置新的搜索路径**[SetSearchPath](iaddrbook-getsearchpath.md)** 方法。 若要使用的**IAddrBook::SetSearchPath**方法，您必须指定所需要的分辨率顺序使用数组包含容器的相关地址簿解决它们的顺序。 该数组中的每个条目还应包含相应的通讯簿的条目 ID。 
+MAPI 支持 **[IAddrBook](iaddrbookimapiprop.md)** 界面中的 **[SetSearchPath](iaddrbook-getsearchpath.md)** 方法，允许您在用于名称解析的配置文件中设置新的搜索路径。 若要使用 **IAddrBook::SetSearchPath** 方法，您必须使用数组指定所需的解析顺序，该数组按照应该解析的顺序保存相关通讯簿的容器。 该数组中的每个条目还应包含相应通讯簿的条目 ID。 
   
-下面是如何指定地址列表的自定义的搜索路径的代码示例。
+以下是如何指定地址列表自定义搜索路径的代码示例。
   
 - [以编程方式设置地址列表的解析顺序](how-to-programmatically-set-the-resolution-order-for-address-lists.md)
     
-- [KB 292590： 如何更改与 SetSearchPath 通讯簿排序顺序](https://support.microsoft.com/kb/292590)
+- [KB 292590：如何使用 SetSearchPath 更改通讯簿排序顺序](https://support.microsoft.com/kb/292590)
     
 

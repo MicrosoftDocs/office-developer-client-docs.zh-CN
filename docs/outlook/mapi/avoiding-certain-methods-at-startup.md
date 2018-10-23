@@ -7,10 +7,10 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7bb86fc8-d1ae-4937-9919-86c3a0f5651d
-description: 上次修改时间： 2015年12月7日
+description: 上次修改时间：2015 年 12 月 7 日
 ms.openlocfilehash: 5d26583ad7ad3b4a200daf321a8994e302b75a79
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22580633"
@@ -19,9 +19,9 @@ ms.locfileid: "22580633"
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-若要提高在启动时的性能，避免进行以下调用：
+若要提高启动时的性能，请避免进行以下调用：
   
 - [IMAPISession::EnumAdrTypes](imapisession-enumadrtypes.md)
     
@@ -33,8 +33,8 @@ ms.locfileid: "22580633"
     
 - [IMAPIStatus::ValidateState](imapistatus-validatestate.md)
     
-**IMAPIStatus::ValidateState**调用影响仅当 MAPI 后台处理程序或 MAPI 子系统上所做的性能。 这些方法，会启动处理降低的原因是因为他们无法完成，直到 MAPI 后台处理程序已完成其启动任务。 
+仅当在 MAPI 后台处理程序或 MAPI 子系统上调用 **IMAPIStatus::ValidateState** 时会影响性能。 这些方法减慢启动过程的原因是它们在 MAPI 后台处理程序完成其启动任务之前无法完成。 
   
-您还应避免在启动时搜索消息存储库。 在完成后启动处理进行[IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md)呼叫。 
+还应避免在启动时搜索邮件存储。 完成启动过程后再调用 [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md)。 
   
 

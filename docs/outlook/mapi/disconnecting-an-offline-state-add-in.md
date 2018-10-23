@@ -5,25 +5,25 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
-description: 上次修改时间： 2015年12月7日
+description: 上次修改时间：2015 年 12 月 7 日
 ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564134"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>断开脱机状态加载项
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-脱机状态外接程序断开连接时，您必须实现函数正确终止并清理外接程序。 有关详细信息设置和使用脱机状态外接程序来监视连接状态更改，请参阅[设置 Up 脱机状态外接程序](setting-up-an-offline-state-add-in.md)和[监视连接状态更改使用脱机状态外接程序](monitoring-connection-state-changes-using-an-offline-state-add-in.md)。
+当脱机状态加载项已断开连接时，必须实现函数来正确终止和清理加载项。 有关设置和使用脱机状态加载项监视连接状态更改的详细信息，请参阅[设置脱机状态加载项](setting-up-an-offline-state-add-in.md)和[使用脱机状态加载项监视连接状态更改](monitoring-connection-state-changes-using-an-offline-state-add-in.md)。
   
-在此主题，这些断开连接，终止，并使用从示例脱机状态加载项的代码示例演示了清理功能。 示例脱机状态加载项是 COM 加载项程序，将**脱机状态**菜单添加到 Outlook 并使用脱机状态 API。 通过脱机状态菜单中，可以启用或禁用状态监控、 检查的当前状态，并更改的当前状态。 有关下载和安装加载项示例脱机状态的详细信息，请参阅[安装示例脱机状态外接程序](installing-the-sample-offline-state-add-in.md)。 有关脱机状态 API 的详细信息，请参阅[有关脱机状态 API](about-the-offline-state-api.md)。
+在此主题中，通过使用示例脱机状态加载项的代码示例来演示这些断开连接、终止和清理函数。 示例脱机状态加载项是一个 COM 加载项，它会将**脱机状态**菜单添加到 Outlook 并使用脱机状态 API。 通过“脱机状态”菜单，可以启用或禁用状态监视、检查当前状态和更改当前状态。 有关下载和安装示例脱机状态加载项的详细信息，请参阅[安装示例脱机状态加载项](installing-the-sample-offline-state-add-in.md)。 有关脱机状态 API 的详细信息，请参阅[关于脱机状态 API](about-the-offline-state-api.md)。
   
-## <a name="on-disconnection-routine"></a>在断开连接例程
+## <a name="on-disconnection-routine"></a>断开连接例程
 
-脱机状态加载宏卸载时调用**IDTExtensibility2.OnDisconnection**方法。 您应实现清理此函数中的代码。 在以下示例中， **IDTExtensibility2.OnDisconnection**函数调用`HrTermAddin`函数。 
+卸载脱机状态加载项时调用 **IDTExtensibility2.OnDisconnection** 方法。 您应该在此函数中实现清理代码。 在以下示例中，**IDTExtensibility2.OnDisconnection** 函数调用 `HrTermAddin` 函数。 
   
 ### <a name="cmyaddinondisconnection-example"></a>CMyAddin::OnDisconnection() 示例
 
@@ -37,9 +37,9 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 }
 ```
 
-## <a name="terminate-add-in-function"></a>终止外接程序函数
+## <a name="terminate-add-in-function"></a>终止加载项函数
 
-`HrTermAddin`函数调用`inDeInitMonitor`， `HrRemoveMenuItems`，和`UnloadLibraries`功能完成清理脱机状态加载项。 
+`HrTermAddin` 函数调用 `inDeInitMonitor`、`HrRemoveMenuItems` 和 `UnloadLibraries` 函数以完成清理脱机状态加载项。 
   
 ### <a name="cmyaddinhrtermaddin-example"></a>CMyAddin::HrTermAddin() 示例
 
@@ -54,9 +54,9 @@ HRESULT CMyAddin::HrTermAddin()
 }
 ```
 
-## <a name="deinitialize-monitor-routine"></a>Deinitialize 监视器例程
+## <a name="deinitialize-monitor-routine"></a>取消初始化监视例程
 
-`inDeInitMonitor`函数调用[IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)函数取消脱机对象的回调。 
+`inDeInitMonitor` 函数调用 [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) 函数以取消脱机对象的回调。 
   
 ### <a name="deinitmonitor-example"></a>DeInitMonitor() 示例
 
@@ -77,7 +77,7 @@ g_ulAdviseToken = NULL;
 
 ## <a name="remove-menu-items-routine"></a>删除菜单项例程
 
-`HrRemoveMenuItems`函数调用`DispEventUnadvise`为下的**脱机状态**菜单中，每个菜单项，然后删除**脱机状态**菜单。 
+`HrRemoveMenuItems` 函数调用**脱机状态**菜单下的每个菜单项的 `DispEventUnadvise`，然后删除**脱机状态**菜单。 
   
 ### <a name="cmyaddinhrremovemenuitems-example"></a>CMyAddin::HrRemoveMenuItems() 示例
 
@@ -124,7 +124,7 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 
 ## <a name="unload-libraries-routine"></a>卸载库例程
 
-加载宏卸载时从 Outlook 中，`UnloadLibraries`函数卸载加载项所需的动态链接库 (Dll)。 
+从 Outlook 卸载加载项时，`UnloadLibraries` 函数卸载该加载项必需的动态链接库 (DLL)。 
   
 ### <a name="unloadlibraries-example"></a>UnloadLibraries() 示例
 
