@@ -1,21 +1,21 @@
 ---
 title: INSERT INTO 语句 (Microsoft Access SQL)
-TOCTitle: INSERT INTO Statement (Microsoft Access SQL)
+TOCTitle: INSERT INTO statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834799(v=office.15)
 ms:contentKeyID: 48547918
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 751d2e2747a2d3b9aac4a0d36b8fac11a60c418f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ae2aaffc7361588a55cc17cc33169a9b8b840e1f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467542"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860460"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>INSERT INTO 语句 (Microsoft Access SQL)
 
@@ -25,11 +25,11 @@ ms.locfileid: "25467542"
 
 ## <a name="syntax"></a>语法
 
-多记录追加查询：
+**多记录追加查询**：
 
 插入到*目标* \[(*field1*\[， *field2*\[，...\] \])\] \[IN *externaldatabase* \]选择\[*源*。\] *field1*\[， *field2*\[，...\] FROM *tableexpression*
 
-单记录追加查询：
+**单记录追加查询**：
 
 插入到*目标* \[(*field1*\[， *field2*\[，...\] \])\]值 (*value1*\[， *value2*\[，...\])
 
@@ -57,7 +57,7 @@ INSERT INTO 语句包含以下部分：
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>外部数据库的路径。有关路径的说明，请参阅 <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a> 子句。</p></td>
+<td><p>外部数据库的路径。有关路径的说明，请参阅 <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a> 子句。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -101,9 +101,9 @@ INSERT INTO 是可选的，但是如果包括它，应将它置于 [SELECT](sele
 
 **链接提供** [UtterAccess](https://www.utteraccess.com)社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
 
-  - [生成 for 插入/更新语句的顺序编号](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
+- [生成 for 插入/更新语句的顺序编号](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
-  - [SQL 到 VBA 格式化程序](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+- [SQL 到 VBA 格式化程序](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
 ## <a name="example"></a>示例
 
@@ -128,6 +128,8 @@ INSERT INTO 是可选的，但是如果包括它，应将它置于 [SELECT](sele
      
     End Sub
 ```
+
+<br/>
 
 以下示例在 Employees 表中创建一个新记录。
 

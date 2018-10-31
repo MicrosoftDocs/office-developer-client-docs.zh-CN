@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e72997d2484bdfcec91542b0b8de6bbbb23e3fa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 37f66f6ef6c4ed63b106584a6ac5118cddf20526
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465694"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861199"
 ---
-# <a name="batch-mode"></a>批模式
+# <a name="batch-mode"></a>批处理模式
 
 
 **适用于**： Access 2013 |Office 2013
@@ -21,4 +21,18 @@ ms.locfileid: "25465694"
 当 **LockType** 属性设置为 **adLockBatchOptimistic** ，并且提供程序支持批更新时，批模式有效。根据游标位置，某些锁定类型设置不可用。例如，当 **CursorLocation** 设置为 **adUseClient** 时，保守式锁定类型不可用。反过来，当游标位置位于服务器时，提供程序可能不支持批开放式锁定。仅应将批更新用于键集游标或静态游标。
 
 **UpdateBatch** 方法用于将复制缓冲区中保存的 **Recordset** 更改发送到服务器以更新数据源。在以下部分中，我们将以批模式打开一个 **Recordset** ，对复制缓冲区进行更改，然后调用 **UpdateBatch** 将更改发送到数据源。
+
+本节包括下列主题：
+
+- [发送更新：UpdateBatch](sending-the-updates-updatebatch.md)
+
+- [筛选更新的记录](filtering-for-updated-records.md)
+
+- [处理失败的更新](dealing-with-failed-updates.md)
+
+- [检测和解决冲突](detecting-and-resolving-conflicts.md)
+
+- [断开并重新连接记录集](disconnecting-and-reconnecting-the-recordset.md)
+
+- [更新联接结果：Unique Table](updating-joined-results-unique-table.md)
 

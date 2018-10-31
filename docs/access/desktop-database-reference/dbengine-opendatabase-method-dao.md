@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 54078705c67e892b80a08ce2bd31db191c7fc70c
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 311481a83c25df29a26610a979a67ceb38124470
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606155"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860418"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase Method (DAO)
 
@@ -76,11 +76,11 @@ ms.locfileid: "25606155"
 </table>
 
 
-<<<<<<< 标头
+<<<<<<< 头
 ### <a name="return-value"></a>返回值
 =======
 ### <a name="return-value"></a>返回值
->>>>>>> master
+>>>>>>> 母版
 
 Database
 
@@ -126,6 +126,6 @@ Database
 
 
 > [!NOTE]
-> <P>[!注释] 在访问 Microsoft Access 数据库引擎连接的 ODBC 数据源时，可通过打开连接到 ODBC 数据源的 <STRONG>Database</STRONG> 对象改善应用程序的性能，这样不需要将单个 <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> 对象链接到 ODBC 数据源中的特定表。</P>
+> [!注释] 在访问 Microsoft Access 数据库引擎连接的 ODBC 数据源时，可通过打开连接到 ODBC 数据源的 **Database** 对象改善应用程序的性能，这样不需要将单个 [TableDef](tabledef-object-dao.md) 对象链接到 ODBC 数据源中的特定表。
 
 

@@ -1,21 +1,21 @@
 ---
 title: CREATE TABLE 语句 (Microsoft Access SQL)
-TOCTitle: CREATE TABLE Statement (Microsoft Access SQL)
+TOCTitle: CREATE TABLE statement (Microsoft Access SQL)
 ms:assetid: fc45d36e-6e43-c030-5016-cca8bb1379fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837200(v=office.15)
 ms:contentKeyID: 48548888
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277563
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 749d593a0c9ed32290ee91aec20c79a141a83f56
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ccf9a88b427925528ce4e6a293d0b1351cef9883
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467172"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863946"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>CREATE TABLE 语句 (Microsoft Access SQL)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25467172"
 新建一个表。
 
 > [!NOTE]
-> [!注释] Microsoft Access 数据库引擎不支持对非 Microsoft Access 数据库引擎数据库使用 CREATE TABLE 或者任何 DDL 语句。可以改用 DAO Create 方法。
+> [!注释] Microsoft Access 数据库引擎不支持对非 Microsoft Access 数据库引擎数据库使用 CREATE TABLE 或者任何 DDL 语句。 而是使用**DAO 创建**方法。
 
 ## <a name="syntax"></a>语法
 
@@ -62,11 +62,11 @@ CREATE TABLE 语句包含以下部分：
 </tr>
 <tr class="odd">
 <td><p><em>index1</em>、<em>index2</em></p></td>
-<td><p>CONSTRAINT 子句，用于定义单字段索引。有关如何创建此索引的详细信息，请参阅 <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
+<td><p>CONSTRAINT 子句定义单字段索引。 有关如何创建此索引的详细信息，请参阅<a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>multifieldindex</em></p></td>
-<td><p>CONSTRAINT 子句，用于定义多字段索引。有关如何创建此索引的详细信息，请参阅 <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
+<td><p>CONSTRAINT 子句定义多字段索引。 有关如何创建此索引的详细信息，请参阅<a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT 子句</a>。</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,17 +74,17 @@ CREATE TABLE 语句包含以下部分：
 
 ## <a name="remarks"></a>说明
 
-使用 CREATE TABLE 语句可以定义一个新表及其字段和字段约束。如果对字段指定了 NOT NULL，那么新记录必需包含该字段的有效数据。
+使用 CREATE TABLE 语句可以定义一个新表及其字段和字段约束。 如果没有为字段指定 NULL，新记录所需的字段中具有有效的数据。
 
 CONSTRAINT 子句可建立对字段的各种约束，并且可用于建立主键。也可以使用 [CREATE INDEX](create-index-statement-microsoft-access-sql.md) 语句对现有表创建主键或其他索引。
 
 在一个字段或一个名为 CONSTRAINT 的子句中可以使用 NOT NULL，该子句既可应用于单字段索引，也可应用于名为 CONSTRAINT 的多字段索引。但是，NOT NULL 限制一次只能应用于一个字段。多次应用此限制将导致运行时错误。
 
-创建 TEMPORARY 表时，该表只能在创建它的会话中可见。当会话终止时，该表会被自动删除。临时表能够被多个用户访问。
+创建一个临时表后，它是可见的仅在其中创建会话中。 当会话终止时，该表会被自动删除。 临时表能够被多个用户访问。
 
 WITH COMPRESSION 属性只能用于 CHARACTER 和 MEMO（也叫做 TEXT）数据类型以及它们的同义词。
 
-由于 Unicode 字符表示格式发生的更改，属性 WITH COMPRESSION 被添加到 CHARACTER 列上。Unicode 字符中每个字符一律需要两个字节。对于现有的包含了主要字符数据的 Microsoft® Jet 数据库，这可能意味着当转换为 Microsoft Access 数据库引擎格式时，数据库文件大小几乎会增大到两倍。然而，许多以前称为单字节字符集 (SBCS) 的字符集的 Unicode 表示法能够被轻易地压缩成为单字节。如果使用该属性定义 CHARACTER 列，在该列中存储数据时，数据会自动进行压缩；从该列检索数据时，数据会自动解压缩。
+由于 Unicode 字符表示格式发生的更改，属性 WITH COMPRESSION 被添加到 CHARACTER 列上。 Unicode 字符中每个字符一律需要两个字节。 对于包含主要用于字符数据的现有 Microsoft Jet 数据库，这可能意味着几乎双数据库文件会转换为 Microsoft Access 数据库引擎格式时的大小。 但是，可以很容易压缩的许多字符集，以前表示为单字节字符设置 (SBCS)，Unicode 表示形式，成一个字节。 如果使用该属性定义 CHARACTER 列，在该列中存储数据时，数据会自动进行压缩；从该列检索数据时，数据会自动解压缩。
 
 MEMO 列也能定义为以压缩的格式来存储数据。但是，这样做是有限制的。进行压缩时，只有 MEMO 列实例的大小在 4096 字节以内，它才会被压缩。所有其他 MEMO 列实例仍然保持为未压缩格式。这意味着，对于指定表中的一个给定的 MEMO 列，一些数据可能被压缩，而一些数据则可能是未压缩的。
 

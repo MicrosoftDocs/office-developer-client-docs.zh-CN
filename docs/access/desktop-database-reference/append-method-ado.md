@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b47b7b0514b78a89425e47962c36b092e35677ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 03d3b7ac215c8b5328148b33e2e966c4e574c98e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467730"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863998"
 ---
 # <a name="append-method-ado"></a>Append 方法 (ADO)
 
@@ -78,8 +78,7 @@ ms.locfileid: "25467730"
 
 
 > [!NOTE]
-> <P>[!注释] 对于已追加到 <STRONG>Record</STRONG> 对象的 <STRONG>Fields</STRONG> 集合中的新 <STRONG>Field</STRONG> 对象，必须先设置 <A href="value-property-ado.md">Value</A> 属性，然后才能指定其他任何 <STRONG>Field</STRONG> 属性。首先，必须为 <STRONG>Value</STRONG> 属性赋予特定值，并对 <A href="update-method-ado.md">Fields</A> 集合调用 <STRONG>Update</STRONG>。然后，可以访问诸如 <A href="type-property-ado.md">Type</A> 或 <A href="attributes-property-ado.md">Attributes</A> 等其他属性。</P>
-
+> [!注释] 对于已追加到 **Record** 对象的 **Fields** 集合中的新 **Field** 对象，必须先设置 [Value](value-property-ado.md) 属性，然后才能指定其他任何 **Field** 属性。首先，必须为 **Value** 属性赋予特定值，并对 [Fields](update-method-ado.md) 集合调用 **Update**。然后，可以访问诸如 [Type](type-property-ado.md) 或 [Attributes](attributes-property-ado.md) 等其他属性。
 
 
 以下数据类型 (**DataTypeEnum**) 的 **Field** 对象不能追加到 **Fields** 集合，并将引发错误：**adArray**、**adChapter**、**adEmpty**、**adPropVariant** 和 **adUserDefined**。此外，ADO 不支持以下数据类型：**adIDispatch**、**adIUnknown** 和 **adIVariant**。对于这些类型，追加时不会发生错误，但使用时会产生不可预测的结果，如内存溢出。

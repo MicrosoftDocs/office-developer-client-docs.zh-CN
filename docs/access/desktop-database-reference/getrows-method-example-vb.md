@@ -1,17 +1,17 @@
 ---
 title: GetRows 方法示例 (VB)
-TOCTitle: GetRows Method Example (VB)
+TOCTitle: GetRows method example (VB)
 ms:assetid: 5a4e03de-0c89-ed93-7fe8-685906878e60
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249311(v=office.15)
 ms:contentKeyID: 48545041
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b23bcff998745eff8895d1ce666e18efe1293d58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 10ea58f34b89e01770889e49265ef7bd399b546e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468451"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863869"
 ---
 # <a name="getrows-method-example-vb"></a>GetRows 方法示例 (VB)
 

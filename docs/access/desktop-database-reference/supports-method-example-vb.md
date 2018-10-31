@@ -1,17 +1,17 @@
 ---
 title: Supports 方法示例 (VB)
-TOCTitle: Supports Method Example (VB)
+TOCTitle: Supports method example (VB)
 ms:assetid: 6ebeac50-59d1-41d0-b5ef-2be868182cc2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249438(v=office.15)
 ms:contentKeyID: 48545518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 959dcac3509720597cf7678a7c9cff44cd313d86
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d3ea5bf64eb4897dab60a8f80e0691a1d1538126
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465512"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860355"
 ---
 # <a name="supports-method-example-vb"></a>Supports 方法示例 (VB)
 

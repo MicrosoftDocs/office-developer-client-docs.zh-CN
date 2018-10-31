@@ -3,22 +3,22 @@
 >>>>>>> 母版页 ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15) ms:contentKeyID: 48548682 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
 
-<<<<<<< 标头
+<<<<<<< 头
 # <a name="cursortype-property-ado"></a>CursorType 属性 (ADO)
 =======
 # <a name="cursortype-property-ado"></a>CursorType 属性 (ADO)
->>>>>>> master
+>>>>>>> 母版
 
 
 **适用于**： Access 2013 |Office 2013
 
 指示在 [Recordset](recordset-object-ado.md) 对象中使用的游标类型。
 
-<<<<<<< 标头
+<<<<<<< 头
 ## <a name="settings-and-return-values"></a>设置和返回值
 =======
 ## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
+>>>>>>> 母版
 
 设置或返回 [CursorTypeEnum](cursortypeenum.md) 值。默认值为 **adOpenForwardOnly** 。
 
@@ -64,11 +64,8 @@
 </table>
 
 
-
 > [!NOTE]
-> <P>虽然 <STRONG>Supports</STRONG>(<STRONG>adUpdateBatch</STRONG>) 对于动态游标和只进游标为 true，但对于批更新，应使用键集游标或静态游标。请将 <A href="locktype-property-ado.md">LockType</A> 属性设置为 <STRONG>adLockBatchOptimistic</STRONG>，并将 <STRONG>CursorLocation</STRONG> 属性设置为 <STRONG>adUseClient</STRONG>，以启用批更新所必需的 Cursor Service for OLE DB。</P>
-
-
+> 虽然 **Supports**(**adUpdateBatch**) 对于动态游标和只进游标为 true，但对于批更新，应使用键集游标或静态游标。请将 [LockType](locktype-property-ado.md) 属性设置为 **adLockBatchOptimistic**，并将 **CursorLocation** 属性设置为 **adUseClient**，以启用批更新所必需的 Cursor Service for OLE DB。
 
 当 **Recordset** 关闭时， **CursorType** 属性为可读/写属性，而当其打开时为只读属性。
 

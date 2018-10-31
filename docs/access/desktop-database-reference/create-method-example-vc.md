@@ -1,17 +1,17 @@
 ---
 title: Create 方法示例 (VC++)
-TOCTitle: Create Method Example (VC++)
+TOCTitle: Create method example (VC++)
 ms:assetid: 8a826d78-7219-27de-8560-7cd4b8284751
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7e77cfe959eb1f97bc9b0262a78c91f56d44356
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 50fb678cb9346641b38acc3ca4f3a9553fd2a1c2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468712"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862931"
 ---
 # <a name="create-method-example-vc"></a>Create 方法示例 (VC++)
 

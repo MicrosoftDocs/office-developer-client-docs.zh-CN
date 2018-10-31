@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837255(v=office.15)
 ms:contentKeyID: 48548925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 114f5c1cfd08098b8dc0a2731709965e2c3f2ea4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 281b319de123049cfe96d9dc8cf35d6bca9bf37a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466942"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860600"
 ---
 # <a name="dbenginebegintrans-method-dao"></a>DBEngine.BeginTrans Method (DAO)
 
@@ -34,7 +34,7 @@ ms.locfileid: "25466942"
 
 
 > [!NOTE]
-> <P>[!注释] 在一个 <STRONG>Workspace</STRONG> 对象中，事务对 <STRONG>Workspace</STRONG> 始终是全局的，不会只限于一个 <STRONG>Connection</STRONG> 或 <STRONG>Database</STRONG> 对象。如果在 <STRONG>Workspace</STRONG> 事务中对多个连接或数据库执行操作，解析事务（即使用 <STRONG>CommitTrans</STRONG> 或 <STRONG>Rollback</STRONG> 方法）将影响对该工作区中所有连接和数据库执行的所有操作。</P>
+> [!注释] 在一个 **Workspace** 对象中，事务对 **Workspace** 始终是全局的，不会只限于一个 **Connection** 或 **Database** 对象。如果在 **Workspace** 事务中对多个连接或数据库执行操作，解析事务（即使用 **CommitTrans** 或 **Rollback** 方法）将影响对该工作区中所有连接和数据库执行的所有操作。
 
 
 
@@ -54,12 +54,8 @@ Microsoft Access 工作区中使用的某些 ISAM 数据库可能不支持事务
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>可以经常通过中断需要对磁盘中的事务块进行访问的操作，来改善应用程序的性能。这将会缓冲您的操作，并可显著地减少访问磁盘的次数。</P>
-> <LI>
-> <P>在 Microsoft Access 工作区中，事务将记录在一个文件内，该文件保存在由工作站上的 TEMP 环境变量指定的目录中。如果事务日志文件耗尽了 TEMP 驱动器上的可用存储，数据库引擎将触发一个运行时错误。此时，如果使用 <STRONG>CommitTrans</STRONG>，将提交不确定的操作次数，但是余下的未完成操作将会丢失，并且必须要重新启动操作。使用 <STRONG>Rollback</STRONG> 方法将释放事务日志，同时回滚事务中的所有操作。</P>
-> <LI>
-> <P>在待定事务中关闭克隆 <STRONG>Recordset</STRONG> 将导致隐式 <STRONG>Rollback</STRONG> 操作。</P></LI></UL>
+> - 可以经常通过中断需要对磁盘中的事务块进行访问的操作，来改善应用程序的性能。这将会缓冲您的操作，并可显著地减少访问磁盘的次数。
+> - 在 Microsoft Access 工作区中，事务将记录在一个文件内，该文件保存在由工作站上的 TEMP 环境变量指定的目录中。如果事务日志文件耗尽了 TEMP 驱动器上的可用存储，数据库引擎将触发一个运行时错误。此时，如果使用 **CommitTrans**，将提交不确定的操作次数，但是余下的未完成操作将会丢失，并且必须要重新启动操作。使用 **Rollback** 方法将释放事务日志，同时回滚事务中的所有操作。
+> - 在待定事务中关闭克隆 **Recordset** 将导致隐式 **Rollback** 操作。
 
 

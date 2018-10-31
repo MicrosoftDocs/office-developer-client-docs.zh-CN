@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 52822d45b30c631dcabe3c38b6722398e96f489f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f907cee27511f782a3d766761ae716bc3cef4c0b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468080"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862959"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent 宏操作
 
@@ -80,19 +80,14 @@ ms.locfileid: "25468080"
 
 
 > [!NOTE]
-> <P>[!注释] 对 <STRONG>MouseDown</STRONG> 事件应用 <STRONG>CancelEvent</STRONG> 操作时，只能取消右键单击对象时发生的事件。</P>
-
-
+> [!注释] 对 **MouseDown** 事件应用 **CancelEvent** 操作时，只能取消右键单击对象时发生的事件。
 
 如果控件的 **OnDblClick** 事件属性设置指定了一个包含 **CancelEvent** 操作的宏，该操作会取消 **DblClick** 事件。
 
 对于可被取消的事件，在对其运行相应的宏后，将会发生该事件的默认行为（即 Access 在事件发生时的通常处理方式）。您可以基于此机制取消默认行为。例如，在双击插入点位于文本框中的某个单词时，Access 通常会选中该单词。您可以在 **DblClick** 事件的宏中取消此默认行为并执行某种其他操作，例如打开一个包含有关文本框中的数据的信息的窗体。对于无法取消的事件，则会在宏运行前发生默认行为。
 
-
 > [!NOTE]
-> <P>[!注释] 如果窗体的 <STRONG>OnUnload</STRONG> 事件属性指定了一个执行 <STRONG>CancelEvent</STRONG> 操作的宏，则无法关闭该窗体。您必须更正导致执行 <STRONG>CancelEvent</STRONG> 操作的条件，或打开该宏并删除 <STRONG>CancelEvent</STRONG> 操作。如果该窗体是一个模式窗体，则无法打开该宏。</P>
-
-
+> [!注释] 如果窗体的 **OnUnload** 事件属性指定了一个执行 **CancelEvent** 操作的宏，则无法关闭该窗体。您必须更正导致执行 **CancelEvent** 操作的条件，或打开该宏并删除 **CancelEvent** 操作。如果该窗体是一个模式窗体，则无法打开该宏。
 
 要在 Visual Basic for Applications (VBA) 模块中执行 **CancelEvent** 操作，请使用 **DoCmd** 对象的 **CancelEvent** 方法。
 

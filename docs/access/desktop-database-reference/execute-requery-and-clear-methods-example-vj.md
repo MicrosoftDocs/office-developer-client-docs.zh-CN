@@ -1,17 +1,17 @@
 ---
 title: Execute、Requery 和 Clear 方法示例 (VJ++)
-TOCTitle: Execute, Requery, and Clear Methods Example (VJ++)
+TOCTitle: Execute, Requery, and Clear methods example (VJ++)
 ms:assetid: 00210f2e-7454-25c7-a035-68344868fe11
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248774(v=office.15)
 ms:contentKeyID: 48542897
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97123033b4787d9446a09f36fc9f8d5e768c5836
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4701e390a26fa8a29bf7e7fa490f188f80820876
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467310"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862521"
 ---
 # <a name="execute-requery-and-clear-methods-example-vj"></a>Execute、Requery 和 Clear 方法示例 (VJ++)
 

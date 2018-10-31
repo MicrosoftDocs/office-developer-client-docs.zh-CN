@@ -4,21 +4,22 @@ TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
 ms:contentKeyID: 48543907
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2c2ef44c804a413b85bcf393e1487ff4423c40f0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ba1756b6335b8b290fb4ff0942426c50cb08e87c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466033"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861482"
 ---
 # <a name="positionenum"></a>PositionEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定在 [Recordset](recordset-object-ado.md) 中记录指针的当前位置。
+
+<br/>
 
 <table>
 <colgroup>
@@ -53,7 +54,7 @@ ms.locfileid: "25466033"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

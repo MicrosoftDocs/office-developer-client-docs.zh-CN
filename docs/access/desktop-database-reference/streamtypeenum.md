@@ -4,21 +4,22 @@ TOCTitle: StreamTypeEnum
 ms:assetid: 3e84c728-0c71-55fb-06f2-7f4e644689ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249172(v=office.15)
 ms:contentKeyID: 48544377
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 138958b0566bba67e617977c1dd8c9b632ea194f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 53fa55b4fbda5232dd1b0d349a70970495ef0b0c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465843"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860847"
 ---
 # <a name="streamtypeenum"></a>StreamTypeEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 用于指定存储在 [Stream](stream-object-ado.md) 对象中的数据类型。
+
+<br/>
 
 <table>
 <colgroup>
@@ -48,7 +49,7 @@ ms.locfileid: "25465843"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 这些常量没有 ADO/WFC 等效值。
 

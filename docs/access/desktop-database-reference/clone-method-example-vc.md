@@ -1,17 +1,17 @@
 ---
 title: Clone 方法示例 (VC++)
-TOCTitle: Clone Method Example (VC++)
+TOCTitle: Clone method example (VC++)
 ms:assetid: 18929a3a-cbc0-b25a-ac8c-24f5a98f0f0e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248933(v=office.15)
 ms:contentKeyID: 48543473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d8bbbb60fa6922d53ed23413b5e2198b1abab05a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0b50f73e53cf954a3b24b90d1b02469973148ecf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468102"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861832"
 ---
 # <a name="clone-method-example-vc"></a>Clone 方法示例 (VC++)
 

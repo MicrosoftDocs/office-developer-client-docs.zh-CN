@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250171(v=office.15)
 ms:contentKeyID: 48548387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e4b93eb3e3679fdbc235f4406b0480ad2597d25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80dae05dc691343b3c89ce8fd3ccfe72b776984c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465786"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860327"
 ---
 # <a name="step-2-get-the-data"></a>步骤 2：获取数据
 
@@ -49,5 +49,7 @@ ms.locfileid: "25465786"
 
 使该文件保持打开状态并转至下一步。
 
-**下一步**[步骤 3： 发送数据](step-3-send-the-data.md)
+### <a name="next-step"></a>后续步骤
+
+[步骤 3：发送数据](step-3-send-the-data.md)
 

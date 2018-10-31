@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
 ms:contentKeyID: 48546636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f852901be41060568bdbad539906e9166d080fad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d37d5b618db5e2de698fc4250afde7c4ca5fb5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467377"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862182"
 ---
 # <a name="what-is-a-lock"></a>什么是锁定？
 
@@ -31,4 +31,8 @@ ms.locfileid: "25467377"
 如果 **CursorLocation** 属性设置为 [adUseClient](cursorlocation-property-ado.md) ，则 **adLockPessimistic** 设置不受支持。如果所设置的值不受支持，并不产生错误；而是会使用最接近的受支持 **LockType** 。
 
 当 **Recordset** 处于关闭状态时， **LockType** 属性是可读/写的，当记录集处于打开状态时，该属性是只读的。
+
+本节包括下列主题：
+
+- [锁定的类型](types-of-locks.md)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c55eab611cae8431a3ff3f2220cdfa8b1923d891
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b25536c158c248695c9e537a0153922b2518058a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467213"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863288"
 ---
 # <a name="databasesynchronize-method-dao"></a>Database.Synchronize Method (DAO)
 
@@ -74,6 +74,6 @@ DbPathName 中标识的副本必须是同一副本集中的一部分。 如果�
 
 
 > [!NOTE]
-> <P>[!注释] 不能将部分副本与其他部分副本同步。有关详细信息，请参阅 <STRONG><A href="database-populatepartial-method-dao.md">PopulatePartial</A></STRONG> 方法。</P>
+> [!注释] 不能将部分副本与其他部分副本同步。有关详细信息，请参阅 [PopulatePartial](database-populatepartial-method-dao.md) 方法。
 
 

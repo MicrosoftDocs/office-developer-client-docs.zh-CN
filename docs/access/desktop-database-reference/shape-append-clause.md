@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6460572f44e79fe4bdb30d1ca33810d610da9721
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cb8e60c52ded359350adff737807c3e0f92cb7c4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466035"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862121"
 ---
 # <a name="shape-append-clause"></a>Shape Append 子句
 
@@ -122,3 +122,12 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 形状执行选择\*从 t1;drop 表 t1 和 (选择\*从 t2 建立关系版 k1 收件人 k2)，未意识到的投递表 t1 单独和在此案例、 危险，提供程序命令。 应用程序必须始终验证用户输入，以防止发生类似潜在黑客攻击。
 
+本节包括下列主题：
+
+- [非参数化命令的操作](operation-of-non-parameterized-commands.md)
+
+- [非参数化命令的操作](operation-of-parameterized-commands.md)
+
+- [混合命令](hybrid-commands.md)
+
+- [中间 Shape COMPUTE 子句](intervening-shape-compute-clauses.md)

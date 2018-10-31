@@ -4,21 +4,22 @@ TOCTitle: GetRowsOptionEnum
 ms:assetid: 5c1665bb-555c-f83f-066c-d6de2dd0343f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249323(v=office.15)
 ms:contentKeyID: 48545082
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b4d2c278de7c2a0ad5b1b02256718146e11e7e7a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 74e7f2fcc8e0cbc068d08b3fdc59619fadfd1756
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465721"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860173"
 ---
 # <a name="getrowsoptionenum"></a>GetRowsOptionEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定要从 [Recordset](recordset-object-ado.md) 中检索多少记录。
+
+<br/>
 
 <table>
 <colgroup>
@@ -43,7 +44,7 @@ ms.locfileid: "25465721"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b5e479739177fa869bb2e96329c47c5f5889b64
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d23e088ca93474ac928875730580a693abe9648c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465697"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862224"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue Property (DAO)
 
@@ -33,8 +33,7 @@ ms.locfileid: "25465697"
 
 
 > [!NOTE]
-> <P>[!注释] 还可以将 <STRONG><STRONG>TableDef</STRONG></STRONG> 对象上的 <A href="tabledef-object-dao.md">Field</A> 对象的 <STRONG>DefaultValue</STRONG> 属性设置为称作"GenUniqueID( )"的特殊值。这样，只要添加或创建了新记录，就会将一个随机数分配给该字段，因而可以给每条记录指定一个唯一标识符。该字段的 <STRONG><A href="field-type-property-dao.md">Type</A></STRONG> 属性必须为 <STRONG>Long</STRONG> 类型。</P>
-
+> [!注释] 还可以将 ****TableDef**** 对象上的 [Field](tabledef-object-dao.md) 对象的 DefaultValue 属性设置为称作"GenUniqueID( )"的特殊值。这样，只要添加或创建了新记录，就会将一个随机数分配给该字段，因而可以给每条记录指定一个唯一标识符。该字段的 [Type](field-type-property-dao.md) 属性必须为 **Long** 类型。
 
 
 **DefaultValue** 属性的可用性取决于包含 **Fields** 集合的对象，如下表所示。

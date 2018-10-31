@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b52644cb9a0a5140f45c42eaead84a63723c23e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 934a44ee754c403a9ef185537c8af114f1200d82
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468493"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862532"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopyDatabaseFile 宏操作
 
@@ -22,7 +22,7 @@ ms.locfileid: "25468493"
 
 
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
+> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "25468493"
 <td><p>指定访问应强制关闭数据库的用户。 如果设置为<strong>是</strong>，连接到当前数据库的任何用户已断开连接，以便可以继续执行复制数据库操作。 如果设置为<strong>No</strong> ，另一个或多个用户连接到数据库，则复制数据库操作将失败。 默认值为 <strong>"否"</strong>。</p>
 
 > [!WARNING]
-> <P>在无充分警告的情况下断开用户与数据库的连接可能会导致数据丢失。</P>
+> 在无充分警告的情况下断开用户与数据库的连接可能会导致数据丢失。
 
 
 <p></p></td>

@@ -1,17 +1,17 @@
 ---
 title: Procedures 的 Append 方法示例 (VB)
-TOCTitle: Procedures Append Method Example (VB)
+TOCTitle: Procedures Append method example (VB)
 ms:assetid: fa6c5e7a-6764-2208-26c8-f7fe4140dec3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250279(v=office.15)
 ms:contentKeyID: 48548843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c3ad4e79bee0434e2a16d1a4b703dde83a43f11
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cbfd3b78d57438a6526d10eb603236fe1610fe1b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466024"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860292"
 ---
 # <a name="procedures-append-method-example-vb"></a>Procedures 的 Append 方法示例 (VB)
 

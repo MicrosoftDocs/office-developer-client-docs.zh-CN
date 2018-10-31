@@ -1,27 +1,27 @@
 ---
 title: DELETE 语句 (Microsoft Access SQL)
-TOCTitle: DELETE Statement (Microsoft Access SQL)
+TOCTitle: DELETE statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195097(v=office.15)
 ms:contentKeyID: 48545299
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d8a0d78350a9689af67f33262ff510d8638de40c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7e41e7597a967e7029cb3ce6ae120bb382714288
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467269"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864121"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>DELETE 语句 (Microsoft Access SQL)
 
 **适用于**： Access 2013 |Office 2013
 
-创建一个删除查询，用于从 [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) 子句中列出的一个或多个表中删除满足 [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) 子句的记录。
+创建一个删除查询，用于从 [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) 子句中列出的一个或多个表中删除满足 [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) 子句的记录。
 
 ## <a name="syntax"></a>语法
 

@@ -1,17 +1,17 @@
 ---
 title: Create 方法示例 (VB)
-TOCTitle: Create Method Example (VB)
+TOCTitle: Create method example (VB)
 ms:assetid: 3e6a4f3d-3b25-2dfb-5ef3-6a4c5326b78f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249171(v=office.15)
 ms:contentKeyID: 48544372
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df55297ecc4ebd6875b4b28cc7bc45038789d83c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3eea826ae452576e02ab6f98bd75369ff079f7de
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468068"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860061"
 ---
 # <a name="create-method-example-vb"></a>Create 方法示例 (VB)
 

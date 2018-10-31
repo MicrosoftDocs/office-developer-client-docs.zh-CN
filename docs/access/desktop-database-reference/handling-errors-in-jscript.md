@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248993(v=office.15)
 ms:contentKeyID: 48543684
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f2a2fadb9f7f377782ce7cc7d45820769927b4f0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c264d4fb4eae460934fcd056e371607c5c0138e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467651"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860208"
 ---
 # <a name="handling-errors-in-jscript"></a>在 JScript 中处理错误
 
@@ -26,10 +26,10 @@ Microsoft JScript 代码必须检查 **Connection** 对象的 **Errors** 集合�
 <%@ Language=JScript %> 
 <HTML> 
 <HEAD> 
-<title>Error Handling Example (JScript)</title> 
+<title>Error Handling example (JScript)</title> 
 </HEAD> 
 <BODY> 
-<h1>Error Handling Example (JScript)</h1> 
+<h1>Error Handling example (JScript)</h1> 
 <% 
  var cnn1 = Server.CreateObject("ADODB.Connection"); 
  var errLoop = Server.CreateObject("ADODB.Error"); 

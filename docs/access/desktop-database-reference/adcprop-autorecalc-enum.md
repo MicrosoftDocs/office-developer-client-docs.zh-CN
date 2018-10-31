@@ -4,14 +4,14 @@ TOCTitle: ADCPROP_AUTORECALC_ENUM
 ms:assetid: 79ed16c1-964d-bf88-22c9-aa0a51303da6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249502(v=office.15)
 ms:contentKeyID: 48545779
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: fc02e8cde556a70ca6b2c72f056d218904c31ec2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b9c1aff21b62eff061a3f68ef3ad56e07e46388d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468564"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860082"
 ---
 # <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_枚举
 
@@ -20,6 +20,8 @@ ms.locfileid: "25468564"
 指定 [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) 提供程序何时重新计算分层记录集中的聚合和计算列。
 
 这些常量仅用于**MSDataShape**提供程序和**Recordset** "**Auto Recalc**"动态属性，该进行引用[ADO 动态属性索引](ado-dynamic-property-index.md)中并记录在[Microsoft Cursor Service for OLEDB](microsoft-cursor-service-for-ole-db-ado-service-component.md)或[Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)文档。
+
+<br/>
 
 <table>
 <colgroup>
@@ -49,7 +51,7 @@ ms.locfileid: "25468564"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 这些常量没有 ADO/WFC 等效值。
 

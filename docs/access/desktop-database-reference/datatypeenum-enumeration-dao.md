@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
 ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9606f3a1f76da677d3a17e91da943d12bbe5ffe1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36af1f7716573c85c87e796dd7dc7deed705afe1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465746"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860426"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>DataTypeEnum Enumeration (DAO)
 
@@ -120,7 +120,7 @@ ms.locfileid: "25465746"
 <td><p>十进制数据（仅适用于 ODBCDirect）</p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 </td>
@@ -135,8 +135,7 @@ ms.locfileid: "25465746"
 <td><p>21</p></td>
 <td><p>浮点数据（仅适用于 ODBCDirect）</p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 </td>
@@ -171,8 +170,7 @@ ms.locfileid: "25465746"
 <td><p>19</p></td>
 <td><p>数值数据（仅适用于 ODBCDirect）</p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 </td>
@@ -192,8 +190,7 @@ ms.locfileid: "25465746"
 <td><p>22</p></td>
 <td><p>时间格式的数据（仅适用于 ODBCDirect）</p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 </td>
@@ -203,8 +200,7 @@ ms.locfileid: "25465746"
 <td><p>23</p></td>
 <td><p>时间和日期格式的数据（仅适用于 ODBCDirect）</p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 </td>
@@ -214,8 +210,7 @@ ms.locfileid: "25465746"
 <td><p>17</p></td>
 <td><p>可变长度二进制数据（仅适用于 ODBCDirect）</p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 </td>

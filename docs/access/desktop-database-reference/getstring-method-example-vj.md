@@ -1,17 +1,17 @@
 ---
 title: GetString 方法示例 (VJ++)
-TOCTitle: GetString Method Example (VJ++)
+TOCTitle: GetString method example (VJ++)
 ms:assetid: 83d5ab6d-a092-f8ed-81e7-b93922cda93d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249573(v=office.15)
 ms:contentKeyID: 48546018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47b2d5791fd5c97c4b01848e3ddaaf553f06f98f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c2ae43e86c2d1c2e6c81e1d363ae81f95adfb3a8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466575"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860467"
 ---
 # <a name="getstring-method-example-vj"></a>GetString 方法示例 (VJ++)
 

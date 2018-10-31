@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3616ab20e1d1f6a5d80c70f90a90ad13b3abc0fb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8250d2a21f0c4a4d5af64310fc14f96f56a46b54
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466409"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860012"
 ---
 # <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>聚合函数、CALC 函数和 NEW 关键字
 
@@ -64,7 +64,7 @@ ms.locfileid: "25466409"
 </p>
 
 > [!NOTE]
-> <P>如果对于章节中所有行，该列的值不同，则 SHAPE 命令会任意返回一个值作为 ANY 函数的值。</P>
+> 如果对于章节中所有行，该列的值不同，则 SHAPE 命令会任意返回一个值作为 ANY 函数的值。
 
 
 <p></p></td>

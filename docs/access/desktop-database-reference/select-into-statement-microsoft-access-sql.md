@@ -1,20 +1,19 @@
 ---
 title: 选择。INTO 语句 (Microsoft Access SQL)
-TOCTitle: SELECT.INTO Statement (Microsoft Access SQL)
+TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4122421642b9746b5832984bf784faf65c603fda
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c05679994cfd98fdc5d6ffb389df00c2f5c9b94
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466094"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861993"
 ---
 # <a name="selectinto-statement-microsoft-access-sql"></a>选择。INTO 语句 (Microsoft Access SQL)
-
 
 **适用于**： Access 2013 |Office 2013
 
@@ -48,7 +47,7 @@ SELECT...INTO 语句包含以下部分：
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>外部数据库的路径。有关路径的说明，请参阅 <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a> 子句。</p></td>
+<td><p>外部数据库的路径。有关路径的说明，请参阅 <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a> 子句。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -62,15 +61,10 @@ SELECT...INTO 语句包含以下部分：
 
 可以通过生成表查询来存档记录，或制作表的备份副本，或者将副本导出到其他数据库，或作为某个特定时间段的数据的报表产生基础。例如，可以通过每个月运行相同的生成表查询来生成一个月销售区域报表。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>您可能希望定义新表的主键。创建表时，新表中的字段会继承查询的基表中每个字段的数据类型和字段大小，但不会传输其他字段或表属性。</P>
-> <LI>
-> <P>若要将数据添加到现有表中，请使用 <A href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</A> 语句，而不用创建追加查询。</P>
-> <LI>
-> <P>若要在运行生成表查询之前查找出将要选择哪些记录，请先检查使用相同选择条件的 <A href="select-statement-microsoft-access-sql.md">SELECT</A> 语句的结果。</P></LI></UL>
+> - 您可能希望定义新表的主键。创建表时，新表中的字段会继承查询的基表中每个字段的数据类型和字段大小，但不会传输其他字段或表属性。
+> - 若要将数据添加到现有表中，请使用 [INSERT INTO](insert-into-statement-microsoft-access-sql.md) 语句，而不用创建追加查询。
+> - 若要在运行生成表查询之前查找出将要选择哪些记录，请先检查使用相同选择条件的 [SELECT](select-statement-microsoft-access-sql.md) 语句的结果。
 
 
 

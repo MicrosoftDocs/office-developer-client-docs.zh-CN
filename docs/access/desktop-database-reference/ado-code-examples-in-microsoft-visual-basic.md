@@ -1,17 +1,17 @@
 ---
 title: Microsoft Visual Basic 中的 ADO 代码示例
-TOCTitle: ADO Code Examples in Microsoft Visual Basic
+TOCTitle: ADO code examples in Microsoft Visual Basic
 ms:assetid: 5eb855d4-e5e1-2626-3a21-891d195fb193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a1ceec153a1717485bac87cbf5fdb764f546cab7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604608"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862112"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Microsoft Visual Basic 中的 ADO 代码示例
 
@@ -20,9 +20,8 @@ ms.locfileid: "25604608"
 
 使用以下代码示例可以了解在用 Visual Basic 编写程序时如何使用 ADO 方法、属性和事件。
 
-
 > [!NOTE]
-> <P>[!注释] 请将整个代码示例（从 Sub 到 End Sub）粘贴到代码编辑器中。如果使用部分示例，或丢失段落格式，该示例可能无法正确运行。</P>
+> [!注释] 请将整个代码示例从头到尾粘贴到您的代码编辑器中。如果使用不完整的示例，或者段落格式丢失，示例可能无法正确运行。
 
 
 
@@ -60,11 +59,11 @@ ms.locfileid: "25604608"
 
   - [GetString 方法示例](getstring-method-example-vb.md)
 
-<<<<<<< 标头
+<<<<<<< 头
   - [SkipLine 方法、 EOS 和 LineSeparator 属性示例](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 =======
   - [SkipLine 方法、 EOS 和 LineSeparator 属性示例](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
->>>>>>> master
+>>>>>>> 母版
 
   - [Move 方法示例](move-method-example-vb.md)
 
@@ -84,11 +83,11 @@ ms.locfileid: "25604608"
 
   - [Save 和 Open 方法示例](save-and-open-methods-example-vb.md)
 
-<<<<<<< 标头
+<<<<<<< 头
   - [Seek 方法和 Index 属性示例](seek-method-and-index-property-example-vb.md)
 =======
   - [Seek 方法和 Index 属性示例](seek-method-and-index-property-example-vb.md)
->>>>>>> master
+>>>>>>> 母版
 
   - [Supports 方法示例](supports-method-example-vb.md)
 
@@ -98,7 +97,7 @@ ms.locfileid: "25604608"
 
 **属性**
 
-<<<<<<< 标头
+<<<<<<< 头
   - [AbsolutePage、PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-vb.md)
@@ -226,5 +225,5 @@ ms.locfileid: "25604608"
   - [Value 属性示例](value-property-example-vb.md)
 
   - [Version 属性示例](version-property-example-vb.md)
->>>>>>> master
+>>>>>>> 母版
 

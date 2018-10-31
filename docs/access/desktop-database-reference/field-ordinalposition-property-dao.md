@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7151ed1a03c0ce0cf0204716d19bb7cfd2b4f607
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1218dd1cc6b1b309c5513a9b0f67a66d06d9c499
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465772"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863629"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Field.OrdinalPosition Property (DAO)
 
@@ -48,23 +48,23 @@ ms.locfileid: "25465772"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong> 对象</p></td>
+<td><p><strong>Index</strong>对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong> 对象</p></td>
+<td><p><strong>QueryDef</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong> 对象</p></td>
+<td><p><strong>Recordset</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong> 对象</p></td>
+<td><p><strong>Relation</strong>对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong> 对象</p></td>
+<td><p><strong>TableDef</strong>对象</p></td>
 <td><p>读/写</p></td>
 </tr>
 </tbody>
@@ -81,11 +81,8 @@ ms.locfileid: "25465772"
 
 可以指定一个大于字段数减 1 的数字。将以相对于最大数的顺序返回字段。例如，如果将某个字段的 **OrdinalPosition** 属性设置为 20（总共只有 5 个字段），同时将其他两个字段的 **OrdinalPosition** 属性分别设置为 10 和 30，则设置为 20 的那个字段将在设置为 10 和 30 的字段之间返回。
 
-
 > [!NOTE]
-> <P>[!注释] 即使未刷新 <A href="tabledef-object-dao.md"><STRONG>TableDef</STRONG></A> 的 <STRONG>Fields</STRONG> 集合，从 <A href="recordset-object-dao.md">TableDef</A> 打开的 <STRONG><STRONG>Recordset</STRONG></STRONG> 中的字段顺序将反映 <STRONG>TableDef</STRONG> 对象的 <STRONG>OrdinalPosition</STRONG> 数据。表类型 <STRONG>Recordset</STRONG> 与基础表具有相同的 <STRONG>OrdinalPosition</STRONG> 数据，但是其他任何类型的 <STRONG>Recordset</STRONG> 将具有新的 <STRONG>OrdinalPosition</STRONG> 数据（由 0 开始），并且该数据遵循 <STRONG>TableDef</STRONG> 的 <STRONG>OrdinalPosition</STRONG> 数据确定的顺序。</P>
-
-
+> 即使尚未刷新[TableDef](tabledef-object-dao.md)的**Fields**集合，从**TableDef**打开[Recordset](recordset-object-dao.md)中的字段顺序将反映**TableDef**对象的**OrdinalPosition**数据。 表类型 **Recordset** 与基础表具有相同的 **OrdinalPosition** 数据，但是其他任何类型的 **Recordset** 将具有新的 **OrdinalPosition** 数据（由 0 开始），并且该数据遵循 **TableDef** 的 **OrdinalPosition** 数据确定的顺序。
 
 ## <a name="example"></a>示例
 

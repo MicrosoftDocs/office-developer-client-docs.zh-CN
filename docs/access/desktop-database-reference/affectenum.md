@@ -4,21 +4,22 @@ TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
 ms:contentKeyID: 48543404
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 3ffb2ab2abbd24a19ddc433b5fd315dd535fd2a0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9e1bd4d86e6e269c9363daca0ffa7b8df6303326
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466758"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863666"
 ---
 # <a name="affectenum"></a>AffectEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定操作会影响哪些记录。
+
+<br/>
 
 <table>
 <colgroup>
@@ -38,12 +39,8 @@ ms.locfileid: "25466758"
 <td><p><strong>adAffectAll</strong></p></td>
 <td><p>3</p></td>
 <td><p>如果未对 <strong>Recordset</strong> 应用任何 <a href="filter-property-ado.md">Filter</a>，则所有记录都受影响。
- 如果将<strong>Filter</strong>属性设置为字符串条件 (如&quot;作者 = 'Smith'&quot;)，则该操作将影响当前章节中的可见记录。 如果将 <strong>Filter</strong> 属性设置为 <a href="filtergroupenum.md">FilterGroupEnum</a> 的成员或书签数组，则该操作将影响 <strong>Recordset</strong> 的所有行。</p>
-
-> [!NOTE]
-> <P>adAffectAll 在 Visual Basic 对象浏览器中处于隐藏状态。</P>
-
-
+ 如果将<strong>Filter</strong>属性设置为字符串条件 (如&quot;作者 = 'Smith'&quot;)，该操作将影响当前章节中的可见记录。 如果将<strong>Filter</strong>属性设置为<a href="filtergroupenum.md">FilterGroupEnum</a>的成员或书签数组，该操作将影响<strong>Recordset</strong>的所有行。</p>
+<p><strong>注意</strong>： adAffectAll 在 Visual Basic 对象浏览器中处于隐藏状态。</p>
 </td>
 </tr>
 <tr class="even">
@@ -65,7 +62,7 @@ ms.locfileid: "25466758"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

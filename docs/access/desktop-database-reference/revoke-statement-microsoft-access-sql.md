@@ -1,24 +1,23 @@
 ---
 title: REVOKE 语句 (Microsoft Access SQL)
-TOCTitle: REVOKE Statement (Microsoft Access SQL)
+TOCTitle: REVOKE statement (Microsoft Access SQL)
 ms:assetid: 69399fd6-c4e8-f2e2-e5f4-48ae779323f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195272(v=office.15)
 ms:contentKeyID: 48545409
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277479
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bf8bbe65b8fe359e9e410d652deb41a1192efa92
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4bcdd7aa77823a53ba2a2c0cde4badbac571611a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466173"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860544"
 ---
 # <a name="revoke-statement-microsoft-access-sql"></a>REVOKE 语句 (Microsoft Access SQL)
-
 
 **适用于**： Access 2013 |Office 2013
 
@@ -46,7 +45,7 @@ REVOKE 语句包含以下部分：
 <tbody>
 <tr class="odd">
 <td><p><em>privilege</em></p></td>
-<td><p>权限被吊销。 使用以下关键字指定权限： 选择、 删除、 插入、 更新、 DROP、 SELECTSECURITY、 UPDATESECURITY、 DBPASSWORD、 UPDATEIDENTITY、 CREATE、 SELECTSCHEMA、 架构和 UPDATEOWNER。</p></td>
+<td><p>权限被吊销。 使用以下关键字指定权限： 选择、 删除、 插入、 更新、 投递、 SELECTSECURITY、 UPDATESECURITY、 DBPASSWORD、 UPDATEIDENTITY、 CREATE、 SELECTSCHEMA、 架构和 UPDATEOWNER。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>

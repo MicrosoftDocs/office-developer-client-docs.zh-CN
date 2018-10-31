@@ -1,17 +1,17 @@
 ---
 title: CompareBookmarks 方法示例 (VJ++)
-TOCTitle: CompareBookmarks Method Example (VJ++)
+TOCTitle: CompareBookmarks method example (VJ++)
 ms:assetid: f36f77ec-e51a-41dc-961f-0ec3166155bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250236(v=office.15)
 ms:contentKeyID: 48548671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf372d4d34f4019dd8e35611cf5ad115b48340d5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e7bc0bd2462fbfd5e5f4305a126e979f73c8c973
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467093"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860585"
 ---
 # <a name="comparebookmarks-method-example-vj"></a>CompareBookmarks 方法示例 (VJ++)
 

@@ -4,21 +4,22 @@ TOCTitle: AllowNullsEnum
 ms:assetid: 7bb42b38-6b3b-5930-b1d7-16323a3bdf37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)
 ms:contentKeyID: 48545819
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 04e67584e0f0c2eeb5a12e34fdf98a84cc1da852
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c4c44771258cd94700bfb2902cf8bdad47a2d712
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467201"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860138"
 ---
 # <a name="allownullsenum"></a>AllowNullsEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定是否对含有 null 值的记录进行索引。
+
+<br/>
 
 <table>
 <colgroup>

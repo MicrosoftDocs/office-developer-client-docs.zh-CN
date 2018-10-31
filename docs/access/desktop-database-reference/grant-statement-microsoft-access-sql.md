@@ -1,24 +1,23 @@
 ---
 title: GRANT 语句 (Microsoft Access SQL)
-TOCTitle: GRANT Statement (Microsoft Access SQL)
+TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
 ms:contentKeyID: 48544800
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277478
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d4fffc9ac40586be899de0dd4054ba39dd3a6489
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4e37c0853c2b80c42bb2560cb0a19122c45f85f4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465546"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860873"
 ---
 # <a name="grant-statement-microsoft-access-sql"></a>GRANT 语句 (Microsoft Access SQL)
-
 
 **适用于**： Access 2013 |Office 2013
 
@@ -46,7 +45,7 @@ GRANT 语句包含以下部分：
 <tbody>
 <tr class="odd">
 <td><p><em>privilege</em></p></td>
-<td><p>要授予的权限。 使用以下关键字指定权限： 选择、 删除、 插入、 更新、 DROP、 SELECTSECURITY、 UPDATESECURITY、 DBPASSWORD、 UPDATEIDENTITY、 CREATE、 SELECTSCHEMA、 架构和 UPDATEOWNER。</p></td>
+<td><p>要授予的权限。 使用以下关键字指定权限： 选择、 删除、 插入、 更新、 投递、 SELECTSECURITY、 UPDATESECURITY、 DBPASSWORD、 UPDATEIDENTITY、 CREATE、 SELECTSCHEMA、 架构和 UPDATEOWNER。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>tablename</em></p></td>

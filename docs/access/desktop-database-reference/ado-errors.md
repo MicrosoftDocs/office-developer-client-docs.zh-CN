@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
 ms:contentKeyID: 48542972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee87da91086a010066ba94b294955eebdff7b636
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a8b6b794daf7c03df26c186ac58b9a02ed4a7419
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465944"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861230"
 ---
 # <a name="ado-errors"></a>ADO 错误
 
@@ -89,9 +89,7 @@ Help File: E:\WINNT\HELP\ADO260.CHM Topic ID: 1003705
 
 
 > [!NOTE]
-> <P>[!注释] Visual Basic <STRONG>Err</STRONG> 对象仅包含有关最近发生的错误的信息。对于由最近的 ADO 操作引起的每个错误， <STRONG>Connection</STRONG> 对象的 ADO <STRONG>Errors</STRONG> 集合都包含一个 <STRONG>Error</STRONG> 对象。请使用 <STRONG>Errors</STRONG> 集合而不是 <STRONG>Err</STRONG> 对象来处理多个错误。有关 <STRONG>Errors</STRONG> 集合的详细信息，请参阅 <A href="provider-errors.md">提供程序错误</A>。但是，如果不存在有效的 <STRONG>Connection</STRONG> 对象， <STRONG>Err</STRONG> 对象就是有关 ADO 错误的唯一信息源。</P>
-
-
+> [!注释] Visual Basic **Err** 对象仅包含有关最近发生的错误的信息。对于由最近的 ADO 操作引起的每个错误， **Connection** 对象的 ADO **Errors** 集合都包含一个 **Error** 对象。请使用 **Errors** 集合而不是 **Err** 对象来处理多个错误。有关 **Errors** 集合的详细信息，请参阅 <A href="provider-errors.md">提供程序错误</A>。但是，如果不存在有效的 **Connection** 对象， **Err** 对象就是有关 ADO 错误的唯一信息源。
 
 哪种操作有可能导致 ADO 错误呢？常见的 ADO 错误有，打开 **Connection** 或 **Recordset** 等对象，试图更新数据，或者调用提供程序不支持的方法或属性。
 

@@ -1,17 +1,17 @@
 ---
 title: CompareBookmarks 方法示例 (VC++)
-TOCTitle: CompareBookmarks Method Example (VC++)
+TOCTitle: CompareBookmarks method example (VC++)
 ms:assetid: 41d092dc-da36-7e44-3c25-cc68bffc6f16
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249191(v=office.15)
 ms:contentKeyID: 48544460
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 847e9c033cf503efe9ac5c8a9e1b496937d73fdd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e217577be44c59befd0dc77c493b4bd3692c2e7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465557"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863554"
 ---
 # <a name="comparebookmarks-method-example-vc"></a>CompareBookmarks 方法示例 (VC++)
 

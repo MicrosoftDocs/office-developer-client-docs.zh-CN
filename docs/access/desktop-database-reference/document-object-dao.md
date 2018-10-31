@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60fe0519bc722e688630f13acdd6701b96beff05
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 35d9d80ba9299049eb55ee4ae83ac00d57c22293
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466656"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861953"
 ---
 # <a name="document-object-dao"></a>Document Object (DAO)
 
@@ -56,10 +56,8 @@ ms.locfileid: "25466656"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!注释] 不要将上表列出的 <STRONG>Container</STRONG> 对象与带有相同名称的集合相混淆。Databases <STRONG>Container</STRONG> 对象引用所有保存的数据库对象，但是 <STRONG>Databases</STRONG> 集合只引用在特定工作区中打开的数据库对象。</P>
+> [!注释] 不要将上表列出的 **Container** 对象与带有相同名称的集合相混淆。Databases **Container** 对象引用所有保存的数据库对象，但是 **Databases** 集合只引用在特定工作区中打开的数据库对象。
 
 
 

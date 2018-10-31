@@ -1,17 +1,17 @@
 ---
 title: Execute、Requery 和 Clear 方法示例 (VBScript)
-TOCTitle: Execute, Requery, and Clear Methods Example (VBScript)
+TOCTitle: Execute, Requery, and Clear methods example (VBScript)
 ms:assetid: 3999d3d8-693b-99ee-421a-7c67ff0e3cbf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249142(v=office.15)
 ms:contentKeyID: 48544252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e8518c7923c2334711891a9b3e02b2f010599357
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 340be13a5b6acb830ec38108d4a279814d1c459a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468480"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863043"
 ---
 # <a name="execute-requery-and-clear-methods-example-vbscript"></a>Execute、Requery 和 Clear 方法示例 (VBScript)
 

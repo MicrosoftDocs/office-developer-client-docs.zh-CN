@@ -1,17 +1,17 @@
 ---
 title: Resync 方法示例 (VJ++)
-TOCTitle: Resync Method Example (VJ++)
+TOCTitle: Resync method example (VJ++)
 ms:assetid: f8394f26-7a56-a342-ef99-9b32a3f8ebf5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250261(v=office.15)
 ms:contentKeyID: 48548780
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c32e4c914ccab183162a473f708f5e571415c92c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4c5896e6e68c3958ad0dad221cdf46cd7ec37de2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467804"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860446"
 ---
 # <a name="resync-method-example-vj"></a>Resync 方法示例 (VJ++)
 

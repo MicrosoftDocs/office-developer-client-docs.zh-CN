@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ddc04d32afc0a5fc90ff16ff4849ab983732506
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ab2a2ca391927b3ae338910af544d99e01309b06
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466389"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861797"
 ---
 # <a name="ole-db-providers"></a>OLE DB 提供程序
 
@@ -36,3 +36,8 @@ ms.locfileid: "25466389"
 
 ADO 为各种 OLE DB 提供程序提供一致的更高级别的接口。
 
+本节包括下列主题：
+
+- [数据提供程序](data-providers.md)
+
+- [服务提供程序和组件](service-providers-and-components.md)

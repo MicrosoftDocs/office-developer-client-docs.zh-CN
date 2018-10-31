@@ -4,21 +4,22 @@ TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 90226413579a8fac7586cbd5ef08510a36a42959
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7f8eedd1245be16d87a2d3b2cd2b9121853529c5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466890"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863626"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 用于指定游标服务的位置。
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,13 +48,13 @@ ms.locfileid: "25466890"
 <tr class="odd">
 <td><p><strong>为 adUseServer</strong></p></td>
 <td><p>2</p></td>
-<td><p>默认值。使用数据提供程序或驱动程序提供的游标。这些游标有时候非常灵活，允许对他人对数据源所做的更改具有额外的敏感度。但是，<a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service for OLE DB</a> 的某些功能（例如未关联的 <a href="recordset-object-ado.md">Recordset</a> 对象）无法使用服务器端游标进行模拟，因此，使用此设置时这些功能将不可用。</p></td>
+<td><p>默认值。 使用数据提供程序或驱动程序提供的游标。 这些游标有时会非常灵活，并允许其他人对数据源进行的更改其他敏感度。 但是，不能与服务器端游标模拟<a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service for OLE DB</a> （如解除关联的<a href="recordset-object-ado.md">Recordset</a>对象） 的一些功能，并且这些功能将不可用的该设置。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

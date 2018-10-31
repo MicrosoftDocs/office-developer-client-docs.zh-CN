@@ -1,21 +1,21 @@
 ---
 title: CREATE INDEX 语句 (Microsoft Access SQL)
-TOCTitle: CREATE INDEX Statement (Microsoft Access SQL)
+TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
 ms:contentKeyID: 48547612
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab501348d19ad8577bf1a55a3f37c6c3923381b1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7710dd89a645b10d20044e2eeaeb26986730c843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465913"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861552"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX 语句 (Microsoft Access SQL)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25465913"
 对现有表创建一个新索引。
 
 > [!NOTE]
-> [!注释] 对于非 Microsoft Access 数据库引擎的数据库，Microsoft Access 数据库引擎不支持使用 CREATE INDEX 语句（除了对 ODBC 链接表创建伪索引外）或者任何数据定义语言 (DDL) 语句。可以改用 DAO Create 方法。有关详细信息，请参阅"注解"部分。
+> 对于 Microsoft Access 数据库引擎数据库，Microsoft Access 数据库引擎不支持使用 CREATE INDEX （除以创建一个 ODBC 链接表伪索引） 或任何数据定义语言 (DDL) 语句。 而是使用**DAO 创建**方法。 有关详细信息，请参阅"备注"部分。
 
 ## <a name="syntax"></a>语法
 
@@ -64,7 +64,7 @@ CREATE INDEX 语句包含以下部分：
 
 若要禁止在不同记录的被索引字段中的值重复，请使用 UNIQUE 保留字。
 
-在可选的 WITH 子句中可以实施数据有效性规则。您可以：
+在与子句可选，您可以实施数据验证规则。 您可以：
 
 - 使用 DISALLOW NULL 选项，以禁止在新记录的被索引字段中出现 Null 条目。
 
@@ -72,7 +72,7 @@ CREATE INDEX 语句包含以下部分：
 
 - 使用 PRIMARY 保留字，将被索引字段指定为主键。这意味着该键是唯一的，所以可以省略 UNIQUE 保留字。
 
-可以使用 CREATE INDEX 对 ODBC 数据源（如 Microsoft® SQL Server）中不包含索引的链接表创建伪索引。创建伪索引不需要得到授权或者访问远程服务器，并且远程数据库不知情也不会受伪索引的影响。可以对链接表或本地表使用相同的语法。对通常为只读的表创建伪索引会很有用。
+CREATE INDEX 用于 ODBC 数据源，例如 Microsoft SQL Server，尚不具有索引中的链接表上创建伪索引。 创建伪索引不需要得到授权或者访问远程服务器，并且远程数据库不知情也不会受伪索引的影响。 可以对链接表或本地表使用相同的语法。 对通常为只读的表创建伪索引会很有用。
 
 也可以使用 [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) 语句向表中添加单字段索引或多字段索引，还可以使用 ALTER TABLE 语句或 [DROP](drop-statement-microsoft-access-sql.md) 语句删除用 ALTER TABLE 或 CREATE INDEX 语句创建的索引。
 

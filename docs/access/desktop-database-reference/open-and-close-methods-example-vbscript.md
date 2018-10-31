@@ -1,17 +1,17 @@
 ---
 title: Open 和 Close 方法示例 (VBScript)
-TOCTitle: Open and Close Methods Example (VBScript)
+TOCTitle: Open and Close methods example (VBScript)
 ms:assetid: 7b9d9443-9693-8738-7c93-52f9efc895ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249513(v=office.15)
 ms:contentKeyID: 48545816
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7525996a0768310b34edc8df12dbb4dc2cd51815
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ffcf71925b98fc1c78ea56fd0d342a650ccbfb01
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466850"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863029"
 ---
 # <a name="open-and-close-methods-example-vbscript"></a>Open 和 Close 方法示例 (VBScript)
 

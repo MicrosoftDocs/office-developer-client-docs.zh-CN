@@ -1,17 +1,17 @@
 ---
 title: Delete 方法示例 (VJ++)
-TOCTitle: Delete Method Example (VJ++)
+TOCTitle: Delete method example (VJ++)
 ms:assetid: 052238ed-86e1-c104-2be6-4bbf45474db5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248810(v=office.15)
 ms:contentKeyID: 48543026
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a78965fcebb8438fbe21844102570e38e8fa93a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1bc7fb068a4b170955d005aa1e94ec08dabd4b5d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467610"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862567"
 ---
 # <a name="delete-method-example-vj"></a>Delete 方法示例 (VJ++)
 

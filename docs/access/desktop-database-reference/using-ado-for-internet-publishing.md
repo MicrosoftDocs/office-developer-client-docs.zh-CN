@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e2d939f8583fdfd98ed1ae8e51a5bbfe792e486
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f8266d2b632b27ee4fafbb4ed0634def544c17a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468502"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860257"
 ---
-# <a name="using-ado-for-internet-publishing"></a>使用 ADO for Internet Publishing
+# <a name="using-ado-for-internet-publishing"></a>使用 ADO 进行 Internet 发布
 
 
 **适用于**： Access 2013 |Office 2013
@@ -42,3 +42,6 @@ ms.locfileid: "25468502"
 
   - 您可以通过简单地为未定义字段或以前删除的字段赋值来创建字段，以作为 **Append** 方法的快捷方式和替代方式。
 
+## <a name="see-also"></a>另请参阅
+
+- [Internet Publishing 方案主题](internet-publishing-scenario.md)

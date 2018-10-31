@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d61d298da0e3b44895c8fce3ee1adc3b55d9a491
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468544"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860846"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData 宏操作
 
@@ -68,7 +68,7 @@ ms.locfileid: "25468544"
 <li><p>在<strong>“链接表”</strong>对话框中选择表，然后单击<strong>“确定”</strong>。</p></li>
 </ol>
 <p>在设计视图中打开新链接的表，然后在<strong>“工具”</strong>下的<strong>“设计”</strong>选项卡上单击<strong>“属性表”</strong>，查看表属性。<strong>“说明”</strong>属性设置中的文本是此表的连接字符串。</p>
-<p>有关 ODBC 连接字符串的详细信息，请参阅这种 ODBC 数据库的 ODBC 驱动程序的帮助文件或其他文档。</p></td>
+<p>有关 ODBC 连接字符串的详细信息，请参阅帮助文件或其他文档的这种 ODBC 数据库的 ODBC 驱动程序。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>对象类型</strong></p></td>

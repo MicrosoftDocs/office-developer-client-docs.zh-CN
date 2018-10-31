@@ -4,21 +4,22 @@ TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
 ms:contentKeyID: 48546549
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b694d2d691766063f418aba6535fd9c7a8e3ca95
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cc5fee66746270f5ba8ee851010c6860cfc9e791
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465574"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861062"
 ---
 # <a name="commandtypeenum"></a>CommandTypeEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定应当如何解释命令参数。
+
+<br/>
 
 <table>
 <colgroup>
@@ -73,7 +74,7 @@ ms.locfileid: "25465574"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

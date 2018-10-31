@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3869f23b93df78fd207812a85f91dd3272bd255f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 362fd0784ee596852af7b16fae5636330a52ed59
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468584"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863743"
 ---
 # <a name="chapter-15-adox-fundamentals"></a>第 15 章：ADOX 基础知识
 
@@ -26,15 +26,21 @@ ADOX 是核心 ADO 对象的配套库。它提供了用于创建、修改和删�
 
 Microsoft OLE DB Provider for Microsoft Jet Database Engine 完全支持 ADOX。ADOX 的某些功能可能不受支持，这取决于您的数据提供程序。有关 Microsoft OLE DB Provider for ODBC、Microsoft OLE DB Provider for Oracle 或 Microsoft SQL Server OLE DB Provider 支持的功能的更多信息，请参阅 MDAC 自述文件。
 
-本文档需要对 Microsoft® Visual Basic® 编程语言的实用知识以及对 ADO 的一般性了解。有关 ADO 的更多信息，请参阅 [ADO 程序员指南](ado-programmer-s-guide.md)。有关 ADOX 的更多概述信息，请参阅下列主题：
+本文档需要对 Microsoft® Visual Basic® 编程语言的实用知识以及对 ADO 的一般性了解。 有关 ADO 的更多信息，请参阅 [ADO 程序员指南](ado-programmer-s-guide.md)。
 
-  - [ADOX 对象](adox-objects.md)
+本章包括以下主题：
 
-  - [ADOX 集合](adox-collections.md)
+- [ADOX 的提供程序支持](provider-support-for-adox.md)
 
-  - [ADOX 属性](adox-properties.md)
+有关 ADOX 的更多概述信息，请参阅下列主题：
 
-  - [ADOX 方法](adox-methods.md)
+- [ADOX 对象](adox-objects.md)
 
-  - [ADOX 示例](adox-code-examples.md)
+- [ADOX 集合](adox-collections.md)
+
+- [ADOX 属性](adox-properties.md)
+
+- [ADOX 方法](adox-methods.md)
+
+- [ADOX 示例](adox-code-examples.md)
 

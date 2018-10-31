@@ -1,19 +1,19 @@
 ---
 title: SELECT 语句 (Microsoft Access SQL)
-TOCTitle: SELECT Statement (Microsoft Access SQL)
+TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: ae7a63a3fe7647dde117db80a52e2322b9af75b9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466230"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860579"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT 语句 (Microsoft Access SQL)
 
@@ -41,7 +41,7 @@ SELECT 语句包含以下部分：
 <tbody>
 <tr class="odd">
 <td><p><em>predicate</em></p></td>
-<td><p>下列谓词之一：<a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">ALL、DISTINCT、DISTINCTROW 或 TOP</a>。可以使用谓词来限定返回记录的数量。如果没有指定谓词，则默认值为 ALL。  </p></td>
+<td><p>下列谓词之一：<a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL、DISTINCT、DISTINCTROW 或 TOP</a>。可以使用谓词来限定返回记录的数量。如果没有指定谓词，则默认值为 ALL。  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -73,7 +73,7 @@ SELECT 语句包含以下部分：
 
 ## <a name="remarks"></a>说明
 
-若要执行此项操作，Microsoft® Jet 数据库引擎会搜索指定的表，并提取选定的列，再选择符合条件的行，然后按指定的顺序对得到的行进行排序或分组。
+若要执行此操作，Microsoft Jet 数据库引擎搜索指定的表、 提取选的列、 选择到指定的顺序满足的条件，和排序或组生成的行的行。
 
 SELECT 语句不会更改数据库中的数据。
 
@@ -151,6 +151,8 @@ AS HeadCount FROM Employees;
     End Sub
 ```
 
+<br/>
+
 以下示例计算 PostalCode 字段中有条目的记录数，并将返回的字段命名为 Tally。
 
 ```sql
@@ -178,6 +180,8 @@ AS HeadCount FROM Employees;
      
     End Sub 
 ```
+
+<br/>
 
 以下示例显示雇员数以及平均薪水和最高薪水。
 
@@ -209,6 +213,8 @@ AS HeadCount FROM Employees;
      
     End Sub 
 ```
+
+<br/>
 
 **Sub**过程 EnumFields 从调用过程传递**Recordset**对象。 过程然后格式，并打印到**调试**窗口的**Recordset**的字段。 该变量是所需的打印的字段宽度。 某些字段可能被截断。
 

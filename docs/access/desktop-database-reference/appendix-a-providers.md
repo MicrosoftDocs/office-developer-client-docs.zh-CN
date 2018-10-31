@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbd9536edd15f923af85f2fadad8b696077af4a4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f18af92724ff87263808cba2e8799bca2a558541
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468050"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861440"
 ---
 # <a name="appendix-a-providers"></a>附录 A：提供程序
 
@@ -49,19 +49,19 @@ ADO 功能强大而又灵活，因为它可以连接到若干个不同数据提�
 <tbody>
 <tr class="odd">
 <td><p>ODBC 数据库</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-odbc.md">用于 ODBC 的 Microsoft OLE DB 提供程序</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft 索引服务</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">用于 Microsoft 索引服务的 Microsoft OLE DB 提供程序</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Active Directory Service</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">用于 Microsoft Active Directory Service 的 Microsoft OLE DB 提供程序</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet 数据库</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">OLE DB Provider for Microsoft Jet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Microsoft OLE DB Provider for Microsoft Jet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft SQL Server</p></td>
@@ -73,7 +73,7 @@ ADO 功能强大而又灵活，因为它可以连接到若干个不同数据提�
 </tr>
 <tr class="odd">
 <td><p>Internet 发布</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">用于 Internet 发布的 Microsoft OLE DB 提供程序</a></p></td>
 </tr>
 </tbody>
 </table>

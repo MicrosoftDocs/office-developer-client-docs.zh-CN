@@ -1,17 +1,17 @@
 ---
 title: Find 方法示例 (VJ++)
-TOCTitle: Find Method Example (VJ++)
+TOCTitle: Find method example (VJ++)
 ms:assetid: 622abf93-01f2-7721-4ca5-54c2c773089b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249367(v=office.15)
 ms:contentKeyID: 48545232
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a392eb9b1718f26b05cd8b5ab1266cafae131980
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5ea5ca70d7dc31292c8f2dcb3ae66bc035c3d206
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466808"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863387"
 ---
 # <a name="find-method-example-vj"></a>Find 方法示例 (VJ++)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 118cc56bf33812819dd34089ac97c72259228f4c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ce20bad72dfc74879093cd3445830f6087ad7e3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467911"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860964"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete 方法 (ADO Recordset)
 
@@ -34,9 +34,7 @@ ms.locfileid: "25467911"
 
 
 > [!NOTE]
-> <P>[!注释] <STRONG>adAffectAll</STRONG> 和 <STRONG>adAffectAllChapters</STRONG> 不是有效的 <STRONG>Delete</STRONG> 参数。</P>
-
-
+> [!注释] **adAffectAll** 和 **adAffectAllChapters** 不是有效的 **Delete** 参数。
 
 ## <a name="remarks"></a>备注
 

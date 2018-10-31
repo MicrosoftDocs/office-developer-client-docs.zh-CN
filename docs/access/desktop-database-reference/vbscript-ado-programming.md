@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249019(v=office.15)
 ms:contentKeyID: 48543764
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6336819b759e7ced832e993f72b05ebc2108587
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e94f4d313a9c43d08c9786c6f27fd49624709249
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468501"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863064"
 ---
 # <a name="vbscript-ado-programming"></a>VBScript ADO 编程
 
@@ -75,7 +75,7 @@ Response.Write("Success!")
 </HTML> 
 ```
 
-ADO 文档中附带了更多特定的 VBScript 示例。有关详细信息，请参阅 [Microsoft Visual Basic Scripting Edition 中的 ADO 代码示例](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)。
+ADO 文档中附带了更多特定的 VBScript 示例。 有关详细信息，请参阅[在 Microsoft Visual Basic Scripting Edition 中的 ADO 代码示例](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)。
 
 ## <a name="differences-between-vbscript-and-visual-basic"></a>VBScript 和 Visual Basic 之间的差异
 

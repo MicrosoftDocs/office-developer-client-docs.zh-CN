@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8420beb2c6136123c334a55b68bd6601f214faa5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6d4c869d6021c807e27fb7970ef6ea91f91bd4de
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468770"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860453"
 ---
 # <a name="creating-the-connection-string"></a>创建连接字符串
 
@@ -58,9 +58,7 @@ ms.locfileid: "25468770"
 
 
 > [!NOTE]
-> <P>在以下示例和整个《ADO 程序员指南》中，将以用户 ID“MyId”和密码“123aBc”来向服务器进行身份验证。应当用您的服务器的有效登录凭据来替换这些值，并用您的服务器的名称替换“MySqlServer”。</P>
-
-
+> 在以下示例和整个《ADO 程序员指南》中，将以用户 ID“MyId”和密码“123aBc”来向服务器进行身份验证。应当用您的服务器的有效登录凭据来替换这些值，并用您的服务器的名称替换“MySqlServer”。
 
 第 1 章中 HelloData 应用程序使用以下连接字符串：
 

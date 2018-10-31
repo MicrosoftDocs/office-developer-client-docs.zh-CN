@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85e9fc888e06a69be6f458ed03ad92b8253b30a2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f9ac791ffd0f11c11358298570db833f8d561d11
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467026"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860936"
 ---
 # <a name="deleteobject-macro-action"></a>DeleteObject 宏操作
 
@@ -26,9 +26,7 @@ ms.locfileid: "25467026"
 
 
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
 
 ## <a name="setting"></a>设置
 
@@ -60,7 +58,7 @@ ms.locfileid: "25467026"
 
 
 > [!WARNING]
-> <P>如果<STRONG>对象类型</STRONG>和<STRONG>对象名称</STRONG>框为空，则 Access 将删除而不在遇到<STRONG>DeleteObject</STRONG>操作时显示一条警告消息在导航窗格中选择的对象。</P>
+> 如果**对象类型**和**对象名称**框为空，则 Access 将删除而不在遇到**DeleteObject**操作时显示一条警告消息在导航窗格中选择的对象。
 
 
 

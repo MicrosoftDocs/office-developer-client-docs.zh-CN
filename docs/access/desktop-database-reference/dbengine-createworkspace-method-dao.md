@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2464426bc7178638e8ebbfc9f5b2f6d1d1b61ca2
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f76cb57345b7ec653092517d72fa3355a29de6cd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602585"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862560"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace Method (DAO)
 
@@ -68,7 +68,7 @@ ms.locfileid: "25602585"
 <td><p>包含新的<strong>Workspace</strong>对象的密码的<strong>字符串</strong>。 密码长度最多为 20 个字符，并且可以包括除 ASCII 字符 0 (null) 的任何字符。</p>
 
 > [!NOTE]
-> <P>[!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。</P>
+> [!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。
 
 
 </td>
@@ -80,7 +80,7 @@ ms.locfileid: "25602585"
 <td><p><strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong>值之一。</p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 Type 参数设置为<STRONG>dbUseODBC</STRONG>将导致运行时错误。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 Type 参数设置为**dbUseODBC**将导致运行时错误。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 </td>
@@ -89,11 +89,11 @@ ms.locfileid: "25602585"
 </table>
 
 
-<<<<<<< 标头
+<<<<<<< 头
 ### <a name="return-value"></a>返回值
 =======
 ### <a name="return-value"></a>返回值
->>>>>>> master
+>>>>>>> 母版
 
 Workspace
 

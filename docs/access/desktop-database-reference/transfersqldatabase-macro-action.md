@@ -10,23 +10,23 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 301fce8bcdeff45135c305054da72f4c75f503eb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466125"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862889"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferSQLDatabase 宏操作
 
 
 **适用于**： Access 2013 |Office 2013
 
-在 Microsoft Access 项目中，可以使用 **TransferSQLDatabase** 操作将 Microsoft SQL Server 7.0 或更高版本的数据库迁移到另一个 SQL Server 7.0 或更高版本的数据库。有关迁移数据库的详细信息，请参阅 SQL Server 文档。
+在 Microsoft Access 项目中，可以使用 **TransferSQLDatabase** 操作将 Microsoft SQL Server 7.0 或更高版本的数据库迁移到另一个 SQL Server 7.0 或更高版本的数据库。 关于迁移数据库的详细信息，请参阅 SQL Server 文档。
 
 
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
+> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
 
 
 

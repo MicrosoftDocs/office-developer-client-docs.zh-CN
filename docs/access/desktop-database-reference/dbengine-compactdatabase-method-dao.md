@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1be6f910c8ab4aefed483c147ef88e8cecfa3a84
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9452a76f9e5d467279ee427c6c07016107833acf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466774"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861428"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase Method (DAO)
 
@@ -86,7 +86,7 @@ ms.locfileid: "25466774"
 <td><p>包含加密密钥，如果数据库加密字符串表达式。 字符串&quot;; pwd =&quot;必须前面的实际密码。 如果您 DstLocale 中包括的密码设置，则忽略此设置。</p>
 
 > [!NOTE]
-> <P>这是参数已弃用，不支持。ACCDB 格式。 进行加密。ACCDB 文件，使用"pwd ="选项的字符串。 [!注释] 使用同时包含大小写字母、数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</P>
+> 这是参数已弃用，不支持。ACCDB 格式。 进行加密。ACCDB 文件，使用"pwd ="选项的字符串。 [!注释] 使用同时包含大小写字母、数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。
 
 
 </td>

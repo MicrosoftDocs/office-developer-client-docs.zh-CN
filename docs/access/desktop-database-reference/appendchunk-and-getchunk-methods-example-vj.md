@@ -1,17 +1,17 @@
 ---
 title: AppendChunk 和 GetChunk 方法示例 (VJ++)
-TOCTitle: AppendChunk and GetChunk Methods Example (VJ++)
+TOCTitle: AppendChunk and GetChunk methods example (VJ++)
 ms:assetid: c2d940a4-9954-0282-9438-6a1b1241e38d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249952(v=office.15)
 ms:contentKeyID: 48547562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b6f9ed55783e17b7f6c00ad52399d9f2ccaaf05
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4e815f7bb6d1c93e5d2d61275eefa15c962a70de
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468981"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863785"
 ---
 # <a name="appendchunk-and-getchunk-methods-example-vj"></a>AppendChunk 和 GetChunk 方法示例 (VJ++)
 

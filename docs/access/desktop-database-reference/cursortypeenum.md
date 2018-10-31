@@ -4,21 +4,22 @@ TOCTitle: CursorTypeEnum
 ms:assetid: 7c5fa8b2-85ea-a0a7-41f1-a78650aced3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
 ms:contentKeyID: 48545835
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: c254c41bb066887e659c86a29ec4a91ca0de9cdd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c394f8000f1d4ae7867d83974e0e186616145fb5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468388"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864020"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定在 [Recordset](recordset-object-ado.md) 对象中使用的游标的类型。
+
+<br/>
 
 <table>
 <colgroup>
@@ -63,7 +64,7 @@ ms.locfileid: "25468388"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

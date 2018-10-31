@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 04964b085d6ece60bbdb30e4561e6e02de76268d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606400"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863932"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>配置安全模式或无限制模式的 DataFactory
 
@@ -26,13 +26,13 @@ ms.locfileid: "25606400"
 
 3.  msdfmap.ini 文件安装在 Windows 目录中。在以三层模式使用 RDS 之前，必须根据需要配置此文件。
 
-此外，还可以配置无限制的 **DataFactory** 安装。 **DataFactory** 可以在无自定义处理程序的情况下直接使用。用户仍可以通过修改连接字符串来使用自定义处理程序，但并不是必需的。有关使用 **RDSServer.DataFactory** 对象的潜在问题的详细信息，请参阅 [保护 RDS 应用程序](securing-rds-applications.md)。
+此外，还可以配置无限制的 **DataFactory** 安装。 **DataFactory** 可以在无自定义处理程序的情况下直接使用。 用户仍可以通过修改连接字符串来使用自定义处理程序，但并不是必需的。 有关使用**RDSServer.DataFactory**对象的影响的详细信息，请参阅[保护 RDS 应用程序](securing-rds-applications.md)。
 
 对于安全配置的处理程序注册表项，可使用提供的注册表文件 handsafe.reg 进行设置。若要以安全模式运行，请运行 handsafe.reg。对于无限制配置的处理程序注册表项，可使用提供的注册表文件 handunsf.reg 进行设置。若要以无限制模式运行，请运行 handunsf.reg。
 
 <<<<<<< 标头运行 handsafe.reg 或 handunsf.reg 后，您必须停止并通过在命令窗口中键入以下命令重新启动 Web 服务器上的 World Wide Web 发布服务:"NET 停止 W3SVC"和"NET 启动 W3SVC"。
 === 后运行 handsafe.reg 或 handunsf.reg，您必须停止并通过在命令窗口中键入以下命令重新启动 web 服务器上的 World Wide Web 发布服务:"NET 停止 W3SVC"和"NET 启动 W3SVC"。
->>>>>>> master
+>>>>>>> 母版
 
 有关使用 RDS 的自定义处理程序功能的详细信息，请参阅技术文章"使用 RDS 2.1 中的自定义处理程序功能"。
 

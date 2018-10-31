@@ -1,19 +1,19 @@
 ---
-title: 第 5 章：更新和持久化数据
+title: 第 5 章：更新和暂留数据
 TOCTitle: 'Chapter 5: Updating and Persisting Data'
 ms:assetid: 77acb763-1c60-1945-791d-3e83d684fb0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91c747c970988a9ca853f0be66f5c0b485f5c3f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 487fd11112375fb0f5788505d049a4fc71e245ba
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465819"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861972"
 ---
-# <a name="chapter-5-updating-and-persisting-data"></a>第 5 章：更新和持久化数据
+# <a name="chapter-5-updating-and-persisting-data"></a>第 5 章：更新和暂留数据
 
 
 **适用于**： Access 2013 |Office 2013
@@ -28,3 +28,8 @@ ms.locfileid: "25465819"
 
 在即时模式下，每次调用 **Update** 方法都会将所做的更改传播到数据源。在批处理模式下，每次调用 **Update** 或者每次移动当前行的位置时，都会保存对复制缓冲区进行的更改，但是，只有 **UpdateBatch** 方法才将所做的更改传播到数据源。
 
+本章包含以下主题：
+
+- [Updating Data (ADO)](updating-data.md)
+
+- [Persisting Data (ADO)](persisting-data.md)

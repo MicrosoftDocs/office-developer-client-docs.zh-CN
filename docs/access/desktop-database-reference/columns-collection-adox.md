@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
 ms:contentKeyID: 48543723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13f9a17d7dfcd9e621e4f4b1f1fcc03e88b4d832
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d49fa1bf77a66dbab829aff20ee666ae1a5082cc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468339"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862212"
 ---
 # <a name="columns-collection-adox"></a>Columns 集合 (ADOX)
 
@@ -38,6 +38,6 @@ ms.locfileid: "25468339"
 
 
 > [!NOTE]
-> <P>[!注释] 如果追加到 <STRONG>Tables</STRONG> 集合中的 <STRONG>Table</STRONG> 中没有某个 <A href="index-object-adox.md">Column</A> ，则在将该 <STRONG>Column</STRONG> 追加到 <A href="table-object-adox.md">Index</A> 的 <A href="tables-collection-adox.md">Columns</A> 集合时将发生错误。</P>
+> [!注释] 如果追加到 **Tables** 集合中的 **Table** 中没有某个 [Column](index-object-adox.md) ，则在将该 **Column** 追加到 [Index](table-object-adox.md) 的 [Columns](tables-collection-adox.md) 集合时将发生错误。
 
 

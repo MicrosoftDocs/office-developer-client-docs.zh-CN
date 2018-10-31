@@ -1,21 +1,21 @@
 ---
 title: EXECUTE 语句 (Microsoft Access SQL)
-TOCTitle: EXECUTE Statement (Microsoft Access SQL)
+TOCTitle: EXECUTE statement (Microsoft Access SQL)
 ms:assetid: 9ec4d9ee-db2a-0319-3ccf-c035d67a1496
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198330(v=office.15)
 ms:contentKeyID: 48546667
-ms.date: 09/28/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277471
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f150a310b562f7fc014f15230bee09f8f686c61a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b5350d411fa5f8f689ae3051a8531f2cb298af56
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467368"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860285"
 ---
 # <a name="execute-statement-microsoft-access-sql"></a>EXECUTE 语句 (Microsoft Access SQL)
 

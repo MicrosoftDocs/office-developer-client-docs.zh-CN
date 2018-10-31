@@ -1,21 +1,21 @@
 ---
 title: TRANSFORM 语句 (Microsoft Access SQL)
-TOCTitle: TRANSFORM Statement (Microsoft Access SQL)
+TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
 ms:contentKeyID: 48544455
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d05f278e38cc8cf132cf06605703dfa99eb8728
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 16b88f2cf441802c6246425d5bb7bb2efb71a679
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467955"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861216"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM 语句 (Microsoft Access SQL)
 
@@ -64,7 +64,7 @@ TRANSFORM 语句包含以下部分：
 
 使用交叉表查询汇总数据时，将从作为列标题的指定字段或表达式中选择值，以便能够以一种比使用选择查询更紧凑的方式来查看数据。
 
-TRANSFORM 是可选的，但如果包括它，则应为 SQL 字符串中的第一个语句。它在指定作为行标题的字段的 SELECT 语句之前，在指定行分组方法的 [GROUP BY](https://msdn.microsoft.com/library/ff837271\(v=office.15\)) 子句之前。您也可以包含其他子句（例如。指定其他选择或排序条件的 [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\))）。还可以在交叉表查询中使用子查询作为谓词，特别是在 WHERE 子句中。
+TRANSFORM 是可选的，但如果包括它，则应为 SQL 字符串中的第一个语句。它在指定作为行标题的字段的 SELECT 语句之前，在指定行分组方法的 [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) 子句之前。您也可以包含其他子句（例如。指定其他选择或排序条件的 [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql)）。还可以在交叉表查询中使用子查询作为谓词，特别是在 WHERE 子句中。
 
 *pivotfield* 中返回的值作为查询结果集中的列标题。例如，在交叉表查询中如果依据月销售量来透视销售数据，将会创建 12 个列。可以约束 *pivotfield* 以便从可选 IN 子句中所列出的固定值（*value1*，*value2*）内选择标题。也可以包含固定值用于没有数据来创建其他列的情况。
 

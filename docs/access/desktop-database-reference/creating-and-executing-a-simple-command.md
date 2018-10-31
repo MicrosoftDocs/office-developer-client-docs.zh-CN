@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91355c8b24fcd6e797a6610524076b8850b16f57
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 88463cf79ace0007cac8e5ebd1694ee7a080f329
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465730"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860348"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>创建和执行简单命令
 
@@ -82,9 +82,7 @@ ErrHandler:
 
 
 > [!NOTE]
-> <P>[!注释] 本部分中的几个示例通过调用实用程序函数 GetNewConnection 来与数据提供程序建立连接。为了避免冗余，在如下代码中仅将该函数列出了一次：</P>
-
-
+> 本节中的几个示例调用的实用工具函数， **GetNewConnection**，建立与数据提供程序的连接。 若要避免冗余，它列出了仅执行一次：
 
 ```vb 
  

@@ -1,17 +1,17 @@
 ---
 title: GetRows 方法示例 (VJ++)
-TOCTitle: GetRows Method Example (VJ++)
+TOCTitle: GetRows method example (VJ++)
 ms:assetid: 60f7d621-3a9d-167e-8798-aeb2a881d975
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249355(v=office.15)
 ms:contentKeyID: 48545194
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c431f4fb3fcb3830a44368df160d94502f555ee3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 312c56aee8f0901c3817a5f81e22e436a841dca5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468853"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862896"
 ---
 # <a name="getrows-method-example-vj"></a>GetRows 方法示例 (VJ++)
 

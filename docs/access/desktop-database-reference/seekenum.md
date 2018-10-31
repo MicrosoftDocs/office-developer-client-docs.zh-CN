@@ -4,21 +4,22 @@ TOCTitle: SeekEnum
 ms:assetid: a0574809-db2d-8759-18cc-fb1cf776e8fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)
 ms:contentKeyID: 48546706
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 6a151f7a4549a234c20f76bc1ac93d5eff6cf250
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5025706d64927482b632a17a5f71839cd4186619
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465526"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861412"
 ---
 # <a name="seekenum"></a>SeekEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 用于指定要执行的 [Seek 方法 (ADO)](seek-method-ado.md) 类型。
+
+<br/>
 
 <table>
 <colgroup>
@@ -68,7 +69,7 @@ ms.locfileid: "25465526"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

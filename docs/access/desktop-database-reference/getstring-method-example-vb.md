@@ -1,17 +1,17 @@
 ---
 title: GetString 方法示例 (VB)
-TOCTitle: GetString Method Example (VB)
+TOCTitle: GetString method example (VB)
 ms:assetid: fa954e48-0810-9d71-4e24-f3ae2839105a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250280(v=office.15)
 ms:contentKeyID: 48548849
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 64fff0857754fc1a249a1d823a0c827e393d329a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9431711e3a3e2b39d6d59165650bb32e85e84f4a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468193"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861860"
 ---
 # <a name="getstring-method-example-vb"></a>GetString 方法示例 (VB)
 

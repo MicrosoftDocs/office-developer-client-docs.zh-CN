@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7220505f5d2fe4354ad904df3c5b1d79e9e6768d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea03ee787c344865154ab04a82d3702e121dbc2c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467845"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862654"
 ---
-# <a name="internet-publishing-scenario"></a>Internet Publishing 方案
+# <a name="internet-publishing-scenario"></a>Internet 发布方案
 
 
 **适用于**： Access 2013 |Office 2013
@@ -22,11 +22,11 @@ ms.locfileid: "25467845"
 
 下列步骤是创建该方案所必需的步骤：
 
-  - [步骤 1：设置 Visual Basic 项目](step-1-set-up-the-visual-basic-project.md)
+- [步骤 1：设置 Visual Basic 项目](step-1-set-up-the-visual-basic-project.md)
 
-  - [步骤 2：初始化主列表框](step-2-initialize-the-main-list-box.md)
+- [步骤 2：初始化主列表框](step-2-initialize-the-main-list-box.md)
 
-  - [步骤 3：填充字段列表框](step-3-populate-the-fields-list-box.md)
+- [步骤 3：填充字段列表框](step-3-populate-the-fields-list-box.md)
 
-  - [步骤 4：填充细节文本框](step-4-populate-the-details-text-box.md)
+- [步骤 4：填充细节文本框](step-4-populate-the-details-text-box.md)
 

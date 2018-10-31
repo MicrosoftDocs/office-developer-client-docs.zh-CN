@@ -1,19 +1,19 @@
 ---
-title: ADO 事件模型示例 (VC++)
-TOCTitle: ADO Events Model Example (VC++)
+title: ADO 事件模型示例 （VC + +）
+TOCTitle: ADO Events Model example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 395fa07c75b61214cf01950262fc85f191e8dc2c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1794e3e13bc2c8fe7c3acc9bbd1413daf4938d2c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467790"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25859991"
 ---
-# <a name="ado-events-model-example-vc"></a>ADO 事件模型示例 (VC++)
+# <a name="ado-events-model-example-vc"></a>ADO 事件模型示例 （VC + +）
 
 
 **适用于**： Access 2013 |Office 2013

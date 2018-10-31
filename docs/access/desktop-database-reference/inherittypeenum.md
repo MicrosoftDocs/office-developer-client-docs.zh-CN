@@ -4,21 +4,22 @@ TOCTitle: InheritTypeEnum
 ms:assetid: aa505c66-5871-10a8-35a7-cb30bb5dc21a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249787(v=office.15)
 ms:contentKeyID: 48546944
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 031c47aff666bf10f0e2aa597ccd0143ed3d6209
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bf7d7ceac1e4822344ce4f7ad8a05e09c0429dff
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466044"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860565"
 ---
 # <a name="inherittypeenum"></a>InheritTypeEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定对象将如何继承通过 [SetPermissions](setpermissions-method-adox.md) 设置的权限。
+
+<br/>
 
 <table>
 <colgroup>

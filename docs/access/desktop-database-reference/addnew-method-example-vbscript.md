@@ -1,17 +1,17 @@
 ---
 title: AddNew 方法示例 (VBScript)
-TOCTitle: AddNew Method Example (VBScript)
+TOCTitle: AddNew method example (VBScript)
 ms:assetid: a01f01ca-44a7-8743-394d-ef2c4b0919ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249735(v=office.15)
 ms:contentKeyID: 48546699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb519ab40cfb0137c5923029b18494fe5e5bf988
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4f45f9743659e6a0f82d86b1662c178344bf428d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466788"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860110"
 ---
 # <a name="addnew-method-example-vbscript"></a>AddNew 方法示例 (VBScript)
 

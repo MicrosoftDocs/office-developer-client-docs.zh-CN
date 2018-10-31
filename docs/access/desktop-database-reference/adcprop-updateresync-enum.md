@@ -4,20 +4,22 @@ TOCTitle: ADCPROP_UPDATERESYNC_ENUM
 ms:assetid: 890210c4-2290-ddb2-8814-022093c318de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249600(v=office.15)
 ms:contentKeyID: 48546145
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ce8a0555e758cf2f3435de755720f312705ba374
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 056e68456b3f5bcf30768b0a5a616467c8271a5a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467375"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861405"
 ---
 # <a name="adcpropupdateresyncenum"></a>ADCPROP\_UPDATERESYNC\_枚举
 
 **适用于**： Access 2013 |Office 2013
 
 指定 [UpdateBatch](updatebatch-method-ado.md) 方法后面是否跟随隐式的 [Resync](resync-method-ado.md) 方法操作，如果跟随，则指定该操作的范围。
+
+<br/>
 
 <table>
 <colgroup>

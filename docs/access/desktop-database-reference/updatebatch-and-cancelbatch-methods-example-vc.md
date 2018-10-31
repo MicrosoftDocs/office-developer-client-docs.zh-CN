@@ -1,17 +1,17 @@
 ---
 title: UpdateBatch 和 CancelBatch 方法示例 (VC++)
-TOCTitle: UpdateBatch and CancelBatch Methods Example (VC++)
+TOCTitle: UpdateBatch and CancelBatch methods example (VC++)
 ms:assetid: 49eb3cc7-16af-6e2b-911f-ddcf643cf699
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249227(v=office.15)
 ms:contentKeyID: 48544651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e17f2e8b8aae50b49b884a0db52bf8531d5faa21
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4ea8a1cee322798545e9727f61dc4426186e0e3c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467438"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861923"
 ---
 # <a name="updatebatch-and-cancelbatch-methods-example-vc"></a>UpdateBatch 和 CancelBatch 方法示例 (VC++)
 

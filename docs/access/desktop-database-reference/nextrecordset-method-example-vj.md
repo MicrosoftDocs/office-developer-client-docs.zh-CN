@@ -1,17 +1,17 @@
 ---
 title: NextRecordset 方法示例 (VJ++)
-TOCTitle: NextRecordset Method Example (VJ++)
+TOCTitle: NextRecordset method example (VJ++)
 ms:assetid: 1803ce0e-43a6-0571-5703-525f1d2e29ea
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248930(v=office.15)
 ms:contentKeyID: 48543457
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f438ca714b1ab0088d2a82b85130564e223986f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4c9baf7d3fd391b9da6e9d95ade2a5dfcf515316
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468272"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861467"
 ---
 # <a name="nextrecordset-method-example-vj"></a>NextRecordset 方法示例 (VJ++)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250246(v=office.15)
 ms:contentKeyID: 48548700
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 551ee657018cb10bffa714ffe388849bbbf6bbe1
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: cc3f68fe2c47599a0b56d597927c7094231c35c7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603159"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860427"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic-topics"></a>ADOX Code Examples in Microsoft Visual Basic Topics
 
@@ -21,7 +21,7 @@ ms.locfileid: "25603159"
 
   - [ADOX Microsoft Visual Basic 代码示例](adox-code-examples-in-microsoft-visual-basic.md)
 
-<<<<<<< 标头
+<<<<<<< 头
   - [Attributes 属性示例 (VB)](attributes-property-example-vb.md)
 
   - [Catalog 的 ActiveConnection 属性示例 (VB)](catalog-activeconnection-property-example-vb.md)
@@ -44,9 +44,9 @@ ms.locfileid: "25603159"
 =======
   - [Attributes 属性示例 (VB)](attributes-property-example-vb.md)
 
-  - [Catalog 的 ActiveConnection 属性示例 (VB)](catalog-activeconnection-property-example-vb.md)
+  - [Catalog ActiveConnection 属性示例 (VB)](catalog-activeconnection-property-example-vb.md)
 
-  - [Clustered 的属性示例 (VB)](clustered-property-example-vb.md)
+  - [Clustered 属性示例 (VB)](clustered-property-example-vb.md)
 
   - [Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 
@@ -61,7 +61,7 @@ ms.locfileid: "25603159"
   - [DefinedSize 属性示例 (VB)](definedsize-property-example-vb.md)
 
   - [DeleteRule 属性示例 (VB)](deleterule-property-example-vb.md)
->>>>>>> master
+>>>>>>> 母版
 
   - [GetObjectOwner 和 SetObjectOwner 方法示例 (VB)](getobjectowner-and-setobjectowner-methods-example-vb.md)
 
@@ -71,7 +71,7 @@ ms.locfileid: "25603159"
 
   - [Indexes 的 Append 方法示例 (VB)](indexes-append-method-example-vb.md)
 
-<<<<<<< 标头
+<<<<<<< 头
   - [IndexNulls 属性示例 (VB)](indexnulls-property-example-vb.md)
 
   - [Keys 的 Append 方法，Key 的 Type、RelatedColumn、RelatedTable 和 UpdateRule 属性示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
@@ -95,7 +95,7 @@ ms.locfileid: "25603159"
   - [ParentCatalog 属性示例 (VB)](parentcatalog-property-example-vb.md)
 
   - [PrimaryKey 和 Unique 属性示例 (VB)](primarykey-and-unique-properties-example-vb.md)
->>>>>>> master
+>>>>>>> 母版
 
   - [Procedures 的 Append 方法示例 (VB)](procedures-append-method-example-vb.md)
 
@@ -103,21 +103,21 @@ ms.locfileid: "25603159"
 
   - [Procedures 的 Refresh 方法示例 (VB)](procedures-refresh-method-example-vb.md)
 
-<<<<<<< 标头
+<<<<<<< 头
   - [SortOrder 属性示例 (VB)](sortorder-property-example-vb.md)
 =======
   - [SortOrder 属性示例 (VB)](sortorder-property-example-vb.md)
->>>>>>> master
+>>>>>>> 母版
 
   - [Views 和 Fields 集合示例 (VB)](views-and-fields-collections-example-vb.md)
 
   - [Views 的 Append 方法示例 (VB)](views-append-method-example-vb.md)
 
-<<<<<<< 标头
+<<<<<<< 头
   - [Views 集合与 CommandText 属性示例 (VB)](views-collection-commandtext-property-example-vb.md)
 =======
   - [Views 集合，CommandText 属性示例 (VB)](views-collection-commandtext-property-example-vb.md)
->>>>>>> master
+>>>>>>> 母版
 
   - [Views 的 Delete 方法示例 (VB)](views-delete-method-example-vb.md)
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0aed6889f16d55ee3ba7778bf9acc6134b744c5d
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 80ce29ed129035dcb6799844a4b78509b976f0ee
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602571"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862938"
 ---
 # <a name="configuring-rds-on-windows-2000"></a>在 Windows 2000 上配置 RDS
 
@@ -26,19 +26,16 @@ ms.locfileid: "25602571"
 
 3.  使用 RegEdit 实用工具，导航到"HKEY\_本地\_计算机\\软件\\Microsoft\\DataFactory\\HandlerInfo"并确保**HandlerRequired**设置为 0 且**DefaultHandler**为""（空字符串）。
     
-
     > [!NOTE]
-    > <P>[!注释] 如果对这部分注册表进行了任何更改，那么必须在命令提示符下输入命令"NET STOP W3SVC"和"NET START W3SVC"，以停止并重新启动万维网发布服务。</P>
-
-
+    > [!注释] 如果对这部分注册表进行了任何更改，那么必须在命令提示符下输入命令"NET STOP W3SVC"和"NET START W3SVC"，以停止并重新启动万维网发布服务。
 
 4.  使用 RegEdit 实用工具，定位到注册表中"HKEY\_本地\_计算机\\系统\\CurrentControlSet\\服务\\W3SVC\\参数\\ADCLaunch"并验证是否存在键被调用的**RDSServer.Datafactory**。 如果没有，则创建此项。
 
-<<<<<<< 标头
+<<<<<<< 头
 5.  使用 Internet 服务管理器，转到默认网站并查看 MSADC 虚拟根的属性。 检查目录安全性/IP 地址和域名限制。 如果检查到"访问被拒绝"，则选择"允许"。
 =======
 5.  使用 Internet 服务管理器，转到默认网站，并查看 MSADC 虚拟根的属性。 检查目录安全性/IP 地址和域名限制。 如果检查到"访问被拒绝"，则选择"允许"。
->>>>>>> master
+>>>>>>> 母版
 
 如果所做更改不能解决问题，请尝试重新启动服务器。
 

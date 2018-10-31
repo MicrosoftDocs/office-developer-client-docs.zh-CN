@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 106dd9d72cb350422f00da05859bc096cb2b52e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca51537c78dfc07a6cd3560bba7154f6b56ef31f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467261"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861209"
 ---
 # <a name="append-method-adox-views"></a>Append 方法 (ADOX Views)
 
@@ -43,6 +43,6 @@ ms.locfileid: "25467261"
 
 
 > [!NOTE]
-> <P>使用 Microsoft Jet OLE DB 提供程序，将允许<STRONG>Views</STRONG>集合的<STRONG>Append</STRONG>方法，您可以在<EM>命令</EM>参数中指定<STRONG>过程</STRONG>而不是<STRONG>视图</STRONG>。 该 <STRONG>Procedure</STRONG> 将添加到数据源，并将添加到 <STRONG>Views</STRONG> 集合。 执行 <STRONG>Append</STRONG> 之后，如果刷新 <STRONG>Procedures</STRONG> 和 <STRONG>Views</STRONG> 集合，可以看到该 <STRONG>Procedure</STRONG> 不再位于 <STRONG>Views</STRONG> 集合中，而是出现在 <STRONG>Procedures</STRONG> 集合中。</P>
+> 使用 Microsoft Jet OLE DB 提供程序，将允许**Views**集合的**Append**方法，您可以在*命令*参数中指定**过程**而不是**视图**。 该 **Procedure** 将添加到数据源，并将添加到 **Views** 集合。 执行 **Append** 之后，如果刷新 **Procedures** 和 **Views** 集合，可以看到该 **Procedure** 不再位于 **Views** 集合中，而是出现在 **Procedures** 集合中。
 
 

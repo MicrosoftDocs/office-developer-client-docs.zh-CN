@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2927a3ede26487cabf9986b301cfc0617ba155c6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6c4e854e13527f0c20551950aa49dde30cdae9ab
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468869"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862259"
 ---
 # <a name="after-update-macro-event"></a>“更新后”宏事件
 
@@ -26,7 +26,7 @@ ms.locfileid: "25468869"
 
 
 > [!NOTE]
-> <P><STRONG>更新后</STRONG>事件仅适用于数据宏。</P>
+> **更新后**事件仅适用于数据宏。
 
 
 
@@ -72,7 +72,7 @@ End If
 <tbody>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="comment-macro-statement.md">Comment 宏语句</a></p></td>
+<td><p><a href="comment-macro-statement.md">注释宏语句</a></p></td>
 </tr>
 <tr class="even">
 <td><p>程序流</p></td>
@@ -80,7 +80,7 @@ End If
 </tr>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else 宏程序块</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">如果...然后...其他宏程序块</a></p></td>
 </tr>
 <tr class="even">
 <td><p>数据块</p></td>
@@ -148,7 +148,7 @@ End If
 </tr>
 <tr class="even">
 <td><p>数据操作</p></td>
-<td><p><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">StopMacro 宏操作</a></p></td>
 </tr>
 </tbody>
 </table>

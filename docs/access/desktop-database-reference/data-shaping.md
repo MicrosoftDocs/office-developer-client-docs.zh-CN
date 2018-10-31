@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e498bc461c2c267dee741a2bd9a4a83eacaca935
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 686c860ef9d8975b02391fedcea8f4b6f4e0b9bb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468798"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862294"
 ---
-# <a name="data-shaping"></a>数据定形
+# <a name="data-shaping"></a>数据成型
 
 
 **适用于**： Access 2013 |Office 2013
@@ -38,3 +38,12 @@ ms.locfileid: "25468798"
 
 有关 Shape 命令及生成的层次结构示例，请参阅"使用 Data Shaping Service for OLE DB：深入了解"。
 
+本节包括下列主题：
+
+- [重新构形](reshaping.md)
+
+- [孙聚合](grandchild-aggregates.md)
+
+- [参数化命令与干扰性 COMPUTE 命令](parameterized-commands-with-intervening-compute-commands.md)
+
+- [持久化分层记录集](persisting-hierarchical-recordsets.md)

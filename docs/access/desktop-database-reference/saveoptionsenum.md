@@ -4,21 +4,22 @@ TOCTitle: SaveOptionsEnum
 ms:assetid: 2a4e4c7a-6331-7270-0514-cc549c721ffd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249053(v=office.15)
 ms:contentKeyID: 48543906
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 68526eca205fb41dd2789ec187514d0f9b11e35f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ffd37090b264e434b5fd3750f474122f8da4bfbb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466437"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861902"
 ---
 # <a name="saveoptionsenum"></a>SaveOptionsEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定当从 [Stream](stream-object-ado.md) 对象进行保存时，应创建文件还是覆盖文件。可以使用 AND 运算符来组合使用这些值。
+
+<br/>
 
 <table>
 <colgroup>
@@ -48,7 +49,7 @@ ms.locfileid: "25466437"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 这些常量没有 ADO/WFC 等效值。
 

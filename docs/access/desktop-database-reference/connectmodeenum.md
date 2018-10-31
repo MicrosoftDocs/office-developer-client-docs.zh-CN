@@ -4,21 +4,22 @@ TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 5b39fc42259a1906891b82bf9b9ef252997e6240
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 91d1ad892557ad944dca175a3589a74e7205ad01
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468423"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862574"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定可用于执行以下操作的权限：修改 [Connection](connection-object-ado.md) 中的数据、打开 [Record](record-object-ado.md)，或指定 [Record](mode-property-ado.md) 和 **Stream** 对象的 [Mode](stream-object-ado.md) 属性的值。
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,7 +48,7 @@ ms.locfileid: "25468423"
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>与其他<em>*ShareDeny*</em>值 （<strong>adModeShareDenyNone</strong>、 <strong>adModeShareDenyWrite</strong>或<strong>adModeShareDenyRead</strong>） 传播到所有子记录当前<strong>记录</strong>的共享限制结合使用。 如果<strong>记录</strong>不具有任何子级，它会产生任何影响。 如果与<strong>adModeShareDenyNone</strong>仅使用，则生成运行时错误。 但是，它可以与<strong>adModeShareDenyNone</strong>与其他值结合时使用。 例如，您可以使用&quot; <strong>adModeRead</strong>或<strong>adModeShareDenyNone</strong>或<strong>adModeRecursive</strong>&quot;。</p></td>
+<td><p>与其他<em>*ShareDeny*</em>值 （<strong>adModeShareDenyNone</strong>、 <strong>adModeShareDenyWrite</strong>或<strong>adModeShareDenyRead</strong>） 传播到所有子记录当前<strong>记录</strong>的共享限制结合使用。 如果<strong>记录</strong>不具有任何子级，它会产生任何影响。</p><p>如果与<strong>adModeShareDenyNone</strong>仅使用，则生成运行时错误。 但是，它可以与<strong>adModeShareDenyNone</strong>与其他值结合时使用。 例如，您可以使用&quot; <strong>adModeRead</strong>或<strong>adModeShareDenyNone</strong>或<strong>adModeRecursive</strong>&quot;。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
@@ -83,7 +84,7 @@ ms.locfileid: "25468423"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

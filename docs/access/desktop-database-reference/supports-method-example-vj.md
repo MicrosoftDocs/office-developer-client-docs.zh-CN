@@ -1,17 +1,17 @@
 ---
 title: Supports 方法示例 (VJ++)
-TOCTitle: Supports Method Example (VJ++)
+TOCTitle: Supports method example (VJ++)
 ms:assetid: a46aa1b3-9b2b-b7ce-6a03-b1cf1a74294a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249764(v=office.15)
 ms:contentKeyID: 48546811
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 61241be876337035ca630ed89f82a531083a9645
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05d931f0254ef897e16b2a5c5bcafe00d9edf4cb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468986"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860957"
 ---
 # <a name="supports-method-example-vj"></a>Supports 方法示例 (VJ++)
 

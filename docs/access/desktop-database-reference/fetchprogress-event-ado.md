@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 72a860ecd52e0481b55423f88e537eab3c8de2ae
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a898ad02d551e0c4de02597761ccd3076fc5eb77
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467264"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862275"
 ---
 # <a name="fetchprogress-event-ado"></a>FetchProgress 事件 (ADO)
 
@@ -49,6 +49,6 @@ FetchProgress*进度*， *MaxProgress*， *adStatus* *pRecordset*
 
 
 > [!NOTE]
-> <P>[!注释] 若要在 Microsoft Visual Basic 中使用 <STRONG>FetchProgress</STRONG> ，需要 Visual Basic 6.0 或更高版本。</P>
+> [!注释] 若要在 Microsoft Visual Basic 中使用 **FetchProgress** ，需要 Visual Basic 6.0 或更高版本。
 
 

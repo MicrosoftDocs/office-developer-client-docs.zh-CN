@@ -4,14 +4,14 @@ TOCTitle: ADCPROP_UPDATECRITERIA_ENUM
 ms:assetid: 70da63fa-fa75-9bb4-683d-0fcb4c4a2934
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249450(v=office.15)
 ms:contentKeyID: 48545571
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b018402f6a2d48819a3f97c69e2a8db77fa9e84c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 942639a4c87cfe325b9ec8326e2eb392458fa8b3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468988"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863687"
 ---
 # <a name="adcpropupdatecriteriaenum"></a>ADCPROP\_UPDATECRITERIA\_枚举
 
@@ -20,6 +20,8 @@ ms.locfileid: "25468988"
 指定在使用 [Recordset](recordset-object-ado.md) 对象来对数据源中的行进行开放式更新期间可以用哪些字段来检测冲突。
 
 这些常量用于 **Recordset** 的“**Update Criteria**”动态属性，该动态属性在 [ADO 动态属性索引](ado-dynamic-property-index.md)中被引用，并在 [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) 文档中进行了介绍。
+
+<br/>
 
 <table>
 <colgroup>
@@ -59,7 +61,7 @@ ms.locfileid: "25468988"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

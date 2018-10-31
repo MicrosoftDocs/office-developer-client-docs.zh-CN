@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d896036bfcf1fcf8c9f152924dfeb0c61621daa9
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 691b4d0b18b31c4c4a40f73e232a1829101913f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603069"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863274"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Field.GetChunk Method (DAO)
 
@@ -64,11 +64,11 @@ ms.locfileid: "25603069"
 </table>
 
 
-<<<<<<< 标头
+<<<<<<< 头
 ### <a name="return-value"></a>返回值
 =======
 ### <a name="return-value"></a>返回值
->>>>>>> master
+>>>>>>> 母版
 
 Variant
 
@@ -82,7 +82,7 @@ Variant
 
 
 > [!NOTE]
-> <P>[!注释] 对文本使用 <STRONG>Memo</STRONG> 字段，只能在 <STRONG>Long Binary</STRONG> 字段中放置二进制数据。否则会导致不合需要的结果。</P>
+> [!注释] 对文本使用 **Memo** 字段，只能在 **Long Binary** 字段中放置二进制数据。否则会导致不合需要的结果。
 
 
 

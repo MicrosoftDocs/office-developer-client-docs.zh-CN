@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3171ec1d35f08a5bc9d6a02a9a50ca80e11413de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e0307710d5519fa08eff0843ca48268b5bc00f0a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467916"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862589"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute Method (DAO)
 
@@ -111,18 +111,11 @@ ms.locfileid: "25467916"
 </tbody>
 </table>
 
-
+> [!NOTE]
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
-
-
-
-
-> [!NOTE]
-> <P>[!注释] 常量 <STRONG>dbConsistent</STRONG> 和 <STRONG>dbInconsistent</STRONG> 是互斥的。可以在 <STRONG>OpenRecordset</STRONG> 的给定实例中使用其中的某一个，但不能同时使用此两者。同时使用 <STRONG>dbConsistent</STRONG> 和 <STRONG>dbInconsistent</STRONG> 会导致出错。</P>
-
-
+> [!注释] 常量 **dbConsistent** 和 **dbInconsistent** 是互斥的。可以在 **OpenRecordset** 的给定实例中使用其中的某一个，但不能同时使用此两者。同时使用 **dbConsistent** 和 **dbInconsistent** 会导致出错。
 
 **Execute** 方法仅对动作查询有效。如果将 **Execute** 与另一个查询类型一起使用，将会发生错误。由于动作查询不返回任何记录，因此 **Execute** 不返回 **Recordset**。（如果不返回 **Recordset**，在 ODBCDirect 工作区中执行 SQL 传递查询不会返回错误。）
 

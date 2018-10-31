@@ -1,20 +1,19 @@
 ---
 title: CREATE USER 或 GROUP 语句 (Microsoft Access SQL)
-TOCTitle: CREATE USER or GROUP Statement (Microsoft Access SQL)
+TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: dce5b9a6894eb1e09a0307b389207baefae6aa58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 391c31240acf33a458895b00335d1600b975e834
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467752"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862644"
 ---
 # <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATE USER 或 GROUP 语句 (Microsoft Access SQL)
-
 
 **适用于**： Access 2013 |Office 2013
 
@@ -22,11 +21,11 @@ ms.locfileid: "25467752"
 
 ## <a name="syntax"></a>语法
 
-创建用户：
+**创建用户**：
 
 CREATE USER *user* *密码 pid* \[，*用户**密码 pid*，...\]
 
-创建组：
+**创建组**：
 
 创建组*组* *pid*\[，*组* *pid*，...\]
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a565430cf81eed5cbc1ebfe135ce80ee6f0177e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6b1e04c3ce9f450d2168c9f607bfa1d135951bb9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468420"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862301"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk 方法 (ADO)
 
@@ -49,7 +49,7 @@ ms.locfileid: "25468420"
 
 
 > [!NOTE]
-> <P>[!注释] <STRONG>AppendChunk</STRONG> 方法不能对 <STRONG>Record</STRONG> 对象的 <A href="record-object-ado.md">Field</A> 对象进行操作。它不执行任何操作，并将产生运行时错误。</P>
+> [!注释] **AppendChunk** 方法不能对 **Record** 对象的 [Field](record-object-ado.md) 对象进行操作。它不执行任何操作，并将产生运行时错误。
 
 
 

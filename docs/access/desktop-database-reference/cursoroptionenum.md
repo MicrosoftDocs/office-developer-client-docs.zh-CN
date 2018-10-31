@@ -4,21 +4,22 @@ TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
 ms:contentKeyID: 48544303
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a6d6f66e3bdee06611faafef5d32a2a486fc2028
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 211ab4fc9bf4cab6302c8f2bd5f236aecdd0b078
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466447"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863644"
 ---
-# <a name="cursoroptionenum"></a>个 CursorOptionEnum
-
+# <a name="cursoroptionenum"></a>CursorOptionEnum
 
 **适用于**： Access 2013 |Office 2013
 
 指定应针对哪项功能来测试 [Supports](supports-method-ado.md) 方法。
+
+<br/>
 
 <table>
 <colgroup>
@@ -103,7 +104,7 @@ ms.locfileid: "25466447"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

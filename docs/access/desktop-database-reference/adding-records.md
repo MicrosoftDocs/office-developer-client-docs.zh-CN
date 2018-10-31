@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249505(v=office.15)
 ms:contentKeyID: 48545791
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfa1503e7f7b874136ab5aee70721a3b9cf3463b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f235d7535f15eea7bd5d4c2abb88abb1a30935c7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468477"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862501"
 ---
 # <a name="adding-records"></a>添加记录
 
@@ -23,4 +23,12 @@ ms.locfileid: "25468477"
 在调用 **AddNew** 方法后，新记录会变为当前记录并在调用 **Update** 方法后仍然保持当前状态。如果 **Recordset** 对象不支持书签，则在转到其他记录后，您可能无法访问新记录。因此，根据游标类型，您可能希望调用 **Requery** 方法来使新记录可以访问。
 
 如果在编辑当前记录或添加新记录时调用 **AddNew** ，则 ADO 会调用 **Update** 方法来保存所有更改，然后创建新记录。
+
+本节包括下列主题：
+
+- [添加多个字段](adding-multiple-fields.md)
+
+- [确定编辑模式](determining-edit-mode.md)
+
+- [在即时模式和批模式下使用 AddNew](using-addnew-in-immediate-and-batch-modes.md)
 

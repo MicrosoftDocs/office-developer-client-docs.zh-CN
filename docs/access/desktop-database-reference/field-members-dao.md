@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5270acfe22d4b19447290be7f626185b5375cdbf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ccfb0239cda03ec8a89722d0669cd66acfa74922
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468624"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860894"
 ---
 # <a name="field-members-dao"></a>Field Members (DAO)
 
@@ -105,7 +105,7 @@ Field 对象代表具有普通数据类型和普通属性集的数据列。
 <td><p></p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 <p>返回数据库中的 <strong>Field</strong> 的值，该值在上一次批更新开始时已经存在（仅适用于 ODBCDirect 工作区）。</p></td>
@@ -155,7 +155,7 @@ Field 对象代表具有普通数据类型和普通属性集的数据列。
 <td><p></p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 <p>返回数据库中现有的一个值，批更新冲突确定该值比 <strong>OriginalValue</strong> 属性新（仅适用于 ODBCDirect 工作区）。</p></td>

@@ -1,19 +1,19 @@
 ---
-title: 第 9 章：数据定形
+title: 第 9 章：数据成型
 TOCTitle: 'Chapter 9: Data Shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8217be1004ea8304501e7d32908b8af269873b7a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4636c853f58557b30474b78d902131329084a1a2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468046"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863883"
 ---
-# <a name="chapter-9-data-shaping"></a>第 9 章：数据定形
+# <a name="chapter-9-data-shaping"></a>第 9 章：数据成型
 
 
 **适用于**： Access 2013 |Office 2013
@@ -24,21 +24,21 @@ ms.locfileid: "25468046"
 
 有关数据定形的详细信息，请参阅以下主题：
 
-  - [数据定形摘要](data-shaping-summary.md)
+- [数据定形必需的提供程序](required-providers-for-data-shaping.md)
 
-  - [数据定形必需的提供程序](required-providers-for-data-shaping.md)
+- [Shape Compute 子句](shape-compute-clause.md)
 
-  - [常用 Shape 命令](shape-commands-in-general.md)
+- [构造分层记录集](fabricating-hierarchical-recordsets.md)
 
-  - [Shape APPEND 子句](shape-append-clause.md)
+- [访问分层记录集中的行](accessing-rows-in-a-hierarchical-recordset.md)
 
-  - [Shape COMPUTE 子句](shape-compute-clause.md)
+- [正式 Shape 语法](formal-shape-grammar.md)
 
-  - [构造分层记录集](fabricating-hierarchical-recordsets.md)
+- [Visual Basic for Applications 函数](visual-basic-for-applications-functions.md)
 
-  - [访问分层记录集中的行](accessing-rows-in-a-hierarchical-recordset.md)
+- [Shape Append Clause (ADO)](shape-append-clause.md)
 
-  - [正式 Shape 语法](formal-shape-grammar.md)
+- [数据定形 (ADO)](data-shaping.md)
 
-  - [Visual Basic for Applications 函数](visual-basic-for-applications-functions.md)
+- [Shape Commands in General (ADO)](shape-commands-in-general.md)
 

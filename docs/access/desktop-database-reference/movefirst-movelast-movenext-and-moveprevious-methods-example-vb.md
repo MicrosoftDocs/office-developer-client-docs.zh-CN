@@ -1,17 +1,17 @@
 ---
 title: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VB)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VB)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)
 ms:assetid: 61f82932-2ce9-341f-b120-168f786a9040
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249364(v=office.15)
 ms:contentKeyID: 48545226
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be045c10fff0a6229b492017486f514f13b60592
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78525612215c4959cf77cc5e986c5724f7e26310
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466750"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862683"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VB)
 

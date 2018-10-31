@@ -4,21 +4,22 @@ TOCTitle: SortOrderEnum
 ms:assetid: 65a1f984-3ce4-f434-8c20-33162517ecba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
 ms:contentKeyID: 48545327
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ebed3eca8012c8df0887989f05b86fbbe285963a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e814eb96aba7379e6cd55144c7a1be4cc8844b47
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467361"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863673"
 ---
 # <a name="sortorderenum"></a>SortOrderEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定索引列的排序顺序。
+
+<br/>
 
 <table>
 <colgroup>

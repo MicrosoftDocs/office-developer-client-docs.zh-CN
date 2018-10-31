@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 003fb36fc876aa573419b963a9eca6f54332190a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 725bb4530bffe9aeead327caa74cdba0798c181d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467205"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862652"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>DisplayHourglassPointer 宏操作
 
@@ -54,15 +54,9 @@ ms.locfileid: "25467205"
 
 当宏运行完毕时，access 会将**显示沙漏**参数自动重置为**否**。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>在 Microsoft Windows 中，这是在 Windows 控制面板的 <STRONG>"鼠标属性"</STRONG>对话框中为 <STRONG>"忙"</STRONG>设置的图标。所有 Windows 操作系统的默认设置都是一个具有动画效果的沙漏图标。</P>
-> <LI>
-> <P>您可以根据需要选择其他图标。</P></LI></UL>
-
-
+> - 在 Microsoft Windows 中，这是在 Windows 控制面板的 **"鼠标属性"** 对话框中为 **"忙"** 设置的图标。所有 Windows 操作系统的默认设置都是一个具有动画效果的沙漏图标。
+> - 您可以根据需要选择其他图标。
 
 若要在 Visual Basic for Applications (VBA) 模块中运行 **DisplayHourglassPointer** 操作，请使用 **DoCmd** 对象的 **Hourglass** 方法。
 

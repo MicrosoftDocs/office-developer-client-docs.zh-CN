@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249596(v=office.15)
 ms:contentKeyID: 48546135
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6d7e6786e866f4454e398d7f9082cb7fa2b3203
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c9ad5387bed374cfd14eb860ee01c805e128710
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468820"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860915"
 ---
-# <a name="using-ado-with-microsoft-visual-j"></a>在 Microsoft Visual J++ 中使用 ADO
-
+# <a name="using-ado-with-microsoft-visual-j"></a>将 ADO 与 Microsoft Visual J++ 结合使用
 
 **适用于**： Access 2013 |Office 2013
 
@@ -30,5 +29,5 @@ ms.locfileid: "25468820"
 
   - [ADO Java 类包装](ado-java-class-wrappers.md)
 
-  - [ADO/WFC 语法索引](https://msdn.microsoft.com/library/jj250066\(v=office.15\))
+  - [ADO/WFC 语法索引](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)
 

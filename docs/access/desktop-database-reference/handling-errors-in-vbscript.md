@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b361291914b952b458fc4fc587b5b0461464c1fb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 85af8f8840cdc74494f29d169cbccb3ce38cc6b4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466845"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862209"
 ---
 # <a name="handling-errors-in-vbscript"></a>在 VBScript 中处理错误
 
@@ -26,11 +26,11 @@ ms.locfileid: "25466845"
 <HTML> 
 <HEAD> 
 <META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0"> 
-<TITLE>Error Handling Example (VBScript)</TITLE> 
+<TITLE>Error Handling example (VBScript)</TITLE> 
 </HEAD> 
 <BODY> 
  
-<h1>Error Handling Example (VBScript)</h1> 
+<h1>Error Handling example (VBScript)</h1> 
  
 <% 
  Dim errLoop 

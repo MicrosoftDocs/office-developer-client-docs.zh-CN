@@ -6,24 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b1e22c3f85c4289520326c34c6d0c218a442a3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467379"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860992"
 ---
-# <a name="persisting-records-in-xml-format"></a>用 XML 格式持久化记录
+# <a name="persisting-records-in-xml-format"></a>以 XML 格式暂留记录
 
 
 **适用于**： Access 2013 |Office 2013
 
 像 ADTG 格式一样，可以通过 Microsoft OLE DB Persistence Provider 用 XML 格式持久化 **Recordset** 。此提供程序可以从保存的 XML 文件或流（它们包含 ADO 生成的架构信息）生成仅向前的只读行集。同样，它可以处理 ADO **Recordset** ，然后生成 XML，并将它保存到文件或任何实现 COM **IStream** 接口的对象（实际上，文件只是支持 **IStream** 的对象的另一个示例）。对于 2.5 和更高版本，ADO 依赖于 Microsoft XML 语法分析程序 (MSXML) 来将 XML 加载到 **Recordset** 中；因此 msxml.dll 是必需的。对于 2.5 版本，这是 Internet Explorer 5 附带的 MSXML。对于 2.6 版本，则是 SQL Server 2000 附带的 MSXML。
 
-
 > [!NOTE]
-> <P>[!注释] 在将分层 <STRONG>Recordset</STRONG> （数据定形）保存到 XML 格式时，有某些限制。如果分层 <STRONG>Recordset</STRONG> 包含挂起的更新，则无法保存到 XML，并且无法保存参数化分层 <STRONG>Recordset</STRONG> 。有关详细信息，请参阅 <A href="hierarchical-recordsets-in-xml.md">XML 中的分层记录集</A>。</P>
-
+> [!注释] 在将分层 **Recordset** （数据定形）保存到 XML 格式时，有某些限制。如果分层 **Recordset** 包含挂起的更新，则无法保存到 XML，并且无法保存参数化分层 **Recordset** 。有关详细信息，请参阅 [XML 中的分层记录集](hierarchical-recordsets-in-xml.md)。
 
 
 通过 ADO 将数据持久化到 XML 中并再次加载它的最容易方式是分别使用 **Save** 和 **Open** 方法。以下 ADO 代码示例演示了将 Titles 表中的数据保存到名为 titles.sav 的文件中。
@@ -67,3 +65,24 @@ rs.Save "btitles.sav", adPersistXML
 
 ADO 总是使用客户端游标引擎行集来产生可滚动、可标记书签的 **Recordset** 对象，而且生成的对象位于 Persistence Provider 所生成的仅向前数据的顶部。
 
+本节包括下列主题：
+
+- [XML 暂留格式](xml-persistence-format.md)
+
+- [命名空间](namespaces.md)
+
+- [架构节](schema-section.md)
+
+- [数据节](data-section.md)
+
+- [XML 中的分层记录集](hierarchical-recordsets-in-xml.md)
+
+- [Recordset 动态属性在 XML](recordset-dynamic-properties-in-xml.md)
+
+- [XSLT 转换](xslt-transformations.md)
+
+- [保存到 XML DOM 对象](saving-to-the-xml-dom-object.md)
+
+- [XML 安全考虑事项](xml-security-considerations.md)
+
+- [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)

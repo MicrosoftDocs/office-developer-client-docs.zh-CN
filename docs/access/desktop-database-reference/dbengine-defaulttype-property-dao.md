@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053580
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d32c0860f76aeeaa64a060a55579d05c1eb571ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef2c8a4844d02c55db6cea80e0767b4b7f75d114
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467499"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861446"
 ---
 # <a name="dbenginedefaulttype-property-dao"></a>DBEngine.DefaultType Property (DAO)
 
@@ -36,9 +36,7 @@ ms.locfileid: "25467499"
 
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
-
-
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 通过设置**[CreateWorkspace](dbengine-createworkspace-method-dao.md)** 方法的 type 参数可以为单个**工作区**中重写设置。
 

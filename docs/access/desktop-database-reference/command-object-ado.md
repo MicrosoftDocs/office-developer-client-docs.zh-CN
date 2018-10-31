@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 153f59ebbcfae89f6358fe0d707791aab8a8cdd7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605742"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864072"
 ---
 # <a name="command-object-ado"></a>Command 对象 (ADO)
 
@@ -34,11 +34,11 @@ ms.locfileid: "25605742"
 
   - 使用 [Parameter](parameter-object-ado.md) 对象和 [Parameters](parameters-collection-ado.md) 集合可定义参数化查询或存储过程参数。
 
-<<<<<<< 标头
+<<<<<<< 头
   - 使用 **Execute** 方法可执行命令并返回 [Recordset](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) 对象（如果适用）。
 =======
   - 使用 **Execute** 方法可执行命令并返回 [Recordset](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 对象（如果适用）。
->>>>>>> master
+>>>>>>> 母版
 
   - 在执行命令之前，使用 [CommandType](commandtype-property-ado.md) 属性指定命令的类型可优化性能。
 
@@ -54,11 +54,8 @@ ms.locfileid: "25605742"
 
   - 使用 [Properties](properties-collection-ado.md) 集合可访问特定于提供程序的属性。
 
-
 > [!NOTE]
-> <P>[!注释] 若要在不使用 <STRONG>Command</STRONG> 对象的情况下执行查询，可将查询字符串传递给 <A href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Connection</A> 对象的 <STRONG>Execute</STRONG> 方法或 <A href="open-method-ado-recordset.md">Recordset</A> 对象的 <STRONG>Open</STRONG> 方法。但是，如果要持久保留命令文本并重新执行它，或使用查询参数，则需要 <STRONG>Command</STRONG> 对象。</P>
-
-
+> [!注释] 若要在不使用 **Command** 对象的情况下执行查询，可将查询字符串传递给 [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) 对象的 **Execute** 方法或 [Recordset](open-method-ado-recordset.md) 对象的 **Open** 方法。但是，如果要持久保留命令文本并重新执行它，或使用查询参数，则需要 **Command** 对象。
 
 若要独立于以前定义的 **Connection** 对象创建 **Command** 对象，请将 Command 对象的 **ActiveConnection** 属性设置为有效的连接字符串。ADO 仍然创建 **Connection** 对象，但不将该对象分配给对象变量。但是，如果将多个 **Command** 对象与同一连接关联，则应显式创建和打开 **Connection** 对象；这样就会将 **Connection** 对象分配给对象变量。如果不将 **Command** 对象的 **ActiveConnection** 属性设置为该对象变量，ADO 就会为每个 **Command** 对象创建一个新的 **Connection** 对象，即便使用相同的连接字符串也是如此。
 

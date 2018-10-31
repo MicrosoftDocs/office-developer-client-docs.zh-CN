@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250102(v=office.15)
 ms:contentKeyID: 48548088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36d7bf1b39186eca841e417473e31e2bfd3a2dfc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1779f2c7e16e2f39a3912f271296c6a7bd0fd550
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465988"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861944"
 ---
 # <a name="using-the-command-object-access"></a>Using the Command Object (Access)
 
@@ -24,8 +24,17 @@ ms.locfileid: "25465988"
 
 若要针对数据源执行命令，不必总是创建 **Command** 对象。可以针对 **Connection** 对象使用 **Execute** 方法或针对 **Recordset** 对象使用 **Open** 方法。但是，如果您需要在代码中重复使用某个命令，或者如果您需要在命令中传递详细的参数信息，则应当使用 **Command** 对象。本章稍后将更详细地介绍这些方案。
 
-
 > [!NOTE]
-> <P>某些 <STRONG>Command</STRONG> 可以返回二进制流或单个 <STRONG>Record</STRONG>（而非 <STRONG>Recordset</STRONG>）形式的结果集，但前提是提供程序支持此功能。同样，某些 <STRONG>Command</STRONG>（例如，SQL 更新查询）根本不会返回任何结果集。本章将介绍最典型的方案，但是，本章执行的是可将结果返回到 <STRONG>Recordset</STRONG> 对象中的 <STRONG>Command</STRONG>。有关将结果返回到 <STRONG>Record</STRONG> 或 <STRONG>Stream</STRONG> 的详细信息，请参阅<A href="chapter-10-records-and-streams.md">第 10 章：记录和流</A>。</P>
+> 如果这由提供商支持，某些命令可以返回的结果集作为二进制数据流或作为单个记录，而不是为 Recordset。 此外，某些命令都不应返回任何结果根本设置 （例如，SQL 更新查询）。 本章将介绍最常见方案中，但是： 执行到 Recordset 对象中返回结果的命令。 有关结果返回到记录或流的详细信息，请参阅[第 10 章： 记录和流](chapter-10-records-and-streams.md)。
 
+本节包括下列主题：
 
+- [Command 对象概述](command-object-overview.md)
+
+- [创建和执行简单的命令](creating-and-executing-a-simple-command.md)
+
+- [Command 对象参数](command-object-parameters.md)
+
+- [使用 Command 调用存储过程](calling-a-stored-procedure-with-a-command.md)
+
+- [命名命令](named-commands.md)

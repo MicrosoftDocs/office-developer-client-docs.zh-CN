@@ -1,17 +1,17 @@
 ---
 title: GetRows 方法示例 (JScript)
-TOCTitle: GetRows Method Example (JScript)
+TOCTitle: GetRows method example (JScript)
 ms:assetid: 72d7e2d9-1e19-e993-0b0e-5310405c9b75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249466(v=office.15)
 ms:contentKeyID: 48545620
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09c8a463f049e168a44a3b2175c40000b59a4c72
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8da290cc259f9be165e069c8a62e61fa8b748b3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466900"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864114"
 ---
 # <a name="getrows-method-example-jscript"></a>GetRows 方法示例 (JScript)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25466900"
 <html> 
  
 <head> 
-<title>ADO Recordset.GetRows Example (JScript)</title> 
+<title>ADO Recordset.GetRows example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -62,7 +62,7 @@ BODY {
  
 <body bgcolor="white"> 
  
-<h1>ADO Recordset.GetRows Example (JScript)</h1> 
+<h1>ADO Recordset.GetRows example (JScript)</h1> 
  <!-- Page text goes here --> 
 <% 
  var Connect = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

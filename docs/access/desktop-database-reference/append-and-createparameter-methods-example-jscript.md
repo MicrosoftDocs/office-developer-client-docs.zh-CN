@@ -1,17 +1,17 @@
 ---
 title: Append 和 CreateParameter 方法示例 (JScript)
-TOCTitle: Append and CreateParameter Methods Example (JScript)
+TOCTitle: Append and CreateParameter methods example (JScript)
 ms:assetid: 77de4191-12f1-cd6b-1805-02546fe0a942
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249494(v=office.15)
 ms:contentKeyID: 48545737
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f638db5e43ba15e7b1ae866ca1d8352ad977a93b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bd397e13a74c68367d5be4256172d31a469ae509
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468011"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862161"
 ---
 # <a name="append-and-createparameter-methods-example-jscript"></a>Append 和 CreateParameter 方法示例 (JScript)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25468011"
  
 <html> 
 <head> 
- <title>Append and CreateParameter Methods Example (JScript)</title> 
+ <title>Append and CreateParameter methods example (JScript)</title> 
 <style> 
 <!-- 
 body { 
@@ -42,7 +42,7 @@ body {
 </head> 
  
 <body> 
-<h1>Append and CreateParameter Methods Example (JScript)</h1> 
+<h1>Append and CreateParameter methods example (JScript)</h1> 
 <% 
  // verify user-input 
  var iRoyalty = parseInt(Request.Form("RoyaltyValue")); 

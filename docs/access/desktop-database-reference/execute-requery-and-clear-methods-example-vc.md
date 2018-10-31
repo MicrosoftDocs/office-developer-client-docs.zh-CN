@@ -1,17 +1,17 @@
 ---
 title: Execute、Requery 和 Clear 方法示例 (VC++)
-TOCTitle: Execute, Requery, and Clear Methods Example (VC++)
+TOCTitle: Execute, Requery, and Clear methods example (VC++)
 ms:assetid: ac65f1d8-e185-c00a-9ad6-8b6a22529238
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249803(v=office.15)
 ms:contentKeyID: 48547008
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d2a973ac975b1835273ac098959097175d50a1c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 037e6f8754d9ff133f55361273089f09c971b4b2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466757"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860187"
 ---
 # <a name="execute-requery-and-clear-methods-example-vc"></a>Execute、Requery 和 Clear 方法示例 (VC++)
 

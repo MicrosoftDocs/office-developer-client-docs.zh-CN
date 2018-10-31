@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250069(v=office.15)
 ms:contentKeyID: 48547951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3998f41c1400a2870633f19228cbf73189e9527a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ceea7d20620de16f435ad1b17f642957013ce33c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467663"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862973"
 ---
 # <a name="streamopenoptionsenum"></a>StreamOpenOptionsEnum
 
@@ -53,7 +53,7 @@ ms.locfileid: "25467663"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 这些常量没有 ADO/WFC 等效值。
 

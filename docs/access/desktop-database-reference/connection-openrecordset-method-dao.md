@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b777e53bfad06e0b6c98490f7ec8bf3628c2823
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 7f0e8fa499a21bb231131b968c1456af9cb86a45
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603178"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862952"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset Method (DAO)
 
@@ -57,7 +57,7 @@ ms.locfileid: "25603178"
 <td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p>
 
 > [!NOTE]
-> <P>如果您在 Microsoft Access 工作区中打开了一个 <STRONG>Recordset</STRONG> 但未指定类型，<STRONG>OpenRecordset</STRONG> 将创建一个表类型 <STRONG>Recordset</STRONG>（如果可能）。如果您指定一个链接表或查询，<STRONG>OpenRecordset</STRONG> 将创建一个 dynaset 类型 <STRONG>Recordset</STRONG>。</P>
+> 如果您在 Microsoft Access 工作区中打开了一个 **Recordset** 但未指定类型，**OpenRecordset** 将创建一个表类型 **Recordset**（如果可能）。如果您指定一个链接表或查询，**OpenRecordset** 将创建一个 dynaset 类型 **Recordset**。
 
 
 </td>
@@ -69,7 +69,7 @@ ms.locfileid: "25603178"
 <td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p>
 
 > [!NOTE]
-> <P>常量<STRONG>dbConsistent</STRONG>和<STRONG>dbInconsistent</STRONG>是互斥的并且在同时使用将导致出错。 提供 lockedits 实参，当选项使用<STRONG>dbReadOnly</STRONG>常量还会导致错误。</P>
+> 常量**dbConsistent**和**dbInconsistent**是互斥的并且在同时使用将导致出错。 提供 lockedits 实参选项使用**dbReadOnly**常量时还会导致错误。
 
 
 </td>
@@ -81,7 +81,7 @@ ms.locfileid: "25603178"
 <td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p>
 
 > [!NOTE]
-> <P>您可以使用<STRONG>dbReadOnly</STRONG> options 参数或 lockedits 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。</P>
+> 您可以使用**dbReadOnly** options 参数或 lockedits 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。
 
 
 </td>
@@ -90,11 +90,11 @@ ms.locfileid: "25603178"
 </table>
 
 
-<<<<<<< 标头
+<<<<<<< 头
 ### <a name="return-value"></a>返回值
 =======
 ### <a name="return-value"></a>返回值
->>>>>>> master
+>>>>>>> 母版
 
 Recordset
 
@@ -110,6 +110,6 @@ Recordset
 
 
 > [!NOTE]
-> <P>如果<EM>源</EM>是指的 SQL 语句组成非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice =125,50)，当您尝试打开<STRONG>Recordset</STRONG>时就会出错。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。</P>
+> 如果*源*是指的 SQL 语句组成非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice =125,50)，当您尝试打开**Recordset**时就会出错。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。
 
 

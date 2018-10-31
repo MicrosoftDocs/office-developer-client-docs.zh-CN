@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 727b6df3907354d681312637b3a02d242db69528
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 892dc16d0422572e83f92316ce2c1c67f9ce5cc0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467783"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860642"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword Method (DAO)
 
@@ -61,7 +61,7 @@ ms.locfileid: "25467783"
 <td><p>新的<strong>Database</strong>对象的<strong>Password</strong>属性的设置。</p>
 
 > [!NOTE]
-> <P>[!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。</P>
+> [!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。
 
 
 </td>
@@ -80,6 +80,6 @@ BstrOld 和 bstrNew 字符串长度最多为 20 个字符，并且可以包括�
 
 
 > [!IMPORTANT]
-> <P>[!重要信息] 如果丢失了密码，则永远不能再次打开数据库。</P>
+> [!重要信息] 如果丢失了密码，则永远不能再次打开数据库。
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 481fbc3bc39f184aeefe6738ac8d2a80fcd1d93f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: af923408c07ac0437bde0aa52707b70c1a002ffc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467163"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25859893"
 ---
 # <a name="chapter-3-examining-data"></a>第 3 章：检查数据
 
@@ -103,5 +103,12 @@ End Sub
 </table>
 
 
-下一节将介绍在此示例 **Recordset** 中如何定位游标的当前位置。
+下一节介绍如何在此示例**Recordset**中找到指针的当前位置。
 
+本章包含以下主题：
+
+  - [Locating the Current Record (ADO)](locating-the-current-record.md)
+
+  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
+
+  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)

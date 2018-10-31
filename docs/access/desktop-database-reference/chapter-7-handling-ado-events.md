@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249004(v=office.15)
 ms:contentKeyID: 48543709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d85532c93c6d175b90f957d7831b71a460ba5b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 816dd98e5e4c21f3159edf18b5687b2b0578e399
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468190"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860838"
 ---
 # <a name="chapter-7-handling-ado-events"></a>第 7 章：处理 ADO 事件
 
@@ -26,3 +26,14 @@ ADO 事件模型支持某些可在操作开始之前或在完成之后发出*事
 
 使用 ADO 事件模型会使应用程序增加一些开销，但与其他处理异步操作的方法相比，它会提供更大的灵活性，例如，通过循环来监视对象的 [State](state-property-ado.md) 属性。
 
+本章包含以下主题：
+
+- [ADO 事件处理程序摘要](ado-event-handler-summary.md)
+
+- [事件类型](types-of-events.md)
+
+- [事件参数](event-parameters.md)
+
+- [事件处理程序如何协同工作](how-event-handlers-work-together.md)
+
+- [ADO Event Instantiation by Language (ADO)](ado-event-instantiation-by-language-ado.md)

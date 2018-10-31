@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa1a4326cf318a9cbcddf8ebcdf584543ac8ebfb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7483144ff3ab9b93ae35bdebff951c5b4415786c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468283"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860509"
 ---
 # <a name="converttostring-method-rds"></a>ConvertToString 方法 (RDS)
 
@@ -44,6 +44,6 @@ ms.locfileid: "25468283"
 
 
 > [!NOTE]
-> <P>[!注释] 如果要使用 Active Server 页将生成的 MIME 字符串嵌入客户端 HTML 页，请注意低于 2.0 版的 VBScript 会将字符串大小限制为 32K。如果超过此限制，将返回一个错误。通过 .asp 文件使用 MIME 嵌入功能时，请保持相对较小的查询范围。若要修复此问题，请从 <A href="https://www.microsoft.com/downloads/en/default.aspx">Microsoft 下载中心</A>下载最新版本的 VBScript。</P>
+> [!注释] 如果要使用 Active Server 页将生成的 MIME 字符串嵌入客户端 HTML 页，请注意低于 2.0 版的 VBScript 会将字符串大小限制为 32K。如果超过此限制，将返回一个错误。通过 .asp 文件使用 MIME 嵌入功能时，请保持相对较小的查询范围。若要修复此问题，请从 [Microsoft 下载中心](https://www.microsoft.com/downloads/en/default.aspx)下载最新版本的 VBScript。
 
 

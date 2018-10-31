@@ -4,21 +4,22 @@ TOCTitle: XactAttributeEnum
 ms:assetid: 9206698b-7cfa-1229-2701-f2b6949e54fc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249643(v=office.15)
 ms:contentKeyID: 48546366
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 8a44546a63583a03bd40b9e86405c3d560b3a94e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2d39cc24feb377cf61e7c2d0a39e11513f4c0616
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468215"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864058"
 ---
 # <a name="xactattributeenum"></a>XactAttributeEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定 [Connection](connection-object-ado.md) 对象的事务属性。
+
+<br/>
 
 <table>
 <colgroup>
@@ -37,18 +38,18 @@ ms.locfileid: "25468215"
 <tr class="odd">
 <td><p><strong>adXactAbortRetaining</strong></p></td>
 <td><p>262144</p></td>
-<td><p>执行保留的终止 - 即，调用 <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> 会自动启动一个新事务。并非所有提供程序都支持此行为。</p></td>
+<td><p>执行保留中止;即自动调用<a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a>启动一个新的事务。 并非所有提供程序支持此功能。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adXactCommitRetaining</strong></p></td>
 <td><p>131072</p></td>
-<td><p>执行保留的确认 - 即，调用 <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> 会自动启动一个新事务。并非所有提供程序都支持此行为。</p></td>
+<td><p>执行保留提交;即自动调用<a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a>启动一个新的事务。 并非所有提供程序支持此功能。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

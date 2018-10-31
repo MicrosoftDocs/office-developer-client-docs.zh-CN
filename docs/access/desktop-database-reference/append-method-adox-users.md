@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8bce151e800b58e9c99c6dd6591114c53208a5c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dc8f7a2d217a25a8404765aa05bae19fdccad2c3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466325"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863862"
 ---
 # <a name="append-method-adox-users"></a>Append 方法 (ADOX Users)
 
@@ -43,6 +43,6 @@ ms.locfileid: "25466325"
 
 
 > [!NOTE]
-> <P>[!注释] 在将 <STRONG>User</STRONG> 对象追加到 <STRONG>Group</STRONG> 对象的 <STRONG>Users</STRONG> 集合之前， <STRONG>Catalog</STRONG> 的 <A href="name-property-adox.md">Users</A> 集合中必须存在具有与要追加的 <STRONG>User</STRONG> 对象相同 <STRONG>Name</STRONG> 的 User 对象。</P>
+> [!注释] 在将 **User** 对象追加到 **Group** 对象的 **Users** 集合之前， **Catalog** 的 [Users](name-property-adox.md) 集合中必须存在具有与要追加的 **User** 对象相同 **Name** 的 User 对象。
 
 

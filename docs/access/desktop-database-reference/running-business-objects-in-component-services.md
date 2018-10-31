@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41424fd62e915ecb2d54fdb49c939b788f458804
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0eb70a615f49ff351ec31a826abc9775558218dd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466735"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862553"
 ---
 # <a name="running-business-objects-in-component-services"></a>在组件服务中运行业务对象
 
@@ -26,6 +26,11 @@ ms.locfileid: "25466735"
 
 
 > [!NOTE]
-> <P>中间层上的业务对象是作为组件服务组件 （使用<STRONG>GetObjectContext</STRONG>、 <STRONG>SetComplete</STRONG>和<STRONG>异常</STRONG>） 实施的它们可以使用组件服务 （或 MTS，如果您使用的 Windows NT） 上下文对象添加到跨多个客户端呼叫维护其状态。 此方案可以通过 DCOM 来实施，DCOM 通常在可信客户端与服务器 (Intranet) 之间实现。 此时，客户端上的 <A href="dataspace-object-rds.md">RDS.DataSpace</A> 对象和 <A href="createobject-method-rds.md">CreateObject</A> 方法被事务上下文对象和 <STRONG>CreateInstance</STRONG> 方法（由 <STRONG>ITransactionContext</STRONG> 接口提供）所取代，并由组件服务实现。</P>
+> 中间层上的业务对象是作为组件服务组件 （使用**GetObjectContext**、 **SetComplete**和**异常**） 实施的它们可以使用组件服务 （或 MTS，如果您使用的 Windows NT） 上下文对象添加到跨多个客户端呼叫维护其状态。 此方案可以通过 DCOM 来实施，DCOM 通常在可信客户端与服务器 (Intranet) 之间实现。 
+>
+> 此时，客户端上的 [RDS.DataSpace](dataspace-object-rds.md) 对象和 [CreateObject](createobject-method-rds.md) 方法被事务上下文对象和 **CreateInstance** 方法（由 **ITransactionContext** 接口提供）所取代，并由组件服务实现。
 
 
+## <a name="see-also"></a>另请参阅
+
+- [组件服务 (SQL Server) 中运行业务对象](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)

@@ -4,21 +4,22 @@ TOCTitle: ExecuteOptionEnum
 ms:assetid: bd6d44a3-e471-7aa0-3e65-6775334de2ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249915(v=office.15)
 ms:contentKeyID: 48547438
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: aeb1083c693e0848e30a0b9217ae709994daddb5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51c5ab78c4ea49ade7fd2b6972aa3753b0c6df09
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467064"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862308"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定提供程序应当如何执行命令。
+
+<br/>
 
 <table>
 <colgroup>
@@ -48,7 +49,8 @@ ms.locfileid: "25467064"
 <tr class="odd">
 <td><p><strong>持久性</strong></p></td>
 <td><p>0x40</p></td>
-<td><p>指示主线程永远不会阻止检索时。 如果检索不到请求的行，当前行将自动移动到文件末尾。 如果从包含永久存储的 <strong>Recordset</strong> 的 <a href="stream-object-ado.md">Stream</a> 中打开 <a href="recordset-object-ado.md">Recordset</a>，<strong>adAsyncFetchNonBlocking</strong> 将无效；操作将同步且阻塞。 当使用 <a href="commandtypeenum.md">adCmdTableDirect</a> 选项来打开 <strong>Recordset</strong> 时，<strong>adAsynchFetchNonBlocking</strong> 无效。</p></td>
+<td><p>指示主线程在检索期间永不阻塞。如果未检索到请求的行，当前行将自动移动到文件的末尾。
+</p><p>如果从包含永久存储的 <strong>Recordset</strong> 的 <a href="stream-object-ado.md">Stream</a> 中打开 <a href="recordset-object-ado.md">Recordset</a>，<strong>adAsyncFetchNonBlocking</strong> 将无效；操作将同步且阻塞。 当使用 <a href="commandtypeenum.md">adCmdTableDirect</a> 选项来打开 <strong>Recordset</strong> 时，<strong>adAsynchFetchNonBlocking</strong> 无效。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adExecuteNoRecords</strong></p></td>
@@ -76,7 +78,7 @@ ms.locfileid: "25467064"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

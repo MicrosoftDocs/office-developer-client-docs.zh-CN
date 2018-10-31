@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 422d33e65f2ca3148276759a8c973295db8bc447
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 787375117566673b745cf819694a8d2d77e13779
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468019"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861566"
 ---
 # <a name="ado-task-table"></a>ADO 任务表
 
@@ -34,7 +34,7 @@ ms.locfileid: "25468019"
 <tbody>
 <tr class="odd">
 <td><p>连接到数据提供程序</p></td>
-<td><p><a href="making-a-connection.md">建立连接</a></p></td>
+<td><p><a href="making-a-connection.md">创建连接</a></p></td>
 </tr>
 <tr class="even">
 <td><p>执行命令或调用存储过程</p></td>
@@ -50,7 +50,7 @@ ms.locfileid: "25468019"
 </tr>
 <tr class="odd">
 <td><p>移到特定记录</p></td>
-<td><p><a href="navigating-through-the-data.md">在数据中导航</a></p></td>
+<td><p><a href="navigating-through-the-data.md">浏览数据</a></p></td>
 </tr>
 <tr class="even">
 <td><p>访问列值</p></td>
@@ -82,7 +82,7 @@ ms.locfileid: "25468019"
 </tr>
 <tr class="odd">
 <td><p>将记录保存到文件（XML 或二进制）</p></td>
-<td><p><a href="persisting-data.md">持久化数据</a></p></td>
+<td><p><a href="persisting-data.md">暂留数据</a></p></td>
 </tr>
 <tr class="even">
 <td><p>处理错误</p></td>
@@ -98,11 +98,11 @@ ms.locfileid: "25468019"
 </tr>
 <tr class="odd">
 <td><p>选择锁定类型</p></td>
-<td><p><a href="types-of-locks.md">锁定的类型</a></p></td>
+<td><p><a href="types-of-locks.md">锁定类型</a></p></td>
 </tr>
 <tr class="even">
 <td><p>返回 <strong>Recordset</strong> 中的相关记录</p></td>
-<td><p><a href="data-shaping-summary.md">数据定形摘要</a></p></td>
+<td><p><a href="data-shaping.md">数据定形</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>访问半结构化数据</p></td>

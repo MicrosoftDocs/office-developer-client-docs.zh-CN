@@ -1,17 +1,17 @@
 ---
 title: Delete 方法示例 (VC++)
-TOCTitle: Delete Method Example (VC++)
+TOCTitle: Delete method example (VC++)
 ms:assetid: 605daa2f-aaf3-7928-9523-6bc58e8bd61a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249350(v=office.15)
 ms:contentKeyID: 48545176
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d1869b3aa2d526c5181671fa5275943d3d2dcf6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9bf844c4290750bacf860bf407f3feee18ae0d9a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468095"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863710"
 ---
 # <a name="delete-method-example-vc"></a>Delete 方法示例 (VC++)
 

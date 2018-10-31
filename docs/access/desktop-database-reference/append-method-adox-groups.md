@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249954(v=office.15)
 ms:contentKeyID: 48547567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76c602896a629881d06a3f3cf80326e02340186e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: be31cc01122aa24eff2acb8396be2caab33c7dd4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468572"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863057"
 ---
 # <a name="append-method-adox-groups"></a>Append 方法 (ADOX Groups)
 
@@ -40,6 +40,6 @@ ms.locfileid: "25468572"
 
 
 > [!NOTE]
-> <P>[!注释] 在将 <STRONG>Group</STRONG> 对象追加到 <STRONG>User</STRONG> 对象的 <STRONG>Groups</STRONG> 集合之前， <STRONG>Catalog</STRONG> 的 <A href="name-property-adox.md">Groups</A> 集合中必须存在具有与要追加的 <STRONG>Group</STRONG> 对象相同 <STRONG>Name</STRONG> 的 Group 对象。</P>
+> [!注释] 在将 **Group** 对象追加到 **User** 对象的 **Groups** 集合之前， **Catalog** 的 [Groups](name-property-adox.md) 集合中必须存在具有与要追加的 **Group** 对象相同 **Name** 的 Group 对象。
 
 

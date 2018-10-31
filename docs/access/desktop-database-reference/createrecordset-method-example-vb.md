@@ -1,17 +1,17 @@
 ---
 title: CreateRecordset 方法示例 (VB)
-TOCTitle: CreateRecordset Method Example (VB)
+TOCTitle: CreateRecordset method example (VB)
 ms:assetid: c1c05c91-0c74-1f30-7ead-6b52f0b4906c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249943(v=office.15)
 ms:contentKeyID: 48547536
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c99db7e319d6678b6db60cc1877a43a1728a00c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 626b6d4aadc4326c370da3b9137f8990d5f818d7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466941"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861475"
 ---
 # <a name="createrecordset-method-example-vb"></a>CreateRecordset 方法示例 (VB)
 

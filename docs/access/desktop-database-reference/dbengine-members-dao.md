@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d01ba185112bc396181dfe7f5e45df2f082d191
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7b534d4595bd003c76e756c44d6e88f53a725cc8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467733"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861783"
 ---
 # <a name="dbengine-members-dao"></a>DBEngine Members (DAO)
 
@@ -63,7 +63,7 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 <td><p></p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 <p>打开 ODBC 数据源上的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
@@ -115,7 +115,7 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 <td><p>设置初始化 <strong>Workspace</strong> 时创建其默认值所使用的用户名。可读/写 <strong>String</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-errors-property-dao.md">Errors</a></strong></p></td>
+<td><p><strong><a href="dbengine-errors-property-dao.md">错误</a></strong></p></td>
 <td><p>返回一个 <strong>Errors</strong> 集合，该集合包含指定对象的所有存储的 <strong>Error</strong> 对象。只读。</p></td>
 </tr>
 <tr class="odd">
@@ -131,7 +131,7 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 <td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-version-property-dao.md">Version</a></strong></p></td>
+<td><p><strong><a href="dbengine-version-property-dao.md">版本</a></strong></p></td>
 <td><p>返回当前使用的 DAO 版本。只读 <strong>String</strong>。</p></td>
 </tr>
 <tr class="odd">

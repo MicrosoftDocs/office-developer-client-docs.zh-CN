@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249207(v=office.15)
 ms:contentKeyID: 48544534
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9538e1fb4a712b109e021512a3d28d299deaeb3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 54499cc9c8b45e411b4121963d1a571100b7e0e5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467004"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860944"
 ---
 # <a name="recordopenoptionsenum"></a>RecordOpenOptionsEnum
 
@@ -68,7 +68,7 @@ ms.locfileid: "25467004"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 这些常量没有 ADO/WFC 等效值。
 

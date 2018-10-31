@@ -1,17 +1,17 @@
 ---
 title: Execute、Requery 和 Clear 方法示例 (VB)
-TOCTitle: Execute, Requery, and Clear Methods Example (VB)
+TOCTitle: Execute, Requery, and Clear methods example (VB)
 ms:assetid: 6d700971-6b77-bd41-dd22-df53f902c0f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249432(v=office.15)
 ms:contentKeyID: 48545491
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d32d4e0c56ea4b6a03474562410255bbc5952f4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8d6c1a24bd20835ed96842d995a3c1568ae7139
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467895"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863022"
 ---
 # <a name="execute-requery-and-clear-methods-example-vb"></a>Execute、Requery 和 Clear 方法示例 (VB)
 

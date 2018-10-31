@@ -1,17 +1,17 @@
 ---
 title: OpenSchema 方法示例 (VB)
-TOCTitle: OpenSchema Method Example (VB)
+TOCTitle: OpenSchema method example (VB)
 ms:assetid: 02fe101a-c2df-6454-2cca-f5833e60fc03
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88711f64be99900369f79cc0787d3db973e32104
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d9aeb21136a704bc327c9f82dd07fc310b8705e1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468163"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862700"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema 方法示例 (VB)
 

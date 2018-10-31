@@ -4,21 +4,22 @@ TOCTitle: StreamWriteEnum
 ms:assetid: b4356999-d7a8-abfa-f6a8-6c2dd04b9257
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249861(v=office.15)
 ms:contentKeyID: 48547216
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f58b5173a1208812a6eb9fd06b5f4a414de21ddd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 76286fcd09e5b92f19d8dbf0e8d0419ad4c600df
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466569"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861888"
 ---
 # <a name="streamwriteenum"></a>StreamWriteEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 用于指定是否将行分隔符追加到写入 [Stream](stream-object-ado.md) 对象的字符串。
+
+<br/>
 
 <table>
 <colgroup>
@@ -48,7 +49,7 @@ ms.locfileid: "25466569"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 这些常量没有 ADO/WFC 等效值。
 

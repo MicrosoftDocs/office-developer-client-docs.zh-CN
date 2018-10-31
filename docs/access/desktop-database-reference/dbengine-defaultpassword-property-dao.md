@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
 ms:contentKeyID: 48543478
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5b1195b4217ca72374402b361b09d540583bf06
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a418d10773326e36f5c7111cce5941fb7255cb89
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468852"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861196"
 ---
 # <a name="dbenginedefaultpassword-property-dao"></a>DBEngine.DefaultPassword Property (DAO)
 
@@ -32,9 +32,7 @@ ms.locfileid: "25468852"
 
 
 > [!NOTE]
-> <P>[!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。</P>
-
-
+> [!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。
 
 默认情况下， **DefaultUser** 属性将设置为"admin"，而 **DefaultPassword** 属性将设置为零长度字符串 ("")。
 

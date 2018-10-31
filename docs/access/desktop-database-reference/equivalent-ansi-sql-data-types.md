@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7eae567d2787e60f84c8020d80e1c15c9b02928f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e44ae29014870dcd4fc95629081d50191d6ff184
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467508"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863980"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>等价的 ANSI SQL 数据类型
 
@@ -143,20 +143,12 @@ ms.locfileid: "25467508"
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>ANSI SQL BIT 数据类型不对应于 Microsoft Access SQL BIT 数据类型。但它对应于 BINARY 数据类型。不存在等价于 Microsoft Access SQL BIT 数据类型的 ANSI SQL 数据类型。</P>
-> <LI>
-> <P>不再支持 TIMESTAMP 作为 DATETIME 的同义词。</P>
-> <LI>
-> <P>不再支持 NUMERIC 作为 FLOAT 或 DOUBLE 的同义词。现在，NUMERIC 可作为 DECIMAL 的同义词使用。</P>
-> <LI>
-> <P>LONGTEXT 字段总是存储为 Unicode 表示格式。</P>
-> <LI>
-> <P>如果使用数据类型名称 TEXT，但未指定可选长度，例如 TEXT(25)，将创建一个 LONGTEXT 字段。这样使要编写的 <A href="create-table-statement-microsoft-access-sql.md">CREATE TABLE 语句</A>生成的数据类型与 Microsoft SQL Server 一致。</P>
-> <LI>
-> <P>CHAR 字段总是存储为 Unicode 表示格式，它等价于 ANSI SQL NATIONAL CHAR 数据类型。</P>
-> <LI>
-> <P>如果使用数据类型名称 TEXT，但未指定可选长度，例如 TEXT(25)，那么该字段的数据类型等价于 CHAR 数据类型。这样，可保持大多数 Microsoft Jet 应用程序的后向兼容性，同时使 TEXT 数据类型（没有长度限制）符合 Microsoft SQL Server 规范。</P></LI></UL>
+> - ANSI SQL BIT 数据类型不对应于 Microsoft Access SQL BIT 数据类型。但它对应于 BINARY 数据类型。不存在等价于 Microsoft Access SQL BIT 数据类型的 ANSI SQL 数据类型。
+> - 不再支持 TIMESTAMP 作为 DATETIME 的同义词。
+> - 不再支持 NUMERIC 作为 FLOAT 或 DOUBLE 的同义词。现在，NUMERIC 可作为 DECIMAL 的同义词使用。
+> - LONGTEXT 字段总是存储为 Unicode 表示格式。
+> - 如果使用数据类型名称 TEXT，但未指定可选长度，例如 TEXT(25)，将创建一个 LONGTEXT 字段。这样使要编写的 [CREATE TABLE 语句](create-table-statement-microsoft-access-sql.md)生成的数据类型与 Microsoft SQL Server 一致。
+> - CHAR 字段总是存储为 Unicode 表示格式，它等价于 ANSI SQL NATIONAL CHAR 数据类型。
+> - 如果使用数据类型名称 TEXT，但未指定可选长度，例如 TEXT(25)，那么该字段的数据类型等价于 CHAR 数据类型。这样，可保持大多数 Microsoft Jet 应用程序的后向兼容性，同时使 TEXT 数据类型（没有长度限制）符合 Microsoft SQL Server 规范。
 
 

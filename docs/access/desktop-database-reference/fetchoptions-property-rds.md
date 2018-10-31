@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f98872c3eae47e1b657e0b16b5df5b5c46b421a5
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b3e7251ba50b003b37cdeb0dd70fe4a98821d4c9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607016"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861930"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions 属性 (RDS)
 
@@ -54,7 +54,7 @@ ms.locfileid: "25607016"
 
 
 > [!NOTE]
-> <P>[!注释] 使用这些常量的每个客户端可执行文件必须提供其声明。可从位于 C:\Program Files\Common Files\System\MSADC 文件夹中的 Adcvbs.inc 文件剪切并粘贴所需的常量声明。</P>
+> [!注释] 使用这些常量的每个客户端可执行文件必须提供其声明。可从位于 C:\Program Files\Common Files\System\MSADC 文件夹中的 Adcvbs.inc 文件剪切并粘贴所需的常量声明。
 
 
 
@@ -62,5 +62,5 @@ ms.locfileid: "25607016"
 
 <<<<<<< 标头中 Web 应用程序中，将通常想要使用**adcFetchAsync** （默认值），因为它提供了更好的性能。 而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
 === 在 web 应用程序，您通常需要使用**adcFetchAsync** （默认值），因为它提供了更好的性能。 而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
->>>>>>> master
+>>>>>>> 母版
 

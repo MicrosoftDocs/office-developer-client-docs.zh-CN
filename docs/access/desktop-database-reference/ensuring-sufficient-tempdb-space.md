@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 886db9f42f44bd1df4acb678cb969b6d81a64df8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5d049a098a7f7cfd826c6c5945c71831acbceb04
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466631"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863050"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>确保具有足够的 TempDB 空间
 
@@ -20,15 +20,11 @@ ms.locfileid: "25466631"
 
 如果在处理需要 Microsoft SQL Server 6.5 处理空间的 [Recordset](recordset-object-ado.md) 对象时出错，则可能需要增加 TempDB 的大小。（某些查询需要临时处理空间；例如，带 ORDER BY 子句的查询需要一种 **Recordset** ，而这需要一些临时空间。）
 
-
 > [!IMPORTANT]
-> <P>[!重要信息] 请在执行操作之前阅读该步骤，因为设备一旦展开就难以折叠。</P>
-
-
-
+> [!重要信息] 请在执行操作之前阅读该步骤，因为设备一旦展开就难以折叠。
 
 > [!NOTE]
-> <P>[!注释] 在默认情况下，在 Microsoft SQL Server 7.0 和更高版本中，TempDB 会设置为根据需要自动增加大小。因此，下面的过程可能仅在运行版本低于 7.0 的 SQL Server 的服务器上是必需的。</P>
+> [!注释] 在默认情况下，在 Microsoft SQL Server 7.0 和更高版本中，TempDB 会设置为根据需要自动增加大小。因此，下面的过程可能仅在运行版本低于 7.0 的 SQL Server 的服务器上是必需的。
 
 
 

@@ -4,21 +4,22 @@ TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
 ms:contentKeyID: 48544022
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 88929ced56583316c42f2d5195054e51e98a1d5b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 06c7674734a044bdc242ec7548685a5faf915be2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466925"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860593"
 ---
 # <a name="recordstatusenum"></a>RecordStatusEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定记录的批更新和其他批量操作的状态。
+
+<br/>
 
 <table>
 <colgroup>
@@ -128,7 +129,7 @@ ms.locfileid: "25466925"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 AdoEnums.RecordStatus。
 

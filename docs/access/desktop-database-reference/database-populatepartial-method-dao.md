@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11c999fcac3b77ddc4eeb9ef8f4414a5f8aa1559
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fa52050e91c1a291dd59f9cde1ea36c320406dd6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466453"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860264"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial Method (DAO)
 
@@ -79,7 +79,7 @@ ms.locfileid: "25466453"
 
 
 > [!NOTE]
-> <P>[!注释] 尽管 <STRONG>PopulatePartial</STRONG> 在清除和重新填充部分副本之前执行单向同步，但是，最好是仍然在调用 <STRONG>PopulatePartial</STRONG> 之前调用 <STRONG>Synchronize</STRONG>。这是因为如果调用 <STRONG>Synchronize</STRONG> 失败，将发生可捕获的错误。可以使用此错误决定是否继续 <STRONG>PopulatePartial</STRONG> 方法（此方法将删除部分副本中的所有记录）。如果 <STRONG>PopulatePartial</STRONG> 由其自身调用，并且在同步记录时出错，则仍然会清除部分副本中的记录，这可能是不希望得到的结果。</P>
+> [!注释] 尽管 **PopulatePartial** 在清除和重新填充部分副本之前执行单向同步，但是，最好是仍然在调用 **PopulatePartial** 之前调用 **Synchronize**。这是因为如果调用 **Synchronize** 失败，将发生可捕获的错误。可以使用此错误决定是否继续 **PopulatePartial** 方法（此方法将删除部分副本中的所有记录）。如果 **PopulatePartial** 由其自身调用，并且在同步记录时出错，则仍然会清除部分副本中的记录，这可能是不希望得到的结果。
 
 
 

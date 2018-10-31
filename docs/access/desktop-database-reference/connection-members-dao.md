@@ -6,23 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 001cb1372acf4a4a55b3841a3f4ca8d6598f55e8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d797852512becee7f076298750495205cd09bf86
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466302"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861497"
 ---
 # <a name="connection-members-dao"></a>Connection Members (DAO)
 
-
 **适用于**： Access 2013 |Office 2013
 
-
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果您想要不使用 Microsoft Access 数据库引擎访问外部数据源，请使用 ADO。Connection 对象代表与 ODBC 数据库 （仅适用于 ODBCDirect 工作区） 的连接。</P>
-
-
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。 Connection 对象代表与 ODBC 数据库的连接（仅适用于 ODBCDirect 工作区）。
+ 
 
 ## <a name="methods"></a>方法
 
@@ -42,8 +39,7 @@ ms.locfileid: "25466302"
 <td><p><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 <p>取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</p></td>
@@ -90,8 +86,7 @@ ms.locfileid: "25466302"
 <td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 <p>返回对应于此连接的 <strong><a href="database-object-dao.md">Database</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
@@ -120,8 +115,7 @@ ms.locfileid: "25466302"
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+<br/>
 
 
 <p>指示异步操作（即用 <strong>dbRunAsync</strong> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</p></td>

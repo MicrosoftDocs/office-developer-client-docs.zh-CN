@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3de31156f9c06d3a14e7dbef2748543a3e6c4fd
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 719c495e18fb769a2d3f994542ab8d9e93a469f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605756"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860376"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans、CommitTrans 和 RollbackTrans 方法 (ADO)
 
@@ -37,11 +37,11 @@ ms.locfileid: "25605756"
 
 *对象*。RollbackTrans
 
-<<<<<<< 标头
+<<<<<<< 头
 ## <a name="return-value"></a>返回值
 =======
 ## <a name="return-value"></a>返回值
->>>>>>> master
+>>>>>>> 母版
 
 **BeginTrans** 可以作为函数调用，返回一个 **长整型** 变量，用以指示事务的嵌套级别。
 
@@ -57,9 +57,7 @@ ms.locfileid: "25605756"
 
 
 > [!NOTE]
-> <P>并非所有的提供程序都支持事务。请确认提供程序定义的属性“<STRONG>Transaction DDL</STRONG>”出现在 <STRONG>Connection</STRONG> 对象的 <A href="properties-collection-ado.md">Properties</A> 集合中，这表示提供程序支持事务。如果提供程序不支持事务，则调用其中的任一方法将返回错误。</P>
-
-
+> 并非所有的提供程序都支持事务。请确认提供程序定义的属性“**Transaction DDL**”出现在 **Connection** 对象的 [Properties](properties-collection-ado.md) 集合中，这表示提供程序支持事务。如果提供程序不支持事务，则调用其中的任一方法将返回错误。
 
 调用 **BeginTrans** 方法之后，提供程序将不再即时提交所做的更改，直至调用 **CommitTrans** 或 **RollbackTrans** 结束事务。
 

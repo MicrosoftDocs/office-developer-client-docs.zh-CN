@@ -4,21 +4,22 @@ TOCTitle: DataTypeEnum
 ms:assetid: a8ab7616-552f-ed5f-ed55-95254cfb374a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
 ms:contentKeyID: 48546904
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e8b70ad0067083373679286bdb452cb667d3de0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f5c192589f2c90b2ce7b6c7b376b80c92b341e2d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468209"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860656"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 用于指定 [Field](field-object-ado.md)、[Parameter](parameter-object-ado.md) 或 [Property](property-object-ado.md) 的数据类型。下表的说明列的圆括号中显示了对应的 OLE DB 类型指示器。有关 OLE DB 数据类型的详细信息，请参阅 *《OLE DB 程序员参考》* 的第 13 章和附录 A。
+
+<br/>
 
 <table>
 <colgroup>
@@ -129,13 +130,8 @@ ms.locfileid: "25468209"
 <td><p><strong>adIDispatch</strong></p></td>
 <td><p>9</p></td>
 <td><p>指示指向 COM 对象上的 <strong>IDispatch</strong> 接口的指针 (DBTYPE_IDISPATCH)。
-</p>
-
-> [!NOTE]
-> <P>ADO 当前不支持此数据类型。使用它可能会导致不可预测的结果。</P>
-
-
-<p></p></td>
+</p><p><strong>注意</strong>： ADO 当前不支持此数据类型。 使用情况可能会导致无法预料的结果。</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><strong>adInteger</strong></p></td>
@@ -146,13 +142,8 @@ ms.locfileid: "25468209"
 <td><p><strong>adIUnknown</strong></p></td>
 <td><p>13</p></td>
 <td><p>指示指向 COM 对象上的 <strong>IUnknown</strong> 接口的指针 (DBTYPE_IUNKNOWN)。
-</p>
-
-> [!NOTE]
-> <P>ADO 当前不支持此数据类型。使用它可能会导致不可预测的结果。</P>
-
-
-<p></p></td>
+</p><p><strong>注意</strong>： ADO 当前不支持此数据类型。 使用情况可能会导致无法预料的结果。
+</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLongVarBinary</strong></p></td>
@@ -233,13 +224,7 @@ ms.locfileid: "25468209"
 <td><p><strong>adVariant</strong></p></td>
 <td><p>12</p></td>
 <td><p>指示自动化<strong>变量型</strong> (DBTYPE_VARIANT)。
-</p>
-
-> [!NOTE]
-> <P>ADO 当前不支持此数据类型。使用它可能会导致不可预测的结果。</P>
-
-
-<p></p></td>
+</p><p><strong>注意</strong>： ADO 当前不支持此数据类型。 使用情况可能会导致无法预料的结果。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -260,7 +245,7 @@ ms.locfileid: "25468209"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

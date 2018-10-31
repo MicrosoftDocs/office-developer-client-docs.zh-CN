@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1d80ac5b545f07d3bd39f69f16c4578e49439cdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5ddd1a4b99ec301772690b2815d961676c5a058
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465579"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861853"
 ---
 # <a name="closewindow-macro-action"></a>CloseWindow 宏操作
 
@@ -47,7 +47,7 @@ ms.locfileid: "25465579"
 </p>
 
 > [!NOTE]
-> <P>如果您正在关闭模块在 Visual Basic 编辑器中，您必须在<STRONG>对象类型</STRONG>参数中使用<STRONG>模块</STRONG>。</P>
+> 如果您正在关闭模块在 Visual Basic 编辑器中，您必须在**对象类型**参数中使用**模块**。
 
 
 <p></p></td>

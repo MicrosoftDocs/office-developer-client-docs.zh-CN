@@ -1,10 +1,10 @@
 ---
 title: UPDATE 语句 (Microsoft Access SQL)
-TOCTitle: UPDATE Statement (Microsoft Access SQL)
+TOCTitle: UPDATE statement (Microsoft Access SQL)
 ms:assetid: 08f9c3d6-c020-ecf1-5748-43b93a76dfbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845036(v=office.15)
 ms:contentKeyID: 48543111
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277583
@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3affce9346e9e322bc588ca1c3be24867a1469d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7a761fbc6404cf72818271b956bfc63516942d25
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466753"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863281"
 ---
 # <a name="update-statement-microsoft-access-sql"></a>UPDATE 语句 (Microsoft Access SQL)
-
 
 **适用于**： Access 2013 |Office 2013
 
@@ -75,12 +74,9 @@ WHERE ShipCountry = 'UK';
 
 
 > [!IMPORTANT]
-> <UL>
-> <LI>
-> <P>UPDATE 不会生成结果集。而且，使用更新查询来更新记录后，您不能取消该操作。如果希望了解已更新哪些记录，请先检查使用相同条件的选择查询的结果，然后再运行更新查询。</P>
-> <LI>
-> <P>不论什么时候都要维护数据的备份。如果更新了错误记录，您可以从备份副本中检索这些记录。
-</P></LI></UL>
+- UPDATE 不会生成结果集。而且，使用更新查询来更新记录后，您不能取消该操作。如果希望了解已更新哪些记录，请先检查使用相同条件的选择查询的结果，然后再运行更新查询。
+- 不论什么时候都要维护数据的备份。如果更新了错误记录，您可以从备份副本中检索这些记录。
+
 
 
 

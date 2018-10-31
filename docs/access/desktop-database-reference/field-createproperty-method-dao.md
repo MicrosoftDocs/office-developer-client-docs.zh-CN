@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
 ms:contentKeyID: 48547202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a5b911e9e02380e9ea6aa85100e2a60b3b086a49
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fa8868d457100ea74eeb76b67fcfc535c2e859b3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602998"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861909"
 ---
 # <a name="fieldcreateproperty-method-dao"></a>Field.CreateProperty Method (DAO)
 
@@ -72,11 +72,11 @@ ms.locfileid: "25602998"
 </table>
 
 
-<<<<<<< 标头
+<<<<<<< 头
 ### <a name="return-value"></a>返回值
 =======
 ### <a name="return-value"></a>返回值
->>>>>>> master
+>>>>>>> 母版
 
 属性
 
@@ -92,6 +92,6 @@ ms.locfileid: "25602998"
 
 
 > [!NOTE]
-> <P>如果省略 DDL 参数，则默认为 False (非 DDL)。 由于没有公开相应的 DDL 属性，必须删除要从 DDL 更改为非 DDL 的 <STRONG>Property</STRONG> 对象，然后重新创建该对象。</P>
+> 如果省略 DDL 参数，则默认为 False (非 DDL)。 由于没有公开相应的 DDL 属性，必须删除要从 DDL 更改为非 DDL 的 **Property** 对象，然后重新创建该对象。
 
 

@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34e691edd429b5d7f00da0c8eb994ffd999c6305
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5cf2dc58ee3fa9205b9657366d8706b64b0aa58a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603950"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861027"
 ---
-# <a name="shape-commands-in-general"></a>常用 Shape 命令
+# <a name="shape-commands-in-general"></a>常用的 Shape 命令
 
 
 **适用于**： Access 2013 |Office 2013
@@ -35,7 +35,7 @@ ms.locfileid: "25603950"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>数据</p></td>
+<td><p>data</p></td>
 <td><p>由查询命令返回给数据提供程序、表或以前定形的 <strong>Recordset</strong> 的 <strong>Recordset</strong> 中的字段。</p></td>
 </tr>
 <tr class="even">
@@ -64,7 +64,7 @@ shape 命令可能包含子句，用于指定针对基础数据提供程序的�
 
 <<<<<<< 标头 Shape 命令可以由**Recordset**对象或通过设置[Command](command-object-ado.md)对象的[CommandText](commandtext-property-ado.md)属性，然后调用[Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\))方法颁发。
 === 由**Recordset**对象或通过设置[Command](command-object-ado.md)对象的[CommandText](commandtext-property-ado.md)属性，然后调用[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)方法，可以发出 shape 命令。
->>>>>>> master
+>>>>>>> 母版
 
 Shape 命令可以嵌套。 即*父命令*或*子命令*本身可能是另一个 shape 命令。
 
@@ -73,4 +73,8 @@ Shape 命令可以嵌套。 即*父命令*或*子命令*本身可能是另一个
 有关在分层 **Recordset** 中导航的信息，请参阅 [访问分层记录集中的行](accessing-rows-in-a-hierarchical-recordset.md)。
 
 有关语法正确的 Shape 命令的准确信息，请参阅[正式 Shape 语法](formal-shape-grammar.md)。
+
+## <a name="see-also"></a>另请参阅
+
+- [向基础数据提供程序发出命令](issuing-commands-to-the-underlying-data-provider.md)
 

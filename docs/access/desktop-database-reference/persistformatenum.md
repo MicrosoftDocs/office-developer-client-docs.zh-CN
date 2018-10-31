@@ -4,21 +4,22 @@ TOCTitle: PersistFormatEnum
 ms:assetid: 5aa99a63-d422-0812-5aba-19305a3ad405
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)
 ms:contentKeyID: 48545050
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e3254d60c6daa032857227b1f16f9a9c085164dc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65c33389bc7eb703fce6c44da3507a28bccb75eb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466746"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862476"
 ---
 # <a name="persistformatenum"></a>PersistFormatEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定保存 [Recordset](recordset-object-ado.md) 时所用的格式。
+
+<br/>
 
 <table>
 <colgroup>
@@ -58,7 +59,7 @@ ms.locfileid: "25466746"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

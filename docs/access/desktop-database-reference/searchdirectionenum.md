@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250064(v=office.15)
 ms:contentKeyID: 48547943
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0a9954319448a219d9683cfd8133929fb3d184d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fc3803fe6afb482dc42ca12476024325fc1022ae
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465986"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862980"
 ---
 # <a name="searchdirectionenum"></a>SearchDirectionEnum
 
@@ -48,7 +48,7 @@ ms.locfileid: "25465986"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

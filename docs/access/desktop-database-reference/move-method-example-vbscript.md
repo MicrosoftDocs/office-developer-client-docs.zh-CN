@@ -1,17 +1,17 @@
 ---
 title: Move 方法示例 (VBScript)
-TOCTitle: Move Method Example (VBScript)
+TOCTitle: Move method example (VBScript)
 ms:assetid: 42f2eb08-47cf-f422-6176-badd414d0bfc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249198(v=office.15)
 ms:contentKeyID: 48544489
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ff5ff45c78100cfb623c687bc5c17d743dd66a50
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: eccec24c2e0fa110e0266cbab610c4e7d5c16c84
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468562"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863960"
 ---
 # <a name="move-method-example-vbscript"></a>Move 方法示例 (VBScript)
 

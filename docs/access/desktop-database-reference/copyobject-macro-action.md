@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d48869d42d44a6440a1cc971ec9497320758ef16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60c0204bd374feaa950d3158873f68127debaf0f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467203"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862546"
 ---
 # <a name="copyobject-macro-action"></a>CopyObject 宏操作
 
@@ -26,7 +26,7 @@ ms.locfileid: "25467203"
 
 
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
+> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "25467203"
 </p>
 
 > [!NOTE]
-> <P>此参数仅在 Access 数据库环境中可用。在 Access 项目环境 (.adp) 中使用此操作时，“目标数据库”参数必须为空。</P>
+> 此参数仅在 Access 数据库环境中可用。在 Access 项目环境 (.adp) 中使用此操作时，“目标数据库”参数必须为空。
 
 
 <p>如果在类库数据库中运行包含 <strong>CopyObject</strong> 操作的宏并将此参数留空，Microsoft Office Access 2007 就会将该对象复制到类库数据库中。</p></td>
@@ -90,7 +90,7 @@ ms.locfileid: "25467203"
 
 
 > [!NOTE]
-> <P>[!注释] 复制数据访问页时， <STRONG>CopyObject</STRONG> 操作将仅复制相关 .htm 文件的链接，而不复制该文件本身。</P>
+> [!注释] 复制数据访问页时， **CopyObject** 操作将仅复制相关 .htm 文件的链接，而不复制该文件本身。
 
 
 

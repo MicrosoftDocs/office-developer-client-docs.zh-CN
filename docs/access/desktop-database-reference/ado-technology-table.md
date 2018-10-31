@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62e57c91acd83291ee7390d305303521510acbd2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 79ab3111d7ca390101a3742ba2b1120e924b946f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467945"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864135"
 ---
 # <a name="ado-technology-table"></a>ADO 技术表
 
@@ -38,7 +38,7 @@ ms.locfileid: "25467945"
 </tr>
 <tr class="even">
 <td><p>Active Directory Service Interfaces</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">用于 Microsoft Active Directory Service 的 Microsoft OLE DB 提供程序</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>COM/DCOM</p></td>
@@ -46,11 +46,11 @@ ms.locfileid: "25467945"
 </tr>
 <tr class="even">
 <td><p>FrontPage</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">用于 Internet 发布的 Microsoft OLE DB 提供程序</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>索引服务</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">用于 Microsoft 索引服务的 Microsoft OLE DB 提供程序</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Internet Explorer</p></td>
@@ -86,7 +86,7 @@ ms.locfileid: "25467945"
 </tr>
 <tr class="even">
 <td><p>VBScript</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">在其他语言中处理错误</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications 函数</a><a href="solutions-for-remote-data-access.md">远程数据访问解决方案</a><a href="rds-tutorial-vbscript.md">RDS 教程 (VBScript)</a><a href="vbscript-ado-programming.md">VBScript ADO 编程</a><a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">ADO 代码示例在 Microsoft Visual Basic Scripting Edition</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">在其他语言中处理错误</a><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications 函数</a><a href="solutions-for-remote-data-access.md">远程数据访问解决方案</a><a href="rds-tutorial-vbscript.md">RDS 教程 (VBScript)</a><a href="vbscript-ado-programming.md">VBScript ADO 编程</a><a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">在 Microsoft Visual Basic Scripting Edition 中的 ADO 代码示例</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
@@ -94,11 +94,11 @@ ms.locfileid: "25467945"
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">在其他语言中处理错误</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">按语言的 ADO 事件实例化</a><a href="using-ado-with-microsoft-visual-c.md">使用 Microsoft Visual c + + 中使用 ADO</a><a href="ado-code-examples-in-microsoft-visual-c.md">Microsoft Visual c + + 中的 ADO 代码示例</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">在其他语言中处理错误</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">按语言的 ADO 事件实例化</a><a href="using-ado-with-microsoft-visual-c.md">使用 Microsoft Visual c + + 中使用 ADO</a><a href="ado-code-examples-in-microsoft-visual-c.md">在 Microsoft Visual c + + 的 ADO 代码示例</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">在其他语言中处理错误</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">按语言的 ADO 事件实例化</a><a href="rds-tutorial-visual-j.md">RDS 教程 （Visual J + +）</a><a href="using-ado-with-microsoft-visual-j.md">使用 Microsoft Visual J + + 中使用 ADO</a><a href="ado-code-examples-in-microsoft-visual-j.md">Microsoft Visual J + + 中的 ADO 代码示例</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">在其他语言中处理错误</a><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">按语言的 ADO 事件实例化</a><a href="rds-tutorial-visual-j.md">RDS 教程 （Visual J + +）</a><a href="using-ado-with-microsoft-visual-j.md">使用 Microsoft Visual J + + 中使用 ADO</a><a href="ado-code-examples-in-microsoft-visual-j.md">ADO 代码示例在 Microsoft Visual J + +</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>

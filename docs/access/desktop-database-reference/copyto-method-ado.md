@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bd949b92068619b76ac78d5e62cde0e247ed7b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 178254006216a71ae34c437da86cb8381d82125e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466943"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861580"
 ---
 # <a name="copyto-method-ado"></a>CopyTo 方法 (ADO)
 
@@ -31,13 +31,10 @@ ms.locfileid: "25466943"
 
   - 对象变量值，包含对打开的 **Stream** 对象的引用。当前 **Stream** 复制到由 *DestStream* 指定的目标 **Stream**。目标 **Stream** 必须已经打开。否则，将发生运行时错误。
 
-
-    
+   
 
     > [!NOTE]
-    > <P><EM>DestStream</EM>参数不能<STRONG>Stream</STRONG>对象的代理是因为它需要访问<STRONG>Stream</STRONG>对象的无法远程传输到客户端上的专用接口。</P>
-
-
+    > *DestStream*参数不能**Stream**对象的代理是因为它需要访问**Stream**对象的无法远程传输到客户端上的专用接口。
 
   - *NumChars*
 

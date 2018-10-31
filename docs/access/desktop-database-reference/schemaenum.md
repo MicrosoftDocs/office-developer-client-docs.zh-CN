@@ -4,31 +4,32 @@ TOCTitle: SchemaEnum
 ms:assetid: 6147b682-3c4f-ea91-fff6-ac73107d206d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e928271d61cf38232014db1c67482ca6d47fd863
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6f1e174253904adf7392aa7ae19786103e55843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468569"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863351"
 ---
 # <a name="schemaenum"></a>SchemaEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 用于指定 **OpenSchema** 方法检索的架构 [Recordset](openschema-method-ado.md) 的类型。
 
-**备注**
+## <a name="remarks"></a>说明
 
-有关此函数以及为每个 ADO 常量返回的列的附加信息，请参阅 *《OLE DB 程序员参考》* 附录 B 中的主题。下表的“说明”部分的圆括号中列出了每个主题的名称。
+有关函数和列返回的每个 ADO 常量可以找到的附录 B 的*OLE DB 程序员参考*主题中的其他信息。 下表的说明部分中的括号中列出的每个主题名称。
 
-*OLE DB for OLAP*文档的第 23 章中的主题中，可以找到有关函数并为每个 ADO MD 常量返回的列的其他信息。 在括号中列出的每个主题名称并将其标有星号 (\*) 在说明列下表中。
+*OLE DB for OLAP*文档的第 23 章中的主题中，可以找到有关函数并为每个 ADO MD 常量返回的列的其他信息。 在括号中列出的每个主题名称并将其标有星号 (\*) 在下表的说明列中。
 
 通过引用 ADO [DataTypeEnum](datatypeenum.md) 主题的"说明"列，将 OLE DB 文档中的列的数据类型转换为 ADO 数据类型。 例如，OLE DB 数据类型的**DBTYPE\_WSTR**等效**adWChar**ADO 数据类型。
 
-对于常量 **adSchemaDBInfoKeywords** 和 **adSchemaDBInfoLiterals**，ADO 生成类似架构的结果。ADO 创建一个 **Recordset**，然后使用分别由 **IDBInfo::GetKeywords** 和 **IDBInfo::GetLiteralInfo** 方法返回的值填充每一行。有关这些方法的附加信息，请参阅 *《OLE DB 程序员参考》* 的“IDBInfo”部分。
+对于常量 **adSchemaDBInfoKeywords** 和 **adSchemaDBInfoLiterals** ，ADO 生成类似架构的结果。 ADO 创建**记录集**，然后使用由**IDBInfo::GetKeywords**和**IDBInfo::GetLiteralInfo**方法分别返回的值填充每一行。 在*OLE DB 程序员参考*的 IDBInfo 部分找不到有关这些方法的其他信息。
+
+<br/>
 
 <table>
 <colgroup>
@@ -458,7 +459,7 @@ VIEW_NAME</p></td>
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

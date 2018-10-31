@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
 ms:contentKeyID: 48548289
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62b195907d5acc05832c1feac45165aadd9e14d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 526498ee22bc82735eb3b98e633aa3d1b4cfb610
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466838"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864100"
 ---
 # <a name="error-object-dao"></a>Error Object (DAO)
 
@@ -40,7 +40,7 @@ ms.locfileid: "25466838"
     
 
     > [!NOTE]
-    > <P>[!注释] 在 Microsoft Visual Basic for Applications (VBA) 中编程时，如果使用 <STRONG>New</STRONG> 关键字创建了一个对象，并且以后该对象被追加到集合之前会导致出错，那么 <STRONG>DBEngine</STRONG> 对象的 <STRONG>Errors</STRONG> 集合将不包含该对象的错误的项，因为新对象与 <STRONG>DBEngine</STRONG> 对象不关联。 但是，VBA <STRONG>Err</STRONG> 对象中包含错误信息。 只要您预计可能存在数据访问错误，就应使 VBA 错误处理代码检查 <STRONG>Errors</STRONG> 集合。 在编写集中式错误处理程序时，应测试 VBA <STRONG>Err</STRONG> 对象，以确定 <STRONG>Errors</STRONG> 集合中的错误信息是否有效。 如果<STRONG>Errors</STRONG>集合 (DBEngine.Errors.Count-1) 的最后一个元素的<STRONG>编号</STRONG>属性和<STRONG>Err</STRONG>对象匹配的值，然后可以使用一系列<STRONG>Select Case</STRONG>语句来标识的特定的 DAO 错误或发生的错误。 如果两者不匹配，请对 <A href="errors-refresh-method-dao.md">Errors</A> 集合使用 <STRONG><STRONG>Refresh</STRONG></STRONG> 方法。</P>
+    > [!注释] 在 Microsoft Visual Basic for Applications (VBA) 中编程时，如果使用 **New** 关键字创建了一个对象，并且以后该对象被追加到集合之前会导致出错，那么 **DBEngine** 对象的 **Errors** 集合将不包含该对象的错误的项，因为新对象与 **DBEngine** 对象不关联。 但是，VBA **Err** 对象中包含错误信息。 只要您预计可能存在数据访问错误，就应使 VBA 错误处理代码检查 **Errors** 集合。 在编写集中式错误处理程序时，应测试 VBA **Err** 对象，以确定 **Errors** 集合中的错误信息是否有效。 如果**Errors**集合 (DBEngine.Errors.Count-1) 的最后一个元素的**编号**属性和**Err**对象匹配的值，然后可以使用一系列**Select Case**语句来标识的特定的 DAO 错误或发生的错误。 如果两者不匹配，请对 [Errors](errors-refresh-method-dao.md) 集合使用 **Refresh** 方法。
 
 
 

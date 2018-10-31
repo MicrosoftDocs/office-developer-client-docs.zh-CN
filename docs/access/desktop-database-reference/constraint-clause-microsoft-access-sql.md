@@ -1,10 +1,10 @@
 ---
 title: CONSTRAINT 子句 (Microsoft Access SQL)
-TOCTitle: CONSTRAINT Clause (Microsoft Access SQL)
+TOCTitle: CONSTRAINT clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836971(v=office.15)
 ms:contentKeyID: 48548797
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277561
@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7b26033c8026591c87e4d0f9e077380862e39f16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 87870d824f9e26f601529bc60b737f1e46b12960
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465764"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863001"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT 子句 (Microsoft Access SQL)
 
@@ -27,17 +27,16 @@ ms.locfileid: "25465764"
 
 可以在 [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) 和 [CREATE TABLE](create-table-statement-microsoft-access-sql.md) 语句中使用 CONSTRAINT 子句来创建或删除约束。有两种类型的 CONSTRAINT 子句：一个用于创建单字段的约束，另外一个用于创建多字段的约束。
 
-
 > [!NOTE]
-> [!注释] Microsoft Access 数据库引擎不支持将 CONSTRAINT 或任何数据定义语言 (DDL) 语句用于非 Microsoft Access 数据库引擎数据库。可以改用 DAO Create 方法。
+> [!注释] Microsoft Access 数据库引擎不支持将 CONSTRAINT 或任何数据定义语言 (DDL) 语句用于非 Microsoft Access 数据库引擎数据库。 而是使用 DAO**创建**方法。
 
 ## <a name="syntax"></a>语法
 
-单字段约束：
+**单字段约束**：
 
 约束*名称*{主键 |唯一 |不为 NULL |引用*foreigntable* \[（*foreignfield1、 foreignfield2*）\] \[ON 更新 CASCADE |设置为 NULL\] \[级联删除 |设置为 NULL\]}
 
-多字段约束：
+**多字段约束**：
 
 约束*名称*{PRIMARY KEY (*primary1*\[， *primary2* \[，...\]\]) |唯一 (*unique1*\[， *unique2* \[，...\]\]) |不为 NULL (*notnull1*\[， *notnull2* \[，...\]\]) |外键\[没有索引\](*ref1*\[， *ref2* \[，...\] \]) 引用*foreigntable* \[(*foreignfield1* \[， *foreignfield2* \[，...\] \])\] \[ON 更新 CASCADE |设置为 NULL\] \[级联删除 |设置为 NULL\]}
 

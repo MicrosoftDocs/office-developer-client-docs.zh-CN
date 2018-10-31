@@ -1,17 +1,17 @@
 ---
 title: Clone 方法示例 (VBScript)
-TOCTitle: Clone Method Example (VBScript)
+TOCTitle: Clone method example (VBScript)
 ms:assetid: b9d49eb9-8da8-dfd2-1c59-35ac70969850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce2d2445b6d958f993c419ac9296192bb9dcc0aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 503e73f2b40450ff230a0888352ac203fc79eabd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468386"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864051"
 ---
 # <a name="clone-method-example-vbscript"></a>Clone 方法示例 (VBScript)
 

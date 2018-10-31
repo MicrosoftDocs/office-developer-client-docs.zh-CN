@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15f868867466bdbce6f15b326a88b7a9f0842015
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58e36426360abf36d7fdf0cb026f6d8ff14b29b5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465748"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864014"
 ---
 # <a name="database-members-dao"></a>Database Members (DAO)
 
@@ -109,7 +109,7 @@ Database 对象代表打开的数据库。
 <td><p></p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 <p>返回与数据库对应的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
@@ -167,7 +167,7 @@ Database 对象代表打开的数据库。
 <td><p>返回一个值，该值指示是否可以更改 DAO 对象。只读 <strong>Boolean</strong>。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>
+<td><p><strong><a href="database-version-property-dao.md">版本</a></strong></p></td>
 <td><p>在 Microsoft Access 工作区中，返回创建数据库的 Microsoft Jet 或 Microsoft Access 数据库引擎的版本。 <strong>String</strong> 类型，只读。</p></td>
 </tr>
 </tbody>

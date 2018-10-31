@@ -1,17 +1,17 @@
 ---
 title: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VBScript)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods Example (VBScript)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)
 ms:assetid: e1780013-5e11-aa8a-1be5-4d6d4273e72a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250148(v=office.15)
 ms:contentKeyID: 48548261
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 934be9801a1c73c737e32623a7fe9d2792dca9ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e54c7d13a34cf8577fcfa601a39c4332a8002442
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465925"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860502"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript"></a>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VBScript)
 

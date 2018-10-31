@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053424
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 446b4b4c22aad7288744730978c99f8322a55316
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3b893ca7d380525cfab8a467f2032e254633268f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468104"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861524"
 ---
 # <a name="dbenginerollback-method-dao"></a>DBEngine.Rollback Method (DAO)
 
@@ -36,11 +36,8 @@ ms.locfileid: "25468104"
 
 通常，如果既要更新两个或更多个表中的记录，又要确保完成（提交）所有表中的更改，或者确保不完成（提交）任何表中的更改（回滚），可使用事务维护数据的完整性。例如，如果将现金从一个帐户转到另一个帐户，可以从一个帐户中减去一个金额，然后将此金额添加到另一个帐户。如果其中任意一个更新失败，那么这两个帐户之间将不再平衡。在更新第一条记录之前，使用 **BeginTrans** 方法，然后，如果任何后续更新失败，可以使用 **Rollback** 方法撤消所有更改。成功更新最后一条记录后，使用 **CommitTrans** 方法。
 
-
 > [!NOTE]
-> <P>[!注释] 在一个 <STRONG>Workspace</STRONG> 对象中，事务对 <STRONG>Workspace</STRONG> 始终是全局的，不会只限于一个 <STRONG>Connection</STRONG> 或 <STRONG>Database</STRONG> 对象。如果在 <STRONG>Workspace</STRONG> 事务中对多个连接或数据库执行操作，解析事务（即使用 <STRONG>CommitTrans</STRONG> 或 <STRONG>Rollback</STRONG> 方法）将影响对该工作区中所有连接和数据库执行的所有操作。</P>
-
-
+> [!注释] 在一个 **Workspace** 对象中，事务对 **Workspace** 始终是全局的，不会只限于一个 **Connection** 或 **Database** 对象。如果在 **Workspace** 事务中对多个连接或数据库执行操作，解析事务（即使用 **CommitTrans** 或 **Rollback** 方法）将影响对该工作区中所有连接和数据库执行的所有操作。
 
 使用 **CommitTrans** 后，除非事务嵌套在另一个自己回滚的事务中，否则您无法撤消该事务期间所做的更改。如果要嵌套事务，必须先解析当前事务，然后才可以解析更高嵌套级别的事务。
 

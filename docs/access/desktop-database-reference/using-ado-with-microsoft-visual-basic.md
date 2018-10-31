@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa1f9a3c7601601a1ce48ea3912a4f759d436e4f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e209c00742772d8d3294be4a74772526c3c29c2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468879"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861020"
 ---
 # <a name="using-ado-with-microsoft-visual-basic"></a>在 Microsoft Visual Basic 中使用 ADO
 
@@ -115,5 +115,5 @@ Set conn1 = CreateObject("ADODB.Connection.2.0") As Object
 
 ## <a name="visual-basic-examples"></a>Visual Basic 示例
 
-ADO 文档中附带了许多 Visual Basic 示例。有关详细信息，请参阅 [Microsoft Visual Basic 中的 ADO 代码示例](ado-code-examples-in-microsoft-visual-basic.md).
+ADO 文档中附带了许多 Visual Basic 示例。 有关详细信息，请参阅[Microsoft Visual Basic 中的 ADO 代码示例](ado-code-examples-in-microsoft-visual-basic.md)。
 

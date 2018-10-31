@@ -1,17 +1,17 @@
 ---
 title: Refresh 方法示例 (VJ++)
-TOCTitle: Refresh Method Example (VJ++)
+TOCTitle: Refresh method example (VJ++)
 ms:assetid: f77a2944-1fcc-4816-8780-feeaae18e5f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250259(v=office.15)
 ms:contentKeyID: 48548767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 324f37a6d181af781bf684d0bf92439a3a936dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3cdd5de133bc3d3452837821b1a2c56bf14c13a6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466036"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860878"
 ---
 # <a name="refresh-method-example-vj"></a>Refresh 方法示例 (VJ++)
 

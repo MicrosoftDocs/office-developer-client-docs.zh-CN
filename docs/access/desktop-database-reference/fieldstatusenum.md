@@ -4,23 +4,24 @@ TOCTitle: FieldStatusEnum
 ms:assetid: 49570042-8435-8618-3ba1-7006c47735e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
 ms:contentKeyID: 48544635
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e5c7ecb345c993b2582ce6971044d325afca857a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 22c5d53427d1380273ea82b3a28ae044e103b179
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468753"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860607"
 ---
 # <a name="fieldstatusenum"></a>FieldStatusEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
 指定 **Field** 对象的状态。
 
 **adFieldPending\*** 值指示导致设置状态的操作，可以与其他状态值一起使用。
+
+<br/>
 
 <table>
 <colgroup>
@@ -190,7 +191,7 @@ ms.locfileid: "25468753"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 这些常量没有 ADO/WFC 等效值。
 

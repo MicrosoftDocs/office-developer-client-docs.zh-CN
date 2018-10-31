@@ -1,17 +1,17 @@
 ---
 title: Save 和 Open 方法示例 (VC++)
-TOCTitle: Save and Open Methods Example (VC++)
+TOCTitle: Save and Open methods example (VC++)
 ms:assetid: 83e9647e-5dbd-2c59-4fff-2a3df79ab93c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249574(v=office.15)
 ms:contentKeyID: 48546019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b37fc130477bfc36cdb246d33a6de782668f281d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8c808c71c944a7caa376dfc5805f7792d819df68
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467482"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863400"
 ---
 # <a name="save-and-open-methods-example-vc"></a>Save 和 Open 方法示例 (VC++)
 

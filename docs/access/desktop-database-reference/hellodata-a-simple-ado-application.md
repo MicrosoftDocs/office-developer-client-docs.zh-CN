@@ -1,19 +1,19 @@
 ---
-title: HelloData：简单 ADO 应用程序
+title: HelloData：一个简单的 ADO 应用程序
 TOCTitle: 'HelloData: A Simple ADO Application'
 ms:assetid: c271abeb-8865-81f9-db8e-47d3db87ad30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7a3ef1f8b1a183bcef760af28d6eb8a849b17aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9e70d611f351cf3ff073a1ad91e359a08e026295
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465812"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863295"
 ---
-# <a name="hellodata-a-simple-ado-application"></a>HelloData：简单 ADO 应用程序
+# <a name="hellodata-a-simple-ado-application"></a>HelloData：一个简单的 ADO 应用程序
 
 
 **适用于**： Access 2013 |Office 2013
@@ -32,7 +32,7 @@ ms.locfileid: "25465812"
 
 4.  在网格下方的窗体上创建一个 **文本框** ，按表中所示设置其属性。完成时，该窗体的外观应如下图所示。
 
-5.  最后，复制"[HelloData 代码](hellodata-code.md)"中所列代码并将其粘贴到窗体的代码编辑器窗口中。按 **F5** 运行代码。
+5.  最后，复制[HelloData 代码](hellodata-code.md)中列出的代码并将其粘贴到窗体的代码编辑器窗口。 按 **F5** 运行代码。
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ ms.locfileid: "25465812"
 
 
 
-有关此代码的详细说明，请参阅"[HelloData 详细信息](hellodata-details.md)"。
+代码的详细说明，请参阅[HelloData 详细信息](hellodata-details.md)。
 
 <table>
 <colgroup>
@@ -135,4 +135,6 @@ ms.locfileid: "25465812"
 </tr>
 </tbody>
 </table>
+
+
 

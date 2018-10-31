@@ -1,30 +1,26 @@
 ---
 title: CREATE VIEW 语句 (Microsoft Access SQL)
-TOCTitle: CREATE VIEW Statement (Microsoft Access SQL)
+TOCTitle: CREATE VIEW statement (Microsoft Access SQL)
 ms:assetid: ecaabd75-3081-fd35-830d-5a59b0a51922
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836312(v=office.15)
 ms:contentKeyID: 48548519
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 292dddeab15c71fb188a928ac0e491063930214d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f1d13cef4551975dc316b2fbedf2388028956fb3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466688"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862903"
 ---
 # <a name="create-view-statement-microsoft-access-sql"></a>CREATE VIEW 语句 (Microsoft Access SQL)
-
 
 **适用于**： Access 2013 |Office 2013
 
 创建新视图。
 
-
 > [!NOTE]
-> <P>[!注释] Microsoft Access 数据库引擎不支持对非 Microsoft Access 数据库引擎数据库使用 CREATE VIEW 语句或任何 DDL 语句。</P>
-
-
+> [!注释] Microsoft Access 数据库引擎不支持对非 Microsoft Access 数据库引擎数据库使用 CREATE VIEW 语句或任何 DDL 语句。
 
 ## <a name="syntax"></a>语法
 
@@ -54,7 +50,7 @@ CREATE VIEW 语句包含以下部分：
 </tr>
 <tr class="odd">
 <td><p><em>selectstatement</em></p></td>
-<td><p>SQL SELECT 语句。有关详细信息，请参阅 <a href="select-statement-microsoft-access-sql.md">SELECT 语句</a>。</p></td>
+<td><p>SQL SELECT 语句。 有关详细信息，请参阅<a href="select-statement-microsoft-access-sql.md">SELECT 语句</a>。</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +64,7 @@ CREATE VIEW 语句包含以下部分：
 
 视图的名称不能和现有表的名称相同。
 
-如果 SELECT 语句所定义的查询是可更新的，那么视图也是可更新的。否则，视图是只读的。
+如果可更新的 SELECT 语句定义的查询，视图还会可更新。 否则，视图是只读的。
 
 如果 SELECT 语句定义的查询中有任何两个字段同名，那么视图定义必须包括一个字段列表来为查询中的每个字段指定唯一的名称。
 

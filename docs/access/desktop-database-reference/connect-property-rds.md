@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248890(v=office.15)
 ms:contentKeyID: 48543324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb628356e4d93201c38cf84a9c3245b13e044ee3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 191ef13d4d3c73bfbee50d72720d7e450376dd23
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468267"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862917"
 ---
 # <a name="connect-property-rds"></a>Connect 属性 (RDS)
 
@@ -30,17 +30,14 @@ ms.locfileid: "25468267"
 
 ## <a name="parameters"></a>参数
 
-  - *ConnectionString*
+- *ConnectionString*
 
   - 有效的连接字符串。有关连接字符串的详细常规信息，请参阅 [ConnectionString](connectionstring-property-ado.md) 属性或提供程序文档。
     
-
     > [!NOTE]
-    > <P>[!注释] 将 MS Remote 指定为 <STRONG>RDS.DataControl</STRONG> 的提供程序将创建一个四层方案。大于三层的方案均未经过测试，应该不会有此方面的需要。</P>
+    > [!注释] 将 MS Remote 指定为 **RDS.DataControl** 的提供程序将创建一个四层方案。大于三层的方案均未经过测试，应该不会有此方面的需要。
 
-
-
-  - *DataControl*
+- *DataControl*
 
   - 一个代表 **RDS.DataControl** 对象的对象变量。
 

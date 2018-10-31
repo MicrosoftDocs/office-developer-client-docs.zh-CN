@@ -1,19 +1,19 @@
 ---
-title: 个 PropertyAttributesEnum
+title: PropertyAttributesEnum
 TOCTitle: PropertyAttributesEnum
 ms:assetid: cbe93f65-a3ee-4741-1ac7-1c98ac53cdde
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250012(v=office.15)
 ms:contentKeyID: 48547726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f01efcc98ed12858712c28f080fb066d3dc1b41
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2567d07ad33670fcd68be4513d7a409ffdcd599c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466806"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864044"
 ---
-# <a name="propertyattributesenum"></a>个 PropertyAttributesEnum
+# <a name="propertyattributesenum"></a>PropertyAttributesEnum
 
 
 **适用于**： Access 2013 |Office 2013
@@ -63,7 +63,7 @@ ms.locfileid: "25466806"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

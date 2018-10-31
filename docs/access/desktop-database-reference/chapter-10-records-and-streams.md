@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4cdc7bbbaad7242ddbe2c4992395e6c4e0477504
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 92d0eafcb1930e7aa7014e3b120b34e2a8d64231
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467146"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864082"
 ---
 # <a name="chapter-10-records-and-streams"></a>第 10 章：记录和流
 
@@ -52,3 +52,12 @@ ADO 目前提供了 [Recordset](recordset-object-ado.md) 对象作为访问数�
 
   - **Recordset** 中的 BLOB 字段。
 
+本章包含以下主题：
+
+- [流和暂留](streams-and-persistence.md)
+
+- [记录和提供程序提供的字段](records-and-provider-supplied-fields.md)
+
+- [绝对 URL 和相对 URL](absolute-and-relative-urls.md)
+
+- [Using ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)

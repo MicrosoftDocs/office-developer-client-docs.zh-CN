@@ -1,17 +1,17 @@
 ---
 title: CompareBookmarks 方法示例 (VB)
-TOCTitle: CompareBookmarks Method Example (VB)
+TOCTitle: CompareBookmarks method example (VB)
 ms:assetid: 048c91a1-d1dd-6b8a-b602-09cdb0f8a6f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248807(v=office.15)
 ms:contentKeyID: 48543012
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac654ebb995f3b4ab9331a647b8c4da1ccc4a266
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6a01cfd682de37d8b1c14d3af6e5c7b15e0cc22b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467965"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864128"
 ---
 # <a name="comparebookmarks-method-example-vb"></a>CompareBookmarks 方法示例 (VB)
 

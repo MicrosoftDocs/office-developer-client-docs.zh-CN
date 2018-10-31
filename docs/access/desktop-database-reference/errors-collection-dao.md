@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
 ms:contentKeyID: 48547929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f118bab1a73d29858776e33149c54aab39ef5cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9091d2c767bf7910a99d30cd0ffa7cbe122a1be0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465867"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864065"
 ---
 # <a name="errors-collection-dao"></a>Errors Collection (DAO)
 
@@ -34,9 +34,7 @@ ms.locfileid: "25465867"
 
 
 > [!NOTE]
-> <P>[!注释] 如果使用 <STRONG>New</STRONG> 关键字创建的对象会在放入 <STRONG>Errors</STRONG> 集合之前或在放入的过程中导致一个错误，则集合不会包含有关该对象的错误信息，因为新对象并不与 <STRONG>DBEngine</STRONG> 对象关联。但是，VBA <STRONG>Err</STRONG> 对象中包含错误信息。</P>
-
-
+> [!注释] 如果使用 **New** 关键字创建的对象会在放入 **Errors** 集合之前或在放入的过程中导致一个错误，则集合不会包含有关该对象的错误信息，因为新对象并不与 **DBEngine** 对象关联。但是，VBA **Err** 对象中包含错误信息。
 
 ## <a name="example"></a>示例
 

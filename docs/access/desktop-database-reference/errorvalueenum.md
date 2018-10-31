@@ -4,17 +4,16 @@ TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
 ms:contentKeyID: 48543921
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: de7f19c119c3161ece57344b911fcca36a1a8a3d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5e9da9b9c197bb9917d2184e07a76bdfb25bd031
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467437"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860859"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
-
 
 **适用于**： Access 2013 |Office 2013
 
@@ -22,17 +21,16 @@ ms.locfileid: "25467437"
 
 下面列出了三种格式的错误号：
 
-  - 正十进制 - 十进制格式的完整编号的两个低位字节。此编号显示在默认的 Visual Basic 错误消息对话框中。例如，运行时错误"3707"。
+- 正十进制 - 十进制格式的完整编号的两个低位字节。此编号显示在默认的 Visual Basic 错误消息对话框中。例如，运行时错误"3707"。
 
-  - 负十进制 - 完整错误号的十进制转换形式。
+- 负十进制 - 完整错误号的十进制转换形式。
 
-  - 十六进制 - 完整错误号的十六进制表示。Windows 设备代码在第四位。ADO 错误号的设备代码为 *A*。例如：0x800***A***0E7B。
-
+- 十六进制 - 完整错误号的十六进制表示。Windows 设备代码在第四位。ADO 错误号的设备代码为 *A*。例如：0x800***A***0E7B。
 
 > [!NOTE]
-> <P>OLE DB 错误可以传递给 ADO 应用程序。通常，可以通过 Windows 设备代码 <EM>4</EM> 来标识这些错误。例如，0x800<STRONG><EM>4</EM></STRONG>.... 有关这些编号的详细信息，请参阅<EM>《OLE DB 程序员参考》</EM>第 16 章。</P>
+> OLE DB 错误可能被传递给 ADO 应用程序。 通常，这些可以由*4*个 Windows 设施代码标识。 例如，0x800_**4**_...有关这些号码的详细信息，请参阅第 16 章*OLE DB 程序员参考 （英文）。*
 
-
+<br/>
 
 <table>
 <colgroup>
@@ -430,7 +428,7 @@ ms.locfileid: "25467437"
 </table>
 
 
-**ADO/WFC 等效值**
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
 
 包： **com.ms.wfc.data**
 

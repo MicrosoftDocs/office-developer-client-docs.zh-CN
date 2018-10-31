@@ -3,22 +3,22 @@
 >>>>>>> 母版页 ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID: 48543867 ms.date: 09/18/2015 mtps_version: office.15.aspx
 ---
 
-<<<<<<< 标头
+<<<<<<< 头
 # <a name="editmode-property-ado"></a>EditMode 属性 (ADO)
 =======
 # <a name="editmode-property-ado"></a>EditMode 属性 (ADO)
->>>>>>> master
+>>>>>>> 母版
 
 
 **适用于**： Access 2013 |Office 2013
 
 指示当前记录的编辑状态。
 
-<<<<<<< 标头
+<<<<<<< 头
 ## <a name="return-value"></a>返回值
 =======
 ## <a name="return-value"></a>返回值
->>>>>>> master
+>>>>>>> 母版
 
 返回 [EditModeEnum](editmodeenum.md) 值。
 
@@ -32,6 +32,6 @@ ADO 维护着一个与当前记录关联的编辑缓冲区。此属性指示是�
 
 
 > [!NOTE]
-> <P>[!注释] <STRONG>EditMode</STRONG> 仅在存在当前记录时才能返回有效值。如果 <STRONG>BOF 或 EOF</STRONG> 为 True 或当前记录已删除， <A href="bof-eof-properties-ado.md">EditMode</A> 将返回错误。</P>
+> [!注释] **EditMode** 仅在存在当前记录时才能返回有效值。如果 **BOF 或 EOF** 为 True 或当前记录已删除， [EditMode](bof-eof-properties-ado.md) 将返回错误。
 
 

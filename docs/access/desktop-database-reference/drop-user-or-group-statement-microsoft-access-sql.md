@@ -1,32 +1,31 @@
 ---
 title: DROP USER 或 GROUP 语句 (Microsoft Access SQL)
-TOCTitle: DROP USER or GROUP Statement (Microsoft Access SQL)
+TOCTitle: DROP USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 46bc5916-556b-17df-2f4c-8fd7bbd21ef7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 3a5cf75de06c13e2452e5f33b8355b7fb480d8a3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a7988a2124af13dc84cefe678342da969e349a06
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466043"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864023"
 ---
 # <a name="drop-user-or-group-statement-microsoft-access-sql"></a>DROP USER 或 GROUP 语句 (Microsoft Access SQL)
 
-
 **适用于**： Access 2013 |Office 2013
 
-删除一个或多个现有*用户*或*组*，或者从现有*组*中删除一个或多个现有的*用户*。
+删除一个或多个现有*用户*或*组*，或者从现有*组*中删除一个或多个现有*用户*。
 
 ## <a name="syntax"></a>语法
 
-删除一个或多个*用户*，或者从*组*中删除一个或多个*用户*：
+**删除一个或多个_用户_或删除一个或多个_用户_从_组_**：
 
 DROP USER*用户*\[，*用户*...\] \[从*组*\]
 
-删除一个或多个*组*：
+**删除一个或多个_组_**：
 
 投递组*组*\[，*组*中，...\]
 
@@ -58,7 +57,7 @@ DROP USER 或 GROUP 语句包含以下部分：
 
 ## <a name="remarks"></a>注解
 
-如果在 DROP USER 语句中使用了 FROM 关键字，那么在该语句中列出的每个*用户*都将从 FROM 关键字后面所指定的*组*中删除。然而，*用户*自身不会被删除。
+如果 DROP USER 语句中使用 FROM 关键字，则将从指定的*组*FROM 关键字后面删除每个*用户*语句中列出。 但是，*用户*本身不会被删除。
 
-DROP GROUP 语句将删除指定的*组*。属于该*组*的*用户*不会受到影响，但他们将不再是已删除的*组*的成员。
+投递 GROUP 语句将删除指定的*组*(s)。 不会影响*用户**组*(s) 的成员，但不再将已删除*组*(s) 的成员。
 
