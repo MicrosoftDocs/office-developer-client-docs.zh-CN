@@ -1,24 +1,24 @@
 ---
 title: Update 和 CancelUpdate 方法示例 (VC++)
-TOCTitle: Update and CancelUpdate Methods Example (VC++)
+TOCTitle: Update and CancelUpdate methods example (VC++)
 ms:assetid: 3660dafd-940e-f5ac-169e-15faf960742e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249123(v=office.15)
 ms:contentKeyID: 48544167
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15580d3e6c3feb3c07e47498b63b435ea7a3dae6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7e35529f95997014e611f132b58157e10580a8f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465505"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863813"
 ---
-# <a name="update-and-cancelupdate-methods-example-vc"></a><span data-ttu-id="c3c0e-102">Update 和 CancelUpdate 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="c3c0e-102">Update and CancelUpdate Methods Example (VC++)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vc"></a><span data-ttu-id="dc7bf-102">Update 和 CancelUpdate 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="dc7bf-102">Update and CancelUpdate methods example (VC++)</span></span>
 
 
-<span data-ttu-id="c3c0e-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3c0e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="dc7bf-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc7bf-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c3c0e-104">以下示例演示了如何结合使用 [Update](update-method-ado.md) 方法和 [CancelUpdate](cancelupdate-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="c3c0e-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="dc7bf-104">以下示例演示了如何结合使用 [Update](update-method-ado.md) 方法和 [CancelUpdate](cancelupdate-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="dc7bf-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -337,7 +337,7 @@ void PrintComError(_com_error &e)
 // EndUpdateCpp 
 ```
 
-<span data-ttu-id="c3c0e-105">**UpdateX.h**</span><span class="sxs-lookup"><span data-stu-id="c3c0e-105">**UpdateX.h**</span></span>
+<span data-ttu-id="dc7bf-105">**UpdateX.h**</span><span class="sxs-lookup"><span data-stu-id="dc7bf-105">**UpdateX.h**</span></span>
 
 ```cpp 
  

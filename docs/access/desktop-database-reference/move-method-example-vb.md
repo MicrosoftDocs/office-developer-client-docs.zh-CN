@@ -1,24 +1,24 @@
 ---
 title: Move 方法示例 (VB)
-TOCTitle: Move Method Example (VB)
+TOCTitle: Move method example (VB)
 ms:assetid: e3e837a4-f46d-f8ec-11ba-9b8d66105b13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 120e21c670a3fa2b317d5276f32b8486b6a17a28
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bf20046b785748dfe1d5949da34b8ef855db991
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466914"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860236"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="1b96e-102">Move 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="1b96e-102">Move Method Example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="c107c-102">Move 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="c107c-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="1b96e-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b96e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c107c-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c107c-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="1b96e-104">以下示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="1b96e-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="c107c-104">以下示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="c107c-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

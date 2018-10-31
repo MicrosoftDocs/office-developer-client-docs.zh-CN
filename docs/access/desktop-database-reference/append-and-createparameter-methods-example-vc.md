@@ -1,24 +1,24 @@
 ---
 title: Append 和 CreateParameter 方法示例 (VC++)
-TOCTitle: Append and CreateParameter Methods Example (VC++)
+TOCTitle: Append and CreateParameter methods example (VC++)
 ms:assetid: d979bd89-2d17-e977-a222-11d3c24fd84d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250095(v=office.15)
 ms:contentKeyID: 48548052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45be01b45ca637b3fb63f267d04da71a93aa22ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e5651c53a692f016fe17ff001754a6ce5e298ad
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468571"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861819"
 ---
-# <a name="append-and-createparameter-methods-example-vc"></a><span data-ttu-id="d5615-102">Append 和 CreateParameter 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="d5615-102">Append and CreateParameter Methods Example (VC++)</span></span>
+# <a name="append-and-createparameter-methods-example-vc"></a><span data-ttu-id="bb57d-102">Append 和 CreateParameter 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="bb57d-102">Append and CreateParameter methods example (VC++)</span></span>
 
 
-<span data-ttu-id="d5615-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5615-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="bb57d-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb57d-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d5615-104">以下示例使用 [Append](append-method-ado.md) 和 [CreateParameter](createparameter-method-ado.md) 方法执行带输入参数的存储过程。</span><span class="sxs-lookup"><span data-stu-id="d5615-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
+<span data-ttu-id="bb57d-104">以下示例使用 [Append](append-method-ado.md) 和 [CreateParameter](createparameter-method-ado.md) 方法执行带输入参数的存储过程。</span><span class="sxs-lookup"><span data-stu-id="bb57d-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
 
 ```cpp 
  
@@ -199,7 +199,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="d5615-105">**AppendX.h**</span><span class="sxs-lookup"><span data-stu-id="d5615-105">**AppendX.h**</span></span>
+<span data-ttu-id="bb57d-105">**AppendX.h**</span><span class="sxs-lookup"><span data-stu-id="bb57d-105">**AppendX.h**</span></span>
 
 ```cpp 
  

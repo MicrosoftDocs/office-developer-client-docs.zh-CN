@@ -1,23 +1,23 @@
 ---
 title: Move 方法示例 (VC++)
-TOCTitle: Move Method Example (VC++)
+TOCTitle: Move method example (VC++)
 ms:assetid: 96949c7b-aa40-3b6f-f36e-fed90c4fc45f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249669(v=office.15)
 ms:contentKeyID: 48546451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf7f891bc2f87047bbdc148a32f129112e840dcc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80b5123f8ba025bc94d607c3a9bb0017fbda4dc7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466619"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25859977"
 ---
-# <a name="move-method-example-vc"></a><span data-ttu-id="1dd35-102">Move 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="1dd35-102">Move Method Example (VC++)</span></span>
+# <a name="move-method-example-vc"></a><span data-ttu-id="6176f-102">Move 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="6176f-102">Move method example (VC++)</span></span>
 
-<span data-ttu-id="1dd35-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1dd35-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6176f-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="6176f-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="1dd35-104">本示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="1dd35-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="6176f-104">本示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="6176f-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```cpp 
  
@@ -256,7 +256,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="1dd35-105">**MoveX.h**</span><span class="sxs-lookup"><span data-stu-id="1dd35-105">**MoveX.h**</span></span>
+<span data-ttu-id="6176f-105">**MoveX.h**</span><span class="sxs-lookup"><span data-stu-id="6176f-105">**MoveX.h**</span></span>
 
 ```cpp
 // BeginMoveH 

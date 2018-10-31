@@ -1,28 +1,28 @@
 ---
 title: Clone 方法示例 (VBScript)
-TOCTitle: Clone Method Example (VBScript)
+TOCTitle: Clone method example (VBScript)
 ms:assetid: b9d49eb9-8da8-dfd2-1c59-35ac70969850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce2d2445b6d958f993c419ac9296192bb9dcc0aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 503e73f2b40450ff230a0888352ac203fc79eabd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468386"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864051"
 ---
-# <a name="clone-method-example-vbscript"></a><span data-ttu-id="8ac0d-102">Clone 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="8ac0d-102">Clone Method Example (VBScript)</span></span>
+# <a name="clone-method-example-vbscript"></a><span data-ttu-id="4a57a-102">Clone 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="4a57a-102">Clone method example (VBScript)</span></span>
 
 
-<span data-ttu-id="8ac0d-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ac0d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4a57a-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a57a-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="8ac0d-104">以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="8ac0d-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="4a57a-104">以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="4a57a-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
-<span data-ttu-id="8ac0d-p101">在 Active Server Page (ASP) 中使用以下示例。此示例使用随 Microsoft Access 分发的罗斯文数据库。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，并将其另存为 **CloneVBS.asp** 。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="8ac0d-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="4a57a-p101">在 Active Server Page (ASP) 中使用以下示例。此示例使用随 Microsoft Access 分发的罗斯文数据库。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，并将其另存为 **CloneVBS.asp** 。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="4a57a-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="8ac0d-109">若要实际使用此示例，请更改行 RsCustomerList.Source RsCustomerList.Source 到 ="客户"="产品"，以统计更大的表。</span><span class="sxs-lookup"><span data-stu-id="8ac0d-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
+<span data-ttu-id="4a57a-109">若要实际使用此示例，请更改行 RsCustomerList.Source RsCustomerList.Source 到 ="客户"="产品"，以统计更大的表。</span><span class="sxs-lookup"><span data-stu-id="4a57a-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
 
 ```vb 
  

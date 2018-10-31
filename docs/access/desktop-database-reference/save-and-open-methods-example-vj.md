@@ -1,26 +1,26 @@
 ---
 title: Save 和 Open 方法示例 (VJ++)
-TOCTitle: Save and Open Methods Example (VJ++)
+TOCTitle: Save and Open methods example (VJ++)
 ms:assetid: 15ad340a-2d32-3656-25d1-5c3927b9fed2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248920(v=office.15)
 ms:contentKeyID: 48543414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69d2ea8f40946ea3edcacf52c97a7464d47cd653
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c671946dbd8a7be83c9d2a3c651e614b1fa90bfc
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465559"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863997"
 ---
-# <a name="save-and-open-methods-example-vj"></a><span data-ttu-id="acadd-102">Save 和 Open 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="acadd-102">Save and Open Methods Example (VJ++)</span></span>
+# <a name="save-and-open-methods-example-vj"></a><span data-ttu-id="1be2a-102">Save 和 Open 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1be2a-102">Save and Open methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="acadd-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="acadd-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1be2a-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1be2a-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="acadd-104">以下三个示例演示了如何将 [Save](save-method-ado.md) 和 **Open** 方法结合起来使用。</span><span class="sxs-lookup"><span data-stu-id="acadd-104">These three examples demonstrate how the [Save](save-method-ado.md) and **Open** methods can be used together.</span></span>
+<span data-ttu-id="1be2a-104">以下三个示例演示了如何将 [Save](save-method-ado.md) 和 **Open** 方法结合起来使用。</span><span class="sxs-lookup"><span data-stu-id="1be2a-104">These three examples demonstrate how the [Save](save-method-ado.md) and **Open** methods can be used together.</span></span>
 
-<span data-ttu-id="acadd-p101">假设您正准备出差并希望携带数据库中的某个表。在出发前，您以 [Recordset](recordset-object-ado.md) 的形式访问数据并将其保存在便携表单中。到达目的地后，您将 **Recordset** 作为本地的已断开 **Recordset** 进行访问。您对 **Recordset** 进行更改，然后再次保存它。最后，您回家之后再次连接到数据库，并用出差时所做的更改更新该数据库。</span><span class="sxs-lookup"><span data-stu-id="acadd-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again, along with your changes. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
+<span data-ttu-id="1be2a-p101">假设您正准备出差并希望携带数据库中的某个表。在出发前，您以 [Recordset](recordset-object-ado.md) 的形式访问数据并将其保存在便携表单中。到达目的地后，您将 **Recordset** 作为本地的已断开 **Recordset** 进行访问。您对 **Recordset** 进行更改，然后再次保存它。最后，您回家之后再次连接到数据库，并用出差时所做的更改更新该数据库。</span><span class="sxs-lookup"><span data-stu-id="1be2a-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again, along with your changes. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
 
 ```java 
  

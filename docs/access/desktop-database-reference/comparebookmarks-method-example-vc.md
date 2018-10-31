@@ -1,26 +1,26 @@
 ---
 title: CompareBookmarks 方法示例 (VC++)
-TOCTitle: CompareBookmarks Method Example (VC++)
+TOCTitle: CompareBookmarks method example (VC++)
 ms:assetid: 41d092dc-da36-7e44-3c25-cc68bffc6f16
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249191(v=office.15)
 ms:contentKeyID: 48544460
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 847e9c033cf503efe9ac5c8a9e1b496937d73fdd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e217577be44c59befd0dc77c493b4bd3692c2e7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465557"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863554"
 ---
-# <a name="comparebookmarks-method-example-vc"></a><span data-ttu-id="fbd85-102">CompareBookmarks 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="fbd85-102">CompareBookmarks Method Example (VC++)</span></span>
+# <a name="comparebookmarks-method-example-vc"></a><span data-ttu-id="158c8-102">CompareBookmarks 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="158c8-102">CompareBookmarks method example (VC++)</span></span>
 
 
-<span data-ttu-id="fbd85-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="fbd85-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="158c8-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="158c8-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="fbd85-p101">以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。</span><span class="sxs-lookup"><span data-stu-id="fbd85-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
+<span data-ttu-id="158c8-p101">以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。</span><span class="sxs-lookup"><span data-stu-id="158c8-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
 
-<span data-ttu-id="fbd85-p102">将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。然后显示每一行相对于该目标的位置。</span><span class="sxs-lookup"><span data-stu-id="fbd85-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
+<span data-ttu-id="158c8-p102">将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。然后显示每一行相对于该目标的位置。</span><span class="sxs-lookup"><span data-stu-id="158c8-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
 
 ```cpp 
  

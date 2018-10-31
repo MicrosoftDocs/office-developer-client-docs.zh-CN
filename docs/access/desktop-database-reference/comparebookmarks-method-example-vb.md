@@ -1,26 +1,26 @@
 ---
 title: CompareBookmarks 方法示例 (VB)
-TOCTitle: CompareBookmarks Method Example (VB)
+TOCTitle: CompareBookmarks method example (VB)
 ms:assetid: 048c91a1-d1dd-6b8a-b602-09cdb0f8a6f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248807(v=office.15)
 ms:contentKeyID: 48543012
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac654ebb995f3b4ab9331a647b8c4da1ccc4a266
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6a01cfd682de37d8b1c14d3af6e5c7b15e0cc22b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467965"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864128"
 ---
-# <a name="comparebookmarks-method-example-vb"></a><span data-ttu-id="0a441-102">CompareBookmarks 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="0a441-102">CompareBookmarks Method Example (VB)</span></span>
+# <a name="comparebookmarks-method-example-vb"></a><span data-ttu-id="aefe5-102">CompareBookmarks 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="aefe5-102">CompareBookmarks method example (VB)</span></span>
 
 
-<span data-ttu-id="0a441-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="0a441-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="aefe5-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="aefe5-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="0a441-p101">以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。</span><span class="sxs-lookup"><span data-stu-id="0a441-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
+<span data-ttu-id="aefe5-p101">以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。</span><span class="sxs-lookup"><span data-stu-id="aefe5-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
 
-<span data-ttu-id="0a441-p102">将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。然后显示每一行相对于该目标的位置。</span><span class="sxs-lookup"><span data-stu-id="0a441-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
+<span data-ttu-id="aefe5-p102">将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。然后显示每一行相对于该目标的位置。</span><span class="sxs-lookup"><span data-stu-id="aefe5-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
 
 ```vb 
  

@@ -1,24 +1,24 @@
 ---
 title: Create 方法示例 (VC++)
-TOCTitle: Create Method Example (VC++)
+TOCTitle: Create method example (VC++)
 ms:assetid: 8a826d78-7219-27de-8560-7cd4b8284751
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7e77cfe959eb1f97bc9b0262a78c91f56d44356
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 50fb678cb9346641b38acc3ca4f3a9553fd2a1c2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468712"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862931"
 ---
-# <a name="create-method-example-vc"></a><span data-ttu-id="89e7d-102">Create 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="89e7d-102">Create Method Example (VC++)</span></span>
+# <a name="create-method-example-vc"></a><span data-ttu-id="90b86-102">Create 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="90b86-102">Create method example (VC++)</span></span>
 
 
-<span data-ttu-id="89e7d-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="89e7d-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="90b86-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="90b86-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="89e7d-104">下面的代码演示如何使用 [Create](create-method-adox.md) 方法创建新的 Microsoft Jet 数据库。</span><span class="sxs-lookup"><span data-stu-id="89e7d-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="90b86-104">下面的代码演示如何使用 [Create](create-method-adox.md) 方法创建新的 Microsoft Jet 数据库。</span><span class="sxs-lookup"><span data-stu-id="90b86-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```cpp 
  

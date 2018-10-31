@@ -4,20 +4,22 @@ TOCTitle: ADCPROP_UPDATERESYNC_ENUM
 ms:assetid: 890210c4-2290-ddb2-8814-022093c318de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249600(v=office.15)
 ms:contentKeyID: 48546145
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ce8a0555e758cf2f3435de755720f312705ba374
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 056e68456b3f5bcf30768b0a5a616467c8271a5a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467375"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861405"
 ---
-# <a name="adcpropupdateresyncenum"></a><span data-ttu-id="e55d4-102">ADCPROP\_UPDATERESYNC\_枚举</span><span class="sxs-lookup"><span data-stu-id="e55d4-102">ADCPROP\_UPDATERESYNC\_ENUM</span></span>
+# <a name="adcpropupdateresyncenum"></a><span data-ttu-id="2f6e3-102">ADCPROP\_UPDATERESYNC\_枚举</span><span class="sxs-lookup"><span data-stu-id="2f6e3-102">ADCPROP\_UPDATERESYNC\_ENUM</span></span>
 
-<span data-ttu-id="e55d4-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="e55d4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2f6e3-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f6e3-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="e55d4-104">指定 [UpdateBatch](updatebatch-method-ado.md) 方法后面是否跟随隐式的 [Resync](resync-method-ado.md) 方法操作，如果跟随，则指定该操作的范围。</span><span class="sxs-lookup"><span data-stu-id="e55d4-104">Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.</span></span>
+<span data-ttu-id="2f6e3-104">指定 [UpdateBatch](updatebatch-method-ado.md) 方法后面是否跟随隐式的 [Resync](resync-method-ado.md) 方法操作，如果跟随，则指定该操作的范围。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-104">Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.</span></span>
+
+<br/>
 
 <table>
 <colgroup>
@@ -27,41 +29,41 @@ ms.locfileid: "25467375"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e55d4-105">常量</span><span class="sxs-lookup"><span data-stu-id="e55d4-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="e55d4-106">值</span><span class="sxs-lookup"><span data-stu-id="e55d4-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="e55d4-107">说明</span><span class="sxs-lookup"><span data-stu-id="e55d4-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="2f6e3-105">常量</span><span class="sxs-lookup"><span data-stu-id="2f6e3-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="2f6e3-106">值</span><span class="sxs-lookup"><span data-stu-id="2f6e3-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="2f6e3-107">说明</span><span class="sxs-lookup"><span data-stu-id="2f6e3-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e55d4-108"><strong>adResyncAll</strong></span><span class="sxs-lookup"><span data-stu-id="e55d4-108"><strong>adResyncAll</strong></span></span></p></td>
-<td><p><span data-ttu-id="e55d4-109">15</span><span class="sxs-lookup"><span data-stu-id="e55d4-109">15</span></span></p></td>
-<td><p><span data-ttu-id="e55d4-110">用所有其他 ADCPROP_UPDATERESYNC_ENUM 成员的组合值调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="e55d4-110">Invokes <strong>Resync</strong> with the combined value of all the other ADCPROP_UPDATERESYNC_ENUM members.</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-108"><strong>adResyncAll</strong></span><span class="sxs-lookup"><span data-stu-id="2f6e3-108"><strong>adResyncAll</strong></span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-109">15</span><span class="sxs-lookup"><span data-stu-id="2f6e3-109">15</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-110">用所有其他 ADCPROP_UPDATERESYNC_ENUM 成员的组合值调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-110">Invokes <strong>Resync</strong> with the combined value of all the other ADCPROP_UPDATERESYNC_ENUM members.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e55d4-111"><strong>adResyncAutoIncrement</strong></span><span class="sxs-lookup"><span data-stu-id="e55d4-111"><strong>adResyncAutoIncrement</strong></span></span></p></td>
-<td><p><span data-ttu-id="e55d4-112">1</span><span class="sxs-lookup"><span data-stu-id="e55d4-112">1</span></span></p></td>
-<td><p><span data-ttu-id="e55d4-p101">默认值。尝试检索由数据源自动递增或生成的列（如 Microsoft Jet AutoNumber 字段或 Microsoft SQL Server Identity 列）的新标识值。</span><span class="sxs-lookup"><span data-stu-id="e55d4-p101">Default. Attempts to retrieve the new identity value for columns that are automatically incremented or generated by the data source, such as Microsoft Jet AutoNumber fields or Microsoft SQL Server Identity columns.</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-111"><strong>adResyncAutoIncrement</strong></span><span class="sxs-lookup"><span data-stu-id="2f6e3-111"><strong>adResyncAutoIncrement</strong></span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-112">1</span><span class="sxs-lookup"><span data-stu-id="2f6e3-112">1</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-p101">默认值。尝试检索由数据源自动递增或生成的列（如 Microsoft Jet AutoNumber 字段或 Microsoft SQL Server Identity 列）的新标识值。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-p101">Default. Attempts to retrieve the new identity value for columns that are automatically incremented or generated by the data source, such as Microsoft Jet AutoNumber fields or Microsoft SQL Server Identity columns.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e55d4-115"><strong>adResyncConflicts</strong></span><span class="sxs-lookup"><span data-stu-id="e55d4-115"><strong>adResyncConflicts</strong></span></span></p></td>
-<td><p><span data-ttu-id="e55d4-116">2</span><span class="sxs-lookup"><span data-stu-id="e55d4-116">2</span></span></p></td>
-<td><p><span data-ttu-id="e55d4-117">对于由于并发冲突而导致更新或删除操作失败的所有行，调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="e55d4-117">Invokes <strong>Resync</strong> for all rows in which the update or delete operation failed because of a concurrency conflict.</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-115"><strong>adResyncConflicts</strong></span><span class="sxs-lookup"><span data-stu-id="2f6e3-115"><strong>adResyncConflicts</strong></span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-116">2</span><span class="sxs-lookup"><span data-stu-id="2f6e3-116">2</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-117">对于由于并发冲突而导致更新或删除操作失败的所有行，调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-117">Invokes <strong>Resync</strong> for all rows in which the update or delete operation failed because of a concurrency conflict.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e55d4-118"><strong>adResyncInserts</strong></span><span class="sxs-lookup"><span data-stu-id="e55d4-118"><strong>adResyncInserts</strong></span></span></p></td>
-<td><p><span data-ttu-id="e55d4-119">8</span><span class="sxs-lookup"><span data-stu-id="e55d4-119">8</span></span></p></td>
-<td><p><span data-ttu-id="e55d4-120">所有成功插入行中调用<strong>Resync</strong> 。</span><span class="sxs-lookup"><span data-stu-id="e55d4-120">Invokes <strong>Resync</strong> for all successfully inserted rows.</span></span> <span data-ttu-id="e55d4-121">但是，不重新同步 AutoIncrement 列的值。</span><span class="sxs-lookup"><span data-stu-id="e55d4-121">However, AutoIncrement column values are not resynchronized.</span></span> <span data-ttu-id="e55d4-122">而是新插入行的内容是重新同步基于现有主关键字的值。</span><span class="sxs-lookup"><span data-stu-id="e55d4-122">Instead, the contents of newly inserted rows are resynchronized based on the existing primary key value.</span></span> <span data-ttu-id="e55d4-123">如果为主键为一个自动增量值，则<strong>Resync</strong>不会检索目标行的内容。</span><span class="sxs-lookup"><span data-stu-id="e55d4-123">If the primary key is an AutoIncrement value, <strong>Resync</strong> won't retrieve the contents of the intended row.</span></span> <span data-ttu-id="e55d4-124">有关自动递增 AutoIncrement 主键值，与组合的值<strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>调用<strong>UpdateBatch</strong> 。</span><span class="sxs-lookup"><span data-stu-id="e55d4-124">For automatically incrementing AutoIncrement primary key values, call <strong>UpdateBatch</strong> with the combined value <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-118"><strong>adResyncInserts</strong></span><span class="sxs-lookup"><span data-stu-id="2f6e3-118"><strong>adResyncInserts</strong></span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-119">8</span><span class="sxs-lookup"><span data-stu-id="2f6e3-119">8</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-120">所有成功插入行中调用<strong>Resync</strong> 。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-120">Invokes <strong>Resync</strong> for all successfully inserted rows.</span></span> <span data-ttu-id="2f6e3-121">但是，不重新同步 AutoIncrement 列的值。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-121">However, AutoIncrement column values are not resynchronized.</span></span> <span data-ttu-id="2f6e3-122">而是新插入行的内容是重新同步基于现有主关键字的值。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-122">Instead, the contents of newly inserted rows are resynchronized based on the existing primary key value.</span></span> <span data-ttu-id="2f6e3-123">如果为主键为一个自动增量值，则<strong>Resync</strong>不会检索目标行的内容。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-123">If the primary key is an AutoIncrement value, <strong>Resync</strong> won't retrieve the contents of the intended row.</span></span> <span data-ttu-id="2f6e3-124">有关自动递增 AutoIncrement 主键值，与组合的值<strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>调用<strong>UpdateBatch</strong> 。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-124">For automatically incrementing AutoIncrement primary key values, call <strong>UpdateBatch</strong> with the combined value <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e55d4-125"><strong>adResyncNone</strong></span><span class="sxs-lookup"><span data-stu-id="e55d4-125"><strong>adResyncNone</strong></span></span></p></td>
-<td><p><span data-ttu-id="e55d4-126">0</span><span class="sxs-lookup"><span data-stu-id="e55d4-126">0</span></span></p></td>
-<td><p><span data-ttu-id="e55d4-127">不调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="e55d4-127">Does not invoke <strong>Resync</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-125"><strong>adResyncNone</strong></span><span class="sxs-lookup"><span data-stu-id="2f6e3-125"><strong>adResyncNone</strong></span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-126">0</span><span class="sxs-lookup"><span data-stu-id="2f6e3-126">0</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-127">不调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-127">Does not invoke <strong>Resync</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e55d4-128"><strong>adResyncUpdates</strong></span><span class="sxs-lookup"><span data-stu-id="e55d4-128"><strong>adResyncUpdates</strong></span></span></p></td>
-<td><p><span data-ttu-id="e55d4-129">4</span><span class="sxs-lookup"><span data-stu-id="e55d4-129">4</span></span></p></td>
-<td><p><span data-ttu-id="e55d4-130">对于所有已成功更新的行调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="e55d4-130">Invokes <strong>Resync</strong> for all successfully updated rows.</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-128"><strong>adResyncUpdates</strong></span><span class="sxs-lookup"><span data-stu-id="2f6e3-128"><strong>adResyncUpdates</strong></span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-129">4</span><span class="sxs-lookup"><span data-stu-id="2f6e3-129">4</span></span></p></td>
+<td><p><span data-ttu-id="2f6e3-130">对于所有已成功更新的行调用 <strong>Resync</strong>。</span><span class="sxs-lookup"><span data-stu-id="2f6e3-130">Invokes <strong>Resync</strong> for all successfully updated rows.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,24 +1,24 @@
 ---
 title: AddNew 方法示例 (VJ++)
-TOCTitle: AddNew Method Example (VJ++)
+TOCTitle: AddNew method example (VJ++)
 ms:assetid: 25924e0d-8cfb-13c3-0a56-0a6feb2787be
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249023(v=office.15)
 ms:contentKeyID: 48543786
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f58dcf160c8f2480ae4e48992e96903d5d97cf92
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c2d373e22445a064dc467c30e6ba9eb0c45a547d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466288"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862581"
 ---
-# <a name="addnew-method-example-vj"></a><span data-ttu-id="900a6-102">AddNew 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="900a6-102">AddNew Method Example (VJ++)</span></span>
+# <a name="addnew-method-example-vj"></a><span data-ttu-id="ea159-102">AddNew 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ea159-102">AddNew method example (VJ++)</span></span>
 
 
-<span data-ttu-id="900a6-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="900a6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ea159-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea159-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="900a6-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具有指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="900a6-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="ea159-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具有指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="ea159-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```java 
  

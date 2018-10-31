@@ -1,24 +1,24 @@
 ---
 title: Procedures 的 Delete 方法示例 (VB)
-TOCTitle: Procedures Delete Method Example (VB)
+TOCTitle: Procedures Delete method example (VB)
 ms:assetid: 1cbae0a2-0035-d03f-b9c6-5453ddd51ec4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248964(v=office.15)
 ms:contentKeyID: 48543576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1933efe1beafff3211632a11348af6779715372
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3a309f8013d8766a107f2d326b8c4f36645b7b25
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466046"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863701"
 ---
-# <a name="procedures-delete-method-example-vb"></a><span data-ttu-id="07672-102">Procedures 的 Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="07672-102">Procedures Delete Method Example (VB)</span></span>
+# <a name="procedures-delete-method-example-vb"></a><span data-ttu-id="3fd33-102">Procedures 的 Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="3fd33-102">Procedures Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="07672-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="07672-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3fd33-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fd33-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="07672-104">下面的代码演示如何使用 [Procedures](procedures-collection-adox.md) 集合的 [Delete](delete-method-adox-collections.md) 方法删除过程。</span><span class="sxs-lookup"><span data-stu-id="07672-104">The following code demonstrates how to delete a procedure using the [Procedures](procedures-collection-adox.md) collection [Delete](delete-method-adox-collections.md) method.</span></span>
+<span data-ttu-id="3fd33-104">下面的代码演示如何使用 [Procedures](procedures-collection-adox.md) 集合的 [Delete](delete-method-adox-collections.md) 方法删除过程。</span><span class="sxs-lookup"><span data-stu-id="3fd33-104">The following code demonstrates how to delete a procedure using the [Procedures](procedures-collection-adox.md) collection [Delete](delete-method-adox-collections.md) method.</span></span>
 
 ```vb 
  

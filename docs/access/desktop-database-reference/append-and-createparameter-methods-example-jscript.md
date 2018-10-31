@@ -1,24 +1,24 @@
 ---
 title: Append 和 CreateParameter 方法示例 (JScript)
-TOCTitle: Append and CreateParameter Methods Example (JScript)
+TOCTitle: Append and CreateParameter methods example (JScript)
 ms:assetid: 77de4191-12f1-cd6b-1805-02546fe0a942
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249494(v=office.15)
 ms:contentKeyID: 48545737
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f638db5e43ba15e7b1ae866ca1d8352ad977a93b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bd397e13a74c68367d5be4256172d31a469ae509
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468011"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862161"
 ---
-# <a name="append-and-createparameter-methods-example-jscript"></a><span data-ttu-id="7df1b-102">Append 和 CreateParameter 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="7df1b-102">Append and CreateParameter Methods Example (JScript)</span></span>
+# <a name="append-and-createparameter-methods-example-jscript"></a><span data-ttu-id="59701-102">Append 和 CreateParameter 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="59701-102">Append and CreateParameter methods example (JScript)</span></span>
 
 
-<span data-ttu-id="7df1b-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="7df1b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="59701-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="59701-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="7df1b-p101">以下示例使用 [Append](append-method-ado.md) 和 [CreateParameter](createparameter-method-ado.md) 方法执行带输入参数的存储过程。将以下代码剪切并粘贴到记事本或其他文本编辑器，并另存为 **AppendJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="7df1b-p101">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter. Cut and paste the following code to Notepad or another text editor, and save it as **AppendJS.asp**.</span></span>
+<span data-ttu-id="59701-p101">以下示例使用 [Append](append-method-ado.md) 和 [CreateParameter](createparameter-method-ado.md) 方法执行带输入参数的存储过程。将以下代码剪切并粘贴到记事本或其他文本编辑器，并另存为 **AppendJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="59701-p101">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter. Cut and paste the following code to Notepad or another text editor, and save it as **AppendJS.asp**.</span></span>
 
 ```javascript 
  
@@ -29,7 +29,7 @@ ms.locfileid: "25468011"
  
 <html> 
 <head> 
- <title>Append and CreateParameter Methods Example (JScript)</title> 
+ <title>Append and CreateParameter methods example (JScript)</title> 
 <style> 
 <!-- 
 body { 
@@ -42,7 +42,7 @@ body {
 </head> 
  
 <body> 
-<h1>Append and CreateParameter Methods Example (JScript)</h1> 
+<h1>Append and CreateParameter methods example (JScript)</h1> 
 <% 
  // verify user-input 
  var iRoyalty = parseInt(Request.Form("RoyaltyValue")); 

@@ -1,24 +1,24 @@
 ---
 title: GetObjectOwner 和 SetObjectOwner 方法示例 (VC++)
-TOCTitle: GetObjectOwner and SetObjectOwner Methods Example (VC++)
+TOCTitle: GetObjectOwner and SetObjectOwner methods example (VC++)
 ms:assetid: af38cc5c-4475-20fa-edcd-a439e1ffbf99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249835(v=office.15)
 ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1efe20d78c6be737ee32b5b8156a9d311ad654e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 488e4f966bb37dd151eca8ab7231769373cc06e8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467788"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864191"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="b5ad2-102">GetObjectOwner 和 SetObjectOwner 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="b5ad2-102">GetObjectOwner and SetObjectOwner Methods Example (VC++)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="c9d76-102">GetObjectOwner 和 SetObjectOwner 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="c9d76-102">GetObjectOwner and SetObjectOwner methods example (VC++)</span></span>
 
 
-<span data-ttu-id="b5ad2-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5ad2-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c9d76-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9d76-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="b5ad2-p101">本示例演示 [GetObjectOwner](getobjectowner-method-adox.md) 和 [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) 方法。此代码假设存在 Accounting 组（请参阅 [Groups 和 Users 的 Append、ChangePassword 方法示例 (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) 以了解如何将此组添加到系统）。Categories（类别）表的所有者设置为 Accounting。</span><span class="sxs-lookup"><span data-stu-id="b5ad2-p101">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods. This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword Methods Example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system). The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="c9d76-104">本示例演示 [GetObjectOwner](getobjectowner-method-adox.md) 和 [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) 方法。</span><span class="sxs-lookup"><span data-stu-id="c9d76-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods.</span></span> <span data-ttu-id="c9d76-105">此代码假定存在的组 Accounting （请参阅[组和用户 Append、 ChangePassword 方法示例 （VC + +）](groups-and-users-append-changepassword-methods-example-vc.md)以了解如何将该组添加到系统）。</span><span class="sxs-lookup"><span data-stu-id="c9d76-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system).</span></span> <span data-ttu-id="c9d76-106">Categories（类别）表的所有者设置为 Accounting。</span><span class="sxs-lookup"><span data-stu-id="c9d76-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```cpp 
  

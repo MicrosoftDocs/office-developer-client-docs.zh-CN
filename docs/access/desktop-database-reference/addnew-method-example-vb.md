@@ -1,24 +1,24 @@
 ---
 title: AddNew 方法示例 (VB)
-TOCTitle: AddNew Method Example (VB)
+TOCTitle: AddNew method example (VB)
 ms:assetid: 4ba53857-b5ad-d377-98c6-57992f9d69ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249238(v=office.15)
 ms:contentKeyID: 48544697
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a1b2d539c194f11d127e2b43ea33852113aa08f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51b7aaaed8e09aa537794415ff2fddabfcd6a9b6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468941"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860334"
 ---
-# <a name="addnew-method-example-vb"></a><span data-ttu-id="364d5-102">AddNew 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="364d5-102">AddNew Method Example (VB)</span></span>
+# <a name="addnew-method-example-vb"></a><span data-ttu-id="48211-102">AddNew 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="48211-102">AddNew method example (VB)</span></span>
 
 
-<span data-ttu-id="364d5-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="364d5-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="48211-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="48211-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="364d5-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具有指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="364d5-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="48211-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具有指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="48211-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```vb 
  

@@ -1,24 +1,24 @@
 ---
 title: Find 方法示例 (VB)
-TOCTitle: Find Method Example (VB)
+TOCTitle: Find method example (VB)
 ms:assetid: 93fa7cab-e66d-7d9c-22bb-d73b44982649
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249657(v=office.15)
 ms:contentKeyID: 48546408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89f6654f2749aab2f30e55c3543763da76e53a52
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f1c72931381839f7a8340d1d212b2afaa6fc3e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468187"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860929"
 ---
-# <a name="find-method-example-vb"></a><span data-ttu-id="2e9b8-102">Find 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="2e9b8-102">Find Method Example (VB)</span></span>
+# <a name="find-method-example-vb"></a><span data-ttu-id="18315-102">Find 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="18315-102">Find method example (VB)</span></span>
 
 
-<span data-ttu-id="2e9b8-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e9b8-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="18315-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="18315-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="2e9b8-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Find](find-method-ado.md)方法找到并***Pubs***数据库中的业务标题的计数。</span><span class="sxs-lookup"><span data-stu-id="2e9b8-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="2e9b8-105">本示例假设基础提供程序不支持类似功能。</span><span class="sxs-lookup"><span data-stu-id="2e9b8-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="18315-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Find](find-method-ado.md)方法找到并***Pubs***数据库中的业务标题的计数。</span><span class="sxs-lookup"><span data-stu-id="18315-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="18315-105">本示例假设基础提供程序不支持类似功能。</span><span class="sxs-lookup"><span data-stu-id="18315-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```vb 
  

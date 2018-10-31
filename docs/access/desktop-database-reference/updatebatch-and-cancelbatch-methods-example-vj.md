@@ -1,24 +1,24 @@
 ---
 title: UpdateBatch 和 CancelBatch 方法示例 (VJ++)
-TOCTitle: UpdateBatch and CancelBatch Methods Example (VJ++)
+TOCTitle: UpdateBatch and CancelBatch methods example (VJ++)
 ms:assetid: d016c328-e0e2-9b5b-0ac2-e8a00c2c7b1d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250037(v=office.15)
 ms:contentKeyID: 48547829
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 11f85c59cd65c1127ca60b720b33752603623950
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5fe142e8898417e9f1ca7604c030e26942e7cb72
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468725"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861867"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a><span data-ttu-id="bb2ed-102">UpdateBatch 和 CancelBatch 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bb2ed-102">UpdateBatch and CancelBatch Methods Example (VJ++)</span></span>
+# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a><span data-ttu-id="12fc3-102">UpdateBatch 和 CancelBatch 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="12fc3-102">UpdateBatch and CancelBatch methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="bb2ed-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb2ed-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="12fc3-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="12fc3-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="bb2ed-104">以下示例演示了如何结合使用 [UpdateBatch](updatebatch-method-ado.md) 方法和 [CancelBatch](cancelbatch-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="bb2ed-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
+<span data-ttu-id="12fc3-104">以下示例演示了如何结合使用 [UpdateBatch](updatebatch-method-ado.md) 方法和 [CancelBatch](cancelbatch-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="12fc3-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
 
 ```java 
  

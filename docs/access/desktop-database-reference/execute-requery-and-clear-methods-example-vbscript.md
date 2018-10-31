@@ -1,26 +1,26 @@
 ---
 title: Execute、Requery 和 Clear 方法示例 (VBScript)
-TOCTitle: Execute, Requery, and Clear Methods Example (VBScript)
+TOCTitle: Execute, Requery, and Clear methods example (VBScript)
 ms:assetid: 3999d3d8-693b-99ee-421a-7c67ff0e3cbf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249142(v=office.15)
 ms:contentKeyID: 48544252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e8518c7923c2334711891a9b3e02b2f010599357
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 340be13a5b6acb830ec38108d4a279814d1c459a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468480"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863043"
 ---
-# <a name="execute-requery-and-clear-methods-example-vbscript"></a><span data-ttu-id="18be3-102">Execute、Requery 和 Clear 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="18be3-102">Execute, Requery, and Clear Methods Example (VBScript)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vbscript"></a><span data-ttu-id="a9a91-102">Execute、Requery 和 Clear 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="a9a91-102">Execute, Requery, and Clear methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="18be3-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="18be3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a9a91-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9a91-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="18be3-p101">本示例演示同时从 **Command** 对象和 [Connection](command-object-ado.md) 对象运行时的 [Execute](connection-object-ado.md) 方法。本示例还使用 [Requery](requery-method-ado.md) 方法来检索 [Recordset](recordset-object-ado.md) 中的当前数据，并使用 [Clear](clear-method-ado.md) 方法来清除 [Errors](errors-collection-ado.md) 集合的内容。若要使该过程运行，需要 ExecuteCommand 和 PrintOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="18be3-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="a9a91-p101">本示例演示同时从 **Command** 对象和 [Connection](command-object-ado.md) 对象运行时的 [Execute](connection-object-ado.md) 方法。本示例还使用 [Requery](requery-method-ado.md) 方法来检索 [Recordset](recordset-object-ado.md) 中的当前数据，并使用 [Clear](clear-method-ado.md) 方法来清除 [Errors](errors-collection-ado.md) 集合的内容。若要使该过程运行，需要 ExecuteCommand 和 PrintOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="a9a91-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
-<span data-ttu-id="18be3-p102">在 Active Server Page (ASP) 中使用下面的示例。使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **ExecuteVBS.asp** 。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="18be3-p102">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **ExecuteVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="a9a91-p102">在 Active Server Page (ASP) 中使用下面的示例。使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **ExecuteVBS.asp** 。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="a9a91-p102">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **ExecuteVBS.asp**. You can view the result in any client browser.</span></span>
 
 ```vb 
  

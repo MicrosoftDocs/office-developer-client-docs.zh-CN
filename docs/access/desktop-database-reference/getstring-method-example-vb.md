@@ -1,26 +1,26 @@
 ---
 title: GetString 方法示例 (VB)
-TOCTitle: GetString Method Example (VB)
+TOCTitle: GetString method example (VB)
 ms:assetid: fa954e48-0810-9d71-4e24-f3ae2839105a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250280(v=office.15)
 ms:contentKeyID: 48548849
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 64fff0857754fc1a249a1d823a0c827e393d329a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9431711e3a3e2b39d6d59165650bb32e85e84f4a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468193"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861860"
 ---
-# <a name="getstring-method-example-vb"></a><span data-ttu-id="5de81-102">GetString 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="5de81-102">GetString Method Example (VB)</span></span>
+# <a name="getstring-method-example-vb"></a><span data-ttu-id="f5df1-102">GetString 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f5df1-102">GetString method example (VB)</span></span>
 
 
-<span data-ttu-id="5de81-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="5de81-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f5df1-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5df1-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="5de81-104">本示例演示 [GetString](getstring-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="5de81-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
+<span data-ttu-id="f5df1-104">本示例演示 [GetString](getstring-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="f5df1-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
 
-<span data-ttu-id="5de81-105">假设您正在调试某个数据访问问题，并且需要一种快速、简便的方法来显示较小 [Recordset](recordset-object-ado.md) 的当前内容。</span><span class="sxs-lookup"><span data-stu-id="5de81-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="f5df1-105">假设您正在调试某个数据访问问题，并且需要一种快速、简便的方法来显示较小 [Recordset](recordset-object-ado.md) 的当前内容。</span><span class="sxs-lookup"><span data-stu-id="f5df1-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
 
 ```vb 
  

@@ -1,28 +1,28 @@
 ---
 title: AddNew 方法示例 (VBScript)
-TOCTitle: AddNew Method Example (VBScript)
+TOCTitle: AddNew method example (VBScript)
 ms:assetid: a01f01ca-44a7-8743-394d-ef2c4b0919ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249735(v=office.15)
 ms:contentKeyID: 48546699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb519ab40cfb0137c5923029b18494fe5e5bf988
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4f45f9743659e6a0f82d86b1662c178344bf428d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466788"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860110"
 ---
-# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="cfcc8-102">AddNew 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="cfcc8-102">AddNew Method Example (VBScript)</span></span>
+# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="30c83-102">AddNew 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="30c83-102">AddNew method example (VBScript)</span></span>
 
 
-<span data-ttu-id="cfcc8-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfcc8-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="30c83-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="30c83-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="cfcc8-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="30c83-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="30c83-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
-<span data-ttu-id="cfcc8-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="cfcc8-106">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="cfcc8-107">剪切和粘贴到记事本或其他文本编辑器，以下代码并将其保存为**AddNewVBS.asp**。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-107">Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**.</span></span> <span data-ttu-id="cfcc8-108">您可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-108">You can view the result in any client browser.</span></span>
+<span data-ttu-id="30c83-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="30c83-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="30c83-106">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。</span><span class="sxs-lookup"><span data-stu-id="30c83-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="30c83-107">剪切和粘贴到记事本或其他文本编辑器，以下代码并将其保存为**AddNewVBS.asp**。</span><span class="sxs-lookup"><span data-stu-id="30c83-107">Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**.</span></span> <span data-ttu-id="30c83-108">您可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="30c83-108">You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="cfcc8-109">若要实际使用此示例，请 HTML 窗体中添加一条新记录。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-109">To exercise the example, add a new record in the HTML form.</span></span> <span data-ttu-id="cfcc8-110">单击“新增”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-110">Click **Add New**.</span></span> <span data-ttu-id="cfcc8-111">请参阅[Delete 方法示例](delete-method-example-vbscript.md)以移除不需要的记录。</span><span class="sxs-lookup"><span data-stu-id="cfcc8-111">See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
+<span data-ttu-id="30c83-109">若要实际使用此示例，请 HTML 窗体中添加一条新记录。</span><span class="sxs-lookup"><span data-stu-id="30c83-109">To exercise the example, add a new record in the HTML form.</span></span> <span data-ttu-id="30c83-110">单击“新增”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="30c83-110">Click **Add New**.</span></span> <span data-ttu-id="30c83-111">请参阅[Delete 方法示例](delete-method-example-vbscript.md)以移除不需要的记录。</span><span class="sxs-lookup"><span data-stu-id="30c83-111">See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
 
 ```vb
  

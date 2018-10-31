@@ -1,24 +1,24 @@
 ---
 title: Views 和 Fields 集合示例 (VB)
-TOCTitle: Views and Fields Collections Example (VB)
+TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b2b84fa0cef3897777140d25b56e4e1d3191a0e7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d62adad4a62ed02967c6a279501ede5bc750eaea
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465724"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863842"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="31814-102">Views 和 Fields 集合示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="31814-102">Views and Fields Collections Example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="3a1c7-102">Views 和 Fields 集合示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="3a1c7-102">Views and Fields Collections example (VB)</span></span>
 
 
-<span data-ttu-id="31814-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="31814-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3a1c7-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a1c7-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="31814-104">下面的代码演示如何使用 [Command](command-property-adox.md) 属性和 [Recordset](recordset-object-ado.md) 对象检索视图的字段信息。</span><span class="sxs-lookup"><span data-stu-id="31814-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="3a1c7-104">下面的代码演示如何使用 [Command](command-property-adox.md) 属性和 [Recordset](recordset-object-ado.md) 对象检索视图的字段信息。</span><span class="sxs-lookup"><span data-stu-id="3a1c7-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  
