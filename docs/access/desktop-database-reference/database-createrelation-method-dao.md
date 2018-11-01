@@ -10,26 +10,26 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e1e3919cbb47ca00d6fe9f399cba0c77e91417e7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fb530cc31756205e736422f28e7ece3f4cd79440
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606813"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885785"
 ---
-# <a name="databasecreaterelation-method-dao"></a><span data-ttu-id="1cfa8-102">Database.CreateRelation Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="1cfa8-102">Database.CreateRelation Method (DAO)</span></span>
+# <a name="databasecreaterelation-method-dao"></a><span data-ttu-id="c755c-102">Database.CreateRelation Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="c755c-102">Database.CreateRelation Method (DAO)</span></span>
 
-<span data-ttu-id="1cfa8-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1cfa8-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c755c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c755c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1cfa8-p101">创建一个新的 **[Relation](relation-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p101">Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="c755c-p101">创建一个新的 **[Relation](relation-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="c755c-p101">Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1cfa8-106">语法</span><span class="sxs-lookup"><span data-stu-id="1cfa8-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c755c-106">语法</span><span class="sxs-lookup"><span data-stu-id="c755c-106">Syntax</span></span>
 
-<span data-ttu-id="1cfa8-107">*表达式*。CreateRelation （***名称***、***表***、 ***ForeignTable***、***属性***）</span><span class="sxs-lookup"><span data-stu-id="1cfa8-107">*expression* .CreateRelation(***Name***, ***Table***, ***ForeignTable***, ***Attributes***)</span></span>
+<span data-ttu-id="c755c-107">*表达式*。CreateRelation （***名称***、***表***、 ***ForeignTable***、***属性***）</span><span class="sxs-lookup"><span data-stu-id="c755c-107">*expression* .CreateRelation(***Name***, ***Table***, ***ForeignTable***, ***Attributes***)</span></span>
 
-<span data-ttu-id="1cfa8-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="c755c-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="c755c-108">*expression* A variable that represents a **Database** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="1cfa8-109">参数</span><span class="sxs-lookup"><span data-stu-id="1cfa8-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="c755c-109">参数</span><span class="sxs-lookup"><span data-stu-id="c755c-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,66 +40,62 @@ ms.locfileid: "25606813"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1cfa8-110">名称</span><span class="sxs-lookup"><span data-stu-id="1cfa8-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="1cfa8-111">必需/可选</span><span class="sxs-lookup"><span data-stu-id="1cfa8-111">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="1cfa8-112">数据类型</span><span class="sxs-lookup"><span data-stu-id="1cfa8-112">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="1cfa8-113">说明</span><span class="sxs-lookup"><span data-stu-id="1cfa8-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="c755c-110">名称</span><span class="sxs-lookup"><span data-stu-id="c755c-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="c755c-111">必需/可选</span><span class="sxs-lookup"><span data-stu-id="c755c-111">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="c755c-112">数据类型</span><span class="sxs-lookup"><span data-stu-id="c755c-112">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="c755c-113">说明</span><span class="sxs-lookup"><span data-stu-id="c755c-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1cfa8-114">名称</span><span class="sxs-lookup"><span data-stu-id="1cfa8-114">Name</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-115">可选</span><span class="sxs-lookup"><span data-stu-id="1cfa8-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1cfa8-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-p102">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于对新的 <strong>Relation</strong> 对象进行唯一命名。有关有效 <strong>Relation</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>Relation</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Relation</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="c755c-114">名称</span><span class="sxs-lookup"><span data-stu-id="c755c-114">Name</span></span></p></td>
+<td><p><span data-ttu-id="c755c-115">可选</span><span class="sxs-lookup"><span data-stu-id="c755c-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="c755c-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c755c-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="c755c-p102">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于对新的 <strong>Relation</strong> 对象进行唯一命名。有关有效 <strong>Relation</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="c755c-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>Relation</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Relation</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1cfa8-119">Table</span><span class="sxs-lookup"><span data-stu-id="1cfa8-119">Table</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-120">可选</span><span class="sxs-lookup"><span data-stu-id="1cfa8-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1cfa8-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-p103">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于命名关系中的主表。如果在追加 <strong>Relation</strong> 对象之前该表不存在，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p103">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the primary table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="c755c-119">Table</span><span class="sxs-lookup"><span data-stu-id="c755c-119">Table</span></span></p></td>
+<td><p><span data-ttu-id="c755c-120">可选</span><span class="sxs-lookup"><span data-stu-id="c755c-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="c755c-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c755c-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="c755c-p103">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于命名关系中的主表。如果在追加 <strong>Relation</strong> 对象之前该表不存在，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="c755c-p103">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the primary table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1cfa8-124">ForeignTable</span><span class="sxs-lookup"><span data-stu-id="1cfa8-124">ForeignTable</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-125">可选</span><span class="sxs-lookup"><span data-stu-id="1cfa8-125">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1cfa8-126"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-p104">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于命名关系中的外表。如果在追加 <strong>Relation</strong> 对象之前该表不存在，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the foreign table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="c755c-124">ForeignTable</span><span class="sxs-lookup"><span data-stu-id="c755c-124">ForeignTable</span></span></p></td>
+<td><p><span data-ttu-id="c755c-125">可选</span><span class="sxs-lookup"><span data-stu-id="c755c-125">Optional</span></span></p></td>
+<td><p><span data-ttu-id="c755c-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c755c-126"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="c755c-p104">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于命名关系中的外表。如果在追加 <strong>Relation</strong> 对象之前该表不存在，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="c755c-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the foreign table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1cfa8-129">Attributes</span><span class="sxs-lookup"><span data-stu-id="1cfa8-129">Attributes</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-130">可选</span><span class="sxs-lookup"><span data-stu-id="1cfa8-130">Optional</span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="1cfa8-131"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="1cfa8-p105">一个常量或常量组合，包含有关关系类型的信息。有关详细信息，请参阅 <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p105">A constant or combination of constants that contains information about the relationship type. See the <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> property for details.</span></span></p></td>
+<td><p><span data-ttu-id="c755c-129">Attributes</span><span class="sxs-lookup"><span data-stu-id="c755c-129">Attributes</span></span></p></td>
+<td><p><span data-ttu-id="c755c-130">可选</span><span class="sxs-lookup"><span data-stu-id="c755c-130">Optional</span></span></p></td>
+<td><p><span data-ttu-id="c755c-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="c755c-131"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="c755c-p105">一个常量或常量组合，包含有关关系类型的信息。有关详细信息，请参阅 <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="c755c-p105">A constant or combination of constants that contains information about the relationship type. See the <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> property for details.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="1cfa8-134"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="1cfa8-134"><<<<<<< HEAD</span></span>
-### <a name="return-value"></a><span data-ttu-id="1cfa8-135">返回值</span><span class="sxs-lookup"><span data-stu-id="1cfa8-135">Return Value</span></span>
-=======
-### <a name="return-value"></a><span data-ttu-id="1cfa8-136">返回值</span><span class="sxs-lookup"><span data-stu-id="1cfa8-136">Return value</span></span>
->>>>>>> <span data-ttu-id="1cfa8-137">master</span><span class="sxs-lookup"><span data-stu-id="1cfa8-137">master</span></span>
+### <a name="return-value"></a><span data-ttu-id="c755c-134">返回值</span><span class="sxs-lookup"><span data-stu-id="c755c-134">Return value</span></span>
 
-<span data-ttu-id="1cfa8-138">Relation</span><span class="sxs-lookup"><span data-stu-id="1cfa8-138">Relation</span></span>
+<span data-ttu-id="c755c-135">Relation</span><span class="sxs-lookup"><span data-stu-id="c755c-135">Relation</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1cfa8-139">注解</span><span class="sxs-lookup"><span data-stu-id="1cfa8-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c755c-136">注解</span><span class="sxs-lookup"><span data-stu-id="c755c-136">Remarks</span></span>
 
-<span data-ttu-id="1cfa8-p106">**Relation** 对象向 Microsoft Access 数据库引擎提供有关两个 **[TableDef](tabledef-object-dao.md)** 对象或 **[QueryDef](querydef-object-dao.md)** 对象中的字段之间的关系的信息。可以通过使用 **Attributes** 属性来实现参照完整性。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p106">The **Relation** object provides information to the Microsoft Access database engine about the relationship between fields in two **[TableDef](tabledef-object-dao.md)** or **[QueryDef](querydef-object-dao.md)** objects. You can implement referential integrity by using the **Attributes** property.</span></span>
+<span data-ttu-id="c755c-p106">**Relation** 对象向 Microsoft Access 数据库引擎提供有关两个 **[TableDef](tabledef-object-dao.md)** 对象或 **[QueryDef](querydef-object-dao.md)** 对象中的字段之间的关系的信息。可以通过使用 **Attributes** 属性来实现参照完整性。</span><span class="sxs-lookup"><span data-stu-id="c755c-p106">The **Relation** object provides information to the Microsoft Access database engine about the relationship between fields in two **[TableDef](tabledef-object-dao.md)** or **[QueryDef](querydef-object-dao.md)** objects. You can implement referential integrity by using the **Attributes** property.</span></span>
 
-<span data-ttu-id="1cfa8-p107">如果使用 **CreateRelation** 方法时省略了一个或多个可选部分，则可以在将新对象追加到集合之前，使用适当的赋值语句设置或重置相应的属性。追加对象后，不能改动此对象的任何属性设置。有关详细信息，请参阅各个属性主题。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p107">If you omit one or more of the optional parts when you use the **CreateRelation** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can't alter any of its property settings. See the individual property topics for more details.</span></span>
+<span data-ttu-id="c755c-p107">如果使用 **CreateRelation** 方法时省略了一个或多个可选部分，则可以在将新对象追加到集合之前，使用适当的赋值语句设置或重置相应的属性。追加对象后，不能改动此对象的任何属性设置。有关详细信息，请参阅各个属性主题。</span><span class="sxs-lookup"><span data-stu-id="c755c-p107">If you omit one or more of the optional parts when you use the **CreateRelation** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can't alter any of its property settings. See the individual property topics for more details.</span></span>
 
-<span data-ttu-id="1cfa8-145">对 [Relation](fields-append-method-dao.md) 对象使用 \*\*\*\*Append\*\*\*\* 方法之前，必须追加相应的 **[Field](field-object-dao.md)** 对象以定义主键和外键关系表。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-145">Before you can use the **[Append](fields-append-method-dao.md)** method on a **Relation** object, you must append the appropriate **[Field](field-object-dao.md)** objects to define the primary and foreign key relationship tables.</span></span>
+<span data-ttu-id="c755c-142">对 [Relation](fields-append-method-dao.md) 对象使用 \*\*\*\*Append\*\*\*\* 方法之前，必须追加相应的 **[Field](field-object-dao.md)** 对象以定义主键和外键关系表。</span><span class="sxs-lookup"><span data-stu-id="c755c-142">Before you can use the **[Append](fields-append-method-dao.md)** method on a **Relation** object, you must append the appropriate **[Field](field-object-dao.md)** objects to define the primary and foreign key relationship tables.</span></span>
 
-<span data-ttu-id="1cfa8-146">如果 name 引用已经是集合成员的对象或提供的从属**Fields**集合中的**Field**对象名称均无效，当您使用**Append**方法时，发生此事件运行时错误。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-146">If name refers to an object that is already a member of the collection or if the **Field** object names provided in the subordinate **Fields** collection are invalid, a run-time error occurs when you use the **Append** method.</span></span>
+<span data-ttu-id="c755c-143">如果 name 引用已经是集合成员的对象或提供的从属**Fields**集合中的**Field**对象名称均无效，当您使用**Append**方法时，发生此事件运行时错误。</span><span class="sxs-lookup"><span data-stu-id="c755c-143">If name refers to an object that is already a member of the collection or if the **Field** object names provided in the subordinate **Fields** collection are invalid, a run-time error occurs when you use the **Append** method.</span></span>
 
-<span data-ttu-id="1cfa8-147">不能在复制表和本地表之间建立或维持关系。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-147">You can't establish or maintain a relationship between a replicated table and a local table.</span></span>
+<span data-ttu-id="c755c-144">不能在复制表和本地表之间建立或维持关系。</span><span class="sxs-lookup"><span data-stu-id="c755c-144">You can't establish or maintain a relationship between a replicated table and a local table.</span></span>
 
-<span data-ttu-id="1cfa8-148">若要从 [**Relations**](relations-collection-dao.md) 集合中删除 **Relation** 对象，请对集合使用 **[Delete](fields-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-148">To remove a **Relation** object from the **[Relations](relations-collection-dao.md)** collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="c755c-145">若要从 [**Relations**](relations-collection-dao.md) 集合中删除 **Relation** 对象，请对集合使用 **[Delete](fields-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="c755c-145">To remove a **Relation** object from the **[Relations](relations-collection-dao.md)** collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1cfa8-149">示例</span><span class="sxs-lookup"><span data-stu-id="1cfa8-149">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c755c-146">示例</span><span class="sxs-lookup"><span data-stu-id="c755c-146">Example</span></span>
 
-<span data-ttu-id="1cfa8-p108">以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。该示例还演示创建新的 **Relation** 将如何同时在外部表中创建任何需要的 **Indexes**（Employees 表中的 DepartmentsEmployees 索引）。</span><span class="sxs-lookup"><span data-stu-id="1cfa8-p108">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
+<span data-ttu-id="c755c-p108">以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。该示例还演示创建新的 **Relation** 将如何同时在外部表中创建任何需要的 **Indexes**（Employees 表中的 DepartmentsEmployees 索引）。</span><span class="sxs-lookup"><span data-stu-id="c755c-p108">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
 
 ```vb
     Sub CreateRelationX() 

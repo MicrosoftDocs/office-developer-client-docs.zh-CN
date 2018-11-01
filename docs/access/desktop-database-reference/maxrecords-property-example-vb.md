@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="40ebe-101"><<<<<<< 标头标题： MaxRecords 属性示例 (VB) TOCTitle: MaxRecords 属性示例 (VB) === 标题： MaxRecords 属性示例 (VB) TOCTitle: MaxRecords 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="40ebe-101"><<<<<<< HEAD title: MaxRecords Property Example (VB) TOCTitle: MaxRecords Property Example (VB) ======= title: MaxRecords property example (VB) TOCTitle: MaxRecords property example (VB)</span></span>
->>>>>>> <span data-ttu-id="40ebe-102">母版页 ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15) ms:contentKeyID: 48548241 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="40ebe-102">master ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15) ms:contentKeyID: 48548241 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: MaxRecords 属性示例 (VB)
+TOCTitle: MaxRecords property example (VB)
+ms:assetid: e0b21025-3494-81a7-d656-03b85b0102d2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250142(v=office.15)
+ms:contentKeyID: 48548241
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4ad7dc4370419c46a1f4d7a4b2511dd86795c323
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876517"
 ---
-
-<span data-ttu-id="40ebe-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="40ebe-103"><<<<<<< HEAD</span></span>
-# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="40ebe-104">MaxRecords 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="40ebe-104">MaxRecords Property Example (VB)</span></span>
-=======
-# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="40ebe-105">MaxRecords 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="40ebe-105">MaxRecords property example (VB)</span></span>
->>>>>>> <span data-ttu-id="40ebe-106">master</span><span class="sxs-lookup"><span data-stu-id="40ebe-106">master</span></span>
+# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="190d0-102">MaxRecords 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="190d0-102">MaxRecords property example (VB)</span></span>
 
 
-<span data-ttu-id="40ebe-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="40ebe-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="190d0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="190d0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="40ebe-108">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="40ebe-108">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="190d0-104">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="190d0-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```vb 
  

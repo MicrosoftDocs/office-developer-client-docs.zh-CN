@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="5b496-101"><<<<<<< 标头标题： PrimaryKey 和唯一属性示例 （VC + +） TOCTitle: PrimaryKey 和唯一属性示例 （VC + +） === 标题： PrimaryKey 和 Unique 属性示例 （VC + +） TOCTitle: PrimaryKey 和 Unique 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="5b496-101"><<<<<<< HEAD title: PrimaryKey and Unique Properties Example (VC++) TOCTitle: PrimaryKey and Unique Properties Example (VC++) ======= title: PrimaryKey and Unique properties example (VC++) TOCTitle: PrimaryKey and Unique properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="5b496-102">母版页 ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="5b496-102">master ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: PrimaryKey 和 Unique 属性示例 (VC++)
+TOCTitle: PrimaryKey and Unique properties example (VC++)
+ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
+ms:contentKeyID: 48543158
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ec71b8aec6990fbd0f05312fecf751c568773a3d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883405"
 ---
-
-<span data-ttu-id="5b496-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="5b496-103"><<<<<<< HEAD</span></span>
-# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="5b496-104">PrimaryKey 和 Unique 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="5b496-104">PrimaryKey and Unique Properties Example (VC++)</span></span>
-=======
-# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="5b496-105">PrimaryKey 和 Unique 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="5b496-105">PrimaryKey and Unique properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="5b496-106">master</span><span class="sxs-lookup"><span data-stu-id="5b496-106">master</span></span>
+# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="85844-102">PrimaryKey 和 Unique 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="85844-102">PrimaryKey and Unique properties example (VC++)</span></span>
 
 
-<span data-ttu-id="5b496-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="5b496-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="85844-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="85844-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5b496-p101">本示例演示 [Index](primarykey-property-adox.md) 的 [PrimaryKey](unique-property-adox.md) 和 [Unique](index-object-adox.md) 属性。代码创建一个带有两个列的新表。 **PrimaryKey** 和 **Unique** 属性用于使其中一列成为不允许出现重复值的主键。</span><span class="sxs-lookup"><span data-stu-id="5b496-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
+<span data-ttu-id="85844-p101">本示例演示 [Index](primarykey-property-adox.md) 的 [PrimaryKey](unique-property-adox.md) 和 [Unique](index-object-adox.md) 属性。代码创建一个带有两个列的新表。 **PrimaryKey** 和 **Unique** 属性用于使其中一列成为不允许出现重复值的主键。</span><span class="sxs-lookup"><span data-stu-id="85844-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
 
 ```cpp 
  
