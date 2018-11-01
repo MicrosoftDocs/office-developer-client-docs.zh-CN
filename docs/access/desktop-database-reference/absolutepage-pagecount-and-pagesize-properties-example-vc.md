@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="a654d-101"><<<<<<< 标头标题： AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)ms:contentKeyID: 48546133 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="a654d-101"><<<<<<< HEAD title: AbsolutePage, PageCount, and PageSize Properties Example (VC++) TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (VC++) ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) ms:contentKeyID: 48546133 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: AbsolutePage、PageCount 和 PageSize 属性示例 (VC++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
+ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
+ms:contentKeyID: 48546133
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 70415069254edf731734dcd742d8d7bfd36f74d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891264"
 ---
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a><span data-ttu-id="a654d-102">AbsolutePage、PageCount 和 PageSize 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="a654d-102">AbsolutePage, PageCount, and PageSize Properties Example (VC++)</span></span>
-<span data-ttu-id="a654d-103">=== 标题： AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) ms:contentKeyID:48546133 ms.date: 10/17/2018 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="a654d-103">======= title: AbsolutePage, PageCount, and PageSize properties example (VC++) TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++) ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) ms:contentKeyID: 48546133 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a><span data-ttu-id="a654d-104">AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="a654d-104">AbsolutePage, PageCount, and PageSize properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="a654d-105">master</span><span class="sxs-lookup"><span data-stu-id="a654d-105">master</span></span>
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a><span data-ttu-id="79552-102">AbsolutePage、PageCount 和 PageSize 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="79552-102">AbsolutePage, PageCount, and PageSize properties example (VC++)</span></span>
 
 
-<span data-ttu-id="a654d-106">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="a654d-106">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="79552-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="79552-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a654d-107">此示例使用 [AbsolutePage](absolutepage-property-ado.md)、[PageCount](pagecount-property-ado.md) 和 [PageSize](pagesize-property-ado.md) 属性显示 ***Employee***（雇员）表中的姓名和雇用日期，每次显示五条记录。</span><span class="sxs-lookup"><span data-stu-id="a654d-107">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.</span></span>
+<span data-ttu-id="79552-104">此示例使用 [AbsolutePage](absolutepage-property-ado.md)、[PageCount](pagecount-property-ado.md) 和 [PageSize](pagesize-property-ado.md) 属性显示 ***Employee***（雇员）表中的姓名和雇用日期，每次显示五条记录。</span><span class="sxs-lookup"><span data-stu-id="79552-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.</span></span>
 
 ```cpp
 // BeginAbsolutePageCpp 
@@ -191,7 +197,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="a654d-108">**AbsolutePageX.h**</span><span class="sxs-lookup"><span data-stu-id="a654d-108">**AbsolutePageX.h**</span></span>
+<span data-ttu-id="79552-105">**AbsolutePageX.h**</span><span class="sxs-lookup"><span data-stu-id="79552-105">**AbsolutePageX.h**</span></span>
 
 ```cpp 
  

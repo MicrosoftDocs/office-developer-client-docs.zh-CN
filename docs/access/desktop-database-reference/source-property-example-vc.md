@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="358f3-101"><<<<<<< 标头标题： Source 属性示例 （VC + +） TOCTitle: Source 属性示例 （VC + +） === 标题： Source 属性示例 （VC + +） TOCTitle: Source 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="358f3-101"><<<<<<< HEAD title: Source Property Example (VC++) TOCTitle: Source Property Example (VC++) ======= title: Source property example (VC++) TOCTitle: Source property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="358f3-102">母版页 ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID: 48543949 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="358f3-102">master ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID: 48543949 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Source 属性示例 (VC++)
+TOCTitle: Source property example (VC++)
+ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
+ms:contentKeyID: 48543949
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d977f962e08ba8497392582fb26cfbf1d8691a28
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881200"
 ---
-
-<span data-ttu-id="358f3-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="358f3-103"><<<<<<< HEAD</span></span>
-# <a name="source-property-example-vc"></a><span data-ttu-id="358f3-104">Source 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="358f3-104">Source Property Example (VC++)</span></span>
-=======
-# <a name="source-property-example-vc"></a><span data-ttu-id="358f3-105">Source 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="358f3-105">Source property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="358f3-106">master</span><span class="sxs-lookup"><span data-stu-id="358f3-106">master</span></span>
+# <a name="source-property-example-vc"></a><span data-ttu-id="d6f9c-102">Source 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="d6f9c-102">Source property example (VC++)</span></span>
 
 
-<span data-ttu-id="358f3-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="358f3-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d6f9c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6f9c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="358f3-108">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="358f3-108">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="d6f9c-104">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="d6f9c-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```cpp 
  

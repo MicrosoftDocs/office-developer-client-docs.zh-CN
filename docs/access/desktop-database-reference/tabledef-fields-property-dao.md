@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1052902
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: feb2bffa7dc29dac35aef92aef5b32c289024e06
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c3abf15e4e89e4f9493cdd4183797223f37df3b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467081"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886030"
 ---
-# <a name="tabledeffields-property-dao"></a><span data-ttu-id="72a96-102">TableDef.Fields Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="72a96-102">TableDef.Fields Property (DAO)</span></span>
+# <a name="tabledeffields-property-dao"></a><span data-ttu-id="e7e7b-102">TableDef.Fields Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="e7e7b-102">TableDef.Fields Property (DAO)</span></span>
 
 
-<span data-ttu-id="72a96-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="72a96-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e7e7b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7e7b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="72a96-p101">返回一个 **Fields** 集合，该集合表示指定对象的所有存储 **Field** 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="72a96-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
+<span data-ttu-id="e7e7b-p101">返回一个 **Fields** 集合，该集合表示指定对象的所有存储 **Field** 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="e7e7b-p101">Returns a **Fields** collection that represents all stored **Field** objects for the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="72a96-106">语法</span><span class="sxs-lookup"><span data-stu-id="72a96-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e7e7b-106">语法</span><span class="sxs-lookup"><span data-stu-id="e7e7b-106">Syntax</span></span>
 
-<span data-ttu-id="72a96-107">*表达式*。字段</span><span class="sxs-lookup"><span data-stu-id="72a96-107">*expression* .Fields</span></span>
+<span data-ttu-id="e7e7b-107">*表达式*。字段</span><span class="sxs-lookup"><span data-stu-id="e7e7b-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="72a96-108">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="72a96-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="e7e7b-108">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="e7e7b-108">*expression* A variable that represents a **TableDef** object.</span></span>
 

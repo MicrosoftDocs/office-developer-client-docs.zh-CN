@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248846(v=office.15)
 ms:contentKeyID: 48543177
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7aa5a47d04f0e20a21e42b8ac9b1a75dda996be5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 97ddfc1561eaf3e131aa6b12d04fd37c96b54e3d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862680"
+ms.locfileid: "25879450"
 ---
-# <a name="append-and-createparameter-methods-example-vb"></a><span data-ttu-id="f8e9f-102">Append 和 CreateParameter 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f8e9f-102">Append and CreateParameter methods example (VB)</span></span>
+# <a name="append-and-createparameter-methods-example-vb"></a><span data-ttu-id="78d23-102">Append 和 CreateParameter 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="78d23-102">Append and CreateParameter methods example (VB)</span></span>
 
 
-<span data-ttu-id="f8e9f-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8e9f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="78d23-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="78d23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f8e9f-104">以下示例使用 [Append](append-method-ado.md) 和 [CreateParameter](createparameter-method-ado.md) 方法执行带输入参数的存储过程。</span><span class="sxs-lookup"><span data-stu-id="f8e9f-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
+<span data-ttu-id="78d23-104">以下示例使用 [Append](append-method-ado.md) 和 [CreateParameter](createparameter-method-ado.md) 方法执行带输入参数的存储过程。</span><span class="sxs-lookup"><span data-stu-id="78d23-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
 
 ```vb 
  

@@ -1,36 +1,38 @@
 ---
-<span data-ttu-id="46c0e-101"><<<<<<< 标头标题： CommandTimeout 属性 (ADO) TOCTitle: CommandTimeout 属性 (ADO) === 标题： CommandTimeout 属性 (ADO) TOCTitle: CommandTimeout 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="46c0e-101"><<<<<<< HEAD title: CommandTimeout Property (ADO) TOCTitle: CommandTimeout Property (ADO) ======= title: CommandTimeout property (ADO) TOCTitle: CommandTimeout property (ADO)</span></span>
->>>>>>> <span data-ttu-id="46c0e-102">母版页 ms:assetid: a0b6209c-9feb-08ae-002a-15d1d20734a8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249739(v=office.15) ms:contentKeyID: 48546714 ms.date: 09/18/2015 mtps_version: office.15.aspx f1_keywords:</span><span class="sxs-lookup"><span data-stu-id="46c0e-102">master ms:assetid: a0b6209c-9feb-08ae-002a-15d1d20734a8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249739(v=office.15) ms:contentKeyID: 48546714 ms.date: 09/18/2015 mtps_version: v=office.15 f1_keywords:</span></span>
-- <span data-ttu-id="46c0e-103">ado210.chm1231124 f1_categories:</span><span class="sxs-lookup"><span data-stu-id="46c0e-103">ado210.chm1231124 f1_categories:</span></span>
-- <span data-ttu-id="46c0e-104">Office.Version=v15</span><span class="sxs-lookup"><span data-stu-id="46c0e-104">Office.Version=v15</span></span>
+title: CommandTimeout 属性 (ADO)
+TOCTitle: CommandTimeout property (ADO)
+ms:assetid: a0b6209c-9feb-08ae-002a-15d1d20734a8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249739(v=office.15)
+ms:contentKeyID: 48546714
+ms.date: 09/18/2015
+mtps_version: v=office.15
+f1_keywords:
+- ado210.chm1231124
+f1_categories:
+- Office.Version=v15
+ms.openlocfilehash: 57e2646afc2cedba398e860b911ee5c799bb2ead
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881913"
 ---
-
-<span data-ttu-id="46c0e-105"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="46c0e-105"><<<<<<< HEAD</span></span>
-# <a name="commandtimeout-property-ado"></a><span data-ttu-id="46c0e-106">CommandTimeout 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="46c0e-106">CommandTimeout Property (ADO)</span></span>
-=======
-# <a name="commandtimeout-property-ado"></a><span data-ttu-id="46c0e-107">CommandTimeout 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="46c0e-107">CommandTimeout property (ADO)</span></span>
->>>>>>> <span data-ttu-id="46c0e-108">master</span><span class="sxs-lookup"><span data-stu-id="46c0e-108">master</span></span>
+# <a name="commandtimeout-property-ado"></a><span data-ttu-id="2fd6c-102">CommandTimeout 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="2fd6c-102">CommandTimeout property (ADO)</span></span>
 
 
-<span data-ttu-id="46c0e-109">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="46c0e-109">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2fd6c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2fd6c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="46c0e-110">指示在执行命令时要等待多长时间才终止操作尝试并生成错误。</span><span class="sxs-lookup"><span data-stu-id="46c0e-110">Indicates how long to wait while executing a command before terminating the attempt and generating an error.</span></span>
+<span data-ttu-id="2fd6c-104">指示在执行命令时要等待多长时间才终止操作尝试并生成错误。</span><span class="sxs-lookup"><span data-stu-id="2fd6c-104">Indicates how long to wait while executing a command before terminating the attempt and generating an error.</span></span>
 
-<span data-ttu-id="46c0e-111"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="46c0e-111"><<<<<<< HEAD</span></span>
-## <a name="settings-and-return-values"></a><span data-ttu-id="46c0e-112">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="46c0e-112">Settings and Return Values</span></span>
-=======
-## <a name="settings-and-return-values"></a><span data-ttu-id="46c0e-113">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="46c0e-113">Settings and return values</span></span>
->>>>>>> <span data-ttu-id="46c0e-114">master</span><span class="sxs-lookup"><span data-stu-id="46c0e-114">master</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="2fd6c-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="2fd6c-105">Settings and return values</span></span>
 
-<span data-ttu-id="46c0e-p101">设置或返回一个 **Long** 值，该值指示等待命令执行的时间（以秒为单位）。默认值为 30。</span><span class="sxs-lookup"><span data-stu-id="46c0e-p101">Sets or returns a **Long** value that indicates, in seconds, how long to wait for a command to execute. Default is 30.</span></span>
+<span data-ttu-id="2fd6c-p101">设置或返回一个 **Long** 值，该值指示等待命令执行的时间（以秒为单位）。默认值为 30。</span><span class="sxs-lookup"><span data-stu-id="2fd6c-p101">Sets or returns a **Long** value that indicates, in seconds, how long to wait for a command to execute. Default is 30.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="46c0e-117">备注</span><span class="sxs-lookup"><span data-stu-id="46c0e-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2fd6c-108">备注</span><span class="sxs-lookup"><span data-stu-id="2fd6c-108">Remarks</span></span>
 
-<span data-ttu-id="46c0e-118"><<<<<<< 标头[Connection](connection-object-ado.md)对象或[Command](command-object-ado.md)对象上使用**CommandTimeout**属性允许取消的[Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\))方法调用，由于从网络流量或大量服务器使用的延迟。</span><span class="sxs-lookup"><span data-stu-id="46c0e-118"><<<<<<< HEAD Use the **CommandTimeout** property on a [Connection](connection-object-ado.md) object or [Command](command-object-ado.md) object to allow the cancellation of an [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) method call, due to delays from network traffic or heavy server use.</span></span> <span data-ttu-id="46c0e-119">如果在完成执行命令前超过了 **CommandTimeout** 属性中设置的间隔时间，则将发生错误，且 ADO 将取消该命令。</span><span class="sxs-lookup"><span data-stu-id="46c0e-119">If the interval set in the **CommandTimeout** property elapses before the command completes execution, an error occurs and ADO cancels the command.</span></span> <span data-ttu-id="46c0e-120">如果将该属性设置为零，ADO 将无限期等待，直到完成执行为止。</span><span class="sxs-lookup"><span data-stu-id="46c0e-120">If you set the property to zero, ADO will wait indefinitely until the execution is complete.</span></span> <span data-ttu-id="46c0e-121">请确保向其中写入代码的提供程序和数据源支持 **CommandTimeout** 功能。</span><span class="sxs-lookup"><span data-stu-id="46c0e-121">Make sure the provider and data source to which you are writing code support the **CommandTimeout** functionality.</span></span>
-<span data-ttu-id="46c0e-122">=== 使用**CommandTimeout**属性在[Connection](connection-object-ado.md)对象或[Command](command-object-ado.md)对象上允许取消的[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)方法调用，由于从网络流量或大量服务器使用的延迟。</span><span class="sxs-lookup"><span data-stu-id="46c0e-122">======= Use the **CommandTimeout** property on a [Connection](connection-object-ado.md) object or [Command](command-object-ado.md) object to allow the cancellation of an [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method call, due to delays from network traffic or heavy server use.</span></span> <span data-ttu-id="46c0e-123">如果在完成执行命令前超过了 **CommandTimeout** 属性中设置的间隔时间，则将发生错误，且 ADO 将取消该命令。</span><span class="sxs-lookup"><span data-stu-id="46c0e-123">If the interval set in the **CommandTimeout** property elapses before the command completes execution, an error occurs and ADO cancels the command.</span></span> <span data-ttu-id="46c0e-124">如果将该属性设置为零，ADO 将无限期等待，直到完成执行为止。</span><span class="sxs-lookup"><span data-stu-id="46c0e-124">If you set the property to zero, ADO will wait indefinitely until the execution is complete.</span></span> <span data-ttu-id="46c0e-125">请确保向其中写入代码的提供程序和数据源支持 **CommandTimeout** 功能。</span><span class="sxs-lookup"><span data-stu-id="46c0e-125">Make sure the provider and data source to which you are writing code support the **CommandTimeout** functionality.</span></span>
->>>>>>> <span data-ttu-id="46c0e-126">master</span><span class="sxs-lookup"><span data-stu-id="46c0e-126">master</span></span>
+<span data-ttu-id="2fd6c-p102">使用 **Connection** 对象或 [Command](connection-object-ado.md) 对象上的 [CommandTimeout](command-object-ado.md) 属性，可以允许在网络通信延迟或服务器负载太大的情况下取消 [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 方法调用。如果在完成执行命令前超过了 **CommandTimeout** 属性中设置的间隔时间，则将发生错误，且 ADO 将取消该命令。如果将该属性设置为零，ADO 将无限期等待，直到完成执行为止。请确保向其中写入代码的提供程序和数据源支持 **CommandTimeout** 功能。</span><span class="sxs-lookup"><span data-stu-id="2fd6c-p102">Use the **CommandTimeout** property on a [Connection](connection-object-ado.md) object or [Command](command-object-ado.md) object to allow the cancellation of an [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method call, due to delays from network traffic or heavy server use. If the interval set in the **CommandTimeout** property elapses before the command completes execution, an error occurs and ADO cancels the command. If you set the property to zero, ADO will wait indefinitely until the execution is complete. Make sure the provider and data source to which you are writing code support the **CommandTimeout** functionality.</span></span>
 
-<span data-ttu-id="46c0e-127">**Connection** 对象上的 **CommandTimeout** 设置对同一个 **Connection** 中的 **Command** 对象的 **CommandTimeout** 设置没有影响；即， **Command** 对象的 **CommandTimeout** 属性并不会继承 **Connection** 对象的 **CommandTimeout** 值。</span><span class="sxs-lookup"><span data-stu-id="46c0e-127">The **CommandTimeout** setting on a **Connection** object has no effect on the **CommandTimeout** setting on a **Command** object on the same **Connection**; that is, the **Command** object's **CommandTimeout** property does not inherit the value of the **Connection** object's **CommandTimeout** value.</span></span>
+<span data-ttu-id="2fd6c-113">**Connection** 对象上的 **CommandTimeout** 设置对同一个 **Connection** 中的 **Command** 对象的 **CommandTimeout** 设置没有影响；即， **Command** 对象的 **CommandTimeout** 属性并不会继承 **Connection** 对象的 **CommandTimeout** 值。</span><span class="sxs-lookup"><span data-stu-id="2fd6c-113">The **CommandTimeout** setting on a **Connection** object has no effect on the **CommandTimeout** setting on a **Command** object on the same **Connection**; that is, the **Command** object's **CommandTimeout** property does not inherit the value of the **Connection** object's **CommandTimeout** value.</span></span>
 
-<span data-ttu-id="46c0e-128">在 **Connection** 对象上， **CommandTimeout** 属性会在该 **Connection** 打开后保持可读/写状态。</span><span class="sxs-lookup"><span data-stu-id="46c0e-128">On a **Connection** object, the **CommandTimeout** property remains read/write after the **Connection** is opened.</span></span>
+<span data-ttu-id="2fd6c-114">在 **Connection** 对象上， **CommandTimeout** 属性会在该 **Connection** 打开后保持可读/写状态。</span><span class="sxs-lookup"><span data-stu-id="2fd6c-114">On a **Connection** object, the **CommandTimeout** property remains read/write after the **Connection** is opened.</span></span>
 
