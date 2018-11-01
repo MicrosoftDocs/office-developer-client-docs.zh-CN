@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="26623-101"><<<<<<< 标头标题： Provider 和 DefaultDatabase 属性示例 (VB) TOCTitle: Provider 和 DefaultDatabase 属性示例 (VB) === 标题： Provider 和 DefaultDatabase 属性示例 (VB) TOCTitle： 提供程序和DefaultDatabase 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="26623-101"><<<<<<< HEAD title: Provider and DefaultDatabase Properties Example (VB) TOCTitle: Provider and DefaultDatabase Properties Example (VB) ======= title: Provider and DefaultDatabase properties example (VB) TOCTitle: Provider and DefaultDatabase properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="26623-102">母版页 ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: 48544107 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="26623-102">master ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15) ms:contentKeyID: 48544107 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Provider 和 DefaultDatabase 属性示例 (VB)
+TOCTitle: Provider and DefaultDatabase properties example (VB)
+ms:assetid: 337b90e6-851d-2101-0671-50c4173aec13
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249104(v=office.15)
+ms:contentKeyID: 48544107
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c213347532407b96c13fc009fa05740dabc4658d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891007"
 ---
-
-<span data-ttu-id="26623-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="26623-103"><<<<<<< HEAD</span></span>
-# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="26623-104">Provider 和 DefaultDatabase 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="26623-104">Provider and DefaultDatabase Properties Example (VB)</span></span>
-=======
-# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="26623-105">Provider 和 DefaultDatabase 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="26623-105">Provider and DefaultDatabase properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="26623-106">master</span><span class="sxs-lookup"><span data-stu-id="26623-106">master</span></span>
+# <a name="provider-and-defaultdatabase-properties-example-vb"></a><span data-ttu-id="11e24-102">Provider 和 DefaultDatabase 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="11e24-102">Provider and DefaultDatabase properties example (VB)</span></span>
 
 
-<span data-ttu-id="26623-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="26623-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="11e24-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="11e24-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="26623-p101">本示例演示 [Provider](provider-property-ado.md) 属性，将打开三个使用不同提供程序的 [Connection](connection-object-ado.md) 对象。它还使用 [DefaultDatabase](defaultdatabase-property-ado.md) 属性来设置 Microsoft ODBC Provider 的默认数据库。</span><span class="sxs-lookup"><span data-stu-id="26623-p101">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
+<span data-ttu-id="11e24-p101">本示例演示 [Provider](provider-property-ado.md) 属性，将打开三个使用不同提供程序的 [Connection](connection-object-ado.md) 对象。它还使用 [DefaultDatabase](defaultdatabase-property-ado.md) 属性来设置 Microsoft ODBC Provider 的默认数据库。</span><span class="sxs-lookup"><span data-stu-id="11e24-p101">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers. It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
 
 ```vb 
  

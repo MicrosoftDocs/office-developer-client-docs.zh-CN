@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249772(v=office.15)
 ms:contentKeyID: 48546875
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79fc03b88d1a3fa3e625b24e038eefcefffe55c5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: ec3ab0889260936f897d26e3e1c6f25e043aed9f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860089"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890986"
 ---
-# <a name="converttostring-method-example-vb"></a><span data-ttu-id="7b130-102">ConvertToString 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="7b130-102">ConvertToString method example (VB)</span></span>
+# <a name="converttostring-method-example-vb"></a><span data-ttu-id="ca29f-102">ConvertToString 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="ca29f-102">ConvertToString method example (VB)</span></span>
 
 
-<span data-ttu-id="7b130-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b130-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ca29f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca29f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  
