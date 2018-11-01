@@ -6,62 +6,62 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249851(v=office.15)
 ms:contentKeyID: 48547162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5dca190dca19654314df3944b4b1696874f9afaa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 895a80cf4810088b5f18f4a9416e7eadc54a004f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466458"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878127"
 ---
-# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a><span data-ttu-id="d2f19-102">WillChangeRecord 和 RecordChangeComplete 事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="d2f19-102">WillChangeRecord and RecordChangeComplete Events (ADO)</span></span>
+# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a><span data-ttu-id="537b3-102">WillChangeRecord 和 RecordChangeComplete 事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="537b3-102">WillChangeRecord and RecordChangeComplete Events (ADO)</span></span>
 
 
-<span data-ttu-id="d2f19-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2f19-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="537b3-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="537b3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="d2f19-p101">**WillChangeRecord** 事件在 [Recordset](recordset-object-ado.md) 中的一个或多个记录（行）发生更改之前调用。 **RecordChangeComplete** 事件在一个或多个记录发生更改之后调用。</span><span class="sxs-lookup"><span data-stu-id="d2f19-p101">The **WillChangeRecord** event is called before one or more records (rows) in the [Recordset](recordset-object-ado.md) change. The **RecordChangeComplete** event is called after one or more records change.</span></span>
+<span data-ttu-id="537b3-p101">**WillChangeRecord** 事件在 [Recordset](recordset-object-ado.md) 中的一个或多个记录（行）发生更改之前调用。 **RecordChangeComplete** 事件在一个或多个记录发生更改之后调用。</span><span class="sxs-lookup"><span data-stu-id="537b3-p101">The **WillChangeRecord** event is called before one or more records (rows) in the [Recordset](recordset-object-ado.md) change. The **RecordChangeComplete** event is called after one or more records change.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d2f19-106">语法</span><span class="sxs-lookup"><span data-stu-id="d2f19-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="537b3-106">语法</span><span class="sxs-lookup"><span data-stu-id="537b3-106">Syntax</span></span>
 
-<span data-ttu-id="d2f19-107">WillChangeRecord*adReason* *cRecords*、 *adStatus*、 *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="d2f19-107">WillChangeRecord*adReason*, *cRecords*, *adStatus*, *pRecordset*</span></span>
+<span data-ttu-id="537b3-107">WillChangeRecord*adReason* *cRecords*、 *adStatus*、 *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="537b3-107">WillChangeRecord*adReason*, *cRecords*, *adStatus*, *pRecordset*</span></span>
 
-<span data-ttu-id="d2f19-108">RecordChangeComplete*adReason*、 *cRecords*、 *pError*、 *adStatus*、 *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="d2f19-108">RecordChangeComplete*adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*</span></span>
+<span data-ttu-id="537b3-108">RecordChangeComplete*adReason*、 *cRecords*、 *pError*、 *adStatus*、 *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="537b3-108">RecordChangeComplete*adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d2f19-109">参数</span><span class="sxs-lookup"><span data-stu-id="d2f19-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="537b3-109">参数</span><span class="sxs-lookup"><span data-stu-id="537b3-109">Parameters</span></span>
 
-  - <span data-ttu-id="d2f19-110">*adReason*</span><span class="sxs-lookup"><span data-stu-id="d2f19-110">*adReason*</span></span>
+  - <span data-ttu-id="537b3-110">*adReason*</span><span class="sxs-lookup"><span data-stu-id="537b3-110">*adReason*</span></span>
 
-  - <span data-ttu-id="d2f19-p102">指定此事件原因的 [EventReasonEnum](eventreasonenum.md) 值。其值可以是 **adRsnAddNew** 、 **adRsnDelete** 、 **adRsnUpdate** 、 **adRsnUndoUpdate** 、 **adRsnUndoAddNew** 、 **adRsnUndoDelete** 或 **adRsnFirstChange** 。</span><span class="sxs-lookup"><span data-stu-id="d2f19-p102">An [EventReasonEnum](eventreasonenum.md) value that specifies the reason for this event. Its value can be **adRsnAddNew**, **adRsnDelete**, **adRsnUpdate**, **adRsnUndoUpdate**, **adRsnUndoAddNew**, **adRsnUndoDelete**, or **adRsnFirstChange**.</span></span>
+  - <span data-ttu-id="537b3-p102">指定此事件原因的 [EventReasonEnum](eventreasonenum.md) 值。其值可以是 **adRsnAddNew** 、 **adRsnDelete** 、 **adRsnUpdate** 、 **adRsnUndoUpdate** 、 **adRsnUndoAddNew** 、 **adRsnUndoDelete** 或 **adRsnFirstChange** 。</span><span class="sxs-lookup"><span data-stu-id="537b3-p102">An [EventReasonEnum](eventreasonenum.md) value that specifies the reason for this event. Its value can be **adRsnAddNew**, **adRsnDelete**, **adRsnUpdate**, **adRsnUndoUpdate**, **adRsnUndoAddNew**, **adRsnUndoDelete**, or **adRsnFirstChange**.</span></span>
 
-  - <span data-ttu-id="d2f19-113">*cRecords*</span><span class="sxs-lookup"><span data-stu-id="d2f19-113">*cRecords*</span></span>
+  - <span data-ttu-id="537b3-113">*cRecords*</span><span class="sxs-lookup"><span data-stu-id="537b3-113">*cRecords*</span></span>
 
-  - <span data-ttu-id="d2f19-114">**长整型** 值，指定记录更改（受影响）的数量。</span><span class="sxs-lookup"><span data-stu-id="d2f19-114">A **Long** value that indicates the number of records changing (affected).</span></span>
+  - <span data-ttu-id="537b3-114">**长整型** 值，指定记录更改（受影响）的数量。</span><span class="sxs-lookup"><span data-stu-id="537b3-114">A **Long** value that indicates the number of records changing (affected).</span></span>
 
-  - <span data-ttu-id="d2f19-115">*pError*</span><span class="sxs-lookup"><span data-stu-id="d2f19-115">*pError*</span></span>
+  - <span data-ttu-id="537b3-115">*pError*</span><span class="sxs-lookup"><span data-stu-id="537b3-115">*pError*</span></span>
 
-  - <span data-ttu-id="d2f19-p103">[Error](error-object-ado.md) 对象。如果 *adStatus* 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。</span><span class="sxs-lookup"><span data-stu-id="d2f19-p103">An [Error](error-object-ado.md) object. It describes the error that occurred if the value of *adStatus* is **adStatusErrorsOccurred**; otherwise it is not set.</span></span>
+  - <span data-ttu-id="537b3-p103">[Error](error-object-ado.md) 对象。如果 *adStatus* 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。</span><span class="sxs-lookup"><span data-stu-id="537b3-p103">An [Error](error-object-ado.md) object. It describes the error that occurred if the value of *adStatus* is **adStatusErrorsOccurred**; otherwise it is not set.</span></span>
 
-  - <span data-ttu-id="d2f19-118">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="d2f19-118">*adStatus*</span></span>
+  - <span data-ttu-id="537b3-118">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="537b3-118">*adStatus*</span></span>
 
-  - [<span data-ttu-id="d2f19-119">EventStatusEnum</span><span class="sxs-lookup"><span data-stu-id="d2f19-119">EventStatusEnum</span></span>](eventstatusenum.md)
+  - [<span data-ttu-id="537b3-119">EventStatusEnum</span><span class="sxs-lookup"><span data-stu-id="537b3-119">EventStatusEnum</span></span>](eventstatusenum.md)
     
-    <span data-ttu-id="d2f19-p104">调用 **WillChangeRecord** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果此事件无法请求取消挂起操作，则该参数设置为 **adStatusCantDeny** 。</span><span class="sxs-lookup"><span data-stu-id="d2f19-p104">When **WillChangeRecord** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful. It is set to **adStatusCantDeny** if this event cannot request cancellation of the pending operation.</span></span>
+    <span data-ttu-id="537b3-p104">调用 **WillChangeRecord** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果此事件无法请求取消挂起操作，则该参数设置为 **adStatusCantDeny** 。</span><span class="sxs-lookup"><span data-stu-id="537b3-p104">When **WillChangeRecord** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful. It is set to **adStatusCantDeny** if this event cannot request cancellation of the pending operation.</span></span>
     
-    <span data-ttu-id="d2f19-122">调用 **RecordChangeComplete** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果导致事件的操作失败，则该参数设置为 **adStatusErrorsOccurred** 。</span><span class="sxs-lookup"><span data-stu-id="d2f19-122">When **RecordChangeComplete** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful, or to **adStatusErrorsOccurred** if the operation failed.</span></span>
+    <span data-ttu-id="537b3-122">调用 **RecordChangeComplete** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果导致事件的操作失败，则该参数设置为 **adStatusErrorsOccurred** 。</span><span class="sxs-lookup"><span data-stu-id="537b3-122">When **RecordChangeComplete** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful, or to **adStatusErrorsOccurred** if the operation failed.</span></span>
     
-    <span data-ttu-id="d2f19-123">在 **WillChangeRecord** 返回之前，将该参数设置为 **adStatusCancel** 可以请求取消导致该事件的操作，将该参数设置为 adStatusUnwantedEvent 可以阻止随后进行通知。</span><span class="sxs-lookup"><span data-stu-id="d2f19-123">Before **WillChangeRecord** returns, set this parameter to **adStatusCancel** to request cancellation of the operation that caused this event or set this parameter to adStatusUnwantedEvent to prevent subsequent notications.</span></span>
+    <span data-ttu-id="537b3-123">在 **WillChangeRecord** 返回之前，将该参数设置为 **adStatusCancel** 可以请求取消导致该事件的操作，将该参数设置为 adStatusUnwantedEvent 可以阻止随后进行通知。</span><span class="sxs-lookup"><span data-stu-id="537b3-123">Before **WillChangeRecord** returns, set this parameter to **adStatusCancel** to request cancellation of the operation that caused this event or set this parameter to adStatusUnwantedEvent to prevent subsequent notications.</span></span>
     
-    <span data-ttu-id="d2f19-124">在 **RecordChangeComplete** 返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。</span><span class="sxs-lookup"><span data-stu-id="d2f19-124">Before **RecordChangeComplete** returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.</span></span>
+    <span data-ttu-id="537b3-124">在 **RecordChangeComplete** 返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。</span><span class="sxs-lookup"><span data-stu-id="537b3-124">Before **RecordChangeComplete** returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.</span></span>
 
-  - <span data-ttu-id="d2f19-125">*pRecordset*</span><span class="sxs-lookup"><span data-stu-id="d2f19-125">*pRecordset*</span></span>
+  - <span data-ttu-id="537b3-125">*pRecordset*</span><span class="sxs-lookup"><span data-stu-id="537b3-125">*pRecordset*</span></span>
 
-  - <span data-ttu-id="d2f19-p105">**Recordset** 对象。发生此事件的 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="d2f19-p105">A **Recordset** object. The **Recordset** for which this event occurred.</span></span>
+  - <span data-ttu-id="537b3-p105">**Recordset** 对象。发生此事件的 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="537b3-p105">A **Recordset** object. The **Recordset** for which this event occurred.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d2f19-128">备注</span><span class="sxs-lookup"><span data-stu-id="d2f19-128">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="537b3-128">备注</span><span class="sxs-lookup"><span data-stu-id="537b3-128">Remarks</span></span>
 
-<span data-ttu-id="d2f19-129">由于以下 **Recordset** 操作，行中第一个发生更改的字段可能会导致发生 **WillChangeRecord** 或 **RecordChangeComplete** 事件： [Update](update-method-ado.md)、[Delete](delete-method-ado-recordset.md)、[CancelUpdate](cancelupdate-method-ado.md)、[AddNew](addnew-method-ado.md)、[UpdateBatch](updatebatch-method-ado.md) 和 [CancelBatch](cancelbatch-method-ado.md)。</span><span class="sxs-lookup"><span data-stu-id="d2f19-129">A **WillChangeRecord** or **RecordChangeComplete** event may occur for the first changed field in a row due to the following **Recordset** operations: [Update](update-method-ado.md), [Delete](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [UpdateBatch](updatebatch-method-ado.md), and [CancelBatch](cancelbatch-method-ado.md).</span></span> <span data-ttu-id="d2f19-130">**Recordset** [CursorType](cursortype-property-ado.md)的值确定哪个操作导致事件发生。</span><span class="sxs-lookup"><span data-stu-id="d2f19-130">The value of the **Recordset** [CursorType](cursortype-property-ado.md) determines which operations cause the events to occur.</span></span>
+<span data-ttu-id="537b3-129">由于以下 **Recordset** 操作，行中第一个发生更改的字段可能会导致发生 **WillChangeRecord** 或 **RecordChangeComplete** 事件： [Update](update-method-ado.md)、[Delete](delete-method-ado-recordset.md)、[CancelUpdate](cancelupdate-method-ado.md)、[AddNew](addnew-method-ado.md)、[UpdateBatch](updatebatch-method-ado.md) 和 [CancelBatch](cancelbatch-method-ado.md)。</span><span class="sxs-lookup"><span data-stu-id="537b3-129">A **WillChangeRecord** or **RecordChangeComplete** event may occur for the first changed field in a row due to the following **Recordset** operations: [Update](update-method-ado.md), [Delete](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [UpdateBatch](updatebatch-method-ado.md), and [CancelBatch](cancelbatch-method-ado.md).</span></span> <span data-ttu-id="537b3-130">**Recordset** [CursorType](cursortype-property-ado.md)的值确定哪个操作导致事件发生。</span><span class="sxs-lookup"><span data-stu-id="537b3-130">The value of the **Recordset** [CursorType](cursortype-property-ado.md) determines which operations cause the events to occur.</span></span>
 
-<span data-ttu-id="d2f19-131">**WillChangeRecord**事件期间， **Recordset** [Filter](filter-property-ado.md)属性设置为**adFilterAffectedRecords**。</span><span class="sxs-lookup"><span data-stu-id="d2f19-131">During the **WillChangeRecord** event, the **Recordset** [Filter](filter-property-ado.md) property is set to **adFilterAffectedRecords**.</span></span> <span data-ttu-id="d2f19-132">在处理事件的时候不能更改此属性。</span><span class="sxs-lookup"><span data-stu-id="d2f19-132">You cannot change this property while processing the event.</span></span>
+<span data-ttu-id="537b3-131">**WillChangeRecord**事件期间， **Recordset** [Filter](filter-property-ado.md)属性设置为**adFilterAffectedRecords**。</span><span class="sxs-lookup"><span data-stu-id="537b3-131">During the **WillChangeRecord** event, the **Recordset** [Filter](filter-property-ado.md) property is set to **adFilterAffectedRecords**.</span></span> <span data-ttu-id="537b3-132">在处理事件的时候不能更改此属性。</span><span class="sxs-lookup"><span data-stu-id="537b3-132">You cannot change this property while processing the event.</span></span>
 
-<span data-ttu-id="d2f19-133">对于每个可能的 adReason 值，必须将 adStatus 参数设置为 adStatusUnwantedEvent，以完全停止包含 adReason 参数的任何事件的事件通知。</span><span class="sxs-lookup"><span data-stu-id="d2f19-133">You must set the adStatus parameter to adStatusUnwantedEvent for each possible adReason value in order to completely stop event noticiation for any event that includes an adReason parameter.</span></span>
+<span data-ttu-id="537b3-133">对于每个可能的 adReason 值，必须将 adStatus 参数设置为 adStatusUnwantedEvent，以完全停止包含 adReason 参数的任何事件的事件通知。</span><span class="sxs-lookup"><span data-stu-id="537b3-133">You must set the adStatus parameter to adStatusUnwantedEvent for each possible adReason value in order to completely stop event noticiation for any event that includes an adReason parameter.</span></span>
 
