@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： StayInSync 属性示例 (VB) TOCTitle: StayInSync 属性示例 (VB) === 标题： StayInSync 属性示例 (VB) TOCTitle: StayInSync 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15) ms:contentKeyID: 48543535 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: StayInSync 属性示例 (VB)
+TOCTitle: StayInSync property example (VB)
+ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15)
+ms:contentKeyID: 48543535
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 63066000e5e5d8ff9ff1f52ea71cb76beaa2dff8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885427"
 ---
-
-<<<<<<< 标头
 # <a name="stayinsync-property-example-vb"></a>StayInSync 属性示例 (VB)
-=======
-# <a name="stayinsync-property-example-vb"></a>StayInSync 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [StayInSync](stayinsync-property-ado.md) 属性如何帮助访问分级 [Recordset](recordset-object-ado.md) 中的行。
 

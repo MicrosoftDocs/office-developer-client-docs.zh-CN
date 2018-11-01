@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822719(v=office.15)
 ms:contentKeyID: 48547414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 354b2e6efad810a4c817ba8569dd47c270c2fa8d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0632556d7e62b426f462e17d732db323513afcec
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465498"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888249"
 ---
 # <a name="workspacescount-property-dao"></a>Workspaces.Count Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回指定集合中的对象数。只读。
 

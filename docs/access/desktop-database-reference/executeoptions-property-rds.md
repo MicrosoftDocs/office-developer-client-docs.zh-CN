@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8b91fc64a05ebdd947274cc4a119344ec2a6e284
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5a230ce4ab90ea5d4075dbbf383a55e3d835c79a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863953"
+ms.locfileid: "25888025"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions 属性 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示是否启用异步执行。
 
-<<<<<<< 头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> 母版
 
 设置或返回下列值之一。
 

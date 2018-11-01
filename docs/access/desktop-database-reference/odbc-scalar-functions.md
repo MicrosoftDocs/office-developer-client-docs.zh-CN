@@ -10,17 +10,17 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d01c5f02cc784518d58365480b30178d4d24a332
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 21e6000e8620011f5f6f0c2481bb9c03fd71bab5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466571"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887955"
 ---
 # <a name="odbc-scalar-functions"></a>ODBC Scalar 函数
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Microsoft® Access SQL 支持使用 ODBC 定义的标量函数语法。例如查询：
 

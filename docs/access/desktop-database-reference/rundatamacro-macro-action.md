@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm168493
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9790faf03ba0f6ea02520abb525c4301ac2181e2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6777ae05d2ab7455016df834d17abb3406a2d710
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465996"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889922"
 ---
 # <a name="rundatamacro-macro-action"></a>RunDataMacro 宏操作
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 您可以使用 **RunDataMacro** 操作来运行指定的数据宏。
 

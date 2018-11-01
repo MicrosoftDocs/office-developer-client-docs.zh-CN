@@ -1,23 +1,25 @@
 ---
-<<<<<<< 标头标题： ParentURL 属性 (ADO) TOCTitle: ParentURL 属性 (ADO) === 标题： ParentURL 属性 (ADO) TOCTitle: ParentURL 属性 (ADO)
->>>>>>> 母版页 ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15) ms:contentKeyID: 48548517 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ParentURL 属性 (ADO)
+TOCTitle: ParentURL property (ADO)
+ms:assetid: ec7ec476-6f9e-8486-fe02-74995975df5c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250200(v=office.15)
+ms:contentKeyID: 48548517
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 29245960ad845587ac8f31931bdd5ce1e39a63c9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885883"
 ---
-
-<<<<<<< 标头
 # <a name="parenturl-property-ado"></a>ParentURL 属性 (ADO)
-=======
-# <a name="parenturl-property-ado"></a>ParentURL 属性 (ADO)
->>>>>>> master
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示指向当前 [Record](record-object-ado.md) 对象的父 **Record** 的绝对 URL 字符串。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回一个 **String** 值，指示父 **Record** 的 URL。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
 ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36af1f7716573c85c87e796dd7dc7deed705afe1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 02bd6b3b4d112f731fd060742f1f5b9500058dc9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860426"
+ms.locfileid: "25888102"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>DataTypeEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定对象的可操作数据类型。
 

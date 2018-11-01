@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194867(v=office.15)
 ms:contentKeyID: 48545202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d971b14093dd02204327e6f0ef30a81c6567c5bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1b8ce99f7fbedc487f5c5bae98745f1d446c2da3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468758"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867144"
 ---
 # <a name="field2validationtext-property-dao"></a>Field2.ValidationText Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指定当 **Field2** 对象的值不符合 **ValidationRule** 属性设置指定的验证规则时，应用程序显示的消息文本（仅适用于 Microsoft Access 工作区）。可读写 **String**。
 

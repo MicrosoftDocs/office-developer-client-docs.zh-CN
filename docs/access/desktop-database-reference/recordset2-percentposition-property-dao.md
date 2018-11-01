@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052973
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 874f6a272dad72681e7f73ad3b1bafeecf6c688a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d088e1875325d14206f49151c35a247fd8d16c48
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468305"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887143"
 ---
 # <a name="recordset2percentposition-property-dao"></a>Recordset2.PercentPosition Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，用于根据 [Recordset](recordset-object-dao.md) 中的记录百分比指示 ****Recordset**** 对象中当前记录的大概位置。
 

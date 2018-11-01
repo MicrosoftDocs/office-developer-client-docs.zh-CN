@@ -12,16 +12,16 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f54a1e7619022fc08b96066e85ccf49a298bae88
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 09188378ff75944f6dc8acccc64b621ea2bca1f6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468719"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887857"
 ---
 # <a name="before-change-macro-event"></a>“更改前”宏事件
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 当记录更改，但未提交更改之前，发生此事件的**更改前**事件。
 
@@ -90,7 +90,7 @@ ms.locfileid: "25468719"
 <tbody>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="comment-macro-statement.md">Comment 宏语句</a></p></td>
+<td><p><a href="comment-macro-statement.md">注释宏语句</a></p></td>
 </tr>
 <tr class="even">
 <td><p>程序流</p></td>
@@ -98,7 +98,7 @@ ms.locfileid: "25468719"
 </tr>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else 宏程序块</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">如果...然后...其他宏程序块</a></p></td>
 </tr>
 <tr class="even">
 <td><p>数据块</p></td>
@@ -126,7 +126,7 @@ ms.locfileid: "25468719"
 </tr>
 <tr class="even">
 <td><p>数据操作</p></td>
-<td><p><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">StopMacro 宏操作</a></p></td>
 </tr>
 </tbody>
 </table>

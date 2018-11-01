@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1c0dd3a48274c7a0affae9caa87ec762bea498ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 017fbbe543540d45a7b05dec7ca992614bda40ad
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606372"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868089"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>TableDef.CreateIndex Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013 
 
 创建一个新的 **[Index](index-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。
 
@@ -58,11 +58,7 @@ ms.locfileid: "25606372"
 </table>
 
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 Index
 

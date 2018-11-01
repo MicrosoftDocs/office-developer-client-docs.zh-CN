@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249965(v=office.15)
 ms:contentKeyID: 48547611
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d26ca621ba7102dc0f9c6219ba3a16b28138770f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e125837b8f3d16e012d89374650182653f98a728
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467002"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870413"
 ---
 # <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a>步骤 6：将更改发送到服务器（RDS 教程）
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 如果对 **Recordset** 对象进行编辑，则可以将任何更改（即，对行进行地添加、更改或删除）发回到服务器。
 

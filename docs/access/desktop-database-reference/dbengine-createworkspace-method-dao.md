@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f76cb57345b7ec653092517d72fa3355a29de6cd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c7813b73b5e003a32e05592d35ad2a75a8fd7a45
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862560"
+ms.locfileid: "25869699"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 创建新的 **[Workspace](workspace-object-dao.md)** 对象。
@@ -89,11 +89,7 @@ ms.locfileid: "25862560"
 </table>
 
 
-<<<<<<< 头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> 母版
 
 Workspace
 

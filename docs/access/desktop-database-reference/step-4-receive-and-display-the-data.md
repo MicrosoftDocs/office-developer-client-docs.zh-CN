@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249749(v=office.15)
 ms:contentKeyID: 48546764
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2a447b68b8c0eeb18d18050ba8dbbb6f09786ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 03a089e600799e1ac5fa85886ee6a16e1dd86026
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468222"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869076"
 ---
 # <a name="step-4-receive-and-display-the-data"></a>步骤 4：接收和显示数据
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-## <a name="step-4-receive-and-display-the-data"></a>步骤 4：接收和显示数据
+## <a name="step-4-receive-and-display-the-data"></a>步骤 4：接收并显示数据
 
 在该步骤中，您将用嵌入的 [RDS.DataControl](datacontrol-object-rds.md) 对象（该对象指向 XMLResponse.asp 文件）创建一个 HTML 文件，以获取 **Recordset** 。用文本编辑器（如 Windows 记事本）打开 default.htm，并添加以下代码。将该 URL 中的"sqlserver"替换为您的服务器计算机的名称。
 

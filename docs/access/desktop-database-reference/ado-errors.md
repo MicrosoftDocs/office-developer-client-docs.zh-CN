@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
 ms:contentKeyID: 48542972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a8b6b794daf7c03df26c186ac58b9a02ed4a7419
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 66b0d7ca54723755bcdb6e24726f75836cd9716f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861230"
+ms.locfileid: "25885638"
 ---
 # <a name="ado-errors"></a>ADO 错误
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 错误作为运行时错误报告给您的程序。 您可以使用编程语言的错误捕获机制来捕获并处理它们。 例如，在 Visual Basic 中，使用 **On Error** 语句。 在 Visual J++ 中，使用 **try-catch** 块。 在 Visual C++ 中，错误捕获机制取决于您用于访问 ADO 库的方法。 使用\#导入，请使用**try-catch**块。 否则，C++ 程序员需要通过调用 **GetErrorInfo** 显式检索该错误对象。 以下 Visual Basic 子程序演示了如何捕获 ADO 错误：
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d991da62a8820db3506059e81d136208cca73db3
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 809431c51b7fab9e56d492b44610d607e4da3b06
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607058"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869965"
 ---
 # <a name="ado-glossary"></a>ADO 术语表
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="a"></a>A
 
@@ -259,17 +259,13 @@ COM 实现结构化存储文件。 复合文件将单独对象存储在单一的
 
 **中间层**
 
-<<<<<<< 头中的用户界面或 Web 客户端和数据库之间的分布式系统的逻辑层。 这通常是其中业务对象进行实例化。 中间层是业务规则和函数的生成和运行时信息的集合。 它们通过它可以经常发生更改，并因此封装到物理独立于应用程序逻辑本身的组件的业务规则实现这一点。 也称为为*应用程序服务器层*。 请参阅**分布式应用程序**、**客户端层**和**数据源层**。
-=== 在分布式系统用户界面或 web 客户端和数据库之间逻辑层。 这通常是其中业务对象进行实例化。 中间层是业务规则和函数的生成和运行时信息的集合。 它们通过它可以经常发生更改，并因此封装到物理独立于应用程序逻辑本身的组件的业务规则实现这一点。 也称为为*应用程序服务器层*。 请参阅**分布式应用程序**、**客户端层**和**数据源层**。
->>>>>>> master
+用户界面或 web 客户端和数据库之间的分布式系统中的逻辑层。 这通常是其中业务对象进行实例化。 中间层是业务规则和函数的生成和运行时信息的集合。 它们通过它可以经常发生更改，并因此封装到物理独立于应用程序逻辑本身的组件的业务规则实现这一点。 也称为为*应用程序服务器层*。 请参阅**分布式应用程序**、**客户端层**和**数据源层**。
 
 **MIME （多用途 Internet 邮件扩展）**
 
 Internet 协议最初开发的丰富内容的电子邮件的 exchange 允许跨异构网络、 计算机和电子邮件环境。 实际上，MIME 也已采用并扩展非邮件应用程序。
 
-<<<<<<< MIME 标头是允许二进制数据的发布和阅读 Internet 上的标准。 包含二进制数据的文件的标头包含数据; 的 MIME 类型这将通知客户端程序 (Web 浏览器和邮件包，例如)，他们将需要多于它们处理直线文本以不同方式处理数据。 例如，包含 JPEG 图形 Web 文档的标头中包含特定于 JPEG 文件格式的 MIME 类型。 如果有的话，这样，浏览器以显示其 JPEG 查看器中，使用的文件。
-=== MIME 是允许二进制数据的发布和阅读 Internet 上的标准。 包含二进制数据的文件的标头包含数据; 的 MIME 类型这将通知客户端程序 (web 浏览器和邮件包，例如)，他们将需要多于它们处理直线文本以不同方式处理数据。 例如，包含 JPEG 图形 web 文档的标头中包含特定于 JPEG 文件格式的 MIME 类型。 如果有的话，这样，浏览器以显示其 JPEG 查看器中，使用的文件。
->>>>>>> master
+MIME 是允许二进制数据的发布和阅读 Internet 上的标准。 包含二进制数据的文件的标头包含数据; 的 MIME 类型这将通知客户端程序 (web 浏览器和邮件包，例如)，他们将需要多于它们处理直线文本以不同方式处理数据。 例如，包含 JPEG 图形 web 文档的标头中包含特定于 JPEG 文件格式的 MIME 类型。 如果有的话，这样，浏览器以显示其 JPEG 查看器中，使用的文件。
 
 返回顶部
 
@@ -431,14 +427,9 @@ file://Server/Share/File.doc
 
 另请参阅**绝对 URL**和**相对 URL**。
 
-<<<<<<< 标头**Web 服务器**
-
-<a name="a-computer-that-provides-web-services-and-pages-to-intranet-and-internet-users"></a>提供 Web 服务和页 intranet 和 Internet 用户的计算机。
-=======
 **web 服务器**
 
 提供 web 服务和页 intranet 和 Internet 用户的计算机。
->>>>>>> master
 
 返回顶部
 

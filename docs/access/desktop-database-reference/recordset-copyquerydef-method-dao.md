@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837296(v=office.15)
 ms:contentKeyID: 48548950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8c9342a58e70587e60236d8cb5410d9eb2709f0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 73bc9bb5063068dc3f29345b3828db4f7729110f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606169"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885323"
 ---
 # <a name="recordsetcopyquerydef-method-dao"></a>Recordset.CopyQueryDef Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个**QueryDef**的副本的**[QueryDef](querydef-object-dao.md)** 对象用于创建**[Recordset](recordset-object-dao.md)** 对象表示由 recordset 占位符 （仅限 Microsoft Access 工作区）。 .
 
@@ -26,11 +26,7 @@ ms.locfileid: "25606169"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 QueryDef
 

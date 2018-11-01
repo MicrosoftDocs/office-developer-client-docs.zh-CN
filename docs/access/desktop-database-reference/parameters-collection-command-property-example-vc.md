@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Parameters 集合、 Command 属性示例 （VC + +） TOCTitle: Parameters 集合与 Command 属性示例 （VC + +） === 标题： Parameters 集合与 Command 属性示例 （VC + +） TOCTitle:Parameters 集合与 Command 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15) ms:contentKeyID: 48545237 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Parameters 集合与 Command 属性示例 （VC + +）
+TOCTitle: Parameters Collection, Command property example (VC++)
+ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
+ms:contentKeyID: 48545237
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 302f329e09123a92fa008f031fde713393ad7a77
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888298"
 ---
-
-<<<<<<< 标头
-# <a name="parameters-collection-command-property-example-vc"></a>Parameters 集合与 Command 属性示例 (VC++)
-=======
 # <a name="parameters-collection-command-property-example-vc"></a>Parameters 集合与 Command 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下面的代码演示如何将 [Command](command-property-adox.md) 属性与 [Command](command-object-ado.md) 对象结合使用，以检索过程的参数信息。
 

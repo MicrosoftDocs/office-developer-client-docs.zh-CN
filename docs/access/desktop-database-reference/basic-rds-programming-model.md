@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249781(v=office.15)
 ms:contentKeyID: 48546911
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a90423f6bd05ae3d721faf97291ea6d21aa4393
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a666b12a3359c8212afaed66155d8cf8578f6a2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467439"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886821"
 ---
 # <a name="basic-rds-programming-model"></a>基本 RDS 编程模型
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 RDS 针对的是存在于以下环境中的应用程序：客户端应用程序指定了一个将在服务器上执行的程序，以及返回所需信息所必需的参数。服务器上调用的程序对指定数据源进行访问，检索信息，还可以处理数据，然后将得到的信息以便于使用的形式返回给客户端应用程序。RDS 为您执行以下操作序列提供了途径：
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249735(v=office.15)
 ms:contentKeyID: 48546699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f45f9743659e6a0f82d86b1662c178344bf428d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6f33b9f594404a96553825b04f86e94f2aa6c150
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860110"
+ms.locfileid: "25870070"
 ---
 # <a name="addnew-method-example-vbscript"></a>AddNew 方法示例 (VBScript)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。
 

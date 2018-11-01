@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
 ms:contentKeyID: 48547933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 456bbf7c7235d0db01b29372ee8f70c364263cb6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 420d614d100ed156b794e92f77df2e7a4180c9fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465513"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872429"
 ---
 # <a name="seteos-method-ado"></a>SetEOS 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于设置流的结束位置。
 

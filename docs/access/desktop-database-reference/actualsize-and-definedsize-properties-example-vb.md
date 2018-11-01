@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： ActualSize 和 DefinedSize 属性示例 (VB) TOCTitle: ActualSize 和 DefinedSize 属性示例 (VB) ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID:48548884 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ActualSize 和 DefinedSize 属性示例 (VB)
+TOCTitle: ActualSize and DefinedSize properties example (VB)
+ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15)
+ms:contentKeyID: 48548884
+ms.date: 10/16/2018
+mtps_version: v=office.15
+ms.openlocfilehash: c5d9fad518bb5d367d037b7c16f6997bf1f358cc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869664"
 ---
-
 # <a name="actualsize-and-definedsize-properties-example-vb"></a>ActualSize 和 DefinedSize 属性示例 (VB)
-=== 标题： ActualSize 和 DefinedSize 属性示例 (VB) TOCTitle: ActualSize 和 DefinedSize 属性示例 (VB) ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID: 48548884 ms.date: 10/16/2018 mtps_version: office.15.aspx
----
-
-# <a name="actualsize-and-definedsize-properties-example-vb"></a>ActualSize 和 DefinedSize 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。
 

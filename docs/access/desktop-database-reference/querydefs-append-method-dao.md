@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198041(v=office.15)
 ms:contentKeyID: 48546570
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7fcd5cb9e018836a53d90d77281cf762bc625dda
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c152d52d2a89beaa82061d0d5ae1a5d8d25c1809
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465969"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888683"
 ---
 # <a name="querydefsappend-method-dao"></a>QueryDefs.Append Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 将新的 **QueryDef** 添加到 **QueryDefs** 集合。
 

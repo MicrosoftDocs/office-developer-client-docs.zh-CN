@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 759b855660904f70746abd36bf5f386cb7630944
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 63cd81b6df6da840e4c1ee3ad40a7a2d9c3f398a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864093"
+ms.locfileid: "25878197"
 ---
 # <a name="nextrecordset-method-example-vc"></a>NextRecordset 方法示例 (VC++)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [NextRecordset](nextrecordset-method-ado.md) 方法来查看记录集中的数据，该方法使用由三个单独的 **SELECT** 语句构成的复合命令语句。
 

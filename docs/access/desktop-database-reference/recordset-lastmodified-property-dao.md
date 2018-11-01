@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052898
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3a2ecd4d00d69d0db222b63cba80ed8aa17d6a54
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6b8b6b58f330807047b7fc58ff49ee154371d4b2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467362"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869741"
 ---
 # <a name="recordsetlastmodified-property-dao"></a>Recordset.LastModified Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013 
 
 返回一个书签，该书签指示最近添加或更改的记录。
 

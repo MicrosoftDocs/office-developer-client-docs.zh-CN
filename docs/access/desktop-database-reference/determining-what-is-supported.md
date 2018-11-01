@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249221(v=office.15)
 ms:contentKeyID: 48544602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 159f1fae8e0d0c18f4c274b292f9cdc48c691b0e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f6114dd0fa56a87b6c2e07770795ea5889ae3c44
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466801"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883629"
 ---
 # <a name="determining-what-is-supported"></a>确定受支持的功能
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **Supports** 方法用于确定指定的 **Recordset** 对象是否支持特定类型的功能。它的语法如下：
 

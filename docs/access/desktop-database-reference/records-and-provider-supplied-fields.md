@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f6010c152691e80cad26c615851e4eef0193b4d0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf0e13569e902cd8665cd2a023ba1707d63f51a6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466213"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887458"
 ---
 # <a name="records-and-provider-supplied-fields"></a>记录和提供程序提供的字段
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 打开 [Record](record-object-ado.md) 对象时，它的数据源可以是与打开的 [Connection](recordset-object-ado.md) 对象结合使用的打开的 [Recordset](connection-object-ado.md) 的当前行、绝对 URL 或相对 URL。
 

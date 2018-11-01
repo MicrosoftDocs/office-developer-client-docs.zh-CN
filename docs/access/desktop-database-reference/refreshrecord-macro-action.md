@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91c49ca4d453418a02d55163a023e853fadd5773
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65f972f2ec50212685897d496fd072c7d3f57968
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467003"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876020"
 ---
 # <a name="refreshrecord-macro-action"></a>RefreshRecord 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 您可以使用 **RefreshRecord** 操作更新活动窗体或数据表的基础记录源，以反映对当前集合中的记录所做的更改。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834366(v=office.15)
 ms:contentKeyID: 48547703
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d3b943bed5abdd057b21e8a1380a68231d20e00
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5df46c36ff28bae1e48dfc8dc77443f707fc3e0a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467369"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877532"
 ---
 # <a name="recordset2cancel-method-dao"></a>Recordset2.Cancel Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="syntax"></a>语法
 

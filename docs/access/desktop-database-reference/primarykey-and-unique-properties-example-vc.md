@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： PrimaryKey 和唯一属性示例 （VC + +） TOCTitle: PrimaryKey 和唯一属性示例 （VC + +） === 标题： PrimaryKey 和 Unique 属性示例 （VC + +） TOCTitle: PrimaryKey 和 Unique 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID: 48543158 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: PrimaryKey 和 Unique 属性示例 (VC++)
+TOCTitle: PrimaryKey and Unique properties example (VC++)
+ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
+ms:contentKeyID: 48543158
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ec71b8aec6990fbd0f05312fecf751c568773a3d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883405"
 ---
-
-<<<<<<< 标头
 # <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey 和 Unique 属性示例 (VC++)
-=======
-# <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey 和 Unique 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Index](primarykey-property-adox.md) 的 [PrimaryKey](unique-property-adox.md) 和 [Unique](index-object-adox.md) 属性。代码创建一个带有两个列的新表。 **PrimaryKey** 和 **Unique** 属性用于使其中一列成为不允许出现重复值的主键。
 

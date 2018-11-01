@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
 ms:contentKeyID: 48545350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39152be2c53dc0de9bc1bcb21fee505fcb9106dc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 818a38c4c7d11442b1deb7ddeef72a828283c897
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466698"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887332"
 ---
 # <a name="filtervalue-property-rds"></a>FilterValue 属性 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 指示用于筛选记录的值。

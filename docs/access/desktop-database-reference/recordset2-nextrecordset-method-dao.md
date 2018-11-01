@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0f445014de9e2e1675d8667b33a0926529308995
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 55f85466a3717a3e3212b0458b3fbed78eb99c0a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605273"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888935"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="syntax"></a>语法
 
@@ -28,11 +28,7 @@ ms.locfileid: "25605273"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 Boolean
 

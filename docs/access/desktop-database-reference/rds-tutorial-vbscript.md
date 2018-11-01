@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d87dc84217b716505302464825a1857fecf67669
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 449a752d4ab9e1680a3cf318e73802d39d7033fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606820"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884197"
 ---
 # <a name="rds-tutorial-vbscript"></a>RDS 教程 (VBScript)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 这是用 Microsoft Visual Basic Scripting Edition 编写的 RDS 教程。有关本教程目的的说明，请参阅 [RDS 教程](chapter-12-rds-tutorial.md)。
 
@@ -43,8 +43,7 @@ ms.locfileid: "25606820"
 
 **步骤 1 - 指定服务器程序**
 
-<<<<<<< 标头 VBScript 可以发现通过访问供 Active Server Pages 的 VBScript **Request.ServerVariables**方法运行的 IIS Web 服务器的名称: === VBScript 可以发现的 IIS web 名称服务器上运行它通过访问供 Active Server Pages 的 VBScript **Request.ServerVariables**方法：
->>>>>>> master
+VBScript 可以发现 IIS web 服务器通过访问供 Active Server Pages 的 VBScript **Request.ServerVariables**方法运行的名称：
 
 ```vb 
  

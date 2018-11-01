@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250073(v=office.15)
 ms:contentKeyID: 48547960
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2ac2bee2bf3f1036583bd195edc0c3da9e052f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 119e4bc607296d1a68aef6f85d44f15718940b42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468846"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25866983"
 ---
 # <a name="minimizing-log-file-space-usage"></a>最小化日志文件使用的空间
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 如果 SQL Server 数据库上存在大量的活动，那么日志文件可能很快就会写满（从而阻碍服务器的运行）。您可以将日志文件设置为 **在检查点截断日志** ，以显著延长数据库日志文件的使用时间。
 

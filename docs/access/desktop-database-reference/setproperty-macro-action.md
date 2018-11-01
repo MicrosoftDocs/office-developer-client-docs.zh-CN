@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm139044
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d7aa1deb4bea90e8319cccc763a4e087dd53ef0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ac0cb0fe608ad5f3e15ae72346eac30628ba3dfa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468332"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887381"
 ---
 # <a name="setproperty-macro-action"></a>SetProperty 宏操作
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **SetProperty** 操作设置窗体或报表上控件的属性。
 

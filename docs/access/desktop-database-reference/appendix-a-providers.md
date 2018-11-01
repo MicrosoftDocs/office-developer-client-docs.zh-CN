@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f18af92724ff87263808cba2e8799bca2a558541
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6665159eaf0d385d213a35a8463cdc09e738ef45
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861440"
+ms.locfileid: "25888032"
 ---
 # <a name="appendix-a-providers"></a>附录 A：提供程序
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 本节论述三种提供程序：数据提供程序、服务提供程序和服务组件。提供程序分为两类：提供数据的提供程序和提供服务的提供程序。*数据提供程序*拥有自己的数据并以表格形式向应用程序公开这些数据。*服务提供程序*生成并使用数据，增加 ADO 应用程序中的功能，从而对服务进行封装。可以将服务提供程序进一步定义为*服务组件*，服务组件必须与其他服务提供程序或组件结合使用。

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
 ms:contentKeyID: 48547047
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3dc4d3553113a35fba875c3eb23ec544ea3d6b7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0fc2e614916026effe6ee0a9766e0b23db200574
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467496"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886394"
 ---
 # <a name="delete-method-ado-fields-collection"></a>Delete 方法（ADO Fields 集合）
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

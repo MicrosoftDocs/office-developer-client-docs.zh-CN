@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249602(v=office.15)
 ms:contentKeyID: 48546163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 134ef1131c85c12a34a8328934520d46776b1e82
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fdcee7bee97d51e9d2f946ba7933022cbc3c1c15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467880"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871512"
 ---
 # <a name="ado-md-api-reference"></a>ADO MD API 参考
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本节 ADO MD 文档包含针对每个 ADO MD 对象、集合、方法和属性的主题，并且根据需要提供了代码示例。有关详细信息，请在索引中搜索特定主题，或者参考下列主题：
 

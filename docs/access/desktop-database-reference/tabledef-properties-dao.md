@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142653(v=office.15)
 ms:contentKeyID: 52073890
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e50e2708621e5e3690a4a5fd5469a330dd0a727
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1e915563f3fc6600eb03285c4c35fce42df456dc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468031"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885540"
 ---
 # <a name="tabledef-properties-dao"></a>TableDef Properties (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

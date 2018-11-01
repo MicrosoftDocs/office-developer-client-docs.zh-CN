@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)
 ms:contentKeyID: 48543275
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13ac7bc90620b8b6e795842796a7a641d3d8ac20
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 27f0032cc92105a2cc88dd23e18311ee892b105c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466235"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885547"
 ---
 # <a name="ado-api-reference"></a>ADO API 参考
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 文档中的本部分包含针对每个 ADO 对象、集合、属性、动态属性、方法、事件和枚举的主题。另外，本部分还包含一系列要用于 Microsoft Visual C++ 和 Windows Foundation Classes (WFC) 的 ADO 语法索引。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
 ms:contentKeyID: 48547715
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1fdac02c2293088c60c3346b333b6619777b9a18
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f4db6e157ff5999dbf8892029840529c2306ef4e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862910"
+ms.locfileid: "25869930"
 ---
 # <a name="persisting-data"></a>暂留数据
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 便携计算（例如，使用便携式计算机）需要在连接和断开状态下均可运行的应用程序。通过让开发人员能够将客户端游标 **Recordset** 保存到磁盘并随后重新加载它，ADO 已添加了对此功能的支持。
 

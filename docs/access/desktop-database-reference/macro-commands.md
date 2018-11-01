@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124057(v=office.15)
 ms:contentKeyID: 52071694
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f4e8737d002391e257e07f2a6d49506aab336c35
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf17bfee937cad94678a8e5f0d5b209105623450
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467259"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870651"
 ---
 # <a name="macro-commands"></a>宏命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
   - [CancelEvent 宏操作](cancelevent-macro-action.md)
 
-  - [Echo Macro Action](echo-macro-action.md)
+  - [回声宏操作](echo-macro-action.md)
 
   - [OpenVisualBasicModule 宏操作](openvisualbasicmodule-macro-action.md)
 
@@ -46,7 +46,7 @@ ms.locfileid: "25467259"
 
   - [StopAllMacros 宏操作](stopallmacros-macro-action.md)
 
-  - [StopMacro Macro Action](stopmacro-macro-action.md)
+  - [StopMacro 宏操作](stopmacro-macro-action.md)
 
   - [WorkflowTasks 宏操作](workflowtasks-macro-action.md)
 

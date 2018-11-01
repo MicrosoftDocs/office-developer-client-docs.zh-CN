@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836412(v=office.15)
 ms:contentKeyID: 48548584
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f20c10ac6bb6fc313ffecb56b0d2852c3b488c26
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 62bd5f60ed48e863a5190a19e546d292156f8dac
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467579"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888333"
 ---
 # <a name="recordset2close-method-dao"></a>Recordset2.Close Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 关闭已打开的 **Recordset**。
 

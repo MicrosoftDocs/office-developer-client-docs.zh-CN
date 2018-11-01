@@ -1,15 +1,21 @@
 ---
-<<<<<<< 标头标题： OriginalValue 和 UnderlyingValue 属性示例 （VC + +） TOCTitle: OriginalValue 和 UnderlyingValue 属性示例 （VC + +） === 标题： OriginalValue 和 UnderlyingValue 属性示例 （VC + +）TOCTitle: OriginalValue 和 UnderlyingValue 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: b51a05f7-e85f-a5e4-e9ae-ec7461eaaf6e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15) ms:contentKeyID: 48547246 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: OriginalValue 和 UnderlyingValue 属性示例 (VC++)
+TOCTitle: OriginalValue and UnderlyingValue properties example (VC++)
+ms:assetid: b51a05f7-e85f-a5e4-e9ae-ec7461eaaf6e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15)
+ms:contentKeyID: 48547246
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d2f855cfc02350a21833fc9e2f49d8b890c307db
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886380"
 ---
-
-<<<<<<< 标头
 # <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a>OriginalValue 和 UnderlyingValue 属性示例 (VC++)
-=======
-# <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a>OriginalValue 和 UnderlyingValue 属性示例 （VC + +）
->>>>>>> master
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [OriginalValue](originalvalue-property-ado.md) 和 [UnderlyingValue](underlyingvalue-property-ado.md) 属性，如果记录的基础数据在 [Recordset](recordset-object-ado.md) 批更新期间发生更改，则显示一条消息。
 

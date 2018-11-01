@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249064(v=office.15)
 ms:contentKeyID: 48543936
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8dd492cdcd6ca38685c5865ddd0dc08a6fb98ae3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 204bca3d47297184f8e0baf013ed55cab491d04d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468044"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870294"
 ---
 # <a name="parameters-collection-properties-methods-and-events"></a>Parameters 集合的属性、方法和事件
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 ## <a name="properties"></a>属性

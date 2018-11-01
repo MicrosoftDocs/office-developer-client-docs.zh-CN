@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea03ee787c344865154ab04a82d3702e121dbc2c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 09d8d95c14b0ff53e1f81379ac3b98a4b3cca09e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862654"
+ms.locfileid: "25877861"
 ---
 # <a name="internet-publishing-scenario"></a>Internet 发布方案
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此代码示例演示如何将 ADO 用于 Microsoft OLE DB Provider for Internet Publishing。在此方案中，您将创建一个 Visual Basic 应用程序，该应用程序使用 **Recordset** 、 **Record** 和 **Stream** 对象来显示用 Internet Publishing Provider 发布的资源的内容。
 
