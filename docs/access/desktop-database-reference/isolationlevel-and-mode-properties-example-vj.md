@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="81cee-101"><<<<<<< 标头标题： IsolationLevel 和 Mode 属性示例 （VJ + +） TOCTitle: IsolationLevel 和 Mode 属性示例 （VJ + +） === 标题： IsolationLevel 和模式属性示例 （VJ + +） TOCTitle: IsolationLevel 和模式属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="81cee-101"><<<<<<< HEAD title: IsolationLevel and Mode Properties Example (VJ++) TOCTitle: IsolationLevel and Mode Properties Example (VJ++) ======= title: IsolationLevel and Mode properties example (VJ++) TOCTitle: IsolationLevel and Mode properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="81cee-102">母版页 ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID: 48547711 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="81cee-102">master ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID: 48547711 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: IsolationLevel 和 Mode 属性示例 (VJ++)
+TOCTitle: IsolationLevel and Mode properties example (VJ++)
+ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
+ms:contentKeyID: 48547711
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 85a43312db4861cd4c39742eff2cc39be6f1950f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886688"
 ---
-
-<span data-ttu-id="81cee-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="81cee-103"><<<<<<< HEAD</span></span>
-# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="81cee-104">IsolationLevel 和 Mode 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="81cee-104">IsolationLevel and Mode Properties Example (VJ++)</span></span>
-=======
-# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="81cee-105">IsolationLevel 和模式属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="81cee-105">IsolationLevel and Mode properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="81cee-106">master</span><span class="sxs-lookup"><span data-stu-id="81cee-106">master</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="211cf-102">IsolationLevel 和 Mode 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="211cf-102">IsolationLevel and Mode properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="81cee-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="81cee-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="211cf-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="211cf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="81cee-108">本示例使用 [Mode](mode-property-ado.md) 属性打开一个独占连接，并使用 [IsolationLevel](isolationlevel-property-ado.md) 属性打开一个在其他事务的隔离级别上实施的事务。</span><span class="sxs-lookup"><span data-stu-id="81cee-108">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="211cf-104">本示例使用 [Mode](mode-property-ado.md) 属性打开一个独占连接，并使用 [IsolationLevel](isolationlevel-property-ado.md) 属性打开一个在其他事务的隔离级别上实施的事务。</span><span class="sxs-lookup"><span data-stu-id="211cf-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```java 
  

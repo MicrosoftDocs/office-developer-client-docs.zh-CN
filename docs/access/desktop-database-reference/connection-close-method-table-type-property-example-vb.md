@@ -1,17 +1,23 @@
 ---
-<span data-ttu-id="7db27-101"><<<<<<< 标头标题： Connection 的 Close 方法、 表类型属性示例 (VB) TOCTitle: Connection 的 Close 方法、 表类型属性示例 (VB) === 标题： Connection 的 Close 方法，表 Type 属性示例 (VB) TOCTitle:Connection 的 Close 方法，表 Type 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="7db27-101"><<<<<<< HEAD title: Connection Close Method, Table Type Property Example (VB) TOCTitle: Connection Close Method, Table Type Property Example (VB) ======= title: Connection Close Method, Table Type property example (VB) TOCTitle: Connection Close Method, Table Type property example (VB)</span></span>
->>>>>>> <span data-ttu-id="7db27-102">母版页 ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15) ms:contentKeyID: 48547754 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="7db27-102">master ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15) ms:contentKeyID: 48547754 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Connection 的 Close 方法，表 Type 属性示例 (VB)
+TOCTitle: Connection Close Method, Table Type property example (VB)
+ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
+ms:contentKeyID: 48547754
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 388e601d7267eabd01843640ab795fd0ea914a05
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868312"
 ---
+# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="d8c94-102">Connection 的 Close 方法，表 Type 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="d8c94-102">Connection Close Method, Table Type property example (VB)</span></span>
 
-<span data-ttu-id="7db27-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="7db27-103"><<<<<<< HEAD</span></span>
-# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="7db27-104">Connection 的 Close 方法、Table 的 Type 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="7db27-104">Connection Close Method, Table Type Property Example (VB)</span></span>
-=======
-# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="7db27-105">Connection 的 Close 方法，表 Type 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="7db27-105">Connection Close Method, Table Type property example (VB)</span></span>
->>>>>>> <span data-ttu-id="7db27-106">master</span><span class="sxs-lookup"><span data-stu-id="7db27-106">master</span></span>
+<span data-ttu-id="d8c94-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8c94-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7db27-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="7db27-107">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="7db27-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为 **Nothing** 会"关闭"目录。关联的集合将为空。利用该目录中的架构对象创建的任何对象都将孤立。已被缓存的那些对象的属性仍然可用，但是试图读取需要调用提供程序的属性时会失败。</span><span class="sxs-lookup"><span data-stu-id="7db27-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="d8c94-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为 **Nothing** 会"关闭"目录。关联的集合将为空。利用该目录中的架构对象创建的任何对象都将孤立。已被缓存的那些对象的属性仍然可用，但是试图读取需要调用提供程序的属性时会失败。</span><span class="sxs-lookup"><span data-stu-id="d8c94-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```vb 
  
@@ -58,7 +64,7 @@
 
 <br/>
 
-<span data-ttu-id="7db27-112">关闭用于"打开"目录的 [Connection](connection-object-ado.md) 对象应与将 **ActiveConnection** 属性设置为 **Nothing** 效果相同。</span><span class="sxs-lookup"><span data-stu-id="7db27-112">Closing a [Connection](connection-object-ado.md) object that was used to "open" the catalog should have the same effect as setting the **ActiveConnection** property to **Nothing**.</span></span>
+<span data-ttu-id="d8c94-108">关闭用于"打开"目录的 [Connection](connection-object-ado.md) 对象应与将 **ActiveConnection** 属性设置为 **Nothing** 效果相同。</span><span class="sxs-lookup"><span data-stu-id="d8c94-108">Closing a [Connection](connection-object-ado.md) object that was used to "open" the catalog should have the same effect as setting the **ActiveConnection** property to **Nothing**.</span></span>
 
 ```vb
     Sub CloseConnection() 

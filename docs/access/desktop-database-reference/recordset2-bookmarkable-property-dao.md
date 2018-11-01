@@ -10,35 +10,35 @@ f1_keywords:
 - dao360.chm1052888
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 969561715842e317c2518e5d8570c73bdf9920bd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6685523b9fb1a55dee924f7d700a91d3ce9d427b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468973"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873780"
 ---
-# <a name="recordset2bookmarkable-property-dao"></a><span data-ttu-id="98ee0-102">Recordset2.Bookmarkable Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="98ee0-102">Recordset2.Bookmarkable Property (DAO)</span></span>
+# <a name="recordset2bookmarkable-property-dao"></a><span data-ttu-id="d7038-102">Recordset2.Bookmarkable Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7038-102">Recordset2.Bookmarkable Property (DAO)</span></span>
 
 
-<span data-ttu-id="98ee0-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="98ee0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d7038-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7038-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="98ee0-104">返回一个值，该值表示 **Recordset** 对象是否支持书签（可以使用 **[Bookmark](recordset2-bookmark-property-dao.md)** 属性来设置书签）。</span><span class="sxs-lookup"><span data-stu-id="98ee0-104">Returns a value that indicates whether a **Recordset** object supports bookmarks, which you can set by using the **[Bookmark](recordset2-bookmark-property-dao.md)** property.</span></span>
+<span data-ttu-id="d7038-104">返回一个值，该值表示 **Recordset** 对象是否支持书签（可以使用 **[Bookmark](recordset2-bookmark-property-dao.md)** 属性来设置书签）。</span><span class="sxs-lookup"><span data-stu-id="d7038-104">Returns a value that indicates whether a **Recordset** object supports bookmarks, which you can set by using the **[Bookmark](recordset2-bookmark-property-dao.md)** property.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="98ee0-105">语法</span><span class="sxs-lookup"><span data-stu-id="98ee0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d7038-105">语法</span><span class="sxs-lookup"><span data-stu-id="d7038-105">Syntax</span></span>
 
-<span data-ttu-id="98ee0-106">*表达式*。Bookmarkable</span><span class="sxs-lookup"><span data-stu-id="98ee0-106">*expression* .Bookmarkable</span></span>
+<span data-ttu-id="d7038-106">*表达式*。Bookmarkable</span><span class="sxs-lookup"><span data-stu-id="d7038-106">*expression* .Bookmarkable</span></span>
 
-<span data-ttu-id="98ee0-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="98ee0-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="d7038-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="d7038-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="98ee0-108">注解</span><span class="sxs-lookup"><span data-stu-id="98ee0-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d7038-108">注解</span><span class="sxs-lookup"><span data-stu-id="d7038-108">Remarks</span></span>
 
-<span data-ttu-id="98ee0-109">在尝试设置或检查 **Bookmark** 属性之前，请检查 **Recordset** 对象的 **Bookmarkable** 属性设置。</span><span class="sxs-lookup"><span data-stu-id="98ee0-109">Check the **Bookmarkable** property setting of a **Recordset** object before you attempt to set or check the **Bookmark** property.</span></span>
+<span data-ttu-id="d7038-109">在尝试设置或检查 **Bookmark** 属性之前，请检查 **Recordset** 对象的 **Bookmarkable** 属性设置。</span><span class="sxs-lookup"><span data-stu-id="d7038-109">Check the **Bookmarkable** property setting of a **Recordset** object before you attempt to set or check the **Bookmark** property.</span></span>
 
-<span data-ttu-id="98ee0-110">对于**Recordset**对象完全基于 Microsoft Access 数据库引擎表， **Bookmarkable**属性的值为 True，并可以使用书签。</span><span class="sxs-lookup"><span data-stu-id="98ee0-110">For **Recordset** objects based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use bookmarks.</span></span> <span data-ttu-id="98ee0-111">但是，其他数据库产品可能不支持书签。</span><span class="sxs-lookup"><span data-stu-id="98ee0-111">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="98ee0-112">例如，在基于 Paradox 链接表（没有主键）的任何 **Recordset** 对象中，都不能使用书签。</span><span class="sxs-lookup"><span data-stu-id="98ee0-112">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
+<span data-ttu-id="d7038-110">对于**Recordset**对象完全基于 Microsoft Access 数据库引擎表， **Bookmarkable**属性的值为 True，并可以使用书签。</span><span class="sxs-lookup"><span data-stu-id="d7038-110">For **Recordset** objects based entirely on Microsoft Access database engine tables, the value of the **Bookmarkable** property is True, and you can use bookmarks.</span></span> <span data-ttu-id="d7038-111">但是，其他数据库产品可能不支持书签。</span><span class="sxs-lookup"><span data-stu-id="d7038-111">Other database products may not support bookmarks, however.</span></span> <span data-ttu-id="d7038-112">例如，在基于 Paradox 链接表（没有主键）的任何 **Recordset** 对象中，都不能使用书签。</span><span class="sxs-lookup"><span data-stu-id="d7038-112">For example, you can't use bookmarks in any **Recordset** object based on a linked Paradox table that has no primary key.</span></span>
 
-## <a name="example"></a><span data-ttu-id="98ee0-113">示例</span><span class="sxs-lookup"><span data-stu-id="98ee0-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d7038-113">示例</span><span class="sxs-lookup"><span data-stu-id="d7038-113">Example</span></span>
 
-<span data-ttu-id="98ee0-114">以下示例使用 **Bookmark** 和 **Bookmarkable** 属性，使用户可以对记录集中的记录加标记，稍后再返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="98ee0-114">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a recordset and return to it later.</span></span>
+<span data-ttu-id="d7038-114">以下示例使用 **Bookmark** 和 **Bookmarkable** 属性，使用户可以对记录集中的记录加标记，稍后再返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="d7038-114">This example uses the **Bookmark** and **Bookmarkable** properties to let the user flag a record in a recordset and return to it later.</span></span>
 
 ```vb
     Sub BookmarkX() 

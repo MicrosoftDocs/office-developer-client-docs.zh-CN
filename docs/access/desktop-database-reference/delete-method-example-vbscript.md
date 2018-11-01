@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249788(v=office.15)
 ms:contentKeyID: 48546947
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77859e4800a9a14935e56a906a2a99393b7c4169
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d6b7c98df9e241d7136901223e8d427b84687f18
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860438"
+ms.locfileid: "25885771"
 ---
-# <a name="delete-method-example-vbscript"></a><span data-ttu-id="0924b-102">Delete 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="0924b-102">Delete method example (VBScript)</span></span>
+# <a name="delete-method-example-vbscript"></a><span data-ttu-id="9ffcf-102">Delete 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="9ffcf-102">Delete method example (VBScript)</span></span>
 
 
-<span data-ttu-id="0924b-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="0924b-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9ffcf-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9ffcf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0924b-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="0924b-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="9ffcf-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="9ffcf-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="0924b-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="0924b-105">Use the following example in an Active Server Page (ASP).</span></span>
+<span data-ttu-id="9ffcf-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="9ffcf-105">Use the following example in an Active Server Page (ASP).</span></span>
 
-<span data-ttu-id="0924b-p101">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **DeleteVBS.asp** 。您可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="0924b-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **DeleteVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="9ffcf-p101">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **DeleteVBS.asp** 。您可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="9ffcf-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **DeleteVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="0924b-p102">若要演练本示例，请首先尝试使用 [AddNew](addnew-method-example-vbscript.md) 示例添加一些记录。然后可以尝试删除这些记录。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="0924b-p102">To exercise the example, try using the [AddNew](addnew-method-example-vbscript.md) example first to add some records. Then you can try to delete them. View the result in any client browser.</span></span>
+<span data-ttu-id="9ffcf-p102">若要演练本示例，请首先尝试使用 [AddNew](addnew-method-example-vbscript.md) 示例添加一些记录。然后可以尝试删除这些记录。可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="9ffcf-p102">To exercise the example, try using the [AddNew](addnew-method-example-vbscript.md) example first to add some records. Then you can try to delete them. View the result in any client browser.</span></span>
 
 ```vb 
  

@@ -10,33 +10,33 @@ f1_keywords:
 - dao360.chm1053082
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9377f61ec334f41b7f8ccba61b87a9d5953b4429
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 63762814d0eb90cccb86402dbd6284fd873aef73
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467836"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887801"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="517c0-102">QueryDef.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="517c0-102">QueryDef.RecordsAffected Property (DAO)</span></span>
+# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="d9f85-102">QueryDef.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="d9f85-102">QueryDef.RecordsAffected Property (DAO)</span></span>
 
 
-<span data-ttu-id="517c0-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="517c0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d9f85-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9f85-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="517c0-104">返回最近调用的 **[Execute](querydef-execute-method-dao.md)** 方法所影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="517c0-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="d9f85-104">返回最近调用的 **[Execute](querydef-execute-method-dao.md)** 方法所影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="d9f85-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="517c0-105">语法</span><span class="sxs-lookup"><span data-stu-id="517c0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d9f85-105">语法</span><span class="sxs-lookup"><span data-stu-id="d9f85-105">Syntax</span></span>
 
-<span data-ttu-id="517c0-106">*表达式*。RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="517c0-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="d9f85-106">*表达式*。RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="d9f85-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="517c0-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="517c0-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="d9f85-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="d9f85-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="517c0-108">注解</span><span class="sxs-lookup"><span data-stu-id="517c0-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d9f85-108">注解</span><span class="sxs-lookup"><span data-stu-id="d9f85-108">Remarks</span></span>
 
-<span data-ttu-id="517c0-109">当使用 **Execute** 方法从 **QueryDef** 对象运行动作查询时， **RecordsAffected** 属性将包含删除的、更新的或插入的记录的数目。</span><span class="sxs-lookup"><span data-stu-id="517c0-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
+<span data-ttu-id="d9f85-109">当使用 **Execute** 方法从 **QueryDef** 对象运行动作查询时， **RecordsAffected** 属性将包含删除的、更新的或插入的记录的数目。</span><span class="sxs-lookup"><span data-stu-id="d9f85-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
 
-## <a name="example"></a><span data-ttu-id="517c0-110">示例</span><span class="sxs-lookup"><span data-stu-id="517c0-110">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d9f85-110">示例</span><span class="sxs-lookup"><span data-stu-id="d9f85-110">Example</span></span>
 
-<span data-ttu-id="517c0-p101">以下示例将 **RecordsAffected** 属性用于从 **[Database](database-object-dao.md)** 对象和 **QueryDef** 对象执行的查询。若要使该过程运行，需要使用 RecordsAffectedOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="517c0-p101">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="d9f85-p101">以下示例将 **RecordsAffected** 属性用于从 **[Database](database-object-dao.md)** 对象和 **QueryDef** 对象执行的查询。若要使该过程运行，需要使用 RecordsAffectedOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="d9f85-p101">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 
