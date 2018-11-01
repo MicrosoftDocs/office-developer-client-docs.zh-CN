@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73946560d06d12c9bdb72b41ce0f560ad9df3e65
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3c26b5e0a7e5448340cded61717ad27fb68aa827
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466517"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869622"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>在字符串比较中使用通配符
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 内置的模式匹配方法提供了一个用于字符串比较的通用工具。下表中展示了可以用于 **Like** 运算符的通配符，以及与它们匹配的数字和字符串。
 

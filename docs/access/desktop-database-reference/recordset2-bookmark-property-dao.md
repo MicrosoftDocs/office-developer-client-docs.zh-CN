@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
 ms:contentKeyID: 48545637
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 46d349bb5b9061afa2f5df13b6a9da45e1b942a8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5336c0993230b7d380b335e6f8e7eaa1af9b306c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466114"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867823"
 ---
 # <a name="recordset2bookmark-property-dao"></a>Recordset2.Bookmark Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个书签，该书签唯一地标识 **Recordset** 对象中的当前记录。
 

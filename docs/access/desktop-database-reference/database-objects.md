@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161006(v=office.15)
 ms:contentKeyID: 52072968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8305f030028e99d8352f67a0929ee94fe45f67ef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 43e2c580ddaef0a5b16316e56822e912d5b7077e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466454"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868208"
 ---
 # <a name="database-objects"></a>数据库对象
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
@@ -24,13 +24,13 @@ ms.locfileid: "25466454"
 
   - [DeleteObject 宏操作](deleteobject-macro-action.md)
 
-  - [GoToControl Macro Action](gotocontrol-macro-action.md)
+  - [GoToControl 宏操作](gotocontrol-macro-action.md)
 
   - [GoToPage 宏操作](gotopage-macro-action.md)
 
   - [GoToRecord 宏操作](gotorecord-macro-action.md)
 
-  - [OpenForm Macro Action](openform-macro-action.md)
+  - [OpenForm 宏操作](openform-macro-action.md)
 
   - [OpenReport 宏操作](openreport-macro-action.md)
 
@@ -46,5 +46,5 @@ ms.locfileid: "25466454"
 
   - [RepaintObject 宏操作](repaintobject-macro-action.md)
 
-  - [SetValue Macro Action](setvalue-macro-action.md)
+  - [SetValue 宏操作](setvalue-macro-action.md)
 

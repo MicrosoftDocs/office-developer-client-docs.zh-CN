@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d86230f99afb95d121ea683ed4324d361b77757
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f2236a36f04f647ee5d18a58f7df54eeafba5399
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602893"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872107"
 ---
 # <a name="relationcreatefield-method-dao"></a>Relation.CreateField Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建一个新的 **[Field](field-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。
 
@@ -66,11 +66,7 @@ ms.locfileid: "25602893"
 </table>
 
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 Field
 

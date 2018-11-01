@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d944d70e7aba054abb7e6f02933b1311bb90ee17
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: be66e8cf4179965f761db5873f4a2ac5de20c49d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465928"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874494"
 ---
 # <a name="what-you-can-do-with-ado"></a>使用 ADO 可以执行的操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 旨在向开发人员提供一个功能强大的逻辑对象模型，使用该模型，可以通过 OLE DB 系统接口以编程方式访问、编辑和更新广泛的数据源。ADO 最常见的用法是：在关系数据库中查询表，在应用程序中检索记录并显示结果，有可能允许用户更改数据并保存所做的更改。使用 ADO，还能够以编程方式执行下列操作：
 

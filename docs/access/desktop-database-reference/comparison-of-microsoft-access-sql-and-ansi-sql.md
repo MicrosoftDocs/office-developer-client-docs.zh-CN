@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd28cebe731ee3c922adec0bc3357e998dc1959b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d941e93fba9e5152bb2f1c973245fa9a7647dab
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466959"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874403"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Microsoft Access SQL 和 ANSI SQL 的比较
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Microsoft Access 数据库引擎 SQL 通常与 ANSI-89 Level 1 兼容。但某些 ANSI SQL 功能无法在 Microsoft® Access SQL 中实现，而 Microsoft Access SQL 则包含 ANSI SQL 不支持的一些保留字和功能。
 

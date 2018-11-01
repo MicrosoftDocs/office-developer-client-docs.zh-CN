@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ea277f83c39bde4b5309a26b87961ff2325b145
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 710329fb00615b127ee5bc79cb10a6b5fc71b5e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465763"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875670"
 ---
 # <a name="refresh-method-ado"></a>Refresh 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 更新集合中的对象，以反映提供程序特定的可用对象。
 

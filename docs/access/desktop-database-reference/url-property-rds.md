@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249457(v=office.15)
 ms:contentKeyID: 48545603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8d1e524df8f1921f712f9dce174ab90ebd57325
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4f179eb2c251ca96943a5f924b0ca51881aa371b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465499"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874158"
 ---
 # <a name="url-property-rds"></a>URL 属性 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

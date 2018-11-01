@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
 ms:contentKeyID: 48546850
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d3654a7be455eee7afd4c4070a092735ac8b1ca5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8cb85f8a2932499d5e0a9d832ad0962beeaf4c07
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467828"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873192"
 ---
 # <a name="recordsetedit-method-dao"></a>Recordset.Edit Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 将当前记录从可更新的 **[Recordset](recordset-object-dao.md)** 对象复制到复制缓冲区，以进行后续编辑。
 

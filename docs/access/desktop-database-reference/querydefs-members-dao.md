@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
 ms:contentKeyID: 48547864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d12afc568fef47b62123b7ce0a506610bc9d0b4a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f5e8d4c89686298b7769e480b833f05b0fa6f979
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468146"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870203"
 ---
 # <a name="querydefs-members-dao"></a>QueryDefs Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 QueryDefs 集合包含 Microsoft Access 数据库引擎数据库中 Database 对象的所有 QueryDef 对象。
 

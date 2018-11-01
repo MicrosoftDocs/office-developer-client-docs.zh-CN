@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 686c860ef9d8975b02391fedcea8f4b6f4e0b9bb
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 8fc2e8ec2ceeefc670681a5aec43f03c86fd73d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862294"
+ms.locfileid: "25868873"
 ---
 # <a name="data-shaping"></a>数据成型
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 通过数据定形，可以定义定形 **Recordset** 的列、列所代表的实体之间的关系以及在 **Recordset** 中填充数据的方式。
 

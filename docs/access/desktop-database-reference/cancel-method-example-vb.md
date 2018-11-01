@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249547(v=office.15)
 ms:contentKeyID: 48545926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e449c6b94dfb20bacdb75efb821818a3f0c3a485
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 031a7a5e1447b0ef7356a3c52c658440e2a3a7fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860117"
+ms.locfileid: "25868117"
 ---
 # <a name="cancel-method-example-vb"></a>Cancel 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例使用 [Cancel](cancel-method-ado.md) 方法取消当连接处于忙碌状态时对 [Connection](connection-object-ado.md) 对象执行的命令。
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Type 属性示例 （属性） （VC + +） TOCTitle: Type 属性示例 （属性） （VC + +） === 标题： Type 属性示例 （属性） （VC + +） TOCTitle: Type 属性示例 （属性） （VC + +）
->>>>>>> 母版页 ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: 48548168 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Type 属性示例（属性）(VC++)
+TOCTitle: Type property example (Property) (VC++)
+ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
+ms:contentKeyID: 48548168
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 21c0f6044b0c59949984a35e6f6d4b51c80b1801
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868425"
 ---
-
-<<<<<<< 标头
 # <a name="type-property-example-property-vc"></a>Type 属性示例（属性）(VC++)
-=======
-# <a name="type-property-example-property-vc"></a>Type 属性示例 （属性） （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Type](type-property-ado.md) 属性。该示例是列出集合的名称和类型（如 [Properties](properties-collection-ado.md)、[Fields](fields-collection-ado.md) 等）的实用程序模型。
 

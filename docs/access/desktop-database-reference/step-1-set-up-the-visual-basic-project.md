@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248954(v=office.15)
 ms:contentKeyID: 48543544
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f608d0dadb44a6ddea7a60123d2d6950bc9627cb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 31b81c762f192f8a56e56baf0c5e0ae5b6b6fadf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466392"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868649"
 ---
 # <a name="step-1-set-up-the-visual-basic-project"></a>步骤 1：设置 Visual Basic 项目
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="step-1-set-up-the-visual-basic-project"></a>步骤 1：设置 Visual Basic 项目
 

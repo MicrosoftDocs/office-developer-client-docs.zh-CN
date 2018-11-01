@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196110(v=office.15)
 ms:contentKeyID: 48545746
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e221b6c58612f848cd5df4046c605378b1b799a9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c3b34f8f027b2e70ada94c6d15584cf25a4aec1c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466192"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873288"
 ---
 # <a name="recordsettransactions-property-dao"></a>Recordset.Transactions Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个值，该值指示对象是否支持事务。只读 **Boolean** 类型。
 

@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fc90d6cc2cdb3f4bbee4faeb48e12555c14fa9a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c5d75ee8e4d9fdbd2ab922bd2ed7a8c0dc5fa846
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466870"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874501"
 ---
 # <a name="applyfilter-macro-action"></a>ApplyFilter 宏操作
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **ApplyFilter** 操作对表、窗体或报表应用筛选、查询或 SQL WHERE 子句，以便对表、基础表或是窗体或报表查询中的记录进行限制或排序。对于报表，只能在由报表的 **OnOpen** 事件属性所指定的宏中使用此操作。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249261(v=office.15)
 ms:contentKeyID: 48544817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b25123698f39e602b59a2f5cd6bd9a2f0595addb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9ff4c0368d2811767b3211a664a42dfc8aac16ba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468731"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874767"
 ---
-# <a name="using-pages"></a>使用页
+# <a name="using-pages"></a>使用页面
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用 **PageCount** 属性可以确定 **Recordset** 对象中的数据页数。 *页面*是其大小等于**PageSize**属性设置的记录组。 即使最后一页由于记录数小于 **PageSize** 值而不完整，它也被视作 **PageCount** 值中的另一页。 如果 **Recordset** 对象不支持此属性， **PageCount** 将为 -1，这指示 **PageCount** 是不可确定的。
 

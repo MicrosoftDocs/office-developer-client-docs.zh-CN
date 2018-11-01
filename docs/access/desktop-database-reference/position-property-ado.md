@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： Position 属性 (ADO) TOCTitle: Position 属性 (ADO) === 标题： Position 属性 (ADO) TOCTitle: Position 属性 (ADO)
->>>>>>> 母版页 ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15) ms:contentKeyID: 48546709 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Position 属性 (ADO)
+TOCTitle: Position property (ADO)
+ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
+ms:contentKeyID: 48546709
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab1111cdbc0e5a319f1f3431477854c6d38eff20
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875404"
 ---
-
-<<<<<<< 标头
 # <a name="position-property-ado"></a>Position 属性 (ADO)
-=======
-# <a name="position-property-ado"></a>Position 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 [Stream](stream-object-ado.md) 对象中的当前位置。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **Long** 值，指定当前位置从流开始处的偏移量（以字节为单位）。默认值为 0，表示流中的第一个字节。
 

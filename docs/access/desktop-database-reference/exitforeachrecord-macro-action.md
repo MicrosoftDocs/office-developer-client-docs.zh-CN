@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191716(v=office.15)
 ms:contentKeyID: 48543712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 221e14668d87b5aa342dfa007220d7a5e1b755f5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0e3ae4157fdfc91cad3068addfc1383b7e641402
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860369"
+ms.locfileid: "25867431"
 ---
 # <a name="exitforeachrecord-macro-action"></a>ExitForEachRecord 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用 **ExitForEachRecord** 操作可立即退出 **[ForEachRecord](foreachrecord-data-block.md)** 数据块。
 

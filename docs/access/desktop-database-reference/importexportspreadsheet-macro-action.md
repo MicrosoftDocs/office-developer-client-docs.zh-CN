@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4693cbe643ab34431f7920564e704808c1b0f73b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78819ba2a82bf2fc9ab5c39300d06c1acdda80bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466150"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875803"
 ---
 # <a name="importexportspreadsheet-macro-action"></a>ImportExportSpreadsheet 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **ImportExportSpreadsheet** 操作在当前的 Microsoft Access 数据库（.mdb 或 .accdb）或 Microsoft Access 项目 (.adp) 与电子表格文件之间导入或导出数据。还可以将 Microsoft Excel 电子表格中的数据链接到当前的 Microsoft Access 数据库。通过链接的电子表格，可以用 Access 查看和编辑电子表格数据，同时仍然可以从 Excel 电子表格程序中对这些数据进行完全访问。还可以链接到 Lotus 1-2-3 电子表格文件中的数据，但这些数据在 Access 中是只读的。
 

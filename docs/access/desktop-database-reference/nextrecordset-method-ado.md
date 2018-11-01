@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e412fbcb083e4cf5acae363ef05ce11ad9754215
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ec6b6677e0de89b22f3c35009edcbc05684d10ce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603397"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872597"
 ---
 # <a name="nextrecordset-method-ado"></a>NextRecordset 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
  
 
 用于通过执行一系列命令，清除当前 [Recordset](recordset-object-ado.md) 对象并返回下一个 **Recordset** 。
@@ -25,11 +25,7 @@ ms.locfileid: "25603397"
 
 设置*recordset2* = *recordset1*。NextRecordset (*RecordsAffected* )
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回一个 **Recordset** 对象。在语法模型中，*recordset1* 和 *recordset2* 可以是相同的 **Recordset** 对象，也可以是不同的对象。使用不同的 **Recordset** 对象时，在调用 **NextRecordset** 之后重置原始 **Recordset** (*recordset1*) 的 **ActiveConnection** 属性将生成错误。
 
@@ -47,9 +43,7 @@ ms.locfileid: "25603397"
 
 ## <a name="remarks"></a>备注
 
-<<<<<<< 标头使用**NextRecordset**方法返回的复合命令语句中的下一个命令或存储过程的返回多个结果的结果。 如果您打开一个基于复合命令语句的**Recordset**对象 (例如，"选择\*TABLE1;选择\*从 table2") 上的[命令](command-object-ado.md)或[Open](open-method-ado-recordset.md)方法在**Recordset**上的使用[Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\))方法，ADO 执行仅的第一个命令，并将结果返回到*recordset*。 若要访问语句中后续命令的结果，请调用 **NextRecordset** 方法。
-=== 使用**NextRecordset**方法对于返回结果的复合命令语句中的下一个命令或存储过程的返回多个结果。 如果您打开一个基于复合命令语句的**Recordset**对象 (例如，"选择\*TABLE1;选择\*从 table2") 上的[命令](command-object-ado.md)或[Open](open-method-ado-recordset.md)方法在**Recordset**上的使用[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)方法，ADO 执行仅的第一个命令，并将结果返回到*recordset*。 若要访问语句中后续命令的结果，请调用 **NextRecordset** 方法。
->>>>>>> master
+使用 **NextRecordset** 方法可以返回复合命令语句中下一个命令的结果，或可返回多个结果的存储过程的结果。 如果您打开一个基于复合命令语句的**Recordset**对象 (例如，"选择\*TABLE1;选择\*从 table2") 上的[命令](command-object-ado.md)或[Open](open-method-ado-recordset.md)方法在**Recordset**上的使用[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)方法，ADO 执行仅的第一个命令，并将结果返回到*recordset*。 若要访问语句中后续命令的结果，请调用 **NextRecordset** 方法。
 
 只要存在其他结果，且包含复合语句的 **Recordset** 未断开连接或跨进程边界封送，则 **NextRecordset** 方法将继续返回 **Recordset** 对象。 如果返回行的命令成功执行但未返回记录，则返回的 **Recordset** 对象将打开，但为空。 可通过验证 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性是否都为 **True** 来测试该情况。 如果非行返回命令执行成功，返回的**Recordset**对象将关闭，这可以验证通过测试在**Recordset**上的[状态](state-property-ado.md)属性。 当没有更多结果时， *recordset*将设置为*Nothing*。
 

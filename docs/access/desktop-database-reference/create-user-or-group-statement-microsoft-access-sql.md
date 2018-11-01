@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 391c31240acf33a458895b00335d1600b975e834
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: cd33755800d0ed820a9690a6910f3edf064c3c82
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862644"
+ms.locfileid: "25872191"
 ---
 # <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATE USER 或 GROUP 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 新建一个或多个用户或组。
 

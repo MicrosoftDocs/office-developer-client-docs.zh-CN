@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249823(v=office.15)
 ms:contentKeyID: 48547068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c324923f0e702ad59ac120ea5de2eebcccd260e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2c0cb4c9e4c8dd17098f6d94d83793fbcbc28cef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465515"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869825"
 ---
 # <a name="dynamic-cursors"></a>动态游标
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 动态游标可以检测对结果集中的行的所有更改，无论这些更改是从游标内部发生的，还是由游标外部的其他用户引起的。通过游标，所有用户发出的所有插入、更新和删除语句都是可见的。动态游标可以检测在游标打开之后对结果集中的行、顺序和值进行的任何更改。在游标外部所做的更新要等到这些更新被提交以后才是可见的（除非将游标事务隔离级别设置为"不提交"）。
 

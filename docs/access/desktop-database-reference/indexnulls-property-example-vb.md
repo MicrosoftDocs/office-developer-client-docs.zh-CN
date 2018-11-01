@@ -1,15 +1,21 @@
 ---
-<<<<<<< 标头标题： IndexNulls 属性示例 (VB) TOCTitle: IndexNulls 属性示例 (VB) === 标题： IndexNulls 属性示例 (VB) TOCTitle: IndexNulls 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID: 48545417 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: IndexNulls 属性示例 (VB)
+TOCTitle: IndexNulls property example (VB)
+ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
+ms:contentKeyID: 48545417
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c1baa2169b2d953f7a390dee44f9841a4c7ecfa4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869846"
 ---
-
-<<<<<<< 标头
 # <a name="indexnulls-property-example-vb"></a>IndexNulls 属性示例 (VB)
-=======
-# <a name="indexnulls-property-example-vb"></a>IndexNulls 属性示例 (VB)
->>>>>>> master
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Index](indexnulls-property-adox.md) 的 [IndexNulls](index-object-adox.md) 属性。 代码创建新的索引，并根据用户输入（来自名为 List1 的列表框）设置 **IndexNulls** 的值。 然后，**索引**追加到*罗斯文*[目录](catalog-object-adox.md)中的**Employees** [表](table-object-adox.md)。 新的 **Index** 应用于基于 [Employees](recordset-object-ado.md) （雇员）表的 **Recordset**，并且该 **Recordset** 被打开。 有一条新记录添加到 **Employees** （雇员）表中，并且索引字段为 **Null** 值。 此新记录是否显示取决于 **IndexNulls** 属性的设置。
 

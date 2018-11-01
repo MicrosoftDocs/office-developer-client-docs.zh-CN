@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a598b2842638b0c58e72ef2b802c8214f5c72b8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf12c224de0593fa3202ab74cdd0c5346c9570a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466762"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874193"
 ---
 # <a name="transaction-processing"></a>事务处理
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 提供下列用于控制事务的方法： **BeginTrans** 、 **CommitTrans** 和 **RollbackTrans** 。当您希望将对源数据进行的一系列更改作为一个整体来保存或取消时，可以将这些方法用于 **Connection** 对象。例如，若要在帐户之间转帐，可以从一个帐户中减去一定的金额并在另一个帐户中增加相同的金额。如果任一更新失败，则帐户将不再平衡。在开放式事务中进行这些更改可确保所有的更改都完成或者都未完成。
 

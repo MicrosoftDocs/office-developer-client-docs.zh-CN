@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Status 属性示例 (Field) (VB) TOCTitle: Status 属性示例 (Field) (VB) === 标题： Status 属性示例 (Field) (VB) TOCTitle: Status 属性示例 (Field) (VB)
->>>>>>> 母版页 ms:assetid: 1dc2807f-f469-de97-1280-4b1984b271b4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15) ms:contentKeyID: 48543601 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Status 属性示例 (Field) (VB)
+TOCTitle: Status property example (Field) (VB)
+ms:assetid: 1dc2807f-f469-de97-1280-4b1984b271b4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
+ms:contentKeyID: 48543601
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 680df8832bea713155435b6a315a008dae7e3309
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873472"
 ---
-
-<<<<<<< 标头
 # <a name="status-property-example-field-vb"></a>Status 属性示例 (Field) (VB)
-=======
-# <a name="status-property-example-field-vb"></a>Status 属性示例 (Field) (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下面的示例使用 [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md) 从可读写的文件夹中打开一个文档。首先将 [Record](status-property-ado-field.md) 的 [Field](field-object-ado.md) 对象的 [Status](record-object-ado.md) 属性设置为 **adFieldPendingInsert** ，然后更新为 **adFieldOk** 。
 

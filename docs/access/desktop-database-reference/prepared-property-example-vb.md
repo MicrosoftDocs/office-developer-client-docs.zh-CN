@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： 只有在准备好属性示例 (VB) TOCTitle： 只有在准备好属性示例 (VB) === 标题： Prepared 的属性示例 (VB) TOCTitle: Prepared 的属性示例 (VB)
->>>>>>> 母版页 ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15) ms:contentKeyID: 48548000 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Prepared 属性示例 (VB)
+TOCTitle: Prepared property example (VB)
+ms:assetid: d7332052-bf2e-f7d4-eb06-59ff8d68f812
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250081(v=office.15)
+ms:contentKeyID: 48548000
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8c5e139ddfae11a92ccc5cbcea4ca509c8cdeecc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875425"
 ---
-
-<<<<<<< 标头
 # <a name="prepared-property-example-vb"></a>Prepared 属性示例 (VB)
-=======
-# <a name="prepared-property-example-vb"></a>Prepared 的属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。
 

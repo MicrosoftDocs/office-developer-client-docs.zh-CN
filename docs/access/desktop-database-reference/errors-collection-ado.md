@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
 ms:contentKeyID: 48545706
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 568524bf2be93720ec319b48a784dfc62bd03f65
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fb58176e51a9e73f8551abb05636af1cfbe48d57
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863302"
+ms.locfileid: "25875215"
 ---
 # <a name="errors-collection-ado"></a>Errors 集合 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 包含为了响应与单个提供程序相关的失败提供程序而创建的所有 [Error](error-object-ado.md) 对象。
 

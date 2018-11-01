@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f38de1adc48e7d63a3b67e45f242a8cc884633ac
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 90fa6f969ab9fcb7eb6fdbb8b0c217cac92c8870
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468018"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874585"
 ---
 # <a name="cell-object-ado-md"></a>Cell 对象 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 代表处于单元格集中包含的坐标轴交点处的数据。
 

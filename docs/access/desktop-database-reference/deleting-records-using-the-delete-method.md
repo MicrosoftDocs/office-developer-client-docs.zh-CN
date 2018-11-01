@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249003(v=office.15)
 ms:contentKeyID: 48543708
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 22ed36c0015df458b9f0577350f5f05a03561515
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca39f78a69c31d45ecab57b297d8b6eaf9031d92
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468373"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875362"
 ---
 # <a name="deleting-records-using-the-delete-method"></a>使用 Delete 方法删除记录
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用 **Delete** 方法可以将 **Recordset** 对象中的当前记录或一组记录标记为删除。如果 **Recordset** 对象不允许进行记录删除，则会发生错误。如果处于立即更新模式，则数据库中将立即发生删除。如果无法成功删除记录（例如，由于数据库完整性受到破坏），则在调用 **Update** 之后记录将继续处于编辑模式。这意味着，在离开当前记录（例如，使用 [Close](cancelupdate-method-ado.md)、[Move](close-method-ado.md) 或 [NextRecordset](move-method-ado.md)）之前，必须使用 [CancelUpdate](nextrecordset-method-ado.md) 取消更新。
 

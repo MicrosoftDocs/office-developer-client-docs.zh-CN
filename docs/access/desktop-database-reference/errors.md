@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249199(v=office.15)
 ms:contentKeyID: 48544490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 38a89767de9fca317b3ed25fd81c7bf016a8ba46
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3908a4b882a78360d3fd30ede0d4b9e406d03be5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466740"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873878"
 ---
 # <a name="errors"></a>错误
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 任何涉及 ADO 对象的操作都可以生成提供程序错误。每个错误发生时，系统会将 **Error** 对象放在 **Connection** 对象的 **Errors** 集合中。有关在 ADO 应用程序中处理警告和错误的详细信息，请参阅 [第 6 章：错误处理](chapter-6-error-handling.md)。
 

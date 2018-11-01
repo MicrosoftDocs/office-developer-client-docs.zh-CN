@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm50135
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ad607f852f5af21bc2979bd635286b86d18489a5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ee0a46e909c86534693638de98f42980bccfebba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466784"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870168"
 ---
 # <a name="openview-macro-action"></a>OpenView 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在 Microsoft Access 项目中，可以使用 **OpenView** 操作在数据表视图、设计视图或打印预览中打开视图。如果在数据表视图中打开命名视图，此操作将运行该视图。您可以为视图选择数据输入模式，以及限制视图显示的记录。
 

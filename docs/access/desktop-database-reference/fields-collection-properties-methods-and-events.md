@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249706(v=office.15)
 ms:contentKeyID: 48546566
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9179a7255337e315cef279a672a5eb4c1bc9c202
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e9a6ce0b02daa7e0fed919546c101bfcb79b9650
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466384"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874186"
 ---
 # <a name="fields-collection-properties-methods-and-events"></a>Fields 集合的属性、方法和事件
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="properties"></a>属性
 

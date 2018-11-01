@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
 ms:contentKeyID: 48547407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 40e9572988ca3335ef93ecf46d00a716ba29c595
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aa26ff85bfb3a2b5666b98ea6ab6b30e689b5c2b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467715"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872688"
 ---
 # <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>WillChangeField 和 FieldChangeComplete 事件 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **WillChangeField** 事件在挂起的操作更改 [Recordset](field-object-ado.md) 中的一个或多个 [Field](recordset-object-ado.md) 对象的值之前调用。 **FieldChangeComplete** 事件在一个或多个 **Field** 对象的值已更改之后调用。
 

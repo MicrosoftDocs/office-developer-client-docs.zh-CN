@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9aeb21136a704bc327c9f82dd07fc310b8705e1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5fccddd2f9566e0cb864a7a1cb4ccddb340fd0c5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862700"
+ms.locfileid: "25873458"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [OpenSchema](openschema-method-ado.md) 方法来显示 ***Pubs*** 数据库中每个表的名称和类型。
 

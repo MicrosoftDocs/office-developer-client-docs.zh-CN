@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6492a9fb3693d7d8cdfd2f3701d3360a55dfb063
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0bd08cea4c79fb9bf25c9bca4364accf617e6962
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465615"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873913"
 ---
 # <a name="ado-md-properties"></a>ADO MD 属性
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ ms.locfileid: "25465615"
 <td><p>指示成员级别的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">名称</a></p></td>
+<td><p><a href="name-property-ado-md.md">Name</a></p></td>
 <td><p>指示对象的名称。</p></td>
 </tr>
 <tr class="odd">

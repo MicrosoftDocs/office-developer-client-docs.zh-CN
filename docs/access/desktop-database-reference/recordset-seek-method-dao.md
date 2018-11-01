@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1053061
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 86d8769749ec4733398c3b89aa12fc4077a14ed1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: abe4bef73eb0deba721295917b9e13496c0c6733
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468703"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875201"
 ---
 # <a name="recordsetseek-method-dao"></a>Recordset.Seek Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在已建立索引的表类型 **Recordset** 对象中查找符合当前索引的指定条件的记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。
 

@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248898(v=office.15)
 ms:contentKeyID: 48543344
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5041eb32397fc9a234d0e4a0fff622f31b56a0a5
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4212b1c2bcf89badedbc7a3b7d4dc72a879a95c7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603355"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871981"
 ---
 # <a name="specifying-threads-per-processor-on-iis"></a>在 IIS 上指定每个处理器的线程数
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-<<<<<<< 标头时使用 RDS Internet 信息服务 4.0 或更高版本，可通过操作 Web 服务器上的注册表来控制创建每个处理器的线程数。 在高通讯量或者通讯量虽小但查询较大的情况下，每处理器的线程数可能会影响性能。 用户应进行试验以获得最佳效果。
-=== 时使用 RDS Internet 信息服务 4.0 或更高版本，可通过操作 web 服务器上的注册表控制创建每个处理器的线程数。 在高通讯量或者通讯量虽小但查询较大的情况下，每处理器的线程数可能会影响性能。 用户应进行试验以获得最佳效果。
->>>>>>> master
+当使用 RDS Internet 信息服务 4.0 或更高版本，可通过操作 web 服务器上的注册表控制创建每个处理器的线程数。 在高通讯量或者通讯量虽小但查询较大的情况下，每处理器的线程数可能会影响性能。 用户应进行试验以获得最佳效果。
 
 用来确定和更改此设置默认值的方法取决于 IIS 4.0 服务器的配置。
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： AbsolutePosition 和 CursorLocation 属性示例 (VB) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (VB) ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: AbsolutePosition 和 CursorLocation 属性示例 (VB)
+TOCTitle: AbsolutePosition and CursorLocation properties example (VB)
+ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15)
+ms:contentKeyID: 48544966
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: b1fb72b167ad24d2d5ef7acd1472d435381428c8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869643"
 ---
-
 # <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition 和 CursorLocation 属性示例 (VB)
-=== 标题： AbsolutePosition 和 CursorLocation 属性示例 (VB) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (VB) ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID: 48544966ms.date: 10/17/2018 mtps_version: office.15.aspx
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition 和 CursorLocation 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例演示 [AbsolutePosition](absoluteposition-property-ado.md) 属性如何跟踪枚举 [Recordset](recordset-object-ado.md) 的所有记录的循环的进度。它使用 [CursorLocation](cursorlocation-property-ado.md) 属性通过将游标设置为客户端游标来启用 **AbsolutePosition** 属性。
 

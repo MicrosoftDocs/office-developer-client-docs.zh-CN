@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249942(v=office.15)
 ms:contentKeyID: 48547535
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f552fc8a5906a26a20d50eaaaedb126289b7018d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e814c0139ceff5637df41d3bc272abbfb1114a49
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467270"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875796"
 ---
 # <a name="table-properties-methods-and-events-adox"></a>Table Properties, Methods, and Events (ADOX)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="propertiescollections"></a>属性/集合
 

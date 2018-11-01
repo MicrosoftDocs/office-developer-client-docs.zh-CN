@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a6f1e174253904adf7392aa7ae19786103e55843
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c7f9f9e52f2220a384ba73a64d96dd93fec2cd91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863351"
+ms.locfileid: "25871281"
 ---
 # <a name="schemaenum"></a>SchemaEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于指定 **OpenSchema** 方法检索的架构 [Recordset](openschema-method-ado.md) 的类型。
 

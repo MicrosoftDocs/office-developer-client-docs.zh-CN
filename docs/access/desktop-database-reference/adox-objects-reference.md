@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249756(v=office.15)
 ms:contentKeyID: 48546783
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 365291034f45191700987c2399cd4c10dbd5834b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 32d0183eca25687a484645132b8b53e1b87e107d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465807"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873248"
 ---
 # <a name="adox-objects-reference"></a>ADOX Objects Reference
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
   - [ADOX 对象](adox-objects.md)

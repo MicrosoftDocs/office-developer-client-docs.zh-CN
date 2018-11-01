@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053068
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ba1c70a9aded0ce26cd24d2dc25ecb65c30b1f8e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bdc58837cea3f54e46a3e805523e77c27cb21e7c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467566"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870826"
 ---
 # <a name="relationtable-property-dao"></a>Relation.Table Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 **[Relation](relation-object-dao.md)** 对象的主表的名称。该属性应当等同于 **[TableDef](connection-name-property-dao.md)** 或 **[QueryDef](tabledef-object-dao.md)** 对象的 **[Name](querydef-object-dao.md)** 属性设置（仅适用于 Microsoft Access 工作区）。
 

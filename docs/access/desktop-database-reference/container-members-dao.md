@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822740(v=office.15)
 ms:contentKeyID: 48547451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78c70d270ae053c2893d27f493c74b0887c543cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ba0341e9d9be646e1973b6128b296be799eb85f4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468645"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874298"
 ---
 # <a name="container-members-dao"></a>Container Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Container 对象可将相似类型的 Document 对象组合在一起。
 

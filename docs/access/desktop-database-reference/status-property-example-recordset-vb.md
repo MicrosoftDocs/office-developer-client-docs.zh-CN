@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Status 属性示例 (Recordset) (VB) TOCTitle: Status 属性示例 (Recordset) (VB) === 标题： Status 属性示例 (Recordset) (VB) TOCTitle: Status 属性示例 (Recordset) (VB)
->>>>>>> 母版页 ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15) ms:contentKeyID: 48546476 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Status 属性示例 (Recordset) (VB)
+TOCTitle: Status property example (Recordset) (VB)
+ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
+ms:contentKeyID: 48546476
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 23e444b2b10946c815cb25b0ed8aedb7533b89c1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869062"
 ---
-
-<<<<<<< 标头
 # <a name="status-property-example-recordset-vb"></a>Status 属性示例 (Recordset) (VB)
-=======
-# <a name="status-property-example-recordset-vb"></a>Status 属性示例 (Recordset) (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [Status](status-property-ado-recordset.md) 属性显示在批更新发生之前的批操作中修改的记录。
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053363
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8e7f5f4b6a0d4fa12be35a20f0a17717fdef1062
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a588504cd42ffdb67dc35633e8d992501fbde304
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465982"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867207"
 ---
 # <a name="errornumber-property-dao"></a>Error.Number Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
  
 
 返回一个数字值，该值指定错误。

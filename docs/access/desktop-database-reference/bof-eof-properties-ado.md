@@ -1,26 +1,28 @@
 ---
-<<<<<<< 标头标题： BOF、 EOF 属性 (ADO) TOCTitle: BOF、 EOF 属性 (ADO) === 标题： BOF、 EOF 属性 (ADO) TOCTitle: BOF、 EOF 属性 (ADO)
->>>>>>> 母版页 ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15) ms:contentKeyID: 48548768 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: BOF、EOF 属性 (ADO)
+TOCTitle: BOF, EOF properties (ADO)
+ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
+ms:contentKeyID: 48548768
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5b71e48f3fe0b596f085f02d371b0775695ffd5c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874242"
 ---
-
-<<<<<<< 标头
 # <a name="bof-eof-properties-ado"></a>BOF、EOF 属性 (ADO)
-=======
-# <a name="bof-eof-properties-ado"></a>BOF、 EOF 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
   - **BOF**  指示当前记录位置在 [Recordset](recordset-object-ado.md) 对象中的第一条记录之前。
 
   - **EOF**  指示当前记录位置在 **Recordset** 对象中的最后一条记录之后。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 **BOF** 和 **EOF** 属性将返回 **Boolean** 值。
 

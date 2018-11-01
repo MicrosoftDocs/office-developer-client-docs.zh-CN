@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192239(v=office.15)
 ms:contentKeyID: 48543989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c44d70323976ade2017d406b628d3347b414f6aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2fb7fd4e2521b8fe712d488f48f2cf6a1b219423
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468211"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875887"
 ---
 # <a name="recordset2cachestart-property-dao"></a>Recordset2.CacheStart Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指定动态集类型 Recordset 对象（包含从 ODBC 数据源本地缓存的数据）中的第一条记录的书签（仅适用于 Microsoft Access 工作区）。
 

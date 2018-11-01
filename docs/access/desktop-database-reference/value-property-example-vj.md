@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Value 属性示例 （VJ + +） TOCTitle: Value 属性示例 （VJ + +） === 标题： Value 属性示例 （VJ + +） TOCTitle: Value 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15) ms:contentKeyID: 48543474 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Value 属性示例 (VJ++)
+TOCTitle: Value property example (VJ++)
+ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
+ms:contentKeyID: 48543474
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7117c9d48269ea9ae2eedf7af83aedab01b77d50
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871946"
 ---
-
-<<<<<<< 标头
 # <a name="value-property-example-vj"></a>Value 属性示例 (VJ++)
-=======
-# <a name="value-property-example-vj"></a>Value 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例通过显示 ***Employees***（雇员）表的字段和属性值来演示 [Field](field-object-ado.md) 和 [Property](property-object-ado.md) 对象的 [Value](value-property-ado.md) 属性。
 

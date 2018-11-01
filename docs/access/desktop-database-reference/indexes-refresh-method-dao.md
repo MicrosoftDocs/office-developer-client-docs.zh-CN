@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837325(v=office.15)
 ms:contentKeyID: 48548973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7668d3b6b6907941603ce7c40355089ad6a98fd7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e97a886f966ded295e36f76c07d649dfc057a191
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468469"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872135"
 ---
 # <a name="indexesrefresh-method-dao"></a>Indexes.Refresh Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 更新指定集合中的对象，以反映数据库的当前架构。
 

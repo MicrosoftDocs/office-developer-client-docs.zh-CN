@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5104aa452dfc8bc73c378c30a454f676d455c9f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a5cc7394b01dcd79d17e3fcc7568bb8081ee12ce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468286"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872639"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>TableDef.ReplicaFilter Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回部分副本中的 **[TableDef](tabledef-object-dao.md)** 对象中的一个值，用于指示哪部分记录从完全副本复制到该表中（仅适用于 Microsoft Access 工作区）。
 

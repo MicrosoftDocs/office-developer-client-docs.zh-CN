@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249473(v=office.15)
 ms:contentKeyID: 48545643
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ae3f65b42032e9a5d8f905516de080a9c575e5b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6a570171386a1ff00e1740e42cf914683ad5eb03
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863630"
+ms.locfileid: "25871526"
 ---
 # <a name="parameterdirectionenum"></a>ParameterDirectionEnum
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于指定 [Parameter 对象 (ADO)](parameter-object-ado.md) 是代表输入参数、输出参数、输入和输出参数两者，还是来自存储过程的返回值。
 

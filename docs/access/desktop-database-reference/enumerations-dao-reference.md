@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
 ms:contentKeyID: 52074514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b645cce0121da8abaef33554b9d1c302ca6742c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e0b4a2bc47a37918f3665d607e0748726851d97a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465914"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867886"
 ---
 # <a name="enumerations-dao-reference"></a>Enumerations (DAO Reference)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

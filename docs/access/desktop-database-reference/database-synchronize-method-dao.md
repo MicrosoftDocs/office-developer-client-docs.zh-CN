@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b25536c158c248695c9e537a0153922b2518058a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: af280c1fca9465d9d8c02c2496ccc7b74e4d8b5d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863288"
+ms.locfileid: "25867516"
 ---
 # <a name="databasesynchronize-method-dao"></a>Database.Synchronize Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 同步两个副本。（仅适用于 Microsoft Access 工作区）。
 

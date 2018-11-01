@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250316(v=office.15)
 ms:contentKeyID: 48548969
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: adeadcf4c467aabad7b486bd43c12e26d67ce302
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: dd8a2df4462d9f877d1b4451744fc51215227153
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603860"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875103"
 ---
 # <a name="source-property-ado-error"></a>Source 属性 (ADO Error)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示最初生成错误的对象或应用程序的名称。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回一个 **String** 值，指示对象或应用程序的名称。
 

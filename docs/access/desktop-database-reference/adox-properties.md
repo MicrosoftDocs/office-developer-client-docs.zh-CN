@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b02410f6e1960e790faf67c882aaa655fcdd5b0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 512ae9aef050b7cc9b3737977912db10a3f0dc97
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467505"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873857"
 ---
 # <a name="adox-properties"></a>ADOX 属性
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ ms.locfileid: "25467505"
 <td><p>按名称或序号指示集合的特定成员。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">名称</a></p></td>
+<td><p><a href="name-property-adox.md">Name</a></p></td>
 <td><p>指示对象的名称。</p></td>
 </tr>
 <tr class="odd">

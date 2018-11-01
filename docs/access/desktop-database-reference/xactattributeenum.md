@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249643(v=office.15)
 ms:contentKeyID: 48546366
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2d39cc24feb377cf61e7c2d0a39e11513f4c0616
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 28b81c45921120b8a3cd8768d22559355d8ff623
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864058"
+ms.locfileid: "25870490"
 ---
 # <a name="xactattributeenum"></a>XactAttributeEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定 [Connection](connection-object-ado.md) 对象的事务属性。
 

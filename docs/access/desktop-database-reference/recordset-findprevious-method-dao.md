@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7f264695830d33dfebccf0324f50515d9da30a7e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f55cacf0c22130ede5025fcbd1bc55c76150bc95
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466151"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867956"
 ---
 # <a name="recordsetfindprevious-method-dao"></a>Recordset.FindPrevious Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在动态集类型或快照类型的 **[Recordset](recordset-object-dao.md)** 对象中查找符合指定条件的上一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。
 

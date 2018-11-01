@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f8266d2b632b27ee4fafbb4ed0634def544c17a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e3a9c6b8dc7a6dc88ac6baf8d05e1baf4a0e048b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860257"
+ms.locfileid: "25868551"
 ---
 # <a name="using-ado-for-internet-publishing"></a>使用 ADO 进行 Internet 发布
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
