@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249327(v=office.15)
 ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7221c6bd0a6e8576237fdf4cbfcabe70620f6af8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bb0bb40d0f12bd9d5a6c8b29af1d4e27d806db87
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603992"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882082"
 ---
 # <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Microsoft OLE DB Provider for Internet Publishing
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Microsoft OLE DB Provider for Internet Publishing 允许 ADO 访问 Microsoft FrontPage 或 Microsoft Internet Information Server 提供的资源。此类资源包括 Web 源文件，如 HTML 文件或 Windows 2000 Web 文件夹。
 
@@ -66,11 +66,7 @@ MSDAIPP.DSO
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong> -或- <strong>URL</strong></p></td>
-<<<<<<< 标头
-<td><p>指定在 Web 文件夹中发布的文件或目录的 URL。</p></td>
-=======
 <td><p>指定文件或目录 web 文件夹中发布的 URL。</p></td>
->>>>>>>主控形状
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>

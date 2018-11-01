@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3e7251ba50b003b37cdeb0dd70fe4a98821d4c9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b018fda52ba7dd311cda9b7b23ce10d5e47c4828
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861930"
+ms.locfileid: "25868924"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions 属性 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示异步获取类型。
 
@@ -60,7 +60,5 @@ ms.locfileid: "25861930"
 
 ## <a name="remarks"></a>备注
 
-<<<<<<< 标头中 Web 应用程序中，将通常想要使用**adcFetchAsync** （默认值），因为它提供了更好的性能。 而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
-=== 在 web 应用程序，您通常需要使用**adcFetchAsync** （默认值），因为它提供了更好的性能。 而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
->>>>>>> 母版
+在 web 应用程序，您通常需要使用**adcFetchAsync** （默认值），因为它提供了更好的性能。 而在已编译的客户端应用程序中，通常会使用 **adcFetchBackground** 。
 

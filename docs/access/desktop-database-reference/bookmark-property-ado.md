@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： Bookmark 属性 (ADO) TOCTitle: Bookmark 属性 (ADO) === 标题： Bookmark 属性 (ADO) TOCTitle: Bookmark 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15) ms:contentKeyID: 48543287 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Bookmark 属性 (ADO)
+TOCTitle: Bookmark property (ADO)
+ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
+ms:contentKeyID: 48543287
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d5052b25325007a5daca76baccf7414e0c7a43cd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889118"
 ---
-
-<<<<<<< 标头
 # <a name="bookmark-property-ado"></a>Bookmark 属性 (ADO)
-=======
-# <a name="bookmark-property-ado"></a>Bookmark 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示在 [Recordset](recordset-object-ado.md) 对象中唯一标识当前记录的书签，或者将 **Recordset** 对象中的当前记录设置为有效书签标识的记录。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **Variant** 表达式，该表达式的计算结果为一个有效书签。
 

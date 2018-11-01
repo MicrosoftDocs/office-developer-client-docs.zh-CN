@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194762(v=office.15)
 ms:contentKeyID: 48545157
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9366124a6d78358a184f25a0881e84ee27d6f86d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 542e4f3f2b0f2b3a88c5f4d358e36a4faa196a7b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465596"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869720"
 ---
 # <a name="fieldforeignname-property-dao"></a>Field.ForeignName Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指定某个外表中的 **[Field](field-object-dao.md)** 对象的名称，而该外表对应于某个关系的主表中的字段（仅适用于 Microsoft Access 工作区）。
 

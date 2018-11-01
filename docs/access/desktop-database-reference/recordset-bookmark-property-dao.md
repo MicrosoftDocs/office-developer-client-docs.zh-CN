@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c61cc86fbca68e8c3aca38fd86ed36b8c8f403dd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 644eb2e1a8f979451d233bcc5a48f723c25739b0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466997"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888473"
 ---
 # <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个书签，该书签唯一地标识 **[Recordset](recordset-object-dao.md)** 对象中的当前记录。
 

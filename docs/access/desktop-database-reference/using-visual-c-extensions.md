@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0076eae8a930688219da413a31d73a376bc53a39
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bcfde7e343a37d65356e1f9ed8d879030913f5ed
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468396"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868782"
 ---
 # <a name="using-visual-c-extensions"></a>使用 Visual C++ Extensions
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="the-iadorecordbinding-interface"></a>IADORecordBinding 接口
 

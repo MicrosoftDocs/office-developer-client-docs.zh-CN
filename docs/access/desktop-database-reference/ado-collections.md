@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a48e3c767d2a65745fd587bccdead7a1ed2ef0c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cbddefcdfa17326f922cad49c774e8ade06e5137
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466684"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873675"
 ---
 # <a name="ado-collections"></a>ADO 集合
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 每个集合都可以包含其相应的对象。例如，[Error](error-object-ado.md) 对象可以包含在 [Errors](errors-collection-ado.md) 集合中。有关对象的详细信息，请参阅 [ADO 对象](ado-objects-and-interfaces.md)或特定的对象主题。
 

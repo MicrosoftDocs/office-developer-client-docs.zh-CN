@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： LockType 属性 (ADO) TOCTitle: LockType 属性 (ADO) === 标题： LockType 属性 (ADO) TOCTitle: LockType 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15) ms:contentKeyID: 48543589 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: LockType 属性 (ADO)
+TOCTitle: LockType property (ADO)
+ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15)
+ms:contentKeyID: 48543589
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 88657361d6ce5ac168f21f5709bdaf68eeb23b6d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879053"
 ---
-
-<<<<<<< 标头
 # <a name="locktype-property-ado"></a>LockType 属性 (ADO)
-=======
-# <a name="locktype-property-ado"></a>LockType 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示编辑过程中为记录设置的锁定类型。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 [LockTypeEnum](locktypeenum.md) 值。默认值为 **adLockReadOnly** 。
 

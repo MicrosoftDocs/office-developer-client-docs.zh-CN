@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
 ms:contentKeyID: 48547971
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0073ba77a7e89281ec7cb5d95dd7d3d71c79b986
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aec3925da1284ed7b39e404d044462ac43e39b6e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465926"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888340"
 ---
 # <a name="datafactoryobject-properties-methods-and-events-rds"></a>DataFactoryObject Properties, Methods, and Events (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

@@ -6,20 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3382b86ad14b484cb0fb9a8f6ecbd95018c25835
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 1735de700fe1b0e786f55f0539495656dd9db2d7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607009"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882999"
 ---
 # <a name="datacontrol-object-rds"></a>DataControl 对象 (RDS)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-<<<<<<< 标头的数据绑定到一个或多个控件 （如文本框、 网格控件或组合框） 以便在网页上显示**Recordset**数据查询[Recordset](recordset-object-ado.md) 。
-=== 将数据查询[Recordset](recordset-object-ado.md)绑定到一个或多个控件 （如文本框、 网格控件或组合框） 以便在网页上显示**Recordset**数据。
->>>>>>> master
+将数据查询[Recordset](recordset-object-ado.md)绑定到一个或多个控件 （如文本框、 网格控件或组合框） 以便在网页上显示**Recordset**数据。
 
 ## <a name="syntax"></a>语法
 
@@ -82,24 +80,15 @@ ms.locfileid: "25607009"
 
 使用不同的 **RDS.DataControl** 对象将多个查询的结果链接到不同的可视控件。例如，假设您使用一个查询获取有关客户的信息，使用第二个查询获取有关客户已购商品的信息。您希望在三个文本框和一个复选框中显示第一个查询的结果，在网格控件中显示第二个查询的结果。如果使用默认业务对象（**RDSServer.DataFactory**），您需要执行以下操作：
 
-<<<<<<< 标头
-  - 向网页上添加两个 **RDS.DataControl** 对象。
-=======
   - 添加两个**rds.DataControl**对象与您的网页。
->>>>>>> master
 
   - 编写两个查询，分别用于两个 **RDS.DataControl** 对象的每个 **SQL** 属性。一个 **RDS.DataControl** 对象将包含请求客户信息的 SQL 查询；另一个对象将包含请求客户已购商品列表的查询。
 
   - 在绑定控件各个 OBJECT 标记中，指定 DATAFLD 值以设置要在每个可视控件中显示的数据的值。
 
-<<<<<<< 标头没有任何计数限制的 rds.**数DataControl**可以通过在一个网页上的 OBJECT 标记嵌入的对象。
-
-<a name="when-you-define-the-rdsdatacontrol-object-on-a-web-page-use-nonzero-height-and-width-values-such-as-1-to-avoid-the-inclusion-of-extra-space"></a>在网页上定义 **RDS.DataControl** 对象时，请使用诸如 1 的非零 **Height** 和 **Width** 值（以避免包含额外空间）。
-=======
 Rds.**的数量没有计数限制DataControl**可以通过 OBJECT 标记单个网页上嵌入的对象。
 
 当您定义**rds.DataControl**网页上对象，请使用如 1 的非零**Height**和**Width**值 （以避免包含额外空间）。
->>>>>>> master
 
 远程数据服务客户端组件已作为 Internet Explorer 4.0 的一部分提供，因此不需要在 **RDS.DataControl** 对象标记中包括 CODEBASE 参数。
 

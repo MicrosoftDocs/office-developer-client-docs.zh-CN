@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 928fea9635fee037f5c160419a778f1437e57673
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 49ae07796de91f48028df21f972c67f9c5f30ff4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860572"
+ms.locfileid: "25870091"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Microsoft Visual J++ 中的 ADO 代码示例
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用以下代码示例可以了解在用 Microsoft Visual J++ 编写程序时如何使用 ADO 方法和属性。
 
@@ -74,69 +74,6 @@ ms.locfileid: "25860572"
 
 **属性**
 
-<<<<<<< 头
-  - [AbsolutePage、PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
-
-  - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-vj.md)
-
-  - [ActiveCommand 属性示例](activecommand-property-example-vj.md)
-
-  - [ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
-
-  - [ActualSize 和 DefinedSize 属性示例](actualsize-and-definedsize-properties-example-vj.md)
-
-  - [Attributes 和 Name 属性示例](attributes-and-name-properties-example-vj.md)
-
-  - [BOF、EOF 和 Bookmark 属性示例](bof-eof-and-bookmark-properties-example-vj.md)
-
-  - [CacheSize 属性示例](cachesize-property-example-vj.md)
-
-  - [ConnectionString、ConnectionTimeout 和 State 属性示例](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
-
-  - [Count 属性示例](count-property-example-vj.md)
-
-  - [CursorType、LockType 和 EditMode 属性示例](cursortype-locktype-and-editmode-properties-example-vj.md)
-
-  - [Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
-
-  - [Filter 和 RecordCount 属性示例](filter-and-recordcount-properties-example-vj.md)
-
-  - [IsolationLevel 和 Mode 属性示例](isolationlevel-and-mode-properties-example-vj.md)
-
-  - [Item 属性示例](item-property-example-vj.md)
-
-  - [MarshalOptions 属性示例](marshaloptions-property-example-vj.md)
-
-  - [MaxRecords 属性示例](maxrecords-property-example-vj.md)
-
-  - [NumericScale 和 Precision 属性示例](numericscale-and-precision-properties-example-vj.md)
-
-  - [Optimize 属性示例](optimize-property-example-vj.md)
-
-  - [OriginalValue 和 UnderlyingValue 属性示例](originalvalue-and-underlyingvalue-properties-example-vj.md)
-
-  - [Prepared 属性示例](prepared-property-example-vj.md)
-
-  - [Provider 和 DefaultDatabase 属性示例](provider-and-defaultdatabase-properties-example-vj.md)
-
-  - [Sort 属性示例](sort-property-example-vj.md)
-
-  - [Source 属性示例](source-property-example-vj.md)
-
-  - [State 属性示例](state-property-example-vj.md)
-
-  - [Status 属性示例](status-property-example-vj.md)
-
-  - [StayInSync 属性示例](stayinsync-property-example-vj.md)
-
-  - [Type 属性示例 (Fields)](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
-
-  - [Type 属性示例 (Property)](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
-
-  - [Value 属性示例](value-property-example-vj.md)
-
-  - [Version 属性示例](version-property-example-vj.md)
-=======
   - [AbsolutePage、 PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -198,5 +135,4 @@ ms.locfileid: "25860572"
   - [Value 属性示例](value-property-example-vj.md)
 
   - [Version 属性示例](version-property-example-vj.md)
->>>>>>> 母版
 

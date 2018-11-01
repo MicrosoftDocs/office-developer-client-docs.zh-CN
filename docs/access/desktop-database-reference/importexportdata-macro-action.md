@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 62a496867852afb89d5b556f6be793f3f8c3739e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860846"
+ms.locfileid: "25887780"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData 宏操作
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **ImportExportData** 操作在当前 Access 数据库（.mdb 或 .accdb）或 Microsoft Access 项目 (.adp) 与其他数据库之间导入或导出数据。对于 Microsoft Access 数据库，还可以从其他数据库通过链接表与当前 Access 数据库建立关联。通过链接表，在表本身仍位于其他数据库中时可以访问该表中的数据。
 

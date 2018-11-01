@@ -1,16 +1,21 @@
 ---
-<<<<<<< 标头标题： ActiveCommand 属性示例 (JScript) TOCTitle: ActiveCommand 属性示例 (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 09/18/ 2015 mtps_version: office.15.aspx
+title: ActiveCommand 属性示例 (JScript)
+TOCTitle: ActiveCommand property example (JScript)
+ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
+ms:contentKeyID: 48547070
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 62e3e8404cb517472dd94d27a899531dde7f076f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887983"
 ---
-
 # <a name="activecommand-property-example-jscript"></a>ActiveCommand 属性示例 (JScript)
 
-=== 标题： ActiveCommand 属性示例 (JScript) TOCTitle: ActiveCommand 属性示例 (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 10/17/2018 mtps_version: v =office.15
----
-
-# <a name="activecommand-property-example-jscript"></a>ActiveCommand 属性示例 (JScript)
->>>>>>> master
-
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActiveCommandJS.asp** 。
 
@@ -28,11 +33,7 @@
 <html> 
  
 <head> 
-<<<<<<< HEAD
-<title>ActiveCommand Property Example (JScript)</title> 
-=======
 <title>ActiveCommand property example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -46,11 +47,7 @@ BODY {
  
 <body bgcolor="White"> 
  
-<<<<<<< HEAD
-<h1>ActiveCommand Property Example (JScript)</h1> 
-=======
 <h1>ActiveCommand property example (JScript)</h1> 
->>>>>>> master
  
 <% 
 if (strName.length > 0) 

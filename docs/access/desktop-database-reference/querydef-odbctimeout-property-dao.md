@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053052
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dcb15511f3052366eb3d322c26cdd31d72c9beab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c335140e6b5bfa46d25d20438d8af2a9e1393644
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468635"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873668"
 ---
 # <a name="querydefodbctimeout-property-dao"></a>QueryDef.ODBCTimeout Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示在开放式数据库连接 (ODBC) 数据库上执行 **[QueryDef](querydef-object-dao.md)** 时，发生超时错误之前等待的秒数。
 

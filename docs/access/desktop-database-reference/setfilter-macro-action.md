@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4292ded0638e8dbe3ad56aa835caa9c6541f0432
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606393"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874312"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter 宏操作
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **SetFilter** 操作向活动数据表、窗体、报表或表中的记录应用筛选器。
 
@@ -41,19 +41,11 @@ ms.locfileid: "25606393"
 <tbody>
 <tr class="odd">
 <td><p>Filter Name</p></td>
-<<<<<<< 标头
-<td><p>如果提供该参数，则会将查询或筛选器的名称另存为查询。 客户端数据库中需要此参数或 WhereCondition 参数。 在 Web 数据库中，此参数不可用。</p></td>
-</tr>
-<tr class="even">
-<td><p>Where Condition</p></td>
-<td><p>如果提供该参数，则为可限制数据表、窗体、报表或表中记录的 SQL WHERE 子句。在 Web 数据库中，该参数是必需的。</p></td>
-=======
 <td><p>如果提供该参数，则会将查询或筛选器的名称另存为查询。 客户端数据库中需要此参数或 WhereCondition 参数。 在 web 数据库中，此参数不可用。</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
 <td><p>如果提供该参数，则为可限制数据表、窗体、报表或表中记录的 SQL WHERE 子句。 在 web 数据库中，此参数是必需的。</p></td>
->>>>>>>主控形状
 </tr>
 <tr class="odd">
 <td><p>控件名称</p></td>

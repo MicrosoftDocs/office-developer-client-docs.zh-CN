@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179981(v=office.15)
 ms:contentKeyID: 52074951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27beaa647a1343d11af5555cd1c77576aff75631
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f7e367309b658906049ba003bd17284c8de4ba0a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467018"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879905"
 ---
 # <a name="indexes-object-reference-dao"></a>Indexes Object Reference (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

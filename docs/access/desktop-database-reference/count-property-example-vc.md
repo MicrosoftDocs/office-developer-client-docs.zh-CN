@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Count 属性示例 （VC + +） TOCTitle: Count 属性示例 （VC + +） === 标题： Count 属性示例 （VC + +） TOCTitle: Count 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15) ms:contentKeyID: 48545134 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Count 属性示例 (VC++)
+TOCTitle: Count property example (VC++)
+ms:assetid: 5e3d817b-05bf-c96e-67ba-c41f06c367af
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249340(v=office.15)
+ms:contentKeyID: 48545134
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7a2761c34e71664d97118766ddfd8121542b67c5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867221"
 ---
-
-<<<<<<< 标头
 # <a name="count-property-example-vc"></a>Count 属性示例 (VC++)
-=======
-# <a name="count-property-example-vc"></a>Count 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例演示在***员工***数据库中的两个集合的[Count](count-property-ado.md)属性。 该属性获得每个集合中的对象数，并设置枚举这两个集合的循环的上限。 另一种不使用 **Count** 属性枚举这些集合的方式是使用语句。
 

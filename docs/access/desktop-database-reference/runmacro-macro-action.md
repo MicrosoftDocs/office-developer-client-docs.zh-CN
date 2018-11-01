@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 533ac6aff194296a9e4470e01672a8338dcbc318
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 18e31837027f9c861480b738de5e77a0b5e2d13b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468637"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867539"
 ---
 # <a name="runmacro-macro-action"></a>RunMacro 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **RunMacro** 操作运行宏。宏可以包括在宏组中。
 

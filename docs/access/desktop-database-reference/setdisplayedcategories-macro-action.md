@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm20026
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: af4b491ff76a28c998e1ec195a861dbf065d36c8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 53c59c17f7f5c1486c00cd849f5c35197bde3e14
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468263"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889747"
 ---
 # <a name="setdisplayedcategories-macro-action"></a>SetDisplayedCategories 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **SetDisplayedCategories** 操作指定哪些类别在导航窗格标题栏中的 **"浏览类别"** 下显示。例如，如果希望阻止用户切换导航窗格，以便显示按 **"创建日期"** 排序的对象，则可以使用此操作在标题栏的下拉列表中隐藏该选项。
 

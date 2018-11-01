@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
 ms:contentKeyID: 48546448
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 57cef1ca3a31665db1db517c22756213abf49042
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4613b6eca1048f80d7e2aabda35abf3c92d31255
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860530"
+ms.locfileid: "25884223"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定在编辑过程中对记录设置的锁定类型。
 

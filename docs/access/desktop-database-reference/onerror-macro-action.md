@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm62274
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b27ffa119d37cd7ddf80292acd9a1e1e131b0359
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e755683b4c040b37f0da12f7e67e8c400e62edb4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467000"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882138"
 ---
 # <a name="onerror-macro-action"></a>OnError 宏操作
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **OnError** 操作指定在宏中发生错误时应出现的情况。
 

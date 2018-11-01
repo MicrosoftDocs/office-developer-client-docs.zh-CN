@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1794e3e13bc2c8fe7c3acc9bbd1413daf4938d2c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 972a367d18613fd8c8935ded60223e78ee0dc4d7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25859991"
+ms.locfileid: "25887430"
 ---
 # <a name="ado-events-model-example-vc"></a>ADO 事件模型示例 （VC + +）
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 [ADO 事件实例化（按语言）](https://msdn.microsoft.com/library/jj250244\(v=office.15\))的 Visual C++ 部分提供了如何实例化 ADO 事件模型的一般说明。 下面是实例化由创建环境中的事件模型的具体示例**\#导入**指令。
 

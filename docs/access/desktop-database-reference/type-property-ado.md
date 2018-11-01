@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： 类型属性 (ADO) TOCTitle： 类型属性 (ADO) === 标题： Type 属性 (ADO) TOCTitle: Type 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 14d99172-2145-05ae-620b-459ba097f05c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15) ms:contentKeyID: 48543397 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Type 属性 (ADO)
+TOCTitle: Type property (ADO)
+ms:assetid: 14d99172-2145-05ae-620b-459ba097f05c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15)
+ms:contentKeyID: 48543397
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 646284877722baf9aec6bb591b071667fdf9cc1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867725"
 ---
-
-<<<<<<< 标头
 # <a name="type-property-ado"></a>Type 属性 (ADO)
-=======
-# <a name="type-property-ado"></a>Type 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 [Parameter](parameter-object-ado.md)、[Field](field-object-ado.md) 或 [Property](property-object-ado.md) 对象的操作类型或数据类型。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 [DataTypeEnum](datatypeenum.md) 值。
 

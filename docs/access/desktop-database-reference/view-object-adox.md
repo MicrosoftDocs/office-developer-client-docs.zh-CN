@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)
 ms:contentKeyID: 48544280
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca58dd83ee3d3675a4ca272e1074b8d8cc930391
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e1c3b2cc99cad4ba3b9ee71f0c44ee67b32d41d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468816"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873129"
 ---
 # <a name="view-object-adox"></a>View 对象 (ADOX)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 表示经过筛选的记录集或虚拟表。与 ADO [Command](command-object-ado.md) 对象一起使用时， **View** 对象可用于添加、删除或修改视图。
 

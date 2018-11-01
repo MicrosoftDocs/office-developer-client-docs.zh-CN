@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c13f6fed20bebb40f4a8cacc3deedd7467ff55e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e06d3ebb014cc38b19e37098b217bd072af4434a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465583"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870959"
 ---
 # <a name="runcode-macro-action"></a>RunCode 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **RunCode** 操作调用 Visual Basic for Applications (VBA) Function 过程。
 

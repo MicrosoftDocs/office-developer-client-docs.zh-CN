@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248802(v=office.15)
 ms:contentKeyID: 48542985
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd4b7eed3cb5d8192866127322c00e7ecd5a15b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f160fe06167cde6527b08c23ab3de69731f56dde
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467380"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867517"
 ---
 # <a name="customization-file-connect-section"></a>自定义文件 Connect 节
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 处理程序的默认行为是拒绝所有连接。 **connect** 节指定该行为的例外。例如，如果不存在任何 **connect** 节或这些节都为空，则默认情况下不能建立任何连接。
 

@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： 说明属性 (ADO) TOCTitle： 说明属性 (ADO) === 标题： Description 属性 (ADO) TOCTitle: Description 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15) ms:contentKeyID: 48544064 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Description 属性 (ADO)
+TOCTitle: Description property (ADO)
+ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15)
+ms:contentKeyID: 48544064
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc2a7706afbf69d9949e8b04122b144c6826ec40
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882936"
 ---
-
-<<<<<<< 标头
 # <a name="description-property-ado"></a>Description 属性 (ADO)
-=======
-# <a name="description-property-ado"></a>Description 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 描述 [Error](error-object-ado.md) 对象。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回一个包含错误说明的 **String** 值。
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
 ms:contentKeyID: 48544337
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 837bc16435ea574bd9d8e2e5e21ae50a4e852ee6
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d75ae42d5d3b63e1eea56153ef8e2dd2fb366a30
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861076"
+ms.locfileid: "25870063"
 ---
 # <a name="resyncenum"></a>ResyncEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定是否通过调用 [Resync](resync-method-ado.md) 来覆盖基础值。
 

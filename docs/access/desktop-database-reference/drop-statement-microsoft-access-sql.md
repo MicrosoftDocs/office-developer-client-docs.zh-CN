@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821409(v=office.15)
 ms:contentKeyID: 48546907
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 7622c81e9c37f1fdd2f950c16cd9d8f30caa7cac
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f08da4f5a5b8dd0bd2604598cf72ab15d994c529
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861391"
+ms.locfileid: "25880941"
 ---
 # <a name="drop-statement-microsoft-access-sql"></a>DROP 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 删除数据库中现有的表、过程或视图，或者删除表中现有的索引。
 

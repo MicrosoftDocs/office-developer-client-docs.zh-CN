@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 612a78d8ac99a070f133fd3804f5b69c8093d47c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 1bcae98c301793d64e97d8626da30fde0ffdaea1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862597"
+ms.locfileid: "25869552"
 ---
 # <a name="axes-collection-ado-md"></a>Axes 集合 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 包含定义单元格集的 [Axis](axis-object-ado-md.md) 对象。
 

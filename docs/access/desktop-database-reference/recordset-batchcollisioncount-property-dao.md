@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1101181
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2c2cc3e9351eba04d1c05555b2f6b22284a8e6c0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 079da0d4e489b4082283c78bc9e84b7d95959e82
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468504"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883307"
 ---
 # <a name="recordsetbatchcollisioncount-property-dao"></a>Recordset.BatchCollisionCount Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="syntax"></a>语法
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192064(v=office.15)
 ms:contentKeyID: 48543902
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97c72b017c3ebe0216f10d7395abe37c4d8f7392
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2110a82770e5eb6c46d4ead6cd20617f191514e9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468666"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884507"
 ---
 # <a name="recordset2findfirst-method-dao"></a>Recordset2.FindFirst Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在动态集类型或快照类型的 **Recordset** 对象中查找符合指定条件的第一条记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。
 

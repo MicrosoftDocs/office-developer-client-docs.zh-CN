@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
 ms:contentKeyID: 48547603
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b54e373a1350a052250206d84ad978b6b9dabd0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cc34e1f94fc94c58a897abcc435f064f1bd87320
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467517"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870441"
 ---
 # <a name="recordsetbof-property-dao"></a>Recordset.BOF Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个值，该值指示当前记录的位置是否在 **Recordset** 对象中的第一条记录之前。只读 **Boolean** 类型。
 

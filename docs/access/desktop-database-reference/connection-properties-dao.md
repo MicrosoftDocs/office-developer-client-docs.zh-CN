@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124934(v=office.15)
 ms:contentKeyID: 52072554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96a7034c7192aed9dda770378940fcce373b566e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6c783ac6e424b6e17f24120c101f4903a082f180
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467406"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869129"
 ---
 # <a name="connection-properties-dao"></a>Connection Properties (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

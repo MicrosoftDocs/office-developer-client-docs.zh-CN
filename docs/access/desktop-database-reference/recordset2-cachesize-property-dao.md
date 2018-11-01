@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052927
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0c24e1bbf2ea3cf35211647512aebc298e7ce728
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f314644d54c7a6361cf196f4e3c2a59df8af271d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467620"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872240"
 ---
 # <a name="recordset2cachesize-property-dao"></a>Recordset2.CacheSize Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回从 ODBC 数据源中检索的、需要本地缓存的记录数。可读/写 **Long** 类型。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195805(v=office.15)
 ms:contentKeyID: 48545593
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4df20311746b562d319e371da3cf75b452c064e5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0a10f4404ff3ee94e85baed36eb9ce9869754a69
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466395"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883853"
 ---
 # <a name="propertiesrefresh-method-dao"></a>Properties.Refresh Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 更新指定集合中的对象，以反映数据库的当前架构。
 

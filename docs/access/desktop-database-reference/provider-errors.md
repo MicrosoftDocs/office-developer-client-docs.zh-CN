@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
 ms:contentKeyID: 48546592
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74d5381298f58c00c66ee4fb72504ce44f5dd7b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 18d226ff8ff270705d8e30425f83eabc289383b1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468219"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883244"
 ---
 # <a name="provider-errors"></a>提供程序错误
 
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013 
 
 发生提供程序错误时，将返回运行时错误 -2147467259。收到此错误时，请检查活动 **Connection** 对象的 **Errors** 集合，该集合将包含描述所发生情况的一个或多个错误。
 

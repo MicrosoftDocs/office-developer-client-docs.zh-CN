@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d9daa27f5a5e31aac295babf6f40b32f89a9df5c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860341"
+ms.locfileid: "25874963"
 ---
 # <a name="copyrecord-method-ado"></a>CopyRecord 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于将由 **Record** 表示的实体复制到其他位置。
 
@@ -50,11 +50,7 @@ ms.locfileid: "25860341"
 
   - 可选。一个 **Boolean** 值，为 **True** 时，指定此操作应为异步。
 
-<<<<<<< 头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> 母版
 
 **字符串型**值，通常返回 *Destination* 的值。不过，返回的确切值与提供程序有关。
 
@@ -74,10 +70,6 @@ ms.locfileid: "25860341"
 
 
 > [!NOTE]
-<<<<<<< 头
-> <P>[!注释] 使用 HTTP 架构的 URL 将自动调用 <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>。有关详细信息，请参阅<A href="absolute-and-relative-urls.md">绝对 URL 和相对 URL</A>。</P>
-=======
 > [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
->>>>>>> 母版
 
 

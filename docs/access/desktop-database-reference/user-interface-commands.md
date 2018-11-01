@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125921(v=office.15)
 ms:contentKeyID: 52074792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: afbc808e9f9d10f0d65f7b822ab71f37270d09f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 588409ff32369a9733bb35ce3800461d116ba764
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467235"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867396"
 ---
 # <a name="user-interface-commands"></a>用户界面命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
@@ -26,7 +26,7 @@ ms.locfileid: "25467235"
 
   - [LockNavigationPane 宏操作](locknavigationpane-macro-action.md)
 
-  - [MessageBox Macro Action](messagebox-macro-action.md)
+  - [MessageBox 宏操作](messagebox-macro-action.md)
 
   - [NavigateTo 宏操作](navigateto-macro-action.md)
 

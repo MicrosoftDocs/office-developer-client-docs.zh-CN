@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837208(v=office.15)
 ms:contentKeyID: 48548892
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4c8c4d897e58655aa986ba2a0c28b7eece235a7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: d73fbdaa119238ad1a9b70b7f2446be21e525452
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605896"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871855"
 ---
 # <a name="indexcreatefield-method-dao"></a>Index.CreateField Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建一个新的 **[Field](field-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。
 
@@ -66,11 +66,7 @@ ms.locfileid: "25605896"
 </table>
 
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 Field
 

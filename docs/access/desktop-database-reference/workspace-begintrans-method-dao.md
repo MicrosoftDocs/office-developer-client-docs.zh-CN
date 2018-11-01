@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821457(v=office.15)
 ms:contentKeyID: 48546948
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 866567de3ec0d3672cbb1edb1ffdd5a01879021f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 850868a3a5d9dd0cfda2b2f365e05004fc4b2ffd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466721"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872619"
 ---
 # <a name="workspacebegintrans-method-dao"></a>Workspace.BeginTrans Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 开始新的事务。可读写 **Database**。
 

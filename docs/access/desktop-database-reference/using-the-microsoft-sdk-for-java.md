@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249116(v=office.15)
 ms:contentKeyID: 48544152
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbcae50b0fdecc441bab40894899a75d04ee5f72
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8b34f02d01b5f119d9311e290f354ccbc71182d2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465555"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872548"
 ---
 # <a name="using-the-microsoft-sdk-for-java"></a>使用 Microsoft SDK for Java
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Microsoft SDK for Java 是一个针对 Microsoft Internet Explorer 环境的开发包。其中提供了工具、信息和示例，以帮助您基于 JDK 1.1 和 Microsoft Win32 虚拟机 (Microsoft VM) 开发 Java 程序和小程序。Microsoft SDK for Java 未与 Microsoft Visual J++ 绑定。
 

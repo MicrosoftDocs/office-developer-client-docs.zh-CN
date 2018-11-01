@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249838(v=office.15)
 ms:contentKeyID: 48547106
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 554cb3eee0eb7019cef13758e4d9382bcdb5a5f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f1afd4c3f627b6860fa2954496f5818a6b458ab4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468330"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888795"
 ---
 # <a name="configuring-rds"></a>配置 RDS
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 若要有效地实现 RDS，请务必熟悉各种可用的配置。本部分包括有关在实现 RDS 时的安全性和可伸缩性的重要信息。有关配置计算机以使用 RDS 的信息，请参阅以下主题。
 

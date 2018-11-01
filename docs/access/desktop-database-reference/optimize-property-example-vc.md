@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： 优化属性示例 （VC + +） TOCTitle： 优化属性示例 （VC + +） === 标题： Optimize 属性示例 （VC + +） TOCTitle: Optimize 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: f9e83365-93b2-3eb6-0347-8f8aec703d6f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250273(v=office.15) ms:contentKeyID: 48548825 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Optimize 属性示例 (VC++)
+TOCTitle: Optimize property example (VC++)
+ms:assetid: f9e83365-93b2-3eb6-0347-8f8aec703d6f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250273(v=office.15)
+ms:contentKeyID: 48548825
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7e4e595aea68b35ec6fec1515c5d80e5b721b891
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885064"
 ---
-
-<<<<<<< 标头
 # <a name="optimize-property-example-vc"></a>Optimize 属性示例 (VC++)
-=======
-# <a name="optimize-property-example-vc"></a>Optimize 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Field](field-object-ado.md) 对象动态 Optimize 属性。 ***Pubs***数据库中的***作者***表的***zip***字段不编制索引。 对***zip***字段[Optimize](optimize-property-dynamic-ado.md)属性设置为**True**授权 ADO 建立索引的提高性能的[Find](find-method-ado.md)方法。
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： CursorType、 LockType 和 EditMode 属性示例 （VJ + +） TOCTitle: CursorType、 LockType 和 EditMode 属性示例 （VJ + +） === 标题： CursorType、 LockType 和 EditMode 属性示例 （VJ + +）TOCTitle: CursorType、 LockType 和 EditMode 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15) ms:contentKeyID: 48547497 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: CursorType、LockType 和 EditMode 属性示例 (VJ++)
+TOCTitle: CursorType, LockType, and EditMode properties example (VJ++)
+ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15)
+ms:contentKeyID: 48547497
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 126d52af8a83e23b3298b8f0fb4600e603832a15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873948"
 ---
-
-<<<<<<< 标头
 # <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>CursorType、LockType 和 EditMode 属性示例 (VJ++)
-=======
-# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>CursorType、 LockType 和 EditMode 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例演示如何在打开 [Recordset](cursortype-property-ado.md) 前设置 [CursorType](locktype-property-ado.md) 和 [LockType](recordset-object-ado.md) 属性。它还演示在各种情况下 [EditMode](editmode-property-ado.md) 属性的值。若要运行此过程，必须使用 EditModeOutput 函数。
 

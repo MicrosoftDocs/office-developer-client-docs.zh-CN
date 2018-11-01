@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249686(v=office.15)
 ms:contentKeyID: 48546507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5bd19a1cec1e9618586b25b0b5cdf654cd1a5fdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5c764c543c3d8734a47927d702daca1552e497b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466508"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879471"
 ---
 # <a name="understanding-the-customization-file"></a>了解自定义文件
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 自定义文件中的每个节标头包含方括号 (**\[**) 包含类型和参数。 节分为四种类型，分别用字面字符串 **connect** 、 **sql** 、 **userlist** 或 **logs** 表示。 参数可以是字面字符串、默认值、用户指定的标识符或为空。
 

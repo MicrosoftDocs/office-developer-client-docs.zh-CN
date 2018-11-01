@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192649(v=office.15)
 ms:contentKeyID: 48544266
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45d4b67eecc54f526c8a88296b48784468118e67
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3410eac81975df5ba69ef13d62c4cfede220449b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465980"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886429"
 ---
 # <a name="recordsetoptionenum-enumeration-dao"></a>RecordsetOptionEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 与 **OpenRecordset** 方法一起用来指定新 **Recordset** 对象的特征。
 

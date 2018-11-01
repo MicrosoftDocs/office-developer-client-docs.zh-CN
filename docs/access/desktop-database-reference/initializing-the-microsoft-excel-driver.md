@@ -10,14 +10,15 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85961b761255583738026113a025d6ca84b61f83
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f039378c619cb5c9ebe6a70ccae718f5abfdd306
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861986"
+ms.locfileid: "25873899"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>初始化 Microsoft Excel 驱动程序
+
 
 **适用于**： Access 2013 |Office 2013
 
@@ -142,9 +143,10 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 </table>
 
 
+
 > [!NOTE]
 > [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
 
 ## <a name="see-also"></a>另请参阅
 
-[使用 Excel 驱动程序 TypeGuessRows 设置](https://support.office.com/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b)
+[使用 Excel 驱动程序 TypeGuessRows 设置](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)

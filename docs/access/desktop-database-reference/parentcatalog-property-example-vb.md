@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： ParentCatalog 属性示例 (VB) TOCTitle: ParentCatalog 属性示例 (VB) === 标题： ParentCatalog 属性示例 (VB) TOCTitle: ParentCatalog 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15) ms:contentKeyID: 48544295 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ParentCatalog 属性示例 (VB)
+TOCTitle: ParentCatalog property example (VB)
+ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
+ms:contentKeyID: 48544295
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6e76d40a02aa70bcf977a34f1db378e8d83e5d1e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867760"
 ---
-
-<<<<<<< 标头
 # <a name="parentcatalog-property-example-vb"></a>ParentCatalog 属性示例 (VB)
-=======
-# <a name="parentcatalog-property-example-vb"></a>ParentCatalog 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下面的代码演示如何在将表追加到目录之前使用 [ParentCatalog](parentcatalog-property-adox.md) 属性访问特定于提供程序的属性。该属性为 AutoIncrement，它在 Microsoft Jet 数据库中创建 AutoIncrement 字段。
 

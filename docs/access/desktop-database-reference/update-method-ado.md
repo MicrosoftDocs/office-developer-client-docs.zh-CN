@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
 ms:contentKeyID: 48548893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c7ca5e1f1d055c8a651b69f7c76ab4b918c1147
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 772602b31f83d2255c9fdf1b08fa41541f5fc4da
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467110"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884105"
 ---
 # <a name="update-method-ado"></a>Update 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可保存对 [Recordset](recordset-object-ado.md) 对象的当前行或 [Record](fields-collection-ado.md) 对象的 [Fields](record-object-ado.md) 集合所做的任何更改。
 

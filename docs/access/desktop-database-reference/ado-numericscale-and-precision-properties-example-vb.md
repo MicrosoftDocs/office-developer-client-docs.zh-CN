@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： ADO NumericScale 和 Precision 属性示例 (VB) TOCTitle: NumericScale 和 Precision 属性示例 (VB) === 标题： ADO NumericScale 和 Precision 属性示例 (VB) TOCTitle: NumericScale 和Precision 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15) ms:contentKeyID: 48543044 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ADO NumericScale 和 Precision 属性示例 (VB)
+TOCTitle: NumericScale and Precision properties example (VB)
+ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15)
+ms:contentKeyID: 48543044
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7ed77da6c537407d347ff6d4ebf9d254986c8618
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869691"
 ---
-
-<<<<<<< 标头
-# <a name="ado-numericscale-and-precision-properties-example-vb"></a>ADO NumericScale and Precision Properties Example (VB)
-=======
 # <a name="ado-numericscale-and-precision-properties-example-vb"></a>ADO NumericScale 和 Precision 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [NumericScale](numericscale-property-ado.md) 和 [Precision](precision-property-ado.md) 属性显示 ***Pubs*** 数据库的 ***Discounts***（折扣）表中字段的数字小数位数和精确度。
 

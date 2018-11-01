@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249347(v=office.15)
 ms:contentKeyID: 48545164
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50eadc486d00436a51b9f7341ef6e0ad2587a015
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 85268b9c4b57d92cd8e7df9cd1da01286709f915
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465500"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877567"
 ---
 # <a name="cursor-and-lock-characteristics"></a>游标和锁定特征
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 尽管游标的特征依赖于提供程序的功能，但以下优点和缺点通常适用于各种游标和锁定。
 
