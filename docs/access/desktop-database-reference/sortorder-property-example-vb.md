@@ -1,15 +1,21 @@
 ---
-<<<<<<< 标头标题： SortOrder 属性示例 (VB) TOCTitle: SortOrder 属性示例 (VB) === 标题： SortOrder 属性示例 (VB) TOCTitle: SortOrder 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID: 48546472 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: SortOrder 属性示例 (VB)
+TOCTitle: SortOrder property example (VB)
+ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
+ms:contentKeyID: 48546472
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 051f0ce18cf12ef2d3450dbf9ecc27ebb36134a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874235"
 ---
-
-<<<<<<< 标头
 # <a name="sortorder-property-example-vb"></a>SortOrder 属性示例 (VB)
-=======
-# <a name="sortorder-property-example-vb"></a>SortOrder 属性示例 (VB)
->>>>>>> master
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示追加到 [Index](sortorder-property-adox.md) 的 [Columns](column-object-adox.md) 集合中的 [Column](columns-collection-adox.md) 的 [SortOrder](index-object-adox.md) 属性。代码为 **Employees** （雇员）表中的 Country（国家）列追加一个升序索引，然后显示记录。接下来，代码为 **Employees** （雇员）表中的 Country（国家）列追加一个降序索引，并再次显示记录。升序索引和降序索引之间的区别即会显示出来。
 

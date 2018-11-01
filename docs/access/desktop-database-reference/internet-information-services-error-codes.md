@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248978(v=office.15)
 ms:contentKeyID: 48543625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d62be19cb472673a4bdafd3574bbe1fcb7b876c9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7890bdbd38b790d846b195570a05b55846cdcda9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465739"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879940"
 ---
 # <a name="internet-information-services-error-codes"></a>Internet 信息服务错误代码
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下表列出了与远程数据服务用法有关的 Microsoft Internet 信息服务 (IIS) 错误代码，其中显示了两个低位字节的正十进制换算值、完整错误代码的负十进制换算值和十六进制值。
 

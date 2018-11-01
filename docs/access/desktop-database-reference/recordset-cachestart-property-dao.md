@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053171
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7ded35253f0cea2243076db6a12caeeee22ecd09
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 44981d8c19f76ee0a1d6df5fbdaeb72b35357336
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466102"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886933"
 ---
 # <a name="recordsetcachestart-property-dao"></a>Recordset.CacheStart Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指定动态集类型 Recordset 对象（包含从 ODBC 数据源本地缓存的数据）中的第一条记录的书签（仅适用于 Microsoft Access 工作区）。
 

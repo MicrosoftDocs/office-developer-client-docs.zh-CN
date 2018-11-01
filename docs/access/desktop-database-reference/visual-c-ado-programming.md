@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21f832c227d706f8b12601e3346beb0c30ba0e78
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 55e4bf1476112cc950b72e8bfd1659226704f991
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467463"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25890006"
 ---
 # <a name="visual-c-ado-programming"></a>Visual C++ ADO 编程
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 《ADO API 参考》采用类似 Microsoft Visual Basic 的语法来描述 ADO 应用程序编程接口 (API) 的功能。 ADO 程序员目标的受众为所有用户，但使用不同的语言，例如 Visual Basic 中，Visual c + + (具有和没有**\#导入**指令)，并 Visual J + + （与 ADO/WFC 类封装）。
 

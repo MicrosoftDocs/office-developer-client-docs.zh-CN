@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249065(v=office.15)
 ms:contentKeyID: 48543938
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6aaf4a7e9c94864c5cdd43ad764a305c248718b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c56d8fc7eaab7989eaa967aa90090ad59c1656dc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468588"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884763"
 ---
 # <a name="cancelupdate-method-ado"></a>CancelUpdate 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在调用 [Update](recordset-object-ado.md) 方法之前，取消对 [Recordset](fields-collection-ado.md) 对象的当前行或新行，或对 [Record](record-object-ado.md) 对象的 [Fields](update-method-ado.md) 集合所做的任何更改。
 

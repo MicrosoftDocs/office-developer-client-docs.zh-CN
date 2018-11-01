@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aec7c9a89ea078bfad9b05d664d373831491edc4
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 855a4ef3706db00dd05002fbbf83904c205282d6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860222"
+ms.locfileid: "25878869"
 ---
 # <a name="chapter-12-rds-tutorial"></a>第 12 章：RDS 教程
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本教程阐释如何使用 RDS 编程模型来对数据源进行查询和更新。本教程首先介绍完成此任务所需的步骤，然后针对具有 ADO for Windows Foundation Classes (ADO/WFC) 的 Microsoft® Visual Basic Scripting Edition 和 Microsoft® Visual J++® 进行重复说明。
 

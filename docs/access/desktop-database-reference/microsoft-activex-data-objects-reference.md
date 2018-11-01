@@ -1,21 +1,21 @@
 ---
-title: Microsoft ActiveX 数据对象的引用
+title: Microsoft ActiveX 数据对象引用
 TOCTitle: Microsoft ActiveX Data Objects Reference
 ms:assetid: 235fc575-8a2e-913c-fa3d-bb86256733f9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a774dc4ee20e1f97e2b77d8835abb0524881e465
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 54d605beb0f6653695dafcd4a9ffffeb2f097d5b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606757"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871428"
 ---
-# <a name="microsoft-activex-data-objects-reference"></a>Microsoft ActiveX 数据对象的引用
+# <a name="microsoft-activex-data-objects-reference"></a>Microsoft ActiveX 数据对象引用
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="purpose"></a>目的
 
@@ -23,9 +23,7 @@ Microsoft ActiveX 数据对象 (ADO) 使您的客户端应用程序可以通过 
 
 ## <a name="rds"></a>RDS
 
-<<<<<<< 标头 ADO 还提供了远程数据服务 (RDS)，可以按其移动数据从服务器到客户端应用程序或 Web 页操作在客户端上的数据和往返返回到在单个服务器的更新。
-=== ADO 还提供了远程数据服务 (RDS)，可以通过其移动数据从服务器到客户端应用程序或网页，操作在客户端上的数据和往返返回到在单个服务器的更新。
->>>>>>> master
+ADO 还提供了远程数据服务 (RDS)，可以通过其移动数据从服务器到客户端应用程序或网页，操作在客户端上的数据和往返返回到在单个服务器的更新。
 
 ## <a name="ado-md"></a>ADO MD
 

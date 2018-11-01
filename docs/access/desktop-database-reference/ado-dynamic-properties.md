@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a953157e7b38aab7989b4c52f60bfffd1c56766
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6a35bf0cd62db8f635540bfd1ccd65995b198b46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467271"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877546"
 ---
 # <a name="ado-dynamic-properties"></a>ADO 动态属性
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以将动态属性添加到 [Connection](properties-collection-ado.md)、[Command](connection-object-ado.md) 或 [Recordset](command-object-ado.md) 对象的 [Properties](recordset-object-ado.md) 集合中。这些属性的源是数据提供程序（例如 [OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md)）或服务提供程序（例如 [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md)）。有关特定动态属性的详细信息，请参考相应的数据提供程序或服务提供程序文档。
 

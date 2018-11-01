@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Keys 的 Append 方法，密钥类型 RelatedColumn 属性示例 (VB) TOCTitle: Keys 的 Append 方法、 密钥类型、 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB) === 标题： Keys 的 Append 方法、 键类型、 RelatedColumn 属性示例 (VB) TOCTitle: Keys 的 Append 方法、 密钥类型、 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15) ms:contentKeyID: 48547871 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Keys 的 Append 方法，密钥类型 RelatedColumn 属性示例 (VB)
+TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
+ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
+ms:contentKeyID: 48547871
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7cec32ff7229540344d471e6c66b96270bb5a197
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878029"
 ---
-
-<<<<<<< 标头
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Keys 的 Append 方法、Key 的 Type、RelatedColumn、RelatedTable 和 UpdateRule 属性示例 (VB)
-=======
 # <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a>Keys 的 Append 方法，密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下面的代码演示如何创建新的外键。 该示例假定存在两个表 （**客户**和**订单**）。
 

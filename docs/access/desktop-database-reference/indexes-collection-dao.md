@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73e37d53214d68a9edf5a301ef06410268326330
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 96bd1e51f3e8a0ea88c97835ab5b0c3b43419c46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466649"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877371"
 ---
 # <a name="indexes-collection-dao"></a>Indexes Collection (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **Indexes** 对象包含 **TableDef** 对象的所有存储的 **Index** 对象（仅适用于 Microsoft Access 工作区）。
 

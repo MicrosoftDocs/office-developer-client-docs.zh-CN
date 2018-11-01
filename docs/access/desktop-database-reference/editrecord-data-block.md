@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07763e32e0f8687816dc39298f91733ca814d275
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c4d5a5a1565aeda41e5a52127e9f82b5304e686
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465558"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876881"
 ---
 # <a name="editrecord-data-block"></a>EditRecord 数据块
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 您可以使用 **EditRecord** 数据块更改现有记录中包含的值。
 
@@ -59,7 +59,7 @@ ms.locfileid: "25465558"
 <td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange 宏操作</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Comment 宏语句</a></p></td>
+<td><p><a href="comment-macro-statement.md">注释宏语句</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="group-macro-statement.md">Group 宏语句</a></p></td>

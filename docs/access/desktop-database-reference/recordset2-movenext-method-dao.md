@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845265(v=office.15)
 ms:contentKeyID: 48543254
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd6eddf9f9b41223603887bb038bf2c9bd227031
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f28c587236bfe76fc2431a2226d52b2f9f8ce0db
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467614"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867375"
 ---
 # <a name="recordset2movenext-method-dao"></a>Recordset2.MoveNext Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 移到指定的 **Recordset** 对象中的下一条记录，并使该记录成为当前记录。
 

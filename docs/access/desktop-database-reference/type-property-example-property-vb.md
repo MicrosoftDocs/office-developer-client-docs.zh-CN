@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Type 属性示例 （属性） (VB) TOCTitle: Type 属性示例 （属性） (VB) === 标题： Type 属性示例 （属性） (VB) TOCTitle: Type 属性示例 （属性） (VB)
->>>>>>> 母版页 ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15) ms:contentKeyID: 48547209 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Type 属性示例（属性）(VB)
+TOCTitle: Type property example (Property) (VB)
+ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15)
+ms:contentKeyID: 48547209
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 870b68bd43ed12e4d74a9d9f1c1c0887fdb22f85
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885694"
 ---
-
-<<<<<<< 标头
 # <a name="type-property-example-property-vb"></a>Type 属性示例（属性）(VB)
-=======
-# <a name="type-property-example-property-vb"></a>Type 属性示例 （属性） (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Type](type-property-ado.md) 属性。该示例是列出集合的名称和类型（如 [Properties](properties-collection-ado.md)、[Fields](fields-collection-ado.md) 等）的实用程序模型。
 

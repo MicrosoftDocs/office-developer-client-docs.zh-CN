@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192073(v=office.15)
 ms:contentKeyID: 48543917
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ff1f58863b4d874afb8095d34f85ed7bcfb4dbce
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 97e57726591dca8e3475708e01a0223ff1b9cc59
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466259"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870301"
 ---
 # <a name="containerproperties-property-dao"></a>Container.Properties Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回指定对象的 **[Properties](properties-collection-dao.md)** 集合。只读。
 

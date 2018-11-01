@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Filter 和 RecordCount 属性示例 (VB) TOCTitle: Filter 和 RecordCount 属性示例 (VB) === 标题： Filter 和 RecordCount 属性示例 (VB) TOCTitle: Filter 和 RecordCount 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: 48544354 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Filter 和 RecordCount 属性示例 (VB)
+TOCTitle: Filter and RecordCount properties example (VB)
+ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
+ms:contentKeyID: 48544354
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873164"
 ---
-
-<<<<<<< 标头
 # <a name="filter-and-recordcount-properties-example-vb"></a>Filter 和 RecordCount 属性示例 (VB)
-=======
-# <a name="filter-and-recordcount-properties-example-vb"></a>Filter 和 RecordCount 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例打开**记录集**上的发布者表***Pubs***数据库中。 然后使用 [Filter](filter-property-ado.md) 属性将可见的记录数限制为发行商属于特定国家/地区的记录。 **RecordCount** 属性用于显示筛选和未筛选的记录集之间的差值。
 

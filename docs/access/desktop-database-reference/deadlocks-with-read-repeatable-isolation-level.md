@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249165(v=office.15)
 ms:contentKeyID: 48544342
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de936da2772b809199d3890140683afd5ef01659
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9a5fbf4686fc5b8bffc984b4b483f1ee506eb7dd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466115"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882985"
 ---
 # <a name="deadlocks-with-read-repeatable-isolation-level"></a>可重复读取隔离级别死锁
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 如果自定义业务对象使用可重复读取隔离级别访问 SQL Server，且该业务对象同时被两个在相同事务中发送查询并进行更新的客户端调用，那么有可能发生死锁。远程数据服务专门设计为允许其中一个进程超时以释放死锁，但该客户端的更新将失败。
 

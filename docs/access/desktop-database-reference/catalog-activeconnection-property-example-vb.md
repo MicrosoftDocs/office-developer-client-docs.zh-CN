@@ -1,15 +1,21 @@
 ---
-<<<<<<< 标头标题： 目录 ActiveConnection 属性示例 (VB) TOCTitle： 目录 ActiveConnection 属性示例 (VB) === 标题： 目录 ActiveConnection 属性示例 (VB) TOCTitle： 目录 ActiveConnection属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15) ms:contentKeyID: 48543348 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Catalog ActiveConnection 属性示例 (VB)
+TOCTitle: Catalog ActiveConnection property example (VB)
+ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15)
+ms:contentKeyID: 48543348
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 36dc7ce169bcfbfc341968db9f571532dae24970
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884644"
 ---
+# <a name="catalog-activeconnection-property-example-vb"></a>Catalog ActiveConnection 属性示例 (VB)
 
-<<<<<<< 标头
-# <a name="catalog-activeconnection-property-example-vb"></a>Catalog 的 ActiveConnection 属性示例 (VB)
-=======
-# <a name="catalog-activeconnection-property-example-vb"></a>Catalog 的 ActiveConnection 属性示例 (VB)
->>>>>>> master
-
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为有效的打开连接将"打开"目录。从打开的目录中，可以访问该目录中包含的架构对象。
 

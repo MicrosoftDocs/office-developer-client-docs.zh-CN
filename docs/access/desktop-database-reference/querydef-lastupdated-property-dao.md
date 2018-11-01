@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192665(v=office.15)
 ms:contentKeyID: 48544287
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37a95cefb5af5070470fb5973076e230d76c3d98
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 370f8a9a1e503240f3764a18350a0d491af471f3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468923"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877896"
 ---
 # <a name="querydeflastupdated-property-dao"></a>QueryDef.LastUpdated Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回对象的最近更改日期和时间。只读 **Variant**。
 

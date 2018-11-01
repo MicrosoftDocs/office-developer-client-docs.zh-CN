@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836312(v=office.15)
 ms:contentKeyID: 48548519
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f1d13cef4551975dc316b2fbedf2388028956fb3
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5a25327aa81979a81f3410a383c06a0eda9d3113
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862903"
+ms.locfileid: "25873738"
 ---
 # <a name="create-view-statement-microsoft-access-sql"></a>CREATE VIEW 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建新视图。
 

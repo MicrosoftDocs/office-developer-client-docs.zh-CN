@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052889
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 003cb9927b46843a3618e66943b230460677d7e5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ebb1178525d1efb663ce49f4e5493e828afbfc2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468320"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874130"
 ---
 # <a name="recordsetnomatch-property-dao"></a>Recordset.NoMatch Property (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示在使用 **[Seek](recordset-seek-method-dao.md)** 方法或 **[Find](recordset-findfirst-method-dao.md)** 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。
 

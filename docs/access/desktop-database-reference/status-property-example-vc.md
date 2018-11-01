@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Status 属性示例 （VC + +） TOCTitle: Status 属性示例 （VC + +） === 标题： Status 属性示例 （VC + +） TOCTitle: Status 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: 48545618 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Status 属性示例 (VC++)
+TOCTitle: Status property example (VC++)
+ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
+ms:contentKeyID: 48545618
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06758dd435389ba0abfbd1a1c8dda8c5a492ab8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886856"
 ---
-
-<<<<<<< 标头
 # <a name="status-property-example-vc"></a>Status 属性示例 (VC++)
-=======
-# <a name="status-property-example-vc"></a>Status 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [Status](status-property-ado-recordset.md) 属性显示在批更新发生之前的批操作中修改的记录。
 

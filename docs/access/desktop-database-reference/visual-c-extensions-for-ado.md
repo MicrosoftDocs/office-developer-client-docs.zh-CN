@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249134(v=office.15)
 ms:contentKeyID: 48544212
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7d3a5e876dd98e26c2eb9169a21a8dcd5e532e2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f4e0d9e9f5db8741cb04fd4d576ea67408285aac
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467776"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881760"
 ---
 # <a name="visual-c-extensions-for-ado"></a>Visual C++ Extensions for ADO
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Visual c + + ADO 编程的首选的方法使用**\#导入**指令，如下所述在[Microsoft Visual c + + ADO 编程](visual-c-ado-programming.md)。 但是，更早的 ADO 版本为使用 Visual C++ 编程提供了替代方法：Visual C++ Extensions。 本节介绍此功能的那些必须维护 Visual c + + Extensions 代码，但应通过编写新的 ADO 代码\#**导入**。
 

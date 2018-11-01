@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249563(v=office.15)
 ms:contentKeyID: 48545974
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d859f7bc3a74dfde1841be87f4a8237af9b7c48a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: a484cef1e04ce84c30d823a2ac7783008651e77d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862252"
+ms.locfileid: "25875789"
 ---
 # <a name="chapter-4-editing-data"></a>第 4 章：编辑数据
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 前面两章解释了如何使用 ADO 来连接数据源，执行命令，获取 **Recordset** 对象中的结果以及在 **Recordset** 中进行导航。本章重点介绍下一个基本 ADO 操作：编辑数据。
 

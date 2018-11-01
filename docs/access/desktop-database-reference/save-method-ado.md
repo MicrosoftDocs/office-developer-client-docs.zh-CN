@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd77102d178399afeb3ebcb493799e83467c4687
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1b4e3698043c109a8f0fbf32c5c2b8c8ae20e824
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468822"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875979"
 ---
 # <a name="save-method-ado"></a>Save 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可将 [Recordset](recordset-object-ado.md) 保存到文件或 [Stream](stream-object-ado.md) 对象。
 

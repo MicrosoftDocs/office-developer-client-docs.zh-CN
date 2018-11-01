@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250268(v=office.15)
 ms:contentKeyID: 48548815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f53b56cc5fa0c99a7f7349164a42749c9575dd51
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 56d41d25ed2821422d397be7f5a0c6fb68a47811
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863388"
+ms.locfileid: "25889299"
 ---
 # <a name="deleterecord-and-moverecord-methods-example-vb"></a>DeleteRecord 和 MoveRecord 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-<<<<<<< 此示例演示如何将复制，请在 HEAD 移动、 编辑和删除文本文件发布到 Web 文件夹的内容。 使用的其他属性和方法包括 [GetChildren](getchildren-method-ado.md)、[ParentURL](parenturl-property-ado.md)、[Source](source-property-ado-record.md) 和 [Flush](flush-method-ado.md)。
-=== 本示例演示如何将复制、 移动、 编辑和删除文本文件发布到 web 文件夹的内容。 使用的其他属性和方法包括 [GetChildren](getchildren-method-ado.md)、[ParentURL](parenturl-property-ado.md)、[Source](source-property-ado-record.md) 和 [Flush](flush-method-ado.md)。
->>>>>>> 母版
+本示例演示如何将复制、 移动、 编辑和删除文本文件发布到 web 文件夹的内容。 使用的其他属性和方法包括 [GetChildren](getchildren-method-ado.md)、[ParentURL](parenturl-property-ado.md)、[Source](source-property-ado-record.md) 和 [Flush](flush-method-ado.md)。
 
 ```vb 
  

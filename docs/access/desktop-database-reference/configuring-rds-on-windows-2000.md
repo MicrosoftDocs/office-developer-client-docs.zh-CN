@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80ce29ed129035dcb6799844a4b78509b976f0ee
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 2a02db4af012bb7eb0b297d93ef35ba3fc0bd90c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862938"
+ms.locfileid: "25883594"
 ---
 # <a name="configuring-rds-on-windows-2000"></a>在 Windows 2000 上配置 RDS
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 如果升级到 Windows 2000 之后，遇到令 RDS 无法正常工作的问题，请执行以下步骤以解决此问题。
 
@@ -31,11 +31,7 @@ ms.locfileid: "25862938"
 
 4.  使用 RegEdit 实用工具，定位到注册表中"HKEY\_本地\_计算机\\系统\\CurrentControlSet\\服务\\W3SVC\\参数\\ADCLaunch"并验证是否存在键被调用的**RDSServer.Datafactory**。 如果没有，则创建此项。
 
-<<<<<<< 头
-5.  使用 Internet 服务管理器，转到默认网站并查看 MSADC 虚拟根的属性。 检查目录安全性/IP 地址和域名限制。 如果检查到"访问被拒绝"，则选择"允许"。
-=======
 5.  使用 Internet 服务管理器，转到默认网站，并查看 MSADC 虚拟根的属性。 检查目录安全性/IP 地址和域名限制。 如果检查到"访问被拒绝"，则选择"允许"。
->>>>>>> 母版
 
 如果所做更改不能解决问题，请尝试重新启动服务器。
 

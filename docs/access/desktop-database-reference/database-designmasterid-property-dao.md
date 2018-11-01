@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1053417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0bb2e369f886ba60fb425b9f1f2d10fdea0c1463
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: da9619102a955c9a7945d05e89a1e132371d2461
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467257"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868404"
 ---
 # <a name="databasedesignmasterid-property-dao"></a>Database.DesignMasterID Property (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个 16 字节值，该值唯一地标识副本集中的设计母版（仅适用于 Microsoft Access 工作区）。
 

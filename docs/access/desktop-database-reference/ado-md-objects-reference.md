@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249553(v=office.15)
 ms:contentKeyID: 48545947
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50b0434bc70025d15bec255cf815c0625a676ed1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 72d7a35b333a82763e9d538fbee9e3bf8da8fec4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467662"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876895"
 ---
 # <a name="ado-md-objects-reference"></a>ADO MD Objects Reference
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
   - [ADO MD 对象](ado-md-objects.md)

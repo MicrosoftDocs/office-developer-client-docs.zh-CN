@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
 ms:contentKeyID: 48548693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba235094aa7f491cbd86bf753713d50f01009d47
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b6c4de1278a093a1b0d4493c5dd994afe6a5d1b8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605399"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879870"
 ---
 # <a name="getstring-method-ado"></a>GetString 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 将 [Recordset](recordset-object-ado.md) 作为字符串返回。
@@ -25,11 +25,7 @@ ms.locfileid: "25605399"
 
 *Variant* = *recordset*。GetString （*StringFormat*、 *NumRows*、 *ColumnDelimiter*、 *RowDelimiter*、 *NullExpr*）
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 将 **Recordset** 作为值为字符串的 **变量型** (BSTR) 返回。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 362fd0784ee596852af7b16fae5636330a52ed59
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 72152a67a9846adacbc6b200a3517c7e65b9fc4c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863743"
+ms.locfileid: "25881907"
 ---
 # <a name="chapter-15-adox-fundamentals"></a>第 15 章：ADOX 基础知识
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 数据定义语言和安全性 Microsoft® ActiveX® 数据对象扩展 (ADOX) 是对 ADO 对象以及编程模型的扩展。ADOX 包含用于架构创建和修改的对象，以及用于安全性的对象。由于这是一种基于对象的架构处理方法，因此您可以编写可用于各种数据源的代码，而无需考虑这些数据源的特有语法。
 

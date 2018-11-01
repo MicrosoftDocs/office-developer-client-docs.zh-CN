@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249106(v=office.15)
 ms:contentKeyID: 48544119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 256e6a878e9c3f382bcd65b9138df7a440bf118c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3603696992ab7ac759a62a70f50b4fa35636d2c0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468278"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879149"
 ---
 # <a name="sortdirection-property-rds"></a>SortDirection 属性 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 指示排序顺序是升序还是降序。

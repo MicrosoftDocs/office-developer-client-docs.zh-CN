@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： 说明，HelpContext HelpFile 属性示例 （VC + +） TOCTitle: Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 （VC + +） === 标题: 说明，HelpFile 属性示例 （VC + +） HelpContext TOCTitle: Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15) ms:contentKeyID: 48543369 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: 说明，HelpContext HelpFile 属性示例 （VC + +）
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
+ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
+ms:contentKeyID: 48543369
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1b6c0a1788d4a8eb8f3b3f0c3cf67303a8506089
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878848"
 ---
-
-<<<<<<< 标头
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例 (VC++)
-=======
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Description、 HelpContext、 HelpFile、 NativeError、 号码、 源和 SQLState 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例触发一个错误，将其捕获，并显示产生的 [Error](description-property-ado.md) 对象的 [Description](helpcontext-helpfile-properties-ado.md)、[HelpContext](helpcontext-helpfile-properties-ado.md)、[HelpFile](nativeerror-property-ado.md)、[NativeError](number-property-ado.md)、[Number](source-property-ado-error.md)、[Source](sqlstate-property-ado.md) 和 [SQLState](error-object-ado.md) 属性。
 

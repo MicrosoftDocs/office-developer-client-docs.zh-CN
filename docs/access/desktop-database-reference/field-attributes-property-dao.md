@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197380(v=office.15)
 ms:contentKeyID: 48546287
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 428efdf7d245eff1c8c242cfcde951e37b23360d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: df396935f88301a9fee9df580a5cee01705f68aa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468604"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885778"
 ---
 # <a name="fieldattributes-property-dao"></a>Field.Attributes Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 设置或返回 **[Field](field-object-dao.md)** 对象的一个或多个特征。 **Long** 类型，可读写。
@@ -94,19 +94,19 @@ ms.locfileid: "25468604"
 <td><p>将 <strong>Index</strong> 所要追加到的 <strong>TableDef</strong> 对象追加到 <strong>Database</strong> 对象之前是可读写的；追加后，该属性是只读的。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong> 对象</p></td>
+<td><p><strong>QueryDef</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong> 对象</p></td>
+<td><p><strong>Recordset</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong> 对象</p></td>
+<td><p><strong>Relation</strong>对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong> 对象</p></td>
+<td><p><strong>TableDef</strong>对象</p></td>
 <td><p>可读写</p></td>
 </tr>
 </tbody>

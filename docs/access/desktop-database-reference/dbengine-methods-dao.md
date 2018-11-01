@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125212(v=office.15)
 ms:contentKeyID: 52073337
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1c7e6c0967595409707093585f23aeeee175a91
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4f2fc45d2b62de4f0220a10c6eb720973d077fb5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467427"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878708"
 ---
 # <a name="dbengine-methods-dao"></a>DBEngine Methods (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248913(v=office.15)
 ms:contentKeyID: 48543396
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d7e10e272155d2d0377810bf8aa1704a30bad39
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5ba46c922ff9fc27da0abc1908f6ffaff8e997ef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468417"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879457"
 ---
 # <a name="append-method-adox-keys"></a>Append 方法 (ADOX Keys)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 将新的 [Key](key-object-adox.md) 对象添加到 [Keys](keys-collection-adox.md) 集合。

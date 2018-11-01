@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249266(v=office.15)
 ms:contentKeyID: 48544833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e13e907c27fa6f764aae6ee499f0bd2854f9640b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 953e6c030c8ca4155b17603c03921e97fe3748e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465806"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887283"
 ---
 # <a name="the-limits-of-a-recordset"></a>记录集的限制
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用 **BOF** 和 **EOF** 属性，可以确定 **Recordset** 对象是否包含记录，或者在记录之间移动时是否超出了 **Recordset** 对象的限制。将 **BOF** 和 **EOF** 视为位于 **Recordset** 开头和末尾的"幻影"记录。基于 **检查数据**的示例 [Recordset](chapter-3-examining-data.md) 构建的对象如下所示：
 

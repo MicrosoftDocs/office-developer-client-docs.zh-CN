@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
 ms:contentKeyID: 48546270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: acbae7603615af8d0171715799963ad4d54e6342
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2ae19e30aa2a2f60f606f2380712815732eac932
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468081"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871365"
 ---
 # <a name="document-members-dao"></a>Document Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Document 对象包含有关对象实例的信息。该对象可以是数据库、保存的表、查询或关系（仅适用于 Microsoft Access 数据库引擎数据库）。
 

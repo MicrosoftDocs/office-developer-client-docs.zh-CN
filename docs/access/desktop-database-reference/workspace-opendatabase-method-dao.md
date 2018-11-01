@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7bbcba1ea6a495904e36f5ef085d52a67809019f
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bd82a8159ae0a0f9388f62ff5db32e8d7989ef2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602557"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883440"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Workspace.OpenDatabase Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 打开 **[Workspace](workspace-object-dao.md)** 对象中的指定数据库，并返回一个指向代表该数据库的 **[Database](database-object-dao.md)** 对象的引用。
 
@@ -71,11 +71,7 @@ ms.locfileid: "25602557"
 </table>
 
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 Database
 

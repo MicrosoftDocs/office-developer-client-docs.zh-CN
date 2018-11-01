@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d814c4996f7779066a4dcc4cc9cb97d5e294855b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dffb433d8a7023b725ebcb5c1e5f651d86f9dbd7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468655"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886548"
 ---
 # <a name="foreachrecord-data-block"></a>ForEachRecord 数据块
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **ForEachRecord**数据块的域中的每个记录都重复一组语句。
 

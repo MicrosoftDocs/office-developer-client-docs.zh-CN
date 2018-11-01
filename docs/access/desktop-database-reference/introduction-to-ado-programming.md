@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249181(v=office.15)
 ms:contentKeyID: 48544423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e500a71c223ab4951fed90455c192362ea4e2a6
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 72b79dd5f7c6f32f65e96b6e5ffaffa71995d8fa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862120"
+ms.locfileid: "25879912"
 ---
 # <a name="introduction-to-ado-programming"></a>Introduction to ADO Programming
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 若要查看《Microsoft ActiveX 数据对象 (ADO) 程序员指南》的说明，请参阅以下主题：
 

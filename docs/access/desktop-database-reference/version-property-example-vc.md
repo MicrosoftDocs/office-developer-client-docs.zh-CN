@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Version 属性示例 （VC + +） TOCTitle: Version 属性示例 （VC + +） === 标题： Version 属性示例 （VC + +） TOCTitle: Version 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15) ms:contentKeyID: 48548201 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Version 属性示例 (VC++)
+TOCTitle: Version property example (VC++)
+ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15)
+ms:contentKeyID: 48548201
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9711382ae0816749accd60f2d00d4f14bbee6553
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882131"
 ---
-
-<<<<<<< 标头
 # <a name="version-property-example-vc"></a>Version 属性示例 (VC++)
-=======
-# <a name="version-property-example-vc"></a>Version 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：
 

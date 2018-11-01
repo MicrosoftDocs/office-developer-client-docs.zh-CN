@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5e3a38cb4b35b8472b2c1af601c88af4cc9db813
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d11d9c6e3434e635d93e9c499c6d5f7c82c6f49
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469035"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867865"
 ---
 # <a name="dbenginesetoption-method-dao"></a>DBEngine.SetOption Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 暂时替代 Windows 注册表中的 Microsoft Access 数据库引擎项的值（仅适用于 Microsoft Access 工作区）。
 

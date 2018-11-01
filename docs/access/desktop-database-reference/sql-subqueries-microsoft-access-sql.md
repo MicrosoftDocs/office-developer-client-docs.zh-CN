@@ -12,17 +12,17 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 091dc4aa26d653c6e556fc7540e4b65f29d501ae
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 460d37d2849703829892d5493dd5cc1580930ef8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468784"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880388"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>SQL 子查询 (Microsoft Access SQL)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 子查询是一个 [SELECT](select-statement-microsoft-access-sql.md) 语句，它嵌套在 SELECT、 [SELECT...INTO](select-into-statement-microsoft-access-sql.md)、[INSERT...INTO](insert-into-statement-microsoft-access-sql.md)、[DELETE](delete-statement-microsoft-access-sql.md) 或 [UPDATE](update-statement-microsoft-access-sql.md) 语句中，或嵌套在另一个子查询中。
 

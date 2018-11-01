@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
 ms:contentKeyID: 48548103
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c25197f0a8a45487f93f56543f73a2beeea062ff
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 2fb5171e8b0a0b23f46ff5b4667b4c2b0ff4df34
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603152"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889838"
 ---
 # <a name="hellodata-details"></a>HelloData 详细信息
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 通过典型的 ADO 应用程序的基本操作步骤 HelloData 应用程序： 获取、 检查、 编辑和更新数据。 启动应用程序时，单击第一个按钮，**获取数据**。 这将运行 GetData() 子例程。
 
@@ -28,9 +28,7 @@ GetData 将放在模块级变量，有效的连接字符串*m\_sConnStr*。 有�
 
 打开连接后，将 SQL 字符串赋给变量 (sSQL)。 然后实例化一个新的**Recordset**对象，m\_oRecordset1。 在下一行代码中，通过现有的**连接**，从而传递中打开**Recordset** 。 在下一行代码中，通过现有的**连接**，作为**Recordset**的数据源中 sSQL 传递打开**记录集**。 将最后一个参数中的 **adCmdText** 传递给 **Recordset** 的 **Open** 方法，可以帮助 ADO 确定已作为 **Recordset** 的源传递的 SQL 字符串是命令的文本定义。 此行还设置了与 **Recordset** 关联的 **LockType** 和 **CursorType** 。
 
-<<<<<<< 头下一行代码将**MarshalOptions**属性设置为**adMarshalModifiedOnly**相等。 **MarshalOptions** 指示应该将哪些记录封送到中间层（或 Web 服务器）。 有关封送的详细信息，请参阅 COM 文档。 当使用客户端游标**adMarshalModifiedOnly** ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**)，仅在客户端已修改的记录写回中间层。 将 **MarshalOptions** 设置为 **adMarshalModifiedOnly** 可以提高性能，因为封送的行较少。
-=== 下的一行代码设置**MarshalOptions**属性等于**adMarshalModifiedOnly**。 **MarshalOptions**指示哪些记录应送到中间层 （或 web 服务器）。 有关封送的详细信息，请参阅 COM 文档。 当使用客户端游标**adMarshalModifiedOnly** ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**)，仅在客户端已修改的记录写回中间层。 将 **MarshalOptions** 设置为 **adMarshalModifiedOnly** 可以提高性能，因为封送的行较少。
->>>>>>> master
+下一行代码将 **MarshalOptions** 属性设置为等于 **adMarshalModifiedOnly** 。 **MarshalOptions**指示哪些记录应送到中间层 （或 web 服务器）。 有关封送的详细信息，请参阅 COM 文档。 当使用客户端游标**adMarshalModifiedOnly** ([CursorLocation](cursorlocation-property-ado.md) = **adUseClient**)，仅在客户端已修改的记录写回中间层。 将 **MarshalOptions** 设置为 **adMarshalModifiedOnly** 可以提高性能，因为封送的行较少。
 
 下一步，将 **ActiveConnection** 属性设置为等于 **Nothing** ，以断开 **Recordset** 的连接。有关详细信息，请参阅第 5 章"更新和保存数据"中的 [断开和重新连接记录集](disconnecting-and-reconnecting-the-recordset.md)一节。
 

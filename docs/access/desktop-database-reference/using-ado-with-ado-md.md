@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249655(v=office.15)
 ms:contentKeyID: 48546405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 492efdcef5f71daf50ac84eec5e61ef4ed07fd5a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 469480b0735c6cfbc6bf43e54c529f3e40f6818d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467381"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880542"
 ---
 # <a name="using-ado-with-ado-md"></a>将 ADO 与 ADO MD 结合使用
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 和 ADO MD 是两种既相关又独立的对象模型。ADO 提供的对象用于连接数据源、执行命令、检索表格式数据和表格式架构元数据，以及查看提供程序错误信息。ADO MD 提供的对象则用于检索多维数据以及查看多维架构元数据。
 

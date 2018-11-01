@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250180(v=office.15)
 ms:contentKeyID: 48548433
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d5c9f83299ec297a351f6489d35ea42765ff9f4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 23502ec1bc4ebd0bcdbca17763c2e9dd467d8793
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466378"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884518"
 ---
 # <a name="the-role-of-ado-in-microsoft-data-access"></a>ADO 在 Microsoft 数据访问中的角色
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Microsoft 数据访问组件 (MDAC) 提供了独立于数据存储、工具和语言的数据访问功能。它为使用实际上任何可用的数据存储提供了高级别、易用的接口，以及低级别、高性能的接口。可以使用此灵活性来集成不同的数据存储，并使用您选择的工具、应用程序和平台服务针对您的需要创建正确的解决方案。这些技术为在 Microsoft Windows 操作系统中进行常规用途的数据访问提供了基本框架。
 

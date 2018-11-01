@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f9ac791ffd0f11c11358298570db833f8d561d11
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 91a6943267ebcd5445c338f12cc9f892ead0e316
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860936"
+ms.locfileid: "25879422"
 ---
 # <a name="deleteobject-macro-action"></a>DeleteObject 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **DeleteObject** 操作删除指定的数据库对象。
 

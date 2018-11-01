@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
 ms:contentKeyID: 48543999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfa474a1fd8b592f8ad8d309526c8b94cb1fba25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 77214fcad0f5b2cafe794282782df4446d37fcf6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468090"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887157"
 ---
 # <a name="fieldrequired-property-dao"></a>Field.Required Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指示 **[Field](field-object-dao.md)** 对象是否需要一个非 Null 值。
 
@@ -49,19 +49,19 @@ ms.locfileid: "25468090"
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong> 对象</p></td>
+<td><p><strong>QueryDef</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong> 对象</p></td>
+<td><p><strong>Recordset</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong> 对象</p></td>
+<td><p><strong>Relation</strong>对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong> 对象</p></td>
+<td><p><strong>TableDef</strong>对象</p></td>
 <td><p>读/写</p></td>
 </tr>
 </tbody>

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c66e6d3297359b3f3584932d8a1faa5dbee0fd7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e72de1f266b1dc24267b1c7f3c43be489d92fb5e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466012"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889593"
 ---
 # <a name="databaseexecute-method-dao"></a>Database.Execute Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 对指定的对象运行动作查询，或执行 SQL 语句。
 

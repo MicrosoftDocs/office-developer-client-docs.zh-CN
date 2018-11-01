@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Sort 属性示例 （VJ + +） TOCTitle: Sort 属性示例 （VJ + +） === 标题： Sort 属性示例 （VJ + +） TOCTitle: Sort 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: 48543896 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Sort 属性示例 (VJ++)
+TOCTitle: Sort property example (VJ++)
+ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
+ms:contentKeyID: 48543896
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9ea7dd3ee87b3e7ff2d06a6f6cf14d9195216f42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872079"
 ---
-
-<<<<<<< 标头
 # <a name="sort-property-example-vj"></a>Sort 属性示例 (VJ++)
-=======
-# <a name="sort-property-example-vj"></a>Sort 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用[Recordset](recordset-object-ado.md)对象的[Sort](sort-property-ado.md)属性重新排列**Recordset**派生自***Pubs***数据库的***Authors***表的行。 由辅助实用程序例程打印每行。
 

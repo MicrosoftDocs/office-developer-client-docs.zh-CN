@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180129(v=office.15)
 ms:contentKeyID: 52075078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31aec34d6626973f798b998433f35b632055b0c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 28ce8f84138d0f6eda4fce5e916f6722a3d7385f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468069"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882789"
 ---
 # <a name="data-actions"></a>数据操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
@@ -38,5 +38,5 @@ ms.locfileid: "25468069"
 
   - [SetLocalVar 宏操作](setlocalvar-macro-action.md)
 
-  - [SetReturnVar Macro Action](setreturnvar-macro-action.md)
+  - [SetReturnVar 宏操作](setreturnvar-macro-action.md)
 

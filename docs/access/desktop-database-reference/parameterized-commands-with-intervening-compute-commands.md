@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250311(v=office.15)
 ms:contentKeyID: 48548959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c05e1a8b31523b9dd225c062caf2b602df1b222e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c44afce969af77696e52cea3bc194d73eb2ddd25
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465527"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877252"
 ---
 # <a name="parameterized-commands-with-intervening-compute-commands"></a>参数化命令与干扰性 COMPUTE 命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 典型的参数化 Shape APPEND 命令包含一个用查询命令创建父 **Recordset** 的子句，以及一个用参数化查询命令（即包含参数占位符，即：问号"?"）的命令创建子 **Recordset** 的子句。生成的定形 **Recordset** 为两层，父记录集占据上层，子记录集占据下层。
 

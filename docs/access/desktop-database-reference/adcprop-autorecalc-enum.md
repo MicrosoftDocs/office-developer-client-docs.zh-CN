@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249502(v=office.15)
 ms:contentKeyID: 48545779
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: b9c1aff21b62eff061a3f68ef3ad56e07e46388d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d8f8a8f3ea27ff40c059ceada6d7f6df65b79664
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860082"
+ms.locfileid: "25867172"
 ---
 # <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_枚举
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定 [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) 提供程序何时重新计算分层记录集中的聚合和计算列。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
 ms:contentKeyID: 48548935
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3c5d05c958a30f1ec5782a5dce0dd66ccd5dad4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c362e87f3e962586c2bd821bd6facb35966a77f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465868"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886835"
 ---
 # <a name="using-bookmarks"></a>使用书签
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 通常需要在 **Recordset** 中移动到其他位置之后直接返回到特定记录，而不用滚动经过每个记录并比较值。例如，如果试图使用 **Find** 方法搜索记录但搜索没有返回记录，您将自动位于 **Recordset** 的末尾。如果提供程序支持，则在使用 **Find** 方法之前，可以用书签来标记您的位置，以便可以返回该位置。书签是 **变量型** 类型值，它可以唯一标识 **Recordset** 对象中的记录。
 

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249507(v=office.15)
 ms:contentKeyID: 48545795
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41534132fd4f199294e317310215d4f6e8ac5426
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f6be229e2dfd0cc8dd25fd217bdd6cb50f65cb32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603264"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872366"
 ---
 # <a name="status-property-ado-field"></a>Status 属性 (ADO Field)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 [Field](field-object-ado.md) 对象的状态。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回一个 [FieldStatusEnum](fieldstatusenum.md) 值。默认值是 **adFieldOK** 。
 

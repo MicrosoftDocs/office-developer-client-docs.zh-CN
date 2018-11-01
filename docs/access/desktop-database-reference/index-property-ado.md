@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： 索引属性 (ADO) TOCTitle： 索引属性 (ADO) === 标题： Index 属性 (ADO) TOCTitle: Index 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15) ms:contentKeyID: 48544715 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Index 属性 (ADO)
+TOCTitle: Index property (ADO)
+ms:assetid: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15)
+ms:contentKeyID: 48544715
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9f2eabf7d75ea6567ea7ca788e5a3c7451d0b75b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876979"
 ---
-
-<<<<<<< 标头
 # <a name="index-property-ado"></a>Index 属性 (ADO)
-=======
-# <a name="index-property-ado"></a>Index 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示当前对 [Recordset](recordset-object-ado.md) 对象有效的索引的名称。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **String** 值，该值为索引名称。
 

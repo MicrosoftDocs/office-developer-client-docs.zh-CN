@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249432(v=office.15)
 ms:contentKeyID: 48545491
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8d6c1a24bd20835ed96842d995a3c1568ae7139
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6737496cffb31fd4a3666ba57a604f8730c79c6c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863022"
+ms.locfileid: "25886240"
 ---
 # <a name="execute-requery-and-clear-methods-example-vb"></a>Execute、Requery 和 Clear 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示同时从 **Command** 对象和 [Connection](command-object-ado.md) 对象运行时的 [Execute](connection-object-ado.md) 方法。本示例还使用 [Requery](requery-method-ado.md) 方法来检索 [Recordset](recordset-object-ado.md) 中的当前数据，并使用 [Clear](clear-method-ado.md) 方法来清除 [Errors](errors-collection-ado.md) 集合的内容。（可以通过 **Recordset** 的 **ActiveConnection** 属性的 [Connection](activeconnection-property-ado.md) 对象访问 [Errors](recordset-object-ado.md) 集合。若要使该过程运行，需要 ExecuteCommand 和 PrintOutput 过程。
 

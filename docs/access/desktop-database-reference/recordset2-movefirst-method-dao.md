@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195879(v=office.15)
 ms:contentKeyID: 48545667
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2103bc1d212900153ae7e1df7f4fbb394a033646
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 580ea981653eec3a1997b2c48376448032cd0fa2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466562"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883860"
 ---
 # <a name="recordset2movefirst-method-dao"></a>Recordset2.MoveFirst Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 移到指定的 **Recordset** 对象中的第一条记录，并使该记录成为当前记录。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123648(v=office.15)
 ms:contentKeyID: 52071290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b1567e15798dde4766929995b9702d4928fe91f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3b7fe71e792da4a8ddbf0082add1431e9d9592c0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467253"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882950"
 ---
 # <a name="dbengine-properties-dao"></a>DBEngine Properties (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

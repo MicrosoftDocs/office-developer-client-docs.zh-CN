@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85af8f8840cdc74494f29d169cbccb3ce38cc6b4
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: bc7f915b32c9a6bec79afe5de554bf7863030c03
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862209"
+ms.locfileid: "25869797"
 ---
 # <a name="handling-errors-in-vbscript"></a>在 VBScript 中处理错误
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在 Visual Basic 中与在 VBScript 中所使用的方法几乎没有差异。 主要的差异是，VBScript 不支持错误处理的概念，而是在一个标签位置继续执行。 换句话说，不能在 VBScript 中使用 On Error GoTo。 在 VBScript 中，而是使用。 而使用上错误继续下一步，然后检查**Err.Number**和**Count**属性， **Errors**集合，如下面的示例中所示：
 

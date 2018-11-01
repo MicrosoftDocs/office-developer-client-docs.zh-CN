@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e1fd3d9ad8dd8dc16587a59a0a24b57543c92288
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3281e0fb94e8b332ee165f5c8d1000bd0fc7ef9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466770"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878421"
 ---
 # <a name="recordset2-members-dao"></a>Recordset2 Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Recordset2 对象代表基表中的记录或通过运行查询得到的记录。
 

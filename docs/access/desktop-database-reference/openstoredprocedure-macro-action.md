@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b30049348171fcd65bbc2edd25c18256a12c955
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52d7d6c54913511ab593ee77d374ed55984ed40b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466880"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883251"
 ---
 # <a name="openstoredprocedure-macro-action"></a>OpenStoredProcedure 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在 Microsoft Access 项目中，可以使用 **OpenStoredProcedure** 操作在数据表视图、存储过程设计视图或打印预览中打开存储过程。如果在数据表视图中打开命名的存储过程，此操作将运行该存储过程。您可以为存储过程选择数据输入模式，以及限制存储过程显示的记录。
 

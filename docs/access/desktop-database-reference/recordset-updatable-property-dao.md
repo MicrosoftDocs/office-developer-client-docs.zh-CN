@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192110(v=office.15)
 ms:contentKeyID: 48543968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77f3c7331e42d0f9a63a0f87330f8acbc49a646b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 392864fa2b6d72249de0c0d75e3c1bc3ecbc3a11
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465970"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878519"
 ---
 # <a name="recordsetupdatable-property-dao"></a>Recordset.Updatable Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个值，该值指示是否可以更改 DAO 对象。只读 **Boolean**。
 

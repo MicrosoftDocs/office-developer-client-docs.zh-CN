@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052896
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6742e8b97e3444df38a7c52d048aaa6a2f023cb0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca1e0be9c5957e11c66487e913693bb16644211b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468292"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877154"
 ---
 # <a name="field2attributes-property-dao"></a>Field2.Attributes Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 设置或返回一个值，该值指示 **Field2** 对象的一个或多个特征。 **Long** 类型，可读写。
@@ -98,19 +98,19 @@ ms.locfileid: "25468292"
 <td><p>将 <strong>Index</strong> 所要追加到的 <strong>TableDef</strong> 对象追加到 <strong>Database</strong> 对象之前是可读写的；追加后，该属性是只读的。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong> 对象</p></td>
+<td><p><strong>QueryDef</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong> 对象</p></td>
+<td><p><strong>Recordset</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong> 对象</p></td>
+<td><p><strong>Relation</strong>对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong> 对象</p></td>
+<td><p><strong>TableDef</strong>对象</p></td>
 <td><p>可读写</p></td>
 </tr>
 </tbody>

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： BOF、 EOF 和 Bookmark 属性示例 （VJ + +） TOCTitle: BOF、 EOF 和 Bookmark 属性示例 （VJ + +） === 标题： BOF、 EOF 和 Bookmark 属性示例 （VJ + +） TOCTitle: BOF、 EOF 和 Bookmark 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: 48545400 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: BOF、EOF 和 Bookmark 属性示例 (VJ++)
+TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)
+ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
+ms:contentKeyID: 48545400
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bc00c8a4102287fb2488d8ffa99607521a91021b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870427"
 ---
-
-<<<<<<< 标头
 # <a name="bof-eof-and-bookmark-properties-example-vj"></a>BOF、EOF 和 Bookmark 属性示例 (VJ++)
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a>BOF、 EOF 和 Bookmark 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。
 

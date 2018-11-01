@@ -10,17 +10,17 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60ba53f7e1c0756c47c9b59140f41e62aae175dd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 57acba0c3c375bd9161748d3cc6e4410c143ecfe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469053"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888711"
 ---
 # <a name="sql-reserved-words"></a>SQL 保留字
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下表包含了 Microsoft Access 数据库引擎用于 SQL 语句的所有保留字。列表中没有全部采用大写字母的保留字也是其他应用程序的保留字。所以，这些保留字的各个帮助主题只提供一般性说明，而不是着重说明 SQL 用法。
 

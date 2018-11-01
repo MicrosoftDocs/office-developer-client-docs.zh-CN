@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
 ms:contentKeyID: 48548696
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 910ed7f40b1da2d63ed94b4be0c4e1b17f2744f6
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 2bb0e9eda069f86170542596aebd1b359a242680
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602963"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872702"
 ---
 # <a name="tabledefopenrecordset-method-dao"></a>TableDef.OpenRecordset Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建一个新的 **[Recordset](recordset-object-dao.md)** 对象，并将其追加到 **Recordsets** 集合。
 
@@ -90,11 +90,7 @@ ms.locfileid: "25602963"
 </table>
 
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 Recordset
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cff7a319130786cfdab26546d49f83da5769c5f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a70e5d1c19f4d92c4494071f78192ffb4e543ad7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467765"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882383"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 设置或返回 **Field2** 对象的默认值。对于尚未追加到 [**Fields**](fields-collection-dao.md) 集合的 **Field2** 对象，该属性是可读写的（仅适用于 Microsoft Access 工作区）。

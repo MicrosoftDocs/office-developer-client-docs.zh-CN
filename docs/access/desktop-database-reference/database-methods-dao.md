@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180179(v=office.15)
 ms:contentKeyID: 52075128
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4480ae7102599a5a3fac9347295b12497798eec0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8495e5b2e86e7b528f6c0768021a921ffc919f96
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466488"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886800"
 ---
 # <a name="database-methods-dao"></a>Database Methods (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

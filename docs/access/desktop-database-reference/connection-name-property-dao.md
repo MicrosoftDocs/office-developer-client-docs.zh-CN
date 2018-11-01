@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
 ms:contentKeyID: 48545159
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a235367ec8e9f4abe07f076eca51b82e67b343f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5f714f4fb3e36d0984eef1a91d0c5cc1b6fd621
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466393"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889677"
 ---
 # <a name="connectionname-property-dao"></a>Connection.Name Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回 **[Connection](connection-object-dao.md)** 的名称。
 

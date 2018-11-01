@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
 ms:contentKeyID: 48543723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d49fa1bf77a66dbab829aff20ee666ae1a5082cc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: a7abbf859162d527ac89c637022ce449219c235a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862212"
+ms.locfileid: "25876524"
 ---
 # <a name="columns-collection-adox"></a>Columns 集合 (ADOX)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 包含表、索引或键的所有 [Column](column-object-adox.md) 对象。
 

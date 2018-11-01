@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
 ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5cfca6c3d35bd9e120904dd7d0cc9a2b84d7e05f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8348a2b67eb6da401c02fcce9a65d2c6839137f2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467112"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870595"
 ---
 # <a name="stream-properties-methods-and-events-ado"></a>Stream Properties, Methods, and Events (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="properties"></a>属性
 

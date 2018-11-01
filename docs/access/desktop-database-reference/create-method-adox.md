@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
 ms:contentKeyID: 48547924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cffaa8fb924d2fd272300c77fc5a9c3dc0b239db
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 91f5105611df85e007dea6d0e17e3104ea5987a3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468335"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870252"
 ---
 # <a name="create-method-adox"></a>Create 方法 (ADOX)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 创建新目录。

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： 属性和 Name 属性示例 （VJ + +） TOCTitle: Attributes 和 Name 属性示例 （VJ + +） === 标题： 属性和 Name 属性示例 （VJ + +） TOCTitle： 属性和 Name 属性示例 （VJ++)
->>>>>>> 母版页 ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: 48547035 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Attributes 和 Name 属性示例 (VJ++)
+TOCTitle: Attributes and Name properties example (VJ++)
+ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
+ms:contentKeyID: 48547035
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 68690d89e6b747c38647a3c8b49318aa577838fd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878744"
 ---
-
-<<<<<<< 标头
 # <a name="attributes-and-name-properties-example-vj"></a>Attributes 和 Name 属性示例 (VJ++)
-=======
-# <a name="attributes-and-name-properties-example-vj"></a>Attributes 和 Name 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例显示 [Connection](attributes-property-ado.md)、[Field](connection-object-ado.md) 和 [Property](field-object-ado.md) 对象的 [Attributes](property-object-ado.md) 属性的值。它使用 [Name](name-property-ado.md) 属性来显示每个 **Field** 和 **Property** 对象的名称。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835671(v=office.15)
 ms:contentKeyID: 48548263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62c6902cc57c210d617b71da3ca42a2a52bdd4f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bda30265cbcf2377114734d03b16f889b0d165b7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466984"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880815"
 ---
 # <a name="createrecord-data-block"></a>CreateRecord 数据块
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 您可以使用 **CreateRecord** 数据块在指定表中创建新记录。
 
@@ -70,7 +70,7 @@ ms.locfileid: "25466984"
 <td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange 宏操作</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Comment 宏语句</a></p></td>
+<td><p><a href="comment-macro-statement.md">注释宏语句</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="group-macro-statement.md">Group 宏语句</a></p></td>

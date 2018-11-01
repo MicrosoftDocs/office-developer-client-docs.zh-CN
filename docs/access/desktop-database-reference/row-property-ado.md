@@ -1,16 +1,22 @@
 ---
-标题： Row 属性-ActiveX 数据对象 (ADO) <<<<<<< 标头 TOCTitle： 行属性 (ADO) === TOCTitle： 行属性 (ADO)
->>>>>>> 母版页 ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15) ms:contentKeyID: 48543562 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: 行属性-ActiveX 数据对象 (ADO)
+TOCTitle: Row property (ADO)
+ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
+ms:contentKeyID: 48543562
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7578a00719946450e840080c21284784a27be170
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870945"
 ---
-
-<<<<<<< 标头
 # <a name="row-property-ado"></a>Row 属性 (ADO)
-=======
-# <a name="row-property-ado"></a>Row 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
@@ -32,11 +38,7 @@ HRESULT 放置\_行 (\[的\]IUnknown\* pRow);
 
   - 一个 OLE DB **Row** 对象。
 
-<<<<<<< 标头
 ## <a name="return-values"></a>返回值
-=======
-## <a name="return-values"></a>返回值
->>>>>>> master
 
 此属性方法返回标准 HRESULT 值，包括 S\_确定和 E\_失败。
 

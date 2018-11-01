@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： 群集属性示例 （VC + +） TOCTitle： 群集属性示例 （VC + +） === 标题： Clustered 的属性示例 （VC + +） TOCTitle: Clustered 的属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID: 48546761 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Clustered 属性示例 (VC++)
+TOCTitle: Clustered property example (VC++)
+ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
+ms:contentKeyID: 48546761
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8f7a57ee235f2bcf91c75abb99fa044d7e21a6c4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874480"
 ---
-
-<<<<<<< 标头
 # <a name="clustered-property-example-vc"></a>Clustered 属性示例 (VC++)
-=======
-# <a name="clustered-property-example-vc"></a>Clustered 的属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Index](clustered-property-adox.md) 的 [Clustered](index-object-adox.md) 属性。 请注意，Microsoft Jet 数据库不支持聚簇的索引，因此本示例将返回**False**的**Clustered**属性的*Northwind*数据库中的所有索引。
 

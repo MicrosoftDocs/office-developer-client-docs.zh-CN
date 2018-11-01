@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834698(v=office.15)
 ms:contentKeyID: 48547826
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3192b20bc963212d5022568f163909893d5be13
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 93f1a0e22485cf9992d5c4218b00e642205ce3aa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466993"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876734"
 ---
 # <a name="recordset2fields-property-dao"></a>Recordset2.Fields Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个 **Fields** 集合，该集合表示指定对象的所有存储 **Field** 对象。只读。
 

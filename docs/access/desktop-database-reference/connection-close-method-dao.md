@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198015(v=office.15)
 ms:contentKeyID: 48546559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 266d80aae875ff8d3caf6cc2a5b742abf780172c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4cc4230c7d647d58c0f30bd8351118e6c44198a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467596"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879695"
 ---
 # <a name="connectionclose-method-dao"></a>Connection.Close Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 关闭已打开的 **Connection**。
 

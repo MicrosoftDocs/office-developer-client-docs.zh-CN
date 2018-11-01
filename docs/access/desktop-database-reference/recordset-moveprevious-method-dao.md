@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052872
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 22832abd8a573c4e7dc45b5f7827019e5e577964
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bfd6682ea278d499a50c0632186b204610e80ea6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466716"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880325"
 ---
 # <a name="recordsetmoveprevious-method-dao"></a>Recordset.MovePrevious Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 移到指定的 **Recordset** 对象中的上一条记录，并使该记录成为当前记录。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26c83c9770ce7372338a054090025c67c32a9c36
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 750848ce0e787506085899f4717730e1ca0a8f13
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466093"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868691"
 ---
 # <a name="enabling-a-dll-to-run-on-dcom"></a>启用 DLL 以在 DCOM 上运行
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下步骤概述了如何启用业务对象动态链接库，以通过组件服务使用 DCOM 和 Microsoft® Internet 信息服务 (IIS)。
 

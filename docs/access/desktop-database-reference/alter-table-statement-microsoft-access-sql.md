@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 83ba764fa23c972c93156d418bffcde6f3239145
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863693"
+ms.locfileid: "25889628"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 修改用 [CREATE TABLE](create-table-statement-microsoft-access-sql.md) 语句创建的表的设计。
 
@@ -97,12 +97,13 @@ ALTER TABLE 语句有以下部分：
   ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
-  
+
 - 使用 ADD CONSTRAINT 可添加多字段索引。 有关多字段索引的详细信息，请参阅[CONSTRAINT 子句](constraint-clause-microsoft-access-sql.md)。
 
 - 使用 DROP COLUMN 可删除字段。只需指定字段的名称。
 
 - 使用 DROP CONSTRAINT 可删除多字段索引。只需在 CONSTRAINT 保留字后面指定索引名称。
+
 
 > [!NOTE] 
 > - [!注释] 不能同时添加或删除多个字段或索引。

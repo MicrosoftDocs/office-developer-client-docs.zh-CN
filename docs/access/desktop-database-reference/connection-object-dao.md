@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
 ms:contentKeyID: 48548690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a8f324d7216eff2aeeb9045f5c506cdf37170f6
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7170a28cb1d3ec9c8cdeca9229c255f264b9422e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863729"
+ms.locfileid: "25883426"
 ---
 # <a name="connection-object-dao"></a>Connection Object (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 > [!NOTE]
 > Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。

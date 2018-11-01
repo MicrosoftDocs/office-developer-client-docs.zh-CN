@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823192(v=office.15)
 ms:contentKeyID: 48547661
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 134222e825826615feb495adaae6296229edb868
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e7cddb3ace4027c2dba45fd685fbf16bd57b783e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466032"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887339"
 ---
 # <a name="raiseerror-macro-action"></a>RaiseError 宏操作
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013 
 
 **RaiseError** 操作会引发 **[OnError](onerror-macro-action.md)** 宏操作可以处理的异常。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248941(v=office.15)
 ms:contentKeyID: 48543502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae0da646a4259f8a963ff55a8d92573830711508
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f7dc244483c3111e6e354496f1ffbbd12f463800
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467441"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878292"
 ---
 # <a name="cubedef-object-ado-md"></a>CubeDef 对象 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 代表多维架构中的多维数据集，包含一组相关的维度。
 

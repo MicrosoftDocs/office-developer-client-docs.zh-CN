@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： DeleteRule 属性示例 (VB) TOCTitle: DeleteRule 属性示例 (VB) === 标题： DeleteRule 属性示例 (VB) TOCTitle: DeleteRule 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15) ms:contentKeyID: 48544142 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: DeleteRule 属性示例 (VB)
+TOCTitle: DeleteRule property example (VB)
+ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15)
+ms:contentKeyID: 48544142
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 43177dd707f47106d8be14e174d840b9815f8155
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886128"
 ---
-
-<<<<<<< 标头
 # <a name="deleterule-property-example-vb"></a>DeleteRule 属性示例 (VB)
-=======
-# <a name="deleterule-property-example-vb"></a>DeleteRule 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Key](deleterule-property-adox.md) 对象的 [DeleteRule](key-object-adox.md) 属性。代码将追加一个新 [Table](table-object-adox.md)，然后定义一个新主键，同时将 **DeleteRule** 设置为 **adRICascade** 。
 

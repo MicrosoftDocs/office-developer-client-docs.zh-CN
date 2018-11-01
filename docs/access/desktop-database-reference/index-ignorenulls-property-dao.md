@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052931
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b6c190b7a61e26ff6e4abedc1a19bde26a1de426
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e7fd7b98b246f4fda24426d9376cc5edc2553b8e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467387"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870308"
 ---
 # <a name="indexignorenulls-property-dao"></a>Index.IgnoreNulls Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指示索引字段中包含 Null 值的记录是否具有索引项（仅适用于 Microsoft Access 工作区）。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250012(v=office.15)
 ms:contentKeyID: 48547726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2567d07ad33670fcd68be4513d7a409ffdcd599c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 19a5f34734f98b84e9a232dd06bd4f35f016a58f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864044"
+ms.locfileid: "25877504"
 ---
 # <a name="propertyattributesenum"></a>PropertyAttributesEnum
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定 [Property](property-object-ado.md) 对象的属性。
 

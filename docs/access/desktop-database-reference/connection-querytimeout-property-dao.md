@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052905
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 51f2f51743a8f92b77fafacebbc18e11eb77fe8a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f5ce9faa1ebd56bdc8e4de5aeea417835c950b7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466226"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878806"
 ---
 # <a name="connectionquerytimeout-property-dao"></a>Connection.QueryTimeout Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指定对 ODBC 数据源执行查询时发生超时错误之前等待的秒数。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845335(v=office.15)
 ms:contentKeyID: 48543294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ef95f7c891c59239df82913e3235eef2d5f9545
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 04ff03ea173c7b319c9c61902d3700739dd1c7ff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468311"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868068"
 ---
 # <a name="workspacerollback-method-dao"></a>Workspace.Rollback Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 结束当前事务，并将 **Workspace** 对象中的数据库还原到开始当前事务时它们所处的状态。
 

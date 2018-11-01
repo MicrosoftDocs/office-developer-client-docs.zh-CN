@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249672(v=office.15)
 ms:contentKeyID: 48546461
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e2870d26f6feae3c73bf267f675957816957642
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 54b001dfb97060972514d246c28d8ac6afe66d02
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468437"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879289"
 ---
 # <a name="adox-methods-reference"></a>ADOX Methods Reference
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
   - [ADOX 方法](adox-methods.md)
@@ -41,7 +41,7 @@ ms.locfileid: "25468437"
 
   - [Create 方法 (ADOX)](create-method-adox.md)
 
-  - [Delete 方法（ADOX 集合）](delete-method-adox-collections.md)
+  - [Delete 方法 （ADOX 集合）](delete-method-adox-collections.md)
 
   - [GetObjectOwner 方法 (ADOX)](getobjectowner-method-adox.md)
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1a07083540e0e980b0858d7306ad88ab9ef64dd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b6b8803b4169b4cbb9eead3ee1ce1437aabbb905
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466090"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889600"
 ---
 # <a name="databasequerydefs-property-dao"></a>Database.QueryDefs Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个 **QueryDefs** 集合，该集合包含指定数据库的所有 **QueryDef** 对象。只读。
 

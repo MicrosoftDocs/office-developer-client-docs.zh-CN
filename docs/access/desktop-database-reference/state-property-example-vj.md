@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： State 属性示例 （VJ + +） TOCTitle: State 属性示例 （VJ + +） === 标题： State 属性示例 （VJ + +） TOCTitle: State 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15) ms:contentKeyID: 48545869 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: State 属性示例 (VJ++)
+TOCTitle: State property example (VJ++)
+ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
+ms:contentKeyID: 48545869
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ac8e066e537f86095c31ee975fd27f0f38211c2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881683"
 ---
-
-<<<<<<< 标头
 # <a name="state-property-example-vj"></a>State 属性示例 (VJ++)
-=======
-# <a name="state-property-example-vj"></a>State 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。
 

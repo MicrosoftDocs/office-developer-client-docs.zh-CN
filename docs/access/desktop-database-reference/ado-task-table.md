@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 787375117566673b745cf819694a8d2d77e13779
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6b2766fbdc7976e917b203943b70aae953a5edbc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861566"
+ms.locfileid: "25877588"
 ---
 # <a name="ado-task-table"></a>ADO 任务表
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下表列出了 *《ADO 程序员指南》* 中包含的编程任务并为每个任务提供参考信息。这些参考信息可能是文本说明或代码示例，您可以从中找到有关执行相应任务的 ADO 功能的信息。
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： MarshalOptions 属性示例 (VB) TOCTitle: MarshalOptions 属性示例 (VB) === 标题： MarshalOptions 属性示例 (VB) TOCTitle: MarshalOptions 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15) ms:contentKeyID: 48548691 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: MarshalOptions 属性示例 (VB)
+TOCTitle: MarshalOptions property example (VB)
+ms:assetid: f48ad901-7ce8-af6c-e312-51777466cd35
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15)
+ms:contentKeyID: 48548691
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: efb33fbcccaac26f6a169761235a88a49ec0cfa8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869867"
 ---
-
-<<<<<<< 标头
 # <a name="marshaloptions-property-example-vb"></a>MarshalOptions 属性示例 (VB)
-=======
-# <a name="marshaloptions-property-example-vb"></a>MarshalOptions 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。
 

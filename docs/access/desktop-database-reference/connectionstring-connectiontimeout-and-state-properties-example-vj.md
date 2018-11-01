@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： ConnectionString、 ConnectionTimeout 和 State 属性示例 （VJ + +） TOCTitle: ConnectionString、 ConnectionTimeout 和 State 属性示例 （VJ + +） === 标题： ConnectionString，ConnectionTimeout 和 State 属性示例 （VJ + +） TOCTitle: ConnectionString、 ConnectionTimeout 和 State 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: 88b3f95e-0e46-7cbb-8086-d583319a6628 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15) ms:contentKeyID: 48546141 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ConnectionString、ConnectionTimeout 和 State 属性示例 (VJ++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VJ++)
+ms:assetid: 88b3f95e-0e46-7cbb-8086-d583319a6628
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15)
+ms:contentKeyID: 48546141
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6ad29def518f86eaee14ca3fd901e881223753d2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887836"
 ---
-
-<<<<<<< 标头
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>ConnectionString、ConnectionTimeout 和 State 属性示例 (VJ++)
-=======
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>ConnectionString、 ConnectionTimeout 和 State 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例演示使用 [ConnectionString](connectionstring-property-ado.md) 属性打开 [Connection](connection-object-ado.md) 对象的不同方式。它还使用 [ConnectionTimeout](connectiontimeout-property-ado.md) 属性设置一个连接超时时间，并使用 [State](state-property-ado.md) 属性来检查连接的状态。若要运行此过程，必须使用 GetState 函数。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ecefa3973d2995a69feb9abe82355aae7df63d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e9944138dcdca49f33ca293a9bdf41d88d86e9e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468166"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882306"
 ---
 # <a name="ado-enumerated-constants"></a>ADO 枚举常量
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 为了有助于进行调试，ADO 枚举将列出每个常量的值。但是，此值仅仅是建议性的，不同的 ADO 版本可能会各不相同。代码应当只依赖于每个枚举常量的名称，而不是实际值。
 
@@ -79,7 +79,7 @@ ms.locfileid: "25468166"
 <td><p>指定游标引擎的位置。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cursoroptionenum.md">个 CursorOptionEnum</a></p></td>
+<td><p><a href="cursoroptionenum.md">CursorOptionEnum</a></p></td>
 <td><p>指定应针对哪项功能来测试 <strong>Supports</strong> 方法。</p></td>
 </tr>
 <tr class="odd">
@@ -171,7 +171,7 @@ ms.locfileid: "25468166"
 <td><p>指定在 <strong>Recordset</strong> 中记录指针的当前位置。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="propertyattributesenum.md">个 PropertyAttributesEnum</a></p></td>
+<td><p><a href="propertyattributesenum.md">PropertyAttributesEnum</a></p></td>
 <td><p>指定 <strong>Property</strong> 对象的属性。</p></td>
 </tr>
 <tr class="even">

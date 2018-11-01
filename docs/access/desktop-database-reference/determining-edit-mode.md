@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249215(v=office.15)
 ms:contentKeyID: 48544563
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53167d7438ecce673fed64f3c7b8d53fbbfbaa5d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: facad27e4579a28f45d88bfd4e440e420e70d913
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468834"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867935"
 ---
 # <a name="determining-edit-mode"></a>确定编辑模式
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 维护一个与当前记录关联的编辑缓冲区。 **EditMode** 属性指示此缓冲区是否已发生更改，或者是否已创建新记录。使用 **EditMode** 可以确定当前记录的编辑状态。如果编辑过程已经中断则可以测试是否有挂起更改，并确定是否需要使用 **Update** 或 **CancelUpdate** 方法。
 

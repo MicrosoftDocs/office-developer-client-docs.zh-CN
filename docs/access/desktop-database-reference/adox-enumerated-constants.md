@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248840(v=office.15)
 ms:contentKeyID: 48543163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6849961c0428079227348e1bb68c6ceb8dfd73a1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0f8be72ea28d9814890bcaf193c1175725fcfe1d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468928"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869496"
 ---
 # <a name="adox-enumerated-constants"></a>ADOX 枚举常量
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 为有助于进行调试，ADOX 枚举常量为每一个常量列出了一个值。但是，该值纯粹是参考性的，并且可能随不同的 ADOX 版本而变化。您的代码应依赖于枚举常量的名称，而不是实际值。
 
@@ -35,7 +35,7 @@ ms.locfileid: "25468928"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="actionenum.md">设为 ActionEnum</a></p></td>
+<td><p><a href="actionenum.md">ActionEnum</a></p></td>
 <td><p>指定调用 <strong>SetPermissions</strong> 时要执行的操作的类型。</p></td>
 </tr>
 <tr class="even">

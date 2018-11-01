@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Version 属性示例 （VJ + +） TOCTitle: Version 属性示例 （VJ + +） === 标题： Version 属性示例 （VJ + +） TOCTitle: Version 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15) ms:contentKeyID: 48547600 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Version 属性示例 (VJ++)
+TOCTitle: Version property example (VJ++)
+ms:assetid: c4f007b8-177d-967e-7f3b-a8945264099b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
+ms:contentKeyID: 48547600
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 185321327ed1718784fe6227f259347c0f8bb17d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889775"
 ---
-
-<<<<<<< 标头
 # <a name="version-property-example-vj"></a>Version 属性示例 (VJ++)
-=======
-# <a name="version-property-example-vj"></a>Version 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：
 

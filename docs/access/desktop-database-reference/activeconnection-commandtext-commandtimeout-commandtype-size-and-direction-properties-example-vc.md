@@ -1,16 +1,21 @@
 ---
-<<<<<<< 标头标题： ActiveConnection，CommandText，CommandTimeout 属性示例 （VC + +） TOCTitle: ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 Size 和 Direction 属性示例 （VC + +） ms:assetid:254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: 48543780 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ActiveConnection，CommandText，CommandTimeout 属性示例 （VC + +）
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
+ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
+ms:contentKeyID: 48543780
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 7cf18556867e82e8f5ac6960520aa507bfb9e080
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878603"
 ---
-
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a>ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VC++)
 
-=== 标题： ActiveConnection、 CommandText，CommandTimeout 属性示例 （VC + +） TOCTitle: ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例 （VC + +） ms:assetid:254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: 48543780 ms.date: 10/17/2018 mtps_version: office.15.aspx
----
-
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a>ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例 （VC + +）
->>>>>>> master
-
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [ActiveConnection](activeconnection-property-ado.md)、[CommandText](commandtext-property-ado.md)、[CommandTimeout](commandtimeout-property-ado.md)、[CommandType](commandtype-property-ado.md)、[Size](size-property-ado.md) 和 [Direction](direction-property-ado.md) 属性来执行存储过程。
 

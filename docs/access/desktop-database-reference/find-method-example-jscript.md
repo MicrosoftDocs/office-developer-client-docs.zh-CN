@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249589(v=office.15)
 ms:contentKeyID: 48546116
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd7c6f5321f124fb40e8b2037569ac4dd63a408b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 21d123d61c18f28adc8380f1eb45bbadc585ee9d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862105"
+ms.locfileid: "25877308"
 ---
 # <a name="find-method-example-jscript"></a>Find 方法示例 (JScript)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用[Recordset](recordset-object-ado.md)对象的[Find](find-method-ado.md)方法查找和公司中显示***罗斯文***数据库名称开头的字母 G.剪切并粘贴到记事本或其他文本编辑器，下面的代码，将其保存为**FindJS.asp**。
 

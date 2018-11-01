@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249679(v=office.15)
 ms:contentKeyID: 48546479
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f17c0315016b6cd38ef0eda5c975b79047967ff
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 58b8a22155b7626850defc2cb02c5fbae0cbda9a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861237"
+ms.locfileid: "25868278"
 ---
 # <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a>CopyRecord、CopyTo 和 SaveToFile 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-<<<<<<< 头本示例演示如何创建使用[流](stream-object-ado.md)或[Record](record-object-ado.md)对象的文件的副本。 在 Web 文件夹中创建了一个副本，用于进行 Internet 发布。 还显示了其他属性和方法，包括 [Stream Type](type-property-ado-stream.md)、 **Open** 、 [LoadFromFile](loadfromfile-method-ado.md) 和 [Record Open](open-method-ado-record.md)。
-=== 本示例演示如何创建使用[流](stream-object-ado.md)或[Record](record-object-ado.md)对象的文件的副本。 一个副本到 Internet 发布的 web 文件夹。 还显示了其他属性和方法，包括 [Stream Type](type-property-ado-stream.md)、 **Open** 、 [LoadFromFile](loadfromfile-method-ado.md) 和 [Record Open](open-method-ado-record.md)。
->>>>>>> 母版
+本示例演示如何使用 [Stream](stream-object-ado.md) 或 [Record](record-object-ado.md) 对象创建文件的副本。 一个副本到 Internet 发布的 web 文件夹。 还显示了其他属性和方法，包括 [Stream Type](type-property-ado-stream.md)、 **Open** 、 [LoadFromFile](loadfromfile-method-ado.md) 和 [Record Open](open-method-ado-record.md)。
 
 ```vb 
  
@@ -71,11 +69,7 @@ Private Sub Form_Load()
  ' Save the second stream to a different path 
  objStream2.SaveToFile strStream2Path, adSaveCreateOverWrite 
  
-<<<<<<< HEAD
- ' Because strStreamPath is a Web Folder, open a Record on the URL 
-=======
  ' Because strStreamPath is a web folder, open a Record on the URL 
->>>>>>> master
  objRecord.Open "", strStreamURL 
  
  ' Display the Fields of the record 

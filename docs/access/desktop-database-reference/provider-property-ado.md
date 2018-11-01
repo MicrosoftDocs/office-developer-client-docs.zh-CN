@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： 提供程序属性 (ADO) TOCTitle： 提供程序属性 (ADO) === 标题： Provider 属性 (ADO) TOCTitle: Provider 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15) ms:contentKeyID: 48543543 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Provider 属性 (ADO)
+TOCTitle: Provider property (ADO)
+ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
+ms:contentKeyID: 48543543
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: df764aca267cab9b38760c432cd19154d6c6827f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881564"
 ---
-
-<<<<<<< 标头
 # <a name="provider-property-ado"></a>Provider 属性 (ADO)
-=======
-# <a name="provider-property-ado"></a>Provider 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 [Connection](connection-object-ado.md) 对象的提供程序的名称。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **String** 值，指示提供程序的名称。
 

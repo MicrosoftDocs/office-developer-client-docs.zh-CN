@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
 ms:contentKeyID: 48543498
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b2724a08b08f05af31fd4693eec2f28b0d2607bb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d880f681f560a3ae10ddfa41a2fc824d62a46ae8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468650"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883433"
 ---
 # <a name="workspacesappend-method-dao"></a>Workspaces.Append Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 将新的 **Workspace** 添加到 **Workspaces** 集合。
 

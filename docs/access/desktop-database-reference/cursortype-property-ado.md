@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： CursorType 属性 (ADO) TOCTitle: CursorType 属性 (ADO) === 标题： CursorType 属性 (ADO) TOCTitle: CursorType 属性 (ADO)
->>>>>>> 母版页 ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15) ms:contentKeyID: 48548682 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: CursorType 属性 (ADO)
+TOCTitle: CursorType property (ADO)
+ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15)
+ms:contentKeyID: 48548682
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1d9560ad975d545015a02bb0e594777ced3cc8d3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886653"
 ---
-
-<<<<<<< 头
 # <a name="cursortype-property-ado"></a>CursorType 属性 (ADO)
-=======
-# <a name="cursortype-property-ado"></a>CursorType 属性 (ADO)
->>>>>>> 母版
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示在 [Recordset](recordset-object-ado.md) 对象中使用的游标类型。
 
-<<<<<<< 头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> 母版
 
 设置或返回 [CursorTypeEnum](cursortypeenum.md) 值。默认值为 **adOpenForwardOnly** 。
 

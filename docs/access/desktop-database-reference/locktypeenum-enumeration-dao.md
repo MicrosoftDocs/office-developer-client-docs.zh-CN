@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
 ms:contentKeyID: 48547925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82a09db7baff93ba7fd51de593bc4d1dfff41dc1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f0e12f8d60ee3147eb456df302122a5b7eac684d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467072"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879926"
 ---
 # <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定在打开记录集时使用的记录锁定的类型。
 

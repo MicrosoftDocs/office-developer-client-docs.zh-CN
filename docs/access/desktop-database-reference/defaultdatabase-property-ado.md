@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： DefaultDatabase 属性 (ADO) TOCTitle: DefaultDatabase 属性 (ADO) === 标题： DefaultDatabase 属性 (ADO) TOCTitle: DefaultDatabase 属性 (ADO)
->>>>>>> 母版页 ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15) ms:contentKeyID: 48546784 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: DefaultDatabase 属性 (ADO)
+TOCTitle: DefaultDatabase property (ADO)
+ms:assetid: a35c5631-f9d9-e51f-950b-e52169830d94
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15)
+ms:contentKeyID: 48546784
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6238192f123e31c27a0e553d548be0b1623f0a32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882327"
 ---
-
-<<<<<<< 标头
 # <a name="defaultdatabase-property-ado"></a>DefaultDatabase 属性 (ADO)
-=======
-# <a name="defaultdatabase-property-ado"></a>DefaultDatabase 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 [Connection](connection-object-ado.md) 对象的默认数据库。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **String** 值，该值可计算为提供程序中可用的数据库的名称。
 

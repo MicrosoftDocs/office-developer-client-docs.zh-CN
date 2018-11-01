@@ -1,23 +1,25 @@
 ---
-<<<<<<< 标头标题： OriginalValue 属性 (ADO) TOCTitle: OriginalValue 属性 (ADO) === 标题： OriginalValue 属性 (ADO) TOCTitle: OriginalValue 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15) ms:contentKeyID: 48542974 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: OriginalValue 属性 (ADO)
+TOCTitle: OriginalValue property (ADO)
+ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
+ms:contentKeyID: 48542974
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 872e7c88e5ea4e79d6bff4aa590e72743feb3893
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884910"
 ---
-
-<<<<<<< 标头
 # <a name="originalvalue-property-ado"></a>OriginalValue 属性 (ADO)
-=======
-# <a name="originalvalue-property-ado"></a>OriginalValue 属性 (ADO)
->>>>>>> master
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示记录发生任何更改之前的 [Field](field-object-ado.md) 值。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回一个 **Variant** 值，表示发生任何更改之前的字段值。
 

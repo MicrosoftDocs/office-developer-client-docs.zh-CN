@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249483(v=office.15)
 ms:contentKeyID: 48545684
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8feeb97e049d245da91371fdb5225a644d0e415
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 937454a9277ec219f25a79074833138f6dd7f535
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466435"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887566"
 ---
 # <a name="handling-errors-in-visual-c"></a>在 Visual C++ 中处理错误
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在 COM，大多数操作返回 HRESULT 返回代码，指示函数是否已成功完成。 \#导入指令生成周围每个"原始"方法或属性的包装代码，并检查返回的 HRESULT。 如果 HRESULT 指示故障，包装代码通过调用引发 COM 错误\_com\_问题\_errorex() hresult 返回作为参数的代码。 可以在**try-catch**块中捕获 COM error 对象。 (为效率的起见，捕获对\_com\_error 对象。)
 

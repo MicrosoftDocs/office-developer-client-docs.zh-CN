@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052886
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: abb99f58b151c9bafe554486f8b6f1308322560f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 943fdbace196d79c4f8830e44354e77275286cca
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467447"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879513"
 ---
 # <a name="recordset2eof-property-dao"></a>Recordset2.EOF Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个值，该值指示当前记录位置是否位于 **Recordset** 对象的最后一条记录之后。只读 **Boolean** 类型。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d99e8528c5f75a2f5c5d40834650eabbed2505d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ee1bf654df8cebbb936111d633262fd7418f58a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468223"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875341"
 ---
 # <a name="recordset2move-method-dao"></a>Recordset2.Move Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 移动 **[Recordset](recordset-object-dao.md)** 对象中的当前记录的位置。
 

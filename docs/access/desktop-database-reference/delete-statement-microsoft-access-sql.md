@@ -10,16 +10,16 @@ f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7e41e7597a967e7029cb3ce6ae120bb382714288
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5ce152e790fb2d57ed607f88feb155fe99bd5850
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864121"
+ms.locfileid: "25878491"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>DELETE 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建一个删除查询，用于从 [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) 子句中列出的一个或多个表中删除满足 [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) 子句的记录。
 

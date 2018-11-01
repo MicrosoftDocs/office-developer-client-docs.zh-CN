@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194740(v=office.15)
 ms:contentKeyID: 48545150
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b787714c2148bc11667e81aa440b33881973415
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3479ca7139152aeb8de15a64a63523bdafc6a50f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467133"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879534"
 ---
 # <a name="complextype-members-dao"></a>ComplexType Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 代表一个多值字段。
 

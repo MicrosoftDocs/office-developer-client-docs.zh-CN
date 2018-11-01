@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef416e62d17b5b4821b5051ecc59cc6e0dfb5739
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468372"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887164"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>多维架构和数据概述
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="understanding-multidimensional-schemas"></a>了解多维架构
 

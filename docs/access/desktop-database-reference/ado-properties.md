@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 387ab87bb21d9c49c58a72bb4958426367493c11
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4571f250891d02f8053e63aae7b94d674f61ca71
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466138"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876398"
 ---
 # <a name="ado-properties"></a>ADO 属性
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 <table>
 <colgroup>
@@ -173,7 +173,7 @@ ms.locfileid: "25466138"
 <td><p>指示在 <strong>Connection</strong>、<strong>Record</strong> 或 <strong>Stream</strong> 对象中修改数据的可用权限。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">名称</a></p></td>
+<td><p><a href="name-property-ado.md">Name</a></p></td>
 <td><p>指示对象的名称。</p></td>
 </tr>
 <tr class="odd">

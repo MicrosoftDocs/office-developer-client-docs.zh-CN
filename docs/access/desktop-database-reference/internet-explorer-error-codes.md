@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249489(v=office.15)
 ms:contentKeyID: 48545726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5f4dca3854712b16faa4cd11305cd55497fc03f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2818fb05d5842c7f465bd47d1ce7eaa28ea00365
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466499"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882012"
 ---
 # <a name="internet-explorer-error-codes"></a>Internet Explorer 错误代码
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下表列出了与远程数据服务用法有关的 Microsoft Internet Explorer 错误代码，其中显示了两个低位字节的正十进制换算值、完整错误代码的负十进制换算值和十六进制值。
 

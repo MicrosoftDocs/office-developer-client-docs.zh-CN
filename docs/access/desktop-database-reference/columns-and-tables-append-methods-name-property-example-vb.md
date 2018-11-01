@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： 列和表格的 Append 方法，名称属性示例 (VB) TOCTitle： 列和表格的 Append 方法、 Name 属性示例 (VB) === 标题： 列和表格 Append 方法、 Name 属性示例 (VB)TOCTitle： 列和表格 Append 方法、 Name 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15) ms:contentKeyID: 48544238 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)
+TOCTitle: Columns and Tables Append Methods, Name property example (VB)
+ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
+ms:contentKeyID: 48544238
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f017092a5bd68a4fbde7cc1a7ceab9ccf3ff2900
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872555"
 ---
-
-<<<<<<< 标头
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Columns 和 Tables 的 Append 方法、Name 属性示例 (VB)
-=======
 # <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下面的代码演示如何创建新表。
 

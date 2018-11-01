@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm3022
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0afff780714f8be943a2b0b7d744d6118fcacf88
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 48e808fa27e468dd7cb651cb5784627d5064fea0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467853"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870931"
 ---
 # <a name="runsavedimportexport-macro-action"></a>RunSavedImportExport 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **RunSavedImportExport** 操作运行用"导入向导"或"导出向导"创建的已保存的导入或导出规格。
 

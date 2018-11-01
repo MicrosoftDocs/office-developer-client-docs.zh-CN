@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053356
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 495930ae659eac588e652caaaf20f0385b383fa8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 81b7793291575ca86b5eec628ac9472a20d90ce4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466051"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870658"
 ---
 # <a name="tabledefconflicttable-property-dao"></a>TableDef.ConflictTable Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回冲突表（其中包含同步两个副本的过程中发生冲突的数据库记录）的名称（仅适用于 Microsoft Access 工作区）。只读 **String**。
 

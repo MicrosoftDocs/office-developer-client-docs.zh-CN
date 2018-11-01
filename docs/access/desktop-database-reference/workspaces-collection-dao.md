@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
 ms:contentKeyID: 48546142
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37fd4ce04dbd35fccb2356b8088450d07af203d4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4108be7d6c1b2ee66ec5cddf4d26599796bf844c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466736"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870266"
 ---
 # <a name="workspaces-collection-dao"></a>Workspaces Collection (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **Workspaces** 集合包含 **DBEngine** 对象的所有活动、未隐藏的 **Workspace** 对象。（隐藏的 **Workspace** 对象并不追加到集合中，而是通过它们分配到的变量进行引用）。
 

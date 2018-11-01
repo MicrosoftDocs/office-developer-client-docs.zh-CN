@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249593(v=office.15)
 ms:contentKeyID: 48546126
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dec783aaa76745b73bd031b00f1b8587a58eb165
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bea7d7ae5a7fe0681af315c8569bf9b67d8bd82
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467709"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869230"
 ---
 # <a name="onreadystatechange-event-rds"></a>onReadyStateChange 事件 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 只要 **ReadyState** 属性的值发生更改，便会调用 [onReadyStateChange](readystate-property-rds.md) 事件。

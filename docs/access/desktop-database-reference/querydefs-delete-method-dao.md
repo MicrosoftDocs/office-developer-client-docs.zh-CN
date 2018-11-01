@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821426(v=office.15)
 ms:contentKeyID: 48546918
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b8052b67a2e57f1438362bf832413fe911bf714
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cc99b0dba6e7f1edc4946ee1d4c615b6f341d816
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467724"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877525"
 ---
 # <a name="querydefsdelete-method-dao"></a>QueryDefs.Delete Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此集合不支持。
 

@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60c0204bd374feaa950d3158873f68127debaf0f
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 09edfd37edb5a0cb237bd94f7f13449690cf18bb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862546"
+ms.locfileid: "25868222"
 ---
 # <a name="copyobject-macro-action"></a>CopyObject 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **CopyObject** 操作将指定的数据库对象复制到另一个数据库中，或使用新名称将其复制到同一个数据库或 Microsoft Access 项目中。例如，您可以将现有对象复制或备份到另一个数据库中，也可以快速创建略有更改的类似对象。
 

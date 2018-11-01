@@ -10,16 +10,16 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f711e9814e32742c89c37ae3357111143ca18b6e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c1ba74f754ef0c998a14f7421914bd4bcd7c9cf9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465617"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870196"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>初始化 Microsoft Exchange 数据源驱动程序
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 安装 Microsoft® Exchange 数据源驱动程序时，安装程序会向 Microsoft Windows® 注册表的"Engines"和"ISAM Formats"子项中写入一组默认值。不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。以下各节说明了 Microsoft Exchange 数据源驱动程序的初始化及 ISAM 格式设置。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249716(v=office.15)
 ms:contentKeyID: 48546626
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5083f339860e0b28b43e2ceefeaf2cdd1de4b660
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f0379d38b6c38145a72d5ab41b7ee0e7ec45531b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466606"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889075"
 ---
 # <a name="issuing-commands-to-the-underlying-data-provider"></a>向基础数据提供程序发出命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 任何不以 SHAPE 开头的命令都将传递到数据提供程序。 这等价于以"SHAPE {provider command}"的形式发出 Shape 命令。 这些命令执行*不*需要生成**Recordset**。 例如，假如数据提供程序支持 DROP TABLE，则"SHAPE {DROP TABLE MyTable}"是完全有效的 Shape 命令。
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0098e646ea48656f44bd3ccd380ae41efc94ffba
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606935"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883181"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Microsoft OLE DB Provider for ODBC
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 对 ADO 或 RDS 程序员来说，理想环境应该是：每个数据源都公开一个 OLE DB 接口，这样 ADO 就可以直接调入数据源。尽管越来越多的数据库供应商要实现 OLE DB 接口，但某些数据源却仍未以此方式公开。实际上，通过 ODBC 可以访问目前在用的所有 DBMS 系统。
 
@@ -79,11 +79,7 @@ MSDASQL
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<<<<<<< 标头
-<td><p>指定 Web 文件夹中已发布文件或目录的 URL。</p></td>
-=======
 <td><p>指定文件或目录 web 文件夹中发布的 URL。</p></td>
->>>>>>>主控形状
 </tr>
 </tbody>
 </table>

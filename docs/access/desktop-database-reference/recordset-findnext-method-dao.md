@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194099(v=office.15)
 ms:contentKeyID: 48544893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10e97e145a84a1224ac2837e807b90d412248f9d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9d9e4651b2fb5fa9f0ef8569b9f4b28d4c031e87
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466670"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885295"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Recordset.FindNext Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在动态集类型或快照类型**[Recordset](recordset-object-dao.md)** 对象符合指定的条件，并使该记录成为当前记录 （仅限 Microsoft Access 工作区） 中查找下一个记录。
 

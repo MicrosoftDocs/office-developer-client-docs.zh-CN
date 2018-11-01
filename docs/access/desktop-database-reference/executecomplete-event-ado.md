@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 231cfcf42cead3074996870971488dadb60583ae
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: e29db2848d7ec7b229831156ee64815a152a4bfc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605417"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887899"
 ---
 # <a name="executecomplete-event-ado"></a>ExecuteComplete 事件 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
@@ -56,7 +56,5 @@ ExecuteComplete*RecordsAffected*， *pError*、 *adStatus*、 *pCommand*、 *pRe
 
 ## <a name="remarks"></a>备注
 
-<<<<<<< 标头**ExecuteComplete**事件可能出现 0:**连接。**[执行](https://msdn.microsoft.com/library/jj249832\(v=office.15\))**命令。**[执行](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) **Recordset。**[打开](open-method-ado-recordset.md)， **Recordset。**[Requery](requery-method-ado.md)或**Recordset。**[NextRecordset](nextrecordset-method-ado.md)方法。
-=== **ExecuteComplete**事件可能出现 0:**连接。**[执行](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)**命令。**[执行](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) **Recordset。**[打开](open-method-ado-recordset.md)， **Recordset。**[Requery](requery-method-ado.md)或**Recordset。**[NextRecordset](nextrecordset-method-ado.md)方法。
->>>>>>> master
+**ExecuteComplete** 事件发生的原因可能是 **Connection.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)、 **Command.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)、 **Recordset.**[Open](open-method-ado-recordset.md)、 **Recordset.**[Requery](requery-method-ado.md) 或 **Recordset.**[NextRecordset](nextrecordset-method-ado.md) 方法。
 

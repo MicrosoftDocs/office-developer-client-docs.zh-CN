@@ -10,17 +10,17 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4a90981c936c933d2eadb191bbf0d2639cd8e641
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a44226e8ea90a8be96de35cdc923349eded17cb4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468126"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886996"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>自定义 Microsoft Access 数据库引擎的 Windows 注册表设置
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 如果应用程序使用 Microsoft Access 数据库引擎的默认功能不能正确地工作，那么您可能不得不根据自己的需要更改 Microsoft® Windows® 注册表中的设置。Windows 注册表也可用于调整可安装的 ISAM 和 ODBC 驱动程序的操作。
 

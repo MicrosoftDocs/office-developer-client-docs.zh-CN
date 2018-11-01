@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 405bf207fc29106f9b80944d0d2bbee8907d3070
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c597bc75f629e2f34302ecd30f3ef589ad4d4561
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467448"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885505"
 ---
 # <a name="tabledef-members-dao"></a>TableDef Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 TableDef 对象代表基表或链接表的已存储定义（仅适用于 Microsoft Access 工作区）。
 

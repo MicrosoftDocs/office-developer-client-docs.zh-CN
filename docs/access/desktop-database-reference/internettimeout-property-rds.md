@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249401(v=office.15)
 ms:contentKeyID: 48545353
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd0fdc8f64207e1233ac56812ef009da865ce01a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 06e844b9e6e0976679820fbc2ac79eae14131d36
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603460"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879040"
 ---
 # <a name="internettimeout-property-rds"></a>InternetTimeout 属性 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示请求超时前等待的毫秒数。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **Long** 值，该值表示请求超时前等待的毫秒数。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248955(v=office.15)
 ms:contentKeyID: 48543546
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10586c711b9931c1cac93401111f4d477ca8a987
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34b767e50893f62a30f075bee82a4f19ce4696c5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468640"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882110"
 ---
 # <a name="recordset-positioning"></a>记录集定位
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用 **AbsolutePosition** 属性，可以根据记录在 **Recordset** 对象中的序号位置移动到记录，或确定当前记录的序号位置。提供程序必须支持相应的功能，此属性才可用。
 

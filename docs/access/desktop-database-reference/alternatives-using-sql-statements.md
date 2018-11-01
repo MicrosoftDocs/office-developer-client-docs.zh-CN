@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249727(v=office.15)
 ms:contentKeyID: 48546668
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9451dfef969120e6ffc4835263a7ad02881748d2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 853dfaab43d6d4c831b7ec9288bc8e9477fe2683
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466570"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888095"
 ---
 # <a name="alternatives-using-sql-statements"></a>替代方法：使用 SQL 语句
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 还允许在编辑数据时使用命令来替代其内置属性和方法。根据您的提供程序的不同，本章提到的所有操作也可以通过将命令传递到数据源来实现。例如，可以使用 SQL UPDATE 语句修改数据，而不使用 **Field** 的 **Value** 属性。可以使用 SQL INSERT 语句向数据源添加新记录，而不使用 ADO 方法 **AddNew** 。有关 SQL 或提供程序的数据操控语言的详细信息，请参阅数据源文档。
 

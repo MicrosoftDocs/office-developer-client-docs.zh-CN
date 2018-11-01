@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248917(v=office.15)
 ms:contentKeyID: 48543405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ff4b05f364b400c3741f690eae58d926aa9d2bad
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 3cd855adb62a1b97f99cdc34a9c27ee539ab1c2b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861511"
+ms.locfileid: "25884217"
 ---
 # <a name="recordcreateoptionsenum"></a>RecordCreateOptionsEnum
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定应该打开现有的 **Record** 还是应该为 **Record** 对象 [Open](record-object-ado.md) 方法创建一个新 [Record](open-method-ado-record.md) 。可以使用 AND 运算符来组合使用这些值。
 

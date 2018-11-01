@@ -1,16 +1,21 @@
 ---
-<<<<<<< 标头标题： AbsolutePosition 和 CursorLocation 属性示例 (JScript) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (JScript) ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl:https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID: 48548142 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: AbsolutePosition 和 CursorLocation 属性示例 (JScript)
+TOCTitle: AbsolutePosition and CursorLocation properties example (JScript)
+ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15)
+ms:contentKeyID: 48548142
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 85dbd90fcf70b9c98414e1e2d496a51c356d096d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885603"
 ---
-
 # <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition 和 CursorLocation 属性示例 (JScript)
 
-=== 标题： AbsolutePosition 和 CursorLocation 属性示例 (JScript) TOCTitle: AbsolutePosition 和 CursorLocation 属性示例 (JScript) ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID:48548142 ms.date: 10/17/2018 mtps_version: office.15.aspx
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition 和 CursorLocation 属性示例 (JScript)
->>>>>>> master
-
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例演示 [AbsolutePosition](absoluteposition-property-ado.md) 属性如何跟踪枚举 [Recordset](recordset-object-ado.md) 的所有记录的循环的进度。它使用 [CursorLocation](cursorlocation-property-ado.md) 属性通过将游标设置为客户端游标来启用 **AbsolutePosition** 属性。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **AbsolutePositionJS.asp** 。
 
@@ -23,11 +28,7 @@
 <html> 
  
 <head> 
-<<<<<<< HEAD
-<title>AbsolutePosition and CursorLocation Properties Example (JScript)</title> 
-=======
 <title>AbsolutePosition and CursorLocation properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -52,11 +53,7 @@ BODY {
 </head> 
  
 <body> 
-<<<<<<< HEAD
-<h1>AbsolutePosition and CursorLocation Properties Example (JScript)</h1> 
-=======
 <h1>AbsolutePosition and CursorLocation properties example (JScript)</h1> 
->>>>>>> master
 <% 
  // connection and recordset variables 
  var strCnxn = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

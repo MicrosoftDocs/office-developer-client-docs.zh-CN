@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053173
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fe835aaf2f970dfa79da71727a8502319ecf7576
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 70c6041746daf21d8f8ff603da22e5ad2c7956d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466706"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887402"
 ---
 # <a name="databasecontainers-property-dao"></a>Database.Containers Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个 **Containers** 集合，该集合代表指定数据库中的所有 **Container** 对象。只读。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196191(v=office.15)
 ms:contentKeyID: 48545807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec819d85204439d98976016fad42f9c35434a88b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f442912c4eba82c28d269add773e8fdea03b764b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468323"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889544"
 ---
 # <a name="indexes-members-dao"></a>Indexes Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Indexes 对象包含 TableDef 对象的所有存储的 Index 对象（仅适用于 Microsoft Access 工作区）。
 

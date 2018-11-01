@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 025a1a5141adab07999337f9cc518edd2b669fdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ac01f67bb18ea15959f4b5c09dbe4037da8010bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468377"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883237"
 ---
 # <a name="open-method-ado-stream"></a>Open 方法 (ADO Stream)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 用于打开 [Stream](stream-object-ado.md) 对象，以操作二进制数据流或文本数据流。

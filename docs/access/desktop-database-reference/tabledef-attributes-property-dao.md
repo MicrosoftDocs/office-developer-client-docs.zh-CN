@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
 ms:contentKeyID: 48547828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10c0c3211fe76b169f9c2ed634f8adb61c767cfc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7dd2acd9675821dfb2b742a6cc344b34833c61ac
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468662"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881781"
 ---
 # <a name="tabledefattributes-property-dao"></a>TableDef.Attributes Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 设置或返回一个值，该值指示 **TableDef** 对象的一个或多个特征。 **Long** 类型，可读写。

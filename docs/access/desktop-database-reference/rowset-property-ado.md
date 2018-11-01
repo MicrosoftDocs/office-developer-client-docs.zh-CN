@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Rowset 属性 (ADO) TOCTitle: Rowset 属性 (ADO) === 标题： Rowset 属性 (ADO) TOCTitle: Rowset 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 1a1cb3ef-8f3c-30c1-3eb0-8618fdcacd53 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248946(v=office.15) ms:contentKeyID: 48543515 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Rowset 属性 (ADO)
+TOCTitle: Rowset property (ADO)
+ms:assetid: 1a1cb3ef-8f3c-30c1-3eb0-8618fdcacd53
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248946(v=office.15)
+ms:contentKeyID: 48543515
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7be8abbce6828dd202e0c64eec342de9198f7a9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878533"
 ---
-
-<<<<<<< 标头
 # <a name="rowset-property-ado"></a>Rowset 属性 (ADO)
-=======
-# <a name="rowset-property-ado"></a>Rowset 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 
@@ -34,11 +40,7 @@ HRESULT 放置\_行集 (\[的\]IUnknown\* pRowset);
 
   - 一个 OLE DB **Rowset** 对象。
 
-<<<<<<< 标头
 ## <a name="return-values"></a>返回值
-=======
-## <a name="return-values"></a>返回值
->>>>>>> master
 
 此属性方法返回标准 HRESULT 值，包括 S\_确定和 E\_失败。
 

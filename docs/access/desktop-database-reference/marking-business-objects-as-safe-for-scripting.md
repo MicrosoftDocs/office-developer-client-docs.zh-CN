@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7ac928f7e61cf633aac6963565cf3aae441a2ac6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 195e9fc25e3aa8871233ebe60441d29909b31a48
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468331"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878309"
 ---
-# <a name="marking-business-objects-as-safe-for-scripting"></a>将业务对象标记为“可安全编写脚本”
+# <a name="marking-business-objects-as-safe-for-scripting"></a>将业务对象标记为脚本安全
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 为了帮助确保 Internet 环境安全，需要将由 [RDS.DataSpace](dataspace-object-rds.md) 对象的 [CreateObject](createobject-method-rds.md) 方法实例化的任何业务对象标记为“可安全编写脚本”。首先需要确保在系统注册表的“License”区域中将它们标记为“可安全编写脚本”，然后才能在 DCOM 中使用它们。
 

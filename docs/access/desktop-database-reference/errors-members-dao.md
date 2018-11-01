@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
 ms:contentKeyID: 48545879
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c09ce7fb7f2d2e857d7316d97eba99165f541007
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a5c32058cd83a5a34c27b6aa9fc34f337753f3f9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465510"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870357"
 ---
 # <a name="errors-members-dao"></a>Errors Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Errors 集合包含所有存储的 Error 对象，这些对象中的每一个都与一个涉及 DAO 的操作有关。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836915(v=office.15)
 ms:contentKeyID: 48548765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 722099cc6eb342f6ee2abaef2543731f7588689c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9820bf278277d3b7d021f56524fea869eebcdf41
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466883"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886065"
 ---
 # <a name="tabledefsrefresh-method-dao"></a>TableDefs.Refresh Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 更新指定集合中的对象，以反映数据库的当前架构。
 

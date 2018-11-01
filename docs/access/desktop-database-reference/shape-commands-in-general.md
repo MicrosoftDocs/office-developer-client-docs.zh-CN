@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5cf2dc58ee3fa9205b9657366d8706b64b0aa58a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 340cdd4f9901b3b58b702284cf50b7485e99f769
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861027"
+ms.locfileid: "25887892"
 ---
 # <a name="shape-commands-in-general"></a>常用的 Shape 命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 数据定形用于定义已构形 **Recordset** 的列、列所表示的实体之间的关系以及用数据填充 **Recordset** 的方式。
 
@@ -62,9 +62,7 @@ shape 命令可能包含子句，用于指定针对基础数据提供程序的�
 
 可以使用 SQL JOIN 子句来使两个表相关；但是，分层 **Recordset** 可能会更有效地表示信息。由 JOIN 创建的 **Recordset** 的每个行会冗余地重复一个表中的信息。对于每个多子 **Recordset** 对象，分层 **Recordset** 只有一个父 **Recordset** 。
 
-<<<<<<< 标头 Shape 命令可以由**Recordset**对象或通过设置[Command](command-object-ado.md)对象的[CommandText](commandtext-property-ado.md)属性，然后调用[Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\))方法颁发。
-=== 由**Recordset**对象或通过设置[Command](command-object-ado.md)对象的[CommandText](commandtext-property-ado.md)属性，然后调用[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)方法，可以发出 shape 命令。
->>>>>>> 母版
+Shape 命令可以由 **Recordset** 对象发出，或通过设置 [Command](commandtext-property-ado.md) 对象的 [CommandText](command-object-ado.md) 属性，然后调用 [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 方法来发出。
 
 Shape 命令可以嵌套。 即*父命令*或*子命令*本身可能是另一个 shape 命令。
 

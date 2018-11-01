@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 51f365ef783fb874b269ac0490b08687ce127475
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58d6871406c39887af146dc131c302baa450a041
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467065"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884465"
 ---
 # <a name="relationsappend-method-dao"></a>Relations.Append Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 将新的 **Relation** 添加到 **Relations** 集合。
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Connection 的 Close 方法、 Table 的 Type 属性示例 （VC + +） TOCTitle: Connection 的 Close 方法，Table 的 Type 属性示例 （VC + +） === 标题： Connection 的 Close 方法，表 Type 属性示例 （VC + +） TOCTitle:Connection 的 Close 方法，表 Type 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15) ms:contentKeyID: 48548006 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Connection 的 Close 方法，表 Type 属性示例 （VC + +）
+TOCTitle: Connection Close Method, Table Type property example (VC++)
+ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
+ms:contentKeyID: 48548006
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 595877a88a250d69cd4b9401bb30a0d63cfcb3b5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874431"
 ---
-
-<<<<<<< 标头
-# <a name="connection-close-method-table-type-property-example-vc"></a>Connection 的 Close 方法，Table 的 Type 属性示例 (VC++)
-=======
 # <a name="connection-close-method-table-type-property-example-vc"></a>Connection 的 Close 方法，表 Type 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为 **Nothing** 会"关闭"目录。关联的集合将为空。利用该目录中的架构对象创建的任何对象都将孤立。已被缓存的那些对象的属性仍然可用，但是试图读取需要调用提供程序的属性时会失败。
 

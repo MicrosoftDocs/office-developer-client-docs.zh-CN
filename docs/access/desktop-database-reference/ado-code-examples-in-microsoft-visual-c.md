@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 241a70b73f87dcb2b67d0a6d0d364dc8507892cc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 99396a6b712c248fd0d22893d9bd10ee5e4e93c4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861559"
+ms.locfileid: "25887682"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-c"></a>Microsoft Visual C++ 中的 ADO 代码示例
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用以下代码示例可以了解在用 Microsoft Visual C++ 编写程序时如何使用 ADO 方法、属性和事件。
 
@@ -66,11 +66,7 @@ ms.locfileid: "25861559"
 
   - [Save 和 Open 方法示例](save-and-open-methods-example-vc.md)
 
-<<<<<<< 头
   - [Seek 方法和 Index 属性示例](seek-method-and-index-property-example-vc.md)
-=======
-  - [Seek 方法和 Index 属性示例](seek-method-and-index-property-example-vc.md)
->>>>>>> 母版
 
   - [Supports 方法示例](supports-method-example-vc.md)
 
@@ -80,71 +76,6 @@ ms.locfileid: "25861559"
 
 **属性**
 
-<<<<<<< 头
-  - [AbsolutePage、PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-vc.md)
-
-  - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-vc.md)
-
-  - [ActiveCommand 属性示例](activecommand-property-example-vc.md)
-
-  - [ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc.md)
-
-  - [ActualSize 和 DefinedSize 属性示例](actualsize-and-definedsize-properties-example-vc.md)
-
-  - [Attributes 和 Name 属性示例](attributes-and-name-properties-example-vc.md)
-
-  - [BOF、EOF 和 Bookmark 属性示例](bof-eof-and-bookmark-properties-example-vc.md)
-
-  - [CacheSize 属性示例](cachesize-property-example-vc.md)
-
-  - [ConnectionString、ConnectionTimeout 和 State 属性示例](connectionstring-connectiontimeout-and-state-properties-example-vc.md)
-
-  - [Count 属性示例](count-property-example-vc.md)
-
-  - [CursorType、LockType 和 EditMode 属性示例](cursortype-locktype-and-editmode-properties-example-vc.md)
-
-  - [Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc.md)
-
-  - [Filter 和 RecordCount 属性示例](filter-and-recordcount-properties-example-vc.md)
-
-  - [Index 属性和 Seek 方法示例](seek-method-and-index-property-example-vc.md)
-
-  - [IsolationLevel 和 Mode 属性示例](isolationlevel-and-mode-properties-example-vc.md)
-
-  - [Item 属性示例](item-property-example-vc.md)
-
-  - [MarshalOptions 属性示例](marshaloptions-property-example-vc.md)
-
-  - [MaxRecords 属性示例](maxrecords-property-example-vc.md)
-
-  - [NumericScale 和 Precision 属性示例](ado-numericscale-and-precision-properties-example-vc.md)
-
-  - [Optimize 属性示例](optimize-property-example-vc.md)
-
-  - [OriginalValue 和 UnderlyingValue 属性示例](originalvalue-and-underlyingvalue-properties-example-vc.md)
-
-  - [Prepared 属性示例](prepared-property-example-vc.md)
-
-  - [Provider 和 DefaultDatabase 属性示例](provider-and-defaultdatabase-properties-example-vc.md)
-
-  - [Sort 属性示例](sort-property-example-vc.md)
-
-  - [Source 属性示例](source-property-example-vc.md)
-
-  - [State 属性示例](state-property-example-vc.md)
-
-  - [Status 属性示例](status-property-example-vc.md)
-
-  - [StayInSync 属性示例](stayinsync-property-example-vc.md)
-
-  - [Type 属性示例 (Fields)](type-property-example-field-vc.md)
-
-  - [Type 属性示例 (Property)](type-property-example-property-vc.md)
-
-  - [Value 属性示例](value-property-example-vc.md)
-
-  - [Version 属性示例](version-property-example-vc.md)
-=======
   - [AbsolutePage、 PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-vc.md)
 
   - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-vc.md)
@@ -208,7 +139,6 @@ ms.locfileid: "25861559"
   - [Value 属性示例](value-property-example-vc.md)
 
   - [Version 属性示例](version-property-example-vc.md)
->>>>>>> 母版
 
 **其他**
 

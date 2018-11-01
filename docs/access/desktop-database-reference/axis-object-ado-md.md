@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
 ms:contentKeyID: 48546807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f978c5e6304e33ac67dfd4a669fe9155afb0b64d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 76fe2e0aa90397b32d95172318f3657741e1b1ec
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466382"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875019"
 ---
 # <a name="axis-object-ado-md"></a>Axis 对象 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 代表单元格集的位置轴或筛选轴，包含一维或多维的选定成员。
 

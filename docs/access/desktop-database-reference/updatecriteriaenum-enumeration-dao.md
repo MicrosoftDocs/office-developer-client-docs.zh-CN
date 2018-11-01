@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845853(v=office.15)
 ms:contentKeyID: 48543644
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7dc671458d53f6e40e27ff2dd338f010c09dc5ba
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b8035d90da62f83c930a208cac73f1fe45d61340
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466623"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880493"
 ---
 # <a name="updatecriteriaenum-enumeration-dao"></a>UpdateCriteriaEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 与 **UpdateOptions** 方法一起用来指定如何构造批更新。
 

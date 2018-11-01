@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249286(v=office.15)
 ms:contentKeyID: 48544929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa95956fb50a5cd15fa4415e65d4a701f2e48feb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 363f305fee12cb2e46ab9d4c628030f7dc4bcd78
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467266"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873850"
 ---
 # <a name="hybrid-commands"></a>混合命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 混合命令是部分参数化的命令。例如：
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
 ms:contentKeyID: 48543347
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e15faf0b31965a0a8a71440f424729b13b117b05
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 48fcf6c0135b4704155aa23765e848de5b3e6313
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861449"
+ms.locfileid: "25879954"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于指定对象已打开还是已关闭，正在连接数据源，正在执行命令，还是正在检索数据。
 

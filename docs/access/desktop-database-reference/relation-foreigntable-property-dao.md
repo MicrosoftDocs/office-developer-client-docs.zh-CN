@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052989
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 33a7024b25ee74e38874eb7e2b598273f0daf248
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ad95e1ff7402ce9115421554c5a08b31a6145ac
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465520"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878659"
 ---
 # <a name="relationforeigntable-property-dao"></a>Relation.ForeignTable Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回某个关系中的外表的名称（仅适用于 Microsoft Access 工作区）。
 

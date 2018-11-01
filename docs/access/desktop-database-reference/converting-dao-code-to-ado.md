@@ -1,17 +1,25 @@
 ---
-<<<<<<< 标头标题： 将 DAO 代码转换为 ADO TOCTitle： 将 DAO 代码转换为 ADO ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: 48544585 ms.date: 09/18/2015年 === 标题： 转换 DAOADO TOCTitle 代码： ADO ms:assetid 转换 DAO 代码： 4720906b-d6b1-aa6d-3b18-ff828d16acae ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15) ms:contentKeyID: 48544585 ms.date: 10/16/2018
->>>>>>> 主 mtps_version: office.15.aspx f1_keywords:
-- vbaac10.chm5267115 f1_categories:
+title: 将 DAO 代码转换为 ADO
+TOCTitle: Convert DAO code to ADO
+ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193201(v=office.15)
+ms:contentKeyID: 48544585
+ms.date: 10/16/2018
+mtps_version: v=office.15
+f1_keywords:
+- vbaac10.chm5267115
+f1_categories:
 - Office.Version=v15
+ms.openlocfilehash: 60baeabfce93c2987cb9621c7cc877a7525a954c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876741"
 ---
-
-<<<<<<< 标头
-# <a name="converting-dao-code-to-ado"></a>将 DAO 代码转换为 ADO
-=======
 # <a name="convert-dao-code-to-ado"></a>将 DAO 代码转换为 ADO
->>>>>>> master
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 > [!NOTE]
 > 3.6 的 DAO 库版本不提供或支持在 Access 中。
@@ -27,11 +35,7 @@
 <thead>
 <tr class="header">
 <th><p><strong>DAO</strong></p></th>
-<<<<<<< 标头
-<th><p><strong>ADO(ADODB)</strong></p></th>
-=======
 <th><p><strong>ADO (ADODB)</strong></p></th>
->>>>>>>主控形状
 <th><p><strong>注意</strong></p></th>
 </tr>
 </thead>
@@ -59,38 +63,22 @@
 <tr class="odd">
 <td><p>动态集类型</p></td>
 <td><p>键集</p></td>
-<<<<<<< 标头
-<td><p>在记录集中检索指向记录的指针集合</p></td>
-=======
 <td><p>检索到 recordset 中记录指针的一组。</p></td>
->>>>>>>主控形状
 </tr>
 <tr class="even">
 <td><p>快照类型</p></td>
 <td><p>静态</p></td>
-<<<<<<< 标头
-<td><p>两者都检索全部记录，但是“静态”型记录集可以更新。</p></td>
-</tr>
-<tr class="odd">
-<td><p>表类型</p></td>
-<td><p>带 adCmdTableDirect 选项的键集</p></td>
-=======
 <td><p>两者都检索全部记录，但可以更新静态记录。</p></td>
 </tr>
 <tr class="odd">
 <td><p>表类型</p></td>
 <td><p>使用 adCmdTableDirect 选项的键集。</p></td>
->>>>>>>主控形状
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Field</p></td>
 <td><p>Field</p></td>
-<<<<<<< 标头
-<td><p>在记录集中引用时</p></td>
-=======
 <td><p>当 recordset 中引用。</p></td>
->>>>>>>主控形状
 </tr>
 </tbody>
 </table>
@@ -136,9 +124,7 @@
 
 
 > [!NOTE]
-<<<<<<< 标头移动在没有先使用**CancelUpdate**方法将隐含执行**Update**方法从当前记录**MoveNext、 MoveLast MoveFirst，MovePrevious**通过重点。
-> === 焦点从当前记录移通过**MoveNext、 MoveLast、 MoveFirst、 MovePrevious**没有先使用**CancelUpdate**方法隐式执行**Update**方法。
->>>>>>> master
+> 将焦点从当前记录移动通过**MoveNext、 MoveLast、 MoveFirst、 MovePrevious** ，而不先使用**CancelUpdate**方法隐式执行**Update**方法。
 
 ### <a name="about-the-contributors"></a>关于参与者
 
@@ -146,9 +132,5 @@
 
 - [DAO 和 ADO 之间进行选择](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
-<<<<<<< 标头
-
-=======
 <br/>
->>>>>>> master
 

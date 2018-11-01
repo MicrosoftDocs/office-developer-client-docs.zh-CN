@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052870
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e87c8eba8f8db9eb54bebc9e2e7098e7c26b1b9d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f734e59cbf6c2368f99d32fed7e53d50cfedcfc3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465581"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884679"
 ---
 # <a name="field2fieldsize-property-dao"></a>Field2.FieldSize Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 返回 [**Recordset**](fields-collection-dao.md) 对象的 [**Fields**](recordset-object-dao.md) 集合中的"备注"或"长二进制"类型 **Field2** 对象的数据库（而不是内存）中使用的字节数。

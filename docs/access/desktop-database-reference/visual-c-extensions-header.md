@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78fc2a0b17637dcb0328995dcfc8b93edee2e326
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef7ca4a9dabb92bc2d13bd0b589180d7d4ca2958
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465561"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871470"
 ---
 # <a name="visual-c-extensions-header"></a>Visual C++ Extensions 头
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下头 **icrsint.h** 详细描述了一个接口，客户端可以通过该接口从 **Recordset** 中检索字段，然后将这些字段赋予在从 **CADORecordBinding** 派生的类中定义的变量。必须为要访问的每个字段指定一个 ADO 绑定宏。
 

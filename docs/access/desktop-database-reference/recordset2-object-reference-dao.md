@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123541(v=office.15)
 ms:contentKeyID: 52071184
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 141c4410efc5f908c806c613d0f75fa7ca671297
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78c3adaca4c3f9934564b5a1a36419911359e2d3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466107"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875264"
 ---
 # <a name="recordset2-object-reference-dao"></a>Recordset2 Object Reference (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

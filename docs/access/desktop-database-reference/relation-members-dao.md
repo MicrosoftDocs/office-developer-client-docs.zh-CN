@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
 ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d8395425f10f12d515956a07cd9a190d3544527
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2d6aceacf462898628b0aee9e406860def9474c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467991"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889915"
 ---
 # <a name="relation-members-dao"></a>Relation Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Relation 对象表示表或查询中的字段之间的关系（仅适用于 Microsoft Access 数据库引擎数据库）。
 

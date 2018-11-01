@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd5a956d5a978a374e10c85e7803715f81d48f2a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: bf40fa501c24af3433dde1bf2b0686fd3854acf2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603071"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884287"
 ---
 # <a name="open-method-ado-recordset"></a>Open 方法 (ADO Recordset)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 打开游标。
@@ -63,9 +63,7 @@ ADO **Recordset** 的默认游标是仅向前型只读游标，位于服务器�
 
 使用可选的*源*参数指定数据源使用下列选项之一：**命令**对象变量、 SQL 语句、 存储的过程、 表名称、 URL 或完整文件路径名称。 如果*源*是文件路径名称，它可以是完整路径 ("c:\\dir\\file.rst")，相对路径 ("...\\file.rst")，或者是 URL ("https://files/file.rst")。
 
-<<<<<<< 标头它不是最好使用**Open**方法的*Source*参数执行的操作查询，因为没有任何轻松确定呼叫是否成功，则不返回记录。 这种查询返回的 **Recordset** 将被关闭。 可以改为调用 [Command](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) 对象的 **Execute** 方法或 [Connection](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 对象的 **Execute** 方法来执行不返回记录的查询（如 SQL INSERT 语句）。
-=== 它不是最好使用**Open**方法的*Source*参数执行的操作查询，因为没有任何轻松确定呼叫是否成功，则不返回记录。 这种查询返回的 **Recordset** 将被关闭。 可以改为调用 [Command](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 对象的 **Execute** 方法或 [Connection](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 对象的 **Execute** 方法来执行不返回记录的查询（如 SQL INSERT 语句）。
->>>>>>> master
+不建议使用**Open**方法的*Source*参数执行的操作查询，因为没有任何轻松确定呼叫是否成功，则不返回记录。 这种查询返回的 **Recordset** 将被关闭。 可以改为调用 [Command](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 对象的 **Execute** 方法或 [Connection](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 对象的 **Execute** 方法来执行不返回记录的查询（如 SQL INSERT 语句）。
 
 *ActiveConnection*参数对应于[ActiveConnection](activeconnection-property-ado.md)属性，并指定在哪个连接来打开**Recordset**对象。 如果传递此参数的连接定义，ADO 将使用指定的参数打开新连接。 与客户端游标打开**Recordset**后 (**CursorLocation** = **adUseClient**)，您可以更改此属性以将更新发送到其他提供程序的值。 也可以将此属性设置为 **Nothing** （在 Microsoft Visual Basic 中）或 NULL，以使 **Recordset** 与任何提供程序断开连接。 但是，更改服务器端游标的 **ActiveConnection** 将生成错误。
 
@@ -104,14 +102,7 @@ ADO **Recordset** 的默认游标是仅向前型只读游标，位于服务器�
 > <P>MS 远程提供程序中的后台提取功能仅支持通过<STRONG>Open</STRONG>方法的<EM>Options</EM>参数。</P>
 
 
-<<<<<<< 标头
-
-
-> [!NOTE]
-> <P>[!注释] 使用 HTTP 架构的 URL 将自动调用 <A href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</A>。有关详细信息，请参阅<A href="absolute-and-relative-urls.md">绝对 URL 和相对 URL</A>。</P>
-=======
 > [!NOTE]
 > [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
->>>>>>> master
 
 

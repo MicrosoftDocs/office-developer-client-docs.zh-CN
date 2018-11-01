@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39471ea4bab2ec1bbeb8cd22ecb00aa5df3bc411
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 34d157398d3e288f96b550a152bb78c12f255573
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863967"
+ms.locfileid: "25868390"
 ---
 # <a name="echo-macro-action"></a>回声宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **Echo**操作可用于指定是否打开回响。 例如，您可以使用此操作可隐藏或运行时显示的宏的结果。
 

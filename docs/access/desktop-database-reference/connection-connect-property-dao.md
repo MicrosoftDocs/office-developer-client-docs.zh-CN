@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194335(v=office.15)
 ms:contentKeyID: 48545001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a362f2d480a27341620695038e6507083ae5ed81
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 8dc64341ddd48f9f973354c162811dd7f8eb6f3f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861839"
+ms.locfileid: "25886891"
 ---
 # <a name="connectionconnect-property-dao"></a>Connection.Connect Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值提供与已打开连接的源有关的信息。可读/写 **String** 类型。
 

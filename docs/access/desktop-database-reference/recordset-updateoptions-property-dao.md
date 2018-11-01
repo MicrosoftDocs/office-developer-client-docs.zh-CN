@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1101185
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 065ca41d46f50911835d79989e39636b62b30b97
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b39b9920625d970a51feadc706a3c5ff62359e53
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467489"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884350"
 ---
 # <a name="recordsetupdateoptions-property-dao"></a>Recordset.UpdateOptions Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="syntax"></a>语法
 

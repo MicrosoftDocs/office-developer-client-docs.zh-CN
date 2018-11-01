@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249870(v=office.15)
 ms:contentKeyID: 48547248
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15eadc36079faa529585e539b67eb0da246cf4bc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6b01809cd17c9c1a5c1a73a5765bb8808692e4c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467113"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877917"
 ---
 # <a name="rds-tutorial-visual-j"></a>RDS 教程 (Visual J++)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO/WFC 不完全遵循 RDS 对象模型，因为它不实现 [RDS.DataControl](datacontrol-object-rds.md) 对象。ADO/WFC 仅实现客户端类 [RDS.DataSpace](dataspace-object-rds.md)。
 

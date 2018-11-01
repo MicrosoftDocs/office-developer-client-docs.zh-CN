@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0bfd430231517f3c4f3a4d5f9c14109dc3381363
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 44d7b6c8c9c44b51f7771dd731b50848f1cbf175
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467858"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884819"
 ---
 # <a name="fieldsappend-method-dao"></a>Fields.Append Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 将新的 **[Field](field-object-dao.md)** 添加到 **[Fields](fields-collection-dao.md)** 集合。

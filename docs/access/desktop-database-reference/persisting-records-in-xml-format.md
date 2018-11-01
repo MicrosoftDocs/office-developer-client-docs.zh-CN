@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 77a8f14cf76e87060d73d0b3a6a6939c292c422e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860992"
+ms.locfileid: "25868054"
 ---
 # <a name="persisting-records-in-xml-format"></a>以 XML 格式暂留记录
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 像 ADTG 格式一样，可以通过 Microsoft OLE DB Persistence Provider 用 XML 格式持久化 **Recordset** 。此提供程序可以从保存的 XML 文件或流（它们包含 ADO 生成的架构信息）生成仅向前的只读行集。同样，它可以处理 ADO **Recordset** ，然后生成 XML，并将它保存到文件或任何实现 COM **IStream** 接口的对象（实际上，文件只是支持 **IStream** 的对象的另一个示例）。对于 2.5 和更高版本，ADO 依赖于 Microsoft XML 语法分析程序 (MSXML) 来将 XML 加载到 **Recordset** 中；因此 msxml.dll 是必需的。对于 2.5 版本，这是 Internet Explorer 5 附带的 MSXML。对于 2.6 版本，则是 SQL Server 2000 附带的 MSXML。
 

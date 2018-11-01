@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 729c1f14d49b3f80ec6307ce775066d3291b96de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0390b81fdf4362372dd6142b09071c8eb1e773e1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467383"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889635"
 ---
 # <a name="opentable-macro-action"></a>OpenTable 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **OpenTable** 操作在数据表视图、设计视图或打印预览中打开表。您还可以为表选择数据输入模式。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250049(v=office.15)
 ms:contentKeyID: 48547878
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 692bf7e1adf561c99ec1e3060578de93fbd1a064
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5af9b24ac7edb77ceb6dea9ceb5ae8e628fa5e3b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861881"
+ms.locfileid: "25889705"
 ---
 # <a name="step-3-send-the-data"></a>步骤 3：发送数据
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="step-3-send-the-data"></a>步骤 3：发送数据
 

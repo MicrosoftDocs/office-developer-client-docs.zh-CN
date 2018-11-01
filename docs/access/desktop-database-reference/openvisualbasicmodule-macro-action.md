@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9c57bb28de25ebc540c4e4eb3804a714969e2ac6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bfb2238bf81215acef7026bb878dca9d1dbceb61
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468561"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869881"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OpenVisualBasicModule 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **OpenVisualBasicModule** 操作在指定的过程处打开指定的 Visual Basic for Applications (VBA) 模块。此过程可以是 Sub 过程、Function 过程或事件过程。
 

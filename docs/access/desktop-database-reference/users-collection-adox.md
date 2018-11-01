@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d68dc2dd368523e8ca3dd04a06008cea9bef337e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c3415fb7a2972621978ba3673343eb5f32b0eec1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465989"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885617"
 ---
 # <a name="users-collection-adox"></a>Users 集合 (ADOX)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 包含目录或组的所有存储的 [User](user-object-adox.md) 对象。
 

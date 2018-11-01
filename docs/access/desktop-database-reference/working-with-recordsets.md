@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab78043392801f04a85a80c103c7afad6091b30b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466778"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883685"
 ---
-# <a name="working-with-recordsets"></a>使用 Recordset
+# <a name="working-with-recordsets"></a>使用记录集
 
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013 
 
 使用 **Recordset** 对象中的内置功能，可以对结果集内的数据重新排序，可以基于所提供的条件搜索特定记录，甚至还可以使用索引来优化这些搜索操作。这些功能是否可用取决于提供程序，在某些情况下，诸如 [Index](index-property-ado.md) 属性的功能等取决于数据源本身的结构。
 

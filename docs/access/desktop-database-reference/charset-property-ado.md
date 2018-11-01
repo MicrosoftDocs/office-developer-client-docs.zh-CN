@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： Charset 属性 (ADO) TOCTitle: Charset 属性 (ADO) === 标题： Charset 属性 (ADO) TOCTitle: Charset 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15) ms:contentKeyID: 48544551 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Charset 属性 (ADO)
+TOCTitle: Charset property (ADO)
+ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
+ms:contentKeyID: 48544551
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 46d9016e84b507526fa36202169f532e9ee7d738
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887787"
 ---
-
-<<<<<<< 标头
 # <a name="charset-property-ado"></a>Charset 属性 (ADO)
-=======
-# <a name="charset-property-ado"></a>Charset 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示一个字符集，文本 [Stream](stream-object-ado.md) 的内容应转换为该字符集，以存储在 Stream 对象内部缓冲区中。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **String** 值，该值指定 **Stream** 的内容将要转换为的字符集。 默认值为"Unicode"。 允许的值为作为 Internet 字符集字符串通过接口传递的常见字符串（例如，"iso-8859-1"、"Windows-1252"等）。 由系统已知的字符串集列表，请参阅 HKEY 的子项\_类\_根\\MIME\\数据库\\Windows 注册表中的字符集。
 

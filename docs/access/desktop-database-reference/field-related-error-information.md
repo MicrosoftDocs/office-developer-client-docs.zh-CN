@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249559(v=office.15)
 ms:contentKeyID: 48545958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfa35220e463cada69c94fe56a72732591683686
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: de2a737e314322064894142b2494e3b3793d1625
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466117"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884854"
 ---
 # <a name="field-related-error-information"></a>与字段相关的错误信息
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 如果错误与字段直接相关（例如，如果缺少数据或者对于该字段它是错误的类型），则可以通过检查 **Field** 对象的 **Status** 属性来检索有关问题原因的详细信息。此属性已得到增强，以提供有关问题的具体信息。因此，例如，在调用 **UpdateBatch** 失败时，可以通过检查每个受影响记录的 **Fields** 的 **Status** 属性来确定问题的原因。该属性将包含 **FieldStatusEnum** 常量中的一个值。下表包括在发生错误时需要特别注意的那些值。
 

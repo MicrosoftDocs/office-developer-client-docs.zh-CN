@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
 ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b99fcfe4fadc3dddf5937ba1043875de43e88d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c7ea33eb0cdd221f0d59edfb7cd04520bb888249
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467837"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877399"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction 接口 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **ADORecordsetConstruction** 接口用于通过 C/C++ 应用程序中的 OLE DB **Rowset** 对象构造 ADO **Recordset** 对象。
 

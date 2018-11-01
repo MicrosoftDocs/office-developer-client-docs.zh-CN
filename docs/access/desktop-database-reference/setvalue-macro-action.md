@@ -1,22 +1,22 @@
 ---
-title: SetValue Macro Action
+title: SetValue 宏操作
 TOCTitle: SetValue Macro Action
 ms:assetid: a08be0c1-a053-45f9-b4ae-709fedc58e8b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f845dc5512611aa948991ad2099169a25bbcb113
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36dd3e511a3ff252ca44aa6d10fd1be4acd5c5fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465749"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878687"
 ---
-# <a name="setvalue-macro-action"></a>SetValue Macro Action
+# <a name="setvalue-macro-action"></a>SetValue 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 您可以使用**SetValue**操作设置窗体、 窗体数据表或报表上的 Microsoft Access 字段、 控件或属性的值。

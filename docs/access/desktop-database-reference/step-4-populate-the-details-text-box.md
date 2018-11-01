@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250278(v=office.15)
 ms:contentKeyID: 48548839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e0f04d52edc55c7ccc5163bc9a858d7bc8845702
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0c00fd9d1a13a68361c5b1a7c3c2aa39736b3c88
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467370"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867256"
 ---
 # <a name="step-4-populate-the-details-text-box"></a>步骤 4：填充细节文本框
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-## <a name="step-4-populate-the-details-text-box"></a>步骤 4：填充细节文本框
+## <a name="step-4-populate-the-details-text-box"></a>步骤 4：填充详细信息文本框
 
 **填充 Details 文本框**
 

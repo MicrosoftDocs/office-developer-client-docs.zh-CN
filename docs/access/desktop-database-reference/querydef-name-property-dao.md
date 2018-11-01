@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836936(v=office.15)
 ms:contentKeyID: 48548776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8100910f412c86a9a1ec5b8138d33f75315806f4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f3ba50936229c2d59a1fdfa7a6fafe34fd5ca6ff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467827"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886226"
 ---
 # <a name="querydefname-property-dao"></a>QueryDef.Name Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回或设置指定对象的名称。可读/写 **String** 类型。
 

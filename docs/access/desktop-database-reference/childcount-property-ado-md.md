@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84e2e9873e076128c42e9fa7ae46d902f47865c7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 0ac5e65356e7ee66cda864bffc983ae1d394825b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606022"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879604"
 ---
 # <a name="childcount-property-ado-md"></a>ChildCount 属性 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示在层次结构中将当前 [Member](member-object-ado-md.md) 对象作为父级的成员的数量。
 
-<<<<<<< 标头
 ## <a name="return-values"></a>返回值
-=======
-## <a name="return-values"></a>返回值
->>>>>>> master
 
 返回一个 **Long** 整数值，并且该值为只读。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125237(v=office.15)
 ms:contentKeyID: 52073361
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c45fb01b0f2c43da4611738c8503a85df031beca
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ac41f8f0db13e4972ffa5a787e5d63fa0bb1af59
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465580"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880360"
 ---
 # <a name="recordset-methods-dao"></a>Recordset Methods (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

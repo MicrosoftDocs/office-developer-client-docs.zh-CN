@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e5ac9c60be702841a4e45628ba609bdc63e14477
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862133"
+ms.locfileid: "25882733"
 ---
 # <a name="absolute-and-relative-urls"></a>绝对和相对 Url
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013    
 
 URL 指定在本地或网络计算机上存储的目标（如文件、目录、HTML 页、图像、程序等）的位置。 在此次讨论中，*绝对 URL*的形式：
 
@@ -81,5 +81,4 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 完全限定的 URL 的前导部分是用来访问标识由 URL 的其余部分的资源的*方案*。 示例是 HTTP （超文本传输协议） 和 FTP （文件传输协议）。
 
 ADO 支持识别自己 URL 方案的 OLE DB 提供程序。 例如， [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)，哪些访问"发布"Windows 2000 文件，识别现有的 HTTP 架构。
-
 

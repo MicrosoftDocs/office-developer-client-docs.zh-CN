@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d5ddd1a4b99ec301772690b2815d961676c5a058
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: ab6b3a265b6e63680add41ec051ba61a262819bd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861853"
+ms.locfileid: "25876839"
 ---
 # <a name="closewindow-macro-action"></a>CloseWindow 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 您可以使用**CloseWindow**操作关闭指定的访问文档选项卡或活动文档选项卡，如果未指定。
 

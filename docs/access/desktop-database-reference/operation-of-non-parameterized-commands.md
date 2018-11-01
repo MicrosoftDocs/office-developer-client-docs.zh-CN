@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f45bb8e148fe2ba252b2620d41685006302cfdb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3e1799e5e40ffa3ffcd6698900b8678b309696e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466336"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885155"
 ---
 # <a name="operation-of-non-parameterized-commands"></a>操作非参数化命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 对于非参数化命令，在命令执行期间将执行所有提供程序命令，并创建 **Recordset** 。如果同步执行命令，则所有 **Recordset** 都将完全填充。如果选择异步填充模式，则 **Recordset** 的填充状态将取决于填充模式和 **Recordset** 的大小。
 

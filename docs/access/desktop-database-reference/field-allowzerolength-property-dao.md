@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cba5790ae557f7e5b29e8068d09d6fa7451cfb27
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7d5e6ecf7683a41ddb057467f892155143c33144
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467195"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882432"
 ---
 # <a name="fieldallowzerolength-property-dao"></a>Field.AllowZeroLength Property (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指示零长度字符串 ("") 对于数据类型为"文本"或"备注"的 **[Field](field-value-property-dao.md)** 对象的 **[Value](field-object-dao.md)** 属性来说是否为有效设置（仅适用于 Microsoft Access 工作区）。
 
@@ -52,19 +52,19 @@ ms.locfileid: "25467195"
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong> 对象</p></td>
+<td><p><strong>QueryDef</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong> 对象</p></td>
+<td><p><strong>Recordset</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong> 对象</p></td>
+<td><p><strong>Relation</strong>对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong> 对象</p></td>
+<td><p><strong>TableDef</strong>对象</p></td>
 <td><p>读/写</p></td>
 </tr>
 </tbody>

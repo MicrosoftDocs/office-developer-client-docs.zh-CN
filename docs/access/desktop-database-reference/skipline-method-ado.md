@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249187(v=office.15)
 ms:contentKeyID: 48544456
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28cb222a3ed0e5497e03efbb7394081c96b4d4ef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6c1ab54402dac8f6721c4c12f55f07979c4adff4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467249"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885449"
 ---
 # <a name="skipline-method-ado"></a>SkipLine 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于在读取文本流时跳过一整行。
 

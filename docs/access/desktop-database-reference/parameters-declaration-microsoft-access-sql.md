@@ -12,17 +12,17 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8ef554aab94bd5771e1df3313d04a4fbe2c383b8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 24212ce3a29c0e30fae1dad7566ef93815f8a03f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467619"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876774"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>PARAMETERS 声明 (Microsoft Access SQL)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 声明在参数查询中的每个参数的名称和数据类型。
 

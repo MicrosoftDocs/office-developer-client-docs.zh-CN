@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180120(v=office.15)
 ms:contentKeyID: 52075069
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 113a6d4063dba1bf6446a03bf658c0b351d71af0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52e272337be0dc20e75ee4c8332f4d6bed2c0ee1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468839"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884581"
 ---
 # <a name="workspaces-methods-dao"></a>Workspaces Methods (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249829(v=office.15)
 ms:contentKeyID: 48547082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16169424b1e802bb8061867faac80cd274b8be59
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c72e6b441375067cf9a1534c1414dd4e273f0d7b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466976"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885347"
 ---
-# <a name="section-v-appendixes"></a>第 V 部分：附录
+# <a name="section-v-appendixes"></a>第 V 节：附录
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 《ADO 程序员指南》包含以下附录：
 

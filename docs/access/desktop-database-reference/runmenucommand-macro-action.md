@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9d853c99fad322e17e8bbfd49cef27c14be33ffe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 372803779767ea6fdc12b4e10b5dde231ce101fc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467421"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875510"
 ---
 # <a name="runmenucommand-macro-action"></a>RunMenuCommand 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **RunMenuCommand** 操作运行内置的 Microsoft Access 命令。
 

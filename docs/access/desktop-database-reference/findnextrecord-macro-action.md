@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b58478a67468fa7d00c348066459672bc31c52a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05dec445360d5c42636880982e27e0abd46d048e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468112"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883650"
 ---
 # <a name="findnextrecord-macro-action"></a>FindNextRecord 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **FindNextRecord** 操作查找符合上一个 **FindRecord** 操作指定的条件或与 **"查找和替换"** 对话框（在 **"开始"** 选项卡上单击 **"查找"**）中的值匹配的下一个记录。可以使用 **FindNextRecord** 操作重复搜索记录。例如，您可以在特定客户的所有记录间逐个移动。
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 7f8eedd1245be16d87a2d3b2cd2b9121853529c5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 63b4ae569ce76c480725853e119b4807dd121758
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863626"
+ms.locfileid: "25882817"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于指定游标服务的位置。
 

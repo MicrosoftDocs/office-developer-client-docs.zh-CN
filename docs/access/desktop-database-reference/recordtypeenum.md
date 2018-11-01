@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249534(v=office.15)
 ms:contentKeyID: 48545890
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 8a18f78d643ad83b3be8a2bd40ca41f640368067
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6427a98d13231575bdc90fb89fe740fd9cd0f073
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863078"
+ms.locfileid: "25868348"
 ---
 # <a name="recordtypeenum"></a>RecordTypeEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定 [Record](record-object-ado.md) 对象的类型。
 

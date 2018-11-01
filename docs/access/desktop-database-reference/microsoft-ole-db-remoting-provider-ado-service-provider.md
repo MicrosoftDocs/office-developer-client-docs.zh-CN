@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 907686e0dcd1be8ef24747d9ff655a7ff0f7f91f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8e9e6e655198cba28ece0951414af85ec14f26f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467388"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878057"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Microsoft OLE DB Remoting Provider（ADO 服务提供程序）
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Microsoft OLE DB Remoting Provider 允许客户端计算机的本地用户调用远程计算机上的数据提供程序。您可以像远程计算机的本地用户一样为远程计算机指定数据提供程序参数，然后指定 Remoting Provider 所用的参数以访问远程计算机。于是，您就可以像远程计算机的本地用户一样访问远程计算机。
 

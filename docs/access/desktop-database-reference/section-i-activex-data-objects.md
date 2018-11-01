@@ -1,22 +1,22 @@
 ---
-title: 'Section I: ActiveX Data Objects'
+title: 第 I 节：ActiveX 数据对象
 TOCTitle: 'Section I: ActiveX Data Objects'
 ms:assetid: 8f794f04-6977-7af0-fdfd-126a92d33e94
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249635(v=office.15)
 ms:contentKeyID: 48546307
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ea99c90a2c473ae0e3f6d3d869a8d89dcab7ead
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4942ccd672105b7b655a43c70429472d68195313
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468945"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867214"
 ---
-# <a name="section-i-activex-data-objects"></a>Section I: ActiveX Data Objects
+# <a name="section-i-activex-data-objects"></a>第 I 节：ActiveX 数据对象
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本部分包含以下几章：
 

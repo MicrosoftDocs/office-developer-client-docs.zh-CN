@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 99bccffb11dfb9813d52fed721a51b5417ef6be0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: c5da4e34697599852283dbde51bb4bdc8ace96a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602816"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872807"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建一个新的 **[TableDef](tabledef-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。
 
@@ -75,11 +75,7 @@ ms.locfileid: "25602816"
 </table>
 
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 TableDef
 

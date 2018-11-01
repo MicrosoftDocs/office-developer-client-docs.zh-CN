@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
 ms:contentKeyID: 48544506
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 7e32cd3c8ae78199f90fcac8cccdf377bf332d38
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: cb8873a7ddfc62429847b561736df4bfa91d429d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863939"
+ms.locfileid: "25872842"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定 [Connection](connection-object-ado.md) 对象的事务隔离级别。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
 ms:contentKeyID: 48547648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 247109d4f71fe153b639c9efa0e6944fb09448b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e924dfb89cb67ffa4bc8ec29d0c24a7c61fcb5b5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467760"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887962"
 ---
 # <a name="databasequerytimeout-property-dao"></a>Database.QueryTimeout Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 设置或返回一个值，该值指定对 ODBC 数据源执行查询时发生超时错误之前等待的秒数。

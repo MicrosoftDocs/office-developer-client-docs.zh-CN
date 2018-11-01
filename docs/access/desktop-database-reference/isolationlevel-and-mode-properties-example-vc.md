@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： IsolationLevel 和 Mode 属性示例 （VC + +） TOCTitle: IsolationLevel 和 Mode 属性示例 （VC + +） === 标题： IsolationLevel 和模式属性示例 （VC + +） TOCTitle: IsolationLevel 和模式属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15) ms:contentKeyID: 48546050 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: IsolationLevel 和 Mode 属性示例 (VC++)
+TOCTitle: IsolationLevel and Mode properties example (VC++)
+ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15)
+ms:contentKeyID: 48546050
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 23426be11226feeb4c922d55aa7fec8fd4821cfc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871407"
 ---
-
-<<<<<<< 标头
 # <a name="isolationlevel-and-mode-properties-example-vc"></a>IsolationLevel 和 Mode 属性示例 (VC++)
-=======
-# <a name="isolationlevel-and-mode-properties-example-vc"></a>IsolationLevel 和模式属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [Mode](mode-property-ado.md) 属性打开一个独占连接，并使用 [IsolationLevel](isolationlevel-property-ado.md) 属性打开一个在其他事务的隔离级别上实施的事务。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
 ms:contentKeyID: 48547738
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb9321434dc039527daa99f2b24abf83a4c3383e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6dc2e38c7459fea46c33373447276d8643b4b0de
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466634"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887374"
 ---
-# <a name="what-is-a-cursor"></a>什么是游标？
+# <a name="what-is-a-cursor"></a>什么是光标？
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 游标是关系数据库中作用于完整行集的操作。SELECT 语句返回的行集由满足该语句中 WHERE 子句条件的所有行组成。该语句返回的完整行集称为结果集。应用程序（特别是那些处于交互和联机模式的应用程序）不能总是有效地将整个结果集作为一个整体来处理。这些应用程序需要一个机制，以便一次处理一行或一小块行。游标是提供该机制的结果集的扩展。
 

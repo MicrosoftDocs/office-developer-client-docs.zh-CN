@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052923
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 53df33e3171cde0d861f738a852350ec20bf0dec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8c6b7798419dc72dc28822741e2d038203ae257e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466686"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880717"
 ---
 # <a name="dbenginelogintimeout-property-dao"></a>DBEngine.LoginTimeout Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回在您尝试登录 ODBC 数据库时发生错误之前的秒数。
 

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250258(v=office.15)
 ms:contentKeyID: 48548752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d3af3026052954ec74b10026e0cf288a6aa5249
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca4d8d2fd8797ffb5ae0861e86dfa02faf7bb62c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465910"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875775"
 ---
 # <a name="dealing-with-failed-updates"></a>处理失败更新
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-## <a name="dealing-with-failed-updates"></a>处理失败更新
+## <a name="dealing-with-failed-updates"></a>处理失败的更新
 
 当更新由于错误而停止时，如何解决错误将依赖于错误的性质和严重性以及应用程序的逻辑。但是，如果数据库与其他用户共享，则典型的错误是有其他人在您之前修改了字段。这种错误类型称为*冲突*。ADO 将检测此情况并报告错误。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
 ms:contentKeyID: 48548934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f848e5adb9e8aca3a53732633b8b40cd75550cf9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 172774af5297f456b53dcdbadfc4080f533bc8b3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466640"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878113"
 ---
 # <a name="visual-c-extensions-example"></a>Visual C++ Extensions 示例
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此程序显示如何从字段检索值，并将其转换为 C/C++ 变量。
 

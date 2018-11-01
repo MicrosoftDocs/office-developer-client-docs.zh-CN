@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249930(v=office.15)
 ms:contentKeyID: 48547482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1979ad721a01ef72c08da1531a8826ec320915e5
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: c053ec9f84de4aa56513081144e23f044c72effc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604615"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876629"
 ---
 # <a name="status-property-ado-recordset"></a>Status 属性 (ADO Recordset)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示与批更新或其他批量操作相关的当前记录的状态。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回一个或多个 [RecordStatusEnum](recordstatusenum.md) 值的总和。
 

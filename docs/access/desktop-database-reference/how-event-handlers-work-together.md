@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d156de0a794798be6f7e68925d934c07a28cd60
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 19f60c196c110787eb7baf57646a9d5d4996fdf0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468430"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877826"
 ---
 # <a name="how-event-handlers-work-together"></a>事件处理程序如何协同工作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

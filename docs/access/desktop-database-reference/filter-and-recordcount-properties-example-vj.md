@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Filter 和 RecordCount 属性示例 （VJ + +） TOCTitle: Filter 和 RecordCount 属性示例 （VJ + +） === 标题： Filter 和 RecordCount 属性示例 （VJ + +） TOCTitle: Filter 和 RecordCount属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15) ms:contentKeyID: 48547798 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Filter 和 RecordCount 属性示例 (VJ++)
+TOCTitle: Filter and RecordCount properties example (VJ++)
+ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
+ms:contentKeyID: 48547798
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 13d0173886b2b75d6e416d242eb6f437c97418ec
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884721"
 ---
-
-<<<<<<< 标头
 # <a name="filter-and-recordcount-properties-example-vj"></a>Filter 和 RecordCount 属性示例 (VJ++)
-=======
-# <a name="filter-and-recordcount-properties-example-vj"></a>Filter 和 RecordCount 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [Filter](filter-property-ado.md) 属性根据应用于现有 [Recordset](recordset-object-ado.md) 的指定条件打开一个新的 **Recordset**。使用 [RecordCount](recordcount-property-ado.md) 属性来显示两个 **Recordset** 中的记录数。运行此过程需要使用 FilterField 函数。
 

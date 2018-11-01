@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
 ms:contentKeyID: 48545641
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0c4b25bd7cd86487e15181152030fdc63a6cc8f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ac9617358e30ecdbe97db872b7513d1a464b818
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468492"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886198"
 ---
 # <a name="editmodeenum-enumeration-dao"></a>EditModeEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示当前记录的编辑状态。
 

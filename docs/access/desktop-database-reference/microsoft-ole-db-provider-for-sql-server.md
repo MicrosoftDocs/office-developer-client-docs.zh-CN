@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248868(v=office.15)
 ms:contentKeyID: 48543282
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f999f9268511fd23f1fc6a20c8459d11345ceb4f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c856b2ba8d39c9cfc03bdadd6250ee9411b9c9c8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466543"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883888"
 ---
 # <a name="microsoft-ole-db-provider-for-sql-server"></a>Microsoft OLE DB Provider for SQL Server
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Microsoft OLE DB Provider for SQL Server (SQLOLEDB) 允许 ADO 访问 Microsoft SQL Server。
 

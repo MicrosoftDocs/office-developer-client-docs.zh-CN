@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052929
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4b1297fe7c41efd49a457f3382f72c480f85363
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9a7f89277b51ef0edb5603c4482d4547201673fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467782"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884771"
 ---
 # <a name="fieldvalidateonset-property-dao"></a>Field.ValidateOnSet Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指定当设置 **[Field](field-object-dao.md)** 对象的 **[Value](field-value-property-dao.md)** 属性时是否立即验证该对象的值（仅适用于 Microsoft Access 工作区）。
 

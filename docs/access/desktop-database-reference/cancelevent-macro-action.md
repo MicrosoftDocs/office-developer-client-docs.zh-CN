@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f907cee27511f782a3d766761ae716bc3cef4c0b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0bc9f38e1f91a58fcfc7cedfdfb740a22477f649
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862959"
+ms.locfileid: "25880668"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 您可以使用**CancelEvent**操作取消导致访问权限才能运行包含此操作的宏的事件。 宏名称是 **BeforeUpdate** 、 **OnOpen** 、 **OnUnload** 或 **OnPrint** 等事件属性的设置。

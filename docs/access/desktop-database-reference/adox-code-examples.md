@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)
 ms:contentKeyID: 48545557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0c3b862e67bb4029c7fbec032e1a1930f0e0f84c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 875d179305d6dd008954921049b4c9ab369a03b9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468401"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887661"
 ---
 # <a name="adox-code-examples"></a>ADOX 代码示例
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 请使用下面的示例代码学习如何使用 ADOX 对象、方法、属性和事件。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195226(v=office.15)
 ms:contentKeyID: 48545348
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65531c34cb4e6da1fab37002c32011b56521bc45
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9e8ab4d064c05dc5a64198ef096ba0ae25622d2b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466445"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880402"
 ---
 # <a name="tabledefname-property-dao"></a>TableDef.Name Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回或设置指定对象的名称。可读/写 **String** 类型。
 

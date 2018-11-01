@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249454(v=office.15)
 ms:contentKeyID: 48545591
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8e546445c6959ab1e9f9d6eb53fd28e02d47b40
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 3158cf55291876048fc0e75de5f8b702a275a593
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862148"
+ms.locfileid: "25879751"
 ---
 # <a name="indexes-append-method-example-vb"></a>Indexes 的 Append 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 下面的代码示例演示如何创建新索引。该索引针对表中的两列而编制。
 

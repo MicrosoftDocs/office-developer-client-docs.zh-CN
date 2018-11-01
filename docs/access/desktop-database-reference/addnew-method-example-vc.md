@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248909(v=office.15)
 ms:contentKeyID: 48543370
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15fe1071771c0eccbbf16eb2e186e323bd0255eb
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 36bc908cc2594465f890c5e5ff177c6d29868cf8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862490"
+ms.locfileid: "25889803"
 ---
 # <a name="addnew-method-example-vc"></a>AddNew 方法示例 (VC++)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。
 

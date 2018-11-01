@@ -1,22 +1,22 @@
 ---
-title: MoveAndSizeWindow Macro Action
+title: MoveAndSizeWindow 宏操作
 TOCTitle: MoveAndSizeWindow Macro Action
 ms:assetid: 86bcf45f-90ce-4ca2-a7fb-efbe5347d137
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d423668f5ef53abf4216fa8f976c674474a752ed
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ab2998140f46fd3275f564684995d9a4d8d56968
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467486"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882537"
 ---
-# <a name="moveandsizewindow-macro-action"></a>MoveAndSizeWindow Macro Action
+# <a name="moveandsizewindow-macro-action"></a>MoveAndSizeWindow 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 如果已将文档设置为使用重叠窗口而不是选项卡式文档的窗口选项，您可以使用**MoveAndSizeWindow**操作移动或调整活动窗口。 有关如何设置文档窗口选项的信息，请参阅备注部分。

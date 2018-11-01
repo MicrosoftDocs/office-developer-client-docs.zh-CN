@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e8da60617e3076d5670218ca3a1cbe6df13ddbb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dbc35b696f74aa0da64ec24ce38c2f8ad8cfab4d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467580"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879088"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Recordset2.NoMatch Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示在使用 **[Seek](recordset2-seek-method-dao.md)** 方法或 **[Find](recordset2-findfirst-method-dao.md)** 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。
 

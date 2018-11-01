@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 1c05679994cfd98fdc5d6ffb389df00c2f5c9b94
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: a744f67eba768ac2924d73782dbe70fd57e0333c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861993"
+ms.locfileid: "25885533"
 ---
 # <a name="selectinto-statement-microsoft-access-sql"></a>选择。INTO 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建生成表查询。
 

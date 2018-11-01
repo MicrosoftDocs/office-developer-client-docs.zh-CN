@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8576d2a1d579de306b438f7b0fb04a1eb2d46cc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e9e89673dcb5cce124747d914f63d1a38353aebe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863636"
+ms.locfileid: "25885743"
 ---
 # <a name="chapter-14-ado-md-fundamentals"></a>第 14 章：ADO MD 基础知识
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 借助 Microsoft ActiveX 数据对象（多维）(ADO MD)，您可以使用 Microsoft Visual Basic、Microsoft Visual C++ 和 Microsoft Visual J++ 之类的语言轻松访问多维数据。ADO MD 将 Microsoft ActiveX 数据对象 (ADO) 扩展为包括特定于多维数据的对象，如 [CubeDef](cubedef-object-ado-md.md) 和 [Cellset](cellset-object-ado-md.md) 对象。通过 ADO MD，您可以浏览多维架构、查询多维数据集，以及检索结果。
 

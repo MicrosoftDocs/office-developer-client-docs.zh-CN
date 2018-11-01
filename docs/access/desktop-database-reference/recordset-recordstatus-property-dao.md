@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1102617
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ada7c1dfa4b71a0f455a4e596de1bd4a037d5d59
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d1300538f1373929b4ed2bcd4fcd0be78574ae21
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467816"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871918"
 ---
 # <a name="recordsetrecordstatus-property-dao"></a>Recordset.RecordStatus Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="syntax"></a>语法
 

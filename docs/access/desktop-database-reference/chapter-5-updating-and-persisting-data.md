@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 487fd11112375fb0f5788505d049a4fc71e245ba
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0fe82d2fe434032165a39c95f05d426b8a7342bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861972"
+ms.locfileid: "25874893"
 ---
 # <a name="chapter-5-updating-and-persisting-data"></a>第 5 章：更新和暂留数据
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 前面几章讨论了如何使用 ADO 来获取数据源中的数据、如何在数据中移动以及如何编辑数据。当然，如果您的应用程序的目标是允许用户对数据进行更改，那么，您将需要了解如何保存这些更改。可以使用 **Save** 方法持久化对文件进行的 **Recordset** 更改，或者使用 **Update** 或 **UpdateBatch** 方法将所做的更改发回到数据源进行存储。
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Attributes 属性示例 (VB) TOCTitle: Attributes 属性示例 (VB) === 标题： Attributes 属性示例 (VB) TOCTitle: Attributes 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: 48547442 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Attributes 属性示例 (VB)
+TOCTitle: Attributes property example (VB)
+ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
+ms:contentKeyID: 48547442
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1abdb333551e80a8c2b0e8a440aee9c35ca69120
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879254"
 ---
-
-<<<<<<< 标头
 # <a name="attributes-property-example-vb"></a>Attributes 属性示例 (VB)
-=======
-# <a name="attributes-property-example-vb"></a>Attributes 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Column](attributes-property-adox.md) 的 [Attributes](column-object-adox.md) 属性。将其设置为 **adColNullable** 将使用户可以把 [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) 的值设置为空字符串。在这种情况下，用户可区分数据未知的记录和未应用数据的记录。
 

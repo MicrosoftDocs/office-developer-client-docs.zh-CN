@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250287(v=office.15)
 ms:contentKeyID: 48548868
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 459fc61dbb8c8b1eecffdea3d2c5d2f105b9212a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9cf03a2cbff06919981ac940f5b2962062a850c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466375"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877798"
 ---
 # <a name="filtercolumn-property-rds"></a>FilterColumn 属性 (RDS)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

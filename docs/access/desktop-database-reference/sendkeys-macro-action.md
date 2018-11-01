@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 005f139af44249e3029441d362db895969c9fefc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f8ddc6c19f675db7cc04cb46a24e0f42ac991df
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465815"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881354"
 ---
 # <a name="sendkeys-macro-action"></a>SendKeys 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 <table>
 <thead>

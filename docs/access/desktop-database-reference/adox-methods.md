@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
 ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb2a38a5a71b792cce30bd43937ec0709b6d2c27
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4a237dbb08f5a3df1c6a29b29e1f2b884ed928d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466797"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886072"
 ---
 # <a name="adox-methods"></a>ADOX 方法
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 <table>
 <colgroup>

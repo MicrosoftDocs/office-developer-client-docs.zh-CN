@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Item 属性示例 （VJ + +） TOCTitle: Item 属性示例 （VJ + +） === 标题： Item 属性示例 （VJ + +） TOCTitle: Item 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15) ms:contentKeyID: 48547461 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Item 属性示例 (VJ++)
+TOCTitle: Item property example (VJ++)
+ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
+ms:contentKeyID: 48547461
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 672eb8582f5e412a026be68cd9c56ddd603d2ac0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889656"
 ---
-
-<<<<<<< 标头
 # <a name="item-property-example-vj"></a>Item 属性示例 (VJ++)
-=======
-# <a name="item-property-example-vj"></a>Item 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Item](item-property-ado.md) 属性如何访问集合的成员。该示例使用参数化命令来打开 ***Pubs*** 数据库的 ***Authors*** 表。
 

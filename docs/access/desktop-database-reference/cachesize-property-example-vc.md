@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： CacheSize 属性示例 （VC + +） TOCTitle: CacheSize 属性示例 （VC + +） === 标题： CacheSize 属性示例 （VC + +） TOCTitle: CacheSize 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15) ms:contentKeyID: 48547435 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: CacheSize 属性示例 (VC++)
+TOCTitle: CacheSize property example (VC++)
+ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15)
+ms:contentKeyID: 48547435
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 944aaae506a8a7f3faba45e2220daf5caf46bed1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885708"
 ---
-
-<<<<<<< 标头
 # <a name="cachesize-property-example-vc"></a>CacheSize 属性示例 (VC++)
-=======
-# <a name="cachesize-property-example-vc"></a>CacheSize 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。
 

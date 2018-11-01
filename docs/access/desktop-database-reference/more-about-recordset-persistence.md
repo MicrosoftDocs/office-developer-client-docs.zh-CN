@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250232(v=office.15)
 ms:contentKeyID: 48548666
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05287befde90319ad2844effef8ef2d47e1241b7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: baf1e4976b9669deed0a80f6405127afc88d521e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467721"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878289"
 ---
 # <a name="more-about-recordset-persistence"></a>关于记录集持久化的详细信息
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 记录集对象支持使用其 **Save** 方法将 [Recordset](save-method-ado.md) 对象的内容存储在文件中。 在本地驱动器上，网络服务器，或在网站上的 URL，可能存在的永久存储的文件。 随后，可以用 **Recordset** 对象的 [Open](open-method-ado-recordset.md) 方法或 [Connection](connection-object-ado.md) 对象的 [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 方法还原该文件。
 

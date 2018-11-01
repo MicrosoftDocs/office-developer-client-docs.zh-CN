@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
 ms:contentKeyID: 48543144
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 50ae0fa003d1418828f4a735273390bba63ea554
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 369e6c9b8b259e4366e8258375253ec1d1235004
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468864"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883923"
 ---
 # <a name="setoptionenum-enumeration-dao"></a>SetOptionEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 与 **SetOption** 方法一起用来指定 Windows 注册表中要重写的 Microsoft Access 数据库引擎项。
 

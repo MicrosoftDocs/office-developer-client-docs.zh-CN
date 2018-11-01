@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d47d7bb4d8e9243d48daf4ad7947cef2416d4004
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65fda92e28aab278fde4dafba4e94c576827370a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467969"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881746"
 ---
 # <a name="streams-and-persistence"></a>流和持久化
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 [Recordset](recordset-object-ado.md) 对象的 [Save](save-method-ado.md) 方法用于将 **Recordset** 存储或*持久化*在文件中，[Open](open-method-ado-recordset.md) 方法用于从该文件中还原 **Recordset**。
 

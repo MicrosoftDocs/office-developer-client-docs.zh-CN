@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ba7d40031a5a90c4f3e3d25459cc62023bc96832
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bf7e64c3c60098bf95a101773dbbb678ea5b711f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468558"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879989"
 ---
 # <a name="runapplication-macro-action"></a>RunApplication 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 <table>
 <thead>

@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm159503
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 89c29d18e21a28448e03fee763b4087bf623d5a3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8a0ca9d2dde2ae5d39fb9159655f37b5140eee3e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465605"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868015"
 ---
 # <a name="exportwithformatting-macro-action"></a>ExportWithFormatting 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **ExportWithFormatting** 操作将指定的 Microsoft Access 数据库对象（数据表、窗体、报表、模块或数据访问页）中的数据输出为若干种输出格式。
 

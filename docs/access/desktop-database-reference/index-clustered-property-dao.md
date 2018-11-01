@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4cb0c51f454e4792a64fc55416464373ac667dcf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2748be69677cacee246864303d2ff57dad9235b7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465811"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875586"
 ---
 # <a name="indexclustered-property-dao"></a>Index.Clustered Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指示某个 **Index** 对象是否代表某个表的聚簇索引（仅适用于 Microsoft Access 工作区）。可读写 **Boolean**。
 

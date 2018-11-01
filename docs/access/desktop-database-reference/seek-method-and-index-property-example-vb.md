@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Seek 方法和 Index 属性示例 (VB) TOCTitle: Seek 方法和 Index 属性示例 (VB) === 标题： Seek 方法和 Index 属性示例 (VB) TOCTitle: Seek 方法和 Index 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15) ms:contentKeyID: 48547577 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Seek 方法和 Index 属性示例 (VB)
+TOCTitle: Seek Method and Index property example (VB)
+ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
+ms:contentKeyID: 48547577
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 692dcd7e046935aa447d6d39de574dd3d3e6b129
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871869"
 ---
-
-<<<<<<< 标头
 # <a name="seek-method-and-index-property-example-vb"></a>Seek 方法和 Index 属性示例 (VB)
-=======
-# <a name="seek-method-and-index-property-example-vb"></a>Seek 方法和 Index 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例将 [Recordset](recordset-object-ado.md) 对象的 [Seek](seek-method-ado.md) 方法和 [Index](index-property-ado.md) 属性与给定的 ***Employee ID***（雇员 ID）结合起来使用，以便在 Nwind.mdb 数据库的 ***Employees***（雇员）表中查找雇员的姓名。
 

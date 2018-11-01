@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249469(v=office.15)
 ms:contentKeyID: 48545632
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77553f04c52ca5db6c6cbabd561153c4467ccfef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2924875d4749bb0887906378bc7fec3d8ab14a68
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468328"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888830"
 ---
 # <a name="catalog-object-ado-md-reference"></a>Catalog Object (ADO MD Reference)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

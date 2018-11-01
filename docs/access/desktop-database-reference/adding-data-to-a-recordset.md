@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249761(v=office.15)
 ms:contentKeyID: 48546797
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42cdf33d7b34dc4a48392d21dcdb2d9de26b4bbc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b013ab0b05242b4928f7a9b9d974ef98ca6103d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467024"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885022"
 ---
-# <a name="adding-data-to-a-recordset"></a>向记录集添加数据
+# <a name="adding-data-to-a-recordset"></a>将数据添加到记录集
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **Recordset** 可能是最常使用的 ADO 对象。在 ADO 中，最好将 **Recordset** 看作从数据源得到的结果集和与其关联的游标行为的组合。因此，可以将数据放在 **Recordset** 中，然后使用 **Recordset** 的方法和属性在数据行中导航，查看行中的值以及操作结果集。
 

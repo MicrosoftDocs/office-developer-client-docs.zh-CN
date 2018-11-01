@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195128(v=office.15)
 ms:contentKeyID: 48545311
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 32c1f5f5cefe0930ba67f47367584c8c5489e963
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 10b30fc2e47ca2811bdd0eaad9c18c6e9bfca342
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466361"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875663"
 ---
 # <a name="recordsetfindlast-method-dao"></a>Recordset.FindLast Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在动态集类型或快照类型的 **[Recordset](recordset-object-dao.md)** 对象中查找符合指定条件的最后一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。
 

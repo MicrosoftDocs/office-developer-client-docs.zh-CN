@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6b1e04c3ce9f450d2168c9f607bfa1d135951bb9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 3e13ebd5d222bc765fe2e38198588274508baa4a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862301"
+ms.locfileid: "25881935"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 用于将数据追加到大型文本或二进制数据 [Field](field-object-ado.md) 或 [Parameter](parameter-object-ado.md) 对象。

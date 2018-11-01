@@ -10,16 +10,16 @@ f1_keywords:
 - jetsql40.chm5277563
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ccf9a88b427925528ce4e6a293d0b1351cef9883
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c143e9121bd86b17856fd0e0998d2af0adf9dec6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863946"
+ms.locfileid: "25880906"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>CREATE TABLE 语句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 新建一个表。
 
