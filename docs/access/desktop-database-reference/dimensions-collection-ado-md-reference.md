@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249113(v=office.15)
 ms:contentKeyID: 48544138
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 851a8e18aca8ca79a2a5a30910655adfe963c9a2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2e8db97f7f59bfdd5616f3883d5585cbd7370df1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467434"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890881"
 ---
 # <a name="dimensions-collection-ado-md-reference"></a>Dimensions Collection (ADO MD Reference)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

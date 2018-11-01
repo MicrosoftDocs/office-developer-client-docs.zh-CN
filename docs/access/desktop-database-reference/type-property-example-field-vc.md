@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Type 属性示例 (Field) （VC + +） TOCTitle: Type 属性示例 (Field) （VC + +） === 标题： Type 属性示例 (Field) （VC + +） TOCTitle: Type 属性示例 (Field) （VC + +）
->>>>>>> 母版页 ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID: 48547858 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Type 属性示例 (Field) (VC++)
+TOCTitle: Type property example (Field) (VC++)
+ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
+ms:contentKeyID: 48547858
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bf9a00e4fafeccf5e284599ec55f9252e8bde568
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884505"
 ---
-
-<<<<<<< 标头
 # <a name="type-property-example-field-vc"></a>Type 属性示例 (Field) (VC++)
-=======
-# <a name="type-property-example-field-vc"></a>Type 属性示例 (Field) （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例通过显示与 ***Employees***（雇员）表中的所有 [Field](field-object-ado.md) 对象的 [Type](type-property-ado.md) 属性值对应的常量名称来演示 **Type** 属性。若要运行此过程，必须使用 FieldType 函数。
 

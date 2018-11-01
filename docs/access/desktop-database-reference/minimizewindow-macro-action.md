@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8ff22b21bfc411f536b780d74a0c2b62a396a4cf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fd70c3fb41b65ae9c21b1651a6af64912b9c3c7c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469033"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890888"
 ---
 # <a name="minimizewindow-macro-action"></a>MinimizeWindow 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 如果访问配置为使用重叠窗口而不是选项卡式文档，您可以使用**MinimizeWindow**操作以减少于 Access 窗口的底部小型标题栏的活动窗口。
 

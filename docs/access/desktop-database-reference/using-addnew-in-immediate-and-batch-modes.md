@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248970(v=office.15)
 ms:contentKeyID: 48543602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b37acc1819d12acc1e659be85361c3c09b84ebdb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6cfe882c8ad1c07aabfae323a1467be753b462b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466559"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890958"
 ---
 # <a name="using-addnew-in-immediate-and-batch-modes"></a>在即时模式和批模式下使用 AddNew
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **AddNew**方法的行为取决于**Recordset**对象以及是否传递*FieldList*和*Values*参数的更新模式。
 

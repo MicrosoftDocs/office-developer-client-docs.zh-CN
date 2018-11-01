@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 137f36285a79b45294d680fb31f6e928ee5e68fc
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c99fd426473cf331c5b43b93c9c1bb285b6a5b43
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860558"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891000"
 ---
 # <a name="using-related-technologies-with-rds"></a>将相关技术与 RDS 结合使用
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本部分包含有关将 RDS 与下列技术中的多个方面一起使用的特定信息：
 

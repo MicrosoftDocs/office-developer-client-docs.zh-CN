@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： ConnectionTimeout 属性 (ADO) TOCTitle: ConnectionTimeout 属性 (ADO) === 标题： ConnectionTimeout 属性 (ADO) TOCTitle: ConnectionTimeout 属性 (ADO)
->>>>>>> 母版页 ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15) ms:contentKeyID: 48548589 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ConnectionTimeout 属性 (ADO)
+TOCTitle: ConnectionTimeout property (ADO)
+ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15)
+ms:contentKeyID: 48548589
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab98e60e88a9685f138262a59a83f2b311c636da
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890930"
 ---
-
-<<<<<<< 标头
 # <a name="connectiontimeout-property-ado"></a>ConnectionTimeout 属性 (ADO)
-=======
-# <a name="connectiontimeout-property-ado"></a>ConnectionTimeout 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示在建立连接时要等待多长时间才终止连接尝试并生成错误。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个 **Long** 值，该值指示等待连接打开的时间（以秒为单位）。默认值为 15。
 
