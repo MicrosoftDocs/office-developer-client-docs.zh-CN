@@ -1,22 +1,22 @@
 ---
-title: GoToControl Macro Action
+title: GoToControl 宏操作
 TOCTitle: GoToControl Macro Action
 ms:assetid: caff76dc-7ca8-4f87-8144-89445ed4600d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2617544bf04aa0b26ccbb9d7ce8d7329d42ed1e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d068f6e0087d93d4a7dec3c5a7b2ed0f11c36be7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467042"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874858"
 ---
-# <a name="gotocontrol-macro-action"></a>GoToControl Macro Action
+# <a name="gotocontrol-macro-action"></a>GoToControl 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

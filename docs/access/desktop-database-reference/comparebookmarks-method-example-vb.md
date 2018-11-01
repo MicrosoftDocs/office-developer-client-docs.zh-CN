@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248807(v=office.15)
 ms:contentKeyID: 48543012
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a01cfd682de37d8b1c14d3af6e5c7b15e0cc22b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: aac8038e83d24afe3080e2846fe2e6f057171961
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864128"
+ms.locfileid: "25874830"
 ---
 # <a name="comparebookmarks-method-example-vb"></a>CompareBookmarks 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。
 

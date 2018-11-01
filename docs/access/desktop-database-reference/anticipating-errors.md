@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250229(v=office.15)
 ms:contentKeyID: 48548645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f062eb86b45778cc7f25fb2d0d0588b82bdd78b3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2ea388f44dbe9bdc572d439f5f0d00d6de7a06b1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468137"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876566"
 ---
 # <a name="anticipating-errors"></a>预见错误
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 无论如何，错误防范都与错误处理同样重要。最后这一部分简要介绍了您的应用程序可以采取的预防措施，以便降低错误发生可能性。
 

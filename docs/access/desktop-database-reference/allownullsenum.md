@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)
 ms:contentKeyID: 48545819
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: c4c44771258cd94700bfb2902cf8bdad47a2d712
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: aca4cdb3ae20fa96f40d130ece4ec78540b6e41d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860138"
+ms.locfileid: "25876762"
 ---
 # <a name="allownullsenum"></a>AllowNullsEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定是否对含有 null 值的记录进行索引。
 

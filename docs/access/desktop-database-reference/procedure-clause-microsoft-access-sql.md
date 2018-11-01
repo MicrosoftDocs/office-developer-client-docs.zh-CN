@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5ea21939115f31d760cd528a07922deeeaaef499
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 63b38a469c5de60588783381c24c61296b177bdd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466340"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877987"
 ---
 # <a name="procedure-clause-microsoft-access-sql"></a>PROCEDURE 子句 (Microsoft Access SQL)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 定义查询的名称和可选参数。
 

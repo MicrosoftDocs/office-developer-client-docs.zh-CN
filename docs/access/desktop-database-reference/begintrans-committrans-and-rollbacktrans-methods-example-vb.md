@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248904(v=office.15)
 ms:contentKeyID: 48543357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a97d461cfe42fc1824d9f04c4dcb6b9a91169566
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f7b4e1f534e7cb3bee634e1ad4bbc6c06ac69f22
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860096"
+ms.locfileid: "25874788"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-example-vb"></a>BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VB)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例更改数据库 ***Titles（标题）*** 表中所有心理学书籍的书籍类型。首先用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法启动一个事务，隔离对 ***Titles（标题）*** 表进行的所有更改，然后用 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法保存更改。可以使用 [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法撤消用 [Update](update-method-ado.md) 方法保存的更改。
 

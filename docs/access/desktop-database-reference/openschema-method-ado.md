@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ddd823baf153ebc78fc34ca838184f415edd29ef
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 36f82510c4dd0004aa89b3f79ac0049cc2193ed3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605917"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877665"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema 方法 (ADO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 用于从提供程序获取数据库架构信息。
@@ -25,11 +25,7 @@ ms.locfileid: "25605917"
 
 **设置 *** recordset* = *连接*。OpenSchema (* QueryType *，*条件*， *SchemaID*)
 
-<<<<<<< 标头
 ## <a name="return-values"></a>返回值
-=======
-## <a name="return-values"></a>返回值
->>>>>>> master
 
 返回包含架构信息的 [Recordset](recordset-object-ado.md) 对象。 **Recordset** 将作为只读的静态游标打开。 *QueryType*确定**Recordset**中显示的列。
 

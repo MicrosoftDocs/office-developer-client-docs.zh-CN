@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249927(v=office.15)
 ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce04896e6ae59af6917497d9e37dc1ae97222eff
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: efab7ce2980393282ee1f96295206e712fcbd15f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465874"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882180"
 ---
 # <a name="ado-objects-and-interfaces"></a>ADO 对象和接口
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ADO 对象模型展示了这些对象之间的关系。
 

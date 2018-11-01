@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3afd550364836602271f66837265c38b6153ace8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 915a733d59d938e77f32a051b267b5e26bddf6a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466563"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877119"
 ---
 # <a name="field2-members-dao"></a>Field2 Members (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Field2 对象代表具有普通数据类型和普通属性集的数据列。
 

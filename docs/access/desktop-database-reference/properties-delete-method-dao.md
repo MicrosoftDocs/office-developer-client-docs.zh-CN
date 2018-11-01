@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
 ms:contentKeyID: 48548123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16846f6922638279b47135a4b0ca16ce7a845b2c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 31c43d079eb91be33df94745b65431ed6fd975cb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468274"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875320"
 ---
 # <a name="propertiesdelete-method-dao"></a>Properties.Delete Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 从 **Properties** 集合中删除指定的 **Property** 对象。
 

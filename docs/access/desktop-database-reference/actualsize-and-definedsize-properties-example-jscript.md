@@ -1,16 +1,21 @@
 ---
-<<<<<<< 标头标题： ActualSize 和 DefinedSize 属性示例 (JScript) TOCTitle: ActualSize 和 DefinedSize 属性示例 (JScript) ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms:contentKeyID: 48547811 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: ActualSize 和 DefinedSize 属性示例 (JScript)
+TOCTitle: ActualSize and DefinedSize properties example (JScript)
+ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
+ms:contentKeyID: 48547811
+ms.date: 10/16/2018
+mtps_version: v=office.15
+ms.openlocfilehash: ce9c50039566511a4f22f3ab613e5dce36c3931d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878694"
 ---
-
 # <a name="actualsize-and-definedsize-properties-example-jscript"></a>ActualSize 和 DefinedSize 属性示例 (JScript)
 
-=== 标题： ActualSize 和 DefinedSize 属性示例 (JScript) TOCTitle: ActualSize 和 DefinedSize 属性示例 (JScript) ms:assetid: cf8d6cb6-3446-c193-8774-db41c4d14a2b ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15) ms:contentKeyID: 48547811 ms.date: 10 /16/2018 mtps_version: office.15.aspx
----
-
-# <a name="actualsize-and-definedsize-properties-example-jscript"></a>ActualSize 和 DefinedSize 属性示例 (JScript)
->>>>>>> master
-
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActualSizeJS.asp** 。
 
@@ -22,11 +27,7 @@
 <html> 
  
 <head> 
-<<<<<<< HEAD
- <title>ActualSize and DefinedSize Properties Example (JScript)</title> 
-=======
  <title>ActualSize and DefinedSize properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 

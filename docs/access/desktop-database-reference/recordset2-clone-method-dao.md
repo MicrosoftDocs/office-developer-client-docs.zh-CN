@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47aa31bf6b32b674d7701b6572cc411eb88cc301
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 95d02f56a7c1e916bd0b6181a7a22b3cebb9d9b1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603285"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875026"
 ---
 # <a name="recordset2clone-method-dao"></a>Recordset2.Clone Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建一个引用原始 [Recordset2](recordset-object-dao.md) 对象的复制 ****Recordset**** 对象。
 
@@ -26,11 +26,7 @@ ms.locfileid: "25603285"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 Recordset
 

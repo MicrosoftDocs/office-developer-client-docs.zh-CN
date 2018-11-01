@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249435(v=office.15)
 ms:contentKeyID: 48545507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 418f5ccd65422f087da761b4485ce73cb55a2e90
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6d192378b4c36a61ace57c37f011eaef0b774455
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860229"
+ms.locfileid: "25877903"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vj"></a>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VJ++)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 和 [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 方法基于提供的命令移动 [Recordset](recordset-object-ado.md) 的记录指针。若要使该过程运行，需要 MoveAny 过程。
 

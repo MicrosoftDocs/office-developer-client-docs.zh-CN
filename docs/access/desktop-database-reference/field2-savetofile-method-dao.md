@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3b9da4d42b1b2cece2c829988d3d8906b9f1383b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bdcd5f0d4d131533846eb4c05d2579f0703d408d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466752"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875707"
 ---
 # <a name="field2savetofile-method-dao"></a>Field2.SaveToFile Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 将保存到磁盘上的附件。
 

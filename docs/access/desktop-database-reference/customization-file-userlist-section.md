@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249873(v=office.15)
 ms:contentKeyID: 48547263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a14060858ad5cd90b410319a515eb271b2b397ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a4aa7604edc887e97cbdfbea9b75e6f46ad55f35
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467666"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880766"
 ---
 # <a name="customization-file-userlist-section"></a>自定义文件 UserList 节
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **Userlist**节与具有相同节*identifier*参数的**连接**部分。
 

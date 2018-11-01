@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
 ms:contentKeyID: 48546904
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: f5c192589f2c90b2ce7b6c7b376b80c92b341e2d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7d1cbc0964c4e980c1dd5216431c5efd0c467dc4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860656"
+ms.locfileid: "25878260"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 用于指定 [Field](field-object-ado.md)、[Parameter](parameter-object-ado.md) 或 [Property](property-object-ado.md) 的数据类型。下表的说明列的圆括号中显示了对应的 OLE DB 类型指示器。有关 OLE DB 数据类型的详细信息，请参阅 *《OLE DB 程序员参考》* 的第 13 章和附录 A。
 

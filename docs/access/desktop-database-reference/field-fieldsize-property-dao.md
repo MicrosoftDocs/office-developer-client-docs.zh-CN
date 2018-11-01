@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
 ms:contentKeyID: 48547645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4de733dd88be212779d3ab9d9b562d4741492a87
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f757752e32ec45fa2b7d2c82f133078d70b64a5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468361"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877595"
 ---
 # <a name="fieldfieldsize-property-dao"></a>Field.FieldSize Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 返回 **[Recordset](field-object-dao.md)** 对象的 **[Fields](fields-collection-dao.md)** 集合中"备注"或"长二进制"类型 **[Field](recordset-object-dao.md)** 对象的数据库（而不是内存）中使用的字节数。

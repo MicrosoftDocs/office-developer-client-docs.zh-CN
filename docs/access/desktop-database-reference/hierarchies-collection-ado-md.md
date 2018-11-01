@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249348(v=office.15)
 ms:contentKeyID: 48545165
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d2faab550ac14b3e92b369c61956cf112effc73
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f49e9964a62465ce2d208cd0ed9102c089f715de
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465590"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875950"
 ---
 # <a name="hierarchies-collection-ado-md"></a>Hierarchies 集合 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 包含某一维度中的一系列 [Hierarchy](hierarchy-object-ado-md.md) 对象。
 

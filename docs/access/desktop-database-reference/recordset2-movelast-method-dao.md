@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
 ms:contentKeyID: 48544079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c66adcadcf07ab18db60ba39ae6bc66d58d5e5db
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e48e4816be8342165dba17d7ab4d478d53962114
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468995"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874592"
 ---
 # <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 移到指定的 **Recordset** 对象中的最后一条记录，并使该记录成为当前记录。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820932(v=office.15)
 ms:contentKeyID: 48546744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ee7efa4b25fe25bac728ce0c8d0dcd5ea8747b4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 50f7cc2b977b25602e8aec440796f105055a7437
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466897"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875629"
 ---
 # <a name="property-object-dao"></a>Property Object (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **Property** 对象代表 DAO 对象的内部特征或用户定义特征。
 

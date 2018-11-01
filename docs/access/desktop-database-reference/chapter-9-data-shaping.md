@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4636c853f58557b30474b78d902131329084a1a2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 988766f71fd57505693683d54a15b13409ae6960
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863883"
+ms.locfileid: "25875873"
 ---
 # <a name="chapter-9-data-shaping"></a>第 9 章：数据成型
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 *数据定形*提供一种查询数据源，并返回[Recordset](recordset-object-ado.md)表示两个或多个逻辑实体 （层次结构） 之间的父子关系。 分层关系的典型示例是客户和订单。 对于数据库中的每个顾客来说，可以有零个或更多个订单。 常规 SQL 可以使用 JOIN 语法检索数据，但是，对于给定的父子关系，冗余的父数据会在每个返回的记录中重复出现，因此这种方式可能效率低且不实用。 数据定形可以使父 **Recordset** 中的单个父记录与子 **Recordset** 中的多个子记录相关，从而避免了 JOIN 发生冗余。 很多人都会发现父子多 **Recordset** 编程模型比单个 **Recordset** JOIN 模型更简单且更容易使用。
 
