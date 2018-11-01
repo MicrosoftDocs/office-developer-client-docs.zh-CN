@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1101179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d67c87be0a3ffb7bc9d7b349746e397bb19a9c63
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e07a948a22a8101db2b2bffce3e6cde94c852668
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468195"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891231"
 ---
 # <a name="recordsetbatchsize-property-dao"></a>Recordset.BatchSize Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="syntax"></a>语法
 

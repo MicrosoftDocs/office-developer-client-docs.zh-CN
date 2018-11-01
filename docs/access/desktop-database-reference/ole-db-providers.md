@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab2a2ca391927b3ae338910af544d99e01309b06
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: cc70603c9b3dc48090558662b775725017062411
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861797"
+ms.locfileid: "25880220"
 ---
 # <a name="ole-db-providers"></a>OLE DB 提供程序
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 《ADO 程序员指南》中的[介绍](introduction-to-ado-programming.md)部分讨论 ADO 和其余 Microsoft 数据访问结构之间的关系。OLE DB 定义了一组 COM 接口，用于向应用程序提供对存储在各种信息源中的数据的统一访问。此方法允许数据源通过一些接口来共享其数据，这些接口支持适用于数据源的众多 DBMS 功能。在设计上，OLE DB 的高性能结构基于它所使用的基于组件且非常灵活的服务模型。OLE DB 只需要完成特定任务所必需的组件，而不是在应用程序和数据之间建立规定数量的中间层。
 

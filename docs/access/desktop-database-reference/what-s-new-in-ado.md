@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 86d3c151ac77ab4138afcd84ee2a14d94dd07aef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5f374abd42659708ddb1e9fcd131faaac94f05cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466498"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891112"
 ---
 # <a name="whats-new-in-ado"></a>ADO 中的新增功能
 
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013 
  
 
 ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO、ADO MD 和 ADOX。
@@ -174,7 +174,7 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 <td><p>用于在读取文本 <strong>Stream</strong> 对象时跳过一整行。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="write-method-ado.md">写入</a></p></td>
+<td><p><a href="write-method-ado.md">Write</a></p></td>
 <td><p>用于将二进制数据写入 <strong>Stream</strong> 对象。</p></td>
 </tr>
 <tr class="even">

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249894(v=office.15)
 ms:contentKeyID: 48547366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80712421cc146e482f848a997fe5f2d95cd951b1
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 74be66479fbd911979401b66e5af2e2f62ade646
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604272"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882467"
 ---
 # <a name="leveldepth-property-ado-md"></a>LevelDepth 属性 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示层次结构的根和某个成员之间的级数。
 
-<<<<<<< 标头
 ## <a name="return-values"></a>返回值
-=======
-## <a name="return-values"></a>返回值
->>>>>>> master
 
 返回一个 **Long** 整数值，并且该值为只读。
 

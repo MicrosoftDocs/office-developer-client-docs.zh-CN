@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053320
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b943c9668ce03df029eb4a27d4ed594d00300de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bc6ddd2da224c219a73318a916087b33643ef123
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467265"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891280"
 ---
 # <a name="documentcontainer-property-dao"></a>Document.Container Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回 [Document](container-object-dao.md) 对象所属的 ****Container**** 对象的名称（仅适用于 Microsoft Access 工作区）。
 

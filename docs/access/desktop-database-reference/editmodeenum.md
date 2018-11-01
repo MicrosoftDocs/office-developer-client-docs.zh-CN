@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)
 ms:contentKeyID: 48544737
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 790d28fa1efec5d5ad212094cb75f9d8d6456dbe
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f2c93f652b76948439cd7f4571608f538155724b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860271"
+ms.locfileid: "25881333"
 ---
 # <a name="editmodeenum"></a>EditModeEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定记录的编辑状态。
 

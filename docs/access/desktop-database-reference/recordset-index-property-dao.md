@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052906
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 01a19fd621d8124616872bebc54c6ac9482ffe08
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1a1799a87ba640ec90253bd262972b068fc01e03
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468462"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891210"
 ---
 # <a name="recordsetindex-property-dao"></a>Recordset.Index Property (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指示表类型 **[Recordset](index-object-dao.md)** 对象中的当前 **[Index](recordset-object-dao.md)** 对象的名称（仅适用于 Microsoft Access 工作区）。
 

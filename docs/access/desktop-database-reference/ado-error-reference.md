@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248997(v=office.15)
 ms:contentKeyID: 48543690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53dfb03616b0610ed580f4e576f4c48ef3be8525
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8c1308b084efbf68233e9647cfed26d905d56400
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468466"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878771"
 ---
 # <a name="ado-error-reference"></a>ADO 错误参考
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 **ErrorValueEnum** 常量描述 ADO 的错误值。若要获得这些枚举常量（包括值）的完整列表，请参阅 [附录 B：ADO 错误](appendix-b-ado-errors.md)。本部分将分析一些更有意思的错误并说明可能引发这些错误的某些特定情况或解决问题的解决方案。下面列出了 **ErrorValueEnum** 常量和短型正小数。
 

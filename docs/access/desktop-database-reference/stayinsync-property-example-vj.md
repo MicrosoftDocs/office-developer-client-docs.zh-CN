@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： StayInSync 属性示例 （VJ + +） TOCTitle: StayInSync 属性示例 （VJ + +） === 标题： StayInSync 属性示例 （VJ + +） TOCTitle: StayInSync 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID: 48548448 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: StayInSync 属性示例 (VJ++)
+TOCTitle: StayInSync property example (VJ++)
+ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
+ms:contentKeyID: 48548448
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 53e1ce8eb6c92d139821bdefd1bed64834b379d6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891147"
 ---
-
-<<<<<<< 标头
 # <a name="stayinsync-property-example-vj"></a>StayInSync 属性示例 (VJ++)
-=======
-# <a name="stayinsync-property-example-vj"></a>StayInSync 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [StayInSync](stayinsync-property-ado.md) 属性如何帮助访问分级 [Recordset](recordset-object-ado.md) 中的行。
 

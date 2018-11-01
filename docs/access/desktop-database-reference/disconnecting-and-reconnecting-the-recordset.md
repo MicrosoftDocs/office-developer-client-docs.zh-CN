@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250077(v=office.15)
 ms:contentKeyID: 48547975
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 90435606bb0b3059f5769c12fe7cf3cac0c8f9f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 094c68fbf5b62a7a1b3af16b826bf9c2c26a2af4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468835"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882418"
 ---
 # <a name="disconnecting-and-reconnecting-the-recordset"></a>断开和重新连接记录集
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
-## <a name="disconnecting-and-reconnecting-the-recordset"></a>断开和重新连接记录集
+## <a name="disconnecting-and-reconnecting-the-recordset"></a>断开并重新连接记录集
 
 ADO 的一项最强大功能是您能够从数据源打开一个客户端 **Recordset**，然后将该 **Recordset** 与数据源*断开*。一旦 **Recordset** 已断开，即可关闭与数据源的连接，从而释放用来维护该连接的服务器资源。您可以在 **Recordset** 断开的情况下继续查看和编辑其中的数据，随后再重新连接到数据源，并在批模式下发送更新。
 

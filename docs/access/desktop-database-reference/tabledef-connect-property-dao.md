@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eaedb53c8cb70746229e3f311ba5925e3b30ddef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c15343c003de0328d55125d52dcef865110665f0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467367"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881151"
 ---
 # <a name="tabledefconnect-property-dao"></a>TableDef.Connect Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值提供有关链接表的信息。可读/写 **String** 类型。
 

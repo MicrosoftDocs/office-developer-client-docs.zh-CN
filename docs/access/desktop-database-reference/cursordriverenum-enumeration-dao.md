@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834707(v=office.15)
 ms:contentKeyID: 48547832
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bcce8eefad7fcad7dee7e46274ffc45125dc36c9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 25d264c1e91982231e025f17c00db79e47a1d5c6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467883"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880738"
 ---
 # <a name="cursordriverenum-enumeration-dao"></a>CursorDriverEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定游标驱动程序的类型。
 

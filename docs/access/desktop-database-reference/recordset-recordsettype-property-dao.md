@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 043437a893eaba53ff89e7e77c018b19ebd38b5c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea371a29a37e4d8ffb235f08b1a7f9b2abb42418
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468449"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880332"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Recordset.RecordsetType Property (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 使用 **RecordsetType** 属性可以指定何种类型的记录集可以在窗体中使用。 **Byte** 型，可读写。
 

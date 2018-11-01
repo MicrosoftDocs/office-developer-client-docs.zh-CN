@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e0307710d5519fa08eff0843ca48268b5bc00f0a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: fd7d0ec92643a8a177134e19ea3e40983efdbb11
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862589"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891196"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 对指定的对象运行动作查询，或执行 SQL 语句。
 

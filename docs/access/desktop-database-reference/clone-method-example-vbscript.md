@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 503e73f2b40450ff230a0888352ac203fc79eabd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d93cd1f094d52bc6f9ccfd3ab64d2fa17f766356
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864051"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891098"
 ---
 # <a name="clone-method-example-vbscript"></a>Clone 方法示例 (VBScript)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。
 

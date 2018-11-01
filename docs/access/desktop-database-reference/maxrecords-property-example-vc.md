@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： MaxRecords 属性示例 （VC + +） TOCTitle: MaxRecords 属性示例 （VC + +） === 标题： MaxRecords 属性示例 （VC + +） TOCTitle: MaxRecords 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15) ms:contentKeyID: 48542910 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: MaxRecords 属性示例 (VC++)
+TOCTitle: MaxRecords property example (VC++)
+ms:assetid: 007936cf-a91c-c447-69f2-8286f3f868e6
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248778(v=office.15)
+ms:contentKeyID: 48542910
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: dfd310d635f347bf3ad49b2cc8332c2bde84322e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891217"
 ---
-
-<<<<<<< 标头
 # <a name="maxrecords-property-example-vc"></a>MaxRecords 属性示例 (VC++)
-=======
-# <a name="maxrecords-property-example-vc"></a>MaxRecords 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。
 

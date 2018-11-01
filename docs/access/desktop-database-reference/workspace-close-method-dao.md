@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198027(v=office.15)
 ms:contentKeyID: 48546565
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 87f72a58cd3e24838416ef4d19ec1a2cf91e7c1f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 38f1a7a525a2cf57a98ee3fa015ce29b368aab9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466113"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884126"
 ---
 # <a name="workspaceclose-method-dao"></a>Workspace.Close Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 关闭已打开的 **Workspace**。
 

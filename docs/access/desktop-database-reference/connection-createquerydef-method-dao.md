@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 35bf71742133b65c2e55583e1c62922cb5bc91e8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5ea0e06d133c95506a68e947254bfcd0ea8a2dc6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606036"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880304"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Connection.CreateQueryDef Method (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 创建新的 **[QueryDef](querydef-object-dao.md)** 对象。
 
@@ -64,11 +64,7 @@ ms.locfileid: "25606036"
 </table>
 
 
-<<<<<<< 标头
 ### <a name="return-value"></a>返回值
-=======
-### <a name="return-value"></a>返回值
->>>>>>> master
 
 QueryDef
 

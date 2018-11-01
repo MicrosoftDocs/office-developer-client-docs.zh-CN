@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： 方向属性 (ADO) TOCTitle： 方向属性 (ADO) === 标题： Direction 属性 (ADO) TOCTitle: Direction 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 51a94abb-7ce9-9adb-2b76-5391eb9f6863 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249262(v=office.15) ms:contentKeyID: 48544823 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Direction 属性 (ADO)
+TOCTitle: Direction property (ADO)
+ms:assetid: 51a94abb-7ce9-9adb-2b76-5391eb9f6863
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249262(v=office.15)
+ms:contentKeyID: 48544823
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b9e34522a69b2e79f8ef44b912e2c0648c5b813d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881291"
 ---
-
-<<<<<<< 标头
 # <a name="direction-property-ado"></a>Direction 属性 (ADO)
-=======
-# <a name="direction-property-ado"></a>Direction 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 [Parameter](parameter-object-ado.md) 参数是表示输入参数、输出参数还是输入输出参数，或者该参数是否为某个存储过程的返回值。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回 [ParameterDirectionEnum](parameterdirectionenum.md) 值。
 

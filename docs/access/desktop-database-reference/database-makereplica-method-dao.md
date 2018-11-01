@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8596548389b066b6ff11e7103090ef50906d79a9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8274d441c246d7363ec5d5c603c3079da732c84
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468350"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880801"
 ---
 # <a name="databasemakereplica-method-dao"></a>Database.MakeReplica Method (DAO)
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 根据另一个数据库副本制作一个新的副本（仅适用于 Microsoft Access 工作区）。
 

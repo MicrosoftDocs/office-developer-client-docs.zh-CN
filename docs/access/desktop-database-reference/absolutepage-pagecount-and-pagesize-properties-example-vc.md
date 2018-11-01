@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)ms:contentKeyID: 48546133 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: AbsolutePage、PageCount 和 PageSize 属性示例 (VC++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
+ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
+ms:contentKeyID: 48546133
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 70415069254edf731734dcd742d8d7bfd36f74d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891264"
 ---
-
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage、PageCount 和 PageSize 属性示例 (VC++)
-=== 标题： AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） TOCTitle: AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +） ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15) ms:contentKeyID:48546133 ms.date: 10/17/2018 mtps_version: office.15.aspx
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage、 PageCount 和 PageSize 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [AbsolutePage](absolutepage-property-ado.md)、[PageCount](pagecount-property-ado.md) 和 [PageSize](pagesize-property-ado.md) 属性显示 ***Employee***（雇员）表中的姓名和雇用日期，每次显示五条记录。
 

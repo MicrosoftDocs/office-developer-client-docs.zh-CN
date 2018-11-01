@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d551b60919b1fb3d48c7ac75bbf7c6183aee04d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: efaf00dc54068c6ce7c2991613b9485bcbdf41c7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469040"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891238"
 ---
 # <a name="indexprimary-property-dao"></a>Index.Primary Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 设置或返回一个值，该值指示 **[Index](index-object-dao.md)** 对象是否代表了对一个表的主键索引（仅适用于 Microsoft Access 工作区）。

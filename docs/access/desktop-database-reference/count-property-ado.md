@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： Count 属性 (ADO) TOCTitle: Count 属性 (ADO) === 标题： Count 属性 (ADO) TOCTitle: Count 属性 (ADO)
->>>>>>> 母版页 ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15) ms:contentKeyID: 48547253 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Count 属性 (ADO)
+TOCTitle: Count property (ADO)
+ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15)
+ms:contentKeyID: 48547253
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c710b02678940d898f910ef5215d879cd6ded163
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880857"
 ---
-
-<<<<<<< 标头
 # <a name="count-property-ado"></a>Count 属性 (ADO)
-=======
-# <a name="count-property-ado"></a>Count 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示集合中的对象数。
 
-<<<<<<< 标头
 ## <a name="return-value"></a>返回值
-=======
-## <a name="return-value"></a>返回值
->>>>>>> master
 
 返回 **Long** 值。
 

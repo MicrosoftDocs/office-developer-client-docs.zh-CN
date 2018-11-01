@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249670(v=office.15)
 ms:contentKeyID: 48546455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 931434288cbc14da5d3d9d9d53cd250555c7a767
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 233e1a9e6237500b3d13e3234e7c6ddf4d556abc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468660"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884133"
 ---
 # <a name="using-the-java-type-library-wizard"></a>使用 Java 类型库向导
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 Java 类型库向导是一项功能的 Visual J + + 1.x，集成开发环境的**工具**菜单。 其用途是搜索类型库创建一个允许访问 COM 对象的 Java 接口。 对于 Visual J + + 6.0，已使用[ADO for Windows Foundation Classes](ado-wfc-programming.md)取代 Java 类型库向导。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249798(v=office.15)
 ms:contentKeyID: 48546989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bedcbd734fc3bd0aaf325836f4c8b6b82af254c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58949b9df474d78bf62255d360414be7865d7e0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466491"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881592"
 ---
 # <a name="rds-properties-access"></a>RDS Properties (Access)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Source 属性示例 （VC + +） TOCTitle: Source 属性示例 （VC + +） === 标题： Source 属性示例 （VC + +） TOCTitle: Source 属性示例 （VC + +）
->>>>>>> 母版页 ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID: 48543949 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Source 属性示例 (VC++)
+TOCTitle: Source property example (VC++)
+ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
+ms:contentKeyID: 48543949
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d977f962e08ba8497392582fb26cfbf1d8691a28
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881200"
 ---
-
-<<<<<<< 标头
 # <a name="source-property-example-vc"></a>Source 属性示例 (VC++)
-=======
-# <a name="source-property-example-vc"></a>Source 属性示例 （VC + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。
 

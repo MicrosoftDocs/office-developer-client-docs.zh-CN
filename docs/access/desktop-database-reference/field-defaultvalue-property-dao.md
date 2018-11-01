@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d23e088ca93474ac928875730580a693abe9648c
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c4a2710c714f22ad7ec1a27dc3e4750f56d6fac5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862224"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891091"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 设置或返回 **[Field](field-object-dao.md)** 对象的默认值。对于尚未追加到 [**Fields**](fields-collection-dao.md) 集合的 **Field** 对象，该属性是可读写的（仅适用于 Microsoft Access 工作区）。
