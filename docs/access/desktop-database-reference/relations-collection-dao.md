@@ -6,35 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
 ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 590f3ac4298363ba04b0b00db165b9dcdc06ea11
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 08dfdda497311c70920dba3f082180503077d09d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466921"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873747"
 ---
-# <a name="relations-collection-dao"></a><span data-ttu-id="02ab6-102">Relations Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="02ab6-102">Relations Collection (DAO)</span></span>
+# <a name="relations-collection-dao"></a><span data-ttu-id="1236f-102">Relations Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="1236f-102">Relations Collection (DAO)</span></span>
 
 
-<span data-ttu-id="02ab6-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="02ab6-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1236f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1236f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="02ab6-104">**Relations** 集合包含 **Database** 对象的存储的 **Relation** 对象（仅适用于 Microsoft Access 数据库引擎数据库）。</span><span class="sxs-lookup"><span data-stu-id="02ab6-104">A **Relations** collection contains stored **Relation** objects of a **Database** object (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="1236f-104">**Relations** 集合包含 **Database** 对象的存储的 **Relation** 对象（仅适用于 Microsoft Access 数据库引擎数据库）。</span><span class="sxs-lookup"><span data-stu-id="1236f-104">A **Relations** collection contains stored **Relation** objects of a **Database** object (Microsoft Access database engine databases only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="02ab6-105">注解</span><span class="sxs-lookup"><span data-stu-id="02ab6-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1236f-105">注解</span><span class="sxs-lookup"><span data-stu-id="1236f-105">Remarks</span></span>
 
-<span data-ttu-id="02ab6-p101">可以使用 **Relation** 对象创建新关系并检查数据库中的现有关系。若要向 **Relations** 集合添加 **Relation** 对象，请首先使用 **CreateRelation** 方法创建该对象，然后使用 **Append** 方法将其追加到 **Relations** 集合中。此操作会导致在您关闭 **Database** 对象时保存 **Relation** 对象。若要从集合中删除 **Relation** 对象，请使用 **Delete** 方法。</span><span class="sxs-lookup"><span data-stu-id="02ab6-p101">You can use the **Relation** object to create new relationships and examine existing relationships in your database. To add a **Relation** object to the **Relations** collection, first create it with the **CreateRelation** method, and then append it to the **Relations** collection with the **Append** method. This will save the **Relation** object when you close the **Database** object. To remove a **Relation** object from the collection, use the **Delete** method.</span></span>
+<span data-ttu-id="1236f-p101">可以使用 **Relation** 对象创建新关系并检查数据库中的现有关系。若要向 **Relations** 集合添加 **Relation** 对象，请首先使用 **CreateRelation** 方法创建该对象，然后使用 **Append** 方法将其追加到 **Relations** 集合中。此操作会导致在您关闭 **Database** 对象时保存 **Relation** 对象。若要从集合中删除 **Relation** 对象，请使用 **Delete** 方法。</span><span class="sxs-lookup"><span data-stu-id="1236f-p101">You can use the **Relation** object to create new relationships and examine existing relationships in your database. To add a **Relation** object to the **Relations** collection, first create it with the **CreateRelation** method, and then append it to the **Relations** collection with the **Append** method. This will save the **Relation** object when you close the **Database** object. To remove a **Relation** object from the collection, use the **Delete** method.</span></span>
 
-<span data-ttu-id="02ab6-110">若要按照序号或 **Name** 属性设置来引用集合中的 **Relation** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="02ab6-110">To refer to a **Relation** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="1236f-110">若要按照序号或 **Name** 属性设置来引用集合中的 **Relation** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="1236f-110">To refer to a **Relation** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="02ab6-111">**Relations**(0)</span><span class="sxs-lookup"><span data-stu-id="02ab6-111">**Relations**(0)</span></span>
+<span data-ttu-id="1236f-111">**Relations**(0)</span><span class="sxs-lookup"><span data-stu-id="1236f-111">**Relations**(0)</span></span>
 
-<span data-ttu-id="02ab6-112">**关系**("name")</span><span class="sxs-lookup"><span data-stu-id="02ab6-112">**Relations**("name")</span></span>
+<span data-ttu-id="1236f-112">**关系**("name")</span><span class="sxs-lookup"><span data-stu-id="1236f-112">**Relations**("name")</span></span>
 
-<span data-ttu-id="02ab6-113">**关系**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="02ab6-113">**Relations**\!\[name\]</span></span>
+<span data-ttu-id="1236f-113">**关系**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="1236f-113">**Relations**\!\[name\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="02ab6-114">示例</span><span class="sxs-lookup"><span data-stu-id="02ab6-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1236f-114">示例</span><span class="sxs-lookup"><span data-stu-id="1236f-114">Example</span></span>
 
-<span data-ttu-id="02ab6-p102">以下示例演示现有的 **Relation** 对象如何控制数据输入。此过程尝试添加一个具有有意弄错的 CategoryID 的记录，从而触发错误处理例程。</span><span class="sxs-lookup"><span data-stu-id="02ab6-p102">This example shows how an existing **Relation** object can control data entry. The procedure attempts to add a record with a deliberately incorrect CategoryID; this triggers the error-handling routine.</span></span>
+<span data-ttu-id="1236f-p102">以下示例演示现有的 **Relation** 对象如何控制数据输入。此过程尝试添加一个具有有意弄错的 CategoryID 的记录，从而触发错误处理例程。</span><span class="sxs-lookup"><span data-stu-id="1236f-p102">This example shows how an existing **Relation** object can control data entry. The procedure attempts to add a record with a deliberately incorrect CategoryID; this triggers the error-handling routine.</span></span>
 
 ```vb
     Sub RelationX() 
@@ -95,7 +95,7 @@ ms.locfileid: "25466921"
 
 <br/>
 
-<span data-ttu-id="02ab6-p103">以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。该示例还演示创建新的 **Relation** 将如何同时在外部表中创建任何需要的 **Indexes**（Employees 表中的 DepartmentsEmployees 索引）。</span><span class="sxs-lookup"><span data-stu-id="02ab6-p103">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
+<span data-ttu-id="1236f-p103">以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。该示例还演示创建新的 **Relation** 将如何同时在外部表中创建任何需要的 **Indexes**（Employees 表中的 DepartmentsEmployees 索引）。</span><span class="sxs-lookup"><span data-stu-id="1236f-p103">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
 
 ```vb
     Sub CreateRelationX() 

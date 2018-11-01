@@ -10,23 +10,23 @@ f1_keywords:
 - dao360.chm1052881
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e5e299f87bc12e7a80c90c2527c1ecae27d8a2bb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 55b1ee667347766b927636f877821f29e9455345
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466728"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869601"
 ---
-# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="2a93a-102">Connection.Updatable Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="2a93a-102">Connection.Updatable Property (DAO)</span></span>
+# <a name="connectionupdatable-property-dao"></a><span data-ttu-id="627f9-102">Connection.Updatable Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="627f9-102">Connection.Updatable Property (DAO)</span></span>
 
 
-<span data-ttu-id="2a93a-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a93a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="627f9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="627f9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2a93a-p101">返回一个值，该值指示是否可以更改 DAO 对象。 **Boolean** 类型，只读。</span><span class="sxs-lookup"><span data-stu-id="2a93a-p101">Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.Read-only.</span></span>
+<span data-ttu-id="627f9-p101">返回一个值，该值指示是否可以更改 DAO 对象。 **Boolean** 类型，只读。</span><span class="sxs-lookup"><span data-stu-id="627f9-p101">Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2a93a-106">语法</span><span class="sxs-lookup"><span data-stu-id="2a93a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="627f9-106">语法</span><span class="sxs-lookup"><span data-stu-id="627f9-106">Syntax</span></span>
 
-<span data-ttu-id="2a93a-107">*表达式*。可更新</span><span class="sxs-lookup"><span data-stu-id="2a93a-107">*expression* .Updatable</span></span>
+<span data-ttu-id="627f9-107">*表达式*。可更新</span><span class="sxs-lookup"><span data-stu-id="627f9-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="2a93a-108">*表达式*一个返回**Connection**对象的表达式。</span><span class="sxs-lookup"><span data-stu-id="2a93a-108">*expression* An expression that returns a **Connection** object.</span></span>
+<span data-ttu-id="627f9-108">*表达式*一个返回**Connection**对象的表达式。</span><span class="sxs-lookup"><span data-stu-id="627f9-108">*expression* An expression that returns a **Connection** object.</span></span>
 

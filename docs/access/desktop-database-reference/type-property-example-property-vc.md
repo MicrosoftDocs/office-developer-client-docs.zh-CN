@@ -1,20 +1,26 @@
 ---
-<span data-ttu-id="daa4d-101"><<<<<<< 标头标题： Type 属性示例 （属性） （VC + +） TOCTitle: Type 属性示例 （属性） （VC + +） === 标题： Type 属性示例 （属性） （VC + +） TOCTitle: Type 属性示例 （属性） （VC + +）</span><span class="sxs-lookup"><span data-stu-id="daa4d-101"><<<<<<< HEAD title: Type Property Example (Property) (VC++) TOCTitle: Type Property Example (Property) (VC++) ======= title: Type property example (Property) (VC++) TOCTitle: Type property example (Property) (VC++)</span></span>
->>>>>>> <span data-ttu-id="daa4d-102">母版页 ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: 48548168 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="daa4d-102">master ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15) ms:contentKeyID: 48548168 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Type 属性示例（属性）(VC++)
+TOCTitle: Type property example (Property) (VC++)
+ms:assetid: ddf0233f-585e-6659-7fd6-f924f3a31f21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
+ms:contentKeyID: 48548168
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 21c0f6044b0c59949984a35e6f6d4b51c80b1801
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868425"
 ---
-
-<span data-ttu-id="daa4d-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="daa4d-103"><<<<<<< HEAD</span></span>
-# <a name="type-property-example-property-vc"></a><span data-ttu-id="daa4d-104">Type 属性示例（属性）(VC++)</span><span class="sxs-lookup"><span data-stu-id="daa4d-104">Type Property Example (Property) (VC++)</span></span>
-=======
-# <a name="type-property-example-property-vc"></a><span data-ttu-id="daa4d-105">Type 属性示例 （属性） （VC + +）</span><span class="sxs-lookup"><span data-stu-id="daa4d-105">Type property example (Property) (VC++)</span></span>
->>>>>>> <span data-ttu-id="daa4d-106">master</span><span class="sxs-lookup"><span data-stu-id="daa4d-106">master</span></span>
+# <a name="type-property-example-property-vc"></a><span data-ttu-id="854ae-102">Type 属性示例（属性）(VC++)</span><span class="sxs-lookup"><span data-stu-id="854ae-102">Type property example (Property) (VC++)</span></span>
 
 
-<span data-ttu-id="daa4d-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="daa4d-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="854ae-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="854ae-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="daa4d-p101">本示例演示 [Type](type-property-ado.md) 属性。该示例是列出集合的名称和类型（如 [Properties](properties-collection-ado.md)、[Fields](fields-collection-ado.md) 等）的实用程序模型。</span><span class="sxs-lookup"><span data-stu-id="daa4d-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
+<span data-ttu-id="854ae-p101">本示例演示 [Type](type-property-ado.md) 属性。该示例是列出集合的名称和类型（如 [Properties](properties-collection-ado.md)、[Fields](fields-collection-ado.md) 等）的实用程序模型。</span><span class="sxs-lookup"><span data-stu-id="854ae-p101">This example demonstrates the [Type](type-property-ado.md) property. It is a model of a utility for listing the names and types of a collection, like [Properties](properties-collection-ado.md), [Fields](fields-collection-ado.md), etc.</span></span>
 
-<span data-ttu-id="daa4d-p102">无需打开 [Recordset](recordset-object-ado.md) 即可访问其 **Properties** 集合；实例化 **Recordset** 对象时该集合即存在。然而，将 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** 将向 **Recordset** 对象的 **Properties** 集合添加一些动态属性，这使得本示例更具趣味性。为便于说明，我们将显式地使用 [Item](item-property-ado.md) 属性访问每个 [Property](property-object-ado.md) 对象。</span><span class="sxs-lookup"><span data-stu-id="daa4d-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
+<span data-ttu-id="854ae-p102">无需打开 [Recordset](recordset-object-ado.md) 即可访问其 **Properties** 集合；实例化 **Recordset** 对象时该集合即存在。然而，将 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** 将向 **Recordset** 对象的 **Properties** 集合添加一些动态属性，这使得本示例更具趣味性。为便于说明，我们将显式地使用 [Item](item-property-ado.md) 属性访问每个 [Property](property-object-ado.md) 对象。</span><span class="sxs-lookup"><span data-stu-id="854ae-p102">We do not need to open the [Recordset](recordset-object-ado.md) to access its **Properties** collection; they come into existence when the **Recordset** object is instantiated. However, setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient** adds several dynamic properties to the **Recordset** object's **Properties** collection, making the example a little more interesting. For sake of illustration, we explicitly use the [Item](item-property-ado.md) property to access each [Property](property-object-ado.md) object.</span></span>
 
 ```cpp 
  

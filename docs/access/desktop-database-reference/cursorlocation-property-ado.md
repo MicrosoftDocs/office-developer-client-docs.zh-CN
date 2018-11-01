@@ -1,32 +1,38 @@
 ---
-<span data-ttu-id="f2add-101"><<<<<<< 标头标题： CursorLocation 属性 (ADO) TOCTitle: CursorLocation 属性 (ADO) === 标题： CursorLocation 属性 (ADO) TOCTitle: CursorLocation 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="f2add-101"><<<<<<< HEAD title: CursorLocation Property (ADO) TOCTitle: CursorLocation Property (ADO) ======= title: CursorLocation property (ADO) TOCTitle: CursorLocation property (ADO)</span></span>
->>>>>>> <span data-ttu-id="f2add-102">母版页 ms:assetid: 8a048bd4-ae25-a555-1c07-14364b7e6560 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15) ms:contentKeyID: 48546182 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="f2add-102">master ms:assetid: 8a048bd4-ae25-a555-1c07-14364b7e6560 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15) ms:contentKeyID: 48546182 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: CursorLocation 属性 (ADO)
+TOCTitle: CursorLocation property (ADO)
+ms:assetid: 8a048bd4-ae25-a555-1c07-14364b7e6560
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
+ms:contentKeyID: 48546182
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7716e6de9fbda6ffab8071d5d794465efb6a51c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870161"
 ---
-
-<span data-ttu-id="f2add-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="f2add-103"><<<<<<< HEAD</span></span>
-# <a name="cursorlocation-property-ado"></a><span data-ttu-id="f2add-104">CursorLocation 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="f2add-104">CursorLocation Property (ADO)</span></span>
-=======
-# <a name="cursorlocation-property-ado"></a><span data-ttu-id="f2add-105">会在 CursorLocation 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="f2add-105">CursorLocation property (ADO)</span></span>
->>>>>>> <span data-ttu-id="f2add-106">master</span><span class="sxs-lookup"><span data-stu-id="f2add-106">master</span></span>
+# <a name="cursorlocation-property-ado"></a><span data-ttu-id="e589a-102">CursorLocation 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="e589a-102">CursorLocation property (ADO)</span></span>
 
 
-<span data-ttu-id="f2add-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2add-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e589a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e589a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f2add-108">指示游标服务的位置。</span><span class="sxs-lookup"><span data-stu-id="f2add-108">Indicates the location of the cursor service.</span></span>
+<span data-ttu-id="e589a-104">指示游标服务的位置。</span><span class="sxs-lookup"><span data-stu-id="e589a-104">Indicates the location of the cursor service.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="f2add-109">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="f2add-109">Settings And Return Values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="e589a-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="e589a-105">Settings And Return Values</span></span>
 
-<span data-ttu-id="f2add-110">设置或返回一个 **Long** 值，该值可以设置为 [CursorLocationEnum](cursorlocationenum.md) 值之一。</span><span class="sxs-lookup"><span data-stu-id="f2add-110">Sets or returns a **Long** value that can be set to one of the [CursorLocationEnum](cursorlocationenum.md) values.</span></span>
+<span data-ttu-id="e589a-106">设置或返回一个 **Long** 值，该值可以设置为 [CursorLocationEnum](cursorlocationenum.md) 值之一。</span><span class="sxs-lookup"><span data-stu-id="e589a-106">Sets or returns a **Long** value that can be set to one of the [CursorLocationEnum](cursorlocationenum.md) values.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f2add-111">备注</span><span class="sxs-lookup"><span data-stu-id="f2add-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e589a-107">备注</span><span class="sxs-lookup"><span data-stu-id="e589a-107">Remarks</span></span>
 
-<span data-ttu-id="f2add-p101">此属性允许在提供程序可访问的各种游标库间进行选择。通常，可以选择使用客户端游标库或位于服务器上的游标库。</span><span class="sxs-lookup"><span data-stu-id="f2add-p101">This property allows you to choose between various cursor libraries accessible to the provider. Usually, you can choose between using a client-side cursor library or one that is located on the server.</span></span>
+<span data-ttu-id="e589a-p101">此属性允许在提供程序可访问的各种游标库间进行选择。通常，可以选择使用客户端游标库或位于服务器上的游标库。</span><span class="sxs-lookup"><span data-stu-id="e589a-p101">This property allows you to choose between various cursor libraries accessible to the provider. Usually, you can choose between using a client-side cursor library or one that is located on the server.</span></span>
 
-<span data-ttu-id="f2add-p102">此属性设置仅影响在设置了该属性后建立的连接。更改 **CursorLocation** 属性对现有的连接没有影响。</span><span class="sxs-lookup"><span data-stu-id="f2add-p102">This property setting affects connections established only after the property has been set. Changing the **CursorLocation** property has no effect on existing connections.</span></span>
+<span data-ttu-id="e589a-p102">此属性设置仅影响在设置了该属性后建立的连接。更改 **CursorLocation** 属性对现有的连接没有影响。</span><span class="sxs-lookup"><span data-stu-id="e589a-p102">This property setting affects connections established only after the property has been set. Changing the **CursorLocation** property has no effect on existing connections.</span></span>
 
-<span data-ttu-id="f2add-p103">[Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 方法返回的游标将继承此设置。 **Recordset** 对象将从其关联的连接自动继承此设置。</span><span class="sxs-lookup"><span data-stu-id="f2add-p103">Cursors returned by the [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) method inherit this setting. **Recordset** objects will automatically inherit this setting from their associated connections.</span></span>
+<span data-ttu-id="e589a-p103">[Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 方法返回的游标将继承此设置。 **Recordset** 对象将从其关联的连接自动继承此设置。</span><span class="sxs-lookup"><span data-stu-id="e589a-p103">Cursors returned by the [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) method inherit this setting. **Recordset** objects will automatically inherit this setting from their associated connections.</span></span>
 
-<span data-ttu-id="f2add-118">此属性在 [Connection](connection-object-ado.md) 或已关闭的 [Recordset](recordset-object-ado.md) 上为可读/写属性，而在打开的 **Recordset** 上为只读属性。</span><span class="sxs-lookup"><span data-stu-id="f2add-118">This property is read/write on a [Connection](connection-object-ado.md) or a closed [Recordset](recordset-object-ado.md), and read-only on an open **Recordset**.</span></span>
+<span data-ttu-id="e589a-114">此属性在 [Connection](connection-object-ado.md) 或已关闭的 [Recordset](recordset-object-ado.md) 上为可读/写属性，而在打开的 **Recordset** 上为只读属性。</span><span class="sxs-lookup"><span data-stu-id="e589a-114">This property is read/write on a [Connection](connection-object-ado.md) or a closed [Recordset](recordset-object-ado.md), and read-only on an open **Recordset**.</span></span>
 
-<span data-ttu-id="f2add-119">**远程数据服务用法**客户端**Recordset**或**Connection**对象上时，**会在 CursorLocation**属性可以仅将设置为**adUseClient**。</span><span class="sxs-lookup"><span data-stu-id="f2add-119">**Remote Data Service Usage**When used on a client-side **Recordset** or **Connection** object, the **CursorLocation** property can only be set to **adUseClient**.</span></span>
+<span data-ttu-id="e589a-115">**远程数据服务用法**客户端**Recordset**或**Connection**对象上时，**会在 CursorLocation**属性可以仅将设置为**adUseClient**。</span><span class="sxs-lookup"><span data-stu-id="e589a-115">**Remote Data Service Usage**When used on a client-side **Recordset** or **Connection** object, the **CursorLocation** property can only be set to **adUseClient**.</span></span>
 

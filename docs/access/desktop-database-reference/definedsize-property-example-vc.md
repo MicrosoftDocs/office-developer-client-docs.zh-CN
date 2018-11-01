@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="85af6-101"><<<<<<< 标头标题： DefinedSize 属性示例 （VC + +） TOCTitle: DefinedSize 属性示例 （VC + +） === 标题： DefinedSize 属性示例 （VC + +） TOCTitle: DefinedSize 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="85af6-101"><<<<<<< HEAD title: DefinedSize Property Example (VC++) TOCTitle: DefinedSize Property Example (VC++) ======= title: DefinedSize property example (VC++) TOCTitle: DefinedSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="85af6-102">母版页 ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: 48548474 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="85af6-102">master ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15) ms:contentKeyID: 48548474 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: DefinedSize 属性示例 (VC++)
+TOCTitle: DefinedSize property example (VC++)
+ms:assetid: eac03770-4e6a-90fd-3e0e-89246b61d403
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250192(v=office.15)
+ms:contentKeyID: 48548474
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: a87889c7cd742c02def55cb802981fd3e16b3f91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867361"
 ---
-
-<span data-ttu-id="85af6-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="85af6-103"><<<<<<< HEAD</span></span>
-# <a name="definedsize-property-example-vc"></a><span data-ttu-id="85af6-104">DefinedSize 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="85af6-104">DefinedSize Property Example (VC++)</span></span>
-=======
-# <a name="definedsize-property-example-vc"></a><span data-ttu-id="85af6-105">DefinedSize 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="85af6-105">DefinedSize property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="85af6-106">master</span><span class="sxs-lookup"><span data-stu-id="85af6-106">master</span></span>
+# <a name="definedsize-property-example-vc"></a><span data-ttu-id="45b59-102">DefinedSize 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="45b59-102">DefinedSize property example (VC++)</span></span>
 
 
-<span data-ttu-id="85af6-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="85af6-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="45b59-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="45b59-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="85af6-108">本示例演示 [Column](definedsize-property-adox.md) 的 [DefinedSize](column-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="85af6-108">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="85af6-109">代码会重新定义的 FirstName 列中的**Employees**表*Northwind*数据库的大小。</span><span class="sxs-lookup"><span data-stu-id="85af6-109">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="85af6-110">然后，基于 [Employees](field-object-ado.md) （雇员）表的 [Recordset](recordset-object-ado.md) 的 FirstName（名字） **Field** 中值的变化将显现出来。</span><span class="sxs-lookup"><span data-stu-id="85af6-110">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="85af6-111">注意，默认情况下，在重新定义 **DefinedSize** 属性之后，FirstName（名字）字段中将填补空格。</span><span class="sxs-lookup"><span data-stu-id="85af6-111">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
+<span data-ttu-id="45b59-104">本示例演示 [Column](definedsize-property-adox.md) 的 [DefinedSize](column-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="45b59-104">This example demonstrates the [DefinedSize](definedsize-property-adox.md) property of a [Column](column-object-adox.md).</span></span> <span data-ttu-id="45b59-105">代码会重新定义的 FirstName 列中的**Employees**表*Northwind*数据库的大小。</span><span class="sxs-lookup"><span data-stu-id="45b59-105">The code will redefine the size of the FirstName column of the **Employees** table of the *Northwind* database.</span></span> <span data-ttu-id="45b59-106">然后，基于 [Employees](field-object-ado.md) （雇员）表的 [Recordset](recordset-object-ado.md) 的 FirstName（名字） **Field** 中值的变化将显现出来。</span><span class="sxs-lookup"><span data-stu-id="45b59-106">Then, the change in the values of the FirstName [Field](field-object-ado.md) of a [Recordset](recordset-object-ado.md) based on the **Employees** table is displayed.</span></span> <span data-ttu-id="45b59-107">注意，默认情况下，在重新定义 **DefinedSize** 属性之后，FirstName（名字）字段中将填补空格。</span><span class="sxs-lookup"><span data-stu-id="45b59-107">Note that by default, the FirstName field becomes padded with spaces after you redefine the **DefinedSize** property.</span></span>
 
 ```cpp 
  

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="48bcf-101"><<<<<<< 标头标题： Value 属性示例 （VC + +） TOCTitle: Value 属性示例 （VC + +） === 标题： Value 属性示例 （VC + +） TOCTitle: Value 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="48bcf-101"><<<<<<< HEAD title: Value Property Example (VC++) TOCTitle: Value Property Example (VC++) ======= title: Value property example (VC++) TOCTitle: Value property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="48bcf-102">母版页 ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15) ms:contentKeyID: 48548040 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="48bcf-102">master ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15) ms:contentKeyID: 48548040 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Value 属性示例 (VC++)
+TOCTitle: Value property example (VC++)
+ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15)
+ms:contentKeyID: 48548040
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: cd9d674db1763ca5cd78310e8ce593ba81ad3146
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868964"
 ---
-
-<span data-ttu-id="48bcf-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="48bcf-103"><<<<<<< HEAD</span></span>
-# <a name="value-property-example-vc"></a><span data-ttu-id="48bcf-104">Value 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="48bcf-104">Value Property Example (VC++)</span></span>
-=======
-# <a name="value-property-example-vc"></a><span data-ttu-id="48bcf-105">Value 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="48bcf-105">Value property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="48bcf-106">master</span><span class="sxs-lookup"><span data-stu-id="48bcf-106">master</span></span>
+# <a name="value-property-example-vc"></a><span data-ttu-id="3addb-102">Value 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="3addb-102">Value property example (VC++)</span></span>
 
 
-<span data-ttu-id="48bcf-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="48bcf-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3addb-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="3addb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="48bcf-108">此示例通过显示 ***Employees***（雇员）表的字段和属性值来演示 [Field](field-object-ado.md) 和 [Property](property-object-ado.md) 对象的 [Value](value-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="48bcf-108">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="3addb-104">此示例通过显示 ***Employees***（雇员）表的字段和属性值来演示 [Field](field-object-ado.md) 和 [Property](property-object-ado.md) 对象的 [Value](value-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="3addb-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```cpp 
  

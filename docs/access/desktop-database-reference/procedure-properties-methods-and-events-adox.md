@@ -6,34 +6,34 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250083(v=office.15)
 ms:contentKeyID: 48548009
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c5aed047ce9ef886d88e76b40ff3f101e5006970
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c1c97a6646641a633a3e8f041672db772262a7f7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467315"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874907"
 ---
-# <a name="procedure-properties-methods-and-events-adox"></a><span data-ttu-id="f56cf-102">Procedure Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f56cf-102">Procedure Properties, Methods, and Events (ADOX)</span></span>
+# <a name="procedure-properties-methods-and-events-adox"></a><span data-ttu-id="23c7d-102">Procedure Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="23c7d-102">Procedure Properties, Methods, and Events (ADOX)</span></span>
 
 
-<span data-ttu-id="f56cf-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f56cf-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="23c7d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="23c7d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="properties"></a><span data-ttu-id="f56cf-104">属性</span><span class="sxs-lookup"><span data-stu-id="f56cf-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="23c7d-104">属性</span><span class="sxs-lookup"><span data-stu-id="23c7d-104">Properties</span></span>
 
-- [<span data-ttu-id="f56cf-105">Command 属性</span><span class="sxs-lookup"><span data-stu-id="f56cf-105">Command Property</span></span>](command-property-adox.md)
+- [<span data-ttu-id="23c7d-105">Command 属性</span><span class="sxs-lookup"><span data-stu-id="23c7d-105">Command Property</span></span>](command-property-adox.md)
 
-- [<span data-ttu-id="f56cf-106">DateCreated 属性</span><span class="sxs-lookup"><span data-stu-id="f56cf-106">DateCreated Property</span></span>](datecreated-property-adox.md)
+- [<span data-ttu-id="23c7d-106">DateCreated 属性</span><span class="sxs-lookup"><span data-stu-id="23c7d-106">DateCreated Property</span></span>](datecreated-property-adox.md)
 
-- [<span data-ttu-id="f56cf-107">DateModified 属性</span><span class="sxs-lookup"><span data-stu-id="f56cf-107">DateModified Property</span></span>](datemodified-property-adox.md)
+- [<span data-ttu-id="23c7d-107">DateModified 属性</span><span class="sxs-lookup"><span data-stu-id="23c7d-107">DateModified Property</span></span>](datemodified-property-adox.md)
 
-- [<span data-ttu-id="f56cf-108">Name 属性</span><span class="sxs-lookup"><span data-stu-id="f56cf-108">Name Property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="23c7d-108">Name 属性</span><span class="sxs-lookup"><span data-stu-id="23c7d-108">Name Property</span></span>](name-property-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="f56cf-109">方法</span><span class="sxs-lookup"><span data-stu-id="f56cf-109">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="23c7d-109">方法</span><span class="sxs-lookup"><span data-stu-id="23c7d-109">Methods</span></span>
 
-<span data-ttu-id="f56cf-110">无。</span><span class="sxs-lookup"><span data-stu-id="f56cf-110">None.</span></span>
+<span data-ttu-id="23c7d-110">无。</span><span class="sxs-lookup"><span data-stu-id="23c7d-110">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="f56cf-111">事件</span><span class="sxs-lookup"><span data-stu-id="f56cf-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="23c7d-111">事件</span><span class="sxs-lookup"><span data-stu-id="23c7d-111">Events</span></span>
 
-<span data-ttu-id="f56cf-112">无。</span><span class="sxs-lookup"><span data-stu-id="f56cf-112">None.</span></span>
+<span data-ttu-id="23c7d-112">无。</span><span class="sxs-lookup"><span data-stu-id="23c7d-112">None.</span></span>
 
