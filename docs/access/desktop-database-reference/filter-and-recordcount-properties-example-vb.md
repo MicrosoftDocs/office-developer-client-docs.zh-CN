@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="f3deb-101"><<<<<<< 标头标题： Filter 和 RecordCount 属性示例 (VB) TOCTitle: Filter 和 RecordCount 属性示例 (VB) === 标题： Filter 和 RecordCount 属性示例 (VB) TOCTitle: Filter 和 RecordCount 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f3deb-101"><<<<<<< HEAD title: Filter and RecordCount Properties Example (VB) TOCTitle: Filter and RecordCount Properties Example (VB) ======= title: Filter and RecordCount properties example (VB) TOCTitle: Filter and RecordCount properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="f3deb-102">母版页 ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: 48544354 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="f3deb-102">master ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID: 48544354 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Filter 和 RecordCount 属性示例 (VB)
+TOCTitle: Filter and RecordCount properties example (VB)
+ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
+ms:contentKeyID: 48544354
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873164"
 ---
-
-<span data-ttu-id="f3deb-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="f3deb-103"><<<<<<< HEAD</span></span>
-# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="f3deb-104">Filter 和 RecordCount 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f3deb-104">Filter and RecordCount Properties Example (VB)</span></span>
-=======
-# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="f3deb-105">Filter 和 RecordCount 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f3deb-105">Filter and RecordCount properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="f3deb-106">master</span><span class="sxs-lookup"><span data-stu-id="f3deb-106">master</span></span>
+# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="424f4-102">Filter 和 RecordCount 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="424f4-102">Filter and RecordCount properties example (VB)</span></span>
 
 
-<span data-ttu-id="f3deb-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3deb-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="424f4-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="424f4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f3deb-108">本示例打开**记录集**上的发布者表***Pubs***数据库中。</span><span class="sxs-lookup"><span data-stu-id="f3deb-108">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="f3deb-109">然后使用 [Filter](filter-property-ado.md) 属性将可见的记录数限制为发行商属于特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="f3deb-109">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="f3deb-110">**RecordCount** 属性用于显示筛选和未筛选的记录集之间的差值。</span><span class="sxs-lookup"><span data-stu-id="f3deb-110">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
+<span data-ttu-id="424f4-104">本示例打开**记录集**上的发布者表***Pubs***数据库中。</span><span class="sxs-lookup"><span data-stu-id="424f4-104">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="424f4-105">然后使用 [Filter](filter-property-ado.md) 属性将可见的记录数限制为发行商属于特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="424f4-105">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="424f4-106">**RecordCount** 属性用于显示筛选和未筛选的记录集之间的差值。</span><span class="sxs-lookup"><span data-stu-id="424f4-106">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
 
 ```vb 
  
@@ -99,7 +105,7 @@ End Sub
 
 
 > [!NOTE]
-> <P><span data-ttu-id="f3deb-p102">[!注释] 如果知道要选择的数据，通过这种方式打开 <STRONG>Recordset</STRONG> 通过比使用 SQL 语句效率更高。本示例演示如何仅创建一个 <STRONG>Recordset</STRONG> 并获取特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="f3deb-p102">When you know the data you want to select, it's usually more efficient to open a <STRONG>Recordset</STRONG> with an SQL statement. This example shows how you can create just one <STRONG>Recordset</STRONG> and obtain records from a particular country/region.</span></span></P>
+> <P><span data-ttu-id="424f4-p102">[!注释] 如果知道要选择的数据，通过这种方式打开 <STRONG>Recordset</STRONG> 通过比使用 SQL 语句效率更高。本示例演示如何仅创建一个 <STRONG>Recordset</STRONG> 并获取特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="424f4-p102">When you know the data you want to select, it's usually more efficient to open a <STRONG>Recordset</STRONG> with an SQL statement. This example shows how you can create just one <STRONG>Recordset</STRONG> and obtain records from a particular country/region.</span></span></P>
 
 
 

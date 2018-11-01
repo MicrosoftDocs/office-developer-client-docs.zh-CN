@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="b9c82-101"><<<<<<< 标头标题： 属性和 Name 属性示例 （VJ + +） TOCTitle: Attributes 和 Name 属性示例 （VJ + +） === 标题： 属性和 Name 属性示例 （VJ + +） TOCTitle： 属性和 Name 属性示例 （VJ++)</span><span class="sxs-lookup"><span data-stu-id="b9c82-101"><<<<<<< HEAD title: Attributes and Name Properties Example (VJ++) TOCTitle: Attributes and Name Properties Example (VJ++) ======= title: Attributes and Name properties example (VJ++) TOCTitle: Attributes and Name properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="b9c82-102">母版页 ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: 48547035 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="b9c82-102">master ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: 48547035 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Attributes 和 Name 属性示例 (VJ++)
+TOCTitle: Attributes and Name properties example (VJ++)
+ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
+ms:contentKeyID: 48547035
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 68690d89e6b747c38647a3c8b49318aa577838fd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878744"
 ---
-
-<span data-ttu-id="b9c82-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="b9c82-103"><<<<<<< HEAD</span></span>
-# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="b9c82-104">Attributes 和 Name 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b9c82-104">Attributes and Name Properties Example (VJ++)</span></span>
-=======
-# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="b9c82-105">Attributes 和 Name 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="b9c82-105">Attributes and Name properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="b9c82-106">master</span><span class="sxs-lookup"><span data-stu-id="b9c82-106">master</span></span>
+# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="018e8-102">Attributes 和 Name 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="018e8-102">Attributes and Name properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="b9c82-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9c82-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="018e8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="018e8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b9c82-p101">此示例显示 [Connection](attributes-property-ado.md)、[Field](connection-object-ado.md) 和 [Property](field-object-ado.md) 对象的 [Attributes](property-object-ado.md) 属性的值。它使用 [Name](name-property-ado.md) 属性来显示每个 **Field** 和 **Property** 对象的名称。</span><span class="sxs-lookup"><span data-stu-id="b9c82-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="018e8-p101">此示例显示 [Connection](attributes-property-ado.md)、[Field](connection-object-ado.md) 和 [Property](field-object-ado.md) 对象的 [Attributes](property-object-ado.md) 属性的值。它使用 [Name](name-property-ado.md) 属性来显示每个 **Field** 和 **Property** 对象的名称。</span><span class="sxs-lookup"><span data-stu-id="018e8-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```java 
  

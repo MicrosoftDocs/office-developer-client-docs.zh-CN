@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="1bb02-101"><<<<<<< 标头标题： 优化属性示例 （VJ + +） TOCTitle： 优化属性示例 （VJ + +） === 标题： Optimize 属性示例 （VJ + +） TOCTitle: Optimize 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="1bb02-101"><<<<<<< HEAD title: Optimize Property Example (VJ++) TOCTitle: Optimize Property Example (VJ++) ======= title: Optimize property example (VJ++) TOCTitle: Optimize property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="1bb02-102">母版页 ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15) ms:contentKeyID: 48547949 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="1bb02-102">master ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15) ms:contentKeyID: 48547949 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Optimize 属性示例 (VJ++)
+TOCTitle: Optimize property example (VJ++)
+ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15)
+ms:contentKeyID: 48547949
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4ecbd621ddb1be36af50920cdbf77becb7d068d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883295"
 ---
-
-<span data-ttu-id="1bb02-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="1bb02-103"><<<<<<< HEAD</span></span>
-# <a name="optimize-property-example-vj"></a><span data-ttu-id="1bb02-104">Optimize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1bb02-104">Optimize Property Example (VJ++)</span></span>
-=======
-# <a name="optimize-property-example-vj"></a><span data-ttu-id="1bb02-105">Optimize 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="1bb02-105">Optimize property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="1bb02-106">master</span><span class="sxs-lookup"><span data-stu-id="1bb02-106">master</span></span>
+# <a name="optimize-property-example-vj"></a><span data-ttu-id="753f0-102">Optimize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="753f0-102">Optimize property example (VJ++)</span></span>
 
 
-<span data-ttu-id="1bb02-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1bb02-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="753f0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="753f0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1bb02-108">本示例演示 [Field](field-object-ado.md) 对象动态 Optimize 属性。</span><span class="sxs-lookup"><span data-stu-id="1bb02-108">This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property.</span></span> <span data-ttu-id="1bb02-109">***Pubs***数据库中的***作者***表的***zip***字段不编制索引。</span><span class="sxs-lookup"><span data-stu-id="1bb02-109">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="1bb02-110">对***zip***字段[Optimize](optimize-property-dynamic-ado.md)属性设置为**True**授权 ADO 建立索引的提高性能的[Find](find-method-ado.md)方法。</span><span class="sxs-lookup"><span data-stu-id="1bb02-110">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
+<span data-ttu-id="753f0-104">本示例演示 [Field](field-object-ado.md) 对象动态 Optimize 属性。</span><span class="sxs-lookup"><span data-stu-id="753f0-104">This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property.</span></span> <span data-ttu-id="753f0-105">***Pubs***数据库中的***作者***表的***zip***字段不编制索引。</span><span class="sxs-lookup"><span data-stu-id="753f0-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="753f0-106">对***zip***字段[Optimize](optimize-property-dynamic-ado.md)属性设置为**True**授权 ADO 建立索引的提高性能的[Find](find-method-ado.md)方法。</span><span class="sxs-lookup"><span data-stu-id="753f0-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
 
 ```java 
  

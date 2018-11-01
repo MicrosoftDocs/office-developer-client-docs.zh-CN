@@ -6,79 +6,79 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197799(v=office.15)
 ms:contentKeyID: 48546469
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fb327b77a9b17ef83ef48cbe5f9e657f859687b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: df3b2e8d0d5cba07a826a83098187b911f19a3a2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466567"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871967"
 ---
-# <a name="recordset-object-dao"></a><span data-ttu-id="5faf3-102">Recordset Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="5faf3-102">Recordset Object (DAO)</span></span>
+# <a name="recordset-object-dao"></a><span data-ttu-id="10858-102">Recordset Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="10858-102">Recordset Object (DAO)</span></span>
 
-<span data-ttu-id="5faf3-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="5faf3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="10858-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="10858-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5faf3-104">**Recordset** 对象代表基表中的记录或通过运行查询得到的记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-104">A **Recordset** object represents the records in a base table or the records that result from running a query.</span></span>
+<span data-ttu-id="10858-104">**Recordset** 对象代表基表中的记录或通过运行查询得到的记录。</span><span class="sxs-lookup"><span data-stu-id="10858-104">A **Recordset** object represents the records in a base table or the records that result from running a query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5faf3-105">注解</span><span class="sxs-lookup"><span data-stu-id="5faf3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="10858-105">注解</span><span class="sxs-lookup"><span data-stu-id="10858-105">Remarks</span></span>
 
-<span data-ttu-id="5faf3-p101">使用 **Recordset** 对象在记录级别处理数据库中的数据。使用 DAO 对象时，几乎可以完全使用 **Recordset** 对象处理数据。所有 **Recordset** 对象都是使用记录（行）和字段（列）构建的。共有五种类型的 **Recordset** 对象：</span><span class="sxs-lookup"><span data-stu-id="5faf3-p101">You use **Recordset** objects to manipulate data in a database at the record level. When you use DAO objects, you manipulate data almost entirely using **Recordset** objects. All **Recordset** objects are constructed using records (rows) and fields (columns). There are five types of **Recordset** objects:</span></span>
+<span data-ttu-id="10858-p101">使用 **Recordset** 对象在记录级别处理数据库中的数据。使用 DAO 对象时，几乎可以完全使用 **Recordset** 对象处理数据。所有 **Recordset** 对象都是使用记录（行）和字段（列）构建的。共有五种类型的 **Recordset** 对象：</span><span class="sxs-lookup"><span data-stu-id="10858-p101">You use **Recordset** objects to manipulate data in a database at the record level. When you use DAO objects, you manipulate data almost entirely using **Recordset** objects. All **Recordset** objects are constructed using records (rows) and fields (columns). There are five types of **Recordset** objects:</span></span>
 
-- <span data-ttu-id="5faf3-110">表类型 Recordset - 基表在代码中的表示形式，可用于在单个数据库表中添加、更改或删除记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="5faf3-110">Table-type Recordset— representation in code of a base table that you can use to add, change, or delete records from a single database table (Microsoft Access workspaces only).</span></span>
+- <span data-ttu-id="10858-110">表类型 Recordset - 基表在代码中的表示形式，可用于在单个数据库表中添加、更改或删除记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="10858-110">Table-type Recordset— representation in code of a base table that you can use to add, change, or delete records from a single database table (Microsoft Access workspaces only).</span></span>
 
-- <span data-ttu-id="5faf3-p102">动态集类型 Recordset - 其中可以包含可更新记录的查询结果。动态集类型 **Recordset** 对象是一个动态的记录集，可用于在一个或多个基础数据库表中添加、更改或删除记录。动态集类型 **Recordset** 对象可以包含数据库中的一个或多个表中的字段。此类型对应于 ODBC 键集游标。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p102">Dynaset-type Recordset— the result of a query that can have updatable records. A dynaset-type **Recordset** object is a dynamic set of records that you can use to add, change, or delete records from an underlying database table or tables. A dynaset-type **Recordset** object can contain fields from one or more tables in a database. This type corresponds to an ODBC keyset cursor.</span></span>
+- <span data-ttu-id="10858-p102">动态集类型 Recordset - 其中可以包含可更新记录的查询结果。动态集类型 **Recordset** 对象是一个动态的记录集，可用于在一个或多个基础数据库表中添加、更改或删除记录。动态集类型 **Recordset** 对象可以包含数据库中的一个或多个表中的字段。此类型对应于 ODBC 键集游标。</span><span class="sxs-lookup"><span data-stu-id="10858-p102">Dynaset-type Recordset— the result of a query that can have updatable records. A dynaset-type **Recordset** object is a dynamic set of records that you can use to add, change, or delete records from an underlying database table or tables. A dynaset-type **Recordset** object can contain fields from one or more tables in a database. This type corresponds to an ODBC keyset cursor.</span></span>
 
-- <span data-ttu-id="5faf3-p103">快照类型 Recordset - 一组记录的静态副本，可用于查找数据或生成报表。快照类型 **Recordset** 对象可以包含数据库中的一个或多个表中的字段，但不能进行更新。此类型对应于 ODBC 静态游标。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p103">Snapshot-type Recordset— a static copy of a set of records that you can use to find data or generate reports. A snapshot-type **Recordset** object can contain fields from one or more tables in a database but can't be updated. This type corresponds to an ODBC static cursor.</span></span>
+- <span data-ttu-id="10858-p103">快照类型 Recordset - 一组记录的静态副本，可用于查找数据或生成报表。快照类型 **Recordset** 对象可以包含数据库中的一个或多个表中的字段，但不能进行更新。此类型对应于 ODBC 静态游标。</span><span class="sxs-lookup"><span data-stu-id="10858-p103">Snapshot-type Recordset— a static copy of a set of records that you can use to find data or generate reports. A snapshot-type **Recordset** object can contain fields from one or more tables in a database but can't be updated. This type corresponds to an ODBC static cursor.</span></span>
 
-- <span data-ttu-id="5faf3-p104">仅向前类型 Recordset - 除不提供游标外，其他均与快照类型相同。只能在记录中向前滚动。如果只需遍历结果集一次，这种类型可提高性能。此类型对应于 ODBC 仅向前游标。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p104">Forward-only-type Recordset— identical to a snapshot except that no cursor is provided. You can only scroll forward through records. This improves performance in situations where you only need to make a single pass through a result set. This type corresponds to an ODBC forward-only cursor.</span></span>
+- <span data-ttu-id="10858-p104">仅向前类型 Recordset - 除不提供游标外，其他均与快照类型相同。只能在记录中向前滚动。如果只需遍历结果集一次，这种类型可提高性能。此类型对应于 ODBC 仅向前游标。</span><span class="sxs-lookup"><span data-stu-id="10858-p104">Forward-only-type Recordset— identical to a snapshot except that no cursor is provided. You can only scroll forward through records. This improves performance in situations where you only need to make a single pass through a result set. This type corresponds to an ODBC forward-only cursor.</span></span>
 
-- <span data-ttu-id="5faf3-p105">动态类型 Recordset - 一个或多个基表中的查询结果集，可以在该基表中添加、更改或删除行返回查询产生的记录。此外，其他用户在基表中添加、删除或编辑的记录也出现在 **Recordset** 中。此类型对应于 ODBC 动态游标（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p105">Dynamic-type Recordset— a query result set from one or more base tables in which you can add, change, or delete records from a row-returning query. Further, records other users add, delete, or edit in the base tables also appear in your **Recordset**. This type corresponds to an ODBC dynamic cursor (ODBCDirect workspaces only).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="5faf3-125">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="5faf3-125">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="5faf3-126">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="5faf3-126">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
-
-<span data-ttu-id="5faf3-127">您可以选择您想要创建使用**OpenRecordset**方法的 type 参数的**Recordset**对象的类型。</span><span class="sxs-lookup"><span data-stu-id="5faf3-127">You can choose the type of **Recordset** object you want to create using the type argument of the **OpenRecordset** method.</span></span>
-
-<span data-ttu-id="5faf3-128">在 Microsoft Access 工作区中，如果未指定类型，DAO 尝试创建**Recordset**的类型有可用的大多数功能开头表。</span><span class="sxs-lookup"><span data-stu-id="5faf3-128">In a Microsoft Access workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the most functionality available, starting with table.</span></span> <span data-ttu-id="5faf3-129">如果此类型不可用，DAO 将尝试动态集类型，其次为快照类型，最后为仅向前类型的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="5faf3-129">If this type isn't available, DAO attempts a dynaset, then a snapshot, and finally a forward-only type **Recordset** object.</span></span>
-
-<span data-ttu-id="5faf3-130">在适用于 ODBCDirect 工作区中，如果未指定类型，DAO 尝试使用的最快的查询响应，创建**Recordset**的类型开头仅向前型。</span><span class="sxs-lookup"><span data-stu-id="5faf3-130">In an ODBCDirect workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the fastest query response, starting with forward-only.</span></span> <span data-ttu-id="5faf3-131">如果此类型不可用，DAO 将尝试快照类型，其次为动态集类型，最后为动态类型的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="5faf3-131">If this type isn't available, DAO attempts a snapshot, then a dynaset, and finally a dynamic- type **Recordset** object.</span></span>
-
-<span data-ttu-id="5faf3-p109">使用 Microsoft Access 工作区中的非链接 [**TableDef**](tabledef-object-dao.md) 对象创建 **Recordset** 对象时，将创建表类型 **Recordset** 对象。使用链接表或连接到 Microsoft Access 数据库引擎的 ODBC 数据库中的表只能创建动态集类型或快照类型 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p109">When creating a **Recordset** object using a non-linked **[TableDef](tabledef-object-dao.md)** object in a Microsoft Access workspace, table-type **Recordset** objects are created. Only dynaset-type or snapshot-type **Recordset** objects can be created with linked tables or tables in Microsoft Access database engine-connected ODBC databases.</span></span>
-
-<span data-ttu-id="5faf3-134">打开 **Recordset** 对象时，会自动在 **Recordsets** 集合中添加一个新的相应对象；关闭该对象时，会自动删除相应的对象。</span><span class="sxs-lookup"><span data-stu-id="5faf3-134">A new **Recordset** object is automatically added to the **Recordsets** collection when you open the object, and is automatically removed when you close it.</span></span>
+- <span data-ttu-id="10858-p105">动态类型 Recordset - 一个或多个基表中的查询结果集，可以在该基表中添加、更改或删除行返回查询产生的记录。此外，其他用户在基表中添加、删除或编辑的记录也出现在 **Recordset** 中。此类型对应于 ODBC 动态游标（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="10858-p105">Dynamic-type Recordset— a query result set from one or more base tables in which you can add, change, or delete records from a row-returning query. Further, records other users add, delete, or edit in the base tables also appear in your **Recordset**. This type corresponds to an ODBC dynamic cursor (ODBCDirect workspaces only).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5faf3-p110">[!注释] 如果使用变量表示 **Recordset** 对象和包含 **Recordset** 的 **Database** 对象，请确保这些变量具有相同的范围或生命周期。例如，如果声明了表示 **Recordset** 对象的公共变量，请确保表示包含了 **Recordset** 的 **Database** 的变量也是公共的，或者是使用 **Static** 关键字在 **Sub** 或 **Function** 过程中声明的。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p110">If you use variables to represent a **Recordset** object and the **Database** object that contains the **Recordset**, make sure the variables have the same scope, or lifetime. For example, if you declare a public variable that represents a **Recordset** object, make sure the variable that represents the **Database** containing the **Recordset** is also public, or is declared in a **Sub** or **Function** procedure using the **Static** keyword.</span></span>
+> <span data-ttu-id="10858-125">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="10858-125">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="10858-126">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="10858-126">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
-<span data-ttu-id="5faf3-p111">可根据需要创建任意数目的 **Recordset** 对象变量。不同的 **Recordset** 对象可以在不发生冲突的情况下访问相同的表、查询和字段。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p111">You can create as many **Recordset** object variables as needed. Different **Recordset** objects can access the same tables, queries, and fields without conflicting.</span></span>
+<span data-ttu-id="10858-127">您可以选择您想要创建使用**OpenRecordset**方法的 type 参数的**Recordset**对象的类型。</span><span class="sxs-lookup"><span data-stu-id="10858-127">You can choose the type of **Recordset** object you want to create using the type argument of the **OpenRecordset** method.</span></span>
 
-<span data-ttu-id="5faf3-139">动态集类型、 快照和仅向前类型**Recordset**对象存储在本地内存中。</span><span class="sxs-lookup"><span data-stu-id="5faf3-139">Dynaset–, snapshot–, and forward–only–type **Recordset** objects are stored in local memory.</span></span> <span data-ttu-id="5faf3-140">如果本地内存的空间不足以存储数据，Microsoft Access 数据库引擎会将额外的数据保存到 TEMP 磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="5faf3-140">If there isn't enough space in local memory to store the data, the Microsoft Access database engine saves the additional data to TEMP disk space.</span></span> <span data-ttu-id="5faf3-141">如果此空间已耗尽，将发生可捕获的错误。</span><span class="sxs-lookup"><span data-stu-id="5faf3-141">If this space is exhausted, a trappable error occurs.</span></span>
+<span data-ttu-id="10858-128">在 Microsoft Access 工作区中，如果未指定类型，DAO 尝试创建**Recordset**的类型有可用的大多数功能开头表。</span><span class="sxs-lookup"><span data-stu-id="10858-128">In a Microsoft Access workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the most functionality available, starting with table.</span></span> <span data-ttu-id="10858-129">如果此类型不可用，DAO 将尝试动态集类型，其次为快照类型，最后为仅向前类型的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="10858-129">If this type isn't available, DAO attempts a dynaset, then a snapshot, and finally a forward-only type **Recordset** object.</span></span>
 
-<span data-ttu-id="5faf3-p113">**Recordset** 对象的默认集合为 **Fields** 集合， **[Field](field-object-dao.md)** 对象的默认属性为 **[Value](field-value-property-dao.md)** 属性。可使用这些默认值简化代码。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p113">The default collection of a **Recordset** object is the **Fields** collection, and the default property of a **[Field](field-object-dao.md)** object is the **[Value](field-value-property-dao.md)** property. Use these defaults to simplify your code.</span></span>
+<span data-ttu-id="10858-130">在适用于 ODBCDirect 工作区中，如果未指定类型，DAO 尝试使用的最快的查询响应，创建**Recordset**的类型开头仅向前型。</span><span class="sxs-lookup"><span data-stu-id="10858-130">In an ODBCDirect workspace, if you don't specify a type, DAO attempts to create the type of **Recordset** with the fastest query response, starting with forward-only.</span></span> <span data-ttu-id="10858-131">如果此类型不可用，DAO 将尝试快照类型，其次为动态集类型，最后为动态类型的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="10858-131">If this type isn't available, DAO attempts a snapshot, then a dynaset, and finally a dynamic- type **Recordset** object.</span></span>
 
-<span data-ttu-id="5faf3-p114">在创建 **Recordset** 对象时，如果存在任何记录的话，当前记录将定位到第一条记录。如果不存在任何记录， **RecordCount** 属性设置为 0，并且 **BOF** 和 **EOF** 属性设置为 **True**。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p114">When you create a **Recordset** object, the current record is positioned to the first record if there are any records. If there are no records, the **RecordCount** property setting is 0, and the **BOF** and **EOF** property settings are **True**.</span></span>
+<span data-ttu-id="10858-p109">使用 Microsoft Access 工作区中的非链接 [**TableDef**](tabledef-object-dao.md) 对象创建 **Recordset** 对象时，将创建表类型 **Recordset** 对象。使用链接表或连接到 Microsoft Access 数据库引擎的 ODBC 数据库中的表只能创建动态集类型或快照类型 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="10858-p109">When creating a **Recordset** object using a non-linked **[TableDef](tabledef-object-dao.md)** object in a Microsoft Access workspace, table-type **Recordset** objects are created. Only dynaset-type or snapshot-type **Recordset** objects can be created with linked tables or tables in Microsoft Access database engine-connected ODBC databases.</span></span>
 
-<span data-ttu-id="5faf3-146">可以使用 **MoveNext**、 **MovePrevious**、 **MoveFirst** 和 **MoveLast** 方法重新定位当前记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-146">You can use the **MoveNext**, **MovePrevious**, **MoveFirst**, and **MoveLast** methods to reposition the current record.</span></span> <span data-ttu-id="5faf3-147">仅向前类型**Recordset**对象才支持仅**MoveNext**方法。</span><span class="sxs-lookup"><span data-stu-id="5faf3-147">Forward–only–type **Recordset** objects support only the **MoveNext** method.</span></span> <span data-ttu-id="5faf3-148">在使用 Move 方法访问每条记录（或"遍历" **Recordset**）时，可以使用 **BOF** 和 **EOF** 属性检查 **Recordset** 对象的开头或结尾。</span><span class="sxs-lookup"><span data-stu-id="5faf3-148">When using the Move methods to visit each record (or "walk" through the **Recordset**), you can use the **BOF** and **EOF** properties to check for the beginning or end of the **Recordset** object.</span></span>
-
-<span data-ttu-id="5faf3-p116">对于 Microsoft Access 工作区中的动态集类型和快照类型 **Recordset** 对象，还可以使用 Find 方法（例如 **FindFirst**）根据条件查找特定的记录。如果未找到记录， **NoMatch** 属性将设置为 **True**。对于表类型 **Recordset** 对象，可以使用 **Seek** 方法扫描记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p116">With dynaset- and snapshot-type **Recordset** objects in a Microsoft Access workspace, you can also use the Find methods, such as **FindFirst**, to locate a specific record based on criteria. If the record isn't found, the **NoMatch** property is set to **True**. For table-type **Recordset** objects, you can scan records using the **Seek** method.</span></span>
-
-<span data-ttu-id="5faf3-152">**Type** 属性指示所创建的 **Recordset** 对象的类型， **Updatable** 属性指示是否可以更改对象的记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-152">The **Type** property indicates the type of **Recordset** object created, and the **Updatable** property indicates whether you can change the object's records.</span></span>
-
-<span data-ttu-id="5faf3-153">**TableDef** 对象中存储了有关基表结构的信息，例如每个 **Field** 对象及任何 **Index** 对象的名称和数据类型。</span><span class="sxs-lookup"><span data-stu-id="5faf3-153">Information about the structure of a base table, such as the names and data types of each **Field** object and any **Index** objects, is stored in a **TableDef** object.</span></span>
-
-<span data-ttu-id="5faf3-154">若要按照序号或 **Name** 属性设置来引用集合中的 **Recordset** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="5faf3-154">To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
-
-- <span data-ttu-id="5faf3-155">**Recordsets**(0)</span><span class="sxs-lookup"><span data-stu-id="5faf3-155">**Recordsets**(0)</span></span>
-
-- <span data-ttu-id="5faf3-156">**记录集**("name")</span><span class="sxs-lookup"><span data-stu-id="5faf3-156">**Recordsets**("name")</span></span>
-
-- <span data-ttu-id="5faf3-157">**记录集**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="5faf3-157">**Recordsets**\!\[name\]</span></span>
+<span data-ttu-id="10858-134">打开 **Recordset** 对象时，会自动在 **Recordsets** 集合中添加一个新的相应对象；关闭该对象时，会自动删除相应的对象。</span><span class="sxs-lookup"><span data-stu-id="10858-134">A new **Recordset** object is automatically added to the **Recordsets** collection when you open the object, and is automatically removed when you close it.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5faf3-p117">[!注释] 可以多次打开同一个数据源或数据库中的 **Recordset** 对象，并在 **Recordsets** 集合中创建重复的名称。应该将 **Recordset** 对象分配给对象变量，并通过变量名来引用它们。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p117">You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="10858-p110">[!注释] 如果使用变量表示 **Recordset** 对象和包含 **Recordset** 的 **Database** 对象，请确保这些变量具有相同的范围或生命周期。例如，如果声明了表示 **Recordset** 对象的公共变量，请确保表示包含了 **Recordset** 的 **Database** 的变量也是公共的，或者是使用 **Static** 关键字在 **Sub** 或 **Function** 过程中声明的。</span><span class="sxs-lookup"><span data-stu-id="10858-p110">If you use variables to represent a **Recordset** object and the **Database** object that contains the **Recordset**, make sure the variables have the same scope, or lifetime. For example, if you declare a public variable that represents a **Recordset** object, make sure the variable that represents the **Database** containing the **Recordset** is also public, or is declared in a **Sub** or **Function** procedure using the **Static** keyword.</span></span>
 
-## <a name="example"></a><span data-ttu-id="5faf3-160">示例</span><span class="sxs-lookup"><span data-stu-id="5faf3-160">Example</span></span>
+<span data-ttu-id="10858-p111">可根据需要创建任意数目的 **Recordset** 对象变量。不同的 **Recordset** 对象可以在不发生冲突的情况下访问相同的表、查询和字段。</span><span class="sxs-lookup"><span data-stu-id="10858-p111">You can create as many **Recordset** object variables as needed. Different **Recordset** objects can access the same tables, queries, and fields without conflicting.</span></span>
 
-<span data-ttu-id="5faf3-161">以下示例通过打开四个不同类型的 **Recordsets**，枚举当前 **Database** 的 Recordsets 集合，以及枚举每个 **Recordset** 的 **Properties** 集合，演示 **Recordset** 对象和 **Recordsets** 集合。</span><span class="sxs-lookup"><span data-stu-id="5faf3-161">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span></span>
+<span data-ttu-id="10858-139">动态集类型、 快照和仅向前类型**Recordset**对象存储在本地内存中。</span><span class="sxs-lookup"><span data-stu-id="10858-139">Dynaset–, snapshot–, and forward–only–type **Recordset** objects are stored in local memory.</span></span> <span data-ttu-id="10858-140">如果本地内存的空间不足以存储数据，Microsoft Access 数据库引擎会将额外的数据保存到 TEMP 磁盘空间。</span><span class="sxs-lookup"><span data-stu-id="10858-140">If there isn't enough space in local memory to store the data, the Microsoft Access database engine saves the additional data to TEMP disk space.</span></span> <span data-ttu-id="10858-141">如果此空间已耗尽，将发生可捕获的错误。</span><span class="sxs-lookup"><span data-stu-id="10858-141">If this space is exhausted, a trappable error occurs.</span></span>
+
+<span data-ttu-id="10858-p113">**Recordset** 对象的默认集合为 **Fields** 集合， **[Field](field-object-dao.md)** 对象的默认属性为 **[Value](field-value-property-dao.md)** 属性。可使用这些默认值简化代码。</span><span class="sxs-lookup"><span data-stu-id="10858-p113">The default collection of a **Recordset** object is the **Fields** collection, and the default property of a **[Field](field-object-dao.md)** object is the **[Value](field-value-property-dao.md)** property. Use these defaults to simplify your code.</span></span>
+
+<span data-ttu-id="10858-p114">在创建 **Recordset** 对象时，如果存在任何记录的话，当前记录将定位到第一条记录。如果不存在任何记录， **RecordCount** 属性设置为 0，并且 **BOF** 和 **EOF** 属性设置为 **True**。</span><span class="sxs-lookup"><span data-stu-id="10858-p114">When you create a **Recordset** object, the current record is positioned to the first record if there are any records. If there are no records, the **RecordCount** property setting is 0, and the **BOF** and **EOF** property settings are **True**.</span></span>
+
+<span data-ttu-id="10858-146">可以使用 **MoveNext**、 **MovePrevious**、 **MoveFirst** 和 **MoveLast** 方法重新定位当前记录。</span><span class="sxs-lookup"><span data-stu-id="10858-146">You can use the **MoveNext**, **MovePrevious**, **MoveFirst**, and **MoveLast** methods to reposition the current record.</span></span> <span data-ttu-id="10858-147">仅向前类型**Recordset**对象才支持仅**MoveNext**方法。</span><span class="sxs-lookup"><span data-stu-id="10858-147">Forward–only–type **Recordset** objects support only the **MoveNext** method.</span></span> <span data-ttu-id="10858-148">在使用 Move 方法访问每条记录（或"遍历" **Recordset**）时，可以使用 **BOF** 和 **EOF** 属性检查 **Recordset** 对象的开头或结尾。</span><span class="sxs-lookup"><span data-stu-id="10858-148">When using the Move methods to visit each record (or "walk" through the **Recordset**), you can use the **BOF** and **EOF** properties to check for the beginning or end of the **Recordset** object.</span></span>
+
+<span data-ttu-id="10858-p116">对于 Microsoft Access 工作区中的动态集类型和快照类型 **Recordset** 对象，还可以使用 Find 方法（例如 **FindFirst**）根据条件查找特定的记录。如果未找到记录， **NoMatch** 属性将设置为 **True**。对于表类型 **Recordset** 对象，可以使用 **Seek** 方法扫描记录。</span><span class="sxs-lookup"><span data-stu-id="10858-p116">With dynaset- and snapshot-type **Recordset** objects in a Microsoft Access workspace, you can also use the Find methods, such as **FindFirst**, to locate a specific record based on criteria. If the record isn't found, the **NoMatch** property is set to **True**. For table-type **Recordset** objects, you can scan records using the **Seek** method.</span></span>
+
+<span data-ttu-id="10858-152">**Type** 属性指示所创建的 **Recordset** 对象的类型， **Updatable** 属性指示是否可以更改对象的记录。</span><span class="sxs-lookup"><span data-stu-id="10858-152">The **Type** property indicates the type of **Recordset** object created, and the **Updatable** property indicates whether you can change the object's records.</span></span>
+
+<span data-ttu-id="10858-153">**TableDef** 对象中存储了有关基表结构的信息，例如每个 **Field** 对象及任何 **Index** 对象的名称和数据类型。</span><span class="sxs-lookup"><span data-stu-id="10858-153">Information about the structure of a base table, such as the names and data types of each **Field** object and any **Index** objects, is stored in a **TableDef** object.</span></span>
+
+<span data-ttu-id="10858-154">若要按照序号或 **Name** 属性设置来引用集合中的 **Recordset** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="10858-154">To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+
+- <span data-ttu-id="10858-155">**Recordsets**(0)</span><span class="sxs-lookup"><span data-stu-id="10858-155">**Recordsets**(0)</span></span>
+
+- <span data-ttu-id="10858-156">**记录集**("name")</span><span class="sxs-lookup"><span data-stu-id="10858-156">**Recordsets**("name")</span></span>
+
+- <span data-ttu-id="10858-157">**记录集**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="10858-157">**Recordsets**\!\[name\]</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="10858-p117">[!注释] 可以多次打开同一个数据源或数据库中的 **Recordset** 对象，并在 **Recordsets** 集合中创建重复的名称。应该将 **Recordset** 对象分配给对象变量，并通过变量名来引用它们。</span><span class="sxs-lookup"><span data-stu-id="10858-p117">You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.</span></span>
+
+## <a name="example"></a><span data-ttu-id="10858-160">示例</span><span class="sxs-lookup"><span data-stu-id="10858-160">Example</span></span>
+
+<span data-ttu-id="10858-161">以下示例通过打开四个不同类型的 **Recordsets**，枚举当前 **Database** 的 Recordsets 集合，以及枚举每个 **Recordset** 的 **Properties** 集合，演示 **Recordset** 对象和 **Recordsets** 集合。</span><span class="sxs-lookup"><span data-stu-id="10858-161">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span></span>
 
 ```vb
     Sub RecordsetX() 
@@ -143,7 +143,7 @@ ms.locfileid: "25466567"
 
 <br/>
 
-<span data-ttu-id="5faf3-p118">以下示例使用 **OpenRecordset** 方法打开五个不同的 **Recordset** 对象并显示其内容。若要使该过程正常运行，需要使用 OpenRecordsetOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="5faf3-p118">This example uses the **OpenRecordset** method to open five different **Recordset** objects and display their contents. The OpenRecordsetOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="10858-p118">以下示例使用 **OpenRecordset** 方法打开五个不同的 **Recordset** 对象并显示其内容。若要使该过程正常运行，需要使用 OpenRecordsetOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="10858-p118">This example uses the **OpenRecordset** method to open five different **Recordset** objects and display their contents. The OpenRecordsetOutput procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub OpenRecordsetX() 
@@ -230,7 +230,7 @@ ms.locfileid: "25466567"
 
 <br/>
 
-<span data-ttu-id="5faf3-164">以下示例打开一个动态类型 **Recordset** 对象，然后枚举其记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-164">This example opens a dynamic-type **Recordset** object and enumerates its records.</span></span>
+<span data-ttu-id="10858-164">以下示例打开一个动态类型 **Recordset** 对象，然后枚举其记录。</span><span class="sxs-lookup"><span data-stu-id="10858-164">This example opens a dynamic-type **Recordset** object and enumerates its records.</span></span>
 
 ```vb
     Sub dbOpenDynamicX() 
@@ -280,7 +280,7 @@ ms.locfileid: "25466567"
 
 <br/>
 
-<span data-ttu-id="5faf3-165">以下示例打开一个动态集类型 **Recordset**，然后显示其字段的可更新程度。</span><span class="sxs-lookup"><span data-stu-id="5faf3-165">This example opens a dynaset-type **Recordset** and shows the extent to which its fields are updatable.</span></span>
+<span data-ttu-id="10858-165">以下示例打开一个动态集类型 **Recordset**，然后显示其字段的可更新程度。</span><span class="sxs-lookup"><span data-stu-id="10858-165">This example opens a dynaset-type **Recordset** and shows the extent to which its fields are updatable.</span></span>
 
 ```vb
     Sub dbOpenDynasetX() 
@@ -320,7 +320,7 @@ ms.locfileid: "25466567"
 
 <br/>
 
-<span data-ttu-id="5faf3-166">以下示例打开一个仅向前类型 **Recordset**，演示其只读特征，然后使用 **MoveNext** 方法遍历 **Recordset**。</span><span class="sxs-lookup"><span data-stu-id="5faf3-166">This example opens a forward-only-type **Recordset**, demonstrates its read-only characteristics, and steps through the **Recordset** with the **MoveNext** method.</span></span>
+<span data-ttu-id="10858-166">以下示例打开一个仅向前类型 **Recordset**，演示其只读特征，然后使用 **MoveNext** 方法遍历 **Recordset**。</span><span class="sxs-lookup"><span data-stu-id="10858-166">This example opens a forward-only-type **Recordset**, demonstrates its read-only characteristics, and steps through the **Recordset** with the **MoveNext** method.</span></span>
 
 ```vb 
 Sub dbOpenForwardOnlyX() 
@@ -367,7 +367,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-167">以下示例打开一个快照类型 **Recordset**，演示其只读特征。</span><span class="sxs-lookup"><span data-stu-id="5faf3-167">This example opens a snapshot-type **Recordset** and demonstrates its read-only characteristics.</span></span>
+<span data-ttu-id="10858-167">以下示例打开一个快照类型 **Recordset**，演示其只读特征。</span><span class="sxs-lookup"><span data-stu-id="10858-167">This example opens a snapshot-type **Recordset** and demonstrates its read-only characteristics.</span></span>
 
 ```vb
     Sub dbOpenSnapshotX() 
@@ -406,7 +406,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-168">以下示例打开一个表类型 **Recordset**，并设置其 **Index** 属性，然后枚举其记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-168">This example opens a table-type **Recordset**, sets its **Index** property, and enumerates its records.</span></span>
+<span data-ttu-id="10858-168">以下示例打开一个表类型 **Recordset**，并设置其 **Index** 属性，然后枚举其记录。</span><span class="sxs-lookup"><span data-stu-id="10858-168">This example opens a table-type **Recordset**, sets its **Index** property, and enumerates its records.</span></span>
 
 ```vb
     Sub dbOpenTableX() 
@@ -443,9 +443,9 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-169">下面的示例演示如何使用 Seek 方法来查找链接表中的记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-169">The following example shows how to use the Seek method to find a record in a linked table.</span></span>
+<span data-ttu-id="10858-169">下面的示例演示如何使用 Seek 方法来查找链接表中的记录。</span><span class="sxs-lookup"><span data-stu-id="10858-169">The following example shows how to use the Seek method to find a record in a linked table.</span></span>
 
-<span data-ttu-id="5faf3-170">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="5faf3-170">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="10858-170">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="10858-170">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 
 ```vb
@@ -494,7 +494,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-171">以下示例说明如何打开基于参数查询的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="5faf3-171">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
+<span data-ttu-id="10858-171">以下示例说明如何打开基于参数查询的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="10858-171">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -516,7 +516,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-172">以下示例说明如何打开基于表或查询的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="5faf3-172">The following example shows how to open a Recordset based on a table or a query.</span></span>
+<span data-ttu-id="10858-172">以下示例说明如何打开基于表或查询的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="10858-172">The following example shows how to open a Recordset based on a table or a query.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -534,7 +534,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-173">以下示例说明如何打开基于结构化查询语言 (SQL) 语句的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="5faf3-173">The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.</span></span>
+<span data-ttu-id="10858-173">以下示例说明如何打开基于结构化查询语言 (SQL) 语句的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="10858-173">The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
@@ -550,7 +550,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-174">下面的示例演示如何使用 FindFirst 和 FindNext 方法在记录集中查找记录。</span><span class="sxs-lookup"><span data-stu-id="5faf3-174">The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.</span></span>
+<span data-ttu-id="10858-174">下面的示例演示如何使用 FindFirst 和 FindNext 方法在记录集中查找记录。</span><span class="sxs-lookup"><span data-stu-id="10858-174">The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.</span></span>
 
 ```vb
     Sub FindOrgName()
@@ -589,7 +589,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="5faf3-175">下面的示例演示如何将查询的结果复制到新的 Microsoft Excel 工作簿中的工作表。</span><span class="sxs-lookup"><span data-stu-id="5faf3-175">The following example shows how to copy the results of a query to a worksheet in a new Microsoft Excel workbook.</span></span>
+<span data-ttu-id="10858-175">下面的示例演示如何将查询的结果复制到新的 Microsoft Excel 工作簿中的工作表。</span><span class="sxs-lookup"><span data-stu-id="10858-175">The following example shows how to copy the results of a query to a worksheet in a new Microsoft Excel workbook.</span></span>
 
 ```vb
     Public Sub CopyDataFromQuery( _

@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249727(v=office.15)
 ms:contentKeyID: 48546668
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9451dfef969120e6ffc4835263a7ad02881748d2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 853dfaab43d6d4c831b7ec9288bc8e9477fe2683
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466570"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888095"
 ---
-# <a name="alternatives-using-sql-statements"></a><span data-ttu-id="113c5-102">替代方法：使用 SQL 语句</span><span class="sxs-lookup"><span data-stu-id="113c5-102">Alternatives: Using SQL Statements</span></span>
+# <a name="alternatives-using-sql-statements"></a><span data-ttu-id="d102e-102">替代方法：使用 SQL 语句</span><span class="sxs-lookup"><span data-stu-id="d102e-102">Alternatives: Using SQL Statements</span></span>
 
 
-<span data-ttu-id="113c5-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="113c5-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d102e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d102e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="113c5-p101">ADO 还允许在编辑数据时使用命令来替代其内置属性和方法。根据您的提供程序的不同，本章提到的所有操作也可以通过将命令传递到数据源来实现。例如，可以使用 SQL UPDATE 语句修改数据，而不使用 **Field** 的 **Value** 属性。可以使用 SQL INSERT 语句向数据源添加新记录，而不使用 ADO 方法 **AddNew** 。有关 SQL 或提供程序的数据操控语言的详细信息，请参阅数据源文档。</span><span class="sxs-lookup"><span data-stu-id="113c5-p101">ADO also allows using commands as alternatives to its built-in properties and methods for editing data. Depending upon your provider, all operations mentioned in this chapter could also be accomplished by passing commands to your data source. For example, SQL UPDATE statements can be used to modify data without using the **Value** property of a **Field**. SQL INSERT statements can be used to add new records to a data source, rather than the ADO method **AddNew**. For more information about SQL or the data-manipulation language of your provider, see the documentation of your data source.</span></span>
+<span data-ttu-id="d102e-p101">ADO 还允许在编辑数据时使用命令来替代其内置属性和方法。根据您的提供程序的不同，本章提到的所有操作也可以通过将命令传递到数据源来实现。例如，可以使用 SQL UPDATE 语句修改数据，而不使用 **Field** 的 **Value** 属性。可以使用 SQL INSERT 语句向数据源添加新记录，而不使用 ADO 方法 **AddNew** 。有关 SQL 或提供程序的数据操控语言的详细信息，请参阅数据源文档。</span><span class="sxs-lookup"><span data-stu-id="d102e-p101">ADO also allows using commands as alternatives to its built-in properties and methods for editing data. Depending upon your provider, all operations mentioned in this chapter could also be accomplished by passing commands to your data source. For example, SQL UPDATE statements can be used to modify data without using the **Value** property of a **Field**. SQL INSERT statements can be used to add new records to a data source, rather than the ADO method **AddNew**. For more information about SQL or the data-manipulation language of your provider, see the documentation of your data source.</span></span>
 
-<span data-ttu-id="113c5-109">例如，可以将包含 DELETE 语句的 SQL 字符串传递给数据库，如以下代码所示：</span><span class="sxs-lookup"><span data-stu-id="113c5-109">For example, you can pass a SQL string containing a DELETE statement to a database, as shown in the following code:</span></span>
+<span data-ttu-id="d102e-109">例如，可以将包含 DELETE 语句的 SQL 字符串传递给数据库，如以下代码所示：</span><span class="sxs-lookup"><span data-stu-id="d102e-109">For example, you can pass a SQL string containing a DELETE statement to a database, as shown in the following code:</span></span>
 
 ```vb 
 'BeginSQLDelete 

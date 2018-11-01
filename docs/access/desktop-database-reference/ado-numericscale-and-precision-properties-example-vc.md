@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="d5194-101"><<<<<<< 标头标题： ADO NumericScale 和 Precision 属性示例 （VC + +） TOCTitle: NumericScale 和 Precision 属性示例 （VC + +） === 标题： ADO NumericScale 和 Precision 属性示例 （VC + +） TOCTitle:NumericScale 和 Precision 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="d5194-101"><<<<<<< HEAD title: ADO NumericScale and Precision Properties Example (VC++) TOCTitle: NumericScale and Precision Properties Example (VC++) ======= title: ADO NumericScale and Precision properties example (VC++) TOCTitle: NumericScale and Precision properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d5194-102">母版页 ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15) ms:contentKeyID: 48548611 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="d5194-102">master ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15) ms:contentKeyID: 48548611 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: ADO NumericScale 和 Precision 属性示例 （VC + +）
+TOCTitle: NumericScale and Precision properties example (VC++)
+ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15)
+ms:contentKeyID: 48548611
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 00ed299c651e5c52971d00312541806dc15a20bb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868741"
 ---
-
-<span data-ttu-id="d5194-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="d5194-103"><<<<<<< HEAD</span></span>
-# <a name="ado-numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="d5194-104">ADO NumericScale and Precision Properties Example (VC++)</span><span class="sxs-lookup"><span data-stu-id="d5194-104">ADO NumericScale and Precision Properties Example (VC++)</span></span>
-=======
-# <a name="ado-numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="d5194-105">ADO NumericScale 和 Precision 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="d5194-105">ADO NumericScale and Precision properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d5194-106">master</span><span class="sxs-lookup"><span data-stu-id="d5194-106">master</span></span>
+# <a name="ado-numericscale-and-precision-properties-example-vc"></a><span data-ttu-id="5f388-102">ADO NumericScale 和 Precision 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="5f388-102">ADO NumericScale and Precision properties example (VC++)</span></span>
 
 
-<span data-ttu-id="d5194-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5194-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="5f388-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f388-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d5194-108">本示例使用 [NumericScale](numericscale-property-ado.md) 和 [Precision](precision-property-ado.md) 属性显示 ***Pubs*** 数据库的 ***Discounts***（折扣）表中字段的数字小数位数和精确度。</span><span class="sxs-lookup"><span data-stu-id="d5194-108">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="5f388-104">本示例使用 [NumericScale](numericscale-property-ado.md) 和 [Precision](precision-property-ado.md) 属性显示 ***Pubs*** 数据库的 ***Discounts***（折扣）表中字段的数字小数位数和精确度。</span><span class="sxs-lookup"><span data-stu-id="5f388-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```cpp 
  

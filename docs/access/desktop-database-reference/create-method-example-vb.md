@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249171(v=office.15)
 ms:contentKeyID: 48544372
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3eea826ae452576e02ab6f98bd75369ff079f7de
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b8fbc2edc5f01ed22c0a075178c9c33d01eaddc5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860061"
+ms.locfileid: "25880689"
 ---
-# <a name="create-method-example-vb"></a><span data-ttu-id="69ded-102">Create 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="69ded-102">Create method example (VB)</span></span>
+# <a name="create-method-example-vb"></a><span data-ttu-id="b6fb4-102">Create 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b6fb4-102">Create method example (VB)</span></span>
 
 
-<span data-ttu-id="69ded-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="69ded-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b6fb4-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6fb4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69ded-104">下面的代码演示如何使用 [Create](create-method-adox.md) 方法创建新的 Microsoft Jet 数据库。</span><span class="sxs-lookup"><span data-stu-id="69ded-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
+<span data-ttu-id="b6fb4-104">下面的代码演示如何使用 [Create](create-method-adox.md) 方法创建新的 Microsoft Jet 数据库。</span><span class="sxs-lookup"><span data-stu-id="b6fb4-104">The following code shows how to create a new Microsoft Jet database with the [Create](create-method-adox.md) method.</span></span>
 
 ```vb 
  

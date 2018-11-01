@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="c5a12-101"><<<<<<< 标头标题： OriginalValue 和 UnderlyingValue 属性示例 （VJ + +） TOCTitle: OriginalValue 和 UnderlyingValue 属性示例 （VJ + +） === 标题： OriginalValue 和 UnderlyingValue 属性示例 （VJ + +）TOCTitle: OriginalValue 和 UnderlyingValue 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="c5a12-101"><<<<<<< HEAD title: OriginalValue and UnderlyingValue Properties Example (VJ++) TOCTitle: OriginalValue and UnderlyingValue Properties Example (VJ++) ======= title: OriginalValue and UnderlyingValue properties example (VJ++) TOCTitle: OriginalValue and UnderlyingValue properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="c5a12-102">母版页 ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15) ms:contentKeyID: 48545233 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="c5a12-102">master ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15) ms:contentKeyID: 48545233 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: OriginalValue 和 UnderlyingValue 属性示例 (VJ++)
+TOCTitle: OriginalValue and UnderlyingValue properties example (VJ++)
+ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
+ms:contentKeyID: 48545233
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b6af489106c582afc862ff93d8d1263accdbff47
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880276"
 ---
-
-<span data-ttu-id="c5a12-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="c5a12-103"><<<<<<< HEAD</span></span>
-# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a><span data-ttu-id="c5a12-104">OriginalValue 和 UnderlyingValue 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c5a12-104">OriginalValue and UnderlyingValue Properties Example (VJ++)</span></span>
-=======
-# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a><span data-ttu-id="c5a12-105">OriginalValue 和 UnderlyingValue 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="c5a12-105">OriginalValue and UnderlyingValue properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="c5a12-106">master</span><span class="sxs-lookup"><span data-stu-id="c5a12-106">master</span></span>
+# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a><span data-ttu-id="ce2f9-102">OriginalValue 和 UnderlyingValue 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ce2f9-102">OriginalValue and UnderlyingValue properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="c5a12-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c5a12-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ce2f9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce2f9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c5a12-108">本示例演示 [OriginalValue](originalvalue-property-ado.md) 和 [UnderlyingValue](underlyingvalue-property-ado.md) 属性，如果记录的基础数据在 [Recordset](recordset-object-ado.md) 批更新期间发生更改，则显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="c5a12-108">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
+<span data-ttu-id="ce2f9-104">本示例演示 [OriginalValue](originalvalue-property-ado.md) 和 [UnderlyingValue](underlyingvalue-property-ado.md) 属性，如果记录的基础数据在 [Recordset](recordset-object-ado.md) 批更新期间发生更改，则显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="ce2f9-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
 
 ```java 
  

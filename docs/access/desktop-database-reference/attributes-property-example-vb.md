@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="a867e-101"><<<<<<< 标头标题： Attributes 属性示例 (VB) TOCTitle: Attributes 属性示例 (VB) === 标题： Attributes 属性示例 (VB) TOCTitle: Attributes 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a867e-101"><<<<<<< HEAD title: Attributes Property Example (VB) TOCTitle: Attributes Property Example (VB) ======= title: Attributes property example (VB) TOCTitle: Attributes property example (VB)</span></span>
->>>>>>> <span data-ttu-id="a867e-102">母版页 ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: 48547442 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="a867e-102">master ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: 48547442 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Attributes 属性示例 (VB)
+TOCTitle: Attributes property example (VB)
+ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
+ms:contentKeyID: 48547442
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1abdb333551e80a8c2b0e8a440aee9c35ca69120
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879254"
 ---
-
-<span data-ttu-id="a867e-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="a867e-103"><<<<<<< HEAD</span></span>
-# <a name="attributes-property-example-vb"></a><span data-ttu-id="a867e-104">Attributes 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a867e-104">Attributes Property Example (VB)</span></span>
-=======
-# <a name="attributes-property-example-vb"></a><span data-ttu-id="a867e-105">Attributes 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a867e-105">Attributes property example (VB)</span></span>
->>>>>>> <span data-ttu-id="a867e-106">master</span><span class="sxs-lookup"><span data-stu-id="a867e-106">master</span></span>
+# <a name="attributes-property-example-vb"></a><span data-ttu-id="d6626-102">Attributes 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="d6626-102">Attributes property example (VB)</span></span>
 
 
-<span data-ttu-id="a867e-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="a867e-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d6626-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6626-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a867e-p101">本示例演示 [Column](attributes-property-adox.md) 的 [Attributes](column-object-adox.md) 属性。将其设置为 **adColNullable** 将使用户可以把 [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) 的值设置为空字符串。在这种情况下，用户可区分数据未知的记录和未应用数据的记录。</span><span class="sxs-lookup"><span data-stu-id="a867e-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="d6626-p101">本示例演示 [Column](attributes-property-adox.md) 的 [Attributes](column-object-adox.md) 属性。将其设置为 **adColNullable** 将使用户可以把 [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) 的值设置为空字符串。在这种情况下，用户可区分数据未知的记录和未应用数据的记录。</span><span class="sxs-lookup"><span data-stu-id="d6626-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```vb 
  

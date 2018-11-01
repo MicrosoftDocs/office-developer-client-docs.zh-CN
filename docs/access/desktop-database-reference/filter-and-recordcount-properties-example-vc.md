@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="d4ce5-101"><<<<<<< 标头标题： Filter 和 RecordCount 属性示例 （VC + +） TOCTitle: Filter 和 RecordCount 属性示例 （VC + +） === 标题： Filter 和 RecordCount 属性示例 （VC + +） TOCTitle: Filter 和 RecordCount属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="d4ce5-101"><<<<<<< HEAD title: Filter and RecordCount Properties Example (VC++) TOCTitle: Filter and RecordCount Properties Example (VC++) ======= title: Filter and RecordCount properties example (VC++) TOCTitle: Filter and RecordCount properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d4ce5-102">母版页 ms:assetid: 361499c3-cfb4-a26b-5ed7-5c880ae7d631 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15) ms:contentKeyID: 48544161 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="d4ce5-102">master ms:assetid: 361499c3-cfb4-a26b-5ed7-5c880ae7d631 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15) ms:contentKeyID: 48544161 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Filter 和 RecordCount 属性示例 (VC++)
+TOCTitle: Filter and RecordCount properties example (VC++)
+ms:assetid: 361499c3-cfb4-a26b-5ed7-5c880ae7d631
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249119(v=office.15)
+ms:contentKeyID: 48544161
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4ca6e56110110086f9b608eb87228ebf17462bce
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889817"
 ---
-
-<span data-ttu-id="d4ce5-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="d4ce5-103"><<<<<<< HEAD</span></span>
-# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="d4ce5-104">Filter 和 RecordCount 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="d4ce5-104">Filter and RecordCount Properties Example (VC++)</span></span>
-=======
-# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="d4ce5-105">Filter 和 RecordCount 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="d4ce5-105">Filter and RecordCount properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="d4ce5-106">master</span><span class="sxs-lookup"><span data-stu-id="d4ce5-106">master</span></span>
+# <a name="filter-and-recordcount-properties-example-vc"></a><span data-ttu-id="98996-102">Filter 和 RecordCount 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="98996-102">Filter and RecordCount properties example (VC++)</span></span>
 
 
-<span data-ttu-id="d4ce5-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4ce5-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="98996-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="98996-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d4ce5-p101">本示例使用 [Filter](filter-property-ado.md) 属性根据应用于现有 [Recordset](recordset-object-ado.md) 的指定条件打开一个新的 **Recordset**。使用 [RecordCount](recordcount-property-ado.md) 属性来显示两个 **Recordset** 中的记录数。运行此过程需要使用 FilterField 函数。</span><span class="sxs-lookup"><span data-stu-id="d4ce5-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
+<span data-ttu-id="98996-p101">本示例使用 [Filter](filter-property-ado.md) 属性根据应用于现有 [Recordset](recordset-object-ado.md) 的指定条件打开一个新的 **Recordset**。使用 [RecordCount](recordcount-property-ado.md) 属性来显示两个 **Recordset** 中的记录数。运行此过程需要使用 FilterField 函数。</span><span class="sxs-lookup"><span data-stu-id="98996-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
 
 ```cpp 
  
@@ -313,7 +319,7 @@ void PrintComError(_com_error &e)
 // EndFilterCpp 
 ```
 
-<span data-ttu-id="d4ce5-111">**FilterX.h**</span><span class="sxs-lookup"><span data-stu-id="d4ce5-111">**FilterX.h**</span></span>
+<span data-ttu-id="98996-107">**FilterX.h**</span><span class="sxs-lookup"><span data-stu-id="98996-107">**FilterX.h**</span></span>
 
 ```cpp 
  

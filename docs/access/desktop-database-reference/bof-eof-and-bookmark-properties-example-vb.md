@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="7b72f-101"><<<<<<< 标头标题： BOF、 EOF 和 Bookmark 属性示例 (VB) TOCTitle: BOF、 EOF 和 Bookmark 属性示例 (VB) === 标题： BOF、 EOF 和 Bookmark 属性示例 (VB) TOCTitle: BOF、 EOF 和 Bookmark 属性示例(VB)</span><span class="sxs-lookup"><span data-stu-id="7b72f-101"><<<<<<< HEAD title: BOF, EOF, and Bookmark Properties Example (VB) TOCTitle: BOF, EOF, and Bookmark Properties Example (VB) ======= title: BOF, EOF, and Bookmark properties example (VB) TOCTitle: BOF, EOF, and Bookmark properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="7b72f-102">母版页 ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15) ms:contentKeyID: 48544037 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="7b72f-102">master ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15) ms:contentKeyID: 48544037 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: BOF、EOF 和 Bookmark 属性示例 (VB)
+TOCTitle: BOF, EOF, and Bookmark properties example (VB)
+ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15)
+ms:contentKeyID: 48544037
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5a2841a8f13d053e41c7a15a37b40dd3513238fc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888501"
 ---
-
-<span data-ttu-id="7b72f-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="7b72f-103"><<<<<<< HEAD</span></span>
-# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="7b72f-104">BOF、EOF 和 Bookmark 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="7b72f-104">BOF, EOF, and Bookmark Properties Example (VB)</span></span>
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="7b72f-105">BOF、 EOF 和 Bookmark 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="7b72f-105">BOF, EOF, and Bookmark properties example (VB)</span></span>
->>>>>>> <span data-ttu-id="7b72f-106">master</span><span class="sxs-lookup"><span data-stu-id="7b72f-106">master</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vb"></a><span data-ttu-id="a7497-102">BOF、EOF 和 Bookmark 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a7497-102">BOF, EOF, and Bookmark properties example (VB)</span></span>
 
 
-<span data-ttu-id="7b72f-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b72f-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a7497-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a7497-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7b72f-p101">此示例使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="7b72f-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="a7497-p101">此示例使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="a7497-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```vb 
  
@@ -118,7 +124,7 @@ End Sub
 'EndBOFVB 
 ```
 
-<span data-ttu-id="7b72f-p102">此示例使用 **Bookmark** 和 [Filter](filter-property-ado.md) 属性创建 **Recordset** 的有限视图。只能访问书签数组引用的记录。</span><span class="sxs-lookup"><span data-stu-id="7b72f-p102">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**. Only records referenced by the array of bookmarks are accessible.</span></span>
+<span data-ttu-id="a7497-p102">此示例使用 **Bookmark** 和 [Filter](filter-property-ado.md) 属性创建 **Recordset** 的有限视图。只能访问书签数组引用的记录。</span><span class="sxs-lookup"><span data-stu-id="a7497-p102">This example uses the **Bookmark** and [Filter](filter-property-ado.md) properties to create a limited view of the **Recordset**. Only records referenced by the array of bookmarks are accessible.</span></span>
 
 ```vb 
  

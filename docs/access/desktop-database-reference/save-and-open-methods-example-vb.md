@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249828(v=office.15)
 ms:contentKeyID: 48547081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9665badec6782729c55448096ab78ba6d5389aa2
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c5b382a1e26d74841cbcd242606841a30f2cd7bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864037"
+ms.locfileid: "25880003"
 ---
-# <a name="save-and-open-methods-example-vb"></a><span data-ttu-id="3632e-102">Save 和 Open 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="3632e-102">Save and Open methods example (VB)</span></span>
+# <a name="save-and-open-methods-example-vb"></a><span data-ttu-id="d0d69-102">Save 和 Open 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="d0d69-102">Save and Open methods example (VB)</span></span>
 
 
-<span data-ttu-id="3632e-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="3632e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d0d69-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0d69-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3632e-104">以下三个示例演示了如何将 [Save](save-method-ado.md) 和 [Open](open-method-ado-recordset.md) 方法结合起来使用。</span><span class="sxs-lookup"><span data-stu-id="3632e-104">These three examples demonstrate how the [Save](save-method-ado.md) and [Open](open-method-ado-recordset.md) methods can be used together.</span></span>
+<span data-ttu-id="d0d69-104">以下三个示例演示了如何将 [Save](save-method-ado.md) 和 [Open](open-method-ado-recordset.md) 方法结合起来使用。</span><span class="sxs-lookup"><span data-stu-id="d0d69-104">These three examples demonstrate how the [Save](save-method-ado.md) and [Open](open-method-ado-recordset.md) methods can be used together.</span></span>
 
-<span data-ttu-id="3632e-p101">假设您正准备出差并希望携带数据库中的某个表。在出发前，您以 [Recordset](recordset-object-ado.md) 的形式访问数据并将其保存在便携表单中。到达目的地后，您将 **Recordset** 作为本地的已断开 **Recordset** 进行访问。您对 **Recordset** 进行更改，然后再次保存它。最后，您回家之后再次连接到数据库，并用出差时所做的更改更新该数据库。</span><span class="sxs-lookup"><span data-stu-id="3632e-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
+<span data-ttu-id="d0d69-p101">假设您正准备出差并希望携带数据库中的某个表。在出发前，您以 [Recordset](recordset-object-ado.md) 的形式访问数据并将其保存在便携表单中。到达目的地后，您将 **Recordset** 作为本地的已断开 **Recordset** 进行访问。您对 **Recordset** 进行更改，然后再次保存它。最后，您回家之后再次连接到数据库，并用出差时所做的更改更新该数据库。</span><span class="sxs-lookup"><span data-stu-id="d0d69-p101">Assume you are going on a business trip and want to take along a table from a database. Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form. When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**. You make changes to the **Recordset**, then save it again. Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
 
-<span data-ttu-id="3632e-110">首先，访问并保存 ***Authors***（作者）表。</span><span class="sxs-lookup"><span data-stu-id="3632e-110">First, access and save the ***Authors*** table.</span></span>
+<span data-ttu-id="d0d69-110">首先，访问并保存 ***Authors***（作者）表。</span><span class="sxs-lookup"><span data-stu-id="d0d69-110">First, access and save the ***Authors*** table.</span></span>
 
 ```vb 
  
@@ -82,7 +82,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="3632e-111">此时，您已经到达目的地。</span><span class="sxs-lookup"><span data-stu-id="3632e-111">At this point, you have arrived at your destination.</span></span> <span data-ttu-id="3632e-112">您将作为本地断开连接**记录集**访问***作者***表。</span><span class="sxs-lookup"><span data-stu-id="3632e-112">You will access the ***Authors*** table as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="3632e-113">不要忘记访问已保存的文件中，使用您的计算机上必须**MSPersist**提供程序答：\\Pubs.xml。</span><span class="sxs-lookup"><span data-stu-id="3632e-113">Don't forget you must have the **MSPersist** provider on the machine that you are using in order to access the saved file, a:\\Pubs.xml.</span></span>
+<span data-ttu-id="d0d69-111">此时，您已经到达目的地。</span><span class="sxs-lookup"><span data-stu-id="d0d69-111">At this point, you have arrived at your destination.</span></span> <span data-ttu-id="d0d69-112">您将作为本地断开连接**记录集**访问***作者***表。</span><span class="sxs-lookup"><span data-stu-id="d0d69-112">You will access the ***Authors*** table as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="d0d69-113">不要忘记访问已保存的文件中，使用您的计算机上必须**MSPersist**提供程序答：\\Pubs.xml。</span><span class="sxs-lookup"><span data-stu-id="d0d69-113">Don't forget you must have the **MSPersist** provider on the machine that you are using in order to access the saved file, a:\\Pubs.xml.</span></span>
 
 ```vb 
  
@@ -132,7 +132,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="3632e-p103">最后，您返回家中。现在用所做的更改来更新数据库。</span><span class="sxs-lookup"><span data-stu-id="3632e-p103">Finally, you return home. Now update the database with your changes.</span></span>
+<span data-ttu-id="d0d69-p103">最后，您返回家中。现在用所做的更改来更新数据库。</span><span class="sxs-lookup"><span data-stu-id="d0d69-p103">Finally, you return home. Now update the database with your changes.</span></span>
 
 ```vb 
  

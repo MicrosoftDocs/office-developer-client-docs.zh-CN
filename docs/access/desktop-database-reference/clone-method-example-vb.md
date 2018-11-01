@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249324(v=office.15)
 ms:contentKeyID: 48545085
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6b745425b817f86a3207d8e5279e11014bc3fb9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 51b6d5ed6570ece56c03fd1d2514a47650ed1908
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862231"
+ms.locfileid: "25877392"
 ---
-# <a name="clone-method-example-vb"></a><span data-ttu-id="19dc2-102">Clone 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="19dc2-102">Clone method example (VB)</span></span>
+# <a name="clone-method-example-vb"></a><span data-ttu-id="f67af-102">Clone 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f67af-102">Clone method example (VB)</span></span>
 
 
-<span data-ttu-id="19dc2-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="19dc2-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f67af-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f67af-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="19dc2-104">以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="19dc2-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="f67af-104">以下示例使用 [Clone](clone-method-ado.md) 方法创建 [Recordset](recordset-object-ado.md) 的副本，然后让用户单独定位每个副本的记录指针。</span><span class="sxs-lookup"><span data-stu-id="f67af-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```vb 
  

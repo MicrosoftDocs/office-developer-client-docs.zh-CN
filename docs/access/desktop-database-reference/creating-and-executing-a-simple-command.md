@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88463cf79ace0007cac8e5ebd1694ee7a080f329
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0446654a6ad39246289690c95f160bd77dcde19d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860348"
+ms.locfileid: "25886261"
 ---
-# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="2f216-102">创建和执行简单命令</span><span class="sxs-lookup"><span data-stu-id="2f216-102">Creating and Executing a Simple Command</span></span>
+# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="dc815-102">创建和执行简单命令</span><span class="sxs-lookup"><span data-stu-id="dc815-102">Creating and Executing a Simple Command</span></span>
 
 
-<span data-ttu-id="2f216-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f216-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="dc815-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc815-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2f216-p101">以下代码演示使用 **Command** 对象针对数据源执行命令的基本方法，尽管这不是 **Command** 对象的典型用法。在这种情况下，它是返回行的命令，因此它将命令的执行结果返回到 **Recordset** 对象中。</span><span class="sxs-lookup"><span data-stu-id="2f216-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
+<span data-ttu-id="dc815-p101">以下代码演示使用 **Command** 对象针对数据源执行命令的基本方法，尽管这不是 **Command** 对象的典型用法。在这种情况下，它是返回行的命令，因此它将命令的执行结果返回到 **Recordset** 对象中。</span><span class="sxs-lookup"><span data-stu-id="dc815-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -78,11 +78,11 @@ ErrHandler:
 'EndBasicCmd 
 ```
 
-<span data-ttu-id="2f216-106">可以用 **CommandText** 属性指定要执行的命令。</span><span class="sxs-lookup"><span data-stu-id="2f216-106">The command to be executed is specified with the **CommandText** property.</span></span>
+<span data-ttu-id="dc815-106">可以用 **CommandText** 属性指定要执行的命令。</span><span class="sxs-lookup"><span data-stu-id="dc815-106">The command to be executed is specified with the **CommandText** property.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="2f216-107">本节中的几个示例调用的实用工具函数， **GetNewConnection**，建立与数据提供程序的连接。</span><span class="sxs-lookup"><span data-stu-id="2f216-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="2f216-108">若要避免冗余，它列出了仅执行一次：</span><span class="sxs-lookup"><span data-stu-id="2f216-108">To avoid redundancy, it is listed only once:</span></span>
+> <span data-ttu-id="dc815-107">本节中的几个示例调用的实用工具函数， **GetNewConnection**，建立与数据提供程序的连接。</span><span class="sxs-lookup"><span data-stu-id="dc815-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="dc815-108">若要避免冗余，它列出了仅执行一次：</span><span class="sxs-lookup"><span data-stu-id="dc815-108">To avoid redundancy, it is listed only once:</span></span>
 
 ```vb 
  

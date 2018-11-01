@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250023(v=office.15)
 ms:contentKeyID: 48547791
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d798a991638bfe3bb960dc731a2da4f70f04bee
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 2ed9872c7eec702527b4aedb63169a4b9ee14c95
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860243"
+ms.locfileid: "25879030"
 ---
-# <a name="delete-method-example-vb"></a><span data-ttu-id="acf87-102">Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="acf87-102">Delete method example (VB)</span></span>
+# <a name="delete-method-example-vb"></a><span data-ttu-id="47059-102">Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="47059-102">Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="acf87-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="acf87-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="47059-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="47059-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="acf87-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="acf87-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="47059-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="47059-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```vb 
  

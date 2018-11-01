@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="242d3-101"><<<<<<< 标头标题： ParentCatalog 属性示例 （VC + +） TOCTitle: ParentCatalog 属性示例 （VC + +） === 标题： ParentCatalog 属性示例 （VC + +） TOCTitle: ParentCatalog 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="242d3-101"><<<<<<< HEAD title: ParentCatalog Property Example (VC++) TOCTitle: ParentCatalog Property Example (VC++) ======= title: ParentCatalog property example (VC++) TOCTitle: ParentCatalog property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="242d3-102">母版页 ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15) ms:contentKeyID: 48548855 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="242d3-102">master ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15) ms:contentKeyID: 48548855 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: ParentCatalog 属性示例 (VC++)
+TOCTitle: ParentCatalog property example (VC++)
+ms:assetid: fad6574f-698f-f48a-ba0b-59f048ae012c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15)
+ms:contentKeyID: 48548855
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 80a550a65601ee86d34f7e8acf6a88f75f738501
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876048"
 ---
-
-<span data-ttu-id="242d3-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="242d3-103"><<<<<<< HEAD</span></span>
-# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="242d3-104">ParentCatalog 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="242d3-104">ParentCatalog Property Example (VC++)</span></span>
-=======
-# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="242d3-105">ParentCatalog 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="242d3-105">ParentCatalog property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="242d3-106">master</span><span class="sxs-lookup"><span data-stu-id="242d3-106">master</span></span>
+# <a name="parentcatalog-property-example-vc"></a><span data-ttu-id="2404d-102">ParentCatalog 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2404d-102">ParentCatalog property example (VC++)</span></span>
 
 
-<span data-ttu-id="242d3-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="242d3-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2404d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2404d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="242d3-p101">下面的代码演示如何在将表追加到目录之前使用 [ParentCatalog](parentcatalog-property-adox.md) 属性访问特定于提供程序的属性。该属性为 AutoIncrement，它在 Microsoft Jet 数据库中创建 AutoIncrement 字段。</span><span class="sxs-lookup"><span data-stu-id="242d3-p101">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
+<span data-ttu-id="2404d-p101">下面的代码演示如何在将表追加到目录之前使用 [ParentCatalog](parentcatalog-property-adox.md) 属性访问特定于提供程序的属性。该属性为 AutoIncrement，它在 Microsoft Jet 数据库中创建 AutoIncrement 字段。</span><span class="sxs-lookup"><span data-stu-id="2404d-p101">The following code demonstrates how to use the [ParentCatalog](parentcatalog-property-adox.md) property to access a provider-specific property prior to appending a table to a catalog. The property is AutoIncrement, which creates an AutoIncrement field in a Microsoft Jet database.</span></span>
 
 ```cpp 
  

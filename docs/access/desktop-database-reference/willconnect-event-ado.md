@@ -6,58 +6,58 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c5493593998bf5484bd2247b32e114809b805fda
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51d9d0b11d137fbca8bf5efdddfe51469642c405
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468870"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887170"
 ---
-# <a name="willconnect-event-ado"></a><span data-ttu-id="1da22-102">WillConnect 事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="1da22-102">WillConnect Event (ADO)</span></span>
+# <a name="willconnect-event-ado"></a><span data-ttu-id="165ef-102">WillConnect 事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="165ef-102">WillConnect Event (ADO)</span></span>
 
 
-<span data-ttu-id="1da22-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="1da22-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="165ef-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="165ef-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="1da22-104">**WillConnect** 事件在连接启动之前调用。</span><span class="sxs-lookup"><span data-stu-id="1da22-104">The **WillConnect** event is called before a connection starts.</span></span>
+<span data-ttu-id="165ef-104">**WillConnect** 事件在连接启动之前调用。</span><span class="sxs-lookup"><span data-stu-id="165ef-104">The **WillConnect** event is called before a connection starts.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1da22-105">语法</span><span class="sxs-lookup"><span data-stu-id="1da22-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="165ef-105">语法</span><span class="sxs-lookup"><span data-stu-id="165ef-105">Syntax</span></span>
 
-<span data-ttu-id="1da22-106">WillConnect*ConnectionString*，*用户 Id*，*密码*、*选项*、 *adStatus*、 *pConnection*</span><span class="sxs-lookup"><span data-stu-id="1da22-106">WillConnect*ConnectionString*, *UserID*, *Password*, *Options*, *adStatus*, *pConnection*</span></span>
+<span data-ttu-id="165ef-106">WillConnect*ConnectionString*，*用户 Id*，*密码*、*选项*、 *adStatus*、 *pConnection*</span><span class="sxs-lookup"><span data-stu-id="165ef-106">WillConnect*ConnectionString*, *UserID*, *Password*, *Options*, *adStatus*, *pConnection*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="1da22-107">参数</span><span class="sxs-lookup"><span data-stu-id="1da22-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="165ef-107">参数</span><span class="sxs-lookup"><span data-stu-id="165ef-107">Parameters</span></span>
 
-  - <span data-ttu-id="1da22-108">*ConnectionString*</span><span class="sxs-lookup"><span data-stu-id="1da22-108">*ConnectionString*</span></span>
+  - <span data-ttu-id="165ef-108">*ConnectionString*</span><span class="sxs-lookup"><span data-stu-id="165ef-108">*ConnectionString*</span></span>
 
-  - <span data-ttu-id="1da22-109">**字符串型** ，包含挂起的连接的连接信息。</span><span class="sxs-lookup"><span data-stu-id="1da22-109">A **String** that contains connection information for the pending connection.</span></span>
+  - <span data-ttu-id="165ef-109">**字符串型** ，包含挂起的连接的连接信息。</span><span class="sxs-lookup"><span data-stu-id="165ef-109">A **String** that contains connection information for the pending connection.</span></span>
 
-  - <span data-ttu-id="1da22-110">*用户 Id*</span><span class="sxs-lookup"><span data-stu-id="1da22-110">*UserID*</span></span>
+  - <span data-ttu-id="165ef-110">*用户 Id*</span><span class="sxs-lookup"><span data-stu-id="165ef-110">*UserID*</span></span>
 
-  - <span data-ttu-id="1da22-111">**字符串型** ，包含挂起的连接的用户名。</span><span class="sxs-lookup"><span data-stu-id="1da22-111">A **String** that contains a user name for the pending connection.</span></span>
+  - <span data-ttu-id="165ef-111">**字符串型** ，包含挂起的连接的用户名。</span><span class="sxs-lookup"><span data-stu-id="165ef-111">A **String** that contains a user name for the pending connection.</span></span>
 
-  - <span data-ttu-id="1da22-112">*Password*</span><span class="sxs-lookup"><span data-stu-id="1da22-112">*Password*</span></span>
+  - <span data-ttu-id="165ef-112">*Password*</span><span class="sxs-lookup"><span data-stu-id="165ef-112">*Password*</span></span>
 
-  - <span data-ttu-id="1da22-113">**字符串型** ，包含挂起的连接的密码。</span><span class="sxs-lookup"><span data-stu-id="1da22-113">A **String** that contains a password for the pending connection.</span></span>
+  - <span data-ttu-id="165ef-113">**字符串型** ，包含挂起的连接的密码。</span><span class="sxs-lookup"><span data-stu-id="165ef-113">A **String** that contains a password for the pending connection.</span></span>
 
-  - <span data-ttu-id="1da22-114">*Options*</span><span class="sxs-lookup"><span data-stu-id="1da22-114">*Options*</span></span>
+  - <span data-ttu-id="165ef-114">*Options*</span><span class="sxs-lookup"><span data-stu-id="165ef-114">*Options*</span></span>
 
-  - <span data-ttu-id="1da22-p101">**长整型**值，指示提供程序应如何对 *ConnectionString* 求值。您仅有的选项为 **adAsyncOpen**。</span><span class="sxs-lookup"><span data-stu-id="1da22-p101">A **Long** value that indicates how the provider should evaluate the *ConnectionString*. Your only option is **adAsyncOpen**.</span></span>
+  - <span data-ttu-id="165ef-p101">**长整型**值，指示提供程序应如何对 *ConnectionString* 求值。您仅有的选项为 **adAsyncOpen**。</span><span class="sxs-lookup"><span data-stu-id="165ef-p101">A **Long** value that indicates how the provider should evaluate the *ConnectionString*. Your only option is **adAsyncOpen**.</span></span>
 
-  - <span data-ttu-id="1da22-117">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="1da22-117">*adStatus*</span></span>
+  - <span data-ttu-id="165ef-117">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="165ef-117">*adStatus*</span></span>
 
-  - [<span data-ttu-id="1da22-118">EventStatusEnum</span><span class="sxs-lookup"><span data-stu-id="1da22-118">EventStatusEnum</span></span>](eventstatusenum.md)
+  - [<span data-ttu-id="165ef-118">EventStatusEnum</span><span class="sxs-lookup"><span data-stu-id="165ef-118">EventStatusEnum</span></span>](eventstatusenum.md)
     
-    <span data-ttu-id="1da22-p102">调用此事件时，默认情况下该参数设置为 **adStatusOK** 。如果此事件无法请求取消挂起的操作，则该参数设置为 **adStatusCantDeny** 。</span><span class="sxs-lookup"><span data-stu-id="1da22-p102">When this event is called, this parameter is set to **adStatusOK** by default. It is set to **adStatusCantDeny** if the event cannot request cancellation of the pending operation.</span></span>
+    <span data-ttu-id="165ef-p102">调用此事件时，默认情况下该参数设置为 **adStatusOK** 。如果此事件无法请求取消挂起的操作，则该参数设置为 **adStatusCantDeny** 。</span><span class="sxs-lookup"><span data-stu-id="165ef-p102">When this event is called, this parameter is set to **adStatusOK** by default. It is set to **adStatusCantDeny** if the event cannot request cancellation of the pending operation.</span></span>
     
-    <span data-ttu-id="1da22-p103">在此事件返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。将该参数设置为 **adStatusCancel** 将请求导致取消此通知的连接操作。</span><span class="sxs-lookup"><span data-stu-id="1da22-p103">Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications. Set this parameter to **adStatusCancel** to request the connection operation that caused cancellation of this notification.</span></span>
+    <span data-ttu-id="165ef-p103">在此事件返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。将该参数设置为 **adStatusCancel** 将请求导致取消此通知的连接操作。</span><span class="sxs-lookup"><span data-stu-id="165ef-p103">Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications. Set this parameter to **adStatusCancel** to request the connection operation that caused cancellation of this notification.</span></span>
 
-  - <span data-ttu-id="1da22-123">*pConnection*</span><span class="sxs-lookup"><span data-stu-id="1da22-123">*pConnection*</span></span>
+  - <span data-ttu-id="165ef-123">*pConnection*</span><span class="sxs-lookup"><span data-stu-id="165ef-123">*pConnection*</span></span>
 
-  - <span data-ttu-id="1da22-p104">为其应用该事件通知的 [Connection](connection-object-ado.md) 对象。 **WillConnect** 事件处理程序对 **Connection** 的参数所做的更改对 **Connection** 将没有效果。</span><span class="sxs-lookup"><span data-stu-id="1da22-p104">The [Connection](connection-object-ado.md) object for which this event notification applies. Changes to the parameters of the **Connection** by the **WillConnect** event handler will have no effect on the **Connection**.</span></span>
+  - <span data-ttu-id="165ef-p104">为其应用该事件通知的 [Connection](connection-object-ado.md) 对象。 **WillConnect** 事件处理程序对 **Connection** 的参数所做的更改对 **Connection** 将没有效果。</span><span class="sxs-lookup"><span data-stu-id="165ef-p104">The [Connection](connection-object-ado.md) object for which this event notification applies. Changes to the parameters of the **Connection** by the **WillConnect** event handler will have no effect on the **Connection**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1da22-126">备注</span><span class="sxs-lookup"><span data-stu-id="1da22-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="165ef-126">备注</span><span class="sxs-lookup"><span data-stu-id="165ef-126">Remarks</span></span>
 
-<span data-ttu-id="1da22-p105">调用 **WillConnect** 时，*ConnectionString*、*UserID*、*Password* 和 *Options* 参数设置为由导致该事件的操作（挂起的连接）建立的值，且这些值可以在事件返回之前更改。**WillConnect** 可以返回取消挂起的连接的请求。</span><span class="sxs-lookup"><span data-stu-id="1da22-p105">When **WillConnect** is called, the *ConnectionString*, *UserID*, *Password*, and *Options* parameters are set to the values established by the operation that caused this event (the pending connection), and can be changed before the event returns. **WillConnect** may return a request that the pending connection be canceled.</span></span>
+<span data-ttu-id="165ef-p105">调用 **WillConnect** 时，*ConnectionString*、*UserID*、*Password* 和 *Options* 参数设置为由导致该事件的操作（挂起的连接）建立的值，且这些值可以在事件返回之前更改。**WillConnect** 可以返回取消挂起的连接的请求。</span><span class="sxs-lookup"><span data-stu-id="165ef-p105">When **WillConnect** is called, the *ConnectionString*, *UserID*, *Password*, and *Options* parameters are set to the values established by the operation that caused this event (the pending connection), and can be changed before the event returns. **WillConnect** may return a request that the pending connection be canceled.</span></span>
 
-<span data-ttu-id="1da22-129">取消此事件时，将调用*adStatus*参数设置为**adStatusErrorsOccurred** **ConnectComplete** 。</span><span class="sxs-lookup"><span data-stu-id="1da22-129">When this event is canceled, **ConnectComplete** will be called with its *adStatus* parameter set to **adStatusErrorsOccurred**.</span></span>
+<span data-ttu-id="165ef-129">取消此事件时，将调用*adStatus*参数设置为**adStatusErrorsOccurred** **ConnectComplete** 。</span><span class="sxs-lookup"><span data-stu-id="165ef-129">When this event is canceled, **ConnectComplete** will be called with its *adStatus* parameter set to **adStatusErrorsOccurred**.</span></span>
 

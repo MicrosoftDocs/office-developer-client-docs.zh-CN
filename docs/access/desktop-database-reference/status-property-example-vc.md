@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="afc67-101"><<<<<<< 标头标题： Status 属性示例 （VC + +） TOCTitle: Status 属性示例 （VC + +） === 标题： Status 属性示例 （VC + +） TOCTitle: Status 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="afc67-101"><<<<<<< HEAD title: Status Property Example (VC++) TOCTitle: Status Property Example (VC++) ======= title: Status property example (VC++) TOCTitle: Status property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="afc67-102">母版页 ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: 48545618 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="afc67-102">master ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID: 48545618 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Status 属性示例 (VC++)
+TOCTitle: Status property example (VC++)
+ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
+ms:contentKeyID: 48545618
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06758dd435389ba0abfbd1a1c8dda8c5a492ab8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886856"
 ---
-
-<span data-ttu-id="afc67-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="afc67-103"><<<<<<< HEAD</span></span>
-# <a name="status-property-example-vc"></a><span data-ttu-id="afc67-104">Status 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="afc67-104">Status Property Example (VC++)</span></span>
-=======
-# <a name="status-property-example-vc"></a><span data-ttu-id="afc67-105">Status 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="afc67-105">Status property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="afc67-106">master</span><span class="sxs-lookup"><span data-stu-id="afc67-106">master</span></span>
+# <a name="status-property-example-vc"></a><span data-ttu-id="6d25f-102">Status 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="6d25f-102">Status property example (VC++)</span></span>
 
 
-<span data-ttu-id="afc67-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="afc67-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6d25f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d25f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="afc67-108">本示例使用 [Status](status-property-ado-recordset.md) 属性显示在批更新发生之前的批操作中修改的记录。</span><span class="sxs-lookup"><span data-stu-id="afc67-108">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="6d25f-104">本示例使用 [Status](status-property-ado-recordset.md) 属性显示在批更新发生之前的批操作中修改的记录。</span><span class="sxs-lookup"><span data-stu-id="6d25f-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```cpp 
  
@@ -203,7 +209,7 @@ void PrintComError(_com_error &e)
 // EndStatusCpp 
 ```
 
-<span data-ttu-id="afc67-109">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="afc67-109">**StatusX.h**</span></span>
+<span data-ttu-id="6d25f-105">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="6d25f-105">**StatusX.h**</span></span>
 
 ```cpp 
  

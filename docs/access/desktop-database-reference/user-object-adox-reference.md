@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248974(v=office.15)
 ms:contentKeyID: 48543617
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 312b32ce952f79470ca6f13ef762350dd2eabe22
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a41126344e82074be3295b32c31783b068ea35b4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465502"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889901"
 ---
-# <a name="user-object-adox-reference"></a><span data-ttu-id="ed782-102">User Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="ed782-102">User Object (ADOX) Reference</span></span>
+# <a name="user-object-adox-reference"></a><span data-ttu-id="f210e-102">User Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="f210e-102">User Object (ADOX) Reference</span></span>
 
 
-<span data-ttu-id="ed782-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed782-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f210e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f210e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="ed782-104">User 对象 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ed782-104">User Object (ADOX)</span></span>](user-object-adox.md)
+  - [<span data-ttu-id="f210e-104">用户对象 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f210e-104">User Object (ADOX)</span></span>](user-object-adox.md)
 
-  - [<span data-ttu-id="ed782-105">User Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ed782-105">User Properties, Methods, and Events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
+  - [<span data-ttu-id="f210e-105">User Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f210e-105">User Properties, Methods, and Events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
 

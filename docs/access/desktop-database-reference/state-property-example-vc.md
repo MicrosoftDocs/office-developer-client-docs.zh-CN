@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="c645f-101"><<<<<<< 标头标题： State 属性示例 （VC + +） TOCTitle: State 属性示例 （VC + +） === 标题： State 属性示例 （VC + +） TOCTitle: State 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="c645f-101"><<<<<<< HEAD title: State Property Example (VC++) TOCTitle: State Property Example (VC++) ======= title: State property example (VC++) TOCTitle: State property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="c645f-102">母版页 ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID: 48547085 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="c645f-102">master ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID: 48547085 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: State 属性示例 (VC++)
+TOCTitle: State property example (VC++)
+ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
+ms:contentKeyID: 48547085
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06d91a9e2103fa56025230ae5326cda2d0bfb85f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886912"
 ---
-
-<span data-ttu-id="c645f-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="c645f-103"><<<<<<< HEAD</span></span>
-# <a name="state-property-example-vc"></a><span data-ttu-id="c645f-104">State 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="c645f-104">State Property Example (VC++)</span></span>
-=======
-# <a name="state-property-example-vc"></a><span data-ttu-id="c645f-105">State 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="c645f-105">State property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="c645f-106">master</span><span class="sxs-lookup"><span data-stu-id="c645f-106">master</span></span>
+# <a name="state-property-example-vc"></a><span data-ttu-id="2fc26-102">State 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2fc26-102">State property example (VC++)</span></span>
 
 
-<span data-ttu-id="c645f-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c645f-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2fc26-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2fc26-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c645f-108">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="c645f-108">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="2fc26-104">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="2fc26-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```cpp 
  

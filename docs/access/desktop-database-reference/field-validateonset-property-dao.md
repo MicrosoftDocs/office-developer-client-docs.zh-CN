@@ -10,35 +10,35 @@ f1_keywords:
 - dao360.chm1052929
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4b1297fe7c41efd49a457f3382f72c480f85363
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9a7f89277b51ef0edb5603c4482d4547201673fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467782"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884771"
 ---
-# <a name="fieldvalidateonset-property-dao"></a><span data-ttu-id="be027-102">Field.ValidateOnSet Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="be027-102">Field.ValidateOnSet Property (DAO)</span></span>
+# <a name="fieldvalidateonset-property-dao"></a><span data-ttu-id="8cb18-102">Field.ValidateOnSet Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="8cb18-102">Field.ValidateOnSet Property (DAO)</span></span>
 
 
-<span data-ttu-id="be027-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="be027-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8cb18-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="8cb18-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="be027-104">设置或返回一个值，该值指定当设置 **[Field](field-object-dao.md)** 对象的 **[Value](field-value-property-dao.md)** 属性时是否立即验证该对象的值（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="be027-104">Sets or returns a value that specifies whether or not the value of a **[Field](field-object-dao.md)** object is immediately validated when the object's **[Value](field-value-property-dao.md)** property is set (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="8cb18-104">设置或返回一个值，该值指定当设置 **[Field](field-object-dao.md)** 对象的 **[Value](field-value-property-dao.md)** 属性时是否立即验证该对象的值（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="8cb18-104">Sets or returns a value that specifies whether or not the value of a **[Field](field-object-dao.md)** object is immediately validated when the object's **[Value](field-value-property-dao.md)** property is set (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="be027-105">语法</span><span class="sxs-lookup"><span data-stu-id="be027-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8cb18-105">语法</span><span class="sxs-lookup"><span data-stu-id="8cb18-105">Syntax</span></span>
 
-<span data-ttu-id="be027-106">*表达式*。ValidateOnSet</span><span class="sxs-lookup"><span data-stu-id="be027-106">*expression* .ValidateOnSet</span></span>
+<span data-ttu-id="8cb18-106">*表达式*。ValidateOnSet</span><span class="sxs-lookup"><span data-stu-id="8cb18-106">*expression* .ValidateOnSet</span></span>
 
-<span data-ttu-id="be027-107">*表达式*一个代表**Field**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="be027-107">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="8cb18-107">*表达式*一个代表**Field**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="8cb18-107">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="be027-108">注解</span><span class="sxs-lookup"><span data-stu-id="be027-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8cb18-108">注解</span><span class="sxs-lookup"><span data-stu-id="8cb18-108">Remarks</span></span>
 
-<span data-ttu-id="be027-109">只有 [**Recordset**](recordset-object-dao.md) 对象中的 **Field** 对象才支持可读写的 **ValidateOnSet** 属性。</span><span class="sxs-lookup"><span data-stu-id="be027-109">Only **Field** objects in **[Recordset](recordset-object-dao.md)** objects support the **ValidateOnSet** property as read/write.</span></span>
+<span data-ttu-id="8cb18-109">只有 [**Recordset**](recordset-object-dao.md) 对象中的 **Field** 对象才支持可读写的 **ValidateOnSet** 属性。</span><span class="sxs-lookup"><span data-stu-id="8cb18-109">Only **Field** objects in **[Recordset](recordset-object-dao.md)** objects support the **ValidateOnSet** property as read/write.</span></span>
 
-<span data-ttu-id="be027-p101">当用户输入包含大量备注数据的记录时，将 **ValidateOnSet** 属性设置为 **True** 非常有用。如果 **[Update](recordset-update-method-dao.md)** 调用由于另一字段违反验证规则而显示数据无效，则等待该调用验证数据会将时间浪费在将冗长的备注数据写入数据库上。</span><span class="sxs-lookup"><span data-stu-id="be027-p101">Setting the **ValidateOnSet** property to **True** can be useful in a situation when a user is entering records that include substantial Memo data. Waiting until the **[Update](recordset-update-method-dao.md)** call to validate the data can result in unnecessary time spent writing the lengthy Memo data to the database if it turns out that the data was invalid anyway because a validation rule was broken in another field.</span></span>
+<span data-ttu-id="8cb18-p101">当用户输入包含大量备注数据的记录时，将 **ValidateOnSet** 属性设置为 **True** 非常有用。如果 **[Update](recordset-update-method-dao.md)** 调用由于另一字段违反验证规则而显示数据无效，则等待该调用验证数据会将时间浪费在将冗长的备注数据写入数据库上。</span><span class="sxs-lookup"><span data-stu-id="8cb18-p101">Setting the **ValidateOnSet** property to **True** can be useful in a situation when a user is entering records that include substantial Memo data. Waiting until the **[Update](recordset-update-method-dao.md)** call to validate the data can result in unnecessary time spent writing the lengthy Memo data to the database if it turns out that the data was invalid anyway because a validation rule was broken in another field.</span></span>
 
-## <a name="example"></a><span data-ttu-id="be027-112">示例</span><span class="sxs-lookup"><span data-stu-id="be027-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8cb18-112">示例</span><span class="sxs-lookup"><span data-stu-id="8cb18-112">Example</span></span>
 
-<span data-ttu-id="be027-p102">以下示例使用 **ValidateOnSet** 属性演示在数据输入过程中如何捕获错误。若要使该过程运行，需要使用 ValidateData 函数。</span><span class="sxs-lookup"><span data-stu-id="be027-p102">This example uses the **ValidateOnSet** property to demonstrate how one might trap for errors during data entry. The ValidateData function is required for this procedure to run.</span></span>
+<span data-ttu-id="8cb18-p102">以下示例使用 **ValidateOnSet** 属性演示在数据输入过程中如何捕获错误。若要使该过程运行，需要使用 ValidateData 函数。</span><span class="sxs-lookup"><span data-stu-id="8cb18-p102">This example uses the **ValidateOnSet** property to demonstrate how one might trap for errors during data entry. The ValidateData function is required for this procedure to run.</span></span>
 
 ```vb
     Sub ValidateOnSetX() 

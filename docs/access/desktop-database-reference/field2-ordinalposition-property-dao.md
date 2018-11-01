@@ -10,34 +10,34 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5c086263ffe2267a8f01cfae2e67db125313c0b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 451f2d1045b900460a24533ca49579bd9252f456
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466205"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881508"
 ---
-# <a name="field2ordinalposition-property-dao"></a><span data-ttu-id="049ea-102">Field2.OrdinalPosition Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="049ea-102">Field2.OrdinalPosition Property (DAO)</span></span>
+# <a name="field2ordinalposition-property-dao"></a><span data-ttu-id="c8f02-102">Field2.OrdinalPosition Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="c8f02-102">Field2.OrdinalPosition Property (DAO)</span></span>
 
 
-<span data-ttu-id="049ea-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="049ea-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c8f02-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8f02-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="049ea-p101">设置或返回 **Field2** 对象在 **[Fields](fields-collection-dao.md)** 集合中的相对位置。</span><span class="sxs-lookup"><span data-stu-id="049ea-p101">Sets or returns the relative position of a **Field2** object within a **[Fields](fields-collection-dao.md)** collection. .</span></span>
+<span data-ttu-id="c8f02-p101">设置或返回 **Field2** 对象在 **[Fields](fields-collection-dao.md)** 集合中的相对位置。</span><span class="sxs-lookup"><span data-stu-id="c8f02-p101">Sets or returns the relative position of a **Field2** object within a **[Fields](fields-collection-dao.md)** collection. .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="049ea-106">语法</span><span class="sxs-lookup"><span data-stu-id="049ea-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c8f02-106">语法</span><span class="sxs-lookup"><span data-stu-id="c8f02-106">Syntax</span></span>
 
-<span data-ttu-id="049ea-107">*表达式*。OrdinalPosition</span><span class="sxs-lookup"><span data-stu-id="049ea-107">*expression* .OrdinalPosition</span></span>
+<span data-ttu-id="c8f02-107">*表达式*。OrdinalPosition</span><span class="sxs-lookup"><span data-stu-id="c8f02-107">*expression* .OrdinalPosition</span></span>
 
-<span data-ttu-id="049ea-108">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="049ea-108">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="c8f02-108">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="c8f02-108">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="049ea-109">注解</span><span class="sxs-lookup"><span data-stu-id="049ea-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8f02-109">注解</span><span class="sxs-lookup"><span data-stu-id="c8f02-109">Remarks</span></span>
 
-<span data-ttu-id="049ea-110">对于尚未追加到 **Fields** 集合中的对象，该属性是可读写的。</span><span class="sxs-lookup"><span data-stu-id="049ea-110">For an object not yet appended to the **Fields** collection, this property is read/write.</span></span>
+<span data-ttu-id="c8f02-110">对于尚未追加到 **Fields** 集合中的对象，该属性是可读写的。</span><span class="sxs-lookup"><span data-stu-id="c8f02-110">For an object not yet appended to the **Fields** collection, this property is read/write.</span></span>
 
-<span data-ttu-id="049ea-111">默认值为 0。</span><span class="sxs-lookup"><span data-stu-id="049ea-111">The default is 0.</span></span>
+<span data-ttu-id="c8f02-111">默认值为 0。</span><span class="sxs-lookup"><span data-stu-id="c8f02-111">The default is 0.</span></span>
 
-<span data-ttu-id="049ea-112">**OrdinalPosition** 属性的可用性取决于包含 **Fields** 集合的对象，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="049ea-112">The availability of the **OrdinalPosition** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
+<span data-ttu-id="c8f02-112">**OrdinalPosition** 属性的可用性取决于包含 **Fields** 集合的对象，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="c8f02-112">The availability of the **OrdinalPosition** property depends on the object that contains the **Fields** collection, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -46,55 +46,55 @@ ms.locfileid: "25466205"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="049ea-113">如果 Fields 集合属于</span><span class="sxs-lookup"><span data-stu-id="049ea-113">If the Fields collection belongs to a</span></span></p></th>
-<th><p><span data-ttu-id="049ea-114">
-则 OrdinalPosition</span><span class="sxs-lookup"><span data-stu-id="049ea-114">Then OrdinalPosition is</span></span></p></th>
+<th><p><span data-ttu-id="c8f02-113">如果 Fields 集合属于</span><span class="sxs-lookup"><span data-stu-id="c8f02-113">If the Fields collection belongs to a</span></span></p></th>
+<th><p><span data-ttu-id="c8f02-114">
+则 OrdinalPosition</span><span class="sxs-lookup"><span data-stu-id="c8f02-114">Then OrdinalPosition is</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="049ea-115"><strong>Index</strong> 对象</span><span class="sxs-lookup"><span data-stu-id="049ea-115"><strong>Index</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="049ea-116">不支持</span><span class="sxs-lookup"><span data-stu-id="049ea-116">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-115"><strong>Index</strong>对象</span><span class="sxs-lookup"><span data-stu-id="c8f02-115"><strong>Index</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-116">不支持</span><span class="sxs-lookup"><span data-stu-id="c8f02-116">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="049ea-117"><strong>QueryDef</strong> 对象</span><span class="sxs-lookup"><span data-stu-id="049ea-117"><strong>QueryDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="049ea-118">只读</span><span class="sxs-lookup"><span data-stu-id="049ea-118">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-117"><strong>QueryDef</strong>对象</span><span class="sxs-lookup"><span data-stu-id="c8f02-117"><strong>QueryDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-118">只读</span><span class="sxs-lookup"><span data-stu-id="c8f02-118">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="049ea-119"><strong>Recordset</strong> 对象</span><span class="sxs-lookup"><span data-stu-id="049ea-119"><strong>Recordset</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="049ea-120">只读</span><span class="sxs-lookup"><span data-stu-id="049ea-120">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-119"><strong>Recordset</strong>对象</span><span class="sxs-lookup"><span data-stu-id="c8f02-119"><strong>Recordset</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-120">只读</span><span class="sxs-lookup"><span data-stu-id="c8f02-120">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="049ea-121"><strong>Relation</strong> 对象</span><span class="sxs-lookup"><span data-stu-id="049ea-121"><strong>Relation</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="049ea-122">不支持</span><span class="sxs-lookup"><span data-stu-id="049ea-122">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-121"><strong>Relation</strong>对象</span><span class="sxs-lookup"><span data-stu-id="c8f02-121"><strong>Relation</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-122">不支持</span><span class="sxs-lookup"><span data-stu-id="c8f02-122">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="049ea-123"><strong>TableDef</strong> 对象</span><span class="sxs-lookup"><span data-stu-id="049ea-123"><strong>TableDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="049ea-124">读/写</span><span class="sxs-lookup"><span data-stu-id="049ea-124">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-123"><strong>TableDef</strong>对象</span><span class="sxs-lookup"><span data-stu-id="c8f02-123"><strong>TableDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c8f02-124">读/写</span><span class="sxs-lookup"><span data-stu-id="c8f02-124">Read/write</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="049ea-p102">一般而言，追加到集合中的对象的排序位置取决于追加对象时遵循的顺序。第一个追加的对象位于第一个位置 (0)，第二个追加的对象位于第二个位置 (1)，以此类推。最后一个追加的对象位于排序位置 count - 1 的位置，其中 count 是集合中的对象数，该数目由 **[Count](containers-count-property-dao.md)** 属性设置指定。</span><span class="sxs-lookup"><span data-stu-id="049ea-p102">Generally, the ordinal position of an object that you append to a collection depends on the order in which you append the object. The first appended object is in the first position (0), the second appended object is in the second position (1), and so on. The last appended object is in ordinal position count – 1, where count is the number of objects in the collection as specified by the **[Count](containers-count-property-dao.md)** property setting.</span></span>
+<span data-ttu-id="c8f02-p102">一般而言，追加到集合中的对象的排序位置取决于追加对象时遵循的顺序。第一个追加的对象位于第一个位置 (0)，第二个追加的对象位于第二个位置 (1)，以此类推。最后一个追加的对象位于排序位置 count - 1 的位置，其中 count 是集合中的对象数，该数目由 **[Count](containers-count-property-dao.md)** 属性设置指定。</span><span class="sxs-lookup"><span data-stu-id="c8f02-p102">Generally, the ordinal position of an object that you append to a collection depends on the order in which you append the object. The first appended object is in the first position (0), the second appended object is in the second position (1), and so on. The last appended object is in ordinal position count – 1, where count is the number of objects in the collection as specified by the **[Count](containers-count-property-dao.md)** property setting.</span></span>
 
-<span data-ttu-id="049ea-128">可以使用 **OrdinalPosition** 属性，为新的 **Field2** 对象指定一个与将这些对象追加到集合时的顺序不同的排序位置。</span><span class="sxs-lookup"><span data-stu-id="049ea-128">You can use the **OrdinalPosition** property to specify an ordinal position for new **Field2** objects that differs from the order in which you append those objects to a collection.</span></span> <span data-ttu-id="049ea-129">这样，当您在应用程序中使用表、查询和记录集时，可以为它们指定字段顺序。</span><span class="sxs-lookup"><span data-stu-id="049ea-129">This enables you to specify a field order for your tables, queries, and recordsets when you use them in an application.</span></span> <span data-ttu-id="049ea-130">例如，在选择返回字段的顺序\*查询由当前**OrdinalPosition**属性值。</span><span class="sxs-lookup"><span data-stu-id="049ea-130">For example, the order in which fields are returned in a SELECT \* query is determined by the current **OrdinalPosition** property values.</span></span>
+<span data-ttu-id="c8f02-128">可以使用 **OrdinalPosition** 属性，为新的 **Field2** 对象指定一个与将这些对象追加到集合时的顺序不同的排序位置。</span><span class="sxs-lookup"><span data-stu-id="c8f02-128">You can use the **OrdinalPosition** property to specify an ordinal position for new **Field2** objects that differs from the order in which you append those objects to a collection.</span></span> <span data-ttu-id="c8f02-129">这样，当您在应用程序中使用表、查询和记录集时，可以为它们指定字段顺序。</span><span class="sxs-lookup"><span data-stu-id="c8f02-129">This enables you to specify a field order for your tables, queries, and recordsets when you use them in an application.</span></span> <span data-ttu-id="c8f02-130">例如，在选择返回字段的顺序\*查询由当前**OrdinalPosition**属性值。</span><span class="sxs-lookup"><span data-stu-id="c8f02-130">For example, the order in which fields are returned in a SELECT \* query is determined by the current **OrdinalPosition** property values.</span></span>
 
-<span data-ttu-id="049ea-131">可通过将 **OrdinalPosition** 属性设置为任何正整数，永久地重置在记录集中返回字段时遵循的顺序。</span><span class="sxs-lookup"><span data-stu-id="049ea-131">You can permanently reset the order in which fields are returned in recordsets by setting the **OrdinalPosition** property to any positive integer.</span></span>
+<span data-ttu-id="c8f02-131">可通过将 **OrdinalPosition** 属性设置为任何正整数，永久地重置在记录集中返回字段时遵循的顺序。</span><span class="sxs-lookup"><span data-stu-id="c8f02-131">You can permanently reset the order in which fields are returned in recordsets by setting the **OrdinalPosition** property to any positive integer.</span></span>
 
-<span data-ttu-id="049ea-p104">同一集合中的两个或更多个 **Field2** 对象可能具有相同的 **OrdinalPosition** 属性值，在这种情况下，将以字母顺序对这些对象排序。例如，如果将名称为"Age"的字段设置为 4，同时又将名称为"Weight"的另一个字段设置为 4，则 Weight 在 Age 之后返回。</span><span class="sxs-lookup"><span data-stu-id="049ea-p104">Two or more **Field2** objects in the same collection can have the same **OrdinalPosition** property value, in which case they will be ordered alphabetically. For example, if you have a field named Age set to 4 and you set a second field named Weight to 4, Weight is returned after Age.</span></span>
+<span data-ttu-id="c8f02-p104">同一集合中的两个或更多个 **Field2** 对象可能具有相同的 **OrdinalPosition** 属性值，在这种情况下，将以字母顺序对这些对象排序。例如，如果将名称为"Age"的字段设置为 4，同时又将名称为"Weight"的另一个字段设置为 4，则 Weight 在 Age 之后返回。</span><span class="sxs-lookup"><span data-stu-id="c8f02-p104">Two or more **Field2** objects in the same collection can have the same **OrdinalPosition** property value, in which case they will be ordered alphabetically. For example, if you have a field named Age set to 4 and you set a second field named Weight to 4, Weight is returned after Age.</span></span>
 
-<span data-ttu-id="049ea-p105">可以指定一个大于字段数减 1 的数字。将以相对于最大数的顺序返回字段。例如，如果将某个字段的 **OrdinalPosition** 属性设置为 20（总共只有 5 个字段），同时将其他两个字段的 **OrdinalPosition** 属性分别设置为 10 和 30，则设置为 20 的那个字段将在设置为 10 和 30 的字段之间返回。</span><span class="sxs-lookup"><span data-stu-id="049ea-p105">You can specify a number that is greater than the number of fields minus 1. The field will be returned in an order relative to the largest number. For example, if you set a field's **OrdinalPosition** property to 20 (and there are only 5 fields) and you've set the **OrdinalPosition** property for two other fields to 10 and 30, respectively, the field set to 20 is returned between the fields set to 10 and 30.</span></span>
+<span data-ttu-id="c8f02-p105">可以指定一个大于字段数减 1 的数字。将以相对于最大数的顺序返回字段。例如，如果将某个字段的 **OrdinalPosition** 属性设置为 20（总共只有 5 个字段），同时将其他两个字段的 **OrdinalPosition** 属性分别设置为 10 和 30，则设置为 20 的那个字段将在设置为 10 和 30 的字段之间返回。</span><span class="sxs-lookup"><span data-stu-id="c8f02-p105">You can specify a number that is greater than the number of fields minus 1. The field will be returned in an order relative to the largest number. For example, if you set a field's **OrdinalPosition** property to 20 (and there are only 5 fields) and you've set the **OrdinalPosition** property for two other fields to 10 and 30, respectively, the field set to 20 is returned between the fields set to 10 and 30.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="049ea-p106">[!注释] 即使未刷新 <A href="tabledef-object-dao.md"><STRONG>TableDef</STRONG></A> 的 <STRONG>Fields</STRONG> 集合，从 <A href="recordset-object-dao.md">TableDef</A> 打开的 <STRONG><STRONG>Recordset</STRONG></STRONG> 中的字段顺序将反映 <STRONG>TableDef</STRONG> 对象的 <STRONG>OrdinalPosition</STRONG> 数据。表类型 <STRONG>Recordset</STRONG> 与基础表具有相同的 <STRONG>OrdinalPosition</STRONG> 数据，但是其他任何类型的 <STRONG>Recordset</STRONG> 将具有新的 <STRONG>OrdinalPosition</STRONG> 数据（由 0 开始），并且该数据遵循 <STRONG>TableDef</STRONG> 的 <STRONG>OrdinalPosition</STRONG> 数据确定的顺序。</span><span class="sxs-lookup"><span data-stu-id="049ea-p106">Even if the <STRONG>Fields</STRONG> collection of a <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> has not been refreshed, the field order in a <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> opened from the <STRONG>TableDef</STRONG> will reflect the <STRONG>OrdinalPosition</STRONG> data of the <STRONG>TableDef</STRONG> object. A table-type <STRONG>Recordset</STRONG> will have the same <STRONG>OrdinalPosition</STRONG> data as the underlying table, but any other type of <STRONG>Recordset</STRONG> will have new <STRONG>OrdinalPosition</STRONG> data (starting with 0) that follow the order determined by the <STRONG>OrdinalPosition</STRONG> data of the <STRONG>TableDef</STRONG>.</span></span></P>
+> <P><span data-ttu-id="c8f02-p106">[!注释] 即使未刷新 <A href="tabledef-object-dao.md"><STRONG>TableDef</STRONG></A> 的 <STRONG>Fields</STRONG> 集合，从 <A href="recordset-object-dao.md">TableDef</A> 打开的 <STRONG><STRONG>Recordset</STRONG></STRONG> 中的字段顺序将反映 <STRONG>TableDef</STRONG> 对象的 <STRONG>OrdinalPosition</STRONG> 数据。表类型 <STRONG>Recordset</STRONG> 与基础表具有相同的 <STRONG>OrdinalPosition</STRONG> 数据，但是其他任何类型的 <STRONG>Recordset</STRONG> 将具有新的 <STRONG>OrdinalPosition</STRONG> 数据（由 0 开始），并且该数据遵循 <STRONG>TableDef</STRONG> 的 <STRONG>OrdinalPosition</STRONG> 数据确定的顺序。</span><span class="sxs-lookup"><span data-stu-id="c8f02-p106">Even if the <STRONG>Fields</STRONG> collection of a <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> has not been refreshed, the field order in a <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> opened from the <STRONG>TableDef</STRONG> will reflect the <STRONG>OrdinalPosition</STRONG> data of the <STRONG>TableDef</STRONG> object. A table-type <STRONG>Recordset</STRONG> will have the same <STRONG>OrdinalPosition</STRONG> data as the underlying table, but any other type of <STRONG>Recordset</STRONG> will have new <STRONG>OrdinalPosition</STRONG> data (starting with 0) that follow the order determined by the <STRONG>OrdinalPosition</STRONG> data of the <STRONG>TableDef</STRONG>.</span></span></P>
 
 
 
-## <a name="example"></a><span data-ttu-id="049ea-139">示例</span><span class="sxs-lookup"><span data-stu-id="049ea-139">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c8f02-139">示例</span><span class="sxs-lookup"><span data-stu-id="c8f02-139">Example</span></span>
 
-<span data-ttu-id="049ea-p107">以下示例更改 Employees **TableDef** 中的 **OrdinalPosition** 属性值，以便控制所得到的 **Recordset** 中的 **Field2** 顺序。通过将所有 **Fields** 的 **OrdinalPosition** 设置为 1，所有得到的 **Recordset** 将以字母顺序对 **Fields** 排序。请注意， **Recordset** 中的 **OrdinalPosition** 值不匹配 **TableDef** 中的值，而只是反映 **TableDef** 更改的最终结果。</span><span class="sxs-lookup"><span data-stu-id="049ea-p107">This example changes the **OrdinalPosition** property values in the Employees **TableDef** in order to control the **Field2** order in a resulting **Recordset**. By setting the **OrdinalPosition** of all the **Fields** to 1, any resulting **Recordset** will order the **Fields** alphabetically. Note that the **OrdinalPosition** values in the **Recordset** don't match the values in the **TableDef**, but simply reflect the end result of the **TableDef** changes.</span></span>
+<span data-ttu-id="c8f02-p107">以下示例更改 Employees **TableDef** 中的 **OrdinalPosition** 属性值，以便控制所得到的 **Recordset** 中的 **Field2** 顺序。通过将所有 **Fields** 的 **OrdinalPosition** 设置为 1，所有得到的 **Recordset** 将以字母顺序对 **Fields** 排序。请注意， **Recordset** 中的 **OrdinalPosition** 值不匹配 **TableDef** 中的值，而只是反映 **TableDef** 更改的最终结果。</span><span class="sxs-lookup"><span data-stu-id="c8f02-p107">This example changes the **OrdinalPosition** property values in the Employees **TableDef** in order to control the **Field2** order in a resulting **Recordset**. By setting the **OrdinalPosition** of all the **Fields** to 1, any resulting **Recordset** will order the **Fields** alphabetically. Note that the **OrdinalPosition** values in the **Recordset** don't match the values in the **TableDef**, but simply reflect the end result of the **TableDef** changes.</span></span>
 
 ```vb
     Sub OrdinalPositionX() 

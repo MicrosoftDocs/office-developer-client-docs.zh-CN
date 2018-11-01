@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="a3ef6-101"><<<<<<< 标头标题： State 属性示例 （VJ + +） TOCTitle: State 属性示例 （VJ + +） === 标题： State 属性示例 （VJ + +） TOCTitle: State 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="a3ef6-101"><<<<<<< HEAD title: State Property Example (VJ++) TOCTitle: State Property Example (VJ++) ======= title: State property example (VJ++) TOCTitle: State property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="a3ef6-102">母版页 ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15) ms:contentKeyID: 48545869 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="a3ef6-102">master ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15) ms:contentKeyID: 48545869 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: State 属性示例 (VJ++)
+TOCTitle: State property example (VJ++)
+ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
+ms:contentKeyID: 48545869
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ac8e066e537f86095c31ee975fd27f0f38211c2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881683"
 ---
-
-<span data-ttu-id="a3ef6-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="a3ef6-103"><<<<<<< HEAD</span></span>
-# <a name="state-property-example-vj"></a><span data-ttu-id="a3ef6-104">State 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="a3ef6-104">State Property Example (VJ++)</span></span>
-=======
-# <a name="state-property-example-vj"></a><span data-ttu-id="a3ef6-105">State 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="a3ef6-105">State property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="a3ef6-106">master</span><span class="sxs-lookup"><span data-stu-id="a3ef6-106">master</span></span>
+# <a name="state-property-example-vj"></a><span data-ttu-id="f95dc-102">State 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="f95dc-102">State property example (VJ++)</span></span>
 
 
-<span data-ttu-id="a3ef6-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3ef6-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f95dc-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f95dc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a3ef6-108">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="a3ef6-108">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="f95dc-104">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="f95dc-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```java 
  

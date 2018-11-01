@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="d69df-101"><<<<<<< 标头标题： Sort 属性示例 （VJ + +） TOCTitle: Sort 属性示例 （VJ + +） === 标题： Sort 属性示例 （VJ + +） TOCTitle: Sort 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="d69df-101"><<<<<<< HEAD title: Sort Property Example (VJ++) TOCTitle: Sort Property Example (VJ++) ======= title: Sort property example (VJ++) TOCTitle: Sort property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="d69df-102">母版页 ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: 48543896 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="d69df-102">master ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: 48543896 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Sort 属性示例 (VJ++)
+TOCTitle: Sort property example (VJ++)
+ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
+ms:contentKeyID: 48543896
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9ea7dd3ee87b3e7ff2d06a6f6cf14d9195216f42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872079"
 ---
-
-<span data-ttu-id="d69df-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="d69df-103"><<<<<<< HEAD</span></span>
-# <a name="sort-property-example-vj"></a><span data-ttu-id="d69df-104">Sort 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d69df-104">Sort Property Example (VJ++)</span></span>
-=======
-# <a name="sort-property-example-vj"></a><span data-ttu-id="d69df-105">Sort 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="d69df-105">Sort property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="d69df-106">master</span><span class="sxs-lookup"><span data-stu-id="d69df-106">master</span></span>
+# <a name="sort-property-example-vj"></a><span data-ttu-id="f2986-102">Sort 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="f2986-102">Sort property example (VJ++)</span></span>
 
 
-<span data-ttu-id="d69df-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="d69df-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f2986-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2986-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d69df-108">此示例使用[Recordset](recordset-object-ado.md)对象的[Sort](sort-property-ado.md)属性重新排列**Recordset**派生自***Pubs***数据库的***Authors***表的行。</span><span class="sxs-lookup"><span data-stu-id="d69df-108">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="d69df-109">由辅助实用程序例程打印每行。</span><span class="sxs-lookup"><span data-stu-id="d69df-109">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="f2986-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Sort](sort-property-ado.md)属性重新排列**Recordset**派生自***Pubs***数据库的***Authors***表的行。</span><span class="sxs-lookup"><span data-stu-id="f2986-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="f2986-105">由辅助实用程序例程打印每行。</span><span class="sxs-lookup"><span data-stu-id="f2986-105">A secondary utility routine prints each row.</span></span>
 
 ```java 
  

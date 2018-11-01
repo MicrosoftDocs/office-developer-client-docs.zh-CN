@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249432(v=office.15)
 ms:contentKeyID: 48545491
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8d6c1a24bd20835ed96842d995a3c1568ae7139
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6737496cffb31fd4a3666ba57a604f8730c79c6c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863022"
+ms.locfileid: "25886240"
 ---
-# <a name="execute-requery-and-clear-methods-example-vb"></a><span data-ttu-id="c86b4-102">Execute、Requery 和 Clear 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="c86b4-102">Execute, Requery, and Clear methods example (VB)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vb"></a><span data-ttu-id="f9e48-102">Execute、Requery 和 Clear 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="f9e48-102">Execute, Requery, and Clear methods example (VB)</span></span>
 
 
-<span data-ttu-id="c86b4-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c86b4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f9e48-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9e48-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c86b4-p101">本示例演示同时从 **Command** 对象和 [Connection](command-object-ado.md) 对象运行时的 [Execute](connection-object-ado.md) 方法。本示例还使用 [Requery](requery-method-ado.md) 方法来检索 [Recordset](recordset-object-ado.md) 中的当前数据，并使用 [Clear](clear-method-ado.md) 方法来清除 [Errors](errors-collection-ado.md) 集合的内容。（可以通过 **Recordset** 的 **ActiveConnection** 属性的 [Connection](activeconnection-property-ado.md) 对象访问 [Errors](recordset-object-ado.md) 集合。若要使该过程运行，需要 ExecuteCommand 和 PrintOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="c86b4-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. (The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="f9e48-p101">本示例演示同时从 **Command** 对象和 [Connection](command-object-ado.md) 对象运行时的 [Execute](connection-object-ado.md) 方法。本示例还使用 [Requery](requery-method-ado.md) 方法来检索 [Recordset](recordset-object-ado.md) 中的当前数据，并使用 [Clear](clear-method-ado.md) 方法来清除 [Errors](errors-collection-ado.md) 集合的内容。（可以通过 **Recordset** 的 **ActiveConnection** 属性的 [Connection](activeconnection-property-ado.md) 对象访问 [Errors](recordset-object-ado.md) 集合。若要使该过程运行，需要 ExecuteCommand 和 PrintOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="f9e48-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. (The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```vb 
  

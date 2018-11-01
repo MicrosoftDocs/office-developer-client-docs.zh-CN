@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e1fd3d9ad8dd8dc16587a59a0a24b57543c92288
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3281e0fb94e8b332ee165f5c8d1000bd0fc7ef9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466770"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878421"
 ---
-# <a name="recordset2-members-dao"></a><span data-ttu-id="9c325-102">Recordset2 Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="9c325-102">Recordset2 Members (DAO)</span></span>
+# <a name="recordset2-members-dao"></a><span data-ttu-id="4856b-102">Recordset2 Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="4856b-102">Recordset2 Members (DAO)</span></span>
 
 
-<span data-ttu-id="9c325-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c325-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4856b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4856b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9c325-104">Recordset2 对象代表基表中的记录或通过运行查询得到的记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-104">A Recordset2 object represents the records in a base table or the records that result from running a query.</span></span>
+<span data-ttu-id="4856b-104">Recordset2 对象代表基表中的记录或通过运行查询得到的记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-104">A Recordset2 object represents the records in a base table or the records that result from running a query.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="9c325-105">方法</span><span class="sxs-lookup"><span data-stu-id="9c325-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="4856b-105">方法</span><span class="sxs-lookup"><span data-stu-id="4856b-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -29,130 +29,130 @@ ms.locfileid: "25466770"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9c325-106">名称</span><span class="sxs-lookup"><span data-stu-id="9c325-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="9c325-107">说明</span><span class="sxs-lookup"><span data-stu-id="9c325-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="4856b-106">名称</span><span class="sxs-lookup"><span data-stu-id="4856b-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="4856b-107">说明</span><span class="sxs-lookup"><span data-stu-id="4856b-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-108"><strong><a href="recordset2-addnew-method-dao.md">AddNew</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-108"><strong><a href="recordset2-addnew-method-dao.md">AddNew</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-109">为可更新的 <strong>Recordset2</strong> 对象创建新记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-109">Creates a new record for an updatable <strong>Recordset2</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-108"><strong><a href="recordset2-addnew-method-dao.md">AddNew</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-108"><strong><a href="recordset2-addnew-method-dao.md">AddNew</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-109">为可更新的 <strong>Recordset2</strong> 对象创建新记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-109">Creates a new record for an updatable <strong>Recordset2</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-110"><strong><a href="recordset2-cancel-method-dao.md">取消</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-110"><strong><a href="recordset2-cancel-method-dao.md">Cancel</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-110"><strong><a href="recordset2-cancel-method-dao.md">取消</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-110"><strong><a href="recordset2-cancel-method-dao.md">Cancel</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-111">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-111">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-112">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-112">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-111">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-111">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-112">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-112">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-113">取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-113">Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="4856b-113">取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-113">Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-114"><strong><a href="recordset2-cancelupdate-method-dao.md">CancelUpdate</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-114"><strong><a href="recordset2-cancelupdate-method-dao.md">CancelUpdate</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-115">取消 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象的任何待定更新。</span><span class="sxs-lookup"><span data-stu-id="9c325-115">Cancels any pending updates for a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-114"><strong><a href="recordset2-cancelupdate-method-dao.md">CancelUpdate</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-114"><strong><a href="recordset2-cancelupdate-method-dao.md">CancelUpdate</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-115">取消 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象的任何待定更新。</span><span class="sxs-lookup"><span data-stu-id="4856b-115">Cancels any pending updates for a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-116"><strong><a href="recordset2-clone-method-dao.md">Clone</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-116"><strong><a href="recordset2-clone-method-dao.md">Clone</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-117">创建一个引用原始 <a href="recordset-object-dao.md">Recordset2</a> 对象的复制 <strong><strong>Recordset</strong></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="9c325-117">Creates a duplicate <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that refers to the original <strong>Recordset2</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-116"><strong><a href="recordset2-clone-method-dao.md">Clone</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-116"><strong><a href="recordset2-clone-method-dao.md">Clone</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-117">创建一个引用原始 <a href="recordset-object-dao.md">Recordset2</a> 对象的复制 <strong><strong>Recordset</strong></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="4856b-117">Creates a duplicate <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that refers to the original <strong>Recordset2</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-118"><strong><a href="recordset2-close-method-dao.md">关闭</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-118"><strong><a href="recordset2-close-method-dao.md">Close</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-119">关闭已打开的 <strong>Recordset</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-119">Closes an open <strong>Recordset</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-118"><strong><a href="recordset2-close-method-dao.md">关闭</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-118"><strong><a href="recordset2-close-method-dao.md">Close</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-119">关闭已打开的 <strong>Recordset</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-119">Closes an open <strong>Recordset</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-120"><strong><a href="recordset2-copyquerydef-method-dao.md">CopyQueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-120"><strong><a href="recordset2-copyquerydef-method-dao.md">CopyQueryDef</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-121">返回一个<strong>QueryDef</strong>的副本的<strong><a href="querydef-object-dao.md">QueryDef</a></strong>对象用于创建<strong><a href="recordset-object-dao.md">Recordset</a></strong>对象表示由 recordset 占位符 （仅限 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-121">Returns a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object that is a copy of the <strong>QueryDef</strong> used to create the <strong><a href="recordset-object-dao.md">Recordset</a></strong> object represented by the recordset placeholder (Microsoft Access workspaces only).</span></span> <span data-ttu-id="9c325-122">.</span><span class="sxs-lookup"><span data-stu-id="9c325-122"></span></span></p></td>
+<td><p><span data-ttu-id="4856b-120"><strong><a href="recordset2-copyquerydef-method-dao.md">CopyQueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-120"><strong><a href="recordset2-copyquerydef-method-dao.md">CopyQueryDef</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-121">返回一个<strong>QueryDef</strong>的副本的<strong><a href="querydef-object-dao.md">QueryDef</a></strong>对象用于创建<strong><a href="recordset-object-dao.md">Recordset</a></strong>对象表示由 recordset 占位符 （仅限 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-121">Returns a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object that is a copy of the <strong>QueryDef</strong> used to create the <strong><a href="recordset-object-dao.md">Recordset</a></strong> object represented by the recordset placeholder (Microsoft Access workspaces only).</span></span> <span data-ttu-id="4856b-122">.</span><span class="sxs-lookup"><span data-stu-id="4856b-122"></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-123"><strong><a href="recordset2-delete-method-dao.md">删除</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-123"><strong><a href="recordset2-delete-method-dao.md">Delete</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-124">不支持此对象。</span><span class="sxs-lookup"><span data-stu-id="9c325-124">Not supported for this object.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-123"><strong><a href="recordset2-delete-method-dao.md">删除</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-123"><strong><a href="recordset2-delete-method-dao.md">Delete</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-124">不支持此对象。</span><span class="sxs-lookup"><span data-stu-id="4856b-124">Not supported for this object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-125"><strong><a href="recordset2-edit-method-dao.md">Edit</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-125"><strong><a href="recordset2-edit-method-dao.md">Edit</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-126">将当前记录从可更新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象复制到复制缓冲区，以进行后续编辑。</span><span class="sxs-lookup"><span data-stu-id="9c325-126">Copies the current record from an updatable <strong><a href="recordset-object-dao.md">Recordset</a></strong> object to the copy buffer for subsequent editing.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-125"><strong><a href="recordset2-edit-method-dao.md">Edit</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-125"><strong><a href="recordset2-edit-method-dao.md">Edit</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-126">将当前记录从可更新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象复制到复制缓冲区，以进行后续编辑。</span><span class="sxs-lookup"><span data-stu-id="4856b-126">Copies the current record from an updatable <strong><a href="recordset-object-dao.md">Recordset</a></strong> object to the copy buffer for subsequent editing.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-127"><strong><a href="recordset2-fillcache-method-dao.md">FillCache</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-127"><strong><a href="recordset2-fillcache-method-dao.md">FillCache</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-128">为某个 <strong>Recordset</strong> 对象填充所有或一部分本地缓存，该对象包含来自 Microsoft Access 数据库引擎连接的 ODBC 数据源中的数据（仅适用于 Microsoft Access 数据库引擎连接的 ODBC 数据库）。</span><span class="sxs-lookup"><span data-stu-id="9c325-128">Fills all or a part of a local cache for a <strong>Recordset</strong> object that contains data from a Microsoft Access database engine-connected ODBC data source (Microsoft Access database engine-connected ODBC databases only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-127"><strong><a href="recordset2-fillcache-method-dao.md">FillCache</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-127"><strong><a href="recordset2-fillcache-method-dao.md">FillCache</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-128">为某个 <strong>Recordset</strong> 对象填充所有或一部分本地缓存，该对象包含来自 Microsoft Access 数据库引擎连接的 ODBC 数据源中的数据（仅适用于 Microsoft Access 数据库引擎连接的 ODBC 数据库）。</span><span class="sxs-lookup"><span data-stu-id="4856b-128">Fills all or a part of a local cache for a <strong>Recordset</strong> object that contains data from a Microsoft Access database engine-connected ODBC data source (Microsoft Access database engine-connected ODBC databases only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-129"><strong><a href="recordset2-findfirst-method-dao.md">FindFirst</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-129"><strong><a href="recordset2-findfirst-method-dao.md">FindFirst</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-130">在动态集类型或快照类型的 <strong>Recordset</strong> 对象中查找符合指定条件的第一条记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-130">Locates the first record in a dynaset- or snapshot-type <strong>Recordset</strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-129"><strong><a href="recordset2-findfirst-method-dao.md">FindFirst</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-129"><strong><a href="recordset2-findfirst-method-dao.md">FindFirst</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-130">在动态集类型或快照类型的 <strong>Recordset</strong> 对象中查找符合指定条件的第一条记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-130">Locates the first record in a dynaset- or snapshot-type <strong>Recordset</strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-131"><strong><a href="recordset2-findlast-method-dao.md">FindLast</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-131"><strong><a href="recordset2-findlast-method-dao.md">FindLast</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-132">在动态集类型或快照类型的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中查找符合指定条件的最后一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-132">Locates the last record in a dynaset- or snapshot-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-131"><strong><a href="recordset2-findlast-method-dao.md">FindLast</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-131"><strong><a href="recordset2-findlast-method-dao.md">FindLast</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-132">在动态集类型或快照类型的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中查找符合指定条件的最后一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-132">Locates the last record in a dynaset- or snapshot-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-133"><strong><a href="recordset2-findnext-method-dao.md">FindNext</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-133"><strong><a href="recordset2-findnext-method-dao.md">FindNext</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p103">在动态集类型或快照类型的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中查找符合指定条件的下一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-p103">Locates the next record in a dynaset- or snapshot-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only). .</span></span></p></td>
+<td><p><span data-ttu-id="4856b-133"><strong><a href="recordset2-findnext-method-dao.md">FindNext</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-133"><strong><a href="recordset2-findnext-method-dao.md">FindNext</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p103">在动态集类型或快照类型的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中查找符合指定条件的下一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-p103">Locates the next record in a dynaset- or snapshot-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only). .</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-136"><strong><a href="recordset2-findprevious-method-dao.md">FindPrevious</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-136"><strong><a href="recordset2-findprevious-method-dao.md">FindPrevious</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p104">在动态集类型或快照类型的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中查找符合指定条件的上一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-p104">Locates the previous record in a dynaset- or snapshot-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only). .</span></span></p></td>
+<td><p><span data-ttu-id="4856b-136"><strong><a href="recordset2-findprevious-method-dao.md">FindPrevious</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-136"><strong><a href="recordset2-findprevious-method-dao.md">FindPrevious</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p104">在动态集类型或快照类型的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中查找符合指定条件的上一条记录，并且使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-p104">Locates the previous record in a dynaset- or snapshot-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only). .</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-139"><strong><a href="recordset2-getrows-method-dao.md">GetRows</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-139"><strong><a href="recordset2-getrows-method-dao.md">GetRows</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-140">检索 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的多行。</span><span class="sxs-lookup"><span data-stu-id="9c325-140">Retrieves multiple rows from a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-139"><strong><a href="recordset2-getrows-method-dao.md">GetRows</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-139"><strong><a href="recordset2-getrows-method-dao.md">GetRows</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-140">检索 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的多行。</span><span class="sxs-lookup"><span data-stu-id="4856b-140">Retrieves multiple rows from a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-141"><strong><a href="recordset2-move-method-dao.md">Move</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-141"><strong><a href="recordset2-move-method-dao.md">Move</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-142">移动 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的当前记录的位置。</span><span class="sxs-lookup"><span data-stu-id="9c325-142">Moves the position of the current record in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-141"><strong><a href="recordset2-move-method-dao.md">Move</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-141"><strong><a href="recordset2-move-method-dao.md">Move</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-142">移动 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的当前记录的位置。</span><span class="sxs-lookup"><span data-stu-id="4856b-142">Moves the position of the current record in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-143"><strong><a href="recordset2-movefirst-method-dao.md">MoveFirst</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-143"><strong><a href="recordset2-movefirst-method-dao.md">MoveFirst</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-144">移到指定的 <strong>Recordset</strong> 对象中的第一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-144">Moves to the first record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-143"><strong><a href="recordset2-movefirst-method-dao.md">MoveFirst</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-143"><strong><a href="recordset2-movefirst-method-dao.md">MoveFirst</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-144">移到指定的 <strong>Recordset</strong> 对象中的第一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-144">Moves to the first record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-145"><strong><a href="recordset2-movelast-method-dao.md">MoveLast</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-145"><strong><a href="recordset2-movelast-method-dao.md">MoveLast</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-146">移到指定的 <strong>Recordset</strong> 对象中的最后一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-146">Moves to the last record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-145"><strong><a href="recordset2-movelast-method-dao.md">MoveLast</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-145"><strong><a href="recordset2-movelast-method-dao.md">MoveLast</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-146">移到指定的 <strong>Recordset</strong> 对象中的最后一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-146">Moves to the last record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-147"><strong><a href="recordset2-movenext-method-dao.md">MoveNext</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-147"><strong><a href="recordset2-movenext-method-dao.md">MoveNext</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-148">移到指定的 <strong>Recordset</strong> 对象中的下一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-148">Moves to the next record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-147"><strong><a href="recordset2-movenext-method-dao.md">MoveNext</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-147"><strong><a href="recordset2-movenext-method-dao.md">MoveNext</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-148">移到指定的 <strong>Recordset</strong> 对象中的下一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-148">Moves to the next record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-149"><strong><a href="recordset2-moveprevious-method-dao.md">MovePrevious</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-149"><strong><a href="recordset2-moveprevious-method-dao.md">MovePrevious</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-150">移到指定的 <strong>Recordset</strong> 对象中的上一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-150">Moves to the previous record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-149"><strong><a href="recordset2-moveprevious-method-dao.md">MovePrevious</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-149"><strong><a href="recordset2-moveprevious-method-dao.md">MovePrevious</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-150">移到指定的 <strong>Recordset</strong> 对象中的上一条记录，并使该记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-150">Moves to the previous record in a specified <strong>Recordset</strong> object and make that record the current record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-151"><strong><a href="recordset2-nextrecordset-method-dao.md">NextRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-151"><strong><a href="recordset2-nextrecordset-method-dao.md">NextRecordset</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-151"><strong><a href="recordset2-nextrecordset-method-dao.md">NextRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-151"><strong><a href="recordset2-nextrecordset-method-dao.md">NextRecordset</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-152">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-152">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-153">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-153">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-152">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-152">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-153">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-153">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-154">获取 <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> 调用中多部分选择查询返回的下一个记录集（如果有的话），并且返回一个 <strong>Boolean</strong> 值，用于指示是有一个还是有多个附加记录处于待定状态（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-154">Gets the next set of records, if any, returned by a multi-part select query in an <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> call, and returns a <strong>Boolean</strong> value indicating whether one or more additional records are pending (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="4856b-154">获取 <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> 调用中多部分选择查询返回的下一个记录集（如果有的话），并且返回一个 <strong>Boolean</strong> 值，用于指示是有一个还是有多个附加记录处于待定状态（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-154">Gets the next set of records, if any, returned by a multi-part select query in an <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> call, and returns a <strong>Boolean</strong> value indicating whether one or more additional records are pending (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-155"><strong><a href="recordset2-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-155"><strong><a href="recordset2-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-156">创建一个新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象，并将其追加到 <strong>Recordsets</strong> 集合。</span><span class="sxs-lookup"><span data-stu-id="9c325-156">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-155"><strong><a href="recordset2-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-155"><strong><a href="recordset2-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-156">创建一个新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象，并将其追加到 <strong>Recordsets</strong> 集合。</span><span class="sxs-lookup"><span data-stu-id="4856b-156">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-157"><strong><a href="recordset2-requery-method-dao.md">Requery</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-157"><strong><a href="recordset2-requery-method-dao.md">Requery</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-158">通过重新执行对象所基于的查询，更新 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的数据。</span><span class="sxs-lookup"><span data-stu-id="9c325-158">Updates the data in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object by re-executing the query on which the object is based.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-157"><strong><a href="recordset2-requery-method-dao.md">Requery</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-157"><strong><a href="recordset2-requery-method-dao.md">Requery</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-158">通过重新执行对象所基于的查询，更新 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的数据。</span><span class="sxs-lookup"><span data-stu-id="4856b-158">Updates the data in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object by re-executing the query on which the object is based.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-159"><strong><a href="recordset2-seek-method-dao.md">Seek</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-159"><strong><a href="recordset2-seek-method-dao.md">Seek</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-160">在已建立索引的表类型 <strong>Recordset</strong> 对象中查找符合当前索引的指定条件的记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-160">Locates the record in an indexed table-type <strong>Recordset</strong> object that satisfies the specified criteria for the current index and makes that record the current record (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-159"><strong><a href="recordset2-seek-method-dao.md">Seek</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-159"><strong><a href="recordset2-seek-method-dao.md">Seek</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-160">在已建立索引的表类型 <strong>Recordset</strong> 对象中查找符合当前索引的指定条件的记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-160">Locates the record in an indexed table-type <strong>Recordset</strong> object that satisfies the specified criteria for the current index and makes that record the current record (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-161"><strong><a href="recordset2-update-method-dao.md">Update</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-161"><strong><a href="recordset2-update-method-dao.md">Update</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-161"><strong><a href="recordset2-update-method-dao.md">Update</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-161"><strong><a href="recordset2-update-method-dao.md">Update</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-162">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-162">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-163">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-163">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-162">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-162">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-163">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-163">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-164">将复制缓冲区的内容保存到可更新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="9c325-164">Saves the contents of the copy buffer to an updatable <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
+<p><span data-ttu-id="4856b-164">将复制缓冲区的内容保存到可更新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="4856b-164">Saves the contents of the copy buffer to an updatable <strong><a href="recordset-object-dao.md">Recordset</a></strong> object.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="9c325-165">属性</span><span class="sxs-lookup"><span data-stu-id="9c325-165">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="4856b-165">属性</span><span class="sxs-lookup"><span data-stu-id="4856b-165">Properties</span></span>
 
 <table>
 <colgroup>
@@ -161,186 +161,186 @@ ms.locfileid: "25466770"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9c325-166">名称</span><span class="sxs-lookup"><span data-stu-id="9c325-166">Name</span></span></p></th>
-<th><p><span data-ttu-id="9c325-167">说明</span><span class="sxs-lookup"><span data-stu-id="9c325-167">Description</span></span></p></th>
+<th><p><span data-ttu-id="4856b-166">名称</span><span class="sxs-lookup"><span data-stu-id="4856b-166">Name</span></span></p></th>
+<th><p><span data-ttu-id="4856b-167">说明</span><span class="sxs-lookup"><span data-stu-id="4856b-167">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-168"><strong><a href="recordset2-absoluteposition-property-dao.md">AbsolutePosition</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-168"><strong><a href="recordset2-absoluteposition-property-dao.md">AbsolutePosition</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-169">设置或返回 <strong>Recordset2</strong> 对象的当前记录的相对记录编号。</span><span class="sxs-lookup"><span data-stu-id="9c325-169">Sets or returns the relative record number of a <strong>Recordset2</strong> object's current record.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-168"><strong><a href="recordset2-absoluteposition-property-dao.md">AbsolutePosition</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-168"><strong><a href="recordset2-absoluteposition-property-dao.md">AbsolutePosition</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-169">设置或返回 <strong>Recordset2</strong> 对象的当前记录的相对记录编号。</span><span class="sxs-lookup"><span data-stu-id="4856b-169">Sets or returns the relative record number of a <strong>Recordset2</strong> object's current record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-170"><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-170"><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-170"><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-170"><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-171">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-171">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-172">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-172">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-171">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-171">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-172">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-172">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-173">返回未完成上一批更新的记录数（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-173">Returns the number of records that did not complete the last batch update (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="4856b-173">返回未完成上一批更新的记录数（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-173">Returns the number of records that did not complete the last batch update (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-174"><strong><a href="recordset2-batchcollisions-property-dao.md">BatchCollisions</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-174"><strong><a href="recordset2-batchcollisions-property-dao.md">BatchCollisions</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-174"><strong><a href="recordset2-batchcollisions-property-dao.md">BatchCollisions</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-174"><strong><a href="recordset2-batchcollisions-property-dao.md">BatchCollisions</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-175">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-175">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-176">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-176">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-175">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-175">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-176">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-176">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-177">返回一个书签数组，用于指示在上次批更新操作中产生冲突的行（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-177">Returns an array of bookmarks indicating the rows that generated collisions in the last batch update operation (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="4856b-177">返回一个书签数组，用于指示在上次批更新操作中产生冲突的行（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-177">Returns an array of bookmarks indicating the rows that generated collisions in the last batch update operation (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-178"><strong><a href="recordset2-batchsize-property-dao.md">BatchSize</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-178"><strong><a href="recordset2-batchsize-property-dao.md">BatchSize</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-178"><strong><a href="recordset2-batchsize-property-dao.md">BatchSize</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-178"><strong><a href="recordset2-batchsize-property-dao.md">BatchSize</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-179">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-179">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-180">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-180">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-179">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-179">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-180">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-180">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-181">设置或返回每次批处理中发送回服务器的语句数（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-181">Sets or returns the number of statements sent back to the server in each batch (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="4856b-181">设置或返回每次批处理中发送回服务器的语句数（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-181">Sets or returns the number of statements sent back to the server in each batch (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-182"><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-182"><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p110">返回一个值，该值指示当前记录的位置是否在 <strong>Recordset</strong> 对象中的第一条记录之前。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="9c325-p110">Returns a value that indicates whether the current record position is before the first record in a <strong>Recordset</strong> object. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-182"><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-182"><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p110">返回一个值，该值指示当前记录的位置是否在 <strong>Recordset</strong> 对象中的第一条记录之前。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="4856b-p110">Returns a value that indicates whether the current record position is before the first record in a <strong>Recordset</strong> object. Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-185"><strong><a href="recordset2-bookmark-property-dao.md">书签</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-185"><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-186">设置或返回一个书签，该书签唯一地标识 <strong>Recordset</strong> 对象中的当前记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-186">Sets or returns a bookmark that uniquely identifies the current record in a <strong>Recordset</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-185"><strong><a href="recordset2-bookmark-property-dao.md">书签</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-185"><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-186">设置或返回一个书签，该书签唯一地标识 <strong>Recordset</strong> 对象中的当前记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-186">Sets or returns a bookmark that uniquely identifies the current record in a <strong>Recordset</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-187"><strong><a href="recordset2-bookmarkable-property-dao.md">Bookmarkable</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-187"><strong><a href="recordset2-bookmarkable-property-dao.md">Bookmarkable</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-188">返回一个值，该值表示 <strong>Recordset</strong> 对象是否支持书签（可以使用 <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong> 属性来设置书签）。</span><span class="sxs-lookup"><span data-stu-id="9c325-188">Returns a value that indicates whether a <strong>Recordset</strong> object supports bookmarks, which you can set by using the <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong> property.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-187"><strong><a href="recordset2-bookmarkable-property-dao.md">Bookmarkable</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-187"><strong><a href="recordset2-bookmarkable-property-dao.md">Bookmarkable</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-188">返回一个值，该值表示 <strong>Recordset</strong> 对象是否支持书签（可以使用 <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong> 属性来设置书签）。</span><span class="sxs-lookup"><span data-stu-id="4856b-188">Returns a value that indicates whether a <strong>Recordset</strong> object supports bookmarks, which you can set by using the <strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong> property.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-189"><strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-189"><strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p111">设置或返回从 ODBC 数据源中检索的、需要本地缓存的记录数。可读/写 <strong>Long</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="9c325-p111">Sets or returns the number of records retrieved from an ODBC data source that will be cached locally. Read/write <strong>Long</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-189"><strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-189"><strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p111">设置或返回从 ODBC 数据源中检索的、需要本地缓存的记录数。可读/写 <strong>Long</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="4856b-p111">Sets or returns the number of records retrieved from an ODBC data source that will be cached locally. Read/write <strong>Long</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-192"><strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-192"><strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-193">设置或返回一个值，该值指定动态集类型 Recordset 对象（包含从 ODBC 数据源本地缓存的数据）中的第一条记录的书签（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-193">Sets or returns a value that specifies the bookmark of the first record in a dynaset-type Recordset object containing data to be locally cached from an ODBC data source (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-192"><strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-192"><strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-193">设置或返回一个值，该值指定动态集类型 Recordset 对象（包含从 ODBC 数据源本地缓存的数据）中的第一条记录的书签（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-193">Sets or returns a value that specifies the bookmark of the first record in a dynaset-type Recordset object containing data to be locally cached from an ODBC data source (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-194"><strong><a href="recordset2-connection-property-dao.md">Connection</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-194"><strong><a href="recordset2-connection-property-dao.md">Connection</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-195">返回对应于数据库的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="9c325-195">Returns the <strong><a href="connection-object-dao.md">Connection</a></strong> object that corresponds to the database.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-194"><strong><a href="recordset2-connection-property-dao.md">Connection</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-194"><strong><a href="recordset2-connection-property-dao.md">Connection</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-195">返回对应于数据库的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="4856b-195">Returns the <strong><a href="connection-object-dao.md">Connection</a></strong> object that corresponds to the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-196"><strong><a href="recordset2-datecreated-property-dao.md">DateCreated</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-196"><strong><a href="recordset2-datecreated-property-dao.md">DateCreated</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p112">返回基表的创建日期和时间（仅适用于 Microsoft Access 工作区）。只读 <strong>Variant</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p112">Returns the date and time a base table was created (Microsoft Access workspaces only). Read-only <strong>Variant</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-196"><strong><a href="recordset2-datecreated-property-dao.md">DateCreated</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-196"><strong><a href="recordset2-datecreated-property-dao.md">DateCreated</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p112">返回基表的创建日期和时间（仅适用于 Microsoft Access 工作区）。只读 <strong>Variant</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p112">Returns the date and time a base table was created (Microsoft Access workspaces only). Read-only <strong>Variant</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-199"><strong><a href="recordset2-editmode-property-dao.md">EditMode</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-199"><strong><a href="recordset2-editmode-property-dao.md">EditMode</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-200">返回一个值，该值指示当前记录的编辑状态。</span><span class="sxs-lookup"><span data-stu-id="9c325-200">Returns a value that indicates the state of editing for the current record.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-199"><strong><a href="recordset2-editmode-property-dao.md">EditMode</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-199"><strong><a href="recordset2-editmode-property-dao.md">EditMode</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-200">返回一个值，该值指示当前记录的编辑状态。</span><span class="sxs-lookup"><span data-stu-id="4856b-200">Returns a value that indicates the state of editing for the current record.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-201"><strong><a href="recordset2-eof-property-dao.md">EOF</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-201"><strong><a href="recordset2-eof-property-dao.md">EOF</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p113">返回一个值，该值指示当前记录位置是否位于 <strong>Recordset</strong> 对象的最后一条记录之后。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="9c325-p113">Returns a value that indicates whether the current record position is after the last record in a <strong>Recordset</strong> object. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-201"><strong><a href="recordset2-eof-property-dao.md">EOF</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-201"><strong><a href="recordset2-eof-property-dao.md">EOF</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p113">返回一个值，该值指示当前记录位置是否位于 <strong>Recordset</strong> 对象的最后一条记录之后。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="4856b-p113">Returns a value that indicates whether the current record position is after the last record in a <strong>Recordset</strong> object. Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-204"><strong><a href="recordset2-fields-property-dao.md">字段</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-204"><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p114">返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="9c325-p114">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-204"><strong><a href="recordset2-fields-property-dao.md">字段</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-204"><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p114">返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="4856b-p114">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-207"><strong><a href="recordset2-filter-property-dao.md">筛选器</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-207"><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p115">设置或返回一个值，该值确定在以后打开的 <strong>Recordset</strong> 对象中包含的记录（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p115">Sets or returns a value that determines the records included in a subsequently opened <strong>Recordset</strong> object (Microsoft Access workspaces only). Read/write <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-207"><strong><a href="recordset2-filter-property-dao.md">筛选器</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-207"><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p115">设置或返回一个值，该值确定在以后打开的 <strong>Recordset</strong> 对象中包含的记录（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p115">Sets or returns a value that determines the records included in a subsequently opened <strong>Recordset</strong> object (Microsoft Access workspaces only). Read/write <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-210"><strong><a href="recordset2-index-property-dao.md">索引</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-210"><strong><a href="recordset2-index-property-dao.md">Index</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-211">设置或返回一个值，该值指示表类型 <strong><a href="index-object-dao.md">Recordset</a></strong> 对象中的当前 <strong><a href="recordset-object-dao.md">Index</a></strong> 对象的名称（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-211">Sets or returns a value that indicates the name of the current <strong><a href="index-object-dao.md">Index</a></strong> object in a table-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-210"><strong><a href="recordset2-index-property-dao.md">索引</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-210"><strong><a href="recordset2-index-property-dao.md">Index</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-211">设置或返回一个值，该值指示表类型 <strong><a href="index-object-dao.md">Recordset</a></strong> 对象中的当前 <strong><a href="recordset-object-dao.md">Index</a></strong> 对象的名称（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-211">Sets or returns a value that indicates the name of the current <strong><a href="index-object-dao.md">Index</a></strong> object in a table-type <strong><a href="recordset-object-dao.md">Recordset</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-212"><strong><a href="recordset2-lastmodified-property-dao.md">LastModified</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-212"><strong><a href="recordset2-lastmodified-property-dao.md">LastModified</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-213">返回一个书签，该书签指示最近添加或更改的记录。</span><span class="sxs-lookup"><span data-stu-id="9c325-213">Returns a ookmark indicating the most recently added or changed record.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-212"><strong><a href="recordset2-lastmodified-property-dao.md">LastModified</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-212"><strong><a href="recordset2-lastmodified-property-dao.md">LastModified</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-213">返回一个书签，该书签指示最近添加或更改的记录。</span><span class="sxs-lookup"><span data-stu-id="4856b-213">Returns a ookmark indicating the most recently added or changed record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-214"><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-214"><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p116">返回基表的最近更改日期和时间。只读 <strong>Variant</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p116">Returns the date and time of the most recent change made to a base table. Read-only <strong>Variant</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-214"><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-214"><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p116">返回基表的最近更改日期和时间。只读 <strong>Variant</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p116">Returns the date and time of the most recent change made to a base table. Read-only <strong>Variant</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-217"><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-217"><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-218">设置或返回一个值，该值指示编辑时生效的锁定的类型。</span><span class="sxs-lookup"><span data-stu-id="9c325-218">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-217"><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-217"><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-218">设置或返回一个值，该值指示编辑时生效的锁定的类型。</span><span class="sxs-lookup"><span data-stu-id="4856b-218">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-219"><strong><a href="recordset2-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-219"><strong><a href="recordset2-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p117">返回指定对象的名称。只读 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p117">Returns the name of the specified object. Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-219"><strong><a href="recordset2-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-219"><strong><a href="recordset2-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p117">返回指定对象的名称。只读 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p117">Returns the name of the specified object. Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-222"><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-222"><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-223">指示在使用 <strong><a href="recordset2-seek-method-dao.md">Seek</a></strong> 方法或 <strong><a href="recordset2-findfirst-method-dao.md">Find</a></strong> 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-223">Indicates whether a particular record was found by using the <strong><a href="recordset2-seek-method-dao.md">Seek</a></strong> method or one of the <strong><a href="recordset2-findfirst-method-dao.md">Find</a></strong> methods (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-222"><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-222"><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-223">指示在使用 <strong><a href="recordset2-seek-method-dao.md">Seek</a></strong> 方法或 <strong><a href="recordset2-findfirst-method-dao.md">Find</a></strong> 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-223">Indicates whether a particular record was found by using the <strong><a href="recordset2-seek-method-dao.md">Seek</a></strong> method or one of the <strong><a href="recordset2-findfirst-method-dao.md">Find</a></strong> methods (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-224"><strong><a href="recordset2-parentrecordset-property-dao.md">ParentRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-224"><strong><a href="recordset2-parentrecordset-property-dao.md">ParentRecordset</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p118">返回指定记录集的父 <strong>Recordset</strong>。只读。</span><span class="sxs-lookup"><span data-stu-id="9c325-p118">Returns the parent <strong>Recordset</strong> of the specified recordset. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-224"><strong><a href="recordset2-parentrecordset-property-dao.md">ParentRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-224"><strong><a href="recordset2-parentrecordset-property-dao.md">ParentRecordset</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p118">返回指定记录集的父 <strong>Recordset</strong>。只读。</span><span class="sxs-lookup"><span data-stu-id="4856b-p118">Returns the parent <strong>Recordset</strong> of the specified recordset. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-227"><strong><a href="recordset2-percentposition-property-dao.md">PercentPosition</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-227"><strong><a href="recordset2-percentposition-property-dao.md">PercentPosition</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-228">设置或返回一个值，用于根据 <a href="recordset-object-dao.md">Recordset</a> 中的记录百分比指示 <strong><strong>Recordset</strong></strong> 对象中当前记录的大概位置。</span><span class="sxs-lookup"><span data-stu-id="9c325-228">Sets or returns a value indicating the approximate location of the current record in the <strong><a href="recordset-object-dao.md">Recordset</a></strong> object based on a percentage of the records in the <strong>Recordset</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-227"><strong><a href="recordset2-percentposition-property-dao.md">PercentPosition</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-227"><strong><a href="recordset2-percentposition-property-dao.md">PercentPosition</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-228">设置或返回一个值，用于根据 <a href="recordset-object-dao.md">Recordset</a> 中的记录百分比指示 <strong><strong>Recordset</strong></strong> 对象中当前记录的大概位置。</span><span class="sxs-lookup"><span data-stu-id="4856b-228">Sets or returns a value indicating the approximate location of the current record in the <strong><a href="recordset-object-dao.md">Recordset</a></strong> object based on a percentage of the records in the <strong>Recordset</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-229"><strong><a href="recordset2-properties-property-dao.md">属性</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-229"><strong><a href="recordset2-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p119">返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="9c325-p119">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-229"><strong><a href="recordset2-properties-property-dao.md">属性</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-229"><strong><a href="recordset2-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p119">返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="4856b-p119">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-232"><strong><a href="recordset2-recordcount-property-dao.md">RecordCount</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-232"><strong><a href="recordset2-recordcount-property-dao.md">RecordCount</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p120">返回在 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中访问的记录数，或者返回表类型 <strong>Recordset</strong> 对象或 <strong><a href="tabledef-object-dao.md">TableDef</a></strong> 对象中的记录总数。只读 <strong>Long</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p120">Returns the number of records accessed in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object, or the total number of records in a table-type <strong>Recordset</strong> object. or <strong><a href="tabledef-object-dao.md">TableDef</a></strong> object. Read-only <strong>Long</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-232"><strong><a href="recordset2-recordcount-property-dao.md">RecordCount</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-232"><strong><a href="recordset2-recordcount-property-dao.md">RecordCount</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p120">返回在 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中访问的记录数，或者返回表类型 <strong>Recordset</strong> 对象或 <strong><a href="tabledef-object-dao.md">TableDef</a></strong> 对象中的记录总数。只读 <strong>Long</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p120">Returns the number of records accessed in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object, or the total number of records in a table-type <strong>Recordset</strong> object. or <strong><a href="tabledef-object-dao.md">TableDef</a></strong> object. Read-only <strong>Long</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-236"><strong><a href="recordset2-recordstatus-property-dao.md">RecordStatus</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-236"><strong><a href="recordset2-recordstatus-property-dao.md">RecordStatus</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-236"><strong><a href="recordset2-recordstatus-property-dao.md">RecordStatus</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-236"><strong><a href="recordset2-recordstatus-property-dao.md">RecordStatus</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-237">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-237">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-238">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-238">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-237">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-237">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-238">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-238">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-p122">返回一个值，如果当前记录是批更新的一部分，该值将指示当前记录的更新状态（仅适用于 ODBCDirect 工作区）。只读 <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong> 。</span><span class="sxs-lookup"><span data-stu-id="9c325-p122">Returns a value indicating the update status of the current record if it is part of a batch update (ODBCDirect workspaces only). Read-only <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong>.</span></span></p></td>
+<p><span data-ttu-id="4856b-p122">返回一个值，如果当前记录是批更新的一部分，该值将指示当前记录的更新状态（仅适用于 ODBCDirect 工作区）。只读 <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong> 。</span><span class="sxs-lookup"><span data-stu-id="4856b-p122">Returns a value indicating the update status of the current record if it is part of a batch update (ODBCDirect workspaces only). Read-only <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-241"><strong><a href="recordset2-restartable-property-dao.md">Restartable</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-241"><strong><a href="recordset2-restartable-property-dao.md">Restartable</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-242">返回一个值，该值表示 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象是否支持 <strong><a href="recordset2-requery-method-dao.md">Requery</a></strong> 方法，该方法重新执行 <strong>Recordset</strong> 对象所基于的查询。</span><span class="sxs-lookup"><span data-stu-id="9c325-242">Returns a value that indicates whether a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object supports the <strong><a href="recordset2-requery-method-dao.md">Requery</a></strong> method, which re-executes the query on which the <strong>Recordset</strong> object is based.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-241"><strong><a href="recordset2-restartable-property-dao.md">Restartable</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-241"><strong><a href="recordset2-restartable-property-dao.md">Restartable</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-242">返回一个值，该值表示 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象是否支持 <strong><a href="recordset2-requery-method-dao.md">Requery</a></strong> 方法，该方法重新执行 <strong>Recordset</strong> 对象所基于的查询。</span><span class="sxs-lookup"><span data-stu-id="4856b-242">Returns a value that indicates whether a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object supports the <strong><a href="recordset2-requery-method-dao.md">Requery</a></strong> method, which re-executes the query on which the <strong>Recordset</strong> object is based.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-243"><strong><a href="recordset2-sort-property-dao.md">Sort</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-243"><strong><a href="recordset2-sort-property-dao.md">Sort</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-244">设置或返回 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的记录的排序次序（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-244">Sets or returns the sort order for records in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4856b-243"><strong><a href="recordset2-sort-property-dao.md">Sort</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-243"><strong><a href="recordset2-sort-property-dao.md">Sort</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-244">设置或返回 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的记录的排序次序（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-244">Sets or returns the sort order for records in a <strong><a href="recordset-object-dao.md">Recordset</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-245"><strong><a href="recordset2-stillexecuting-property-dao.md">StillExecuting</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-245"><strong><a href="recordset2-stillexecuting-property-dao.md">StillExecuting</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-245"><strong><a href="recordset2-stillexecuting-property-dao.md">StillExecuting</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-245"><strong><a href="recordset2-stillexecuting-property-dao.md">StillExecuting</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-246">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-246">ODBCDirect workspaces are not supported in Microsoft Access 2013 .</span></span> <span data-ttu-id="9c325-247">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-247">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-246">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-246">ODBCDirect workspaces are not supported in Microsoft Access 2013 .</span></span> <span data-ttu-id="4856b-247">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-247">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-248">指示异步操作（即用 <strong>dbRunAsync</strong> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="9c325-248">Indicates whether or not an asynchronous operation (that is, a method called with the <strong>dbRunAsync</strong> option) has finished executing (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="4856b-248">指示异步操作（即用 <strong>dbRunAsync</strong> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4856b-248">Indicates whether or not an asynchronous operation (that is, a method called with the <strong>dbRunAsync</strong> option) has finished executing (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-249"><strong><a href="recordset2-transactions-property-dao.md">事务</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-249"><strong><a href="recordset2-transactions-property-dao.md">Transactions</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p124">返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="9c325-p124">Returns a value that indicates whether an object supports transactions. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-249"><strong><a href="recordset2-transactions-property-dao.md">事务</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-249"><strong><a href="recordset2-transactions-property-dao.md">Transactions</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p124">返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="4856b-p124">Returns a value that indicates whether an object supports transactions. Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-252"><strong><a href="recordset2-type-property-dao.md">类型</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-252"><strong><a href="recordset2-type-property-dao.md">Type</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p125">设置或返回一个值，该值指示对象的操作类型或数据类型。只读 <strong>Integer</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p125">Sets or returns a value that indicates the operational type or data type of an object. Read-only <strong>Integer</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-252"><strong><a href="recordset2-type-property-dao.md">类型</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-252"><strong><a href="recordset2-type-property-dao.md">Type</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p125">设置或返回一个值，该值指示对象的操作类型或数据类型。只读 <strong>Integer</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p125">Sets or returns a value that indicates the operational type or data type of an object. Read-only <strong>Integer</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-255"><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-255"><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p126">返回一个值，该值指示是否可以更改 DAO 对象。只读 <strong>Boolean</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p126">Returns a value that indicates whether you can change a DAO object. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-255"><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-255"><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p126">返回一个值，该值指示是否可以更改 DAO 对象。只读 <strong>Boolean</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p126">Returns a value that indicates whether you can change a DAO object. Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-258"><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-258"><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-258"><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-258"><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="9c325-259">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="9c325-259">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="9c325-260">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="9c325-260">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <P><span data-ttu-id="4856b-259">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="4856b-259">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4856b-260">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="4856b-260">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
 
 
-<p><span data-ttu-id="9c325-p128">设置或返回一个值，该值指示在批更新过程中如何为每条记录构建 WHERE 子句，以及批更新是应当使用 UPDATE 语句，还是应当使用后跟 INSERT 的 DELETE（仅适用于 ODBCDirect 工作区）。可读写。 <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong> 。</span><span class="sxs-lookup"><span data-stu-id="9c325-p128">Sets or returns a value that indicates how the WHERE clause is constructed for each record during a batch update, and whether the batch update should use an UPDATE statement or a DELETE followed by an INSERT (ODBCDirect workspaces only). Read/write <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong>.</span></span></p></td>
+<p><span data-ttu-id="4856b-p128">设置或返回一个值，该值指示在批更新过程中如何为每条记录构建 WHERE 子句，以及批更新是应当使用 UPDATE 语句，还是应当使用后跟 INSERT 的 DELETE（仅适用于 ODBCDirect 工作区）。可读写。 <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong> 。</span><span class="sxs-lookup"><span data-stu-id="4856b-p128">Sets or returns a value that indicates how the WHERE clause is constructed for each record during a batch update, and whether the batch update should use an UPDATE statement or a DELETE followed by an INSERT (ODBCDirect workspaces only). Read/write <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9c325-263"><strong><a href="recordset2-validationrule-property-dao.md">ValidationRule</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-263"><strong><a href="recordset2-validationrule-property-dao.md">ValidationRule</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-264">设置或返回一个值，当字段中的数据更改或添加到表中时，该值对这些数据进行验证（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-264">Sets or returns a value that validates the data in a field as it's changed or added to a table (Microsoft Access workspaces only).Read/write <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-263"><strong><a href="recordset2-validationrule-property-dao.md">ValidationRule</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-263"><strong><a href="recordset2-validationrule-property-dao.md">ValidationRule</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-264">设置或返回一个值，当字段中的数据更改或添加到表中时，该值对这些数据进行验证（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-264">Sets or returns a value that validates the data in a field as it's changed or added to a table (Microsoft Access workspaces only).Read/write <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9c325-265"><strong><a href="recordset2-validationtext-property-dao.md">ValidationText</a></strong></span><span class="sxs-lookup"><span data-stu-id="9c325-265"><strong><a href="recordset2-validationtext-property-dao.md">ValidationText</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9c325-p129">设置或返回一个值，该值指定在 <strong>Field</strong> 对象的值不满足 <strong>ValidationRule</strong> 属性设置所指定的验证规则时应用程序显示的消息文本（仅适用于 Microsoft Access 工作区）。只读 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="9c325-p129">Sets or returns a value that specifies the text of the message that your application displays if the value of a <strong>Field</strong> object doesn't satisfy the validation rule specified by the <strong>ValidationRule</strong> property setting (Microsoft Access workspaces only). Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="4856b-265"><strong><a href="recordset2-validationtext-property-dao.md">ValidationText</a></strong></span><span class="sxs-lookup"><span data-stu-id="4856b-265"><strong><a href="recordset2-validationtext-property-dao.md">ValidationText</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="4856b-p129">设置或返回一个值，该值指定在 <strong>Field</strong> 对象的值不满足 <strong>ValidationRule</strong> 属性设置所指定的验证规则时应用程序显示的消息文本（仅适用于 Microsoft Access 工作区）。只读 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="4856b-p129">Sets or returns a value that specifies the text of the message that your application displays if the value of a <strong>Field</strong> object doesn't satisfy the validation rule specified by the <strong>ValidationRule</strong> property setting (Microsoft Access workspaces only). Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="17226-101"><<<<<<< 标头标题： 列和表格的 Append 方法，名称属性示例 (VB) TOCTitle： 列和表格的 Append 方法、 Name 属性示例 (VB) === 标题： 列和表格 Append 方法、 Name 属性示例 (VB)TOCTitle： 列和表格 Append 方法、 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="17226-101"><<<<<<< HEAD title: Columns and Tables Append Methods, Name Property Example (VB) TOCTitle: Columns and Tables Append Methods, Name Property Example (VB) ======= title: Columns and Tables Append Methods, Name property example (VB) TOCTitle: Columns and Tables Append Methods, Name property example (VB)</span></span>
->>>>>>> <span data-ttu-id="17226-102">母版页 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15) ms:contentKeyID: 48544238 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="17226-102">master ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15) ms:contentKeyID: 48544238 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)
+TOCTitle: Columns and Tables Append Methods, Name property example (VB)
+ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
+ms:contentKeyID: 48544238
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f017092a5bd68a4fbde7cc1a7ceab9ccf3ff2900
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872555"
 ---
-
-<span data-ttu-id="17226-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="17226-103"><<<<<<< HEAD</span></span>
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="17226-104">Columns 和 Tables 的 Append 方法、Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="17226-104">Columns and Tables Append Methods, Name Property Example (VB)</span></span>
-=======
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="17226-105">Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="17226-105">Columns and Tables Append Methods, Name property example (VB)</span></span>
->>>>>>> <span data-ttu-id="17226-106">master</span><span class="sxs-lookup"><span data-stu-id="17226-106">master</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="a6351-102">Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a6351-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="17226-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="17226-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a6351-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6351-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="17226-108">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="17226-108">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="a6351-104">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="a6351-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

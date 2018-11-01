@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249614(v=office.15)
 ms:contentKeyID: 48546223
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9f2fe9ca40fb9f9a290b48289646f15d9fef30d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 436bdfd955494accfc02d4460a6080531f76452d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861055"
+ms.locfileid: "25888193"
 ---
-# <a name="update-and-cancelupdate-methods-example-vb"></a><span data-ttu-id="b368e-102">Update 和 CancelUpdate 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b368e-102">Update and CancelUpdate methods example (VB)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vb"></a><span data-ttu-id="d66a5-102">Update 和 CancelUpdate 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="d66a5-102">Update and CancelUpdate methods example (VB)</span></span>
 
 
-<span data-ttu-id="b368e-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="b368e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d66a5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d66a5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b368e-104">以下示例演示了如何结合使用 [Update](update-method-ado.md) 方法和 [CancelUpdate](cancelupdate-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="b368e-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="d66a5-104">以下示例演示了如何结合使用 [Update](update-method-ado.md) 方法和 [CancelUpdate](cancelupdate-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="d66a5-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```vb 
  
@@ -112,7 +112,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="b368e-105">以下示例演示了如何结合使用 **Update** 方法和 [AddNew](addnew-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="b368e-105">This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.</span></span>
+<span data-ttu-id="d66a5-105">以下示例演示了如何结合使用 **Update** 方法和 [AddNew](addnew-method-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="d66a5-105">This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.</span></span>
 
 ```vb 
  

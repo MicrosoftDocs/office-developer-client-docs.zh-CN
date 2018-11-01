@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="a2ec3-101"><<<<<<< 标头标题： 值属性示例 (VB) TOCTitle： 值属性示例 (VB) === 标题： Value 属性示例 (VB) TOCTitle: Value 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a2ec3-101"><<<<<<< HEAD title: Value Property Example (VB) TOCTitle: Value Property Example (VB) ======= title: Value property example (VB) TOCTitle: Value property example (VB)</span></span>
->>>>>>> <span data-ttu-id="a2ec3-102">母版页 ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: 48547547 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="a2ec3-102">master ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15) ms:contentKeyID: 48547547 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Value 属性示例 (VB)
+TOCTitle: Value property example (VB)
+ms:assetid: c2319a14-e86f-6dc1-b203-fd5f35ffa04f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249947(v=office.15)
+ms:contentKeyID: 48547547
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37182f2de5342374ddb3d12d38e35c63bafaf1aa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872828"
 ---
-
-<span data-ttu-id="a2ec3-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="a2ec3-103"><<<<<<< HEAD</span></span>
-# <a name="value-property-example-vb"></a><span data-ttu-id="a2ec3-104">Value 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a2ec3-104">Value Property Example (VB)</span></span>
-=======
-# <a name="value-property-example-vb"></a><span data-ttu-id="a2ec3-105">Value 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a2ec3-105">Value property example (VB)</span></span>
->>>>>>> <span data-ttu-id="a2ec3-106">master</span><span class="sxs-lookup"><span data-stu-id="a2ec3-106">master</span></span>
+# <a name="value-property-example-vb"></a><span data-ttu-id="b9b3d-102">Value 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b9b3d-102">Value property example (VB)</span></span>
 
 
-<span data-ttu-id="a2ec3-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2ec3-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b9b3d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9b3d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2ec3-108">此示例通过显示 ***Employees***（雇员）表的字段和属性值来演示 [Field](field-object-ado.md) 和 [Property](property-object-ado.md) 对象的 [Value](value-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="a2ec3-108">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="b9b3d-104">此示例通过显示 ***Employees***（雇员）表的字段和属性值来演示 [Field](field-object-ado.md) 和 [Property](property-object-ado.md) 对象的 [Value](value-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="b9b3d-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```vb 
  

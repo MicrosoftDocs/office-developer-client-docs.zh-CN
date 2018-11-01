@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="2d9f4-101"><<<<<<< 标头标题： 列和表格的 Append 方法、 Name 属性示例 （VC + +） TOCTitle： 列和表格 Append 方法、 Name 属性示例 （VC + +） === 标题： 列和表格 Append 方法、 Name 属性示例 （VC + +）TOCTitle： 列和表格 Append 方法、 Name 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="2d9f4-101"><<<<<<< HEAD title: Columns and Tables Append Methods, Name Property Example (VC++) TOCTitle: Columns and Tables Append Methods, Name Property Example (VC++) ======= title: Columns and Tables Append Methods, Name property example (VC++) TOCTitle: Columns and Tables Append Methods, Name property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="2d9f4-102">母版页 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15) ms:contentKeyID: 48545322 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="2d9f4-102">master ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15) ms:contentKeyID: 48545322 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Columns 和 Tables 的 Append 方法、 Name 属性示例 （VC + +）
+TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
+ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
+ms:contentKeyID: 48545322
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f592b4015d073c05fcd050350bec4ebafdb6eb54
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882201"
 ---
-
-<span data-ttu-id="2d9f4-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="2d9f4-103"><<<<<<< HEAD</span></span>
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="2d9f4-104">Columns 和 Tables 的 Append 方法、Name 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2d9f4-104">Columns and Tables Append Methods, Name Property Example (VC++)</span></span>
-=======
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="2d9f4-105">Columns 和 Tables 的 Append 方法、 Name 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="2d9f4-105">Columns and Tables Append Methods, Name property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="2d9f4-106">master</span><span class="sxs-lookup"><span data-stu-id="2d9f4-106">master</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="616c6-102">Columns 和 Tables 的 Append 方法、 Name 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="616c6-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
 
 
-<span data-ttu-id="2d9f4-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d9f4-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="616c6-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="616c6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d9f4-108">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="2d9f4-108">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="616c6-104">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="616c6-104">The following code demonstrates how to create a new table.</span></span>
 
 ```cpp 
  

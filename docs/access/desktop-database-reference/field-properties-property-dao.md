@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193147(v=office.15)
 ms:contentKeyID: 48544518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e2e5ba0cce03d54a0ede501ecb7aac8f24a46ba1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ac063447280909e93bba7cb51dddf842577a76d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465973"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881312"
 ---
-# <a name="fieldproperties-property-dao"></a><span data-ttu-id="3c761-102">Field.Properties Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="3c761-102">Field.Properties Property (DAO)</span></span>
+# <a name="fieldproperties-property-dao"></a><span data-ttu-id="889c7-102">Field.Properties Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="889c7-102">Field.Properties Property (DAO)</span></span>
 
 
-<span data-ttu-id="3c761-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c761-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="889c7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="889c7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3c761-p101">返回指定对象的 **[Properties](properties-collection-dao.md)** 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="3c761-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="889c7-p101">返回指定对象的 **[Properties](properties-collection-dao.md)** 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="889c7-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3c761-106">语法</span><span class="sxs-lookup"><span data-stu-id="3c761-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="889c7-106">语法</span><span class="sxs-lookup"><span data-stu-id="889c7-106">Syntax</span></span>
 
-<span data-ttu-id="3c761-107">*表达式*。属性</span><span class="sxs-lookup"><span data-stu-id="3c761-107">*expression* .Properties</span></span>
+<span data-ttu-id="889c7-107">*表达式*。属性</span><span class="sxs-lookup"><span data-stu-id="889c7-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="3c761-108">*表达式*一个代表**Field**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="3c761-108">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="889c7-108">*表达式*一个代表**Field**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="889c7-108">*expression* A variable that represents a **Field** object.</span></span>
 

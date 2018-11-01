@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="87bba-101"><<<<<<< 标头标题： Seek 方法和 Index 属性示例 （VC + +） TOCTitle: Seek 方法和 Index 属性示例 （VC + +） === 标题： Seek 方法和 Index 属性示例 （VC + +） TOCTitle: Seek 方法和 Index 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="87bba-101"><<<<<<< HEAD title: Seek Method and Index Property Example (VC++) TOCTitle: Seek Method and Index Property Example (VC++) ======= title: Seek Method and Index property example (VC++) TOCTitle: Seek Method and Index property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="87bba-102">母版页 ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15) ms:contentKeyID: 48548820 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="87bba-102">master ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15) ms:contentKeyID: 48548820 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Seek 方法和 Index 属性示例 （VC + +）
+TOCTitle: Seek Method and Index property example (VC++)
+ms:assetid: f99fb4e5-2ddb-ae0c-6d10-c095b3de1909
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250270(v=office.15)
+ms:contentKeyID: 48548820
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 721f3fdbd69265cf5786aec43059d86f8a86bfa8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889606"
 ---
-
-<span data-ttu-id="87bba-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="87bba-103"><<<<<<< HEAD</span></span>
-# <a name="seek-method-and-index-property-example-vc"></a><span data-ttu-id="87bba-104">Seek 方法和 Index 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="87bba-104">Seek Method and Index Property Example (VC++)</span></span>
-=======
-# <a name="seek-method-and-index-property-example-vc"></a><span data-ttu-id="87bba-105">Seek 方法和 Index 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="87bba-105">Seek Method and Index property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="87bba-106">master</span><span class="sxs-lookup"><span data-stu-id="87bba-106">master</span></span>
+# <a name="seek-method-and-index-property-example-vc"></a><span data-ttu-id="60124-102">Seek 方法和 Index 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="60124-102">Seek Method and Index property example (VC++)</span></span>
 
 
-<span data-ttu-id="87bba-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="87bba-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="60124-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="60124-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="87bba-108">以下示例将 [Recordset](recordset-object-ado.md) 对象的 [Seek](seek-method-ado.md) 方法和 [Index](index-property-ado.md) 属性与给定的 ***Employee ID***（雇员 ID）结合起来使用，以便在 Nwind.mdb 数据库的 ***Employees***（雇员）表中查找雇员的姓名。</span><span class="sxs-lookup"><span data-stu-id="87bba-108">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
+<span data-ttu-id="60124-104">以下示例将 [Recordset](recordset-object-ado.md) 对象的 [Seek](seek-method-ado.md) 方法和 [Index](index-property-ado.md) 属性与给定的 ***Employee ID***（雇员 ID）结合起来使用，以便在 Nwind.mdb 数据库的 ***Employees***（雇员）表中查找雇员的姓名。</span><span class="sxs-lookup"><span data-stu-id="60124-104">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
 
 ```cpp 
  
@@ -236,7 +242,7 @@ void PrintComError(_com_error &e)
 // EndSeekCpp 
 ```
 
-<span data-ttu-id="87bba-109">**SeekX.h**</span><span class="sxs-lookup"><span data-stu-id="87bba-109">**SeekX.h**</span></span>
+<span data-ttu-id="60124-105">**SeekX.h**</span><span class="sxs-lookup"><span data-stu-id="60124-105">**SeekX.h**</span></span>
 
 ```cpp 
  

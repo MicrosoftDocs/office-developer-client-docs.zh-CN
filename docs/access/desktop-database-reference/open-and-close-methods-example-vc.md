@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249112(v=office.15)
 ms:contentKeyID: 48544132
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c6f4d156b8b0f818fea98646e6fe88eff5292d38
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e36cf0d56be0cda8d63c93c27fb7e3b92f002be1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863008"
+ms.locfileid: "25877196"
 ---
-# <a name="open-and-close-methods-example-vc"></a><span data-ttu-id="2ff46-102">Open 和 Close 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2ff46-102">Open and Close methods example (VC++)</span></span>
+# <a name="open-and-close-methods-example-vc"></a><span data-ttu-id="2b1fb-102">Open 和 Close 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2b1fb-102">Open and Close methods example (VC++)</span></span>
 
 
-<span data-ttu-id="2ff46-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ff46-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2b1fb-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b1fb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2ff46-104">本示例对已打开的 **Recordset** 和 [Connection](close-method-ado.md) 对象使用 [Open](recordset-object-ado.md) 和 [Close](connection-object-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="2ff46-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="2b1fb-104">本示例对已打开的 **Recordset** 和 [Connection](close-method-ado.md) 对象使用 [Open](recordset-object-ado.md) 和 [Close](connection-object-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="2b1fb-104">This example uses the **Open** and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
 ```cpp 
  
@@ -218,7 +218,7 @@ void PrintComError(_com_error &e)
 // EndOpenCpp 
 ```
 
-<span data-ttu-id="2ff46-105">**OpenX.h**</span><span class="sxs-lookup"><span data-stu-id="2ff46-105">**OpenX.h**</span></span>
+<span data-ttu-id="2b1fb-105">**OpenX.h**</span><span class="sxs-lookup"><span data-stu-id="2b1fb-105">**OpenX.h**</span></span>
 
 ```cpp 
  

@@ -1,18 +1,23 @@
 ---
-<span data-ttu-id="fae47-101"><<<<<<< 标头标题： ActiveConnection，CommandText，CommandTimeout 属性示例 （VC + +） TOCTitle: ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 Size 和 Direction 属性示例 （VC + +） ms:assetid:254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: 48543780 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="fae47-101"><<<<<<< HEAD title: ActiveConnection, CommandText, CommandTimeout Properties Example (VC++) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VC++) ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: 48543780 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: ActiveConnection，CommandText，CommandTimeout 属性示例 （VC + +）
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
+ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
+ms:contentKeyID: 48543780
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 7cf18556867e82e8f5ac6960520aa507bfb9e080
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878603"
 ---
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a><span data-ttu-id="08616-102">ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="08616-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)</span></span>
 
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a><span data-ttu-id="fae47-102">ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="fae47-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (VC++)</span></span>
+<span data-ttu-id="08616-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="08616-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fae47-103">=== 标题： ActiveConnection、 CommandText，CommandTimeout 属性示例 （VC + +） TOCTitle: ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例 （VC + +） ms:assetid:254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: 48543780 ms.date: 10/17/2018 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="fae47-103">======= title: ActiveConnection, CommandText, CommandTimeout properties example (VC++) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++) ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15) ms:contentKeyID: 48543780 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a><span data-ttu-id="fae47-104">ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="fae47-104">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="fae47-105">master</span><span class="sxs-lookup"><span data-stu-id="fae47-105">master</span></span>
-
-<span data-ttu-id="fae47-106">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="fae47-106">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="fae47-107">此示例使用 [ActiveConnection](activeconnection-property-ado.md)、[CommandText](commandtext-property-ado.md)、[CommandTimeout](commandtimeout-property-ado.md)、[CommandType](commandtype-property-ado.md)、[Size](size-property-ado.md) 和 [Direction](direction-property-ado.md) 属性来执行存储过程。</span><span class="sxs-lookup"><span data-stu-id="fae47-107">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="08616-104">此示例使用 [ActiveConnection](activeconnection-property-ado.md)、[CommandText](commandtext-property-ado.md)、[CommandTimeout](commandtimeout-property-ado.md)、[CommandType](commandtype-property-ado.md)、[Size](size-property-ado.md) 和 [Direction](direction-property-ado.md) 属性来执行存储过程。</span><span class="sxs-lookup"><span data-stu-id="08616-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```cpp 
  
@@ -196,7 +201,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="fae47-108">**ActiveConnectionX.h**</span><span class="sxs-lookup"><span data-stu-id="fae47-108">**ActiveConnectionX.h**</span></span>
+<span data-ttu-id="08616-105">**ActiveConnectionX.h**</span><span class="sxs-lookup"><span data-stu-id="08616-105">**ActiveConnectionX.h**</span></span>
 
 ```cpp 
  

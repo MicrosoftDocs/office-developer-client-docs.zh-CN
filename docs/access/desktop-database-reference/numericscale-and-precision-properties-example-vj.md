@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="7341e-101"><<<<<<< 标头标题： NumericScale 和 Precision 属性示例 （VJ + +） TOCTitle: NumericScale 和 Precision 属性示例 （VJ + +） === 标题： NumericScale 和 Precision 属性示例 （VJ + +） TOCTitle: NumericScale 和Precision 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="7341e-101"><<<<<<< HEAD title: NumericScale and Precision Properties Example (VJ++) TOCTitle: NumericScale and Precision Properties Example (VJ++) ======= title: NumericScale and Precision properties example (VJ++) TOCTitle: NumericScale and Precision properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="7341e-102">母版页 ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15) ms:contentKeyID: 48546574 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="7341e-102">master ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15) ms:contentKeyID: 48546574 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: NumericScale 和 Precision 属性示例 (VJ++)
+TOCTitle: NumericScale and Precision properties example (VJ++)
+ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15)
+ms:contentKeyID: 48546574
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc77017b4e52c9a0e9ef519f9cfa0a6169b4895f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883216"
 ---
-
-<span data-ttu-id="7341e-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="7341e-103"><<<<<<< HEAD</span></span>
-# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="7341e-104">NumericScale 和 Precision 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7341e-104">NumericScale and Precision Properties Example (VJ++)</span></span>
-=======
-# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="7341e-105">NumericScale 和 Precision 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="7341e-105">NumericScale and Precision properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="7341e-106">master</span><span class="sxs-lookup"><span data-stu-id="7341e-106">master</span></span>
+# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="cde0a-102">NumericScale 和 Precision 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="cde0a-102">NumericScale and Precision properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="7341e-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="7341e-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cde0a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="cde0a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7341e-108">本示例使用 [NumericScale](numericscale-property-ado.md) 和 [Precision](precision-property-ado.md) 属性显示 ***Pubs*** 数据库的 ***Discounts***（折扣）表中字段的数字小数位数和精确度。</span><span class="sxs-lookup"><span data-stu-id="7341e-108">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="cde0a-104">本示例使用 [NumericScale](numericscale-property-ado.md) 和 [Precision](precision-property-ado.md) 属性显示 ***Pubs*** 数据库的 ***Discounts***（折扣）表中字段的数字小数位数和精确度。</span><span class="sxs-lookup"><span data-stu-id="cde0a-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```java 
  

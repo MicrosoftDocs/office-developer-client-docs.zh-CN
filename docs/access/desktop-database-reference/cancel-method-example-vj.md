@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249089(v=office.15)
 ms:contentKeyID: 48544058
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ce7a0429b80cbed0f5abe97dcaa3cbbd0da8be1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 571adee7649f08bc44b26a25ba645668c8594ea9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862500"
+ms.locfileid: "25876090"
 ---
-# <a name="cancel-method-example-vj"></a><span data-ttu-id="9e5ee-102">Cancel 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9e5ee-102">Cancel method example (VJ++)</span></span>
+# <a name="cancel-method-example-vj"></a><span data-ttu-id="7e327-102">Cancel 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7e327-102">Cancel method example (VJ++)</span></span>
 
 
-<span data-ttu-id="9e5ee-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e5ee-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7e327-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e327-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9e5ee-104">以下示例使用 [Cancel](cancel-method-ado.md) 方法取消当连接处于忙碌状态时对 [Connection](connection-object-ado.md) 对象执行的命令。</span><span class="sxs-lookup"><span data-stu-id="9e5ee-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="7e327-104">以下示例使用 [Cancel](cancel-method-ado.md) 方法取消当连接处于忙碌状态时对 [Connection](connection-object-ado.md) 对象执行的命令。</span><span class="sxs-lookup"><span data-stu-id="7e327-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```java 
  

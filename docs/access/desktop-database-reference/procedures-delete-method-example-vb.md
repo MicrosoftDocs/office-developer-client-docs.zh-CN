@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248964(v=office.15)
 ms:contentKeyID: 48543576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a309f8013d8766a107f2d326b8c4f36645b7b25
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: ccee0f53b1c7406bcb31773d5504dc105c74a484
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863701"
+ms.locfileid: "25881529"
 ---
-# <a name="procedures-delete-method-example-vb"></a><span data-ttu-id="3fd33-102">Procedures 的 Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="3fd33-102">Procedures Delete method example (VB)</span></span>
+# <a name="procedures-delete-method-example-vb"></a><span data-ttu-id="799f1-102">Procedures 的 Delete 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="799f1-102">Procedures Delete method example (VB)</span></span>
 
 
-<span data-ttu-id="3fd33-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fd33-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="799f1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="799f1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3fd33-104">下面的代码演示如何使用 [Procedures](procedures-collection-adox.md) 集合的 [Delete](delete-method-adox-collections.md) 方法删除过程。</span><span class="sxs-lookup"><span data-stu-id="3fd33-104">The following code demonstrates how to delete a procedure using the [Procedures](procedures-collection-adox.md) collection [Delete](delete-method-adox-collections.md) method.</span></span>
+<span data-ttu-id="799f1-104">下面的代码演示如何使用 [Procedures](procedures-collection-adox.md) 集合的 [Delete](delete-method-adox-collections.md) 方法删除过程。</span><span class="sxs-lookup"><span data-stu-id="799f1-104">The following code demonstrates how to delete a procedure using the [Procedures](procedures-collection-adox.md) collection [Delete](delete-method-adox-collections.md) method.</span></span>
 
 ```vb 
  

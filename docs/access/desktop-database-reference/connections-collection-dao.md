@@ -6,49 +6,49 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1106d477f0c9e055e01db34cafa959b3fcddec37
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b2f7fba059ba277de0fe494c845bbdbfcd27affa
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861513"
+ms.locfileid: "25882782"
 ---
-# <a name="connections-collection-dao"></a><span data-ttu-id="c73e2-102">Connections Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="c73e2-102">Connections Collection (DAO)</span></span>
+# <a name="connections-collection-dao"></a><span data-ttu-id="76863-102">Connections Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="76863-102">Connections Collection (DAO)</span></span>
 
 
-<span data-ttu-id="c73e2-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="c73e2-103">**Applies to**: Access 2013 | Office 2013</span></span>
-
-
-> [!NOTE]
-> <span data-ttu-id="c73e2-104">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="c73e2-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="c73e2-105">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="c73e2-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
-
-
-
-<span data-ttu-id="c73e2-p102">一个 **Connections** 集合，包含 **Workspace** 对象的当前 **Connection** 对象（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="c73e2-p102">A **Connections** collection contains the current **Connection** objects of a **Workspace** object. (ODBCDirect workspaces only).</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="c73e2-108">注解</span><span class="sxs-lookup"><span data-stu-id="c73e2-108">Remarks</span></span>
-
-<span data-ttu-id="c73e2-p103">打开 **Connection** 对象时，该对象会自动追加到 **Workspace** 的 **Connections** 集合中。使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Connection** 对象时，会从 **Connections** 集合中删除该对象。关闭 [Connection](recordset-object-dao.md) 之前，应关闭其中所有打开的 \*\*\*\*Recordset\*\*\*\* 对象。</span><span class="sxs-lookup"><span data-stu-id="c73e2-p103">When you open a **Connection** object, it is automatically appended to the **Connections** collection of the **Workspace**. When you close a **Connection** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Connections** collection. You should close all open **[Recordset](recordset-object-dao.md)** objects within the **Connection** before closing it.</span></span>
-
-<span data-ttu-id="c73e2-p104">打开 **Connection** 对象的同时，会创建一个相应的 **[Database](database-object-dao.md)** 对象，该对象追加到同一 [Workspace](databases-collection-dao.md) 中的 \*\*\*\*Databases\*\*\*\* 集合中，反之亦然。同样，关闭 **Connection** 时，即从 **Databases** 集合中删除相应的 **Database**，依此类推。</span><span class="sxs-lookup"><span data-stu-id="c73e2-p104">At the same time you open a **Connection** object, a corresponding **[Database](database-object-dao.md)** object is created and appended to the **[Databases](databases-collection-dao.md)** collection in the same **Workspace**, and vice versa. Similarly, when you close the **Connection**, the corresponding **Database** is deleted from the **Databases** collection, and so on.</span></span>
-
-<span data-ttu-id="c73e2-p105">**Connection** 的 **Name** 属性设置是一个指定数据库文件路径的字符串。若要按照序号或 **Name** 属性设置来引用集合中的 **Connection** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="c73e2-p105">The **Name** property setting of a **Connection** is a string that specifies the path of the database file. To refer to a **Connection** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
-
-  - <span data-ttu-id="c73e2-116">**Connections**(0)</span><span class="sxs-lookup"><span data-stu-id="c73e2-116">**Connections**(0)</span></span>
-
-  - <span data-ttu-id="c73e2-117">**连接**（"*name*"）</span><span class="sxs-lookup"><span data-stu-id="c73e2-117">**Connections**("*name*")</span></span>
-
-  - <span data-ttu-id="c73e2-118">**连接**\!\[*名称*\]</span><span class="sxs-lookup"><span data-stu-id="c73e2-118">**Connections**\!\[*name*\]</span></span>
+<span data-ttu-id="76863-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="76863-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="c73e2-p106">[!注释] 可以多次打开同一数据源，这样会在 **Connections** 集合中生成重复的名称。应当将 **Connection** 对象分配给对象变量，并通过变量名来引用它们。</span><span class="sxs-lookup"><span data-stu-id="c73e2-p106">You can open the same data source more than once, creating duplicate names in the **Connections** collection. You should assign **Connection** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="76863-104">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="76863-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="76863-105">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="76863-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
 
-## <a name="example"></a><span data-ttu-id="c73e2-121">示例</span><span class="sxs-lookup"><span data-stu-id="c73e2-121">Example</span></span>
+<span data-ttu-id="76863-p102">一个 **Connections** 集合，包含 **Workspace** 对象的当前 **Connection** 对象（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="76863-p102">A **Connections** collection contains the current **Connection** objects of a **Workspace** object. (ODBCDirect workspaces only).</span></span>
 
-<span data-ttu-id="c73e2-122">以下示例通过打开一个 **Database** 对象和两个 ODBCDirect **Connection** 对象并列出可用于每个对象的属性，来演示 **Connection** 对象和 **Connections** 集合。</span><span class="sxs-lookup"><span data-stu-id="c73e2-122">This example demonstrates the **Connection** object and **Connections** collection by opening a **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
+## <a name="remarks"></a><span data-ttu-id="76863-108">注解</span><span class="sxs-lookup"><span data-stu-id="76863-108">Remarks</span></span>
+
+<span data-ttu-id="76863-p103">打开 **Connection** 对象时，该对象会自动追加到 **Workspace** 的 **Connections** 集合中。使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Connection** 对象时，会从 **Connections** 集合中删除该对象。关闭 [Connection](recordset-object-dao.md) 之前，应关闭其中所有打开的 \*\*\*\*Recordset\*\*\*\* 对象。</span><span class="sxs-lookup"><span data-stu-id="76863-p103">When you open a **Connection** object, it is automatically appended to the **Connections** collection of the **Workspace**. When you close a **Connection** object with the **[Close](connection-close-method-dao.md)** method, it is removed from the **Connections** collection. You should close all open **[Recordset](recordset-object-dao.md)** objects within the **Connection** before closing it.</span></span>
+
+<span data-ttu-id="76863-p104">打开 **Connection** 对象的同时，会创建一个相应的 **[Database](database-object-dao.md)** 对象，该对象追加到同一 [Workspace](databases-collection-dao.md) 中的 \*\*\*\*Databases\*\*\*\* 集合中，反之亦然。同样，关闭 **Connection** 时，即从 **Databases** 集合中删除相应的 **Database**，依此类推。</span><span class="sxs-lookup"><span data-stu-id="76863-p104">At the same time you open a **Connection** object, a corresponding **[Database](database-object-dao.md)** object is created and appended to the **[Databases](databases-collection-dao.md)** collection in the same **Workspace**, and vice versa. Similarly, when you close the **Connection**, the corresponding **Database** is deleted from the **Databases** collection, and so on.</span></span>
+
+<span data-ttu-id="76863-p105">**Connection** 的 **Name** 属性设置是一个指定数据库文件路径的字符串。若要按照序号或 **Name** 属性设置来引用集合中的 **Connection** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="76863-p105">The **Name** property setting of a **Connection** is a string that specifies the path of the database file. To refer to a **Connection** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+
+  - <span data-ttu-id="76863-116">**Connections**(0)</span><span class="sxs-lookup"><span data-stu-id="76863-116">**Connections**(0)</span></span>
+
+  - <span data-ttu-id="76863-117">**连接**（"*name*"）</span><span class="sxs-lookup"><span data-stu-id="76863-117">**Connections**("*name*")</span></span>
+
+  - <span data-ttu-id="76863-118">**连接**\!\[*名称*\]</span><span class="sxs-lookup"><span data-stu-id="76863-118">**Connections**\!\[*name*\]</span></span>
+
+
+> [!NOTE]
+> <span data-ttu-id="76863-p106">[!注释] 可以多次打开同一数据源，这样会在 **Connections** 集合中生成重复的名称。应当将 **Connection** 对象分配给对象变量，并通过变量名来引用它们。</span><span class="sxs-lookup"><span data-stu-id="76863-p106">You can open the same data source more than once, creating duplicate names in the **Connections** collection. You should assign **Connection** objects to object variables and refer to them by variable name.</span></span>
+
+
+
+## <a name="example"></a><span data-ttu-id="76863-121">示例</span><span class="sxs-lookup"><span data-stu-id="76863-121">Example</span></span>
+
+<span data-ttu-id="76863-122">以下示例通过打开一个 **Database** 对象和两个 ODBCDirect **Connection** 对象并列出可用于每个对象的属性，来演示 **Connection** 对象和 **Connections** 集合。</span><span class="sxs-lookup"><span data-stu-id="76863-122">This example demonstrates the **Connection** object and **Connections** collection by opening a **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.</span></span>
 
 ```vb 
 Sub ConnectionObjectX() 
@@ -127,7 +127,7 @@ End Sub
  
 ```
 
-<span data-ttu-id="c73e2-123">以下示例使用采用不同参数的 **OpenConnection** 方法打开三个不同的 **Connection** 对象。</span><span class="sxs-lookup"><span data-stu-id="c73e2-123">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
+<span data-ttu-id="76863-123">以下示例使用采用不同参数的 **OpenConnection** 方法打开三个不同的 **Connection** 对象。</span><span class="sxs-lookup"><span data-stu-id="76863-123">This example uses the **OpenConnection** method with different parameters to open three different **Connection** objects.</span></span>
 
 ```vb 
 Sub OpenConnectionX() 

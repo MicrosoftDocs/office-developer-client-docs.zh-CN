@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249498(v=office.15)
 ms:contentKeyID: 48545762
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7183f47a418926490dd36aa269aa2a8dd70d796b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ceb510a7b947cd1d9950ac80dc7d0bad528ae447
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466306"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883160"
 ---
-# <a name="jscript"></a><span data-ttu-id="53e17-102">JScript</span><span class="sxs-lookup"><span data-stu-id="53e17-102">JScript</span></span>
+# <a name="jscript"></a><span data-ttu-id="6cabd-102">JScript</span><span class="sxs-lookup"><span data-stu-id="6cabd-102">JScript</span></span>
 
 
-<span data-ttu-id="53e17-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="53e17-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6cabd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6cabd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="53e17-104">Microsoft JScript 不支持 ADO 事件。</span><span class="sxs-lookup"><span data-stu-id="53e17-104">Microsoft JScript does not support ADO events.</span></span>
+<span data-ttu-id="6cabd-104">Microsoft JScript 不支持 ADO 事件。</span><span class="sxs-lookup"><span data-stu-id="6cabd-104">Microsoft JScript does not support ADO events.</span></span>
 

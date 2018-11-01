@@ -10,41 +10,41 @@ f1_keywords:
 - dao360.chm1052889
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 003cb9927b46843a3618e66943b230460677d7e5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ebb1178525d1efb663ce49f4e5493e828afbfc2e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468320"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874130"
 ---
-# <a name="recordsetnomatch-property-dao"></a><span data-ttu-id="3028f-102">Recordset.NoMatch Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="3028f-102">Recordset.NoMatch Property (DAO)</span></span>
+# <a name="recordsetnomatch-property-dao"></a><span data-ttu-id="ff1b0-102">Recordset.NoMatch Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="ff1b0-102">Recordset.NoMatch Property (DAO)</span></span>
 
-<span data-ttu-id="3028f-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="3028f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ff1b0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ff1b0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3028f-104">指示在使用 **[Seek](recordset-seek-method-dao.md)** 方法或 **[Find](recordset-findfirst-method-dao.md)** 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="3028f-104">Indicates whether a particular record was found by using the **[Seek](recordset-seek-method-dao.md)** method or one of the **[Find](recordset-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="ff1b0-104">指示在使用 **[Seek](recordset-seek-method-dao.md)** 方法或 **[Find](recordset-findfirst-method-dao.md)** 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-104">Indicates whether a particular record was found by using the **[Seek](recordset-seek-method-dao.md)** method or one of the **[Find](recordset-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3028f-105">语法</span><span class="sxs-lookup"><span data-stu-id="3028f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ff1b0-105">语法</span><span class="sxs-lookup"><span data-stu-id="ff1b0-105">Syntax</span></span>
 
-<span data-ttu-id="3028f-106">*表达式*。NoMatch</span><span class="sxs-lookup"><span data-stu-id="3028f-106">*expression* .NoMatch</span></span>
+<span data-ttu-id="ff1b0-106">*表达式*。NoMatch</span><span class="sxs-lookup"><span data-stu-id="ff1b0-106">*expression* .NoMatch</span></span>
 
-<span data-ttu-id="3028f-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="3028f-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="ff1b0-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3028f-108">注解</span><span class="sxs-lookup"><span data-stu-id="3028f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ff1b0-108">注解</span><span class="sxs-lookup"><span data-stu-id="ff1b0-108">Remarks</span></span>
 
-<span data-ttu-id="3028f-109">打开或创建 **[Recordset](recordset-object-dao.md)** 对象时，其 **NoMatch** 属性设置为 **False**。</span><span class="sxs-lookup"><span data-stu-id="3028f-109">When you open or create a **[Recordset](recordset-object-dao.md)** object, its **NoMatch** property is set to **False**.</span></span>
+<span data-ttu-id="ff1b0-109">打开或创建 **[Recordset](recordset-object-dao.md)** 对象时，其 **NoMatch** 属性设置为 **False**。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-109">When you open or create a **[Recordset](recordset-object-dao.md)** object, its **NoMatch** property is set to **False**.</span></span>
 
-<span data-ttu-id="3028f-p101">若要定位记录，请对表类型的 **Recordset** 对象使用 **Seek** 方法，或者对动态集类型或快照类型的 **Recordset** 对象使用 **Find** 方法之一。检查 **NoMatch** 属性设置以查看是否找到了该记录。</span><span class="sxs-lookup"><span data-stu-id="3028f-p101">To locate a record, use the **Seek** method on a table-type **Recordset** object or one of the **Find** methods on a dynaset- or snapshot-type **Recordset** object. Check the **NoMatch** property setting to see whether the record was found.</span></span>
+<span data-ttu-id="ff1b0-p101">若要定位记录，请对表类型的 **Recordset** 对象使用 **Seek** 方法，或者对动态集类型或快照类型的 **Recordset** 对象使用 **Find** 方法之一。检查 **NoMatch** 属性设置以查看是否找到了该记录。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-p101">To locate a record, use the **Seek** method on a table-type **Recordset** object or one of the **Find** methods on a dynaset- or snapshot-type **Recordset** object. Check the **NoMatch** property setting to see whether the record was found.</span></span>
 
-<span data-ttu-id="3028f-p102">如果 **Seek** 或 **Find** 方法不成功，且 **NoMatch** 属性为 **True**，则当前记录将不再有效。如果需要返回到当前记录，请在使用 **Seek** 方法或 **Find** 方法之前获取当前记录的书签。</span><span class="sxs-lookup"><span data-stu-id="3028f-p102">If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property is **True**, the current record will no longer be valid. Be sure to obtain the current record's bookmark before using the **Seek** method or a **Find** method if you'll need to return to that record.</span></span>
+<span data-ttu-id="ff1b0-p102">如果 **Seek** 或 **Find** 方法不成功，且 **NoMatch** 属性为 **True**，则当前记录将不再有效。如果需要返回到当前记录，请在使用 **Seek** 方法或 **Find** 方法之前获取当前记录的书签。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-p102">If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property is **True**, the current record will no longer be valid. Be sure to obtain the current record's bookmark before using the **Seek** method or a **Find** method if you'll need to return to that record.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="3028f-114">[!注释] 对 [Recordset](recordset-movefirst-method-dao.md) 对象使用任何 \*\*\*\*Move\*\*\*\* 方法将不会影响其 **NoMatch** 属性设置。</span><span class="sxs-lookup"><span data-stu-id="3028f-114">Using any of the **[Move](recordset-movefirst-method-dao.md)** methods on a **Recordset** object won't affect its **NoMatch** property setting.</span></span>
+> <span data-ttu-id="ff1b0-114">[!注释] 对 [Recordset](recordset-movefirst-method-dao.md) 对象使用任何 \*\*\*\*Move\*\*\*\* 方法将不会影响其 **NoMatch** 属性设置。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-114">Using any of the **[Move](recordset-movefirst-method-dao.md)** methods on a **Recordset** object won't affect its **NoMatch** property setting.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="3028f-115">示例</span><span class="sxs-lookup"><span data-stu-id="3028f-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ff1b0-115">示例</span><span class="sxs-lookup"><span data-stu-id="ff1b0-115">Example</span></span>
 
-<span data-ttu-id="3028f-p103">以下示例使用 **NoMatch** 属性确定 **Seek** 和 **FindFirst** 是否成功，如果未成功，则提供相应的反馈。若要使该过程运行，需要使用 SeekMatch 和 FindMatch 过程。</span><span class="sxs-lookup"><span data-stu-id="3028f-p103">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="ff1b0-p103">以下示例使用 **NoMatch** 属性确定 **Seek** 和 **FindFirst** 是否成功，如果未成功，则提供相应的反馈。若要使该过程运行，需要使用 SeekMatch 和 FindMatch 过程。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-p103">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
 
 ```vb
     Sub NoMatchX() 
@@ -167,9 +167,9 @@ ms.locfileid: "25468320"
 
 <br/>
 
-<span data-ttu-id="3028f-118">下面的示例演示如何使用 Seek 方法来查找链接表中的记录。</span><span class="sxs-lookup"><span data-stu-id="3028f-118">The following example shows how to use the Seek method to find a record in a linked table.</span></span>
+<span data-ttu-id="ff1b0-118">下面的示例演示如何使用 Seek 方法来查找链接表中的记录。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-118">The following example shows how to use the Seek method to find a record in a linked table.</span></span>
 
-<span data-ttu-id="3028f-119">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="3028f-119">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="ff1b0-119">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="ff1b0-119">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub TestSeek()

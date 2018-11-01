@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="e7a59-101"><<<<<<< 标头标题： Seek 方法和 Index 属性示例 (VB) TOCTitle: Seek 方法和 Index 属性示例 (VB) === 标题： Seek 方法和 Index 属性示例 (VB) TOCTitle: Seek 方法和 Index 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e7a59-101"><<<<<<< HEAD title: Seek Method and Index Property Example (VB) TOCTitle: Seek Method and Index Property Example (VB) ======= title: Seek Method and Index property example (VB) TOCTitle: Seek Method and Index property example (VB)</span></span>
->>>>>>> <span data-ttu-id="e7a59-102">母版页 ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15) ms:contentKeyID: 48547577 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="e7a59-102">master ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15) ms:contentKeyID: 48547577 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Seek 方法和 Index 属性示例 (VB)
+TOCTitle: Seek Method and Index property example (VB)
+ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
+ms:contentKeyID: 48547577
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 692dcd7e046935aa447d6d39de574dd3d3e6b129
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871869"
 ---
-
-<span data-ttu-id="e7a59-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="e7a59-103"><<<<<<< HEAD</span></span>
-# <a name="seek-method-and-index-property-example-vb"></a><span data-ttu-id="e7a59-104">Seek 方法和 Index 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e7a59-104">Seek Method and Index Property Example (VB)</span></span>
-=======
-# <a name="seek-method-and-index-property-example-vb"></a><span data-ttu-id="e7a59-105">Seek 方法和 Index 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e7a59-105">Seek Method and Index property example (VB)</span></span>
->>>>>>> <span data-ttu-id="e7a59-106">master</span><span class="sxs-lookup"><span data-stu-id="e7a59-106">master</span></span>
+# <a name="seek-method-and-index-property-example-vb"></a><span data-ttu-id="2cca3-102">Seek 方法和 Index 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="2cca3-102">Seek Method and Index property example (VB)</span></span>
 
 
-<span data-ttu-id="e7a59-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7a59-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2cca3-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2cca3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e7a59-108">以下示例将 [Recordset](recordset-object-ado.md) 对象的 [Seek](seek-method-ado.md) 方法和 [Index](index-property-ado.md) 属性与给定的 ***Employee ID***（雇员 ID）结合起来使用，以便在 Nwind.mdb 数据库的 ***Employees***（雇员）表中查找雇员的姓名。</span><span class="sxs-lookup"><span data-stu-id="e7a59-108">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
+<span data-ttu-id="2cca3-104">以下示例将 [Recordset](recordset-object-ado.md) 对象的 [Seek](seek-method-ado.md) 方法和 [Index](index-property-ado.md) 属性与给定的 ***Employee ID***（雇员 ID）结合起来使用，以便在 Nwind.mdb 数据库的 ***Employees***（雇员）表中查找雇员的姓名。</span><span class="sxs-lookup"><span data-stu-id="2cca3-104">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
 
 ```vb 
  

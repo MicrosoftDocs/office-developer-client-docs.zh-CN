@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250305(v=office.15)
 ms:contentKeyID: 48548934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f848e5adb9e8aca3a53732633b8b40cd75550cf9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 172774af5297f456b53dcdbadfc4080f533bc8b3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466640"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878113"
 ---
-# <a name="visual-c-extensions-example"></a><span data-ttu-id="8d8f5-102">Visual C++ Extensions 示例</span><span class="sxs-lookup"><span data-stu-id="8d8f5-102">Visual C++ Extensions Example</span></span>
+# <a name="visual-c-extensions-example"></a><span data-ttu-id="58c14-102">Visual C++ Extensions 示例</span><span class="sxs-lookup"><span data-stu-id="58c14-102">Visual C++ Extensions Example</span></span>
 
 
-<span data-ttu-id="8d8f5-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d8f5-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="58c14-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="58c14-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8d8f5-104">此程序显示如何从字段检索值，并将其转换为 C/C++ 变量。</span><span class="sxs-lookup"><span data-stu-id="8d8f5-104">This program shows how values are retrieved from fields and converted to C/C++ variables.</span></span>
+<span data-ttu-id="58c14-104">此程序显示如何从字段检索值，并将其转换为 C/C++ 变量。</span><span class="sxs-lookup"><span data-stu-id="58c14-104">This program shows how values are retrieved from fields and converted to C/C++ variables.</span></span>
 
-<span data-ttu-id="8d8f5-105">此示例还利用"智能指针"，可以自动处理呼叫和引用**IADORecordBinding**接口的计数的 COM 特定详细信息。</span><span class="sxs-lookup"><span data-stu-id="8d8f5-105">This example also takes advantage of "smart pointers," which automatically handle the COM-specific details of calling and reference counting for the **IADORecordBinding** interface.</span></span>
+<span data-ttu-id="58c14-105">此示例还利用"智能指针"，可以自动处理呼叫和引用**IADORecordBinding**接口的计数的 COM 特定详细信息。</span><span class="sxs-lookup"><span data-stu-id="58c14-105">This example also takes advantage of "smart pointers," which automatically handle the COM-specific details of calling and reference counting for the **IADORecordBinding** interface.</span></span>
 
-<span data-ttu-id="8d8f5-106">如果不使用智能指针，则应编码为：</span><span class="sxs-lookup"><span data-stu-id="8d8f5-106">Without smart pointers, you would code:</span></span>
+<span data-ttu-id="58c14-106">如果不使用智能指针，则应编码为：</span><span class="sxs-lookup"><span data-stu-id="58c14-106">Without smart pointers, you would code:</span></span>
 
 ```cpp 
  
@@ -34,21 +34,21 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-<span data-ttu-id="8d8f5-107">使用智能指针，从 IADORecordBinding 接口与此语句的类型从派生 IADORecordBindingPtr 类型：</span><span class="sxs-lookup"><span data-stu-id="8d8f5-107">With smart pointers, you derive the IADORecordBindingPtr type from the type from the IADORecordBinding interface with this statement:</span></span>
+<span data-ttu-id="58c14-107">使用智能指针，从 IADORecordBinding 接口与此语句的类型从派生 IADORecordBindingPtr 类型：</span><span class="sxs-lookup"><span data-stu-id="58c14-107">With smart pointers, you derive the IADORecordBindingPtr type from the type from the IADORecordBinding interface with this statement:</span></span>
 
 ```cpp 
  
 _COM_SMARTPTR_TYPEDEF(IADORecordBinding, __uuidof(IADORecordBinding)); 
 ```
 
-<span data-ttu-id="8d8f5-108">并实例化指针，如下所示：</span><span class="sxs-lookup"><span data-stu-id="8d8f5-108">And instantiate the pointer like this:</span></span>
+<span data-ttu-id="58c14-108">并实例化指针，如下所示：</span><span class="sxs-lookup"><span data-stu-id="58c14-108">And instantiate the pointer like this:</span></span>
 
 ```cpp 
  
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-<span data-ttu-id="8d8f5-109">Visual c + + Extensions 由**Recordset**对象实现的因为智能指针，picRs 的构造函数采用\_RecordsetPtr 指针，prs:。</span><span class="sxs-lookup"><span data-stu-id="8d8f5-109">Because the Visual C++ Extensions are implemented by the **Recordset** object, the constructor for the smart pointer, picRs , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="8d8f5-110">构造函数调用 QueryInterface prs： 用于查找所执行的\_RecordsetPtr 指针，prs:。</span><span class="sxs-lookup"><span data-stu-id="8d8f5-110">The constructor calls QueryInterface using pRs to find the , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="8d8f5-111">构造函数调用 QueryInterface prs： 用于查找 IADORecordBinding 接口。</span><span class="sxs-lookup"><span data-stu-id="8d8f5-111">The constructor calls QueryInterface using pRs to find the IADORecordBinding interface.</span></span>
+<span data-ttu-id="58c14-109">Visual c + + Extensions 由**Recordset**对象实现的因为智能指针，picRs 的构造函数采用\_RecordsetPtr 指针，prs:。</span><span class="sxs-lookup"><span data-stu-id="58c14-109">Because the Visual C++ Extensions are implemented by the **Recordset** object, the constructor for the smart pointer, picRs , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="58c14-110">构造函数调用 QueryInterface prs： 用于查找所执行的\_RecordsetPtr 指针，prs:。</span><span class="sxs-lookup"><span data-stu-id="58c14-110">The constructor calls QueryInterface using pRs to find the , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="58c14-111">构造函数调用 QueryInterface prs： 用于查找 IADORecordBinding 接口。</span><span class="sxs-lookup"><span data-stu-id="58c14-111">The constructor calls QueryInterface using pRs to find the IADORecordBinding interface.</span></span>
 
 ```cpp 
  
