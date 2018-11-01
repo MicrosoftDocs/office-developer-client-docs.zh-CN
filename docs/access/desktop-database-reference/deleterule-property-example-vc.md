@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="18453-101"><<<<<<< 标头标题： DeleteRule 属性示例 （VC + +） TOCTitle: DeleteRule 属性示例 （VC + +） === 标题： DeleteRule 属性示例 （VC + +） TOCTitle: DeleteRule 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="18453-101"><<<<<<< HEAD title: DeleteRule Property Example (VC++) TOCTitle: DeleteRule Property Example (VC++) ======= title: DeleteRule property example (VC++) TOCTitle: DeleteRule property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="18453-102">母版页 ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID: 48544164 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="18453-102">master ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID: 48544164 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: DeleteRule 属性示例 (VC++)
+TOCTitle: DeleteRule property example (VC++)
+ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15)
+ms:contentKeyID: 48544164
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 97e2e1d9a9c801fc7982ec9bdd84e060a03ceccf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875481"
 ---
-
-<span data-ttu-id="18453-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="18453-103"><<<<<<< HEAD</span></span>
-# <a name="deleterule-property-example-vc"></a><span data-ttu-id="18453-104">DeleteRule 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="18453-104">DeleteRule Property Example (VC++)</span></span>
-=======
-# <a name="deleterule-property-example-vc"></a><span data-ttu-id="18453-105">DeleteRule 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="18453-105">DeleteRule property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="18453-106">master</span><span class="sxs-lookup"><span data-stu-id="18453-106">master</span></span>
+# <a name="deleterule-property-example-vc"></a><span data-ttu-id="c8470-102">DeleteRule 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="c8470-102">DeleteRule property example (VC++)</span></span>
 
 
-<span data-ttu-id="18453-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="18453-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c8470-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8470-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="18453-p101">本示例演示 [Key](deleterule-property-adox.md) 对象的 [DeleteRule](key-object-adox.md) 属性。代码将追加一个新 [Table](table-object-adox.md)，然后定义一个新主键，同时将 **DeleteRule** 设置为 **adRICascade** 。</span><span class="sxs-lookup"><span data-stu-id="18453-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
+<span data-ttu-id="c8470-p101">本示例演示 [Key](deleterule-property-adox.md) 对象的 [DeleteRule](key-object-adox.md) 属性。代码将追加一个新 [Table](table-object-adox.md)，然后定义一个新主键，同时将 **DeleteRule** 设置为 **adRICascade** 。</span><span class="sxs-lookup"><span data-stu-id="c8470-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
 
 ```cpp 
  

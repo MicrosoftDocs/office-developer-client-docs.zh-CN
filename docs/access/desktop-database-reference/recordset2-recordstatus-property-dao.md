@@ -6,33 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845575(v=office.15)
 ms:contentKeyID: 48543451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a13f9f64ab6f699979633c70fb2e8a9386ce2134
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 57ecd9c74777ef8aa0515b7bcdb0c1f28050e8a9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465519"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883727"
 ---
-# <a name="recordset2recordstatus-property-dao"></a><span data-ttu-id="5a5e1-102">Recordset2.RecordStatus Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="5a5e1-102">Recordset2.RecordStatus Property (DAO)</span></span>
+# <a name="recordset2recordstatus-property-dao"></a><span data-ttu-id="112da-102">Recordset2.RecordStatus Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="112da-102">Recordset2.RecordStatus Property (DAO)</span></span>
 
 
-<span data-ttu-id="5a5e1-103">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="5a5e1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="112da-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="112da-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5a5e1-104">语法</span><span class="sxs-lookup"><span data-stu-id="5a5e1-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="112da-104">语法</span><span class="sxs-lookup"><span data-stu-id="112da-104">Syntax</span></span>
 
-<span data-ttu-id="5a5e1-105">*表达式*。RecordStatus</span><span class="sxs-lookup"><span data-stu-id="5a5e1-105">*expression* .RecordStatus</span></span>
+<span data-ttu-id="112da-105">*表达式*。RecordStatus</span><span class="sxs-lookup"><span data-stu-id="112da-105">*expression* .RecordStatus</span></span>
 
-<span data-ttu-id="5a5e1-106">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="5a5e1-106">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="112da-106">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="112da-106">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5a5e1-107">注解</span><span class="sxs-lookup"><span data-stu-id="5a5e1-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="112da-107">注解</span><span class="sxs-lookup"><span data-stu-id="112da-107">Remarks</span></span>
 
-<span data-ttu-id="5a5e1-108">**RecordStatus** 属性的值指示在下一次乐观批更新中是否包含当前记录以及如何包含当前记录。</span><span class="sxs-lookup"><span data-stu-id="5a5e1-108">The value of the **RecordStatus** property indicates whether and how the current record will be involved in the next optimistic batch update.</span></span>
+<span data-ttu-id="112da-108">**RecordStatus** 属性的值指示在下一次乐观批更新中是否包含当前记录以及如何包含当前记录。</span><span class="sxs-lookup"><span data-stu-id="112da-108">The value of the **RecordStatus** property indicates whether and how the current record will be involved in the next optimistic batch update.</span></span>
 
-<span data-ttu-id="5a5e1-p101">当用户更改记录时，该记录的 **RecordStatus** 自动更改为 **dbRecordModified**。同样，如果添加或删除记录， **RecordStatus** 会反映相应的常量。如果您之后使用批处理模式的 **[Update](recordset2-update-method-dao.md)** 方法，DAO 将根据每条记录的 **RecordStatus** 属性，向远程服务器提交针对每条记录的相应操作。</span><span class="sxs-lookup"><span data-stu-id="5a5e1-p101">When a user changes a record, the **RecordStatus** for that record automatically changes to **dbRecordModified**. Similarly, if a record is added or deleted, **RecordStatus** reflects the appropriate constant. When you then use a batch-mode **[Update](recordset2-update-method-dao.md)** method, DAO will submit an appropriate operation to the remote server for each record, based on the record's **RecordStatus** property.</span></span>
+<span data-ttu-id="112da-p101">当用户更改记录时，该记录的 **RecordStatus** 自动更改为 **dbRecordModified**。同样，如果添加或删除记录， **RecordStatus** 会反映相应的常量。如果您之后使用批处理模式的 **[Update](recordset2-update-method-dao.md)** 方法，DAO 将根据每条记录的 **RecordStatus** 属性，向远程服务器提交针对每条记录的相应操作。</span><span class="sxs-lookup"><span data-stu-id="112da-p101">When a user changes a record, the **RecordStatus** for that record automatically changes to **dbRecordModified**. Similarly, if a record is added or deleted, **RecordStatus** reflects the appropriate constant. When you then use a batch-mode **[Update](recordset2-update-method-dao.md)** method, DAO will submit an appropriate operation to the remote server for each record, based on the record's **RecordStatus** property.</span></span>
 
-## <a name="example"></a><span data-ttu-id="5a5e1-112">示例</span><span class="sxs-lookup"><span data-stu-id="5a5e1-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="112da-112">示例</span><span class="sxs-lookup"><span data-stu-id="112da-112">Example</span></span>
 
-<span data-ttu-id="5a5e1-p102">以下示例使用 **RecordStatus** 和 **DefaultCursorDriver** 属性演示如何在批更新中跟踪对本地 **Recordset** 的更改。若要使该过程运行，需要使用 RecordStatusOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="5a5e1-p102">This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="112da-p102">以下示例使用 **RecordStatus** 和 **DefaultCursorDriver** 属性演示如何在批更新中跟踪对本地 **Recordset** 的更改。若要使该过程运行，需要使用 RecordStatusOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="112da-p102">This example uses the **RecordStatus** and **DefaultCursorDriver** properties to show how changes to a local **Recordset** are tracked during batch updating. The RecordStatusOutput function is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RecordStatusX() 

@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="f7821-101"><<<<<<< 标头标题： Count 属性示例 （VJ + +） TOCTitle: Count 属性示例 （VJ + +） === 标题： Count 属性示例 （VJ + +） TOCTitle: Count 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="f7821-101"><<<<<<< HEAD title: Count Property Example (VJ++) TOCTitle: Count Property Example (VJ++) ======= title: Count property example (VJ++) TOCTitle: Count property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="f7821-102">母版页 ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15) ms:contentKeyID: 48545666 ms.date: 09/18/2015 mtps_version: office.15.aspx</span><span class="sxs-lookup"><span data-stu-id="f7821-102">master ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15) ms:contentKeyID: 48545666 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Count 属性示例 (VJ++)
+TOCTitle: Count property example (VJ++)
+ms:assetid: 749de00a-7530-ea04-558c-34277c4d2f61
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15)
+ms:contentKeyID: 48545666
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6ec8469015f0ba53d277dcdd592d3befdc4e0d0b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870245"
 ---
-
-<span data-ttu-id="f7821-103"><<<<<<< 标头</span><span class="sxs-lookup"><span data-stu-id="f7821-103"><<<<<<< HEAD</span></span>
-# <a name="count-property-example-vj"></a><span data-ttu-id="f7821-104">Count 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="f7821-104">Count Property Example (VJ++)</span></span>
-=======
-# <a name="count-property-example-vj"></a><span data-ttu-id="f7821-105">Count 属性示例 （VJ + +）</span><span class="sxs-lookup"><span data-stu-id="f7821-105">Count property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="f7821-106">master</span><span class="sxs-lookup"><span data-stu-id="f7821-106">master</span></span>
+# <a name="count-property-example-vj"></a><span data-ttu-id="bc4dd-102">Count 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bc4dd-102">Count property example (VJ++)</span></span>
 
 
-<span data-ttu-id="f7821-107">**适用于**： Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7821-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="bc4dd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc4dd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f7821-108">以下示例演示在***员工***数据库中的两个集合的[Count](count-property-ado.md)属性。</span><span class="sxs-lookup"><span data-stu-id="f7821-108">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employees*** database.</span></span> <span data-ttu-id="f7821-109">该属性获得每个集合中的对象数，并设置枚举这两个集合的循环的上限。</span><span class="sxs-lookup"><span data-stu-id="f7821-109">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="f7821-110">另一种不使用 **Count** 属性枚举这些集合的方式是使用语句。</span><span class="sxs-lookup"><span data-stu-id="f7821-110">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
+<span data-ttu-id="bc4dd-104">以下示例演示在***员工***数据库中的两个集合的[Count](count-property-ado.md)属性。</span><span class="sxs-lookup"><span data-stu-id="bc4dd-104">This example demonstrates the [Count](count-property-ado.md) property with two collections in the ***Employees*** database.</span></span> <span data-ttu-id="bc4dd-105">该属性获得每个集合中的对象数，并设置枚举这两个集合的循环的上限。</span><span class="sxs-lookup"><span data-stu-id="bc4dd-105">The property obtains the number of objects in each collection, and sets the upper limit for loops that enumerate these collections.</span></span> <span data-ttu-id="bc4dd-106">另一种不使用 **Count** 属性枚举这些集合的方式是使用语句。</span><span class="sxs-lookup"><span data-stu-id="bc4dd-106">Another way to enumerate these collections without using the **Count** property would be to use statements.</span></span>
 
 ```java 
  
