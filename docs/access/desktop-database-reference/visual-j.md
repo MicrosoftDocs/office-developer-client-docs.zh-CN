@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)
 ms:contentKeyID: 48545079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bc76026fb5b5b426b41c8334bc61d5b9485dd76
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d40a820b5ee3bd6e5c423cbb963a4514d4ff40e1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467147"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874543"
 ---
 # <a name="visual-j"></a>Visual J++
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此简短 Microsoft Visual J++ 示例显示如何将您自己的函数与特定事件关联。
 

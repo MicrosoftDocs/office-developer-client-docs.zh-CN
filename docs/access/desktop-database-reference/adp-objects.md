@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123635(v=office.15)
 ms:contentKeyID: 52071277
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb23156ec26ac4302e77b2abe6127605c7fcf204
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52c60e3ad564307985e9322bbf470d5113a595bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467170"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884588"
 ---
-# <a name="adp-objects"></a>ADP Objects
+# <a name="adp-objects"></a>ADP 对象
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
   - [CopyDatabaseFile 宏操作](copydatabasefile-macro-action.md)

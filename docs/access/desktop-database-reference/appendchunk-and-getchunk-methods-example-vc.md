@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249767(v=office.15)
 ms:contentKeyID: 48546825
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 504fd40af96e5351539995bb76750b56c9815d73
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 05e4f565faa4a63bd63dabd00f6c4a3042ec1905
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862000"
+ms.locfileid: "25888116"
 ---
 # <a name="appendchunk-and-getchunk-methods-example-vc"></a>AppendChunk 和 GetChunk 方法示例 (VC++)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 以下示例使用 [AppendChunk](appendchunk-method-ado.md) 和 [GetChunk](getchunk-method-ado.md) 方法，用来自其他记录的数据填充图像字段。
 

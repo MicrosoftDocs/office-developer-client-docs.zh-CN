@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 91d1ad892557ad944dca175a3589a74e7205ad01
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6a09ea4d781e5560e335c2e75fc2da9a5508bae8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862574"
+ms.locfileid: "25874004"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定可用于执行以下操作的权限：修改 [Connection](connection-object-ado.md) 中的数据、打开 [Record](record-object-ado.md)，或指定 [Record](mode-property-ado.md) 和 **Stream** 对象的 [Mode](stream-object-ado.md) 属性的值。
 

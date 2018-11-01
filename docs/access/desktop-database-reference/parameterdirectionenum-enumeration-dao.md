@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192844(v=office.15)
 ms:contentKeyID: 48544389
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3d299ea709088a62511963097f7824ccdad1602
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b3e6cbf486dff87cb8b81b9a593dd3dedcc52a1e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467714"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886324"
 ---
 # <a name="parameterdirectionenum-enumeration-dao"></a>ParameterDirectionEnum Enumeration (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 与 **Direction** 属性一起用来指定 **Parameter** 对象的类型。
 

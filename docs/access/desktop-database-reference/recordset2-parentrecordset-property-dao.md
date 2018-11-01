@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1101188
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8c20baea6600ce3b2c86c638ce87df864c1acfaa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e4f5c92e0ae1ec4cc5d22aa6a2bc406b46a76c02
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468379"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889908"
 ---
 # <a name="recordset2parentrecordset-property-dao"></a>Recordset2.ParentRecordset Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013 
+**适用于**： Access 2013、 Office 2013 
 
 返回指定记录集的父 **Recordset**。只读。
 

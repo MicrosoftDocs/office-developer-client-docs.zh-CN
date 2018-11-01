@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
 ms:contentKeyID: 48544690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7bdb03b4a205e1b4954e86368c3af4aa62f773b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 66e6b5ff69d22fa50d9765eb2087c373613bdb7d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465497"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886940"
 ---
 # <a name="keyset-cursors"></a>键集游标
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 在检测更改的能力方面，键集游标提供的功能介于静态游标和动态游标之间。像静态游标一样，它并不总是会检测对结果集的成员及顺序的更改。像动态游标一样，它确实会检测对结果集中行的值的更改。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821751(v=office.15)
 ms:contentKeyID: 48547077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5793d2b73e424726e91cf3bbb54b09db59123b92
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e319cea6e33f2f40490d5236746337040bf16dae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467095"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888690"
 ---
 # <a name="recordsetpercentposition-property-dao"></a>Recordset.PercentPosition Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，用于根据 [Recordset](recordset-object-dao.md) 中的记录百分比指示 ****Recordset**** 对象中当前记录的大概位置。
 

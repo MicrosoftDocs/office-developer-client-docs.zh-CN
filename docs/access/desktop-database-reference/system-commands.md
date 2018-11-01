@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)
 ms:contentKeyID: 52074096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5925cabf5eaa0acb5cabcb7a598b8f8344c3174f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c37d97121948f3f119056fb678cbd6b59a0140b5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467711"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872620"
 ---
-# <a name="system-commands"></a>System Commands
+# <a name="system-commands"></a>系统命令
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

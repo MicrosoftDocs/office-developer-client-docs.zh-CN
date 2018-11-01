@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： 值属性 (ADO) TOCTitle： 值属性 (ADO) === 标题： Value 属性 (ADO) TOCTitle: Value 属性 (ADO)
->>>>>>> 母版页 ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15) ms:contentKeyID: 48548958 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Value 属性 (ADO)
+TOCTitle: Value property (ADO)
+ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
+ms:contentKeyID: 48548958
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 856f145c195c189775355fef662ea082ec629fd0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883937"
 ---
-
-<<<<<<< 标头
 # <a name="value-property-ado"></a>Value 属性 (ADO)
-=======
-# <a name="value-property-ado"></a>Value 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示赋给 [Field](field-object-ado.md)、[Parameter](parameter-object-ado.md) 或 [Property](property-object-ado.md) 对象的值。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个指示对象的值的 **Variant** 值。默认值取决于 [Type](type-property-ado.md) 属性。
 

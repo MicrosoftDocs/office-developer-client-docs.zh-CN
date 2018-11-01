@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： Provider 和 DefaultDatabase 属性示例 （VJ + +） TOCTitle: Provider 和 DefaultDatabase 属性示例 （VJ + +） === 标题： Provider 和 DefaultDatabase 属性示例 （VJ + +） TOCTitle： 提供程序和 DefaultDatabase 属性示例 （VJ + +）
->>>>>>> 母版页 ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15) ms:contentKeyID: 48547380 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: Provider 和 DefaultDatabase 属性示例 (VJ++)
+TOCTitle: Provider and DefaultDatabase properties example (VJ++)
+ms:assetid: babd3c3c-bb6e-46ce-88f2-ef2810d798fd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249898(v=office.15)
+ms:contentKeyID: 48547380
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f0833a21b0b666beb291c67280a383b3ae5af51d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872520"
 ---
-
-<<<<<<< 标头
 # <a name="provider-and-defaultdatabase-properties-example-vj"></a>Provider 和 DefaultDatabase 属性示例 (VJ++)
-=======
-# <a name="provider-and-defaultdatabase-properties-example-vj"></a>Provider 和 DefaultDatabase 属性示例 （VJ + +）
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 本示例演示 [Provider](provider-property-ado.md) 属性，将打开三个使用不同提供程序的 [Connection](connection-object-ado.md) 对象。它还使用 [DefaultDatabase](defaultdatabase-property-ado.md) 属性来设置 Microsoft ODBC Provider 的默认数据库。
 

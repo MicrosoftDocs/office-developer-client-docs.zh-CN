@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845575(v=office.15)
 ms:contentKeyID: 48543451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a13f9f64ab6f699979633c70fb2e8a9386ce2134
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 57ecd9c74777ef8aa0515b7bcdb0c1f28050e8a9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465519"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883727"
 ---
 # <a name="recordset2recordstatus-property-dao"></a>Recordset2.RecordStatus Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 ## <a name="syntax"></a>语法
 

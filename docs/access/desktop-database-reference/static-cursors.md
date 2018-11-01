@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248950(v=office.15)
 ms:contentKeyID: 48543524
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8878333c8390ffcc075c0160f246e7f16757d226
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f60bce47f76214d26f75d13dece5bc062fd4db61
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467832"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889824"
 ---
 # <a name="static-cursors"></a>静态游标
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 静态游标总是显示结果集在首次打开游标时的样子。静态游标是只读或可读/写的（因具体实现而异），并提供向前和向后滚动。静态游标通常不检测在打开游标之后对结果集的成员、顺序或值进行的更改。静态游标可以检测它们自己的更新、删除和插入，尽管它们不需要这样做。
 

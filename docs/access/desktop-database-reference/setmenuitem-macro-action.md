@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d6b5a91e9aa2f0c729a7fce221c859eb0cecc290
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d7a7de3d627dacfa0ca014a80ea037d0728220d1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466059"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873563"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem 宏操作
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 可以使用 **SetMenuItem** 操作设置 **"加载项"** 选项卡上的自定义菜单或全局菜单上的菜单项的状态（已启用或已禁用、已选择或未选择）。
 

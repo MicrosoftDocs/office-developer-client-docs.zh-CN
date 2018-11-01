@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250070(v=office.15)
 ms:contentKeyID: 48547954
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b3b42ddae76b9ff42be4a994d7698e8e5f00c08
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dd199f8c96ffc452e18106109aa6b2bb0d98ecff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466286"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882978"
 ---
 # <a name="datafactoryobject-rdsserver"></a>DataFactoryObject (RDSServer)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 
 

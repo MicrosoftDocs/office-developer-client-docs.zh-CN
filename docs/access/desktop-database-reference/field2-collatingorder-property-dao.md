@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834380(v=office.15)
 ms:contentKeyID: 48547709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1749b6f5b4c96c55f0256971d619bec17430f410
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 508f7f758d682dec0f1557f8a3f4dc2845e20a39
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466096"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870765"
 ---
 # <a name="field2collatingorder-property-dao"></a>Field2.CollatingOrder Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回一个值，该值指定用于字符串比较或排序的文本中排序次序的序列（仅适用于 Microsoft Access 工作区）。只读 **Long**。
 
@@ -165,15 +165,15 @@ ms.locfileid: "25466096"
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong> 对象</p></td>
+<td><p><strong>QueryDef</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong> 对象</p></td>
+<td><p><strong>Recordset</strong>对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong> 对象</p></td>
+<td><p><strong>Relation</strong>对象</p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="odd">

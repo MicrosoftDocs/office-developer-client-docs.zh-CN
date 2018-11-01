@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194261(v=office.15)
 ms:contentKeyID: 48544969
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bc5cbe34378951ea973725132256f278ade11cf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2f788b726f5be7cdfd7531d4522b6c653744d1c8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469028"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886744"
 ---
 # <a name="fieldscount-property-dao"></a>Fields.Count Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回指定集合中的对象数目。 **Integer** 类型，只读。
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250293(v=office.15)
 ms:contentKeyID: 48548887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88343d14a9419cbc3425e0c21dee08d243f2e697
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea531f484ad75de268f0d4fb38a10e617c1851e6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466037"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884629"
 ---
 # <a name="adowfc-programming"></a>ADO/WFC 编程
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 对于 Microsoft Visual J++ 6.0，ADO 已经得到扩展，这使它能够按以下方式使用 Windows 基础类 (WFC)。首先，已经实现了一组 Java 类，这些类扩展了 ADO 接口，并创建了对 Java 程序员有用的通知；这些 Java 类还公开了可以将 Java 类型返回给用户的函数。为了提高性能，Java 类可以直接访问 OLE DB 行集对象中的本机数据类型，并将它们作为 Java 类型返回给 Java 程序员，而不用将它们首先转换为变量型值，或者相反。经过扩展后，ADO 还能使用 WFC 框架中的事件通知。
 

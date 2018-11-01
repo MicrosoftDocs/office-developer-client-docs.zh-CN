@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198023(v=office.15)
 ms:contentKeyID: 48546563
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4f341abfea455acdc96a2883d0f4dee3bd2a5fe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ec8ff4d610ef9a9b88f379ff8cc72d1b647f9bb2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466265"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871904"
 ---
 # <a name="connectionscount-property-dao"></a>Connections.Count Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 返回 **[Connections](connection-object-dao.md)** 集合中的 **[Connection](connections-collection-dao.md)** 对象数。
 

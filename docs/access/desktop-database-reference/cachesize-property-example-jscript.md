@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： CacheSize 属性示例 (JScript) TOCTitle: CacheSize 属性示例 (JScript) === 标题： CacheSize 属性示例 (JScript) TOCTitle: CacheSize 属性示例 (JScript)
->>>>>>> 母版页 ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15) ms:contentKeyID: 48547473 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: CacheSize 属性示例 (JScript)
+TOCTitle: CacheSize property example (JScript)
+ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
+ms:contentKeyID: 48547473
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab8a8f3aa1bb968ebed86c5718c4f236a9d4fc3b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887794"
 ---
-
-<<<<<<< 标头
 # <a name="cachesize-property-example-jscript"></a>CacheSize 属性示例 (JScript)
-=======
-# <a name="cachesize-property-example-jscript"></a>CacheSize 属性示例 (JScript)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **CacheSizeJS.asp** 。
 
@@ -23,11 +29,7 @@
  
 <HTML> 
 <HEAD> 
-<<<<<<< HEAD
-<title>CacheSize Property Example (JScript)</title> 
-=======
 <title>CacheSize property example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 body { 
@@ -51,11 +53,7 @@ body {
 </style> 
 </HEAD> 
 <BODY> 
-<<<<<<< HEAD
-<h1>CacheSize Property Example (JScript)</h1> 
-=======
 <h1>CacheSize property example (JScript)</h1> 
->>>>>>> master
 <% 
  // connection and recordset variables 
  var Cnxn = Server.CreateObject("ADODB.Connection") 

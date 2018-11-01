@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248863(v=office.15)
 ms:contentKeyID: 48543263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d63c31dfd7309144813c979ad34f0d27593e4d9
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: d8d3680c0ef5bc6ebd2f951820fdff9aa00c489c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605714"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884938"
 ---
 # <a name="parentsameasprev-property-ado-md"></a>ParentSameAsPrev 属性 (ADO MD)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示此位置成员的父级是否与紧挨的前一个成员的父级相同。
 
-<<<<<<< 标头
 ## <a name="return-values"></a>返回值
-=======
-## <a name="return-values"></a>返回值
->>>>>>> master
 
 返回一个 **Boolean** 值，并且是只读的。
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4f521daab352e090c52fd7a94bdd28abb0e34291
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c5eb8c80743b5fac17f7a3c8d11080863e511eb8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25467910"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888599"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Recordset2.AbsolutePosition Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回 **Recordset2** 对象的当前记录的相对记录编号。
 

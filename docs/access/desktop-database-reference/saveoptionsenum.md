@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249053(v=office.15)
 ms:contentKeyID: 48543906
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ffd37090b264e434b5fd3750f474122f8da4bfbb
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 1dacfd11edd2cc8b4e939efc3c40d98437f0b41f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861902"
+ms.locfileid: "25889418"
 ---
 # <a name="saveoptionsenum"></a>SaveOptionsEnum
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指定当从 [Stream](stream-object-ado.md) 对象进行保存时，应创建文件还是覆盖文件。可以使用 AND 运算符来组合使用这些值。
 

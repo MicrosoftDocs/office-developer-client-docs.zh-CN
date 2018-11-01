@@ -1,16 +1,22 @@
 ---
-<<<<<<< 标头标题： CacheSize 属性示例 (VB) TOCTitle: CacheSize 属性示例 (VB) === 标题： CacheSize 属性示例 (VB) TOCTitle: CacheSize 属性示例 (VB)
->>>>>>> 母版页 ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15) ms:contentKeyID: 48544934 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: CacheSize 属性示例 (VB)
+TOCTitle: CacheSize property example (VB)
+ms:assetid: 558b7718-d32d-45ea-554d-fce0e27d9504
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15)
+ms:contentKeyID: 48544934
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d39a46edd737317fa4478c546b6e895a0b6d8683
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877230"
 ---
-
-<<<<<<< 标头
 # <a name="cachesize-property-example-vb"></a>CacheSize 属性示例 (VB)
-=======
-# <a name="cachesize-property-example-vb"></a>CacheSize 属性示例 (VB)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。
 

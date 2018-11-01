@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
 ms:contentKeyID: 48545716
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f35dad5b7a8aa8dea543d689406b20e23221343a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c963e4dfe2c1d507845333b7c20efe23aaf050f6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25468170"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872527"
 ---
 # <a name="recordset2lockedits-property-dao"></a>Recordset2.LockEdits Property (DAO)
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 设置或返回一个值，该值指示编辑时生效的锁定的类型。
 

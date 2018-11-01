@@ -1,24 +1,26 @@
 ---
-<<<<<<< 标头标题： IsolationLevel 属性 (ADO) TOCTitle: IsolationLevel 属性 (ADO) === 标题： IsolationLevel 属性 (ADO) TOCTitle: IsolationLevel 属性 (ADO)
->>>>>>> 母版页 ms:assetid: 19461be5-c94b-4b61-ce08-7abdf702c3dc ms:mtpsurl: https://msdn.microsoft.com/library/JJ248939(v=office.15) ms:contentKeyID: 48543493 ms.date: 09/18/2015 mtps_version: office.15.aspx
+title: IsolationLevel 属性 (ADO)
+TOCTitle: IsolationLevel property (ADO)
+ms:assetid: 19461be5-c94b-4b61-ce08-7abdf702c3dc
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248939(v=office.15)
+ms:contentKeyID: 48543493
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 76978d33fc5f82c9b1f8137b64a663e7e95f2204
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883055"
 ---
-
-<<<<<<< 标头
 # <a name="isolationlevel-property-ado"></a>IsolationLevel 属性 (ADO)
-=======
-# <a name="isolationlevel-property-ado"></a>IsolationLevel 属性 (ADO)
->>>>>>> master
 
 
-**适用于**： Access 2013 |Office 2013
+**适用于**： Access 2013、 Office 2013
 
 指示 [Connection](connection-object-ado.md) 对象的隔离级别。
 
-<<<<<<< 标头
 ## <a name="settings-and-return-values"></a>设置和返回值
-=======
-## <a name="settings-and-return-values"></a>设置和返回值
->>>>>>> master
 
 设置或返回一个[IsolationLevelEnum](isolationlevelenum.md)值。 默认值为**adXactChaos**。
 
