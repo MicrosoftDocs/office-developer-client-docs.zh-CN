@@ -1,19 +1,19 @@
 ---
-title: Database.RecordsAffected Property (DAO)
+title: Database.RecordsAffected 属性 (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 1c591231-21dd-f0b1-4ba6-87784c5890d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
 ms:contentKeyID: 48543567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 346e01359b3ffef50a15ad3a9c3502b1104d6e0f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ee3d7283bdf1f7ca1504c3cb6a12ef77fdb84ada
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888996"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919001"
 ---
-# <a name="databaserecordsaffected-property-dao"></a>Database.RecordsAffected Property (DAO)
+# <a name="databaserecordsaffected-property-dao"></a>Database.RecordsAffected 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

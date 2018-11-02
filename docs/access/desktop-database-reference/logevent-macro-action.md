@@ -1,17 +1,17 @@
 ---
 title: LogEvent 宏操作
-TOCTitle: LogEvent Macro Action
+TOCTitle: LogEvent macro action
 ms:assetid: 3578c725-64b9-385e-ef73-a15cdf751c33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192460(v=office.15)
 ms:contentKeyID: 48544148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 093313028822bebea26fbf86dfc94063e5512e14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fa036f73dd4c811191c9d5ba83a6d2fc65a54827
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873374"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918973"
 ---
 # <a name="logevent-macro-action"></a>LogEvent 宏操作
 

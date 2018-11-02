@@ -1,5 +1,5 @@
 ---
-title: QueryDef.StillExecuting Property (DAO)
+title: QueryDef.StillExecuting 属性 (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 98e85d37-de50-afe1-dcca-01623546e0ad
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197953(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053584
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 62290944381687955b19e34f728e9ffff851bcd2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8f3816ade1195505910a2a6d26319d525b1db42b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872821"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919281"
 ---
-# <a name="querydefstillexecuting-property-dao"></a>QueryDef.StillExecuting Property (DAO)
+# <a name="querydefstillexecuting-property-dao"></a>QueryDef.StillExecuting 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013
