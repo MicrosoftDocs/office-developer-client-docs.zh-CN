@@ -1,34 +1,34 @@
 ---
-title: Workspace.LoginTimeout Property (DAO)
+title: Workspace.LoginTimeout 属性 (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 5f03b166-abbc-20de-1a01-3869a9f2907d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
 ms:contentKeyID: 48545151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a051d0a6f580f661b8f16489b66cede064523e44
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 07b2945f2e9a59cc8a7db4a6f5a44cfaf9b35043
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868992"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928283"
 ---
-# <a name="workspacelogintimeout-property-dao"></a><span data-ttu-id="9b4d1-102">Workspace.LoginTimeout Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="9b4d1-102">Workspace.LoginTimeout Property (DAO)</span></span>
+# <a name="workspacelogintimeout-property-dao"></a><span data-ttu-id="c78d9-102">Workspace.LoginTimeout 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="c78d9-102">Workspace.LoginTimeout property (DAO)</span></span>
 
 
-<span data-ttu-id="9b4d1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b4d1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c78d9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c78d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9b4d1-104">设置或返回在您尝试登录 ODBC 数据库时发生错误之前的秒数。</span><span class="sxs-lookup"><span data-stu-id="9b4d1-104">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span>
+<span data-ttu-id="c78d9-104">设置或返回在您尝试登录 ODBC 数据库时发生错误之前的秒数。</span><span class="sxs-lookup"><span data-stu-id="c78d9-104">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9b4d1-105">语法</span><span class="sxs-lookup"><span data-stu-id="9b4d1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c78d9-105">语法</span><span class="sxs-lookup"><span data-stu-id="c78d9-105">Syntax</span></span>
 
-<span data-ttu-id="9b4d1-106">*表达式*。LoginTimeout</span><span class="sxs-lookup"><span data-stu-id="9b4d1-106">*expression* .LoginTimeout</span></span>
+<span data-ttu-id="c78d9-106">*表达式*。LoginTimeout</span><span class="sxs-lookup"><span data-stu-id="c78d9-106">*expression* .LoginTimeout</span></span>
 
-<span data-ttu-id="9b4d1-107">*表达式*一个代表**Workspace**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="9b4d1-107">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="c78d9-107">*表达式*一个代表**Workspace**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="c78d9-107">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9b4d1-108">注解</span><span class="sxs-lookup"><span data-stu-id="9b4d1-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c78d9-108">注解</span><span class="sxs-lookup"><span data-stu-id="c78d9-108">Remarks</span></span>
 
-<span data-ttu-id="9b4d1-p101">默认的 **LoginTimeout** 属性设置为 20 秒。如果 **LoginTimeout** 属性设置为 0，则不发生超时。</span><span class="sxs-lookup"><span data-stu-id="9b4d1-p101">The default **LoginTimeout** property setting is 20 seconds. When the **LoginTimeout** property is set to 0, no timeout occurs.</span></span>
+<span data-ttu-id="c78d9-p101">默认的 **LoginTimeout** 属性设置为 20 秒。如果 **LoginTimeout** 属性设置为 0，则不发生超时。</span><span class="sxs-lookup"><span data-stu-id="c78d9-p101">The default **LoginTimeout** property setting is 20 seconds. When the **LoginTimeout** property is set to 0, no timeout occurs.</span></span>
 
-<span data-ttu-id="9b4d1-p102">当您尝试登录 ODBC 数据库（例如 Microsoft SQL Server）时，连接可能会因为网络错误或服务器未运行而失败。无需在连接前等待默认的 20 秒，您可以指定发生错误前等待的时间。在许多不同事件（例如在外部服务器数据库上运行查询）中，可能需要登录服务器。</span><span class="sxs-lookup"><span data-stu-id="9b4d1-p102">When you're attempting to log on to an ODBC database, such as Microsoft SQL Server, the connection can fail as a result of network errors or because the server isn't running. Rather than waiting for the default 20 seconds to connect, you can specify how long to wait before raising an error. Logging on to the server happens implicitly as part of a number of different events, such as running a query on an external server database.</span></span>
+<span data-ttu-id="c78d9-p102">当您尝试登录 ODBC 数据库（例如 Microsoft SQL Server）时，连接可能会因为网络错误或服务器未运行而失败。无需在连接前等待默认的 20 秒，您可以指定发生错误前等待的时间。在许多不同事件（例如在外部服务器数据库上运行查询）中，可能需要登录服务器。</span><span class="sxs-lookup"><span data-stu-id="c78d9-p102">When you're attempting to log on to an ODBC database, such as Microsoft SQL Server, the connection can fail as a result of network errors or because the server isn't running. Rather than waiting for the default 20 seconds to connect, you can specify how long to wait before raising an error. Logging on to the server happens implicitly as part of a number of different events, such as running a query on an external server database.</span></span>
 

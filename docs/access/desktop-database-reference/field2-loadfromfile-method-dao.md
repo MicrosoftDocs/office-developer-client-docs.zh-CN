@@ -1,5 +1,5 @@
 ---
-title: Field2.LoadFromFile Method (DAO)
+title: Field2.LoadFromFile 方法 (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -10,30 +10,30 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 620d692693696c4a76a31d51fdda5ebb85acd5b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d2bd8981ec05758b89b461fc2c82080780d6b067
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873311"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926715"
 ---
-# <a name="field2loadfromfile-method-dao"></a><span data-ttu-id="40421-102">Field2.LoadFromFile Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="40421-102">Field2.LoadFromFile Method (DAO)</span></span>
+# <a name="field2loadfromfile-method-dao"></a><span data-ttu-id="1f34f-102">Field2.LoadFromFile 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1f34f-102">Field2.LoadFromFile method (DAO)</span></span>
 
-<span data-ttu-id="40421-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="40421-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1f34f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f34f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="40421-104">从磁盘加载指定文件。</span><span class="sxs-lookup"><span data-stu-id="40421-104">Loads the specified file from disk.</span></span>
+<span data-ttu-id="1f34f-104">从磁盘加载指定文件。</span><span class="sxs-lookup"><span data-stu-id="1f34f-104">Loads the specified file from disk.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="40421-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="40421-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="1f34f-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="1f34f-105">Version Information</span></span>
 
-<span data-ttu-id="40421-106">添加的版本： Access 2007</span><span class="sxs-lookup"><span data-stu-id="40421-106">Version Added: Access 2007</span></span>
+<span data-ttu-id="1f34f-106">添加的版本： Access 2007</span><span class="sxs-lookup"><span data-stu-id="1f34f-106">Version Added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="40421-107">语法</span><span class="sxs-lookup"><span data-stu-id="40421-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1f34f-107">语法</span><span class="sxs-lookup"><span data-stu-id="1f34f-107">Syntax</span></span>
 
-<span data-ttu-id="40421-108">*表达式*。LoadFromFile (***文件名***)</span><span class="sxs-lookup"><span data-stu-id="40421-108">*expression* .LoadFromFile(***FileName***)</span></span>
+<span data-ttu-id="1f34f-108">*表达式*。LoadFromFile (***文件名***)</span><span class="sxs-lookup"><span data-stu-id="1f34f-108">*expression* .LoadFromFile(***FileName***)</span></span>
 
-<span data-ttu-id="40421-109">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="40421-109">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="1f34f-109">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="1f34f-109">*expression* A variable that represents a **Field2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="40421-110">参数</span><span class="sxs-lookup"><span data-stu-id="40421-110">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="1f34f-110">参数</span><span class="sxs-lookup"><span data-stu-id="1f34f-110">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -44,26 +44,26 @@ ms.locfileid: "25873311"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="40421-111">名称</span><span class="sxs-lookup"><span data-stu-id="40421-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="40421-112">必需/可选</span><span class="sxs-lookup"><span data-stu-id="40421-112">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="40421-113">数据类型</span><span class="sxs-lookup"><span data-stu-id="40421-113">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="40421-114">说明</span><span class="sxs-lookup"><span data-stu-id="40421-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="1f34f-111">名称</span><span class="sxs-lookup"><span data-stu-id="1f34f-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="1f34f-112">必需/可选</span><span class="sxs-lookup"><span data-stu-id="1f34f-112">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="1f34f-113">数据类型</span><span class="sxs-lookup"><span data-stu-id="1f34f-113">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="1f34f-114">说明</span><span class="sxs-lookup"><span data-stu-id="1f34f-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="40421-115">FileName</span><span class="sxs-lookup"><span data-stu-id="40421-115">FileName</span></span></p></td>
-<td><p><span data-ttu-id="40421-116">必需</span><span class="sxs-lookup"><span data-stu-id="40421-116">Required</span></span></p></td>
-<td><p><span data-ttu-id="40421-117"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="40421-117"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="40421-118">要加载的文件的完全限定路径。</span><span class="sxs-lookup"><span data-stu-id="40421-118">The fully qualified path of the file to that you want to load.</span></span></p></td>
+<td><p><span data-ttu-id="1f34f-115">FileName</span><span class="sxs-lookup"><span data-stu-id="1f34f-115">FileName</span></span></p></td>
+<td><p><span data-ttu-id="1f34f-116">必需</span><span class="sxs-lookup"><span data-stu-id="1f34f-116">Required</span></span></p></td>
+<td><p><span data-ttu-id="1f34f-117"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="1f34f-117"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="1f34f-118">要加载的文件的完全限定路径。</span><span class="sxs-lookup"><span data-stu-id="1f34f-118">The fully qualified path of the file to that you want to load.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="40421-119">示例</span><span class="sxs-lookup"><span data-stu-id="40421-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1f34f-119">示例</span><span class="sxs-lookup"><span data-stu-id="1f34f-119">Example</span></span>
 
-<span data-ttu-id="40421-120">以下代码段使用 **LoadFromFile** 方法从磁盘加载雇员的图片。</span><span class="sxs-lookup"><span data-stu-id="40421-120">The following code snippet uses the **LoadFromFile** method to load an employee's picture from disk.</span></span>
+<span data-ttu-id="1f34f-120">以下代码段使用 **LoadFromFile** 方法从磁盘加载雇员的图片。</span><span class="sxs-lookup"><span data-stu-id="1f34f-120">The following code snippet uses the **LoadFromFile** method to load an employee's picture from disk.</span></span>
 
 ```vb 
    '  Instantiate the parent recordset.  
@@ -88,9 +88,9 @@ ms.locfileid: "25873311"
 
 <br/>
 
-<span data-ttu-id="40421-121">下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。</span><span class="sxs-lookup"><span data-stu-id="40421-121">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="1f34f-121">下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。</span><span class="sxs-lookup"><span data-stu-id="1f34f-121">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
-<span data-ttu-id="40421-122">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="40421-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="1f34f-122">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="1f34f-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

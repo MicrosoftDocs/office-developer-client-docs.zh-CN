@@ -1,30 +1,24 @@
 ---
-title: Connection Object Reference (DAO)
+title: 连接对象引用 (DAO)
 TOCTitle: Connection Object
 ms:assetid: f3041b87-8217-49b8-bee8-1998aa3ec3b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180067(v=office.15)
 ms:contentKeyID: 52075017
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4da8fc2a26d40a9614d51f99033d311cf469e6c3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4cb176b6a8550515246f57720d060eab95a11484
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873465"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930621"
 ---
-# <a name="connection-object-reference-dao"></a><span data-ttu-id="c7851-102">Connection Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7851-102">Connection Object Reference (DAO)</span></span>
+# <a name="connection-object-reference-dao"></a><span data-ttu-id="d19e7-102">连接对象引用 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d19e7-102">Connection object reference (DAO)</span></span>
 
+<span data-ttu-id="d19e7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d19e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c7851-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7851-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="c7851-104">Connection Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7851-104">Connection Object (DAO)</span></span>](connection-object-dao.md)
-
-  - [<span data-ttu-id="c7851-105">Connection Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7851-105">Connection Members (DAO)</span></span>](connection-members-dao.md)
-
-  - [<span data-ttu-id="c7851-106">Connection Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7851-106">Connection Properties (DAO)</span></span>](connection-properties-dao.md)
-
-  - [<span data-ttu-id="c7851-107">Connection Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7851-107">Connection Methods (DAO)</span></span>](connection-methods-dao.md)
+- [<span data-ttu-id="d19e7-104">Connection 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d19e7-104">Connection object (DAO)</span></span>](connection-object-dao.md)
+- [<span data-ttu-id="d19e7-105">连接成员 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d19e7-105">Connection members (DAO)</span></span>](connection-members-dao.md)
+- [<span data-ttu-id="d19e7-106">连接属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d19e7-106">Connection properties (DAO)</span></span>](connection-properties-dao.md)
+- [<span data-ttu-id="d19e7-107">连接方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d19e7-107">Connection methods (DAO)</span></span>](connection-methods-dao.md)
 

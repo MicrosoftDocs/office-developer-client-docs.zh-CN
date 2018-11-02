@@ -1,28 +1,28 @@
 ---
-title: QueryDefs Methods (DAO)
+title: QueryDefs 方法 (DAO)
 TOCTitle: Methods
 ms:assetid: 00c4003c-7d18-4c01-b5d3-78658bccfea3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123475(v=office.15)
 ms:contentKeyID: 52071118
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8009ffb6d7e751384255bf86e8d68c07201af8a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fe78a0c8ecb011aeaeb927a2ac9910dc1745eebf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888158"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923817"
 ---
-# <a name="querydefs-methods-dao"></a><span data-ttu-id="1b4a3-102">QueryDefs Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b4a3-102">QueryDefs Methods (DAO)</span></span>
+# <a name="querydefs-methods-dao"></a><span data-ttu-id="9a237-102">QueryDefs 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="9a237-102">QueryDefs methods (DAO)</span></span>
 
 
-<span data-ttu-id="1b4a3-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b4a3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9a237-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a237-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="1b4a3-104">QueryDefs.Append Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b4a3-104">QueryDefs.Append Method (DAO)</span></span>](querydefs-append-method-dao.md)
+  - [<span data-ttu-id="9a237-104">QueryDefs.Append 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="9a237-104">QueryDefs.Append method (DAO)</span></span>](querydefs-append-method-dao.md)
 
-  - [<span data-ttu-id="1b4a3-105">QueryDefs.Delete Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b4a3-105">QueryDefs.Delete Method (DAO)</span></span>](querydefs-delete-method-dao.md)
+  - [<span data-ttu-id="9a237-105">QueryDefs.Delete 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="9a237-105">QueryDefs.Delete method (DAO)</span></span>](querydefs-delete-method-dao.md)
 
-  - [<span data-ttu-id="1b4a3-106">QueryDefs.Refresh Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b4a3-106">QueryDefs.Refresh Method (DAO)</span></span>](querydefs-refresh-method-dao.md)
+  - [<span data-ttu-id="9a237-106">QueryDefs.Refresh 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="9a237-106">QueryDefs.Refresh method (DAO)</span></span>](querydefs-refresh-method-dao.md)
 

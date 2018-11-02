@@ -1,5 +1,5 @@
 ---
-title: TableDef.RefreshLink Method (DAO)
+title: TableDef.RefreshLink 方法 (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
@@ -10,34 +10,34 @@ f1_keywords:
 - dao360.chm1052980
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88cd8083f8dc1b71c574be1e31a8b7b735595090
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8b7fda0c095a04d2a3ab7f295497cff05a620ea6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876874"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922536"
 ---
-# <a name="tabledefrefreshlink-method-dao"></a><span data-ttu-id="fc224-102">TableDef.RefreshLink Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc224-102">TableDef.RefreshLink Method (DAO)</span></span>
+# <a name="tabledefrefreshlink-method-dao"></a><span data-ttu-id="f8acd-102">TableDef.RefreshLink 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="f8acd-102">TableDef.RefreshLink method (DAO)</span></span>
 
-<span data-ttu-id="fc224-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc224-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8acd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8acd-103">**Applies to**: Access 2013, Office 2013</span></span>
  
-<span data-ttu-id="fc224-104">更新链接表的连接信息（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="fc224-104">Updates the connection information for a linked table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="f8acd-104">更新链接表的连接信息（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="f8acd-104">Updates the connection information for a linked table (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fc224-105">语法</span><span class="sxs-lookup"><span data-stu-id="fc224-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f8acd-105">语法</span><span class="sxs-lookup"><span data-stu-id="f8acd-105">Syntax</span></span>
 
-<span data-ttu-id="fc224-106">*表达式*。RefreshLink</span><span class="sxs-lookup"><span data-stu-id="fc224-106">*expression* .RefreshLink</span></span>
+<span data-ttu-id="f8acd-106">*表达式*。RefreshLink</span><span class="sxs-lookup"><span data-stu-id="f8acd-106">*expression* .RefreshLink</span></span>
 
-<span data-ttu-id="fc224-107">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="fc224-107">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="f8acd-107">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="f8acd-107">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fc224-108">注解</span><span class="sxs-lookup"><span data-stu-id="fc224-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8acd-108">注解</span><span class="sxs-lookup"><span data-stu-id="f8acd-108">Remarks</span></span>
 
-<span data-ttu-id="fc224-p101">要更改链接表的连接信息，请重置相应 [TableDef](connection-connect-property-dao.md) 对象的 \*\*\*\*Connect\*\*\*\* 属性，然后使用 **RefreshLink** 方法更新信息。使用 **RefreshLink** 方法不会更改链接表的属性和 **[Relation](relation-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="fc224-p101">To change the connection information for a linked table, reset the **[Connect](connection-connect-property-dao.md)** property of the corresponding **TableDef** object and then use the **RefreshLink** method to update the information. Using **RefreshLink** method doesn't change the linked table's properties and **[Relation](relation-object-dao.md)** objects.</span></span>
+<span data-ttu-id="f8acd-p101">要更改链接表的连接信息，请重置相应 [TableDef](connection-connect-property-dao.md) 对象的 \*\*\*\*Connect\*\*\*\* 属性，然后使用 **RefreshLink** 方法更新信息。使用 **RefreshLink** 方法不会更改链接表的属性和 **[Relation](relation-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="f8acd-p101">To change the connection information for a linked table, reset the **[Connect](connection-connect-property-dao.md)** property of the corresponding **TableDef** object and then use the **RefreshLink** method to update the information. Using **RefreshLink** method doesn't change the linked table's properties and **[Relation](relation-object-dao.md)** objects.</span></span>
 
-<span data-ttu-id="fc224-111">要使此连接信息存在于与代表链接表的 **TableDef** 对象关联的所有集合中，必须对每个集合使用 **[Refresh](tabledefs-refresh-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="fc224-111">For this connection information to exist in all collections associated with the **TableDef** object that represents the linked table, you must use the **[Refresh](tabledefs-refresh-method-dao.md)** method on each collection.</span></span>
+<span data-ttu-id="f8acd-111">要使此连接信息存在于与代表链接表的 **TableDef** 对象关联的所有集合中，必须对每个集合使用 **[Refresh](tabledefs-refresh-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="f8acd-111">For this connection information to exist in all collections associated with the **TableDef** object that represents the linked table, you must use the **[Refresh](tabledefs-refresh-method-dao.md)** method on each collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="fc224-112">示例</span><span class="sxs-lookup"><span data-stu-id="fc224-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f8acd-112">示例</span><span class="sxs-lookup"><span data-stu-id="f8acd-112">Example</span></span>
 
-<span data-ttu-id="fc224-p102">以下示例在链接表的连接由一个数据源更改为另一个数据源后，使用 **RefreshLink** 方法刷新该链接表中的数据。若要使该过程运行，需要使用 RefreshLinkOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="fc224-p102">This example uses the **RefreshLink** method to refresh the data in a linked table after its connection has been changed from one data source to another. The RefreshLinkOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="f8acd-p102">以下示例在链接表的连接由一个数据源更改为另一个数据源后，使用 **RefreshLink** 方法刷新该链接表中的数据。若要使该过程运行，需要使用 RefreshLinkOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="f8acd-p102">This example uses the **RefreshLink** method to refresh the data in a linked table after its connection has been changed from one data source to another. The RefreshLinkOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub RefreshLinkX() 

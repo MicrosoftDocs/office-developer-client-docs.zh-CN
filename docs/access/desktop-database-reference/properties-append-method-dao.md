@@ -1,32 +1,32 @@
 ---
-title: Properties.Append Method (DAO)
+title: Properties.Append 方法 (DAO)
 TOCTitle: Append Method
 ms:assetid: 47f1e24f-975c-3fdc-5c3c-8c91f2920c81
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193232(v=office.15)
 ms:contentKeyID: 48544609
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e85ab0bb12f9016f103187aa4c16fd7bf0d2dcba
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3cc60a1f3a3b7114b3996f70c5bfe4541d60bb7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883223"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928521"
 ---
-# <a name="propertiesappend-method-dao"></a><span data-ttu-id="ac661-102">Properties.Append Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac661-102">Properties.Append Method (DAO)</span></span>
+# <a name="propertiesappend-method-dao"></a><span data-ttu-id="1fef3-102">Properties.Append 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fef3-102">Properties.Append method (DAO)</span></span>
 
 
-<span data-ttu-id="ac661-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac661-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1fef3-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fef3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ac661-104">将新的 **Property** 添加到 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="ac661-104">Adds a new **Property** to the **Properties** collection.</span></span>
+<span data-ttu-id="1fef3-104">将新的 **Property** 添加到 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="1fef3-104">Adds a new **Property** to the **Properties** collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ac661-105">语法</span><span class="sxs-lookup"><span data-stu-id="ac661-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1fef3-105">语法</span><span class="sxs-lookup"><span data-stu-id="1fef3-105">Syntax</span></span>
 
-<span data-ttu-id="ac661-106">*表达式*。追加 （***对象***）</span><span class="sxs-lookup"><span data-stu-id="ac661-106">*expression* .Append(***Object***)</span></span>
+<span data-ttu-id="1fef3-106">*表达式*。追加 （***对象***）</span><span class="sxs-lookup"><span data-stu-id="1fef3-106">*expression* .Append(***Object***)</span></span>
 
-<span data-ttu-id="ac661-107">*表达式*一个代表**Properties**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="ac661-107">*expression* A variable that represents a **Properties** object.</span></span>
+<span data-ttu-id="1fef3-107">*表达式*一个代表**Properties**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="1fef3-107">*expression* A variable that represents a **Properties** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="ac661-108">参数</span><span class="sxs-lookup"><span data-stu-id="ac661-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="1fef3-108">参数</span><span class="sxs-lookup"><span data-stu-id="1fef3-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,28 +37,28 @@ ms.locfileid: "25883223"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="ac661-109">名称</span><span class="sxs-lookup"><span data-stu-id="ac661-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="ac661-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="ac661-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="ac661-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="ac661-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="ac661-112">说明</span><span class="sxs-lookup"><span data-stu-id="ac661-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="1fef3-109">名称</span><span class="sxs-lookup"><span data-stu-id="1fef3-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="1fef3-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="1fef3-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="1fef3-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="1fef3-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="1fef3-112">说明</span><span class="sxs-lookup"><span data-stu-id="1fef3-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="ac661-113">对象</span><span class="sxs-lookup"><span data-stu-id="ac661-113">Object</span></span></p></td>
-<td><p><span data-ttu-id="ac661-114">必需</span><span class="sxs-lookup"><span data-stu-id="ac661-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="ac661-115"><strong>对象</strong></span><span class="sxs-lookup"><span data-stu-id="ac661-115"><strong>Object</strong></span></span></p></td>
-<td><p><span data-ttu-id="ac661-116">一个对象变量，代表追加到集合的字段。</span><span class="sxs-lookup"><span data-stu-id="ac661-116">An object variable that represents the field being appended to the collection.</span></span></p></td>
+<td><p><span data-ttu-id="1fef3-113">对象</span><span class="sxs-lookup"><span data-stu-id="1fef3-113">Object</span></span></p></td>
+<td><p><span data-ttu-id="1fef3-114">必需</span><span class="sxs-lookup"><span data-stu-id="1fef3-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="1fef3-115"><strong>对象</strong></span><span class="sxs-lookup"><span data-stu-id="1fef3-115"><strong>Object</strong></span></span></p></td>
+<td><p><span data-ttu-id="1fef3-116">一个对象变量，代表追加到集合的字段。</span><span class="sxs-lookup"><span data-stu-id="1fef3-116">An object variable that represents the field being appended to the collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="ac661-117">注解</span><span class="sxs-lookup"><span data-stu-id="ac661-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1fef3-117">注解</span><span class="sxs-lookup"><span data-stu-id="1fef3-117">Remarks</span></span>
 
-<span data-ttu-id="ac661-118">使用 **Delete** 方法删除追加的对象之前，该对象是存储在磁盘上的永久对象。</span><span class="sxs-lookup"><span data-stu-id="ac661-118">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
+<span data-ttu-id="1fef3-118">使用 **Delete** 方法删除追加的对象之前，该对象是存储在磁盘上的永久对象。</span><span class="sxs-lookup"><span data-stu-id="1fef3-118">The appended object becomes a persistent object, stored on disk, until you delete it by using the **Delete** method.</span></span>
 
-<span data-ttu-id="ac661-119">添加新对象会立即发生，但是，对于受数据库结构更改影响的其他任何集合，应使用 **Refresh** 方法。</span><span class="sxs-lookup"><span data-stu-id="ac661-119">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
+<span data-ttu-id="1fef3-119">添加新对象会立即发生，但是，对于受数据库结构更改影响的其他任何集合，应使用 **Refresh** 方法。</span><span class="sxs-lookup"><span data-stu-id="1fef3-119">The addition of a new object occurs immediately, but you should use the **Refresh** method on any other collections that may be affected by changes to the database structure.</span></span>
 
-<span data-ttu-id="ac661-120">如果追加的对象不完整（例如，如果在将某个 **Index** 对象追加到 **Indexes** 集合之前，没有将任何 **Field** 对象追加到该对象的 **Fields** 集合），或者一个或多个从属对象中的属性集不正确，则使用 **Append** 方法会导致错误。</span><span class="sxs-lookup"><span data-stu-id="ac661-120">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="ac661-121">例如，如果没有指定字段类型，然后尝试**将 Field**对象追加到**Fields**集合中的**TableDef**对象使用**Append**方法触发一个运行时错误。</span><span class="sxs-lookup"><span data-stu-id="ac661-121">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
+<span data-ttu-id="1fef3-120">如果追加的对象不完整（例如，如果在将某个 **Index** 对象追加到 **Indexes** 集合之前，没有将任何 **Field** 对象追加到该对象的 **Fields** 集合），或者一个或多个从属对象中的属性集不正确，则使用 **Append** 方法会导致错误。</span><span class="sxs-lookup"><span data-stu-id="1fef3-120">If the object you're appending isn't complete (such as when you haven't appended any **Field** objects to a **Fields** collection of an **Index** object before it's appended to an **Indexes** collection) or if the properties set in one or more subordinate objects are incorrect, using the **Append** method causes an error.</span></span> <span data-ttu-id="1fef3-121">例如，如果没有指定字段类型，然后尝试**将 Field**对象追加到**Fields**集合中的**TableDef**对象使用**Append**方法触发一个运行时错误。</span><span class="sxs-lookup"><span data-stu-id="1fef3-121">For example, if you haven’t specified a field type and then try to append the **Field** object to the **Fields** collection in a **TableDef** object, using the **Append** method triggers a run-time error.</span></span>
 

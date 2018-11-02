@@ -1,5 +1,5 @@
 ---
-title: TableDef.SourceTableName Property (DAO)
+title: TableDef.SourceTableName 属性 (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -10,33 +10,33 @@ f1_keywords:
 - dao360.chm1052901
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65ba3b34ca70ac94f771cfc8545cf5e703e769b9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9139ae6593f2c1645c8bf68fe2b79f2f763f746c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885953"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929109"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="fa8fd-102">TableDef.SourceTableName Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="fa8fd-102">TableDef.SourceTableName Property (DAO)</span></span>
+# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="93be1-102">TableDef.SourceTableName 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="93be1-102">TableDef.SourceTableName property (DAO)</span></span>
 
 
-<span data-ttu-id="fa8fd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa8fd-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="93be1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="93be1-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="fa8fd-104">设置或返回一个值，该值指定链接表或基表的名称（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="fa8fd-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="93be1-104">设置或返回一个值，该值指定链接表或基表的名称（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="93be1-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="fa8fd-105">语法</span><span class="sxs-lookup"><span data-stu-id="fa8fd-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="93be1-105">语法</span><span class="sxs-lookup"><span data-stu-id="93be1-105">Syntax</span></span>
 
-<span data-ttu-id="fa8fd-106">*表达式*。SourceTableName</span><span class="sxs-lookup"><span data-stu-id="fa8fd-106">*expression* .SourceTableName</span></span>
+<span data-ttu-id="93be1-106">*表达式*。SourceTableName</span><span class="sxs-lookup"><span data-stu-id="93be1-106">*expression* .SourceTableName</span></span>
 
-<span data-ttu-id="fa8fd-107">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="fa8fd-107">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="93be1-107">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="93be1-107">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fa8fd-108">注解</span><span class="sxs-lookup"><span data-stu-id="fa8fd-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="93be1-108">注解</span><span class="sxs-lookup"><span data-stu-id="93be1-108">Remarks</span></span>
 
-<span data-ttu-id="fa8fd-p101">对于基表，该属性设置是只读的；对于链接表或未追加到集合中的对象，该属性设置是可读写的。对于基表，此设置为零长度字符串 ("")。</span><span class="sxs-lookup"><span data-stu-id="fa8fd-p101">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection. For a base table, the setting is a zero-length string ("").</span></span>
+<span data-ttu-id="93be1-p101">对于基表，该属性设置是只读的；对于链接表或未追加到集合中的对象，该属性设置是可读写的。对于基表，此设置为零长度字符串 ("")。</span><span class="sxs-lookup"><span data-stu-id="93be1-p101">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection. For a base table, the setting is a zero-length string ("").</span></span>
 
-## <a name="example"></a><span data-ttu-id="fa8fd-111">示例</span><span class="sxs-lookup"><span data-stu-id="fa8fd-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="93be1-111">示例</span><span class="sxs-lookup"><span data-stu-id="93be1-111">Example</span></span>
 
-<span data-ttu-id="fa8fd-p102">以下示例使用 **Connect** 和 **SourceTableName** 属性将各种外部表链接到 Microsoft Access 数据库。若要使该过程运行，需要使用 ConnectOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="fa8fd-p102">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database. The ConnectOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="93be1-p102">以下示例使用 **Connect** 和 **SourceTableName** 属性将各种外部表链接到 Microsoft Access 数据库。若要使该过程运行，需要使用 ConnectOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="93be1-p102">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database. The ConnectOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub ConnectX() 

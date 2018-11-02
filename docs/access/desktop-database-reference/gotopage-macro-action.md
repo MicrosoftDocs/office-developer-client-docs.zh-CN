@@ -1,6 +1,6 @@
 ---
 title: GoToPage 宏操作
-TOCTitle: GoToPage Macro Action
+TOCTitle: GoToPage macro action
 ms:assetid: 611aadff-83b7-e74d-4093-93fb5ce6e3ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194858(v=office.15)
 ms:contentKeyID: 48545199
@@ -10,23 +10,23 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b183b7815769c1eed8c3ee0826167b93453ca19d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd38a7f4973195fdd758934ceec787d623c3353c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891308"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923264"
 ---
-# <a name="gotopage-macro-action"></a><span data-ttu-id="3dc6e-102">GoToPage 宏操作</span><span class="sxs-lookup"><span data-stu-id="3dc6e-102">GoToPage Macro Action</span></span>
+# <a name="gotopage-macro-action"></a><span data-ttu-id="fdfbc-102">GoToPage 宏操作</span><span class="sxs-lookup"><span data-stu-id="fdfbc-102">GoToPage macro action</span></span>
 
 
-<span data-ttu-id="3dc6e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="3dc6e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fdfbc-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="fdfbc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3dc6e-p101">可以使用 **GoToPage** 操作将焦点从活动窗体中移至指定页上的第一个控件上。如果您创建了一个包含若干组相关信息的分页窗体，则可以使用此操作。例如，您可能有一个"员工"窗体，第一页上是个人信息，第二页上是办公室信息，第三页上是销售信息。您可以使用 **GoToPage** 操作移到所需的页。也可以使用选项卡控件将多页信息呈现在单个窗体上。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-p101">You can use the **GoToPage** action to move the focus in the active form to the first control on a specified page. You can use this action if you have created a form with page breaks that contains groups of related information. For example, you might have an Employees form with personal information on one page, office information on another page, and sales information on a third page. You can use the **GoToPage** action to move to the desired page. You can also present multiple pages of information on a single form by using tab controls.</span></span>
+<span data-ttu-id="fdfbc-p101">可以使用 **GoToPage** 操作将焦点从活动窗体中移至指定页上的第一个控件上。如果您创建了一个包含若干组相关信息的分页窗体，则可以使用此操作。例如，您可能有一个"员工"窗体，第一页上是个人信息，第二页上是办公室信息，第三页上是销售信息。您可以使用 **GoToPage** 操作移到所需的页。也可以使用选项卡控件将多页信息呈现在单个窗体上。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-p101">You can use the **GoToPage** action to move the focus in the active form to the first control on a specified page. You can use this action if you have created a form with page breaks that contains groups of related information. For example, you might have an Employees form with personal information on one page, office information on another page, and sales information on a third page. You can use the **GoToPage** action to move to the desired page. You can also present multiple pages of information on a single form by using tab controls.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="3dc6e-109">设置</span><span class="sxs-lookup"><span data-stu-id="3dc6e-109">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="fdfbc-109">设置</span><span class="sxs-lookup"><span data-stu-id="fdfbc-109">Setting</span></span>
 
-<span data-ttu-id="3dc6e-110">**GoToPage** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-110">The **GoToPage** action has the following arguments.</span></span>
+<span data-ttu-id="fdfbc-110">**GoToPage** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-110">The **GoToPage** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -35,22 +35,22 @@ ms.locfileid: "25891308"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3dc6e-111">操作参数</span><span class="sxs-lookup"><span data-stu-id="3dc6e-111">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="3dc6e-112">说明</span><span class="sxs-lookup"><span data-stu-id="3dc6e-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="fdfbc-111">操作参数</span><span class="sxs-lookup"><span data-stu-id="fdfbc-111">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="fdfbc-112">说明</span><span class="sxs-lookup"><span data-stu-id="fdfbc-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3dc6e-113"><strong>页码</strong></span><span class="sxs-lookup"><span data-stu-id="3dc6e-113"><strong>Page Number</strong></span></span></p></td>
-<td><p><span data-ttu-id="3dc6e-114">您想要将焦点移到的页的页码。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-114">The number of the page to which you want to move the focus.</span></span> <span data-ttu-id="3dc6e-115">在宏生成器窗格的<strong>操作参数</strong>部分的<strong>页码</strong>框中输入的页号。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-115">Enter the page number in the <strong>Page Number</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span> <span data-ttu-id="3dc6e-116">如果将此参数留空，焦点将停留在当前页上。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-116">If you leave this argument blank, the focus stays on the current page.</span></span> <span data-ttu-id="3dc6e-117"><strong>右</strong>和<strong>关闭</strong>参数可用于显示您想要查看页上的一部分。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-117">You can use the <strong>Right</strong> and <strong>Down</strong> arguments to display the part of the page you want to see.</span></span></p></td>
+<td><p><span data-ttu-id="fdfbc-113"><strong>页码</strong></span><span class="sxs-lookup"><span data-stu-id="fdfbc-113"><strong>Page Number</strong></span></span></p></td>
+<td><p><span data-ttu-id="fdfbc-114">您想要将焦点移到的页的页码。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-114">The number of the page to which you want to move the focus.</span></span> <span data-ttu-id="fdfbc-115">在宏生成器窗格的<strong>操作参数</strong>部分的<strong>页码</strong>框中输入的页号。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-115">Enter the page number in the <strong>Page Number</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span> <span data-ttu-id="fdfbc-116">如果将此参数留空，焦点将停留在当前页上。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-116">If you leave this argument blank, the focus stays on the current page.</span></span> <span data-ttu-id="fdfbc-117"><strong>右</strong>和<strong>关闭</strong>参数可用于显示您想要查看页上的一部分。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-117">You can use the <strong>Right</strong> and <strong>Down</strong> arguments to display the part of the page you want to see.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3dc6e-118"><strong>Right</strong></span><span class="sxs-lookup"><span data-stu-id="3dc6e-118"><strong>Right</strong></span></span></p></td>
-<td><p><span data-ttu-id="3dc6e-119">在页上，从页所在窗口，显示在窗口的左边缘的左边缘开始算起的点的水平位置。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-119">The horizontal position of the spot on the page, measured from the left edge of its containing window, that is to appear at the left edge of the window.</span></span> <span data-ttu-id="3dc6e-120">如果指定的<strong>向下</strong>参数，这是必需的。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-120">This is required if you specify a <strong>Down</strong> argument.</span></span></p></td>
+<td><p><span data-ttu-id="fdfbc-118"><strong>Right</strong></span><span class="sxs-lookup"><span data-stu-id="fdfbc-118"><strong>Right</strong></span></span></p></td>
+<td><p><span data-ttu-id="fdfbc-119">在页上，从页所在窗口，显示在窗口的左边缘的左边缘开始算起的点的水平位置。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-119">The horizontal position of the spot on the page, measured from the left edge of its containing window, that is to appear at the left edge of the window.</span></span> <span data-ttu-id="fdfbc-120">如果指定的<strong>向下</strong>参数，这是必需的。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-120">This is required if you specify a <strong>Down</strong> argument.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3dc6e-121"><strong>Down</strong></span><span class="sxs-lookup"><span data-stu-id="3dc6e-121"><strong>Down</strong></span></span></p></td>
-<td><p><span data-ttu-id="3dc6e-122">在页上，从页所在窗口，要显示在窗口的上边缘的上边缘开始算起的点的垂直位置。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-122">The vertical position of the spot on the page, measured from the top edge of its containing window, that is to appear at the top edge of the window.</span></span> <span data-ttu-id="3dc6e-123">如果指定<strong>右</strong>参数，这是必需的。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-123">This is required if you specify a <strong>Right</strong> argument.</span></span></p></td>
+<td><p><span data-ttu-id="fdfbc-121"><strong>Down</strong></span><span class="sxs-lookup"><span data-stu-id="fdfbc-121"><strong>Down</strong></span></span></p></td>
+<td><p><span data-ttu-id="fdfbc-122">在页上，从页所在窗口，要显示在窗口的上边缘的上边缘开始算起的点的垂直位置。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-122">The vertical position of the spot on the page, measured from the top edge of its containing window, that is to appear at the top edge of the window.</span></span> <span data-ttu-id="fdfbc-123">如果指定<strong>右</strong>参数，这是必需的。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-123">This is required if you specify a <strong>Right</strong> argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -58,21 +58,21 @@ ms.locfileid: "25891308"
 
 
 > [!NOTE]
-> <P><span data-ttu-id="3dc6e-124"><STRONG>右</STRONG>和<STRONG>关闭</STRONG>参数的测量以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-124">The <STRONG>Right</STRONG> and <STRONG>Down</STRONG> arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.</span></span></P>
+> <P><span data-ttu-id="fdfbc-124"><STRONG>右</STRONG>和<STRONG>关闭</STRONG>参数的测量以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-124">The <STRONG>Right</STRONG> and <STRONG>Down</STRONG> arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.</span></span></P>
 
 
 
-## <a name="remarks"></a><span data-ttu-id="3dc6e-125">说明</span><span class="sxs-lookup"><span data-stu-id="3dc6e-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fdfbc-125">说明</span><span class="sxs-lookup"><span data-stu-id="fdfbc-125">Remarks</span></span>
 
-<span data-ttu-id="3dc6e-p105">可以使用此操作选择指定页上的第一个控件（由窗体的 Tab 键次序定义）。使用 **GoToControl** 操作可移至窗体上的特定控件。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-p105">You can use this action to select the first control (as defined by the form's tab order) on the specified page. Use the **GoToControl** action to move to a particular control on the form.</span></span>
+<span data-ttu-id="fdfbc-p105">可以使用此操作选择指定页上的第一个控件（由窗体的 Tab 键次序定义）。使用 **GoToControl** 操作可移至窗体上的特定控件。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-p105">You can use this action to select the first control (as defined by the form's tab order) on the specified page. Use the **GoToControl** action to move to a particular control on the form.</span></span>
 
-<span data-ttu-id="3dc6e-128">可以在页面大于在 Access 窗口中使用窗体**右**和**关闭**的参数。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-128">You can use the **Right** and **Down** arguments for forms with pages larger than the Access window.</span></span> <span data-ttu-id="3dc6e-129">**页码**参数用于将移动到所需的页，然后使用**右**和**关闭**参数以显示您想要查看页上的一部分。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-129">Use the **Page Number** argument to move to the desired page, and then use the **Right** and **Down** arguments to display the part of the page you want to see.</span></span> <span data-ttu-id="3dc6e-130">Access 将显示其左上角存在一定偏移的指定页面的左上角距离页上的一部分。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-130">Access displays the part of the page whose upper-left corner is offset the specified distance from the upper-left corner of the page.</span></span>
+<span data-ttu-id="fdfbc-128">可以在页面大于在 Access 窗口中使用窗体**右**和**关闭**的参数。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-128">You can use the **Right** and **Down** arguments for forms with pages larger than the Access window.</span></span> <span data-ttu-id="fdfbc-129">**页码**参数用于将移动到所需的页，然后使用**右**和**关闭**参数以显示您想要查看页上的一部分。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-129">Use the **Page Number** argument to move to the desired page, and then use the **Right** and **Down** arguments to display the part of the page you want to see.</span></span> <span data-ttu-id="fdfbc-130">Access 将显示其左上角存在一定偏移的指定页面的左上角距离页上的一部分。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-130">Access displays the part of the page whose upper-left corner is offset the specified distance from the upper-left corner of the page.</span></span>
 
-<span data-ttu-id="3dc6e-131">在以下情况下，不能使用 **GoToPage** 操作：</span><span class="sxs-lookup"><span data-stu-id="3dc6e-131">You can't use the **GoToPage** action in the following cases:</span></span>
+<span data-ttu-id="fdfbc-131">在以下情况下，不能使用 **GoToPage** 操作：</span><span class="sxs-lookup"><span data-stu-id="fdfbc-131">You can't use the **GoToPage** action in the following cases:</span></span>
 
-  - <span data-ttu-id="3dc6e-132">将焦点移到隐藏窗体上的页上。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-132">To move the focus to a page on a hidden form.</span></span>
+  - <span data-ttu-id="fdfbc-132">将焦点移到隐藏窗体上的页上。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-132">To move the focus to a page on a hidden form.</span></span>
 
-  - <span data-ttu-id="3dc6e-133">在选项卡控件中将焦点从某一页移到另一页上。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-133">To move the focus from one page to another within the tab control.</span></span>
+  - <span data-ttu-id="fdfbc-133">在选项卡控件中将焦点从某一页移到另一页上。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-133">To move the focus from one page to another within the tab control.</span></span>
 
-<span data-ttu-id="3dc6e-134">要在 Visual Basic for Applications (VBA) 模块中运行 **GoToPage** 操作，请使用 **DoCmd** 对象的 **GoToPage** 方法。</span><span class="sxs-lookup"><span data-stu-id="3dc6e-134">To run the **GoToPage** action in a Visual Basic for Applications (VBA) module, use the **GoToPage** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="fdfbc-134">要在 Visual Basic for Applications (VBA) 模块中运行 **GoToPage** 操作，请使用 **DoCmd** 对象的 **GoToPage** 方法。</span><span class="sxs-lookup"><span data-stu-id="fdfbc-134">To run the **GoToPage** action in a Visual Basic for Applications (VBA) module, use the **GoToPage** method of the **DoCmd** object.</span></span>
 
