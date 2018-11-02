@@ -1,24 +1,25 @@
 ---
 title: ADO 枚举常量
-TOCTitle: ADO Enumerated Constants
+TOCTitle: ADO enumerated constants
 ms:assetid: 7c983acd-8b38-dc3c-6704-46e649ebb7d6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e9944138dcdca49f33ca293a9bdf41d88d86e9e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0e6a6dee6d2882b1d7d1c277584ca8ba46d6db28
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882306"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910948"
 ---
 # <a name="ado-enumerated-constants"></a>ADO 枚举常量
-
 
 **适用于**： Access 2013、 Office 2013
 
 为了有助于进行调试，ADO 枚举将列出每个常量的值。但是，此值仅仅是建议性的，不同的 ADO 版本可能会各不相同。代码应当只依赖于每个枚举常量的名称，而不是实际值。
+
+<br/>
 
 <table>
 <colgroup>
@@ -26,6 +27,10 @@ ms.locfileid: "25882306"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>枚举的常量</th>
+<th>说明</th>
+</tr>
 <tr class="odd">
 <td><p><a href="adcprop-asyncthreadpriority-enum.md">ADCPROP_ASYNCTHREADPRIORITY_ENUM</a></p></td>
 <td><p>对于 RDS <strong>Recordset</strong> 对象，指定用于检索数据的异步线程的执行优先级。</p></td>

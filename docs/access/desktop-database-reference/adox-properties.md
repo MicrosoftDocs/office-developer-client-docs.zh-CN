@@ -1,28 +1,35 @@
 ---
 title: ADOX 属性 （Access 桌面数据库参考 （英文）
-TOCTitle: ADOX Properties
+TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 512ae9aef050b7cc9b3737977912db10a3f0dc97
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a7bf5ee16987ba72c6f191b5f74390b26cf90ceb
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873857"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910899"
 ---
 # <a name="adox-properties"></a>ADOX 属性
 
-
 **适用于**： Access 2013、 Office 2013
+
+<br/>
 
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th><p>属性</p></th>
+<th><p>说明</p></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
 <td><p><a href="activeconnection-property-adox.md">ActiveConnection</a></p></td>

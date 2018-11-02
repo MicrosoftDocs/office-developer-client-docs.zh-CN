@@ -1,22 +1,23 @@
 ---
-title: ActiveX 数据对象 (ADO) 和事件
-TOCTitle: ADO Events
+title: ActiveX 数据对象 (ADO) 事件
+TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
 ms:contentKeyID: 48546041
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d7a885d5fdd7736a37c2f195c3bf14b4af8a70d3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3cc8ac02e2410a2f7bfe1038851e16f50c1ea2ee
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876230"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910941"
 ---
 # <a name="ado-events"></a>ADO 事件
 
-
 **适用于**： Access 2013、 Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25876230"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>事件</th>
+<th>说明</th>
+</tr>
 <tr class="odd">
 <td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a></p></td>
 <td><p>在 <strong>BeginTrans</strong> 操作之后调用。</p></td>
@@ -107,3 +112,4 @@ ms.locfileid: "25876230"
 </tbody>
 </table>
 
+<br/>

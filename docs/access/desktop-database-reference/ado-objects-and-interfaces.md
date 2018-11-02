@@ -1,26 +1,27 @@
 ---
 title: ADO 对象和接口
-TOCTitle: ADO Objects and Interfaces
+TOCTitle: ADO objects and interfaces
 ms:assetid: bebf4a80-8b6e-c43c-4138-897055cc60d3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249927(v=office.15)
 ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efab7ce2980393282ee1f96295206e712fcbd15f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fa301974b4b417d09b0439b3970ee366eeb5d06e
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882180"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910725"
 ---
 # <a name="ado-objects-and-interfaces"></a>ADO 对象和接口
 
-
 **适用于**： Access 2013、 Office 2013
 
-ADO 对象模型展示了这些对象之间的关系。
+ActiveX 数据对象 (ADO) 对象模型中都表示这些对象之间的关系。
 
-每个对象可包含在其对应的集合中。例如，[Error](error-object-ado.md) 对象可以包含在 [Errors](errors-collection-ado.md) 集合中。有关详细信息，请参阅 [ADO 集合](ado-collections.md)或具体的集合主题。
+每个对象可包含在其对应的集合中。 例如，[Error](error-object-ado.md) 对象可以包含在 [Errors](errors-collection-ado.md) 集合中。 有关详细信息，请参阅[ADO 集合](ado-collections.md)或特定集合主题。
+
+<br/>
 
 <table>
 <colgroup>
@@ -28,6 +29,10 @@ ADO 对象模型展示了这些对象之间的关系。
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>对象</th>
+<th>说明</th>
+</tr>
 <tr class="odd">
 <td><p><a href="adorecordconstruction-interface-ado.md">ADORecordConstruction</a></p></td>
 <td><p>在 C/C++ 应用程序中从 OLE DB <strong>Row</strong> 对象构建 ADO <strong>Record</strong> 对象。</p></td>
@@ -35,6 +40,14 @@ ADO 对象模型展示了这些对象之间的关系。
 <tr class="even">
 <td><p><a href="adorecordsetconstruction-interface-ado.md">ADORecordsetConstruction</a></p></td>
 <td><p>在 C/C++ 应用程序中从 OLE DB <strong>Rowset</strong> 对象构建 ADO <strong>Recordset</strong> 对象。</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="error-object-ado.md">Command</a></p></td>
+<td><p>定义要对数据源执行的特定命令。</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="field-object-ado.md">Connection</a></p></td>
+<td><p>表示指向数据源的打开的连接。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="error-object-ado.md">Error</a></p></td>
@@ -66,4 +79,6 @@ ADO 对象模型展示了这些对象之间的关系。
 </tr>
 </tbody>
 </table>
+
+<br/>
 

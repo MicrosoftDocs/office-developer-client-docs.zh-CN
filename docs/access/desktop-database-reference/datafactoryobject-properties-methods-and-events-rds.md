@@ -1,19 +1,19 @@
 ---
-title: DataFactoryObject Properties, Methods, and Events (RDS)
-TOCTitle: Properties, Methods, and Events
+title: DataFactory 属性、 方法和事件 (RDS)
+TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
 ms:contentKeyID: 48547971
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aec3925da1284ed7b39e404d044462ac43e39b6e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 01fc9aa35b3ecf43e7ebddc7f573fcb7a860c021
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888340"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910780"
 ---
-# <a name="datafactoryobject-properties-methods-and-events-rds"></a>DataFactoryObject Properties, Methods, and Events (RDS)
+# <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory 属性、 方法和事件 (RDS)
 
 
 **适用于**： Access 2013、 Office 2013

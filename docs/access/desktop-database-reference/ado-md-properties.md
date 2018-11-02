@@ -1,22 +1,23 @@
 ---
 title: ActiveX 数据对象 (ADO) MD 属性
-TOCTitle: ADO MD Properties
+TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0bd08cea4c79fb9bf25c9bca4364accf617e6962
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0323ba7adb617bd68ed5c97098c93be9f990ac70
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873913"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910927"
 ---
 # <a name="ado-md-properties"></a>ADO MD 属性
 
-
 **适用于**： Access 2013、 Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25873913"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>属性</th>
+<th>说明</th>
+</tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado-md.md">ActiveConnection</a></p></td>
 <td><p>指示当前单元格集或目录当前所属的 ADO <strong>Connection</strong> 对象。</p></td>
@@ -127,3 +132,4 @@ ms.locfileid: "25873913"
 </tbody>
 </table>
 
+<br/>

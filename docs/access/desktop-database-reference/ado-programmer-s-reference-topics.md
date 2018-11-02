@@ -6,23 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249026(v=office.15)
 ms:contentKeyID: 48543804
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79730a420066d0ea8f03ffe06163878fe4cc8ae2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5dc3f307ba1cab0696a63743eed0ee1460ae1cf3
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873423"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910718"
 ---
 # <a name="ado-programmers-reference-topics"></a>ADO 程序员参考主题
 
-
 **适用于**： Access 2013、 Office 2013
 
-  - [ADO API Reference Topics](ado-api-reference-topics.md)
-
-  - [RDS API Reference Topics](rds-api-reference-topics.md)
-
-  - [ADO MD API Reference Topics](ado-md-api-reference-topics.md)
-
-  - [ADOX API Reference Topics](adox-api-reference-topics.md)
+- [ADO API 参考主题](ado-api-reference-topics.md)
+- [RDS API 参考主题](rds-api-reference-topics.md)
+- [ADO MD API 参考主题](ado-md-api-reference-topics.md)
+- [ADOX API 参考主题](adox-api-reference-topics.md)
 

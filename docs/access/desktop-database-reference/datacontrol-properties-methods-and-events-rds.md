@@ -1,19 +1,19 @@
 ---
-title: DataControl Properties, Methods, and Events (RDS)
-TOCTitle: Properties, Methods, and Events
+title: DataControl 属性、 方法和事件 (RDS)
+TOCTitle: Properties, methods, and events
 ms:assetid: 93590783-2102-534c-6639-212ae9d63fe0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d06a21f116ef601f7c951766aeb271a59234f7f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dfb2ea094594d3a2b71b1e449ecae1bf7b3631e6
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878764"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910669"
 ---
-# <a name="datacontrol-properties-methods-and-events-rds"></a>DataControl Properties, Methods, and Events (RDS)
+# <a name="datacontrol-properties-methods-and-events-rds"></a>DataControl 属性、 方法和事件 (RDS)
 
 **适用于**： Access 2013、 Office 2013
 

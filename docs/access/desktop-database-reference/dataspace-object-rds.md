@@ -1,17 +1,17 @@
 ---
 title: DataSpace 对象 (RDS)
-TOCTitle: DataSpace Object (RDS)
+TOCTitle: DataSpace object (RDS)
 ms:assetid: 7db181d5-422b-49fe-b6af-a20f5da520ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249527(v=office.15)
 ms:contentKeyID: 48545862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1715a1d1207955d47897fee8ba191117bcfaa244
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 43a69e16f14df7304a2278456641f6ad44fbccb7
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882915"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910654"
 ---
 # <a name="dataspace-object-rds"></a>DataSpace 对象 (RDS)
 

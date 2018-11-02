@@ -1,20 +1,19 @@
 ---
 title: ADO 动态属性
-TOCTitle: ADO Dynamic Properties
+TOCTitle: ADO dynamic properties
 ms:assetid: a908bc52-2cb0-89c7-a997-2cde93477e4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a35bf0cd62db8f635540bfd1ccd65995b198b46
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ab0d84931389aecb5bd495c884baa9163c52d4a6
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877546"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910920"
 ---
 # <a name="ado-dynamic-properties"></a>ADO 动态属性
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -24,12 +23,18 @@ ms.locfileid: "25877546"
 
 以下动态属性需要特别注意，上述数据源文档也记录了这些属性。下面列出的 ADO 帮助主题列出了 ADO 提供的特殊功能。
 
+<br/>
+
 <table>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>动态属性</th>
+<th>说明</th>
+</tr>
 <tr class="odd">
 <td><p><a href="optimize-property-dynamic-ado.md">优化</a></p></td>
 <td><p>指定是否应当创建此字段的索引。</p></td>
@@ -48,7 +53,7 @@ ms.locfileid: "25877546"
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table、 Unique Schema、 Unique Catalog</a></p></td>
-<td><p><strong>Unique Table</strong> -指定在其允许更新、 插入和删除的基表的名称。 <strong>Unique Schema</strong> -指定架构或表的所有者的名称。 <strong>Unique Catalog</strong> -指定目录或包含表的数据库的名称。</p></td>
+<td><p><strong>Unique Table</strong> -指定在其允许更新、 插入和删除的基表的名称。<br/><br/><strong>Unique Schema</strong> -指定架构或表的所有者的名称。<br/><br/><strong>Unique Catalog</strong> -指定目录或包含表的数据库的名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>
@@ -56,4 +61,6 @@ ms.locfileid: "25877546"
 </tr>
 </tbody>
 </table>
+
+<br/>
 

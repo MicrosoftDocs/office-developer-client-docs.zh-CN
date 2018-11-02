@@ -1,22 +1,23 @@
 ---
 title: ActiveX 数据对象 (ADO) 方法
-TOCTitle: ADO Methods
+TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ef05e7f322b769102ce25aab7dfc26a75b0aa22
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879331"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910801"
 ---
 # <a name="ado-methods"></a>ADO 方法
 
-
 **适用于**： Access 2013、 Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25879331"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>方法</th>
+<th>说明</th>
+</tr>
 <tr class="odd">
 <td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
 <td><p>用于为可更新的 <strong>Recordset</strong> 对象创建新记录。</p></td>
@@ -38,8 +43,9 @@ ms.locfileid: "25879331"
 </tr>
 <tr class="even">
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans、 CommitTrans 和 RollbackTrans</a></p></td>
-<td><p>管理中的事务处理<strong>Connection</strong>对象，如下所示： <strong>BeginTrans</strong> -开始新的事务。<br />
-<strong>CommitTrans</strong> - 保存任何更改并结束当前事务。还可以开始一个新的事务。<br />
+<td><p>用于管理 <strong>Connection</strong> 对象中的事务处理，如下所示：
+<br/><br/><strong>BeginTrans</strong> - 开始新的事务。<br/><br/>
+<strong>CommitTrans</strong> - 保存任何更改并结束当前事务。还可以开始一个新的事务。<br/><br/>
 <strong>RollbackTrans</strong> — 取消所有更改并结束当前事务。 还可以开始一个新的事务。</p></td>
 </tr>
 <tr class="odd">
@@ -237,3 +243,4 @@ ms.locfileid: "25879331"
 </tbody>
 </table>
 
+<br/>
