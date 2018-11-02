@@ -1,17 +1,17 @@
 ---
 title: WriteText 方法 (ADO)
-TOCTitle: WriteText Method (ADO)
+TOCTitle: WriteText method (ADO)
 ms:assetid: 1ca2d9d5-11f4-d088-6fc3-53240208bb09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b457af35e0b9b5f7d61bf5a77f080a11b36232ae
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5c0c4668141c0da6e5faddee009d2548f1ee2c53
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884091"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926995"
 ---
 # <a name="writetext-method-ado"></a>WriteText 方法 (ADO)
 

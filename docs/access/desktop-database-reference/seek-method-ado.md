@@ -1,17 +1,17 @@
 ---
 title: Seek 方法-ActiveX 数据对象 (ADO)
-TOCTitle: Seek Method (ADO)
+TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb6a5a72474b8d19efe1dd155950fa9e3ecd8714
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ee2dbaf7dd3a15cf6cd415af208ec10a14fc9c9b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889516"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923376"
 ---
 # <a name="seek-method-ado"></a>Seek 方法 (ADO)
 

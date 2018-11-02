@@ -1,5 +1,5 @@
 ---
-title: Recordset2.FillCache Method (DAO)
+title: Recordset2.FillCache 方法 (DAO)
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192007(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6b3645346482e3abef474fc6801d5f2a9a988b50
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d83fea9f8c4e464c0df5f783ca2ab29a8a8e588b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889887"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926337"
 ---
-# <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache Method (DAO)
+# <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

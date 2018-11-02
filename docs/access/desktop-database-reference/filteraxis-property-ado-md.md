@@ -1,17 +1,17 @@
 ---
 title: FilterAxis 属性 (ADO MD)
-TOCTitle: FilterAxis Property (ADO MD)
+TOCTitle: FilterAxis property (ADO MD)
 ms:assetid: 36720d77-4b16-1d17-6d80-d35265f4a8ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249124(v=office.15)
 ms:contentKeyID: 48544172
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f298acf3a9250a0376ba31f5d3afc6b079ce0c78
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 214de72e71a51c6b6b65bc2636a28e5650035c0a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867704"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926904"
 ---
 # <a name="filteraxis-property-ado-md"></a>FilterAxis 属性 (ADO MD)
 

@@ -1,19 +1,19 @@
 ---
-title: Workspace Object (DAO)
+title: Workspace 对象 (DAO)
 TOCTitle: Workspace Object
 ms:assetid: bf3ab863-5e9a-4842-1f82-2ccf958d9779
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822782(v=office.15)
 ms:contentKeyID: 48547481
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17e8bd561858c8cb1eeb9bf84f6fc636a37f812b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f658822255e090594bdb43cd1b5e9ec1f30199cc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875061"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925742"
 ---
-# <a name="workspace-object-dao"></a>Workspace Object (DAO)
+# <a name="workspace-object-dao"></a>Workspace 对象 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

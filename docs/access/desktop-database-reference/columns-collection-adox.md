@@ -1,17 +1,17 @@
 ---
 title: Columns 集合 (ADOX)
-TOCTitle: Columns Collection (ADOX)
+TOCTitle: Columns collection (ADOX)
 ms:assetid: 231645db-70da-9ad1-fb27-02145ce32e66
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
 ms:contentKeyID: 48543723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a7abbf859162d527ac89c637022ce449219c235a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e8278e43ba04047225f54171782c6a745a579595
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876524"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922298"
 ---
 # <a name="columns-collection-adox"></a>Columns 集合 (ADOX)
 

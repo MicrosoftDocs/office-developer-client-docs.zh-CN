@@ -1,5 +1,5 @@
 ---
-title: Database.Transactions Property (DAO)
+title: Database.Transactions 属性 (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192293(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052879
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0f05e4b9fe7dfeff687e7709462efbe37f10be42
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 515bde2cf4c25aff7c0e6ee709b8a7795e217488
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889873"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925987"
 ---
-# <a name="databasetransactions-property-dao"></a>Database.Transactions Property (DAO)
+# <a name="databasetransactions-property-dao"></a>Database.Transactions 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

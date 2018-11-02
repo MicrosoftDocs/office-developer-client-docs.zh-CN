@@ -1,19 +1,19 @@
 ---
-title: Connections.Refresh Method (DAO)
+title: Connections.Refresh 方法 (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e44b49bd-6645-a2e5-691e-afddfaf294b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835932(v=office.15)
 ms:contentKeyID: 48548337
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4affa13e32ee677d3de898efb41e9639a47a12d5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7bfbadd4c83dd0255f17bcb0552f9892af051ac8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882761"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919162"
 ---
-# <a name="connectionsrefresh-method-dao"></a>Connections.Refresh Method (DAO)
+# <a name="connectionsrefresh-method-dao"></a>Connections.Refresh 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

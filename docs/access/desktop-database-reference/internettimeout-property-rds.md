@@ -1,17 +1,17 @@
 ---
 title: InternetTimeout 属性 (RDS)
-TOCTitle: InternetTimeout Property (RDS)
+TOCTitle: InternetTimeout property (RDS)
 ms:assetid: 66fc6e87-3d23-ce2c-18f5-0fc83ac43801
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249401(v=office.15)
 ms:contentKeyID: 48545353
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06e844b9e6e0976679820fbc2ac79eae14131d36
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1287289de5ef303e41a342ef84822d3a14083470
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879040"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918805"
 ---
 # <a name="internettimeout-property-rds"></a>InternetTimeout 属性 (RDS)
 

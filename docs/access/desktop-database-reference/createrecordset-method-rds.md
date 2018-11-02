@@ -1,17 +1,17 @@
 ---
 title: CreateRecordset 方法 (RDS)
-TOCTitle: CreateRecordset Method (RDS)
+TOCTitle: CreateRecordset method (RDS)
 ms:assetid: 19524509-31da-9af1-4062-cd3c59b51278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
 ms:contentKeyID: 48543497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d975faf45cf6a16bdae9f800084ebbbbaec3127d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 42a5bf11e2ed287ac683f634d3953739b2501f60
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868530"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922802"
 ---
 # <a name="createrecordset-method-rds"></a>CreateRecordset 方法 (RDS)
 

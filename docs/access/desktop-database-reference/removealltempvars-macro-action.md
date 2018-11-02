@@ -1,6 +1,6 @@
 ---
 title: RemoveAllTempVars 宏操作
-TOCTitle: RemoveAllTempVars Macro Action
+TOCTitle: RemoveAllTempVars macro action
 ms:assetid: 409fd836-4a53-cefd-4264-8cee0fa8ac52
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192877(v=office.15)
 ms:contentKeyID: 48544430
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm117413
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 49b92f90fb26ea1f7ad5f0878a7479267b35bdaf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c8ad54044bc457d5d513adb320c59b5a3d415215
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870791"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927408"
 ---
 # <a name="removealltempvars-macro-action"></a>RemoveAllTempVars 宏操作
 

@@ -1,19 +1,19 @@
 ---
-title: Parameters.Refresh Method (DAO)
+title: Parameters.Refresh 方法 (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 47db1602-e223-985d-881c-b73e2d26acb7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
 ms:contentKeyID: 48544607
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5ebd9a4d3ca8951a837432b7a9bd1731dadc926
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5d9deafaf70ac230b2c3a93a1e8100a6300a5cc6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867802"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920926"
 ---
-# <a name="parametersrefresh-method-dao"></a>Parameters.Refresh Method (DAO)
+# <a name="parametersrefresh-method-dao"></a>Parameters.Refresh 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
 ms:contentKeyID: 48547971
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01fc9aa35b3ecf43e7ebddc7f573fcb7a860c021
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 86ad613da0cc438b01593c79521aa80dfd666b43
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910780"
+ms.locfileid: "25919316"
 ---
 # <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory 属性、 方法和事件 (RDS)
 

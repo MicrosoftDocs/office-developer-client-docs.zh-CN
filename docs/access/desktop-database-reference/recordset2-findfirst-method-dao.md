@@ -1,19 +1,19 @@
 ---
-title: Recordset2.FindFirst Method (DAO)
+title: Recordset2.FindFirst 方法 (DAO)
 TOCTitle: FindFirst Method
 ms:assetid: 2a18e81a-a9e5-cc1a-50b2-40c1f1b7fa06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192064(v=office.15)
 ms:contentKeyID: 48543902
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2110a82770e5eb6c46d4ead6cd20617f191514e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 42b6f59312ab831da4f376ec013eb4023b869475
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884507"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919855"
 ---
-# <a name="recordset2findfirst-method-dao"></a>Recordset2.FindFirst Method (DAO)
+# <a name="recordset2findfirst-method-dao"></a>Recordset2.FindFirst 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

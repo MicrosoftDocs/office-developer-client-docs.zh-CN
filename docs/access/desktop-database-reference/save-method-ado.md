@@ -1,17 +1,17 @@
 ---
 title: Save 方法的 ActiveX 数据对象 (ADO)
-TOCTitle: Save Method (ADO)
+TOCTitle: Save method (ADO)
 ms:assetid: 02dab13b-f947-b96d-46ea-0def3ed8f28f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b4e3698043c109a8f0fbf32c5c2b8c8ae20e824
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d779fc5cff955ca669635ca827456dafb8927d8a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875979"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919680"
 ---
 # <a name="save-method-ado"></a>Save 方法 (ADO)
 

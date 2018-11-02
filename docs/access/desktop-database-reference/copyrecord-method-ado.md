@@ -1,17 +1,17 @@
 ---
 title: CopyRecord 方法 (ADO)
-TOCTitle: CopyRecord Method (ADO)
+TOCTitle: CopyRecord method (ADO)
 ms:assetid: 724e4358-f216-8e47-5bab-c72770ece5a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9daa27f5a5e31aac295babf6f40b32f89a9df5c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0f25d3f7cb576a9fb8ddf79a887bb3c795144682
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874963"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919029"
 ---
 # <a name="copyrecord-method-ado"></a>CopyRecord 方法 (ADO)
 

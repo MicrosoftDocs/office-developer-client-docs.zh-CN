@@ -1,17 +1,17 @@
 ---
 title: Table 对象 (ADOX)
-TOCTitle: Table Object (ADOX)
+TOCTitle: Table object (ADOX)
 ms:assetid: 53a3e2f9-4ec0-8fed-d482-4f995921587b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
 ms:contentKeyID: 48544874
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b63014a57104d5d31f5ac5620b26712a9f97347b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 78f1248042c540df94c6f993d2498d46c8ca593f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869292"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923243"
 ---
 # <a name="table-object-adox"></a>Table 对象 (ADOX)
 

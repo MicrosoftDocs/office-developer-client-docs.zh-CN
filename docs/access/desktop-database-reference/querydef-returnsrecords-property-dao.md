@@ -1,5 +1,5 @@
 ---
-title: QueryDef.ReturnsRecords Property (DAO)
+title: QueryDef.ReturnsRecords 属性 (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5d3b0c159d259d96ea135a8ed014af268a57cd77
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 933f2ebd5816f02305184c00562b81d7424db57a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880318"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925665"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>QueryDef.ReturnsRecords Property (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>QueryDef.ReturnsRecords 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

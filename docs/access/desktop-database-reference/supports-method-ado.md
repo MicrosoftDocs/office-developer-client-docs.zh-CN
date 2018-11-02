@@ -1,17 +1,17 @@
 ---
 title: Supports 方法 (ADO)
-TOCTitle: Supports Method (ADO)
+TOCTitle: Supports method (ADO)
 ms:assetid: 2b4062ce-44df-4e84-1ce9-d6618c10c2af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249059(v=office.15)
 ms:contentKeyID: 48543924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b94c19e41031b94f75d3dd8bb58f95eab416fb48
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6ac3d3e1be9ff703a0e11435b776eabeb15b30eb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872590"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920625"
 ---
 # <a name="supports-method-ado"></a>Supports 方法 (ADO)
 

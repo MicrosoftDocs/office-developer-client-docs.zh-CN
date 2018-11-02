@@ -1,19 +1,19 @@
 ---
-title: Recordset2.BatchSize Property (DAO)
+title: Recordset2.BatchSize 属性 (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: fa7f12f6-36c8-5aad-31d2-668cfe46f9f7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837054(v=office.15)
 ms:contentKeyID: 48548846
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edb0f18e68021bf6e23e006d5d8e37e6eb6d816c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d3ab4a22bc3c86e89addd07d3fabe7d5ce0e8bc3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867949"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921275"
 ---
-# <a name="recordset2batchsize-property-dao"></a>Recordset2.BatchSize Property (DAO)
+# <a name="recordset2batchsize-property-dao"></a>Recordset2.BatchSize 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

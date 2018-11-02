@@ -1,5 +1,5 @@
 ---
-title: Recordset2.RecordCount Property (DAO)
+title: Recordset2.RecordCount 属性 (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: 77852966-11e9-1773-6e58-53927b84c03b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196071(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052890
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 94328c10b2416d660de325fc3a6de316b08c627a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 829804ab6fc2ae3a0e53c782e8d8233cbf1bdc41
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885911"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921346"
 ---
-# <a name="recordset2recordcount-property-dao"></a>Recordset2.RecordCount Property (DAO)
+# <a name="recordset2recordcount-property-dao"></a>Recordset2.RecordCount 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

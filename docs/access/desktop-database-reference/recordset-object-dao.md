@@ -1,19 +1,19 @@
 ---
-title: Recordset Object (DAO)
+title: Recordset 对象 (DAO)
 TOCTitle: Recordset Object
 ms:assetid: 9774232c-e6da-175b-fc7f-ed2ab7908fa0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197799(v=office.15)
 ms:contentKeyID: 48546469
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df3b2e8d0d5cba07a826a83098187b911f19a3a2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a4ce9b3480cfa2a8eb074065016131e2c82752c3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871967"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921126"
 ---
-# <a name="recordset-object-dao"></a>Recordset Object (DAO)
+# <a name="recordset-object-dao"></a>Recordset 对象 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

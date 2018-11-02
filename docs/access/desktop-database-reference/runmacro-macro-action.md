@@ -1,6 +1,6 @@
 ---
 title: RunMacro 宏操作
-TOCTitle: RunMacro Macro Action
+TOCTitle: RunMacro macro action
 ms:assetid: 25966f20-8160-0821-b88a-ed08b7786fdc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191868(v=office.15)
 ms:contentKeyID: 48543787
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 18e31837027f9c861480b738de5e77a0b5e2d13b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7aace8618e9ca5cdd540c15d04869dbce8c3a891
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867539"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926113"
 ---
 # <a name="runmacro-macro-action"></a>RunMacro 宏操作
 

@@ -1,5 +1,5 @@
 ---
-title: Recordset.Seek Method (DAO)
+title: Recordset.Seek 方法 (DAO)
 TOCTitle: Seek Method
 ms:assetid: ef83d909-c962-b016-7d33-36eacdc25c2c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836416(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053061
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: abe4bef73eb0deba721295917b9e13496c0c6733
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b86713870efb2ed5974f462197cadc95df43fcb3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875201"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920772"
 ---
-# <a name="recordsetseek-method-dao"></a>Recordset.Seek Method (DAO)
+# <a name="recordsetseek-method-dao"></a>Recordset.Seek 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

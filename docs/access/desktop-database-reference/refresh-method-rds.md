@@ -1,17 +1,17 @@
 ---
 title: Refresh 方法 (RDS)
-TOCTitle: Refresh Method (RDS)
+TOCTitle: Refresh method (RDS)
 ms:assetid: 968baa7c-9128-7155-a1eb-d77aedda6601
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249668(v=office.15)
 ms:contentKeyID: 48546450
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bccb7c14b5b8666a5058ad8de489ef248f39ddda
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b52d6a4250f19709dd72dbedd516c9a88c0522c7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868628"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926288"
 ---
 # <a name="refresh-method-rds"></a>Refresh 方法 (RDS)
 

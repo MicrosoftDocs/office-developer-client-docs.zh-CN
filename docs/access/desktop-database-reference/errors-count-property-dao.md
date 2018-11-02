@@ -1,19 +1,19 @@
 ---
-title: Errors.Count Property (DAO)
+title: Errors.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: ad135955-3b18-4f99-66d9-aff1492df13b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821719(v=office.15)
 ms:contentKeyID: 48547028
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10c49a0f73c759bc901a091bb78bcbd4158e7a1d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bc30a8a88e8d5c91c1900b756f6c041655cb848a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867662"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923733"
 ---
-# <a name="errorscount-property-dao"></a>Errors.Count Property (DAO)
+# <a name="errorscount-property-dao"></a>Errors.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

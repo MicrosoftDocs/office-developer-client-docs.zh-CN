@@ -1,17 +1,17 @@
 ---
 title: InfoMessage 事件 (ADO)
-TOCTitle: InfoMessage Event (ADO)
+TOCTitle: InfoMessage event (ADO)
 ms:assetid: 5d4f487f-96c8-4cf6-60ab-583510d3096f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
 ms:contentKeyID: 48545109
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 35e3962ed16415cf2d1ef2f470071a00185749bc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f3850d57bfcbf61cd5e17456f86dd30812dfde4e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875298"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921752"
 ---
 # <a name="infomessage-event-ado"></a>InfoMessage 事件 (ADO)
 

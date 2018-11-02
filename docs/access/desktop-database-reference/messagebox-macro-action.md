@@ -1,17 +1,17 @@
 ---
 title: MessageBox 宏操作
-TOCTitle: MessageBox Macro Action
+TOCTitle: MessageBox macro action
 ms:assetid: 326a0e68-38fb-4f81-b319-5a70caa5aec4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6654d2994b472ff2d495b60fffd5fcdbd6e58089
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f501b5884a8149850df7c1d16a141f345da90e52
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885232"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925427"
 ---
 # <a name="messagebox-macro-action"></a>MessageBox 宏操作
 

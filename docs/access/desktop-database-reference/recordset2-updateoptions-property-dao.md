@@ -1,19 +1,19 @@
 ---
-title: Recordset2.UpdateOptions Property (DAO)
+title: Recordset2.UpdateOptions 属性 (DAO)
 TOCTitle: UpdateOptions Property
 ms:assetid: 2692480e-c472-dd8e-f91a-939776822ece
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191899(v=office.15)
 ms:contentKeyID: 48543816
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 04f47f7a4affd68a55ae72287fb102a1c0f6d8be
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5ad1428d9a820a2489a9051ca77c0de854e03d57
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877938"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920849"
 ---
-# <a name="recordset2updateoptions-property-dao"></a>Recordset2.UpdateOptions Property (DAO)
+# <a name="recordset2updateoptions-property-dao"></a>Recordset2.UpdateOptions 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

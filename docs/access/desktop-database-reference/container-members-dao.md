@@ -1,19 +1,19 @@
 ---
-title: Container Members (DAO)
+title: 容器成员 (DAO)
 TOCTitle: Container Members
 ms:assetid: bdf7aeff-0203-7880-99b4-db5b55e98d33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822740(v=office.15)
 ms:contentKeyID: 48547451
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba0341e9d9be646e1973b6128b296be799eb85f4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dac5eb06c1a973f52154050e1035c6ff9d84832b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874298"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923334"
 ---
-# <a name="container-members-dao"></a>Container Members (DAO)
+# <a name="container-members-dao"></a>容器成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

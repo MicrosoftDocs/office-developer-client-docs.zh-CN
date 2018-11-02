@@ -1,17 +1,17 @@
 ---
 title: FilterValue 属性 (RDS)
-TOCTitle: FilterValue Property (RDS)
+TOCTitle: FilterValue property (RDS)
 ms:assetid: 66dc14cd-cc14-78cb-cb05-91eefb17ea47
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
 ms:contentKeyID: 48545350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 818a38c4c7d11442b1deb7ddeef72a828283c897
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e2573500fe47c69dfd1779ecc4ad5e0abb7dcf8c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887332"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925301"
 ---
 # <a name="filtervalue-property-rds"></a>FilterValue 属性 (RDS)
 

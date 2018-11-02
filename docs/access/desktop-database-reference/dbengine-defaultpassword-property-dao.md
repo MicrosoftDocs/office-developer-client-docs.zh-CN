@@ -1,19 +1,19 @@
 ---
-title: DBEngine.DefaultPassword Property (DAO)
+title: DBEngine.DefaultPassword 属性 (DAO)
 TOCTitle: DefaultPassword Property
 ms:assetid: 189e34f3-d573-c75f-8be2-d98c50df8a52
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
 ms:contentKeyID: 48543478
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78610a929bd9a02c679f8e38a20f5dfcdb34ba9c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 705bd14208b3a6b07b7d5adddfc4f1fdf36928c5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882901"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924601"
 ---
-# <a name="dbenginedefaultpassword-property-dao"></a>DBEngine.DefaultPassword Property (DAO)
+# <a name="dbenginedefaultpassword-property-dao"></a>DBEngine.DefaultPassword 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

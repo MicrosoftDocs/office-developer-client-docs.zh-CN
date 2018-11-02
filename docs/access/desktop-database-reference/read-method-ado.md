@@ -1,17 +1,17 @@
 ---
 title: 读取方法-ActiveX 数据对象 (ADO)
-TOCTitle: Read Method (ADO)
+TOCTitle: Read method (ADO)
 ms:assetid: 91c3ad34-f891-5be0-1fc1-c5c8a2ff07a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
 ms:contentKeyID: 48546357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b47b557fcb3e3c9ed26af29ce910c95262e4fe13
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d6de4ea8a8dd64ff4c0562111f6e42ed089754f3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884945"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919456"
 ---
 # <a name="read-method-ado"></a>Read 方法 (ADO)
 

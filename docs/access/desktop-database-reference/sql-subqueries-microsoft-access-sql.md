@@ -1,6 +1,6 @@
 ---
 title: SQL 子查询 (Microsoft Access SQL)
-TOCTitle: SQL Subqueries (Microsoft Access SQL)
+TOCTitle: SQL subqueries (Microsoft Access SQL)
 ms:assetid: 3b6c0a5d-ab24-e1cf-0175-3f8e68c2dfbf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192664(v=office.15)
 ms:contentKeyID: 48544285
@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 460d37d2849703829892d5493dd5cc1580930ef8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 72d9d9d27ac128ec587621231b5c899bc89c2752
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880388"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925946"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>SQL 子查询 (Microsoft Access SQL)
 

@@ -1,5 +1,5 @@
 ---
-title: Database.Synchronize Method (DAO)
+title: Database.Synchronize 方法 (DAO)
 TOCTitle: Synchronize Method
 ms:assetid: 5e716a4a-2430-8106-5c34-a02dd28bc4f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194659(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: af280c1fca9465d9d8c02c2496ccc7b74e4d8b5d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 19c9935b92e1b7f0b60efb3e00df22133c4d7658
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867516"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927303"
 ---
-# <a name="databasesynchronize-method-dao"></a>Database.Synchronize Method (DAO)
+# <a name="databasesynchronize-method-dao"></a>Database.Synchronize 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

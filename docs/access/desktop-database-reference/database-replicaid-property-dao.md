@@ -1,5 +1,5 @@
 ---
-title: Database.ReplicaID Property (DAO)
+title: Database.ReplicaID 属性 (DAO)
 TOCTitle: ReplicaID Property
 ms:assetid: cf2ca8a1-d13f-30e0-2ca1-dd32ac736c56
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834672(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053375
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4336caf98c0adf4fde3ad6eaed28e0509aeb71e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3214f093b90576483df4d6f63cf1ad62b3530931
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872846"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918763"
 ---
-# <a name="databasereplicaid-property-dao"></a>Database.ReplicaID Property (DAO)
+# <a name="databasereplicaid-property-dao"></a>Database.ReplicaID 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

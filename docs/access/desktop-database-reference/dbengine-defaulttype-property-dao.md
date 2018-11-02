@@ -1,5 +1,5 @@
 ---
-title: DBEngine.DefaultType Property (DAO)
+title: DBEngine.DefaultType 属性 (DAO)
 TOCTitle: DefaultType Property
 ms:assetid: b4371f3e-1ce0-1d0f-93a8-0c5329b510ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822060(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053580
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f0fa2fb5ba12b1537994a4d6df88406db38bfec4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ec8dbc1e758b19c15c1a08b9936fa3c00acabde6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870923"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925655"
 ---
-# <a name="dbenginedefaulttype-property-dao"></a>DBEngine.DefaultType Property (DAO)
+# <a name="dbenginedefaulttype-property-dao"></a>DBEngine.DefaultType 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

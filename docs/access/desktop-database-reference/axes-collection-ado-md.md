@@ -1,17 +1,17 @@
 ---
 title: Axes 集合 (ADO MD)
-TOCTitle: Axes Collection (ADO MD)
+TOCTitle: Axes collection (ADO MD)
 ms:assetid: 7c719197-45f1-a5b9-665d-25cb693b1eb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1bcae98c301793d64e97d8626da30fde0ffdaea1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c88bf27f406a439d051112afb9abf94697a13b12
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869552"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922228"
 ---
 # <a name="axes-collection-ado-md"></a>Axes 集合 (ADO MD)
 

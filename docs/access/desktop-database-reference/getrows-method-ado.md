@@ -1,17 +1,17 @@
 ---
 title: GetRows 方法 (ADO)
-TOCTitle: GetRows Method (ADO)
+TOCTitle: GetRows method (ADO)
 ms:assetid: 570e6f1c-c17a-7d9a-c172-387894a3a1f1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 99988383c40b84e1993582ad0d1c07491de82933
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b472f8e2cb7d95a3aa79194e7704a877864c1339
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879877"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920275"
 ---
 # <a name="getrows-method-ado"></a>GetRows 方法 (ADO)
 

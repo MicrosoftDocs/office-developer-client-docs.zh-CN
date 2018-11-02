@@ -1,17 +1,17 @@
 ---
 title: Description 属性 (ADO MD)
-TOCTitle: Description Property (ADO MD)
+TOCTitle: Description property (ADO MD)
 ms:assetid: 06d5e1d0-6ed7-fe14-3723-3790e225482a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248816(v=office.15)
 ms:contentKeyID: 48543055
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96f3762df84f2534b31501bdf44059152e7077bb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cf0e9751e822e5ff2250a15138546678deb76bc8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873150"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921094"
 ---
 # <a name="description-property-ado-md"></a>Description 属性 (ADO MD)
 

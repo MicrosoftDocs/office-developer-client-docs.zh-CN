@@ -1,17 +1,17 @@
 ---
 title: Cell 对象 (ADO MD)
-TOCTitle: Cell Object (ADO MD)
+TOCTitle: Cell object (ADO MD)
 ms:assetid: b9d00b71-1f40-5bd1-4b89-fbdb59c552ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 90fa6f969ab9fcb7eb6fdbb8b0c217cac92c8870
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2e119600567c8d3c6cd23348d9b9560011e27a87
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874585"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924608"
 ---
 # <a name="cell-object-ado-md"></a>Cell 对象 (ADO MD)
 

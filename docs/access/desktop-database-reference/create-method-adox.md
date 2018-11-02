@@ -1,17 +1,17 @@
 ---
 title: Create 方法 (ADOX)
-TOCTitle: Create Method (ADOX)
+TOCTitle: Create method (ADOX)
 ms:assetid: d4072ee7-a0b9-7780-7be0-1d64b42b437c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
 ms:contentKeyID: 48547924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91f5105611df85e007dea6d0e17e3104ea5987a3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 01f45adaf5bdd15841be86bfea62cca58e21a9d9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870252"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925512"
 ---
 # <a name="create-method-adox"></a>Create 方法 (ADOX)
 

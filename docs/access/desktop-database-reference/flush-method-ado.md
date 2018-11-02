@@ -1,17 +1,17 @@
 ---
 title: Flush 方法-ActiveX 数据对象 (ADO)
-TOCTitle: Flush Method (ADO)
+TOCTitle: Flush method (ADO)
 ms:assetid: c167e3b1-c133-ce45-6cee-5a1280a1568f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ecf56ccf715df324798cd9b5adfc57f92591f05
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b52bb3d595c21ccc682e5af182b794065bcd1b13
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885127"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920443"
 ---
 # <a name="flush-method-ado"></a>Flush 方法 (ADO)
 

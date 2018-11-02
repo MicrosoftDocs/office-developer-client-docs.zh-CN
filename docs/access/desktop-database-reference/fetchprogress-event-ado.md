@@ -1,17 +1,17 @@
 ---
 title: FetchProgress 事件 (ADO)
-TOCTitle: FetchProgress Event (ADO)
+TOCTitle: FetchProgress event (ADO)
 ms:assetid: 09145d9a-ea5e-b41c-6c54-33ec83e642a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 25d062f4ae7008df787394eeb9253b65d6f5d1c8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 929202df2d85ba2a4625a94506f8515eaba9fb39
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886191"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923684"
 ---
 # <a name="fetchprogress-event-ado"></a>FetchProgress 事件 (ADO)
 

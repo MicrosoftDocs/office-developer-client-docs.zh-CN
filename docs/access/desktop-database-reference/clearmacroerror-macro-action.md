@@ -1,6 +1,6 @@
 ---
 title: ClearMacroError 宏操作
-TOCTitle: ClearMacroError Macro Action
+TOCTitle: ClearMacroError macro action
 ms:assetid: 1091747e-e957-38c6-6454-5169f091323e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845338(v=office.15)
 ms:contentKeyID: 48543296
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9b8232f24a837466529f8ce04f9f830af72e7a7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f27e195181e6035c133c1f52c1dadc329496614b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870189"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925252"
 ---
 # <a name="clearmacroerror-macro-action"></a>ClearMacroError 宏操作
 

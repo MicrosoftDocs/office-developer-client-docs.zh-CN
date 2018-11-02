@@ -1,5 +1,5 @@
 ---
-title: Connection.Updatable Property (DAO)
+title: Connection.Updatable 属性 (DAO)
 TOCTitle: Updatable Property
 ms:assetid: dc3c021e-f6df-c256-b655-8d36317e0b68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835360(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052881
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 55b1ee667347766b927636f877821f29e9455345
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ab619dbed75bbbea74732977b8f5c670df56d29
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869601"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921031"
 ---
-# <a name="connectionupdatable-property-dao"></a>Connection.Updatable Property (DAO)
+# <a name="connectionupdatable-property-dao"></a>Connection.Updatable 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,5 +1,5 @@
 ---
-title: QueryDef.SQL Property (DAO)
+title: QueryDef.SQL 属性 (DAO)
 TOCTitle: SQL Property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a8e33f1a22e1ffd6dffbb67b8bafd5fae78f39c6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 25921f9bcd320c2ccc5d703b95e3ac818125d300
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881613"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920744"
 ---
-# <a name="querydefsql-property-dao"></a>QueryDef.SQL Property (DAO)
+# <a name="querydefsql-property-dao"></a>QueryDef.SQL 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

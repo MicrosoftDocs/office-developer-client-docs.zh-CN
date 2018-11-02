@@ -1,30 +1,24 @@
 ---
-title: Field Object Reference (DAO)
+title: 域对象引用 (DAO)
 TOCTitle: Field Object
 ms:assetid: 5600f5b5-e776-41cb-9453-d9b842b94e22
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124871(v=office.15)
 ms:contentKeyID: 52072492
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b30752936cf0540e321ea3d4776b292925ba9f02
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 76d5c1537d9227001b16bbf7e267ab88692c010a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877315"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921115"
 ---
-# <a name="field-object-reference-dao"></a>Field Object Reference (DAO)
-
+# <a name="field-object-reference-dao"></a>域对象引用 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 
-
-
-  - [Field Object (DAO)](field-object-dao.md)
-
-  - [Field Members (DAO)](field-members-dao.md)
-
-  - [Field Properties (DAO)](field-properties-dao.md)
-
-  - [Field Methods (DAO)](field-methods-dao.md)
+- [Field 对象 (DAO)](field-object-dao.md)
+- [域成员 (DAO)](field-members-dao.md)
+- [字段属性 (DAO)](field-properties-dao.md)
+- [字段方法 (DAO)](field-methods-dao.md)
 

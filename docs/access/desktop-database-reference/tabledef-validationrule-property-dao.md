@@ -1,5 +1,5 @@
 ---
-title: TableDef.ValidationRule Property (DAO)
+title: TableDef.ValidationRule 属性 (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 7dcd6f2c-45bc-a50b-727d-589371d5803f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196425(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052925
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cbcd456e2c3d64364a7c01ea71174999159f0aa4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a4b44545453d9ed92ae09c1d7722ae24ea35fd78
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881718"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926344"
 ---
-# <a name="tabledefvalidationrule-property-dao"></a>TableDef.ValidationRule Property (DAO)
+# <a name="tabledefvalidationrule-property-dao"></a>TableDef.ValidationRule 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

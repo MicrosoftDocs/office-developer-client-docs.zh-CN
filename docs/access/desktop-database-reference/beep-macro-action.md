@@ -1,6 +1,6 @@
 ---
 title: Beep 宏操作 （访问桌面数据库参考 （英文）
-TOCTitle: Beep Macro Action
+TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
 ms:contentKeyID: 48545092
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm11853
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 284be6222d0b81e48a061afd1d87dd32c3985feb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d8ceb39071335b1600f4e371a357126306fbcf2a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867578"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922232"
 ---
 # <a name="beep-macro-action"></a>Beep 宏操作
 

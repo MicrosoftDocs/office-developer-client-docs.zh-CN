@@ -1,19 +1,19 @@
 ---
-title: Indexes.Count Property (DAO)
+title: Indexes.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: 195ede10-f91e-50c6-6af4-b318c476b9ea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845647(v=office.15)
 ms:contentKeyID: 48543499
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47c42a1275b4d19f79cb73599fc2ef376e0ca25d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae6a8098e51f271080924a8569d31e5bc268dc1f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884175"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927016"
 ---
-# <a name="indexescount-property-dao"></a>Indexes.Count Property (DAO)
+# <a name="indexescount-property-dao"></a>Indexes.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

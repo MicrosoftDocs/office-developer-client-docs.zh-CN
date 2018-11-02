@@ -1,17 +1,17 @@
 ---
 title: Member 对象 (ADO MD)
-TOCTitle: Member Object (ADO MD)
+TOCTitle: Member object (ADO MD)
 ms:assetid: d80c024a-07dc-7a35-f8f2-b4d5b19d89e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250088(v=office.15)
 ms:contentKeyID: 48548025
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7eaaa31df9b9bc3678c69e2115a0a58ec41ccf9f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 341f6711044a577fdb82c47b1a782c17c6884bf0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878218"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924202"
 ---
 # <a name="member-object-ado-md"></a>Member 对象 (ADO MD)
 

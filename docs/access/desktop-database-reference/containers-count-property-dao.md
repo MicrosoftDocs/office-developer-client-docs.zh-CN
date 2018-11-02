@@ -1,19 +1,19 @@
 ---
-title: Containers.Count Property (DAO)
+title: Containers.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: 3b0bf865-a4d5-82bb-c1a9-9957f110db4c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192657(v=office.15)
 ms:contentKeyID: 48544276
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49ec4181d64f26d7a1a5d54ed58bfef6c1206bda
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0ced7b6ed0e42a17507137645fd017a6fb1a5ae3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873409"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925049"
 ---
-# <a name="containerscount-property-dao"></a>Containers.Count Property (DAO)
+# <a name="containerscount-property-dao"></a>Containers.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

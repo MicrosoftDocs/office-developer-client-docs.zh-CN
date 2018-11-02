@@ -1,5 +1,5 @@
 ---
-title: Recordset.Bookmark Property (DAO)
+title: Recordset.Bookmark 属性 (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: c4b1c2d9-668e-e365-544c-efb4ae4efcc9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823084(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 644eb2e1a8f979451d233bcc5a48f723c25739b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8b45d0bdf605f77084353da065c2cc8c674bd24e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888473"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922879"
 ---
-# <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark Property (DAO)
+# <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

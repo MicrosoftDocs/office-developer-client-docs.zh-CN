@@ -1,17 +1,17 @@
 ---
 title: Handler 属性 (RDS)
-TOCTitle: Handler Property (RDS)
+TOCTitle: Handler property (RDS)
 ms:assetid: aaf8c8c6-f95b-3cf3-b3f6-203f37464c87
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dcb0b7f635e9ad74e6d8733a2f0fbe0153ac4739
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2bb9444091611fbd051da9fa649b5d3efdb92ee6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884868"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923579"
 ---
 # <a name="handler-property-rds"></a>Handler 属性 (RDS)
 

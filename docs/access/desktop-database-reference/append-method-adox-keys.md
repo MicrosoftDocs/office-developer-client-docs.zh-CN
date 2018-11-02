@@ -1,19 +1,19 @@
 ---
-title: Append 方法 (ADOX Keys)
-TOCTitle: Append Method (ADOX Keys)
+title: Append 方法（ADOX 键）
+TOCTitle: Append method (ADOX Keys)
 ms:assetid: 14d6e8d7-5c9e-a422-47d6-ebfd9dd7a120
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248913(v=office.15)
 ms:contentKeyID: 48543396
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ba46c922ff9fc27da0abc1908f6ffaff8e997ef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cc1d03fe68093959406a444419128b161f3b5be4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879457"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921472"
 ---
-# <a name="append-method-adox-keys"></a>Append 方法 (ADOX Keys)
+# <a name="append-method-adox-keys"></a>Append 方法（ADOX 键）
 
 
 **适用于**： Access 2013、 Office 2013

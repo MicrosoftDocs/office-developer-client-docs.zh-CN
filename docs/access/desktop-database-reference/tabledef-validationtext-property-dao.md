@@ -1,19 +1,19 @@
 ---
-title: TableDef.ValidationText Property (DAO)
+title: TableDef.ValidationText 属性 (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 9f38616a-41ee-cbd1-9e29-da436b258e08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198366(v=office.15)
 ms:contentKeyID: 48546682
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f41433d90703f230e50f3248103777ec3aba325
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b90c2fe3d27dea2f90261cda66e0cd0460349482
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876454"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921906"
 ---
-# <a name="tabledefvalidationtext-property-dao"></a>TableDef.ValidationText Property (DAO)
+# <a name="tabledefvalidationtext-property-dao"></a>TableDef.ValidationText 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

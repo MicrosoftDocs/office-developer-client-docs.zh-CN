@@ -1,17 +1,17 @@
 ---
 title: Append 方法 (ADO)
-TOCTitle: Append Method (ADO)
+TOCTitle: Append method (ADO)
 ms:assetid: cca133af-2b95-877d-0488-0d99631623f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e564edccf35822b94c84a931ffff5d3092875e4a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 03a953b34932a5090ab40abbc7613e3518506070
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879380"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925652"
 ---
 # <a name="append-method-ado"></a>Append 方法 (ADO)
 

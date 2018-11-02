@@ -1,19 +1,19 @@
 ---
-title: Recordset2.CacheStart Property (DAO)
+title: Recordset2.CacheStart 属性 (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 2e9c2b0d-b382-e4d6-9406-ace0e538a7b7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192239(v=office.15)
 ms:contentKeyID: 48543989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2fb7fd4e2521b8fe712d488f48f2cf6a1b219423
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 96ea7ca40c6bbc04a14b5562027de2bf17bf3bd6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875887"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925098"
 ---
-# <a name="recordset2cachestart-property-dao"></a>Recordset2.CacheStart Property (DAO)
+# <a name="recordset2cachestart-property-dao"></a>Recordset2.CacheStart 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

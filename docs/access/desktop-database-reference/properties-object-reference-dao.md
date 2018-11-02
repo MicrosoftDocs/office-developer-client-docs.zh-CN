@@ -1,30 +1,24 @@
 ---
-title: Properties Object Reference (DAO)
+title: 属性对象引用 (DAO)
 TOCTitle: Properties Object
 ms:assetid: dbd58d66-9566-41cd-82e2-bfc0c8778867
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125748(v=office.15)
 ms:contentKeyID: 52074621
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06d6c023958816ae14299ab44083da38e706c116
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1431009a77ec2702718fb6ea41ff4d629fdfb4ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867403"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922963"
 ---
-# <a name="properties-object-reference-dao"></a>Properties Object Reference (DAO)
-
+# <a name="properties-object-reference-dao"></a>属性对象引用 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 
-
-
-  - [Properties Collection (DAO)](properties-collection-dao.md)
-
-  - [Properties Members (DAO)](properties-members-dao.md)
-
-  - [Properties Properties (DAO)](properties-properties-dao.md)
-
-  - [Properties Methods (DAO)](properties-methods-dao.md)
+- [Properties 集合 (DAO)](properties-collection-dao.md)
+- [Properties 成员 (DAO)](properties-members-dao.md)
+- [属性属性 (DAO)](properties-properties-dao.md)
+- [属性方法 (DAO)](properties-methods-dao.md)
 

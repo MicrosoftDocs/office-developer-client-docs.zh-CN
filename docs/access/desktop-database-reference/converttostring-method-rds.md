@@ -1,17 +1,17 @@
 ---
 title: ConvertToString 方法 (RDS)
-TOCTitle: ConvertToString Method (RDS)
+TOCTitle: ConvertToString method (RDS)
 ms:assetid: dc6381e4-98c8-badc-ad8c-87c70574a8a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0820aec3ce8606f5f8f0fcb8dac838ae7bbd15d8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 747c2942478da323dfe036eb5cfe8a4bda56e45a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869126"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924699"
 ---
 # <a name="converttostring-method-rds"></a>ConvertToString 方法 (RDS)
 

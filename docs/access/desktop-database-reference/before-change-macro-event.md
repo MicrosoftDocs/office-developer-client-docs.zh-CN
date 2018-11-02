@@ -1,6 +1,6 @@
 ---
-title: “更改前”宏事件
-TOCTitle: Before Change Macro Event
+title: Before Change 宏事件
+TOCTitle: Before Change macro event
 ms:assetid: da456d55-a773-abeb-1fac-ef58e3331cb5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835322(v=office.15)
 ms:contentKeyID: 48548077
@@ -12,14 +12,14 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09188378ff75944f6dc8acccc64b621ea2bca1f6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fb513c83e3956a37da019d762c5fd1e0c92da755
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887857"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926561"
 ---
-# <a name="before-change-macro-event"></a>“更改前”宏事件
+# <a name="before-change-macro-event"></a>Before Change 宏事件
 
 **适用于**： Access 2013、 Office 2013
 
@@ -90,7 +90,7 @@ ms.locfileid: "25887857"
 <tbody>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="comment-macro-statement.md">注释宏语句</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment 宏语句</a></p></td>
 </tr>
 <tr class="even">
 <td><p>程序流</p></td>
@@ -98,7 +98,7 @@ ms.locfileid: "25887857"
 </tr>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="if-then-else-macro-block.md">如果...然后...其他宏程序块</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else 宏程序块</a></p></td>
 </tr>
 <tr class="even">
 <td><p>数据块</p></td>

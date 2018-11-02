@@ -1,19 +1,19 @@
 ---
-title: Recordset.Cancel Method (DAO)
+title: Recordset.Cancel 方法 (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 89acfbf1-b937-dc19-ada1-6f8f50489147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197080(v=office.15)
 ms:contentKeyID: 48546169
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cde31424f409f3b3d152189e3964bc3447cfd53c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 81b08472b46ab3a3d35d184e2f8b7be8673f7d1f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871484"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927260"
 ---
-# <a name="recordsetcancel-method-dao"></a>Recordset.Cancel Method (DAO)
+# <a name="recordsetcancel-method-dao"></a>Recordset.Cancel 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

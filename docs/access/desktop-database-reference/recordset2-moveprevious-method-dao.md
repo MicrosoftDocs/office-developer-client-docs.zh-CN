@@ -1,19 +1,19 @@
 ---
-title: Recordset2.MovePrevious Method (DAO)
+title: Recordset2.MovePrevious 方法 (DAO)
 TOCTitle: MovePrevious Method
 ms:assetid: 8c433810-4b19-e7c1-3cee-a0bc50b23e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197336(v=office.15)
 ms:contentKeyID: 48546235
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cdc6173a419881b64b89b8fd898f1c11a4b2f64b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bb3b00eacb3b848f98170203ad01084f7c5622bc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875656"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920814"
 ---
-# <a name="recordset2moveprevious-method-dao"></a>Recordset2.MovePrevious Method (DAO)
+# <a name="recordset2moveprevious-method-dao"></a>Recordset2.MovePrevious 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

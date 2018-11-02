@@ -1,19 +1,19 @@
 ---
-title: Recordset2.Fields Property (DAO)
+title: Recordset2.Fields 属性 (DAO)
 TOCTitle: Fields Property
 ms:assetid: d00d9090-5072-30c7-14c8-b4a260bdb92b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834698(v=office.15)
 ms:contentKeyID: 48547826
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 93f1a0e22485cf9992d5c4218b00e642205ce3aa
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 99466c456e32ee49a0f2bb8ae3ff11df97ec3980
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876734"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926554"
 ---
-# <a name="recordset2fields-property-dao"></a>Recordset2.Fields Property (DAO)
+# <a name="recordset2fields-property-dao"></a>Recordset2.Fields 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

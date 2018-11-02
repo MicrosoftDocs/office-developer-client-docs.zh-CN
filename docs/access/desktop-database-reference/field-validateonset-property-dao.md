@@ -1,5 +1,5 @@
 ---
-title: Field.ValidateOnSet Property (DAO)
+title: Field.ValidateOnSet 属性 (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 00245a8a-a78f-b0a8-3eb3-11dd27873984
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844720(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052929
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9a7f89277b51ef0edb5603c4482d4547201673fb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1c8892236410005d556dbe7f9322303a23d411d8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884771"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925182"
 ---
-# <a name="fieldvalidateonset-property-dao"></a>Field.ValidateOnSet Property (DAO)
+# <a name="fieldvalidateonset-property-dao"></a>Field.ValidateOnSet 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

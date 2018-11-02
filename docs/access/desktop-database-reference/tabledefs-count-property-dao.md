@@ -1,19 +1,19 @@
 ---
-title: TableDefs.Count Property (DAO)
+title: TableDefs.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: 6e2cf3e5-524f-a643-b1dc-99a4b2bb2e63
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195561(v=office.15)
 ms:contentKeyID: 48545508
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1158e9a54c5ae835e66d2420926200ff0973a7ec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 88a38180973b83232c324d052db0548cb308740a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868565"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923768"
 ---
-# <a name="tabledefscount-property-dao"></a>TableDefs.Count Property (DAO)
+# <a name="tabledefscount-property-dao"></a>TableDefs.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

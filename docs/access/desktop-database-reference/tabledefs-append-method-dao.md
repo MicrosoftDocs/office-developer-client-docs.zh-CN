@@ -1,19 +1,19 @@
 ---
-title: TableDefs.Append Method (DAO)
+title: TableDefs.Append 方法 (DAO)
 TOCTitle: Append Method
 ms:assetid: f951a3c4-dade-c1ef-3bfc-6b2a60e12adc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837001(v=office.15)
 ms:contentKeyID: 48548811
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 016b31f4c6c6648cfa853e3f5087451485c7d65f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: afe0301153ae5f9e1e0e4fa499c2b27dc7e1c724
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884455"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920128"
 ---
-# <a name="tabledefsappend-method-dao"></a>TableDefs.Append Method (DAO)
+# <a name="tabledefsappend-method-dao"></a>TableDefs.Append 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

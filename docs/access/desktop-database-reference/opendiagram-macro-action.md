@@ -1,6 +1,6 @@
 ---
 title: OpenDiagram 宏操作
-TOCTitle: OpenDiagram Macro Action
+TOCTitle: OpenDiagram macro action
 ms:assetid: 408e7224-02bb-335a-b1b9-cbccbf6e36ec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192875(v=office.15)
 ms:contentKeyID: 48544427
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3118c2a6b85d400b4b797c4b9b711e5f5a512c62
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c170c9d02967cb04b387d9f549ad77933d1f55b8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869237"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925644"
 ---
 # <a name="opendiagram-macro-action"></a>OpenDiagram 宏操作
 

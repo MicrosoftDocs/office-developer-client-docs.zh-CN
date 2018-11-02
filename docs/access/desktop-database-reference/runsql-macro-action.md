@@ -1,6 +1,6 @@
 ---
 title: RunSQL 宏操作
-TOCTitle: RunSQL Macro Action
+TOCTitle: RunSQL macro action
 ms:assetid: 3692142d-f8a8-e194-0b38-051167f46319
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192476(v=office.15)
 ms:contentKeyID: 48544174
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c5fd5bea659b3df368f6e352d0ae233b5e066113
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bb1bdb998373c8dba92910bd6331261514542a04
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875593"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923719"
 ---
 # <a name="runsql-macro-action"></a>RunSQL 宏操作
 

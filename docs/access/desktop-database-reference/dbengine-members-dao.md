@@ -1,19 +1,19 @@
 ---
-title: DBEngine Members (DAO)
+title: DBEngine 成员 (DAO)
 TOCTitle: DBEngine Members
 ms:assetid: 740b6a85-585f-0e1d-710b-84ba24825325
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2763825fa3e182d2007be65a88e18988699f26f8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dee1030540944fc0be6bc8fb69004188c28c0c73
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891159"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920408"
 ---
-# <a name="dbengine-members-dao"></a>DBEngine Members (DAO)
+# <a name="dbengine-members-dao"></a>DBEngine 成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

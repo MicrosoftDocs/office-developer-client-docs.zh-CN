@@ -1,6 +1,6 @@
 ---
 title: OpenStoredProcedure 宏操作
-TOCTitle: OpenStoredProcedure Macro Action
+TOCTitle: OpenStoredProcedure macro action
 ms:assetid: b14dbb82-7c8a-0ace-e251-46599551a490
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822003(v=office.15)
 ms:contentKeyID: 48547142
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 52d7d6c54913511ab593ee77d374ed55984ed40b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 22d3422a5c00e6caa20003df3574c26ab061ab53
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883251"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925343"
 ---
 # <a name="openstoredprocedure-macro-action"></a>OpenStoredProcedure 宏操作
 

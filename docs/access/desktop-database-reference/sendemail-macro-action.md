@@ -1,17 +1,17 @@
 ---
 title: SendEmail 宏操作
-TOCTitle: SendEmail Macro Action
+TOCTitle: SendEmail macro action
 ms:assetid: 84ff6b46-d239-4716-9964-5b909656d347
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196780(v=office.15)
 ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb2624a00ed2fdbe4a2b24a1f052e19217a4c1a9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: aa783dcc7ad02cc36b14ef9ef97436cb1ad88e4a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871939"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924685"
 ---
 # <a name="sendemail-macro-action"></a>SendEmail 宏操作
 

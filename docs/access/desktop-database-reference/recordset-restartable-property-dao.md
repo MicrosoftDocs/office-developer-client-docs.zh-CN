@@ -1,5 +1,5 @@
 ---
-title: Recordset.Restartable Property (DAO)
+title: Recordset.Restartable 属性 (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 00def49d-ea7e-6cd5-2f4a-914a1ddcdd51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844737(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052926
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 782008e1fcad427a8d47a143dab0a54bc3b9e041
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 26d9d215c35e9a768a663d41ecc40f49bee4dfdb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874641"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920856"
 ---
-# <a name="recordsetrestartable-property-dao"></a>Recordset.Restartable Property (DAO)
+# <a name="recordsetrestartable-property-dao"></a>Recordset.Restartable 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

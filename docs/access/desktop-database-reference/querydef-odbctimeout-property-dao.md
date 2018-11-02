@@ -1,5 +1,5 @@
 ---
-title: QueryDef.ODBCTimeout Property (DAO)
+title: QueryDef.ODBCTimeout 属性 (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053052
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c335140e6b5bfa46d25d20438d8af2a9e1393644
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ceb3cf0fa2e16af4df23c6511fd6d1421487a409
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873668"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922753"
 ---
-# <a name="querydefodbctimeout-property-dao"></a>QueryDef.ODBCTimeout Property (DAO)
+# <a name="querydefodbctimeout-property-dao"></a>QueryDef.ODBCTimeout 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

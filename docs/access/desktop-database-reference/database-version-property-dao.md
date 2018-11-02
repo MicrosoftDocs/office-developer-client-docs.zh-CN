@@ -1,19 +1,19 @@
 ---
-title: Database.Version Property (DAO)
+title: Database.Version 属性 (DAO)
 TOCTitle: Version Property
 ms:assetid: 40faaa0c-e764-e968-f606-7e06ded80c3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
 ms:contentKeyID: 48544440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ce28decf2d20c608067a2fa3791d8dce0ce61f8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6d39dc351eee86ec409f85b602dfa46099c0381b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876265"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923614"
 ---
-# <a name="databaseversion-property-dao"></a>Database.Version Property (DAO)
+# <a name="databaseversion-property-dao"></a>Database.Version 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

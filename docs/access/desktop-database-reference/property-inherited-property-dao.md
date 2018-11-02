@@ -1,5 +1,5 @@
 ---
-title: Property.Inherited Property (DAO)
+title: Property.Inherited 属性 (DAO)
 TOCTitle: Inherited Property
 ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845349(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052991
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7768ec3048c14962154fa8ba54f391a9a8a10e66
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 56f0153748a6d5cc7dd8e6b15dbae93fb638a381
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887976"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927156"
 ---
-# <a name="propertyinherited-property-dao"></a>Property.Inherited Property (DAO)
+# <a name="propertyinherited-property-dao"></a>Property.Inherited 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013 

@@ -1,5 +1,5 @@
 ---
-title: DBEngine.SetOption Method (DAO)
+title: DBEngine.SetOption 方法 (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1d11d9c6e3434e635d93e9c499c6d5f7c82c6f49
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5e0282d95a77f302103414df1ee904d300a0330e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867865"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922949"
 ---
-# <a name="dbenginesetoption-method-dao"></a>DBEngine.SetOption Method (DAO)
+# <a name="dbenginesetoption-method-dao"></a>DBEngine.SetOption 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

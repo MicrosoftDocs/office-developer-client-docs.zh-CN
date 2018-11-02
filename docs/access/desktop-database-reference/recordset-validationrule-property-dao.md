@@ -1,19 +1,19 @@
 ---
-title: Recordset.ValidationRule Property (DAO)
+title: Recordset.ValidationRule 属性 (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: c9250c13-18fe-1ff7-7846-7872c49a1e3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823208(v=office.15)
 ms:contentKeyID: 48547671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b4a15be2a1ef3ea31b078afb287ffa1f48dd232d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1c3d0331b9701714f6a1194007e0e07d709b07c7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885043"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925091"
 ---
-# <a name="recordsetvalidationrule-property-dao"></a>Recordset.ValidationRule Property (DAO)
+# <a name="recordsetvalidationrule-property-dao"></a>Recordset.ValidationRule 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

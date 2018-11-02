@@ -1,17 +1,17 @@
 ---
 title: Requery 方法 (ADO)
-TOCTitle: Requery Method (ADO)
+TOCTitle: Requery method (ADO)
 ms:assetid: 1062d907-979f-020a-b2ed-94e11c0e7d08
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be8cbda9e185b3e0b28717e7216f3ff6bea5238c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 588f99d495716ca3c40376ce323d7c1557da9319
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876125"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925798"
 ---
 # <a name="requery-method-ado"></a>Requery 方法 (ADO)
 

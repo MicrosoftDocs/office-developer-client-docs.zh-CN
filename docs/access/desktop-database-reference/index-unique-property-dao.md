@@ -1,5 +1,5 @@
 ---
-title: Index.Unique Property (DAO)
+title: Index.Unique 属性 (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821087(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 877be95d2cd65b020946f125714e0229650d5ec5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 85d0ceec1cea782a8e43a2bebd6779841c2a56ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871883"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926106"
 ---
-# <a name="indexunique-property-dao"></a>Index.Unique Property (DAO)
+# <a name="indexunique-property-dao"></a>Index.Unique 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

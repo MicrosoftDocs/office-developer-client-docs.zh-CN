@@ -1,17 +1,17 @@
 ---
 title: DeleteRecord 宏操作
-TOCTitle: DeleteRecord Macro Action
+TOCTitle: DeleteRecord macro action
 ms:assetid: c656a72c-c037-76a5-dc07-f6eccb6590dd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823132(v=office.15)
 ms:contentKeyID: 48547624
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17cc677ed5762c6274db80105cdf8e899565ecb9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 052e7a489eaec526db1552ced89b095f65f652df
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880878"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921584"
 ---
 # <a name="deleterecord-macro-action"></a>DeleteRecord 宏操作
 

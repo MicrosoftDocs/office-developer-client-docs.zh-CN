@@ -1,19 +1,19 @@
 ---
-title: Field.AppendChunk Method (DAO)
+title: Field.AppendChunk 方法 (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: f98c6862-fecf-06cb-a7c0-42b0d3150a06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
 ms:contentKeyID: 48548819
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44aef9e335b606b88dfcc1446a3d167627b1db2b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 830d9d10aa2d166f3e9dca013697acdeebe8a767
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870952"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923985"
 ---
-# <a name="fieldappendchunk-method-dao"></a>Field.AppendChunk Method (DAO)
+# <a name="fieldappendchunk-method-dao"></a>Field.AppendChunk 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

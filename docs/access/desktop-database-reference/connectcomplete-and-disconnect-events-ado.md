@@ -1,17 +1,17 @@
 ---
 title: ConnectComplete 和 Disconnect 事件 (ADO)
-TOCTitle: ConnectComplete and Disconnect Events (ADO)
+TOCTitle: ConnectComplete and Disconnect events (ADO)
 ms:assetid: 8ecb080b-7fc9-7565-25bd-bd57b983750d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249629(v=office.15)
 ms:contentKeyID: 48546293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9233ba547ecf746d3b4db7b4e008976a813afff
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3ab98e270fd52d656bf722c7f666afbe22d5ea44
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891181"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926302"
 ---
 # <a name="connectcomplete-and-disconnect-events-ado"></a>ConnectComplete 和 Disconnect 事件 (ADO)
 

@@ -1,5 +1,5 @@
 ---
-title: DBEngine.Version Property (DAO)
+title: DBEngine.Version 属性 (DAO)
 TOCTitle: Version Property
 ms:assetid: b2807dc1-604f-4423-289a-ff38a3d9f31b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822024(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052986
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 865942cdf4cca81cb0d5348725164a4a75a845fb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1723deea7f29c59fb388a11acc5e5ffcced4abe1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870910"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924594"
 ---
-# <a name="dbengineversion-property-dao"></a>DBEngine.Version Property (DAO)
+# <a name="dbengineversion-property-dao"></a>DBEngine.Version 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

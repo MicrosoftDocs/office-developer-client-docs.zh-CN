@@ -1,19 +1,19 @@
 ---
-title: QueryDef.DateCreated Property (DAO)
+title: QueryDef.DateCreated 属性 (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: f7585b34-8314-fb9f-daa6-cd1a8ad59d91
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836910(v=office.15)
 ms:contentKeyID: 48548763
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2d770decd0bf023a9c2ad8699a8aca4686d73491
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3eb3d4664f6fce30812904612f458d24f3a8b159
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875411"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927023"
 ---
-# <a name="querydefdatecreated-property-dao"></a>QueryDef.DateCreated Property (DAO)
+# <a name="querydefdatecreated-property-dao"></a>QueryDef.DateCreated 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

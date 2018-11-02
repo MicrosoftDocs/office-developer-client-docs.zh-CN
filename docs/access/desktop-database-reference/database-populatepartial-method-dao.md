@@ -1,5 +1,5 @@
 ---
-title: Database.PopulatePartial Method (DAO)
+title: Database.PopulatePartial 方法 (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837034(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed8125d89691045a24ecc438d490146a8a3942b5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2d90d82db89060894eda1e58442cb6f9d52f124e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883013"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919488"
 ---
-# <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial Method (DAO)
+# <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

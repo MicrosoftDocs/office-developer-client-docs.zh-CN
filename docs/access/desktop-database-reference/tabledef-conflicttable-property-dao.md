@@ -1,5 +1,5 @@
 ---
-title: TableDef.ConflictTable Property (DAO)
+title: TableDef.ConflictTable 属性 (DAO)
 TOCTitle: ConflictTable Property
 ms:assetid: 0db8b975-eb6d-19c6-cfb7-6ce01230ebe4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845218(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053356
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 81b7793291575ca86b5eec628ac9472a20d90ce4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e99fcc052ebef8af5d76490625f86f1e6dd45e16
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870658"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923831"
 ---
-# <a name="tabledefconflicttable-property-dao"></a>TableDef.ConflictTable Property (DAO)
+# <a name="tabledefconflicttable-property-dao"></a>TableDef.ConflictTable 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

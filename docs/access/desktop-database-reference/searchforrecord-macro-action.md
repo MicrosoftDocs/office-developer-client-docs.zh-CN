@@ -1,6 +1,6 @@
 ---
 title: SearchForRecord 宏操作
-TOCTitle: SearchForRecord Macro Action
+TOCTitle: SearchForRecord macro action
 ms:assetid: a3483c41-adb5-5923-55f4-1a3c4f60cb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821023(v=office.15)
 ms:contentKeyID: 48546781
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9bb498771e5a1ac3a8e6eb19b3b1ec2886867214
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 26a0a9fe66fb726bb728872ee31771d12b262864
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876489"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923698"
 ---
 # <a name="searchforrecord-macro-action"></a>SearchForRecord 宏操作
 

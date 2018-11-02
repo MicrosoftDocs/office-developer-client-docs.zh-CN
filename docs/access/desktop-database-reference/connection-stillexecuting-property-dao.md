@@ -1,19 +1,19 @@
 ---
-title: Connection.StillExecuting Property (DAO)
+title: Connection.StillExecuting 属性 (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0121f98a-cc23-5b5e-9a75-28307404a9a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
 ms:contentKeyID: 48542927
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ba2444146a0174e643c7ba98cbfd46225c5a491
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: efcac1b95fe4f58a6ebef39a51c57dda4f9866a3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874263"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921066"
 ---
-# <a name="connectionstillexecuting-property-dao"></a>Connection.StillExecuting Property (DAO)
+# <a name="connectionstillexecuting-property-dao"></a>Connection.StillExecuting 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

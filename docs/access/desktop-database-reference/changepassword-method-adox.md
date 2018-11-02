@@ -1,17 +1,17 @@
 ---
 title: ChangePassword 方法 (ADOX)
-TOCTitle: ChangePassword Method (ADOX)
+TOCTitle: ChangePassword method (ADOX)
 ms:assetid: 999826a5-3e6b-b6da-b8f6-d61b9a50ceca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
 ms:contentKeyID: 48546519
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34de673d29d160c715c8e2617d0e2a75e3843904
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f11cfaddc99a0e10a86e0df9a7a187c4e89fc794
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872233"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921059"
 ---
 # <a name="changepassword-method-adox"></a>ChangePassword 方法 (ADOX)
 

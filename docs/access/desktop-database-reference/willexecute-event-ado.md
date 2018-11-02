@@ -1,17 +1,17 @@
 ---
 title: WillExecute 事件 (ADO)
-TOCTitle: WillExecute Event (ADO)
+TOCTitle: WillExecute event (ADO)
 ms:assetid: 9f516bfd-246d-9817-4ca3-64598ab466f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bb044047c0b97c6a600d798bea7acedea57d6afe
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5e4025645e5f8b12325ba20497ca6ef2b70175df
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881767"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919449"
 ---
 # <a name="willexecute-event-ado"></a>WillExecute 事件 (ADO)
 

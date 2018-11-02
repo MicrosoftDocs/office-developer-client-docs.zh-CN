@@ -1,19 +1,19 @@
 ---
-title: Recordset2.MoveNext Method (DAO)
+title: Recordset2.MoveNext 方法 (DAO)
 TOCTitle: MoveNext Method
 ms:assetid: 0eeb917e-f76a-03ec-9e1e-aa8d501db031
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845265(v=office.15)
 ms:contentKeyID: 48543254
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f28c587236bfe76fc2431a2226d52b2f9f8ce0db
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e89a82a1449fd1a16e5273531a542332542ecdcd
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867375"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923712"
 ---
-# <a name="recordset2movenext-method-dao"></a>Recordset2.MoveNext Method (DAO)
+# <a name="recordset2movenext-method-dao"></a>Recordset2.MoveNext 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

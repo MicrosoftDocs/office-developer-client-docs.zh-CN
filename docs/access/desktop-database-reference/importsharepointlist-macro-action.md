@@ -1,6 +1,6 @@
 ---
 title: ImportSharePointList 宏操作
-TOCTitle: ImportSharePointList Macro Action
+TOCTitle: ImportSharePointList macro action
 ms:assetid: 6a633d7d-d81d-0e2e-6c1c-706a552c1bf2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195403(v=office.15)
 ms:contentKeyID: 48545429
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm152234
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57c6630b1e9145c158a32a331ae91157e8e5e8f6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e8b1e32eca6862645fc4f9c3b9021258e805dc8c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883069"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921318"
 ---
 # <a name="importsharepointlist-macro-action"></a>ImportSharePointList 宏操作
 

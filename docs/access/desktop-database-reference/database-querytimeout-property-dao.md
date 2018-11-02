@@ -1,19 +1,19 @@
 ---
-title: Database.QueryTimeout Property (DAO)
+title: Database.QueryTimeout 属性 (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: c83ca852-715a-c853-429b-80a15c3fc39b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
 ms:contentKeyID: 48547648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e924dfb89cb67ffa4bc8ec29d0c24a7c61fcb5b5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d928864d729cdfb40f44d496e983bf86413d57f7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887962"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925273"
 ---
-# <a name="databasequerytimeout-property-dao"></a>Database.QueryTimeout Property (DAO)
+# <a name="databasequerytimeout-property-dao"></a>Database.QueryTimeout 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

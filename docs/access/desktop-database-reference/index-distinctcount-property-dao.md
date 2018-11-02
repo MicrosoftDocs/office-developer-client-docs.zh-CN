@@ -1,5 +1,5 @@
 ---
-title: Index.DistinctCount Property (DAO)
+title: Index.DistinctCount 属性 (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053119
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2e609090e66a9bfd5b4b37d8e8e8a5546cc8469a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 62c8681baebf0c1959fcb86df91d61387070adc8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876888"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923642"
 ---
-# <a name="indexdistinctcount-property-dao"></a>Index.DistinctCount Property (DAO)
+# <a name="indexdistinctcount-property-dao"></a>Index.DistinctCount 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

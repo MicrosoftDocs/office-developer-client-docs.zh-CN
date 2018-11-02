@@ -1,19 +1,19 @@
 ---
-title: "Optimize 属性 \x97 动态 (ADO)"
-TOCTitle: Optimize Property--Dynamic (ADO)
+title: 优化动态属性 (ADO)
+TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
 ms:contentKeyID: 48543705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62af17d9590b2fad39d61639a32de536f0438193
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4a1fff5911080811bc2556a20667ff2f2391f22e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883230"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926778"
 ---
-# <a name="optimize-property--dynamic-ado"></a>Optimize 属性  动态 (ADO)
+# <a name="optimize-dynamic-property-ado"></a>优化动态属性 (ADO)
 
 
 **适用于**： Access 2013、 Office 2013

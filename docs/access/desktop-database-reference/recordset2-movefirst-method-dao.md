@@ -1,19 +1,19 @@
 ---
-title: Recordset2.MoveFirst Method (DAO)
+title: Recordset2.MoveFirst 方法 (DAO)
 TOCTitle: MoveFirst Method
 ms:assetid: 74b186d0-8f6a-d136-a563-04f58d67b122
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195879(v=office.15)
 ms:contentKeyID: 48545667
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 580ea981653eec3a1997b2c48376448032cd0fa2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bd5225e2fdbf662180b3cb11f48c8e7ba65b706a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883860"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921367"
 ---
-# <a name="recordset2movefirst-method-dao"></a>Recordset2.MoveFirst Method (DAO)
+# <a name="recordset2movefirst-method-dao"></a>Recordset2.MoveFirst 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

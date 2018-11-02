@@ -1,19 +1,19 @@
 ---
-title: Workspace.CreateDatabase Method (DAO)
+title: Workspace.CreateDatabase 方法 (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: c0ad986e-3b4d-f781-f782-5aa3cdccea7d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ad3d44d67efb240cb97a5b4716e9e00a6951045
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5774eb4c9965cad7679d37754fd9a1f431ddaa48
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875621"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923411"
 ---
-# <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase Method (DAO)
+# <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

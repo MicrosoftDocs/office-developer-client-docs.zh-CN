@@ -1,17 +1,17 @@
 ---
 title: Catalog 对象 (ADO MD)
-TOCTitle: Catalog Object (ADO MD)
+TOCTitle: Catalog object (ADO MD)
 ms:assetid: 708c4082-3589-7f3b-5ea3-f3705f3d3ff1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
 ms:contentKeyID: 48545559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be9d55969a0f90595f25deac0b01a70bff6fc7c3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b977db2faf07a47c2e9234cec4a7828def5e6188
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879597"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926736"
 ---
 # <a name="catalog-object-ado-md"></a>Catalog 对象 (ADO MD)
 

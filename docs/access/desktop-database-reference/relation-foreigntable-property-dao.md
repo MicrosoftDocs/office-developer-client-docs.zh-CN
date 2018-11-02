@@ -1,5 +1,5 @@
 ---
-title: Relation.ForeignTable Property (DAO)
+title: Relation.ForeignTable 属性 (DAO)
 TOCTitle: ForeignTable Property
 ms:assetid: 3f896433-2962-1c7c-f5a2-4e030ba8d4a0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192853(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052989
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0ad95e1ff7402ce9115421554c5a08b31a6145ac
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dcd454bc1c570e119cc8948acb8077a54649db84
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878659"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921710"
 ---
-# <a name="relationforeigntable-property-dao"></a>Relation.ForeignTable Property (DAO)
+# <a name="relationforeigntable-property-dao"></a>Relation.ForeignTable 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Field.DataUpdatable Property (DAO)
+title: Field.DataUpdatable 属性 (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: 08ca57b6-2d7c-36b4-7d51-b76ac5467163
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845029(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052988
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2f928d3f10645f6bfca89d097bbbacf51c924110
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ad3de8bba18b15b15311bf188822a451e74bb24d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871295"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926610"
 ---
-# <a name="fielddataupdatable-property-dao"></a>Field.DataUpdatable Property (DAO)
+# <a name="fielddataupdatable-property-dao"></a>Field.DataUpdatable 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

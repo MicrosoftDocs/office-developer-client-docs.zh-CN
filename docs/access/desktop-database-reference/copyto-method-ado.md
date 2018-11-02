@@ -1,17 +1,17 @@
 ---
 title: CopyTo 方法 (ADO)
-TOCTitle: CopyTo Method (ADO)
+TOCTitle: CopyTo method (ADO)
 ms:assetid: 1c1ab950-51f7-7ecc-ccd8-e689db02f06a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2a5e5b793940c82e6656ec836c5a8d392800940d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a17e74e1e3483b7ad2a70c5444503234cff5be12
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870140"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920247"
 ---
 # <a name="copyto-method-ado"></a>CopyTo 方法 (ADO)
 

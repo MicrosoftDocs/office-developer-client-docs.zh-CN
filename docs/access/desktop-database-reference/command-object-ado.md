@@ -1,6 +1,6 @@
 ---
 title: Command 对象 (ADO)
-TOCTitle: Command Object (ADO)
+TOCTitle: Command object (ADO)
 ms:assetid: 64f4ef03-f858-c004-b891-0c96d13a5e6e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249389(v=office.15)
 ms:contentKeyID: 48545303
@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 557eafe6e8c8ea2265fdaf8a5c4bae8856bb4476
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7fc8648f40e38020e84393e71d0a269a6ba7a6d7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867529"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922263"
 ---
 # <a name="command-object-ado"></a>Command 对象 (ADO)
 

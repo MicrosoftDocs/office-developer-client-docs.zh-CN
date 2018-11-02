@@ -1,17 +1,17 @@
 ---
 title: Members 集合 (ADO MD)
-TOCTitle: Members Collection (ADO MD)
+TOCTitle: Members collection (ADO MD)
 ms:assetid: 1389c554-e4f1-107d-22c6-7fe851d53d23
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248910(v=office.15)
 ms:contentKeyID: 48543371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7142c65bba1df724125c66928001c2b3cd71f1b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b5e27af7e1e1d4842e6a76fa8d5e649b3b351064
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876391"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922725"
 ---
 # <a name="members-collection-ado-md"></a>Members 集合 (ADO MD)
 

@@ -1,5 +1,5 @@
 ---
-title: Workspace.DefaultCursorDriver Property (DAO)
+title: Workspace.DefaultCursorDriver 属性 (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845499(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053582
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ce246b7693bdbb0dedc86dcad44dc6c0f6e15638
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 03379b3d4ab6be7252aea45a07dfae4b49471136
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872982"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922480"
 ---
-# <a name="workspacedefaultcursordriver-property-dao"></a>Workspace.DefaultCursorDriver Property (DAO)
+# <a name="workspacedefaultcursordriver-property-dao"></a>Workspace.DefaultCursorDriver 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,19 +1,19 @@
 ---
-title: CubeDefs Collection Properties, Methods, and Events (ADO MD)
-TOCTitle: CubeDefs Collection Properties, Methods, and Events
+title: CubeDefs 集合的属性、 方法和事件 (ADO MD)
+TOCTitle: CubeDefs collection properties, methods, and events
 ms:assetid: e12076d1-1d51-dea2-205f-9e4c23626b2e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250144(v=office.15)
 ms:contentKeyID: 48548253
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 785fb90b6fb6cfdc48a0f736a56274a71f8ac44b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bdd2e43a122cb2be32794840b43ebaa94b349174
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868523"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927117"
 ---
-# <a name="cubedefs-collection-properties-methods-and-events-ado-md"></a>CubeDefs Collection Properties, Methods, and Events (ADO MD)
+# <a name="cubedefs-collection-properties-methods-and-events-ado-md"></a>CubeDefs 集合的属性、 方法和事件 (ADO MD)
 
 **适用于**： Access 2013、 Office 2013
 

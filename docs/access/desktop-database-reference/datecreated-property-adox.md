@@ -1,17 +1,17 @@
 ---
 title: DateCreated 属性 (ADOX)
-TOCTitle: DateCreated Property (ADOX)
+TOCTitle: DateCreated property (ADOX)
 ms:assetid: ee975bf5-7d44-a993-d1c0-077993515698
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250209(v=office.15)
 ms:contentKeyID: 48548564
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fea3e83f9a171a95eb844d9ba721039969804acf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 344b193b3ab8d6800fcf81b6bb2d184b1104f9d3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876468"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923097"
 ---
 # <a name="datecreated-property-adox"></a>DateCreated 属性 (ADOX)
 

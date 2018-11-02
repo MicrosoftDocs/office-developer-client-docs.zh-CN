@@ -1,5 +1,5 @@
 ---
-title: Recordset.RecordStatus Property (DAO)
+title: Recordset.RecordStatus 属性 (DAO)
 TOCTitle: RecordStatus Property
 ms:assetid: 6fbd6909-6191-d7be-9a3a-1e9908dacc2b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195591(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1102617
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d1300538f1373929b4ed2bcd4fcd0be78574ae21
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 60a9e840e611988f33a66f67aff11ac5da3fe5ad
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871918"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919323"
 ---
-# <a name="recordsetrecordstatus-property-dao"></a>Recordset.RecordStatus Property (DAO)
+# <a name="recordsetrecordstatus-property-dao"></a>Recordset.RecordStatus 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

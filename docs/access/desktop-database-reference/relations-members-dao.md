@@ -1,19 +1,19 @@
 ---
-title: Relations Members (DAO)
+title: 关系成员 (DAO)
 TOCTitle: Relations Members
 ms:assetid: b885db68-cee2-c5d7-1f1b-1f53eeae8308
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
 ms:contentKeyID: 48547326
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92faa7ad56625d9d66da4ebd260bde96c18c2ab5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d148a314de37343b6bc34671cd401e5d1c697935
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871862"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927331"
 ---
-# <a name="relations-members-dao"></a>Relations Members (DAO)
+# <a name="relations-members-dao"></a>关系成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

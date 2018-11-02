@@ -1,19 +1,19 @@
 ---
-title: QueryDefs.Delete Method (DAO)
+title: QueryDefs.Delete 方法 (DAO)
 TOCTitle: Delete Method
 ms:assetid: a93a93d9-7b5e-c8be-588e-37addb076025
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821426(v=office.15)
 ms:contentKeyID: 48546918
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc99b0dba6e7f1edc4946ee1d4c615b6f341d816
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: db56113291cd06ef550b4bbb2c8d43a45bcc2743
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877525"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923404"
 ---
-# <a name="querydefsdelete-method-dao"></a>QueryDefs.Delete Method (DAO)
+# <a name="querydefsdelete-method-dao"></a>QueryDefs.Delete 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

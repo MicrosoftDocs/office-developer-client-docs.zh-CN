@@ -1,19 +1,19 @@
 ---
-title: Database.CreateProperty Method (DAO)
+title: Database.CreateProperty 方法 (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: f2039be9-5fd8-f673-dfbf-0a71540cdc98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836607(v=office.15)
 ms:contentKeyID: 48548638
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1444ebaa29b704df82ed036e755b12690105485f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b0b9403c485df44935c7db5b8464d26424cf3993
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868264"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920653"
 ---
-# <a name="databasecreateproperty-method-dao"></a>Database.CreateProperty Method (DAO)
+# <a name="databasecreateproperty-method-dao"></a>Database.CreateProperty 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

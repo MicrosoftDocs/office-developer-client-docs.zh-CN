@@ -1,19 +1,19 @@
 ---
 title: 回声宏操作 （访问桌面数据库参考 （英文）
-TOCTitle: Echo Macro Action
+TOCTitle: Echo macro action
 ms:assetid: 38dfb2cf-8db5-44b3-91fa-e490932b940b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34d157398d3e288f96b550a152bb78c12f255573
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 947e3569d52558cc154ea751ecce204d02cbf7ec
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868390"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921542"
 ---
-# <a name="echo-macro-action"></a>回声宏操作
+# <a name="echo-macro-action"></a>Echo 宏操作
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,19 +1,19 @@
 ---
-title: Index.CreateProperty Method (DAO)
+title: Index.CreateProperty 方法 (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 712bccd2-c8a8-cc96-6f77-6d93d92320d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
 ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1edf78ef487f95738de06e34cd72561a1c969ee4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 24f42e2e876c631f1d25aae9e3156a22d2abbf45
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884896"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921766"
 ---
-# <a name="indexcreateproperty-method-dao"></a>Index.CreateProperty Method (DAO)
+# <a name="indexcreateproperty-method-dao"></a>Index.CreateProperty 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

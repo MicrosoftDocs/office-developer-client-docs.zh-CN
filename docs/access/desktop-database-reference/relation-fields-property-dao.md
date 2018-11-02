@@ -1,19 +1,19 @@
 ---
-title: Relation.Fields Property (DAO)
+title: Relation.Fields 属性 (DAO)
 TOCTitle: Fields Property
 ms:assetid: 6f0aafcc-3fc9-a5ef-2ffb-dea71c413128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195574(v=office.15)
 ms:contentKeyID: 48545525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a91af08b9200d4e44bfbbeea8d888dce1f854d48
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c85ebcf9b8535014d815b21b96eec79758eebb7d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885932"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923054"
 ---
-# <a name="relationfields-property-dao"></a>Relation.Fields Property (DAO)
+# <a name="relationfields-property-dao"></a>Relation.Fields 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

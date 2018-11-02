@@ -1,6 +1,6 @@
 ---
 title: FindRecord 宏操作
-TOCTitle: FindRecord Macro Action
+TOCTitle: FindRecord macro action
 ms:assetid: 379e3dda-cb7d-a294-29b1-c6ce9a62ba8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192494(v=office.15)
 ms:contentKeyID: 48544199
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60f0b30574bd97572739664ca37c44e69258d544
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 74d3c050b7d3912c6b0b369f99ca163cee87643a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881347"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919708"
 ---
 # <a name="findrecord-macro-action"></a>FindRecord 宏操作
 

@@ -1,17 +1,17 @@
 ---
 title: CancelBatch 方法 (ADO)
-TOCTitle: CancelBatch Method (ADO)
+TOCTitle: CancelBatch method (ADO)
 ms:assetid: be7bf073-ed0b-e24c-7ec0-b7379236782a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249925(v=office.15)
 ms:contentKeyID: 48547463
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 24444aa40fae38987f1dab284a37239b281ecb58
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eefe1042404c24040aef204a1ceca0ce583847e8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886555"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926953"
 ---
 # <a name="cancelbatch-method-ado"></a>CancelBatch 方法 (ADO)
 

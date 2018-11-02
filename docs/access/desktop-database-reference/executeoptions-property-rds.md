@@ -1,17 +1,17 @@
 ---
 title: ExecuteOptions 属性 (RDS)
-TOCTitle: ExecuteOptions Property (RDS)
+TOCTitle: ExecuteOptions property (RDS)
 ms:assetid: fb244cbd-9a03-9128-1373-694c9061c9da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a230ce4ab90ea5d4075dbbf383a55e3d835c79a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4868cc92bdb6313c581ede7442ce8f6af9fd960d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888025"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921626"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions 属性 (RDS)
 

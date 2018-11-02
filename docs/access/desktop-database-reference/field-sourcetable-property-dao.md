@@ -1,5 +1,5 @@
 ---
-title: Field.SourceTable Property (DAO)
+title: Field.SourceTable 属性 (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 9564ea1c-eafd-0b72-fd68-d88fcc3ea189
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197694(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052900
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a11544808cfb897a359a5e170332ba23e25ceae
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6bd096b8989cefe48df882d447aab0d4f3d0a6ee
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888039"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925196"
 ---
-# <a name="fieldsourcetable-property-dao"></a>Field.SourceTable Property (DAO)
+# <a name="fieldsourcetable-property-dao"></a>Field.SourceTable 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

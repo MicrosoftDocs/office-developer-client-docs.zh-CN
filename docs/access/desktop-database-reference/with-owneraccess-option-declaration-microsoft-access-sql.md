@@ -1,6 +1,6 @@
 ---
-title: WITH OWNERACCESS OPTION 声明 (Microsoft Access SQL)
-TOCTitle: WITH OWNERACCESS OPTION Declaration (Microsoft Access SQL)
+title: 与 OWNERACCESS OPTION 声明 (Microsoft Access SQL)
+TOCTitle: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 ms:assetid: 82e51071-12b2-e97e-07b4-27ffceda831e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196724(v=office.15)
 ms:contentKeyID: 48545993
@@ -12,14 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0ef07e29258035486a89e1b2cc19519d3f2f7c9f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0eca4738d07c54b049073aaf5d4b802864761fa5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889964"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920597"
 ---
-# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>WITH OWNERACCESS OPTION 声明 (Microsoft Access SQL)
+# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>与 OWNERACCESS OPTION 声明 (Microsoft Access SQL)
 
 
 **适用于**： Access 2013、 Office 2013

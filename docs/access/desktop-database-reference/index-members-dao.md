@@ -1,19 +1,19 @@
 ---
-title: Index Members (DAO)
+title: 索引成员 (DAO)
 TOCTitle: Index Members
 ms:assetid: e261c5fa-ca7d-0d63-1c29-48e9231b39d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
 ms:contentKeyID: 48548290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5389b4c3d297e5d820955f2586faafc31811b034
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: df4400752545be2d91cda978b41b32523d28f079
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883755"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927380"
 ---
-# <a name="index-members-dao"></a>Index Members (DAO)
+# <a name="index-members-dao"></a>索引成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

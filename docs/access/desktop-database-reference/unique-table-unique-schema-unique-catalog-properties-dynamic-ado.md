@@ -1,19 +1,19 @@
 ---
-title: "Unique Table、Unique Schema、Unique Catalog 属性 \x97 动态 (ADO)"
-TOCTitle: Unique Table, Unique Schema, Unique Catalog Properties--Dynamic (ADO)
+title: 唯一表，Unique Schema Unique Catalog 动态属性 (ADO)
+TOCTitle: Unique Table, Unique Schema, Unique Catalog dynamic properties (ADO)
 ms:assetid: e6374782-755b-322b-21de-6d6a386dcd98
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
 ms:contentKeyID: 48548374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d358cf87160d8ddbf0b7354bd36375b5b8d41e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b2c3c87a820638b74e74c513443261e052e2c4d7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884525"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919428"
 ---
-# <a name="unique-table-unique-schema-unique-catalog-properties--dynamic-ado"></a>Unique Table、Unique Schema、Unique Catalog 属性  动态 (ADO)
+# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>唯一表，Unique Schema Unique Catalog 动态属性 (ADO)
 
 
 **适用于**： Access 2013、 Office 2013

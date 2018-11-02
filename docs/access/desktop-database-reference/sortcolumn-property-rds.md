@@ -1,17 +1,17 @@
 ---
 title: SortColumn 属性 (RDS)
-TOCTitle: SortColumn Property (RDS)
+TOCTitle: SortColumn property (RDS)
 ms:assetid: 0a5d157c-9261-960d-6f89-33d9c94b3940
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248835(v=office.15)
 ms:contentKeyID: 48543151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a613ed053bd91685286066bfa534c41b99edbdd1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4bccd0eb536ec67937e8c3659b2ac62ef49a0bb3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874753"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924062"
 ---
 # <a name="sortcolumn-property-rds"></a>SortColumn 属性 (RDS)
 

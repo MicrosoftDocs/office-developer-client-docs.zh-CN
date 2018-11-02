@@ -1,17 +1,17 @@
 ---
 title: State 属性 (ADO MD)
-TOCTitle: State Property (ADO MD)
+TOCTitle: State property (ADO MD)
 ms:assetid: 4df09f45-9b62-33ce-b4ed-230e41eaac7a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249249(v=office.15)
 ms:contentKeyID: 48544744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4bc1efc33aa263275ba50526ff682b64a229293f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 33933fb71ee3d7541640469eebc650c0f52a9784
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885463"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922011"
 ---
 # <a name="state-property-ado-md"></a>State 属性 (ADO MD)
 

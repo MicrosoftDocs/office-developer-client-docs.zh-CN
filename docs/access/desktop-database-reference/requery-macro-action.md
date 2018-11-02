@@ -1,6 +1,6 @@
 ---
 title: Requery 宏操作
-TOCTitle: Requery Macro Action
+TOCTitle: Requery macro action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
 ms:contentKeyID: 48545499
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e8e5a25b8770f3542fade53d206ff20400ebf350
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a0f951c69939e8265bab64193e594eed32149c38
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885939"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920030"
 ---
 # <a name="requery-macro-action"></a>Requery 宏操作
 
@@ -82,5 +82,5 @@ ms.locfileid: "25885939"
 
 
 
-如果要重新查询的控件不在活动对象上，则必须在 Visual Basic for Applications (VBA) 模块中使用 **Requery** 方法，而不是使用 **Requery** 操作或者与之对应的 **DoCmd** 对象的 **Requery** 方法。VBA 中的 **Requery** 方法比 **Requery** 操作或 **DoCmd.Requery** 方法更快。此外，在使用 **Requery** 操作或 **DoCmd.Requery** 方法时，Microsoft Access 会关闭查询并从数据库中重新加载它，但在使用 **Requery** 方法时，Access 会重新运行查询，而不关闭并重新加载它。请注意，ActiveX 数据对象 (ADO) **Requery** 方法与 Access **Requery** 方法的工作方式相同。
+如果要重新查询的控件不在活动对象上，则必须在 Visual Basic for Applications (VBA) 模块中使用 **Requery** 方法，而不是使用 **Requery** 操作或者与之对应的 **DoCmd** 对象的 **Requery** 方法。 VBA 中的 **Requery** 方法比 **Requery** 操作或 **DoCmd.Requery** 方法更快。 此外，在使用 **Requery** 操作或 **DoCmd.Requery** 方法时，Microsoft Access 会关闭查询并从数据库中重新加载它，但在使用 **Requery** 方法时，Access 会重新运行查询，而不关闭并重新加载它。 请注意，ActiveX 数据对象 (ADO) **Requery**方法访问**Requery**方法方式相同。
 

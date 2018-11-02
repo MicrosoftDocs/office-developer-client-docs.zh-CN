@@ -1,5 +1,5 @@
 ---
-title: QueryDef.Prepare Property (DAO)
+title: QueryDef.Prepare 属性 (DAO)
 TOCTitle: Prepare Property
 ms:assetid: d5a285c4-bd00-028b-b785-f1890db29bab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835035(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1328dbbfe37ac1876d2839e08295a98068f52384
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f1d587501cb9a3279db055b9eee27d765e002a03
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889971"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925937"
 ---
-# <a name="querydefprepare-property-dao"></a>QueryDef.Prepare Property (DAO)
+# <a name="querydefprepare-property-dao"></a>QueryDef.Prepare 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,19 +1,19 @@
 ---
-title: Recordset2.MoveLast Method (DAO)
+title: Recordset2.MoveLast 方法 (DAO)
 TOCTitle: MoveLast Method
 ms:assetid: 32717786-c59c-ec22-666b-fc78e4265c5a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
 ms:contentKeyID: 48544079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e48e4816be8342165dba17d7ab4d478d53962114
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0d5e636bf5ecae615df458754d6c4e08f00065ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874592"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923607"
 ---
-# <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast Method (DAO)
+# <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

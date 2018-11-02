@@ -1,6 +1,6 @@
 ---
 title: StopAllMacros 宏操作
-TOCTitle: StopAllMacros Macro Action
+TOCTitle: StopAllMacros macro action
 ms:assetid: 6afbf906-03b8-6e68-bbc9-7a4b141cf1c5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195440(v=office.15)
 ms:contentKeyID: 48545442
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm104968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4d9452bed9a301c82d32c0c0a0800eb7b29231b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 34dbfc3504744dd446a018e797ebacfb79066d96
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870511"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923348"
 ---
 # <a name="stopallmacros-macro-action"></a>StopAllMacros 宏操作
 

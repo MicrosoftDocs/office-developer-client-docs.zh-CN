@@ -1,5 +1,5 @@
 ---
-title: Connection.QueryTimeout Property (DAO)
+title: Connection.QueryTimeout 属性 (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: 97853412-d5ae-7a71-ccaa-595c68919654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197804(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052905
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8f5ce9faa1ebd56bdc8e4de5aeea417835c950b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c096ba38c59ec9c62da56dc47a59f06254ef60f6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878806"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921738"
 ---
-# <a name="connectionquerytimeout-property-dao"></a>Connection.QueryTimeout Property (DAO)
+# <a name="connectionquerytimeout-property-dao"></a>Connection.QueryTimeout 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

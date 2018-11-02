@@ -1,5 +1,5 @@
 ---
-title: Database.CreateRelation Method (DAO)
+title: Database.CreateRelation 方法 (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb530cc31756205e736422f28e7ece3f4cd79440
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45d2835f4745a26d60c57c950ca1a48a9b47cd77
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885785"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927002"
 ---
-# <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation Method (DAO)
+# <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

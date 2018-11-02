@@ -1,17 +1,17 @@
 ---
 title: OpenSchema 方法 (ADO)
-TOCTitle: OpenSchema Method (ADO)
+TOCTitle: OpenSchema method (ADO)
 ms:assetid: 57771163-a14e-207a-2942-849acb79a9a1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36f82510c4dd0004aa89b3f79ac0049cc2193ed3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 846d1c0f73ba4a17f166fffc7c1bb4682ad31d49
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877665"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921164"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema 方法 (ADO)
 

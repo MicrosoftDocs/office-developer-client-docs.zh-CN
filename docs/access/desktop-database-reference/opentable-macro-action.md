@@ -1,6 +1,6 @@
 ---
 title: OpenTable 宏操作
-TOCTitle: OpenTable Macro Action
+TOCTitle: OpenTable macro action
 ms:assetid: 4220ad3a-d064-0034-2806-ec1a447cebac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192909(v=office.15)
 ms:contentKeyID: 48544469
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0390b81fdf4362372dd6142b09071c8eb1e773e1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 451d27f97c0b4f5fc4707d3947e262ba84b9a40e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889635"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926099"
 ---
 # <a name="opentable-macro-action"></a>OpenTable 宏操作
 

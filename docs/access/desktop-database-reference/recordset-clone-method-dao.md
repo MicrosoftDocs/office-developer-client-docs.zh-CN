@@ -1,5 +1,5 @@
 ---
-title: Recordset.Clone Method (DAO)
+title: Recordset.Clone 方法 (DAO)
 TOCTitle: Clone Method
 ms:assetid: 50cbc011-7e72-4dee-488d-96e681618e8e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193824(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1c0b1ea2f0103d444a1429748b16c6a4314eb92c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7bce54b0cf7e589641eff35c3cbed2bd54dbe3d2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876426"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922998"
 ---
-# <a name="recordsetclone-method-dao"></a>Recordset.Clone Method (DAO)
+# <a name="recordsetclone-method-dao"></a>Recordset.Clone 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Bookmarkable Property (DAO)
+title: Recordset2.Bookmarkable 属性 (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 9c93d04d-ca10-acf5-122a-58625ed93424
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198125(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052888
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6685523b9fb1a55dee924f7d700a91d3ce9d427b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e87b8d41e586d9ccaf647a0721968a62a0245d11
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873780"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921794"
 ---
-# <a name="recordset2bookmarkable-property-dao"></a>Recordset2.Bookmarkable Property (DAO)
+# <a name="recordset2bookmarkable-property-dao"></a>Recordset2.Bookmarkable 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

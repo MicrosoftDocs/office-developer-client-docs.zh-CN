@@ -1,19 +1,19 @@
 ---
-title: Recordset2.Sort Property (DAO)
+title: Recordset2.Sort 属性 (DAO)
 TOCTitle: Sort Property
 ms:assetid: 523a8c29-46e2-564f-205d-03c214f277fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193917(v=office.15)
 ms:contentKeyID: 48544842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a142eb9b8aefd6d13723197fcef25c54937cb4b9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9d9d154bb7506ca75862006a889c84906e43bc2a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888067"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925420"
 ---
-# <a name="recordset2sort-property-dao"></a>Recordset2.Sort Property (DAO)
+# <a name="recordset2sort-property-dao"></a>Recordset2.Sort 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013 

@@ -1,6 +1,6 @@
 ---
 title: EMailDatabaseObject 宏操作
-TOCTitle: EMailDatabaseObject Macro Action
+TOCTitle: EMailDatabaseObject macro action
 ms:assetid: 7fd80596-5c08-dab9-5343-c0edc38a1af9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196469(v=office.15)
 ms:contentKeyID: 48545915
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 79b903f63ba0a9b8e6fd1adf9e5a29dab9de9edb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f0c0ba73274d6f27a9e2a857aea1061416168f3a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25465888"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922914"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject 宏操作
 
@@ -71,7 +71,7 @@ ms.locfileid: "25465888"
 <td><p>邮件的主题。此文本出现在邮件的<strong>“主题”</strong>行。如果将此参数留空，则邮件的<strong>“主题”</strong>行为空。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>邮件文本</strong></p></td>
+<td><p><strong>消息文本</strong></p></td>
 <td><p>要在邮件中的数据库对象除了包含任何文本。 此文本的邮件正文中出现对象之后。 如果将此参数留空，则邮件中不包含任何其他文本。 如果将<strong>对象类型</strong>和<strong>对象名称</strong>参数留空，您可以使用此参数发送一封邮件没有数据库对象。</p></td>
 </tr>
 <tr class="odd">

@@ -1,5 +1,5 @@
 ---
-title: Field.CollatingOrder Property (DAO)
+title: Field.CollatingOrder 属性 (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052897
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3258e19c7e167927cf341089ed99e5525ebb0f8d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d64620ccf1c0d011c060ac829223041f49bde9d1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868131"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925287"
 ---
-# <a name="fieldcollatingorder-property-dao"></a>Field.CollatingOrder Property (DAO)
+# <a name="fieldcollatingorder-property-dao"></a>Field.CollatingOrder 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

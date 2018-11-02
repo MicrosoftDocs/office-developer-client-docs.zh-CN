@@ -1,19 +1,19 @@
 ---
-title: Error Members (DAO)
+title: 错误成员 (DAO)
 TOCTitle: Error Members
 ms:assetid: 0f4a7fb7-3070-39c9-d71b-facd254a2ccd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845280(v=office.15)
 ms:contentKeyID: 48543262
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aed11619c683389114e220c102207425dbd2b93d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a9fde088cee3dd97f71a8e9f982ebb026cf45d07
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889670"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925814"
 ---
-# <a name="error-members-dao"></a>Error Members (DAO)
+# <a name="error-members-dao"></a>错误成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,17 +1,17 @@
 ---
 title: ADORecordsetConstruction 接口 (ADO)
-TOCTitle: ADORecordsetConstruction Interface (ADO)
+TOCTitle: ADORecordsetConstruction interface (ADO)
 ms:assetid: 2b53aa6e-3b6f-a996-3967-534215fd586c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
 ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7ea33eb0cdd221f0d59edfb7cd04520bb888249
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ab9723d3acc698aa36210e26e370c0edfa67728
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877399"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924230"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction 接口 (ADO)
 

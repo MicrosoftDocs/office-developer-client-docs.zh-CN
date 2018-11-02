@@ -1,17 +1,17 @@
 ---
 title: Cellset 对象 (ADO MD)
-TOCTitle: Cellset Object (ADO MD)
+TOCTitle: Cellset object (ADO MD)
 ms:assetid: 28d4b3b9-f907-9ec0-00e1-9666c887cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249047(v=office.15)
 ms:contentKeyID: 48543869
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0a71e6989eca613a23b96e66816820ffa1e4742c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 005d1df7fe5b746e98966ca882865058ab039c32
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879555"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924462"
 ---
 # <a name="cellset-object-ado-md"></a>Cellset 对象 (ADO MD)
 

@@ -1,5 +1,5 @@
 ---
-title: Field.AllowZeroLength Property (DAO)
+title: Field.AllowZeroLength 属性 (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: 5103a905-9258-e088-0210-857372f41c3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193832(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7d5e6ecf7683a41ddb057467f892155143c33144
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3bee3b9457f2c5187432c1aad6cd1837e70eadae
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882432"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926295"
 ---
-# <a name="fieldallowzerolength-property-dao"></a>Field.AllowZeroLength Property (DAO)
+# <a name="fieldallowzerolength-property-dao"></a>Field.AllowZeroLength 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

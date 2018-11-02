@@ -1,5 +1,5 @@
 ---
-title: Index.Foreign Property (DAO)
+title: Index.Foreign 属性 (DAO)
 TOCTitle: Foreign Property
 ms:assetid: 81272436-a506-4b72-fd28-2d68e76d6d9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196489(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052974
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9eaf15cda7819ec6b98608cdad052a112229906b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 878a59d6c844c7c46cf1a38ee6e4ef165d6fca92
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881557"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926407"
 ---
-# <a name="indexforeign-property-dao"></a>Index.Foreign Property (DAO)
+# <a name="indexforeign-property-dao"></a>Index.Foreign 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

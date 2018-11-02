@@ -1,19 +1,19 @@
 ---
-title: Relation.Attributes Property (DAO)
+title: Relation.Attributes 属性 (DAO)
 TOCTitle: Attributes Property
 ms:assetid: db19d2ad-5965-214c-211d-9a8eb9c3c522
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
 ms:contentKeyID: 48548098
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b33d9ce16982caebc5c21f304735088b6340c96a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 01b9a49b5b8ec9b702b3fd5beb8b03e3b2365788
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867795"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919827"
 ---
-# <a name="relationattributes-property-dao"></a>Relation.Attributes Property (DAO)
+# <a name="relationattributes-property-dao"></a>Relation.Attributes 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

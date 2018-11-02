@@ -1,17 +1,17 @@
 ---
 title: LevelDepth 属性 (ADO MD)
-TOCTitle: LevelDepth Property (ADO MD)
+TOCTitle: LevelDepth property (ADO MD)
 ms:assetid: ba680f1e-2731-ad6b-4cee-cd3d8d114788
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249894(v=office.15)
 ms:contentKeyID: 48547366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74be66479fbd911979401b66e5af2e2f62ade646
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ea31e6197e1c646632a312ed417bbbd1be9f4d7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882467"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923502"
 ---
 # <a name="leveldepth-property-ado-md"></a>LevelDepth 属性 (ADO MD)
 

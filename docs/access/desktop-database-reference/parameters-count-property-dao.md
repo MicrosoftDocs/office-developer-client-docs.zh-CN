@@ -1,19 +1,19 @@
 ---
-title: Parameters.Count Property (DAO)
+title: Parameters.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: bc8c814b-da55-22b7-431f-a0f7e6cac994
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822720(v=office.15)
 ms:contentKeyID: 48547415
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9a45ce03c68b310042a1abd6673fb7811fa21d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b021eaa165ec1ac32e8c241f3ebf59450a473422
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883811"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923455"
 ---
-# <a name="parameterscount-property-dao"></a>Parameters.Count Property (DAO)
+# <a name="parameterscount-property-dao"></a>Parameters.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

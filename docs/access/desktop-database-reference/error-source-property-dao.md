@@ -1,5 +1,5 @@
 ---
-title: Error.Source Property (DAO)
+title: Error.Source 属性 (DAO)
 TOCTitle: Source Property
 ms:assetid: 3c101cac-278e-025e-55a4-8a9d1ee7db3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192677(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 16d043f1906744988af35708a954e9224256f8f7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae372fd0b819d493da6b811def467eb8400b01c9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867991"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924636"
 ---
-# <a name="errorsource-property-dao"></a>Error.Source Property (DAO)
+# <a name="errorsource-property-dao"></a>Error.Source 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

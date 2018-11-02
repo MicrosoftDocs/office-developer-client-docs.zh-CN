@@ -1,6 +1,6 @@
 ---
 title: PROCEDURE 子句 (Microsoft Access SQL)
-TOCTitle: PROCEDURE Clause (Microsoft Access SQL)
+TOCTitle: PROCEDURE clause (Microsoft Access SQL)
 ms:assetid: a718802c-9260-88d5-ec29-d5e5594927b0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821342(v=office.15)
 ms:contentKeyID: 48546872
@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 63b38a469c5de60588783381c24c61296b177bdd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd99fb241572f2e16eae914ba7d1dea31e1d097f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877987"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924258"
 ---
 # <a name="procedure-clause-microsoft-access-sql"></a>PROCEDURE 子句 (Microsoft Access SQL)
 

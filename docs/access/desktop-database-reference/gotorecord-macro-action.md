@@ -1,6 +1,6 @@
 ---
 title: GoToRecord 宏操作
-TOCTitle: GoToRecord Macro Action
+TOCTitle: GoToRecord macro action
 ms:assetid: 76f936de-739b-63be-9b28-5b0e111408e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196037(v=office.15)
 ms:contentKeyID: 48545712
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 702910c12f0954b8d5cf8c0c49395cb65b8c661d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 90d50ce1f1435d38fdfe1ed11e76b49c212b87b3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879856"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922452"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord 宏操作
 

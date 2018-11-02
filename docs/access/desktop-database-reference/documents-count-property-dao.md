@@ -1,5 +1,5 @@
 ---
-title: Documents.Count Property (DAO)
+title: Documents.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: 3fc0b1e6-f7be-cd43-711f-5cf5763fe7f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192858(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053325
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab406b0d8141b0b7c1b22956bc1eb58906361915
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b01ec200278095893214f10dc9e50c5266153d72
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870609"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918931"
 ---
-# <a name="documentscount-property-dao"></a>Documents.Count Property (DAO)
+# <a name="documentscount-property-dao"></a>Documents.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

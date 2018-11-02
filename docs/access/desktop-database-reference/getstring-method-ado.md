@@ -1,17 +1,17 @@
 ---
 title: GetString 方法 (ADO)
-TOCTitle: GetString Method (ADO)
+TOCTitle: GetString method (ADO)
 ms:assetid: f496305e-a1f5-7014-7808-7e4961e5f0fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
 ms:contentKeyID: 48548693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6c4de1278a093a1b0d4493c5dd994afe6a5d1b8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2c6524c52ad3c4821d5b7987415f8a9c2dcb1b1d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879870"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919022"
 ---
 # <a name="getstring-method-ado"></a>GetString 方法 (ADO)
 

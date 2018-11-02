@@ -1,19 +1,19 @@
 ---
-title: Databases Members (DAO)
+title: 数据库成员 (DAO)
 TOCTitle: Databases Members
 ms:assetid: 26590849-6530-7e10-9a2c-1a9a5b2bfac6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
 ms:contentKeyID: 48543805
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae9def4b04e02c13164c9fcd1ac870a1043cf2ad
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: efcc6095d25920287820925eed29be7444e993fb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889684"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923089"
 ---
-# <a name="databases-members-dao"></a>Databases Members (DAO)
+# <a name="databases-members-dao"></a>数据库成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,19 +1,19 @@
 ---
-title: Recordset.LastUpdated Property (DAO)
+title: Recordset.LastUpdated 属性 (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 091a8e10-01c0-20af-7230-cd7103c243a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845045(v=office.15)
 ms:contentKeyID: 48543116
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ebbb0cdf44cfb61764af6862f24249c8040c3a5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 19c9539effe5e119cc85dd5eab2f096fe1fd9410
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881641"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920191"
 ---
-# <a name="recordsetlastupdated-property-dao"></a>Recordset.LastUpdated Property (DAO)
+# <a name="recordsetlastupdated-property-dao"></a>Recordset.LastUpdated 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

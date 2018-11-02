@@ -1,6 +1,6 @@
 ---
 title: ImportExportData 宏操作
-TOCTitle: ImportExportData Macro Action
+TOCTitle: ImportExportData macro action
 ms:assetid: 2cbde873-8a3d-b15c-4aab-405cddf44cea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192107(v=office.15)
 ms:contentKeyID: 48543961
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 62a496867852afb89d5b556f6be793f3f8c3739e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 847f23c429b06fee51b42aa211d672b051accb7c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887780"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920394"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData 宏操作
 

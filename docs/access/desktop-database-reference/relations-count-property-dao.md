@@ -1,19 +1,19 @@
 ---
-title: Relations.Count Property (DAO)
+title: Relations.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: 7cb3885f-6896-8402-8b18-12769473f051
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196377(v=office.15)
 ms:contentKeyID: 48545843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1be0766c1f1a2057e5cb7137d2e9131a2505f75
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5af98ffa550dc2ba959284e16af1e1bf5ac39328
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876006"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920737"
 ---
-# <a name="relationscount-property-dao"></a>Relations.Count Property (DAO)
+# <a name="relationscount-property-dao"></a>Relations.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

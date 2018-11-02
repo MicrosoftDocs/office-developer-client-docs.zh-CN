@@ -1,17 +1,17 @@
 ---
 title: Source 属性 (ADO MD)
-TOCTitle: Source Property (ADO MD)
+TOCTitle: Source property (ADO MD)
 ms:assetid: 956e8bf4-a1af-3202-b289-61073a14ee6c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249664(v=office.15)
 ms:contentKeyID: 48546431
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98778ee98f88ba12b4100e9d852990eeecc881dc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e5fed390f977d03f5956d53c0515c5b67bf21f0e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872282"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924251"
 ---
 # <a name="source-property-ado-md"></a>Source 属性 (ADO MD)
 

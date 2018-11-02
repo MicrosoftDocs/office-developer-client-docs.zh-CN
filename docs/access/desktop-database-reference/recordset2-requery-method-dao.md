@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Requery Method (DAO)
+title: Recordset2.Requery 方法 (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4646003bb7911fc18840d75addf459935ebb1fbd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e9b6986ca4baeda6adad4154538304c31e023390
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878631"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925483"
 ---
-# <a name="recordset2requery-method-dao"></a>Recordset2.Requery Method (DAO)
+# <a name="recordset2requery-method-dao"></a>Recordset2.Requery 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

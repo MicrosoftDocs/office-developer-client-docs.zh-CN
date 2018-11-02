@@ -1,6 +1,6 @@
 ---
 title: RunApplication 宏操作
-TOCTitle: RunApplication Macro Action
+TOCTitle: RunApplication macro action
 ms:assetid: 29967e6e-c441-b115-3ee6-2299b8a3bc25
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192038(v=office.15)
 ms:contentKeyID: 48543885
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bf7e64c3c60098bf95a101773dbbb678ea5b711f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2fcc3cc7bac9bcc4ab1f87c6e3da791eab06fc94
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879989"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919274"
 ---
 # <a name="runapplication-macro-action"></a>RunApplication 宏操作
 

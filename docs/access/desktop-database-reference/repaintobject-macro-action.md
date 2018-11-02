@@ -1,6 +1,6 @@
 ---
 title: RepaintObject 宏操作
-TOCTitle: RepaintObject Macro Action
+TOCTitle: RepaintObject macro action
 ms:assetid: e8fa7d0b-578c-5071-2bd5-b772b48637a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836055(v=office.15)
 ms:contentKeyID: 48548431
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 431baa0e98d0ae3a636cb93fd799c3bdf4450816
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 369c518ab0ab213975bb7da3c96b6e5844bad9ee
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882607"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919414"
 ---
 # <a name="repaintobject-macro-action"></a>RepaintObject 宏操作
 

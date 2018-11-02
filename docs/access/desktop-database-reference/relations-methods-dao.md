@@ -1,28 +1,28 @@
 ---
-title: Relations Methods (DAO)
+title: 关系方法 (DAO)
 TOCTitle: Methods
 ms:assetid: 4581d01e-afa5-438b-847b-58ef8c8e7772
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124596(v=office.15)
 ms:contentKeyID: 52072219
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b6e329b28d4a708f3825b55cf15476059a82593
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9f540fda4cfa59e7910905751dfe6b0a90f57b3a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867179"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920303"
 ---
-# <a name="relations-methods-dao"></a>Relations Methods (DAO)
+# <a name="relations-methods-dao"></a>关系方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013
 
 
 
-  - [Relations.Append Method (DAO)](relations-append-method-dao.md)
+  - [Relations.Append 方法 (DAO)](relations-append-method-dao.md)
 
-  - [Relations.Delete Method (DAO)](relations-delete-method-dao.md)
+  - [Relations.Delete 方法 (DAO)](relations-delete-method-dao.md)
 
-  - [Relations.Refresh Method (DAO)](relations-refresh-method-dao.md)
+  - [Relations.Refresh 方法 (DAO)](relations-refresh-method-dao.md)
 

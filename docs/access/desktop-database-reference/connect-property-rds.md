@@ -1,17 +1,17 @@
 ---
 title: Connect 属性 (RDS)
-TOCTitle: Connect Property (RDS)
+TOCTitle: Connect property (RDS)
 ms:assetid: 11aa3284-18e9-6d2d-761b-c25090370b77
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248890(v=office.15)
 ms:contentKeyID: 48543324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d9b901f925ccc009a12ef527f7bc857515042c6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ebd9eb25e2e0e6b9b2233ff0d9faf8c3e369f0f9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872401"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925259"
 ---
 # <a name="connect-property-rds"></a>Connect 属性 (RDS)
 

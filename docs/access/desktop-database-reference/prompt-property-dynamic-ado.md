@@ -1,19 +1,19 @@
 ---
-title: "Prompt 属性 \x97 动态 (ADO)"
-TOCTitle: Prompt Property--Dynamic (ADO)
+title: 提示动态属性 (ADO)
+TOCTitle: Prompt dynamic property (ADO)
 ms:assetid: 6c899b03-1d1f-a81f-dc17-7205a0230af9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
 ms:contentKeyID: 48545473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 491aea720995ec140ef3701a5ffdbdc5171c4a32
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1898169881042b9c7af36668e26c93200d0cb5f8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868355"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924615"
 ---
-# <a name="prompt-property--dynamic-ado"></a>Prompt 属性  动态 (ADO)
+# <a name="prompt-dynamic-property-ado"></a>提示动态属性 (ADO)
 
 
 **适用于**： Access 2013、 Office 2013

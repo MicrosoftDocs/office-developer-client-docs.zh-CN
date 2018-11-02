@@ -1,5 +1,5 @@
 ---
-title: Connection.Recordsets Property (DAO)
+title: Connection.Recordsets 属性 (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: 3f8c8932-d404-ef54-a869-f77dc1325794
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192854(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053364
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09a50709df32e9853cca0c35adfc4dde5e8a0258
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 06a214bb2c126c01d1c446fec42525be4a15b375
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887444"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918756"
 ---
-# <a name="connectionrecordsets-property-dao"></a>Connection.Recordsets Property (DAO)
+# <a name="connectionrecordsets-property-dao"></a>Connection.Recordsets 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

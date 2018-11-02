@@ -1,19 +1,19 @@
 ---
-title: Workspace.OpenConnection Method (DAO)
+title: Workspace.OpenConnection 方法 (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 9d97f298-a2d5-3b91-2efd-57f06fbd4654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
 ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fb625208e5d47f4107adac5c429257ae58e2eab
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9ca2c1b66b8c74eb66bbbf8de2614bfb2ad546a3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882173"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919932"
 ---
-# <a name="workspaceopenconnection-method-dao"></a>Workspace.OpenConnection Method (DAO)
+# <a name="workspaceopenconnection-method-dao"></a>Workspace.OpenConnection 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

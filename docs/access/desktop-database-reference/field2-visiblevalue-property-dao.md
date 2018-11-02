@@ -1,5 +1,5 @@
 ---
-title: Field2.VisibleValue Property (DAO)
+title: Field2.VisibleValue 属性 (DAO)
 TOCTitle: VisibleValue Property
 ms:assetid: 1e023a1a-fd49-7570-42bd-2f4c06ac5e5e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845809(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101184
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 896cc3866b52aeb8bbd2956ea84f9470671a407a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9b33fe61eaeb7d1a6006ffaf4566b65be9f68243
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873255"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926064"
 ---
-# <a name="field2visiblevalue-property-dao"></a>Field2.VisibleValue Property (DAO)
+# <a name="field2visiblevalue-property-dao"></a>Field2.VisibleValue 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

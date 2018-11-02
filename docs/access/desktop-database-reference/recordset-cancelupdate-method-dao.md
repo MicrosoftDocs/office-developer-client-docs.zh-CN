@@ -1,5 +1,5 @@
 ---
-title: Recordset.CancelUpdate Method (DAO)
+title: Recordset.CancelUpdate 方法 (DAO)
 TOCTitle: CancelUpdate Method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836421(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053072
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0112d094829753f5b012de80245f93fef3a2a472
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c75b98de62738e479b0bbb1608097f0f920cf60c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880353"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926484"
 ---
-# <a name="recordsetcancelupdate-method-dao"></a>Recordset.CancelUpdate Method (DAO)
+# <a name="recordsetcancelupdate-method-dao"></a>Recordset.CancelUpdate 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

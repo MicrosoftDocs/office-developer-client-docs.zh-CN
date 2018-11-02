@@ -1,5 +1,5 @@
 ---
-title: Field.GetChunk Method (DAO)
+title: Field.GetChunk 方法 (DAO)
 TOCTitle: GetChunk Method
 ms:assetid: b8984e79-54f7-8052-85a3-d12033daf7a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822448(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c2a308fc5cf33c4d94e4ee2911596ea80c4ec494
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 228c7d64d67b93a5f057c8d27c0f7a4fcc7d9064
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886527"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921549"
 ---
-# <a name="fieldgetchunk-method-dao"></a>Field.GetChunk Method (DAO)
+# <a name="fieldgetchunk-method-dao"></a>Field.GetChunk 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

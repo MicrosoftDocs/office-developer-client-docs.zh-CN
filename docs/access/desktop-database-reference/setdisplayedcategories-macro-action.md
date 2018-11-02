@@ -1,6 +1,6 @@
 ---
 title: SetDisplayedCategories 宏操作
-TOCTitle: SetDisplayedCategories Macro Action
+TOCTitle: SetDisplayedCategories macro action
 ms:assetid: e8bf39a6-c639-2232-7b21-3b0badf37e4b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836053(v=office.15)
 ms:contentKeyID: 48548429
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm20026
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 53c59c17f7f5c1486c00cd849f5c35197bde3e14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 985630f65508f7fca37de24f93649c8cf6047180
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889747"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920317"
 ---
 # <a name="setdisplayedcategories-macro-action"></a>SetDisplayedCategories 宏操作
 

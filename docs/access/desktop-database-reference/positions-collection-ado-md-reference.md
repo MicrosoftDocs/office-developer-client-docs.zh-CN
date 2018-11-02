@@ -1,26 +1,22 @@
 ---
-title: Positions Collection (ADO MD Reference)
-TOCTitle: Positions Collection (ADO MD)
+title: Positions 集合 （ADO MD 参考 （英文）
+TOCTitle: Positions collection (ADO MD)
 ms:assetid: 325ee360-16b1-4878-ac5a-80d8fc3f7299
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249096(v=office.15)
 ms:contentKeyID: 48544074
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e834419c2527c6ef9b1c5bf094effc9e3c166d4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6856c1f4f8098582fee7db0cfd02d72b659e8bfa
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880283"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927170"
 ---
-# <a name="positions-collection-ado-md-reference"></a>Positions Collection (ADO MD Reference)
-
+# <a name="positions-collection-ado-md-reference"></a>Positions 集合 （ADO MD 参考 （英文）
 
 **适用于**： Access 2013、 Office 2013
 
-
-
-  - [Positions 集合 (ADO MD)](positions-collection-ado-md.md)
-
-  - [Positions Collection Properties, Methods, and Events (ADO MD)](positions-collection-properties-methods-and-events-ado-md.md)
+- [Positions 集合 (ADO MD)](positions-collection-ado-md.md)
+- [Positions 集合的属性、 方法和事件 (ADO MD)](positions-collection-properties-methods-and-events-ado-md.md)
 

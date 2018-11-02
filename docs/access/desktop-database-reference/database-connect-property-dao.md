@@ -1,19 +1,19 @@
 ---
-title: Database.Connect Property (DAO)
+title: Database.Connect 属性 (DAO)
 TOCTitle: Connect Property
 ms:assetid: c3e511a6-baef-3758-cfb1-3459b0b19cf3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823048(v=office.15)
 ms:contentKeyID: 48547578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82b75af86d45b8711660d769607c46b626477bac
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3a6af1ee460cc06d37fe031fe5488badd8b56ad6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872793"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925756"
 ---
-# <a name="databaseconnect-property-dao"></a>Database.Connect Property (DAO)
+# <a name="databaseconnect-property-dao"></a>Database.Connect 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

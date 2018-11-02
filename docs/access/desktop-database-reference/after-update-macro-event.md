@@ -1,6 +1,6 @@
 ---
-title: “更新后”宏事件
-TOCTitle: After Update Macro Event
+title: After Update 宏事件
+TOCTitle: After Update macro event
 ms:assetid: 5213793b-8301-0f18-3a12-4e3764c879ac
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193905(v=office.15)
 ms:contentKeyID: 48544838
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab9f9ef75c5db8ce1307bcd466a5c898e84ca870
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 237b3633ab70bcdbe84ce52f7d25b2203091cb1e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869860"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919134"
 ---
-# <a name="after-update-macro-event"></a>“更新后”宏事件
+# <a name="after-update-macro-event"></a>After Update 宏事件
 
 
 **适用于**： Access 2013、 Office 2013
@@ -72,7 +72,7 @@ End If
 <tbody>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="comment-macro-statement.md">注释宏语句</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment 宏语句</a></p></td>
 </tr>
 <tr class="even">
 <td><p>程序流</p></td>
@@ -80,7 +80,7 @@ End If
 </tr>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="if-then-else-macro-block.md">如果...然后...其他宏程序块</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else 宏程序块</a></p></td>
 </tr>
 <tr class="even">
 <td><p>数据块</p></td>

@@ -1,19 +1,19 @@
 ---
-title: Workspaces Members (DAO)
+title: 工作区成员 (DAO)
 TOCTitle: Workspaces Members
 ms:assetid: 5eaf6de5-44dc-5566-a98f-db54aecf15cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194667(v=office.15)
 ms:contentKeyID: 48545141
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89fef6b29293dd40133a9db7852b47edadba420d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1718861237e59761c337c504508c60348df2b611
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883608"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923145"
 ---
-# <a name="workspaces-members-dao"></a>Workspaces Members (DAO)
+# <a name="workspaces-members-dao"></a>工作区成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

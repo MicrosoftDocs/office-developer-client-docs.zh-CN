@@ -1,6 +1,6 @@
 ---
 title: OnError 宏操作
-TOCTitle: OnError Macro Action
+TOCTitle: OnError macro action
 ms:assetid: 5c6073c4-2c0f-0ed2-83b0-477636e2d81c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194562(v=office.15)
 ms:contentKeyID: 48545088
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm62274
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e755683b4c040b37f0da12f7e67e8c400e62edb4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 38dc9491a03d2bfa043bddec84efd7fc12c5d08a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882138"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919120"
 ---
 # <a name="onerror-macro-action"></a>OnError 宏操作
 

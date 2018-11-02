@@ -1,19 +1,19 @@
 ---
-title: Fields Collection (DAO)
+title: Fields 集合 (DAO)
 TOCTitle: Fields Collection
 ms:assetid: 4be3ba07-20c1-d958-c1b8-7dd8b4731f60
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193530(v=office.15)
 ms:contentKeyID: 48544702
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 94c8ec6dd4493a717feb7a6f5d7402df624e9184
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 79515c413918bca1b83d18abec41c78f3fd52447
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882439"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921236"
 ---
-# <a name="fields-collection-dao"></a>Fields Collection (DAO)
+# <a name="fields-collection-dao"></a>Fields 集合 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

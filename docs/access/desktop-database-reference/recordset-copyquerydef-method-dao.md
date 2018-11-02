@@ -1,19 +1,19 @@
 ---
-title: Recordset.CopyQueryDef Method (DAO)
+title: Recordset.CopyQueryDef 方法 (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: fee8c2fe-500e-dfb3-21ce-211e54ff334b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837296(v=office.15)
 ms:contentKeyID: 48548950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73bc9bb5063068dc3f29345b3828db4f7729110f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45856ba6563924d0a918cf89dd95a86287d68acf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885323"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921773"
 ---
-# <a name="recordsetcopyquerydef-method-dao"></a>Recordset.CopyQueryDef Method (DAO)
+# <a name="recordsetcopyquerydef-method-dao"></a>Recordset.CopyQueryDef 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

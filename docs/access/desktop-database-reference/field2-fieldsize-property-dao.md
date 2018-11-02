@@ -1,5 +1,5 @@
 ---
-title: Field2.FieldSize Property (DAO)
+title: Field2.FieldSize 属性 (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: d609801d-7761-663f-2840-de5923bb120c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835039(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052870
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f734e59cbf6c2368f99d32fed7e53d50cfedcfc3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b9021d8a9644dba7cbbb10711f1ecaa3e8b101c0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884679"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25918854"
 ---
-# <a name="field2fieldsize-property-dao"></a>Field2.FieldSize Property (DAO)
+# <a name="field2fieldsize-property-dao"></a>Field2.FieldSize 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

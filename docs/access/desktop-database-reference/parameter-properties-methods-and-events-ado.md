@@ -1,19 +1,19 @@
 ---
-title: Parameter Properties, Methods, and Events (ADO)
+title: 参数属性、 方法和事件 (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3689904e-be91-ce15-1784-72f862033828
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249125(v=office.15)
 ms:contentKeyID: 48544173
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 11460e7f5df30325091ebe103a2b6279f6b42441
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a4d916f22df99f1d17ba2886ef891954b8381e95
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883741"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924706"
 ---
-# <a name="parameter-properties-methods-and-events-ado"></a>Parameter Properties, Methods, and Events (ADO)
+# <a name="parameter-properties-methods-and-events-ado"></a>参数属性、 方法和事件 (ADO)
 
 
 **适用于**： Access 2013、 Office 2013

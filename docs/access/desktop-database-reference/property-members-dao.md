@@ -1,19 +1,19 @@
 ---
-title: Property Members (DAO)
+title: 属性成员 (DAO)
 TOCTitle: Property Members
 ms:assetid: 32658adb-f153-148d-a216-eb97b996579a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
 ms:contentKeyID: 48544076
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07e9aa4ec5305b79dc3e48442cf6b76b2ce78fb7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 874ac5f6e5b26a5d7e3aa4b34d85e8ee548040b6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888277"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922928"
 ---
-# <a name="property-members-dao"></a>Property Members (DAO)
+# <a name="property-members-dao"></a>属性成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

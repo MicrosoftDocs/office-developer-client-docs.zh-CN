@@ -1,17 +1,17 @@
 ---
 title: SaveToFile 方法 (ADO)
-TOCTitle: SaveToFile Method (ADO)
+TOCTitle: SaveToFile method (ADO)
 ms:assetid: db0fd95e-8ef3-af87-5346-8f8713153ca7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250104(v=office.15)
 ms:contentKeyID: 48548097
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e1fcb4a5365f431eed4ed30ca57a3418abac9e2e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 535e743a9de708b264c225f4e86390a11e1d20e5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875460"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925023"
 ---
 # <a name="savetofile-method-ado"></a>SaveToFile 方法 (ADO)
 

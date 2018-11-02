@@ -1,19 +1,19 @@
 ---
-title: Field2 Object (DAO)
+title: Field2 对象 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
 ms:contentKeyID: 48544994
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b092007ed2ba0dc3f2b6e53cc059e2382a064e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0a00fe4902c9609a5f881b7705b01f35e47ef08b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870371"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926512"
 ---
-# <a name="field2-object-dao"></a>Field2 Object (DAO)
+# <a name="field2-object-dao"></a>Field2 对象 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

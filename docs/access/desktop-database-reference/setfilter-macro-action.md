@@ -1,6 +1,6 @@
 ---
 title: SetFilter 宏操作
-TOCTitle: SetFilter Macro Action
+TOCTitle: SetFilter macro action
 ms:assetid: dee699e2-0840-1612-23ce-199ef8d30566
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835438(v=office.15)
 ms:contentKeyID: 48548203
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4292ded0638e8dbe3ad56aa835caa9c6541f0432
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b21c918f4a55d66cd4e7c7b91cd5612b6309619
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874312"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925561"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter 宏操作
 

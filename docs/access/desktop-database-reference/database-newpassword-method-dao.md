@@ -1,5 +1,5 @@
 ---
-title: Database.NewPassword Method (DAO)
+title: Database.NewPassword 方法 (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4b3d4d26a194e2790bf03fcdc5d1911c1e69bbf8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4dca778da3c364d9e9b5a5eaf8ebbc32501853f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882866"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919358"
 ---
-# <a name="databasenewpassword-method-dao"></a>Database.NewPassword Method (DAO)
+# <a name="databasenewpassword-method-dao"></a>Database.NewPassword 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

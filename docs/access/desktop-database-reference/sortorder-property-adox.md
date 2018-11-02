@@ -1,17 +1,17 @@
 ---
 title: SortOrder 属性 (ADOX)
-TOCTitle: SortOrder Property (ADOX)
+TOCTitle: SortOrder property (ADOX)
 ms:assetid: c2b8c84d-acc4-9929-fff5-9a088abbfcf1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249951(v=office.15)
 ms:contentKeyID: 48547557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e17e160213eb4766c1ace8ac8afd0356dcf6bb5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ee094166e971a321d0a775fcfd8d841bfb0fc047
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25890013"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919631"
 ---
 # <a name="sortorder-property-adox"></a>SortOrder 属性 (ADOX)
 

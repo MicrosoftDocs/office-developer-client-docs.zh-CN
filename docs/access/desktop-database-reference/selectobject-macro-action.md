@@ -1,6 +1,6 @@
 ---
 title: SelectObject 宏操作
-TOCTitle: SelectObject Macro Action
+TOCTitle: SelectObject macro action
 ms:assetid: a90539a0-c5a0-e997-9c25-e0972d28f2a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821420(v=office.15)
 ms:contentKeyID: 48546914
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 655b5c9273e84be3365116c2e7b93c657c0d732f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f134a43aaa56a1b206330175658f92e5076a4a14
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884056"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919288"
 ---
 # <a name="selectobject-macro-action"></a>SelectObject 宏操作
 

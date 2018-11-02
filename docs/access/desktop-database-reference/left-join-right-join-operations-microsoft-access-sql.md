@@ -1,6 +1,6 @@
 ---
-title: LEFT JOIN 和 RIGHT JOIN 操作 (Microsoft Access SQL)
-TOCTitle: LEFT JOIN, RIGHT JOIN Operations (Microsoft Access SQL)
+title: LEFT JOIN，RIGHT JOIN 操作 (Microsoft Access SQL)
+TOCTitle: LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
 ms:assetid: 9c10525f-98b1-fd4f-8b40-07a32c5c6502
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198084(v=office.15)
 ms:contentKeyID: 48546586
@@ -8,14 +8,14 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: 4e2c9f8b47622bf9408d02b683af4e48d52c8662
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a16df1e26e4ab5617e6bf76aa93a11a936ccb49b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870525"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925896"
 ---
-# <a name="left-join-right-join-operations-microsoft-access-sql"></a>LEFT JOIN 和 RIGHT JOIN 操作 (Microsoft Access SQL)
+# <a name="left-join-right-join-operations-microsoft-access-sql"></a>LEFT JOIN，RIGHT JOIN 操作 (Microsoft Access SQL)
 
 **适用于**： Access 2013、 Office 2013
 

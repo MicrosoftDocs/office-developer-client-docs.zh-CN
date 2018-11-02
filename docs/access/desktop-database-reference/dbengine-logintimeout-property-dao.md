@@ -1,5 +1,5 @@
 ---
-title: DBEngine.LoginTimeout Property (DAO)
+title: DBEngine.LoginTimeout 属性 (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 81d14153-79c5-7860-b6a8-4079d2d7acf7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196648(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052923
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8c6b7798419dc72dc28822741e2d038203ae257e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 91669b054cf9075375c4a5457086adc45ba43c70
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880717"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925903"
 ---
-# <a name="dbenginelogintimeout-property-dao"></a>DBEngine.LoginTimeout Property (DAO)
+# <a name="dbenginelogintimeout-property-dao"></a>DBEngine.LoginTimeout 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

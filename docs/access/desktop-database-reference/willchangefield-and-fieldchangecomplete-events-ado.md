@@ -1,17 +1,17 @@
 ---
 title: WillChangeField 和 FieldChangeComplete 事件 (ADO)
-TOCTitle: WillChangeField and FieldChangeComplete Events (ADO)
+TOCTitle: WillChangeField and FieldChangeComplete events (ADO)
 ms:assetid: bc4455a6-2925-33dc-d04f-8ea570e5e370
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
 ms:contentKeyID: 48547407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa26ff85bfb3a2b5666b98ea6ab6b30e689b5c2b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2967b6670ad96752e7ce47d82227fad70335e1f6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872688"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927401"
 ---
 # <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>WillChangeField 和 FieldChangeComplete 事件 (ADO)
 
