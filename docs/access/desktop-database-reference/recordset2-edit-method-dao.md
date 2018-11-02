@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Edit Method (DAO)
+title: Recordset2.Edit 方法 (DAO)
 TOCTitle: Edit Method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192452(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3f55107988002cf5718eac5eb445529f5c4e3e98
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8fbbbe147c4c943044123b711ffb3361af5284cf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867774"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928234"
 ---
-# <a name="recordset2edit-method-dao"></a>Recordset2.Edit Method (DAO)
+# <a name="recordset2edit-method-dao"></a>Recordset2.Edit 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

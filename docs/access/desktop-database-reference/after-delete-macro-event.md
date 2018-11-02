@@ -1,6 +1,6 @@
 ---
-title: “删除后”宏事件
-TOCTitle: After Delete Macro Event
+title: After Delete 宏事件
+TOCTitle: After Delete macro event
 ms:assetid: ecf9e6d4-345f-9b78-eb36-bd526e5df09b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836323(v=office.15)
 ms:contentKeyID: 48548527
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b180acb99ab2ac406a7b60fdecf8aff5d63eb71f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 943f16c5bb1f1525c8da36938fa6beb2e6f71444
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869111"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929795"
 ---
-# <a name="after-delete-macro-event"></a>“删除后”宏事件
+# <a name="after-delete-macro-event"></a>After Delete 宏事件
 
 
 **适用于**： Access 2013、 Office 2013
@@ -74,7 +74,7 @@ End If
 <tbody>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="comment-macro-statement.md">注释宏语句</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment 宏语句</a></p></td>
 </tr>
 <tr class="even">
 <td><p>程序流</p></td>
@@ -82,7 +82,7 @@ End If
 </tr>
 <tr class="odd">
 <td><p>程序流</p></td>
-<td><p><a href="if-then-else-macro-block.md">如果...然后...其他宏程序块</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else 宏程序块</a></p></td>
 </tr>
 <tr class="even">
 <td><p>数据块</p></td>

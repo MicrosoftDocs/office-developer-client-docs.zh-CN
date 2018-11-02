@@ -1,19 +1,19 @@
 ---
-title: Recordset2.FindPrevious Method (DAO)
+title: Recordset2.FindPrevious 方法 (DAO)
 TOCTitle: FindPrevious Method
 ms:assetid: ec35faf4-20f2-a83f-54e4-ac1f66c3c2be
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836294(v=office.15)
 ms:contentKeyID: 48548509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2495f81cc1d8353daaa0e3b99ee2a9ff8c04f85f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1ff129efa0edd47cf1bc8eab6ba687802f7470da
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884035"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931195"
 ---
-# <a name="recordset2findprevious-method-dao"></a>Recordset2.FindPrevious Method (DAO)
+# <a name="recordset2findprevious-method-dao"></a>Recordset2.FindPrevious 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

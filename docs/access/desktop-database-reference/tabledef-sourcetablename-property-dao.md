@@ -1,5 +1,5 @@
 ---
-title: TableDef.SourceTableName Property (DAO)
+title: TableDef.SourceTableName 属性 (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052901
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65ba3b34ca70ac94f771cfc8545cf5e703e769b9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9139ae6593f2c1645c8bf68fe2b79f2f763f746c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885953"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929109"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a>TableDef.SourceTableName Property (DAO)
+# <a name="tabledefsourcetablename-property-dao"></a>TableDef.SourceTableName 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013 

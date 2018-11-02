@@ -1,17 +1,17 @@
 ---
 title: Catalog 对象 (ADOX)
-TOCTitle: Catalog Object (ADOX)
+TOCTitle: Catalog object (ADOX)
 ms:assetid: d9e8d94b-9161-3eb6-abaf-00d1244d1f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d1be720b8c3791830a4258d6241466ba596d85e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 31a0d2212f063eca013c1668b47e548df1405366
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887654"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922571"
 ---
 # <a name="catalog-object-adox"></a>Catalog 对象 (ADOX)
 

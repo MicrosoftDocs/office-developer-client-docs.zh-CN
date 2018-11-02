@@ -1,19 +1,19 @@
 ---
-title: QueryDefs.Append Method (DAO)
+title: QueryDefs.Append 方法 (DAO)
 TOCTitle: Append Method
 ms:assetid: 9b62a26b-3b7c-6d26-7707-177b00a23178
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198041(v=office.15)
 ms:contentKeyID: 48546570
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c152d52d2a89beaa82061d0d5ae1a5d8d25c1809
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d757bf9d05c829e41af97cac6a30ffb064a3b113
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888683"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929725"
 ---
-# <a name="querydefsappend-method-dao"></a>QueryDefs.Append Method (DAO)
+# <a name="querydefsappend-method-dao"></a>QueryDefs.Append 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

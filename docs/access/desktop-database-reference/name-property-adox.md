@@ -1,17 +1,17 @@
 ---
 title: Name 属性 (ADOX)
-TOCTitle: Name Property (ADOX)
+TOCTitle: Name property (ADOX)
 ms:assetid: c92a3b2b-6e3f-1ed9-c7be-bf348a0737af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
 ms:contentKeyID: 48547674
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eab0b4b21f68f4facbd6b642aff4df5a328caad8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a65bad49c7b9b7a7af91403b1119923b62daa04a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883111"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931244"
 ---
 # <a name="name-property-adox"></a>Name 属性 (ADOX)
 

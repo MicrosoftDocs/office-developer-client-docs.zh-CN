@@ -1,24 +1,24 @@
 ---
-title: Databases Properties (DAO)
+title: 数据库属性 (DAO)
 TOCTitle: Properties
 ms:assetid: 724b5522-3cc5-4135-8d4f-23c254b44fe9
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160984(v=office.15)
 ms:contentKeyID: 52072948
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c01b78519dcec0245eb45ec0254adc41bab03c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5ed50d4e119fb4c4a790415b83da3bb016a81b0a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880808"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929221"
 ---
-# <a name="databases-properties-dao"></a>Databases Properties (DAO)
+# <a name="databases-properties-dao"></a>数据库属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013
 
 
 
-  - [Databases.Count Property (DAO)](databases-count-property-dao.md)
+  - [Databases.Count 属性 (DAO)](databases-count-property-dao.md)
 

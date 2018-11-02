@@ -1,19 +1,19 @@
 ---
-title: Fields Members (DAO)
+title: 字段成员 (DAO)
 TOCTitle: Fields Members
 ms:assetid: b7ba5b21-03f4-6ac0-2acc-777da3d22839
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
 ms:contentKeyID: 48547307
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b03af279c108e78dff5556cf1c78d45496329119
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b78db90a588f3b23ce2d0341f9eb1ac44eabd540
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889880"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931160"
 ---
-# <a name="fields-members-dao"></a>Fields Members (DAO)
+# <a name="fields-members-dao"></a>字段成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

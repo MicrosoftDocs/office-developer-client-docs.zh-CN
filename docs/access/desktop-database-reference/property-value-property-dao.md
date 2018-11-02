@@ -1,5 +1,5 @@
 ---
-title: Property.Value Property (DAO)
+title: Property.Value 属性 (DAO)
 TOCTitle: Value Property
 ms:assetid: 26e47b3a-4f70-27b5-2498-b44ce4dfc99f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191905(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cac6d4d1715599a71c082ebc988d3f07d76da2b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 41260e801be8ebd43d89f9f495f236ff60582a56
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888048"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930061"
 ---
-# <a name="propertyvalue-property-dao"></a>Property.Value Property (DAO)
+# <a name="propertyvalue-property-dao"></a>Property.Value 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

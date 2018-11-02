@@ -1,19 +1,19 @@
 ---
-title: Field2 Members (DAO)
+title: Field2 成员 (DAO)
 TOCTitle: Field2 Members
 ms:assetid: 27829bbc-8b4e-c7eb-f29b-bcbef341f9fd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 915a733d59d938e77f32a051b267b5e26bddf6a0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cf4fb6b98782b3a3f5951a6f0aa42e300f0c2620
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877119"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931335"
 ---
-# <a name="field2-members-dao"></a>Field2 Members (DAO)
+# <a name="field2-members-dao"></a>Field2 成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

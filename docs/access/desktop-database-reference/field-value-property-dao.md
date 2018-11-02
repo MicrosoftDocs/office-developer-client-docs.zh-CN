@@ -1,19 +1,19 @@
 ---
-title: Field.Value Property (DAO)
+title: Field.Value 属性 (DAO)
 TOCTitle: Value Property
 ms:assetid: 6c0f9a8d-f51a-b8cf-8830-f8d960a1d08c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195493(v=office.15)
 ms:contentKeyID: 48545465
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c45024d4677fa4ef4a35b07cca0b039378a996f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fafe0212fb0051d780c3a8f12dbc0d5fe319dc1f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889761"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928241"
 ---
-# <a name="fieldvalue-property-dao"></a>Field.Value Property (DAO)
+# <a name="fieldvalue-property-dao"></a>Field.Value 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

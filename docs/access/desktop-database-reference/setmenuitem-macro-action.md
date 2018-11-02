@@ -1,6 +1,6 @@
 ---
 title: SetMenuItem 宏操作
-TOCTitle: SetMenuItem Macro Action
+TOCTitle: SetMenuItem macro action
 ms:assetid: 503b3635-e721-1b99-3249-626e5dccdb8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193803(v=office.15)
 ms:contentKeyID: 48544789
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d7a7de3d627dacfa0ca014a80ea037d0728220d1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ecdfcb638a471a91cc6249636748c02b341151b8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873563"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922550"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem 宏操作
 

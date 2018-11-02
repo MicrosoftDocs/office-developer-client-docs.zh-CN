@@ -1,5 +1,5 @@
 ---
-title: Relations.Append Method (DAO)
+title: Relations.Append 方法 (DAO)
 TOCTitle: Append Method
 ms:assetid: dafcc7b8-b30d-2ba2-631d-eca0f882fc2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835334(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 58d6871406c39887af146dc131c302baa450a041
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 50e1cf6b2eb87e27f6ee0ca1468ef6dadc17e602
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884465"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922529"
 ---
-# <a name="relationsappend-method-dao"></a>Relations.Append Method (DAO)
+# <a name="relationsappend-method-dao"></a>Relations.Append 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

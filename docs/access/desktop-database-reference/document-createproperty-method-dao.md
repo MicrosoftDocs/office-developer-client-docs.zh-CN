@@ -1,5 +1,5 @@
 ---
-title: Document.CreateProperty Method (DAO)
+title: Document.CreateProperty 方法 (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 834fda60-1edf-38df-a9a5-d9d15e55e425
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196739(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ca31f8cc192065abd09957e2585fdfaabe39ff49
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 50d19b2341a709425a5cf974d8f947126ab4c717
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878190"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929984"
 ---
-# <a name="documentcreateproperty-method-dao"></a>Document.CreateProperty Method (DAO)
+# <a name="documentcreateproperty-method-dao"></a>Document.CreateProperty 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

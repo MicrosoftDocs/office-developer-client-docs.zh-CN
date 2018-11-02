@@ -1,17 +1,17 @@
 ---
 title: MoveRecord 方法 (ADO)
-TOCTitle: MoveRecord Method (ADO)
+TOCTitle: MoveRecord method (ADO)
 ms:assetid: efc341a2-0e08-a838-5925-8d4c46377e48
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 56c5b77d09ce568175b992391c8f3e7dcf3e9e15
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5aab77571b0b12c6b26cd15af386c9ee89162681
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872051"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930012"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord 方法 (ADO)
 

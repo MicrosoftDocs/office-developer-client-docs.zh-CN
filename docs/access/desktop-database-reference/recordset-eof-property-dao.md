@@ -1,19 +1,19 @@
 ---
-title: Recordset.EOF Property (DAO)
+title: Recordset.EOF 属性 (DAO)
 TOCTitle: EOF Property
 ms:assetid: aa82c6f9-89da-1061-437c-8ffb000744b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821459(v=office.15)
 ms:contentKeyID: 48546950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f2e8a7c3dfb3f531fa20ee9a52a1d83e5e8c7a3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6fc6c304f427d4ee98f6c7c653cfd4da76c8cf96
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884049"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931053"
 ---
-# <a name="recordseteof-property-dao"></a>Recordset.EOF Property (DAO)
+# <a name="recordseteof-property-dao"></a>Recordset.EOF 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

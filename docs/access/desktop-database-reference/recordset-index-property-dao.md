@@ -1,5 +1,5 @@
 ---
-title: Recordset.Index Property (DAO)
+title: Recordset.Index 属性 (DAO)
 TOCTitle: Index Property
 ms:assetid: 54626de0-eb51-31f2-bf24-e29cbfbbaa02
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194103(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052906
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a1799a87ba640ec90253bd262972b068fc01e03
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b5f568889d020676be420186b49c9c50c444ee54
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891210"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926134"
 ---
-# <a name="recordsetindex-property-dao"></a>Recordset.Index Property (DAO)
+# <a name="recordsetindex-property-dao"></a>Recordset.Index 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

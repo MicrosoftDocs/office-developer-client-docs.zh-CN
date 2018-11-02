@@ -1,17 +1,17 @@
 ---
 title: SortDirection 属性 (RDS)
-TOCTitle: SortDirection Property (RDS)
+TOCTitle: SortDirection property (RDS)
 ms:assetid: 33de0dce-f371-6a54-d179-0627939f5b14
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249106(v=office.15)
 ms:contentKeyID: 48544119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3603696992ab7ac759a62a70f50b4fa35636d2c0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: aef8b658bbe16c7b56c97900edb5a9c6bf1e8a0c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879149"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929641"
 ---
 # <a name="sortdirection-property-rds"></a>SortDirection 属性 (RDS)
 

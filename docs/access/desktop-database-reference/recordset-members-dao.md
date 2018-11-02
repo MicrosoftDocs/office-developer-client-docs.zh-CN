@@ -1,19 +1,19 @@
 ---
-title: Recordset Members (DAO)
+title: 记录集成员 (DAO)
 TOCTitle: Recordset Members
 ms:assetid: cfaae9ec-1b88-4285-1ebe-637564e99dc8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0bf59a8be000d01dc6f514112265b640384e549
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 73c83f4bba44ed7e30a45a02b1b273beb85a2851
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869377"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928290"
 ---
-# <a name="recordset-members-dao"></a>Recordset Members (DAO)
+# <a name="recordset-members-dao"></a>记录集成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

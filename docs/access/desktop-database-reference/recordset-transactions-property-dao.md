@@ -1,19 +1,19 @@
 ---
-title: Recordset.Transactions Property (DAO)
+title: Recordset.Transactions 属性 (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 7830c056-8d6a-7942-7993-aa04b29cd77f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196110(v=office.15)
 ms:contentKeyID: 48545746
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c3b34f8f027b2e70ada94c6d15584cf25a4aec1c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c033ec6f3d80210aaeeb36e9e3eca4b80bfb070d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873288"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931314"
 ---
-# <a name="recordsettransactions-property-dao"></a>Recordset.Transactions Property (DAO)
+# <a name="recordsettransactions-property-dao"></a>Recordset.Transactions 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,19 +1,19 @@
 ---
-title: Relation.CreateField Method (DAO)
+title: Relation.CreateField 方法 (DAO)
 TOCTitle: CreateField Method
 ms:assetid: bc60c91e-acef-1c90-7303-12f77cce15b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f2236a36f04f647ee5d18a58f7df54eeafba5399
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 564cbae4669a0405a0e33d0e9770bbaa8f6c9dfb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872107"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929480"
 ---
-# <a name="relationcreatefield-method-dao"></a>Relation.CreateField Method (DAO)
+# <a name="relationcreatefield-method-dao"></a>Relation.CreateField 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

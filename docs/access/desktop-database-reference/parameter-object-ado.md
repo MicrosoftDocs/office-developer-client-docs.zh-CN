@@ -1,17 +1,17 @@
 ---
 title: Parameter 对象 (ADO)
-TOCTitle: Parameter Object (ADO)
+TOCTitle: Parameter object (ADO)
 ms:assetid: 7577598e-3d0c-30c6-5f24-1cfe98791798
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249481(v=office.15)
 ms:contentKeyID: 48545676
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 382945e1f2ff37eb2155b2bc0db9f521ca85d2de
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2000585a890256da878483b5538990c1898fc84a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878274"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927810"
 ---
 # <a name="parameter-object-ado"></a>Parameter 对象 (ADO)
 

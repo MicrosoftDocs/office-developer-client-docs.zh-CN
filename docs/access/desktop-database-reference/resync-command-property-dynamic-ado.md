@@ -1,19 +1,19 @@
 ---
-title: "Resync Command 属性 \x97 动态 (ADO)"
-TOCTitle: Resync Command Property--Dynamic (ADO)
+title: Resync Command 动态属性 (ADO)
+TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 30707140284c4c4fda157e276e62666f0344ad14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 23d03c5c346b377333387a3be1c0f15bc091d235
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872002"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927940"
 ---
-# <a name="resync-command-property--dynamic-ado"></a>Resync Command 属性  动态 (ADO)
+# <a name="resync-command-dynamic-property-ado"></a>Resync Command 动态属性 (ADO)
 
 **适用于**： Access 2013、 Office 2013
 

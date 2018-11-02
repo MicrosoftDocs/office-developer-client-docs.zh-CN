@@ -1,17 +1,17 @@
 ---
 title: Errors 集合 (ADO)
-TOCTitle: Errors Collection (ADO)
+TOCTitle: Errors collection (ADO)
 ms:assetid: 76c234b8-7fec-11c5-275e-864d5d880ee7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
 ms:contentKeyID: 48545706
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb58176e51a9e73f8551abb05636af1cfbe48d57
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a6462fed7054a66777a7957e2128b23a6fc0440f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875215"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929543"
 ---
 # <a name="errors-collection-ado"></a>Errors 集合 (ADO)
 

@@ -1,17 +1,17 @@
 ---
 title: ParentCatalog 属性 (ADOX)
-TOCTitle: ParentCatalog Property (ADOX)
+TOCTitle: ParentCatalog property (ADOX)
 ms:assetid: 7eef4ef5-1fa4-73ea-a710-fc8767c9ea21
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249535(v=office.15)
 ms:contentKeyID: 48545891
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e316beebd45b39d7cbbb0714499ec7156a4bb270
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bbeed0283eaf7982d037cfe7bf4773db9a8c03b5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883720"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928451"
 ---
 # <a name="parentcatalog-property-adox"></a>ParentCatalog 属性 (ADOX)
 

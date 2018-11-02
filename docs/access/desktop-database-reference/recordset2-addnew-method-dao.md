@@ -1,19 +1,19 @@
 ---
-title: Recordset2.AddNew Method (DAO)
+title: Recordset2.AddNew 方法 (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 25c7d207-185c-943b-405e-b138ffb8b3e2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191874(v=office.15)
 ms:contentKeyID: 48543792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 274b32a53f6f2db53105b2ca5039efcf561c6d72
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67ddd40c6973b323820efbfa67d14c88f0c0b21a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870112"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928808"
 ---
-# <a name="recordset2addnew-method-dao"></a>Recordset2.AddNew Method (DAO)
+# <a name="recordset2addnew-method-dao"></a>Recordset2.AddNew 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

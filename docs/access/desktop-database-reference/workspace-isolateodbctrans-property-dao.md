@@ -1,5 +1,5 @@
 ---
-title: Workspace.IsolateODBCTrans Property (DAO)
+title: Workspace.IsolateODBCTrans 属性 (DAO)
 TOCTitle: IsolateODBCTrans Property
 ms:assetid: f7a48358-870b-cad3-d4ef-e46b50428e12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836924(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 197bf35c796fe1e34122b7d4214043e9217fb3d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2e0649fd29a2bed21a894334b34cfe64bc9b3563
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878540"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930040"
 ---
-# <a name="workspaceisolateodbctrans-property-dao"></a>Workspace.IsolateODBCTrans Property (DAO)
+# <a name="workspaceisolateodbctrans-property-dao"></a>Workspace.IsolateODBCTrans 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

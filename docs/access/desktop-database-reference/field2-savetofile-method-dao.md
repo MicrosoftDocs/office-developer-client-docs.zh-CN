@@ -1,5 +1,5 @@
 ---
-title: Field2.SaveToFile Method (DAO)
+title: Field2.SaveToFile 方法 (DAO)
 TOCTitle: SaveToFile Method
 ms:assetid: 250f9596-1a03-471d-96f9-718cd57dc94f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191852(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bdcd5f0d4d131533846eb4c05d2579f0703d408d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c73aa8f4023ea5d3a192608fad88bf336e6e858f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875707"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924797"
 ---
-# <a name="field2savetofile-method-dao"></a>Field2.SaveToFile Method (DAO)
+# <a name="field2savetofile-method-dao"></a>Field2.SaveToFile 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

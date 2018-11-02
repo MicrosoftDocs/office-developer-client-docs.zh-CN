@@ -1,19 +1,19 @@
 ---
-title: Relations.Refresh Method (DAO)
+title: Relations.Refresh 方法 (DAO)
 TOCTitle: Refresh Method
 ms:assetid: d71cecf2-da90-5f62-9e51-f994e660ad34
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835058(v=office.15)
 ms:contentKeyID: 48547997
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fea6525d56552129ddc697cd56adf1eb6409345
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: edd018039ce6f612994c06da1036318586924883
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891035"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928374"
 ---
-# <a name="relationsrefresh-method-dao"></a>Relations.Refresh Method (DAO)
+# <a name="relationsrefresh-method-dao"></a>Relations.Refresh 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

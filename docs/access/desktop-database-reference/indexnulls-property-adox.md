@@ -1,17 +1,17 @@
 ---
 title: IndexNulls 属性 (ADOX)
-TOCTitle: IndexNulls Property (ADOX)
+TOCTitle: IndexNulls property (ADOX)
 ms:assetid: 5c78c818-c23d-5b2c-d246-531aedc639df
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249326(v=office.15)
 ms:contentKeyID: 48545089
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3458e6cc8ed6c1bc0a39c2e919c6ee272af4dafd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5a3aebecd1b93539a8e1cd8e37d7b9f0d81fdc6f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877441"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930635"
 ---
 # <a name="indexnulls-property-adox"></a>IndexNulls 属性 (ADOX)
 

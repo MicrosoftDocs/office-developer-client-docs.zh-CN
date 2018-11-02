@@ -1,17 +1,17 @@
 ---
 title: Column 对象 (ADOX)
-TOCTitle: Column Object (ADOX)
+TOCTitle: Column object (ADOX)
 ms:assetid: ad38c2df-f704-0599-4b7a-8556e430ba46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
 ms:contentKeyID: 48547034
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28ae0f69303db5569b97799d8a77ca66828e2035
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ac4416dce7d3f9fa52c4b948b1e8d3e0167c2751
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879618"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930628"
 ---
 # <a name="column-object-adox"></a>Column 对象 (ADOX)
 

@@ -1,17 +1,17 @@
 ---
 title: Procedure 对象 (ADOX)
-TOCTitle: Procedure Object (ADOX)
+TOCTitle: Procedure object (ADOX)
 ms:assetid: d5fcf0fe-f59f-e114-dc11-515f11c2a2c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250076(v=office.15)
 ms:contentKeyID: 48547972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: afc4eae76395e7a15573ad5343955b0ab46df3db
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 72f0475aeca38b5c6ba6cd2954ff894f00fb6f7f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883349"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922648"
 ---
 # <a name="procedure-object-adox"></a>Procedure 对象 (ADOX)
 

@@ -1,5 +1,5 @@
 ---
-title: Database.CreateTableDef Method (DAO)
+title: Database.CreateTableDef 方法 (DAO)
 TOCTitle: CreateTableDef Method
 ms:assetid: d919b44e-ffae-dc4a-f1cc-d01df49987a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835094(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c5da4e34697599852283dbde51bb4bdc8ace96a8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 59e5cc34eb6325b6151ab053f9c870a999bd94aa
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872807"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927891"
 ---
-# <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef Method (DAO)
+# <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

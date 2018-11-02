@@ -1,17 +1,17 @@
 ---
 title: Type 属性 (ADO MD)
-TOCTitle: Type Property (ADO MD)
+TOCTitle: Type property (ADO MD)
 ms:assetid: 4aaa151e-1f02-aa7d-a9e5-e7019b200924
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249230(v=office.15)
 ms:contentKeyID: 48544671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f4a06956db9a051a130af0cbaa6f9090daa586b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3f5cffb5fb888298b23dad02d9593978e581aa6c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889362"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928745"
 ---
 # <a name="type-property-ado-md"></a>Type 属性 (ADO MD)
 

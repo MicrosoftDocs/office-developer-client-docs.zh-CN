@@ -1,17 +1,17 @@
 ---
 title: Key 对象 (ADOX-访问桌面数据库引用)
-TOCTitle: Key Object (ADOX)
+TOCTitle: Key object (ADOX)
 ms:assetid: 727198ec-57d2-7766-790c-370beb931de6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
 ms:contentKeyID: 48545608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2edda6dfe7dd9ec28f3eb4cb11714d59806c80e0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 11bd05c4959ba1f3e1819e482ce311fc798bf0e6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871358"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929830"
 ---
 # <a name="key-object-adox"></a>Key 对象 (ADOX)
 

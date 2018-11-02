@@ -1,6 +1,6 @@
 ---
 title: SendKeys 宏操作
-TOCTitle: SendKeys Macro Action
+TOCTitle: SendKeys macro action
 ms:assetid: 3b06fcfc-ea64-c780-b5fc-6fc72853f524
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192656(v=office.15)
 ms:contentKeyID: 48544275
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3f8ddc6c19f675db7cc04cb46a24e0f42ac991df
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: aa029e3a81670746cdc467ddf7578c5900b58b29
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881354"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929032"
 ---
 # <a name="sendkeys-macro-action"></a>SendKeys 宏操作
 

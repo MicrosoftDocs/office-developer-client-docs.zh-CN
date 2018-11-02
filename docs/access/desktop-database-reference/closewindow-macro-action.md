@@ -1,6 +1,6 @@
 ---
 title: CloseWindow 宏操作
-TOCTitle: CloseWindow Macro Action
+TOCTitle: CloseWindow macro action
 ms:assetid: ba96bc26-7f3f-fd3d-8d3a-e18bfe90cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822510(v=office.15)
 ms:contentKeyID: 48547377
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab6b3a265b6e63680add41ec051ba61a262819bd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f9bffbd129d8fb4fc1334dbd884556d98e7f140c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876839"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929319"
 ---
 # <a name="closewindow-macro-action"></a>CloseWindow 宏操作
 

@@ -1,19 +1,19 @@
 ---
-title: Workspaces.Count Property (DAO)
+title: Workspaces.Count 属性 (DAO)
 TOCTitle: Count Property
 ms:assetid: bc7c5a11-13d3-27bd-1be4-5d069e888ac2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822719(v=office.15)
 ms:contentKeyID: 48547414
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0632556d7e62b426f462e17d732db323513afcec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a2e2d048d59add02c020b0c6d3ed5b91918c58e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888249"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922921"
 ---
-# <a name="workspacescount-property-dao"></a>Workspaces.Count Property (DAO)
+# <a name="workspacescount-property-dao"></a>Workspaces.Count 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

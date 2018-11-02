@@ -1,6 +1,6 @@
 ---
 title: Properties 集合 (ADO)
-TOCTitle: Properties Collection (ADO)
+TOCTitle: Properties collection (ADO)
 ms:assetid: 4d662790-1252-c930-e6f9-edf6a38636af
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249245(v=office.15)
 ms:contentKeyID: 48544729
@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231104
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 018c09919aa09864d0b9027c6309b3b61212cf8b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 37cebaad95f1715ad53147709fb7f6a11344ef10
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875852"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922704"
 ---
 # <a name="properties-collection-ado"></a>Properties 集合 (ADO)
 

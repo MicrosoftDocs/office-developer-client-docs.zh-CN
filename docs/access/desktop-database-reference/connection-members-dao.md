@@ -1,19 +1,19 @@
 ---
-title: Connection Members (DAO)
+title: 连接成员 (DAO)
 TOCTitle: Connection Members
 ms:assetid: 94fc60ee-b6f2-cf08-b008-ed51bf7e7f8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d2c2af4dcf1cf8661d7cac170e8aa5b679ab083
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f8127109834a617e86116a81731d964181c1bdf2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886919"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930593"
 ---
-# <a name="connection-members-dao"></a>Connection Members (DAO)
+# <a name="connection-members-dao"></a>连接成员 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

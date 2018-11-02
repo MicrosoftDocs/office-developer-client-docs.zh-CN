@@ -1,19 +1,19 @@
 ---
-title: Containers.Refresh Method (DAO)
+title: Containers.Refresh 方法 (DAO)
 TOCTitle: Refresh Method
 ms:assetid: a4fe114a-9209-4a01-b7c8-8e83bc5adb04
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821123(v=office.15)
 ms:contentKeyID: 48546821
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d8fd20ea57a7e75d425b10b8ded7f5f8ab47086
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: dd21ce3cc63aaa7bdfb4f58d911350100dbb5069
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889866"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928192"
 ---
-# <a name="containersrefresh-method-dao"></a>Containers.Refresh Method (DAO)
+# <a name="containersrefresh-method-dao"></a>Containers.Refresh 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

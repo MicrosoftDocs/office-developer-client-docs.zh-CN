@@ -1,19 +1,19 @@
 ---
-title: TableDef.LastUpdated Property (DAO)
+title: TableDef.LastUpdated 属性 (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: fafe54e2-2cf0-5874-92b9-6e20a65e77ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837164(v=office.15)
 ms:contentKeyID: 48548859
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10d0203bd30c2e03f7cd2aaa761ac1cf76b12f94
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 81d8dfd040ef7df954b71f724ed1d2689d5d4b33
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870861"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928220"
 ---
-# <a name="tabledeflastupdated-property-dao"></a>TableDef.LastUpdated Property (DAO)
+# <a name="tabledeflastupdated-property-dao"></a>TableDef.LastUpdated 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

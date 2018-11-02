@@ -1,17 +1,17 @@
 ---
 title: WillConnect 事件 (ADO)
-TOCTitle: WillConnect Event (ADO)
+TOCTitle: WillConnect event (ADO)
 ms:assetid: 8b0e9955-4e7a-7af8-ce6c-7a4ba569a5bb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 51d9d0b11d137fbca8bf5efdddfe51469642c405
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4148baa827b42f34d9b4d15f2f94df2667959b0c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887170"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928311"
 ---
 # <a name="willconnect-event-ado"></a>WillConnect 事件 (ADO)
 

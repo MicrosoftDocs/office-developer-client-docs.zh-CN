@@ -1,17 +1,17 @@
 ---
 title: LoadFromFile 方法 (ADO)
-TOCTitle: LoadFromFile Method (ADO)
+TOCTitle: LoadFromFile method (ADO)
 ms:assetid: 33fd543f-bd24-9199-7540-2889b69221c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
 ms:contentKeyID: 48544123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 61244e989815d5c4ba1943e61aea7f6a6abf139d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 96bc0f55f6524a2aaa04bbe1f9b591ff2eb85bb8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872030"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925721"
 ---
 # <a name="loadfromfile-method-ado"></a>LoadFromFile 方法 (ADO)
 

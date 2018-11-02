@@ -1,17 +1,17 @@
 ---
 title: Open 方法 (ADO MD)
-TOCTitle: Open Method (ADO MD)
+TOCTitle: Open method (ADO MD)
 ms:assetid: 12395ff6-fe07-325a-2b69-007aa0b11ee6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248894(v=office.15)
 ms:contentKeyID: 48543335
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9b39fa77700fcd1553738d359b8efd7097c183a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 98cceed03af8ba939579d1542421b375e0db64a7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870273"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927528"
 ---
 # <a name="open-method-ado-md"></a>Open 方法 (ADO MD)
 

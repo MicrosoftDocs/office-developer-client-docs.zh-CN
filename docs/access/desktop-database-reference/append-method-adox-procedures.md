@@ -1,19 +1,19 @@
 ---
-title: Append 方法 (ADOX Procedures)
-TOCTitle: Append Method (ADOX Procedures)
+title: Append 方法（ADOX 过程）
+TOCTitle: Append method (ADOX Procedures)
 ms:assetid: a93b31bb-e41a-5152-abe7-dd7c2b2fcd0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef11c9d45cc5b34b5ef7b1cf762dfd6f3e4c1d64
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 838483d03ee57dd9a546692e130aea2360a5b83d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873045"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930614"
 ---
-# <a name="append-method-adox-procedures"></a>Append 方法 (ADOX Procedures)
+# <a name="append-method-adox-procedures"></a>Append 方法（ADOX 过程）
 
 
 **适用于**： Access 2013、 Office 2013

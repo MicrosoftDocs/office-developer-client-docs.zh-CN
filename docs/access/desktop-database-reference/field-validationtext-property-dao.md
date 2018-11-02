@@ -1,19 +1,19 @@
 ---
-title: Field.ValidationText Property (DAO)
+title: Field.ValidationText 属性 (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6d9ec790-a9d2-84d7-ccba-57d738491e36
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195540(v=office.15)
 ms:contentKeyID: 48545494
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c582795dc104171bd4c8435521e0da31718b1a38
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3244c4e41761095378e3be3ad928effc6444f842
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868887"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930404"
 ---
-# <a name="fieldvalidationtext-property-dao"></a>Field.ValidationText Property (DAO)
+# <a name="fieldvalidationtext-property-dao"></a>Field.ValidationText 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

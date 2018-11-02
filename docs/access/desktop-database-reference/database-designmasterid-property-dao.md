@@ -1,5 +1,5 @@
 ---
-title: Database.DesignMasterID Property (DAO)
+title: Database.DesignMasterID 属性 (DAO)
 TOCTitle: DesignMasterID Property
 ms:assetid: c0545561-d44f-5479-8ae0-e3955db91761
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822824(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: da9619102a955c9a7945d05e89a1e132371d2461
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1d15cc036b33e2b64f54b89f4f8ed5c69d9fdcbe
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868404"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930488"
 ---
-# <a name="databasedesignmasterid-property-dao"></a>Database.DesignMasterID Property (DAO)
+# <a name="databasedesignmasterid-property-dao"></a>Database.DesignMasterID 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

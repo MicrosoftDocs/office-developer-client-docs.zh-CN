@@ -1,5 +1,5 @@
 ---
-title: Recordset.LockEdits Property (DAO)
+title: Recordset.LockEdits 属性 (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: baa11b24-a330-eaa4-bd03-b8b9739d209e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822514(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 73b3bfd0a0f2d329b98d52456e8e71f4f8efdf30
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f1f539659ef81ebb484c4a116176974491b0a480
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884427"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931062"
 ---
-# <a name="recordsetlockedits-property-dao"></a>Recordset.LockEdits Property (DAO)
+# <a name="recordsetlockedits-property-dao"></a>Recordset.LockEdits 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

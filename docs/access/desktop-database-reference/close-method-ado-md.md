@@ -1,17 +1,17 @@
 ---
 title: Close 方法 (ADO MD)
-TOCTitle: Close Method (ADO MD)
+TOCTitle: Close method (ADO MD)
 ms:assetid: 683788b0-0a96-a165-6b49-8d7036850756
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249406(v=office.15)
 ms:contentKeyID: 48545382
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28c5ff23470015c9b40c996a1eb5b60f74766da3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3e36fb95ddb85312c1376948c819749e76e11945
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888788"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930964"
 ---
 # <a name="close-method-ado-md"></a>Close 方法 (ADO MD)
 

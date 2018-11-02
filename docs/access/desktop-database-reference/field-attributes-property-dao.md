@@ -1,19 +1,19 @@
 ---
-title: Field.Attributes Property (DAO)
+title: Field.Attributes 属性 (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 8e6f6afb-1a89-7315-c129-cf7ff19e0ca9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197380(v=office.15)
 ms:contentKeyID: 48546287
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: df396935f88301a9fee9df580a5cee01705f68aa
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8f57c35b01e17f3544428cde0ca7b8d85daa3d0c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885778"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928409"
 ---
-# <a name="fieldattributes-property-dao"></a>Field.Attributes Property (DAO)
+# <a name="fieldattributes-property-dao"></a>Field.Attributes 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

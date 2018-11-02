@@ -1,5 +1,5 @@
 ---
-title: Database.MakeReplica Method (DAO)
+title: Database.MakeReplica 方法 (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c8274d441c246d7363ec5d5c603c3079da732c84
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a47709d1be3eab66f849e076c5756d5081d28fc8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880801"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930229"
 ---
-# <a name="databasemakereplica-method-dao"></a>Database.MakeReplica Method (DAO)
+# <a name="databasemakereplica-method-dao"></a>Database.MakeReplica 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

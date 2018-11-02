@@ -1,19 +1,19 @@
 ---
-title: QueryDef Object (DAO)
+title: QueryDef 对象 (DAO)
 TOCTitle: QueryDef Object
 ms:assetid: 0b3d901c-345d-42a2-f5f1-fb09cc562e27
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845129(v=office.15)
 ms:contentKeyID: 48543169
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bad2f4795dad8e308af85d3cca4ca0f71d88d9c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 18889846b2f55fa13f9fa5fe002f233c955d9866
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25466459"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929949"
 ---
-# <a name="querydef-object-dao"></a>QueryDef Object (DAO)
+# <a name="querydef-object-dao"></a>QueryDef 对象 (DAO)
 
 **适用于：** Access 2013 |Office 2013 
 

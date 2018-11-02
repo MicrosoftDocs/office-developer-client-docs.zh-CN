@@ -1,17 +1,17 @@
 ---
 title: FetchOptions 属性 (RDS)
-TOCTitle: FetchOptions Property (RDS)
+TOCTitle: FetchOptions property (RDS)
 ms:assetid: 0d86c5e4-9abc-5c0e-dc04-4183f4c278cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b018fda52ba7dd311cda9b7b23ce10d5e47c4828
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0b06408c3d150c543d591f3bf5252b2022f32cae
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868924"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929634"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions 属性 (RDS)
 

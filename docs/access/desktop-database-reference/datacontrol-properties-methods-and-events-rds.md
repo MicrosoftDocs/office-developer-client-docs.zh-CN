@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfb2ea094594d3a2b71b1e449ecae1bf7b3631e6
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 406380b0c935e94b8478e0b135bf5f92180faaca
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910669"
+ms.locfileid: "25928320"
 ---
 # <a name="datacontrol-properties-methods-and-events-rds"></a>DataControl 属性、 方法和事件 (RDS)
 

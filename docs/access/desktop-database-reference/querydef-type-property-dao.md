@@ -1,19 +1,19 @@
 ---
-title: QueryDef.Type Property (DAO)
+title: QueryDef.Type 属性 (DAO)
 TOCTitle: Type Property
 ms:assetid: 03db891d-b958-7cf9-56c1-524d9ff2b9b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
 ms:contentKeyID: 48542993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c290fa743ba138a761ab19b538b2f2d292e65736
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 43e6e450021269a704650c686dea27a1d38d37f5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878330"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929508"
 ---
-# <a name="querydeftype-property-dao"></a>QueryDef.Type Property (DAO)
+# <a name="querydeftype-property-dao"></a>QueryDef.Type 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

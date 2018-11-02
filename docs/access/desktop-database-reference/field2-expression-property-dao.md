@@ -1,19 +1,19 @@
 ---
-title: Field2.Expression Property (DAO)
+title: Field2.Expression 属性 (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92d3cd9e9ed50503b4816cae03e2a69c790706ff
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5869c381c7b449502cc2d28de8eeb214bbfb03d0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878358"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928654"
 ---
-# <a name="field2expression-property-dao"></a>Field2.Expression Property (DAO)
+# <a name="field2expression-property-dao"></a>Field2.Expression 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

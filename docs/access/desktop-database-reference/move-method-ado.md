@@ -1,17 +1,17 @@
 ---
 title: Move 方法-ActiveX 数据对象 (ADO)
-TOCTitle: Move Method (ADO)
+TOCTitle: Move method (ADO)
 ms:assetid: 1f858654-5fa3-273d-7cdc-574c5f09a420
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
 ms:contentKeyID: 48543645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c968a53dffbb5463d186c97f4fa36ba5f4dfc29f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 55439f14cd2a498ec2592c533dd308f82798b1e8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883671"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929445"
 ---
 # <a name="move-method-ado"></a>Move 方法 (ADO)
 

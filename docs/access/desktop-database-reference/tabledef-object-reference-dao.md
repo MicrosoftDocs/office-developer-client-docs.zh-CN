@@ -1,30 +1,24 @@
 ---
-title: TableDef Object Reference (DAO)
-TOCTitle: TableDef Object
+title: TableDef 对象引用 (DAO)
+TOCTitle: TableDef
 ms:assetid: 5a521e96-f9b6-4719-a21b-2c2114a88982
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124949(v=office.15)
 ms:contentKeyID: 52072569
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b83c78193d04d0ac28b86686b18ab5980f84cad1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5d439a577ef70c26292eee463e342237910dba61
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873052"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930159"
 ---
-# <a name="tabledef-object-reference-dao"></a>TableDef Object Reference (DAO)
-
+# <a name="tabledef-object-reference-dao"></a>TableDef 对象引用 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 
-
-
-  - [TableDef Object (DAO)](tabledef-object-dao.md)
-
-  - [TableDef Members (DAO)](tabledef-members-dao.md)
-
-  - [TableDef Properties (DAO)](tabledef-properties-dao.md)
-
-  - [TableDef Methods (DAO)](tabledef-methods-dao.md)
+- [TableDef 对象 (DAO)](tabledef-object-dao.md)
+- [TableDef 成员 (DAO)](tabledef-members-dao.md)
+- [TableDef 属性 (DAO)](tabledef-properties-dao.md)
+- [TableDef 方法 (DAO)](tabledef-methods-dao.md)
 

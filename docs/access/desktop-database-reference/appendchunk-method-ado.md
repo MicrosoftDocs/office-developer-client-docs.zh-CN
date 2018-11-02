@@ -1,17 +1,17 @@
 ---
 title: AppendChunk 方法 (ADO)
-TOCTitle: AppendChunk Method (ADO)
+TOCTitle: AppendChunk method (ADO)
 ms:assetid: 3fa931a3-2cd7-a3b0-a750-40e18bc9937e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e13ebd5d222bc765fe2e38198588274508baa4a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 29af4adf95eeb47be18bd8cb8368c47fc0e70a85
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881935"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928262"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk 方法 (ADO)
 

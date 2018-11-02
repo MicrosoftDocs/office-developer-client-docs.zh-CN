@@ -1,17 +1,17 @@
 ---
 title: UpdateBatch 方法 (ADO)
-TOCTitle: UpdateBatch Method (ADO)
+TOCTitle: UpdateBatch method (ADO)
 ms:assetid: 69e72a65-b637-36fd-d09f-7f81050f71ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
 ms:contentKeyID: 48545420
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73400abe1298520aadb3f82a242a2e50872be0ca
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2e998bb49fab57927a8bb233d9eeb3245a1a3876
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875747"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929935"
 ---
 # <a name="updatebatch-method-ado"></a>UpdateBatch 方法 (ADO)
 

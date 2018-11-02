@@ -1,5 +1,5 @@
 ---
-title: Recordset.BatchCollisionCount Property (DAO)
+title: Recordset.BatchCollisionCount 属性 (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 9d166463-8313-c0f5-8389-5d5ad933eb33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198240(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101181
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 079da0d4e489b4082283c78bc9e84b7d95959e82
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7d2100fb9803de406eca258b1d1093b343a6e88d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883307"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929655"
 ---
-# <a name="recordsetbatchcollisioncount-property-dao"></a>Recordset.BatchCollisionCount Property (DAO)
+# <a name="recordsetbatchcollisioncount-property-dao"></a>Recordset.BatchCollisionCount 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

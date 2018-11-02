@@ -1,17 +1,17 @@
 ---
 title: Update 方法 (ADO)
-TOCTitle: Update Method (ADO)
+TOCTitle: Update method (ADO)
 ms:assetid: fc88cab6-c379-bb4f-530c-da08107924e0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
 ms:contentKeyID: 48548893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 772602b31f83d2255c9fdf1b08fa41541f5fc4da
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c0a62618eef0a829db84de050aa07c2c645636e5
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884105"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929432"
 ---
 # <a name="update-method-ado"></a>Update 方法 (ADO)
 

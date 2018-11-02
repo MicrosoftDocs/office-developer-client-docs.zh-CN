@@ -1,6 +1,6 @@
 ---
 title: CreateParameter 方法 (ADO)
-TOCTitle: CreateParameter Method (ADO)
+TOCTitle: CreateParameter method (ADO)
 ms:assetid: cf080a0b-75d2-dcdf-2715-10af147358e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250026(v=office.15)
 ms:contentKeyID: 48547799
@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231042
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d851b60500ae3847afb47c574fba83e8399e45d3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 88a5d62cc94aa707c2e90467d74dc07d80a0af02
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868558"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928941"
 ---
 # <a name="createparameter-method-ado"></a>CreateParameter 方法 (ADO)
 

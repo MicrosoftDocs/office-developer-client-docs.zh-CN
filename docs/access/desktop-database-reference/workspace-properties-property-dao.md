@@ -1,19 +1,19 @@
 ---
-title: Workspace.Properties Property (DAO)
+title: Workspace.Properties 属性 (DAO)
 TOCTitle: Properties Property
 ms:assetid: fe2e8d83-5081-4a2c-d2bb-53fbcbd13210
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837262(v=office.15)
 ms:contentKeyID: 48548928
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6631848d13c957805a7fc1b0c3c46d6479fe06bd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 273166ba725a6c95e267e62cb726b6a4ae3f9947
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874655"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931223"
 ---
-# <a name="workspaceproperties-property-dao"></a>Workspace.Properties Property (DAO)
+# <a name="workspaceproperties-property-dao"></a>Workspace.Properties 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

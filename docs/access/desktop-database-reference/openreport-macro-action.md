@@ -1,6 +1,6 @@
 ---
 title: OpenReport 宏操作
-TOCTitle: OpenReport Macro Action
+TOCTitle: OpenReport macro action
 ms:assetid: cd35faf2-190d-ac48-cf59-81c1599eb764
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834462(v=office.15)
 ms:contentKeyID: 48547758
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ef2a1f5afd4b8828fdc39744e92d0a4e92ca7bd6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a6166f8da8597e5b0672ba0d5fdfdd3745cfd159
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871491"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927765"
 ---
 # <a name="openreport-macro-action"></a>OpenReport 宏操作
 

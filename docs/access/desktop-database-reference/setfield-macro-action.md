@@ -1,17 +1,17 @@
 ---
 title: SetField 宏操作
-TOCTitle: SetField Macro Action
+TOCTitle: SetField macro action
 ms:assetid: 66bd26e3-e8c3-b9a1-2f16-f29adc44a345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1be405402c5f410c892c2dd8904133e09039351a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d8ca2315a9a84000aa29b88043e4edea05ffb0ea
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869502"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922823"
 ---
 # <a name="setfield-macro-action"></a>SetField 宏操作
 

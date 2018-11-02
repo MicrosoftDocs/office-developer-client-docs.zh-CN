@@ -1,19 +1,19 @@
 ---
-title: Indexes.Refresh Method (DAO)
+title: Indexes.Refresh 方法 (DAO)
 TOCTitle: Refresh Method
 ms:assetid: ffe1bc79-5a56-2a70-c5ac-2f80b683adbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837325(v=office.15)
 ms:contentKeyID: 48548973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e97a886f966ded295e36f76c07d649dfc057a191
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6188eff2bda5f2810684016787b088e2078f8f5f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872135"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927920"
 ---
-# <a name="indexesrefresh-method-dao"></a>Indexes.Refresh Method (DAO)
+# <a name="indexesrefresh-method-dao"></a>Indexes.Refresh 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

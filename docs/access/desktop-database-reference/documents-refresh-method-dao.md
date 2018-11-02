@@ -1,19 +1,19 @@
 ---
-title: Documents.Refresh Method (DAO)
+title: Documents.Refresh 方法 (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 33405192-f23c-e2a2-feb6-9d641439cbc5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192321(v=office.15)
 ms:contentKeyID: 48544100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a3070e5d07665465a5946ac8ace049576c14b04
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2f7d17ad8814ea1a22d52295f54fa8755d9144c2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870182"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930852"
 ---
-# <a name="documentsrefresh-method-dao"></a>Documents.Refresh Method (DAO)
+# <a name="documentsrefresh-method-dao"></a>Documents.Refresh 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,19 +1,19 @@
 ---
-title: Recordset.CacheSize Property (DAO)
+title: Recordset.CacheSize 属性 (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: 8632f5fb-6e5d-5a3e-1bd7-81e1270e9531
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196807(v=office.15)
 ms:contentKeyID: 48546079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1fb120323859dcabfb5b2baa6cf3e0756c152f32
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e3a337226d0b710394469649c0846d92b079b2ed
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877707"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924825"
 ---
-# <a name="recordsetcachesize-property-dao"></a>Recordset.CacheSize Property (DAO)
+# <a name="recordsetcachesize-property-dao"></a>Recordset.CacheSize 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Field2.DefaultValue Property (DAO)
+title: Field2.DefaultValue 属性 (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a70e5d1c19f4d92c4494071f78192ffb4e543ad7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c0edef512eb6b4c099362e737a760624dcfc0b69
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882383"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928473"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue Property (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

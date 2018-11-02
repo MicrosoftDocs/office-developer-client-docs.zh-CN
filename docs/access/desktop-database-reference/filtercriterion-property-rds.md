@@ -1,17 +1,17 @@
 ---
 title: FilterCriterion 属性 (RDS)
-TOCTitle: FilterCriterion Property (RDS)
+TOCTitle: FilterCriterion property (RDS)
 ms:assetid: 51e6cb64-a404-114e-8e1a-0744cceeec3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5567265aba8d4490837ab69572a553d4aa1c1e1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5a9724d84bed6c89267aeb811936eeb49b49bc17
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869762"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929340"
 ---
 # <a name="filtercriterion-property-rds"></a>FilterCriterion 属性 (RDS)
 

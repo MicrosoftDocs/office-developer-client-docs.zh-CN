@@ -1,5 +1,5 @@
 ---
-title: Recordset.NoMatch Property (DAO)
+title: Recordset.NoMatch 属性 (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 47d03575-f570-89b5-a20f-a3bd8b8b5c6d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193226(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052889
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ebb1178525d1efb663ce49f4e5493e828afbfc2e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 605c18b5390d60f8a92a4380cb9a11a269e0a39d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874130"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929697"
 ---
-# <a name="recordsetnomatch-property-dao"></a>Recordset.NoMatch Property (DAO)
+# <a name="recordsetnomatch-property-dao"></a>Recordset.NoMatch 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

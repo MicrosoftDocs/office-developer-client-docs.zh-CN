@@ -1,19 +1,19 @@
 ---
-title: Recordset2.LastModified Property (DAO)
+title: Recordset2.LastModified 属性 (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 1c13cb43-23b5-73b6-af00-a3676cc37cc7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
 ms:contentKeyID: 48543557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6c3427f22e3f92082f1aa61dfbda17bb21a4209
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 63a0c89739530efa16be701b27db0405241a0bff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877854"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930208"
 ---
-# <a name="recordset2lastmodified-property-dao"></a>Recordset2.LastModified Property (DAO)
+# <a name="recordset2lastmodified-property-dao"></a>Recordset2.LastModified 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

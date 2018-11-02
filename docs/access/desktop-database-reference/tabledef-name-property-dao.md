@@ -1,19 +1,19 @@
 ---
-title: TableDef.Name Property (DAO)
+title: TableDef.Name 属性 (DAO)
 TOCTitle: Name Property
 ms:assetid: 66b751ee-cf8a-a1f2-c646-6124e5f18cd0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195226(v=office.15)
 ms:contentKeyID: 48545348
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9e8ab4d064c05dc5a64198ef096ba0ae25622d2b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: addb6755cfa9d37ff5a7b6b03b3e5d86aa863a76
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880402"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929326"
 ---
-# <a name="tabledefname-property-dao"></a>TableDef.Name Property (DAO)
+# <a name="tabledefname-property-dao"></a>TableDef.Name 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

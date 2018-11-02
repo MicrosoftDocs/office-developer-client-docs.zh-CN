@@ -1,17 +1,17 @@
 ---
 title: CompareBookmarks 方法 (ADO)
-TOCTitle: CompareBookmarks Method (ADO)
+TOCTitle: CompareBookmarks method (ADO)
 ms:assetid: 826cb3c7-2f5c-284f-421d-6b7b07f14dec
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26f8cb17473daf21be3769f6f48a3bb368c1d082
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0820d7efbc4dc742879fa454a49f91e99e1b7981
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876972"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928878"
 ---
 # <a name="comparebookmarks-method-ado"></a>CompareBookmarks 方法 (ADO)
 

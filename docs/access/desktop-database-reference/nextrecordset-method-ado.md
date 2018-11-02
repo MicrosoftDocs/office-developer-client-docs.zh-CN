@@ -1,17 +1,17 @@
 ---
 title: NextRecordset 方法 (ADO)
-TOCTitle: NextRecordset Method (ADO)
+TOCTitle: NextRecordset method (ADO)
 ms:assetid: d2776dd5-d521-c57f-dbe5-e02ee238104d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec6b6677e0de89b22f3c35009edcbc05684d10ce
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: da7e23974b9541a29aa78ba9d7de22e76102971b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872597"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929550"
 ---
 # <a name="nextrecordset-method-ado"></a>NextRecordset 方法 (ADO)
 

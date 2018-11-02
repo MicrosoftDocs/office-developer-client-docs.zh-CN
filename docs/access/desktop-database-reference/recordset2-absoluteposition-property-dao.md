@@ -1,5 +1,5 @@
 ---
-title: Recordset2.AbsolutePosition Property (DAO)
+title: Recordset2.AbsolutePosition 属性 (DAO)
 TOCTitle: AbsolutePosition Property
 ms:assetid: 91ca203f-0c80-67f4-e180-415b6af05030
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197637(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c5eb8c80743b5fac17f7a3c8d11080863e511eb8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6adf3e5ec2ec36163d4818411a1abc07e940b209
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888599"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922683"
 ---
-# <a name="recordset2absoluteposition-property-dao"></a>Recordset2.AbsolutePosition Property (DAO)
+# <a name="recordset2absoluteposition-property-dao"></a>Recordset2.AbsolutePosition 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

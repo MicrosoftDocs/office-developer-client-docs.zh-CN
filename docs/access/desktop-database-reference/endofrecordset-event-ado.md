@@ -1,17 +1,17 @@
 ---
 title: EndOfRecordset 事件 (ADO)
-TOCTitle: EndOfRecordset Event (ADO)
+TOCTitle: EndOfRecordset event (ADO)
 ms:assetid: 8995b851-dff6-2525-1d62-a2cfb4f95393
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249603(v=office.15)
 ms:contentKeyID: 48546167
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a95ae75eb71ea50e08952418058f87bf54a40e45
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 89ca397c4e95dd6f18de41862e9383f77fe14aa8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888123"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928836"
 ---
 # <a name="endofrecordset-event-ado"></a>EndOfRecordset 事件 (ADO)
 

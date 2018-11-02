@@ -1,5 +1,5 @@
 ---
-title: TableDef.RefreshLink Method (DAO)
+title: TableDef.RefreshLink 方法 (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052980
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88cd8083f8dc1b71c574be1e31a8b7b735595090
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8b7fda0c095a04d2a3ab7f295497cff05a620ea6
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876874"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922536"
 ---
-# <a name="tabledefrefreshlink-method-dao"></a>TableDef.RefreshLink Method (DAO)
+# <a name="tabledefrefreshlink-method-dao"></a>TableDef.RefreshLink 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
  

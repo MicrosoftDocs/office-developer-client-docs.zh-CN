@@ -1,19 +1,19 @@
 ---
-title: Append 方法 (ADOX Users)
-TOCTitle: Append Method (ADOX Users)
+title: Append 方法（ADOX 用户）
+TOCTitle: Append method (ADOX Users)
 ms:assetid: b7a1128b-c6e7-2071-c914-913b6bd245ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 948ba15ccca5dabe6b4cb75c09f7e47e65994b2b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e8b03bb74c5442eba3e1794d8067fa709f68af3d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887766"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931363"
 ---
-# <a name="append-method-adox-users"></a>Append 方法 (ADOX Users)
+# <a name="append-method-adox-users"></a>Append 方法（ADOX 用户）
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,17 +1,17 @@
 ---
 title: ReadyState 属性 (RDS)
-TOCTitle: ReadyState Property (RDS)
+TOCTitle: ReadyState property (RDS)
 ms:assetid: e7b62205-a604-ef43-2f5d-9b51b46d2b5a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be07b0ffb983889aa7002406da9c40e13522c5c0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c284c39c69a337a940ea09d396328bd8a01d01dd
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880115"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928794"
 ---
 # <a name="readystate-property-rds"></a>ReadyState 属性 (RDS)
 

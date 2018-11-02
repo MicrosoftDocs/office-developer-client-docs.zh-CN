@@ -1,17 +1,17 @@
 ---
 title: Record 对象 (ADO)
-TOCTitle: Record Object (ADO)
+TOCTitle: Record object (ADO)
 ms:assetid: 817aaf13-78d4-1134-aa94-997e92077c22
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
 ms:contentKeyID: 48545952
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82eb2a8fc2bae5e2aa4d451f015216ce20fc99b8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c3a42a89179cca6ec556819031865d6b6752b176
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867998"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928605"
 ---
 # <a name="record-object-ado"></a>Record 对象 (ADO)
 

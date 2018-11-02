@@ -1,5 +1,5 @@
 ---
-title: Field2.ComplexType Property (DAO)
+title: Field2.ComplexType 属性 (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198034(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 810e3f6382cd8772c9f801b452f43bf0f99810b6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bd1d48926440ac47a204becfbb4c68c5a827d74f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884798"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927562"
 ---
-# <a name="field2complextype-property-dao"></a>Field2.ComplexType Property (DAO)
+# <a name="field2complextype-property-dao"></a>Field2.ComplexType 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

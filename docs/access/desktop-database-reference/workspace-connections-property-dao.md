@@ -1,5 +1,5 @@
 ---
-title: Workspace.Connections Property (DAO)
+title: Workspace.Connections 属性 (DAO)
 TOCTitle: Connections Property
 ms:assetid: 7b4f905c-4bc1-8fa7-b608-516edfef3d8f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196195(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053556
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 56410c2f86338f7b763028260e86a15dffc50810
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2c632fa6a9026475c5f3dedc559a6c1c3dd84362
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874578"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930390"
 ---
-# <a name="workspaceconnections-property-dao"></a>Workspace.Connections Property (DAO)
+# <a name="workspaceconnections-property-dao"></a>Workspace.Connections 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

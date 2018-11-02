@@ -1,17 +1,17 @@
 ---
 title: Groups 集合 (ADOX)
-TOCTitle: Groups Collection (ADOX)
+TOCTitle: Groups collection (ADOX)
 ms:assetid: 9aec57df-bc5c-f9b3-5aec-e7e7efa47ba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249702(v=office.15)
 ms:contentKeyID: 48546553
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 099b9b4034d64f768513cfa5c9a28b89bef89ef8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b75f6277695c00c251352e0ae2bdcc44f2c86d34
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880990"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929151"
 ---
 # <a name="groups-collection-adox"></a>Groups 集合 (ADOX)
 

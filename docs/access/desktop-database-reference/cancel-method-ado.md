@@ -1,6 +1,6 @@
 ---
 title: Cancel 方法 (ADO)
-TOCTitle: Cancel Method (ADO)
+TOCTitle: Cancel method (ADO)
 ms:assetid: 747edc04-a5cc-3631-2d0b-82e7e41a76b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249476(v=office.15)
 ms:contentKeyID: 48545662
@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231032
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8ebdfe912f8a440f8935834256d4279a39f840f9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7ff92a041e785e116f6ad2c664ec7e62afada42f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888382"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927118"
 ---
 # <a name="cancel-method-ado"></a>Cancel 方法 (ADO)
 

@@ -1,5 +1,5 @@
 ---
-title: Field2.LoadFromFile Method (DAO)
+title: Field2.LoadFromFile 方法 (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 620d692693696c4a76a31d51fdda5ebb85acd5b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d2bd8981ec05758b89b461fc2c82080780d6b067
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873311"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926715"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile Method (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile 方法 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 

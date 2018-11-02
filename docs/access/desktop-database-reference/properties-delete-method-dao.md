@@ -1,19 +1,19 @@
 ---
-title: Properties.Delete Method (DAO)
+title: Properties.Delete 方法 (DAO)
 TOCTitle: Delete Method
 ms:assetid: dc2493c6-337c-cb56-7c0d-36762528fa43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
 ms:contentKeyID: 48548123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31c43d079eb91be33df94745b65431ed6fd975cb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5d9769e0b1ad82aaee423ed9e63efacc050bfcc0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875320"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930741"
 ---
-# <a name="propertiesdelete-method-dao"></a>Properties.Delete Method (DAO)
+# <a name="propertiesdelete-method-dao"></a>Properties.Delete 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

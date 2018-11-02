@@ -1,92 +1,92 @@
 ---
-title: Recordset2 Properties (DAO)
+title: Recordset2 属性 (DAO)
 TOCTitle: Properties
 ms:assetid: c38758f6-a952-45fe-bcbf-c5796b404d67
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161301(v=office.15)
 ms:contentKeyID: 52074268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 59f350e2e34509b1059ec6642abafbba448e2a62
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bca6996fb8d0b2158475d9fcde3323cbf72fd953
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885316"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921836"
 ---
-# <a name="recordset2-properties-dao"></a>Recordset2 Properties (DAO)
+# <a name="recordset2-properties-dao"></a>Recordset2 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013
 
 
 
-  - [Recordset2.AbsolutePosition Property (DAO)](recordset2-absoluteposition-property-dao.md)
+  - [Recordset2.AbsolutePosition 属性 (DAO)](recordset2-absoluteposition-property-dao.md)
 
-  - [Recordset2.BatchCollisionCount Property (DAO)](recordset2-batchcollisioncount-property-dao.md)
+  - [Recordset2.BatchCollisionCount 属性 (DAO)](recordset2-batchcollisioncount-property-dao.md)
 
-  - [Recordset2.BatchCollisions Property (DAO)](recordset2-batchcollisions-property-dao.md)
+  - [Recordset2.BatchCollisions 属性 (DAO)](recordset2-batchcollisions-property-dao.md)
 
-  - [Recordset2.BatchSize Property (DAO)](recordset2-batchsize-property-dao.md)
+  - [Recordset2.BatchSize 属性 (DAO)](recordset2-batchsize-property-dao.md)
 
-  - [Recordset2.BOF Property (DAO)](recordset2-bof-property-dao.md)
+  - [Recordset2.BOF 属性 (DAO)](recordset2-bof-property-dao.md)
 
-  - [Recordset2.Bookmark Property (DAO)](recordset2-bookmark-property-dao.md)
+  - [Recordset2.Bookmark 属性 (DAO)](recordset2-bookmark-property-dao.md)
 
-  - [Recordset2.Bookmarkable Property (DAO)](recordset2-bookmarkable-property-dao.md)
+  - [Recordset2.Bookmarkable 属性 (DAO)](recordset2-bookmarkable-property-dao.md)
 
-  - [Recordset2.CacheSize Property (DAO)](recordset2-cachesize-property-dao.md)
+  - [Recordset2.CacheSize 属性 (DAO)](recordset2-cachesize-property-dao.md)
 
-  - [Recordset2.CacheStart Property (DAO)](recordset2-cachestart-property-dao.md)
+  - [Recordset2.CacheStart 属性 (DAO)](recordset2-cachestart-property-dao.md)
 
-  - [Recordset2.Connection Property (DAO)](recordset2-connection-property-dao.md)
+  - [Recordset2.Connection 属性 (DAO)](recordset2-connection-property-dao.md)
 
-  - [Recordset2.DateCreated Property (DAO)](recordset2-datecreated-property-dao.md)
+  - [Recordset2.DateCreated 属性 (DAO)](recordset2-datecreated-property-dao.md)
 
-  - [Recordset2.EditMode Property (DAO)](recordset2-editmode-property-dao.md)
+  - [Recordset2.EditMode 属性 (DAO)](recordset2-editmode-property-dao.md)
 
-  - [Recordset2.EOF Property (DAO)](recordset2-eof-property-dao.md)
+  - [Recordset2.EOF 属性 (DAO)](recordset2-eof-property-dao.md)
 
-  - [Recordset2.Fields Property (DAO)](recordset2-fields-property-dao.md)
+  - [Recordset2.Fields 属性 (DAO)](recordset2-fields-property-dao.md)
 
-  - [Recordset2.Filter Property (DAO)](recordset2-filter-property-dao.md)
+  - [Recordset2.Filter 属性 (DAO)](recordset2-filter-property-dao.md)
 
-  - [Recordset2.Index Property (DAO)](recordset2-index-property-dao.md)
+  - [Recordset2.Index 属性 (DAO)](recordset2-index-property-dao.md)
 
-  - [Recordset2.LastModified Property (DAO)](recordset2-lastmodified-property-dao.md)
+  - [Recordset2.LastModified 属性 (DAO)](recordset2-lastmodified-property-dao.md)
 
-  - [Recordset2.LastUpdated Property (DAO)](recordset2-lastupdated-property-dao.md)
+  - [Recordset2.LastUpdated 属性 (DAO)](recordset2-lastupdated-property-dao.md)
 
-  - [Recordset2.LockEdits Property (DAO)](recordset2-lockedits-property-dao.md)
+  - [Recordset2.LockEdits 属性 (DAO)](recordset2-lockedits-property-dao.md)
 
-  - [Recordset2.Name Property (DAO)](recordset2-name-property-dao.md)
+  - [Recordset2.Name 属性 (DAO)](recordset2-name-property-dao.md)
 
-  - [Recordset2.NoMatch Property (DAO)](recordset2-nomatch-property-dao.md)
+  - [Recordset2.NoMatch 属性 (DAO)](recordset2-nomatch-property-dao.md)
 
-  - [Recordset2.ParentRecordset Property (DAO)](recordset2-parentrecordset-property-dao.md)
+  - [Recordset2.ParentRecordset 属性 (DAO)](recordset2-parentrecordset-property-dao.md)
 
-  - [Recordset2.PercentPosition Property (DAO)](recordset2-percentposition-property-dao.md)
+  - [Recordset2.PercentPosition 属性 (DAO)](recordset2-percentposition-property-dao.md)
 
-  - [Recordset2.Properties Property (DAO)](recordset2-properties-property-dao.md)
+  - [Recordset2.Properties 属性 (DAO)](recordset2-properties-property-dao.md)
 
-  - [Recordset2.RecordCount Property (DAO)](recordset2-recordcount-property-dao.md)
+  - [Recordset2.RecordCount 属性 (DAO)](recordset2-recordcount-property-dao.md)
 
-  - [Recordset2.RecordStatus Property (DAO)](recordset2-recordstatus-property-dao.md)
+  - [Recordset2.RecordStatus 属性 (DAO)](recordset2-recordstatus-property-dao.md)
 
-  - [Recordset2.Restartable Property (DAO)](recordset2-restartable-property-dao.md)
+  - [Recordset2.Restartable 属性 (DAO)](recordset2-restartable-property-dao.md)
 
-  - [Recordset2.Sort Property (DAO)](recordset2-sort-property-dao.md)
+  - [Recordset2.Sort 属性 (DAO)](recordset2-sort-property-dao.md)
 
-  - [Recordset2.StillExecuting Property (DAO)](recordset2-stillexecuting-property-dao.md)
+  - [Recordset2.StillExecuting 属性 (DAO)](recordset2-stillexecuting-property-dao.md)
 
-  - [Recordset2.Transactions Property (DAO)](recordset2-transactions-property-dao.md)
+  - [Recordset2.Transactions 属性 (DAO)](recordset2-transactions-property-dao.md)
 
-  - [Recordset2.Type Property (DAO)](recordset2-type-property-dao.md)
+  - [Recordset2.Type 属性 (DAO)](recordset2-type-property-dao.md)
 
-  - [Recordset2.Updatable Property (DAO)](recordset2-updatable-property-dao.md)
+  - [Recordset2.Updatable 属性 (DAO)](recordset2-updatable-property-dao.md)
 
-  - [Recordset2.UpdateOptions Property (DAO)](recordset2-updateoptions-property-dao.md)
+  - [Recordset2.UpdateOptions 属性 (DAO)](recordset2-updateoptions-property-dao.md)
 
-  - [Recordset2.ValidationRule Property (DAO)](recordset2-validationrule-property-dao.md)
+  - [Recordset2.ValidationRule 属性 (DAO)](recordset2-validationrule-property-dao.md)
 
-  - [Recordset2.ValidationText Property (DAO)](recordset2-validationtext-property-dao.md)
+  - [Recordset2.ValidationText 属性 (DAO)](recordset2-validationtext-property-dao.md)
 

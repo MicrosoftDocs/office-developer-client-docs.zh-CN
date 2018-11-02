@@ -1,19 +1,19 @@
 ---
-title: Workspaces.Delete Method (DAO)
+title: Workspaces.Delete 方法 (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 30084bf8fa913169f78337266c09daae94305178
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8e6edefa53c64fd71652adae0123396d21455cf1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867249"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930096"
 ---
-# <a name="workspacesdelete-method-dao"></a>Workspaces.Delete Method (DAO)
+# <a name="workspacesdelete-method-dao"></a>Workspaces.Delete 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

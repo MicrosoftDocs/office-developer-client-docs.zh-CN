@@ -1,17 +1,17 @@
 ---
 title: CancelUpdate 方法 (ADO)
-TOCTitle: CancelUpdate Method (ADO)
+TOCTitle: CancelUpdate method (ADO)
 ms:assetid: 2bd4d168-ba52-7786-5046-44febeda88e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249065(v=office.15)
 ms:contentKeyID: 48543938
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c56d8fc7eaab7989eaa967aa90090ad59c1656dc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4d5414f6f604392d64baba7e67c8b66d13afc94d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884763"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922585"
 ---
 # <a name="cancelupdate-method-ado"></a>CancelUpdate 方法 (ADO)
 

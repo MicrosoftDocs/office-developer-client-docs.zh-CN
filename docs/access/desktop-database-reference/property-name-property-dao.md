@@ -1,19 +1,19 @@
 ---
-title: Property.Name Property (DAO)
+title: Property.Name 属性 (DAO)
 TOCTitle: Name Property
 ms:assetid: 0dae15e0-5d2e-3bb4-8a44-98db4a8ce516
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845211(v=office.15)
 ms:contentKeyID: 48543225
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09a5e37bf9874888ca37935db38c98773cb03806
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 47053a815d6728087c8a0c4f5e584ee5da5abcac
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867298"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930579"
 ---
-# <a name="propertyname-property-dao"></a>Property.Name Property (DAO)
+# <a name="propertyname-property-dao"></a>Property.Name 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,5 +1,5 @@
 ---
-title: Recordset.GetRows Method (DAO)
+title: Recordset.GetRows 方法 (DAO)
 TOCTitle: GetRows Method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8f048ec72abb0037e04dd65cd85c8a1219530297
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889754"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931237"
 ---
-# <a name="recordsetgetrows-method-dao"></a>Recordset.GetRows Method (DAO)
+# <a name="recordsetgetrows-method-dao"></a>Recordset.GetRows 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,5 +1,5 @@
 ---
-title: DBEngine.OpenDatabase Method (DAO)
+title: DBEngine.OpenDatabase 方法 (DAO)
 TOCTitle: OpenDatabase Method
 ms:assetid: 49fca321-5955-3e69-64ea-da191536eadb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193474(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45075a612b5d8dc6fabd4a91cc1efdacf37874a0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 23357443eeb479a6bdba2a3cc994de226290118a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878939"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922620"
 ---
-# <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase Method (DAO)
+# <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

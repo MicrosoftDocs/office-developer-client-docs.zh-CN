@@ -1,19 +1,19 @@
 ---
-title: ComplexType Members (DAO)
+title: 复杂类型成员 (DAO)
 TOCTitle: ComplexType Members
 ms:assetid: 5f0001fb-f46b-8e4c-0bd9-613c831eca96
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194740(v=office.15)
 ms:contentKeyID: 48545150
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3479ca7139152aeb8de15a64a63523bdafc6a50f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 128a938af23b6aba1f69045bcbcdba202bd416ef
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879534"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928885"
 ---
-# <a name="complextype-members-dao"></a>ComplexType Members (DAO)
+# <a name="complextype-members-dao"></a>复杂类型成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,17 +1,17 @@
 ---
 title: Property 对象 (ADO)
-TOCTitle: Property Object (ADO)
+TOCTitle: Property object (ADO)
 ms:assetid: eec318fd-f5ed-d9ef-9830-848439a8914d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250210(v=office.15)
 ms:contentKeyID: 48548567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2fe6ac64417c5758d25872a7b67be7cb9f12ac6d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b26a305557e2b7244399c6c2c5513909846eaaff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874507"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929565"
 ---
 # <a name="property-object-ado"></a>Property 对象 (ADO)
 

@@ -1,17 +1,17 @@
 ---
 title: Axis 对象 (ADO MD)
-TOCTitle: Axis Object (ADO MD)
+TOCTitle: Axis object (ADO MD)
 ms:assetid: a4332b69-8900-08f1-a4e2-9395d005ed42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
 ms:contentKeyID: 48546807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76fe2e0aa90397b32d95172318f3657741e1b1ec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ba1e32c3d2638589675a45c7cbc5a3e722651358
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875019"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928430"
 ---
 # <a name="axis-object-ado-md"></a>Axis 对象 (ADO MD)
 

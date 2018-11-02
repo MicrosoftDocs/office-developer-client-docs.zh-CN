@@ -1,17 +1,17 @@
 ---
 title: DrilledDown 属性 (ADO MD)
-TOCTitle: DrilledDown Property (ADO MD)
+TOCTitle: DrilledDown property (ADO MD)
 ms:assetid: 1dfe728f-8da2-1d2b-7361-8689a0b088b4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248972(v=office.15)
 ms:contentKeyID: 48543610
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7e53eb2a6d1735e07fa73e38adad8a59522fddf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9d521176eeb2ac2e83ef05d05d3572dfba543812
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871498"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930999"
 ---
 # <a name="drilleddown-property-ado-md"></a>DrilledDown 属性 (ADO MD)
 

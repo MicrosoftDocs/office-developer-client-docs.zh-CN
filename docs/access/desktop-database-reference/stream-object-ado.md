@@ -1,17 +1,17 @@
 ---
 title: Stream 对象 (ADO)
-TOCTitle: Stream Object (ADO)
+TOCTitle: Stream object (ADO)
 ms:assetid: d49b1514-e0b4-0aca-d5c2-8266f3f4fe65
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6820d09c952f85c06637639c62f1423012e14f5b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3bde47da0bea38ac6ce71ae88a95b756fce6aa2f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872513"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929375"
 ---
 # <a name="stream-object-ado"></a>Stream 对象 (ADO)
 

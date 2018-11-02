@@ -1,19 +1,19 @@
 ---
-title: Documents Members (DAO)
+title: 文档成员 (DAO)
 TOCTitle: Documents Members
 ms:assetid: 8d5ac520-28b5-744d-6e60-219ca48575c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
 ms:contentKeyID: 48546255
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f3b20a91516919a81e50600b7c937e94fe2392f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a1adfee77ade66d931ea52c4a12c30a4bc024e2b
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870231"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930929"
 ---
-# <a name="documents-members-dao"></a>Documents Members (DAO)
+# <a name="documents-members-dao"></a>文档成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

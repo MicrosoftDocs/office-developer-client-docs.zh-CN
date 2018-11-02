@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Filter Property (DAO)
+title: Recordset2.Filter 属性 (DAO)
 TOCTitle: Filter Property
 ms:assetid: 5b3b4e18-8af4-5acd-a129-513ba2d913d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194529(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053062
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9be017367a0422884e393acf82d96e6b4908689a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: afa9bf22db7ec29399cef99e697a616369c9db21
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876447"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929144"
 ---
-# <a name="recordset2filter-property-dao"></a>Recordset2.Filter Property (DAO)
+# <a name="recordset2filter-property-dao"></a>Recordset2.Filter 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

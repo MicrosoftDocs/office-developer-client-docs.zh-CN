@@ -1,6 +1,6 @@
 ---
 title: RestoreWindow 宏操作
-TOCTitle: RestoreWindow Macro Action
+TOCTitle: RestoreWindow macro action
 ms:assetid: 507a6452-2be0-a523-1201-0108d2b9d23c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193815(v=office.15)
 ms:contentKeyID: 48544796
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2e250bb94f77dd8cfc31c667e9562861b549c23c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fb857e7eda7860150feb7af07babcc2574c3972f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875631"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929046"
 ---
 # <a name="restorewindow-macro-action"></a>RestoreWindow 宏操作
 

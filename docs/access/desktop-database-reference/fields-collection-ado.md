@@ -1,17 +1,17 @@
 ---
 title: Fields 集合 (ADO)
-TOCTitle: Fields Collection (ADO)
+TOCTitle: Fields collection (ADO)
 ms:assetid: 029aa738-8726-54a6-1813-b152813948bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
 ms:contentKeyID: 48542962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9d4b710c8e0a9293c9164395cf9bff3078a3b36
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 27741f8b1a07e4fae49818b72a7239d13d069cca
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879401"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931202"
 ---
 # <a name="fields-collection-ado"></a>Fields 集合 (ADO)
 

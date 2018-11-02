@@ -1,19 +1,19 @@
 ---
-title: DBEngine.BeginTrans Method (DAO)
+title: DBEngine.BeginTrans 方法 (DAO)
 TOCTitle: BeginTrans Method
 ms:assetid: fdde662f-2472-3af6-67d6-c8ca7fb1dca7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837255(v=office.15)
 ms:contentKeyID: 48548925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fcdc44966c1b07c7038fa8ffba6e7866417dc5b1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7c913571da5a73e1c6534ca0c3bdb2ff8a4720aa
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867767"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931307"
 ---
-# <a name="dbenginebegintrans-method-dao"></a>DBEngine.BeginTrans Method (DAO)
+# <a name="dbenginebegintrans-method-dao"></a>DBEngine.BeginTrans 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

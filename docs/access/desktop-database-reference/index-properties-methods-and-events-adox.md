@@ -1,19 +1,19 @@
 ---
-title: Index Properties, Methods, and Events (ADOX)
+title: 索引属性、 方法和事件 (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 392ac7eb-a7ab-d016-ed7b-4054c6f9dacc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249139(v=office.15)
 ms:contentKeyID: 48544237
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b4601f80c3d91884256445da83f432dcc4e2e137
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0eca40edb1ceefd582970ba49ea587506eda071c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887486"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928969"
 ---
-# <a name="index-properties-methods-and-events-adox"></a>Index Properties, Methods, and Events (ADOX)
+# <a name="index-properties-methods-and-events-adox"></a>索引属性、 方法和事件 (ADOX)
 
 
 **适用于**： Access 2013、 Office 2013

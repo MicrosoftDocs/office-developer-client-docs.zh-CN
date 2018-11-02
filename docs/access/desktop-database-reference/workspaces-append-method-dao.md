@@ -1,19 +1,19 @@
 ---
-title: Workspaces.Append Method (DAO)
+title: Workspaces.Append 方法 (DAO)
 TOCTitle: Append Method
 ms:assetid: 195c26a6-a1d1-40a8-7e7e-13cd632008b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
 ms:contentKeyID: 48543498
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d880f681f560a3ae10ddfa41a2fc824d62a46ae8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5b3d53a26d4f60c0ef385af23d4cb074be2e101d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883433"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927611"
 ---
-# <a name="workspacesappend-method-dao"></a>Workspaces.Append Method (DAO)
+# <a name="workspacesappend-method-dao"></a>Workspaces.Append 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

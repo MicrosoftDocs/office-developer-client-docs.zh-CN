@@ -1,6 +1,6 @@
 ---
 title: RunDataMacro 宏操作
-TOCTitle: RunDataMacro Macro Action
+TOCTitle: RunDataMacro macro action
 ms:assetid: fe4ac2f4-7851-7797-ce91-5f2dd3ba4d22
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837269(v=office.15)
 ms:contentKeyID: 48548933
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm168493
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6777ae05d2ab7455016df834d17abb3406a2d710
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c1d540b909a2ac5741719470f5632e34205806ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889922"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927982"
 ---
 # <a name="rundatamacro-macro-action"></a>RunDataMacro 宏操作
 
@@ -49,7 +49,7 @@ ms.locfileid: "25889922"
 
 ## <a name="remarks"></a>注释
 
-您可以在宏、指定的数据宏和以下宏事件中使用 **RunDataMacro** 操作： **["删除后"宏事件](after-delete-macro-event.md)** 、 **["插入后"宏事件](after-insert-macro-event.md)** 和 **["更新后"宏事件](after-update-macro-event.md)** 。
+您可以在宏、 指定的数据宏和以下宏事件中使用**RunDataMacro**操作：**[删除后宏事件](after-delete-macro-event.md)**、**[插入后宏事件](after-insert-macro-event.md)** 和**[更新后宏事件](after-update-macro-event.md)**。
 
 数据宏的名称必须包括所附加 （例如， **Comments.AddComment**，而不仅仅是**AddComment**） 到的表。
 

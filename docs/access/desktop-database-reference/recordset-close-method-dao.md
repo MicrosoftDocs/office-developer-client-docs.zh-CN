@@ -1,19 +1,19 @@
 ---
-title: Recordset.Close Method (DAO)
+title: Recordset.Close 方法 (DAO)
 TOCTitle: Close Method
 ms:assetid: e76a81c6-ca0d-e310-c1dc-cbc5d6f6248b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836011(v=office.15)
 ms:contentKeyID: 48548404
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b4b008676e9c2836238d146a55a472b8ee0590c3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5eaa2153e2c420fb91518a47509abec8059d87a0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884266"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922844"
 ---
-# <a name="recordsetclose-method-dao"></a>Recordset.Close Method (DAO)
+# <a name="recordsetclose-method-dao"></a>Recordset.Close 方法 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

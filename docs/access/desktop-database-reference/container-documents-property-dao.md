@@ -1,5 +1,5 @@
 ---
-title: Container.Documents Property (DAO)
+title: Container.Documents 属性 (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834785(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1053175
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 17654da8666fee669356fcc37bbc546c0c35cef0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 51ded1704d8d2ff49921149337cf772132d1243f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886737"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920765"
 ---
-# <a name="containerdocuments-property-dao"></a>Container.Documents Property (DAO)
+# <a name="containerdocuments-property-dao"></a>Container.Documents 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

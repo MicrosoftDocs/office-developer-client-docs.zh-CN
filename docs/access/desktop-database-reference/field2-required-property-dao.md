@@ -1,19 +1,19 @@
 ---
-title: Field2.Required Property (DAO)
+title: Field2.Required 属性 (DAO)
 TOCTitle: Required Property
 ms:assetid: 7d14dfd7-a50d-6044-469e-1511c74c148d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
 ms:contentKeyID: 48545848
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e6d4963ed10f2bf886a7445dfa05f1a3fcef460
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2bb7735bf2c19da3cf82ffcb10d3d5b99b1a01c1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872940"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928787"
 ---
-# <a name="field2required-property-dao"></a>Field2.Required Property (DAO)
+# <a name="field2required-property-dao"></a>Field2.Required 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

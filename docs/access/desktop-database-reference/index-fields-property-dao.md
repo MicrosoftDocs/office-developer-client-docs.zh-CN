@@ -1,19 +1,19 @@
 ---
-title: Index.Fields Property (DAO)
+title: Index.Fields 属性 (DAO)
 TOCTitle: Fields Property
 ms:assetid: c79adede-361f-c0eb-13a1-18625bd9141f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823154(v=office.15)
 ms:contentKeyID: 48547640
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a59f9d0c0425a6a7adf728797cb01d424a35f74
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ad957133c8fe2d5aba3c4edeecbc17101fbcb369
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879730"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929025"
 ---
-# <a name="indexfields-property-dao"></a>Index.Fields Property (DAO)
+# <a name="indexfields-property-dao"></a>Index.Fields 属性 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

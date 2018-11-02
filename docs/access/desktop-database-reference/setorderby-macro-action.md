@@ -1,6 +1,6 @@
 ---
 title: SetOrderBy 宏操作
-TOCTitle: SetOrderBy Macro Action
+TOCTitle: SetOrderBy macro action
 ms:assetid: 78f65ce9-b56f-f476-3bd6-f3307bc22a08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196152(v=office.15)
 ms:contentKeyID: 48545765
@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm98639
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ac911110d313243879d6dff993061d58c208cd34
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b820b984972b4de7592f159884ebce3f3a59dec8
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876216"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923313"
 ---
 # <a name="setorderby-macro-action"></a>SetOrderBy 宏操作
 

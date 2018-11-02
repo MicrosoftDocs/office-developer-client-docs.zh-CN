@@ -1,19 +1,19 @@
 ---
-title: Parameters Members (DAO)
+title: 参数成员 (DAO)
 TOCTitle: Parameters Members
 ms:assetid: 28a361e4-f57d-b44f-a839-29037a47621d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192005(v=office.15)
 ms:contentKeyID: 48543863
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80ee5425a98a5a66840c280ebfe568d64efdf08a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f8ba3824364152378f0fb55b18ddfba07228aaeb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878400"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931356"
 ---
-# <a name="parameters-members-dao"></a>Parameters Members (DAO)
+# <a name="parameters-members-dao"></a>参数成员 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013
