@@ -1,5 +1,5 @@
 ---
-title: QueryDef.ReturnsRecords Property (DAO)
+title: QueryDef.ReturnsRecords 属性 (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -10,40 +10,40 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5d3b0c159d259d96ea135a8ed014af268a57cd77
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 933f2ebd5816f02305184c00562b81d7424db57a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880318"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925665"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a><span data-ttu-id="d7b45-102">QueryDef.ReturnsRecords Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7b45-102">QueryDef.ReturnsRecords Property (DAO)</span></span>
+# <a name="querydefreturnsrecords-property-dao"></a><span data-ttu-id="cc6ac-102">QueryDef.ReturnsRecords 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc6ac-102">QueryDef.ReturnsRecords property (DAO)</span></span>
 
 
-<span data-ttu-id="d7b45-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7b45-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cc6ac-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc6ac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="d7b45-104">设置或返回一个值，该值指示针对外部数据库的 SQL 传递查询是否返回记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="d7b45-104">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="cc6ac-104">设置或返回一个值，该值指示针对外部数据库的 SQL 传递查询是否返回记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cc6ac-104">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d7b45-105">语法</span><span class="sxs-lookup"><span data-stu-id="d7b45-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cc6ac-105">语法</span><span class="sxs-lookup"><span data-stu-id="cc6ac-105">Syntax</span></span>
 
-<span data-ttu-id="d7b45-106">*表达式*。ReturnsRecords</span><span class="sxs-lookup"><span data-stu-id="d7b45-106">*expression* .ReturnsRecords</span></span>
+<span data-ttu-id="cc6ac-106">*表达式*。ReturnsRecords</span><span class="sxs-lookup"><span data-stu-id="cc6ac-106">*expression* .ReturnsRecords</span></span>
 
-<span data-ttu-id="d7b45-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="d7b45-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="cc6ac-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="cc6ac-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d7b45-108">注解</span><span class="sxs-lookup"><span data-stu-id="d7b45-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cc6ac-108">注解</span><span class="sxs-lookup"><span data-stu-id="cc6ac-108">Remarks</span></span>
 
-<span data-ttu-id="d7b45-p101">并非所有针对外部数据库的 SQL 传递查询都返回记录。例如，SQL UPDATE 语句更新记录但不返回记录，而 SQL SELECT 语句则返回记录。如果查询返回记录，则将 **ReturnsRecords** 属性设置为 **True**；如果查询不返回记录，则 **ReturnsRecords** 属性设置为 **False**。</span><span class="sxs-lookup"><span data-stu-id="d7b45-p101">Not all SQL pass-through queries to external databases return records. For example, an SQL UPDATE statement updates records without returning records, while an SQL SELECT statement does return records. If the query returns records, set the **ReturnsRecords** property to **True**; if the query doesn't return records, set the **ReturnsRecords** property to **False**.</span></span>
+<span data-ttu-id="cc6ac-p101">并非所有针对外部数据库的 SQL 传递查询都返回记录。例如，SQL UPDATE 语句更新记录但不返回记录，而 SQL SELECT 语句则返回记录。如果查询返回记录，则将 **ReturnsRecords** 属性设置为 **True**；如果查询不返回记录，则 **ReturnsRecords** 属性设置为 **False**。</span><span class="sxs-lookup"><span data-stu-id="cc6ac-p101">Not all SQL pass-through queries to external databases return records. For example, an SQL UPDATE statement updates records without returning records, while an SQL SELECT statement does return records. If the query returns records, set the **ReturnsRecords** property to **True**; if the query doesn't return records, set the **ReturnsRecords** property to **False**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="d7b45-112">[!注释] 在设置 <A href="querydef-connect-property-dao.md">ReturnsRecords</A> 属性之前，必须先设置 <STRONG><STRONG>Connect</STRONG></STRONG> 属性。</span><span class="sxs-lookup"><span data-stu-id="d7b45-112">You must set the <STRONG><A href="querydef-connect-property-dao.md">Connect</A></STRONG> property before you set the <STRONG>ReturnsRecords</STRONG> property.</span></span></P>
+> <P><span data-ttu-id="cc6ac-112">[!注释] 在设置 <A href="querydef-connect-property-dao.md">ReturnsRecords</A> 属性之前，必须先设置 <STRONG><STRONG>Connect</STRONG></STRONG> 属性。</span><span class="sxs-lookup"><span data-stu-id="cc6ac-112">You must set the <STRONG><A href="querydef-connect-property-dao.md">Connect</A></STRONG> property before you set the <STRONG>ReturnsRecords</STRONG> property.</span></span></P>
 
 
 
-## <a name="example"></a><span data-ttu-id="d7b45-113">示例</span><span class="sxs-lookup"><span data-stu-id="d7b45-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cc6ac-113">示例</span><span class="sxs-lookup"><span data-stu-id="cc6ac-113">Example</span></span>
 
-<span data-ttu-id="d7b45-p102">以下示例使用 **Connect** 和 **ReturnsRecords** 属性，从 Microsoft SQL Server 数据库中选择年初至今销售额排行前五名的书名。如果销售额中有精确匹配，该示例将增加显示查询结果的列表的大小，并输出相应的消息来说明出现这一情况的原因。</span><span class="sxs-lookup"><span data-stu-id="d7b45-p102">This example uses the **Connect** and **ReturnsRecords** properties to select the top five book titles from a Microsoft SQL Server database based on year-to-date sales amounts. In the event of an exact match in sales amounts, the example increases the size of the list displaying the results of the query and prints a message explaining why this occurred.</span></span>
+<span data-ttu-id="cc6ac-p102">以下示例使用 **Connect** 和 **ReturnsRecords** 属性，从 Microsoft SQL Server 数据库中选择年初至今销售额排行前五名的书名。如果销售额中有精确匹配，该示例将增加显示查询结果的列表的大小，并输出相应的消息来说明出现这一情况的原因。</span><span class="sxs-lookup"><span data-stu-id="cc6ac-p102">This example uses the **Connect** and **ReturnsRecords** properties to select the top five book titles from a Microsoft SQL Server database based on year-to-date sales amounts. In the event of an exact match in sales amounts, the example increases the size of the list displaying the results of the query and prints a message explaining why this occurred.</span></span>
 
 ```vb 
 Sub ClientServerX1() 
@@ -107,7 +107,7 @@ Sub ClientServerX1()
  
 ```
 
-<span data-ttu-id="d7b45-116">以下示例使用 **ReturnsRecords** 属性和自定义 **LogMessages** 属性来创建传递查询，该查询将返回数据以及远程服务器生成的任何消息。</span><span class="sxs-lookup"><span data-stu-id="d7b45-116">This example uses the **ReturnsRecords** property and the custom **LogMessages** property to create a pass-through query that will return data and any messages generated by the remote server.</span></span>
+<span data-ttu-id="cc6ac-116">以下示例使用 **ReturnsRecords** 属性和自定义 **LogMessages** 属性来创建传递查询，该查询将返回数据以及远程服务器生成的任何消息。</span><span class="sxs-lookup"><span data-stu-id="cc6ac-116">This example uses the **ReturnsRecords** property and the custom **LogMessages** property to create a pass-through query that will return data and any messages generated by the remote server.</span></span>
 
 ```vb 
 Sub LogMessagesX() 

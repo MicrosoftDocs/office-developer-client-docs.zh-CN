@@ -1,31 +1,31 @@
 ---
-title: Field.AppendChunk Method (DAO)
+title: Field.AppendChunk 方法 (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: f98c6862-fecf-06cb-a7c0-42b0d3150a06
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
 ms:contentKeyID: 48548819
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44aef9e335b606b88dfcc1446a3d167627b1db2b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 830d9d10aa2d166f3e9dca013697acdeebe8a767
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870952"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923985"
 ---
-# <a name="fieldappendchunk-method-dao"></a><span data-ttu-id="64410-102">Field.AppendChunk Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="64410-102">Field.AppendChunk Method (DAO)</span></span>
+# <a name="fieldappendchunk-method-dao"></a><span data-ttu-id="ea618-102">Field.AppendChunk 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="ea618-102">Field.AppendChunk method (DAO)</span></span>
 
-<span data-ttu-id="64410-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="64410-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ea618-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea618-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="64410-104">将字符串表达式中的数据追加到 **[Recordset](field-object-dao.md)** 中的"备注"或"长二进制"型 **[Field](recordset-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="64410-104">Appends data from a string expression to a Memo or Long Binary **[Field](field-object-dao.md)** object in a **[Recordset](recordset-object-dao.md)**.</span></span>
+<span data-ttu-id="ea618-104">将字符串表达式中的数据追加到 **[Recordset](field-object-dao.md)** 中的"备注"或"长二进制"型 **[Field](recordset-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="ea618-104">Appends data from a string expression to a Memo or Long Binary **[Field](field-object-dao.md)** object in a **[Recordset](recordset-object-dao.md)**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="64410-105">语法</span><span class="sxs-lookup"><span data-stu-id="64410-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ea618-105">语法</span><span class="sxs-lookup"><span data-stu-id="ea618-105">Syntax</span></span>
 
-<span data-ttu-id="64410-106">*表达式*。AppendChunk (***Val***)</span><span class="sxs-lookup"><span data-stu-id="64410-106">*expression* .AppendChunk(***Val***)</span></span>
+<span data-ttu-id="ea618-106">*表达式*。AppendChunk (***Val***)</span><span class="sxs-lookup"><span data-stu-id="ea618-106">*expression* .AppendChunk(***Val***)</span></span>
 
-<span data-ttu-id="64410-107">*表达式*一个代表**Field**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="64410-107">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="ea618-107">*表达式*一个代表**Field**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="ea618-107">*expression* A variable that represents a **Field** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="64410-108">参数</span><span class="sxs-lookup"><span data-stu-id="64410-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="ea618-108">参数</span><span class="sxs-lookup"><span data-stu-id="ea618-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -36,37 +36,37 @@ ms.locfileid: "25870952"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="64410-109">名称</span><span class="sxs-lookup"><span data-stu-id="64410-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="64410-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="64410-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="64410-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="64410-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="64410-112">说明</span><span class="sxs-lookup"><span data-stu-id="64410-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="ea618-109">名称</span><span class="sxs-lookup"><span data-stu-id="ea618-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="ea618-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="ea618-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="ea618-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="ea618-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="ea618-112">说明</span><span class="sxs-lookup"><span data-stu-id="ea618-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="64410-113">Val</span><span class="sxs-lookup"><span data-stu-id="64410-113">Val</span></span></p></td>
-<td><p><span data-ttu-id="64410-114">必需</span><span class="sxs-lookup"><span data-stu-id="64410-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="64410-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="64410-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="64410-116">一个 Variant（String 子类型）类型的表达式或变量，其中包含要追加到 <strong>Field</strong> 对象的数据。</span><span class="sxs-lookup"><span data-stu-id="64410-116">A Variant (String subtype) expression or variable containing the data you want to append to the <strong>Field</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="ea618-113">Val</span><span class="sxs-lookup"><span data-stu-id="ea618-113">Val</span></span></p></td>
+<td><p><span data-ttu-id="ea618-114">必需</span><span class="sxs-lookup"><span data-stu-id="ea618-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="ea618-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="ea618-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="ea618-116">一个 Variant（String 子类型）类型的表达式或变量，其中包含要追加到 <strong>Field</strong> 对象的数据。</span><span class="sxs-lookup"><span data-stu-id="ea618-116">A Variant (String subtype) expression or variable containing the data you want to append to the <strong>Field</strong> object.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="64410-117">注解</span><span class="sxs-lookup"><span data-stu-id="64410-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ea618-117">注解</span><span class="sxs-lookup"><span data-stu-id="ea618-117">Remarks</span></span>
 
-<span data-ttu-id="64410-118">可以使用 **AppendChunk** 和 **[GetChunk](field-getchunk-method-dao.md)** 方法访问"备注"或"长二进制"型字段中的数据的子集。</span><span class="sxs-lookup"><span data-stu-id="64410-118">You can use the **AppendChunk** and **[GetChunk](field-getchunk-method-dao.md)** methods to access subsets of data in a Memo or Long Binary field.</span></span>
+<span data-ttu-id="ea618-118">可以使用 **AppendChunk** 和 **[GetChunk](field-getchunk-method-dao.md)** 方法访问"备注"或"长二进制"型字段中的数据的子集。</span><span class="sxs-lookup"><span data-stu-id="ea618-118">You can use the **AppendChunk** and **[GetChunk](field-getchunk-method-dao.md)** methods to access subsets of data in a Memo or Long Binary field.</span></span>
 
-<span data-ttu-id="64410-p101">在处理"备注"和"长二进制"型字段时，还可以使用这些方法来节省字符串空间。某些操作（如复制）涉及到临时字符串。如果字符串空间有限，可能需要处理字段的某些块而不是整个字段。</span><span class="sxs-lookup"><span data-stu-id="64410-p101">You can also use these methods to conserve string space when you work with Memo and Long Binary fields. Certain operations (copying, for example) involve temporary strings. If string space is limited, you may need to work with chunks of a field instead of the entire field.</span></span>
+<span data-ttu-id="ea618-p101">在处理"备注"和"长二进制"型字段时，还可以使用这些方法来节省字符串空间。某些操作（如复制）涉及到临时字符串。如果字符串空间有限，可能需要处理字段的某些块而不是整个字段。</span><span class="sxs-lookup"><span data-stu-id="ea618-p101">You can also use these methods to conserve string space when you work with Memo and Long Binary fields. Certain operations (copying, for example) involve temporary strings. If string space is limited, you may need to work with chunks of a field instead of the entire field.</span></span>
 
-<span data-ttu-id="64410-122">在使用 **AppendChunk** 时如果不存在当前记录，则会发生错误。</span><span class="sxs-lookup"><span data-stu-id="64410-122">If there is no current record when you use **AppendChunk**, an error occurs.</span></span>
+<span data-ttu-id="ea618-122">在使用 **AppendChunk** 时如果不存在当前记录，则会发生错误。</span><span class="sxs-lookup"><span data-stu-id="ea618-122">If there is no current record when you use **AppendChunk**, an error occurs.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="64410-p102">初始的 **AppendChunk** 操作（ **[Edit](recordset-edit-method-dao.md)** 或 **[AddNew](recordset-addnew-method-dao.md)** 调用之后）只是将数据置于字段内，并覆盖任何现有的数据。然后同一 **Edit** 或 **AddNew** 会话中的后续 **AppendChunk** 调用将其添加到现有数据。</span><span class="sxs-lookup"><span data-stu-id="64410-p102">The initial **AppendChunk** operation (after an **[Edit](recordset-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** call) will simply place the data in the field, overwriting any existing data. Subsequent **AppendChunk** calls within the same **Edit** or **AddNew** session will then add to the existing data.</span></span>
+> <span data-ttu-id="ea618-p102">初始的 **AppendChunk** 操作（ **[Edit](recordset-edit-method-dao.md)** 或 **[AddNew](recordset-addnew-method-dao.md)** 调用之后）只是将数据置于字段内，并覆盖任何现有的数据。然后同一 **Edit** 或 **AddNew** 会话中的后续 **AppendChunk** 调用将其添加到现有数据。</span><span class="sxs-lookup"><span data-stu-id="ea618-p102">The initial **AppendChunk** operation (after an **[Edit](recordset-edit-method-dao.md)** or **[AddNew](recordset-addnew-method-dao.md)** call) will simply place the data in the field, overwriting any existing data. Subsequent **AppendChunk** calls within the same **Edit** or **AddNew** session will then add to the existing data.</span></span>
 
-## <a name="example"></a><span data-ttu-id="64410-125">示例</span><span class="sxs-lookup"><span data-stu-id="64410-125">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ea618-125">示例</span><span class="sxs-lookup"><span data-stu-id="ea618-125">Example</span></span>
 
-<span data-ttu-id="64410-p103">以下示例使用 **AppendChunk** 和 **GetChunk** 方法，用来自其他记录的数据，以每次 32K 的形式填充 OLE 对象字段。在实际的应用程序中，用户可以使用与此类似的过程，将雇员记录（包括雇员的照片）从一个表复制到另一个表。在以下示例中，只是将记录复制回到同一个表。请注意，所有块操作将在单个 AddNew-Update 序列中发生。</span><span class="sxs-lookup"><span data-stu-id="64410-p103">This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time. In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another. In this example, the record is simply being copied back to same table. Note that all the chunk manipulation takes place within a single AddNew-Update sequence.</span></span>
+<span data-ttu-id="ea618-p103">以下示例使用 **AppendChunk** 和 **GetChunk** 方法，用来自其他记录的数据，以每次 32K 的形式填充 OLE 对象字段。在实际的应用程序中，用户可以使用与此类似的过程，将雇员记录（包括雇员的照片）从一个表复制到另一个表。在以下示例中，只是将记录复制回到同一个表。请注意，所有块操作将在单个 AddNew-Update 序列中发生。</span><span class="sxs-lookup"><span data-stu-id="ea618-p103">This example uses the **AppendChunk** and **GetChunk** methods to fill an OLE object field with data from another record, 32K at a time. In a real application, one might use a procedure like this to copy an employee record (including the employee's photo) from one table to another. In this example, the record is simply being copied back to same table. Note that all the chunk manipulation takes place within a single AddNew-Update sequence.</span></span>
 
 ```vb
     Sub AppendChunkX() 

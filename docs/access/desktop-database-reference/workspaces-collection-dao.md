@@ -1,50 +1,50 @@
 ---
-title: Workspaces Collection (DAO)
+title: Workspaces 集合 (DAO)
 TOCTitle: Workspaces Collection
 ms:assetid: 88b851ce-4180-964f-582e-bc9571bf554c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
 ms:contentKeyID: 48546142
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4108be7d6c1b2ee66ec5cddf4d26599796bf844c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7ac9bfe5d1002318b12faa115ea546324ee3e766
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870266"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926925"
 ---
-# <a name="workspaces-collection-dao"></a><span data-ttu-id="d420e-102">Workspaces Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="d420e-102">Workspaces Collection (DAO)</span></span>
+# <a name="workspaces-collection-dao"></a><span data-ttu-id="36e90-102">Workspaces 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="36e90-102">Workspaces collection (DAO)</span></span>
 
 
-<span data-ttu-id="d420e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d420e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="36e90-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="36e90-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d420e-p101">**Workspaces** 集合包含 **DBEngine** 对象的所有活动、未隐藏的 **Workspace** 对象。（隐藏的 **Workspace** 对象并不追加到集合中，而是通过它们分配到的变量进行引用）。</span><span class="sxs-lookup"><span data-stu-id="d420e-p101">A **Workspaces** collection contains all active, unhidden **Workspace** objects of the **DBEngine** object. (Hidden **Workspace** objects are not appended to the collection and referenced by the variable to which they are assigned.)</span></span>
+<span data-ttu-id="36e90-p101">**Workspaces** 集合包含 **DBEngine** 对象的所有活动、未隐藏的 **Workspace** 对象。（隐藏的 **Workspace** 对象并不追加到集合中，而是通过它们分配到的变量进行引用）。</span><span class="sxs-lookup"><span data-stu-id="36e90-p101">A **Workspaces** collection contains all active, unhidden **Workspace** objects of the **DBEngine** object. (Hidden **Workspace** objects are not appended to the collection and referenced by the variable to which they are assigned.)</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d420e-106">注解</span><span class="sxs-lookup"><span data-stu-id="d420e-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="36e90-106">注解</span><span class="sxs-lookup"><span data-stu-id="36e90-106">Remarks</span></span>
 
-<span data-ttu-id="d420e-107">使用 **Workspace** 对象可以管理当前会话或启动其他会话。</span><span class="sxs-lookup"><span data-stu-id="d420e-107">Use the **Workspace** object to manage the current session or to start an additional session.</span></span>
+<span data-ttu-id="36e90-107">使用 **Workspace** 对象可以管理当前会话或启动其他会话。</span><span class="sxs-lookup"><span data-stu-id="36e90-107">Use the **Workspace** object to manage the current session or to start an additional session.</span></span>
 
-<span data-ttu-id="d420e-108">当您首次引用，或者使用**Workspace**对象时，您将自动创建默认工作区，DBEngine.Workspaces(0)。</span><span class="sxs-lookup"><span data-stu-id="d420e-108">When you first refer to or use a **Workspace** object, you automatically create the default workspace, DBEngine.Workspaces(0).</span></span> <span data-ttu-id="d420e-109">默认工作区的**名称**和**UserName**属性的设置"\#默认工作区\#"和"Admin，"分别。</span><span class="sxs-lookup"><span data-stu-id="d420e-109">The settings of the **Name** and **UserName** properties of the default workspace are "\#Default Workspace\#" and "Admin," respectively.</span></span> <span data-ttu-id="d420e-110">如果启用了安全性，则 **UserName** 属性设置就是登录用户的名称。</span><span class="sxs-lookup"><span data-stu-id="d420e-110">If security is enabled, the **UserName** property setting is the name of the user who logged on.</span></span>
+<span data-ttu-id="36e90-108">当您首次引用，或者使用**Workspace**对象时，您将自动创建默认工作区，DBEngine.Workspaces(0)。</span><span class="sxs-lookup"><span data-stu-id="36e90-108">When you first refer to or use a **Workspace** object, you automatically create the default workspace, DBEngine.Workspaces(0).</span></span> <span data-ttu-id="36e90-109">默认工作区的**名称**和**UserName**属性的设置"\#默认工作区\#"和"Admin，"分别。</span><span class="sxs-lookup"><span data-stu-id="36e90-109">The settings of the **Name** and **UserName** properties of the default workspace are "\#Default Workspace\#" and "Admin," respectively.</span></span> <span data-ttu-id="36e90-110">如果启用了安全性，则 **UserName** 属性设置就是登录用户的名称。</span><span class="sxs-lookup"><span data-stu-id="36e90-110">If security is enabled, the **UserName** property setting is the name of the user who logged on.</span></span>
 
-<span data-ttu-id="d420e-p103">您可以使用 [**CreateWorkspace**](dbengine-createworkspace-method-dao.md) 方法创建新的 **Workspace** 对象。创建新的 **Workspace** 对象后，如果需要从 **Workspaces** 集合引用该对象，则必须将其追加到 **Workspaces** 集合。不过，您无需将新创建的 **Workspace** 对象追加到 **Workspaces** 集合，便可以使用该对象。</span><span class="sxs-lookup"><span data-stu-id="d420e-p103">You can create new **Workspace** objects with the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method. After you create a new **Workspace** object, you must append it to the **Workspaces** collection if you need to refer to it from the **Workspaces** collection. You can, however, use a newly created **Workspace** object without appending it to the **Workspaces** collection.</span></span>
+<span data-ttu-id="36e90-p103">您可以使用 [**CreateWorkspace**](dbengine-createworkspace-method-dao.md) 方法创建新的 **Workspace** 对象。创建新的 **Workspace** 对象后，如果需要从 **Workspaces** 集合引用该对象，则必须将其追加到 **Workspaces** 集合。不过，您无需将新创建的 **Workspace** 对象追加到 **Workspaces** 集合，便可以使用该对象。</span><span class="sxs-lookup"><span data-stu-id="36e90-p103">You can create new **Workspace** objects with the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method. After you create a new **Workspace** object, you must append it to the **Workspaces** collection if you need to refer to it from the **Workspaces** collection. You can, however, use a newly created **Workspace** object without appending it to the **Workspaces** collection.</span></span>
 
-<span data-ttu-id="d420e-114">若要按照序号或 **Name** 属性设置来引用集合中的 **Workspace** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="d420e-114">To refer to a **Workspace** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="36e90-114">若要按照序号或 **Name** 属性设置来引用集合中的 **Workspace** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="36e90-114">To refer to a **Workspace** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="d420e-115">**DBEngine**。**工作区**(0)</span><span class="sxs-lookup"><span data-stu-id="d420e-115">**DBEngine**.**Workspaces**(0)</span></span>
+<span data-ttu-id="36e90-115">**DBEngine**。**工作区**(0)</span><span class="sxs-lookup"><span data-stu-id="36e90-115">**DBEngine**.**Workspaces**(0)</span></span>
 
-<span data-ttu-id="d420e-116">**DBEngine**。**工作区**("name")</span><span class="sxs-lookup"><span data-stu-id="d420e-116">**DBEngine**.**Workspaces**("name")</span></span>
+<span data-ttu-id="36e90-116">**DBEngine**。**工作区**("name")</span><span class="sxs-lookup"><span data-stu-id="36e90-116">**DBEngine**.**Workspaces**("name")</span></span>
 
-<span data-ttu-id="d420e-117">**DBEngine**。**工作区**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="d420e-117">**DBEngine**.**Workspaces**\!\[name\]</span></span>
+<span data-ttu-id="36e90-117">**DBEngine**。**工作区**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="36e90-117">**DBEngine**.**Workspaces**\!\[name\]</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="d420e-118">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="d420e-118">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="d420e-119">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="d420e-119">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="36e90-118">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="36e90-118">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="36e90-119">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="36e90-119">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
 
-## <a name="example"></a><span data-ttu-id="d420e-120">示例</span><span class="sxs-lookup"><span data-stu-id="d420e-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="36e90-120">示例</span><span class="sxs-lookup"><span data-stu-id="36e90-120">Example</span></span>
 
-<span data-ttu-id="d420e-p105">该示例创建一个新的 Microsoft Access 工作区对象并将其追加到 **Workspaces** 集合。然后，该示例枚举 **Workspaces** 集合和 **Workspace** 对象的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="d420e-p105">This example creates a new Microsoft Access Workspace object and appends it to the **Workspaces** collection. It then enumerates the **Workspaces** collections and the **Properties** collection of the **Workspace** object.</span></span>
+<span data-ttu-id="36e90-p105">该示例创建一个新的 Microsoft Access 工作区对象并将其追加到 **Workspaces** 集合。然后，该示例枚举 **Workspaces** 集合和 **Workspace** 对象的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="36e90-p105">This example creates a new Microsoft Access Workspace object and appends it to the **Workspaces** collection. It then enumerates the **Workspaces** collections and the **Properties** collection of the **Workspace** object.</span></span>
 
 ```vb 
 Sub WorkspaceX() 
@@ -79,7 +79,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="d420e-p106">该示例使用 **CreateWorkspace** 方法创建一个 Microsoft Access 工作区，然后列出该工作区的属性。</span><span class="sxs-lookup"><span data-stu-id="d420e-p106">This example uses the **CreateWorkspace** method to create a Microsoft Access workspace. It then lists the properties of theworkspace.</span></span>
+<span data-ttu-id="36e90-p106">该示例使用 **CreateWorkspace** 方法创建一个 Microsoft Access 工作区，然后列出该工作区的属性。</span><span class="sxs-lookup"><span data-stu-id="36e90-p106">This example uses the **CreateWorkspace** method to create a Microsoft Access workspace. It then lists the properties of theworkspace.</span></span>
 
 ```vb 
 Sub CreateWorkspaceX() 

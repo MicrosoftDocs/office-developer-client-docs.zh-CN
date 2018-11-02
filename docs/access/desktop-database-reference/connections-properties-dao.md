@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142231(v=office.15)
 ms:contentKeyID: 52072709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cdadb4375f5c52715a4baec601716557a8cc582a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cb5bbf23147dd4e46093fc807cbad717abf894e2
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871974"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919043"
 ---
-# <a name="connections-properties-dao"></a><span data-ttu-id="f5639-102">连接属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="f5639-102">Connections Properties (DAO)</span></span>
+# <a name="connections-properties-dao"></a><span data-ttu-id="67c87-102">连接属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="67c87-102">Connections properties (DAO)</span></span>
 
 
-<span data-ttu-id="f5639-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5639-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="67c87-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="67c87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="f5639-104">Connections.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f5639-104">Connections.Count Property (DAO)</span></span>](connections-count-property-dao.md)
+  - [<span data-ttu-id="67c87-104">Connections.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="67c87-104">Connections.Count property (DAO)</span></span>](connections-count-property-dao.md)
 

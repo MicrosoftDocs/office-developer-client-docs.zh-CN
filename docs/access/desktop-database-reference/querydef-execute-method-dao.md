@@ -1,5 +1,5 @@
 ---
-title: QueryDef.Execute Method (DAO)
+title: QueryDef.Execute 方法 (DAO)
 TOCTitle: Execute Method
 ms:assetid: ad9e859e-c6fe-496c-a1f2-a000cf4bebcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821728(v=office.15)
@@ -10,26 +10,26 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8857ef902f10fb31ffb7580d28427ace24d99fd9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 165a2703b3b3715ace7326df31477f1f9293be12
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890972"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926211"
 ---
-# <a name="querydefexecute-method-dao"></a><span data-ttu-id="e9ef8-102">QueryDef.Execute Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="e9ef8-102">QueryDef.Execute Method (DAO)</span></span>
+# <a name="querydefexecute-method-dao"></a><span data-ttu-id="59b69-102">QueryDef.Execute 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="59b69-102">QueryDef.Execute method (DAO)</span></span>
 
-<span data-ttu-id="e9ef8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9ef8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="59b69-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="59b69-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e9ef8-104">对指定的对象执行 SQL 语句。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-104">Executes an SQL statement on the specified object.</span></span>
+<span data-ttu-id="59b69-104">对指定的对象执行 SQL 语句。</span><span class="sxs-lookup"><span data-stu-id="59b69-104">Executes an SQL statement on the specified object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e9ef8-105">语法</span><span class="sxs-lookup"><span data-stu-id="e9ef8-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="59b69-105">语法</span><span class="sxs-lookup"><span data-stu-id="59b69-105">Syntax</span></span>
 
-<span data-ttu-id="e9ef8-106">*表达式*。执行 （***选项***）</span><span class="sxs-lookup"><span data-stu-id="e9ef8-106">*expression* .Execute(***Options***)</span></span>
+<span data-ttu-id="59b69-106">*表达式*。执行 （***选项***）</span><span class="sxs-lookup"><span data-stu-id="59b69-106">*expression* .Execute(***Options***)</span></span>
 
-<span data-ttu-id="e9ef8-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="59b69-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="59b69-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="e9ef8-108">参数</span><span class="sxs-lookup"><span data-stu-id="e9ef8-108">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="59b69-108">参数</span><span class="sxs-lookup"><span data-stu-id="59b69-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,26 +40,26 @@ ms.locfileid: "25890972"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e9ef8-109">名称</span><span class="sxs-lookup"><span data-stu-id="e9ef8-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="e9ef8-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="e9ef8-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="e9ef8-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="e9ef8-111">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="e9ef8-112">说明</span><span class="sxs-lookup"><span data-stu-id="e9ef8-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="59b69-109">名称</span><span class="sxs-lookup"><span data-stu-id="59b69-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="59b69-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="59b69-110">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="59b69-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="59b69-111">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="59b69-112">说明</span><span class="sxs-lookup"><span data-stu-id="59b69-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e9ef8-113">Options</span><span class="sxs-lookup"><span data-stu-id="e9ef8-113">Options</span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-114">可选</span><span class="sxs-lookup"><span data-stu-id="e9ef8-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-113">Options</span><span class="sxs-lookup"><span data-stu-id="59b69-113">Options</span></span></p></td>
+<td><p><span data-ttu-id="59b69-114">可选</span><span class="sxs-lookup"><span data-stu-id="59b69-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="59b69-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-115"><strong>Variant</strong></span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="e9ef8-116">说明</span><span class="sxs-lookup"><span data-stu-id="e9ef8-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="59b69-116">说明</span><span class="sxs-lookup"><span data-stu-id="59b69-116">Remarks</span></span>
 
-<span data-ttu-id="e9ef8-117">为选项，可以使用以下**[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** 常量。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-117">You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** constants for Options.</span></span>
+<span data-ttu-id="59b69-117">为选项，可以使用以下**[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** 常量。</span><span class="sxs-lookup"><span data-stu-id="59b69-117">You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** constants for Options.</span></span>
 
 <table>
 <colgroup>
@@ -68,64 +68,64 @@ ms.locfileid: "25890972"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e9ef8-118">常量</span><span class="sxs-lookup"><span data-stu-id="e9ef8-118">Constant</span></span></p></th>
-<th><p><span data-ttu-id="e9ef8-119">说明</span><span class="sxs-lookup"><span data-stu-id="e9ef8-119">Description</span></span></p></th>
+<th><p><span data-ttu-id="59b69-118">常量</span><span class="sxs-lookup"><span data-stu-id="59b69-118">Constant</span></span></p></th>
+<th><p><span data-ttu-id="59b69-119">说明</span><span class="sxs-lookup"><span data-stu-id="59b69-119">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e9ef8-120"><strong>dbDenyWrite</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-120"><strong>dbDenyWrite</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-121">拒绝其他用户的写入权限（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-121">Denies write permission to other users (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-120"><strong>dbDenyWrite</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-120"><strong>dbDenyWrite</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-121">拒绝其他用户的写入权限（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="59b69-121">Denies write permission to other users (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e9ef8-122"><strong>dbInconsistent</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-122"><strong>dbInconsistent</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-123">（默认值）执行不一致的更新（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-123">(Default) Executes inconsistent updates (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-122"><strong>dbInconsistent</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-122"><strong>dbInconsistent</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-123">（默认值）执行不一致的更新（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="59b69-123">(Default) Executes inconsistent updates (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e9ef8-124"><strong>dbConsistent</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-124"><strong>dbConsistent</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-125">执行一致的更新（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-125">Executes consistent updates (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-124"><strong>dbConsistent</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-124"><strong>dbConsistent</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-125">执行一致的更新（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="59b69-125">Executes consistent updates (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e9ef8-126"><strong>dbSQLPassThrough</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-126"><strong>dbSQLPassThrough</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-p101">执行 SQL 传递查询。设置此选项会将 SQL 语句传递给 ODBC 数据库以进行处理（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-p101">Executes an SQL pass-through query. Setting this option passes the SQL statement to an ODBC database for processing (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-126"><strong>dbSQLPassThrough</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-126"><strong>dbSQLPassThrough</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-p101">执行 SQL 传递查询。设置此选项会将 SQL 语句传递给 ODBC 数据库以进行处理（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="59b69-p101">Executes an SQL pass-through query. Setting this option passes the SQL statement to an ODBC database for processing (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e9ef8-129"><strong>dbFailOnError</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-129"><strong>dbFailOnError</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-130">发生错误时回滚更新（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-130">Rolls back updates if an error occurs (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-129"><strong>dbFailOnError</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-129"><strong>dbFailOnError</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-130">发生错误时回滚更新（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="59b69-130">Rolls back updates if an error occurs (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e9ef8-131"><strong>dbSeeChanges</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-131"><strong>dbSeeChanges</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-132">如果其他用户更改您正编辑的数据，则生成运行时错误（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-132">Generates a run-time error if another user is changing data you are editing (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-131"><strong>dbSeeChanges</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-131"><strong>dbSeeChanges</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-132">如果其他用户更改您正编辑的数据，则生成运行时错误（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="59b69-132">Generates a run-time error if another user is changing data you are editing (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e9ef8-133"><strong>dbRunAsync</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-133"><strong>dbRunAsync</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-134">异步执行查询（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-134">Executes the query asynchronously (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-133"><strong>dbRunAsync</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-133"><strong>dbRunAsync</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-134">异步执行查询（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</span><span class="sxs-lookup"><span data-stu-id="59b69-134">Executes the query asynchronously (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e9ef8-135"><strong>一设置</strong></span><span class="sxs-lookup"><span data-stu-id="e9ef8-135"><strong>dbExecDirect</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9ef8-136">在不首先调用 SQLPrepare ODBC API 函数的情况下，执行语句（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-136">Executes the statement without first calling SQLPrepare ODBC API function (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
+<td><p><span data-ttu-id="59b69-135"><strong>一设置</strong></span><span class="sxs-lookup"><span data-stu-id="59b69-135"><strong>dbExecDirect</strong></span></span></p></td>
+<td><p><span data-ttu-id="59b69-136">在不首先调用 SQLPrepare ODBC API 函数的情况下，执行语句（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</span><span class="sxs-lookup"><span data-stu-id="59b69-136">Executes the statement without first calling SQLPrepare ODBC API function (ODBCDirect Connection and QueryDef objects only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
 > [!NOTE]
-> <span data-ttu-id="e9ef8-137">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-137">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="e9ef8-138">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-138">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="59b69-137">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="59b69-137">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="59b69-138">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="59b69-138">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e9ef8-p103">[!注释] 常量 **dbConsistent** 和 **dbInconsistent** 是互斥的。可以在 **OpenRecordset** 的给定实例中使用其中的某一个，但不能同时使用此两者。同时使用 **dbConsistent** 和 **dbInconsistent** 会导致出错。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-p103">The constants **dbConsistent** and **dbInconsistent** are mutually exclusive. You can use one or the other, but not both in a given instance of **OpenRecordset**. Using both **dbConsistent** and **dbInconsistent** causes an error.</span></span>
+> <span data-ttu-id="59b69-p103">[!注释] 常量 **dbConsistent** 和 **dbInconsistent** 是互斥的。可以在 **OpenRecordset** 的给定实例中使用其中的某一个，但不能同时使用此两者。同时使用 **dbConsistent** 和 **dbInconsistent** 会导致出错。</span><span class="sxs-lookup"><span data-stu-id="59b69-p103">The constants **dbConsistent** and **dbInconsistent** are mutually exclusive. You can use one or the other, but not both in a given instance of **OpenRecordset**. Using both **dbConsistent** and **dbInconsistent** causes an error.</span></span>
 
-<span data-ttu-id="e9ef8-p104">使用 **[Connection](querydef-recordsaffected-property-dao.md)** 、 **[Database](connection-object-dao.md)** 或 **[QueryDef](database-object-dao.md)** 对象的 **[RecordsAffected](querydef-object-dao.md)** 属性确定受最近的 **[Execute](querydef-execute-method-dao.md)** 方法影响的记录数。例如， **RecordsAffected** 包含执行某个动作查询时删除、更新或插入的记录数。如果使用 **Execute** 方法运行查询，会将 **QueryDef** 对象的 **RecordsAffected** 属性设置为受影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-p104">Use the **[RecordsAffected](querydef-recordsaffected-property-dao.md)** property of the **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)**, or **[QueryDef](querydef-object-dao.md)** object to determine the number of records affected by the most recent **[Execute](querydef-execute-method-dao.md)** method. For example, **RecordsAffected** contains the number of records deleted, updated, or inserted when executing an action query. When you use the **Execute** method to run a query, the **RecordsAffected** property of the **QueryDef** object is set to the number of records affected.</span></span>
+<span data-ttu-id="59b69-p104">使用 **[Connection](querydef-recordsaffected-property-dao.md)** 、 **[Database](connection-object-dao.md)** 或 **[QueryDef](database-object-dao.md)** 对象的 **[RecordsAffected](querydef-object-dao.md)** 属性确定受最近的 **[Execute](querydef-execute-method-dao.md)** 方法影响的记录数。例如， **RecordsAffected** 包含执行某个动作查询时删除、更新或插入的记录数。如果使用 **Execute** 方法运行查询，会将 **QueryDef** 对象的 **RecordsAffected** 属性设置为受影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="59b69-p104">Use the **[RecordsAffected](querydef-recordsaffected-property-dao.md)** property of the **[Connection](connection-object-dao.md)**, **[Database](database-object-dao.md)**, or **[QueryDef](querydef-object-dao.md)** object to determine the number of records affected by the most recent **[Execute](querydef-execute-method-dao.md)** method. For example, **RecordsAffected** contains the number of records deleted, updated, or inserted when executing an action query. When you use the **Execute** method to run a query, the **RecordsAffected** property of the **QueryDef** object is set to the number of records affected.</span></span>
 
-<span data-ttu-id="e9ef8-p105">在 Microsoft Access 工作区中，如果提供了一个在语法上正确的 SQL 语句，并且您具有相应的权限，则 **Execute** 方法不会失败 - 即使一行都不能修改或删除，也是如此。因此，在使用 **Execute** 方法运行更新或删除查询时，请始终使用 **dbFailOnError** 选项。如果锁定了任何受影响的记录，因而无法对其进行更新或删除，此选项将生成运行时错误，同时回滚所有成功的更改。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-p105">In a Microsoft Access workspace, if you provide a syntactically correct SQL statement and have the appropriate permissions, the **Execute** method won't fail — even if not a single row can be modified or deleted. Therefore, always use the **dbFailOnError** option when using the **Execute** method to run an update or delete query. This option generates a run-time error and rolls back all successful changes if any of the records affected are locked and can't be updated or deleted.</span></span>
+<span data-ttu-id="59b69-p105">在 Microsoft Access 工作区中，如果提供了一个在语法上正确的 SQL 语句，并且您具有相应的权限，则 **Execute** 方法不会失败 - 即使一行都不能修改或删除，也是如此。因此，在使用 **Execute** 方法运行更新或删除查询时，请始终使用 **dbFailOnError** 选项。如果锁定了任何受影响的记录，因而无法对其进行更新或删除，此选项将生成运行时错误，同时回滚所有成功的更改。</span><span class="sxs-lookup"><span data-stu-id="59b69-p105">In a Microsoft Access workspace, if you provide a syntactically correct SQL statement and have the appropriate permissions, the **Execute** method won't fail — even if not a single row can be modified or deleted. Therefore, always use the **dbFailOnError** option when using the **Execute** method to run an update or delete query. This option generates a run-time error and rolls back all successful changes if any of the records affected are locked and can't be updated or deleted.</span></span>
 
-<span data-ttu-id="e9ef8-p106">在早期版本的 Microsoft Jet 数据库引擎中，SQL 语句自动嵌入到隐式事务中。如果使用 **dbFailOnError** 执行的语句的一部分失败，则整个语句都会回滚。为了改善性能，从版本 3.5 开始，删除了这些隐式事务。如果要更新早期的 DAO 代码，请务必考虑对 **Execute** 语句使用显式事务。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-p106">In earlier versions of the Microsoft Jet database engine, SQL statements were automatically embedded in implicit transactions. If part of a statement executed with **dbFailOnError** failed, the entire statement would be rolled back. To improve performance, these implicit transactions were removed starting with version 3.5. If you are updating older DAO code, be sure to consider using explicit transactions around **Execute** statements.</span></span>
+<span data-ttu-id="59b69-p106">在早期版本的 Microsoft Jet 数据库引擎中，SQL 语句自动嵌入到隐式事务中。如果使用 **dbFailOnError** 执行的语句的一部分失败，则整个语句都会回滚。为了改善性能，从版本 3.5 开始，删除了这些隐式事务。如果要更新早期的 DAO 代码，请务必考虑对 **Execute** 语句使用显式事务。</span><span class="sxs-lookup"><span data-stu-id="59b69-p106">In earlier versions of the Microsoft Jet database engine, SQL statements were automatically embedded in implicit transactions. If part of a statement executed with **dbFailOnError** failed, the entire statement would be rolled back. To improve performance, these implicit transactions were removed starting with version 3.5. If you are updating older DAO code, be sure to consider using explicit transactions around **Execute** statements.</span></span>
 
-<span data-ttu-id="e9ef8-p107">为了在 Microsoft Access 工作区中，特别是在多用户环境中获取最佳性能，请将 **Execute** 方法嵌套在事务中。对当前的 **[Workspace](workspace-begintrans-method-dao.md)** 对象使用 **[BeginTrans](workspace-object-dao.md)** 方法，然后使用 **Execute** 方法，再对 [Workspace](workspace-committrans-method-dao.md) 使用 \*\*\*\*CommitTrans\*\*\*\* 方法完成事务。这样可以保存磁盘上的更改，并且释放任何在运行查询时放置的锁定。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-p107">For best performance in a Microsoft Access workspace, especially in a multiuser environment, nest the **Execute** method inside a transaction. Use the **[BeginTrans](workspace-begintrans-method-dao.md)** method on the current **[Workspace](workspace-object-dao.md)** object, then use the **Execute** method, and complete the transaction by using the **[CommitTrans](workspace-committrans-method-dao.md)** method on the **Workspace**. This saves changes on disk and frees any locks placed while the query is running.</span></span>
+<span data-ttu-id="59b69-p107">为了在 Microsoft Access 工作区中，特别是在多用户环境中获取最佳性能，请将 **Execute** 方法嵌套在事务中。对当前的 **[Workspace](workspace-begintrans-method-dao.md)** 对象使用 **[BeginTrans](workspace-object-dao.md)** 方法，然后使用 **Execute** 方法，再对 [Workspace](workspace-committrans-method-dao.md) 使用 \*\*\*\*CommitTrans\*\*\*\* 方法完成事务。这样可以保存磁盘上的更改，并且释放任何在运行查询时放置的锁定。</span><span class="sxs-lookup"><span data-stu-id="59b69-p107">For best performance in a Microsoft Access workspace, especially in a multiuser environment, nest the **Execute** method inside a transaction. Use the **[BeginTrans](workspace-begintrans-method-dao.md)** method on the current **[Workspace](workspace-object-dao.md)** object, then use the **Execute** method, and complete the transaction by using the **[CommitTrans](workspace-committrans-method-dao.md)** method on the **Workspace**. This saves changes on disk and frees any locks placed while the query is running.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e9ef8-155">示例</span><span class="sxs-lookup"><span data-stu-id="e9ef8-155">Example</span></span>
+## <a name="example"></a><span data-ttu-id="59b69-155">示例</span><span class="sxs-lookup"><span data-stu-id="59b69-155">Example</span></span>
 
-<span data-ttu-id="e9ef8-p108">以下示例演示同时从 **QueryDef** 对象和 **Database** 对象运行时的 **Execute** 方法。若要使该过程运行，需要使用 ExecuteQueryDef 和 PrintOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-p108">This example demonstrates the **Execute** method when run from both a **QueryDef** object and a **Database** object. The ExecuteQueryDef and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="59b69-p108">以下示例演示同时从 **QueryDef** 对象和 **Database** 对象运行时的 **Execute** 方法。若要使该过程运行，需要使用 ExecuteQueryDef 和 PrintOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="59b69-p108">This example demonstrates the **Execute** method when run from both a **QueryDef** object and a **Database** object. The ExecuteQueryDef and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```vb
     Sub ExecuteX() 
@@ -242,9 +242,9 @@ ms.locfileid: "25890972"
 
 <br/>
 
-<span data-ttu-id="e9ef8-158">下面的示例演示如何执行参数查询。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-158">The following example shows how to execute a parameter query.</span></span> <span data-ttu-id="e9ef8-159">Parameters 集合用于设置 myActionQuery 查询的 Organization 参数之前执行查询。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-159">The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
+<span data-ttu-id="59b69-158">下面的示例演示如何执行参数查询。</span><span class="sxs-lookup"><span data-stu-id="59b69-158">The following example shows how to execute a parameter query.</span></span> <span data-ttu-id="59b69-159">Parameters 集合用于设置 myActionQuery 查询的 Organization 参数之前执行查询。</span><span class="sxs-lookup"><span data-stu-id="59b69-159">The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
 
-<span data-ttu-id="e9ef8-160">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="e9ef8-160">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="59b69-160">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="59b69-160">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Public Sub ExecParameterQuery()

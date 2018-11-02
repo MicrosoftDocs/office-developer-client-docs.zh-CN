@@ -1,33 +1,33 @@
 ---
-title: Recordset2 Object (DAO)
+title: Recordset2 对象 (DAO)
 TOCTitle: Recordset2 Object
 ms:assetid: 964f9961-807c-e4f3-5919-74e25f6e9069
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197737(v=office.15)
 ms:contentKeyID: 48546446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39b7df1856588875f88735ec01f05cf0e1a4a1d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7e4ab089af54a53889afac054598cbca57028353
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885267"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924678"
 ---
-# <a name="recordset2-object-dao"></a><span data-ttu-id="4d7ef-102">Recordset2 Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d7ef-102">Recordset2 Object (DAO)</span></span>
+# <a name="recordset2-object-dao"></a><span data-ttu-id="e5717-102">Recordset2 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="e5717-102">Recordset2 object (DAO)</span></span>
 
-<span data-ttu-id="4d7ef-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d7ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e5717-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5717-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d7ef-104">**Recordset2** 对象代表基表中的记录或通过运行查询得到的记录。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
+<span data-ttu-id="e5717-104">**Recordset2** 对象代表基表中的记录或通过运行查询得到的记录。</span><span class="sxs-lookup"><span data-stu-id="e5717-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4d7ef-105">注解</span><span class="sxs-lookup"><span data-stu-id="4d7ef-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5717-105">注解</span><span class="sxs-lookup"><span data-stu-id="e5717-105">Remarks</span></span>
 
-<span data-ttu-id="4d7ef-p101">**Recordset2** 对象包含所有与 **[Recordset](recordset-object-dao.md)** 对象相同的属性和方法，并且 **Recordset2** 对象还包含一个支持多值字段类型的新属性： **[ParentRecordset](recordset2-parentrecordset-property-dao.md)** 。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-p101">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object. The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
+<span data-ttu-id="e5717-p101">**Recordset2** 对象包含所有与 **[Recordset](recordset-object-dao.md)** 对象相同的属性和方法，并且 **Recordset2** 对象还包含一个支持多值字段类型的新属性： **[ParentRecordset](recordset2-parentrecordset-property-dao.md)** 。</span><span class="sxs-lookup"><span data-stu-id="e5717-p101">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object. The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4d7ef-108">示例</span><span class="sxs-lookup"><span data-stu-id="4d7ef-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e5717-108">示例</span><span class="sxs-lookup"><span data-stu-id="e5717-108">Example</span></span>
 
-<span data-ttu-id="4d7ef-109">下面的示例演示如何导航记录集包含一个多值字段。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="e5717-109">下面的示例演示如何导航记录集包含一个多值字段。</span><span class="sxs-lookup"><span data-stu-id="e5717-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="4d7ef-110">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="e5717-110">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="e5717-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -91,7 +91,7 @@ ms.locfileid: "25885267"
 
 <br/>
 
-<span data-ttu-id="4d7ef-111">下面的示例演示如何导航附件字段中的文件。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="4d7ef-112">在即时窗口中打印的文件类型和每个附件的文件名。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
+<span data-ttu-id="e5717-111">下面的示例演示如何导航附件字段中的文件。</span><span class="sxs-lookup"><span data-stu-id="e5717-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="e5717-112">在即时窗口中打印的文件类型和每个附件的文件名。</span><span class="sxs-lookup"><span data-stu-id="e5717-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
 
 ```vb
     Sub ListAttachments()
@@ -141,7 +141,7 @@ ms.locfileid: "25885267"
 
 <br/>
 
-<span data-ttu-id="4d7ef-113">下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="e5717-113">下面的示例演示如何将文件从指定的文件夹路径添加到附件字段。</span><span class="sxs-lookup"><span data-stu-id="e5717-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -198,7 +198,7 @@ ms.locfileid: "25885267"
 
 <br/>
 
-<span data-ttu-id="4d7ef-114">下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="e5717-114">下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="e5717-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -254,7 +254,7 @@ ms.locfileid: "25885267"
 
 <br/>
 
-<span data-ttu-id="4d7ef-115">下面的示例演示如何删除附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="4d7ef-115">The following example shows how to delete a file stored in an attachment field.</span></span>
+<span data-ttu-id="e5717-115">下面的示例演示如何删除附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="e5717-115">The following example shows how to delete a file stored in an attachment field.</span></span>
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

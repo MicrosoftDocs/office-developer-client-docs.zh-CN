@@ -1,26 +1,26 @@
 ---
-title: Database Members (DAO)
+title: 数据库成员 (DAO)
 TOCTitle: Database Members
 ms:assetid: 68b0c069-8ed9-64dc-ea68-0d323e24c79c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d219d2a87e72dda5b01fc2d64bece032edb8522d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b75fff8251e74a525798cd5eb2c6feb2d69016b7
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882369"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25919750"
 ---
-# <a name="database-members-dao"></a><span data-ttu-id="cd4c1-102">Database Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="cd4c1-102">Database Members (DAO)</span></span>
+# <a name="database-members-dao"></a><span data-ttu-id="1ed17-102">数据库成员 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ed17-102">Database members (DAO)</span></span>
 
 
-<span data-ttu-id="cd4c1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="cd4c1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1ed17-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ed17-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cd4c1-104">Database 对象代表打开的数据库。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-104">A Database object represents an open database.</span></span>
+<span data-ttu-id="1ed17-104">Database 对象代表打开的数据库。</span><span class="sxs-lookup"><span data-stu-id="1ed17-104">A Database object represents an open database.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="cd4c1-105">方法</span><span class="sxs-lookup"><span data-stu-id="cd4c1-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="1ed17-105">方法</span><span class="sxs-lookup"><span data-stu-id="1ed17-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -29,60 +29,60 @@ ms.locfileid: "25882369"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cd4c1-106">名称</span><span class="sxs-lookup"><span data-stu-id="cd4c1-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="cd4c1-107">说明</span><span class="sxs-lookup"><span data-stu-id="cd4c1-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="1ed17-106">名称</span><span class="sxs-lookup"><span data-stu-id="1ed17-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="1ed17-107">说明</span><span class="sxs-lookup"><span data-stu-id="1ed17-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-108"><strong><a href="database-close-method-dao.md">关闭</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-108"><strong><a href="database-close-method-dao.md">Close</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-109">关闭已打开的 <strong>Database</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-109">Closes an open <strong>Database</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-108"><strong><a href="database-close-method-dao.md">关闭</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-108"><strong><a href="database-close-method-dao.md">Close</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-109">关闭已打开的 <strong>Database</strong>。</span><span class="sxs-lookup"><span data-stu-id="1ed17-109">Closes an open <strong>Database</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-110"><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-110"><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p101">创建一个新的用户定义的 <strong><a href="property-object-dao.md">Property</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p101">Creates a new user-defined <strong><a href="property-object-dao.md">Property</a></strong> object (Microsoft Access workspaces only). .</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-110"><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-110"><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p101">创建一个新的用户定义的 <strong><a href="property-object-dao.md">Property</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p101">Creates a new user-defined <strong><a href="property-object-dao.md">Property</a></strong> object (Microsoft Access workspaces only). .</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-113"><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-113"><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-114">创建新的 <strong><a href="querydef-object-dao.md">QueryDef</a></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-114">Creates a new <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-113"><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-113"><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-114">创建新的 <strong><a href="querydef-object-dao.md">QueryDef</a></strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="1ed17-114">Creates a new <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-115"><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-115"><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p102">创建一个新的 <strong><a href="relation-object-dao.md">Relation</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p102">Creates a new <strong><a href="relation-object-dao.md">Relation</a></strong> object (Microsoft Access workspaces only). .</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-115"><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-115"><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p102">创建一个新的 <strong><a href="relation-object-dao.md">Relation</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p102">Creates a new <strong><a href="relation-object-dao.md">Relation</a></strong> object (Microsoft Access workspaces only). .</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-118"><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-118"><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p103">创建一个新的 <strong><a href="tabledef-object-dao.md">TableDef</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p103">Creates a new <strong><a href="tabledef-object-dao.md">TableDef</a></strong> object (Microsoft Access workspaces only). .</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-118"><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-118"><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p103">创建一个新的 <strong><a href="tabledef-object-dao.md">TableDef</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p103">Creates a new <strong><a href="tabledef-object-dao.md">TableDef</a></strong> object (Microsoft Access workspaces only). .</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-121"><strong><a href="database-execute-method-dao.md">Execute</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-121"><strong><a href="database-execute-method-dao.md">Execute</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-122">对指定的对象运行动作查询，或执行 SQL 语句。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-122">Runs an action query or executes an SQL statement on the specified object.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-121"><strong><a href="database-execute-method-dao.md">Execute</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-121"><strong><a href="database-execute-method-dao.md">Execute</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-122">对指定的对象运行动作查询，或执行 SQL 语句。</span><span class="sxs-lookup"><span data-stu-id="1ed17-122">Runs an action query or executes an SQL statement on the specified object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-123"><strong><a href="database-makereplica-method-dao.md">MakeReplica</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-123"><strong><a href="database-makereplica-method-dao.md">MakeReplica</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-124">根据另一个数据库副本制作一个新的副本（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-124">Makes a new replica from another database replica (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-123"><strong><a href="database-makereplica-method-dao.md">MakeReplica</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-123"><strong><a href="database-makereplica-method-dao.md">MakeReplica</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-124">根据另一个数据库副本制作一个新的副本（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-124">Makes a new replica from another database replica (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-125"><strong><a href="database-newpassword-method-dao.md">新密码</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-125"><strong><a href="database-newpassword-method-dao.md">NewPassword</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-126">更改现有 Microsoft Access 数据库引擎数据库的密码（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-126">Changes the password of an existing Microsoft Access database engine database (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-125"><strong><a href="database-newpassword-method-dao.md">新密码</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-125"><strong><a href="database-newpassword-method-dao.md">NewPassword</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-126">更改现有 Microsoft Access 数据库引擎数据库的密码（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-126">Changes the password of an existing Microsoft Access database engine database (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-127"><strong><a href="database-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-127"><strong><a href="database-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-128">创建一个新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象，并将其追加到 <strong>Recordsets</strong> 集合。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-128">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-127"><strong><a href="database-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-127"><strong><a href="database-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-128">创建一个新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象，并将其追加到 <strong>Recordsets</strong> 集合。</span><span class="sxs-lookup"><span data-stu-id="1ed17-128">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-129"><strong><a href="database-populatepartial-method-dao.md">PopulatePartial</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-129"><strong><a href="database-populatepartial-method-dao.md">PopulatePartial</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p104">将部分副本中的任何更改与完全副本同步，清除部分副本中的所有记录，然后根据当前副本筛选器重新填充部分副本。（仅适用于 Microsoft Access 数据库引擎数据库。）</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p104">Synchronizes any changes in a partial replica with the full replica, clears all records in the partial replica, and then repopulates the partial replica based on the current replica filters. (Microsoft Access database engine databases only.).</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-129"><strong><a href="database-populatepartial-method-dao.md">PopulatePartial</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-129"><strong><a href="database-populatepartial-method-dao.md">PopulatePartial</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p104">将部分副本中的任何更改与完全副本同步，清除部分副本中的所有记录，然后根据当前副本筛选器重新填充部分副本。（仅适用于 Microsoft Access 数据库引擎数据库。）</span><span class="sxs-lookup"><span data-stu-id="1ed17-p104">Synchronizes any changes in a partial replica with the full replica, clears all records in the partial replica, and then repopulates the partial replica based on the current replica filters. (Microsoft Access database engine databases only.).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-132"><strong><a href="database-synchronize-method-dao.md">同步</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-132"><strong><a href="database-synchronize-method-dao.md">Synchronize</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p105">同步两个副本。（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p105">Synchronizes two replicas. (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-132"><strong><a href="database-synchronize-method-dao.md">同步</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-132"><strong><a href="database-synchronize-method-dao.md">Synchronize</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p105">同步两个副本。（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p105">Synchronizes two replicas. (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="cd4c1-135">属性</span><span class="sxs-lookup"><span data-stu-id="cd4c1-135">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="1ed17-135">属性</span><span class="sxs-lookup"><span data-stu-id="1ed17-135">Properties</span></span>
 
 <table>
 <colgroup>
@@ -91,84 +91,84 @@ ms.locfileid: "25882369"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cd4c1-136">名称</span><span class="sxs-lookup"><span data-stu-id="cd4c1-136">Name</span></span></p></th>
-<th><p><span data-ttu-id="cd4c1-137">说明</span><span class="sxs-lookup"><span data-stu-id="cd4c1-137">Description</span></span></p></th>
+<th><p><span data-ttu-id="1ed17-136">名称</span><span class="sxs-lookup"><span data-stu-id="1ed17-136">Name</span></span></p></th>
+<th><p><span data-ttu-id="1ed17-137">说明</span><span class="sxs-lookup"><span data-stu-id="1ed17-137">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-138"><strong><a href="database-collatingorder-property-dao.md">CollatingOrder</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-138"><strong><a href="database-collatingorder-property-dao.md">CollatingOrder</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p106">返回一个值，该值指定用于字符串比较或排序的文本中排序次序的序列（仅适用于 Microsoft Access 工作区）。只读 <strong>Long</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p106">Returns a value that specifies the sequence of the sort order in text for string comparison or sorting (Microsoft Access workspaces only). Read-only <strong>Long</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-138"><strong><a href="database-collatingorder-property-dao.md">CollatingOrder</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-138"><strong><a href="database-collatingorder-property-dao.md">CollatingOrder</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p106">返回一个值，该值指定用于字符串比较或排序的文本中排序次序的序列（仅适用于 Microsoft Access 工作区）。只读 <strong>Long</strong>。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p106">Returns a value that specifies the sequence of the sort order in text for string comparison or sorting (Microsoft Access workspaces only). Read-only <strong>Long</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-141"><strong><a href="database-connect-property-dao.md">Connect</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-141"><strong><a href="database-connect-property-dao.md">Connect</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p107">设置或返回一个值，该值提供与已打开数据库的源有关的信息。可读/写 <strong>String</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p107">Sets or returns a value that provides information about the source an open database. Read/write <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-141"><strong><a href="database-connect-property-dao.md">Connect</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-141"><strong><a href="database-connect-property-dao.md">Connect</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p107">设置或返回一个值，该值提供与已打开数据库的源有关的信息。可读/写 <strong>String</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p107">Sets or returns a value that provides information about the source an open database. Read/write <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-144"><strong><a href="database-connection-property-dao.md">Connection</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-144"><strong><a href="database-connection-property-dao.md">Connection</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-144"><strong><a href="database-connection-property-dao.md">Connection</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-144"><strong><a href="database-connection-property-dao.md">Connection</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <span data-ttu-id="cd4c1-145">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-145">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="cd4c1-146">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-146">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="1ed17-145">Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。</span><span class="sxs-lookup"><span data-stu-id="1ed17-145">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="1ed17-146">如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</span><span class="sxs-lookup"><span data-stu-id="1ed17-146">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
-<p><span data-ttu-id="cd4c1-147">返回与数据库对应的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-147">Returns the <strong><a href="connection-object-dao.md">Connection</a></strong> object that corresponds to the database (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="1ed17-147">返回与数据库对应的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-147">Returns the <strong><a href="connection-object-dao.md">Connection</a></strong> object that corresponds to the database (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-148"><strong><a href="database-containers-property-dao.md">Containers</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-148"><strong><a href="database-containers-property-dao.md">Containers</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p109">返回一个 <strong>Containers</strong> 集合，该集合代表指定数据库中的所有 <strong>Container</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p109">Returns a <strong>Containers</strong> collection that represents all of the <strong>Container</strong> objects in the specifed database. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-148"><strong><a href="database-containers-property-dao.md">Containers</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-148"><strong><a href="database-containers-property-dao.md">Containers</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p109">返回一个 <strong>Containers</strong> 集合，该集合代表指定数据库中的所有 <strong>Container</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p109">Returns a <strong>Containers</strong> collection that represents all of the <strong>Container</strong> objects in the specifed database. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-151"><strong><a href="database-designmasterid-property-dao.md">DesignMasterID</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-151"><strong><a href="database-designmasterid-property-dao.md">DesignMasterID</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-152">设置或返回一个 16 字节值，该值唯一地标识副本集中的设计母版（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-152">Sets or returns a 16-byte value that uniquely identifies the Design Master in a replica set (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-151"><strong><a href="database-designmasterid-property-dao.md">DesignMasterID</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-151"><strong><a href="database-designmasterid-property-dao.md">DesignMasterID</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-152">设置或返回一个 16 字节值，该值唯一地标识副本集中的设计母版（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-152">Sets or returns a 16-byte value that uniquely identifies the Design Master in a replica set (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-153"><strong><a href="database-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-153"><strong><a href="database-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p110">返回指定对象的名称。只读 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p110">Returns the name of the specified object. Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-153"><strong><a href="database-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-153"><strong><a href="database-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p110">返回指定对象的名称。只读 <strong>String</strong>。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p110">Returns the name of the specified object. Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-156"><strong><a href="database-properties-property-dao.md">属性</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-156"><strong><a href="database-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p111">返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p111">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-156"><strong><a href="database-properties-property-dao.md">属性</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-156"><strong><a href="database-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p111">返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p111">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-159"><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-159"><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p112">返回一个 <strong>QueryDefs</strong> 集合，该集合包含指定数据库的所有 <strong>QueryDef</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p112">Returns a <strong>QueryDefs</strong> collection that contains all of the <strong>QueryDef</strong> objects of the specified database. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-159"><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-159"><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p112">返回一个 <strong>QueryDefs</strong> 集合，该集合包含指定数据库的所有 <strong>QueryDef</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p112">Returns a <strong>QueryDefs</strong> collection that contains all of the <strong>QueryDef</strong> objects of the specified database. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-162"><strong><a href="database-querytimeout-property-dao.md">QueryTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-162"><strong><a href="database-querytimeout-property-dao.md">QueryTimeout</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-163">设置或返回一个值，该值指定对 ODBC 数据源执行查询时发生超时错误之前等待的秒数。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-163">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-162"><strong><a href="database-querytimeout-property-dao.md">QueryTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-162"><strong><a href="database-querytimeout-property-dao.md">QueryTimeout</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-163">设置或返回一个值，该值指定对 ODBC 数据源执行查询时发生超时错误之前等待的秒数。</span><span class="sxs-lookup"><span data-stu-id="1ed17-163">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-164"><strong><a href="database-recordsaffected-property-dao.md">RecordsAffected</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-164"><strong><a href="database-recordsaffected-property-dao.md">RecordsAffected</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-165">返回最近调用的 <strong><a href="connection-execute-method-dao.md">Execute</a></strong> 方法所影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-165">Returns the number of records affected by the most recently invoked <strong><a href="connection-execute-method-dao.md">Execute</a></strong> method.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-164"><strong><a href="database-recordsaffected-property-dao.md">RecordsAffected</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-164"><strong><a href="database-recordsaffected-property-dao.md">RecordsAffected</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-165">返回最近调用的 <strong><a href="connection-execute-method-dao.md">Execute</a></strong> 方法所影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="1ed17-165">Returns the number of records affected by the most recently invoked <strong><a href="connection-execute-method-dao.md">Execute</a></strong> method.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-166"><strong><a href="database-recordsets-property-dao.md">Recordsets</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-166"><strong><a href="database-recordsets-property-dao.md">Recordsets</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p113">返回一个 <strong>Recordsets</strong> 集合，该集合包含指定数据库的所有已打开的记录集。只读。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p113">Returns a <strong>Recordsets</strong> collection that contains all of the open recordsets in the for the specified database. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-166"><strong><a href="database-recordsets-property-dao.md">Recordsets</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-166"><strong><a href="database-recordsets-property-dao.md">Recordsets</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p113">返回一个 <strong>Recordsets</strong> 集合，该集合包含指定数据库的所有已打开的记录集。只读。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p113">Returns a <strong>Recordsets</strong> collection that contains all of the open recordsets in the for the specified database. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-169"><strong><a href="database-relations-property-dao.md">Relations</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-169"><strong><a href="database-relations-property-dao.md">Relations</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p114">返回一个 <strong>Relations</strong> 集合，该集合包含指定数据库的所有存储的 <strong>Relation</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p114">Returns a <strong>Relations</strong> collection that contains all of the stored <strong>Relation</strong> objects for the specified database. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-169"><strong><a href="database-relations-property-dao.md">Relations</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-169"><strong><a href="database-relations-property-dao.md">Relations</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p114">返回一个 <strong>Relations</strong> 集合，该集合包含指定数据库的所有存储的 <strong>Relation</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p114">Returns a <strong>Relations</strong> collection that contains all of the stored <strong>Relation</strong> objects for the specified database. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-172"><strong><a href="database-replicaid-property-dao.md">ReplicaID</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-172"><strong><a href="database-replicaid-property-dao.md">ReplicaID</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-173">返回一个 16 字节的值，该值唯一标识数据库副本（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-173">Returns a 16-byte value that uniquely identifies a database replica (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-172"><strong><a href="database-replicaid-property-dao.md">ReplicaID</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-172"><strong><a href="database-replicaid-property-dao.md">ReplicaID</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-173">返回一个 16 字节的值，该值唯一标识数据库副本（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1ed17-173">Returns a 16-byte value that uniquely identifies a database replica (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-174"><strong><a href="database-tabledefs-property-dao.md">TableDefs</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-174"><strong><a href="database-tabledefs-property-dao.md">TableDefs</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p115">返回一个 <strong>TableDefs</strong> 集合，该集合包含指定数据库中存储的所有 <strong>TableDef</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p115">Returns a <strong>TableDefs</strong> collection that contains all of the <strong>TableDef</strong> objects stored in the specified database. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-174"><strong><a href="database-tabledefs-property-dao.md">TableDefs</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-174"><strong><a href="database-tabledefs-property-dao.md">TableDefs</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p115">返回一个 <strong>TableDefs</strong> 集合，该集合包含指定数据库中存储的所有 <strong>TableDef</strong> 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p115">Returns a <strong>TableDefs</strong> collection that contains all of the <strong>TableDef</strong> objects stored in the specified database. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-177"><strong><a href="database-transactions-property-dao.md">事务</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-177"><strong><a href="database-transactions-property-dao.md">Transactions</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p116">返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p116">Returns a value that indicates whether an object supports transactions. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-177"><strong><a href="database-transactions-property-dao.md">事务</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-177"><strong><a href="database-transactions-property-dao.md">Transactions</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p116">返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p116">Returns a value that indicates whether an object supports transactions. Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cd4c1-180"><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-180"><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p117">返回一个值，该值指示是否可以更改 DAO 对象。只读 <strong>Boolean</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p117">Returns a value that indicates whether you can change a DAO object. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-180"><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-180"><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p117">返回一个值，该值指示是否可以更改 DAO 对象。只读 <strong>Boolean</strong>。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p117">Returns a value that indicates whether you can change a DAO object. Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cd4c1-183"><strong><a href="database-version-property-dao.md">版本</a></strong></span><span class="sxs-lookup"><span data-stu-id="cd4c1-183"><strong><a href="database-version-property-dao.md">Version</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="cd4c1-p118">在 Microsoft Access 工作区中，返回创建数据库的 Microsoft Jet 或 Microsoft Access 数据库引擎的版本。 <strong>String</strong> 类型，只读。</span><span class="sxs-lookup"><span data-stu-id="cd4c1-p118">In a Microsoft Access workspace, returns the vesion of the Microsoft Jet or Microsoft Access database engine that created the database. Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="1ed17-183"><strong><a href="database-version-property-dao.md">版本</a></strong></span><span class="sxs-lookup"><span data-stu-id="1ed17-183"><strong><a href="database-version-property-dao.md">Version</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1ed17-p118">在 Microsoft Access 工作区中，返回创建数据库的 Microsoft Jet 或 Microsoft Access 数据库引擎的版本。 <strong>String</strong> 类型，只读。</span><span class="sxs-lookup"><span data-stu-id="1ed17-p118">In a Microsoft Access workspace, returns the vesion of the Microsoft Jet or Microsoft Access database engine that created the database. Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

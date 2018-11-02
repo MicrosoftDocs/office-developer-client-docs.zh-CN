@@ -1,31 +1,31 @@
 ---
-title: Parameters Collection (DAO)
+title: Parameters 集合 (DAO)
 TOCTitle: Parameters Collection
 ms:assetid: 52fc1ce4-7b3e-152d-7b6a-9c32a6470147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
 ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f1741bc56fd1b81d056b5b408c4a2869ee15136
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0263c87ea12384fb3e1fe722c00cd58f4d7f45e0
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877224"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924475"
 ---
-# <a name="parameters-collection-dao"></a><span data-ttu-id="81211-102">Parameters Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="81211-102">Parameters Collection (DAO)</span></span>
+# <a name="parameters-collection-dao"></a><span data-ttu-id="07e90-102">Parameters 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="07e90-102">Parameters collection (DAO)</span></span>
 
-<span data-ttu-id="81211-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="81211-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="07e90-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="07e90-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="81211-104">**Parameters** 集合包含 **QueryDef** 对象的所有 **Parameter** 对象。</span><span class="sxs-lookup"><span data-stu-id="81211-104">A **Parameters** collection contains all the **Parameter** objects of a **QueryDef** object.</span></span>
+<span data-ttu-id="07e90-104">**Parameters** 集合包含 **QueryDef** 对象的所有 **Parameter** 对象。</span><span class="sxs-lookup"><span data-stu-id="07e90-104">A **Parameters** collection contains all the **Parameter** objects of a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="81211-105">注解</span><span class="sxs-lookup"><span data-stu-id="81211-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="07e90-105">注解</span><span class="sxs-lookup"><span data-stu-id="07e90-105">Remarks</span></span>
 
-<span data-ttu-id="81211-p101">**Parameters** 集合仅提供有关现有参数的信息。您不能向 **Parameters** 集合追加对象或从中删除对象。</span><span class="sxs-lookup"><span data-stu-id="81211-p101">The **Parameters** collection provides information only about existing parameters. You can't append objects to or delete objects from the **Parameters** collection.</span></span>
+<span data-ttu-id="07e90-p101">**Parameters** 集合仅提供有关现有参数的信息。您不能向 **Parameters** 集合追加对象或从中删除对象。</span><span class="sxs-lookup"><span data-stu-id="07e90-p101">The **Parameters** collection provides information only about existing parameters. You can't append objects to or delete objects from the **Parameters** collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="81211-108">示例</span><span class="sxs-lookup"><span data-stu-id="81211-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="07e90-108">示例</span><span class="sxs-lookup"><span data-stu-id="07e90-108">Example</span></span>
 
-<span data-ttu-id="81211-p102">以下示例通过创建一个临时 **QueryDef**，并基于对 **QueryDef** 对象的 **Parameters** 所做的更改检索数据，来演示 **Parameter** 对象和 **Parameters** 集合。若要使该过程运行，需要使用 ParametersChange 过程。</span><span class="sxs-lookup"><span data-stu-id="81211-p102">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="07e90-p102">以下示例通过创建一个临时 **QueryDef**，并基于对 **QueryDef** 对象的 **Parameters** 所做的更改检索数据，来演示 **Parameter** 对象和 **Parameters** 集合。若要使该过程运行，需要使用 ParametersChange 过程。</span><span class="sxs-lookup"><span data-stu-id="07e90-p102">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub ParameterX() 
@@ -93,9 +93,9 @@ ms.locfileid: "25877224"
 
 <br/>
 
-下面的示例演示如何创建参数查询。 两个参数，名为 Param1 和 Param2 创建名为**myQuery**的查询。 <span data-ttu-id="81211-113">若要执行此操作，查询的 SQL 属性设置为定义的参数的结构化查询语言 (SQL) 语句。</span><span class="sxs-lookup"><span data-stu-id="81211-113">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
+下面的示例演示如何创建参数查询。 两个参数，名为 Param1 和 Param2 创建名为**myQuery**的查询。 <span data-ttu-id="07e90-113">若要执行此操作，查询的 SQL 属性设置为定义的参数的结构化查询语言 (SQL) 语句。</span><span class="sxs-lookup"><span data-stu-id="07e90-113">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
 
-<span data-ttu-id="81211-114">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="81211-114">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="07e90-114">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="07e90-114">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -122,7 +122,7 @@ ms.locfileid: "25877224"
 
 <br/>
 
-<span data-ttu-id="81211-115">下面的示例演示如何执行参数查询。</span><span class="sxs-lookup"><span data-stu-id="81211-115">The following example shows how to execute a parameter query.</span></span> <span data-ttu-id="81211-116">Parameters 集合用于设置 myActionQuery 查询的 Organization 参数之前执行查询。</span><span class="sxs-lookup"><span data-stu-id="81211-116">The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
+<span data-ttu-id="07e90-115">下面的示例演示如何执行参数查询。</span><span class="sxs-lookup"><span data-stu-id="07e90-115">The following example shows how to execute a parameter query.</span></span> <span data-ttu-id="07e90-116">Parameters 集合用于设置 myActionQuery 查询的 Organization 参数之前执行查询。</span><span class="sxs-lookup"><span data-stu-id="07e90-116">The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -149,7 +149,7 @@ ms.locfileid: "25877224"
 
 <br/>
 
-<span data-ttu-id="81211-117">以下示例说明如何打开基于参数查询的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="81211-117">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
+<span data-ttu-id="07e90-117">以下示例说明如何打开基于参数查询的 Recordset。</span><span class="sxs-lookup"><span data-stu-id="07e90-117">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
 
 ```vb
     Dim dbs As DAO.Database

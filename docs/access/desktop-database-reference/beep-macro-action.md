@@ -1,6 +1,6 @@
 ---
 title: Beep 宏操作 （访问桌面数据库参考 （英文）
-TOCTitle: Beep Macro Action
+TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194572(v=office.15)
 ms:contentKeyID: 48545092
@@ -10,35 +10,35 @@ f1_keywords:
 - vbaac10.chm11853
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 284be6222d0b81e48a061afd1d87dd32c3985feb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d8ceb39071335b1600f4e371a357126306fbcf2a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867578"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922232"
 ---
-# <a name="beep-macro-action"></a><span data-ttu-id="ab3b1-102">Beep 宏操作</span><span class="sxs-lookup"><span data-stu-id="ab3b1-102">Beep Macro Action</span></span>
+# <a name="beep-macro-action"></a><span data-ttu-id="1598b-102">Beep 宏操作</span><span class="sxs-lookup"><span data-stu-id="1598b-102">Beep macro action</span></span>
 
 
-<span data-ttu-id="ab3b1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ab3b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1598b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1598b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ab3b1-104">可以使用 **Beep** 操作通过计算机扬声器发出嘟嘟声。</span><span class="sxs-lookup"><span data-stu-id="ab3b1-104">You can use the **Beep** action to sound a beep tone through the computer's speaker.</span></span>
+<span data-ttu-id="1598b-104">可以使用 **Beep** 操作通过计算机扬声器发出嘟嘟声。</span><span class="sxs-lookup"><span data-stu-id="1598b-104">You can use the **Beep** action to sound a beep tone through the computer's speaker.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="ab3b1-105">设置</span><span class="sxs-lookup"><span data-stu-id="ab3b1-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="1598b-105">设置</span><span class="sxs-lookup"><span data-stu-id="1598b-105">Setting</span></span>
 
-<span data-ttu-id="ab3b1-106">**Beep** 操作不具有任何参数。</span><span class="sxs-lookup"><span data-stu-id="ab3b1-106">The **Beep** action doesn't have any arguments.</span></span>
+<span data-ttu-id="1598b-106">**Beep** 操作不具有任何参数。</span><span class="sxs-lookup"><span data-stu-id="1598b-106">The **Beep** action doesn't have any arguments.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ab3b1-107">说明</span><span class="sxs-lookup"><span data-stu-id="ab3b1-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1598b-107">说明</span><span class="sxs-lookup"><span data-stu-id="1598b-107">Remarks</span></span>
 
-<span data-ttu-id="ab3b1-108">可以使用 **Beep** 操作在出现以下情况时发出信号：</span><span class="sxs-lookup"><span data-stu-id="ab3b1-108">You can use the **Beep** action to signal the following occurrences:</span></span>
+<span data-ttu-id="1598b-108">可以使用 **Beep** 操作在出现以下情况时发出信号：</span><span class="sxs-lookup"><span data-stu-id="1598b-108">You can use the **Beep** action to signal the following occurrences:</span></span>
 
-  - <span data-ttu-id="ab3b1-109">屏幕发生重要更改。</span><span class="sxs-lookup"><span data-stu-id="ab3b1-109">Important screen changes have occurred.</span></span>
+  - <span data-ttu-id="1598b-109">屏幕发生重要更改。</span><span class="sxs-lookup"><span data-stu-id="1598b-109">Important screen changes have occurred.</span></span>
 
-  - <span data-ttu-id="ab3b1-p101">在控件中输入了错误的数据类型。例如，用户在文本框控件中输入了数值数据。</span><span class="sxs-lookup"><span data-stu-id="ab3b1-p101">The wrong kind of data has been entered in a control. For example, the user has entered numeric data in a text box control.</span></span>
+  - <span data-ttu-id="1598b-p101">在控件中输入了错误的数据类型。例如，用户在文本框控件中输入了数值数据。</span><span class="sxs-lookup"><span data-stu-id="1598b-p101">The wrong kind of data has been entered in a control. For example, the user has entered numeric data in a text box control.</span></span>
 
-  - <span data-ttu-id="ab3b1-112">宏已到达指定的点或已完成其操作。</span><span class="sxs-lookup"><span data-stu-id="ab3b1-112">A macro has reached a specified point or has completed its actions.</span></span>
+  - <span data-ttu-id="1598b-112">宏已到达指定的点或已完成其操作。</span><span class="sxs-lookup"><span data-stu-id="1598b-112">A macro has reached a specified point or has completed its actions.</span></span>
 
-<span data-ttu-id="ab3b1-113">嘟嘟声的频率和持续时间取决于硬件，因此可能会因计算机而异。</span><span class="sxs-lookup"><span data-stu-id="ab3b1-113">The frequency and duration of the beep depend on the hardware, which may vary between computers.</span></span>
+<span data-ttu-id="1598b-113">嘟嘟声的频率和持续时间取决于硬件，因此可能会因计算机而异。</span><span class="sxs-lookup"><span data-stu-id="1598b-113">The frequency and duration of the beep depend on the hardware, which may vary between computers.</span></span>
 
-<span data-ttu-id="ab3b1-114">要在 Visual Basic for Applications (VBA) 模块中运行 **Beep** 操作，请使用 **DoCmd** 对象的 **Beep** 方法。</span><span class="sxs-lookup"><span data-stu-id="ab3b1-114">To run the **Beep** action in a Visual Basic for Applications (VBA) module, use the **Beep** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="1598b-114">要在 Visual Basic for Applications (VBA) 模块中运行 **Beep** 操作，请使用 **DoCmd** 对象的 **Beep** 方法。</span><span class="sxs-lookup"><span data-stu-id="1598b-114">To run the **Beep** action in a Visual Basic for Applications (VBA) module, use the **Beep** method of the **DoCmd** object.</span></span>
 

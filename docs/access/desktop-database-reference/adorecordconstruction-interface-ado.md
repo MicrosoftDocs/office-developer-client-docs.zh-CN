@@ -1,28 +1,28 @@
 ---
 title: ADORecordConstruction 接口 (ADO)
-TOCTitle: ADORecordConstruction Interface (ADO)
+TOCTitle: ADORecordConstruction interface (ADO)
 ms:assetid: 3f0afbdb-f1c4-e44e-7c0f-a0c4cee554a7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ddf7da4e99f852178e0d12484e86f54248b4185
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b719c6314fb2c68a0a343a800da35ee944654df3
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874557"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924587"
 ---
-# <a name="adorecordconstruction-interface-ado"></a><span data-ttu-id="28dc8-102">ADORecordConstruction 接口 (ADO)</span><span class="sxs-lookup"><span data-stu-id="28dc8-102">ADORecordConstruction Interface (ADO)</span></span>
+# <a name="adorecordconstruction-interface-ado"></a><span data-ttu-id="5f0b7-102">ADORecordConstruction 接口 (ADO)</span><span class="sxs-lookup"><span data-stu-id="5f0b7-102">ADORecordConstruction interface (ADO)</span></span>
 
 
-<span data-ttu-id="28dc8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="28dc8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5f0b7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f0b7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="28dc8-104">**ADORecordConstruction** 接口用于根据 C/C++ 应用程序中的 OLE DB **Row** 对象构造 ADO **Record** 对象。</span><span class="sxs-lookup"><span data-stu-id="28dc8-104">The **ADORecordConstruction** interface is used to construct an ADO **Record** object from an OLE DB **Row** object in a C/C++ application.</span></span>
+<span data-ttu-id="5f0b7-104">**ADORecordConstruction** 接口用于根据 C/C++ 应用程序中的 OLE DB **Row** 对象构造 ADO **Record** 对象。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-104">The **ADORecordConstruction** interface is used to construct an ADO **Record** object from an OLE DB **Row** object in a C/C++ application.</span></span>
 
-<span data-ttu-id="28dc8-105">此接口支持以下属性：</span><span class="sxs-lookup"><span data-stu-id="28dc8-105">This interface supports the following properties:</span></span>
+<span data-ttu-id="5f0b7-105">此接口支持以下属性：</span><span class="sxs-lookup"><span data-stu-id="5f0b7-105">This interface supports the following properties:</span></span>
 
-## <a name="properties"></a><span data-ttu-id="28dc8-106">属性</span><span class="sxs-lookup"><span data-stu-id="28dc8-106">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="5f0b7-106">属性</span><span class="sxs-lookup"><span data-stu-id="5f0b7-106">Properties</span></span>
 
 <table>
 <colgroup>
@@ -31,39 +31,39 @@ ms.locfileid: "25874557"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="28dc8-107"><a href="parentrow-property-ado.md">ParentRow</a></span><span class="sxs-lookup"><span data-stu-id="28dc8-107"><a href="parentrow-property-ado.md">ParentRow</a></span></span></p></td>
-<td><p><span data-ttu-id="28dc8-108">为只写属性。</span><span class="sxs-lookup"><span data-stu-id="28dc8-108">Write-only.</span></span><br />
-<span data-ttu-id="28dc8-109">在此 ADO <strong>Record</strong>对象上设置 OLE DB <strong>Row</strong>对象的容器。</span><span class="sxs-lookup"><span data-stu-id="28dc8-109">Sets the container of an OLE DB <strong>Row</strong> object on this ADO <strong>Record</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="5f0b7-107"><a href="parentrow-property-ado.md">ParentRow</a></span><span class="sxs-lookup"><span data-stu-id="5f0b7-107"><a href="parentrow-property-ado.md">ParentRow</a></span></span></p></td>
+<td><p><span data-ttu-id="5f0b7-108">为只写属性。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-108">Write-only.</span></span><br />
+<span data-ttu-id="5f0b7-109">在此 ADO <strong>Record</strong>对象上设置 OLE DB <strong>Row</strong>对象的容器。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-109">Sets the container of an OLE DB <strong>Row</strong> object on this ADO <strong>Record</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="28dc8-110"><a href="row-property-ado.md">Row</a></span><span class="sxs-lookup"><span data-stu-id="28dc8-110"><a href="row-property-ado.md">Row</a></span></span></p></td>
-<td><p><span data-ttu-id="28dc8-111">读/写。</span><span class="sxs-lookup"><span data-stu-id="28dc8-111">Read/Write.</span></span><br />
-<span data-ttu-id="28dc8-112">获取/设置从在此 ADO <strong>Record</strong>对象的 OLE DB <strong>Row</strong>对象。</span><span class="sxs-lookup"><span data-stu-id="28dc8-112">Gets/sets an OLE DB <strong>Row</strong> object from/on this ADO <strong>Record</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="5f0b7-110"><a href="row-property-ado.md">Row</a></span><span class="sxs-lookup"><span data-stu-id="5f0b7-110"><a href="row-property-ado.md">Row</a></span></span></p></td>
+<td><p><span data-ttu-id="5f0b7-111">读/写。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-111">Read/Write.</span></span><br />
+<span data-ttu-id="5f0b7-112">获取/设置从在此 ADO <strong>Record</strong>对象的 OLE DB <strong>Row</strong>对象。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-112">Gets/sets an OLE DB <strong>Row</strong> object from/on this ADO <strong>Record</strong> object.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="methods"></a><span data-ttu-id="28dc8-113">方法</span><span class="sxs-lookup"><span data-stu-id="28dc8-113">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="5f0b7-113">方法</span><span class="sxs-lookup"><span data-stu-id="5f0b7-113">Methods</span></span>
 
-<span data-ttu-id="28dc8-114">无。</span><span class="sxs-lookup"><span data-stu-id="28dc8-114">None.</span></span>
+<span data-ttu-id="5f0b7-114">无。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-114">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="28dc8-115">事件</span><span class="sxs-lookup"><span data-stu-id="28dc8-115">Events</span></span>
+## <a name="events"></a><span data-ttu-id="5f0b7-115">事件</span><span class="sxs-lookup"><span data-stu-id="5f0b7-115">Events</span></span>
 
-<span data-ttu-id="28dc8-116">无。</span><span class="sxs-lookup"><span data-stu-id="28dc8-116">None.</span></span>
+<span data-ttu-id="5f0b7-116">无。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-116">None.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="28dc8-117">说明</span><span class="sxs-lookup"><span data-stu-id="28dc8-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5f0b7-117">说明</span><span class="sxs-lookup"><span data-stu-id="5f0b7-117">Remarks</span></span>
 
-<span data-ttu-id="28dc8-118">给定 OLE DB **Row**对象 (pRow)、 构造的 ADO **Record**对象 （）、 构造 ADO **Record**对象 (adoR) 量与以下三个基本操作：</span><span class="sxs-lookup"><span data-stu-id="28dc8-118">Given an OLE DB **Row** object (pRow), the construction of an ADO **Record** object (), the construction of an ADO **Record** object (adoR), amounts to the following three basic operations:</span></span>
+<span data-ttu-id="5f0b7-118">给定 OLE DB **Row**对象 (pRow)、 构造的 ADO **Record**对象 （）、 构造 ADO **Record**对象 (adoR) 量与以下三个基本操作：</span><span class="sxs-lookup"><span data-stu-id="5f0b7-118">Given an OLE DB **Row** object (pRow), the construction of an ADO **Record** object (), the construction of an ADO **Record** object (adoR), amounts to the following three basic operations:</span></span>
 
-1.  <span data-ttu-id="28dc8-119">创建 ADO **Record** 对象：</span><span class="sxs-lookup"><span data-stu-id="28dc8-119">Create an ADO **Record** object:</span></span>
+1.  <span data-ttu-id="5f0b7-119">创建 ADO **Record** 对象：</span><span class="sxs-lookup"><span data-stu-id="5f0b7-119">Create an ADO **Record** object:</span></span>
     
     ```vb
         _RecordPtr adoR;
         adoRs.CreateInstance(__uuidof(_Record));
     ```
 
-2.  <span data-ttu-id="28dc8-120">查询 **Record** 对象的 **IADORecordConstruction** 接口：</span><span class="sxs-lookup"><span data-stu-id="28dc8-120">Query the **IADORecordConstruction** interface on the **Record** object:</span></span>
+2.  <span data-ttu-id="5f0b7-120">查询 **Record** 对象的 **IADORecordConstruction** 接口：</span><span class="sxs-lookup"><span data-stu-id="5f0b7-120">Query the **IADORecordConstruction** interface on the **Record** object:</span></span>
     
     ```vb
         adoRecordConstructionPtr adoRConstruct=NULL;
@@ -71,7 +71,7 @@ ms.locfileid: "25874557"
                             (void**)&adoRConstruct);
     ```
 
-3.  <span data-ttu-id="28dc8-121">调用**IADORecordConstruction::put\_行**属性方法，以便设置 ADO **Record**对象的 OLE DB **Row**对象：</span><span class="sxs-lookup"><span data-stu-id="28dc8-121">Call the **IADORecordConstruction::put\_Row** property method to set the OLE DB **Row** object on the ADO **Record** object:</span></span>
+3.  <span data-ttu-id="5f0b7-121">调用**IADORecordConstruction::put\_行**属性方法，以便设置 ADO **Record**对象的 OLE DB **Row**对象：</span><span class="sxs-lookup"><span data-stu-id="5f0b7-121">Call the **IADORecordConstruction::put\_Row** property method to set the OLE DB **Row** object on the ADO **Record** object:</span></span>
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -79,15 +79,15 @@ ms.locfileid: "25874557"
         adoRConstruct->put_Row(pUnk);
     ```
     
-<span data-ttu-id="28dc8-122">产生的 **adoR** 对象现在表示根据 OLE DB **Row** 对象构造的 ADO **Record** 对象。</span><span class="sxs-lookup"><span data-stu-id="28dc8-122">The resultant **adoR** object now represents the ADO **Record** object constructed from the OLE DB **Row** object.</span></span>
+<span data-ttu-id="5f0b7-122">产生的 **adoR** 对象现在表示根据 OLE DB **Row** 对象构造的 ADO **Record** 对象。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-122">The resultant **adoR** object now represents the ADO **Record** object constructed from the OLE DB **Row** object.</span></span>
 
-<span data-ttu-id="28dc8-123">也可以根据 OLE DB **Row** 对象的容器构造 ADO **Record** 对象。</span><span class="sxs-lookup"><span data-stu-id="28dc8-123">An ADO **Record** object can also be constructed from the container of an OLE DB **Row** object.</span></span>
+<span data-ttu-id="5f0b7-123">也可以根据 OLE DB **Row** 对象的容器构造 ADO **Record** 对象。</span><span class="sxs-lookup"><span data-stu-id="5f0b7-123">An ADO **Record** object can also be constructed from the container of an OLE DB **Row** object.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="28dc8-124">要求</span><span class="sxs-lookup"><span data-stu-id="28dc8-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5f0b7-124">要求</span><span class="sxs-lookup"><span data-stu-id="5f0b7-124">Requirements</span></span>
 
-<span data-ttu-id="28dc8-125">**版本：** ADO 2.0 及更高版本</span><span class="sxs-lookup"><span data-stu-id="28dc8-125">**Version:** ADO 2.0 and later</span></span>
+<span data-ttu-id="5f0b7-125">**版本：** ADO 2.0 及更高版本</span><span class="sxs-lookup"><span data-stu-id="5f0b7-125">**Version:** ADO 2.0 and later</span></span>
 
-<span data-ttu-id="28dc8-126">**库：** msado15.dll</span><span class="sxs-lookup"><span data-stu-id="28dc8-126">**Library:** msado15.dll</span></span>
+<span data-ttu-id="5f0b7-126">**库：** msado15.dll</span><span class="sxs-lookup"><span data-stu-id="5f0b7-126">**Library:** msado15.dll</span></span>
 
-<span data-ttu-id="28dc8-127">**UUID：** 00000567-0000-0010-8000-00AA006D2EA4</span><span class="sxs-lookup"><span data-stu-id="28dc8-127">**UUID:** 00000567-0000-0010-8000-00AA006D2EA4</span></span>
+<span data-ttu-id="5f0b7-127">**UUID：** 00000567-0000-0010-8000-00AA006D2EA4</span><span class="sxs-lookup"><span data-stu-id="5f0b7-127">**UUID:** 00000567-0000-0010-8000-00AA006D2EA4</span></span>
 

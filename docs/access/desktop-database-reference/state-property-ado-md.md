@@ -1,30 +1,30 @@
 ---
 title: State 属性 (ADO MD)
-TOCTitle: State Property (ADO MD)
+TOCTitle: State property (ADO MD)
 ms:assetid: 4df09f45-9b62-33ce-b4ed-230e41eaac7a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249249(v=office.15)
 ms:contentKeyID: 48544744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4bc1efc33aa263275ba50526ff682b64a229293f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 33933fb71ee3d7541640469eebc650c0f52a9784
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885463"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922011"
 ---
-# <a name="state-property-ado-md"></a><span data-ttu-id="fe8df-102">State 属性 (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="fe8df-102">State Property (ADO MD)</span></span>
+# <a name="state-property-ado-md"></a><span data-ttu-id="9a30d-102">State 属性 (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9a30d-102">State property (ADO MD)</span></span>
 
 
-<span data-ttu-id="fe8df-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe8df-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9a30d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a30d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fe8df-104">指示单元格集的当前状态。</span><span class="sxs-lookup"><span data-stu-id="fe8df-104">Indicates the current state of the cellset.</span></span>
+<span data-ttu-id="9a30d-104">指示单元格集的当前状态。</span><span class="sxs-lookup"><span data-stu-id="9a30d-104">Indicates the current state of the cellset.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="fe8df-105">返回值</span><span class="sxs-lookup"><span data-stu-id="fe8df-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="9a30d-105">返回值</span><span class="sxs-lookup"><span data-stu-id="9a30d-105">Return values</span></span>
 
-<span data-ttu-id="fe8df-p101">返回一个 **Long** 整数值，该值指示 [Cellset](cellset-object-ado-md.md) 对象的当前状况，并且为只读。以下属性值有效： **adStateClosed** (0) 和 **adStateOpen** (1)。</span><span class="sxs-lookup"><span data-stu-id="fe8df-p101">Returns a **Long** integer indicating the current condition of the [Cellset](cellset-object-ado-md.md) object and is read-only. The following values are valid: **adStateClosed** (0) and **adStateOpen** (1).</span></span>
+<span data-ttu-id="9a30d-p101">返回一个 **Long** 整数值，该值指示 [Cellset](cellset-object-ado-md.md) 对象的当前状况，并且为只读。以下属性值有效： **adStateClosed** (0) 和 **adStateOpen** (1)。</span><span class="sxs-lookup"><span data-stu-id="9a30d-p101">Returns a **Long** integer indicating the current condition of the [Cellset](cellset-object-ado-md.md) object and is read-only. The following values are valid: **adStateClosed** (0) and **adStateOpen** (1).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fe8df-108">备注</span><span class="sxs-lookup"><span data-stu-id="fe8df-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9a30d-108">备注</span><span class="sxs-lookup"><span data-stu-id="9a30d-108">Remarks</span></span>
 
-<span data-ttu-id="fe8df-p102">若要使用 [ObjectStateEnum](objectstateenum.md) 常量名称，必须在项目中引用 ADO 类型库。有关更多信息，请参阅 [将 ADO 与 ADO MD 结合使用](using-ado-with-ado-md.md)。</span><span class="sxs-lookup"><span data-stu-id="fe8df-p102">To use the [ObjectStateEnum](objectstateenum.md) constant names, you must have the ADO type library referenced in your project. See [Using ADO with ADO MD](using-ado-with-ado-md.md) for more information.</span></span>
+<span data-ttu-id="9a30d-p102">若要使用 [ObjectStateEnum](objectstateenum.md) 常量名称，必须在项目中引用 ADO 类型库。有关更多信息，请参阅 [将 ADO 与 ADO MD 结合使用](using-ado-with-ado-md.md)。</span><span class="sxs-lookup"><span data-stu-id="9a30d-p102">To use the [ObjectStateEnum](objectstateenum.md) constant names, you must have the ADO type library referenced in your project. See [Using ADO with ADO MD](using-ado-with-ado-md.md) for more information.</span></span>
 
