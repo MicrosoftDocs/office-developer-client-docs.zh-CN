@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f5d22d4d5be88063524b2a55bb1703deeb173018
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 13b81a2bc6b40ae8ad8904b53095164749e49847
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884623"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944786"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="e0e5b-102">Views 和 Fields 集合示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e0e5b-102">Views and Fields Collections example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="09463-102">Views 和 Fields 集合示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="09463-102">Views and Fields collections example (VB)</span></span>
 
 
-<span data-ttu-id="e0e5b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0e5b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="09463-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="09463-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e0e5b-104">下面的代码演示如何使用 [Command](command-property-adox.md) 属性和 [Recordset](recordset-object-ado.md) 对象检索视图的字段信息。</span><span class="sxs-lookup"><span data-stu-id="e0e5b-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="09463-104">下面的代码演示如何使用 [Command](command-property-adox.md) 属性和 [Recordset](recordset-object-ado.md) 对象检索视图的字段信息。</span><span class="sxs-lookup"><span data-stu-id="09463-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  

@@ -6,21 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250282(v=office.15)
 ms:contentKeyID: 48548856
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9f3299892118d044bfcc36f3fa28e4e25eaed9b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ddd306e95ccf9ed68848b516c6d23d45286edf63
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881130"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943834"
 ---
-# <a name="step-3-server-obtains-a-recordset-rds-tutorial"></a><span data-ttu-id="58e75-102">步骤 3：服务器获得记录集（RDS 教程）</span><span class="sxs-lookup"><span data-stu-id="58e75-102">Step 3: Server Obtains a Recordset (RDS Tutorial)</span></span>
+# <a name="step-3-server-obtains-a-recordset-rds-tutorial"></a><span data-ttu-id="60c39-102">步骤 3： 服务器获取 Recordset （RDS 教程）</span><span class="sxs-lookup"><span data-stu-id="60c39-102">Step 3: Server obtains a Recordset (RDS Tutorial)</span></span>
 
+<span data-ttu-id="60c39-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="60c39-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58e75-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="58e75-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="60c39-p101">服务器程序使用连接字符串和命令文本在数据源中查询所需的行。尽管也可以使用其他 Microsoft 数据访问接口（如 OLE DB），但通常使用 ADO 来检索该 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="60c39-p101">The server program uses the connect string and command text to query the data source for the desired rows. ADO is typically used to retrieve this **Recordset**, although other Microsoft data access interfaces, such as OLE DB, could be used.</span></span>
 
-<span data-ttu-id="58e75-p101">服务器程序使用连接字符串和命令文本在数据源中查询所需的行。尽管也可以使用其他 Microsoft 数据访问接口（如 OLE DB），但通常使用 ADO 来检索该 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="58e75-p101">The server program uses the connect string and command text to query the data source for the desired rows. ADO is typically used to retrieve this **Recordset**, although other Microsoft data access interfaces, such as OLE DB, could be used.</span></span>
-
-<span data-ttu-id="58e75-106">自定义服务器程序的形式可以类似如下：</span><span class="sxs-lookup"><span data-stu-id="58e75-106">A custom server program might look like this:</span></span>
+<span data-ttu-id="60c39-106">自定义服务器程序的形式可以类似如下：</span><span class="sxs-lookup"><span data-stu-id="60c39-106">A custom server program might look like this:</span></span>
 
 ```vb 
  

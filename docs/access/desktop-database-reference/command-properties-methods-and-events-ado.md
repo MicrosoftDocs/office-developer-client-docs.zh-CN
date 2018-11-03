@@ -6,47 +6,37 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249373(v=office.15)
 ms:contentKeyID: 48545244
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f1b9c6455d1db3379e34820b0a458b5080ccb89
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0ad65728bad847b509b5e68d66a994dd290815ce
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928444"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945183"
 ---
-# <a name="command-properties-methods-and-events-ado"></a><span data-ttu-id="d19cf-102">Command 属性、 方法和事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="d19cf-102">Command properties, methods, and events (ADO)</span></span>
+# <a name="command-properties-methods-and-events-ado"></a><span data-ttu-id="71657-102">Command 属性、 方法和事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="71657-102">Command properties, methods, and events (ADO)</span></span>
 
 
-<span data-ttu-id="d19cf-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d19cf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="71657-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="71657-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="d19cf-104">属性/集合</span><span class="sxs-lookup"><span data-stu-id="d19cf-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="71657-104">属性/集合</span><span class="sxs-lookup"><span data-stu-id="71657-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="d19cf-105">ActiveConnection 属性</span><span class="sxs-lookup"><span data-stu-id="d19cf-105">ActiveConnection Property</span></span>](activeconnection-property-ado.md)
+- [<span data-ttu-id="71657-105">ActiveConnection 属性</span><span class="sxs-lookup"><span data-stu-id="71657-105">ActiveConnection property</span></span>](activeconnection-property-ado.md)
+- [<span data-ttu-id="71657-106">CommandText 属性</span><span class="sxs-lookup"><span data-stu-id="71657-106">CommandText property</span></span>](commandtext-property-ado.md)
+- [<span data-ttu-id="71657-107">CommandTimeout 属性</span><span class="sxs-lookup"><span data-stu-id="71657-107">CommandTimeout property</span></span>](commandtimeout-property-ado.md)
+- [<span data-ttu-id="71657-108">CommandType 属性</span><span class="sxs-lookup"><span data-stu-id="71657-108">CommandType property</span></span>](commandtype-property-ado.md)
+- [<span data-ttu-id="71657-109">Name 属性</span><span class="sxs-lookup"><span data-stu-id="71657-109">Name property</span></span>](name-property-ado.md)
+- [<span data-ttu-id="71657-110">Parameters 集合</span><span class="sxs-lookup"><span data-stu-id="71657-110">Parameters collection</span></span>](parameters-collection-ado.md)
+- [<span data-ttu-id="71657-111">Prepared 的属性</span><span class="sxs-lookup"><span data-stu-id="71657-111">Prepared property</span></span>](prepared-property-ado.md)
+- [<span data-ttu-id="71657-112">Properties 集合</span><span class="sxs-lookup"><span data-stu-id="71657-112">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="71657-113">State 属性</span><span class="sxs-lookup"><span data-stu-id="71657-113">State property</span></span>](state-property-ado.md)
 
-- [<span data-ttu-id="d19cf-106">CommandText 属性</span><span class="sxs-lookup"><span data-stu-id="d19cf-106">CommandText Property</span></span>](commandtext-property-ado.md)
+## <a name="methods"></a><span data-ttu-id="71657-114">方法</span><span class="sxs-lookup"><span data-stu-id="71657-114">Methods</span></span>
 
-- [<span data-ttu-id="d19cf-107">CommandTimeout 属性</span><span class="sxs-lookup"><span data-stu-id="d19cf-107">CommandTimeout Property</span></span>](commandtimeout-property-ado.md)
+- [<span data-ttu-id="71657-115">Cancel 方法</span><span class="sxs-lookup"><span data-stu-id="71657-115">Cancel method</span></span>](cancel-method-ado.md)
+- [<span data-ttu-id="71657-116">CreateParameter 方法</span><span class="sxs-lookup"><span data-stu-id="71657-116">CreateParameter method</span></span>](createparameter-method-ado.md)
+- <span data-ttu-id="71657-117">[Execute 方法 (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="71657-117">[Execute method (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))</span></span>
 
-- [<span data-ttu-id="d19cf-108">CommandType 属性</span><span class="sxs-lookup"><span data-stu-id="d19cf-108">CommandType Property</span></span>](commandtype-property-ado.md)
+## <a name="events"></a><span data-ttu-id="71657-118">事件</span><span class="sxs-lookup"><span data-stu-id="71657-118">Events</span></span>
 
-- [<span data-ttu-id="d19cf-109">Name 属性</span><span class="sxs-lookup"><span data-stu-id="d19cf-109">Name Property</span></span>](name-property-ado.md)
-
-- [<span data-ttu-id="d19cf-110">Parameters 集合</span><span class="sxs-lookup"><span data-stu-id="d19cf-110">Parameters Collection</span></span>](parameters-collection-ado.md)
-
-- [<span data-ttu-id="d19cf-111">Prepared 属性</span><span class="sxs-lookup"><span data-stu-id="d19cf-111">Prepared Property</span></span>](prepared-property-ado.md)
-
-- [<span data-ttu-id="d19cf-112">Properties 集合</span><span class="sxs-lookup"><span data-stu-id="d19cf-112">Properties Collection</span></span>](properties-collection-ado.md)
-
-- [<span data-ttu-id="d19cf-113">State 属性</span><span class="sxs-lookup"><span data-stu-id="d19cf-113">State Property</span></span>](state-property-ado.md)
-
-## <a name="methods"></a><span data-ttu-id="d19cf-114">方法</span><span class="sxs-lookup"><span data-stu-id="d19cf-114">Methods</span></span>
-
-- [<span data-ttu-id="d19cf-115">Cancel 方法</span><span class="sxs-lookup"><span data-stu-id="d19cf-115">Cancel Method</span></span>](cancel-method-ado.md)
-
-- [<span data-ttu-id="d19cf-116">CreateParameter 方法</span><span class="sxs-lookup"><span data-stu-id="d19cf-116">CreateParameter Method</span></span>](createparameter-method-ado.md)
-
-- <span data-ttu-id="d19cf-117">[Execute 方法 (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="d19cf-117">[Execute Method (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))</span></span>
-
-## <a name="events"></a><span data-ttu-id="d19cf-118">事件</span><span class="sxs-lookup"><span data-stu-id="d19cf-118">Events</span></span>
-
-<span data-ttu-id="d19cf-119">无。</span><span class="sxs-lookup"><span data-stu-id="d19cf-119">None.</span></span>
+<span data-ttu-id="71657-119">无。</span><span class="sxs-lookup"><span data-stu-id="71657-119">None.</span></span>
 
