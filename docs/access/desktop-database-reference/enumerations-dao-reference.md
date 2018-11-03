@@ -1,74 +1,47 @@
 ---
-title: Enumerations (DAO Reference)
+title: 枚举 （DAO 参考 （英文）
 TOCTitle: Enumerations
 ms:assetid: d4d91585-f3cc-4e60-8177-244d7244465e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
 ms:contentKeyID: 52074514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e0b4a2bc47a37918f3665d607e0748726851d97a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d062fe3cc64bcc16cffa2d9a9836da2787a6f370
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867886"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945493"
 ---
-# <a name="enumerations-dao-reference"></a>Enumerations (DAO Reference)
-
+# <a name="enumerations-dao-reference"></a>枚举 （DAO 参考 （英文）
 
 **适用于**： Access 2013、 Office 2013
 
+- [CollatingOrderEnum 枚举 (DAO)](collatingorderenum-enumeration-dao.md)
+- [CommitTransOptionsEnum 枚举 (DAO)](committransoptionsenum-enumeration-dao.md)
+- [CursorDriverEnum 枚举 (DAO)](cursordriverenum-enumeration-dao.md)
+- [DatabaseTypeEnum 枚举 (DAO)](databasetypeenum-enumeration-dao.md)
+- [DataTypeEnum 枚举 (DAO)](datatypeenum-enumeration-dao.md)
+- [DriverPromptEnum 枚举 (DAO)](driverpromptenum-enumeration-dao.md)
+- [EditModeEnum 枚举 (DAO)](editmodeenum-enumeration-dao.md)
+- [FieldAttributeEnum 枚举 (DAO)](fieldattributeenum-enumeration-dao.md)
+- [IdleEnum 枚举 (DAO)](idleenum-enumeration-dao.md)
+- [LanguageConstants 枚举 (DAO)](languageconstants-enumeration-dao.md)
+- [LockTypeEnum 枚举 (DAO)](locktypeenum-enumeration-dao.md)
+- [ParameterDirectionEnum 枚举 (DAO)](parameterdirectionenum-enumeration-dao.md)
+- [PermissionEnum 枚举 (DAO)](permissionenum-enumeration-dao.md)
+- [QueryDefStateEnum 枚举 (DAO)](querydefstateenum-enumeration-dao.md)
+- [QueryDefTypeEnum 枚举 (DAO)](querydeftypeenum-enumeration-dao.md)
+- [RecordsetOptionEnum 枚举 (DAO)](recordsetoptionenum-enumeration-dao.md)
+- [RecordsetTypeEnum 枚举 (DAO)](recordsettypeenum-enumeration-dao.md)
+- [RecordStatusEnum 枚举 (DAO)](recordstatusenum-enumeration-dao.md)
+- [RelationAttributeEnum 枚举 (DAO)](relationattributeenum-enumeration-dao.md)
+- [ReplicaTypeEnum 枚举 (DAO)](replicatypeenum-enumeration-dao.md)
+- [SetOptionEnum 枚举 (DAO)](setoptionenum-enumeration-dao.md)
+- [SynchronizeTypeEnum 枚举 (DAO)](synchronizetypeenum-enumeration-dao.md)
+- [TableDefAttributeEnum 枚举 (DAO)](tabledefattributeenum-enumeration-dao.md)
+- [UpdateCriteriaEnum 枚举 (DAO)](updatecriteriaenum-enumeration-dao.md)
+- [UpdateTypeEnum 枚举 (DAO)](updatetypeenum-enumeration-dao.md)
+- [WorkspaceTypeEnum 枚举 (DAO)](workspacetypeenum-enumeration-dao.md)
 
-
-  - [CollatingOrderEnum Enumeration (DAO)](collatingorderenum-enumeration-dao.md)
-
-  - [CommitTransOptionsEnum Enumeration (DAO)](committransoptionsenum-enumeration-dao.md)
-
-  - [CursorDriverEnum Enumeration (DAO)](cursordriverenum-enumeration-dao.md)
-
-  - [DatabaseTypeEnum Enumeration (DAO)](databasetypeenum-enumeration-dao.md)
-
-  - [DataTypeEnum Enumeration (DAO)](datatypeenum-enumeration-dao.md)
-
-  - [DriverPromptEnum Enumeration (DAO)](driverpromptenum-enumeration-dao.md)
-
-  - [EditModeEnum Enumeration (DAO)](editmodeenum-enumeration-dao.md)
-
-  - [FieldAttributeEnum Enumeration (DAO)](fieldattributeenum-enumeration-dao.md)
-
-  - [IdleEnum Enumeration (DAO)](idleenum-enumeration-dao.md)
-
-  - [LanguageConstants Enumeration (DAO)](languageconstants-enumeration-dao.md)
-
-  - [LockTypeEnum Enumeration (DAO)](locktypeenum-enumeration-dao.md)
-
-  - [ParameterDirectionEnum Enumeration (DAO)](parameterdirectionenum-enumeration-dao.md)
-
-  - [PermissionEnum Enumeration (DAO)](permissionenum-enumeration-dao.md)
-
-  - [QueryDefStateEnum Enumeration (DAO)](querydefstateenum-enumeration-dao.md)
-
-  - [QueryDefTypeEnum Enumeration (DAO)](querydeftypeenum-enumeration-dao.md)
-
-  - [RecordsetOptionEnum Enumeration (DAO)](recordsetoptionenum-enumeration-dao.md)
-
-  - [RecordsetTypeEnum Enumeration (DAO)](recordsettypeenum-enumeration-dao.md)
-
-  - [RecordStatusEnum Enumeration (DAO)](recordstatusenum-enumeration-dao.md)
-
-  - [RelationAttributeEnum Enumeration (DAO)](relationattributeenum-enumeration-dao.md)
-
-  - [ReplicaTypeEnum Enumeration (DAO)](replicatypeenum-enumeration-dao.md)
-
-  - [SetOptionEnum Enumeration (DAO)](setoptionenum-enumeration-dao.md)
-
-  - [SynchronizeTypeEnum Enumeration (DAO)](synchronizetypeenum-enumeration-dao.md)
-
-  - [TableDefAttributeEnum Enumeration (DAO)](tabledefattributeenum-enumeration-dao.md)
-
-  - [UpdateCriteriaEnum Enumeration (DAO)](updatecriteriaenum-enumeration-dao.md)
-
-  - [UpdateTypeEnum Enumeration (DAO)](updatetypeenum-enumeration-dao.md)
-
-  - [WorkspaceTypeEnum Enumeration (DAO)](workspacetypeenum-enumeration-dao.md)
 

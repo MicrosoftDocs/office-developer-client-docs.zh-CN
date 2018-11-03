@@ -1,20 +1,19 @@
 ---
 title: 持久化分层记录集
-TOCTitle: Persisting Hierarchical Recordsets
+TOCTitle: Persisting hierarchical Recordsets
 ms:assetid: 28f48d4a-1c32-7b60-cd65-51fb87c5380e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249048(v=office.15)
 ms:contentKeyID: 48543872
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c990ef345ed8e10223757ded958b1b8a0f60eb26
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 55f005818ef8fa44a2ee59542aa220f4d71eb687
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877378"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944982"
 ---
 # <a name="persisting-hierarchical-recordsets"></a>持久化分层记录集
-
 
 **适用于**： Access 2013、 Office 2013
 

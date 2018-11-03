@@ -1,20 +1,19 @@
 ---
 title: 键集游标 （访问桌面数据库参考 （英文）
-TOCTitle: Keyset Cursors
+TOCTitle: Keyset cursors
 ms:assetid: 4b6e5f90-4413-4fb3-0a08-2cb89d3c61f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
 ms:contentKeyID: 48544690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66e6b5ff69d22fa50d9765eb2087c373613bdb7d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 098bbd0ba69fcfd874db4aa78394df1a768b68c8
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886940"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945262"
 ---
 # <a name="keyset-cursors"></a>键集游标
-
 
 **适用于**： Access 2013、 Office 2013
 

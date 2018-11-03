@@ -1,17 +1,17 @@
 ---
 title: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (RDS)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (RDS)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (RDS)
 ms:assetid: 32ef8fa9-c096-b4e7-3396-b88a6a9bd1a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249101(v=office.15)
 ms:contentKeyID: 48544092
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fcef91204fd2390696911cd8a81e7fb232af2ae2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c78e6aaca31201e076dffb55b19be638a337dd19
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871435"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944926"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (RDS)
 

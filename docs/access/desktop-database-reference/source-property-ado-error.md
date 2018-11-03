@@ -1,19 +1,19 @@
 ---
-title: Source 属性 (ADO Error)
-TOCTitle: Source Property (ADO Error)
+title: Source 属性（ADO 错误）
+TOCTitle: Source property (ADO Error)
 ms:assetid: ffc6c77f-1494-d63a-d832-416faa4c6f07
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250316(v=office.15)
 ms:contentKeyID: 48548969
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd8a2df4462d9f877d1b4451744fc51215227153
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bf7b30021f030cff54f501250b7da4059e38c52a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875103"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944611"
 ---
-# <a name="source-property-ado-error"></a>Source 属性 (ADO Error)
+# <a name="source-property-ado-error"></a>Source 属性（ADO 错误）
 
 
 **适用于**： Access 2013、 Office 2013

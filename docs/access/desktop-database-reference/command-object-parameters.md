@@ -1,20 +1,19 @@
 ---
 title: Command 对象参数
-TOCTitle: Command Object Parameters
+TOCTitle: Command object parameters
 ms:assetid: b43bb20e-9d0a-b361-6845-d537ae667f0c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249862(v=office.15)
 ms:contentKeyID: 48547218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3ce61f514e174595a458f66ea0a6c671ce5a9dc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f5d6dc4f9c3dcd039154db74e578ed91aa62fb01
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880171"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944905"
 ---
 # <a name="command-object-parameters"></a>Command 对象参数
-
 
 **适用于**： Access 2013、 Office 2013
 

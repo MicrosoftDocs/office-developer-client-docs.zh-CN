@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
 ms:contentKeyID: 48546807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba1e32c3d2638589675a45c7cbc5a3e722651358
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6e90ff31c0b6a78a3f242927e2fa7e84c42d6ab3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928430"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945346"
 ---
 # <a name="axis-object-ado-md"></a>Axis 对象 (ADO MD)
 
@@ -26,11 +26,11 @@ ms.locfileid: "25928430"
 
 使用 **Axis** 对象的集合和属性，可以执行下列操作：
 
-  - 使用 **Name** 属性标识 [Axis](name-property-ado-md.md) 。
+- 使用 **Name** 属性标识 [Axis](name-property-ado-md.md) 。
 
-  - 使用 **Positions** 集合遍历沿 [Axis](positions-collection-ado-md.md) 的每个位置。
+- 使用 **Positions** 集合遍历沿 [Axis](positions-collection-ado-md.md) 的每个位置。
 
-  - 使用 **DimensionCount** 属性获取 [Axis](dimensioncount-property-ado-md.md) 的维数。
+- 使用 **DimensionCount** 属性获取 [Axis](dimensioncount-property-ado-md.md) 的维数。
 
-  - 使用标准 ADO **Properties** 集合获取 [Axis](properties-collection-ado.md) 的提供程序特定属性。
+- 使用标准 ADO **Properties** 集合获取 [Axis](properties-collection-ado.md) 的提供程序特定属性。
 

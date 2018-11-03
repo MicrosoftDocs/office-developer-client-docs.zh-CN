@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
 ms:contentKeyID: 48548014
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5eeb3c6e2e8c7b7f1c0f6e733c1b86545a5e954f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 95ed1b9b7c048353950b2481c7fefe2211b2799b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887822"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944275"
 ---
 # <a name="chapter-property-ado"></a>Chapter 属性 (ADO)
 
@@ -29,11 +29,11 @@ HRESULT 放置\_章 (\[的\]长 lChapter);
 
 ## <a name="parameters"></a>参数
 
-  - *plChapter*
+- *plChapter*
 
   - 指向子集的句柄的指针。
 
-  - *LChapter*
+- *LChapter*
 
   - 子集的句柄。
 

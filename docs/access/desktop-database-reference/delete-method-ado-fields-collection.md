@@ -1,19 +1,19 @@
 ---
-title: Delete 方法（ADO Fields 集合）
-TOCTitle: Delete Method (ADO Fields Collection)
+title: Delete 方法 （ADO Fields 集合）
+TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
 ms:contentKeyID: 48547047
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0fc2e614916026effe6ee0a9766e0b23db200574
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: afeec4007b9bd44a9575217e1fb6380a50d699c3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886394"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945312"
 ---
-# <a name="delete-method-ado-fields-collection"></a>Delete 方法（ADO Fields 集合）
+# <a name="delete-method-ado-fields-collection"></a>Delete 方法 （ADO Fields 集合）
 
 
 **适用于**： Access 2013、 Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25886394"
 
 ## <a name="parameters"></a>参数
 
-  - *Field*
+- *Field*
 
   - **变量型** ，指定要删除的 [Field](field-object-ado.md) 对象。此参数可以是 **Field** 对象的名称，或 **Field** 对象自身的序号位置。
 

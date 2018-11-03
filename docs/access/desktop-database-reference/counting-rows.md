@@ -1,17 +1,17 @@
 ---
 title: 对行 （访问桌面数据库引用） 进行计数
-TOCTitle: Counting Rows
+TOCTitle: Counting rows
 ms:assetid: ff684c5e-7f41-0dae-beea-f5c71f79bd84
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250312(v=office.15)
 ms:contentKeyID: 48548963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 664e7022d3a49f7c4c7c1fa6122b05a230b6e297
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 39468086e7c78a89b13b6021c7f07853c487c6e5
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889649"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945304"
 ---
 # <a name="counting-rows"></a>对行进行计数
 

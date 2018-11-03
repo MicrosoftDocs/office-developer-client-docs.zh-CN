@@ -1,19 +1,19 @@
 ---
-title: Status 属性 (ADO Recordset)
-TOCTitle: Status Property (ADO Recordset)
+title: Status 属性（ADO 记录集）
+TOCTitle: Status property (ADO Recordset)
 ms:assetid: bf3ccb36-c985-5fae-4f76-c48a0e20e6f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249930(v=office.15)
 ms:contentKeyID: 48547482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c053ec9f84de4aa56513081144e23f044c72effc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 396188dcd959b229f7f7a58ccafb76b00508aa49
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876629"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944233"
 ---
-# <a name="status-property-ado-recordset"></a>Status 属性 (ADO Recordset)
+# <a name="status-property-ado-recordset"></a>Status 属性（ADO 记录集）
 
 
 **适用于**： Access 2013、 Office 2013

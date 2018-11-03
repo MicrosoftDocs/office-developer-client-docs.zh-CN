@@ -1,17 +1,17 @@
 ---
 title: Shape Append 子句
-TOCTitle: Shape Append Clause
+TOCTitle: Shape Append clause
 ms:assetid: 8f29afc3-fb93-4439-b67b-cad0eed0bda9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca7d84e0a0fe1eda9237a4743a3296de7f192053
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7eab008a03cf016edc259ef5e9d41cf320e85c8c
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879114"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944846"
 ---
 # <a name="shape-append-clause"></a>Shape Append 子句
 

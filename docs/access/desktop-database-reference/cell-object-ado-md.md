@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e119600567c8d3c6cd23348d9b9560011e27a87
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d1d34409b170f2747ee5652210379087015f83dc
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924608"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944080"
 ---
 # <a name="cell-object-ado-md"></a>Cell 对象 (ADO MD)
 
@@ -26,15 +26,15 @@ ms.locfileid: "25924608"
 
 使用 **Cell** 对象的集合和属性，可以执行下列操作：
 
-  - 使用 **Value** 属性返回 [Cell](value-property-ado-md.md) 中的数据。
+- 使用 **Value** 属性返回 [Cell](value-property-ado-md.md) 中的数据。
 
-  - 使用 **FormattedValue** 属性返回代表 [Value](formattedvalue-property-ado-md.md) 属性的带格式显示的字符串。
+- 使用 **FormattedValue** 属性返回代表 [Value](formattedvalue-property-ado-md.md) 属性的带格式显示的字符串。
 
-  - 使用 **Ordinal** 属性返回 **Cellset** 中的 [Cell](ordinal-property-ado-md-cell.md) 的序号值。
+- 使用 **Ordinal** 属性返回 **Cellset** 中的 [Cell](ordinal-property-ado-md-cell.md) 的序号值。
 
-  - 使用 **Positions** 集合确定 [CubeDef](cubedef-object-ado-md.md) 中的 [Cell](positions-collection-ado-md.md) 的位置。
+- 使用 **Positions** 集合确定 [CubeDef](cubedef-object-ado-md.md) 中的 [Cell](positions-collection-ado-md.md) 的位置。
 
-  - 使用标准 ADO **Properties** 集合检索有关 [Cell](properties-collection-ado.md) 的其他信息。
+- 使用标准 ADO **Properties** 集合检索有关 [Cell](properties-collection-ado.md) 的其他信息。
 
 **Properties** 集合包含提供程序提供的属性。下表列出了可能可用的属性。实际的属性列表可能有所不同，具体取决于提供程序的实现。有关可用属性的更完整列表，请参阅提供程序文档。
 

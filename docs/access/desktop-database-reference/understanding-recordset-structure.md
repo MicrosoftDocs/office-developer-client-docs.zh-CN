@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249027(v=office.15)
 ms:contentKeyID: 48543808
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a7f3d9c64812a0b778d52f3e4c70436a11b270e9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4a8372f2c1762e29e4291b00e126ecd2a53618cd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880408"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945066"
 ---
 # <a name="understanding-recordset-structure"></a>了解记录集结构
 
@@ -22,8 +22,6 @@ ms.locfileid: "25880408"
 以下主题解释如何导航到的**Fields**集合，并获取有关每个字段的信息。 然后，他们讨论都可以通过**Field**对象使用哪种类型的信息以及如何使用它。
 
 - [Fields 集合](the-fields-collection.md)
-
 - [Field 对象](the-field-object.md)
-
 - [使用 Recordset](working-with-recordsets.md)
 

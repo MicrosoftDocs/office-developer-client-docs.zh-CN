@@ -1,17 +1,17 @@
 ---
 title: 筛选/查询/搜索
-TOCTitle: Filter/Query/Search
+TOCTitle: Filter/query/search
 ms:assetid: 383df639-4a9b-4741-add2-e6e36e1bdde5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124363(v=office.15)
 ms:contentKeyID: 52071997
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f41de73248c4bc2fc5d4cdc84931ef2c155278dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3fed2606ef85b8f28b1be3c84da43b2d516632c3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926981"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943696"
 ---
 # <a name="filterquerysearch"></a>筛选/查询/搜索
 

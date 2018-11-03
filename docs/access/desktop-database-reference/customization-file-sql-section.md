@@ -1,17 +1,17 @@
 ---
 title: 自定义文件 SQL 节
-TOCTitle: Customization File SQL Section
+TOCTitle: Customization File SQL section
 ms:assetid: 002c544f-fe1b-6aeb-ba9a-97b1e1159516
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248776(v=office.15)
 ms:contentKeyID: 48542901
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 391d87d23f50fb2b25e5fb8033da95f44eeeb09c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d314b37ee24f22e6abd76cdd855e7b3d5adaff0b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868614"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945402"
 ---
 # <a name="customization-file-sql-section"></a>自定义文件 SQL 节
 

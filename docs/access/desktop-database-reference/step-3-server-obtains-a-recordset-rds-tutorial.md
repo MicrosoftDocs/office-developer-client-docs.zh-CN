@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250282(v=office.15)
 ms:contentKeyID: 48548856
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9f3299892118d044bfcc36f3fa28e4e25eaed9b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ddd306e95ccf9ed68848b516c6d23d45286edf63
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881130"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943834"
 ---
-# <a name="step-3-server-obtains-a-recordset-rds-tutorial"></a>步骤 3：服务器获得记录集（RDS 教程）
-
+# <a name="step-3-server-obtains-a-recordset-rds-tutorial"></a>步骤 3： 服务器获取 Recordset （RDS 教程）
 
 **适用于**： Access 2013、 Office 2013
 

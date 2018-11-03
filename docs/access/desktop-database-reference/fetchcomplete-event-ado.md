@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
 ms:contentKeyID: 48544621
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ae09ff9bfcd694214a63fb630de52260ea7ac31
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: edb2eefd36aea9f037ea4ad6afc51e0da18b76db
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925224"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945633"
 ---
 # <a name="fetchcomplete-event-ado"></a>FetchComplete 事件 (ADO)
 
@@ -27,17 +27,17 @@ FetchComplete*pError*， *adStatus* *pRecordset*
 
 ## <a name="parameters"></a>参数
 
-  - *pError*
+- *pError*
 
   - [Error](error-object-ado.md) 对象。如果 **adStatus** 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。
 
-  - *adStatus*
+- *adStatus*
 
   - [EventStatusEnum](eventstatusenum.md)
     
     在此事件返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。
 
-  - *pRecordset*
+- *pRecordset*
 
   - **Recordset** 对象。为其检索记录的对象。
 

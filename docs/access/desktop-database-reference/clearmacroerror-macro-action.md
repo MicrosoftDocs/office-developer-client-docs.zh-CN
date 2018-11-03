@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f27e195181e6035c133c1f52c1dadc329496614b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cbf672ea3dde9725916128593e18d4289fd89057
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925252"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945381"
 ---
 # <a name="clearmacroerror-macro-action"></a>ClearMacroError 宏操作
 
@@ -31,15 +31,15 @@ ms.locfileid: "25925252"
 
 ## <a name="remarks"></a>说明
 
-  - 宏错误时，错误的信息存储在 **MacroError** 对象。 如果您已使用**[OnError](onerror-macro-action.md)** 操作来禁止显示错误消息，宏将停止错误信息是标准错误消息中显示。 但是，如果您已使用**OnError**操作禁止显示错误消息，您可能想要使用存储在**MacroError**对象中的条件或自定义错误消息中的信息。
+- 宏错误时，错误的信息存储在 **MacroError** 对象。 如果您已使用**[OnError](onerror-macro-action.md)** 操作来禁止显示错误消息，宏将停止错误信息是标准错误消息中显示。 但是，如果您已使用**OnError**操作禁止显示错误消息，您可能想要使用存储在**MacroError**对象中的条件或自定义错误消息中的信息。
     
-    在错误得到处理后， **MacroError** 对象中的信息将过期，因此最好使用 **ClearMacroError** 操作清除该对象。执行此操作会将 **MacroError** 对象的错误数量重置为 0，并清除有关存储在该对象中的错误的所有其他信息，例如错误说明、宏名称、操作名称、条件和参数。通过这种方式，可在以后重新检查 **MacroError** 对象，以确定是否发生了其他错误。
+  在错误得到处理后， **MacroError** 对象中的信息将过期，因此最好使用 **ClearMacroError** 操作清除该对象。执行此操作会将 **MacroError** 对象的错误数量重置为 0，并清除有关存储在该对象中的错误的所有其他信息，例如错误说明、宏名称、操作名称、条件和参数。通过这种方式，可在以后重新检查 **MacroError** 对象，以确定是否发生了其他错误。
 
-  - 在任何宏结束时，都会自动清除 **MacroError** 对象，因此无需在宏末尾使用 **ClearMacroError** 操作。
+- 在任何宏结束时，都会自动清除 **MacroError** 对象，因此无需在宏末尾使用 **ClearMacroError** 操作。
 
-  - **MacroError** 对象每次仅包含有关一个错误的信息。如果宏中发生了多个错误， **MacroError** 对象将仅包含有关最后一个错误的信息。
+- **MacroError** 对象每次仅包含有关一个错误的信息。如果宏中发生了多个错误， **MacroError** 对象将仅包含有关最后一个错误的信息。
 
-  - 要在 VBA 模块中运行 **ClearMacroError** 操作，请使用 **DoCmd** 对象的 **ClearMacroError** 方法。
+- 要在 VBA 模块中运行 **ClearMacroError** 操作，请使用 **DoCmd** 对象的 **ClearMacroError** 方法。
 
 ## <a name="example"></a>示例
 

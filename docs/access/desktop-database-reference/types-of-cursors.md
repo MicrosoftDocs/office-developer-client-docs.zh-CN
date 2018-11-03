@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249299(v=office.15)
 ms:contentKeyID: 48544996
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 95b16ba79a90765be9c6850c6aea6a000993f695
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cf41f9075e7716049a82818de930faa84cd0ae3e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880423"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945549"
 ---
-# <a name="types-of-cursors"></a>游标类型
+# <a name="types-of-cursors"></a>游标的类型
 
 
 **适用于**： Access 2013、 Office 2013

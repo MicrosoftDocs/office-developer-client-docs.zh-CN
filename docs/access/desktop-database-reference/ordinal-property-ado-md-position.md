@@ -1,19 +1,19 @@
 ---
-title: Ordinal 属性 (ADO MD Position)
-TOCTitle: Ordinal Property (ADO MD Position)
+title: Ordinal 属性（ADO MD 位置）
+TOCTitle: Ordinal property (ADO MD Position)
 ms:assetid: fb132ab5-d2b5-317d-e885-5e37ddaf90fb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250284(v=office.15)
 ms:contentKeyID: 48548861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efe0fcd48d3575651096b30853c3680b0284cf52
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: abf355cc4d066604035fddbbe8f8a428d8c7a6b0
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876797"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944779"
 ---
-# <a name="ordinal-property-ado-md-position"></a>Ordinal 属性 (ADO MD Position)
+# <a name="ordinal-property-ado-md-position"></a>Ordinal 属性（ADO MD 位置）
 
 
 **适用于**： Access 2013、 Office 2013

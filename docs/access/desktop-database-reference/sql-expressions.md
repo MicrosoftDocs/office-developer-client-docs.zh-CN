@@ -1,17 +1,17 @@
 ---
 title: SQL 表达式 （Access 桌面数据库参考 （英文）
-TOCTitle: SQL Expressions
+TOCTitle: SQL expressions
 ms:assetid: 91722f18-8589-d9fc-79ef-0be4ab11f822
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197629(v=office.15)
 ms:contentKeyID: 48546349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92ad643c2a602a24a411db33def62af89520f9b7
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 25b7d11430b730b6cedd1d8a084acd4984c5f292
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937776"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944147"
 ---
 # <a name="sql-expressions"></a>SQL 表达式
 

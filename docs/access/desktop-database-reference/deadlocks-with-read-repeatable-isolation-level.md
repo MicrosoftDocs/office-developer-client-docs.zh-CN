@@ -1,19 +1,19 @@
 ---
-title: 可重复读取隔离级别死锁
-TOCTitle: Deadlocks With Read Repeatable Isolation Level
+title: 具有可重复读取的隔离级别死锁
+TOCTitle: Deadlocks with read repeatable isolation level
 ms:assetid: 3d5f3293-33bb-cf6d-362a-278f9ec1bd3c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249165(v=office.15)
 ms:contentKeyID: 48544342
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9a5fbf4686fc5b8bffc984b4b483f1ee506eb7dd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e742a9157c3f2f26d70351fc05afa35472654af9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882985"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944324"
 ---
-# <a name="deadlocks-with-read-repeatable-isolation-level"></a>可重复读取隔离级别死锁
+# <a name="deadlocks-with-read-repeatable-isolation-level"></a>具有可重复读取的隔离级别死锁
 
 
 **适用于**： Access 2013、 Office 2013

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b4762e8cda4dc0fee0cf1aa60a9a3cafee998e9f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7422b7b4805bf09cdbf0b37ecf9ae025c3267fff
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922305"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944828"
 ---
 # <a name="propertiescount-property-dao"></a>Properties.Count 属性 (DAO)
 
@@ -32,9 +32,6 @@ ms.locfileid: "25922305"
 
 ## <a name="see-also"></a>另请参阅
 
-#### <a name="other-resources"></a>其他资源
-
-[Properties 集合](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
-
-[成员属性](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
+- [Properties 集合](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
+- [Properties 成员](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
 

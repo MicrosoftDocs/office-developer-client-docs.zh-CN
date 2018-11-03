@@ -1,19 +1,19 @@
 ---
-title: 在记录集中进行移动的其他方法
-TOCTitle: More Ways to Move in a Recordset
+title: 更多的方式在记录集中移动
+TOCTitle: More ways to move in a Recordset
 ms:assetid: ae49b20e-0050-c44b-67e9-7e39de5098c4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249822(v=office.15)
 ms:contentKeyID: 48547067
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: af1ce2c9b79d150a6949619026eff8b7bdbbd0ef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8524f34da92d1d38c6ecedddf3877dd9e4361ade
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875859"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945045"
 ---
-# <a name="more-ways-to-move-in-a-recordset"></a>在记录集中进行移动的其他方法
+# <a name="more-ways-to-move-in-a-recordset"></a>更多的方式在记录集中移动
 
 **适用于**： Access 2013、 Office 2013
 

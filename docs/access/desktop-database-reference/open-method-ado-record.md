@@ -1,19 +1,19 @@
 ---
-title: Open 方法 (ADO Record)
-TOCTitle: Open Method (ADO Record)
+title: Open 方法（ADO 记录）
+TOCTitle: Open method (ADO Record)
 ms:assetid: ba71c5c7-326e-d3b6-0e74-e8343ee6896f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249896(v=office.15)
 ms:contentKeyID: 48547371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5965cc557c3533475fc97051b163462d994e0430
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ac6b7a65eba6c5547870aa00b486769adab6aa98
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886807"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944604"
 ---
-# <a name="open-method-ado-record"></a>Open 方法 (ADO Record)
+# <a name="open-method-ado-record"></a>Open 方法（ADO 记录）
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,17 +1,17 @@
 ---
 title: JScript ADO 编程
-TOCTitle: JScript ADO Programming
+TOCTitle: JScript ADO programming
 ms:assetid: 2254f111-e6c2-1ad7-eb65-ee0550056d89
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249002(v=office.15)
 ms:contentKeyID: 48543706
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dd470482c8e4a2e9228247c5eea4512367ca6483
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 114d4d80836632721f52db0c0cb27eca5ece10f6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867235"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943645"
 ---
 # <a name="jscript-ado-programming"></a>JScript ADO 编程
 

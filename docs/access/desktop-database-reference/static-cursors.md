@@ -1,17 +1,17 @@
 ---
 title: 静态游标 （访问桌面数据库参考 （英文）
-TOCTitle: Static Cursors
+TOCTitle: Static cursors
 ms:assetid: 1acf7fc5-fb12-e59e-f480-dde378a29c53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248950(v=office.15)
 ms:contentKeyID: 48543524
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f60bce47f76214d26f75d13dece5bc062fd4db61
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ac6d55f8869cb273aceb1d55b226ef97585f7f4a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889824"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943883"
 ---
 # <a name="static-cursors"></a>静态游标
 

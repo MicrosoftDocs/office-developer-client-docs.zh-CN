@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 379aa71ad875213ab8c1ae022f7c8af3350b2662
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5c4ac833f2ff7681e3a4abe77ff53928fc3f4fe2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927744"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944562"
 ---
 # <a name="addnew-method-ado"></a>AddNew 方法 (ADO)
 
@@ -26,17 +26,11 @@ ms.locfileid: "25927744"
 
 ## <a name="parameters"></a>参数
 
-  - *recordset*
-
-  - **Recordset** 对象。
-
-  - *FieldList*
-
-  - 可选。单个名称，或新记录中字段名称或序号位置的数组。
-
-  - *Values*
-
-  - 可选。 单个值，或新记录中字段值的数组。 如果*Fieldlist*是一个数组，*值*还必须具有相同数量的成员; 数组否则，将发生错误。 在每个数组中，字段名称的次序必须与字段值的次序匹配。
+|参数|说明|
+|:--------|:----------|
+|*recordset* |**Recordset** 对象。|
+|*FieldList* |可选。单个名称，或新记录中字段名称或序号位置的数组。|
+|*Values* |可选。 单个值，或新记录中字段值的数组。 如果*Fieldlist*是一个数组，*值*还必须具有相同数量的成员; 数组否则，将发生错误。 在每个数组中，字段名称的次序必须与字段值的次序匹配。|
 
 ## <a name="remarks"></a>备注
 

@@ -1,19 +1,19 @@
 ---
-title: UpdateCriteriaEnum Enumeration (DAO)
+title: UpdateCriteriaEnum 枚举 (DAO)
 TOCTitle: UpdateCriteriaEnum Enumeration
 ms:assetid: 1f83a0c6-bdc8-9c3e-380b-524f611f6476
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845853(v=office.15)
 ms:contentKeyID: 48543644
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8035d90da62f83c930a208cac73f1fe45d61340
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d6160c53dd1cab26b2b92ec023f28158635d7081
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880493"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944464"
 ---
-# <a name="updatecriteriaenum-enumeration-dao"></a>UpdateCriteriaEnum Enumeration (DAO)
+# <a name="updatecriteriaenum-enumeration-dao"></a>UpdateCriteriaEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

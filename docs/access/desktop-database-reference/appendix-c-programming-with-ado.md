@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249808(v=office.15)
 ms:contentKeyID: 48547024
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a807abde57212d894cd8bc96b51d28ddb8ac7095
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 37263bc21eb46489027a10fd1e97f7a9fd90205d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886954"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943904"
 ---
 # <a name="appendix-c-programming-with-ado"></a>附录 C：利用 ADO 编程
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -25,11 +24,8 @@ ADO 的库是 msado15.dll，程序 ID (ProgID) 前缀是"ADODB"。 例如，若�
 有关在各种开发环境中用 ADO 编程的详细信息，请参阅以下主题：
 
 - [在 Microsoft Visual Basic 中使用 ADO](using-ado-with-microsoft-visual-basic.md)
-
-- [在脚本语言中使用 ADO](using-ado-with-scripting-languages.md)
-
+- [脚本语言中使用 ADO](using-ado-with-scripting-languages.md)
 - [在 Microsoft Visual C++ 中使用 ADO](using-ado-with-microsoft-visual-c.md)
-
 - [在 Microsoft Visual J++ 中使用 ADO](using-ado-with-microsoft-visual-j.md)
 
 

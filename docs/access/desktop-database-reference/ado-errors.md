@@ -1,20 +1,19 @@
 ---
 title: ActiveX 数据对象 (ADO) 错误
-TOCTitle: ADO Errors
+TOCTitle: ADO errors
 ms:assetid: 02fcf563-ce2d-9ef7-b8ae-2795f667335a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
 ms:contentKeyID: 48542972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66b0d7ca54723755bcdb6e24726f75836cd9716f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e06c0fd79c59e12fe8f7fa3beac65bba37123d56
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885638"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944169"
 ---
 # <a name="ado-errors"></a>ADO 错误
-
 
 **适用于**： Access 2013、 Office 2013
 

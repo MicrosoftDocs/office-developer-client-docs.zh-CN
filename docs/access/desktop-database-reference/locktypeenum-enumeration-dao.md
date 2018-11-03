@@ -1,19 +1,19 @@
 ---
-title: LockTypeEnum Enumeration (DAO)
+title: LockTypeEnum 枚举 (DAO)
 TOCTitle: LockTypeEnum Enumeration
 ms:assetid: d40f984c-b37f-72f7-7b05-752f106b6029
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
 ms:contentKeyID: 48547925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 771ce7a5a7f0a6721703953029b7bc8de9f0f251
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ec7095df2f2f050171a45fe3639f179eab40e8e1
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936572"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943897"
 ---
-# <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum Enumeration (DAO)
+# <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

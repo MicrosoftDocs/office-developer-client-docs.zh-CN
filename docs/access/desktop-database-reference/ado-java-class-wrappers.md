@@ -1,17 +1,17 @@
 ---
 title: ADO Java 类包装
-TOCTitle: ADO Java Class Wrappers
+TOCTitle: ADO Java class wrappers
 ms:assetid: de50faf0-80f3-f295-3d9e-3f70f86c3ede
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250126(v=office.15)
 ms:contentKeyID: 48548183
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 602d3407d78843331fdb78ef728cebbc69bace14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b10308865821f86186ff82d2362b7e6a1a7e5cde
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889460"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944555"
 ---
 # <a name="ado-java-class-wrappers"></a>ADO Java 类包装
 

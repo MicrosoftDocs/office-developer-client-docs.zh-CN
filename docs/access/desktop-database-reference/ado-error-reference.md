@@ -1,20 +1,19 @@
 ---
-title: ADO 错误参考
-TOCTitle: ADO Error Reference
+title: ADO 错误参考 （英文）
+TOCTitle: ADO error reference
 ms:assetid: 21cec161-664a-4c18-4458-8117f4f63845
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248997(v=office.15)
 ms:contentKeyID: 48543690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8c1308b084efbf68233e9647cfed26d905d56400
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 372219a542f911452f2189e41fc6c29c2f86ff1d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878771"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945108"
 ---
-# <a name="ado-error-reference"></a>ADO 错误参考
-
+# <a name="ado-error-reference"></a>ADO 错误参考 （英文）
 
 **适用于**： Access 2013、 Office 2013
 

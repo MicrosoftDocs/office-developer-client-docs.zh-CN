@@ -1,17 +1,17 @@
 ---
 title: HelloData 详细信息 （访问桌面数据库参考 （英文）
-TOCTitle: HelloData Details
+TOCTitle: HelloData details
 ms:assetid: db51e15c-1b5b-c64a-2f84-34dd0e78c6cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250105(v=office.15)
 ms:contentKeyID: 48548103
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2fb5171e8b0a0b23f46ff5b4667b4c2b0ff4df34
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ea7e89c47fc0886ed4240b7cb9a867fbfbfa93f7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889838"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944772"
 ---
 # <a name="hellodata-details"></a>HelloData 详细信息
 

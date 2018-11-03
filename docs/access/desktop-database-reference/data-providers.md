@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249946(v=office.15)
 ms:contentKeyID: 48547540
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b4b3497493627f5446055d50e525882e5187807
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bc323161e2e97f34cab289430425958922f2406b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886156"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944429"
 ---
 # <a name="data-providers"></a>数据提供程序
 

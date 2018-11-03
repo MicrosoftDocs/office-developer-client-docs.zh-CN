@@ -1,20 +1,19 @@
 ---
-title: 向记录集添加数据
-TOCTitle: Adding Data to a Recordset
+title: 将数据添加到 Recordset
+TOCTitle: Adding data to a Recordset
 ms:assetid: a3d121a8-f52f-66cd-8849-c3a75aeb276a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249761(v=office.15)
 ms:contentKeyID: 48546797
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b013ab0b05242b4928f7a9b9d974ef98ca6103d0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 869fd4624b0fdc2160c74c8360101500210405dd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885022"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944212"
 ---
-# <a name="adding-data-to-a-recordset"></a>将数据添加到记录集
-
+# <a name="adding-data-to-a-recordset"></a>将数据添加到 Recordset
 
 **适用于**： Access 2013、 Office 2013
 

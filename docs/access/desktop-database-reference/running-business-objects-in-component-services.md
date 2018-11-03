@@ -1,20 +1,19 @@
 ---
-title: 在组件服务中运行业务对象
-TOCTitle: Running Business Objects in Component Services
+title: 组件服务中运行业务对象
+TOCTitle: Running business objects in component services
 ms:assetid: 12103458-b1dd-10fc-37e8-883fd6c6b9d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c398dc0733b58c72fb021c104eaf1a546fd9c66a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3dbf3c88f140210228a1bb3d6d0341d6bde42aa2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881676"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944114"
 ---
-# <a name="running-business-objects-in-component-services"></a>在组件服务中运行业务对象
-
+# <a name="running-business-objects-in-component-services"></a>组件服务中运行业务对象
 
 **适用于**： Access 2013、 Office 2013
 

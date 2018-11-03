@@ -1,19 +1,19 @@
 ---
-title: SetOptionEnum Enumeration (DAO)
+title: SetOptionEnum 枚举 (DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
 ms:contentKeyID: 48543144
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 369e6c9b8b259e4366e8258375253ec1d1235004
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d8aa01517421d9dc209a122703888ffdee2b0377
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883923"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944268"
 ---
-# <a name="setoptionenum-enumeration-dao"></a>SetOptionEnum Enumeration (DAO)
+# <a name="setoptionenum-enumeration-dao"></a>SetOptionEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

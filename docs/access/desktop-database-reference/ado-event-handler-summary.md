@@ -1,17 +1,17 @@
 ---
 title: ADO 事件处理程序摘要
-TOCTitle: ADO Event Handler Summary
+TOCTitle: ADO event handler summary
 ms:assetid: f50b9eb4-df6e-7b9d-0b3d-dca8945167a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250247(v=office.15)
 ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e47cf076c213707857285757d936d58bd153e7c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d18414793d6a28450dea349e03624ad7aa2537f9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880598"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945360"
 ---
 # <a name="ado-event-handler-summary"></a>ADO 事件处理程序摘要
 
@@ -20,9 +20,9 @@ ms.locfileid: "25880598"
 
 两个 ADO 对象可以引发事件：[Connection](connection-object-ado.md) 对象和 [Recordset](recordset-object-ado.md) 对象。 **ConnectionEvent** 系列用于针对 **Connection** 对象的操作，而 **RecordsetEvent** 系列用于针对 **Recordset** 对象的操作。
 
-  - **连接事件** ：在以下情况下发出事件：当连接上的事务启动、提交或回滚时；当 [Command](command-object-ado.md) 执行时；当 **连接事件** 操作期间发生警告时；或者当 **Connection** 开始或结束时。
+- **连接事件** ：在以下情况下发出事件：当连接上的事务启动、提交或回滚时；当 [Command](command-object-ado.md) 执行时；当 **连接事件** 操作期间发生警告时；或者当 **Connection** 开始或结束时。
 
-  - **记录集事件** ：在以下情况下发出事件：在进行异步获取操作时，在 **Recordset** 对象的行中导航时，更改 **Recordset** 行中的字段时，更改 **Recordset** 中的行时，用服务器端游标打开 **Recordset** 时，关闭 **Recordset** 时，或在 **Recordset** 中进行任何更改时。
+- **记录集事件** ：在以下情况下发出事件：在进行异步获取操作时，在 **Recordset** 对象的行中导航时，更改 **Recordset** 行中的字段时，更改 **Recordset** 中的行时，用服务器端游标打开 **Recordset** 时，关闭 **Recordset** 时，或在 **Recordset** 中进行任何更改时。
 
 下表汇总了事件及其说明。
 

@@ -1,17 +1,17 @@
 ---
 title: 使用 Delete 方法删除记录
-TOCTitle: Deleting Records Using the Delete Method
+TOCTitle: Deleting records using the Delete method
 ms:assetid: 22917c33-4d14-ebab-d85c-2cbe7f68c560
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249003(v=office.15)
 ms:contentKeyID: 48543708
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca39f78a69c31d45ecab57b297d8b6eaf9031d92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a8f9097f791596f45f574749d98919b61f67cb4f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875362"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944492"
 ---
 # <a name="deleting-records-using-the-delete-method"></a>使用 Delete 方法删除记录
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249629(v=office.15)
 ms:contentKeyID: 48546293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ab98e270fd52d656bf722c7f666afbe22d5ea44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2799feebc3d2c2c4599249f0af310cf4020dcb49
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926302"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945508"
 ---
 # <a name="connectcomplete-and-disconnect-events-ado"></a>ConnectComplete 和 Disconnect 事件 (ADO)
 
@@ -28,11 +28,11 @@ ConnectComplete*pError*， *adStatus* *pConnection*
 
 ## <a name="parameters"></a>参数
 
-  - *pError*
+- *pError*
 
   - [Error](error-object-ado.md) 对象。如果 *adStatus* 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。
 
-  - *adStatus*
+- *adStatus*
 
   - [EventStatusEnum](eventstatusenum.md)
     
@@ -40,7 +40,7 @@ ConnectComplete*pError*， *adStatus* *pConnection*
     
     在任何一个事件返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。但是，关闭然后重新打开 [Connection](connection-object-ado.md) 会导致这些事件再次发生。
 
-  - *pConnection*
+- *pConnection*
 
   - 为其应用该事件的 **Connection** 对象。
 

@@ -1,17 +1,17 @@
 ---
 title: 通讯簿数据绑定对象
-TOCTitle: Address Book Data-Binding Object
+TOCTitle: Address Book Data-Binding object
 ms:assetid: cf43f645-1ee1-8655-eb70-86d601e9f3f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7852a929f08c46feea002913a1f64d8144572080
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f90a0e4ff4accfd4496df46fb48faaf6f589f37c
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877553"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945178"
 ---
 # <a name="address-book-data-binding-object"></a>通讯簿数据绑定对象
 

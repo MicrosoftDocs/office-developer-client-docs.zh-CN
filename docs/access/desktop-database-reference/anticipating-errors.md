@@ -1,17 +1,17 @@
 ---
 title: 预见错误
-TOCTitle: Anticipating Errors
+TOCTitle: Anticipating errors
 ms:assetid: f2368a03-d446-ab42-b505-d5f5a214c000
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250229(v=office.15)
 ms:contentKeyID: 48548645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ea388f44dbe9bdc572d439f5f0d00d6de7a06b1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eec7480698676c5da6ea14d1754fc15e42995fe3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876566"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944646"
 ---
 # <a name="anticipating-errors"></a>预见错误
 
@@ -22,7 +22,7 @@ ms.locfileid: "25876566"
 
 在尝试使用对象执行操作前，应通过检查 **State** 属性中的值来检查这些对象的状态。例如，如果应用程序使用全局 **Connection** ，请在调用 **Open** 方法前，检查其 **State** 属性以确定它是否已经打开。
 
-  - 从用户接受数据的任何程序都必须提供代码对数据进行验证，然后才能将数据发送给数据存储区。不能依赖数据存储区、提供程序、ADO 或编程语言来通知您存在问题。必须检查用户输入的每个字节，确保数据对于所在字段是正确类型，且必填字段不为空。
+- 从用户接受数据的任何程序都必须提供代码对数据进行验证，然后才能将数据发送给数据存储区。不能依赖数据存储区、提供程序、ADO 或编程语言来通知您存在问题。必须检查用户输入的每个字节，确保数据对于所在字段是正确类型，且必填字段不为空。
 
 在试图将任何数据写入数据存储区之前应检查数据。实现这一点的最简单的方法是处理 **WillMove** 事件或 **WillUpdateRecordset** 事件。有关处理 ADO 事件的更全面的讨论，请参阅 [第 7 章：处理 ADO 事件](chapter-7-handling-ado-events.md)。
 

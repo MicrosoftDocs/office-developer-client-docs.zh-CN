@@ -1,17 +1,17 @@
 ---
 title: 与字段相关的错误信息
-TOCTitle: Field-Related Error Information
+TOCTitle: Field-related error information
 ms:assetid: 81a2c5a4-ab09-53d8-b270-e889b00a0c1a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249559(v=office.15)
 ms:contentKeyID: 48545958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de2a737e314322064894142b2494e3b3793d1625
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6e853c45e4ee0de9a958ccc791bac3afcd305a23
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884854"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943561"
 ---
 # <a name="field-related-error-information"></a>与字段相关的错误信息
 

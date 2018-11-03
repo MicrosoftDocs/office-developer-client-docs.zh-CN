@@ -1,19 +1,19 @@
 ---
-title: RecordStatusEnum Enumeration (DAO)
+title: RecordStatusEnum 枚举 (DAO)
 TOCTitle: RecordStatusEnum Enumeration
 ms:assetid: bf4492f2-8d8f-f10f-7a3c-d6296d2ce96b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822784(v=office.15)
 ms:contentKeyID: 48547483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2d96c359a913660c146f4850a1846554e3b6856
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 662176616b267e2fe60b225a3d3def7418e7bcaf
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875117"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944352"
 ---
-# <a name="recordstatusenum-enumeration-dao"></a>RecordStatusEnum Enumeration (DAO)
+# <a name="recordstatusenum-enumeration-dao"></a>RecordStatusEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

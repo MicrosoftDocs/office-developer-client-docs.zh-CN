@@ -1,20 +1,19 @@
 ---
 title: Internet 信息服务错误代码
-TOCTitle: Internet Information Services Error Codes
+TOCTitle: Internet Information Services error codes
 ms:assetid: 1ed57b89-b471-88e5-e5af-85323dec18d3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248978(v=office.15)
 ms:contentKeyID: 48543625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7890bdbd38b790d846b195570a05b55846cdcda9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5f4c3c4d710128ba97d8b54b376072aa4ad122e5
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879940"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944975"
 ---
 # <a name="internet-information-services-error-codes"></a>Internet 信息服务错误代码
-
 
 **适用于**： Access 2013、 Office 2013
 

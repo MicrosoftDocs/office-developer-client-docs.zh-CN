@@ -1,19 +1,19 @@
 ---
-title: TableDefAttributeEnum Enumeration (DAO)
+title: TableDefAttributeEnum 枚举 (DAO)
 TOCTitle: TableDefAttributeEnum Enumeration
 ms:assetid: 5a0dea24-9092-1642-a3d9-29f0de0a4ee4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
 ms:contentKeyID: 48545034
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21655a0e3e1b6ef9990ba9a8e169164777c0ae8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ebae18ecfa7d0f9b5857ef64ffc751ff25db7bd3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870602"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944810"
 ---
-# <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum Enumeration (DAO)
+# <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

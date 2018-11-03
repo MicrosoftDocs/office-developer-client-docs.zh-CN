@@ -1,19 +1,19 @@
 ---
-title: QueryDefStateEnum Enumeration (DAO)
+title: QueryDefStateEnum 枚举 (DAO)
 TOCTitle: QueryDefStateEnum Enumeration
 ms:assetid: edfa3085-f8b4-b813-0828-2ba2a9dc0b9d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
 ms:contentKeyID: 48548549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b368079aeb668c9ae72e3955f55159ab2c72a53e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7a2163caf8b0c6f7b17d0a551d95d18d0883e183
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882565"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945472"
 ---
-# <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum Enumeration (DAO)
+# <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

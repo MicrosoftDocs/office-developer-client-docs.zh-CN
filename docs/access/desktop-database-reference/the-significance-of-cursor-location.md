@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249296(v=office.15)
 ms:contentKeyID: 48544978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 092e14f314b4bba1e49cbb4ad7707aad0311bfbc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7054e25cd5768a8016ae7ea58f551be7dbb90cec
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880444"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944394"
 ---
-# <a name="the-significance-of-cursor-location"></a>游标位置的重要性
-
+# <a name="significance-of-cursor-location"></a>游标位置的重要性
 
 **适用于**： Access 2013、 Office 2013
 

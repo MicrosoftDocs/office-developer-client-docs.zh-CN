@@ -1,20 +1,19 @@
 ---
-title: 正式 Shape 语法
-TOCTitle: Formal Shape Grammar
+title: 正式 shape 语法
+TOCTitle: Formal shape grammar
 ms:assetid: a3220569-8804-3dc3-7f9f-b4f8cdab1316
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249752(v=office.15)
 ms:contentKeyID: 48546774
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f226faa303a4ff99a062449548478d32fc60612
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0de4f2eca0b5dd607cb9d93cc7e90f4af0ba8d89
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877147"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945535"
 ---
-# <a name="formal-shape-grammar"></a>正式 Shape 语法
-
+# <a name="formal-shape-grammar"></a>正式 shape 语法
 
 **适用于**： Access 2013、 Office 2013
 

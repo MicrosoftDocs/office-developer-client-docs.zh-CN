@@ -1,19 +1,19 @@
 ---
-title: DriverPromptEnum Enumeration (DAO)
+title: DriverPromptEnum 枚举 (DAO)
 TOCTitle: DriverPromptEnum Enumeration
 ms:assetid: 8dda5e9f-a58f-a62d-eb49-5966d4a1e086
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197361(v=office.15)
 ms:contentKeyID: 48546266
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a69594ff30b92a32cf9ba95424ea7616df922725
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2b6911e325b070a8c6d62b70dfcacf96ae1dc3dc
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867438"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943554"
 ---
-# <a name="driverpromptenum-enumeration-dao"></a>DriverPromptEnum Enumeration (DAO)
+# <a name="driverpromptenum-enumeration-dao"></a>DriverPromptEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

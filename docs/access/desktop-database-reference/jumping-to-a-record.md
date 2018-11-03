@@ -1,19 +1,19 @@
 ---
-title: 跳转到记录
-TOCTitle: Jumping to a Record
+title: 跳转到一条记录
+TOCTitle: Jumping to a record
 ms:assetid: 27177bbe-066c-aeb0-6dfd-45d8c2a87487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249033(v=office.15)
 ms:contentKeyID: 48543829
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c88c7c5643559dabf3304863417c526a9fd15354
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9ce27722600ae8a634092612ddf11694faa4ecef
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873269"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944471"
 ---
-# <a name="jumping-to-a-record"></a>跳转到记录
+# <a name="jumping-to-a-record"></a>跳转到一条记录
 
 
 **适用于**： Access 2013、 Office 2013

@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249203(v=office.15)
 ms:contentKeyID: 48544505
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a1101742e8c82b0eebcb0d260825f01905cb92a0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f1a5c9c69b5de6fbdf57efedf9724ae71ac151b7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868726"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945528"
 ---
-# <a name="type-property-ado-stream"></a>Type 属性 (ADO Stream)
+# <a name="type-property-ado-stream"></a>Type 属性（ADO 流）
 
 
 **适用于**： Access 2013、 Office 2013

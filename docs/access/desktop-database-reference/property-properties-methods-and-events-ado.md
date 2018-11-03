@@ -6,26 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249503(v=office.15)
 ms:contentKeyID: 48545782
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7ba48851c5ea3b1865bf00065568fd9011870d44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 9b6c0cb5afb784eacbe190feb2bbe2c82f9db131
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921829"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945640"
 ---
 # <a name="property-properties-methods-and-events-ado"></a>属性属性、 方法和事件 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
 ## <a name="properties"></a>属性
 
 - [Attributes 属性](attributes-property-ado.md)
-
 - [Name 属性](name-property-ado.md)
-
 - [Type 属性](type-property-ado.md)
-
 - [Value 属性](value-property-ado.md)
 
 ## <a name="methods"></a>方法

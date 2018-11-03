@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249728(v=office.15)
 ms:contentKeyID: 48546672
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e5871138f2b82770f49da2d5f9d4977443b0664e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2084b6ffb1b788ec5efcbb30ef2afaa5b3c5e650
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884042"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945542"
 ---
-# <a name="step-5-datacontrol-is-made-usable-rds-tutorial"></a>步骤 5：DataControl 可用（RDS 教程）
+# <a name="step-5-datacontrol-is-made-usable-rds-tutorial"></a>步骤 5: DataControl 进行可用 （RDS 教程）
 
 
 **适用于**： Access 2013、 Office 2013

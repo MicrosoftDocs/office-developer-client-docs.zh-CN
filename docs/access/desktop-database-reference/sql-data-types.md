@@ -1,6 +1,6 @@
 ---
 title: SQL 数据类型 （访问桌面数据库参考 （英文）
-TOCTitle: SQL Data Types
+TOCTitle: SQL data types
 ms:assetid: 4fc2dc8c-7825-8fbb-ff91-a0f39ef90115
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193793(v=office.15)
 ms:contentKeyID: 48544783
@@ -10,15 +10,14 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cfaecd26ebd3f747a0e2db2ec530c151928fec74
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bd5deb6d14aaf5911cd87c4d562dbec74e7ad1f2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936908"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944485"
 ---
 # <a name="sql-data-types"></a>SQL 数据类型
-
 
 **适用于**： Access 2013、 Office 2013
 

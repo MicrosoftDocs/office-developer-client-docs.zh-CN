@@ -1,19 +1,19 @@
 ---
-title: 通过命令调用存储过程
-TOCTitle: Calling a Stored Procedure with a Command
+title: 调用存储的过程命令
+TOCTitle: Calling a stored procedure with a command
 ms:assetid: 19d600d7-f717-39df-11a0-951e3ed0f812
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248944(v=office.15)
 ms:contentKeyID: 48543509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05e68a18ccd97e33416c4603f033fb91acaf0210
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4d3086124dd83fcaabda2784b8e2c9b7a2f525e8
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875999"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945199"
 ---
-# <a name="calling-a-stored-procedure-with-a-command"></a>通过命令调用存储过程
+# <a name="calling-a-stored-procedure-with-a-command"></a>调用存储的过程命令
 
 
 **适用于**： Access 2013、 Office 2013

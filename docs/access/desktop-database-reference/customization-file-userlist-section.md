@@ -1,17 +1,17 @@
 ---
 title: 自定义文件 UserList 节
-TOCTitle: Customization File UserList Section
+TOCTitle: Customization File UserList section
 ms:assetid: b60ba3b0-37d4-bb59-d3cd-2ab44d178b8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249873(v=office.15)
 ms:contentKeyID: 48547263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a4aa7604edc887e97cbdfbea9b75e6f46ad55f35
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 62aaba79fa010de62fb1ac35939673b2056be3f7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880766"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944093"
 ---
 # <a name="customization-file-userlist-section"></a>自定义文件 UserList 节
 

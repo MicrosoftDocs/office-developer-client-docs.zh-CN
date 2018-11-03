@@ -10,15 +10,14 @@ f1_keywords:
 - ado210.chm1231032
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7ff92a041e785e116f6ad2c664ec7e62afada42f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e80763ddad86a63aec605371b58ffeab383681dd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927118"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944016"
 ---
 # <a name="cancel-method-ado"></a>Cancel 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
