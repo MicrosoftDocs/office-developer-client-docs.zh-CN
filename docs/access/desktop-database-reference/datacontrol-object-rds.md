@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8cb71c5e51e56447636b25639dae0733a729bdb1
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 2d4b622cd65cfaf71c45ac7ae8c77bdb596ebd3a
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910864"
+ms.locfileid: "25937804"
 ---
 # <a name="datacontrol-object-rds"></a>DataControl 对象 (RDS)
 
@@ -92,7 +92,7 @@ Rds.**的数量没有计数限制DataControl**可以通过 OBJECT 标记单个�
 
 远程数据服务客户端组件已作为 Internet Explorer 4.0 的一部分提供，因此不需要在 **RDS.DataControl** 对象标记中包括 CODEBASE 参数。
 
-使用 Internet Explorer 4.0 或更高版本，仅当数据标记为单元模型控件时，才能使用 HTML 控件和 ActiveX® 控件绑定数据。
+Internet Explorer 4.0 或更高版本，您可以使用 HTML 控件和 ActiveX 控件，仅当它们标记为单元模型控件绑定到数据。
 
 **Microsoft Visual Basic 用户****Rds.DataControl**仅在基于 web 的应用程序中使用。 Visual Basic 客户端应用程序不需要它。
 

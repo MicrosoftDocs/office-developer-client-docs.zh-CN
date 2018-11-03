@@ -1,6 +1,6 @@
 ---
 title: QueryDef.SQL 属性 (DAO)
-TOCTitle: SQL Property
+TOCTitle: SQL property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
 ms:contentKeyID: 48543429
@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 25921f9bcd320c2ccc5d703b95e3ac818125d300
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 43acce256d3a46fd7b01122a8502e0af502eb3e9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920744"
+ms.locfileid: "25937678"
 ---
 # <a name="querydefsql-property-dao"></a>QueryDef.SQL 属性 (DAO)
 
@@ -40,7 +40,7 @@ ms.locfileid: "25920744"
 在 Microsoft Access 工作区中，在对 Microsoft Access 数据库引擎连接的 ODBC 数据源执行 SQL 传递操作时，最好使用 **QueryDef** 对象。 通过将**QueryDef**对象的**[Connect](querydef-connect-property-dao.md)** 属性设置为 ODBC 数据源，您可以使用非 – Microsoft – Access – 数据库 SQL 查询中的传递给外部服务器。 例如，对于 Microsoft SQL Server 或 Sybase SQL Server 数据库，可以使用 TRANSACT SQL 语句，Microsoft Access 数据库引擎不对其进行处理。
 
 > [!NOTE]
-> 如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice = 125,50)，将导致错误时您尝试在 Microsoft Access 数据库引擎数据库中执行**QueryDef**对象。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。
+> 如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如， `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`)，当您尝试在 Microsoft 执行**QueryDef**对象时，将导致错误Access 数据库引擎数据库。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。
 
 ## <a name="example"></a>示例
 
@@ -121,9 +121,13 @@ ms.locfileid: "25920744"
        End With 
      
     End Function 
+```
+
+<br/>
+
+以下示例演示 CopyQueryNew() 可能的用法。 
      
-    This example shows a possible use of CopyQueryNew(). 
-     
+```vb
     Sub CopyQueryDefX() 
      
        Dim dbsNorthwind As Database 

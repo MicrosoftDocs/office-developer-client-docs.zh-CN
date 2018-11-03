@@ -1,25 +1,25 @@
 ---
 title: ADO 程序员指南
-TOCTitle: ADO Programmer's Guide
+TOCTitle: ADO programmer's guide
 ms:assetid: b68a982e-17b6-7dd6-ca9d-3a5960d815da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249876(v=office.15)
 ms:contentKeyID: 48547278
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e0ad3f70f1bfe2aa8128e0bd2f504c200546a9a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ed490a6260e6cf15f98ef00f32bde2a100854a38
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883636"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937685"
 ---
 # <a name="ado-programmers-guide"></a>ADO 程序员指南
 
 **适用于**： Access 2013、 Office 2013
 
-我们已经创建了《ADO 程序员指南》来帮助尚不熟悉 ADO 的开发人员彻底了解该技术。该指南描述了 ADO 系列的库，并使用多种语言的示例代码解释如何使用这些库、使用这些库的最佳做法以及最大程度提高 ADO 应用程序性能的提示和技巧。
+已创建 ADO 程序员指南 》 帮助开发人员提供的全面技术简介，以此是 ADO 的新增内容。 该指南描述了 ADO 系列的库，并使用多种语言的示例代码解释如何使用这些库、使用这些库的最佳做法以及最大程度提高 ADO 应用程序性能的提示和技巧。
 
-《ADO 程序员指南》包含以下章节：
+ADO 程序员指南 》 包含以下部分和章节：
 
 - [Introduction](introduction-to-ado-programming.md)
   

@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c0edef512eb6b4c099362e737a760624dcfc0b69
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 683255f8bc425ba5d8d2cdf4c66bc2ff16eec43c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928473"
+ms.locfileid: "25937671"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue 属性 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 设置或返回 **Field2** 对象的默认值。对于尚未追加到 [**Fields**](fields-collection-dao.md) 集合的 **Field2** 对象，该属性是可读写的（仅适用于 Microsoft Access 工作区）。
 
@@ -35,11 +33,8 @@ ms.locfileid: "25928473"
 
 设置值或返回值是一个最多包含 255 个字符的 **String** 数据类型。它可以是文本，也可以是表达式。如果该属性设置是表达式，则不能包含用户定义的函数、Microsoft Access 数据库引擎 SQL 聚合函数，或指向查询、窗体或其他 **Field2** 对象的引用。
 
-
 > [!NOTE]
-> <P>[!注释] 还可以将 <STRONG>TableDef</STRONG> 对象上的 <STRONG>Field2</STRONG> 对象的 <STRONG>DefaultValue</STRONG> 属性设置为称作"GenUniqueID( )"的特殊值。这样，只要添加或创建了新记录，就会将一个随机数分配给该字段，因而可以给每条记录指定一个唯一标识符。该字段的 <STRONG>Type</STRONG> 属性必须为 <STRONG>Long</STRONG> 类型。</P>
-
-
+> [!注释] 还可以将 **TableDef** 对象上的 **Field2** 对象的 **DefaultValue** 属性设置为称作"GenUniqueID( )"的特殊值。这样，只要添加或创建了新记录，就会将一个随机数分配给该字段，因而可以给每条记录指定一个唯一标识符。该字段的 **Type** 属性必须为 **Long** 类型。
 
 **DefaultValue** 属性的可用性取决于包含 **Fields** 集合的对象，如下表所示。
 

@@ -6,23 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180120(v=office.15)
 ms:contentKeyID: 52075069
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e6991f6a41eff04c7d1780e8b0f730fab6668eb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 00109b2d846943c1d6bc079fef0829541ef12fa6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931182"
+ms.locfileid: "25937832"
 ---
 # <a name="workspaces-methods-dao"></a>工作区方法 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
 
-
-
-  - [Workspaces.Append 方法 (DAO)](workspaces-append-method-dao.md)
-
-  - [Workspaces.Delete 方法 (DAO)](workspaces-delete-method-dao.md)
-
-  - [Workspaces.Refresh 方法 (DAO)](workspaces-refresh-method-dao.md)
+- [Workspaces.Append 方法 (DAO)](workspaces-append-method-dao.md)
+- [Workspaces.Delete 方法 (DAO)](workspaces-delete-method-dao.md)
+- [Workspaces.Refresh 方法 (DAO)](workspaces-refresh-method-dao.md)
 

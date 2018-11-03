@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052900
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6bd096b8989cefe48df882d447aab0d4f3d0a6ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1236b606f81533922844026d87644b7724e68977
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925196"
+ms.locfileid: "25937566"
 ---
 # <a name="fieldsourcetable-property-dao"></a>Field.SourceTable 属性 (DAO)
 
@@ -74,6 +74,6 @@ ms.locfileid: "25925196"
 
 
 > [!NOTE]
-> <P>[!注释] 如果将 <STRONG>SourceTable</STRONG> 属性用于表类型 <STRONG>Recordset</STRONG> 对象的 <STRONG>Fields</STRONG> 集合中的 <STRONG>Field</STRONG> 对象，则该属性不会返回有意义的表名。</P>
+> [!注释] 如果将 **SourceTable** 属性用于表类型 **Recordset** 对象的 **Fields** 集合中的 **Field** 对象，则该属性不会返回有意义的表名。
 
 

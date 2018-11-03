@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
 ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02bd6b3b4d112f731fd060742f1f5b9500058dc9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0a1c576d44a0c91c92072ddf5c61a11e7cd38457
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888102"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937552"
 ---
 # <a name="datatypeenum-enumeration-dao"></a>DataTypeEnum Enumeration (DAO)
 
@@ -117,12 +117,7 @@ ms.locfileid: "25888102"
 <tr class="odd">
 <td><p>dbDecimal</p></td>
 <td><p>20</p></td>
-<td><p>十进制数据（仅适用于 ODBCDirect）</p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p>十进制数据（仅适用于 ODBCDirect）</p><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 </td>
 </tr>
 <tr class="even">

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 809431c51b7fab9e56d492b44610d607e4da3b06
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e7085edf0d7f30c70868d308130b3f438347ad4b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869965"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937818"
 ---
 # <a name="ado-glossary"></a>ADO 术语表
 
@@ -419,11 +419,11 @@ COM 应用程序映射到 Windows 注册表的唯一名称。 ADO 连接的 Prog
 
 指定驻留在 Internet 或 intranet 上的资源的位置。 完整的 URL 包含配色方案 （如 FTP、 HTTP、 mailto、 文件，等等） 后, 跟一个冒号和一个服务器名称，资源 （如文档、 图片或其他文件） 的完整路径。 Url 的一些示例包括：  
   
-https://www.domain.com/default.html  
-ftp://ftp.server.somewhere/ftp.file  
+- https://www.domain.com/default.html  
+- ftp://ftp.server.somewhere/ftp.file  
   
-ftp://ftp.server.somewhere/ftp.file  
-file://Server/Share/File.doc
+- ftp://ftp.server.somewhere/ftp.file  
+- file://Server/Share/File.doc
 
 另请参阅**绝对 URL**和**相对 URL**。
 
@@ -431,5 +431,5 @@ file://Server/Share/File.doc
 
 提供 web 服务和页 intranet 和 Internet 用户的计算机。
 
-返回顶部
+
 

@@ -6,22 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
 ms:contentKeyID: 48548361
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 11d4fd25388cfc28f0f5a84d1056521cf5d12517
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 672e37da0a29ecb0d9db52de6c424602c7169df2
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920667"
+ms.locfileid: "25937797"
 ---
 # <a name="connections-members-dao"></a>连接成员 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
 > [!NOTE]
 > Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。 Connections 集合包含 Workspace 对象 （仅适用于 ODBCDirect 工作区） 的当前连接的对象。
-
-
 
 ## <a name="methods"></a>方法
 

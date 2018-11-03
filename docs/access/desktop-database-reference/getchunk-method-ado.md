@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a61130db9bd4564523688adc4e045f665e7310e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ea7346c8c1b97ef16af71f56aafbbf777635d906
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919008"
+ms.locfileid: "25937783"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk 方法 (ADO)
 
@@ -49,6 +49,6 @@ ms.locfileid: "25919008"
 
 
 > [!NOTE]
-> <P>[!注释] <STRONG>GetChunk</STRONG> 方法不会作用于 <STRONG>Record</STRONG> 对象的 <A href="record-object-ado.md">Field</A> 对象。它不会执行任何操作，并且将生成运行时错误。</P>
+> [!注释] **GetChunk** 方法不会作用于 **Record** 对象的 [Field](record-object-ado.md) 对象。它不会执行任何操作，并且将生成运行时错误。
 
 

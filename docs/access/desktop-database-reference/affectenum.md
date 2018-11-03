@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
 ms:contentKeyID: 48543404
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 9725a0e4af6ac6d25140739d6604abae6b76dcb6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3c31b42d7b496762e74ffcf8d62e4927d5420374
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879443"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937664"
 ---
 # <a name="affectenum"></a>AffectEnum
 
@@ -39,8 +39,7 @@ ms.locfileid: "25879443"
 <td><p><strong>adAffectAll</strong></p></td>
 <td><p>3</p></td>
 <td><p>如果未对 <strong>Recordset</strong> 应用任何 <a href="filter-property-ado.md">Filter</a>，则所有记录都受影响。
- 如果将<strong>Filter</strong>属性设置为字符串条件 (如&quot;作者 = 'Smith'&quot;)，该操作将影响当前章节中的可见记录。 如果将<strong>Filter</strong>属性设置为<a href="filtergroupenum.md">FilterGroupEnum</a>的成员或书签数组，该操作将影响<strong>Recordset</strong>的所有行。</p>
-<p><strong>注意</strong>： adAffectAll 在 Visual Basic 对象浏览器中处于隐藏状态。</p>
+ 如果将<strong>Filter</strong>属性设置为字符串条件 (如&quot;作者 = 'Smith'&quot;)，该操作将影响当前章节中的可见记录。 如果将<strong>Filter</strong>属性设置为<a href="filtergroupenum.md">FilterGroupEnum</a>的成员或书签数组，该操作将影响<strong>Recordset</strong>的所有行。</p><p><strong>注意</strong>： adAffectAll 在 Visual Basic 对象浏览器中处于隐藏状态。</p>
 </td>
 </tr>
 <tr class="even">

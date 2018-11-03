@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f73e01c11f62b8c9eaff874dc315be083474532a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919736"
+ms.locfileid: "25937615"
 ---
 # <a name="querydef-members-dao"></a>QueryDef 成员 (DAO)
 
@@ -39,7 +39,7 @@ QueryDef 对象是 Microsoft Access 数据库引擎数据库中某个查询的�
 <td><p></p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 <p>取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</p></td>
@@ -119,7 +119,7 @@ QueryDef 对象是 Microsoft Access 数据库引擎数据库中某个查询的�
 <td><p></p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 <p>设置或返回一个值，用于指示是应当在执行之前使用 ODBC <strong>SQLPrepare</strong> API 函数在服务器上将查询作为临时存储过程来准备，还是应当使用 ODBC <strong>SQLExecDirect</strong> API 函数（只适用于 ODBCDirect 工作区）来执行查询。可读写。 <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong> 。</p></td>
@@ -145,7 +145,7 @@ QueryDef 对象是 Microsoft Access 数据库引擎数据库中某个查询的�
 <td><p></p>
 
 > [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
+> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 <p>指示异步操作（即用 <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</p></td>

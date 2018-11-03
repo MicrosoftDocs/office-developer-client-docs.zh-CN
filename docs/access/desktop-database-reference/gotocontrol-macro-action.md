@@ -6,29 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fafa3ea40b492baf8b49dd240c6f7767ffad655
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926652"
+ms.locfileid: "25937629"
 ---
 # <a name="gotocontrol-macro-action"></a>GoToControl 宏操作
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 您可以使用**GoToControl**操作将焦点移到指定的域或打开的窗体、 窗体数据表、 表数据表的当前记录中的控件或查询数据表。 当你希望特定字段或控件获得焦点时，可以使用此操作。 然后比较或 **FindRecord** 操作可以使用该字段或控件。 你可以使用此操作以根据特定的条件在表单中导航。 例如，如果用户输入婚姻控件不能在健康保险窗体，焦点可以自动跳过配偶姓名控件并移动到下一个控件。
 
 ## <a name="setting"></a>设置
 
-
 > [!NOTE]
-> <P>此操作不适用于数据访问页。</P>
-
-
+> 此操作不适用于数据访问页。
 
 **GoToControl** 操作具有以下参数。
 
@@ -49,7 +43,7 @@ ms.locfileid: "25926652"
 <td><p>希望获得焦点的字段或控件的名称。 在<strong>操作参数</strong>部分的宏生成器窗格中的<strong>控件名称</strong>框中输入字段或控件的名称。 这是必需参数。</p>
 
 > [!NOTE]
-> <P><STRONG>控件名称</STRONG>参数，而不是完全限定标识符，如表单中输入仅字段或控件的名称 ！产品 ！[Product ID]。</P>
+> **控件名称**参数，而不是完全限定标识符，如表单中输入仅字段或控件的名称 ！产品 ！[Product ID]。
 
 
 <p></p></td>
@@ -62,11 +56,8 @@ ms.locfileid: "25926652"
 
 不能使用**GoToControl**操作将焦点移到隐藏窗体上的控件。
 
-
 > [!TIP]
-> <P><STRONG>GoToControl</STRONG>操作可用于将移动到子窗体，这是一类控件。 然后，您可以使用<STRONG>GoToRecord</STRONG>操作将移到子窗体中的特定记录。 您也可以通过使用<STRONG>GoToControl</STRONG>操作移到子窗体和子窗体上的控件移到子窗体上的控件。</P>
-
-
+> **GoToControl**操作可用于将移动到子窗体，这是一类控件。 然后，您可以使用**GoToRecord**操作将移到子窗体中的特定记录。 您也可以通过使用**GoToControl**操作移到子窗体和子窗体上的控件移到子窗体上的控件。
 
 若要在 Visual Basic for Applications (VBA) 模块中运行**GoToControl**操作，请使用**DoCmd**对象的**GoToControl**方法。 您还可以使用 **SetFocus** 方法将焦点移到窗体或其任何子窗体上的控件或打开的表、 查询或窗体数据表中的字段。
 

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 750848ce0e787506085899f4717730e1ca0a8f13
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eeec1109d2e352d43eaaa66a7e081123d7f388ee
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868691"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937713"
 ---
 # <a name="enabling-a-dll-to-run-on-dcom"></a>启用 DLL 以在 DCOM 上运行
 
 
 **适用于**： Access 2013、 Office 2013
 
-以下步骤概述了如何启用业务对象动态链接库，以通过组件服务使用 DCOM 和 Microsoft® Internet 信息服务 (IIS)。
+以下步骤概述了如何启用业务对象动态链接库，使用 DCOM 和 Microsoft Internet 信息服务 (HTTP) 通过组件服务。
 
 1.  在组件服务 MMC 管理单元中创建一个新的空包。 您将使用组件服务 MMC 管理单元来创建包，并将 DLL 添加到此包中。执行此操作之后，可通过 DCOM 访问 .dll，但无法通过 IIS 进行访问。（如果在注册表中查看 .dll，则 **Inproc** 项现在为空。设置激活属性，在 **Inproc** 项中添加值，本主题后面将对此进行解释。）
 

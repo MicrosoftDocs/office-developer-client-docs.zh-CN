@@ -1,45 +1,45 @@
 ---
-title: What's New in ActiveX 数据对象 (ADO)
-TOCTitle: What's New in ADO
+title: What's new 中 ActiveX 数据对象 (ADO)
+TOCTitle: What's new in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f374abd42659708ddb1e9fcd131faaac94f05cf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 950edd8ce1cd0e5081d569b1b11a02a14fe94d99
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891112"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937699"
 ---
 # <a name="whats-new-in-ado"></a>ADO 中的新增功能
 
-
 **适用于**： Access 2013、 Office 2013 
  
-
 ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO、ADO MD 和 ADOX。
 
-## <a name="new-features"></a>新功能
+## <a name="new-features"></a>新增功能
 
-**[记录和流](chapter-10-records-and-streams.md)**
+- **[记录和流](chapter-10-records-and-streams.md)**
 
-此版本 ADO 中引入了 [Record](record-object-ado.md) 对象，该对象可以表示和管理诸如文件系统中的目录和文件、电子邮件系统中的文件夹和邮件这样的内容。 **Record** 还可以表示 [Recordset](recordset-object-ado.md) 中的行，虽然 **Record** 和 **Recordset** 对象具有不同的方法和属性。
+  此版本 ADO 中引入了 [Record](record-object-ado.md) 对象，该对象可以表示和管理诸如文件系统中的目录和文件、电子邮件系统中的文件夹和邮件这样的内容。 **Record** 还可以表示 [Recordset](recordset-object-ado.md) 中的行，虽然 **Record** 和 **Recordset** 对象具有不同的方法和属性。
 
-新增的 [Stream](stream-object-ado.md) 对象为读、写和管理构成文件或消息流的二进制字节流或文本提供了方法。
+  新增的 [Stream](stream-object-ado.md) 对象为读、写和管理构成文件或消息流的二进制字节流或文本提供了方法。
 
-**[URL 用法](absolute-and-relative-urls.md)**
+- **[URL 使用情况](absolute-and-relative-urls.md)**
 
-此版本还引入了统一资源定位器 (URL) 作为连接字符串和命令文本的替代，以命名数据存储对象。URL 可用于现有的 [Connection](connection-object-ado.md) 和 **Recordset** 对象以及新的 **Record** 和 **Stream** 对象。
+  此版本还引入了统一资源定位器 (URL) 作为连接字符串和命令文本的替代，以命名数据存储对象。URL 可用于现有的 [Connection](connection-object-ado.md) 和 **Recordset** 对象以及新的 **Record** 和 **Stream** 对象。
 
-在此版本中，ADO 支持 OLE DB 提供程序识别自己的 URL 架构。例如，访问 Windows 2000 文件系统的 [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)** 即可识别现有的 HTTP 架构。
+  在此版本中，ADO 支持 OLE DB 提供程序识别自己的 URL 架构。例如，访问 Windows 2000 文件系统的 [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)** 即可识别现有的 HTTP 架构。
 
-**[文档源提供程序的特殊字段](records-and-provider-supplied-fields.md)**
+- **[文档源提供程序的特殊字段](records-and-provider-supplied-fields.md)**
 
-一个特殊的提供程序，称为*文档源*提供程序类管理文件夹和文档。 当 **Record** 对象表示文档或 **Recordset** 对象表示文档的文件夹时，文档源提供程序用描述文档特性的唯一字段集来填充这些字段。 这些字段构成了*资源* **Record**或**Recordset**。
+  一个特殊的提供程序，称为*文档源*提供程序类管理文件夹和文档。 当 **Record** 对象表示文档或 **Recordset** 对象表示文档的文件夹时，文档源提供程序用描述文档特性的唯一字段集来填充这些字段。 这些字段构成了*资源* **Record**或**Recordset**。
 
 ## <a name="new-reference-topics"></a>新引用主题
+
+### <a name="properties"></a>属性
 
 此版本中包括以下新属性。
 
@@ -102,6 +102,7 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 </tbody>
 </table>
 
+### <a name="methods"></a>方法
 
 此版本中包括以下新方法。
 
@@ -185,17 +186,17 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 </table>
 
 
-## <a name="new-and-enhanced-documentation"></a>新文档和增强文档
+## <a name="new-and-enhanced-documentation"></a>新增和增强文档
 
-**[代码示例主题](ado-code-examples.md)**
+- **[代码示例主题](ado-code-examples.md)**
 
-对示例进行了扩展，以包括用 Microsoft Visual C++® 和 Microsoft Visual J++® 编写的代码示例。您可以将这些示例复制并粘贴到自己的编辑器中。
+  示例已扩展以包含在 Microsoft Visual c + + 和 Microsoft Visual J + + 中编写的代码示例。 您可以将这些示例复制并粘贴到自己的编辑器中。
 
-**[提供程序主题](appendix-a-providers.md)**
+- **[提供程序主题](appendix-a-providers.md)**
 
-包括一个新的主题，阐述了如何在 [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md) 中使用 ADO。
+  包括一个新的主题，阐述了如何在 [OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md) 中使用 ADO。
 
-**[用 ADO 编程](appendix-c-programming-with-ado.md)**
+- **[用 ADO 编程](appendix-c-programming-with-ado.md)**
 
-这是一个新的部分，包含在各种编程语言中使用 ADO 的提示和技巧。其中包含 Visual C++ Extensions for ADO 和 ADO/WFC 的现有语法索引，以及针对使用 Microsoft Visual Basic®、Microsoft Visual Basic® Scripting Edition、Microsoft JScript®、Microsoft Visual C++ 或 Microsoft Visual J++ 的开发人员的新信息。
+  这是一个新的部分，包含在各种编程语言中使用 ADO 的提示和技巧。 它包含 Visual c + + Extensions for ADO 和 ADO/WFC，以及特定于使用 Microsoft Visual Basic、 Microsoft Visual Basic Scripting Edition、 Microsoft JScript、 Microsoft Visual c + + 中，开发人员的新信息的现有语法索引或Microsoft Visual J + + 中。
 

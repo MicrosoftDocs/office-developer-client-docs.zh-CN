@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eec27b3bbd8d23fef05ab8bfe4da0209acf80ac1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d52020deecce9235db12f749b9d6913653157034
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875159"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937769"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>初始化文本数据源驱动程序
 
@@ -25,7 +25,7 @@ ms.locfileid: "25875159"
 
 文本数据源和 HTML 数据源使用相同的数据库驱动程序。
 
-安装文本数据源数据库驱动程序时，安装程序会将一组默认值写入 Microsoft® Windows® 注册表内的"Engines"和"ISAM Formats"子项。不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。以下各节说明了文本数据源数据库驱动程序的初始化和 ISAM 格式设置。
+当您安装的文本数据源数据库驱动程序时，安装程序会将一组默认值写入 Microsoft Windows 注册表中的引擎和 ISAM 格式子项。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了文本数据源数据库驱动程序的初始化和 ISAM 格式设置。
 
 ## <a name="text-data-source-initialization-settings"></a>文本数据源初始化设置
 

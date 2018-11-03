@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 90d50ce1f1435d38fdfe1ed11e76b49c212b87b3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922452"
+ms.locfileid: "25937727"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord 宏操作
 
@@ -61,7 +61,7 @@ ms.locfileid: "25922452"
 </ul>
 
 > [!NOTE]
-> <P>如果您使用的<STRONG>第一个</STRONG>、<STRONG>最后一个</STRONG>，或<STRONG>新建</STRONG>设置为<STRONG>记录</STRONG>参数，则 Access 将忽略<STRONG>偏移量</STRONG>参数。 如果输入太大的<STRONG>偏移量</STRONG>参数，则 Access 将显示一条错误消息。 不能的<STRONG>偏移量</STRONG>参数输入负数。</P>
+> 如果您使用的**第一个**、**最后一个**，或**新建**设置为**记录**参数，则 Access 将忽略**偏移量**参数。 如果输入太大的**偏移量**参数，则 Access 将显示一条错误消息。 不能的**偏移量**参数输入负数。
 
 
 <p></p>

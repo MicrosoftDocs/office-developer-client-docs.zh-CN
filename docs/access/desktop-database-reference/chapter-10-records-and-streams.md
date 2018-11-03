@@ -1,20 +1,19 @@
 ---
-title: 第 10 章：记录和流
-TOCTitle: 'Chapter 10: Records and Streams'
+title: 第 10 章： 记录和流
+TOCTitle: 'Chapter 10: Records and streams'
 ms:assetid: 74862096-2273-3b61-f89c-06554ccf42cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c61aef7a4f0cc34f256300304823341c99fb8436
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6d0d5eec3c032780dd6065bd29f6d41c299a7379
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876965"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937692"
 ---
-# <a name="chapter-10-records-and-streams"></a>第 10 章：记录和流
-
+# <a name="chapter-10-records-and-streams"></a>第 10 章： 记录和流
 
 **适用于**： Access 2013、 Office 2013
 
@@ -36,28 +35,25 @@ ADO 目前提供了 [Recordset](recordset-object-ado.md) 对象作为访问数�
 
 **Stream** 对象提供用于读取、写入和管理字节流的方法。此字节流可能是文本或二进制，并且大小只受系统资源限制。通常，ADO **Stream** 对象用于以下用途：
 
-  - 若要包含由文件或邮件组成的文本或字节，通常需要与 Microsoft OLE DB Provider for Internet Publishing 等提供程序一起使用。有关 **Stream** 对象这种用法的详细信息，请参阅 [使用 ADO for Internet Publishing](using-ado-for-internet-publishing.md)。
+- 若要包含由文件或邮件组成的文本或字节，通常需要与 Microsoft OLE DB Provider for Internet Publishing 等提供程序一起使用。有关 **Stream** 对象这种用法的详细信息，请参阅 [使用 ADO for Internet Publishing](using-ado-for-internet-publishing.md)。
 
 可以对如下项打开 **Stream** 对象：
 
-  - 用 URL 指定的简单文件。
+- 用 URL 指定的简单文件。
 
-  - 包含 **Stream** 对象的 **Record** 或 **Recordset** 的字段。
+- 包含 **Stream** 对象的 **Record** 或 **Recordset** 的字段。
 
-  - 表示目录或复合文件的 **Record** 或 **Recordset** 对象的默认流。
+- 表示目录或复合文件的 **Record** 或 **Recordset** 对象的默认流。
 
-  - 包含简单文件的 URL 的资源字段。
+- 包含简单文件的 URL 的资源字段。
 
-  - 根本没有特定数据源。在这种情况下，将在内存中打开 **Stream** 对象。可以将数据写入其中，然后保存到另一个 **Stream** 或文件中。
+- 根本没有特定数据源。在这种情况下，将在内存中打开 **Stream** 对象。可以将数据写入其中，然后保存到另一个 **Stream** 或文件中。
 
-  - **Recordset** 中的 BLOB 字段。
+- **Recordset** 中的 BLOB 字段。
 
 本章包含以下主题：
 
-- [流和暂留](streams-and-persistence.md)
-
+- [流和持久化](streams-and-persistence.md)
 - [记录和提供程序提供的字段](records-and-provider-supplied-fields.md)
-
-- [绝对 URL 和相对 URL](absolute-and-relative-urls.md)
-
-- [Using ADO for Internet Publishing (ADO)](using-ado-for-internet-publishing.md)
+- [绝对和相对 Url](absolute-and-relative-urls.md)
+- [使用 ADO for Internet publishing (ADO)](using-ado-for-internet-publishing.md)
