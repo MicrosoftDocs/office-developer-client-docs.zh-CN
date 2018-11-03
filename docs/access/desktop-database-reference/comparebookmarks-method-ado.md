@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249564(v=office.15)
 ms:contentKeyID: 48545977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88257a39ffc459f04a8fbd5afda476ef58955c03
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 8b4ff47c0fa778e89479df7a4281abd534fdcec8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945661"
+ms.locfileid: "25949619"
 ---
 # <a name="comparebookmarks-method-ado"></a>CompareBookmarks 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,13 +29,10 @@ ms.locfileid: "25945661"
 
 ## <a name="parameters"></a>参数
 
-- *Bookmark1*
-
-  - 第一行的书签。
-
-- *Bookmark2*
-
-  - 第二行的书签。
+|参数|说明|
+|:--------|:----------|
+|*Bookmark1* |第一行的书签。|
+|*Bookmark2* |第二行的书签。|
 
 ## <a name="remarks"></a>备注
 

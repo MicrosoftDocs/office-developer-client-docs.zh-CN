@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248894(v=office.15)
 ms:contentKeyID: 48543335
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98cceed03af8ba939579d1542421b375e0db64a7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86a4dcd97171a1dc9817f69a6c010a363009e9ef
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927528"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949591"
 ---
 # <a name="open-method-ado-md"></a>Open 方法 (ADO MD)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,13 +25,10 @@ ms.locfileid: "25927528"
 
 ## <a name="parameters"></a>参数
 
-  - *Source*
-
-  - 可选。 一个 **Variant** 值，计算后得到有效的多维查询（如多维表达式 (MDX) 查询）。 *源*参数对应于[Source](source-property-ado-md.md)属性。 有关 MDX 的更多信息，请参阅 Microsoft Data Access Components SDK 中的 OLE DB for OLAP 文档。
-
-  - *ActiveConnection*
-
-  - 可选。 一个 **Variant** 值，计算后得到字符串，该字符串指定一个有效的 ADO [Connection](connection-object-ado.md) 对象变量名或一个连接定义。 *ActiveConnection*参数指定要在其中打开[Cellset](cellset-object-ado-md.md)对象的连接。 如果传递此参数的连接定义，ADO 将使用指定的参数打开新连接。 *ActiveConnection*参数对应于将[ActiveConnection](activeconnection-property-ado-md.md)属性。
+|参数|说明|
+|:--------|:----------|
+|*Source* |可选。 一个 **Variant** 值，计算后得到有效的多维查询（如多维表达式 (MDX) 查询）。 *源*参数对应于[Source](source-property-ado-md.md)属性。 有关 MDX 的更多信息，请参阅 Microsoft Data Access Components SDK 中的 OLE DB for OLAP 文档。|
+|*ActiveConnection* |可选。 一个 **Variant** 值，计算后得到字符串，该字符串指定一个有效的 ADO [Connection](connection-object-ado.md) 对象变量名或一个连接定义。 *ActiveConnection*参数指定要在其中打开[Cellset](cellset-object-ado-md.md)对象的连接。 如果传递此参数的连接定义，ADO 将使用指定的参数打开新连接。 *ActiveConnection*参数对应于将[ActiveConnection](activeconnection-property-ado-md.md)属性。|
 
 ## <a name="remarks"></a>备注
 

@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee2dbaf7dd3a15cf6cd415af208ec10a14fc9c9b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: be8127ea3f298a8f137012615b1f4de656a6ea1f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923376"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949710"
 ---
 # <a name="seek-method-ado"></a>Seek 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 可搜索 [Recordset](recordset-object-ado.md) 的索引，以快速找到与指定值匹配的行，并将当前行位置更改为该行。
 
@@ -28,13 +25,10 @@ ms.locfileid: "25923376"
 
 ## <a name="parameters"></a>参数
 
-  - *KeyValues*
-
-  - **变量型** 值的数组。索引由一列或多列组成，而数组包含一个用于与每个相应列进行比较的值。
-
-  - *SeekOption*
-
-  - [SeekEnum](seekenum.md) 值，用于指定在索引列与相应 *KeyValues* 之间进行比较的类型。
+|参数|说明|
+|:--------|:----------|
+|*KeyValues* |**变量型** 值的数组。索引由一列或多列组成，而数组包含一个用于与每个相应列进行比较的值。|
+|*SeekOption* |[SeekEnum](seekenum.md) 值，用于指定在索引列与相应 *KeyValues* 之间进行比较的类型。|
 
 ## <a name="remarks"></a>备注
 

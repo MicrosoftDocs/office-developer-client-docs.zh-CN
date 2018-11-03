@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7478a06df491f4c2254f8c72f0eacf9c4b19d49e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e988eec4b3997bb24bf3a9aa0bb7faed1629b1f1
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927506"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950102"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25927506"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ ms.locfileid: "25927506"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>一个最长 255 个字符的字符串，是正在创建的数据库文件的名称。 它可以是完整路径和文件名称。 如果您的网络支持，您还可以指定一个网络路径，如&quot; \\server1\share1\dir1\db1&quot;。 仅可以使用此方法来创建 Microsoft Access 数据库文件。</p></td>
 </tr>
 <tr class="even">
-<td><p>Locale</p></td>
+<td><p><em>区域设置</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><ul>
@@ -68,7 +67,7 @@ ms.locfileid: "25927506"
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>选项</p></td>
+<td><p><em>选项</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个常量或常量组合，根据“设置”中的指定指示一个或多个选项。可通过对相应的常量求和来组合选项。</p></td>

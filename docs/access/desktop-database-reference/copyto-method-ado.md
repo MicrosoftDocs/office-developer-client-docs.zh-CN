@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a17e74e1e3483b7ad2a70c5444503234cff5be12
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a27d8e98d6768ace36d7c66c95191b0d1484e86a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920247"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949899"
 ---
 # <a name="copyto-method-ado"></a>CopyTo 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于将 [Stream](type-property-ado-stream.md) 中指定数量的字符或字节（取决于 [类型](stream-object-ado.md)）复制到另一个 **Stream** 对象。
 
@@ -27,18 +25,12 @@ ms.locfileid: "25920247"
 
 ## <a name="parameters"></a>参数
 
-  - *DestStream*
+|参数|说明|
+|:--------|:----------|
+|*DestStream* |对象变量值，包含对打开的 **Stream** 对象的引用。当前 **Stream** 复制到由 *DestStream* 指定的目标 **Stream**。目标 **Stream** 必须已经打开。否则，将发生运行时错误。
 
-  - 对象变量值，包含对打开的 **Stream** 对象的引用。当前 **Stream** 复制到由 *DestStream* 指定的目标 **Stream**。目标 **Stream** 必须已经打开。否则，将发生运行时错误。
-
-   
-
-    > [!NOTE]
-    > *DestStream*参数不能**Stream**对象的代理是因为它需要访问**Stream**对象的无法远程传输到客户端上的专用接口。
-
-  - *NumChars*
-
-  - 可选。 **整型** 值，指定要从源 **Stream** 中的当前位置复制到目标 **Stream** 的字节或字符的数量。 默认值为-1，指定的所有字符或字节都复制从当前位置到[EOS](eos-property-ado.md)。
+<br/><br/>**注意**： *DestStream*参数可能无法**Stream**对象的代理，因为这将需要访问**Stream**对象的无法远程传输到客户端上的专用接口。|
+|*NumChars* |可选。 **整型** 值，指定要从源 **Stream** 中的当前位置复制到目标 **Stream** 的字节或字符的数量。 默认值为-1，指定的所有字符或字节都复制从当前位置到[EOS](eos-property-ado.md)。|
 
 ## <a name="remarks"></a>备注
 

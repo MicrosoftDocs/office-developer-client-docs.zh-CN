@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
 ms:contentKeyID: 48543645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55439f14cd2a498ec2592c533dd308f82798b1e8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 30feb9aabeb84c577b415b2872ce407cf3fc0f44
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929445"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950004"
 ---
 # <a name="move-method-ado"></a>Move 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 用于移动 [Recordset](recordset-object-ado.md) 对象中当前记录的位置。
 
@@ -28,13 +25,10 @@ ms.locfileid: "25929445"
 
 ## <a name="parameters"></a>参数
 
-  - *NumRecords*
-
-  - 有符号的 **长整型** 表达式，指定当前记录位置移动的记录数。
-
-  - *Start*
-
-  - 可选。 **字符串型** 值或值为书签的 **变量型** 值。也可以使用 [BookmarkEnum](bookmarkenum.md) 值。
+|参数|说明|
+|:--------|:----------|
+|*NumRecords* |有符号的 **长整型** 表达式，指定当前记录位置移动的记录数。|
+|*Start* |可选。 **字符串型** 值或值为书签的 **变量型** 值。也可以使用 [BookmarkEnum](bookmarkenum.md) 值。|
 
 ## <a name="remarks"></a>备注
 

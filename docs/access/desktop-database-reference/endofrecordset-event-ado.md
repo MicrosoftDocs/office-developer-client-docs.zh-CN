@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249603(v=office.15)
 ms:contentKeyID: 48546167
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89ca397c4e95dd6f18de41862e9383f77fe14aa8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 36babff0c6de48e0539375caaad367698906e3fd
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928836"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950186"
 ---
 # <a name="endofrecordset-event-ado"></a>EndOfRecordset 事件 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 当尝试移动到 **Recordset** 末尾之后的某一行时，调用 [EndOfRecordset](recordset-object-ado.md) 事件。
 
@@ -28,21 +25,11 @@ EndOfRecordset*fMoreData*， *adStatus* *pRecordset*
 
 ## <a name="parameters"></a>参数
 
-  - *fMoreData*
-
-  - A **VARIANT\_BOOL**值，如果设置为 VARIANT\_值为 TRUE，指示已向**Recordset**添加更多行。
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    调用 **EndOfRecordset** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果此事件无法请求取消导致此事件的操作，则该参数设置为 **adStatusCantDeny** 。
-    
-    在 **EndOfRecordset** 返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。
-
-  - *pRecordset*
-
-  - **Recordset** 对象。发生此事件的 **Recordset** 。
+|参数|说明|
+|:--------|:----------|
+|*fMoreData* |A **VARIANT\_BOOL**值，如果设置为 VARIANT\_值为 TRUE，指示已向**Recordset**添加更多行。|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md)。 当调用**EndOfRecordset**时，此参数设置为**adStatusOK**如果导致事件的操作成功。 如果此事件不能请求取消导致该事件的操作，它是设置为**adStatusCantDeny** 。<br/><br/>在 **EndOfRecordset** 返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。|
+|*pRecordset* | **Recordset** 对象。发生此事件的 **Recordset** 。|
 
 ## <a name="remarks"></a>备注
 

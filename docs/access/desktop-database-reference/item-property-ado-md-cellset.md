@@ -1,17 +1,17 @@
 ---
-title: Item 属性（ADO MD 单元格集）
-TOCTitle: Item Property (ADO MD Cellset)
+title: Item 属性（ADO MD 单元格）
+TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53912b9c1b84b88929a00f9e74caf4c138a1410
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946613"
+ms.locfileid: "25949605"
 ---
 # <a name="item-property-ado-md-cellset"></a>Item 属性（ADO MD 单元格）
 
@@ -25,15 +25,9 @@ ms.locfileid: "25946613"
 
 ## <a name="parameters"></a>参数
 
-- *Positions*
-
-- 一个 **可变的** 值 **数组** ，这些值分别唯一地指定一个单元格。 *位置*可以是下列选项之一：
-    
-  - 位置号数组
-    
-  - 成员名称数组
-    
-  - 序号位置
+|参数|说明|
+|:--------|:----------|
+|*Positions* |唯一指定单元格的值的**Variant 数组**。 *位置*可以是下列选项之一：<br/><br/>-一个数组位置编号<br/>-成员名称数组<br/>-序号位置 |
 
 ## <a name="remarks"></a>说明
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d779fc5cff955ca669635ca827456dafb8927d8a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86d164a133538379a15c80f7fb5f2f4ba71267bf
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919680"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950207"
 ---
 # <a name="save-method-ado"></a>Save 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,13 +25,10 @@ ms.locfileid: "25919680"
 
 ## <a name="parameters"></a>参数
 
-  - *Destination*
-
-  - 可选。一个 **变量型** ，表示要保存 **Recordset** 的文件的完整路径名；或 **Stream** 对象的引用。
-
-  - *PersistFormat*
-
-  - 可选。[PersistFormatEnum](persistformatenum.md) 值，用于指定 **Recordset** 的保存格式（XML 或 ADTG）。默认值为 **adPersistADTG** 。
+|参数|说明|
+|:--------|:----------|
+|*Destination* |可选。一个 **变量型** ，表示要保存 **Recordset** 的文件的完整路径名；或 **Stream** 对象的引用。|
+|*PersistFormat* |可选。[PersistFormatEnum](persistformatenum.md) 值，用于指定 **Recordset** 的保存格式（XML 或 ADTG）。默认值为 **adPersistADTG** 。|
 
 ## <a name="remarks"></a>备注
 
@@ -56,11 +52,8 @@ ms.locfileid: "25919680"
 
 如果在持久化 **Recordset** 时将 **CursorLocation** 属性设置为 **adUseServer** ，则 **Recordset** 的更新功能会受到限制。通常，只允许对单个表进行更新、插入和删除操作（具体取决于提供程序功能）。在此配置中， [Resync](resync-method-ado.md) 方法也不可用。
 
-
 > [!NOTE]
-> <P>[!注释] ADO 不支持保存含有 <STRONG>adVariant</STRONG> 、 <STRONG>adIDispatch</STRONG> 或 <STRONG>adIUnknown</STRONG> 类型 <STRONG>Fields</STRONG> 的 <STRONG>Recordset</STRONG> ，这样做可能会导致无法预料的结果。</P>
-
-
+> [!注释] ADO 不支持保存含有 **adVariant** 、 **adIDispatch** 或 **adIUnknown** 类型 **Fields** 的 **Recordset** ，这样做可能会导致无法预料的结果。
 
 仅**筛选器**条件字符串的形式 (如订购日期\>"12/31/1999年 ') 影响**Recordset**的内容。 通过 **Bookmark** 数组或使用 **FilterGroupEnum** 中的值创建的 **Filter** 不会影响持久 Recordset 的内容。 这些规则适用于通过客户端或服务器端游标创建的 **Recordset** 。
 
@@ -68,11 +61,8 @@ ms.locfileid: "25919680"
 
 此外，还可以将 **Recordset** 以 XML 格式保存到 MSXML DOM 对象的实例，如以下 Visual Basic 代码所示：
 
-
 > [!NOTE]
-> <P>[!注释] 在以 XML 格式保存分层 <STRONG>Recordsets</STRONG> （数据形状）时有两个限制。其一，如果分层 <STRONG>Recordset</STRONG> 中包含挂起更新，则不能保存到 XML。其二，不能保存参数化的分层 <STRONG>Recordset</STRONG> 。</P>
-
-
+> [!注释] 在以 XML 格式保存分层 **Recordsets** （数据形状）时有两个限制。其一，如果分层 **Recordset** 中包含挂起更新，则不能保存到 XML。其二，不能保存参数化的分层 **Recordset** 。
 
 以 XML 格式保存的 Recordset 采用 UTF-8 格式保存。当此类文件加载到 ADO 流时，Stream 对象不会尝试从流打开 Recordset，除非流的 Charset 属性设置为正确的 UTF-8 值。
 

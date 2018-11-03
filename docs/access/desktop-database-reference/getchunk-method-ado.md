@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ea7346c8c1b97ef16af71f56aafbbf777635d906
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 27d6f2c9884441042d67615072738c7762f4f789
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937783"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949913"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于返回较大文本或二进制数据 [Field](field-object-ado.md) 对象的全部内容或部分内容。
 
@@ -31,9 +29,9 @@ ms.locfileid: "25937783"
 
 ## <a name="parameters"></a>参数
 
-  - *Size*
-
-  - **长整型** 表达式，等于您要检索的字节数或字符数。
+|参数|说明|
+|:--------|:----------|
+|*Size* |**长整型** 表达式，等于您要检索的字节数或字符数。|
 
 ## <a name="remarks"></a>备注
 

@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249130(v=office.15)
 ms:contentKeyID: 48544188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6a6427574cd04d8196153618c5960cb38da2b04
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 794c77c0ab6ab2abf22b04def8763fd1e0c51913
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924734"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949612"
 ---
 # <a name="cancelupdate-method-rds"></a>CancelUpdate 方法 (RDS)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 用于取消对 [Recordset](recordset-object-ado.md) 对象的当前行或新行所做的任何更改。
 
@@ -28,9 +25,9 @@ ms.locfileid: "25924734"
 
 ## <a name="parameters"></a>参数
 
-  - *DataControl*
-
-  - 一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
+|参数|说明|
+|:--------|:----------|
+|*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
 
 ## <a name="remarks"></a>备注
 

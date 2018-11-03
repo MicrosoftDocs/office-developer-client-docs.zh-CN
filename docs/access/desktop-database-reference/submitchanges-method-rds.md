@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92634f2c0d95fbe9022934d22340f768b5614a58
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ba6b6ff2d373a8b05d0839d4cc113f48b47d8cad
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923369"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949584"
 ---
 # <a name="submitchanges-method-rds"></a>SubmitChanges 方法 (RDS)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -28,21 +27,12 @@ ms.locfileid: "25923369"
 
 ## <a name="parameters"></a>参数
 
-  - *DataControl*
-
-  - 一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
-
-  - *DataFactory*
-
-  - 一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 对象的对象变量。
-
-  - *Connection*
-
-  - **字符串型** 值，表示用 **RDS.DataControl** 对象的 **Connect** 属性创建的连接。
-
-  - *Recordset*
-
-  - 一个代表 **Recordset** 对象的对象变量。
+|参数|说明|
+|:--------|:----------|
+|*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
+|*DataFactory* |一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 对象的对象变量。|
+|*Connection* |**字符串型** 值，表示用 **RDS.DataControl** 对象的 **Connect** 属性创建的连接。|
+|*Recordset* |一个代表 **Recordset** 对象的对象变量。|
 
 ## <a name="remarks"></a>备注
 

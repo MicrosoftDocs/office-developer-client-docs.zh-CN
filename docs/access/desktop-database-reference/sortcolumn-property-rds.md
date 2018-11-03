@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248835(v=office.15)
 ms:contentKeyID: 48543151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4bccd0eb536ec67937e8c3659b2ac62ef49a0bb3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 61d31ba6044448d2b2534d6affa6157765e9cbc7
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924062"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949633"
 ---
 # <a name="sortcolumn-property-rds"></a>SortColumn 属性 (RDS)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,13 +25,10 @@ ms.locfileid: "25924062"
 
 ## <a name="parameters"></a>参数
 
-  - *DataControl*
-
-  - 一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
-
-  - *String*
-
-  - 一个 **String** 值，表示作为记录的排序依据的列的名称或别名。
+|参数|说明|
+|:--------|:----------|
+|*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
+|*String* |一个 **String** 值，表示作为记录的排序依据的列的名称或别名。|
 
 ## <a name="remarks"></a>备注
 

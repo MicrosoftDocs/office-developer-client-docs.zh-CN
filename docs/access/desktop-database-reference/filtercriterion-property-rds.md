@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249267(v=office.15)
 ms:contentKeyID: 48544834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a9724d84bed6c89267aeb811936eeb49b49bc17
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f9887551d4d8a141c8390764bcd23c98c59edc26
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929340"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950221"
 ---
 # <a name="filtercriterion-property-rds"></a>FilterCriterion 属性 (RDS)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 指示筛选值中使用的求值运算符。
 
@@ -28,13 +25,10 @@ ms.locfileid: "25929340"
 
 ## <a name="parameters"></a>参数
 
-  - *DataControl*
-
-  - 一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
-
-  - *String*
-
-  - 一个 **String** 值，指定记录的 [FilterValue](filtervalue-property-rds.md) 的求值运算符。 可以是以下任一： \<， \<= \>， \>=、 = 或\< \>。
+|参数|说明|
+|:--------|:----------|
+|*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
+|*String* |一个 **String** 值，指定记录的 [FilterValue](filtervalue-property-rds.md) 的求值运算符。 可以是以下任一： \<， \<= \>， \>=、 = 或\< \>。|
 
 ## <a name="remarks"></a>备注
 

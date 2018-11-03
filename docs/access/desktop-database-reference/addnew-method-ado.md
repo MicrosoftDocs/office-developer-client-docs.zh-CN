@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c4ac833f2ff7681e3a4abe77ff53928fc3f4fe2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 54217fdfe40bd8fea9b94ac78f1e05d2d94daa71
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944562"
+ms.locfileid: "25949983"
 ---
 # <a name="addnew-method-ado"></a>AddNew 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 

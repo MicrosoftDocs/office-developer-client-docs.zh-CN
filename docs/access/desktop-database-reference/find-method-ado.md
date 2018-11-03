@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ff66a39de070759e0ad31b441e4be5735d87516
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: fa7dc2361d31a6d18af3c381dd75f8f934e78e05
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936608"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949878"
 ---
 # <a name="find-method-ado"></a>Find 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于在 [Recordset](recordset-object-ado.md) 中搜索满足指定条件的行。可以选择性地指定搜索方向、起始行和与起始行的偏移量。如果满足条件，当前行位置将设置为找到的记录位置；否则，该位置设置为 **Recordset** 的末尾（或开头）。
 
@@ -27,21 +25,12 @@ ms.locfileid: "25936608"
 
 ## <a name="parameters"></a>参数
 
-  - *Criteria*
-
-  - **字符串型** 值，包含用于指定在搜索中使用的列名、比较运算符和值的语句。
-
-  - *SkipRows*
-
-  - 可选**。**长整型**值，默认值为零，用于指定与当前行的行偏移量或*开始*书签，以开始搜索。默认情况下，搜索将从当前行开始。
-
-  - *SearchDirection*
-
-  - 可选 *。*[SearchDirectionEnum](searchdirectionenum.md) 值，指定搜索应从当前行开始还是从搜索方向上的下一个可用行开始。如果该值为 **adSearchForward**，则不成功的搜索在 **Recordset** 的末尾停止。如果该值为 **adSearchBackward**，则不成功的搜索在 **Recordset** 的开头停止。
-
-  - *Start*
-
-  - 可选。 **变量型** 书签，充当搜索的开始位置。
+|参数|说明|
+|:--------|:----------|
+|*Criteria* |**字符串型** 值，包含用于指定在搜索中使用的列名、比较运算符和值的语句。|
+|*SkipRows* |可选。 **长整型**值，其默认值为零，用于指定的当前行或*启动*书签，以开始搜索的行偏移量。 默认情况下，当前行上开始搜索。|
+|*SearchDirection* |可选。 [SearchDirectionEnum](searchdirectionenum.md) 值，指定搜索应从当前行开始还是从搜索方向上的下一个可用行开始。 如果该值为 **adSearchForward** ，则不成功的搜索在 **Recordset** 的末尾停止。 如果该值为 **adSearchBackward** ，则不成功的搜索在 **Recordset** 的开头停止。|
+|*Start* |可选。 **变量型** 书签，充当搜索的开始位置。|
 
 ## <a name="remarks"></a>备注
 
@@ -54,7 +43,6 @@ ms.locfileid: "25936608"
 如果比较运算符是"like"，则字符串值中可以包含星号 (\*)，以查找一次或多次出现的任何字符或子字符串。例如，"state like 'M\*'"与 Maine 和 Massachusetts 相匹配。还可以使用前导和尾随星号来查找包含在值中的子字符串。例如，"state like '\*as\*'"与 Alaska、Arkansas 和 Massachusetts 相匹配。
 
 星号只能在条件字符串的末尾使用，或者同时在条件字符串的开头和末尾使用，如上所述。不能将星号用作前导通配符 ("\*str") 或嵌入式通配符 ("s\*r")。否则将导致错误。
-
 
 > [!NOTE]
 > [!注释] 如果当前行位置不是在调用 **Find** 之前设置的，将发生错误。设置行位置的任何方法（如 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)）都应该在调用 **Find** 之前调用。

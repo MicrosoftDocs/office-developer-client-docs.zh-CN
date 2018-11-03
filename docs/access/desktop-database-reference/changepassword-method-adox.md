@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
 ms:contentKeyID: 48546519
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7eef5fc93f9cce68e6342b62c1ab07ee6f65587f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: e7e6d88b207fecc93b9a9bafa2d6b504456a3a3e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946018"
+ms.locfileid: "25949269"
 ---
 # <a name="changepassword-method-adox"></a>ChangePassword 方法 (ADOX)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 更改用户帐户的密码。
 
@@ -28,13 +25,10 @@ ms.locfileid: "25946018"
 
 ## <a name="parameters"></a>参数
 
-- *旧密码*
-
-  - 一个指定用户现有密码的 **String** 值。如果该用户当前没有密码，则使用空字符串 ("") 作为 *OldPassword*。
-
-- *新密码*
-
-  - 一个指定新密码的 **String** 值。
+|参数|说明|
+|:--------|:----------|
+|*旧密码* |一个指定用户现有密码的 **String** 值。如果该用户当前没有密码，则使用空字符串 ("") 作为 *OldPassword*。|
+|*新密码* |一个指定新密码的 **String** 值。|
 
 ## <a name="remarks"></a>备注
 

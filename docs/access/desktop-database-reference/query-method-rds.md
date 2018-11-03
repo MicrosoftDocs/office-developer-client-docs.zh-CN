@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
 ms:contentKeyID: 48547658
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06b9372a15082a76503654dde9261db941a492f8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1e7f9dfc3ce5cb0d757951f13c1078ab44d04760
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923999"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949423"
 ---
 # <a name="query-method-rds"></a>Query 方法 (RDS)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 使用有效的 SQL 查询字符串返回 [Recordset](recordset-object-ado.md)。
 
@@ -27,21 +25,12 @@ ms.locfileid: "25923999"
 
 ## <a name="parameters"></a>参数
 
-  - *Recordset*
-
-  - 一个代表 **Recordset** 对象的对象变量。
-
-  - *DataFactory*
-
-  - 一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 对象的对象变量。
-
-  - *Connection*
-
-  - 一个包含服务器连接信息的 **字符串** 值。此参数类似于 [Connect](connect-property-rds.md) 属性。
-
-  - *Query*
-
-  - 一个包含 SQL 查询的 **字符串** 值。
+|参数|说明|
+|:--------|:----------|
+|*Recordset* |一个代表 **Recordset** 对象的对象变量。|
+|*DataFactory* |一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 对象的对象变量。|
+|*Connection* |一个包含服务器连接信息的 **字符串** 值。此参数类似于 [Connect](connect-property-rds.md) 属性。|
+|*Query* |一个包含 SQL 查询的 **字符串** 值。|
 
 ## <a name="remarks"></a>备注
 

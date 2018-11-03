@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248804(v=office.15)
 ms:contentKeyID: 48542998
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b18a09d6a0c9d6a6ad8e9f579068c4f6d7162d1f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 213d29ecd6599803c0fa2211a17ac14da7dc698a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944870"
+ms.locfileid: "25949451"
 ---
 # <a name="delete-method-ado-parameters-collection"></a>Delete 方法 （ADO Parameters 集合）
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于从 [Parameters](parameters-collection-ado.md) 集合中删除对象。
 
@@ -27,9 +25,9 @@ ms.locfileid: "25944870"
 
 ## <a name="parameters"></a>参数
 
-- *Index*
-
-  - **字符串** 值，包含要删除的对象的名称，或对象在集合中的序号位置（索引）。
+|参数|说明|
+|:--------|:----------|
+|*Index* |**字符串** 值，包含要删除的对象的名称，或对象在集合中的序号位置（索引）。|
 
 ## <a name="remarks"></a>说明
 

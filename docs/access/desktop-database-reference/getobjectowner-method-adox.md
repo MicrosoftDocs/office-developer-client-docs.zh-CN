@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249451(v=office.15)
 ms:contentKeyID: 48545585
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b1a37b0f341c849358b649c2222df2955fd88f5d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7243e70c95da3502a3c7b86e691858715730a955
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927808"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949241"
 ---
 # <a name="getobjectowner-method-adox"></a>GetObjectOwner 方法 (ADOX)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 返回 [Catalog](catalog-object-adox.md) 中某个对象的所有者。
 
@@ -31,17 +29,11 @@ ms.locfileid: "25927808"
 
 ## <a name="parameters"></a>参数
 
-  - *ObjectName*
-
-  - **String** 值，指定返回所有者的对象的名称。
-
-  - *ObjectType*
-
-  - 一个可设为某一 **ObjectTypeEnum** 常量的 [Long](objecttypeenum.md) 值，指定获得其所有者的对象的类型。
-
-  - *ObjectTypeId*
-
-  - 可选。 **Variant** 值，指定 OLE DB 规范未定义的提供程序对象类型的 GUID。 此参数是必需的如果将*ObjectType*设置为**adPermObjProviderSpecific**;否则，它将不使用。
+|参数|说明|
+|:--------|:----------|
+|*ObjectName* |**String** 值，指定返回所有者的对象的名称。|
+|*ObjectType* |一个可设为某一 **ObjectTypeEnum** 常量的 [Long](objecttypeenum.md) 值，指定获得其所有者的对象的类型。|
+|*ObjectTypeId* |可选。 **Variant** 值，指定 OLE DB 规范未定义的提供程序对象类型的 GUID。 此参数是必需的如果将*ObjectType*设置为**adPermObjProviderSpecific**;否则，它将不使用。|
 
 ## <a name="remarks"></a>备注
 

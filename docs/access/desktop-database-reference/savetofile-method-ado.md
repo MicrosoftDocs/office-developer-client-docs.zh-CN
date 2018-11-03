@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250104(v=office.15)
 ms:contentKeyID: 48548097
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 535e743a9de708b264c225f4e86390a11e1d20e5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: df7545b9abd29571788a0bbfc69323ec31e75f65
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925023"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949808"
 ---
 # <a name="savetofile-method-ado"></a>SaveToFile 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 可将 [Stream](stream-object-ado.md) 的二进制内容保存到文件。
 
@@ -28,19 +25,13 @@ ms.locfileid: "25925023"
 
 ## <a name="parameters"></a>参数
 
-  - *FileName*
-
-  - **字符串型** 值，包含要保存 **Stream** 内容的文件的完全限定名称。可以保存到任意一个有效的本地位置或可通过 UNC 值访问的任意位置。
-
-  - *SaveOptions*
-
-  - [SaveOptionsEnum](saveoptionsenum.md) 值，指定 **SaveToFile** 是否应在文件不存在时创建新文件。默认值为 **adSaveCreateNotExists** 。通过这些选项，可以指定当指定文件不存在时引发错误。还可以指定 **SaveToFile** 覆盖现有文件的当前内容。
-
+|参数|说明|
+|:--------|:----------|
+|*FileName* |**字符串型** 值，包含要保存 **Stream** 内容的文件的完全限定名称。可以保存到任意一个有效的本地位置或可通过 UNC 值访问的任意位置。|
+|*SaveOptions* |[SaveOptionsEnum](saveoptionsenum.md) 值，指定 **SaveToFile** 是否应在文件不存在时创建新文件。默认值为 **adSaveCreateNotExists** 。通过这些选项，可以指定当指定文件不存在时引发错误。还可以指定 **SaveToFile** 覆盖现有文件的当前内容。|
 
 > [!NOTE]
-> <P>[!注释] 如果覆盖现有文件（在设置 <STRONG>adSaveCreateOverwrite</STRONG> 时），则 <STRONG>SaveToFile</STRONG> 会从覆盖之前的原文件中截去新的 <A href="eos-property-ado.md">EOS</A> 之后的所有字节。</P>
-
-
+> [!注释] 如果覆盖现有文件（在设置 **adSaveCreateOverwrite** 时），则 **SaveToFile** 会从覆盖之前的原文件中截去新的 [EOS](eos-property-ado.md) 之后的所有字节。
 
 ## <a name="remarks"></a>备注
 

@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: df63dfb8351da910a6f735722ef33e8ddc347150
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: af7cc3d629447bae25362b908beb1c74fd3e6b10
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937811"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950095"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace 方法 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 创建新的 **[Workspace](workspace-object-dao.md)** 对象。
 
@@ -31,7 +29,7 @@ ms.locfileid: "25937811"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -50,38 +48,38 @@ ms.locfileid: "25937811"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>一个 <strong>String</strong>，对新的 <strong>Workspace</strong> 对象进行唯一命名。有关有效 <strong>Workspace</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>UserName</p></td>
+<td><p><em>UserName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>一个 <strong>String</strong> 类型的值，用于标识新的 <strong>Workspace</strong> 对象的所有者。有关详细信息，请参阅 <strong>UserName</strong> 属性。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Password</p></td>
+<td><p><em>Password</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>包含新的<strong>Workspace</strong>对象的密码的<strong>字符串</strong>。 密码长度最多为 20 个字符，并且可以包括除 ASCII 字符 0 (null) 的任何字符。</p>
-<td><p><strong>注意</strong>： 使用合并和小写字母、 数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
+<p><strong>注意</strong>： 使用合并和小写字母、 数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>UseType</p></td>
+<td><p><em>UseType</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong>值之一。</p>
-<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
+<p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Workspace
 

@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: da7e23974b9541a29aa78ba9d7de22e76102971b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6ca95e311f6040d5834fa24ce24d392375953990
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929550"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949934"
 ---
 # <a name="nextrecordset-method-ado"></a>NextRecordset 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
  
-
 用于通过执行一系列命令，清除当前 [Recordset](recordset-object-ado.md) 对象并返回下一个 **Recordset** 。
 
 ## <a name="syntax"></a>语法
@@ -31,15 +29,12 @@ ms.locfileid: "25929550"
 
 ## <a name="parameters"></a>参数
 
-- *RecordsAffected*
-
-- 可选。 **长整型** 变量，提供程序将受当前操作影响的记录数返回到该变量。
-
+|参数|说明|
+|:--------|:----------|
+|*RecordsAffected* |可选。 **长整型** 变量，提供程序将受当前操作影响的记录数返回到该变量。|
 
 > [!NOTE]
-> <P>[!注释] 该参数仅返回受操作影响的记录数；它并不返回来自选择语句（用于生成 <STRONG>Recordset</STRONG> ）的记录计数。</P>
-
-
+> [!注释] 该参数仅返回受操作影响的记录数；它并不返回来自选择语句（用于生成 **Recordset** ）的记录计数。
 
 ## <a name="remarks"></a>备注
 

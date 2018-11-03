@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c0c4668141c0da6e5faddee009d2548f1ee2c53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6aecdbee544d3b30a6f6386c98d3083bb1167539
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926995"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949801"
 ---
 # <a name="writetext-method-ado"></a>WriteText 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,13 +25,10 @@ ms.locfileid: "25926995"
 
 ## <a name="parameters"></a>参数
 
-  - *Data*
-
-  - **String** 值，包含要写入的字符文本。
-
-  - *Options*
-
-  - 可选。[StreamWriteEnum](streamwriteenum.md) 值，指定是否必须在指定的字符串末尾写入行分隔符。
+|参数|说明|
+|:--------|:----------|
+|*Data* |**String** 值，包含要写入的字符文本。|
+|*Options* |可选。[StreamWriteEnum](streamwriteenum.md) 值，指定是否必须在指定的字符串末尾写入行分隔符。|
 
 ## <a name="remarks"></a>备注
 
@@ -42,8 +38,7 @@ ms.locfileid: "25926995"
 
 如果写入的数据超过了当前 [EOS](eos-property-ado.md) 位置， [Stream](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) 的 **Size** 会增加，以包含所有新字符，并且 **EOS** 将移动到 **Stream** 中新的最后字节处。
 
-
 > [!NOTE]
-> <P><STRONG>WriteText</STRONG> 方法用于文本流（<A href="type-property-ado-stream.md">Type</A> 为 <STRONG>adTypeText</STRONG>）。对于二进制流（<STRONG>Type</STRONG> 为 <STRONG>adTypeBinary</STRONG>），请使用 <A href="write-method-ado.md">Write</A>。</P>
+> **WriteText** 方法用于文本流（[Type](type-property-ado-stream.md) 为 **adTypeText**）。对于二进制流（**Type** 为 **adTypeBinary**），请使用 [Write](write-method-ado.md)。
 
 

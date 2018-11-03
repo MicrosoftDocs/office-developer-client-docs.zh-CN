@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a47709d1be3eab66f849e076c5756d5081d28fc8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 632bf0af35dd49951d58ba126b6e03678a1a12db
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930229"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950249"
 ---
 # <a name="databasemakereplica-method-dao"></a>Database.MakeReplica 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25930229"
 
 *表达式*一个代表**Database**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,19 +48,19 @@ ms.locfileid: "25930229"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>PathName</p></td>
+<td><p><em>PathName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>新副本的路径和文件名。如果 replica 是一个现有的文件名，则会发生错误。</p></td>
 </tr>
 <tr class="even">
-<td><p>说明</p></td>
+<td><p><em>说明</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>一个 <strong>String</strong>，用于描述所创建的副本</p></td>
 </tr>
 <tr class="odd">
-<td><p>选项</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个<strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong>常量，指定要创建的副本的特征。</p></td>

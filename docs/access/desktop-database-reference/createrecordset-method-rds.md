@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
 ms:contentKeyID: 48543497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42a5bf11e2ed287ac683f634d3953739b2501f60
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0b4d68ac2dfca344cb98885846f2cd09fafd0ea0
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922802"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950235"
 ---
 # <a name="createrecordset-method-rds"></a>CreateRecordset 方法 (RDS)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于创建断开连接的空 [Recordset](recordset-object-ado.md)。
 
@@ -27,50 +25,20 @@ ms.locfileid: "25922802"
 
 ## <a name="parameters"></a>参数
 
-  - *Object*
+|参数|说明|
+|:--------|:----------|
+|*Object* |一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 或 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
+|*ColumnsInfos* |属性的 **变量型** 数组，用于定义所创建的 **Recordset** 中的各个列。 每个列定义都包含一个数组，其中包含四个必需属性和一个可选属性。 列数组集合随后组合到定义 **Recordset** 的数组中。 属性的列表，请参阅下表。|
 
-  - 一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 或 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
+### <a name="variant-array-attributes"></a>Variant 数组属性
 
-  - *ColumnsInfos*
-
-  - 属性的 **变量型** 数组，用于定义所创建的 **Recordset** 中的各个列。每个列定义都包含一个数组，其中包含四个必需属性和一个可选属性。 列数组集合随后组合到定义 **Recordset** 的数组中。
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>属性</p></th>
-    <th><p>说明</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Name</p></td>
-    <td><p>列标题的名称。</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Type</p></td>
-    <td><p>代表数据类型的整数。</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Size</p></td>
-    <td><p>代表宽度的整数（以字符为单位），与数据类型无关。</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Nullability</p></td>
-    <td><p>布尔值。</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Scale<br />
-（可选）</p></td>
-    <td><p>此可选属性定义数值字段的位数。如果未指定此值，数值将被截取为三位。精度不会受影响，但小数点之后的位数将截取为三位。</p></td>
-    </tr>
-    </tbody>
-    </table>
-
+|属性|说明|
+|:--------|:----------|
+|Name |列标题的名称。|
+|Type |代表数据类型的整数。|
+|Size |代表宽度的整数（以字符为单位），与数据类型无关。|
+|Nullability |布尔值。|
+|Scale （可选） |此可选属性定义数值字段的位数。如果未指定此值，数值将被截取为三位。精度不会受影响，但小数点之后的位数将截取为三位。|
 
 ## <a name="remarks"></a>说明
 

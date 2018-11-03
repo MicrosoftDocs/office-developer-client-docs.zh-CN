@@ -6,26 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
 ms:contentKeyID: 48546615
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c6a49b08c1b4f7879d50f9dd1d29cfcf89ded50c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86bb76b4feacc1b4a06d6cbbb8a436f5f9c55bd5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928075"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949487"
 ---
 # <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>BeginTransComplete、CommitTransComplete 和 RollbackTransComplete 事件 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 这些事件将在对 [Connection](connection-object-ado.md) 对象的关联操作执行完毕之后调用。
 
-  - **BeginTransComplete** 在 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 操作之后调用。
+- **BeginTransComplete** 在 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 操作之后调用。
 
-  - **CommitTransComplete** 在 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 操作之后调用。
+- **CommitTransComplete** 在 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 操作之后调用。
 
-  - **RollbackTransComplete** 在 [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 操作之后调用。
+- **RollbackTransComplete** 在 [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 操作之后调用。
 
 ## <a name="syntax"></a>语法
 
@@ -37,23 +35,12 @@ RollbackTransComplete*pError*， *adStatus* *pConnection*
 
 ## <a name="parameters"></a>参数
 
-  - *TransactionLevel*
-
-  - **长整型** 值，包含导致该事件的新事务级别的 **BeginTrans** 。
-
-  - *pError*
-
-  - [Error](error-object-ado.md) 对象。如果 EventStatusEnum 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    通过在事件返回之前将该参数设置为 **adStatusUnwantedEvent** ，这些事件可以阻止随后进行通知。
-
-  - *pConnection*
-
-  - 发生此事件的 **Connection** 对象。
+|参数|说明|
+|:--------|:----------|
+|*TransactionLevel* |**长整型** 值，包含导致该事件的新事务级别的 **BeginTrans** 。|
+|*pError* |[Error](error-object-ado.md) 对象。 它介绍**adStatusErrorsOccurred**; EventStatusEnum 的值是否发生的错误否则，它将不设置。|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md)。 通过在事件返回之前将该参数设置为 **adStatusUnwantedEvent** ，这些事件可以阻止随后进行通知。|
+|*pConnection* |发生此事件的 **Connection** 对象。|
 
 ## <a name="remarks"></a>备注
 

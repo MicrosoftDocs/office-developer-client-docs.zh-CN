@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250056(v=office.15)
 ms:contentKeyID: 48547916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a8e1193257710eb2a0a23436cfc1a36424025136
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3853c42fab9de9e06691ae0e8efe20e23c410121
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922830"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949290"
 ---
 # <a name="stat-method-ado"></a>Stat 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,63 +29,23 @@ ms.locfileid: "25922830"
 
 ## <a name="parameters"></a>参数
 
-  - *StatStg*
-
-  - STATSTG 结构，将使用流信息进行填充。ADO Stream 对象所用的 Stat 方法的实现不会填充该结构的所有字段。
-
-  - *StatFlag*
-
-  - 可指定此方法不在 STATSTG 结构中返回某些成员，从而省去了内存分配操作。值从 STATFLAG 枚举中提取。  
-      
-    STATFLAG 枚举包括两个值：
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>常量</p></th>
-    <th><p>值</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>STATFLAG_DEFAULT</p></td>
-    <td><p>0</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>STATFLAG_NONAME</p></td>
-    <td><p>1</p></td>
-    </tr>
-    </tbody>
-    </table>
+|参数|说明|
+|:--------|:----------|
+|*StatStg* |STATSTG 结构，将使用流信息进行填充。ADO Stream 对象所用的 Stat 方法的实现不会填充该结构的所有字段。|
+|*StatFlag* |可指定此方法不在 STATSTG 结构中返回某些成员，从而省去了内存分配操作。值从 STATFLAG 枚举中提取。<br/><br/>STATFLAG 枚举具有两个值：<br/>-STATFLAG_DEFAULT: 0<br/>-STATFLAG_NONAME: 1 |
 
 
 ## <a name="remarks"></a>备注
 
 为 ADO Stream 对象实现的 Stat 方法会填充 STATSTG 结构的以下字段：
 
-  - *pwcsName*
-
-  - 如果有包含流中的名称的字符串和 StatFlag 值 STATFLAG\_无名未指定。
-
-  - *cbSize*
-
-  - 指定流或字节数组的大小，以字节计。
-
-  - *mtime*
-
-  - 指示此存储、流或字节数组的上次修改时间。
-
-  - *ctime*
-
-  - 指示此存储、流或字节数组的创建时间。
-
-  - *atime*
-
-  - 指示此存储、流或字节数组的上次访问时间。
+|字段|说明|
+|:--------|:----------|
+|*pwcsName* |如果有包含流中的名称的字符串和 StatFlag 值 STATFLAG\_无名未指定。|
+|*cbSize* |指定流或字节数组的大小，以字节计。|
+|*mtime* |指示此存储、流或字节数组的上次修改时间。|
+|*ctime* |指示此存储、流或字节数组的创建时间。|
+|*atime* |指示此存储、流或字节数组的上次访问时间。|
 
 如果 STATFLAG\_在 StatFlag 参数中指定无名，则不返回流的名称。
 

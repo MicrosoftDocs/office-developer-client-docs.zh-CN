@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248924(v=office.15)
 ms:contentKeyID: 48543435
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e336a7ddf4db6e927c185b33a4138ab8dd5d5e9a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cebb2f464b63106545ff5b27b1722b6417b9dbe1
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925966"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949941"
 ---
 # <a name="reset-method-rds"></a>Reset 方法 (RDS)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,13 +25,10 @@ ms.locfileid: "25925966"
 
 ## <a name="parameters"></a>参数
 
-  - *DataControl*
-
-  - 一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
-
-  - *value*
-
-  - 可选。 **Boolean** 值，如果要对当前"已筛选的"行集进行筛选，则此参数为 **True** （默认值）。 **False** 指示对原始行集进行筛选，删除以前的所有筛选选项。
+|参数|说明|
+|:--------|:----------|
+|*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
+|*value* |可选。 **Boolean** 值，如果要对当前"已筛选的"行集进行筛选，则此参数为 **True** （默认值）。 **False** 指示对原始行集进行筛选，删除以前的所有筛选选项。|
 
 ## <a name="remarks"></a>备注
 

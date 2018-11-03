@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58683a8721ede0e7535b159f095b44bc6db6c1b7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 49ab3d51deae86a02a486da224459bcfaaf057b2
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926729"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949669"
 ---
 # <a name="executecomplete-event-ado"></a>ExecuteComplete 事件 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 **ExecuteComplete** 事件在命令执行完毕之后调用。
 
@@ -28,31 +25,14 @@ ExecuteComplete*RecordsAffected*， *pError*、 *adStatus*、 *pCommand*、 *pRe
 
 ## <a name="parameters"></a>参数
 
-  - *RecordsAffected*
-
-  - **长整型** 值，指示受命令影响的记录数。
-
-  - *pError*
-
-  - [Error](error-object-ado.md) 对象。如果 **adStatus** 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    在此事件返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。
-
-  - *pCommand*
-
-  - 已执行的 [Command](command-object-ado.md) 对象。即使在不显式创建 **Command** 的情况下调用 **Connection.Execute** 或 **Recordset.Open** 时（在这种情况下， **Command** 对象由 ADO 在内部创建），也包含一个 **Command** 对象。
-
-  - *pRecordset*
-
-  - 作为已执行命令的结果的 [Recordset](recordset-object-ado.md) 对象。该 **Recordset** 可以为空。您绝不能从该事件处理程序内销毁此 Recordset 对象，否则，当 ADO 尝试访问不再存在的对象时，会导致违规存取错误。
-
-  - *pConnection*
-
-  - [Connection](connection-object-ado.md) 对象。操作通过该连接执行。
+|参数|说明|
+|:--------|:----------|
+|*RecordsAffected* |**长整型** 值，指示受命令影响的记录数。|
+|*pError* |[Error](error-object-ado.md) 对象。如果 **adStatus** 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md)。 在此事件返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。|
+|*pCommand* |已执行的 [Command](command-object-ado.md) 对象。即使在不显式创建 **Command** 的情况下调用 **Connection.Execute** 或 **Recordset.Open** 时（在这种情况下， **Command** 对象由 ADO 在内部创建），也包含一个 **Command** 对象。|
+|*pRecordset* |作为已执行命令的结果的 [Recordset](recordset-object-ado.md) 对象。该 **Recordset** 可以为空。您绝不能从该事件处理程序内销毁此 Recordset 对象，否则，当 ADO 尝试访问不再存在的对象时，会导致违规存取错误。|
+|*pConnection* |[Connection](connection-object-ado.md) 对象。操作通过该连接执行。|
 
 ## <a name="remarks"></a>备注
 

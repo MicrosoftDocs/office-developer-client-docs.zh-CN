@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
 ms:contentKeyID: 48543197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 564f1852fac571bdf1459c98620f31e2419b2cf3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: de57bfff5b47e3c4202a17910db2413686f73d9b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925707"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950263"
 ---
 # <a name="dbenginecommittrans-method-dao"></a>DBEngine.CommitTrans 方法 (DAO)
 
@@ -26,7 +26,7 @@ ms.locfileid: "25925707"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ ms.locfileid: "25925707"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>选项</p></td>
+<td><p><em>选项</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>在 Microsoft Access 工作区中，可以在 <strong>CommitTrans</strong> 中包括 <strong>dbForceOSFlush</strong> 常量。这将强制数据库引擎立即刷新对磁盘执行所有更新，而不是临时缓存更新。如果不使用此选项，在应用程序调用 <strong>CommitTrans</strong> 后，用户可立即取回控制权，并且可关闭计算机，同时不会向磁盘写入数据。尽管使用此选项会影响应用程序的性能，但是，如果将缓存的更新保存到磁盘之前计算机可能会关闭，则使用此选项将非常有帮助。</p></td>

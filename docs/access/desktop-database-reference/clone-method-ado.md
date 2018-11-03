@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 857a007d1b3bfe2665eea1284bc41cc9c67ccd46
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c72902c4ed1d1d2657bfa6e2b4c5f84d76dfefa3
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944436"
+ms.locfileid: "25950256"
 ---
 # <a name="clone-method-ado"></a>Clone 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 用于从现有 [Recordset](recordset-object-ado.md) 对象创建重复的 **Recordset** 对象。还可以指定克隆为只读状态。
 
@@ -32,17 +29,11 @@ ms.locfileid: "25944436"
 
 ## <a name="parameters"></a>参数
 
-- *rstDuplicate*
-
-  - 一个标识要创建的重复 **Recordset** 对象的对象变量。
-
-- *rstOriginal*
-
-  - 对象变量，用于标识要重复的 **Recordset** 对象。
-
-- *LockType*
-
-  - 可选。[LockTypeEnum](locktypeenum.md) 值，用于指定原始 **Recordset** 或只读 **Recordset** 的锁类型。有效值为 **adLockUnspecified** 或 **adLockReadOnly** 。
+|参数|说明|
+|:--------|:----------|
+|*rstDuplicate* |一个标识要创建的重复 **Recordset** 对象的对象变量。|
+|*rstOriginal* |对象变量，用于标识要重复的 **Recordset** 对象。|
+|*LockType* |可选。[LockTypeEnum](locktypeenum.md) 值，用于指定原始 **Recordset** 或只读 **Recordset** 的锁类型。有效值为 **adLockUnspecified** 或 **adLockReadOnly** 。|
 
 ## <a name="remarks"></a>说明
 

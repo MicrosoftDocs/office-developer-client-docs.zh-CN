@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 767bd146de7a5568d7441024adb9ad6816cb806e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8310f695bdcf229e61e09bce6c0846f9520c0fc6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923509"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949864"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase 方法 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 在 Windows 注册表中输入 ODBC 数据源的连接信息。在会话期间如果 ODBC 数据源已打开，则 ODBC 驱动程序需要连接信息。
 
@@ -31,7 +29,7 @@ ms.locfileid: "25923509"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -50,25 +48,25 @@ ms.locfileid: "25923509"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Dsn</p></td>
+<td><p><em>Dsn</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> 方法中使用的名称。该名称引用与数据源有关的描述性信息块。例如，如果数据源为 ODBC 远程数据库，则该名称可能是服务器的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p>驱动程序</p></td>
+<td><p><em>驱动程序</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>ODBC 驱动程序的名称。这不是 ODBC 驱动程序 DLL 文件的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p>无提示</p></td>
+<td><p><em>无提示</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p><strong>True</strong>如果您不想要显示提示驱动程序特定信息; ODBC 驱动程序对话框或<strong>False</strong>如果您想要显示 ODBC 驱动程序对话框。 如果无提示是<strong>True</strong>、 属性必须包含所有必需的驱动程序特定信息或仍然显示的对话框。</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributes</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>要添加到 Windows 注册表的关键字列表。这些关键字是由回车符分隔的字符串。</p></td>

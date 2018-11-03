@@ -1,23 +1,21 @@
 ---
-title: Open 方法 (ADO Recordset)
-TOCTitle: Open Method (ADO Recordset)
+title: Open 方法（ADO 记录集）
+TOCTitle: Open method (ADO Recordset)
 ms:assetid: 87ef19a4-28e1-dec7-ed33-4ae500b9c460
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bf40fa501c24af3433dde1bf2b0686fd3854acf2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 21798f476e0d67b7b23ef38c6e2b268893173ac6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884287"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950060"
 ---
-# <a name="open-method-ado-recordset"></a>Open 方法 (ADO Recordset)
-
+# <a name="open-method-ado-recordset"></a>Open 方法（ADO 记录集）
 
 **适用于**： Access 2013、 Office 2013
-
 
 打开游标。
 
@@ -27,31 +25,16 @@ ms.locfileid: "25884287"
 
 ## <a name="parameters"></a>参数
 
-  - *Source*
-
-  - 可选。 **变量型** ，取值为有效的 [Command](command-object-ado.md) 对象、SQL 语句、表名称、存储过程调用、URL 或包含永久存储 [Recordset](stream-object-ado.md) 的文件或 [Stream](recordset-object-ado.md) 对象的名称。
-
-  - *ActiveConnection*
-
-  - 可选。取值为有效的 **Connection** 对象变量名称的 [变量型](connection-object-ado.md) ，或包含 **ConnectionString** 参数的 [字符串型](connectionstring-property-ado.md) 。
-
-  - *CursorType*
-
-  - 可选。[CursorTypeEnum](cursortypeenum.md) 值，用于确定在打开 **Recordset** 时提供程序应使用的游标的类型。默认值为 **adOpenForwardOnly** 。
-
-  - *LockType*
-
-  - 可选。[LockTypeEnum](locktypeenum.md) 值，用于确定在打开 **Recordset** 时提供程序应使用的锁定（并发）的类型。默认值为 **adLockReadOnly** 。
-
-  - *Options*
-
-  - 可选。 **Long**值，该值指示如何提供程序应评估*Source*参数之后，如果之外的**Command**对象，它表示或应从先前已保存的文件还原**Recordset** 。 此参数可以是一个或多个 [CommandTypeEnum](commandtypeenum.md) 或 [ExecuteOptionEnum](executeoptionenum.md) 值，这些值可与位 AND 运算符结合使用。
-
+|参数|说明|
+|:--------|:----------|
+|*Source* |可选。 **变量型** ，取值为有效的 [Command](command-object-ado.md) 对象、SQL 语句、表名称、存储过程调用、URL 或包含永久存储 [Recordset](stream-object-ado.md) 的文件或 [Stream](recordset-object-ado.md) 对象的名称。|
+|*ActiveConnection* |可选。取值为有效的 **Connection** 对象变量名称的 [变量型](connection-object-ado.md) ，或包含 **ConnectionString** 参数的 [字符串型](connectionstring-property-ado.md) 。|
+|*CursorType* |可选。[CursorTypeEnum](cursortypeenum.md) 值，用于确定在打开 **Recordset** 时提供程序应使用的游标的类型。默认值为 **adOpenForwardOnly** 。|
+|*LockType* |可选。[LockTypeEnum](locktypeenum.md) 值，用于确定在打开 **Recordset** 时提供程序应使用的锁定（并发）的类型。默认值为 **adLockReadOnly** 。|
+|*Options* |可选。 **Long**值，该值指示如何提供程序应评估*Source*参数之后，如果之外的**Command**对象，它表示或应从先前已保存的文件还原**Recordset** 。 此参数可以是一个或多个 [CommandTypeEnum](commandtypeenum.md) 或 [ExecuteOptionEnum](executeoptionenum.md) 值，这些值可与位 AND 运算符结合使用。|
 
 > [!NOTE]
-> <P>[!注释] 如果从包含持久性 <STRONG>Recordset</STRONG> 的 <STRONG>Stream</STRONG> 中打开 <STRONG>Recordset</STRONG> ，则使用 <STRONG>adAsyncFetchNonBlocking</STRONG> 的 <STRONG>ExecuteOptionEnum</STRONG> 值不起作用。提取和阻止将同步进行。</P>
-
-
+> [!注释] 如果从包含持久性 **Recordset** 的 **Stream** 中打开 **Recordset** ，则使用 **adAsyncFetchNonBlocking** 的 **ExecuteOptionEnum** 值不起作用。提取和阻止将同步进行。
 
 **adExecuteNoRecords** 或 **adExecuteStream** 的 **ExecuteOpenEnum** 值不应与 **Open** 一起使用。
 
@@ -69,17 +52,14 @@ ADO **Recordset** 的默认游标是仅向前型只读游标，位于服务器�
 
 对于直接对应于 **Recordset** 对象属性（*Source*、*CursorType* 和 *LockType*）的其他参数，参数与属性的关系如下所示：
 
-  - 打开 **Recordset** 对象之前，属性处于读/写状态。
+- 打开 **Recordset** 对象之前，属性处于读/写状态。
 
-  - 除非执行 **Open** 方法时传递相应的参数，否则不使用属性设置。如果传递参数，则它会替代相应的属性设置，并用参数值更新该属性设置。
+- 除非执行 **Open** 方法时传递相应的参数，否则不使用属性设置。如果传递参数，则它会替代相应的属性设置，并用参数值更新该属性设置。
 
-  - 打开 **Recordset** 对象之后，这些属性变为只读。
-
+- 打开 **Recordset** 对象之后，这些属性变为只读。
 
 > [!NOTE]
-> <P>[!注释] <STRONG>ActiveConnection</STRONG> 属性仅对于 <STRONG>Source</STRONG> 属性被设置为有效 <A href="source-property-ado-recordset.md">Command</A> 对象的那些 <STRONG>Recordset</STRONG> 对象为只读，即使 <STRONG>Recordset</STRONG> 对象未打开也是如此。</P>
-
-
+> [!注释] **ActiveConnection** 属性仅对于 **Source** 属性被设置为有效 [Command](source-property-ado-recordset.md) 对象的那些 **Recordset** 对象为只读，即使 **Recordset** 对象未打开也是如此。
 
 如果*源*参数中传递的**Command**对象，并且还传递*ActiveConnection*参数，将发生错误。 **Command** 对象的 **ActiveConnection** 属性必须事先已设置为有效的 **Connection** 对象或连接字符串。
 
@@ -97,10 +77,8 @@ ADO **Recordset** 的默认游标是仅向前型只读游标，位于服务器�
 
 如果已将 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** ，则可以使用以下两种方法之一以异步方式检索行。 推荐的方法是将*选项*设置为**adAsyncFetch**。 另外，也可以使用 [Properties](properties-collection-ado.md) 集合中的"Asynchronous Rowset Processing"动态属性，但如果不将 **Options** 参数设置为 **adAsyncFetch** ，相关的检索事件就有可能丢失。
 
-
 > [!NOTE]
-> <P>MS 远程提供程序中的后台提取功能仅支持通过<STRONG>Open</STRONG>方法的<EM>Options</EM>参数。</P>
-
+> MS 远程提供程序中的后台提取功能仅支持通过**Open**方法的*Options*参数。
 
 > [!NOTE]
 > [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。

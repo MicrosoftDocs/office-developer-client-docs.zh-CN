@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a06837ec98d96cc4c6ae75a19dd953ca4dc59dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d95b33531f32ebc3524737c3322c92838518b97f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920079"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949535"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25920079"
 
 *表达式*代表**Connection**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25920079"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Query</p></td>
+<td><p><em>Query</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>一个 <strong>String</strong>，为 SQL 语句，或者 <strong>QueryDef</strong> 对象的 <strong>Name</strong> 属性值。</p></td>
 </tr>
 <tr class="even">
-<td><p>选项</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个常量或常量组合，按 Settings 中的指定确定查询的数据完整性特征。</p></td>

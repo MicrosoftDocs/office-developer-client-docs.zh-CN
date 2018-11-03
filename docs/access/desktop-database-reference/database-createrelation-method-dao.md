@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45d2835f4745a26d60c57c950ca1a48a9b47cd77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2a1ad7798fc6236f95d31c18cd864fe64e7a3fd8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927002"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949923"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25927002"
 
 *表达式*一个代表**Database**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ ms.locfileid: "25927002"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于对新的 <strong>Relation</strong> 对象进行唯一命名。有关有效 <strong>Relation</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>Table</p></td>
+<td><p><em>Table</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于命名关系中的主表。如果在追加 <strong>Relation</strong> 对象之前该表不存在，将发生运行时错误。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ForeignTable</p></td>
+<td><p><em>ForeignTable</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于命名关系中的外表。如果在追加 <strong>Relation</strong> 对象之前该表不存在，将发生运行时错误。</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributes</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个常量或常量组合，包含有关关系类型的信息。有关详细信息，请参阅 <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> 属性。</p></td>
@@ -75,7 +75,7 @@ ms.locfileid: "25927002"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Relation
 

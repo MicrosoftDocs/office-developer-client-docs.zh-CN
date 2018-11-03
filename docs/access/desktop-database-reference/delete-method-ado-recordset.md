@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 324366ef1fb399bf4a6b31113a288fa1abdc6b2b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3a7ab998052cc08aa57320d05e46542b84282e6c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947278"
+ms.locfileid: "25949507"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete 方法（ADO 记录集）
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 用于删除当前记录或一组记录。
 
@@ -28,10 +25,9 @@ ms.locfileid: "25947278"
 
 ## <a name="parameters"></a>参数
 
-- *AffectRecords*
-
-  - [AffectEnum](affectenum.md) 值，可确定 **Delete** 方法将影响的记录数。默认值为 **adAffectCurrent** 。
-
+|参数|说明|
+|:--------|:----------|
+|*AffectRecords* |[AffectEnum](affectenum.md) 值，可确定 **Delete** 方法将影响的记录数。默认值为 **adAffectCurrent** 。|
 
 > [!NOTE]
 > [!注释] **adAffectAll** 和 **adAffectAllChapters** 不是有效的 **Delete** 参数。

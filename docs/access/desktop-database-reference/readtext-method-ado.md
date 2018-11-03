@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248826(v=office.15)
 ms:contentKeyID: 48543108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97ef84cbacc02da0a3150cf0efcb3a24e548f2d2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 66db24f95e3f6338174be3a70ca75dbb3332adeb
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929311"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949388"
 ---
 # <a name="readtext-method-ado"></a>ReadText 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,9 +25,9 @@ ms.locfileid: "25929311"
 
 ## <a name="parameters"></a>参数
 
-  - *NumChars*
-
-  - 可选。 **长整型** 值，指定要从文件读取的字符数或 [StreamReadEnum](streamreadenum.md) 值。默认值为 **adReadAll** 。
+|参数|说明|
+|:--------|:----------|
+|*NumChars* |可选。 **长整型** 值，指定要从文件读取的字符数或 [StreamReadEnum](streamreadenum.md) 值。默认值为 **adReadAll** 。|
 
 ## <a name="return-value"></a>返回值
 
@@ -38,8 +37,6 @@ ms.locfileid: "25929311"
 
 如果 *NumChar* 大于流中剩余的字符数，则只返回剩余的字符，而不会为读取的字符串填充任何内容来满足 *NumChar* 所指定的长度。如果没有字符可读取，则返回空值变量。**ReadText** 不能用来反向读取。
 
-
 > [!NOTE]
-> <P><STRONG>ReadText</STRONG> 方法用于文本流（<A href="type-property-ado-stream.md">Type</A> 为 <STRONG>adTypeText</STRONG>）。对于二进制流（<STRONG>Type</STRONG> 为 <STRONG>adTypeBinary</STRONG>），请使用 <A href="read-method-ado.md">Read</A>。</P>
-
+> **ReadText** 方法用于文本流（[Type](type-property-ado-stream.md) 为 **adTypeText**）。对于二进制流（**Type** 为 **adTypeBinary**），请使用 [Read](read-method-ado.md)。
 

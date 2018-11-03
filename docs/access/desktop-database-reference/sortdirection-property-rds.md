@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249106(v=office.15)
 ms:contentKeyID: 48544119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aef8b658bbe16c7b56c97900edb5a9c6bf1e8a0c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0db4bd5661bc32cb6f9ce8191dd4ac5bad7eff4c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929641"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950109"
 ---
 # <a name="sortdirection-property-rds"></a>SortDirection 属性 (RDS)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 指示排序顺序是升序还是降序。
 
@@ -27,13 +25,10 @@ ms.locfileid: "25929641"
 
 ## <a name="parameters"></a>参数
 
-  - *DataControl*
-
-  - 一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
-
-  - *Value*
-
-  - 一个 **Boolean** 值，如果设置为 **True** ，则指示升序排序。 **False** 指示降序排序。
+|参数|说明|
+|:--------|:----------|
+|*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
+|*Value* |一个 **Boolean** 值，如果设置为 **True** ，则指示升序排序。 **False** 指示降序排序。|
 
 ## <a name="remarks"></a>备注
 

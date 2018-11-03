@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 062a4a319073ccf8f2810205973c11a845e2cc6f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 492602d7150f3080df329d30a38e3af51755cf0f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925230"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949500"
 ---
 # <a name="server-property-rds"></a>Server 属性 (RDS)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -42,17 +41,11 @@ ms.locfileid: "25925230"
 
 ## <a name="parameters"></a>参数
 
-*awebsrvr*或*computername*
-
-- 一个包含 Internet 或 Intranet 路径的 **String** 值，如果服务器位于远程计算机上，则为计算机名；如果服务器位于本地计算机上，则为空字符串。
-
-*端口*
-
-- 可选。 用于连接到的 IIS 服务器的端口。 在 Internet Explorer 中设置的端口号 （在**工具**菜单中，单击**Internet 选项**，然后选择**连接**选项卡） 或在 IIS 中。
-
-*DataControl*
-
-- 一个代表 **RDS.DataControl** 对象的对象变量。
+|参数|说明|
+|:--------|:----------|
+|*awebsrvr*或*computername* |一个包含 Internet 或 Intranet 路径的 **String** 值，如果服务器位于远程计算机上，则为计算机名；如果服务器位于本地计算机上，则为空字符串。|
+|*端口* |可选。 用于连接到的 IIS 服务器的端口。 在 Internet Explorer 中设置的端口号 （在**工具**菜单中，单击**Internet 选项**，然后选择**连接**选项卡） 或在 IIS 中。|
+|*DataControl* |一个代表 **RDS.DataControl** 对象的对象变量。|
 
 ## <a name="remarks"></a>说明
 

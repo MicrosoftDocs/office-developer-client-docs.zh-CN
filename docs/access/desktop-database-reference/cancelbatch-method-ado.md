@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249925(v=office.15)
 ms:contentKeyID: 48547463
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eefe1042404c24040aef204a1ceca0ce583847e8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 88bf83cad220056d9ee21f300e5543030e5d18cd
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926953"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950075"
 ---
 # <a name="cancelbatch-method-ado"></a>CancelBatch 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于取消挂起的批更新。
 
@@ -27,9 +25,9 @@ ms.locfileid: "25926953"
 
 ## <a name="parameters"></a>参数
 
-  - *AffectRecords*
-
-  - 可选。[AffectEnum](affectenum.md) 值，用于指示 **CancelBatch** 方法将影响的记录数。
+|参数|说明|
+|:--------|:----------|
+|*AffectRecords* |可选。[AffectEnum](affectenum.md) 值，用于指示 **CancelBatch** 方法将影响的记录数。 |
 
 ## <a name="remarks"></a>备注
 

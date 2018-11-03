@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250251(v=office.15)
 ms:contentKeyID: 48548717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73633c38bb21a794bc2137554f0341f93d9f265d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: bfcb392fc9b89f614a8372b888db794ee4a1eb06
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931041"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950177"
 ---
 # <a name="resync-method-ado"></a>Resync 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 用于从基础数据库刷新当前 [Recordset](recordset-object-ado.md) 对象中的数据或刷新 [Record](fields-collection-ado.md) 对象的 [Fields](record-object-ado.md) 集合中的数据。
 
@@ -30,17 +27,14 @@ ms.locfileid: "25931041"
 
 ## <a name="parameters"></a>参数
 
-  - *AffectRecords*
-
-  - 可选。[AffectEnum](affectenum.md) 值，用于确定 **Resync** 方法将影响的记录数。默认值为 **adAffectAll** 。对于 **Record** 对象的 **Fields** 集合的 **Resync** 方法，此值不可用。
-
-  - *ResyncValues*
-
-  - 可选。[ResyncEnum](resyncenum.md) 值，用于指定是否覆盖基础值。默认值为 **adResyncAllValues** 。
+|参数|说明|
+|:--------|:----------|
+|*AffectRecords* |可选。[AffectEnum](affectenum.md) 值，用于确定 **Resync** 方法将影响的记录数。默认值为 **adAffectAll** 。对于 **Record** 对象的 **Fields** 集合的 **Resync** 方法，此值不可用。|
+|*ResyncValues* |可选。[ResyncEnum](resyncenum.md) 值，用于指定是否覆盖基础值。默认值为 **adResyncAllValues** 。|
 
 ## <a name="remarks"></a>说明
 
-**Recordset**
+### <a name="recordset"></a>Recordset
 
 使用 **Resync** 方法可以用基础数据库重新同步当前 **Recordset** 中的记录。如果使用的是静态或仅向前型游标，但希望查看基础数据库中的任何更改，该方法将很有帮助。
 
@@ -52,7 +46,7 @@ ms.locfileid: "25931041"
 
 如果设置了 [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) 和 [Resync Command](resync-command-property-dynamic-ado.md) 动态属性，且 **Recordset** 是对多个表执行 JOIN 操作的结果，那么 **Resync** 方法将仅对在 **Unique Table** 属性中命名的表执行 **Resync Command** 属性中给定的命令。
 
-**Fields**
+### <a name="fields"></a>字段
 
 **Resync** 方法可用于用基础数据源重新同步 **Record** 对象的 **Fields** 集合的值。 [Count](count-property-ado.md) 属性不受此方法的影响。
 

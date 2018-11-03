@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc0f12e05e65dd24b73dfcf5702fbe09169ba397
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944834"
+ms.locfileid: "25949822"
 ---
 # <a name="open-method-ado-stream"></a>Open 方法（ADO 流）
 
@@ -27,25 +27,13 @@ ms.locfileid: "25944834"
 
 ## <a name="parameters"></a>参数
 
-  - *Source*
-
-  - 可选。 **变量型** 值，用于指定 **Stream** 的数据源。 *源*可能包含指向已知树结构中，如电子邮件或文件系统中的现有节点的绝对 URL 字符串。 应使用 URL 关键字指定 URL ("URL =*方案*://*服务器*/*文件夹*")。 另外， *Source*可以包含对打开与**记录**相关联的默认流已打开[Record](record-object-ado.md)对象的引用。 如果未指定*源*，**流**实例化和打开，默认情况下与没有基础源关联。 有关 URL 架构及其关联提供程序的详细信息，请参阅 [绝对 URL 和相对 URL](absolute-and-relative-urls.md)。
-
-  - *Mode*
-
-  - 可选。 指定产生的**Stream**的访问模式[ConnectModeEnum](connectmodeenum.md)值 (例如，读/写或只读)。 默认值为**adModeUnknown**。 请参阅有关访问模式的详细信息的[Mode](mode-property-ado.md)属性。 如果未指定*模式*，它被继承的源对象。 例如，如果**记录**的源在只读模式打开，**流**将还打开只读模式中默认情况下。
-
-  - *OpenOptions*
-
-  - 可选。[StreamOpenOptionsEnum](streamopenoptionsenum.md) 值。默认值为 **adOpenStreamUnspecified** 。
-
-  - *UserName*
-
-  - 可选。包含用户标识的 **字符串型** 值，如果需要，将访问 **Stream** 对象。
-
-  - *Password*
-
-  - 可选。包含密码的 **字符串型** 值，如果需要，将访问 **Stream** 对象。
+|参数|说明|
+|:--------|:----------|
+|*Source* |可选。 **变量型** 值，用于指定 **Stream** 的数据源。 *源*可能包含指向已知树结构中，如电子邮件或文件系统中的现有节点的绝对 URL 字符串。 应使用 URL 关键字指定 URL ("URL =*方案*://*服务器*/*文件夹*")。 另外， *Source*可以包含对打开与**记录**相关联的默认流已打开[Record](record-object-ado.md)对象的引用。 如果未指定*源*，**流**实例化和打开，默认情况下与没有基础源关联。 有关 URL 方案和其关联的提供程序的详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。|
+|*Mode* |可选。 指定产生的**Stream**的访问模式[ConnectModeEnum](connectmodeenum.md)值 (例如，读/写或只读)。 默认值为**adModeUnknown**。 请参阅有关访问模式的详细信息的[Mode](mode-property-ado.md)属性。 如果未指定*模式*，它被继承的源对象。 例如，如果**记录**的源在只读模式打开，**流**将还打开只读模式中默认情况下。|
+|*OpenOptions* |可选。[StreamOpenOptionsEnum](streamopenoptionsenum.md) 值。默认值为 **adOpenStreamUnspecified** 。|
+|*UserName* |可选。包含用户标识的 **字符串型** 值，如果需要，将访问 **Stream** 对象。|
+|*Password* |可选。包含密码的 **字符串型** 值，如果需要，将访问 **Stream** 对象。|
 
 ## <a name="remarks"></a>备注
 

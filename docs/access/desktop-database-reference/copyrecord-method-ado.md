@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f25d3f7cb576a9fb8ddf79a887bb3c795144682
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 161cfec0e8450ef7e80c47bc8fb1b8304790e7c5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919029"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949906"
 ---
 # <a name="copyrecord-method-ado"></a>CopyRecord 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,29 +25,14 @@ ms.locfileid: "25919029"
 
 ## <a name="parameters"></a>参数
 
-  - *Source*
-
-  - 可选。 **字符串型** 值，包含用于指定要复制的实体（如文件或目录）的 URL。 如果*源*被省略，或指定为空字符串，将复制的文件或当前[Record](record-object-ado.md)所表示的目录。
-
-  - *Destination*
-
-  - 可选。 一个**字符串**值，包含指定将在其中复制*源*的位置的 URL。
-
-  - *UserName*
-
-  - 可选。包含用户 ID 的**字符串型**值，如果需要，将授予访问 *Destination* 的权限。
-
-  - *Password*
-
-  - 可选。包含密码的**字符串型**值，如果需要，将验证 *UserName*。
-
-  - *Options*
-
-  - 可选。[CopyRecordOptionsEnum](copyrecordoptionsenum.md) 值，其默认值为 **adCopyUnspecified** 。指定该方法的行为。
-
-  - *Async*
-
-  - 可选。一个 **Boolean** 值，为 **True** 时，指定此操作应为异步。
+|参数|说明|
+|:--------|:----------|
+|*Source* |可选。 **字符串型** 值，包含用于指定要复制的实体（如文件或目录）的 URL。 如果*源*被省略，或指定为空字符串，将复制的文件或当前[Record](record-object-ado.md)所表示的目录。|
+|*Destination* |可选。 一个**字符串**值，包含指定将在其中复制*源*的位置的 URL。|
+|*UserName* |可选。包含用户 ID 的**字符串型**值，如果需要，将授予访问 *Destination* 的权限。|
+|*Password* |可选。包含密码的**字符串型**值，如果需要，将验证 *UserName*。|
+|*Options* |可选。[CopyRecordOptionsEnum](copyrecordoptionsenum.md) 值，其默认值为 **adCopyUnspecified** 。指定该方法的行为。|
+|*Async* |可选。一个 **Boolean** 值，为 **True** 时，指定此操作应为异步。|
 
 ## <a name="return-value"></a>返回值
 
@@ -62,11 +46,8 @@ ms.locfileid: "25919029"
 
 如果*Destination*标识现有实体 （如文件或目录），除非指定了**adCopyOverWrite** ，此方法将失败。
 
-
 > [!IMPORTANT]
 > [!重要信息] 应谨慎使用 **adCopyOverWrite** 选项。 例如，将文件复制到目录时指定此选项将*删除*目录和替换该文件。
-
-
 
 
 > [!NOTE]

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
 ms:contentKeyID: 48546357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cdbf9bc7ab29b98c7d1b96700adccaa17275d698
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 2bcee0de272a14825f978abb1f6dd2834a998f86
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946550"
+ms.locfileid: "25949332"
 ---
 # <a name="read-method-ado"></a>Read 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,9 +25,9 @@ ms.locfileid: "25946550"
 
 ## <a name="parameters"></a>参数
 
-  - *NumBytes*
-
-  - 可选。 **长整型** 值，指定要从文件读取的字节数或 [StreamReadEnum](streamreadenum.md) 值 **adReadAll** ，后者为默认值。
+|参数|说明|
+|:--------|:----------|
+|*NumBytes* |可选。 **长整型** 值，指定要从文件读取的字节数或 [StreamReadEnum](streamreadenum.md) 值 **adReadAll** ，后者为默认值。|
 
 ## <a name="return-value"></a>返回值
 
@@ -38,8 +37,7 @@ ms.locfileid: "25946550"
 
 如果 *NumBytes* 大于 **Stream** 中剩余的字节数，则只返回剩余的字节，而不会为读取的数据填充任何内容来匹配 *NumBytes* 所指定的长度。如果没有字节可读取，则返回空值变量。**Read** 不能用来反向读取。
 
-
 > [!NOTE]
-> <P><EM>NumBytes</EM> 始终会计量字节数。对于 <STRONG>Stream</STRONG> 对象（<A href="type-property-ado-stream.md">Type</A> 为 <STRONG>adTypeText</STRONG>），请使用 <A href="readtext-method-ado.md">ReadText</A>。</P>
+> *NumBytes* 始终会计量字节数。对于 **Stream** 对象（[Type](type-property-ado-stream.md) 为 **adTypeText**），请使用 [ReadText](readtext-method-ado.md)。
 
 

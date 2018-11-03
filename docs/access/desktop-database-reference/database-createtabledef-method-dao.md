@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 59e5cc34eb6325b6151ab053f9c870a999bd94aa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8a5e220903a7404689b7fb4088cf10164333d67e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927891"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950039"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25927891"
 
 *表达式*一个代表**Database**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ ms.locfileid: "25927891"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于对新的 <strong>TableDef</strong> 对象进行唯一命名。有关有效 <strong>TableDef</strong> 名称的详细信息，请参阅 <strong><a href="tabledef-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributes</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个常量或常量组合，指示新的 <strong>TableDef</strong> 对象的一个或多个特征。有关详细信息，请参阅 <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> 属性。</p></td>
 </tr>
 <tr class="odd">
-<td><p>SourceTableName</p></td>
+<td><p><em>SourceTableName</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含作为数据原始来源的外部数据库中的表名。source 字符串成为新的 <strong>TableDef</strong> 对象的 <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> 属性设置。</p></td>
 </tr>
 <tr class="even">
-<td><p>在浏览器中</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含有关打开数据库（在传递查询或链接表中使用的数据库）的源的信息。有关有效的连接字符串的详细信息，请参阅 <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> 属性。</p></td>
@@ -75,7 +75,7 @@ ms.locfileid: "25927891"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 TableDef
 

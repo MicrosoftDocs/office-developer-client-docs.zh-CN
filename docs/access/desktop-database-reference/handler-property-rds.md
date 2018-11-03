@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb9444091611fbd051da9fa649b5d3efdb92ee6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 98aeb3a56203fd5adbeb5b58a1298a7b1df98439
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923579"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950130"
 ---
 # <a name="handler-property-rds"></a>Handler 属性 (RDS)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 指示扩展 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 功能的服务器端自定义程序（处理程序）的名称和该*处理程序*使用的任何参数。
 
@@ -27,13 +25,10 @@ ms.locfileid: "25923579"
 
 ## <a name="parameters"></a>参数
 
-  - *DataControl*
-
-  - 一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。
-
-  - *String*
-
-  - 一个**字符串**值，包含处理程序和任何参数，均由 （例如，"handlerName，parm1，parm2，...，parm *N"*） 的逗号分隔的名称。
+|参数|说明|
+|:--------|:----------|
+|*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
+|*String* |一个**字符串**值，包含处理程序和任何参数，均由 （例如，"handlerName，parm1，parm2，...，parm *N"*） 的逗号分隔的名称。|
 
 ## <a name="remarks"></a>备注
 

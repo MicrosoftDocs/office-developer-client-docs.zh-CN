@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 846d1c0f73ba4a17f166fffc7c1bb4682ad31d49
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a204f6e86a1c50be49400430f53dd99468668a9e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921164"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949997"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于从提供程序获取数据库架构信息。
 
@@ -31,17 +29,11 @@ ms.locfileid: "25921164"
 
 ## <a name="parameters"></a>参数
 
-  - *QueryType*
-
-  - 任何 [SchemaEnum](schemaenum.md) 值，表示要运行的架构查询类型。
-
-  - *Criteria*
-
-  - 可选。 每个*QueryType*选项，如**SchemaEnum**中列出的查询约束数组。
-
-  - *SchemaID*
-
-  - 提供程序架构查询的 GUID 不是由 OLE DB 规范定义的。 此参数是必需的如果*QueryType*设置为**adSchemaProviderSpecific**;否则，它将不使用。
+|参数|说明|
+|:--------|:----------|
+|*QueryType* |任何 [SchemaEnum](schemaenum.md) 值，表示要运行的架构查询类型。|
+|*Criteria* |可选。 每个*QueryType*选项，如**SchemaEnum**中列出的查询约束数组。|
+|*SchemaID* |提供程序架构查询的 GUID 不是由 OLE DB 规范定义的。 此参数是必需的如果*QueryType*设置为**adSchemaProviderSpecific**;否则，它将不使用。|
 
 ## <a name="remarks"></a>备注
 

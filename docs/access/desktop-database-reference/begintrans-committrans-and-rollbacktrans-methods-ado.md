@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: f6e797865889bcf52c6f13e4411e945a72b978e8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945920"
+ms.locfileid: "25949990"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans、CommitTrans 和 RollbackTrans 方法 (ADO)
 
@@ -41,16 +41,16 @@ ms.locfileid: "25945920"
 
 ## <a name="parameters"></a>参数
 
-- *object*
-
-  - **Connection** 对象。
+|参数|说明|
+|:--------|:----------|
+|*object* |**Connection** 对象。|
 
 ### <a name="connection"></a>Connection
 
 如果要将对源数据所做的一系更改列作为一个整体进行保存或取消，那么可以对 **Connection** 对象使用这些方法。例如，若要在帐户之间转账，那么可以从一个帐户中减去该笔金额，并在另一个帐户中增加相同的金额。如果其中任意一个更新失败，那么这两个帐户之间将不再平衡。若在打开的事务中进行这些更改，即可确保所有更改全部生效或全都无效。
 
 > [!NOTE]
-> 并非所有的提供程序都支持事务。请确认提供程序定义的属性“**Transaction DDL**”出现在 **Connection** 对象的 [Properties](properties-collection-ado.md) 集合中，这表示提供程序支持事务。如果提供程序不支持事务，则调用其中的任一方法将返回错误。
+> [!注释] 并非所有的提供程序都支持事务。 验证提供程序定义的属性**事务 DDL**显示在**Connection**对象的[Properties](properties-collection-ado.md)集合，指示提供程序支持事务。 如果提供程序不支持事务，则调用其中的任一方法将返回错误。
 
 调用 **BeginTrans** 方法之后，提供程序将不再即时提交所做的更改，直至调用 **CommitTrans** 或 **RollbackTrans** 结束事务。
 

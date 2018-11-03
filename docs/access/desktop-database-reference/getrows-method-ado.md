@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b472f8e2cb7d95a3aa79194e7704a877864c1339
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 853f971f68bb0ec4069ba58e04b7cf9d231c6467
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920275"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949857"
 ---
 # <a name="getrows-method-ado"></a>GetRows 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于将 [Recordset](recordset-object-ado.md) 对象的多个记录检索到数组中。
 
@@ -31,17 +29,11 @@ ms.locfileid: "25920275"
 
 ## <a name="parameters"></a>参数
 
-  - *Rows*
-
-  - 可选。[GetRowsOptionEnum](getrowsoptionenum.md) 值，指示要检索的记录数。默认值为 **adGetRowsRest** 。
-
-  - *Start*
-
-  - 可选。 **字符串型** 值或 **变量** ，变量计算得出的值为应从该处开始 **GetRows** 操作的记录的书签。也可以使用 [BookmarkEnum](bookmarkenum.md) 值。
-
-  - *Fields*
-
-  - 可选。 **变量** ，代表单个字段名或序号位置，或一个含一些字段名或序号位置编号的数组。ADO 仅返回这些字段中的数据。
+|参数|说明|
+|:--------|:----------|
+|*Rows* |可选。[GetRowsOptionEnum](getrowsoptionenum.md) 值，指示要检索的记录数。默认值为 **adGetRowsRest** 。|
+|*Start* |可选。 **字符串型** 值或 **变量** ，变量计算得出的值为应从该处开始 **GetRows** 操作的记录的书签。也可以使用 [BookmarkEnum](bookmarkenum.md) 值。|
+|*Fields* |可选。 **变量** ，代表单个字段名或序号位置，或一个含一些字段名或序号位置编号的数组。ADO 仅返回这些字段中的数据。|
 
 ## <a name="remarks"></a>备注
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
 ms:contentKeyID: 48548893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c0a62618eef0a829db84de050aa07c2c645636e5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7501f7607dbee558a67dd0e11d7f2498874f8870
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929432"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950228"
 ---
 # <a name="update-method-ado"></a>Update 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -28,27 +27,24 @@ ms.locfileid: "25929432"
 
 ## <a name="parameters"></a>参数
 
-  - *Fields*
-
-  - 可选。一个表示单个名称的 **Variant** ，或表示要修改的字段的名称或序号位置的 **Variant** 数组。
-
-  - *Values*
-
-  - 可选。一个表示单个名称的 **Variant** ，或表示新记录中字段值的 **Variant** 数组。
+|参数|说明|
+|:--------|:----------|
+|*Fields* |可选。一个表示单个名称的 **Variant** ，或表示要修改的字段的名称或序号位置的 **Variant** 数组。|
+|*Values* |可选。一个表示单个名称的 **Variant** ，或表示新记录中字段值的 **Variant** 数组。|
 
 ## <a name="remarks"></a>备注
 
-**Recordset**
+### <a name="recordset"></a>Recordset
 
 使用 **Update** 方法可以保存自调用 **AddNew** 方法或更改现有记录中的任何字段值之后对 [Recordset](addnew-method-ado.md) 对象的当前记录所做的任何更改。 **Recordset** 对象必须支持更新。
 
 若要设置字段值，请执行下列操作之一：
 
-  - 将值赋给 [Field](field-object-ado.md) 对象的 [Value](value-property-ado.md) 属性并调用 **Update** 方法。
+- 将值赋给 [Field](field-object-ado.md) 对象的 [Value](value-property-ado.md) 属性并调用 **Update** 方法。
 
-  - 调用 **Update** 时将字段名和值作为参数传递。
+- 调用 **Update** 时将字段名和值作为参数传递。
 
-  - 调用 **Update** 时传递字段名数组和值数组。
+- 调用 **Update** 时传递字段名数组和值数组。
 
 在使用字段和值的数组时，两个数组中的元素个数必须相同。同时，字段名的次序必须与字段值的次序匹配。如果字段和值的个数和次序不匹配，则会发生错误。
 
@@ -58,7 +54,7 @@ ms.locfileid: "25929432"
 
 调用 **Update** 方法之后，当前记录仍然是当前记录。
 
-**Record**
+### <a name="record"></a>Record
 
 可以使用 **Update** 方法完成在 [Record](fields-collection-ado.md) 对象的 **Fields** 集合中添加、删除或更新字段的操作。
 

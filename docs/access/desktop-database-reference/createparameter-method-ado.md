@@ -10,18 +10,16 @@ f1_keywords:
 - ado210.chm1231042
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88a5d62cc94aa707c2e90467d74dc07d80a0af02
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d3b36d04345df4c1d556d0607c70b3425f0047e6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928941"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949955"
 ---
 # <a name="createparameter-method-ado"></a>CreateParameter 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于创建具有指定属性的新 [Parameter](parameter-object-ado.md) 对象。
 
@@ -35,25 +33,13 @@ ms.locfileid: "25928941"
 
 ## <a name="parameters"></a>参数
 
-  - *Name*
-
-  - 可选。 **字符串型** 值，包含 **Parameter** 对象的名称。
-
-  - *Type*
-
-  - 可选。[DataTypeEnum](datatypeenum.md) 值，指定 **Parameter** 对象的数据类型。
-
-  - *Direction*
-
-  - 可选。[ParameterDirectionEnum](parameterdirectionenum.md) 值，指定 **Parameter** 对象的类型。
-
-  - *Size*
-
-  - 可选。 **长整型** 值，指定参数值的最大长度（字符或字节）。
-
-  - *Value*
-
-  - 可选。 **变量型** 值，指定 **Parameter** 对象的值。
+|参数|说明|
+|:--------|:----------|
+|*Name* |可选。 **字符串型** 值，包含 **Parameter** 对象的名称。|
+|*Type* |可选。[DataTypeEnum](datatypeenum.md) 值，指定 **Parameter** 对象的数据类型。|
+|*Direction* |可选。[ParameterDirectionEnum](parameterdirectionenum.md) 值，指定 **Parameter** 对象的类型。|
+|*Size* |可选。 **长整型** 值，指定参数值的最大长度（字符或字节）。|
+|*Value* |可选。 **变量型** 值，指定 **Parameter** 对象的值。|
 
 ## <a name="remarks"></a>备注
 

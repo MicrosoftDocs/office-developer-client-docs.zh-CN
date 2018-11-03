@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 310f6e8961faed0a60b686bc9aeb9e7f8bcf5deb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1c71d92af9c833fd532aed2d436cb186412fe0e8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926890"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950018"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25926890"
 
 *表达式*代表**Connection**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,52 +44,37 @@ ms.locfileid: "25926890"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>新的 <strong>Recordset</strong> 的记录源。该源可能是表名、查询名或返回记录的 SQL 语句。对于 Microsoft Access 数据库引擎数据库中的表类型 <strong>Recordset</strong> 对象，该源只能是表名。  </p></td>
 </tr>
 <tr class="even">
-<td><p>类型</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p>
-
-> [!NOTE]
-> 如果您在 Microsoft Access 工作区中打开了一个 **Recordset** 但未指定类型，**OpenRecordset** 将创建一个表类型 **Recordset**（如果可能）。如果您指定一个链接表或查询，**OpenRecordset** 将创建一个 dynaset 类型 **Recordset**。
-
-
+<td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p><p><strong>注意</strong>： 如果在 Microsoft Access 工作区中打开<strong>Recordset</strong>时未指定类型， <strong>OpenRecordset</strong>创建表类型<strong>Recordset</strong>，如果可能。 如果您指定的链接的表或查询， <strong>OpenRecordset</strong>创建动态集类型<strong>Recordset</strong>。</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p>选项</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p>
-
-> [!NOTE]
-> 常量**dbConsistent**和**dbInconsistent**是互斥的并且在同时使用将导致出错。 提供 lockedits 实参选项使用**dbReadOnly**常量时还会导致错误。
-
-
+<td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p><p><strong>注意</strong>： 常量<strong>dbConsistent</strong>和<strong>dbInconsistent</strong>是互斥的并且在同时使用将导致出错。 提供 lockedits 实参选项使用<strong>dbReadOnly</strong>常量时还会导致错误。</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>LockEdit</p></td>
+<td><p><em>LockEdit</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p>
-
-> [!NOTE]
-> 您可以使用**dbReadOnly** options 参数或 lockedits 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。
-
-
+<td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p><p><strong>注意</strong>： 您可以使用<strong>dbReadOnly</strong> options 参数或 lockedits 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Recordset
 
@@ -103,7 +87,6 @@ Recordset
 对一个 ODBC 数据源打开多个 **Recordset** 可能会失败，因为连接正被 **OpenRecordset** 调用占用。解决此问题的一种方法是在打开 **Recordset** 后立即使用 **MoveLast** 方法，以完全填充 **Recordset**。
 
 使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Recordset** 会自动从 **Recordsets** 集合中将其删除。
-
 
 > [!NOTE]
 > 如果*源*是指的 SQL 语句组成非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice =125,50)，当您尝试打开**Recordset**时就会出错。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。

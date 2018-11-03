@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d83fea9f8c4e464c0df5f783ca2ab29a8a8e588b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 308d388b023b2697d1e7af52b47218eeb3d023f2
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926337"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949528"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 

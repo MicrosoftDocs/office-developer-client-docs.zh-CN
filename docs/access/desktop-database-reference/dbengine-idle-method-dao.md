@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d750bd39835a8bb69d195663b72254d3f53cd635
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 68c0e6d246370f9c4f0c241195fb19c241ca49e5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926078"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949717"
 ---
 # <a name="dbengineidle-method-dao"></a>DBEngine.Idle 方法 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 挂起数据处理，使 Microsoft Access 数据库引擎完成任何待定任务，例如内存优化或页面超时（仅适用于 Microsoft Access 工作区）。
 
@@ -31,7 +29,7 @@ ms.locfileid: "25926078"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -50,7 +48,7 @@ ms.locfileid: "25926078"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>操作</p></td>
+<td><p><em>操作</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>指定要执行的操作。可以是 <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> 常量之一。</p></td>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
 ms:contentKeyID: 48545767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73e6240b92a34a6ff1d215cd3211a844f10fe766
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e4afbb31fb95aeea66d9cf93624b95c8796e2d25
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868306"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949360"
 ---
 # <a name="item-property-ado"></a>Item 属性 (ADO)
 
@@ -29,9 +29,9 @@ ms.locfileid: "25868306"
 
 ## <a name="parameters"></a>参数
 
-- *Index*
-
-- 一个 **Variant** 表达式，其值为集合中对象的名称或序号。
+|参数|说明|
+|:--------|:----------|
+|*Index* |一个 **Variant** 表达式，其值为集合中对象的名称或序号。|
 
 ## <a name="remarks"></a>备注
 

@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5aab77571b0b12c6b26cd15af386c9ee89162681
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 296232b05041c1e059b5134fdde11fceac4e3d43
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930012"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949892"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
  
-
 用于将由 [Record](record-object-ado.md) 表示的实体移动到其他位置。
 
 ## <a name="syntax"></a>语法
@@ -27,29 +25,14 @@ ms.locfileid: "25930012"
 
 ## <a name="parameters"></a>参数
 
-  - *Source*
-
-  - 可选。**字符串型**值，包含标识要移动的 **Record** 的 URL。如果忽略 *Source* 或者指定一个空字符串，将删除由该 **Record** 表示的对象。例如，如果 **Record** 代表文件，则将文件的内容移动到由 *Destination* 指定的位置。
-
-  - *Destination*
-
-  - 可选。 一个**字符串**值，包含指定将移*源*到的位置的 URL。
-
-  - *UserName*
-
-  - 可选。包含用户 ID 的**字符串型**值，如果需要，将授予访问 *Destination* 的权限。
-
-  - *Password*
-
-  - 可选。包含密码的**字符串型**值，如果需要，将通过该密码验证 *UserName*。
-
-  - *Options*
-
-  - 可选。[MoveRecordOptionsEnum](moverecordoptionsenum.md) 值，其默认值为 **adMoveUnspecified** 。指定该方法的行为。
-
-  - *Async*
-
-  - 可选。 **Boolean** 值，为 **True** 时，指定此操作应为异步。
+|参数|说明|
+|:--------|:----------|
+|*Source* |可选。**字符串型**值，包含标识要移动的 **Record** 的 URL。如果忽略 *Source* 或者指定一个空字符串，将删除由该 **Record** 表示的对象。例如，如果 **Record** 代表文件，则将文件的内容移动到由 *Destination* 指定的位置。|
+|*Destination* |可选。 一个**字符串**值，包含指定将移*源*到的位置的 URL。|
+|*UserName* |可选。包含用户 ID 的**字符串型**值，如果需要，将授予访问 *Destination* 的权限。|
+|*Password* |可选。包含密码的**字符串型**值，如果需要，将通过该密码验证 *UserName*。|
+|*Options* |可选。[MoveRecordOptionsEnum](moverecordoptionsenum.md) 值，其默认值为 **adMoveUnspecified** 。指定该方法的行为。|
+|*Async* |可选。 一个**布尔**值，当**True**，指定此操作应异步。|
 
 ## <a name="return-value"></a>返回值
 

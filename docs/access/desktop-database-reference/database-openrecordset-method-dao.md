@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab969f2e26751a70a0f9ac9daf2ca17bcaa103c5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f241d8b6a5b13d68ed58b984ef84bfdd942a3891
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925973"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949962"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25925973"
 
 *表达式*一个代表**Database**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,52 +48,37 @@ ms.locfileid: "25925973"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>新的 <strong>Recordset</strong> 的记录源。该源可能是表名、查询名或返回记录的 SQL 语句。对于 Microsoft Access 数据库引擎数据库中的表类型 <strong>Recordset</strong> 对象，该源只能是表名。  </p></td>
 </tr>
 <tr class="even">
-<td><p>类型</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p>
-
-> [!NOTE]
-> 如果您在 Microsoft Access 工作区中打开了一个 **Recordset** 但未指定类型，**OpenRecordset** 将创建一个表类型 **Recordset**（如果可能）。如果您指定一个链接表或查询，**OpenRecordset** 将创建一个 dynaset 类型 **Recordset**。
-
-
+<td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p><p><strong>注意</strong>： 如果在 Microsoft Access 工作区中打开<strong>Recordset</strong>时未指定类型， <strong>OpenRecordset</strong>创建表类型<strong>Recordset</strong>，如果可能。 如果您指定的链接的表或查询， <strong>OpenRecordset</strong>创建动态集类型<strong>Recordset</strong>。</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p>选项</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p>
-
-> [!NOTE]
-> 常量 **dbConsistent** 和 **dbInconsistent** 相互排斥，同时使用两者会产生错误。当 Options 使用 **dbReadOnly** 常量时，若提供一个 LockEdit 参数，也会产生错误。
-
-
+<td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p><p><strong>注意</strong>： 常量<strong>dbConsistent</strong>和<strong>dbInconsistent</strong>是互斥的并且在同时使用将导致出错。 提供 LockEdit 实参，当选项使用<strong>dbReadOnly</strong>常量还会导致错误。</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>LockEdit</p></td>
+<td><p><em>LockEdit</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p>
-
-> [!NOTE]
-> 您可以在 Options 参数或 LockedEdit 参数中使用 **dbReadOnly**，但不能同时在两个参数中使用。如果您将其同时用于两个参数，将发生运行时错误。
-
-
+<td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p><p><strong>注意</strong>： 您可以使用<strong>dbReadOnly</strong> Options 参数或 LockedEdit 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Recordset
 

@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d08b596afb24fff430c6c662a557da1880addefa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f622ee94fa6e37c2f618b038aea746791e58e9b8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921178"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950077"
 ---
 # <a name="createobject-method-rds"></a>CreateObject 方法 (RDS)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 用于创建目标业务对象的代理，并返回指向该代理的指针。代理打包数据并将其封送到服务器端存根，用于与业务对象进行通信，以便通过 Internet 发送请求和数据。对于进程内组件对象，不使用代理，而仅提供指向对象的指针。
 
@@ -59,21 +57,12 @@ ms.locfileid: "25921178"
 
 ## <a name="parameters"></a>参数
 
-  - *Object*
-
-  - 一个对象变量，其值为 *ProgID* 中指定类型的对象。
-
-  - *DataSpace*
-
-  - 对象变量，代表用于创建新对象实例的 [RDS.DataSpace](dataspace-object-rds.md) 对象。
-
-  - *ProgID*
-
-  - 一个包含程序标识符的 **String** 值，指定用于实现应用程序的业务规则的服务器端业务对象。
-
-  - *awebsrvr*或*computername*
-
-  - 一个**字符串**值，代表标识在其中创建服务器业务对象的实例的 Internet 信息服务 (IIS) web 服务器的 URL。
+|参数|说明|
+|:--------|:----------|
+|*对象* |一个对象变量，其值为 *ProgID* 中指定类型的对象。|
+|*DataSpace* |对象变量，代表用于创建新对象实例的 [RDS.DataSpace](dataspace-object-rds.md) 对象。|
+|*ProgID* |一个包含程序标识符的 **String** 值，指定用于实现应用程序的业务规则的服务器端业务对象。|
+|*awebsrvr*或*computername* |一个**字符串**值，代表标识在其中创建服务器业务对象的实例的 Internet 信息服务 (IIS) web 服务器的 URL。|
 
 ## <a name="remarks"></a>说明
 

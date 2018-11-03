@@ -1,24 +1,22 @@
 ---
-title: Open 方法 (ADO Connection)
-TOCTitle: Open Method (ADO Connection)
+title: Open 方法（ADO 连接）
+TOCTitle: Open method (ADO Connection)
 ms:assetid: 1adaa17d-dfe1-22e0-3415-720516d138f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248951(v=office.15)
 ms:contentKeyID: 48543525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bd698f7ea6c05d81e07969ae8031049804b7706
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 66a62128a8ad8828c501cdaf899448edd9f1d37f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889467"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949871"
 ---
-# <a name="open-method-ado-connection"></a>Open 方法 (ADO Connection)
-
+# <a name="open-method-ado-connection"></a>Open 方法（ADO 连接）
 
 **适用于**： Access 2013、 Office 2013
  
-
 用于打开与数据源的连接。
 
 ## <a name="syntax"></a>语法
@@ -27,21 +25,12 @@ ms.locfileid: "25889467"
 
 ## <a name="parameters"></a>参数
 
-  - *ConnectionString*
-
-  - 可选。 **字符串** 值，包含连接信息。有关有效设置的详细信息，请参阅 [ConnectionString](connectionstring-property-ado.md) 属性。
-
-  - *用户 Id*
-
-  - 可选。 **字符串** 值，包含建立连接时所使用的用户名。
-
-  - *Password*
-
-  - 可选。 **字符串** 值，包含建立连接时所使用的密码。
-
-  - *Options*
-
-  - 可选。一个 [ConnectOptionEnum](connectoptionenum.md) 值，用于确定此方法应在建立连接之后（同步）还是之前（异步）返回。
+|参数|说明|
+|:--------|:----------|
+|*ConnectionString* |可选。 **字符串** 值，包含连接信息。有关有效设置的详细信息，请参阅 [ConnectionString](connectionstring-property-ado.md) 属性。|
+|*用户 Id* |可选。 **字符串** 值，包含建立连接时所使用的用户名。|
+|*Password* |可选。 **字符串** 值，包含建立连接时所使用的密码。|
+|*Options* |可选。一个 [ConnectOptionEnum](connectoptionenum.md) 值，用于确定此方法应在建立连接之后（同步）还是之前（异步）返回。|
 
 ## <a name="remarks"></a>说明
 
@@ -54,7 +43,6 @@ ms.locfileid: "25889467"
 结束对打开的 **Connection** 执行的操作之后，可使用 [Close](close-method-ado.md) 方法释放任何关联的系统资源。关闭对象不会将其从内存中删除，您可以更改其属性设置，稍后使用 **Open** 方法再次打开它。若要从内存中完全消除对象，请将对象变量设置为 *Nothing*。
 
 **远程数据服务用法**当客户端**Connection**对象上使用， **Open**方法实际上不会建立连接到服务器的直到在**Connection**对象上打开[Recordset](recordset-object-ado.md) 。
-
 
 > [!NOTE]
 > [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。

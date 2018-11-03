@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4bbc44dbb9cdfeaac0904ed5296db206016211d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d7548a31518f225c15dbf0e9a6de2b82c66c72af
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922760"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950137"
 ---
 # <a name="refresh-method-ado"></a>Refresh 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -36,17 +35,14 @@ ms.locfileid: "25922760"
 
 如果在调用 **Refresh** 方法之前访问 **Parameters** 集合，则 ADO 将为您自动调用方法并填充集合。
 
-
 > [!NOTE]
-> <P>[!注释] 如果使用 <STRONG>Refresh</STRONG> 方法获取提供程序的参数信息，且该方法返回一个或多个可变长度数据类型 <A href="parameter-object-ado.md">Parameter</A> 对象，那么 ADO 会根据参数的最大潜在大小为参数分配内存，这将在执行过程中引发错误。在调用 <A href="size-property-ado.md">Execute</A> 方法以防止出错之前，应当显式设置这些参数的 <A href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Size</A> 属性。</P>
+> [!注释] 如果使用 **Refresh** 方法获取提供程序的参数信息，且该方法返回一个或多个可变长度数据类型 [Parameter](parameter-object-ado.md) 对象，那么 ADO 会根据参数的最大潜在大小为参数分配内存，这将在执行过程中引发错误。在调用 [Execute](size-property-ado.md) 方法以防止出错之前，应当显式设置这些参数的 [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 属性。
 
-
-
-**Fields**
+### <a name="fields"></a>字段
 
 对 **Fields** 集合使用 **Refresh** 方法没有明显的效果。若要检索基础数据库结构的更改，必须使用 [Requery](requery-method-ado.md) 方法或 [MoveFirst](recordset-object-ado.md) 方法（如果 [Recordset](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 对象不支持书签）。
 
-**Properties**
+### <a name="properties"></a>属性
 
 如果对某些对象的 **Properties** 集合使用 **Refresh** 方法，则会用提供程序公开的动态属性来填充该集合。除 ADO 支持的内置属性之外，这些属性提供了有关提供程序特定功能的信息。
 
