@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125779(v=office.15)
 ms:contentKeyID: 52074651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3400b391e07eef387e04e731baac2f481df81609
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c7f0585630dbabaefa43bffb889c88852351cc35
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924510"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947845"
 ---
-# <a name="containers-properties-dao"></a><span data-ttu-id="ef4b5-102">容器属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef4b5-102">Containers properties (DAO)</span></span>
+# <a name="containers-properties-dao"></a><span data-ttu-id="1abc6-102">容器属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1abc6-102">Containers properties (DAO)</span></span>
 
+<span data-ttu-id="1abc6-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1abc6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ef4b5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ef4b5-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="ef4b5-104">Containers.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef4b5-104">Containers.Count property (DAO)</span></span>](containers-count-property-dao.md)
+- [<span data-ttu-id="1abc6-104">Containers.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1abc6-104">Containers.Count property (DAO)</span></span>](containers-count-property-dao.md)
 

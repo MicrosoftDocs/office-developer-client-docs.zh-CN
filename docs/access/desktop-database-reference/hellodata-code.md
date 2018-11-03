@@ -1,22 +1,22 @@
 ---
 title: HelloData 代码 （访问桌面数据库参考 （英文）
-TOCTitle: HelloData Code
+TOCTitle: HelloData code
 ms:assetid: b413a72a-fb85-177a-2d93-27c2bde935b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249860(v=office.15)
 ms:contentKeyID: 48547213
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d13c9d32b806985586c9c09807106737483cc267
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1d7fe26cfbd20cdb0464e9c8ad4bae0ef91b0a31
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886772"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945759"
 ---
-# <a name="hellodata-code"></a><span data-ttu-id="dc78f-102">HelloData 代码</span><span class="sxs-lookup"><span data-stu-id="dc78f-102">HelloData Code</span></span>
+# <a name="hellodata-code"></a><span data-ttu-id="2813f-102">HelloData 代码</span><span class="sxs-lookup"><span data-stu-id="2813f-102">HelloData code</span></span>
 
 
-<span data-ttu-id="dc78f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc78f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2813f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2813f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef7ca4a9dabb92bc2d13bd0b589180d7d4ca2958
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b866e9cecc31c4826b0b0fb52b5b8a2524b4bb00
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871470"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946452"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="4a46a-102">Visual C++ Extensions 头</span><span class="sxs-lookup"><span data-stu-id="4a46a-102">Visual C++ Extensions Header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="6e3fa-102">Visual c + + Extensions 头</span><span class="sxs-lookup"><span data-stu-id="6e3fa-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="4a46a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a46a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6e3fa-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6e3fa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4a46a-p101">以下头 **icrsint.h** 详细描述了一个接口，客户端可以通过该接口从 **Recordset** 中检索字段，然后将这些字段赋予在从 **CADORecordBinding** 派生的类中定义的变量。必须为要访问的每个字段指定一个 ADO 绑定宏。</span><span class="sxs-lookup"><span data-stu-id="4a46a-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="6e3fa-p101">以下头 **icrsint.h** 详细描述了一个接口，客户端可以通过该接口从 **Recordset** 中检索字段，然后将这些字段赋予在从 **CADORecordBinding** 派生的类中定义的变量。必须为要访问的每个字段指定一个 ADO 绑定宏。</span><span class="sxs-lookup"><span data-stu-id="6e3fa-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  
