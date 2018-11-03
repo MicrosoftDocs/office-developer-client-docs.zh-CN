@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123876(v=office.15)
 ms:contentKeyID: 52071516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ba89e4168596e9c6c1cda6a107ac9cc55a90ec0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d6be101c82bc590768e31bdeba0bced5d5f41ee7
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925714"
+ms.locfileid: "25936446"
 ---
-# <a name="parameters-methods-dao"></a><span data-ttu-id="d5723-102">参数方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5723-102">Parameters methods (DAO)</span></span>
+# <a name="parameters-methods-dao"></a><span data-ttu-id="20f45-102">参数方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="20f45-102">Parameters methods (DAO)</span></span>
 
+<span data-ttu-id="20f45-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="20f45-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d5723-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5723-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="d5723-104">Parameters.Refresh 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5723-104">Parameters.Refresh method (DAO)</span></span>](parameters-refresh-method-dao.md)
+- [<span data-ttu-id="20f45-104">Parameters.Refresh 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="20f45-104">Parameters.Refresh method (DAO)</span></span>](parameters-refresh-method-dao.md)
 
