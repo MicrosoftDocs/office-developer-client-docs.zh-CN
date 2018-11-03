@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 90dbaae5ab803173493e5348b77b124d83f8f9d6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1b12fcf4d92bbe0949065557973efe94688a7a30
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873031"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937202"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX 语句 (Microsoft Access SQL)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25873031"
 对现有表创建一个新索引。
 
 > [!NOTE]
-> 对于 Microsoft Access 数据库引擎数据库，Microsoft Access 数据库引擎不支持使用 CREATE INDEX （除以创建一个 ODBC 链接表伪索引） 或任何数据定义语言 (DDL) 语句。 而是使用**DAO 创建**方法。 有关详细信息，请参阅"备注"部分。
+> 对于 Microsoft Access 数据库引擎数据库，Microsoft Access 数据库引擎不支持使用 CREATE INDEX （除以创建一个 ODBC 链接表伪索引） 或任何数据定义语言 (DDL) 语句。 而是使用 DAO**创建**方法。 有关详细信息，请参阅"备注"部分。
 
 ## <a name="syntax"></a>语法
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
 ms:contentKeyID: 48543768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fbde7aa9785e4e875f96569884e7f6e45743f2bb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 253be078fa6a8f5fdd4cb0c6c67fc6d5385e554c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925581"
+ms.locfileid: "25936537"
 ---
 # <a name="field2sourcetable-property-dao"></a>Field2.SourceTable 属性 (DAO)
 
@@ -70,6 +70,6 @@ ms.locfileid: "25925581"
 
 
 > [!NOTE]
-> <P>[!注释] 如果将 <STRONG>SourceTable</STRONG> 属性用于表类型 <STRONG>Recordset</STRONG> 对象的 <STRONG>Fields</STRONG> 集合中的 <STRONG>Field2</STRONG> 对象，则该属性不会返回有意义的表名。</P>
+> [!注释] 如果将 **SourceTable** 属性用于表类型 **Recordset** 对象的 **Fields** 集合中的 **Field2** 对象，则该属性不会返回有意义的表名。
 
 

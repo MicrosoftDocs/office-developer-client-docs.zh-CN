@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57acba0c3c375bd9161748d3cc6e4410c143ecfe
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ade0aa43f84bfb8088281a2d5458b157ea7658a9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888711"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937188"
 ---
 # <a name="sql-reserved-words"></a>SQL 保留字
 
@@ -25,7 +25,7 @@ ms.locfileid: "25888711"
 下表包含了 Microsoft Access 数据库引擎用于 SQL 语句的所有保留字。列表中没有全部采用大写字母的保留字也是其他应用程序的保留字。所以，这些保留字的各个帮助主题只提供一般性说明，而不是着重说明 SQL 用法。
 
 > [!NOTE]
-> <P>后面带有星号 (*) 的字是保留字，但当前在 Microsoft® Access SQL 语句的上下文中没有意义，例如，<STRONG>Level</STRONG> 和 <STRONG>TableID</STRONG>。不加下划线的保留字没有链接的解释。</P>
+> <P>后面标有星号 （*） 的单词被保留，但当前 Microsoft Access SQL 语句 （例如，<STRONG>级别</STRONG>和<STRONG>TableID</STRONG>） 的上下文中没有任何意义。 不加下划线的保留字没有链接的解释。</P>
 
 
 

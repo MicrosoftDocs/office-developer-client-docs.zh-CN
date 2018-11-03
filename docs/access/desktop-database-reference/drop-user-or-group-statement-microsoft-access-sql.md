@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 43c9d5ba4cd07e4ca388863fd79fb9b198a841af
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f9662c4f0cb691136a556faa32cb0d5a1c775268
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874102"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936831"
 ---
 # <a name="drop-user-or-group-statement-microsoft-access-sql"></a>DROP USER 或 GROUP 语句 (Microsoft Access SQL)
 
@@ -21,11 +21,11 @@ ms.locfileid: "25874102"
 
 ## <a name="syntax"></a>语法
 
-**删除一个或多个_用户_或删除一个或多个_用户_从_组_**：
+### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a>删除一个或多个用户或从组中删除一个或多个用户
 
 DROP USER*用户*\[，*用户*...\] \[从*组*\]
 
-**删除一个或多个_组_**：
+### <a name="delete-one-or-more-groups"></a>删除一个或多个组
 
 投递组*组*\[，*组*中，...\]
 

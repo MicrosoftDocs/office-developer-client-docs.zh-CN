@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57c433594a22a78615aa689cccd0b7477bb32e91
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ca75e1b21e017dfbbbc5028d06a4799a9afd50f3
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930656"
+ms.locfileid: "25936593"
 ---
 # <a name="recordset2type-property-dao"></a>Recordset2.Type 属性 (DAO)
 
@@ -53,12 +53,7 @@ ms.locfileid: "25930656"
 <tr class="even">
 <td><p><strong>dbOpenDynamic</strong></p></td>
 <td><p>动态（仅适用于 ODBCDirect 工作区）</p>
-
-> [!NOTE]
-> <P>Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</P>
-
-
-<p></p></td>
+<p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenDynaset</strong></p></td>

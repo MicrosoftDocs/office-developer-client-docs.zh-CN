@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248922(v=office.15)
 ms:contentKeyID: 48543423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be6c210ef75b6a9e96b8733d12f3aa598d158df7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4240ca118adfcc122ebe346cb60f8b9a0b6efd9e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881256"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937489"
 ---
 # <a name="securing-rds-applications"></a>保护 RDS 应用程序
 
@@ -19,7 +19,7 @@ ms.locfileid: "25881256"
 
 ## <a name="microsoft-internet-explorer-security-issues"></a>Microsoft Internet Explorer 安全问题
 
-使用 Microsoft® Internet Explorer 中新增的安全增强功能，一些 ADO 和 RDS 对象会被限制为只能在"安全"模式环境中运行。这需要您注意这些问题，包括不同区域、安全级别、限制性行为、不安全的操作和自定义安全设置。
+使用新安全增强功能添加到 Microsoft Internet Explorer，某些 ADO 和 RDS 对象被限制为仅在"安全"模式环境中运行。 这需要您注意这些问题，包括不同区域、安全级别、限制性行为、不安全的操作和自定义安全设置。
 
 有关这些问题的详细信息，请参阅 ActiveX 数据对象 (ADO) 技术文章中的"Microsoft Internet Explorer 中的 ADO 和 RDS 安全问题"。
 

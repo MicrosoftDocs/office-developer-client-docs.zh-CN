@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67bdcdbaa525039f544a7d45cb4411faeee297e8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887164"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937027"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>多维架构和数据概述
 
@@ -80,17 +80,14 @@ Hamburg, Munich, Stuttgart}
 
 位于层次结构叶级别的成员没有子级，且位于根级别的成员没有父级。所有其他成员具有至少一个父级和至少一个子级。例如，Geography 维中的层次结构树的部分遍历会产生以下父子关系：
 
-  - {所有}（的父对象）{欧洲、 北美洲}
-
-  - {北美}（的父对象）{加拿大，美国}
-
-  - {USA}（的父对象）{USA NE，美国-NW，美国 SE，美国-软件}
-
-  - {USA NW}（的父对象）{博伊西，西雅图}
+- {所有}（的父对象）{欧洲、 北美洲}
+- {北美}（的父对象）{加拿大，美国}
+- {USA}（的父对象）{USA NE，美国-NW，美国 SE，美国-软件}
+- {USA NW}（的父对象）{博伊西，西雅图}
 
 可以合并每个维的一个或多个层次结构的成员。
 
-以下示例还演示了另一个特征：Year-Week 层次结构的 Week 级别的某些成员不显示在 Year-Quarter 层次结构的任何级别中。这样，层次结构就不需要包括维的所有成员。
+此示例还演示了其他特征： 年周层次结构的周级别的某些成员不出现在任何年季度层次结构的级别。 这样，层次结构就不需要包括维的所有成员。
 
 ## <a name="understanding-multidimensional-schemas"></a>了解多维架构
 
@@ -164,5 +161,5 @@ Hamburg, Munich, Stuttgart}
 
 可以合并每个维的一个或多个层次结构的成员。
 
-以下示例还演示了另一个特征：Year-Week 层次结构的 Week 级别的某些成员不显示在 Year-Quarter 层次结构的任何级别中。这样，层次结构就不需要包括维的所有成员。
+此示例还演示了其他特征： 年周层次结构的周级别的某些成员不出现在任何年季度层次结构的级别。 这样，层次结构就不需要包括维的所有成员。
 

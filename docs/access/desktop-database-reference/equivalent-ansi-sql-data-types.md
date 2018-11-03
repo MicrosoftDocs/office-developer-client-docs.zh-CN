@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cac58601277079f6843df6ac9ac7bcae7824b18a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ed13aab8d1f6851dd05ea2d79877e34c14665a3f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869524"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937160"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>等价的 ANSI SQL 数据类型
 
 
 **适用于**： Access 2013、 Office 2013
 
-下表列出了 ANSI SQL 数据类型、它们的等价 Microsoft Access 数据库引擎 SQL 数据类型及其有效的同义词。该表还列出了等价的 Microsoft® SQL Server 数据类型。
+下表列出了 ANSI SQL 数据类型、它们的等价 Microsoft Access 数据库引擎 SQL 数据类型及其有效的同义词。 它还列出了等效 Microsoft SQL Server™ 数据类型。
 
 <table>
 <colgroup>

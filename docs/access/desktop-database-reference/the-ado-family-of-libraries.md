@@ -1,24 +1,21 @@
 ---
 title: ADO 系列库
-TOCTitle: The ADO Family of Libraries
+TOCTitle: The ADO family of libraries
 ms:assetid: 9e794509-d0a8-2e5b-02a8-65e26f059c4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
 ms:contentKeyID: 48546656
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d175308d634734b9c06a37617a16d0dfc54a3973
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e4d37ef012e6db60c4a92267c82664694ed63afe
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875565"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936509"
 ---
 # <a name="the-ado-family-of-libraries"></a>ADO 系列库
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 ADO 系列包括三个主要库：ADO（包括 RDS）、ADO MD 和 ADOX。
 

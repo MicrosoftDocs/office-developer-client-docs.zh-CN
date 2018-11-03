@@ -1,24 +1,23 @@
 ---
-title: 第 15 章：ADOX 基础知识
-TOCTitle: 'Chapter 15: ADOX Fundamentals'
+title: 第 15 章： ADOX 基础知识
+TOCTitle: 'Chapter 15: ADOX fundamentals'
 ms:assetid: 973d7579-4f34-3b31-a761-a951ab29e850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 72152a67a9846adacbc6b200a3517c7e65b9fc4c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6b410fcaa81aa847732e530bd18bc18200f04ebc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881907"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936866"
 ---
-# <a name="chapter-15-adox-fundamentals"></a>第 15 章：ADOX 基础知识
-
+# <a name="chapter-15-adox-fundamentals"></a>第 15 章： ADOX 基础知识
 
 **适用于**： Access 2013、 Office 2013
 
-数据定义语言和安全性 Microsoft® ActiveX® 数据对象扩展 (ADOX) 是对 ADO 对象以及编程模型的扩展。ADOX 包含用于架构创建和修改的对象，以及用于安全性的对象。由于这是一种基于对象的架构处理方法，因此您可以编写可用于各种数据源的代码，而无需考虑这些数据源的特有语法。
+用于数据定义语言和安全性的 Microsoft ActiveX 数据对象扩展 (ADOX) 是 ADO 对象和编程模型的扩展。ADOX 包括用于创建和修改架构以及安全性的对象。由于它基于对象来实现对架构的操控，因此您可以编写代码来处理各类数据源，而无需考虑数据源本来的语法之间的差异。
 
 ADOX 是核心 ADO 对象的配套库。它提供了用于创建、修改和删除架构对象（如表和过程）的附加对象，还提供了用于维护用户和组以及用于授予和撤消对象权限的安全对象。
 
@@ -26,21 +25,17 @@ ADOX 是核心 ADO 对象的配套库。它提供了用于创建、修改和删�
 
 Microsoft OLE DB Provider for Microsoft Jet Database Engine 完全支持 ADOX。ADOX 的某些功能可能不受支持，这取决于您的数据提供程序。有关 Microsoft OLE DB Provider for ODBC、Microsoft OLE DB Provider for Oracle 或 Microsoft SQL Server OLE DB Provider 支持的功能的更多信息，请参阅 MDAC 自述文件。
 
-本文档需要对 Microsoft® Visual Basic® 编程语言的实用知识以及对 ADO 的一般性了解。 有关 ADO 的更多信息，请参阅 [ADO 程序员指南](ado-programmer-s-guide.md)。
+本文档假定使用知识的 Microsoft Visual Basic 编程语言和 ADO 的常规知识。 有关 ADO 的详细信息，请参阅[ADO 程序员指南 》](ado-programmer-s-guide.md)。
 
 本章包括以下主题：
 
-- [ADOX 的提供程序支持](provider-support-for-adox.md)
+- [对 ADOX 的提供程序支持](provider-support-for-adox.md)
 
 有关 ADOX 的更多概述信息，请参阅下列主题：
 
 - [ADOX 对象](adox-objects.md)
-
 - [ADOX 集合](adox-collections.md)
-
 - [ADOX 属性](adox-properties.md)
-
 - [ADOX 方法](adox-methods.md)
-
 - [ADOX 示例](adox-code-examples.md)
 

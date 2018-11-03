@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09660c472a6fd799c111214dafe3266cdec9eced
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1d3bf59549a37e728d26da2e5986e852235d6f77
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926645"
+ms.locfileid: "25937447"
 ---
 # <a name="field2getchunk-method-dao"></a>Field2.GetChunk 方法 (DAO)
 
@@ -72,11 +72,8 @@ Variant
 
 如果 numbytes 大于字段中的字节数， **GetChunk**将返回字段中的实际剩余的字节数。
 
-
 > [!NOTE]
-> <P>[!注释] 对文本使用 <STRONG>Memo</STRONG> 字段，只能在 <STRONG>Long Binary</STRONG> 字段中放置二进制数据。否则会导致不合需要的结果。</P>
-
-
+> [!注释] 对文本使用 **Memo** 字段，只能在 **Long Binary** 字段中放置二进制数据。否则会导致不合需要的结果。
 
 ## <a name="example"></a>示例
 

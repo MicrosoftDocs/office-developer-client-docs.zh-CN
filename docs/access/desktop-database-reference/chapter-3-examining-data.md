@@ -1,20 +1,19 @@
 ---
-title: 第 3 章：检查数据
-TOCTitle: 'Chapter 3: Examining Data'
+title: 第 3 章： 检查数据
+TOCTitle: 'Chapter 3: Examining data'
 ms:assetid: 73c69134-3127-3344-d5c3-5ecb9e0e958b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5542b465cc6fc31949f2ceb5ed8bda408b1e653
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b489400536675fccced8f87aae515b019b87123
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875929"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936859"
 ---
-# <a name="chapter-3-examining-data"></a>第 3 章：检查数据
-
+# <a name="chapter-3-examining-data"></a>第 3 章： 检查数据
 
 **适用于**： Access 2013、 Office 2013
 
@@ -54,6 +53,8 @@ ErrHandler:
 End Sub 
 'EndRsTour 
 ```
+
+<br/>
 
 以下 SQL 查询返回一个具有五行（记录）和三列（字段）的 **Recordset** 。下表中显示了各行的值。
 
@@ -107,8 +108,6 @@ End Sub
 
 本章包含以下主题：
 
-  - [Locating the Current Record (ADO)](locating-the-current-record.md)
-
-  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
-
-  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)
+- [定位当前记录 (ADO)](locating-the-current-record.md)
+- [导航数据 (ADO)](navigating-through-the-data.md)
+- [了解记录集结构 (ADO)](understanding-recordset-structure.md)

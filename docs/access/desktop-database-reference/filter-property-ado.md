@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8c6e9b7a77a71acdb50536e21d9f6278dd127d75
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888662"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937132"
 ---
 # <a name="filter-property-ado"></a>Filter 属性 (ADO)
 
@@ -44,7 +44,7 @@ ms.locfileid: "25888662"
     
 
     > [!NOTE]
-    > <P>[!注释] 若要在筛选值中包含单引号 (')，则用两个单引号表示一个单引号。例如，若要筛选 O'Malley，则条件字符串应为 "col1 = 'O''Malley'"。若要在筛选值的开始和末尾均包含单引号，则使用井号 (#) 包围该字符串。例如，若要筛选 '1'，则条件字符串应为 "col1 = #'1'#"。</P>
+    > [!注释] 若要在筛选值中包含单引号 (')，则用两个单引号表示一个单引号。例如，若要筛选 O'Malley，则条件字符串应为 "col1 = 'O''Malley'"。若要在筛选值的开始和末尾均包含单引号，则使用井号 (#) 包围该字符串。例如，若要筛选 '1'，则条件字符串应为 "col1 = #'1'#"。
 
 
 
@@ -66,19 +66,12 @@ ms.locfileid: "25888662"
 
 仅**筛选器**条件字符串的形式 (如订购日期\>"12/31/1999年 ') 影响**Recordset**的内容。 通过 **Bookmark** 数组或使用 **FilterGroupEnum** 中的值创建的 **Filter** 不会影响持久 Recordset 的内容。 这些规则适用于通过客户端或服务器端游标创建的 **Recordset** 。
 
-
 > [!NOTE]
-> <P>[!注释] 在批更新模式下，将 <STRONG>adFilterPendingRecords</STRONG> 标记应用于筛选和修改的 <STRONG>Recordset</STRONG> 时，如果筛选是基于单键表的键字段并且对该键字段值进行修改，则得到的 <STRONG>Recordset</STRONG> 将为空。如果满足以下条件之一，得到的 <STRONG>Recordset</STRONG> 就不为空：</P>
-
-
-
-  - 基于单键表中的非键字段的筛选。
-
-  - 基于多键表中的任何字段的筛选。
-
-  - 对单键表中的非键字段进行修改。
-
-  - 对多键表中的任何字段进行修改。
+> [!注释] 在批更新模式下，将 **adFilterPendingRecords** 标记应用于筛选和修改的 **Recordset** 时，如果筛选是基于单键表的键字段并且对该键字段值进行修改，则得到的 **Recordset** 将为空。如果满足以下条件之一，得到的 **Recordset** 就不为空：
+> - 基于单键表中的非键字段的筛选。
+> - 基于多键表中的任何字段的筛选。
+> - 对单键表中的非键字段进行修改。
+> - 对多键表中的任何字段进行修改。
 
 下表总结了在不同的筛选和修改方式组合下 **adFilterPendingRecords** 所产生的效果。左边的列显示的是可能的修改方式：可对任何非键字段、单键表中的键字段、或多键表中的任何键字段进行修改。最上面的行显示的是筛选条件：可以根据任何非键字段、单键表中的键字段、或多键表中的任何键字段进行筛选。交叉单元显示的是结果：+ 表示使用 **adFilterPendingRecords** 产生非空 **Recordset** ； **-** 表示空 **Recordset** 。
 

@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 72d9d9d27ac128ec587621231b5c899bc89c2752
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b2a7bdadeb700bdbc6bf18dda2e73401afb7df86
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925946"
+ms.locfileid: "25937349"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>SQL 子查询 (Microsoft Access SQL)
 
@@ -111,9 +111,7 @@ WHERE T1.Title = Employees.Title) Order by Title;
 
 ## <a name="example"></a>示例
 
-以下示例列出在 1995 年第二季度下过订单的每个客户的名称和联系人。
-
-以下示例调用 EnumFields 过程，您可以在 SELECT 语句示例中找到该过程。
+以下示例列出在 1995 年第二季度下过订单的每个客户的名称和联系人。 它调用 EnumFields 过程，您可以在 SELECT 语句示例中找到。
 
 ```vb
     Sub SubQueryX() 

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dd38a7f4973195fdd758934ceec787d623c3353c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f754cb913918a757c91f8b87e00ef88fb0674684
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923264"
+ms.locfileid: "25936677"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage 宏操作
 
@@ -55,12 +55,8 @@ ms.locfileid: "25923264"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P><STRONG>右</STRONG>和<STRONG>关闭</STRONG>参数的测量以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。</P>
-
-
+> >**右**和**关闭**参数的测量以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。
 
 ## <a name="remarks"></a>说明
 

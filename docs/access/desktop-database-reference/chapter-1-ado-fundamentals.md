@@ -1,20 +1,19 @@
 ---
-title: 第 1 章：ADO 基础知识
-TOCTitle: 'Chapter 1: ADO Fundamentals'
+title: 第 1 章： ADO 基础知识
+TOCTitle: 'Chapter 1: ADO fundamentals'
 ms:assetid: d9834665-062b-c469-77a6-7fd9ea2a848e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250096(v=office.15)
 ms:contentKeyID: 48548054
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02202e27be845906a05db8229d1873a8bb46f51e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d5177da1cb271a93e058d0d03972dad277fccc91
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879548"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937433"
 ---
-# <a name="chapter-1-ado-fundamentals"></a>第 1 章：ADO 基础知识
-
+# <a name="chapter-1-ado-fundamentals"></a>第 1 章： ADO 基础知识
 
 **适用于**： Access 2013、 Office 2013
 
@@ -23,9 +22,6 @@ ms.locfileid: "25879548"
 本章包含以下主题：
 
 - [用 ADO 可以执行的操作](what-you-can-do-with-ado.md)
-
 - [Errors](errors.md)
-
-- [HelloData: A Simple ADO Application (ADO)](hellodata-a-simple-ado-application.md)
-
-- [OLE DB Providers (ADO)](ole-db-providers.md)
+- [HelloData: 简单 ADO 应用程序 (ADO)](hellodata-a-simple-ado-application.md)
+- [OLE DB 提供程序 (ADO)](ole-db-providers.md)

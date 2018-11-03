@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8481102d587480577c0ba73d2da46385359a92c6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889628"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937336"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE 语句 (Microsoft Access SQL)
 
@@ -26,7 +26,7 @@ ms.locfileid: "25889628"
 修改用 [CREATE TABLE](create-table-statement-microsoft-access-sql.md) 语句创建的表的设计。
 
 > [!NOTE]
-> [!注释] Microsoft Access 数据库引擎不支持使用 ALTER TABLE 语句或任何数据定义语言 (DDL) 语句。 而是使用**DAO 创建**方法。
+> [!注释] Microsoft Access 数据库引擎不支持使用 ALTER TABLE 语句或任何数据定义语言 (DDL) 语句。 而是使用 DAO**创建**方法。
 
 ## <a name="syntax"></a>语法
 

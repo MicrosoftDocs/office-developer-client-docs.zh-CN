@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c26b5e0a7e5448340cded61717ad27fb68aa827
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8fbc57c0a07777d62e5af82048e373e98678a8c1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869622"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936964"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>在字符串比较中使用通配符
 
@@ -60,7 +60,7 @@ ms.locfileid: "25869622"
 
 括在方括号中的字符的简单列表，除了*charlist*可以通过使用连字符 （-） 分隔上限和下限范围的指定范围的字符。 例如，使用\[A-Z\] *模式*如果*表达式*中的相应字符位置包含任何范围 A 到 Z 中大写字母匹配的结果中。没有分隔的范围可以包含在方括号中的多个区域。 例如， \[a-zA-Z0-9\]匹配任何字母数字字符。
 
-请注意，务必 ANSI SQL 通配符 （%） 和 (\_) 才可用与 Microsoft® jet 4.X 和 Microsoft OLE DB Provider for Jet。 如果用于 Microsoft Access 或 DAO，则被视为文本。
+请注意，务必 ANSI SQL 通配符 （%） 和 (\_) 才可用与 Microsoft jet 4.X 和 Microsoft OLE DB Provider for Jet。 如果用于 Microsoft Access 或 DAO，则被视为文本。
 
 用于模式匹配的其他重要规则如下所示：
 

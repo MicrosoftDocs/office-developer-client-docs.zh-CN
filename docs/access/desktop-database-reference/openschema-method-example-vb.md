@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5fccddd2f9566e0cb864a7a1cb4ccddb340fd0c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d5de504f851bfa228bfaddad8923d7365e25492b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873458"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936530"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema 方法示例 (VB)
 
@@ -74,6 +74,8 @@ ErrorHandler:
 End Sub 
 'EndOpenSchemaVB 
 ```
+
+<br/>
 
 本示例指定一个表\_类型**OpenSchema**方法***Criteria***参数中的查询约束。 因此，返回仅***Pubs***数据库中指定的视图架构信息。 本示例随后显示每个表的名称和类型。
 

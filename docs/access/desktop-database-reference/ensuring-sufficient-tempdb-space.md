@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b08980b7bb852a497ea339f4c43d439ac16a7e5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fe8d0c2513a723a9be51823866ed896976e79dd9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885764"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936201"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>确保具有足够的 TempDB 空间
 
@@ -30,7 +30,7 @@ ms.locfileid: "25885764"
 
 **增加 SQL Server 6.5 上的 TempDB 空间**
 
-1.  启动 Microsoft® SQL Server 企业管理器，打开"服务器"树，然后打开"数据库设备"树。
+1.  启动 Microsoft SQL Server 企业管理器，打开"服务器"树，然后打开"数据库设备"树。
 
 2.  选择一个 （物理） 设备，以展开，如主控形状，并双击该设备以打开**编辑数据库设备**对话框。 此对话框中显示当前数据库使用的空间大小。
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
 ms:contentKeyID: 48544766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed450913c7512e8ef20983484ca4b874878fd791
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 213e405718d50369367d439457e8026d4ef71242
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867165"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937503"
 ---
 # <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>授予 Web 服务器计算机; 来宾权限RDS 来宾权限 
 
@@ -22,7 +22,7 @@ ms.locfileid: "25867165"
 
 **授予 web 服务器计算机来宾权限**
 
-1.  Microsoft Windows® 2000 Server 计算机上单击**开始**，指向**程序**、**管理工具**，，然后单击**计算机管理**。
+1.  Microsoft Windows 2000 Server 计算机上单击**开始**，指向**程序**、**管理工具**，，然后单击**计算机管理**。
 
 2.  在控制台树中，在**本地用户和组**中，单击**组**。
 

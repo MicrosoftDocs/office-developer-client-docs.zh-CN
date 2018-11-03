@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7feb483d60084e62c6233d039e568477eda9d134
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e906e90fd6f7bf6e26898ed5381ef687c2ee8514
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927863"
+ms.locfileid: "25937337"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>PARAMETERS 声明 (Microsoft Access SQL)
 
@@ -83,7 +83,7 @@ AND OrderDate >= [Beginning date];
 
 本示例要求用户提供职务，然后使用该职务作为查询条件。
 
-本示例调用 EnumFields 过程，您可以在 [SELECT 语句](select-statement-microsoft-access-sql.md)示例中找到该过程。
+它调用 EnumFields 过程，您可以在[SELECT 语句](select-statement-microsoft-access-sql.md)示例中找到。
 
 ```vb
     Sub ParametersX() 

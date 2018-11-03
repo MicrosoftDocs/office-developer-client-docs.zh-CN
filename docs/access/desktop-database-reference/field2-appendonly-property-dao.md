@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193152(v=office.15)
 ms:contentKeyID: 48544524
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96603acb4f3cbb8a15a8449323407e2c609bebea
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 26ddcae48125dcb9be5ec34bf9e53bc5701f970e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930866"
+ms.locfileid: "25936768"
 ---
 # <a name="field2appendonly-property-dao"></a>Field2.AppendOnly 属性 (DAO)
 

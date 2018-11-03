@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 068496332479d25dfc4f20bdc683330ee462ce78
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927667"
+ms.locfileid: "25937419"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>UNION 操作 (Microsoft Access SQL)
 
@@ -81,9 +81,7 @@ WHERE OrderAmount > 1000;
 
 ## <a name="example"></a>示例
 
-以下示例检索巴西的所有供应商和客户的名称和所在城市。
-
-以下示例调用 EnumFields 过程，您可以在 SELECT 语句示例中找到该过程。
+以下示例检索巴西的所有供应商和客户的名称和所在城市。 它调用 EnumFields 过程，您可以在 SELECT 语句示例中找到。
 
 ```vb
     Sub UnionX() 

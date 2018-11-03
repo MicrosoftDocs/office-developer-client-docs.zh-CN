@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd49861af896ae1c2d55a80665f119662c0baf53
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cfaecd26ebd3f747a0e2db2ec530c151928fec74
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880395"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936908"
 ---
 # <a name="sql-data-types"></a>SQL 数据类型
 
 
 **适用于**： Access 2013、 Office 2013
 
-Microsoft Access 数据库引擎 SQL 数据类型包含由 Microsoft® Jet 数据库引擎定义的 13 种主要数据类型，以及若干可识别为这些数据类型的有效同义词。
+Microsoft Access 数据库引擎 SQL 数据类型包括由 Microsoft Jet 数据库引擎定义的 13 主要数据类型以及若干可识别为这些数据类型的有效同义词。
 
 下表列出了主要数据类型。同义词是在 [Microsoft Access 数据库引擎 SQL 保留字](sql-reserved-words.md)中标识的。
 

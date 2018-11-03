@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf12c224de0593fa3202ab74cdd0c5346c9570a8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 24e7940c86b079d5eb51fa894426a19e7700bf39
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874193"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937482"
 ---
 # <a name="transaction-processing"></a>事务处理
 
@@ -34,7 +34,7 @@ ADO 提供下列用于控制事务的方法： **BeginTrans** 、 **CommitTrans*
 
 ## <a name="transaction-isolation-level"></a>事务隔离级别
 
-使用 **IsolationLevel** 属性可以设置 **Connection** 对象上事务的隔离级别。直到下次调用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法时，该设置才会生效。如果您请求的隔离级别不可用，提供程序可能会返回下一个较高的隔离级别。有关有效值的更多详细信息，请参阅《ADO 程序员参考》中的 **IsolationLevel** 属性。
+使用 **IsolationLevel** 属性可以设置 **Connection** 对象上事务的隔离级别。 直到下次调用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法时，该设置才会生效。 如果您请求的隔离级别不可用，提供程序可能会返回下一个较高的隔离级别。 请参阅 ADO 程序员参考 （英文） 上有效的值的更多详细信息中的**IsolationLevel**属性。
 
 ## <a name="nested-transactions"></a>嵌套事务
 

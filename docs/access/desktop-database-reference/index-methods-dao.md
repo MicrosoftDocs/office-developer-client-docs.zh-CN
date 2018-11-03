@@ -6,21 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161014(v=office.15)
 ms:contentKeyID: 52072976
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c2151dc03f3acf6bf8148c22cb17ffa5e168d40
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2c5122dcb48d587ccec845c4a3512e1e36579e1e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920499"
+ms.locfileid: "25937531"
 ---
 # <a name="index-methods-dao"></a>索引方法 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
 
-
-
-  - [Index.CreateField 方法 (DAO)](index-createfield-method-dao.md)
-
-  - [Index.CreateProperty 方法 (DAO)](index-createproperty-method-dao.md)
+- [Index.CreateField 方法 (DAO)](index-createfield-method-dao.md)
+- [Index.CreateProperty 方法 (DAO)](index-createproperty-method-dao.md)
 

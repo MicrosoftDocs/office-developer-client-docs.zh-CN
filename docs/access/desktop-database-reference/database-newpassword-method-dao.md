@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f4dca778da3c364d9e9b5a5eaf8ebbc32501853f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d721102039a0fffbc8bbdc4696712bc530967fd8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919358"
+ms.locfileid: "25936852"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword 方法 (DAO)
 
@@ -59,11 +59,7 @@ ms.locfileid: "25919358"
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>新的<strong>Database</strong>对象的<strong>Password</strong>属性的设置。</p>
-
-> [!NOTE]
-> [!注释] 使用同时包含大小写字母、数字和符号的强密码。弱密码不混合使用这些元素。例如，强密码：Y6dh!et5。弱密码：House27。请使用可以记住的强密码，这样就不必记录密码了。
-
-
+<p><strong>注释</strong>使用强密码的组合和小写字母、 数字和符号。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
 </td>
 </tr>
 </tbody>

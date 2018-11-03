@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
 ms:contentKeyID: 48544896
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf640597405205987040d95033b2eb1ceee13867
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 354b080b40c9dfc59394f1a860453e539c5949fb
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922711"
+ms.locfileid: "25936600"
 ---
 # <a name="field2validationrule-property-dao"></a>Field2.ValidationRule 属性 (DAO)
 
@@ -76,6 +76,6 @@ ms.locfileid: "25922711"
 
 
 > [!NOTE]
-> <P>如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strRule ="价格&gt;" &amp; lngPrice，和 lngPrice = 125,50)，将导致错误时您的代码，尝试进行验证的任何数据。 这是因为在连接过程中，将使用系统的默认小数字符，将数字转换为字符串，并且 Microsoft Access 数据库引擎 SQL 只接受美国格式小数字符。</P>
+> 如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strRule ="价格&gt;" &amp; lngPrice，和 lngPrice = 125,50)，将导致错误时您的代码，尝试进行验证的任何数据。 这是因为在连接过程中，将使用系统的默认小数字符，将数字转换为字符串，并且 Microsoft Access 数据库引擎 SQL 只接受美国格式小数字符。
 
 

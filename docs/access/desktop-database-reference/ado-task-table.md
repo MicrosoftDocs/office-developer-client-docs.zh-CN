@@ -1,24 +1,23 @@
 ---
 title: ActiveX 数据对象 (ADO) 任务表
-TOCTitle: ADO Task Table
+TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6b2766fbdc7976e917b203943b70aae953a5edbc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b7da083471149316c39595913aec26053e5ad718
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877588"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936747"
 ---
 # <a name="ado-task-table"></a>ADO 任务表
 
-
 **适用于**： Access 2013、 Office 2013
 
-下表列出了 *《ADO 程序员指南》* 中包含的编程任务并为每个任务提供参考信息。这些参考信息可能是文本说明或代码示例，您可以从中找到有关执行相应任务的 ADO 功能的信息。
+下表列出了包含*ADO 程序员指南 》* 中的编程任务，并提供每项任务的引用。 这些参考信息可能是文本说明或代码示例，您可以从中找到有关执行相应任务的 ADO 功能的信息。
 
 <table>
 <colgroup>

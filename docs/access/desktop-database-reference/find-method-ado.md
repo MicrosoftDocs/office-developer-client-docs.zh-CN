@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b37f5930f9a9a36603700a1d27458527f128ad34
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ff66a39de070759e0ad31b441e4be5735d87516
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922032"
+ms.locfileid: "25936608"
 ---
 # <a name="find-method-ado"></a>Find 方法 (ADO)
 
@@ -57,12 +57,9 @@ ms.locfileid: "25922032"
 
 
 > [!NOTE]
-> <P>[!注释] 如果当前行位置不是在调用 <STRONG>Find</STRONG> 之前设置的，将发生错误。设置行位置的任何方法（如 <A href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</A>）都应该在调用 <STRONG>Find</STRONG> 之前调用。</P>
-
-
-
+> [!注释] 如果当前行位置不是在调用 **Find** 之前设置的，将发生错误。设置行位置的任何方法（如 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)）都应该在调用 **Find** 之前调用。
 
 > [!NOTE]
-> <P>[!注释] 如果对记录集调用 <STRONG>Find</STRONG> 方法，且记录集中的当前位置位于最后一个记录或文件末尾 (EOF)，您将找不到任何内容。您需要调用 <STRONG>MoveFirst</STRONG> 方法将当前位置/游标设置在记录集的开头。</P>
+> [!注释] 如果对记录集调用 **Find** 方法，且记录集中的当前位置位于最后一个记录或文件末尾 (EOF)，您将找不到任何内容。您需要调用 **MoveFirst** 方法将当前位置/游标设置在记录集的开头。
 
 

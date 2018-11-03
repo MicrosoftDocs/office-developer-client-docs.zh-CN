@@ -1,30 +1,30 @@
 ---
-title: 第 12 章：RDS 教程
-TOCTitle: 'Chapter 12: RDS Tutorial'
+title: 第 12 章： RDS 教程
+TOCTitle: 'Chapter 12: RDS tutorial'
 ms:assetid: fa44a5e8-e4df-dfdd-d7a1-a870ec3cabdd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 855a4ef3706db00dd05002fbbf83904c205282d6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9455d7b2a9df98671f8ce6f9d8a939fcadc56f79
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878869"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936941"
 ---
 # <a name="chapter-12-rds-tutorial"></a>第 12 章：RDS 教程
 
 
 **适用于**： Access 2013、 Office 2013
 
-本教程阐释如何使用 RDS 编程模型来对数据源进行查询和更新。本教程首先介绍完成此任务所需的步骤，然后针对具有 ADO for Windows Foundation Classes (ADO/WFC) 的 Microsoft® Visual Basic Scripting Edition 和 Microsoft® Visual J++® 进行重复说明。
+本教程演示如何使用 RDS 编程模型查询和更新数据源 首先，它介绍完成此任务所需的步骤。 然后，可在 Microsoft Visual Basic Scripting Edition 和 Microsoft Visual J + + 中，其中 ADO for Windows Foundation Classes (ADO/WFC) 重复教程。
 
 本教程使用不同语言的代码，主要有以下两个原因：
 
-  - 假设 RDS 文档的读者使用 Visual Basic 编码。这使得文档方便了 Visual Basic 编程人员，但对于使用其他语言的编程人员则没有多少用处。
+- 假设 RDS 文档的读者使用 Visual Basic 编码。这使得文档方便了 Visual Basic 编程人员，但对于使用其他语言的编程人员则没有多少用处。
 
-  - 如果您不太熟悉具体的 RDS 功能，但对于其他语言有所了解，那么可以通过在其他语言中寻求相同的功能来解决问题。
+- 如果您不太熟悉具体的 RDS 功能，但对于其他语言有所了解，那么可以通过在其他语言中寻求相同的功能来解决问题。
 
 ## <a name="how-the-tutorial-is-presented"></a>本教程的表示方式
 
@@ -36,32 +36,25 @@ ms.locfileid: "25878869"
 
 ## <a name="rds-programming-model-with-objects"></a>RDS 编程模型与对象
 
-  - 指定要在服务器上调用的程序，并获取从客户端引用它的方法（代理）。
+- 指定要在服务器上调用的程序，并获取从客户端引用它的方法（代理）。
 
-  - 调用服务器程序，将参数传递给标识数据源和所发命令的服务器程序。
+- 调用服务器程序，将参数传递给标识数据源和所发命令的服务器程序。
 
-  - 服务器程序通常是通过使用 ADO 从数据源获取 [Recordset](recordset-object-ado.md) 对象。可以选择在服务器上处理 **Recordset** 对象。
+- 服务器程序通常是通过使用 ADO 从数据源获取 [Recordset](recordset-object-ado.md) 对象。可以选择在服务器上处理 **Recordset** 对象。
 
-  - 服务器程序将最终的 **Recordset** 对象返回给客户端应用程序。
+- 服务器程序将最终的 **Recordset** 对象返回给客户端应用程序。
 
-  - 在客户端上，可以选择将 **Recordset** 对象置为便于可视控件使用的形式。
+- 在客户端上，可以选择将 **Recordset** 对象置为便于可视控件使用的形式。
 
-  - 将对于 **Recordset** 对象进行的更改发回到服务器并将其用于更新数据源。
+- 将对于 **Recordset** 对象进行的更改发回到服务器并将其用于更新数据源。
 
 以下是本教程中的步骤：
 
-- [步骤 1：指定服务器程序（RDS 教程）](step-1-specify-a-server-program-rds-tutorial.md)
-
-- [步骤 2：调用服务器程序（RDS 教程）](step-2-invoke-the-server-program-rds-tutorial.md)
-
-- [步骤 3：服务器获得记录集（RDS 教程）](step-3-server-obtains-a-recordset-rds-tutorial.md)
-
-- [步骤 4：服务器返回记录集（RDS 教程）](step-4-server-returns-the-recordset-rds-tutorial.md)
-
-- [步骤 5：DataControl 可用（RDS 教程）](step-5-datacontrol-is-made-usable-rds-tutorial.md)
-
-- [步骤 6：将更改发送到服务器（RDS 教程）](step-6-changes-are-sent-to-the-server-rds-tutorial.md)
-
+- [步骤 1： 指定服务器程序](step-1-specify-a-server-program-rds-tutorial.md)
+- [步骤 2： 调用服务器程序](step-2-invoke-the-server-program-rds-tutorial.md)
+- [步骤 3： 服务器获取 Recordset](step-3-server-obtains-a-recordset-rds-tutorial.md)
+- [步骤 4： 服务器返回 Recordset](step-4-server-returns-the-recordset-rds-tutorial.md)
+- [步骤 5: DataControl 由可用](step-5-datacontrol-is-made-usable-rds-tutorial.md)
+- [步骤 6： 将更改发送到服务器](step-6-changes-are-sent-to-the-server-rds-tutorial.md)
 - [RDS 教程 (VBScript)](rds-tutorial-vbscript.md)
-
-- [RDS 教程 (Visual J++)](rds-tutorial-visual-j.md)
+- [RDS 教程 （Visual J + +）](rds-tutorial-visual-j.md)

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
 ms:contentKeyID: 48545848
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb7735bf2c19da3cf82ffcb10d3d5b99b1a01c1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cf5e459773cd0fa0976704834b1b73467fc75294
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928787"
+ms.locfileid: "25937405"
 ---
 # <a name="field2required-property-dao"></a>Field2.Required 属性 (DAO)
 
@@ -73,7 +73,7 @@ ms.locfileid: "25928787"
 
 
 > [!NOTE]
-> <P>[!注释] 在您可以为 <STRONG>Index</STRONG> 对象或 <STRONG>Field2</STRONG> 对象设置该属性时，请为 <STRONG>Field2</STRONG> 对象设置该属性。这是因为需要先检查 <STRONG>Field2</STRONG> 对象属性设置的有效性，然后检查 <STRONG>Index</STRONG> 对象属性设置的有效性。</P>
+> [!注释] 在您可以为 **Index** 对象或 **Field2** 对象设置该属性时，请为 **Field2** 对象设置该属性。这是因为需要先检查 **Field2** 对象属性设置的有效性，然后检查 **Index** 对象属性设置的有效性。
 
 
 

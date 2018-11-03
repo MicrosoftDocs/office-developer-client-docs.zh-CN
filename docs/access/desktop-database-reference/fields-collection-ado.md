@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
 ms:contentKeyID: 48542962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27741f8b1a07e4fae49818b72a7239d13d069cca
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 39c801e223eba83a8de6aa7dacda6d8296e77588
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931202"
+ms.locfileid: "25936971"
 ---
 # <a name="fields-collection-ado"></a>Fields 集合 (ADO)
 
@@ -24,11 +24,8 @@ ms.locfileid: "25931202"
 
 **Recordset** 对象具有由 **Field** 对象组成的 **Fields** 集合。每个 **Field** 对应于 **Recordset** 中的一个列。在打开 **Recordset** 之前，您可以通过对 **Fields** 集合调用 [Refresh](refresh-method-ado.md) 方法来填充该集合。
 
-
 > [!NOTE]
-> <P>[!注释] 有关如何使用 <STRONG>Field</STRONG> 对象的更详细解释，请参阅 <STRONG>Field</STRONG> 对象主题。</P>
-
-
+> [!注释] 有关如何使用 **Field** 对象的更详细解释，请参阅 **Field** 对象主题。
 
 **Fields** 集合具有 [Append](append-method-ado.md) 方法（该方法会在集合中临时创建并添加一个 **Field** 对象）和 **Update** 方法（该方法会终止任何添加或删除）。
 

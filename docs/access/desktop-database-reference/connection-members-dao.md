@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8127109834a617e86116a81731d964181c1bdf2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 39c1366a182f1757abdcbf4b36a19b553eb2b680
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930593"
+ms.locfileid: "25936761"
 ---
 # <a name="connection-members-dao"></a>连接成员 (DAO)
 
@@ -20,7 +20,6 @@ ms.locfileid: "25930593"
 > [!NOTE]
 > Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。 Connection 对象代表与 ODBC 数据库的连接（仅适用于 ODBCDirect 工作区）。
  
-
 ## <a name="methods"></a>方法
 
 <table>
@@ -37,12 +36,7 @@ ms.locfileid: "25930593"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connection-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</p></td>
+<td><p>取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-close-method-dao.md">关闭</a></strong></p></td>
@@ -84,12 +78,7 @@ ms.locfileid: "25930593"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>返回对应于此连接的 <strong><a href="database-object-dao.md">Database</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
+<td><p>返回对应于此连接的 <strong><a href="database-object-dao.md">Database</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-name-property-dao.md">Name</a></strong></p></td>
@@ -113,12 +102,7 @@ ms.locfileid: "25930593"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-<br/>
-
-
-<p>指示异步操作（即用 <strong>dbRunAsync</strong> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</p></td>
+<td><p>指示异步操作（即用 <strong>dbRunAsync</strong> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">事务</a></strong></p></td>

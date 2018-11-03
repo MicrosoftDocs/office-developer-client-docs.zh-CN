@@ -1,26 +1,27 @@
 ---
 title: RDS 教程 (VBScript)
-TOCTitle: RDS Tutorial (VBScript)
+TOCTitle: RDS tutorial (VBScript)
 ms:assetid: 7a6596fd-00b9-a637-7d00-fb55a621305f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 449a752d4ab9e1680a3cf318e73802d39d7033fb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c1c6b42d9560a30b45fb777bb4fd1de4351830a4
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884197"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936292"
 ---
 # <a name="rds-tutorial-vbscript"></a>RDS 教程 (VBScript)
 
-
 **适用于**： Access 2013、 Office 2013
 
-这是用 Microsoft Visual Basic Scripting Edition 编写的 RDS 教程。有关本教程目的的说明，请参阅 [RDS 教程](chapter-12-rds-tutorial.md)。
+这是在 Microsoft Visual Basic Scripting Edition 编写的 RDS 教程。 本教程的用途的说明，请参阅[RDS 教程](chapter-12-rds-tutorial.md)。
 
-在本教程中， [rds.DataControl](datacontrol-object-rds.md)和[rds.DataSpace](dataspace-object-rds.md)在设计时创建 — 即，与 object 标记，如下所示定义:。 另外，它们也可以在运行时通过 **Server.CreateObject** 方法创建。 例如， **RDS.DataControl** 对象可以按如下方式创建：
+在本教程中， [rds.DataControl](datacontrol-object-rds.md)和[rds.DataSpace](dataspace-object-rds.md)在设计时; 创建即是与 object 标记中定义的。 另外，它们也可以在运行时通过 **Server.CreateObject** 方法创建。 
+
+例如， **RDS.DataControl** 对象可以按如下方式创建：
 
 ```vb
     Set DC = Server.CreateObject("RDS.DataControl") 
@@ -41,7 +42,7 @@ ms.locfileid: "25884197"
      Dim DF1 
 ```
 
-**步骤 1 - 指定服务器程序**
+## <a name="step-1--specify-a-server-program"></a>步骤 1 - 指定服务器程序
 
 VBScript 可以发现 IIS web 服务器通过访问供 Active Server Pages 的 VBScript **Request.ServerVariables**方法运行的名称：
 
@@ -50,8 +51,7 @@ VBScript 可以发现 IIS web 服务器通过访问供 Active Server Pages 的 V
 "https://<%=Request.ServerVariables("SERVER_NAME")%>" 
 ```
 
-但是，本教程将使用虚构服务器"yourServer"。
-
+但是，本教程使用虚构服务器"yourServer"。
 
 > [!NOTE]
 > <P>[!注释] 请留意 <STRONG>ByRef</STRONG> 参数的数据类型。VBScript 不允许指定变量类型，因此必须始终传递变量。使用 HTTP 时，如果您用 <STRONG>RDS.DataSpace</STRONG> 对象的 <A href="createobject-method-rds.md">CreateObject</A> 方法调用服务器程序，RDS 将允许您向应该使用非变量的方法传递变量。在使用 DCOM 或进程内服务器时，必须使客户端与服务器端的参数类型相匹配，否则将会产生"类型不匹配"错误。</P>
@@ -61,7 +61,7 @@ VBScript 可以发现 IIS web 服务器通过访问供 Active Server Pages 的 V
 Set DF1 = DS1.CreateObject("RDSServer.DataFactory", "https://yourServer") 
 ```
 
-**步骤 2a - 使用 RDS.DataControl 调用服务器程序**
+## <a name="step-2a--invoke-the-server-program-with-rdsdatacontrol"></a>步骤 2a - 使用 RDS.DataControl 调用服务器程序
 
 以下示例只是注释，演示 **RDS.DataControl** 的默认行为是执行指定的查询。
 
@@ -82,18 +82,18 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-**步骤 2b - 使用 RDSServer.DataFactory 调用服务器程序**
+## <a name="step-2b--invoke-the-server-program-with-rdsserverdatafactory"></a>步骤 2b - 使用 RDSServer.DataFactory 调用服务器程序
 
-**步骤 3 - 服务器获取 Recordset**
+## <a name="step-3--server-obtains-a-recordset"></a>步骤 3 - 服务器获取 Recordset
 
-**步骤 4 - 服务器返回 Recordset**
+## <a name="step-4--server-returns-the-recordset"></a>步骤 4 - 服务器返回 Recordset
 
 ```vb
  
 Set RS = DF1.Query("DSN=Pubs;", "SELECT * FROM Authors") 
 ```
 
-**步骤 5 - 使 DataControl 能被可视控件使用**
+## <a name="step-5--datacontrol-is-made-usable-by-visual-controls"></a>步骤 5 - 使 DataControl 能被可视控件使用
 
 ```vb
  
@@ -102,7 +102,7 @@ Set RS = DF1.Query("DSN=Pubs;", "SELECT * FROM Authors")
 DC1.SourceRecordset = RS 
 ```
 
-**步骤 6a - 用 RDS.DataControl 将所做的更改发送到服务器**
+## <a name="step-6a--changes-are-sent-to-the-server-with-rdsdatacontrol"></a>步骤 6a-更改发送到的服务器与 rds.DataControl *
 
 以下示例只是一个注释，演示 **RDS.DataControl** 如何执行更新。
 
@@ -128,7 +128,7 @@ Set DC1.SourceRecordset = RS
 DC1.SubmitChanges 
 ```
 
-**步骤 6b - 使用 RDSServer.DataFactory 将所做的更改发送到服务器**
+## <a name="step-6b--changes-are-sent-to-the-server-with-rdsserverdatafactory"></a>步骤 6b - 使用 RDSServer.DataFactory 将所做的更改发送到服务器
 
 ```vb
  

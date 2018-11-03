@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f999a0519fccb8f896ed07963db621065530c1a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e5aaab6a79893a66b12216f60c05690c1e806000
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929767"
+ms.locfileid: "25937046"
 ---
 # <a name="field2appendchunk-method-dao"></a>Field2.AppendChunk 方法 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 将字符串表达式中的数据追加到 [**Recordset**](recordset-object-dao.md) 中的"备注"或"长二进制"型 **Field2** 对象。
 
@@ -67,11 +65,8 @@ ms.locfileid: "25929767"
 
 在使用 **AppendChunk** 时如果不存在当前记录，则会发生错误。
 
-
 > [!NOTE]
-> <P>初始的 <STRONG>AppendChunk</STRONG> 操作（ <STRONG><A href="recordset-edit-method-dao.md">Edit</A></STRONG> 或 <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> 调用之后）只是将数据置于字段内，并覆盖任何现有的数据。然后同一 <STRONG>Edit</STRONG> 或 <STRONG>AddNew</STRONG> 会话中的后续 <STRONG>AppendChunk</STRONG> 调用将其添加到现有数据。</P>
-
-
+> 初始的 **AppendChunk** 操作（ **[Edit](recordset-edit-method-dao.md)** 或 **[AddNew](recordset-addnew-method-dao.md)** 调用之后）只是将数据置于字段内，并覆盖任何现有的数据。然后同一 **Edit** 或 **AddNew** 会话中的后续 **AppendChunk** 调用将其添加到现有数据。
 
 ## <a name="example"></a>示例
 

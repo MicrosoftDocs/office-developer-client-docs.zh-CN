@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
 ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78fdc7fc236a3e366cc97d466deb1e31cc030ac7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fc8fa9bb24035e344ddb8e15179d4edd128abf7d
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919470"
+ms.locfileid: "25936845"
 ---
 # <a name="relations-collection-dao"></a>Relations 集合 (DAO)
 
@@ -95,7 +95,7 @@ ms.locfileid: "25919470"
 
 <br/>
 
-以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。该示例还演示创建新的 **Relation** 将如何同时在外部表中创建任何需要的 **Indexes**（Employees 表中的 DepartmentsEmployees 索引）。
+以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。 它还演示了如何创建新的**Relation**还将创建任何必要的**索引**中的外表 （DepartmentsEmployees Employees 表中的索引）。
 
 ```vb
     Sub CreateRelationX() 

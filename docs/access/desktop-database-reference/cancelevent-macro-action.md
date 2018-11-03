@@ -10,18 +10,16 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7999d2acd19fd1f6aa4d7dd9dccd88b7ffea88a7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b0b8d7cb1a224b7f9c4d587d5c8941977dab2f66
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925324"
+ms.locfileid: "25937125"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent 宏操作
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 您可以使用**CancelEvent**操作取消导致访问权限才能运行包含此操作的宏的事件。 宏名称是 **BeforeUpdate** 、 **OnOpen** 、 **OnUnload** 或 **OnPrint** 等事件属性的设置。
 
@@ -76,8 +74,6 @@ ms.locfileid: "25925324"
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > [!注释] 对 **MouseDown** 事件应用 **CancelEvent** 操作时，只能取消右键单击对象时发生的事件。

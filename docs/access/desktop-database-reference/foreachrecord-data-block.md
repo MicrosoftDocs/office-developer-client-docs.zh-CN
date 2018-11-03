@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd16b91bb3d6ca0d206be0a63bb73e6f9176da8e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 09a09a80773adecf760ae4610df30bbd5f36f3d6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921024"
+ms.locfileid: "25937524"
 ---
 # <a name="foreachrecord-data-block"></a>ForEachRecord 数据块
 
@@ -20,11 +20,8 @@ ms.locfileid: "25921024"
 
 **ForEachRecord**数据块的域中的每个记录都重复一组语句。
 
-
 > [!NOTE]
-> <P>[!注释] <STRONG>ForEachRecord</STRONG> 数据块仅适用于数据宏。</P>
-
-
+> [!注释] **ForEachRecord** 数据块仅适用于数据宏。
 
 ## <a name="setting"></a>设置
 
@@ -50,7 +47,7 @@ ms.locfileid: "25921024"
 <td><p>一个字符串，标识的记录执行操作的域。 <em>在</em>参数可以包含表、 选择查询或 SQL 语句的名称。</p>
 
 > [!NOTE]
-> <P>指定域不能包括链接表或 ODBC 数据源中存储的数据。</P>
+> 指定域不能包括链接表或 ODBC 数据源中存储的数据。
 
 
 <p></p></td>

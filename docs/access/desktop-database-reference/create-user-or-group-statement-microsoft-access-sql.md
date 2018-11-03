@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cd33755800d0ed820a9690a6910f3edf064c3c82
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 52d376b05c195ed0ea4707e849c5ae395c2b5590
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872191"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936824"
 ---
 # <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATE USER 或 GROUP 语句 (Microsoft Access SQL)
 
@@ -21,11 +21,11 @@ ms.locfileid: "25872191"
 
 ## <a name="syntax"></a>语法
 
-**创建用户**：
+### <a name="create-a-user"></a>创建用户
 
 CREATE USER *user* *密码 pid* \[，*用户**密码 pid*，...\]
 
-**创建组**：
+### <a name="create-a-group"></a>创建组
 
 创建组*组* *pid*\[，*组* *pid*，...\]
 

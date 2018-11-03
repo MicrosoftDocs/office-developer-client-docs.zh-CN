@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b01232e7afd4f32411a53dec6ae233c786c1c08
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b6841eb674aac04b979623a65b27ca84a8bc927c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873402"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937143"
 ---
 # <a name="field-object"></a>Field 对象
 
@@ -46,7 +46,7 @@ ms.locfileid: "25873402"
 
 ## <a name="discovering-the-data-type"></a>发现数据类型
 
-**Type** 属性用于指示字段的数据类型。*《ADO 程序员参考》* 中的 [DataTypeEnum](datatypeenum.md) 描述了 ADO 所支持的数据类型枚举常量。
+**Type** 属性用于指示字段的数据类型。 [DataTypeEnum](datatypeenum.md) *ADO 程序员参考*中描述了 ADO 支持的数据类型枚举常量。
 
 有关 **adNumeric** 这样的浮点数值类型，可以获得其详细信息。 **NumericScale** 属性指示将用小数点右侧的多少位数来表示 **Field** 的值。 **Precision** 属性则指定用来表示 **Field** 值的最大位数。
 
@@ -125,5 +125,5 @@ ADO 对象有两种类型的属性：内置和动态。到目前为止，只讨�
 
 在使用 **Field** 对象的 **GetChunk** 或 **AppendChunk** 方法时，如果没有当前记录，则会发生错误 3021（无当前记录）。
 
-有关使用这些方法来操作二进制数据的示例，请参阅 *《ADO 程序员参考》* 中的 [AppendChunk 方法](appendchunk-method-ado.md)和 [GetChunk 方法](getchunk-method-ado.md)示例。
+有关使用这些方法以操作二进制数据的示例，请参阅*ADO 程序员参考*中的[AppendChunk 方法](appendchunk-method-ado.md)和[GetChunk 方法](getchunk-method-ado.md)示例。
 

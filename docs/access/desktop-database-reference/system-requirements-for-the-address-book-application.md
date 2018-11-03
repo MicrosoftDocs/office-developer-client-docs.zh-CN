@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edfdd66ea1651f71e74e5f98c6f2a3ac2bf36207
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fc1e9c951ea87869d2e3e2fb047793a06778f249
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885960"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937461"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>通讯簿应用程序的系统要求
 
@@ -24,7 +24,7 @@ ms.locfileid: "25885960"
 
 运行此 web 应用程序的服务器计算机软件要求包括：
 
-  - 带 Service Pack 3 或更高版本的 Microsoft Windows NT® Server 4.0，或 Microsoft Windows® 2000 Server。
+  - Microsoft Windows NT Server 4.0，Service Pack 3 或更高版本或 Microsoft Windows 2000 Server。
 
   - 带 Active Server Pages 的 Microsoft Internet 信息服务 (IIS) 3.0 版或更高版本。
 
@@ -38,7 +38,7 @@ ms.locfileid: "25885960"
 
 若要使用此示例应用程序，必须满足以下要求：
 
-  - 运行 Microsoft® SQL Server 版本 6.5 或更高版本的数据库服务器。
+  - 运行 Microsoft SQL Server 版本 6.5 或更高版本的数据库服务器。
 
   - 有权创建数据库并用示例数据填充数据库。
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
 ms:contentKeyID: 48544354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c291dcfdcaf14543100d68bed46cabbc05403d7e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873164"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936516"
 ---
 # <a name="filter-and-recordcount-properties-example-vb"></a>Filter 和 RecordCount 属性示例 (VB)
 
@@ -105,7 +105,7 @@ End Sub
 
 
 > [!NOTE]
-> <P>[!注释] 如果知道要选择的数据，通过这种方式打开 <STRONG>Recordset</STRONG> 通过比使用 SQL 语句效率更高。本示例演示如何仅创建一个 <STRONG>Recordset</STRONG> 并获取特定国家/地区的记录。</P>
+> [!注释] 如果知道要选择的数据，通过这种方式打开 **Recordset** 通过比使用 SQL 语句效率更高。本示例演示如何仅创建一个 **Recordset** 并获取特定国家/地区的记录。
 
 
 

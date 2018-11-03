@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b55bf1897c6b5fc5cd7ee70402e466f2180b7d92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 26d2b4b6281dd762e95113d5ca022e7c0d136755
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890923"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937041"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT 子句 (Microsoft Access SQL)
 
@@ -32,11 +32,11 @@ ms.locfileid: "25890923"
 
 ## <a name="syntax"></a>语法
 
-**单字段约束**：
+### <a name="single-field-constraint"></a>单字段约束
 
 约束*名称*{主键 |唯一 |不为 NULL |引用*foreigntable* \[（*foreignfield1、 foreignfield2*）\] \[ON 更新 CASCADE |设置为 NULL\] \[级联删除 |设置为 NULL\]}
 
-**多字段约束**：
+### <a name="multiple-field-constraint"></a>多字段约束
 
 约束*名称*{PRIMARY KEY (*primary1*\[， *primary2* \[，...\]\]) |唯一 (*unique1*\[， *unique2* \[，...\]\]) |不为 NULL (*notnull1*\[， *notnull2* \[，...\]\]) |外键\[没有索引\](*ref1*\[， *ref2* \[，...\] \]) 引用*foreigntable* \[(*foreignfield1* \[， *foreignfield2* \[，...\] \])\] \[ON 更新 CASCADE |设置为 NULL\] \[级联删除 |设置为 NULL\]}
 

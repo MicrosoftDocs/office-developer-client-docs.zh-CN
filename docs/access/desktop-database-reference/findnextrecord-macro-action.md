@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0309a72040751aaab994225159fdca6698a189cc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 426bf296345c47abe58e3e6e5057a43a0d43aa21
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920730"
+ms.locfileid: "25936628"
 ---
 # <a name="findnextrecord-macro-action"></a>FindNextRecord 宏操作
 
@@ -34,17 +34,11 @@ ms.locfileid: "25920730"
 
 此操作与使用 **"查找和替换"** 对话框中的 **"查找下一个"** 按钮的效果相同。
 
-
 > [!NOTE]
-> <P>[!注释] 对于表、查询和窗体，虽然 <STRONG>FindRecord</STRONG> 操作与 <STRONG>"开始"</STRONG>选项卡上的 <STRONG>"查找"</STRONG>命令相对应，但并不与"代码"窗口中 <STRONG>"编辑"</STRONG>菜单上的 <STRONG>"查找"</STRONG>命令相对应。不能使用 <STRONG>FindRecord</STRONG> 或 <STRONG>FindNextRecord</STRONG> 操作搜索模块中的文本。</P>
-
-
-
+> [!注释] 对于表、查询和窗体，虽然 **FindRecord** 操作与 **"开始"** 选项卡上的 **"查找"** 命令相对应，但并不与"代码"窗口中 **"编辑"** 菜单上的 **"查找"** 命令相对应。不能使用 **FindRecord** 或 **FindNextRecord** 操作搜索模块中的文本。
 
 > [!TIP]
-> <P>如果您已将<STRONG>FindRecord</STRONG>操作<STRONG>只搜索当前字段</STRONG>参数设置为<STRONG>是</STRONG>，您可能需要使用<STRONG>GoToControl</STRONG>操作将焦点移到控件包含使用<STRONG>之前要搜索的数据FindNextRecord</STRONG>操作。</P>
-
-
+> 如果您已将**FindRecord**操作**只搜索当前字段**参数设置为**是**，您可能需要使用**GoToControl**操作将焦点移到控件包含使用**之前要搜索的数据FindNextRecord**操作。
 
 在执行 **FindNextRecord** 宏操作时，如果当前所选的文本与搜索文本相同，则会从所选文本之后开始在包含该文本的同一字段和同一记录中进行搜索；否则将从当前记录的起始位置开始搜索。这样可以找到单个记录中可能出现的符合相同搜索条件的多个实例。
 

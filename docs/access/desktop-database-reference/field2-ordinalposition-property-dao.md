@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1672c893994c1257a3898304042816d859e83314
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 600fe2855ba10e1ab36413f6395d3455bb7bd00b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927317"
+ms.locfileid: "25937055"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Field2.OrdinalPosition 属性 (DAO)
 
@@ -88,7 +88,7 @@ ms.locfileid: "25927317"
 
 
 > [!NOTE]
-> <P>[!注释] 即使未刷新 <A href="tabledef-object-dao.md"><STRONG>TableDef</STRONG></A> 的 <STRONG>Fields</STRONG> 集合，从 <A href="recordset-object-dao.md">TableDef</A> 打开的 <STRONG><STRONG>Recordset</STRONG></STRONG> 中的字段顺序将反映 <STRONG>TableDef</STRONG> 对象的 <STRONG>OrdinalPosition</STRONG> 数据。表类型 <STRONG>Recordset</STRONG> 与基础表具有相同的 <STRONG>OrdinalPosition</STRONG> 数据，但是其他任何类型的 <STRONG>Recordset</STRONG> 将具有新的 <STRONG>OrdinalPosition</STRONG> 数据（由 0 开始），并且该数据遵循 <STRONG>TableDef</STRONG> 的 <STRONG>OrdinalPosition</STRONG> 数据确定的顺序。</P>
+> 即使尚未刷新**[TableDef](tabledef-object-dao.md)** 对象的**Fields**集合，从**TableDef**打开**[Recordset](recordset-object-dao.md)** 中的字段顺序将反映**TableDef**对象的**OrdinalPosition**数据。 表类型 **Recordset** 与基础表具有相同的 **OrdinalPosition** 数据，但是其他任何类型的 **Recordset** 将具有新的 **OrdinalPosition** 数据（由 0 开始），并且该数据遵循 **TableDef** 的 **OrdinalPosition** 数据确定的顺序。
 
 
 

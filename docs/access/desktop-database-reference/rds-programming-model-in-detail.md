@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fe14fd74f30a4d686dca517acd84d89a3df82555
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8a34321df27b5270bd35844eaf28b0b335b0294e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871925"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937475"
 ---
 # <a name="rds-programming-model-in-detail"></a>RDS 编程模型详细信息
 
@@ -60,7 +60,7 @@ RDS 对象模型通过 [RDS.DataControl](datacontrol-object-rds.md) 对象来实
 
 **RDS.DataControl** 具有两个方面。其中一个方面关系到数据源。如果使用 **RDS.DataControl** 的 **Connect** 和 **SQL** 属性设置命令和连接信息，则它将自动使用 **RDS.DataSpace** 创建针对默认 **RDSServer.DataFactory** 对象的引用。随后， **RDSServer.DataFactory** 将使用 **Connect** 属性值连接到数据源，使用 **SQL** 属性值从数据源获取 **Recordset** ，并将 **Recordset** 对象返回给 **RDS.DataControl** 。
 
-另一个方面关系到可视控件中返回的 **Recordset** 信息的显示。 您可以将可视控件与 rds.**相关联DataControl** （称为绑定的过程） 中并访问关联的**Recordset**对象，在 Microsoft® Internet Explorer 中的网页上显示查询结果中的信息。 每个 **RDS.DataControl** 对象将一个表示单个查询结果的 **Recordset** 对象绑定到一个或多个可视控件（如文本框、组合框、网格控件等）。 每个页面上可能有多个 **RDS.DataControl** 对象。 每个 **RDS.DataControl** 对象可以连接到不同的数据源，并包含不同查询的结果。
+另一个方面关系到可视控件中返回的 **Recordset** 信息的显示。 您可以将可视控件与 rds.**相关联DataControl** （称为绑定的过程） 中并访问关联的**Recordset**对象，Microsoft Internet Explorer 中的网页上显示查询结果中的信息。 每个 **RDS.DataControl** 对象将一个表示单个查询结果的 **Recordset** 对象绑定到一个或多个可视控件（如文本框、组合框、网格控件等）。 每个页面上可能有多个 **RDS.DataControl** 对象。 每个 **RDS.DataControl** 对象可以连接到不同的数据源，并包含不同查询的结果。
 
 对于关联的 **Recordset** 对象的行， **RDS.DataControl** 对象还有自己的导航、排序和筛选方法。这些方法与 ADO **Recordset** 对象的方法很类似，但不尽相同。
 

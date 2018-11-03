@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 195e9fc25e3aa8871233ebe60441d29909b31a48
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f638ae278835841ebf297f2472c04235c6a325b4
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878309"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936649"
 ---
 # <a name="marking-business-objects-as-safe-for-scripting"></a>将业务对象标记为脚本安全
 
@@ -32,7 +32,7 @@ Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}]
 
 其中\< *MyActiveXGUID* \>是业务对象的十六进制 GUID 数。 保存它并将其合并到注册表中，通过使用注册表编辑器或双击该.reg 文件在 Windows 资源管理器。
 
-创建 Microsoft® Visual Basic 中的业务对象可以自动标记为"可安全编写脚本"以打包和部署向导。 当向导询问您指定的安全设置时，选择**对初始化**和**可安全执行脚本**。
+创建 Microsoft Visual Basic 中的业务对象可以自动标记为"可安全编写脚本"以打包和部署向导。 当向导询问您指定的安全设置时，选择**对初始化**和**可安全执行脚本**。
 
 在最后一步，“应用程序安装向导”会创建一个 .htm 文件和一个 .cab 文件。然后，您可以将这两个文件复制到目标计算机上，并双击该 .htm 文件以加载相应的页面并正确注册服务器。
 

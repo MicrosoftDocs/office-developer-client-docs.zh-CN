@@ -1,20 +1,19 @@
 ---
-title: 第 2 章：获取数据
-TOCTitle: 'Chapter 2: Getting Data'
+title: 第 2 章： 获取数据
+TOCTitle: 'Chapter 2: Getting data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b045676cad97ffa1dc60f7370ec5013d4c30bdf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 729d7a74c8e1ead84810e82d608e4e9b37268a6b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888074"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936999"
 ---
-# <a name="chapter-2-getting-data"></a>第 2 章：获取数据
-
+# <a name="chapter-2-getting-data"></a>第 2 章： 获取数据
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,20 +25,17 @@ ms.locfileid: "25888074"
 
 ADO 对象模型用 **Connection** 对象来表示连接的概念 - 这是建立很多 ADO 功能的基础。 **Connection** 对象的用途是：
 
-  - 定义 ADO 在与数据源通信并创建会话时所需的信息。
+- 定义 ADO 在与数据源通信并创建会话时所需的信息。
 
-  - 定义会话的事务性功能。
+- 定义会话的事务性功能。
 
-  - 允许您针对数据源创建和执行命令。
+- 允许您针对数据源创建和执行命令。
 
-  - 提供有关以架构行集的形式设计基础数据源的信息。有关架构行集的详细信息，请参阅 [OpenSchema 方法](openschema-method-ado.md)。
+- 提供有关以架构行集的形式设计基础数据源的信息。有关架构行集的详细信息，请参阅 [OpenSchema 方法](openschema-method-ado.md)。
 
 本章包含以下主题：
 
-  - [创建连接](making-a-connection.md)
-
-  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
-
-  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
-
-  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)
+- [建立连接](making-a-connection.md)
+- [使用 connection 对象引用 (ADO)](using-the-connection-object-access.md)
+- [使用 command 对象引用 (ADO)](using-the-command-object-access.md)
+- [将数据添加到 Recordset (ADO)](adding-data-to-a-recordset.md)

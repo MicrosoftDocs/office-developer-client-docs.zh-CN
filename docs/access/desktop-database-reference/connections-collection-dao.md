@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a536c0dc870d4dd8c0efa940918032d98bd6813
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f47b3ca15e51211a8593c5e177f53507128b2f76
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922508"
+ms.locfileid: "25936579"
 ---
 # <a name="connections-collection-dao"></a>Connections 集合 (DAO)
 
@@ -126,6 +126,8 @@ Sub ConnectionObjectX()
 End Sub 
  
 ```
+
+<br/>
 
 以下示例使用采用不同参数的 **OpenConnection** 方法打开三个不同的 **Connection** 对象。
 
