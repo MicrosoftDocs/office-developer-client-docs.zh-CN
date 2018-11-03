@@ -1,20 +1,19 @@
 ---
 title: 参数化命令的操作
-TOCTitle: Operation of Parameterized Commands
+TOCTitle: Operation of parameterized commands
 ms:assetid: 71edbd16-21db-7afa-356b-d8e7afb92b3a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ae1b0545ac647b0034b0d24cac1a653cfeb4b7e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bd5b694906e8c0ac1f15329f4342586793e114ec
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883846"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946146"
 ---
 # <a name="operation-of-parameterized-commands"></a>参数化命令的操作
-
 
 **适用于**： Access 2013、 Office 2013
 

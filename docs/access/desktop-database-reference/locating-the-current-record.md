@@ -1,19 +1,19 @@
 ---
 title: 定位当前记录
-TOCTitle: Locating the Current Record
+TOCTitle: Locating the current record
 ms:assetid: b47fa9d6-0381-3d95-fb85-6bf1dd1071c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249865(v=office.15)
 ms:contentKeyID: 48547228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26dbeab9930ddb3abf77aa9c8f10b79a03480b6e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cc495c5171788862ad7873e21ad3ddaef113445b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883657"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947684"
 ---
-# <a name="locating-the-current-record"></a>找到当前记录
+# <a name="locating-the-current-record"></a>定位当前记录
 
 **适用于**： Access 2013、 Office 2013
 
@@ -22,5 +22,4 @@ ms.locfileid: "25883657"
 本节包括下列主题：
 
 - [对行进行计数](counting-rows.md)
-
-- [记录集的限制](the-limits-of-a-recordset.md)
+- [记录集限制](the-limits-of-a-recordset.md)

@@ -1,17 +1,17 @@
 ---
-title: 清除方法-ActiveX 数据对象 (ADO)
+title: Clear 方法-ActiveX 数据对象 (ADO)
 TOCTitle: Clear method (ADO)
 ms:assetid: 5d51f42c-147b-1fcf-d05b-123e5714ecb7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249329(v=office.15)
 ms:contentKeyID: 48545110
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 459ce19fab15e3e9bbd886a0f063005dab674fbc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2cb522a0b70517e81f086f544b1b1e366c166087
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929137"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947397"
 ---
 # <a name="clear-method-ado"></a>Clear 方法 (ADO)
 

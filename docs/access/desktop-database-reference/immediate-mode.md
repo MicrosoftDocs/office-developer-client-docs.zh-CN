@@ -1,19 +1,19 @@
 ---
 title: 立即模式 （访问桌面数据库参考 （英文）
-TOCTitle: Immediate Mode
+TOCTitle: Immediate mode
 ms:assetid: 61bd3645-6e84-2e3a-7814-37d8c1247df0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)
 ms:contentKeyID: 48545220
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9448844afa167af3e34e609145ba50d549a9930a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b6401e7954325eded85b70b9edb5d164e857d113
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884903"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947859"
 ---
-# <a name="immediate-mode"></a>直接模式
+# <a name="immediate-mode"></a>立即模式
 
 
 **适用于**： Access 2013、 Office 2013

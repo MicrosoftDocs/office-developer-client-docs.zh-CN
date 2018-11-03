@@ -1,23 +1,21 @@
 ---
 title: 数据节 （Access 桌面数据库参考 （英文）
-TOCTitle: Data Section
+TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74406232a6f7d458eebb242f3f341bd4e3ccc583
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 98215394af89df30a95fcb9c5a757368cb64d4f1
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882852"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946375"
 ---
 # <a name="data-section"></a>数据节
 
 **适用于**： Access 2013、 Office 2013
- 
-## <a name="data-section"></a>数据节
 
 数据节定义了行集的数据以及任何挂起的更新、插入或删除。数据节可能包含零行或更多行。它可能只包含由架构定义行的一个行集内的数据。而且，如前所述，没有任何数据的列可能被省略。如果在数据节中使用属性或子元素，并且尚未在架构节中定义该构造，那么它将被静默忽略。
 

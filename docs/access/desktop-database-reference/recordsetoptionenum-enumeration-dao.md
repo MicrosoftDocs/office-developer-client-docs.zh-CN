@@ -1,19 +1,19 @@
 ---
-title: RecordsetOptionEnum Enumeration (DAO)
+title: RecordsetOptionEnum 枚举 (DAO)
 TOCTitle: RecordsetOptionEnum Enumeration
 ms:assetid: 3a9d8664-dcb6-cb60-7cf6-e229eb699ef1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192649(v=office.15)
 ms:contentKeyID: 48544266
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3410eac81975df5ba69ef13d62c4cfede220449b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 75b69adbe8c3851afa33f729a108ac579f84c683
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886429"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947138"
 ---
-# <a name="recordsetoptionenum-enumeration-dao"></a>RecordsetOptionEnum Enumeration (DAO)
+# <a name="recordsetoptionenum-enumeration-dao"></a>RecordsetOptionEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

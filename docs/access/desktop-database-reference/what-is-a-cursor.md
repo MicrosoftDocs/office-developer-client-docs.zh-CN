@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
 ms:contentKeyID: 48547738
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6dc2e38c7459fea46c33373447276d8643b4b0de
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0bedbeb041d919cd417ade215ac71b9eabbc4de2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887374"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947593"
 ---
-# <a name="what-is-a-cursor"></a>什么是光标？
+# <a name="what-is-a-cursor"></a>什么是游标？
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,19 +1,19 @@
 ---
-title: WorkspaceTypeEnum Enumeration (DAO)
+title: WorkspaceTypeEnum 枚举 (DAO)
 TOCTitle: WorkspaceTypeEnum Enumeration
 ms:assetid: c660a0a9-b0ae-a7be-5635-761d3a05a4ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823134(v=office.15)
 ms:contentKeyID: 48547625
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8a562f7ab82c3349a4a397ecb72861eed30cb20d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 65024e67110608d75012ec01382af92937451669
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870322"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947159"
 ---
-# <a name="workspacetypeenum-enumeration-dao"></a>WorkspaceTypeEnum Enumeration (DAO)
+# <a name="workspacetypeenum-enumeration-dao"></a>WorkspaceTypeEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

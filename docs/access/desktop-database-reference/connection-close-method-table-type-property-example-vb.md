@@ -1,19 +1,19 @@
 ---
-title: Connection 的 Close 方法，表 Type 属性示例 (VB)
-TOCTitle: Connection Close Method, Table Type property example (VB)
+title: Connection 的 Close 方法、Table 的 Type 属性示例 (VB)
+TOCTitle: Connection Close method, Table Type property example (VB)
 ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
 ms:contentKeyID: 48547754
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 388e601d7267eabd01843640ab795fd0ea914a05
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a4587cec98d6e1bd272c79428955ca422bb3eec0
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868312"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947740"
 ---
-# <a name="connection-close-method-table-type-property-example-vb"></a>Connection 的 Close 方法，表 Type 属性示例 (VB)
+# <a name="connection-close-method-table-type-property-example-vb"></a>Connection 的 Close 方法、Table 的 Type 属性示例 (VB)
 
 **适用于**： Access 2013、 Office 2013
 

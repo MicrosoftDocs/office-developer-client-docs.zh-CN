@@ -6,30 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
 ms:contentKeyID: 48544145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f4d53296ac61e0ccd91ad4a78f693d11d2e4488
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6e604983e6b83f3b51d0b8da7f6d4223d4402c67
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929648"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946473"
 ---
 # <a name="key-properties-methods-and-events-adox"></a>关键属性、 方法和事件 (ADOX)
-
 
 **适用于**： Access 2013、 Office 2013 
 
 ## <a name="propertiescollections"></a>属性/集合
 
 - [Columns 集合](columns-collection-adox.md)
-
 - [DeleteRule 属性](deleterule-property-adox.md)
-
 - [Name 属性](name-property-adox.md)
-
 - [RelatedTable 属性](relatedtable-property-adox.md)
-
 - [Type 属性 (Key)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))
-
 - [UpdateRule 属性](updaterule-property-adox.md)
 
 ## <a name="methods"></a>方法

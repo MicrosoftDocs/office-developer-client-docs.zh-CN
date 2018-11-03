@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7aba6eda9abc84c6f34442f828fe802c4b016653
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2210799fe46a0993a917a85a0e06a1a806b04548
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871988"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945822"
 ---
-# <a name="working-with-multidimensional-data"></a>处理多维数据
+# <a name="working-with-multidimensional-data"></a>使用多维数据
 
 
 **适用于**： Access 2013、 Office 2013

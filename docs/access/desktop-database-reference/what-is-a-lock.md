@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
 ms:contentKeyID: 48546636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 48ecb0ca75a7cd8094e55fd82d153b2d941ceeeb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 319e223afddfb0841c8bf292e01e07116e26477c
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886121"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946298"
 ---
 # <a name="what-is-a-lock"></a>什么是锁定？
 

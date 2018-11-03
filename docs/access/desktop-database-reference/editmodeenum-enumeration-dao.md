@@ -1,19 +1,19 @@
 ---
-title: EditModeEnum Enumeration (DAO)
+title: EditModeEnum 枚举 (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
 ms:contentKeyID: 48545641
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ac9617358e30ecdbe97db872b7513d1a464b818
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 41a22e7c9e7239bc6cf4ba5c473744641a0f5f3d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886198"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947943"
 ---
-# <a name="editmodeenum-enumeration-dao"></a>EditModeEnum Enumeration (DAO)
+# <a name="editmodeenum-enumeration-dao"></a>EditModeEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

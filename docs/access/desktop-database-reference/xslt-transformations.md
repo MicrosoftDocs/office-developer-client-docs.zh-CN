@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249418(v=office.15)
 ms:contentKeyID: 48545425
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8bbb7e935dece05d4616044b399601c393d5f07c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 660805b170024c4822e7118aa7d67f182857ff9e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889432"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947117"
 ---
 # <a name="xslt-transformations"></a>XSLT 转换
 

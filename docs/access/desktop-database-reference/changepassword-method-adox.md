@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
 ms:contentKeyID: 48546519
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f11cfaddc99a0e10a86e0df9a7a187c4e89fc794
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7eef5fc93f9cce68e6342b62c1ab07ee6f65587f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921059"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946018"
 ---
 # <a name="changepassword-method-adox"></a>ChangePassword 方法 (ADOX)
 
@@ -28,11 +28,11 @@ ms.locfileid: "25921059"
 
 ## <a name="parameters"></a>参数
 
-  - *旧密码*
+- *旧密码*
 
   - 一个指定用户现有密码的 **String** 值。如果该用户当前没有密码，则使用空字符串 ("") 作为 *OldPassword*。
 
-  - *新密码*
+- *新密码*
 
   - 一个指定新密码的 **String** 值。
 

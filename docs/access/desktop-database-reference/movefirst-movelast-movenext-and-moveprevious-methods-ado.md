@@ -1,17 +1,17 @@
 ---
 title: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (ADO)
-TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious Methods (ADO)
+TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (ADO)
 ms:assetid: d04ce41c-77c9-df42-115a-65c50a38518a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250039(v=office.15)
 ms:contentKeyID: 48547836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6b74bdb432c327306b9edafd44f8abad9831afc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 2bbc9998102356622b1a31a8411fd9e502436a8f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878715"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947063"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-ado"></a>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (ADO)
 

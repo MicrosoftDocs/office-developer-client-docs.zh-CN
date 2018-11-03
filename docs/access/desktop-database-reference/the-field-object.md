@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6841eb674aac04b979623a65b27ca84a8bc927c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: cf5e5de6c45cd3b8cc8827a794f5c2ce394d8f43
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937143"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947292"
 ---
 # <a name="field-object"></a>Field 对象
 

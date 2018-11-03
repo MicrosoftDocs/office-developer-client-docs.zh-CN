@@ -1,20 +1,19 @@
 ---
-title: 用 XML 格式持久化记录
-TOCTitle: Persisting Records in XML Format
+title: 以 XML 格式持久化记录
+TOCTitle: Persisting records in XML format
 ms:assetid: 8071e244-60c7-759c-094c-152add5d72e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 77a8f14cf76e87060d73d0b3a6a6939c292c422e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1d859835ec0f80d2a1d908eb40ec7cffaa1effb2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868054"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946305"
 ---
-# <a name="persisting-records-in-xml-format"></a>以 XML 格式暂留记录
-
+# <a name="persisting-records-in-xml-format"></a>以 XML 格式持久化记录
 
 **适用于**： Access 2013、 Office 2013
 

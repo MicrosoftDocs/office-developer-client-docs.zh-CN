@@ -1,19 +1,19 @@
 ---
-title: RDS 教程 (Visual J++)
-TOCTitle: RDS Tutorial (Visual J++)
+title: RDS 教程 （Visual J + +）
+TOCTitle: RDS tutorial (Visual J++)
 ms:assetid: b5679bfe-e830-05df-8a1c-0744c96abe90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249870(v=office.15)
 ms:contentKeyID: 48547248
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6b01809cd17c9c1a5c1a73a5765bb8808692e4c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e23af46ac7aab267eb5788aa4790d5c568f23609
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877917"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946123"
 ---
-# <a name="rds-tutorial-visual-j"></a>RDS 教程 (Visual J++)
+# <a name="rds-tutorial-visual-j"></a>RDS 教程 （Visual J + +）
 
 
 **适用于**： Access 2013、 Office 2013

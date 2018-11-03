@@ -1,20 +1,19 @@
 ---
 title: ADO 动态属性索引
-TOCTitle: ADO Dynamic Property Index
+TOCTitle: ADO dynamic property index
 ms:assetid: 437beced-b97a-894d-b08f-4a322629a5a6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f385f3637f9a64ff94d571345d88fbaa088d126
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 19b7ddca0395869b5a1dba4182a123d33e54e66d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876062"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947600"
 ---
 # <a name="ado-dynamic-property-index"></a>ADO 动态属性索引
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -24,13 +23,13 @@ ms.locfileid: "25876062"
 
 《OLE DB 程序员参考》使用术语"说明"来引用 ADO 属性名。您可以在该书中找到有关这些标准属性的详细信息。请在"索引"中搜索 OLE DB 属性名或参阅以下主题：
 
-  - 附录 C：OLE DB 属性
+- 附录 C：OLE DB 属性
 
-  - Cursor Service 支持的属性
+- Cursor Service 支持的属性
 
-  - 持久性提供程序支持的属性
+- 持久性提供程序支持的属性
 
-  - 远程提供程序支持的 OLE DB 属性
+- 远程提供程序支持的 OLE DB 属性
 
 ## <a name="remarks"></a>备注
 

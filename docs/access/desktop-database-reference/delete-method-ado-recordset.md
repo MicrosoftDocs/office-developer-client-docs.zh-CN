@@ -1,19 +1,19 @@
 ---
-title: Delete 方法 (ADO Recordset)
-TOCTitle: Delete Method (ADO Recordset)
+title: Delete 方法（ADO 记录集）
+TOCTitle: Delete method (ADO Recordset)
 ms:assetid: 62c39b4d-223e-7b48-6780-6cd272e3114e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ae4b3bac6ed07aa7779009dc029737f5c7e0505
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 324366ef1fb399bf4a6b31113a288fa1abdc6b2b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885736"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947278"
 ---
-# <a name="delete-method-ado-recordset"></a>Delete 方法 (ADO Recordset)
+# <a name="delete-method-ado-recordset"></a>Delete 方法（ADO 记录集）
 
 
 **适用于**： Access 2013、 Office 2013
@@ -28,7 +28,7 @@ ms.locfileid: "25885736"
 
 ## <a name="parameters"></a>参数
 
-  - *AffectRecords*
+- *AffectRecords*
 
   - [AffectEnum](affectenum.md) 值，可确定 **Delete** 方法将影响的记录数。默认值为 **adAffectCurrent** 。
 

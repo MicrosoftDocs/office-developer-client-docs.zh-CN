@@ -1,19 +1,19 @@
 ---
-title: PermissionEnum Enumeration (DAO)
+title: PermissionEnum 枚举 (DAO)
 TOCTitle: PermissionEnum Enumeration
 ms:assetid: dcce9940-f8a7-e915-1b69-05c341bea8cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
 ms:contentKeyID: 48548147
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3583737eebc881ed5462fe76b6e4a37ad25a8f3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ed3abb0e3ff76ae19c6c19a3e2040b338e2b5ff3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875222"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945864"
 ---
-# <a name="permissionenum-enumeration-dao"></a>PermissionEnum Enumeration (DAO)
+# <a name="permissionenum-enumeration-dao"></a>PermissionEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

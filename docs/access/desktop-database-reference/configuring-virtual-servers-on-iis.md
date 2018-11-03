@@ -1,20 +1,19 @@
 ---
 title: 在 IIS 上配置虚拟服务器
-TOCTitle: Configuring Virtual Servers on IIS
+TOCTitle: Configuring virtual servers on IIS
 ms:assetid: 0a8057a2-c90b-d0b5-21c8-5343e80708ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248837(v=office.15)
 ms:contentKeyID: 48543154
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7408e2dc10a5e47b298b77a9244477b16bca3ff1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f8ab3bf8e6ffec2b72744d3abacceb4725c98b02
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879240"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946725"
 ---
 # <a name="configuring-virtual-servers-on-iis"></a>在 IIS 上配置虚拟服务器
-
 
 **适用于**： Access 2013、 Office 2013
 

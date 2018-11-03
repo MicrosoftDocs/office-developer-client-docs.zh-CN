@@ -1,17 +1,17 @@
 ---
 title: 创建和执行简单命令
-TOCTitle: Creating and Executing a Simple Command
+TOCTitle: Creating and executing a simple command
 ms:assetid: 9ace1abe-cfae-0677-bc57-5cbda85b79db
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0446654a6ad39246289690c95f160bd77dcde19d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 333f8481958914eadbd830600c08035acc92b031
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886261"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947474"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>创建和执行简单命令
 

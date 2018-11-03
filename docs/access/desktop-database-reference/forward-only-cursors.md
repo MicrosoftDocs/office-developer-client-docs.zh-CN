@@ -1,20 +1,19 @@
 ---
 title: 仅向前型游标
-TOCTitle: Forward-Only Cursors
+TOCTitle: Forward-only cursors
 ms:assetid: 27541bac-077b-bfe6-d9d8-713e4a945125
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249035(v=office.15)
 ms:contentKeyID: 48543834
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 176dc9fe3820b88ddaf0bd27feb4aacbbcb311cc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e742e3a6903faf7ab817b79675b100d026e25885
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886282"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946760"
 ---
 # <a name="forward-only-cursors"></a>仅向前型游标
-
 
 **适用于**： Access 2013、 Office 2013
 

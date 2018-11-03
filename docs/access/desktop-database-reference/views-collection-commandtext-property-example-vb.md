@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
 ms:contentKeyID: 48545120
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab1d5013e0371273fdcec3b2ba75a30a8dc18393
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1cec0b42dd6708e15ac20300850dd03d162683c6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870539"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946354"
 ---
-# <a name="views-collection-commandtext-property-example-vb"></a>Views 集合，CommandText 属性示例 (VB)
+# <a name="views-collection-commandtext-property-example-vb"></a>Views 集合与 CommandText 属性的示例 (VB)
 
 
 **适用于**： Access 2013、 Office 2013

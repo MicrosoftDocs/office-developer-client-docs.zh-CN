@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 972a367d18613fd8c8935ded60223e78ee0dc4d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9f4ef26113d81910fa989196a0b58865e1ca62f3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887430"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945751"
 ---
 # <a name="ado-events-model-example-vc"></a>ADO 事件模型示例 （VC + +）
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -22,27 +21,27 @@ ms.locfileid: "25887430"
 
 该一般说明使用 **adoint.h** 作为方法签名的参考。 中一般描述的一些细节但是，由于使用略有更改**\#导入**指令：
 
-  - **\#导入**指令将**typedef**的方法签名数据类型和修饰符解析为其基本窗体。
+- **\#导入**指令将**typedef**的方法签名数据类型和修饰符解析为其基本窗体。
 
-  - 必须覆盖纯虚方法全部具有前缀通过"**原始\_**"。
+- 必须覆盖纯虚方法全部具有前缀通过"**原始\_**"。
 
 某些代码仅反映编码样式。
 
-  - 指向由 **Advise** 方法使用的 **IUnknown** 的指针是使用对 **QueryInterface** 的调用显式获取的。
+- 指向由 **Advise** 方法使用的 **IUnknown** 的指针是使用对 **QueryInterface** 的调用显式获取的。
 
-  - 不需要在类定义中对析构函数进行显式编码。
+- 不需要在类定义中对析构函数进行显式编码。
 
-  - 您可能需要对 QueryInterface、AddRef 和 Release 的更强大的实现进行编码。
+- 您可能需要对 QueryInterface、AddRef 和 Release 的更强大的实现进行编码。
 
-  - ** \_ \_Uuidof()** 指令被扩展用于获取接口 Id。
+- ** \_ \_Uuidof()** 指令被扩展用于获取接口 Id。
 
 最后，本示例包含了一些工作代码。
 
-  - 本示例是作为控制台应用程序进行编写的。
+- 本示例是作为控制台应用程序进行编写的。
 
-  - 应插入自己的代码在注释，下方"/ / Do 一些工作"。
+- 应插入自己的代码在注释，下方"/ / Do 一些工作"。
 
-  - 所有事件处理程序默认情况下不执行任何操作，且取消进一步的通知。您应该插入您的应用程序的适当代码，并在需要的情况下允许通知。
+- 所有事件处理程序默认情况下不执行任何操作，且取消进一步的通知。您应该插入您的应用程序的适当代码，并在需要的情况下允许通知。
 
 <!-- end list -->
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8fbc57c0a07777d62e5af82048e373e98678a8c1
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bc45b71f1b70f1a36a9456f3ab83612933af11f6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936964"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946704"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>在字符串比较中使用通配符
 

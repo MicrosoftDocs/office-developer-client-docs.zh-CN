@@ -1,6 +1,6 @@
 ---
 title: ODBC Scalar 函数
-TOCTitle: ODBC Scalar Functions
+TOCTitle: ODBC scalar functions
 ms:assetid: dc1096bf-8241-036a-14c6-b19afae45454
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835353(v=office.15)
 ms:contentKeyID: 48548120
@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f4a519f1853c0779777d59e6e6c314cbaaf60621
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 6e312bf0b6092df88f86f4bbf843d7951f3c86cc
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937454"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947873"
 ---
 # <a name="odbc-scalar-functions"></a>ODBC Scalar 函数
 

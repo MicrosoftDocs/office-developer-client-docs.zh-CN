@@ -1,19 +1,19 @@
 ---
-title: 聚合函数、CALC 函数和 NEW 关键字
-TOCTitle: Aggregate Functions, the CALC Function, and the NEW Keyword
+title: 聚合函数、 CALC 函数和 NEW 关键字
+TOCTitle: Aggregate functions, the CALC function, and the NEW keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 35ee1bff23e1bcf04c1a9fd4cfc807edbd541148
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: db726ea0b51a345e0e40c9814cef100b90b1350f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882376"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947887"
 ---
-# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>聚合函数、CALC 函数和 NEW 关键字
+# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>聚合函数、 CALC 函数和 NEW 关键字
 
 
 **适用于**： Access 2013、 Office 2013

@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
 ms:contentKeyID: 48548768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b71e48f3fe0b596f085f02d371b0775695ffd5c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 15cae6f3f5e258a2312fcc4702333cde53be680d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874242"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947544"
 ---
 # <a name="bof-eof-properties-ado"></a>BOF、EOF 属性 (ADO)
 
 
 **适用于**： Access 2013、 Office 2013
 
-  - **BOF**  指示当前记录位置在 [Recordset](recordset-object-ado.md) 对象中的第一条记录之前。
+**BOF**  指示当前记录位置在 [Recordset](recordset-object-ado.md) 对象中的第一条记录之前。
 
-  - **EOF**  指示当前记录位置在 **Recordset** 对象中的最后一条记录之后。
+**EOF**  指示当前记录位置在 **Recordset** 对象中的最后一条记录之后。
 
 ## <a name="return-value"></a>返回值
 

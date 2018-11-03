@@ -1,17 +1,17 @@
 ---
 title: DataFactory 自定义
-TOCTitle: DataFactory Customization
+TOCTitle: DataFactory customization
 ms:assetid: 43cd7416-1f05-87ee-22f0-6cf0d2d1b39f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a7ddd728908212716256eaa65adc925548e739e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9de748b85e4bf6076c37f49e9d9bc7ff3b0bfe62
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879701"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947567"
 ---
 # <a name="datafactory-customization"></a>DataFactory 自定义
 
@@ -30,16 +30,10 @@ ms.locfileid: "25879701"
 
 有关自定义 **DataFactory** 对象的详细信息，请参阅以下主题：
 
-  - [了解自定义文件](understanding-the-customization-file.md)
-
-  - [自定义文件 Connect 节](customization-file-connect-section.md)
-
-  - [自定义文件 SQL 节](customization-file-sql-section.md)
-
-  - [自定义文件 UserList 节](customization-file-userlist-section.md)
-
-  - [自定义文件 Logs 节](customization-file-logs-section.md)
-
-  - [必需的客户端设置](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-
-  - [编写自己的自定义处理程序](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [了解自定义文件](understanding-the-customization-file.md)
+- [自定义文件 Connect 节](customization-file-connect-section.md)
+- [自定义文件 SQL 节](customization-file-sql-section.md)
+- [自定义文件 UserList 节](customization-file-userlist-section.md)
+- [自定义文件 Logs 节](customization-file-logs-section.md)
+- [所需的客户端设置](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [编写您自己的自定义处理程序](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

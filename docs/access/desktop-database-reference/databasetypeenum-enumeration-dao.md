@@ -1,19 +1,19 @@
 ---
-title: DatabaseTypeEnum Enumeration (DAO)
-TOCTitle: DatabaseTypeEnum Enumeration
+title: DatabaseTypeEnum 枚举 (DAO)
+TOCTitle: DatabaseTypeEnum enumeration
 ms:assetid: a9bfc7cd-63d2-a012-bd3b-4cec072706c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821447(v=office.15)
 ms:contentKeyID: 48546934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 436194d62f340e7646ead934e6831c249135afb2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 62595d6403746323c101dc1101f3a4e677903955
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891028"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946893"
 ---
-# <a name="databasetypeenum-enumeration-dao"></a>DatabaseTypeEnum Enumeration (DAO)
+# <a name="databasetypeenum-enumeration-dao"></a>DatabaseTypeEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

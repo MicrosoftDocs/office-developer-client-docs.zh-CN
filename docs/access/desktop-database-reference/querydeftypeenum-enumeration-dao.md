@@ -1,19 +1,19 @@
 ---
-title: QueryDefTypeEnum Enumeration (DAO)
+title: QueryDefTypeEnum 枚举 (DAO)
 TOCTitle: QueryDefTypeEnum Enumeration
 ms:assetid: 4327af31-daa1-88a2-fef5-8894181eee8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192931(v=office.15)
 ms:contentKeyID: 48544495
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3151a5d0fa63d4defd6f2547782f16b366a66b9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 401c6100436d2e937c44b07ee3abee1bb787dea8
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886541"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947459"
 ---
-# <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum Enumeration (DAO)
+# <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

@@ -1,17 +1,17 @@
 ---
 title: 对 ADOX 的提供程序支持
-TOCTitle: Provider Support for ADOX
+TOCTitle: Provider support for ADOX
 ms:assetid: 32ea3236-d69f-df94-1685-d8791aeb9e0f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249100(v=office.15)
 ms:contentKeyID: 48544091
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b19d30f9b243629874f7219c5b23af895540eaa9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bdd9ca9a2274f03f1592f73c3da5a6837101fda2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881137"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947824"
 ---
 # <a name="provider-support-for-adox"></a>对 ADOX 的提供程序支持
 

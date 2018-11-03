@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 24e7940c86b079d5eb51fa894426a19e7700bf39
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: f16ae14bc468ce1d96b924faa04bb9a315cab708
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937482"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946263"
 ---
 # <a name="transaction-processing"></a>事务处理
 

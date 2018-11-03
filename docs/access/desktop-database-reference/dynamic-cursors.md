@@ -1,17 +1,17 @@
 ---
 title: 动态游标 （访问桌面数据库参考 （英文）
-TOCTitle: Dynamic Cursors
+TOCTitle: Dynamic cursors
 ms:assetid: ae599d86-6b89-6103-fda1-c899a6138e1d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249823(v=office.15)
 ms:contentKeyID: 48547068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c0cb4c9e4c8dd17098f6d94d83793fbcbc28cef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 63c67e028eaa478a2d348bd7c4dc4e945b3256a6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869825"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947152"
 ---
 # <a name="dynamic-cursors"></a>动态游标
 

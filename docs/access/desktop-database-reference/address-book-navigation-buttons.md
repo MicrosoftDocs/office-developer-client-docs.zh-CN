@@ -1,20 +1,19 @@
 ---
 title: 通讯簿导航按钮
-TOCTitle: Address Book Navigation Buttons
+TOCTitle: Address Book navigation buttons
 ms:assetid: 4ec32c08-5b35-8dce-23ec-0daa4db551cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0a6409bcdeca211c3badb1ca7918d3d34bc3f1f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d1a8caae94bf56532b45dcfa3e647ba092552795
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869020"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947551"
 ---
 # <a name="address-book-navigation-buttons"></a>通讯簿导航按钮
-
 
 **适用于**： Access 2013、 Office 2013
 

@@ -1,17 +1,17 @@
 ---
 title: 通讯簿命令按钮
-TOCTitle: Address Book Command Buttons
+TOCTitle: Address Book command buttons
 ms:assetid: bcea6f53-3e36-b067-03c2-b157ed02d41d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249908(v=office.15)
 ms:contentKeyID: 48547422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e445414ead78bb5e1b05b3f3812e86f1d6c119ef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f586b92f309ffd330230bf732d0e477acf0a8ba9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869510"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946926"
 ---
 # <a name="address-book-command-buttons"></a>通讯簿命令按钮
 
@@ -21,13 +21,13 @@ ms.locfileid: "25869510"
 
 通讯簿应用程序包括以下命令按钮：
 
-  - “查找”按钮，用于向数据库提交查询。
+- **“查找”** 按钮，用于向数据库提交查询。
 
-  - **清除**的按钮，用于在开始新的搜索之前清除文本框。
+- **清除**的按钮，用于在开始新的搜索之前清除文本框。
 
-  - “更新配置文件”按钮，用于保存对雇员记录所做的更改。
+- **“更新配置文件”** 按钮，用于保存对雇员记录所做的更改。
 
-  - “取消更改”按钮，用于放弃更改。
+- **“取消更改”** 按钮，用于放弃更改。
 
 ## <a name="find-button"></a>"查找"按钮
 

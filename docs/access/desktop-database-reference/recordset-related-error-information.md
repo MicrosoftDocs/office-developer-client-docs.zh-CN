@@ -1,20 +1,19 @@
 ---
 title: 与记录集相关的错误信息
-TOCTitle: Recordset-Related Error Information
+TOCTitle: Recordset-related error information
 ms:assetid: 388308c7-e121-bd12-228a-312c897b8c55
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249136(v=office.15)
 ms:contentKeyID: 48544222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f2df186db80515fdc9a7e77b8030d3ccd82ad793
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5b0dc56ba591263cd834e26ca4e89a371f272d5a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888697"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946466"
 ---
 # <a name="recordset-related-error-information"></a>与记录集相关的错误信息
-
 
 **适用于**： Access 2013、 Office 2013
 

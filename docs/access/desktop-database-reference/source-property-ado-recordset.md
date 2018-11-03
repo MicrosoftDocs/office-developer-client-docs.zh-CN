@@ -1,19 +1,19 @@
 ---
-title: Source 属性 (ADO Recordset)
-TOCTitle: Source Property (ADO Recordset)
+title: Source 属性（ADO 记录集）
+TOCTitle: Source property (ADO Recordset)
 ms:assetid: 523ea81e-d011-8d87-436e-084b6eba0908
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249269(v=office.15)
 ms:contentKeyID: 48544843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 32d3d44094e9e5922b7c5e0cfa59ccd1f344ef0f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a58ac3c5315daef040ba6a999753a19f76504087
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879135"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947566"
 ---
-# <a name="source-property-ado-recordset"></a>Source 属性 (ADO Recordset)
+# <a name="source-property-ado-recordset"></a>Source 属性（ADO 记录集）
 
 
 **适用于**： Access 2013、 Office 2013

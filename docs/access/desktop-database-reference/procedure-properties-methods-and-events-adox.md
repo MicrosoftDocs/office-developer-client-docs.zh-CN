@@ -6,27 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250083(v=office.15)
 ms:contentKeyID: 48548009
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b35a42c518549861b434ffeed8d494263093d2c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 99bc5780bca527dedb7071e1fb8afa1818f7abff
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928059"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947957"
 ---
 # <a name="procedure-properties-methods-and-events-adox"></a>过程属性、 方法和事件 (ADOX)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 ## <a name="properties"></a>属性
 
 - [Command 属性](command-property-adox.md)
-
 - [DateCreated 属性](datecreated-property-adox.md)
-
 - [DateModified 属性](datemodified-property-adox.md)
-
 - [Name 属性](name-property-adox.md)
 
 ## <a name="methods"></a>方法

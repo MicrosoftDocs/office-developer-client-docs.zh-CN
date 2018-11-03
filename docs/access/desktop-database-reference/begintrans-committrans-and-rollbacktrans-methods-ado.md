@@ -1,31 +1,29 @@
 ---
 title: BeginTrans、CommitTrans 和 RollbackTrans 方法 (ADO)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods (ADO)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods (ADO)
 ms:assetid: 9a0415f0-9424-8d1c-4779-92e932292d46
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 68e827f6177c0ea90d4dd8d74c9782d552b3fdd2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884665"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945920"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans、CommitTrans 和 RollbackTrans 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 以下事务方法用于管理 [Connection](connection-object-ado.md) 对象中的事务处理：
 
-  - **BeginTrans** - 开始新的事务。
+- **BeginTrans** - 开始新的事务。
 
-  - **CommitTrans** - 保存任何更改并结束当前事务。还可以开始一个新的事务。
+- **CommitTrans** - 保存任何更改并结束当前事务。还可以开始一个新的事务。
 
-  - **RollbackTrans** - 取消当前事务过程中所做的任何更改并结束事务。还可以开始一个新的事务。
+- **RollbackTrans** - 取消当前事务过程中所做的任何更改并结束事务。还可以开始一个新的事务。
 
 ## <a name="syntax"></a>语法
 
@@ -43,14 +41,13 @@ ms.locfileid: "25884665"
 
 ## <a name="parameters"></a>参数
 
-  - *object*
+- *object*
 
   - **Connection** 对象。
 
-**Connection**
+### <a name="connection"></a>Connection
 
 如果要将对源数据所做的一系更改列作为一个整体进行保存或取消，那么可以对 **Connection** 对象使用这些方法。例如，若要在帐户之间转账，那么可以从一个帐户中减去该笔金额，并在另一个帐户中增加相同的金额。如果其中任意一个更新失败，那么这两个帐户之间将不再平衡。若在打开的事务中进行这些更改，即可确保所有更改全部生效或全都无效。
-
 
 > [!NOTE]
 > 并非所有的提供程序都支持事务。请确认提供程序定义的属性“**Transaction DDL**”出现在 **Connection** 对象的 [Properties](properties-collection-ado.md) 集合中，这表示提供程序支持事务。如果提供程序不支持事务，则调用其中的任一方法将返回错误。
@@ -63,7 +60,7 @@ ms.locfileid: "25884665"
 
 根据 **Connection** 对象 [Attributes](attributes-property-ado.md) 属性的不同，调用 **CommitTrans** 或 **RollbackTrans** 方法可能会自动启动一个新的事务。如果 **Attributes** 属性设置为 **adXactCommitRetaining** ，那么提供程序会在 **CommitTrans** 调用之后自动启动一个新的事务。如果 **Attributes** 属性设置为 **adXactAbortRetaining** ，那么提供程序会在 **RollbackTrans** 调用之后自动启动一个新的事务。
 
-**远程数据服务**
+### <a name="remote-data-service"></a>远程数据服务
 
 对于客户端 **Connection** 对象， **BeginTrans** 、 **CommitTrans** 和 **RollbackTrans** 方法不可用。
 

@@ -1,20 +1,19 @@
 ---
-title: 数据定形必需的提供程序
-TOCTitle: Required Providers for Data Shaping
+title: 必需的提供程序数据定形
+TOCTitle: Required providers for data shaping
 ms:assetid: eb8933fb-d533-3ea7-e045-35c1ca585765
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250194(v=office.15)
 ms:contentKeyID: 48548488
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: de8634503c81bd2c66eeda0c64a8b1ff1b6f5363
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fd4460b96cf222a9c6e4f7a8ea66ed22c0f2ff10
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885348"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947635"
 ---
-# <a name="required-providers-for-data-shaping"></a>数据定形必需的提供程序
-
+# <a name="required-providers-for-data-shaping"></a>必需的提供程序数据定形
 
 **适用于**： Access 2013、 Office 2013
 

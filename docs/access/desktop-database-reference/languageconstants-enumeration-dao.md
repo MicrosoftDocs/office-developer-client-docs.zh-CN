@@ -1,19 +1,19 @@
 ---
-title: LanguageConstants Enumeration (DAO)
+title: LanguageConstants 枚举 (DAO)
 TOCTitle: LanguageConstants Enumeration
 ms:assetid: a39c2628-0b87-2e7e-93fc-a56c5f4956bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821047(v=office.15)
 ms:contentKeyID: 48546794
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 590c3de7382f315eba819f1f8ca135e3a30d5d1b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 209b80e4d0b8c3b5701859e8a2ec7f98385121d4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874221"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945906"
 ---
-# <a name="languageconstants-enumeration-dao"></a>LanguageConstants Enumeration (DAO)
+# <a name="languageconstants-enumeration-dao"></a>LanguageConstants 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

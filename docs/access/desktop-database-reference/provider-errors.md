@@ -1,17 +1,17 @@
 ---
 title: 提供程序错误 （访问桌面数据库参考 （英文）
-TOCTitle: Provider Errors
+TOCTitle: Provider errors
 ms:assetid: 9c39d450-6e67-b2fd-aeb5-849e6b65fd54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
 ms:contentKeyID: 48546592
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 18d226ff8ff270705d8e30425f83eabc289383b1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d176b08e35888afbbde8c5d485887c00e413d74d
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883244"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947173"
 ---
 # <a name="provider-errors"></a>提供程序错误
 

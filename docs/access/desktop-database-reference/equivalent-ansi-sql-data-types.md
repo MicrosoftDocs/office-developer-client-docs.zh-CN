@@ -1,6 +1,6 @@
 ---
 title: 等价的 ANSI SQL 数据类型
-TOCTitle: Equivalent ANSI SQL Data Types
+TOCTitle: Equivalent ANSI SQL data types
 ms:assetid: 720abf59-f9ef-4e14-4223-c873f604ad58
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195814(v=office.15)
 ms:contentKeyID: 48545599
@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed13aab8d1f6851dd05ea2d79877e34c14665a3f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: d1a07e3a7565e15fc5689bf73fe066a3529d3234
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937160"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946277"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>等价的 ANSI SQL 数据类型
 

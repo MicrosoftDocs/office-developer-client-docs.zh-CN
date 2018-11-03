@@ -1,17 +1,17 @@
 ---
 title: 持久化筛选和分层记录集
-TOCTitle: Persisting Filtered and Hierarchical Recordsets
+TOCTitle: Persisting filtered and hierarchical Recordsets
 ms:assetid: 3648a997-dac7-d8a3-3cca-a6827f26a4f0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249120(v=office.15)
 ms:contentKeyID: 48544162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 931345aff0cd3d8c9b10c53073e640b3cfdd5de5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 13255bcd5cd40745a767b8aff9f49449b0127294
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889712"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946116"
 ---
 # <a name="persisting-filtered-and-hierarchical-recordsets"></a>持久化筛选和分层记录集
 
@@ -22,6 +22,6 @@ ms.locfileid: "25889712"
 
 
 > [!NOTE]
-> <P>[!注释] 以 XML 格式保存分层 <STRONG>Recordset</STRONG> （数据定形）时，有某些限制。有关详细信息，请参阅 <A href="hierarchical-recordsets-in-xml.md"> XML 中的分层记录集 </A>。</P>
+> [!注释] 以 XML 格式保存分层 **Recordset** （数据定形）时，有某些限制。有关详细信息，请参阅 [ XML 中的分层记录集 ](hierarchical-recordsets-in-xml.md)。
 
 

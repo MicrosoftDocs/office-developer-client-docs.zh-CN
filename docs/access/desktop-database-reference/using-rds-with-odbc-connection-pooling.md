@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249437(v=office.15)
 ms:contentKeyID: 48545513
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ecba73414a120309758aa2fa37af6da15a7c220b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 35a4327a76ff34f503c988e8d51f5aa73d6c454b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870364"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946718"
 ---
-# <a name="using-rds-with-odbc-connection-pooling"></a>将 RDS 与 ODBC 连接池结合使用
+# <a name="using-rds-with-odbc-connection-pooling"></a>使用 RDS 与 ODBC 连接池
 
 
 **适用于**： Access 2013、 Office 2013

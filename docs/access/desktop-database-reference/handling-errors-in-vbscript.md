@@ -1,17 +1,17 @@
 ---
 title: 在 VBScript 中处理错误
-TOCTitle: Handling Errors in VBScript
+TOCTitle: Handling errors in VBScript
 ms:assetid: df8f96d5-b917-ddac-d274-6345b2499bf1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc7f915b32c9a6bec79afe5de554bf7863030c03
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c442472fa30568cc60aec83c2a2de3ecf7ba2f71
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869797"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945969"
 ---
 # <a name="handling-errors-in-vbscript"></a>在 VBScript 中处理错误
 

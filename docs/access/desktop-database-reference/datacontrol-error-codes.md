@@ -1,17 +1,17 @@
 ---
 title: DataControl 错误代码
-TOCTitle: DataControl Error Codes
+TOCTitle: DataControl error codes
 ms:assetid: d81446e2-aae6-b460-08a3-eae9920dc767
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250089(v=office.15)
 ms:contentKeyID: 48548027
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 38e9f726b596e9e523b759b639cd6b96055fd1d8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fcb9a2cd456e09edc84475fb47c5cca8a548d561
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876349"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947761"
 ---
 # <a name="datacontrol-error-codes"></a>DataControl 错误代码
 

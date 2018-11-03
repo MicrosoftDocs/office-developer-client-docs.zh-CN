@@ -1,17 +1,17 @@
 ---
 title: Shape Compute 子句
-TOCTitle: Shape Compute Clause
+TOCTitle: Shape Compute clause
 ms:assetid: f4fee4a6-ec9e-c0b6-40e0-258f76c4696f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250245(v=office.15)
 ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e35cfc7bc5df144fa1938f794cb705bf2f1448c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4f8dbeb97a4afdc068d635411d6035f68ba1168b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889929"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946396"
 ---
 # <a name="shape-compute-clause"></a>Shape Compute 子句
 

@@ -1,20 +1,19 @@
 ---
 title: 多维架构和数据概述
-TOCTitle: Overview of Multidimensional Schemas and Data
+TOCTitle: Overview of multidimensional schemas and data
 ms:assetid: a963e993-b7bf-eeb4-ecd5-d6fe43cf4bb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 67bdcdbaa525039f544a7d45cb4411faeee297e8
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 2ce7366437028ed1e745c596c38b2c0314acefd2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937027"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945892"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>多维架构和数据概述
-
 
 **适用于**： Access 2013、 Office 2013
 

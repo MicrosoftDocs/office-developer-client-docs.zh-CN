@@ -1,20 +1,19 @@
 ---
-title: 授予 Web 服务器计算机; 来宾权限RDS 来宾权限
-TOCTitle: Granting Guest Privileges to a Web Server Computer; RDS guest privileges
+title: 授予 web 服务器计算机; 来宾权限RDS 来宾权限
+TOCTitle: Granting guest privileges to a web server computer; RDS guest privileges
 ms:assetid: 4ec9c05b-36f6-de22-b848-0cb8573f9dd1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
 ms:contentKeyID: 48544766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 213e405718d50369367d439457e8026d4ef71242
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: f1f127e4ea9393d3b461e9b7da2901df554ee36b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937503"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947208"
 ---
-# <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>授予 Web 服务器计算机; 来宾权限RDS 来宾权限 
-
+# <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>授予 web 服务器计算机; 来宾权限RDS 来宾权限
 
 **适用于**： Access 2013、 Office 2013
 

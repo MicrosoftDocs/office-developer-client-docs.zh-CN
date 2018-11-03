@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249088(v=office.15)
 ms:contentKeyID: 48544057
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9db5617eecff862ad941a4160c4b92bfa09d4c2d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fece7aea728e1c98ac290c23172ce351cc38f342
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885918"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947187"
 ---
-# <a name="the-microsoft-cursor-service-for-ole-db"></a>Microsoft Cursor Service for OLE DB
+# <a name="microsoft-cursor-service-for-ole-db"></a>OLE DB 的 Microsoft 光标服务
 
 
 **适用于**： Access 2013、 Office 2013

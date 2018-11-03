@@ -1,17 +1,17 @@
 ---
 title: RDS 对象模型摘要
-TOCTitle: RDS Object Model Summary
+TOCTitle: RDS object model summary
 ms:assetid: 0355d62a-dabb-8643-5c43-1e98ccf7f3b0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248800(v=office.15)
 ms:contentKeyID: 48542981
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d15e451b99c54989e5168d99058cc4dd6ed79232
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 13ca1f9bfd9dc507ce921de58bed17e933fbeaeb
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875866"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947929"
 ---
 # <a name="rds-object-model-summary"></a>RDS 对象模型摘要
 

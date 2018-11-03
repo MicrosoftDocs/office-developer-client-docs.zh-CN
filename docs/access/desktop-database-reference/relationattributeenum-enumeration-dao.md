@@ -1,19 +1,19 @@
 ---
-title: RelationAttributeEnum Enumeration (DAO)
+title: RelationAttributeEnum 枚举 (DAO)
 TOCTitle: RelationAttributeEnum Enumeration
 ms:assetid: ce8d0696-66d7-052f-1313-64baee3442ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834499(v=office.15)
 ms:contentKeyID: 48547787
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bdb1af980d272f24c5803af9cfba0140dba8b05e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: edcf578780a2ffe1f384aeb590c6bea16ca9376f
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874600"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945773"
 ---
-# <a name="relationattributeenum-enumeration-dao"></a>RelationAttributeEnum Enumeration (DAO)
+# <a name="relationattributeenum-enumeration-dao"></a>RelationAttributeEnum 枚举 (DAO)
 
 
 **适用于**： Access 2013、 Office 2013

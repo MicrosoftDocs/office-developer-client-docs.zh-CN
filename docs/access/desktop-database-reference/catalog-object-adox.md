@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31a0d2212f063eca013c1668b47e548df1405366
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8bb6024043655c2529ce8309e5a6bead08cb4225
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922571"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947054"
 ---
 # <a name="catalog-object-adox"></a>Catalog 对象 (ADOX)
 
@@ -26,9 +26,9 @@ ms.locfileid: "25922571"
 
 使用 **Catalog** 对象的属性和方法，可以执行下列操作：
 
-  - 通过将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为 ADO [Connection](connection-object-ado.md) 对象或有效的连接字符串来打开目录。
+- 通过将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为 ADO [Connection](connection-object-ado.md) 对象或有效的连接字符串来打开目录。
 
-  - 使用 [Create](create-method-adox.md) 方法创建新目录。
+- 使用 [Create](create-method-adox.md) 方法创建新目录。
 
-  - 使用 **GetObjectOwner** 和 [SetObjectOwner](getobjectowner-method-adox.md) 方法确定 [Catalog](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) 中的对象的所有者。
+- 使用 **GetObjectOwner** 和 [SetObjectOwner](getobjectowner-method-adox.md) 方法确定 [Catalog](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) 中的对象的所有者。
 

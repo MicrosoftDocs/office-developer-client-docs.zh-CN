@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e38df07831e21a92afdf8106b6d8eb3844396cc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 21609d6299caf6de5e2fe0b777796033b69d9f87
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936754"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946690"
 ---
 # <a name="indexes-collection-dao"></a>Indexes 集合 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,9 +25,7 @@ ms.locfileid: "25936754"
 
 
 > [!NOTE]
-> <P>[!注释] 仅当包含 <STRONG>Indexes</STRONG> 集合的 <STRONG>TableDef</STRONG> 对象的 <A href="connection-updatable-property-dao.md"><STRONG>Updatable</STRONG></A> 属性设置为 <STRONG>True</STRONG> 时，才能对该集合使用 <STRONG>Append</STRONG> 或 <STRONG>Delete</STRONG> 方法。</P>
-
-
+> [!注释] 仅当包含 **Indexes** 集合的 **TableDef** 对象的 [**Updatable**](connection-updatable-property-dao.md) 属性设置为 **True** 时，才能对该集合使用 **Append** 或 **Delete** 方法。
 
 创建新的 **Index** 对象之后，应使用 **Append** 方法将该对象添加到 **TableDef** 对象的 **Indexes** 集合中。
 

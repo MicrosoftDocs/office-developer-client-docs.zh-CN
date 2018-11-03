@@ -1,19 +1,19 @@
 ---
 title: 保留数据 （访问桌面数据库参考 （英文）
-TOCTitle: Persisting Data
+TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
 ms:contentKeyID: 48547715
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f4db6e157ff5999dbf8892029840529c2306ef4e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9d72ba6d895fc5aac2612eb3f81ecc95ac032d49
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869930"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946746"
 ---
-# <a name="persisting-data"></a>暂留数据
+# <a name="persisting-data"></a>保留数据
 
 
 **适用于**： Access 2013、 Office 2013
