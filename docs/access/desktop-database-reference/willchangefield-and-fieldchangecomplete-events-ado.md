@@ -6,59 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
 ms:contentKeyID: 48547407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2967b6670ad96752e7ce47d82227fad70335e1f6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5c6f6d0f44000c0e40f93b7acfc461c7e3fb4e9c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927401"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949836"
 ---
-# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a><span data-ttu-id="a5c9b-102">WillChangeField 和 FieldChangeComplete 事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="a5c9b-102">WillChangeField and FieldChangeComplete events (ADO)</span></span>
+# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a><span data-ttu-id="b39a8-102">WillChangeField 和 FieldChangeComplete 事件 (ADO)</span><span class="sxs-lookup"><span data-stu-id="b39a8-102">WillChangeField and FieldChangeComplete events (ADO)</span></span>
 
+<span data-ttu-id="b39a8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b39a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a5c9b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5c9b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b39a8-p101">**WillChangeField** 事件在挂起的操作更改 [Recordset](field-object-ado.md) 中的一个或多个 [Field](recordset-object-ado.md) 对象的值之前调用。 **FieldChangeComplete** 事件在一个或多个 **Field** 对象的值已更改之后调用。</span><span class="sxs-lookup"><span data-stu-id="b39a8-p101">The **WillChangeField** event is called before a pending operation changes the value of one or more [Field](field-object-ado.md) objects in the [Recordset](recordset-object-ado.md). The **FieldChangeComplete** event is called after the value of one or more **Field** objects has changed.</span></span>
 
-<span data-ttu-id="a5c9b-p101">**WillChangeField** 事件在挂起的操作更改 [Recordset](field-object-ado.md) 中的一个或多个 [Field](recordset-object-ado.md) 对象的值之前调用。 **FieldChangeComplete** 事件在一个或多个 **Field** 对象的值已更改之后调用。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-p101">The **WillChangeField** event is called before a pending operation changes the value of one or more [Field](field-object-ado.md) objects in the [Recordset](recordset-object-ado.md). The **FieldChangeComplete** event is called after the value of one or more **Field** objects has changed.</span></span>
+## <a name="syntax"></a><span data-ttu-id="b39a8-106">语法</span><span class="sxs-lookup"><span data-stu-id="b39a8-106">Syntax</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a5c9b-106">语法</span><span class="sxs-lookup"><span data-stu-id="a5c9b-106">Syntax</span></span>
+<span data-ttu-id="b39a8-107">WillChangeField*cFields*，*字段*， *adStatus* *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="b39a8-107">WillChangeField*cFields*, *Fields*, *adStatus*, *pRecordset*</span></span>
 
-<span data-ttu-id="a5c9b-107">WillChangeField*cFields*，*字段*， *adStatus* *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="a5c9b-107">WillChangeField*cFields*, *Fields*, *adStatus*, *pRecordset*</span></span>
+<span data-ttu-id="b39a8-108">FieldChangeComplete*cFields*，*字段*， *pError* *adStatus*、 *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="b39a8-108">FieldChangeComplete*cFields*, *Fields*, *pError*, *adStatus*, *pRecordset*</span></span>
 
-<span data-ttu-id="a5c9b-108">FieldChangeComplete*cFields*，*字段*， *pError* *adStatus*、 *pRecordset*</span><span class="sxs-lookup"><span data-stu-id="a5c9b-108">FieldChangeComplete*cFields*, *Fields*, *pError*, *adStatus*, *pRecordset*</span></span>
+## <a name="parameters"></a><span data-ttu-id="b39a8-109">参数</span><span class="sxs-lookup"><span data-stu-id="b39a8-109">Parameters</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="a5c9b-109">参数</span><span class="sxs-lookup"><span data-stu-id="a5c9b-109">Parameters</span></span>
+|<span data-ttu-id="b39a8-110">参数</span><span class="sxs-lookup"><span data-stu-id="b39a8-110">Parameter</span></span>|<span data-ttu-id="b39a8-111">说明</span><span class="sxs-lookup"><span data-stu-id="b39a8-111">Description</span></span>|
+|:--------|:----------|
+|<span data-ttu-id="b39a8-112">*cFields*</span><span class="sxs-lookup"><span data-stu-id="b39a8-112">*cFields*</span></span> |<span data-ttu-id="b39a8-113">**长整型**值，指示 *Fields* 中 **Field** 对象的数量。</span><span class="sxs-lookup"><span data-stu-id="b39a8-113">A **Long** that indicates the number of **Field** objects in *Fields*.</span></span>|
+|<span data-ttu-id="b39a8-114">*Fields*</span><span class="sxs-lookup"><span data-stu-id="b39a8-114">*Fields*</span></span> |<span data-ttu-id="b39a8-115">对于**WillChangeField**，*字段*参数是包含的原始值与**Field**对象的**变量**的数组。</span><span class="sxs-lookup"><span data-stu-id="b39a8-115">For **WillChangeField**, the *Fields* parameter is an array of **Variants** that contains **Field** objects with the original values.</span></span> <br/><br/><span data-ttu-id="b39a8-116">对于**FieldChangeComplete**，*字段*参数是包含更改的值与**Field**对象的**变量**的数组。</span><span class="sxs-lookup"><span data-stu-id="b39a8-116">For **FieldChangeComplete**, the *Fields* parameter is an array of **Variants** that contains **Field** objects with the changed values.</span></span>|
+|<span data-ttu-id="b39a8-117">*pError*</span><span class="sxs-lookup"><span data-stu-id="b39a8-117">*pError*</span></span> |<span data-ttu-id="b39a8-p102">[Error](error-object-ado.md) 对象。如果 *adStatus* 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。</span><span class="sxs-lookup"><span data-stu-id="b39a8-p102">An [Error](error-object-ado.md) object. It describes the error that occurred if the value of *adStatus* is **adStatusErrorsOccurred**; otherwise it is not set.</span></span>|
+|<span data-ttu-id="b39a8-120">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="b39a8-120">*adStatus*</span></span> |<span data-ttu-id="b39a8-121">[EventStatusEnum](eventstatusenum.md)。</span><span class="sxs-lookup"><span data-stu-id="b39a8-121">[EventStatusEnum](eventstatusenum.md).</span></span> <span data-ttu-id="b39a8-122">当调用**WillChangeField**时，此参数设置为**adStatusOK**如果导致事件的操作成功。</span><span class="sxs-lookup"><span data-stu-id="b39a8-122">When **WillChangeField** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful.</span></span> <span data-ttu-id="b39a8-123">如果此事件不能请求取消挂起的操作，它是设置为**adStatusCantDeny** 。</span><span class="sxs-lookup"><span data-stu-id="b39a8-123">It is set to **adStatusCantDeny** if this event cannot request cancellation of the pending operation.</span></span> <br/><br/><span data-ttu-id="b39a8-124">调用 **FieldChangeComplete** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果导致事件的操作失败，则该参数设置为 **adStatusErrorsOccurred** 。</span><span class="sxs-lookup"><span data-stu-id="b39a8-124">When **FieldChangeComplete** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful, or to **adStatusErrorsOccurred** if the operation failed.</span></span> <br/><br/><span data-ttu-id="b39a8-125">在 **WillChangeField** 返回之前，将该参数设置为 **adStatusCancel** 可以请求取消挂起的操作。</span><span class="sxs-lookup"><span data-stu-id="b39a8-125">Before **WillChangeField** returns, set this parameter to **adStatusCancel** to request cancellation of the pending operation.</span></span> <br/><br/><span data-ttu-id="b39a8-126">在 **FieldChangeComplete** 返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。</span><span class="sxs-lookup"><span data-stu-id="b39a8-126">Before **FieldChangeComplete** returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.</span></span>|
+|<span data-ttu-id="b39a8-127">*pRecordset*</span><span class="sxs-lookup"><span data-stu-id="b39a8-127">*pRecordset*</span></span> |<span data-ttu-id="b39a8-p104">**Recordset** 对象。发生此事件的 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="b39a8-p104">A **Recordset** object. The **Recordset** for which this event occurred.</span></span>|
 
-  - <span data-ttu-id="a5c9b-110">*cFields*</span><span class="sxs-lookup"><span data-stu-id="a5c9b-110">*cFields*</span></span>
+## <a name="remarks"></a><span data-ttu-id="b39a8-130">备注</span><span class="sxs-lookup"><span data-stu-id="b39a8-130">Remarks</span></span>
 
-  - <span data-ttu-id="a5c9b-111">**长整型**值，指示 *Fields* 中 **Field** 对象的数量。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-111">A **Long** that indicates the number of **Field** objects in *Fields*.</span></span>
-
-  - <span data-ttu-id="a5c9b-112">*Fields*</span><span class="sxs-lookup"><span data-stu-id="a5c9b-112">*Fields*</span></span>
-
-  - <span data-ttu-id="a5c9b-113">对于**WillChangeField**，*字段*参数是包含的原始值与**Field**对象的**变量**的数组。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-113">For **WillChangeField**, the *Fields* parameter is an array of **Variants** that contains **Field** objects with the original values.</span></span>  
-      
-    <span data-ttu-id="a5c9b-114">对于**FieldChangeComplete**，*字段*参数是包含更改的值与**Field**对象的**变量**的数组。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-114">For **FieldChangeComplete**, the *Fields* parameter is an array of **Variants** that contains **Field** objects with the changed values.</span></span>
-
-  - <span data-ttu-id="a5c9b-115">*pError*</span><span class="sxs-lookup"><span data-stu-id="a5c9b-115">*pError*</span></span>
-
-  - <span data-ttu-id="a5c9b-p102">[Error](error-object-ado.md) 对象。如果 *adStatus* 的值为 **adStatusErrorsOccurred** ，则此参数描述所发生的错误，否则不设置此参数。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-p102">An [Error](error-object-ado.md) object. It describes the error that occurred if the value of *adStatus* is **adStatusErrorsOccurred**; otherwise it is not set.</span></span>
-
-  - <span data-ttu-id="a5c9b-118">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="a5c9b-118">*adStatus*</span></span>
-
-  - [<span data-ttu-id="a5c9b-119">EventStatusEnum</span><span class="sxs-lookup"><span data-stu-id="a5c9b-119">EventStatusEnum</span></span>](eventstatusenum.md)
-    
-    <span data-ttu-id="a5c9b-p103">调用 **WillChangeField** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果此事件无法请求取消挂起操作，则该参数设置为 **adStatusCantDeny** 。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-p103">When **WillChangeField** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful. It is set to **adStatusCantDeny** if this event cannot request cancellation of the pending operation.</span></span>
-    
-    <span data-ttu-id="a5c9b-122">调用 **FieldChangeComplete** 时，如果导致事件的操作成功，则该参数设置为 **adStatusOK** ；如果导致事件的操作失败，则该参数设置为 **adStatusErrorsOccurred** 。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-122">When **FieldChangeComplete** is called, this parameter is set to **adStatusOK** if the operation that caused the event was successful, or to **adStatusErrorsOccurred** if the operation failed.</span></span>
-    
-    <span data-ttu-id="a5c9b-123">在 **WillChangeField** 返回之前，将该参数设置为 **adStatusCancel** 可以请求取消挂起的操作。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-123">Before **WillChangeField** returns, set this parameter to **adStatusCancel** to request cancellation of the pending operation.</span></span>
-    
-    <span data-ttu-id="a5c9b-124">在 **FieldChangeComplete** 返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-124">Before **FieldChangeComplete** returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.</span></span>
-
-  - <span data-ttu-id="a5c9b-125">*pRecordset*</span><span class="sxs-lookup"><span data-stu-id="a5c9b-125">*pRecordset*</span></span>
-
-  - <span data-ttu-id="a5c9b-p104">**Recordset** 对象。发生此事件的 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-p104">A **Recordset** object. The **Recordset** for which this event occurred.</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="a5c9b-128">备注</span><span class="sxs-lookup"><span data-stu-id="a5c9b-128">Remarks</span></span>
-
-<span data-ttu-id="a5c9b-129">设置 **Value** 属性并调用带有字段和值数组参数的 **Update** 方法时，可能会发生 [WillChangeField](value-property-ado.md) 或 [FieldChangeComplete](update-method-ado.md) 事件。</span><span class="sxs-lookup"><span data-stu-id="a5c9b-129">A **WillChangeField** or **FieldChangeComplete** event may occur when setting the [Value](value-property-ado.md) property and calling the [Update](update-method-ado.md) method with field and value array parameters.</span></span>
+<span data-ttu-id="b39a8-131">设置 **Value** 属性并调用带有字段和值数组参数的 **Update** 方法时，可能会发生 [WillChangeField](value-property-ado.md) 或 [FieldChangeComplete](update-method-ado.md) 事件。</span><span class="sxs-lookup"><span data-stu-id="b39a8-131">A **WillChangeField** or **FieldChangeComplete** event may occur when setting the [Value](value-property-ado.md) property and calling the [Update](update-method-ado.md) method with field and value array parameters.</span></span>
 
