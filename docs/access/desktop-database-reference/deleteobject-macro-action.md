@@ -10,23 +10,21 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65072fcc418e6a75ea1684c6830f3acfc4875aee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3ed8580d95128dae475a6d5fe3963f7daaad53f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921941"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997257"
 ---
 # <a name="deleteobject-macro-action"></a>DeleteObject 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **DeleteObject** 操作删除指定的数据库对象。
 
-
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -55,12 +53,8 @@ ms.locfileid: "25921941"
 </tbody>
 </table>
 
-
-
 > [!WARNING]
 > 如果**对象类型**和**对象名称**框为空，则 Access 将删除而不在遇到**DeleteObject**操作时显示一条警告消息在导航窗格中选择的对象。
-
-
 
 ## <a name="remarks"></a>说明
 

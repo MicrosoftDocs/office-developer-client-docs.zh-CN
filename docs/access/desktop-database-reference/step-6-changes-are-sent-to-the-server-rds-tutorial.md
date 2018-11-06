@@ -6,25 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249965(v=office.15)
 ms:contentKeyID: 48547611
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8677428c32c70bc11b9eef6f168b09c72592a0b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a9f75e5215e3e3d79363ab7110f7c16bcacf3cbb
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944247"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998992"
 ---
 # <a name="step-6-changes-are-sent-to-the-server-rds-tutorial"></a>步骤 6： 将更改发送到服务器 （RDS 教程）
-
 
 **适用于**： Access 2013、 Office 2013
 
 如果对 **Recordset** 对象进行编辑，则可以将任何更改（即，对行进行地添加、更改或删除）发回到服务器。
 
-
-> [!NOTE]
-> <P>RDS 的默认行为可通过 ADO 对象和 Microsoft OLE DB Remoting Provider 隐式调用。查询可返回 <STRONG>Recordset</STRONG>，经过编辑的 <STRONG>Recordset</STRONG> 则可以更新数据源。本教程不通过 ADO 对象调用 RDS，但在这里给出了它的形式：</P>
-
-
+[!注释] RDS 的默认行为可通过 ADO 对象和 Microsoft OLE DB Remoting Provider 隐式调用。 查询可以返回**记录集**，并将已编辑的**记录集**可以更新数据源。 本教程不通过 ADO 对象调用 RDS，但在这里给出了它的形式：
 
 ```vb 
  

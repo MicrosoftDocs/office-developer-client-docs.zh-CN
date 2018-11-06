@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd5bbe18af823e2b36772ef209db18ba6cb4b1d4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925266"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998810"
 ---
 # <a name="moveandsizewindow-macro-action"></a>MoveAndSizeWindow 宏操作
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 如果已将文档设置为使用重叠窗口而不是选项卡式文档的窗口选项，您可以使用**MoveAndSizeWindow**操作移动或调整活动窗口。 有关如何设置文档窗口选项的信息，请参阅备注部分。
 
@@ -61,17 +59,14 @@ ms.locfileid: "25925266"
 
 您必须至少一个参数输入值。
 
-
 > [!NOTE]
-> <P>每个度量值是以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。</P>
+> 每个度量值是以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。
 
-
-
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要设置应用程序使用重叠窗口而不是选项卡式文档，请使用以下过程：
 
-1.  ，然后单击**选项**
+1.  单击**选项**
 
 2.  单击**当前数据库**。
 
@@ -83,11 +78,9 @@ ms.locfileid: "25925266"
 
 您可以在任何窗口中，在任何视图中使用此操作。
 
-**提示**
-
-  - 若要移动窗口而不调整其大小，**右边**和**向下**参数输入值，但将**Width**和**Height**参数留空。
-
-  - 若要调整窗口大小而不移动的**宽度**和**高度**参数输入值，但将**右**和**关闭**参数留空。
+> [!TIP]
+> - 若要移动窗口而不调整其大小，**右边**和**向下**参数输入值，但将**Width**和**Height**参数留空。
+> - 若要调整窗口大小而不移动的**宽度**和**高度**参数输入值，但将**右**和**关闭**参数留空。
 
 若要在 Visual Basic for Applications (VBA) 模块中运行**MoveAndSizeWindow**操作，请使用**DoCmd**对象的**MoveSize**方法。
 

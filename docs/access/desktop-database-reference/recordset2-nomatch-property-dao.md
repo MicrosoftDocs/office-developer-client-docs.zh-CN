@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 083e76ea4e2a0800153d50fa0c61d5acb7a29645
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6975a438e4e724a6fc1f72be92088f0d07a5b44
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922179"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996704"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Recordset2.NoMatch 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -34,11 +33,8 @@ ms.locfileid: "25922179"
 
 如果 **Seek** 或 **Find** 方法不成功，且 **NoMatch** 属性为 **True**，则当前记录将不再有效。如果需要返回到当前记录，请在使用 **Seek** 方法或 **Find** 方法之前获取当前记录的书签。
 
-
 > [!NOTE]
-> <P>[!注释] 对 <A href="recordset-movefirst-method-dao.md">Recordset</A> 对象使用任何 <STRONG><STRONG>Move</STRONG></STRONG> 方法将不会影响其 <STRONG>NoMatch</STRONG> 属性设置。</P>
-
-
+> [!注释] 对 [Recordset](recordset-movefirst-method-dao.md) 对象使用任何 ****Move**** 方法将不会影响其 **NoMatch** 属性设置。
 
 ## <a name="example"></a>示例
 

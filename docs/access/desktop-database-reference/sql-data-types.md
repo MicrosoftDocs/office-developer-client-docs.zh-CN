@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd5deb6d14aaf5911cd87c4d562dbec74e7ad1f2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ef5a794014f1397202483e008d164cb5de0b5179
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944485"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997810"
 ---
 # <a name="sql-data-types"></a>SQL 数据类型
 
@@ -112,13 +112,6 @@ Microsoft Access 数据库引擎 SQL 数据类型包括由 Microsoft Jet 数据�
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>种子和增量都能够通过 <A href="alter-table-statement-microsoft-access-sql.md">ALTER TABLE 语句</A>进行修改。根据自动为列生成的新种子和增量值，插入表中的新行会具有值。如果新种子和增量产生的值与根据先前的种子和增量所产生的值相匹配，将产生重复值。如果该列是一个主键，那么生成重复值时插入新行就会产生错误。</P>
-> <LI>
-> <P>若要查找用于自动增量列的最后一个值，可以使用以下语句：SELECT @@IDENTITY。不能指定表名。返回的值来自更新的最后一个表（其中包含一个自动增加列）。</P></LI></UL>
-
-
+> - 种子和增量都能够通过 [ALTER TABLE 语句](alter-table-statement-microsoft-access-sql.md)进行修改。根据自动为列生成的新种子和增量值，插入表中的新行会具有值。如果新种子和增量产生的值与根据先前的种子和增量所产生的值相匹配，将产生重复值。如果该列是一个主键，那么生成重复值时插入新行就会产生错误。
+> - 若要查找用于自动增量列的最后一个值，可以使用以下语句：SELECT @@IDENTITY。不能指定表名。返回的值来自更新的最后一个表（其中包含一个自动增加列）。

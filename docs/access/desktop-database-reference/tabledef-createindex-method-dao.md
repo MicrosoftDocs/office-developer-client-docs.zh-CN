@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 73b6fb5c5a4b0b91904c92a1b445ddc41cb7c73e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 429b64ae3909e320433b34d1426e396926fafba7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931342"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997474"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>TableDef.CreateIndex 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013 
 
@@ -30,7 +29,7 @@ ms.locfileid: "25931342"
 
 *表达式*一个代表**TableDef**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -49,7 +48,7 @@ ms.locfileid: "25931342"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个对新的 <strong>Index</strong> 对象进行唯一命名的 <strong>String</strong>。有关有效 <strong>Index</strong> 名称的详细信息，请参阅 <strong>Name</strong> 属性。</p></td>
@@ -58,7 +57,7 @@ ms.locfileid: "25931342"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Index
 

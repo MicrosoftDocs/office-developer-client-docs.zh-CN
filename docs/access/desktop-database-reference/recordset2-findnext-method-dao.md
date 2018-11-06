@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835354(v=office.15)
 ms:contentKeyID: 48548121
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e454bd16482293c7ae8ef85b12f293c742889be
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 39d338a902e9f7bf1c5396b579f64b14284aa901
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931167"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998439"
 ---
 # <a name="recordset2findnext-method-dao"></a>Recordset2.FindNext 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25931167"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25931167"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>条件</p></td>
+<td><p><em>条件</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>用于查找记录的字符串。它类似于 SQL 语句中的 WHERE 子句，但不包括单词 WHERE。</p></td>
@@ -117,12 +116,8 @@ rstEmployees.FindFirst "HireDate > #" _
 
 如果条件组成的字符串串联非整数值，并且系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格\>"& lngPrice，和 lngPrice = 125,50)，当您尝试出错调用方法。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>为了获得最佳性能，<EM>条件</EM>应在窗体"<EM>字段</EM> = <EM>值</EM>"<EM>字段</EM>中的基础表或"<EM>字段</EM>LIKE<EM>前缀"其中<EM>字段</EM>是</EM>为索引的字段的其中索引的字段中的基础表和<EM>前缀</EM>为前缀搜索字符串 （例如，"画 *"）。</P>
-> <LI>
-> <P>一般而言，作为等效的搜索类型， <STRONG>Seek</STRONG> 方法的性能优于 <STRONG>Find</STRONG> 方法。这假定表类型的 <STRONG>Recordset</STRONG> 对象可单独满足您的需求。</P></LI></UL>
+> - 为了获得最佳性能，*条件** 应在窗体"*字段* = *值*"*字段*中的基础表或"*字段*LIKE*前缀"其中*字段*是*为索引的字段的其中索引的字段中的基础表和*前缀*为前缀搜索字符串 （例如，"画 *"）。
+> - 一般而言，作为等效的搜索类型， **Seek** 方法的性能优于 **Find** 方法。这假定表类型的 **Recordset** 对象可单独满足您的需求。
 
 

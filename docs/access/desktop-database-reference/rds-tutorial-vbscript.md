@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1c6b42d9560a30b45fb777bb4fd1de4351830a4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 996c0adf8c883de5c73174d726cf5bd11fc42457
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936292"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996879"
 ---
 # <a name="rds-tutorial-vbscript"></a>RDS 教程 (VBScript)
 
@@ -54,7 +54,7 @@ VBScript 可以发现 IIS web 服务器通过访问供 Active Server Pages 的 V
 但是，本教程使用虚构服务器"yourServer"。
 
 > [!NOTE]
-> <P>[!注释] 请留意 <STRONG>ByRef</STRONG> 参数的数据类型。VBScript 不允许指定变量类型，因此必须始终传递变量。使用 HTTP 时，如果您用 <STRONG>RDS.DataSpace</STRONG> 对象的 <A href="createobject-method-rds.md">CreateObject</A> 方法调用服务器程序，RDS 将允许您向应该使用非变量的方法传递变量。在使用 DCOM 或进程内服务器时，必须使客户端与服务器端的参数类型相匹配，否则将会产生"类型不匹配"错误。</P>
+> [!注释] 请留意 **ByRef** 参数的数据类型。VBScript 不允许指定变量类型，因此必须始终传递变量。使用 HTTP 时，如果您用 **RDS.DataSpace** 对象的 [CreateObject](createobject-method-rds.md) 方法调用服务器程序，RDS 将允许您向应该使用非变量的方法传递变量。在使用 DCOM 或进程内服务器时，必须使客户端与服务器端的参数类型相匹配，否则将会产生"类型不匹配"错误。
 
 ```vb
  

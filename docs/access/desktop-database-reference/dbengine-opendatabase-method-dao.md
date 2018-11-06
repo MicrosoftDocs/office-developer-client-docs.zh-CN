@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eb3f6795ba2e64ebd6be1b04d6aa6aecccef781b
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: a00c61ce4cbb9cb9d6088d521f0c2bdb3cf7f573
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950088"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998066"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase 方法 (DAO)
 

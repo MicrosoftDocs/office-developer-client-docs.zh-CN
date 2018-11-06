@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b6db77a3cd712717e5aa2eb22e89f90557a1dabf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b257473d2acd3d17f30a3fdd579d213dcd39487b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926015"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996900"
 ---
 # <a name="setlocalvar-macro-action"></a>SetLocalVar 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -55,7 +54,6 @@ ms.locfileid: "25926015"
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>注释
 
 由 **SetLocalVar** 操作创建的变量只能在定义这些变量的宏中使用。使用 **[SetTempVar](settempvar-macro-action.md)** 操作可定义可在其他宏、事件过程、窗体或报表中使用的变量。
@@ -64,8 +62,6 @@ ms.locfileid: "25926015"
 
 `=[LocalVars]![TotalAmount]`
 
-
 > [!NOTE]
-> <P>[!注释] 在数据宏中，您不必使用 LocalVars 集合来引用变量。 例如，如果您在一个名为 TotalAmount 的数据宏创建一个临时变量，您无法用作变量的控件来源文本框中使用以下语法<BR>= [TotalAmount]</P>
-
+> [!注释] 在数据宏中，您不必使用 LocalVars 集合来引用变量。 例如，如果您在一个名为 TotalAmount 的数据宏创建一个临时变量，您无法用作变量的控件来源文本框中使用以下语法： `=[TotalAmount]`。
 

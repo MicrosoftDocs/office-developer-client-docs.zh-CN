@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
 ms:contentKeyID: 48547148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa624c545d17ef0d56a076b3d30326bacd2c6edf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: edf413cbfac35aa20b09508c3af5069f18d5076e
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871960"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997432"
 ---
 # <a name="using-cachesize"></a>使用 CacheSize
-
 
 **适用于**： Access 2013、 Office 2013
 
 使用 **CacheSize** 属性可以控制一次从提供程序检索到本地内存中的记录数。例如，如果 **CacheSize** 为 10，则在首次打开 **Recordset** 对象后，提供程序会将前 10 条记录检索到本地内存中。在 **Recordset** 对象中移动时，提供程序将从本地内存缓冲区中返回数据。在通过缓存中的最后一条记录后，提供程序将立即从数据源中将接下来的 10 条记录检索到缓存中。
 
-
 > [!NOTE]
-> <P>[!注释] <STRONG>CacheSize</STRONG> 基于 <STRONG>Maximum Open Rows</STRONG> 提供程序特定的属性（位于 <STRONG>Recordset</STRONG> 对象的 <STRONG>Properties</STRONG> 集合中）。不能将 <STRONG>CacheSize</STRONG> 设置为大于 <STRONG>Maximum Open Rows</STRONG> 的值。若要修改提供程序可打开的行数，可设置 <STRONG>Maximum Open Rows</STRONG> 。</P>
-
-
+> [!注释] **CacheSize** 基于 **Maximum Open Rows** 提供程序特定的属性（位于 **Recordset** 对象的 **Properties** 集合中）。不能将 **CacheSize** 设置为大于 **Maximum Open Rows** 的值。若要修改提供程序可打开的行数，可设置 **Maximum Open Rows** 。
 
 **Recordset** 的值可以在 **CacheSize** 对象生存期间进行调整，但更改此值将仅影响在随后对数据源进行检索后缓存中的记录数。仅更此属性值不会更改缓存中的当前内容。
 

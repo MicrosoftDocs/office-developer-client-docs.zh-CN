@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 228c7d64d67b93a5f057c8d27c0f7a4fcc7d9064
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f8d245223549d51c49e769eedd0b92bb335357cf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921549"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996991"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Field.GetChunk 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25921549"
 
 *表达式*一个代表**Field**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ ms.locfileid: "25921549"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>开始复制前要跳过的字节数。</p></td>
 </tr>
 <tr class="even">
-<td><p>字节数</p></td>
+<td><p><em>字节数</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>要返回的字节数。</p></td>
@@ -64,7 +63,7 @@ ms.locfileid: "25921549"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Variant
 
@@ -76,11 +75,8 @@ Variant
 
 如果 numbytes 大于字段中的字节数， **GetChunk**将返回字段中的实际剩余的字节数。
 
-
 > [!NOTE]
 > [!注释] 对文本使用 **Memo** 字段，只能在 **Long Binary** 字段中放置二进制数据。否则会导致不合需要的结果。
-
-
 
 ## <a name="example"></a>示例
 

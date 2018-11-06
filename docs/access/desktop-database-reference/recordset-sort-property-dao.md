@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053063
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 18547162e7a0d64cc0ac7b0cdb2f0afa79185985
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b8dc3c551c9aa75da205717fef682f0abed7a54b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926260"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998726"
 ---
 # <a name="recordsetsort-property-dao"></a>Recordset.Sort 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25926260"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您可以使用**Sort**属性与动态集类型和快照 – 类型的**Recordset**对象。
 
@@ -40,11 +39,8 @@ ms.locfileid: "25926260"
 
 **Sort**属性不适用于为表 – 或向前仅类型的**Recordset**对象。 若要对表类型**Recordset**对象进行排序，使用的**[索引](recordset-index-property-dao.md)** 属性。
 
-
 > [!NOTE]
-> <P>[!注释] 在许多情况下，使用包含排序条件的 SQL 语句打开新的 <STRONG>Recordset</STRONG> 对象会快一些。</P>
-
-
+> [!注释] 在许多情况下，使用包含排序条件的 SQL 语句打开新的 **Recordset** 对象会快一些。
 
 ## <a name="example"></a>示例
 

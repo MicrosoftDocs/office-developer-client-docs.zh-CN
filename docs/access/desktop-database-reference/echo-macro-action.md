@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 947e3569d52558cc154ea751ecce204d02cbf7ec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 03eeab3884e093b7c22f8fd23d5471d1dc620bc8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921542"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997453"
 ---
 # <a name="echo-macro-action"></a>Echo 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -22,11 +21,8 @@ ms.locfileid: "25921542"
 
 ## <a name="setting"></a>设置
 
-
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。
 
 **Echo**操作具有下列参数。
 
@@ -54,7 +50,7 @@ ms.locfileid: "25921542"
 </table>
 
 
-时运行一个宏，更新显示信息通常已为宏的功能不必需的屏幕。 时将**打开回响**参数设置为**No**，宏将运行但没有更新屏幕。 宏执行完，Access 将自动打开回声和重画窗口。 **打开回响**参数的**无**设置不会影响宏或其结果的功能。
+当宏运行时，屏幕更新通常会显示信息不为宏的功能必需。 时将**打开回响**参数设置为**No**，宏将运行但没有更新屏幕。 宏执行完，Access 将自动打开回声和重画窗口。 **打开回响**参数的**无**设置不会影响宏或其结果的功能。
 
 **Echo**操作不会禁止显示模式对话框，例如错误消息或弹出式窗体，如属性表。 您可以使用对话框和弹出式窗体来收集或显示的信息，即使关闭回响。 若要取消所有邮件或对话框框除的错误消息框和要求用户输入信息的对话框，请使用**SetWarnings**操作。
 
@@ -66,7 +62,7 @@ ms.locfileid: "25921542"
 
 ## <a name="examples"></a>示例
 
-**通过使用宏设置控件的值**
+### <a name="set-the-value-of-a-control-by-using-a-macro"></a>通过使用宏设置控件的值
 
 下面的宏 Suppliers 窗体上的按钮打开添加产品窗体。 它演示如何使用**回声**、 **CloseWindow**、 **OpenForm**、 **SetValue**和**GoToControl**操作。 **SetValue**操作供应商窗体上将产品窗体上的供应商 ID 控件设置为当前供应商。 然后， **GoToControl**操作将焦点移到类别 ID 字段中，您可以开始新产品的输入数据。 这个宏应附加到 Suppliers 窗体上的添加产品按钮。
 
@@ -113,7 +109,7 @@ ms.locfileid: "25921542"
 </table>
 
 
-**通过使用宏同步处理窗体**
+### <a name="synchronize-forms-by-using-a-macro"></a>通过使用宏同步处理窗体
 
 下面的宏将在显示当前供应商的产品 Suppliers 窗体的右下角中打开产品列表窗体。 它演示如何使用**回声**、 **MessageBox**、 **GoToControl**、 **StopMacro**、 **OpenForm**，和**MoveAndSizeWindow**操作。 它还会显示具有**MessageBox**、 **GoToControl**和**StopMacro**操作的条件表达式使用。 这个宏应附加到 Suppliers 窗体上的查看产品按钮。
 

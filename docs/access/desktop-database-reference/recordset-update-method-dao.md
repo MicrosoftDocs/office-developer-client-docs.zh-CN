@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821467(v=office.15)
 ms:contentKeyID: 48546961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d095fd8288ddd3b778bb8d4384fdea9e423ad8d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6d81eaf181a87d6afc13dbf2908be307d120d349
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930306"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997019"
 ---
 # <a name="recordsetupdate-method-dao"></a>Recordset.Update 方法 (DAO)
 
@@ -23,7 +23,7 @@ ms.locfileid: "25930306"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -42,13 +42,13 @@ ms.locfileid: "25930306"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>一个 <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> 常量，指示"设置"中指定的更新类型（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="even">
-<td><p>Force</p></td>
+<td><p><em>Force</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p>一个 <strong>Boolean</strong> 值，指示是否将更改强制到数据库中，而不管自从 <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong> 、 <strong><a href="fields-delete-method-dao.md">Delete</a></strong> 或 <strong><a href="recordset-edit-method-dao.md">Edit</a></strong> 调用以来，其他用户是否更改了基础数据。如果为 <strong>True</strong> ，则会强制更改，并且只是覆盖由其他用户所做的更改。如果为 <strong>False</strong> （默认值），在更新处于待定状态时由其他用户所做的更改将导致更改对冲突的更改失败。不发生错误，但是 <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> 和 <strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong> 属性将分别指示冲突数和受冲突影响的行数（仅适用于 ODBCDirect 工作区）。  </p></td>
@@ -76,7 +76,6 @@ ms.locfileid: "25930306"
 在 Microsoft Access 工作区中，如果多用户环境中的 **Recordset** 对象的 **LockEdits** 属性设置为 **True** （悲观锁定），那么从使用 **Edit** 开始到执行了 **Update** 方法或取消了编辑的时间范围内，记录将保持锁定状态。 如果 **LockEdits** 属性设置为 **False** （乐观锁定），那会锁定此记录，并且在数据库中对它更新之前，将它与预编辑的记录进行比较。 
 
 如果自从使用 **Edit** 方法之后记录发生了更改， **Update** 操作将会失败。 Microsoft Access 数据库引擎连接的 ODBC 和可安装的 ISAM 数据库始终使用乐观锁定。 若要使用更改继续 **Update** 操作，请再次使用 **Update** 方法。 若要恢复到其他用户记录更改它，刷新当前记录，请使用 Move 0。
-
 
 > [!NOTE]
 > [!注释] 若要添加、编辑或删除记录，基础数据源中的记录必须存在唯一索引。如果不存在此索引，在 Microsoft Access 工作区中， **AddNew** 、 **Delete** 或 **Edit** 方法调用将发生"权限被拒绝"错误，在 ODBCDirect 工作区中， **Update** 调用将发生"无效参数"错误。

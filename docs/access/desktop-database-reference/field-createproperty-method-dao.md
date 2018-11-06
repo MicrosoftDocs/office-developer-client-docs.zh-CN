@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
 ms:contentKeyID: 48547202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 71d5a77543de05cd440e5b5c2cf40596d141b16d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 33658c923addf642685c87faf2a8234b4dc51676
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926148"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998019"
 ---
 # <a name="fieldcreateproperty-method-dao"></a>Field.CreateProperty 方法 (DAO)
 
@@ -26,7 +26,7 @@ ms.locfileid: "25926148"
 
 *表达式*一个代表**Field**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,25 +45,25 @@ ms.locfileid: "25926148"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个对新的 <strong>Property</strong> 对象进行唯一命名的 <strong>String</strong>。有关有效 <strong>Property</strong> 名称的详细信息，请参阅 <strong>Name</strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>类型</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个定义新的 <strong>Property</strong> 对象的数据类型的常量。有关有效数据类型的信息，请参阅 <strong><a href="field-type-property-dao.md">Type</a></strong> 属性。</p></td>
 </tr>
 <tr class="odd">
-<td><p>值</p></td>
+<td><p><em>Value</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个包含初始属性值的 <strong>Variant</strong>。有关详细信息，请参阅 <strong><a href="field-value-property-dao.md">Value</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>DDL</p></td>
+<td><p><em>DDL</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> （<strong>布尔</strong>子类型），该值指示<strong>属性</strong>DDL 对象。 默认值为 <strong>False</strong> 。 如果 DDL 为<strong>True</strong>，则用户无法更改或删除此<strong>Property</strong>对象，除非他们具有<strong>dbSecWriteDef</strong>权限。</p></td>
@@ -72,7 +72,7 @@ ms.locfileid: "25926148"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 属性
 

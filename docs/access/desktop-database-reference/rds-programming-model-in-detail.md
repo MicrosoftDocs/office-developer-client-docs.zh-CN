@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b152715c104c9c3a4d503254d0dc36622e29006c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ea0f47e8ad86ecac4dd2423c289e3891cd7c6719
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943827"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998523"
 ---
 # <a name="rds-programming-model-in-detail"></a>RDS 编程模型以查看细节
 
@@ -62,8 +62,7 @@ RDS 对象模型通过 [RDS.DataControl](datacontrol-object-rds.md) 对象来实
 
 RDS 支持自己的两个事件，这些事件独立于 ADO 事件模型。 会调用[onReadyStateChange](onreadystatechange-event-rds.md)事件只要**rds.DataControl** [ReadyState](readystate-property-rds.md)属性更改，因此在异步操作已成功完成，通知您终止，或遇到错误。 只要发生错误，便调用 [onError](onerror-event-rds.md) 事件，即使该错误发生于异步操作过程中也不例外。
 
-
 > [!NOTE]
-> <P>[!注释] Microsoft Internet Explorer 为 RDS 提供了其他两个事件： <STRONG>onDataSetChanged</STRONG> （ <STRONG>Recordset</STRONG> 可用但仍在检索行）和 <STRONG>onDataSetComplete</STRONG> （ <STRONG>Recordset</STRONG> 已完成行的检索）。</P>
+> [!注释] Microsoft Internet Explorer 为 RDS 提供了其他两个事件： **onDataSetChanged** （ **Recordset** 可用但仍在检索行）和 **onDataSetComplete** （ **Recordset** 已完成行的检索）。
 
 

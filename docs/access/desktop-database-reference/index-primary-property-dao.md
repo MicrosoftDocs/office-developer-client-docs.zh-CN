@@ -1,6 +1,6 @@
 ---
 title: Index.Primary 属性 (DAO)
-TOCTitle: Primary Property
+TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
 ms:contentKeyID: 48546336
@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2ef796ca15ea551010ebf3605a6662bf66d83131
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ff99f60fce41c7fa7de604a5109e68f6f744e68a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921878"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997642"
 ---
 # <a name="indexprimary-property-dao"></a>Index.Primary 属性 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 设置或返回一个值，该值指示 **[Index](index-object-dao.md)** 对象是否代表了对一个表的主键索引（仅适用于 Microsoft Access 工作区）。
 
@@ -37,11 +35,8 @@ ms.locfileid: "25921878"
 
 主键索引包含一个或多个字段，这些字段可以按预定义的顺序唯一地对表中的所有记录进行标识。由于索引字段必须唯一，因此 [Index](index-unique-property-dao.md) 对象的 ****Unique**** 属性设置为 **True**。如果主键索引包含多个字段，则每个字段可以包含重复值，但是由所有索引字段中的值组成的每个组合则必须是唯一的。主键索引由表的键组成，包含的字段通常与主键所包含的相同。
 
-
 > [!NOTE]
-> <P>[!注释] 您不必为表创建索引，但是在未添加索引的大型表中，访问特定记录可能会花费很长时间。 <A href="field-attributes-property-dao.md">Index</A> 对象中每个 <A href="field-object-dao.md"><STRONG>Field</STRONG></A> 对象的 <STRONG><STRONG>Attributes</STRONG></STRONG> 属性决定了记录的顺序，因此决定了对该索引使用的访问技术。当在数据库中创建新表时，最好对唯一标识每条记录的一个或多个字段创建索引，然后将 <STRONG>Index</STRONG> 对象的 <STRONG>Primary</STRONG> 属性设置为 <STRONG>True</STRONG>。</P>
-
-
+> [!注释] 您不必为表创建索引，但是在未添加索引的大型表中，访问特定记录可能会花费很长时间。 [Index](field-attributes-property-dao.md) 对象中每个 [**Field**](field-object-dao.md) 对象的 ****Attributes**** 属性决定了记录的顺序，因此决定了对该索引使用的访问技术。当在数据库中创建新表时，最好对唯一标识每条记录的一个或多个字段创建索引，然后将 **Index** 对象的 **Primary** 属性设置为 **True**。
 
 当设置表的主键时，该主键被自动定义为表的主键索引。
 

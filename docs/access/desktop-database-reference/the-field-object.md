@@ -1,20 +1,19 @@
 ---
 title: Field 对象 （访问桌面数据库参考 （英文）
-TOCTitle: The Field Object
+TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf5e5de6c45cd3b8cc8827a794f5c2ce394d8f43
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: d7a8dad03bee863ec53f2731f9e3c99287a70442
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947292"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997425"
 ---
 # <a name="field-object"></a>Field 对象
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -24,27 +23,27 @@ ms.locfileid: "25947292"
 
 使用 **Field** 对象的集合、方法和属性，可以执行以下操作：
 
-  - 通过使用 **Name** 属性返回字段的名称。
+- 通过使用 **Name** 属性返回字段的名称。
 
-  - 通过使用 **Value** 属性查看或更改字段中的数据。 **Value** 是 **Field** 对象的默认属性。
+- 通过使用 **Value** 属性查看或更改字段中的数据。 **Value** 是 **Field** 对象的默认属性。
 
-  - 通过使用 **Type** 、 **Precision** 和 **NumericScale** 属性，返回字段的基本特征。
+- 通过使用 **Type** 、 **Precision** 和 **NumericScale** 属性，返回字段的基本特征。
 
-  - 通过使用 **DefinedSize** 属性，返回字段的声明大小。
+- 通过使用 **DefinedSize** 属性，返回字段的声明大小。
 
-  - 通过使用 **ActualSize** 属性，返回给定字段中数据的实际大小。
+- 通过使用 **ActualSize** 属性，返回给定字段中数据的实际大小。
 
-  - 通过使用 **Attributes** 属性和 **Properties** 集合，确定给定字段所支持的功能类型。
+- 通过使用 **Attributes** 属性和 **Properties** 集合，确定给定字段所支持的功能类型。
 
-  - 通过使用 **AppendChunk** 和 **GetChunk** 方法，对包含长二进制或长字符数据的字段中的值进行操作。
+- 通过使用 **AppendChunk** 和 **GetChunk** 方法，对包含长二进制或长字符数据的字段中的值进行操作。
 
-通过使用 **OriginalValue** 和 **UnderlyingValue** 属性，在批更新期间解析字段值中的误差（如果提供程序支持批更新）。
+- 通过使用 **OriginalValue** 和 **UnderlyingValue** 属性，在批更新期间解析字段值中的误差（如果提供程序支持批更新）。
 
 ## <a name="describing-a-field"></a>描述字段
 
 后面的主题将讨论 [Field](field-object-ado.md) 对象的属性，这些属性提供了描述 **Field** 对象本身的信息 - 即有关字段的元数据。此信息可以用来确定有关 **Recordset** 架构的很多信息。这些属性包括 **Type** 、 **DefinedSize** 和 **ActualSize** 、 **Name** 以及 **NumericScale** 和 **Precision** 。
 
-## <a name="discovering-the-data-type"></a>发现数据类型
+## <a name="discovering-the-data-type"></a>发现的数据类型
 
 **Type** 属性用于指示字段的数据类型。 [DataTypeEnum](datatypeenum.md) *ADO 程序员参考*中描述了 ADO 支持的数据类型枚举常量。
 
@@ -64,13 +63,10 @@ ms.locfileid: "25947292"
 
 若要更改字段中的数据，请将 **Value** 属性设置为等于正确类型的新值。游标类型必须支持更新，才能更改字段内容。在批模式下，不在这里进行数据库验证，因此在这种情况下需要在调用 **UpdateBatch** 时检查是否有错误。某些提供程序还支持 ADO **Field** 对象的 **UnderlyingValue** 和 **OriginalValue** 属性，以便在您试图执行批更新时帮助您解决冲突。有关如何解决这类冲突的详细信息，请参阅 [第 4 章：编辑数据](chapter-4-editing-data.md)。
 
-
 > [!NOTE]
-> <P>[!注释] 将新的 <STRONG>Fields</STRONG> 追加到 <STRONG>Recordset</STRONG> 时不能设置 <STRONG>Recordset Field</STRONG> 值，但可以将新的 <STRONG>Fields</STRONG> 追加到已关闭的 <STRONG>Recordset</STRONG> 。然后，必须打开 <STRONG>Recordset</STRONG> ，只有这时才能将值赋给这些 <STRONG>Fields</STRONG> 。</P>
+> [!注释] 将新的 **Fields** 追加到 **Recordset** 时不能设置 **Recordset Field** 值，但可以将新的 **Fields** 追加到已关闭的 **Recordset** 。然后，必须打开 **Recordset** ，只有这时才能将值赋给这些 **Fields** 。
 
-
-
-## <a name="getting-more-field-information"></a>获取更多字段信息
+## <a name="getting-more-field-information"></a>获取字段的详细信息
 
 ADO 对象有两种类型的属性：内置和动态。到目前为止，只讨论了 **Field** 对象的内置属性。
 
@@ -82,13 +78,13 @@ ADO 对象有两种类型的属性：内置和动态。到目前为止，只讨�
 
 动态 **Property** 对象有四个它自己的内置属性：
 
-  - **Name** 属性是用于标识该属性的字符串。
+- **Name** 属性是用于标识该属性的字符串。
 
-  - **Type** 属性是用于指定属性数据类型的整数。
+- **Type** 属性是用于指定属性数据类型的整数。
 
-  - **Value** 属性是包含属性设置的变量型。 **Value** 是 **Property** 对象的默认属性。
+- **Value** 属性是包含属性设置的变量型。 **Value** 是 **Property** 对象的默认属性。
 
-  - **Attributes** 属性是 **Long** 值，用于指示特定于提供程序的属性的特征。
+- **Attributes** 属性是 **Long** 值，用于指示特定于提供程序的属性的特征。
 
 **Field** 对象的 **Properties** 集合包含有关字段的其他元数据。此集合的内容因提供程序而异。以下代码示例将检查本章开头引入的示例 **Recordset** 的 **Properties** 集合。它首先查看集合的内容。此代码使用 [OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md)，因此 **Properties** 集合包含该提供程序的相关信息。
 

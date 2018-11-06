@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249825(v=office.15)
 ms:contentKeyID: 48547072
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c03a6495b6d95723469d14dc1c3d9d2972760865
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ef617f91aa6f36969932a4d8f2914df2de935787
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937167"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998159"
 ---
 # <a name="solutions-for-remote-data-access"></a>远程数据访问解决方案
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -28,11 +27,8 @@ ms.locfileid: "25937167"
 
 在本例中，应用程序始终都不与数据源直接连接，与数据源直接连接的是 IIS。且 IIS 通过 ADO 来访问数据。
 
-
 > [!NOTE]
-> <P>[!注释] 客户端/服务器应用程序无需基于 Internet 或 Intranet（即基于 Web）- 它可以完全由局域网上的已编译程序构成。不过，一般情况下都是基于 Web 的应用程序。</P>
-
-
+> 不需要基于 Internet 或 intranet 上的客户端/服务器应用程序 (即，基于 web 的) — 它可以包含单独的局域网上编译的程序。 但是，典型情况是基于 web 的应用程序。
 
 由于某些可视控件（如网格、复选框或列表）可能使用返回的信息，因此可视控件必须能方便地使用返回的信息。
 
@@ -40,5 +36,5 @@ ms.locfileid: "25937167"
 
 ## <a name="the-solution"></a>解决方案
 
-RDS 定义了一个编程模型（即获取数据源的访问权并对其更新所需的活动序列），以通过诸如 Internet 信息服务 (IIS) 的中间程序来访问数据。编程模型中囊括了 RDS 的全部功能。
+RDS 定义编程模型 — 活动需要访问和更新数据源的顺序 — 即可通过中间，如 Internet 信息服务 (IIS) 中的数据访问。 编程模型中囊括了 RDS 的全部功能。
 

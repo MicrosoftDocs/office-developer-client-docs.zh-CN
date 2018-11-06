@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ecdfcb638a471a91cc6249636748c02b341151b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 342b4c38b6a48ad36dc6d62ee34900e6f2057d42
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922550"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996865"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **SetMenuItem** 操作设置 **"加载项"** 选项卡上的自定义菜单或全局菜单上的菜单项的状态（已启用或已禁用、已选择或未选择）。
 
-
 > [!NOTE]
-> <P><STRONG>SetMenuItem</STRONG>操作仅适用于使用菜单宏创建的自定义和全局菜单。 仅为与早期版本兼容的 Microsoft Access 包含<STRONG>SetMenuItem</STRONG>操作。 不适用于命令栏功能。 但是，您可以使用在 Visual Basic for Applications (VBA) 模块禁用或启用并选择或取消选择快捷菜单上的项目中<STRONG>启用</STRONG>和<STRONG>状态</STRONG>属性或自定义或全局菜单。</P>
-
-
+> **SetMenuItem**操作仅适用于使用菜单宏创建的自定义和全局菜单。 仅为与早期版本兼容的 Microsoft Access 包含**SetMenuItem**操作。 不适用于命令栏功能。 但是，您可以使用在 Visual Basic for Applications (VBA) 模块禁用或启用并选择或取消选择快捷菜单上的项目中**启用**和**状态**属性或自定义或全局菜单。
 
 ## <a name="setting"></a>设置
 

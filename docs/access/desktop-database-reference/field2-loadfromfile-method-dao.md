@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ba28bc092a09bc4a2899923957a54670abf30d58
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bb073dfbdbf4ad9d87314c04a0ae2f97e7cfddc3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936610"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996928"
 ---
 # <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile 方法 (DAO)
 
@@ -33,7 +33,7 @@ ms.locfileid: "25936610"
 
 *表达式*一个代表**Field2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ ms.locfileid: "25936610"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>FileName</p></td>
+<td><p><em>FileName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>要加载的文件的完全限定路径。</p></td>

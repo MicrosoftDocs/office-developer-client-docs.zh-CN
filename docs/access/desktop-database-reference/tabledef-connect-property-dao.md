@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 322b59c6556b73186fe4034e64c75d9104d29560
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5ce90c362d6d8cddcbf04326b5443b2c1dda2ae
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926897"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996788"
 ---
 # <a name="tabledefconnect-property-dao"></a>TableDef.Connect 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -159,12 +158,6 @@ ms.locfileid: "25926897"
 
 对于 Micorosoft Access 数据库中的基表， **Connect** 属性设置为零长度字符串 ("")。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>必须先设置 <STRONG>Connect</STRONG> 属性，然后才能设置 <STRONG>ReturnsRecords</STRONG> 属性。</P>
-> <LI>
-> <P>您必须有权访问包含您尝试访问的数据库服务器的计算机。</P></LI></UL>
-
-
+> - 必须先设置 **Connect** 属性，然后才能设置 **ReturnsRecords** 属性。
+> - 您必须有权访问包含您尝试访问的数据库服务器的计算机。

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bde47da0bea38ac6ce71ae88a95b756fce6aa2f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 75e0422b6c6fcd2f893777884d35bade81a793f6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929375"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997040"
 ---
 # <a name="stream-object-ado"></a>Stream 对象 (ADO)
 
@@ -22,7 +22,7 @@ ms.locfileid: "25929375"
 
 ## <a name="remarks"></a>说明
 
-在文件系统或电子邮件系统等树状分层结构中，[Record](record-object-ado.md) 可能具有与其关联的默认二进制位流，其中包含文件或电子邮件的内容。 **Stream** 对象可以用来处理包含这些数据流的字段或记录。可以通过以下方式获得 **Stream** 对象：
+树状层次结构例如文件系统或电子邮件系统，[记录](record-object-ado.md)可能包含的文件或电子邮件的内容与之关联的二进制文件的默认二进制流。 **Stream** 对象可以用来处理包含这些数据流的字段或记录。 可以通过以下方式获得 **Stream** 对象：
 
   - 从指向包含二进制数据或文本数据的对象（通常为文件）的 URL 获得。该对象可以是简单文档、表示结构化文档的 **Record** 对象或文件夹。
 

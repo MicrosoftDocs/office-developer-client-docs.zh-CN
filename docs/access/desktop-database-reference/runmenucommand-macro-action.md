@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f01fc72a620e5c08a6f98b4b69a8eb8da7b98bbb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 27fc0c38ec0f3ec98c2709a96b6dedcce17db693
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925672"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996809"
 ---
 # <a name="runmenucommand-macro-action"></a>RunMenuCommand 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -47,18 +46,14 @@ ms.locfileid: "25925672"
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>说明
 
 可以使用 **RunMenuCommand** 操作运行自定义菜单栏、全局菜单栏、自定义快捷菜单或全局快捷菜单中的 Access 命令。
 
 可以在具有条件表达式的宏内使用 **RunMenuCommand** 操作，以便根据某些条件运行命令。
 
-
 > [!NOTE]
-> <P>单击<STRONG>文件</STRONG>选项卡，然后单击<STRONG>最近</STRONG>显示最近使用过的数据库。 您可以单击其中一个数据库，而不是单击<STRONG>打开</STRONG>。 这些数据库项不显示在下拉列表框中的<STRONG>命令</STRONG>参数，并且在宏中使用<STRONG>RunMenuCommand</STRONG>操作不可用。</P>
-
-
+> 单击**文件**选项卡，然后单击**最近**显示最近使用过的数据库。 您可以单击其中一个数据库，而不是单击**打开**。 这些数据库项不显示在下拉列表框中的**命令**参数，并且在宏中使用**RunMenuCommand**操作不可用。
 
 从以前版本的 Access 转换 Access 数据库时，某些命令可能不再可用。 命令可能已重命名，移动到不同的菜单上，或可能不再在 Access 中可用。 此类命令的**DoMenuItem**操作无法转换为**RunMenuCommand**操作。 当打开该宏时，Access 将显示空白**命令**参数此类命令的**RunMenuCommand**操作。 您必须编辑该宏，并输入有效的命令的参数，或删除**RunMenuCommand**操作。
 

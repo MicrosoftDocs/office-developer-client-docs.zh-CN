@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a926bed97cf3f21e81fbf01eae554aaec45406a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a397b0f88bb60552a6e53432a3c8c4d788013103
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947782"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997269"
 ---
 # <a name="how-event-handlers-work-together"></a>事件处理程序如何协同工作
 
@@ -45,8 +45,7 @@ ms.locfileid: "25947782"
 
 Microsoft Visual C++ 等编程语言具有的灵活性使您能够用一个事件处理程序来处理多个对象的事件。例如，您可以用一个 **Disconnect** 事件处理程序处理几个 **Connection** 对象的事件。如果其中一个连接结束，则会调用该 **Disconnect** 事件处理程序。您可以确定哪个连接导致该事件，因为事件处理程序对象参数会设置为相应的 **Connection** 对象。
 
-
 > [!NOTE]
-> <P>[!注释] 在 Visual Basic 中无法使用此技术，因为该语言只能将一个对象与一个事件处理程序相关。</P>
+> [!注释] 在 Visual Basic 中无法使用此技术，因为该语言只能将一个对象与一个事件处理程序相关。
 
 

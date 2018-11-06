@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm50135
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 50346ce66d32d91a4f902adbb5600438d214e1fb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7951836b3f975e81d0f7cd21b38d42532082c48d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921325"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997572"
 ---
 # <a name="openview-macro-action"></a>OpenView 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 在 Microsoft Access 项目中，可以使用 **OpenView** 操作在数据表视图、设计视图或打印预览中打开视图。如果在数据表视图中打开命名视图，此操作将运行该视图。您可以为视图选择数据输入模式，以及限制视图显示的记录。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -66,11 +62,9 @@ ms.locfileid: "25921325"
 
 此操作类似于在导航窗格中双击视图，或者在导航窗格中右键单击视图，然后单击所需的命令。
 
-**提示**
-
-  - 您可以将视图从导航窗格拖至某个宏操作行。这会自动创建在数据表视图中打开该视图的 **OpenView** 操作。
-
-  - 通常，当视图运行时，会显示一些系统消息（指明运行的是视图并显示将受到影响的记录数）。如果不想显示这些系统消息，可以使用 **SetWarning** 操作禁止其显示。
+> [!TIP]
+> - 您可以将视图从导航窗格拖至某个宏操作行。这会自动创建在数据表视图中打开该视图的 **OpenView** 操作。
+> - 通常，当视图运行时，会显示一些系统消息（指明运行的是视图并显示将受到影响的记录数）。如果不想显示这些系统消息，可以使用 **SetWarning** 操作禁止其显示。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **OpenView** 操作，请使用 **DoCmd** 对象的 **OpenView** 方法。
 

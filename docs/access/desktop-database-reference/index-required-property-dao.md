@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052963
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 44fa827be7359c598ff610313be4c2acf30d5e50
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5daadde111c18831108c1149170b71960d84b64
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920562"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996837"
 ---
 # <a name="indexrequired-property-dao"></a>Index.Required 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -32,11 +31,8 @@ ms.locfileid: "25920562"
 
 ## <a name="remarks"></a>注解
 
-
 > [!NOTE]
-> <P>[!注释] 在您可以为 <STRONG>Index</STRONG> 对象或 <STRONG>Field</STRONG> 对象设置该属性时，请为 <STRONG>Field</STRONG> 对象设置该属性。这是因为需要先检查 <STRONG>Field</STRONG> 对象属性设置的有效性，然后检查 <STRONG>Index</STRONG> 对象属性设置的有效性。</P>
-
-
+> [!注释] 在您可以为 **Index** 对象或 **Field** 对象设置该属性时，请为 **Field** 对象设置该属性。这是因为需要先检查 **Field** 对象属性设置的有效性，然后检查 **Index** 对象属性设置的有效性。
 
 **Required** 属性的可用性取决于包含 [Fields](fields-collection-dao.md) 集合的对象，如下表所示。
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249260(v=office.15)
 ms:contentKeyID: 48544798
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1cbebeab95f862cfab6b8e40d9dc5dfde7c65bee
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fe02965bbfe0905a7bb29d5c268e6f1323c4801b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945479"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998208"
 ---
 # <a name="running-the-address-book-sample-application"></a>运行通讯簿示例应用程序
 

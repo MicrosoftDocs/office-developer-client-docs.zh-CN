@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
 ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c4aaf826785a7c8033077ee76aed4d232e3a2a0
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 52be8f652c8cf9e39d36efccc86d35187129df4f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950242"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999069"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Database.CreateQueryDef 方法 (DAO)
 

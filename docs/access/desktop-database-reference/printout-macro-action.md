@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 125aa2a4d289db64d21859b6bd12b703c44aff6c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c2e5b3e2cdfb743df8a098d3978ccd3d6eb66d90
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926750"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999027"
 ---
 # <a name="printout-macro-action"></a>PrintOut 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **PrintOut** 操作来打印打开的数据库中的活动对象。可以打印数据表、报表、窗体、数据访问页和模块。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -78,11 +74,8 @@ ms.locfileid: "25926750"
 
 此操作类似于选择某个对象，单击 **"文件"** 选项卡，然后单击 **"打印"**。但是，在执行此操作时，不会出现 **"打印"** 对话框。
 
-
 > [!TIP]
-> <P>[!提示] 如果您有经常使用的特定打印设置，请创建一个包含 <STRONG>PrintOut</STRONG> 操作的宏，并让该操作的参数使用这些设置。</P>
-
-
+> [!提示] 如果您有经常使用的特定打印设置，请创建一个包含 **PrintOut** 操作的宏，并让该操作的参数使用这些设置。
 
 此操作的参数与 **"打印"** 对话框中的选项相对应。但是，与 **FindRecord** 操作和 **"查找和替换"** 对话框不同，这些参数设置并不与 **"打印"** 对话框选项共享。
 

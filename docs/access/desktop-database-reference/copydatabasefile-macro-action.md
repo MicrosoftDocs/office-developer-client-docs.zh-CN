@@ -6,24 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f2034bb4d8d1fbf3f1a0a37bf6adc7c8b8001bb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 330ae78b86c678b675cfd44afa75f72348ac582f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925203"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998908"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopyDatabaseFile 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **CopyDatabaseFile** 操作为连接至 Microsoft Access 项目的当前 Microsoft SQL Server 7.0（或更高版本）数据库创建一个副本。 访问当前数据库分离，然后将其附加到目标服务器。 有关分离和附加数据库的详细信息，请参阅 SQL Server 文档。
 
-
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 
 ## <a name="setting"></a>设置
@@ -52,13 +49,7 @@ ms.locfileid: "25925203"
 </tr>
 <tr class="odd">
 <td><p><strong>断开所有用户</strong></p></td>
-<td><p>指定访问应强制关闭数据库的用户。 如果设置为<strong>是</strong>，连接到当前数据库的任何用户已断开连接，以便可以继续执行复制数据库操作。 如果设置为<strong>No</strong> ，另一个或多个用户连接到数据库，则复制数据库操作将失败。 默认值为 <strong>"否"</strong>。</p>
-
-> [!WARNING]
-> 在无充分警告的情况下断开用户与数据库的连接可能会导致数据丢失。
-
-
-<p></p></td>
+<td><p>指定访问应强制关闭数据库的用户。 如果设置为<strong>是</strong>，连接到当前数据库的任何用户已断开连接，以便可以继续执行复制数据库操作。 如果设置为<strong>No</strong> ，另一个或多个用户连接到数据库，则复制数据库操作将失败。 默认值为 <strong>"否"</strong>。</p><p><strong>警告</strong>： 数据库中断开用户，无充分警告可能会导致数据丢失。</p></td>
 </tr>
 </tbody>
 </table>
@@ -72,19 +63,17 @@ ms.locfileid: "25925203"
 
 复制数据库的要求：
 
-  - 复制数据库文件之前，必须断开与所有应用程序和用户的连接。
+- 复制数据库文件之前，必须断开与所有应用程序和用户的连接。
 
-  - 必须关闭除导航窗格以外的所有对象和视图。
+- 必须关闭除导航窗格以外的所有对象和视图。
 
-  - 不得复制当前数据库。
+- 不得复制当前数据库。
 
-  - 源服务器数据库必须是 Microsoft SQL Server 7.0 版或更高版本，或是在本地计算机上运行的 SQL Server 2000 Desktop Engine。
+- 源服务器数据库必须是 Microsoft SQL Server 7.0 版或更高版本，或是在本地计算机上运行的 SQL Server 2000 Desktop Engine。
 
-<!-- end list -->
+- 源服务器上的 SQL Server 数据库必须是单个文件数据库。
 
-  - 源服务器上的 SQL Server 数据库必须是单个文件数据库。
-
-  - 您在源和目标 SQL Server 计算机上必须都是 sysadmin 角色的成员。
+- 您在源和目标 SQL Server 计算机上必须都是 sysadmin 角色的成员。
 
 要在 Visual Basic for Applications 模块中运行 **CopyDatabaseFile** 操作，请使用 **DoCmd** 对象的 **CopyDatabaseFile** 方法。
 

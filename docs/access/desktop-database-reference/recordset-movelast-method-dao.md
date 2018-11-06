@@ -1,20 +1,19 @@
 ---
 title: Recordset.MoveLast 方法 (DAO)
-TOCTitle: MoveLast Method
+TOCTitle: MoveLast method
 ms:assetid: fc0f7a33-1f55-9f5b-b00d-1b81f49b1c3e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837192(v=office.15)
 ms:contentKeyID: 48548881
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44b38825ad2757be1cb17bfc7f7a6721bc073968
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 22c028601024df79f5ca75c8845decae31935dc3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920093"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998775"
 ---
 # <a name="recordsetmovelast-method-dao"></a>Recordset.MoveLast 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25920093"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25920093"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>设置为 <strong>dbRunAsync</strong> 可异步运行对 <strong>MoveLast</strong> 的调用。</p></td>
@@ -66,11 +65,10 @@ ms.locfileid: "25920093"
 
 如果 recordset 引用表类型**Recordset** （仅限 Microsoft Access 工作区），则移动遵循当前索引。 可以使用 **Index** 属性设置当前索引。 如果不设置当前索引，则返回记录的顺序将是不确定的。
 
-
 > [!NOTE]
-> <P>[!注释] 可使用 <STRONG>MoveLast</STRONG> 方法完全填充动态集类型或快照集类型的 <STRONG>Recordset</STRONG>，以便在 <STRONG>Recordset</STRONG> 中提供当前的记录数。但是，如果以这种方式使用 <STRONG>MoveLast</STRONG>，可能会减慢应用程序的性能。如果绝对有必要获取有关最近打开的 <STRONG>Recordset</STRONG> 的准确记录计数，只应使用 <STRONG>MoveLast</STRONG> 获取记录计数。如果将 <STRONG>dbRunAsync</STRONG> 常量用于 <STRONG>MoveLast</STRONG>，则方法调用是异步的。可以使用 <STRONG>StillExecuting</STRONG> 属性确定何时完全填充了 <STRONG>Recordset</STRONG>，并可使用 <STRONG>Cancel</STRONG> 方法终止执行异步的 <STRONG>MoveLast</STRONG> 方法调用。</P>
-
-
+> [!注释] 可使用 **MoveLast** 方法完全填充动态集类型或快照集类型的 **Recordset**，以便在 **Recordset** 中提供当前的记录数。 但是，如果以这种方式使用 **MoveLast**，可能会减慢应用程序的性能。 如果绝对有必要获取有关最近打开的 **Recordset** 的准确记录计数，只应使用 **MoveLast** 获取记录计数。 
+> 
+> 如果将 **dbRunAsync** 常量用于 **MoveLast**，则方法调用是异步的。 可以使用 **StillExecuting** 属性确定何时完全填充了 **Recordset**，并可使用 **Cancel** 方法终止执行异步的 **MoveLast** 方法调用。
 
 不能对仅向前类型**Recordset**对象使用**MoveFirst**、 **MoveLast**和**MovePrevious**方法。
 

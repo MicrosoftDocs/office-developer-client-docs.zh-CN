@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02fd4c5dc5c44e15d8318653bbef9755899d61f6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 88334bc2d8d1290d21cb9bccddea0801cc51b3b3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947789"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997054"
 ---
 # <a name="what-you-can-do-with-ado"></a>用 ADO 可以执行的操作
 
@@ -20,31 +20,31 @@ ms.locfileid: "25947789"
 
 ADO 旨在向开发人员提供一个功能强大的逻辑对象模型，使用该模型，可以通过 OLE DB 系统接口以编程方式访问、编辑和更新广泛的数据源。ADO 最常见的用法是：在关系数据库中查询表，在应用程序中检索记录并显示结果，有可能允许用户更改数据并保存所做的更改。使用 ADO，还能够以编程方式执行下列操作：
 
-  - 使用 SQL 查询数据库并显示结果。
+- 使用 SQL 查询数据库并显示结果。
 
-  - 通过 Internet 访问文件存储区中的信息。
+- 通过 Internet 访问文件存储区中的信息。
 
-  - 操作电子邮件系统中的邮件和文件夹。
+- 操作电子邮件系统中的邮件和文件夹。
 
-  - 将数据库中的数据保存到 XML 文件中。
+- 将数据库中的数据保存到 XML 文件中。
 
-  - 允许用户检索数据库表中的数据并对这些数据进行更改。
+- 允许用户检索数据库表中的数据并对这些数据进行更改。
 
-  - 创建和重新使用参数化数据库命令。
+- 创建和重新使用参数化数据库命令。
 
-  - 执行存储过程。
+- 执行存储过程。
 
-  - 以动态方式创建一个名为 **Recordset** 的灵活结构，用来存放、导航和操作数据。
+- 以动态方式创建一个名为 **Recordset** 的灵活结构，用来存放、导航和操作数据。
 
-  - 执行事务数据库操作。
+- 执行事务数据库操作。
 
-  - 基于运行时条件对数据库信息的本地副本进行筛选和排序。
+- 基于运行时条件对数据库信息的本地副本进行筛选和排序。
 
-  - 创建和操作数据库中的分层结果。
+- 创建和操作数据库中的分层结果。
 
-  - 将数据库中的字段绑定到能够识别数据的组件。
+- 将数据库中的字段绑定到能够识别数据的组件。
 
-  - 创建已断开连接的远程 **Recordset** 。
+- 创建已断开连接的远程 **Recordset** 。
 
 ADO 必须公开广泛的选项和设置，才能提供这样的灵活性。因此，一定要采取系统的方法来了解如何在应用程序中使用 ADO，并将每个目标都分成可管理的部分。
 

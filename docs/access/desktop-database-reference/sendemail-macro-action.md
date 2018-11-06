@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196780(v=office.15)
 ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa783dcc7ad02cc36b14ef9ef97436cb1ad88e4a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a5016500b62a465f21ecab93a6fb66c9e6d514e1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924685"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998838"
 ---
 # <a name="sendemail-macro-action"></a>SendEmail 宏操作
 
-
 **适用于**： Access 2013、 Office 2013
 
-**SendEmail** 操作可发送电子邮件。
-
+**SendEmail**操作可发送电子邮件。
 
 > [!NOTE]
-> <P>[!注释] <STRONG>SendEmail</STRONG> 操作仅适用于数据宏。</P>
-
-
+> [!注释] **SendEmail** 操作仅适用于数据宏。
 
 ## <a name="setting"></a>设置
 

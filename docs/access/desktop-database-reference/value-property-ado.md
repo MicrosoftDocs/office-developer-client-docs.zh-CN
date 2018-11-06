@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
 ms:contentKeyID: 48548958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 856f145c195c189775355fef662ea082ec629fd0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a61803648a0efa5f226b222fb54ce96c8aadbfe
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883937"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999055"
 ---
 # <a name="value-property-ado"></a>Value 属性 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,11 +29,8 @@ ms.locfileid: "25883937"
 
 ADO 允许设置和返回 **Value** 属性的长二进制数据。
 
-
 > [!NOTE]
-> <P>[!注释] 对于 <STRONG>Parameter</STRONG> 对象，ADO 只从提供程序那里读取一次 <STRONG>Value</STRONG> 属性。如果某命令包含 <STRONG>Value</STRONG> 属性为空的 <STRONG>Parameter</STRONG> 并且将使用该命令来创建 <A href="recordset-object-ado.md">Recordset</A>，则请确保首先关闭 <STRONG>Recordset</STRONG> ，然后再检索 <STRONG>Value</STRONG> 属性。否则，对于某些提供程序， <STRONG>Value</STRONG> 属性可能为空，并且不包含正确的值。</P>
-
-
+> [!注释] 对于 **Parameter** 对象，ADO 只从提供程序那里读取一次 **Value** 属性。如果某命令包含 **Value** 属性为空的 **Parameter** 并且将使用该命令来创建 [Recordset](recordset-object-ado.md)，则请确保首先关闭 **Recordset** ，然后再检索 **Value** 属性。否则，对于某些提供程序， **Value** 属性可能为空，并且不包含正确的值。
 
 对于已追加到 **Record** 对象的 [Fields](fields-collection-ado.md) 集合中的新 [Field](record-object-ado.md) 对象，必须先设置 **Value** 属性，然后才能指定其他任何 **Field** 属性。首先，必须为 **Value** 属性赋予特定值，并对 [Fields](update-method-ado.md) 集合调用 **Update**。然后，可以访问诸如 [Type](type-property-ado.md) 或 [Attributes](attributes-property-ado.md) 等其他属性。
 

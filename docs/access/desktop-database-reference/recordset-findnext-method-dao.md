@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194099(v=office.15)
 ms:contentKeyID: 48544893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a458bc98ecfa2a88d1548449b9f555c3ddad3ab
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3b54800ac8bd95a4bb4b93d395ddb12b51bc241a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925574"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997215"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Recordset.FindNext 方法 (DAO)
 
@@ -25,7 +25,7 @@ ms.locfileid: "25925574"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ ms.locfileid: "25925574"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>条件</p></td>
+<td><p><em>条件</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>用于查找记录的字符串。它类似于 SQL 语句中的 WHERE 子句，但不包括单词 WHERE。</p></td>

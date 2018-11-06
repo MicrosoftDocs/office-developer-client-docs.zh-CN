@@ -1,20 +1,19 @@
 ---
 title: Properties 集合 (DAO)
-TOCTitle: Properties Collection
+TOCTitle: Properties collection
 ms:assetid: cd07184a-a261-29c9-542f-bc2eff6f4af6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05379dee652732bc0839abb056cc15962e3683b0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0cd2198d0578c6ec42e4bf800d95e1d7afe22786
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926939"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998341"
 ---
 # <a name="properties-collection-dao"></a>Properties 集合 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -28,29 +27,23 @@ ms.locfileid: "25926939"
 
 可以使用 **Delete** 方法从 **Properties** 集合中删除用户定义的属性，但不能删除内置属性。
 
-
 > [!NOTE]
-> <P>[!注释] 一个用户定义的 <STRONG>Property</STRONG> 对象只与一个对象的特定实例相关联。属性并不是为选定类型的对象的所有实例定义的。</P>
-
-
+> [!注释] 一个用户定义的 **Property** 对象只与一个对象的特定实例相关联。属性并不是为选定类型的对象的所有实例定义的。
 
 若要按照序号或 **Name** 属性设置来引用集合中的内置 **Property** 对象，可以使用下列任何一种语法形式：
 
-对象。**属性**(0)
+- 对象。**属性**(0)
 
-对象。**属性**("name")
+- 对象。**属性**("name")
 
-对象。**属性**\!\[名称\]
+- 对象。**属性**\!\[名称\]
 
 对于内置属性，还可以使用以下语法：
 
-object.name
-
+- object.name
 
 > [!NOTE]
-> <P>对于用户定义的属性，您必须使用完整的对象。<STRONG>属性</STRONG>("name") 语法。</P>
-
-
+> 对于用户定义的属性，您必须使用完整的对象。**属性**("name") 语法。
 
 使用同样的语法格式，还可以引用 **Property** 对象的 **Value** 属性。引用的上下文将确定是引用 **Property** 对象自身，还是引用 **Property** 对象的 **Value** 属性。
 

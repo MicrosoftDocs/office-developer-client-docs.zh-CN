@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1e5e031b0dc89626a40934cb42f8f54a0eb8d057
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fe08f6c6ab0eba46f7fff2713403f56e82983357
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928108"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999062"
 ---
 # <a name="openquery-macro-action"></a>OpenQuery 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **OpenQuery** 操作在数据表视图、设计视图或打印预览中打开选择查询或交叉表查询。此操作运行动作查询。您还可以为查询选择数据输入模式。
 
-
 > [!NOTE]
-> <P>[!注释] 此操作仅适用于 Microsoft Access 数据库环境（.mdb 或 .accdb）。如果使用的是 Microsoft Access 项目环境 (.adp)，请参阅 <STRONG>OpenView</STRONG>、 <STRONG>OpenStoredProcedure</STRONG> 或 <STRONG>OpenFunction</STRONG> 操作。</P>
-
-
+> [!注释] 此操作仅适用于 Microsoft Access 数据库环境（.mdb 或 .accdb）。如果使用的是 Microsoft Access 项目环境 (.adp)，请参阅 **OpenView**、 **OpenStoredProcedure** 或 **OpenFunction** 操作。
 
 ## <a name="setting"></a>设置
 
@@ -68,11 +64,9 @@ ms.locfileid: "25928108"
 
 **OpenQuery** 操作类似于在导航窗格中双击查询，或在导航窗格中右键单击查询并选择视图。通过此操作可以选择其他选项。
 
-**提示**
-
-  - 可以将查询从导航窗格拖动到宏操作行中。 这会自动创建的数据表视图中打开查询**OpenQuery**操作。 打开查询时切换到设计视图中删除查询的**数据模式**参数设置。 此设置不会生效，即使用户返回到数据表视图。
-
-  - 如果不想显示通常在运行动作查询时出现的系统消息（指示查询为动作查询并显示将受到影响的记录数），则可以使用 **SetWarnings** 操作禁止显示这些消息。
+> [!TIP]
+> - 可以将查询从导航窗格拖动到宏操作行中。 这会自动创建的数据表视图中打开查询**OpenQuery**操作。 打开查询时切换到设计视图中删除查询的**数据模式**参数设置。 此设置不会生效，即使用户返回到数据表视图。
+> - 如果不想显示通常在运行动作查询时出现的系统消息（指示查询为动作查询并显示将受到影响的记录数），则可以使用 **SetWarnings** 操作禁止显示这些消息。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **OpenQuery** 操作，请使用 **DoCmd** 对象的 **OpenQuery** 方法。
 

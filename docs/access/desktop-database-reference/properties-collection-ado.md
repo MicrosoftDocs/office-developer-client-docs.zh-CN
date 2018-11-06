@@ -10,15 +10,14 @@ f1_keywords:
 - ado210.chm1231104
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 37cebaad95f1715ad53147709fb7f6a11344ef10
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a4e683781fc2c508b34717447fcac6f02f54d6ff
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922704"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997845"
 ---
 # <a name="properties-collection-ado"></a>Properties 集合 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -28,11 +27,8 @@ ms.locfileid: "25922704"
 
 某些 ADO 对象具有由 **Property** 对象组成的 **Properties** 集合。每个 **Property** 对象对应于特定于提供程序的 ADO 对象的一个特性。
 
-
 > [!NOTE]
-> <P>[!注释] 有关如何使用 <A href="property-object-ado.md">Property</A> 对象的更详细说明，请参阅 <STRONG>Property</STRONG> 对象主题。</P>
-
-
+> [!注释] 有关如何使用 [Property](property-object-ado.md) 对象的更详细说明，请参阅 **Property** 对象主题。
 
 关闭 **Recordset** 时， **Recordset** 对象的 **动态属性** 将超出范围（不可用）。
 

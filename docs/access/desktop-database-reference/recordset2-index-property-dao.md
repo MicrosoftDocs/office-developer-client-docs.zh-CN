@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
 ms:contentKeyID: 48545209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a0956efd8082363c4d00acf491bcb0b990cdf0e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 034fd349f140e931d1a5f654dfb275854aa2b78d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920401"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998978"
 ---
 # <a name="recordset2index-property-dao"></a>Recordset2.Index 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -38,21 +37,12 @@ ms.locfileid: "25920401"
 
 从表类型 **Recordset** 对象返回的记录只能按为基础 **TableDef** 对象定义的索引进行排序。 要排序一些其他顺序的记录，可以通过使用 ORDER BY 子句的 SQL 语句打开动态集类型、 快照类型或仅向前类型**Recordset**对象。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>您不必为表创建索引。对于大型的未编制索引的表，访问特定记录或创建 <STRONG>Recordset</STRONG> 对象可能花费很长时间。另一方面，由于所有索引都是自动更新的，创建太多索引会降低更新、追加和删除操作的速度。</P>
-> <LI>
-> <P>从不含索引的表中读取的记录没有特定返回顺序。</P>
-> <LI>
-> <P><A href="field-attributes-property-dao.md">Index</A> 对象中每个 <A href="field-object-dao.md"><STRONG>Field</STRONG></A> 对象的 <STRONG><STRONG>Attributes</STRONG></STRONG> 属性决定了记录的顺序，因此决定了对该索引使用的访问技术。</P>
-> <LI>
-> <P>唯一索引有助于优化记录的查找。</P>
-> <LI>
-> <P>索引不影响基表的实际顺序，只影响当选择特定索引或打开 <STRONG>Recordset</STRONG> 时表类型 <STRONG>Recordset</STRONG> 对象访问记录的方式。</P></LI></UL>
-
-
+> - 您不必为表创建索引。对于大型的未编制索引的表，访问特定记录或创建 **Recordset** 对象可能花费很长时间。另一方面，由于所有索引都是自动更新的，创建太多索引会降低更新、追加和删除操作的速度。
+> - 从不含索引的表中读取的记录没有特定返回顺序。
+> - [Index](field-attributes-property-dao.md) 对象中每个 [**Field**](field-object-dao.md) 对象的 ****Attributes**** 属性决定了记录的顺序，因此决定了对该索引使用的访问技术。
+> - 唯一索引有助于优化记录的查找。
+> - 索引不影响基表的实际顺序，只影响当选择特定索引或打开 **Recordset** 时表类型 **Recordset** 对象访问记录的方式。
 
 ## <a name="example"></a>示例
 

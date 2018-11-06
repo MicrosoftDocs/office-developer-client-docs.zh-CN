@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1208ac064c92e2e3793e8f2e3ceb4502cbfa4d6c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4956d9d2652ab8268a5f49a9b7edc63ebe2878c7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922004"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997978"
 ---
 # <a name="querydefconnect-property-dao"></a>QueryDef.Connect 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -157,12 +156,8 @@ ms.locfileid: "25922004"
 
 对于 Microsoft Access 工作区中的 **QueryDef** 对象，可以将 **Connect** 属性与 ReturnsRecords 属性一起使用以创建一个 ODBC SQL 传递查询。 Databasetype 的连接字符串是"ODBC;"，并字符串的其余部分包含特定于用来访问远程数据 ODBC 驱动程序的信息。 有关详细信息，请参阅特定驱动程序的文档。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>必须先设置 <STRONG>Connect</STRONG> 属性，然后才能设置 <STRONG>ReturnsRecords</STRONG> 属性。</P>
-> <LI>
-> <P>您必须有权访问包含您尝试访问的数据库服务器的计算机。</P></LI></UL>
+> - 必须先设置 **Connect** 属性，然后才能设置 **ReturnsRecords** 属性。
+> - 您必须有权访问包含您尝试访问的数据库服务器的计算机。
 
 

@@ -1,6 +1,6 @@
 ---
 title: Recordset2.Edit 方法 (DAO)
-TOCTitle: Edit Method
+TOCTitle: Edit method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192452(v=office.15)
 ms:contentKeyID: 48544137
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8fbbbe147c4c943044123b711ffb3361af5284cf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1ab4577c9bfc487d7ce8d3c271b6a5c8edb37028
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928234"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997194"
 ---
 # <a name="recordset2edit-method-dao"></a>Recordset2.Edit 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -36,31 +35,25 @@ ms.locfileid: "25928234"
 
 使用 **Edit** 方法后，当前记录仍为当前记录。
 
-
 > [!NOTE]
-> <P>[!注释] 如果在编辑某条记录后执行了转移到另一条记录的任何操作，但是没有事先使用 <STRONG>Update</STRONG>，则更改将会丢失且不发出警告。 此外，如果您关闭 recordset 或结束声明<STRONG>记录集</STRONG>或父<STRONG><A href="database-object-dao.md">数据库</A></STRONG>或<STRONG><A href="connection-object-dao.md">连接</A></STRONG>对象的过程，您已编辑的记录将不警告的情况下被丢弃。</P>
-
-
+> [!注释] 如果在编辑某条记录后执行了转移到另一条记录的任何操作，但是没有事先使用 **Update**，则更改将会丢失且不发出警告。 此外，如果您关闭 recordset 或结束声明**记录集**或父**[数据库](database-object-dao.md)** 或**[连接](connection-object-dao.md)** 对象的过程，您已编辑的记录将不警告的情况下被丢弃。
 
 在以下条件下，使用 **Edit** 将产生错误：
 
-  - 没有当前记录。
+- 没有当前记录。
 
-  - 以只读方式打开了 **Connection**、 **Database** 或 **Recordset** 对象。
+- 以只读方式打开了 **Connection**、 **Database** 或 **Recordset** 对象。
 
-  - 记录中没有可更新的字段。
+- 记录中没有可更新的字段。
 
-  - 打开的 **Database** 或 **Recordset** 被另一个用户独占使用（Microsoft Access 工作区）。
+- 打开的 **Database** 或 **Recordset** 被另一个用户独占使用（Microsoft Access 工作区）。
 
-  - 另一个用户锁定了包含您的记录的页面（Microsoft Access 工作区）。
+- 另一个用户锁定了包含您的记录的页面（Microsoft Access 工作区）。
 
 在 Microsoft Access 工作区中，如果多用户环境中的 **Recordset** 对象的 **[LockEdits](recordset2-lockedits-property-dao.md)** 属性设置为 **True**（悲观锁定），那么从开始使用 **Edit** 到完成更新的时间范围内，记录将保持锁定状态。如果 **LockEdits** 属性设置为 **False**（乐观锁定），则会锁定此记录，并且在数据库中对它更新之前，将它与预编辑的记录进行比较。如果自从使用 **Edit** 方法之后记录发生了更改，并且使用了 **OpenRecordset** 且没有指定 **dbSeeChanges**， **Update** 操作将会失败，同时返回运行时错误。默认情况下，Microsoft Access 数据库引擎连接的 ODBC 和可安装的 ISAM 数据库始终使用乐观锁定。
 
-
 > [!NOTE]
-> <P>[!注释] 若要添加、编辑或删除记录，基础数据源中的记录必须存在唯一索引。如果不存在此索引，在 Microsoft Access 工作区中， <STRONG><A href="recordset2-addnew-method-dao.md">AddNew</A></STRONG> 、 <STRONG><A href="fields-delete-method-dao.md">Delete</A></STRONG> 或 <STRONG>Edit</STRONG> 方法调用将发生"权限被拒绝"错误。</P>
-
-
+> [!注释] 若要添加、编辑或删除记录，基础数据源中的记录必须存在唯一索引。如果不存在此索引，在 Microsoft Access 工作区中， **[AddNew](recordset2-addnew-method-dao.md)** 、 **[Delete](fields-delete-method-dao.md)** 或 **Edit** 方法调用将发生"权限被拒绝"错误。
 
 ## <a name="example"></a>示例
 

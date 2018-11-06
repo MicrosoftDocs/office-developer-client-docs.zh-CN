@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 68f1651dd2f96f660d60e037eddbca4226e0420e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c1813a80c43eb77f8fb90442ecd6e0336b636191
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927856"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998971"
 ---
 # <a name="openform-macro-action"></a>OpenForm 宏操作
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 您可以使用**OpenForm**操作窗体视图、 设计视图、 打印预览或数据表视图中打开窗体。 可以选择窗体的数据输入模式和窗口模式，并限制窗体显示的记录。
 
@@ -43,13 +41,7 @@ ms.locfileid: "25927856"
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
-<td><p>将在其中打开窗体视图。 单击<strong>窗体</strong>、<strong>设计</strong>、<strong>打印预览</strong>、<strong>数据表</strong>、<strong>数据透视表</strong>，或<strong>数据透视图</strong><strong>视图</strong>框中。 默认值为<strong>窗体</strong>。</p>
-
-> [!NOTE]
-> <P><STRONG>视图</STRONG>参数设置将覆盖窗体的<STRONG>默认视图</STRONG>和<STRONG>ViewsAllowed</STRONG>属性的设置。 例如，如果窗体<STRONG>ViewsAllowed</STRONG>属性设置为<STRONG>数据表</STRONG>，您可以仍使用<STRONG>OpenForm</STRONG>操作在窗体视图中打开窗体。</P>
-
-
-<p></p></td>
+<td><p>将在其中打开窗体视图。 单击<strong>窗体</strong>、<strong>设计</strong>、<strong>打印预览</strong>、<strong>数据表</strong>、<strong>数据透视表</strong>，或<strong>数据透视图</strong><strong>视图</strong>框中。 默认值为<strong>窗体</strong>。</p><p><strong>注意</strong>：<STRONG>视图</STRONG>参数设置将覆盖窗体的<STRONG>默认视图</STRONG>和<STRONG>ViewsAllowed</STRONG>属性的设置。 例如，如果窗体<STRONG>ViewsAllowed</STRONG>属性设置为<STRONG>数据表</STRONG>，您可以仍使用<STRONG>OpenForm</STRONG>操作在窗体视图中打开窗体。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Filter Name</strong></p></td>
@@ -57,13 +49,7 @@ ms.locfileid: "25927856"
 </tr>
 <tr class="even">
 <td><p><strong>Where Condition</strong></p></td>
-<td><p>关键字的有效 SQL WHERE 子句 (不带有单词其中) 或 Access 使用记录选择的窗体中的表达式的基础表或查询。 如果选择<strong>筛选器名称</strong>参数的筛选器，Access 会将此 WHERE 子句于筛选结果。 打开窗体，并将其记录限制为所指定的另一个窗体上控件的值，请使用以下表达式： <strong>[</strong><em>fieldname</em><strong>] = 的表单 ！ [</strong><em>formname</em><strong>]![</strong><em>其他窗体上的控件名称</em><strong>]</strong> <em>fieldname</em>替换为基础表或查询的要打开的窗体中的字段的名称。 <em>Formname</em>和<em>其他窗体上的控件名称</em>替换为其他表单和包含所需中第一个窗体中，以匹配的记录的值的其他窗体上的控件的名称。</p>
-
-> [!NOTE]
-> <P><STRONG>Where 条件</STRONG>参数的最大长度为 255 个字符。 如果您需要输入一个更复杂 SQL WHERE 子句多于此，请改用<STRONG>DoCmd</STRONG>对象的<STRONG>OpenForm</STRONG>方法在 Visual Basic for Applications (VBA) 模块。 您可以在 VBA 中输入 SQL WHERE 子句语句的最多为 32,768 个字符。</P>
-
-
-<p></p></td>
+<td><p>关键字的有效 SQL WHERE 子句 (不带有单词其中) 或 Access 使用记录选择的窗体中的表达式的基础表或查询。 如果选择<strong>筛选器名称</strong>参数的筛选器，Access 会将此 WHERE 子句于筛选结果。 打开窗体，并将其记录限制为所指定的另一个窗体上控件的值，请使用以下表达式： <strong>[</strong><em>fieldname</em><strong>] = 的表单 ！ [</strong><em>formname</em><strong>]![</strong><em>其他窗体上的控件名称</em><strong>]</strong> <em>fieldname</em>替换为基础表或查询的要打开的窗体中的字段的名称。 <em>Formname</em>和<em>其他窗体上的控件名称</em>替换为其他表单和包含所需中第一个窗体中，以匹配的记录的值的其他窗体上的控件的名称。</p><p><strong>注意</strong>： <STRONG>Where Condition</STRONG>参数的最大长度为 255 个字符。 如果您需要输入一个更复杂 SQL WHERE 子句多于此，请改用<STRONG>DoCmd</STRONG>对象的<STRONG>OpenForm</STRONG>方法在 Visual Basic for Applications (VBA) 模块。 您可以在 VBA 中输入 SQL WHERE 子句语句的最多为 32,768 个字符。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Data Mode</strong></p></td>
@@ -76,13 +62,7 @@ ms.locfileid: "25927856"
 </tr>
 <tr class="even">
 <td><p><strong>窗口模式</strong></p></td>
-<td><p>打开窗体窗口模式。 依次单击<strong>普通</strong>（由其属性设置模式中打开窗体）、<strong>隐藏</strong>（隐藏窗体）、<strong>图标</strong>（窗体打开最小化为小型的标题栏中，在屏幕底部），或<strong>对话框</strong>（窗体的<strong>模式</strong>和<strong>弹出窗口</strong>属性设置为<strong>是</strong>)。 默认值为<strong>Normal</strong>。</p>
-
-> [!NOTE]
-> <P>有些<STRONG>窗口模式</STRONG>参数设置不适用于使用选项卡式的文档时。 若要切换到重叠窗口：</P>
-
-
-<p></p>
+<td><p>打开窗体窗口模式。 依次单击<strong>普通</strong>（由其属性设置模式中打开窗体）、<strong>隐藏</strong>（隐藏窗体）、<strong>图标</strong>（窗体打开最小化为小型的标题栏中，在屏幕底部），或<strong>对话框</strong>（窗体的<strong>模式</strong>和<strong>弹出窗口</strong>属性设置为<strong>是</strong>)。 默认值为<strong>Normal</strong>。</p><p><strong>注意</strong>： 有些<STRONG>窗口模式</STRONG>参数设置不适用时使用选项卡式文档。 若要切换到重叠窗口：</p>
 <ol>
 <li><p>单击文件选项卡，然后单击<strong>选项</strong>。</p></li>
 <li><p>在<strong>“Access 选项”</strong>对话框中，单击<strong>“当前数据库”</strong>。</p></li>
@@ -94,7 +74,7 @@ ms.locfileid: "25927856"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 此操作类似于双击在导航窗格中，窗体或右键单击导航窗格中的窗体，然后选择视图。
 
@@ -102,11 +82,8 @@ ms.locfileid: "25927856"
 
 当您打开窗体**窗口模式**参数设置为**对话框**时，Access 将挂起宏，直到窗体被关闭或隐藏。 您可以通过使用**SetValue**操作将其**Visible**属性设置为**否**隐藏窗体。
 
-
 > [!TIP]
-> <P>您可以在导航窗格中选择一个窗体，并将它拖到宏操作行。 这会自动创建窗体视图中打开该窗体<STRONG>OpenForm</STRONG>操作。</P>
-
-
+> 您可以在导航窗格中选择一个窗体，并将它拖到宏操作行。 这会自动创建窗体视图中打开该窗体**OpenForm**操作。
 
 筛选和 WHERE 条件将成为窗体的**Filter**属性的设置。
 

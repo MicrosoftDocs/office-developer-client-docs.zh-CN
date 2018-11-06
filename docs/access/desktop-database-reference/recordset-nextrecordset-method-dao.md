@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193483(v=office.15)
 ms:contentKeyID: 48544664
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e4a6cf889e7676895534b053e8aacd4bb0eada89
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c58695678cf3b80d995a5eec75e3fbd31983eafc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919351"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999013"
 ---
 # <a name="recordsetnextrecordset-method-dao"></a>Recordset.NextRecordset 方法 (DAO)
 
@@ -24,11 +24,11 @@ ms.locfileid: "25919351"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Boolean
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 在适用于 ODBCDirect 工作区中，您可以打开**[Recordset](recordset-object-dao.md)** ，其中包含多个源参数的**OpenRecordset**或选择查询**[QueryDef](querydef-object-dao.md)** 对象，如以下示例所示的**[SQL](querydef-sql-property-dao.md)** 属性中的选择查询。
 

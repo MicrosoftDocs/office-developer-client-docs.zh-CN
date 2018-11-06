@@ -1,20 +1,19 @@
 ---
-title: Visual C++ ADO 编程
-TOCTitle: Visual C++ ADO Programming
+title: Visual c + + ADO 编程
+TOCTitle: Visual C++ ADO programming
 ms:assetid: 117c4fad-8c11-5e3a-ea0c-18811e87475f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7478a90e3c6242c68a1325b08e998f4c76a62f3d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 5278a998363359f4bd2aad14881865505ce45633
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944660"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998411"
 ---
 # <a name="visual-c-ado-programming"></a>Visual c + + ADO 编程
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -69,7 +68,7 @@ variable = objectPtr->GetProperty; // get property value
 
 例如， **ActiveConnection**属性将**Command**对象用声明的替代语法 **获取 *** ActiveConnection*和 **PutRef *** ActiveConnection*。 **PutRef**-语法因为实际上，通常要打开的**Connection**对象 （即，**连接**对象指针） 置于此属性是一个不错的选择。 另一方面， **Recordset**对象中的**Get**-、 **Put**-和 **PutRef *** ActiveConnection*操作，但没有替代语法。
 
-## <a name="collections-the-getitem-method-and-the-item-property"></a>集合、GetItem 方法和 Item 属性
+## <a name="collections-the-getitem-method-and-the-item-property"></a>集合、 GetItem 方法和 Item 属性
 
 ADO 定义了多个集合，包括 **Fields**、**Parameters**、**Properties** 和 **Errors**。在 Visual C++ 中，**GetItem(***index***)** 方法返回集合的成员。*index* 为 **Variant**，其值可以是集合中成员的数字索引，也可以是包含成员名称的字符串。
 
@@ -114,7 +113,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 此规则的例外之处是 COM 特有的数据类型： **Variant** 、 **BSTR** 和 **SafeArray** 。
 
-## <a name="variant"></a>Variant
+### <a name="variant"></a>Variant
 
 **Variant** 是一种结构化数据类型，其中包含值成员和数据类型成员。 **Variant** 中可能包含大量其他数据类型，包括另一个 Variant、BSTR、布尔型、IDispatch 或 IUnknown 指针、货币、日期等。COM 还提供了可以轻松地将一种数据类型转换为另一种数据类型的方法。
 
@@ -124,7 +123,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 此规则明确为 true 时 ADO API 参考主题中的**参数**部分显示操作数是**Variant**。 文档明确指出操作数采用标准数据类型，如**Long** 、**字节**或枚举时一个例外。 操作数采用**字符串**时，另一个异常。
 
-## <a name="bstr"></a>BSTR
+### <a name="bstr"></a>BSTR
 
 **BSTR** （**B**asic **STR**来） 是包含字符串和字符串的长度的结构化的数据类型。 COM 提供用于分配、 操作和忙**BSTR**方法。
 
@@ -132,7 +131,7 @@ rs->Fields->Item["au_fname"]->Value = "value";
 
 当 ADO API 参考方法或属性采用**字符串**值时，它表示的窗体中的值是**\_bstr\_t**。
 
-## <a name="casting-variantt-and-bstrt-classes"></a>转换\_variant\_t 和\_bstr\_t 类
+#### <a name="casting-variantt-and-bstrt-classes"></a>转换\_variant\_t 和\_bstr\_t 类
 
 通常不需要显式代码为**\_variant\_t**或**\_bstr\_t**操作参数。 如果**\_variant\_t**或**\_bstr\_t**类具有一个构造函数的参数的数据类型相匹配，则编译器将生成相应**\_variant\_t**或**\_bstr\_t**。
 
@@ -160,7 +159,7 @@ ADO 是 IDispatch 接口这一事实虽然很少提及，但这一点极为重�
 
 最后一种情况明确编写构造函数的第二个布尔参数，其可选，默认值为 true。 此参数导致**Variant**构造函数调用其**AddRef**（） 方法，ADO 自动调用补偿**\_variant\_t::Release**（） 方法 （ADO 方法或属性调用完成时。
 
-## <a name="safearray"></a>SafeArray
+### <a name="safearray"></a>SafeArray
 
 **SafeArray** 是一种结构化数据类型，其中包含其他数据类型的数组。 **SafeArray**称为*安全*，因为它包含的界限每个数组维度和限制访问这些边界内的数组元素的信息。
 
@@ -170,7 +169,7 @@ ADO 是 IDispatch 接口这一事实虽然很少提及，但这一点极为重�
 
 更进一步，例如， **Find** 方法的第一个参数是值为一维 **SafeArray** 的 **变量型** ； **AddNew** 方法的可选的第一个和第二个参数为一维 **SafeArray** ； **GetRows** 方法的返回值是值为二维 **SafeArray** 的 **变量型** 。
 
-## <a name="missing-and-default-parameters"></a>省略参数和默认参数
+## <a name="missing-and-default-parameters"></a>缺少和默认参数
 
 Visual Basic 允许方法中省略参数。例如， **Recordset** 对象 **Open** 方法具有五个参数，但您可以跳过中间的参数，只留下后面的参数。根据省略的操作数数据类型的不同，将替换为默认的 **BSTR** 或 **变量型** 。
 
@@ -202,7 +201,7 @@ pCommand->Execute(NULL, NULL, adCmdText);
 pRecordset->NextRecordset(NULL); 
 ```
 
-## <a name="error-handling"></a>出错处理
+## <a name="error-handling"></a>错误处理
 
 在 COM，大多数操作返回 HRESULT 返回代码，指示函数是否已成功完成。 **\#导入**指令生成周围每个"原始"方法或属性的包装代码，并检查返回的 HRESULT。 如果 HRESULT 指示故障，包装代码通过调用引发 COM 错误\_com\_问题\_errorex() hresult 返回作为参数的代码。 可以在**尝试**捕获 COM error 对象-**catch**块。 (为效率的起见，捕获对**\_com\_错误**对象。)
 
@@ -210,11 +209,11 @@ pRecordset->NextRecordset(NULL);
 
 **\#导入**指令创建唯一的错误处理例程的方法和属性在 ADO.dll 中声明。 不过，您可以编写自己的错误检测宏或内嵌函数，以利用同样的错误处理机制。 有关示例，请参阅主题 [Visual C++ 扩展](visual-c-extensions-for-ado.md)或下文中的代码。
 
-## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>与 Visual Basic 约定等效的 Visual C++ 代码
+## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>Visual Basic 约定等效的 visual c + + 值
 
 以下摘要介绍用 Visual Basic 编写的 ADO 文档中的若干约定，以及等效的 Visual C++ 代码。
 
-## <a name="declaring-an-ado-object"></a>声明 ADO 对象
+### <a name="declaring-an-ado-object"></a>声明 ADO 对象
 
 在 Visual Basic 中，ADO 对象变量（此处以 **Recordset** 对象为例）声明如下：
 
@@ -279,7 +278,9 @@ rs->Open(...);
 
 可以通过以下两种使用一个变量，因为"-\>"重载运算符允许如同指向接口的类的实例。 私有类成员的实例变量包含一个指向**\_Recordset**接口;"-\>"运算符返回该指针;返回的指针访问的成员和**\_Recordset**对象。
 
-## <a name="coding-a-missing-parameter"></a>对省略的变量型参数进行编码
+### <a name="coding-a-missing-parameter"></a>缺少参数进行编码
+
+#### <a name="string"></a>字符串
 
 在 Visual Basic 中，如果需要对省略的 **字符串型** 操作数进行编码，只需省略该操作数即可。 在 Visual C++ 中，则必须指定操作数。 代码**\_bstr\_t**具有作为值为空字符串。
 
@@ -288,7 +289,7 @@ rs->Open(...);
 _bstr_t strMissing(L""); 
 ```
 
-## <a name="coding-a-missing-parameter"></a>对省略的变量型参数进行编码
+#### <a name="variant"></a>Variant
 
 在 Visual Basic 中，如果需要对省略的 **变量型** 操作数进行编码，只需省略该操作数即可。 在 Visual C++ 中，则必须指定所有操作数。 代码的缺少**Variant**参数**\_variant\_t**设置特殊值，显示为\_E\_PARAMNOTFOUND 和类型，VT\_错误。 或者，指定**vtMissing**，即等效由提供的预定义的常数**\#导入**指令。
 
@@ -304,7 +305,7 @@ _variant_t vtMissingYours(DISP_E_PARAMNOTFOUND, VT_ERROR);
 ...vtMissing...; 
 ```
 
-## <a name="declaring-a-variant"></a>声明变量型
+### <a name="declaring-a-variant"></a>声明变量型
 
 在 Visual Basic 中，用 **Dim** 语句声明 **变量型** ，如下所示：
 
@@ -315,11 +316,8 @@ Dim VariableName As Variant
 
 在 Visual c + + 中，声明的变量类型为**\_variant\_t**。 几示意图**\_variant\_t**声明如下所示。
 
-
 > [!NOTE]
-> <P>[!注释] 这些声明仅仅为您在编写自己的程序时提供一个粗略的思路。有关详细信息，请参阅以下示例和 Visual C++ 文档。</P>
-
-
+> [!注释] 这些声明仅仅为您在编写自己的程序时提供一个粗略的思路。有关详细信息，请参阅以下示例和 Visual C++ 文档。
 
 ```cpp 
  
@@ -329,7 +327,7 @@ _variant_t VariableName(value, VT_DATATYPE);
 _variant_t VariableName(interface * value, bool fAddRef = true); 
 ```
 
-## <a name="using-arrays-of-variants"></a>使用变量型数组
+### <a name="using-arrays-of-variants"></a>使用变量型数组
 
 在 Visual Basic 中，可以用 **Dim** 语句编写 **变量型** 数组，或者也可以使用 **Array** 函数，如以下代码所示：
 
@@ -353,100 +351,96 @@ End Sub
 
 下面的 Visual c + + 示例展示了如何使用用于**SafeArray** ** \_variant\_t**。
 
-
 > [!NOTE]
-> <P>[!注释] 以下注释对应于代码示例中的注释部分。</P>
+> [!注释] 以下注释对应于代码示例中的注释部分。
 
+1. TESTHR() 内嵌函数再次被定义为利用现有的错误处理机制。
 
-
-1.  TESTHR() 内嵌函数再次被定义为利用现有的错误处理机制。
-
-2.  您只需要一个一维数组，因此可以使用 **SafeArrayCreateVector** 取代通用的 **SAFEARRAYBOUND** 声明和 **SafeArrayCreate** 函数。如果使用 **SafeArrayCreate** ，则代码如下所示：
+2. 您只需要一个一维数组，因此可以使用 **SafeArrayCreateVector** 取代通用的 **SAFEARRAYBOUND** 声明和 **SafeArrayCreate** 函数。如果使用 **SafeArrayCreate** ，则代码如下所示：
     
-    ```cpp 
+   ```cpp 
      
      SAFEARRAYBOUND sabound[1]; 
      sabound[0].lLbound = 0; 
      sabound[0].cElements = 4; 
      pSa = SafeArrayCreate(VT_VARIANT, 1, sabound); 
-    ```
+   ```
 
-3.  架构枚举的常量， **adSchemaColumns**，由标识相关联四个约束列： 表\_目录、 表\_架构、 表\_名称和列\_名称。 因此，将创建包含四个元素的 **变量型** 数组。 然后约束的值，对应于第三列，表\_名称，指定。 返回的 **Recordset** 包含多列，其子集为约束列。 每个返回行的约束列的值必须等于相应的约束值。
+3. 架构枚举的常量， **adSchemaColumns**，由标识相关联四个约束列： 表\_目录、 表\_架构、 表\_名称和列\_名称。 因此，将创建包含四个元素的 **变量型** 数组。 然后约束的值，对应于第三列，表\_名称，指定。 返回的 **Recordset** 包含多列，其子集为约束列。 每个返回行的约束列的值必须等于相应的约束值。
 
-4.  熟悉**SafeArrays**可能想不到不会在退出之前调用**SafeArrayDestroy**（）。 实际上，调用**SafeArrayDestroy**（） 在这种情况下将导致运行时异常。 原因是： vtCriteria 的析构函数将调用**VariantClear**（） 时**\_variant\_t**超出范围，将闲**SafeArray**。 调用**SafeArrayDestroy**，而不手动清除**\_variant\_t**，会导致对析构函数尝试清除了无效的**SafeArray**指针。 如果调用 **SafeArrayDestroy** ，则代码如下所示：
+4. 熟悉**SafeArrays**可能想不到不会在退出之前调用**SafeArrayDestroy**（）。 实际上，调用**SafeArrayDestroy**（） 在这种情况下将导致运行时异常。 原因是： vtCriteria 的析构函数将调用**VariantClear**（） 时**\_variant\_t**超出范围，将闲**SafeArray**。 调用**SafeArrayDestroy**，而不手动清除**\_variant\_t**，会导致对析构函数尝试清除了无效的**SafeArray**指针。 如果调用 **SafeArrayDestroy** ，则代码如下所示：
     
-    ```cpp 
+   ```cpp 
      
      TESTHR(SafeArrayDestroy(pSa)); 
      vtCriteria.vt = VT_EMPTY; 
      vtCriteria.parray = NULL; 
-    ```
+   ```
     
-    但是，就要让简单得多**\_variant\_t**管理**SafeArray**。
+   但是，就要让简单得多**\_variant\_t**管理**SafeArray**。
 
-<!-- end list -->
 
 ```cpp 
  
-#import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
-#include <stdio.h> 
- 
-// Note 1 
-inline void TESTHR( HRESULT _hr ) 
- { if FAILED(_hr) _com_issue_error(_hr); } 
- 
-void main(void) 
-{ 
- CoInitialize(NULL); 
- try 
- { 
- _RecordsetPtr pRs("ADODB.Recordset"); 
- _ConnectionPtr pCn("ADODB.Connection"); 
- _variant_t vtTableName("authors"), 
- vtCriteria; 
- long ix[1]; 
- SAFEARRAY *pSa = NULL; 
- 
- pCn->Open("DSN=pubs;User ID=MyUserId;pwd=MyPassword;Provider=MSDASQL;", "", "", 
- adConnectUnspecified); 
-// Note 2, Note 3 
- pSa = SafeArrayCreateVector(VT_VARIANT, 1, 4); 
- if (!pSa) _com_issue_error(E_OUTOFMEMORY); 
- 
-// Specify TABLE_NAME in the third array element (index of 2). 
- 
- ix[0] = 2; 
- TESTHR(SafeArrayPutElement(pSa, ix, &vtTableName)); 
- 
-// There is no Variant constructor for a SafeArray, so manually set the 
-// type (SafeArray of Variant) and value (pointer to a SafeArray). 
- 
- vtCriteria.vt = VT_ARRAY | VT_VARIANT; 
- vtCriteria.parray = pSa; 
- 
- pRs = pCn->OpenSchema(adSchemaColumns, vtCriteria, vtMissing); 
- 
- long limit = pRs->GetFields()->Count; 
- for (long x = 0; x < limit; x++) 
- printf("%d: %s\n", x+1, 
- ((char*) pRs->GetFields()->Item[x]->Name)); 
-// Note 4 
- pRs->Close(); 
- pCn->Close(); 
- } 
- catch (_com_error &e) 
- { 
- printf("Error:\n"); 
- printf("Code = %08lx\n", e.Error()); 
- printf("Code meaning = %s\n", (char*) e.ErrorMessage()); 
- printf("Source = %s\n", (char*) e.Source()); 
- printf("Description = %s\n", (char*) e.Description()); 
- } 
- CoUninitialize(); 
-} 
+    #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
+    #include <stdio.h> 
+    
+    // Note 1 
+    inline void TESTHR( HRESULT _hr ) 
+    { if FAILED(_hr) _com_issue_error(_hr); } 
+    
+    void main(void) 
+    { 
+    CoInitialize(NULL); 
+    try 
+    { 
+    _RecordsetPtr pRs("ADODB.Recordset"); 
+    _ConnectionPtr pCn("ADODB.Connection"); 
+    _variant_t vtTableName("authors"), 
+    vtCriteria; 
+    long ix[1]; 
+    SAFEARRAY *pSa = NULL; 
+    
+    pCn->Open("DSN=pubs;User ID=MyUserId;pwd=MyPassword;Provider=MSDASQL;", "", "", 
+    adConnectUnspecified); 
+    // Note 2, Note 3 
+    pSa = SafeArrayCreateVector(VT_VARIANT, 1, 4); 
+    if (!pSa) _com_issue_error(E_OUTOFMEMORY); 
+    
+    // Specify TABLE_NAME in the third array element (index of 2). 
+    
+    ix[0] = 2; 
+    TESTHR(SafeArrayPutElement(pSa, ix, &vtTableName)); 
+    
+    // There is no Variant constructor for a SafeArray, so manually set the 
+    // type (SafeArray of Variant) and value (pointer to a SafeArray). 
+    
+    vtCriteria.vt = VT_ARRAY | VT_VARIANT; 
+    vtCriteria.parray = pSa; 
+    
+    pRs = pCn->OpenSchema(adSchemaColumns, vtCriteria, vtMissing); 
+    
+    long limit = pRs->GetFields()->Count; 
+    for (long x = 0; x < limit; x++) 
+    printf("%d: %s\n", x+1, 
+    ((char*) pRs->GetFields()->Item[x]->Name)); 
+    // Note 4 
+    pRs->Close(); 
+    pCn->Close(); 
+    } 
+    catch (_com_error &e) 
+    { 
+    printf("Error:\n"); 
+    printf("Code = %08lx\n", e.Error()); 
+    printf("Code meaning = %s\n", (char*) e.ErrorMessage()); 
+    printf("Source = %s\n", (char*) e.Source()); 
+    printf("Description = %s\n", (char*) e.Description()); 
+    } 
+    CoUninitialize(); 
+    } 
 ```
 
-## <a name="using-property-getputputref"></a>使用属性 Get/Put/PutRef
+### <a name="using-property-getputputref"></a>使用属性 Get/Put/PutRef
 
 在 Visual Basic 中，属性的名称并未限定（无论是对它进行检索、赋值还是赋予一个引用）。
 
@@ -469,17 +463,14 @@ void main(void)
 
 以下 Visual c + + 示例演示如何**获取**/**放置**/**PutRef *** 属性*。
 
-
 > [!NOTE]
 > [!注释] 以下注释对应于代码示例中的注释部分。
 
+1. 此示例使用两种形式的缺少的字符串参数： 显式常量、 **strMissing**和字符串编译器将用于创建一个临时**\_bstr\_t**的**Open**方法的作用域存在。
 
-
-1.  此示例使用两种形式的缺少的字符串参数： 显式常量、 **strMissing**和字符串编译器将用于创建一个临时**\_bstr\_t**的**Open**方法的作用域存在。
-
-2.  不需要的 rs-操作数转换\>PutRefActiveConnection(cn) 为 (IDispatch \*) 由于操作数的类型已经是 (IDispatch \*)。
+2. 不需要的 rs-操作数转换\>PutRefActiveConnection(cn) 为 (IDispatch \*) 由于操作数的类型已经是 (IDispatch \*)。
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -524,9 +515,9 @@ void main(void)
      } 
      ::CoUninitialize(); 
     } 
-    ```
+   ```
 
-## <a name="using-getitemx-and-itemx"></a>使用 getitem （x） 和 Item\[x\]
+### <a name="using-getitemx-and-itemx"></a>使用 getitem （x） 和 Item\[x\]
 
 此 Visual Basic 示例展示了 **Item**() 的标准语法和替代语法。
 
@@ -551,15 +542,12 @@ End Sub
 
 此 Visual C++ 示例展示了 **Item** 。
 
-
 > [!NOTE]
-> <P>[!注释] 以下注释对应于代码示例中的注释部分。</P>
+> [!注释] 以下注释对应于代码示例中的注释部分。
 
-
-
-1.  当用 **Item** 访问集合时，索引 **2** 必须转换为 **长整型** ，以调用适当的构造函数。
+1. 当用 **Item** 访问集合时，索引 **2** 必须转换为 **长整型** ，以调用适当的构造函数。
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -600,23 +588,20 @@ End Sub
      } 
      ::CoUninitialize(); 
     } 
-    ```
+   ```
 
-## <a name="casting-ado-object-pointers-with-idispatch-"></a>用 (IDispatch \*) 转换 ADO 对象指针
+### <a name="casting-ado-object-pointers-with-idispatch-"></a>用 (IDispatch \*) 转换 ADO 对象指针
 
 以下 Visual C++ 示例展示了如何使用 (IDispatch \*) 转换 ADO 对象指针。
 
-
 > [!NOTE]
-> <P>[!注释] 以下注释对应于代码示例中的注释部分。</P>
+> [!注释] 以下注释对应于代码示例中的注释部分。
 
+1. 在显式编码的 **变量型** 中指定打开的 **Connection** 对象。 将其与强制转换 (IDispatch \*) 以正确的构造函数调用。 此外，显式设置第二个**\_variant\_t**参数为默认值为**true**，因此**Recordset::Open**操作结束时，是正确的对象引用计数。
 
-
-1.  在显式编码的 **变量型** 中指定打开的 **Connection** 对象。 将其与强制转换 (IDispatch \*) 以正确的构造函数调用。 此外，显式设置第二个**\_variant\_t**参数为默认值为**true**，因此**Recordset::Open**操作结束时，是正确的对象引用计数。
-
-2.  表达式，(\_bstr\_t)，不是强制转换，但**\_variant\_t**提取的运算符**\_bstr\_t**从**变量****值**返回的字符串。 表达式，(char\*)，不是强制转换，但**\_bstr\_t**提取一个指向中封装的字符串的运算符**\_bstr\_t**对象。 代码的这一节演示一些有用行为**\_variant\_t**和**\_bstr\_t**运算符。
+2. 表达式，(\_bstr\_t)，不是强制转换，但**\_variant\_t**提取的运算符**\_bstr\_t**从**变量****值**返回的字符串。 表达式，(char\*)，不是强制转换，但**\_bstr\_t**提取一个指向中封装的字符串的运算符**\_bstr\_t**对象。 代码的这一节演示一些有用行为**\_variant\_t**和**\_bstr\_t**运算符。
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
      
@@ -655,5 +640,5 @@ End Sub
      } 
     ::CoUninitialize(); 
     } 
-    ```
+   ```
 

@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb857e7eda7860150feb7af07babcc2574c3972f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dfd7877ff1db960afcbf864f1e72ff01b12e8f09
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929046"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998950"
 ---
 # <a name="restorewindow-macro-action"></a>RestoreWindow 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **RestoreWindow** 操作将已最大化或最小化的窗口还原为其原来的大小。
 
-
 > [!NOTE]
-> <P>[!注释] 此操作不能应用于 Visual Basic 编辑器中的代码窗口。有关如何影响代码窗口的信息，请参阅 <STRONG>WindowState</STRONG> 属性主题。</P>
-
-
+> [!注释] 此操作不能应用于 Visual Basic 编辑器中的代码窗口。有关如何影响代码窗口的信息，请参阅 **WindowState** 属性主题。
 
 ## <a name="setting"></a>设置
 

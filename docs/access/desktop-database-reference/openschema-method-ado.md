@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a204f6e86a1c50be49400430f53dd99468668a9e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e9e7fb19504e606fed9960a3982c0f98f9081325
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949997"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997559"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema 方法 (ADO)
 
@@ -49,8 +49,7 @@ ms.locfileid: "25949997"
 
 **远程数据服务用法****OpenSchema**方法不可用在客户端[Connection](connection-object-ado.md)对象上。
 
-
 > [!NOTE]
-> <P>在 Visual Basic 中，从 <STRONG>Connection</STRONG> 对象的 <STRONG>OpenSchema</STRONG> 方法返回的 <STRONG>Recordset</STRONG> 中具有四字节无符号整数 (DBTYPE UI4) 的列不能与其他变量进行比较。有关 OLE DB 数据类型的详细信息，请参阅<EM>《Microsoft OLE DB 程序员参考》</EM>的第 13 章和附录 A。</P>
+> 在 Visual Basic 中，从 **Connection** 对象的 **OpenSchema** 方法返回的 **Recordset** 中具有四字节无符号整数 (DBTYPE UI4) 的列不能与其他变量进行比较。有关 OLE DB 数据类型的详细信息，请参阅 *《Microsoft OLE DB 程序员参考》* 的第 13 章和附录 A。
 
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ef8c2399ec8a2ddedde47197388698c2b83c57c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4c4f799d9e0e3ea2ffddbf981adf9332cca672ee
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926666"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997285"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Workspace.OpenDatabase 方法 (DAO)
 
@@ -25,7 +25,7 @@ ms.locfileid: "25926666"
 
 *表达式*一个代表**Workspace**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -44,25 +44,25 @@ ms.locfileid: "25926666"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>现有 Microsoft Access 数据库引擎数据库文件的名称，或者 ODBC 数据源的数据源名称 (DSN)。有关设置此值的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>选项</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>根据“说明”中的指定设置数据库的各个选项。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>						如果要使用只读访问权限打开数据库，此值为 <strong>True</strong>；如果要使用可读写访问权限打开数据库，此值为 <strong>False</strong>（默认值）。</p></td>
 </tr>
 <tr class="even">
-<td><p>在浏览器中</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>指定包括密码在内的各种连接信息。</p></td>
@@ -71,7 +71,7 @@ ms.locfileid: "25926666"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Database
 
@@ -102,6 +102,7 @@ Database
 </tbody>
 </table>
 
+<br/>
 
 打开一个数据库后，该数据库将自动添加到 **Databases** 连接。
 

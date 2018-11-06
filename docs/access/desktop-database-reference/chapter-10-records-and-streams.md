@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d0d5eec3c032780dd6065bd29f6d41c299a7379
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 96350229bce2ecc25ff035f2e5949f080f0fa10f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937692"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997726"
 ---
 # <a name="chapter-10-records-and-streams"></a>第 10 章： 记录和流
 
@@ -25,7 +25,7 @@ ADO 目前提供了 [Recordset](recordset-object-ado.md) 对象作为访问数�
 
 **Record** 对象可以用于另一个用途，特别是对于除传统关系数据库以外的其他数据源的提供程序，例如 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。很多必须处理的信息不是作为数据库中的表，而是作为电子邮件系统中的邮件和现代文件系统中的文件而存在。 **Record** 和 **Stream** 对象使您能够方便地访问在非关系数据库的数据源中存储的信息。
 
-**Record** 对象可以表示和管理数据（例如，文件系统或文件夹中的目录和文件以及电子邮件系统中的邮件）。对于这些用途， **Record** 的源可以是打开的 **Recordset** 的当前行、绝对 URL 或与打开的 [Connection](connection-object-ado.md) 对象结合的相对 URL。
+**Record**对象可以表示和管理电子邮件系统中文件系统或文件夹和消息中的数据，例如目录和文件。 对于这些用途， **Record** 的源可以是打开的 **Recordset** 的当前行、绝对 URL 或与打开的 [Connection](connection-object-ado.md) 对象结合的相对 URL。
 
 通常， **Recordset** 可以用来表示层次结构中的容器或父对象（如文件夹或目录）。而 **Record** 可以用来返回有关父容器中一个节点（如文件或文档）的特定信息。用 **Records** 来表示此类信息的主要原因是这些数据源是异构的。这意味着，每个 **Record** 都可能有不同的字段集合和字段数。而包含来自数据库的行的传统 **Recordsets** 是同构的，这意味着每个行都有相同的字段数和字段类型。
 

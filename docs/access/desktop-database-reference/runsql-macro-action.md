@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb1bdb998373c8dba92910bd6331261514542a04
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0527f5a55235fa36725152d228dfd2294c63bf53
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923719"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996872"
 ---
 # <a name="runsql-macro-action"></a>RunSQL 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 **RunSQL**操作可用于通过使用相应的 SQL 语句中运行访问动作查询。 还可以运行数据定义查询。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -125,11 +121,7 @@ Access 查询实际上是 SQL 语句，这些语句是在您使用查询窗口�
 </tbody>
 </table>
 
-
 还可以将 IN 子句与这些语句一起使用，以修改另一个数据库中的数据。
 
-
 > [!NOTE]
-> <P>[!注释] 要从宏中运行选择查询或交叉表查询，请使用 <STRONG>OpenQuery</STRONG> 操作的"视图"参数在数据表视图中打开一个现有的选择查询和交叉表查询。还可以用同样的方法运行现有的动作查询和 SQL 特定查询。</P>
-
-
+> [!注释] 要从宏中运行选择查询或交叉表查询，请使用 **OpenQuery** 操作的"视图"参数在数据表视图中打开一个现有的选择查询和交叉表查询。还可以用同样的方法运行现有的动作查询和 SQL 特定查询。

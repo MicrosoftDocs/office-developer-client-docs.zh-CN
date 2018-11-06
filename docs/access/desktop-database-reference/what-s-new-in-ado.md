@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 950edd8ce1cd0e5081d569b1b11a02a14fe94d99
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 232af159c669968c9c3b4d3d65acbc181f958689
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937699"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998901"
 ---
 # <a name="whats-new-in-ado"></a>ADO 中的新增功能
 
@@ -23,7 +23,7 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 
 - **[记录和流](chapter-10-records-and-streams.md)**
 
-  此版本 ADO 中引入了 [Record](record-object-ado.md) 对象，该对象可以表示和管理诸如文件系统中的目录和文件、电子邮件系统中的文件夹和邮件这样的内容。 **Record** 还可以表示 [Recordset](recordset-object-ado.md) 中的行，虽然 **Record** 和 **Recordset** 对象具有不同的方法和属性。
+  此版本的 ADO 介绍[Record](record-object-ado.md)对象，其中可以表示和管理等目录和文件中的文件系统文件夹和邮件中的电子邮件系统。 **Record** 还可以表示 [Recordset](recordset-object-ado.md) 中的行，虽然 **Record** 和 **Recordset** 对象具有不同的方法和属性。
 
   新增的 [Stream](stream-object-ado.md) 对象为读、写和管理构成文件或消息流的二进制字节流或文本提供了方法。
 

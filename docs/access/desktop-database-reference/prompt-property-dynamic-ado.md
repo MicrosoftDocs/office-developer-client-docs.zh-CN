@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
 ms:contentKeyID: 48545473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1898169881042b9c7af36668e26c93200d0cb5f8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 893dfc7b2dd8ee66dc586fc3f5e98807ca1284cb
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924615"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996781"
 ---
 # <a name="prompt-dynamic-property-ado"></a>提示动态属性 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,11 +29,8 @@ ms.locfileid: "25924615"
 
 关闭 [Connection](connection-object-ado.md) 时， **Connection** 对象的动态属性将丢失。如果要使用默认值之外的其他值，则必须在重新打开 **Connection** 之前重新设置 **Prompt** 属性。
 
-
 > [!NOTE]
-> <P>[!注释] 不要指定提供程序应在用户无法响应对话框的情况下提示用户。例如，如果应用程序在服务器系统而不是用户客户端上运行，或者应用程序在没有用户登录的系统上运行，用户就无法进行响应。在这些情况下，应用程序将无限期地等待响应，从而表现为似乎已经锁定。</P>
-
-
+> [!注释] 不要指定提供程序应在用户无法响应对话框的情况下提示用户。例如，如果应用程序在服务器系统而不是用户客户端上运行，或者应用程序在没有用户登录的系统上运行，用户就无法进行响应。在这些情况下，应用程序将无限期地等待响应，从而表现为似乎已经锁定。
 
 **用法**
 

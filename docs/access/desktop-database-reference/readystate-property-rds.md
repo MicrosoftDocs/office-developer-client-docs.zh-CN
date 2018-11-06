@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c284c39c69a337a940ea09d396328bd8a01d01dd
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 62229a06405c1c7dabc9826b8b03823df5cc1f05
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928794"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996627"
 ---
 # <a name="readystate-property-rds"></a>ReadyState 属性 (RDS)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -52,12 +51,8 @@ ms.locfileid: "25928794"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!注释] 使用这些常量的每个客户端可执行文件必须提供其声明。可从位于 C:\Program Files\Common Files\System\MSADC 文件夹中的 Adcvbs.inc 文件剪切并粘贴所需的常量声明。</P>
-
-
+> [!注释] 使用这些常量的每个客户端可执行文件必须提供其声明。可从位于 C:\Program Files\Common Files\System\MSADC 文件夹中的 Adcvbs.inc 文件剪切并粘贴所需的常量声明。
 
 ## <a name="remarks"></a>备注
 

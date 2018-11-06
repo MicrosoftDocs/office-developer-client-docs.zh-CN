@@ -1,6 +1,6 @@
 ---
 title: Recordset.GetRows 方法 (DAO)
-TOCTitle: GetRows Method
+TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
 ms:contentKeyID: 48545031
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ec7947fd5d8d15eee92a033a47a8574f2933e73b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931237"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998383"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Recordset.GetRows 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25931237"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -49,7 +48,7 @@ ms.locfileid: "25931237"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NumRows</p></td>
+<td><p><em>NumRows</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>要检索的行数。</p></td>
@@ -58,29 +57,29 @@ ms.locfileid: "25931237"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Variant
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-使用 **GetRows** 方法从 **Recordset** 复制记录。**GetRows** 返回二维数组。第一个下标标识字段，第二个下标标识行号。例如，intField 表示字段，intRecord 标识行号：
+使用 **GetRows** 方法从 **Recordset** 复制记录。 **GetRows** 返回二维数组。 第一个下标标识字段，第二个下标标识行号。 例如，`intField`代表字段和`intRecord`标识行号：
 
-（intField、 intRecord） 后，avarRecords
+`avarRecords(intField, intRecord)`
 
 若要获取返回的第二行中的第一个字段值，请使用类似如下的代码：
 
-field1 = avarRecords(0,1)
+`field1 = avarRecords(0,1)`
 
 若要获取第一行中的第二个字段值，请使用类似如下的代码：
 
-field2 = avarRecords(1,0)
+`field2 = avarRecords(1,0)`
 
 **GetRows** 返回数据后，avarRecords 变量自动成为二维数组。
 
 如果请求的行数多于可用行数，则 **GetRows** 仅返回可用行的数目。 由于数组的大小进行了调整以适合返回的行数，因此可以使用 Visual Basic for Applications **UBound** 函数确定 **GetRows** 实际上检索了多少行。 例如，如果将结果返回到**Variant**调用 varA 时，您可以使用下面的代码来确定实际返回多少行：
 
-numReturned = UBound(varA,2) + 1
+`numReturned = UBound(varA,2) + 1`
 
 需要使用 "+ 1"，因为返回的第一行位于数组的 0 元素中。可以检索的行数受可用内存量的限制。如果表较大的话，不应使用 **GetRows** 将整个表检索到数组中。
 

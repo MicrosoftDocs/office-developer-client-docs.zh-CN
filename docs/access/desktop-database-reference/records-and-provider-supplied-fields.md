@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a2de9f48b9f35afb208006118add97c9b29c4885
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3e01d9dd1dce81911b11b7de8ca8c6ad5a19eaaf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944520"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998320"
 ---
 # <a name="records-and-provider-supplied-fields"></a>记录和提供程序提供的字段
 
@@ -23,7 +23,7 @@ ms.locfileid: "25944520"
 
 提供程序可能插入其他字段作为 **Record** 的补充特征。因此， **Record** 可能具有不作为整体的 **Recordset** 中的独特字段，或者有从该 **Recordset** 的其他行派生得到的任何 **Record** 。
 
-例如，从电子邮件数据源派生的 **Recordset** 的所有行都可能具有"发件人"、"收件人"和"主题"等列。从 **Recordset** 派生的 **Record** 将有相同的字段。但是， **Record** 还可能具有由该 **Record** 表示的针对特定邮件的其他字段，例如"附件"和"抄送"。
+例如， **Recordset**派生自的电子邮件数据源中的所有行可能为，对此类作为从列以及主题。 从 **Recordset** 派生的 **Record** 将有相同的字段。 但是， **Record** 还可能具有由该 **Record** 表示的针对特定邮件的其他字段，例如"附件"和"抄送"。
 
 尽管 **Record** 对象与 **Recordset** 当前行具有相同字段，但它们是不同的，因为 **Record** 和 **Recordset** 对象有不同的方法和属性。
 

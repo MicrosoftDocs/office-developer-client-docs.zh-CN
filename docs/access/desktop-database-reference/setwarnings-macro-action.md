@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d72a594a09196f5061ede52b4fbcbbc2cf96253c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7642c7a727853005cb6cf664bf44f29bcd6e14ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923159"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997970"
 ---
 # <a name="setwarnings-macro-action"></a>SetWarnings 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **SetWarnings** 操作打开或者关闭系统消息。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -64,11 +60,8 @@ ms.locfileid: "25923159"
 
 通常，此操作将与 **Echo** 操作一起使用，后者将一直隐藏宏的执行结果，直到宏执行完。也可以使用 **SetWarnings** 操作来隐藏警告框和消息框。
 
-
 > [!WARNING]
-> <P>[!警告] 虽然 <STRONG>SetWarnings</STRONG> 操作可以简化与宏之间的交互，但对于关闭系统消息必须要谨慎。在一些情况下，如果出现某条警告消息，您将不希望再继续执行宏。除非您对所有宏操作的执行结果有把握，否则应该避免使用此操作。</P>
-
-
+> [!警告] 虽然 **SetWarnings** 操作可以简化与宏之间的交互，但对于关闭系统消息必须要谨慎。在一些情况下，如果出现某条警告消息，您将不希望再继续执行宏。除非您对所有宏操作的执行结果有把握，否则应该避免使用此操作。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **SetWarnings** 操作，请使用 **DoCmd** 对象的 **SetWarnings** 方法。
 

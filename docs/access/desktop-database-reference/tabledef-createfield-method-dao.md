@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fafccd704e1528ece69a86a5955bcb040dc24cbf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b19cf0819353dbe4d6cdb017faf0e38b3bfb7757
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928766"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997005"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25928766"
 
 *表达式*一个代表**TableDef**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,19 +48,19 @@ ms.locfileid: "25928766"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 String 类型的值，用于对新的 <strong>Field</strong> 对象进行唯一命名。有关有效 <strong>Field</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>类型</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个确定新的 <strong>Field</strong> 对象的数据类型的常量。有关有效数据类型的信息，请参阅 <strong><a href="field-type-property-dao.md">Type</a></strong> 属性。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Size</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 Integer 类型的值，用于指示包含文本的 <strong>Field</strong> 对象的最大大小（以字节为单位）。有关有效 size 值的信息，请参阅 <strong><a href="field-size-property-dao.md">Size</a></strong> 属性。对于数值型字段和宽度固定的字段，将忽略此参数。</p></td>
@@ -69,7 +69,7 @@ ms.locfileid: "25928766"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Field
 

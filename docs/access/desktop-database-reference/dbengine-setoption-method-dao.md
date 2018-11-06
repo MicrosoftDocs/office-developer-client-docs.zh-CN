@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d6d40d88051e708944dadfabb984d44cc8c5cbc
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 55baceac9523400c5e646fbc4c1e7bb411219697
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949885"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998586"
 ---
 # <a name="dbenginesetoption-method-dao"></a>DBEngine.SetOption 方法 (DAO)
 
@@ -63,7 +63,7 @@ ms.locfileid: "25949885"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 每个常量引用路径 HKEY 中相应的注册表项\_本地\_计算机\\软件\\Microsoft\\Office\\12.0\\Access Connectivity 引擎\\引擎\\（即，ACE**dbSharedAsyncDelay**对应于键 HKEY\_本地\_计算机\\软件\\Microsoft\\Office\\12.0\\Access Connectivity 引擎\\引擎\\ACE\\SharedAsyncDelay，等等)。
 

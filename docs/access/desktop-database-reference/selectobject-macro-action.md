@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f134a43aaa56a1b206330175658f92e5076a4a14
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b34deff80157b3de63038251a649794587dacc85
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919288"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997411"
 ---
 # <a name="selectobject-macro-action"></a>SelectObject 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -46,13 +45,7 @@ ms.locfileid: "25919288"
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>要选择的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 这是一个必需的参数，除非您将在导航窗格中参数设置为<strong>是</strong>。</p>
-
-> [!NOTE]
-> <P><STRONG>“服务器视图”</STRONG>、<STRONG>“图表”</STRONG>或<STRONG>“存储过程”</STRONG>对象的对象名称不会显示在 Microsoft Access 项目 (.adp) 的<STRONG>“对象名称”</STRONG>框中。</P>
-
-
-<p></p></td>
+<td><p>要选择的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 这是一个必需的参数，除非您将在导航窗格中参数设置为<strong>是</strong>。</p><p><strong>注意</strong>：<STRONG>服务器视图</STRONG>、<STRONG>图表</STRONG>或<STRONG>存储过程</STRONG>的对象的对象名称并不会显示在<STRONG>对象名称</STRONG>框中的 Access 项目 (.adp)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>在导航窗格中</strong></p></td>

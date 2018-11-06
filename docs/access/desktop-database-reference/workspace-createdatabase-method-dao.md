@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5774eb4c9965cad7679d37754fd9a1f431ddaa48
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3bb08ff90bb6a9981ef0d25c3beb1652a9415a34
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923411"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996893"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25923411"
 
 *表达式*一个代表**Workspace**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25923411"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>一个最长 255 个字符的字符串，是正在创建的数据库文件的名称。 它可以是完整路径和文件名称。 如果您的网络支持，您还可以指定一个网络路径，如&quot; \\server1\share1\dir1\db1&quot;。 仅可以使用此方法来创建 Microsoft Access 数据库文件。</p></td>
 </tr>
 <tr class="even">
-<td><p>在浏览器中</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><ul>
@@ -64,7 +63,7 @@ ms.locfileid: "25923411"
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>选项</p></td>
+<td><p><em>选项</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个常量或常量组合，根据“设置”中的指定指示一个或多个选项。可通过对相应的常量求和来组合选项。</p></td>
@@ -176,6 +175,7 @@ ms.locfileid: "25923411"
 </tbody>
 </table>
 
+<br/>
 
 可以在 options 参数中使用下列一个或多个常量，以指定数据格式应使用的版本，以及是否对数据库加密。
 
@@ -222,6 +222,7 @@ ms.locfileid: "25923411"
 </tbody>
 </table>
 
+<br/>
 
 如果省略加密常量， **CreateDatabase** 将创建一个不加密的数据库。
 

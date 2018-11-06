@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2a9a96b22669889cf4dc51984fc3d3c9f7623428
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a3a1ed5b08c9bf0b318baeebb7190868b90682f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930222"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998859"
 ---
 # <a name="openfunction-macro-action"></a>OpenFunction 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 在 Access 项目中，可以使用 **OpenFunction** 操作在数据表视图、内嵌函数设计视图、SQL 文本编辑器视图（针对用户定义的标量或表函数）或打印预览中打开用户定义的函数。当在数据表视图中打开用户定义的函数时，此操作会运行该函数。您还可以为用户定义的函数选择数据输入模式，以及限制用户定义的函数所显示的记录。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -68,11 +64,9 @@ ms.locfileid: "25930222"
 
 打开的用户定义的函数时切换到设计视图中删除用户定义函数的**数据模式**参数设置。 此设置不起作用，即使用户返回到数据表视图。
 
-**提示**
-
-  - 您可以在导航窗格中选择用户定义的函数并将其拖至宏操作行。这样会自动创建在数据表视图中打开该用户定义的函数的 **OpenFunction** 操作。
-
-  - 通常，当用户定义的函数运行时，会显示一些系统消息（指明运行的是用户定义的函数并显示将受到影响的记录数）。如果不想显示这些系统消息，可以使用 **SetWarning** 操作来禁止其显示。
+> [!TIP]
+> - 您可以在导航窗格中选择用户定义的函数并将其拖至宏操作行。这样会自动创建在数据表视图中打开该用户定义的函数的 **OpenFunction** 操作。
+> - 通常，当用户定义的函数运行时，会显示一些系统消息（指明运行的是用户定义的函数并显示将受到影响的记录数）。如果不想显示这些系统消息，可以使用 **SetWarning** 操作来禁止其显示。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **OpenFunction** 操作，请使用 **DoCmd** 对象的 **OpenFunction** 方法。
 

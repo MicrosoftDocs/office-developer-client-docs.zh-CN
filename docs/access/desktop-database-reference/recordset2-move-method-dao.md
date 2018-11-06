@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d8ed9eb021df9d4c82473f1924a539787680f76a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d2231e94703b49fd14fb89d7642c0144c1dda532
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928801"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998593"
 ---
 # <a name="recordset2move-method-dao"></a>Recordset2.Move 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25928801"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25928801"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>行</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>位置移动的行数。如果 rows 大于 0，则位置向前移（向文件的末尾处移动）。如果 rows 小于 0，则位置向后移（向文件的开头处移动）。</p></td>
 </tr>
 <tr class="even">
-<td><p>StartBookmark</p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个标识书签的值。如果指定了 startbookmark，则相对于此书签开始移动。否则，从当前记录开始移动。</p></td>
@@ -68,16 +67,10 @@ ms.locfileid: "25928801"
 
 如果 **BOF** 和 **EOF** 属性中的一个为 **True**，并且您试图在不使用有效书签的情况下使用 **Move** 方法，将会发生运行时错误。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>如果对仅向前类型的 <STRONG>Recordset</STRONG> 对象使用 <STRONG>Move</STRONG>，则行参数必须是正整数，并且不允许使用书签。这意识着您只能前移。</P>
-> <LI>
-> <P>若要使 <STRONG>Recordset</STRONG> 中的第一条、最后一条、下一条或上一条记录成为当前记录，请使用 <STRONG>MoveFirst</STRONG>、 <STRONG>MoveLast</STRONG>、 <STRONG>MoveNext</STRONG> 和 <STRONG>MovePrevious</STRONG> 方法之一。</P>
-> <LI>
-> <P>在行等于 0 的情况下使用 <STRONG>Move</STRONG> 是检索当前记录的基础数据的简易方法。如果要确保当前记录具有基表中的最新数据，使用此方法十分有用。它还会取消任何待定的 <STRONG><A href="recordset2-edit-method-dao.md">Edit</A></STRONG> 或 <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> 调用。</P></LI></UL>
-
+> - 如果对仅向前类型的 **Recordset** 对象使用 **Move**，则行参数必须是正整数，并且不允许使用书签。这意识着您只能前移。
+> - 若要使 **Recordset** 中的第一条、最后一条、下一条或上一条记录成为当前记录，请使用 **MoveFirst**、 **MoveLast**、 **MoveNext** 和 **MovePrevious** 方法之一。
+> - 在行等于 0 的情况下使用 **Move** 是检索当前记录的基础数据的简易方法。如果要确保当前记录具有基表中的最新数据，使用此方法十分有用。它还会取消任何待定的 **[Edit](recordset2-edit-method-dao.md)** 或 **[AddNew](recordset-addnew-method-dao.md)** 调用。
 
 
 ## <a name="example"></a>示例

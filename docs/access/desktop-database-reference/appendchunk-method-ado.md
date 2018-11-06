@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9103135100c5a10931ee63bfbdeabe9d97119fd2
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 260fe01066e14578655089d397b0e76a705b9802
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949262"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996844"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk 方法 (ADO)
 
@@ -34,7 +34,7 @@ ms.locfileid: "25949262"
 
 可以对 **Field** 或 **Parameter** 对象使用 **AppendChunk** 方法，用长型二进制或字符数据来填充该对象。如果系统内存有限，那么在处理长型数值时可以用 **AppendChunk** 方法将整个数据分成若干部分。
 
-**Field**
+### <a name="field"></a>Field
 
 如果 **Field** 对象的 [Attributes](attributes-property-ado.md) 属性中的 **adFldLong** 位设置为 True，那么可以对该字段使用 **AppendChunk** 方法。
 
@@ -42,13 +42,10 @@ ms.locfileid: "25949262"
 
 如果在对 **Field** 对象调用 **AppendChunk** 时当前没有记录，则会发生错误。
 
-
 > [!NOTE]
 > [!注释] **AppendChunk** 方法不能对 **Record** 对象的 [Field](record-object-ado.md) 对象进行操作。它不执行任何操作，并将产生运行时错误。
 
-
-
-**Parameter**
+### <a name="parameters"></a>参数
 
 如果 **Parameter** 对象的 **Attributes** 属性中的 **adParamLong** 位设置为 True，那么可以对该参数使用 **AppendChunk** 方法。
 

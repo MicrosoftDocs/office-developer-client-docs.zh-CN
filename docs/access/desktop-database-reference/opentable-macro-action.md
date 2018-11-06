@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 451d27f97c0b4f5fc4707d3947e262ba84b9a40e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d80065c976a014ccf379bdc2016b0324cb02b269
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926099"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998145"
 ---
 # <a name="opentable-macro-action"></a>OpenTable 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -55,16 +54,12 @@ ms.locfileid: "25926099"
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>说明
 
 此操作类似于在导航窗格中双击表，或在导航窗格中右键单击表并选择视图。
 
-
 > [!TIP]
-> <P>[!提示] 您可以将表从导航窗格拖至某个宏操作行。这会自动创建在数据表视图中打开该表的 <STRONG>OpenTable</STRONG> 操作。</P>
-
-
+> [!提示] 您可以将表从导航窗格拖至某个宏操作行。这会自动创建在数据表视图中打开该表的 **OpenTable** 操作。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **OpenTable** 操作，请使用 **DoCmd** 对象的 **OpenTable** 方法。
 

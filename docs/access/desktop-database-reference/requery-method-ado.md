@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 588f99d495716ca3c40376ce323d7c1557da9319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0105fb67c095355e607c6c73fc73fc4c6b1050ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925798"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998184"
 ---
 # <a name="requery-method-ado"></a>Requery 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 通过重新执行对象所基于的查询，更新 [Recordset](recordset-object-ado.md) 对象中的数据。
 
@@ -26,17 +23,14 @@ ms.locfileid: "25925798"
 
 *记录集*。Requery*选项*
 
-## <a name="parameter"></a>参数
+## <a name="parameters"></a>参数
 
-  - *Options*
-
-  - 可选。包含影响此操作的 [ExecuteOptionEnum](executeoptionenum.md) 和 [CommandTypeEnum](commandtypeenum.md) 值的位掩码。
-
+|名称 |说明|
+|:----|:----------|
+|*Options* |可选。包含影响此操作的 [ExecuteOptionEnum](executeoptionenum.md) 和 [CommandTypeEnum](commandtypeenum.md) 值的位掩码。|
 
 > [!NOTE]
-> <P>如果<EM>选项</EM>设置为<STRONG>adAsyncExecute</STRONG>，此操作将异步执行，且当它结束时，将发布<A href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</A>事件。</P>
-
-
+> 如果*选项*设置为**adAsyncExecute**，此操作将异步执行，且当它结束时，将发布[RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md)事件。
 
 **adExecuteNoRecords** 或 **adExecuteStream** 的 **ExecuteOpenEnum** 值不应当与 **Requery** 一起使用。
 

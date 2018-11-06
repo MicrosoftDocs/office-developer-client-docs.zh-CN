@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e988eec4b3997bb24bf3a9aa0bb7faed1629b1f1
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e9c77eabfc0689c6696c4ea6c8b4998b6b345458
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950102"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998348"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase 方法 (DAO)
 

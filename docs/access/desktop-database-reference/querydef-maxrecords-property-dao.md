@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5893dd0c6538a1812dc9b19aede2b9114899d68c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0156983a455c72e4046424def188e41b94705087
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927116"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998223"
 ---
 # <a name="querydefmaxrecords-property-dao"></a>QueryDef.MaxRecords 属性 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 设置或返回针对 ODBC 数据源的查询所返回的最大记录数。
 
@@ -37,11 +35,8 @@ ms.locfileid: "25927116"
 
 将 **MaxRecords** 指定的行数返回到 **[Recordset](recordset-object-dao.md)** 中的应用程序后，查询处理器将停止返回其他记录，即使有更多的记录符合列入 **Recordset** 的条件，也是如此。如果有限的客户端资源阻止了对大量记录的管理，该属性将十分有用。
 
-
 > [!NOTE]
-> <P>[!注释] <STRONG>MaxRecords</STRONG> 属性只能用于 ODBC 数据源。</P>
-
-
+> [!注释] **MaxRecords** 属性只能用于 ODBC 数据源。
 
 ## <a name="example"></a>示例
 

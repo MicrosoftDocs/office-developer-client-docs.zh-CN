@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197351(v=office.15)
 ms:contentKeyID: 48546252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66f08fa9733de0b63ca8bb659972abbc59183e16
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0c725919b6509b5c802502fc8280823c407516f6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922319"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998824"
 ---
 # <a name="indexesdelete-method-dao"></a>Indexes.Delete 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25922319"
 
 *表达式*一个代表**Indexes**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25922319"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>要删除的索引的名称。</p></td>

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dbd8ecc670742d6b9f88dd9c608d2304e26a8d09
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dc8f9103cffb4df4a4db327da9c8ff36e3ec2555
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929662"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997803"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>TableDef.ReplicaFilter 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -78,11 +77,8 @@ ms.locfileid: "25929662"
 
 若要删除筛选器，请将 **ReplicaFilter** 属性设置为 **False**。如果删除所有筛选器并调用 **PopulatePartial** 方法，则部分副本中的所有已复制表中都不会显示任何记录。
 
-
 > [!NOTE]
-> <P>[!注释] 如果副本筛选器已更改，并且在未首先调用 <STRONG>PopulatePartial</STRONG> 的情况下调用了 <STRONG>Synchronize</STRONG> 方法，则会发生可捕获的错误。</P>
-
-
+> [!注释] 如果副本筛选器已更改，并且在未首先调用 **PopulatePartial** 的情况下调用了 **Synchronize** 方法，则会发生可捕获的错误。
 
 ## <a name="example"></a>示例
 

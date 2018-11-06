@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
 ms:contentKeyID: 48547933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8eda32f026c0fb706f15da3760c3dba879aae9d6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b45e716844b3e616dfe5b8f94d69f29d6b0f1042
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928321"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997509"
 ---
 # <a name="seteos-method-ado"></a>SetEOS 方法 (ADO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,8 +29,5 @@ ms.locfileid: "25928321"
 
 由于 [Write](write-method-ado.md)、[WriteText](writetext-method-ado.md) 和 [CopyTo](copyto-method-ado.md) 不会截掉现有 **Stream** 对象中的任何额外值，因此可以通过用 **SetEOS** 设置新的流末尾位置来截去这些字节或字符。
 
-
 > [!WARNING]
-> <P>如果将 <STRONG>EOS</STRONG> 设置为实际流末尾之前的某个位置，则新的 <STRONG>EOS</STRONG> 位置后面的所有数据都将丢失。</P>
-
-
+> 如果将 **EOS** 设置为实际流末尾之前的某个位置，则新的 **EOS** 位置后面的所有数据都将丢失。

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fc089ded79e9a25da566f44b668bf788d97fc4be
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e73724e8e27a622bbf96f4d9cc96bf4128dca42d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949976"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998131"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial 方法 (DAO)
 

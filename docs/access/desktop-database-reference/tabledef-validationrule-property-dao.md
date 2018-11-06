@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052925
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a4b44545453d9ed92ae09c1d7722ae24ea35fd78
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 47dbb798a0b293f1651308de9aa2064e1c421a07
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926344"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996858"
 ---
 # <a name="tabledefvalidationrule-property-dao"></a>TableDef.ValidationRule 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -44,8 +43,5 @@ ms.locfileid: "25926344"
 
 对于基于链接表的 **TableDef** 对象， **ValidationRule** 属性继承基础基表的 **ValidationRule** 属性设置。如果基础基表不支持验证，则属性的值为零长度字符串 ("")。
 
-
 > [!NOTE]
-> <P>如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strRule ="价格&gt;" &amp; lngPrice，和 lngPrice = 125,50)，将导致错误时您的代码，尝试进行验证的任何数据。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。</P>
-
-
+> 如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strRule ="价格&gt;" &amp; lngPrice，和 lngPrice = 125,50)，将导致错误时您的代码，尝试进行验证的任何数据。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。

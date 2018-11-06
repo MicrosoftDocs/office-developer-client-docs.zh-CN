@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2fcc3cc7bac9bcc4ab1f87c6e3da791eab06fc94
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: caa22f142062b929b2520d5a2de69f9ccddb2145
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919274"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998677"
 ---
 # <a name="runapplication-macro-action"></a>RunApplication 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -35,14 +34,10 @@ ms.locfileid: "25919274"
 </tbody>
 </table>
 
-
 可以使用 **RunApplication** 操作在 Microsoft Access 内部运行基于 Microsoft Windows 或基于 MS-DOS 的应用程序，例如 Microsoft Excel、Microsoft Word 或 Microsoft PowerPoint。例如，您可能想将 Excel 电子表格数据贴粘到 Access 数据库中。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 

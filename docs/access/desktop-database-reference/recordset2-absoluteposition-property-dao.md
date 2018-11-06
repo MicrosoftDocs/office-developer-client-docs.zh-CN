@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6adf3e5ec2ec36163d4818411a1abc07e940b209
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 76137608ed5de0fbd2b841fba3101d70209c7a6d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922683"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998753"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Recordset2.AbsolutePosition 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -40,15 +39,9 @@ ms.locfileid: "25922683"
 
 不应将该属性用作代理记录编号。仍然建议采用书签保留和返回到给定位置，而且这是在所有类型的 **Recordset2** 对象之间定位当前记录的唯一方法。特别是，当某记录之前的一条或多条记录被删除时，该记录的位置就会更改。如果再次重新创建 **Recordset2** 对象，也无法保证记录具有相同的绝对位置，这是因为除非使用带有 ORDER BY 子句的 SQL 语句来创建 **Recordset** 对象，否则该对象中的各个记录的顺序将是无法保证的。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>对于新打开但尚未填充的 <STRONG>Recordset2</STRONG> 对象，如果将 <STRONG>AbsolutePosition</STRONG> 属性设置为大于零的值，则会导致可捕获的错误。请首先使用 <STRONG>MoveLast</STRONG> 方法填充 <STRONG>Recordset2</STRONG> 对象。</P>
-> <LI>
-> <P>仅向前类型<STRONG>Recordset2</STRONG>对象，或者对于从针对 Microsoft Access 数据库引擎连接的 ODBC 数据库的传递查询打开的<STRONG>Recordset2</STRONG>对象， <STRONG>AbsolutePosition</STRONG>属性不可用。</P></LI></UL>
-
-
+> - 对于新打开但尚未填充的 **Recordset2** 对象，如果将 **AbsolutePosition** 属性设置为大于零的值，则会导致可捕获的错误。请首先使用 **MoveLast** 方法填充 **Recordset2** 对象。
+> - 仅向前类型**Recordset2**对象，或者对于从针对 Microsoft Access 数据库引擎连接的 ODBC 数据库的传递查询打开的**Recordset2**对象， **AbsolutePosition**属性不可用。
 
 ## <a name="example"></a>示例
 

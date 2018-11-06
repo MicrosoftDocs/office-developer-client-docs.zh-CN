@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: acf8ed2bd10efd55436b8933a862833b8e49c5f0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: bac15bed3b416d57f75dc7482b085478a27d5fa4
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926687"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996697"
 ---
 # <a name="runcode-macro-action"></a>RunCode 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -42,13 +41,7 @@ ms.locfileid: "25926687"
 <tbody>
 <tr class="odd">
 <td><p><strong>函数名称</strong></p></td>
-<td><p>要调用的 VBA Function 过程的名称。请将所有函数参数放在括号中。在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“函数名称”</strong>框中输入函数名称。这是一个必选参数。</p>
-
-> [!NOTE]
-> <P>在 Microsoft Access 数据库（.mdb 或 .accdb）中，单击<STRONG>“生成”</STRONG>按钮，以便使用表达式生成器为此参数选择一个函数。在表达式生成器中的列表中单击所需的函数。</P>
-
-
-<p></p></td>
+<td><p>要调用的 VBA Function 过程的名称。请将所有函数参数放在括号中。在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“函数名称”</strong>框中输入函数名称。这是一个必选参数。</p><p><strong>注意</strong>： 在 Access 数据库 （.mdb 或.accdb），单击<strong>生成</strong>按钮以使用表达式生成器来选择用于此参数的函数。 单击所需的函数，表达式生成器中的列表中。</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,17 +59,11 @@ ms.locfileid: "25926687"
 
 Access 会忽略函数的返回值。
 
-
 > [!NOTE]
-> <P>[!注释] 如果函数名称与模块名称相同，则不能通过宏调用 Function 过程。</P>
-
-
-
+> [!注释] 如果函数名称与模块名称相同，则不能通过宏调用 Function 过程。
 
 > [!TIP]
-> <P>[!提示] 要运行用 Visual Basic 编写的 Sub 过程或事件过程，请创建一个调用 Sub 过程或事件过程的 Function 过程。然后使用 <STRONG>RunCode</STRONG> 操作运行该 Function 过程。</P>
-
-
+> [!提示] 要运行用 Visual Basic 编写的 Sub 过程或事件过程，请创建一个调用 Sub 过程或事件过程的 Function 过程。然后使用 **RunCode** 操作运行该 Function 过程。
 
 如果您使用**RunCode**操作调用的函数，访问查找函数使用数据库标准模块中的**函数名称**参数指定的名称。 但是，当运行此操作的窗体或报表上的菜单命令或在窗体或报表上的事件的响应，访问首先查找函数在窗体或报表的类模块，然后在标准模块。 Access 不搜索显示在导航窗格中的**函数名称**参数指定的函数**模块**区域中的类模块。
 

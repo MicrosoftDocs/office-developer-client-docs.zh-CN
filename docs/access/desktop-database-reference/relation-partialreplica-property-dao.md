@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053557
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 30b23b424b8c76f0681d0128348590c1558e81ec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 11f8017c01cec9af2da26bedaf689d69554e554c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929382"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998183"
 ---
 # <a name="relationpartialreplica-property-dao"></a>Relation.PartialReplica 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -46,6 +45,10 @@ ms.locfileid: "25929382"
     
 
 > [!NOTE]
-> <P>当设置副本筛选器或副本关系时，一定要注意，不满足限制条件的部分副本中的记录将会从部分副本中删除，而不是从完全副本中删除。例如，假设您将部分副本中“客户”表的 <STRONG>TableDef</STRONG> 的 <STRONG>ReplicaFilter</STRONG> 属性设置为 "Region = 'CA'"，然后重新填充数据库。此操作将会插入或更新加利福尼亚客户的所有记录。之后，如果您将 <STRONG>ReplicaFilter</STRONG> 属性设置为 "Region = 'FL'" 并重新填充数据库，则部分副本中的所有加利福尼亚地区的记录都将被删除，将从完全副本中插入佛罗里达客户的所有记录。不会删除完全副本中的任何记录。在设置 <STRONG>ReplicaFilter</STRONG> 或 <STRONG>PartialReplica</STRONG> 属性之前，最好将设置这些属性的部分副本与完全副本同步。这可以确保在部分副本中删除任何记录之前，部分副本中的挂起更改合并到完全副本中。</P>
+> [!注释] 当设置副本筛选器或副本关系时，一定要注意，不满足限制条件的部分副本中的记录将会从部分副本中删除，而不是从完全副本中删除。 例如，假设您将**ReplicaFilter**属性设置为部分副本中客户**TableDef**上"区域 = 'CA'"并重新填充数据库。 此操作将会插入或更新加利福尼亚客户的所有记录。 
+> 
+> 如果然后重置将**ReplicaFilter**属性设为"区域 FL ="重新填充数据库、 部分副本中的所有加利福尼亚地区记录都将被都删除，和从基于佛罗里达客户的所有记录将都插入从完全副本。 不会删除完全副本中的任何记录。 
+>
+> 在设置 **ReplicaFilter** 或 **PartialReplica** 属性之前，最好将设置这些属性的部分副本与完全副本同步。 这可以确保在部分副本中删除任何记录之前，部分副本中的挂起更改合并到完全副本中。
 
 

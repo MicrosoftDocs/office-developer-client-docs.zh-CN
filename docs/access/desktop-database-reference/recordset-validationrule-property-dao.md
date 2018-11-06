@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823208(v=office.15)
 ms:contentKeyID: 48547671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c3d0331b9701714f6a1194007e0e07d709b07c7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dbb7530054ed42a6ee36b00b4b83dec99fd69a23
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925091"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996921"
 ---
 # <a name="recordsetvalidationrule-property-dao"></a>Recordset.ValidationRule 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -66,8 +65,5 @@ ms.locfileid: "25925091"
 
 对于表类型的 **Recordset** 对象， **ValidationRule** 属性继承您用于创建该表类型 **Recordset** 对象的 **TableDef** 对象的 **ValidationRule** 属性设置。
 
-
 > [!NOTE]
-> <P>如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strRule ="价格&gt;" &amp; lngPrice，和 lngPrice = 125,50)，将导致错误时您的代码，尝试进行验证的任何数据。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。</P>
-
-
+> 如果属性设置为非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strRule ="价格&gt;" &amp; lngPrice，和 lngPrice = 125,50)，将导致错误时您的代码，尝试进行验证的任何数据。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 Microsoft Access SQL 只接受美国格式的小数字符。

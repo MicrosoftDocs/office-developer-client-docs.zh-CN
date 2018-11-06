@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f30459483af92a915aaa1e94eb4bb12e0f8ca93c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 793e6c2e57f50b5086780d8632952c45f3d4442d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919687"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997979"
 ---
 # <a name="quitaccess-macro-action"></a>QuitAccess 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **QuitAccess** 操作退出 Microsoft Access。 **QuitAccess** 操作还可以指定在退出 Access 之前用于保存数据库对象的若干选项之一。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 

@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ae05da3d07cc17f54584d11282721ac83f23ccd8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ff903c459a351f69b272224ca29f9cc717498f0a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926540"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996851"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferSQLDatabase 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 在 Microsoft Access 项目中，可以使用 **TransferSQLDatabase** 操作将 Microsoft SQL Server 7.0 或更高版本的数据库迁移到另一个 SQL Server 7.0 或更高版本的数据库。 关于迁移数据库的详细信息，请参阅 SQL Server 文档。
 
-
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。
 
 ## <a name="setting"></a>设置
 
@@ -82,17 +78,12 @@ ms.locfileid: "25926540"
 
 下面是关于迁移数据库的一些要求：
 
-  - 您必须是目标服务器上 sysadmin 角色的成员（源服务器上不要求有任何特殊角色）。
+- 您必须是目标服务器上 sysadmin 角色的成员（源服务器上不要求有任何特殊角色）。
 
-<!-- end list -->
+- 当前连接到 Access 项目的 SQL 服务器和要向其迁移数据库的目标服务器必须为 SQL Server 7.0 版或更高版本。
 
-  - 当前连接到 Access 项目的 SQL 服务器和要向其迁移数据库的目标服务器必须为 SQL Server 7.0 版或更高版本。
-
-
-> [!NOTE]
-> <P>[!注释] 在数据库迁移操作过程中，不迁移链接服务器。</P>
-
-
+  > [!NOTE]
+  > [!注释] 在数据库迁移操作过程中，不迁移链接服务器。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **TransferSQLDatabase** 操作，请使用 **DoCmd** 对象的 **TransferSQLDatabase** 方法。
 

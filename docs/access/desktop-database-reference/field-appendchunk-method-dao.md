@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837014(v=office.15)
 ms:contentKeyID: 48548819
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 830d9d10aa2d166f3e9dca013697acdeebe8a767
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 257dd342d0c0aa171d7961ab61a69da099497688
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923985"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997404"
 ---
 # <a name="fieldappendchunk-method-dao"></a>Field.AppendChunk 方法 (DAO)
 
@@ -25,7 +25,7 @@ ms.locfileid: "25923985"
 
 *表达式*一个代表**Field**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ ms.locfileid: "25923985"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Val</p></td>
+<td><p><em>Val</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 Variant（String 子类型）类型的表达式或变量，其中包含要追加到 <strong>Field</strong> 对象的数据。</p></td>

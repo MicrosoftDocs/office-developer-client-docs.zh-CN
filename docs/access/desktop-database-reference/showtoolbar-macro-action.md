@@ -10,31 +10,22 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 254a54b4b672ba9e40253e3bd95283eec655d3dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ed69a84f9b1774b7c33711a0bb8e80da54e656cc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920506"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997928"
 ---
 # <a name="showtoolbar-macro-action"></a>ShowToolbar 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **ShowToolbar** 操作显示或隐藏 **"加载项"** 选项卡上的一组命令。
 
-
 > [!NOTE]
-> <P>[!注释] <STRONG>ShowToolbar</STRONG> 操作不影响快捷菜单。</P>
-
-
-
-
-> [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> - [!注释] **ShowToolbar** 操作不影响快捷菜单。
+> - [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 

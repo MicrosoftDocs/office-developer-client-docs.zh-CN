@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 369c518ab0ab213975bb7da3c96b6e5844bad9ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 69429aa0c623be06eae93a5e62fa06f1f0687007
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919414"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996459"
 ---
 # <a name="repaintobject-macro-action"></a>RepaintObject 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -56,19 +55,13 @@ ms.locfileid: "25919414"
 
 Microsoft Access 需等到完成其他尚未完成的任务后才完成尚未完成的屏幕更新。利用此操作，可以立即强制重画指定对象中的控件。在下列情况下，可以使用此操作：
 
-  - 使用 **SetValue** 操作更改很多控件中的值时。Access 可能不会立刻显示所做的更改，尤其是其他控件（如计算控件）依靠更改的控件中的值时更是如此。
+- 使用 **SetValue** 操作更改很多控件中的值时。Access 可能不会立刻显示所做的更改，尤其是其他控件（如计算控件）依靠更改的控件中的值时更是如此。
 
-  - 想要确保您正在查看的窗体显示其所有控件中的数据时。例如，在您打开一个窗体后，包含 OLE 对象的控件不会立即显示它们的数据。
-
+- 想要确保您正在查看的窗体显示其所有控件中的数据时。例如，在您打开一个窗体后，包含 OLE 对象的控件不会立即显示它们的数据。
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>此操作不会导致对数据库的重新查询，因此它不会显示新的或更改过的记录，也不会从对象的基础表或查询中删除已删除的对象。使用 <STRONG>Requery</STRONG> 操作可以重新查询对象的数据源或对象的控件之一。使用 <STRONG>ShowAllRecords</STRONG> 操作可以显示最新记录并删除所有已经应用的筛选。</P>
-> <LI>
-> <P><STRONG>RepaintObject</STRONG> 操作的效果不同于单击 <STRONG>"开始"</STRONG>选项卡上 <STRONG>"记录"</STRONG>组中的 <STRONG>"刷新"</STRONG>，后一种操作会显示您或其他用户已对窗体和数据表中当前显示的记录所做的所有更改。</P></LI></UL>
-
-
+> - 此操作不会导致对数据库的重新查询，因此它不会显示新的或更改过的记录，也不会从对象的基础表或查询中删除已删除的对象。使用 **Requery** 操作可以重新查询对象的数据源或对象的控件之一。使用 **ShowAllRecords** 操作可以显示最新记录并删除所有已经应用的筛选。
+> - **RepaintObject** 操作的效果不同于单击 **"开始"** 选项卡上 **"记录"** 组中的 **"刷新"**，后一种操作会显示您或其他用户已对窗体和数据表中当前显示的记录所做的所有更改。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **RepaintObject** 操作，请使用 **DoCmd** 对象的 **RepaintObject** 方法。
 

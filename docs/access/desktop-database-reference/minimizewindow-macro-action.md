@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 50716a32d0fa3837f87d9d2c5ecde0b59696480d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c1c8cb8d0f1166b63031925a02186ebc8a1bdac2
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920366"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996711"
 ---
 # <a name="minimizewindow-macro-action"></a>MinimizeWindow 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 如果访问配置为使用重叠窗口而不是选项卡式文档，您可以使用**MinimizeWindow**操作以减少于 Access 窗口的底部小型标题栏的活动窗口。
 
-
 > [!NOTE]
-> <P>[!注释] 此操作不能应用于 Visual Basic 编辑器中的代码窗口。有关如何影响代码窗口的信息，请参阅 <STRONG>WindowState</STRONG> 属性主题。</P>
-
-
+> [!注释] 此操作不能应用于 Visual Basic 编辑器中的代码窗口。有关如何影响代码窗口的信息，请参阅 **WindowState** 属性主题。
 
 ## <a name="setting"></a>设置
 
@@ -42,13 +38,13 @@ ms.locfileid: "25920366"
 
 **提示**
 
-  - 如果要最小化的窗口不是活动窗口，则可能需要先使用 **SelectObject** 操作。
+- 如果要最小化的窗口不是活动窗口，则可能需要先使用 **SelectObject** 操作。
 
-  - 若要隐藏导航窗格中，请在导航窗格中参数设置为**是**，然后使用**MinimizeWindow**操作与使用**SelectObject**操作。 **SelectObject**操作中选择的对象可以是在数据库中的任何对象。
+- 若要隐藏导航窗格中，请在导航窗格中参数设置为**是**，然后使用**MinimizeWindow**操作与使用**SelectObject**操作。 **SelectObject**操作中选择的对象可以是在数据库中的任何对象。
 
-  - 通过单击 **"视图"** 菜单上的 **"管理此窗口"**，然后单击 **"隐藏"**，可隐藏活动窗口。此时，窗口不是缩小为图标，而是从视图中消失。使用同一菜单上的 **"取消隐藏"** 命令可使该窗口重新显示出来。您可以使用 **RunMenuCommand** 操作通过宏执行上述任一命令。
+- 通过单击 **"视图"** 菜单上的 **"管理此窗口"**，然后单击 **"隐藏"**，可隐藏活动窗口。此时，窗口不是缩小为图标，而是从视图中消失。使用同一菜单上的 **"取消隐藏"** 命令可使该窗口重新显示出来。您可以使用 **RunMenuCommand** 操作通过宏执行上述任一命令。
 
-  - 还可以使用 **SetValue** 操作设置窗体的 **"Visible"** 属性，以隐藏或显示窗体的窗口。
+- 还可以使用 **SetValue** 操作设置窗体的 **"Visible"** 属性，以隐藏或显示窗体的窗口。
 
 若要在 Visual Basic for Applications (VBA) 模块中运行 **MinimizeWindow** 操作，请使用 **DoCmd** 对象的 **Minimize** 方法。
 

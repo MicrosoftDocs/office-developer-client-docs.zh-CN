@@ -10,18 +10,16 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f87c8e45cbc719ee50c017abd45a8950dc6ec7ed
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945444"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997467"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>初始化文本数据源驱动程序
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 文本数据源和 HTML 数据源使用相同的数据库驱动程序。
 
@@ -184,11 +182,8 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 </table>
 
 
-
 > [!NOTE]
-> <P>[!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。</P>
-
-
+> [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
 
 ## <a name="html-import-isam-formats"></a>HTML 导入 ISAM 格式
 
@@ -261,12 +256,8 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。</P>
-
-
+> [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
 
 ## <a name="html-export-isam-formats"></a>HTML 导出 ISAM 格式
 
@@ -334,14 +325,10 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。</P>
+> [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
 
-
-
-## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>为文本和 HTML 数据自定义 Schema.ini 文件
+## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>自定义文本和 HTML 数据的 Schema.ini 文件
 
 若要读取、导入或导出文本和 HTML 数据，除要在 .ini 文件中包括文本 ISAM 信息外，还需要创建 Schema.ini 文件。Schema.ini 包含数据源的结构信息：如何设置文本文件的格式、如果在导入时读取文本文件、文件的默认导出格式是什么。下面的示例显示了定宽文件 Filename.txt 的布局：
 
@@ -368,6 +355,8 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
     Col5=columnname9 LongChar Width 10
 ```
 
+<br/>
+
 类似地，分隔文件的格式按如下所示进行指定：
 
 ```text
@@ -385,6 +374,8 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
     
     Col2=dateofbirth Date width 9
 ```
+
+<br/>
 
 如果要将数据导出到分隔文本文件中，还要指定该文件的格式：
 
@@ -421,6 +412,8 @@ Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
     
     TextDelimeter="
 ```
+
+<br/>
 
 "My Special Export"示例引用了特定导出选项。可以在连接时指定任何不同的导出选项。最后一个示例还对应于在连接时可选要传递的数据源名称 (DSN)。所有这三个格式部分都可以包括在同一个 .ini 文件中。
 
@@ -510,8 +503,6 @@ Microsoft Access 数据库引擎使用如下所示的 Schema.ini 项。
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > [!注释] 更改 Schema.ini 文件设置时，必须先退出数据库引擎，然后再重新启动它，这样，新设置才会生效。

@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c170c9d02967cb04b387d9f549ad77933d1f55b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b04870a416874e2136e21b40c62d8e64a6182efe
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925644"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998544"
 ---
 # <a name="opendiagram-macro-action"></a>OpenDiagram 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 在 Access 项目中，可以使用 **OpenDiagram** 操作在设计视图中打开数据库图表。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -53,16 +49,12 @@ ms.locfileid: "25925644"
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>说明
 
 此操作类似于在导航窗格中双击数据库图表，或在导航窗格中右键单击数据库图表并单击 **"设计视图"**。
 
-
 > [!TIP]
-> <P>[!提示] 您可以将数据库图表从导航窗格拖至某个宏操作行。这会自动创建在设计视图中打开该数据库图表的 <STRONG>OpenDiagram</STRONG> 操作。</P>
-
-
+> [!提示] 您可以将数据库图表从导航窗格拖至某个宏操作行。这会自动创建在设计视图中打开该数据库图表的 **OpenDiagram** 操作。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **OpenDiagram** 操作，请使用 **DoCmd** 对象的 **OpenDiagram** 方法。
 

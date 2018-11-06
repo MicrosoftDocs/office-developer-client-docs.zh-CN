@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 50e1cf6b2eb87e27f6ee0ca1468ef6dadc17e602
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c3f8ee64f7eff6b02ddf4a004eaec7364436e0d1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922529"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998418"
 ---
 # <a name="relationsappend-method-dao"></a>Relations.Append 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25922529"
 
 *表达式*一个代表**Relations**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -49,7 +48,7 @@ ms.locfileid: "25922529"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>对象</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>对象</strong></p></td>
 <td><p>一个对象变量，代表追加到集合的字段。</p></td>

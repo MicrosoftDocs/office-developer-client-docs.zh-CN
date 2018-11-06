@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 567a8901b06bf73a57addc8907e2eb5517e5c2e4
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e72d879482c3ed69b262f2f4d0f07a4e11f8fa4c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949514"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998936"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword 方法 (DAO)
 
@@ -65,7 +65,7 @@ ms.locfileid: "25949514"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 BstrOld 和 bstrNew 字符串长度最多为 20 个字符，并且可以包括除 ASCII 字符 0 (null) 的任何字符。 若要清除密码，请使用零长度字符串 ("") 的 bstrNew。
 

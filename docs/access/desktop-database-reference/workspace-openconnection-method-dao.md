@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
 ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9ca2c1b66b8c74eb66bbbf8de2614bfb2ad546a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6a2c7e64d691564eca90c1cf80d57766e04637bb
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919932"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998880"
 ---
 # <a name="workspaceopenconnection-method-dao"></a>Workspace.OpenConnection 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -24,7 +23,7 @@ ms.locfileid: "25919932"
 
 *表达式*一个代表**Workspace**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -43,25 +42,25 @@ ms.locfileid: "25919932"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>一个字符串表达式。请参阅“说明”中的讨论。</p></td>
 </tr>
 <tr class="even">
-<td><p>选项</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>根据“说明”中的指定设置连接的各个选项。ODBC 驱动程序管理器根据此值向用户提示有关连接的信息，例如数据源名称 (DSN)、用户名和密码。</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>						如果连接针对只读访问权限打开，则为 <strong>True</strong>；如果连接针对读/写访问权限打开，则为 <strong>False</strong>（默认值）。</p></td>
 </tr>
 <tr class="even">
-<td><p>在浏览器中</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>将 ODBC 连接字符串。 请参阅<strong><a href="connection-connect-property-dao.md">Connect</a></strong>属性为特定的元素和此字符串的语法。 预先计算&quot;ODBC;&quot; ，则需要。</p></td>
@@ -70,7 +69,7 @@ ms.locfileid: "25919932"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Connection
 
@@ -117,6 +116,7 @@ options 参数确定是否以及何时提示用户建立连接，以及是否异
 </tbody>
 </table>
 
+<br/>
 
 **OpenConnection** 返回包含有关连接的信息的 **Connection** 对象。 **Connection** 对象与 **[Database](database-object-dao.md)** 对象类似。主要差别在于 **Database** 对象通常代表数据库，尽管也可以使用它代表在 Microsoft Access 工作区中与 ODBC 数据源建立的连接。
 

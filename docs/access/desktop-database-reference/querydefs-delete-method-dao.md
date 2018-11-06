@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821426(v=office.15)
 ms:contentKeyID: 48546918
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db56113291cd06ef550b4bbb2c8d43a45bcc2743
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5708082af87eca21143e7271706816d721306124
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923404"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997761"
 ---
 # <a name="querydefsdelete-method-dao"></a>QueryDefs.Delete 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25923404"
 
 *表达式*一个代表**QueryDefs**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25923404"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>N/A</p></td>

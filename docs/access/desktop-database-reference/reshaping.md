@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
 ms:contentKeyID: 48546174
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a051c62d73a36fed0832f17b1cb53b1641d4a152
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 49a61e72a4d9260b73275d84ce912ebc76f37652
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889278"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996452"
 ---
 # <a name="reshaping"></a>重构
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -38,8 +37,7 @@ rs2.Open "SHAPE {select * from Employees} " & _
 
 第二个功能是允许进行非章节访问现有的子**Recordset**对象，使用语法`"SHAPE <recordset reshape name>"`。
 
-
 > [!NOTE]
-> <P>[!注释] 不能向现有的 <STRONG>Recordset</STRONG> 追加列，不能用任何干扰性 COMPUTE 子句对参数化 <STRONG>Recordset</STRONG> 或 <STRONG>Recordset</STRONG> 对象进行重新构形，不能从正重新构形的 <STRONG>Recordset</STRONG> 对任何 <STRONG>Recordset</STRONG> 后代执行聚合运算。正重新构形的 <STRONG>Recordset</STRONG> 以及新 Shape 命令都必须使用同一个 <A href="connection-object-ado.md">Connection</A>。</P>
+> [!注释] 不能向现有的 **Recordset** 追加列，不能用任何干扰性 COMPUTE 子句对参数化 **Recordset** 或 **Recordset** 对象进行重新构形，不能从正重新构形的 **Recordset** 对任何 **Recordset** 后代执行聚合运算。 改变了形状的**Recordset**和新的形状命令都必须使用相同 * *[Connection](connection-object-ado.md)对象。
 
 

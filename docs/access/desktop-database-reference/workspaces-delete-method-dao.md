@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e6edefa53c64fd71652adae0123396d21455cf1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3fa1474b12665b38c0e2e60dde953eb6082d9430
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930096"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997991"
 ---
 # <a name="workspacesdelete-method-dao"></a>Workspaces.Delete 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25930096"
 
 *表达式*一个代表**Workspaces**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25930096"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>要删除的工作区的名称。</p></td>

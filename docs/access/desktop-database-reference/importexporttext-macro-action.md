@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm168097
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: be5497b7f1dbed4d32f25f2a675c3f996ed47c9f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 10c4c4cb4d0e63f0610c753363b208990e6faae7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925448"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999083"
 ---
 # <a name="importexporttext-macro-action"></a>ImportExportText 宏操作
 
@@ -24,9 +24,7 @@ ms.locfileid: "25925448"
 可以使用 **ImportExportText** 操作在当前 Microsoft Access 数据库（.mdb 或 .accdb）或 Microsoft Access 项目 (.adp) 与文本文件之间导入或导出文本。 还可以将文本文件中的数据链接到当前的 Access 数据库。 使用链接的文本文件，您可以通过 Access 查看文本数据，同时仍然可从字处理程序中对这些数据进行完全访问。 此外可以从导入、 导出到并链接到的表或 HTML 文件中的列表 (\*.html)。
 
 > [!NOTE]
-> [!注释] 如果链接到文本文件或 HTML 文件中的数据，则该数据在 Access 中是只读的。
-> 
-> [!注释] 如果数据库不受信任，将不允许此操作。 
+> [!注释] 如果链接到文本文件或 HTML 文件中的数据，则该数据在 Access 中是只读的。 [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -46,13 +44,7 @@ ms.locfileid: "25925448"
 <tbody>
 <tr class="odd">
 <td><p><strong>迁移类型</strong></p></td>
-<td><p>传输的类型。 您可以从，将数据导出到，导入数据或链接到分隔符或固定宽度的文本文件或 HTML 文件中的数据。 您还可以将数据导出到一个 Microsoft Word 的邮件合并数据文件，它可然后用于 Word 邮件合并功能以创建合并的文档套用信函等邮件标签。 选择<strong>导入分隔符号</strong>、<strong>导入固定宽度</strong>、<strong>导入 HTML</strong>、<strong>导出分隔</strong>、<strong>导出固定的宽度</strong>、<strong>导出 HTML</strong>、<strong>导出 Word for Windows 合并</strong>、<strong>链接分隔</strong>，<strong>链接固定宽度</strong>，或<strong>链接 HTML</strong>宏生成器窗格的<strong>操作参数</strong>部分的<strong>迁移类型</strong>框中。 默认为<strong>导入分隔符号</strong>。</p>
-
-> [!NOTE]
-> <P>Access 项目 (.adp) 仅支持<STRONG>“导入分隔符号”</STRONG>、<STRONG>“导入固定宽度”</STRONG>、<STRONG>“导出分隔符号”</STRONG>、<STRONG>“导出固定宽度”</STRONG>或<STRONG>“导出 Word for Windows 合并文件”</STRONG>迁移类型。</P>
-
-
-<p></p></td>
+<td><p>传输的类型。 您可以从，将数据导出到，导入数据或链接到分隔符或固定宽度的文本文件或 HTML 文件中的数据。 您还可以将数据导出到一个 Microsoft Word 的邮件合并数据文件，它可然后用于 Word 邮件合并功能以创建合并的文档套用信函等邮件标签。 选择<strong>导入分隔符号</strong>、<strong>导入固定宽度</strong>、<strong>导入 HTML</strong>、<strong>导出分隔</strong>、<strong>导出固定的宽度</strong>、<strong>导出 HTML</strong>、<strong>导出 Word for Windows 合并</strong>、<strong>链接分隔</strong>，<strong>链接固定宽度</strong>，或<strong>链接 HTML</strong>宏生成器窗格的<strong>操作参数</strong>部分的<strong>迁移类型</strong>框中。 默认为<strong>导入分隔符号</strong>。</p><p><strong>注意</strong>： 在 Access 项目 (.adp) 支持仅<STRONG>导入分隔符号</STRONG>、<STRONG>导入固定宽度</STRONG>、<STRONG>导出分隔符号</STRONG>、<STRONG>导出固定宽度</STRONG>或<STRONG>导出 Word for Windows 合并</STRONG>传输类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>规格名称</strong></p></td>
@@ -82,11 +74,13 @@ ms.locfileid: "25925448"
 </tr>
 <tr class="odd">
 <td><p><strong>带有字段名称</strong></p></td>
-<td><p>指定的文本文件的第一行是否包含的字段的名称。 如果选择<strong>是</strong>，Access 将使用名称此行中为 Access 表中的字段名称导入或链接的文本数据时。 如果选择<strong>否</strong>，Access 会将第一行视为普通数据行。 默认值为 <strong>"否"</strong>。 由于第一行必须包含字段名称，因此 Access 对 Word for Windows 邮件合并数据文件忽略此参数。 如果您已经为此参数选择了<strong>“是”</strong>，则在您将 Access 表或选择查询导出到带分隔符的文本文件或固定宽度的文本文件中时，Access 会将表或选择查询的字段名称插入到文本文件的第一行中。 如果您要导入或链接固定宽度的文本文件，并选择<strong>是</strong>在此框中，包含字段名称的第一行必须使用设置导入/导出规范中的字段分隔符分开的字段名称。 如果您要导出到固定宽度的文本文件，并选择<strong>是</strong>为此参数，Access 会将字段名称插入到使用该分隔符的文本文件的第一行。</p></td>
+<td><p>指定文本文件的第一行是否包含字段名称。如果选择<strong>“是”</strong>，则当您导入或链接文本数据时，Access 就会将此行中的名称用作 Access 表中的字段名称。如果选择<strong>“否”</strong>，Access 就会将第一行视为普通的数据行。默认值为<strong>“否”</strong>。 
+
+<br/><br/>由于第一行必须包含字段名称，因此 Access 对 Word for Windows 邮件合并数据文件忽略此参数。 如果您已经为此参数选择了<strong>“是”</strong>，则在您将 Access 表或选择查询导出到带分隔符的文本文件或固定宽度的文本文件中时，Access 会将表或选择查询的字段名称插入到文本文件的第一行中。<br/><br/>如果要导入或链接固定宽度的文本文件，并在此框中选择<strong>“是”</strong>，则包含字段名称的第一行必须使用在导入/导出规格中设置的字段分隔符来分隔字段名称。如果要导出到固定宽度的文本文件中，并为此参数选择<strong>“是”</strong>，Access 就会使用此分隔符将字段名称插入到文本文件的第一行中。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>HTML 表名称</strong></p></td>
-<td><p>您想要导入或链接的 HTML 文件中的列表的表的名称。 除非<strong>传输类型</strong>参数设置为导入 HTML 或链接 HTML，则忽略此参数。 如果将此参数留空，将导入或链接 HTML 文件中的第一个表格或列表。 HTML 文件中的表或列表的名称由指定的文本&lt;标题&gt;标记中，如果没有，则&lt;标题&gt;标记。 如果没有 &lt;CAPTION&gt; 标记，名称由 &lt;TITLE&gt; 标记指定的文本决定。 如果多个表或列表具有相同名称，访问到的每个名称; 末尾添加一个编号中区分例如，雇员 1 和 Employees2。</p></td>
+<td><p>您想要导入或链接的 HTML 文件中的列表的表的名称。 除非<strong>传输类型</strong>参数设置为导入 HTML 或链接 HTML，则忽略此参数。 如果将此参数留空，将导入或链接 HTML 文件中的第一个表格或列表。 <br/><br/>HTML 文件中的表或列表的名称由指定的文本&lt;标题&gt;标记中，如果没有，则&lt;标题&gt;标记。 如果没有 &lt;CAPTION&gt; 标记，名称由 &lt;TITLE&gt; 标记指定的文本决定。 如果多个表或列表具有相同名称，访问到的每个名称; 末尾添加一个编号中区分例如，雇员 1 和 Employees2。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>代码页</strong></p></td>

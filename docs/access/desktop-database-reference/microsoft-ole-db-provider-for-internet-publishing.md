@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249327(v=office.15)
 ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bb0bb40d0f12bd9d5a6c8b29af1d4e27d806db87
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c6f1c7c65d0ac1dd2a6d3ea132a31955f175bc7f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882082"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997481"
 ---
 # <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Microsoft OLE DB Provider for Internet Publishing
 
@@ -82,8 +82,6 @@ MSDAIPP.DSO
 
 如果将连接字符串的“URL=”中的 *ResourceURL* 值设置为无效的值，则默认情况下 Internet Publishing Provider 会呈现一个对话框，提示您输入有效值。对于应用程序中间层中的组件，这是一种不恰当的行为，因为该行为将挂起程序的执行直到清除该对话框为止，而且客户端似乎会冻结，因为它未收到来自组件的响应。
 
-
 > [!NOTE]
-> <P>如果 MSDAIPP。DSO 显式指定为提供程序，则可以使用<EM>提供程序</EM>的连接字符串关键字或<STRONG>Provider</STRONG>属性，则不能使用"URL ="连接字符串中。 否则，将会发生错误。 只需按照 <A href="the-ole-db-provider-for-internet-publishing.md">将 ADO 与 OLE DB Provider for Internet Publishing 结合使用</A>主题中所述的方式指定 URL 即可。</P>
-
+> 如果 MSDAIPP。DSO 显式指定为提供程序，则可以使用*提供程序*的连接字符串关键字或**Provider**属性，则不能使用"URL ="连接字符串中。 否则，将会发生错误。 只需按照 [将 ADO 与 OLE DB Provider for Internet Publishing 结合使用](the-ole-db-provider-for-internet-publishing.md)主题中所述的方式指定 URL 即可。
 

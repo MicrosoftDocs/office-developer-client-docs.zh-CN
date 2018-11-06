@@ -1,20 +1,19 @@
 ---
-title: 处理多维数据
-TOCTitle: Working with Multidimensional Data
+title: 使用多维数据
+TOCTitle: Working with multidimensional data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2210799fe46a0993a917a85a0e06a1a806b04548
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1fc86aa61b9dda9db2246b7b5720eed31a595ea0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945822"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998691"
 ---
 # <a name="working-with-multidimensional-data"></a>使用多维数据
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -28,35 +27,27 @@ ms.locfileid: "25945822"
 
 例如，某个多维数据集具有以下六个维（注意，此多维数据集架构与[多维架构和数据概述](overview-of-multidimensional-schemas-and-data.md)中给出的示例稍有不同）：
 
-  - Salesperson
-
-  - Geography（自然层次结构）- Continents、Countries、States 等等
-
-  - Quarters - Quarters、Months、Days
-
-  - Years
-
-  - Measures - Sales、PercentChange、BudgetedSales
-
-  - Products
-
+- Salesperson
+- Geography（自然层次结构）- Continents、Countries、States 等等
+- Quarters - Quarters、Months、Days
+- Years
+- Measures - Sales、PercentChange、BudgetedSales
+- Products
 
 > [!NOTE]
-> <P>[!注释] 该示例中的单元格值可以视为轴位置序号的有序对，其中第一个数字代表 X 轴位置，第二个数字代表 Y 轴位置。</P>
-
-
+> [!注释] 该示例中的单元格值可以视为轴位置序号的有序对，其中第一个数字代表 X 轴位置，第二个数字代表 Y 轴位置。
 
 此单元格集的特征如下所示：
 
-  - 轴维：Quarters、Salesperson、Geography
+- 轴维：Quarters、Salesperson、Geography
 
-  - 筛选器维：Measures、Years、Products
+- 筛选器维：Measures、Years、Products
 
-  - 两个轴：COLUMN（X 或轴 0）和 ROW（Y 或轴 1）
+- 两个轴：COLUMN（X 或轴 0）和 ROW（Y 或轴 1）
 
-  - X 轴：两个嵌套维，即 Salesperson 和 Geography
+- X 轴：两个嵌套维，即 Salesperson 和 Geography
 
-  - Y 轴：Quarters 维
+- Y 轴：Quarters 维
 
 X 轴具有两个嵌套维：Salesperson 和 Geography。从 Geography 维中选择了四个成员：Seattle、Boston、USA-South 和 Japan。从 Salesperson 维中选择了两个成员：Valentine 和 Nash。这就在此轴上共产生了八个位置 (8 = 4\*2)。
 

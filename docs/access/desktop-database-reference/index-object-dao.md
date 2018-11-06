@@ -1,17 +1,17 @@
 ---
 title: Index 对象的数据访问对象 (DAO)
-TOCTitle: Index Object
+TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc849e22da654bd384065e4c169b3fd5540c6061
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6646a3121bc353c8e8d74e3698ae688272656769
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928962"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997397"
 ---
 # <a name="index-object-dao"></a>Index 对象 (DAO)
 
@@ -34,14 +34,14 @@ Microsoft Access 数据库引擎可自动维护所有的基表索引。只要在
 在访问表类型 **Recordset** 对象时，可以使用该对象的 **Index** 属性指定记录的顺序。将该属性设置为 **Indexes** 集合中的现有 **Index** 对象的 **Name** 属性设置。此集合包含在您所填充的 [Recordset](tabledef-object-dao.md) 对象下面的 ****TableDef**** 对象中。
 
 > [!NOTE]
-> <P>[!注释] 不一定非要为表创建索引，但是对于大型的未创建索引的表，访问特定的记录或处理联接可能需要花费较长的时间。反过来，具有太多的索引也会减慢更新数据库的速度，原因是需要修正每个表索引。</P>
+> [!注释] 不一定非要为表创建索引，但是对于大型的未创建索引的表，访问特定的记录或处理联接可能需要花费较长的时间。反过来，具有太多的索引也会减慢更新数据库的速度，原因是需要修正每个表索引。
 
 索引中每个 [Field](field-attributes-property-dao.md) 对象的 ****Attributes**** 属性将确定返回记录的顺序，并从而确定要对该索引使用哪些访问技术。
 
 **Index** 对象的 **Fields** 集合中的每个 **Field** 对象都是索引的组成部分。要定义一个新的 **Index** 对象，请先设置其属性，然后再将其追加到集合中，使该 **Index** 对象可用于后续应用。
 
 > [!NOTE]
-> <P>[!注释] 仅当现有 <STRONG>Index</STRONG> 对象所在的 <STRONG>TableDef</STRONG> 对象的 <STRONG><A href="connection-updatable-property-dao.md">Updatable</A></STRONG> 属性为 <STRONG>True</STRONG> 时，才可以修改该对象的 <STRONG>Name</STRONG> 属性设置。</P>
+> [!注释] 仅当现有 **Index** 对象所在的 **TableDef** 对象的 **[Updatable](connection-updatable-property-dao.md)** 属性为 **True** 时，才可以修改该对象的 **Name** 属性设置。
 
 在设置表的主键时，Microsoft Access 数据库引擎会自动将它定义为主索引。主索引包括一个或多个字段，这些字段可以按预定义的顺序唯一地标识表中的所有记录。由于主索引字段必须是唯一的，因此 Microsoft Access 数据库引擎会将主 **Index** 对象的 **Unique** 属性自动设置为 **True**。如果主索引包括多个字段，则每个字段可以包含重复值，但是所有索引字段中的值组合必须是唯一的。主索引包括表的键，并且始终由作为主键的相同字段组成。
 
@@ -59,12 +59,9 @@ Microsoft Access 数据库引擎可自动维护所有的基表索引。只要在
 4.  将 **Field** 对象追加到 **Fields** 集合。
 
 5.  将 **Index** 对象追加到 **Indexes** 集合。
-    
 
     > [!NOTE]
-    > <P>[!注释] 对于使用 Microsoft Access 数据库引擎（不支持聚簇索引）的数据库，将忽略 <STRONG>Clustered</STRONG> 属性。</P>
-
-
+    > [!注释] 对于使用 Microsoft Access 数据库引擎（不支持聚簇索引）的数据库，将忽略 **Clustered** 属性。
 
 ## <a name="example"></a>示例
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053061
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b86713870efb2ed5974f462197cadc95df43fcb3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5df9c972095d61ff17fa2a405a6786c08dad74fc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920772"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997775"
 ---
 # <a name="recordsetseek-method-dao"></a>Recordset.Seek 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25920772"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,13 +48,13 @@ ms.locfileid: "25920772"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Comparison</p></td>
+<td><p><em>Comparison</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>下列字符串表达式之一： &lt;， &lt;=、 =、 &gt;=，或&gt;。</p></td>
 </tr>
 <tr class="even">
-<td><p>Key1，Key2...Key13</p></td>
+<td><p><em>Key1，Key2...Key13</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>与 <strong>Recordset</strong> 对象当前索引中的字段对应的一个或多个值，该索引由它的 <strong>Index</strong> 属性设置指定。最多可使用 13 个 key 参数。</p></td>

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1d587501cb9a3279db055b9eee27d765e002a03
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a30c9d12de32f4137e3bb365254445f96e8b03c6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925937"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998782"
 ---
 # <a name="querydefprepare-property-dao"></a>QueryDef.Prepare 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -36,11 +35,8 @@ ms.locfileid: "25925937"
 
 如果**Prepare**设置为**dbQPrepare**，这可以通过将**[Execute](querydef-execute-method-dao.md)** 方法的 options 参数设置为**一设置**执行查询时覆盖。
 
-
 > [!NOTE]
-> <P>[!注释] 一旦设置了 DAO <A href="querydef-sql-property-dao.md"><STRONG>SQL</STRONG></A> 属性，就会调用 ODBC <STRONG>SQLPrepare</STRONG> API。因此，如果您希望使用 <STRONG>dbQUnprepare</STRONG> 选项来提高性能，则必须在设置 <STRONG>SQL</STRONG> 属性之前设置 <STRONG>Prepare</STRONG> 属性。</P>
-
-
+> [!注释] 一旦设置了 DAO [**SQL**](querydef-sql-property-dao.md) 属性，就会调用 ODBC **SQLPrepare** API。因此，如果您希望使用 **dbQUnprepare** 选项来提高性能，则必须在设置 **SQL** 属性之前设置 **Prepare** 属性。
 
 ## <a name="example"></a>示例
 

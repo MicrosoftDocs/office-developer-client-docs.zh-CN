@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052883
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b07717a209fdb0152964bcd33d228d17cecd4eec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b9a9a5624697779bb7231626b7440d8db9c40244
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922347"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996816"
 ---
 # <a name="recordsetaddnew-method-dao"></a>Recordset.AddNew 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -36,33 +35,24 @@ ms.locfileid: "25922347"
 
 修改新记录后，请使用 **[Update](recordset-update-method-dao.md)** 方法保存更改，并将记录添加到 **Recordset**。在使用 **Update** 方法之前，数据库中不发生更改。
 
+> [!NOTE]
+> [!注释] 如果发出了 **AddNew**，然后执行了转移到另一条记录的任何操作，但是没有使用 **Update**，则更改将会丢失且不发出警告。此外，如果关闭 **Recordset**，或者结束声明 **Recordset** 或其 **[Database](database-object-dao.md)** 对象的过程，则会放弃新记录且不发出警告。
 
 > [!NOTE]
-> <P>[!注释] 如果发出了 <STRONG>AddNew</STRONG>，然后执行了转移到另一条记录的任何操作，但是没有使用 <STRONG>Update</STRONG>，则更改将会丢失且不发出警告。此外，如果关闭 <STRONG>Recordset</STRONG>，或者结束声明 <STRONG>Recordset</STRONG> 或其 <STRONG><A href="database-object-dao.md">Database</A></STRONG> 对象的过程，则会放弃新记录且不发出警告。</P>
-
-
-
-
-> [!NOTE]
-> <P>[!注释] 如果在 Microsoft Access 工作区中使用 <STRONG>AddNew</STRONG>，并且数据库引擎必须创建一个新页面以保存当前记录，则页面锁定是悲观的。如果新记录适合现有页面，则页面锁定是乐观的。</P>
-
-
+> [!注释] 如果在 Microsoft Access 工作区中使用 **AddNew**，并且数据库引擎必须创建一个新页面以保存当前记录，则页面锁定是悲观的。如果新记录适合现有页面，则页面锁定是乐观的。
 
 如果没有移到 **Recordset** 的最后一条记录，并且由其他过程添加到基表的记录位于当前记录的上方，则包括这些添加的记录。但是，如果向自己的 **Recordset** 添加了记录，则该记录将在 **Recordset** 中可见，并且将包括在基础表中，基础表中的记录对任何新的 **Recordset** 对象可见。
 
 新记录的位置取决于 **Recordset** 的类型：
 
-  - 在动态集类型 **Recordset** 对象中，记录将插在 **Recordset** 的末尾，而不管打开 **Recordset** 时应用的排序或顺序规则如何。
+- 在动态集类型 **Recordset** 对象中，记录将插在 **Recordset** 的末尾，而不管打开 **Recordset** 时应用的排序或顺序规则如何。
 
-  - 在已设置 [**Index**](recordset-index-property-dao.md) 属性的表类型 **Recordset** 对象中，记录将按排序次序在正确的位置返回。如果没有设置 **Index** 属性，新记录将在 **Recordset** 的末尾返回。
+- 在已设置 [**Index**](recordset-index-property-dao.md) 属性的表类型 **Recordset** 对象中，记录将按排序次序在正确的位置返回。如果没有设置 **Index** 属性，新记录将在 **Recordset** 的末尾返回。
 
 在使用 **AddNew** 之前处于当前的记录仍然为当前记录。如果想要使新记录成为当前记录，可将 **[Bookmark](recordset-bookmark-property-dao.md)** 属性设置为 **[LastModified](recordset-lastmodified-property-dao.md)** 属性设置所标识的书签。
 
-
 > [!NOTE]
-> <P>[!注释] 若要添加、编辑或删除记录，基础数据源中的记录必须存在唯一索引。如果不存在此索引，在 Microsoft Access 工作区中， <STRONG>AddNew</STRONG>、 <STRONG>Delete</STRONG> 或 <STRONG>Edit</STRONG> 方法调用将发生"权限被拒绝"错误。</P>
-
-
+> [!注释] 若要添加、编辑或删除记录，基础数据源中的记录必须存在唯一索引。如果不存在此索引，在 Microsoft Access 工作区中， **AddNew**、 **Delete** 或 **Edit** 方法调用将发生"权限被拒绝"错误。
 
 ## <a name="example"></a>示例
 

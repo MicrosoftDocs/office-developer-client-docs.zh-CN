@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ed31f0105d8381667e1398fc5d91577d40998d81
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937419"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998817"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>UNION 操作 (Microsoft Access SQL)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -69,15 +68,9 @@ WHERE OrderAmount > 1000;
 
 请只在第一个 SELECT 语句中使用别名，因为别名在其他语句中会被忽略。在 ORDER BY 子句中，请根据第一个 SELECT 语句中使用的字段名来引用该字段。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>您可以使用<A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A>或<A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A>子句中每个<EM>query</EM>参数返回的数据进行分组。</P>
-> <LI>
-> <P>可以使用在最后一个<EM>query</EM>参数的末尾的<A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A>子句中指定的顺序显示返回的数据。</P></LI></UL>
-
-
+> - 您可以使用[GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql)或[HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql)子句中每个*query*参数返回的数据进行分组。
+> - 可以使用在最后一个*query*参数的末尾的[ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql)子句中指定的顺序显示返回的数据。
 
 ## <a name="example"></a>示例
 

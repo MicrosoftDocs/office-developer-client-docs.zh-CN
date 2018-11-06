@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192460(v=office.15)
 ms:contentKeyID: 48544148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa036f73dd4c811191c9d5ba83a6d2fc65a54827
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: edc2fcaa72f6bfb912708948903aa09b25447580
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918973"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998168"
 ---
 # <a name="logevent-macro-action"></a>LogEvent 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 **LogEvent** 操作可向 **USysApplicationLog** 系统表中写入信息。
 
-
 > [!NOTE]
-> <P>[!注释] <STRONG>LogEvent</STRONG> 操作仅适用于数据宏。</P>
-
-
+> [!注释] **LogEvent** 操作仅适用于数据宏。
 
 ## <a name="setting"></a>设置
 
@@ -51,7 +47,6 @@ ms.locfileid: "25918973"
 </tr>
 </tbody>
 </table>
-
 
 ## <a name="remarks"></a>注释
 

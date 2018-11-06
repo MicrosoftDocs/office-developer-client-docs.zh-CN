@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
 ms:contentKeyID: 48547861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 155074e95480e2de2b3efb1197814a1413b48586
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7fc8843e2d36179ec8a0168b0c44c6cdf3e866c4
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930425"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998495"
 ---
 # <a name="recordsetfillcache-method-dao"></a>Recordset.FillCache 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25930425"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25930425"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>行</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>Integer</strong> 子类型），用于指定要存储在缓存中的行数。如果省略此参数，值将由 <strong><a href="recordset-cachesize-property-dao.md">CacheSize</a></strong> 属性设置确定。</p></td>
 </tr>
 <tr class="even">
-<td><p>StartBookmark</p></td>
+<td><p><em>StartBookmark</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于指定书签。将从此书签指示的记录开始填充缓存。如果省略此参数，将从 <strong><a href="recordset-cachestart-property-dao.md">CacheStart</a></strong> 属性指示的记录开始填充缓存。</p></td>
@@ -72,15 +71,9 @@ ms.locfileid: "25930425"
 
 如果 **FillCache** 请求的记录数多于远程数据源中剩余记录的数目，Microsoft Access 数据库引擎只检索剩余的记录，并且不发生错误。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>从缓存中检索的记录并不能反映其他用户对源数据所做的并发更改。</P>
-> <LI>
-> <P><STRONG>FillCache</STRONG> 只检索尚未缓存的记录。若要强制更新所有缓存的数据，请将 <STRONG>Recordset</STRONG> 的 <STRONG>CacheSize</STRONG> 属性设置为 0，再将它重置为最初请求的缓存的大小，然后使用 <STRONG>FillCache</STRONG>。</P></LI></UL>
-
-
+> - 从缓存中检索的记录并不能反映其他用户对源数据所做的并发更改。
+> - **FillCache** 只检索尚未缓存的记录。若要强制更新所有缓存的数据，请将 **Recordset** 的 **CacheSize** 属性设置为 0，再将它重置为最初请求的缓存的大小，然后使用 **FillCache**。
 
 ## <a name="example"></a>示例
 

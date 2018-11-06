@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd5b694906e8c0ac1f15329f4342586793e114ec
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1623b32a5ec52acd086bf028a5c1775daae989e8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946146"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997047"
 ---
 # <a name="operation-of-parameterized-commands"></a>参数化命令的操作
 
@@ -34,11 +34,8 @@ SHAPE {SELECT * FROM customer}
 
 父和子表中常见，客户具有列名称\_*。* id *子命令*具有对建立关系子句所指的"?"占位符 (即"...参数 0"）。
 
-
 > [!NOTE]
-> <P>[!注释] PARAMETER 子句仅仅属于 Shape 命令语法。它不与 ADO <A href="parameter-object-ado.md">Parameter</A> 对象或 <A href="parameters-collection-ado.md">Parameters</A> 集合关联。</P>
-
-
+> [!注释] PARAMETER 子句仅仅属于 Shape 命令语法。它不与 ADO [Parameter](parameter-object-ado.md) 对象或 [Parameters](parameters-collection-ado.md) 集合关联。
 
 执行参数化 Shape 命令时，将发生以下操作：
 
@@ -56,8 +53,7 @@ SHAPE {SELECT * FROM customer}
 
 默认情况下， **Cache Child Rows** 动态属性设置为 **True** 。缓存行为因查询的参数值而异。在使用单个参数的查询中，在请求具有该值的子项的间隔期中，系统将缓存给定参数值的子 **Recordset** 。以下代码演示了这种情况：
 
-```vb 
- 
+```vb
 ... 
 SCmd = "SHAPE {select * from customer} " & _ 
  "APPEND({select * from orders where cust_id = ?} " & _ 
@@ -72,7 +68,7 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 在具有两个或更多个参数的查询中，只有当所有参数值都与缓存值匹配时，才会使用缓存的子项。
 
-## <a name="parameterized-commands-and-complex-parent-child-relations"></a>参数化命令和复杂的父子关系
+## <a name="parameterized-commands-and-complex-parent-child-relations"></a>参数化的命令和复杂的父子关系
 
 除了使用参数化命令来改进 equi-join 类型层次结构的性能以外，还可以用参数化命令来支持更复杂的父子关系。 例如，考虑两个表少联盟的数据库： 一个包含团队 (团队\_id、 团队\_名称) 和其他的游戏 (日期，主\_团队，访问\_团队)。
 

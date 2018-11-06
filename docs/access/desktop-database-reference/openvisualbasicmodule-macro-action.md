@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7d3d2d5f76e087e428bc9211805c524ebe5247d9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 274ec88483066b4e8dd4032501ecfcc6a662b134
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930446"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998137"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OpenVisualBasicModule 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **OpenVisualBasicModule** 操作在指定的过程处打开指定的 Visual Basic for Applications (VBA) 模块。此过程可以是 Sub 过程、Function 过程或事件过程。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -57,11 +53,8 @@ ms.locfileid: "25930446"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>中的<STRONG>模块名称</STRONG>或<STRONG>过程名称</STRONG>的参数，必须输入一个有效的名称。</P>
-
+> 中的**模块名称**或**过程名称**的参数，必须输入一个有效的名称。
 
 
 ## <a name="remarks"></a>说明
@@ -74,11 +67,8 @@ ms.locfileid: "25930446"
 
 此操作等效于在导航窗格中右键单击模块，然后单击 **"设计视图"**。通过此操作还可以指定过程名称以及在数据库中的标准模块中搜索过程。
 
-
 > [!TIP]
-> <P>[!提示] 您可以在导航窗格中选择模块并将其拖至宏操作行。这样会自动创建打开模块并显示其声明节的 <STRONG>OpenVisualBasicModule</STRONG> 操作。</P>
-
-
+> [!提示] 您可以在导航窗格中选择模块并将其拖至宏操作行。这样会自动创建打开模块并显示其声明节的 **OpenVisualBasicModule** 操作。
 
 若要在 VBA 模块中运行 **OpenVisualBasicModule** 操作，请使用 **DoCmd** 对象的 **OpenModule** 方法。
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 632bf0af35dd49951d58ba126b6e03678a1a12db
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 45aa005b7c8337a4c5541ea7217cbdb520bb1725
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950249"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997733"
 ---
 # <a name="databasemakereplica-method-dao"></a>Database.MakeReplica 方法 (DAO)
 

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 847f23c429b06fee51b42aa211d672b051accb7c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 363945386233fd992390f1fbc4b6115e272dc923
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920394"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997614"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData 宏操作
 
@@ -24,7 +24,7 @@ ms.locfileid: "25920394"
 可以使用 **ImportExportData** 操作在当前 Access 数据库（.mdb 或 .accdb）或 Microsoft Access 项目 (.adp) 与其他数据库之间导入或导出数据。对于 Microsoft Access 数据库，还可以从其他数据库通过链接表与当前 Access 数据库建立关联。通过链接表，在表本身仍位于其他数据库中时可以访问该表中的数据。
 
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="settings"></a>设置
 
@@ -46,13 +46,7 @@ ms.locfileid: "25920394"
 <td><p><strong>迁移类型</strong></p></td>
 <td><p>要进行的迁移的类型。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“迁移类型”</strong>框中选择<strong>“导入”</strong>、<strong>“导出”</strong>或<strong>“链接”</strong>。默认值为<strong>“导入”</strong>。 
 
-</p>
-
-> [!NOTE]
-> Access 项目 (.adp) 不支持 **“链接”** 迁移类型。
-
-
-<p></p></td>
+</p><p><strong>注意</strong>： Access 项目 (.adp) 不支持<strong>链接</strong>传输类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>数据库类型</strong></p></td>

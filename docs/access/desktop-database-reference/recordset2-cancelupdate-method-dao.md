@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
 ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13516830ddb9cb22e8e50872b51743ea5d54ab98
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e9679a39a8509bb73e9d788e776e208f3c899d3c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921486"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998404"
 ---
 # <a name="recordset2cancelupdate-method-dao"></a>Recordset2.CancelUpdate 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25921486"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,15 +44,10 @@ ms.locfileid: "25921486"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>设置为<strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong>值之一。</p>
-
-> [!NOTE]
-> <P><EM>DbUpdateRegular</EM>和<EM>dbUpdateBatch</EM>值是仅当批更新启用有效。</P>
-
-
+<td><p>设置为<strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong>值之一。</p><p><strong>注意</strong>： <EM>dbUpdateRegular</EM>和<EM>dbUpdateBatch</EM>值是仅当批更新启用有效。</p>
 </td>
 </tr>
 </tbody>
@@ -66,11 +60,8 @@ ms.locfileid: "25921486"
 
 检查 [Recordset](recordset2-editmode-property-dao.md) 的 ****EditMode**** 属性，以确定是否存在可以取消的待定操作。
 
-
 > [!NOTE]
-> <P>[!注释] 使用 <STRONG>CancelUpdate</STRONG> 方法的效果与在不使用 <STRONG><A href="recordset2-update-method-dao.md">Update</A></STRONG> 方法的情况下移到另一条记录的效果相同，但是当前记录不发生更改，且不更新各个属性（例如 <STRONG><A href="recordset2-bof-property-dao.md">BOF</A></STRONG> 和 <STRONG><A href="recordset2-eof-property-dao.md">EOF</A></STRONG> ）。</P>
-
-
+> [!注释] 使用 **CancelUpdate** 方法的效果与在不使用 **[Update](recordset2-update-method-dao.md)** 方法的情况下移到另一条记录的效果相同，但是当前记录不发生更改，且不更新各个属性（例如 **[BOF](recordset2-bof-property-dao.md)** 和 **[EOF](recordset2-eof-property-dao.md)** ）。
 
 ## <a name="example"></a>示例
 

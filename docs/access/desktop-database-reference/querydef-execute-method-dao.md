@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 165a2703b3b3715ace7326df31477f1f9293be12
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 55a3f8a345ffa6669ef721395be4cb1286f2696b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926211"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997390"
 ---
 # <a name="querydefexecute-method-dao"></a>QueryDef.Execute 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25926211"
 
 *表达式*一个代表**QueryDef**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ ms.locfileid: "25926211"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
@@ -57,7 +57,7 @@ ms.locfileid: "25926211"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 为选项，可以使用以下**[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** 常量。
 

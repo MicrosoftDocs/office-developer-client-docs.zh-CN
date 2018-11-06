@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 571698567816b34071e99c7dc46af11274a54c80
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 14021d3f16987b40af24491ff72abdfb95052045
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937140"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998761"
 ---
 # <a name="field2savetofile-method-dao"></a>Field2.SaveToFile 方法 (DAO)
 
@@ -33,7 +33,7 @@ ms.locfileid: "25937140"
 
 *表达式*一个代表**Field2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ ms.locfileid: "25937140"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>FileName</p></td>
+<td><p><em>FileName</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>字符串</strong></p></td>
 <td><p>附件要保存到的文件的完全限定路径。</p></td>

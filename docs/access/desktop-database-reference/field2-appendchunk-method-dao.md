@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e5aaab6a79893a66b12216f60c05690c1e806000
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: eeaed6e6c2f32463a12f617c8fee90b2d5f24a86
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937046"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998432"
 ---
 # <a name="field2appendchunk-method-dao"></a>Field2.AppendChunk 方法 (DAO)
 
@@ -29,7 +29,7 @@ ms.locfileid: "25937046"
 
 *表达式*一个代表**Field2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -48,7 +48,7 @@ ms.locfileid: "25937046"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Val</p></td>
+<td><p><em>Val</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 Variant（String 子类型）类型的表达式或变量，其中包含要追加到 <strong>Field2</strong> 对象的数据。</p></td>

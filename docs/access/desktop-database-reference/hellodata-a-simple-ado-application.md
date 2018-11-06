@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29d3485526b4adb5084b7dd8277b0c93d664af47
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 359816f828191a8643941a21ac520ba7b3231e6b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944653"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998201"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData： 简单 ADO 应用程序
 
@@ -33,11 +33,8 @@ ms.locfileid: "25944653"
 
 5.  最后，复制[HelloData 代码](hellodata-code.md)中列出的代码并将其粘贴到窗体的代码编辑器窗口。 按 **F5** 运行代码。
 
-
 > [!NOTE]
-> <P>[!注释] 在以下示例和整个指南中，将以用户 ID"MyId"和密码"123aBc"来向服务器进行身份验证。应当用您的服务器的有效登录凭据来替换这些值，并用您的服务器的名称替换"MyServer"值。</P>
-
-
+> [!注释] 在以下示例和整个指南中，将以用户 ID"MyId"和密码"123aBc"来向服务器进行身份验证。应当用您的服务器的有效登录凭据来替换这些值，并用您的服务器的名称替换"MyServer"值。
 
 代码的详细说明，请参阅[HelloData 详细信息](hellodata-details.md)。
 

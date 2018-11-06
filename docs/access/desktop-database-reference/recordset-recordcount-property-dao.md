@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821452(v=office.15)
 ms:contentKeyID: 48546941
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6eec9f6be18bbf059660c804313918c480631e0b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 50134e8271ec5bb89a35eb3114b8b8e63267450a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927814"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997523"
 ---
 # <a name="recordsetrecordcount-property-dao"></a>Recordset.RecordCount 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,11 +29,8 @@ ms.locfileid: "25927814"
 
 使用 **RecordCount** 属性可以了解 **Recordset** 或 **TableDef** 对象中已经访问的对象数。 **RecordCount**属性不指示多少记录包含在动态集类型、 快照类型或仅向前类型**Recordset**对象之前已经被访问过的所有记录。 一旦访问完最后一条记录， **RecordCount** 属性就会指示 **Recordset** 或 **TableDef** 对象中未被删除的记录的总数。 若要强制访问最后一条记录，请对 [Recordset](recordset-movelast-method-dao.md) 对象使用 ****MoveLast**** 方法。 您还可以使用 SQL **Count** 函数确定查询将返回的大概记录数。
 
-
 > [!NOTE]
-> <P>[!注释] 使用 <STRONG>MoveLast</STRONG> 方法填充新打开的 <STRONG>Recordset</STRONG> 会对性能造成负面影响。除非在您打开 <STRONG>Recordset</STRONG> 时必须得到准确的 <STRONG>RecordCount</STRONG>，否则最好等到使用代码的其他部分填充完 <STRONG>Recordset</STRONG> 之后，再检查 <STRONG>RecordCount</STRONG> 属性。</P>
-
-
+> [!注释] 使用 **MoveLast** 方法填充新打开的 **Recordset** 会对性能造成负面影响。除非在您打开 **Recordset** 时必须得到准确的 **RecordCount**，否则最好等到使用代码的其他部分填充完 **Recordset** 之后，再检查 **RecordCount** 属性。
 
 由于应用程序删除了动态集类型 **Recordset** 对象中的记录，因此 **RecordCount** 属性的值将减小。但是，其他用户删除的记录不受 **RecordCount** 属性的影响，除非当前记录定位到已删除的记录。如果执行的事务处理影响 **RecordCount** 属性设置，之后您又回滚了该事务，则 **RecordCount** 属性将不会反映其余记录的实际数目。
 

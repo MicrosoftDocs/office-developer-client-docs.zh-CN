@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 70fa0aba5385157453a1e9b009a167f036dc874b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 576928e6538ea704bf6f10d0826c0e6bbb359bf1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929116"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998236"
 ---
 # <a name="fieldsappend-method-dao"></a>Fields.Append 方法 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 将新的 **[Field](field-object-dao.md)** 添加到 **[Fields](fields-collection-dao.md)** 集合。
 
@@ -27,7 +25,7 @@ ms.locfileid: "25929116"
 
 *表达式*一个代表**Fields**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -46,7 +44,7 @@ ms.locfileid: "25929116"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>对象</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>对象</strong></p></td>
 <td><p>一个对象变量，代表追加到集合的字段。</p></td>

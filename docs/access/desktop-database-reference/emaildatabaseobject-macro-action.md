@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f0c0ba73274d6f27a9e2a857aea1061416168f3a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922914"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997446"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject 宏操作
 
@@ -24,7 +24,7 @@ ms.locfileid: "25922914"
 可以使用 **EMailDatabaseObject** 操作在电子邮件中包含指定的 Microsoft Access 数据表、窗体、报表、模块或数据访问页，并且可以在电子邮件中查看和转发这些对象。
 
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="settings"></a>设置
 
@@ -112,7 +112,7 @@ ms.locfileid: "25922914"
 
 **通过提供的链接**Luke Chung、 [FMS，Inc.](https://www.fmsinc.com/)、 的创始人兼总裁 FMS，inc.，自定义数据库解决方案和开发人员工具的领先提供商。
 
-  - [功能和使用 SendObject 方法发送到的限制](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+- [功能和使用 SendObject 方法发送到的限制](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

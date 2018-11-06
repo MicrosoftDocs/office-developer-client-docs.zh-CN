@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835325(v=office.15)
 ms:contentKeyID: 48548082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8dff02bcdd488edab33251b4d1184d2ede387876
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 61d45f73aa4cb777875fa2ed25e73dd00d873138
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925763"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997579"
 ---
 # <a name="recordset2openrecordset-method-dao"></a>Recordset2.OpenRecordset 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25925763"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,52 +44,37 @@ ms.locfileid: "25925763"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>新的 <strong>Recordset</strong> 的记录源。该源可能是表名、查询名或返回记录的 SQL 语句。对于 Microsoft Access 数据库引擎数据库中的表类型 <strong>Recordset</strong> 对象，该源只能是表名。  </p></td>
 </tr>
 <tr class="even">
-<td><p>类型</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p>
-
-> [!NOTE]
-> <P>如果您在 Microsoft Access 工作区中打开了一个 <STRONG>Recordset</STRONG> 但未指定类型，<STRONG>OpenRecordset</STRONG> 将创建一个表类型 <STRONG>Recordset</STRONG>（如果可能）。如果您指定一个链接表或查询，<STRONG>OpenRecordset</STRONG> 将创建一个 dynaset 类型 <STRONG>Recordset</STRONG>。</P>
-
-
+<td><p><strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> 常量，可指示要打开的 <strong>Recordset</strong> 的类型。</p><p><strong>注意</strong>： 如果在 Microsoft Access 工作区中打开<STRONG>Recordset</STRONG>时未指定类型， <STRONG>OpenRecordset</STRONG>创建表类型<STRONG>Recordset</STRONG>，如果可能。 如果您指定的链接的表或查询， <STRONG>OpenRecordset</STRONG>创建动态集类型<STRONG>Recordset</STRONG>。</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p>选项</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p>
-
-> [!NOTE]
-> <P>常量<STRONG>dbConsistent</STRONG>和<STRONG>dbInconsistent</STRONG>是互斥的并且在同时使用将导致出错。 提供 lockedits 实参，当选项使用<STRONG>dbReadOnly</STRONG>常量还会导致错误。</P>
-
-
+<td><p><strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> 常量的组合，可指定新 <strong>Recordset</strong> 的特性。</p><p><strong>注意</strong>： 常量<STRONG>dbConsistent</STRONG>和<STRONG>dbInconsistent</STRONG>是互斥的并且在同时使用将导致出错。 提供 lockedits 实参，当选项使用<STRONG>dbReadOnly</STRONG>常量还会导致错误。</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>LockEdit</p></td>
+<td><p><em>LockEdit</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p>
-
-> [!NOTE]
-> <P>您可以使用<STRONG>dbReadOnly</STRONG> options 参数或 lockedits 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。</P>
-
-
+<td><p><strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> 常量，可确定 <strong>Recordset</strong> 是否锁定。</p><p><strong>注意</strong>： 您可以使用<STRONG>dbReadOnly</STRONG> options 参数或 lockedits 参数，但不是能同时中。 如果您使用它为两个参数，将发生运行时错误。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Recordset
 
@@ -104,8 +88,7 @@ Recordset
 
 使用 [**Close**](connection-close-method-dao.md) 方法关闭 **Recordset** 会自动从 **Recordsets** 集合中将其删除。
 
-
 > [!NOTE]
-> <P>如果<EM>源</EM>是指的 SQL 语句组成非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice =125,50)，当您尝试打开<STRONG>Recordset</STRONG>时就会出错。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。</P>
+> 如果*源*是指的 SQL 语句组成非整数值时，连接字符串和系统参数指定非美国十进制字符，例如逗号分隔 (例如，strSQL ="价格&gt;" &amp; lngPrice，和 lngPrice =125,50)，当您尝试打开**Recordset**时就会出错。 这是因为在连接过程中，需要使用系统的默认小数字符将数字转换为字符串，并且 SQL 只接受美国格式的小数字符。
 
 

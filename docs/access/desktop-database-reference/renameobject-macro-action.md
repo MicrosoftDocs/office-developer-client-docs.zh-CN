@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88009020fb320c823f9ca4c1688a0f2bfdecbd44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7d47a59bc82cb6f603fc52d45c675eb8e2877f91
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931006"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998964"
 ---
 # <a name="renameobject-macro-action"></a>RenameObject 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **RenameObject** 操作重命名指定的数据库对象。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。
 
 ## <a name="setting"></a>设置
 
@@ -56,13 +52,7 @@ ms.locfileid: "25931006"
 </tr>
 <tr class="odd">
 <td><p><strong>旧名称</strong></p></td>
-<td><p>要重命名的对象的名称。 <strong>旧名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 如果将<strong>对象类型</strong>参数留空，还应将此参数留空。</p>
-
-> [!NOTE]
-> <P>如果在类库数据库中运行包含 <STRONG>Rename</STRONG> 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的对象，然后再在当前数据库中查找。</P>
-
-
-<p></p></td>
+<td><p>要重命名的对象的名称。 <strong>旧名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 如果将<strong>对象类型</strong>参数留空，还应将此参数留空。</p><p><strong>注意</strong>： 如果您运行包含类库数据库中的<STRONG>重命名</STRONG>操作的宏，Microsoft Access 首先会查找具有此名称在类库数据库，然后在当前数据库中的对象。</p></td>
 </tr>
 </tbody>
 </table>

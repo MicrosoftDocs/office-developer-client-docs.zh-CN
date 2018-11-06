@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d630602d7b81fe44427d892d62275f4509dbdc2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: eaab9d43e85ee94c5e71d52399a92515cce94693
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923971"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997131"
 ---
 # <a name="importexportspreadsheet-macro-action"></a>ImportExportSpreadsheet 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
 可以使用 **ImportExportSpreadsheet** 操作在当前的 Microsoft Access 数据库（.mdb 或 .accdb）或 Microsoft Access 项目 (.adp) 与电子表格文件之间导入或导出数据。还可以将 Microsoft Excel 电子表格中的数据链接到当前的 Microsoft Access 数据库。通过链接的电子表格，可以用 Access 查看和编辑电子表格数据，同时仍然可以从 Excel 电子表格程序中对这些数据进行完全访问。还可以链接到 Lotus 1-2-3 电子表格文件中的数据，但这些数据在 Access 中是只读的。
 
-
 > [!NOTE]
-> <P>[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</P>
-
-
+> [!注释] 如果数据库不受信任，将不允许此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -50,23 +46,12 @@ ms.locfileid: "25923971"
 <td><p><strong>迁移类型</strong></p></td>
 <td><p>要进行的迁移的类型。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“迁移类型”</strong>框中选择<strong>“导入”</strong>、<strong>“导出”</strong>或<strong>“链接”</strong>。默认值为<strong>“导入”</strong>。 
 
-</p>
-
-> [!NOTE]
-> <P>Access 项目 (.adp) 不支持<STRONG>“链接”</STRONG>迁移类型。</P>
-
-
-<p></p></td>
+</p><p><strong>注意</strong>： Access 项目 (.adp) 不支持<STRONG>链接</STRONG>传输类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>电子表格类型</strong></p></td>
-<td><p>要作为导入来源、导入目标或链接目标的电子表格的类型。可以选择框中多种电子表格类型中的一种。默认值为<strong>“Excel 工作簿”</strong>。</p>
-
-> [!NOTE]
-> <P>可以从 Lotus .WK4 文件中导入数据以及链接到（只读）其中的数据，但不能将 Access 数据导出为这种电子表格格式。Access 也不再支持通过此操作对 Lotus .WKS 或 Excel 2.0 版电子表格中的数据执行导入、导出或链接。如果要导入或者链接到 Excel 2.0 版或 Lotus .WKS 格式的电子表格数据，请先将这些电子表格数据转换为 Excel 更高版本或 Lotus 1-2-3 格式，然后再将这些数据导入或链接到 Access。</P>
-
-
-<p></p></td>
+<td><p>要作为导入来源、导入目标或链接目标的电子表格的类型。可以选择框中多种电子表格类型中的一种。默认值为<strong>“Excel 工作簿”</strong>。</p><p><strong>注意</strong>： 您可以从导入并链接到 Lotus 的 （只读）。WK4 文件，但您无法将 Access 数据导出到电子表格格式。 Access 还不再支持导入、 导出或链接数据从 Lotus。WKS 或与此操作的 Excel 版本 2.0 电子表格。 如果您想要从中导入或链接到在 Excel 2.0 版或 Lotus 中的电子表格数据。WKS 格式、 电子表格数据转换为 Excel 或 Lotus 1-2-3 导入或将数据链接到 Access 前的更高版本。</p>
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong>表名称</strong></p></td>
@@ -84,13 +69,7 @@ ms.locfileid: "25923971"
 <td><p><strong>区域</strong></p></td>
 <td><p>要导入或链接的单元格范围。将此参数留空可以导入或链接整个电子表格。可以键入电子表格内的范围名称或者指定要导入或链接的单元格范围，例如 A1:E25（注意，语法 A1..E25 在 Access 97 或更高版本中无效）。如果您从 Excel 5.0 版或更高版本的电子表格中导入数据或者链接到其中的数据，可以在范围前面附加工作表的名称和感叹号，例如 Budget!A1:C7。 
 
-</p>
-
-> [!NOTE]
-> <P>在导出到电子表格时，必须将此参数留空。如果输入一个范围，导出将失败。</P>
-
-
-<p></p></td>
+</p><p><strong>注意</strong>： 导出到电子表格时，您必须将此参数留空。 如果您输入范围，则导出将失败。</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,17 +81,14 @@ ms.locfileid: "25923971"
 
 追加到现有的 Access 表中的电子表格数据必须与该表的结构兼容。
 
-  - 电子表格中的每个字段必须与表中的相应字段属于同一字段数据类型。
+- 电子表格中的每个字段必须与表中的相应字段属于同一字段数据类型。
 
-  - 字段必须相同的顺序 （除非将**带有字段名称**参数设置为**是**，在这种情况下字段电子表格中的名称必须匹配表中的字段名称）。
+- 字段必须相同的顺序 （除非将**带有字段名称**参数设置为**是**，在这种情况下字段电子表格中的名称必须匹配表中的字段名称）。
 
 此操作类似于以下两种操作：单击 **"外部数据"** 选项卡，然后单击 **"导入"** 或 **"导出"** 组中的 **"Excel"**；或者单击 **"导入"** 或 **"导出"** 组中的 **"其他"**，然后单击 **"Lotus 1-2-3 文件"**。可以使用这些命令来选择数据源，例如 Access 或一种数据库、电子表格或文本文件。如果选择电子表格，则会出现一系列对话框，或者 Access 向导将运行，在其中可以选择电子表格的名称及其他选项。 **ImportExportSpreadsheet** 操作的参数反映这些对话框或向导中的选项。
 
-
 > [!NOTE]
-> <P>[!注释] 如果对链接电子表格进行查询或筛选，则该查询或筛选将区分大小写。</P>
-
-
+> [!注释] 如果对链接电子表格进行查询或筛选，则该查询或筛选将区分大小写。
 
 如果链接到在"编辑"模式下打开的 Excel 电子表格，Access 将一直等待，直到 Excel 电子表格退出"编辑"模式，然后才完成链接；不存在超时。
 

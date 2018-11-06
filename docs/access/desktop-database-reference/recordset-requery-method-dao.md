@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821155(v=office.15)
 ms:contentKeyID: 48546840
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8405cf2f8d6eea7ce0e55bb543510db6242be84a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5c98eeb94e49693cf13d358987307f61f15069c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919085"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998334"
 ---
 # <a name="recordsetrequery-method-dao"></a>Recordset.Requery 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25919085"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,7 +44,7 @@ ms.locfileid: "25919085"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NewQueryDef</p></td>
+<td><p><em>NewQueryDef</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>表示 <strong><a href="querydef-object-dao.md">QueryDef</a></strong> 对象的 <strong>Name</strong> 属性值</p></td>

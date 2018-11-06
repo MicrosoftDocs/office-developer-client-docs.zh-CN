@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7bce54b0cf7e589641eff35c3cbed2bd54dbe3d2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: aa5a04ec08136dda637aabff15d89f81be6ecde8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922998"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998572"
 ---
 # <a name="recordsetclone-method-dao"></a>Recordset.Clone 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -30,7 +29,7 @@ ms.locfileid: "25922998"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Recordset
 
@@ -42,15 +41,9 @@ Recordset
 
 无论是对原始对象还是对复制对象使用 **[Close](connection-close-method-dao.md)** 方法，都不会影响其他对象。例如，对原始 **Recordset** 使用 **Close** 不会关闭克隆。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>在待定事务中关闭克隆 Recordset 将导致隐式 <STRONG>Rollback</STRONG> 操作。</P>
-> <LI>
-> <P>在 Microsoft Access 工作区中克隆表类型的 <STRONG>Recordset</STRONG> 对象时，不会将 <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> 属性设置克隆到 Recordset 的新副本上。必须手动复制 <STRONG>Index</STRONG> 属性设置。</P></LI></UL>
-
-
+> - 在待定事务中关闭克隆 Recordset 将导致隐式 **Rollback** 操作。
+> - 在 Microsoft Access 工作区中克隆表类型的 **Recordset** 对象时，不会将 **[Index](recordset2-index-property-dao.md)** 属性设置克隆到 Recordset 的新副本上。必须手动复制 **Index** 属性设置。
 
 ## <a name="example"></a>示例
 

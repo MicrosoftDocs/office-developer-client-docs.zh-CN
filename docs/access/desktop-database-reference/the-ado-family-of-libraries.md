@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249724(v=office.15)
 ms:contentKeyID: 48546656
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e4d37ef012e6db60c4a92267c82664694ed63afe
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 821de4312d3fa76468311305b18eaaa156e05318
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936509"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999041"
 ---
 # <a name="the-ado-family-of-libraries"></a>ADO 系列库
 
@@ -21,7 +21,7 @@ ADO 系列包括三个主要库：ADO（包括 RDS）、ADO MD 和 ADOX。
 
 ## <a name="ado"></a>ADO
 
-利用 ADO，您的客户端应用程序可以通过 OLE DB 提供程序访问和操控数据库服务器中的数据。ADO 的主要优势在于易用、高速、低内存开销而且磁盘空间需求量小。ADO 支持用于构建客户端/服务器和基于 Web 的应用程序的关键功能。
+利用 ADO，您的客户端应用程序可以通过 OLE DB 提供程序访问和操控数据库服务器中的数据。 ADO 的主要优势在于易用、高速、低内存开销而且磁盘空间需求量小。 ADO 支持用于生成客户端/服务器和基于 web 的应用程序的主要功能。
 
 ADO 还提供了远程数据服务 (RDS)，可以通过其移动数据从服务器到客户端应用程序或网页，操作在客户端上的数据和往返返回到在单个服务器的更新。
 

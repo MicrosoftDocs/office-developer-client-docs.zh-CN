@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e7bd39d3329c83ec2a26fbef11e3a3b4e51e760
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95b12df62fe47779c1867a291018726ada299390
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921299"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998929"
 ---
 # <a name="indexclustered-property-dao"></a>Index.Clustered 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -38,12 +37,8 @@ ms.locfileid: "25921299"
 
 **Clustered** 属性对于尚未追加到集合的新 **Index** 对象是可读写的，而对于 **Indexes** 集合中的现有 **Index** 对象是只读的。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Microsoft Access 数据库引擎数据库将忽略 <STRONG>Clustered</STRONG> 属性，这是因为 Microsoft Access 数据库引擎不支持聚簇索引。</P>
-> <LI>
-> <P>对于 ODBC 数据源， <STRONG>Clustered</STRONG> 属性始终返回 <STRONG>False</STRONG>；它不检测 ODBC 数据源是否具有聚簇索引。</P></LI></UL>
+> - Microsoft Access 数据库引擎数据库将忽略 **Clustered** 属性，这是因为 Microsoft Access 数据库引擎不支持聚簇索引。
+> - 对于 ODBC 数据源， **Clustered**属性始终返回**False**;它不检测 ODBC 数据源具有聚簇的索引。
 
 

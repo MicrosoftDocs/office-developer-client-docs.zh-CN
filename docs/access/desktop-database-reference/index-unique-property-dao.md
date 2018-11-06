@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85d0ceec1cea782a8e43a2bebd6779841c2a56ff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dd3bd047afed2e547be0fb7b6999c16dd0b12cc1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926106"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996473"
 ---
 # <a name="indexunique-property-dao"></a>Index.Unique 属性 (DAO)
 
@@ -37,21 +37,12 @@ ms.locfileid: "25926106"
 
 如果 **Index** 对象的 [Unique](index-primary-property-dao.md) 和 ****Primary**** 属性都设置为 **True**，则索引是唯一的，并且是主要索引：它按预定义的逻辑顺序唯一标识表中的所有记录。如果 **Primary** 属性设置为 **False**，则索引是次要索引。次要索引（键和非键）按预定义顺序对记录进行逻辑排列，但不作为表中记录的标识符。
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>您不必为表创建索引，但是在大型的未添加索引的表中，访问特定记录可能会花费很长时间。</P>
-> <LI>
-> <P>从不含索引的表中检索的记录没有特定返回顺序。</P>
-> <LI>
-> <P><A href="field-attributes-property-dao.md">Index</A> 对象中每个 <A href="field-object-dao.md"><STRONG>Field</STRONG></A> 对象的 <STRONG><STRONG>Attributes</STRONG></STRONG> 属性决定了记录的顺序，因此决定了对该 <STRONG>Index</STRONG> 对象使用的访问技术。</P>
-> <LI>
-> <P>唯一索引有助于优化记录的查找。</P>
-> <LI>
-> <P>索引不影响基表的实际顺序，只影响当选择特定索引时或 Microsoft Access 数据库引擎创建 <A href="recordset-object-dao.md">Recordset</A> 对象时表类型 <STRONG><STRONG>Recordset</STRONG></STRONG> 对象访问记录的方式。</P></LI></UL>
-
-
+> - 您不必为表创建索引，但是在大型的未添加索引的表中，访问特定记录可能会花费很长时间。
+> - 从不含索引的表中检索的记录没有特定返回顺序。
+> - [Index](field-attributes-property-dao.md) 对象中每个 [**Field**](field-object-dao.md) 对象的 ****Attributes**** 属性决定了记录的顺序，因此决定了对该 **Index** 对象使用的访问技术。
+> - 唯一索引有助于优化记录的查找。
+> - 索引不会影响基表; 物理的顺序索引如何只记录由访问表类型**[Recordset](recordset-object-dao.md)** 对象时选择特定的索引或 Microsoft Access 数据库引擎创建的**Recordset**对象时的影响。
 
 ## <a name="example"></a>示例
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8644bd4f5b1a19848689adf92dca91ba30f324c4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a405189f3130a24c98112f0b0d9f31c7bfa4c217
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889845"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997747"
 ---
 # <a name="using-ado-with-microsoft-visual-basic"></a>在 Microsoft Visual Basic 中使用 ADO
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -24,43 +23,39 @@ ms.locfileid: "25889845"
 
 ADO 库必须由项目引用。
 
-**从 Microsoft Visual Basic 中引用 ADO**
+### <a name="to-reference-ado-from-microsoft-visual-basic"></a>从 Microsoft Visual Basic 中引用 ADO
 
-1.  在 Visual Basic 中，从**项目**菜单中，选择**引用...**。
+1. 在 Visual Basic 中，从**项目**菜单中，选择**引用...**。
 
-2.  从列表中选择**Microsoft ActiveX 数据对象 x.x 库**。 至少验证以下库也将被选中：
-    
-    - Visual Basic for Applications
-    
-    - Visual Basic 运行时对象和过程
-    
-    - Visual Basic 对象和过程
-    
-    - OLE 自动化
+2. 从列表中选择**Microsoft ActiveX 数据对象 x.x 库**。 至少验证以下库也将被选中：
+   
+   - Visual Basic for Applications
+   - Visual Basic 运行时对象和过程
+   - Visual Basic 对象和过程
+   - OLE 自动化
 
-3.  单击“确定”****。
+3. 单击“确定”****。
 
 在 Visual Basic for Applications（如使用 Microsoft Access 时）中可以同样轻松地使用 ADO。
 
-**从 Microsoft Access 中引用 ADO**
+### <a name="to-reference-ado-from-microsoft-access"></a>从 Microsoft Access 中引用 ADO
 
-1.  在 Microsoft Access 中，选择或创建一个模块，从**数据库**窗口中的**模块**选项卡。
+1. 在 Microsoft Access 中，选择或创建一个模块，从**数据库**窗口中的**模块**选项卡。
 
-2.  从**工具**菜单中，选择**引用...**。
+2. 从**工具**菜单中，选择**引用...**。
 
-3.  从列表中选择**Microsoft ActiveX 数据对象 x.x 库**。 至少验证以下库也将被选中：
+3. 从列表中选择**Microsoft ActiveX 数据对象 x.x 库**。 至少验证以下库也将被选中：
     
-    - Visual Basic for Applications
-    
-    - Microsoft Access 11.0 对象库（或更高版本）
+   - Visual Basic for Applications
+   - Microsoft Access 11.0 对象库（或更高版本）
 
-4.  单击“确定”****。
+4. 单击“确定”****。
 
-## <a name="creating-ado-objects-in-visual-basic"></a>在 Visual Basic 中创建 ADO
+## <a name="creating-ado-objects-in-visual-basic"></a>在 Visual Basic 中创建 ADO 对象
 
 若要创建自动化变量以及该变量的对象实例，可以使用以下两个方法： **Dim** 或 **CreateObject** 。
 
-## <a name="dim"></a>Dim
+### <a name="dim"></a>Dim
 
 可以使用 **New** 关键字和 **Dim** ，在一个步骤中同时声明和实例化 ADO 对象：
 
@@ -77,18 +72,16 @@ Dim conn As ADODB.Connection
 Set conn = New ADODB.Connection 
 ```
 
-
 > [!NOTE]
-> <P>不需要明确用<STRONG>Dim</STRONG>语句，假定您正确引用 ADO 库项目中使用 progid ADODB。 不过，使用它可以确保不会与其他库产生命名冲突。</P>
+> 不需要明确用**Dim**语句，假定您正确引用 ADO 库项目中使用 progid ADODB。 不过，使用它可以确保不会与其他库产生命名冲突。
+> 
+> 例如，如果同一个项目中同时包括针对 ADO 和 DAO 的引用，那么，您可以使用限定符来指定在实例化 **Recordset** 对象时所使用的对象模型，如以下代码所示：  
+> 
+> `Dim adoRS As ADODB.Recordset`  
+>   
+> `Dim daoRS As DAO.Recordset`
 
-
-
-例如，如果同一个项目中同时包括针对 ADO 和 DAO 的引用，那么，您可以使用限定符来指定在实例化 **Recordset** 对象时所使用的对象模型，如以下代码所示：  
-Dim adoRS 作为 ADODB。记录集  
-  
-Dim daoRS 作为 DAO。记录集
-
-## <a name="createobject"></a>CreateObject
+### <a name="createobject"></a>CreateObject
 
 采用 **CreateObject** 方法时，声明和对象实例化必须是两个独立的步骤：
 
@@ -111,7 +104,7 @@ Set conn1 = CreateObject("ADODB.Connection.2.0") As Object
 
 ## <a name="handling-events"></a>处理事件
 
-若要在 Microsoft Visual Basic 中处理 ADO 事件，必须使用 **WithEvents** 关键字声明一个模块级变量。该变量可以只声明为类模块的一部分，但必须在模块级进行声明。有关处理 ADO 事件的更完整的讨论，请参阅 [第 7 章：处理 ADO 事件](chapter-7-handling-ado-events.md)。
+若要处理 ADO 事件在 Microsoft Visual Basic 中，您必须声明模块级变量使用**WithEvents**关键字。 该变量可以只声明为类模块的一部分，但必须在模块级进行声明。 处理 ADO 事件的更完整讨论，请参阅[第 7 章： 处理 ADO 事件](chapter-7-handling-ado-events.md)。
 
 ## <a name="visual-basic-examples"></a>Visual Basic 示例
 

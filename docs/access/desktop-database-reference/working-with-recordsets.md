@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 241d9470d518893312daaa8101a5517706ea1e50
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883685"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998355"
 ---
 # <a name="working-with-recordsets"></a>使用记录集
-
 
 **适用于**： Access 2013、 Office 2013 
 
@@ -48,7 +47,7 @@ ADO 提供了用来在 [Recordset](find-method-ado.md) 中查找特定记录的 
 
 **Find** 方法将搜索限制为一个字段的内容。 **Seek** 方法要求有索引和其他限制。如果您需要搜索不作为索引基础的多个字段，或者您的提供程序不支持索引，则可以使用 **Recordset** 对象的 **Filter** 属性来限制结果。
 
-## <a name="find"></a>Find
+### <a name="find"></a>Find
 
 **Find** 方法在 **Recordset** 中搜索满足指定条件的行。还可以指定搜索方向、起始行以及与起始行的偏移量。如果满足条件，则当前行的位置将设置到找到的记录上；否则，当前行的位置将设置到 **Recordset** 的末尾（或开头），具体取决于搜索方向。
 
@@ -62,7 +61,7 @@ ADO 提供了用来在 [Recordset](find-method-ado.md) 中查找特定记录的 
 
 星号只能用在条件字符串的末尾或者与条件字符串的开头和末尾处的字符一起使用，如上所示。不能将星号用作前导通配符 ('\*str') 或嵌入通配符 ('s\*r')，否则将导致错误。
 
-## <a name="seek-and-index"></a>Seek 和 Index
+### <a name="seek-and-index"></a>Seek 和 Index
 
 如果基础提供程序支持 **Recordset** 对象的索引，则可以将 **Seek** 方法与 **Index** 属性一起使用。使用 [Supports](supports-method-ado.md)**(adSeek)** 方法可以确定基础提供程序是否支持 **Seek**，使用 **Supports(adIndex)** 方法可以确定提供程序是否支持索引。（例如，[OLE DB Provider for Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) 支持 **Seek** 和 **Index**。）
 
@@ -80,29 +79,25 @@ ADO 提供了用来在 [Recordset](find-method-ado.md) 中查找特定记录的 
 
 **Filter** 属性采用变量型参数。此值表示使用 **Filter** 属性的三种方法之一：条件字符串、 **FilterGroupEnum** 常量或书签数组。有关详细信息，请参阅本主题中稍后介绍的"用条件字符串筛选"、"用常量筛选"和"用书签筛选"。
 
-
 > [!NOTE]
-> <P>[!注释] 如果您知道要选择哪些数据，那么，与依赖于 <STRONG>Filter</STRONG> 属性相比，使用能够有效筛选结果集的 SQL 语句来打开 <STRONG>Recordset</STRONG> 通常效率更高。</P>
-
-
+> [!注释] 如果您知道要选择哪些数据，那么，与依赖于 **Filter** 属性相比，使用能够有效筛选结果集的 SQL 语句来打开 **Recordset** 通常效率更高。
 
 若要从 **Recordset** 中删除筛选，请使用 **adFilterNone** 常量。将 **Filter** 属性设置为零长度字符串 ("") 与使用 **adFilterNone** 常量等效。
 
-## <a name="filtering-with-a-criteria-string"></a>用条件字符串筛选
+### <a name="filtering-with-a-criteria-string"></a>用条件字符串筛选
 
 条件字符串由*FieldName 运算符值*形式的子句组成 (例如，"LastName = 'Smith'")。 您可以通过将单个子句与创建复合子句 AND (例如，"LastName = 'Smith' 和 FirstName = John") 和或 （例如，）。 您可以通过将单个子句与创建复合子句 AND (例如，"LastName = 'Smith' 和 FirstName = John") 和或 (例如，"LastName = 'Smith' 或姓氏 = Jones")。 对条件字符串使用以下准则：
 
-  - *FieldName*必须是有效的字段名称从**记录集**。 如果字段名中包含空格，则必须用方括号将字段名括起来。
+- *FieldName*必须是有效的字段名称从**记录集**。 如果字段名中包含空格，则必须用方括号将字段名括起来。
 
-  - *Operator*必须是以下项之一： \<， \>， \<= \>= \< \>、 = 或 LIKE。
+- *Operator*必须是以下项之一： \<， \>， \<= \>= \< \>、 = 或 LIKE。
 
-  - *值*是将与其比较的字段值的值 (例如，'Smith'， \#8/24/95\#，12.345 或 $50.00)。 使用字符串单引号 （'） 和井号 (\#) 与日期。 对于数字，可以使用小数点、美元符号和科学记数法。 如果*运算符*是像*值*可以使用通配符。 仅星号 (\*) 和百分号 （%），允许使用通配符，并且它们必须在字符串中的最后一个字符。 *值*不能为 null。
+- *值*是将与其比较的字段值的值 (例如，'Smith'， \#8/24/95\#，12.345 或 $50.00)。 使用字符串单引号 （'） 和井号 (\#) 与日期。 对于数字，可以使用小数点、美元符号和科学记数法。 如果*运算符*是像*值*可以使用通配符。 仅星号 (\*) 和百分号 （%），允许使用通配符，并且它们必须在字符串中的最后一个字符。 *值*不能为 null。
     
-
-    > [!NOTE]
-    > <P>若要在筛选器<EM>值</EM>包括单引号 （'），请使用两个单引号来表示一个。 例如，要进行筛选<EM>O'Malley</EM>，criteria 字符串应为"第 1 列 = 'O' Malley'"。 若要包括单引号开头和筛选器值的末尾，将字符串中井号 （#）。 例如， <EM>"1"</EM>的筛选器，则条件字符串应为"第 1 列 ="1"# #"。</P>
-
-
+  > [!NOTE]
+  > 若要在筛选器*值*包括单引号 （'），请使用两个单引号来表示一个。 例如，要进行筛选*O'Malley*，criteria 字符串应为"第 1 列 = 'O' Malley'"。 
+  > 
+  > 若要包括单引号开头和筛选器值的末尾，将字符串中井号 （#）。 例如， *"1"* 的筛选器，则条件字符串应为"第 1 列 ="1"# #"。
 
 AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分组。但是不能先将由 OR 连接的子句分组然后通过 AND 将该组与其他子句连接，如下所示：
 
@@ -120,7 +115,7 @@ AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分
 
 在 LIKE 子句中，您可以使用的开头和模式的末尾使用通配符 (例如，LastName Like '\*mit\*) 仅在模式的末尾 （例如，） 或仅在模式的结尾 (例如，LastName Like' Smit\*)。
 
-## <a name="filtering-with-a-constant"></a>用常量筛选
+### <a name="filtering-with-a-constant"></a>筛选与常量
 
 可以使用下列常量来筛选 **Recordset** 。
 
@@ -159,6 +154,7 @@ AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分
 </tbody>
 </table>
 
+<br/>
 
 使用筛选常量，更便于解决批更新模式下的个别记录冲突问题，例如，允许您只查看上次调用 **UpdateBatch** 方法过程中受影响的记录，如以下示例所示：
 
@@ -193,7 +189,7 @@ AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分
 'EndDeleteGroup 
 ```
 
-## <a name="filtering-with-bookmarks"></a>用书签筛选
+### <a name="filtering-with-bookmarks"></a>用书签筛选
 
 最后，您可以将书签的 variant 数组传递给**Filter**属性。 生成光标将只包含的记录其书签传递给属性。 下面的代码示例创建从其*ProductName*字段中具有"B" **Recordset**中记录的书签数组。 然后将该数组传递给**筛选器**属性，并显示生成的已筛选**记录集**的信息。
 
@@ -228,7 +224,7 @@ AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分
     'EndFilterBkmk 
 ```
 
-## <a name="creating-a-clone-of-a-recordset"></a>创建记录集的副本
+## <a name="creating-a-clone-of-a-recordset"></a>创建记录集克隆
 
 可以使用 **Clone** 方法创建多个重复的 **Recordset** 对象，尤其是要在给定记录集中保留多个当前记录时。使用 **Clone** 方法比采用与原始对象相同的定义创建和打开一个新的 **Recordset** 对象效率更高。
 

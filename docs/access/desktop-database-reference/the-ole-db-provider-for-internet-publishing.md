@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 536acebd305927cffe50e742245be97a48242796
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 7315df5a20cf032fc256f03893531f58857d470a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945745"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998663"
 ---
 # <a name="ole-db-provider-for-internet-publishing"></a>用于 Internet 发布的 OLE DB 提供程序
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -48,11 +47,8 @@ Internet Publishing Provider 随 Microsoft Windows 2000 一起安装。早期版
     objConn.Open "https://servername" 
   ```
 
-
 > [!NOTE]
-> <P>如果 Msdaipp.dso 显式指定的提供程序，使用<EM>提供程序</EM>的连接字符串关键字或<STRONG>Provider</STRONG>属性，值为您不能使用"URL ="连接字符串中。 否则，将会发生错误。 如上所示相反，只需指定的 URL。</P>
-
-
+> 如果 Msdaipp.dso 显式指定的提供程序，使用*提供程序*的连接字符串关键字或**Provider**属性，值为您不能使用"URL ="连接字符串中。 否则，将会发生错误。 本主题中前面所示相反，只需指定的 URL。
 
 有关 Internet Publishing Provider 的更具体信息，请参阅 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)，也可以参阅随源应用程序提供的提供程序文档。源应用程序是指随其一起安装 OLE DB Provider for Internet Publishing 的应用程序，如 Windows 2000、Office 2000 或 Internet Explorer 5.0。
 

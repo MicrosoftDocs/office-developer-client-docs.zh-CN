@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249107(v=office.15)
 ms:contentKeyID: 48544123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96bc0f55f6524a2aaa04bbe1f9b591ff2eb85bb8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c7b8492da87d0443d7992a1b9443501885ade3a0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925721"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998579"
 ---
 # <a name="loadfromfile-method-ado"></a>LoadFromFile 方法 (ADO)
 
-
 **适用于**： Access 2013、 Office 2013
-
-
 
 用于将现有文件的内容加载到 [Stream](stream-object-ado.md) 中。
 
@@ -26,11 +23,11 @@ ms.locfileid: "25925721"
 
 *流*。LoadFromFile*文件名*
 
-## <a name="parameter"></a>参数
+## <a name="parameters"></a>参数
 
-  - *FileName*
-
-  - **字符串型** 值，包含要加载到 **Stream** 中的文件的名称。 *FileName*可以包含任何有效路径和名称采用 UNC 格式。 如果指定的文件不存在，将发生运行时错误。
+|名称 |说明|
+|:----|:----------|
+|*FileName* |**字符串型** 值，包含要加载到 **Stream** 中的文件的名称。 *FileName*可以包含任何有效路径和名称采用 UNC 格式。 如果指定的文件不存在，将发生运行时错误。|
 
 ## <a name="remarks"></a>备注
 

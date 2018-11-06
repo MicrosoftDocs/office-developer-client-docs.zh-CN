@@ -1,20 +1,19 @@
 ---
 title: Field2.GetChunk 方法 (DAO)
-TOCTitle: GetChunk Method
+TOCTitle: GetChunk method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d3bf59549a37e728d26da2e5986e852235d6f77
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: fae8e5f0331f3c59aad482b827140ecd6366f2f1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937447"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996431"
 ---
 # <a name="field2getchunk-method-dao"></a>Field2.GetChunk 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25937447"
 
 *表达式*一个代表**Field2**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,13 +44,13 @@ ms.locfileid: "25937447"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>开始复制前要跳过的字节数。</p></td>
 </tr>
 <tr class="even">
-<td><p>字节数</p></td>
+<td><p><em>字节数</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>要返回的字节数。</p></td>
@@ -60,7 +59,7 @@ ms.locfileid: "25937447"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Variant
 

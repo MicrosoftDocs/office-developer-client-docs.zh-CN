@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 564cbae4669a0405a0e33d0e9770bbaa8f6c9dfb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8de2072e96ec00cab96dac19bd1af5889acd883a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929480"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999034"
 ---
 # <a name="relationcreatefield-method-dao"></a>Relation.CreateField 方法 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -26,7 +25,7 @@ ms.locfileid: "25929480"
 
 *表达式*一个代表**Relation**对象的变量。
 
-### <a name="parameters"></a>参数
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -45,19 +44,19 @@ ms.locfileid: "25929480"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>一个 String 类型的值，用于对新的 <strong>Field</strong> 对象进行唯一命名。有关有效 <strong>Field</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
-<td><p>类型</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>此对象不支持的参数。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Size</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>此对象不支持的参数。</p></td>
@@ -66,7 +65,7 @@ ms.locfileid: "25929480"
 </table>
 
 
-### <a name="return-value"></a>返回值
+## <a name="return-value"></a>返回值
 
 Field
 

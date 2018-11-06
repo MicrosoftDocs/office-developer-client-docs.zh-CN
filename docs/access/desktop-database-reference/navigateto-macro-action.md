@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9d8747c5c4fd1a32a36841f648017bc0cab3de8f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920807"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998278"
 ---
 # <a name="navigateto-macro-action"></a>NavigateTo 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -54,50 +53,48 @@ ms.locfileid: "25920807"
 
 ## <a name="remarks"></a>说明
 
-  - 此操作类似于从导航窗格的标题栏中选择类别和组。
+- 此操作类似于从导航窗格的标题栏中选择类别和组。
 
-  - 有效**Group**参数取决于使用哪些**Category**参数。 如果您输入了无效的**组**参数，将显示一条错误消息。下表包含每个**Category**参数的有效**Group**参数的示例。
+- 有效**Group**参数取决于使用哪些**Category**参数。 如果您输入了无效的**组**参数，将显示一条错误消息。下表包含每个**Category**参数的有效**Group**参数的示例。
     
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>“类别”参数</p></th>
-    <th><p>“组”参数示例</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>对象类型</p></td>
-    <td><p>表、窗体、查询、页、宏、模块</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>表和视图</p></td>
-    <td><p>数据库中特定表的名称</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>修改日期</p></td>
-    <td><p>今天；昨天；上个月；更早</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>创建日期</p></td>
-    <td><p>今天、昨天、上个月、更早</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>自定义类别</p></td>
-    <td><p>为指定的自定义类别创建的组名</p></td>
-    </tr>
-    </tbody>
-    </table>
+  <table>
+  <colgroup>
+  <col style="width: 50%" />
+  <col style="width: 50%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th><p>“类别”参数</p></th>
+  <th><p>“组”参数示例</p></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td><p>对象类型</p></td>
+  <td><p>表、窗体、查询、页、宏、模块</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>表和视图</p></td>
+  <td><p>数据库中特定表的名称</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>修改日期</p></td>
+  <td><p>今天；昨天；上个月；更早</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>创建日期</p></td>
+  <td><p>今天、昨天、上个月、更早</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>自定义类别</p></td>
+  <td><p>为指定的自定义类别创建的组名</p></td>
+  </tr>
+  </tbody>
+  </table>
 
-
-  - 要在 VBA 模块中运行 **NavigateTo** 操作，请使用 **DoCmd** 对象的 **NavigateTo** 方法。
-
+- 要在 VBA 模块中运行 **NavigateTo** 操作，请使用 **DoCmd** 对象的 **NavigateTo** 方法。
 
 > [!NOTE]
-> <P>要导航到类别 （例如，<STRONG>所有表</STRONG>、<STRONG>所有 Access 对象</STRONG>或<STRONG>所有日期</STRONG>） 的最高级别，您必须将组参数留空。 例如，<STRONG>对象类型</STRONG><STRONG>类别</STRONG>参数时，将<STRONG>所有 Access 对象</STRONG>都输入为<STRONG>组</STRONG>参数会导致出错。</P>
+> 要导航到类别 （例如，**所有表**、**所有 Access 对象**或**所有日期**） 的最高级别，您必须将组参数留空。 例如，**对象类型****类别**参数时，将**所有 Access 对象**都输入为**组**参数会导致出错。
 
 

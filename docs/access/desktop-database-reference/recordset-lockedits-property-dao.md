@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1f539659ef81ebb484c4a116176974491b0a480
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 81c7b3e2474ee6cbcd8e45b61369e22f20440587
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931062"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996753"
 ---
 # <a name="recordsetlockedits-property-dao"></a>Recordset.LockEdits 属性 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -66,11 +65,8 @@ ms.locfileid: "25931062"
 
 当使用 Microsoft Access 数据库引擎连接的 ODBC 数据源时， **LockEdits** 属性始终设置为 **False** 或乐观锁定。Microsoft Access 数据库引擎对外部数据库服务器中使用的锁定机制没有控制权限。
 
-
 > [!NOTE]
-> <P>首先通过设置<STRONG><A href="connection-openrecordset-method-dao.md">OpenRecordset</A></STRONG>方法的 lockedits 参数打开<STRONG>Recordset</STRONG>时，您可以预设<STRONG>LockEdits</STRONG>的值。 将 lockedits 参数设置为<STRONG>dbPessimistic</STRONG>会将<STRONG>LockEdits</STRONG>属性设置为<STRONG>True</STRONG>，并设置为任何其他值的 lockedits 会将<STRONG>LockEdits</STRONG>属性设置为<STRONG>False</STRONG>。</P>
-
-
+> 首先通过设置**[OpenRecordset](connection-openrecordset-method-dao.md)** 方法的 lockedits 参数打开**Recordset**时，您可以预设**LockEdits**的值。 将 lockedits 参数设置为**dbPessimistic**会将**LockEdits**属性设置为**True**，并设置为任何其他值的 lockedits 会将**LockEdits**属性设置为**False**。
 
 ## <a name="example"></a>示例
 
