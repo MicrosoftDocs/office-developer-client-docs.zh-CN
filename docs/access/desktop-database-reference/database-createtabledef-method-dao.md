@@ -10,26 +10,26 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8a5e220903a7404689b7fb4088cf10164333d67e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: f2e8eab52491eb4ff48f398848d7ffc303999bb4
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950039"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998887"
 ---
-# <a name="databasecreatetabledef-method-dao"></a><span data-ttu-id="2c54f-102">Database.CreateTableDef 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c54f-102">Database.CreateTableDef method (DAO)</span></span>
+# <a name="databasecreatetabledef-method-dao"></a><span data-ttu-id="33c86-102">Database.CreateTableDef 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="33c86-102">Database.CreateTableDef method (DAO)</span></span>
 
-<span data-ttu-id="2c54f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c54f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="33c86-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="33c86-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2c54f-p101">创建一个新的 **[TableDef](tabledef-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="2c54f-p101">Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="33c86-p101">创建一个新的 **[TableDef](tabledef-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="33c86-p101">Creates a new **[TableDef](tabledef-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2c54f-106">语法</span><span class="sxs-lookup"><span data-stu-id="2c54f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="33c86-106">语法</span><span class="sxs-lookup"><span data-stu-id="33c86-106">Syntax</span></span>
 
-<span data-ttu-id="2c54f-107">*表达式*。CreateTableDef （***名称***、***属性***、 ***SourceTableName***、***连接***）</span><span class="sxs-lookup"><span data-stu-id="2c54f-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span></span>
+<span data-ttu-id="33c86-107">*表达式*。CreateTableDef （***名称***、***属性***、 ***SourceTableName***、***连接***）</span><span class="sxs-lookup"><span data-stu-id="33c86-107">*expression* .CreateTableDef(***Name***, ***Attributes***, ***SourceTableName***, ***Connect***)</span></span>
 
-<span data-ttu-id="2c54f-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="2c54f-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="33c86-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="33c86-108">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="2c54f-109">参数</span><span class="sxs-lookup"><span data-stu-id="2c54f-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="33c86-109">参数</span><span class="sxs-lookup"><span data-stu-id="33c86-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,56 +40,56 @@ ms.locfileid: "25950039"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2c54f-110">名称</span><span class="sxs-lookup"><span data-stu-id="2c54f-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="2c54f-111">必需/可选</span><span class="sxs-lookup"><span data-stu-id="2c54f-111">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="2c54f-112">数据类型</span><span class="sxs-lookup"><span data-stu-id="2c54f-112">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="2c54f-113">说明</span><span class="sxs-lookup"><span data-stu-id="2c54f-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="33c86-110">名称</span><span class="sxs-lookup"><span data-stu-id="33c86-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="33c86-111">必需/可选</span><span class="sxs-lookup"><span data-stu-id="33c86-111">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="33c86-112">数据类型</span><span class="sxs-lookup"><span data-stu-id="33c86-112">Data type</span></span></p></th>
+<th><p><span data-ttu-id="33c86-113">说明</span><span class="sxs-lookup"><span data-stu-id="33c86-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2c54f-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="2c54f-114"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-115">可选</span><span class="sxs-lookup"><span data-stu-id="2c54f-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="2c54f-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="2c54f-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-p102">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于对新的 <strong>TableDef</strong> 对象进行唯一命名。有关有效 <strong>TableDef</strong> 名称的详细信息，请参阅 <strong><a href="tabledef-name-property-dao.md">Name</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="2c54f-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-name-property-dao.md">Name</a></strong> property for details on valid <strong>TableDef</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="33c86-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="33c86-114"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="33c86-115">可选</span><span class="sxs-lookup"><span data-stu-id="33c86-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="33c86-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="33c86-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="33c86-p102">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于对新的 <strong>TableDef</strong> 对象进行唯一命名。有关有效 <strong>TableDef</strong> 名称的详细信息，请参阅 <strong><a href="tabledef-name-property-dao.md">Name</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="33c86-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-name-property-dao.md">Name</a></strong> property for details on valid <strong>TableDef</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2c54f-119"><em>Attributes</em></span><span class="sxs-lookup"><span data-stu-id="2c54f-119"><em>Attributes</em></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-120">可选</span><span class="sxs-lookup"><span data-stu-id="2c54f-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="2c54f-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="2c54f-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-p103">一个常量或常量组合，指示新的 <strong>TableDef</strong> 对象的一个或多个特征。有关详细信息，请参阅 <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="2c54f-p103">A constant or combination of constants that indicates one or more characteristics of the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> property for more information.</span></span></p></td>
+<td><p><span data-ttu-id="33c86-119"><em>Attributes</em></span><span class="sxs-lookup"><span data-stu-id="33c86-119"><em>Attributes</em></span></span></p></td>
+<td><p><span data-ttu-id="33c86-120">可选</span><span class="sxs-lookup"><span data-stu-id="33c86-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="33c86-121"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="33c86-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="33c86-p103">一个常量或常量组合，指示新的 <strong>TableDef</strong> 对象的一个或多个特征。有关详细信息，请参阅 <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="33c86-p103">A constant or combination of constants that indicates one or more characteristics of the new <strong>TableDef</strong> object. See the <strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong> property for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2c54f-124"><em>SourceTableName</em></span><span class="sxs-lookup"><span data-stu-id="2c54f-124"><em>SourceTableName</em></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-125">可选</span><span class="sxs-lookup"><span data-stu-id="2c54f-125">Optional</span></span></p></td>
-<td><p><span data-ttu-id="2c54f-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="2c54f-126"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-p104">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含作为数据原始来源的外部数据库中的表名。source 字符串成为新的 <strong>TableDef</strong> 对象的 <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> 属性设置。</span><span class="sxs-lookup"><span data-stu-id="2c54f-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) containing the name of a table in an external database that is the original source of the data. The source string becomes the <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> property setting of the new <strong>TableDef</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="33c86-124"><em>SourceTableName</em></span><span class="sxs-lookup"><span data-stu-id="33c86-124"><em>SourceTableName</em></span></span></p></td>
+<td><p><span data-ttu-id="33c86-125">可选</span><span class="sxs-lookup"><span data-stu-id="33c86-125">Optional</span></span></p></td>
+<td><p><span data-ttu-id="33c86-126"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="33c86-126"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="33c86-p104">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含作为数据原始来源的外部数据库中的表名。source 字符串成为新的 <strong>TableDef</strong> 对象的 <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> 属性设置。</span><span class="sxs-lookup"><span data-stu-id="33c86-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) containing the name of a table in an external database that is the original source of the data. The source string becomes the <strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong> property setting of the new <strong>TableDef</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2c54f-129"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="2c54f-129"><em>Connect</em></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-130">可选</span><span class="sxs-lookup"><span data-stu-id="2c54f-130">Optional</span></span></p></td>
-<td><p><span data-ttu-id="2c54f-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="2c54f-131"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="2c54f-p105">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含有关打开数据库（在传递查询或链接表中使用的数据库）的源的信息。有关有效的连接字符串的详细信息，请参阅 <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="2c54f-p105">A <strong>Variant</strong> (<strong>String</strong> subtype) containing information about the source of an open database, a database used in a pass-through query, or a linked table. See the <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> property for more information about valid connection strings.</span></span></p></td>
+<td><p><span data-ttu-id="33c86-129"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="33c86-129"><em>Connect</em></span></span></p></td>
+<td><p><span data-ttu-id="33c86-130">可选</span><span class="sxs-lookup"><span data-stu-id="33c86-130">Optional</span></span></p></td>
+<td><p><span data-ttu-id="33c86-131"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="33c86-131"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="33c86-p105">一个 <strong>Variant</strong>（<strong>String</strong> 子类型），包含有关打开数据库（在传递查询或链接表中使用的数据库）的源的信息。有关有效的连接字符串的详细信息，请参阅 <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="33c86-p105">A <strong>Variant</strong> (<strong>String</strong> subtype) containing information about the source of an open database, a database used in a pass-through query, or a linked table. See the <strong><a href="tabledef-connect-property-dao.md">Connect</a></strong> property for more information about valid connection strings.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="2c54f-134">返回值</span><span class="sxs-lookup"><span data-stu-id="2c54f-134">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="33c86-134">返回值</span><span class="sxs-lookup"><span data-stu-id="33c86-134">Return value</span></span>
 
-<span data-ttu-id="2c54f-135">TableDef</span><span class="sxs-lookup"><span data-stu-id="2c54f-135">TableDef</span></span>
+<span data-ttu-id="33c86-135">TableDef</span><span class="sxs-lookup"><span data-stu-id="33c86-135">TableDef</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2c54f-136">注解</span><span class="sxs-lookup"><span data-stu-id="2c54f-136">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="33c86-136">注解</span><span class="sxs-lookup"><span data-stu-id="33c86-136">Remarks</span></span>
 
-<span data-ttu-id="2c54f-p106">如果使用 **CreateTableDef** 方法时省略了一个或多个可选部分，则可以在将新对象追加到集合之前，使用适当的赋值语句设置或重置相应的属性。追加对象后，可以改动此对象的某些（但不是所有）属性。有关详细信息，请参阅各个属性主题。</span><span class="sxs-lookup"><span data-stu-id="2c54f-p106">If you omit one or more of the optional parts when you use the **CreateTableDef** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can alter some but not all of its properties. See the individual property topics for more details.</span></span>
+<span data-ttu-id="33c86-p106">如果使用 **CreateTableDef** 方法时省略了一个或多个可选部分，则可以在将新对象追加到集合之前，使用适当的赋值语句设置或重置相应的属性。追加对象后，可以改动此对象的某些（但不是所有）属性。有关详细信息，请参阅各个属性主题。</span><span class="sxs-lookup"><span data-stu-id="33c86-p106">If you omit one or more of the optional parts when you use the **CreateTableDef** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can alter some but not all of its properties. See the individual property topics for more details.</span></span>
 
-<span data-ttu-id="2c54f-140">如果名称引用已经是集合成员的对象或要追加的**TableDef**或**[Field](field-object-dao.md)** 对象中指定无效的属性，当您使用**[Append](tabledefs-append-method-dao.md)** 方法时，发生此事件运行时错误。</span><span class="sxs-lookup"><span data-stu-id="2c54f-140">If name refers to an object that is already a member of the collection, or you specify an invalid property in the **TableDef** or **[Field](field-object-dao.md)** object you're appending, a run-time error occurs when you use the **[Append](tabledefs-append-method-dao.md)** method.</span></span> <span data-ttu-id="2c54f-141">另外，除非为 **TableDef** 对象定义了至少一个 **Field**，否则不能将 **TableDef** 对象追加到 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="2c54f-141">Also, you can't append a **TableDef** object to the **TableDefs** collection until you define at least one **Field** for the **TableDef** object.</span></span>
+<span data-ttu-id="33c86-140">如果名称引用已经是集合成员的对象或要追加的**TableDef**或**[Field](field-object-dao.md)** 对象中指定无效的属性，当您使用**[Append](tabledefs-append-method-dao.md)** 方法时，发生此事件运行时错误。</span><span class="sxs-lookup"><span data-stu-id="33c86-140">If name refers to an object that is already a member of the collection, or you specify an invalid property in the **TableDef** or **[Field](field-object-dao.md)** object you're appending, a run-time error occurs when you use the **[Append](tabledefs-append-method-dao.md)** method.</span></span> <span data-ttu-id="33c86-141">另外，除非为 **TableDef** 对象定义了至少一个 **Field**，否则不能将 **TableDef** 对象追加到 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="33c86-141">Also, you can't append a **TableDef** object to the **TableDefs** collection until you define at least one **Field** for the **TableDef** object.</span></span>
 
-<span data-ttu-id="2c54f-142">若要从 [**TableDefs**](tabledefs-collection-dao.md) 集合中删除 **TableDef** 对象，请对集合使用 **[Delete](tabledefs-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="2c54f-142">To remove a **TableDef** object from the **[TableDefs](tabledefs-collection-dao.md)** collection, use the **[Delete](tabledefs-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="33c86-142">若要从 [**TableDefs**](tabledefs-collection-dao.md) 集合中删除 **TableDef** 对象，请对集合使用 **[Delete](tabledefs-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="33c86-142">To remove a **TableDef** object from the **[TableDefs](tabledefs-collection-dao.md)** collection, use the **[Delete](tabledefs-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2c54f-143">示例</span><span class="sxs-lookup"><span data-stu-id="2c54f-143">Example</span></span>
+## <a name="example"></a><span data-ttu-id="33c86-143">示例</span><span class="sxs-lookup"><span data-stu-id="33c86-143">Example</span></span>
 
-<span data-ttu-id="2c54f-144">以下示例在 Northwind 数据库中创建一个新的 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="2c54f-144">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="33c86-144">以下示例在 Northwind 数据库中创建一个新的 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="33c86-144">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb
     Sub CreateTableDefX() 
@@ -154,7 +154,7 @@ ms.locfileid: "25950039"
 
 <br/>
 
-<span data-ttu-id="2c54f-p108">以下示例使用 **CreateTableDef** 和 **FillCache** 方法以及 **CacheSize**、 **CacheStart** 和 **SourceTableName** 属性两次枚举链接表中的记录，再使用存有 50 条记录的缓存两次枚举这些记录，然后通过链接表显示未缓存运行和缓存运行的性能统计。</span><span class="sxs-lookup"><span data-stu-id="2c54f-p108">This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.</span></span>
+<span data-ttu-id="33c86-p108">以下示例使用 **CreateTableDef** 和 **FillCache** 方法以及 **CacheSize**、 **CacheStart** 和 **SourceTableName** 属性两次枚举链接表中的记录，再使用存有 50 条记录的缓存两次枚举这些记录，然后通过链接表显示未缓存运行和缓存运行的性能统计。</span><span class="sxs-lookup"><span data-stu-id="33c86-p108">This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.</span></span>
 
 ```vb
     Sub ClientServerX3() 

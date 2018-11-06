@@ -10,30 +10,30 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 571698567816b34071e99c7dc46af11274a54c80
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 14021d3f16987b40af24491ff72abdfb95052045
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937140"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998761"
 ---
-# <a name="field2savetofile-method-dao"></a><span data-ttu-id="b3673-102">Field2.SaveToFile 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3673-102">Field2.SaveToFile method (DAO)</span></span>
+# <a name="field2savetofile-method-dao"></a><span data-ttu-id="91b6a-102">Field2.SaveToFile 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="91b6a-102">Field2.SaveToFile method (DAO)</span></span>
 
-<span data-ttu-id="b3673-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3673-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="91b6a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="91b6a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b3673-104">将保存到磁盘上的附件。</span><span class="sxs-lookup"><span data-stu-id="b3673-104">Saves an attachment to disk.</span></span>
+<span data-ttu-id="91b6a-104">将保存到磁盘上的附件。</span><span class="sxs-lookup"><span data-stu-id="91b6a-104">Saves an attachment to disk.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="b3673-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="b3673-105">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="91b6a-105">版本信息</span><span class="sxs-lookup"><span data-stu-id="91b6a-105">Version information</span></span>
 
-<span data-ttu-id="b3673-106">添加的版本： Access 2007</span><span class="sxs-lookup"><span data-stu-id="b3673-106">Version added: Access 2007</span></span>
+<span data-ttu-id="91b6a-106">添加的版本： Access 2007</span><span class="sxs-lookup"><span data-stu-id="91b6a-106">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b3673-107">语法</span><span class="sxs-lookup"><span data-stu-id="b3673-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="91b6a-107">语法</span><span class="sxs-lookup"><span data-stu-id="91b6a-107">Syntax</span></span>
 
-<span data-ttu-id="b3673-108">*表达式*。SaveToFile (***文件名***)</span><span class="sxs-lookup"><span data-stu-id="b3673-108">*expression* .SaveToFile(***FileName***)</span></span>
+<span data-ttu-id="91b6a-108">*表达式*。SaveToFile (***文件名***)</span><span class="sxs-lookup"><span data-stu-id="91b6a-108">*expression* .SaveToFile(***FileName***)</span></span>
 
-<span data-ttu-id="b3673-109">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="b3673-109">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="91b6a-109">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="91b6a-109">*expression* A variable that represents a **Field2** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="b3673-110">参数</span><span class="sxs-lookup"><span data-stu-id="b3673-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="91b6a-110">参数</span><span class="sxs-lookup"><span data-stu-id="91b6a-110">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -44,26 +44,26 @@ ms.locfileid: "25937140"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b3673-111">名称</span><span class="sxs-lookup"><span data-stu-id="b3673-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="b3673-112">必需/可选</span><span class="sxs-lookup"><span data-stu-id="b3673-112">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="b3673-113">数据类型</span><span class="sxs-lookup"><span data-stu-id="b3673-113">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="b3673-114">说明</span><span class="sxs-lookup"><span data-stu-id="b3673-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="91b6a-111">名称</span><span class="sxs-lookup"><span data-stu-id="91b6a-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="91b6a-112">必需/可选</span><span class="sxs-lookup"><span data-stu-id="91b6a-112">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="91b6a-113">数据类型</span><span class="sxs-lookup"><span data-stu-id="91b6a-113">Data type</span></span></p></th>
+<th><p><span data-ttu-id="91b6a-114">说明</span><span class="sxs-lookup"><span data-stu-id="91b6a-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b3673-115">FileName</span><span class="sxs-lookup"><span data-stu-id="b3673-115">FileName</span></span></p></td>
-<td><p><span data-ttu-id="b3673-116">必需</span><span class="sxs-lookup"><span data-stu-id="b3673-116">Required</span></span></p></td>
-<td><p><span data-ttu-id="b3673-117"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="b3673-117"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="b3673-118">附件要保存到的文件的完全限定路径。</span><span class="sxs-lookup"><span data-stu-id="b3673-118">The fully qualified path of the file to which you want to save the attachment.</span></span></p></td>
+<td><p><span data-ttu-id="91b6a-115"><em>FileName</em></span><span class="sxs-lookup"><span data-stu-id="91b6a-115"><em>FileName</em></span></span></p></td>
+<td><p><span data-ttu-id="91b6a-116">必需</span><span class="sxs-lookup"><span data-stu-id="91b6a-116">Required</span></span></p></td>
+<td><p><span data-ttu-id="91b6a-117"><strong>字符串</strong></span><span class="sxs-lookup"><span data-stu-id="91b6a-117"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="91b6a-118">附件要保存到的文件的完全限定路径。</span><span class="sxs-lookup"><span data-stu-id="91b6a-118">The fully qualified path of the file to which you want to save the attachment.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="b3673-119">示例</span><span class="sxs-lookup"><span data-stu-id="b3673-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="91b6a-119">示例</span><span class="sxs-lookup"><span data-stu-id="91b6a-119">Example</span></span>
 
-<span data-ttu-id="b3673-120">下面的代码段说明了如何使用 **SaveToFile** 方法将指定员工的所有附件保存到磁盘上。</span><span class="sxs-lookup"><span data-stu-id="b3673-120">The following code snippet illustrates how to use the **SaveToFile** method to save all of the attachments for a specific employee to disk.</span></span>
+<span data-ttu-id="91b6a-120">下面的代码段说明了如何使用 **SaveToFile** 方法将指定员工的所有附件保存到磁盘上。</span><span class="sxs-lookup"><span data-stu-id="91b6a-120">The following code snippet illustrates how to use the **SaveToFile** method to save all of the attachments for a specific employee to disk.</span></span>
 
 ```vb
     '  Instantiate the parent recordset.  
@@ -86,9 +86,9 @@ ms.locfileid: "25937140"
 
 <br/>
 
-<span data-ttu-id="b3673-121">下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="b3673-121">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="91b6a-121">下面的示例演示如何将保存到指定的文件夹路径附件字段中存储的文件。</span><span class="sxs-lookup"><span data-stu-id="91b6a-121">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
-<span data-ttu-id="b3673-122">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="b3673-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="91b6a-122">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="91b6a-122">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long

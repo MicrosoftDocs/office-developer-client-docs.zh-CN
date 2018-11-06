@@ -10,23 +10,22 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9d8747c5c4fd1a32a36841f648017bc0cab3de8f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920807"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998278"
 ---
-# <a name="navigateto-macro-action"></a><span data-ttu-id="94896-102">NavigateTo 宏操作</span><span class="sxs-lookup"><span data-stu-id="94896-102">NavigateTo macro action</span></span>
+# <a name="navigateto-macro-action"></a><span data-ttu-id="d90b0-102">NavigateTo 宏操作</span><span class="sxs-lookup"><span data-stu-id="d90b0-102">NavigateTo macro action</span></span>
 
+<span data-ttu-id="d90b0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d90b0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="94896-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="94896-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d90b0-p101">可以使用 **NavigateTo** 操作控制在导航窗格中显示的数据库对象。例如，可以更改数据库对象的分类方式，并可通过筛选对象来仅显示特定的对象。</span><span class="sxs-lookup"><span data-stu-id="d90b0-p101">You can use the **NavigateTo** action to control the display of database objects in the Navigation Pane. For example, you can change how the database objects are categorized, and you can filter the objects so that only certain ones are displayed.</span></span>
 
-<span data-ttu-id="94896-p101">可以使用 **NavigateTo** 操作控制在导航窗格中显示的数据库对象。例如，可以更改数据库对象的分类方式，并可通过筛选对象来仅显示特定的对象。</span><span class="sxs-lookup"><span data-stu-id="94896-p101">You can use the **NavigateTo** action to control the display of database objects in the Navigation Pane. For example, you can change how the database objects are categorized, and you can filter the objects so that only certain ones are displayed.</span></span>
+## <a name="setting"></a><span data-ttu-id="d90b0-106">设置</span><span class="sxs-lookup"><span data-stu-id="d90b0-106">Setting</span></span>
 
-## <a name="setting"></a><span data-ttu-id="94896-106">设置</span><span class="sxs-lookup"><span data-stu-id="94896-106">Setting</span></span>
-
-<span data-ttu-id="94896-107">**NavigateTo** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="94896-107">The **NavigateTo** action has the following arguments.</span></span>
+<span data-ttu-id="d90b0-107">**NavigateTo** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="d90b0-107">The **NavigateTo** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -35,69 +34,67 @@ ms.locfileid: "25920807"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="94896-108">操作参数</span><span class="sxs-lookup"><span data-stu-id="94896-108">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="94896-109">说明</span><span class="sxs-lookup"><span data-stu-id="94896-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="d90b0-108">操作参数</span><span class="sxs-lookup"><span data-stu-id="d90b0-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="d90b0-109">说明</span><span class="sxs-lookup"><span data-stu-id="d90b0-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="94896-110"><strong>类别</strong></span><span class="sxs-lookup"><span data-stu-id="94896-110"><strong>Category</strong></span></span></p></td>
-<td><p><span data-ttu-id="94896-p102">必选。要让导航窗格在显示对象时依据的类别。请在<strong>“类别”</strong>框中单击<strong>“对象类型”</strong>、<strong>“表和视图”</strong>、<strong>“修改日期”</strong>、<strong>“创建日期”</strong>或<strong>“自定义”</strong>。</span><span class="sxs-lookup"><span data-stu-id="94896-p102">Required. The category by which you want the Navigation Pane to display objects. Click <strong>Object Type</strong>, <strong>Tables and Views</strong>, <strong>Modified Date</strong>, <strong>Created Date</strong>, or <strong>Custom</strong> in the <strong>Category</strong> box.</span></span></p></td>
+<td><p><span data-ttu-id="d90b0-110"><strong>类别</strong></span><span class="sxs-lookup"><span data-stu-id="d90b0-110"><strong>Category</strong></span></span></p></td>
+<td><p><span data-ttu-id="d90b0-p102">必选。要让导航窗格在显示对象时依据的类别。请在<strong>“类别”</strong>框中单击<strong>“对象类型”</strong>、<strong>“表和视图”</strong>、<strong>“修改日期”</strong>、<strong>“创建日期”</strong>或<strong>“自定义”</strong>。</span><span class="sxs-lookup"><span data-stu-id="d90b0-p102">Required. The category by which you want the Navigation Pane to display objects. Click <strong>Object Type</strong>, <strong>Tables and Views</strong>, <strong>Modified Date</strong>, <strong>Created Date</strong>, or <strong>Custom</strong> in the <strong>Category</strong> box.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="94896-114"><strong>Group</strong></span><span class="sxs-lookup"><span data-stu-id="94896-114"><strong>Group</strong></span></span></p></td>
-<td><p><span data-ttu-id="94896-115">可选。</span><span class="sxs-lookup"><span data-stu-id="94896-115">Optional.</span></span> <span data-ttu-id="94896-116">在导航窗格中显示的<strong>组</strong>参数限制类别中的哪些对象。</span><span class="sxs-lookup"><span data-stu-id="94896-116">The <strong>Group</strong> argument limits which objects in the category appear in the Navigation Pane.</span></span> <span data-ttu-id="94896-117">如果将<strong>组</strong>参数留空，导航窗格将显示<strong>类别</strong>参数中指定的条件进行分类的所有数据库对象。</span><span class="sxs-lookup"><span data-stu-id="94896-117">If you leave the <strong>Group</strong> argument blank, the Navigation Pane displays all database objects, categorized by the criteria you specify in the <strong>Category</strong> argument.</span></span> <span data-ttu-id="94896-118">下表中显示了各种 <strong>Category</strong> 参数的有效 <strong>Group</strong> 参数的示例。</span><span class="sxs-lookup"><span data-stu-id="94896-118">Examples of valid <strong>Group</strong> arguments for the various <strong>Category</strong> arguments are shown in the following table.</span></span></p></td>
+<td><p><span data-ttu-id="d90b0-114"><strong>Group</strong></span><span class="sxs-lookup"><span data-stu-id="d90b0-114"><strong>Group</strong></span></span></p></td>
+<td><p><span data-ttu-id="d90b0-115">可选。</span><span class="sxs-lookup"><span data-stu-id="d90b0-115">Optional.</span></span> <span data-ttu-id="d90b0-116">在导航窗格中显示的<strong>组</strong>参数限制类别中的哪些对象。</span><span class="sxs-lookup"><span data-stu-id="d90b0-116">The <strong>Group</strong> argument limits which objects in the category appear in the Navigation Pane.</span></span> <span data-ttu-id="d90b0-117">如果将<strong>组</strong>参数留空，导航窗格将显示<strong>类别</strong>参数中指定的条件进行分类的所有数据库对象。</span><span class="sxs-lookup"><span data-stu-id="d90b0-117">If you leave the <strong>Group</strong> argument blank, the Navigation Pane displays all database objects, categorized by the criteria you specify in the <strong>Category</strong> argument.</span></span> <span data-ttu-id="d90b0-118">下表中显示了各种 <strong>Category</strong> 参数的有效 <strong>Group</strong> 参数的示例。</span><span class="sxs-lookup"><span data-stu-id="d90b0-118">Examples of valid <strong>Group</strong> arguments for the various <strong>Category</strong> arguments are shown in the following table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="94896-119">说明</span><span class="sxs-lookup"><span data-stu-id="94896-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d90b0-119">说明</span><span class="sxs-lookup"><span data-stu-id="d90b0-119">Remarks</span></span>
 
-  - <span data-ttu-id="94896-120">此操作类似于从导航窗格的标题栏中选择类别和组。</span><span class="sxs-lookup"><span data-stu-id="94896-120">This action is similar to selecting categories and groups from the title bar of the Navigation Pane.</span></span>
+- <span data-ttu-id="d90b0-120">此操作类似于从导航窗格的标题栏中选择类别和组。</span><span class="sxs-lookup"><span data-stu-id="d90b0-120">This action is similar to selecting categories and groups from the title bar of the navigation pane.</span></span>
 
-  - <span data-ttu-id="94896-121">有效**Group**参数取决于使用哪些**Category**参数。</span><span class="sxs-lookup"><span data-stu-id="94896-121">Valid **Group** arguments depend on which **Category** argument is used.</span></span> <span data-ttu-id="94896-122">如果您输入了无效的**组**参数，将显示一条错误消息。下表包含每个**Category**参数的有效**Group**参数的示例。</span><span class="sxs-lookup"><span data-stu-id="94896-122">If you enter an invalid **Group** argument, an error message appears.The following table contains examples of valid **Group** arguments for each **Category** argument.</span></span>
+- <span data-ttu-id="d90b0-121">有效**Group**参数取决于使用哪些**Category**参数。</span><span class="sxs-lookup"><span data-stu-id="d90b0-121">Valid **Group** arguments depend on which **Category** argument is used.</span></span> <span data-ttu-id="d90b0-122">如果您输入了无效的**组**参数，将显示一条错误消息。下表包含每个**Category**参数的有效**Group**参数的示例。</span><span class="sxs-lookup"><span data-stu-id="d90b0-122">If you enter an invalid **Group** argument, an error message appears.The following table contains examples of valid **Group** arguments for each **Category** argument.</span></span>
     
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p><span data-ttu-id="94896-123">“类别”参数</span><span class="sxs-lookup"><span data-stu-id="94896-123">Category argument</span></span></p></th>
-    <th><p><span data-ttu-id="94896-124">“组”参数示例</span><span class="sxs-lookup"><span data-stu-id="94896-124">Example Group arguments</span></span></p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p><span data-ttu-id="94896-125">对象类型</span><span class="sxs-lookup"><span data-stu-id="94896-125">Object Type</span></span></p></td>
-    <td><p><span data-ttu-id="94896-126">表、窗体、查询、页、宏、模块</span><span class="sxs-lookup"><span data-stu-id="94896-126">Tables; Forms; Queries; Pages; Macros; Modules</span></span></p></td>
-    </tr>
-    <tr class="even">
-    <td><p><span data-ttu-id="94896-127">表和视图</span><span class="sxs-lookup"><span data-stu-id="94896-127">Tables and Views</span></span></p></td>
-    <td><p><span data-ttu-id="94896-128">数据库中特定表的名称</span><span class="sxs-lookup"><span data-stu-id="94896-128">Names of specific tables in your database</span></span></p></td>
-    </tr>
-    <tr class="odd">
-    <td><p><span data-ttu-id="94896-129">修改日期</span><span class="sxs-lookup"><span data-stu-id="94896-129">Modified Date</span></span></p></td>
-    <td><p><span data-ttu-id="94896-130">今天；昨天；上个月；更早</span><span class="sxs-lookup"><span data-stu-id="94896-130">Today; Yesterday; Last Month; Older</span></span></p></td>
-    </tr>
-    <tr class="even">
-    <td><p><span data-ttu-id="94896-131">创建日期</span><span class="sxs-lookup"><span data-stu-id="94896-131">Created Date</span></span></p></td>
-    <td><p><span data-ttu-id="94896-132">今天、昨天、上个月、更早</span><span class="sxs-lookup"><span data-stu-id="94896-132">Today; Yesterday; Last Month; Older</span></span></p></td>
-    </tr>
-    <tr class="odd">
-    <td><p><span data-ttu-id="94896-133">自定义类别</span><span class="sxs-lookup"><span data-stu-id="94896-133">Custom category</span></span></p></td>
-    <td><p><span data-ttu-id="94896-134">为指定的自定义类别创建的组名</span><span class="sxs-lookup"><span data-stu-id="94896-134">Names of groups you have created for the specified custom category</span></span></p></td>
-    </tr>
-    </tbody>
-    </table>
+  <table>
+  <colgroup>
+  <col style="width: 50%" />
+  <col style="width: 50%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th><p><span data-ttu-id="d90b0-123">“类别”参数</span><span class="sxs-lookup"><span data-stu-id="d90b0-123">Category argument</span></span></p></th>
+  <th><p><span data-ttu-id="d90b0-124">“组”参数示例</span><span class="sxs-lookup"><span data-stu-id="d90b0-124">Example Group arguments</span></span></p></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td><p><span data-ttu-id="d90b0-125">对象类型</span><span class="sxs-lookup"><span data-stu-id="d90b0-125">Object Type</span></span></p></td>
+  <td><p><span data-ttu-id="d90b0-126">表、窗体、查询、页、宏、模块</span><span class="sxs-lookup"><span data-stu-id="d90b0-126">Tables; Forms; Queries; Pages; Macros; Modules</span></span></p></td>
+  </tr>
+  <tr class="even">
+  <td><p><span data-ttu-id="d90b0-127">表和视图</span><span class="sxs-lookup"><span data-stu-id="d90b0-127">Tables and Views</span></span></p></td>
+  <td><p><span data-ttu-id="d90b0-128">数据库中特定表的名称</span><span class="sxs-lookup"><span data-stu-id="d90b0-128">Names of specific tables in your database</span></span></p></td>
+  </tr>
+  <tr class="odd">
+  <td><p><span data-ttu-id="d90b0-129">修改日期</span><span class="sxs-lookup"><span data-stu-id="d90b0-129">Modified Date</span></span></p></td>
+  <td><p><span data-ttu-id="d90b0-130">今天；昨天；上个月；更早</span><span class="sxs-lookup"><span data-stu-id="d90b0-130">Today; Yesterday; Last Month; Older</span></span></p></td>
+  </tr>
+  <tr class="even">
+  <td><p><span data-ttu-id="d90b0-131">创建日期</span><span class="sxs-lookup"><span data-stu-id="d90b0-131">Created Date</span></span></p></td>
+  <td><p><span data-ttu-id="d90b0-132">今天、昨天、上个月、更早</span><span class="sxs-lookup"><span data-stu-id="d90b0-132">Today; Yesterday; Last Month; Older</span></span></p></td>
+  </tr>
+  <tr class="odd">
+  <td><p><span data-ttu-id="d90b0-133">自定义类别</span><span class="sxs-lookup"><span data-stu-id="d90b0-133">Custom category</span></span></p></td>
+  <td><p><span data-ttu-id="d90b0-134">为指定的自定义类别创建的组名</span><span class="sxs-lookup"><span data-stu-id="d90b0-134">Names of groups you have created for the specified custom category</span></span></p></td>
+  </tr>
+  </tbody>
+  </table>
 
-
-  - <span data-ttu-id="94896-135">要在 VBA 模块中运行 **NavigateTo** 操作，请使用 **DoCmd** 对象的 **NavigateTo** 方法。</span><span class="sxs-lookup"><span data-stu-id="94896-135">To run the **NavigateTo** action in a VBA module, use the **NavigateTo** method of the **DoCmd** object.</span></span>
-
+- <span data-ttu-id="d90b0-135">要在 VBA 模块中运行 **NavigateTo** 操作，请使用 **DoCmd** 对象的 **NavigateTo** 方法。</span><span class="sxs-lookup"><span data-stu-id="d90b0-135">To run the **NavigateTo** action in a VBA module, use the **NavigateTo** method of the **DoCmd** object.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="94896-136">要导航到类别 （例如，<STRONG>所有表</STRONG>、<STRONG>所有 Access 对象</STRONG>或<STRONG>所有日期</STRONG>） 的最高级别，您必须将组参数留空。</span><span class="sxs-lookup"><span data-stu-id="94896-136">To navigate to the top level of a category (for example, <STRONG>All Tables</STRONG>, <STRONG>All Access Objects</STRONG>, or <STRONG>All Dates</STRONG>), you must leave the Group argument blank.</span></span> <span data-ttu-id="94896-137">例如，<STRONG>对象类型</STRONG><STRONG>类别</STRONG>参数时，将<STRONG>所有 Access 对象</STRONG>都输入为<STRONG>组</STRONG>参数会导致出错。</span><span class="sxs-lookup"><span data-stu-id="94896-137">For example, when the <STRONG>Category</STRONG> argument is <STRONG>Object Type</STRONG>, entering <STRONG>All Access Objects</STRONG> as a <STRONG>Group</STRONG> argument results in an error.</span></span></P>
+> <span data-ttu-id="d90b0-136">要导航到类别 （例如，**所有表**、**所有 Access 对象**或**所有日期**） 的最高级别，您必须将组参数留空。</span><span class="sxs-lookup"><span data-stu-id="d90b0-136">To navigate to the top level of a category (for example, **All Tables**, **All Access Objects**, or **All Dates**), you must leave the Group argument blank.</span></span> <span data-ttu-id="d90b0-137">例如，**对象类型\*\*\*\*类别**参数时，将**所有 Access 对象**都输入为**组**参数会导致出错。</span><span class="sxs-lookup"><span data-stu-id="d90b0-137">For example, when the **Category** argument is **Object Type**, entering **All Access Objects** as a **Group** argument results in an error.</span></span>
 
 

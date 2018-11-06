@@ -10,29 +10,25 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 22d3422a5c00e6caa20003df3574c26ab061ab53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dba3d57a1b9ce890898ac2f5b76b916b848c5a9b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925343"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997516"
 ---
-# <a name="openstoredprocedure-macro-action"></a><span data-ttu-id="854f8-102">OpenStoredProcedure 宏操作</span><span class="sxs-lookup"><span data-stu-id="854f8-102">OpenStoredProcedure macro action</span></span>
+# <a name="openstoredprocedure-macro-action"></a><span data-ttu-id="ae235-102">OpenStoredProcedure 宏操作</span><span class="sxs-lookup"><span data-stu-id="ae235-102">OpenStoredProcedure macro action</span></span>
 
+<span data-ttu-id="ae235-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae235-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="854f8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="854f8-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-<span data-ttu-id="854f8-p101">在 Microsoft Access 项目中，可以使用 **OpenStoredProcedure** 操作在数据表视图、存储过程设计视图或打印预览中打开存储过程。如果在数据表视图中打开命名的存储过程，此操作将运行该存储过程。您可以为存储过程选择数据输入模式，以及限制存储过程显示的记录。</span><span class="sxs-lookup"><span data-stu-id="854f8-p101">In an Access project, you can use the **OpenStoredProcedure** action to open a stored procedure in Datasheet view, stored procedure Design view, or Print Preview. This action runs the named stored procedure when opened in Datasheet view. You can select the data entry mode for the stored procedure and restrict the records that the stored procedure displays.</span></span>
-
+<span data-ttu-id="ae235-p101">在 Microsoft Access 项目中，可以使用 **OpenStoredProcedure** 操作在数据表视图、存储过程设计视图或打印预览中打开存储过程。如果在数据表视图中打开命名的存储过程，此操作将运行该存储过程。您可以为存储过程选择数据输入模式，以及限制存储过程显示的记录。</span><span class="sxs-lookup"><span data-stu-id="ae235-p101">In an Access project, you can use the **OpenStoredProcedure** action to open a stored procedure in Datasheet view, stored procedure Design view, or Print Preview. This action runs the named stored procedure when opened in Datasheet view. You can select the data entry mode for the stored procedure and restrict the records that the stored procedure displays.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="854f8-p102">[!注释] 如果数据库不受信任，将不允许此操作。有关启用宏的详细信息，请参阅本文 See Also 一节中的链接。</span><span class="sxs-lookup"><span data-stu-id="854f8-p102">This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</span></span></P>
+> <span data-ttu-id="ae235-107">[!注释] 如果数据库不受信任，将不允许此操作。</span><span class="sxs-lookup"><span data-stu-id="ae235-107">This action will not be allowed if the database is not trusted.</span></span> 
 
+## <a name="setting"></a><span data-ttu-id="ae235-108">设置</span><span class="sxs-lookup"><span data-stu-id="ae235-108">Setting</span></span>
 
-
-## <a name="setting"></a><span data-ttu-id="854f8-109">设置</span><span class="sxs-lookup"><span data-stu-id="854f8-109">Setting</span></span>
-
-<span data-ttu-id="854f8-110">**OpenStoredProcedure** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="854f8-110">The **OpenStoredProcedure** action has the following arguments.</span></span>
+<span data-ttu-id="ae235-109">**OpenStoredProcedure** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="ae235-109">The **OpenStoredProcedure** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -41,46 +37,37 @@ ms.locfileid: "25925343"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="854f8-111">操作参数</span><span class="sxs-lookup"><span data-stu-id="854f8-111">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="854f8-112">说明</span><span class="sxs-lookup"><span data-stu-id="854f8-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="ae235-110">操作参数</span><span class="sxs-lookup"><span data-stu-id="ae235-110">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="ae235-111">说明</span><span class="sxs-lookup"><span data-stu-id="ae235-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="854f8-113"><strong>过程名称</strong></span><span class="sxs-lookup"><span data-stu-id="854f8-113"><strong>Procedure Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="854f8-114">要打开的存储过程的名称。</span><span class="sxs-lookup"><span data-stu-id="854f8-114">The name of the stored procedure to open.</span></span> <span data-ttu-id="854f8-115">在<strong>操作参数</strong>部分的宏生成器窗格<strong>过程名称框</strong>中显示当前数据库中的所有存储的过程。</span><span class="sxs-lookup"><span data-stu-id="854f8-115">The <strong>Procedure Name box</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all stored procedures in the current database.</span></span> <span data-ttu-id="854f8-116">这是必需参数。</span><span class="sxs-lookup"><span data-stu-id="854f8-116">This is a required argument.</span></span> <span data-ttu-id="854f8-117">如果在类库数据库中运行包含 <strong>OpenStoredProcedure</strong> 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的存储过程，然后再在当前数据库中查找。</span><span class="sxs-lookup"><span data-stu-id="854f8-117">If you run a macro containing the <strong>OpenStoredProcedure</strong> action in a library database, Microsoft Access first looks for the stored procedure with this name first in the library database, and then in the current database.</span></span></p></td>
+<td><p><span data-ttu-id="ae235-112"><strong>过程名称</strong></span><span class="sxs-lookup"><span data-stu-id="ae235-112"><strong>Procedure Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="ae235-113">要打开的存储过程的名称。</span><span class="sxs-lookup"><span data-stu-id="ae235-113">The name of the stored procedure to open.</span></span> <span data-ttu-id="ae235-114">在<strong>操作参数</strong>部分的宏生成器窗格<strong>过程名称框</strong>中显示当前数据库中的所有存储的过程。</span><span class="sxs-lookup"><span data-stu-id="ae235-114">The <strong>Procedure Name box</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane shows all stored procedures in the current database.</span></span> <span data-ttu-id="ae235-115">这是必需参数。</span><span class="sxs-lookup"><span data-stu-id="ae235-115">This is a required argument.</span></span> <span data-ttu-id="ae235-116">如果在类库数据库中运行包含 <strong>OpenStoredProcedure</strong> 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的存储过程，然后再在当前数据库中查找。</span><span class="sxs-lookup"><span data-stu-id="ae235-116">If you run a macro containing the <strong>OpenStoredProcedure</strong> action in a library database, Microsoft Access first looks for the stored procedure with this name first in the library database, and then in the current database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="854f8-118"><strong>View</strong></span><span class="sxs-lookup"><span data-stu-id="854f8-118"><strong>View</strong></span></span></p></td>
-<td><p><span data-ttu-id="854f8-p104">打开存储过程时将使用的视图。请在<strong>“视图”</strong>框中单击<strong>“数据表”</strong>、<strong>“设计”</strong>、<strong>“打印预览”</strong>、<strong>“数据透视表”</strong>或<strong>“数据透视图”</strong>。默认值为<strong>“数据表”</strong>。</span><span class="sxs-lookup"><span data-stu-id="854f8-p104">The view in which the stored procedure will open. Click <strong>Datasheet</strong>, <strong>Design</strong>, <strong>Print Preview</strong>, <strong>PivotTable</strong>, or <strong>PivotChart</strong> in the <strong>View</strong> box. The default is <strong>Datasheet</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="ae235-117"><strong>View</strong></span><span class="sxs-lookup"><span data-stu-id="ae235-117"><strong>View</strong></span></span></p></td>
+<td><p><span data-ttu-id="ae235-p103">打开存储过程时将使用的视图。请在<strong>“视图”</strong>框中单击<strong>“数据表”</strong>、<strong>“设计”</strong>、<strong>“打印预览”</strong>、<strong>“数据透视表”</strong>或<strong>“数据透视图”</strong>。默认值为<strong>“数据表”</strong>。</span><span class="sxs-lookup"><span data-stu-id="ae235-p103">The view in which the stored procedure will open. Click <strong>Datasheet</strong>, <strong>Design</strong>, <strong>Print Preview</strong>, <strong>PivotTable</strong>, or <strong>PivotChart</strong> in the <strong>View</strong> box. The default is <strong>Datasheet</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="854f8-122"><strong>Data Mode</strong></span><span class="sxs-lookup"><span data-stu-id="854f8-122"><strong>Data Mode</strong></span></span></p></td>
-<td><p><span data-ttu-id="854f8-p105">存储过程的数据输入模式。此参数仅适用于在数据表视图中打开的存储过程。请单击<strong>“添加”</strong>（用户可添加新记录，但不能查看或编辑现有记录）、<strong>“编辑”</strong>（用户可查看或编辑现有记录以及添加新记录）或<strong>“只读”</strong>（用户只能查看记录）。默认值为<strong>“编辑”</strong>。</span><span class="sxs-lookup"><span data-stu-id="854f8-p105">The data entry mode for the stored procedure. This applies only to stored procedures opened in Datasheet view. Click <strong>Add</strong> (the user can add new records but can't view or edit existing records), <strong>Edit</strong> (the user can view or edit existing records and add new records), or <strong>Read Only</strong> (the user can only view records). The default is <strong>Edit</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="ae235-121"><strong>Data Mode</strong></span><span class="sxs-lookup"><span data-stu-id="ae235-121"><strong>Data Mode</strong></span></span></p></td>
+<td><p><span data-ttu-id="ae235-p104">存储过程的数据输入模式。此参数仅适用于在数据表视图中打开的存储过程。请单击<strong>“添加”</strong>（用户可添加新记录，但不能查看或编辑现有记录）、<strong>“编辑”</strong>（用户可查看或编辑现有记录以及添加新记录）或<strong>“只读”</strong>（用户只能查看记录）。默认值为<strong>“编辑”</strong>。</span><span class="sxs-lookup"><span data-stu-id="ae235-p104">The data entry mode for the stored procedure. This applies only to stored procedures opened in Datasheet view. Click <strong>Add</strong> (the user can add new records but can't view or edit existing records), <strong>Edit</strong> (the user can view or edit existing records and add new records), or <strong>Read Only</strong> (the user can only view records). The default is <strong>Edit</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
+## <a name="remarks"></a><span data-ttu-id="ae235-126">说明</span><span class="sxs-lookup"><span data-stu-id="ae235-126">Remarks</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="854f8-127">说明</span><span class="sxs-lookup"><span data-stu-id="854f8-127">Remarks</span></span>
+<span data-ttu-id="ae235-127">此操作类似于在导航窗格中双击存储过程，或者在导航窗格中右键单击存储过程，然后选择所需的命令。</span><span class="sxs-lookup"><span data-stu-id="ae235-127">This action is similar to double-clicking the stored procedure in the Navigation Pane, or right-clicking the stored procedure in the Navigation Pane and selecting the command you want.</span></span>
 
-<span data-ttu-id="854f8-128">此操作类似于在导航窗格中双击存储过程，或者在导航窗格中右键单击存储过程，然后选择所需的命令。</span><span class="sxs-lookup"><span data-stu-id="854f8-128">This action is similar to double-clicking the stored procedure in the Navigation Pane, or right-clicking the stored procedure in the Navigation Pane and selecting the command you want.</span></span>
-
-<span data-ttu-id="854f8-129">存储的过程处于打开状态时切换到设计视图中删除存储过程的**数据模式**参数设置。</span><span class="sxs-lookup"><span data-stu-id="854f8-129">Switching to Design view while the stored procedure is open removes the **Data Mode** argument setting for the stored procedure.</span></span> <span data-ttu-id="854f8-130">此设置不起作用，即使用户返回到数据表视图。</span><span class="sxs-lookup"><span data-stu-id="854f8-130">This setting is not in effect, even if the user returns to Datasheet view.</span></span>
-
+<span data-ttu-id="ae235-128">存储的过程处于打开状态时切换到设计视图中删除存储过程的**数据模式**参数设置。</span><span class="sxs-lookup"><span data-stu-id="ae235-128">Switching to Design view while the stored procedure is open removes the **Data Mode** argument setting for the stored procedure.</span></span> <span data-ttu-id="ae235-129">此设置不起作用，即使用户返回到数据表视图。</span><span class="sxs-lookup"><span data-stu-id="ae235-129">This setting is not in effect, even if the user returns to Datasheet view.</span></span>
 
 > [!TIP]
-> <P></P>
-> <UL>
-> <LI>
-> <P><span data-ttu-id="854f8-131">可以将存储的过程从导航窗格拖动到宏操作行中。</span><span class="sxs-lookup"><span data-stu-id="854f8-131">You can drag a stored procedure from the Navigation Pane to a macro action row.</span></span> <span data-ttu-id="854f8-132">这会自动创建的数据表视图中打开的存储的过程<STRONG>OpenStoredProcedure</STRONG>操作。</span><span class="sxs-lookup"><span data-stu-id="854f8-132">This automatically creates an <STRONG>OpenStoredProcedure</STRONG> action that opens the stored procedure in Datasheet view.</span></span></P>
-> <LI>
-> <P><span data-ttu-id="854f8-133">
-> 						通常，当运行存储过程时，会显示一些系统消息（指明运行的是存储过程并显示将受影响的记录数），如果不想显示这些消息，可以使用 <STRONG>SetWarning</STRONG> 操作来禁止其显示。
-</span><span class="sxs-lookup"><span data-stu-id="854f8-133">If you do not want to display the system messages that normally appear when a stored procedure is run (indicating it is a stored procedure and showing how many records will be affected), you can use the <STRONG>SetWarning</STRONG> action to suppress the display of these messages.</span></span></P></LI></UL>
-<P></P>
+> - <span data-ttu-id="ae235-130">可以将存储的过程从导航窗格拖动到宏操作行中。</span><span class="sxs-lookup"><span data-stu-id="ae235-130">You can drag a stored procedure from the Navigation Pane to a macro action row.</span></span> <span data-ttu-id="ae235-131">这会自动创建的数据表视图中打开的存储的过程**OpenStoredProcedure**操作。</span><span class="sxs-lookup"><span data-stu-id="ae235-131">This automatically creates an **OpenStoredProcedure** action that opens the stored procedure in Datasheet view.</span></span>
+> - <span data-ttu-id="ae235-132">
+						通常，当运行存储过程时，会显示一些系统消息（指明运行的是存储过程并显示将受影响的记录数），如果不想显示这些消息，可以使用 \*\*SetWarning\*\* 操作来禁止其显示。
+</span><span class="sxs-lookup"><span data-stu-id="ae235-132">If you do not want to display the system messages that normally appear when a stored procedure is run (indicating it is a stored procedure and showing how many records will be affected), you can use the **SetWarning** action to suppress the display of these messages.</span></span>
 
-
-
-<span data-ttu-id="854f8-134">要在 Visual Basic for Applications (VBA) 模块中运行 **OpenStoredProcedure** 操作，请使用 **DoCmd** 对象的 **OpenStoredProcedure** 方法。</span><span class="sxs-lookup"><span data-stu-id="854f8-134">To run the **OpenStoredProcedure** action in a Visual Basic for Applications (VBA) module, use the **OpenStoredProcedure** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="ae235-133">要在 Visual Basic for Applications (VBA) 模块中运行 **OpenStoredProcedure** 操作，请使用 **DoCmd** 对象的 **OpenStoredProcedure** 方法。</span><span class="sxs-lookup"><span data-stu-id="ae235-133">To run the **OpenStoredProcedure** action in a Visual Basic for Applications (VBA) module, use the **OpenStoredProcedure** method of the **DoCmd** object.</span></span>
 
