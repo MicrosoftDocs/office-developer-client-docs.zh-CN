@@ -353,7 +353,7 @@ items:
         - name: ActiveX 控件
           href: access/desktop-database-reference/activex-controls-access.md
           items:
-          - name: ActiveX 控件的自定义属性对话框
+          - name: ActiveXA 控件的自定义属性对话框
             href: access/desktop-database-reference/the-activex-control-s-custom-properties-dialog-box.md
           - name: 查看 ActiveX 控件的“关于”框
             href: access/desktop-database-reference/view-an-activex-control-s-about-box.md
@@ -362,34 +362,34 @@ items:
           items:
           - name: Access 中的更改
             href: access/desktop-database-reference/changes-in-access.md
-          - name: 转换 Microsoft Access 表、窗体和报表
-            href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
           - name: 将 DAO 代码转换为 ADO
             href: access/desktop-database-reference/converting-dao-code-to-ado.md
+          - name: 转换表格、窗体和报表
+            href: access/desktop-database-reference/convert-microsoft-access-tables-forms-and-reports.md
         - name: 功能区
           href: access/desktop-database-reference/ribbon.md
           items:
-          - name: Access 启动时隐藏功能区
-            href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md
           - name: 将自定义功能区应用于窗体或报表
             href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-to-a-form-or-report.md
           - name: 启动 Access 时应用自定义功能区
             href: access/desktop-database-reference/how-to-apply-a-custom-ribbon-when-starting-access.md
+          - name: Access 启动时隐藏功能区
+            href: access/desktop-database-reference/how-to-hide-the-ribbon-when-access-starts.md
         - name: 使用其他应用程序
           href: access/desktop-database-reference/working-with-other-applications-access.md
           items:
-          - name: 使用 Microsoft Access
+          - name: 使用 Microsoft Access 自动操作
             href: access/desktop-database-reference/automation-with-microsoft-access.md
-          - name: 将 Microsoft Access 用作 DDE 服务器
-            href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
           - name: 使用 ActiveX 数据对象
             href: access/desktop-database-reference/using-activex-data-objects.md
+          - name: 将 Microsoft Access 用作 DDE 服务器
+            href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
         - name: 设置窗体、报表和控件的属性
           href: access/desktop-database-reference/set-form-report-and-control-properties.md
       - name: Microsoft 数据访问对象引用
         href: access/desktop-database-reference/microsoft-data-access-objects-reference.md
         items:
-        - name: ComplexType 对象
+        - name: ComplexType
           href: access/desktop-database-reference/complextype-object-reference-dao.md
           items:
           - name: ComplexType 对象
@@ -401,7 +401,7 @@ items:
             items:
             - name: Fields 属性
               href: access/desktop-database-reference/complextype-fields-property-dao.md
-        - name: Connection 对象
+        - name: Connection
           href: access/desktop-database-reference/connection-object-reference-dao.md
           items:
           - name: Connection 对象
@@ -444,7 +444,7 @@ items:
               href: access/desktop-database-reference/connection-execute-method-dao.md
             - name: OpenRecordset 方法
               href: access/desktop-database-reference/connection-openrecordset-method-dao.md
-        - name: Connections 对象
+        - name: Connections
           href: access/desktop-database-reference/connections-object-reference-dao.md
           items:
           - name: Connections 集合
@@ -461,7 +461,7 @@ items:
             items:
             - name: Refresh 方法
               href: access/desktop-database-reference/connections-refresh-method-dao.md
-        - name: Container 对象
+        - name: Container
           href: access/desktop-database-reference/container-object-reference-dao.md
           items:
           - name: Container 对象
@@ -477,7 +477,7 @@ items:
               href: access/desktop-database-reference/container-name-property-dao.md
             - name: Properties 属性
               href: access/desktop-database-reference/container-properties-property-dao.md
-        - name: Containers 对象
+        - name: Containers
           href: access/desktop-database-reference/containers-object-reference-dao.md
           items:
           - name: Containers 对象
@@ -494,7 +494,7 @@ items:
             items:
             - name: Refresh 方法
               href: access/desktop-database-reference/containers-refresh-method-dao.md
-        - name: Database 对象
+        - name: Database
           href: access/desktop-database-reference/database-object-reference-dao.md
           items:
           - name: Database 对象
@@ -563,7 +563,7 @@ items:
               href: access/desktop-database-reference/database-populatepartial-method-dao.md
             - name: Synchronize 方法
               href: access/desktop-database-reference/database-synchronize-method-dao.md
-        - name: Databases 对象
+        - name: Databases
           href: access/desktop-database-reference/databases-object-reference-dao.md
           items:
           - name: Databases 集合
@@ -580,7 +580,7 @@ items:
             items:
             - name: Refresh 方法
               href: access/desktop-database-reference/databases-refresh-method-dao.md
-        - name: DBEngine 对象
+        - name: DBEngine
           href: access/desktop-database-reference/dbengine-object-reference-dao.md
           items:
           - name: DBEngine 对象
@@ -633,7 +633,7 @@ items:
               href: access/desktop-database-reference/dbengine-rollback-method-dao.md
             - name: SetOption 方法
               href: access/desktop-database-reference/dbengine-setoption-method-dao.md
-        - name: Document 对象
+        - name: Document
           href: access/desktop-database-reference/document-object-reference-dao.md
           items:
           - name: Document 对象
@@ -658,7 +658,7 @@ items:
             items:
             - name: CreateProperty 方法
               href: access/desktop-database-reference/document-createproperty-method-dao.md
-        - name: Documents 对象
+        - name: Documents
           href: access/desktop-database-reference/documents-object-reference-dao.md
           items:
           - name: Documents 集合
@@ -675,7 +675,7 @@ items:
             items:
             - name: Refresh 方法
               href: access/desktop-database-reference/documents-refresh-method-dao.md
-        - name: Error 对象
+        - name: Error
           href: access/desktop-database-reference/error-object-reference-dao.md
           items:
           - name: Error 对象
@@ -691,7 +691,7 @@ items:
               href: access/desktop-database-reference/error-number-property-dao.md
             - name: Source 属性
               href: access/desktop-database-reference/error-source-property-dao.md
-        - name: Errors 对象
+        - name: Errors
           href: access/desktop-database-reference/errors-object-reference-dao.md
           items:
           - name: Errors 集合
@@ -708,7 +708,7 @@ items:
             items:
             - name: Refresh 方法
               href: access/desktop-database-reference/errors-refresh-method-dao.md
-        - name: Field 对象
+        - name: Field
           href: access/desktop-database-reference/field-object-reference-dao.md
           items:
           - name: Field 对象
@@ -769,7 +769,7 @@ items:
               href: access/desktop-database-reference/field-createproperty-method-dao.md
             - name: GetChunk 方法
               href: access/desktop-database-reference/field-getchunk-method-dao.md
-        - name: Field2 对象
+        - name: Field2
           href: access/desktop-database-reference/field2-object-reference-dao.md
           items:
           - name: Field2 对象
@@ -842,7 +842,7 @@ items:
               href: access/desktop-database-reference/field2-loadfromfile-method-dao.md
             - name: SaveToFile 方法
               href: access/desktop-database-reference/field2-savetofile-method-dao.md
-        - name: Fields 对象
+        - name: Fields
           href: access/desktop-database-reference/fields-object-reference-dao.md
           items:
           - name: Fields 集合
@@ -863,7 +863,7 @@ items:
               href: access/desktop-database-reference/fields-delete-method-dao.md
             - name: Refresh 方法
               href: access/desktop-database-reference/fields-refresh-method-dao.md
-        - name: Index 对象
+        - name: Index
           href: access/desktop-database-reference/index-object-reference-dao.md
           items:
           - name: Index 对象
@@ -900,7 +900,7 @@ items:
               href: access/desktop-database-reference/index-createfield-method-dao.md
             - name: CreateProperty 方法
               href: access/desktop-database-reference/index-createproperty-method-dao.md
-        - name: Indexes 对象
+        - name: Indexes
           href: access/desktop-database-reference/indexes-object-reference-dao.md
           items:
           - name: Indexes 集合
@@ -921,7 +921,7 @@ items:
               href: access/desktop-database-reference/indexes-delete-method-dao.md
             - name: Refresh 方法
               href: access/desktop-database-reference/indexes-refresh-method-dao.md
-        - name: Parameter 对象
+        - name: Parameter
           href: access/desktop-database-reference/parameter-object-reference-dao.md
           items:
           - name: Parameter 对象
@@ -941,7 +941,7 @@ items:
               href: access/desktop-database-reference/parameter-type-property-dao.md
             - name: Value 属性
               href: access/desktop-database-reference/parameter-value-property-dao.md
-        - name: Parameters 对象
+        - name: Parameters
           href: access/desktop-database-reference/parameters-object-reference-dao.md
           items:
           - name: Parameters 集合
@@ -958,7 +958,7 @@ items:
             items:
             - name: Refresh 方法
               href: access/desktop-database-reference/parameters-refresh-method-dao.md
-        - name: Properties 对象
+        - name: Properties
           href: access/desktop-database-reference/properties-object-reference-dao.md
           items:
           - name: Properties 集合
@@ -979,10 +979,10 @@ items:
               href: access/desktop-database-reference/properties-delete-method-dao.md
             - name: Refresh 方法
               href: access/desktop-database-reference/properties-refresh-method-dao.md
-        - name: Properties 对象
+        - name: Property
           href: access/desktop-database-reference/property-object-reference-dao.md
           items:
-          - name: Properties 对象
+          - name: Property 对象
             href: access/desktop-database-reference/property-object-dao.md
           - name: Properties 成员
             href: access/desktop-database-reference/property-members-dao.md
@@ -999,7 +999,7 @@ items:
               href: access/desktop-database-reference/property-type-property-dao.md
             - name: Value 属性
               href: access/desktop-database-reference/property-value-property-dao.md
-        - name: QueryDef 对象
+        - name: QueryDef
           href: access/desktop-database-reference/querydef-object-reference-dao.md
           items:
           - name: QueryDef 对象
@@ -1056,7 +1056,7 @@ items:
               href: access/desktop-database-reference/querydef-execute-method-dao.md
             - name: OpenRecordset 方法
               href: access/desktop-database-reference/querydef-openrecordset-method-dao.md
-        - name: QueryDefs 对象
+        - name: QueryDefs
           href: access/desktop-database-reference/querydefs-object-reference-dao.md
           items:
           - name: QueryDefs 集合
@@ -1077,7 +1077,7 @@ items:
               href: access/desktop-database-reference/querydefs-delete-method-dao.md
             - name: Refresh 方法
               href: access/desktop-database-reference/querydefs-refresh-method-dao.md
-        - name: Recordset 对象
+        - name: Recordset
           href: access/desktop-database-reference/recordset-object-reference-dao.md
           items:
           - name: Recordset 对象
@@ -1208,7 +1208,7 @@ items:
               href: access/desktop-database-reference/recordset-seek-method-dao.md
             - name: Update 方法
               href: access/desktop-database-reference/recordset-update-method-dao.md
-        - name: Recordset2 对象
+        - name: Recordset2
           href: access/desktop-database-reference/recordset2-object-reference-dao.md
           items:
           - name: Recordset2 对象
@@ -1339,7 +1339,7 @@ items:
               href: access/desktop-database-reference/recordset2-seek-method-dao.md
             - name: Update 方法
               href: access/desktop-database-reference/recordset2-update-method-dao.md
-        - name: Recordsets 对象
+        - name: Recordsets
           href: access/desktop-database-reference/recordsets-object-reference-dao.md
           items:
           - name: Recordsets 集合
@@ -1356,7 +1356,7 @@ items:
             items:
             - name: Refresh 方法
               href: access/desktop-database-reference/recordsets-refresh-method-dao.md
-        - name: Relation 对象
+        - name: Relation
           href: access/desktop-database-reference/relation-object-reference-dao.md
           items:
           - name: Relation 对象
@@ -1385,7 +1385,7 @@ items:
             items:
             - name: CreateField 方法
               href: access/desktop-database-reference/relation-createfield-method-dao.md
-        - name: Relations 对象
+        - name: Relations
           href: access/desktop-database-reference/relations-object-reference-dao.md
           items:
           - name: Relations 集合
@@ -1406,7 +1406,7 @@ items:
               href: access/desktop-database-reference/relations-delete-method-dao.md
             - name: Refresh 方法
               href: access/desktop-database-reference/relations-refresh-method-dao.md
-        - name: TableDef 对象
+        - name: TableDef
           href: access/desktop-database-reference/tabledef-object-reference-dao.md
           items:
           - name: TableDef 对象
@@ -1459,7 +1459,7 @@ items:
               href: access/desktop-database-reference/tabledef-openrecordset-method-dao.md
             - name: RefreshLink 方法
               href: access/desktop-database-reference/tabledef-refreshlink-method-dao.md
-        - name: TableDefs 对象
+        - name: TableDefs
           href: access/desktop-database-reference/tabledefs-object-reference-dao.md
           items:
           - name: TableDefs 集合
@@ -1480,7 +1480,7 @@ items:
               href: access/desktop-database-reference/tabledefs-delete-method-dao.md
             - name: Refresh 方法
               href: access/desktop-database-reference/tabledefs-refresh-method-dao.md
-        - name: Workspace 对象
+        - name: Workspace
           href: access/desktop-database-reference/workspace-object-reference-dao.md
           items:
           - name: Workspace 对象
@@ -1523,7 +1523,7 @@ items:
               href: access/desktop-database-reference/workspace-opendatabase-method-dao.md
             - name: Rollback 方法
               href: access/desktop-database-reference/workspace-rollback-method-dao.md
-        - name: Workspaces 对象
+        - name: Workspaces
           href: access/desktop-database-reference/workspaces-object-reference-dao.md
           items:
           - name: Workspaces 集合
@@ -1603,15 +1603,11 @@ items:
         href: access/desktop-database-reference/microsoft-activex-data-objects-reference.md
         items:
         - name: ADO 程序员指南
-          href: access/desktop-database-reference/ado-programmer-s-guide-topics.md
+          href: access/desktop-database-reference/ado-programmer-s-guide.md
           items:
-          - name: ADO 程序员指南
-            href: access/desktop-database-reference/ado-programmer-s-guide.md
           - name: ADO 简介
-            href: access/desktop-database-reference/introduction-to-ado.md
+            href: access/desktop-database-reference/introduction-to-ado-programming.md
             items:
-            - name: 简介
-              href: access/desktop-database-reference/introduction-to-ado-programming.md
             - name: ADO 中的新增功能
               href: access/desktop-database-reference/what-s-new-in-ado.md
             - name: 先决条件
@@ -1627,92 +1623,69 @@ items:
             - name: ADO 术语表
               href: access/desktop-database-reference/ado-glossary.md
           - name: 第 I 节：ActiveX 数据对象
-            href: access/desktop-database-reference/section-i-activex-data-objects-access.md
+            href: access/desktop-database-reference/section-i-activex-data-objects.md
             items:
-            - name: 第 I 节：ActiveX 数据对象
-              href: access/desktop-database-reference/section-i-activex-data-objects.md
             - name: 第 1 章：ADO 基础知识
-              href: access/desktop-database-reference/chapter-1-ado-fundamentals-ado.md
+              href: access/desktop-database-reference/chapter-1-ado-fundamentals.md
               items:
-              - name: 第 1 章：ADO 基础知识
-                href: access/desktop-database-reference/chapter-1-ado-fundamentals.md
-              - name: 使用 ADO 可以执行的操作
+              - name: ADO 有何用途
                 href: access/desktop-database-reference/what-you-can-do-with-ado.md
               - name: 错误
                 href: access/desktop-database-reference/errors.md
-              - name: HelloData：一个简单的 ADO 应用程序
-                href: access/desktop-database-reference/hellodata-a-simple-ado-application-ado.md
+              - name: HelloData：简单 ADO 应用程序
+                href: access/desktop-database-reference/hellodata-a-simple-ado-application.md
                 items:
-                - name: HelloData：一个简单的 ADO 应用程序
-                  href: access/desktop-database-reference/hellodata-a-simple-ado-application.md
                 - name: HelloData 详细信息
                   href: access/desktop-database-reference/hellodata-details.md
                 - name: HelloData 代码
                   href: access/desktop-database-reference/hellodata-code.md
               - name: OLE DB 提供程序
-                href: access/desktop-database-reference/ole-db-providers-ado.md
+                href: access/desktop-database-reference/ole-db-providers.md
                 items:
-                - name: OLE DB 提供程序
-                  href: access/desktop-database-reference/ole-db-providers.md
                 - name: 数据提供程序
                   href: access/desktop-database-reference/data-providers.md
                 - name: 服务提供程序和组件
                   href: access/desktop-database-reference/service-providers-and-components.md
             - name: 第 2 章：获取数据
-              href: access/desktop-database-reference/chapter-2-getting-data-ado.md
+              href: access/desktop-database-reference/chapter-2-getting-data.md
               items:
-              - name: 第 2 章：获取数据
-                href: access/desktop-database-reference/chapter-2-getting-data.md
-              - name: 创建连接
+              - name: 建立连接
                 href: access/desktop-database-reference/making-a-connection.md
               - name: 使用 Connection 对象
-                href: access/desktop-database-reference/using-the-connection-object-reference-ado.md
+                href: access/desktop-database-reference/using-the-connection-object-access.md
                 items:
-                - name: 使用 Connection 对象
-                  href: access/desktop-database-reference/using-the-connection-object-access.md
                 - name: 创建连接字符串
                   href: access/desktop-database-reference/creating-the-connection-string.md
                 - name: 控制事务
                   href: access/desktop-database-reference/controlling-transactions.md
               - name: 使用 Command 对象
-                href: access/desktop-database-reference/using-the-command-object-reference-ado.md
+                href: access/desktop-database-reference/using-the-command-object-access.md
                 items:
-                - name: 使用 Command 对象
-                  href: access/desktop-database-reference/using-the-command-object-access.md
                 - name: Command 对象概述
                   href: access/desktop-database-reference/command-object-overview.md
                 - name: 创建和执行简单的命令
                   href: access/desktop-database-reference/creating-and-executing-a-simple-command.md
                 - name: Command 对象参数
                   href: access/desktop-database-reference/command-object-parameters.md
-                - name: 使用 Command 调用存储过程
+                - name: 使用 command 调用存储过程
                   href: access/desktop-database-reference/calling-a-stored-procedure-with-a-command.md
                 - name: Named 命令
                   href: access/desktop-database-reference/named-commands.md
-              - name: 将数据添加到记录集
-                href: access/desktop-database-reference/adding-data-to-a-recordset-ado.md
-                items:
-                - name: 将数据添加到记录集
-                  href: access/desktop-database-reference/adding-data-to-a-recordset.md
+              - name: 将数据添加到 Recordset
+                href: access/desktop-database-reference/adding-data-to-a-recordset.md
             - name: 第 3 章：检查数据
-              href: access/desktop-database-reference/chapter-3-examining-data-ado.md
+              href: access/desktop-database-reference/chapter-3-examining-data.md
               items:
-              - name: 第 3 章：检查数据
-                href: access/desktop-database-reference/chapter-3-examining-data.md
               - name: 找到当前记录
-                href: access/desktop-database-reference/locating-the-current-record-ado.md
+                href: access/desktop-database-reference/locating-the-current-record.md
                 items:
-                - name: 找到当前记录
-                  href: access/desktop-database-reference/locating-the-current-record.md
-                - name: 对行进行计数
+                - name: 统计行数
                   href: access/desktop-database-reference/counting-rows.md
-                - name: 记录集的限制
+                - name: 记录集限制
                   href: access/desktop-database-reference/the-limits-of-a-recordset.md
               - name: 浏览数据
-                href: access/desktop-database-reference/navigating-through-the-data-ado.md
+                href: access/desktop-database-reference/navigating-through-the-data.md
                 items:
-                - name: 浏览数据
-                  href: access/desktop-database-reference/navigating-through-the-data.md
                 - name: 跳到记录
                   href: access/desktop-database-reference/jumping-to-a-record.md
                 - name: 在记录集中移动的更多方法
@@ -1724,10 +1697,8 @@ items:
                 - name: 记录集定位
                   href: access/desktop-database-reference/recordset-positioning.md
               - name: 了解记录集结构
-                href: access/desktop-database-reference/understanding-recordset-structure-ado.md
+                href: access/desktop-database-reference/understanding-recordset-structure.md
                 items:
-                - name: 了解记录集结构
-                  href: access/desktop-database-reference/understanding-recordset-structure.md
                 - name: Fields 集合
                   href: access/desktop-database-reference/the-fields-collection.md
                 - name: Field 对象
@@ -1735,23 +1706,19 @@ items:
                 - name: 使用记录集
                   href: access/desktop-database-reference/working-with-recordsets.md
             - name: 第 4 章：编辑数据
-              href: access/desktop-database-reference/chapter-4-editing-data-ado.md
+              href: access/desktop-database-reference/chapter-4-editing-data.md
               items:
-              - name: 第 4 章：编辑数据
-                href: access/desktop-database-reference/chapter-4-editing-data.md
               - name: 编辑现有记录
                 href: access/desktop-database-reference/editing-existing-records.md
-              - name: 确定受支持的内容
+              - name: 确定什么受支持
                 href: access/desktop-database-reference/determining-what-is-supported.md
               - name: 使用 Delete 方法删除记录
                 href: access/desktop-database-reference/deleting-records-using-the-delete-method.md
               - name: 替代方法：使用 SQL 语句
                 href: access/desktop-database-reference/alternatives-using-sql-statements.md
               - name: 添加记录
-                href: access/desktop-database-reference/adding-records-ado.md
+                href: access/desktop-database-reference/adding-records.md
                 items:
-                - name: 添加记录
-                  href: access/desktop-database-reference/adding-records.md
                 - name: 添加多个字段
                   href: access/desktop-database-reference/adding-multiple-fields.md
                 - name: 确定编辑模式
@@ -1759,27 +1726,21 @@ items:
                 - name: 在直接和批处理模式下使用 AddNew
                   href: access/desktop-database-reference/using-addnew-in-immediate-and-batch-modes.md
             - name: 第 5 章：更新和暂留数据
-              href: access/desktop-database-reference/chapter-5-updating-and-persisting-data-ado.md
+              href: access/desktop-database-reference/chapter-5-updating-and-persisting-data.md
               items:
-              - name: 第 5 章：更新和暂留数据
-                href: access/desktop-database-reference/chapter-5-updating-and-persisting-data.md
               - name: 更新数据
-                href: access/desktop-database-reference/updating-data-ado.md
+                href: access/desktop-database-reference/updating-data.md
                 items:
-                - name: 更新数据
-                  href: access/desktop-database-reference/updating-data.md
                 - name: 直接模式
                   href: access/desktop-database-reference/immediate-mode.md
                 - name: 事务处理
                   href: access/desktop-database-reference/transaction-processing.md
                 - name: 批处理模式
-                  href: access/desktop-database-reference/batch-mode-ado.md
+                  href: access/desktop-database-reference/batch-mode.md
                   items:
-                  - name: 批处理模式
-                    href: access/desktop-database-reference/batch-mode.md
                   - name: 发送更新：UpdateBatch
                     href: access/desktop-database-reference/sending-the-updates-updatebatch.md
-                  - name: 筛选更新的记录
+                  - name: 筛选出更新后的记录
                     href: access/desktop-database-reference/filtering-for-updated-records.md
                   - name: 处理失败的更新
                     href: access/desktop-database-reference/dealing-with-failed-updates.md
@@ -1790,28 +1751,24 @@ items:
                   - name: 更新 JOINed 结果：唯一表
                     href: access/desktop-database-reference/updating-joined-results-unique-table.md
               - name: 暂留数据
-                href: access/desktop-database-reference/persisting-data-ado.md
+                href: access/desktop-database-reference/persisting-data.md
                 items:
-                - name: 暂留数据
-                  href: access/desktop-database-reference/persisting-data.md
-                - name: 有关记录集暂留的详细信息
+                - name: 记录集暂留详述
                   href: access/desktop-database-reference/more-about-recordset-persistence.md
-                - name: 暂留筛选和分层记录集
+                - name: 暂留已筛选和层次记录集
                   href: access/desktop-database-reference/persisting-filtered-and-hierarchical-recordsets.md
                 - name: 以 XML 格式暂留记录
-                  href: access/desktop-database-reference/persisting-records-in-xml-format-ado.md
+                  href: access/desktop-database-reference/persisting-records-in-xml-format.md
                   items:
-                  - name: 以 XML 格式暂留记录
-                    href: access/desktop-database-reference/persisting-records-in-xml-format.md
                   - name: XML 暂留格式
                     href: access/desktop-database-reference/xml-persistence-format.md
                   - name: 命名空间
                     href: access/desktop-database-reference/namespaces.md
-                  - name: 架构节
+                  - name: 架构部分
                     href: access/desktop-database-reference/schema-section.md
-                  - name: 数据节
+                  - name: 数据部分
                     href: access/desktop-database-reference/data-section.md
-                  - name: XML 中的分层记录集
+                  - name: XML 中的层次记录集
                     href: access/desktop-database-reference/hierarchical-recordsets-in-xml.md
                   - name: XML 中的记录集动态属性
                     href: access/desktop-database-reference/recordset-dynamic-properties-in-xml.md
@@ -1822,23 +1779,10 @@ items:
                   - name: XML 安全考虑事项
                     href: access/desktop-database-reference/xml-security-considerations.md
                   - name: XML 记录集暂留方案
-                    href: access/desktop-database-reference/xml-recordset-persistence-scenario-topics.md
-                    items:
-                    - name: XML 记录集暂留方案
-                      href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
-                    - name: 步骤 1：设置应用程序
-                      href: access/desktop-database-reference/step-1-set-up-the-application.md
-                    - name: 步骤 2：获取数据
-                      href: access/desktop-database-reference/step-2-get-the-data.md
-                    - name: 步骤 3：发送数据
-                      href: access/desktop-database-reference/step-3-send-the-data.md
-                    - name: 步骤 4：接收并显示数据
-                      href: access/desktop-database-reference/step-4-receive-and-display-the-data.md
+                    href: access/desktop-database-reference/xml-recordset-persistence-scenario.md
             - name: 第 6 章：错误处理
-              href: access/desktop-database-reference/chapter-6-error-handlinge-ado.md
+              href: access/desktop-database-reference/chapter-6-error-handling.md
               items:
-              - name: 第 6 章：错误处理
-                href: access/desktop-database-reference/chapter-6-error-handling.md
               - name: ADO 错误
                 href: access/desktop-database-reference/ado-errors.md
               - name: ADO 错误参考
@@ -1851,22 +1795,18 @@ items:
                 href: access/desktop-database-reference/recordset-related-error-information.md
               - name: 预测错误
                 href: access/desktop-database-reference/anticipating-errors.md
-              - name: 处理其他语言的错误
-                href: access/desktop-database-reference/handling-errors-in-other-languages-ado.md
+              - name: 处理其他语言中的错误
+                href: access/desktop-database-reference/handling-errors-in-other-languages.md
                 items:
                 - name: 处理 JScript 中的错误
                   href: access/desktop-database-reference/handling-errors-in-jscript.md
-                - name: 处理其他语言的错误
-                  href: access/desktop-database-reference/handling-errors-in-other-languages.md
                 - name: 处理 VBScript 中的错误
                   href: access/desktop-database-reference/handling-errors-in-vbscript.md
                 - name: 处理 Visual C++ 中的错误
                   href: access/desktop-database-reference/handling-errors-in-visual-c.md
             - name: 第 7 章：处理 ADO 事件
-              href: access/desktop-database-reference/chapter-7-handling-ado-events-ado.md
+              href: access/desktop-database-reference/chapter-7-handling-ado-events.md
               items:
-              - name: 第 7 章：处理 ADO 事件
-                href: access/desktop-database-reference/chapter-7-handling-ado-events.md
               - name: ADO 事件处理程序摘要
                 href: access/desktop-database-reference/ado-event-handler-summary.md
               - name: 事件类型
@@ -1890,33 +1830,22 @@ items:
                   href: access/desktop-database-reference/jscript.md
                 - name: ADO/WFC
                   href: access/desktop-database-reference/ado-wfc.md
-            - name: 第 8 章：了解光标和锁定
-              href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks-ado.md
+            - name: 第 8 章：了解游标和锁定
+              href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks.md
               items:
-              - name: 第 8 章：了解光标和锁定
-                href: access/desktop-database-reference/chapter-8-understanding-cursors-and-locks.md
-              - name: 什么是光标？
+              - name: 什么是游标？
                 href: access/desktop-database-reference/what-is-a-cursor.md
-              - name: 光标位置的重要性
+              - name: 游标位置的重要性
                 href: access/desktop-database-reference/the-significance-of-cursor-location.md
-              - name: OLE DB 的 Microsoft 光标服务
+              - name: 用于 OLE DB 的 Microsoft 游标服务
                 href: access/desktop-database-reference/the-microsoft-cursor-service-for-ole-db.md
               - name: 使用 CacheSize
                 href: access/desktop-database-reference/using-cachesize.md
               - name: 游标和锁定特征
                 href: access/desktop-database-reference/cursor-and-lock-characteristics.md
-              - name: 什么是锁定？
-                href: access/desktop-database-reference/what-is-a-lock-ado.md
-                items:
-                - name: 什么是锁定？
-                  href: access/desktop-database-reference/what-is-a-lock.md
-                - name: 锁定类型
-                  href: access/desktop-database-reference/types-of-locks.md
               - name: 游标类型
-                href: access/desktop-database-reference/types-of-cursors-ado.md
+                href: access/desktop-database-reference/types-of-cursors.md
                 items:
-                - name: 游标类型
-                  href: access/desktop-database-reference/types-of-cursors.md
                 - name: 仅向前游标
                   href: access/desktop-database-reference/forward-only-cursors.md
                 - name: 动态游标
@@ -1925,65 +1854,57 @@ items:
                   href: access/desktop-database-reference/static-cursors.md
                 - name: 键集游标
                   href: access/desktop-database-reference/keyset-cursors.md
+              - name: 什么是锁定？
+                href: access/desktop-database-reference/what-is-a-lock.md
+              - name: 锁定类型
+                href: access/desktop-database-reference/types-of-locks.md
             - name: 第 9 章：数据成型
-              href: access/desktop-database-reference/chapter-9-data-shaping-ado.md
+              href: access/desktop-database-reference/chapter-9-data-shaping.md
               items:
-              - name: 第 9 章：数据成型
-                href: access/desktop-database-reference/chapter-9-data-shaping.md
-              - name: 需要数据成型供应程序
+              - name: 需要数据成型提供程序
                 href: access/desktop-database-reference/required-providers-for-data-shaping.md
               - name: Shape Compute 子句
                 href: access/desktop-database-reference/shape-compute-clause.md
-              - name: 构建分层记录集
+              - name: 构建层次记录集
                 href: access/desktop-database-reference/fabricating-hierarchical-recordsets.md
-              - name: 访问分层记录集中的行
+              - name: 访问层次记录集中的行
                 href: access/desktop-database-reference/accessing-rows-in-a-hierarchical-recordset.md
               - name: Formal Shape语法
                 href: access/desktop-database-reference/formal-shape-grammar.md
               - name: Visual Basic for Applications 函数
                 href: access/desktop-database-reference/visual-basic-for-applications-functions.md
               - name: Shape Append 子句
-                href: access/desktop-database-reference/shape-append-clause-ado.md
+                href: access/desktop-database-reference/shape-append-clause.md
                 items:
-                - name: Shape Append 子句
-                  href: access/desktop-database-reference/shape-append-clause.md
                 - name: 非参数化命令的操作
                   href: access/desktop-database-reference/operation-of-non-parameterized-commands.md
-                - name: 非参数化命令的操作
+                - name: 参数化命令的操作
                   href: access/desktop-database-reference/operation-of-parameterized-commands.md
                 - name: 混合命令
                   href: access/desktop-database-reference/hybrid-commands.md
                 - name: 插入 Shape COMPUTE 子句
                   href: access/desktop-database-reference/intervening-shape-compute-clauses.md
-              - name: 数据成型摘要
-                href: access/desktop-database-reference/data-shaping-summary-ado.md
+              - name: 数据成型
+                href: access/desktop-database-reference/data-shaping.md
                 items:
-                - name: 数据成型摘要
-                  href: access/desktop-database-reference/data-shaping-summary.md
-                - name: 数据成型
-                  href: access/desktop-database-reference/data-shaping.md
-                - name: 重构
+                - name: 重新成型
                   href: access/desktop-database-reference/reshaping.md
                 - name: 孙级聚合
                   href: access/desktop-database-reference/grandchild-aggregates.md
-                - name: 插入 COMPUTE 命令的参数化命令
+                - name: 包含介于中间的 COMPUTE 命令的参数化命令
                   href: access/desktop-database-reference/parameterized-commands-with-intervening-compute-commands.md
-                - name: 暂留分层记录集
+                - name: 暂留层次记录集
                   href: access/desktop-database-reference/persisting-hierarchical-recordsets.md
-              - name: 常用的 Shape 命令
-                href: access/desktop-database-reference/shape-commands-in-general-ado.md
+              - name: Shape 命令概述
+                href: access/desktop-database-reference/shape-commands-in-general.md
                 items:
-                - name: 常用的 Shape 命令
-                  href: access/desktop-database-reference/shape-commands-in-general.md
-                - name: 聚合函数、CALC 函数和新的关键字
+                - name: 聚合函数、CALC 函数和 NEW 关键字
                   href: access/desktop-database-reference/aggregate-functions-the-calc-function-and-the-new-keyword.md
-                - name: 将命令发送至基础数据提供程序
+                - name: 将命令发送到基础数据提供程序
                   href: access/desktop-database-reference/issuing-commands-to-the-underlying-data-provider.md
             - name: 第 10 章：记录和流
-              href: access/desktop-database-reference/chapter-10-records-and-streams-ado.md
+              href: access/desktop-database-reference/chapter-10-records-and-streams.md
               items:
-              - name: 第 10 章：记录和流
-                href: access/desktop-database-reference/chapter-10-records-and-streams.md
               - name: 流和暂留
                 href: access/desktop-database-reference/streams-and-persistence.md
               - name: 记录和提供程序提供的字段
@@ -1991,40 +1912,23 @@ items:
               - name: 绝对 URL 和相对 URL
                 href: access/desktop-database-reference/absolute-and-relative-urls.md
               - name: 使用 ADO 进行 Internet 发布
-                href: access/desktop-database-reference/using-ado-for-internet-publishing-ado.md
+                href: access/desktop-database-reference/using-ado-for-internet-publishing.md
                 items:
-                - name: 使用 ADO 进行 Internet 发布
-                  href: access/desktop-database-reference/using-ado-for-internet-publishing.md
                 - name: 用于 Internet 发布的 OLE DB 提供程序
                   href: access/desktop-database-reference/the-ole-db-provider-for-internet-publishing.md
                 - name: Internet 发布方案
-                  href: access/desktop-database-reference/internet-publishing-scenario-topics.md
-                  items:
-                  - name: Internet 发布方案
-                    href: access/desktop-database-reference/internet-publishing-scenario.md
-                  - name: 步骤 1：设置 Visual Basic 项目
-                    href: access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md
-                  - name: 步骤 2：初始化主列表框
-                    href: access/desktop-database-reference/step-2-initialize-the-main-list-box.md
-                  - name: 步骤 3：填充字段列表框
-                    href: access/desktop-database-reference/step-3-populate-the-fields-list-box.md
-                  - name: 步骤 4：填充详细信息文本框
-                    href: access/desktop-database-reference/step-4-populate-the-details-text-box.md
+                  href: access/desktop-database-reference/internet-publishing-scenario.md
           - name: 第 II 节：远程数据服务
-            href: access/desktop-database-reference/section-ii-remote-data-service-access.md
+            href: access/desktop-database-reference/section-ii-remote-data-service.md
             items:
-            - name: 第 II 节：远程数据服务
-              href: access/desktop-database-reference/section-ii-remote-data-service.md
             - name: 第 11 章：RDS 基础知识
-              href: access/desktop-database-reference/chapter-11-rds-fundamentals-ado.md
+              href: access/desktop-database-reference/chapter-11-rds-fundamentals.md
               items:
-              - name: 第 11 章：RDS 基础知识
-                href: access/desktop-database-reference/chapter-11-rds-fundamentals.md
               - name: 远程数据访问解决方案
                 href: access/desktop-database-reference/solutions-for-remote-data-access.md
               - name: 基本 RDS 编程模型
                 href: access/desktop-database-reference/basic-rds-programming-model.md
-              - name: RDS 编程模型详细信息
+              - name: RDS 编程模型详述
                 href: access/desktop-database-reference/rds-programming-model-in-detail.md
               - name: 包含对象的 RDS 编程模型
                 href: access/desktop-database-reference/rds-programming-model-with-objects.md
@@ -2044,38 +1948,17 @@ items:
                 - name: 通讯簿导航按钮
                   href: access/desktop-database-reference/address-book-navigation-buttons.md
             - name: 第 12 章：RDS 教程
-              href: access/desktop-database-reference/chapter-12-rds-tutorial-ado.md
+              href: access/desktop-database-reference/chapter-12-rds-tutorial.md
+            - name: 第 13 章：RDS 使用和安全性
+              href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
               items:
-              - name: 第 12 章：RDS 教程
-                href: access/desktop-database-reference/chapter-12-rds-tutorial.md
-              - name: 步骤 1：指定服务器程序（RDS 教程）
-                href: access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md
-              - name: 步骤 2：调用服务器程序（RDS 教程）
-                href: access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md
-              - name: 步骤 3：服务器获得记录集（RDS 教程）
-                href: access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md
-              - name: 步骤 4：服务器返回记录集（RDS 教程）
-                href: access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md
-              - name: 步骤 5：DataControl 可用（RDS 教程）
-                href: access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md
-              - name: 步骤 6：将更改发送到服务器（RDS 教程）
-                href: access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md
-              - name: RDS 教程 (VBScript)
-                href: access/desktop-database-reference/rds-tutorial-vbscript.md
-              - name: RDS 教程 (Visual J++)
-                href: access/desktop-database-reference/rds-tutorial-visual-j.md
-            - name: 第 13 章：RDS 使用情况和安全
-              href: access/desktop-database-reference/chapter-13-rds-usage-and-security-ado.md
-              items:
-              - name: 第 13 章：RDS 使用情况和安全
-                href: access/desktop-database-reference/chapter-13-rds-usage-and-security.md
               - name: 配置 RDS
                 href: access/desktop-database-reference/configuring-rds.md
-              - name: 授予 Web 服务器计算机的访客权限；RDS 访客权限 [ADO]
+              - name: 授予 Web 服务器计算机来宾特权；RDS 来宾特权 [ADO]
                 href: access/desktop-database-reference/granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md
               - name: 将业务对象标记为脚本安全
                 href: access/desktop-database-reference/marking-business-objects-as-safe-for-scripting.md
-              - name: 在客户端上注册脚本安全以与 DCOM 一起使用
+              - name: 在客户端上注册业务对象以与 DCOM 结合使用
                 href: access/desktop-database-reference/registering-business-objects-on-the-client-for-use-with-dcom.md
               - name: 设置 DCOM 流封送格式
                 href: access/desktop-database-reference/setting-dcom-stream-marshaling-format.md
@@ -2090,56 +1973,46 @@ items:
               - name: 针对安全或无限制模式配置 DataFactory
                 href: access/desktop-database-reference/configuring-datafactory-for-safe-or-unrestricted-modes.md
               - name: 将相关技术与 RDS 结合使用
-                href: access/desktop-database-reference/using-related-technologies-with-rds-ado.md
+                href: access/desktop-database-reference/using-related-technologies-with-rds.md
                 items:
-                - name: 将相关技术与 RDS 结合使用
-                  href: access/desktop-database-reference/using-related-technologies-with-rds.md
                 - name: 将 RDS 与 ODBC 连接池结合使用
                   href: access/desktop-database-reference/using-rds-with-odbc-connection-pooling.md
                 - name: 在组件服务中运行业务对象
                   href: access/desktop-database-reference/running-business-objects-in-component-services.md
               - name: DataFactory 自定义
-                href: access/desktop-database-reference/datafactory-customization-ado.md
+                href: access/desktop-database-reference/datafactory-customization.md
                 items:
-                - name: DataFactory 自定义
-                  href: access/desktop-database-reference/datafactory-customization.md
                 - name: 了解自定义文件
                   href: access/desktop-database-reference/understanding-the-customization-file.md
-                - name: 自定义文件连接节
+                - name: 自定义文件 Connect 部分
                   href: access/desktop-database-reference/customization-file-connect-section.md
-                - name: 自定义文件 SQL 节
+                - name: 自定义文件 SQL 部分
                   href: access/desktop-database-reference/customization-file-sql-section.md
-                - name: 自定义文件 UserList 节
+                - name: 自定义文件 UserList 部分
                   href: access/desktop-database-reference/customization-file-userlist-section.md
-                - name: 自定义文件日志节
+                - name: 自定义文件 Logs 部分
                   href: access/desktop-database-reference/customization-file-logs-section.md
               - name: RDS 疑难解答
-                href: access/desktop-database-reference/troubleshooting-rds-ado.md
+                href: access/desktop-database-reference/troubleshooting-rds.md
                 items:
-                - name: RDS 疑难解答
-                  href: access/desktop-database-reference/troubleshooting-rds.md
                 - name: 在 Windows 2000 上配置 RDS
                   href: access/desktop-database-reference/configuring-rds-on-windows-2000.md
-                - name: Internet 服务器错误：访问被拒绝
+                - name: Internet 服务器错误：访问遭拒
                   href: access/desktop-database-reference/internet-server-error-access-denied.md
-                - name: RDS 返回“流未读取”错误
+                - name: RDS 返回“未读取流”错误
                   href: access/desktop-database-reference/rds-returns-stream-not-read-error.md
-                - name: 具有读取可重复隔离级别的死锁
+                - name: 级别为“读取可重复隔离”的死锁
                   href: access/desktop-database-reference/deadlocks-with-read-repeatable-isolation-level.md
-                - name: 确保足够的 TempDB 空间
+                - name: 确保有足够的 TempDB 空间
                   href: access/desktop-database-reference/ensuring-sufficient-tempdb-space.md
-                - name: 最小化日志文件使用的空间
+                - name: 最大限度地降低日志文件空间使用
                   href: access/desktop-database-reference/minimizing-log-file-space-usage.md
           - name: 第 III 节：ADO（多维）(ADO MD)
-            href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md-access.md
+            href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md.md
             items:
-            - name: 第 III 节：ADO（多维）(ADO MD)
-              href: access/desktop-database-reference/section-iii-ado-multidimensional-ado-md.md
             - name: 第 14 章：ADO MD 基础知识
-              href: access/desktop-database-reference/chapter-14-ado-md-fundamentals-ado.md
+              href: access/desktop-database-reference/chapter-14-ado-md-fundamentals.md
               items:
-              - name: 第 14 章：ADO MD 基础知识
-                href: access/desktop-database-reference/chapter-14-ado-md-fundamentals.md
               - name: 多维架构和数据概述
                 href: access/desktop-database-reference/overview-of-multidimensional-schemas-and-data.md
               - name: 处理多维数据
@@ -2149,27 +2022,19 @@ items:
               - name: 利用 ADO MD 编程
                 href: access/desktop-database-reference/programming-with-ado-md.md
           - name: 第 IV 节：数据定义语言和安全性的 ADO 扩展 (ADOX)
-            href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox-access.md
+            href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox.md
             items:
-            - name: 第 IV 节：数据定义语言和安全性的 ADO 扩展 (ADOX)
-              href: access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox.md
             - name: 第 15 章：ADOX 基础知识
-              href: access/desktop-database-reference/chapter-15-adox-fundamentals-ado.md
+              href: access/desktop-database-reference/chapter-15-adox-fundamentals.md
               items:
-              - name: 第 15 章：ADOX 基础知识
-                href: access/desktop-database-reference/chapter-15-adox-fundamentals.md
               - name: ADOX 的提供程序支持
                 href: access/desktop-database-reference/provider-support-for-adox.md
           - name: 第 V 节：附录
-            href: access/desktop-database-reference/section-v-appendixes-access.md
+            href: access/desktop-database-reference/section-v-appendixes.md
             items:
-            - name: 第 V 节：附录
-              href: access/desktop-database-reference/section-v-appendixes.md
             - name: 附录 A：提供程序
-              href: access/desktop-database-reference/appendix-a-providers-ado.md
+              href: access/desktop-database-reference/appendix-a-providers.md
               items:
-              - name: 附录 A：提供程序
-                href: access/desktop-database-reference/appendix-a-providers.md
               - name: 用于 ODBC 的 Microsoft OLE DB 提供程序
                 href: access/desktop-database-reference/microsoft-ole-db-provider-for-odbc.md
               - name: 用于 Microsoft 索引服务的 Microsoft OLE DB 提供程序
@@ -2190,57 +2055,47 @@ items:
                 href: access/desktop-database-reference/microsoft-ole-db-persistence-provider-ado-service-provider.md
               - name: Microsoft OLE DB 远程提供程序（ADO 服务提供程序）
                 href: access/desktop-database-reference/microsoft-ole-db-remoting-provider-ado-service-provider.md
-              - name: 用于 OLE DB 的 Microsoft 光标服务（ADO 服务组件）
+              - name: 用于 OLE DB 的 Microsoft 游标服务（ADO 服务组件）
                 href: access/desktop-database-reference/microsoft-cursor-service-for-ole-db-ado-service-component.md
             - name: 附录 B：ADO 错误
-              href: access/desktop-database-reference/appendix-b-ado-errors-ado.md
+              href: access/desktop-database-reference/appendix-b-ado-errors.md
               items:
-              - name: 附录 B：ADO 错误
-                href: access/desktop-database-reference/appendix-b-ado-errors.md
               - name: ADO 错误代码
                 href: access/desktop-database-reference/ado-error-codes.md
               - name: DataControl 错误代码
                 href: access/desktop-database-reference/datacontrol-error-codes.md
-              - name: Internet 资源管理器错误代码
+              - name: Internet Explorer 错误代码
                 href: access/desktop-database-reference/internet-explorer-error-codes.md
               - name: Internet Information Services 错误代码
                 href: access/desktop-database-reference/internet-information-services-error-codes.md
             - name: 附录 C：利用 ADO 编程
-              href: access/desktop-database-reference/appendix-c-programming-with-ado-ado.md
+              href: access/desktop-database-reference/appendix-c-programming-with-ado.md
               items:
-              - name: 附录 C：利用 ADO 编程
-                href: access/desktop-database-reference/appendix-c-programming-with-ado.md
               - name: 将 ADO 与 Microsoft Visual Basic 结合使用
                 href: access/desktop-database-reference/using-ado-with-microsoft-visual-basic.md
               - name: 将 ADO 与脚本语言结合使用
-                href: access/desktop-database-reference/using-ado-with-scripting-languages-topics.md
+                href: access/desktop-database-reference/using-ado-with-scripting-languages.md
                 items:
-                - name: 将 ADO 与脚本语言结合使用
-                  href: access/desktop-database-reference/using-ado-with-scripting-languages.md
                 - name: JScript ADO 编程
                   href: access/desktop-database-reference/jscript-ado-programming.md
                 - name: VBScript ADO 编程
                   href: access/desktop-database-reference/vbscript-ado-programming.md
               - name: 将 ADO 与 Microsoft Visual C++ 结合使用
-                href: access/desktop-database-reference/using-ado-with-microsoft-visual-c-topics.md
+                href: access/desktop-database-reference/using-ado-with-microsoft-visual-c.md
                 items:
-                - name: 将 ADO 与 Microsoft Visual C++ 结合使用
-                  href: access/desktop-database-reference/using-ado-with-microsoft-visual-c.md
                 - name: Visual C++ ADO 编程
                   href: access/desktop-database-reference/visual-c-ado-programming.md
-                - name: Visual C++ Extensions for ADO
+                - name: 适用于 ADO 的 Visual C++ 扩展
                   href: access/desktop-database-reference/visual-c-extensions-for-ado.md
-                - name: 使用 Visual C++ Extensions
+                - name: 使用 Visual C++ 扩展
                   href: access/desktop-database-reference/using-visual-c-extensions.md
-                - name: Visual C++ Extensions 标头
+                - name: Visual C++ 扩展头
                   href: access/desktop-database-reference/visual-c-extensions-header.md
-                - name: Visual C++ Extensions 示例
+                - name: Visual C++ 扩展示例
                   href: access/desktop-database-reference/visual-c-extensions-example.md
               - name: 将 ADO 与 Microsoft Visual J++ 结合使用
-                href: access/desktop-database-reference/using-ado-with-microsoft-visual-j-topics.md
+                href: access/desktop-database-reference/using-ado-with-microsoft-visual-j.md
                 items:
-                - name: 将 ADO 与 Microsoft Visual J++ 结合使用
-                  href: access/desktop-database-reference/using-ado-with-microsoft-visual-j.md
                 - name: ADO/WFC 编程
                   href: access/desktop-database-reference/ado-wfc-programming.md
                 - name: 使用 Java 类型库向导
@@ -2250,241 +2105,230 @@ items:
                 - name: ADO Java 类包装
                   href: access/desktop-database-reference/ado-java-class-wrappers.md
             - name: 附录 D：ADO 示例
-              href: access/desktop-database-reference/appendix-d-ado-samples-ado.md
-              items:
-              - name: 附录 D：ADO 示例
-                href: access/desktop-database-reference/appendix-d-ado-samples.md
+              href: access/desktop-database-reference/appendix-d-ado-samples.md
         - name: ADO 程序员参考
           href: access/desktop-database-reference/ado-programmer-s-reference-topics.md
           items:
           - name: ADO API 参考
-            href: access/desktop-database-reference/ado-api-reference-topics.md
+            href: access/desktop-database-reference/ado-api-reference.md
             items:
-            - name: ADO API 参考
-              href: access/desktop-database-reference/ado-api-reference.md
             - name: ADO 对象和接口
-              href: access/desktop-database-reference/ado-objects-and-interfaces-reference.md
+              href: access/desktop-database-reference/ado-objects-and-interfaces.md
               items:
-              - name: ADO 对象和接口
-                href: access/desktop-database-reference/ado-objects-and-interfaces.md
-              - name: ADORecordConstruction 接口 (ADO)
+              - name: ADORecordConstruction 接口
                 href: access/desktop-database-reference/adorecordconstruction-interface-ado.md
-              - name: ADORecordsetConstruction 接口 (ADO)
+              - name: ADORecordsetConstruction 接口
                 href: access/desktop-database-reference/adorecordsetconstruction-interface-ado.md
-              - name: Command 对象 (ADO)
+              - name: Command
                 href: access/desktop-database-reference/command-object-ado-reference.md
                 items:
-                - name: Command 对象 (ADO)
+                - name: Command 对象
                   href: access/desktop-database-reference/command-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/command-properties-methods-and-events-ado.md
-              - name: Connection 对象 (ADO)
+              - name: Connection
                 href: access/desktop-database-reference/connection-object-ado-reference.md
                 items:
-                - name: Connection 对象 (ADO)
+                - name: Connection 对象
                   href: access/desktop-database-reference/connection-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/connection-properties-methods-and-events-ado.md
-              - name: Error 对象 (ADO)
+              - name: Error
                 href: access/desktop-database-reference/error-object-ado-reference.md
                 items:
-                - name: Error 对象 (ADO)
+                - name: Error 对象
                   href: access/desktop-database-reference/error-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/error-properties-methods-and-events-ado.md
-              - name: Field 对象 (ADO)
+              - name: Field
                 href: access/desktop-database-reference/field-object-ado-reference.md
                 items:
-                - name: Field 对象 (ADO)
+                - name: Field 对象
                   href: access/desktop-database-reference/field-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/field-properties-methods-and-events-ado.md
-              - name: Parameter 对象 (ADO)
+              - name: Parameter
                 href: access/desktop-database-reference/parameter-object-ado-reference.md
                 items:
-                - name: Parameter 对象 (ADO)
+                - name: Parameter 对象
                   href: access/desktop-database-reference/parameter-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/parameter-properties-methods-and-events-ado.md
-              - name: Property 对象 (ADO)
+              - name: Property
                 href: access/desktop-database-reference/property-object-ado-reference.md
                 items:
-                - name: Property 对象 (ADO)
+                - name: Property 对象
                   href: access/desktop-database-reference/property-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/property-properties-methods-and-events-ado.md
-              - name: Record 对象 (ADO)
+              - name: Record
                 href: access/desktop-database-reference/record-object-ado-reference.md
                 items:
-                - name: Record 对象 (ADO)
+                - name: Record 对象
                   href: access/desktop-database-reference/record-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/record-properties-methods-and-events-ado.md
-              - name: Recordset 对象 (ADO)
+              - name: Recordset
                 href: access/desktop-database-reference/recordset-object-ado-reference.md
                 items:
-                - name: Recordset 对象 (ADO)
+                - name: Recordset 对象
                   href: access/desktop-database-reference/recordset-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/recordset-properties-methods-and-events-ado.md
-              - name: Stream 对象 (ADO)
+              - name: Stream
                 href: access/desktop-database-reference/stream-object-ado-reference.md
                 items:
-                - name: Stream 对象 (ADO)
+                - name: Stream 对象
                   href: access/desktop-database-reference/stream-object-ado.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/stream-properties-methods-and-events-ado.md
             - name: ADO 集合
-              href: access/desktop-database-reference/ado-collections-reference.md
+              href: access/desktop-database-reference/ado-collections.md
               items:
-              - name: ADO 集合
-                href: access/desktop-database-reference/ado-collections.md
-              - name: Errors 集合 (ADO)
+              - name: Errors
                 href: access/desktop-database-reference/errors-collection-ado-reference.md
                 items:
-                - name: Errors 集合 (ADO)
+                - name: Errors 集合
                   href: access/desktop-database-reference/errors-collection-ado.md
                 - name: Errors 集合的属性、方法和事件
                   href: access/desktop-database-reference/errors-collection-properties-methods-and-events.md
-              - name: Fields 集合 (ADO)
+              - name: Fields
                 href: access/desktop-database-reference/fields-collection-ado-reference.md
                 items:
-                - name: Fields 集合 (ADO)
+                - name: Fields 集合
                   href: access/desktop-database-reference/fields-collection-ado.md
                 - name: Fields 集合的属性、方法和事件
                   href: access/desktop-database-reference/fields-collection-properties-methods-and-events.md
-              - name: Parameters 集合 (ADO)
+              - name: Parameters
                 href: access/desktop-database-reference/parameters-collection-ado-reference.md
                 items:
-                - name: Parameters 集合 (ADO)
+                - name: Parameters 集合
                   href: access/desktop-database-reference/parameters-collection-ado.md
                 - name: Parameters 集合的属性、方法和事件
                   href: access/desktop-database-reference/parameters-collection-properties-methods-and-events.md
-              - name: Properties 集合 (ADO)
+              - name: Properties
                 href: access/desktop-database-reference/properties-collection-ado-reference.md
                 items:
-                - name: Properties 集合 (ADO)
+                - name: Properties 集合
                   href: access/desktop-database-reference/properties-collection-ado.md
                 - name: Properties 集合的属性、方法和事件
                   href: access/desktop-database-reference/properties-collection-properties-methods-and-events.md
             - name: ADO 属性
-              href: access/desktop-database-reference/ado-properties-reference.md
+              href: access/desktop-database-reference/ado-properties.md
               items:
-              - name: ADO 属性
-                href: access/desktop-database-reference/ado-properties.md
-              - name: AbsolutePage 属性 (ADO)
+              - name: AbsolutePage 属性
                 href: access/desktop-database-reference/absolutepage-property-ado.md
-              - name: AbsolutePosition 属性 (ADO)
+              - name: AbsolutePosition 属性
                 href: access/desktop-database-reference/absoluteposition-property-ado.md
-              - name: ActiveCommand 属性 (ADO)
+              - name: ActiveCommand 属性
                 href: access/desktop-database-reference/activecommand-property-ado.md
-              - name: ActiveConnection 属性 (ADO)
+              - name: ActiveConnection 属性
                 href: access/desktop-database-reference/activeconnection-property-ado.md
-              - name: ActualSize 属性 (ADO)
+              - name: ActualSize 属性
                 href: access/desktop-database-reference/actualsize-property-ado.md
-              - name: Attributes 属性 (ADO)
+              - name: Attributes 属性
                 href: access/desktop-database-reference/attributes-property-ado.md
-              - name: BOF、EOF 属性 (ADO)
+              - name: BOF、EOF 属性
                 href: access/desktop-database-reference/bof-eof-properties-ado.md
-              - name: Bookmark 属性 (ADO)
+              - name: Bookmark 属性
                 href: access/desktop-database-reference/bookmark-property-ado.md
-              - name: CacheSize 属性 (ADO)
+              - name: CacheSize 属性
                 href: access/desktop-database-reference/cachesize-property-ado.md
-              - name: Chapter 属性 (ADO)
+              - name: Chapter 属性
                 href: access/desktop-database-reference/chapter-property-ado.md
-              - name: Charset 属性 (ADO)
+              - name: CharSet 属性
                 href: access/desktop-database-reference/charset-property-ado.md
-              - name: CommandText 属性 (ADO)
+              - name: CommandText 属性
                 href: access/desktop-database-reference/commandtext-property-ado.md
-              - name: CommandTimeout 属性 (ADO)
+              - name: CommandTimeout 属性
                 href: access/desktop-database-reference/commandtimeout-property-ado.md
-              - name: CommandType 属性 (ADO)
+              - name: CommandType 属性
                 href: access/desktop-database-reference/commandtype-property-ado.md
-              - name: ConnectionString 属性 (ADO)
+              - name: ConnectionString 属性
                 href: access/desktop-database-reference/connectionstring-property-ado.md
-              - name: ConnectionTimeout 属性 (ADO)
+              - name: ConnectionTimeout 属性
                 href: access/desktop-database-reference/connectiontimeout-property-ado.md
-              - name: Count 属性 (ADO)
+              - name: Count 属性
                 href: access/desktop-database-reference/count-property-ado.md
-              - name: CursorLocation 属性 (ADO)
+              - name: CursorLocation 属性
                 href: access/desktop-database-reference/cursorlocation-property-ado.md
-              - name: CursorType 属性 (ADO)
+              - name: CursorType 属性
                 href: access/desktop-database-reference/cursortype-property-ado.md
-              - name: DataMember 属性 (ADO)
+              - name: DataMember 属性
                 href: access/desktop-database-reference/datamember-property-ado.md
-              - name: DataSource 属性 (ADO)
+              - name: DataSource 属性
                 href: access/desktop-database-reference/datasource-property-ado.md
-              - name: DefaultDatabase 属性 (ADO)
+              - name: DefaultDatabase 属性
                 href: access/desktop-database-reference/defaultdatabase-property-ado.md
-              - name: DefinedSize 属性 (ADO)
+              - name: DefinedSize 属性
                 href: access/desktop-database-reference/definedsize-property-ado.md
-              - name: Description 属性 (ADO)
+              - name: Description 属性
                 href: access/desktop-database-reference/description-property-ado.md
-              - name: Direction 属性 (ADO)
+              - name: Direction 属性
                 href: access/desktop-database-reference/direction-property-ado.md
-              - name: EditMode 属性 (ADO)
+              - name: EditMode 属性
                 href: access/desktop-database-reference/editmode-property-ado.md
-              - name: EOS 属性 (ADO)
+              - name: EOS 属性
                 href: access/desktop-database-reference/eos-property-ado.md
-              - name: Filter 属性 (ADO)
+              - name: Filter 属性
                 href: access/desktop-database-reference/filter-property-ado.md
-              - name: HelpContext、HelpFile 属性 (ADO)
+              - name: HelpContext、HelpFile 属性
                 href: access/desktop-database-reference/helpcontext-helpfile-properties-ado.md
-              - name: Index 属性 (ADO)
+              - name: Index 属性
                 href: access/desktop-database-reference/index-property-ado.md
-              - name: IsolationLevel 属性 (ADO)
+              - name: IsolationLevel 属性
                 href: access/desktop-database-reference/isolationlevel-property-ado.md
-              - name: Item 属性 (ADO)
+              - name: Item 属性
                 href: access/desktop-database-reference/item-property-ado.md
-              - name: LineSeparator 属性 (ADO)
+              - name: LineSeparator 属性
                 href: access/desktop-database-reference/lineseparator-property-ado.md
-              - name: LockType 属性 (ADO)
+              - name: LockType 属性
                 href: access/desktop-database-reference/locktype-property-ado.md
-              - name: MarshalOptions 属性 (ADO)
+              - name: MarshalOptions 属性
                 href: access/desktop-database-reference/marshaloptions-property-ado.md
-              - name: MaxRecords 属性 (ADO)
+              - name: MaxRecords 属性
                 href: access/desktop-database-reference/maxrecords-property-ado.md
-              - name: Mode 属性 (ADO)
+              - name: Mode 属性
                 href: access/desktop-database-reference/mode-property-ado.md
-              - name: Name 属性 (ADO)
+              - name: Name 属性
                 href: access/desktop-database-reference/name-property-ado.md
-              - name: NativeError 属性 (ADO)
+              - name: NativeError 属性
                 href: access/desktop-database-reference/nativeerror-property-ado.md
-              - name: Number 属性 (ADO)
+              - name: Number 属性
                 href: access/desktop-database-reference/number-property-ado.md
-              - name: NumericScale 属性 (ADO)
+              - name: NumericScale 属性
                 href: access/desktop-database-reference/numericscale-property-ado.md
-              - name: OriginalValue 属性 (ADO)
+              - name: OriginalValue 属性
                 href: access/desktop-database-reference/originalvalue-property-ado.md
-              - name: PageCount 属性 (ADO)
+              - name: PageCount 属性
                 href: access/desktop-database-reference/pagecount-property-ado.md
-              - name: PageSize 属性 (ADO)
+              - name: PageSize 属性
                 href: access/desktop-database-reference/pagesize-property-ado.md
-              - name: ParentRow 属性 (ADO)
+              - name: ParentRow 属性
                 href: access/desktop-database-reference/parentrow-property-ado.md
-              - name: ParentURL 属性 (ADO)
+              - name: ParentURL 属性
                 href: access/desktop-database-reference/parenturl-property-ado.md
-              - name: Position 属性 (ADO)
+              - name: Position 属性
                 href: access/desktop-database-reference/position-property-ado.md
-              - name: Precision 属性 (ADO)
+              - name: Precision 属性
                 href: access/desktop-database-reference/precision-property-ado.md
-              - name: Prepared 属性 (ADO)
+              - name: Prepared 属性
                 href: access/desktop-database-reference/prepared-property-ado.md
-              - name: Provider 属性 (ADO)
+              - name: Provider 属性
                 href: access/desktop-database-reference/provider-property-ado.md
-              - name: RecordCount 属性 (ADO)
+              - name: RecordCount 属性
                 href: access/desktop-database-reference/recordcount-property-ado.md
-              - name: RecordType 属性 (ADO)
+              - name: RecordType 属性
                 href: access/desktop-database-reference/recordtype-property-ado.md
-              - name: Row 属性 (ADO)
+              - name: Row 属性
                 href: access/desktop-database-reference/row-property-ado.md
-              - name: RowPosition 属性 (ADO)
+              - name: RowPosition 属性
                 href: access/desktop-database-reference/rowposition-property-ado.md
-              - name: Rowset 属性 (ADO)
+              - name: Rowset 属性
                 href: access/desktop-database-reference/rowset-property-ado.md
-              - name: Size 属性 (ADO)
+              - name: Size 属性
                 href: access/desktop-database-reference/size-property-ado.md
-              - name: Sort 属性 (ADO)
+              - name: Sort 属性
                 href: access/desktop-database-reference/sort-property-ado.md
               - name: Source 属性（ADO 错误）
                 href: access/desktop-database-reference/source-property-ado-error.md
@@ -2492,77 +2336,73 @@ items:
                 href: access/desktop-database-reference/source-property-ado-record.md
               - name: Source 属性（ADO 记录集）
                 href: access/desktop-database-reference/source-property-ado-recordset.md
-              - name: SQLState 属性 (ADO)
+              - name: SQLState 属性
                 href: access/desktop-database-reference/sqlstate-property-ado.md
-              - name: State 属性 (ADO)
+              - name: State 属性
                 href: access/desktop-database-reference/state-property-ado.md
-              - name: StayInSync 属性 (ADO)
-                href: access/desktop-database-reference/stayinsync-property-ado.md
               - name: Status 属性（ADO 字段）
                 href: access/desktop-database-reference/status-property-ado-field.md
               - name: Status 属性（ADO 记录集）
                 href: access/desktop-database-reference/status-property-ado-recordset.md
-              - name: Type 属性 (ADO)
+              - name: StayInSync 属性
+                href: access/desktop-database-reference/stayinsync-property-ado.md
+              - name: Type 属性
                 href: access/desktop-database-reference/type-property-ado.md
               - name: Type 属性（ADO 流）
                 href: access/desktop-database-reference/type-property-ado-stream.md
-              - name: UnderlyingValue 属性 (ADO)
+              - name: UnderlyingValue 属性
                 href: access/desktop-database-reference/underlyingvalue-property-ado.md
-              - name: Value 属性 (ADO)
+              - name: Value 属性
                 href: access/desktop-database-reference/value-property-ado.md
-              - name: Version 属性 (ADO)
+              - name: Version 属性
                 href: access/desktop-database-reference/version-property-ado.md
             - name: ADO 动态属性
-              href: access/desktop-database-reference/ado-dynamic-properties-reference.md
+              href: access/desktop-database-reference/ado-dynamic-properties.md
               items:
-              - name: ADO 动态属性
-                href: access/desktop-database-reference/ado-dynamic-properties.md
               - name: ADO 动态属性索引
                 href: access/desktop-database-reference/ado-dynamic-property-index.md
-              - name: Optimize 属性--动态 (ADO)
+              - name: Optimize 属性
                 href: access/desktop-database-reference/optimize-property-dynamic-ado.md
-              - name: Prompt 属性--动态 (ADO)
+              - name: Prompt 属性
                 href: access/desktop-database-reference/prompt-property-dynamic-ado.md
-              - name: Reshape Name 属性--动态 (ADO)
+              - name: Reshape Name 属性
                 href: access/desktop-database-reference/reshape-name-property-dynamic-ado.md
-              - name: Resync Command 属性--动态 (ADO)
+              - name: Resync Command 属性
                 href: access/desktop-database-reference/resync-command-property-dynamic-ado.md
-              - name: Unique Table、Unique Schema、Unique Catalog 属性--动态 (ADO)
+              - name: Unique Table、Unique Schema、Unique Catalog 属性
                 href: access/desktop-database-reference/unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md
-              - name: Update Resync 属性--动态 (ADO)
+              - name: Update Resync 属性
                 href: access/desktop-database-reference/update-resync-property-dynamic-ado.md
             - name: ADO 方法
-              href: access/desktop-database-reference/ado-methods-reference.md
+              href: access/desktop-database-reference/ado-methods.md
               items:
-              - name: ADO 方法
-                href: access/desktop-database-reference/ado-methods.md
-              - name: AddNew 方法 (ADO)
+              - name: AddNew 方法
                 href: access/desktop-database-reference/addnew-method-ado.md
-              - name: Append 方法 (ADO)
+              - name: Append 方法
                 href: access/desktop-database-reference/append-method-ado.md
-              - name: AppendChunk 方法 (ADO)
+              - name: AppendChunk 方法
                 href: access/desktop-database-reference/appendchunk-method-ado.md
-              - name: BeginTrans、CommitTrans 和 RollbackTrans 方法 (ADO)
+              - name: BeginTrans、CommitTrans 和 RollbackTrans 方法
                 href: access/desktop-database-reference/begintrans-committrans-and-rollbacktrans-methods-ado.md
-              - name: Cancel 方法 (ADO)
+              - name: Cancel 方法
                 href: access/desktop-database-reference/cancel-method-ado.md
-              - name: CancelBatch 方法 (ADO)
+              - name: CancelBatch 方法
                 href: access/desktop-database-reference/cancelbatch-method-ado.md
-              - name: CancelUpdate 方法 (ADO)
+              - name: CancelUpdate 方法
                 href: access/desktop-database-reference/cancelupdate-method-ado.md
-              - name: Clear 方法 (ADO)
+              - name: Clear 方法
                 href: access/desktop-database-reference/clear-method-ado.md
-              - name: Clone 方法 (ADO)
+              - name: Clone 方法
                 href: access/desktop-database-reference/clone-method-ado.md
-              - name: Close 方法 (ADO)
+              - name: Close 方法
                 href: access/desktop-database-reference/close-method-ado.md
-              - name: CompareBookmarks 方法 (ADO)
+              - name: CompareBookmarks 方法
                 href: access/desktop-database-reference/comparebookmarks-method-ado.md
-              - name: CopyRecord 方法 (ADO)
+              - name: CopyRecord 方法
                 href: access/desktop-database-reference/copyrecord-method-ado.md
-              - name: CopyTo 方法 (ADO)
+              - name: CopyTo 方法
                 href: access/desktop-database-reference/copyto-method-ado.md
-              - name: CreateParameter 方法 (ADO)
+              - name: CreateParameter 方法
                 href: access/desktop-database-reference/createparameter-method-ado.md
               - name: Delete 方法（ADO Fields 集合）
                 href: access/desktop-database-reference/delete-method-ado-fields-collection.md
@@ -2570,29 +2410,29 @@ items:
                 href: access/desktop-database-reference/delete-method-ado-parameters-collection.md
               - name: Delete 方法（ADO 记录集）
                 href: access/desktop-database-reference/delete-method-ado-recordset.md
-              - name: DeleteRecord 方法 (ADO)
+              - name: DeleteRecord 方法
                 href: access/desktop-database-reference/deleterecord-method-ado.md
-              - name: Find 方法 (ADO)
+              - name: Find 方法
                 href: access/desktop-database-reference/find-method-ado.md
-              - name: Flush 方法 (ADO)
+              - name: Flush 方法
                 href: access/desktop-database-reference/flush-method-ado.md
-              - name: GetChildren 方法 (ADO)
+              - name: GetChildren 方法
                 href: access/desktop-database-reference/getchildren-method-ado.md
-              - name: GetChunk 方法 (ADO)
+              - name: GetChunk 方法
                 href: access/desktop-database-reference/getchunk-method-ado.md
-              - name: GetRows 方法 (ADO)
+              - name: GetRows 方法
                 href: access/desktop-database-reference/getrows-method-ado.md
-              - name: GetString 方法 (ADO)
+              - name: GetString 方法
                 href: access/desktop-database-reference/getstring-method-ado.md
-              - name: LoadFromFile 方法 (ADO)
+              - name: LoadFromFile 方法
                 href: access/desktop-database-reference/loadfromfile-method-ado.md
-              - name: Move 方法 (ADO)
+              - name: Move 方法
                 href: access/desktop-database-reference/move-method-ado.md
-              - name: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (ADO)
+              - name: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法
                 href: access/desktop-database-reference/movefirst-movelast-movenext-and-moveprevious-methods-ado.md
-              - name: MoveRecord 方法 (ADO)
+              - name: MoveRecord 方法
                 href: access/desktop-database-reference/moverecord-method-ado.md
-              - name: NextRecordset 方法 (ADO)
+              - name: NextRecordset 方法
                 href: access/desktop-database-reference/nextrecordset-method-ado.md
               - name: Open 方法（ADO 连接）
                 href: access/desktop-database-reference/open-method-ado-connection.md
@@ -2602,76 +2442,72 @@ items:
                 href: access/desktop-database-reference/open-method-ado-recordset.md
               - name: Open 方法（ADO 流）
                 href: access/desktop-database-reference/open-method-ado-stream.md
-              - name: OpenSchema 方法 (ADO)
+              - name: OpenSchema 方法
                 href: access/desktop-database-reference/openschema-method-ado.md
-              - name: Read 方法 (ADO)
+              - name: Read 方法
                 href: access/desktop-database-reference/read-method-ado.md
-              - name: ReadText 方法 (ADO)
+              - name: ReadText 方法
                 href: access/desktop-database-reference/readtext-method-ado.md
-              - name: Refresh 方法 (ADO)
+              - name: Refresh 方法
                 href: access/desktop-database-reference/refresh-method-ado.md
-              - name: Requery 方法 (ADO)
+              - name: Requery 方法
                 href: access/desktop-database-reference/requery-method-ado.md
-              - name: Resync 方法 (ADO)
+              - name: Resync 方法
                 href: access/desktop-database-reference/resync-method-ado.md
-              - name: Save 方法 (ADO)
+              - name: Save 方法
                 href: access/desktop-database-reference/save-method-ado.md
-              - name: SaveToFile 方法 (ADO)
+              - name: SaveToFile 方法
                 href: access/desktop-database-reference/savetofile-method-ado.md
-              - name: Seek 方法 (ADO)
+              - name: Seek 方法
                 href: access/desktop-database-reference/seek-method-ado.md
-              - name: SetEOS 方法 (ADO)
+              - name: SetEOS 方法
                 href: access/desktop-database-reference/seteos-method-ado.md
-              - name: SkipLine 方法 (ADO)
+              - name: SkipLine 方法
                 href: access/desktop-database-reference/skipline-method-ado.md
-              - name: Stat 方法 (ADO)
+              - name: Stat 方法
                 href: access/desktop-database-reference/stat-method-ado.md
-              - name: Supports 方法 (ADO)
+              - name: Supports 方法
                 href: access/desktop-database-reference/supports-method-ado.md
-              - name: Update 方法 (ADO)
+              - name: Update 方法
                 href: access/desktop-database-reference/update-method-ado.md
-              - name: UpdateBatch 方法 (ADO)
+              - name: UpdateBatch 方法
                 href: access/desktop-database-reference/updatebatch-method-ado.md
-              - name: Write 方法 (ADO)
+              - name: Write 方法
                 href: access/desktop-database-reference/write-method-ado.md
-              - name: WriteText 方法 (ADO)
+              - name: WriteText 方法
                 href: access/desktop-database-reference/writetext-method-ado.md
             - name: ADO 事件
-              href: access/desktop-database-reference/ado-events-reference.md
+              href: access/desktop-database-reference/ado-events.md
               items:
-              - name: ADO 事件
-                href: access/desktop-database-reference/ado-events.md
-              - name: BeginTransComplete、CommitTransComplete 和 RollbackTransComplete 事件 (ADO)
+              - name: BeginTransComplete、CommitTransComplete 和 RollbackTransComplete 事件
                 href: access/desktop-database-reference/begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md
-              - name: ConnectComplete 和 Disconnect 事件 (ADO)
+              - name: ConnectComplete 和 Disconnect 事件
                 href: access/desktop-database-reference/connectcomplete-and-disconnect-events-ado.md
-              - name: EndOfRecordset 事件 (ADO)
+              - name: EndOfRecordset 事件
                 href: access/desktop-database-reference/endofrecordset-event-ado.md
-              - name: ExecuteComplete 事件 (ADO)
+              - name: ExecuteComplete 事件
                 href: access/desktop-database-reference/executecomplete-event-ado.md
-              - name: FetchComplete 事件 (ADO)
+              - name: FetchComplete 事件
                 href: access/desktop-database-reference/fetchcomplete-event-ado.md
-              - name: FetchProgress 事件 (ADO)
+              - name: FetchProgress 事件
                 href: access/desktop-database-reference/fetchprogress-event-ado.md
-              - name: InfoMessage 事件 (ADO)
+              - name: InfoMessage 事件
                 href: access/desktop-database-reference/infomessage-event-ado.md
-              - name: WillChangeField 和 FieldChangeComplete 事件 (ADO)
+              - name: WillChangeField 和 FieldChangeComplete 事件
                 href: access/desktop-database-reference/willchangefield-and-fieldchangecomplete-events-ado.md
-              - name: WillChangeRecord 和 RecordChangeComplete 事件 (ADO)
+              - name: WillChangeRecord 和 RecordChangeComplete 事件
                 href: access/desktop-database-reference/willchangerecord-and-recordchangecomplete-events-ado.md
-              - name: WillChangeRecordset 和 RecordsetChangeComplete 事件 (ADO)
+              - name: WillChangeRecordset 和 RecordsetChangeComplete 事件
                 href: access/desktop-database-reference/willchangerecordset-and-recordsetchangecomplete-events-ado.md
-              - name: WillConnect 事件 (ADO)
+              - name: WillConnect 事件
                 href: access/desktop-database-reference/willconnect-event-ado.md
-              - name: WillExecute 事件 (ADO)
+              - name: WillExecute 事件
                 href: access/desktop-database-reference/willexecute-event-ado.md
-              - name: WillMove 和 MoveComplete 事件 (ADO)
+              - name: WillMove 和 MoveComplete 事件
                 href: access/desktop-database-reference/willmove-and-movecomplete-events-ado.md
             - name: ADO 枚举常量
-              href: access/desktop-database-reference/ado-enumerated-constants-reference.md
+              href: access/desktop-database-reference/ado-enumerated-constants.md
               items:
-              - name: ADO 枚举常量
-                href: access/desktop-database-reference/ado-enumerated-constants.md
               - name: ADCPROP_ASYNCTHREADPRIORITY_ENUM
                 href: access/desktop-database-reference/adcprop-asyncthreadpriority-enum.md
               - name: ADCPROP_AUTORECALC_ENUM
@@ -2779,15 +2615,11 @@ items:
               - name: XactAttributeEnum
                 href: access/desktop-database-reference/xactattributeenum.md
             - name: ADO 代码示例
-              href: access/desktop-database-reference/ado-code-examples-access.md
+              href: access/desktop-database-reference/ado-code-examples.md
               items:
-              - name: ADO 代码示例
-                href: access/desktop-database-reference/ado-code-examples.md
               - name: Microsoft Visual Basic 中的 ADO 代码示例
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic.md
                 items:
-                - name: Microsoft Visual Basic 中的 ADO 代码示例
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic.md
                 - name: AbsolutePage、PageCount 和 PageSize 属性示例 (VB)
                   href: access/desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-vb.md
                 - name: AbsolutePosition 和 CursorLocation 属性示例 (VB)
@@ -2913,10 +2745,8 @@ items:
                 - name: Version 属性示例 (VB)
                   href: access/desktop-database-reference/version-property-example-vb.md
               - name: Microsoft Visual Basic Scripting Edition 中的 ADO 代码示例
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition.md
                 items:
-                - name: Microsoft Visual Basic Scripting Edition 中的 ADO 代码示例
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition.md
                 - name: AddNew 方法示例 (VBScript)
                   href: access/desktop-database-reference/addnew-method-example-vbscript.md
                 - name: Clone 方法示例 (VBScript)
@@ -2932,10 +2762,8 @@ items:
                 - name: Open 和 Close 方法示例 (VBScript)
                   href: access/desktop-database-reference/open-and-close-methods-example-vbscript.md
               - name: Microsoft Visual C++ 中的 ADO 代码示例
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c.md
                 items:
-                - name: Microsoft Visual C++ 中的 ADO 代码示例
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c.md
                 - name: ADO 事件模型示例 (VC++)
                   href: access/desktop-database-reference/ado-events-model-example-vc.md
                 - name: AbsolutePage、PageCount 和 PageSize 属性示例 (VC++)
@@ -3047,10 +2875,8 @@ items:
                 - name: Version 属性示例 (VC++)
                   href: access/desktop-database-reference/version-property-example-vc.md
               - name: Microsoft Visual J++ 中的 ADO 代码示例
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j.md
                 items:
-                - name: Microsoft Visual J++ 中的 ADO 代码示例
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j.md
                 - name: AbsolutePage、PageCount 和 PageSize 属性示例 (VJ++)
                   href: access/desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-vj.md
                 - name: AbsolutePosition 和 CursorLocation 属性示例 (VJ++)
@@ -3156,10 +2982,8 @@ items:
                 - name: Version 属性示例 (VJ++)
                   href: access/desktop-database-reference/version-property-example-vj.md
               - name: Microsoft JScript 中的 ADO 代码示例
-                href: access/desktop-database-reference/ado-code-examples-in-microsoft-jscript-access.md
+                href: access/desktop-database-reference/ado-code-examples-in-microsoft-jscript.md
                 items:
-                - name: Microsoft JScript 中的 ADO 代码示例
-                  href: access/desktop-database-reference/ado-code-examples-in-microsoft-jscript.md
                 - name: AbsolutePage、PageCount 和 PageSize 属性示例 (JScript)
                   href: access/desktop-database-reference/absolutepage-pagecount-and-pagesize-properties-example-jscript.md
                 - name: AbsolutePosition 和 CursorLocation 属性示例 (JScript)
@@ -3185,486 +3009,454 @@ items:
                 - name: GetRows 方法示例 (JScript)
                   href: access/desktop-database-reference/getrows-method-example-jscript.md
           - name: RDS API 参考
-            href: access/desktop-database-reference/rds-api-reference-topics.md
+            href: access/desktop-database-reference/rds-api-reference.md
             items:
-            - name: RDS API 参考
-              href: access/desktop-database-reference/rds-api-reference.md
             - name: RDS 对象
-              href: access/desktop-database-reference/rds-objects-access.md
+              href: access/desktop-database-reference/rds-objects.md
               items:
-              - name: RDS 对象
-                href: access/desktop-database-reference/rds-objects.md
-              - name: DataControl 对象 (RDS)
+              - name: DataControl
                 href: access/desktop-database-reference/datacontrol-object-rds-ado.md
                 items:
-                - name: DataControl 对象 (RDS)
+                - name: DataControl 对象
                   href: access/desktop-database-reference/datacontrol-object-rds.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/datacontrol-properties-methods-and-events-rds.md
-              - name: DataFactoryObject (RDSServer)
+              - name: DataFactory (RDSServer)
                 href: access/desktop-database-reference/datafactoryobject-rdsserver.md
                 items:
-                - name: DataFactory 对象 (RDSServer)
+                - name: DataFactory 对象
                   href: access/desktop-database-reference/datafactory-object-rdsserver.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/datafactoryobject-properties-methods-and-events-rds.md
-              - name: DataSpace 对象 (RDS)
+              - name: DataSpace
                 href: access/desktop-database-reference/dataspace-object-rds-ado.md
                 items:
-                - name: DataSpace 对象 (RDS)
+                - name: DataSpace 对象
                   href: access/desktop-database-reference/dataspace-object-rds.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/dataspace-properties-methods-and-events-rds.md
             - name: RDS 属性
-              href: access/desktop-database-reference/rds-properties-access.md
+              href: access/desktop-database-reference/rds-properties.md
               items:
-              - name: RDS 属性
-                href: access/desktop-database-reference/rds-properties.md
-              - name: Connect 属性 (RDS)
+              - name: Connect 属性
                 href: access/desktop-database-reference/connect-property-rds.md
-              - name: ExecuteOptions 属性 (RDS)
+              - name: ExecuteOptions 属性
                 href: access/desktop-database-reference/executeoptions-property-rds.md
-              - name: FetchOptions 属性 (RDS)
+              - name: FetchOptions 属性
                 href: access/desktop-database-reference/fetchoptions-property-rds.md
-              - name: FilterColumn 属性 (RDS)
+              - name: FilterColumn 属性
                 href: access/desktop-database-reference/filtercolumn-property-rds.md
-              - name: FilterCriterion 属性 (RDS)
+              - name: FilterCriterion 属性
                 href: access/desktop-database-reference/filtercriterion-property-rds.md
-              - name: FilterValue 属性 (RDS)
+              - name: FilterValue 属性
                 href: access/desktop-database-reference/filtervalue-property-rds.md
-              - name: Handler 属性 (RDS)
+              - name: Handler 属性
                 href: access/desktop-database-reference/handler-property-rds.md
-              - name: InternetTimeout 属性 (RDS)
+              - name: InternetTimeout 属性
                 href: access/desktop-database-reference/internettimeout-property-rds.md
-              - name: ReadyState 属性 (RDS)
+              - name: ReadyState 属性
                 href: access/desktop-database-reference/readystate-property-rds.md
-              - name: Recordset、SourceRecordset 属性 (RDS)
+              - name: Recordset、SourceRecordset 属性
                 href: access/desktop-database-reference/recordset-sourcerecordset-properties-rds.md
-              - name: Server 属性 (RDS)
+              - name: Server 属性
                 href: access/desktop-database-reference/server-property-rds.md
-              - name: SortColumn 属性 (RDS)
+              - name: SortColumn 属性
                 href: access/desktop-database-reference/sortcolumn-property-rds.md
-              - name: SortDirection 属性 (RDS)
+              - name: SortDirection 属性
                 href: access/desktop-database-reference/sortdirection-property-rds.md
-              - name: URL 属性 (RDS)
+              - name: URL 属性
                 href: access/desktop-database-reference/url-property-rds.md
             - name: RDS 方法
-              href: access/desktop-database-reference/rds-methods-access.md
+              href: access/desktop-database-reference/rds-methods.md
               items:
-              - name: RDS 方法
-                href: access/desktop-database-reference/rds-methods.md
-              - name: Cancel 方法 (RDS)
+              - name: Cancel 方法
                 href: access/desktop-database-reference/cancel-method-rds.md
-              - name: CancelUpdate 方法 (RDS)
+              - name: CancelUpdate 方法
                 href: access/desktop-database-reference/cancelupdate-method-rds.md
-              - name: ConvertToString 方法 (RDS)
+              - name: ConvertToString 方法
                 href: access/desktop-database-reference/converttostring-method-rds.md
-              - name: CreateObject 方法 (RDS)
+              - name: CreateObject 方法
                 href: access/desktop-database-reference/createobject-method-rds.md
-              - name: CreateRecordset 方法 (RDS)
+              - name: CreateRecordset 方法
                 href: access/desktop-database-reference/createrecordset-method-rds.md
-              - name: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (RDS)
+              - name: MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法
                 href: access/desktop-database-reference/movefirst-movelast-movenext-and-moveprevious-methods-rds.md
-              - name: Query 方法 (RDS)
+              - name: Query 方法
                 href: access/desktop-database-reference/query-method-rds.md
-              - name: Refresh 方法 (RDS)
+              - name: Refresh 方法
                 href: access/desktop-database-reference/refresh-method-rds.md
-              - name: Reset 方法 (RDS)
+              - name: Reset 方法
                 href: access/desktop-database-reference/reset-method-rds.md
-              - name: SubmitChanges 方法 (RDS)
+              - name: SubmitChanges 方法
                 href: access/desktop-database-reference/submitchanges-method-rds.md
             - name: RDS 事件
-              href: access/desktop-database-reference/rds-events-access.md
+              href: access/desktop-database-reference/rds-events.md
               items:
-              - name: RDS 事件
-                href: access/desktop-database-reference/rds-events.md
-              - name: onError 事件 (RDS)
+              - name: OnError 事件
                 href: access/desktop-database-reference/onerror-event-rds.md
-              - name: onReadyStateChange 事件 (RDS)
+              - name: OnReadyStateChange 事件
                 href: access/desktop-database-reference/onreadystatechange-event-rds.md
           - name: ADO MD API 参考
-            href: access/desktop-database-reference/ado-md-api-reference-topics.md
+            href: access/desktop-database-reference/ado-md-api-reference.md
             items:
-            - name: ADO MD API 参考
-              href: access/desktop-database-reference/ado-md-api-reference.md
             - name: ADO MD 对象
-              href: access/desktop-database-reference/ado-md-objects-reference.md
+              href: access/desktop-database-reference/ado-md-objects.md
               items:
-              - name: ADO MD 对象
-                href: access/desktop-database-reference/ado-md-objects.md
-              - name: Axis 对象 (ADO MD)
+              - name: Axis
                 href: access/desktop-database-reference/axis-object-ado-md-reference.md
                 items:
-                - name: Axis 对象 (ADO MD)
+                - name: Axis 对象
                   href: access/desktop-database-reference/axis-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/axis-properties-methods-and-events-ado-md.md
-              - name: Catalog 对象 (ADO MD)
+              - name: Catalog
                 href: access/desktop-database-reference/catalog-object-ado-md-reference.md
                 items:
-                - name: Catalog 对象 (ADO MD)
+                - name: Catalog 对象
                   href: access/desktop-database-reference/catalog-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/catalog-properties-methods-and-events-ado-md.md
-              - name: Cell 对象 (ADO MD)
+              - name: Cell
                 href: access/desktop-database-reference/cell-object-ado-md-reference.md
                 items:
-                - name: Cell 对象 (ADO MD)
+                - name: Cell 对象
                   href: access/desktop-database-reference/cell-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/cell-properties-methods-and-events-ado-md.md
-              - name: Cellset 对象 (ADO MD)
+              - name: Cellset
                 href: access/desktop-database-reference/cellset-object-ado-md-reference.md
                 items:
-                - name: Cellset 对象 (ADO MD)
+                - name: Cellset 对象
                   href: access/desktop-database-reference/cellset-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/cellset-properties-methods-and-events-ado-md.md
-              - name: CubeDef 对象 (ADO MD)
+              - name: CubeDef
                 href: access/desktop-database-reference/cubedef-object-ado-md-reference.md
                 items:
-                - name: CubeDef 对象 (ADO MD)
+                - name: CubeDef 对象
                   href: access/desktop-database-reference/cubedef-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/cubedef-properties-methods-and-events-ado-md.md
-              - name: Dimension 对象 (ADO MD)
+              - name: Dimension
                 href: access/desktop-database-reference/dimension-object-ado-md-reference.md
                 items:
-                - name: Dimension 对象 (ADO MD)
+                - name: Dimension 对象
                   href: access/desktop-database-reference/dimension-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/dimension-properties-methods-and-events-ado-md.md
-              - name: Hierarchy 对象 (ADO MD)
+              - name: Hierarchy
                 href: access/desktop-database-reference/hierarchy-object-ado-md-reference.md
                 items:
-                - name: Hierarchy 对象 (ADO MD)
+                - name: Hierarchy 对象
                   href: access/desktop-database-reference/hierarchy-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/hierarchy-properties-methods-and-events-ado-md.md
-              - name: Level 对象 (ADO MD)
+              - name: Level
                 href: access/desktop-database-reference/level-object-ado-md-reference.md
                 items:
-                - name: Level 对象 (ADO MD)
+                - name: Level 对象
                   href: access/desktop-database-reference/level-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/level-properties-methods-and-events-ado-md.md
-              - name: Member 对象 (ADO MD)
+              - name: Member
                 href: access/desktop-database-reference/member-object-ado-md-reference.md
                 items:
-                - name: Member 对象 (ADO MD)
+                - name: Member 对象
                   href: access/desktop-database-reference/member-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/member-properties-methods-and-events-ado-md.md
-              - name: Position 对象 (ADO MD)
+              - name: Position
                 href: access/desktop-database-reference/position-object-ado-md-reference.md
                 items:
-                - name: Position 对象 (ADO MD)
+                - name: Position 对象
                   href: access/desktop-database-reference/position-object-ado-md.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/position-properties-methods-and-events-ado-md.md
             - name: ADO MD 集合
-              href: access/desktop-database-reference/ado-md-collections-reference.md
+              href: access/desktop-database-reference/ado-md-collections.md
               items:
-              - name: ADO MD 集合
-                href: access/desktop-database-reference/ado-md-collections.md
-              - name: Axes 集合 (ADO MD)
+              - name: Axes
                 href: access/desktop-database-reference/axes-collection-ado-md-reference.md
                 items:
-                - name: Axes 集合 (ADO MD)
+                - name: Axes 集合
                   href: access/desktop-database-reference/axes-collection-ado-md.md
                 - name: Axes 集合的属性、方法和事件
                   href: access/desktop-database-reference/axes-collection-properties-methods-and-events-ado-md.md
-              - name: CubeDefs 集合 (ADO MD)
+              - name: CubeDefs
                 href: access/desktop-database-reference/cubedefs-collection-ado-md-reference.md
                 items:
-                - name: CubeDefs 集合 (ADO MD)
+                - name: CubeDefs 集合
                   href: access/desktop-database-reference/cubedefs-collection-ado-md.md
                 - name: CubeDefs 集合的属性、方法和事件
                   href: access/desktop-database-reference/cubedefs-collection-properties-methods-and-events-ado-md.md
-              - name: Dimensions 集合 (ADO MD)
+              - name: Dimensions
                 href: access/desktop-database-reference/dimensions-collection-ado-md-reference.md
                 items:
-                - name: Dimensions 集合 (ADO MD)
+                - name: Dimensions 集合
                   href: access/desktop-database-reference/dimensions-collection-ado-md.md
                 - name: Dimensions 集合的属性、方法和事件
                   href: access/desktop-database-reference/dimensions-collection-properties-methods-and-events-ado-md.md
-              - name: Hierarchies 集合 (ADO MD)
+              - name: Hierarchies
                 href: access/desktop-database-reference/hierarchies-collection-ado-md-reference.md
                 items:
-                - name: Hierarchies 集合 (ADO MD)
+                - name: Hierarchies 集合
                   href: access/desktop-database-reference/hierarchies-collection-ado-md.md
                 - name: Hierarchies 集合的属性、方法和事件
                   href: access/desktop-database-reference/hierarchies-collection-properties-methods-and-events-ado-md.md
-              - name: Levels 集合 (ADO MD)
+              - name: Levels
                 href: access/desktop-database-reference/levels-collection-ado-md-reference.md
                 items:
-                - name: Levels 集合 (ADO MD)
+                - name: Levels 集合
                   href: access/desktop-database-reference/levels-collection-ado-md.md
                 - name: Levels 集合的属性、方法和事件
                   href: access/desktop-database-reference/levels-collection-properties-methods-and-events-ado-md.md
-              - name: Members 集合 (ADO MD)
+              - name: Members
                 href: access/desktop-database-reference/members-collection-ado-md-reference.md
                 items:
-                - name: Members 集合 (ADO MD)
+                - name: Members 集合
                   href: access/desktop-database-reference/members-collection-ado-md.md
                 - name: Members 集合的属性、方法和事件
                   href: access/desktop-database-reference/members-collection-properties-methods-and-events-ado-md.md
-              - name: Positions 集合 (ADO MD)
+              - name: Positions
                 href: access/desktop-database-reference/positions-collection-ado-md-reference.md
                 items:
-                - name: Positions 集合 (ADO MD)
+                - name: Positions 集合
                   href: access/desktop-database-reference/positions-collection-ado-md.md
                 - name: Positions 集合的属性、方法和事件
                   href: access/desktop-database-reference/positions-collection-properties-methods-and-events-ado-md.md
             - name: ADO MD 属性
-              href: access/desktop-database-reference/ado-md-properties-reference.md
+              href: access/desktop-database-reference/ado-md-properties.md
               items:
-              - name: ADO MD 属性
-                href: access/desktop-database-reference/ado-md-properties.md
-              - name: ActiveConnection 属性 (ADO MD)
+              - name: ActiveConnection 属性
                 href: access/desktop-database-reference/activeconnection-property-ado-md.md
-              - name: Caption 属性 (ADO MD)
+              - name: Caption 属性
                 href: access/desktop-database-reference/caption-property-ado-md.md
-              - name: ChildCount 属性 (ADO MD)
+              - name: ChildCount 属性
                 href: access/desktop-database-reference/childcount-property-ado-md.md
-              - name: Children 属性 (ADO MD)
+              - name: Children 属性
                 href: access/desktop-database-reference/children-property-ado-md.md
-              - name: Depth 属性 (ADO MD)
+              - name: Depth 属性
                 href: access/desktop-database-reference/depth-property-ado-md.md
-              - name: Description 属性 (ADO MD)
+              - name: Description 属性
                 href: access/desktop-database-reference/description-property-ado-md.md
-              - name: DimensionCount 属性 (ADO MD)
+              - name: DimensionCount 属性
                 href: access/desktop-database-reference/dimensioncount-property-ado-md.md
-              - name: DrilledDown 属性 (ADO MD)
+              - name: DrilledDown 属性
                 href: access/desktop-database-reference/drilleddown-property-ado-md.md
-              - name: FilterAxis 属性 (ADO MD)
+              - name: FilterAxis 属性
                 href: access/desktop-database-reference/filteraxis-property-ado-md.md
-              - name: FormattedValue 属性 (ADO MD)
+              - name: FormattedValue 属性
                 href: access/desktop-database-reference/formattedvalue-property-ado-md.md
-              - name: Item 属性（ADO MD 单元格）
+              - name: Item 属性（ADO MD 单元格集）
                 href: access/desktop-database-reference/item-property-ado-md-cellset.md
-              - name: LevelDepth 属性 (ADO MD)
+              - name: LevelDepth 属性
                 href: access/desktop-database-reference/leveldepth-property-ado-md.md
-              - name: LevelName 属性 (ADO MD)
+              - name: LevelName 属性
                 href: access/desktop-database-reference/levelname-property-ado-md.md
-              - name: Name 属性 (ADO MD)
+              - name: Name 属性
                 href: access/desktop-database-reference/name-property-ado-md.md
               - name: Ordinal 属性（ADO MD 单元格）
                 href: access/desktop-database-reference/ordinal-property-ado-md-cell.md
               - name: Ordinal 属性（ADO MD 位置）
                 href: access/desktop-database-reference/ordinal-property-ado-md-position.md
-              - name: Parent 属性 (ADO MD)
+              - name: Parent 属性
                 href: access/desktop-database-reference/parent-property-ado-md.md
-              - name: ParentSameAsPrev 属性 (ADO MD)
+              - name: ParentSameAsPrev 属性
                 href: access/desktop-database-reference/parentsameasprev-property-ado-md.md
-              - name: Source 属性 (ADO MD)
+              - name: Source 属性
                 href: access/desktop-database-reference/source-property-ado-md.md
-              - name: State 属性 (ADO MD)
+              - name: State 属性
                 href: access/desktop-database-reference/state-property-ado-md.md
-              - name: Type 属性 (ADO MD)
+              - name: Type 属性
                 href: access/desktop-database-reference/type-property-ado-md.md
-              - name: UniqueName 属性 (ADO MD)
+              - name: UniqueName 属性
                 href: access/desktop-database-reference/uniquename-property-ado-md.md
-              - name: Value 属性 (ADO MD)
+              - name: Value 属性
                 href: access/desktop-database-reference/value-property-ado-md.md
             - name: ADO MD 方法
-              href: access/desktop-database-reference/ado-md-methods-reference.md
+              href: access/desktop-database-reference/ado-md-methods.md
               items:
-              - name: ADO MD 方法
-                href: access/desktop-database-reference/ado-md-methods.md
-              - name: Close 方法 (ADO MD)
+              - name: Close 方法
                 href: access/desktop-database-reference/close-method-ado-md.md
-              - name: Open 方法 (ADO MD)
+              - name: Open 方法
                 href: access/desktop-database-reference/open-method-ado-md.md
             - name: ADO MD 枚举常量
-              href: access/desktop-database-reference/ado-md-enumerated-constants-reference.md
+              href: access/desktop-database-reference/ado-md-enumerated-constants.md
               items:
-              - name: ADO MD 枚举常量
-                href: access/desktop-database-reference/ado-md-enumerated-constants.md
               - name: MemberTypeEnum
                 href: access/desktop-database-reference/membertypeenum.md
           - name: ADOX API 参考
-            href: access/desktop-database-reference/adox-api-reference-topics.md
+            href: access/desktop-database-reference/adox-api-reference.md
             items:
-            - name: ADOX API 参考
-              href: access/desktop-database-reference/adox-api-reference.md
             - name: ADOX 对象
-              href: access/desktop-database-reference/adox-objects-reference.md
+              href: access/desktop-database-reference/adox-objects.md
               items:
-              - name: ADOX 对象
-                href: access/desktop-database-reference/adox-objects.md
-              - name: Catalog 对象 (ADOX)
+              - name: Catalog
                 href: access/desktop-database-reference/catalog-object-adox-reference.md
                 items:
-                - name: Catalog 对象 (ADOX)
+                - name: Catalog 对象
                   href: access/desktop-database-reference/catalog-object-adox.md
-                - name: Catalog 的属性、方法和事件 (ADOX)
+                - name: 属性、方法和事件
                   href: access/desktop-database-reference/catalog-properties-methods-and-events-adox.md
-              - name: Column 对象 (ADOX)
+              - name: Column
                 href: access/desktop-database-reference/column-object-adox-reference.md
                 items:
-                - name: Column 对象 (ADOX)
+                - name: Column 对象
                   href: access/desktop-database-reference/column-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/column-properties-methods-and-events-adox.md
-              - name: Group 对象 (ADOX)
+              - name: Group
                 href: access/desktop-database-reference/group-object-adox-reference.md
                 items:
-                - name: Group 对象 (ADOX)
+                - name: Group 对象
                   href: access/desktop-database-reference/group-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/group-properties-methods-and-events-adox.md
-              - name: Index 对象 (ADOX)
+              - name: Index
                 href: access/desktop-database-reference/index-object-adox-reference.md
                 items:
-                - name: Index 对象 (ADOX)
+                - name: Index 对象
                   href: access/desktop-database-reference/index-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/index-properties-methods-and-events-adox.md
-              - name: Key 对象 (ADOX)
+              - name: Key
                 href: access/desktop-database-reference/key-object-adox-reference.md
                 items:
-                - name: Key 对象 (ADOX)
+                - name: Key 对象
                   href: access/desktop-database-reference/key-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/key-properties-methods-and-events-adox.md
-              - name: Procedure 对象 (ADOX)
+              - name: Procedure
                 href: access/desktop-database-reference/procedure-object-adox-reference.md
                 items:
-                - name: Procedure 对象 (ADOX)
+                - name: Procedure 对象
                   href: access/desktop-database-reference/procedure-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/procedure-properties-methods-and-events-adox.md
-              - name: Table 对象 (ADOX)
+              - name: Table
                 href: access/desktop-database-reference/table-object-adox-reference.md
                 items:
-                - name: Table 对象 (ADOX)
+                - name: Table 对象
                   href: access/desktop-database-reference/table-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/table-properties-methods-and-events-adox.md
-              - name: User 对象 (ADOX)
+              - name: User
                 href: access/desktop-database-reference/user-object-adox-reference.md
                 items:
-                - name: User 对象 (ADOX)
+                - name: User 对象
                   href: access/desktop-database-reference/user-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/user-properties-methods-and-events-adox.md
-              - name: View 对象 (ADOX)
+              - name: View
                 href: access/desktop-database-reference/view-object-adox-reference.md
                 items:
-                - name: View 对象 (ADOX)
+                - name: View 对象
                   href: access/desktop-database-reference/view-object-adox.md
                 - name: 属性、方法和事件
                   href: access/desktop-database-reference/view-properties-methods-and-events-adox.md
             - name: ADOX 集合
-              href: access/desktop-database-reference/adox-collections-reference.md
+              href: access/desktop-database-reference/adox-collections.md
               items:
-              - name: ADOX 集合
-                href: access/desktop-database-reference/adox-collections.md
-              - name: Columns 集合 (ADOX)
+              - name: Columns
                 href: access/desktop-database-reference/columns-collection-adox-reference.md
                 items:
-                - name: Columns 集合 (ADOX)
+                - name: Columns 集合
                   href: access/desktop-database-reference/columns-collection-adox.md
-                - name: Columns 集合的属性、方法和事件 (ADOX)
+                - name: Columns 集合的属性、方法和事件
                   href: access/desktop-database-reference/columns-collection-properties-methods-and-events-adox.md
-              - name: Groups 集合 (ADOX)
+              - name: Groups
                 href: access/desktop-database-reference/groups-collection-adox-reference.md
                 items:
-                - name: Groups 集合 (ADOX)
+                - name: Groups 集合
                   href: access/desktop-database-reference/groups-collection-adox.md
-                - name: Groups 集合的属性、方法和事件 (ADOX)
+                - name: Groups 集合的属性、方法和事件
                   href: access/desktop-database-reference/groups-collection-properties-methods-and-events-adox.md
-              - name: Indexes 集合 (ADOX)
+              - name: Indexes
                 href: access/desktop-database-reference/indexes-collection-adox-reference.md
                 items:
-                - name: Indexes 集合 (ADOX)
+                - name: Indexes 集合
                   href: access/desktop-database-reference/indexes-collection-adox.md
-                - name: Indexes 集合的属性、方法和事件 (ADOX)
+                - name: Indexes 集合的属性、方法和事件
                   href: access/desktop-database-reference/indexes-collection-properties-methods-and-events-adox.md
-              - name: Keys 集合 (ADOX)
+              - name: Keys
                 href: access/desktop-database-reference/keys-collection-adox-reference.md
                 items:
-                - name: Keys 集合 (ADOX)
+                - name: Keys 集合
                   href: access/desktop-database-reference/keys-collection-adox.md
-                - name: Keys 集合的属性、方法和事件 (ADOX)
+                - name: Keys 集合的属性、方法和事件
                   href: access/desktop-database-reference/keys-collection-properties-methods-and-events-adox.md
-              - name: Procedures 集合 (ADOX)
+              - name: Procedures
                 href: access/desktop-database-reference/procedures-collection-adox-reference.md
                 items:
-                - name: Procedures 集合 (ADOX)
+                - name: Procedures 集合
                   href: access/desktop-database-reference/procedures-collection-adox.md
-                - name: Procedures 集合的属性、方法和事件 (ADOX)
+                - name: Procedures 集合的属性、方法和事件
                   href: access/desktop-database-reference/procedures-collection-properties-methods-and-events-adox.md
-              - name: Tables 集合 (ADOX)
+              - name: Tables
                 href: access/desktop-database-reference/tables-collection-adox-reference.md
                 items:
-                - name: Tables 集合 (ADOX)
+                - name: Tables 集合
                   href: access/desktop-database-reference/tables-collection-adox.md
-                - name: Tables 集合的属性、方法和事件 (ADOX)
+                - name: Tables 集合的属性、方法和事件
                   href: access/desktop-database-reference/tables-collection-properties-methods-and-events-adox.md
-              - name: Users 集合 (ADOX)
+              - name: Users
                 href: access/desktop-database-reference/users-collection-adox-reference.md
                 items:
-                - name: Users 集合 (ADOX)
+                - name: Users 集合
                   href: access/desktop-database-reference/users-collection-adox.md
-                - name: Users 集合的属性、方法和事件 (ADOX)
+                - name: Users 集合的属性、方法和事件
                   href: access/desktop-database-reference/users-collection-properties-methods-and-events-adox.md
-              - name: Views 集合 (ADOX)
+              - name: Views
                 href: access/desktop-database-reference/views-collection-adox-reference.md
                 items:
-                - name: Views 集合 (ADOX)
+                - name: Views 集合
                   href: access/desktop-database-reference/views-collection-adox.md
-                - name: Views 集合的属性、方法和事件 (ADOX)
+                - name: Views 集合的属性、方法和事件
                   href: access/desktop-database-reference/views-collection-properties-methods-and-events-adox.md
             - name: ADOX 属性
-              href: access/desktop-database-reference/adox-properties-reference.md
+              href: access/desktop-database-reference/adox-properties.md
               items:
-              - name: ADOX 属性
-                href: access/desktop-database-reference/adox-properties.md
-              - name: ActiveConnection 属性 (ADOX)
+              - name: ActiveConnection 属性
                 href: access/desktop-database-reference/activeconnection-property-adox.md
-              - name: Attributes 属性 (ADOX)
+              - name: Attributes 属性
                 href: access/desktop-database-reference/attributes-property-adox.md
-              - name: Clustered 属性 (ADOX)
+              - name: Clustered 属性
                 href: access/desktop-database-reference/clustered-property-adox.md
-              - name: Command 属性 (ADOX)
+              - name: Command 属性
                 href: access/desktop-database-reference/command-property-adox.md
-              - name: DateCreated 属性 (ADOX)
+              - name: DateCreated 属性
                 href: access/desktop-database-reference/datecreated-property-adox.md
-              - name: DateModified 属性 (ADOX)
+              - name: DateModified 属性
                 href: access/desktop-database-reference/datemodified-property-adox.md
-              - name: DefinedSize 属性 (ADOX)
+              - name: DefinedSize 属性
                 href: access/desktop-database-reference/definedsize-property-adox.md
-              - name: DeleteRule 属性 (ADOX)
+              - name: DeleteRule 属性
                 href: access/desktop-database-reference/deleterule-property-adox.md
-              - name: IndexNulls 属性 (ADOX)
+              - name: IndexNulls 属性
                 href: access/desktop-database-reference/indexnulls-property-adox.md
-              - name: Name 属性 (ADOX)
+              - name: Name 属性
                 href: access/desktop-database-reference/name-property-adox.md
-              - name: NumericScale 属性 (ADOX)
+              - name: NumericScale 属性
                 href: access/desktop-database-reference/numericscale-property-adox.md
-              - name: ParentCatalog 属性 (ADOX)
+              - name: ParentCatalog 属性
                 href: access/desktop-database-reference/parentcatalog-property-adox.md
-              - name: Precision 属性 (ADOX)
+              - name: Precision 属性
                 href: access/desktop-database-reference/precision-property-adox.md
-              - name: PrimaryKey 属性 (ADOX)
+              - name: PrimaryKey 属性
                 href: access/desktop-database-reference/primarykey-property-adox.md
-              - name: RelatedColumn 属性 (ADOX)
+              - name: RelatedColumn 属性
                 href: access/desktop-database-reference/relatedcolumn-property-adox.md
-              - name: RelatedTable 属性 (ADOX)
+              - name: RelatedTable 属性
                 href: access/desktop-database-reference/relatedtable-property-adox.md
-              - name: SortOrder 属性 (ADOX)
+              - name: SortOrder 属性
                 href: access/desktop-database-reference/sortorder-property-adox.md
-              - name: Unique 属性 (ADOX)
+              - name: Unique 属性
                 href: access/desktop-database-reference/unique-property-adox.md
-              - name: UpdateRule 属性 (ADOX)
+              - name: UpdateRule 属性
                 href: access/desktop-database-reference/updaterule-property-adox.md
             - name: ADOX 方法
-              href: access/desktop-database-reference/adox-methods-reference.md
+              href: access/desktop-database-reference/adox-methods.md
               items:
-              - name: ADOX 方法
-                href: access/desktop-database-reference/adox-methods.md
               - name: Append 方法（ADOX 列）
                 href: access/desktop-database-reference/append-method-adox-columns.md
               - name: Append 方法（ADOX 组）
@@ -3681,23 +3473,21 @@ items:
                 href: access/desktop-database-reference/append-method-adox-users.md
               - name: Append 方法（ADOX 视图）
                 href: access/desktop-database-reference/append-method-adox-views.md
-              - name: ChangePassword 方法 (ADOX)
+              - name: ChangePassword 方法
                 href: access/desktop-database-reference/changepassword-method-adox.md
-              - name: Create 方法 (ADOX)
+              - name: Create 方法
                 href: access/desktop-database-reference/create-method-adox.md
               - name: Delete 方法（ADOX 集合）
                 href: access/desktop-database-reference/delete-method-adox-collections.md
-              - name: GetObjectOwner 方法 (ADOX)
+              - name: GetObjectOwner 方法
                 href: access/desktop-database-reference/getobjectowner-method-adox.md
-              - name: GetPermissions 方法 (ADOX)
+              - name: GetPermissions 方法
                 href: access/desktop-database-reference/getpermissions-method-adox.md
-              - name: SetPermissions 方法 (ADOX)
+              - name: SetPermissions 方法
                 href: access/desktop-database-reference/setpermissions-method-adox.md
             - name: ADOX 枚举常量
-              href: access/desktop-database-reference/adox-enumerated-constants-reference.md
+              href: access/desktop-database-reference/adox-enumerated-constants.md
               items:
-              - name: ADOX 枚举常量
-                href: access/desktop-database-reference/adox-enumerated-constants.md
               - name: ActionEnum
                 href: access/desktop-database-reference/actionenum.md
               - name: AllowNullsEnum
@@ -3715,15 +3505,11 @@ items:
               - name: SortOrderEnum
                 href: access/desktop-database-reference/sortorderenum.md
             - name: ADOX 代码示例
-              href: access/desktop-database-reference/adox-code-example-topics.md
+              href: access/desktop-database-reference/adox-code-examples.md
               items:
-              - name: ADOX 代码示例
-                href: access/desktop-database-reference/adox-code-examples.md
               - name: Microsoft Visual Basic 中的 ADOX 代码示例
-                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic-topics.md
+                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic.md
                 items:
-                - name: Microsoft Visual Basic 中的 ADOX 代码示例
-                  href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic.md
                 - name: Attributes 属性示例 (VB)
                   href: access/desktop-database-reference/attributes-property-example-vb.md
                 - name: Catalog ActiveConnection 属性示例 (VB)
@@ -3783,10 +3569,8 @@ items:
                 - name: Views 的 Refresh 方法示例 (VB)
                   href: access/desktop-database-reference/views-refresh-method-example-vb.md
               - name: ADOX Microsoft Visual C++ 代码示例
-                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c-topics.md
+                href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c.md
                 items:
-                - name: ADOX Microsoft Visual C++ 代码示例
-                  href: access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c.md
                 - name: Attributes 属性示例 (VC++)
                   href: access/desktop-database-reference/attributes-property-example-vc.md
                 - name: Catalog 的 ActiveConnection 属性示例 (VC++)
@@ -12592,9 +12376,9 @@ items:
     href: swayuri.md
   - name: Office URI 方案
     href: office-uri-schemes.md
-ms.openlocfilehash: df26ee538c123ab874a29b94e78322683b12e0d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf1b67706f1d090d21e8c8da48cfe6b844addf6d
+ms.sourcegitcommit: 007141520d6479860f452371532f9267f33eb260
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25453822"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999513"
