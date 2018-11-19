@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a6e62d302dc1164e70d83dcbb06ac56c21898b82
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937615"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026258"
 ---
 # <a name="querydef-members-dao"></a>QueryDef 成员 (DAO)
 
@@ -36,12 +36,7 @@ QueryDef 对象是 Microsoft Access 数据库引擎数据库中某个查询的�
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cancel-method-dao.md">Cancel</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="even">
@@ -91,7 +86,7 @@ QueryDef 对象是 Microsoft Access 数据库引擎数据库中某个查询的�
 <td><p>返回对象的创建日期和时间（仅适用于 Microsoft Access 工作区）。只读 <strong>Variant</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-fields-property-dao.md">字段</a></strong></p></td>
+<td><p><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>返回一个 <strong><a href="fields-collection-dao.md">Fields</a></strong> 集合，该集合表示指定对象的所有存储 <strong><a href="field-object-dao.md">Field</a></strong> 对象。只读。</p></td>
 </tr>
 <tr class="odd">
@@ -116,12 +111,7 @@ QueryDef 对象是 Microsoft Access 数据库引擎数据库中某个查询的�
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-prepare-property-dao.md">Prepare</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>设置或返回一个值，用于指示是应当在执行之前使用 ODBC <strong>SQLPrepare</strong> API 函数在服务器上将查询作为临时存储过程来准备，还是应当使用 ODBC <strong>SQLExecDirect</strong> API 函数（只适用于 ODBCDirect 工作区）来执行查询。可读写。 <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong> 。</p></td>
 </tr>
 <tr class="odd">
@@ -142,16 +132,11 @@ QueryDef 对象是 Microsoft Access 数据库引擎数据库中某个查询的�
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>指示异步操作（即用 <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-type-property-dao.md">类型</a></strong></p></td>
+<td><p><strong><a href="querydef-type-property-dao.md">Type</a></strong></p></td>
 <td><p>设置或返回一个值，该值指示对象的操作类型或数据类型。 只读的<strong>整数</strong>。</p></td>
 </tr>
 <tr class="odd">

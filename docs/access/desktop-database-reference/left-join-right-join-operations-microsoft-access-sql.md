@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: a16df1e26e4ab5617e6bf76aa93a11a936ccb49b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 050226506b3dc1d00f4323ae727763f7ba6bdc66
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925896"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026111"
 ---
 # <a name="left-join-right-join-operations-microsoft-access-sql"></a>LEFT JOIN，RIGHT JOIN 操作 (Microsoft Access SQL)
 
 **适用于**： Access 2013、 Office 2013
 
-在任何 [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) 子句中用于组合源表记录。
+在任何 [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) 子句中用于组合源表记录。
 
 ## <a name="syntax"></a>语法
 

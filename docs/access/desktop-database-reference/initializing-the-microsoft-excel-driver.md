@@ -1,6 +1,6 @@
 ---
 title: 初始化 Microsoft Excel 驱动程序
-TOCTitle: Initializing the Microsoft Excel Driver
+TOCTitle: Initializing the Microsoft Excel driver
 ms:assetid: 06c7f823-8e74-0811-cc00-e6b32075ef11
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844939(v=office.15)
 ms:contentKeyID: 48543054
@@ -10,15 +10,14 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f039378c619cb5c9ebe6a70ccae718f5abfdd306
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 87f2b5667c1406caec3e750c1ee256606851fe96
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873899"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026335"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>初始化 Microsoft Excel 驱动程序
-
 
 **适用于**： Access 2013 |Office 2013
 
@@ -77,6 +76,7 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 </tbody>
 </table>
 
+<br/>
 
 **Access Connectivity 引擎\\引擎\\Excel 8.0**文件夹包含下列项，适用于 Microsoft Excel 97。
 
@@ -149,4 +149,4 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 
 ## <a name="see-also"></a>另请参阅
 
-[使用 Excel 驱动程序 TypeGuessRows 设置](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [使用 Excel 驱动程序 TypeGuessRows 设置](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)

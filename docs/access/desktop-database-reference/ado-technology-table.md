@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 944efc31c02f0ecbc15ae0929c1dd592a36e5093
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 6489e221d52e23fa3daa94f0ec3ec200baca3144
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937300"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025915"
 ---
 # <a name="ado-technology-table"></a>ADO 技术表
 
@@ -57,7 +57,7 @@ ms.locfileid: "25937300"
 </tr>
 <tr class="odd">
 <td><p>Internet 信息服务</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/><a href="streams-and-persistence.md">流和暂留</a><br/><br/><a href="using-ado-for-internet-publishing.md">使用 ADO 进行 Internet 发布</a><br/><br/><a href="solutions-for-remote-data-access.md">远程数据访问解决方案</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">在 IIS 上配置虚拟服务器</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">在 IIS 上指定每个处理器的线程数</a><br/><br/><a href="securing-rds-applications.md">保护 RDS 应用程序</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Internet 服务器错误：访问被拒绝&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">用于 Internet 发布的 Microsoft OLE DB 提供程序</a><br/><br/><a href="internet-information-services-error-codes.md">Internet 信息服务错误代码</a><br/><br/></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/><a href="streams-and-persistence.md">流和持久化</a><br/><br/><a href="using-ado-for-internet-publishing.md">使用 ADO for Internet Publishing</a><br/><br/><a href="solutions-for-remote-data-access.md">远程数据访问解决方案</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">在 IIS 上配置虚拟服务器</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">在 IIS 上指定每个处理器的线程数</a><br/><br/><a href="securing-rds-applications.md">保护 RDS 应用程序</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Internet 服务器错误： 访问被拒绝&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">用于 Internet 发布的 Microsoft OLE DB 提供程序</a><br/><br/><a href="internet-information-services-error-codes.md">Internet 信息服务错误代码</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
@@ -77,7 +77,7 @@ ms.locfileid: "25937300"
 </tr>
 <tr class="even">
 <td><p>SQL Server 2000</p></td>
-<td><p><a href="controlling-transactions.md">控制事务</a><br/><br/><a href="calling-a-stored-procedure-with-a-command.md">使用 Command 调用存储过程</a><br/><br/><a href="counting-rows.md">对行进行计数</a><br/><br/><a href="forward-only-cursors.md">仅向前游标</a><br/><br/><a href="ensuring-sufficient-tempdb-space.md">确保具有足够的 TempDB 空间</a><br/><br/><a href="minimizing-log-file-space-usage.md">最小化日志文件使用的空间</a><br/><br/><a href="microsoft-ole-db-provider-for-sql-server.md">Microsoft OLE DB Provider for SQL Server</a><br/><br/></p></td>
+<td><p><a href="controlling-transactions.md">控制事务</a><br/><br/><a href="calling-a-stored-procedure-with-a-command.md">调用存储的过程命令</a><br/><br/><a href="counting-rows.md">对行进行计数</a><br/><br/><a href="forward-only-cursors.md">仅向前型游标</a><br/><br/><a href="ensuring-sufficient-tempdb-space.md">确保具有足够的 TempDB 空间</a><br/><br/><a href="minimizing-log-file-space-usage.md">最小化日志文件使用的空间</a><br/><br/><a href="microsoft-ole-db-provider-for-sql-server.md">Microsoft OLE DB Provider for SQL Server</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>Transaction Server</p></td>
@@ -89,15 +89,15 @@ ms.locfileid: "25937300"
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">Errors</a><br/><br/><a href="ado-errors.md">ADO 错误</a><br/><br/><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">按语言的 ADO 事件实例化</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications 函数</a><br/><br/><a href="chapter-12-rds-tutorial.md">第 12 章：RDS 教程</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">在 Microsoft Visual Basic 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Microsoft Visual Basic 中的 ADO 代码示例</a><br/><br/></p></td>
+<td><p><a href="errors.md">Errors</a><br/><br/><a href="ado-errors.md">ADO 错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">按语言的 ADO 事件实例化</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications 函数</a><br/><br/><a href="chapter-12-rds-tutorial.md">第 12 章：RDS 教程</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">在 Microsoft Visual Basic 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Microsoft Visual Basic 中的 ADO 代码示例</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">按语言的 ADO 事件实例化</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">在 Microsoft Visual C++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Microsoft Visual C++ 中的 ADO 代码示例</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">按语言的 ADO 事件实例化</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">在 Microsoft Visual C++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Microsoft Visual C++ 中的 ADO 代码示例</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">按语言的 ADO 事件实例化</a><br/><br/><a href="rds-tutorial-visual-j.md">RDS 教程 (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">在 Microsoft Visual J++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Microsoft Visual J++ 中的 ADO 代码示例</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">按语言的 ADO 事件实例化</a><br/><br/><a href="rds-tutorial-visual-j.md">RDS 教程 (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">在 Microsoft Visual J++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Microsoft Visual J++ 中的 ADO 代码示例</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>
@@ -105,11 +105,11 @@ ms.locfileid: "25937300"
 </tr>
 <tr class="odd">
 <td><p>Windows 2000</p></td>
-<td><p><a href="system-requirements-for-the-address-book-application.md">通讯簿应用程序的系统要求</a><br/><br/><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">授予 Web 服务器计算机来宾权限</a><br/><br/><a href="https://msdn.microsoft.com/library/ff836389(v=office.15)">注册自定义业务对象</a><br/><br/><a href="securing-rds-applications.md">保护 RDS 应用程序</a><br/><br/><a href="configuring-rds-on-windows-2000.md">在 Windows 2000 上配置 RDS</a><br/><br/></p></td>
+<td><p><a href="system-requirements-for-the-address-book-application.md">通讯簿应用程序的系统要求</a><br/><br/><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">授予 Web 服务器计算机来宾权限</a><br/><br/><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object">注册自定义业务对象</a><br/><br/><a href="securing-rds-applications.md">保护 RDS 应用程序</a><br/><br/><a href="configuring-rds-on-windows-2000.md">在 Windows 2000 上配置 RDS</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>XML</p></td>
-<td><p><a href="persisting-records-in-xml-format.md">以 XML 格式暂留记录</a><br/><br/><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/></p></td>
+<td><p><a href="persisting-records-in-xml-format.md">以 XML 格式持久化记录</a><br/><br/><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/></p></td>
 </tr>
 </tbody>
 </table>

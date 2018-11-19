@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937629"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026244"
 ---
 # <a name="gotocontrol-macro-action"></a>GoToControl 宏操作
 
@@ -41,18 +41,13 @@ ms.locfileid: "25937629"
 <tr class="odd">
 <td><p><strong>控件名称</strong></p></td>
 <td><p>希望获得焦点的字段或控件的名称。 在<strong>操作参数</strong>部分的宏生成器窗格中的<strong>控件名称</strong>框中输入字段或控件的名称。 这是必需参数。</p>
-
-> [!NOTE]
-> **控件名称**参数，而不是完全限定标识符，如表单中输入仅字段或控件的名称 ！产品 ！[Product ID]。
-
-
-<p></p></td>
+<p><strong>注意</strong>：<strong>控件名称</strong>参数，而不是完全限定标识符，如表单中输入仅字段或控件的名称 ！产品 ！[Product ID]。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 不能使用**GoToControl**操作将焦点移到隐藏窗体上的控件。
 

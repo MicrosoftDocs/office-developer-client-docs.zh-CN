@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed31f0105d8381667e1398fc5d91577d40998d81
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 14e23b0df5344048fb510d8813a6e1bc2b9e1978
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998817"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026027"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>UNION 操作 (Microsoft Access SQL)
 
@@ -62,7 +62,7 @@ FROM Customers
 WHERE OrderAmount > 1000;
 ```
 
-默认情况下，使用 UNION 操作时不会返回重复的记录；但是，可以包含 [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) 谓词以确保返回所有记录。这样也会使查询运行得更快。
+默认情况下，使用 UNION 操作时不会返回重复的记录；但是，可以包含 [ALL](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql) 谓词以确保返回所有记录。这样也会使查询运行得更快。
 
 在 UNION 操作中的所有查询必须请求相同数量的字段；但是，这些字段不必都具有相同的大小或数据类型。
 

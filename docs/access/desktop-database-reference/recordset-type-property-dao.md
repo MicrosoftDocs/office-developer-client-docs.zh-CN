@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835080(v=office.15)
 ms:contentKeyID: 48548030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 540e5b8226907dc580d34ab3215d3c0dca67e3f6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: b3eedbab083807f91ffef78aab25d110db779188
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936880"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026083"
 ---
 # <a name="recordsettype-property-dao"></a>Recordset.Type 属性 (DAO)
 
@@ -49,12 +49,7 @@ ms.locfileid: "25936880"
 <tr class="even">
 <td><p><strong>dbOpenDynamic</strong></p></td>
 <td><p>动态（仅适用于 ODBCDirect 工作区）</p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
-<p></p></td>
+<p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenDynaset</strong></p></td>

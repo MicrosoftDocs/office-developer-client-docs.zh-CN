@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 99e2b31cf686895a56e9d70b177314355c1aff3c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: b961869f3add04cf4af827f96721aad6dba611b6
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945144"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025600"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>自定义 Microsoft Access 数据库引擎的 Windows 注册表设置
 
@@ -25,8 +25,8 @@ ms.locfileid: "25945144"
 
 自定义 Windows 注册表设置有以下四种不同的方式：
 
-- [使用 Regedit.exe 覆盖默认设置](https://msdn.microsoft.com/library/ff193205\(v=office.15\))
-- [若要管理设置的应用程序的注册表树中创建一个分区](https://msdn.microsoft.com/library/ff836342\(v=office.15\))
-- [使用 DAO 的 SetOption 方法](https://msdn.microsoft.com/library/ff194471\(v=office.15\))
-- [使用 for Access 的 Microsoft OLE DB 提供程序中的连接属性](https://msdn.microsoft.com/library/ff196356\(v=office.15\))
+- [使用 Regedit.exe 覆盖默认设置](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [若要管理设置的应用程序的注册表树中创建一个分区](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
+- [使用 DAO 的 SetOption 方法](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
+- [使用 for Access 的 Microsoft OLE DB 提供程序中的连接属性](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)
 

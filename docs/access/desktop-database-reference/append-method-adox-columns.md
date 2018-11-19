@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a6f7ac26c3089a973a68e07acbe0f6f3e4029df
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 12e79802587874aacb5b47a56387e331b8148069
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949437"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026370"
 ---
 # <a name="append-method-adox-columns"></a>Append 方法（ADOX 列）
 
@@ -23,12 +23,12 @@ ms.locfileid: "25949437"
 
 *列*。 追加*列* \[，*键入*\] \[，*DefinedSize*\]
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
 |*Column* |要追加的 **Column** 对象，或者要创建并追加的列的名称。|
-|*Type* |可选。 指定该列的数据类型的 **Long** 值。 *Type*参数对应于一个**Column**对象的[Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\))属性。|
+|*Type* |可选。 指定该列的数据类型的 **Long** 值。 *Type*参数对应于一个**Column**对象的[Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)属性。|
 |*DefinedSize* |可选。 指定该列的大小的 **Long** 值。 *DefinedSize*参数对应于一个**Column**对象的[DefinedSize](definedsize-property-adox.md)属性。|
 
 

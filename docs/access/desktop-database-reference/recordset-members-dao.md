@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 70593fdcab32602ba6b0e4597368f64371d8f116
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ab0a04fd7282c983bd200a16108babf5e40d240c
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937363"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026307"
 ---
 # <a name="recordset-members-dao"></a>记录集成员 (DAO)
 
@@ -39,13 +39,8 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>为可更新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象创建新记录。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-cancel-method-dao.md">取消</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong><a href="recordset-cancel-method-dao.md">Cancel</a></strong></p></td>
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
@@ -118,12 +113,7 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-nextrecordset-method-dao.md">NextRecordset</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>获取 <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong> 调用中多部分选择查询返回的下一个记录集（如果有的话），并且返回一个 <strong>Boolean</strong> 值，用于指示是有一个还是有多个附加记录处于待定状态（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
@@ -140,12 +130,7 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-update-method-dao.md">Update</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>将复制缓冲区的内容保存到可更新的 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象。</p></td>
 </tr>
 </tbody>
@@ -172,32 +157,17 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>返回未完成上一批更新的记录数（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>返回一个书签数组，用于指示在上次批更新操作中产生冲突的行（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-batchsize-property-dao.md">BatchSize</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>设置或返回每次批处理中发送回服务器的语句数（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
@@ -205,7 +175,7 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>返回一个值，该值指示当前记录的位置是否在 <strong>Recordset</strong> 对象中的第一条记录之前。只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-bookmark-property-dao.md">书签</a></strong></p></td>
+<td><p><strong><a href="recordset-bookmark-property-dao.md">Bookmark</a></strong></p></td>
 <td><p>设置或返回一个书签，该书签唯一地标识 <strong><a href="recordset-object-dao.md">Recordset</a></strong> 对象中的当前记录。</p></td>
 </tr>
 <tr class="odd">
@@ -237,11 +207,11 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>返回一个值，该值指示当前记录位置是否位于 <strong>Recordset</strong> 对象的最后一条记录之后。只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-fields-property-dao.md">字段</a></strong></p></td>
+<td><p><strong><a href="recordset-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。只读。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-filter-property-dao.md">筛选器</a></strong></p></td>
+<td><p><strong><a href="recordset-filter-property-dao.md">Filter</a></strong></p></td>
 <td><p>设置或返回一个值，该值确定在以后打开的 <strong>Recordset</strong> 对象中包含的记录（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</p></td>
 </tr>
 <tr class="even">
@@ -282,12 +252,7 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset-recordstatus-property-dao.md">RecordStatus</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>返回一个值，如果当前记录是批更新的一部分，该值将指示当前记录的更新状态（仅适用于 ODBCDirect 工作区）。只读 <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong> 。</p></td>
 </tr>
 <tr class="even">
@@ -300,12 +265,7 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>指示异步操作（即用 <strong>dbRunAsync</strong> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
@@ -313,7 +273,7 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>类型</strong></p></td>
+<td><p><strong>Type</strong></p></td>
 <td><p>Office 14 的最终版本中将会提供此成员的说明。</p></td>
 </tr>
 <tr class="odd">
@@ -322,12 +282,7 @@ Recordset 对象代表基表中的记录或通过运行查询得到的记录。
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
+<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>设置或返回一个值，该值指示在批更新过程中如何为每条记录构建 WHERE 子句，以及批更新是应当使用 UPDATE 语句，还是应当使用后跟 INSERT 的 DELETE（仅适用于 ODBCDirect 工作区）。可读写。 <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong> 。</p></td>
 </tr>
 <tr class="odd">

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3840576f343492724c6f30860ceab8b82c9e2b9e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937727"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025999"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord 宏操作
 
@@ -57,18 +57,12 @@ ms.locfileid: "25937727"
 <td><p>整数或计算结果为一个整数值的表达式。 一个表达式前面必须有一个等号 (<strong>=</strong>)。 此参数指定要使成为当前记录的记录。 您可以使用两种方式的<strong>偏移量</strong>参数：</p>
 <ul>
 <li><p>当<strong>记录</strong>参数为<strong>下一个</strong>或<strong>上一步</strong>时，Microsoft Office Access 2007 将移动向前或向后<strong>偏移</strong>参数中指定的记录数。</p></li>
-<li><p><strong>转到</strong><strong>记录</strong>参数时，Access 将移动到的记录数等于<strong>偏移量</strong>参数中。 记录号显示在窗口底部的记录编号框。</p></li>
-</ul>
-
-> [!NOTE]
-> 如果您使用的**第一个**、**最后一个**，或**新建**设置为**记录**参数，则 Access 将忽略**偏移量**参数。 如果输入太大的**偏移量**参数，则 Access 将显示一条错误消息。 不能的**偏移量**参数输入负数。
-
-
-<p></p>
-<ul>
+<li><p><strong>转到</strong><strong>记录</strong>参数时，Access 将移动到的记录数等于<strong>偏移量</strong>参数中。 记录号显示在窗口底部的记录编号框。</p>
+<p><strong>注意</strong>： 如果您使用的<strong>第一个</strong>、<strong>最后一个</strong>，或<strong>新</strong>的<strong>记录</strong>参数设置，Access 会忽略<strong>偏移量</strong>参数。 如果输入太大的<strong>偏移量</strong>参数，则 Access 将显示一条错误消息。 不能的<strong>偏移量</strong>参数输入负数。</p></li>
 <li><p>当<strong>记录</strong>参数为<strong>下一个</strong>或<strong>上一步</strong>时，Microsoft Office Access 2007 将移动向前或向后<strong>偏移</strong>参数中指定的记录数。</p></li>
 <li><p><strong>转到</strong><strong>记录</strong>参数时，Access 将移动到的记录数等于<strong>偏移量</strong>参数中。 记录号显示在窗口底部的记录编号框。</p></li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

@@ -10,23 +10,20 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6e312bf0b6092df88f86f4bbf843d7951f3c86cc
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4e841da9d401558311682f0abcbefde9161b71b3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947873"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025992"
 ---
 # <a name="odbc-scalar-functions"></a>ODBC Scalar 函数
 
-
 **适用于**： Access 2013、 Office 2013
 
-Microsoft Access SQL 支持的 scalar 函数的定义的 ODBC 语法。 例如查询：
+Microsoft Access SQL 支持的 scalar 函数的定义的 ODBC 语法。 
 
-SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} \> 5
-
-该查询返回股票价格浮动的绝对值大于 5 的所有行。
+例如，查询`SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5`查询返回股票价格浮动的更改的绝对值大于 5 的所有行。
 
 可支持 ODBC 定义的标量函数的子集。下表列出了支持的函数。
 

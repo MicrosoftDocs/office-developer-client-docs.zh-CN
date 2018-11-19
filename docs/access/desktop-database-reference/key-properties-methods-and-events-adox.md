@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
 ms:contentKeyID: 48544145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e604983e6b83f3b51d0b8da7f6d4223d4402c67
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 242bcb429a01fcdcb5caeac328c7b89d844208a7
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946473"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026391"
 ---
 # <a name="key-properties-methods-and-events-adox"></a>关键属性、 方法和事件 (ADOX)
 
@@ -23,7 +23,7 @@ ms.locfileid: "25946473"
 - [DeleteRule 属性](deleterule-property-adox.md)
 - [Name 属性](name-property-adox.md)
 - [RelatedTable 属性](relatedtable-property-adox.md)
-- [Type 属性 (Key)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))
+- [Type 属性 (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [UpdateRule 属性](updaterule-property-adox.md)
 
 ## <a name="methods"></a>方法

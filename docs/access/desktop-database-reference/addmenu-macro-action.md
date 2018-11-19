@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: badfb4468c8f485d52535b33c644b88b5fae531d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d04c98da0ecef1c2323930c74588b7a6a07c2e29
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923166"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026265"
 ---
 # <a name="addmenu-macro-action"></a>AddMenu 宏操作
 
@@ -57,12 +57,7 @@ ms.locfileid: "25923166"
 <td><p>包含与菜单命令相对应的宏的宏组的名称。这是一个必选参数。 
 
 </p>
-
-> [!NOTE]
-> 如果在类库数据库中运行包含 **AddMenu** 操作的宏，Microsoft Office Access 2007 将只在当前数据库中查找具有此名称的宏组。
-
-
-<p></p></td>
+<p><strong>注意</strong>： 如果您运行包含<strong>AddMenu</strong>操作类库数据库中的宏，Microsoft Office Access 2007 查找具有此名称当前数据库中的宏组。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>状态栏文字</strong></p></td>

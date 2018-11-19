@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21798f476e0d67b7b23ef38c6e2b268893173ac6
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 5e0d5302291f1514fd11bca8fe7094af4525c900
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950060"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026475"
 ---
 # <a name="open-method-ado-recordset"></a>Open 方法（ADO 记录集）
 
@@ -23,7 +23,7 @@ ms.locfileid: "25950060"
 
 *记录集*。打开*源*、 *ActiveConnection*、 *CursorType*、 *LockType*、*选项*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
@@ -46,7 +46,7 @@ ADO **Recordset** 的默认游标是仅向前型只读游标，位于服务器�
 
 使用可选的*源*参数指定数据源使用下列选项之一：**命令**对象变量、 SQL 语句、 存储的过程、 表名称、 URL 或完整文件路径名称。 如果*源*是文件路径名称，它可以是完整路径 ("c:\\dir\\file.rst")，相对路径 ("...\\file.rst")，或者是 URL ("https://files/file.rst")。
 
-不建议使用**Open**方法的*Source*参数执行的操作查询，因为没有任何轻松确定呼叫是否成功，则不返回记录。 这种查询返回的 **Recordset** 将被关闭。 可以改为调用 [Command](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 对象的 **Execute** 方法或 [Connection](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 对象的 **Execute** 方法来执行不返回记录的查询（如 SQL INSERT 语句）。
+不建议使用**Open**方法的*Source*参数执行的操作查询，因为没有任何轻松确定呼叫是否成功，则不返回记录。 这种查询返回的 **Recordset** 将被关闭。 可以改为调用 [Command](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 对象的 **Execute** 方法或 [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) 对象的 **Execute** 方法来执行不返回记录的查询（如 SQL INSERT 语句）。
 
 *ActiveConnection*参数对应于[ActiveConnection](activeconnection-property-ado.md)属性，并指定在哪个连接来打开**Recordset**对象。 如果传递此参数的连接定义，ADO 将使用指定的参数打开新连接。 与客户端游标打开**Recordset**后 (**CursorLocation** = **adUseClient**)，您可以更改此属性以将更新发送到其他提供程序的值。 也可以将此属性设置为 **Nothing** （在 Microsoft Visual Basic 中）或 NULL，以使 **Recordset** 与任何提供程序断开连接。 但是，更改服务器端游标的 **ActiveConnection** 将生成错误。
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44dacdab7dc13855426bf366bda2801ddee8c022
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4dbd7de05a3bb2402d436e4bbac59f1ca4687317
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936691"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026328"
 ---
 # <a name="document-object-dao"></a>Document 对象 (DAO)
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -59,27 +58,25 @@ ms.locfileid: "25936691"
 > [!NOTE]
 > [!注释] 不要将上表列出的 **Container** 对象与带有相同名称的集合相混淆。Databases **Container** 对象引用所有保存的数据库对象，但是 **Databases** 集合只引用在特定工作区中打开的数据库对象。
 
-
-
 对于 **Document** 对象，您可以进行下列操作：
 
-  - 使用 **Name** 属性返回在创建某个对象时用户或 Microsoft Access 数据库引擎为该对象指定的名称。
+- 使用 **Name** 属性返回在创建某个对象时用户或 Microsoft Access 数据库引擎为该对象指定的名称。
 
-  - 使用 **Container** 属性返回包含 **Document** 对象的 **Container** 对象的名称。
+- 使用 **Container** 属性返回包含 **Document** 对象的 **Container** 对象的名称。
 
-  - 使用 **Owner** 属性设置或返回对象的所有者。要设置 **Owner** 属性，必须对 **Document** 对象具有写入权限，并且必须将属性设置为现有的 **User** 或 **Group** 对象的名称。
+- 使用 **Owner** 属性设置或返回对象的所有者。要设置 **Owner** 属性，必须对 **Document** 对象具有写入权限，并且必须将属性设置为现有的 **User** 或 **Group** 对象的名称。
 
-  - 使用 **UserName** 或 **Permissions** 属性设置或返回对象的用户或组的访问权限。要设置这些属性，必须具有对 **Document** 对象的写入权限，并且必须将 **UserName** 属性设置为现有的 **User** 或 **Group** 对象的名称。
+- 使用 **UserName** 或 **Permissions** 属性设置或返回对象的用户或组的访问权限。要设置这些属性，必须具有对 **Document** 对象的写入权限，并且必须将 **UserName** 属性设置为现有的 **User** 或 **Group** 对象的名称。
 
-  - 使用 **DateCreated** 和 **LastUpdated** 属性返回创建或上次修改 **Document** 对象时的日期和时间。
+- 使用 **DateCreated** 和 **LastUpdated** 属性返回创建或上次修改 **Document** 对象时的日期和时间。
 
 因为 **Document** 对象对应于现有对象，所以不能创建新的 **Document** 对象，或删除现有的此类对象。若要按照序号或 **Name** 属性设置来引用集合中的 **Document** 对象，可以使用下列任何一种语法形式：
 
-  - **Documents**(0)
+- **Documents**(0)
 
-  - **文档**（"*name*"）
+- **文档**（"*name*"）
 
-  - **文档**\!\[*名称*\]
+- **文档**\!\[*名称*\]
 
 ## <a name="example"></a>示例
 

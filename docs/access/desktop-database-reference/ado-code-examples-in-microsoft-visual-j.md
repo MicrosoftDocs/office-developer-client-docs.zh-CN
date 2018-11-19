@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 951eb10c30a0e83903b3f7c075e72d5f82e0ce9b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: a0394b95b392bf26f68dc64f64ad70ada09e8d86
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910878"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025761"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Microsoft Visual J++ 中的 ADO 代码示例
 
@@ -76,8 +76,8 @@ ms.locfileid: "25910878"
 - [State 属性示例](state-property-example-vj.md)
 - [Status 属性示例](status-property-example-vj.md)
 - [StayInSync 属性示例](stayinsync-property-example-vj.md)
-- [Type 属性示例 （字段）](https://msdn.microsoft.com/library/jj250207\(v=office.15\))
-- [Type 属性示例 （属性）](https://msdn.microsoft.com/library/jj249182\(v=office.15\))
+- [Type 属性示例 （字段）](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
+- [Type 属性示例 （属性）](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
 - [Value 属性示例](value-property-example-vj.md)
 - [Version 属性示例](version-property-example-vj.md)
 

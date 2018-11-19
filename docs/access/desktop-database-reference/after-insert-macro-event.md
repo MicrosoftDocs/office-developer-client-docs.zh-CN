@@ -10,27 +10,23 @@ f1_keywords:
 - vbaac10.chm3180
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4dc9d509dedfb74769c84f44a6237b9f6354dc16
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: af6bc99374c67560e9cd78a9f26bc9dd601c70d8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921682"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026146"
 ---
 # <a name="after-insert-macro-event"></a>After Insert 宏事件
-
 
 **适用于**： Access 2013、 Office 2013
 
 添加一条记录之后，发生此事件的**插入后**事件。
 
-
 > [!NOTE]
 > 在**插入后**事件仅适用于数据宏。
 
-
-
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 使用**插入后**事件执行您想要将记录添加到表时，会发生任何操作。 **插入后**的常见用途包括强制实施业务规则，工作流、 更新聚合总数，以及发送通知。
 

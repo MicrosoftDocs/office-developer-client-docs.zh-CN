@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 193cf5db350fdf0b30fe19da9a61026d1cd39aa9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937132"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026468"
 ---
 # <a name="filter-property-ado"></a>Filter 属性 (ADO)
 
@@ -41,12 +41,9 @@ ms.locfileid: "25937132"
   - *Operator*必须是以下项之一： \<， \>， \<= \>= \< \>，=，或**类似**。
 
   - *值*是将与其比较的字段值的值 (例如，'Smith'， \#8/24/95\#，12.345 或 $50.00)。 单引号使用字符串和井号 (\#) 与日期。 对于数字，可以使用小数点、美元符号和科学记数法。 如果*运算符***类似**，*值*可以使用通配符。 仅星号 (\*) 和百分号 （%） 允许使用通配符，并且它们必须在字符串中的最后一个字符。 *值*不能为 null。
-    
 
     > [!NOTE]
     > [!注释] 若要在筛选值中包含单引号 (')，则用两个单引号表示一个单引号。例如，若要筛选 O'Malley，则条件字符串应为 "col1 = 'O''Malley'"。若要在筛选值的开始和末尾均包含单引号，则使用井号 (#) 包围该字符串。例如，若要筛选 '1'，则条件字符串应为 "col1 = #'1'#"。
-
-
 
   - **AND** 和 **OR** 之间并没有优先级的区别。可以使用圆括号将子句分组。但是不能先将由 **OR** 连接的子句分组然后通过 **AND** 将该组与其他子句连接，如下所示：
 

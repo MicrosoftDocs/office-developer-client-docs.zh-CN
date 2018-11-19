@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 75e0422b6c6fcd2f893777884d35bade81a793f6
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 6255acb0d9b7678fd8a8105bb7d0dcbdbd453d39
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997040"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025782"
 ---
 # <a name="stream-object-ado"></a>Stream 对象 (ADO)
 
@@ -54,7 +54,7 @@ ms.locfileid: "25997040"
 
   - 使用 **Cancel** 方法中止异步 [Stream](cancel-method-ado.md) 操作。
 
-  - 使用 **Size** 属性确定 [Stream](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) 中的字节数。
+  - 使用 **Size** 属性确定 [Stream](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) 中的字节数。
 
   - 使用 **Position** 属性控制 [Stream](position-property-ado.md) 中的当前位置。
 

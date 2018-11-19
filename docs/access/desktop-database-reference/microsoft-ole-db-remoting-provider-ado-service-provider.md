@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8e9e6e655198cba28ece0951414af85ec14f26f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 07031639b707fc24a3e5b057520c601c9472b01b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878057"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026314"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Microsoft OLE DB Remoting Provider（ADO 服务提供程序）
 
@@ -153,7 +153,7 @@ cn.Properties("Internet Timeout") = 5000
 
 在 ADO 2.0 中，OLE DB Remoting Provider 只无法[Recordset](recordset-object-ado.md)对象的**Open**方法的*ActiveConnection*参数中指定。 从开始 ADO 2.1，提供程序可能还指定[Connection](connection-object-ado.md)对象的**Open**方法的*ConnectionString*参数中。
 
-与 **RDS.DataControl** 对象的 [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) 属性等效的属性不可用。 而使用[Recordset](recordset-object-ado.md)对象的**Open**方法的*Source*参数之后。
+与 **RDS.DataControl** 对象的 [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) 属性等效的属性不可用。 而使用[Recordset](recordset-object-ado.md)对象的**Open**方法的*Source*参数之后。
 
 通过指定"...;Remote Provider=MS Remote;..."，将创建包含一个四层方案。大于三层的方案均未经过测试，应该不会有此方面的需要。
 

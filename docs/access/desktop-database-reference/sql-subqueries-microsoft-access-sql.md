@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b2a7bdadeb700bdbc6bf18dda2e73401afb7df86
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4efa4e92d7fab2dc8a4aae932ccb1ffe69c7c6c8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937349"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026097"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>SQL 子查询 (Microsoft Access SQL)
 
@@ -68,7 +68,7 @@ ms.locfileid: "25937349"
 
 ## <a name="remarks"></a>注解
 
-可以在 SELECT 语句的字段列表中、在 [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) 子句中或在 [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) 子句中使用子查询来代替表达式。在子查询中，可以使用 SELECT 语句来提供一组要在 WHERE 或 HAVING 子句表达式中计算的一个或多个特定值。
+可以在 SELECT 语句的字段列表中、在 [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) 子句中或在 [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) 子句中使用子查询来代替表达式。在子查询中，可以使用 SELECT 语句来提供一组要在 WHERE 或 HAVING 子句表达式中计算的一个或多个特定值。
 
 通过同义的 ANY 或 SOME 谓词，可以检索在主查询的记录中满足与子查询所检索出的任何记录进行比较的比较条件的记录。下面的示例返回那些单价高于以 25% 或更高折扣出售的任何产品的单价的产品：
 
@@ -79,7 +79,7 @@ WHERE UnitPrice > ANY
 WHERE Discount >= .25);
 ```
 
-使用 [ALL](https://msdn.microsoft.com/library/ff195711\(v=office.15\)) 谓词可以在主查询中只检索满足子查询中检索的所有记录的比较条件的记录。如果将前面的示例中的 ANY 改为 ALL，查询将只返回那些单价高于以 25% 或更高折扣出售的所有产品单价的产品。它的限制性更强。
+使用 [ALL](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql) 谓词可以在主查询中只检索满足子查询中检索的所有记录的比较条件的记录。如果将前面的示例中的 ANY 改为 ALL，查询将只返回那些单价高于以 25% 或更高折扣出售的所有产品单价的产品。它的限制性更强。
 
 通过 IN 谓词可以只检索出在主查询的记录中作为子查询的一部分记录而包含相同值的记录。下面的示例返回所有以 25% 或更高折扣出售的所有产品：
 
@@ -94,7 +94,7 @@ WHERE Discount >= .25);
 
 在 True/False 比较条件中使用 EXISTS 谓词（带有可选的 NOT 保留字）可确定子查询是否返回任何记录。
 
-也可以在子查询中使用表名的别名来引用在子查询外部的 [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) 子句中列出的表。以下示例返回薪水等于或高于具有同等职称的所有雇员平均薪水的雇员的姓名。Employees 表别名为"T1"：
+也可以在子查询中使用表名的别名来引用在子查询外部的 [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) 子句中列出的表。以下示例返回薪水等于或高于具有同等职称的所有雇员平均薪水的雇员的姓名。Employees 表别名为"T1"：
 
 ```sql
 SELECT LastName,

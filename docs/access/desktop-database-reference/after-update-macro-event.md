@@ -10,27 +10,23 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 237b3633ab70bcdbe84ce52f7d25b2203091cb1e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 24a6bbd951fd19e7fdd25f4f1ab8bd8e9dcd2ade
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919134"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026188"
 ---
 # <a name="after-update-macro-event"></a>After Update 宏事件
-
 
 **适用于**： Access 2013、 Office 2013
 
 **更新后**事件发生之后更改的记录。
 
-
 > [!NOTE]
 > **更新后**事件仅适用于数据宏。
 
-
-
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 使用**更新后**事件执行您想要更改的记录时，会发生任何操作。 **插入后**的常见用途包括强制实施业务规则、 更新聚合总数，以及发送通知。
 

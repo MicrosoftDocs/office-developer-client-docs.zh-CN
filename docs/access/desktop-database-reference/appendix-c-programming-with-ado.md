@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249808(v=office.15)
 ms:contentKeyID: 48547024
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37263bc21eb46489027a10fd1e97f7a9fd90205d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: b92333406b6b08dd543d503edf6857f9a7a73b74
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943904"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026163"
 ---
 # <a name="appendix-c-programming-with-ado"></a>附录 C：利用 ADO 编程
 
 **适用于**： Access 2013、 Office 2013
 
-ADO 是一种 COM 自动化接口组件，可以用于很多编程语言，包括 Microsoft Visual Basic、VBScript、JScript、Visual C++ 和 Visual J++。其中每种工具和其他应用程序（如 Microsoft Office 和 Microsoft SQL Server）都分别安装了一种版本的 ADO。有关详细信息，请参阅[数据平台开发人员中心（英文）](https://msdn.microsoft.com/data/default.aspx)。
+ADO 是一种 COM 自动化接口组件，可以用于很多编程语言，包括 Microsoft Visual Basic、VBScript、JScript、Visual C++ 和 Visual J++。其中每种工具和其他应用程序（如 Microsoft Office 和 Microsoft SQL Server）都分别安装了一种版本的 ADO。有关详细信息，请参阅[数据平台开发人员中心（英文）](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)。
 
 ADO 的库是 msado15.dll，程序 ID (ProgID) 前缀是"ADODB"。 例如，若要显式引用 ADO[记录集](recordset-object-ado.md)，请使用。
 

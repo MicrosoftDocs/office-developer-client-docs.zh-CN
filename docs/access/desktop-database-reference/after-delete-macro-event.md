@@ -10,27 +10,23 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 943f16c5bb1f1525c8da36938fa6beb2e6f71444
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8f72083201fefffc5dfff4627cd3b54c1449e083
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929795"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026055"
 ---
 # <a name="after-delete-macro-event"></a>After Delete 宏事件
-
 
 **适用于**： Access 2013、 Office 2013
 
 删除记录之后，发生此事件**后删除**事件。
 
-
 > [!NOTE]
 > **删除后**事件仅适用于数据宏。
 
-
-
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 使用**删除后**事件执行您想要删除记录时，会发生任何操作。 **删除后**的常见用途包括强制实施业务规则，工作流、 更新聚合总数，以及发送通知。
 

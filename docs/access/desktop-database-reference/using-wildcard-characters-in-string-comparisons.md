@@ -1,20 +1,19 @@
 ---
 title: 在字符串比较中使用通配符
-TOCTitle: Using Wildcard Characters in String Comparisons
+TOCTitle: Using wildcard characters in string comparisons
 ms:assetid: 37dda2b8-c710-4f73-bb2a-76a1348c42fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc45b71f1b70f1a36a9456f3ab83612933af11f6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 9fb6c63d5d2db1db54d52a03fef41e44a29f42c9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946704"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026161"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>在字符串比较中使用通配符
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -64,11 +63,11 @@ ms.locfileid: "25946704"
 
 用于模式匹配的其他重要规则如下所示：
 
-  - 感叹号 (\!) *charlist*意味着除了*charlist 外*的那些*表达式*中发现的任何字符进行匹配的开头。 感叹号用在方括号外面时，将与自身匹配。
+- 感叹号 (\!) *charlist*意味着除了*charlist 外*的那些*表达式*中发现的任何字符进行匹配的开头。 感叹号用在方括号外面时，将与自身匹配。
 
-  - 您可以使用连字符 （-） 开头 （感叹号之后如果使用了） 或末尾的*字符列表*匹配本身。 如果用于任何其他位置，则标识 ANSI 字符的范围。
+- 您可以使用连字符 （-） 开头 （感叹号之后如果使用了） 或末尾的*字符列表*匹配本身。 如果用于任何其他位置，则标识 ANSI 字符的范围。
 
-  - 指定一系列字符时，这些字符必须以升序排序次序显示（A-Z 或 0-100）。 \[A 到 Z\]是有效的模式，但\[Z 到 A\]不是。
+- 指定一系列字符时，这些字符必须以升序排序次序显示（A-Z 或 0-100）。 \[A 到 Z\]是有效的模式，但\[Z 到 A\]不是。
 
-  - 字符序列\[\]将被忽略;它被视为一个零长度字符串 ("")。
+- 字符序列\[\]将被忽略;它被视为一个零长度字符串 ("")。
 

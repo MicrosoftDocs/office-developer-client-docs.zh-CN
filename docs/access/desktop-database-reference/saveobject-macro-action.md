@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 33180aa296fc40c05a3fc50da697aadbf6ada77e
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 253067d61a496073692ea4e462b9b0a67f0e26cd
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997159"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026293"
 ---
 # <a name="saveobject-macro-action"></a>SaveObject 宏操作
 
@@ -56,7 +56,9 @@ ms.locfileid: "25997159"
 
 ## <a name="remarks"></a>说明
 
-**SaveObject**操作适用于所有的数据库对象的用户可以直接打开和保存。 指定的对象必须打开**SaveObject**操作已在对象上的任何效果。 此操作具有相同的效果选择一个对象，然后通过单击**快速访问工具栏**上的**保存**保存它。 **对象类型**参数留空，并在**对象名称**参数中输入新名称具有相同的效果单击**另存为**上的**快速访问工具栏**中，并输入活动对象的新名称。 使用**SaveObject**操作，可以指定对象，以保存并通过宏执行**另存为**命令。
+**SaveObject**操作适用于所有的数据库对象的用户可以直接打开和保存。 指定的对象必须打开**SaveObject**操作已在对象上的任何效果。 此操作具有相同的效果选择一个对象，然后通过单击**快速访问工具栏**上的**保存**保存它。 
+
+**对象类型**参数留空，并在**对象名称**参数中输入新名称具有相同的效果单击**另存为**上的**快速访问工具栏**中，并输入活动对象的新名称。 使用**SaveObject**操作，可以指定对象，以保存并通过宏执行**另存为**命令。
 
 > [!NOTE]
 > [!注释] 不能使用 **SaveObject** 操作用新名称保存以下任何一项：

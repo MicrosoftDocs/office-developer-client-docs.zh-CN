@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250293(v=office.15)
 ms:contentKeyID: 48548887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58ec04f92bf4d1eaaa8ea36c5937cae0bab3729f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 659e9dfe0e19b4ddb14513042f26fc80b11a00c3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943820"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026062"
 ---
 # <a name="adowfc-programming"></a>ADO/WFC 编程
 
@@ -21,7 +21,7 @@ ms.locfileid: "25943820"
 
 ADO for Windows Foundation Classes (ADO/WFC) 支持所有标准的 ADO 方法、属性、对象和事件。但是，那些需要变量型作为参数并且在 Microsoft Visual Basic 等语言中展示了良好性能的操作，在 Visual J++ 等语言中性能却有所降低。为此，ADO/WFC 还提供了 [Field](field-object-ado.md) 对象的访问器函数，该函数采用本机 Java 数据类型而不是变量型数据类型。
 
-若要查看 ADO 文档中有关 ADO/WFC 包的更详细信息，请参阅 [ADO/WFC 语法索引](https://msdn.microsoft.com/library/jj250066\(v=office.15\))。
+若要查看 ADO 文档中有关 ADO/WFC 包的更详细信息，请参阅 [ADO/WFC 语法索引](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)。
 
 ## <a name="referencing-the-library"></a>引用库
 

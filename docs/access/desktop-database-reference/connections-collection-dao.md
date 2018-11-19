@@ -6,23 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f47b3ca15e51211a8593c5e177f53507128b2f76
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ca6acbea99dd2a6dcb434cf4c4d18a0a065af133
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936579"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026012"
 ---
 # <a name="connections-collection-dao"></a>Connections 集合 (DAO)
 
-
 **适用于**： Access 2013、 Office 2013
-
 
 > [!NOTE]
 > Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
-
-
 
 一个 **Connections** 集合，包含 **Workspace** 对象的当前 **Connection** 对象（仅适用于 ODBCDirect 工作区）。
 
@@ -34,16 +30,15 @@ ms.locfileid: "25936579"
 
 **Connection** 的 **Name** 属性设置是一个指定数据库文件路径的字符串。若要按照序号或 **Name** 属性设置来引用集合中的 **Connection** 对象，可以使用下列任何一种语法形式：
 
-  - **Connections**(0)
+- **Connections**(0)
 
-  - **连接**（"*name*"）
+- **连接**（"*name*"）
 
-  - **连接**\!\[*名称*\]
+- **连接**\!\[*名称*\]
 
 
 > [!NOTE]
 > [!注释] 可以多次打开同一数据源，这样会在 **Connections** 集合中生成重复的名称。应当将 **Connection** 对象分配给对象变量，并通过变量名来引用它们。
-
 
 
 ## <a name="example"></a>示例

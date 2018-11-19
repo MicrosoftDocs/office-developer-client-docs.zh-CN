@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53bb8b6e4520810b98bfe81c9d35186a2392904
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c93f312dd9b43a3235f049b9e6d3f95d08eba87f
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928591"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025593"
 ---
 # <a name="lookuprecord-data-block"></a>LookupRecord 数据块
 
@@ -43,13 +43,7 @@ ms.locfileid: "25928591"
 <tr class="odd">
 <td><p>在</p></td>
 <td><p>是</p></td>
-<td><p>一个字符串，标识的记录执行操作。 <em>在</em>参数可以包含表、 选择查询或 SQL 语句的名称。</p>
-
-> [!NOTE]
-> 指定记录不能包括链接表或 ODBC 数据源中存储的数据。
-
-
-<p></p></td>
+<td><p>一个字符串，标识的记录执行操作。 <em>在</em>参数可以包含表、 选择查询或 SQL 语句的名称。</p><p><strong>注意</strong>： 指定的记录不能包括链接的表或 ODBC 数据源中存储的数据。</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
@@ -65,7 +59,7 @@ ms.locfileid: "25928591"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 如果*在*和*Where Condition*参数指定的条件指定多个记录， **LookupRecord**数据块将操作仅在第一条记录上。
 

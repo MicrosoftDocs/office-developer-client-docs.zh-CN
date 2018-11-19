@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f90a0e4ff4accfd4496df46fb48faaf6f589f37c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: bc8fe1fa2addab5338d7c330d90e8616f0af9b5c
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945178"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025711"
 ---
 # <a name="address-book-data-binding-object"></a>通讯簿数据绑定对象
 
@@ -95,7 +95,7 @@ OBJECT 标记用于定义程序中的 **RDS.DataControl** 组件。此标记包�
 <td><p>提供 <strong>RDS.DataControl</strong> 连接到 SQL Server 的必要连接信息。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>设置或返回用于检索 <a href="recordset-object-ado.md">Recordset</a> 的查询字符串。</p></td>
 </tr>
 </tbody>

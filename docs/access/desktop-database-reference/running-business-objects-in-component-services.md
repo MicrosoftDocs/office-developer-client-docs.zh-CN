@@ -1,27 +1,27 @@
 ---
-title: 组件服务中运行业务对象
+title: 在组件服务中运行业务对象
 TOCTitle: Running business objects in component services
 ms:assetid: 12103458-b1dd-10fc-37e8-883fd6c6b9d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248893(v=office.15)
 ms:contentKeyID: 48543328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3dbf3c88f140210228a1bb3d6d0341d6bde42aa2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 0c690ea274f54cc8215f5986604af34ad825480d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944114"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026153"
 ---
-# <a name="running-business-objects-in-component-services"></a>组件服务中运行业务对象
+# <a name="running-business-objects-in-component-services"></a>在组件服务中运行业务对象
 
 **适用于**： Access 2013、 Office 2013
 
 业务对象可以是可执行文件 (.exe) 或动态链接库 (.dll)。采用何种配置来运行业务对象取决于该对象是 .dll 还是 .exe 文件：
 
-  - 可以通过 DCOM 调用作为 .exe 文件创建的业务对象。如果通过 Internet 信息服务 (IIS) 使用此类业务对象，则还必须进行数据封送，这将降低客户端性能。
+- 可以通过 DCOM 调用作为 .exe 文件创建的业务对象。如果通过 Internet 信息服务 (IIS) 使用此类业务对象，则还必须进行数据封送，这将降低客户端性能。
 
-  - 可以通过 IIS（以及 HTTP）使用作为 .dll 文件创建的业务对象。此类业务对象还可以在 DCOM 上使用，但只能通过组件服务或 Microsoft Transaction Server（如果使用 Windows NT）。业务对象 DLL 需要在 IIS 服务器计算机上进行注册，这样才能通过 IIS 进行访问。（有关如何配置 DLL 以在 DCOM 上运行的步骤，请参阅"[启用 DLL 以在 DCOM 上运行](enabling-a-dll-to-run-on-dcom.md)"部分。）
+- 可以通过 IIS（以及 HTTP）使用作为 .dll 文件创建的业务对象。此类业务对象还可以在 DCOM 上使用，但只能通过组件服务或 Microsoft Transaction Server（如果使用 Windows NT）。业务对象 DLL 需要在 IIS 服务器计算机上进行注册，这样才能通过 IIS 进行访问。（有关如何配置 DLL 以在 DCOM 上运行的步骤，请参阅"[启用 DLL 以在 DCOM 上运行](enabling-a-dll-to-run-on-dcom.md)"部分。）
 
 
 > [!NOTE]

@@ -6,20 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f501b5884a8149850df7c1d16a141f345da90e52
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925427"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944513"
 ---
 # <a name="messagebox-macro-action"></a>MessageBox 宏操作
 
-
 **适用于**： Access 2013、 Office 2013
-
-
-
 
 您可以使用**MessageBox**操作显示包含警告或信息性消息一个消息框。 例如，您可以使用验证宏使用**MessageBox**操作。 当控件或记录失败时在宏中的有效性验证条件时，一个消息框可以显示一条错误消息，并提供有关应输入的数据类型的说明。
 
@@ -48,18 +44,18 @@ ms.locfileid: "25925427"
 <td><p>指定是否计算机的扬声器发出嘟嘟声显示消息时。 单击<strong>是</strong>（发出嘟嘟声） 或<strong>否</strong>（不发出嘟嘟声）。 默认值为 <strong>"是"</strong>。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>类型</strong></p></td>
+<td><p><strong>Type</strong></p></td>
 <td><p>消息框中的类型。 每种类型有不同的图标。 单击<strong>无</strong><strong>关键</strong><strong>警告？</strong>，<strong>警告 ！</strong>，或<strong>信息</strong>。 默认值为<strong>None</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>标题</strong></p></td>
+<td><p><strong>Title</strong></p></td>
 <td><p>在消息框标题栏中显示的文本。 例如，您可以标题栏中显示&quot;客户 ID 验证&quot;。 如果您将此参数留空， &quot;Microsoft Access&quot;显示。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 **MessageBox**操作可用于创建带格式的错误消息类似于由 Microsoft Access 显示内置的错误消息。 **MessageBox**操作允许您提供三个部分的消息参数中的邮件。 分隔各节与"@"字符。
 

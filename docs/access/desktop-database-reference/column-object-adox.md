@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
 ms:contentKeyID: 48547034
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac4416dce7d3f9fa52c4b948b1e8d3e0167c2751
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b1b7ebd312727e1dc5071964cf1125d1c76bec4d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930628"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026006"
 ---
 # <a name="column-object-adox"></a>Column 对象 (ADOX)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25930628"
 
   - 使用 [Name](name-property-adox.md) 属性标识列。
 
-  - 使用 [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) 属性指定列的数据类型。
+  - 使用 [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) 属性指定列的数据类型。
 
   - 使用 [Attributes](attributes-property-adox.md) 属性确定列是否为定长，或者列是否可以包含空值。
 

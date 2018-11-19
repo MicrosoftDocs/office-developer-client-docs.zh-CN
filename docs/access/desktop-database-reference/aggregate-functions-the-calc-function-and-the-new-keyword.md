@@ -1,26 +1,26 @@
 ---
-title: 聚合函数、 CALC 函数和 NEW 关键字
+title: 聚合函数、CALC 函数和 NEW 关键字
 TOCTitle: Aggregate functions, the CALC function, and the NEW keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db726ea0b51a345e0e40c9814cef100b90b1350f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fb3e667a23d5bfd1d3dda5b4eb8dbd60a47e36ba
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947887"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025985"
 ---
-# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>聚合函数、 CALC 函数和 NEW 关键字
+# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>聚合函数、CALC 函数和 NEW 关键字
 
 
 **适用于**： Access 2013、 Office 2013
 
 数据定形支持以下函数。分配给包含作为操作对象的列的章节的名称是 *chapter-alias*。
 
-章节别名可以是完全限定名称，由指向包含 *column-name* 的章节的各章节列名组成，各部分均由句点分隔。例如，如果父章节 chap1 包含子章节 chap2，而后者具有一个数量列 amt，则限定名称为 chap1.chap2.amt。
+章节别名可能完全限定，包含导致本章包含的*列名称，* 所有句点隔开每个章节列名称。 例如，如果父章节 chap1 包含子章节 chap2，而后者具有一个数量列 amt，则限定名称为 chap1.chap2.amt。
 
 <table>
 <colgroup>
@@ -61,17 +61,12 @@ ms.locfileid: "25947887"
 <tr class="odd">
 <td><p>任何 (<em>章节别名</em>。<em>列名称</em>)</p></td>
 <td><p>指定列的值。只有对于章节中所有行该列的值都相同时，ANY 才具有可预测的值。
-</p>
-
-> [!NOTE]
-> 如果对于章节中所有行，该列的值不同，则 SHAPE 命令会任意返回一个值作为 ANY 函数的值。
-
-
-<p></p></td>
+</p><p><strong>注意</strong>： 如果列不包含相同的章节中的行的所有值，SHAPE 命令任意返回值为任何函数的值之一。</p></td>
 </tr>
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -92,6 +87,7 @@ ms.locfileid: "25947887"
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -112,6 +108,7 @@ ms.locfileid: "25947887"
 </tbody>
 </table>
 
+<br/>
 
 随 NEW 关键字传递的 *field-type* 可以是以下任意数据类型。
 

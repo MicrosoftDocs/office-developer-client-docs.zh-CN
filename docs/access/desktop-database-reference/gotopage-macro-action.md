@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f754cb913918a757c91f8b87e00ef88fb0674684
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 179ee840370cef98c70e947cef555401408bbe12
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936677"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026220"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage 宏操作
-
 
 **适用于**： Access 2013、 Office 2013
 
@@ -56,7 +55,7 @@ ms.locfileid: "25936677"
 </table>
 
 > [!NOTE]
-> >**右**和**关闭**参数的测量以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。
+> **右**和**关闭**参数的测量以英寸或厘米，具体取决于 Windows 控制面板中的区域设置。
 
 ## <a name="remarks"></a>说明
 
@@ -66,9 +65,9 @@ ms.locfileid: "25936677"
 
 在以下情况下，不能使用 **GoToPage** 操作：
 
-  - 将焦点移到隐藏窗体上的页上。
+- 将焦点移到隐藏窗体上的页上。
 
-  - 在选项卡控件中将焦点从某一页移到另一页上。
+- 在选项卡控件中将焦点从某一页移到另一页上。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **GoToPage** 操作，请使用 **DoCmd** 对象的 **GoToPage** 方法。
 

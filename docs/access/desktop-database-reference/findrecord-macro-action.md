@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 19b6c80af2bcee9ca3dbe51bbbcf56343f33d550
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4c115a5f7c2d13e918e891e80997a7327885669d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937608"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026272"
 ---
 # <a name="findrecord-macro-action"></a>FindRecord 宏操作
 
@@ -58,11 +58,7 @@ ms.locfileid: "25937608"
 <tr class="odd">
 <td><p><strong>格式化搜索</strong></p></td>
 <td><p>指定搜索是否包括带格式的数据。 单击<strong>是</strong>（Microsoft Office Access 2007 将按其格式并显示在字段中搜索数据） 或<strong>否</strong>（存储在数据库中，这并不总是相同显示时，访问数据的搜索）。 默认值为 <strong>"否"</strong>。 此功能可用于将搜索限制为特定格式的数据。 例如，单击<strong>是</strong>，并在<strong>查找内容</strong>参数来查找格式设置为包含逗号分隔的字段的值为 1234 键入<strong>1234</strong> 。 如果您想要键入<strong>1234年</strong>以搜索此字段中的数据，请单击<strong>否</strong>。 要搜索日期，请单击<strong>是</strong>以查找完全按照它的格式设置，如 2003 年 7 月-08-的日期。 如果您单击<strong>否</strong>，在 Windows 控制面板中的区域设置中设置的格式输入<strong>查找内容</strong>参数的日期。 在区域设置中的<strong>日期</strong>选项卡上找到的<strong>短日期格式</strong>框中显示此格式。 例如，如果<strong>短日期格式</strong>框设置为<strong>d/yy</strong>，可以输入 7/8/03，并对应于 2003 年 7 月 8 日，无论该字段的格式的日期字段中，Access 将查找的所有条目。</p>
-
-> [!NOTE]
-> **格式搜索**参数才会生效，只有当前字段是绑定的控件、**匹配**参数设置为**整个字段****只搜索当前字段**参数设置为**是**，和**区分大小写**参数设置为**No**。
-
-
+<p><strong>注意</strong>：<strong>格式搜索</strong>参数才会生效，仅在当前字段是绑定的控件，如果<strong>匹配</strong>参数设置为<strong>整个字段</strong>，<strong>只搜索当前字段</strong>参数设置为<strong>是</strong>，和<strong>匹配案例</strong>参数设置为<strong>否</strong>。</p>
 <p>如果您设置为<strong>是</strong>或<strong>只搜索当前字段</strong>为<strong>否</strong><strong>区分大小写</strong>，还必须设置<strong>格式搜索</strong>为<strong>是</strong>。</p></td>
 </tr>
 <tr class="even">

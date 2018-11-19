@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
 ms:contentKeyID: 48546182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7716e6de9fbda6ffab8071d5d794465efb6a51c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 874662585292b9d9a9b2bc53f5b6fe5178e3517b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870161"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025845"
 ---
 # <a name="cursorlocation-property-ado"></a>CursorLocation 属性 (ADO)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25870161"
 
 此属性设置仅影响在设置了该属性后建立的连接。更改 **CursorLocation** 属性对现有的连接没有影响。
 
-[Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) 方法返回的游标将继承此设置。 **Recordset** 对象将从其关联的连接自动继承此设置。
+[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) 方法返回的游标将继承此设置。 **Recordset** 对象将从其关联的连接自动继承此设置。
 
 此属性在 [Connection](connection-object-ado.md) 或已关闭的 [Recordset](recordset-object-ado.md) 上为可读/写属性，而在打开的 **Recordset** 上为只读属性。
 

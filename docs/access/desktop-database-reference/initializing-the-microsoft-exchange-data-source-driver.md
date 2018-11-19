@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 39cad98bc6f14509491e78ac4057d6488528f0b4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c64f28769d88c2684485ba537bdbdf22afd30ac5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947852"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026048"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>初始化 Microsoft Exchange 数据源驱动程序
 
@@ -169,7 +169,7 @@ Microsoft Access 数据库引擎使用此设置指定 Aceexch.dll 的位置。 �
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>为 Outlook 和 Exchange 数据自定义 Schema.ini 文件
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>自定义 Outlook 和 Exchange 数据的 Schema.ini 文件
 
 Outlook 和 Exchange ISAM 使用 Schema.ini 文件的方式类似于 Text ISAM 使用它的方式。Schema.ini 包含数据源的特定信息：数据的格式以及需要进行访问的列的名称。
 

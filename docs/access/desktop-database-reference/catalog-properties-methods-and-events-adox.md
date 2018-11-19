@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
 ms:contentKeyID: 48545989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52c1d64d6c6e9c2e7413f7e31dde73ebdf306ae1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 57dbb8d6cf526f51999c22b0cb0fffc84d34f3e3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946564"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025803"
 ---
 # <a name="catalog-properties-methods-and-events-adox"></a>Catalog 的属性、方法和事件 (ADOX)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25946564"
 
 - [创建方法](create-method-adox.md)
 - [GetObjectOwner 方法](getobjectowner-method-adox.md)
-- [SetObjectOwner 方法](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
+- [SetObjectOwner 方法](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
 
 ## <a name="events"></a>事件
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249330(v=office.15)
 ms:contentKeyID: 48545117
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e64a7166b73c5fca1fa7f5e0b63fabeec715c52
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 973e5e3a6d9c61a0fdc6b259a8a7b846b62af6fd
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927498"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026104"
 ---
 # <a name="precision-property-adox"></a>Precision 属性 (ADOX)
 
@@ -22,7 +22,7 @@ ms.locfileid: "25927498"
 
 ## <a name="settings-and-return-values"></a>设置和返回值
 
-设置和返回一个 **Long** 值，该值为当列的 [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) 属性为数值类型时数据值的最大精度。对于所有其他数据类型将忽略 **Precision** 。
+设置和返回一个 **Long** 值，该值为当列的 [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) 属性为数值类型时数据值的最大精度。对于所有其他数据类型将忽略 **Precision** 。
 
 ## <a name="remarks"></a>备注
 

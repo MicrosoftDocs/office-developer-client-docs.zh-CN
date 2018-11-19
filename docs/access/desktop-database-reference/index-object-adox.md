@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
 ms:contentKeyID: 48548929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cc27964bed572431f3482e0834868690f3b77df
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5bc2eeaf4d26c957abb67780fe2f5d0df8f73049
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921899"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026174"
 ---
 # <a name="index-object-adox"></a>Index 对象 (ADOX)
 
@@ -27,19 +27,19 @@ ms.locfileid: "25921899"
 
 使用 **Index** 对象的属性和集合，可以执行下列操作：
 
-  - 使用 [Name](name-property-adox.md) 属性标识索引。
+- 使用 [Name](name-property-adox.md) 属性标识索引。
 
-  - 使用 [Columns](columns-collection-adox.md) 集合访问索引的数据库列。
+- 使用 [Columns](columns-collection-adox.md) 集合访问索引的数据库列。
 
-  - 使用 [Unique](unique-property-adox.md) 属性指定索引键是否必须唯一。
+- 使用 [Unique](unique-property-adox.md) 属性指定索引键是否必须唯一。
 
-  - 使用 [PrimaryKey](primarykey-property-adox.md) 属性指定索引是否为表的主键。
+- 使用 [PrimaryKey](primarykey-property-adox.md) 属性指定索引是否为表的主键。
 
-  - 使用 [IndexNulls](indexnulls-property-adox.md) 属性指定在其索引字段中具有空值的记录是否具有索引项。
+- 使用 [IndexNulls](indexnulls-property-adox.md) 属性指定在其索引字段中具有空值的记录是否具有索引项。
 
-  - 使用 [Clustered](clustered-property-adox.md) 属性指定索引是否为聚集索引。
+- 使用 [Clustered](clustered-property-adox.md) 属性指定索引是否为聚集索引。
 
-  - 使用 [Properties](properties-collection-ado.md) 集合访问提供程序特定的索引属性。
+- 使用 [Properties](properties-collection-ado.md) 集合访问提供程序特定的索引属性。
 
 
 > [!NOTE]

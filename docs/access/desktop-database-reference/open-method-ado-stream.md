@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: b20a68f1707e496b92ba8acbf8bc7ed8d8a2b058
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949822"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026412"
 ---
 # <a name="open-method-ado-stream"></a>Open 方法（ADO 流）
 
@@ -25,7 +25,7 @@ ms.locfileid: "25949822"
 
 *流*。 打开*源*、*模式*、 *OpenOptions*、*用户名*、*密码*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
@@ -37,7 +37,7 @@ ms.locfileid: "25949822"
 
 ## <a name="remarks"></a>备注
 
-作为源参数，*用户 Id*和*密码*参数中传递**Record**对象时不使用**Record**对象访问是已可用。 同样， **Record**对象[模式](mode-property-ado.md)被转移到**Stream**对象。如果未指定*源*，打开的**流**不包含数据和的[大小](https://msdn.microsoft.com/library/jj250128\(v=office.15\))为零 (0)。 若要避免丢失**流**关闭时，会写入此**流**的任何数据，请使用[CopyTo](copyto-method-ado.md)或[SaveToFile](savetofile-method-ado.md)方法保存**流**或将其保存到另一个内存位置。
+作为源参数，*用户 Id*和*密码*参数中传递**Record**对象时不使用**Record**对象访问是已可用。 同样， **Record**对象[模式](mode-property-ado.md)被转移到**Stream**对象。如果未指定*源*，打开的**流**不包含数据和的[大小](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)为零 (0)。 若要避免丢失**流**关闭时，会写入此**流**的任何数据，请使用[CopyTo](copyto-method-ado.md)或[SaveToFile](savetofile-method-ado.md)方法保存**流**或将其保存到另一个内存位置。
 
 **AdOpenStreamFromRecord** *OpenOptions*值标识*源*参数设置为已打开的**Record**对象的内容。 默认行为是*源*视为直接指向树状结构中，例如文件中的节点的 URL。 将打开与该节点关联的默认流。
 

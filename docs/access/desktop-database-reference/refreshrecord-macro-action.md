@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4b7ec534579b070d342fe2efd80af44e2ea921ef
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5e842ed4898f98f0d3c51955c3fb66010ef02853
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927268"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026195"
 ---
 # <a name="refreshrecord-macro-action"></a>RefreshRecord 宏操作
 
@@ -32,7 +32,7 @@ ms.locfileid: "25927268"
 
 ## <a name="client-database"></a>客户端数据库
 
-在客户端数据库中，您可以使用 **RefreshRecord** 操作更新活动窗体或数据表的基础记录源，以反映对当前集合中的数据所做的更改。这些更改包括当前用户或多用户环境中的其他用户所做的更改。该操作与 **[Refresh](https://msdn.microsoft.com/library/ff836021\(v=office.15\))** 方法等效。
+在客户端数据库中，您可以使用 **RefreshRecord** 操作更新活动窗体或数据表的基础记录源，以反映对当前集合中的数据所做的更改。这些更改包括当前用户或多用户环境中的其他用户所做的更改。该操作与 **[Refresh](https://docs.microsoft.com/office/vba/api/Access.Form.Refresh)** 方法等效。
 
 **RefreshRecord** 宏操作可在客户端数据库中执行下列操作：
 

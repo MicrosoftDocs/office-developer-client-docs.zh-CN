@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e521c4de48f45d080a3b201ac431b2d7da14bc22
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923222"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026209"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Recordset.RecordsetType 属性 (DAO)
 
@@ -65,12 +65,8 @@ ms.locfileid: "25923222"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!注释] 如果不希望在窗体位于窗体视图或数据表视图中时编辑绑定控件中的数据，可将 **RecordsetType** 属性设置为 2。
-
-
 
 **RecordsetType** 属性在 Microsoft Access 项目 (.adp) 中使用以下设置：
 
@@ -101,12 +97,8 @@ ms.locfileid: "25923222"
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!注释] 更改打开的窗体或报表的 **RecordsetType** 属性时，将会引起自动重新创建记录集。
-
-
 
 可以基于其字段绑定到窗体控件的多个基础表创建窗体。根据 **RecordsetType** 属性设置的不同，可以设置能够编辑哪些绑定控件。
 

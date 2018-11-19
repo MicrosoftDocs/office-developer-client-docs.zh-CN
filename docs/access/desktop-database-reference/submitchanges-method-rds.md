@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba6b6ff2d373a8b05d0839d4cc113f48b47d8cad
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 4b5c18aa12519e9206702eb2a152e6f0d084edc9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949584"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026342"
 ---
 # <a name="submitchanges-method-rds"></a>SubmitChanges 方法 (RDS)
 
@@ -25,7 +25,7 @@ ms.locfileid: "25949584"
 
 *DataFactory*。SubmitChanges*连接* *Recordset*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
@@ -36,7 +36,7 @@ ms.locfileid: "25949584"
 
 ## <a name="remarks"></a>备注
 
-必须先设置 [Connect](connect-property-rds.md)、[Server](server-property-rds.md) 和 [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) 属性，然后才能将 **SubmitChanges** 方法用于 **RDS.DataControl** 对象。
+必须先设置 [Connect](connect-property-rds.md)、[Server](server-property-rds.md) 和 [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) 属性，然后才能将 **SubmitChanges** 方法用于 **RDS.DataControl** 对象。
 
 如果在调用 [SubmitChanges](cancelupdate-method-rds.md) 后，针对同一 **Recordset** 对象又调用 **CancelUpdate** 方法，则由于更改已提交， **CancelUpdate** 调用将失败。
 

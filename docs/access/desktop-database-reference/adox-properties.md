@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a7bf5ee16987ba72c6f191b5f74390b26cf90ceb
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: bcad6b9e1c106bb365b0594e1e2cb32df33f0b23
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910899"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026090"
 ---
 # <a name="adox-properties"></a>ADOX 属性
 
@@ -108,15 +108,15 @@ ms.locfileid: "25910899"
 <td><p>指示列的排序顺序（仅限索引列）。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249169(v=office.15)">类型 （列）</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">类型 （列）</a></p></td>
 <td><p>指示列的数据类型。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248879(v=office.15)">类型 （键）</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">类型 （键）</a></p></td>
 <td><p>指示键的数据类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj250042(v=office.15)">类型 （表）</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">类型 （表）</a></p></td>
 <td><p>指示表的类型。</p></td>
 </tr>
 <tr class="odd">

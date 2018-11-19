@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250102(v=office.15)
 ms:contentKeyID: 48548088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d55fd58daf13fa0f3995480f35da4ccc0f17ac5c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3bd48ecee927f3b8a725c7d066997a4b907c5438
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946683"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026216"
 ---
 # <a name="using-the-command-object-access"></a>使用 Command 对象 (Access)
 
@@ -30,11 +30,7 @@ ms.locfileid: "25946683"
 本节包括下列主题：
 
 - [Command 对象概述](command-object-overview.md)
-
 - [创建和执行简单的命令](creating-and-executing-a-simple-command.md)
-
 - [Command 对象参数](command-object-parameters.md)
-
-- [使用 Command 调用存储过程](calling-a-stored-procedure-with-a-command.md)
-
-- [命名命令](named-commands.md)
+- [使用 command 调用存储过程](calling-a-stored-procedure-with-a-command.md)
+- [命名的命令](named-commands.md)

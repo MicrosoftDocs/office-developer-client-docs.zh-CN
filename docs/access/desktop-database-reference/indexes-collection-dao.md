@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21609d6299caf6de5e2fe0b777796033b69d9f87
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a809afb8e38cf23faf43d5eb49c5edadaf70b2b1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946690"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025831"
 ---
 # <a name="indexes-collection-dao"></a>Indexes 集合 (DAO)
 
@@ -23,17 +23,13 @@ ms.locfileid: "25946690"
 
 访问表类型的 Recordset 对象时，使用对象的 **Index** 属性来指定记录的顺序。将该属性设置为 ****Recordset**** 对象的基础 [**TableDef**](tabledef-object-dao.md) 对象的 **Indexes** 集合中现有 [Index](recordset-object-dao.md) 对象的 **Name** 属性设置。
 
-
 > [!NOTE]
 > [!注释] 仅当包含 **Indexes** 集合的 **TableDef** 对象的 [**Updatable**](connection-updatable-property-dao.md) 属性设置为 **True** 时，才能对该集合使用 **Append** 或 **Delete** 方法。
 
 创建新的 **Index** 对象之后，应使用 **Append** 方法将该对象添加到 **TableDef** 对象的 **Indexes** 集合中。
 
-
 > [!IMPORTANT]
 > [!重要信息] 确保数据符合新索引的属性。如果索引需要唯一值，请确保现有数据记录中没有重复值。如果存在重复值，Microsoft Access 数据库引擎将无法创建索引；当您尝试对新索引使用 Append 方法时，会生成可捕获的错误。
-
-
 
 ## <a name="example"></a>示例
 

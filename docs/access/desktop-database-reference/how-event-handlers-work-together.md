@@ -6,18 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a397b0f88bb60552a6e53432a3c8c4d788013103
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 294f1f87de85d8a8c54aeeb3ef74181cef755d32
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997269"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026363"
 ---
 # <a name="how-event-handlers-work-together"></a>事件处理程序如何协同工作
 
 **适用于**： Access 2013、 Office 2013
 
-除非您正在用 Visual Basic 编程，否则不管实际上您是否处理所有事件，都必须实现 **Connection** 和 **Recordset** 事件的所有事件处理程序。必须完成的实现工作量取决于编程语言。有关详细信息，请参阅 [ADO 事件实例化（按语言）](https://msdn.microsoft.com/library/jj250244\(v=office.15\))。
+除非您正在用 Visual Basic 编程，否则不管实际上您是否处理所有事件，都必须实现 **Connection** 和 **Recordset** 事件的所有事件处理程序。必须完成的实现工作量取决于编程语言。有关详细信息，请参阅 [ADO 事件实例化（按语言）](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado)。
 
 ## <a name="paired-event-handlers"></a>成对的事件处理程序
 

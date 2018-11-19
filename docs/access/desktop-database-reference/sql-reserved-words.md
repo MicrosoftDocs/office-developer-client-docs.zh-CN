@@ -10,21 +10,24 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc481a699ad0703075e7c7c4f97dffb147cd0280
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: e3de2ba6696ac9abc065c6d4588d362f79fba273
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998943"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026398"
 ---
 # <a name="sql-reserved-words"></a>SQL 保留字
 
 **适用于**： Access 2013、 Office 2013
 
-下表包含了 Microsoft Access 数据库引擎用于 SQL 语句的所有保留字。列表中没有全部采用大写字母的保留字也是其他应用程序的保留字。所以，这些保留字的各个帮助主题只提供一般性说明，而不是着重说明 SQL 用法。
+下表包含了 Microsoft Access 数据库引擎用于 SQL 语句的所有保留字。 
 
-> [!NOTE]
-> 后面标有星号 （*） 的单词被保留，但当前 Microsoft Access SQL 语句 （例如，**级别**和**TableID**） 的上下文中没有任何意义。 不加下划线的保留字没有链接的解释。
+- 列表中没有全部采用大写字母的保留字也是其他应用程序的保留字。 所以，这些保留字的各个帮助主题只提供一般性说明，而不是着重说明 SQL 用法。
+
+- 后面标有星号 （*） 的单词被保留，但当前 Microsoft Access SQL 语句 （例如，**级别**和**TableID**） 的上下文中没有任何意义。 
+
+- 不加下划线的保留字没有链接的解释。
 
 ## <a name="a"></a>A
 
@@ -47,7 +50,7 @@ ms.locfileid: "25998943"
 <td><p><a href="select-statement-microsoft-access-sql.md">AS</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">所有</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">ALL</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></p></td>
 </tr>
 <tr class="odd">
@@ -55,7 +58,7 @@ ms.locfileid: "25998943"
 <td><p>ASSERTION</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">更改</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821488(v=office.15)">ALTER</a></p></td>
 <td><p>AUTHORIZATION</p></td>
 </tr>
 <tr class="odd">
@@ -63,7 +66,7 @@ ms.locfileid: "25998943"
 <td><p><a href="equivalent-ansi-sql-data-types.md">AUTOINCREMENT</a>，请参阅 COUNTER</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">和</a></strong></p></td>
+<td><p><strong><a href="https://msdn.microsoft.com/library/ff192436(v=office.15)">And</a></strong></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Avg</a></strong></p></td>
 </tr>
 <tr class="odd">
@@ -111,8 +114,8 @@ ms.locfileid: "25998943"
 <td><p><a href="constraint-clause-microsoft-access-sql.md">约束约束</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">通过</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">容器</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTAINER</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sql-data-types.md">字节</a></p></td>
@@ -132,11 +135,11 @@ ms.locfileid: "25998943"
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">创建</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CREATE</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></p></td>
-<td><p><a href="sql-data-types.md">CURRENCY</a></p></td>
+<td><p><a href="sql-data-types.md">货币</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>CHECK</p></td>
@@ -195,8 +198,8 @@ ms.locfileid: "25998943"
 <td><p><a href="sql-data-types.md">双</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">删除</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">拖放</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DROP</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">DESC</a></p></td>
@@ -220,7 +223,7 @@ ms.locfileid: "25998943"
 </tr>
 <tr class="even">
 <td><p>EXCLUSIVECONNECT</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">从</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">FROM</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>EXEC 和 EXECUTE</p></td>
@@ -243,8 +246,8 @@ ms.locfileid: "25998943"
 <td><p><a href="sql-data-types.md">GUID</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">第一个</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">无</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">FIRST</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">FLOAT 和 FLOAT8</a>，请参阅 DOUBLE</p></td>
@@ -276,7 +279,7 @@ ms.locfileid: "25998943"
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a>，请参阅 SINGLE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">插入</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="create-index-statement-microsoft-access-sql.md">忽略</a></p></td>
@@ -299,8 +302,8 @@ ms.locfileid: "25998943"
 <td><p><a href="equivalent-ansi-sql-data-types.md">间隔</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">索引</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">到</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">INTO</a></p></td>
 </tr>
 <tr class="even">
 <td><p>INDEXCREATEDB</p></td>
@@ -323,7 +326,7 @@ ms.locfileid: "25998943"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">加入</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">JOIN</a></p></td>
 <td><p><a href="sql-data-types.md">LONGTEXT</a></p></td>
 </tr>
 <tr class="even">
@@ -335,7 +338,7 @@ ms.locfileid: "25998943"
 <td><p>MATCH</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">上一次</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">LAST</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></p></td>
 </tr>
 <tr class="odd">
@@ -479,7 +482,7 @@ ms.locfileid: "25998943"
 <td><p>SQL</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">架构</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHEMA</a></p></td>
 <td><p>SQLCODE、SQLERROR 和 SQLSTATE</p></td>
 </tr>
 <tr class="even">
@@ -487,7 +490,7 @@ ms.locfileid: "25998943"
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDev</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">选择</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECT</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></p></td>
 </tr>
 <tr class="even">
@@ -527,7 +530,7 @@ ms.locfileid: "25998943"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">表</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLE</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></p></td>
 </tr>
 <tr class="even">
@@ -544,7 +547,7 @@ ms.locfileid: "25998943"
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">TIME</a>，请参阅 DATETIME</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">用户</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">时间戳</a></p></td>
@@ -563,7 +566,7 @@ ms.locfileid: "25998943"
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">自</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">TO</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a>，请参阅 BINARY</p></td>
 </tr>
 <tr class="odd">
@@ -580,7 +583,7 @@ ms.locfileid: "25998943"
 </tr>
 <tr class="even">
 <td><p><a href="transform-statement-microsoft-access-sql.md">转换</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">视图</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>TRANSLATE</p></td>
@@ -592,11 +595,11 @@ ms.locfileid: "25998943"
 </tr>
 <tr class="odd">
 <td><p>TRIM</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">其中</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">WHERE</a></p></td>
 </tr>
 <tr class="even">
 <td><p>TRUE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">使用</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="union-operation-microsoft-access-sql.md">联合</a></p></td>
@@ -615,7 +618,7 @@ ms.locfileid: "25998943"
 <td><p><a href="equivalent-ansi-sql-data-types.md">YESNO</a>，请参阅 BIT</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">更新</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">UPDATE</a></p></td>
 <td><p>ZONE</p></td>
 </tr>
 <tr class="even">

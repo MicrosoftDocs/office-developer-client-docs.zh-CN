@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910801"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026377"
 ---
 # <a name="ado-methods"></a>ADO 方法
 
@@ -105,15 +105,15 @@ ms.locfileid: "25910801"
 <td><p>用于删除文件或目录及其所有子目录。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">执行 (ADO Command)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">执行 (ADO Command)</a></p></td>
 <td><p>用于执行在 <strong>CommandText</strong> 属性中指定的查询、SQL 语句或存储过程。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">执行 (ADO Connection)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">执行 (ADO Connection)</a></p></td>
 <td><p>执行指定的查询、SQL 语句、存储过程或提供程序特定的文本。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Find</a></p></td>
+<td><p><a href="find-method-ado.md">查找</a></p></td>
 <td><p>用于在 <strong>Recordset</strong> 中搜索满足指定条件的行。</p></td>
 </tr>
 <tr class="even">
@@ -141,7 +141,7 @@ ms.locfileid: "25910801"
 <td><p>用于将现有文件的内容加载到 <strong>Stream</strong> 中。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="move-method-ado.md">移动</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>用于移动 <strong>Recordset</strong> 对象中当前记录的位置。</p></td>
 </tr>
 <tr class="odd">
@@ -225,7 +225,7 @@ ms.locfileid: "25910801"
 <td><p>用于确定指定的 <strong>Recordset</strong> 对象是否支持特定类型的功能。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">更新</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>可保存对 <strong>Recordset</strong> 对象的当前行或 <strong>Record</strong> 对象的 <strong>Fields</strong> 集合所做的任何更改。</p></td>
 </tr>
 <tr class="even">

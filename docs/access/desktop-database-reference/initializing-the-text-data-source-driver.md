@@ -10,18 +10,18 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 9b240dbf55d2907b24b47349ee56e492f7d5e08d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997467"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026461"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>初始化文本数据源驱动程序
 
 **适用于**： Access 2013、 Office 2013
 
-文本数据源和 HTML 数据源使用相同的数据库驱动程序。
+使用相同的数据库驱动因素为两个文本数据源和 HTML 数据源。
 
 当您安装的文本数据源数据库驱动程序时，安装程序会将一组默认值写入 Microsoft Windows 注册表中的引擎和 ISAM 格式子项。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了文本数据源数据库驱动程序的初始化和 ISAM 格式设置。
 
@@ -44,6 +44,8 @@ ms.locfileid: "25997467"
     
     ExportCurrencySymbols=Yes
 ```
+
+<br/>
 
 Microsoft Access 数据库引擎使用如下所示的 Text 文件夹项。
 

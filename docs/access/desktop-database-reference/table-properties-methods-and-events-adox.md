@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249942(v=office.15)
 ms:contentKeyID: 48547535
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ccbebd7be6b3b0708173bb56ef9436d3e17695fe
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 9c3a3efb3a17ac7eb6e57ba16e83b9156103e3f4
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944961"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026020"
 ---
 # <a name="table-properties-methods-and-events-adox"></a>表格属性、 方法和事件 (ADOX)
 
@@ -25,7 +25,7 @@ ms.locfileid: "25944961"
 - [Keys 集合](keys-collection-adox.md)
 - [Name 属性](name-property-adox.md)
 - [ParentCatalog 属性](parentcatalog-property-adox.md)
-- [Type 属性 (Table)](https://msdn.microsoft.com/library/jj250042\(v=office.15\))
+- [Type 属性 (Table)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
 ## <a name="methods"></a>方法

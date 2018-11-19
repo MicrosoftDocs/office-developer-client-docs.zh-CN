@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6665159eaf0d385d213a35a8463cdc09e738ef45
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45416c68d52a2ba20ba9adfa19a6ebd89d1e0240
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888032"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026202"
 ---
 # <a name="appendix-a-providers"></a>附录 A：提供程序
 
@@ -27,11 +27,11 @@ ADO 功能强大而又灵活，因为它可以连接到若干个不同数据提�
 
 但是，由于每个数据提供程序都是唯一的，因此，应用程序与 ADO 之间的交互方式可能会根据数据提供程序的不同而略有差异。这种差异分为三类：
 
-  - [ConnectionString](connectionstring-property-ado.md) 属性中的连接参数。
+- [ConnectionString](connectionstring-property-ado.md) 属性中的连接参数。
 
-  - [Command](command-object-ado.md) 对象用法。
+- [Command](command-object-ado.md) 对象用法。
 
-  - 提供程序特定的 [Recordset](recordset-object-ado.md) 行为。
+- 提供程序特定的 [Recordset](recordset-object-ado.md) 行为。
 
 下面列出了 Microsoft 当前提供的每个数据提供程序的详细信息。
 
@@ -89,17 +89,17 @@ ADO 功能强大而又灵活，因为它可以连接到若干个不同数据提�
 
 若要使用服务提供程序，必须提供关键字。此外，还应该注意与每个服务提供程序关联的提供程序特定的动态属性。下面列出了与 Microsoft 当前提供的每个服务提供程序对应的提供程序特定的详细信息：
 
-  - [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
+- [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
-  - [Microsoft OLE DB Persistence Provider](microsoft-ole-db-persistence-provider-ado-service-provider.md)
+- [Microsoft OLE DB Persistence Provider](microsoft-ole-db-persistence-provider-ado-service-provider.md)
 
-  - [Microsoft OLE DB Remoting Provider](microsoft-ole-db-remoting-provider-ado-service-provider.md)
+- [Microsoft OLE DB Remoting Provider](microsoft-ole-db-remoting-provider-ado-service-provider.md)
 
 ## <a name="service-components"></a>服务组件
 
 [Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) 服务组件补充了数据提供程序的游标支持功能。此外，该服务组件还需要使用一个关键字，且有动态属性。
 
-有关提供程序的详细信息，请参阅 Microsoft Data Access Components SDK 中的 Microsoft OLE DB 文档，或者访问[数据平台开发人员中心（英文）](https://msdn.microsoft.com/data/default.aspx)。
+有关提供程序的详细信息，请参阅 Microsoft Data Access Components SDK 中的 Microsoft OLE DB 文档，或者访问[数据平台开发人员中心（英文）](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017)。
 
 ## <a name="provider-commands"></a>提供程序命令
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
 ms:contentKeyID: 48548407
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ffc8f1aa1097319929059ec21651e651184050d4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ebc91213d3ac7c638a56965ec54ddfb973eb667f
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944240"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026321"
 ---
 # <a name="connection-properties-methods-and-events-ado"></a>连接属性、 方法和事件 (ADO)
 
@@ -23,7 +23,7 @@ ms.locfileid: "25944240"
 - [CommandTimeout 属性](commandtimeout-property-ado.md)
 - [ConnectionString 属性](connectionstring-property-ado.md)
 - [ConnectionTimeout 属性](connectiontimeout-property-ado.md)
-- [会在 CursorLocation 属性](cursorlocation-property-ado.md)
+- [CursorLocation 属性](cursorlocation-property-ado.md)
 - [DefaultDatabase 属性](defaultdatabase-property-ado.md)
 - [Errors 集合](errors-collection-ado.md)
 - [IsolationLevel 属性](isolationlevel-property-ado.md)
@@ -39,7 +39,7 @@ ms.locfileid: "25944240"
 - [BeginTrans、 CommitTrans 和 RollbackTrans 方法](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Cancel 方法](cancel-method-ado.md)
 - [Close 方法](close-method-ado.md)
-- [Execute 方法 (ADO Connection)](https://msdn.microsoft.com/library/jj249832\(v=office.15\))
+- [Execute 方法 (ADO Connection)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Open 方法（ADO 连接）](open-method-ado-connection.md)
 - [OpenSchema 方法](openschema-method-ado.md)
 

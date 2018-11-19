@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 782445e9d0bb12054d41ac780c86d5d6f1a32972
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6f0511a1358e8d9b0d0ee820e83cf59d2400345
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926659"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025964"
 ---
 # <a name="applyfilter-macro-action"></a>ApplyFilter 宏操作
 
@@ -44,13 +44,7 @@ ms.locfileid: "25926659"
 <tbody>
 <tr class="odd">
 <td><p>Filter Name</p></td>
-<td><p>筛选或查询的限制或排序记录的表、 窗体或报表的名称。 您可以输入现有查询或筛选器的已保存为<strong>宏生成器</strong>窗格的<strong>操作参数</strong>部分的<strong>筛选器名称</strong>框中的查询的名称。</p>
-
-> [!NOTE]
-> 在使用此操作应用按窗体服务器筛选时，“筛选名称”参数必须为空。
-
-
-<p></p></td>
+<td><p>筛选或查询的限制或排序记录的表、 窗体或报表的名称。 您可以输入现有查询或筛选器的已保存为<strong>宏生成器</strong>窗格的<strong>操作参数</strong>部分的<strong>筛选器名称</strong>框中的查询的名称。</p><p><strong>注意</strong>： 当您使用此操作应用服务器筛选时，筛选器名称参数必须为空。</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>

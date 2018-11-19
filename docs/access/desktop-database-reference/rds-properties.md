@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
 ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7413b8b8f30e432f29fbee495fcc67e72439ad76
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 02e5fe6f323840fe89ce64983e028bc05604f849
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910704"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026251"
 ---
 # <a name="rds-properties"></a>RDS 属性
 
@@ -70,7 +70,7 @@ ms.locfileid: "25910704"
 <td><p>指示从自定义业务对象返回的 <strong>Recordset</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Server</a></p></td>
+<td><p><a href="server-property-rds.md">服务器</a></p></td>
 <td><p>指示 Internet 信息服务 (IIS) 名称和通信协议。</p></td>
 </tr>
 <tr class="even">
@@ -82,7 +82,7 @@ ms.locfileid: "25910704"
 <td><p>指示排序顺序是升序还是降序。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>指示用于检索 <strong>Recordset</strong> 的查询字符串。</p></td>
 </tr>
 <tr class="odd">

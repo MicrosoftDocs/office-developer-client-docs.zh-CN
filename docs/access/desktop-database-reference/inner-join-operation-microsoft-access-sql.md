@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4f9593e8bf0175ee6a25bd53d886c291eed6f75c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4179087408a9f7a68bccc673bcd456305ba41d5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929433"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026482"
 ---
 # <a name="inner-join-operation-microsoft-access-sql"></a>INNER JOIN 操作 (Microsoft Access SQL)
 
@@ -63,7 +63,7 @@ INNER JOIN 操作包含以下部分：
 
 ## <a name="remarks"></a>说明
 
-可以在任何 [FROM](https://msdn.microsoft.com/library/ff836674\(v=office.15\)) 子句中使用 INNER JOIN 操作。这是最常用的联接类型。只要两个表的公共字段上存在相匹配的值，Inner 联接就会组合这些表中的记录。
+可以在任何 [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) 子句中使用 INNER JOIN 操作。这是最常用的联接类型。只要两个表的公共字段上存在相匹配的值，Inner 联接就会组合这些表中的记录。
 
 可以将 INNER JOIN 用于 Departments 及 Employees 表，以选择每个部门的所有雇员。相反，选择所有部门（即使某些部门中并没有分配雇员）或者所有雇员（即使某些雇员没有分配到任何部门），则可以使用 [LEFT JOIN 或 RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) 操作来创建外部联接。
 

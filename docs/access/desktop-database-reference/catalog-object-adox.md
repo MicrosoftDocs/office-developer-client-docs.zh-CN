@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8bb6024043655c2529ce8309e5a6bead08cb4225
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: d680c89f7188dafd216edf62bd07c80fa924a119
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947054"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026237"
 ---
 # <a name="catalog-object-adox"></a>Catalog 对象 (ADOX)
 
@@ -30,5 +30,5 @@ ms.locfileid: "25947054"
 
 - 使用 [Create](create-method-adox.md) 方法创建新目录。
 
-- 使用 **GetObjectOwner** 和 [SetObjectOwner](getobjectowner-method-adox.md) 方法确定 [Catalog](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) 中的对象的所有者。
+- 使用 **GetObjectOwner** 和 [SetObjectOwner](getobjectowner-method-adox.md) 方法确定 [Catalog](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) 中的对象的所有者。
 
