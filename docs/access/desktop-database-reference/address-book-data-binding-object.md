@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f90a0e4ff4accfd4496df46fb48faaf6f589f37c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: bc8fe1fa2addab5338d7c330d90e8616f0af9b5c
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945178"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025711"
 ---
-# <a name="address-book-data-binding-object"></a><span data-ttu-id="34a6d-102">通讯簿数据绑定对象</span><span class="sxs-lookup"><span data-stu-id="34a6d-102">Address Book Data-Binding object</span></span>
+# <a name="address-book-data-binding-object"></a><span data-ttu-id="60809-102">通讯簿数据绑定对象</span><span class="sxs-lookup"><span data-stu-id="60809-102">Address Book Data-Binding object</span></span>
 
 
-<span data-ttu-id="34a6d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="34a6d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="60809-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="60809-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="34a6d-p101">"通讯簿"应用程序使用 [RDS.DataControl](datacontrol-object-rds.md) 对象将 SQL Server 数据库中的数据绑定到应用程序客户端 HTML 页中的可视化对象（在此例中为 DHTML 表）。事件驱动的 VBScript 程序逻辑使用 [RDS.DataControl](datacontrol-object-rds.md) 执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="34a6d-p101">The Address Book application uses the [RDS.DataControl](datacontrol-object-rds.md) object to bind data from the SQL Server database to a visual object (in this case, a DHTML table) in the application's client HTML page. The event-driven VBScript program logic uses the [RDS.DataControl](datacontrol-object-rds.md) to:</span></span>
+<span data-ttu-id="60809-p101">"通讯簿"应用程序使用 [RDS.DataControl](datacontrol-object-rds.md) 对象将 SQL Server 数据库中的数据绑定到应用程序客户端 HTML 页中的可视化对象（在此例中为 DHTML 表）。事件驱动的 VBScript 程序逻辑使用 [RDS.DataControl](datacontrol-object-rds.md) 执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="60809-p101">The Address Book application uses the [RDS.DataControl](datacontrol-object-rds.md) object to bind data from the SQL Server database to a visual object (in this case, a DHTML table) in the application's client HTML page. The event-driven VBScript program logic uses the [RDS.DataControl](datacontrol-object-rds.md) to:</span></span>
 
-  - <span data-ttu-id="34a6d-106">查询数据库、发送对数据库的更新和刷新数据网格。</span><span class="sxs-lookup"><span data-stu-id="34a6d-106">Query the database, send updates to the database, and refresh the data grid.</span></span>
+  - <span data-ttu-id="60809-106">查询数据库、发送对数据库的更新和刷新数据网格。</span><span class="sxs-lookup"><span data-stu-id="60809-106">Query the database, send updates to the database, and refresh the data grid.</span></span>
 
-  - <span data-ttu-id="34a6d-107">允许用户在数据网格中移动到第一个、下一个、上一个或最后一个记录。</span><span class="sxs-lookup"><span data-stu-id="34a6d-107">Allow users to move to the first, next, previous, or last record in the data grid.</span></span>
+  - <span data-ttu-id="60809-107">允许用户在数据网格中移动到第一个、下一个、上一个或最后一个记录。</span><span class="sxs-lookup"><span data-stu-id="60809-107">Allow users to move to the first, next, previous, or last record in the data grid.</span></span>
 
-<span data-ttu-id="34a6d-108">以下代码定义了 **RDS.DataControl** 组件：</span><span class="sxs-lookup"><span data-stu-id="34a6d-108">The following code defines the **RDS.DataControl** component:</span></span>
+<span data-ttu-id="60809-108">以下代码定义了 **RDS.DataControl** 组件：</span><span class="sxs-lookup"><span data-stu-id="60809-108">The following code defines the **RDS.DataControl** component:</span></span>
 
 ```vb 
  
@@ -36,15 +36,15 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 </OBJECT> 
 ```
 
-<span data-ttu-id="34a6d-p102">OBJECT 标记用于定义程序中的 **RDS.DataControl** 组件。此标记包括以下两种类型的参数：</span><span class="sxs-lookup"><span data-stu-id="34a6d-p102">The OBJECT tag defines the **RDS.DataControl** component in the program. The tag includes two types of parameters:</span></span>
+<span data-ttu-id="60809-p102">OBJECT 标记用于定义程序中的 **RDS.DataControl** 组件。此标记包括以下两种类型的参数：</span><span class="sxs-lookup"><span data-stu-id="60809-p102">The OBJECT tag defines the **RDS.DataControl** component in the program. The tag includes two types of parameters:</span></span>
 
-  - <span data-ttu-id="34a6d-111">与通用 OBJECT 标记关联的参数。</span><span class="sxs-lookup"><span data-stu-id="34a6d-111">Those associated with the generic OBJECT tag.</span></span>
+  - <span data-ttu-id="60809-111">与通用 OBJECT 标记关联的参数。</span><span class="sxs-lookup"><span data-stu-id="60809-111">Those associated with the generic OBJECT tag.</span></span>
 
-  - <span data-ttu-id="34a6d-112">特定于 **RDS.DataControl** 对象的参数。</span><span class="sxs-lookup"><span data-stu-id="34a6d-112">Those specific to the **RDS.DataControl** object.</span></span>
+  - <span data-ttu-id="60809-112">特定于 **RDS.DataControl** 对象的参数。</span><span class="sxs-lookup"><span data-stu-id="60809-112">Those specific to the **RDS.DataControl** object.</span></span>
 
-## <a name="generic-object-tag-parameters"></a><span data-ttu-id="34a6d-113">通用 OBJECT 标记参数</span><span class="sxs-lookup"><span data-stu-id="34a6d-113">Generic OBJECT Tag Parameters</span></span>
+## <a name="generic-object-tag-parameters"></a><span data-ttu-id="60809-113">通用 OBJECT 标记参数</span><span class="sxs-lookup"><span data-stu-id="60809-113">Generic OBJECT Tag Parameters</span></span>
 
-<span data-ttu-id="34a6d-114">下表列出了与 OBJECT 标记关联的参数。</span><span class="sxs-lookup"><span data-stu-id="34a6d-114">The following table describes the parameters associated with the OBJECT tag.</span></span>
+<span data-ttu-id="60809-114">下表列出了与 OBJECT 标记关联的参数。</span><span class="sxs-lookup"><span data-stu-id="60809-114">The following table describes the parameters associated with the OBJECT tag.</span></span>
 
 <table>
 <colgroup>
@@ -53,26 +53,26 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="34a6d-115">参数</span><span class="sxs-lookup"><span data-stu-id="34a6d-115">Parameter</span></span></p></th>
-<th><p><span data-ttu-id="34a6d-116">说明</span><span class="sxs-lookup"><span data-stu-id="34a6d-116">Description</span></span></p></th>
+<th><p><span data-ttu-id="60809-115">参数</span><span class="sxs-lookup"><span data-stu-id="60809-115">Parameter</span></span></p></th>
+<th><p><span data-ttu-id="60809-116">说明</span><span class="sxs-lookup"><span data-stu-id="60809-116">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="34a6d-117"><strong><em>CLASSID</em></strong></span><span class="sxs-lookup"><span data-stu-id="34a6d-117"><strong><em>CLASSID</em></strong></span></span></p></td>
-<td><p><span data-ttu-id="34a6d-p103">唯一，128 位数字，用于标识嵌入系统的对象类型。此标识符保存在本地计算机的系统注册表中。（有关 <strong>RDS.DataControl</strong> 对象的类 ID 的信息，请参阅 <a href="datacontrol-object-rds.md">RDS.DataControl 对象</a>。）</span><span class="sxs-lookup"><span data-stu-id="34a6d-p103">A unique, 128-bit number that identifies the type of embedded object to the system. This identifier is maintained in the local computer's system registry. (For the class IDs of the <strong>RDS.DataControl</strong> object, see <a href="datacontrol-object-rds.md">RDS.DataControl Object</a>.)</span></span></p></td>
+<td><p><span data-ttu-id="60809-117"><strong><em>CLASSID</em></strong></span><span class="sxs-lookup"><span data-stu-id="60809-117"><strong><em>CLASSID</em></strong></span></span></p></td>
+<td><p><span data-ttu-id="60809-p103">唯一，128 位数字，用于标识嵌入系统的对象类型。此标识符保存在本地计算机的系统注册表中。（有关 <strong>RDS.DataControl</strong> 对象的类 ID 的信息，请参阅 <a href="datacontrol-object-rds.md">RDS.DataControl 对象</a>。）</span><span class="sxs-lookup"><span data-stu-id="60809-p103">A unique, 128-bit number that identifies the type of embedded object to the system. This identifier is maintained in the local computer's system registry. (For the class IDs of the <strong>RDS.DataControl</strong> object, see <a href="datacontrol-object-rds.md">RDS.DataControl Object</a>.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="34a6d-121"><strong><em>ID</em></strong></span><span class="sxs-lookup"><span data-stu-id="34a6d-121"><strong><em>ID</em></strong></span></span></p></td>
-<td><p><span data-ttu-id="34a6d-122">为嵌入对象定义文档范围内的标识符，以便在代码中标识该对象。</span><span class="sxs-lookup"><span data-stu-id="34a6d-122">Defines a document-wide identifier for the embedded object that is used to identify it in code.</span></span></p></td>
+<td><p><span data-ttu-id="60809-121"><strong><em>ID</em></strong></span><span class="sxs-lookup"><span data-stu-id="60809-121"><strong><em>ID</em></strong></span></span></p></td>
+<td><p><span data-ttu-id="60809-122">为嵌入对象定义文档范围内的标识符，以便在代码中标识该对象。</span><span class="sxs-lookup"><span data-stu-id="60809-122">Defines a document-wide identifier for the embedded object that is used to identify it in code.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="rdsdatacontrol-tag-parameters"></a><span data-ttu-id="34a6d-123">RDS.DataControl 标记参数</span><span class="sxs-lookup"><span data-stu-id="34a6d-123">RDS.DataControl Tag Parameters</span></span>
+## <a name="rdsdatacontrol-tag-parameters"></a><span data-ttu-id="60809-123">RDS.DataControl 标记参数</span><span class="sxs-lookup"><span data-stu-id="60809-123">RDS.DataControl Tag Parameters</span></span>
 
-<span data-ttu-id="34a6d-p104">下表介绍特定于 **RDS.DataControl** 对象的参数。（有关 **RDS.DataControl** 对象参数的完整列表以及使用这些参数的场合，请参阅 [RDS.DataControl 对象](datacontrol-object-rds.md)。）</span><span class="sxs-lookup"><span data-stu-id="34a6d-p104">The following table describes the parameters specific to the **RDS.DataControl** object. (For a complete list of the **RDS.DataControl** object parameters, and when to implement them, see [RDS.DataControl object](datacontrol-object-rds.md).)</span></span>
+<span data-ttu-id="60809-p104">下表介绍特定于 **RDS.DataControl** 对象的参数。（有关 **RDS.DataControl** 对象参数的完整列表以及使用这些参数的场合，请参阅 [RDS.DataControl 对象](datacontrol-object-rds.md)。）</span><span class="sxs-lookup"><span data-stu-id="60809-p104">The following table describes the parameters specific to the **RDS.DataControl** object. (For a complete list of the **RDS.DataControl** object parameters, and when to implement them, see [RDS.DataControl object](datacontrol-object-rds.md).)</span></span>
 
 <table>
 <colgroup>
@@ -81,22 +81,22 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="34a6d-126">参数</span><span class="sxs-lookup"><span data-stu-id="34a6d-126">Parameter</span></span></p></th>
-<th><p><span data-ttu-id="34a6d-127">说明</span><span class="sxs-lookup"><span data-stu-id="34a6d-127">Description</span></span></p></th>
+<th><p><span data-ttu-id="60809-126">参数</span><span class="sxs-lookup"><span data-stu-id="60809-126">Parameter</span></span></p></th>
+<th><p><span data-ttu-id="60809-127">说明</span><span class="sxs-lookup"><span data-stu-id="60809-127">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="34a6d-128"><a href="server-property-rds.md">服务器</a></span><span class="sxs-lookup"><span data-stu-id="34a6d-128"><a href="server-property-rds.md">SERVER</a></span></span></p></td>
-<td><p><span data-ttu-id="34a6d-129">如果您使用的 HTTP，则值为前面 https:// 服务器计算机的名称。</span><span class="sxs-lookup"><span data-stu-id="34a6d-129">If you are using HTTP, the value is the name of the server computer preceded by https:// .</span></span></p></td>
+<td><p><span data-ttu-id="60809-128"><a href="server-property-rds.md">服务器</a></span><span class="sxs-lookup"><span data-stu-id="60809-128"><a href="server-property-rds.md">SERVER</a></span></span></p></td>
+<td><p><span data-ttu-id="60809-129">如果您使用的 HTTP，则值为前面 https:// 服务器计算机的名称。</span><span class="sxs-lookup"><span data-stu-id="60809-129">If you are using HTTP, the value is the name of the server computer preceded by https:// .</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="34a6d-130"><a href="connect-property-rds.md">连接</a></span><span class="sxs-lookup"><span data-stu-id="34a6d-130"><a href="connect-property-rds.md">CONNECT</a></span></span></p></td>
-<td><p><span data-ttu-id="34a6d-131">提供 <strong>RDS.DataControl</strong> 连接到 SQL Server 的必要连接信息。</span><span class="sxs-lookup"><span data-stu-id="34a6d-131">Provides the necessary connection information for the <strong>RDS.DataControl</strong> to connect to SQL Server.</span></span></p></td>
+<td><p><span data-ttu-id="60809-130"><a href="connect-property-rds.md">连接</a></span><span class="sxs-lookup"><span data-stu-id="60809-130"><a href="connect-property-rds.md">CONNECT</a></span></span></p></td>
+<td><p><span data-ttu-id="60809-131">提供 <strong>RDS.DataControl</strong> 连接到 SQL Server 的必要连接信息。</span><span class="sxs-lookup"><span data-stu-id="60809-131">Provides the necessary connection information for the <strong>RDS.DataControl</strong> to connect to SQL Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="34a6d-132"><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></span><span class="sxs-lookup"><span data-stu-id="34a6d-132"><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></span></span></p></td>
-<td><p><span data-ttu-id="34a6d-133">设置或返回用于检索 <a href="recordset-object-ado.md">Recordset</a> 的查询字符串。</span><span class="sxs-lookup"><span data-stu-id="34a6d-133">Sets or returns the query string used to retrieve the <a href="recordset-object-ado.md">Recordset</a>.</span></span></p></td>
+<td><p><span data-ttu-id="60809-132"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></span><span class="sxs-lookup"><span data-stu-id="60809-132"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></span></span></p></td>
+<td><p><span data-ttu-id="60809-133">设置或返回用于检索 <a href="recordset-object-ado.md">Recordset</a> 的查询字符串。</span><span class="sxs-lookup"><span data-stu-id="60809-133">Sets or returns the query string used to retrieve the <a href="recordset-object-ado.md">Recordset</a>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

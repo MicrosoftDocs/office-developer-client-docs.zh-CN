@@ -6,32 +6,32 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249668(v=office.15)
 ms:contentKeyID: 48546450
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d49b91f129a0661c5c81243bb405de9088b1e06d
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e740d04b27b0154cd3621d870590cb522c2a239e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950116"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026433"
 ---
-# <a name="refresh-method-rds"></a><span data-ttu-id="7c3b5-102">Refresh 方法 (RDS)</span><span class="sxs-lookup"><span data-stu-id="7c3b5-102">Refresh method (RDS)</span></span>
+# <a name="refresh-method-rds"></a><span data-ttu-id="f8096-102">Refresh 方法 (RDS)</span><span class="sxs-lookup"><span data-stu-id="f8096-102">Refresh method (RDS)</span></span>
 
-<span data-ttu-id="7c3b5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c3b5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8096-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8096-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7c3b5-104">可重新查询在 [Connect](connect-property-rds.md) 属性中指定的数据源并更新查询结果。</span><span class="sxs-lookup"><span data-stu-id="7c3b5-104">Requeries the data source specified in the [Connect](connect-property-rds.md) property and updates the query results.</span></span>
+<span data-ttu-id="f8096-104">可重新查询在 [Connect](connect-property-rds.md) 属性中指定的数据源并更新查询结果。</span><span class="sxs-lookup"><span data-stu-id="f8096-104">Requeries the data source specified in the [Connect](connect-property-rds.md) property and updates the query results.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7c3b5-105">语法</span><span class="sxs-lookup"><span data-stu-id="7c3b5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f8096-105">语法</span><span class="sxs-lookup"><span data-stu-id="f8096-105">Syntax</span></span>
 
-<span data-ttu-id="7c3b5-106">*DataControl*。刷新</span><span class="sxs-lookup"><span data-stu-id="7c3b5-106">*DataControl*.Refresh</span></span>
+<span data-ttu-id="f8096-106">*DataControl*。刷新</span><span class="sxs-lookup"><span data-stu-id="f8096-106">*DataControl*.Refresh</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="7c3b5-107">参数</span><span class="sxs-lookup"><span data-stu-id="7c3b5-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f8096-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="f8096-107">Parameters</span></span>
 
-|<span data-ttu-id="7c3b5-108">参数</span><span class="sxs-lookup"><span data-stu-id="7c3b5-108">Parameter</span></span>|<span data-ttu-id="7c3b5-109">说明</span><span class="sxs-lookup"><span data-stu-id="7c3b5-109">Description</span></span>|
+|<span data-ttu-id="f8096-108">参数</span><span class="sxs-lookup"><span data-stu-id="f8096-108">Parameter</span></span>|<span data-ttu-id="f8096-109">说明</span><span class="sxs-lookup"><span data-stu-id="f8096-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="7c3b5-110">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="7c3b5-110">*DataControl*</span></span> |<span data-ttu-id="7c3b5-111">一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。</span><span class="sxs-lookup"><span data-stu-id="7c3b5-111">An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>|
+|<span data-ttu-id="f8096-110">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="f8096-110">*DataControl*</span></span> |<span data-ttu-id="f8096-111">一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。</span><span class="sxs-lookup"><span data-stu-id="f8096-111">An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="7c3b5-112">备注</span><span class="sxs-lookup"><span data-stu-id="7c3b5-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8096-112">备注</span><span class="sxs-lookup"><span data-stu-id="f8096-112">Remarks</span></span>
 
-<span data-ttu-id="7c3b5-p101">在使用 [Refresh](connect-property-rds.md) 方法之前，必须设置 [Connect](server-property-rds.md)、[Server](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) 和 **SQL** 属性。窗体上与 **RDS.DataControl** 对象关联的所有数据绑定控件都将反映新的记录集，之前存在的任何 [Recordset](recordset-object-ado.md) 对象都被释放，任何未保存的更改都被放弃。 **Refresh** 方法自动使第一条记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="7c3b5-p101">You must set the [Connect](connect-property-rds.md), [Server](server-property-rds.md), and [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) properties before you use the **Refresh** method. All data-bound controls on the form associated with an **RDS.DataControl** object will reflect the new set of records. Any pre-existing [Recordset](recordset-object-ado.md) object is released, and any unsaved changes are discarded. The **Refresh** method automatically makes the first record the current record.</span></span>
+<span data-ttu-id="f8096-p101">在使用 [Refresh](connect-property-rds.md) 方法之前，必须设置 [Connect](server-property-rds.md)、[Server](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) 和 **SQL** 属性。窗体上与 **RDS.DataControl** 对象关联的所有数据绑定控件都将反映新的记录集，之前存在的任何 [Recordset](recordset-object-ado.md) 对象都被释放，任何未保存的更改都被放弃。 **Refresh** 方法自动使第一条记录成为当前记录。</span><span class="sxs-lookup"><span data-stu-id="f8096-p101">You must set the [Connect](connect-property-rds.md), [Server](server-property-rds.md), and [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) properties before you use the **Refresh** method. All data-bound controls on the form associated with an **RDS.DataControl** object will reflect the new set of records. Any pre-existing [Recordset](recordset-object-ado.md) object is released, and any unsaved changes are discarded. The **Refresh** method automatically makes the first record the current record.</span></span>
 
-<span data-ttu-id="7c3b5-p102">在处理数据时，最好定期调用 **Refresh** 方法。如果检索数据后将其在客户端计算机上放置一段时间，该数据很可能会过期，而您所做的任何更改都有可能失败，因为其他人可能在您之前更改了记录并提交了更改。</span><span class="sxs-lookup"><span data-stu-id="7c3b5-p102">It's a good idea to call the **Refresh** method periodically when you work with data. If you retrieve data, and then leave it on your client machine for a while, it is likely to become out of date. It's possible that any changes you make will fail, because someone else might have changed the record and submitted changes before you.</span></span>
+<span data-ttu-id="f8096-p102">在处理数据时，最好定期调用 **Refresh** 方法。如果检索数据后将其在客户端计算机上放置一段时间，该数据很可能会过期，而您所做的任何更改都有可能失败，因为其他人可能在您之前更改了记录并提交了更改。</span><span class="sxs-lookup"><span data-stu-id="f8096-p102">It's a good idea to call the **Refresh** method periodically when you work with data. If you retrieve data, and then leave it on your client machine for a while, it is likely to become out of date. It's possible that any changes you make will fail, because someone else might have changed the record and submitted changes before you.</span></span>
 

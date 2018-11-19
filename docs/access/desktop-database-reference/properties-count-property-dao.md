@@ -10,28 +10,30 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7422b7b4805bf09cdbf0b37ecf9ae025c3267fff
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c02eabca35e6d6722b0b55b5f0a7bbac8a8098f6
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944828"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025922"
 ---
-# <a name="propertiescount-property-dao"></a><span data-ttu-id="61dd2-102">Properties.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="61dd2-102">Properties.Count property (DAO)</span></span>
+# <a name="propertiescount-property-dao"></a><span data-ttu-id="c64a5-102">Properties.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="c64a5-102">Properties.Count property (DAO)</span></span>
 
 
-<span data-ttu-id="61dd2-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="61dd2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c64a5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c64a5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61dd2-p101">使用 **Count** 属性可以确定指定集合中的项目个数。 **Long** 类型，只读。</span><span class="sxs-lookup"><span data-stu-id="61dd2-p101">You can use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.</span></span>
+<span data-ttu-id="c64a5-p101">使用 **Count** 属性可以确定指定集合中的项目个数。 **Long** 类型，只读。</span><span class="sxs-lookup"><span data-stu-id="c64a5-p101">You can use the **Count** property to determine the number of items in a specified collection. Read-only **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="61dd2-106">语法</span><span class="sxs-lookup"><span data-stu-id="61dd2-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c64a5-106">语法</span><span class="sxs-lookup"><span data-stu-id="c64a5-106">Syntax</span></span>
 
-<span data-ttu-id="61dd2-107">*表达式*。计数</span><span class="sxs-lookup"><span data-stu-id="61dd2-107">*expression* .Count</span></span>
+<span data-ttu-id="c64a5-107">*表达式*。计数</span><span class="sxs-lookup"><span data-stu-id="c64a5-107">*expression* .Count</span></span>
 
-<span data-ttu-id="61dd2-108">*表达式*一个代表**Properties**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="61dd2-108">*expression* A variable that represents a **Properties** object.</span></span>
+<span data-ttu-id="c64a5-108">*表达式*一个代表**Properties**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="c64a5-108">*expression* A variable that represents a **Properties** object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="61dd2-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="61dd2-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c64a5-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c64a5-109">See also</span></span>
 
-- <span data-ttu-id="61dd2-110">[Properties 集合](https://msdn.microsoft.com/library/ff196448\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="61dd2-110">[Properties collection](https://msdn.microsoft.com/library/ff196448\(v=office.15\))</span></span>
-- <span data-ttu-id="61dd2-111">[Properties 成员](https://msdn.microsoft.com/library/ff836991\(v=office.15\))</span><span class="sxs-lookup"><span data-stu-id="61dd2-111">[Properties members](https://msdn.microsoft.com/library/ff836991\(v=office.15\))</span></span>
+- [<span data-ttu-id="c64a5-110">Properties 集合</span><span class="sxs-lookup"><span data-stu-id="c64a5-110">Properties collection</span></span>](properties-collection-dao.md)
+- [<span data-ttu-id="c64a5-111">Properties 成员</span><span class="sxs-lookup"><span data-stu-id="c64a5-111">Properties members</span></span>](properties-members-dao.md)
+- [<span data-ttu-id="c64a5-112">属性对象 (Access VBA)</span><span class="sxs-lookup"><span data-stu-id="c64a5-112">Properties object (Access VBA)</span></span>](https://docs.microsoft.com/office/vba/api/Access.Properties)
+- <span data-ttu-id="c64a5-113">[Properties 成员 (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))</span><span class="sxs-lookup"><span data-stu-id="c64a5-113">[Properties members (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))</span></span>
 

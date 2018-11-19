@@ -12,25 +12,25 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e906e90fd6f7bf6e26898ed5381ef687c2ee8514
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 64e40da96dc6d82c0f682cba5a3ebc7cfb82bb50
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937337"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026405"
 ---
-# <a name="parameters-declaration-microsoft-access-sql"></a><span data-ttu-id="d2174-102">PARAMETERS 声明 (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="d2174-102">PARAMETERS declaration (Microsoft Access SQL)</span></span>
+# <a name="parameters-declaration-microsoft-access-sql"></a><span data-ttu-id="042b6-102">PARAMETERS 声明 (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="042b6-102">PARAMETERS declaration (Microsoft Access SQL)</span></span>
 
 
-<span data-ttu-id="d2174-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2174-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="042b6-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="042b6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2174-104">声明在参数查询中的每个参数的名称和数据类型。</span><span class="sxs-lookup"><span data-stu-id="d2174-104">Declares the name and data type of each parameter in a parameter query.</span></span>
+<span data-ttu-id="042b6-104">声明在参数查询中的每个参数的名称和数据类型。</span><span class="sxs-lookup"><span data-stu-id="042b6-104">Declares the name and data type of each parameter in a parameter query.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d2174-105">语法</span><span class="sxs-lookup"><span data-stu-id="d2174-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="042b6-105">语法</span><span class="sxs-lookup"><span data-stu-id="042b6-105">Syntax</span></span>
 
-<span data-ttu-id="d2174-106">参数*名称 datatype* \[， *name datatype* \[，...\]\]</span><span class="sxs-lookup"><span data-stu-id="d2174-106">PARAMETERS *name datatype* \[, *name datatype* \[, …\]\]</span></span>
+<span data-ttu-id="042b6-106">参数*名称 datatype* \[， *name datatype* \[，...\]\]</span><span class="sxs-lookup"><span data-stu-id="042b6-106">PARAMETERS *name datatype* \[, *name datatype* \[, …\]\]</span></span>
 
-<span data-ttu-id="d2174-107">PARAMETERS 声明包含以下部分：</span><span class="sxs-lookup"><span data-stu-id="d2174-107">The PARAMETERS declaration has these parts:</span></span>
+<span data-ttu-id="042b6-107">PARAMETERS 声明包含以下部分：</span><span class="sxs-lookup"><span data-stu-id="042b6-107">The PARAMETERS declaration has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,36 +39,36 @@ ms.locfileid: "25937337"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d2174-108">部分</span><span class="sxs-lookup"><span data-stu-id="d2174-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="d2174-109">说明</span><span class="sxs-lookup"><span data-stu-id="d2174-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="042b6-108">部分</span><span class="sxs-lookup"><span data-stu-id="042b6-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="042b6-109">说明</span><span class="sxs-lookup"><span data-stu-id="042b6-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d2174-110"><em>name</em></span><span class="sxs-lookup"><span data-stu-id="d2174-110"><em>name</em></span></span></p></td>
-<td><p><span data-ttu-id="d2174-p101">参数的名称。该名称被赋给 <strong>Parameter</strong> 对象的 <strong>Name</strong> 属性，并且用来在 <strong>Parameters</strong> 集合中标识该参数。可以将 <em>name</em> 作为应用程序运行查询时在对话框中显示的字符串。请用方括号 ([ ]) 将包含空格或标点的文本括起来。例如，[Low price] 和 [Begin report with which month?] 都是有效的 <em>name</em> 参数。</span><span class="sxs-lookup"><span data-stu-id="d2174-p101">The name of the parameter. Assigned to the <strong>Name</strong> property of the <strong>Parameter</strong> object and used to identify this parameter in the <strong>Parameters</strong> collection. You can use <em>name</em> as a string that is displayed in a dialog box while your application runs the query. Use brackets ([ ]) to enclose text that contains spaces or punctuation. For example, [Low price] and [Begin report with which month?] are valid <em>name</em> arguments.</span></span></p></td>
+<td><p><span data-ttu-id="042b6-110"><em>name</em></span><span class="sxs-lookup"><span data-stu-id="042b6-110"><em>name</em></span></span></p></td>
+<td><p><span data-ttu-id="042b6-p101">参数的名称。该名称被赋给 <strong>Parameter</strong> 对象的 <strong>Name</strong> 属性，并且用来在 <strong>Parameters</strong> 集合中标识该参数。可以将 <em>name</em> 作为应用程序运行查询时在对话框中显示的字符串。请用方括号 ([ ]) 将包含空格或标点的文本括起来。例如，[Low price] 和 [Begin report with which month?] 都是有效的 <em>name</em> 参数。</span><span class="sxs-lookup"><span data-stu-id="042b6-p101">The name of the parameter. Assigned to the <strong>Name</strong> property of the <strong>Parameter</strong> object and used to identify this parameter in the <strong>Parameters</strong> collection. You can use <em>name</em> as a string that is displayed in a dialog box while your application runs the query. Use brackets ([ ]) to enclose text that contains spaces or punctuation. For example, [Low price] and [Begin report with which month?] are valid <em>name</em> arguments.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d2174-116"><em>数据类型</em></span><span class="sxs-lookup"><span data-stu-id="d2174-116"><em>datatype</em></span></span></p></td>
-<td><p><span data-ttu-id="d2174-117">主要 <a href="sql-data-types.md">Microsoft Access SQL 数据类型</a>或其同义词之一。</span><span class="sxs-lookup"><span data-stu-id="d2174-117">One of the primary <a href="sql-data-types.md">Microsoft Access SQL data types</a> or their synonyms.</span></span></p></td>
+<td><p><span data-ttu-id="042b6-116"><em>数据类型</em></span><span class="sxs-lookup"><span data-stu-id="042b6-116"><em>datatype</em></span></span></p></td>
+<td><p><span data-ttu-id="042b6-117">主要 <a href="sql-data-types.md">Microsoft Access SQL 数据类型</a>或其同义词之一。</span><span class="sxs-lookup"><span data-stu-id="042b6-117">One of the primary <a href="sql-data-types.md">Microsoft Access SQL data types</a> or their synonyms.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d2174-118">说明</span><span class="sxs-lookup"><span data-stu-id="d2174-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="042b6-118">说明</span><span class="sxs-lookup"><span data-stu-id="042b6-118">Remarks</span></span>
 
-<span data-ttu-id="d2174-p102">对于定期运行的查询，可以通过 PARAMETERS 声明来创建一个参数查询。参数查询能够自动处理查询条件更改。若使用参数查询，在每次查询运行时代码都需要提供参数。</span><span class="sxs-lookup"><span data-stu-id="d2174-p102">For queries that you run regularly, you can use a PARAMETERS declaration to create a parameter query. A parameter query can help automate the process of changing query criteria. With a parameter query, your code will need to provide the parameters each time the query is run.</span></span>
+<span data-ttu-id="042b6-p102">对于定期运行的查询，可以通过 PARAMETERS 声明来创建一个参数查询。参数查询能够自动处理查询条件更改。若使用参数查询，在每次查询运行时代码都需要提供参数。</span><span class="sxs-lookup"><span data-stu-id="042b6-p102">For queries that you run regularly, you can use a PARAMETERS declaration to create a parameter query. A parameter query can help automate the process of changing query criteria. With a parameter query, your code will need to provide the parameters each time the query is run.</span></span>
 
-<span data-ttu-id="d2174-122">PARAMETERS 声明是可选的，但如果包含它，应将它置于任何其他语句（包括 [SELECT 语句](select-statement-microsoft-access-sql.md)）之前。</span><span class="sxs-lookup"><span data-stu-id="d2174-122">The PARAMETERS declaration is optional but when included precedes any other statement, including [SELECT](select-statement-microsoft-access-sql.md).</span></span>
+<span data-ttu-id="042b6-122">PARAMETERS 声明是可选的，但如果包含它，应将它置于任何其他语句（包括 [SELECT 语句](select-statement-microsoft-access-sql.md)）之前。</span><span class="sxs-lookup"><span data-stu-id="042b6-122">The PARAMETERS declaration is optional but when included precedes any other statement, including [SELECT](select-statement-microsoft-access-sql.md).</span></span>
 
-<span data-ttu-id="d2174-p103">如果声明包含了多个参数，请用逗号分隔它们。以下的示例里包含了两个参数：</span><span class="sxs-lookup"><span data-stu-id="d2174-p103">If the declaration includes more than one parameter, separate them with commas. The following example includes two parameters:</span></span>
+<span data-ttu-id="042b6-p103">如果声明包含了多个参数，请用逗号分隔它们。以下的示例里包含了两个参数：</span><span class="sxs-lookup"><span data-stu-id="042b6-p103">If the declaration includes more than one parameter, separate them with commas. The following example includes two parameters:</span></span>
 
 ```sql
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-<span data-ttu-id="d2174-125">您可以使用[其中](https://msdn.microsoft.com/library/ff195245\(v=office.15\))或[HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\))子句中的*名称*，但不是*数据类型*。</span><span class="sxs-lookup"><span data-stu-id="d2174-125">You can use *name* but not *datatype* in a [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) or [HAVING](https://msdn.microsoft.com/library/ff193795\(v=office.15\)) clause.</span></span> <span data-ttu-id="d2174-126">以下的示例中要求提供两个参数，然后将该条件应用于 Orders 表的记录中：</span><span class="sxs-lookup"><span data-stu-id="d2174-126">The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:</span></span>
+<span data-ttu-id="042b6-125">您可以使用[其中](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql)或[HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql)子句中的*名称*，但不是*数据类型*。</span><span class="sxs-lookup"><span data-stu-id="042b6-125">You can use *name* but not *datatype* in a [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) or [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) clause.</span></span> <span data-ttu-id="042b6-126">以下的示例中要求提供两个参数，然后将该条件应用于 Orders 表的记录中：</span><span class="sxs-lookup"><span data-stu-id="042b6-126">The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:</span></span>
 
 ```sql
 PARAMETERS [Low price] Currency, 
@@ -79,11 +79,11 @@ WHERE OrderAmount > [Low price]
 AND OrderDate >= [Beginning date];
 ```
 
-## <a name="example"></a><span data-ttu-id="d2174-127">示例</span><span class="sxs-lookup"><span data-stu-id="d2174-127">Example</span></span>
+## <a name="example"></a><span data-ttu-id="042b6-127">示例</span><span class="sxs-lookup"><span data-stu-id="042b6-127">Example</span></span>
 
-<span data-ttu-id="d2174-128">本示例要求用户提供职务，然后使用该职务作为查询条件。</span><span class="sxs-lookup"><span data-stu-id="d2174-128">This example requires the user to provide a job title and then uses that job title as the criteria for the query.</span></span>
+<span data-ttu-id="042b6-128">本示例要求用户提供职务，然后使用该职务作为查询条件。</span><span class="sxs-lookup"><span data-stu-id="042b6-128">This example requires the user to provide a job title and then uses that job title as the criteria for the query.</span></span>
 
-<span data-ttu-id="d2174-129">它调用 EnumFields 过程，您可以在[SELECT 语句](select-statement-microsoft-access-sql.md)示例中找到。</span><span class="sxs-lookup"><span data-stu-id="d2174-129">It calls the EnumFields procedure, which you can find in the [SELECT statement](select-statement-microsoft-access-sql.md) example.</span></span>
+<span data-ttu-id="042b6-129">它调用 EnumFields 过程，您可以在[SELECT 语句](select-statement-microsoft-access-sql.md)示例中找到。</span><span class="sxs-lookup"><span data-stu-id="042b6-129">It calls the EnumFields procedure, which you can find in the [SELECT statement](select-statement-microsoft-access-sql.md) example.</span></span>
 
 ```vb
     Sub ParametersX() 
