@@ -9,16 +9,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 035cd2a8423e3ab14f4b2ca4b73fbc39641e54d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773766"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643176"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>访问 Excel 实例和主窗口句柄
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
 要编制在 Windows 环境中，有时您必须知道处理的主窗口的 Microsoft Excel 实例句柄。 例如，这些句柄创建并显示自定义 Windows 对话框时很有用。
   
@@ -63,7 +63,7 @@ BOOL GetHwnd(HWND * pHwnd)
   //
   // xlGetHwnd only returns the LoWord of Excel hWnd
   // so all the windows have to be enumerated to see
-  // which match the LoWord retuned by xlGetHwnd.
+  // which match the LoWord returned by xlGetHwnd.
   //
   if (Excel4(xlGetHwnd, &x, 0) == xlretSuccess)
   {
@@ -85,7 +85,7 @@ BOOL GetHwnd(HWND * pHwnd)
 
 
 
-[从 DLL 或 XLL 内显示对话框](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
+[显示对话框从 DLL 或 XLL 中](displaying-dialog-boxes-from-within-a-dll-or-xll.md)
   
 [只能从 DLL 或 XLL 调用的 C API 函数](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   

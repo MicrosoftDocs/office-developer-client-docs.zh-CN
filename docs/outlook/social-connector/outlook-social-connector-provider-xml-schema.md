@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
 description: 返回由 OSC 提供商提供 OSC 提供程序扩展性方法中的所有 XML 必须都符合以下 OSC 提供程序 XML 架构。 OSC 架构完整地复制此处复制。
-ms.openlocfilehash: b1ec7888f5b6d9a7264f597e0c1ef3855d27b011
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 578f0ea0c8df4f81c51ce71b50aa2768fe930d5c
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394102"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643169"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Outlook Social Connector 提供程序的 XML 架构
 
@@ -262,7 +262,7 @@ ms.locfileid: "25394102"
       <!-- Indicates if the OSC should sync on-demand contacts when people pane is minimized -->
       <xs:element name="showOnDemandContactsWhenMinimized" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
       <!-- Indicates hashing function used to hash email addresses, ignored unless-->
-      <!-- dynamicActivitiesLookupEx = true or dyanamicContactsLookup = true in capabilities XML-->
+      <!-- dynamicActivitiesLookupEx = true or dynamicContactsLookup = true in capabilities XML-->
       <xs:element name="hashFunction" minOccurs="0" maxOccurs="1">
         <xs:simpleType>
           <xs:restriction base="xs:string">

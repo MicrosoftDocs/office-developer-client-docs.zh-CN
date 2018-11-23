@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: 了解如何使用软件管理解决方案集成 Office 365 单击以运行安装程序。
-ms.openlocfilehash: 0e9e82fbf86b81ad35928277ff11fe9b86d91964
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: cdcdde0618e2b96ce997ba5e263f75d85c21fd11
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401744"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643218"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>使用 Office 365 即点即用安装程序的集成可管理性应用程序
 
@@ -121,7 +121,7 @@ BSTR contentid;
     
 - 摘要 IUpdateNotify2 接口现包括。
     
-### <a name="apply"></a>Apply
+### <a name="apply"></a>应用
 
 ```cpp
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
@@ -146,7 +146,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 <a name="bk_ApplyRemark"></a>
 
-#### <a name="remarks"></a>说明
+#### <a name="remarks"></a>备注
 
 - 如果任何 Office 应用程序正在运行时将触发**应用**操作，则**应用**操作将失败。 传递`forceappshutdown=true`**应用**到方法将导致**OfficeClickToRun**服务若要立即关闭任何 Office 应用程序正在运行并应用更新。 用户可能会遇到数据，它们不提示保存对打开的文档的更改。. 
     
@@ -181,7 +181,7 @@ HRESULT Cancel() // Cancel the download action.
 
 <a name="bk_CancelRemarks"></a>
 
-#### <a name="remarks"></a>说明
+#### <a name="remarks"></a>备注
 
 - 此方法仅可触发何时 COM 状态 id **eDOWNLOAD_WIP**。 它将尝试取消当前下载操作。 COM 状态将更改为**eDOWNLOAD_CANCELLING**和最终更改为**eDOWNLOAD_CANCELED**。 如果在其他任何时间触发，COM 状态将返回**E_ILLEGAL_METHOD_CALL** 。 
     
@@ -214,7 +214,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 <a name="bk_DownloadRemark"></a>
 
-#### <a name="remarks"></a>说明
+#### <a name="remarks"></a>备注
 
 - 您必须作为对指定_downloadsource_和_contentid_ 。 如果没有，请**下载**方法将返回**E_INVALIDARG**错误。 
     
@@ -276,7 +276,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 |:-----|:-----|
 |**S_OK** <br/> |**状态**方法始终返回此结果。 检查`UPDATE_STATUS_RESULT`的当前操作状态的结构。  <br/> |
    
-#### <a name="remarks"></a>说明
+#### <a name="remarks"></a>备注
 
 - 状态字段中的`UPDATE_STATUS_REPORT`包含当前操作的状态。 返回下的状态值之一： 
     
@@ -300,7 +300,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 - 如果的最后一个命令将导致出错错误字段中的`UPDATE_STATUS_REPORT`包含有关错误的详细的信息。 从**状态**方法返回的错误代码的两种类型。 
     
-- 如果错误小于`UDPATE_ERROR_CODE::eUNKNOWN`，错误是预定义的错误代码之一：
+- 如果错误小于`UPDATE_ERROR_CODE::eUNKNOWN`，错误是预定义的错误代码之一：
     
   ```cpp
   typedef enum _UPDATE_ERROR_CODE
@@ -324,7 +324,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-  如果返回的错误代码大于`UDPATE_ERROR_CODE::eUNKNOWN`它是**HRESULT**的失败的函数调用。 提取 HRESULT 减去`UDPATE_ERROR_CODE::eUNKNOWN`的错误字段中返回的值从`UPDATE_STATUS_REPORT`。
+  如果返回的错误代码大于`UPDATE_ERROR_CODE::eUNKNOWN`它是**HRESULT**的失败的函数调用。 提取 HRESULT 减去`UPDATE_ERROR_CODE::eUNKNOWN`的错误字段中返回的值从`UPDATE_STATUS_REPORT`。
     
   可以通过检查**IUpdateNotify**类型库中 OfficeC2RCom.dll 嵌入查看的状态和错误信息值的完整列表。 
     
@@ -784,14 +784,14 @@ https://officecdn.microsoft.com/pr/wsus/ofl.cab此更新，专门 O365Client_32b
   
 - *Name*属性定义了用来传递给中作为通道属性 configuration.xml ODT 通道 ID。 
     
-  示例：`<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Current">` 
+  示例： `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Current">` 
     
   > [!NOTE] 
   > 此属性已被弃用并且用于向后兼容性。 使用来代替名称属性的 ID 属性。 
     
 - *ID*属性定义了用来传递给中作为通道属性 configuration.xml ODT 通道 ID。 
     
-  示例：`<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Deferred">` 
+  示例： `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Deferred">` 
     
 - **DisplayName**属性用作显示名称。 
     

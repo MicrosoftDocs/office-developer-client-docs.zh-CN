@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ''
-ms.openlocfilehash: 3da5d0c0c63ba58649435d2e2289b58ab30de2ef
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 39f31293e99d46f33e9e9a071bd489dd461a1553
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395817"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643225"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>以编程方式处理 Visio 文件格式
 
@@ -742,7 +742,7 @@ Visio 2013 文件格式包括两个可用于重新计算文件中的数据的方
   ```vb
   ' Insert a new Cell element in the shape that adds an arbitrary local
   ' ThemeIndex value. This code assumes that the shape does not
-  ' alrady have a local ThemeIndex cell.
+  ' already have a local ThemeIndex cell.
   startEndShapeXML.Add(New XElement("Cell", _
       New XAttribute("N", "ThemeIndex"),
       New XAttribute("V", "25"),
