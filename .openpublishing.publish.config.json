@@ -57,12 +57,17 @@
       "Publish",
       "Pdf"
     ],
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
     "master": [
       "Publish",
       "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
+  "need_generate_pdf": true,
   "targets": {
     "pdf": {
       "template_folder": "_themes.pdf"
