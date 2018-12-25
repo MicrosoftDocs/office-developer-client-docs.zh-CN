@@ -24,6 +24,8 @@ items:
   - name: Office 共享
     href: shared/office-shared.md
     items:
+    - name: 在 Office 解决方案中处理高 DPI 和 DPI 缩放
+      href: shared/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md
     - name: 32 位和 64 位版本的 Office 之间的兼容性
       href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
     - name: 将 IM 应用程序与 Office 集成
@@ -2192,7 +2194,7 @@ items:
                   href: access/desktop-database-reference/errors-collection-ado.md
                 - name: Errors 集合的属性、方法和事件
                   href: access/desktop-database-reference/errors-collection-properties-methods-and-events.md
-              - name: Fields
+              - name: 字段
                 href: access/desktop-database-reference/fields-collection-ado-reference.md
                 items:
                 - name: Fields 集合
@@ -12376,9 +12378,9 @@ items:
     href: swayuri.md
   - name: Office URI 方案
     href: office-uri-schemes.md
-ms.openlocfilehash: cf1b67706f1d090d21e8c8da48cfe6b844addf6d
-ms.sourcegitcommit: 007141520d6479860f452371532f9267f33eb260
+ms.openlocfilehash: 78beb37ffdf3adebf5d59b6670ff7b22c9685f99
+ms.sourcegitcommit: fe79d898c27908fc80020b210bdf69c337191d51
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999513"
+ms.lasthandoff: 12/22/2018
+ms.locfileid: "27411175"
