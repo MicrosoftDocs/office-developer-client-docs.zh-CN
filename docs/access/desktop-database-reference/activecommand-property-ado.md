@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249190(v=office.15)
 ms:contentKeyID: 48544459
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 473a0b99310d2eb5e050ed50f1e331cb65174ae8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 18fa38176f7174f27b46604c6182dfbdaa422f06
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869559"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705293"
 ---
 # <a name="activecommand-property-ado"></a>ActiveCommand 属性 (ADO)
 

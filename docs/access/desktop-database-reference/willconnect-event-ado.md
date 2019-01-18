@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8ac4ab83062d9297483b7ee4883ab0b289af227
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6e62a01d274752b33f7bf3f6f4af6171e7efb16b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949829"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703431"
 ---
 # <a name="willconnect-event-ado"></a>WillConnect 事件 (ADO)
 
@@ -23,12 +24,12 @@ ms.locfileid: "25949829"
 
 WillConnect*ConnectionString*，*用户 Id*，*密码*、*选项*、 *adStatus*、 *pConnection*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
 |*ConnectionString* |**字符串型** ，包含挂起的连接的连接信息。|
-|*用户 Id* |**字符串型** ，包含挂起的连接的用户名。|
+|*UserID* |**字符串型** ，包含挂起的连接的用户名。|
 |*Password* |**字符串型** ，包含挂起的连接的密码。|
 |*Options* |**长整型**值，指示提供程序应如何对 *ConnectionString* 求值。您仅有的选项为 **adAsyncOpen**。|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md)。 调用此事件时，默认情况下该参数设置为 **adStatusOK** 。 如果此事件无法请求取消挂起的操作，则该参数设置为 **adStatusCantDeny** 。<br/><br/>在此事件返回之前，将该参数设置为 **adStatusUnwantedEvent** 可以阻止随后进行通知。将该参数设置为 **adStatusCancel** 将请求导致取消此通知的连接操作。|

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15)
 ms:contentKeyID: 48545666
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ec8469015f0ba53d277dcdd592d3befdc4e0d0b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6b875e2b5dff6f3b6927e73105b6732dfaa6fd0b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870245"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700750"
 ---
 # <a name="count-property-example-vj"></a>Count 属性示例 (VJ++)
 

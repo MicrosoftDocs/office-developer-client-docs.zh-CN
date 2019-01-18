@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
 ms:contentKeyID: 48545618
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06758dd435389ba0abfbd1a1c8dda8c5a492ab8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5d54ad7f92e7be635dc52be9912f348d67587d31
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886856"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704385"
 ---
 # <a name="status-property-example-vc"></a>Status 属性示例 (VC++)
 

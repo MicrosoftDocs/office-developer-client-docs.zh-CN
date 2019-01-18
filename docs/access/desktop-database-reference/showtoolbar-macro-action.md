@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed69a84f9b1774b7c33711a0bb8e80da54e656cc
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 01ba59ce0898068788adb9269b3203794d1f31d4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997928"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700337"
 ---
 # <a name="showtoolbar-macro-action"></a>ShowToolbar 宏操作
 

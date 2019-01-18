@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0527f5a55235fa36725152d228dfd2294c63bf53
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f3ef598ad50747d99ca884043e03ebfabfef8f63
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996872"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704579"
 ---
 # <a name="runsql-macro-action"></a>RunSQL 宏操作
 
@@ -75,7 +76,7 @@ Access 查询实际上是 SQL 语句，这些语句是在您使用查询窗口�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>操作</strong></p></td>
+<td><p><strong>Action</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">

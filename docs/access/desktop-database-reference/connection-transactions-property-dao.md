@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197326(v=office.15)
 ms:contentKeyID: 48546225
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc270809c388bda184efc71238f95a57ca77debb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 119bccf47d94e4a00a385a8550a6fa2c8a221834
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930358"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701072"
 ---
 # <a name="connectiontransactions-property-dao"></a>Connection.Transactions 属性 (DAO)
 

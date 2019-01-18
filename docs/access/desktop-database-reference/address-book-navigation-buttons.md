@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1a8caae94bf56532b45dcfa3e647ba092552795
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e7c87acd433df4a303c1e6a15a60184cadf994c3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947551"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700246"
 ---
 # <a name="address-book-navigation-buttons"></a>通讯簿导航按钮
 

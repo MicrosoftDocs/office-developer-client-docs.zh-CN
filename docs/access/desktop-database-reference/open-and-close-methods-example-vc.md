@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249112(v=office.15)
 ms:contentKeyID: 48544132
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e36cf0d56be0cda8d63c93c27fb7e3b92f002be1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9f9d226f33fba327d3784d18d631f6c0c74a337a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877196"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701583"
 ---
 # <a name="open-and-close-methods-example-vc"></a>Open 和 Close 方法示例 (VC++)
 

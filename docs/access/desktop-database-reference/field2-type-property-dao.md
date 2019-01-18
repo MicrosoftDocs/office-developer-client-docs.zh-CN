@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
 ms:contentKeyID: 48543032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 867f964dab4967bf6f545083e1f53a1419e877d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4da32f18a2b3e9dddbb0ae04e3257de34ba09761
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920415"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699784"
 ---
 # <a name="field2type-property-dao"></a>Field2.Type 属性 (DAO)
 
@@ -50,7 +51,7 @@ ms.locfileid: "25920415"
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>二进制数</p></td>
+<td><p>Binary</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
@@ -78,7 +79,7 @@ ms.locfileid: "25920415"
 </tr>
 <tr class="odd">
 <td><p><strong>dbDouble</strong></p></td>
-<td><p>双精度数</p></td>
+<td><p>Double</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
@@ -118,7 +119,7 @@ ms.locfileid: "25920415"
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>Time</p></td>
+<td><p>时间</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>

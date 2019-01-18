@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 26a0a9fe66fb726bb728872ee31771d12b262864
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923698"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702108"
 ---
 # <a name="searchforrecord-macro-action"></a>SearchForRecord 宏操作
 
@@ -69,7 +70,7 @@ ms.locfileid: "25923698"
 <td><p>从当前记录往上搜索。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>下一步</strong></p></td>
+<td><p><strong>Next</strong></p></td>
 <td><p>从当前记录往下搜索。</p></td>
 </tr>
 <tr class="odd">

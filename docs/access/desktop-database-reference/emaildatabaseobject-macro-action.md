@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997446"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699917"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject 宏操作
 
@@ -108,7 +109,7 @@ ms.locfileid: "25997446"
 
 若要在 Visual Basic for Applications (VBA) 模块中运行 **EMailDatabaseObject** 操作，请使用 **DoCmd** 对象的 **SendObject** 方法。
 
-### <a name="about-the-contributor"></a>关于参与者
+### <a name="about-the-contributor"></a>参与者简介
 
 **通过提供的链接**Luke Chung、 [FMS，Inc.](https://www.fmsinc.com/)、 的创始人兼总裁 FMS，inc.，自定义数据库解决方案和开发人员工具的领先提供商。
 

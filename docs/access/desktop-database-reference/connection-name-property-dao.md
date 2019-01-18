@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
 ms:contentKeyID: 48545159
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f305cf78e85bf91db39ff1df5ffe8f1618f4c936
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2698f00d68451870b06c1b5e9ed0b849e3950f11
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924713"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704026"
 ---
 # <a name="connectionname-property-dao"></a>Connection.Name 属性 (DAO)
 

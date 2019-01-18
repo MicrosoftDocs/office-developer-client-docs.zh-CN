@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
 ms:contentKeyID: 48543478
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 705bd14208b3a6b07b7d5adddfc4f1fdf36928c5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 72e73d29129c749d5479e2c7b17827f13adb4847
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924601"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704733"
 ---
 # <a name="dbenginedefaultpassword-property-dao"></a>DBEngine.DefaultPassword 属性 (DAO)
 

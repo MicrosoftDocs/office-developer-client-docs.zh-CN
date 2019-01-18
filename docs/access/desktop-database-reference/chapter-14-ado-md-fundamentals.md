@@ -1,19 +1,20 @@
 ---
-title: 第 14 章： ADO MD 基础知识
+title: 第 14 章：ADO MD 基础知识
 TOCTitle: 'Chapter 14: ADO MD fundamentals'
 ms:assetid: 129baa54-0bc1-985d-4bfd-25a1c1c3018e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8079851a59e8fe0d077dcbeed5b354e924aca6a2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44a4e666fb615f7d3870acfbd986e93971606d5b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936731"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701135"
 ---
-# <a name="chapter-14-ado-md-fundamentals"></a>第 14 章： ADO MD 基础知识
+# <a name="chapter-14-ado-md-fundamentals"></a>第 14 章：ADO MD 基础知识
 
 **适用于**： Access 2013、 Office 2013
 

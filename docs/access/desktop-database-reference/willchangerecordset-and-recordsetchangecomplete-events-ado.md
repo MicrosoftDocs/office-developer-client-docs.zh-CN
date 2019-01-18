@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249068(v=office.15)
 ms:contentKeyID: 48543963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47d2c4a870151e8c917e7d00eca3e3d152bbfb8b
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bfb304f41ada88e1b0546aaa4a54240b931017cd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950200"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701512"
 ---
 # <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>WillChangeRecordset 和 RecordsetChangeComplete 事件 (ADO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25950200"
 
 RecordsetChangeComplete*adReason* *pError*、 *adStatus*、 *pRecordset*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

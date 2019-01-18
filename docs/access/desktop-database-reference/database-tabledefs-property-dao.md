@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053033
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2dfcc32bb5abab2b098732af81b78b5de32030f8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 86f0c535ac99226aa462fd0221539b05cc4056e8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925889"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704607"
 ---
 # <a name="databasetabledefs-property-dao"></a>Database.TableDefs 属性 (DAO)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053001
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f1ce52a880bbb1843522ee86d23ec7b3a655221e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 682845b8033d96a4ced9788c3a7d7e06f99d589f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927233"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701737"
 ---
 # <a name="documentname-property-dao"></a>Document.Name 属性 (DAO)
 

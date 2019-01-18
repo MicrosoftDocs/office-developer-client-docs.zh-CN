@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 193cf5db350fdf0b30fe19da9a61026d1cd39aa9
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8cc5153d851a4dc17ef690421d1080ddf91fc3bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026468"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701800"
 ---
 # <a name="filter-property-ado"></a>Filter 属性 (ADO)
 
@@ -104,7 +105,7 @@ ms.locfileid: "26026468"
 <tr class="odd">
 <td><p>多键</p></td>
 <td><p>+</p></td>
-<td><p>N/A</p></td>
+<td><p>不适用</p></td>
 <td><p>+</p></td>
 </tr>
 </tbody>

@@ -12,12 +12,13 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb513c83e3956a37da019d762c5fd1e0c92da755
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926561"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703956"
 ---
 # <a name="before-change-macro-event"></a>Before Change 宏事件
 
@@ -28,7 +29,7 @@ ms.locfileid: "25926561"
 > [!NOTE]
 > 仅适用于数据宏的**Before Change**事件。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 使用**Before Change**事件，以执行任何操作所需记录之前，需要进行更改。 **Before Change**常用来执行验证并将引发自定义错误消息。
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13b81a2bc6b40ae8ad8904b53095164749e49847
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 619795b0911462ec46800a29080a50c9ea889c5b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944786"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700344"
 ---
 # <a name="views-and-fields-collections-example-vb"></a>Views 和 Fields 集合示例 (VB)
 

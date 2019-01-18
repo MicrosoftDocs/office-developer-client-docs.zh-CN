@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249757(v=office.15)
 ms:contentKeyID: 48546784
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6238192f123e31c27a0e553d548be0b1623f0a32
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 01ca42ff738afe3a35cab6263cdae32ac256f3d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882327"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702640"
 ---
 # <a name="defaultdatabase-property-ado"></a>DefaultDatabase 属性 (ADO)
 

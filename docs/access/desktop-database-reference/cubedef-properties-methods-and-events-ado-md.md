@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250274(v=office.15)
 ms:contentKeyID: 48548831
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc7b8b7a61da947776fa28205e6356f0e5c24aa2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3926c1988df0ecc19f1babbf975039d38422b32d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944135"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702829"
 ---
 # <a name="cubedef-properties-methods-and-events-ado-md"></a>CubeDef 属性、 方法和事件 (ADO MD)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052923
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91669b054cf9075375c4a5457086adc45ba43c70
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e3ff893a16e650fe7eb49b647ae8d67374375a0d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925903"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701926"
 ---
 # <a name="dbenginelogintimeout-property-dao"></a>DBEngine.LoginTimeout 属性 (DAO)
 

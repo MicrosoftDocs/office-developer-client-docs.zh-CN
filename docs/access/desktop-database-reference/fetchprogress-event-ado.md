@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16292522aae34aa660a258247eeca881199e3fc8
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d863f51e7836acdc577ecd720df77114ed66f067
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949521"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703515"
 ---
 # <a name="fetchprogress-event-ado"></a>FetchProgress 事件 (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949521"
 
 FetchProgress*进度*， *MaxProgress*， *adStatus* *pRecordset*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

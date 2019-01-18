@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248792(v=office.15)
 ms:contentKeyID: 48542966
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bdad1155ee759e3b6faa619ebff315cf65afc2b0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bfc9ef5229fe230ad0c83ebde7a887e0fac0c233
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872373"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703228"
 ---
 # <a name="stayinsync-property-ado"></a>StayInSync 属性 (ADO)
 
@@ -22,7 +23,7 @@ ms.locfileid: "25872373"
 
 ## <a name="settings-and-return-values"></a>设置和返回值
 
-设置或返回一个**布尔**值。 默认值为 **True** 。 如果 **，则返回 True**，章将更新的父**Recordset**对象更改的行位置; 如果如果**False**，章将继续即使父**Recordset**对象已更改行位置，请参阅上一章中的数据。
+设置或返回一个**布尔**值。 默认值为 **True**。 如果 **，则返回 True**，章将更新的父**Recordset**对象更改的行位置; 如果如果**False**，章将继续即使父**Recordset**对象已更改行位置，请参阅上一章中的数据。
 
 ## <a name="remarks"></a>备注
 

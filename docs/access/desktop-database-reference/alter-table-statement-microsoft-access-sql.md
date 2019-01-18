@@ -12,12 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8481102d587480577c0ba73d2da46385359a92c6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b8bd9abac3aee8be8fe52e555fcd5247e804f258
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937336"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701597"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE 语句 (Microsoft Access SQL)
 
@@ -55,7 +56,7 @@ ALTER TABLE 语句有以下部分：
 <td><p>要在 <em>table</em> 中添加或删除的字段的名称，或者是要在 <em>table</em> 中修改的字段的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>类型</em></p></td>
+<td><p><em>type</em></p></td>
 <td><p><em>field</em> 的数据类型。</p></td>
 </tr>
 <tr class="even">

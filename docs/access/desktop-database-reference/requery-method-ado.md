@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0105fb67c095355e607c6c73fc73fc4c6b1050ed
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 249dc236d730cf773ec38fe5dd903cb64ca9b594
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998184"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705678"
 ---
 # <a name="requery-method-ado"></a>Requery 方法 (ADO)
 
@@ -23,9 +24,9 @@ ms.locfileid: "25998184"
 
 *记录集*。Requery*选项*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
-|名称 |说明|
+|Name |说明|
 |:----|:----------|
 |*Options* |可选。包含影响此操作的 [ExecuteOptionEnum](executeoptionenum.md) 和 [CommandTypeEnum](commandtypeenum.md) 值的位掩码。|
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249939(v=office.15)
 ms:contentKeyID: 48547526
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e045aac2bd017c535ae1deaeff378beb119952ab
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a572a2aa5e866eebfbfea079ce462b02e2efa9cb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943652"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700491"
 ---
 # <a name="group-properties-methods-and-events-adox"></a>组的属性、 方法和事件 (ADOX)
 

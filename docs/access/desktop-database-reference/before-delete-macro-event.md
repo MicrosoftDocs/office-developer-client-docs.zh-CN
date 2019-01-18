@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm186077
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8a2757b062efe022734c674f4c59f994f1c15692
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2b2a4f978a4af2ba79cab7807f0142d35d7d30c7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920254"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704999"
 ---
 # <a name="before-delete-macro-event"></a>Before Delete 宏事件
 
@@ -26,7 +27,7 @@ ms.locfileid: "25920254"
 > [!NOTE]
 > **删除前**事件仅适用于数据宏。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 删除使用的**删除前**事件执行所需记录之前，需要进行任何操作。 **Before Change**常用来执行验证并将引发自定义错误消息。
 

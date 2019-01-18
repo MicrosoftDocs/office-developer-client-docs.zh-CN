@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 63b4ae569ce76c480725853e119b4807dd121758
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 95e5744d5e19e7c3d40de19e240bbe338b2d5d55
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882817"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701128"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
 

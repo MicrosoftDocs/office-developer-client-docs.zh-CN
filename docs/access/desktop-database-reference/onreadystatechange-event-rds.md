@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249593(v=office.15)
 ms:contentKeyID: 48546126
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 87e6e7718ef99f10dc185104f1f11959e6589c89
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ec2104634d9158d59d488b50d543cf0e57d9bd62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949843"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699728"
 ---
 # <a name="onreadystatechange-event-rds"></a>onReadyStateChange 事件 (RDS)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
 ms:contentKeyID: 48543452
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae4ffe7f1d600fe89788c3084a9e9dc409fc00f1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bb72b0a3d0e0b497b61925b05a2ee6b0c4b98960
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882495"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705622"
 ---
 # <a name="item-property-example-vc"></a>Item 属性示例 (VC++)
 

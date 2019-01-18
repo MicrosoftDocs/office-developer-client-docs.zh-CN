@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249142(v=office.15)
 ms:contentKeyID: 48544252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 594c969aafb071888383a717efb2b5db20039b1c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 698139e031535b3a678ae573ebcb747f3a92eea2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886471"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701968"
 ---
 # <a name="execute-requery-and-clear-methods-example-vbscript"></a>Execute、Requery 和 Clear 方法示例 (VBScript)
 

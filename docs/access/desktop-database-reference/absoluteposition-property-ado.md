@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249259(v=office.15)
 ms:contentKeyID: 48544787
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a090630b5db741f761314f598fcc783dd124d1cf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b5e25e014c6e93d35e3621bb9b5b3c21d5e77f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881858"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702374"
 ---
 # <a name="absoluteposition-property-ado"></a>AbsolutePosition 属性 (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25881858"
 
 设置或返回一个 **Long** 值，该值的范围为 1 到 **Recordset** 对象中的记录数 ([RecordCount](recordcount-property-ado.md))；或返回 [PositionEnum](positionenum.md) 值之一。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 为了设置**AbsolutePosition**属性，ADO 要求所使用的 OLE DB 提供程序实现 IRowsetLocate 接口。
 

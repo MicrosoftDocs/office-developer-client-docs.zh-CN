@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248894(v=office.15)
 ms:contentKeyID: 48543335
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 86a4dcd97171a1dc9817f69a6c010a363009e9ef
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 54f7ce4d5d588e644707cd7b466c29f619850824
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949591"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703830"
 ---
 # <a name="open-method-ado-md"></a>Open 方法 (ADO MD)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949591"
 
 *单元格集*。打开*源*， *ActiveConnection*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

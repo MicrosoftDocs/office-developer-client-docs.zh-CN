@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835098(v=office.15)
 ms:contentKeyID: 48548053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ee64cbdea3a17f00939041f808ae6261d9810ae
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5ffe9c679da3f11666799caa070f51f384729cc1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919638"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703606"
 ---
 # <a name="recordset2bof-property-dao"></a>Recordset2.BOF 属性 (DAO)
 

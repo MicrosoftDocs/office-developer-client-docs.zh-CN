@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)
 ms:contentKeyID: 48546706
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 5035853f8896b711687fed9f9651af6665d9d9b6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2f8334cbfc8e0f6a362a36e03984739d1d52b6f6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875717"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698608"
 ---
 # <a name="seekenum"></a>SeekEnum
 

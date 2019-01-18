@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bcad6b9e1c106bb365b0594e1e2cb32df33f0b23
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0056764d80b5cfa19bf8e229d33c2c84c8b08c28
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026090"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703032"
 ---
 # <a name="adox-properties"></a>ADOX 属性
 
@@ -72,7 +73,7 @@ ms.locfileid: "26026090"
 <td><p>指示索引字段具有 null 值的记录是否有索引项。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">项</a></p></td>
 <td><p>按名称或序号指示集合的特定成员。</p></td>
 </tr>
 <tr class="even">

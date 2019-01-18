@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197056(v=office.15)
 ms:contentKeyID: 48546140
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53f6202cb49a589e153e19c40bf0d9d7e0dd32ab
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 97c5aab0638ca88f86f78707c0f6b997a40c9e67
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930194"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701947"
 ---
 # <a name="indexproperties-property-dao"></a>Index.Properties 属性 (DAO)
 

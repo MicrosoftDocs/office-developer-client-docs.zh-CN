@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249254(v=office.15)
 ms:contentKeyID: 48544766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1f127e4ea9393d3b461e9b7da2901df554ee36b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8c0ee29125bf06ef51d1ac511838bdd09231e1a6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947208"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700547"
 ---
 # <a name="granting-guest-privileges-to-a-web-server-computer-rds-guest-privileges"></a>授予 web 服务器计算机; 来宾权限RDS 来宾权限
 
@@ -31,5 +32,5 @@ ms.locfileid: "25947208"
 
 5.  如果匿名 web 服务器帐户未显示在**选择用户或组**对话框中的列表，请键入其名称 (IUSR\_*ComputerName*) 到空白底部框中，然后单击**添加**。
 
-6.  单击“确定”****。
+6.  单击“**确定**”。
 

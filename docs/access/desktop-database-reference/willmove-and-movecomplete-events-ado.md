@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250307(v=office.15)
 ms:contentKeyID: 48548937
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79809f9c802a5e5312b3adf3e64ecaa32a443a04
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e663e18a13803097d490e0e315d139e6e15400da
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949640"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705958"
 ---
 # <a name="willmove-and-movecomplete-events-ado"></a>WillMove 和 MoveComplete 事件 (ADO)
 
@@ -25,7 +26,7 @@ WillMove*adReason*， *adStatus* *pRecordset*
 
 MoveComplete*adReason* *pError*、 *adStatus*、 *pRecordset*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
@@ -39,7 +40,7 @@ MoveComplete*adReason* *pError*、 *adStatus*、 *pRecordset*
 **WillMove**或**MoveComplete**事件可能由于以下**Recordset**操作发生：
 
 - [Open](open-method-ado-recordset.md)
-- [移动](move-method-ado.md)
+- [Move](move-method-ado.md)
 - [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 - [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 - [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 
@@ -50,7 +51,7 @@ MoveComplete*adReason* *pError*、 *adStatus*、 *pRecordset*
 由于以下属性可能会发生以下事件：
 
 - [Filter](filter-property-ado.md)
-- [Index](index-property-ado.md)
+- [索引](index-property-ado.md)
 - [Bookmark](bookmark-property-ado.md)
 - [AbsolutePage](absolutepage-property-ado.md)
 - [AbsolutePosition](absoluteposition-property-ado.md)

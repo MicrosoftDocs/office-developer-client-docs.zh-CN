@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c02eabca35e6d6722b0b55b5f0a7bbac8a8098f6
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e7b0b0e2c6e04426ffa33e2c3e5d08e4f1db419c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025922"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701590"
 ---
 # <a name="propertiescount-property-dao"></a>Properties.Count 属性 (DAO)
 

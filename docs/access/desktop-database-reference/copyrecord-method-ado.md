@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 161cfec0e8450ef7e80c47bc8fb1b8304790e7c5
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c5aac745bacf0662f6cd389bfefde7182a9676d3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949906"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700827"
 ---
 # <a name="copyrecord-method-ado"></a>CopyRecord 方法 (ADO)
 
@@ -23,12 +24,12 @@ ms.locfileid: "25949906"
 
 *记录*。CopyRecord （*源*、 *Destination*、*用户名*、*密码*、*选项*、*异步*）
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
 |*Source* |可选。 **字符串型** 值，包含用于指定要复制的实体（如文件或目录）的 URL。 如果*源*被省略，或指定为空字符串，将复制的文件或当前[Record](record-object-ado.md)所表示的目录。|
-|*Destination* |可选。 一个**字符串**值，包含指定将在其中复制*源*的位置的 URL。|
+|*目标* |可选。 一个**字符串**值，包含指定将在其中复制*源*的位置的 URL。|
 |*UserName* |可选。包含用户 ID 的**字符串型**值，如果需要，将授予访问 *Destination* 的权限。|
 |*Password* |可选。包含密码的**字符串型**值，如果需要，将验证 *UserName*。|
 |*Options* |可选。[CopyRecordOptionsEnum](copyrecordoptionsenum.md) 值，其默认值为 **adCopyUnspecified** 。指定该方法的行为。|
@@ -38,7 +39,7 @@ ms.locfileid: "25949906"
 
 **字符串型**值，通常返回 *Destination* 的值。不过，返回的确切值与提供程序有关。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 *源*和*目标*值不能相同;否则，将发生运行时错误。 服务器、路径和资源名中必须至少有一个不同。
 

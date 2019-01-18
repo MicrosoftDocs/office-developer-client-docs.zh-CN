@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248922(v=office.15)
 ms:contentKeyID: 48543423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4240ca118adfcc122ebe346cb60f8b9a0b6efd9e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4a531c01750117ae7abbf87e5ba4cb23daf37851
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937489"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705965"
 ---
 # <a name="securing-rds-applications"></a>保护 RDS 应用程序
 

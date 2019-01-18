@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm198223
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ed3c508f4799b2ef1f9939de8ce212ab11833353
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1e37d72754531fc4dd51427eefb355a057d08073
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925490"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698153"
 ---
 # <a name="startnewworkflow-macro-action"></a>StartNewWorkflow 宏操作
 

@@ -1,19 +1,20 @@
 ---
-title: 筛选更新记录
+title: 筛选出更新后的记录
 TOCTitle: Filtering for updated records
 ms:assetid: 0dc22b0a-3501-078d-788c-40aa97f2e644
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248857(v=office.15)
 ms:contentKeyID: 48543229
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3bf6619b9b375642bc9f279aea92cb20df3b859
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 791cbbd16eef7baf95fd51ab8624a04dc687166b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947810"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700484"
 ---
-# <a name="filtering-for-updated-records"></a>筛选更新记录
+# <a name="filtering-for-updated-records"></a>筛选出更新后的记录
 
 **适用于**： Access 2013、 Office 2013
 

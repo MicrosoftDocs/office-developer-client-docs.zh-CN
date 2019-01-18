@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29313e61527920cdc4918cc81c4ff9f94e932855
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d45f0362831d91b83b3a2449affbbfb5ac2b4e51
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920086"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701877"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Field.OrdinalPosition 属性 (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e0d5302291f1514fd11bca8fe7094af4525c900
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e5f8dbdfa61a671e2efb9aac2596cfda5cd1727b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026475"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701828"
 ---
 # <a name="open-method-ado-recordset"></a>Open 方法（ADO 记录集）
 

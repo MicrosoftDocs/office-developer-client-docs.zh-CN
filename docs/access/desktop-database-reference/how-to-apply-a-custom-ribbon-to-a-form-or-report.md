@@ -7,12 +7,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e494985054ffd91440f3aff6eb671b781a5f65d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 329f184a1bcd3c856ccfd0b15c3fa92bc6230c98
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888823"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703998"
 ---
 # <a name="apply-a-custom-ribbon-to-a-form-or-report"></a>将自定义功能区应用于窗体或报表
 

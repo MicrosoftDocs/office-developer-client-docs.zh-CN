@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161227(v=office.15)
 ms:contentKeyID: 52074194
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cea75ba4f6af4e2a319457e0d7d4466a61c0c1b6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: ccf94d51160aebcae8644def4433ace4f369b205
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944856"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705245"
 ---
 # <a name="access-macro-actions-access-developer-reference"></a>Access 宏操作 （访问开发人员参考 （英文）
 
@@ -24,7 +25,7 @@ ms.locfileid: "25944856"
 - [数据导入/导出](data-import-export.md)
 - [Data 宏事件](data-macro-events.md)
 - [数据库对象](database-objects.md)
-- [筛选器/查询/搜索](filter-query-search.md)
+- [筛选/查询/搜索](filter-query-search.md)
 - [宏命令](macro-commands.md)
 - [程序流](program-flow.md)
 - [系统命令](system-commands.md)

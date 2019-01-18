@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c4f799d9e0e3ea2ffddbf981adf9332cca672ee
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: ca2ccb4183a59c2b579fd4375f26aa4fd539532f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997285"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700953"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Workspace.OpenDatabase 方法 (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25997285"
 
 *表达式*一个代表**Workspace**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -36,7 +37,7 @@ ms.locfileid: "25997285"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -46,7 +47,7 @@ ms.locfileid: "25997285"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>现有 Microsoft Access 数据库引擎数据库文件的名称，或者 ODBC 数据源的数据源名称 (DSN)。有关设置此值的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +87,7 @@ Database
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>设置</p></th>
+<th><p>Setting</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>

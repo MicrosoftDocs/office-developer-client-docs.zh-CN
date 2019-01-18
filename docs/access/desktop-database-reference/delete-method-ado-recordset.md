@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a7ab998052cc08aa57320d05e46542b84282e6c
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e8142d4fc4fc0036f80693f0bff779d9f3f2a62e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949507"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702486"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete 方法（ADO 记录集）
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949507"
 
 *记录集*。删除*AffectRecords*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

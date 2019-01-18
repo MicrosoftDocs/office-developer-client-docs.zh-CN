@@ -1,19 +1,20 @@
 ---
-title: 对 ADOX 的提供程序支持
+title: ADOX 的提供程序支持
 TOCTitle: Provider support for ADOX
 ms:assetid: 32ea3236-d69f-df94-1685-d8791aeb9e0f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249100(v=office.15)
 ms:contentKeyID: 48544091
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bdd9ca9a2274f03f1592f73c3da5a6837101fda2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a92ffe9b4b713518330d9dbfd9979d904a5abe8e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947824"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703508"
 ---
-# <a name="provider-support-for-adox"></a>对 ADOX 的提供程序支持
+# <a name="provider-support-for-adox"></a>ADOX 的提供程序支持
 
 
 **适用于**： Access 2013、 Office 2013
@@ -51,7 +52,7 @@ ADOX 的某些功能不受支持，这取决于您的 OLE DB 数据提供程序�
 <td><p><strong>Append</strong> 和 <strong>Delete</strong> 方法不受支持。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Procedure</strong> 对象</p></td>
+<td><p><strong>Procedure</strong>对象</p></td>
 <td><p><strong>Command</strong> 属性不受支持。</p></td>
 </tr>
 <tr class="even">
@@ -98,7 +99,7 @@ ADOX 的某些功能不受支持，这取决于您的 OLE DB 数据提供程序�
 <td><p><strong>Append</strong> 和 <strong>Delete</strong> 方法不受支持。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Procedure</strong> 对象</p></td>
+<td><p><strong>Procedure</strong>对象</p></td>
 <td><p><strong>Command</strong> 属性不受支持。</p></td>
 </tr>
 <tr class="odd">
@@ -157,7 +158,7 @@ ADOX 的某些功能不受支持，这取决于您的 OLE DB 数据提供程序�
 <td><p><strong>Append</strong> 和 <strong>Delete</strong> 方法不受支持。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Procedure</strong> 对象</p></td>
+<td><p><strong>Procedure</strong>对象</p></td>
 <td><p><strong>Command</strong> 属性不受支持。</p></td>
 </tr>
 <tr class="odd">

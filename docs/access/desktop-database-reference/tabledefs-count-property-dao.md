@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195561(v=office.15)
 ms:contentKeyID: 48545508
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88a38180973b83232c324d052db0548cb308740a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6c997a437cc7a7ae1461e7308899c85dac44fbda
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923768"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699544"
 ---
 # <a name="tabledefscount-property-dao"></a>TableDefs.Count 属性 (DAO)
 

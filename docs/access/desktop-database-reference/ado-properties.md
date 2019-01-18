@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce8e5b8d442ba81120056219ee06753e08332354
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910906"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704257"
 ---
 # <a name="ado-properties"></a>ADO 属性
 
@@ -70,7 +71,7 @@ ms.locfileid: "25910906"
 <td><p>从 <strong>ADORecordsetConstruction</strong> 对象获取（或对它设置）OLE DB <strong>Chapter</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="charset-property-ado.md">字符集</a></p></td>
+<td><p><a href="charset-property-ado.md">CharSet</a></p></td>
 <td><p>指示文本 <strong>Stream</strong> 的内容应当转换成哪个字符集。</p></td>
 </tr>
 <tr class="even">
@@ -146,7 +147,7 @@ ms.locfileid: "25910906"
 <td><p>指示与 <strong>Error</strong> 对象关联的帮助文件和主题。 <strong>HelpContextID</strong>  返回帮助文件中主题的上下文 ID，返回值的类型为 <strong>Long</strong> 。 <strong>HelpFile</strong>  返回一个 <strong>String</strong> 类型的值，作为帮助文件完全解析路径的计算结果。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-property-ado.md">Index</a></p></td>
+<td><p><a href="index-property-ado.md">索引</a></p></td>
 <td><p>指示当前对 <strong>Recordset</strong> 对象有效的索引的名称。</p></td>
 </tr>
 <tr class="odd">
@@ -154,7 +155,7 @@ ms.locfileid: "25910906"
 <td><p>指示 <strong>Connection</strong> 对象的隔离级别。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">项</a></p></td>
 <td><p>按名称或序号指示集合的特定成员。</p></td>
 </tr>
 <tr class="odd">
@@ -186,7 +187,7 @@ ms.locfileid: "25910906"
 <td><p>指示给定 <strong>Error</strong> 对象特定于提供程序的错误代码。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="number-property-ado.md">编号</a></p></td>
+<td><p><a href="number-property-ado.md">Number</a></p></td>
 <td><p>指示用于唯一标识 <strong>Error</strong> 对象的编号。</p></td>
 </tr>
 <tr class="odd">
@@ -238,7 +239,7 @@ ms.locfileid: "25910906"
 <td><p>指示 <strong>Record</strong> 对象的类型。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="row-property-ado.md">Row</a></p></td>
+<td><p><a href="row-property-ado.md">行</a></p></td>
 <td><p>获取或设置 <strong>ADORecordConstruction</strong> 对象的 OLE DB <strong>Row</strong> 对象。</p></td>
 </tr>
 <tr class="even">
@@ -294,7 +295,7 @@ ms.locfileid: "25910906"
 <td><p>指示在分层 <strong>Recordset</strong> 对象中，当父行位置更改时，对基础子记录（即<em>章节</em>）的引用是否发生了更改。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">类型</a></p></td>
+<td><p><a href="type-property-ado.md">Type</a></p></td>
 <td><p>指示 <strong>Parameter</strong>、<strong>Field</strong> 或 <strong>Property</strong> 对象的操作类型或数据类型。</p></td>
 </tr>
 <tr class="even">
@@ -306,7 +307,7 @@ ms.locfileid: "25910906"
 <td><p>指示数据库中 <strong>Field</strong> 对象的当前值。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="value-property-ado.md">值</a></p></td>
+<td><p><a href="value-property-ado.md">Value</a></p></td>
 <td><p>指示赋给 <strong>Field</strong>、<strong>Parameter</strong> 或 <strong>Property</strong> 对象的值。</p></td>
 </tr>
 <tr class="odd">

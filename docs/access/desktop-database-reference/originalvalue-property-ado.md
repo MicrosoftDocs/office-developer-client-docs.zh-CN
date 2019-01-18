@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
 ms:contentKeyID: 48542974
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 872e7c88e5ea4e79d6bff4aa590e72743feb3893
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0724320e1aaa1e7bfd3ceab8cf54afd5921c7425
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884910"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700421"
 ---
 # <a name="originalvalue-property-ado"></a>OriginalValue 属性 (ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
 ms:contentKeyID: 48545641
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41a22e7c9e7239bc6cf4ba5c473744641a0f5f3d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1bd4ab28dc5638047668383838b256b1b08892d5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947943"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700624"
 ---
 # <a name="editmodeenum-enumeration-dao"></a>EditModeEnum 枚举 (DAO)
 

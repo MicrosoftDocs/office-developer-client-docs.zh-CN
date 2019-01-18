@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248891(v=office.15)
 ms:contentKeyID: 48543326
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42a32a3e32e44c2e0191805baced966da76adc5a
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a95ac957fe5a2e9200506c83317783991bbf0523
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910711"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704063"
 ---
 # <a name="rds-api-reference"></a>RDS API 参考
 

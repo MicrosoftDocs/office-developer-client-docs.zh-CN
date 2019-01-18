@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa7dc2361d31a6d18af3c381dd75f8f934e78e05
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 32f14e4aeed669e68d976559932306c3cb76c696
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949878"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698874"
 ---
 # <a name="find-method-ado"></a>Find 方法 (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949878"
 
 查找 （*条件*， *SkipRows*、 *SearchDirection*，*启动*）
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

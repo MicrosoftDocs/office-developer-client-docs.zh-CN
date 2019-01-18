@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249596(v=office.15)
 ms:contentKeyID: 48546135
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 34880d0b45ab3d5d12a65b7ea2ffcdb953af8d7d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3b201fd952587f634387876fb7aef995eccc8c58
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889397"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699476"
 ---
 # <a name="using-ado-with-microsoft-visual-j"></a>将 ADO 与 Microsoft Visual J++ 结合使用
 

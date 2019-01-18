@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
 ms:contentKeyID: 48545109
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1db793ec99dd0248eacc527bd76068ceec025a58
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 879d8e7b3733937687671a164f86dbb273cf7533
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949430"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699896"
 ---
 # <a name="infomessage-event-ado"></a>InfoMessage 事件 (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949430"
 
 InfoMessage*pError*， *adStatus* *pConnection*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

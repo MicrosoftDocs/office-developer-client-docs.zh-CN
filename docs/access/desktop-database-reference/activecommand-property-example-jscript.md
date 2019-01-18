@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
 ms:contentKeyID: 48547070
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 62e3e8404cb517472dd94d27a899531dde7f076f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 598cfa0cc7d35586e02f003ac28401f72a5e2929
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887983"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698300"
 ---
 # <a name="activecommand-property-example-jscript"></a>ActiveCommand 属性示例 (JScript)
 

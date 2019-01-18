@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eeaed6e6c2f32463a12f617c8fee90b2d5f24a86
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fda1ab5a3e339d951225f4f43ab4275cce2cdb80
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998432"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705433"
 ---
 # <a name="field2appendchunk-method-dao"></a>Field2.AppendChunk 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25998432"
 
 *表达式*一个代表**Field2**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25998432"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

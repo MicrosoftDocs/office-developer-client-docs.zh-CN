@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4f5ffae4880cadb90f47f1ac348ffc8b3ea58785
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883181"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704558"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Microsoft OLE DB Provider for ODBC
 
@@ -546,7 +547,7 @@ ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 �
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">删除</a></p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
@@ -560,7 +561,7 @@ ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 �
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">移动</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
@@ -630,7 +631,7 @@ ODBC 提供了用于调用存储过程的特定语法。 **Command**对象、 �
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">更新</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>
 <td><p>是</p></td>

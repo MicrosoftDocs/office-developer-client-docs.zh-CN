@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248868(v=office.15)
 ms:contentKeyID: 48543282
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c856b2ba8d39c9cfc03bdadd6250ee9411b9c9c8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c4faa664ed9001c1c06906f58c7d873faf75a5d0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883888"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705104"
 ---
 # <a name="microsoft-ole-db-provider-for-sql-server"></a>Microsoft OLE DB Provider for SQL Server
 
@@ -118,7 +119,7 @@ User ID=userName;Password=userPassword;"
 </tr>
 <tr class="even">
 <td><p>Auto Translate</p></td>
-<td><p>指示是否将 OEM/ANSI 字符转换。 此属性可以设置为<strong>True</strong>或<strong>False</strong>。 默认值为 <strong>True</strong> 。 如果此属性设置为<strong>True</strong>，然后 SQLOLEDB OEM/ANSI 字符转换时执行从，检索多字节字符串或发给 SQL Server。 如果此属性设置为<strong>False</strong>，SQLOLEDB 不 OEM/ANSI 字符转换执行多字节字符串数据。</p></td>
+<td><p>指示是否将 OEM/ANSI 字符转换。 此属性可以设置为<strong>True</strong>或<strong>False</strong>。 默认值为 <strong>True</strong>。 如果此属性设置为<strong>True</strong>，然后 SQLOLEDB OEM/ANSI 字符转换时执行从，检索多字节字符串或发给 SQL Server。 如果此属性设置为<strong>False</strong>，SQLOLEDB 不 OEM/ANSI 字符转换执行多字节字符串数据。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Packet Size</p></td>

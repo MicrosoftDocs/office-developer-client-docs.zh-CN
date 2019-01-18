@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6053792912d701fd844b44835721fc0497d23ee4
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d5051a9842645ac8f93be26bf6309dd05da7ec24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910892"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704782"
 ---
 # <a name="adox-objects"></a>ADOX 对象
 
@@ -34,27 +35,27 @@ ms.locfileid: "25910892"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="catalog-object-adox.md">目录</a></p></td>
+<td><p><a href="catalog-object-adox.md">Catalog</a></p></td>
 <td><p>包含描述数据源架构目录的集合。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="column-object-adox.md">Column</a></p></td>
+<td><p><a href="column-object-adox.md">列</a></p></td>
 <td><p>代表表、索引或键中的列。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-object-adox.md">Group</a></p></td>
+<td><p><a href="group-object-adox.md">组</a></p></td>
 <td><p>代表在受保护的数据库中有访问权限的组帐户。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-object-adox.md">Index</a></p></td>
+<td><p><a href="index-object-adox.md">索引</a></p></td>
 <td><p>代表数据库表中的索引。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="key-object-adox.md">键</a></p></td>
+<td><p><a href="key-object-adox.md">Key</a></p></td>
 <td><p>表示数据库表中的主键、外键或唯一键字段。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="procedure-object-adox.md">过程</a></p></td>
+<td><p><a href="procedure-object-adox.md">Procedure</a></p></td>
 <td><p>代表存储过程。</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +63,7 @@ ms.locfileid: "25910892"
 <td><p>代表数据库表，包括列、索引和键。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="user-object-adox.md">User</a></p></td>
+<td><p><a href="user-object-adox.md">用户</a></p></td>
 <td><p>代表在受保护的数据库中有访问权限的用户帐户。</p></td>
 </tr>
 <tr class="odd">

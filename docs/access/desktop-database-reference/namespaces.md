@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250158(v=office.15)
 ms:contentKeyID: 48548318
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a5fb61c02a5679c6fd63e9d5dd2a257ab5f7d96a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 905edba502fcc2994be6f6b8e50a7200b66a82b8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996466"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703004"
 ---
 # <a name="namespaces"></a>命名空间
 

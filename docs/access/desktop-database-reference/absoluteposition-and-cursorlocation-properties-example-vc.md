@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
 ms:contentKeyID: 48546739
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4928fe6bc24dc3192809dd6ebfd3b106c0ca9572
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe9ef182f19d62b45b3e69695d04f930c4634abf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891049"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700253"
 ---
 # <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>AbsolutePosition 和 CursorLocation 属性示例 (VC++)
 

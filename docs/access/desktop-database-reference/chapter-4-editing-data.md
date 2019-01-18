@@ -1,19 +1,20 @@
 ---
-title: 第 4 章： 编辑数据
+title: 第 4 章：编辑数据
 TOCTitle: 'Chapter 4: Editing data'
 ms:assetid: 822b7365-0926-6411-6fb4-30de032570f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249563(v=office.15)
 ms:contentKeyID: 48545974
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28103cebeea517395ce2507402677fcde8114bb0
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b954cf8b730a74fb7e630fbafb96c046491c6f46
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936586"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701142"
 ---
-# <a name="chapter-4-editing-data"></a>第 4 章： 编辑数据
+# <a name="chapter-4-editing-data"></a>第 4 章：编辑数据
 
 **适用于**： Access 2013、 Office 2013
 
@@ -73,7 +74,7 @@ End Function
 本章包含以下主题：
 
 - [编辑现有记录](editing-existing-records.md)
-- [确定受支持的功能](determining-what-is-supported.md)
+- [确定什么受支持](determining-what-is-supported.md)
 - [使用 Delete 方法删除记录](deleting-records-using-the-delete-method.md)
 - [替代方法： 使用 SQL 语句](alternatives-using-sql-statements.md)
 - [添加记录 (ADO)](adding-records.md)

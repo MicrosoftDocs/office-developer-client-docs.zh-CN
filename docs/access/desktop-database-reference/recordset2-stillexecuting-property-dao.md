@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836546(v=office.15)
 ms:contentKeyID: 48548601
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55a5adf32c64735cb773e3f1da5de79703a2a3cc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aa94622374990ce48c857e9ad45c3531975bb9a8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930145"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705671"
 ---
 # <a name="recordset2stillexecuting-property-dao"></a>Recordset2.StillExecuting 属性 (DAO)
 

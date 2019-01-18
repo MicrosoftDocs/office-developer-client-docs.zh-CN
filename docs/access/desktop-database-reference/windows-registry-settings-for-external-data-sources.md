@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161249(v=office.15)
 ms:contentKeyID: 52074216
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e13721025ae6b32aec5af9f9b3aeb29eef80e258
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: be7d03a4f35cf7b1e1f12126231e4e47013eb78b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947453"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703529"
 ---
 # <a name="windows-registry-settings-for-external-data-sources"></a>外部数据源的 Windows 注册表设置
 

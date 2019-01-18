@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 681da274ab1f709da2eb614df038e6aa492a224a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b6600d4508a33a31098d6a2e7c92f5904beb0e95
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997250"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705930"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Connection.CreateQueryDef 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25997250"
 
 *表达式*代表**Connection**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25997250"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

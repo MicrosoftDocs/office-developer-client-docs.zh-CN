@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm98639
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b820b984972b4de7592f159884ebce3f3a59dec8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 86834cd8b6132e8939067c0e34037ca1b0ef8bad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923313"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704418"
 ---
 # <a name="setorderby-macro-action"></a>SetOrderBy 宏操作
 

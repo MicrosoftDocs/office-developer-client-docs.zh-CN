@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248787(v=office.15)
 ms:contentKeyID: 48542949
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 627f4fe93340c69b62f81c1b10ebf231938eea89
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c13cb41299ddaf786e6412e43a50b1414ad818b4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873181"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698202"
 ---
 # <a name="actualsize-property-ado"></a>ActualSize 属性 (ADO)
 

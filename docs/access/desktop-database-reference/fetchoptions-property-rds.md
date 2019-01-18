@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248856(v=office.15)
 ms:contentKeyID: 48543221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b06408c3d150c543d591f3bf5252b2022f32cae
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ddd2ecf0d7d3df6d1caffd906cf318916a2a8882
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929634"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703739"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions 属性 (RDS)
 

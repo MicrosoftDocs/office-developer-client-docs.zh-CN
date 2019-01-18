@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249446(v=office.15)
 ms:contentKeyID: 48545561
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e0f5d10dd757312e4378a2274227ab3f07496d89
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 83a44bf4b668f73b63f6637b30e2b984efc8ec0b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910747"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705225"
 ---
 # <a name="adox-api-reference"></a>ADOX API 参考
 

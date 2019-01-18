@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248939(v=office.15)
 ms:contentKeyID: 48543493
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76978d33fc5f82c9b1f8137b64a663e7e95f2204
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4eb46fa97b831030617916d03557b5bf9af9606d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883055"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698867"
 ---
 # <a name="isolationlevel-property-ado"></a>IsolationLevel 属性 (ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
 ms:contentKeyID: 48547754
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a4587cec98d6e1bd272c79428955ca422bb3eec0
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2066f4e0f5cb6002d42e029943e8f7b1fc7ad6a3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947740"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699392"
 ---
 # <a name="connection-close-method-table-type-property-example-vb"></a>Connection 的 Close 方法、Table 的 Type 属性示例 (VB)
 

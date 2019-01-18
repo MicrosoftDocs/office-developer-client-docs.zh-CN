@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c72902c4ed1d1d2657bfa6e2b4c5f84d76dfefa3
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 095191bbfe55f2c38529cb1c260979c48dd2d5f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950256"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702962"
 ---
 # <a name="clone-method-ado"></a>Clone 方法 (ADO)
 

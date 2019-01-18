@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835944(v=office.15)
 ms:contentKeyID: 48548350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f0a990f94f13cddf80f3d0c1b5057c5887d5fd1
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6f7685a7a76430daa80ea2c6bc54781855526b96
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026132"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700736"
 ---
 # <a name="containers-members-dao"></a>容器成员 (DAO)
 

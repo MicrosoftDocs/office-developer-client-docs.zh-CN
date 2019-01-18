@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3653099bc19bde7c1dd349c8b7984a7f988a8e11
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a3ffa94797d14e392b52e32022a225489a9d7b2b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910773"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703333"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-c"></a>Microsoft Visual C++ 中的 ADO 代码示例
 

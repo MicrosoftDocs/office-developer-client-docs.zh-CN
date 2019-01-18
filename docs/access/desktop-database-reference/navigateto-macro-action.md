@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998278"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704138"
 ---
 # <a name="navigateto-macro-action"></a>NavigateTo 宏操作
 
@@ -44,7 +45,7 @@ ms.locfileid: "25998278"
 <td><p>必选。要让导航窗格在显示对象时依据的类别。请在<strong>“类别”</strong>框中单击<strong>“对象类型”</strong>、<strong>“表和视图”</strong>、<strong>“修改日期”</strong>、<strong>“创建日期”</strong>或<strong>“自定义”</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Group</strong></p></td>
+<td><p><strong>组</strong></p></td>
 <td><p>可选。 在导航窗格中显示的<strong>组</strong>参数限制类别中的哪些对象。 如果将<strong>组</strong>参数留空，导航窗格将显示<strong>类别</strong>参数中指定的条件进行分类的所有数据库对象。 下表中显示了各种 <strong>Category</strong> 参数的有效 <strong>Group</strong> 参数的示例。</p></td>
 </tr>
 </tbody>

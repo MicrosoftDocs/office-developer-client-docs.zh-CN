@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124949(v=office.15)
 ms:contentKeyID: 52072569
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d439a577ef70c26292eee463e342237910dba61
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 2ff1dc5aab4d56ab43e2cde030956a8514d926bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930159"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702437"
 ---
 # <a name="tabledef-object-reference-dao"></a>TableDef 对象引用 (DAO)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 588019a058f44c53967370f609ae10dda5737d59
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 10cb2df307cf8c8df429454b98fba4a90115243f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936243"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701611"
 ---
 # <a name="field2complextype-property-dao"></a>Field2.ComplexType 属性 (DAO)
 

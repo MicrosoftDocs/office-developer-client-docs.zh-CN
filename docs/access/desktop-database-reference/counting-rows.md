@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250312(v=office.15)
 ms:contentKeyID: 48548963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39468086e7c78a89b13b6021c7f07853c487c6e5
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2388978185ac29149f7f15150ccfdbc559cc910f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945304"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701100"
 ---
-# <a name="counting-rows"></a>对行进行计数
+# <a name="counting-rows"></a>统计行数
 
 
 **适用于**： Access 2013、 Office 2013

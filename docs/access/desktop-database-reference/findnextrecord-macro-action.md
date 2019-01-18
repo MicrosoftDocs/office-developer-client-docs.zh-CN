@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 426bf296345c47abe58e3e6e5057a43a0d43aa21
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c92a43ce2f4417fde83a544022a90cfca572bf60
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936628"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705800"
 ---
 # <a name="findnextrecord-macro-action"></a>FindNextRecord 宏操作
 

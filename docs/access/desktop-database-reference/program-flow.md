@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123920(v=office.15)
 ms:contentKeyID: 52071559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 870668eb333e1bcb42dd3608b4c0ad8299f3ec8e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b966e020531e4d651387a65a23898cdb3e9e22ff
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922634"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705566"
 ---
 # <a name="program-flow"></a>程序流
 

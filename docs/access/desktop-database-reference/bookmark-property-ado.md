@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
 ms:contentKeyID: 48543287
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5052b25325007a5daca76baccf7414e0c7a43cd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 17818fe2b4f826cbcfbbb3955817c2b5d99ab6a3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889118"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704768"
 ---
 # <a name="bookmark-property-ado"></a>Bookmark 属性 (ADO)
 

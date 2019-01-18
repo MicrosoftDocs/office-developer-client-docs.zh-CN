@@ -7,12 +7,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 21c8a171a3b84e53f5a12042a09b134602a6af6f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 4ce9327790f620ba9163f5cdbe7b5c8900de4341
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875313"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704103"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Access 启动时隐藏功能区
 

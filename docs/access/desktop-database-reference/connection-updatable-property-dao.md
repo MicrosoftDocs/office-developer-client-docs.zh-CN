@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052881
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8ab619dbed75bbbea74732977b8f5c670df56d29
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5bd4a312bc65bc69d7cc96e198fc39a1db6c1239
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921031"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704838"
 ---
 # <a name="connectionupdatable-property-dao"></a>Connection.Updatable 属性 (DAO)
 

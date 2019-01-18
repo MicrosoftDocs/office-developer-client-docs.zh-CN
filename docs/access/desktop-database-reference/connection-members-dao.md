@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39c1366a182f1757abdcbf4b36a19b553eb2b680
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936761"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703900"
 ---
 # <a name="connection-members-dao"></a>连接成员 (DAO)
 
@@ -77,7 +78,7 @@ ms.locfileid: "25936761"
 <td><p>设置或返回一个值，该值提供与已打开连接的源有关的信息。可读/写 <strong>String</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
+<td><p><strong><a href="connection-database-property-dao.md">数据库</a></strong></p></td>
 <td><p>返回对应于此连接的 <strong><a href="database-object-dao.md">Database</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">

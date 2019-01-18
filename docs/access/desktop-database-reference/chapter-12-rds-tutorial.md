@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb29fd070a693b608cede1d21329b3749c18e852
-ms.sourcegitcommit: 007141520d6479860f452371532f9267f33eb260
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aca77ac08688e643327bdbf229ab6c1dec40d109
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999499"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704803"
 ---
 # <a name="chapter-12-remote-data-service-rds-tutorial"></a>第 12 章： 远程数据服务 (RDS) 教程
 
@@ -31,7 +32,7 @@ ms.locfileid: "25999499"
 
 下面对 RDS 编程模型进行了说明。在使用本教程时可将其作为路线图。
 
-### <a name="rds-programming-model-with-objects"></a>RDS 编程模型与对象
+### <a name="rds-programming-model-with-objects"></a>包含对象的 RDS 编程模型
 
 - 指定要在服务器上调用的程序，并获取从客户端引用它的方法（代理）。
 
