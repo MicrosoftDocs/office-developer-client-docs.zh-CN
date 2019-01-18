@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184586(v=office.15)
 ms:contentKeyID: 55119812
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: ab245fc0ff9b60862cebe57fbb2d996735442b89
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 19502895996d4777f2d1a6887aa80883a5398a09
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405866"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722975"
 ---
 # <a name="find-a-specific-appointment-in-a-recurring-appointment-series"></a>在定期约会系列中查找特定约会
 

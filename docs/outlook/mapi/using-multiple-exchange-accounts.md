@@ -5,13 +5,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
-description: 上次修改时间： 2012 年 6 月 25 日
-ms.openlocfilehash: 3c0392cd6a885900c1a305cd1cd816a5925745a7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+description: 上次修改时间：2012 年 6 月 25 日
+ms.openlocfilehash: a5792ebaf78d77924bc3157be63d937b66e9f4b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398589"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723059"
 ---
 # <a name="using-multiple-exchange-accounts"></a>使用多个 Exchange 帐户
 
@@ -21,7 +21,7 @@ ms.locfileid: "25398589"
   
 Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 exchange 电子邮件帐户与集成。 在 Outlook 2010 或 Outlook 2013 中，用户无法将两个 exchange 帐户添加到的同一配置文件和仍享受丰富的 Exchange 功能，如已发布的全局地址列表 (GAL)、 Exchange 出的 Office 配置和文件夹共享。
   
-这些熟悉 Microsoft Office Outlook 2007 MAPI 配置文件部分和早期版本知道，在固定 Exchange 全局配置文件部分**pbGlobalProfileSectionGuid**存储 Exchange 设置，如电子邮件用户的名称和服务器名称。 有关 Exchange 全局配置文件的详细信息，请参阅[如何打开全局配置文件部分](https://support.microsoft.com/kb/188482)。 在 Outlook 2010 和 Outlook 2013 中，每个 Exchange 帐户需要其自己的配置文件一节来存储设置，使**pbGlobalProfileSectionGuid**已过时。 
+这些熟悉 Microsoft Office Outlook 2007 MAPI 配置文件部分和早期版本知道，在固定 Exchange 全局配置文件部分**pbGlobalProfileSectionGuid**存储 Exchange 设置，如电子邮件用户的名称和服务器名称。 在 Outlook 2010 和 Outlook 2013 中，每个 Exchange 帐户需要其自己的配置文件一节来存储设置，使**pbGlobalProfileSectionGuid**已过时。 
   
 Outlook 2010 和 Outlook 2013 Exchange 设置仍存储在配置文件，但包含其设置的配置文件内容的唯一标识符动态分配每个配置文件。 配置文件中的 Exchange 设置的位置存储在[PidTagExchangeProfileSectionId 规范属性](pidtagexchangeprofilesectionid-canonical-property.md)，可以在 Exchange 帐户的邮件服务配置文件部分中找到。 此属性也找不在配置文件部分中的帐户的此消息服务的每个提供程序。 唯一标识符不存储在服务器上，将配置文件跨不同。
   

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184655(v=office.15)
 ms:contentKeyID: 55119850
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: dc8ead207261cfd4835e230981d923211771de7b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 27a9efb76fdbb1c6ac6b0b57e874ca59d002b928
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405523"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710305"
 ---
 # <a name="add-a-folder-to-the-folder-list"></a>将文件夹添加到文件夹列表
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612528(v=office.15)
 ms:contentKeyID: 55119780
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b1bee381e6f53b4d8a63e69a920e4f4a6e9e302a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 90c13559094fbffd2dbe9a99602ee235c92d9445
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407371"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723080"
 ---
 # <a name="methods-and-properties-in-the-outlook-pia"></a>Outlook PIA 中的方法和属性
 

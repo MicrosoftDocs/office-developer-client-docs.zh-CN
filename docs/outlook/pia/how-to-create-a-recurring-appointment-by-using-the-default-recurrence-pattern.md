@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184589(v=office.15)
 ms:contentKeyID: 55119809
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: be6c024012c02d31af7ce37af6010ba6b40419ce
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: de58523e663349c43cc358f5b76896987a0f23b3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406706"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722814"
 ---
 # <a name="create-a-recurring-appointment-by-using-the-default-recurrence-pattern"></a>使用默认定期模式创建定期约会
 

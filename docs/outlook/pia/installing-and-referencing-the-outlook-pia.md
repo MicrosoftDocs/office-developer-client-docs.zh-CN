@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646840(v=office.15)
 ms:contentKeyID: 55119774
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 42e79fcd6cf9575f43722d7ba467b028ef6c3e16
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 45584ae0a7050aa769368db518c9efcd5db9975a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405509"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718201"
 ---
 # <a name="installing-and-referencing-the-outlook-pia"></a>安装和引用 Outlook PIA
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
 ms:contentKeyID: 55119922
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 228dd7799a2bc0acf41696cc98ae574670c5ea9b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406083"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723073"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>在枚举文件夹中的项目时筛选并显示计算属性
 

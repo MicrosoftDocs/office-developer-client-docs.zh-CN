@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184588(v=office.15)
 ms:contentKeyID: 55119885
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: d165b27da58a4e99eabb897aac3d2dc03811f588
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: be65e2818f22e6da289ef8b8da483c2747f941a5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407504"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717207"
 ---
 # <a name="use-arrays-to-efficiently-enumerate-items-in-a-folder"></a>使用数组高效枚举文件夹中的项
 

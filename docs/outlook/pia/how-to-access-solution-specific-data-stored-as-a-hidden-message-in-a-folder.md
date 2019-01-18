@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623414(v=office.15)
 ms:contentKeyID: 55119861
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 5134cc2b3a71f8fe93970f040a44d16291dbbb0c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: e4a0a686327bb43b07773b149831107f51fcb4fa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405544"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708142"
 ---
 # <a name="access-solution-specific-data-stored-as-a-hidden-message-in-a-folder"></a>访问在文件夹中存储为隐藏消息的解决方案专用数据
 

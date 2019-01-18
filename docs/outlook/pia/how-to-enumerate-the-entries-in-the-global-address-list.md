@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184654(v=office.15)
 ms:contentKeyID: 55119801
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: f9e392710940a63f5d7723d303d5cf48569ad92f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 98256ce539172b69c2ae94d495c4aab12e3b8cc4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407546"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701422"
 ---
 # <a name="enumerate-the-entries-in-the-global-address-list"></a>枚举全局地址列表条目
 

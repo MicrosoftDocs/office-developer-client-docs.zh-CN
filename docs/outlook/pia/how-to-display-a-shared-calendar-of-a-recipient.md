@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184606(v=office.15)
 ms:contentKeyID: 55119825
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 10101a3eff1b0507c1fe562f175bace7026143fb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: a9230a63af66e8143a7da488ce41dadafe359429
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406881"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709213"
 ---
 # <a name="display-a-shared-calendar-of-a-recipient"></a>显示收件人的共享日历
 

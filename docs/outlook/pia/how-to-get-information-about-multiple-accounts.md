@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184599(v=office.15)
 ms:contentKeyID: 55119794
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 42d0d8439473e9404cb2e94ed9e7e83d59b4c95c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: d065761b9296f1c0eb3043e9b9778e438790f94e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406685"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703207"
 ---
 # <a name="get-information-about-multiple-accounts"></a>获取多个帐户的信息
 

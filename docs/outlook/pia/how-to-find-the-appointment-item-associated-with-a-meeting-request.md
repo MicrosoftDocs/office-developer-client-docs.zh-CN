@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184658(v=office.15)
 ms:contentKeyID: 55119875
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 5fa3822206d86b976bcfa2360cecf3ef22602e96
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 43bc64dbbed14dae2e185ea89d15b6061858de42
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407497"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703284"
 ---
 # <a name="find-the-appointment-item-associated-with-a-meeting-request"></a>查找与会议请求关联的约会项
 

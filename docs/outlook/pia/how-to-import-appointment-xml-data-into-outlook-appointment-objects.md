@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462092(v=office.15)
 ms:contentKeyID: 55119821
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 22d7e17e208aa67648e2fe785d58bc030b41e001
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 0af86772fced3e69d1d28cf8d98a544e3b4d90d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405831"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705384"
 ---
 # <a name="import-appointment-xml-data-into-outlook-appointment-objects"></a>将约会 XML 数据导入 Outlook 约会对象
 

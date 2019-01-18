@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184635(v=office.15)
 ms:contentKeyID: 55119813
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 1344188ad8947245ec0a6d54efff603b9e7755e7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 70e491069fd3f178371e9e8e3e6bcd8dc08e729e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405978"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721841"
 ---
 # <a name="create-an-exception-appointment-in-a-recurring-appointment-series"></a>在定期约会系列中创建例外约会
 

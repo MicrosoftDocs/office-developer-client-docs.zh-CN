@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn320433(v=office.15)
 ms:contentKeyID: 55113874
 ms.date: 09/02/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4fb061b75d5f0e857dc0cff768582ba99a7136ff
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 50a4fdc9d86175768b470d7215a2cf1a150efb32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406678"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704334"
 ---
 # <a name="outlook-2013-interop-assembly-class-library"></a>Outlook 2013 互操作程序集类库
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424471(v=office.15)
 ms:contentKeyID: 55119883
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 76587a72d9c77a5484d9aa9788173f9f40f57614
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 4e9840133b7cd70b72e0bedf57931dfa9e53c67b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405838"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709934"
 ---
 # <a name="execute-a-rule-on-a-local-computer"></a>在本地计算机上执行规则
 

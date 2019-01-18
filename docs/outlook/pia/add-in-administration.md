@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff522354(v=office.15)
 ms:contentKeyID: 55119803
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 29d84eb737ffaf7c499c1a53860b69b94f9e1e71
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 51b876307a3215461514a3220c683be88090669b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407112"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722961"
 ---
 # <a name="add-in-administration"></a>加载项管理
 

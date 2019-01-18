@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609503(v=office.15)
 ms:contentKeyID: 55119824
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 359b328002b711930eab6c029474b3b39cbc184e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 00cc252dd16212e812280db70d6b7c77c2c02693
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406188"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708058"
 ---
 # <a name="share-freebusy-schedule-within-a-specified-period-in-a-calendar"></a>共享日历中指定时间段内闲/忙日程安排
 

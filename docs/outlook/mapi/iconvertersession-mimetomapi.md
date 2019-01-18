@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d71dd44d2dfc39124c5300d2597f5d8ed1e95ebb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 356f4470be26ae3803a53af1cec34b3ac6eb0cc9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395411"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723031"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -36,7 +36,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
  _pstm_
   
@@ -69,6 +69,9 @@ CCSF_INCLUDE_BCC
 CCSF_USE_RTF
   
 > MIME 流的 HTML 正文应转换到富文本格式 (RTF) 中的 MAPI 邮件。
+
+CCSF_GLOBAL_MESSAGE
+> 转换器应处理的 MIME 流作为国际邮件 (EAI/RFC6530)。 不支持 Outlook 2013。
     
 ## <a name="return-value"></a>返回值
 

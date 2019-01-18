@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184621(v=office.15)
 ms:contentKeyID: 55119833
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: cf36003f183c9ddfe40cb2c27a9feab2962324d6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 2d71fc1d582abebc8cb00f4885ec5b5ba348228c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405593"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699371"
 ---
 # <a name="get-and-enumerate-selected-conversations"></a>获取并枚举选定对话
 

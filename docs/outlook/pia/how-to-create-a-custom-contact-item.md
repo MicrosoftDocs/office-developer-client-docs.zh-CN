@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184596(v=office.15)
 ms:contentKeyID: 55119831
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 189be01e6e690ad1db3d58d58837ab418b4c2e74
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 4261fffef0934e01cbfbcc7068377cc392af178c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407343"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716423"
 ---
 # <a name="create-a-custom-contact-item"></a>创建自定义联系人项
 

@@ -5,12 +5,13 @@ ms:assetid: 3706be15-f746-4d0d-9ffe-d6f46b2004dc
 ms:contentKeyID: 55119793
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: d83a145b577cbc9be68cdd694f7806da7cdad512
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 8f56f866e71b1080d5b7a6a33fb17e3e71ab9199
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407203"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708093"
 ---
 # <a name="get-the-account-for-a-folder"></a>获取与文件夹关联的帐户
 

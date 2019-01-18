@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb644571(v=office.15)
 ms:contentKeyID: 55119782
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 0433d1915008bf9317790c1ba86a9bb028161c48
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 29217a633c02390587a370847291ef62d5621ce8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407539"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699210"
 ---
 # <a name="events-in-the-outlook-pia"></a>Outlook PIA 中的事件
 

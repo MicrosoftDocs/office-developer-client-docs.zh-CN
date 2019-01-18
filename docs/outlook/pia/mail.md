@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184619(v=office.15)
 ms:contentKeyID: 55119864
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: f9e68e08e02ae78f96514f3c12dc7d8e9440af0d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 871acb6d9b3905653a382e6548d74f0105d5a186
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407042"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715345"
 ---
 # <a name="mail"></a>邮件
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184603(v=office.15)
 ms:contentKeyID: 55119846
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 89da7df4aac29b7d308dd0b0f432d8652c5f0127
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: fd5b49a2b1f1e494a494cf1bea4e105fa261e053
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407308"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718124"
 ---
 # <a name="get-information-about-the-current-users-manager"></a>获取当前用户的经理信息
 

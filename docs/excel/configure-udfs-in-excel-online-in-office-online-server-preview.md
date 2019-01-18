@@ -1,21 +1,21 @@
 ---
-title: 在 Office Online Server Preview 中配置 Excel Online 中的 UDF
+title: 配置 Office Online Server 中的 Excel Online 中的 Udf
 manager: soliver
 ms.date: 03/18/2016
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
-description: 在 Office Online Server Preview Excel Online 中使用用户定义函数 (Udf) 调用自定义函数。
-ms.openlocfilehash: 2b76b7351a0882762165e37b55c8fbe78f657c34
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+description: 在 Office Online Server Excel Online 中使用用户定义函数 (Udf) 调用自定义函数。
+ms.openlocfilehash: dbba60a62a1a4783b47c3f1fe40a118dd8ed0d6d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384820"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722786"
 ---
-# <a name="configure-udfs-in-excel-online-in-office-online-server-preview"></a>在 Office Online Server Preview 中配置 Excel Online 中的 UDF
+# <a name="configure-udfs-in-excel-online-in-office-online-server"></a>配置 Office Online Server 中的 Excel Online 中的 Udf
 
-[本主题是预发行文档，可能会在将来版本中的更改。]在 Office Online Server Preview Excel Online 中使用用户定义函数 (Udf) 调用自定义函数。 
+在 Office Online Server Excel Online 中使用用户定义函数 (Udf) 调用自定义函数。 
   
 Excel Online 中的用户自定义函数 (UDF) 允许您使用单元格中的公式调用以托管代码编写的自定义函数。您可以使用 UDF 执行以下操作：
   
@@ -35,22 +35,22 @@ Excel Online 中的用户自定义函数 (UDF) 允许您使用单元格中的公
     
     CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38
     
-Office Online Server Preview 上创建一个**新建 OfficeWebAppsExcelUserDefinedFunction**定义时，可引用的位置。 
+Office Online 服务器上创建一个**新建 OfficeWebAppsExcelUserDefinedFunction**定义时，可引用的位置。 
   
 > [!NOTE]
-> Office Online Server Preview 不支持位于网络共享上的 Udf。 
+> Office Online 服务器不支持位于网络共享上的 Udf。 
   
-## <a name="enable-udfs-on-office-online-server-preview"></a>启用在 Office Online Server Preview 的 Udf
+## <a name="enable-udfs-on-office-online-server"></a>启用 Office Online 服务器上的 Udf 
 
 当管理员使用[New-officewebappsfarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) Windows PowerShell cmdlet 创建新的 Office Web Apps Server 服务器场时，默认情况下禁用 UDF 程序集。 **ExcelUdfsAllowed**标志的默认值为 false。 
   
-若要启用 Udf，请在 Office Online Server Preview 上, 运行以下 Windows PowerShell 命令创建 Office Web Apps Server 服务器场之后。
+若要启用 Udf，运行以下 Windows PowerShell 命令在 Office Online 服务器上，创建 Office Web Apps Server 服务器场之后。
   
 `Set-OfficeWebAppsFarm - ExcelUdfsAllowed:$true`
   
-## <a name="create-udf-definitions-on-office-online-server-preview"></a>在 Office Online Server Preview 上创建 UDF 定义
+## <a name="create-udf-definitions-on-office-online-server"></a>Office Online 服务器上创建 UDF 定义
 
-启用 Udf 后，您需要创建包含 Udf 的二进制文件的定义。 若要创建的 UDF 定义二进制 Office Online Server Preview 上，使用**新建 OfficeWebAppsExcelUserDefinedFunction** cmdlet。 此 cmdlet 包括以下参数： 
+启用 Udf 后，您需要创建包含 Udf 的二进制文件的定义。 若要创建的 UDF 定义二进制 Office Online 服务器上，使用**新建 OfficeWebAppsExcelUserDefinedFunction** cmdlet。 此 cmdlet 包括以下参数： 
   
 - **程序集**
     
@@ -68,11 +68,11 @@ Office Online Server Preview 上创建一个**新建 OfficeWebAppsExcelUserDefin
   
 创建新的 UDF 引用之后，在服务器上运行 **iisreset** 以立即继续引用。 
   
-## <a name="additional-office-online-server-preview-udf-windows-powershell-commands"></a>其他 Office Online Server 预览 UDF Windows PowerShell 命令
+## <a name="additional-office-online-server-udf-windows-powershell-commands"></a>其他 Office Online Server UDF Windows PowerShell 命令
 
 使用以下 Windows PowerShell cmdlet 来处理 Udf:
   
-- **Get OfficeWebAppsExcelUserDefinedFunction**（无需的参数）-返回 Office Online Server Preview 配置的 UDF 定义的列表。 
+- **Get OfficeWebAppsExcelUserDefinedFunction**（无需的参数）-返回 Office Online 服务器配置的 UDF 定义的列表。 
     
 - **Set- OfficeWebAppsExcelUserDefinedFunction**（需要标识参数）- 设置现有 UDF 定义的属性。 
     
@@ -82,8 +82,8 @@ Office Online Server Preview 上创建一个**新建 OfficeWebAppsExcelUserDefin
 
 以下文件提供使用 UDF 和 UDF 二进制的示例工作簿：
   
-- [BooleanDataType.xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) -使用 UDF 的示例工作簿  
-- [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll) -UDF 二进制文件 
+- [BooleanDataType.xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx)： 使用 UDF 的示例工作簿  
+- [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll): UDF 二进制文件 
     
 ## <a name="see-also"></a>另请参阅
 

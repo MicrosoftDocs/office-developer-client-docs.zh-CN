@@ -5,12 +5,13 @@ ms:assetid: 02825449-50eb-42d0-8e45-361db5f473df
 ms:contentKeyID: 55119795
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 8af09a6cab56dc80015ecd507a9a2adf423c1978
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: b80a6c47373842437b9944ea25c212810a9de107
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406167"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722730"
 ---
 # <a name="get-account-information"></a>获取帐户信息
 

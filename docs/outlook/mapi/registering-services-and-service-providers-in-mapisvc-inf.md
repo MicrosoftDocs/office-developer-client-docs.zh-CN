@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 上次修改时间： 2013 年 7 月 18 日
-ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: adc6318ab36818b4c423bb6b1dc1b083b3fb54eb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399549"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706882"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>注册 MapiSvc.inf 中的服务和服务提供程序
 
@@ -48,6 +48,6 @@ ms.locfileid: "25399549"
 > [!CAUTION]
 > 如果您选择包含不能排除通过[MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/)和[WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/)函数此类的往返行程的字符的路径，则会出现故障。 
   
-此功能的演示，CodePlex 上的[自动换行 PST 示例](https://ol2010mapisamples.codeplex.com/)已经过修改-相关的功能是**MergeWithMapiSvc**和**GenerateProviderPath**中。
+此功能的演示，GitHub 上的[自动换行 PST 示例](https://github.com/stephenegriffin/Outlook2010CodeSamples)已经过修改-相关的功能是**MergeWithMapiSvc**和**GenerateProviderPath**中。
   
 

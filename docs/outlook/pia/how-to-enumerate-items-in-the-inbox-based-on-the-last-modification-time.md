@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184626(v=office.15)
 ms:contentKeyID: 55119920
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: ecc4ed8f2fb207b8952fef41481738dd8be0ee02
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 0a568209caf172fbab26af1441ba7c208562ae19
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406041"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698391"
 ---
 # <a name="enumerate-items-in-the-inbox-based-on-the-last-modification-time"></a>根据上次修改时间枚举收件箱中的项
 

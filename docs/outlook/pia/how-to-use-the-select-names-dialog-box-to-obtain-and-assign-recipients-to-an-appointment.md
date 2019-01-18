@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184636(v=office.15)
 ms:contentKeyID: 55119878
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 57a7c99efa2bd82e1bc3d3f0855a90b62109719c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 408d2fbdc3c89b7f2bad1fe9c2c76c1f47ae05ff
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407000"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722765"
 ---
 # <a name="use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment"></a>使用“选择姓名”对话框获取收件人并将其分配到约会
 

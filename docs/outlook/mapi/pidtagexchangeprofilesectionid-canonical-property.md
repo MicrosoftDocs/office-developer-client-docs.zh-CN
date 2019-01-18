@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7843a31094d2564f30000f21ee888e525f39f960
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: ce823159047410a8cea13b7eff5566cd8abaa5b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397182"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699511"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>PidTagExchangeProfileSectionId 规范属性
 
@@ -36,7 +36,7 @@ ms.locfileid: "25397182"
    
 ## <a name="remarks"></a>说明
 
-Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 Exchange 帐户，而不是一个一个 Exchange 帐户。 若要容纳多个 Exchange 帐户，已更改的 MAPI 配置文件布局。 在 Microsoft Office Outlook 2007 和更早版本，配置文件包含专用于 Exchange 设置，如服务器名称、 用户名和脱机文件夹文件 (.ost) 固定的配置文件部分。 位置。 使用的唯一标识符， **pbGlobalProfileSectionGuid**属性标识了这些设置。 用于 Exchange 设置部分称为 Exchange 全局配置文件部分。 有关 Outlook 2007 中的 Exchange 全局配置文件的详细信息，请参阅[如何打开全局配置文件部分](https://support.microsoft.com/kb/188482)。
+Microsoft Outlook 2010 和 Microsoft Outlook 2013 支持多个 Exchange 帐户，而不是一个一个 Exchange 帐户。 若要容纳多个 Exchange 帐户，已更改的 MAPI 配置文件布局。 在 Microsoft Office Outlook 2007 和更早版本，配置文件包含专用于 Exchange 设置，如服务器名称、 用户名和脱机文件夹文件 (.ost) 固定的配置文件部分。 位置。 使用的唯一标识符， **pbGlobalProfileSectionGuid**属性标识了这些设置。 用于 Exchange 设置部分称为 Exchange 全局配置文件部分。 
   
 固定的配置文件部分位置不再足以容纳多个 Exchange 帐户。 相反，您的配置文件中的每个 Exchange 帐户，节存在的专用于该帐户的设置。 由唯一标识符**emsmdbUID**标识用于 Exchange 设置新建部分。
   

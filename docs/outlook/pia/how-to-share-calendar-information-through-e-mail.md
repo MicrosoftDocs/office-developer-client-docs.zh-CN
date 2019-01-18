@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609881(v=office.15)
 ms:contentKeyID: 55119817
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 574b8ec24b330276ebd47952d5353c4d170ee8db
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 48b299ad4d3afe5c0c9aaa05f5d8af3b92bf655d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406440"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704509"
 ---
 # <a name="share-calendar-information-through-email"></a>通过电子邮件共享日历信息
 

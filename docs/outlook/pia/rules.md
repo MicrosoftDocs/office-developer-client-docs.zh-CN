@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424480(v=office.15)
 ms:contentKeyID: 55119908
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 7aad88a2363ee6dcb647ba0c377d07fa32cef5cb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 3281d87f72c043803ad52cc00d3c5e971da00aba
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407147"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710487"
 ---
 # <a name="rules"></a>规则
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb610520(v=office.15)
 ms:contentKeyID: 55119783
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 31e9a5453bbfbd4a51132fa6af71b86889b4b32e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 58722b8b140f89f0fe29a3e52db578a423a0160a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406104"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711796"
 ---
 # <a name="connecting-to-custom-event-handlers"></a>连接到自定义事件处理程序
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646255(v=office.15)
 ms:contentKeyID: 55119777
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 759e01b7ea032f53e3afeeaccaff687afc3735b3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 37ecad42b08b96d79d96d62f98e27913a0309971
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406146"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713301"
 ---
 # <a name="architecture-of-the-outlook-pia"></a>Outlook PIA 体系结构
 

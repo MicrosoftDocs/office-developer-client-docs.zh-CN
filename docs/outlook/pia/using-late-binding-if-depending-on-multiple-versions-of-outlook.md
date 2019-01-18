@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610234(v=office.15)
 ms:contentKeyID: 55119791
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 866faab04e8fcac1d91b233f801f05c023ac2164
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: e4cca4d426e5e7e9fd06fa3a0c3af1158b7e6c2f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407070"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706896"
 ---
 # <a name="using-late-binding-if-depending-on-multiple-versions-of-outlook"></a>在需要依赖 Outlook 的多个版本时使用晚期绑定
 

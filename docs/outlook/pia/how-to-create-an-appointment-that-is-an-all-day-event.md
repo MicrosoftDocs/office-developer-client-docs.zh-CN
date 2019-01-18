@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184629(v=office.15)
 ms:contentKeyID: 55119806
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 79bffb9185db43395df7254bc353ac24b65d717a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: b5065395afe39247f8113bc5223b0e3e403a02fa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405936"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710823"
 ---
 # <a name="create-an-appointment-that-is-an-all-day-event"></a>创建属于全天事件的约会
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184612(v=office.15)
 ms:contentKeyID: 55119858
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b418cda3f689182cb7133af22e0f2fdc6ba834c2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: fed1e7eb39f31ddd4340fc82a16e31ec67523a9d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407140"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708128"
 ---
 # <a name="get-a-folder-based-on-its-folder-path"></a>根据文件夹路径获取文件夹
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184625(v=office.15)
 ms:contentKeyID: 55119832
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: dd48437e0b2092d905cf870451b59aea9ef66c5d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 0fcfe76632c2fda742a85a571d655569dc2fcd33
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407441"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705608"
 ---
 # <a name="get-and-display-items-in-a-conversation"></a>获取并显示对话中的项
 

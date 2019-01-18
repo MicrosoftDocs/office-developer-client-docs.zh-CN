@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424466(v=office.15)
 ms:contentKeyID: 55119867
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 6a65bdd5086a10b2d6e9803047555a8b052ff38e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 3befe70363d1e2226b8a3a3a6ebb8db39aa2c6ef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407168"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725992"
 ---
 # <a name="add-voting-options-to-a-mail-item"></a>向邮件项添加投票选项
 

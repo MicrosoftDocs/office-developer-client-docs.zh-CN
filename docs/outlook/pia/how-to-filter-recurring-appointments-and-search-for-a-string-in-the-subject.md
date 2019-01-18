@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb611267(v=office.15)
 ms:contentKeyID: 55119891
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 1815cc4e1314a848229f6187925377809e7200cf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 6bda9cc663af1d1b9167ec78da286fe1c1991d40
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406300"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706697"
 ---
 # <a name="filter-recurring-appointments-and-search-for-a-string-in-the-subject"></a>筛选定期约会并在主题中搜索某个字符串
 

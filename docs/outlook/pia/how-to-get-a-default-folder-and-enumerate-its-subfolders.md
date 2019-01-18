@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184610(v=office.15)
 ms:contentKeyID: 55119857
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 934b5f823127fde9fbbd3a49f41cedb791277e7e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 6151b564957f9574f3a65502584716f5bab0c17e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407399"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710045"
 ---
 # <a name="get-a-default-folder-and-enumerate-its-subfolders"></a>获取默认文件夹并枚举它的子文件夹
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612741(v=office.15)
 ms:contentKeyID: 55119792
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: f05f6e9199cd474a47d36ff92e255dea92a4d5cc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 0bc4e19271e2747f5ffa8586b9f2ab226d6658b4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407553"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711719"
 ---
 # <a name="how-do-i-outlook-2013-pia-reference"></a>如何...（Outlook 2013 PIA 参考）
 

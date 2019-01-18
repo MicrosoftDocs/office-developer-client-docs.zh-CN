@@ -1,10 +1,11 @@
 ---
 redirect_url: outlook-social-connector-provider-reference-0
 redirect_document_id: true
-ms.openlocfilehash: ed9ee36e82876b2f3b807dfa067ce8b84b6c59f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Normal
+ms.openlocfilehash: a998513e37ad833d1430114e91800d1b0a751fd3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779199"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698111"
 ---

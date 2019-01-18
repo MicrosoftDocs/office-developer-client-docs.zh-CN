@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184611(v=office.15)
 ms:contentKeyID: 55119811
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 9aa18f0e2f875e86acf6cacbf222577e0f9c93e2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 9fc50166674ee7b9699ef8e29c5ff1e54db705ad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407077"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712153"
 ---
 # <a name="create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern"></a>创建使用 YearNth 模式的每年一次定期约会
 

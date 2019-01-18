@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610378(v=office.15)
 ms:contentKeyID: 55119776
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: eede42c542c1fc3d83831ae72ccf9b906648cea1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 3b19135900974c3fa379aa9f4acb18ee98a2f8c5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406825"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709185"
 ---
 # <a name="introduction-to-interoperability-between-com-and-net"></a>COM 和 .NET 之间的互操作性简介
 

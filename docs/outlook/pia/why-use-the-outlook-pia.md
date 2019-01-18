@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb645534(v=office.15)
 ms:contentKeyID: 55119773
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 7e36a0de33ea3e23d53ff82b31cc937dff0d7e14
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: dc882eba5f4e6c7729b81626d7324f89b724a244
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406055"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709164"
 ---
 # <a name="why-use-the-outlook-pia"></a>为什么要使用 Outlook PIA
 

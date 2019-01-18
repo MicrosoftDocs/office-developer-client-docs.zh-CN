@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184645(v=office.15)
 ms:contentKeyID: 55119888
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b048ec7fb47a8cbf6b8b49115c59079754fd4ba6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 6508ea955ad74b49b5fef73352b4a1706d8e338c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406020"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713196"
 ---
 # <a name="enumerate-hidden-items-in-a-folder"></a>枚举文件夹中的隐藏项
 

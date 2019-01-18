@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb609695(v=office.15)
 ms:contentKeyID: 55119779
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 4ad0ee46b725593c3fe78cb6d81076ae7a28b5d5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: cbd5083f3adb8a30f5804cc35e0bc8a08d36b5f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406944"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698552"
 ---
 # <a name="relating-the-outlook-pia-with-the-object-model"></a>将 Outlook PIA 与对象模型相关联
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb623114(v=office.15)
 ms:contentKeyID: 55119786
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b397fa2ad37102e12a3a0cf569e74323391b8e86
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: e2490c15da9c993a1a26b50adeb38207457f8286
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407252"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722261"
 ---
 # <a name="using-a-separate-application-domain-to-avoid-crashing"></a>使用独立应用程序域以免发生故障
 

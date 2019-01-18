@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184591(v=office.15)
 ms:contentKeyID: 55119930
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: f26e8d1402b75272e79c6244b7bd2875d783c1f1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 9ab5e830003fbfb64b44fc9e0d813c7a7c5163bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406636"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726048"
 ---
 # <a name="display-the-task-request-items-sent-to-a-recipient"></a>显示发送给收件人的任务请求项
 
