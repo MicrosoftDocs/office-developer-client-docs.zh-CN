@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123920(v=office.15)
 ms:contentKeyID: 52071559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 870668eb333e1bcb42dd3608b4c0ad8299f3ec8e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b966e020531e4d651387a65a23898cdb3e9e22ff
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922634"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705566"
 ---
-# <a name="program-flow"></a><span data-ttu-id="7607b-102">程序流</span><span class="sxs-lookup"><span data-stu-id="7607b-102">Program flow</span></span>
+# <a name="program-flow"></a><span data-ttu-id="28754-102">程序流</span><span class="sxs-lookup"><span data-stu-id="28754-102">Program flow</span></span>
 
-<span data-ttu-id="7607b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="7607b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="28754-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="28754-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7607b-104">If...Then...Else 宏程序块</span><span class="sxs-lookup"><span data-stu-id="7607b-104">If...Then...Else macro block</span></span>](if-then-else-macro-block.md)
-- [<span data-ttu-id="7607b-105">Comment 宏语句</span><span class="sxs-lookup"><span data-stu-id="7607b-105">Comment macro statement</span></span>](comment-macro-statement.md)
-- [<span data-ttu-id="7607b-106">Group 宏语句</span><span class="sxs-lookup"><span data-stu-id="7607b-106">Group macro statement</span></span>](group-macro-statement.md)
-- [<span data-ttu-id="7607b-107">Submacro 宏语句</span><span class="sxs-lookup"><span data-stu-id="7607b-107">Submacro macro statement</span></span>](submacro-macro-statement.md)
+- [<span data-ttu-id="28754-104">If...Then...Else 宏程序块</span><span class="sxs-lookup"><span data-stu-id="28754-104">If...Then...Else macro block</span></span>](if-then-else-macro-block.md)
+- [<span data-ttu-id="28754-105">Comment 宏语句</span><span class="sxs-lookup"><span data-stu-id="28754-105">Comment macro statement</span></span>](comment-macro-statement.md)
+- [<span data-ttu-id="28754-106">Group 宏语句</span><span class="sxs-lookup"><span data-stu-id="28754-106">Group macro statement</span></span>](group-macro-statement.md)
+- [<span data-ttu-id="28754-107">Submacro 宏语句</span><span class="sxs-lookup"><span data-stu-id="28754-107">Submacro macro statement</span></span>](submacro-macro-statement.md)
 

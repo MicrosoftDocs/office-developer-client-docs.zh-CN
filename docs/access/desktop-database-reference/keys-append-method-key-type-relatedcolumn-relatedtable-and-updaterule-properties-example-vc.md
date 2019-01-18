@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
 ms:contentKeyID: 48547840
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fed89b0ac9600cf5866bfcfac3497c735ca6929
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: edbb25c9eda48a33f659e577882e40cc67a07190
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890979"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703662"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="19573-102">Keys 的 Append 方法，密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="19573-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="dee87-102">Keys 的 Append 方法，密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="dee87-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="19573-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="19573-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dee87-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="dee87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="19573-p101">下面的代码演示如何创建新的外键。它假设有两个表：Customers（客户）和 Orders（订单）。</span><span class="sxs-lookup"><span data-stu-id="19573-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="dee87-p101">下面的代码演示如何创建新的外键。它假设有两个表：Customers（客户）和 Orders（订单）。</span><span class="sxs-lookup"><span data-stu-id="dee87-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  

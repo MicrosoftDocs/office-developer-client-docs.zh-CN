@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15)
 ms:contentKeyID: 48544313
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfb62f996bc09446445d8ef2cc49644fa99c1a2c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: edc0d2d5c3036dcf591ff0a73849c66d43b7d975
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883188"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703620"
 ---
-# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="88d2d-102">MarshalOptions 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="88d2d-102">MarshalOptions property example (VJ++)</span></span>
+# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="5102e-102">MarshalOptions 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="5102e-102">MarshalOptions property example (VJ++)</span></span>
 
 
-<span data-ttu-id="88d2d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="88d2d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5102e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5102e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="88d2d-104">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="88d2d-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="5102e-104">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="5102e-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```java 
  

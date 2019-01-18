@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
 ms:contentKeyID: 48545936
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 8199c278b6552a40735f17f5f9f3a05e70e3f075
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2c448ccb1f3ff9f0dd30fbd2c25234340e807c86
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879198"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702360"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="746d6-102">ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="746d6-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="1b8ad-102">ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1b8ad-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
 
-<span data-ttu-id="746d6-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="746d6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1b8ad-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b8ad-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="746d6-104">此示例使用 [ActiveConnection](activeconnection-property-ado.md)、[CommandText](commandtext-property-ado.md)、[CommandTimeout](commandtimeout-property-ado.md)、[CommandType](commandtype-property-ado.md)、[Size](size-property-ado.md) 和 [Direction](direction-property-ado.md) 属性来执行存储过程。</span><span class="sxs-lookup"><span data-stu-id="746d6-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="1b8ad-104">此示例使用 [ActiveConnection](activeconnection-property-ado.md)、[CommandText](commandtext-property-ado.md)、[CommandTimeout](commandtimeout-property-ado.md)、[CommandType](commandtype-property-ado.md)、[Size](size-property-ado.md) 和 [Direction](direction-property-ado.md) 属性来执行存储过程。</span><span class="sxs-lookup"><span data-stu-id="1b8ad-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```java 
  

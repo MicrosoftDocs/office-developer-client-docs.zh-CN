@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15)
 ms:contentKeyID: 48548140
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2cbe807dd3488a461c6288b9ec98c92ceb88b11a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 11c1ca2102d9cb98503a1e0a8c36621b8d53e447
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871505"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698545"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a><span data-ttu-id="5706f-102">ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="5706f-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a><span data-ttu-id="5ef16-102">ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="5ef16-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)</span></span>
 
-<span data-ttu-id="5706f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5706f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5ef16-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ef16-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5706f-104">此示例使用 [ActiveConnection](activeconnection-property-ado.md)、[CommandText](commandtext-property-ado.md)、[CommandTimeout](commandtimeout-property-ado.md)、[CommandType](commandtype-property-ado.md)、[Size](size-property-ado.md) 和 [Direction](direction-property-ado.md) 属性来执行存储过程。</span><span class="sxs-lookup"><span data-stu-id="5706f-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="5ef16-104">此示例使用 [ActiveConnection](activeconnection-property-ado.md)、[CommandText](commandtext-property-ado.md)、[CommandTimeout](commandtimeout-property-ado.md)、[CommandType](commandtype-property-ado.md)、[Size](size-property-ado.md) 和 [Direction](direction-property-ado.md) 属性来执行存储过程。</span><span class="sxs-lookup"><span data-stu-id="5ef16-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```vb 
  

@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249560(v=office.15)
 ms:contentKeyID: 48545961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ea9b4999ae107c6b6ca88ca7cf75888163a5b05
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bc9822f2055e7cdfd9a2ef5fe9d2312fc5622ac7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944107"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702304"
 ---
-# <a name="adding-multiple-fields"></a><span data-ttu-id="c2671-102">添加多个字段</span><span class="sxs-lookup"><span data-stu-id="c2671-102">Adding multiple fields</span></span>
+# <a name="adding-multiple-fields"></a><span data-ttu-id="fc4b5-102">添加多个字段</span><span class="sxs-lookup"><span data-stu-id="fc4b5-102">Adding multiple fields</span></span>
 
-<span data-ttu-id="c2671-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2671-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc4b5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc4b5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c2671-104">有时，将字段及其相应值的数组传递到 **AddNew** 方法要比多次为每个新字段设置 **Value** 更加有效率。</span><span class="sxs-lookup"><span data-stu-id="c2671-104">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field.</span></span> <span data-ttu-id="c2671-105">如果*FieldList*是一个数组，*值*还必须具有相同数量的成员; 数组否则，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="c2671-105">If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="c2671-106">在每个数组中，字段名称的顺序必须与字段值的顺序相匹配。</span><span class="sxs-lookup"><span data-stu-id="c2671-106">The order of field names must match the order of field values in each array.</span></span> <span data-ttu-id="c2671-107">以下代码将字段的数组和值的数组传递到 **AddNew** 方法。</span><span class="sxs-lookup"><span data-stu-id="c2671-107">The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
+<span data-ttu-id="fc4b5-104">有时，将字段及其相应值的数组传递到 **AddNew** 方法要比多次为每个新字段设置 **Value** 更加有效率。</span><span class="sxs-lookup"><span data-stu-id="fc4b5-104">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field.</span></span> <span data-ttu-id="fc4b5-105">如果*FieldList*是一个数组，*值*还必须具有相同数量的成员; 数组否则，将发生错误。</span><span class="sxs-lookup"><span data-stu-id="fc4b5-105">If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="fc4b5-106">在每个数组中，字段名称的顺序必须与字段值的顺序相匹配。</span><span class="sxs-lookup"><span data-stu-id="fc4b5-106">The order of field names must match the order of field values in each array.</span></span> <span data-ttu-id="fc4b5-107">以下代码将字段的数组和值的数组传递到 **AddNew** 方法。</span><span class="sxs-lookup"><span data-stu-id="fc4b5-107">The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
 
 ```vb 
  

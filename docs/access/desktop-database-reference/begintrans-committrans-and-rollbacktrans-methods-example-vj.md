@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249616(v=office.15)
 ms:contentKeyID: 48546229
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07bd4d524b5039598fac53c0f2588963f2b5eaf3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 976de07f293e4160ac8946205504498931cbdd07
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884658"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702096"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vj"></a><span data-ttu-id="210ea-102">BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="210ea-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vj"></a><span data-ttu-id="6a2a0-102">BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6a2a0-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="210ea-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="210ea-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6a2a0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a2a0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="210ea-p101">以下示例更改数据库 ***Titles（标题）*** 表中所有心理学书籍的书籍类型。首先用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法启动一个事务，隔离对 ***Titles（标题）*** 表进行的所有更改，然后用 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法保存更改。可以使用 [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法撤消用 [Update](update-method-ado.md) 方法保存的更改。</span><span class="sxs-lookup"><span data-stu-id="210ea-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="6a2a0-p101">以下示例更改数据库 ***Titles（标题）*** 表中所有心理学书籍的书籍类型。首先用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法启动一个事务，隔离对 ***Titles（标题）*** 表进行的所有更改，然后用 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法保存更改。可以使用 [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法撤消用 [Update](update-method-ado.md) 方法保存的更改。</span><span class="sxs-lookup"><span data-stu-id="6a2a0-p101">This example changes the book type of all psychology books in the ***Titles*** table of the database. After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes. You can use the [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```java 
  

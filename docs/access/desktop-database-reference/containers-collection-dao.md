@@ -6,26 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
 ms:contentKeyID: 48544642
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be25a2f8b5d6da7b569858d758b3fb541cf9be51
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9c874a1555fa6a6f5f948275176c57b5fb1c48bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920436"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703823"
 ---
-# <a name="containers-collection-dao"></a><span data-ttu-id="f9e63-102">Containers 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="f9e63-102">Containers collection (DAO)</span></span>
+# <a name="containers-collection-dao"></a><span data-ttu-id="db822-102">Containers 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="db822-102">Containers collection (DAO)</span></span>
 
-<span data-ttu-id="f9e63-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9e63-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db822-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="db822-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f9e63-104">**Containers**集合包含所有数据库中定义的**容器**对象。</span><span class="sxs-lookup"><span data-stu-id="f9e63-104">A **Containers** collection contains all of the **Container** objects that are defined in a database.</span></span>
+<span data-ttu-id="db822-104">**Containers**集合包含所有数据库中定义的**容器**对象。</span><span class="sxs-lookup"><span data-stu-id="db822-104">A **Containers** collection contains all of the **Container** objects that are defined in a database.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f9e63-105">注解</span><span class="sxs-lookup"><span data-stu-id="f9e63-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="db822-105">注解</span><span class="sxs-lookup"><span data-stu-id="db822-105">Remarks</span></span>
 
-<span data-ttu-id="f9e63-106">每个 **Database** 对象都具有一个由内置 **Container** 对象组成的 **Containers** 集合。</span><span class="sxs-lookup"><span data-stu-id="f9e63-106">Each **Database** object has a **Containers** collection consisting of built-in **Container** objects.</span></span> <span data-ttu-id="f9e63-107">这些 **Container** 对象中的一部分是由 Microsoft Access 数据库引擎定义的，而其余部分可能是由其他应用程序定义的。</span><span class="sxs-lookup"><span data-stu-id="f9e63-107">Some of these **Container** objects are defined by the Microsoft Access database engine while others may be defined by other applications.</span></span>
+<span data-ttu-id="db822-106">每个 **Database** 对象都具有一个由内置 **Container** 对象组成的 **Containers** 集合。</span><span class="sxs-lookup"><span data-stu-id="db822-106">Each **Database** object has a **Containers** collection consisting of built-in **Container** objects.</span></span> <span data-ttu-id="db822-107">这些 **Container** 对象中的一部分是由 Microsoft Access 数据库引擎定义的，而其余部分可能是由其他应用程序定义的。</span><span class="sxs-lookup"><span data-stu-id="db822-107">Some of these **Container** objects are defined by the Microsoft Access database engine while others may be defined by other applications.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f9e63-108">示例</span><span class="sxs-lookup"><span data-stu-id="f9e63-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="db822-108">示例</span><span class="sxs-lookup"><span data-stu-id="db822-108">Example</span></span>
 
-<span data-ttu-id="f9e63-109">以下示例枚举 Northwind 数据库的 **Containers** 集合以及该集合中每个 **Container** 对象的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="f9e63-109">This example enumerates the **Containers** collection of the Northwind database and the **Properties** collection of each **Container** object in the collection.</span></span>
+<span data-ttu-id="db822-109">以下示例枚举 Northwind 数据库的 **Containers** 集合以及该集合中每个 **Container** 对象的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="db822-109">This example enumerates the **Containers** collection of the Northwind database and the **Properties** collection of each **Container** object in the collection.</span></span>
 
 ```vb
     Sub ContainerObjectX()

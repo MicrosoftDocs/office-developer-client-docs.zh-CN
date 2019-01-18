@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63cd81b6df6da840e4c1ee3ad40a7a2d9c3f398a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fb51b22dd07c40c55a3e773cc186b14e527bd98c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878197"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701170"
 ---
-# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="bbf51-102">NextRecordset 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="bbf51-102">NextRecordset method example (VC++)</span></span>
+# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="d283b-102">NextRecordset 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="d283b-102">NextRecordset method example (VC++)</span></span>
 
 
-<span data-ttu-id="bbf51-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="bbf51-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d283b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d283b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bbf51-104">本示例使用 [NextRecordset](nextrecordset-method-ado.md) 方法来查看记录集中的数据，该方法使用由三个单独的 **SELECT** 语句构成的复合命令语句。</span><span class="sxs-lookup"><span data-stu-id="bbf51-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="d283b-104">本示例使用 [NextRecordset](nextrecordset-method-ado.md) 方法来查看记录集中的数据，该方法使用由三个单独的 **SELECT** 语句构成的复合命令语句。</span><span class="sxs-lookup"><span data-stu-id="d283b-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```cpp 
  

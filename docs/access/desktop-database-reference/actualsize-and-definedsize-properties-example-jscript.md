@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
 ms:contentKeyID: 48547811
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: ce9c50039566511a4f22f3ab613e5dce36c3931d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 99c88249180a0c8aeb7baff0e81a7c9e590a5ef4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878694"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704285"
 ---
-# <a name="actualsize-and-definedsize-properties-example-jscript"></a><span data-ttu-id="ed48d-102">ActualSize 和 DefinedSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="ed48d-102">ActualSize and DefinedSize properties example (JScript)</span></span>
+# <a name="actualsize-and-definedsize-properties-example-jscript"></a><span data-ttu-id="f2dbf-102">ActualSize 和 DefinedSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="f2dbf-102">ActualSize and DefinedSize properties example (JScript)</span></span>
 
-<span data-ttu-id="ed48d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ed48d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f2dbf-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2dbf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ed48d-p101">此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActualSizeJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="ed48d-p101">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field. Cut and paste the following code to Notepad or another text editor, and save it as **ActualSizeJS.asp**.</span></span>
+<span data-ttu-id="f2dbf-p101">此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActualSizeJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="f2dbf-p101">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field. Cut and paste the following code to Notepad or another text editor, and save it as **ActualSizeJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActualSizeJS --> 

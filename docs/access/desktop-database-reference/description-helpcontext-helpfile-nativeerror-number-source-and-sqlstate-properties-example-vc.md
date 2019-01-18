@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
 ms:contentKeyID: 48543369
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b6c0a1788d4a8eb8f3b3f0c3cf67303a8506089
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bef947a7a45cb079ea0202fdecb0043a73ad05b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878848"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702584"
 ---
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a><span data-ttu-id="75c3d-102">Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="75c3d-102">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)</span></span>
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a><span data-ttu-id="5155d-102">Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="5155d-102">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)</span></span>
 
 
-<span data-ttu-id="75c3d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="75c3d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5155d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5155d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="75c3d-104">此示例触发一个错误，将其捕获，并显示产生的 [Error](description-property-ado.md) 对象的 [Description](helpcontext-helpfile-properties-ado.md)、[HelpContext](helpcontext-helpfile-properties-ado.md)、[HelpFile](nativeerror-property-ado.md)、[NativeError](number-property-ado.md)、[Number](source-property-ado-error.md)、[Source](sqlstate-property-ado.md) 和 [SQLState](error-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="75c3d-104">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
+<span data-ttu-id="5155d-104">此示例触发一个错误，将其捕获，并显示产生的 [Error](description-property-ado.md) 对象的 [Description](helpcontext-helpfile-properties-ado.md)、[HelpContext](helpcontext-helpfile-properties-ado.md)、[HelpFile](nativeerror-property-ado.md)、[NativeError](number-property-ado.md)、[Number](source-property-ado-error.md)、[Source](sqlstate-property-ado.md) 和 [SQLState](error-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="5155d-104">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
 
 ```cpp
     // BeginDescriptionCpp

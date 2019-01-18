@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249425(v=office.15)
 ms:contentKeyID: 48545462
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e19ac7517e548f1594c0b525671e6aff66eef72c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 99570fc54cc7393d3dff7c51e81df086696b58f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888508"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701079"
 ---
-# <a name="command-and-commandtext-properties-example-vb"></a><span data-ttu-id="ecdda-102">Command 和 CommandText 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="ecdda-102">Command and CommandText properties example (VB)</span></span>
+# <a name="command-and-commandtext-properties-example-vb"></a><span data-ttu-id="d6b33-102">Command 和 CommandText 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="d6b33-102">Command and CommandText properties example (VB)</span></span>
 
 
-<span data-ttu-id="ecdda-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecdda-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d6b33-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6b33-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ecdda-104">下面的代码演示如何使用 [Command](command-property-adox.md) 属性更新过程的文本。</span><span class="sxs-lookup"><span data-stu-id="ecdda-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="d6b33-104">下面的代码演示如何使用 [Command](command-property-adox.md) 属性更新过程的文本。</span><span class="sxs-lookup"><span data-stu-id="d6b33-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```vb 
  

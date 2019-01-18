@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1052922
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8f322cc04885d7cc60cecb91c4ef4eedb4839d4a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e14cfde828322fee22b8a833bdbc7934900953a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930313"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701002"
 ---
-# <a name="databaserelations-property-dao"></a><span data-ttu-id="3e4ac-102">Database.Relations 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="3e4ac-102">Database.Relations property (DAO)</span></span>
+# <a name="databaserelations-property-dao"></a><span data-ttu-id="ad86a-102">Database.Relations 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad86a-102">Database.Relations property (DAO)</span></span>
 
 
-<span data-ttu-id="3e4ac-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="3e4ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ad86a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad86a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3e4ac-p101">返回一个 **Relations** 集合，该集合包含指定数据库的所有存储的 **Relation** 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="3e4ac-p101">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database. Read-only.</span></span>
+<span data-ttu-id="ad86a-p101">返回一个 **Relations** 集合，该集合包含指定数据库的所有存储的 **Relation** 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="ad86a-p101">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3e4ac-106">语法</span><span class="sxs-lookup"><span data-stu-id="3e4ac-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ad86a-106">语法</span><span class="sxs-lookup"><span data-stu-id="ad86a-106">Syntax</span></span>
 
-<span data-ttu-id="3e4ac-107">*表达式*。关系</span><span class="sxs-lookup"><span data-stu-id="3e4ac-107">*expression* .Relations</span></span>
+<span data-ttu-id="ad86a-107">*表达式*。关系</span><span class="sxs-lookup"><span data-stu-id="ad86a-107">*expression* .Relations</span></span>
 
-<span data-ttu-id="3e4ac-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="3e4ac-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="ad86a-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="ad86a-108">*expression* A variable that represents a **Database** object.</span></span>
 
