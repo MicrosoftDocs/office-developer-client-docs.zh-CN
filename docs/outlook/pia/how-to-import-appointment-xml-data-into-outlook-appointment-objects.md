@@ -6,30 +6,31 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462092(v=office.15)
 ms:contentKeyID: 55119821
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 22d7e17e208aa67648e2fe785d58bc030b41e001
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 0af86772fced3e69d1d28cf8d98a544e3b4d90d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405831"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705384"
 ---
-# <a name="import-appointment-xml-data-into-outlook-appointment-objects"></a><span data-ttu-id="b35dc-102">将约会 XML 数据导入 Outlook 约会对象</span><span class="sxs-lookup"><span data-stu-id="b35dc-102">Import Appointment XML Data into Outlook Appointment Objects</span></span>
+# <a name="import-appointment-xml-data-into-outlook-appointment-objects"></a><span data-ttu-id="3ea5e-102">将约会 XML 数据导入 Outlook 约会对象</span><span class="sxs-lookup"><span data-stu-id="3ea5e-102">Import appointment XML data into Outlook appointment objects</span></span>
 
-<span data-ttu-id="b35dc-103">本主题展示了如何读取 XML 格式的约会数据，将此类数据保存到默认日历的 Outlook [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) 对象中，再以数组形式返回这些约会对象。</span><span class="sxs-lookup"><span data-stu-id="b35dc-103">This topic shows how to read appointment data formatted in XML, save the data to Microsoft Outlook [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) objects in the default calendar, and return the appointment objects in an array.</span></span>
+<span data-ttu-id="3ea5e-103">本主题展示了如何读取 XML 格式的约会数据，将此类数据保存到默认日历的 Outlook [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) 对象中，再以数组形式返回这些约会对象。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-103">This topic shows how to read appointment data formatted in XML, save the data to Outlook [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) objects in the default calendar, and return the appointment objects in an array.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b35dc-104">示例</span><span class="sxs-lookup"><span data-stu-id="b35dc-104">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3ea5e-104">示例</span><span class="sxs-lookup"><span data-stu-id="3ea5e-104">Example</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="b35dc-105">Helmut Obertanner 提供了下面的代码示例。</span><span class="sxs-lookup"><span data-stu-id="b35dc-105">Helmut Obertanner provided the following code examples.</span></span> <span data-ttu-id="b35dc-106">Helmut 拥有 Visual Studio Office 开发人员工具和 Outlook 方面的专业知识。</span><span class="sxs-lookup"><span data-stu-id="b35dc-106">Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook.</span></span> 
+> <span data-ttu-id="3ea5e-105">Helmut Obertanner 提供了下面的代码示例。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-105">Helmut Obertanner provided the following code examples.</span></span> <span data-ttu-id="3ea5e-106">Helmut 拥有 Visual Studio Office 开发人员工具和 Outlook 方面的专业知识。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-106">Helmut's expertise is in Office Developer Tools for Visual Studio and Outlook.</span></span> 
 
 
-<span data-ttu-id="b35dc-107">下面的代码示例包含 Sample 类的 CreateAppointmentsFromXml 方法（作为 Outlook 加载项项目的一部分实现）。</span><span class="sxs-lookup"><span data-stu-id="b35dc-107">The following code examples contain the   method of the   class, implemented as part of an Outlook add-in project.</span></span> <span data-ttu-id="b35dc-108">每个项目都添加对基于 [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)) 命名空间的 Outlook 主互操作程序集的引用。</span><span class="sxs-lookup"><span data-stu-id="b35dc-108">Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)) namespace.</span></span>
+<span data-ttu-id="3ea5e-107">下面的代码示例包含 Sample 类的 CreateAppointmentsFromXml 方法（作为 Outlook 加载项项目的一部分实现）。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-107">The following code examples contain the CreateAppointmentsFromXml method of the Sample class, implemented as part of an Outlook add-in project.</span></span> <span data-ttu-id="3ea5e-108">每个项目都添加对基于 [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)) 命名空间的 Outlook 主互操作程序集的引用。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-108">Each project adds a reference to the Outlook Primary Interop Assembly, which is based on the [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)) namespace.</span></span>
 
-<span data-ttu-id="b35dc-109">CreateAppointmentsFromXml 方法接受两个输入参数：</span><span class="sxs-lookup"><span data-stu-id="b35dc-109">The CreateAppointmentsFromXml method accepts two input parameters:</span></span>
+<span data-ttu-id="3ea5e-109">CreateAppointmentsFromXml 方法接受两个输入参数：</span><span class="sxs-lookup"><span data-stu-id="3ea5e-109">The CreateAppointmentsFromXml method accepts two input parameters:</span></span>
 
-  - <span data-ttu-id="b35dc-110">application 是受信任的 Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) 对象。</span><span class="sxs-lookup"><span data-stu-id="b35dc-110">application is a trusted Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) object.</span></span>
+  - <span data-ttu-id="3ea5e-110">application 是受信任的 Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) 对象。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-110">application is a trusted Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) object.</span></span>
 
-  - <span data-ttu-id="b35dc-p103">xml 是 XML 字符串或表示有效 XML 文件的路径的字符串。出于对以下代码示例的目的考虑，XML 使用下列 XML 标记分隔约会数据：</span><span class="sxs-lookup"><span data-stu-id="b35dc-p103">xml is either an XML string, or a string that represents a path to a valid XML file. For the purpose of the following code examples, the XML delimits appointment data by using the following XML tags:</span></span>
+  - <span data-ttu-id="3ea5e-p103">xml 是 XML 字符串或表示有效 XML 文件的路径的字符串。出于对以下代码示例的目的考虑，XML 使用下列 XML 标记分隔约会数据：</span><span class="sxs-lookup"><span data-stu-id="3ea5e-p103">xml is either an XML string, or a string that represents a path to a valid XML file. For the purpose of the following code examples, the XML delimits appointment data by using the following XML tags:</span></span>
     
     <table>
     <colgroup>
@@ -38,44 +39,44 @@ ms.locfileid: "25405831"
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p><span data-ttu-id="b35dc-113">约会数据</span><span class="sxs-lookup"><span data-stu-id="b35dc-113">Appointment data</span></span></p></th>
-    <th><p><span data-ttu-id="b35dc-114">分隔 XML 标记</span><span class="sxs-lookup"><span data-stu-id="b35dc-114">Delimiting XML tag</span></span></p></th>
+    <th><p><span data-ttu-id="3ea5e-113">约会数据</span><span class="sxs-lookup"><span data-stu-id="3ea5e-113">Appointment data</span></span></p></th>
+    <th><p><span data-ttu-id="3ea5e-114">分隔 XML 标记</span><span class="sxs-lookup"><span data-stu-id="3ea5e-114">Delimiting XML tag</span></span></p></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p><span data-ttu-id="b35dc-115">整个约会数据集</span><span class="sxs-lookup"><span data-stu-id="b35dc-115">Entire set of appointment data</span></span></p></td>
-    <td><p><span data-ttu-id="b35dc-116">appointments</span><span class="sxs-lookup"><span data-stu-id="b35dc-116">appointments</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-115">整个约会数据集</span><span class="sxs-lookup"><span data-stu-id="3ea5e-115">Entire set of appointment data</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-116">appointments</span><span class="sxs-lookup"><span data-stu-id="3ea5e-116">appointments</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="b35dc-117">约会集中的每个约会</span><span class="sxs-lookup"><span data-stu-id="b35dc-117">Each appointment in the set</span></span></p></td>
-    <td><p><span data-ttu-id="b35dc-118">appointment</span><span class="sxs-lookup"><span data-stu-id="b35dc-118">appointment</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-117">约会集中的每个约会</span><span class="sxs-lookup"><span data-stu-id="3ea5e-117">Each appointment in the set</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-118">appointment</span><span class="sxs-lookup"><span data-stu-id="3ea5e-118">appointment</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="b35dc-119">约会的开始时间</span><span class="sxs-lookup"><span data-stu-id="b35dc-119">Start time of an appointment</span></span></p></td>
-    <td><p><span data-ttu-id="b35dc-120">starttime</span><span class="sxs-lookup"><span data-stu-id="b35dc-120">StartTime</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-119">约会的开始时间</span><span class="sxs-lookup"><span data-stu-id="3ea5e-119">Start time of an appointment</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-120">starttime</span><span class="sxs-lookup"><span data-stu-id="3ea5e-120">starttime</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="b35dc-121">约会的结束时间</span><span class="sxs-lookup"><span data-stu-id="b35dc-121">End time of an appointment</span></span></p></td>
-    <td><p><span data-ttu-id="b35dc-122">endtime</span><span class="sxs-lookup"><span data-stu-id="b35dc-122">EndTime</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-121">约会的结束时间</span><span class="sxs-lookup"><span data-stu-id="3ea5e-121">End time of an appointment</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-122">endtime</span><span class="sxs-lookup"><span data-stu-id="3ea5e-122">endtime</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="b35dc-123">约会标题</span><span class="sxs-lookup"><span data-stu-id="b35dc-123">Title of an appointment</span></span></p></td>
-    <td><p><span data-ttu-id="b35dc-124">subject</span><span class="sxs-lookup"><span data-stu-id="b35dc-124">subject</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-123">约会标题</span><span class="sxs-lookup"><span data-stu-id="3ea5e-123">Title of an appointment</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-124">subject</span><span class="sxs-lookup"><span data-stu-id="3ea5e-124">subject</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p><span data-ttu-id="b35dc-125">约会位置</span><span class="sxs-lookup"><span data-stu-id="b35dc-125">Location of an appointment</span></span></p></td>
-    <td><p><span data-ttu-id="b35dc-126">location</span><span class="sxs-lookup"><span data-stu-id="b35dc-126">location</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-125">约会位置</span><span class="sxs-lookup"><span data-stu-id="3ea5e-125">Location of an appointment</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-126">location</span><span class="sxs-lookup"><span data-stu-id="3ea5e-126">location</span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p><span data-ttu-id="b35dc-127">约会详细信息</span><span class="sxs-lookup"><span data-stu-id="b35dc-127">Details of an appointment</span></span></p></td>
-    <td><p><span data-ttu-id="b35dc-128">body</span><span class="sxs-lookup"><span data-stu-id="b35dc-128">body</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-127">约会详细信息</span><span class="sxs-lookup"><span data-stu-id="3ea5e-127">Details of an appointment</span></span></p></td>
+    <td><p><span data-ttu-id="3ea5e-128">body</span><span class="sxs-lookup"><span data-stu-id="3ea5e-128">body</span></span></p></td>
     </tr>
     </tbody>
     </table>
 
 
-<span data-ttu-id="b35dc-129">下面的代码示例展示了 *xml* 参数的输入数据。</span><span class="sxs-lookup"><span data-stu-id="b35dc-129">The following example shows input data for the  *xml* parameter.</span></span>
+<span data-ttu-id="3ea5e-129">下面的代码示例展示了 *xml* 参数的输入数据。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-129">The following example shows input data for the *xml* parameter.</span></span>
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -104,13 +105,13 @@ ms.locfileid: "25405831"
 </appointments>
 ```
 
-<span data-ttu-id="b35dc-p104">CreateAppointmentsFromXml 方法使用 XML 文档对象模型 (DOM) 的 Microsoft COM 实现来加载和处理 xml 提供的 XML 数据。CreateAppointmentsFromXml 首先检查 xml 指定的 XML 数据源是否有效。如果有效，则它将数据加载到 XML 文档 [DOMDocument](https://msdn.microsoft.com/library/ms756987\(v=office.15\)) 中。否则，CreateAppointmentsFromXml 将引发异常。有关 XML DOM 的详细信息，请参阅 [DOM](https://msdn.microsoft.com/library/ms766487\(v=office.15\))。</span><span class="sxs-lookup"><span data-stu-id="b35dc-p104">The CreateAppointmentsFromXml method uses the Microsoft COM implementation of the XML Document Object Model (DOM) to load and process the XML data that xml provides. CreateAppointmentsFromXml first checks whether xml specifies a valid source of XML data. If so, it loads the data into an XML document, [DOMDocument](https://msdn.microsoft.com/library/ms756987\(v=office.15\)). Otherwise, CreateAppointmentsFromXml throws an exception. For more information about the XML DOM, see [DOM](https://msdn.microsoft.com/library/ms766487\(v=office.15\)).</span></span>
+<span data-ttu-id="3ea5e-p104">CreateAppointmentsFromXml 方法使用 XML 文档对象模型 (DOM) 的 Microsoft COM 实现来加载和处理 xml 提供的 XML 数据。CreateAppointmentsFromXml 首先检查 xml 指定的 XML 数据源是否有效。如果有效，则它将数据加载到 XML 文档 [DOMDocument](https://msdn.microsoft.com/library/ms756987\(v=office.15\)) 中。否则，CreateAppointmentsFromXml 将引发异常。有关 XML DOM 的详细信息，请参阅 [DOM](https://msdn.microsoft.com/library/ms766487\(v=office.15\))。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-p104">The CreateAppointmentsFromXml method uses the Microsoft COM implementation of the XML Document Object Model (DOM) to load and process the XML data that xml provides. CreateAppointmentsFromXml first checks whether xml specifies a valid source of XML data. If so, it loads the data into an XML document, [DOMDocument](https://msdn.microsoft.com/library/ms756987\(v=office.15\)). Otherwise, CreateAppointmentsFromXml throws an exception. For more information about the XML DOM, see [DOM](https://msdn.microsoft.com/library/ms766487\(v=office.15\)).</span></span>
 
-<span data-ttu-id="b35dc-135">对于 XML 数据中由 appointment 标记分隔的每个约会子节点，CreateAppointmentsFromXml 查找特定标记，使用 DOM 提取数据，并将数据分配给 **AppointmentItem** 对象的相应属性：[Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\))、[End](https://msdn.microsoft.com/library/bb623715\(v=office.15\))、[Subject](https://msdn.microsoft.com/library/bb611653\(v=office.15\))、[Location](https://msdn.microsoft.com/library/bb608946\(v=office.15\)) 和 [Body](https://msdn.microsoft.com/library/bb644880\(v=office.15\))。</span><span class="sxs-lookup"><span data-stu-id="b35dc-135">For each appointment child node delimited by the appointment tag in the XML data,   looks for specific tags, uses the DOM to extract the data, and assigns the data to corresponding properties of an AppointmentItem object: Start , End , Subject , Location , and Body .</span></span> <span data-ttu-id="b35dc-136">然后，CreateAppointmentsFromXml 将约会保存到默认日历。</span><span class="sxs-lookup"><span data-stu-id="b35dc-136"> then saves the appointment to the default calendar.</span></span>
+<span data-ttu-id="3ea5e-135">对于 XML 数据中由 appointment 标记分隔的每个约会子节点，CreateAppointmentsFromXml 查找特定标记，使用 DOM 提取数据，并将数据分配给 **AppointmentItem** 对象的相应属性：[Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\))、[End](https://msdn.microsoft.com/library/bb623715\(v=office.15\))、[Subject](https://msdn.microsoft.com/library/bb611653\(v=office.15\))、[Location](https://msdn.microsoft.com/library/bb608946\(v=office.15\)) 和 [Body](https://msdn.microsoft.com/library/bb644880\(v=office.15\))。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-135">For each appointment child node delimited by the appointment tag in the XML data, CreateAppointmentsFromXml looks for specific tags, uses the DOM to extract the data, and assigns the data to corresponding properties of an **AppointmentItem** object: [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)), [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), [Subject](https://msdn.microsoft.com/library/bb611653\(v=office.15\)), [Location](https://msdn.microsoft.com/library/bb608946\(v=office.15\)), and [Body](https://msdn.microsoft.com/library/bb644880\(v=office.15\)).</span></span> <span data-ttu-id="3ea5e-136">然后，CreateAppointmentsFromXml 将约会保存到默认日历。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-136">CreateAppointmentsFromXml then saves the appointment to the default calendar.</span></span>
 
-<span data-ttu-id="b35dc-137">CreateAppointmentsFromXml 使用 [System.Collections.Generic](https://docs.microsoft.com/dotnet/api/system.collections.generic?view=netframework-4.7.2) 命名空间中 [List\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1?view=netframework-4.7.2) 类的 [Add](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.add?view=netframework-4.7.2) 方法，以聚合这些 AppointmentItem 对象。</span><span class="sxs-lookup"><span data-stu-id="b35dc-137"> uses the Add method of the List(T) class in the System.Collections.Generic namespace to aggregate these AppointmentItem objects.</span></span> <span data-ttu-id="b35dc-138">当此方法处理了 XML 数据中的所有约会后，它便会以数组形式返回 AppointmentItem 对象。</span><span class="sxs-lookup"><span data-stu-id="b35dc-138">When the method has processed all the appointments in the XML data, it returns the AppointmentItem objects in an array.</span></span>
+<span data-ttu-id="3ea5e-137">CreateAppointmentsFromXml 使用 [System.Collections.Generic](https://docs.microsoft.com/dotnet/api/system.collections.generic?view=netframework-4.7.2) 命名空间中 [List\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1?view=netframework-4.7.2) 类的 [Add](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.add?view=netframework-4.7.2) 方法，以聚合这些 AppointmentItem 对象。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-137">CreateAppointmentsFromXml uses the [Add](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.add?view=netframework-4.7.2) method of the [List\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1?view=netframework-4.7.2) class in the [System.Collections.Generic](https://docs.microsoft.com/dotnet/api/system.collections.generic?view=netframework-4.7.2) namespace to aggregate these AppointmentItem objects.</span></span> <span data-ttu-id="3ea5e-138">当此方法处理了 XML 数据中的所有约会后，它便会以数组形式返回 AppointmentItem 对象。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-138">When the method has processed all the appointments in the XML data, it returns the AppointmentItem objects in an array.</span></span>
 
-<span data-ttu-id="b35dc-139">如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。</span><span class="sxs-lookup"><span data-stu-id="b35dc-139">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the   variable when you import the Microsoft.Office.Interop.Outlook namespace.</span></span> <span data-ttu-id="b35dc-140">不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。</span><span class="sxs-lookup"><span data-stu-id="b35dc-140">The Imports or using statement must not occur directly before the functions in the code example but must be added before the public   declaration.</span></span> <span data-ttu-id="b35dc-141">下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。</span><span class="sxs-lookup"><span data-stu-id="b35dc-141">The following lines of code show how to do the import and assignment in Visual Basic and C#.</span></span>
+<span data-ttu-id="3ea5e-139">如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-139">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="3ea5e-140">不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-140">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="3ea5e-141">下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-141">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
 
 
 ```vb
@@ -123,7 +124,7 @@ Imports Outlook = Microsoft.Office.Interop.Outlook
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
 
-<span data-ttu-id="b35dc-142">下面先展示了 Visual Basic 代码示例，后展示了 C\# 代码示例。</span><span class="sxs-lookup"><span data-stu-id="b35dc-142">The following is the Visual Basic code example, followed by the C# code example.</span></span>
+<span data-ttu-id="3ea5e-142">下面先展示了 Visual Basic 代码示例，后展示了 C\# 代码示例。</span><span class="sxs-lookup"><span data-stu-id="3ea5e-142">The following is the Visual Basic code example, followed by the C\# code example.</span></span>
 
 
 
@@ -291,7 +292,7 @@ namespace OutlookAddIn1
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="b35dc-143">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b35dc-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3ea5e-143">另请参阅</span><span class="sxs-lookup"><span data-stu-id="3ea5e-143">See also</span></span>
 
-- [<span data-ttu-id="b35dc-144">约会</span><span class="sxs-lookup"><span data-stu-id="b35dc-144">Appointments</span></span>](appointments.md)
+- [<span data-ttu-id="3ea5e-144">约会</span><span class="sxs-lookup"><span data-stu-id="3ea5e-144">Appointments</span></span>](appointments.md)
 

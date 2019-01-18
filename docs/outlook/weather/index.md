@@ -1,10 +1,11 @@
 ---
 redirect_url: outlook-weather-information-xml-schema
 redirect_document_id: true
-ms.openlocfilehash: 0e85cef202324927d731b13255b176fbe754666c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Normal
+ms.openlocfilehash: 981465c4e64036dd950bc7e35457b654022ffcca
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779339"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719678"
 ---
