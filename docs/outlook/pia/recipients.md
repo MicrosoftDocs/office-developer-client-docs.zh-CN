@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184602(v=office.15)
 ms:contentKeyID: 55119897
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 5e6e06013ed96f315ff957b6aad51bd9b88df347
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 851db66a9f8de4f8db980e47d286a4a6878e87cc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406314"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704404"
 ---
 # <a name="recipients"></a>收件人
 

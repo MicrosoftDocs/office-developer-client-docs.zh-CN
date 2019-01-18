@@ -3,15 +3,15 @@ title: Office 中的兼容性问题
 manager: scotv
 ms.date: 04/12/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485
 description: 获取有关遥测日志中显示的关于 Office 产品中可能存在的兼容性问题的详细信息。
-ms.openlocfilehash: 3748dd40511e5af5ec90d313b611d3805195e455
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: f0c2462662121ee6ec7944dde5a01e2964fc28cf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383406"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720791"
 ---
 # <a name="compatibility-issues-in-office"></a>Office 中的兼容性问题
 

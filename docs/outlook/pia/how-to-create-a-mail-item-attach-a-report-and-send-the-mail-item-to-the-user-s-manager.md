@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644320(v=office.15)
 ms:contentKeyID: 55119866
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 5d07424635959fec41c266592da15214eace8b3e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 32c40e1fbda3f0f851b52d29c073d95a5d636620
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407280"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710291"
 ---
 # <a name="create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-users-manager"></a>创建邮件项、附加报表并将邮件项发送给用户的经理
 

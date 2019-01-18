@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
 ms:contentKeyID: 48545539
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 7f1d82a792961b0be398bb0ef8c2c046d9e8b375
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891252"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726223"
 ---
 # <a name="sort-property-example-vb"></a>Sort 属性示例 (VB)
 

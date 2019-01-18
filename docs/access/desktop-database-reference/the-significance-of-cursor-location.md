@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249296(v=office.15)
 ms:contentKeyID: 48544978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7054e25cd5768a8016ae7ea58f551be7dbb90cec
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 3ae9cc65d61416767140572b32d3f2e1b8e4d8eb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944394"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726265"
 ---
 # <a name="significance-of-cursor-location"></a>游标位置的重要性
 

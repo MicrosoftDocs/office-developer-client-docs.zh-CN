@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823192(v=office.15)
 ms:contentKeyID: 48547661
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3e778c8dce83ecad32328f0d7ad762d9f825a6d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: b706ffed14fdb440f3c3192c7c36015343f2e134
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919778"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726034"
 ---
 # <a name="raiseerror-macro-action"></a>RaiseError 宏操作
 

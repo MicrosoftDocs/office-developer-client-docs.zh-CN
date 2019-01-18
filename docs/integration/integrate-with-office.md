@@ -3,15 +3,15 @@ title: 与 Office 集成
 manager: soliver
 ms.date: 07/29/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: 您可以根据您的应用程序和基于 Web 的体验集成 Office for iOS、Office for Android、Office Online 和 Excel、PowerPoint 或 Word Mobile，使您的用户可以从第三方解决方案无缝切换到 Office 应用程序的工作环境中。
-ms.openlocfilehash: 3656e458857124430949a515f2f517fca7cad23b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 332f61f2b7a551516e55e7c966c649a6ee5f7f80
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388285"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719342"
 ---
 # <a name="integrate-with-office"></a>与 Office 集成
 

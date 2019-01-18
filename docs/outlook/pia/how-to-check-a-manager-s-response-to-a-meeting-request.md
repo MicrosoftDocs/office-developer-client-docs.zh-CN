@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184618(v=office.15)
 ms:contentKeyID: 55119847
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 14d78a88a0df514bca6782a84bd2c030fc140093
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: ba54ba740182eaffc92a0e1932a6fbed1d3804c8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406349"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722534"
 ---
 # <a name="check-a-managers-response-to-a-meeting-request"></a>检查经理对会议请求的响应
 

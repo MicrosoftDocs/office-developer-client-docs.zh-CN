@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644609(v=office.15)
 ms:contentKeyID: 55119818
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: dcebc65c651804148969c6260ecac72060bf9ef0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: fad55b4e9b98a2157d1efdab83d5495cd2169429
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406776"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715044"
 ---
 # <a name="open-and-display-the-contents-of-an-icalendar-file"></a>打开并显示 iCalendar 文件内容
 

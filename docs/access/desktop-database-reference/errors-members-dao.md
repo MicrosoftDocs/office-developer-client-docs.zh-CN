@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
 ms:contentKeyID: 48545879
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b89afc8918792be7c73054404923f448b93802f2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 78e4f74c353990a07ff8c84fa8d984c169d62db9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931300"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725999"
 ---
 # <a name="errors-members-dao"></a>错误成员 (DAO)
 

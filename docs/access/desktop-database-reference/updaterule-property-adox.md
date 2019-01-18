@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250206(v=office.15)
 ms:contentKeyID: 48548548
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a1900ab0fffbad44547d2cc0a3cde856633f8624
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 4c375a4eb9931008ea9753181b44aa5509377d11
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923397"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726230"
 ---
 # <a name="updaterule-property-adox"></a>UpdateRule 属性 (ADOX)
 

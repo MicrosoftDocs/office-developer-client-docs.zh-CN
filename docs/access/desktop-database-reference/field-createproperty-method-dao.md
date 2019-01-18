@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
 ms:contentKeyID: 48547202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33658c923addf642685c87faf2a8234b4dc51676
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: b9a88dce09798fa05aa602799f18a22e28d39c53
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998019"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726216"
 ---
 # <a name="fieldcreateproperty-method-dao"></a>Field.CreateProperty 方法 (DAO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25998019"
 
 *表达式*一个代表**Field**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -37,7 +38,7 @@ ms.locfileid: "25998019"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -66,7 +67,7 @@ ms.locfileid: "25998019"
 <td><p><em>DDL</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> （<strong>布尔</strong>子类型），该值指示<strong>属性</strong>DDL 对象。 默认值为 <strong>False</strong> 。 如果 DDL 为<strong>True</strong>，则用户无法更改或删除此<strong>Property</strong>对象，除非他们具有<strong>dbSecWriteDef</strong>权限。</p></td>
+<td><p><strong>Variant</strong> （<strong>布尔</strong>子类型），该值指示<strong>属性</strong>DDL 对象。 默认值为 <strong>False</strong>。 如果 DDL 为<strong>True</strong>，则用户无法更改或删除此<strong>Property</strong>对象，除非他们具有<strong>dbSecWriteDef</strong>权限。</p></td>
 </tr>
 </tbody>
 </table>

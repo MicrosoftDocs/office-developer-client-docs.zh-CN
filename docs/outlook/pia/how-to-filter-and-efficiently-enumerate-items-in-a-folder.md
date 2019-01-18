@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612664(v=office.15)
 ms:contentKeyID: 55119884
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 01f0019d0f038cd1e9ea8fee7c85d0d2f18c4b47
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 35215c24a9b953bf8406b268a6169abbd536202b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405670"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705615"
 ---
 # <a name="filter-and-efficiently-enumerate-items-in-a-folder"></a>筛选并高效枚举文件夹中的项
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424476(v=office.15)
 ms:contentKeyID: 55119919
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: eb5de218d11a91410da2512ce3cb7533c1e8b501
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: a6bb6ac5422b9785660cb3ec0020c01244002c6b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405537"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708646"
 ---
 # <a name="execute-a-rule-instantly"></a>立即执行规则
 

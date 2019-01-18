@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610014(v=office.15)
 ms:contentKeyID: 55119789
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 3ad968b856e67183172adfd5829cdc06e7551ab5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 99cdfc2447e6bf63078eb87bb9546d8b07ee83e1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405698"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705419"
 ---
 # <a name="avoiding-unsupported-technologies-in-managed-outlook-add-ins"></a>避免在托管 Outlook 加载项中使用不受支持的技术
 

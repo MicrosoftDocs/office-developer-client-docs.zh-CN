@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184598(v=office.15)
 ms:contentKeyID: 55119871
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 9eca70f9c1b77e8430625fb49e3ae9787d337ba7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: bf61a7fbb470291eae448a93c80866112c41407a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405530"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722527"
 ---
 # <a name="specify-different-recipient-types-for-a-mail-item"></a>为邮件项指定不同的收件人类型
 

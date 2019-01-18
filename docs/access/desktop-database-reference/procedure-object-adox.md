@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250076(v=office.15)
 ms:contentKeyID: 48547972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 72f0475aeca38b5c6ba6cd2954ff894f00fb6f7f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: ad8f87aa78fbc05694fc53f0d4a55dce43315077
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922648"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726153"
 ---
 # <a name="procedure-object-adox"></a>Procedure 对象 (ADOX)
 

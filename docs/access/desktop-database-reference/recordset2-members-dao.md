@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f7011edaf7cbeb145ea30af64f7ba6bd85945f4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 29d1472e8cd02d8968ba84dbc1c1cf99be7ee858
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937706"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726279"
 ---
 # <a name="recordset2-members-dao"></a>Recordset2 成员 (DAO)
 
@@ -39,7 +40,7 @@ Recordset2 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>为可更新的 <strong>Recordset2</strong> 对象创建新记录。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-cancel-method-dao.md">取消</a></strong></p></td>
+<td><p><strong><a href="recordset2-cancel-method-dao.md">Cancel</a></strong></p></td>
 <td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>取消执行待定的异步方法调用（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
@@ -175,7 +176,7 @@ Recordset2 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>返回一个值，该值指示当前记录的位置是否在 <strong>Recordset</strong> 对象中的第一条记录之前。只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-bookmark-property-dao.md">书签</a></strong></p></td>
+<td><p><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></p></td>
 <td><p>设置或返回一个书签，该书签唯一地标识 <strong>Recordset</strong> 对象中的当前记录。</p></td>
 </tr>
 <tr class="odd">
@@ -207,11 +208,11 @@ Recordset2 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>返回一个值，该值指示当前记录位置是否位于 <strong>Recordset</strong> 对象的最后一条记录之后。只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-fields-property-dao.md">字段</a></strong></p></td>
+<td><p><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。只读。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">筛选器</a></strong></p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
 <td><p>设置或返回一个值，该值确定在以后打开的 <strong>Recordset</strong> 对象中包含的记录（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</p></td>
 </tr>
 <tr class="even">
@@ -277,7 +278,7 @@ Recordset2 对象代表基表中的记录或通过运行查询得到的记录。
 <td><p>返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-type-property-dao.md">类型</a></strong></p></td>
+<td><p><strong><a href="recordset2-type-property-dao.md">Type</a></strong></p></td>
 <td><p>设置或返回一个值，该值指示对象的操作类型或数据类型。只读 <strong>Integer</strong>。</p></td>
 </tr>
 <tr class="even">

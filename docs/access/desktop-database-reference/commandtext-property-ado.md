@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231123
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 86f69be8ed9216619f10bc70e2c701fb109d0ff5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 66797accb24cead7d7ba5732f0a9c58ee31049e5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879303"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725978"
 ---
 # <a name="commandtext-property-ado"></a>CommandText 属性 (ADO)
 

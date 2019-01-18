@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612380(v=office.15)
 ms:contentKeyID: 55119895
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b0c8184d5e062d560614a8703494b673485866e3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 4346f3bf1b7bba1f26a34e1562997b4d043c8d49
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407035"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723024"
 ---
 # <a name="add-or-remove-a-store"></a>添加或删除存储
 

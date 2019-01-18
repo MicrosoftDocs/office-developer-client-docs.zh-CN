@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424468(v=office.15)
 ms:contentKeyID: 55119902
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: e9a68fc6220e1439e517b3d4e7e2ecb30b919ee0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: c91f43001d6c56ad3b4c316aede9845a5e0a0064
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406027"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721869"
 ---
 # <a name="create-a-view"></a>创建视图
 

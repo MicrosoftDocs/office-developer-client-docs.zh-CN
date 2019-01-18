@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm152234
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f01899833b4cf0537a4437a643f2aeedf99e586c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: df77d2375b66df907832b6ff2717427ae54a35a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996914"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726202"
 ---
 # <a name="importsharepointlist-macro-action"></a>ImportSharePointList 宏操作
 

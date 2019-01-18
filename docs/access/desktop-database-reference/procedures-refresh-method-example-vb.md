@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250300(v=office.15)
 ms:contentKeyID: 48548916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b75b7de4e63c9083dff550c5362e48bf171ee5e2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: db9d4e9aef26967cdfe052ef37959d5aceff2b29
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887563"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726237"
 ---
 # <a name="procedures-refresh-method-example-vb"></a>Procedures 的 Refresh 方法示例 (VB)
 

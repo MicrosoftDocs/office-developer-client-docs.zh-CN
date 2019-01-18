@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28bc66cb521030a9f0b1fca79bd0ccb4babe407b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 9f62bb4578cfcad978bf596648ad040552edd1a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943785"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726195"
 ---
 # <a name="troubleshooting-rds"></a>RDS 疑难解答
 
@@ -23,7 +24,7 @@ ms.locfileid: "25943785"
 - [具有可重复读取的隔离级别死锁](deadlocks-with-read-repeatable-isolation-level.md)
 - [确保有足够的 TempDB 空间](ensuring-sufficient-tempdb-space.md)
 - [Internet 服务器错误： 访问被拒绝](internet-server-error-access-denied.md)
-- [尽量减少日志文件空间使用率](minimizing-log-file-space-usage.md)
+- [最大限度地降低日志文件空间使用](minimizing-log-file-space-usage.md)
 - [RDS 返回"Stream Not Read"错误](rds-returns-stream-not-read-error.md)
 
 

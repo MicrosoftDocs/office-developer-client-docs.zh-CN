@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 730ef62b6bff9cbfc2bf4aaae51116d2fe026131
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: d5c615eb811d5dc4a0f4170bfe432179acaa4666
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406559"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726055"
 ---
 # <a name="get-members-of-an-exchange-distribution-list"></a>获取 Exchange 通讯组列表的成员
 

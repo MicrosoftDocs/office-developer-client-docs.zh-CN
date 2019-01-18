@@ -4,19 +4,19 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
-ms.openlocfilehash: d837a83ea8773018033a27ec894375a22c15c8a3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: d7d27e98189a5b6784e4db48c81a545b85f01fc1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391120"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716815"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>在 Access 中创建和自定义 Web 应用
 
 > [!IMPORTANT]
-> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-CN/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 Access 2013 采用新的应用程序模型，使主题专家可以快速创建基于 Web 的应用程序。Access 中包含一系列模板，您可用于开始创建应用程序。
 

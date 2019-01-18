@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184644(v=office.15)
 ms:contentKeyID: 55119894
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 467d715e0fca1adfd835b11c36889dff3dbf145d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: c4f9a8f156ec43f446f27c94b2cb061de181b7d4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406804"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698440"
 ---
 # <a name="create-a-task-item"></a>创建任务项
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609825(v=office.15)
 ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 915ddd65e8227f6cc720c4494ed1767deed121b1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: f237a2268fd287e96959dfc0522103b47e55d37b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406153"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698293"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>在文件夹中项的附件内搜索完全匹配的某短语
 

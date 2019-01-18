@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184641(v=office.15)
 ms:contentKeyID: 55119921
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 2e75a0cb06420f5072805cdf03ad8f7925670e67
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: bdfccc6432d35b6f39564e4c87404cc57b6ea27e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407469"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708086"
 ---
 # <a name="use-setcolumns-to-efficiently-enumerate-items-in-a-folder"></a>使用 SetColumns 高效枚举文件夹中的项
 

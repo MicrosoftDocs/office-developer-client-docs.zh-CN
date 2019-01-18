@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184624(v=office.15)
 ms:contentKeyID: 55119869
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 2346257dd2c23f09b77a72b08e17ba51f3f514d1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 74adbf02180e0e993b22e35481f51d304b14e7d6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405551"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712482"
 ---
 # <a name="get-the-smtp-address-of-the-sender-of-a-mail-item"></a>获取邮件项发件人的 SMTP 地址
 

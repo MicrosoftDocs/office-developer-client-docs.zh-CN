@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644806(v=office.15)
 ms:contentKeyID: 55119924
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 2792e5bd96547975d878f89a7e186c24c4983d8f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: dc8e0fb2b82ae9660e292a6ec1dea70e82fe36ef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406930"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722142"
 ---
 # <a name="search-for-a-phrase-in-the-body-of-items-in-a-folder"></a>在文件夹中项的正文内搜索某短语
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184623(v=office.15)
 ms:contentKeyID: 55119814
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 164e744e03ab0984265736673c71d2d0bf57bf45
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 1f5f31c480f31b01e53fec9651c8154765b581a3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405971"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722779"
 ---
 # <a name="create-a-reminder-for-an-appointment-item"></a>创建约会项提醒
 

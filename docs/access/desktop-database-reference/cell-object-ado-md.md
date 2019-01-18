@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1d34409b170f2747ee5652210379087015f83dc
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 7bb2a479789a8c5bd1825b6cb04e602e0b829dfb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944080"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725985"
 ---
 # <a name="cell-object-ado-md"></a>Cell 对象 (ADO MD)
 
@@ -45,7 +46,7 @@ ms.locfileid: "25944080"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>

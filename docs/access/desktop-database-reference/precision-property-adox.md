@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249330(v=office.15)
 ms:contentKeyID: 48545117
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 973e5e3a6d9c61a0fdc6b259a8a7b846b62af6fd
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: f05f6880a9599421189519f263cfb27bf1432325
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026104"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726160"
 ---
 # <a name="precision-property-adox"></a>Precision 属性 (ADOX)
 

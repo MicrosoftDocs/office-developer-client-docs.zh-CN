@@ -3,15 +3,15 @@ title: 选择某个 API 或技术开发适用于 Outlook 的解决方案
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: 本文介绍 API 和相关技术，用户可以将它们用于扩展 Outlook 2013 和 Outlook 2016，并帮助决定适用于用户方案的 API 或技术。
-ms.openlocfilehash: 1ff4a7b315966348b4638f2c3075fc6d2149ff21
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: c744fcd834c01bd2835f88843d4be67e6122ac15
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399226"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723101"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>选择某个 API 或技术开发适用于 Outlook 的解决方案
 
@@ -542,7 +542,7 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
 
 - [向邮件项附加文件](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- [附件文件类型受限于 Outlook 2010](https://technet.microsoft.com/en-us/library/cc179163.aspx)
     
 - [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 对象 
     
@@ -728,7 +728,7 @@ Outlook 中的 OSC 允许用户在人员窗格中查看从 Outlook 中的某个�
     
 - [Outlook 2010 中有关关闭的更改](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/zh-CN/library/cc179163.aspx)
+- [受 Outlook 2010 限制的附件文件类型](https://technet.microsoft.com/en-us/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     

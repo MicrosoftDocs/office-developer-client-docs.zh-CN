@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125921(v=office.15)
 ms:contentKeyID: 52074792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 728f1b27632908006d7492f946b3172612dbc55c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 9218f04e587cb9daea9ccb5ad7cce2cbbb9733e3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927639"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726181"
 ---
 # <a name="user-interface-commands"></a>用户界面命令
 

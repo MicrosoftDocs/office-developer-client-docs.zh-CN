@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fca73b9e8a77e102ad694dde8fd9759b20c1fcaf
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910836"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726209"
 ---
 # <a name="ado-md-objects"></a>ADO MD 对象
 
@@ -30,11 +31,11 @@ ms.locfileid: "25910836"
 <th>说明</th>
 </tr>
 <tr class="odd">
-<td><p><a href="axis-object-ado-md.md">轴</a></p></td>
+<td><p><a href="axis-object-ado-md.md">Axis</a></p></td>
 <td><p>代表单元格集的位置轴或筛选轴，包含一维或多维的选定成员。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="catalog-object-ado-md.md">目录</a></p></td>
+<td><p><a href="catalog-object-ado-md.md">Catalog</a></p></td>
 <td><p>包含特定于多维数据提供程序 (MDP) 的多维架构信息（即，多维数据集和基础维、层次结构、级别和成员）。</p></td>
 </tr>
 <tr class="odd">
@@ -42,7 +43,7 @@ ms.locfileid: "25910836"
 <td><p>代表处于坐标轴交点的数据，包含在单元格集内。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cellset-object-ado-md.md">单元格集</a></p></td>
+<td><p><a href="cellset-object-ado-md.md">Cellset</a></p></td>
 <td><p>代表多维查询的结果。它是从多维数据集或其他单元格集中选择的单元格的集合。</p></td>
 </tr>
 <tr class="odd">
@@ -50,11 +51,11 @@ ms.locfileid: "25910836"
 <td><p>代表多维架构中的多维数据集，包含一组相关的维度。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="dimension-object-ado-md.md">维</a></p></td>
+<td><p><a href="dimension-object-ado-md.md">Dimension</a></p></td>
 <td><p>代表多维数据集的维度之一，包含一个或多个成员层次结构。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchy-object-ado-md.md">层次结构</a></p></td>
+<td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
 <td><p>代表一个方式在其中可聚合的维度成员或&quot;上卷得到。&quot;一个或多个层次结构可以聚合一个维度。</p></td>
 </tr>
 <tr class="even">
@@ -62,7 +63,7 @@ ms.locfileid: "25910836"
 <td><p>包含一组成员，其中每个成员在层次结构中有相同的等级。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Member</a></p></td>
+<td><p><a href="member-object-ado-md.md">成员</a></p></td>
 <td><p>代表多维数据集中某个级别的某个成员、某个级别的某个成员的子级，或者单元格集的轴上某个位置的某个成员。</p></td>
 </tr>
 <tr class="even">

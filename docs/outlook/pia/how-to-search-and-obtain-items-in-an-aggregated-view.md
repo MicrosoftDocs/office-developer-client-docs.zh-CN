@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184592(v=office.15)
 ms:contentKeyID: 55119925
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 540557973d395c23d26a87502ed6ba43176a0a3c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 92f99069dae2976a00ac075f605754fe8704ae60
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407574"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704389"
 ---
 # <a name="search-and-obtain-items-in-an-aggregated-view"></a>搜索并在聚合视图中返回项目
 

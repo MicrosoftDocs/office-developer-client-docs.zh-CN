@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm47687
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b50fe7e37cfe79a54574e54e720cbad2ef84a14e
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 9e934b290472dc4bb0ad8619b2ada6992b4215c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998250"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726272"
 ---
 # <a name="singlestep-macro-action"></a>SingleStep 宏操作
 

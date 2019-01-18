@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424470(v=office.15)
 ms:contentKeyID: 55119898
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 73c4a7ec8118b95edac06ae8ab5bc59902612ebc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: fa3cf00a116b51f88f47ef48eab566155626dbbe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406363"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708597"
 ---
 # <a name="flag-mail-items-from-a-manager-for-follow-up"></a>标记来自经理的邮件项以供跟进
 

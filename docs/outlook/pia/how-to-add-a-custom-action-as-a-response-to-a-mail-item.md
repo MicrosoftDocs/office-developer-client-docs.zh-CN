@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424474(v=office.15)
 ms:contentKeyID: 55119870
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 1858372ec8283b1926e5ed82f2a511a97a8242ec
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: a6a82b02d357f86ca37d3ec4987ea6323d6d59cb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406853"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722576"
 ---
 # <a name="add-a-custom-action-as-a-response-to-a-mail-item"></a>添加作为邮件项响应的自定义操作
 

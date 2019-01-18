@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184607(v=office.15)
 ms:contentKeyID: 55119855
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 91165754ccd86ebff07ec99e60f0ad1a167dea05
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 0fe79f78ba1aab1e54df0b0bc88fa0c55c73e187
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406251"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710249"
 ---
 # <a name="enumerate-folders"></a>枚举文件夹
 

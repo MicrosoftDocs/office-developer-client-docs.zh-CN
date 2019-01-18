@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184604(v=office.15)
 ms:contentKeyID: 55119874
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: d49044d87cd14c150527d518108f740b9eb319da
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: f546b4e2de2a77034fdfeca4d685d7b7f909f40a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405733"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700330"
 ---
 # <a name="automatically-accept-a-meeting-request"></a>自动接受会议请求
 

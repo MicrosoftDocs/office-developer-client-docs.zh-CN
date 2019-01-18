@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
 ms:contentKeyID: 48548768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15cae6f3f5e258a2312fcc4702333cde53be680d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: d36a65ce8a6808f2128749bd7fbc6e468acbd279
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947544"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726125"
 ---
 # <a name="bof-eof-properties-ado"></a>BOF、EOF 属性 (ADO)
 

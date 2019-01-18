@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184630(v=office.15)
 ms:contentKeyID: 55119877
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: b309252685363774d45ff6f74e581b9be86b042f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 26e59cca7431e9f11f3fea5fa058548b9a5903a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407588"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722611"
 ---
 # <a name="prompt-a-user-to-respond-to-a-meeting-request"></a>提示用户响应会议请求
 

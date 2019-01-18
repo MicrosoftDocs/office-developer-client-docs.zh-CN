@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424478(v=office.15)
 ms:contentKeyID: 55119923
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 3e6e8199df6c04ba5a78ed5611aaaf016a71226d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 07b0ba7a1d488dc1c7e1fcf0e9ae487b04b88755
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407014"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709437"
 ---
 # <a name="use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject"></a>使用“即时搜索”在所有文件夹和所有存储中搜索主题包含某短语的项
 

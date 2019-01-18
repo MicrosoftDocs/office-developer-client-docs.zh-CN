@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - excel 2007 xll software development kit,add-ins [Excel 2007]
-localization_priority: Normal
 ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 492b8097c681ec072d2ec3ca26a9a2bfeba054ff
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 365aea48cd520cd368c2a118c832aa705280a308
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392359"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708310"
 ---
 # <a name="welcome-to-the-excel-software-development-kit"></a>欢迎使用 Excel 软件开发工具包
 

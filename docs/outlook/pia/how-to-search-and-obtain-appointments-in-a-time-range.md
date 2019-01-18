@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg619398(v=office.15)
 ms:contentKeyID: 55119927
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: ac5bff3be7c6f0cc55d7c998d087512f1a8470e1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 9088da5f2deb4b3d4ccb1c2bc5409e0ff280ed24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406335"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723003"
 ---
 # <a name="search-and-obtain-appointments-in-a-time-range"></a>搜索并获取某个时间范围内的约会
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249823(v=office.15)
 ms:contentKeyID: 48547068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63c67e028eaa478a2d348bd7c4dc4e945b3256a6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 2ee81b2bd0e7d40b3a426c6416111d21e2ec760c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947152"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726027"
 ---
 # <a name="dynamic-cursors"></a>动态游标
 

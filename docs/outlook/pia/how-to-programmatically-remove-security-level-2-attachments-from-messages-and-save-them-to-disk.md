@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184657(v=office.15)
 ms:contentKeyID: 55119822
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 3646ff17a6200a6b46b7796537a40e7bdab40781
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 135f07f4bd3bdc36cee8547106b955b967150df8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406594"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706931"
 ---
 # <a name="programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk"></a>以编程方式删除邮件的安全级别 2 附件，并将它们保存到磁盘中
 

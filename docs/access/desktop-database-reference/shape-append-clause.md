@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7eab008a03cf016edc259ef5e9d41cf320e85c8c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 40c35e8b2c3fb3f0b92bf261b62c252a61a367b4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944846"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726349"
 ---
 # <a name="shape-append-clause"></a>Shape Append 子句
 
@@ -124,9 +125,9 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 本节包括下列主题：
 
-- [非参数化命令的操作](operation-of-non-parameterized-commands.md)
+- [操作非参数化命令](operation-of-non-parameterized-commands.md)
 
-- [非参数化命令的操作](operation-of-parameterized-commands.md)
+- [参数化命令的操作](operation-of-parameterized-commands.md)
 
 - [混合命令](hybrid-commands.md)
 

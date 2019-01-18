@@ -3,15 +3,15 @@ title: Outlook
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 59d639e4-d171-4556-a1b9-bf9ecb1f85cf
 description: 查找开发解决方案和自定义 Outlook 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
-ms.openlocfilehash: 9f64da6a2826d0c70e046b0413975c0c02b36c70
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
+localization_priority: Priority
+ms.openlocfilehash: e3f07a7a265882c9a5f30aca6fab9072ac2805cd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454549"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722919"
 ---
 # <a name="outlook"></a>Outlook
 

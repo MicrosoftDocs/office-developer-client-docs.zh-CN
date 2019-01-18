@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424472(v=office.15)
 ms:contentKeyID: 55119918
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 1ff096454aa15a0a45c423913140eb50e6de9678
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: f0b8b27eb65ef32f95d5529879dde2721e280e26
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406321"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706196"
 ---
 # <a name="create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject"></a>创建根据主题中的多个字词为邮件项分配类别的规则
 

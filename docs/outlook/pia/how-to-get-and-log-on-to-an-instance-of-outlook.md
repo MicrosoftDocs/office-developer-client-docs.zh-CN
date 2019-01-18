@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462097(v=office.15)
 ms:contentKeyID: 55119926
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 6aa4ecb0b6d9a3082759c7a3b0b4a5f677d1556e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 4445d0665ea5a3d36a5ff7c92b5a46cfe4fffaa8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406461"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721183"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>获取并登录 Outlook 实例
 
@@ -24,7 +25,7 @@ ms.locfileid: "25406461"
 
 下面的代码示例包含 Sample 类的 GetApplicationObject 方法（作为 Outlook 加载项项目的一部分实现）。 每个项目都添加对基于 [Microsoft.Office.Interop.Outlook](https://msdn.microsoft.com/library/bb610835\(v=office.15\)) 命名空间的 Outlook 主互操作程序集的引用。
 
-GetApplicationObject 方法使用 .NET Framework 类库中的类，以检查并获取本地计算机上正在运行的任何 Outlook 进程。 它首先使用[Process](https://msdn.microsoft.com/zh-CN/library/wbt7d3cy) 类的 [GetProcessesByName](https://msdn.microsoft.com/zh-CN/library/ccf1tfx0) 方法 [System.Diagnostics](https://msdn.microsoft.com/zh-CN/library/15t15zda) 命名空间中获取的本地计算机上的过程组件共享"OUTLOOK"的过程名称的数组。 GetApplicationObject 使用 Microsoft 语言集成查询 (LINQ)，以检查数组是否包含至少一个 Outlook 进程。 [System.Linq](https://msdn.microsoft.com/zh-CN/library/bb345746) 命名空间中的 [Enumerable](https://msdn.microsoft.com/zh-CN/library/bb336768) 类提供了一组的方法，包括 [Count](https://msdn.microsoft.com/zh-CN/library/bb357758) 方法，用于实现 [IEnumerable\<T\>](https://msdn.microsoft.com/zh-CN/library/9eekhta0) 泛型接口。 由于 [Array](https://msdn.microsoft.com/zh-CN/library/czz5hkty) 类实现 **IEnumerable(T)** 接口，因此 GetApplicationObject 可将 **Count** 方法应用于 **GetProcessesByName** 返回的数组，以检查是否有正在运行的 Outlook 进程。 如果有，GetApplicationObject 便会使用 [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) 命名空间中 [Marshal](https://msdn.microsoft.com/zh-CN/library/asx0thw2) 类的 [GetActiveObject](https://msdn.microsoft.com/zh-CN/library/xt620x09) 方法来获取相应 Outlook 实例，并将相应对象强制转换为 Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) 对象。
+GetApplicationObject 方法使用 .NET Framework 类库中的类，以检查并获取本地计算机上正在运行的任何 Outlook 进程。 它首先使用[Process](https://msdn.microsoft.com/en-us/library/wbt7d3cy) 类的 [GetProcessesByName](https://msdn.microsoft.com/en-us/library/ccf1tfx0) 方法 [System.Diagnostics](https://msdn.microsoft.com/en-us/library/15t15zda) 命名空间中获取的本地计算机上的过程组件共享"OUTLOOK"的过程名称的数组。 GetApplicationObject 使用 Microsoft 语言集成查询 (LINQ)，以检查数组是否包含至少一个 Outlook 进程。 [System.Linq](https://msdn.microsoft.com/en-us/library/bb345746) 命名空间中的 [Enumerable](https://msdn.microsoft.com/en-us/library/bb336768) 类提供了一组的方法，包括 [Count](https://msdn.microsoft.com/en-us/library/bb357758) 方法，用于实现 [IEnumerable\<T\>](https://msdn.microsoft.com/en-us/library/9eekhta0) 泛型接口。 由于 [Array](https://msdn.microsoft.com/en-us/library/czz5hkty) 类实现 **IEnumerable(T)** 接口，因此 GetApplicationObject 可将 **Count** 方法应用于 **GetProcessesByName** 返回的数组，以检查是否有正在运行的 Outlook 进程。 如果有，GetApplicationObject 便会使用 [System.Runtime.InteropServices](https://msdn.microsoft.com/library/9esea608\(v=office.15\)) 命名空间中 [Marshal](https://msdn.microsoft.com/en-us/library/asx0thw2) 类的 [GetActiveObject](https://msdn.microsoft.com/en-us/library/xt620x09) 方法来获取相应 Outlook 实例，并将相应对象强制转换为 Outlook [Application](https://msdn.microsoft.com/library/bb646615\(v=office.15\)) 对象。
 
 如果本地计算机未运行 Outlook，GetApplicationObject 便会新建 Outlook 实例，使用 [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) 对象的 [Logon(Object, Object, Object, Object)](https://msdn.microsoft.com/library/bb646718\(v=office.15\)) 方法登录默认配置文件，并返回这一新 Outlook 实例。
 

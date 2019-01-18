@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644964(v=office.15)
 ms:contentKeyID: 55119873
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 0a2b61c789e28a4dc19d09e658e4e4424eb6ebc9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 0f637d3d21f79ec538d10cf509fb09f5abf0b0ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405516"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723087"
 ---
 # <a name="create-a-meeting-request-add-recipients-and-specify-a-location"></a>创建会议请求、添加收件人并指定位置
 

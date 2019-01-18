@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb622502(v=office.15)
 ms:contentKeyID: 55119787
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 7b56e59b19f1c9a0ee4c730f14200c3e501f5290
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: f86ad294e894b4faea10d033a069638221f1bd78
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406111"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703011"
 ---
 # <a name="using-a-trusted-application-object-provided-by-office-developer-tools-for-visual-studio"></a>使用 Visual Studio Office 开发人员工具提供的受信任应用程序对象
 

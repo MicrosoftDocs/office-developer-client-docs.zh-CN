@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7fc8648f40e38020e84393e71d0a269a6ba7a6d7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: dc582046ff1981a82fab9c9c551b0064c1e8c1de
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922263"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726013"
 ---
 # <a name="command-object-ado"></a>Command 对象 (ADO)
 

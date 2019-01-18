@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823132(v=office.15)
 ms:contentKeyID: 48547624
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 052e7a489eaec526db1552ced89b095f65f652df
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 8fb20068052972696b09ea0d2165b344e97ea922
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921584"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725950"
 ---
 # <a name="deleterecord-macro-action"></a>DeleteRecord 宏操作
 

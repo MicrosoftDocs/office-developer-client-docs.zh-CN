@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 09/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: 查找与开发解决方案和自定义 InfoPath 相关的操作说明内容、技术文章、参考和博客文章。
-ms.openlocfilehash: 20777234fbc23589659bc50ca44ad9cd24a178d1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: d5ca854e58b594351ec9665ebc7466d25206b06c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394123"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712874"
 ---
 # <a name="infopath"></a>InfoPath
 

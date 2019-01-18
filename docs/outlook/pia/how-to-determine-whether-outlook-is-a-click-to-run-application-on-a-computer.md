@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff522355(v=office.15)
 ms:contentKeyID: 55119804
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: c155fed72a314c5c260ed2fe574474afd45c44c3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 4a710baa4d70ac69b67d2a06fe694998884fd835
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406650"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717634"
 ---
 # <a name="determine-whether-outlook-is-a-click-to-run-application-on-a-computer"></a>确定 Outlook 是否是计算机上的即点即用应用程序
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184633(v=office.15)
 ms:contentKeyID: 55119823
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 814885b209020fb37c84df2e88f04bb32ec5cd6c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 11bfe40d29832577186712e269f9c0971e1e2be6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407126"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698356"
 ---
 # <a name="create-a-contact-item"></a>创建联系人项
 

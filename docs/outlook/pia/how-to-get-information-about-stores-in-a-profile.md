@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184648(v=office.15)
 ms:contentKeyID: 55119893
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 0229294cd6655f9017780ee0d9a7a23de76f2362
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 2044fc52370bdadd5c7f01debbd02c88dd881715
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406566"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717193"
 ---
 # <a name="get-information-about-stores-in-a-profile"></a>获取配置文件中的存储的相关信息
 

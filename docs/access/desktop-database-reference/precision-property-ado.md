@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249983(v=office.15)
 ms:contentKeyID: 48547685
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db2000c2db48215df42b5cd81fb35be0f0c4be9b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 662e5e9287da1ccfb81c727f5d5e5dfedce2969b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869958"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726251"
 ---
 # <a name="precision-property-ado"></a>Precision 属性 (ADO)
 

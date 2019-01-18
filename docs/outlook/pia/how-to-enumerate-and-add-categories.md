@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 27fc8630c8e2eb0b491dbb5075f4c58aacec7f93
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406244"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717753"
 ---
 # <a name="enumerate-and-add-categories"></a>枚举和添加类别
 
@@ -40,7 +41,7 @@ Outlook 对象模型支持可帮助分类用户收件箱中的项目的类别。
 
 这些属性会返回一个 **OLE\_COLOR** 值，具体取决于 **Category** 对象的 **Color** 属性。
 
-系统会基于类别名称显示 Outlook 项。 每个项对象都具有 **Categories** 属性，该属性会存储表示类别名称的字符串，这些字符串均以逗号分隔 （例如，对于 [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) 对象，你将会使用 **MailItem** [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) 属性）。 这样，你便可以向项目添加某个类别，即使该类别未显示在主类别列表中。
+Outlook 项目是基于类别名称显示的。每个项目对象都具有一个 **Categories** 属性，用于存储表示类别名称的逗号分隔的字符串。（例如，对于 [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) 对象，您将会使用 **MailItem** [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) 属性）。这样，您就可以将某一类别添加到项目中，即使主类别列表中不存在该类别。
 
 
 > [!NOTE]

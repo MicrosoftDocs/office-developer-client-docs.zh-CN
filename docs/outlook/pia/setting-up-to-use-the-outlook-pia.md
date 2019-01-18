@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610102(v=office.15)
 ms:contentKeyID: 55119772
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: c3fc6a5c4e12cad88d5cf1714fab07f421e3cf45
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: e6dcc52bcd6cd51091acf7319b3d33848127a575
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405656"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708072"
 ---
 # <a name="setting-up-to-use-the-outlook-pia"></a>设置以使用 Outlook PIA
 

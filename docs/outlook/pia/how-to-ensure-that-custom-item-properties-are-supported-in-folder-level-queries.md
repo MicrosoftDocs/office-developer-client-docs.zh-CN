@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb608929(v=office.15)
 ms:contentKeyID: 55119863
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 659919de8eeb17e675ed67f3b777f67b04f13b54
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 9fcba2648988d2de3c208079d2845e2cb4c2f549
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406937"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722968"
 ---
 # <a name="ensure-that-custom-item-properties-are-supported-in-folder-level-queries"></a>确保文件夹级查询支持自定义项属性
 

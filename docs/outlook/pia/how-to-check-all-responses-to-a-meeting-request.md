@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184650(v=office.15)
 ms:contentKeyID: 55119881
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: a1dbc34cca35306ded436a30691c1cfb0f00fe6c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 89f3aa7037659bb29346bb70338d535cbbc200b3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406160"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709241"
 ---
 # <a name="check-all-responses-to-a-meeting-request"></a>查看对会议请求的所有响应
 
