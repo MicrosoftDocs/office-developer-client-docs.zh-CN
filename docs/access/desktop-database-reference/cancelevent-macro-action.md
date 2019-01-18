@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b0b8d7cb1a224b7f9c4d587d5c8941977dab2f66
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b55fc51f70bcc2c9d2f7e93cf9c79228cd2fe440
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937125"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710172"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent 宏操作
 
@@ -49,7 +50,7 @@ ms.locfileid: "25937125"
 </tr>
 <tr class="even">
 <td><p><strong>BeforeDelConfirm</strong></p></td>
-<td><p><strong>退出</strong></p></td>
+<td><p><strong>Exit</strong></p></td>
 <td><p><strong>NoData</strong></p></td>
 </tr>
 <tr class="odd">
@@ -65,10 +66,10 @@ ms.locfileid: "25937125"
 <tr class="odd">
 <td><p><strong>DblClick</strong></p></td>
 <td><p><strong>KeyPress</strong></p></td>
-<td><p><strong>卸载</strong></p></td>
+<td><p><strong>Unload</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Delete</strong></p></td>
+<td><p><strong>删除</strong></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>

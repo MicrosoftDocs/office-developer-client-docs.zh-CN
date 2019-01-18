@@ -1,19 +1,20 @@
 ---
-title: 自定义文件 SQL 节
+title: 自定义文件 SQL 部分
 TOCTitle: Customization File SQL section
 ms:assetid: 002c544f-fe1b-6aeb-ba9a-97b1e1159516
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248776(v=office.15)
 ms:contentKeyID: 48542901
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d314b37ee24f22e6abd76cdd855e7b3d5adaff0b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8ae259589cc8d4945068901c59105425599edc64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945402"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712993"
 ---
-# <a name="customization-file-sql-section"></a>自定义文件 SQL 节
+# <a name="customization-file-sql-section"></a>自定义文件 SQL 部分
 
 
 **适用于**： Access 2013、 Office 2013

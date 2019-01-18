@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248929(v=office.15)
 ms:contentKeyID: 48543456
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 408952195ce0b8f8170e2036a582b0dfc2376b10
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 143e26f38afee71078b96fe43ac838817b8393a3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910829"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713175"
 ---
 # <a name="ado-md-methods"></a>ADO MD 方法
 
@@ -30,7 +31,7 @@ ms.locfileid: "25910829"
 <th>说明</th>
 </tr>
 <tr class="odd">
-<td><p><a href="close-method-ado-md.md">Close</a></p></td>
+<td><p><a href="close-method-ado-md.md">关闭</a></p></td>
 <td><p>关闭打开的单元格集。</p></td>
 </tr>
 <tr class="even">

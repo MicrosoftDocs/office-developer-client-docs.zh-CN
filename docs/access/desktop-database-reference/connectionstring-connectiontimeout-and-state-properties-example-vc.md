@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249143(v=office.15)
 ms:contentKeyID: 48544254
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ad2bb36a6e3b714a1fb5730978877d09637d141c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 929b81deeeab2fdc849d7a1ec9b7bf6b835d569e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878904"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711880"
 ---
 # <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a>ConnectionString、ConnectionTimeout 和 State 属性示例 (VC++)
 

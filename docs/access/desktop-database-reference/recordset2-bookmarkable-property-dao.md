@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052888
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e87b8d41e586d9ccaf647a0721968a62a0245d11
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 26b8b60255b4e50a2288dedb8e27906476926e8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921794"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714680"
 ---
 # <a name="recordset2bookmarkable-property-dao"></a>Recordset2.Bookmarkable 属性 (DAO)
 

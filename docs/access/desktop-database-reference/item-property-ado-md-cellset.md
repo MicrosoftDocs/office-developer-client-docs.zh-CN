@@ -1,19 +1,20 @@
 ---
-title: Item 属性（ADO MD 单元格）
+title: Item 属性（ADO MD 单元格集）
 TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 99f381ad2f38dc7d2c467ed1e40e4084032006d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949605"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707015"
 ---
-# <a name="item-property-ado-md-cellset"></a>Item 属性（ADO MD 单元格）
+# <a name="item-property-ado-md-cellset"></a>Item 属性（ADO MD 单元格集）
 
 **适用于**： Access 2013、 Office 2013
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949605"
 
 设置*单元格* = *单元格集*。项目 (*位置*)
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

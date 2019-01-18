@@ -1,19 +1,20 @@
 ---
-title: 第 2 章： 获取数据
+title: 第 2 章：获取数据
 TOCTitle: 'Chapter 2: Getting data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 729d7a74c8e1ead84810e82d608e4e9b37268a6b
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f059e5dfe064442f10972fd36344e64f84fe7ea5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936999"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715191"
 ---
-# <a name="chapter-2-getting-data"></a>第 2 章： 获取数据
+# <a name="chapter-2-getting-data"></a>第 2 章：获取数据
 
 **适用于**： Access 2013、 Office 2013
 

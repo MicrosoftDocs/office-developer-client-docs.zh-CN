@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249082(v=office.15)
 ms:contentKeyID: 48544026
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f98b51ac35f9be6c96eb87c4db6bf73a2319692b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 691e1e4e329fe6a68a2826c43c1fd3453095ce5d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945115"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715121"
 ---
 # <a name="user-properties-methods-and-events-adox"></a>用户属性、 方法和事件 (ADOX)
 

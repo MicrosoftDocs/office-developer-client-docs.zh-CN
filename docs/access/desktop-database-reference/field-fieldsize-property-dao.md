@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
 ms:contentKeyID: 48547645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6253979acb6948347f11e4a1d9770461ee63691
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 68a1b354b27515dd855703b9bf6344e4a9e90d7b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920555"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712790"
 ---
 # <a name="fieldfieldsize-property-dao"></a>Field.FieldSize 属性 (DAO)
 

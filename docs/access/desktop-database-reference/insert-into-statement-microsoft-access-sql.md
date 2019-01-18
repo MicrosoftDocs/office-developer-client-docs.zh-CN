@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c20701e9863d72a9308679965425b74c9f9818ac
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 4fee5e9e8878274f2c20dd83a3dbedaf2903ca62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937636"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710802"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>INSERT INTO 语句 (Microsoft Access SQL)
 
@@ -99,7 +100,7 @@ INSERT INTO 是可选的，但是如果包括它，应将它置于 [SELECT](sele
 
 如果不想从其他表中追加现有记录，可以通过 VALUES 子句指定每个字段在新的单个记录中的值。如果忽略了字段列表，VALUES 子句必须包括该表中每个字段的值；否则，INSERT 操作将会失败。通过附加的带有 VALUES 子句的 INSERT INTO 语句，可以创建希望得到的每一个新增记录。
 
-**链接提供** [UtterAccess](https://www.utteraccess.com)社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
+**链接提供方：**[UtterAccess](https://www.utteraccess.com) 社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
 
 - [生成 for 插入/更新语句的顺序编号](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 

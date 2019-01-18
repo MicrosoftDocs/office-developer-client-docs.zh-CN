@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249065(v=office.15)
 ms:contentKeyID: 48543938
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d5414f6f604392d64baba7e67c8b66d13afc94d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4585679688929532d7f50be9efc71b2830bb6587
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922585"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711243"
 ---
 # <a name="cancelupdate-method-ado"></a>CancelUpdate 方法 (ADO)
 
@@ -26,7 +27,7 @@ ms.locfileid: "25922585"
 
 *记录*。*字段*。CancelUpdate
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 **Recordset**
 

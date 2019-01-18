@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192638(v=office.15)
 ms:contentKeyID: 48544251
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 81e5fc62e901c677704816ec31a9c06082b322b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5515f0f34f8c2ffc6061e0cb6db04c00fdb9d0b2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927695"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712427"
 ---
 # <a name="recordset2validationtext-property-dao"></a>Recordset2.ValidationText 属性 (DAO)
 

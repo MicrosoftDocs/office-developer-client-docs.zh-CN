@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197944(v=office.15)
 ms:contentKeyID: 48546493
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa56c4ff3ff0ee0001e80ea19a532a0ba041acab
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dbaa0fe7aaa50c8aec582e2f03cd2849268816b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923327"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715548"
 ---
 # <a name="databases-collection-dao"></a>Databases 集合 (DAO)
 

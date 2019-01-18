@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 159e9f1b4cf7beab96a463ff476b4edf577e1371
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a5635b2b97066394b8596dbcdb50c84abf429719
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926932"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715128"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>DisplayHourglassPointer 宏操作
 

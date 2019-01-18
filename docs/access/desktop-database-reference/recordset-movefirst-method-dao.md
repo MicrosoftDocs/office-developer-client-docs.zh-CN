@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192329(v=office.15)
 ms:contentKeyID: 48544109
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6746513d0985a20c0370dde0c1e75e0a405ffa9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 31d003d7ae98bf509aca8f24da9c37f0276af6fd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930173"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715723"
 ---
 # <a name="recordsetmovefirst-method-dao"></a>Recordset.MoveFirst 方法 (DAO)
 

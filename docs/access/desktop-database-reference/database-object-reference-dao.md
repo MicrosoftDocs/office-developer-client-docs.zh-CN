@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123731(v=office.15)
 ms:contentKeyID: 52071372
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 404cba03cb3169da9e2b0836d03df1419ffc1313
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: bc445889b0dc63520d8f4ca2ca79888f3e5ce274
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927338"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711026"
 ---
 # <a name="database-object-reference-dao"></a>数据库对象引用 (DAO)
 

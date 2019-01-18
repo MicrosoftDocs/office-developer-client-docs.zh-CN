@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835058(v=office.15)
 ms:contentKeyID: 48547997
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edd018039ce6f612994c06da1036318586924883
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9da7cdcead4f5143674f4b46f4a57d5c32dc62fa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928374"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712047"
 ---
 # <a name="relationsrefresh-method-dao"></a>Relations.Refresh 方法 (DAO)
 

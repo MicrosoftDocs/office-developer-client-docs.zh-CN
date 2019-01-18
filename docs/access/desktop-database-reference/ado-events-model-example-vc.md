@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6aa7828ac915b737fda541e1c9e0b967d8fe7fb0
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8e47e8961436be44a78596498754e01e3b0677d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026300"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712097"
 ---
 # <a name="ado-events-model-example-vc"></a>ADO 事件模型示例 （VC + +）
 

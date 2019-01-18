@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277563
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4beb013b09ce136d6ffa7558225e01fae80da645
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 296e1405245d6204d136888e78b6a3846b468a1f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937090"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710935"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>CREATE TABLE 语句 (Microsoft Access SQL)
 
@@ -53,7 +54,7 @@ CREATE TABLE 语句包含以下部分：
 <td><p>要在新表中创建的字段的名称。必须创建至少一个字段。</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>类型</em></p></td>
+<td><p><em>type</em></p></td>
 <td><p>在新表中 <em>field</em> 的数据类型。</p></td>
 </tr>
 <tr class="even">

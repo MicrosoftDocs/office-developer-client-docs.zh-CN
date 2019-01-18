@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124363(v=office.15)
 ms:contentKeyID: 52071997
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fed2606ef85b8f28b1be3c84da43b2d516632c3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dd4ddff32652a559fb3bc8c88bc01610ce16eab1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943696"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706399"
 ---
 # <a name="filterquerysearch"></a>筛选/查询/搜索
 

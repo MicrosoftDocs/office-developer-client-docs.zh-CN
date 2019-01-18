@@ -1,19 +1,20 @@
 ---
-title: 第 6 章： 错误处理
+title: 第 6 章：错误处理
 TOCTitle: 'Chapter 6: Error handling'
 ms:assetid: 6ae7343b-b9e0-c4c3-f65c-110f903e573e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249420(v=office.15)
 ms:contentKeyID: 48545440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c6e4f4e4218992b89a3370375bb322adfcdd57c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937181"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708870"
 ---
-# <a name="chapter-6-error-handling"></a>第 6 章： 错误处理
+# <a name="chapter-6-error-handling"></a>第 6 章：错误处理
 
 **适用于**： Access 2013、 Office 2013
 
@@ -38,9 +39,9 @@ ADO 按以下几种方式通知错误：
 以下几节更详细地逐一描述了这些通知方法。
 
 - [ADO 错误](ado-errors.md)
-- [ADO 错误参考 （英文）](ado-error-reference.md)
+- [ADO 错误参考](ado-error-reference.md)
 - [提供程序错误](provider-errors.md)
 - [与字段相关的错误信息](field-related-error-information.md)
 - [与记录集相关的错误信息](recordset-related-error-information.md)
-- [预见错误](anticipating-errors.md)
+- [预测错误](anticipating-errors.md)
 - [处理错误用其他语言 (ADO)](handling-errors-in-other-languages.md)

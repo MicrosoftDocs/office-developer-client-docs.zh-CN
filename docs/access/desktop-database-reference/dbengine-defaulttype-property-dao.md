@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053580
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ec8dbc1e758b19c15c1a08b9936fa3c00acabde6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 23f6c87ede6da2cc5b2f3203bfa13cb17bf93e82
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925655"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713588"
 ---
 # <a name="dbenginedefaulttype-property-dao"></a>DBEngine.DefaultType 属性 (DAO)
 

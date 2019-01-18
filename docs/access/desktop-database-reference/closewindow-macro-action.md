@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f9bffbd129d8fb4fc1334dbd884556d98e7f140c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4397846abdc0d10b6bfa0e6a1eb5c0c435fc862a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929319"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709850"
 ---
 # <a name="closewindow-macro-action"></a>CloseWindow 宏操作
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249872(v=office.15)
 ms:contentKeyID: 48547262
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c757bc7b06c8c3a4438effd912df3e66c79de489
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 02904c5b3b5c5973ec0dac47901fc9bf7009d986
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931174"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714701"
 ---
 # <a name="levels-collection-ado-md-reference"></a>Levels 集合 （ADO MD 参考 （英文）
 

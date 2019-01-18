@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052882
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 996686501d355555814a48bc665f3eb634a74298
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4259da0eb48e7ff13e246b326cc6e96d7a916ea7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998614"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714911"
 ---
 # <a name="recordset2update-method-dao"></a>Recordset2.Update 方法 (DAO)
 
@@ -27,7 +28,7 @@ ms.locfileid: "25998614"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -38,7 +39,7 @@ ms.locfileid: "25998614"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

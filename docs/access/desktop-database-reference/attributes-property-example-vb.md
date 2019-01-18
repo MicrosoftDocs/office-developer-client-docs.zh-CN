@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
 ms:contentKeyID: 48547442
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1abdb333551e80a8c2b0e8a440aee9c35ca69120
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4d324ae976693e635222d2b8d4b4d4571c182fa6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879254"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714687"
 ---
 # <a name="attributes-property-example-vb"></a>Attributes 属性示例 (VB)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
 ms:contentKeyID: 48548366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d4aed1d2cbefaa8a43017b7a8ae216ddc0610d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0fee1be7c599dbab649652331c958978916d3ad2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871267"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714316"
 ---
 # <a name="state-property-example-vb"></a>State 属性示例 (VB)
 

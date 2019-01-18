@@ -1,19 +1,20 @@
 ---
-title: 确定受支持的功能
+title: 确定什么受支持
 TOCTitle: Determining what is supported
 ms:assetid: 47b44dc9-e0fd-f204-0c68-e0de9247ee2c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249221(v=office.15)
 ms:contentKeyID: 48544602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3b2db5fbdf0d85ee48b9dbc494ccce6022bfb165
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3abef84f05ad279edba1fcc753f0b412a807a7b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946585"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712692"
 ---
-# <a name="determining-what-is-supported"></a>确定受支持的功能
+# <a name="determining-what-is-supported"></a>确定什么受支持
 
 **适用于**： Access 2013、 Office 2013
 

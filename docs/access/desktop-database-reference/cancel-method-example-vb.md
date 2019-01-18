@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249547(v=office.15)
 ms:contentKeyID: 48545926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 031a7a5e1447b0ef7356a3c52c658440e2a3a7fb
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: db0c522866b6402217a2f875d02b56b8ee291850
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868117"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711194"
 ---
 # <a name="cancel-method-example-vb"></a>Cancel 方法示例 (VB)
 

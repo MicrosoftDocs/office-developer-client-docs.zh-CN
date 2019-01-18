@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249951(v=office.15)
 ms:contentKeyID: 48547557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee094166e971a321d0a775fcfd8d841bfb0fc047
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 735e72e8ed4f06c887ff790209529787e38142a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919631"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710599"
 ---
 # <a name="sortorder-property-adox"></a>SortOrder 属性 (ADOX)
 

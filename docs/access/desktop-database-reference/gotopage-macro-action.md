@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 179ee840370cef98c70e947cef555401408bbe12
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 10d55b435a59594eaf3e8380b6690ebbda63a258
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026220"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712370"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage 宏操作
 

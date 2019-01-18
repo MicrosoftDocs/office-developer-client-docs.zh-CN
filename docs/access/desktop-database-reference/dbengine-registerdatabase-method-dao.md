@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45e6933d01a4c47253c90857d9c42bf0ab386c16
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997561"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715604"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25997561"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25997561"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -50,13 +51,13 @@ ms.locfileid: "25997561"
 <tr class="odd">
 <td><p><em>Dsn</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> 方法中使用的名称。该名称引用与数据源有关的描述性信息块。例如，如果数据源为 ODBC 远程数据库，则该名称可能是服务器的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>驱动程序</em></p></td>
+<td><p><em>Driver</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>ODBC 驱动程序的名称。这不是 ODBC 驱动程序 DLL 文件的名称。</p></td>
 </tr>
 <tr class="odd">
@@ -68,7 +69,7 @@ ms.locfileid: "25997561"
 <tr class="even">
 <td><p><em>Attributes</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>要添加到 Windows 注册表的关键字列表。这些关键字是由回车符分隔的字符串。</p></td>
 </tr>
 </tbody>

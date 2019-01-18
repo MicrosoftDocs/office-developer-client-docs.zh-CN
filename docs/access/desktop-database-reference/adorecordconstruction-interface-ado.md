@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b719c6314fb2c68a0a343a800da35ee944654df3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924587"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712006"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>ADORecordConstruction 接口 (ADO)
 
@@ -36,7 +37,7 @@ ms.locfileid: "25924587"
 在此 ADO <strong>Record</strong>对象上设置 OLE DB <strong>Row</strong>对象的容器。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="row-property-ado.md">Row</a></p></td>
+<td><p><a href="row-property-ado.md">行</a></p></td>
 <td><p>读/写。<br />
 获取/设置从在此 ADO <strong>Record</strong>对象的 OLE DB <strong>Row</strong>对象。</p></td>
 </tr>
@@ -52,7 +53,7 @@ ms.locfileid: "25924587"
 
 无。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 给定 OLE DB **Row**对象 (pRow)、 构造的 ADO **Record**对象 （）、 构造 ADO **Record**对象 (adoR) 量与以下三个基本操作：
 

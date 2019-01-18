@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197325(v=office.15)
 ms:contentKeyID: 48546221
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9aecffc135ab402f02b8fd4e1cc234f4a6eb37d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 77d9bfa30dbfab21fd75de36b336a25e6af3187e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927324"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709836"
 ---
 # <a name="databaseconnection-property-dao"></a>Database.Connection 属性 (DAO)
 

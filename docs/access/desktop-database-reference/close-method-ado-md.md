@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249406(v=office.15)
 ms:contentKeyID: 48545382
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e36fb95ddb85312c1376948c819749e76e11945
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 609069d04124146f311166e3ae56d8d6a793675b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930964"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709829"
 ---
 # <a name="close-method-ado-md"></a>Close 方法 (ADO MD)
 

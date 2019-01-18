@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250122(v=office.15)
 ms:contentKeyID: 48548168
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21c0f6044b0c59949984a35e6f6d4b51c80b1801
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7a92b5380837668df6661d1d88eb8bb0bd2cb4ec
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868425"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713546"
 ---
 # <a name="type-property-example-property-vc"></a>Type 属性示例（属性）(VC++)
 

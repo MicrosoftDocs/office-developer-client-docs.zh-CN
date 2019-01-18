@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 02eb8d5e85356cd8a2f7744c057371f0ec901a20
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1f10b5b779141189f114e420b3f7d4827e701161
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997502"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709660"
 ---
 # <a name="recordsetmove-method-dao"></a>Recordset.Move 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25997502"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25997502"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

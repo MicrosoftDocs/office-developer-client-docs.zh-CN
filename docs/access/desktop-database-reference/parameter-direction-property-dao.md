@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053586
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f7d468d703989fdc26538d18cbc00eb950fe0e8e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3260fd3f01e8ca22d5be4f8d14f6376c31e2735a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930215"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712258"
 ---
 # <a name="parameterdirection-property-dao"></a>Parameter.Direction 属性 (DAO)
 
