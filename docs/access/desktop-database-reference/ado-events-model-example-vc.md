@@ -6,42 +6,43 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6aa7828ac915b737fda541e1c9e0b967d8fe7fb0
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8e47e8961436be44a78596498754e01e3b0677d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026300"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712097"
 ---
-# <a name="ado-events-model-example-vc"></a><span data-ttu-id="318d8-102">ADO 事件模型示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="318d8-102">ADO Events Model example (VC++)</span></span>
+# <a name="ado-events-model-example-vc"></a><span data-ttu-id="f375f-102">ADO 事件模型示例 （VC + +）</span><span class="sxs-lookup"><span data-stu-id="f375f-102">ADO Events Model example (VC++)</span></span>
 
-<span data-ttu-id="318d8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="318d8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f375f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f375f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="318d8-104">[ADO 事件实例化（按语言）](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado)的 Visual C++ 部分提供了如何实例化 ADO 事件模型的一般说明。</span><span class="sxs-lookup"><span data-stu-id="318d8-104">The Visual C++ section of [ADO Event Instantiation by Language](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) gives a general description of how to instantiate the ADO event model.</span></span> <span data-ttu-id="318d8-105">下面是实例化由创建环境中的事件模型的具体示例**\#导入**指令。</span><span class="sxs-lookup"><span data-stu-id="318d8-105">The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.</span></span>
+<span data-ttu-id="f375f-104">[ADO 事件实例化（按语言）](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado)的 Visual C++ 部分提供了如何实例化 ADO 事件模型的一般说明。</span><span class="sxs-lookup"><span data-stu-id="f375f-104">The Visual C++ section of [ADO Event Instantiation by Language](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) gives a general description of how to instantiate the ADO event model.</span></span> <span data-ttu-id="f375f-105">下面是实例化由创建环境中的事件模型的具体示例**\#导入**指令。</span><span class="sxs-lookup"><span data-stu-id="f375f-105">The following is a specific example of instantiating the event model within the environment created by the **\#import** directive.</span></span>
 
-<span data-ttu-id="318d8-106">该一般说明使用 **adoint.h** 作为方法签名的参考。</span><span class="sxs-lookup"><span data-stu-id="318d8-106">The general description uses **adoint.h** as a reference for method signatures.</span></span> <span data-ttu-id="318d8-107">中一般描述的一些细节但是，由于使用略有更改**\#导入**指令：</span><span class="sxs-lookup"><span data-stu-id="318d8-107">However, a few details in the general description change slightly as a result of using the **\#import** directive:</span></span>
+<span data-ttu-id="f375f-106">该一般说明使用 **adoint.h** 作为方法签名的参考。</span><span class="sxs-lookup"><span data-stu-id="f375f-106">The general description uses **adoint.h** as a reference for method signatures.</span></span> <span data-ttu-id="f375f-107">中一般描述的一些细节但是，由于使用略有更改**\#导入**指令：</span><span class="sxs-lookup"><span data-stu-id="f375f-107">However, a few details in the general description change slightly as a result of using the **\#import** directive:</span></span>
 
-- <span data-ttu-id="318d8-108">**\#导入**指令将**typedef**的方法签名数据类型和修饰符解析为其基本窗体。</span><span class="sxs-lookup"><span data-stu-id="318d8-108">The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.</span></span>
+- <span data-ttu-id="f375f-108">**\#导入**指令将**typedef**的方法签名数据类型和修饰符解析为其基本窗体。</span><span class="sxs-lookup"><span data-stu-id="f375f-108">The **\#import** directive resolves **typedef**'s, and method signature data types and modifiers to their fundamental forms.</span></span>
 
-- <span data-ttu-id="318d8-109">必须覆盖纯虚方法全部具有前缀通过"**原始\_**"。</span><span class="sxs-lookup"><span data-stu-id="318d8-109">The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".</span></span>
+- <span data-ttu-id="f375f-109">必须覆盖纯虚方法全部具有前缀通过"**原始\_**"。</span><span class="sxs-lookup"><span data-stu-id="f375f-109">The pure virtual methods that must be overwritten are all prefixed by "**raw\_**".</span></span>
 
-<span data-ttu-id="318d8-110">某些代码仅反映编码样式。</span><span class="sxs-lookup"><span data-stu-id="318d8-110">Some of the code simply reflects coding style.</span></span>
+<span data-ttu-id="f375f-110">某些代码仅反映编码样式。</span><span class="sxs-lookup"><span data-stu-id="f375f-110">Some of the code simply reflects coding style.</span></span>
 
-- <span data-ttu-id="318d8-111">指向由 **Advise** 方法使用的 **IUnknown** 的指针是使用对 **QueryInterface** 的调用显式获取的。</span><span class="sxs-lookup"><span data-stu-id="318d8-111">The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.</span></span>
+- <span data-ttu-id="f375f-111">指向由 **Advise** 方法使用的 **IUnknown** 的指针是使用对 **QueryInterface** 的调用显式获取的。</span><span class="sxs-lookup"><span data-stu-id="f375f-111">The pointer to **IUnknown** used by the **Advise** method is obtained explicitly with a call to **QueryInterface**.</span></span>
 
-- <span data-ttu-id="318d8-112">不需要在类定义中对析构函数进行显式编码。</span><span class="sxs-lookup"><span data-stu-id="318d8-112">You don't need to explicitly code a destructor in the class definitions.</span></span>
+- <span data-ttu-id="f375f-112">不需要在类定义中对析构函数进行显式编码。</span><span class="sxs-lookup"><span data-stu-id="f375f-112">You don't need to explicitly code a destructor in the class definitions.</span></span>
 
-- <span data-ttu-id="318d8-113">您可能需要对 QueryInterface、AddRef 和 Release 的更强大的实现进行编码。</span><span class="sxs-lookup"><span data-stu-id="318d8-113">You may want to code more robust implementations of QueryInterface, AddRef, and Release.</span></span>
+- <span data-ttu-id="f375f-113">您可能需要对 QueryInterface、AddRef 和 Release 的更强大的实现进行编码。</span><span class="sxs-lookup"><span data-stu-id="f375f-113">You may want to code more robust implementations of QueryInterface, AddRef, and Release.</span></span>
 
-- <span data-ttu-id="318d8-114">\*\* \_ \_Uuidof()\*\* 指令被扩展用于获取接口 Id。</span><span class="sxs-lookup"><span data-stu-id="318d8-114">The **\_\_uuidof()** directive is used extensively to obtain interface IDs.</span></span>
+- <span data-ttu-id="f375f-114">\*\* \_ \_Uuidof()\*\* 指令被扩展用于获取接口 Id。</span><span class="sxs-lookup"><span data-stu-id="f375f-114">The **\_\_uuidof()** directive is used extensively to obtain interface IDs.</span></span>
 
-<span data-ttu-id="318d8-115">最后，本示例包含了一些工作代码。</span><span class="sxs-lookup"><span data-stu-id="318d8-115">Finally, the example contains some working code.</span></span>
+<span data-ttu-id="f375f-115">最后，本示例包含了一些工作代码。</span><span class="sxs-lookup"><span data-stu-id="f375f-115">Finally, the example contains some working code.</span></span>
 
-- <span data-ttu-id="318d8-116">本示例是作为控制台应用程序进行编写的。</span><span class="sxs-lookup"><span data-stu-id="318d8-116">The example is written as a console application.</span></span>
+- <span data-ttu-id="f375f-116">本示例是作为控制台应用程序进行编写的。</span><span class="sxs-lookup"><span data-stu-id="f375f-116">The example is written as a console application.</span></span>
 
-- <span data-ttu-id="318d8-117">应插入自己的代码在注释，下方"/ / Do 一些工作"。</span><span class="sxs-lookup"><span data-stu-id="318d8-117">You should insert your own code under the comment, "// Do some work ".</span></span>
+- <span data-ttu-id="f375f-117">应插入自己的代码在注释，下方"/ / Do 一些工作"。</span><span class="sxs-lookup"><span data-stu-id="f375f-117">You should insert your own code under the comment, "// Do some work ".</span></span>
 
-- <span data-ttu-id="318d8-p103">所有事件处理程序默认情况下不执行任何操作，且取消进一步的通知。您应该插入您的应用程序的适当代码，并在需要的情况下允许通知。</span><span class="sxs-lookup"><span data-stu-id="318d8-p103">All the event handlers default to doing nothing, and canceling further notifications. You should insert the appropriate code for your application, and allow notifications if required.</span></span>
+- <span data-ttu-id="f375f-p103">所有事件处理程序默认情况下不执行任何操作，且取消进一步的通知。您应该插入您的应用程序的适当代码，并在需要的情况下允许通知。</span><span class="sxs-lookup"><span data-stu-id="f375f-p103">All the event handlers default to doing nothing, and canceling further notifications. You should insert the appropriate code for your application, and allow notifications if required.</span></span>
 
 <!-- end list -->
 

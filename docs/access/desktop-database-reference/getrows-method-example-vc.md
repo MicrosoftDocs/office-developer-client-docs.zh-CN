@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250034(v=office.15)
 ms:contentKeyID: 48547817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 341158e15ec06525fa88eddecf778bb0bb78c3f0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1b60d51d407ed25d189f325bf18a7b16b0563149
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884774"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706679"
 ---
-# <a name="getrows-method-example-vc"></a><span data-ttu-id="d7072-102">GetRows 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="d7072-102">GetRows method example (VC++)</span></span>
+# <a name="getrows-method-example-vc"></a><span data-ttu-id="83280-102">GetRows 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="83280-102">GetRows method example (VC++)</span></span>
 
 
-<span data-ttu-id="d7072-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7072-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="83280-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="83280-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d7072-p101">本示例使用 [GetRows](getrows-method-ado.md) 方法从 [Recordset](recordset-object-ado.md) 中检索指定数量的行，并使用生成的数据填充数组。 **GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 [EOF](bof-eof-properties-ado.md)，或 **GetRows** 尝试检索已被其他用户删除的记录。仅当发生第二种情况时，函数才返回 **False** 。若要使该过程运行，需要 GetRowsOK 函数。</span><span class="sxs-lookup"><span data-stu-id="d7072-p101">This example uses the [GetRows](getrows-method-ado.md) method to retrieve a specified number of rows from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data. The **GetRows** method will return less than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. The GetRowsOK function is required for this procedure to run.</span></span>
+<span data-ttu-id="83280-p101">本示例使用 [GetRows](getrows-method-ado.md) 方法从 [Recordset](recordset-object-ado.md) 中检索指定数量的行，并使用生成的数据填充数组。 **GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 [EOF](bof-eof-properties-ado.md)，或 **GetRows** 尝试检索已被其他用户删除的记录。仅当发生第二种情况时，函数才返回 **False** 。若要使该过程运行，需要 GetRowsOK 函数。</span><span class="sxs-lookup"><span data-stu-id="83280-p101">This example uses the [GetRows](getrows-method-ado.md) method to retrieve a specified number of rows from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data. The **GetRows** method will return less than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. The GetRowsOK function is required for this procedure to run.</span></span>
 
 ```cpp 
  

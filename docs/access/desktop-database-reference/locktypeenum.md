@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
 ms:contentKeyID: 48546448
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4613b6eca1048f80d7e2aabda35abf3c92d31255
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d4b9dc49e647bdcd3123ade065da0c74538c9a88
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884223"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715366"
 ---
-# <a name="locktypeenum"></a><span data-ttu-id="50e75-102">LockTypeEnum</span><span class="sxs-lookup"><span data-stu-id="50e75-102">LockTypeEnum</span></span>
+# <a name="locktypeenum"></a><span data-ttu-id="df0b1-102">LockTypeEnum</span><span class="sxs-lookup"><span data-stu-id="df0b1-102">LockTypeEnum</span></span>
 
-<span data-ttu-id="50e75-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="50e75-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="df0b1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="df0b1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="50e75-104">指定在编辑过程中对记录设置的锁定类型。</span><span class="sxs-lookup"><span data-stu-id="50e75-104">Specifies the type of lock placed on records during editing.</span></span>
+<span data-ttu-id="df0b1-104">指定在编辑过程中对记录设置的锁定类型。</span><span class="sxs-lookup"><span data-stu-id="df0b1-104">Specifies the type of lock placed on records during editing.</span></span>
 
 <table>
 <colgroup>
@@ -27,44 +28,44 @@ ms.locfileid: "25884223"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="50e75-105">常量</span><span class="sxs-lookup"><span data-stu-id="50e75-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="50e75-106">值</span><span class="sxs-lookup"><span data-stu-id="50e75-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="50e75-107">说明</span><span class="sxs-lookup"><span data-stu-id="50e75-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="df0b1-105">常量</span><span class="sxs-lookup"><span data-stu-id="df0b1-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="df0b1-106">值</span><span class="sxs-lookup"><span data-stu-id="df0b1-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="df0b1-107">说明</span><span class="sxs-lookup"><span data-stu-id="df0b1-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="50e75-108"><strong>adLockBatchOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="50e75-108"><strong>adLockBatchOptimistic</strong></span></span></p></td>
-<td><p><span data-ttu-id="50e75-109">4</span><span class="sxs-lookup"><span data-stu-id="50e75-109">4</span></span></p></td>
-<td><p><span data-ttu-id="50e75-p101">指示开放式批更新。这是批更新模式所必需的。</span><span class="sxs-lookup"><span data-stu-id="50e75-p101">Indicates optimistic batch updates. Required for batch update mode.</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-108"><strong>adLockBatchOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="df0b1-108"><strong>adLockBatchOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="df0b1-109">4</span><span class="sxs-lookup"><span data-stu-id="df0b1-109">4</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-p101">指示开放式批更新。这是批更新模式所必需的。</span><span class="sxs-lookup"><span data-stu-id="df0b1-p101">Indicates optimistic batch updates. Required for batch update mode.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="50e75-112"><strong>adLockOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="50e75-112"><strong>adLockOptimistic</strong></span></span></p></td>
-<td><p><span data-ttu-id="50e75-113">3</span><span class="sxs-lookup"><span data-stu-id="50e75-113">3</span></span></p></td>
-<td><p><span data-ttu-id="50e75-p102">指示逐记录的开放式锁定。提供程序使用开放式锁定，即仅在您调用 <a href="update-method-ado.md">Update</a> 方法时锁定记录。</span><span class="sxs-lookup"><span data-stu-id="50e75-p102">Indicates optimistic locking, record by record. The provider uses optimistic locking, locking records only when you call the <a href="update-method-ado.md">Update</a> method.</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-112"><strong>adLockOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="df0b1-112"><strong>adLockOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="df0b1-113">3</span><span class="sxs-lookup"><span data-stu-id="df0b1-113">3</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-p102">指示逐记录的开放式锁定。提供程序使用开放式锁定，即仅在您调用 <a href="update-method-ado.md">Update</a> 方法时锁定记录。</span><span class="sxs-lookup"><span data-stu-id="df0b1-p102">Indicates optimistic locking, record by record. The provider uses optimistic locking, locking records only when you call the <a href="update-method-ado.md">Update</a> method.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="50e75-116"><strong>adLockPessimistic</strong></span><span class="sxs-lookup"><span data-stu-id="50e75-116"><strong>adLockPessimistic</strong></span></span></p></td>
-<td><p><span data-ttu-id="50e75-117">2</span><span class="sxs-lookup"><span data-stu-id="50e75-117">2</span></span></p></td>
-<td><p><span data-ttu-id="50e75-p103">指示以保守方式逐个锁定记录。提供程序执行必要的操作（通常通过在编辑之后立即锁定数据源的记录）以确保成功编辑记录。</span><span class="sxs-lookup"><span data-stu-id="50e75-p103">Indicates pessimistic locking, record by record. The provider does what is necessary to ensure successful editing of the records, usually by locking records at the data source immediately after editing.</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-116"><strong>adLockPessimistic</strong></span><span class="sxs-lookup"><span data-stu-id="df0b1-116"><strong>adLockPessimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="df0b1-117">2</span><span class="sxs-lookup"><span data-stu-id="df0b1-117">2</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-p103">指示以保守方式逐个锁定记录。提供程序执行必要的操作（通常通过在编辑之后立即锁定数据源的记录）以确保成功编辑记录。</span><span class="sxs-lookup"><span data-stu-id="df0b1-p103">Indicates pessimistic locking, record by record. The provider does what is necessary to ensure successful editing of the records, usually by locking records at the data source immediately after editing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="50e75-120"><strong>adLockReadOnly</strong></span><span class="sxs-lookup"><span data-stu-id="50e75-120"><strong>adLockReadOnly</strong></span></span></p></td>
-<td><p><span data-ttu-id="50e75-121">1</span><span class="sxs-lookup"><span data-stu-id="50e75-121">1</span></span></p></td>
-<td><p><span data-ttu-id="50e75-p104">指示只读记录。您不能修改数据。</span><span class="sxs-lookup"><span data-stu-id="50e75-p104">Indicates read-only records. You cannot alter the data.</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-120"><strong>adLockReadOnly</strong></span><span class="sxs-lookup"><span data-stu-id="df0b1-120"><strong>adLockReadOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="df0b1-121">1</span><span class="sxs-lookup"><span data-stu-id="df0b1-121">1</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-p104">指示只读记录。您不能修改数据。</span><span class="sxs-lookup"><span data-stu-id="df0b1-p104">Indicates read-only records. You cannot alter the data.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="50e75-124"><strong>adLockUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="50e75-124"><strong>adLockUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="50e75-125">-1</span><span class="sxs-lookup"><span data-stu-id="50e75-125">-1</span></span></p></td>
-<td><p><span data-ttu-id="50e75-p105">不指定锁定类型。对于克隆，使用与原始锁相同的类型来创建克隆。</span><span class="sxs-lookup"><span data-stu-id="50e75-p105">Does not specify a type of lock. For clones, the clone is created with the same lock type as the original.</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-124"><strong>adLockUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="df0b1-124"><strong>adLockUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="df0b1-125">-1</span><span class="sxs-lookup"><span data-stu-id="df0b1-125">-1</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-p105">不指定锁定类型。对于克隆，使用与原始锁相同的类型来创建克隆。</span><span class="sxs-lookup"><span data-stu-id="df0b1-p105">Does not specify a type of lock. For clones, the clone is created with the same lock type as the original.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="50e75-128">ADO/WFC 等效值</span><span class="sxs-lookup"><span data-stu-id="50e75-128">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="df0b1-128">ADO/WFC 等效值</span><span class="sxs-lookup"><span data-stu-id="df0b1-128">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="50e75-129">包： **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="50e75-129">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="df0b1-129">包： **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="df0b1-129">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -72,24 +73,24 @@ ms.locfileid: "25884223"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="50e75-130">常量</span><span class="sxs-lookup"><span data-stu-id="50e75-130">Constant</span></span></p></th>
+<th><p><span data-ttu-id="df0b1-130">常量</span><span class="sxs-lookup"><span data-stu-id="df0b1-130">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="50e75-131">AdoEnums.LockType.BATCHOPTIMISTIC</span><span class="sxs-lookup"><span data-stu-id="50e75-131">AdoEnums.LockType.BATCHOPTIMISTIC</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-131">AdoEnums.LockType.BATCHOPTIMISTIC</span><span class="sxs-lookup"><span data-stu-id="df0b1-131">AdoEnums.LockType.BATCHOPTIMISTIC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="50e75-132">AdoEnums.LockType.OPTIMISTIC</span><span class="sxs-lookup"><span data-stu-id="50e75-132">AdoEnums.LockType.OPTIMISTIC</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-132">AdoEnums.LockType.OPTIMISTIC</span><span class="sxs-lookup"><span data-stu-id="df0b1-132">AdoEnums.LockType.OPTIMISTIC</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="50e75-133">AdoEnums.LockType.PESSIMISTIC</span><span class="sxs-lookup"><span data-stu-id="50e75-133">AdoEnums.LockType.PESSIMISTIC</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-133">AdoEnums.LockType.PESSIMISTIC</span><span class="sxs-lookup"><span data-stu-id="df0b1-133">AdoEnums.LockType.PESSIMISTIC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="50e75-134">AdoEnums.LockType.READONLY</span><span class="sxs-lookup"><span data-stu-id="50e75-134">AdoEnums.LockType.READONLY</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-134">AdoEnums.LockType.READONLY</span><span class="sxs-lookup"><span data-stu-id="df0b1-134">AdoEnums.LockType.READONLY</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="50e75-135">AdoEnums.LockType.UNSPECIFIED</span><span class="sxs-lookup"><span data-stu-id="50e75-135">AdoEnums.LockType.UNSPECIFIED</span></span></p></td>
+<td><p><span data-ttu-id="df0b1-135">AdoEnums.LockType.UNSPECIFIED</span><span class="sxs-lookup"><span data-stu-id="df0b1-135">AdoEnums.LockType.UNSPECIFIED</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
 ms:contentKeyID: 48547914
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0465c14c8dc95becd7ddf7a28eae9db811d51e32
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d9797d1cd48c397dedcd236d8762fa0dfcef7c93
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886982"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710179"
 ---
-# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="b1077-102">BOF、EOF 和 Bookmark 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="b1077-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vc"></a><span data-ttu-id="4bd1a-102">BOF、EOF 和 Bookmark 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="4bd1a-102">BOF, EOF, and Bookmark properties example (VC++)</span></span>
 
 
-<span data-ttu-id="b1077-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1077-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4bd1a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4bd1a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1077-p101">此示例中的第一个函数使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="b1077-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="4bd1a-p101">此示例中的第一个函数使用 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性在用户尝试移动到 [Recordset](recordset-object-ado.md) 的第一条或最后一条记录之外的位置时显示一条消息。它使用 [Bookmark](bookmark-property-ado.md) 属性来让用户对 **Recordset** 中的记录加标记并稍后返回到此记录。</span><span class="sxs-lookup"><span data-stu-id="4bd1a-p101">The first function in this example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
-<span data-ttu-id="b1077-106">第二个函数使用 Bookmark 属性来采用间隔一条记录的方式将 **Recordset** 中记录的 **Bookmark** 放入数组中，然后使用该数组对 Recordset 进行筛选。</span><span class="sxs-lookup"><span data-stu-id="b1077-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
+<span data-ttu-id="4bd1a-106">第二个函数使用 Bookmark 属性来采用间隔一条记录的方式将 **Recordset** 中记录的 **Bookmark** 放入数组中，然后使用该数组对 Recordset 进行筛选。</span><span class="sxs-lookup"><span data-stu-id="4bd1a-106">The second function uses the Bookmark property to place the **Bookmark** of every other record from a **Recordset** into an array, and then filters the Recordset using the array.</span></span>
 
 ```cpp 
  
@@ -355,7 +356,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBOFCpp 
 ```
 
-<span data-ttu-id="b1077-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="b1077-107">**BofEofBookmark.h**</span></span>
+<span data-ttu-id="4bd1a-107">**BofEofBookmark.h**</span><span class="sxs-lookup"><span data-stu-id="4bd1a-107">**BofEofBookmark.h**</span></span>
 
 ```cpp 
  

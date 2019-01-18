@@ -6,62 +6,63 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845129(v=office.15)
 ms:contentKeyID: 48543169
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 18889846b2f55fa13f9fa5fe002f233c955d9866
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: a94d34a2dbe8043e6db637b649f59047cf3f1dda
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929949"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713553"
 ---
-# <a name="querydef-object-dao"></a><span data-ttu-id="fb0e2-102">QueryDef 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="fb0e2-102">QueryDef object (DAO)</span></span>
+# <a name="querydef-object-dao"></a><span data-ttu-id="8579c-102">QueryDef 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="8579c-102">QueryDef object (DAO)</span></span>
 
-<span data-ttu-id="fb0e2-103">**适用于：** Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="fb0e2-103">**Applies to:** Access 2013 | Office 2013</span></span> 
+<span data-ttu-id="8579c-103">**适用于：** Access 2013 |Office 2013</span><span class="sxs-lookup"><span data-stu-id="8579c-103">**Applies to:** Access 2013 | Office 2013</span></span> 
 
-<span data-ttu-id="fb0e2-104">**QueryDef** 对象是 Microsoft Access 数据库引擎数据库中某个查询的存储定义。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-104">A **QueryDef** object is a stored definition of a query in a Microsoft Access database engine database.</span></span>
+<span data-ttu-id="8579c-104">**QueryDef** 对象是 Microsoft Access 数据库引擎数据库中某个查询的存储定义。</span><span class="sxs-lookup"><span data-stu-id="8579c-104">A **QueryDef** object is a stored definition of a query in a Microsoft Access database engine database.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="fb0e2-105">注解</span><span class="sxs-lookup"><span data-stu-id="fb0e2-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8579c-105">注解</span><span class="sxs-lookup"><span data-stu-id="8579c-105">Remarks</span></span>
 
-<span data-ttu-id="fb0e2-p101">可以使用 **QueryDef** 对象定义查询。例如，您可以进行下列操作：</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p101">You can use the **QueryDef** object to define a query. For example, you can:</span></span>
+<span data-ttu-id="8579c-p101">可以使用 **QueryDef** 对象定义查询。例如，您可以进行下列操作：</span><span class="sxs-lookup"><span data-stu-id="8579c-p101">You can use the **QueryDef** object to define a query. For example, you can:</span></span>
 
-- <span data-ttu-id="fb0e2-108">使用 **SQL** 属性设置或返回查询定义。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-108">Use the **SQL** property to set or return the query definition.</span></span>
+- <span data-ttu-id="8579c-108">使用 **SQL** 属性设置或返回查询定义。</span><span class="sxs-lookup"><span data-stu-id="8579c-108">Use the **SQL** property to set or return the query definition.</span></span>
 
-- <span data-ttu-id="fb0e2-109">使用 **QueryDef** 对象的 **Parameters** 集合设置或返回查询参数。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-109">Use the **QueryDef** object's **Parameters** collection to set or return query parameters.</span></span>
+- <span data-ttu-id="8579c-109">使用 **QueryDef** 对象的 **Parameters** 集合设置或返回查询参数。</span><span class="sxs-lookup"><span data-stu-id="8579c-109">Use the **QueryDef** object's **Parameters** collection to set or return query parameters.</span></span>
 
-- <span data-ttu-id="fb0e2-110">使用 **Type** 属性返回一个值，该值指示查询是从现有表中选择记录、制作一个新表、将记录从一个表插入到另一个表、删除记录还是更新记录。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-110">Use the **Type** property to return a value indicating whether the query selects records from an existing table, makes a new table, inserts records from one table into another table, deletes records, or updates records.</span></span>
+- <span data-ttu-id="8579c-110">使用 **Type** 属性返回一个值，该值指示查询是从现有表中选择记录、制作一个新表、将记录从一个表插入到另一个表、删除记录还是更新记录。</span><span class="sxs-lookup"><span data-stu-id="8579c-110">Use the **Type** property to return a value indicating whether the query selects records from an existing table, makes a new table, inserts records from one table into another table, deletes records, or updates records.</span></span>
 
-- <span data-ttu-id="fb0e2-111">使用 **MaxRecords** 属性限制从查询返回的记录数。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-111">Use the **MaxRecords** property to limit the number of records returned from a query.</span></span>
+- <span data-ttu-id="8579c-111">使用 **MaxRecords** 属性限制从查询返回的记录数。</span><span class="sxs-lookup"><span data-stu-id="8579c-111">Use the **MaxRecords** property to limit the number of records returned from a query.</span></span>
 
-- <span data-ttu-id="fb0e2-p102">使用 **ODBCTimeout** 属性指示查询返回记录之前需要等待的时间长短。 **ODBCTimeout** 属性可应用到访问开放式数据库连接 (ODBC) 数据的任何查询。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p102">Use the **ODBCTimeout** property to indicate how long to wait before the query returns records. The **ODBCTimeout** property applies to any query that accesses ODBC data.</span></span>
+- <span data-ttu-id="8579c-p102">使用 **ODBCTimeout** 属性指示查询返回记录之前需要等待的时间长短。 **ODBCTimeout** 属性可应用到访问开放式数据库连接 (ODBC) 数据的任何查询。</span><span class="sxs-lookup"><span data-stu-id="8579c-p102">Use the **ODBCTimeout** property to indicate how long to wait before the query returns records. The **ODBCTimeout** property applies to any query that accesses ODBC data.</span></span>
 
-- <span data-ttu-id="fb0e2-p103">使用 **ReturnsRecords** 属性指示查询返回记录。 **ReturnsRecords** 属性仅对 SQL 传递查询有效。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p103">Use the **ReturnsRecords** property to indicate that the query returns records. The **ReturnsRecords** property is only valid on SQL pass-through queries.</span></span>
+- <span data-ttu-id="8579c-p103">使用 **ReturnsRecords** 属性指示查询返回记录。 **ReturnsRecords** 属性仅对 SQL 传递查询有效。</span><span class="sxs-lookup"><span data-stu-id="8579c-p103">Use the **ReturnsRecords** property to indicate that the query returns records. The **ReturnsRecords** property is only valid on SQL pass-through queries.</span></span>
 
-- <span data-ttu-id="fb0e2-116">使用 **Connect** 属性生成一个访问 ODC 数据库的 SQL 传递查询。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-116">Use the **Connect** property to make an SQL pass-through query to an ODC database.</span></span>
+- <span data-ttu-id="8579c-116">使用 **Connect** 属性生成一个访问 ODC 数据库的 SQL 传递查询。</span><span class="sxs-lookup"><span data-stu-id="8579c-116">Use the **Connect** property to make an SQL pass-through query to an ODC database.</span></span>
 
-<span data-ttu-id="fb0e2-p104">还可以创建临时 **QueryDef** 对象。与永久 **QueryDef** 对象不同，临时 **QueryDef** 对象不会被保存到磁盘，也不会被追加到 **QueryDefs** 集合。对于在运行时必须反复运行，但不需要在磁盘中保存的查询，使用临时 **QueryDef** 对象十分有用，对于在运行时需要创建其 SQL 字符串/语句的查询尤其如此。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p104">You can also create temporary **QueryDef** objects. Unlike permanent **QueryDef** objects, temporary **QueryDef** objects are not saved to disk or appended to the **QueryDefs** collection. Temporary **QueryDef** objects are useful for queries that you must run repeatedly during run time but do not not need to save to disk, particularly if you create their SQL statements during run time.</span></span>
+<span data-ttu-id="8579c-p104">还可以创建临时 **QueryDef** 对象。与永久 **QueryDef** 对象不同，临时 **QueryDef** 对象不会被保存到磁盘，也不会被追加到 **QueryDefs** 集合。对于在运行时必须反复运行，但不需要在磁盘中保存的查询，使用临时 **QueryDef** 对象十分有用，对于在运行时需要创建其 SQL 字符串/语句的查询尤其如此。</span><span class="sxs-lookup"><span data-stu-id="8579c-p104">You can also create temporary **QueryDef** objects. Unlike permanent **QueryDef** objects, temporary **QueryDef** objects are not saved to disk or appended to the **QueryDefs** collection. Temporary **QueryDef** objects are useful for queries that you must run repeatedly during run time but do not not need to save to disk, particularly if you create their SQL statements during run time.</span></span>
 
-<span data-ttu-id="fb0e2-p105">可以将 Microsoft Access 工作区中的永久 **QueryDef** 对象视为编译的 SQL 语句。如果从永久 **QueryDef** 对象执行查询，则查询的运行速度比通过 **OpenRecordset** 方法运行等效 SQL 语句的速度更快。这是因为 Microsoft Access 数据库引擎在执行查询之前，不需要对其进行编译。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p105">You can think of a permanent **QueryDef** object in a Microsoft Access workspace as a compiled SQL statement. If you execute a query from a permanent **QueryDef** object, the query will run faster than if you run the equivalent SQL statement from the **OpenRecordset** method. This is because the Microsoft Access database engine doesn't need to compile the query before executing it.</span></span>
+<span data-ttu-id="8579c-p105">可以将 Microsoft Access 工作区中的永久 **QueryDef** 对象视为编译的 SQL 语句。如果从永久 **QueryDef** 对象执行查询，则查询的运行速度比通过 **OpenRecordset** 方法运行等效 SQL 语句的速度更快。这是因为 Microsoft Access 数据库引擎在执行查询之前，不需要对其进行编译。</span><span class="sxs-lookup"><span data-stu-id="8579c-p105">You can think of a permanent **QueryDef** object in a Microsoft Access workspace as a compiled SQL statement. If you execute a query from a permanent **QueryDef** object, the query will run faster than if you run the equivalent SQL statement from the **OpenRecordset** method. This is because the Microsoft Access database engine doesn't need to compile the query before executing it.</span></span>
 
-<span data-ttu-id="fb0e2-p106">使用通过 Microsoft Access 数据库引擎访问的外部数据库引擎的本地 SQL 方言的首选方法是使用 **QueryDef** 对象。例如，可以创建一个 Microsoft SQL Server 查询，并将其存储在 **QueryDef** 对象中。如果需要使用非 Microsoft Access 数据库引擎 SQL 查询，必须提供一个指向外部数据源的 **Connect** 属性字符串。具有有效 **Connect** 属性的查询将绕过 Microsoft Access 数据库引擎，并将查询直接传递给外部数据库服务器，以进行处理。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p106">The preferred way to use the native SQL dialect of an external database engine accessed through the Microsoft Access database engine is through **QueryDef** objects. For example, you can create a Microsoft SQL Server query and store it in a **QueryDef** object. When you need to use a non-Microsoft Access database engine SQL query, you must provide a **Connect** property string that points to the external data source. Queries with valid **Connect** properties bypass the Microsoft Access database engine and pass the query directly to the external database server for processing.</span></span>
+<span data-ttu-id="8579c-p106">使用通过 Microsoft Access 数据库引擎访问的外部数据库引擎的本地 SQL 方言的首选方法是使用 **QueryDef** 对象。例如，可以创建一个 Microsoft SQL Server 查询，并将其存储在 **QueryDef** 对象中。如果需要使用非 Microsoft Access 数据库引擎 SQL 查询，必须提供一个指向外部数据源的 **Connect** 属性字符串。具有有效 **Connect** 属性的查询将绕过 Microsoft Access 数据库引擎，并将查询直接传递给外部数据库服务器，以进行处理。</span><span class="sxs-lookup"><span data-stu-id="8579c-p106">The preferred way to use the native SQL dialect of an external database engine accessed through the Microsoft Access database engine is through **QueryDef** objects. For example, you can create a Microsoft SQL Server query and store it in a **QueryDef** object. When you need to use a non-Microsoft Access database engine SQL query, you must provide a **Connect** property string that points to the external data source. Queries with valid **Connect** properties bypass the Microsoft Access database engine and pass the query directly to the external database server for processing.</span></span>
 
-<span data-ttu-id="fb0e2-127">若要创建新的 **QueryDef** 对象，请使用 **CreateQueryDef** 方法。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-127">To create a new **QueryDef** object, use the **CreateQueryDef** method.</span></span> <span data-ttu-id="fb0e2-128">在 Microsoft Access 工作区中，如果您提供名称参数的字符串或明确将新的**QueryDef**对象的**Name**属性设置为非 – 零长度字符串，您将创建自动将永久**QueryDef**追加到**QueryDefs**集合并保存到磁盘。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-128">In a Microsoft Access workspace, if you supply a string for the name argument or if you explicitly set the **Name** property of the new **QueryDef** object to a non–zero-length string, you will create a permanent **QueryDef** that will automatically be appended to the **QueryDefs** collection and saved to disk.</span></span> <span data-ttu-id="fb0e2-129">提供一个零长度字符串作为名称参数或明确将**名称**属性设置为零长度字符串将导致临时**QueryDef**对象。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-129">Supplying a zero-length string as the name argument or explicitly setting the **Name** property to a zero-length string will result in a temporary **QueryDef** object.</span></span>
+<span data-ttu-id="8579c-127">若要创建新的 **QueryDef** 对象，请使用 **CreateQueryDef** 方法。</span><span class="sxs-lookup"><span data-stu-id="8579c-127">To create a new **QueryDef** object, use the **CreateQueryDef** method.</span></span> <span data-ttu-id="8579c-128">在 Microsoft Access 工作区中，如果您提供名称参数的字符串或明确将新的**QueryDef**对象的**Name**属性设置为非 – 零长度字符串，您将创建自动将永久**QueryDef**追加到**QueryDefs**集合并保存到磁盘。</span><span class="sxs-lookup"><span data-stu-id="8579c-128">In a Microsoft Access workspace, if you supply a string for the name argument or if you explicitly set the **Name** property of the new **QueryDef** object to a non–zero-length string, you will create a permanent **QueryDef** that will automatically be appended to the **QueryDefs** collection and saved to disk.</span></span> <span data-ttu-id="8579c-129">提供一个零长度字符串作为名称参数或明确将**名称**属性设置为零长度字符串将导致临时**QueryDef**对象。</span><span class="sxs-lookup"><span data-stu-id="8579c-129">Supplying a zero-length string as the name argument or explicitly setting the **Name** property to a zero-length string will result in a temporary **QueryDef** object.</span></span>
 
-<span data-ttu-id="fb0e2-130">若要按照序号或 **Name** 属性设置来引用集合中的 **QueryDef** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="fb0e2-130">To refer to a **QueryDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="8579c-130">若要按照序号或 **Name** 属性设置来引用集合中的 **QueryDef** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="8579c-130">To refer to a **QueryDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="fb0e2-131">QueryDefs(0)</span><span class="sxs-lookup"><span data-stu-id="fb0e2-131">QueryDefs(0)</span></span>
+<span data-ttu-id="8579c-131">QueryDefs(0)</span><span class="sxs-lookup"><span data-stu-id="8579c-131">QueryDefs(0)</span></span>
 
-<span data-ttu-id="fb0e2-132">QueryDefs("name")</span><span class="sxs-lookup"><span data-stu-id="fb0e2-132">QueryDefs("name")</span></span>
+<span data-ttu-id="8579c-132">QueryDefs("name")</span><span class="sxs-lookup"><span data-stu-id="8579c-132">QueryDefs("name")</span></span>
 
-<span data-ttu-id="fb0e2-133">QueryDefs\! \[名称\]</span><span class="sxs-lookup"><span data-stu-id="fb0e2-133">QueryDefs\!\[ name\]</span></span>
+<span data-ttu-id="8579c-133">QueryDefs\! \[名称\]</span><span class="sxs-lookup"><span data-stu-id="8579c-133">QueryDefs\!\[ name\]</span></span>
 
-<span data-ttu-id="fb0e2-134">只能按分配给临时 **QueryDef** 对象的对象变量来引用这些临时对象。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-134">You can refer to temporary **QueryDef** objects only by the object variables that you have assigned to them.</span></span>
+<span data-ttu-id="8579c-134">只能按分配给临时 **QueryDef** 对象的对象变量来引用这些临时对象。</span><span class="sxs-lookup"><span data-stu-id="8579c-134">You can refer to temporary **QueryDef** objects only by the object variables that you have assigned to them.</span></span>
 
-<span data-ttu-id="fb0e2-135">**链接提供** [UtterAccess](https://www.utteraccess.com)社区。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-135">**Link provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="fb0e2-136">UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-136">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
+<span data-ttu-id="8579c-135">**链接提供** [UtterAccess](https://www.utteraccess.com)社区。</span><span class="sxs-lookup"><span data-stu-id="8579c-135">**Link provided by** the [UtterAccess](https://www.utteraccess.com) community.</span></span> <span data-ttu-id="8579c-136">UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。</span><span class="sxs-lookup"><span data-stu-id="8579c-136">UtterAccess is the premier Microsoft Access wiki and help forum.</span></span>
 
-- [<span data-ttu-id="fb0e2-137">查询： SQL 到 Word 文档</span><span class="sxs-lookup"><span data-stu-id="fb0e2-137">Queries: Document SQL to Word</span></span>](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
+- [<span data-ttu-id="8579c-137">查询： SQL 到 Word 文档</span><span class="sxs-lookup"><span data-stu-id="8579c-137">Queries: Document SQL to Word</span></span>](https://www.utteraccess.com/wiki/index.php/queries:_document_sql_to_word)
 
-## <a name="example"></a><span data-ttu-id="fb0e2-138">示例</span><span class="sxs-lookup"><span data-stu-id="fb0e2-138">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8579c-138">示例</span><span class="sxs-lookup"><span data-stu-id="8579c-138">Example</span></span>
 
-<span data-ttu-id="fb0e2-p109">以下示例创建一个新的 **QueryDef** 对象，并将其追加到 Northwind **Database** 对象的 **QueryDefs** 集合。然后，该示例枚举 **QueryDefs** 集合和新 **QueryDef** 的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p109">This example creates a new **QueryDef** object and appends it to the **QueryDefs** collection of the Northwind **Database** object. It then enumerates the **QueryDefs** collection and the **Properties** collection of the new **QueryDef**.</span></span>
+<span data-ttu-id="8579c-p109">以下示例创建一个新的 **QueryDef** 对象，并将其追加到 Northwind **Database** 对象的 **QueryDefs** 集合。然后，该示例枚举 **QueryDefs** 集合和新 **QueryDef** 的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="8579c-p109">This example creates a new **QueryDef** object and appends it to the **QueryDefs** collection of the Northwind **Database** object. It then enumerates the **QueryDefs** collection and the **Properties** collection of the new **QueryDef**.</span></span>
 
 ```vb
     Sub QueryDefX() 
@@ -112,7 +113,7 @@ ms.locfileid: "25929949"
 
 <br/>
 
-<span data-ttu-id="fb0e2-p110">以下示例使用 **CreateQueryDef** 方法创建并执行临时和永久的 **QueryDef**。若要使该过程运行，需要使用 GetrstTemp 函数。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-p110">This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.</span></span>
+<span data-ttu-id="8579c-p110">以下示例使用 **CreateQueryDef** 方法创建并执行临时和永久的 **QueryDef**。若要使该过程运行，需要使用 GetrstTemp 函数。</span><span class="sxs-lookup"><span data-stu-id="8579c-p110">This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreateQueryDefX() 
@@ -167,9 +168,9 @@ ms.locfileid: "25929949"
 
 <br/>
 
-<span data-ttu-id="fb0e2-143">下面的示例演示如何替换已保存的查询中的结构化查询语言 (SQL) 语句。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-143">The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.</span></span>
+<span data-ttu-id="8579c-143">下面的示例演示如何替换已保存的查询中的结构化查询语言 (SQL) 语句。</span><span class="sxs-lookup"><span data-stu-id="8579c-143">The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.</span></span>
 
-<span data-ttu-id="fb0e2-144">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="fb0e2-144">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="8579c-144">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="8579c-144">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     ‘To change the Where clause in a saved query  

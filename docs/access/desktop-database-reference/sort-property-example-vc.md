@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
 ms:contentKeyID: 48543259
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37b5d08ab9c4e42e0f1c4097c5d905c4e45ff547
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e23cf573d51e52c74f4bbf24801f4bd6f47ea22a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881214"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715359"
 ---
-# <a name="sort-property-example-vc"></a><span data-ttu-id="e840f-102">Sort 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="e840f-102">Sort property example (VC++)</span></span>
+# <a name="sort-property-example-vc"></a><span data-ttu-id="8a120-102">Sort 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="8a120-102">Sort property example (VC++)</span></span>
 
 
-<span data-ttu-id="e840f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e840f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8a120-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="8a120-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e840f-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Sort](sort-property-ado.md)属性重新排列**Recordset**派生自**Pubs**数据库的***Authors***表的行。</span><span class="sxs-lookup"><span data-stu-id="e840f-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="e840f-105">由辅助实用程序例程打印每行。</span><span class="sxs-lookup"><span data-stu-id="e840f-105">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="8a120-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Sort](sort-property-ado.md)属性重新排列**Recordset**派生自**Pubs**数据库的***Authors***表的行。</span><span class="sxs-lookup"><span data-stu-id="8a120-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database.</span></span> <span data-ttu-id="8a120-105">由辅助实用程序例程打印每行。</span><span class="sxs-lookup"><span data-stu-id="8a120-105">A secondary utility routine prints each row.</span></span>
 
 ```cpp 
  
