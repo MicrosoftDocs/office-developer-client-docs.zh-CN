@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836240(v=office.15)
 ms:contentKeyID: 48548468
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8a2d98785fd611a17b2ca8cc390d656e0d7cda70
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+localization_priority: Normal
+ms.openlocfilehash: 97352a9b2dc8b6588052b28e9dc40c29f9b41898
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922277"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725887"
 ---
-# <a name="recordsetproperties-property-dao"></a><span data-ttu-id="71df7-102">Recordset.Properties 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="71df7-102">Recordset.Properties property (DAO)</span></span>
+# <a name="recordsetproperties-property-dao"></a><span data-ttu-id="a5c5c-102">Recordset.Properties 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="a5c5c-102">Recordset.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="71df7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="71df7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a5c5c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5c5c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="71df7-p101">返回指定对象的 **[Properties](properties-collection-dao.md)** 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="71df7-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="a5c5c-p101">返回指定对象的 **[Properties](properties-collection-dao.md)** 集合。只读。</span><span class="sxs-lookup"><span data-stu-id="a5c5c-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="71df7-106">语法</span><span class="sxs-lookup"><span data-stu-id="71df7-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a5c5c-106">语法</span><span class="sxs-lookup"><span data-stu-id="a5c5c-106">Syntax</span></span>
 
-<span data-ttu-id="71df7-107">*表达式*。属性</span><span class="sxs-lookup"><span data-stu-id="71df7-107">*expression* .Properties</span></span>
+<span data-ttu-id="a5c5c-107">*表达式*。属性</span><span class="sxs-lookup"><span data-stu-id="a5c5c-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="71df7-108">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="71df7-108">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="a5c5c-108">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="a5c5c-108">*expression* A variable that represents a **Recordset** object.</span></span>
 

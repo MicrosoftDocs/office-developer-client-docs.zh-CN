@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
 ms:contentKeyID: 48546472
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 051f0ce18cf12ef2d3450dbf9ecc27ebb36134a0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 58bde31a3386e3c129933d02e6464de5bc18fd68
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874235"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726461"
 ---
-# <a name="sortorder-property-example-vb"></a><span data-ttu-id="0e546-102">SortOrder 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="0e546-102">SortOrder property example (VB)</span></span>
+# <a name="sortorder-property-example-vb"></a><span data-ttu-id="e2992-102">SortOrder 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e2992-102">SortOrder property example (VB)</span></span>
 
-<span data-ttu-id="0e546-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="0e546-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e2992-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e2992-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0e546-p101">本示例演示追加到 [Index](sortorder-property-adox.md) 的 [Columns](column-object-adox.md) 集合中的 [Column](columns-collection-adox.md) 的 [SortOrder](index-object-adox.md) 属性。代码为 **Employees** （雇员）表中的 Country（国家）列追加一个升序索引，然后显示记录。接下来，代码为 **Employees** （雇员）表中的 Country（国家）列追加一个降序索引，并再次显示记录。升序索引和降序索引之间的区别即会显示出来。</span><span class="sxs-lookup"><span data-stu-id="0e546-p101">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md). The code appends an ascending index to the Country column in the **Employees** table, then displays the records. Then the code appends a descending index to the Country column in the **Employees** table and displays the records again. The difference between ascending and descending indexes is shown.</span></span>
+<span data-ttu-id="e2992-p101">本示例演示追加到 [Index](sortorder-property-adox.md) 的 [Columns](column-object-adox.md) 集合中的 [Column](columns-collection-adox.md) 的 [SortOrder](index-object-adox.md) 属性。代码为 **Employees** （雇员）表中的 Country（国家）列追加一个升序索引，然后显示记录。接下来，代码为 **Employees** （雇员）表中的 Country（国家）列追加一个降序索引，并再次显示记录。升序索引和降序索引之间的区别即会显示出来。</span><span class="sxs-lookup"><span data-stu-id="e2992-p101">This example demonstrates the [SortOrder](sortorder-property-adox.md) property of a [Column](column-object-adox.md) that has been appended to the [Columns](columns-collection-adox.md) collection of an [Index](index-object-adox.md). The code appends an ascending index to the Country column in the **Employees** table, then displays the records. Then the code appends a descending index to the Country column in the **Employees** table and displays the records again. The difference between ascending and descending indexes is shown.</span></span>
 
 
 ```vb 

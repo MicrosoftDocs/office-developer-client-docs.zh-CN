@@ -1,9 +1,10 @@
 ---
 redirect_url: welcome-to-the-outlook-primary-interop-assembly-reference
-ms.openlocfilehash: b48da4bedf07eeeb9a2065cbac440a7577a1a1c7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: d5b7ae3c2dea46b9a0160ce84b4447090dce5240
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405726"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712496"
 ---

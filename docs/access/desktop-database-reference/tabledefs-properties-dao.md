@@ -6,16 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142529(v=office.15)
 ms:contentKeyID: 52073767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 12b3383da1afd91a7debef6d4101654edc3eabc8
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: ed9d244fb79d1a3fc485f6675a10e7b680a2cc9f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945648"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726174"
 ---
-# <a name="tabledefs-properties-dao"></a><span data-ttu-id="613db-102">TableDefs 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="613db-102">TableDefs properties (DAO)</span></span>
+# <a name="tabledefs-properties-dao"></a><span data-ttu-id="10303-102">TableDefs 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="10303-102">TableDefs properties (DAO)</span></span>
 
-<span data-ttu-id="613db-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="613db-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="10303-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="10303-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="613db-104">TableDefs.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="613db-104">TableDefs.Count property (DAO)</span></span>](tabledefs-count-property-dao.md)
+- [<span data-ttu-id="10303-104">TableDefs.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="10303-104">TableDefs.Count property (DAO)</span></span>](tabledefs-count-property-dao.md)
 
