@@ -6,25 +6,26 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249326(v=office.15)
 ms:contentKeyID: 48545089
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a3aebecd1b93539a8e1cd8e37d7b9f0d81fdc6f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1419abb5dc66a59594284cf319487ef980bf62f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930635"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712881"
 ---
-# <a name="indexnulls-property-adox"></a><span data-ttu-id="11bcc-102">IndexNulls 属性 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="11bcc-102">IndexNulls property (ADOX)</span></span>
+# <a name="indexnulls-property-adox"></a><span data-ttu-id="f6992-102">IndexNulls 属性 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f6992-102">IndexNulls property (ADOX)</span></span>
 
 
-<span data-ttu-id="11bcc-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="11bcc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f6992-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6992-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="11bcc-104">指示索引字段具有 null 值的记录是否有索引项。</span><span class="sxs-lookup"><span data-stu-id="11bcc-104">Indicates whether records that have null values in their index fields have index entries.</span></span>
+<span data-ttu-id="f6992-104">指示索引字段具有 null 值的记录是否有索引项。</span><span class="sxs-lookup"><span data-stu-id="f6992-104">Indicates whether records that have null values in their index fields have index entries.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="11bcc-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="11bcc-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="f6992-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="f6992-105">Settings and return values</span></span>
 
-<span data-ttu-id="11bcc-p101">设置和返回一个 [AllowNullsEnum](allownullsenum.md) 值。默认值为 **adIndexNullsDisallow** 。</span><span class="sxs-lookup"><span data-stu-id="11bcc-p101">Sets and returns an [AllowNullsEnum](allownullsenum.md) value. The default value is **adIndexNullsDisallow**.</span></span>
+<span data-ttu-id="f6992-p101">设置和返回一个 [AllowNullsEnum](allownullsenum.md) 值。默认值为 **adIndexNullsDisallow** 。</span><span class="sxs-lookup"><span data-stu-id="f6992-p101">Sets and returns an [AllowNullsEnum](allownullsenum.md) value. The default value is **adIndexNullsDisallow**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="11bcc-108">备注</span><span class="sxs-lookup"><span data-stu-id="11bcc-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f6992-108">备注</span><span class="sxs-lookup"><span data-stu-id="f6992-108">Remarks</span></span>
 
-<span data-ttu-id="11bcc-109">对于已追加到集合中的 [Index](index-object-adox.md) 对象，此属性为只读。</span><span class="sxs-lookup"><span data-stu-id="11bcc-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="f6992-109">对于已追加到集合中的 [Index](index-object-adox.md) 对象，此属性为只读。</span><span class="sxs-lookup"><span data-stu-id="f6992-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 

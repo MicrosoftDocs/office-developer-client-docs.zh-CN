@@ -6,42 +6,43 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c03310159915fd7bbb0804582d8f3967d40fb9b2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 603dfaa9a54ddfe769b96a57b790b4657abbeb14
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937650"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720084"
 ---
-# <a name="field2expression-property-dao"></a><span data-ttu-id="95f67-102">Field2.Expression 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="95f67-102">Field2.Expression property (DAO)</span></span>
+# <a name="field2expression-property-dao"></a><span data-ttu-id="af6f7-102">Field2.Expression 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="af6f7-102">Field2.Expression property (DAO)</span></span>
 
-<span data-ttu-id="95f67-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="95f67-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="af6f7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="af6f7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="95f67-104">获取或设置代表计算字段的公式的表达式。</span><span class="sxs-lookup"><span data-stu-id="95f67-104">Gets or sets an expression that represents the formula for a calculated field.</span></span> <span data-ttu-id="95f67-105">可读写 **String**。</span><span class="sxs-lookup"><span data-stu-id="95f67-105">Read/write **String**.</span></span>
+<span data-ttu-id="af6f7-104">获取或设置代表计算字段的公式的表达式。</span><span class="sxs-lookup"><span data-stu-id="af6f7-104">Gets or sets an expression that represents the formula for a calculated field.</span></span> <span data-ttu-id="af6f7-105">读/写 **String**。</span><span class="sxs-lookup"><span data-stu-id="af6f7-105">Read/write **String**.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="95f67-106">版本信息</span><span class="sxs-lookup"><span data-stu-id="95f67-106">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="af6f7-106">版本信息</span><span class="sxs-lookup"><span data-stu-id="af6f7-106">Version information</span></span>
 
-<span data-ttu-id="95f67-107">添加的版本： Access 2010</span><span class="sxs-lookup"><span data-stu-id="95f67-107">Version added: Access 2010</span></span>
+<span data-ttu-id="af6f7-107">添加的版本： Access 2010</span><span class="sxs-lookup"><span data-stu-id="af6f7-107">Version added: Access 2010</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="95f67-108">语法</span><span class="sxs-lookup"><span data-stu-id="95f67-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="af6f7-108">语法</span><span class="sxs-lookup"><span data-stu-id="af6f7-108">Syntax</span></span>
 
-<span data-ttu-id="95f67-109">*表达式*。表达式</span><span class="sxs-lookup"><span data-stu-id="95f67-109">*expression* .Expression</span></span>
+<span data-ttu-id="af6f7-109">*表达式*。表达式</span><span class="sxs-lookup"><span data-stu-id="af6f7-109">*expression* .Expression</span></span>
 
-<span data-ttu-id="95f67-110">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="95f67-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="af6f7-110">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="af6f7-110">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="95f67-111">说明</span><span class="sxs-lookup"><span data-stu-id="95f67-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="af6f7-111">备注</span><span class="sxs-lookup"><span data-stu-id="af6f7-111">Remarks</span></span>
 
-<span data-ttu-id="95f67-112">您可以在 Access 2013 中创建计算值的表字段。</span><span class="sxs-lookup"><span data-stu-id="95f67-112">In Access 2013, you can create table fields that calculate values.</span></span> <span data-ttu-id="95f67-113">计算可以包括在同一个表以及内置访问函数从字段的值。</span><span class="sxs-lookup"><span data-stu-id="95f67-113">The calculations can include values from fields in the same table as well as built-in Access functions.</span></span>
+<span data-ttu-id="af6f7-112">您可以在 Access 2013 中创建计算值的表字段。</span><span class="sxs-lookup"><span data-stu-id="af6f7-112">In Access 2013, you can create table fields that calculate values.</span></span> <span data-ttu-id="af6f7-113">计算可以包括在同一个表以及内置访问函数从字段的值。</span><span class="sxs-lookup"><span data-stu-id="af6f7-113">The calculations can include values from fields in the same table as well as built-in Access functions.</span></span>
 
-<span data-ttu-id="95f67-114">计算不能包含其他表或查询中的字段。</span><span class="sxs-lookup"><span data-stu-id="95f67-114">The calculation cannot include fields from other tables or queries.</span></span>
+<span data-ttu-id="af6f7-114">计算不能包含其他表或查询中的字段。</span><span class="sxs-lookup"><span data-stu-id="af6f7-114">The calculation cannot include fields from other tables or queries.</span></span>
 
-<span data-ttu-id="95f67-115">计算的结果是只读的。</span><span class="sxs-lookup"><span data-stu-id="95f67-115">The results of the calculation are read-only.</span></span>
+<span data-ttu-id="af6f7-115">计算的结果是只读的。</span><span class="sxs-lookup"><span data-stu-id="af6f7-115">The results of the calculation are read-only.</span></span>
 
-## <a name="example"></a><span data-ttu-id="95f67-116">示例</span><span class="sxs-lookup"><span data-stu-id="95f67-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="af6f7-116">示例</span><span class="sxs-lookup"><span data-stu-id="af6f7-116">Example</span></span>
 
-<span data-ttu-id="95f67-117">下面的示例演示如何创建计算的字段。</span><span class="sxs-lookup"><span data-stu-id="95f67-117">The following example shows how to create a calculated field.</span></span> <span data-ttu-id="95f67-118">CreateField 方法创建一个名为**FullName**字段。</span><span class="sxs-lookup"><span data-stu-id="95f67-118">The CreateField method creates a field named **FullName**.</span></span> <span data-ttu-id="95f67-119">然后表达式属性设置为计算字段的值的表达式。</span><span class="sxs-lookup"><span data-stu-id="95f67-119">The Expression property is then set to the expression that calculates the value of the field.</span></span>
+<span data-ttu-id="af6f7-117">下面的示例演示如何创建计算的字段。</span><span class="sxs-lookup"><span data-stu-id="af6f7-117">The following example shows how to create a calculated field.</span></span> <span data-ttu-id="af6f7-118">CreateField 方法创建一个名为**FullName**字段。</span><span class="sxs-lookup"><span data-stu-id="af6f7-118">The CreateField method creates a field named **FullName**.</span></span> <span data-ttu-id="af6f7-119">然后表达式属性设置为计算字段的值的表达式。</span><span class="sxs-lookup"><span data-stu-id="af6f7-119">The Expression property is then set to the expression that calculates the value of the field.</span></span>
 
-<span data-ttu-id="95f67-120">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="95f67-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="af6f7-120">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="af6f7-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub CreateCalculatedField()

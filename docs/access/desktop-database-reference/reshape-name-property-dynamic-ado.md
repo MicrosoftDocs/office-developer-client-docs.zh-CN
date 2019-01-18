@@ -6,33 +6,34 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
 ms:contentKeyID: 48545030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5d8436979703a00f63c93e5d8cd426d190fecfc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b606960238e2f9a08d034ed92a79f7a767a1a5f7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926162"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714974"
 ---
-# <a name="reshape-name-dynamic-property-ado"></a><span data-ttu-id="7f6f4-102">Reshape Name 动态属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="7f6f4-102">Reshape Name dynamic property (ADO)</span></span>
+# <a name="reshape-name-dynamic-property-ado"></a><span data-ttu-id="239ae-102">Reshape Name 动态属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="239ae-102">Reshape Name dynamic property (ADO)</span></span>
 
 
-<span data-ttu-id="7f6f4-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f6f4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="239ae-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="239ae-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7f6f4-104">指定 [Recordset](recordset-object-ado.md) 对象的名称。</span><span class="sxs-lookup"><span data-stu-id="7f6f4-104">Specifies a name for the [Recordset](recordset-object-ado.md) object.</span></span>
+<span data-ttu-id="239ae-104">指定 [Recordset](recordset-object-ado.md) 对象的名称。</span><span class="sxs-lookup"><span data-stu-id="239ae-104">Specifies a name for the [Recordset](recordset-object-ado.md) object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="7f6f4-105">返回值</span><span class="sxs-lookup"><span data-stu-id="7f6f4-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="239ae-105">返回值</span><span class="sxs-lookup"><span data-stu-id="239ae-105">Return values</span></span>
 
-<span data-ttu-id="7f6f4-106">返回一个表示 **Recordset** 的名称的 **String** 值。</span><span class="sxs-lookup"><span data-stu-id="7f6f4-106">Returns a **String** value that is the name of the **Recordset**.</span></span>
+<span data-ttu-id="239ae-106">返回一个表示 **Recordset** 的名称的 **String** 值。</span><span class="sxs-lookup"><span data-stu-id="239ae-106">Returns a **String** value that is the name of the **Recordset**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7f6f4-107">备注</span><span class="sxs-lookup"><span data-stu-id="7f6f4-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="239ae-107">备注</span><span class="sxs-lookup"><span data-stu-id="239ae-107">Remarks</span></span>
 
-<span data-ttu-id="7f6f4-108">名称会在连接持续期间保持，或一直保持到 **Recordset** 关闭为止。</span><span class="sxs-lookup"><span data-stu-id="7f6f4-108">Names persist for the duration of the connection or until the **Recordset** is closed.</span></span>
+<span data-ttu-id="239ae-108">名称会在连接持续期间保持，或一直保持到 **Recordset** 关闭为止。</span><span class="sxs-lookup"><span data-stu-id="239ae-108">Names persist for the duration of the connection or until the **Recordset** is closed.</span></span>
 
-<span data-ttu-id="7f6f4-p101">**Reshape Name** 属性主要与 [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) 服务提供程序的重构功能一起使用。为了参与重构，名称必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="7f6f4-p101">The **Reshape Name** property is primarily intended for use with the re-shaping feature of the [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) service provider. Names must be unique in order to participate in re-shaping.</span></span>
+<span data-ttu-id="239ae-p101">**Reshape Name** 属性主要与 [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) 服务提供程序的重构功能一起使用。为了参与重构，名称必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="239ae-p101">The **Reshape Name** property is primarily intended for use with the re-shaping feature of the [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) service provider. Names must be unique in order to participate in re-shaping.</span></span>
 
-<span data-ttu-id="7f6f4-p102">此属性是只读属性，但可以在创建 Recordset 时间接设置。例如，如果 SHAPE 命令的子句创建了一个 Recordset 并使用"AS"关键字给了它一个别名，则这个别名将分配给 Reshape Name 属性。如果没有声明别名，则会给 Reshape Name 属性分配一个由 Data Shaping 服务生成的唯一名称。如果该别名与现有的 **Recordset** 的名称相同，除非其中一个被释放，否则这两个 **Recordset** 都不会进行重构。通过将 ADO 连接上的"Unique Reshape Names"（请参阅"Microsoft Data shaping service for OLE DB"）属性设置为 TRUE，可以更改默认行为。这样就赋予了 Data Shaping 服务在必要的情况下更改用户分配的名称的权限，从而确保唯一性。</span><span class="sxs-lookup"><span data-stu-id="7f6f4-p102">This property is read-only, but can be set indirectly when a Recordset is created. For example, if a clause of a SHAPE command creates a Recordset and gives it an alias name with the "AS" keyword, then the alias is assigned to the Reshape Name property. If no alias is declared then the reshape name property is assigned a unique name generated by the data shaping service. If the alias name is the same as the name of an existing **Recordset**, neither **Recordset** be reshaped until one of them is released. The default behavior can be changed by setting the "Unique Reshape Names" (See "Microsoft Data shaping service for OLE DB") property on the ADO connection to TRUE. This give the data shaping service permission to change user assigend names if necessary to insure uniqueness.</span></span>
+<span data-ttu-id="239ae-p102">此属性是只读属性，但可以在创建 Recordset 时间接设置。例如，如果 SHAPE 命令的子句创建了一个 Recordset 并使用"AS"关键字给了它一个别名，则这个别名将分配给 Reshape Name 属性。如果没有声明别名，则会给 Reshape Name 属性分配一个由 Data Shaping 服务生成的唯一名称。如果该别名与现有的 **Recordset** 的名称相同，除非其中一个被释放，否则这两个 **Recordset** 都不会进行重构。通过将 ADO 连接上的"Unique Reshape Names"（请参阅"Microsoft Data shaping service for OLE DB"）属性设置为 TRUE，可以更改默认行为。这样就赋予了 Data Shaping 服务在必要的情况下更改用户分配的名称的权限，从而确保唯一性。</span><span class="sxs-lookup"><span data-stu-id="239ae-p102">This property is read-only, but can be set indirectly when a Recordset is created. For example, if a clause of a SHAPE command creates a Recordset and gives it an alias name with the "AS" keyword, then the alias is assigned to the Reshape Name property. If no alias is declared then the reshape name property is assigned a unique name generated by the data shaping service. If the alias name is the same as the name of an existing **Recordset**, neither **Recordset** be reshaped until one of them is released. The default behavior can be changed by setting the "Unique Reshape Names" (See "Microsoft Data shaping service for OLE DB") property on the ADO connection to TRUE. This give the data shaping service permission to change user assigend names if necessary to insure uniqueness.</span></span>
 
-<span data-ttu-id="7f6f4-p103">当希望引用 SHAPE 命令中的 **Recordset** 时或由于其名称是由 Data Shaping 服务生成的而不知道该名称时，请使用 **Reshape Name** 属性。在这种情况下，可以将该命令与 **Reshape Name** 属性返回的字符串进行连接，从而生成 SHAPE 命令。</span><span class="sxs-lookup"><span data-stu-id="7f6f4-p103">Use the **Reshape Name** property when you want to refer to a **Recordset** in a SHAPE command, or when you don't know its name because it was generated by Data Shaping Service. In that case, you could generate a SHAPE command by concatenating the command around the string returned by the **Reshape Name** property.</span></span>
+<span data-ttu-id="239ae-p103">当希望引用 SHAPE 命令中的 **Recordset** 时或由于其名称是由 Data Shaping 服务生成的而不知道该名称时，请使用 **Reshape Name** 属性。在这种情况下，可以将该命令与 **Reshape Name** 属性返回的字符串进行连接，从而生成 SHAPE 命令。</span><span class="sxs-lookup"><span data-stu-id="239ae-p103">Use the **Reshape Name** property when you want to refer to a **Recordset** in a SHAPE command, or when you don't know its name because it was generated by Data Shaping Service. In that case, you could generate a SHAPE command by concatenating the command around the string returned by the **Reshape Name** property.</span></span>
 
-<span data-ttu-id="7f6f4-119">**Reshape Name** 是一个动态属性，会在 **CursorLocation** 属性设置为 [adUseClient](properties-collection-ado.md) 时追加到 [Recordset](cursorlocation-property-ado.md) 对象的 **Properties** 集合中。</span><span class="sxs-lookup"><span data-stu-id="7f6f4-119">**Reshape Name** is a dynamic property appended to the **Recordset** object's [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
+<span data-ttu-id="239ae-119">**Reshape Name** 是一个动态属性，会在 **CursorLocation** 属性设置为 [adUseClient](properties-collection-ado.md) 时追加到 [Recordset](cursorlocation-property-ado.md) 对象的 **Properties** 集合中。</span><span class="sxs-lookup"><span data-stu-id="239ae-119">**Reshape Name** is a dynamic property appended to the **Recordset** object's [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
 

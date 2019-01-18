@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248911(v=office.15)
 ms:contentKeyID: 48543377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 072abea009dfa2cd3d4f43a1da448fec60aa33b8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44e961d7b3f4b12d8801429ecb78a1a186f5547a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885827"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714455"
 ---
-# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="2e7ed-102">Read、ReadText、Write 和 WriteText 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="2e7ed-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
+# <a name="read-readtext-write-and-writetext-methods-example-vb"></a><span data-ttu-id="bc7b6-102">Read、ReadText、Write 和 WriteText 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="bc7b6-102">Read, ReadText, Write, and WriteText methods example (VB)</span></span>
 
 
-<span data-ttu-id="2e7ed-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e7ed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bc7b6-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc7b6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2e7ed-p101">以下示例演示了如何将文本框的内容读入文本 [Stream](stream-object-ado.md) 和二进制 **Stream** 中。此外还显示了其他属性和方法，包括 [Position](position-property-ado.md)、[Size](size-property-ado.md)、[Charset](charset-property-ado.md) 和 [SetEOS](seteos-method-ado.md)。</span><span class="sxs-lookup"><span data-stu-id="2e7ed-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
+<span data-ttu-id="bc7b6-p101">以下示例演示了如何将文本框的内容读入文本 [Stream](stream-object-ado.md) 和二进制 **Stream** 中。此外还显示了其他属性和方法，包括 [Position](position-property-ado.md)、[Size](size-property-ado.md)、[Charset](charset-property-ado.md) 和 [SetEOS](seteos-method-ado.md)。</span><span class="sxs-lookup"><span data-stu-id="bc7b6-p101">This example demonstrates how to read the contents of a text box into both a text [Stream](stream-object-ado.md) and a binary **Stream**. Other properties and methods shown include [Position](position-property-ado.md), [Size](size-property-ado.md), [Charset](charset-property-ado.md), and [SetEOS](seteos-method-ado.md).</span></span>
 
 ```vb 
  

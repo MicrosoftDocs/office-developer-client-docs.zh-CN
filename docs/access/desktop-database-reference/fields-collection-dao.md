@@ -6,37 +6,38 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193530(v=office.15)
 ms:contentKeyID: 48544702
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79515c413918bca1b83d18abec41c78f3fd52447
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: d87d1535afeaf0740627a7af3852b1929a0e6d50
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921236"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713280"
 ---
-# <a name="fields-collection-dao"></a><span data-ttu-id="61e7b-102">Fields 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="61e7b-102">Fields collection (DAO)</span></span>
+# <a name="fields-collection-dao"></a><span data-ttu-id="a5c2c-102">Fields 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="a5c2c-102">Fields collection (DAO)</span></span>
 
 
-<span data-ttu-id="61e7b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="61e7b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a5c2c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5c2c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61e7b-104">**Fields** 集合包含 **Index**、 **QueryDef**、 **Recordset**、 **Relation** 或 **TableDef** 对象的所有存储的 **Field** 对象。</span><span class="sxs-lookup"><span data-stu-id="61e7b-104">A **Fields** collection contains all stored **Field** objects of an **Index**, **QueryDef**, **Recordset**, **Relation**, or **TableDef** object.</span></span>
+<span data-ttu-id="a5c2c-104">**Fields** 集合包含 **Index**、 **QueryDef**、 **Recordset**、 **Relation** 或 **TableDef** 对象的所有存储的 **Field** 对象。</span><span class="sxs-lookup"><span data-stu-id="a5c2c-104">A **Fields** collection contains all stored **Field** objects of an **Index**, **QueryDef**, **Recordset**, **Relation**, or **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="61e7b-105">注解</span><span class="sxs-lookup"><span data-stu-id="61e7b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a5c2c-105">注解</span><span class="sxs-lookup"><span data-stu-id="a5c2c-105">Remarks</span></span>
 
-<span data-ttu-id="61e7b-p101">**Index**、 **QueryDef**、 **Relation** 和 **TableDef** 对象的 **Fields** 集合包含这些对象代表的字段的规范。 **Recordset** 对象的 **Fields** 集合代表数据行中或记录中的 **Field** 对象。可使用 **Recordset** 对象中的 **Field** 对象读取和设置 **Recordset** 对象的当前记录中的字段的值。</span><span class="sxs-lookup"><span data-stu-id="61e7b-p101">The **Fields** collections of the **Index**, **QueryDef**, **Relation**, and **TableDef** objects contain the specifications for the fields those objects represent. The **Fields** collection of a **Recordset** object represents the **Field** objects in a row of data, or in a record. You use the **Field** objects in a **Recordset** object to read and to set values for the fields in the current record of the **Recordset** object.</span></span>
+<span data-ttu-id="a5c2c-p101">**Index**、 **QueryDef**、 **Relation** 和 **TableDef** 对象的 **Fields** 集合包含这些对象代表的字段的规范。 **Recordset** 对象的 **Fields** 集合代表数据行中或记录中的 **Field** 对象。可使用 **Recordset** 对象中的 **Field** 对象读取和设置 **Recordset** 对象的当前记录中的字段的值。</span><span class="sxs-lookup"><span data-stu-id="a5c2c-p101">The **Fields** collections of the **Index**, **QueryDef**, **Relation**, and **TableDef** objects contain the specifications for the fields those objects represent. The **Fields** collection of a **Recordset** object represents the **Field** objects in a row of data, or in a record. You use the **Field** objects in a **Recordset** object to read and to set values for the fields in the current record of the **Recordset** object.</span></span>
 
-<span data-ttu-id="61e7b-109">若要按照序号或 **Name** 属性设置来引用集合中的 **Field** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="61e7b-109">To refer to a **Field** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="a5c2c-109">若要按照序号或 **Name** 属性设置来引用集合中的 **Field** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="a5c2c-109">To refer to a **Field** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="61e7b-110">**Fields**(0)</span><span class="sxs-lookup"><span data-stu-id="61e7b-110">**Fields**(0)</span></span>
+<span data-ttu-id="a5c2c-110">**Fields**(0)</span><span class="sxs-lookup"><span data-stu-id="a5c2c-110">**Fields**(0)</span></span>
 
-<span data-ttu-id="61e7b-111">**字段**("name")</span><span class="sxs-lookup"><span data-stu-id="61e7b-111">**Fields**("name")</span></span>
+<span data-ttu-id="a5c2c-111">**字段**("name")</span><span class="sxs-lookup"><span data-stu-id="a5c2c-111">**Fields**("name")</span></span>
 
-<span data-ttu-id="61e7b-112">**字段**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="61e7b-112">**Fields**\!\[name\]</span></span>
+<span data-ttu-id="a5c2c-112">**字段**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="a5c2c-112">**Fields**\!\[name\]</span></span>
 
-<span data-ttu-id="61e7b-p102">还可以使用相同的语法形式，引用创建并追加到 **Fields** 集合中的 **Field** 对象的 **Value** 属性。字段引用的上下文将确定引用的是 **Field** 对象还是 **Field** 对象的 **Value** 属性。</span><span class="sxs-lookup"><span data-stu-id="61e7b-p102">With the same syntax forms, you can also refer to the **Value** property of a **Field** object that you create and append to a **Fields** collection. The context of the field reference will determine whether you are referring to the **Field** object or the **Value** property of the **Field** object.</span></span>
+<span data-ttu-id="a5c2c-p102">还可以使用相同的语法形式，引用创建并追加到 **Fields** 集合中的 **Field** 对象的 **Value** 属性。字段引用的上下文将确定引用的是 **Field** 对象还是 **Field** 对象的 **Value** 属性。</span><span class="sxs-lookup"><span data-stu-id="a5c2c-p102">With the same syntax forms, you can also refer to the **Value** property of a **Field** object that you create and append to a **Fields** collection. The context of the field reference will determine whether you are referring to the **Field** object or the **Value** property of the **Field** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="61e7b-115">示例</span><span class="sxs-lookup"><span data-stu-id="61e7b-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a5c2c-115">示例</span><span class="sxs-lookup"><span data-stu-id="a5c2c-115">Example</span></span>
 
-<span data-ttu-id="61e7b-p103">以下示例演示根据 **Field** 驻留的位置（例如 **TableDef** 的 **Fields** 集合、 **QueryDef** 的 **Fields** 集合，等等），有哪些属性对 **Field** 对象有效。若要使该过程运行，需要使用 FieldOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="61e7b-p103">This example shows what properties are valid for a **Field** object depending on where the **Field** resides (for example, the **Fields** collection of a **TableDef**, the **Fields** collection of a **QueryDef**, and so forth). The FieldOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="a5c2c-p103">以下示例演示根据 **Field** 驻留的位置（例如 **TableDef** 的 **Fields** 集合、 **QueryDef** 的 **Fields** 集合，等等），有哪些属性对 **Field** 对象有效。若要使该过程运行，需要使用 FieldOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="a5c2c-p103">This example shows what properties are valid for a **Field** object depending on where the **Field** resides (for example, the **Fields** collection of a **TableDef**, the **Fields** collection of a **QueryDef**, and so forth). The FieldOutput procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub FieldX() 
@@ -102,7 +103,7 @@ ms.locfileid: "25921236"
 
 <br/>
 
-<span data-ttu-id="61e7b-p104">以下示例使用 **CreateField** 方法为新的 **TableDef** 创建三个 **Fields**。然后显示这些 **Field** 对象的、由 **CreateField** 方法自动设置的属性。（不显示创建 **Field** 时值为空的属性。）</span><span class="sxs-lookup"><span data-stu-id="61e7b-p104">This example uses the **CreateField** method to create three **Fields** for a new **TableDef**. It then displays the properties of those **Field** objects that are automatically set by the **CreateField** method. (Properties whose values are empty at the time of **Field** creation are not shown.)</span></span>
+<span data-ttu-id="a5c2c-p104">以下示例使用 **CreateField** 方法为新的 **TableDef** 创建三个 **Fields**。然后显示这些 **Field** 对象的、由 **CreateField** 方法自动设置的属性。（不显示创建 **Field** 时值为空的属性。）</span><span class="sxs-lookup"><span data-stu-id="a5c2c-p104">This example uses the **CreateField** method to create three **Fields** for a new **TableDef**. It then displays the properties of those **Field** objects that are automatically set by the **CreateField** method. (Properties whose values are empty at the time of **Field** creation are not shown.)</span></span>
 
 ```vb
     Sub CreateFieldX() 

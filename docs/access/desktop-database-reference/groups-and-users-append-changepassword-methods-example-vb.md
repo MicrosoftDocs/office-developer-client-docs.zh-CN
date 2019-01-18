@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250183(v=office.15)
 ms:contentKeyID: 48548445
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d3213fd05d8556755adfc52d7a09a91d7f9ed597
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a1801dafe83ed2fc0752ef189c41e70318ef690f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882000"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718278"
 ---
-# <a name="groups-and-users-append-changepassword-methods-example-vb"></a><span data-ttu-id="dcf05-102">Groups 和 Users 的 Append、ChangePassword 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="dcf05-102">Groups and Users Append, ChangePassword methods example (VB)</span></span>
+# <a name="groups-and-users-append-changepassword-methods-example-vb"></a><span data-ttu-id="ee3e5-102">Groups 和 Users 的 Append、ChangePassword 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="ee3e5-102">Groups and Users Append, ChangePassword methods example (VB)</span></span>
 
 
-<span data-ttu-id="dcf05-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="dcf05-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ee3e5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ee3e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dcf05-p101">本示例演示 [Groups](append-method-adox-groups.md) 的 [Append](groups-collection-adox.md) 方法，以及 [Users](append-method-adox-users.md) 的 [Append](users-collection-adox.md) 方法，演示方法为将一个新的 [Group](group-object-adox.md) 和一个新的 [User](user-object-adox.md) 添加到系统。接下来将新的 **Group** 追加到新 **User** 的 **Groups** 集合。最终结果是，将新 **User** 添加到该 **Group** 中。此外， [ChangePassword](changepassword-method-adox.md) 方法用于指定 **User** 密码。</span><span class="sxs-lookup"><span data-stu-id="dcf05-p101">This example demonstrates the [Append](append-method-adox-groups.md) method of [Groups](groups-collection-adox.md), as well as the [Append](append-method-adox-users.md) method of [Users](users-collection-adox.md) by adding a new [Group](group-object-adox.md) and a new [User](user-object-adox.md) to the system. The new **Group** is appended to the **Groups** collection of the new **User**. Consequently, the new **User** is added to the **Group**. Also, the [ChangePassword](changepassword-method-adox.md) method is used to specify the **User** password.</span></span>
+<span data-ttu-id="ee3e5-p101">本示例演示 [Groups](append-method-adox-groups.md) 的 [Append](groups-collection-adox.md) 方法，以及 [Users](append-method-adox-users.md) 的 [Append](users-collection-adox.md) 方法，演示方法为将一个新的 [Group](group-object-adox.md) 和一个新的 [User](user-object-adox.md) 添加到系统。接下来将新的 **Group** 追加到新 **User** 的 **Groups** 集合。最终结果是，将新 **User** 添加到该 **Group** 中。此外， [ChangePassword](changepassword-method-adox.md) 方法用于指定 **User** 密码。</span><span class="sxs-lookup"><span data-stu-id="ee3e5-p101">This example demonstrates the [Append](append-method-adox-groups.md) method of [Groups](groups-collection-adox.md), as well as the [Append](append-method-adox-users.md) method of [Users](users-collection-adox.md) by adding a new [Group](group-object-adox.md) and a new [User](user-object-adox.md) to the system. The new **Group** is appended to the **Groups** collection of the new **User**. Consequently, the new **User** is added to the **Group**. Also, the [ChangePassword](changepassword-method-adox.md) method is used to specify the **User** password.</span></span>
 
 ```vb 
  

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249287(v=office.15)
 ms:contentKeyID: 48544934
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d39a46edd737317fa4478c546b6e895a0b6d8683
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 254fdceab4d54334014cbb9e785731bcc93b523f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877230"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714813"
 ---
-# <a name="cachesize-property-example-vb"></a><span data-ttu-id="6c8c4-102">CacheSize 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="6c8c4-102">CacheSize property example (VB)</span></span>
+# <a name="cachesize-property-example-vb"></a><span data-ttu-id="e8d03-102">CacheSize 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="e8d03-102">CacheSize property example (VB)</span></span>
 
 
-<span data-ttu-id="6c8c4-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6c8c4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e8d03-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e8d03-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6c8c4-104">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。</span><span class="sxs-lookup"><span data-stu-id="6c8c4-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="e8d03-104">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。</span><span class="sxs-lookup"><span data-stu-id="e8d03-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```vb 
  

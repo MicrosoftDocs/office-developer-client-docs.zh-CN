@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249350(v=office.15)
 ms:contentKeyID: 48545176
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98fe1602be906c35f46db30c7d2a19723f981e1f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c77b2d1900ae4c2f25139939b3020dfb32e9ea67
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879842"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711810"
 ---
-# <a name="delete-method-example-vc"></a><span data-ttu-id="36832-102">Delete 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="36832-102">Delete method example (VC++)</span></span>
+# <a name="delete-method-example-vc"></a><span data-ttu-id="6735f-102">Delete 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="6735f-102">Delete method example (VC++)</span></span>
 
 
-<span data-ttu-id="36832-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="36832-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6735f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6735f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="36832-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="36832-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="6735f-104">本示例使用 [Delete](delete-method-ado-recordset.md) 方法从 [Recordset](recordset-object-ado.md) 中删除指定的记录。</span><span class="sxs-lookup"><span data-stu-id="6735f-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```cpp 
  
@@ -293,7 +294,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="36832-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="36832-105">**DeleteX.h**</span></span>
+<span data-ttu-id="6735f-105">**DeleteX.h**</span><span class="sxs-lookup"><span data-stu-id="6735f-105">**DeleteX.h**</span></span>
 
 ```cpp 
  

@@ -10,31 +10,32 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d04c98da0ecef1c2323930c74588b7a6a07c2e29
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 119e824cae71d54bb398aa68f476a667f14a6888
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026265"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699154"
 ---
-# <a name="addmenu-macro-action"></a><span data-ttu-id="a77a7-102">AddMenu 宏操作</span><span class="sxs-lookup"><span data-stu-id="a77a7-102">AddMenu macro action</span></span>
+# <a name="addmenu-macro-action"></a><span data-ttu-id="bacfb-102">AddMenu 宏操作</span><span class="sxs-lookup"><span data-stu-id="bacfb-102">AddMenu macro action</span></span>
 
 
-<span data-ttu-id="a77a7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a77a7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bacfb-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="bacfb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a77a7-104">本文介绍 **AddMenu** 宏操作的基本操作。</span><span class="sxs-lookup"><span data-stu-id="a77a7-104">This article describes the basic operation of the **AddMenu** macro action.</span></span>
+<span data-ttu-id="bacfb-104">本文介绍 **AddMenu** 宏操作的基本操作。</span><span class="sxs-lookup"><span data-stu-id="bacfb-104">This article describes the basic operation of the **AddMenu** macro action.</span></span>
 
-<span data-ttu-id="a77a7-105">可以使用 **AddMenu** 操作创建：</span><span class="sxs-lookup"><span data-stu-id="a77a7-105">You can use the **AddMenu** action to create:</span></span>
+<span data-ttu-id="bacfb-105">可以使用 **AddMenu** 操作创建：</span><span class="sxs-lookup"><span data-stu-id="bacfb-105">You can use the **AddMenu** action to create:</span></span>
 
-- <span data-ttu-id="a77a7-106">特定窗体或报表的 **"加载项"** 选项卡上的自定义菜单。</span><span class="sxs-lookup"><span data-stu-id="a77a7-106">Custom menus on the **Add-Ins** tab for a particular form or report.</span></span>
+- <span data-ttu-id="bacfb-106">特定窗体或报表的 **"加载项"** 选项卡上的自定义菜单。</span><span class="sxs-lookup"><span data-stu-id="bacfb-106">Custom menus on the **Add-Ins** tab for a particular form or report.</span></span>
 
-- <span data-ttu-id="a77a7-p101">窗体、报表或控件的自定义快捷菜单。自定义快捷菜单会替换窗体、报表或控件的内置快捷菜单。</span><span class="sxs-lookup"><span data-stu-id="a77a7-p101">A custom shortcut menu for a form, report, or control. The custom shortcut menu replaces the built-in shortcut menu for the form, report, or control.</span></span>
+- <span data-ttu-id="bacfb-p101">窗体、报表或控件的自定义快捷菜单。自定义快捷菜单会替换窗体、报表或控件的内置快捷菜单。</span><span class="sxs-lookup"><span data-stu-id="bacfb-p101">A custom shortcut menu for a form, report, or control. The custom shortcut menu replaces the built-in shortcut menu for the form, report, or control.</span></span>
 
-- <span data-ttu-id="a77a7-p102">全局快捷菜单。全局快捷菜单会替换表数据表、查询数据表、窗体和报表中各字段的内置快捷菜单，但为窗体、报表或控件添加的自定义快捷菜单除外。</span><span class="sxs-lookup"><span data-stu-id="a77a7-p102">A global shortcut menu. The global shortcut menu replaces the built-in shortcut menu for fields in table and query datasheets, forms, and reports, except where you've added a custom shortcut menu for a form, report, or control.</span></span>
+- <span data-ttu-id="bacfb-p102">全局快捷菜单。全局快捷菜单会替换表数据表、查询数据表、窗体和报表中各字段的内置快捷菜单，但为窗体、报表或控件添加的自定义快捷菜单除外。</span><span class="sxs-lookup"><span data-stu-id="bacfb-p102">A global shortcut menu. The global shortcut menu replaces the built-in shortcut menu for fields in table and query datasheets, forms, and reports, except where you've added a custom shortcut menu for a form, report, or control.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="a77a7-111">设置</span><span class="sxs-lookup"><span data-stu-id="a77a7-111">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="bacfb-111">设置</span><span class="sxs-lookup"><span data-stu-id="bacfb-111">Setting</span></span>
 
-<span data-ttu-id="a77a7-112">**AddMenu** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="a77a7-112">The **AddMenu** action has the following arguments.</span></span>
+<span data-ttu-id="bacfb-112">**AddMenu** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="bacfb-112">The **AddMenu** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -43,31 +44,31 @@ ms.locfileid: "26026265"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a77a7-113">操作参数</span><span class="sxs-lookup"><span data-stu-id="a77a7-113">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="a77a7-114">说明</span><span class="sxs-lookup"><span data-stu-id="a77a7-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="bacfb-113">操作参数</span><span class="sxs-lookup"><span data-stu-id="bacfb-113">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="bacfb-114">说明</span><span class="sxs-lookup"><span data-stu-id="bacfb-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a77a7-115"><strong>菜单名称</strong></span><span class="sxs-lookup"><span data-stu-id="a77a7-115"><strong>Menu Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="a77a7-116">菜单上，例如，名称&quot;报表命令&quot;或&quot;工具&quot;。</span><span class="sxs-lookup"><span data-stu-id="a77a7-116">The name of the menu, for example, &quot;Report Commands&quot; or &quot;Tools&quot;.</span></span> <span data-ttu-id="a77a7-117">创建访问键，以便您可以使用键盘选择菜单中，键入与号 (<strong>&amp;</strong>) 之前您要访问键的字母。</span><span class="sxs-lookup"><span data-stu-id="a77a7-117">To create an access key so that you can use the keyboard to choose the menu, type an ampersand (<strong>&amp;</strong>) before the letter you want to be the access key.</span></span> <span data-ttu-id="a77a7-118">在<strong>加载项</strong>选项卡上的菜单名称，该字母将带有下划线。</span><span class="sxs-lookup"><span data-stu-id="a77a7-118">This letter will be underlined in the menu name on the <strong>Add-Ins</strong> tab.</span></span></p></td>
+<td><p><span data-ttu-id="bacfb-115"><strong>菜单名称</strong></span><span class="sxs-lookup"><span data-stu-id="bacfb-115"><strong>Menu Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="bacfb-116">菜单上，例如，名称&quot;报表命令&quot;或&quot;工具&quot;。</span><span class="sxs-lookup"><span data-stu-id="bacfb-116">The name of the menu, for example, &quot;Report Commands&quot; or &quot;Tools&quot;.</span></span> <span data-ttu-id="bacfb-117">创建访问键，以便您可以使用键盘选择菜单中，键入与号 (<strong>&amp;</strong>) 之前您要访问键的字母。</span><span class="sxs-lookup"><span data-stu-id="bacfb-117">To create an access key so that you can use the keyboard to choose the menu, type an ampersand (<strong>&amp;</strong>) before the letter you want to be the access key.</span></span> <span data-ttu-id="bacfb-118">在<strong>加载项</strong>选项卡上的菜单名称，该字母将带有下划线。</span><span class="sxs-lookup"><span data-stu-id="bacfb-118">This letter will be underlined in the menu name on the <strong>Add-Ins</strong> tab.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a77a7-119"><strong>菜单宏名称</strong></span><span class="sxs-lookup"><span data-stu-id="a77a7-119"><strong>Menu Macro Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="a77a7-p104">包含与菜单命令相对应的宏的宏组的名称。这是一个必选参数。 
+<td><p><span data-ttu-id="bacfb-119"><strong>菜单宏名称</strong></span><span class="sxs-lookup"><span data-stu-id="bacfb-119"><strong>Menu Macro Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="bacfb-p104">包含与菜单命令相对应的宏的宏组的名称。这是一个必选参数。 
 
-</span><span class="sxs-lookup"><span data-stu-id="a77a7-p104">The name of the macro group that contains the macros for the menu's commands. This is a required argument.</span></span></p>
-<p><span data-ttu-id="a77a7-122"><strong>注意</strong>： 如果您运行包含<strong>AddMenu</strong>操作类库数据库中的宏，Microsoft Office Access 2007 查找具有此名称当前数据库中的宏组。</span><span class="sxs-lookup"><span data-stu-id="a77a7-122"><strong>NOTE</strong>: If you run a macro containing the <strong>AddMenu</strong> action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.</span></span></p></td>
+</span><span class="sxs-lookup"><span data-stu-id="bacfb-p104">The name of the macro group that contains the macros for the menu's commands. This is a required argument.</span></span></p>
+<p><span data-ttu-id="bacfb-122"><strong>注意</strong>： 如果您运行包含<strong>AddMenu</strong>操作类库数据库中的宏，Microsoft Office Access 2007 查找具有此名称当前数据库中的宏组。</span><span class="sxs-lookup"><span data-stu-id="bacfb-122"><strong>NOTE</strong>: If you run a macro containing the <strong>AddMenu</strong> action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a77a7-123"><strong>状态栏文字</strong></span><span class="sxs-lookup"><span data-stu-id="a77a7-123"><strong>Status Bar Text</strong></span></span></p></td>
-<td><p><span data-ttu-id="a77a7-p105">选中菜单时在状态栏中显示的文字。对于快捷菜单，将忽略此参数。</span><span class="sxs-lookup"><span data-stu-id="a77a7-p105">The text to display in the status bar when the menu is selected. This argument is ignored for shortcut menus.</span></span></p></td>
+<td><p><span data-ttu-id="bacfb-123"><strong>状态栏文字</strong></span><span class="sxs-lookup"><span data-stu-id="bacfb-123"><strong>Status Bar Text</strong></span></span></p></td>
+<td><p><span data-ttu-id="bacfb-p105">选中菜单时在状态栏中显示的文字。对于快捷菜单，将忽略此参数。</span><span class="sxs-lookup"><span data-stu-id="bacfb-p105">The text to display in the status bar when the menu is selected. This argument is ignored for shortcut menus.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="a77a7-126">说明</span><span class="sxs-lookup"><span data-stu-id="a77a7-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bacfb-126">说明</span><span class="sxs-lookup"><span data-stu-id="bacfb-126">Remarks</span></span>
 
-<span data-ttu-id="a77a7-p106">要在 Visual Basic for Applications (VBA) 模块中运行 **AddMenu** 操作，请使用 **DoCmd** 对象的 **AddMenu** 方法。在 VBA 中，还可以设置 **MenuBar** 或 **ShortcutMenuBar** 属性，以便在 **"加载项"** 选项卡上创建自定义菜单，或在窗体、报表或控件上附加自定义快捷菜单。可以设置 **Application** 对象的 **ShortcutMenuBar** 属性，以便创建全局快捷菜单。</span><span class="sxs-lookup"><span data-stu-id="a77a7-p106">To run the **AddMenu** action in a Visual Basic for Applications (VBA) module, use the **AddMenu** method of the **DoCmd** object. You can also set the **MenuBar** or **ShortcutMenuBar** property in VBA to create a custom menu on the **Add-Ins** tab or to attach a custom shortcut menu to a form, report, or control. You can set the **ShortcutMenuBar** property of the **Application** object to create a global shortcut menu.</span></span>
+<span data-ttu-id="bacfb-p106">要在 Visual Basic for Applications (VBA) 模块中运行 **AddMenu** 操作，请使用 **DoCmd** 对象的 **AddMenu** 方法。在 VBA 中，还可以设置 **MenuBar** 或 **ShortcutMenuBar** 属性，以便在 **"加载项"** 选项卡上创建自定义菜单，或在窗体、报表或控件上附加自定义快捷菜单。可以设置 **Application** 对象的 **ShortcutMenuBar** 属性，以便创建全局快捷菜单。</span><span class="sxs-lookup"><span data-stu-id="bacfb-p106">To run the **AddMenu** action in a Visual Basic for Applications (VBA) module, use the **AddMenu** method of the **DoCmd** object. You can also set the **MenuBar** or **ShortcutMenuBar** property in VBA to create a custom menu on the **Add-Ins** tab or to attach a custom shortcut menu to a form, report, or control. You can set the **ShortcutMenuBar** property of the **Application** object to create a global shortcut menu.</span></span>
 

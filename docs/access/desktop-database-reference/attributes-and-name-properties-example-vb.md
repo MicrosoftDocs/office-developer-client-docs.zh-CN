@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249840(v=office.15)
 ms:contentKeyID: 48547120
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b4120f175e96d42ec77e748438fd0d369396320c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5584529eb9de3aa7c10303a40fb66790ad4e5c0f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887843"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717914"
 ---
-# <a name="attributes-and-name-properties-example-vb"></a><span data-ttu-id="a01fa-102">Attributes 和 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a01fa-102">Attributes and Name properties example (VB)</span></span>
+# <a name="attributes-and-name-properties-example-vb"></a><span data-ttu-id="3d611-102">Attributes 和 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="3d611-102">Attributes and Name properties example (VB)</span></span>
 
 
-<span data-ttu-id="a01fa-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a01fa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3d611-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="3d611-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a01fa-p101">此示例显示 [Connection](attributes-property-ado.md)、[Field](connection-object-ado.md) 和 [Property](field-object-ado.md) 对象的 [Attributes](property-object-ado.md) 属性的值。它使用 [Name](name-property-ado.md) 属性来显示每个 **Field** 和 **Property** 对象的名称。</span><span class="sxs-lookup"><span data-stu-id="a01fa-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="3d611-p101">此示例显示 [Connection](attributes-property-ado.md)、[Field](connection-object-ado.md) 和 [Property](field-object-ado.md) 对象的 [Attributes](property-object-ado.md) 属性的值。它使用 [Name](name-property-ado.md) 属性来显示每个 **Field** 和 **Property** 对象的名称。</span><span class="sxs-lookup"><span data-stu-id="3d611-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```vb 
  

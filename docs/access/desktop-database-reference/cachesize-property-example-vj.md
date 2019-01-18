@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15)
 ms:contentKeyID: 48548704
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 714b20aad4c03e5e5735d38dd6e4202a4c732844
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 373ee7720f706bae1db2f446a407c89f2a7f3baf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881809"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717963"
 ---
-# <a name="cachesize-property-example-vj"></a><span data-ttu-id="38cb7-102">CacheSize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="38cb7-102">CacheSize property example (VJ++)</span></span>
+# <a name="cachesize-property-example-vj"></a><span data-ttu-id="16694-102">CacheSize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="16694-102">CacheSize property example (VJ++)</span></span>
 
 
-<span data-ttu-id="38cb7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="38cb7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="16694-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="16694-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="38cb7-104">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。</span><span class="sxs-lookup"><span data-stu-id="38cb7-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="16694-104">此示例使用 [CacheSize](cachesize-property-ado.md) 属性显示在使用和不使用 30 条记录大小的缓存的情况下执行一个操作时的性能差异。</span><span class="sxs-lookup"><span data-stu-id="16694-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```java 
  

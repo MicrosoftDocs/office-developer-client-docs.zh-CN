@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
 ms:contentKeyID: 48545340
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9a48792379f91e7cdc02653898ee880caa429fe5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2241d61f66ea8599b60bd83a044f2073664f4bbf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869209"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718236"
 ---
-# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="4fb86-102">EOS 和 LineSeparator 属性以及 SkipLine 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="4fb86-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
+# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="b68a8-102">EOS 和 LineSeparator 属性以及 SkipLine 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b68a8-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
 
 
-<span data-ttu-id="4fb86-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4fb86-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b68a8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b68a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4fb86-p101">此示例演示如何采用一次一行的方式对文本流进行操作。将显示把行分隔符从默认回车/换行符 (**adCRLF**) 更改为简单换行符 (**adLF**) 或回车 (**adCR**) 的效果。</span><span class="sxs-lookup"><span data-stu-id="4fb86-p101">This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
+<span data-ttu-id="b68a8-p101">此示例演示如何采用一次一行的方式对文本流进行操作。将显示把行分隔符从默认回车/换行符 (**adCRLF**) 更改为简单换行符 (**adLF**) 或回车 (**adCR**) 的效果。</span><span class="sxs-lookup"><span data-stu-id="b68a8-p101">This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
 
 ```vb 
  

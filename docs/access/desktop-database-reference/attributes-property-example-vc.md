@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
 ms:contentKeyID: 48542976
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c68c163b08c3d7b2be66e072daa2f3895ffef0e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cb5a7050e17dfc1424809cfc5588236ed61d602f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891259"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720175"
 ---
-# <a name="attributes-property-example-vc"></a><span data-ttu-id="74785-102">Attributes 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="74785-102">Attributes property example (VC++)</span></span>
+# <a name="attributes-property-example-vc"></a><span data-ttu-id="d25cf-102">Attributes 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="d25cf-102">Attributes property example (VC++)</span></span>
 
 
-<span data-ttu-id="74785-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="74785-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d25cf-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d25cf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="74785-p101">本示例演示 [Column](attributes-property-adox.md) 的 [Attributes](column-object-adox.md) 属性。将其设置为 **adColNullable** 将使用户可以把 [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) 的值设置为空字符串。在这种情况下，用户可区分数据未知的记录和未应用数据的记录。</span><span class="sxs-lookup"><span data-stu-id="74785-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="d25cf-p101">本示例演示 [Column](attributes-property-adox.md) 的 [Attributes](column-object-adox.md) 属性。将其设置为 **adColNullable** 将使用户可以把 [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) 的值设置为空字符串。在这种情况下，用户可区分数据未知的记录和未应用数据的记录。</span><span class="sxs-lookup"><span data-stu-id="d25cf-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```cpp 
  
@@ -221,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-<span data-ttu-id="74785-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="74785-107">**ADOXAttributesX.h**</span></span>
+<span data-ttu-id="d25cf-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="d25cf-107">**ADOXAttributesX.h**</span></span>
 
 ```cpp
     // BeginAttributesH 

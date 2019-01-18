@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
 ms:contentKeyID: 48547600
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 185321327ed1718784fe6227f259347c0f8bb17d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6613836a4d924d66902d4da4e7c25d1df1acd8ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889775"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713008"
 ---
-# <a name="version-property-example-vj"></a><span data-ttu-id="e883e-102">Version 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e883e-102">Version property example (VJ++)</span></span>
+# <a name="version-property-example-vj"></a><span data-ttu-id="95a16-102">Version 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="95a16-102">Version property example (VJ++)</span></span>
 
 
-<span data-ttu-id="e883e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e883e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="95a16-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="95a16-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e883e-p101">此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：</span><span class="sxs-lookup"><span data-stu-id="e883e-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="95a16-p101">此示例使用 [Connection](version-property-ado.md) 对象的 [Version](connection-object-ado.md) 属性来显示当前的 ADO 版本。它还使用多个动态属性来显示以下内容：</span><span class="sxs-lookup"><span data-stu-id="95a16-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="e883e-106">当前的 DBMS 名称和版本。</span><span class="sxs-lookup"><span data-stu-id="e883e-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="95a16-106">当前的 DBMS 名称和版本。</span><span class="sxs-lookup"><span data-stu-id="95a16-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="e883e-107">OLE DB 版本。</span><span class="sxs-lookup"><span data-stu-id="e883e-107">OLE DB version.</span></span>
+  - <span data-ttu-id="95a16-107">OLE DB 版本。</span><span class="sxs-lookup"><span data-stu-id="95a16-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="e883e-108">提供程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="e883e-108">provider name and version.</span></span>
+  - <span data-ttu-id="95a16-108">提供程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="95a16-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="e883e-109">ODBC 版本。</span><span class="sxs-lookup"><span data-stu-id="e883e-109">ODBC version.</span></span>
+  - <span data-ttu-id="95a16-109">ODBC 版本。</span><span class="sxs-lookup"><span data-stu-id="95a16-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="e883e-110">ODBC 驱动程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="e883e-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="95a16-110">ODBC 驱动程序名称和版本。</span><span class="sxs-lookup"><span data-stu-id="95a16-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

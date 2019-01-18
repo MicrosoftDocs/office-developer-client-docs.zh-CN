@@ -6,34 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
 ms:contentKeyID: 48547828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6a9047ac95e377863c2f8d0f7024ca3ff199a06
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: abdb0d07f2293a53fccaf0d628c301750027acc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921017"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716155"
 ---
-# <a name="tabledefattributes-property-dao"></a><span data-ttu-id="2e029-102">TableDef.Attributes 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="2e029-102">TableDef.Attributes property (DAO)</span></span>
+# <a name="tabledefattributes-property-dao"></a><span data-ttu-id="0434f-102">TableDef.Attributes 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="0434f-102">TableDef.Attributes property (DAO)</span></span>
 
 
-<span data-ttu-id="2e029-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e029-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0434f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="0434f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="2e029-p101">设置或返回一个值，该值指示 **TableDef** 对象的一个或多个特征。 **Long** 类型，可读写。</span><span class="sxs-lookup"><span data-stu-id="2e029-p101">Sets or returns a value that indicates one or more characteristics of a **TableDef** object. Read/write **Long**.</span></span>
+<span data-ttu-id="0434f-p101">设置或返回一个值，该值指示 **TableDef** 对象的一个或多个特征。 **Long** 类型，可读写。</span><span class="sxs-lookup"><span data-stu-id="0434f-p101">Sets or returns a value that indicates one or more characteristics of a **TableDef** object. Read/write **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2e029-106">语法</span><span class="sxs-lookup"><span data-stu-id="2e029-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0434f-106">语法</span><span class="sxs-lookup"><span data-stu-id="0434f-106">Syntax</span></span>
 
-<span data-ttu-id="2e029-107">*表达式*。属性</span><span class="sxs-lookup"><span data-stu-id="2e029-107">*expression* .Attributes</span></span>
+<span data-ttu-id="0434f-107">*表达式*。属性</span><span class="sxs-lookup"><span data-stu-id="0434f-107">*expression* .Attributes</span></span>
 
-<span data-ttu-id="2e029-108">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="2e029-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="0434f-108">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="0434f-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2e029-109">注解</span><span class="sxs-lookup"><span data-stu-id="2e029-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0434f-109">注解</span><span class="sxs-lookup"><span data-stu-id="0434f-109">Remarks</span></span>
 
-<span data-ttu-id="2e029-110">对于尚未追加到集合中的对象，该属性是可读写的。</span><span class="sxs-lookup"><span data-stu-id="2e029-110">For an object not yet appended to a collection, this property is read/write.</span></span>
+<span data-ttu-id="0434f-110">对于尚未追加到集合中的对象，该属性是可读写的。</span><span class="sxs-lookup"><span data-stu-id="0434f-110">For an object not yet appended to a collection, this property is read/write.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2e029-111">示例</span><span class="sxs-lookup"><span data-stu-id="2e029-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0434f-111">示例</span><span class="sxs-lookup"><span data-stu-id="0434f-111">Example</span></span>
 
-<span data-ttu-id="2e029-112">以下示例显示 Northwind 数据库中 **Field**、 **Relation** 和 **TableDef** 对象的 **Attributes** 属性。</span><span class="sxs-lookup"><span data-stu-id="2e029-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
+<span data-ttu-id="0434f-112">以下示例显示 Northwind 数据库中 **Field**、 **Relation** 和 **TableDef** 对象的 **Attributes** 属性。</span><span class="sxs-lookup"><span data-stu-id="0434f-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
 
 ```vb 
 Sub AttributesX() 

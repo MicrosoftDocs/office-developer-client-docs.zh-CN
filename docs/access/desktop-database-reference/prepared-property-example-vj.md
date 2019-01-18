@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15)
 ms:contentKeyID: 48544693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f275585d784845c3292901bbacabdcc1c4ab931
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 91c279c695b72c1b60c5ae05a6f046ef116da551
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878442"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713567"
 ---
-# <a name="prepared-property-example-vj"></a><span data-ttu-id="76a3f-102">Prepared 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="76a3f-102">Prepared property example (VJ++)</span></span>
+# <a name="prepared-property-example-vj"></a><span data-ttu-id="4fb26-102">Prepared 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="4fb26-102">Prepared property example (VJ++)</span></span>
 
 
-<span data-ttu-id="76a3f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="76a3f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4fb26-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4fb26-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="76a3f-104">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="76a3f-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="4fb26-104">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="4fb26-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```java 
  

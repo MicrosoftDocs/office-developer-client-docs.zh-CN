@@ -6,22 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)
 ms:contentKeyID: 52071871
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c5a6e599dd43dced4c63a09f6060f1a904f683e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 767d80e8b3c73a78bb1401c4d3ffd729e0ce8bc0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927772"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713637"
 ---
-# <a name="data-importexport"></a><span data-ttu-id="02c5d-102">数据导入/导出</span><span class="sxs-lookup"><span data-stu-id="02c5d-102">Data import/export</span></span>
+# <a name="data-importexport"></a><span data-ttu-id="4c61d-102">数据导入/导出</span><span class="sxs-lookup"><span data-stu-id="4c61d-102">Data import/export</span></span>
 
-<span data-ttu-id="02c5d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="02c5d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4c61d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c61d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="02c5d-104">RunSavedImportExport 宏操作</span><span class="sxs-lookup"><span data-stu-id="02c5d-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
-- [<span data-ttu-id="02c5d-105">EMailDatabaseObject 宏操作</span><span class="sxs-lookup"><span data-stu-id="02c5d-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
-- [<span data-ttu-id="02c5d-106">ExportWithFormatting 宏操作</span><span class="sxs-lookup"><span data-stu-id="02c5d-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
-- [<span data-ttu-id="02c5d-107">ImportExportData 宏操作</span><span class="sxs-lookup"><span data-stu-id="02c5d-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
-- [<span data-ttu-id="02c5d-108">ImportExportSpreadsheet 宏操作</span><span class="sxs-lookup"><span data-stu-id="02c5d-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
-- [<span data-ttu-id="02c5d-109">ImportExportText 宏操作</span><span class="sxs-lookup"><span data-stu-id="02c5d-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
-- [<span data-ttu-id="02c5d-110">ImportSharePointList 宏操作</span><span class="sxs-lookup"><span data-stu-id="02c5d-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
+- [<span data-ttu-id="4c61d-104">RunSavedImportExport 宏操作</span><span class="sxs-lookup"><span data-stu-id="4c61d-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
+- [<span data-ttu-id="4c61d-105">EMailDatabaseObject 宏操作</span><span class="sxs-lookup"><span data-stu-id="4c61d-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
+- [<span data-ttu-id="4c61d-106">ExportWithFormatting 宏操作</span><span class="sxs-lookup"><span data-stu-id="4c61d-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
+- [<span data-ttu-id="4c61d-107">ImportExportData 宏操作</span><span class="sxs-lookup"><span data-stu-id="4c61d-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
+- [<span data-ttu-id="4c61d-108">ImportExportSpreadsheet 宏操作</span><span class="sxs-lookup"><span data-stu-id="4c61d-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
+- [<span data-ttu-id="4c61d-109">ImportExportText 宏操作</span><span class="sxs-lookup"><span data-stu-id="4c61d-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
+- [<span data-ttu-id="4c61d-110">ImportSharePointList 宏操作</span><span class="sxs-lookup"><span data-stu-id="4c61d-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
 

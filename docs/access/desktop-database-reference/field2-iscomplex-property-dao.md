@@ -6,34 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
 ms:contentKeyID: 48548970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c50262b457109a05930640979694ffc97368442b
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d24229a0fc3122cc8a9fb20b041fc9fadc5ccb0a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936404"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713152"
 ---
-# <a name="field2iscomplex-property-dao"></a><span data-ttu-id="64cde-102">Field2.IsComplex 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="64cde-102">Field2.IsComplex property (DAO)</span></span>
+# <a name="field2iscomplex-property-dao"></a><span data-ttu-id="913ef-102">Field2.IsComplex 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="913ef-102">Field2.IsComplex property (DAO)</span></span>
 
-<span data-ttu-id="64cde-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="64cde-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="913ef-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="913ef-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="64cde-p101">返回 **Boolean** 类型的值，该值指示指定字段是否是多值数据类型。只读。</span><span class="sxs-lookup"><span data-stu-id="64cde-p101">Returns **Boolean** that indicates whether the specified field is a multi-valued data type. Read-only.</span></span>
+<span data-ttu-id="913ef-p101">返回 **Boolean** 类型的值，该值指示指定字段是否是多值数据类型。只读。</span><span class="sxs-lookup"><span data-stu-id="913ef-p101">Returns **Boolean** that indicates whether the specified field is a multi-valued data type. Read-only.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="64cde-106">版本信息</span><span class="sxs-lookup"><span data-stu-id="64cde-106">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="913ef-106">版本信息</span><span class="sxs-lookup"><span data-stu-id="913ef-106">Version information</span></span>
 
-<span data-ttu-id="64cde-107">添加的版本： Access 2007</span><span class="sxs-lookup"><span data-stu-id="64cde-107">Version added: Access 2007</span></span>
+<span data-ttu-id="913ef-107">添加的版本： Access 2007</span><span class="sxs-lookup"><span data-stu-id="913ef-107">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="64cde-108">语法</span><span class="sxs-lookup"><span data-stu-id="64cde-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="913ef-108">语法</span><span class="sxs-lookup"><span data-stu-id="913ef-108">Syntax</span></span>
 
-<span data-ttu-id="64cde-109">*表达式*。IsComplex</span><span class="sxs-lookup"><span data-stu-id="64cde-109">*expression* .IsComplex</span></span>
+<span data-ttu-id="913ef-109">*表达式*。IsComplex</span><span class="sxs-lookup"><span data-stu-id="913ef-109">*expression* .IsComplex</span></span>
 
-<span data-ttu-id="64cde-110">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="64cde-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="913ef-110">*表达式*一个代表**Field2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="913ef-110">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="64cde-111">示例</span><span class="sxs-lookup"><span data-stu-id="64cde-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="913ef-111">示例</span><span class="sxs-lookup"><span data-stu-id="913ef-111">Example</span></span>
 
-<span data-ttu-id="64cde-112">下面的示例演示如何导航记录集包含一个多值字段。</span><span class="sxs-lookup"><span data-stu-id="64cde-112">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="913ef-112">下面的示例演示如何导航记录集包含一个多值字段。</span><span class="sxs-lookup"><span data-stu-id="913ef-112">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="64cde-113">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="64cde-113">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="913ef-113">**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="913ef-113">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()

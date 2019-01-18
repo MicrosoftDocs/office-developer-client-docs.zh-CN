@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
 ms:contentKeyID: 48546562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0c3f6f48418b6b8df95b423b9baba3a9c84c21b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ac0009940b3c7917db82db38d604ef6d16712953
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885813"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718964"
 ---
-# <a name="prepared-property-example-vc"></a><span data-ttu-id="f8164-102">Prepared 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="f8164-102">Prepared property example (VC++)</span></span>
+# <a name="prepared-property-example-vc"></a><span data-ttu-id="4169d-102">Prepared 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="4169d-102">Prepared property example (VC++)</span></span>
 
 
-<span data-ttu-id="f8164-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8164-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4169d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4169d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f8164-104">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="f8164-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="4169d-104">本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。</span><span class="sxs-lookup"><span data-stu-id="4169d-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```cpp 
  

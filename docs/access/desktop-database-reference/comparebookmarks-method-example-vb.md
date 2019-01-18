@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248807(v=office.15)
 ms:contentKeyID: 48543012
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aac8038e83d24afe3080e2846fe2e6f057171961
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0f6678400ad575bcc46d4fe2a463281b3c075615
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874830"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712062"
 ---
-# <a name="comparebookmarks-method-example-vb"></a><span data-ttu-id="6d7c8-102">CompareBookmarks 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="6d7c8-102">CompareBookmarks method example (VB)</span></span>
+# <a name="comparebookmarks-method-example-vb"></a><span data-ttu-id="840bb-102">CompareBookmarks 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="840bb-102">CompareBookmarks method example (VB)</span></span>
 
 
-<span data-ttu-id="6d7c8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d7c8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="840bb-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="840bb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6d7c8-p101">以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。</span><span class="sxs-lookup"><span data-stu-id="6d7c8-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
+<span data-ttu-id="840bb-p101">以下示例展示了 [CompareBookmarks](comparebookmarks-method-ado.md) 方法。除非书签存在某些特殊之处，一般很少需要书签的相对值。</span><span class="sxs-lookup"><span data-stu-id="840bb-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
 
-<span data-ttu-id="6d7c8-p102">将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。然后显示每一行相对于该目标的位置。</span><span class="sxs-lookup"><span data-stu-id="6d7c8-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
+<span data-ttu-id="840bb-p102">将派生自 ***Authors***（作者）表的 [Recordset](recordset-object-ado.md) 的随机行指定为搜索目标。然后显示每一行相对于该目标的位置。</span><span class="sxs-lookup"><span data-stu-id="840bb-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
 
 ```vb 
  
