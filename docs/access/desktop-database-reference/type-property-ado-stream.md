@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249203(v=office.15)
 ms:contentKeyID: 48544505
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1a5c9c69b5de6fbdf57efedf9724ae71ac151b7
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bb4cebdb8b4aff1413ec60fe4ebb1e05931f6476
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945528"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721953"
 ---
 # <a name="type-property-ado-stream"></a>Type 属性（ADO 流）
 

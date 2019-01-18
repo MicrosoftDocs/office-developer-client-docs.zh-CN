@@ -1,19 +1,20 @@
 ---
-title: 断开和重新连接记录集
+title: 断开并重新连接记录集
 TOCTitle: Disconnecting and reconnecting the Recordset
 ms:assetid: d608d95d-9a4e-17a1-107a-b88b77f3774c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250077(v=office.15)
 ms:contentKeyID: 48547975
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac1bc4c9c9d6d149faeb18d73f17539e63a4147e
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1c028a7d867a105f35b4848ecbe95339f5fcd4b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943939"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699245"
 ---
-# <a name="disconnecting-and-reconnecting-the-recordset"></a>断开和重新连接记录集
+# <a name="disconnecting-and-reconnecting-the-recordset"></a>断开并重新连接记录集
 
 
 **适用于**： Access 2013、 Office 2013

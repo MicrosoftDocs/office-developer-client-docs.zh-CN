@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277471
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a0fa90ac252e877c583982f4e9f900196a4674b3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: df70d2728732f33161622ce71fc9273bd9f016f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879744"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701940"
 ---
 # <a name="execute-statement-microsoft-access-sql"></a>EXECUTE 语句 (Microsoft Access SQL)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195834(v=office.15)
 ms:contentKeyID: 48545616
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7689c206ab13e97f57b22645b4c57f83a3f46c9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2e8c3c4de04c69f350a4707dc2ec392ea8144d18
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926036"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706007"
 ---
 # <a name="querydeffields-property-dao"></a>QueryDef.Fields 属性 (DAO)
 

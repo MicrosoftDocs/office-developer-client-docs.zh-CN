@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88334bc2d8d1290d21cb9bccddea0801cc51b3b3
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5b7d0bab179cd7ec658bc04cee05f486947f38c9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997054"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702115"
 ---
-# <a name="what-you-can-do-with-ado"></a>用 ADO 可以执行的操作
+# <a name="what-you-can-do-with-ado"></a>ADO 有何用途
 
 
 **适用于**： Access 2013、 Office 2013

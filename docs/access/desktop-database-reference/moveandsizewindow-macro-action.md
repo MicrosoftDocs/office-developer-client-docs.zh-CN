@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c1b127995a2f9a0af7da80e9df862259b570870e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998810"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721645"
 ---
 # <a name="moveandsizewindow-macro-action"></a>MoveAndSizeWindow 宏操作
 
@@ -19,7 +20,7 @@ ms.locfileid: "25998810"
 
 如果已将文档设置为使用重叠窗口而不是选项卡式文档的窗口选项，您可以使用**MoveAndSizeWindow**操作移动或调整活动窗口。 有关如何设置文档窗口选项的信息，请参阅备注部分。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **MoveAndSizeWindow**操作具有下列参数。
 

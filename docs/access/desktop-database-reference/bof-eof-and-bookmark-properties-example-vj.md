@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
 ms:contentKeyID: 48545400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc00c8a4102287fb2488d8ffa99607521a91021b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8722276f7c927d5ac452100da55395cb2de7cf70
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870427"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702143"
 ---
 # <a name="bof-eof-and-bookmark-properties-example-vj"></a>BOF、EOF 和 Bookmark 属性示例 (VJ++)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052988
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ad3de8bba18b15b15311bf188822a451e74bb24d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8678b825f509f483bf70d3aa2f3d767dbf7b0e32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926610"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698279"
 ---
 # <a name="fielddataupdatable-property-dao"></a>Field.DataUpdatable 属性 (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195473(v=office.15)
 ms:contentKeyID: 48545455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b6a050a57afa1e579fba7a3c9185d69cbf27e63
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe319e0f7a811d3bcd3b2fc18c4a3d951187fbe8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929557"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704432"
 ---
 # <a name="stopmacro-macro-action"></a>StopMacro 宏操作
 
@@ -19,11 +20,11 @@ ms.locfileid: "25929557"
 
 您可以使用**StopMacro**操作停止当前正在运行的宏。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **StopMacro**操作不具有任何参数。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 通常，当条件进行所需停止宏，可使用此操作。 可以在宏中包含此操作的操作行中使用条件表达式。 当在表达式计算结果为**True** (– 1) 时，Microsoft Access 将停止宏。
 

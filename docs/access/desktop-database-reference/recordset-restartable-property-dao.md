@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052926
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 26d9d215c35e9a768a663d41ecc40f49bee4dfdb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5142d0d47be37ca8c2e1c6b89462c05b7d41d302
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920856"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721694"
 ---
 # <a name="recordsetrestartable-property-dao"></a>Recordset.Restartable 属性 (DAO)
 

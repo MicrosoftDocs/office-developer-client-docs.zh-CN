@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
 ms:contentKeyID: 48545071
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: bac61333ab9d8c7abdbbb23a8207716f50c4ac21
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8d01e685857c78ec33c82ca56943249488bf7d14
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879087"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718789"
 ---
 # <a name="ruleenum"></a>RuleEnum
 

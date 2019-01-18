@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15)
 ms:contentKeyID: 48544064
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc2a7706afbf69d9949e8b04122b144c6826ec40
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ba6d05aa1bfb626520af60a30279983bae6fa566
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882936"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698930"
 ---
 # <a name="description-property-ado"></a>Description 属性 (ADO)
 

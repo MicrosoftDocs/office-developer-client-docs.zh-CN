@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249782(v=office.15)
 ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab0d84931389aecb5bd495c884baa9163c52d4a6
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fae0df2a4cc5c9de585d2b101e9fa31cb6a0a545
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910920"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714519"
 ---
 # <a name="ado-dynamic-properties"></a>ADO 动态属性
 

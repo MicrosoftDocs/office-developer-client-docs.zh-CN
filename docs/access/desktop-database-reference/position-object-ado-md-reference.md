@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250290(v=office.15)
 ms:contentKeyID: 48548878
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d07c95cf512e966598aaa058daf8c243f7828292
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4e0fc5caea6b7535a16da88b8b348f5c2dee2c18
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919971"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717865"
 ---
 # <a name="position-object-ado-md-reference"></a>Position 对象 （ADO MD 参考 （英文）
 

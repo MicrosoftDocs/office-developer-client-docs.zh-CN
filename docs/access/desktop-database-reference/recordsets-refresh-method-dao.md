@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835781(v=office.15)
 ms:contentKeyID: 48548335
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ed7aabd535348745780e96a1b84fd12187c505a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d9d959f2d5ddfeb52d5171c98f87ad0057b43ca6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930187"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699624"
 ---
 # <a name="recordsetsrefresh-method-dao"></a>Recordsets.Refresh 方法 (DAO)
 

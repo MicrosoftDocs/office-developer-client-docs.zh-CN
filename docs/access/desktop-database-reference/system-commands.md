@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)
 ms:contentKeyID: 52074096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b504c1641bc9c1d44c5725f2672585449c45f5f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 532e9a4ad79228c208024b631b772b1e54ea38a9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924839"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722289"
 ---
 # <a name="system-commands"></a>系统命令
 

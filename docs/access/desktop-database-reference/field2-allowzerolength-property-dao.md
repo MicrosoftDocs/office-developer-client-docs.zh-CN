@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
 ms:contentKeyID: 48547908
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 853b2ca82703174ab1d62007dd92b8268ea13e54
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3125a5669ea8aa016d8554be0357572d56c08ecf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923047"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721176"
 ---
 # <a name="field2allowzerolength-property-dao"></a>Field2.AllowZeroLength 属性 (DAO)
 

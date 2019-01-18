@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248842(v=office.15)
 ms:contentKeyID: 48543166
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f1443d1f2a4eccd8599256425a971bc63cd4d8b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 653291ade258d602d7ec523dcac7e9fe51dd91fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918980"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702024"
 ---
 # <a name="update-resync-dynamic-property-ado"></a>Update Resync 动态属性 (ADO)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25918980"
 
 设置或返回一个或多个[ADCPROP\_UPDATERESYNC\_枚举](adcprop-updateresync-enum.md)值。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 ADCPROP 值\_UPDATERESYNC\_枚举可以进行组合，不过 adResyncAll 已代表其余值的组合除外。
 

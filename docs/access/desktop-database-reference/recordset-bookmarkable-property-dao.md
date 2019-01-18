@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194950(v=office.15)
 ms:contentKeyID: 48545257
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fda41958b769c274564655b5bab2789f06e64682
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2bd9b91f80c9411bb7cdf4e0be9e71ab055dc72f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924650"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699327"
 ---
 # <a name="recordsetbookmarkable-property-dao"></a>Recordset.Bookmarkable 属性 (DAO)
 

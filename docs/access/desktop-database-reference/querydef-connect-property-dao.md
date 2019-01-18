@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
 ms:contentKeyID: 48543398
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4956d9d2652ab8268a5f49a9b7edc63ebe2878c7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 009e49a96ea1cd5ee3db0b96adb9cae4a6bce21b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997978"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698272"
 ---
 # <a name="querydefconnect-property-dao"></a>QueryDef.Connect 属性 (DAO)
 

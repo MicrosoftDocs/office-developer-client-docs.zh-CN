@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
 ms:contentKeyID: 48545151
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07b2945f2e9a59cc8a7db4a6f5a44cfaf9b35043
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dbc0ed4849e8c22bc7023bd4254fdee74a5d016c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928283"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699609"
 ---
 # <a name="workspacelogintimeout-property-dao"></a>Workspace.LoginTimeout 属性 (DAO)
 

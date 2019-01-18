@@ -1,19 +1,20 @@
 ---
-title: Visual c + + ADO 编程
+title: Visual C++ ADO 编程
 TOCTitle: Visual C++ ADO programming
 ms:assetid: 117c4fad-8c11-5e3a-ea0c-18811e87475f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5278a998363359f4bd2aad14881865505ce45633
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2a890b4906fb9f207f12ff17ef0d3ccf1a97a44d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998411"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721288"
 ---
-# <a name="visual-c-ado-programming"></a>Visual c + + ADO 编程
+# <a name="visual-c-ado-programming"></a>Visual C++ ADO 编程
 
 **适用于**： Access 2013、 Office 2013
 

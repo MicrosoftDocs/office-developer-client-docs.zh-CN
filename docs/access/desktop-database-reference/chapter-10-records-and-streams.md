@@ -1,19 +1,20 @@
 ---
-title: 第 10 章： 记录和流
+title: 第 10 章：记录和流
 TOCTitle: 'Chapter 10: Records and streams'
 ms:assetid: 74862096-2273-3b61-f89c-06554ccf42cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249477(v=office.15)
 ms:contentKeyID: 48545663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96350229bce2ecc25ff035f2e5949f080f0fa10f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a47ac1f850905546651ffbdd708887bf7d74940
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997726"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721827"
 ---
-# <a name="chapter-10-records-and-streams"></a>第 10 章： 记录和流
+# <a name="chapter-10-records-and-streams"></a>第 10 章：记录和流
 
 **适用于**： Access 2013、 Office 2013
 
@@ -53,7 +54,7 @@ ADO 目前提供了 [Recordset](recordset-object-ado.md) 对象作为访问数�
 
 本章包含以下主题：
 
-- [流和持久化](streams-and-persistence.md)
+- [流和暂留](streams-and-persistence.md)
 - [记录和提供程序提供的字段](records-and-provider-supplied-fields.md)
-- [绝对和相对 Url](absolute-and-relative-urls.md)
+- [绝对 URL 和相对 URL](absolute-and-relative-urls.md)
 - [使用 ADO for Internet publishing (ADO)](using-ado-for-internet-publishing.md)

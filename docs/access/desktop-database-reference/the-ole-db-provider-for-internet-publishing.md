@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7315df5a20cf032fc256f03893531f58857d470a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 617dca5ced5410e2023657ea1b0b748066f7843f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998663"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699126"
 ---
 # <a name="ole-db-provider-for-internet-publishing"></a>用于 Internet 发布的 OLE DB 提供程序
 

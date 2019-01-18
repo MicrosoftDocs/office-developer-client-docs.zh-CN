@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27d6f2c9884441042d67615072738c7762f4f789
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44cd0cb5632e64811de14f9abd3c78aac9203705
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949913"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698181"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk 方法 (ADO)
 

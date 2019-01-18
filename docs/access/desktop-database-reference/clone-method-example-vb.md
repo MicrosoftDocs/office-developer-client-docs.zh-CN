@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249324(v=office.15)
 ms:contentKeyID: 48545085
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 51b6d5ed6570ece56c03fd1d2514a47650ed1908
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 56de57f16ed487d78d96b389ca00e3f3e1014176
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877392"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721652"
 ---
 # <a name="clone-method-example-vb"></a>Clone 方法示例 (VB)
 

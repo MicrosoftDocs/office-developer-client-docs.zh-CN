@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249791(v=office.15)
 ms:contentKeyID: 48546955
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbeb39fb4142f88745a914cbed3d00ba57958577
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0d3f86136d8dd376b444083430557729c11ec473
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919407"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701492"
 ---
 # <a name="relatedcolumn-property-adox"></a>RelatedColumn 属性 (ADOX)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248951(v=office.15)
 ms:contentKeyID: 48543525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66a62128a8ad8828c501cdaf899448edd9f1d37f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b3b83eb87b181320c86e1aea91ede70cd173a5ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949871"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717564"
 ---
 # <a name="open-method-ado-connection"></a>Open 方法（ADO 连接）
 
@@ -23,12 +24,12 @@ ms.locfileid: "25949871"
 
 *连接*。打开*ConnectionString*、*用户 Id*、*密码*和*选项*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
 |*ConnectionString* |可选。 **字符串** 值，包含连接信息。有关有效设置的详细信息，请参阅 [ConnectionString](connectionstring-property-ado.md) 属性。|
-|*用户 Id* |可选。 **字符串** 值，包含建立连接时所使用的用户名。|
+|*UserID* |可选。 **字符串** 值，包含建立连接时所使用的用户名。|
 |*Password* |可选。 **字符串** 值，包含建立连接时所使用的密码。|
 |*Options* |可选。一个 [ConnectOptionEnum](connectoptionenum.md) 值，用于确定此方法应在建立连接之后（同步）还是之前（异步）返回。|
 

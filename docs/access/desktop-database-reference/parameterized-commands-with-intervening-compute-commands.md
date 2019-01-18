@@ -1,19 +1,20 @@
 ---
-title: 参数化的命令与干扰 COMPUTE 命令
+title: 包含介于中间的 COMPUTE 命令的参数化命令
 TOCTitle: Parameterized commands with intervening COMPUTE commands
 ms:assetid: ff3724cd-040b-4b5f-bb9b-e6a38fd938c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250311(v=office.15)
 ms:contentKeyID: 48548959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 76093082419684cd236f4766da6afc07faf2cf20
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4172fba2d9fc08d3cf9f588fe9ace65da7997b19
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946795"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701933"
 ---
-# <a name="parameterized-commands-with-intervening-compute-commands"></a>参数化的命令与干扰 COMPUTE 命令
+# <a name="parameterized-commands-with-intervening-compute-commands"></a>包含介于中间的 COMPUTE 命令的参数化命令
 
 
 **适用于**： Access 2013、 Office 2013

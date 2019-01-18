@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 45416c68d52a2ba20ba9adfa19a6ebd89d1e0240
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e4549c8817361cfb5b9fa730ee37ca6a07edc98b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026202"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717047"
 ---
 # <a name="appendix-a-providers"></a>附录 A：提供程序
 

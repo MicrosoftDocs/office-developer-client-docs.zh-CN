@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197661(v=office.15)
 ms:contentKeyID: 48546388
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 57fb558330c602206831c1c72f09a13094eba799
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: abb766f7a47cbacaededf65eb2b5e9145bf88c60
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927310"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698377"
 ---
 # <a name="documentlastupdated-property-dao"></a>Document.LastUpdated 属性 (DAO)
 

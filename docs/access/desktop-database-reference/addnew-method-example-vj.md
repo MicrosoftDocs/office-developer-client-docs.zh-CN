@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249023(v=office.15)
 ms:contentKeyID: 48543786
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: da4d1e32c4193fc75fcceb032dc11f4ab7de60de
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1ec0bc0bc2bcb355a2d9d3e37f94c50b7620e60b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888627"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699028"
 ---
 # <a name="addnew-method-example-vj"></a>AddNew 方法示例 (VJ++)
 

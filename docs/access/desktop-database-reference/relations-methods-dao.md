@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124596(v=office.15)
 ms:contentKeyID: 52072219
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b891c0b7870dd7129a82752e7a800a7614880f67
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: beddd6db652b37481872a66884971de541e5e0e7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936362"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706013"
 ---
 # <a name="relations-methods-dao"></a>关系方法 (DAO)
 

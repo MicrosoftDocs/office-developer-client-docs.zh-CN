@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196191(v=office.15)
 ms:contentKeyID: 48545807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a338f050a698478ddd49c03ca9637c671258414e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ae3358c499e4f730758f9c3aaf420725cc6efd96
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929977"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701849"
 ---
 # <a name="indexes-members-dao"></a>索引成员 (DAO)
 

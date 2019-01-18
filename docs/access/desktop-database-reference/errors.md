@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249199(v=office.15)
 ms:contentKeyID: 48544490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f8514fddb5523b670e2dff2b9b55981cab52f72
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 056ec0b34991348728898b4c0fc4a1a516a9913f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946984"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700981"
 ---
 # <a name="errors"></a>错误
 

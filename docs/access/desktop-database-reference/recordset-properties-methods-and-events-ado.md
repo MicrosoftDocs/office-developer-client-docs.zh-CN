@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
 ms:contentKeyID: 48547019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fea6f59479578cfd701b1adeece609c6595583a1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d49605e923f13cd423b7ad0ac6b0d1ef64b94841
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947796"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702234"
 ---
 # <a name="recordset-properties-methods-and-events-ado"></a>Recordset 属性、 方法和事件 (ADO)
 
@@ -23,10 +24,10 @@ ms.locfileid: "25947796"
 - [AbsolutePosition 属性](absoluteposition-property-ado.md)
 - [ActiveCommand 属性](activecommand-property-ado.md)
 - [ActiveConnection 属性](activeconnection-property-ado.md)
-- [BOF、 EOF 属性](bof-eof-properties-ado.md)
+- [BOF、EOF 属性](bof-eof-properties-ado.md)
 - [Bookmark 属性](bookmark-property-ado.md)
 - [CacheSize 属性](cachesize-property-ado.md)
-- [会在 CursorLocation 属性](cursorlocation-property-ado.md)
+- [CursorLocation 属性](cursorlocation-property-ado.md)
 - [CursorType 属性](cursortype-property-ado.md)
 - [DataMember 属性](datamember-property-ado.md)
 - [DataSource 属性](datasource-property-ado.md)
@@ -62,7 +63,7 @@ ms.locfileid: "25947796"
 - [GetRows 方法](getrows-method-ado.md)
 - [GetString 方法](getstring-method-ado.md)
 - [Move 方法](move-method-ado.md)
-- [MoveFirst、 MoveLast、 MoveNext 和 MovePrevious 方法](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
+- [MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 - [NextRecordset 方法](nextrecordset-method-ado.md)
 - [Open 方法（ADO 记录集）](open-method-ado-recordset.md)
 - [Requery 方法](requery-method-ado.md)

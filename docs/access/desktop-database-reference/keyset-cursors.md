@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
 ms:contentKeyID: 48544690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 098bbd0ba69fcfd874db4aa78394df1a768b68c8
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 200b10599683a5b5877952664c04e94b2523cfee
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945262"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721918"
 ---
 # <a name="keyset-cursors"></a>键集游标
 

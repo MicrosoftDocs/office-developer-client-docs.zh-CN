@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052897
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d64620ccf1c0d011c060ac829223041f49bde9d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3d016d779472ec9809d3ac5c77158c2c1d994f3c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925287"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718229"
 ---
 # <a name="fieldcollatingorder-property-dao"></a>Field.CollatingOrder 属性 (DAO)
 
@@ -100,7 +101,7 @@ ms.locfileid: "25925287"
 </tr>
 <tr class="even">
 <td><p><strong>dbSortNeutral</strong></p></td>
-<td><p>非特定语言</p></td>
+<td><p>适中</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortNorwDan</strong></p></td>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
 ms:contentKeyID: 48548549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a2163caf8b0c6f7b17d0a551d95d18d0883e183
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0ca9923b1604b17c1d7f64d2d968378fec4a8c24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945472"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698657"
 ---
 # <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum 枚举 (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25945472"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>

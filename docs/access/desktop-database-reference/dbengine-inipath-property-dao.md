@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053070
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd744f10d212d8ff0f7c78ca72781869ccdcd57e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f14f9f2d028bb8a9a8e71bc9d7b97ea5672466f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928759"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717627"
 ---
 # <a name="dbengineinipath-property-dao"></a>DBEngine.IniPath 属性 (DAO)
 
@@ -30,9 +31,9 @@ ms.locfileid: "25928759"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
-可以使用 Windows 注册表配置 Microsoft Access 数据库引擎。可以使用注册表设置各种选项，例如可安装的 ISAM DLL。
+您可以与 Windows 注册表中配置 Microsoft Access 数据库引擎。 可以使用注册表设置各种选项，例如可安装的 ISAM DLL。
 
 若要使此选项产生任何作用，必须在应用程序调用其他任何 DAO 代码之前，设置 **IniPath** 属性。此设置的作用范围仅限于您的应用程序，并且在重新启动应用程序前不能更改。
 

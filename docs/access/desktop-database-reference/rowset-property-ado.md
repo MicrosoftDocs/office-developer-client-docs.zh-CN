@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248946(v=office.15)
 ms:contentKeyID: 48543515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0d5979cb42e2ed4a979dc07016a4bb02b8097994
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: be2a4855b3411a11ddd5a76225acaa52344877a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949787"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706140"
 ---
 # <a name="rowset-property-ado"></a>Rowset 属性 (ADO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25949787"
 
 通过 **ADORecordsetConstruction** 对象获取或设置一个 OLE DB **Rowset** 对象。 当您使用 put\_行集，行集转换为 ADO **Recordset**对象。
 
-为可读/写属性。
+读/写。
 
 ## <a name="syntax"></a>语法
 
@@ -27,7 +28,7 @@ HRESULT get\_行集 (\[out，retval\] IUnknown\* \* ppRowset);
 
 HRESULT 放置\_行集 (\[的\]IUnknown\* pRowset);
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

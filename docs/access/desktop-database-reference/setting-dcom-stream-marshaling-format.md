@@ -1,19 +1,20 @@
 ---
-title: 设置 DCOM 流封送处理格式
+title: 设置 DCOM 流封送格式
 TOCTitle: Setting DCOM stream marshaling format
 ms:assetid: 5f75fc59-a9f8-6686-07f9-de292e4da787
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249346(v=office.15)
 ms:contentKeyID: 48545162
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88fc34937910ba2439c796a2cec5afa8db43a0a3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 09463552faff9c4b74b73379385ab8ba55b4f62c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944163"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698041"
 ---
-# <a name="setting-dcom-stream-marshaling-format"></a>设置 DCOM 流封送处理格式
+# <a name="setting-dcom-stream-marshaling-format"></a>设置 DCOM 流封送格式
 
 
 **适用于**： Access 2013、 Office 2013

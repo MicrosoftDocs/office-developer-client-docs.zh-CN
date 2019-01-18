@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 79f4e59309a4f224498421f2407df187d3b9e728
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2d1fb13d04691b7bf5e0aafcc484cfc4f471e1e1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998063"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715884"
 ---
 # <a name="copyobject-macro-action"></a>CopyObject 宏操作
 

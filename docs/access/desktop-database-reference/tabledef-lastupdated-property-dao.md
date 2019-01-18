@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837164(v=office.15)
 ms:contentKeyID: 48548859
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 81d8dfd040ef7df954b71f724ed1d2689d5d4b33
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 994543132fb5323566bd876da066419d0986bd91
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928220"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722772"
 ---
 # <a name="tabledeflastupdated-property-dao"></a>TableDef.LastUpdated 属性 (DAO)
 

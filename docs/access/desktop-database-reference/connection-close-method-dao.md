@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198015(v=office.15)
 ms:contentKeyID: 48546559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6f84b9580fbd6256069de57b2295cf3460edaf8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bf99abf97a2eb1b88e7056a36c160eb774959719
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928976"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717214"
 ---
 # <a name="connectionclose-method-dao"></a>Connection.Close 方法 (DAO)
 

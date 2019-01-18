@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
 ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ab9723d3acc698aa36210e26e370c0edfa67728
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924230"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701275"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction 接口 (ADO)
 
@@ -57,7 +58,7 @@ ms.locfileid: "25924230"
 
 无。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 (PRowset) OLE DB **Rowset**对象构造的 ADO **Recordset**对象 （）、 构造的 ADO **Recordset**对象 (adoRs) 金额赋予以下三个基本操作：
 

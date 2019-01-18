@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231042
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d3b36d04345df4c1d556d0607c70b3425f0047e6
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fa060811f60379e720e06be9f94e9403477c7869
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949955"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700680"
 ---
 # <a name="createparameter-method-ado"></a>CreateParameter 方法 (ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249149(v=office.15)
 ms:contentKeyID: 48544280
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97376361a9ea5dcd71e3f9ef918a8ec7f1ebb0c0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b3b5d25a727233b5fda5627df8dff952003bbfe3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920758"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722471"
 ---
 # <a name="view-object-adox"></a>View 对象 (ADOX)
 

@@ -1,19 +1,20 @@
 ---
-title: 预见错误
+title: 预测错误
 TOCTitle: Anticipating errors
 ms:assetid: f2368a03-d446-ab42-b505-d5f5a214c000
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250229(v=office.15)
 ms:contentKeyID: 48548645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eec7480698676c5da6ea14d1754fc15e42995fe3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c4bd130ca05527c7761ca587781c1fd4f939ebe9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944646"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720735"
 ---
-# <a name="anticipating-errors"></a>预见错误
+# <a name="anticipating-errors"></a>预测错误
 
 
 **适用于**： Access 2013、 Office 2013

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
 ms:contentKeyID: 48547085
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06d91a9e2103fa56025230ae5326cda2d0bfb85f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 68530f060b0c3662e53e927d7e2fda6cfd7c6957
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886912"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721064"
 ---
 # <a name="state-property-example-vc"></a>State 属性示例 (VC++)
 

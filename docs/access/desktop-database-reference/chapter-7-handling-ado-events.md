@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249004(v=office.15)
 ms:contentKeyID: 48543709
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58186a9f5612308c7762a815520d49ddce8eaf57
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e7357cc60a3bddbf96c2abae39fecfb7107025e2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937538"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699042"
 ---
 # <a name="chapter-7-handling-ado-events"></a>第 7 章：处理 ADO 事件
 

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c2e5b3e2cdfb743df8a098d3978ccd3d6eb66d90
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 04212a8bf63d5039c6548463612f006f0d116229
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999027"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718593"
 ---
 # <a name="printout-macro-action"></a>PrintOut 宏操作
 

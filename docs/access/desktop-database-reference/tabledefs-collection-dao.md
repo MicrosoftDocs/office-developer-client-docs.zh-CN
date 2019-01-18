@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
 ms:contentKeyID: 48546766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b265063d1912b81aa852505b756e58e7a643d4ae
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: f16f44b57a690aa58efdff9b00341df5023c293f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922942"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702878"
 ---
 # <a name="tabledefs-collection-dao"></a>TableDefs 集合 (DAO)
 
@@ -33,7 +34,7 @@ ms.locfileid: "25922942"
 
 **TableDefs**\!\[名称\]
 
-**链接提供** [UtterAccess](https://www.utteraccess.com)社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
+**链接提供方：**[UtterAccess](https://www.utteraccess.com) 社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
 
   - [重新链接器多 Backends](https://www.utteraccess.com/wiki/index.php/re-linker_multi-backends)
 

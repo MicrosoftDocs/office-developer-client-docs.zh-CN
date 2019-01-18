@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249548(v=office.15)
 ms:contentKeyID: 48545930
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e21a282166dd9376275a24f41674d240bd23c4f7
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6dc30d058e6715b411679613e5a205d44fa1de4a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947950"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699189"
 ---
 # <a name="using-ado-with-microsoft-visual-c"></a>将 ADO 与 Microsoft Visual C++ 结合使用
 

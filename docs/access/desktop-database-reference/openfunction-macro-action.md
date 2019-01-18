@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a3a1ed5b08c9bf0b318baeebb7190868b90682f0
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b13d21ef1bd8a95587eb78cd448f19f9fd0c24c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998859"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720210"
 ---
 # <a name="openfunction-macro-action"></a>OpenFunction 宏操作
 

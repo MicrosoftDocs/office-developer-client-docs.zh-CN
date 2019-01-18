@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15)
 ms:contentKeyID: 48545087
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a6b889deb9ccf713c2313b207387be8f6b1681b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0dec30715d1eb4e31d7490db4cedd015ecf3c040
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868159"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700029"
 ---
 # <a name="datasource-property-ado"></a>DataSource 属性 (ADO)
 

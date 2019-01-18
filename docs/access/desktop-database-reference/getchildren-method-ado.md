@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249687(v=office.15)
 ms:contentKeyID: 48546515
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dcc687e5151e95d61939c30aa4c6be4063b67c47
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4ca8c113a377543ea8624972adb5958612a3fc72
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931265"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722023"
 ---
 # <a name="getchildren-method-ado"></a>GetChildren 方法 (ADO)
 

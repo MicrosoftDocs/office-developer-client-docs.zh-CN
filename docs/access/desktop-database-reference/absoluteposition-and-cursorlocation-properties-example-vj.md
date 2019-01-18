@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15)
 ms:contentKeyID: 48544223
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 9b936aa8fd2c733e35be144072c3648dbbbe8a15
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8500376fc11ce7b3e83acaf6ccbe8fc77db4f866
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867473"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702290"
 ---
 # <a name="absoluteposition-and-cursorlocation-properties-example-vj"></a>AbsolutePosition 和 CursorLocation 属性示例 (VJ++)
 

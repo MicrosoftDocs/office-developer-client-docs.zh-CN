@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249686(v=office.15)
 ms:contentKeyID: 48546507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c764c543c3d8734a47927d702daca1552e497b6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b977fc4273068ac52efe8960761a9e28a6234e2e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879471"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721883"
 ---
 # <a name="understanding-the-customization-file"></a>了解自定义文件
 

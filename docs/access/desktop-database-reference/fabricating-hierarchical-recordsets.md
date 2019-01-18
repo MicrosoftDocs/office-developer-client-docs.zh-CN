@@ -1,19 +1,20 @@
 ---
-title: 构造分层记录集
+title: 构建层次记录集
 TOCTitle: Fabricating hierarchical Recordsets
 ms:assetid: 0a6e41ba-015e-c07e-8876-1e744256b876
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248836(v=office.15)
 ms:contentKeyID: 48543153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 302ca12b96317cdb203b2091c2b2da916188175a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f644f25a04c5573a93aa106884473fed6b45440e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943960"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715576"
 ---
-# <a name="fabricating-hierarchical-recordsets"></a>构造分层记录集
+# <a name="fabricating-hierarchical-recordsets"></a>构建层次记录集
 
 
 **适用于**： Access 2013、 Office 2013

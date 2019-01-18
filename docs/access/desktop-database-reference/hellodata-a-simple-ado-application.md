@@ -1,19 +1,20 @@
 ---
-title: HelloData： 简单 ADO 应用程序
+title: HelloData：简单 ADO 应用程序
 TOCTitle: 'HelloData: A simple ADO application'
 ms:assetid: c271abeb-8865-81f9-db8e-47d3db87ad30
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 359816f828191a8643941a21ac520ba7b3231e6b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3c7d9be9b91b3f847516eb3c22aa37e46c8a551d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998201"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703494"
 ---
-# <a name="hellodata-a-simple-ado-application"></a>HelloData： 简单 ADO 应用程序
+# <a name="hellodata-a-simple-ado-application"></a>HelloData：简单 ADO 应用程序
 
 **适用于**： Access 2013、 Office 2013
 

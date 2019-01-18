@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837255(v=office.15)
 ms:contentKeyID: 48548925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b9a9669306eb7db719714c86998483ba7f6f198
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5672d9a202c6615e4bc1f5c367e3910887ddc7a8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026286"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700855"
 ---
 # <a name="dbenginebegintrans-method-dao"></a>DBEngine.BeginTrans 方法 (DAO)
 

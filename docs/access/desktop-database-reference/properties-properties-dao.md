@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179851(v=office.15)
 ms:contentKeyID: 52074060
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: baff1e98942489d74d145353c2b4712011c74789
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 49acd750680de62a19449020361e11e2603fe943
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943911"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698755"
 ---
 # <a name="properties-properties-dao"></a>属性属性 (DAO)
 

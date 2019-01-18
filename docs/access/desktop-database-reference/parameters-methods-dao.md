@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123876(v=office.15)
 ms:contentKeyID: 52071516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6be101c82bc590768e31bdeba0bced5d5f41ee7
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e824b36af319ca66f23f2ce4a442e97a7a359b29
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936446"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704740"
 ---
 # <a name="parameters-methods-dao"></a>参数方法 (DAO)
 

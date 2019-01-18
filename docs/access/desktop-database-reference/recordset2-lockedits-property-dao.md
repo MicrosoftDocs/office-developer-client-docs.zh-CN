@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
 ms:contentKeyID: 48545716
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfb24f1fd183dd917b1eeb4033fe53a3310d5a12
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ff2db22dcb0119792eb57a971d3cf36e763d3049
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997012"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701121"
 ---
 # <a name="recordset2lockedits-property-dao"></a>Recordset2.LockEdits 属性 (DAO)
 

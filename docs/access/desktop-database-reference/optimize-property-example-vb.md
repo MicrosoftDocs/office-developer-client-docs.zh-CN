@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250240(v=office.15)
 ms:contentKeyID: 48548686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a52eae197f2be1f6ed6825dc5c6c9fd3a785451c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ade2e6eb2d54a686e4e1fa0537ec4573ee610d16
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871449"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703396"
 ---
 # <a name="optimize-property-example-vb"></a>Optimize 属性示例 (VB)
 

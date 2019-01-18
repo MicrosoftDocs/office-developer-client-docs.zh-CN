@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 27fc0c38ec0f3ec98c2709a96b6dedcce17db693
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c2b5a19b7a92fb68dfb774afeec5cd6ba456f38d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996809"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698160"
 ---
 # <a name="runmenucommand-macro-action"></a>RunMenuCommand 宏操作
 

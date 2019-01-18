@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c93f312dd9b43a3235f049b9e6d3f95d08eba87f
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 920f0830a310452962eb5dd1c21be63215bf0f03
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025593"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716010"
 ---
 # <a name="lookuprecord-data-block"></a>LookupRecord 数据块
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249570(v=office.15)
 ms:contentKeyID: 48546000
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f25bccd392bfa719e1c71e8742c9b70d06f98d6d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e807a12bd0494e222efbf4d78737386efe182eda
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943925"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719951"
 ---
 # <a name="views-collection-properties-methods-and-events-adox"></a>Views 集合的属性、方法和事件 (ADOX)
 

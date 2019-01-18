@@ -1,19 +1,20 @@
 ---
-title: 创建和执行简单命令
+title: 创建和执行简单的命令
 TOCTitle: Creating and executing a simple command
 ms:assetid: 9ace1abe-cfae-0677-bc57-5cbda85b79db
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 333f8481958914eadbd830600c08035acc92b031
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2229c7580acc6848551103d83b7bfcf981d37bef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947474"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702654"
 ---
-# <a name="creating-and-executing-a-simple-command"></a>创建和执行简单命令
+# <a name="creating-and-executing-a-simple-command"></a>创建和执行简单的命令
 
 
 **适用于**： Access 2013、 Office 2013

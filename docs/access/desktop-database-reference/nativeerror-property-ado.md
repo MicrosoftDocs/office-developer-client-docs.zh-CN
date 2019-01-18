@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249731(v=office.15)
 ms:contentKeyID: 48546685
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d572e7629deca0c7732bafbdfdb0c600ce34a35
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 86734d77cafd8dbe3c26219e291c16b81ef0026b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880178"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705944"
 ---
 # <a name="nativeerror-property-ado"></a>NativeError 属性 (ADO)
 

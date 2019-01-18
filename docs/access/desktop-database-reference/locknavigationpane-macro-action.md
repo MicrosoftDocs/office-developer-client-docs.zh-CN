@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm172454
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48961d9c4a73d9370f542f31c8cbad3192afb3b4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7f6ee19edaf2efdc03301e98e709db6dd69f101a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928822"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717802"
 ---
 # <a name="locknavigationpane-macro-action"></a>LockNavigationPane 宏操作
 

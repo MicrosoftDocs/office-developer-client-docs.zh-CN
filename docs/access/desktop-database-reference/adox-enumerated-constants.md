@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248840(v=office.15)
 ms:contentKeyID: 48543163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ee99f8795dce4587d795b2cea4ac70a74c5eaa7
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 385a3a106c04db11b36ea646368f80fe28ffd413
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910808"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720532"
 ---
 # <a name="adox-enumerated-constants"></a>ADOX 枚举常量
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249668(v=office.15)
 ms:contentKeyID: 48546450
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e740d04b27b0154cd3621d870590cb522c2a239e
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 60de3b25e5eedc277eaafbe4bd1c078863e13f7b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026433"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718719"
 ---
 # <a name="refresh-method-rds"></a>Refresh 方法 (RDS)
 

@@ -1,19 +1,20 @@
 ---
-title: 第 15 章： ADOX 基础知识
+title: 第 15 章：ADOX 基础知识
 TOCTitle: 'Chapter 15: ADOX fundamentals'
 ms:assetid: 973d7579-4f34-3b31-a761-a951ab29e850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6b410fcaa81aa847732e530bd18bc18200f04ebc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0e46920ba47dba018944768ff61c970781e37a02
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936866"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720973"
 ---
-# <a name="chapter-15-adox-fundamentals"></a>第 15 章： ADOX 基础知识
+# <a name="chapter-15-adox-fundamentals"></a>第 15 章：ADOX 基础知识
 
 **适用于**： Access 2013、 Office 2013
 
@@ -29,7 +30,7 @@ Microsoft OLE DB Provider for Microsoft Jet Database Engine 完全支持 ADOX。
 
 本章包括以下主题：
 
-- [对 ADOX 的提供程序支持](provider-support-for-adox.md)
+- [ADOX 的提供程序支持](provider-support-for-adox.md)
 
 有关 ADOX 的更多概述信息，请参阅下列主题：
 

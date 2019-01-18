@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ec96fd588e4b20b6c2ebe0ef25f488841aa4d70
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6b6f16c22e9265159c73279cfa1b2644adbc0277
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998873"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722688"
 ---
 # <a name="setvalue-macro-action"></a>SetValue 宏操作
 
@@ -23,7 +24,7 @@ ms.locfileid: "25998873"
 > - 您不能使用**SetValue**操作设置返回一个 object 访问属性的值。
 > - [!注释] 如果数据库不受信任，将不允许此操作。 
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetValue**操作具有下列参数。
 
@@ -40,7 +41,7 @@ ms.locfileid: "25998873"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Item</strong></p></td>
+<td><p><strong>项</strong></p></td>
 <td><p>字段、 控件或想要设置其值属性的名称。 在宏生成器窗格的<strong>操作参数</strong>部分的<strong>项目</strong>框中输入字段、 控件或属性名称。 您必须使用完整的语法引用此项目，如<em>controlname</em> （对于控件在窗体或报表从中调用宏） 或<strong>表单</strong>！<em>formname</em>！<em>控件名称</em>。 这是必需参数。</p></td>
 </tr>
 <tr class="even">

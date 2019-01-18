@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9c77eabfc0689c6696c4ea6c8b4998b6b345458
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998348"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701919"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25998348"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25998348"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -50,13 +51,13 @@ ms.locfileid: "25998348"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>一个最长 255 个字符的字符串，是正在创建的数据库文件的名称。 它可以是完整路径和文件名称。 如果您的网络支持，您还可以指定一个网络路径，如&quot; \\server1\share1\dir1\db1&quot;。 仅可以使用此方法来创建 Microsoft Access 数据库文件。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>区域设置</em></p></td>
+<td><p><em>Locale</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>一个字符串表达式，根据“设置”中的定义指定创建数据库时使用的整理顺序。必须提供此参数，否则会发生错误。</p></li>
 <li><p>您还可以通过将密码字符串创建新的<strong>Database</strong>对象的密码 (开头&quot;; pwd =&quot; ) 与<em>locale</em>参数，如下所示中的一个常量：</p></li>

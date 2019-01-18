@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
 ms:contentKeyID: 48543246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55faf280d56b90f6033aaba700d3b9fa7a7e2724
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8839d436359a9d08c3ec1d31b1187d74701daac9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869188"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718908"
 ---
 # <a name="catalog-activeconnection-property-example-vc"></a>Catalog 的 ActiveConnection 属性示例 (VC++)
 

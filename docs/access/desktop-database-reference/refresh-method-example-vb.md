@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250071(v=office.15)
 ms:contentKeyID: 48547958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b12b589ca8cf31fef347541384f16d234234daf3
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1ac2613bb0bd60bffb6e547c7372e76e32f4b6ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643204"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722506"
 ---
 # <a name="refresh-method-example-vb"></a>Refresh 方法示例 (VB)
 

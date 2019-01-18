@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7e56fa340ceedd33fbd7f628af0acffee5c32438
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9cd84b6b5441edda2042ce0a63ae25b2cf399bd2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997935"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699882"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25997935"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25997935"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -50,19 +51,19 @@ ms.locfileid: "25997935"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>一个 <strong>String</strong>，对新的 <strong>Workspace</strong> 对象进行唯一命名。有关有效 <strong>Workspace</strong> 名称的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>一个 <strong>String</strong> 类型的值，用于标识新的 <strong>Workspace</strong> 对象的所有者。有关详细信息，请参阅 <strong>UserName</strong> 属性。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Password</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>包含新的<strong>Workspace</strong>对象的密码的<strong>字符串</strong>。 密码长度最多为 20 个字符，并且可以包括除 ASCII 字符 0 (null) 的任何字符。</p>
 <p><strong>注意</strong>： 使用合并和小写字母、 数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
 </td>

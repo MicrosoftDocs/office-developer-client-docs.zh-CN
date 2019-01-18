@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
 ms:contentKeyID: 48545989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 57dbb8d6cf526f51999c22b0cb0fffc84d34f3e3
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6b48d34543de49b68b396cab59b69b64e4f407c4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025803"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721701"
 ---
 # <a name="catalog-properties-methods-and-events-adox"></a>Catalog 的属性、方法和事件 (ADOX)
 

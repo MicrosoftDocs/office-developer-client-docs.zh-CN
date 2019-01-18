@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9de748b85e4bf6076c37f49e9d9bc7ff3b0bfe62
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a5fc1c284ee7aae77c4fb067ad57d50200119594
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947567"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700022"
 ---
 # <a name="datafactory-customization"></a>DataFactory 自定义
 
@@ -32,8 +33,8 @@ ms.locfileid: "25947567"
 
 - [了解自定义文件](understanding-the-customization-file.md)
 - [自定义文件 Connect 节](customization-file-connect-section.md)
-- [自定义文件 SQL 节](customization-file-sql-section.md)
-- [自定义文件 UserList 节](customization-file-userlist-section.md)
-- [自定义文件 Logs 节](customization-file-logs-section.md)
-- [所需的客户端设置](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [自定义文件 SQL 部分](customization-file-sql-section.md)
+- [自定义文件 UserList 部分](customization-file-userlist-section.md)
+- [自定义文件 Logs 部分](customization-file-logs-section.md)
+- [必需的客户端设置](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
 - [编写您自己的自定义处理程序](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

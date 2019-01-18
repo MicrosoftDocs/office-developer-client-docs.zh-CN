@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15)
 ms:contentKeyID: 48546999
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bda6536d76e488c4ede8aff20610bf3eca84210a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3a871be7247da39fd574c9a1398642f3add08574
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877714"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722842"
 ---
 # <a name="isolationlevel-and-mode-properties-example-vb"></a>IsolationLevel 和 Mode 属性示例 (VB)
 

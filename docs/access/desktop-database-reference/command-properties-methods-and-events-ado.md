@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249373(v=office.15)
 ms:contentKeyID: 48545244
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 20454d00d745776e3f45b6a14a34cbcd7fcb838a
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f9b67e44e8374a88f83ee4523d031a055d75bbc3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026440"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720560"
 ---
 # <a name="command-properties-methods-and-events-ado"></a>Command 属性、 方法和事件 (ADO)
 

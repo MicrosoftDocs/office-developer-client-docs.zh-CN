@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250070(v=office.15)
 ms:contentKeyID: 48547954
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85152fe8ca05cadbcd61237fdd06fcde00cc2fe1
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f900fc9dee337ac1892c3174eb614dc809374a63
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910739"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699995"
 ---
 # <a name="datafactory-rdsserver"></a>DataFactory (RDSServer)
 

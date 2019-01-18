@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
 ms:contentKeyID: 48546476
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 23e444b2b10946c815cb25b0ed8aedb7533b89c1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 04508ce14402cb3456fba72b610798b64cffa33a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869062"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722450"
 ---
 # <a name="status-property-example-recordset-vb"></a>Status 属性示例 (Recordset) (VB)
 

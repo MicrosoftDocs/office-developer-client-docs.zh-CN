@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249845(v=office.15)
 ms:contentKeyID: 48547146
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98000723f4169a3625db60d20731a17f0988beee
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fbdf8362796bfec7821e1464400ec1ba00637d6b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945458"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698139"
 ---
 # <a name="users-collection-properties-methods-and-events-adox"></a>Users 集合的属性、方法和事件 (ADOX)
 

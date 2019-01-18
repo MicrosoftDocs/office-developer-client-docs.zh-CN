@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845335(v=office.15)
 ms:contentKeyID: 48543294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6efe2a9f63ff514fccb2c55c992f41eea3d9b2cf
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 377d122821dc95b275c28ecab420748c3d120e0f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997656"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715086"
 ---
 # <a name="workspacerollback-method-dao"></a>Workspace.Rollback 方法 (DAO)
 

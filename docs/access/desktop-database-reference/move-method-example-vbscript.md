@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249198(v=office.15)
 ms:contentKeyID: 48544489
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc2c55b3f4c665860a7d609877823423d87c6690
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4ea9e65098637986de91b6eaf5d770f2a8cab5ec
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881999"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720651"
 ---
 # <a name="move-method-example-vbscript"></a>Move 方法示例 (VBScript)
 

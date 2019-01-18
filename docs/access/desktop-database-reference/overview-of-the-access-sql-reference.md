@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161402(v=office.15)
 ms:contentKeyID: 52074368
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 681578bcf10b64d9d93f77ab024404edcef1839d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 2046041b6994500800315278368abd036c0b277c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943708"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717060"
 ---
 # <a name="overview-of-the-access-sql-reference"></a>Access SQL 引用概述
 

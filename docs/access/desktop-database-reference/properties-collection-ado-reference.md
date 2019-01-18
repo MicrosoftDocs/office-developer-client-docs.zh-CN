@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249684(v=office.15)
 ms:contentKeyID: 48546497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 557e1337b8743ad8ca80841225cb6216c0e3d190
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8efca4f18f68cbbf14beeea11c4f395afd12621f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947285"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700428"
 ---
 # <a name="properties-collection-ado-reference"></a>属性集合 (ADO) 参考
 

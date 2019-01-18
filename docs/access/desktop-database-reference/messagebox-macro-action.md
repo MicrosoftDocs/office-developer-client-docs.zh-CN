@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1175e3903e54fd3420be43dfd9e3652d9990468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944513"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722926"
 ---
 # <a name="messagebox-macro-action"></a>MessageBox 宏操作
 
@@ -19,7 +20,7 @@ ms.locfileid: "25944513"
 
 您可以使用**MessageBox**操作显示包含警告或信息性消息一个消息框。 例如，您可以使用验证宏使用**MessageBox**操作。 当控件或记录失败时在宏中的有效性验证条件时，一个消息框可以显示一条错误消息，并提供有关应输入的数据类型的说明。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **MessageBox**操作具有下列参数。
 

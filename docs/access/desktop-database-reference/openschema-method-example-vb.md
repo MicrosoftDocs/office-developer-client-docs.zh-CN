@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5de504f851bfa228bfaddad8923d7365e25492b
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b1d4f4777d904cd9078217e179bcebb31b7b6a1d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936530"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706133"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema 方法示例 (VB)
 

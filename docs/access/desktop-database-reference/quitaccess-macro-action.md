@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 793e6c2e57f50b5086780d8632952c45f3d4442d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 424b2b2cab9bc4272052a201350a0cc2ab297b8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997979"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698307"
 ---
 # <a name="quitaccess-macro-action"></a>QuitAccess 宏操作
 
@@ -43,7 +44,7 @@ ms.locfileid: "25997979"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Options</strong></p></td>
+<td><p><strong>选项</strong></p></td>
 <td><p>指定在退出 Access 时未保存的对象会出现什么情况。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“选项”</strong>对话框中单击<strong>“提示”</strong>（显示询问是否保存每个对象的对话框）、<strong>“全部保存”</strong>（直接保存所有对象而不使用对话框提示）或<strong>“退出”</strong>（退出而不保存任何对象）。默认值为<strong>“全部保存”</strong>。</p></td>
 </tr>
 </tbody>

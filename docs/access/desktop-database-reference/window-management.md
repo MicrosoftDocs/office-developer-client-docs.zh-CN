@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124489(v=office.15)
 ms:contentKeyID: 52072113
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82a6303f28b42448ee80a54203382a2a814a9aa5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3c3a6ecadd5bcfb5dd540b43e9885422855ad6f8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929081"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721834"
 ---
 # <a name="window-management"></a>窗口管理
 
