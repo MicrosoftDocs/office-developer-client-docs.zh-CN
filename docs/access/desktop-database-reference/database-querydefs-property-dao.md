@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57d28675bf3a7533d9e2dde223e46864f9179f0b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d1a16f2ee39233dc42af0afeb3c07d8c4294ac14
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922046"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720168"
 ---
-# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="25923-102">Database.QueryDefs 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="25923-102">Database.QueryDefs property (DAO)</span></span>
+# <a name="databasequerydefs-property-dao"></a><span data-ttu-id="59b88-102">Database.QueryDefs 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="59b88-102">Database.QueryDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="25923-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="25923-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="59b88-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="59b88-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="25923-p101">返回一个 **QueryDefs** 集合，该集合包含指定数据库的所有 **QueryDef** 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="25923-p101">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database. Read-only.</span></span>
+<span data-ttu-id="59b88-p101">返回一个 **QueryDefs** 集合，该集合包含指定数据库的所有 **QueryDef** 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="59b88-p101">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="25923-106">语法</span><span class="sxs-lookup"><span data-stu-id="25923-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="59b88-106">语法</span><span class="sxs-lookup"><span data-stu-id="59b88-106">Syntax</span></span>
 
-<span data-ttu-id="25923-107">*表达式*。QueryDefs</span><span class="sxs-lookup"><span data-stu-id="25923-107">*expression* .QueryDefs</span></span>
+<span data-ttu-id="59b88-107">*表达式*。QueryDefs</span><span class="sxs-lookup"><span data-stu-id="59b88-107">*expression* .QueryDefs</span></span>
 
-<span data-ttu-id="25923-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="25923-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="59b88-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="59b88-108">*expression* A variable that represents a **Database** object.</span></span>
 

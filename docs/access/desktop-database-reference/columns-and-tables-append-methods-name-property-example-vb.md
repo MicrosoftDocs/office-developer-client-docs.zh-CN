@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
 ms:contentKeyID: 48544238
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f017092a5bd68a4fbde7cc1a7ceab9ccf3ff2900
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d68078c24f2bee9f935b71d60cb15986d26d00ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872555"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721519"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="a6351-102">Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a6351-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="016de-102">Columns 和 Tables 的 Append 方法、 Name 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="016de-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="a6351-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6351-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="016de-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="016de-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a6351-104">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="a6351-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="016de-104">下面的代码演示如何创建新表。</span><span class="sxs-lookup"><span data-stu-id="016de-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

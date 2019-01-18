@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250241(v=office.15)
 ms:contentKeyID: 48548691
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efb33fbcccaac26f6a169761235a88a49ec0cfa8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a9b7790e74234ccd185f838aa4df069046f0bfde
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869867"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722457"
 ---
-# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="1ea5d-102">MarshalOptions 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="1ea5d-102">MarshalOptions property example (VB)</span></span>
+# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="470e3-102">MarshalOptions 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="470e3-102">MarshalOptions property example (VB)</span></span>
 
 
-<span data-ttu-id="1ea5d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ea5d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="470e3-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="470e3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1ea5d-104">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="1ea5d-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="470e3-104">本示例使用 [MarshalOptions](marshaloptions-property-ado.md) 属性指定要发送回服务器的行  所有行或仅已修改的行。</span><span class="sxs-lookup"><span data-stu-id="470e3-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```vb 
  

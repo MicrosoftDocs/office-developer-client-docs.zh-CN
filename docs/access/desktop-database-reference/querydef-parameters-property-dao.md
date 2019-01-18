@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053177
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 82aaad563e2fcd630b013d5609d295ae91238d8a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c8d22afd7c91c50020fcf7ef603a475e65968693
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923859"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717578"
 ---
-# <a name="querydefparameters-property-dao"></a><span data-ttu-id="b8af9-102">QueryDef.Parameters 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b8af9-102">QueryDef.Parameters property (DAO)</span></span>
+# <a name="querydefparameters-property-dao"></a><span data-ttu-id="aab74-102">QueryDef.Parameters 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="aab74-102">QueryDef.Parameters property (DAO)</span></span>
 
 
-<span data-ttu-id="b8af9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8af9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="aab74-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="aab74-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b8af9-p101">返回一个 **[Parameters](parameters-collection-dao.md)** 集合，该集合包含指定 [QueryDef](parameter-object-dao.md) 的所有 \*\*\*\*Parameter\*\*\*\* 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="b8af9-p101">Returns a **[Parameters](parameters-collection-dao.md)** collection that contains all of the **[Parameter](parameter-object-dao.md)** objects of the specified **QueryDef**. Read-only.</span></span>
+<span data-ttu-id="aab74-p101">返回一个 **[Parameters](parameters-collection-dao.md)** 集合，该集合包含指定 [QueryDef](parameter-object-dao.md) 的所有 \*\*\*\*Parameter\*\*\*\* 对象。只读。</span><span class="sxs-lookup"><span data-stu-id="aab74-p101">Returns a **[Parameters](parameters-collection-dao.md)** collection that contains all of the **[Parameter](parameter-object-dao.md)** objects of the specified **QueryDef**. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b8af9-106">语法</span><span class="sxs-lookup"><span data-stu-id="b8af9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aab74-106">语法</span><span class="sxs-lookup"><span data-stu-id="aab74-106">Syntax</span></span>
 
-<span data-ttu-id="b8af9-107">*表达式*。参数</span><span class="sxs-lookup"><span data-stu-id="b8af9-107">*expression* .Parameters</span></span>
+<span data-ttu-id="aab74-107">*表达式*。参数</span><span class="sxs-lookup"><span data-stu-id="aab74-107">*expression* .Parameters</span></span>
 
-<span data-ttu-id="b8af9-108">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="b8af9-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="aab74-108">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="aab74-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 

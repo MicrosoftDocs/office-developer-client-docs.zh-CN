@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
 ms:contentKeyID: 48547798
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13d0173886b2b75d6e416d242eb6f437c97418ec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7b4b12fb7a9bbe8d3363574936d63d1c5f175665
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884721"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713336"
 ---
-# <a name="filter-and-recordcount-properties-example-vj"></a><span data-ttu-id="3fee8-102">Filter 和 RecordCount 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="3fee8-102">Filter and RecordCount properties example (VJ++)</span></span>
+# <a name="filter-and-recordcount-properties-example-vj"></a><span data-ttu-id="b0372-102">Filter 和 RecordCount 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b0372-102">Filter and RecordCount properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="3fee8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fee8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b0372-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0372-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3fee8-p101">本示例使用 [Filter](filter-property-ado.md) 属性根据应用于现有 [Recordset](recordset-object-ado.md) 的指定条件打开一个新的 **Recordset**。使用 [RecordCount](recordcount-property-ado.md) 属性来显示两个 **Recordset** 中的记录数。运行此过程需要使用 FilterField 函数。</span><span class="sxs-lookup"><span data-stu-id="3fee8-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
+<span data-ttu-id="b0372-p101">本示例使用 [Filter](filter-property-ado.md) 属性根据应用于现有 [Recordset](recordset-object-ado.md) 的指定条件打开一个新的 **Recordset**。使用 [RecordCount](recordcount-property-ado.md) 属性来显示两个 **Recordset** 中的记录数。运行此过程需要使用 FilterField 函数。</span><span class="sxs-lookup"><span data-stu-id="b0372-p101">This example uses the [Filter](filter-property-ado.md) property to open a new [Recordset](recordset-object-ado.md) based on a specified condition applied to an existing **Recordset**. It uses the [RecordCount](recordcount-property-ado.md) property to show the number of records in the two **Recordsets**. The FilterField function is required for this procedure to run.</span></span>
 
 ```java 
  

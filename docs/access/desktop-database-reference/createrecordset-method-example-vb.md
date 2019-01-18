@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249943(v=office.15)
 ms:contentKeyID: 48547536
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 427159a5f9bf73081e459dfe11cdb13dc3969cf0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 79d4bcb9547cdfd9b72dda71c8591a1ad009890b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877329"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719874"
 ---
-# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="51e18-102">CreateRecordset 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="51e18-102">CreateRecordset method example (VB)</span></span>
+# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="5fffc-102">CreateRecordset 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="5fffc-102">CreateRecordset method example (VB)</span></span>
 
 
-<span data-ttu-id="51e18-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="51e18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5fffc-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5fffc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="51e18-p101">您可以创建一个 [Recordset](recordset-object-ado.md) 对象并指定列信息。然后，可以将数据插入到该 **Recordset** 对象中；基础行集将缓冲插入的内容。</span><span class="sxs-lookup"><span data-stu-id="51e18-p101">You can create a [Recordset](recordset-object-ado.md) object and specify the column information. You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
+<span data-ttu-id="5fffc-p101">您可以创建一个 [Recordset](recordset-object-ado.md) 对象并指定列信息。然后，可以将数据插入到该 **Recordset** 对象中；基础行集将缓冲插入的内容。</span><span class="sxs-lookup"><span data-stu-id="5fffc-p101">You can create a [Recordset](recordset-object-ado.md) object and specify the column information. You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
 
-<span data-ttu-id="51e18-p102">下面的代码示例演示如何使用 **RDSServer.DataFactory** 对象来定义 [Recordset](datafactory-object-rdsserver.md) 。您也可以使用 [RDS.DataControl](datacontrol-object-rds.md) 对象来实现此目的。</span><span class="sxs-lookup"><span data-stu-id="51e18-p102">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object. You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
+<span data-ttu-id="5fffc-p102">下面的代码示例演示如何使用 **RDSServer.DataFactory** 对象来定义 [Recordset](datafactory-object-rdsserver.md) 。您也可以使用 [RDS.DataControl](datacontrol-object-rds.md) 对象来实现此目的。</span><span class="sxs-lookup"><span data-stu-id="5fffc-p102">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object. You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
 
 ```vb 
  
