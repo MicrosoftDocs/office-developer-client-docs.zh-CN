@@ -10,31 +10,32 @@ f1_keywords:
 - dao360.chm1101179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1801d03eb874f5d3dec16e2adcc8595c0a88eb84
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7693f89f07413772ea961a61c86e9c5448c4c449
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928934"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706644"
 ---
-# <a name="recordsetbatchsize-property-dao"></a><span data-ttu-id="a8097-102">Recordset.BatchSize 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8097-102">Recordset.BatchSize property (DAO)</span></span>
+# <a name="recordsetbatchsize-property-dao"></a><span data-ttu-id="76e87-102">Recordset.BatchSize 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="76e87-102">Recordset.BatchSize property (DAO)</span></span>
 
 
-<span data-ttu-id="a8097-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a8097-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76e87-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="76e87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a8097-104">语法</span><span class="sxs-lookup"><span data-stu-id="a8097-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="76e87-104">语法</span><span class="sxs-lookup"><span data-stu-id="76e87-104">Syntax</span></span>
 
-<span data-ttu-id="a8097-105">*表达式*。BatchSize</span><span class="sxs-lookup"><span data-stu-id="a8097-105">*expression* .BatchSize</span></span>
+<span data-ttu-id="76e87-105">*表达式*。BatchSize</span><span class="sxs-lookup"><span data-stu-id="76e87-105">*expression* .BatchSize</span></span>
 
-<span data-ttu-id="a8097-106">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="a8097-106">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="76e87-106">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="76e87-106">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a8097-107">注解</span><span class="sxs-lookup"><span data-stu-id="a8097-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="76e87-107">注解</span><span class="sxs-lookup"><span data-stu-id="76e87-107">Remarks</span></span>
 
-<span data-ttu-id="a8097-p101">**BatchSize** 属性确定在批更新中将语句发送到服务器时使用的批大小。该属性的值决定了在一个命令缓冲中发送到服务器的语句数。默认情况下，在每次批处理中将 15 个语句发送到服务器。可以随时更改该属性。如果数据库服务器不支持语句批处理，可以将该属性设置为 1，这样就会导致单独发送每个语句。</span><span class="sxs-lookup"><span data-stu-id="a8097-p101">The **BatchSize** property determines the batch size used when sending statements to the server in a batch update. The value of the property determines the number of statements sent to the server in one command buffer. By default, 15 statements are sent to the server in each batch. This property can be changed at any time. If a database server doesn't support statement batching, you can set this property to 1, causing each statement to be sent separately.</span></span>
+<span data-ttu-id="76e87-p101">**BatchSize** 属性确定在批更新中将语句发送到服务器时使用的批大小。该属性的值决定了在一个命令缓冲中发送到服务器的语句数。默认情况下，在每次批处理中将 15 个语句发送到服务器。可以随时更改该属性。如果数据库服务器不支持语句批处理，可以将该属性设置为 1，这样就会导致单独发送每个语句。</span><span class="sxs-lookup"><span data-stu-id="76e87-p101">The **BatchSize** property determines the batch size used when sending statements to the server in a batch update. The value of the property determines the number of statements sent to the server in one command buffer. By default, 15 statements are sent to the server in each batch. This property can be changed at any time. If a database server doesn't support statement batching, you can set this property to 1, causing each statement to be sent separately.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a8097-113">示例</span><span class="sxs-lookup"><span data-stu-id="a8097-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="76e87-113">示例</span><span class="sxs-lookup"><span data-stu-id="76e87-113">Example</span></span>
 
-<span data-ttu-id="a8097-114">以下示例使用 **BatchSize** 和 **UpdateOptions** 属性控制指定的 Recordset 对象的任何批更新的各个方面。</span><span class="sxs-lookup"><span data-stu-id="a8097-114">This example uses the **BatchSize** and **UpdateOptions** properties to control aspects of any batch updating for the specified Recordset object.</span></span>
+<span data-ttu-id="76e87-114">以下示例使用 **BatchSize** 和 **UpdateOptions** 属性控制指定的 Recordset 对象的任何批更新的各个方面。</span><span class="sxs-lookup"><span data-stu-id="76e87-114">This example uses the **BatchSize** and **UpdateOptions** properties to control aspects of any batch updating for the specified Recordset object.</span></span>
 
 ```vb 
 Sub BatchSizeX() 

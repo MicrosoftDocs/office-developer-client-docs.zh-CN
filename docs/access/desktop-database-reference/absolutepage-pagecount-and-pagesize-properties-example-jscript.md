@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15)
 ms:contentKeyID: 48545506
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2ddb330670b1453dcdeff975a81ba72832b0ed9d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ab6600c6fd1794e860f432f41e4733690cc516af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888361"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708275"
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="efc35-102">AbsolutePage、PageCount 和 PageSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="efc35-102">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="d2f15-102">AbsolutePage、PageCount 和 PageSize 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="d2f15-102">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
 
-<span data-ttu-id="efc35-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="efc35-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2f15-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2f15-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="efc35-104">此示例使用 [AbsolutePage](absolutepage-property-ado.md)、[PageCount](pagecount-property-ado.md) 和 [PageSize](pagesize-property-ado.md) 属性显示 ***Employees***（雇员）表中的姓名和雇用日期，每次显示五条记录。</span><span class="sxs-lookup"><span data-stu-id="efc35-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="efc35-105">请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **AbsolutePageJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="efc35-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
+<span data-ttu-id="d2f15-104">此示例使用 [AbsolutePage](absolutepage-property-ado.md)、[PageCount](pagecount-property-ado.md) 和 [PageSize](pagesize-property-ado.md) 属性显示 ***Employees***（雇员）表中的姓名和雇用日期，每次显示五条记录。</span><span class="sxs-lookup"><span data-stu-id="d2f15-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="d2f15-105">请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **AbsolutePageJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="d2f15-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 

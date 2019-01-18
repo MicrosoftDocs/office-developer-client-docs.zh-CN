@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823054(v=office.15)
 ms:contentKeyID: 48547580
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 169982df924f165c4f2e9705e63af3e0c086f43f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5917e3b86c373d86cad59f3ad9f2bcbba83c40d0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925133"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706560"
 ---
-# <a name="containername-property-dao"></a><span data-ttu-id="390be-102">Container.Name 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="390be-102">Container.Name property (DAO)</span></span>
+# <a name="containername-property-dao"></a><span data-ttu-id="61a36-102">Container.Name 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="61a36-102">Container.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="390be-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="390be-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="61a36-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="61a36-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="390be-p101">返回指定对象的名称。只读 **String**。</span><span class="sxs-lookup"><span data-stu-id="390be-p101">Returns the name of the specified object. Read-only **String**.</span></span>
+<span data-ttu-id="61a36-p101">返回指定对象的名称。只读 **String**。</span><span class="sxs-lookup"><span data-stu-id="61a36-p101">Returns the name of the specified object. Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="390be-106">语法</span><span class="sxs-lookup"><span data-stu-id="390be-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="61a36-106">语法</span><span class="sxs-lookup"><span data-stu-id="61a36-106">Syntax</span></span>
 
-<span data-ttu-id="390be-107">*表达式*。名称</span><span class="sxs-lookup"><span data-stu-id="390be-107">*expression* .Name</span></span>
+<span data-ttu-id="61a36-107">*表达式*。名称</span><span class="sxs-lookup"><span data-stu-id="61a36-107">*expression* .Name</span></span>
 
-<span data-ttu-id="390be-108">*表达式*代表**容器**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="390be-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="61a36-108">*表达式*代表**容器**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="61a36-108">*expression* A variable that represents a **Container** object.</span></span>
 

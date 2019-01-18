@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15)
 ms:contentKeyID: 48543293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f1ebd893418cde5b499be9d34c7d50aadff78f3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 75556927bc5d3e10526da6a45bfe1e4f6d8abea2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872758"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710053"
 ---
-# <a name="clustered-property-example-vb"></a><span data-ttu-id="72dc2-102">Clustered 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="72dc2-102">Clustered property example (VB)</span></span>
+# <a name="clustered-property-example-vb"></a><span data-ttu-id="fddae-102">Clustered 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="fddae-102">Clustered property example (VB)</span></span>
 
 
-<span data-ttu-id="72dc2-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="72dc2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fddae-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="fddae-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="72dc2-104">本示例演示 [Index](clustered-property-adox.md) 的 [Clustered](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="72dc2-104">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="72dc2-105">请注意，Microsoft Jet 数据库不支持聚簇的索引，因此本示例将返回**False**的**Clustered**属性的*Northwind*数据库中的所有索引。</span><span class="sxs-lookup"><span data-stu-id="72dc2-105">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
+<span data-ttu-id="fddae-104">本示例演示 [Index](clustered-property-adox.md) 的 [Clustered](index-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="fddae-104">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="fddae-105">请注意，Microsoft Jet 数据库不支持聚簇的索引，因此本示例将返回**False**的**Clustered**属性的*Northwind*数据库中的所有索引。</span><span class="sxs-lookup"><span data-stu-id="fddae-105">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
 
 ```vb 
  

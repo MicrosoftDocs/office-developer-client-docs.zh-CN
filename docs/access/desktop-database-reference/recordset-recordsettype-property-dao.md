@@ -10,65 +10,29 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 64f7dda8bec7806ef510d265deab350dc3cdad6b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026209"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709654"
 ---
-# <a name="recordsetrecordsettype-property-dao"></a><span data-ttu-id="2f344-102">Recordset.RecordsetType 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="2f344-102">Recordset.RecordsetType property (DAO)</span></span>
+# <a name="recordsetrecordsettype-property-dao"></a><span data-ttu-id="accb7-102">Recordset.RecordsetType 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="accb7-102">Recordset.RecordsetType property (DAO)</span></span>
 
-<span data-ttu-id="2f344-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f344-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="accb7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="accb7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2f344-p101">使用 **RecordsetType** 属性可以指定何种类型的记录集可以在窗体中使用。 **Byte** 型，可读写。</span><span class="sxs-lookup"><span data-stu-id="2f344-p101">You can use the **RecordsetType** property to specify what kind of recordset is made available to a form. Read/write **Byte**.</span></span>
+<span data-ttu-id="accb7-p101">使用 **RecordsetType** 属性可以指定何种类型的记录集可以在窗体中使用。 **Byte** 型，可读写。</span><span class="sxs-lookup"><span data-stu-id="accb7-p101">You can use the **RecordsetType** property to specify what kind of recordset is made available to a form. Read/write **Byte**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2f344-106">语法</span><span class="sxs-lookup"><span data-stu-id="2f344-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="accb7-106">语法</span><span class="sxs-lookup"><span data-stu-id="accb7-106">Syntax</span></span>
 
-<span data-ttu-id="2f344-107">*表达式*。RecordsetType</span><span class="sxs-lookup"><span data-stu-id="2f344-107">*expression* .RecordsetType</span></span>
+<span data-ttu-id="accb7-107">*表达式*。RecordsetType</span><span class="sxs-lookup"><span data-stu-id="accb7-107">*expression* .RecordsetType</span></span>
 
-<span data-ttu-id="2f344-108">*expression* 一个代表 **表单** 对象的变量。</span><span class="sxs-lookup"><span data-stu-id="2f344-108">*expression* A variable that represents a **Form** object.</span></span>
+<span data-ttu-id="accb7-108">*expression* 一个代表 **表单** 对象的变量。</span><span class="sxs-lookup"><span data-stu-id="accb7-108">*expression* A variable that represents a **Form** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2f344-109">注解</span><span class="sxs-lookup"><span data-stu-id="2f344-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="accb7-109">注解</span><span class="sxs-lookup"><span data-stu-id="accb7-109">Remarks</span></span>
 
-<span data-ttu-id="2f344-110">**RecordsetType** 属性在 Microsoft Access 数据库 中使用以下设置：</span><span class="sxs-lookup"><span data-stu-id="2f344-110">The **RecordsetType** property uses the following settings in a Microsoft Access database.</span></span>
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><span data-ttu-id="2f344-111">设置</span><span class="sxs-lookup"><span data-stu-id="2f344-111">Setting</span></span></p></th>
-<th><p><span data-ttu-id="2f344-112">记录集类型</span><span class="sxs-lookup"><span data-stu-id="2f344-112">Type of Recordset</span></span></p></th>
-<th><p><span data-ttu-id="2f344-113">说明</span><span class="sxs-lookup"><span data-stu-id="2f344-113">Description</span></span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="2f344-114">0</span><span class="sxs-lookup"><span data-stu-id="2f344-114">0</span></span></p></td>
-<td><p><span data-ttu-id="2f344-115">动态集</span><span class="sxs-lookup"><span data-stu-id="2f344-115">Dynaset</span></span></p></td>
-<td><p><span data-ttu-id="2f344-116">（默认值）您可以编辑基于单个表或具有一对一关系的表绑定的控件。</span><span class="sxs-lookup"><span data-stu-id="2f344-116">(Default) You can edit bound controls based on a single table or tables with a one-to-one relationship.</span></span> <span data-ttu-id="2f344-117">对于基于具有-一对多关系的表的字段绑定控件，您不能编辑的联接字段中的数据，在&quot;一个&quot;除非级联更新启用表之间的关系侧。</span><span class="sxs-lookup"><span data-stu-id="2f344-117">For controls bound to fields based on tables with a one-to-many relationship, you can't edit data from the join field on the &quot;one&quot; side of the relationship unless cascade update is enabled between the tables.</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="2f344-118">1</span><span class="sxs-lookup"><span data-stu-id="2f344-118">1</span></span></p></td>
-<td><p><span data-ttu-id="2f344-119">动态集（不一致的更新）</span><span class="sxs-lookup"><span data-stu-id="2f344-119">Dynaset (Inconsistent Updates)</span></span></p></td>
-<td><p><span data-ttu-id="2f344-120">所有绑定到其字段的表和控件都可以编辑。</span><span class="sxs-lookup"><span data-stu-id="2f344-120">All tables and controls bound to their fields can be edited.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="2f344-121">2</span><span class="sxs-lookup"><span data-stu-id="2f344-121">2</span></span></p></td>
-<td><p><span data-ttu-id="2f344-122">快照</span><span class="sxs-lookup"><span data-stu-id="2f344-122">Snapshot</span></span></p></td>
-<td><p><span data-ttu-id="2f344-123">绑定到其字段的表和控件都不能编辑。</span><span class="sxs-lookup"><span data-stu-id="2f344-123">No tables or the controls bound to their fields can be edited.</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-> [!NOTE]
-> <span data-ttu-id="2f344-124">[!注释] 如果不希望在窗体位于窗体视图或数据表视图中时编辑绑定控件中的数据，可将 **RecordsetType** 属性设置为 2。</span><span class="sxs-lookup"><span data-stu-id="2f344-124">If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the **RecordsetType** property to 2.</span></span>
-
-<span data-ttu-id="2f344-125">**RecordsetType** 属性在 Microsoft Access 项目 (.adp) 中使用以下设置：</span><span class="sxs-lookup"><span data-stu-id="2f344-125">The **RecordsetType** property uses the following settings in a Microsoft Access project (.adp).</span></span>
+<span data-ttu-id="accb7-110">**RecordsetType** 属性在 Microsoft Access 数据库 中使用以下设置：</span><span class="sxs-lookup"><span data-stu-id="accb7-110">The **RecordsetType** property uses the following settings in a Microsoft Access database.</span></span>
 
 <table>
 <colgroup>
@@ -78,35 +42,72 @@ ms.locfileid: "26026209"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2f344-126">设置</span><span class="sxs-lookup"><span data-stu-id="2f344-126">Setting</span></span></p></th>
-<th><p><span data-ttu-id="2f344-127">记录集类型</span><span class="sxs-lookup"><span data-stu-id="2f344-127">Type of Recordset</span></span></p></th>
-<th><p><span data-ttu-id="2f344-128">说明</span><span class="sxs-lookup"><span data-stu-id="2f344-128">Description</span></span></p></th>
+<th><p><span data-ttu-id="accb7-111">设置</span><span class="sxs-lookup"><span data-stu-id="accb7-111">Setting</span></span></p></th>
+<th><p><span data-ttu-id="accb7-112">记录集类型</span><span class="sxs-lookup"><span data-stu-id="accb7-112">Type of Recordset</span></span></p></th>
+<th><p><span data-ttu-id="accb7-113">说明</span><span class="sxs-lookup"><span data-stu-id="accb7-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2f344-129">3</span><span class="sxs-lookup"><span data-stu-id="2f344-129">3</span></span></p></td>
-<td><p><span data-ttu-id="2f344-130">快照</span><span class="sxs-lookup"><span data-stu-id="2f344-130">Snapshot</span></span></p></td>
-<td><p><span data-ttu-id="2f344-131">绑定到其字段的表和控件都不能编辑。</span><span class="sxs-lookup"><span data-stu-id="2f344-131">No tables or the controls bound to their fields can be edited.</span></span></p></td>
+<td><p><span data-ttu-id="accb7-114">0</span><span class="sxs-lookup"><span data-stu-id="accb7-114">0</span></span></p></td>
+<td><p><span data-ttu-id="accb7-115">动态集</span><span class="sxs-lookup"><span data-stu-id="accb7-115">Dynaset</span></span></p></td>
+<td><p><span data-ttu-id="accb7-116">（默认值）您可以编辑基于单个表或具有一对一关系的表绑定的控件。</span><span class="sxs-lookup"><span data-stu-id="accb7-116">(Default) You can edit bound controls based on a single table or tables with a one-to-one relationship.</span></span> <span data-ttu-id="accb7-117">对于基于具有-一对多关系的表的字段绑定控件，您不能编辑的联接字段中的数据，在&quot;一个&quot;除非级联更新启用表之间的关系侧。</span><span class="sxs-lookup"><span data-stu-id="accb7-117">For controls bound to fields based on tables with a one-to-many relationship, you can't edit data from the join field on the &quot;one&quot; side of the relationship unless cascade update is enabled between the tables.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2f344-132">4</span><span class="sxs-lookup"><span data-stu-id="2f344-132">4</span></span></p></td>
-<td><p><span data-ttu-id="2f344-133">可更新快照</span><span class="sxs-lookup"><span data-stu-id="2f344-133">Updatable Snapshot</span></span></p></td>
-<td><p><span data-ttu-id="2f344-134">（默认值）所有绑定到其字段的表和控件都可以编辑。</span><span class="sxs-lookup"><span data-stu-id="2f344-134">(Default) All tables and controls bound to their fields can be edited.</span></span></p></td>
+<td><p><span data-ttu-id="accb7-118">1</span><span class="sxs-lookup"><span data-stu-id="accb7-118">1</span></span></p></td>
+<td><p><span data-ttu-id="accb7-119">动态集（不一致的更新）</span><span class="sxs-lookup"><span data-stu-id="accb7-119">Dynaset (Inconsistent Updates)</span></span></p></td>
+<td><p><span data-ttu-id="accb7-120">所有绑定到其字段的表和控件都可以编辑。</span><span class="sxs-lookup"><span data-stu-id="accb7-120">All tables and controls bound to their fields can be edited.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="accb7-121">2</span><span class="sxs-lookup"><span data-stu-id="accb7-121">2</span></span></p></td>
+<td><p><span data-ttu-id="accb7-122">快照</span><span class="sxs-lookup"><span data-stu-id="accb7-122">Snapshot</span></span></p></td>
+<td><p><span data-ttu-id="accb7-123">绑定到其字段的表和控件都不能编辑。</span><span class="sxs-lookup"><span data-stu-id="accb7-123">No tables or the controls bound to their fields can be edited.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="2f344-135">[!注释] 更改打开的窗体或报表的 **RecordsetType** 属性时，将会引起自动重新创建记录集。</span><span class="sxs-lookup"><span data-stu-id="2f344-135">Changing the **RecordsetType** property of an open form or report causes an automatic recreation of the recordset.</span></span>
+> <span data-ttu-id="accb7-124">[!注释] 如果不希望在窗体位于窗体视图或数据表视图中时编辑绑定控件中的数据，可将 **RecordsetType** 属性设置为 2。</span><span class="sxs-lookup"><span data-stu-id="accb7-124">If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the **RecordsetType** property to 2.</span></span>
 
-<span data-ttu-id="2f344-p103">可以基于其字段绑定到窗体控件的多个基础表创建窗体。根据 **RecordsetType** 属性设置的不同，可以设置能够编辑哪些绑定控件。</span><span class="sxs-lookup"><span data-stu-id="2f344-p103">You can create forms based on multiple underlying tables with fields bound to controls on the forms. Depending on the **RecordsetType** property setting, you can limit which of these bound controls can be edited.</span></span>
+<span data-ttu-id="accb7-125">**RecordsetType** 属性在 Microsoft Access 项目 (.adp) 中使用以下设置：</span><span class="sxs-lookup"><span data-stu-id="accb7-125">The **RecordsetType** property uses the following settings in a Microsoft Access project (.adp).</span></span>
 
-<span data-ttu-id="2f344-138">除了由**RecordsetType**提供的编辑控件，窗体上的每个控件具有**Locked**属性可设置来指定是否可编辑控件和其基础数据。</span><span class="sxs-lookup"><span data-stu-id="2f344-138">In addition to the editing control provided by **RecordsetType**, each control on a form has a **Locked** property that you can set to specify whether the control and its underlying data can be edited.</span></span> <span data-ttu-id="2f344-139">如果 **Locked** 属性设为"是"，则不能编辑数据。</span><span class="sxs-lookup"><span data-stu-id="2f344-139">If the **Locked** property is set to Yes, you can't edit the data.</span></span>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="accb7-126">设置</span><span class="sxs-lookup"><span data-stu-id="accb7-126">Setting</span></span></p></th>
+<th><p><span data-ttu-id="accb7-127">记录集类型</span><span class="sxs-lookup"><span data-stu-id="accb7-127">Type of Recordset</span></span></p></th>
+<th><p><span data-ttu-id="accb7-128">说明</span><span class="sxs-lookup"><span data-stu-id="accb7-128">Description</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="accb7-129">3</span><span class="sxs-lookup"><span data-stu-id="accb7-129">3</span></span></p></td>
+<td><p><span data-ttu-id="accb7-130">快照</span><span class="sxs-lookup"><span data-stu-id="accb7-130">Snapshot</span></span></p></td>
+<td><p><span data-ttu-id="accb7-131">绑定到其字段的表和控件都不能编辑。</span><span class="sxs-lookup"><span data-stu-id="accb7-131">No tables or the controls bound to their fields can be edited.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="accb7-132">4</span><span class="sxs-lookup"><span data-stu-id="accb7-132">4</span></span></p></td>
+<td><p><span data-ttu-id="accb7-133">可更新快照</span><span class="sxs-lookup"><span data-stu-id="accb7-133">Updatable Snapshot</span></span></p></td>
+<td><p><span data-ttu-id="accb7-134">（默认值）所有绑定到其字段的表和控件都可以编辑。</span><span class="sxs-lookup"><span data-stu-id="accb7-134">(Default) All tables and controls bound to their fields can be edited.</span></span></p></td>
+</tr>
+</tbody>
+</table>
 
-## <a name="example"></a><span data-ttu-id="2f344-140">示例</span><span class="sxs-lookup"><span data-stu-id="2f344-140">Example</span></span>
+> [!NOTE]
+> <span data-ttu-id="accb7-135">[!注释] 更改打开的窗体或报表的 **RecordsetType** 属性时，将会引起自动重新创建记录集。</span><span class="sxs-lookup"><span data-stu-id="accb7-135">Changing the **RecordsetType** property of an open form or report causes an automatic recreation of the recordset.</span></span>
 
-<span data-ttu-id="2f344-p105">在下面的示例中，只有当用户 ID 为 ADMIN 时，才允许更新记录。如果公共变量的值不是 ADMIN，则该代码示例会将 gstrUserID**RecordsetType** 属性设置为“快照”。</span><span class="sxs-lookup"><span data-stu-id="2f344-p105">In the following example, only if the user ID is ADMIN can records be updated. This code sample sets the **RecordsetType** property to Snapshot if the public variable gstrUserID value is not ADMIN.</span></span>
+<span data-ttu-id="accb7-p103">可以基于其字段绑定到窗体控件的多个基础表创建窗体。根据 **RecordsetType** 属性设置的不同，可以设置能够编辑哪些绑定控件。</span><span class="sxs-lookup"><span data-stu-id="accb7-p103">You can create forms based on multiple underlying tables with fields bound to controls on the forms. Depending on the **RecordsetType** property setting, you can limit which of these bound controls can be edited.</span></span>
+
+<span data-ttu-id="accb7-138">除了由**RecordsetType**提供的编辑控件，窗体上的每个控件具有**Locked**属性可设置来指定是否可编辑控件和其基础数据。</span><span class="sxs-lookup"><span data-stu-id="accb7-138">In addition to the editing control provided by **RecordsetType**, each control on a form has a **Locked** property that you can set to specify whether the control and its underlying data can be edited.</span></span> <span data-ttu-id="accb7-139">如果 **Locked** 属性设为"是"，则不能编辑数据。</span><span class="sxs-lookup"><span data-stu-id="accb7-139">If the **Locked** property is set to Yes, you can't edit the data.</span></span>
+
+## <a name="example"></a><span data-ttu-id="accb7-140">示例</span><span class="sxs-lookup"><span data-stu-id="accb7-140">Example</span></span>
+
+<span data-ttu-id="accb7-p105">在下面的示例中，只有当用户 ID 为 ADMIN 时，才允许更新记录。如果公共变量的值不是 ADMIN，则该代码示例会将 gstrUserID**RecordsetType** 属性设置为“快照”。</span><span class="sxs-lookup"><span data-stu-id="accb7-p105">In the following example, only if the user ID is ADMIN can records be updated. This code sample sets the **RecordsetType** property to Snapshot if the public variable gstrUserID value is not ADMIN.</span></span>
 
 ```vb
     Sub Form_Open(Cancel As Integer) 
@@ -117,8 +118,8 @@ ms.locfileid: "26026209"
     End Sub
 ```
 
-## <a name="see-also"></a><span data-ttu-id="2f344-143">另请参阅</span><span class="sxs-lookup"><span data-stu-id="2f344-143">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="accb7-143">另请参阅</span><span class="sxs-lookup"><span data-stu-id="accb7-143">See also</span></span>
 
-- [<span data-ttu-id="2f344-144">Form 对象</span><span class="sxs-lookup"><span data-stu-id="2f344-144">Form Object</span></span>](https://docs.microsoft.com/office/vba/api/Access.Form)
+- [<span data-ttu-id="accb7-144">Form 对象</span><span class="sxs-lookup"><span data-stu-id="accb7-144">Form Object</span></span>](https://docs.microsoft.com/office/vba/api/Access.Form)
 
 

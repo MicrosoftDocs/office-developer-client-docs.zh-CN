@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
 ms:contentKeyID: 48544485
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c8816e7883cbccb23425ddb057e0c811338b2bc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c8eeafa97b2b27f157136674372061d3074e5f01
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867417"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708170"
 ---
-# <a name="stayinsync-property-example-vc"></a><span data-ttu-id="76edd-102">StayInSync 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="76edd-102">StayInSync property example (VC++)</span></span>
+# <a name="stayinsync-property-example-vc"></a><span data-ttu-id="49123-102">StayInSync 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="49123-102">StayInSync property example (VC++)</span></span>
 
 
-<span data-ttu-id="76edd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="76edd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="49123-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="49123-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="76edd-104">本示例演示 [StayInSync](stayinsync-property-ado.md) 属性如何帮助访问分级 [Recordset](recordset-object-ado.md) 中的行。</span><span class="sxs-lookup"><span data-stu-id="76edd-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="49123-104">本示例演示 [StayInSync](stayinsync-property-ado.md) 属性如何帮助访问分级 [Recordset](recordset-object-ado.md) 中的行。</span><span class="sxs-lookup"><span data-stu-id="49123-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="76edd-p101">外部循环显示每个作者的姓名、状态和 ID。每行的追加 **Recordset** 检索自 [Fields](fields-collection-ado.md) 集合并在父 **Recordset** 移至新行时通过 **StayInSync** 属性自动赋值给 **rstTitleAuthor** 。内部循环显示追加的记录集中每行的四个字段。</span><span class="sxs-lookup"><span data-stu-id="76edd-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="49123-p101">外部循环显示每个作者的姓名、状态和 ID。每行的追加 **Recordset** 检索自 [Fields](fields-collection-ado.md) 集合并在父 **Recordset** 移至新行时通过 **StayInSync** 属性自动赋值给 **rstTitleAuthor** 。内部循环显示追加的记录集中每行的四个字段。</span><span class="sxs-lookup"><span data-stu-id="49123-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```cpp 
  
