@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249326(v=office.15)
 ms:contentKeyID: 48545089
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a3aebecd1b93539a8e1cd8e37d7b9f0d81fdc6f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1419abb5dc66a59594284cf319487ef980bf62f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930635"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712881"
 ---
 # <a name="indexnulls-property-adox"></a>IndexNulls 属性 (ADOX)
 

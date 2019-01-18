@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ca95e311f6040d5834fa24ce24d392375953990
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b572f4ebe55da1add781ecd86df97937cfeae126
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949934"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717158"
 ---
 # <a name="nextrecordset-method-ado"></a>NextRecordset 方法 (ADO)
 
@@ -27,7 +28,7 @@ ms.locfileid: "25949934"
 
 返回一个 **Recordset** 对象。在语法模型中，*recordset1* 和 *recordset2* 可以是相同的 **Recordset** 对象，也可以是不同的对象。使用不同的 **Recordset** 对象时，在调用 **NextRecordset** 之后重置原始 **Recordset** (*recordset1*) 的 **ActiveConnection** 属性将生成错误。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

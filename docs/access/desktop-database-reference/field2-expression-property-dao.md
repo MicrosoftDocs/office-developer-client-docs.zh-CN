@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c03310159915fd7bbb0804582d8f3967d40fb9b2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 603dfaa9a54ddfe769b96a57b790b4657abbeb14
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937650"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720084"
 ---
 # <a name="field2expression-property-dao"></a>Field2.Expression 属性 (DAO)
 
 **适用于**： Access 2013、 Office 2013
 
-获取或设置代表计算字段的公式的表达式。 可读写 **String**。
+获取或设置代表计算字段的公式的表达式。 读/写 **String**。
 
 ## <a name="version-information"></a>版本信息
 
@@ -29,7 +30,7 @@ ms.locfileid: "25937650"
 
 *表达式*一个代表**Field2**对象的变量。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您可以在 Access 2013 中创建计算值的表字段。 计算可以包括在同一个表以及内置访问函数从字段的值。
 

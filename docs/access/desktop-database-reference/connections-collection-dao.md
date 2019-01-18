@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca6acbea99dd2a6dcb434cf4c4d18a0a065af133
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 66f122b7bdaa9069b839cd5884b5da5da48a15f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026012"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713504"
 ---
 # <a name="connections-collection-dao"></a>Connections 集合 (DAO)
 

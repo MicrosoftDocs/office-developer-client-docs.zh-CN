@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249922(v=office.15)
 ms:contentKeyID: 48547452
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f903da131d94c72656a2b8d80febb20e01854b49
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: db791ddce4c4f207bfe096d3f59acd7ff99e57ef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872226"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715107"
 ---
 # <a name="status-property-example-vj"></a>Status 属性示例 (VJ++)
 

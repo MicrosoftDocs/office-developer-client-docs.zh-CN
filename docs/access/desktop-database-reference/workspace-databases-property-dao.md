@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053174
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ae7e75fe50a0daf8b6e8a8206857af39582d9c36
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bd7d5909f17e75be96cdac867c8a05331779e510
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928486"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712489"
 ---
 # <a name="workspacedatabases-property-dao"></a>Workspace.Databases 属性 (DAO)
 

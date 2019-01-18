@@ -1,19 +1,20 @@
 ---
-title: 替代方法： 使用 SQL 语句
+title: 替代方法：使用 SQL 语句
 TOCTitle: 'Alternatives: Using SQL statements'
 ms:assetid: 9ed787da-7099-2ef5-b2c6-c4f6bce5ddfe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249727(v=office.15)
 ms:contentKeyID: 48546668
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4bcda13d8b785f1048890d1ed9492f5da3e7288b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 185f5c1eb7e11a9425ff6cc4a16f1387424f3219
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945556"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711348"
 ---
-# <a name="alternatives-using-sql-statements"></a>替代方法： 使用 SQL 语句
+# <a name="alternatives-using-sql-statements"></a>替代方法：使用 SQL 语句
 
 
 **适用于**： Access 2013、 Office 2013

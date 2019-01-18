@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
 ms:contentKeyID: 48548085
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 75ba9554b4c4d6e2da82a0fe13437a3bebea3d07
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 53cf6ca9c7758b20115f99601d07d26bbd1b1f3c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880913"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714729"
 ---
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a>Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性示例 (VJ++)
 

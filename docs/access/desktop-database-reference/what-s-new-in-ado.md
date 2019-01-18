@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a36695e0d858a630ba91b954bfc9a46136e26403
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 593daf08da1b4ce435d17f2a6deedfa3e89dbd32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025969"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713630"
 ---
 # <a name="whats-new-in-ado"></a>ADO 中的新增功能
 

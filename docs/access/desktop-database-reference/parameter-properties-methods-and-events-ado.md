@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249125(v=office.15)
 ms:contentKeyID: 48544173
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 136d2470533a7fc8176a347a03cd1941531972aa
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 645aa1e57515f4908b8af5312b377f69cbabee76
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945563"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713581"
 ---
 # <a name="parameter-properties-methods-and-events-ado"></a>参数属性、 方法和事件 (ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
 ms:contentKeyID: 48542976
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c68c163b08c3d7b2be66e072daa2f3895ffef0e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cb5a7050e17dfc1424809cfc5588236ed61d602f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891259"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720175"
 ---
 # <a name="attributes-property-example-vc"></a>Attributes 属性示例 (VC++)
 

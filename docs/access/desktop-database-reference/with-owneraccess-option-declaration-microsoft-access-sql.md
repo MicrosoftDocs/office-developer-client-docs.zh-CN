@@ -12,12 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0eca4738d07c54b049073aaf5d4b802864761fa5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0882f143f13f6bd6d66c894f242a9cd50ebf9489
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920597"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718866"
 ---
 # <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>与 OWNERACCESS OPTION 声明 (Microsoft Access SQL)
 

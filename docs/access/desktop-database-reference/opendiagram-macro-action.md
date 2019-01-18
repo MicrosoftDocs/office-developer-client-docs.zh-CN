@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b04870a416874e2136e21b40c62d8e64a6182efe
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f4273d6858ad98b723d66ba32fe3b9aa7c902d31
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998544"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719622"
 ---
 # <a name="opendiagram-macro-action"></a>OpenDiagram 宏操作
 

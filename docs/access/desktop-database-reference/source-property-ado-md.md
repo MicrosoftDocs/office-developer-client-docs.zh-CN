@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249664(v=office.15)
 ms:contentKeyID: 48546431
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e5fed390f977d03f5956d53c0515c5b67bf21f0e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8aa3daef443c14710c87fd5c98d958693dd61cd6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924251"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718040"
 ---
 # <a name="source-property-ado-md"></a>Source 属性 (ADO MD)
 

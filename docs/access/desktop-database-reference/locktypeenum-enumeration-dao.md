@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
 ms:contentKeyID: 48547925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec7095df2f2f050171a45fe3639f179eab40e8e1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c2d355e2a16df632d6952802914c1f921b5e9719
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943897"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719524"
 ---
 # <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum 枚举 (DAO)
 

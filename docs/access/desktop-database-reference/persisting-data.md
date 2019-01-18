@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
 ms:contentKeyID: 48547715
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d72ba6d895fc5aac2612eb3f81ecc95ac032d49
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f5788216a20e62cfc39fd2081f4f672bc4f9b808
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946746"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713959"
 ---
-# <a name="persisting-data"></a>保留数据
+# <a name="persisting-data"></a>暂留数据
 
 
 **适用于**： Access 2013、 Office 2013
@@ -105,8 +106,8 @@ ms.locfileid: "25946746"
 
 本节包括下列主题：
 
-- [有关记录集暂留的详细信息](more-about-recordset-persistence.md)
+- [有关 Recordset 持久化的详细信息](more-about-recordset-persistence.md)
 
-- [暂留筛选和分层记录集](persisting-filtered-and-hierarchical-recordsets.md)
+- [持久化筛选和分层记录集](persisting-filtered-and-hierarchical-recordsets.md)
 
 - [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format.md)

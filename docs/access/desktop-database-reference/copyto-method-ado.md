@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a27d8e98d6768ace36d7c66c95191b0d1484e86a
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2e8de2caf2abc53b0dbd014f21a85a6d54749033
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949899"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717648"
 ---
 # <a name="copyto-method-ado"></a>CopyTo 方法 (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949899"
 
 *流*。CopyTo *DestStream* *NumChars*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

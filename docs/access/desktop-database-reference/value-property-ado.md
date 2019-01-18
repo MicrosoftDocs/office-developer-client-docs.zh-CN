@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
 ms:contentKeyID: 48548958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a61803648a0efa5f226b222fb54ce96c8aadbfe
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 00b82706d934356621ac1e41fffca61ec88e081f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999055"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715065"
 ---
 # <a name="value-property-ado"></a>Value 属性 (ADO)
 

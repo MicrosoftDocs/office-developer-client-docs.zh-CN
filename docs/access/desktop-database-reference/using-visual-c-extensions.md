@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bcfde7e343a37d65356e1f9ed8d879030913f5ed
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868782"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713777"
 ---
 # <a name="using-visual-c-extensions"></a>使用 Visual C++ Extensions
 
@@ -142,7 +143,7 @@ _**结束绑定项**_
  此变量有两个最重要的值：一个是 <strong>adFldOK</strong>，表示转换成功；另一个是 <strong>adFldNull</strong>，表示字段的值为 VT_NULL 类型的 VARIANT，但不仅仅为空。 在下表中，列出<em>状态</em>的可能值&quot;状态值。&quot;</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>修改</em></p></td>
+<td><p><em>Modify</em></p></td>
 <td><p>布尔型标志。如果为 TRUE，则指示允许 ADO 用 <em>Buffer</em> 中所包含的值更新相应的 <strong>Recordset</strong> 字段。
  如果要让 ADO 更新绑定字段，则将布尔型 <em>Modify</em> 参数设置为 TRUE。如果要检查字段但不进行更改，则设置为 FALSE。</p></td>
 </tr>

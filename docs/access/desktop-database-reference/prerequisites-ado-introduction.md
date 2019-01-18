@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249098(v=office.15)
 ms:contentKeyID: 48544084
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b2af7b298bfcbfb534725dee6b7f643f084935f4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e33d44c1c34d9a0d899e370095e400815a503356
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937748"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717172"
 ---
 # <a name="prerequisites-ado-introduction"></a>Prerequisites (ADO Introduction)
 

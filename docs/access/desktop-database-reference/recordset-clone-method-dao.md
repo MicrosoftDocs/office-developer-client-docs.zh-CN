@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: aa5a04ec08136dda637aabff15d89f81be6ecde8
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: ecc5592893c1caee16f0a00687ce50f68b05e9c7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998572"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716059"
 ---
 # <a name="recordsetclone-method-dao"></a>Recordset.Clone 方法 (DAO)
 

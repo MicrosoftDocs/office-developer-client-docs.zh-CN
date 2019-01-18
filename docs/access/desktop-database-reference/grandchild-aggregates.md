@@ -1,19 +1,20 @@
 ---
-title: 孙聚合
+title: 孙级聚合
 TOCTitle: Grandchild aggregates
 ms:assetid: ea5e2e1f-f3d5-f851-623a-a5d1385fe206
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250188(v=office.15)
 ms:contentKeyID: 48548462
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc7576eb8e1555ab8b00d2800242c7be24baca58
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a4c50898626488f909616977c6bb50c936434563
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947936"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722156"
 ---
-# <a name="grandchild-aggregates"></a>孙聚合
+# <a name="grandchild-aggregates"></a>孙级聚合
 
 
 **适用于**： Access 2013、 Office 2013

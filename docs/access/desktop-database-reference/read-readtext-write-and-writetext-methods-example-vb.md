@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248911(v=office.15)
 ms:contentKeyID: 48543377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 072abea009dfa2cd3d4f43a1da448fec60aa33b8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44e961d7b3f4b12d8801429ecb78a1a186f5547a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885827"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714455"
 ---
 # <a name="read-readtext-write-and-writetext-methods-example-vb"></a>Read、ReadText、Write 和 WriteText 方法示例 (VB)
 

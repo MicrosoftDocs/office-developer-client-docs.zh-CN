@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125301(v=office.15)
 ms:contentKeyID: 52073425
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8d7c7ab5b30ab991ee79abcd218f8b7cecb5a53
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0c6061d20c11bee779f713e4b3f3cf3434d8b96c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936208"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716892"
 ---
 # <a name="fields-methods-dao"></a>字段方法 (DAO)
 

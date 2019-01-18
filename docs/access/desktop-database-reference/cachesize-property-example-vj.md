@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15)
 ms:contentKeyID: 48548704
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 714b20aad4c03e5e5735d38dd6e4202a4c732844
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 373ee7720f706bae1db2f446a407c89f2a7f3baf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881809"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717963"
 ---
 # <a name="cachesize-property-example-vj"></a>CacheSize 属性示例 (VJ++)
 

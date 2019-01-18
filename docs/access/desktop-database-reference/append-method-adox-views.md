@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cade1b4f95cfb20d517dea1e5129c208abea5960
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9e1a6e14542f267af6a9f5bc58bb2d75a11aac77
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950165"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716150"
 ---
 # <a name="append-method-adox-views"></a>Append 方法（ADOX 视图）
 
@@ -23,7 +24,7 @@ ms.locfileid: "25950165"
 
 *视图*。追加*名称*，*命令*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

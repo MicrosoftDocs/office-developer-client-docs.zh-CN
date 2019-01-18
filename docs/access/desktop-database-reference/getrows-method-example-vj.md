@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249355(v=office.15)
 ms:contentKeyID: 48545194
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8749d1796b850bd571e06ad16318dba48d90d4ab
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 06803c1a37f848580025103914838d59f0b5f59a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881403"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717655"
 ---
 # <a name="getrows-method-example-vj"></a>GetRows 方法示例 (VJ++)
 

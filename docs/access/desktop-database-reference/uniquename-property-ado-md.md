@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249403(v=office.15)
 ms:contentKeyID: 48545366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ef82debbfc32fb382dcbe104d591503858e667f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ed413f6881e60e926e5eeeac3c395e23b01ed01f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921892"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716479"
 ---
 # <a name="uniquename-property-ado-md"></a>UniqueName 属性 (ADO MD)
 

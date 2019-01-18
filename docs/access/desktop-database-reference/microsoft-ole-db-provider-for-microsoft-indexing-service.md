@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac8225430d35d18df224dcfe42e59181a76407cf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ba27bfdf6cc1317b441e626c61784e2c50b589f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871533"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716606"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Microsoft OLE DB Provider for Microsoft Indexing Service
 
@@ -225,7 +226,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">删除</a></p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="even">
@@ -233,7 +234,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">移动</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="even">
@@ -261,7 +262,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 <td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-method-ado.md">更新</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>否</p></td>
 </tr>
 <tr class="odd">

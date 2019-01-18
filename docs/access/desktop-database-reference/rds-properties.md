@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
 ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02e5fe6f323840fe89ce64983e028bc05604f849
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 35d3552705ff358f34a40aa51a2ec13b4b80f6d2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026251"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716048"
 ---
 # <a name="rds-properties"></a>RDS 属性
 

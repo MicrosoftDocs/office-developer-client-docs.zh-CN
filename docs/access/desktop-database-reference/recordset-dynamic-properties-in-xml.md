@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249439(v=office.15)
 ms:contentKeyID: 48545522
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36069ec0e8e9020bc70ef1ea72ce25f4461c6487
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf2a15937f6bcfd9ededcfad0cf15c29faf6e577
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946956"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712832"
 ---
 # <a name="recordset-dynamic-properties-in-xml"></a>XML 中的记录集动态属性
 

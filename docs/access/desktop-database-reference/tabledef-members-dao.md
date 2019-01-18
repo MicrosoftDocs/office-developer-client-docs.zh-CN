@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c9fe82c2d3edd5127ef6e2944f10d496a558d1fb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920520"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721078"
 ---
 # <a name="tabledef-members-dao"></a>TableDef 成员 (DAO)
 
@@ -89,7 +90,7 @@ TableDef 对象代表基表或链接表的已存储定义（仅适用于 Microso
 <td><p>返回对象的创建日期和时间（仅适用于 Microsoft Access 工作区）。只读 <strong>Variant</strong>。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-fields-property-dao.md">字段</a></strong></p></td>
+<td><p><strong><a href="tabledef-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。只读。</p></td>
 </tr>
 <tr class="even">

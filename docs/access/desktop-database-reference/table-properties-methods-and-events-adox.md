@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249942(v=office.15)
 ms:contentKeyID: 48547535
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c3a3efb3a17ac7eb6e57ba16e83b9156103e3f4
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c7bda00e757a17c973c650361c5caff5d702cee0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026020"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714925"
 ---
 # <a name="table-properties-methods-and-events-adox"></a>表格属性、 方法和事件 (ADOX)
 

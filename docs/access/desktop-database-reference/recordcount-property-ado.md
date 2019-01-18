@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15)
 ms:contentKeyID: 48548304
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41fb9d8bdcb626fefe2e98fe4c1849554a73a6c3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d5ab01c419f703c1c17b1bf2b2cca2fb3844655d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876160"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712734"
 ---
 # <a name="recordcount-property-ado"></a>RecordCount 属性 (ADO)
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b45d0bdf605f77084353da065c2cc8c674bd24e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1ebf963695b2d754a4501077e2236c52280a9a2e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922879"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714526"
 ---
 # <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark 属性 (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25922879"
 
 *表达式*一个表示**Recordset**对象的变量。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 对于**Recordset**对象完全基于 Microsoft Access 数据库引擎表， **Bookmarkable**属性的值为 True，并使用该**记录集**，可以使用**Bookmark**属性。 但是，其他数据库产品可能不支持书签。 例如，不能在基于 Paradox 链接表（没有主键）的任何 **Recordset** 对象中使用书签。
 

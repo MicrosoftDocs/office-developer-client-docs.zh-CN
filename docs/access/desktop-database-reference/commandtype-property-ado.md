@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231125
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 89264889281070b8a477c3a04b8f6f5735efdf3e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c978a6a227266fa43c1102fc109be2b81262de8e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880234"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717144"
 ---
 # <a name="commandtype-property-ado"></a>CommandType 属性 (ADO)
 

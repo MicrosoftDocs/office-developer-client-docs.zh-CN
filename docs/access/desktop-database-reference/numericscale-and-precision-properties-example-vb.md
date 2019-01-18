@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15)
 ms:contentKeyID: 48545610
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc1dd570a1b2fbb3b178216e6b1742aaeb682947
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e067c2ae893d19efdbcdc160fc7a7d54b9682297
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882075"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721337"
 ---
 # <a name="numericscale-and-precision-properties-example-vb"></a>NumericScale 和 Precision 属性示例 (VB)
 

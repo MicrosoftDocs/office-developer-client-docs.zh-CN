@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249191(v=office.15)
 ms:contentKeyID: 48544460
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73733eab528295dbb32522624603d4e86a8ee499
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 445e10c0af9a77632463096dfc82d00a00f95d39
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878925"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713098"
 ---
 # <a name="comparebookmarks-method-example-vc"></a>CompareBookmarks 方法示例 (VC++)
 

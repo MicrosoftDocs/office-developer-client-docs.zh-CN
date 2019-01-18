@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821751(v=office.15)
 ms:contentKeyID: 48547077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14f2f0249a878e933f89c50e7c10058cf22565b9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 118b93641184eed367cd5f0f00a15a13ff28cd58
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998831"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717774"
 ---
 # <a name="recordsetpercentposition-property-dao"></a>Recordset.PercentPosition 属性 (DAO)
 

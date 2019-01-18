@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f2e8eab52491eb4ff48f398848d7ffc303999bb4
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c986f0a96c14dac8a9ee4f3c7fded5a049fa451e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998887"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718488"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25998887"
 
 *表达式*一个代表**Database**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25998887"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

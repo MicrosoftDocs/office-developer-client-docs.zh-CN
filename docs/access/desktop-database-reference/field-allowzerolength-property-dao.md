@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3bee3b9457f2c5187432c1aad6cd1837e70eadae
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f1eb08c6079257a350a5bb92392871869e720f1b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926295"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714708"
 ---
 # <a name="fieldallowzerolength-property-dao"></a>Field.AllowZeroLength 属性 (DAO)
 

@@ -1,19 +1,20 @@
 ---
-title: 以 XML 格式持久化记录
+title: 以 XML 格式暂留记录
 TOCTitle: Persisting records in XML format
 ms:assetid: 8071e244-60c7-759c-094c-152add5d72e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d859835ec0f80d2a1d908eb40ec7cffaa1effb2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 10a5651c74580950810211c4f71e19fc80a16a95
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946305"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714722"
 ---
-# <a name="persisting-records-in-xml-format"></a>以 XML 格式持久化记录
+# <a name="persisting-records-in-xml-format"></a>以 XML 格式暂留记录
 
 **适用于**： Access 2013、 Office 2013
 
@@ -66,15 +67,15 @@ ADO 总是使用客户端游标引擎行集来产生可滚动、可标记书签�
 
 本节包括下列主题：
 
-- [XML 暂留格式](xml-persistence-format.md)
+- [XML 持久化格式](xml-persistence-format.md)
 
 - [命名空间](namespaces.md)
 
-- [架构节](schema-section.md)
+- [架构部分](schema-section.md)
 
 - [数据节](data-section.md)
 
-- [XML 中的分层记录集](hierarchical-recordsets-in-xml.md)
+- [XML 中的层次记录集](hierarchical-recordsets-in-xml.md)
 
 - [Recordset 动态属性在 XML](recordset-dynamic-properties-in-xml.md)
 

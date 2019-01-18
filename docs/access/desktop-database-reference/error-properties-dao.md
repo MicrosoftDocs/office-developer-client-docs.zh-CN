@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124680(v=office.15)
 ms:contentKeyID: 52072302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74e7123b088acbd7fb49b6953672d7f5f8a5e821
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8e3b667f47f144400f6a829c4c91c15c5fe1b6c9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947642"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717592"
 ---
 # <a name="error-properties-dao"></a>错误属性 (DAO)
 

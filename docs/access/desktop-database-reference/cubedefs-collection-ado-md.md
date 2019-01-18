@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249090(v=office.15)
 ms:contentKeyID: 48544060
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e3e51047ab3e6de9967887ebeb5a0ec27ec5eaf
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fba4258f8d816dbe35c323666ff925ce15194df3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945192"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715653"
 ---
 # <a name="cubedefs-collection-ado-md"></a>CubeDefs 集合 (ADO MD)
 

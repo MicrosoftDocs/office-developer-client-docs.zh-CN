@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192067(v=office.15)
 ms:contentKeyID: 48543910
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 36e66bc377846259b1e7279a1563e3862ea9c0eb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 43f248ba529991190ae3d322a65a158bd9a4e6e1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930901"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721428"
 ---
 # <a name="recordsetname-property-dao"></a>Recordset.Name 属性 (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c056f2b0922402ea7cde7cf767969b73f912f572
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026244"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715198"
 ---
 # <a name="gotocontrol-macro-action"></a>GoToControl 宏操作
 
@@ -19,7 +20,7 @@ ms.locfileid: "26026244"
 
 您可以使用**GoToControl**操作将焦点移到指定的域或打开的窗体、 窗体数据表、 表数据表的当前记录中的控件或查询数据表。 当你希望特定字段或控件获得焦点时，可以使用此操作。 然后比较或 **FindRecord** 操作可以使用该字段或控件。 你可以使用此操作以根据特定的条件在表单中导航。 例如，如果用户输入婚姻控件不能在健康保险窗体，焦点可以自动跳过配偶姓名控件并移动到下一个控件。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 > [!NOTE]
 > 此操作不适用于数据访问页。

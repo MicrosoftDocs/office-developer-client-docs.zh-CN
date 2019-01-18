@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231117
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ea253515a673f0f941032e2920d84c7ebf68f1bf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6495c70f64930e1b335c603f13e720ad581203a5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874816"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717977"
 ---
 # <a name="attributes-property-ado"></a>Attributes 属性 (ADO)
 

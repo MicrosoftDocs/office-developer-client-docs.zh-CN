@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249124(v=office.15)
 ms:contentKeyID: 48544172
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 214de72e71a51c6b6b65bc2636a28e5650035c0a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3b1f9c2bcc4ed4f3314a697d4a0eae8415bc4f62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926904"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713266"
 ---
 # <a name="filteraxis-property-ado-md"></a>FilterAxis 属性 (ADO MD)
 

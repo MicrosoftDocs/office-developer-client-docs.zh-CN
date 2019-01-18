@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192460(v=office.15)
 ms:contentKeyID: 48544148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edc2fcaa72f6bfb912708948903aa09b25447580
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4106e66074975f08a5058aafbfc0c6deac156277
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998168"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715478"
 ---
 # <a name="logevent-macro-action"></a>LogEvent 宏操作
 

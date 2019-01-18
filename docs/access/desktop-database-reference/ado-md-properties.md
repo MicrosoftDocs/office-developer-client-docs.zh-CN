@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0323ba7adb617bd68ed5c97098c93be9f990ac70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910927"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716220"
 ---
 # <a name="ado-md-properties"></a>ADO MD 属性
 
@@ -70,11 +71,11 @@ ms.locfileid: "25910927"
 <td><p>指示当前单元格集的筛选信息。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
+<td><p><a href="item-property-ado-md-cellset.md">项</a></p></td>
 <td><p>使用单元格的坐标从单元格集中检索单元格。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">项</a></p></td>
 <td><p>按名称或序号返回集合的某个特定成员。</p></td>
 </tr>
 <tr class="odd">
@@ -102,7 +103,7 @@ ms.locfileid: "25910927"
 <td><p>唯一标识轴上的某个位置。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parent-property-ado-md.md">父</a></p></td>
+<td><p><a href="parent-property-ado-md.md">Parent</a></p></td>
 <td><p>指示层次结构中作为当前成员的父级的成员。</p></td>
 </tr>
 <tr class="even">
@@ -118,7 +119,7 @@ ms.locfileid: "25910927"
 <td><p>指示单元格集的当前状态。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">类型</a></p></td>
+<td><p><a href="type-property-ado-md.md">Type</a></p></td>
 <td><p>指示当前成员的类型。</p></td>
 </tr>
 <tr class="even">
@@ -126,7 +127,7 @@ ms.locfileid: "25910927"
 <td><p>指示当前对象的明确的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="value-property-ado-md.md">值</a></p></td>
+<td><p><a href="value-property-ado-md.md">Value</a></p></td>
 <td><p>指示当前单元格的值。</p></td>
 </tr>
 </tbody>

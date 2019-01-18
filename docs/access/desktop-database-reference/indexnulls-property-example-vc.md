@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
 ms:contentKeyID: 48543039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f91883349a39a5674459328d5335cc892e0bb79
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c94ef7da07a9d68fe04dade18e1e54f8277ace6c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877238"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720364"
 ---
 # <a name="indexnulls-property-example-vc"></a>IndexNulls 属性示例 (VC++)
 

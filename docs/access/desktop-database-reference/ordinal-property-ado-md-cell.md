@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249924(v=office.15)
 ms:contentKeyID: 48547462
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4fbbe461390a5f8a068f839bcf41fab5e1ad66ff
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 91b8d66929e360f88385b6773a03fcaffb79161d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946753"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717410"
 ---
 # <a name="ordinal-property-ado-md-cell"></a>Ordinal 属性（ADO MD 单元格）
 
@@ -24,7 +25,7 @@ ms.locfileid: "25946753"
 
 返回一个 **Long** 整数值，并且该值为只读。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 单元格的序号值唯一地标识单元格集中的单元格。从概念上来说，单元格在单元格集中进行了编号，就像单元格集是一个 *p* 维数组那样（此处 *p* 是 [Axes 集合 (ADO MD)](axes-collection-ado-md.md) 数目）。单元格按以行为主的顺序从零开始编号。
 

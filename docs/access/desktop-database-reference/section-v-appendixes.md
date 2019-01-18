@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249829(v=office.15)
 ms:contentKeyID: 48547082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d5a3194f921d29ecbcc6affb05f66f23d1b42845
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aa64e5582dd13a10d5071cfae2ddee5d1a826d5e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937559"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717473"
 ---
 # <a name="section-v-appendixes"></a>第 V 节：附录
 

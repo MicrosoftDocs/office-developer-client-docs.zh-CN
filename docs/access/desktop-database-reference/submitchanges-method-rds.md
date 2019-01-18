@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250201(v=office.15)
 ms:contentKeyID: 48548521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b5c18aa12519e9206702eb2a152e6f0d084edc9
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ea7f3e27a75b4483cb8cf46e27d4492f831cff33
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026342"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714442"
 ---
 # <a name="submitchanges-method-rds"></a>SubmitChanges 方法 (RDS)
 

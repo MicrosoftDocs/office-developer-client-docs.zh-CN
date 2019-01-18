@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
 ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa9cf4128f8c5ae37281cd8b996b9bf59094ba70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9728c8a736e2639816f65b006394e513ea5a5d64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910697"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718922"
 ---
 # <a name="adox-collections"></a>ADOX 集合
 
@@ -48,7 +49,7 @@ ms.locfileid: "25910697"
 <td><p>包含表的所有 <strong>Key</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="procedures-collection-adox.md">过程</a></p></td>
+<td><p><a href="procedures-collection-adox.md">Procedures</a></p></td>
 <td><p>包含目录的所有 <strong>Procedure</strong> 对象。</p></td>
 </tr>
 <tr class="even">
@@ -56,7 +57,7 @@ ms.locfileid: "25910697"
 <td><p>包含目录的所有 <strong>Table</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="users-collection-adox.md">用户</a></p></td>
+<td><p><a href="users-collection-adox.md">Users</a></p></td>
 <td><p>包含目录或组的所有存储的 <strong>User</strong> 对象。</p></td>
 </tr>
 <tr class="even">

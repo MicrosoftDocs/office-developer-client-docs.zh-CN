@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249662(v=office.15)
 ms:contentKeyID: 48546421
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9731682b547c6ad6cbfa7174638c15cde6fdcfd8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8238bb0f732189d35de3327fcef42b89f8217ef8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920422"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715737"
 ---
 # <a name="levelname-property-ado-md"></a>LevelName 属性 (ADO MD)
 

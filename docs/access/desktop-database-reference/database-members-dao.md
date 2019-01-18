@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa627d7c44700041209b9884374e57f7e3fa6c28
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937097"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713049"
 ---
 # <a name="database-members-dao"></a>数据库成员 (DAO)
 
@@ -162,7 +163,7 @@ Database 对象代表打开的数据库。
 <td><p>返回一个值，该值指示是否可以更改 DAO 对象。只读 <strong>Boolean</strong>。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-version-property-dao.md">版本</a></strong></p></td>
+<td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>
 <td><p>在 Microsoft Access 工作区中，返回创建数据库的 Microsoft Jet 或 Microsoft Access 数据库引擎的版本。 <strong>String</strong> 类型，只读。</p></td>
 </tr>
 </tbody>

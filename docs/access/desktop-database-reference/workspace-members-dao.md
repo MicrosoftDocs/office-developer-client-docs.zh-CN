@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 525b261f5184f520d6f24c81f3d446fee8aa800e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936957"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719231"
 ---
 # <a name="workspace-members-dao"></a>工作区成员 (DAO)
 
@@ -111,7 +112,7 @@ Workspace 对象可以为用户定义一个命名的会话。该对象包含打�
 <td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-type-property-dao.md">类型</a></strong></p></td>
+<td><p><strong><a href="workspace-type-property-dao.md">Type</a></strong></p></td>
 <td><p>设置或返回一个值，该值指示对象的操作类型或数据类型。只读 <strong>Integer</strong>。</p></td>
 </tr>
 </tbody>

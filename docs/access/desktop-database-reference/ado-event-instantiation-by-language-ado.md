@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250048(v=office.15)
 ms:contentKeyID: 48547876
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c9028733b8f1eee831f0c5630fb0be93027e942
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5983457b46ef5b8ba633f55739fc5eb1b959905f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946214"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711323"
 ---
 # <a name="ado-event-instantiation-by-language-ado"></a>ADO 事件实例化按语言 (ADO)
 

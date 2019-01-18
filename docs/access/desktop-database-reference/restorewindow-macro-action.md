@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dfd7877ff1db960afcbf864f1e72ff01b12e8f09
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 35637781035b7a449ba574cf5f6c84f2cb5223db
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998950"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718831"
 ---
 # <a name="restorewindow-macro-action"></a>RestoreWindow 宏操作
 

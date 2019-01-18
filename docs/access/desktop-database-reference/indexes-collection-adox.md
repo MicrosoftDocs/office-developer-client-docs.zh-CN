@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249793(v=office.15)
 ms:contentKeyID: 48546963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d40736d30b0ebb62796b7cd2d0f8b4ede9e964c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6eac0d1b73e0380f582ce0bc69cdb358c67d185e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930649"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712055"
 ---
 # <a name="indexes-collection-adox"></a>Indexes 集合 (ADOX)
 

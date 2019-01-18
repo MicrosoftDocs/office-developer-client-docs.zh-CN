@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm62274
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 38dc9491a03d2bfa043bddec84efd7fc12c5d08a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a2288d64241f3289505a8b0fafb98062830b0e97
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919120"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711817"
 ---
 # <a name="onerror-macro-action"></a>OnError 宏操作
 
@@ -56,7 +57,7 @@ ms.locfileid: "25919120"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>下一步</strong></p></td>
+<td><p><strong>Next</strong></p></td>
 <td><p>Microsoft Office Access 2007 在 <strong>MacroError</strong> 对象中记录错误的详细信息，但不会停止该宏。该宏将继续执行下一操作。</p></td>
 </tr>
 <tr class="even">

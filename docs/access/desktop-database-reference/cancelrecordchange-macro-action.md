@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195846(v=office.15)
 ms:contentKeyID: 48545626
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb414837696eecc028d864c1efa9f74251f596a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d19e7adcdd3bb60f24d90e75942fcc0b4e16e2e2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919330"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718541"
 ---
 # <a name="cancelrecordchange-macro-action"></a>CancelRecordChange 宏操作
 

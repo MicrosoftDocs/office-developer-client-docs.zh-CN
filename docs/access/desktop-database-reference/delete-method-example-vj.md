@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248810(v=office.15)
 ms:contentKeyID: 48543026
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef436d1df1aa659f3fb942eb93852a932f9676c6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 586dc434dfe2c3176232a98fe63005300ce13d55
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886177"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713763"
 ---
 # <a name="delete-method-example-vj"></a>Delete 方法示例 (VJ++)
 

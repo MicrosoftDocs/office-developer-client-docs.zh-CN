@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249486(v=office.15)
 ms:contentKeyID: 48545706
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6462fed7054a66777a7957e2128b23a6fc0440f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: db9fa4fccc4f3d13849f34c157f2ea07cc3f171d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929543"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715902"
 ---
 # <a name="errors-collection-ado"></a>Errors 集合 (ADO)
 

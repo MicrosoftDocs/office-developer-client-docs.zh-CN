@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249228(v=office.15)
 ms:contentKeyID: 48544660
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39cb1288ef5e6be4f50d4ef976725122635db1dc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b4f1c46b390e1f059e57f3b7a70fc667da4b09b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884084"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712839"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Microsoft OLE DB Provider for Microsoft Jet
 

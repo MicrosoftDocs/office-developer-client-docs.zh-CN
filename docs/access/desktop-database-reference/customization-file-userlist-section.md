@@ -1,19 +1,20 @@
 ---
-title: 自定义文件 UserList 节
+title: 自定义文件 UserList 部分
 TOCTitle: Customization File UserList section
 ms:assetid: b60ba3b0-37d4-bb59-d3cd-2ab44d178b8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249873(v=office.15)
 ms:contentKeyID: 48547263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62aaba79fa010de62fb1ac35939673b2056be3f7
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ecaf77765051a202925449d0221f0a68a2a06622
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944093"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721498"
 ---
-# <a name="customization-file-userlist-section"></a>自定义文件 UserList 节
+# <a name="customization-file-userlist-section"></a>自定义文件 UserList 部分
 
 
 **适用于**： Access 2013、 Office 2013

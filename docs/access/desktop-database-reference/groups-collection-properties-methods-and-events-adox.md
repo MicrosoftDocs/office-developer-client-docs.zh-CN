@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249410(v=office.15)
 ms:contentKeyID: 48545388
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4099ec836b204eadd9084436c77fc66aad280b02
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3c5ba167d659c4448b5fe48ea267ff1d993ba8c6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946515"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712398"
 ---
 # <a name="groups-collection-properties-methods-and-events-adox"></a>Groups 集合的属性、方法和事件 (ADOX)
 

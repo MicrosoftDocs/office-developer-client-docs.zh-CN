@@ -1,19 +1,20 @@
 ---
-title: RDS 编程模型与对象
+title: 包含对象的 RDS 编程模型
 TOCTitle: RDS programming model with objects
 ms:assetid: 207150ec-8eb5-bec5-3059-db37a0e28c19
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248987(v=office.15)
 ms:contentKeyID: 48543663
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 079106e1c1a6651f68d10c5b93675c9b28b473e5
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9743fb1e7329457abb60ed8ed41bc39067f3551d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945511"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710963"
 ---
-# <a name="rds-programming-model-with-objects"></a>RDS 编程模型与对象
+# <a name="rds-programming-model-with-objects"></a>包含对象的 RDS 编程模型
 
 **适用于**： Access 2013、 Office 2013
 

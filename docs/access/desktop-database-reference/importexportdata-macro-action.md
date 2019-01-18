@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 363945386233fd992390f1fbc4b6115e272dc923
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e0cdf85461276d26005bc3066a387031a1086691
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997614"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714743"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData 宏操作
 
@@ -73,7 +74,7 @@ ms.locfileid: "25997614"
 <td><p>要导入、导出或链接的表、选择查询或 Access 对象的名称。对于某些类型的数据库（例如 FoxPro、Paradox 或 dBASE）而言，这是文件名。请在文件名中包含文件扩展名（如 .dbf）。这是一个必选参数。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Destination</strong></p></td>
+<td><p><strong>目标</strong></p></td>
 <td><p>导入、 导出，或链接表、 选择查询或目标数据库中的 Access 对象的名称。 对于某些类型的数据库，如 FoxPro、 Paradox 或 dBASE，这是一个文件名。 在文件名中包含文件扩展名 （例如.dbf)。 这是必需参数。 如果选择<strong>导</strong>入的<strong>迁移类型</strong>参数和<strong>表</strong><strong>对象类型</strong>参数中，Access 将创建一个包含导入表中的数据的新表。 如果您导入表或其他对象，请访问添加为名称数，如果它与现有的名称冲突。 例如，如果您导入员工和员工已存在，则重命名访问，导入的表或其他对象雇员 1。 如果导出到 Access 数据库或其他数据库，则 Access 将自动替换任何同名的现有表或其他对象。</p></td>
 </tr>
 <tr class="odd">

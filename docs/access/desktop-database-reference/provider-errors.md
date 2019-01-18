@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
 ms:contentKeyID: 48546592
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d176b08e35888afbbde8c5d485887c00e413d74d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d175cdaa007a354d12304dceff0352a923de2291
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947173"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717641"
 ---
 # <a name="provider-errors"></a>提供程序错误
 
@@ -88,7 +89,7 @@ End Function
 <td><p>提供程序特定的错误号。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>编号</strong></p></td>
+<td><p><strong>Number</strong></p></td>
 <td><p>长整型，表示已发生的错误号（在 <strong>ErrorValueEnum</strong> 中列出）。</p></td>
 </tr>
 <tr class="odd">

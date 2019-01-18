@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249767(v=office.15)
 ms:contentKeyID: 48546825
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05e4f565faa4a63bd63dabd00f6c4a3042ec1905
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8a2dd398fa7f8dfdee491aaf65cb561a9f9c52f8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888116"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714806"
 ---
 # <a name="appendchunk-and-getchunk-methods-example-vc"></a>AppendChunk 和 GetChunk 方法示例 (VC++)
 

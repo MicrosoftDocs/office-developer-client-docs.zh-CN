@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250097(v=office.15)
 ms:contentKeyID: 48548068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d680c89f7188dafd216edf62bd07c80fa924a119
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8cc0237d1419c3aba818d54811f1dbdeeaa441c3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026237"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714904"
 ---
 # <a name="catalog-object-adox"></a>Catalog 对象 (ADOX)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17a086e38d1654a880a7c223e7a4347455b9d31a
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1128b27385ef9f8c898fb79d05ae28d596c4af6a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937734"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712622"
 ---
 # <a name="dbengine-members-dao"></a>DBEngine 成员 (DAO)
 
@@ -111,7 +112,7 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 <td><p>设置初始化 <strong>Workspace</strong> 时创建其默认值所使用的用户名。可读/写 <strong>String</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-errors-property-dao.md">错误</a></strong></p></td>
+<td><p><strong><a href="dbengine-errors-property-dao.md">Errors</a></strong></p></td>
 <td><p>返回一个 <strong>Errors</strong> 集合，该集合包含指定对象的所有存储的 <strong>Error</strong> 对象。只读。</p></td>
 </tr>
 <tr class="odd">
@@ -127,7 +128,7 @@ DBEngine 对象是数据访问对象 (DAO) 对象模型中的顶层对象。
 <td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-version-property-dao.md">版本</a></strong></p></td>
+<td><p><strong><a href="dbengine-version-property-dao.md">Version</a></strong></p></td>
 <td><p>返回当前使用的 DAO 版本。只读 <strong>String</strong>。</p></td>
 </tr>
 <tr class="odd">

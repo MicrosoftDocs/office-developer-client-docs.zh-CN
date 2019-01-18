@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15)
 ms:contentKeyID: 48548968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 67d7dcbf7a4663a1898fa516b359cf6aed6d128d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f76455c78c7c58b81a327d883cdd47821f42ac6d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868677"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717025"
 ---
 # <a name="version-property-example-vb"></a>Version 属性示例 (VB)
 

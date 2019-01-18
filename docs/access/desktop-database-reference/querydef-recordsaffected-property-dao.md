@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053082
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 49a181f834692fd824924c560a32a4e94de4ebb5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ad3759be1bcb60052111a4e7d27419aff08d510a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921619"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721344"
 ---
 # <a name="querydefrecordsaffected-property-dao"></a>QueryDef.RecordsAffected 属性 (DAO)
 

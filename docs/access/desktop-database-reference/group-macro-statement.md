@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192918(v=office.15)
 ms:contentKeyID: 48544481
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c82169ac430496587c6ebab5e439d70bc9319b5e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2dc25621a49d8fd23078a926d6ec6c5de54e54d9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930887"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713994"
 ---
 # <a name="group-macro-statement"></a>Group 宏语句
 

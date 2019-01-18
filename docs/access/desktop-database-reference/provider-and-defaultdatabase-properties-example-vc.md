@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248995(v=office.15)
 ms:contentKeyID: 48543687
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d7f94f0eef4821fcc1dc778d8772926e6af70e5a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6fc6573418afc8f20774c6ae523da8f4f32c0f37
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889831"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711866"
 ---
 # <a name="provider-and-defaultdatabase-properties-example-vc"></a>Provider 和 DefaultDatabase 属性示例 (VC++)
 

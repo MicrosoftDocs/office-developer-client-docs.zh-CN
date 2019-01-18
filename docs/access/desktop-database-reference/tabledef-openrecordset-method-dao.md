@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
 ms:contentKeyID: 48548696
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 939f232f10361fcf7f523b080868b155aff18a90
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2035d4319f7821f2a0469193955c732231f30cf0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997075"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719293"
 ---
 # <a name="tabledefopenrecordset-method-dao"></a>TableDef.OpenRecordset 方法 (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25997075"
 
 *表达式*一个代表**TableDef**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -36,7 +37,7 @@ ms.locfileid: "25997075"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

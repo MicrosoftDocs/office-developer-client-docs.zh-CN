@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b50cb0453df1fa357fbd0b089af2e74fdd4b4c1e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998719"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714057"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase 方法 (DAO)
 
@@ -32,7 +33,7 @@ ms.locfileid: "25998719"
 
 *表达式*一个返回**DBEngine**对象的表达式。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -43,7 +44,7 @@ ms.locfileid: "25998719"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -53,13 +54,13 @@ ms.locfileid: "25998719"
 <tr class="odd">
 <td><p><em>SrcName</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>标识现有、 关闭数据库。 它可以完整路径和文件名，如&quot;C:\db1.mdb&quot;。 如果文件名具有扩展名，则必须指定它。 如果您的网络支持，您还可以指定一个网络路径，如&quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DstName</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>正在创建的压缩数据库的文件名 （和路径）。 您还可以指定的网络路径。 此参数不能用于 srcname 指定的相同的数据库文件。</p></td>
 </tr>
 <tr class="odd">
@@ -83,7 +84,7 @@ ms.locfileid: "25998719"
 <td><p><em>密码</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>包含加密密钥，如果数据库加密字符串表达式。 字符串&quot;; pwd =&quot;必须前面的实际密码。 如果您 DstLocale 中包括的密码设置，则忽略此设置。</p><p><strong>注意</strong>： 这是已弃用的参数，不支持。ACCDB 格式。 进行加密。ACCDB 文件，使用"pwd ="选项的字符串。 [!注释] 使用同时包含大小写字母、数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
+<td><p>包含加密密钥，如果数据库加密字符串表达式。 字符串&quot;; pwd =&quot;必须前面的实际密码。 如果您 DstLocale 中包括的密码设置，则忽略此设置。</p><p><strong>注意</strong>： 这是已弃用的参数，不支持。ACCDB 格式。 进行加密。ACCDB 文件，使用"pwd ="选项的字符串。 使用混合大小写字母、数字和符号的强密码。 弱密码不混合使用这些元素。 例如，强密码：Y6dh!et5。 弱密码：House27。 请使用可以记住的强密码，这样就不必记录密码了。</p>
 </td>
 </tr>
 </tbody>

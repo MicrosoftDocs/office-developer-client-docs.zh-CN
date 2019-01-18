@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15)
 ms:contentKeyID: 48547497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 126d52af8a83e23b3298b8f0fb4600e603832a15
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4bdf0ee11a90348752a29c5a8ecf059a8ebe98d7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873948"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712909"
 ---
 # <a name="cursortype-locktype-and-editmode-properties-example-vj"></a>CursorType、LockType 和 EditMode 属性示例 (VJ++)
 

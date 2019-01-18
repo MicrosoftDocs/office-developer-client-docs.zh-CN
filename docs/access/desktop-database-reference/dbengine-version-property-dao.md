@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052986
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1723deea7f29c59fb388a11acc5e5ffcced4abe1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7e22645127f18ad815c398fd38f9ac4615dfadc9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924594"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712783"
 ---
 # <a name="dbengineversion-property-dao"></a>DBEngine.Version 属性 (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25924594"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 该返回值为 String 类型，其计算结果为“major.minor”格式的版本号。例如，“3.0”。产品版本号由版本号 (3)、句点和发行版本号 (0) 组成。
 

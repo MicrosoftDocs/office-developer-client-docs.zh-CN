@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9feb189221a1d447e6c2e0242240ca13784b7fe
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b97f4e8050cf293621c7b7fc79437c89171d86fc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946459"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715779"
 ---
 # <a name="enabling-a-dll-to-run-on-dcom"></a>启用 DLL 以在 DCOM 上运行
 

@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5ce152e790fb2d57ed607f88feb155fe99bd5850
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: a4ef478e74f9851012d6f749e64b4ddb34f3a959
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878491"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715618"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>DELETE 语句 (Microsoft Access SQL)
 

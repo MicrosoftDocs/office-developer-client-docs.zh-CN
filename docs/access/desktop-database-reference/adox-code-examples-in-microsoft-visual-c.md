@@ -1,19 +1,20 @@
 ---
-title: ADOX Microsoft Visual c + + 中的代码示例
+title: ADOX Microsoft Visual C++ 代码示例
 TOCTitle: ADOX code examples in Microsoft Visual C++
 ms:assetid: cf95d93d-c14d-5dcd-4b3a-f872d91a322f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250033(v=office.15)
 ms:contentKeyID: 48547814
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a5e4b92c4380d63b2c376b1e782a425221b5b92
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 67ddc4d6eab70fa8581021704cc8cc76b32357f4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910850"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711215"
 ---
-# <a name="adox-code-examples-in-microsoft-visual-c"></a>ADOX Microsoft Visual c + + 中的代码示例
+# <a name="adox-code-examples-in-microsoft-visual-c"></a>ADOX Microsoft Visual C++ 代码示例
 
 **适用于**： Access 2013、 Office 2013
 

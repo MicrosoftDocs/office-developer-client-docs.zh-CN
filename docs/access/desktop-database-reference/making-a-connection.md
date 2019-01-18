@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248932(v=office.15)
 ms:contentKeyID: 48543472
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0335c4bbc0d1240d6d4ca53ceacf47bf44fce67d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 487212acd8847928e1fab405593edb172d0172d0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945885"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718271"
 ---
 # <a name="making-a-connection"></a>建立连接
 

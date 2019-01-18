@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231032
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2e817b4310fa1f08d69265691814ac314158e60c
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 791803bb8935ffab24e5aed7e4e6a77360e82b65
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026125"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713231"
 ---
 # <a name="cancel-method-ado"></a>Cancel 方法 (ADO)
 

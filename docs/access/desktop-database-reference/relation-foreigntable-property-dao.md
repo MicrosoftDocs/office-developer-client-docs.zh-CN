@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052989
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dcd454bc1c570e119cc8948acb8077a54649db84
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fc7ee9b5bc832cc2a125024c592db2c7b13e72f7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921710"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718971"
 ---
 # <a name="relationforeigntable-property-dao"></a>Relation.ForeignTable 属性 (DAO)
 

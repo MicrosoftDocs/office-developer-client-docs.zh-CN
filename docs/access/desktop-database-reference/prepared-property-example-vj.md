@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15)
 ms:contentKeyID: 48544693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f275585d784845c3292901bbacabdcc1c4ab931
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 91c279c695b72c1b60c5ae05a6f046ef116da551
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878442"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713567"
 ---
 # <a name="prepared-property-example-vj"></a>Prepared 属性示例 (VJ++)
 

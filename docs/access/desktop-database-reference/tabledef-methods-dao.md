@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123832(v=office.15)
 ms:contentKeyID: 52071472
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 892369083a1f63875fd093d2f24352d4d1e6c8b2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1499cfb6a82433ba7589872c7bb44c7e9bfe910f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937496"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716164"
 ---
 # <a name="tabledef-methods-dao"></a>TableDef 方法 (DAO)
 

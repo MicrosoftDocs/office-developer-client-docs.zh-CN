@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249128(v=office.15)
 ms:contentKeyID: 48544184
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 643d6702679cfee7ad02eb77712020f1b38b20b4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c2ae4a44b11f3d92b4a1e44529e9e55ce3eb836f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888424"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715436"
 ---
 # <a name="getpermissions-and-setpermissions-methods-example-vc"></a>GetPermissions 和 SetPermissions 方法示例 (VC++)
 

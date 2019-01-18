@@ -1,19 +1,20 @@
 ---
-title: 第 5 章： 更新和持久化数据
+title: 第 5 章：更新和暂留数据
 TOCTitle: 'Chapter 5: Updating and persisting data'
 ms:assetid: 77acb763-1c60-1945-791d-3e83d684fb0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: decb4eefa7c1215d8889fec85c22296d33eff40c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 18dd63acd733624fba522ee7382f305d34019905
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937307"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721708"
 ---
-# <a name="chapter-5-updating-and-persisting-data"></a>第 5 章： 更新和持久化数据
+# <a name="chapter-5-updating-and-persisting-data"></a>第 5 章：更新和暂留数据
 
 **适用于**： Access 2013、 Office 2013
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249026(v=office.15)
 ms:contentKeyID: 48543804
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5dc3f307ba1cab0696a63743eed0ee1460ae1cf3
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b71692ebebe1d16c4d1c3e202c52c39d11b83dcc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910718"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713259"
 ---
 # <a name="ado-programmers-reference-topics"></a>ADO 程序员参考主题
 

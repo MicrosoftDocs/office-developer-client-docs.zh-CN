@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180152(v=office.15)
 ms:contentKeyID: 52075101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69f8b131cf8aa169a18b0eea40385ed7e6f28fc4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 51db80f5bfd19e404cad8ed893ec961c986c769d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943848"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712664"
 ---
 # <a name="querydef-methods-dao"></a>QueryDef 方法 (DAO)
 

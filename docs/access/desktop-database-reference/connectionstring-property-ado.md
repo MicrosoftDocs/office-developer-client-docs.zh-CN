@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249968(v=office.15)
 ms:contentKeyID: 48547627
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 48e8998676a9c96bc7a6820d765a8b17a9dfafef
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3612652f3473c0794dbfe9be60f84ea2e3fee252
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882796"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712727"
 ---
 # <a name="connectionstring-property-ado"></a>ConnectionString 属性 (ADO)
 

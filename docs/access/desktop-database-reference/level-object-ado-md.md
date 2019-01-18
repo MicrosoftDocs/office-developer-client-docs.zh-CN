@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
 ms:contentKeyID: 48548160
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 02637a7a7cb312f7749775f4f2bc29dcddd95e66
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 70fb359aa4faa0bcfc99f0b1700b0eb51f665bc0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923804"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722058"
 ---
 # <a name="level-object-ado-md"></a>Level 对象 (ADO MD)
 
@@ -45,7 +46,7 @@ ms.locfileid: "25923804"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>

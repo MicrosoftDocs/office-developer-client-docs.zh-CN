@@ -1,19 +1,20 @@
 ---
-title: 第 9 章： 数据定形
+title: 第 9 章：数据成型
 TOCTitle: 'Chapter 9: Data shaping'
 ms:assetid: f66a319f-1b3d-c4a3-50b3-af1a47540832
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250253(v=office.15)
 ms:contentKeyID: 48548739
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 53a74a53b8c741921ad51ae79ca18e95cda2923d
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 43ad9d5e989bc1c6f4a54fb4882cfe3c3e357fd1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936551"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721552"
 ---
-# <a name="chapter-9-data-shaping"></a>第 9 章： 数据定形
+# <a name="chapter-9-data-shaping"></a>第 9 章：数据成型
 
 **适用于**： Access 2013、 Office 2013
 
@@ -25,11 +26,11 @@ ms.locfileid: "25936551"
 
 有关数据定形的详细信息，请参阅以下主题：
 
-- [必需的提供程序数据定形](required-providers-for-data-shaping.md)
+- [需要数据成型提供程序](required-providers-for-data-shaping.md)
 - [Shape Compute 子句](shape-compute-clause.md)
-- [构造分层记录集](fabricating-hierarchical-recordsets.md)
-- [访问分层记录集中的行](accessing-rows-in-a-hierarchical-recordset.md)
-- [正式 shape 语法](formal-shape-grammar.md)
+- [构建层次记录集](fabricating-hierarchical-recordsets.md)
+- [访问层次记录集中的行](accessing-rows-in-a-hierarchical-recordset.md)
+- [Formal Shape语法](formal-shape-grammar.md)
 - [Visual Basic for Applications 函数](visual-basic-for-applications-functions.md)
 - [Shape Append 子句 (ADO)](shape-append-clause.md)
 - [数据定形 (ADO)](data-shaping.md)

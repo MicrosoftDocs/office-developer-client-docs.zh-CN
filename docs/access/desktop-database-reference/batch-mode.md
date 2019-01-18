@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9541e8b7888f5fb5f16bcfb343d545cf304b1afd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ac5f14d035a4e11cce67f01ca6636f3ebd39963e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945787"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717809"
 ---
-# <a name="batch-mode"></a>批模式
+# <a name="batch-mode"></a>批处理模式
 
 **适用于**： Access 2013、 Office 2013
 
@@ -23,10 +24,10 @@ ms.locfileid: "25945787"
 
 本节包括下列主题：
 
-- [发送更新： UpdateBatch](sending-the-updates-updatebatch.md)
-- [筛选更新记录](filtering-for-updated-records.md)
-- [处理失败更新](dealing-with-failed-updates.md)
+- [发送更新：UpdateBatch](sending-the-updates-updatebatch.md)
+- [筛选出更新后的记录](filtering-for-updated-records.md)
+- [处理失败的更新](dealing-with-failed-updates.md)
 - [检测和解决冲突](detecting-and-resolving-conflicts.md)
-- [断开和重新连接记录集](disconnecting-and-reconnecting-the-recordset.md)
+- [断开并重新连接记录集](disconnecting-and-reconnecting-the-recordset.md)
 - [更新加入结果： Unique Table](updating-joined-results-unique-table.md)
 

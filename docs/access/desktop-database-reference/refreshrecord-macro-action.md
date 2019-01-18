@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5e842ed4898f98f0d3c51955c3fb66010ef02853
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d8682c19686650ab193536658c6b56961f289174
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026195"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721560"
 ---
 # <a name="refreshrecord-macro-action"></a>RefreshRecord 宏操作
 

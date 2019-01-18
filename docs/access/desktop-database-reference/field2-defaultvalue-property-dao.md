@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 683255f8bc425ba5d8d2cdf4c66bc2ff16eec43c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 845a2e0c7ffa5d54d73c4fcec1a6c785468d734e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937671"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717340"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Field2.DefaultValue 属性 (DAO)
 

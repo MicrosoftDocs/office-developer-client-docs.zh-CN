@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249605(v=office.15)
 ms:contentKeyID: 48546174
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49a61e72a4d9260b73275d84ce912ebc76f37652
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c820e82669789d7c3806cc1fd38a2eb6844b722e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996452"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711900"
 ---
-# <a name="reshaping"></a>重构
+# <a name="reshaping"></a>重新成型
 
 **适用于**： Access 2013、 Office 2013
 

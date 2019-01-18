@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
 ms:contentKeyID: 48543562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1882486de2a2dfe61b98d4461abeea9cbcc23363
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b4beaa742bfc46ecd32fc04733c3e6ddaf12aa2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949311"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715002"
 ---
 # <a name="row-property-ado"></a>Row 属性 (ADO)
 
 **适用于**： Access 2013、 Office 2013
 
-获取或设置 **ADORecordConstruction** 对象的 OLE DB **Row** 对象。 当您使用**放置\_行**设置**Row**对象，行转换为 ADO **Record**对象。 为可读/写属性。
+获取或设置 **ADORecordConstruction** 对象的 OLE DB **Row** 对象。 当您使用**放置\_行**设置**Row**对象，行转换为 ADO **Record**对象。 读/写。
 
 ## <a name="syntax"></a>语法
 
@@ -25,7 +26,7 @@ HRESULT get\_行 (\[out，retval\] IUnknown\* \* ppRow);
 
 HRESULT 放置\_行 (\[的\]IUnknown\* pRow);
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

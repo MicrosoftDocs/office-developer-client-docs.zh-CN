@@ -8,12 +8,13 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860579"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718782"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT 语句 (Microsoft Access SQL)
 
@@ -71,7 +72,7 @@ SELECT 语句包含以下部分：
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 若要执行此操作，Microsoft Jet 数据库引擎搜索指定的表、 提取选的列、 选择到指定的顺序满足的条件，和排序或组生成的行的行。
 
@@ -113,7 +114,7 @@ AS HeadCount FROM Employees;
 
 可以在 SELECT 语句中使用其他子句进一步约束和组织所返回的数据。有关详细信息，请参阅相应子句的帮助主题。
 
-**链接提供** [UtterAccess](https://www.utteraccess.com)社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
+**链接提供方：**[UtterAccess](https://www.utteraccess.com) 社区。 UtterAccess 是主要的 Microsoft Access Wiki 和帮助论坛。
 
 - [SQL 到 VBA 格式化程序](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 

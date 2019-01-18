@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125729(v=office.15)
 ms:contentKeyID: 52074602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 194baaecc975f659ce5162cdcf76778e5f82b34c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7832be1c02fd7ef9a2de74c20507999ca626e1f2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944142"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720308"
 ---
 # <a name="data-definition-language-microsoft-access-sql"></a>数据定义语言 (Microsoft Access SQL)
 

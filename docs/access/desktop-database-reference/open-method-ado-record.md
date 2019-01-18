@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249896(v=office.15)
 ms:contentKeyID: 48547371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 32d719235953f83d0fc28a45b04f50e64c268480
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: db8953cafc5ad266c81c51e59cbf92787d07cdfb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950067"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713476"
 ---
 # <a name="open-method-ado-record"></a>Open 方法（ADO 记录）
 
@@ -23,7 +24,7 @@ ms.locfileid: "25950067"
 
 打开*源*、 *ActiveConnection*、*模式*、 *CreateOptions*、*选项*、*用户名*、*密码*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
@@ -35,7 +36,7 @@ ms.locfileid: "25950067"
 |*UserName* |可选。包含用户 ID 的**字符串型**值，如果需要，授予访问 *Source* 的权限。|
 |*Password* |可选。包含密码的**字符串型**值，如果需要，将验证 *UserName*。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 *Source*可以是：
 

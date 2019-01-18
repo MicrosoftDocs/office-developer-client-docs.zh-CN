@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91b452eb70ecd93cf73650c68891fd00f2dfa267
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7033c612642aa3ae6ce6c6175560438c893cde6d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920037"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711929"
 ---
 # <a name="connectiondatabase-property-dao"></a>Connection.Database 属性 (DAO)
 

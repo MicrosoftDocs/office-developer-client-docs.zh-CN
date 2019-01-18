@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248854(v=office.15)
 ms:contentKeyID: 48543215
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 92ab4da50d8dceb98adac7ea585ebe0028d983fe
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f43e6643e585ed8c28cd710e0674523b84d12d89
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929123"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711397"
 ---
 # <a name="keys-collection-adox"></a>Keys 集合 (ADOX)
 

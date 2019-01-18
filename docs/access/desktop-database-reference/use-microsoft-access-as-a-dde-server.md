@@ -11,12 +11,13 @@ f1_keywords:
 - vbaac10.chm5186349
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0e22eb03571d51f28344f6d41fdcaa47321f67af
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0750bdce0e1cda383c48f9c16e62e00997fdfb0a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870917"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716374"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>将 Microsoft Access 用作 DDE 服务器
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249162(v=office.15)
 ms:contentKeyID: 48544330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0fad9bd4ee8671e4f36dce6de7dfb09f7388c280
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 13310d816208f1faf54873142a67471f12a12006
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025215"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709906"
 ---
 # <a name="column-properties-methods-and-events-adox"></a>列属性、 方法和事件 (ADOX)
 

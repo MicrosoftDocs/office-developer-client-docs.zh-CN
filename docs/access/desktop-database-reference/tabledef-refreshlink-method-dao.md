@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052980
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8b7fda0c095a04d2a3ab7f295497cff05a620ea6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ba9375da16cebd7db7a29fe20fca6f8b395a73a2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922536"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716465"
 ---
 # <a name="tabledefrefreshlink-method-dao"></a>TableDef.RefreshLink 方法 (DAO)
 

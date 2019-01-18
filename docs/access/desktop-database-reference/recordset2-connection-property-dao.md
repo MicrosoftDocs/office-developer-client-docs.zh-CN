@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822709(v=office.15)
 ms:contentKeyID: 48547400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a737544e9422608a244dbed43bb52b4bb977299
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f1b769d23ecbfe7f8d748d24cd58813e55d312f8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927429"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714883"
 ---
 # <a name="recordset2connection-property-dao"></a>Recordset2.Connection 属性 (DAO)
 
