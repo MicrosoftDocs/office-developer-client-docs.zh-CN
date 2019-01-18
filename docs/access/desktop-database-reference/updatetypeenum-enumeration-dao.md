@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196186(v=office.15)
 ms:contentKeyID: 48545800
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d38cf4554837c9c6434b7607746f2c40836ac950
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d1e4ecbc216ab4a00dabd85f623bc134772dfd4c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944618"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706161"
 ---
 # <a name="updatetypeenum-enumeration-dao"></a>UpdateTypeEnum 枚举 (DAO)
 
@@ -28,7 +29,7 @@ ms.locfileid: "25944618"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>

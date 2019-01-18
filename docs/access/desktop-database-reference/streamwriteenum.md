@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249861(v=office.15)
 ms:contentKeyID: 48547216
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 7ba09a0b741483713dfa019062309344eecdb139
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 87144e5409fb54cf0cb8f59ad4d593ab05d694a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891119"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706168"
 ---
 # <a name="streamwriteenum"></a>StreamWriteEnum
 

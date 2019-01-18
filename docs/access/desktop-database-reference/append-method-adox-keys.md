@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248913(v=office.15)
 ms:contentKeyID: 48543396
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d99af00f1ad83087994737f5bb3ca29acf2a9deb
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c301f6809ab7f785497637b12e0b5d7a0bb7772d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949815"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718901"
 ---
 # <a name="append-method-adox-keys"></a>Append 方法（ADOX 键）
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949815"
 
 *键*。追加*密钥* \[，*关键字类型*\] \[，*列*\] \[，*RelatedTable* \] \[，*RelatedColumn*\]
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e3de2ba6696ac9abc065c6d4588d362f79fba273
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 43fa81fa2f175c7b67c5de4cfda5158cc067bbac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026398"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718250"
 ---
 # <a name="sql-reserved-words"></a>SQL 保留字
 

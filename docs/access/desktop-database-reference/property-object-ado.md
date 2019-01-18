@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250210(v=office.15)
 ms:contentKeyID: 48548567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b26a305557e2b7244399c6c2c5513909846eaaff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 262f4873359508a985b27f3d4ea70a5fcbfd620f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929565"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720056"
 ---
 # <a name="property-object-ado"></a>Property 对象 (ADO)
 

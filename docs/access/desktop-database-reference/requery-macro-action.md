@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e59a1f5ce676ceaa1b0b346a38b4487b3233e514
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8b90af8d1cda073ffa37022bb5db5e8cf8e3b978
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997376"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705986"
 ---
 # <a name="requery-macro-action"></a>Requery 宏操作
 

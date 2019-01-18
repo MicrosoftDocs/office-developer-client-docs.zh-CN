@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
 ms:contentKeyID: 48543768
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 253be078fa6a8f5fdd4cb0c6c67fc6d5385e554c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a3ecf8b6655bb9f1dd2b25d264708112834e8a90
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936537"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717942"
 ---
 # <a name="field2sourcetable-property-dao"></a>Field2.SourceTable 属性 (DAO)
 
@@ -43,7 +44,7 @@ ms.locfileid: "25936537"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>索引</strong></p></td>
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">

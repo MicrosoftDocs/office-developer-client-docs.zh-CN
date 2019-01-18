@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249574(v=office.15)
 ms:contentKeyID: 48546019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b739d51a4d2db1315f780af84952b07a33f5263b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 54fb42ade164ce49cd09ce5a71b342342026a0a2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889579"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722408"
 ---
 # <a name="save-and-open-methods-example-vc"></a>Save 和 Open 方法示例 (VC++)
 

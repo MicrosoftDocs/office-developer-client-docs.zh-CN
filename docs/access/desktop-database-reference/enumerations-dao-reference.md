@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
 ms:contentKeyID: 52074514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d062fe3cc64bcc16cffa2d9a9836da2787a6f370
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b68b8425563d3ffec4939288606eade0bc95763d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945493"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721449"
 ---
 # <a name="enumerations-dao-reference"></a>枚举 （DAO 参考 （英文）
 

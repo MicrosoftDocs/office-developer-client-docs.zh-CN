@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053177
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 82aaad563e2fcd630b013d5609d295ae91238d8a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c8d22afd7c91c50020fcf7ef603a475e65968693
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923859"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717578"
 ---
 # <a name="querydefparameters-property-dao"></a>QueryDef.Parameters 属性 (DAO)
 

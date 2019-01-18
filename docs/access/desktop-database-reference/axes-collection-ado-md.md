@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7e7c9b82a1613f9f3d17a1da3e637f9f9382693
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8183b0bad1dcbaba33088dffcf21959f5b9fd993
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944338"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721477"
 ---
 # <a name="axes-collection-ado-md"></a>Axes 集合 (ADO MD)
 

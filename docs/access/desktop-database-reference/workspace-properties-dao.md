@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124967(v=office.15)
 ms:contentKeyID: 52072587
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 03f4e2b8da92c1a62efe1b3e9b45b85b02786491
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 45cb25f66e46bba5040daab978511209b9e6a4bd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943862"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717067"
 ---
 # <a name="workspace-properties-dao"></a>工作区属性 (DAO)
 

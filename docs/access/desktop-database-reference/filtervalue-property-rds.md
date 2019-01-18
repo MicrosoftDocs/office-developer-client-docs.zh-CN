@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249399(v=office.15)
 ms:contentKeyID: 48545350
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0de54097c7992583851bbbd7b04c40f10fbca76e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 70dca16f4a949cc6088779c1406e0c77cb477ba1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949479"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721946"
 ---
 # <a name="filtervalue-property-rds"></a>FilterValue 属性 (RDS)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25949479"
 
 *DataControl*。FilterValue =*字符串*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

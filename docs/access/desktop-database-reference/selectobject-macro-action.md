@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b34deff80157b3de63038251a649794587dacc85
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6287bc8a66858d51d65c37477eed7a86cd7839af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997411"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721848"
 ---
 # <a name="selectobject-macro-action"></a>SelectObject 宏操作
 

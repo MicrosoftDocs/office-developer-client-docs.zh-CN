@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
 ms:contentKeyID: 48548430
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5601363e072585e731af58d117c219b363271f0e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: df39d66db67652c840980aa01e15cd39a437bc48
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881550"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714498"
 ---
 # <a name="item-property-example-vb"></a>Item 属性示例 (VB)
 

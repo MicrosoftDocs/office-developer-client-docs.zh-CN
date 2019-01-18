@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231105
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 87df4d1597661dc599c08b0f0b45b8e129484a2d
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ed736a0e52ff45cd0fed63f1ba5bd7060d7a2380
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025929"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718411"
 ---
 # <a name="connection-object-ado"></a>Connection 对象 (ADO)
 

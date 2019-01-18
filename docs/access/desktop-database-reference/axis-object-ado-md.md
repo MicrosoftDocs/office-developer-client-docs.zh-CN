@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
 ms:contentKeyID: 48546807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6e90ff31c0b6a78a3f242927e2fa7e84c42d6ab3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 23fdb0d9ba636ae58fa19b42d5a8a47cb01d4ab2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945346"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720728"
 ---
 # <a name="axis-object-ado-md"></a>Axis 对象 (ADO MD)
 

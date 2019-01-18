@@ -11,14 +11,15 @@ f1_keywords:
 - vbaac10.chm13783
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5104ab19c5fab816040d7a5d56fa6f425658c245
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 9635cdb2a06f610f42e4aa9fc9f998719aebb986
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874249"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716024"
 ---
-# <a name="automation-with-microsoft-access"></a>使用 Microsoft Access
+# <a name="automation-with-microsoft-access"></a>使用 Microsoft Access 自动操作
 
 **适用于**： Access 2013、 Office 2013
 

@@ -1,5 +1,5 @@
 ---
-title: 查看有关框的一个 ActiveX 控件
+title: 查看 ActiveX 控件的“关于”框
 TOCTitle: View an ActiveX control About box
 description: 若要查看关于框中的步骤。
 ms:assetid: 72a855b4-dd1a-a531-6402-0321335d3bf5
@@ -11,14 +11,15 @@ f1_keywords:
 - vbaac10.chm4039
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0ccd656669dc265170bd084efff595b97d428e0b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 01de3eb221187da95dcb8b3984a78c0dcb62af08
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884567"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709374"
 ---
-# <a name="view-an-activex-control-about-box"></a>查看有关框的一个 ActiveX 控件
+# <a name="view-an-activex-control-about-box"></a>查看 ActiveX 控件的“关于”框
 
 **适用于**： Access 2013、 Office 2013
 

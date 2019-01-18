@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96a5d7ad82c7cb9182f95b428ff17c9df60c47b3
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ad507ac8c963f1d6ead7bc3bf444e694d83f90e3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947096"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716808"
 ---
-# <a name="data-shaping"></a>数据定形
+# <a name="data-shaping"></a>数据成型
 
 **适用于**： Access 2013、 Office 2013
 
@@ -41,5 +42,5 @@ ms.locfileid: "25947096"
 
 - [重新构形](reshaping.md)
 - [孙聚合](grandchild-aggregates.md)
-- [参数化的命令与干扰 COMPUTE 命令](parameterized-commands-with-intervening-compute-commands.md)
+- [包含介于中间的 COMPUTE 命令的参数化命令](parameterized-commands-with-intervening-compute-commands.md)
 - [持久化分层记录集](persisting-hierarchical-recordsets.md)

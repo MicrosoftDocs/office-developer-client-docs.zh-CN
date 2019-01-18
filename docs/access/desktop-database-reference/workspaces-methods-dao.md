@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180120(v=office.15)
 ms:contentKeyID: 52075069
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 00109b2d846943c1d6bc079fef0829541ef12fa6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aa0640769e385d146dfab88976bc1a5ec777b418
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937832"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722653"
 ---
 # <a name="workspaces-methods-dao"></a>工作区方法 (DAO)
 
