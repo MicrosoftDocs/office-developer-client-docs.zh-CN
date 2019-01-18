@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822016(v=office.15)
 ms:contentKeyID: 48547163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d40738fd0ebec4ac9e72f595fe9218bcb08d0e77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b90a7773f2d9d574faccb3e037f0b2c643aa88d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922053"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699098"
 ---
 # <a name="recordset2datecreated-property-dao"></a>Recordset2.DateCreated 属性 (DAO)
 

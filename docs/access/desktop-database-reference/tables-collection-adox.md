@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
 ms:contentKeyID: 48543082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f87863579588b586e851cd175548d62ea7a0b920
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e53cd4b6d4a61a226103eb443bac7f3b4f92d908
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919484"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716168"
 ---
 # <a name="tables-collection-adox"></a>Tables 集合 (ADOX)
 

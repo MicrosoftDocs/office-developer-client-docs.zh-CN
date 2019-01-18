@@ -7,12 +7,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ618413(v=office.15)
 ms:contentKeyID: 49106417
 ms.date: 10/16/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4563ccafb9f4078f7016abf6d5bb96ac37b4bddd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: de2ff21598639b445f5ff84240b115704b484209
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878799"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698944"
 ---
 # <a name="changes-in-access"></a>Access 中的更改
 
@@ -48,6 +49,6 @@ Access is designed to connect databases with the cloud by building on SharePoint
 
 ## <a name="see-also"></a>另请参阅
 
-- [面向开发人员的 Access 2013 中的新增功能](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
+- [Access 2013 中面向开发人员的新增功能](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
 
 

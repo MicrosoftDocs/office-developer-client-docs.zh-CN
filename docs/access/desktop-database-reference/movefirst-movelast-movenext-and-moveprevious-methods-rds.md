@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249101(v=office.15)
 ms:contentKeyID: 48544092
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac3daa25f933438ad09b5af3c4b383bb19461cb2
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b5631ce68a0479146e15ba74b41af5669d86175a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949246"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716031"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (RDS)
 
@@ -23,13 +24,13 @@ ms.locfileid: "25949246"
 
 *DataControl*。记录集。{ MoveFirst |MoveLast |MoveNext |MovePrevious}
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
 |*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 您可以使用**Move**方法与**rds.DataControl**对象浏览网页上的数据绑定控件中的数据记录。 
 

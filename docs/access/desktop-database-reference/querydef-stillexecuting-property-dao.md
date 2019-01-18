@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053584
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8f3816ade1195505910a2a6d26319d525b1db42b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 60c0663eaa6857801555c6ce05f4256cfe4c290f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919281"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716689"
 ---
 # <a name="querydefstillexecuting-property-dao"></a>QueryDef.StillExecuting 属性 (DAO)
 

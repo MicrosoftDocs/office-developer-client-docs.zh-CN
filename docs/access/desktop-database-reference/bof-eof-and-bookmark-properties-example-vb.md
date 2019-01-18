@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15)
 ms:contentKeyID: 48544037
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a2841a8f13d053e41c7a15a37b40dd3513238fc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 27a3e9b1905539a1ede534c6918334b97d45c305
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888501"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718446"
 ---
 # <a name="bof-eof-and-bookmark-properties-example-vb"></a>BOF、EOF 和 Bookmark 属性示例 (VB)
 

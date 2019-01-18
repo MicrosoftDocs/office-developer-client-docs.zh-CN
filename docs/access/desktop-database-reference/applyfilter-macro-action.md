@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f6f0511a1358e8d9b0d0ee820e83cf59d2400345
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e79ab56778f9429e7f1a985f0f81864ae4363606
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025964"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716845"
 ---
 # <a name="applyfilter-macro-action"></a>ApplyFilter 宏操作
 
@@ -60,7 +61,7 @@ ms.locfileid: "26025964"
 > [!NOTE]
 > 如果已定义提供适当数据的筛选，则可以使用“筛选名称”参数。可以使用“Where 条件”参数直接输入限制条件。如果同时使用这两个参数，Microsoft Office Access 2007 将会向筛选结果应用 WHERE 子句。必须使用这两个参数之一，或同时使用它们。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以对窗体视图或数据表视图中的窗体应用筛选或查询。
 

@@ -1,19 +1,20 @@
 ---
-title: 附录 B:ADO 错误
+title: 附录 B：ADO 错误
 TOCTitle: 'Appendix B: ADO errors'
 ms:assetid: b6a0e8a6-e629-b500-50cf-b7d4c45941d0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249877(v=office.15)
 ms:contentKeyID: 48547280
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c4f3fb00c90044bc77395365ec60f54c73b14d2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8344e530528d31a37752e863c596977d5e170ef8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946922"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720378"
 ---
-# <a name="appendix-b-ado-errors"></a>附录 B:ADO 错误
+# <a name="appendix-b-ado-errors"></a>附录 B：ADO 错误
 
 **适用于**： Access 2013、 Office 2013
 

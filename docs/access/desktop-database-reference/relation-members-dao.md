@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
 ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d4b1b1a3a06d0605793667f8c9258ea5b6336f5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923726"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722723"
 ---
 # <a name="relation-members-dao"></a>关系成员 (DAO)
 
@@ -61,7 +62,7 @@ Relation 对象表示表或查询中的字段之间的关系（仅适用于 Micr
 <td><p>设置或返回一个值，该值指示 <strong>Relation</strong> 对象的一个或多个特征。可读写 <strong>Long</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-fields-property-dao.md">字段</a></strong></p></td>
+<td><p><strong><a href="relation-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。只读。</p></td>
 </tr>
 <tr class="odd">
@@ -81,7 +82,7 @@ Relation 对象表示表或查询中的字段之间的关系（仅适用于 Micr
 <td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="relation-table-property-dao.md">表</a></strong></p></td>
+<td><p><strong><a href="relation-table-property-dao.md">Table</a></strong></p></td>
 <td><p>指示 <strong><a href="relation-object-dao.md">Relation</a></strong> 对象的主表的名称。该属性应当等同于 <strong><a href="connection-name-property-dao.md">TableDef</a></strong> 或 <strong><a href="tabledef-object-dao.md">QueryDef</a></strong> 对象的 <strong><a href="querydef-object-dao.md">Name</a></strong> 属性设置（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 </tbody>

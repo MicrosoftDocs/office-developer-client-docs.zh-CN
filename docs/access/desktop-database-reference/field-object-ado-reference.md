@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249970(v=office.15)
 ms:contentKeyID: 48547634
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42adb0c9dbf0f6a3ef3467b1ab9c84b7ac0d2c18
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 40b225b1220ddd9b180a2451619eb97225b46a21
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926701"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718453"
 ---
 # <a name="field-object-ado-reference"></a>字段对象 (ADO) 参考 （英文）
 

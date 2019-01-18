@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 549559756a2929e6b2daad01c4a0542a973a8bca
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a0e448662384572163fca074e554a5e30be30a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937118"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703599"
 ---
 # <a name="field-members-dao"></a>域成员 (DAO)
 
@@ -111,11 +112,11 @@ Field 对象代表具有普通数据类型和普通属性集的数据列。
 <td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-required-property-dao.md">必填</a></strong></p></td>
+<td><p><strong><a href="field-required-property-dao.md">Required</a></strong></p></td>
 <td><p>设置或返回一个值，该值指示 <strong><a href="field-object-dao.md">Field</a></strong> 对象是否需要一个非 Null 值。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-fieldsize-property-dao.md">大小</a></strong></p></td>
+<td><p><strong><a href="field-fieldsize-property-dao.md">Size</a></strong></p></td>
 <td><p>返回 <strong><a href="field-object-dao.md">Recordset</a></strong> 对象的 <strong><a href="fields-collection-dao.md">Fields</a></strong> 集合中"备注"或"长二进制"类型 <strong><a href="recordset-object-dao.md">Field</a></strong> 对象的数据库（而不是内存）中使用的字节数。</p></td>
 </tr>
 <tr class="even">
@@ -127,7 +128,7 @@ Field 对象代表具有普通数据类型和普通属性集的数据列。
 <td><p>返回一个值，该值指示作为 <strong>Field</strong> 对象的原始数据源的表的名称。只读 <strong>String</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-type-property-dao.md">类型</a></strong></p></td>
+<td><p><strong><a href="field-type-property-dao.md">Type</a></strong></p></td>
 <td><p>设置或返回一个值，该值指示对象的操作类型或数据类型。可读写 <strong>Integer</strong>。</p></td>
 </tr>
 <tr class="odd">
@@ -143,7 +144,7 @@ Field 对象代表具有普通数据类型和普通属性集的数据列。
 <td><p>设置或返回一个值，该值指定当 <strong>Field</strong> 对象的值不符合 <strong>ValidationRule</strong> 属性设置所指定的验证规则时应用程序显示的消息文本（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-value-property-dao.md">值</a></strong></p></td>
+<td><p><strong><a href="field-value-property-dao.md">Value</a></strong></p></td>
 <td><p>设置或返回对象的值。可读/写 <strong>Variant</strong> 类型。</p></td>
 </tr>
 <tr class="odd">

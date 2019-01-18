@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249557(v=office.15)
 ms:contentKeyID: 48545952
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c3a42a89179cca6ec556819031865d6b6752b176
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 96ddc7fc1a93543f0eea2b42a3d423ec25a00636
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928605"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721505"
 ---
 # <a name="record-object-ado"></a>Record 对象 (ADO)
 

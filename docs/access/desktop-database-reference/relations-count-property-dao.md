@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196377(v=office.15)
 ms:contentKeyID: 48545843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5af98ffa550dc2ba959284e16af1e1bf5ac39328
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: dd9cc00d2dc33263d6226783770fdae5207137f5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920737"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699560"
 ---
 # <a name="relationscount-property-dao"></a>Relations.Count 属性 (DAO)
 

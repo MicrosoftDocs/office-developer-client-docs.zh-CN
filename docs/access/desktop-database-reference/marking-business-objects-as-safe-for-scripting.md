@@ -1,19 +1,20 @@
 ---
-title: 标记为可安全编写脚本的业务对象
+title: 将业务对象标记为脚本安全
 TOCTitle: Marking business objects as safe for scripting
 ms:assetid: 8ee49aec-672d-96f7-baa6-9261317a4d90
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bfd2a93b4a228186629d0c08e26cf2b0b7b32804
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe5d331b7f3ab4685cb930323076d111a25ec68e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944254"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720546"
 ---
-# <a name="marking-business-objects-as-safe-for-scripting"></a>标记为可安全编写脚本的业务对象
+# <a name="marking-business-objects-as-safe-for-scripting"></a>将业务对象标记为脚本安全
 
 **适用于**： Access 2013、 Office 2013
 

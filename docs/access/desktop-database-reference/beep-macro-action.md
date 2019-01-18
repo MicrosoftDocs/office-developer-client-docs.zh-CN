@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm11853
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d8ceb39071335b1600f4e371a357126306fbcf2a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 96051d8389f4b8ba7005c75ccdb5e2780ba17138
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922232"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721470"
 ---
 # <a name="beep-macro-action"></a>Beep 宏操作
 

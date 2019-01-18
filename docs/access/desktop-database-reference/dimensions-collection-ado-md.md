@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248812(v=office.15)
 ms:contentKeyID: 48543035
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4840fe1b715c9e328034a6f2cd15b57dd78f31c1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f947682364f48a21e6909cb13fb73f29c54f3535
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944639"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716569"
 ---
 # <a name="dimensions-collection-ado-md"></a>Dimensions 集合 (ADO MD)
 

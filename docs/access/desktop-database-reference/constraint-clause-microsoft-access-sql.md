@@ -12,12 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 26d2b4b6281dd762e95113d5ca022e7c0d136755
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 356620376658bb927c690056f4de9a01554aa47e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937041"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703781"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT 子句 (Microsoft Access SQL)
 

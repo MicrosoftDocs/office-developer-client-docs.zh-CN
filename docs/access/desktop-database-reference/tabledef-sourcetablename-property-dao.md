@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052901
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9139ae6593f2c1645c8bf68fe2b79f2f763f746c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bd2610e728d97d3a9fc2f6359a42fd3cdccb11e5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929109"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722548"
 ---
 # <a name="tabledefsourcetablename-property-dao"></a>TableDef.SourceTableName 属性 (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192239(v=office.15)
 ms:contentKeyID: 48543989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 96ea7ca40c6bbc04a14b5562027de2bf17bf3bd6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e6f68cc9704d7dafe7a1d779b338294c9d5fc1c8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925098"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718796"
 ---
 # <a name="recordset2cachestart-property-dao"></a>Recordset2.CacheStart 属性 (DAO)
 

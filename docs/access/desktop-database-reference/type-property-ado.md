@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248914(v=office.15)
 ms:contentKeyID: 48543397
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 646284877722baf9aec6bb591b071667fdf9cc1a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 34a5d1cb1750dc9803c62202a06feccc2d464f9b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867725"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698251"
 ---
 # <a name="type-property-ado"></a>Type 属性 (ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249527(v=office.15)
 ms:contentKeyID: 48545862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 43a69e16f14df7304a2278456641f6ad44fbccb7
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f77617d4ddfb0160b8a418f55582a380067fde70
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910654"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716563"
 ---
 # <a name="dataspace-object-rds"></a>DataSpace 对象 (RDS)
 
