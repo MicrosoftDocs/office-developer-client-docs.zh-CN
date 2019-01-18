@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249791(v=office.15)
 ms:contentKeyID: 48546955
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbeb39fb4142f88745a914cbed3d00ba57958577
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0d3f86136d8dd376b444083430557729c11ec473
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919407"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701492"
 ---
-# <a name="relatedcolumn-property-adox"></a><span data-ttu-id="b6b28-102">RelatedColumn 属性 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b6b28-102">RelatedColumn property (ADOX)</span></span>
+# <a name="relatedcolumn-property-adox"></a><span data-ttu-id="6fb31-102">RelatedColumn 属性 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6fb31-102">RelatedColumn property (ADOX)</span></span>
 
 
-<span data-ttu-id="b6b28-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6b28-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6fb31-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6fb31-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b6b28-104">指示相关表中相关列的名称（仅限键列）。</span><span class="sxs-lookup"><span data-stu-id="b6b28-104">Indicates the name of the related column in the related table (key columns only).</span></span>
+<span data-ttu-id="6fb31-104">指示相关表中相关列的名称（仅限键列）。</span><span class="sxs-lookup"><span data-stu-id="6fb31-104">Indicates the name of the related column in the related table (key columns only).</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="b6b28-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="b6b28-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="6fb31-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="6fb31-105">Settings and return values</span></span>
 
-<span data-ttu-id="b6b28-106">设置和返回一个 **String** 值，该值为相关表中相关列的名称。</span><span class="sxs-lookup"><span data-stu-id="b6b28-106">Sets and returns a **String** value that is the name of the related column in the related table.</span></span>
+<span data-ttu-id="6fb31-106">设置和返回一个 **String** 值，该值为相关表中相关列的名称。</span><span class="sxs-lookup"><span data-stu-id="6fb31-106">Sets and returns a **String** value that is the name of the related column in the related table.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b6b28-107">备注</span><span class="sxs-lookup"><span data-stu-id="b6b28-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6fb31-107">备注</span><span class="sxs-lookup"><span data-stu-id="6fb31-107">Remarks</span></span>
 
-<span data-ttu-id="b6b28-108">默认值为空字符串 ("")。</span><span class="sxs-lookup"><span data-stu-id="b6b28-108">The default value is an empty string ("").</span></span>
+<span data-ttu-id="6fb31-108">默认值为空字符串 ("")。</span><span class="sxs-lookup"><span data-stu-id="6fb31-108">The default value is an empty string ("").</span></span>
 
-<span data-ttu-id="b6b28-109">对于已追加到集合中的 [Column](column-object-adox.md) 对象，此属性为只读。</span><span class="sxs-lookup"><span data-stu-id="b6b28-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="6fb31-109">对于已追加到集合中的 [Column](column-object-adox.md) 对象，此属性为只读。</span><span class="sxs-lookup"><span data-stu-id="6fb31-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
 

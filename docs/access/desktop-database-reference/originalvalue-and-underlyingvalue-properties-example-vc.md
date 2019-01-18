@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15)
 ms:contentKeyID: 48547246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2f855cfc02350a21833fc9e2f49d8b890c307db
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: db524a8107563b465dbb56fe2bc5bb051fdc899a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886380"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722674"
 ---
-# <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a><span data-ttu-id="706c9-102">OriginalValue 和 UnderlyingValue 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="706c9-102">OriginalValue and UnderlyingValue properties example (VC++)</span></span>
+# <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a><span data-ttu-id="9e54d-102">OriginalValue 和 UnderlyingValue 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="9e54d-102">OriginalValue and UnderlyingValue properties example (VC++)</span></span>
 
-<span data-ttu-id="706c9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="706c9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9e54d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e54d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="706c9-104">本示例演示 [OriginalValue](originalvalue-property-ado.md) 和 [UnderlyingValue](underlyingvalue-property-ado.md) 属性，如果记录的基础数据在 [Recordset](recordset-object-ado.md) 批更新期间发生更改，则显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="706c9-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
+<span data-ttu-id="9e54d-104">本示例演示 [OriginalValue](originalvalue-property-ado.md) 和 [UnderlyingValue](underlyingvalue-property-ado.md) 属性，如果记录的基础数据在 [Recordset](recordset-object-ado.md) 批更新期间发生更改，则显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="9e54d-104">This example demonstrates the [OriginalValue](originalvalue-property-ado.md) and [UnderlyingValue](underlyingvalue-property-ado.md) properties by displaying a message if a record's underlying data has changed during a [Recordset](recordset-object-ado.md) batch update.</span></span>
 
 ```cpp 
  
@@ -230,7 +231,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="706c9-105">**OriginalValueX.h**</span><span class="sxs-lookup"><span data-stu-id="706c9-105">**OriginalValueX.h**</span></span>
+<span data-ttu-id="9e54d-105">**OriginalValueX.h**</span><span class="sxs-lookup"><span data-stu-id="9e54d-105">**OriginalValueX.h**</span></span>
 
 ```cpp 
  

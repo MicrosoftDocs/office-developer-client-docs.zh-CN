@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d890b02c75b25b69874690b057c976a3fceb2a7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 418aaf15c38fba753709d03681246341c78102bc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879933"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706221"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="49db5-102">Move 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="49db5-102">Move method example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="4f233-102">Move 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="4f233-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="49db5-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="49db5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4f233-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f233-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="49db5-104">以下示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="49db5-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="4f233-104">以下示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="4f233-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

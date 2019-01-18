@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
 ms:contentKeyID: 48547871
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cec32ff7229540344d471e6c66b96270bb5a197
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9120fa718544a0d1d7a132b197517aac955f5fc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878029"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721099"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="bab73-102">Keys 的 Append 方法，密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="bab73-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="b2bde-102">Keys 的 Append 方法，密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b2bde-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
 
 
-<span data-ttu-id="bab73-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="bab73-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b2bde-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2bde-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bab73-104">下面的代码演示如何创建新的外键。</span><span class="sxs-lookup"><span data-stu-id="bab73-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="bab73-105">该示例假定存在两个表 （**客户**和**订单**）。</span><span class="sxs-lookup"><span data-stu-id="bab73-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
+<span data-ttu-id="b2bde-104">下面的代码演示如何创建新的外键。</span><span class="sxs-lookup"><span data-stu-id="b2bde-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="b2bde-105">该示例假定存在两个表 （**客户**和**订单**）。</span><span class="sxs-lookup"><span data-stu-id="b2bde-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
 
 ```vb 
  

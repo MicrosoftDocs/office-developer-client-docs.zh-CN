@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248841(v=office.15)
 ms:contentKeyID: 48543165
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 851ac656d78e99c757cd8299b03b9af3b7c4f609
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5d4e812fff0fc1aa19208b1e2f7bb1bdd759acdd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926596"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698531"
 ---
-# <a name="columns-collection-adox-reference"></a><span data-ttu-id="c98b9-102">Columns 集合 (ADOX) 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="c98b9-102">Columns collection (ADOX) reference</span></span>
+# <a name="columns-collection-adox-reference"></a><span data-ttu-id="689db-102">Columns 集合 (ADOX) 参考 （英文）</span><span class="sxs-lookup"><span data-stu-id="689db-102">Columns collection (ADOX) reference</span></span>
 
-<span data-ttu-id="c98b9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c98b9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="689db-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="689db-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c98b9-104">Columns 集合 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c98b9-104">Columns collection (ADOX)</span></span>](columns-collection-adox.md)
-- [<span data-ttu-id="c98b9-105">Columns 集合的属性、方法和事件 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c98b9-105">Columns collection properties, methods, and events (ADOX)</span></span>](columns-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="689db-104">Columns 集合 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="689db-104">Columns collection (ADOX)</span></span>](columns-collection-adox.md)
+- [<span data-ttu-id="689db-105">Columns 集合的属性、方法和事件 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="689db-105">Columns collection properties, methods, and events (ADOX)</span></span>](columns-collection-properties-methods-and-events-adox.md)
 

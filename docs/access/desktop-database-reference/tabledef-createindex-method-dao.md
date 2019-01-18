@@ -10,26 +10,27 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 429b64ae3909e320433b34d1426e396926fafba7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: baa82b659cc2260d4a003c644b2d03d6c897fd21
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997474"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706232"
 ---
-# <a name="tabledefcreateindex-method-dao"></a><span data-ttu-id="815ba-102">TableDef.CreateIndex 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="815ba-102">TableDef.CreateIndex method (DAO)</span></span>
+# <a name="tabledefcreateindex-method-dao"></a><span data-ttu-id="09482-102">TableDef.CreateIndex 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="09482-102">TableDef.CreateIndex method (DAO)</span></span>
 
-<span data-ttu-id="815ba-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="815ba-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="09482-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="09482-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="815ba-p101">创建一个新的 **[Index](index-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="815ba-p101">Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="09482-p101">创建一个新的 **[Index](index-object-dao.md)** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="09482-p101">Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="815ba-106">语法</span><span class="sxs-lookup"><span data-stu-id="815ba-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="09482-106">语法</span><span class="sxs-lookup"><span data-stu-id="09482-106">Syntax</span></span>
 
-<span data-ttu-id="815ba-107">*表达式*。CreateIndex （***名称***）</span><span class="sxs-lookup"><span data-stu-id="815ba-107">*expression* .CreateIndex(***Name***)</span></span>
+<span data-ttu-id="09482-107">*表达式*。CreateIndex （***名称***）</span><span class="sxs-lookup"><span data-stu-id="09482-107">*expression* .CreateIndex(***Name***)</span></span>
 
-<span data-ttu-id="815ba-108">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="815ba-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="09482-108">*表达式*一个代表**TableDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="09482-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="815ba-109">参数</span><span class="sxs-lookup"><span data-stu-id="815ba-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="09482-109">Parameters</span><span class="sxs-lookup"><span data-stu-id="09482-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,38 +41,38 @@ ms.locfileid: "25997474"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="815ba-110">名称</span><span class="sxs-lookup"><span data-stu-id="815ba-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="815ba-111">必需/可选</span><span class="sxs-lookup"><span data-stu-id="815ba-111">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="815ba-112">数据类型</span><span class="sxs-lookup"><span data-stu-id="815ba-112">Data type</span></span></p></th>
-<th><p><span data-ttu-id="815ba-113">说明</span><span class="sxs-lookup"><span data-stu-id="815ba-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="09482-110">Name</span><span class="sxs-lookup"><span data-stu-id="09482-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="09482-111">必需/可选</span><span class="sxs-lookup"><span data-stu-id="09482-111">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="09482-112">数据类型</span><span class="sxs-lookup"><span data-stu-id="09482-112">Data type</span></span></p></th>
+<th><p><span data-ttu-id="09482-113">说明</span><span class="sxs-lookup"><span data-stu-id="09482-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="815ba-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="815ba-114"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="815ba-115">可选</span><span class="sxs-lookup"><span data-stu-id="815ba-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="815ba-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="815ba-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="815ba-p102">一个对新的 <strong>Index</strong> 对象进行唯一命名的 <strong>String</strong>。有关有效 <strong>Index</strong> 名称的详细信息，请参阅 <strong>Name</strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="815ba-p102">A <strong>String</strong> that uniquely names the new <strong>Index</strong> object. See the <strong>Name</strong> property for details on valid <strong>Index</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="09482-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="09482-114"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="09482-115">可选</span><span class="sxs-lookup"><span data-stu-id="09482-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="09482-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="09482-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="09482-p102">一个对新的 <strong>Index</strong> 对象进行唯一命名的 <strong>String</strong>。有关有效 <strong>Index</strong> 名称的详细信息，请参阅 <strong>Name</strong> 属性。</span><span class="sxs-lookup"><span data-stu-id="09482-p102">A <strong>String</strong> that uniquely names the new <strong>Index</strong> object. See the <strong>Name</strong> property for details on valid <strong>Index</strong> names.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="815ba-119">返回值</span><span class="sxs-lookup"><span data-stu-id="815ba-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="09482-119">返回值</span><span class="sxs-lookup"><span data-stu-id="09482-119">Return value</span></span>
 
-<span data-ttu-id="815ba-120">Index</span><span class="sxs-lookup"><span data-stu-id="815ba-120">Index</span></span>
+<span data-ttu-id="09482-120">Index</span><span class="sxs-lookup"><span data-stu-id="09482-120">Index</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="815ba-121">注解</span><span class="sxs-lookup"><span data-stu-id="815ba-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="09482-121">注解</span><span class="sxs-lookup"><span data-stu-id="09482-121">Remarks</span></span>
 
-<span data-ttu-id="815ba-122">您可以使用 **CreateIndex** 方法为 **TableDef** 对象创建一个新的 **Index** 对象。</span><span class="sxs-lookup"><span data-stu-id="815ba-122">You can use the **CreateIndex** method to create a new **Index** object for a **TableDef** object.</span></span> <span data-ttu-id="815ba-123">如果使用**CreateIndex**时省略了可选名称部分，您可以使用适当的赋值语句设置或重置**名称**属性，将新对象追加到集合之前。</span><span class="sxs-lookup"><span data-stu-id="815ba-123">If you omit the optional name part when you use **CreateIndex**, you can use an appropriate assignment statement to set or reset the **Name** property before you append the new object to a collection.</span></span> <span data-ttu-id="815ba-124">追加对象后，您也许能够或不能设置其 **Name** 属性（取决于包含 **Indexes** 集合的对象类型）。</span><span class="sxs-lookup"><span data-stu-id="815ba-124">After you append the object, you may or may not be able to set its **Name** property, depending on the type of object that contains the **Indexes** collection.</span></span> <span data-ttu-id="815ba-125">有关详细信息，请参阅 **Name** 属性主题。</span><span class="sxs-lookup"><span data-stu-id="815ba-125">See the **Name** property topic for more details.</span></span>
+<span data-ttu-id="09482-122">您可以使用 **CreateIndex** 方法为 **TableDef** 对象创建一个新的 **Index** 对象。</span><span class="sxs-lookup"><span data-stu-id="09482-122">You can use the **CreateIndex** method to create a new **Index** object for a **TableDef** object.</span></span> <span data-ttu-id="09482-123">如果使用**CreateIndex**时省略了可选名称部分，您可以使用适当的赋值语句设置或重置**名称**属性，将新对象追加到集合之前。</span><span class="sxs-lookup"><span data-stu-id="09482-123">If you omit the optional name part when you use **CreateIndex**, you can use an appropriate assignment statement to set or reset the **Name** property before you append the new object to a collection.</span></span> <span data-ttu-id="09482-124">追加对象后，您也许能够或不能设置其 **Name** 属性（取决于包含 **Indexes** 集合的对象类型）。</span><span class="sxs-lookup"><span data-stu-id="09482-124">After you append the object, you may or may not be able to set its **Name** property, depending on the type of object that contains the **Indexes** collection.</span></span> <span data-ttu-id="09482-125">有关详细信息，请参阅 **Name** 属性主题。</span><span class="sxs-lookup"><span data-stu-id="09482-125">See the **Name** property topic for more details.</span></span>
 
-<span data-ttu-id="815ba-126">如果 name 引用对象的已经是集合的成员，使用**[Append](fields-append-method-dao.md)** 方法时，发生此事件运行时错误。</span><span class="sxs-lookup"><span data-stu-id="815ba-126">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
+<span data-ttu-id="09482-126">如果 name 引用对象的已经是集合的成员，使用**[Append](fields-append-method-dao.md)** 方法时，发生此事件运行时错误。</span><span class="sxs-lookup"><span data-stu-id="09482-126">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="815ba-127">要从集合中删除 **Index** 对象，请对集合使用 **[Delete](fields-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="815ba-127">To remove an **Index** object from a collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="09482-127">要从集合中删除 **Index** 对象，请对集合使用 **[Delete](fields-delete-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="09482-127">To remove an **Index** object from a collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="815ba-128">示例</span><span class="sxs-lookup"><span data-stu-id="815ba-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="09482-128">示例</span><span class="sxs-lookup"><span data-stu-id="09482-128">Example</span></span>
 
-<span data-ttu-id="815ba-p104">以下示例使用 **CreateIndex** 方法创建两个新的 **Index** 对象，然后将它们追加到 Employees **TableDef** 对象的 **Indexes** 集合。然后，该示例枚举 **TableDef** 对象的 Indexes 集合、新 **Index** 对象的 **Fields** 集合，以及新 **Index** 对象的 Properties 集合。若要使该过程正常运行，需要使用 CreateIndexOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="815ba-p104">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the Indexes collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="09482-p104">以下示例使用 **CreateIndex** 方法创建两个新的 **Index** 对象，然后将它们追加到 Employees **TableDef** 对象的 **Indexes** 集合。然后，该示例枚举 **TableDef** 对象的 Indexes 集合、新 **Index** 对象的 **Fields** 集合，以及新 **Index** 对象的 Properties 集合。若要使该过程正常运行，需要使用 CreateIndexOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="09482-p104">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the Indexes collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreateIndexX() 

@@ -10,35 +10,36 @@ f1_keywords:
 - dao360.chm1052926
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 26d9d215c35e9a768a663d41ecc40f49bee4dfdb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5142d0d47be37ca8c2e1c6b89462c05b7d41d302
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920856"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721694"
 ---
-# <a name="recordsetrestartable-property-dao"></a><span data-ttu-id="8ed0f-102">Recordset.Restartable 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="8ed0f-102">Recordset.Restartable property (DAO)</span></span>
+# <a name="recordsetrestartable-property-dao"></a><span data-ttu-id="69981-102">Recordset.Restartable 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="69981-102">Recordset.Restartable property (DAO)</span></span>
 
 
-<span data-ttu-id="8ed0f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ed0f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69981-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="69981-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8ed0f-104">返回一个值，该值表示 **[Recordset](recordset-object-dao.md)** 对象是否支持 **[Requery](recordset-requery-method-dao.md)** 方法，该方法重新执行 **Recordset** 对象所基于的查询。</span><span class="sxs-lookup"><span data-stu-id="8ed0f-104">Returns a value that indicates whether a **[Recordset](recordset-object-dao.md)** object supports the **[Requery](recordset-requery-method-dao.md)** method, which re-executes the query on which the **Recordset** object is based.</span></span>
+<span data-ttu-id="69981-104">返回一个值，该值表示 **[Recordset](recordset-object-dao.md)** 对象是否支持 **[Requery](recordset-requery-method-dao.md)** 方法，该方法重新执行 **Recordset** 对象所基于的查询。</span><span class="sxs-lookup"><span data-stu-id="69981-104">Returns a value that indicates whether a **[Recordset](recordset-object-dao.md)** object supports the **[Requery](recordset-requery-method-dao.md)** method, which re-executes the query on which the **Recordset** object is based.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8ed0f-105">语法</span><span class="sxs-lookup"><span data-stu-id="8ed0f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="69981-105">语法</span><span class="sxs-lookup"><span data-stu-id="69981-105">Syntax</span></span>
 
-<span data-ttu-id="8ed0f-106">*表达式*。可重新启动</span><span class="sxs-lookup"><span data-stu-id="8ed0f-106">*expression* .Restartable</span></span>
+<span data-ttu-id="69981-106">*表达式*。可重新启动</span><span class="sxs-lookup"><span data-stu-id="69981-106">*expression* .Restartable</span></span>
 
-<span data-ttu-id="8ed0f-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="8ed0f-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="69981-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="69981-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8ed0f-108">注解</span><span class="sxs-lookup"><span data-stu-id="8ed0f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="69981-108">注解</span><span class="sxs-lookup"><span data-stu-id="69981-108">Remarks</span></span>
 
-<span data-ttu-id="8ed0f-109">表类型 **Recordset** 对象始终返回 **False**。</span><span class="sxs-lookup"><span data-stu-id="8ed0f-109">Table-type **Recordset** objects always return **False**.</span></span>
+<span data-ttu-id="69981-109">表类型 **Recordset** 对象始终返回 **False**。</span><span class="sxs-lookup"><span data-stu-id="69981-109">Table-type **Recordset** objects always return **False**.</span></span>
 
-<span data-ttu-id="8ed0f-p101">在对 **Recordset** 对象使用 **Requery** 方法之前，检查 **Restartable** 属性。如果该对象的 **Restartable** 属性设置为 **False**，则对基础 **[QueryDef](connection-openrecordset-method-dao.md)** 对象使用 **[OpenRecordset](querydef-object-dao.md)** 方法，以重新执行查询。</span><span class="sxs-lookup"><span data-stu-id="8ed0f-p101">Check the **Restartable** property before using the **Requery** method on a **Recordset** object. If the object's **Restartable** property is set to **False**, use the **[OpenRecordset](connection-openrecordset-method-dao.md)** method on the underlying **[QueryDef](querydef-object-dao.md)** object to re-execute the query.</span></span>
+<span data-ttu-id="69981-p101">在对 **Recordset** 对象使用 **Requery** 方法之前，检查 **Restartable** 属性。如果该对象的 **Restartable** 属性设置为 **False**，则对基础 **[QueryDef](connection-openrecordset-method-dao.md)** 对象使用 **[OpenRecordset](querydef-object-dao.md)** 方法，以重新执行查询。</span><span class="sxs-lookup"><span data-stu-id="69981-p101">Check the **Restartable** property before using the **Requery** method on a **Recordset** object. If the object's **Restartable** property is set to **False**, use the **[OpenRecordset](connection-openrecordset-method-dao.md)** method on the underlying **[QueryDef](querydef-object-dao.md)** object to re-execute the query.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8ed0f-112">示例</span><span class="sxs-lookup"><span data-stu-id="8ed0f-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="69981-112">示例</span><span class="sxs-lookup"><span data-stu-id="69981-112">Example</span></span>
 
-<span data-ttu-id="8ed0f-113">以下示例使用不同的 **Recordset** 对象演示 **Restartable** 属性。</span><span class="sxs-lookup"><span data-stu-id="8ed0f-113">This example demonstrates the **Restartable** property with different **Recordset** objects.</span></span>
+<span data-ttu-id="69981-113">以下示例使用不同的 **Recordset** 对象演示 **Restartable** 属性。</span><span class="sxs-lookup"><span data-stu-id="69981-113">This example demonstrates the **Restartable** property with different **Recordset** objects.</span></span>
 
 ```vb
     Sub RestartableX() 

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249023(v=office.15)
 ms:contentKeyID: 48543786
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: da4d1e32c4193fc75fcceb032dc11f4ab7de60de
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1ec0bc0bc2bcb355a2d9d3e37f94c50b7620e60b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888627"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699028"
 ---
-# <a name="addnew-method-example-vj"></a><span data-ttu-id="158ae-102">AddNew 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="158ae-102">AddNew method example (VJ++)</span></span>
+# <a name="addnew-method-example-vj"></a><span data-ttu-id="8861d-102">AddNew 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8861d-102">AddNew method example (VJ++)</span></span>
 
 
-<span data-ttu-id="158ae-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="158ae-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8861d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="8861d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="158ae-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具有指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="158ae-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="8861d-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具有指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="8861d-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```java 
  

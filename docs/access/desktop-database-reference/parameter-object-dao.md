@@ -6,37 +6,38 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845640(v=office.15)
 ms:contentKeyID: 48543495
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2702c9e32803015e28c90607b553c5f2d41c06b3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5df04b1ee06a2224db9e21f67e9c68a3ee5740bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920632"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698097"
 ---
-# <a name="parameter-object-dao"></a><span data-ttu-id="70c39-102">Parameter 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="70c39-102">Parameter object (DAO)</span></span>
+# <a name="parameter-object-dao"></a><span data-ttu-id="7d09b-102">Parameter 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="7d09b-102">Parameter object (DAO)</span></span>
 
 
-<span data-ttu-id="70c39-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="70c39-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7d09b-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d09b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="70c39-p101">**Parameter** 对象代表提供给查询的值。此参数与从参数查询创建的 **QueryDef** 对象关联。</span><span class="sxs-lookup"><span data-stu-id="70c39-p101">A **Parameter** object represents a value supplied to a query. The parameter is associated with a **QueryDef** object created from a parameter query.</span></span>
+<span data-ttu-id="7d09b-p101">**Parameter** 对象代表提供给查询的值。此参数与从参数查询创建的 **QueryDef** 对象关联。</span><span class="sxs-lookup"><span data-stu-id="7d09b-p101">A **Parameter** object represents a value supplied to a query. The parameter is associated with a **QueryDef** object created from a parameter query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="70c39-106">注解</span><span class="sxs-lookup"><span data-stu-id="70c39-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7d09b-106">注解</span><span class="sxs-lookup"><span data-stu-id="7d09b-106">Remarks</span></span>
 
-<span data-ttu-id="70c39-107">使用 **Parameter** 可以更改经常运行的 **QueryDef** 对象中的参数，而不必重新编译查询。</span><span class="sxs-lookup"><span data-stu-id="70c39-107">**Parameter** objects allow you to change the arguments in a frequently run **QueryDef** object without having to recompile the query.</span></span>
+<span data-ttu-id="7d09b-107">使用 **Parameter** 可以更改经常运行的 **QueryDef** 对象中的参数，而不必重新编译查询。</span><span class="sxs-lookup"><span data-stu-id="7d09b-107">**Parameter** objects allow you to change the arguments in a frequently run **QueryDef** object without having to recompile the query.</span></span>
 
-<span data-ttu-id="70c39-p102">使用 **Parameter** 对象的属性，可以设置能够在运行查询之前更改的查询参数。您可以进行下列操作：</span><span class="sxs-lookup"><span data-stu-id="70c39-p102">Using the properties of a **Parameter** object, you can set a query parameter that can be changed before the query is run. You can:</span></span>
+<span data-ttu-id="7d09b-p102">使用 **Parameter** 对象的属性，可以设置能够在运行查询之前更改的查询参数。您可以进行下列操作：</span><span class="sxs-lookup"><span data-stu-id="7d09b-p102">Using the properties of a **Parameter** object, you can set a query parameter that can be changed before the query is run. You can:</span></span>
 
-  - <span data-ttu-id="70c39-110">使用 **Name** 属性返回参数的名称。</span><span class="sxs-lookup"><span data-stu-id="70c39-110">Use the **Name** property to return the name of a parameter.</span></span>
+  - <span data-ttu-id="7d09b-110">使用 **Name** 属性返回参数的名称。</span><span class="sxs-lookup"><span data-stu-id="7d09b-110">Use the **Name** property to return the name of a parameter.</span></span>
 
-  - <span data-ttu-id="70c39-111">使用 **Value** 属性设置或返回需要在查询中使用的参数值。</span><span class="sxs-lookup"><span data-stu-id="70c39-111">Use the **Value** property to set or return the parameter values to be used in the query.</span></span>
+  - <span data-ttu-id="7d09b-111">使用 **Value** 属性设置或返回需要在查询中使用的参数值。</span><span class="sxs-lookup"><span data-stu-id="7d09b-111">Use the **Value** property to set or return the parameter values to be used in the query.</span></span>
 
-  - <span data-ttu-id="70c39-112">使用 **Type** 属性返回 **Parameter** 对象的数据类型。</span><span class="sxs-lookup"><span data-stu-id="70c39-112">Use the **Type** property to return the data type of the **Parameter** object.</span></span>
+  - <span data-ttu-id="7d09b-112">使用 **Type** 属性返回 **Parameter** 对象的数据类型。</span><span class="sxs-lookup"><span data-stu-id="7d09b-112">Use the **Type** property to return the data type of the **Parameter** object.</span></span>
 
-  - <span data-ttu-id="70c39-113">使用 **Direction** 属性设置或返回参数是输入参数、输出参数还是此两者的信息。</span><span class="sxs-lookup"><span data-stu-id="70c39-113">Use the **Direction** property to set or return whether the parameter is an input parameter, an output parameter, or both.</span></span>
+  - <span data-ttu-id="7d09b-113">使用 **Direction** 属性设置或返回参数是输入参数、输出参数还是此两者的信息。</span><span class="sxs-lookup"><span data-stu-id="7d09b-113">Use the **Direction** property to set or return whether the parameter is an input parameter, an output parameter, or both.</span></span>
 
-## <a name="example"></a><span data-ttu-id="70c39-114">示例</span><span class="sxs-lookup"><span data-stu-id="70c39-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7d09b-114">示例</span><span class="sxs-lookup"><span data-stu-id="7d09b-114">Example</span></span>
 
-<span data-ttu-id="70c39-p103">以下示例通过创建一个临时 **QueryDef**，并基于对 **QueryDef** 对象的 **Parameters** 所做的更改检索数据，来演示 **Parameter** 对象和 **Parameters** 集合。若要使该过程运行，需要使用 ParametersChange 过程。</span><span class="sxs-lookup"><span data-stu-id="70c39-p103">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="7d09b-p103">以下示例通过创建一个临时 **QueryDef**，并基于对 **QueryDef** 对象的 **Parameters** 所做的更改检索数据，来演示 **Parameter** 对象和 **Parameters** 集合。若要使该过程运行，需要使用 ParametersChange 过程。</span><span class="sxs-lookup"><span data-stu-id="7d09b-p103">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**. The ParametersChange procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub ParameterX() 

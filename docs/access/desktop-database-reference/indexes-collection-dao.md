@@ -6,34 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a809afb8e38cf23faf43d5eb49c5edadaf70b2b1
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f731862e12a75f91d07ea7d012cc33dad5be0b55
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025831"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701177"
 ---
-# <a name="indexes-collection-dao"></a><span data-ttu-id="b8fa7-102">Indexes 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b8fa7-102">Indexes collection (DAO)</span></span>
+# <a name="indexes-collection-dao"></a><span data-ttu-id="2ea4c-102">Indexes 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="2ea4c-102">Indexes collection (DAO)</span></span>
 
-<span data-ttu-id="b8fa7-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b8fa7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2ea4c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ea4c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b8fa7-104">**Indexes** 对象包含 **TableDef** 对象的所有存储的 **Index** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="b8fa7-104">An **Indexes** collection contains all the stored **Index** objects of a **TableDef** object (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="2ea4c-104">**Indexes** 对象包含 **TableDef** 对象的所有存储的 **Index** 对象（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="2ea4c-104">An **Indexes** collection contains all the stored **Index** objects of a **TableDef** object (Microsoft Access workspaces only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b8fa7-105">注解</span><span class="sxs-lookup"><span data-stu-id="b8fa7-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2ea4c-105">注解</span><span class="sxs-lookup"><span data-stu-id="2ea4c-105">Remarks</span></span>
 
-<span data-ttu-id="b8fa7-p101">访问表类型的 Recordset 对象时，使用对象的 **Index** 属性来指定记录的顺序。将该属性设置为 \*\*\*\*Recordset\*\*\*\* 对象的基础 [**TableDef**](tabledef-object-dao.md) 对象的 **Indexes** 集合中现有 [Index](recordset-object-dao.md) 对象的 **Name** 属性设置。</span><span class="sxs-lookup"><span data-stu-id="b8fa7-p101">When you access a table-type Recordset object, use the object's **Index** property to specify the order of records. Set this property to the **Name** property setting of an existing **Index** object in the **Indexes** collection of the **[TableDef](tabledef-object-dao.md)** object underlying the **[Recordset](recordset-object-dao.md)** object.</span></span>
+<span data-ttu-id="2ea4c-p101">访问表类型的 Recordset 对象时，使用对象的 **Index** 属性来指定记录的顺序。将该属性设置为 \*\*\*\*Recordset\*\*\*\* 对象的基础 [**TableDef**](tabledef-object-dao.md) 对象的 **Indexes** 集合中现有 [Index](recordset-object-dao.md) 对象的 **Name** 属性设置。</span><span class="sxs-lookup"><span data-stu-id="2ea4c-p101">When you access a table-type Recordset object, use the object's **Index** property to specify the order of records. Set this property to the **Name** property setting of an existing **Index** object in the **Indexes** collection of the **[TableDef](tabledef-object-dao.md)** object underlying the **[Recordset](recordset-object-dao.md)** object.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b8fa7-108">[!注释] 仅当包含 **Indexes** 集合的 **TableDef** 对象的 [**Updatable**](connection-updatable-property-dao.md) 属性设置为 **True** 时，才能对该集合使用 **Append** 或 **Delete** 方法。</span><span class="sxs-lookup"><span data-stu-id="b8fa7-108">You can use the **Append** or **Delete** method on an **Indexes** collection only if the **[Updatable](connection-updatable-property-dao.md)** property setting of the containing **TableDef** object is **True**.</span></span>
+> <span data-ttu-id="2ea4c-108">[!注释] 仅当包含 **Indexes** 集合的 **TableDef** 对象的 [**Updatable**](connection-updatable-property-dao.md) 属性设置为 **True** 时，才能对该集合使用 **Append** 或 **Delete** 方法。</span><span class="sxs-lookup"><span data-stu-id="2ea4c-108">You can use the **Append** or **Delete** method on an **Indexes** collection only if the **[Updatable](connection-updatable-property-dao.md)** property setting of the containing **TableDef** object is **True**.</span></span>
 
-<span data-ttu-id="b8fa7-109">创建新的 **Index** 对象之后，应使用 **Append** 方法将该对象添加到 **TableDef** 对象的 **Indexes** 集合中。</span><span class="sxs-lookup"><span data-stu-id="b8fa7-109">After you create a new **Index** object, you should use the **Append** method to add it to the **TableDef** object's **Indexes** collection.</span></span>
+<span data-ttu-id="2ea4c-109">创建新的 **Index** 对象之后，应使用 **Append** 方法将该对象添加到 **TableDef** 对象的 **Indexes** 集合中。</span><span class="sxs-lookup"><span data-stu-id="2ea4c-109">After you create a new **Index** object, you should use the **Append** method to add it to the **TableDef** object's **Indexes** collection.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="b8fa7-p102">[!重要信息] 确保数据符合新索引的属性。如果索引需要唯一值，请确保现有数据记录中没有重复值。如果存在重复值，Microsoft Access 数据库引擎将无法创建索引；当您尝试对新索引使用 Append 方法时，会生成可捕获的错误。</span><span class="sxs-lookup"><span data-stu-id="b8fa7-p102">Make sure your data complies with the attributes of your new index. If your index requires unique values, make sure that there are no duplicates in existing data records. If duplicates exist, the Microsoft Access database engine can't create the index; a trappable error results when you attempt to use the Append method on the new index.</span></span>
+> <span data-ttu-id="2ea4c-p102">[!重要信息] 确保数据符合新索引的属性。如果索引需要唯一值，请确保现有数据记录中没有重复值。如果存在重复值，Microsoft Access 数据库引擎将无法创建索引；当您尝试对新索引使用 Append 方法时，会生成可捕获的错误。</span><span class="sxs-lookup"><span data-stu-id="2ea4c-p102">Make sure your data complies with the attributes of your new index. If your index requires unique values, make sure that there are no duplicates in existing data records. If duplicates exist, the Microsoft Access database engine can't create the index; a trappable error results when you attempt to use the Append method on the new index.</span></span>
 
-## <a name="example"></a><span data-ttu-id="b8fa7-113">示例</span><span class="sxs-lookup"><span data-stu-id="b8fa7-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2ea4c-113">示例</span><span class="sxs-lookup"><span data-stu-id="2ea4c-113">Example</span></span>
 
-<span data-ttu-id="b8fa7-p103">以下示例创建一个新的 **Index** 对象，并将该对象追加到 Employees **TableDef** 的 **Indexes** 集合，然后枚举 **TableDef** 的 **Indexes** 集合。最后，该示例枚举 **Recordset**，方法是首先使用主 **Index**，然后使用新的 **Index**。若要使该过程正常运行，需要使用 IndexOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="b8fa7-p103">This example creates a new **Index** object, appends it to the **Indexes** collection of the Employees **TableDef**, and then enumerates the **Indexes** collection of the **TableDef**. Finally, it enumerates a **Recordset**, first using the primary **Index**, and then using the new **Index**. The IndexOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="2ea4c-p103">以下示例创建一个新的 **Index** 对象，并将该对象追加到 Employees **TableDef** 的 **Indexes** 集合，然后枚举 **TableDef** 的 **Indexes** 集合。最后，该示例枚举 **Recordset**，方法是首先使用主 **Index**，然后使用新的 **Index**。若要使该过程正常运行，需要使用 IndexOutput 过程。</span><span class="sxs-lookup"><span data-stu-id="2ea4c-p103">This example creates a new **Index** object, appends it to the **Indexes** collection of the Employees **TableDef**, and then enumerates the **Indexes** collection of the **TableDef**. Finally, it enumerates a **Recordset**, first using the primary **Index**, and then using the new **Index**. The IndexOutput procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub IndexObjectX() 
@@ -116,7 +117,7 @@ ms.locfileid: "26025831"
 
 <br/>
 
-<span data-ttu-id="b8fa7-p104">以下示例使用 **CreateIndex** 方法创建两个新的 **Index** 对象，然后将它们追加到 Employees **TableDef** 对象的 **Indexes** 集合。然后，该示例枚举 **TableDef** 对象的 **Indexes** 集合、新 **Index** 对象的 **Fields** 集合，以及新 **Index** 对象的 Properties 集合。若要使该过程正常运行，需要使用 CreateIndexOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="b8fa7-p104">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the **Indexes** collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="2ea4c-p104">以下示例使用 **CreateIndex** 方法创建两个新的 **Index** 对象，然后将它们追加到 Employees **TableDef** 对象的 **Indexes** 集合。然后，该示例枚举 **TableDef** 对象的 **Indexes** 集合、新 **Index** 对象的 **Fields** 集合，以及新 **Index** 对象的 Properties 集合。若要使该过程正常运行，需要使用 CreateIndexOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="2ea4c-p104">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the **Indexes** collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreateIndexX() 

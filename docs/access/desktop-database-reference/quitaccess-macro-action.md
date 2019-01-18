@@ -10,25 +10,26 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 793e6c2e57f50b5086780d8632952c45f3d4442d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 424b2b2cab9bc4272052a201350a0cc2ab297b8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997979"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698307"
 ---
-# <a name="quitaccess-macro-action"></a><span data-ttu-id="36576-102">QuitAccess 宏操作</span><span class="sxs-lookup"><span data-stu-id="36576-102">QuitAccess macro action</span></span>
+# <a name="quitaccess-macro-action"></a><span data-ttu-id="69169-102">QuitAccess 宏操作</span><span class="sxs-lookup"><span data-stu-id="69169-102">QuitAccess macro action</span></span>
 
-<span data-ttu-id="36576-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="36576-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69169-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="69169-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="36576-p101">可以使用 **QuitAccess** 操作退出 Microsoft Access。 **QuitAccess** 操作还可以指定在退出 Access 之前用于保存数据库对象的若干选项之一。</span><span class="sxs-lookup"><span data-stu-id="36576-p101">You can use the **QuitAccess** action to exit Microsoft Access. The **QuitAccess** action can also specify one of several options for saving database objects prior to exiting Access.</span></span>
+<span data-ttu-id="69169-p101">可以使用 **QuitAccess** 操作退出 Microsoft Access。 **QuitAccess** 操作还可以指定在退出 Access 之前用于保存数据库对象的若干选项之一。</span><span class="sxs-lookup"><span data-stu-id="69169-p101">You can use the **QuitAccess** action to exit Microsoft Access. The **QuitAccess** action can also specify one of several options for saving database objects prior to exiting Access.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="36576-106">[!注释] 如果数据库不受信任，将不允许此操作。</span><span class="sxs-lookup"><span data-stu-id="36576-106">This action will not be allowed if the database is not trusted.</span></span> 
+> <span data-ttu-id="69169-106">[!注释] 如果数据库不受信任，将不允许此操作。</span><span class="sxs-lookup"><span data-stu-id="69169-106">This action will not be allowed if the database is not trusted.</span></span> 
 
-## <a name="setting"></a><span data-ttu-id="36576-107">设置</span><span class="sxs-lookup"><span data-stu-id="36576-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="69169-107">设置</span><span class="sxs-lookup"><span data-stu-id="69169-107">Setting</span></span>
 
-<span data-ttu-id="36576-108">**QuitAccess** 操作具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="36576-108">The **QuitAccess** action has the following argument.</span></span>
+<span data-ttu-id="69169-108">**QuitAccess** 操作具有以下参数。</span><span class="sxs-lookup"><span data-stu-id="69169-108">The **QuitAccess** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -37,28 +38,28 @@ ms.locfileid: "25997979"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="36576-109">操作参数</span><span class="sxs-lookup"><span data-stu-id="36576-109">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="36576-110">说明</span><span class="sxs-lookup"><span data-stu-id="36576-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="69169-109">操作参数</span><span class="sxs-lookup"><span data-stu-id="69169-109">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="69169-110">说明</span><span class="sxs-lookup"><span data-stu-id="69169-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="36576-111"><strong>Options</strong></span><span class="sxs-lookup"><span data-stu-id="36576-111"><strong>Options</strong></span></span></p></td>
-<td><p><span data-ttu-id="36576-p102">指定在退出 Access 时未保存的对象会出现什么情况。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“选项”</strong>对话框中单击<strong>“提示”</strong>（显示询问是否保存每个对象的对话框）、<strong>“全部保存”</strong>（直接保存所有对象而不使用对话框提示）或<strong>“退出”</strong>（退出而不保存任何对象）。默认值为<strong>“全部保存”</strong>。</span><span class="sxs-lookup"><span data-stu-id="36576-p102">Specifies what happens to unsaved objects when you quit Access. Click <strong>Prompt</strong> (to display dialog boxes that ask whether to save each object), <strong>Save All</strong> (to save all objects without prompting by dialog boxes), or <strong>Exit</strong> (to quit without saving any objects) in the <strong>Options</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. The default is <strong>Save All</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="69169-111"><strong>选项</strong></span><span class="sxs-lookup"><span data-stu-id="69169-111"><strong>Options</strong></span></span></p></td>
+<td><p><span data-ttu-id="69169-p102">指定在退出 Access 时未保存的对象会出现什么情况。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“选项”</strong>对话框中单击<strong>“提示”</strong>（显示询问是否保存每个对象的对话框）、<strong>“全部保存”</strong>（直接保存所有对象而不使用对话框提示）或<strong>“退出”</strong>（退出而不保存任何对象）。默认值为<strong>“全部保存”</strong>。</span><span class="sxs-lookup"><span data-stu-id="69169-p102">Specifies what happens to unsaved objects when you quit Access. Click <strong>Prompt</strong> (to display dialog boxes that ask whether to save each object), <strong>Save All</strong> (to save all objects without prompting by dialog boxes), or <strong>Exit</strong> (to quit without saving any objects) in the <strong>Options</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. The default is <strong>Save All</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="36576-115">说明</span><span class="sxs-lookup"><span data-stu-id="36576-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="69169-115">说明</span><span class="sxs-lookup"><span data-stu-id="69169-115">Remarks</span></span>
 
-<span data-ttu-id="36576-116">Access 不运行宏的 **QuitAccess** 操作后的任何操作。</span><span class="sxs-lookup"><span data-stu-id="36576-116">Access doesn't run any actions that follow the **QuitAccess** action in a macro.</span></span>
+<span data-ttu-id="69169-116">Access 不运行宏的 **QuitAccess** 操作后的任何操作。</span><span class="sxs-lookup"><span data-stu-id="69169-116">Access doesn't run any actions that follow the **QuitAccess** action in a macro.</span></span>
 
-<span data-ttu-id="36576-117">您可以使用此操作退出 Access 不提示**保存**对话框通过使用窗体上的自定义菜单命令或按钮。</span><span class="sxs-lookup"><span data-stu-id="36576-117">You can use this action to quit Access without prompts from **Save** dialog boxes by using a custom menu command or a button on a form.</span></span> <span data-ttu-id="36576-118">例如，您可能必须使用您的自定义工作区中显示的对象的主窗体。</span><span class="sxs-lookup"><span data-stu-id="36576-118">For example, you might have a master form that you use to display the objects in your custom workspace.</span></span> <span data-ttu-id="36576-119">此窗体无法有运行的宏的**QuitAccess**操作包含**选项**参数设置为**全部保存\*\*\*\*退出**按钮。</span><span class="sxs-lookup"><span data-stu-id="36576-119">This form could have a **Quit** button that runs a macro containing the **QuitAccess** action with the **Options** argument set to **Save All**.</span></span>
+<span data-ttu-id="69169-117">您可以使用此操作退出 Access 不提示**保存**对话框通过使用窗体上的自定义菜单命令或按钮。</span><span class="sxs-lookup"><span data-stu-id="69169-117">You can use this action to quit Access without prompts from **Save** dialog boxes by using a custom menu command or a button on a form.</span></span> <span data-ttu-id="69169-118">例如，您可能必须使用您的自定义工作区中显示的对象的主窗体。</span><span class="sxs-lookup"><span data-stu-id="69169-118">For example, you might have a master form that you use to display the objects in your custom workspace.</span></span> <span data-ttu-id="69169-119">此窗体无法有运行的宏的**QuitAccess**操作包含**选项**参数设置为**全部保存\*\*\*\*退出**按钮。</span><span class="sxs-lookup"><span data-stu-id="69169-119">This form could have a **Quit** button that runs a macro containing the **QuitAccess** action with the **Options** argument set to **Save All**.</span></span>
 
-<span data-ttu-id="36576-120">此操作具有相同的效果，然后单击**退出**打开**文件**选项卡。</span><span class="sxs-lookup"><span data-stu-id="36576-120">This action has the same effect as clicking the **File** tab and then clicking **Exit**.</span></span> <span data-ttu-id="36576-121">如果您有任何未保存的对象，当您单击此命令时，显示对话框是显示使用**提示**的**QuitAccess**操作在**Options**参数时的相同。</span><span class="sxs-lookup"><span data-stu-id="36576-121">If you have any unsaved objects when you click this command, the dialog boxes that appear are the same as those displayed when you use **Prompt** for the **Options** argument of the **QuitAccess** action.</span></span>
+<span data-ttu-id="69169-120">此操作具有相同的效果，然后单击**退出**打开**文件**选项卡。</span><span class="sxs-lookup"><span data-stu-id="69169-120">This action has the same effect as clicking the **File** tab and then clicking **Exit**.</span></span> <span data-ttu-id="69169-121">如果您有任何未保存的对象，当您单击此命令时，显示对话框是显示使用**提示**的**QuitAccess**操作在**Options**参数时的相同。</span><span class="sxs-lookup"><span data-stu-id="69169-121">If you have any unsaved objects when you click this command, the dialog boxes that appear are the same as those displayed when you use **Prompt** for the **Options** argument of the **QuitAccess** action.</span></span>
 
-<span data-ttu-id="36576-122">可以使用宏中的 **SaveObject** 操作保存指定的对象，而不必退出 Access 或者关闭该对象。</span><span class="sxs-lookup"><span data-stu-id="36576-122">You can use the **SaveObject** action in a macro to save a specified object without having to quit Access or close the object.</span></span>
+<span data-ttu-id="69169-122">可以使用宏中的 **SaveObject** 操作保存指定的对象，而不必退出 Access 或者关闭该对象。</span><span class="sxs-lookup"><span data-stu-id="69169-122">You can use the **SaveObject** action in a macro to save a specified object without having to quit Access or close the object.</span></span>
 
-<span data-ttu-id="36576-123">若要在 Visual Basic for Applications (VBA) 模块中运行 **QuitAccess** 操作，请使用 **DoCmd** 对象的 **Quit** 方法。</span><span class="sxs-lookup"><span data-stu-id="36576-123">To run the **QuitAccess** action in a Visual Basic for Applications (VBA) module, use the **Quit** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="69169-123">若要在 Visual Basic for Applications (VBA) 模块中运行 **QuitAccess** 操作，请使用 **DoCmd** 对象的 **Quit** 方法。</span><span class="sxs-lookup"><span data-stu-id="69169-123">To run the **QuitAccess** action in a Visual Basic for Applications (VBA) module, use the **Quit** method of the **DoCmd** object.</span></span>
 

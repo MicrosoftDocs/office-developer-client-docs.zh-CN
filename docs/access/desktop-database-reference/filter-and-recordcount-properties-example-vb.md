@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
 ms:contentKeyID: 48544354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c291dcfdcaf14543100d68bed46cabbc05403d7e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f892349d2ddb9c8fc5063d3fbec37ca9ef0d469f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936516"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721638"
 ---
-# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="99040-102">Filter 和 RecordCount 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="99040-102">Filter and RecordCount properties example (VB)</span></span>
+# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="42509-102">Filter 和 RecordCount 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="42509-102">Filter and RecordCount properties example (VB)</span></span>
 
 
-<span data-ttu-id="99040-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="99040-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="42509-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="42509-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="99040-104">本示例打开**记录集**上的发布者表***Pubs***数据库中。</span><span class="sxs-lookup"><span data-stu-id="99040-104">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="99040-105">然后使用 [Filter](filter-property-ado.md) 属性将可见的记录数限制为发行商属于特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="99040-105">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="99040-106">**RecordCount** 属性用于显示筛选和未筛选的记录集之间的差值。</span><span class="sxs-lookup"><span data-stu-id="99040-106">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
+<span data-ttu-id="42509-104">本示例打开**记录集**上的发布者表***Pubs***数据库中。</span><span class="sxs-lookup"><span data-stu-id="42509-104">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="42509-105">然后使用 [Filter](filter-property-ado.md) 属性将可见的记录数限制为发行商属于特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="42509-105">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="42509-106">**RecordCount** 属性用于显示筛选和未筛选的记录集之间的差值。</span><span class="sxs-lookup"><span data-stu-id="42509-106">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
 
 ```vb 
  
@@ -105,7 +106,7 @@ End Sub
 
 
 > [!NOTE]
-> <span data-ttu-id="99040-p102">[!注释] 如果知道要选择的数据，通过这种方式打开 **Recordset** 通过比使用 SQL 语句效率更高。本示例演示如何仅创建一个 **Recordset** 并获取特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="99040-p102">When you know the data you want to select, it's usually more efficient to open a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain records from a particular country/region.</span></span>
+> <span data-ttu-id="42509-p102">[!注释] 如果知道要选择的数据，通过这种方式打开 **Recordset** 通过比使用 SQL 语句效率更高。本示例演示如何仅创建一个 **Recordset** 并获取特定国家/地区的记录。</span><span class="sxs-lookup"><span data-stu-id="42509-p102">When you know the data you want to select, it's usually more efficient to open a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain records from a particular country/region.</span></span>
 
 
 

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249229(v=office.15)
 ms:contentKeyID: 48544665
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e87035c751bf5542a13ab7e750415a990a14adf7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c84619b1c4fe971eef65c00712bac1b94cbeea6e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885365"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719608"
 ---
-# <a name="resync-method-example-vc"></a><span data-ttu-id="c7b7d-102">Resync 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="c7b7d-102">Resync method example (VC++)</span></span>
+# <a name="resync-method-example-vc"></a><span data-ttu-id="be512-102">Resync 方法示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="be512-102">Resync method example (VC++)</span></span>
 
 
-<span data-ttu-id="c7b7d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7b7d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="be512-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="be512-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c7b7d-104">以下示例演示了如何使用 [Resync](resync-method-ado.md) 方法刷新静态记录集中的数据。</span><span class="sxs-lookup"><span data-stu-id="c7b7d-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="be512-104">以下示例演示了如何使用 [Resync](resync-method-ado.md) 方法刷新静态记录集中的数据。</span><span class="sxs-lookup"><span data-stu-id="be512-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```cpp 
  

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249466(v=office.15)
 ms:contentKeyID: 48545620
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 538ee7d2ba39e6a4da0661901076a296bb063d14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b6da2dc9ff721adbb4bc0e533a02085adb534b0b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877756"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722037"
 ---
-# <a name="getrows-method-example-jscript"></a><span data-ttu-id="b0b27-102">GetRows 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="b0b27-102">GetRows method example (JScript)</span></span>
+# <a name="getrows-method-example-jscript"></a><span data-ttu-id="d5b17-102">GetRows 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="d5b17-102">GetRows method example (JScript)</span></span>
 
 
-<span data-ttu-id="b0b27-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0b27-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d5b17-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5b17-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b0b27-104">若要从[Recordset](recordset-object-ado.md)中检索*Custiomers*表的所有行并填充生成的数据的数组，则此示例使用[GetRows](getrows-method-ado.md)方法。</span><span class="sxs-lookup"><span data-stu-id="b0b27-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="b0b27-105">**GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 [EOF](bof-eof-properties-ado.md)，或 **GetRows** 尝试检索已被其他用户删除的记录。</span><span class="sxs-lookup"><span data-stu-id="b0b27-105">The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="b0b27-106">仅当发生第二种情况时，函数才返回 **False** 。</span><span class="sxs-lookup"><span data-stu-id="b0b27-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="b0b27-107">请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **GetRowsJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="b0b27-107">Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
+<span data-ttu-id="d5b17-104">若要从[Recordset](recordset-object-ado.md)中检索*Custiomers*表的所有行并填充生成的数据的数组，则此示例使用[GetRows](getrows-method-ado.md)方法。</span><span class="sxs-lookup"><span data-stu-id="d5b17-104">This example uses the [GetRows](getrows-method-ado.md) method to retrieve all rows of the *Custiomers* table from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data.</span></span> <span data-ttu-id="d5b17-105">**GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 [EOF](bof-eof-properties-ado.md)，或 **GetRows** 尝试检索已被其他用户删除的记录。</span><span class="sxs-lookup"><span data-stu-id="d5b17-105">The **GetRows** method will return fewer than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user.</span></span> <span data-ttu-id="d5b17-106">仅当发生第二种情况时，函数才返回 **False** 。</span><span class="sxs-lookup"><span data-stu-id="d5b17-106">The function returns **False** only if the second case occurs.</span></span> <span data-ttu-id="d5b17-107">请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **GetRowsJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="d5b17-107">Cut and paste the following code to Notepad or another text editor, and save it as **GetRowsJS.asp**.</span></span>
 
 ```javascript 
  

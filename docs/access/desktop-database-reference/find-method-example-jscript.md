@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249589(v=office.15)
 ms:contentKeyID: 48546116
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21d123d61c18f28adc8380f1eb45bbadc585ee9d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e70a9bcc90348d6be48b7d681b6273b1fdd9201f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877308"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720644"
 ---
-# <a name="find-method-example-jscript"></a><span data-ttu-id="16179-102">Find 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="16179-102">Find method example (JScript)</span></span>
+# <a name="find-method-example-jscript"></a><span data-ttu-id="12f95-102">Find 方法示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="12f95-102">Find method example (JScript)</span></span>
 
 
-<span data-ttu-id="16179-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="16179-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12f95-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="12f95-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="16179-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Find](find-method-ado.md)方法查找和公司中显示***罗斯文***数据库名称开头的字母 G.剪切并粘贴到记事本或其他文本编辑器，下面的代码，将其保存为**FindJS.asp**。</span><span class="sxs-lookup"><span data-stu-id="16179-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and display the companies in the ***Northwind*** database whose name begins with the letter G. Cut and paste the following code to Notepad or another text editor, and save it as **FindJS.asp**.</span></span>
+<span data-ttu-id="12f95-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Find](find-method-ado.md)方法查找和公司中显示***罗斯文***数据库名称开头的字母 G.剪切并粘贴到记事本或其他文本编辑器，下面的代码，将其保存为**FindJS.asp**。</span><span class="sxs-lookup"><span data-stu-id="12f95-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and display the companies in the ***Northwind*** database whose name begins with the letter G. Cut and paste the following code to Notepad or another text editor, and save it as **FindJS.asp**.</span></span>
 
 ```javascript 
  
