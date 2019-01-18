@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
 ms:contentKeyID: 48543949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d977f962e08ba8497392582fb26cfbf1d8691a28
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9316f9360ff7a08300ebb379a4ebf7b01e2fb5f8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881200"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718663"
 ---
-# <a name="source-property-example-vc"></a><span data-ttu-id="d6f9c-102">Source 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="d6f9c-102">Source property example (VC++)</span></span>
+# <a name="source-property-example-vc"></a><span data-ttu-id="2c12d-102">Source 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2c12d-102">Source property example (VC++)</span></span>
 
 
-<span data-ttu-id="d6f9c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6f9c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2c12d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c12d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d6f9c-104">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="d6f9c-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="2c12d-104">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="2c12d-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```cpp 
  

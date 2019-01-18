@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249364(v=office.15)
 ms:contentKeyID: 48545226
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b3b27f6deba6c17da3eb613da28cdfd18997e7c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ccfa537f60021b17f23f4996f838651f9453097f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869251"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698013"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a><span data-ttu-id="81c16-102">MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="81c16-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a><span data-ttu-id="cb4f3-102">MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="cb4f3-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VB)</span></span>
 
 
-<span data-ttu-id="81c16-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="81c16-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cb4f3-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb4f3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="81c16-p101">本示例使用 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 和 [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 方法基于提供的命令移动 [Recordset](recordset-object-ado.md) 的记录指针。若要使该过程运行，需要 MoveAny 过程。</span><span class="sxs-lookup"><span data-stu-id="81c16-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="cb4f3-p101">本示例使用 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 和 [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 方法基于提供的命令移动 [Recordset](recordset-object-ado.md) 的记录指针。若要使该过程运行，需要 MoveAny 过程。</span><span class="sxs-lookup"><span data-stu-id="cb4f3-p101">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command. The MoveAny procedure is required for this procedure to run.</span></span>
 
 ```vb 
  

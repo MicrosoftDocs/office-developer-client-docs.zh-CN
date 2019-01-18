@@ -10,29 +10,30 @@ f1_keywords:
 - dao360.chm1052976
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a0fbc93ab07df4f21c9b4df13454455ed3c48a82
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4d50fa52ff4f5d669b062a052bf3e59a28a9e732
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925189"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720000"
 ---
-# <a name="querydefclose-method-dao"></a><span data-ttu-id="d7f68-102">QueryDef.Close 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7f68-102">QueryDef.Close method (DAO)</span></span>
+# <a name="querydefclose-method-dao"></a><span data-ttu-id="e01e9-102">QueryDef.Close 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="e01e9-102">QueryDef.Close method (DAO)</span></span>
 
 
-<span data-ttu-id="d7f68-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7f68-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e01e9-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e01e9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d7f68-104">关闭已打开的 **QueryDef**。</span><span class="sxs-lookup"><span data-stu-id="d7f68-104">Closes an open **QueryDef**.</span></span>
+<span data-ttu-id="e01e9-104">关闭已打开的 **QueryDef**。</span><span class="sxs-lookup"><span data-stu-id="e01e9-104">Closes an open **QueryDef**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d7f68-105">语法</span><span class="sxs-lookup"><span data-stu-id="d7f68-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e01e9-105">语法</span><span class="sxs-lookup"><span data-stu-id="e01e9-105">Syntax</span></span>
 
-<span data-ttu-id="d7f68-106">*表达式*。关闭</span><span class="sxs-lookup"><span data-stu-id="d7f68-106">*expression* .Close</span></span>
+<span data-ttu-id="e01e9-106">*表达式*。关闭</span><span class="sxs-lookup"><span data-stu-id="e01e9-106">*expression* .Close</span></span>
 
-<span data-ttu-id="d7f68-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="d7f68-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="e01e9-107">*表达式*一个代表**QueryDef**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="e01e9-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d7f68-108">注解</span><span class="sxs-lookup"><span data-stu-id="d7f68-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e01e9-108">注解</span><span class="sxs-lookup"><span data-stu-id="e01e9-108">Remarks</span></span>
 
-<span data-ttu-id="d7f68-109">如果在使用 **Close** 时 **QueryDef** 对象已关闭，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="d7f68-109">If the **QueryDef** object is already closed when you use **Close**, a run-time error occurs.</span></span>
+<span data-ttu-id="e01e9-109">如果在使用 **Close** 时 **QueryDef** 对象已关闭，将发生运行时错误。</span><span class="sxs-lookup"><span data-stu-id="e01e9-109">If the **QueryDef** object is already closed when you use **Close**, a run-time error occurs.</span></span>
 
-<span data-ttu-id="d7f68-110">**Close**方法的替代方法是将对象变量的值设置为**Nothing** (Set dbsTemp = Nothing)。</span><span class="sxs-lookup"><span data-stu-id="d7f68-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
+<span data-ttu-id="e01e9-110">**Close**方法的替代方法是将对象变量的值设置为**Nothing** (Set dbsTemp = Nothing)。</span><span class="sxs-lookup"><span data-stu-id="e01e9-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
 

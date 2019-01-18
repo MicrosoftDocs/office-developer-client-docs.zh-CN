@@ -6,41 +6,42 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
 ms:contentKeyID: 48543756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b32ef33205e23656e7bcb86d7384876e4c404c1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3b935e05264497c7ad09ada4a8c50c775845857b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924524"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718761"
 ---
-# <a name="recordsets-collection-dao"></a><span data-ttu-id="95476-102">Recordsets 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="95476-102">Recordsets collection (DAO)</span></span>
+# <a name="recordsets-collection-dao"></a><span data-ttu-id="81f42-102">Recordsets 集合 (DAO)</span><span class="sxs-lookup"><span data-stu-id="81f42-102">Recordsets collection (DAO)</span></span>
 
-<span data-ttu-id="95476-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="95476-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="81f42-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="81f42-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="95476-104">**Recordsets** 集合包含 **Connection** 或 **Database** 对象中所有打开的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="95476-104">A **Recordsets** collection contains all open **Recordset** objects in a **Connection** or **Database** object.</span></span>
+<span data-ttu-id="81f42-104">**Recordsets** 集合包含 **Connection** 或 **Database** 对象中所有打开的 **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="81f42-104">A **Recordsets** collection contains all open **Recordset** objects in a **Connection** or **Database** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="95476-105">注解</span><span class="sxs-lookup"><span data-stu-id="95476-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="81f42-105">注解</span><span class="sxs-lookup"><span data-stu-id="81f42-105">Remarks</span></span>
 
-<span data-ttu-id="95476-106">使用 DAO 对象时，几乎可以完全使用 **Recordset** 对象来处理数据。</span><span class="sxs-lookup"><span data-stu-id="95476-106">When you use DAO objects, you manipulate data almost entirely using **Recordset** objects.</span></span>
+<span data-ttu-id="81f42-106">使用 DAO 对象时，几乎可以完全使用 **Recordset** 对象来处理数据。</span><span class="sxs-lookup"><span data-stu-id="81f42-106">When you use DAO objects, you manipulate data almost entirely using **Recordset** objects.</span></span>
 
-<span data-ttu-id="95476-107">打开 **Recordset** 对象时，会自动在 **Recordsets** 集合中添加一个新的 **Recordset** 对象；关闭该对象时，会自动删除该对象。</span><span class="sxs-lookup"><span data-stu-id="95476-107">A new **Recordset** object is automatically added to the **Recordsets** collection when you open the **Recordset** object, and is automatically removed when you close it.</span></span>
+<span data-ttu-id="81f42-107">打开 **Recordset** 对象时，会自动在 **Recordsets** 集合中添加一个新的 **Recordset** 对象；关闭该对象时，会自动删除该对象。</span><span class="sxs-lookup"><span data-stu-id="81f42-107">A new **Recordset** object is automatically added to the **Recordsets** collection when you open the **Recordset** object, and is automatically removed when you close it.</span></span>
 
-<span data-ttu-id="95476-p101">可根据需要创建任意数目的 **Recordset** 对象变量。不同的 **Recordset** 对象可以在不发生冲突的情况下访问相同的表、查询和字段。</span><span class="sxs-lookup"><span data-stu-id="95476-p101">You can create as many **Recordset** object variables as needed. Different **Recordset** objects can access the same tables, queries, and fields without conflicting.</span></span>
+<span data-ttu-id="81f42-p101">可根据需要创建任意数目的 **Recordset** 对象变量。不同的 **Recordset** 对象可以在不发生冲突的情况下访问相同的表、查询和字段。</span><span class="sxs-lookup"><span data-stu-id="81f42-p101">You can create as many **Recordset** object variables as needed. Different **Recordset** objects can access the same tables, queries, and fields without conflicting.</span></span>
 
-<span data-ttu-id="95476-110">若要按照序号或 **Name** 属性设置来引用集合中的 **Recordset** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="95476-110">To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="81f42-110">若要按照序号或 **Name** 属性设置来引用集合中的 **Recordset** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="81f42-110">To refer to a **Recordset** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-- <span data-ttu-id="95476-111">**Recordsets**(0)</span><span class="sxs-lookup"><span data-stu-id="95476-111">**Recordsets**(0)</span></span>
+- <span data-ttu-id="81f42-111">**Recordsets**(0)</span><span class="sxs-lookup"><span data-stu-id="81f42-111">**Recordsets**(0)</span></span>
 
-- <span data-ttu-id="95476-112">**记录集**("name")</span><span class="sxs-lookup"><span data-stu-id="95476-112">**Recordsets**("name")</span></span>
+- <span data-ttu-id="81f42-112">**记录集**("name")</span><span class="sxs-lookup"><span data-stu-id="81f42-112">**Recordsets**("name")</span></span>
 
-- <span data-ttu-id="95476-113">**记录集**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="95476-113">**Recordsets**\!\[name\]</span></span>
+- <span data-ttu-id="81f42-113">**记录集**\!\[名称\]</span><span class="sxs-lookup"><span data-stu-id="81f42-113">**Recordsets**\!\[name\]</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="95476-p102">[!注释] 可以多次打开同一个数据源或数据库中的 **Recordset** 对象，并在 **Recordsets** 集合中创建重复的名称。应该将 **Recordset** 对象分配给对象变量，并通过变量名来引用它们。</span><span class="sxs-lookup"><span data-stu-id="95476-p102">You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.</span></span>
+> <span data-ttu-id="81f42-p102">[!注释] 可以多次打开同一个数据源或数据库中的 **Recordset** 对象，并在 **Recordsets** 集合中创建重复的名称。应该将 **Recordset** 对象分配给对象变量，并通过变量名来引用它们。</span><span class="sxs-lookup"><span data-stu-id="81f42-p102">You can open a **Recordset** object from the same data source or database more than once, creating duplicate names in the **Recordsets** collection. You should assign **Recordset** objects to object variables and refer to them by variable name.</span></span>
 
-## <a name="example"></a><span data-ttu-id="95476-116">示例</span><span class="sxs-lookup"><span data-stu-id="95476-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="81f42-116">示例</span><span class="sxs-lookup"><span data-stu-id="81f42-116">Example</span></span>
 
-<span data-ttu-id="95476-117">以下示例通过打开四个不同类型的 **Recordsets**，枚举当前 **Database** 的 Recordsets 集合，以及枚举每个 **Recordset** 的 **Properties** 集合，演示 **Recordset** 对象和 **Recordsets** 集合。</span><span class="sxs-lookup"><span data-stu-id="95476-117">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span></span>
+<span data-ttu-id="81f42-117">以下示例通过打开四个不同类型的 **Recordsets**，枚举当前 **Database** 的 Recordsets 集合，以及枚举每个 **Recordset** 的 **Properties** 集合，演示 **Recordset** 对象和 **Recordsets** 集合。</span><span class="sxs-lookup"><span data-stu-id="81f42-117">This example demonstrates **Recordset** objects and the **Recordsets** collection by opening four different types of **Recordsets**, enumerating the Recordsets collection of the current **Database**, and enumerating the **Properties** collection of each **Recordset**.</span></span>
 
 ```vb
     Sub RecordsetX() 

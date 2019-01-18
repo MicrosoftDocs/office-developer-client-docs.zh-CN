@@ -10,29 +10,30 @@ f1_keywords:
 - dao360.chm1053320
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1fcccc6b4a8ddd1122d75d86075e9cd63bd8dd22
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: af1a531e57aaca7d497f3f71d6c16e8ea1bab177
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919036"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718355"
 ---
-# <a name="documentcontainer-property-dao"></a><span data-ttu-id="1dafd-102">Document.Container 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="1dafd-102">Document.Container property (DAO)</span></span>
+# <a name="documentcontainer-property-dao"></a><span data-ttu-id="57e0e-102">Document.Container 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="57e0e-102">Document.Container property (DAO)</span></span>
 
 
-<span data-ttu-id="1dafd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="1dafd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="57e0e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="57e0e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1dafd-p101">返回 [Document](container-object-dao.md) 对象所属的 \*\*\*\*Container\*\*\*\* 对象的名称（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="1dafd-p101">Returns the name of the **[Container](container-object-dao.md)** object to which a **Document** object belongs (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="57e0e-p101">返回 [Document](container-object-dao.md) 对象所属的 \*\*\*\*Container\*\*\*\* 对象的名称（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="57e0e-p101">Returns the name of the **[Container](container-object-dao.md)** object to which a **Document** object belongs (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1dafd-106">语法</span><span class="sxs-lookup"><span data-stu-id="1dafd-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="57e0e-106">语法</span><span class="sxs-lookup"><span data-stu-id="57e0e-106">Syntax</span></span>
 
-<span data-ttu-id="1dafd-107">*表达式*。容器</span><span class="sxs-lookup"><span data-stu-id="1dafd-107">*expression* .Container</span></span>
+<span data-ttu-id="57e0e-107">*表达式*。容器</span><span class="sxs-lookup"><span data-stu-id="57e0e-107">*expression* .Container</span></span>
 
-<span data-ttu-id="1dafd-108">*表达式*一个代表**Document**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="1dafd-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="57e0e-108">*表达式*一个代表**Document**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="57e0e-108">*expression* A variable that represents a **Document** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1dafd-109">示例</span><span class="sxs-lookup"><span data-stu-id="1dafd-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="57e0e-109">示例</span><span class="sxs-lookup"><span data-stu-id="57e0e-109">Example</span></span>
 
-<span data-ttu-id="1dafd-110">以下示例显示各种 **Document** 对象的 **Container** 属性。</span><span class="sxs-lookup"><span data-stu-id="1dafd-110">This example displays the **Container** property for a variety of **Document** objects.</span></span>
+<span data-ttu-id="57e0e-110">以下示例显示各种 **Document** 对象的 **Container** 属性。</span><span class="sxs-lookup"><span data-stu-id="57e0e-110">This example displays the **Container** property for a variety of **Document** objects.</span></span>
 
 ```vb 
 Sub ContainerPropertyX() 
