@@ -5,22 +5,22 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- excel 编程，Excel 概念
-localization_priority: Normal
+- excel 编程,Excel 概念
 ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 9a8598aeaf92a3f6950b6baa809cdcc071516bce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
+localization_priority: Priority
+ms.openlocfilehash: 13f99e3d4154516071fe42dcb27beb944ce384f4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773676"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719650"
 ---
 # <a name="excel-programming-concepts"></a>Excel 编程概念
 
- **适用于** Excel 2013 | Office 2013 | Visual Studio 
+ **适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-本节提供有关 Excel 命令和函数，Excel 状态工作表和表达式评估，活动与当前的工作表和工作表参考信息。
+此部分提供有关 Excel 命令和函数、Excel 状态、工作表和表达式计算、活动工作表和当前工作表以及工作表引用的信息。
   
 ## <a name="in-this-section"></a>本节内容
 
@@ -44,9 +44,9 @@ ms.locfileid: "19773676"
   
 > 
     
-## <a name="related-sections"></a>相关章节
+## <a name="related-sections"></a>相关部分
 
-[Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
+[Excel XLL SDK API 函数引用](excel-xll-sdk-api-function-reference.md)
   
 > 
     
