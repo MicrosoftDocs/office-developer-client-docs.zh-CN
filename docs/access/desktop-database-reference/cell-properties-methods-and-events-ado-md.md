@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249484(v=office.15)
 ms:contentKeyID: 48545691
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ba082ab64a7f2a3f4d5d5a4246e0a31c34fc075
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0c9a649d6e4dc3e573865b4ebc7577fd86cf2dbf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944569"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707617"
 ---
 # <a name="cell-properties-methods-and-events-ado-md"></a>单元格属性、 方法和事件 (ADO MD)
 

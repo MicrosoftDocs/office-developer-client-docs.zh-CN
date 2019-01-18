@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
 ms:contentKeyID: 48543645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 30feb9aabeb84c577b415b2872ce407cf3fc0f44
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6c7db661e590bc21605d9c289b1de6d4ae9f46e2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950004"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712573"
 ---
 # <a name="move-method-ado"></a>Move 方法 (ADO)
 
@@ -23,7 +24,7 @@ ms.locfileid: "25950004"
 
 *记录集*。移动*NumRecords*，*启动*
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|

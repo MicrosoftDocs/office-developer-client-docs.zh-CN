@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
 ms:contentKeyID: 48547674
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c66c4e6b8fc43a27b2feb87e45ec436e3abfa49
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5c7021c6f97d1aaa9c82e65eab98a3259d6eb87e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998915"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707981"
 ---
 # <a name="name-property-adox"></a>Name 属性 (ADOX)
 

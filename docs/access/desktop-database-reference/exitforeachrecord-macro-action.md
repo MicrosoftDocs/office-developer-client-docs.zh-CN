@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191716(v=office.15)
 ms:contentKeyID: 48543712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f536ed57ff97e84c432d1af1ef83a91d47bd7760
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d3bb9eda75fb5ff6d2822c64bc195708b3fc7773
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920142"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707232"
 ---
 # <a name="exitforeachrecord-macro-action"></a>ExitForEachRecord 宏操作
 

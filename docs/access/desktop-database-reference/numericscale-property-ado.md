@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249263(v=office.15)
 ms:contentKeyID: 48544824
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb2c799fd7c9d1cc74c6081c10f7a8d356e79faf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1bcb0c1a38108fbd02551df2a3296abe4d9a3791
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876013"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707105"
 ---
 # <a name="numericscale-property-ado"></a>NumericScale 属性 (ADO)
 

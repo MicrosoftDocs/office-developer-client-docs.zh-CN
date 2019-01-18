@@ -1,19 +1,20 @@
 ---
-title: 在 VBScript 中处理错误
+title: 处理 VBScript 中的错误
 TOCTitle: Handling errors in VBScript
 ms:assetid: df8f96d5-b917-ddac-d274-6345b2499bf1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c442472fa30568cc60aec83c2a2de3ecf7ba2f71
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3f3da0d9e68024d7da9a0bcfca0fef30c7f646ed
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945969"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706728"
 ---
-# <a name="handling-errors-in-vbscript"></a>在 VBScript 中处理错误
+# <a name="handling-errors-in-vbscript"></a>处理 VBScript 中的错误
 
 
 **适用于**： Access 2013、 Office 2013

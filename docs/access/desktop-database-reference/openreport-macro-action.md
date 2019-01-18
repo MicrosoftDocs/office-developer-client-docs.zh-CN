@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a6166f8da8597e5b0672ba0d5fdfdd3745cfd159
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cff57a185d226328792bef79072dfc46c6134f98
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927765"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707239"
 ---
 # <a name="openreport-macro-action"></a>OpenReport 宏操作
 
@@ -44,7 +45,7 @@ ms.locfileid: "25927765"
 <td><p>要打开的报表的名称。 <strong>宏生成器</strong>窗格的<strong>报告名称</strong>框在<strong>操作参数</strong>部分中显示当前数据库中的所有报表。 这是必需参数。 如果在类库数据库中运行包含 OpenReport 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的报表，然后再在当前数据库中查找。</p></td>
 </tr>
 <tr class="even">
-<td><p>视图</p></td>
+<td><p>View</p></td>
 <td><p>打开报表时将使用的视图。请在<strong>“视图”</strong>框中单击<strong>“打印”</strong>（立即打印报表）、<strong>“设计”</strong>或<strong>“打印预览”</strong>。默认值为<strong>“打印”</strong>。</p></td>
 </tr>
 <tr class="odd">

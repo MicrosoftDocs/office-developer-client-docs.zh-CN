@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2231e94703b49fd14fb89d7642c0144c1dda532
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d57e73c52ca515f13d613ed3aeb9cf361054396e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998593"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707113"
 ---
 # <a name="recordset2move-method-dao"></a>Recordset2.Move 方法 (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25998593"
 
 *表达式*一个表示**Recordset2**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -36,7 +37,7 @@ ms.locfileid: "25998593"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

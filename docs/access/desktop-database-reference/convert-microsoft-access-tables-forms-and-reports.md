@@ -11,12 +11,13 @@ f1_keywords:
 - vbaac10.chm5187104
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 69bd93b84bb0bca768203933e64e385648d52730
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9c1ff7584269ce073a805edf8710bb3ea4eb1a36
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891070"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709822"
 ---
 # <a name="convert-microsoft-access-tables-forms-and-reports"></a>转换 Microsoft Access 表、窗体和报表
 

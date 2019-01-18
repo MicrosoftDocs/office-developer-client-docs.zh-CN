@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249808(v=office.15)
 ms:contentKeyID: 48547024
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b92333406b6b08dd543d503edf6857f9a7a73b74
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 77e1fb99d611d11829f87778ed1e9d6e03fec71c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026163"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707897"
 ---
 # <a name="appendix-c-programming-with-ado"></a>附录 C：利用 ADO 编程
 

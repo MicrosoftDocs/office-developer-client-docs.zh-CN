@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm0
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 265edf6b5d426b87d718c66e9886b7a4877120de
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c23772c54f2f980b8d10d4afc352687935840752
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25918847"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707785"
 ---
 # <a name="database-object-dao"></a>Database 对象 (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249304(v=office.15)
 ms:contentKeyID: 48545023
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 00a5c08784d1a57e148acbaa6f1621102d6b6712
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f8c479c430dd6d0ca742fefb4948544d31ba2e61
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947754"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709864"
 ---
 # <a name="schema-section"></a>架构部分
 

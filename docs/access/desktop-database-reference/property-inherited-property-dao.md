@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052991
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 56f0153748a6d5cc7dd8e6b15dbae93fb638a381
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf3aef6d04c7d7cc573ec1d6efaca7d5238f5125
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927156"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709528"
 ---
 # <a name="propertyinherited-property-dao"></a>Property.Inherited 属性 (DAO)
 

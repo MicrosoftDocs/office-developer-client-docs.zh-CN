@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm168493
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c1d540b909a2ac5741719470f5632e34205806ff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 32945f0822682a9432d75ed1ac59117dde3cc0e9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927982"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709976"
 ---
 # <a name="rundatamacro-macro-action"></a>RunDataMacro 宏操作
 
@@ -40,7 +41,7 @@ ms.locfileid: "25927982"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p>Name</p></td>
 <td><p>要运行的数据宏的名称。</p></td>
 </tr>
 </tbody>

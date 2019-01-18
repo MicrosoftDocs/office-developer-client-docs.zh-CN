@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fe08f6c6ab0eba46f7fff2713403f56e82983357
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3294efe5ea1ab0f82be19f5c64a51287cc4df9b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999062"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709556"
 ---
 # <a name="openquery-macro-action"></a>OpenQuery 宏操作
 

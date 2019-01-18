@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
 ms:contentKeyID: 48543753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 03434b0227c5110ac3a1f36512aaaebd5c23c97a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2a1bed3454d081b9d5de3a01e9b326130b40baa4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876405"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711607"
 ---
 # <a name="size-property-ado"></a>Size 属性 (ADO)
 

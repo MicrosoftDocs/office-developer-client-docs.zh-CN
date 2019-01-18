@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4eb1a961a91bf32a69154a1f0e7b734dd00f24b6
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3e7c79fe12b3b7bfe98e0c7547f4ed2d12b148ba
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998894"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713378"
 ---
 # <a name="propertyvalue-property-dao"></a>Property.Value 属性 (DAO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248784(v=office.15)
 ms:contentKeyID: 48542933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 00a02e74bbbc1b24939784a89965bf0757be0cfe
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0b541512de9748e94d033bb56f27dd0941c7f5a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949402"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707554"
 ---
 # <a name="append-method-adox-indexes"></a>Append 方法（ADOX 索引）
 
@@ -26,14 +27,14 @@ ms.locfileid: "25949402"
 
 *索引*。追加*索引* \[，*列*\]
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
 |*Index* |要追加的 **Index** 对象，或者要创建并追加的索引的名称。|
 |*Columns* |可选。 一个 **Variant** 值，指定要进行索引的列的名称。 *Columns*参数对应于一个[Column](column-object-adox.md)对象或对象的[Name](name-property-adox.md)属性的值。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 *Columns*参数可接受的列的名称或列名的数组。
 

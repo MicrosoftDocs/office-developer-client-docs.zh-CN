@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a00c61ce4cbb9cb9d6088d521f0c2bdb3cf7f573
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1cd4188931999284a6454064a0906b64cf1f519a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998066"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708527"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25998066"
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25998066"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -50,7 +51,7 @@ ms.locfileid: "25998066"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>现有 Microsoft Access 数据库文件的名称，或者 ODBC 数据源的数据源名称 (DSN)。有关设置此值的详细信息，请参阅 <strong><a href="connection-name-property-dao.md">Name</a></strong> 属性。</p></td>
 </tr>
 <tr class="even">
@@ -90,7 +91,7 @@ Database
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>设置</p></th>
+<th><p>Setting</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>

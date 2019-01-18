@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196688(v=office.15)
 ms:contentKeyID: 48545979
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 116961c4de4bad3c53e42b083bb0ba1d432d4df2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f198df7ff667e90ccf3d795a7ffa172506cc0e5a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922501"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707589"
 ---
 # <a name="databaseproperties-property-dao"></a>Database.Properties 属性 (DAO)
 

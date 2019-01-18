@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249597(v=office.15)
 ms:contentKeyID: 48546137
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa534aa53151361c194b68124b0386ab521f1f30
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bab87e8bfa2ac69adbfdbaff44e1e8e08f58223a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878064"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708863"
 ---
 # <a name="primarykey-and-unique-properties-example-vb"></a>PrimaryKey 和 Unique 属性示例 (VB)
 

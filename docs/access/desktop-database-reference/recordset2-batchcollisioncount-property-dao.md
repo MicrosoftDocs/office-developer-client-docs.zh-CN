@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197961(v=office.15)
 ms:contentKeyID: 48546514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a703ca1bc05b40c4f86f16a808098b12d6d92678
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 33650b9fdbaf7fbc9266c8c778199e1138cd5b21
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923320"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706651"
 ---
 # <a name="recordset2batchcollisioncount-property-dao"></a>Recordset2.BatchCollisionCount 属性 (DAO)
 

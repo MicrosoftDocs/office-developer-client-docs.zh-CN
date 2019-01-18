@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248956(v=office.15)
 ms:contentKeyID: 48543550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6deb7f8961c1ed0cd70ef3b6d61ef632c4b6e43a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 41b42cacec1e6bd7bf5d4b7ddf2aeb509cd9b49c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928360"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707393"
 ---
 # <a name="procedures-collection-adox-reference"></a>过程集合 (ADOX) 参考 （英文）
 

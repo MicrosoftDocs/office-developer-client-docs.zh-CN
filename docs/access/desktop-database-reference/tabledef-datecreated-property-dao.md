@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837292(v=office.15)
 ms:contentKeyID: 48548947
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be76ed7f9d358963ea58776327ddafbb66f9d367
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a5dc326b271e8444211bba0cd2d3c37c047ac205
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923138"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707022"
 ---
 # <a name="tabledefdatecreated-property-dao"></a>TableDef.DateCreated 属性 (DAO)
 

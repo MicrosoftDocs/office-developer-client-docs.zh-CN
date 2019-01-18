@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249269(v=office.15)
 ms:contentKeyID: 48544843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a58ac3c5315daef040ba6a999753a19f76504087
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 26f41181f1233931f24ff091b3009dfa7a5d6ff3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947566"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708100"
 ---
 # <a name="source-property-ado-recordset"></a>Source 属性（ADO 记录集）
 

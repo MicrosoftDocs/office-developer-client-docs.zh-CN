@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
 ms:contentKeyID: 48546182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 874662585292b9d9a9b2bc53f5b6fe5178e3517b
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 25fd81acee3c541c8a3f315f96fa69241272a655
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025845"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708611"
 ---
 # <a name="cursorlocation-property-ado"></a>CursorLocation 属性 (ADO)
 

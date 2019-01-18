@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249261(v=office.15)
 ms:contentKeyID: 48544817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 795488f5e87c203a92eb2ba7ddddfef01a9d1f8d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 92d6185c3234a58ea9a84310291d0c37e0272535
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947712"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709402"
 ---
 # <a name="using-pages"></a>使用页面
 

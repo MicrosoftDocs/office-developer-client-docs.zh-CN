@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b866e9cecc31c4826b0b0fb52b5b8a2524b4bb00
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 60dbf94824c5563196c549e2276b903ea814b1fb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946452"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708674"
 ---
-# <a name="visual-c-extensions-header"></a>Visual c + + Extensions 头
+# <a name="visual-c-extensions-header"></a>Visual C++ 扩展头
 
 
 **适用于**： Access 2013、 Office 2013

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193989(v=office.15)
 ms:contentKeyID: 48544870
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f73ba90b4eae9f5da17e27d466044d97fb815d74
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0e0c849fc507d535807bc088e667acd74410ddd8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923789"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708156"
 ---
 # <a name="setreturnvar-macro-action"></a>SetReturnVar 宏操作
 
@@ -22,7 +23,7 @@ ms.locfileid: "25923789"
 > [!NOTE]
 > **SetReturnVar**操作仅适用于数据宏。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetReturnVar**操作具有下列参数。
 
@@ -54,7 +55,7 @@ ms.locfileid: "25923789"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 **SetReturnVar**操作用于创建**ReturnVar**，这是可供使用**RunDataMacro**操作调用的数据宏的宏的变量。
 

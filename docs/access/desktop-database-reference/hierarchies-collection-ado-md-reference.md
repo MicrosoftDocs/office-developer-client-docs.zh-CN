@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250040(v=office.15)
 ms:contentKeyID: 48547839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f02d4d64b0c99947aa0594e86ef3b251bf6502d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 43c7d2cb8b8d82047e82472a9db49aa8f1f53b38
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927954"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706966"
 ---
 # <a name="hierarchies-collection-ado-md-reference"></a>Hierarchies 集合 （ADO MD 参考 （英文）
 

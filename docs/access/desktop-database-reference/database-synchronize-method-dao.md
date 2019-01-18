@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc32087ad924a81eea5290d84ffb63dc4ad5e1ff
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 411948f3c0ac4d6c353cd2722136dffb6a25fb17
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999048"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709885"
 ---
 # <a name="databasesynchronize-method-dao"></a>Database.Synchronize 方法 (DAO)
 
@@ -30,7 +31,7 @@ ms.locfileid: "25999048"
 
 *表达式*一个代表**Database**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -41,7 +42,7 @@ ms.locfileid: "25999048"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -51,7 +52,7 @@ ms.locfileid: "25999048"
 <tr class="odd">
 <td><p><em>DbPathName</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>指向数据库将与其同步的目标副本的路径。</p></td>
 </tr>
 <tr class="even">

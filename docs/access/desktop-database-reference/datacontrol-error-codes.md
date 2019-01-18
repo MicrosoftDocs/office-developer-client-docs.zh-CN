@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250089(v=office.15)
 ms:contentKeyID: 48548027
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fcb9a2cd456e09edc84475fb47c5cca8a548d561
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 387f37e180d346c09cf3dadbf66f665cb83dbd0a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947761"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707638"
 ---
 # <a name="datacontrol-error-codes"></a>DataControl 错误代码
 

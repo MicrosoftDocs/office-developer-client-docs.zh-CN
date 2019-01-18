@@ -1,19 +1,20 @@
 ---
-title: 正式 shape 语法
+title: Formal Shape语法
 TOCTitle: Formal shape grammar
 ms:assetid: a3220569-8804-3dc3-7f9f-b4f8cdab1316
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249752(v=office.15)
 ms:contentKeyID: 48546774
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0de4f2eca0b5dd607cb9d93cc7e90f4af0ba8d89
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d30ff9146146bb0457a5aa383b2b720a4fdaeb78
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945535"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708044"
 ---
-# <a name="formal-shape-grammar"></a>正式 shape 语法
+# <a name="formal-shape-grammar"></a>Formal Shape语法
 
 **适用于**： Access 2013、 Office 2013
 
@@ -162,7 +163,7 @@ ms.locfileid: "25945535"
 <td><p>unicode 字符 [unicode char。..]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;表达式&gt;</p></td>
+<td><p>&lt;expression&gt;</p></td>
 <td><p>Visual Basic for Applications 表达式，其操作数是在相同行中的其他非 CALC 列。</p></td>
 </tr>
 </tbody>

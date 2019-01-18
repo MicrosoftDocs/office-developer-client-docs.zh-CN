@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bf855fc6e829ebfbe3809925bf1ab8ca337d3f96
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d05cf352515d8fe4faa868088c9ba9cc8a024145
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949409"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707596"
 ---
 # <a name="append-method-adox-users"></a>Append 方法（ADOX 用户）
 
@@ -23,14 +24,14 @@ ms.locfileid: "25949409"
 
 *用户*。追加*用户*\[，*密码*\]
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 |参数|说明|
 |:--------|:----------|
 |*User* |一个 **Variant** 值，包含对要追加的 **User** 对象的引用，或者是要创建并追加的用户的名称。|
 |*Password* |可选。 包含该用户的密码的 **String** 值。 *Password*参数对应于指定的**用户**对象的[ChangePassword](changepassword-method-adox.md)方法的值。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
 **Catalog** 的 [Users](catalog-object-adox.md) 集合表示该目录的所有用户。 **Group** 的 [Users](group-object-adox.md) 集合仅表示在该特定组中有成员资格的用户。
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249481(v=office.15)
 ms:contentKeyID: 48545676
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2000585a890256da878483b5538990c1898fc84a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d6f3acd4af280f30706e35eb7ecda1dee11aa7d4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927810"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708513"
 ---
 # <a name="parameter-object-ado"></a>Parameter 对象 (ADO)
 

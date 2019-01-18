@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249702(v=office.15)
 ms:contentKeyID: 48546553
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7bd2519af3ea3c35d8cc32ef1ec31ea4f9efa1e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 21f1880a9effca6e51bc1e8b52a58dce22ce1ea9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936670"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712517"
 ---
 # <a name="groups-collection-adox"></a>Groups 集合 (ADOX)
 

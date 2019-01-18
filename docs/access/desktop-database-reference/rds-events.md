@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250028(v=office.15)
 ms:contentKeyID: 48547803
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f8236635f557c3de1e512c08b9b439a028c60d6
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 85d934d765133134e8ab6dcfa7ec6206f2de7dc3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910690"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711201"
 ---
 # <a name="rds-events"></a>RDS 事件
 

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052929
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1c8892236410005d556dbe7f9322303a23d411d8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2d8fb358ab757d826bcfcd335aada8825e3ba980
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925182"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709584"
 ---
 # <a name="fieldvalidateonset-property-dao"></a>Field.ValidateOnSet 属性 (DAO)
 

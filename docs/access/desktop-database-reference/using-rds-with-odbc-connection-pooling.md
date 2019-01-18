@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249437(v=office.15)
 ms:contentKeyID: 48545513
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 35a4327a76ff34f503c988e8d51f5aa73d6c454b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 87d380fdc52cdee2aa834fd6e78ff1b761a0e93a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946718"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706364"
 ---
-# <a name="using-rds-with-odbc-connection-pooling"></a>使用 RDS 与 ODBC 连接池
+# <a name="using-rds-with-odbc-connection-pooling"></a>将 RDS 与 ODBC 连接池结合使用
 
 
 **适用于**： Access 2013、 Office 2013
@@ -114,7 +115,7 @@ ms.locfileid: "25946718"
 
 2.  单击**常规**选项卡。
 
-3.  单击“添加”****。
+3.  单击"添加"。
 
 4.  在**服务器别名**框中输入服务器的别名。 在**网络库**框中，单击**TCP/IP**。 在**计算机名称**框中，输入侦听 TCP/IP 套接字客户端计算机的计算机名称。 在**端口号**框中，输入 SQL Server 侦听的端口。
 

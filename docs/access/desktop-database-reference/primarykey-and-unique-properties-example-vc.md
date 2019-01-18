@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
 ms:contentKeyID: 48543158
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec71b8aec6990fbd0f05312fecf751c568773a3d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b931dd869281dcc880f39b3585c257d9308b0734
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883405"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709192"
 ---
 # <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey 和 Unique 属性示例 (VC++)
 

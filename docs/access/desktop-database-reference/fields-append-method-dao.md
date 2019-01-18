@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 576928e6538ea704bf6f10d0826c0e6bbb359bf1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: ec3cacbe1f1c7ac5d6bda16bdd47891dc58ebfe0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998236"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706791"
 ---
 # <a name="fieldsappend-method-dao"></a>Fields.Append 方法 (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25998236"
 
 *表达式*一个代表**Fields**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -36,7 +37,7 @@ ms.locfileid: "25998236"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -46,7 +47,7 @@ ms.locfileid: "25998236"
 <tr class="odd">
 <td><p><em>Object</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>对象</strong></p></td>
+<td><p><strong>Object</strong></p></td>
 <td><p>一个对象变量，代表追加到集合的字段。</p></td>
 </tr>
 </tbody>

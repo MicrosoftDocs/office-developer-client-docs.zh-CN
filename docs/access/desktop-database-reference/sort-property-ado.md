@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
 ms:contentKeyID: 48548652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ebd515d2812ce453711c2b6519b1875250911d1a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 62ac60b1c7575f0b0d3e003dc58a11fe4d86c131
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886604"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711411"
 ---
 # <a name="sort-property-ado"></a>Sort 属性 (ADO)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15)
 ms:contentKeyID: 48543293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f1ebd893418cde5b499be9d34c7d50aadff78f3
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 75556927bc5d3e10526da6a45bfe1e4f6d8abea2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872758"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710053"
 ---
 # <a name="clustered-property-example-vb"></a>Clustered 属性示例 (VB)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15)
 ms:contentKeyID: 48547243
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 72afba54062a3f103fe75939502c9f52eef4c44d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b5eb46d6fbeb677e6d0fe73223d74ae2ea42d368
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887194"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707467"
 ---
 # <a name="number-property-ado"></a>Number 属性 (ADO)
 

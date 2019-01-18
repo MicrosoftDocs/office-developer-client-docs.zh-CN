@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f6975a438e4e724a6fc1f72be92088f0d07a5b44
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8c3168dcce9fb13d057380e7a1a4ef89f8814e02
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996704"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706686"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Recordset2.NoMatch 属性 (DAO)
 

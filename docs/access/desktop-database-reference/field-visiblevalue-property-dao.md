@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835776(v=office.15)
 ms:contentKeyID: 48548332
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 461b8c43bf9000e5ecde3a3676cebf54be8e4166
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1b3e1b6ec6cd34112f0ba1d84101390bbd400f82
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927569"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712454"
 ---
 # <a name="fieldvisiblevalue-property-dao"></a>Field.VisibleValue 属性 (DAO)
 

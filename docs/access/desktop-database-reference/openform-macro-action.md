@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1813a80c43eb77f8fb90442ecd6e0336b636191
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf89b61a65c11f09d5a07e52caeee5ad416c118a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998971"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707624"
 ---
 # <a name="openform-macro-action"></a>OpenForm 宏操作
 
@@ -19,7 +20,7 @@ ms.locfileid: "25998971"
 
 您可以使用**OpenForm**操作窗体视图、 设计视图、 打印预览或数据表视图中打开窗体。 可以选择窗体的数据输入模式和窗口模式，并限制窗体显示的记录。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **OpenForm**操作具有下列参数。
 
@@ -53,7 +54,7 @@ ms.locfileid: "25998971"
 </tr>
 <tr class="odd">
 <td><p><strong>Data Mode</strong></p></td>
-<td><p>窗体的数据输入模式。 这仅适用于在窗体视图或数据表视图中打开的窗体。 单击<strong>添加</strong>（用户可以添加新记录，但不能编辑现有记录），<strong>编辑</strong>（用户可以编辑现有记录，并可以添加新记录） 或<strong>只读</strong>（用户只能查看记录）。 默认值为<strong>编辑</strong>。 <strong>备注</strong></p>
+<td><p>窗体的数据输入模式。 这仅适用于在窗体视图或数据表视图中打开的窗体。 单击<strong>添加</strong>（用户可以添加新记录，但不能编辑现有记录），<strong>编辑</strong>（用户可以编辑现有记录，并可以添加新记录） 或<strong>只读</strong>（用户只能查看记录）。 默认值为<strong>编辑</strong>。 <strong>Notes</strong></p>
 <ul>
 <li><p><strong>数据模式</strong>参数设置将覆盖窗体的<strong>AllowEdits</strong>、 <strong>AllowDeletions</strong>、 <strong>AllowAdditions</strong>和<strong>DataEntry</strong>属性的设置。 例如，如果窗体的<strong>AllowEdits</strong>属性设置为<strong>No</strong>，您可以仍使用<strong>OpenForm</strong>操作在编辑模式中打开窗体。</p></li>
 <li><p>如果将此参数留空，Access 将窗体的<strong>AllowEdits</strong>、 <strong>AllowDeletions</strong>、 <strong>AllowAdditions</strong>和<strong>DataEntry</strong>属性设置的数据输入模式中打开窗体。</p></li>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 488fca77f09ae683232ccbd3e88a5b42d1faa1c3
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8140dbe9bc0c68d467c011d77bc0c00cec7ad560
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998565"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709927"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute 方法 (DAO)
 
@@ -25,7 +26,7 @@ ms.locfileid: "25998565"
 
 *表达式*代表**Connection**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -36,7 +37,7 @@ ms.locfileid: "25998565"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -46,7 +47,7 @@ ms.locfileid: "25998565"
 <tr class="odd">
 <td><p><em>Query</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>一个 <strong>String</strong>，为 SQL 语句，或者 <strong>QueryDef</strong> 对象的 <strong>Name</strong> 属性值。</p></td>
 </tr>
 <tr class="even">

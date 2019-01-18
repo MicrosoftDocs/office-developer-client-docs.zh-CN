@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ae372fd0b819d493da6b811def467eb8400b01c9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 79c5fa1e01bbb6bce4f2cef705f23f3259bf0678
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924636"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707407"
 ---
 # <a name="errorsource-property-dao"></a>Error.Source 属性 (DAO)
 

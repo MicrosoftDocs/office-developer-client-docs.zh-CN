@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 6a09ea4d781e5560e335c2e75fc2da9a5508bae8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 453d84e687a31f7df5082e17b80fe2a1bda756be
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874004"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708660"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
 

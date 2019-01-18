@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835711(v=office.15)
 ms:contentKeyID: 48548289
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c34f5c9041102ecdb1c3c789c0e7c1c5585b3a6
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3fdfe2091dc2be562f60e5e9cc1935291a74a11d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026351"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710942"
 ---
 # <a name="error-object-dao"></a>Error 对象 (DAO)
 

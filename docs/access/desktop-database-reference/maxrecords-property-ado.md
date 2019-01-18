@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249195(v=office.15)
 ms:contentKeyID: 48544475
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d66a26cffb14220670643c5b6b5aafe94e8fcb5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8ed643ca3b1341d7f933901e15c20c84acb025f5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870084"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709353"
 ---
 # <a name="maxrecords-property-ado"></a>MaxRecords 属性 (ADO)
 

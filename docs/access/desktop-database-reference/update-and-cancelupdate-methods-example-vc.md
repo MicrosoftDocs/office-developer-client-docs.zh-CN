@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249123(v=office.15)
 ms:contentKeyID: 48544167
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e799e5559d05170fab9713d214488bcea5d69306
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3d78f73a4c6305a7973a2c688953f538a2f74d4b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875523"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711495"
 ---
 # <a name="update-and-cancelupdate-methods-example-vc"></a>Update 和 CancelUpdate 方法示例 (VC++)
 

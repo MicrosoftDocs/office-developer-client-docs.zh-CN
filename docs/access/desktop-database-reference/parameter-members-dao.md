@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192517(v=office.15)
 ms:contentKeyID: 48544228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e62125ee61598d6be125f9edb01f2aa4531043b9
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 25eae70d88307331c44983c4e7cbbcce3fe9d309
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026069"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707904"
 ---
 # <a name="parameter-members-dao"></a>参数成员 (DAO)
 
@@ -34,7 +35,7 @@ Parameter 对象代表提供给查询的值。此参数与从参数查询创建�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="parameter-direction-property-dao.md">方向</a></strong></p></td>
+<td><p><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></p></td>
 <td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>设置或返回一个值，该值指示 <strong><a href="parameter-object-dao.md">Parameter</a></strong> 对象代表的是输入参数、输出参数、此两者还是过程的返回值（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>

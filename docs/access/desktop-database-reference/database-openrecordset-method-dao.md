@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 00b39fc81e929ad32a19ef81d3dc9fa5633308f7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 73bb48db5b47ff1824e962ac44324a17ae0636ad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997264"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707680"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset 方法 (DAO)
 
@@ -29,7 +30,7 @@ ms.locfileid: "25997264"
 
 *表达式*一个代表**Database**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -40,7 +41,7 @@ ms.locfileid: "25997264"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

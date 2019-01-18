@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
 ms:contentKeyID: 48544290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b7b34d06acd2e58950d238cefccbc2ba0a24974
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2653b0917de14fd10e04d866903bd7275a2f38de
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878449"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711250"
 ---
 # <a name="parameters-collection-command-property-example-vb"></a>Parameters 集合与 Command 属性示例 (VB)
 

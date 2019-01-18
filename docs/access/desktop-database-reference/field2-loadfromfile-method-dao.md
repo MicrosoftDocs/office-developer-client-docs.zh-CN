@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb073dfbdbf4ad9d87314c04a0ae2f97e7cfddc3
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bdb1ba92c4a0f4fbee7204b2f4fee8a96c87cc1b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996928"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710627"
 ---
 # <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile 方法 (DAO)
 
@@ -33,7 +34,7 @@ ms.locfileid: "25996928"
 
 *表达式*一个代表**Field2**对象的变量。
 
-## <a name="parameters"></a>参数
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -44,7 +45,7 @@ ms.locfileid: "25996928"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>名称</p></th>
+<th><p>Name</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -54,7 +55,7 @@ ms.locfileid: "25996928"
 <tr class="odd">
 <td><p><em>FileName</em></p></td>
 <td><p>必需</p></td>
-<td><p><strong>字符串</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>要加载的文件的完全限定路径。</p></td>
 </tr>
 </tbody>

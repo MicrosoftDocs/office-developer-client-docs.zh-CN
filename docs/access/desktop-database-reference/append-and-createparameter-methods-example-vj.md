@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250220(v=office.15)
 ms:contentKeyID: 48548594
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7a53a094906a8095380b59eae4d6db79d72ed4a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f4937a241054b5694e15ff8a0b35014886bf7ec0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876510"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706714"
 ---
 # <a name="append-and-createparameter-methods-example-vj"></a>Append 和 CreateParameter 方法示例 (VJ++)
 

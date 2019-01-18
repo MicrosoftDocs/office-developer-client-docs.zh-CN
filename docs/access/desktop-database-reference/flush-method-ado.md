@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b52bb3d595c21ccc682e5af182b794065bcd1b13
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e2a55eb66c454d510d53083c495326548eda08af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920443"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708030"
 ---
 # <a name="flush-method-ado"></a>Flush 方法 (ADO)
 

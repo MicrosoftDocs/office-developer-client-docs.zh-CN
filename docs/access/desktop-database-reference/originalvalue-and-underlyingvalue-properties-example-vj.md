@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
 ms:contentKeyID: 48545233
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b6af489106c582afc862ff93d8d1263accdbff47
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b2e7c70979b5bc5d791350e13fba744a34ee2e82
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880276"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707099"
 ---
 # <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue 和 UnderlyingValue 属性示例 (VJ++)
 

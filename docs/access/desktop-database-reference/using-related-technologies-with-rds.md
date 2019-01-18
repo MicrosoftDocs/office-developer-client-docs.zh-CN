@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249250(v=office.15)
 ms:contentKeyID: 48544752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a1fc46e1a5b8f320810f2e0e5ea891e3a6cb85a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3e58978145a59a0057f5c7218afe417f8455fcb3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947866"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710034"
 ---
-# <a name="using-related-technologies-with-rds"></a>与 rds 结合使用相关的技术
+# <a name="using-related-technologies-with-rds"></a>将相关技术与 RDS 结合使用
 
 **适用于**： Access 2013、 Office 2013
 
@@ -21,7 +22,7 @@ ms.locfileid: "25947866"
 
 - [使用 RDS 与 ODBC 连接池](using-rds-with-odbc-connection-pooling.md)
 
-- [组件服务中运行业务对象](running-business-objects-in-component-services.md)
+- [在组件服务中运行业务对象](running-business-objects-in-component-services.md)
 
 **Internet 信息服务**有关 Microsoft Internet 信息服务 (IIS) 的详细信息，请参阅 Microsoft Internet Information Services 网站。
 

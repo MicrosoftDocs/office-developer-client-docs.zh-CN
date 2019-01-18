@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249862(v=office.15)
 ms:contentKeyID: 48547218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f5d6dc4f9c3dcd039154db74e578ed91aa62fb01
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4be654479ec4e447a77b6c03f8bb1b7ac3616544
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944905"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707967"
 ---
 # <a name="command-object-parameters"></a>Command 对象参数
 

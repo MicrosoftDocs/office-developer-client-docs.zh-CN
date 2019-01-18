@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250177(v=office.15)
 ms:contentKeyID: 48548423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c2f14be526100b1ffcbe34af89c1f72d0a64ff99
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d16b802140e2dcbbd85988bee316ae27236c3235
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025495"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706695"
 ---
 # <a name="using-the-connection-object-access"></a>使用 Connection 对象 (Access)
 

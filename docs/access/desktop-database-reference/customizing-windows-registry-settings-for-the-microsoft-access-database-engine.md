@@ -10,12 +10,13 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b961869f3add04cf4af827f96721aad6dba611b6
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7cbe8ad56e01249563f7b06c9018d923a96246e9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025600"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707358"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>自定义 Microsoft Access 数据库引擎的 Windows 注册表设置
 
