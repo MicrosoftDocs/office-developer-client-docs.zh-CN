@@ -6,20 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2670dadade6e934a1696251867d8ea67e8bbfc53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6e1182427c688e7c8b5ca53c1f5f4bb208b3609a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927366"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726342"
 ---
 # <a name="tabledef-object-dao"></a>TableDef 对象 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**TableDef** 对象代表基表或链接表的已存储定义（仅适用于 Microsoft Access 工作区）。
+**TableDef** 对象代表已存储的基表或链接表（仅限 Microsoft Access 工作区）定义。
 
-## <a name="remarks"></a>注解
+## <a name="remarks"></a>备注
 
 通过使用 **TableDef** 对象及其方法和属性来操作表定义。例如，您可以进行下列操作：
 
@@ -29,11 +30,11 @@ ms.locfileid: "25927366"
 
 - 使用 **ValidationRule** 和 **ValidationText** 属性设置或返回验证条件。
 
-- 使用**OpenRecordset**方法创建表 –、 动态集类型、 动态 –、 快照类型或仅向前类型**Recordset**对象，根据表定义。
+- 使用 **OpenRecordset** 方法基于表定义创建 table–、dynaset–、dynamic–、snapshot– 或 forward–only–type **Recordset** 对象。
 
-对于基表， **RecordCount** 属性包含指定数据库表中的记录数。 对于链接表， **RecordCount**属性设置始终为-1。
+在基表中，**RecordCount** 属性包含指定数据库表中的记录数量。 在链接表中，**RecordCount** 属性设置始终为 –1。
 
-若要创建新的 **TableDef** 对象，请使用 **[CreateTableDef](database-createtabledef-method-dao.md)** 方法。
+若要新建 **TableDef** 对象，请使用 **[CreateTableDef](database-createtabledef-method-dao.md)** 方法。
 
 ### <a name="to-add-a-field-to-a-table"></a>向表中添加字段
 
@@ -73,7 +74,7 @@ ms.locfileid: "25927366"
 
 **TableDefs**("name")
 
-**TableDefs**\!\[名称\]
+**TableDefs**\!\[name\]
 
 ## <a name="example"></a>示例
 
@@ -130,7 +131,7 @@ ms.locfileid: "25927366"
 
 <br/>
 
-以下示例在 Northwind 数据库中创建一个新的 **TableDef** 对象。
+此示例将在 Northwind 数据库中新建一个 **TableDef** 对象。
 
 ```vb 
 Sub CreateTableDefX() 
@@ -193,9 +194,9 @@ Sub CreateTableDefX()
 
 <br/>
 
-下面的示例演示如何创建计算的字段。 CreateField 方法创建一个名为**FullName**字段。 然后表达式属性设置为计算字段的值的表达式。
+以下示例显示了如何创建计算字段。 CreateField 方法将创建名为 **FullName** 的字段。 Expression 属性随后将被设为用于计算字段值的表达式。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub CreateCalculatedField()

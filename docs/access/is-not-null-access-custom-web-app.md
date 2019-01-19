@@ -1,41 +1,41 @@
 ---
-title: '[不] 是 NULL （访问自定义 web 应用程序）'
+title: IS [NOT] NULL（Access 自定义 Web 应用）
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: b941a0c7-9753-4920-bb6d-cbba94ba9422
 description: 确定指定的表达式是否为 NULL。
-ms.openlocfilehash: fcbceb1e8edac65fe232ba9c2b12195b99db9545
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: fe6a0fe4f182a1385304b783e7cfaaf515f732d4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773452"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699315"
 ---
-# <a name="is-not-null-access-custom-web-app"></a>[不] 是 NULL （访问自定义 web 应用程序）
+# <a name="is-not-null-access-custom-web-app"></a>IS [NOT] NULL（Access 自定义 Web 应用）
 
 确定指定的表达式是否为 NULL。
   
 > [!IMPORTANT]
-> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-CN/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="syntax"></a>语法
 
- *表达式***IS**[ ** ]**NULL**
+ *expression* **IS** [  *NOT*  ] **NULL**
   
-**IS [NOT] NULL**谓词包含下列参数。 
+**IS [NOT] NULL** 谓词包含以下参数。 
   
 |||
 |:-----|:-----|
 | *expression*  <br/> |任何有效的表达式。  <br/> |
-| *NOT*  <br/> |指定布尔值的结果取反。 谓词取消其返回值，如果的值不是 NULL 值和 FALSE 如果值为 NULL，则返回 TRUE。  <br/> |
+| *NOT*  <br/> |指定布尔结果取反。 该谓词将对其返回值取反，如果值为非 NULL，则返回 TRUE，如果值为 NULL，则返回 FALSE。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>备注
 
-如果*表达式*的值为 NULL，则为 NULL，则返回 TRUE;否则，将返回 FALSE。 
+如果 *expression* 的值为 NULL，则 IS NULL 返回 TRUE；否则返回 FALSE。 
   
-如果表达式的值为 NULL，则不是 NULL 返回 FALSE;否则，将返回 TRUE。
+如果 expression 的值为 NULL，则 IS NULL 返回 TRUE；否则返回 FALSE。
   
 
