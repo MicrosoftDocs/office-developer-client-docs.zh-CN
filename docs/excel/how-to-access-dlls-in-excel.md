@@ -5,81 +5,81 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- 访问 [excel 2007] 的 dll，在 Excel 中访问 Dll [Excel 2007]
-localization_priority: Normal
+- 访问 dll [excel 2007], DLL [Excel 2007], 在 Excel 中访问
 ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: bfb562b6bbe824124c6b5a691745d076720ee004
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
+localization_priority: Priority
+ms.openlocfilehash: fac4ad30048aa1bf3879009bc97ea46a112a9ce5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773753"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701373"
 ---
 # <a name="access-dlls-in-excel"></a>在 Excel 中访问 DLL
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-您可以访问的 DLL 函数或几种方式在 Microsoft Excel 中的命令：
+可以通过以下几种方式在 Microsoft Excel 中访问 DLL 函数：
   
-- 通过 Microsoft Visual Basic for Applications (VBA) 代码模块中的函数或命令进行了可使用**Declare**语句。 
+- 通过 Microsoft Visual Basic for Applications (VBA) 代码模块，其中可使用 **Declare** 语句使用函数或命令。 
     
-- 通过使用**呼叫**或**注册**函数 XLM 宏表。 
+- 通过使用 **CALL** 或 **REGISTER** 函数的 XLM 宏工作表。 
     
-- 直接从工作表或从自定义项中用户界面 (UI)。
+- 直接通过工作表或者通过用户界面 (UI) 中的自定义项。
     
-本文档不适用于 XLM 函数。 建议您将使用其他两种方法。
+本文档未介绍 XLM 函数。 建议你使用其他两种方法之一。
   
-要访问直接从工作表或在 UI 中的自定义项，函数或命令必须首先注册使用 Excel。 有关注册命令和函数的信息，请参阅[在 Excel 中访问 XLL 代码](accessing-xll-code-in-excel.md)。
+若要直接通过工作表或者 UI 中的自定义项访问，必须在 Excel 中注册函数或命令。 有关注册命令和函数的信息，请参阅[在 Excel 中访问 XLL 代码](accessing-xll-code-in-excel.md)。
   
-## <a name="calling-dll-functions-and-commands-from-vba"></a>从 VBA 中调用的 DLL 函数和命令
+## <a name="calling-dll-functions-and-commands-from-vba"></a>通过 VBA 调用 DLL 函数和命令
 
-可以使用**Declare**语句中访问 DLL 函数和 VBA 中的命令。 此语句包含一个语法的命令，另一个用于函数。 
+可以使用 **Declare** 语句访问 VBA 中的 DLL 函数和命令。 该语句中包含一个命令语法和一个函数语法。 
   
-- **语法 1-命令**
+- **语法 1 - 命令**
     
   ```vb
   [Public | Private] Declare Sub name Lib "libname" [Alias "aliasname"] [([arglist])]
   ```
 
-- **语法 2-函数**
+- **语法 2 - 函数**
     
   ```vb
   [Public | Private] Declare Function name Lib "libname" [Alias "aliasname"] [([arglist])] [As type]
   ```
 
-可选的**公用**和**专用**关键字指定导入函数的作用域： 整个 Visual Basic 项目或只是 Visual Basic 模块，分别。 名称是想要在 VBA 代码中使用的名称。 如果这与在 DLL 中的名称，您必须使用别名"aliasname"说明符，并应授予函数的名称，如 DLL 导出。 如果您想要访问的 DLL 函数引用一个 DLL 的序号，必须提供别名，即序号前缀**#**。
+可选**公用**和**专用**关键字用于指定所导入函数的范围：整个 Visual Basic 项目还是仅 Visual Basic 模块。 此名称为想要在 VBA 代码中使用的名称。 如果它与 DL 中的名称不同，则必须使用别名“aliasname”说明符，并且应赋予函数 DLL 所导出的名称。 如果想要通过引用 DLL 序号访问 DLL 函数，则必须提供别名（以 **#** 为前缀的序数）。
   
-命令应返回**void**。 函数的 VBA 应返回类型可以识别**ByVal**。 这意味着，更轻松地通过修改就地参数返回某些类型： 字符串、 数组、 用户定义类型和对象。
+命令应返回 **void**。 函数应返回 VBA 可识别 **ByVal** 的类型。 这意味着，某些类型可以通过修改相应的参数更轻松地返回：字符串、数组、用户定义的类型和对象。
   
 > [!NOTE]
-> VBA 无法检查参数列表和 Visual Basic 模块中所述的返回在 DLL 中编码的相同。 由于错误可能导致 Excel 崩溃，您应从仔细，检查此自己。 
+> VBA 无法检查 Visual Basic 模块中的参数列表和返回内容是否与 DLL 中的代码相同。 需要你自己亲自仔细检查，因为如果出错，则会导致 Excel 崩溃。 
   
-不通过引用或指针传递函数或命令的参数，当他们前面必须有**arglist**声明中的**ByVal**关键字。 在 C/c + + 函数采用指针参数或 c + + 函数采用引用参数时，应将它们传递**ByRef**。 可以从参数省略**ByRef**关键字列出因为它是 VBA 中的默认值。 
+如果函数或命令的参数不是通过引用或指针传递，则它们必须以 **arglist** 声明中的 **ByVal** 关键字开头。 当 C/C++ 函数采用指针参数时，或者 C++ 函数采用引用参数时，它们应以 **ByRef** 传递。 参数列表中的关键字 **ByRef** 可以省略，因为它在 VBA 中为默认值。 
   
-### <a name="argument-types-in-cc-and-vba"></a>C/c + + 和 VBA 中的参数类型
+### <a name="argument-types-in-cc-and-vba"></a>C/C++ 和 VBA 中的参数类型
 
-比较 C/c + + 和 VBA 中的参数类型的声明时，您应注意以下。
+比较 C/C++ 和 VBA 中的参数类型声明时，应注意以下事项。
   
-- VBA**字符串**作为指针传递到字节字符串 BSTR 结构时传递 ByVal，和为指向时传递的指针的指针**ByRef**。
+- VBA **String** 在传递 ByVal 时作为指针传递至字节字符串 BSTR 结构，而在传递 **ByRef** 时作为指针传递至指针。
     
-- VBA**变量**包含字符串作为指针传递到 Unicode 宽字符字符串 BSTR 结构时传递**ByVal**，和为指向时传递的指针的指针**ByRef**。
+- VBA **变体**包含一个字符串，该字符串在传递 **ByVal** 时作为指针传递至 Unicode 宽字符字符串 BSTR 结构，并在传递 **ByRef** 时作为指针传递至指针。
     
-- VBA**整数**是等价于签名 short C/c + + 中一个 16 位类型。 
+- VBA **Integer** 是一个 16 位类型的值，等同于 C/C++ 中的有符号短整。 
     
-- VBA**长**是等价于签名 int C/c + + 中的 32 位类型。 
+- VBA **Long** 是一个 32 位类型的值，等同于 C/C++ 中的有符号整数。 
     
-- VBA 和 C/c + + 允许用户定义的数据类型的定义分别使用**类型**和**结构**语句。 
+- VBA 和 C/C++ 分别使用 **Type** 和 **struct** 语句支持用户定义的数据类型定义。 
     
-- VBA 和 C/c + + 支持为 C/c + + 为 VARIANT Windows OLE/COM 头文件中定义的**Variant**数据类型。 
+- VBA 和 C/C++ 支持**变体**数据类型，它在 Windows OLE/COM 头文件的 C/C 中被定义为 VARIANT。 
     
-- VBA 数组是 OLE **SafeArrays**，定义 C/c + + Windows OLE/COM 头文件中为**SAFEARRAY**。
+- VBA 数组为 OLE **SafeArrays**，它在 Windows OLE/COM 头文件的 C/C 中被定义为 **SAFEARRAY**。
     
-- 作为类型**CY**，在 Windows 标头文件 wtypes.h 中, 定义的结构传递 VBA**货币**数据类型时传递**ByVal**，并作为一个指向此时传递**ByRef**。
+- VBA **Currency** 数据类型作为 **CY** 类型结构传递且在 Windows 头文件 wtypes.h 中定义（传递 **ByVal** 时），并作为指针传递至指针（传递 **ByRef** 时）。
     
-在 VBA 中，在用户定义的数据类型的数据元素而在 Visual Studio 中，默认情况下，它们被打包到 8 字节边界至 4 字节边界，打包。 因此，则必须将中的 C/c + + 结构定义`#pragma pack(4) … #pragma pack()`块，以避免要对齐的元素。 
+在 VBA 中，用户定义的数据类型中的数据元素将打包为 4 字节边界，而在 Visual Studio 中，它们默认打包为 8 字节边界。 因此，必须将 `#pragma pack(4) … #pragma pack()` 块中的 C/C++ 结构定义括起来，以免元素未对齐。 
   
-下面是等效的用户类型定义的示例。
+以下示例所示为等效用户类型定义。
   
 ```vb
 Type VB_User_Type
@@ -102,42 +102,42 @@ struct C_user_type
 
 ```
 
-VBA 支持更大的范围的值在某些情况下不是 Excel 支持。 双 VBA 为 IEEE 兼容，支持 subnormal 是当前向下舍入为工作表上零的数字。 VBA**日期**类型可以表示为使用负序列化的日期的 1-Jan-0100年早日期。 大于或等于零，则 Excel 将只允许序列化的日期。 VBA**货币**类型 — 扩展的 64 位整数 — 可以实现准确性不支持 8 字节双精度数，并因此不匹配工作表中。 
+在某些情况下，VBA 比 Excel 支持的值范围更大。 VBA 双精度符合 IEEE 标准，支持工作表中当前已四舍五入为零的次正规数。 VBA **Date** 类型可使用负序列化日期表示早至 0100 年 1 月 1 日的日期。 Excel 仅支持大于或等于零的序列化日期。 VBA **Currency** 类型（成比例的 64 位整数）可以实现 8 字节双精度上不支持的精度，这也与工作表不匹配。 
   
-Excel 仅将下列类型的变量传递到 VBA 用户定义函数。
+Excel 仅可将以下类型的变体传递至 VBA 用户定义的函数。
   
-|**VBA 数据类型**|**C/c + + 变量类型的位标志**|**说明**|
+|**VBA 数据类型**|**C/C++ 变体类型位标志**|**说明**|
 |:-----|:-----|:-----|
-|双精度数  <br/> |**VT_R8** <br/> ||
-|Boolean  <br/> |**VT_BOOL** <br/> ||
-|Date  <br/> |**VT_DATE** <br/> ||
+|双精度  <br/> |**VT_R8** <br/> ||
+|布尔值  <br/> |**VT_BOOL** <br/> ||
+|日期  <br/> |**VT_DATE** <br/> ||
 |字符串  <br/> |**VT_BSTR** <br/> |OLE Bstr 字节字符串  <br/> |
-|Range  <br/> |**VT_DISPATCH** <br/> |范围和单元格引用  <br/> |
-|包含数组的 variant  <br/> |**VT_ARRAY** | **VT_VARIANT** <br/> |字面数组  <br/> |
-|Ccy  <br/> |**VT_CY** <br/> |扩展允许的准确性的 4 个小数位的 64 位整数。  <br/> |
-|包含错误的 variant  <br/> |**VT_ERROR** <br/> ||
-||**VT_EMPTY** <br/> |空单元格或省略的参数  <br/> |
+|区域  <br/> |**VT_DISPATCH** <br/> |区域和单元格引用  <br/> |
+|包含数组的变体  <br/> |**VT_ARRAY** | **VT_VARIANT** <br/> |文本数组  <br/> |
+|Ccy  <br/> |**VT_CY** <br/> |64 位成比例整数，支持 4 位小数位数的精度。  <br/> |
+|包含错误的变体  <br/> |**VT_ERROR** <br/> ||
+||**VT_EMPTY** <br/> |空单元格或已省略的参数  <br/> |
    
-之处在于此函数返回的范围的值，如果调用时带有引用的类型，您可以检查在 VBA 中使用**VarType**，传入的 Variant 的类型。 若要确定**变量****范围**reference 对象，您可以使用**IsObject**函数。 
+可以使用 **VarType** 检查 VBA 中的传入变体类型，通过引用调用时返回区域值类型的函数除外。 若要确定**变体****区域**引用对象，可以使用 **IsObject** 函数。 
   
-您可以创建通过将其**Value**属性分配给**Variant**包含在**范围**中的 VBA 变量型数组的**变量**。 任何源区域中的单元格时使用的区域设置中强制标准的货币格式设置格式转换为**货币**类型的数组元素。 任何格式设置为日期转换为**日期**类型的数组元素的单元格。 单元格包含字符串转换为宽字符**BSTR**变量。 含有错误的单元格均转换为**VT_ERROR**类型的**变量**。 包含**布尔值** **True**或**False**的单元格均转换为**VT_BOOL**类型的**变量**。 
+可以从**区域**创建 VBA 中包含变体数组的**变体**，方法是将其**值**属性指定为**变量**。 源区域中使用当时的区域设置中的标准货币格式的所有单元格均将转换为**货币**类型的数组元素。 采用日期格式的所有单元格均将转换为**日期**类型的数组元素。 包含字符串的单元格将转换为宽字符 **BSTR** 变体。 包含错误的单元格将转换为 **VT_ERROR** 类型的**变体**。 包含**布尔表达式** **True** 或 **False** 的单元格将转换为 **VT_BOOL** 类型的**变体**。 
   
 > [!NOTE]
-> **Variant 类型的值**将存储**True**为-1 和**False**作为 0。 不是日期格式数字或货币金额会转换为的类型**VT_R8**变体。 
+> **变体**将 **True** 存储为 -1，将 **False** 存储为 0。 未采用日期或货币金额格式的数字将转化为 **VT_R8** 类型的变体。 
   
-### <a name="variant-and-string-arguments"></a>Variant 类型的值和字符串参数
+### <a name="variant-and-string-arguments"></a>变体和字符串参数
 
-Excel 适用于内部的宽字符 Unicode 字符串。 当 VBA 用户定义函数声明为采用**字符串**参数时，Excel 提供将字符串转换为字节字符串的特定于区域设置的方式。 如果您希望您传递一个 Unicode 字符串的函数，您 VBA 用户定义函数应接受**Variant**而不是**字符串**参数。 您的 DLL 函数然后可以接受从 VBA 的**Variant** BSTR 宽字符 string。 
+Excel 从内部使用宽字符 Unicode 字符串。 如果 VBA 用户定义的函数被声明为采用**字符串**参数，则 Excel 将以特定于区域设置的方式将提供的字符串转换为字节字符串。 如果想要函数传递为 Unicode 字符串，则 VBA 用户定义的函数应接受**变体**而不是**字符串**参数。 DLL 函数随后可接受 VBA 中的**变体** BSTR 宽字符字符串。 
   
-若要从 DLL VBA 返回 Unicode 字符串，您应修改就地**Variant**字符串参数。 为此，您必须声明为**Variant**和在 C/c + + 代码中，采用指针的 DLL 函数和声明为 VBA 代码中的参数`ByRef varg As Variant`。 应释放的旧的字符串内存，并使用仅在 DLL 中的 OLE Bstr 字符串函数创建新的字符串值。
+若要将 Unicode 字符串从 DLL 返回至 VBA，应相应地修改**变体**字符串参数。 为此，必须将 DLL 函数声明为将指针指向**变体**和 C/C++ 代码，并将 VBA 代码中的参数声明为 `ByRef varg As Variant`。 应擦除原先的字符串内存，并且使用 OLE Bstr 字符串函数创建的新字符串只能在 DLL 中运行。
   
-若要从 DLL VBA 返回一个字节的字符串，您应修改就地字节字符串 BSTR 参数。 为此，您必须声明为指针指向 BSTR 和 C/c + + 代码，采用指针的 DLL 函数并声明中作为**ByRef varg As String**VBA 代码的参数。
+若要将字节字符串从 DLL 返回至 VBA，应相应地修改字节字符串 BSTR 参数。 为此，必须将 DLL 函数声明为将指针指向 BSTR 指针和 C/C++ 代码，并将 VBA 代码中的参数声明为“**ByRef varg As String**”。
   
-仅应处理传递 VBA 中的以下方式使用 OLE BSTR 字符串函数以避免出现内存相关问题的字符串。 例如，您必须调用**SysFreeString**之前覆盖中传递的字符串，并**SysAllocStringByteLen**或**只能**为一个新字符串分配空间释放内存。 
+应仅使用 OLE BSTR 字符串函数处理以这些方式从 VBA 传递的字符串，以免出现与内存相关的问题。 例如，必须先调用 **SysFreeString** 以释放内存，然后再覆盖传入的字符串，并调用 **SysAllocStringByteLen** 或 **SysAllocStringLen** 为新字符串分配空间。 
   
-您可以通过**CVerr**函数使用下表中所示的参数为**变量**在 VBA 中创建 Excel 工作表错误。 工作表错误还可返回到 VBA 从 DLL 的**ulVal**字段中使用**变体**类型**VT_ERROR**，并具有以下值。 
+可以结合使用 **CVerr** 函数和下表中所示的参数，以在 VBA 中创建如**变体**一样的 Excel 工作表错误。 此外，还可以使用 **VT_ERROR** 类型的**变体**以及以下**ulVal**字段值，将工作表错误返回至 VBA。 
   
-|**Error**|**Variant ulVal 值**|**CVerr 参数**|
+|**错误**|**变体 ulVal 值**|**CVerr参数**|
 |:-----|:-----|:-----|
 |#NULL!  <br/> |2148141008  <br/> |2000  <br/> |
 |#DIV/0!  <br/> |2148141015  <br/> |2007  <br/> |
@@ -147,41 +147,41 @@ Excel 适用于内部的宽字符 Unicode 字符串。 当 VBA 用户定义函�
 |#NUM!  <br/> |2148141044  <br/> |2036  <br/> |
 |#N/A  <br/> |2148141050  <br/> |2042  <br/> |
    
-请注意，给定的 Variant **ulVal**值等于**CVerr**参数值以及 x800A0000 十六进制。 
+请注意，提供的变体 **ulVal** 值等于 **CVerr** 参数值加上 x800A0000 十六进制值。 
   
-## <a name="calling-dll-functions-directly-from-the-worksheet"></a>直接从工作表中调用 DLL 函数
+## <a name="calling-dll-functions-directly-from-the-worksheet"></a>直接从工作表调用 DLL 函数
 
-您无法访问 Win32 DLL 函数从工作表中没有，例如，使用 VBA 或 XLM 接口，或又不允许 Excel 事先知道函数，它的参数以及它的返回类型。 此操作的过程称为注册。
+例如，如果没有将 VBA 或 XLM 用作接口，或者没有让 Excel 提前知道气焊、其参数及其返回类型，则无法从工作表返回 Win32 DLL 函数。 此操作过程称为注册。
   
-Dll 函数可以访问工作表中的方法如下所示：
+可在工作表中访问 DLL 函数的方式如下所示：
   
-- 声明在 VBA 中的函数，如前面所述并访问通过 VBA 用户定义函数。
+- 按上面所述在 VBA 中声明函数，然后通过 VBA 用户定义的函数访问它。
     
-- 调用 XLM 宏表，使用呼叫的 DLL 函数和访问通过 XLM 用户定义函数。
+- 使用 XLM 宏工作表上的 CALL 调用 DLL 函数，然后通过 XLM 用户定义的函数访问它。
     
-- 使用 XLM 或 VBA 命令调用 XLM**注册**的函数，它提供了 Excel 工作表单元格中输入时识别函数所需的信息。 
+- 使用 XLM 或 VBA 命令调用 XLM **REGISTER** 函数，这将会提供 Excel 识别函数（在函数被输入到工作表单元格时）所需的信息。 
     
-- 将变成 XLL DLL 并注册 XLL 被激活时使用 C API **xlfRegister**函数的函数。 
+- 将 DLL 变为 XLL 并在 XLL 激活时使用 C API **xlfRegister** 函数注册函数。 
     
-是独立的第四个方法： 注册函数的代码和函数代码都包含在相同的代码项目中。 对加载项进行的更改不涉及到 XLM 工作表或 VBA 代码模块进行更改。 若要同时仍保持中的 C api 的功能完善管理方式执行此操作，必须将变成 XLL DLL 并加载生成加载项使用加载项管理器。 这使 Excel 调用的函数，您的 DLL 公开外接程序加载或时激活，从其可以注册的所有包含您 XLL 的功能和任何其他 DLL 初始化执行。
+第四种方法为独立方法：用于注册函数和函数代码的代码包含于同一代码项目中。 更改加载项并不涉及更改 XLM 工作表或 VBA 代码模块。 若要以管理良好的方式完成此操作，同时保持 C API 的功能，则必须使用加载项管理器将 DLL 变为 XLL 并加载生成的加载项。 这使 Excel 能够在加载或激活加载项时调用 DLL 公开的函数，这样你就可以注册 XLL 包含的所有函数，并执行任何其他 DLL 初始化。
   
-## <a name="calling-dll-commands-directly-from-excel"></a>直接从 Excel 调用 DLL 命令
+## <a name="calling-dll-commands-directly-from-excel"></a>直接通过 Excel 调用 DLL
 
-Win32 DLL 命令将无法访问直接从 Excel 对话框和菜单不存在一个接口，如 VBA，或不提前注册的命令。
+在没有接口（如 VBA）或没有提前注册命令的情况下，无法直接通过 Excel 对话框和菜单访问 Win32 DLL 命令。
   
-您可以在其中访问 DLL 的命令的方法如下所示：
+可用于访问 DLL 命令的方式如下所示：
   
-- 声明 VBA 中的命令，如前面所述并访问通过 VBA 宏。
+- 按上面所述在 VBA 中声明函数，然后通过 VBA 宏访问它。
     
-- 调用 XLM 宏表，使用**调用**DLL 命令并访问通过 XLM 宏。 
+- 使用 XLM 宏工作表上的 **CALL** 调用 DLL，然后通过 XLM 宏访问它。 
     
-- 使用 XLM 或 VBA 命令调用 XLM**注册**的函数，它提供的信息 Excel 需要识别该命令时输入到一个对话框，需要宏命令的名称。 
+- 使用 XLM 或 VBA 命令调用 XLM **REGISTER** 函数，这将会提供 Excel 识别命令（在命令被输入到期望获得宏命令名称的对话框时）所需的信息。 
     
-- 将变成 XLL DLL 并注册使用 C API **xlfRegister**函数的命令。 
+- 将 DLL 变为 XLL 并使用 C API **xlfRegister** 函数注册命令。 
     
-如前面的 DLL 函数上下文中所述，第四个方法是最独立，保持最新的命令代码附近的注册代码。 若要执行此操作，必须将变成 XLL DLL 并加载生成加载项使用的加载项管理器。 在这种方式中注册命令还可以将命令附加到的用户界面，例如自定义菜单，元素或设置事件陷阱调用该命令的给定的键击或其他事件。
+如前面的 DLL 函数上下文所述，第四种方法最独立，使注册代码与命令代码接近。 若要执行此操作，必须使用加载项管理器将 DLL 变为 XLL 并加载生成的加载项。 如果使用此方式注册命令，则还可以将命令附加到某个用户界面元素，如自定义菜单，或者设置事件陷进，以在指定击键或其他事件时调用此命令。
   
-使用 Excel 中注册的所有 XLL 命令都假定 Excel 的以下形式。
+Excel 假定使用 Excel 注册的所有 XLL 命令采用以下形式。
   
 ```cpp
 int WINAPI my_xll_cmd(void)
@@ -192,17 +192,17 @@ int WINAPI my_xll_cmd(void)
 ```
 
 > [!NOTE]
-> 除非调用从 XLM 宏工作表，在其中案例的返回值转换为**TRUE**或**FALSE**，则 Excel 会忽略返回值。 如果它失败或已被用户取消，因此应返回 1 如果您的命令执行成功和 0。 
+> Excel 将忽略返回值，除非是通过 XLM 宏工作表调用该值，在此情况下，返回值将转换为 **TRUE** 或 **FALSE**。 因此，如果命令执行成功，则应返回 1，如果失败或者被用户取消，则返回 0。 
   
 ## <a name="dll-memory-and-multiple-dll-instances"></a>DLL 内存和多个 DLL 实例
 
-当应用程序加载 DLL 时，该 DLL 可执行代码加载到全局堆，以便它可以运行，并在其数据结构全局堆分配的空间。 Windows 使用内存映射以使显示如同它们位于应用程序的过程中，以便应用程序可以访问这些这些领域的内存。
+应用程序加载 DLL 时，此 DLL 的可执行代码将加载到全局堆中，以便运行该代码，并且将会在全局堆中为其数据结构分配空间。 Windows 使用内存映射使这些内存区域看上去像位于应用程序进程中一样，这样一来应用程序就可访问它们。
   
-如果第二个应用程序然后加载 DLL，Windows 不会创建 DLL 的可执行代码，另一个副本，如内存是只读的。 Windows 将 DLL 可执行代码内存映射到两个应用程序的过程。 但是，它执行分配第二个空格的 DLL 的数据结构的私有副本并将此副本映射到第二个进程。 这样可确保不应用程序可能会干扰 DLL 的其他数据。
+如果另一个应用程序随后加载 DLL，则 Windows 不会生成另一个 DLL 可执行代码副本，因为该内存为只读。 Windows 会将此 DLL 可执行代码内存映射至两个应用程序的进程。 但是，它会为 DLL 数据结构专用副本分配另一个空间，并且只会将此副本映射至第二个进程。 这可确保两个应用程序的 DLL 数据不会相互干扰。
   
-这意味着 DLL 开发人员不必担心静态和全局变量和多个应用程序或多个实例的同一应用程序正在访问的数据结构。 每个应用程序的每个实例获取其自己的 DLL 数据副本。
+这意味着，DLL 开发人员无需在意静态和全局变量及数据结构被多个应用程序或相同应用程序的多个实例访问。 每个应用程序的每个实例均有自己的 DLL 数据副本。
   
-DLL 开发人员需要为长短相同的应用程序从不同的线程，调用其 DLL 多次实例，因为这可能会导致争夺该实例的数据。 有关详细信息，请参阅[在 Excel 中进行内存管理](memory-management-in-excel.md)。
+DLL 开发人员必须考虑应用程序的相同实例从不同线程多次调用 DLL，因为这会导致该实例的数据被争用。 有关更多信息，请参阅 [Excel 中的内存管理](memory-management-in-excel.md)。
   
 ## <a name="see-also"></a>另请参阅
 
