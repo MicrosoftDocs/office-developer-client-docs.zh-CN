@@ -3,27 +3,27 @@ title: 安装 MAPI 子系统
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: adb4d09ccce95683ac46e7b271fafa328b1a9f97
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 112a683f5967f8740c2d21285eb4ebbc0f455c48
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575348"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722436"
 ---
 # <a name="installing-the-mapi-subsystem"></a>安装 MAPI 子系统
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-受支持的版本的 Windows 中安装的 MAPI 存根库 Mapi32.dll，_\<驱动器\>_ \Windows\System32 文件夹。 
+受支持的 Windows 版本将 MAPI 存根库 Mapi32.dll 安装在 _\<drive\>_ \Windows\System32 文件夹中。 
   
-支持的 Windows 版本如下所示：
+受支持的 Windows 版本如下所示：
   
 - Windows 7。
     
@@ -35,22 +35,22 @@ ms.locfileid: "22575348"
     
 - Windows XP。
     
-若要正确安装 MAPI 子系统，安装包含基于 MAPI 的子系统，如 Microsoft Outlook 的应用程序。
+若要正确安装 MAPI 系统，请安装包含基于 MAPI 子系统的应用程序，如 Microsoft Outlook。
   
-您可以在系统注册表中找到有关计算机的 MAPI 子系统安装的信息。 注册表项中的所有值都的字符串。 
+可以在系统注册表中找到与计算机的 MAPI 子系统相关的信息。 注册表项中的所有值均为字符字符串。 
   
-消息服务安装程序负责在以下系统注册表项中创建了安装信息： 
+邮件服务安装程序负责在以下系统注册表项中创建安装信息： 
   
  `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Messaging Subsystem`
   
-消息服务必须添加到系统注册表项。 
+邮件服务必须向系统注册表中添加注册表项。 
   
-下表总结了客户端如何检索 MAPI 子系统在其计算机上的版本信息。
+下表简要介绍了客户端如何检索其计算机上的 MAPI 子系统的版本信息。
   
-|**若要检查**|**Registry**|
+|**检查**|**注册表**|
 |:-----|:-----|
-|MAPI 的可用性  <br/> |查找`MAPIX=1`。  <br/> |
-|可用版本的 MAPI  <br/> |查找窗体" _x.x.x_"MAPIXVER 字符串。  <br/> |
+|MAPI 可用性  <br/> |查找 `MAPIX=1`。  <br/> |
+|可用的 MAPI 版本  <br/> |查找“_x.x.x_”形式的 MAPIXVER 字符串。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
