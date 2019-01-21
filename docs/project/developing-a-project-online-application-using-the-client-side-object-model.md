@@ -1,152 +1,152 @@
 ---
-title: 开发 Project Online 应用程序使用的客户端对象模型
+title: 使用客户端对象模型开发 Project Online 应用程序
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: 本文介绍使用.NET Framework 4.0 的桌面应用程序的 Microsoft Project Online 应用程序开发。 本文中描述的应用程序宿主服务器中检索信息。
-ms.openlocfilehash: b6e7260fd2337d2b156f97605fdd201f5e0d4edc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: 本文介绍了如何使用 .NET Framework 4.0 开发 Microsoft Project Online 桌面应用程序。 本文中所述的应用程序将检索托管服务器的信息。
+localization_priority: Priority
+ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385261"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712937"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>开发 Project Online 应用程序使用的客户端对象模型
+# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>使用客户端对象模型开发 Project Online 应用程序
 
-本文介绍使用.NET Framework 4.0 的桌面应用程序的 Microsoft Project Online 应用程序开发。 本文中描述的应用程序宿主服务器中检索信息。 
+本文介绍了如何使用 .NET Framework 4.0 开发 Microsoft Project Online 桌面应用程序。 本文中所述的应用程序将检索托管服务器的信息。 
   
 ## <a name="background"></a>背景
 
-Microsoft Project 桌面应用程序中早期 20 世纪 90 年代开始。 如今，项目是更多，如证明其几个类别：
+在 20 世纪 90 年代早期，Microsoft Project 已作为桌面应用程序推出。 如今，Project 要多得多，其多个不同的版本就是很好的证明：
   
-- Project standard edition 的桌面应用程序作为独立的应用程序运行。
+- Project 标准版桌面应用程序可作为单独的应用程序运行。
     
-- Project professional 版本是桌面应用程序可以进行交互和与上规模较大的服务器共享数据，以及执行 Project standard edition 中找到的功能。
+- Project 专业版桌面应用程序可更大规模地与服务器交互和共享数据，以及执行 Project 标准版中的功能。
     
-- Project Online 是一种 Microsoft 承载的服务，公司提供的 PMO 级解决方案以进行协调和管理项目、 程序和项目组合。 桌面版本，Project Online 比其他产品可以维护和跟踪整个生命周期中的项目的项目详细信息。 
+- Project Online 是一种 Microsoft 托管的服务，可为公司提供 PMO 级解决方案，用于协调和管理项目、计划和项目组合。 Project Online 是一款不同于桌面版本的产品，它可以在整个项目周期内维护和跟踪项目的详细信息。 
     
-- Project Server 企业管理，并保护包含项目、 程序和项目组合信息的服务器的企业托管的服务。 Project Server、 源于保护内部，服务器提供项目、 程序和项目组合面向外部托管 Project Online 与更大容量的自定义功能。
+- Project Server 是一款企业托管的服务，企业可以通过它管理和保护含有项目、计划和项目组合信息的服务器。 Project Server 可以保护内部服务器，因此，它可以提供外部托管的 Project Online 所具有的的项目、计划和项目组合功能，并且可以实现更大程度的自定义。
     
-Project Online 具有三个 online API 集： 客户端对象模型 (CSOM)、 JavaScript 对象模型 (JSOM) 和代表性状态传输 (REST)。 
+Project Online 具有三个在线 API 集：客户端对象模型 (CSOM)、JavaScript 对象模型 (JSOM) 和表述性状态转移 (REST)。 
   
-- .NET CSOM 实现时开发与 Project Online 租户 Windows 应用程序交互的首选的接口。 以用户为中心的应用程序的典型环境包括 Windows 台式机和 Microsoft Surface 设备。 使用.NET CSOM 编写的后端应用程序可以连接到其他服务器的外部的 Project Online 的业务逻辑和数据源。 到 Project Online 的检索请求使用 LINQ 类似于查询系统的基本检索函数通过了若干个增强。
+- 开发与 Project Online 租户交互的 Windows 应用程序时，.NET CSOM 实施是首选界面。 以用户为中心的应用程序的典型环境包括 Windows 桌面和 Microsoft Surface 设备。 使用 .NET CSOM 编写的后端应用程序可连接至其他服务器，以获取 Project Online 外部业务逻辑和数据源。 至 Project Online 的检索请求使用类似于 LINQ 的查询系统，该系统在基本检索功能的基础上提供了多项增强功能。
     
-- JavaScript 对象模型 (JSOM) 接口提供了 Project Online 的加载项的跨浏览器支持。外接程序是存储在 Project Online 租户中的 web 应用程序。 当用户想要运行外接程序时外, 接程序的代码下载并在用户计算机上运行在浏览器中。 
+- JavaScript 对象模型 (JSOM) 界面为 Project Online 加载项提供跨浏览器支持。加载项是指存储于 Project Online 租户中的 Web 应用程序。 当用户想要运行加载项时，加载项代码将在用户计算机上的浏览器中下载和运行。 
     
-- REST/Odata 模型提供了基于 HTTP 的通信，在非 Windows 环境中的应用程序建议使用此接口。 通信终结点是 Project Web 应用程序 (PWA) 网站中的对象。 结果提供一般 HTTP 状态代码。
+- REST/Odata 模型提供基于 HTTP 的通信，对于非 Windows 环境中的应用程序，推荐使用此界面。 通信终结点为 Project Web 应用程序 (PWA) 网站中的对象。 结果提供正常 HTTP 状态代码。
     
-本文重点介绍使用.NET CSOM 接口的应用程序。
+本文重点介绍使用 .NET CSOM 界面的应用程序。
   
-## <a name="prerequisites"></a>必备组件
+## <a name="prerequisites"></a>先决条件
 
-开始与基本系统运行 Windows 10，并添加以下各项：
+从运行 Windows 10 的基本系统入手，并添加以下项：
   
-- .Net framework 4.0 或更高版本-使用完整的框架。 下载站点是https://msdn.microsoft.com/vstudio/aa496123.aspx。
+- .Net Framework 4.0 或更高版本 -- 使用完整的框架。 下载网站为 https://msdn.microsoft.com/vstudio/aa496123.aspx。
     
-- Visual Studio 2013 或更高版本-是可以接受任何版本。 使用 Visual Studio 2015 的社区版本开发示例应用程序。 社区 edition 位于https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx。
+- Visual Studio 2013 或更高版本 -- 接受任何版本。 Visual Studio Community 2015 版用于开发实例应用程序。 Community 版可在 https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx 上获取。
     
-- SharePoint 客户端组件 SDK-Project Online 和 Project Server 坐在 SharePoint 和 SharePoint 程序集。 SharePoint 客户端组件都包括在 Visual Studio 专业版和企业版。 如果您使用 Visual Studio 社区 edition，在以下网站中可用是最新版本的 Office 开发人员工具 SDK: https://www.microsoft.com/en-us/download/details.aspx?id=35585。
+- SharePoint 客户端组件 SDK -- Project Online 和 Project Server 位于 SharePoint 和 SharePoint 程序集之上。 Visual Studio Professional 和 Enterprise 版中包含 SharePoint 客户端组件。 如果使用 Visual Studio Community 版，则可在以下网站上获取最新版 Office 开发人员工具 SDK：https://www.microsoft.com/en-us/download/details.aspx?id=35585
     
-- Project Online 的帐户-这提供了对承载网站的访问。 有关获取 Project Online 帐户的详细信息，请参阅https://products.office.com/en-us/Project/project-online-portfolio-management。
+- Project Online 帐户 -- 可通过该账户访问托管网站。 有关获取 Project Online 帐户的详细信息，请参阅 https://products.office.com/en-us/Project/project-online-portfolio-management
     
-- 承载的网站上的项目填充的信息
+- 托管网站上已填充信息的项目
     
 > [!NOTE]
-> 标准.NET Framework （4.0 或更高版本） 是要使用的正确框架。 不要使用.NET Framework 4 客户端配置文件。 
+> 要使用的正确框架为标准 .NET Framework（4.0 或更高版本）。 请勿不使用 .NET Framework 4 Client Profile。 
   
 ## <a name="develop-the-application"></a>开发应用程序
 
-在针对 SharePoint 进行开发桌面应用程序，首选的接口是 Project 客户端对象模型 (CSOM)。 
+开发 SharePoint 桌面应用程序时，首选界面为 Project 客户端对象模型 (CSOM)。 
   
-您可以下载完整的示例在https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks。
+可以在 https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks 上下载完整的示例。
   
-前两个主题涵盖基本问题： 使用适当的命名空间和程序集，创建 Visual Studio 项目和访问宿主服务器。 从一和多对象中检索信息通过 CSOM，处理的其余主题。 
+前两个主题涵盖了基本问题：创建具有适当命名空间和程序集的 Visual Studio 项目；访问托管服务器。 其余主题介绍通过 CSOM 检索一个和多个对象中的信息。 
   
-从主机中检索信息是从客户端应用程序的两个操作过程。 首先，应用程序指定，并将一个或多个检索请求发送到服务器。 其次，应用程序向服务器执行提交的查询发出通知。 服务器响应通过将查询结果发送到客户端。
+对于客户端应用程序，检索主机中的信息涉及两个操作步骤。 首先，应用程序向服务器指定并发送一个或多个检索请求。 其次，应用程序向服务器发送执行所提交查询的通知。 服务器通过向客户端发送查询结果来响应。
   
 ### <a name="set-up-the-visual-studio-project"></a>设置 Visual Studio 项目
 
-应用程序安装由创建新项目、 链接相应的程序集和声明所需的命名空间组成。 Visual Studio 提供了几种类型的开发项目。 
+应用程序设置由三个部分组成：新建项目、链接相应的程序集和声明所需命名空间。 Visual Studio 提供有多种类型的开发项目。 
   
 #### <a name="select-a-visual-studio-project"></a>选择 Visual Studio 项目
 
-1. 启动 Visual Studio，然后选择开始页上的**启动新项目**。 
+1. 在“开始”页上启动 Visual Studio 并选择“**启动新项目**”。 
     
-   新建项目对话框中显示可用的应用程序模板和任何选定的模板的数据字段。 
+   “新建项目”对话框显示可用应用程序模板以及任意选定模板中的数据字段。 
     
-2. 为此应用程序，指定以下各项。 在屏幕上遇到关键字具有粗体属性：
+2. 在此应用程序中，请指定以下项。 屏幕上显示的关键字采用粗体属性：
     
-   1. 从已安装的模板的左窗格中，选择**C#** => **Windows** => **经典桌面**。 
+   1. 从左侧窗格中的“已安装的模板”中，选择“**C#** => **Windows** => **经典桌面**”。 
     
-   2. 在中央窗格的顶部，选择 **.NET Framework 4**。 
+   2. 在中间窗格顶部，选择“**.NET Framework 4**”。 
     
-   3. 从应用程序类型在中央窗格中，选择**控制台应用程序**。 
+   3. 从中间窗格的应用程序类型中，选择“**控制台应用程序**”。 
     
-   4. 在底部部分中，指定的名称和位置的项目，并解决方案名称。 
+   4. 在底部为项目指定名称和位置以及解决方案名称。 
     
-   5. 此外在底部部分中，检查**创建解决方案的目录**框中。 
+   5. 此外，在底部选中“**创建解决方案的目录**”复选框。 
     
-3. 单击**确定**以创建初始项目。 
+3. 单击“**确定**”以创建初始项目。 
     
-#### <a name="add-assemblies"></a>将程序集添加
+#### <a name="add-assemblies"></a>添加程序集
 
-VS 解决方案需要 ProjectServerClient 程序集从 Project 2103 SDK，几个来自 SharePoint SDK，程序集和.NET Framework System.Security 程序集。
+VS 解决方案需要使用 Project 2103 SDK 中的 ProjectServerClient 程序集、一些 SharePoint SDK 程序集和 .NET Framework System.Security 程序集。
   
-1. VS 解决方案资源管理器，右键单击引用条目中，并选择**添加引用...** 从快捷菜单。 
+1. 在 VS 解决方案资源管理器中，右键单击“引用”条目，然后从快捷菜单中选择“**添加引用…**” 。 
     
-2. 检查**Microsoft.ProjectServer.Client.dll**。 
+2. 选中“**Microsoft.ProjectServer.Client.dll**”。 
     
-   如果需要请单击**浏览...** 在对话框的底部按钮并导航到要定位程序集的 Project 2013 SDK 安装目录。 
+   如果需要，单击对话框底部的“**浏览…**” 按钮并导航至 Project 2013 SDK 安装目录，以找到程序集。 
     
-3. 单击“确定”****。 
+3. 单击“**确定**”。 
     
-4. 将 PrjoctServer 客户端命名空间添加到.cs 文件中。
+4. 将 PrjoctServer 客户端名称空间添加到 .cs 文件。
     
    ```cs
     using Microsoft.ProjectServer.Client;
    ```
 
-添加使用 NuGet 程序包管理器控制台的 SharePoint 2013 SDK 程序集。 
+使用 NuGet 程序包管理器控制台添加 SharePoint 2013 SDK 程序集。 
   
-1. 从 VS 工具菜单中，单击下列菜单：**工具 =\> NuGet 程序包管理器 =\>程序包管理器控制台**。 
+1. 从 VS“工具”菜单中，单击以下菜单：**“工具”=\>“NuGet 程序包管理器”=\>“程序包管理器控制台”**。 
     
-2. 在程序包管理器控制台中，输入以下命令并按\<ENTER\>:
+2. 在“程序包管理器控制台”中，输入以下命令并按 \<ENTER\>：
     
    ```cs
     Install-Package Microsoft.SharePointOnline.CSOM
    ```
 
-   **程序包管理器控制台**提供命令结果; 的说明并 VS 解决方案资源管理器显示项目引用中的 SharePoint 程序集。 
+   “**程序包管理器控制台**”提供命令结果描述，“VS 解决方案资源管理器”的项目首选项中显示 SharePoint 程序集。 
     
-3. 将命名空间添加到.cs 文件中：
+3. 价格命名空间添加到 .cs 文件：
     
    ```cs
     using Microsoft.SharePoint.Client;
    ```
 
-System.Security 程序集是.NET Framework 的一部分，且已安装与框架。 该示例应用程序需要一个身份验证提供对承载系统的加密的字符串的多个命名空间。 身份验证后，应用程序可以访问承载系统的项目。 将 System.Security 命名空间添加到.cs 文件中这种方式：
+System.Security 程序集是 .NET Framework 的一部分，与框架一起安装。 示例应用程序需要使用另一个命名空间，该命名空间提供了一个至托管系统的加密字符串，以便进行身份验证。 通过身份验证后，应用程序即可访问托管系统上的项目。 通过以下方式将 System.Security 命名空间添加到 .cs 文件中：
   
-1. VS 解决方案资源管理器，右键单击引用条目中，并选择**添加引用...** 从快捷菜单。 
+1. 在 VS 解决方案资源管理器中，右键单击“引用”条目，然后从快捷菜单中选择“**添加引用…**” 。 
     
-2. 选中**程序集 =\>框架**左窗格中的引用管理器对话框中，然后检查**System.Security**。 
+2. 在“引用管理器”对话框的左侧窗格中，选择 **“程序集”=\>“框架”**，然后选中“**System.Security**”。 
     
-3. 单击“确定”****。 
+3. 单击“**确定**”。 
     
-4. 将 System.Security 命名空间添加到.cs 文件中：
+4. 将 System.Security 命名空间添加到 .cs 文件中：
     
    ```cs
     using System.Security;
    ```
 
-.Cs 文件的开头应包含以下命名空间：
+.cs 文件的开头应包含以下命名空间：
   
-- 系统
+- System
     
 - System.Collections.Generic
     
-- 更改
+- System.Linq
     
 - System.Test
     
@@ -156,9 +156,9 @@ System.Security 程序集是.NET Framework 的一部分，且已安装与框架�
     
 - System.Security
     
-### <a name="connect-to-the-host-system"></a>连接到主机系统
+### <a name="connect-to-the-host-system"></a>连接至主机系统
 
-Project Online 是 SharePoint 应用程序，因此使用 SharePoint 身份验证是正确的方法。 下面的代码片段准备访问托管的环境。
+Project Online 是一款 SharePoint 应用程序，因此，使用 SharePoint 身份验证是正确方法。 以下代码片段准备访问托管环境。
   
 ```cs
     class Program
@@ -175,28 +175,28 @@ Project Online 是 SharePoint 应用程序，因此使用 SharePoint 身份验�
 
 ```
 
-若要访问托管的环境的准备工作包括以下各项：
+访问托管环境的准备工作包括以下事项：
   
-1. 创建一个 context 对象的项目--这包含在前面的代码片段的下面的代码。 
+1. 为项目创建上下文对象 -- 这包含在前面代码片段的以下代码中。 
     
    ```cs
     private static ProjectContext projContext;
     
    ```
 
-   上下文被继承的其他组件，允许系统管理的 Project 对象模型上下文中。
+   其他组件将继承此上下文，从而使得系统能够管理 Project 对象模型的上下文。
     
-2. 标识主机网站--这是在下面的代码从前面的代码片段。
+2. 识别主机网站 -- 此操作在前面代码片段的以下代码中完成。
     
    ```cs
     using (ProjectContext projContext = new ProjectContext("https://Contoso.sharepoint.com/sites/pwa"))
    ```
 
-   当实例化项目上下文，该应用程序需要提供的项目网站集的根目录。 应用程序使用的项目的根 URL 的子字符串。 使用下图中的一个红色矩形突出显示此位置的快照。 身份验证需要从其开始通过"pwa"的子字符串的字符串。 在代码列表中，应用程序使用字符串"https://XXXXXXXX.sharepoint.com/sites/pwa"。
+   实例化项目上下文时，应用程序需要提供项目网站集的根网站。 应用程序使用项目根网站的 URL 子字符串。 在下面的示例图中，用红色矩形突出显示了此位置的快照。 身份验证需要从开头到子字符串“pwa”的字符串。 在代码列表中，应用程序使用字符串“https://XXXXXXXX.sharepoint.com/sites/pwa”。
         
-   ![屏幕截图红色的边框内的项目网站集的 URL。](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "屏幕截图的项目的 URL 的网站集内的红色的边框")
+   ![红色边框内的项目网站集的 URL 屏幕截图。](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "红色边框内的项目网站集的 URL 屏幕截图")
   
-3. 将密码放入安全字符串--这是在下面的代码从前面的代码片段。
+3. 将密码置于安全的字符串中 -- 此操作在前面代码片段的以下代码中完成。
     
    ```cs
     SecureString password - new SecureString();
@@ -206,35 +206,35 @@ Project Online 是 SharePoint 应用程序，因此使用 SharePoint 身份验�
 
    密码和用户帐户是访问主机网站的凭据。 
     
-4. Context 对象的凭据部分中添加的用户帐户和密码--这是在下面的代码从前面的代码片段。
+4. 将用户帐户和密码添加到上下文对象的凭据部分 -- 此操作在前面代码片段的以下代码中完成。
     
    ```cs
     projContext.Credentials = new SharePointOnlineCredentials("sarad@Contoso.onmicrosoft.com", password);
    ```
 
-实例化的项目上下文已准备好使用。
+已实例化的项目上下文已可供使用。
   
 ### <a name="list-all-published-projects"></a>列出所有已发布的项目
 
-Project Online 和 ProjectServer 使用代理服务器进行通信与服务器进行创建、 报表、 更新和删除 (CRUD) 操作。 主机服务器更有效地处理请求，并包含客户端与服务器通信中执行下列操作：
+Project Online 和 ProjectServer 使用代理来预服务器通信，以完成创建、报告、更新和删除 (CRUD) 操作。 与服务器通信时，主机/服务器高效处理请求，并让客户端执行以下操作：
   
-1. 建立上下文通信。 
+1. 建立通信上下文。 
     
-   上下文使用项目集合，以及其他对象和通过继承，包括 tasks 集合、 assignments 集合、 阶段对象和自定义字段的集合。 
+   此上下文供项目集合以及通过继承获得的其他对象和集合（包括任务集合、工作分配集合、阶段对象和自定义字段）使用。 
     
-2. 使用对象模型指定的对象、 集合或要检索数据。
+2. 使用对象模型指定要检索的对象、集合或数据。
     
-   此步骤中使用 LINQ 查询作为或方法。 规范控制您收到的内容。 通常，此步骤被嵌入作为正文 Load 方法 （第 3 步）。 
+   此步骤将 LINQ 用作查询或方法。 规范用于控制检索的内容。 通常情况下，此步骤已作为 Load 方法主体嵌入（步骤 3）。 
     
-3. 从使用 Load() 或 LoadQuery() 方法在上一步中加载检索规范。
+3. 使用 Load() 或 LoadQuery() 方法加载上一步中的检索规范。
     
-   加载集合和对象，使用 Load()。 为查询子句，如"位置"和"组"，使用 LoadQuery()。 
+   对于加载集合和对象，请使用 Load()。 对于具有子句（如“where”和“group”）的查询，请使用 LoadQuery()。 
     
-4. 执行使用 ExecuteQuery() 方法的请求。
+4. 使用 ExecuteQuery() 方法执行请求。
     
-   ExecuteQuery() 方法通知宿主准备好执行的查询。 一旦主机接收通知时，它将执行查询并将结果发送到客户端。 
+   ExecuteQuery() 方法将在可执行查询时通知主机。 收到通知后，主机将执行查询并将结果发送至客户端。 
     
-在客户端的信息，该应用程序可以使用它。 下面的代码段的已发布项目中循环，并在主机上打印的 Id 和为每个已发布项目的名称。
+客户端收到结果信息之后，应用程序即可使用该信息。 下面的代码片段将会循环显示已发布的项目，并打印主机上每个已发布项目的 ID 和名称。
   
 ```cs
 // Get the list of projects in Project Web App.
@@ -259,25 +259,25 @@ Published Project count:2
 
 ### <a name="make-a-request"></a>发出请求
 
-使用上一代码片段中的操作，应用程序检索中指定的帐户承载网站上的项目列表。 
+通过使用上一代码片段中的操作，应用程序可以在托管网站上检索指定账户中的项目列表。 
   
-1. ProjectContext 指定列出的项目。 
+1. ProjectContext 已指定为要列出的项目。 
     
    ```cs
     var projects = projContext.Projects;
    ```
 
-2. 指定要检索的项。 
+2. 指定要检索的项目。 
     
    ```cs
     projContext.Load(projects);
    ```
 
-   通过仅说明集合，该服务器检索填充的默认属性集值的每个项目的项目集合。 访问属性的默认属性集的一部分提供成功的结果。 访问不是默认的一部分的属性设置将导致一个"未初始化"例外项。
+   只需指定集合，服务器即可检索项目集合，并用默认属性集中的值填充每个项目。 如果访问的属性是默认属性集的一部分，则获得成功结果。 如果访问的属性不是默认属性集的一部分，则会出现“未初始化”异常。
     
 3. 加载请求 (projContext.Load)。
     
-   这是在上一步的一部分。
+   这是上一步骤的一部分。
     
 4. 执行查询 (ExecuteQuery)。 
     
@@ -287,7 +287,7 @@ Published Project count:2
 
 ### <a name="retrieve-high-level-project-information"></a>检索高级项目信息
 
-不是必须到服务器请求中指定的默认属性的属性。 下面的代码段加载与前面的示例的项目集上下文。 然后，规范请求要在结果中包括的其他非默认属性。 
+必须在发送到服务器的请求中指定非默认属性的属性。 在上一示例中，下一代码片段将加载项目集合上下文。 然后，规范将会请求要包括在结果中的其他非默认。 
   
 ```cs
 var projects = projContext.Projects;
@@ -298,7 +298,7 @@ projContext.ExecuteQuery();
 
 ```
 
-Load 语句指定的项目集上下文，并将阶段，StartDate 和阶段添加到查询结果。 其他属性可以是标量，对象或集合。 可以直接访问标量项目。 对象和集合需要进行其他处理，如下面的代码片段中所示。
+load 语句指定项目集合上下文，并将 StartDate、Phase 和 Stage 添加到查询结果中。 其他属性可以是标量、对象或集合。 可直接访问标量项。 对象和集合需要按照以下代码片段所示进行额外的处理。
   
 ```cs
 // Using the previous definition and Load statement …
@@ -343,7 +343,7 @@ Console.WriteLine("\n\t{0}. \t{1} \n\t{2} \n\t{3} \n", j++, pubProj.Id, pubProj.
 
 ```
 
-前三个项目的输出：
+前三个项目输出：
   
 ```cs
 Project counts:31
@@ -367,7 +367,7 @@ Project counts:31
 
 ### <a name="retrieve-all-tasks-in-a-project"></a>检索项目中的所有任务
 
-每个项目中有多个任务。 因此，将单个项目的任务以下内容组成：
+每个项目都包含许多个任务。 因此，拉取单个项目中的任务包含以下几个步骤：
   
 1. 建立项目集合的上下文。
     
@@ -375,7 +375,7 @@ Project counts:31
     var projects = projContext.Projects;
    ```
 
-2. 检索的项目信息，包括任务属性。
+2. 检索项目信息，包括任务属性。
     
    ```cs
     projContext.Load(projects);
@@ -384,17 +384,17 @@ Project counts:31
     
    ```
 
-    请注意，解决应用程序已发布的项目。 当前已发布的项目的上下文是 pubProj。 
+    请注意，应用程序将对已发布的项目进行寻址。 当前已发布项目的上下文为 pubProj。 
     
-3. 建立 Tasks 集合的上下文。
+3. 建立“任务”集合的上下文。
     
    ```cs
     PublishedTaskCollection collTask = pubProj.Tasks;
    ```
 
-   `pubProj.Tasks`属性引用当前已发布的项目的任务。 
+   `pubProj.Tasks` 属性将引用当前已发布项目的任务。 
     
-4. 加载规范若要检索任务集合，包括相应的非默认属性。
+4. 加载规范以检索“任务”集合，包括相应的非默认属性。
     
    ```cs
     projContext.Load(collTask,
@@ -404,13 +404,13 @@ Project counts:31
     
    ```
 
-5. 执行查询来检索与相应的属性的任务集合。
+5. 执行查询以检索具有相应属性的“任务”集合。
     
    ```cs
     projContext.ExecuteQuery();
    ```
 
-现在，本地信息。 下面的代码段的信息写入控制台来处理发布的 tasks 集合。
+信息现已位于本地机上。 下面的代码片段通过将信息写入到控制台来处理已发布的“任务”集合。
   
 ```cs
     Console.WriteLine("Task collection count: {0}", collTask.Count.ToString());
@@ -426,7 +426,7 @@ Project counts:31
 
 ```
 
-一个项目的任务的输出：
+一个项目的任务输出：
   
 ```cs
 Task collection count: 5
@@ -443,25 +443,25 @@ Task collection count: 5
 
 ```
 
-### <a name="access-information-at-multiple-levels"></a>在多个级别的访问信息
+### <a name="access-information-at-multiple-levels"></a>访问多个级别的信息
 
-每项任务 （也可以有一个或多个人员 资源） 有影响其完成。 分配和资源的集合包含每个任务此信息。 
+每个任务中涉及一个或多个人员（a.k.a. 资源）来完成任务。 对于每个任务，“工作分配”和“资源”集合均包含此信息。 
   
-处理由以下内容组成：
+涉及以下几个处理步骤：
   
 1. 获取项目任务的上下文。
     
-2. 生成一个请求和负载绑定到任务的分配请求。 
+2. 生成请求并加载绑定到此任务的工作分配请求。 
     
-3. 执行将工作分配的查询。
+3. 执行工作分配查询。
     
-4. 生成一个请求和负载与单个工作分配关联的资源的请求。 
+4. 生成请求并加载与单个工作分配关联的资源请求。 
     
-5. 执行资源的查询。
+5. 执行资源查询。
     
 > [!NOTE] 
-> - 从服务器的信息中显式请求 Assignments 集合，因为它不是在 Tasks 集合的默认属性。 作为集合，后续查询进行拉从服务器的集合。 
-> - 资源是一个对象。 工作分配的查询包括与工作分配关联的资源名称。
+> - 已显式请求服务器信息中的“工作分配”集合，因为它不是“任务”集合的默认属性。 作为集合，可以进行后续查询以拉取服务器中的集合。 
+> - “资源”为对象。 工作分配查询包括与此工作分配关联的资源名称。
     
 ```cs
 PublishedTaskCollection collTask = pubProj.Tasks;
@@ -510,7 +510,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
 
 ```
 
-任务 52、 75 和 76 项目的输出：
+项目的任务 52、75 和 76 的输出：
   
 ```cs
 52. Id:2c729e96-54f0-e511-80c6-000d3a33235f     Name:Develop training materials
@@ -527,21 +527,21 @@ PublishedTaskCollection collTask = pubProj.Tasks;
 
 ### <a name="access-custom-enterprise-level-fields"></a>访问自定义企业级字段
 
-自定义域 for Project Online 中存在。 这些是可以与单个项目相关联的企业级字段。 本节介绍如何访问这些字段。 
+Project Online 存在自定义字段。 这些企业级字段可与单个项目关联在一起。 本节介绍如何访问这些字段。 
   
-自定义域不包含在与项目关联的属性的默认设置。 因此，他们需要检索规范中的显式标识。 概括的过程包括以下各项：
+自定义字段不包括在与项目关联的默认属性集中。 因此，它们需要检索规范中的显式标识。 此过程的高级视图有以下项目组成：
   
-1. 隧道到使用公用名称的自定义字段。
+1. 以隧道方式连接到使用公用名的自定义字段。
     
 2. 检索自定义字段的内部名称。
     
-3. 返回到全局上下文和查询使用自定义字段的内部名称的系统。
+3. 返回至全局上下文并查询使用自定义字段的内部名称的系统。
     
-#### <a name="tunnel-to-the-custom-field-retrieve-its-internal-name-and-used-it-to-query-the-system"></a>隧道到自定义字段、 检索其内部名称，并使用它来查询系统
+#### <a name="tunnel-to-the-custom-field-retrieve-its-internal-name-and-used-it-to-query-the-system"></a>以隧道方式连接到自定义字段，检索其内部名称并用其查询系统
 
-此任务指定非默认属性使用一个增加了详细信息检索。
+此任务指定使用带一条新增详细信息的非默认属性的检索。
   
-1. 开始使用项目上下文，如本文开头所述。
+1. 如本文开头所述，从使用项目上下文开始。
     
    ```cs
     // Get the list of published projects in Project Web App.
@@ -549,7 +549,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-2. 将两个项目添加到项目集合检索除了任何其他非默认属性用于检索请求：
+2. 除了要检索的任何其他非默认属性外，再向项目集合检索请求添加两个项目：
     
    ```cs
     projContext.Load(projects,
@@ -562,13 +562,13 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-   `p => p.IncludeCustomFields`子句标识需要使用支持自定义字段项目对象。 
+   `p => p.IncludeCustomFields` 子句标识需要使用支持自定义字段的项目对象。 
     
-   `p => p.IncludeCustomFields.CustomFields`子句请求包含在查询结果中的自定义字段数据。 检索自定义字段内部名称后，将使用此信息。 
+   `p => p.IncludeCustomFields.CustomFields` 子句请求将自定义字段数据包含在查询结果中。 在检索自定义字段内部名称后，将使用此信息。 
     
-3. 加载该请求。
+3. 加载请求。
     
-   这是在上一步的一部分。
+   这是上一步骤的一部分。
     
 4. 执行查询。
     
@@ -576,7 +576,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     projContext.ExecuteQuery()
    ```
 
-5. 使用此客户端上的信息，生成请求检索与当前项目关联的自定义字段。
+5. 客户端收到此信息后，构建检索与当前项目关联的自定义字段的请求。
     
    ```cs
     foreach (PublishedProject pubProj in projContext.Projects)
@@ -590,7 +590,7 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-6. 找到相应的自定义字段和检索的字段的内部名称。 
+6. 查找相应的自定义字段并检索字段的内部名称。 
     
    ```cs
         foreach (CustomField oCF in collCustF)
@@ -602,9 +602,9 @@ PublishedTaskCollection collTask = pubProj.Tasks;
     
    ```
 
-   检索自定义字段的内部名称。 高级项目 1 和 2 现在已完成。
+   检索自定义字段的内部名称。 高级项 1 和 2 现已完成。
     
-7. 返回到项目上下文并检索的自定义域的值。
+7. 返回项目上下文并检索自定义字段的值。
     
    ```cs
     Console.WriteLine("Value: {0}", 
@@ -613,9 +613,9 @@ PublishedTaskCollection collTask = pubProj.Tasks;
    ```
 
    > [!NOTE]
-   > 自定义字段的值是作为索引使用的内部名称检索的。 
+   > 将内部名称用作索引，检索自定义字段的值。 
   
-项目 ID、 项目名称、 自定义域名称、 自定义字段内部名称和自定义域值组成的三个项目的输出。
+三个项目的输出包括项目 ID、项目名称、自定义字段内部名称和自定义字段值。
   
 ```cs
 Project counts:31
@@ -639,6 +639,6 @@ Value: Red
 
 ## <a name="see-also"></a>另请参阅
 
-有关文档和与 Project Online 和使用 CSOM 的应用程序开发相关的示例，请参阅[Project 开发门户](https://developer.microsoft.com/en-us/project)。
+有关 Project Online 和使用 CSOM 进行应用程序开发的文档和示例，请参阅 [Project 开发门户](https://developer.microsoft.com/zh-CN/project)。
     
 
