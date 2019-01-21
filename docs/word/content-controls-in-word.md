@@ -4,29 +4,29 @@ manager: soliver
 ms.date: 09/10/2015
 ms.audience: Developer
 keywords:
-- 内容控件 [单词]，内容控件 [单词] 新增功能
-localization_priority: Normal
+- 内容控件 [word], 内容控件 [Word], 新增功能
 ms.assetid: c0e6dd3b-fae1-453d-a9b4-7f456b5172db
-description: 了解 Microsoft Word 2013 内容控件如何实现更大范围的结构化的文档方案。
-ms.openlocfilehash: 1b0b88da4bc3347ac6748ab57b99d45edd57558d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 了解 Microsoft Word 2013 内容控件如何启用较大范围的结构化文档方案。
+localization_priority: Priority
+ms.openlocfilehash: 4234425cc8398d87b72108d389953fc0eb802c87
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781761"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718348"
 ---
 # <a name="content-controls-in-word"></a>Word 中的内容控件
 
-了解 Microsoft Word 2013 内容控件如何实现更大范围的结构化的文档方案。
+了解 Microsoft Word 2013 内容控件如何启用较大范围的结构化文档方案。
 
-本主题提供有关在 Microsoft Word 2013 和启用这些更改的文档方案中的内容控件的更改的信息。
+本主题提供有关 Microsoft Word 2013 中内容控件的更改以及启用这些更改的文档方案的信息。
   
 ### <a name="structured-documents"></a>结构化文档
 <a name="WordCC_StructuredDocs"> </a>
 
 结构化文档是这样一种文档，控制内容可以在文档的何处显示，文档中可以显示的内容类型以及能否编辑此内容。
   
-下面是在 Microsoft Word 中的结构化内容的常见方案：
+下面是 Microsoft Word 中结构化内容的一些常见应用场景：
   
 - 法律公司需要创建一些文档，其中包含用户不应更改的法律用语。
     
@@ -34,17 +34,17 @@ ms.locfileid: "19781761"
     
 - 企业需要创建一些发票，其中客户数据包含在发票预定义区域中。
     
-### <a name="using-content-controls-to-structure-a-document"></a>使用内容控件来构建文档
+### <a name="using-content-controls-to-structure-a-document"></a>使用内容控件来整理文档
 <a name="WordCC_StructuredDocs"> </a>
 
-内容控件是充当容器的文档中的特定内容的 Microsoft Word 实体。 单个内容控件可以包含格式化文本的日期、列表或段落等内容。 内容控制帮助您创建丰富、 结构化内容块，并设计用于定义完善的块插入文档中，创建结构化的文档的模板。
+内容控件是指 Microsoft Word 实体，它们用作文档中特定内容的容器。 单个内容控件可包含诸如日期、列表或格式化文本段落之类的内容。 内容控件可以帮助你创建丰富而结构化的内容基块，这些控件设计用于在文档中插入定义明确基块的模板当中，以此创建结构化的文档。
   
 内容控件非常适合创建结构化的文档，因为内容控件可以帮助您修复内容的位置，指定内容类型（例如，日期、图片或文本），限制或启用编辑，以及将语义含义添加到内容中。
   
 ### <a name="content-controls-in-word-2010"></a>Word 2010 中的内容控件
 <a name="WordCC_StructuredDocs"> </a>
 
-以下内容控件是在 Word 2010 中可用：
+以下内容控件可以在 Word 2010 中使用：
   
 - 格式文本
     
@@ -64,16 +64,16 @@ ms.locfileid: "19781761"
     
 - 组
     
-Word 2010 内容控件启用各种潜在的结构化的文档解决方案，但内容控件在 Word 2013 中启用更大范围的应用场景。
+Word 2010 内容控件支持各种潜在的结构化文档解决方案，但在 Word 2013 中的内容控件可以支持更多的方案。
   
 ## <a name="content-control-improvements-in-word-2013"></a>Word 2013 中的内容控件改进
 <a name="WordCC_WhatsNew"> </a>
 
-内容控件在 Word 2013 中提供了三个重要改进： 改进可视化、 支持的 XML 映射格式文本内容控件和新的内容控件的重复的内容。
+在 Word 2013 中，内容控件提供了三个重要的改进：改进的可视化、支持格式文本内容控件的 XML 映射以及适用于重复内容的新内容控件。
   
 ### <a name="improved-visualization"></a>改进的可视化
 
-Word 2013 允许单个内容控件中三种可能的状态之一：
+Word 2013 允许单个内容控件以三种可能的状态之一显示：
   
 - 边界框
     
@@ -82,18 +82,18 @@ Word 2013 允许单个内容控件中三种可能的状态之一：
 - 无
     
 > [!NOTE]
-> 如果不声明，否则本部分将讨论可视化的内容控件时不在**设计模式中**查看该文档。使用**内容控件属性**对话框中**显示为**下拉列表控件设置内容控件的显示的模式。 
+> 如果不是另有声明，本节讨论了当此文档无法在“**设计模式**”下查看时，内容控件的可视化。通过使用“**内容控件属性**”对话框中的“**显示为**”下拉列表控件来设置内容控件的显示模式。 
   
 **图 1. 内容控件属性对话框**
 
 ![内容控件属性对话框](media/DK2_WordCC_Fig01.jpg "内容控件属性对话框")
   
-您还可以通过使用 Word 2013 对象模型 （在下文中[新的 Word 2013 内容控件对象模型成员](#WordCC_NewOM)讨论） 设置内容控件的显示的模式。
+你还可以通过使用 Word 2013 对象模型（稍后将在[新的 Word 2013 内容控件对象模型成员](#WordCC_NewOM)中进行讨论）来设置内容控件的显示模式。
   
 ### <a name="bounding-box"></a>边界框
 <a name="WordCC_DefaultRendering"> </a>
 
-Word 2013 中的内容控件的默认呈现是按它们出现在 Word 2007 和 Word 2010; 保留内容控件的外观即边界框。 如果内容控件设置为显示**边界框**中，具体取决于以下的用户交互的显示更改为：
+对 Word 2013 中内容控件的默认呈现是为了保留在 Word 2007 和 Word 2010 中显示的内容控件的外观；即，作为一个边界框显示。 将内容设置为显示为“**边界框**”时，显示的效果会随以下用户交互而改变：
   
 - 在内容控件没有焦点时，无可视化效果
     
@@ -101,34 +101,34 @@ Word 2013 中的内容控件的默认呈现是按它们出现在 Word 2007 和 W
     
 **图 2. 鼠标悬停在内容控件上**
 
-![通过内容鼠标上的控件](media/DK2_WordCC_Fig02.jpg "通过内容鼠标上的控件")
+![鼠标悬停在内容控件上](media/DK2_WordCC_Fig02.jpg "鼠标悬停在内容控件上")
   
 - 在内容控件有焦点时（在用户选择此内容控件时），该控件显示为“边界框”（如果设置了标题，则围绕着内容和标题显示一行）
     
 **图 3. 具有焦点的内容控件**
 
-![内容具有焦点的控件](media/DK2_WordCC_Fig03.jpg "内容具有焦点的控件")
+![具有焦点的内容控件](media/DK2_WordCC_Fig03.jpg "具有焦点的内容控件")
   
 ### <a name="startend-tags"></a>开始/结束标记
 <a name="WordCC_StartEndTags"> </a>
 
-当内容控件设置为显示为**开始/结束标记**时，无论用户交互，显示标记，然后标题永远不会显示;但位于通过鼠标按钮，如**下拉列表**按钮。 
+在设置内容控件显示为“**开始/结束标记**”时，不管用户如何交互，都会显示标记，始终不显示标题；但是在鼠标悬停时会显示按钮，如“**下拉列表**”按钮。 
   
 **图 4. 设置内容控件显示为开始/结束标记**
 
-![内容控件设置为显示开始和结束标记](media/DK2_WordCC_Fig04.jpg "内容控件设置为显示开始和结束标记")
+![设置内容控件显示为开始/结束标记](media/DK2_WordCC_Fig04.jpg "设置内容控件显示为开始/结束标记")
   
 ### <a name="none"></a>无
 <a name="WordCC_Invisible"> </a>
 
-当内容控件设置为显示为**无**时，不显示的内容控件。
+在设置内容控件显示为“**无**”时，不显示内容控件。
   
 ### <a name="content-control-colorization"></a>内容控件着色
 <a name="WordCC_CCColorization"> </a>
 
-除了启用不同种类的内容控件的显示，Word 2013 还有助于您设置单个内容控件的颜色。 在**内容控件属性**对话框中，使用**颜色**按钮设置内容控件的颜色。 
+除了支持不同的内容控件显示方式外，Word 2013 还可以帮助你设置单个内容控件的颜色。 可以使用“**内容属性**”对话框中的“**颜色**”按钮来设置内容控件的颜色。 
   
-您还可以通过使用 Word 2013 对象模型 （在下文中[新的 Word 2013 内容控件对象模型成员](#WordCC_NewOM)讨论） 设置内容控件的颜色。
+还可以通过使用 Word 2013 对象模型（稍后将在[新的 Word 2013 内容控件对象模型成员](#WordCC_NewOM)中进行讨论）来设置内容控件的颜色。
   
 **图 5. 内容控件属性对话框**
 
@@ -137,7 +137,7 @@ Word 2013 中的内容控件的默认呈现是按它们出现在 Word 2007 和 W
 ### <a name="support-for-xml-mapping-for-rich-text-content-controls"></a>支持格式文本内容控件的 XML 映射
 <a name="WordCC_XMLMapping"> </a>
 
-Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内容控件的内容映射到 XML 数据存储区。 若要执行此操作，则设置内容控件的*XML 映射*。 您可以使用对象模型中的现有**XMLMapping.SetMapping**方法设置此属性。 自定义 XML 存储中的自定义 XML 部件，如下平面 Open XML 标记转换为字符串 （通过使用标准的 XML 编码），因此，它可以存储为自定义 XML 部件中的文本节点。 但是，映射用户都继续拥有可以仅成功映射到叶节点或属性的限制。 
+Word 2013 可帮助你将格式文本内容控件和文档构建基块内容控件的内容映射到 XML 数据存储区。 若要执行此操作，你要设置用于内容控件的 *XML 映射*。 可以通过使用此对象模型中现有的 **XMLMapping.SetMapping** 方法来设置此属性。 在自定义的 XML 部件中，自定义的 XML 存储为（通过使用标准 XML 编码）转换成字符串的 Flat Open XML 标记，因此，在自定义的 XML 部件中可以将其存储为文本节点。 但是，此映射继续受到一个限制，即它只能成功映射到叶节点或属性。 
   
 > [!NOTE]
 > 格式文本内容控件不能包含其他格式文本内容控件。如果一个格式文本内容控件位于另一个格式文本内容控件之中（例如，由于文件格式操作、复制和粘贴等），则它处于未链接的状态，直到它不再包含在一个映射的格式文本控件之中。 
@@ -147,25 +147,25 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
 ### <a name="supporting-repeating-content"></a>支持重复内容
 <a name="WordCC_SupportingRepeating"> </a>
 
-除了可视化增强功能和支持的 XML 映射到格式文本内容控件，Word 2013 也添加新的内容控件，使您能够重复内容。 重复节内容控件重复所包含的内容，包括其他内容控件。
+除了可视化增强功能和支持对格式文本内容控件的 XML 映射外，Word 2013 还添加了新的内容控件，使你能够重复内容。 重复节内容控件重复所包含的内容，包括其他内容控件。
   
 您可以围绕整个段落或表行插入重复的节内容控件。一旦此控件包围一节，您可以在所包含的节的上方或下方插入该节的副本。
   
 **图 6. 重复节内容控件上下文菜单**
 
-![重复节内容控件上下文](media/DK2_WordCC_Fig06.jpg "重复节内容控件上下文")
+![重复节内容控件上下文](media/DK2_WordCC_Fig06.jpg "重复部分内容控件上下文")
   
-图 6 中所示，可以通过使用一端 （显示为带加号 （![+ 号](media/DK2_WordCC_Fig06A.jpg "加号")） 按钮） 的内容控件的控件或选择上下文菜单中，在命令重复插入部分。 重复的内容将成为一个单独的节，这样就可以分配一个标题，使用**内容控件属性**对话框中的控件。 
+你可以通过使用此内容控件结尾的控件（显示为带有一个加号（![加号](media/DK2_WordCC_Fig06A.jpg "加号")）的按钮）或通过选择上下文菜单上的命令来重复插入的节，如图 6 所示。 重复的内容成为此控件的单独一节，通过使用“**内容控件属性**”对话框，你可以为此节指定标题。 
   
 **图 7. 在内容控件属性对话框中指定节标题**
 
 ![内容控件属性对话框](media/DK2_WordCC_Fig07.jpg "内容控件属性对话框")
   
-一旦已授予部分中一个标题，如果在**内容控件属性**对话框中选择**允许用户添加和删除节**，用户可以通过添加或删除部分名称。 
+为此节指定标题后，如果在“**内容控件属性**”对话框中选择“**允许用户添加和删除节**”，则用户可以按名称来添加或删除节。 
   
 **图 8. 使用重复节内容控件上下文菜单来删除节**
 
-![重复节内容控件上下文](media/DK2_WordCC_Fig08.jpg "重复节内容控件上下文")
+![重复节内容控件上下文](media/DK2_WordCC_Fig08.jpg "重复部分内容控件上下文")
   
 当重复节内容控件包围其他内容控件时，封装的内容控件在每个新项中重复；但是任何此类内容控件都将其内容重置为占位符文本。有两个保留了子控件内容的例外情况： 
   
@@ -173,22 +173,22 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
     
 - 当子控件为 XML 映射到的重复节内容控件外部的节点时。
     
-**图 9. 重复节内容控件在重复前包含子控件**
+**图 9. 在重复前包含子控件的重复节内容控件**
 
-![重复节内容控件之前重复](media/DK2_WordCC_Fig09.jpg "重复节内容控件之前重复")
+![重复前的重复节内容控件](media/DK2_WordCC_Fig09.jpg "重复前的重复节内容控件")
   
-**图 10. 重复节内容控件在重复后包含子控件**
+**图 10. 在重复后包含子控件的重复节内容控件**
 
-![重复节内容控件后重复](media/DK2_WordCC_Fig10.jpg "重复节内容控件后重复")
+![重复后的重复节内容控件](media/DK2_WordCC_Fig10.jpg "重复后的重复节内容控件")
   
 ### <a name="repeating-section-content-controls-around-xml-mapped-controls"></a>围绕 XML 映射的控件的重复节内容控件
 <a name="WordCC_RepeatingSectionCCs"> </a>
 
-重复节中包含的 XML 映射，Word 2013 将它们映射，如下所示。
+对于重复节中所包含的 XML 映射，Word 2013 对它们的映射如下所示。
   
-如果与中的节点集作为其父链的一部分的项不相交映射，绑定是"绝对绑定"，并显示相同的内容中所有重复节项目。
+如果该映射不与作为其父链一部分的节点集中的某个项交叉，则此绑定是“绝对绑定”，并在所有的重复节项中显示相同内容。
   
-如果映射执行相交与项目中的节点集作为其父链的一部分，绑定是一个"相对绑定"，并重新映射，如下所示：
+如果该映射与作为其父链一部分的节点集中的某个项交叉，则此绑定是“相对绑定”，并重新映射，如下所示：
   
 - 确定节点的绝对绑定（延展任何查询表达式）─ 这应该在初始映射时发生
     
@@ -211,21 +211,21 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
 ### <a name="working-with-repeating-section-content-controls-that-are-mapped-to-xml-data"></a>使用映射到 XML 数据的重复节内容控件
 <a name="WordCC_RepeatingSectionCCs"> </a>
 
-如果插入重复节内容控件映射到 XML 数据，每次用户重新打开文档时，Word 将重新创建基于数据存储中的信息的重复节项。 即使保存文档时，用户在重复节项目文档中还不是映射到数据存储区进行任何更改都将丢失。
+如果你插入一个映射到 XML 数据的重复节内容控件，在用户每次重新打开此文档时，Word 会根据数据存储区中的信息，重新创建重复节项。 即使你保存了文档，用户在此没有映射到数据存储区的文档的重复节项中所做的任何更改都会丢失。
   
 若要有助于防止这种情况发生，请锁定重复节内容控件，并允许用户只在映射到 XML 的未锁定子内容控件中进行编辑。
   
 ### <a name="binding-a-repeating-section-content-control-to-a-table"></a>将重复节内容控件绑定到表
 <a name="WordCC_RepeatingSectionCCs"> </a>
 
-如果您想要重复节内容控件绑定到表，插入表*然后*插入重复节内容控件，并不是其他方法周围。 （否则，您将无法选择仅的表）。 
+如果想将重复节内容控件绑定到表，请插入表，*然后*插入重复节内容控件，而不能颠倒这两者的插入顺序。 （否则，你无法只选择表）。 
   
 ### <a name="nesting-repeating-section-content-controls-within-a-table"></a>在表中嵌套重复节内容控件
 <a name="WordCC_RepeatingSectionCCs"> </a>
 
 当添加或删除内部节的一个项时，在表中紧密地嵌套重复节内容控件（例如，当父和子的重复节内容控件的末尾位于同一单元格时）会导致删除外部重复节。
   
-如果不希望发生，可以添加一个重复节内容控件的末尾和下一行文本之间的段落标记。 若要隐藏段落标记，取消选中功能区的**主页**选项卡上的**显示/隐藏**选项。 
+你可以通过在一个重复节内容控件的末尾和下一个重复节内容控件之间添加一个段落标记来防止这一情况发生。 要隐藏段落标记，请在功能区的“**主页**”选项卡上取消选中“**显示/隐藏**”。 
   
 ### <a name="open-xml-file-format-schema-additions"></a>Open XML 文件格式架构的添加项
 <a name="WordCC"> </a>
@@ -236,27 +236,27 @@ Word 2013 可帮助您将使用格式文本内容控件和文档构建基块内�
 
 |**元素**|**说明**|
 |:-----|:-----|
-|\<w:appearance\>  <br/> |\<w:appearance\>是子元素的\<w:sdtPr\>。  <br/> 以下值对 val 属性有效：  <br/> \<w:appearance val = boundingBox|标记前添加的标记|隐藏。  <br/> 默认值为 boundingBox。  <br/> |
-|\<w:color\>  <br/> |\<w:color\>是子元素的\<w:sdtPr\>。  <br/> 此内容模型与现有的 CT_Color 复杂类型相匹配。默认值是 Word 2010 中所使用的颜色。  <br/> |
+|\<w:appearance\>  <br/> |\<w:appearance\> 是 \<w:sdtPr\> 的子元素。  <br/> 以下值对 val 属性有效：  <br/> \<w:appearance val= boundingBox|标记|已隐藏。  <br/> 默认值为 boundingBox。  <br/> |
+|\<w:color\>  <br/> |\<w:color\> 是 \<w:sdtPr\> 的子元素。  <br/> 此内容模型与现有的 CT_Color 复杂类型相匹配。默认值是 Word 2010 中所使用的颜色。  <br/> |
    
 ## <a name="new-word-2013-content-control-object-model-members"></a>新的 Word 2013 内容控件对象模型成员
 <a name="WordCC_NewOM"> </a>
 
-新的增强功能和内容控件在 Word 2013 中的新增功能，已更新 Word 对象模型，以允许的新功能集编程操作。 此外，还进行了更改为字处理文档的基础 Open XML 文件格式。
+通过 Word 2013 中内容控件的新增强功能和添加项，更新了 Word 的对象模型，以便进行新功能集的编程操作。 此外，还对 Word 处理文档的基础 Open XML 文件格式进行了更改。
   
 以下几节提供与每个内容控件增强功能相关的特定对象模型更改的详细信息。
   
 ### <a name="visualization-enhancements"></a>可视化增强功能
 <a name="WordCC_VisEnhancements"> </a>
 
-Word 2013 中的内容控件可视化增强功能包括几个对象模型新增内容。 下表列出可视化的**ContentControl**对象的新成员。 
+Word 2013 中包含多个对象模型添加项，以便实现内容控件的可视化增强功能。 下表列出了用于可视化的 **ContentControl** 对象的新成员。 
   
 **表 2. 新 ContentControl 对象成员**
 
 |**成员**|**说明**|
 |:-----|:-----|
-|. 作为**WdContentControlAppearance**的**外观** <br/> |获取或设置内容控件的可视化。  <br/> |
-|. **颜色**为**WdColor** <br/> |获取或设置内容控件的颜色。  <br/> |
+|. **Appearance** 为 **WdContentControlAppearance** <br/> |获取或设置内容控件的可视化。  <br/> |
+|. **Color** 为 **WdColor** <br/> |获取或设置内容控件的颜色。  <br/> |
    
 下表列出了新 **WdContentControlAppearance** 枚举中的常量。 
   
@@ -310,7 +310,7 @@ End Sub
 ### <a name="xml-mapping"></a>XML 映射
 <a name="WordCC_XMLMappingOM"> </a>
 
-Word 2013 对象模型不进行任何添加以适应格式文本映射到文档数据存储中的 XML 节点。 而是使用现有的对象模型将格式文本内容控件映射到文档数据存储区中的 XML 节点。 此外，对新包括格式文本内容控件支持专门针对 XML 映射的一部分的基础 Open XML 文件格式 WordprocessingML 架构未不进行任何更改。
+没有对 Word 2013 对象模型添加任何操作来适应将格式文本映射到文档数据存储区中的 XML 节点。 而是使用现有对象模型来将格式文本内容控件映射到文档数据存储区中的 XML 节点。 此外，没有对基础 Open XML 文件格式 WordprocessingML 架构进行任何更改，此架构作为格式文本内容控件新包含的一部分，专用于支持 XML 映射。
   
 #### <a name="code-sample"></a>代码示例
 
@@ -347,19 +347,19 @@ End Sub
 
 |**成员**|**说明**|
 |:-----|:-----|
-|**AllowInsertDeleteSection** 为 **Boolean** <br/> |获取或设置是否用户可以添加或删除节内容控件中使用用户界面。 如果不是类型重复节内容控件调用此属性，则调用将失败并显示以下错误消息:"此属性仅可与重复节内容控件。"  <br/> |
-|**RepeatingSectionItemTitle** 为 **String** <br/> |获取或设置的重复节项目上下文菜单中使用的名称。 如果不是类型重复节内容控件调用此属性，则调用将失败并:"此属性仅可与重复节内容控件。"  <br/> |
-|**InsertRepeatingSectionItemBefore** 为 **ContentControl** <br/> |添加在当前项之前的重复节项并返回新的重复节项。 如果不是重复部分项目的类型的内容控件调用此方法，则调用将失败并:"此属性仅可与重复节项内容控件。"  <br/> |
-|**InsertRepeatingSectionItemAfter** 为 **ContentControl** <br/> |当前项之后添加重复部分项目并返回新的重复节项。 如果不是重复部分项目的类型的内容控件调用此方法，则调用将失败并:"此属性仅可与重复节项内容控件。"  <br/> |
+|**AllowInsertDeleteSection** 为 **Boolean** <br/> |获取或设置用户是否可以使用 UI 添加或删除内容控件中的节。 如果对不是重复节类型的内容控件调用此属性，则调用失败并显示以下错误消息：“此属性只能用于重复节内容控件。”  <br/> |
+|**RepeatingSectionItemTitle** 为 **String** <br/> |获取或设置上下文菜单中使用的重复节项的名称。 如果对不是重复节类型的内容控件调用此属性，则调用失败并显示：“此属性只能用于重复节内容控件。”  <br/> |
+|**InsertRepeatingSectionItemBefore** 为 **ContentControl** <br/> |在当前项前面添加一个重复节项，并返回新的重复节项。 如果对不是重复节项类型的内容控件调用此方法，则调用失败并显示：“此属性只能用于重复节项内容控件。”  <br/> |
+|**InsertRepeatingSectionItemAfter** 为 **ContentControl** <br/> |在当前项后面添加一个重复节项，并返回新的重复节项。 如果对不是重复节项类型的内容控件调用此方法，则调用失败并显示：“此属性只能用于重复节项内容控件。”  <br/> |
    
-表 5 列出了 **RepeatingSectionItem** 对象的最重要成员。 
+表 5 列出了 **RepeatingSectionItem** 对象最重要的成员。 
   
 **表 5. RepeatingSectionItem 对象成员**
 
 |**成员**|**说明**|
 |:-----|:-----|
-|**Range** 为 **Range** <br/> |返回指定重复节项，但不包括开始和结束标记的区域。  <br/> |
-|**删除** <br/> |删除指定的重复节项。  <br/> |
+|**Range** 为 **Range** <br/> |返回指定重复节项的范围，不包括开始和结束标记。  <br/> |
+|**Delete** <br/> |删除指定的重复节项。  <br/> |
 |**InsertItemAfter** 为 **RepeatingSectionItem** <br/> |在指定项后面添加一个重复节项，并返回新项。  <br/> |
 |**InsertItemBefore** 为 **RepeatingSectionItem** <br/> |在指定项前面添加一个重复节项，并返回新项。  <br/> |
    
@@ -371,13 +371,13 @@ End Sub
 |:-----|:-----|
 |**Item** 为 **RepeatingSectionItem** <br/> |返回一个单独的重复节项。  <br/> |
    
-表 7 显示重复节内容控件 **WdContentControlType** 枚举的新成员。 
+表 7 显示了重复节内容控件 **WdContentControlType** 枚举的新成员。 
   
 **表 7. WdContentControlType 枚举添加项**
 
 |**常量**|**说明**|
 |:-----|:-----|
-|**wdContentControlRepeatingSection** <br/> |表示包含重复节中单个项的内容控件  <br/> |
+|**wdContentControlRepeatingSection** <br/> |表示包含重复节中单个项的内容控件。  <br/> |
    
 ### <a name="code-sample"></a>代码示例
 <a name="WordCC_RepeatingSection"> </a>
@@ -424,17 +424,17 @@ End Sub
 ### <a name="open-xml-file-format-changes-for-repeating-section-content-controls"></a>Open XML 文件格式因重复节内容控件而异
 <a name="WordCC_RepeatingSection"> </a>
 
-重复节内容控件的文件格式表示法通常使用相同的元素名称，值等作为现有的 XML 标记;但是， \<sdt\>元素表示外部重复部分容器中存在的 Word 2013 命名空间，以确保与早期版本的 Word 的兼容性。
+通常，重复节内容控件的文件格式表示形式使用与现有 XML 标记相同的元素名称、值等；但 \<sdt\> 元素表示存在于 Word 2013 命名空间中的外部重复节容器，以确保与 Word 早期版本的兼容性。
   
 使用现有的 WordprocessingML 表示形式将重复节内容控件（即包围每个单独项）中的单个重复项保存为格式文本内容控件。表 8 列出了 WordprocessingML 架构中针对重复节内容控件的新元素。
   
-**表 8. WordprocessingML 架构中针对重复节内容控件的新元素**
+**表 8. 适用于重复节内容控件的 WordprocessingML 架构中的新元素**
 
 |**元素**|**说明**|
 |:-----|:-----|
 |\<w15:repeatingSection\>  <br/> |指定一个重复节内容控件。此元素与所有其他控件类型相互排斥，且没有子元素或属性。  <br/> |
 |\<w15:repeatingSectionItem\>  <br/> |指定一个重复节项内容控件。此元素与所有其他控件类型相互排斥，且没有子元素或属性。  <br/> |
-|\<w15:doNotAllowInsertDeleteSection\>  <br/> |指定用户不能添加或删除使用 Word 2013 中的用户界面的各节。  <br/> |
+|\<w15:doNotAllowInsertDeleteSection\>  <br/> |通过使用 Word 2013 中的用户界面，指定此用户无法添加或删除节。  <br/> |
 |\<w15:sectionTitle\>  <br/> |指定重复节项（当选定此控件时，在上下文菜单中使用此重复节项）的名称。  <br/> |
    
 
