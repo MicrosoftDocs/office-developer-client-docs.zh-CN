@@ -5,70 +5,70 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- dll [excel 2007]，创建、 创建 Dll [Excel 2007]
-localization_priority: Normal
+- dll [excel 2007], 创建, 创建 DLL [Excel 2007]
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 030cdd4358d9a71841eca6acfcef6e71839e02a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
+localization_priority: Priority
+ms.openlocfilehash: 89dd7b65ad94ba2fc7e1cf3f99ee163d3003d0fe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773661"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704747"
 ---
 # <a name="developing-dlls"></a>开发 DLL
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-库是提供了一些功能和数据到可执行应用程序的已编译代码的正文。 库可为静态链接或动态链接，并且其逆文件名称扩展名.lib 和.dll 分别。 静态库 （如 C 运行时库） 链接到应用程序在编译和因此成为生成可执行文件的一部分。 应用程序需要时，通常在应用程序启动时加载 DLL。 一个 DLL 可以加载并动态链接到另一个 DLL。
+一个库表示一组经过编译的代码，为可执行应用程序提供一些功能和数据。 库可以是静态链接的，也可以是动态链接的，两种情况下通常分别具有文件扩展名 .lib 和 .dll。 静态库（例如 C 运行时库）在编译时链接到应用程序，因此成为生成的可执行文件的一部分。 应用程序在需要 DLL 时（通常是在应用程序启动时）加载 DLL。 一个 DLL 可以加载并动态链接到另一个 DLL。
   
-## <a name="benefits-of-using-dlls"></a>使用 Dll 的好处
+## <a name="benefits-of-using-dlls"></a>使用 DLL 的好处
 
-Dll 的主要优点如下所示：
+DLL 的主要好处如下：
   
-- 所有应用程序可以共享在磁盘上的一个副本。
+- 所有应用程序可以共享磁盘上的单个副本。
     
-- 应用程序的可执行文件保持在较小。
+- 应用程序的可执行文件保持较小。
     
-- 它们使大型开发项目细分。 应用程序和 DLL 开发人员只需同意及其各自的部件之间的接口。 此接口将导出 dll。
+- 它们使大型开发项目得以细分。 应用程序和 DLL 开发人员只需要就各自部分之间的接口达成一致。 此接口由 DLL 导出。
     
-- DLL 开发人员可以更新 Dll — 可能是为了使其更高效或修复 bug — 无需更新的所有应用程序使用它，前提是 DLL 的导出的接口不会更改。
+- DLL 开发人员可以更新 DLL（可能是为了提高它们的效率或修复 bug），而不必更新所有使用它的应用程序，但前提是 DLL 的导出接口不会改变。
     
-您可以使用 Dll Microsoft Excel 中添加工作表函数和命令。
+可以使用 DLL 在 Microsoft Excel 中添加工作表函数和命令。
   
-## <a name="resources-for-creating-dlls"></a>有关创建 Dll 资源
+## <a name="resources-for-creating-dlls"></a>用于创建 DLL 的资源
 
-若要创建一个 DLL，您需要以下各项：
+若要创建 DLL，你需要：
   
 - 源代码编辑器。
     
-- 编译器将变成对象代码与您的硬件兼容的源代码。
+- 一个编译器，用于将源代码转换为与硬件兼容的目标代码。
     
-- 链接器从静态库添加代码，其中使用，以及创建可执行的 DLL 文件。
+- 一个链接器，用于从静态库（如果使用）中添加代码以及创建可执行的 DLL 文件。
     
-现代集成的开发环境 (Ide)，如 Microsoft Visual Studio 中，提供所有这些操作。 他们还提供了大量的详细信息： 智能编辑器、 工具来调试代码、 工具来管理多个项目、 新项目向导和很多其他重要的工具。
+诸如 Microsoft Visual Studio 之类的现代集成开发环境 (IDE) 可提供所有这些功能。 它们还提供了大量更多功能：智能编辑器、用于调试代码的工具、用于管理多个项目的工具、新项目向导以及许多其他重要工具。
   
-您可以在多个语言版本，例如，C/c + +、 Pascal 和 Visual Basic 中创建 Dll。 假定 Excel 提供的 API 源代码，C 和 c + + 仅这两种语言视为本文档中。
+可以使用多种语言（例如，C/C++、Pascal 和 Visual Basic）创建 DLL。 鉴于 Excel 附带的 API 源代码是 C 和 C++，本文档中仅考虑这两种语言。
   
 ## <a name="exporting-functions-and-commands"></a>导出函数和命令
 
-在编译的 DLL 项目时，编译器和链接器需要知道什么函数是要导出，以便他们可以使其可用于应用程序。 本节介绍进行这种方式。
+在编译 DLL 项目时，编译器和链接器需要知道要导出哪些函数，以便使这些函数可用于应用程序。 本部分将介绍如何实现此目的。
   
-编译器编译源代码，一般情况下，这些函数的名称从更改其源代码中的外观。 他们通常执行此操作通过将添加到的开始和/或结束的名称，在进程中称为名称修饰。 您需要确保该函数导出到加载 DLL 时出错的应用程序可识别的名称。 这可能意味着告知链接器简单的导出名称相关联的修饰的名。 导出名称可以名称，如它最初出现在源代码，或其他内容。
+编译器编译源代码时，通常会根据函数在源代码中的外观更改函数的名称。 编译器通常在所谓的“名称修饰”过程中通过在名称的开头和/或结尾添加内容来实现此目的。 务必使用可由加载 DLL 的应用程序识别的名称导出函数。 这可能意味着告诉链接器将修饰的名称与更简单的导出名称相关联。 导出名称可以是最初出现在源代码中的名称，也可以是其他名称。
   
-修饰名称的方式取决于语言和编译器将指示以使函数可用，即，调用约定。 标准进程间 windows 使用 Dll 调用约定称为选择约定。 它被指在 Windows 头文件**选择**，其中使用 Win32 声明符 **__stdcall**反过来定义。
+名称的修饰方式取决于语言以及如何指示编译器使函数可用（即调用约定）。 DLL 使用的 Windows 标准进程间调用约定称为 WinAPI 约定。 此约定在 Windows 头文件中定义为 **WINAPI**，后者则是用 Win32 声明符 **__stdcall** 定义的。
   
-用于 Excel （无论是工作表函数、 宏表等效函数或用户定义的命令） DLL 导出函数应该始终使用**选择** / **__stdcall**调用约定。 它是必要 Win32 编译器中的默认设置是使用 **__cdecl**调用约定，如果未指定还定义为**WINAPIV**，如显式包含该函数的定义中的**选择**说明符。
+用于 Excel 的 DLL 导出函数（无论是工作表函数、宏表等效函数还是用户定义的命令）应始终使用 **WINAPI** / **__stdcall** 调用约定。 有必要在函数的定义中显式包含 **WINAPI** 说明符，因为 Win32 编译器中的默认设置是使用 **__cdecl** 调用约定（如果没有指定，则也定义为 **WINAPIV**）。
   
-您可以判断函数是要导出链接器和名称会能够由外部在几种方式之一：
+你可以告诉链接器要导出一个函数，并通过以下几种方式之一从外部获知函数名称：
   
-- **导出**关键字之后, 将该函数放入 DEF 文件并将设置您的 DLL 项目设置，以在链接时引用此文件。 
+- 将函数放在 DEF 文件中的 **EXPORTS** 关键字后，并设定 DLL 项目设置以便在链接时引用此文件。 
     
-- 该函数的定义中使用 **__declspec(dllexport)** 声明符。 
+- 在函数定义中使用 **__declspec(dllexport)** 声明符。 
     
-- 使用 **#pragma**预处理器指令链接器发送一条消息。 
+- 使用 **#pragma** 预处理器指令向链接器发送消息。 
     
-虽然您编译器和链接器支持这些项目可以使用所有三种方法，您应尝试导出中多个下列方法之一一个函数。 例如，假设 DLL 包含两个源代码模块、 一个 C 和一个 c + +，其中包含要导出的两个函数，**我\_C\_导出**和**我\_Cpp\_导出**分别。 为了简单起见，假设每个函数采用单个双精度数字参数，并返回同一字段数据类型。 以下各节概述了用于将每个函数导出使用每种方法的替代方法。 
+虽然项目可以使用所有这三种方法，并且编译器和链接器支持这些方法，但不应尝试以多种方式导出同一个函数。 例如，假设一个 DLL 包含两个源代码模块：一个 C 和一个 C++，它们分别包含两个要导出的函数 **my\_C\_export** 和 **my\_Cpp\_export**。 为简单起见，假设每个函数都采用单个双精度数值参数并返回相同的数据类型。 以下部分将说明如何分别使用这些方法导出每个函数。 
   
 ### <a name="using-a-def-file"></a>使用 DEF 文件
 
@@ -90,24 +90,24 @@ double WINAPI my_Cpp_export(double x)
 
 <br/>
 
-然后，DEF 文件需要包含这些行。
+DEF 文件需要包含以下行。
   
 `EXPORTS my_C_export = _my_C_export@8  my_Cpp_export`
 
 <br/>
 
-下面的**导出**语句的行的常规语法如下所示。 
+**EXPORTS** 语句后面一行的一般语法如下所示。 
   
 `entryname[=internalname] [@ordinal[NONAME]] [DATA] [PRIVATE]`
 
-请注意，已修饰 C 函数，但 DEF 文件显式强制链接器公开使用原始源代码名称 （在本例中） 的函数。 链接器隐式导出使用原始代码名称，该 c + + 函数，以便不需要在 DEF 文件中包含的修饰的名。
+请注意，C 函数已经过修饰，但 DEF 文件显式强制链接器使用原始源代码名称公开该函数（在本示例中）。 链接器使用原始代码名称隐式导出 C++ 函数，因此不必在 DEF 文件中包含修饰的名称。
   
-对于 32 位 Windows API 函数调用，C 编译函数的修饰的约定是，如下所示：**兼容**成为 _ **@ 兼容** _n_其中_n_是由所有占用小数形式表示的字节数参数，每个字节会向上舍入到最接近的四个倍数。 
+对于 32 位 Windows API 函数调用，C 编译函数的修饰约定如下：**function_name** 变为 _ **function_name@** _n_，其中 _n_ 是所有参数占用的字节数（以十进制数表示）以及每个四舍五入到最接近的四的倍数的字节数。 
   
 > [!NOTE]
-> 所有指针都是范围在 Win32 四个字节。 返回类型名称修饰时不会影响。 
+> 在 Win32 中，所有指针的宽度都是四个字节。 返回类型对名称修饰没有任何影响。 
   
-可以强制 c + + 编译器公开未修饰 c + + 函数名称括函数和任何函数原型内外部"C"{...} 阻止，此例中所示。 (在大括号**{}** 因为声明仅涉及到紧跟在它后面的函数代码块此处省略)。 
+通过在 extern "C" {…} 代码块中包含函数和所有函数原型，可以强制 C++ 编译器公开 C++ 函数的未修饰名称， 如本例中所示。 （此处省略了大括号 **{}**，因为该声明仅引用紧跟在后面的函数代码块）。 
   
 ```cpp
 extern "C"
@@ -119,7 +119,7 @@ double WINAPI my_undecorated_Cpp_export(double x)
 
 ```
 
-当您将无法 C 或 c + + 源文件中包含的头文件中放置 C 函数原型时，应该包括以下预处理器指令。
+将 C 函数原型放在可包含在 C 或 C++ 源文件中的头文件内时，应包含以下预处理器指令。
   
 ```cpp
 #ifdef __cplusplus
@@ -134,7 +134,7 @@ double WINAPI my_Cdecorated_Cpp_export(double x);
 
 ### <a name="using-the-declspecdllexport-declarator"></a>使用 __declspec(dllexport) 声明符
 
-**__Declspec(dllexport)** 关键字可在函数的声明，如下所示。 
+可在如下所示的函数声明中使用 **__Declspec(dllexport)** 关键字。 
   
 ```cpp
 __declspec(dllexport) double WINAPI my_C_export(double x)
@@ -144,9 +144,9 @@ __declspec(dllexport) double WINAPI my_C_export(double x)
 }
 ```
 
-必须在声明的最左侧添加 **__declspec(dllexport)** 关键字。 此方法的优点是函数不需要在 DEF 文件中，列出和导出状态适合进行定义。 
+必须在声明的最左侧添加 **__declspec(dllexport)** 关键字。 这种方法的优点是该函数不需要在 DEF 文件中列出，并且导出状态与定义一致。 
   
-如果您想要避免进行提供 c + + 名称修饰 c + + 函数，您必须按如下方式声明函数。
+如果要避免使用 C++ 名称修饰来提供 C++ 函数，必须按如下方式声明函数。
   
 ```cpp
 extern "C"
@@ -157,13 +157,13 @@ __declspec(dllexport) double WINAPI my_undecorated_Cpp_export(double x)
 }
 ```
 
-链接器将使该函数可用作 my_undecorated_Cpp_export，即，名称与无修饰源代码中所示。
+链接器将使该函数显示为 my_undecorated_Cpp_export，即源代码中显示的名称，没有任何修饰。
   
 ### <a name="using-a-pragma-preprocessor-linker-directive"></a>使用 #pragma 预处理器链接器指令
 
-最新版本的 Microsoft Visual Studio 支持两个预定义的宏，在与 **#pragma**指令一起使用时，使您能够让链接器导出函数代码中的直接从函数。 宏是__函数__和__FUNCDNAME__ （请注意两端双下划线） 它们分别扩展到未修饰和修饰函数名称。 
+最新版本的 Microsoft Visual Studio 支持两个预定义的宏，当这些宏与 **#pragma** 指令结合使用时，可以指示链接器直接从函数代码中导出函数。 这些宏为 __FUNCTION__ 和 __FUNCDNAME__（注意两端的双下划线），它们分别扩展为未修饰和修饰的函数名称。 
   
-例如，当您使用 Microsoft Visual Studio，这些行可以合并到常见的头文件，如下所示。
+例如，使用 Microsoft Visual Studio 时，这些行可以合并到一个公共头文件中，如下所示。
   
 ```cpp
 #if _MSC_VER > 1200 // Later than Visual Studio 6.0
@@ -174,7 +174,7 @@ __declspec(dllexport) double WINAPI my_undecorated_Cpp_export(double x)
 
 ```
 
-如果源文件中包含此标头，两个示例函数可将其导出，如下所示。
+如果此标头包含在源文件中，则可以按如下方式导出这两个示例函数。
   
 C 代码：
   
@@ -187,7 +187,7 @@ double WINAPI my_C_export(double x)
 }
 ```
 
-C + + 代码：
+C++ 代码：
   
 ```cpp
 double WINAPI my_Cpp_export(double x)
@@ -198,12 +198,12 @@ double WINAPI my_Cpp_export(double x)
 }
 ```
 
-请注意，指令必须放置在函数的正文和仅展开时都不 **/EP**或 **/P**设置的编译器选项。 此方法删除需要 DEF 文件或 **__declspec(dllexport)** 声明，并保留功能代码其导出状态的规范。 
+请注意，该指令必须放在函数体内，并且只有在编译器选项 **/EP** 和 **/P** 均未设置时才会扩展。 此方法不需要 DEF 文件和 **__declspec(dllexport)** 声明，并使用函数代码保持其导出状态的指定。 
   
 ## <a name="see-also"></a>另请参阅
 
 - [在 Excel 中访问 DLL](how-to-access-dlls-in-excel.md)
 - [从 DLL 或 XLL 调用 Excel](calling-into-excel-from-the-dll-or-xll.md)
-- [Excel Programming Concepts](excel-programming-concepts.md)
-- [Developing Excel XLLs](developing-excel-xlls.md)
+- [Excel 编程概念](excel-programming-concepts.md)
+- [开发 Excel XLL](developing-excel-xlls.md)
 

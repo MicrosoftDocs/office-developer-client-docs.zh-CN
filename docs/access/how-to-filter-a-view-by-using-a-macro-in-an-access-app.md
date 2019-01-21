@@ -4,29 +4,29 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
-description: 了解如何使用 RequeryRecords 宏操作和数据宏筛选 Access 应用程序中的视图。
-ms.openlocfilehash: 7ce65ef0c04fe91334d00649810c608cdab2f310
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: 了解如何在 Access 应用程序中使用 RequeryRecords 宏操作和数据宏来筛选视图。
+localization_priority: Priority
+ms.openlocfilehash: 861851a3497f290fe0bcda38e51794194fbe7bbe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390406"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726398"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>通过在 Access 应用程序中使用宏来筛选视图
 
-了解如何使用 RequeryRecords 宏操作和数据宏筛选 Access 应用程序中的视图。
+了解如何在 Access 应用程序中使用 RequeryRecords 宏操作和数据宏来筛选视图。
   
 > [!IMPORTANT]
-> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/zh-CN/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
 
-Access 应用程序中的默认列表视图，可以筛选的字段中包含的值的问题。 可能想要筛选通过匹配值基于一组条件，而不是视图的实例。 为此，您必须创建宏。 本文演示如何创建用于筛选视图以显示位于以前到期或截止随后 7 天的任务的宏。
+通过 Access 应用程序中的默认列表视图，你可以筛选字段中包含的值问题。 在某些情况下，你可能希望根据一组条件来筛选视图，而不是通过匹配值来进行筛选。 为此，你必须创建一个宏。 本文介绍如何创建用于筛选视图的宏，以显示将在未来 7 天内过期或到期的任务。
   
-## <a name="prerequisites-for-building-an-app-with-access"></a>构建具有访问权限的应用程序的先决条件
+## <a name="prerequisites-for-building-an-app-with-access"></a>使用 Access 构建应用程序的先决条件
 <a name="Access2013FilterViewByUsingMacro_Prerequisites"> </a>
 
-若要遵循此示例中的步骤，您需要：
+若要按照此示例中的步骤操作，你需要：
   
 - Access 2013
 - SharePoint 2013 开发环境
@@ -37,235 +37,235 @@ Access 应用程序中的默认列表视图，可以筛选的字段中包含的�
 ## <a name="create-the-app"></a>创建应用程序
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
 
-假设您想要创建的跟踪任务为您的业务应用程序访问。 在开始创建的表和视图之前，您应搜索架构的模板。
+假设你想创建一个 Access 应用程序，用于跟踪企业的任务。 在开始创建表和视图之前，你应该搜索一个架构模板。
   
-### <a name="to-create-the-task-tracking-app"></a>若要创建跟踪应用程序的任务
+### <a name="to-create-the-task-tracking-app"></a>创建任务跟踪应用程序
 
-1. 打开 Access 并选择 **"自定义 Web 应用程序"**。
+1. 打开 Access 并选择“**自定义 Web 应用程序**”。
     
-2. 输入你的应用的名称和 Web 位置。 你也可以从“位置”**** 列表中选择一个位置并选择“创建”****。
+2. 输入你的应用的名称和 Web 位置。 你也可以从“**位置**”列表中选择一个位置并选择“**创建**”。
     
-3. 在**搜索**框中键入**任务**，然后按 ENTER。 
+3. 在“**搜索**”框中键入**任务**，然后按 ENTER。 
     
-    图 1 中显示的可能很有用跟踪任务的模板的列表。
+    图 1 显示了一个可能对跟踪任务有用的模板列表。
     
-   **图 1。与任务搜索相匹配的模板**
+   **图 1. 与任务搜索相匹配的模板**
 
    ![与问题搜索相匹配的模板](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "与问题搜索相匹配的模板")
   
-4. 选择**任务**。
+4. 选择“**任务**”。
     
-Access 创建一系列表和视图。
+Access 将创建一组表和视图。
   
-输入您的应用程序中的几个示例任务和员工。 若要执行此操作，选择**启动应用程序**在 web 浏览器中打开应用程序。 在**截止日期**字段中输入一个值，为每项任务。 完成后，返回到 Access。 
+在你的应用程序中输入几个示例任务和员工。 为此，单击“**启动应用程序**”以在 Web 浏览器中打开应用程序。 在每个任务的“**截止日期**”字段中输入一个值。 完成后返回到 Access。 
   
-## <a name="plan-the-customizations"></a>规划自定义项
+## <a name="plan-the-customizations"></a>计划自定义项
 <a name="Access2013FilterViewByUsingMacro_PlanCustomizations"> </a>
 
-现在，您可以包含多个任务的应用程序。 默认视图，可搜索的任何任务使用视图中显示的字段中存储的项目。 例如，您可以搜索高优先级的问题或正在进行中的问题。 假设您想要设置您的工作，通过显示的未到期在下一周中解决问题的优先级。 若要执行此操作，您应创建用户界面 (UI) 宏。
+现在，你拥有包含多个任务的应用程序。 通过默认视图，你可以使用在视图所示字段中存储的条目来搜索任何任务。 例如，你可以搜索高优先级问题或正在处理的问题。 假设你希望通过显示将于下周到期的活动问题来确定工作的优先级。 为此，你应该创建用户界面 (UI) 宏。
   
-您可用于筛选视图的 UI 宏命令是[RequeryRecords 宏操作 （访问自定义 web 应用程序）](requeryrecords-macro-action-access-custom-web-app.md)。 **RequeryRecords**宏操作的筛选器基于*其中*参数，它提供一个 SQL WHERE 子句的窗体中的视图。 筛选的视图，必须提供若干事实以特定格式筛选的视图。 
+可用于筛选视图的 UI 宏命令是 [RequeryRecords 宏操作（Access 自定义 Web 应用程序）](requeryrecords-macro-action-access-custom-web-app.md)。 **RequeryRecords** 宏操作根据 *Where* 参数筛选视图，该参数以 SQL WHERE 子句的形式提供。 若要筛选视图，你必须提供特定格式的多个事实来过滤视图。 
   
-相关的事实是：
+相关事实包括：
   
 - 要比较的字段
     
-- 如何引用今天的日期
+- 如何引用当天日期
     
-- 如何引用相对于今天的日期某一天
+- 如何引用相对于当天日期的特定日期
     
-- 如何确定其任务正在进行
+- 如何确定正在执行的任务
     
-**截止日期**字段提供有关时任务的截止日期信息。 **状态**字段提供有关每个任务的状态信息。 要引用在宏中的字段，请使用格式 **[*TableName*]。 [*FieldName*]**。 使用 **[任务]。 [截止日期]** 指**截止日期**字段和 **[任务]。 [状态]** 来引用**状态**字段。 
+“**截止日期**”字段提供了有关任务截止日期的信息。 “**状态**”字段提供了有关每个任务的状态信息。 若要引用宏中的字段，请使用格式 **[*TableName*].[*FieldName*]**。 使用 **[Tasks].[Due Date]** 引用“**截至日期**”字段，并使用“**[Tasks].[Status]**”引用“**状态**”字段。 
   
-[Today 函数 （访问自定义 web 应用程序）](today-function-access-custom-web-app.md)函数将返回今天的日期。 [DateAdd 函数 （访问自定义 web 应用程序）](dateadd-function-access-custom-web-app.md)函数可用于计算的日期，则一定数量的指定日期之后的天数。 
+[Today 函数（Access 自定义 Web 应用程序）](today-function-access-custom-web-app.md)函数将返回当天日期。 [DateAdd 函数（Access 自定义 Web 应用程序）](dateadd-function-access-custom-web-app.md)函数可用于计算在指定日期之后的特定天数的日期。 
   
-**状态**字段包含多个可能的值。 **已完成**的值表示任务不再处于活动状态。 
+“**状态**”字段包含几个可能的值。 值“**已完成**”表示任务不再处于活动状态。 
   
-可以将这些事实结合到下面的 SQL WHERE 子句。
+这些事实可以组合到以下 SQL WHERE 子句中。
   
 ```sql
 [Tasks].[Due Date]<DateAdd(Day,7,Today()) AND [Tasks].[Status]<>"Completed"
 ```
 
-在宏中使用此 SQL WHERE 子句筛选的视图，显示在下一步 7 天内到期或已到期解决问题。
+在宏中使用此 SQL WHERE 子句来筛选视图，以显示将在未来 7 天内到期或过期的活动问题。
   
-若要运行的 UI 宏，它必须附加到的项目或在视图中发生的事件。 **操作栏**是方便地向视图中添加自定义命令。 **操作栏**是可自定义工具栏出现在每个视图的顶部。 默认情况下，**操作栏**包含按钮添加、 编辑、 保存、 删除和取消编辑。 您可以添加执行自定义操作，如筛选视图的按钮。 
+若要运行 UI 宏，必须将其附加到视图中出现的项目或事件。 **操作栏**是向视图添加自定义命令的便捷位置。 **操作栏**是可自定义的工具栏，显示在每个视图的顶部。 默认情况下，**操作栏**包含用于添加、编辑、保存、删除和取消编辑的按钮。 你可以添加用于执行自定义操作的按钮，例如筛选视图。 
   
-如果视图包含符合指定的条件的记录，然后**RequeryRecords**筛选视图。 但是，如果视图不包含任何记录符合条件，比一个新的空白记录显示。 如果您不希望如果没有任务的截止下一周显示空白记录，您必须找到检查任务之前调用**RequeryRecords**宏操作的方法。 若要执行此操作，创建要检查的满足条件的记录的数据宏。 
+如果视图包含符合指定条件的记录，则 **RequeryRecords** 会筛选该视图。 但是，如果视图不包含符合条件的记录，则会显示新的空白记录。 如果你希望在没有将于下周到期的任务时不要显示空白记录，则必须在调用 **RequeryRecords** 宏操作之前找到检查任务的方法。 为此，请创建数据宏以检查符合条件的记录。 
   
-UI 宏将调用数据宏，将尝试查找的下一周截止任务。 如果数据宏查找任务，则自定义应用程序。
+UI 宏将调用数据宏，后者会尝试查找将于下周到期的任务。 如果数据宏找到任务，则会自定义应用程序。
   
 ## <a name="customize-the-app"></a>自定义应用程序
 <a name="Access2013FilterViewByUsingMacro_CustomizeApp"> </a>
 
-现在，您已确定自定义项，实现它们。 应首先创建数据宏。 某些数据宏直接连接到表。 但是，此数据宏为独立的数据宏。
+现在，你已确定自定义项，请实现它们。 应该先创建数据宏。 某些数据宏将直接附加到表。 但是，此数据宏是独立的数据宏。
   
-### <a name="to-create-the-data-macro"></a>若要创建数据宏
+### <a name="to-create-the-data-macro"></a>创建数据宏
 
 1. 在 Access 中打开应用程序。
     
-2. 在“创建”**** 组中，依次选择“高级”****、“数据宏”****。
+2. 在“**创建**”组中，依次选择“**高级**”、“**数据宏**”。
     
-    在宏设计视图中打开一个空白数据宏。
+    此时将在宏设计视图中打开一个空白数据宏。
     
-3. 从**添加新操作**列表框中，选择**LookupRecord**。
+3. 从“**添加新操作**”列表框中，选择 **LookupRecord**。
     
-4. 在查找 Up A 记录列表框**中**，选择**任务**。
+4. 在“**查找所选对象中的记录**”列表框中，选择“**任务**”。
     
-5. 在**Where 条件**框中，输入 **[任务]。 [截止日期]\<DateAdd(Day,7,Today()) 和 [任务]。[状态]\< \>"完成"**。 
+5. 在“**Where 条件**”框中，输入 **[Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**。 
     
-6. 从**添加新操作**列表框中选择**SetReturnVar** 。 
+6. 从“**添加新操作**”列表框中选择 **SetReturnVar**。 
     
     > [!NOTE]
-    > 您将看到两个**添加新操作**列表框， **LookupRecord**块，和其他外部**LookupRecord**块内的一个。 图 1 中所示，您应选择在**LookupRecord**块中，**添加新操作**列表框。 
+    > 你将看到两个“**添加新操作**”列表框，一个在 **LookupRecord** 块之内，另一个在 **LookupRecord** 块之外。 你应该选择 **LookupRecord** 块之内的“**添加新操作**”列表框，如图 1 所示。 
   
-   **图 1。添加新操作列表框**
+   **图 1.“添加新操作”列表框**
 
    ![“添加新操作”下拉列表](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "“添加新操作”下拉列表")
   
-7. 在**名称**框中，输入**TaskFound**。 
+7. 在“**名称**”框中，输入 **TaskFound**。 
     
-8. 在**表达式**框中，输入 **"是"**。 
+8. 在“**表达式**”框中，输入“**是**”。 
     
-9. 选择“保存”****。 在**宏名称**框中输入**TasksDueSoon** ，然后选择**确定**。
+9. 选择“**保存**”。 在“**宏名称**”框中输入 **TasksDueSoon**，然后选择“**确定**”。
     
-    宏应类似于图 2 所示的宏。
+    宏应类似于图 2 中所示的宏。
     
-   **图 2。TasksDueSoon 数据宏**
+   **图 2. TasksDueSoon 数据宏**
 
    ![TasksDueSoon 数据宏](media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg "TasksDueSoon 数据宏")
   
 10. 关闭宏设计视图。
     
-现在，我们已准备好自定义按钮添加到操作栏。
+现在，我们已准备好向操作栏添加自定义按钮。
   
-### <a name="to-add-a-custom-button-to-the-action-bar"></a>将自定义按钮添加到操作栏
+### <a name="to-add-a-custom-button-to-the-action-bar"></a>向操作栏添加自定义按钮
 
-1. 选择**任务**表。 这会选择的任务列表表单。 
+1. 选择“**任务**”表。 此操作会选择任务列表表单。 
     
-2. 在视图选择器中，依次选择“列表”****、“设置/操作”图标****、“编辑”****。
+2. 在视图选择器中，依次选择“**列表**”、“**设置/操作**”图标、“**编辑**”。
     
-    在设计视图中打开视图。
+    视图将在“设计视图”中打开。
     
-3. 现在，我们已准备好自定义按钮添加到操作栏。 为此，请选择**添加自定义操作**，如图 3 所示。 
+3. 现在，我们已准备好向操作栏添加自定义按钮。 若要执行此操作，请选择“**添加自定义操作**”，如图 3 中所示。 
     
-   **图 3。添加自定义操作按钮**
+   **图 3. 添加自定义操作按钮**
 
    ![添加自定义操作按钮](media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg "添加自定义操作按钮")
   
-    新操作显示为具有星形图标的按钮，如图 4 中所示。
+    新操作显示为带有星形图标的按钮，如图 4 中所示。
     
-   **图 4。新操作栏按钮**
+   **图 4. 新的操作栏按钮**
 
-   ![新操作栏按钮](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg "新操作栏按钮")
+   ![新的操作栏按钮](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg "新的操作栏按钮")
   
-4. 选择自定义操作栏按钮，，然后选择**数据**图标。 
+4. 选择自定义操作栏按钮，然后选择“**数据**”图标。 
     
-    出现**数据**对话框。 
+    此时将显示“**数据**”对话框。 
     
-5. 在**控件名称**框中，输入**FilterTasks**。 
+5. 在“**控件名称**”框中，输入 **FilterTasks**。 
     
-6. 在**工具提示**框中，输入**显示任务以前到期或截止在下个星期**。 
+6. 在“**工具提示**”框中，输入“**显示将于下周过期或到期的任务**”。 
     
-现在，我们已准备好创建将筛选视图的 UI 宏。
+现在，我们已准备好创建用于筛选视图的 UI 宏。
   
-### <a name="to-create-the-ui-macro-to-filter-the-view"></a>若要创建要筛选的视图的 UI 宏
+### <a name="to-create-the-ui-macro-to-filter-the-view"></a>创建用于筛选视图的 UI 宏
 
-1. 在**数据**对话框中，选择**在单击**图 5 中所示。 
+1. 在“**数据**”对话框中，选择 **On Click**，如图 5 中所示。 
     
-   **图 5。数据对话框**
+   **图 5.“数据”对话框**
 
-   ![数据对话框](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg "数据对话框")
+   ![“数据”对话框](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg "“数据”对话框")
   
-    在宏设计视图中打开一个空的 UI 宏。
+    将在宏设计视图中打开一个空白 UI 宏。
     
-2. 从**添加新操作**列表框中，选择**RunDataMacro**。 
+2. 从“**添加新操作**”列表框中，选择 **RunDataMacro**。 
     
-3. 在宏名称框中，输入**TasksDueSoon**。 
+3. 在“宏名称”框中，输入 **TasksDueSoon**。 
     
-    在**SetLocalVar**框中，输入**FilterRecords**。 
+    在 **SetLocalVar** 框中，输入 **FilterRecords**。 
     
-    **RunDataMacro**操作调用我们之前创建**TasksDueSoon**数据宏，并将其结果存储在名为**FilterRecords**的变量。 
+    **RunDataMacro** 操作将调用我们之前创建的 **TasksDueSoon** 数据宏，并将其结果存储在名为 **FilterRecords** 的变量中。 
     
-4. 从**添加新操作**列表框中，选择**如果**。 
+4. 从“**添加新操作**”列表框中，选择 **If**。 
     
-5. 在**如果**框中，输入 **[FilterRecords] ="Yes"**。 
+5. 在 **If** 框中，输入 **[FilterRecords]="Yes"**。 
     
-6. 从**添加新操作**列表框中，选择**RequeryRecords**。 
+6. 从“**添加新操作**”列表框中，选择 **RequeryRecords**。 
     
     > [!NOTE]
-    > 您将看到两个**添加新操作**列表框，一个**If**块中，和其他外部**If**块中。 应选择**If**块中，在**添加新操作**列表框，如图 6 所示。 
+    > 你将看到两个“**添加新操作**”列表框，一个在 **If** 块之内，另一个在 **If** 块之外。 你应该选择 **If** 块之内的“**添加新操作**”列表框，如图 6 中所示。 
   
-   **图 6。添加新操作列表框**
+   **图 6.“添加新操作”列表框**
 
    ![“添加新操作”下拉列表](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "“添加新操作”下拉列表")
   
-7. 在**位置**框中，输入 **[任务]。 [截止日期]\<DateAdd(Day,7,Today()) 和 [任务]。[状态]\< \>"完成"**。 
+7. 在 **Where** 框中，输入 **[Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**。 
     
-8. 在**Order By**框中，输入 **[截止日期]**。 
+8. 在“**排序依据**”框中，输入 **[Due Date]**。 
     
-9. 选择**添加 Else**链接，如图 7 中所示显示**添加新操作**框的右侧。 
+9. 选择“**添加新操作**”框右侧显示的“**添加 Else**”链接，如图 7 中所示。 
     
-   **图 7。添加 Else 链接**
+   **图 7. 添加 Else 链接**
 
    ![添加 Else 链接](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "添加 Else 链接")
   
-    Else 子句添加到 If 块。
+    一个 Else 子句将添加到 If 块。
     
-10. 从**添加新操作**列表框中，选择**MessageBox**。 
+10. 从“**添加新操作**”列表框中，选择 **MessageBox**。 
     
-11. 在**消息**框中，输入**没有任务的过期或内到期且随后 7 天 ！**。 
+11. 在“**消息**”框中，输入“**在未来 7 天内没有过期或到期的任务！**”。 
     
-12. 选择“保存”****。
+12. 选择“**保存**”。
     
     宏应类似于图 8 中所示的宏。
     
-    **图 8。用于筛选视图的 UI 宏**
+    **图 8. 用于筛选视图的 UI 宏**
 
     ![用于筛选视图的 UI 宏](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg "用于筛选视图的 UI 宏")
   
 13. 关闭宏设计视图。
     
-此时，我们已创建要显示的紧急任务的任务列表视图的筛选器的 UI 宏。 它不会有礼貌将视图保留在筛选状态，而不需要提供方法要删除筛选器。 若要执行此操作，添加另一个操作栏按钮和 UI 宏。
+此时，我们已经创建了 UI 宏，用于筛选“任务列表”视图以显示紧急任务。 让视图保持筛选状态而不提供删除筛选器的方法似乎有些不妥。 为此，请添加另一个操作栏按钮和 UI 宏。
   
-### <a name="to-add-an-action-bar-button-to-remove-the-filter"></a>若要删除筛选器操作栏按钮添加
+### <a name="to-add-an-action-bar-button-to-remove-the-filter"></a>添加操作栏按钮以删除筛选器
 
-1. 选择**添加自定义操作**。
+1. 选择“**添加自定义操作**”。
     
-    新操作显示为具有星形图标的按钮
+    新操作显示为带有星形图标的按钮
     
-2. 选择自定义操作栏按钮，然后选择**数据**图标。 
+2. 选择自定义操作栏按钮，然后选择“**数据**”图标。 
     
-    出现**数据**对话框。 
+    此时将显示“**数据**”对话框。 
     
-3. 在**控件名称**框中，输入**RemoveFilter**。 
+3. 在“**控件名称**”框中，输入 **RemoveFilter**。 
     
-4. 在**工具提示**框中，输入**删除所有筛选器应用于视图**。 
+4. 在“**工具提示**”框中，输入“**删除应用于视图的所有筛选器**”。 
     
-现在，我们已准备好创建将删除窗体筛选视图的 UI 宏。
+现在，我们已准备好创建将从视图中删除筛选器的 UI 宏。
   
-### <a name="to-create-the-ui-macro-to-remove-the-filter-from-the-view"></a>若要创建要从视图中删除筛选器的 UI 宏
+### <a name="to-create-the-ui-macro-to-remove-the-filter-from-the-view"></a>创建用于从视图中删除筛选器的 UI 宏
 
-1. 在**数据**对话框中，选择**上单击**。
+1. 在“**数据**”对话框中，选择 **On Click**。
     
-    在宏设计视图中打开一个空的 UI 宏。
+    将在宏设计视图中打开一个空白 UI 宏。
     
-2. 从**添加新操作**列表框中，选择**RequeryRecords**。 
+2. 从“**添加新操作**”列表框中，选择 **RequeryRecords**。 
     
-    此时，我们将保留**其中**和**Order By**框为空。 **RequeryRecords**操作调用不带任何参数，然后从视图中删除所有筛选器。 
+    此时，我们会将 **Where** 和“**排序依据**”框留空。 然后在没有任何参数的情况下调用 **RequeryRecords** 操作，所有筛选器都将从视图中删除。 
     
-3. 选择“保存”****。
+3. 选择“**保存**”。
     
 4. 关闭宏设计视图。
     
-5. 关闭任务列表视图。 当你收到保存更改的提示时，选择“是”****。 
+5. 关闭“任务列表”视图。 当你收到保存更改的提示时，选择“**是**”。 
     
-现在，我们已准备好自定义项的文本。 选择**启动应用程序**以在 web 浏览器中打开应用程序，然后选择自定义 FilterTasks 操作栏按钮。 显示随后 7 天内到期且或以前的任何任务。 如果应用程序包含没有紧急任务，则显示一条消息。 
+现在，我们已准备好发布自定义文本。 选择“**启动应用程序**”以在 Web 浏览器中打开应用程序，然后选择自定义 FilterTasks 操作栏按钮。 此时将显示将在未来 7 天内过期或到期的任何任务。 如果应用程序不包含紧急任务，则会显示一条消息。 
   
-## <a name="conclusion"></a>结束语
+## <a name="conclusion"></a>结论
 
-您可以使用中的 UI 宏**RequeryRecords**宏操作筛选根据您选择的标准视图。 根据所需的行为，您可能要创建验证记录满足的条件，才能使用**RequeryRecords**宏操作的数据宏。 
+你可以在 UI 宏中使用 **RequeryRecords** 宏操作，以根据你选择的条件来筛选视图。 根据所需的行为，你可能需要创建数据宏以在使用 **RequeryRecords** 宏操作之前验证记录是否符合条件。 
   
 ## <a name="see-also"></a>另请参阅
 
