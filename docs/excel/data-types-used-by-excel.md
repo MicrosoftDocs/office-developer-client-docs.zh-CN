@@ -1,112 +1,112 @@
 ---
-title: 使用 Excel 数据类型
+title: Excel 使用的数据类型
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- 注册数据类型 [excel 2007]，Excel 数据类型、 [Excel 2007] 的字符串、 数字 [Excel 2007]、 数据结构 [Excel 2007]，数据类型 [Excel 2007]
-localization_priority: Normal
+- 注册数据类型 [excel 2007],Excel 数据类型,字符串 [Excel 2007],数字 [Excel 2007],数据结构 [Excel 2007],数据类型 [Excel 2007]
 ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
-description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: b32a9beb2f77c12e6b6f2c445672c717a2546386
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 适用于：Excel 2013 | Office 2013 | Visual Studio
+localization_priority: Priority
+ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773648"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710606"
 ---
-# <a name="data-types-used-by-excel"></a>使用 Excel 数据类型
+# <a name="data-types-used-by-excel"></a>Excel 使用的数据类型
 
-**适用于** Excel 2013 | Office 2013 | Visual Studio 
+**适用于**：Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Excel 交换几种 ANSI C/c + + 类型和还某些特定于 Excel 的数据结构。 这些此处提及的其他部分中，提供上下文和[xlfRegister (窗体 1)](xlfregister-form-1.md)主题中详细讨论了它们。 
+Microsoft Excel 会交换多种 ANSI C/c ++ 类型，以及一些特定于 Excel 的数据结构。 本文介绍了这些内容，为其他部分提供上下文。有关详细信息，请参阅 [xlfRegister（窗体 1）](xlfregister-form-1.md)主题。 
   
-## <a name="ansi-cc-types"></a>ANSI C/c + + 类型
+## <a name="ansi-cc-types"></a>ANSI C/C++ 类型
 
-### <a name="numbers"></a>����
+### <a name="numbers"></a>数字
 
-所有版本的 Excel 中：
+Excel 的所有版本：
   
-- 8 字节双精度值
+- 8 字节双精度
     
-- [签名] short [int]&ndash;用于**布尔**值和还整数 
+- [signed] short [int] &ndash; 用于**布尔**值及整数 
     
-- 无符号的 short [int]
+- unsigned short [int]
     
-- [签名长] int
+- [signed long] int
     
 ### <a name="strings"></a>字符串
 
-所有版本的 Excel 中：
+Excel 的所有版本：
   
-- [签名] char \* &ndash; null 结尾的字节的最多 255 个字符的字符串
+- [signed] char \* &ndash; 最多包含 255 个字符的以 null 结尾的字节字符串
     
-- 未签署的 char \* &ndash;最多 255 个字符的长度计数字节字符串
+- unsigned char \* &ndash; 最多包含 255 个字符的长度计数型字节字符串
     
-启动 Excel 2007 中：
+自 Excel 2007 起：
   
-- 未签署的短\*&ndash;达 32,767 个字符，可以是 null 结尾或长度计数的 Unicode 字符串
+- unsigned short \* &ndash; 最多包含 32,767 个字符的 Unicode 字符串，可以是以 null 结尾的或长度计数型字符串
     
-在 Excel 中的所有工作表号码存储为双精度型值，以使它不需要 （和实际上引入了小型转换开销） 声明作为交换整数类型，通过 Excel 外接程序函数。
+Excel 中的所有工作表数字均存储为双精度值，以便在与 Excel 交换整数类型时无需声明加载项函数（实际上这样产生了少量的转换开销）。
   
-如果您使用的整数类型，Excel 验证的输入中的类型，限制是，且它们失败并出现 **#NUM ！** 如果这些外部。 您要注册才能使用短 int。 实现一个**布尔**参数的函数时除外在这种情况下，任何非零输入将转换为 1，并直接通过传递零。 
+使用整数类型时，Excel 会验证输入是否在该类型的限制范围内，如果超出限制，则会失败并显示 **#NUM!** 。 注册采用使用 short int 实现的 **Boolean** 参数的函数时例外。在这种情况下，任何非零输入均转换为 1，并会直接传入零。 
   
 ## <a name="excel-specific-data-structures"></a>特定于 Excel 的数据结构
 
-所有版本的 Excel 中：
+Excel 的所有版本：
   
-- **FP**&ndash;由在给定的 Excel 版本中受支持的最大数字列支持多达包含 65356 行的二维浮点数组结构。 
+- **FP** &ndash; 二维浮点数组结构，通过给定 Excel 版本支持的最大数字列数最多可支持 65,356 行。 
     
-- **XLOPER**&ndash; （包括错误） 的所有工作表数据类型、 整数、 区域引用、 XLM 宏工作表流控件类型和内部二进制存储数据类型可以表示多类型数据结构。 
+- **XLOPER** &ndash; 可表示所有工作表数据类型（包括错误）、整数、范围引用、XLM 宏工作表流控制类型和内部二进制存储数据类型的多类型数据结构。 
     
    > [!NOTE]
-   > 字符串长度计数字节的最多 255 个字符长度的字符串表示。 
+   > 字符串表示为最多包含 255 个字符的长度计数型字节字符串。 
   
-启动 Excel 2007 中：
+自 Excel 2007 起：
   
-- **FP12**&ndash;支持所有的行和列开始在 Excel 2007 中的二维浮点数组结构。 
+- **FP12** &ndash; 自 Excel 2007 起支持所有行和列的二维浮点数组结构。 
     
-- **XLOPER12**&ndash; （包括错误） 的所有工作表数据类型、 整数、 区域引用、 XLM 宏工作表流控件类型和内部二进制存储数据类型可以表示多类型数据结构。 
+- **XLOPER12** &ndash; 可表示所有工作表数据类型（包括错误）、整数、范围引用、XLM 宏工作表流控制类型和内部二进制存储数据类型的多类型数据结构。 
     
    > [!NOTE]
-   > 字符串表示作为计算长度在内的长达 32,767 个字符的 Unicode 字符串。 
+   > 字符串表示为最多包含 32,767 个字符的长度计数型 Unicode 字符串。 
   
 ## <a name="registration-data-type-codes"></a>注册数据类型代码
 
-使用 C API 函数**xlfRegister**，它采用作为其第三个参数返回和参数的类型编码的字母字符串注册 XLL 函数。 此字符串还包含告诉 Excel 可变函数是否是线程安全 （在 Excel 2007 中从开始）、 是等效的宏工作表的信息并是否返回其结果通过修改就地参数。
+XLL 函数使用 C API 函数 **xlfRegister** 注册，该函数会将为返回类型和参数类型编码的字母字符串用作其第三个参数。 此字符串还包含用于告知 Excel 此函数是否具有以下特征的信息：可变、线程安全（自 Excel 2007 起）、等效于宏工作表、是否通过就地修改参数返回结果。
   
-下表是复制并[xlfRegister (窗体 1)](xlfregister-form-1.md)主题中的更详细地讨论。 被复制此处以便为本节的其余部分提供上下文。 例如，采用的长度计数的 Unicode 字符串 （在 Excel 2007 中从开始） 函数无法描述为采用 C %参数的类型。 
+[xlfRegister（窗体 1）](xlfregister-form-1.md)主题复制了下表，并进行了详细介绍。 此处复制该表的目的在于为其他部分提供上下文。 例如，可以将采用长度计数型 Unicode 字符串（自 Excel 2007 起）的函数描述为采用 C% 类型的参数。 
   
-|数据类型|按值传递|Ref （指针） 通过传递|注释|
+|数据类型|按值传递|按引用传递（指针）|注释|
 |:-----|:-----|:-----|:-----|
-|Boolean  <br/> |A  <br/> |L  <br/> |短 (0 = false 或 1 = true)  <br/> |
+|Boolean  <br/> |A  <br/> |L  <br/> |short（0=false 或 1=true）  <br/> |
 |double  <br/> |B  <br/> |E  <br/> ||
-|char\*  <br/> ||C F  <br/> |Null 结尾的 ASCII 字节字符串  <br/> |
-|无符号的字符\*  <br/> ||D、 G  <br/> |长度-计数 ASCII 字节字符串  <br/> |
-|未签署的短\*（在 Excel 2007 中从开始）  <br/> ||C %，F %  <br/> |Null 结尾的 Unicode 宽字符字符串  <br/> |
-|未签署的短\*（在 Excel 2007 中从开始）  <br/> ||D %，G %  <br/> |长度计数 Unicode 宽字符字符串  <br/> |
-|无符号的 short [int]  <br/> |H  <br/> ||WORD  <br/> |
-|[签名] short [int]  <br/> |I  <br/> |M  <br/> |16 位  <br/> |
-|[签名长] int  <br/> |J  <br/> |N  <br/> |32 位  <br/> |
-|数组  <br/> ||O  <br/> | 通过引用作为三个参数传递：  <br/>1.短 int\*行  <br/>2.短 int\*列  <br/>3.double\*数组  <br/> |
-|数组  <br/> （在 Excel 2007 中从开始）  <br/> ||O %  <br/> | 通过引用作为三个参数传递：  <br/>1.int\*行  <br/>2.int\*列  <br/>3.double\*数组  <br/> |
+|char \*  <br/> ||C、F  <br/> |以 null 结尾的 ASCII 字节字符串  <br/> |
+|unsigned char \*  <br/> ||D、G  <br/> |长度计数型 ASCII 字节字符串  <br/> |
+|unsigned short \*（自 Excel 2007 起）  <br/> ||C%、F%  <br/> |以 null 结尾的 Unicode 宽字符字符串  <br/> |
+|unsigned short \*（自 Excel 2007 起）  <br/> ||D%、G%  <br/> |长度计数型 Unicode 宽字符字符串  <br/> |
+|unsigned short [int]  <br/> |H  <br/> ||WORD  <br/> |
+|[signed] short [int]  <br/> |I  <br/> |M  <br/> |16 位  <br/> |
+|[signed long] int  <br/> |J  <br/> |N  <br/> |32 位  <br/> |
+|Array  <br/> ||O  <br/> | 按引用传递为三个参数：  <br/>1. short int \*行  <br/>2. short int \*列  <br/>3. double \*数组  <br/> |
+|Array  <br/> （自 Excel 2007 起）  <br/> ||O%  <br/> | 按引用传递为三个参数：  <br/>1. int \*行  <br/>2. int \*列  <br/>3. double \*数组  <br/> |
 |FP  <br/> ||K  <br/> |浮点数组结构  <br/> |
-|FP12  <br/> （在 Excel 2007 中从开始）  <br/> ||K %  <br/> |大网格浮点数组结构  <br/> |
-|XLOPER  <br/> ||P  <br/> |变量类型工作表值和阵列  <br/> |
-|||R  <br/> |值、 数组和区域引用  <br/> |
-|XLOPER12  <br/> （在 Excel 2007 中从开始）  <br/> ||Q  <br/> |变量类型工作表值和阵列  <br/> |
-|||U  <br/> |值、 数组和区域引用  <br/> |
+|FP12  <br/> （自 Excel 2007 起）  <br/> ||K%  <br/> |大型网格浮点数组结构  <br/> |
+|XLOPER  <br/> ||P  <br/> |变量类型工作表值和数组  <br/> |
+|||R  <br/> |值、数组和范围引用  <br/> |
+|XLOPER12  <br/> （自 Excel 2007 起）  <br/> ||Q  <br/> |变量类型工作表值和数组  <br/> |
+|||U  <br/> |值、数组和范围引用  <br/> |
    
-类型**C %**、 **F %**、 **D %**、 **G %**、 **K %**、 **O %**、 **Q**、 和**U**了 Microsoft Office Excel 2007 中的所有新和不支持早期版本中。 **F**、 **F %**、 **G**、 和**G %** 的字符串类型用于修改就地的参数。 时**XLOPER**或**XLOPER12**参数分别注册为**P**或**Q**的类型，Excel 就会转换简单值的单个单元格引用和数组的多单元格引用时它准备它们。 
+下列类型均是 Microsoft Office Excel 2007 新增的类型，较旧版本中不支持这些类型：**C%**、**F%**、**D%**、**G%**、**K%**、**O%**、**Q** 和 **U**。 下列字符串类型用于就地修改的参数：**F**、**F%**、**G** 和 **G%**。 如果 **XLOPER** 或 **XLOPER12** 参数分别注册为 **P** 或 **Q** 类型，当 Excel 准备这些类型时，会将单个单元格引用转换为简单值，并将多单元格引用转换为数组。 
   
-**P**和**Q**类型始终进入您函数为以下类型之一： **xltypeNum**、 **xltypeStr**、 **xltypeBool**、 **xltypeErr**、 **xltypeMulti**、 **xltypeMissing**或**xltypeNil**，但不**xltypeRef**或**xltypeSRef**因为这些始终取消引用。 
+**P** 和 **Q** 类型始终作为下列类型之一引入函数：**xltypeNum**、**xltypeStr**、**xltypeBool**、**xltypeErr**、**xltypeMulti**、**xltypeMissing** 或 **xltypeNil**，但不会作为 **xltypeRef** 或 **xltypeSRef** 引入，因为始终会取消引用这些类型。 
   
-类型**O**，实际上是在堆栈上的三个参数，引入了与 Fortran Dll 的引用传递的参数的兼容性。 它不能用于通过声明作为修改就地返回值参数并将结果放中引用的值返回除值。 键入 **%o%** 扩展 Excel 2007 中的**O**类型，以便它可以访问覆盖区域大于 Office Excel 2003 网格的数组。 
+类型 **O** 实际上是堆栈上的三个参数，是为了与 Fortran DLL 兼容而引入的，其中参数通过引用传递。 该类型不能用于返回值，除非将参数声明为就地修改返回值，并将结果置于引用值中。 **O%** 类型在 Excel 2007 中扩展 **O** 类型，使它可以访问范围大于 Office Excel 2003 网格的数组。 
   
 ## <a name="see-also"></a>另请参阅
 
 - [xlfRegister（窗体 1）](xlfregister-form-1.md)
-- [Excel Programming Concepts](excel-programming-concepts.md)
-- [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
+- [Excel 编程概念](excel-programming-concepts.md)
+- [Excel XLL SDK API 函数引用](excel-xll-sdk-api-function-reference.md)
 

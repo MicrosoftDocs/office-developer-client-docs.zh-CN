@@ -1,75 +1,75 @@
 ---
-title: 32 位和 64 位版本的 Office 之间的兼容性
+title: 32 位版 Office 与 64 位版 Office 的兼容性
 ms.date: 04/27/2016
 ms.audience: ITPro
-localization_priority: Normal
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
-description: 找出与 64 位版本的 Office 兼容 32 位版本的 Office 的方式。
-ms.openlocfilehash: eeff11f11d4f2595b7111c0233703d09b1c46651
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: 了解 32 位版 Office 如何与 64 位版 Office 保持兼容。
+localization_priority: Priority
+ms.openlocfilehash: b03323b37b242c9992c47cd737ae54f3f9bbf2ca
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390938"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712013"
 ---
-# <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>32 位和 64 位版本的 Office 之间的兼容性
+# <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>32 位版 Office 与 64 位版 Office 的兼容性
 
-找出与 64 位版本的 Office 兼容 32 位版本的 Office 的方式。
+了解 32 位版 Office 如何与 64 位版 Office 保持兼容。
   
-Office 应用程序有 32 位和 64 位版本。 
+Office 应用程序分为 32 位版和 64 位版。 
   
-64 位版本的 Office，您可以增加功能，例如，当您使用 Microsoft Excel 2010 中的大量移动多个数据。 编写 32 位代码时，您可以使用 64 位版本的 Office 作任何更改。 但是，当您编写 64 位代码，您应该确保您的代码包含特定关键词和条件编译常量，以确保了与早期版本的 Office，向后兼容的代码和正确的代码正在执行，如果您混合使用 32 位和 64 位的代码。
+使用 64 位版 Office，可以移动更多数据，从而提升功能性，例如在 Microsoft Excel 2010 中处理大量数据时。 编写 32 位代码时，可使用 64 位版 Office，无需进行任何更改。 然而，在编写 64 位代码时，应确保代码包含特定关键字和条件编译常量，以确保代码与旧版 Office 保持向后兼容性，且执行的是正确代码（如果混用 32 位和 64 位代码的话）。
   
-Office、 释放的 64 位版本中的 Visual Basic for Applications (VBA 7) 7.0 时，它适用于 32 位和 64 位应用程序。 本文中介绍的更改仅应用于 Office 的 64 位版本。 您可以使用解决方案使用 32 位版本的 Microsoft Office 启用内置的早期版本的 Office 不进一步进行修改。
+Visual Basic for Applications 7.0 (VBA 7) 是在 64 位版 Office 中发布，可用于 32 位和 64 位应用程序。 本文所述的更改仅适用于 64 位版 Office。 使用 32 位版 Microsoft Office，可使用在旧版 Office 中生成的解决方案，无需进一步修改。
   
 > [!NOTE]
-> 默认情况下，当您安装 64 位版本的 Office，您还安装 32 位版本和 64 位系统安装。 您必须明确选择 Microsoft Office 64 位版本安装选项。 
+> 默认情况下，在你安装 64 位版 Office 后，32 位版本也与 64 位系统一起安装了。 必须显式选择 Microsoft Office 64 位版本安装选项。 
   
-在 VBA 7 中，则必须更新现有 Windows API 语句 （**Declare**语句） 以使用 64 位版本。 此外，必须更新地址指针，并显示在使用这些语句的用户定义类型的窗口句柄。 更多详细信息以及在本文中的 32 位和 64 位版本和建议的解决方案之间的兼容性问题如下所述。 
+在 VBA 7 中，必须更新现有 Windows API 语句（**Declare** 语句），才能支持 64 位版本。 此外，还必须在这些语句使用的用户定义类型中更新地址指针和显示窗口句柄。 本文更详细地介绍了这一点，以及 32 位版和 64 位版之间的兼容性问题和建议解决方案。 
   
-## <a name="comparing-32-bit-and-64-bit-systems"></a>将 32 位和 64 位系统进行比较
+## <a name="comparing-32-bit-and-64-bit-systems"></a>比较 32 位和 64 位系统
 <a name="odc_office_Compatibility32bit64bit_Comparing32BitSystemsto64BitSystems"> </a>
 
-构建与 64 位版本的 Office 的应用程序可以引用比 32 位版本的较大地址空间。 这意味着，您可以使用更多物理内存数据比之前，可能会降低的开销花费注销物理内存的移动数据
+与 32 位版相比，使用 64 位版 Office 生成的应用程序可以引用更大地址空间。 也就是说，可以对数据使用比以往更多的物理内存，这样可能会减少在物理内存中移入和移出数据所需的开销
   
-除了在物理内存中引用特定的位置 （称为指针），您可以使用地址引用 （称为句柄） 的显示窗口标识符。 （以字节为单位） 的指针或句柄的大小取决于您是否使用 32 位或 64 位系统。 
+除了能够引用物理内存中的特定位置（称为“指针”）之外，还可以使用地址来引用显示窗口标识符（称为“句柄”）。 指针或句柄的大小（以字节为单位）取决于使用的是 32 位系统，还是 64 位系统。 
   
-如果您想要使用 64 位版本的 Office 中运行的现有解决方案，请注意下列选项：
+若要使用 64 位版 Office 运行现有解决方案，请注意以下几点：
   
-- 在 Office 中的本机 64 位进程中无法加载 32 位二进制文件。 此举有望时您具有现有的 Microsoft ActiveX 控件和现有外接程序是一个常见的问题。
+- Office 中的本机 64 位进程无法加载 32 位二进制文件。 这应该是在现有 Microsoft ActiveX 控件和加载项时的常见问题。
     
-- VBA 以前没有指针数据类型，因此您必须使用 32 位变量来存储指针和句柄。 现在，这些变量截断使用**Declare**语句时 API 调用返回的 64 位值。 
+- VBA 以前没有指针数据类型，因此必须使用 32 位变量来存储指针和句柄。 这些变量现在会截断在使用 **Declare** 语句时由 API 调用返回的 64 位值。 
     
-## <a name="vba-7-code-base"></a>VBA 7 基本代码
+## <a name="vba-7-code-base"></a>VBA 7 基准代码
 <a name="odc_office_Compatibility32bit64bit_IntroducingVBA7CodeBase"> </a>
 
-VBA 7 替换基本 Office 2007 和早期版本中的 VBA 代码。 VBA 7 是 32 位和 64 位 Office 版本中可用。 它提供了两个条件编译常量： 
+VBA 7 替换 Office 2007 及更低版本中的 VBA 基准代码。 VBA 7 可用于 32 位版和 64 位版 Office。 它提供以下两个条件编译常量： 
   
-- **VBA7** -有助于确保通过测试您的应用程序使用 VBA 7 或 VBA 的早期版本是否在您的代码的向后兼容性。 
+- **VBA7** - 通过测试应用程序使用的是 VBA 7 还是旧版 VBA，有助于确保代码的向后兼容性。 
     
-- **Win64**测试是否为 32 位或 64 位运行代码。 
+- **Win64** - 测试代码是运行为 32 位代码，还是运行为 64 位代码。 
     
-某些例外情况外，32 位版本的应用程序中的文档中的宏也可在 64 位版本。
+除一些例外，如果文档中的宏可用于 32 位版应用程序，也可用于 64 位版应用程序。
   
 ## <a name="activex-control-and-com-add-in-compatibility"></a>ActiveX 控件和 COM 加载项兼容性
 <a name="odc_office_Compatibility32bit64bit_ActiveXControlCOMAddinCompatibility"> </a>
 
-现有的 32 位 ActiveX 控件，不与 64 位版本的 Office 兼容。 ActiveX 控件和 COM 对象：
+现有 32 位 ActiveX 控件与 64 位版 Office 不兼容。 对于 ActiveX 控件和 COM 对象：
   
-- 如果您有自己生成的 64 位版本的源代码。
-- 如果您没有源代码，请将供应商联系以获取更新版本。
+- 若有源代码，请自行生成 64 位版本。
+- 若无源代码，请联系供应商，以获得更新后的版本。
     
-在 Office 中的本机 64 位进程中无法加载 32 位二进制文件。 这包括**MSComCtl** （TabStrip、 工具栏、 状态栏、 进度栏、 TreeView、 列表视图、 ImageList、 滑块、 ImageComboBox） 的公共控件和控件的**MSComCt2** （动画、 上下、 MonthView、 DateTimePicker，FlatScrollBar)。 这些控件安装 32 位版本的 Office 早于 Office 2010。 您需要查找现有 VBA 解决方案迁移到 64 位版本的 Office 代码时使用这些控件的替代项。 
+Office 中的本机 64 位进程无法加载 32 位二进制文件。 这包括 **MSComCtl** 的常见控件（TabStrip、Toolbar、StatusBar、ProgressBar、TreeView、ListViews、ImageList、Slider、ImageComboBox）和 **MSComCt2** 的控件（Animation、UpDown、MonthView、DateTimePicker、FlatScrollBar）。 这些控件是由低于 Office 2010 的 32 位版 Office 进行安装。 将代码迁移到 64 位版 Office 时，必须寻找使用这些控件的现有 VBA 解决方案的替代方案。 
   
 ## <a name="api-compatibility"></a>API 兼容性
 <a name="odc_office_Compatibility32bit64bit_ApplicationProgrammingInterfaceCompatibility"> </a>
 
-VBA 和类型库的组合为您提供了大量功能来创建 Office 应用程序。 但是，有时必须与您通信直接计算机的操作系统和其他组件，如管理时内存或过程，使用用户界面元素 linke windows 和控件，或修改 Windows 注册表时。 在这些情况下，最好的选择是使用 DLL 文件中嵌入外部函数之一。 执行此操作的 API 调用使用**Declare**语句在 VBA 中。 
+通过结合使用 VBA 和类型库，可以使用许多功能来创建 Office 应用程序。 不过，有时必须直接与计算机操作系统及其他组件通信，如在管理内存或进程时、在处理窗口和控件等 UI 元素时或在修改 Windows 注册表时。 在这些情况下，最佳选择是使用 DLL 文件中嵌入的外部函数之一。 为此，在 VBA 中，可使用 **Declare** 语句执行 API 调用。 
   
 > [!NOTE]
-> Microsoft 提供的 Win32API.txt 文件包含 1,500 Declare 语句和用于复制到您的代码所需的**Declare**语句的工具。 但是，这些语句的 32 位系统，并且必须转换为 64 位使用下文中讨论的信息。 现有**Declare**语句不会在 64 位 VBA 中编译，直到将它们标记为可安全执行 64-bit 使用**PtrSafe**属性。 您可以在 Excel MVP Jan Karel Pieterse 网站，找到此类型的转换的示例[https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp)。 [Office 代码兼容性检查器用户指南](https://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx)是一个非常有用的工具，如果需要请检查**PtrSafe**属性的 API **Declare**语句的语法和相应的返回类型。 
+> Microsoft 提供了包含 1,500 条 Declare 语句的 Win32API.txt 文件，以及用于将所需 **Declare** 语句复制到代码中的工具。 不过，这些语句适用于 32 位系统，必须根据本文稍后介绍的信息转换为 64 位。 只有在使用 **PtrSafe** 属性将现有 **Declare** 语句标记为 64 位安全后，才能在 64 位 VBA 中编译这些语句。 有关此类转换的示例，可以访问 Excel MVP Jan Karel Pieterse 的网站 ([https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp))。 [Office 代码兼容性检查器用户指南](https://technet.microsoft.com/zh-CN/library/ee833946%28office.14%29.aspx)是一款实用工具，可用于检查 API **Declare** 语句的语法中是否有 **PtrSafe** 属性，以及相应的返回类型（如果需要）。 
   
-**Declare**语句类似于以下内容，具体取决于您调用的子例程 （没有返回值） 或函数 （有返回值） 之一。 
+**Declare** 语句类似于以下代码之一，具体取决于调用的是子例程（没有返回值）还是函数（有返回值）。 
   
 ```vb
 Public/Private Declare Sub SubName Lib "LibName" Alias "AliasName" (argument list)
@@ -77,9 +77,9 @@ Public/Private Declare Function FunctionName Lib "Libname" alias "aliasname" (ar
 
 ```
 
-**SubName**函数或**FunctionName**函数替换为实际的 DLL 文件中的过程的名称和表示从 VBA 代码调用该过程时使用的名称。 您还可以指定**AliasName**参数的过程的名称。 包含要调用的过程的 DLL 文件的名称都遵循**Lib**关键字。 和最后，参数列表包含的参数和必须要传递给过程的数据类型。 
+**SubName** 函数或 **FunctionName** 函数替换为 DLL 文件中过程的实际名称，并表示通过 VBA 代码调用过程时使用的名称。 还可以对过程名称指定 **AliasName** 参数。 包含正在调用过程的 DLL 文件的名称跟在 **Lib** 关键字后面。 最后，参数列表包含必须传递给过程的参数和数据类型。 
   
-下面的**Declare**语句将在 Windows 注册表中打开一个*子项*并替换其值。 
+下面的 **Declare** 语句打开 Windows 注册表中的*子项*，并替换它的值。 
   
 ```vb
 Declare Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As Long, ByVal SubKey As String, NewKey As Long) As Long
@@ -91,40 +91,40 @@ Declare Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As Long, ByVal SubKey
 LONG RegOpenKeyA ( HKEY hKey, LPCSTR lpSubKey, HKEY *phkResult );
 ```
 
-在 Visual C 和 Microsoft Visual c + + 中，上面的示例将编译正确的 32 位和 64 位。 这是因为 HKEY 被定义为的指针，其大小反映代码在编译平台的内存大小。
+在 Visual C 和 Microsoft Visual C++ 中，上一示例针对 32 位和 64 位进行了正确编译。 这是因为 HKEY 被定义为指针，它的大小反映了代码编译平台的内存大小。
   
-在早期版本的 VBA，没有任何特定指针数据类型，以便使用已**Long**数据类型。 因为**长**数据类型始终是 32 位，因为高 32 位可能被截断，或者可能覆盖其他内存地址在使用 64 位系统上使用时此分隔符。 任何一种情况会导致不可预测的行为或系统崩溃。 
+在旧版 VBA 中，由于没有具体指针数据类型，因此使用了 **Long** 数据类型。 由于 **Long** 数据类型始终是 32 位，因此在使用 64 位内存的系统中使用它时就会中断，因为上面的 32 位可能会被截断或覆盖其他内存地址。 这两种情况都可能会导致不可预测行为发生或系统故障。 
   
-若要解决此问题，VBA，包括 true*指针*数据类型： **LongPtr**。 此新的数据类型，您可以编写原始**Declare**语句正确为： 
+为了解决此问题，VBA 添加了真正的*指针*数据类型：**LongPtr**。 使用这一新数据类型，可以将原始 **Declare** 语句正确编写为： 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyA Lib "advapire32.dll" (ByVal hKey as LongPtr, ByVal lpSubKey As String, phkResult As LongPtr) As Long
 ```
 
-此数据类型和新**PtrSafe**属性，可以使用此**Declare**语句在 32 位或 64 位系统上。 **PtrSafe**属性指示 VBA 编译器**Declare**语句面向于 Office 的 64 位版本。 如果没有此属性，在 64 位系统使用**Declare**语句将导致编译时错误。 在 32 位版本的 Office 可选**PtrSafe**属性。 这使现有的**Declare**语句，以便他们始终需要具有。 
+结合使用这一数据类型和新 **PtrSafe** 属性，可以在 32 位或 64 位系统上使用此 **Declare** 语句。 **PtrSafe**属性向 VBA 编译器指明，**Declare** 语句针对的是 64 位版 Office。 如果没有这一属性，在 64 位系统中使用 **Declare** 语句会生成编译时错误。 在 32 位版 Office 中，**PtrSafe** 是可选属性。 这样一来，现有 **Declare** 语句就可以像往常一样正常运行了。 
   
-下表提供了有关新限定符和数据 typeas 以及另一种数据类型、 两个转换运算符和三个函数的详细信息。
+下表详细介绍了新限定符和数据类型以及另一种数据类型、两个转换运算符和三个函数。
   
-|类型|项|说明|
+|类型|Item|说明|
 |:-----|:-----|:-----|
-|限定符  <br/> |**PtrSafe** <br/> |指示 **Declare** 语句与 64 位兼容。此属性在 64 位系统上是必需的。<br/> |
-|数据类型  <br/> |**LongPtr** <br/> |变量数据类型，这是在 32 位版本和 64 位版本的 Microsoft Office 8 字节数据类型的 4 个字节数据类型。 这是 office 的声明指针或新代码还可以旧版代码句柄，如果它具有要在 64 位版本中运行的推荐的方法。 它只是支持在 VBA 7 运行时在 32 位和 64 位。 请注意，可以将数字值分配给它，但不是数值类型。  <br/> |
-|数据类型  <br/> |**LongLong** <br/> |这是 8 字节数据类型，这是仅在 64 位版本的 Microsoft Office 中可用。 您可以分配数值，但不是数字类型 （以避免被截断）。  <br/> |
+|限定符  <br/> |**PtrSafe** <br/> |指明 **Declare** 语句与 64 位兼容。此属性是 64 位系统中的必需属性。<br/> |
+|数据类型  <br/> |**LongPtr** <br/> |可变数据类型，在 32 位版 Microsoft Office 上为 4 字节数据类型，在 64 位版 Microsoft Office 上为 8 字节数据类型。 这是为新代码声明指针或句柄的推荐方法，也是为旧代码声明指针或句柄的推荐方法（如果必须在 64 位版 Office 中运行的话）。 只在 32 位和 64 位的 VBA 7 运行时中才受支持。 请注意，可以向它分配数值，但不能分配数值类型。  <br/> |
+|数据类型  <br/> |**LongLong** <br/> |这是 8 字节数据类型，仅在 64 位版 Microsoft Office 中可用。 可以指定数值，但不能指定数值类型（以免发生截断）。  <br/> |
 |转换运算符  <br/> |**CLngPtr** <br/> |将简单表达式转换为 **LongPtr** 数据类型。  <br/> |
 |转换运算符  <br/> |**CLngLng** <br/> |将简单表达式转换为 **LongLong** 数据类型。  <br/> |
-|函数  <br/> |**VarPtr** <br/> |变量转换器。在 64 位版本上返回 **LongPtr**，在 32 位版本上返回 **Long**（4 字节）。<br/> |
-|函数  <br/> |**ObjPtr** <br/> |对象转换器。在 64 位版本上返回 **LongPtr**，在 32 位版本上返回 **Long**（4 字节）。<br/> |
-|函数  <br/> |**StrPtr** <br/> |字符串转换器。在 64 位版本上返回 **LongPtr**，在 32 位版本上返回 **Long**（4 字节）。<br/> |
+|函数  <br/> |**VarPtr** <br/> |变体转换器。在 64 位版本上返回 **LongPtr**，在 32 位版本（4 字节）上返回 **Long**。<br/> |
+|函数  <br/> |**ObjPtr** <br/> |对象转换器。在 64 位版本上返回 **LongPtr**，在 32 位版本（4 字节）上返回 **Long**。<br/> |
+|函数  <br/> |**StrPtr** <br/> |字符串转换器。在 64 位版本上返回 **LongPtr**，在 32 位版本（4 字节）上返回 **Long**。<br/> |
    
-下面的示例演示如何在 **Declare** 语句中使用其中某些项。 
+下面的示例展示了如何在 **Declare** 语句中使用其中部分项。 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As LongPtr, ByVal SubKey As String, NewKey As LongPtr) As Long
 ```
 
-请注意，没有**PtrSafe**属性的**Declare**语句被假定不为与 64 位版本的 Office 兼容。 
+请注意，没有 **PtrSafe** 属性的 **Declare** 语句被认定为与 64 位版 Office 不兼容。 
   
-有两个条件编译常量： **VBA7**和**Win64**。 若要确保与 Microsoft Office 早期版本向后的兼容，您使用**VBA7**常量 （这是多个典型大小写） 阻止 64 位代码在早期版本的 Office 中使用。 对于不同的 32 位版本和 64 位版本，如调用其 32 位版本，使用其 64 位版本的**LongLong**的 API 和**长**数学的代码中，您将使用**Win64**常量。 下面的代码演示如何使用这两个常量。 
+有以下两个条件编译常量：**VBA7** 和 **Win64**。 为了确保与旧版 Microsoft Office 保持向后兼容性，可使用 **VBA7** 常量（这是更典型的情况），以防在旧版 Office 中使用 64 位代码。 对于因 32 位版本和 64 位版本而异的代码（如调用的数学 API 对 64 位版本使用 **LongLong**，而对 32 位版本使用 **Long**），可使用 **Win64** 常量。 下面的代码展示了如何使用这两个常量。 
   
 ```vb
 #if Win64 then
@@ -139,14 +139,14 @@ Declare PtrSafe Function RegOpenKeyA Lib "advapi32.dll" (ByVal Key As LongPtr, B
 #end if
 ```
 
-总之，如果您编写 64-bit 代码和打算在早期版本的 Office 中使用它，您需要使用**VBA7**条件编译常量。 但是，如果您在 Office 中编写 32 位代码，该代码将运行在早期版本的 Office，而无需编译常数原样。 如果您想要确保您使用的 32 位语句为 32 位版本和 64 位版本的 64 位语句，最好的选择是使用**Win64**条件编译常量。 
+总而言之，如果编写 64 位代码并打算在旧版 Office 中使用它，不妨使用 **VBA7** 条件编译常量。 不过，如果你在 Office 中编写 32 位代码，此代码的工作方式与在旧版 Office 中相同，无需编译常量。 若要确保对 32 位版本使用 32 位语句，并对 64 位版本使用 64 位语句，最佳选择是使用 **Win64** 条件编译常量。 
   
 ## <a name="using-conditional-compilation-attributes"></a>使用条件编译属性
 <a name="odc_office_Compatibility32bit64bit_UsingConditionalCompilationAttributes"> </a>
 
-下面的示例演示为需要更新的 32 位编写 VBA 代码。 请注意进行了更新以使用**LongPtr** ，因为它们引用的句柄或指针在旧的代码中的数据类型。 
+下面的示例展示了为 32 位版本编写的 VBA 代码（需要更新）。 请注意，旧代码中的数据类型更新为使用 **LongPtr**，因为它们引用句柄或指针。 
   
-### <a name="vba-code-written-for-32-bit-versions"></a>VBA 代码编写的 32 位版本
+### <a name="vba-code-written-for-32-bit-versions"></a>为 32 位版本编写的 VBA 代码
   
 ```vb
 Declare Function SHBrowseForFolder Lib "shell32.dll" _
@@ -164,7 +164,7 @@ Public Type BROWSEINFO
 End Type
 ```
 
-### <a name="vba-code-rewritten-for-64-bit-versions"></a>重写的 64 位版本的 VBA 代码
+### <a name="vba-code-rewritten-for-64-bit-versions"></a>为 64 位版本重写的 VBA 代码
   
 ```vb
 #if VBA7 then    ' VBA7 
@@ -207,19 +207,19 @@ End Sub
 
 <a name="odc_office_Compatibility32bit64bit_FrequentlyAskedQuestions"> </a>
 
-## <a name="frequently-asked-questions"></a>常见问题
+## <a name="frequently-asked-questions"></a>常见问题解答
 
-#### <a name="when-should-i-use-the-64-bit-version-of-office"></a>何时应使用 64 位版本的 Office？
+#### <a name="when-should-i-use-the-64-bit-version-of-office"></a>何时应使用 64 位版 Office？
   
-这是您使用空格 （Excel、 Word 等） 的主机应用程序的详细信息。 例如，Excel 就能够处理与 64 位版本的 Microsoft Office 量较大的工作表。
+这个问题更像是要使用哪个主机应用程序（Excel、Word 等）。 例如，如果使用 64 位版 Microsoft Office，Excel 可以处理更大的工作表。
   
-#### <a name="can-i-install-64-bit-and-32-bit-versions-of-office-side-by-side"></a>可以安装 64 位和 32 位版本的 Office 并行？
+#### <a name="can-i-install-64-bit-and-32-bit-versions-of-office-side-by-side"></a>能否并行安装 64 位版和 32 位版 Office？
   
 否。
   
-#### <a name="when-should-i-convert-long-parameters-to-longptr"></a>何时应将长的参数为 LongPtr？
+#### <a name="when-should-i-convert-long-parameters-to-longptr"></a>何时应将 Long 参数转换为 LongPtr？
   
-您需要检查您要呼叫的函数 Microsoft 开发人员网络上的 Windows API 文档。 控点和指针需要转换为**LongPtr**。 例如，文档的[RegOpenKeyA](https://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx)提供了以下签名： 
+需要查看要调用函数在 Microsoft Developer Network 上的 Windows API 文档。 必须将句柄和指针转换为 **LongPtr**。 例如，[RegOpenKeyA](https://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) 的文档提供以下签名： 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -235,21 +235,21 @@ LONG WINAPI RegOpenKeyEx(
   
 |参数|说明|
 |:-----|:-----|
-|[in] hKey  <br/> |*处理*打开注册表项。  <br/> |
-|lpSubKey [中，可选]  <br/> |要打开注册表子项的名称。  <br/> |
-|ulOptions  <br/> |此参数是保留，且必须为零。  <br/> |
-|[in] samDesired  <br/> |指定到项的所需的访问权限掩码。  <br/> |
-|phkResult [out]  <br/> |指向一个变量来接收打开密钥的句柄的*指针*。  <br/> |
+|hKey [in]  <br/> |打开注册表项的*句柄*。  <br/> |
+|lpSubKey [in, optional]  <br/> |要打开的注册表子项的名称。  <br/> |
+|ulOptions  <br/> |此为保留参数，且必须为零。  <br/> |
+|samDesired [in]  <br/> |指定所需密钥访问权限的掩码。  <br/> |
+|phkResult [out]  <br/> |指向接收已打开密钥的句柄的变量的*指针*。  <br/> |
    
-在[Win32API_PtrSafe.txt](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b)， **Declare**语句被定义为： 
+在 [Win32API_PtrSafe.txt](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b) 中，**Declare** 语句的定义如下： 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
 ```
 
-#### <a name="should-i-convert-pointers-and-handles-in-structures"></a>应将转换指针和结构中的句柄？
+#### <a name="should-i-convert-pointers-and-handles-in-structures"></a>是否应在结构中转换指针和句柄？
   
-能。 请参阅 Win32API_PtrSafe.txt 中的**MSG**类型： 
+是。 请参阅 Win32API_PtrSafe.txt 中的 **MSG** 类型： 
   
 ```vb
 Type MSG
@@ -262,13 +262,13 @@ Type MSG
 End TypeF
 ```
 
-#### <a name="when-should-i-use-strptr-varpt-and-objptr"></a>何时应使用 strptr、 varpt 和 objptr？
+#### <a name="when-should-i-use-strptr-varpt-and-objptr"></a>何时应使用 strptr、varpt 和 objptr？
   
-应使用这些函数可以分别检索到字符串、 变量和对象的指针。 在 64 位版本的 Office，这些函数将返回 64-bit **LongPtr**，其中可以传递给**Declare**语句。 未从早期版本的 VBA 更改这些函数的用法。 唯一的区别是，他们现在返回为**LongPtr**。
+应使用这些函数来分别检索指向字符串、变量和对象的指针。 在 64 位版 Office 上，这些函数返回可以传递给 **Declare** 语句的 64 位 **LongPtr**。 与旧版 VBA 相比，这些函数的用法没有改变。 唯一区别是，它们现在返回 **LongPtr**。
   
 ## <a name="see-also"></a>另请参阅
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [解析 Declare 语句](https://msdn.microsoft.com/library/office/aa671659.aspx)
+- [Declare 语句剖析](https://msdn.microsoft.com/library/office/aa671659.aspx)
     
 
