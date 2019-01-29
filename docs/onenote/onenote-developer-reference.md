@@ -19,9 +19,9 @@ ms.locfileid: "28725922"
   
 本文档包含以下信息：
   
-- [窗口接口](window-interfaces-onenote.md)： 介绍**窗口**和**多个窗口**接口，使用户能够通过 OneNote 窗口组枚举和修改某些窗口属性。 
+- [窗口接口](window-interfaces-onenote.md)： 介绍“**窗口**”和“**多个窗口**”接口，使用户能够通过 OneNote 窗口组枚举和修改某些窗口属性。 
     
-- [快速归档对话框接口](quick-filing-dialog-box-interfaces-onenote.md)：介绍可用于以编程方式自定义OneNote 2013 中**快速归档**对话框的接口。 
+- [快速归档对话框接口](quick-filing-dialog-box-interfaces-onenote.md)：介绍可用于以编程方式自定义OneNote 2013 中“**快速归档**”对话框的接口。 
     
 - [应用程序接口](application-interface-onenote.md)：介绍帮助检索、 操作和更新 OneNote 2013 信息和内容的方法、 属性和事件。
     
