@@ -30,7 +30,7 @@ DLL 的主要好处如下：
     
 - 应用程序的可执行文件保持较小。
     
-- 它们使大型开发项目得以细分。 应用程序和 DLL 开发人员只需要就各自部分之间的接口达成一致。 此接口由 DLL 导出。
+- 它们使大型开发项目得以细分。 应用程序和 DLL 开发人员只需要就各自部分的接口达成一致。 此接口由 DLL 导出。
     
 - DLL 开发人员可以更新 DLL（可能是为了提高它们的效率或修复 bug），而不必更新所有使用它的应用程序，但前提是 DLL 的导出接口不会改变。
     
@@ -46,7 +46,7 @@ DLL 的主要好处如下：
     
 - 一个链接器，用于从静态库（如果使用）中添加代码以及创建可执行的 DLL 文件。
     
-诸如 Microsoft Visual Studio 之类的现代集成开发环境 (IDE) 可提供所有这些功能。 它们还提供了大量更多功能：智能编辑器、用于调试代码的工具、用于管理多个项目的工具、新项目向导以及许多其他重要工具。
+诸如 Microsoft Visual Studio 之类的现代化集成开发环境 (IDE) 可提供所有这些功能。 它们还提供了大量额外功能：智能编辑器、用于调试代码的工具、用于管理多个项目的工具、新项目向导以及许多其他重要工具。
   
 可以使用多种语言（例如，C/C++、Pascal 和 Visual Basic）创建 DLL。 鉴于 Excel 附带的 API 源代码是 C 和 C++，本文档中仅考虑这两种语言。
   
@@ -58,7 +58,7 @@ DLL 的主要好处如下：
   
 名称的修饰方式取决于语言以及如何指示编译器使函数可用（即调用约定）。 DLL 使用的 Windows 标准进程间调用约定称为 WinAPI 约定。 此约定在 Windows 头文件中定义为 **WINAPI**，后者则是用 Win32 声明符 **__stdcall** 定义的。
   
-用于 Excel 的 DLL 导出函数（无论是工作表函数、宏表等效函数还是用户定义的命令）应始终使用 **WINAPI** / **__stdcall** 调用约定。 有必要在函数的定义中显式包含 **WINAPI** 说明符，因为 Win32 编译器中的默认设置是使用 **__cdecl** 调用约定（如果没有指定，则也定义为 **WINAPIV**）。
+用于 Excel 的 DLL 导出函数（无论是工作表函数、宏表等效函数还是用户定义的命令）应始终使用 **WINAPI** / **__stdcall** 调用约定。 有必要在函数的定义中显式包含 **WINAPI** 说明符，因为 Win32 编译器中的默认设置是使用 **__cdecl** 调用约定（如果没有指定，则也可定义为 **WINAPIV**）。
   
 你可以告诉链接器要导出一个函数，并通过以下几种方式之一从外部获知函数名称：
   
@@ -102,12 +102,12 @@ DEF 文件需要包含以下行。
 
 请注意，C 函数已经过修饰，但 DEF 文件显式强制链接器使用原始源代码名称公开该函数（在本示例中）。 链接器使用原始代码名称隐式导出 C++ 函数，因此不必在 DEF 文件中包含修饰的名称。
   
-对于 32 位 Windows API 函数调用，C 编译函数的修饰约定如下：**function_name** 变为 _ **function_name@** _n_，其中 _n_ 是所有参数占用的字节数（以十进制数表示）以及每个四舍五入到最接近的四的倍数的字节数。 
+对于 32 位 Windows API 函数调用，C 编译函数的修饰约定如下：**function_name** 变为 _ **function_name@** _n_，其中 _n_ 是所有参数占用的字节数（以十进制数表示）以及每个四舍五入到最接近四的倍数的字节数。 
   
 > [!NOTE]
 > 在 Win32 中，所有指针的宽度都是四个字节。 返回类型对名称修饰没有任何影响。 
   
-通过在 extern "C" {…} 代码块中包含函数和所有函数原型，可以强制 C++ 编译器公开 C++ 函数的未修饰名称， 如本例中所示。 （此处省略了大括号 **{}**，因为该声明仅引用紧跟在后面的函数代码块）。 
+通过包含函数和所有函数原型，可以强制 C++ 编译器在 extern "C" {…} 代码块中公开 C++ 函数的未修饰名称， 如本例中所示。 （此处省略了大括号 **{}**，因为该声明仅引用紧跟在后面的函数代码块）。 
   
 ```cpp
 extern "C"
@@ -134,7 +134,7 @@ double WINAPI my_Cdecorated_Cpp_export(double x);
 
 ### <a name="using-the-declspecdllexport-declarator"></a>使用 __declspec(dllexport) 声明符
 
-可在如下所示的函数声明中使用 **__Declspec(dllexport)** 关键字。 
+可在如下所示的函数声明中使用 **__declspec(dllexport)** 关键字。 
   
 ```cpp
 __declspec(dllexport) double WINAPI my_C_export(double x)
@@ -161,7 +161,7 @@ __declspec(dllexport) double WINAPI my_undecorated_Cpp_export(double x)
   
 ### <a name="using-a-pragma-preprocessor-linker-directive"></a>使用 #pragma 预处理器链接器指令
 
-最新版本的 Microsoft Visual Studio 支持两个预定义的宏，当这些宏与 **#pragma** 指令结合使用时，可以指示链接器直接从函数代码中导出函数。 这些宏为 __FUNCTION__ 和 __FUNCDNAME__（注意两端的双下划线），它们分别扩展为未修饰和修饰的函数名称。 
+最新版本的 Microsoft Visual Studio 支持两个预定义的宏，当这些宏与 **#pragma** 指令结合使用时，可以指示链接器直接从函数代码中导出函数。 这些宏为 __FUNCTION__ 和 __FUNCDNAME__（注意两端的双下划线），它们分别扩展为未修饰的和已修饰的函数名称。 
   
 例如，使用 Microsoft Visual Studio 时，这些行可以合并到一个公共头文件中，如下所示。
   
@@ -174,7 +174,7 @@ __declspec(dllexport) double WINAPI my_undecorated_Cpp_export(double x)
 
 ```
 
-如果此标头包含在源文件中，则可以按如下方式导出这两个示例函数。
+如果此头文件包含在源文件中，则可以按如下方式导出这两个示例函数。
   
 C 代码：
   
@@ -198,7 +198,7 @@ double WINAPI my_Cpp_export(double x)
 }
 ```
 
-请注意，该指令必须放在函数体内，并且只有在编译器选项 **/EP** 和 **/P** 均未设置时才会扩展。 此方法不需要 DEF 文件和 **__declspec(dllexport)** 声明，并使用函数代码保持其导出状态的指定。 
+请注意，该指令必须放在函数的正文中，并且仅在编译器选项 **/EP** 和 **/P** 均未设置时才会扩展。 此方法不需要 DEF 文件或 **__declspec(dllexport)** 声明，并且使用函数代码保持指定其导出状态。 
   
 ## <a name="see-also"></a>另请参阅
 

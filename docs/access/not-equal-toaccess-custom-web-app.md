@@ -27,10 +27,10 @@ ms.locfileid: "28704387"
 
 *expression*  \<\>  *expression* 
   
-*expression* 表示任何有效的表达式。 两个表达式必须具有隐式可转换的数据类型。 转换取决于数据类型优先级的规则。 
+“*expression*”表示任何有效的表达式。 两个表达式必须具有隐式可转换的数据类型。 转换取决于数据类型优先级的规则。 
   
 ## <a name="return-type"></a>返回类型
 
-**Boolean**
+“**布尔值**”
   
 
