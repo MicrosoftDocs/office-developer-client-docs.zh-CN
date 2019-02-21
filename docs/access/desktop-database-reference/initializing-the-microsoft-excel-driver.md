@@ -11,22 +11,22 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 12fb79f459024ed113007e6f764945ca9564cb3c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.openlocfilehash: cec7890385e5730831cea9241278511d88b6f3a1
+ms.sourcegitcommit: 8ead5b5501f59c108cf02969070be21f7fc52467
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712930"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30135745"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>初始化 Microsoft Excel 驱动程序
 
-**适用于**： Access 2013 |Office 2013
+**适用**于: Access 2013 |Office 2013
 
-安装 Excel 驱动程序时，安装程序会将一组默认值写入 Windows 注册表中的引擎和 ISAM 格式的子项。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了 Microsoft Excel 数据库驱动程序的初始化和 ISAM 格式设置。
+安装 Excel 驱动程序时, 安装程序会将一组默认值写入 "引擎" 和 "ISAM Formats" 子项中的 Windows 注册表中。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了 Microsoft Excel 数据库驱动程序的初始化和 ISAM 格式设置。
 
 ## <a name="excel-initialization-settings"></a>Excel 初始化设置
 
-**Access Connectivity 引擎\\引擎\\Excel**文件夹包括 Aceexcl.dll 驱动程序，用于向 Microsoft Excel 工作表的外部访问的初始化设置。 下面的示例显示了此文件夹中各项的典型设置。
+**Access Connectivity Engine Engine\\\\Excel**文件夹包括用于对 Microsoft Excel 工作表进行外部访问的 Aceexcl 驱动程序的初始化设置。 下面的示例显示了此文件夹中各项的典型设置。
 
 ```vb
     win32=<path>\ Aceexcl.dll  
@@ -55,7 +55,7 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>win32</p></td>
+<td><p>32</p></td>
 <td><p>msexcl40.dll 的位置。完整路径在安装时确定。值为 REG_SZ 类型。</p></td>
 </tr>
 <tr class="even">
@@ -79,7 +79,7 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 
 <br/>
 
-**Access Connectivity 引擎\\引擎\\Excel 8.0**文件夹包含下列项，适用于 Microsoft Excel 97。
+**Access Connectivity Engine\\引擎\\Excel 8.0**文件夹包含以下项, 这些项适用于 Microsoft Excel 97。
 
 <table>
 <colgroup>
@@ -108,7 +108,7 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 <tr class="odd">
 <td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
@@ -128,7 +128,7 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 <tr class="odd">
 <td><p>CreateDBOnExport</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 <tr class="even">
 <td><p>ResultTextExport</p></td>
@@ -138,16 +138,96 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 <tr class="odd">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>前面</p></td>
 </tr>
 </tbody>
 </table>
 
+## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>使用 Excel 驱动程序的 TypeGuessRows 设置
+使用 Microsoft Excel 驱动程序时, 可以使用**TypeGuessRows**注册表值来配置要检查的数据类型的行数。 **TypeGuessRows**值位于以下注册表子项下:
 
+# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
 
+对于 MSI 安装的 Office
+
+- 对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access 连接 Engine\Engines\Excel**
+
+- 对于64位 Windows 上的32位 Office:
+
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access 连接 Engine\Engines\Excel**
+    
+对于 Office 即点即用安装
+
+- 对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access 连接 Engine\Engines\Excel**
+
+- 对于64位 Windows 上的32位 Office:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access 连接 Engine\Engines\Excel**
+
+要检查的默认行数为**8** (八)。 当您将**TypeGuessRows**值设置为**0** (零) 时, Excel 驱动程序将检查数据类型的前16384行。 如果要检查16384以上的行, 请将**TypeGuessRows**设置为基于所需区域的值。 若要检查所有行, 请将**TypeGuessRows**设置为 1048576 (Excel 中允许的最大行数)。
+ 
+数据类型由找到的最大数据类型数决定。 如果有关联, 则按以下顺序确定数据类型:
+
+- 数字
+- 货币
+- Date
+- 文本
+- 布尔
+
+如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
+
+# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+
+对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access 连接 Engine\Engines\Excel**
+
+对于64位 Windows 上的32位 Office:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access 连接 Engine\Engines\Excel**
+
+要检查的默认行数为**8** (八)。 当您将**TypeGuessRows**值设置为**0** (零) 时, Excel 驱动程序将检查数据类型的前16384行。 如果要检查16384以上的行, 请将**TypeGuessRows**设置为基于所需区域的值。 若要检查所有行, 请将**TypeGuessRows**设置为 1048576 (Excel 中允许的最大行数)。
+ 
+数据类型由找到的最大数据类型数决定。 如果有关联, 则按以下顺序确定数据类型:
+
+- 数字
+- 货币
+- Date
+- 文本
+- 布尔
+
+如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
+
+# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+
+对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access 连接 Engine\Engines\Excel**
+
+对于64位 Windows 上的32位 Office:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access 连接 Engine\Engines\Excel**
+
+要检查的默认行数为**8** (八)。 当您将**TypeGuessRows**值设置为**0** (零) 时, Excel 驱动程序将检查数据类型的前16384行。 如果要检查16384以上的行, 请将**TypeGuessRows**设置为基于所需区域的值。 若要检查所有行, 请将**TypeGuessRows**设置为 1048576 (Excel 中允许的最大行数)。
+ 
+数据类型由找到的最大数据类型数决定。 如果有关联, 则按以下顺序确定数据类型:
+
+- 数字
+- 货币
+- Date
+- 文本
+- 布尔
+
+如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
+
+---
 > [!NOTE]
 > [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
 
 ## <a name="see-also"></a>另请参阅
 
-- [使用 Excel 驱动程序 TypeGuessRows 设置](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [使用 Excel 驱动程序的 TypeGuessRows 设置](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
