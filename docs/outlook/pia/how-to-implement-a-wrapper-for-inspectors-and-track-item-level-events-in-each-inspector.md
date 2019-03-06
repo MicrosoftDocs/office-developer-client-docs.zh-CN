@@ -7,12 +7,12 @@ ms:contentKeyID: 55119854
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 8454c1e969fbccc80f5cb0341b6b55815132ade1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.openlocfilehash: a70aedf9a8803a2c990f07a77d4fc730f7263aae
+ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698671"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30413964"
 ---
 # <a name="implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector"></a>为检查器实现包装并在每个检查器中跟踪项目级事件
 
@@ -108,7 +108,7 @@ class OutlookInspector
     // wrapped ContactItem
     private Outlook.ContactItem m_Contact;
     // wrapped TaskItem      
-    private Outlook.ContactItem m_Task;             
+    private Outlook.TaskItem m_Task;             
 
     // OutlookInspector constructor
     public OutlookInspector(Outlook.Inspector inspector)
