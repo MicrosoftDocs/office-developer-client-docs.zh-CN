@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5
 description: 查找开发解决方案和自定义 OneNote 桌面客户端应用程序的操作说明内容、技术文章、参考内容和博客文章。
 localization_priority: Priority
-ms.openlocfilehash: 1b07c330d029c164b918be2e91423ff53c2893d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.openlocfilehash: 47da67c8ca741bcc30b55cb56d88ffe3640c465e
+ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717991"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30413957"
 ---
 # <a name="onenote"></a>OneNote
 
@@ -23,17 +23,11 @@ ms.locfileid: "28717991"
 > [!NOTE]
 > 有兴趣开发跨[多个平台](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)扩展 Office 体验的解决方案吗？查看新的 [Office 加载项模型](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)。  
   
-### <a name="viewed-most"></a>浏览次数最多
+## <a name="contents"></a>目录
   
 - [OneNote 开发人员参考](onenote-developer-reference.md)
-  
-### <a name="office-add-ins"></a>Office 加载项
-  
-- [OneNote 加载项入门](https://docs.microsoft.com/office/dev/add-ins/quickstarts/onenote-quickstart)
-  
-- [平台概述](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
-  
-### <a name="other-resources"></a>其他资源
+   
+## <a name="other-resources"></a>其他资源
   
 - [Office VBA 对象库参考](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
