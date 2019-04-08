@@ -11,16 +11,16 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 2fe59f34c04314f70117b3bc7f08d78c2d23ae6d
-ms.sourcegitcommit: 62228a65109a9543cd223dfbf326dbf1af256748
+ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
+ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30179661"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31518129"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>初始化 Microsoft Excel 驱动程序
 
-**适用**于: Access 2013 |Office 2013
+**适用**于: Excel 2016 |Access 2016 |Access 2013 |Office 2013 |Excel 2013 |Office for business Access 2013 |Excel 2010 |Access 2010
 
 安装 Excel 驱动程序时, 安装程序会将一组默认值写入 "引擎" 和 "ISAM Formats" 子项中的 Windows 注册表中。 不应直接修改这些设置，而应使用应用程序的安装程序来添加、删除或更改这些设置。 以下各节说明了 Microsoft Excel 数据库驱动程序的初始化和 ISAM 格式设置。
 
@@ -49,7 +49,7 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>项</p></th>
+<th><p>记录</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -143,10 +143,11 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
 </tbody>
 </table>
 
+
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>使用 Excel 驱动程序的 TypeGuessRows 设置
 使用 Microsoft Excel 驱动程序时, 可以使用**TypeGuessRows**注册表值来配置要检查的数据类型的行数。 **TypeGuessRows**值位于以下注册表子项下:
 
-# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
+# [<a name="office-2016"></a>Office 2016](#tab/office-2016)
 
 对于 MSI 安装的 Office
 
@@ -172,15 +173,15 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
  
 数据类型由找到的最大数据类型数决定。 如果有关联, 则按以下顺序确定数据类型:
 
-- 数字
+- 帐号
 - 货币
 - Date
-- 文本
-- 布尔
+- Text
+- Boolean
 
 如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
 
-# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+# [<a name="office-2013"></a>Office 2013](#tab/office-2013)
 
 对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
 
@@ -194,15 +195,15 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
  
 数据类型由找到的最大数据类型数决定。 如果有关联, 则按以下顺序确定数据类型:
 
-- 数字
+- 帐号
 - 货币
 - Date
-- 文本
-- 布尔
+- Text
+- Boolean
 
 如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
 
-# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+# [<a name="office-2010"></a>Office 2010](#tab/office-2010)
 
 对于在 64 windows 上的32位或64位的 office 上为32位的 office, 请执行以下操作:
 
@@ -216,15 +217,19 @@ Microsoft Access 数据库引擎使用如下所示的 Excel 文件夹项。
  
 数据类型由找到的最大数据类型数决定。 如果有关联, 则按以下顺序确定数据类型:
 
-- 数字
+- 帐号
 - 货币
 - Date
-- 文本
-- 布尔
+- Text
+- Boolean
 
 如果遇到与列的猜测数据类型不匹配的数据, 则该数据以**Null**值的形式返回。 在导入过程中, 如果某一列具有混合的数据类型, 则整个列将转换为**ImportMixedTypes**设置所设置的数据类型。
 
 ---
 > [!NOTE]
 > [!注释] 更改 Windows 注册表设置后，必须退出并重新启动数据库引擎，以使新的设置生效。
+
+## <a name="see-also"></a>另请参阅
+
+- [使用 Excel 驱动程序的 TypeGuessRows 设置](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
 
