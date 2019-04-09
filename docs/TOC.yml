@@ -4395,7 +4395,7 @@ items:
           - name: 排查表单模板的设计时问题
             href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
       - name: InfoPath 表单模板的类库参考
-        href: https://msdn.microsoft.com/library/office/ee526341.aspx
+        href: https://docs.microsoft.com/en-us/previous-versions/office/infopath-form/ee526341(v=office.15)
     - name: InfoPath 外部自动化开发人员参考
       href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
       items:
@@ -4416,7 +4416,7 @@ items:
         - name: 从外部应用程序自动执行 InfoPath
           href: infopath/external-automation/automating-infopath-from-an-external-application.md
       - name: InfoPath 外部自动化的类库参考
-        href: https://msdn.microsoft.com/library/office/ff663147.aspx
+        href: https://docs.microsoft.com/en-us/previous-versions/office/project-class/ee767707(v=office.15)
   - name: OneNote
     href: onenote/onenote-home.md
     items:
@@ -10215,7 +10215,7 @@ items:
       - name: 类库和 Web 服务引用
         href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
       - name: JavaScript API 参考
-        href: https://msdn.microsoft.com/library/office/jj712612.aspx
+        href: https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15)
   - name: Publisher
     href: publisher-home.md
     items:
@@ -12378,9 +12378,9 @@ items:
     href: swayuri.md
   - name: Office URI 方案
     href: office-uri-schemes.md
-ms.openlocfilehash: 430fd69d27d63f447913767eee9aa97e0a61042d
-ms.sourcegitcommit: c9720dd639f5c969f3cf6a324b84fadc57199370
+ms.openlocfilehash: 4b21981ff3df0447a2c3f07386b6b686492ff06c
+ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512734"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31518143"
