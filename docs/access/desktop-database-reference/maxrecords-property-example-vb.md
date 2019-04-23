@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41353af2f91d7177bfb6425b0e082da3fba2f679
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289712"
 ---
-# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="abd1d-102">MaxRecords 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="abd1d-102">MaxRecords property example (VB)</span></span>
+# <a name="maxrecords-property-example-vb"></a><span data-ttu-id="a6f4b-102">MaxRecords 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a6f4b-102">MaxRecords property example (VB)</span></span>
 
 
-<span data-ttu-id="abd1d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="abd1d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a6f4b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6f4b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="abd1d-104">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="abd1d-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="a6f4b-104">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="a6f4b-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```vb 
  

@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bcb0c1a38108fbd02551df2a3296abe4d9a3791
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288551"
 ---
-# <a name="numericscale-property-ado"></a><span data-ttu-id="36ba0-102">NumericScale 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="36ba0-102">NumericScale property (ADO)</span></span>
+# <a name="numericscale-property-ado"></a><span data-ttu-id="ec62d-102">NumericScale 属性 (ADO)</span><span class="sxs-lookup"><span data-stu-id="ec62d-102">NumericScale property (ADO)</span></span>
 
 
-<span data-ttu-id="36ba0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="36ba0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec62d-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec62d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="36ba0-104">指示 [Parameter](parameter-object-ado.md) 或 [Field](field-object-ado.md) 对象中数值的小数位数。</span><span class="sxs-lookup"><span data-stu-id="36ba0-104">Indicates the scale of numeric values in a [Parameter](parameter-object-ado.md) or [Field](field-object-ado.md) object.</span></span>
+<span data-ttu-id="ec62d-104">指示 [Parameter](parameter-object-ado.md) 或 [Field](field-object-ado.md) 对象中数值的小数位数。</span><span class="sxs-lookup"><span data-stu-id="ec62d-104">Indicates the scale of numeric values in a [Parameter](parameter-object-ado.md) or [Field](field-object-ado.md) object.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="36ba0-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="36ba0-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="ec62d-105">设置和返回值</span><span class="sxs-lookup"><span data-stu-id="ec62d-105">Settings and return values</span></span>
 
-<span data-ttu-id="36ba0-106">设置或返回一个 **Byte** 值，指示数值的小数位数。</span><span class="sxs-lookup"><span data-stu-id="36ba0-106">Sets or returns a **Byte** value that indicates the number of decimal places to which numeric values will be resolved.</span></span>
+<span data-ttu-id="ec62d-106">设置或返回一个 **Byte** 值，指示数值的小数位数。</span><span class="sxs-lookup"><span data-stu-id="ec62d-106">Sets or returns a **Byte** value that indicates the number of decimal places to which numeric values will be resolved.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="36ba0-107">备注</span><span class="sxs-lookup"><span data-stu-id="36ba0-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec62d-107">注解</span><span class="sxs-lookup"><span data-stu-id="ec62d-107">Remarks</span></span>
 
-<span data-ttu-id="36ba0-108">使用 **NumericScale** 属性可确定将用于表示数字型 **Parameter** 或 **Field** 对象的小数点后的数字个数。</span><span class="sxs-lookup"><span data-stu-id="36ba0-108">Use the **NumericScale** property to determine how many digits to the right of the decimal point will be used to represent values for a numeric **Parameter** or **Field** object.</span></span>
+<span data-ttu-id="ec62d-108">使用 **NumericScale** 属性可确定将用于表示数字型 **Parameter** 或 **Field** 对象的小数点后的数字个数。</span><span class="sxs-lookup"><span data-stu-id="ec62d-108">Use the **NumericScale** property to determine how many digits to the right of the decimal point will be used to represent values for a numeric **Parameter** or **Field** object.</span></span>
 
-<span data-ttu-id="36ba0-109">对于 **Parameter** 对象， **NumericScale** 属性为可读/写属性。</span><span class="sxs-lookup"><span data-stu-id="36ba0-109">For **Parameter** objects, the **NumericScale** property is read/write.</span></span>
+<span data-ttu-id="ec62d-109">对于 **Parameter** 对象， **NumericScale** 属性为可读/写属性。</span><span class="sxs-lookup"><span data-stu-id="ec62d-109">For **Parameter** objects, the **NumericScale** property is read/write.</span></span>
 
-<span data-ttu-id="36ba0-p101">对于 **Field** 对象， **NumericScale** 通常为只读。然而，对于已追加到 **Record** 的 [Fields](fields-collection-ado.md) 集合的新 [Field](record-object-ado.md) 对象，只有在指定了 **Field** 的 [Value](value-property-ado.md) 属性并且数据提供程序已通过调用 **Fields** 集合的 **Update** 方法成功添加新 [Field](update-method-ado.md) 之后， **NumericScale** 才为可读/写。</span><span class="sxs-lookup"><span data-stu-id="36ba0-p101">For a **Field** object, **NumericScale** is normally read-only. However, for new **Field** objects that have been appended to the [Fields](fields-collection-ado.md) collection of a [Record](record-object-ado.md), **NumericScale** is read/write only after the [Value](value-property-ado.md) property for the **Field** has been specified and the data provider has successfully added the new **Field** by calling the [Update](update-method-ado.md) method of the **Fields** collection.</span></span>
+<span data-ttu-id="ec62d-p101">对于 **Field** 对象， **NumericScale** 通常为只读。然而，对于已追加到 **Record** 的 [Fields](fields-collection-ado.md) 集合的新 [Field](record-object-ado.md) 对象，只有在指定了 **Field** 的 [Value](value-property-ado.md) 属性并且数据提供程序已通过调用 **Fields** 集合的 **Update** 方法成功添加新 [Field](update-method-ado.md) 之后， **NumericScale** 才为可读/写。</span><span class="sxs-lookup"><span data-stu-id="ec62d-p101">For a **Field** object, **NumericScale** is normally read-only. However, for new **Field** objects that have been appended to the [Fields](fields-collection-ado.md) collection of a [Record](record-object-ado.md), **NumericScale** is read/write only after the [Value](value-property-ado.md) property for the **Field** has been specified and the data provider has successfully added the new **Field** by calling the [Update](update-method-ado.md) method of the **Fields** collection.</span></span>
 

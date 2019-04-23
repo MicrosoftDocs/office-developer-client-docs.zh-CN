@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fa3221814839200117bbc5bc824812437d68281f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283308"
 ---
-# <a name="ado-md-api-reference"></a><span data-ttu-id="9c910-102">ADO MD API 参考</span><span class="sxs-lookup"><span data-stu-id="9c910-102">ADO MD API reference</span></span>
+# <a name="ado-md-api-reference"></a><span data-ttu-id="78e9e-102">ADO MD API 参考</span><span class="sxs-lookup"><span data-stu-id="78e9e-102">ADO MD API reference</span></span>
 
-<span data-ttu-id="9c910-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c910-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="78e9e-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="78e9e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9c910-104">ActiveX 数据对象 (ADO) MD 文档的此部分包含的每个 ADO MD 对象、 集合、 方法和属性，以及代码示例的主题。</span><span class="sxs-lookup"><span data-stu-id="9c910-104">This section of the ActiveX Data Objects (ADO) MD documentation contains topics for each ADO MD object, collection, method, and property, as well as example code when appropriate.</span></span> <span data-ttu-id="9c910-105">有关详细信息，请在索引中搜索特定主题，或者参考下列主题：</span><span class="sxs-lookup"><span data-stu-id="9c910-105">For more information, search for a specific topic in the index or refer to the following topics:</span></span>
+<span data-ttu-id="78e9e-104">ActiveX 数据对象 (ADO) md 文档的此部分包含有关每个 ADO MD 对象、集合、方法和属性的主题, 以及示例代码 (如果适用)。</span><span class="sxs-lookup"><span data-stu-id="78e9e-104">This section of the ActiveX Data Objects (ADO) MD documentation contains topics for each ADO MD object, collection, method, and property, as well as example code when appropriate.</span></span> <span data-ttu-id="78e9e-105">有关详细信息，请在索引中搜索特定主题，或者参考下列主题：</span><span class="sxs-lookup"><span data-stu-id="78e9e-105">For more information, search for a specific topic in the index or refer to the following topics:</span></span>
 
-- [<span data-ttu-id="9c910-106">ADO MD 对象</span><span class="sxs-lookup"><span data-stu-id="9c910-106">ADO MD objects</span></span>](ado-md-objects.md)
-- [<span data-ttu-id="9c910-107">ADO MD 集合</span><span class="sxs-lookup"><span data-stu-id="9c910-107">ADO MD collections</span></span>](ado-md-collections.md)
-- [<span data-ttu-id="9c910-108">ADO MD 属性</span><span class="sxs-lookup"><span data-stu-id="9c910-108">ADO MD properties</span></span>](ado-md-properties.md)
-- [<span data-ttu-id="9c910-109">ADO MD 方法</span><span class="sxs-lookup"><span data-stu-id="9c910-109">ADO MD methods</span></span>](ado-md-methods.md)
-- [<span data-ttu-id="9c910-110">ADO MD 枚举常量</span><span class="sxs-lookup"><span data-stu-id="9c910-110">ADO MD enumerated constants</span></span>](ado-md-enumerated-constants.md)
-- [<span data-ttu-id="9c910-111">ADO MD 示例</span><span class="sxs-lookup"><span data-stu-id="9c910-111">ADO MD examples</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-md-code-examples)
+- [<span data-ttu-id="78e9e-106">ADO MD 对象</span><span class="sxs-lookup"><span data-stu-id="78e9e-106">ADO MD objects</span></span>](ado-md-objects.md)
+- [<span data-ttu-id="78e9e-107">ADO MD 集合</span><span class="sxs-lookup"><span data-stu-id="78e9e-107">ADO MD collections</span></span>](ado-md-collections.md)
+- [<span data-ttu-id="78e9e-108">ADO MD 属性</span><span class="sxs-lookup"><span data-stu-id="78e9e-108">ADO MD properties</span></span>](ado-md-properties.md)
+- [<span data-ttu-id="78e9e-109">ADO MD 方法</span><span class="sxs-lookup"><span data-stu-id="78e9e-109">ADO MD methods</span></span>](ado-md-methods.md)
+- [<span data-ttu-id="78e9e-110">ADO MD 枚举常量</span><span class="sxs-lookup"><span data-stu-id="78e9e-110">ADO MD enumerated constants</span></span>](ado-md-enumerated-constants.md)
+- [<span data-ttu-id="78e9e-111">ADO MD 示例</span><span class="sxs-lookup"><span data-stu-id="78e9e-111">ADO MD examples</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-md-code-examples)
 

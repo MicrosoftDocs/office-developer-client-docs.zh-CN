@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c66c16e8e110fd9565b9417c70e98247f2abc24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288327"
 ---
-# <a name="openschema-method-example-vj"></a><span data-ttu-id="77e2e-102">OpenSchema 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="77e2e-102">OpenSchema method example (VJ++)</span></span>
+# <a name="openschema-method-example-vj"></a><span data-ttu-id="e453f-102">OpenSchema 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e453f-102">OpenSchema method example (VJ++)</span></span>
 
 
-<span data-ttu-id="77e2e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="77e2e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e453f-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="e453f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="77e2e-104">本示例使用 [OpenSchema](openschema-method-ado.md) 方法来显示 ***Pubs*** 数据库中每个表的名称和类型。</span><span class="sxs-lookup"><span data-stu-id="77e2e-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="e453f-104">本示例使用 [OpenSchema](openschema-method-ado.md) 方法来显示 ***Pubs*** 数据库中每个表的名称和类型。</span><span class="sxs-lookup"><span data-stu-id="e453f-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```java 
  

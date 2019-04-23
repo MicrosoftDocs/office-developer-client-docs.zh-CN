@@ -1,5 +1,5 @@
 ---
-title: ActiveX 数据对象 (ADO) 集
+title: ActiveX 数据对象 (ADO) 集合
 TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddaab78582429e201e563c01bb3195f585216cbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281706"
 ---
-# <a name="ado-collections"></a><span data-ttu-id="7e812-102">ADO 集合</span><span class="sxs-lookup"><span data-stu-id="7e812-102">ADO collections</span></span>
+# <a name="ado-collections"></a><span data-ttu-id="e1b84-102">ADO 集合</span><span class="sxs-lookup"><span data-stu-id="e1b84-102">ADO collections</span></span>
 
-<span data-ttu-id="7e812-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e812-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e1b84-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1b84-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7e812-104">每个集合都可以包含其相应的对象。</span><span class="sxs-lookup"><span data-stu-id="7e812-104">Each collection can contain its corresponding object.</span></span> <span data-ttu-id="7e812-105">例如，[Error](error-object-ado.md) 对象可以包含在 [Errors](errors-collection-ado.md) 集合中。</span><span class="sxs-lookup"><span data-stu-id="7e812-105">For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="7e812-106">有关对象的详细信息，请参阅[ADO 对象](ado-objects-and-interfaces.md)或特定的对象主题。</span><span class="sxs-lookup"><span data-stu-id="7e812-106">For more information about objects, see [ADO objects](ado-objects-and-interfaces.md) or a specific object topic.</span></span>
+<span data-ttu-id="e1b84-104">每个集合都可以包含其相应的对象。</span><span class="sxs-lookup"><span data-stu-id="e1b84-104">Each collection can contain its corresponding object.</span></span> <span data-ttu-id="e1b84-105">例如，[Error](error-object-ado.md) 对象可以包含在 [Errors](errors-collection-ado.md) 集合中。</span><span class="sxs-lookup"><span data-stu-id="e1b84-105">For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="e1b84-106">有关对象的详细信息, 请参阅[ADO 对象](ado-objects-and-interfaces.md)或特定的对象主题。</span><span class="sxs-lookup"><span data-stu-id="e1b84-106">For more information about objects, see [ADO objects](ado-objects-and-interfaces.md) or a specific object topic.</span></span>
 
 <br/>
 
@@ -29,24 +29,24 @@ ms.locfileid: "28708163"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="7e812-107">集合</span><span class="sxs-lookup"><span data-stu-id="7e812-107">Collection</span></span></th>
-<th><span data-ttu-id="7e812-108">说明</span><span class="sxs-lookup"><span data-stu-id="7e812-108">Description</span></span></th>
+<th><span data-ttu-id="e1b84-107">集合</span><span class="sxs-lookup"><span data-stu-id="e1b84-107">Collection</span></span></th>
+<th><span data-ttu-id="e1b84-108">说明</span><span class="sxs-lookup"><span data-stu-id="e1b84-108">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7e812-109"><a href="errors-collection-ado.md">Errors</a></span><span class="sxs-lookup"><span data-stu-id="7e812-109"><a href="errors-collection-ado.md">Errors</a></span></span></p></td>
-<td><p><span data-ttu-id="7e812-110">包含为响应与单个提供程序相关的失败而创建的所有 <strong>Error</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="7e812-110">Contains all the <strong>Error</strong> objects created in response to a single provider-related failure.</span></span></p></td>
+<td><p><span data-ttu-id="e1b84-109"><a href="errors-collection-ado.md">Errors</a></span><span class="sxs-lookup"><span data-stu-id="e1b84-109"><a href="errors-collection-ado.md">Errors</a></span></span></p></td>
+<td><p><span data-ttu-id="e1b84-110">包含为响应与单个提供程序相关的失败而创建的所有 <strong>Error</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="e1b84-110">Contains all the <strong>Error</strong> objects created in response to a single provider-related failure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e812-111"><a href="fields-collection-ado.md">Fields</a></span><span class="sxs-lookup"><span data-stu-id="7e812-111"><a href="fields-collection-ado.md">Fields</a></span></span></p></td>
-<td><p><span data-ttu-id="7e812-112">包含 <strong>Recordset</strong> 对象的所有 <strong>Field</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="7e812-112">Contains all the <strong>Field</strong> objects of a <strong>Recordset</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="e1b84-111"><a href="fields-collection-ado.md">Fields</a></span><span class="sxs-lookup"><span data-stu-id="e1b84-111"><a href="fields-collection-ado.md">Fields</a></span></span></p></td>
+<td><p><span data-ttu-id="e1b84-112">包含 <strong>Recordset</strong> 对象的所有 <strong>Field</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="e1b84-112">Contains all the <strong>Field</strong> objects of a <strong>Recordset</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7e812-113"><a href="parameters-collection-ado.md">参数</a></span><span class="sxs-lookup"><span data-stu-id="7e812-113"><a href="parameters-collection-ado.md">Parameters</a></span></span></p></td>
-<td><p><span data-ttu-id="7e812-114">包含 <strong>Command</strong> 对象的所有 <strong>Parameter</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="7e812-114">Contains all the <strong>Parameter</strong> objects of a <strong>Command</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="e1b84-113"><a href="parameters-collection-ado.md">参数</a></span><span class="sxs-lookup"><span data-stu-id="e1b84-113"><a href="parameters-collection-ado.md">Parameters</a></span></span></p></td>
+<td><p><span data-ttu-id="e1b84-114">包含 <strong>Command</strong> 对象的所有 <strong>Parameter</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="e1b84-114">Contains all the <strong>Parameter</strong> objects of a <strong>Command</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7e812-115"><a href="properties-collection-ado.md">属性</a></span><span class="sxs-lookup"><span data-stu-id="7e812-115"><a href="properties-collection-ado.md">Properties</a></span></span></p></td>
-<td><p><span data-ttu-id="7e812-116">包含特定对象实例的所有 <strong>Property</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="7e812-116">Contains all the <strong>Property</strong> objects for a specific instance of an object.</span></span></p></td>
+<td><p><span data-ttu-id="e1b84-115"><a href="properties-collection-ado.md">属性</a></span><span class="sxs-lookup"><span data-stu-id="e1b84-115"><a href="properties-collection-ado.md">Properties</a></span></span></p></td>
+<td><p><span data-ttu-id="e1b84-116">包含特定对象实例的所有 <strong>Property</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="e1b84-116">Contains all the <strong>Property</strong> objects for a specific instance of an object.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a4863a222eaa777897242895ea2758219eea619
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711264"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288769"
 ---
-# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript"></a><span data-ttu-id="c682f-102">MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="c682f-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)</span></span>
+# <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript"></a><span data-ttu-id="b9fbf-102">MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="b9fbf-102">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="c682f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="c682f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9fbf-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9fbf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c682f-104">本示例使用 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 和 [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 方法基于提供的命令移动 [Recordset](recordset-object-ado.md) 的记录指针。</span><span class="sxs-lookup"><span data-stu-id="c682f-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span>
+<span data-ttu-id="b9fbf-104">本示例使用 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、[MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 和 [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 方法基于提供的命令移动 [Recordset](recordset-object-ado.md) 的记录指针。</span><span class="sxs-lookup"><span data-stu-id="b9fbf-104">This example uses the [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), and [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) methods to move the record pointer of a [Recordset](recordset-object-ado.md) based on the supplied command.</span></span>
 
-<span data-ttu-id="c682f-p101">请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **MoveFirstVBS.asp** 。可以在任何浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="c682f-p101">Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**. You can view the result in any browser.</span></span>
+<span data-ttu-id="b9fbf-p101">请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **MoveFirstVBS.asp** 。可以在任何浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="b9fbf-p101">Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**. You can view the result in any browser.</span></span>
 
 ```vb 
  

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 143e26f38afee71078b96fe43ac838817b8393a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283329"
 ---
-# <a name="ado-md-methods"></a><span data-ttu-id="6a280-102">ADO MD 方法</span><span class="sxs-lookup"><span data-stu-id="6a280-102">ADO MD methods</span></span>
+# <a name="ado-md-methods"></a><span data-ttu-id="28871-102">ADO MD 方法</span><span class="sxs-lookup"><span data-stu-id="28871-102">ADO MD methods</span></span>
 
-<span data-ttu-id="6a280-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a280-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="28871-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="28871-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -27,16 +27,16 @@ ms.locfileid: "28713175"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="6a280-104">方法</span><span class="sxs-lookup"><span data-stu-id="6a280-104">Method</span></span></th>
-<th><span data-ttu-id="6a280-105">说明</span><span class="sxs-lookup"><span data-stu-id="6a280-105">Description</span></span></th>
+<th><span data-ttu-id="28871-104">方法</span><span class="sxs-lookup"><span data-stu-id="28871-104">Method</span></span></th>
+<th><span data-ttu-id="28871-105">说明</span><span class="sxs-lookup"><span data-stu-id="28871-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="6a280-106"><a href="close-method-ado-md.md">关闭</a></span><span class="sxs-lookup"><span data-stu-id="6a280-106"><a href="close-method-ado-md.md">Close</a></span></span></p></td>
-<td><p><span data-ttu-id="6a280-107">关闭打开的单元格集。</span><span class="sxs-lookup"><span data-stu-id="6a280-107">Closes an open cellset.</span></span></p></td>
+<td><p><span data-ttu-id="28871-106"><a href="close-method-ado-md.md">关闭</a></span><span class="sxs-lookup"><span data-stu-id="28871-106"><a href="close-method-ado-md.md">Close</a></span></span></p></td>
+<td><p><span data-ttu-id="28871-107">关闭打开的单元格集。</span><span class="sxs-lookup"><span data-stu-id="28871-107">Closes an open cellset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="6a280-108"><a href="open-method-ado-md.md">Open</a></span><span class="sxs-lookup"><span data-stu-id="6a280-108"><a href="open-method-ado-md.md">Open</a></span></span></p></td>
-<td><p><span data-ttu-id="6a280-109">检索多维查询的结果并将结果返回到单元格集。</span><span class="sxs-lookup"><span data-stu-id="6a280-109">Retrieves the results of a multidimensional query and returns the results to a cellset.</span></span></p></td>
+<td><p><span data-ttu-id="28871-108"><a href="open-method-ado-md.md">Open</a></span><span class="sxs-lookup"><span data-stu-id="28871-108"><a href="open-method-ado-md.md">Open</a></span></span></p></td>
+<td><p><span data-ttu-id="28871-109">检索多维查询的结果并将结果返回到单元格集。</span><span class="sxs-lookup"><span data-stu-id="28871-109">Retrieves the results of a multidimensional query and returns the results to a cellset.</span></span></p></td>
 </tr>
 </tbody>
 </table>

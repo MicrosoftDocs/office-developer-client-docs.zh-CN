@@ -8,55 +8,55 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b44bf60399cd3bdab9e5a1e51d13cbfc1daaba6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283238"
 ---
-# <a name="ado-programmers-guide"></a><span data-ttu-id="de32f-102">ADO 程序员指南</span><span class="sxs-lookup"><span data-stu-id="de32f-102">ADO programmer's guide</span></span>
+# <a name="ado-programmers-guide"></a><span data-ttu-id="733be-102">ADO 程序员指南</span><span class="sxs-lookup"><span data-stu-id="733be-102">ADO programmer's guide</span></span>
 
-<span data-ttu-id="de32f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="de32f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="733be-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="733be-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="de32f-104">已创建 ADO 程序员指南 》 帮助开发人员提供的全面技术简介，以此是 ADO 的新增内容。</span><span class="sxs-lookup"><span data-stu-id="de32f-104">The ADO programmer's guide has been created to assist developers who are new to ADO by giving them a thorough introduction to the technology.</span></span> <span data-ttu-id="de32f-105">该指南描述了 ADO 系列的库，并使用多种语言的示例代码解释如何使用这些库、使用这些库的最佳做法以及最大程度提高 ADO 应用程序性能的提示和技巧。</span><span class="sxs-lookup"><span data-stu-id="de32f-105">This guide describes the libraries of the ADO family and uses sample code in a variety of languages to explain how to use the libraries, best practices for using the libraries, and tips and tricks for maximizing the performance of your ADO application.</span></span>
+<span data-ttu-id="733be-104">《 ado 程序员指南》已创建, 旨在通过为 ado 提供对技术的全面介绍来协助新开发人员。</span><span class="sxs-lookup"><span data-stu-id="733be-104">The ADO programmer's guide has been created to assist developers who are new to ADO by giving them a thorough introduction to the technology.</span></span> <span data-ttu-id="733be-105">该指南描述了 ADO 系列的库，并使用多种语言的示例代码解释如何使用这些库、使用这些库的最佳做法以及最大程度提高 ADO 应用程序性能的提示和技巧。</span><span class="sxs-lookup"><span data-stu-id="733be-105">This guide describes the libraries of the ADO family and uses sample code in a variety of languages to explain how to use the libraries, best practices for using the libraries, and tips and tricks for maximizing the performance of your ADO application.</span></span>
 
-<span data-ttu-id="de32f-106">ADO 程序员指南 》 包含以下部分和章节：</span><span class="sxs-lookup"><span data-stu-id="de32f-106">The ADO programmer's guide contains the following sections and chapters:</span></span>
+<span data-ttu-id="733be-106">《 ADO 程序员指南》包含以下部分和章节:</span><span class="sxs-lookup"><span data-stu-id="733be-106">The ADO programmer's guide contains the following sections and chapters:</span></span>
 
-- [<span data-ttu-id="de32f-107">Introduction</span><span class="sxs-lookup"><span data-stu-id="de32f-107">Introduction</span></span>](introduction-to-ado-programming.md)
+- [<span data-ttu-id="733be-107">Introduction</span><span class="sxs-lookup"><span data-stu-id="733be-107">Introduction</span></span>](introduction-to-ado-programming.md)
   
-- [<span data-ttu-id="de32f-108">第 I 部分：ActiveX 数据对象 (ADO)</span><span class="sxs-lookup"><span data-stu-id="de32f-108">Section I: ActiveX Data Objects (ADO)</span></span>](section-i-activex-data-objects.md)
+- [<span data-ttu-id="733be-108">第 I 部分：ActiveX 数据对象 (ADO)</span><span class="sxs-lookup"><span data-stu-id="733be-108">Section I: ActiveX Data Objects (ADO)</span></span>](section-i-activex-data-objects.md)
     
-    - [<span data-ttu-id="de32f-109">第 1 章：ADO 基础知识</span><span class="sxs-lookup"><span data-stu-id="de32f-109">Chapter 1: ADO Fundamentals</span></span>](chapter-1-ado-fundamentals.md)
-    - [<span data-ttu-id="de32f-110">第 2 章：获取数据</span><span class="sxs-lookup"><span data-stu-id="de32f-110">Chapter 2: Getting Data</span></span>](chapter-2-getting-data.md)
-    - [<span data-ttu-id="de32f-111">第 3 章：检查数据</span><span class="sxs-lookup"><span data-stu-id="de32f-111">Chapter 3: Examining Data</span></span>](chapter-3-examining-data.md)
-    - [<span data-ttu-id="de32f-112">第 4 章：编辑数据</span><span class="sxs-lookup"><span data-stu-id="de32f-112">Chapter 4: Editing Data</span></span>](chapter-4-editing-data.md)
-    - [<span data-ttu-id="de32f-113">第 5 章：更新和持久化数据</span><span class="sxs-lookup"><span data-stu-id="de32f-113">Chapter 5: Updating and Persisting Data</span></span>](chapter-5-updating-and-persisting-data.md)
-    - [<span data-ttu-id="de32f-114">第 6 章：错误处理</span><span class="sxs-lookup"><span data-stu-id="de32f-114">Chapter 6: Error Handling</span></span>](chapter-6-error-handling.md)
-    - [<span data-ttu-id="de32f-115">第 7 章：处理 ADO 事件</span><span class="sxs-lookup"><span data-stu-id="de32f-115">Chapter 7: Handling ADO Events</span></span>](chapter-7-handling-ado-events.md)
-    - [<span data-ttu-id="de32f-116">第 8 章：了解游标和锁定</span><span class="sxs-lookup"><span data-stu-id="de32f-116">Chapter 8: Understanding Cursors and Locks</span></span>](chapter-8-understanding-cursors-and-locks.md)
-    - [<span data-ttu-id="de32f-117">第 9 章：数据定形</span><span class="sxs-lookup"><span data-stu-id="de32f-117">Chapter 9: Data Shaping</span></span>](chapter-9-data-shaping.md)
-    - [<span data-ttu-id="de32f-118">第 10 章：记录和流</span><span class="sxs-lookup"><span data-stu-id="de32f-118">Chapter 10: Records and Streams</span></span>](chapter-10-records-and-streams.md)
+    - [<span data-ttu-id="733be-109">第 1 章：ADO 基础知识</span><span class="sxs-lookup"><span data-stu-id="733be-109">Chapter 1: ADO Fundamentals</span></span>](chapter-1-ado-fundamentals.md)
+    - [<span data-ttu-id="733be-110">第 2 章：获取数据</span><span class="sxs-lookup"><span data-stu-id="733be-110">Chapter 2: Getting Data</span></span>](chapter-2-getting-data.md)
+    - [<span data-ttu-id="733be-111">第 3 章：检查数据</span><span class="sxs-lookup"><span data-stu-id="733be-111">Chapter 3: Examining Data</span></span>](chapter-3-examining-data.md)
+    - [<span data-ttu-id="733be-112">第 4 章：编辑数据</span><span class="sxs-lookup"><span data-stu-id="733be-112">Chapter 4: Editing Data</span></span>](chapter-4-editing-data.md)
+    - [<span data-ttu-id="733be-113">第 5 章：更新和持久化数据</span><span class="sxs-lookup"><span data-stu-id="733be-113">Chapter 5: Updating and Persisting Data</span></span>](chapter-5-updating-and-persisting-data.md)
+    - [<span data-ttu-id="733be-114">第 6 章：错误处理</span><span class="sxs-lookup"><span data-stu-id="733be-114">Chapter 6: Error Handling</span></span>](chapter-6-error-handling.md)
+    - [<span data-ttu-id="733be-115">第 7 章：处理 ADO 事件</span><span class="sxs-lookup"><span data-stu-id="733be-115">Chapter 7: Handling ADO Events</span></span>](chapter-7-handling-ado-events.md)
+    - [<span data-ttu-id="733be-116">第 8 章：了解游标和锁定</span><span class="sxs-lookup"><span data-stu-id="733be-116">Chapter 8: Understanding Cursors and Locks</span></span>](chapter-8-understanding-cursors-and-locks.md)
+    - [<span data-ttu-id="733be-117">第 9 章：数据定形</span><span class="sxs-lookup"><span data-stu-id="733be-117">Chapter 9: Data Shaping</span></span>](chapter-9-data-shaping.md)
+    - [<span data-ttu-id="733be-118">第 10 章：记录和流</span><span class="sxs-lookup"><span data-stu-id="733be-118">Chapter 10: Records and Streams</span></span>](chapter-10-records-and-streams.md)
 
-- [<span data-ttu-id="de32f-119">第 II 部分：远程数据服务 (RDS)</span><span class="sxs-lookup"><span data-stu-id="de32f-119">Section II: Remote Data Service (RDS)</span></span>](section-ii-remote-data-service.md)
+- [<span data-ttu-id="733be-119">第 II 部分：远程数据服务 (RDS)</span><span class="sxs-lookup"><span data-stu-id="733be-119">Section II: Remote Data Service (RDS)</span></span>](section-ii-remote-data-service.md)
     
-    - [<span data-ttu-id="de32f-120">第 11 章：RDS 基础知识</span><span class="sxs-lookup"><span data-stu-id="de32f-120">Chapter 11: RDS Fundamentals</span></span>](chapter-11-rds-fundamentals.md)
-    - [<span data-ttu-id="de32f-121">第 12 章：RDS 教程</span><span class="sxs-lookup"><span data-stu-id="de32f-121">Chapter 12: RDS Tutorial</span></span>](chapter-12-rds-tutorial.md)
-    - [<span data-ttu-id="de32f-122">第 13 章：RDS 用法和安全性</span><span class="sxs-lookup"><span data-stu-id="de32f-122">Chapter 13: RDS Usage and Security</span></span>](chapter-13-rds-usage-and-security.md)
+    - [<span data-ttu-id="733be-120">第 11 章：RDS 基础知识</span><span class="sxs-lookup"><span data-stu-id="733be-120">Chapter 11: RDS Fundamentals</span></span>](chapter-11-rds-fundamentals.md)
+    - [<span data-ttu-id="733be-121">第 12 章：RDS 教程</span><span class="sxs-lookup"><span data-stu-id="733be-121">Chapter 12: RDS Tutorial</span></span>](chapter-12-rds-tutorial.md)
+    - [<span data-ttu-id="733be-122">第 13 章：RDS 用法和安全性</span><span class="sxs-lookup"><span data-stu-id="733be-122">Chapter 13: RDS Usage and Security</span></span>](chapter-13-rds-usage-and-security.md)
 
-- [<span data-ttu-id="de32f-123">第三节：ActiveX 数据对象（多维）(ADOMD)</span><span class="sxs-lookup"><span data-stu-id="de32f-123">Section III: ActiveX Data Objects (Multidimensional) (ADOMD)</span></span>](section-iii-ado-multidimensional-ado-md.md)
+- [<span data-ttu-id="733be-123">第三节：ActiveX 数据对象（多维）(ADOMD)</span><span class="sxs-lookup"><span data-stu-id="733be-123">Section III: ActiveX Data Objects (Multidimensional) (ADOMD)</span></span>](section-iii-ado-multidimensional-ado-md.md)
     
-    - [<span data-ttu-id="de32f-124">第 14 章：ADO MD 基础知识</span><span class="sxs-lookup"><span data-stu-id="de32f-124">Chapter 14: ADO MD Fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
+    - [<span data-ttu-id="733be-124">第 14 章：ADO MD 基础知识</span><span class="sxs-lookup"><span data-stu-id="733be-124">Chapter 14: ADO MD Fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
 
-- [<span data-ttu-id="de32f-125">第四节：数据定义语言和安全性的 ActiveX 数据对象扩展 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="de32f-125">Section IV: ActiveX Data Objects Extensions for Data Definition Language and Security (ADOX)</span></span>](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
+- [<span data-ttu-id="733be-125">第四节：数据定义语言和安全性的 ActiveX 数据对象扩展 (ADOX)</span><span class="sxs-lookup"><span data-stu-id="733be-125">Section IV: ActiveX Data Objects Extensions for Data Definition Language and Security (ADOX)</span></span>](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
     
-    - [<span data-ttu-id="de32f-126">第 15 章：ADOX 基础知识</span><span class="sxs-lookup"><span data-stu-id="de32f-126">Chapter 15: ADOX Fundamentals</span></span>](chapter-15-adox-fundamentals.md)
+    - [<span data-ttu-id="733be-126">第 15 章：ADOX 基础知识</span><span class="sxs-lookup"><span data-stu-id="733be-126">Chapter 15: ADOX Fundamentals</span></span>](chapter-15-adox-fundamentals.md)
 
-- [<span data-ttu-id="de32f-127">第 V 部分：附录</span><span class="sxs-lookup"><span data-stu-id="de32f-127">Section V: Appendixes</span></span>](section-v-appendixes.md)
+- [<span data-ttu-id="733be-127">第 V 部分：附录</span><span class="sxs-lookup"><span data-stu-id="733be-127">Section V: Appendixes</span></span>](section-v-appendixes.md)
     
-    - [<span data-ttu-id="de32f-128">附录 A：提供程序</span><span class="sxs-lookup"><span data-stu-id="de32f-128">Appendix A: Providers</span></span>](appendix-a-providers.md)
-    - [<span data-ttu-id="de32f-129">附录 B：ADO 错误</span><span class="sxs-lookup"><span data-stu-id="de32f-129">Appendix B: ADO Errors</span></span>](appendix-b-ado-errors.md)
-    - [<span data-ttu-id="de32f-130">附录 C：用 ADO 编程</span><span class="sxs-lookup"><span data-stu-id="de32f-130">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
-    - [<span data-ttu-id="de32f-131">附录 D：ADO 示例</span><span class="sxs-lookup"><span data-stu-id="de32f-131">Appendix D: ADO Samples</span></span>](appendix-d-ado-samples.md)
+    - [<span data-ttu-id="733be-128">附录 A：提供程序</span><span class="sxs-lookup"><span data-stu-id="733be-128">Appendix A: Providers</span></span>](appendix-a-providers.md)
+    - [<span data-ttu-id="733be-129">附录 B：ADO 错误</span><span class="sxs-lookup"><span data-stu-id="733be-129">Appendix B: ADO Errors</span></span>](appendix-b-ado-errors.md)
+    - [<span data-ttu-id="733be-130">附录 C：用 ADO 编程</span><span class="sxs-lookup"><span data-stu-id="733be-130">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
+    - [<span data-ttu-id="733be-131">附录 D：ADO 示例</span><span class="sxs-lookup"><span data-stu-id="733be-131">Appendix D: ADO Samples</span></span>](appendix-d-ado-samples.md)
 
-- [<span data-ttu-id="de32f-132">ADO 术语表</span><span class="sxs-lookup"><span data-stu-id="de32f-132">ADO Glossary</span></span>](ado-glossary.md)
+- [<span data-ttu-id="733be-132">ADO 术语表</span><span class="sxs-lookup"><span data-stu-id="733be-132">ADO Glossary</span></span>](ado-glossary.md)
 

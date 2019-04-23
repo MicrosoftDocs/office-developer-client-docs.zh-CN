@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283287"
 ---
-# <a name="ado-md-properties"></a><span data-ttu-id="0cb30-102">ADO MD 属性</span><span class="sxs-lookup"><span data-stu-id="0cb30-102">ADO MD properties</span></span>
+# <a name="ado-md-properties"></a><span data-ttu-id="ec51b-102">ADO MD 属性</span><span class="sxs-lookup"><span data-stu-id="ec51b-102">ADO MD properties</span></span>
 
-<span data-ttu-id="0cb30-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="0cb30-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ec51b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec51b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -27,108 +27,108 @@ ms.locfileid: "28716220"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="0cb30-104">属性</span><span class="sxs-lookup"><span data-stu-id="0cb30-104">Property</span></span></th>
-<th><span data-ttu-id="0cb30-105">说明</span><span class="sxs-lookup"><span data-stu-id="0cb30-105">Description</span></span></th>
+<th><span data-ttu-id="ec51b-104">属性</span><span class="sxs-lookup"><span data-stu-id="ec51b-104">Property</span></span></th>
+<th><span data-ttu-id="ec51b-105">说明</span><span class="sxs-lookup"><span data-stu-id="ec51b-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-107">指示当前单元格集或目录当前所属的 ADO <strong>Connection</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="0cb30-107">Indicates to which ADO <strong>Connection</strong> object the current cellset or catalog currently belongs.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-107">指示当前单元格集或目录当前所属的 ADO <strong>Connection</strong> 对象。</span><span class="sxs-lookup"><span data-stu-id="ec51b-107">Indicates to which ADO <strong>Connection</strong> object the current cellset or catalog currently belongs.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-108"><a href="caption-property-ado-md.md">Caption</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-108"><a href="caption-property-ado-md.md">Caption</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-109">指示显示 <strong>Level</strong> 或 <strong>Member</strong> 对象时要使用的文本标题。</span><span class="sxs-lookup"><span data-stu-id="0cb30-109">Indicates the text caption to use when displaying a <strong>Level</strong> or <strong>Member</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-108"><a href="caption-property-ado-md.md">Caption</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-108"><a href="caption-property-ado-md.md">Caption</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-109">指示显示 <strong>Level</strong> 或 <strong>Member</strong> 对象时要使用的文本标题。</span><span class="sxs-lookup"><span data-stu-id="ec51b-109">Indicates the text caption to use when displaying a <strong>Level</strong> or <strong>Member</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-110"><a href="childcount-property-ado-md.md">ChildCount</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-110"><a href="childcount-property-ado-md.md">ChildCount</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-111">指示在层次结构中将当前 <strong>Member</strong> 对象作为父级的成员的数量。</span><span class="sxs-lookup"><span data-stu-id="0cb30-111">Indicates the number of members for which the current <strong>Member</strong> object is the parent in a hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-110"><a href="childcount-property-ado-md.md">ChildCount</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-110"><a href="childcount-property-ado-md.md">ChildCount</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-111">指示在层次结构中将当前 <strong>Member</strong> 对象作为父级的成员的数量。</span><span class="sxs-lookup"><span data-stu-id="ec51b-111">Indicates the number of members for which the current <strong>Member</strong> object is the parent in a hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-112"><a href="children-property-ado-md.md">子女</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-112"><a href="children-property-ado-md.md">Children</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-113">返回层次结构中将当前 <strong>Member</strong> 作为父级的 <strong>Members</strong> 集合。</span><span class="sxs-lookup"><span data-stu-id="0cb30-113">Returns a collection of <strong>Members</strong> for which the current <strong>Member</strong> is the parent in the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-112"><a href="children-property-ado-md.md">子女</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-112"><a href="children-property-ado-md.md">Children</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-113">返回层次结构中将当前 <strong>Member</strong> 作为父级的 <strong>Members</strong> 集合。</span><span class="sxs-lookup"><span data-stu-id="ec51b-113">Returns a collection of <strong>Members</strong> for which the current <strong>Member</strong> is the parent in the hierarchy.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-114"><a href="count-property-ado.md">Count</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-114"><a href="count-property-ado.md">Count</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-115">指示集合中的对象数。</span><span class="sxs-lookup"><span data-stu-id="0cb30-115">Indicates the number of objects in a collection.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-114"><a href="count-property-ado.md">Count</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-114"><a href="count-property-ado.md">Count</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-115">指示集合中的对象数。</span><span class="sxs-lookup"><span data-stu-id="ec51b-115">Indicates the number of objects in a collection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-116"><a href="depth-property-ado-md.md">Depth</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-116"><a href="depth-property-ado-md.md">Depth</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-117">指示 <strong>Level</strong> 和层次结构的根级别之间的级别数。</span><span class="sxs-lookup"><span data-stu-id="0cb30-117">Indicates the number of levels between the <strong>Level</strong> and the root of the hierarchy level.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-116"><a href="depth-property-ado-md.md">Depth</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-116"><a href="depth-property-ado-md.md">Depth</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-117">指示 <strong>Level</strong> 和层次结构的根级别之间的级别数。</span><span class="sxs-lookup"><span data-stu-id="ec51b-117">Indicates the number of levels between the <strong>Level</strong> and the root of the hierarchy level.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-118"><a href="description-property-ado-md.md">说明</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-118"><a href="description-property-ado-md.md">Description</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-119">返回当前对象的文本说明。</span><span class="sxs-lookup"><span data-stu-id="0cb30-119">Returns a text explanation of the current object.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-118"><a href="description-property-ado-md.md">Description</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-118"><a href="description-property-ado-md.md">Description</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-119">返回当前对象的文本说明。</span><span class="sxs-lookup"><span data-stu-id="ec51b-119">Returns a text explanation of the current object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-121">指示轴上的维数。</span><span class="sxs-lookup"><span data-stu-id="0cb30-121">Indicates the number of dimensions on an axis.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-121">指示轴上的维数。</span><span class="sxs-lookup"><span data-stu-id="ec51b-121">Indicates the number of dimensions on an axis.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-123">指示该成员在轴上是否有直接子级。</span><span class="sxs-lookup"><span data-stu-id="0cb30-123">Indicates whether no children immediately follow the member on the axis.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-123">指示该成员在轴上是否有直接子级。</span><span class="sxs-lookup"><span data-stu-id="ec51b-123">Indicates whether no children immediately follow the member on the axis.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-125">指示当前单元格集的筛选信息。</span><span class="sxs-lookup"><span data-stu-id="0cb30-125">Indicates filter information for the current cellset.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-125">指示当前单元格集的筛选信息。</span><span class="sxs-lookup"><span data-stu-id="ec51b-125">Indicates filter information for the current cellset.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-126"><a href="item-property-ado-md-cellset.md">项</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-126"><a href="item-property-ado-md-cellset.md">Item</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-127">使用单元格的坐标从单元格集中检索单元格。</span><span class="sxs-lookup"><span data-stu-id="0cb30-127">Retrieves a cell from a cellset using its coordinates.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-126"><a href="item-property-ado-md-cellset.md">Item</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-126"><a href="item-property-ado-md-cellset.md">Item</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-127">使用单元格的坐标从单元格集中检索单元格。</span><span class="sxs-lookup"><span data-stu-id="ec51b-127">Retrieves a cell from a cellset using its coordinates.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-128"><a href="item-property-ado.md">项</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-128"><a href="item-property-ado.md">Item</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-129">按名称或序号返回集合的某个特定成员。</span><span class="sxs-lookup"><span data-stu-id="0cb30-129">Returns a specific member of a collection by name or ordinal number.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-128"><a href="item-property-ado.md">Item</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-128"><a href="item-property-ado.md">Item</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-129">按名称或序号返回集合的某个特定成员。</span><span class="sxs-lookup"><span data-stu-id="ec51b-129">Returns a specific member of a collection by name or ordinal number.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-131">指示单元格值的格式化显示。</span><span class="sxs-lookup"><span data-stu-id="0cb30-131">Indicates the formatted display of a cell value.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-131">指示单元格值的格式化显示。</span><span class="sxs-lookup"><span data-stu-id="ec51b-131">Indicates the formatted display of a cell value.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-133">指示层次结构的根和某个成员之间的级数。</span><span class="sxs-lookup"><span data-stu-id="0cb30-133">Indicates the number of levels between the root of the hierarchy and a member.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-133">指示层次结构的根和某个成员之间的级数。</span><span class="sxs-lookup"><span data-stu-id="ec51b-133">Indicates the number of levels between the root of the hierarchy and a member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-134"><a href="levelname-property-ado-md.md">LevelName</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-134"><a href="levelname-property-ado-md.md">LevelName</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-135">指示成员级别的名称。</span><span class="sxs-lookup"><span data-stu-id="0cb30-135">Indicates the name of the level of a member.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-134"><a href="levelname-property-ado-md.md">LevelName</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-134"><a href="levelname-property-ado-md.md">LevelName</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-135">指示成员级别的名称。</span><span class="sxs-lookup"><span data-stu-id="ec51b-135">Indicates the name of the level of a member.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-136"><a href="name-property-ado-md.md">Name</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-136"><a href="name-property-ado-md.md">Name</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-137">指示对象的名称。</span><span class="sxs-lookup"><span data-stu-id="0cb30-137">Indicates the name of an object.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-136"><a href="name-property-ado-md.md">Name</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-136"><a href="name-property-ado-md.md">Name</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-137">指示对象的名称。</span><span class="sxs-lookup"><span data-stu-id="ec51b-137">Indicates the name of an object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-138"><a href="ordinal-property-ado-md-cell.md">序数 （单元格）</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-138"><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-139">根据单元格在单元格集内的位置唯一标识该单元格。</span><span class="sxs-lookup"><span data-stu-id="0cb30-139">Uniquely identifies a cell by its position within a cellset.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-138"><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-138"><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-139">根据单元格在单元格集内的位置唯一标识该单元格。</span><span class="sxs-lookup"><span data-stu-id="ec51b-139">Uniquely identifies a cell by its position within a cellset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-140"><a href="ordinal-property-ado-md-position.md">序数 (Position)</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-140"><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-141">唯一标识轴上的某个位置。</span><span class="sxs-lookup"><span data-stu-id="0cb30-141">Uniquely identifies a position along an axis.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-140"><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-140"><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-141">唯一标识轴上的某个位置。</span><span class="sxs-lookup"><span data-stu-id="ec51b-141">Uniquely identifies a position along an axis.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-142"><a href="parent-property-ado-md.md">Parent</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-142"><a href="parent-property-ado-md.md">Parent</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-143">指示层次结构中作为当前成员的父级的成员。</span><span class="sxs-lookup"><span data-stu-id="0cb30-143">Indicates the member that is the parent of the current member in a hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-142"><a href="parent-property-ado-md.md">Parent</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-142"><a href="parent-property-ado-md.md">Parent</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-143">指示层次结构中作为当前成员的父级的成员。</span><span class="sxs-lookup"><span data-stu-id="ec51b-143">Indicates the member that is the parent of the current member in a hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-145">指示此位置成员的父级是否与紧挨的前一个成员的父级相同。</span><span class="sxs-lookup"><span data-stu-id="0cb30-145">Indicates whether the parent of this position member is the same as the parent of the immediately preceding member.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-145">指示此位置成员的父级是否与紧挨的前一个成员的父级相同。</span><span class="sxs-lookup"><span data-stu-id="ec51b-145">Indicates whether the parent of this position member is the same as the parent of the immediately preceding member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-146"><a href="source-property-ado-md.md">Source</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-146"><a href="source-property-ado-md.md">Source</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-147">指示单元格集中数据的来源。</span><span class="sxs-lookup"><span data-stu-id="0cb30-147">Indicates the source for the data in the cellset.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-146"><a href="source-property-ado-md.md">Source</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-146"><a href="source-property-ado-md.md">Source</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-147">指示单元格集中数据的来源。</span><span class="sxs-lookup"><span data-stu-id="ec51b-147">Indicates the source for the data in the cellset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-148"><a href="state-property-ado-md.md">State</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-148"><a href="state-property-ado-md.md">State</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-149">指示单元格集的当前状态。</span><span class="sxs-lookup"><span data-stu-id="0cb30-149">Indicates the current state of the cellset.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-148"><a href="state-property-ado-md.md">State</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-148"><a href="state-property-ado-md.md">State</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-149">指示单元格集的当前状态。</span><span class="sxs-lookup"><span data-stu-id="ec51b-149">Indicates the current state of the cellset.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-150"><a href="type-property-ado-md.md">Type</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-150"><a href="type-property-ado-md.md">Type</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-151">指示当前成员的类型。</span><span class="sxs-lookup"><span data-stu-id="0cb30-151">Indicates the type of the current member.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-150"><a href="type-property-ado-md.md">Type</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-150"><a href="type-property-ado-md.md">Type</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-151">指示当前成员的类型。</span><span class="sxs-lookup"><span data-stu-id="ec51b-151">Indicates the type of the current member.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cb30-152"><a href="uniquename-property-ado-md.md">唯一名称</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-152"><a href="uniquename-property-ado-md.md">UniqueName</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-153">指示当前对象的明确的名称。</span><span class="sxs-lookup"><span data-stu-id="0cb30-153">Indicates an unambiguous name for the current object.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-152"><a href="uniquename-property-ado-md.md">UniqueName</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-152"><a href="uniquename-property-ado-md.md">UniqueName</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-153">指示当前对象的明确的名称。</span><span class="sxs-lookup"><span data-stu-id="ec51b-153">Indicates an unambiguous name for the current object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cb30-154"><a href="value-property-ado-md.md">Value</a></span><span class="sxs-lookup"><span data-stu-id="0cb30-154"><a href="value-property-ado-md.md">Value</a></span></span></p></td>
-<td><p><span data-ttu-id="0cb30-155">指示当前单元格的值。</span><span class="sxs-lookup"><span data-stu-id="0cb30-155">Indicates the value of the current cell.</span></span></p></td>
+<td><p><span data-ttu-id="ec51b-154"><a href="value-property-ado-md.md">值</a></span><span class="sxs-lookup"><span data-stu-id="ec51b-154"><a href="value-property-ado-md.md">Value</a></span></span></p></td>
+<td><p><span data-ttu-id="ec51b-155">指示当前单元格的值。</span><span class="sxs-lookup"><span data-stu-id="ec51b-155">Indicates the value of the current cell.</span></span></p></td>
 </tr>
 </tbody>
 </table>

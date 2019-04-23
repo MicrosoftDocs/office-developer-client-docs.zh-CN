@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ab5dbff4c293bc9f44c3617a18d09a5e73cc16ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288586"
 ---
-# <a name="nextrecordset-method-example-vb"></a><span data-ttu-id="2e8fd-102">NextRecordset 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="2e8fd-102">NextRecordset method example (VB)</span></span>
+# <a name="nextrecordset-method-example-vb"></a><span data-ttu-id="498d9-102">NextRecordset 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="498d9-102">NextRecordset method example (VB)</span></span>
 
 
-<span data-ttu-id="2e8fd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e8fd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="498d9-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="498d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2e8fd-104">本示例使用 [NextRecordset](nextrecordset-method-ado.md) 方法来查看记录集中的数据，该方法使用由三个单独的 **SELECT** 语句构成的复合命令语句。</span><span class="sxs-lookup"><span data-stu-id="2e8fd-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="498d9-104">本示例使用 [NextRecordset](nextrecordset-method-ado.md) 方法来查看记录集中的数据，该方法使用由三个单独的 **SELECT** 语句构成的复合命令语句。</span><span class="sxs-lookup"><span data-stu-id="498d9-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```vb 
  

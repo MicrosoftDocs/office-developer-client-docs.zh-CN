@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e067c2ae893d19efdbcdc160fc7a7d54b9682297
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288544"
 ---
-# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="b90a2-102">NumericScale 和 Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="b90a2-102">NumericScale and Precision properties example (VB)</span></span>
+# <a name="numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="3b96b-102">NumericScale 和 Precision 属性示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="3b96b-102">NumericScale and Precision properties example (VB)</span></span>
 
 
-<span data-ttu-id="b90a2-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b90a2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3b96b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b96b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b90a2-104">本示例演示 [Column](numericscale-property-adox.md) 对象的 [NumericScale](precision-property-adox.md) 和 [Precision](column-object-adox.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="b90a2-104">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object.</span></span> <span data-ttu-id="b90a2-105">此代码将显示*Northwind*数据库的**订单明细**表及其值。</span><span class="sxs-lookup"><span data-stu-id="b90a2-105">This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
+<span data-ttu-id="3b96b-p101">本示例演示 [Column](column-object-adox.md) 对象的 [NumericScale](numericscale-property-adox.md) 和 [Precision](precision-property-adox.md) 属性。此代码针对 *Northwind* 数据库的 **Order Details**（订单明细）表显示这两个属性的值。</span><span class="sxs-lookup"><span data-stu-id="3b96b-p101">This example demonstrates the [NumericScale](numericscale-property-adox.md) and [Precision](precision-property-adox.md) properties of the [Column](column-object-adox.md) object. This code displays their value for the **Order Details** table of the *Northwind* database.</span></span>
 
 ```vb 
  

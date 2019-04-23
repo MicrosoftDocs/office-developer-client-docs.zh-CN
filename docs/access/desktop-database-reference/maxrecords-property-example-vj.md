@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1fdba360d00f811a814315a482d55d54e80e04cf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289691"
 ---
-# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="a121f-102">MaxRecords 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="a121f-102">MaxRecords property example (VJ++)</span></span>
+# <a name="maxrecords-property-example-vj"></a><span data-ttu-id="c51a4-102">MaxRecords 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c51a4-102">MaxRecords property example (VJ++)</span></span>
 
 
-<span data-ttu-id="a121f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a121f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c51a4-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="c51a4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a121f-104">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="a121f-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
+<span data-ttu-id="c51a4-104">本示例使用 [MaxRecords](maxrecords-property-ado.md) 属性打开一个 [Recordset](recordset-object-ado.md)，该记录集包含 ***Titles***（书目）表中价格最贵的 10 本书的标题。</span><span class="sxs-lookup"><span data-stu-id="c51a4-104">This example uses the [MaxRecords](maxrecords-property-ado.md) property to open a [Recordset](recordset-object-ado.md) containing the 10 most expensive titles in the ***Titles*** table.</span></span>
 
 ```java 
  

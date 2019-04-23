@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 598cfa0cc7d35586e02f003ac28401f72a5e2929
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280637"
 ---
-# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="3336a-102">ActiveCommand 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="3336a-102">ActiveCommand property example (JScript)</span></span>
+# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="c8ae3-102">ActiveCommand 属性示例 (JScript)</span><span class="sxs-lookup"><span data-stu-id="c8ae3-102">ActiveCommand property example (JScript)</span></span>
 
-<span data-ttu-id="3336a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="3336a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c8ae3-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="c8ae3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3336a-p101">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActiveCommandJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="3336a-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
+<span data-ttu-id="c8ae3-p101">此示例演示 [ActiveCommand](activecommand-property-ado.md) 属性。请将以下代码剪切并粘贴到"记事本"或其他文本编辑器中，并将其另存为 **ActiveCommandJS.asp** 。</span><span class="sxs-lookup"><span data-stu-id="c8ae3-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveCommandJS --> 

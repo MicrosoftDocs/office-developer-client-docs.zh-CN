@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4045445120d42f1ca88fce22ce566fc970fce28b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288951"
 ---
-# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a><span data-ttu-id="be084-102">Microsoft OLE DB Persistence Provider（ADO 服务提供程序）</span><span class="sxs-lookup"><span data-stu-id="be084-102">Microsoft OLE DB Persistence Provider (ADO Service Provider)</span></span>
+# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a><span data-ttu-id="bd364-102">Microsoft OLE DB 暂留提供程序（ADO 服务提供程序）</span><span class="sxs-lookup"><span data-stu-id="bd364-102">Microsoft OLE DB Persistence Provider (ADO Service Provider)</span></span>
 
 
-<span data-ttu-id="be084-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="be084-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="bd364-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd364-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="be084-p101">Microsoft OLE DB Persistence Provider 使您可以将 [Recordset](recordset-object-ado.md) 对象保存到文件中，而且以后可以从该文件中还原 **Recordset** 对象。架构信息、数据和待定的更改将被保留。</span><span class="sxs-lookup"><span data-stu-id="be084-p101">The Microsoft OLE DB Persistence Provider enables you to save a [Recordset](recordset-object-ado.md) object into a file, and later restore that **Recordset** object from the file. Schema information, data, and pending changes are preserved.</span></span>
+<span data-ttu-id="bd364-p101">Microsoft OLE DB Persistence Provider 使您可以将 [Recordset](recordset-object-ado.md) 对象保存到文件中，而且以后可以从该文件中还原 **Recordset** 对象。架构信息、数据和待定的更改将被保留。</span><span class="sxs-lookup"><span data-stu-id="bd364-p101">The Microsoft OLE DB Persistence Provider enables you to save a [Recordset](recordset-object-ado.md) object into a file, and later restore that **Recordset** object from the file. Schema information, data, and pending changes are preserved.</span></span>
 
-<span data-ttu-id="be084-106">可以采用专用的 Advanced Data Table Gram (ADTG) 格式或开放式可扩展标记语言 (XML) 格式来保存 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="be084-106">You can save the **Recordset** in either the proprietary Advanced Data Table Gram (ADTG) format, or the open Extensible Markup Language (XML) format.</span></span>
+<span data-ttu-id="bd364-106">可以采用专用的 Advanced Data Table Gram (ADTG) 格式或开放式可扩展标记语言 (XML) 格式来保存 **Recordset** 。</span><span class="sxs-lookup"><span data-stu-id="bd364-106">You can save the **Recordset** in either the proprietary Advanced Data Table Gram (ADTG) format, or the open Extensible Markup Language (XML) format.</span></span>
 
-## <a name="provider-keyword"></a><span data-ttu-id="be084-107">提供程序关键字</span><span class="sxs-lookup"><span data-stu-id="be084-107">Provider Keyword</span></span>
+## <a name="provider-keyword"></a><span data-ttu-id="bd364-107">提供程序关键字</span><span class="sxs-lookup"><span data-stu-id="bd364-107">Provider Keyword</span></span>
 
-<span data-ttu-id="be084-108">若要调用此提供程序，请在连接字符串中指定以下关键字和值。</span><span class="sxs-lookup"><span data-stu-id="be084-108">To invoke this provider, specify the following keyword and value in the connection string.</span></span>
+<span data-ttu-id="bd364-108">若要调用此提供程序，请在连接字符串中指定以下关键字和值。</span><span class="sxs-lookup"><span data-stu-id="bd364-108">To invoke this provider, specify the following keyword and value in the connection string.</span></span>
 
 ```vb 
  
 "Provider=MSPersist" 
 ```
 
-## <a name="errors"></a><span data-ttu-id="be084-109">错误</span><span class="sxs-lookup"><span data-stu-id="be084-109">Errors</span></span>
+## <a name="errors"></a><span data-ttu-id="bd364-109">Errors</span><span class="sxs-lookup"><span data-stu-id="bd364-109">Errors</span></span>
 
-<span data-ttu-id="be084-110">在应用程序中，可能会检测到此提供程序发出的以下错误。</span><span class="sxs-lookup"><span data-stu-id="be084-110">The following errors issued by this provider can be detected in your application.</span></span>
+<span data-ttu-id="bd364-110">在应用程序中，可能会检测到此提供程序发出的以下错误。</span><span class="sxs-lookup"><span data-stu-id="bd364-110">The following errors issued by this provider can be detected in your application.</span></span>
 
 <table>
 <colgroup>
@@ -43,30 +43,30 @@ ms.locfileid: "28715506"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="be084-111">常量</span><span class="sxs-lookup"><span data-stu-id="be084-111">Constant</span></span></p></th>
-<th><p><span data-ttu-id="be084-112">说明</span><span class="sxs-lookup"><span data-stu-id="be084-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="bd364-111">常量</span><span class="sxs-lookup"><span data-stu-id="bd364-111">Constant</span></span></p></th>
+<th><p><span data-ttu-id="bd364-112">说明</span><span class="sxs-lookup"><span data-stu-id="bd364-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="be084-113">E_BADSTREAM</span><span class="sxs-lookup"><span data-stu-id="be084-113">E_BADSTREAM</span></span></p></td>
-<td><p><span data-ttu-id="be084-114">打开的文件不具备有效格式（即，格式不为 ADTG 或 XML）。</span><span class="sxs-lookup"><span data-stu-id="be084-114">The file opened does not have a valid format (that is, the format is not ADTG or XML).</span></span></p></td>
+<td><p><span data-ttu-id="bd364-113">E_BADSTREAM</span><span class="sxs-lookup"><span data-stu-id="bd364-113">E_BADSTREAM</span></span></p></td>
+<td><p><span data-ttu-id="bd364-114">打开的文件不具备有效格式（即，格式不为 ADTG 或 XML）。</span><span class="sxs-lookup"><span data-stu-id="bd364-114">The file opened does not have a valid format (that is, the format is not ADTG or XML).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="be084-115">E_CANTPERSISTROWSET</span><span class="sxs-lookup"><span data-stu-id="be084-115">E_CANTPERSISTROWSET</span></span></p></td>
-<td><p><span data-ttu-id="be084-116">已保存的 <strong>Recordset</strong> 对象具有防止其被存储的特征。</span><span class="sxs-lookup"><span data-stu-id="be084-116">The <strong>Recordset</strong> object saved has characteristics that prevent it from being stored.</span></span></p></td>
+<td><p><span data-ttu-id="bd364-115">E_CANTPERSISTROWSET</span><span class="sxs-lookup"><span data-stu-id="bd364-115">E_CANTPERSISTROWSET</span></span></p></td>
+<td><p><span data-ttu-id="bd364-116">已保存的 <strong>Recordset</strong> 对象具有防止其被存储的特征。</span><span class="sxs-lookup"><span data-stu-id="bd364-116">The <strong>Recordset</strong> object saved has characteristics that prevent it from being stored.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="be084-117">备注</span><span class="sxs-lookup"><span data-stu-id="be084-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd364-117">注解</span><span class="sxs-lookup"><span data-stu-id="bd364-117">Remarks</span></span>
 
-<span data-ttu-id="be084-118">Microsoft OLE DB Persistence Provider 没有公开任何动态属性。</span><span class="sxs-lookup"><span data-stu-id="be084-118">The Microsoft OLE DB Persistence Provider exposes no dynamic properties.</span></span>
+<span data-ttu-id="bd364-118">Microsoft OLE DB Persistence Provider 没有公开任何动态属性。</span><span class="sxs-lookup"><span data-stu-id="bd364-118">The Microsoft OLE DB Persistence Provider exposes no dynamic properties.</span></span>
 
-<span data-ttu-id="be084-119">当前只有参数化分级 **Recordset** 对象不能被保存。</span><span class="sxs-lookup"><span data-stu-id="be084-119">Currently, only parameterized hierarchical **Recordset** objects cannot be saved.</span></span>
+<span data-ttu-id="bd364-119">当前只有参数化分级 **Recordset** 对象不能被保存。</span><span class="sxs-lookup"><span data-stu-id="bd364-119">Currently, only parameterized hierarchical **Recordset** objects cannot be saved.</span></span>
 
-<span data-ttu-id="be084-120">有关持久存储 **Recordset** 对象的详细信息，请参阅 [关于记录集持久化的详细信息](more-about-recordset-persistence.md)。</span><span class="sxs-lookup"><span data-stu-id="be084-120">For more information about persistently storing **Recordset** objects, see [Recordset Persistence](more-about-recordset-persistence.md).</span></span>
+<span data-ttu-id="bd364-120">有关持久存储 **Recordset** 对象的详细信息，请参阅[关于记录集持久化的详细信息](more-about-recordset-persistence.md)。</span><span class="sxs-lookup"><span data-stu-id="bd364-120">For more information about persistently storing **Recordset** objects, see [Recordset Persistence](more-about-recordset-persistence.md).</span></span>
 
-<span data-ttu-id="be084-121">使用流打开**Recordset**时, 不应指定任何其他的**Open**方法的*Source*参数以外参数。</span><span class="sxs-lookup"><span data-stu-id="be084-121">When a stream is used to open a **Recordset**, there should be no parameters specified other than the *Source* parameter of the **Open** method.</span></span>
+<span data-ttu-id="bd364-121">使用流打开 **Recordset** 时，除了 **Open** 方法的 *Source* 参数以外，不应指定任何其他参数。</span><span class="sxs-lookup"><span data-stu-id="bd364-121">When a stream is used to open a **Recordset**, there should be no parameters specified other than the *Source* parameter of the **Open** method.</span></span>
 

@@ -8,18 +8,18 @@ ms.date: 10/16/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 06398c6f7dd534c459a26b0de31342f37f22f9ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280486"
 ---
-# <a name="actualsize-and-definedsize-properties-example-vc"></a><span data-ttu-id="b16b4-102">ActualSize 和 DefinedSize 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="b16b4-102">ActualSize and DefinedSize properties example (VC++)</span></span>
+# <a name="actualsize-and-definedsize-properties-example-vc"></a><span data-ttu-id="4ea11-102">ActualSize 和 DefinedSize 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="4ea11-102">ActualSize and DefinedSize properties example (VC++)</span></span>
 
 
-<span data-ttu-id="b16b4-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="b16b4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4ea11-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="4ea11-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b16b4-104">此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。</span><span class="sxs-lookup"><span data-stu-id="b16b4-104">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
+<span data-ttu-id="4ea11-104">此示例使用 [ActualSize](actualsize-property-ado.md) 和 [DefinedSize](definedsize-property-ado.md) 属性来显示字段的定义大小和实际大小。</span><span class="sxs-lookup"><span data-stu-id="4ea11-104">This example uses the [ActualSize](actualsize-property-ado.md) and [DefinedSize](definedsize-property-ado.md) properties to display the defined size and actual size of a field.</span></span>
 
 ```cpp 
  

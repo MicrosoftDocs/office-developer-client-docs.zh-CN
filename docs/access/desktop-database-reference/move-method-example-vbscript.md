@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4ea9e65098637986de91b6eaf5d770f2a8cab5ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288839"
 ---
-# <a name="move-method-example-vbscript"></a><span data-ttu-id="dabc0-102">Move 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="dabc0-102">Move method example (VBScript)</span></span>
+# <a name="move-method-example-vbscript"></a><span data-ttu-id="2ee87-102">Move 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="2ee87-102">Move method example (VBScript)</span></span>
 
 
-<span data-ttu-id="dabc0-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="dabc0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2ee87-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ee87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dabc0-104">本示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="dabc0-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
+<span data-ttu-id="2ee87-104">本示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。</span><span class="sxs-lookup"><span data-stu-id="2ee87-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
 
-<span data-ttu-id="dabc0-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="dabc0-105">Use the following example in an Active Server Page (ASP).</span></span>
+<span data-ttu-id="2ee87-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="2ee87-105">Use the following example in an Active Server Page (ASP).</span></span>
 
-<span data-ttu-id="dabc0-p101">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **MoveVBS.asp** 。可以在任何浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="dabc0-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**. You can view the result in any browser.</span></span>
+<span data-ttu-id="2ee87-p101">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **MoveVBS.asp** 。可以在任何浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="2ee87-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**. You can view the result in any browser.</span></span>
 
-<span data-ttu-id="dabc0-109">尝试输入一个字母或非整数值以查看错误处理方式。</span><span class="sxs-lookup"><span data-stu-id="dabc0-109">Try entering a letter or noninteger to see the error handling work.</span></span>
+<span data-ttu-id="2ee87-109">尝试输入一个字母或非整数值以查看错误处理方式。</span><span class="sxs-lookup"><span data-stu-id="2ee87-109">Try entering a letter or noninteger to see the error handling work.</span></span>
 
 ```vb 
  

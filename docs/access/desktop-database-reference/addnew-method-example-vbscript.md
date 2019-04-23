@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 86fc5698cd6463c7236ab4f82a2f4f74374d664e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281851"
 ---
-# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="12829-102">AddNew 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="12829-102">AddNew method example (VBScript)</span></span>
+# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="0e773-102">AddNew 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="0e773-102">AddNew method example (VBScript)</span></span>
 
 
-<span data-ttu-id="12829-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="12829-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0e773-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="0e773-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="12829-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="12829-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="0e773-104">以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。</span><span class="sxs-lookup"><span data-stu-id="0e773-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
-<span data-ttu-id="12829-105">在 Active Server Page (ASP) 中使用下面的示例。</span><span class="sxs-lookup"><span data-stu-id="12829-105">Use the following example in an Active Server Page (ASP).</span></span> <span data-ttu-id="12829-106">使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。</span><span class="sxs-lookup"><span data-stu-id="12829-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="12829-107">剪切和粘贴到记事本或其他文本编辑器，以下代码并将其保存为**AddNewVBS.asp**。</span><span class="sxs-lookup"><span data-stu-id="12829-107">Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**.</span></span> <span data-ttu-id="12829-108">您可以在任何客户端浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="12829-108">You can view the result in any client browser.</span></span>
+<span data-ttu-id="0e773-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span><span class="sxs-lookup"><span data-stu-id="0e773-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="12829-109">若要实际使用此示例，请 HTML 窗体中添加一条新记录。</span><span class="sxs-lookup"><span data-stu-id="12829-109">To exercise the example, add a new record in the HTML form.</span></span> <span data-ttu-id="12829-110">单击“新增”\*\*\*\*。</span><span class="sxs-lookup"><span data-stu-id="12829-110">Click **Add New**.</span></span> <span data-ttu-id="12829-111">请参阅[Delete 方法示例](delete-method-example-vbscript.md)以移除不需要的记录。</span><span class="sxs-lookup"><span data-stu-id="12829-111">See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
+<span data-ttu-id="0e773-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span><span class="sxs-lookup"><span data-stu-id="0e773-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
 
 ```vb
  

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1d4f4777d904cd9078217e179bcebb31b7b6a1d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288320"
 ---
-# <a name="openschema-method-example-vb"></a><span data-ttu-id="725d8-102">OpenSchema 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="725d8-102">OpenSchema method example (VB)</span></span>
+# <a name="openschema-method-example-vb"></a><span data-ttu-id="a965c-102">OpenSchema 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="a965c-102">OpenSchema method example (VB)</span></span>
 
 
-<span data-ttu-id="725d8-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="725d8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a965c-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="a965c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="725d8-104">本示例使用 [OpenSchema](openschema-method-ado.md) 方法来显示 ***Pubs*** 数据库中每个表的名称和类型。</span><span class="sxs-lookup"><span data-stu-id="725d8-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="a965c-104">本示例使用 [OpenSchema](openschema-method-ado.md) 方法来显示 ***Pubs*** 数据库中每个表的名称和类型。</span><span class="sxs-lookup"><span data-stu-id="a965c-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```vb 
  
@@ -78,7 +78,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="725d8-105">本示例指定一个表\_类型**OpenSchema**方法***Criteria***参数中的查询约束。</span><span class="sxs-lookup"><span data-stu-id="725d8-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="725d8-106">因此，返回仅***Pubs***数据库中指定的视图架构信息。</span><span class="sxs-lookup"><span data-stu-id="725d8-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="725d8-107">本示例随后显示每个表的名称和类型。</span><span class="sxs-lookup"><span data-stu-id="725d8-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
+<span data-ttu-id="a965c-105">本示例在**OpenSchema**方法\_ ***Criteria***参数中指定表类型查询约束。</span><span class="sxs-lookup"><span data-stu-id="a965c-105">This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument.</span></span> <span data-ttu-id="a965c-106">因此，仅返回在 ***Pubs*** 数据库中指定的视图的架构信息。</span><span class="sxs-lookup"><span data-stu-id="a965c-106">As a result, only schema information for the Views specified in the ***Pubs*** database are returned.</span></span> <span data-ttu-id="a965c-107">本示例随后显示每个表的名称和类型。</span><span class="sxs-lookup"><span data-stu-id="a965c-107">The example then displays the name(s) and type(s) of each table(s).</span></span>
 
 ```vb 
  

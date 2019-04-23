@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e2c89b719d61ecfe8cd8369e7aa3c3c1827fe2fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288229"
 ---
-# <a name="optimize-property-example-vj"></a><span data-ttu-id="61103-102">Optimize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="61103-102">Optimize property example (VJ++)</span></span>
+# <a name="optimize-property-example-vj"></a><span data-ttu-id="ab67b-102">Optimize 属性示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ab67b-102">Optimize property example (VJ++)</span></span>
 
 
-<span data-ttu-id="61103-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="61103-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ab67b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="ab67b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61103-104">本示例演示 [Field](field-object-ado.md) 对象动态 Optimize 属性。</span><span class="sxs-lookup"><span data-stu-id="61103-104">This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property.</span></span> <span data-ttu-id="61103-105">***Pubs***数据库中的***作者***表的***zip***字段不编制索引。</span><span class="sxs-lookup"><span data-stu-id="61103-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="61103-106">对***zip***字段[Optimize](optimize-property-dynamic-ado.md)属性设置为**True**授权 ADO 建立索引的提高性能的[Find](find-method-ado.md)方法。</span><span class="sxs-lookup"><span data-stu-id="61103-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
+<span data-ttu-id="ab67b-104">本示例演示 [Field](field-object-ado.md) 对象动态 Optimize 属性。</span><span class="sxs-lookup"><span data-stu-id="ab67b-104">This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property.</span></span> <span data-ttu-id="ab67b-105">***Pubs*** 数据库中 ***Authors***（作者）表的 ***zip***（邮编）字段未经索引。</span><span class="sxs-lookup"><span data-stu-id="ab67b-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="ab67b-106">将 **zip**（邮编）字段的 [Optimize](optimize-property-dynamic-ado.md) 属性设置为 ***True*** 可使 ADO 生成索引，提高 [Find](find-method-ado.md) 方法的性能。</span><span class="sxs-lookup"><span data-stu-id="ab67b-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
 
 ```java 
  

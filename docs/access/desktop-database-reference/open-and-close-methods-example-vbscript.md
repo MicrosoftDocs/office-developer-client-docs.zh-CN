@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 76bc583804942f139e311aa75206ecf971ddc2a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288432"
 ---
-# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="8e582-102">Open 和 Close 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="8e582-102">Open and Close methods example (VBScript)</span></span>
+# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="a95d6-102">Open 和 Close 方法示例 (VBScript)</span><span class="sxs-lookup"><span data-stu-id="a95d6-102">Open and Close methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="8e582-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e582-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a95d6-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="a95d6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8e582-104">本示例对已打开的 [Recordset](open-method-ado-recordset.md) 和 [Connection](close-method-ado.md) 对象使用 [Open](recordset-object-ado.md) 和 [Close](connection-object-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="8e582-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="a95d6-104">本示例对已打开的 [Recordset](open-method-ado-recordset.md) 和 [Connection](close-method-ado.md) 对象使用 [Open](recordset-object-ado.md) 和 [Close](connection-object-ado.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="a95d6-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
-<span data-ttu-id="8e582-p101">在 Active Server Page (ASP) 中使用下面的示例。使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **OpenVBS.asp** 。可以在任何浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="8e582-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**. You can view the result in any browser.</span></span>
+<span data-ttu-id="a95d6-p101">在 Active Server Page (ASP) 中使用下面的示例。使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **OpenVBS.asp** 。可以在任何浏览器中查看结果。</span><span class="sxs-lookup"><span data-stu-id="a95d6-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**. You can view the result in any browser.</span></span>
 
 ```vb 
  
