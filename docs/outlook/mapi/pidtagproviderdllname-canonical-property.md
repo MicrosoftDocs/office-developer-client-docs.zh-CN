@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3bf6347102fc0865b081847a0b66763ba2654665
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 57fdc754ed4be29dbdd50a198707d8f39a14b3d4
+ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589481"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31980456"
 ---
 # <a name="pidtagproviderdllname-canonical-property"></a>PidTagProviderDllName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含基文件名的 MAPI 服务提供程序动态链接库 (DLL)。
+包含 MAPI 服务提供程序动态链接库 (DLL) 的基文件名。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_PROVIDER_DLL_NAME，PR_PROVIDER_DLL_NAME_A，PR_PROVIDER_DLL_NAME_W  <br/> |
-|标识符：  <br/> |0x300A  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|相关属性：  <br/> |PR_PROVIDER_DLL_NAME、PR_PROVIDER_DLL_NAME_A、PR_PROVIDER_DLL_NAME_W  <br/> |
+|标识符:  <br/> |0x300A  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-MAPI 使用 DLL 文件命名约定。 基文件名包含唯一标识 DLL 的最多包含 6 个字符。 MAPI 将字符串 32 追加到基的 DLL 名称，来确定在 32 位平台运行的版本。 例如，当 MAPI 的名称。指定 DLL，MAPI 构造 MAPI32 的名称。表示的 dll 的相应 32 位版本的 DLL。
+MAPI 使用 DLL 文件命名约定。 它将字符串32追加到基 DLL 名称, 以标识在32位平台上运行的版本。 例如, 当名称为 MAPI 时。DLL 的指定, MAPI 将构造名称 MAPI32。dll 的 dll, 用于表示相应的32位版本的 dll。
   
-这些属性应指定的基名称。 MAPI 将根据 32 字符串。 此属性将导致出错的一部分包括 32 的字符串。
+这些属性应指定基名称。 MAPI 将根据需要追加字符串32。 在此属性中包含字符串32将导致错误。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 
