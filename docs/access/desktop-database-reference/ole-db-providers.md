@@ -1,5 +1,5 @@
 ---
-title: OLE DB 提供程序 （Access 桌面数据库参考 （英文）
+title: OLE DB 提供程序 (Access desktop database reference)
 TOCTitle: OLE DB providers
 ms:assetid: ef412198-eac5-bf86-73fd-574e67276408
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 649f1db283b772a0f6798fae0d56a3a80c59e21b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288481"
 ---
 # <a name="ole-db-providers"></a>OLE DB 提供程序
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-ADO 程序员指南 》[介绍](introduction-to-ado-programming.md)讨论 ADO 和 Microsoft 数据访问体系结构的其余部分之间的关系。 OLE DB 定义了一组 COM 接口，用于向应用程序提供对存储在各种信息源中的数据的统一访问。 此方法允许数据源通过一些接口来共享其数据，这些接口支持适用于数据源的众多 DBMS 功能。 在设计上，OLE DB 的高性能结构基于它所使用的基于组件且非常灵活的服务模型。 OLE DB 只需要完成特定任务所必需的组件，而不是在应用程序和数据之间建立规定数量的中间层。
+《 ADO 程序员指南》[简介](introduction-to-ado-programming.md)讨论了 ado 和 Microsoft 数据访问体系结构其余部分之间的关系。 OLE DB 定义了一组 COM 接口，用于向应用程序提供对存储在各种信息源中的数据的统一访问。 此方法允许数据源通过一些接口来共享其数据，这些接口支持适用于数据源的众多 DBMS 功能。 在设计上，OLE DB 的高性能结构基于它所使用的基于组件且非常灵活的服务模型。 OLE DB 只需要完成特定任务所必需的组件，而不是在应用程序和数据之间建立规定数量的中间层。
 
 例如，假设用户要运行查询，请考虑下面的方案：
 

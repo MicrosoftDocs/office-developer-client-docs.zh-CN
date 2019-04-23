@@ -1,5 +1,5 @@
 ---
-title: ADOX 集合 （访问桌面数据库参考 （英文）
+title: ADOX 集合 (Access desktop database reference)
 TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9728c8a736e2639816f65b006394e513ea5a5d64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270124"
 ---
 # <a name="adox-collections"></a>ADOX 集合
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 

@@ -1,5 +1,5 @@
 ---
-title: Parameter.Direction 属性 (DAO)
+title: 参数. Direction 属性 (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3260fd3f01e8ca22d5be4f8d14f6376c31e2735a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288089"
 ---
-# <a name="parameterdirection-property-dao"></a>Parameter.Direction 属性 (DAO)
+# <a name="parameterdirection-property-dao"></a>参数. Direction 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 ## <a name="syntax"></a>语法
@@ -32,21 +32,21 @@ ms.locfileid: "28712258"
 
 ## <a name="remarks"></a>注解
 
-设置值或返回值是可设置为 **[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)** 常量之一的 Long 类型。
+设置或返回值是一个很长的值, 可设置为**[ParameterDirectionEnum](parameterdirectionenum-enumeration-dao.md)** 常量之一。
 
-使用 **Direction** 属性确定参数是输入参数、输出参数、此两者还是过程的返回值。某些 ODBC 驱动程序不提供与 SELECT 语句或过程调用的参数的方向有关的信息。在这些情况下，执行查询之前必须设置方向。
+使用 **Direction** 属性确定参数是输入参数、输出参数、此两者还是过程的返回值。 某些 ODBC 驱动程序不提供与 SELECT 语句或过程调用的参数的方向有关的信息。 在这些情况下，执行查询之前必须设置方向。
 
-例如，以下过程从名为的存储过程返回值"获取\_员工":
+例如, 以下过程将从名为 "获取\_员工" 的存储过程返回一个值:
 
-{? = 呼叫 get\_员工}
+{? = 呼叫获取\_员工}
 
-该调用将生成一个参数，即返回值。在执行 ****QueryDef**** 之前，需要将该参数的方向设置为 [dbParamOutput](querydef-object-dao.md) 或 **dbParamReturnValue**。
+该调用将生成一个参数，即返回值。 在执行 **[QueryDef](querydef-object-dao.md)** 之前，需要将该参数的方向设置为 **dbParamOutput** 或 **dbParamReturnValue**。
 
 在访问或设置参数值之前，以及在执行 **QueryDef** 之前，需要设置除 **dbParamInput** 以外的所有参数方向。
 
 应该为返回值使用 **dbParamReturnValue**，但如果驱动程序或服务器不支持该选项，则可以改用 **dbParamOutput**。
 
-Microsoft SQL Server 驱动程序可自动设置所有过程参数的 **Direction** 属性。并非所有 ODBC 驱动程序都可以确定查询参数的方向。在这些情况下，执行查询之前必须设置方向。
+Microsoft SQL Server 驱动程序可自动设置所有过程参数的 **Direction** 属性。 并非所有 ODBC 驱动程序都可以确定查询参数的方向。 在这些情况下，执行查询之前必须设置方向。
 
 ## <a name="example"></a>示例
 

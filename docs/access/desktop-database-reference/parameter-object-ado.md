@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d6f3acd4af280f30706e35eb7ecda1dee11aa7d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288075"
 ---
 # <a name="parameter-object-ado"></a>Parameter 对象 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 表示与基于参数化查询或存储过程的 [Command](command-object-ado.md) 对象关联的参数或变量。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 很多提供程序支持参数化命令。在这些命令中，对期望操作进行了一次定义，但使用变量（或参数）更改命令的某些细节。例如，SQL SELECT statement 可以使用某个参数定义 WHERE 子句的匹配条件，使用另一个参数定义 SORT BY 子句的列名。
 

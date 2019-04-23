@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 029306002946e3743f19a868c3d809a0bd0a079a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710060"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288811"
 ---
 # <a name="move-method-example-vj"></a>Move 方法示例 (VJ++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。
 

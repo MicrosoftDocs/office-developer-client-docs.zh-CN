@@ -1,5 +1,5 @@
 ---
-title: 命名空间 （访问桌面数据库参考 （英文）
+title: 命名空间 (Access 桌面数据库参考)
 TOCTitle: Namespaces
 ms:assetid: e39f003c-3d16-1fae-48c5-304593c41f2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250158(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 905edba502fcc2994be6f6b8e50a7200b66a82b8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288623"
 ---
 # <a name="namespaces"></a>命名空间
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ADO 中的 XML 持久化格式使用以下四个命名空间。
 
@@ -27,14 +27,14 @@ ADO 中的 XML 持久化格式使用以下四个命名空间。
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>前缀</p></th>
+<th><p>Prefix</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>s</p></td>
-<td><p>指的是&quot;XML 数据&quot;命名空间包含的元素和属性的定义当前<strong>Recordset</strong>的架构。</p></td>
+<td><p>引用 XML 数据&quot;&quot;命名空间, 该命名空间包含定义当前<strong>Recordset</strong>的架构的元素和属性。</p></td>
 </tr>
 <tr class="even">
 <td><p>dt</p></td>

@@ -8,19 +8,19 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e385df5029238106b51aa62949d5e4e94f065657
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280520"
 ---
 # <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_枚举
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) 提供程序何时重新计算分层记录集中的聚合和计算列。
 
-这些常量仅用于**MSDataShape**提供程序和**Recordset** "**Auto Recalc**"动态属性，该进行引用[ADO 动态属性索引](ado-dynamic-property-index.md)中并记录在[Microsoft Cursor Service for OLEDB](microsoft-cursor-service-for-ole-db-ado-service-component.md)或[Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)文档。
+这些常量仅用于**MSDataShape**提供程序和**Recordset** "**自动**重新计算" 动态属性, 该动态属性在[ADO 动态属性索引](ado-dynamic-property-index.md)中引用, 并在[Microsoft Cursor Service for OLE 中进行了记录。](microsoft-cursor-service-for-ole-db-ado-service-component.md) [OLE db 文档的 DB 或 Microsoft 数据定形服务](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)。
 
 <br/>
 
@@ -52,7 +52,7 @@ ms.locfileid: "28705398"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
 这些常量没有 ADO/WFC 等效值。
 

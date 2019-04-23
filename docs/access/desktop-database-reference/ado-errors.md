@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a25dc0d1d5e621a610b34ca1875c3fd76ba56eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720854"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283378"
 ---
 # <a name="ado-errors"></a>ADO 错误
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-ADO 错误作为运行时错误报告给您的程序。 您可以使用编程语言的错误捕获机制来捕获并处理它们。 例如，在 Visual Basic 中，使用 **On Error** 语句。 在 Visual J++ 中，使用 **try-catch** 块。 在 Visual C++ 中，错误捕获机制取决于您用于访问 ADO 库的方法。 使用\#导入，请使用**try-catch**块。 否则，C++ 程序员需要通过调用 **GetErrorInfo** 显式检索该错误对象。 以下 Visual Basic 子程序演示了如何捕获 ADO 错误：
+ADO 错误作为运行时错误报告给您的程序。 您可以使用编程语言的错误捕获机制来捕获并处理它们。 例如，在 Visual Basic 中，使用 **On Error** 语句。 在 Visual J++ 中，使用 **try-catch** 块。 在 Visual C++ 中，错误捕获机制取决于您用于访问 ADO 库的方法。 通过\#导入, 使用**try-catch**块。 否则，C++ 程序员需要通过调用 **GetErrorInfo** 显式检索该错误对象。 以下 Visual Basic 子程序演示了如何捕获 ADO 错误：
 
 ```vb 
  
@@ -77,7 +77,7 @@ End Sub
 ' EndErrorHandlingVB01 
 ```
 
-这**窗体\_负载**事件过程有意通过尝试两次打开相同的**Connection**对象创建一个错误。 第二次调用 **Open** 方法时，会激活错误处理程序。 在这种情况下，该错误类型是 **adErrObjectOpen** ，因此在继续执行程序之前，该错误处理程序显示以下消息：
+此**表单\_加载**事件过程有意通过尝试打开同一**Connection**对象两次来创建一个错误。 第二次调用 **Open** 方法时，会激活错误处理程序。 在这种情况下，该错误类型是 **adErrObjectOpen** ，因此在继续执行程序之前，该错误处理程序显示以下消息：
 
 ```vb 
 Error #3705: Operation is not allowed when the object is open. 

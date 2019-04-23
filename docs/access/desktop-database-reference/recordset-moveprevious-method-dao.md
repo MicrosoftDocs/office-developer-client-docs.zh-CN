@@ -1,5 +1,5 @@
 ---
-title: Recordset.MovePrevious 方法 (DAO)
+title: MovePrevious 方法 (DAO)
 TOCTitle: MovePrevious Method
 ms:assetid: 82a3bc3e-5221-9a1a-1350-47bc6759edeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196699(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 95cf5daa9eac6644b17f47b09ebc749bd9ed928e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284509"
 ---
-# <a name="recordsetmoveprevious-method-dao"></a>Recordset.MovePrevious 方法 (DAO)
+# <a name="recordsetmoveprevious-method-dao"></a>MovePrevious 方法 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 移到指定的 **Recordset** 对象中的上一条记录，并使该记录成为当前记录。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28712566"
 
 *表达式*。MovePrevious
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式*一个代表**Recordset**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -41,9 +41,9 @@ ms.locfileid: "28712566"
 
 如果第一条记录是当前记录，在使用 **MovePrevious** 时， **BOF** 属性将是 **True**，并且不会有当前记录。如果再次使用 **MovePrevious**，将发生错误，同时 **BOF** 保留为 **True**。
 
-如果 recordset 引用表类型**Recordset** （仅限 Microsoft Access 工作区），则移动遵循当前索引。 可以使用 **Index** 属性设置当前索引。 如果不设置当前索引，则返回记录的顺序将是不确定的。
+如果 recordset 引用表类型的**recordset** (仅适用于 Microsoft Access 工作区), 则移动将遵循当前索引。 可以使用 **Index** 属性设置当前索引。 如果不设置当前索引，则返回记录的顺序将是不确定的。
 
-不能对仅向前类型**Recordset**对象使用**MoveFirst**、 **MoveLast**和**MovePrevious**方法。
+您不能在仅向前类型的**Recordset**对象上使用**MoveFirst**、 **MoveLast**和**MovePrevious**方法。
 
 若要将 **Recordset** 对象中的当前记录的位置向前或向后移动指定的记录数，请使用 **Move** 方法。
 

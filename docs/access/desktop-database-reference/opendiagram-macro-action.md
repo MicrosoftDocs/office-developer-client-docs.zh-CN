@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f4273d6858ad98b723d66ba32fe3b9aa7c902d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288355"
 ---
 # <a name="opendiagram-macro-action"></a>OpenDiagram 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 在 Access 项目中，可以使用 **OpenDiagram** 操作在设计视图中打开数据库图表。
 
@@ -45,14 +45,14 @@ ms.locfileid: "28719622"
 <tbody>
 <tr class="odd">
 <td><p><strong>图表名称</strong></p></td>
-<td><p>要打开的数据库图表的名称。 宏生成器窗格的<strong>图表名称</strong>框在<strong>操作参数</strong>部分中显示当前数据库中的所有数据库图表。 这是必需参数。 如果在类库数据库中运行包含 <strong>OpenDiagram</strong> 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的图表，然后再在当前数据库中查找。</p></td>
+<td><p>要打开的数据库图表的名称。 “宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“图表名称”</strong>框会显示当前数据库中的所有数据库图表。 这是一个必选参数。 如果在类库数据库中运行包含 <strong>OpenDiagram</strong> 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的图表，然后再在当前数据库中查找。</p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此操作类似于在导航窗格中双击数据库图表，或在导航窗格中右键单击数据库图表并单击 **"设计视图"**。
+此操作类似于在导航窗格中双击数据库图表，或在导航窗格中右键单击数据库图表并单击 **“设计视图”**。
 
 > [!TIP]
 > [!提示] 您可以将数据库图表从导航窗格拖至某个宏操作行。这会自动创建在设计视图中打开该数据库图表的 **OpenDiagram** 操作。

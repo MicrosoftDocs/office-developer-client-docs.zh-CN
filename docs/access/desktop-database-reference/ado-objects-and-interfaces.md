@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 539feb1918877189548d0e7cff6ceb28e50abddc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283259"
 ---
 # <a name="ado-objects-and-interfaces"></a>ADO 对象和接口
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-ActiveX 数据对象 (ADO) 对象模型中都表示这些对象之间的关系。
+这些对象之间的关系在 ActiveX 数据对象 (ADO) 对象模型中表示。
 
-每个对象可包含在其对应的集合中。 例如，[Error](error-object-ado.md) 对象可以包含在 [Errors](errors-collection-ado.md) 集合中。 有关详细信息，请参阅[ADO 集合](ado-collections.md)或特定集合主题。
+每个对象可包含在其对应的集合中。 例如，[Error](error-object-ado.md) 对象可以包含在 [Errors](errors-collection-ado.md) 集合中。 有关详细信息, 请参阅[ADO 集合](ado-collections.md)或特定的集合主题。
 
 <br/>
 
@@ -31,7 +31,7 @@ ActiveX 数据对象 (ADO) 对象模型中都表示这些对象之间的关系�
 </colgroup>
 <tbody>
 <tr class="even">
-<th>对象</th>
+<th>Object</th>
 <th>说明</th>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ ActiveX 数据对象 (ADO) 对象模型中都表示这些对象之间的关系�
 </tr>
 <tr class="even">
 <td><p><a href="recordset-object-ado.md">Recordset</a></p></td>
-<td><p>表示从基表得到的整个记录集，或执行命令的结果。在任何时候， <strong>Recordset</strong> 对象只引用该集合中的单个记录作为当前记录。</p></td>
+<td><p>表示从基表得到的整个记录集，或执行命令的结果。在任何时候，<strong>Recordset</strong> 对象只引用该集合中的单个记录作为当前记录。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="stream-object-ado.md">Stream</a></p></td>

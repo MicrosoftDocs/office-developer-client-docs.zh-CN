@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 385a3a106c04db11b36ea646368f80fe28ffd413
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280193"
 ---
 # <a name="adox-enumerated-constants"></a>ADOX 枚举常量
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 为有助于进行调试，ADOX 枚举常量为每一个常量列出了一个值。但是，该值纯粹是参考性的，并且可能随不同的 ADOX 版本而变化。您的代码应依赖于枚举常量的名称，而不是实际值。
 
@@ -50,7 +50,7 @@ ms.locfileid: "28720532"
 </tr>
 <tr class="even">
 <td><p><a href="datatypeenum.md">DataTypeEnum</a></p></td>
-<td><p>用于指定 <strong>Field</strong>、<strong>Parameter</strong> 或 <strong>Property</strong> 的数据类型。</p></td>
+<td><p>指定 <strong>Field</strong>、<strong>Parameter</strong> 或 <strong>Property</strong> 的数据类型。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="inherittypeenum.md">InheritTypeEnum</a></p></td>

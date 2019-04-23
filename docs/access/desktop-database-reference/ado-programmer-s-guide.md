@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b44bf60399cd3bdab9e5a1e51d13cbfc1daaba6c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283238"
 ---
 # <a name="ado-programmers-guide"></a>ADO 程序员指南
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-已创建 ADO 程序员指南 》 帮助开发人员提供的全面技术简介，以此是 ADO 的新增内容。 该指南描述了 ADO 系列的库，并使用多种语言的示例代码解释如何使用这些库、使用这些库的最佳做法以及最大程度提高 ADO 应用程序性能的提示和技巧。
+《 ado 程序员指南》已创建, 旨在通过为 ado 提供对技术的全面介绍来协助新开发人员。 该指南描述了 ADO 系列的库，并使用多种语言的示例代码解释如何使用这些库、使用这些库的最佳做法以及最大程度提高 ADO 应用程序性能的提示和技巧。
 
-ADO 程序员指南 》 包含以下部分和章节：
+《 ADO 程序员指南》包含以下部分和章节:
 
 - [Introduction](introduction-to-ado-programming.md)
   

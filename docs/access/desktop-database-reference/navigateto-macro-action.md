@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288600"
 ---
 # <a name="navigateto-macro-action"></a>NavigateTo 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **NavigateTo** 操作控制在导航窗格中显示的数据库对象。例如，可以更改数据库对象的分类方式，并可通过筛选对象来仅显示特定的对象。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **NavigateTo** 操作具有下列参数。
 
@@ -46,17 +46,17 @@ ms.locfileid: "28704138"
 </tr>
 <tr class="even">
 <td><p><strong>组</strong></p></td>
-<td><p>可选。 在导航窗格中显示的<strong>组</strong>参数限制类别中的哪些对象。 如果将<strong>组</strong>参数留空，导航窗格将显示<strong>类别</strong>参数中指定的条件进行分类的所有数据库对象。 下表中显示了各种 <strong>Category</strong> 参数的有效 <strong>Group</strong> 参数的示例。</p></td>
+<td><p>可选。 “组”<strong></strong>参数限制类别中可显示在导航窗格中的对象。 如果将<strong>Group</strong>参数保留为空, 则导航窗格将显示按照您在<strong>Category</strong>参数中指定的条件进行分类的所有数据库对象。 下表中显示了各个“类别”参数<strong></strong>的有效“组”<strong></strong>参数的示例。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 - 此操作类似于从导航窗格的标题栏中选择类别和组。
 
-- 有效**Group**参数取决于使用哪些**Category**参数。 如果您输入了无效的**组**参数，将显示一条错误消息。下表包含每个**Category**参数的有效**Group**参数的示例。
+- Valid **Group** arguments depend on which **Category** argument is used. If you enter an invalid **Group** argument, an error message appears.The following table contains examples of valid **Group** arguments for each **Category** argument.
     
   <table>
   <colgroup>
@@ -65,14 +65,14 @@ ms.locfileid: "28704138"
   </colgroup>
   <thead>
   <tr class="header">
-  <th><p>“类别”参数</p></th>
-  <th><p>“组”参数示例</p></th>
+  <th><p>Category 参数</p></th>
+  <th><p>Group 参数的示例</p></th>
   </tr>
   </thead>
   <tbody>
   <tr class="odd">
   <td><p>对象类型</p></td>
-  <td><p>表、窗体、查询、页、宏、模块</p></td>
+  <td><p>表；窗体；查询；页；宏；模块</p></td>
   </tr>
   <tr class="even">
   <td><p>表和视图</p></td>
@@ -96,6 +96,6 @@ ms.locfileid: "28704138"
 - 要在 VBA 模块中运行 **NavigateTo** 操作，请使用 **DoCmd** 对象的 **NavigateTo** 方法。
 
 > [!NOTE]
-> 要导航到类别 （例如，**所有表**、**所有 Access 对象**或**所有日期**） 的最高级别，您必须将组参数留空。 例如，**对象类型****类别**参数时，将**所有 Access 对象**都输入为**组**参数会导致出错。
+> To navigate to the top level of a category (for example, **All Tables**, **All Access Objects**, or **All Dates**), you must leave the Group argument blank. For example, when the **Category** argument is **Object Type**, entering **All Access Objects** as a **Group** argument results in an error.
 
 

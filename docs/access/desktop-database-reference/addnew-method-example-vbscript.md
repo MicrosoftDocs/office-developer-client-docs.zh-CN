@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 86fc5698cd6463c7236ab4f82a2f4f74374d664e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281851"
 ---
 # <a name="addnew-method-example-vbscript"></a>AddNew 方法示例 (VBScript)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。
 
-在 Active Server Page (ASP) 中使用下面的示例。 使用 **Find** 来查找文件 Adovbs.inc 并将其放置在要使用的目录中。 剪切和粘贴到记事本或其他文本编辑器，以下代码并将其保存为**AddNewVBS.asp**。 您可以在任何客户端浏览器中查看结果。
+Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.
 
-若要实际使用此示例，请 HTML 窗体中添加一条新记录。 单击“新增”****。 请参阅[Delete 方法示例](delete-method-example-vbscript.md)以移除不需要的记录。
+To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.
 
 ```vb
  

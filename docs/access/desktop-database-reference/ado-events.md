@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cc2ef73798dca18e00c42768fde78da2abdb56a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283336"
 ---
 # <a name="ado-events"></a>ADO 事件
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 
@@ -95,7 +95,7 @@ ms.locfileid: "28706042"
 <td><p>在 <strong>Recordset</strong> 中一个或多个记录（行）发生更改之前调用。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">在 WillChangeRecordset</a></p></td>
+<td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset</a></p></td>
 <td><p>在挂起的操作更改 <strong>Recordset</strong> 之前调用。</p></td>
 </tr>
 <tr class="even">
@@ -108,7 +108,7 @@ ms.locfileid: "28706042"
 </tr>
 <tr class="even">
 <td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></p></td>
-<td><p><em>之前</em>调用<strong>WillMove</strong>事件挂起的操作更改<strong>Recordset</strong>中的当前位置。</p></td>
+<td><p>在挂起的操作更改 <strong>Recordset</strong> 中的当前位置<em>之前</em>调用 <strong>WillMove</strong> 事件。</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 720cbaf346b64d4d23b1e3314b06ba941e78b700
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288264"
 ---
 # <a name="operation-of-non-parameterized-commands"></a>非参数化命令的操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 对于非参数化命令，在命令执行期间将执行所有提供程序命令，并创建 **Recordset** 。如果同步执行命令，则所有 **Recordset** 都将完全填充。如果选择异步填充模式，则 **Recordset** 的填充状态将取决于填充模式和 **Recordset** 的大小。
 
-例如，*父命令*无法从客户表中，返回公司客户的**记录集**和*子命令*无法从 Orders 表返回**Recordset**的所有客户的订单。
+例如，*父命令*可以从 Customers（客户）表返回公司顾客的 **Recordset**，并且该*子命令*可以从 Orders（订单）表返回所有顾客订单的 **Recordset**。
 
 ```vb 
  
@@ -30,9 +30,9 @@ SHAPE {SELECT * FROM Customers}
  RELATE customerID TO customerID) 
 ```
 
-对于非参数化父子关系，每个父和子 **Recordset** 对象都必须共同拥有一个列，以便将它们关联在一起。 列命名建立关系子句，*父列*中第一个，然后选择*子列*。 列在其各自 **Recordset** 对象中可能有不同名称，但它们必须引用相同信息才能指定有意义的关系。 例如， **Customers** 和 **Orders** **Recordset** 对象都可以有 customerID 字段。 由于子 **Recordset** 的成员是由提供程序命令确定的，因此子 **Recordset** 有可能包含孤立行。 如果不进一步重新定形，这些孤立行将是不可访问的。
+对于非参数化父子关系，每个父和子 **Recordset** 对象都必须共同拥有一个列，以便将它们关联在一起。 对列的命名在 RELATE 子句中完成，首先命名*父列*然后命名*子列*。 列在其各自 **Recordset** 对象中可能有不同名称，但它们必须引用相同信息才能指定有意义的关系。 例如， **Customers** 和 **Orders** **Recordset** 对象都可以有 customerID 字段。 由于子 **Recordset** 的成员是由提供程序命令确定的，因此子 **Recordset** 有可能包含孤立行。 如果不进一步重新定形，这些孤立行将是不可访问的。
 
-数据定形会向父 **Recordset** 追加章节列。 章节列中的值是对满足 RELATE 子句的子 **Recordset** 中的行的引用。 即，相同的值是给定的父行的章节子项的所有行的*子列*中的*父列*中。 在同一 RELATE 子句中使用多个 TO 子句时，将使用 AND 运算符对它们进行隐式组合。 如果 RELATE 子句中的父列不构成父 **Recordset** 的键，则单个子行可能有多个父行。
+数据定形会向父 **Recordset** 追加章节列。章节列中的值是对满足 RELATE 子句的子 **Recordset** 中的行的引用。就是说，在给定父行的*父列*中具有与在章节子项的所有行的*子列*中相同的值。在同一 RELATE 子句中使用多个 TO 子句时，将使用 AND 运算符对它们进行隐式组合。如果 RELATE 子句中的父列不构成父 **Recordset** 的键，则单个子行可能有多个父行。
 
 访问章节列中的引用时，ADO 将自动检索引用所表示的 **Recordset** 。注意，在非参数化命令中，尽管已经检索整个子 **Recordset** ，但章节只显示行的子集。
 

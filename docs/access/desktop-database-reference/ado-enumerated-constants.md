@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05e5d3a77dc7db5ef5a0d81a3f13d5fc5987f5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283406"
 ---
 # <a name="ado-enumerated-constants"></a>ADO 枚举常量
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 为了有助于进行调试，ADO 枚举将列出每个常量的值。但是，此值仅仅是建议性的，不同的 ADO 版本可能会各不相同。代码应当只依赖于每个枚举常量的名称，而不是实际值。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28707938"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>枚举的常量</th>
+<th>枚举常量</th>
 <th>说明</th>
 </tr>
 <tr class="odd">
@@ -38,7 +38,7 @@ ms.locfileid: "28707938"
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-autorecalc-enum.md">ADCPROP_AUTORECALC_ENUM</a></p></td>
-<td><p>指定<strong>MSDataShape</strong>提供程序何时重新计算分层<strong>Recordset</strong>中的聚合和计算列。</p></td>
+<td><p>指定 <strong>MSDataShape</strong> 提供程序何时重新计算 <strong>Recordset</strong> 中的聚合和计算列。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-updatecriteria-enum.md">ADCPROP_UPDATECRITERIA_ENUM</a></p></td>
@@ -70,7 +70,7 @@ ms.locfileid: "28707938"
 </tr>
 <tr class="even">
 <td><p><a href="connectoptionenum.md">ConnectOptionEnum</a></p></td>
-<td><p>指定在建立连接之后（同步）或之前（异步）是否应返回 <strong>Connection</strong> 对象的 <strong>Open</strong> 方法。</p></td>
+<td><p>指定在建立连接之后（同步）或之前（异步）是否应当返回 <strong>Connection</strong> 对象的 <strong>Open</strong> 方法。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="connectpromptenum.md">ConnectPromptEnum</a></p></td>
@@ -94,7 +94,7 @@ ms.locfileid: "28707938"
 </tr>
 <tr class="even">
 <td><p><a href="datatypeenum.md">DataTypeEnum</a></p></td>
-<td><p>用于指定 <strong>Field</strong>、<strong>Parameter</strong> 或 <strong>Property</strong> 的数据类型。</p></td>
+<td><p>指定 <strong>Field</strong>、<strong>Parameter</strong> 或 <strong>Property</strong> 的数据类型。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="editmodeenum.md">EditModeEnum</a></p></td>
@@ -186,7 +186,7 @@ ms.locfileid: "28707938"
 </tr>
 <tr class="odd">
 <td><p><a href="recordopenoptionsenum.md">RecordOpenOptionsEnum</a></p></td>
-<td><p>指定用于打开 <strong>Record</strong> 的选项。可以使用 OR 运算符将这些值组合在一起。</p></td>
+<td><p>指定用于打开 <strong>Record</strong> 的选项。 可以使用 OR 运算符将这些值组合在一起。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="recordstatusenum.md">RecordStatusEnum</a></p></td>
@@ -206,7 +206,7 @@ ms.locfileid: "28707938"
 </tr>
 <tr class="even">
 <td><p><a href="schemaenum.md">SchemaEnum</a></p></td>
-<td><p>指定 <strong>OpenSchema</strong> 方法所检索的架构 <strong>Recordset</strong> 的类型。指定在 <strong>Recordset</strong> 内进行记录搜索的方向。</p></td>
+<td><p>指定 <strong>OpenSchema</strong> 方法所检索的架构 <strong>Recordset</strong> 的类型。 指定在 <strong>Recordset</strong> 内进行记录搜索的方向。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="searchdirectionenum.md">SearchDirectionEnum</a></p></td>

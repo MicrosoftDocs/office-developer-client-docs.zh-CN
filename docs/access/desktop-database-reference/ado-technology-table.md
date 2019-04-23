@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aac4d6371b9b34142698c91812e8cdba37551fdd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283217"
 ---
 # <a name="ado-technology-table"></a>ADO 技术表
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-下表列出了 Microsoft 产品、 工具和*ADO 程序员指南 》* 中讨论的技术。 只要有可能，指南中的相关主题，它提供了链接。
+下表列出了《 *ADO 程序员指南》* 中讨论的 Microsoft 产品、工具和技术。 它提供了指向指南中相关主题的任何可能的链接。
 
 <table>
 <colgroup>
@@ -28,7 +28,7 @@ ms.locfileid: "28712104"
 <thead>
 <tr class="header">
 <th><p>Microsoft 产品或技术</p></th>
-<th><p>参考信息</p></th>
+<th><p>引用</p></th>
 </tr>
 </thead>
 <tbody>
@@ -38,19 +38,19 @@ ms.locfileid: "28712104"
 </tr>
 <tr class="even">
 <td><p>Active Directory Service Interfaces</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">用于 Microsoft Active Directory Service 的 Microsoft OLE DB 提供程序</a><br/><br/></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>COM/DCOM</p></td>
 <td><p><a href="prerequisites-ado-introduction.md">先决条件</a><br/><br/><a href="marking-business-objects-as-safe-for-scripting.md">将业务对象标记为"可安全编写脚本"</a><br/><br/><a href="registering-business-objects-on-the-client-for-use-with-dcom.md">在客户端上注册业务对象以用于 DCOM</a><br/><br/><a href="setting-dcom-stream-marshaling-format.md">设置 DCOM 流封送处理格式</a><br/><br/><a href="enabling-a-dll-to-run-on-dcom.md">启用 DLL 以在 DCOM 上运行</a><br/><br/><a href="running-business-objects-in-component-services.md">在组件服务中运行业务对象</a><br/><br/></p></td>
 </tr>
 <tr class="even">
-<td><p>FrontPage</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">用于 Internet 发布的 Microsoft OLE DB 提供程序</a><br/><br/></p></td>
+<td><p>那么</p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>索引服务</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">用于 Microsoft 索引服务的 Microsoft OLE DB 提供程序</a><br/><br/></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Internet Explorer</p></td>
@@ -58,7 +58,7 @@ ms.locfileid: "28712104"
 </tr>
 <tr class="odd">
 <td><p>Internet 信息服务</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/><a href="streams-and-persistence.md">流和持久化</a><br/><br/><a href="using-ado-for-internet-publishing.md">使用 ADO for Internet Publishing</a><br/><br/><a href="solutions-for-remote-data-access.md">远程数据访问解决方案</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">在 IIS 上配置虚拟服务器</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">在 IIS 上指定每个处理器的线程数</a><br/><br/><a href="securing-rds-applications.md">保护 RDS 应用程序</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Internet 服务器错误： 访问被拒绝&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">用于 Internet 发布的 Microsoft OLE DB 提供程序</a><br/><br/><a href="internet-information-services-error-codes.md">Internet 信息服务错误代码</a><br/><br/></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/><a href="streams-and-persistence.md">流和持久化</a><br/><br/><a href="using-ado-for-internet-publishing.md">使用 ADO for Internet Publishing</a><br/><br/><a href="solutions-for-remote-data-access.md">远程数据访问解决方案</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">在 IIS 上配置虚拟服务器</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">在 IIS 上指定每个处理器的线程数</a><br/><br/><a href="securing-rds-applications.md">保护 RDS 应用程序</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Internet 服务器错误: 访问被拒绝&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Internet 信息服务错误代码</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
@@ -66,7 +66,7 @@ ms.locfileid: "28712104"
 </tr>
 <tr class="odd">
 <td><p>ODBC</p></td>
-<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">ADO 在 Microsoft 数据访问中的角色</a><br/><br/><a href="using-the-connection-object-access.md">使用 Connection 对象</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">将 RDS 与 ODBC 连接池结合使用</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">用于 ODBC 的 Microsoft OLE DB 提供程序</a><br/><br/></p></td>
+<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">ADO 在 Microsoft 数据访问中的角色</a><br/><br/><a href="using-the-connection-object-access.md">使用 Connection 对象</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">将 RDS 与 ODBC 连接池结合使用</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>OLE DB</p></td>
@@ -78,7 +78,7 @@ ms.locfileid: "28712104"
 </tr>
 <tr class="even">
 <td><p>SQL Server 2000</p></td>
-<td><p><a href="controlling-transactions.md">控制事务</a><br/><br/><a href="calling-a-stored-procedure-with-a-command.md">调用存储的过程命令</a><br/><br/><a href="counting-rows.md">对行进行计数</a><br/><br/><a href="forward-only-cursors.md">仅向前型游标</a><br/><br/><a href="ensuring-sufficient-tempdb-space.md">确保具有足够的 TempDB 空间</a><br/><br/><a href="minimizing-log-file-space-usage.md">最小化日志文件使用的空间</a><br/><br/><a href="microsoft-ole-db-provider-for-sql-server.md">Microsoft OLE DB Provider for SQL Server</a><br/><br/></p></td>
+<td><p><a href="controlling-transactions.md">控制事务</a><br/><br/><a href="calling-a-stored-procedure-with-a-command.md">通过命令调用存储过程</a><br/><br/><a href="counting-rows.md">对行进行计数</a><br/><br/><a href="forward-only-cursors.md">仅向前型游标</a><br/><br/><a href="ensuring-sufficient-tempdb-space.md">确保具有足够的 TempDB 空间</a><br/><br/><a href="minimizing-log-file-space-usage.md">最小化日志文件使用的空间</a><br/><br/><a href="microsoft-ole-db-provider-for-sql-server.md">Microsoft OLE DB Provider for SQL Server</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>Transaction Server</p></td>
@@ -90,15 +90,15 @@ ms.locfileid: "28712104"
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">Errors</a><br/><br/><a href="ado-errors.md">ADO 错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">按语言的 ADO 事件实例化</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications 函数</a><br/><br/><a href="chapter-12-rds-tutorial.md">第 12 章：RDS 教程</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">在 Microsoft Visual Basic 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Microsoft Visual Basic 中的 ADO 代码示例</a><br/><br/></p></td>
+<td><p><a href="errors.md">Errors</a><br/><br/><a href="ado-errors.md">ADO 错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">ADO 事件实例化（按语言）</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic for Applications 函数</a><br/><br/><a href="chapter-12-rds-tutorial.md">第 12 章：RDS 教程</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">在 Microsoft Visual Basic 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Microsoft Visual Basic 中的 ADO 代码示例</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">按语言的 ADO 事件实例化</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">在 Microsoft Visual C++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Microsoft Visual C++ 中的 ADO 代码示例</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">ADO 事件实例化（按语言）</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">在 Microsoft Visual C++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Microsoft Visual C++ 中的 ADO 代码示例</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">按语言的 ADO 事件实例化</a><br/><br/><a href="rds-tutorial-visual-j.md">RDS 教程 (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">在 Microsoft Visual J++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Microsoft Visual J++ 中的 ADO 代码示例</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">用其他语言处理错误</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">ADO 事件实例化（按语言）</a><br/><br/><a href="rds-tutorial-visual-j.md">RDS 教程 (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">在 Microsoft Visual J++ 中使用 ADO</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Microsoft Visual J++ 中的 ADO 代码示例</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>
@@ -110,7 +110,7 @@ ms.locfileid: "28712104"
 </tr>
 <tr class="even">
 <td><p>XML</p></td>
-<td><p><a href="persisting-records-in-xml-format.md">以 XML 格式持久化记录</a><br/><br/><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/></p></td>
+<td><p><a href="persisting-records-in-xml-format.md">用 XML 格式持久化记录</a><br/><br/><a href="chapter-10-records-and-streams.md">第 10 章：记录和流</a><br/><br/></p></td>
 </tr>
 </tbody>
 </table>

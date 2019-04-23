@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d706bad7d1f605933a951498705657c3c454a2d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709052"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288516"
 ---
 # <a name="numericscale-property-adox"></a>NumericScale 属性 (ADOX)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示列中数值的小数位数。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28709052"
 
 设置和返回一个 **Byte** 值，该值为当列的 [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) 属性为 **adNumeric** 或 **adDecimal** 时列中的数据值的小数位数。对于所有其他数据类型，都忽略 **NumericScale** 。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 默认值为零 (0)。
 

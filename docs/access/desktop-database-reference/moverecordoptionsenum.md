@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5bd8196670513156011d69f08eacf790fa4a0a03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288670"
 ---
 # <a name="moverecordoptionsenum"></a>MoveRecordOptionsEnum
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Record](record-object-ado.md) 对象的 [MoveRecord](moverecord-method-ado.md) 方法的行为。
 
@@ -47,7 +47,7 @@ ms.locfileid: "28703151"
 </tr>
 <tr class="odd">
 <td><p><strong>adMoveDontUpdateLinks</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>通过不更新源 <strong>Record</strong> 的超文本链接来修改 <strong>MoveRecord</strong> 方法的默认行为。默认行为取决于提供程序的功能。如果提供程序具有相应功能，则移动操作更新链接。如果提供程序无法修复链接或者如果未指定该值，则即使链接尚未修复，移动也会成功。</p></td>
 </tr>
 <tr class="even">
@@ -59,7 +59,7 @@ ms.locfileid: "28703151"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
 这些常量没有 ADO/WFC 等效值。
 

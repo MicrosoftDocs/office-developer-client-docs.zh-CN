@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281624"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>ADORecordConstruction 接口 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **ADORecordConstruction** 接口用于根据 C/C++ 应用程序中的 OLE DB **Row** 对象构造 ADO **Record** 对象。
 
@@ -33,13 +33,15 @@ ms.locfileid: "28712006"
 <tbody>
 <tr class="odd">
 <td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
-<td><p>为只写属性。<br />
-在此 ADO <strong>Record</strong>对象上设置 OLE DB <strong>Row</strong>对象的容器。</p></td>
+<td><p>只写。<br />
+
+设置此 ADO <strong>Record</strong> 对象中 OLE DB <strong>Row</strong> 对象的容器。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="row-property-ado.md">行</a></p></td>
 <td><p>读/写。<br />
-获取/设置从在此 ADO <strong>Record</strong>对象的 OLE DB <strong>Row</strong>对象。</p></td>
+
+获取/设置此 ADO <strong>Record</strong> 对象中的 OLE DB <strong>Row</strong> 对象。</p></td>
 </tr>
 </tbody>
 </table>
@@ -53,9 +55,9 @@ ms.locfileid: "28712006"
 
 无。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-给定 OLE DB **Row**对象 (pRow)、 构造的 ADO **Record**对象 （）、 构造 ADO **Record**对象 (adoR) 量与以下三个基本操作：
+给定一个 OLE DB **Row**对象 (pRow)、ado **record**对象 () 的构造、ado **record**对象 (adoR) 的构造以及以下三个基本操作:
 
 1.  创建 ADO **Record** 对象：
     
@@ -72,7 +74,7 @@ ms.locfileid: "28712006"
                             (void**)&adoRConstruct);
     ```
 
-3.  调用**IADORecordConstruction::put\_行**属性方法，以便设置 ADO **Record**对象的 OLE DB **Row**对象：
+3.  调用**IADORecordConstruction::p 工作的\_行**属性方法, 以设置 ADO **Record**对象上的 OLE DB **row**对象:
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -84,7 +86,7 @@ ms.locfileid: "28712006"
 
 也可以根据 OLE DB **Row** 对象的容器构造 ADO **Record** 对象。
 
-## <a name="requirements"></a>要求
+## <a name="requirements"></a>Requirements
 
 **版本：** ADO 2.0 及更高版本
 

@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b9b506f40039ff91a6b1985606322fd86a9e7c0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288930"
 ---
 # <a name="microsoft-ole-db-provider-for-oracle"></a>Microsoft OLE DB Provider for Oracle
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft OLE DB Provider for Oracle 允许 ADO 访问 Oracle 数据库。
 
 ## <a name="connection-string-parameters"></a>连接字符串参数
 
-若要连接到此提供程序，请将 *ConnectionString* 属性的 [Provider](connectionstring-property-ado.md) 参数设置为：
+若要连接到此提供程序，请将 [ConnectionString](connectionstring-property-ado.md) 属性的 *Provider* 参数设置为：
 
 ```vb 
  
@@ -90,7 +90,7 @@ MSDAORA
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>说明</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d10a493aac39934a047c6fa311233fd6c9fac4e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288860"
 ---
 # <a name="more-ways-to-move-in-a-recordset"></a>在记录集中移动的更多方法
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用以下四种方法在 **Recordset** 中移动和滚动： [MoveFirst、MoveLast、MoveNext 和 MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)。（其中的某些方法对于仅向前型游标不可用。）
 
@@ -40,7 +40,7 @@ If oRs.BOF Then oRs.MoveFirst
 . . . 
 ```
 
-如果已经对 **Recordset** 进行了筛选或排序，如果当前记录中的数据发生了更改，则记录的位置也可能会改变。 在这种情况下， **MoveNext** 方法通常会正常工作，但是，请注意，记录的位置会从新位置（而非旧位置）向前移动一个记录。 例如，更改成为当前记录中的数据，以便记录会移至排序**Recordset**的末尾意味着，调用**MoveNext**导致 ADO 设置后**中的最后一个记录成为当前记录位置Recordset** (**EOF** = **True**)。
+如果已经对 **Recordset** 进行了筛选或排序，如果当前记录中的数据发生了更改，则记录的位置也可能会改变。 在这种情况下， **MoveNext** 方法通常会正常工作，但是，请注意，记录的位置会从新位置（而非旧位置）向前移动一个记录。 例如, 更改当前记录中的数据, 以便将记录移动到已排序**Recordset**的末尾, 这意味着调用**MoveNext**会导致 ADO 将当前记录设置为中**最后一条记录之后的位置Recordset** (**EOF** = **True**)。
 
 **Recordset** 对象的各种 Move 方法的行为在某种程度上取决于 **Recordset** 中的数据。添加到 **Recordset** 中的新记录最初按照特定的顺序添加，该顺序由数据源定义，并且可能隐式或显式依赖于新记录中的数据。例如，如果排序或联接是在用来填充 **Recordset** 的查询内完成的，则新记录将插入到 **Recordset** 中的相应位置。如果在创建 **Recordset** 时未显式指定排序，则在实现数据源中的更改时可能会在无意中改变返回行的排序。另外， **Recordset** 的排序、筛选和编辑功能可能会影响排序，还有可能会影响记录集内的哪些行将可见。
 

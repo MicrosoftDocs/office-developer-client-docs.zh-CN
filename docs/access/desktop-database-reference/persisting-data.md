@@ -1,5 +1,5 @@
 ---
-title: 保留数据 （访问桌面数据库参考 （英文）
+title: 持久化数据 (Access desktop database reference)
 TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f5788216a20e62cfc39fd2081f4f672bc4f9b808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287599"
 ---
 # <a name="persisting-data"></a>暂留数据
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 便携计算（例如，使用便携式计算机）需要在连接和断开状态下均可运行的应用程序。通过让开发人员能够将客户端游标 **Recordset** 保存到磁盘并随后重新加载它，ADO 已添加了对此功能的支持。
 
@@ -41,19 +41,19 @@ ms.locfileid: "28713959"
 
 **Save** 不会关闭 **Recordset** 或 *Destination*，所以可以继续处理 **Recordset** 并保存最新更改。*Destination* 将保持打开状态，直到 **Recordset** 关闭，在关闭期间，其他应用程序可以读取但不能写入 *Destination*。
 
-由于安全原因， **Save** 方法只允许在 Microsoft Internet Explorer 执行的脚本中使用低安全设置和自定义安全设置。有关安全问题的详细说明，请参阅 Microsoft 数据访问技术文章中 ActiveX 数据对象 (ADO) 技术文章中的"Microsoft Internet Explorer 中的 ADO 和 RDS 安全问题"。
+由于安全原因，**Save** 方法只允许在 Microsoft Internet Explorer 执行的脚本中使用低安全设置和自定义安全设置。有关安全问题的详细说明，请参阅 Microsoft 数据访问技术文章中 ActiveX 数据对象 (ADO) 技术文章中的“Microsoft Internet Explorer 中的 ADO 和 RDS 安全问题”。
 
-如果在进行异步 **Recordset** 提取、执行或更新操作时调用 **Save** 方法，则会等到异步操作完成后再执行 **Save** 。
+如果在进行异步 **Recordset** 提取、执行或更新操作时调用 **Save** 方法，则会等到异步操作完成后再执行 **Save**。
 
-记录的保存是从 **Recordset** 的第一行开始的。 **Save** 方法完成之后，当前行位置被移到 **Recordset** 的第一行。
+记录的保存是从 **Recordset** 的第一行开始的。**Save** 方法完成之后，当前行位置被移到 **Recordset** 的第一行。
 
-为了获得最佳效果，请在使用 [Save](cursorlocation-property-ado.md) 时将 **CursorLocation** 属性设置为 **adUseClient** 。如果提供程序不支持保存 **Recordset** 对象所需要的所有功能，则游标服务将提供该功能。
+为获得最佳结果，请用 [Save](cursorlocation-property-ado.md) 方法将 **CursorLocation** 属性设置为 **adUseClient** 。如果提供程序不支持保存 **Recordset** 对象所需的所有功能，则游标服务将提供该功能。
 
-在将 **CursorLocation** 属性设置为 **adUseServer** 的情况下持久化 **Recordset** 时， **Recordset** 的更新功能是有限的。通常，只允许进行单表更新、插入和删除（取决于提供程序功能）。在此配置中， [Resync](resync-method-ado.md) 方法也不可用。
+在将 **CursorLocation** 属性设置为 **adUseServer** 的情况下持久化 **Recordset** 时，**Recordset** 的更新功能是有限的。通常，只允许进行单表更新、插入和删除（取决于提供程序功能）。在此配置中，[Resync](resync-method-ado.md) 方法也不可用。
 
-由于*Destination*参数可以接受支持 OLE DB **IStream**接口的任何对象，可以将**Recordset**保存到 ASP**响应**对象直接。
+由于 *Destination* 参数可以接受支持 OLE DB **IStream** 接口的任何对象，因此可以将 **Recordset** 直接保存到 ASP **Response** 对象。
 
-在以下示例中，使用 **Save** 和 **Open** 方法来持久化 **Recordset** ，并随后重新将它打开：
+在以下示例中，使用 **Save** 和 **Open** 方法来持久化 **Recordset**，并随后重新将它打开：
 
 ```vb 
  
@@ -110,4 +110,4 @@ ms.locfileid: "28713959"
 
 - [持久化筛选和分层记录集](persisting-filtered-and-hierarchical-recordsets.md)
 
-- [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format.md)
+- [以 XML 格式保留记录 (ADO)](persisting-records-in-xml-format.md)

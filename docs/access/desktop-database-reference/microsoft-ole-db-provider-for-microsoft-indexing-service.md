@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba27bfdf6cc1317b441e626c61784e2c50b589f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288916"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Microsoft OLE DB Provider for Microsoft Indexing Service
+# <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>用于 Microsoft 索引服务的 Microsoft OLE DB 提供程序
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-Microsoft OLE DB Provider for Microsoft Indexing Service 提供对由 Microsoft Indexing Service 编制索引的文件系统和 web 数据的编程只读访问权限。 ADO 应用程序可以发出 SQL 查询，以检索内容和文件属性信息。
+microsoft OLE DB Provider for microsoft 索引服务提供以编程方式对由 Microsoft 索引服务编制索引的文件系统和 web 数据的只读访问。 ADO 应用程序可以发出 SQL 查询，以检索内容和文件属性信息。
 
 该提供程序为自由线程且支持 Unicode。
 
 ## <a name="connection-string-parameters"></a>连接字符串参数
 
-若要连接到此提供程序，请将 **ConnectionString** 属性的 [Provider=](connectionstring-property-ado.md) 参数设置为：
+若要连接到此提供程序，请将 [ConnectionString](connectionstring-property-ado.md) 属性的 **Provider=** 参数设置为：
 
 ```vb 
  
@@ -59,7 +59,7 @@ MSIDXS
 <tbody>
 <tr class="odd">
 <td><p><strong>Provider</strong></p></td>
-<td><p>指定 Microsoft OLE DB Provider for Microsoft Indexing Service。通常，这是在连接字符串中指定的唯一一个关键字。</p></td>
+<td><p>指定 Microsoft OLE DB Provider for Microsoft Indexing Service。 通常，这是在连接字符串中指定的唯一一个关键字。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong></p></td>
@@ -83,7 +83,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 
 ## <a name="recordset-behavior"></a>Recordset 行为
 
-下表列出了使用此提供程序打开的 **Recordset** 对象中可用的功能。 仅静态游标类型 (**为 adOpenStatic**) 才可用。
+下表列出了使用此提供程序打开的 **Recordset** 对象中可用的功能。 仅静态游标类型 (**adOpenStatic**) 可用。
 
 有关提供程序配置的 **Recordset** 行为的详细信息，请运行 [Supports](supports-method-ado.md) 方法并枚举 [Recordset](properties-collection-ado.md) 的 **Properties** 集合，以确定提供程序特定的动态属性是否存在。
 
@@ -97,7 +97,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 <thead>
 <tr class="header">
 <th><p>属性</p></th>
-<th><p>可用性</p></th>
+<th><p>供应情况</p></th>
 </tr>
 </thead>
 <tbody>
@@ -151,7 +151,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>暂无</p></td>
+<td><p>不可用</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
@@ -185,7 +185,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 </table>
 
 
-\*必须在此功能的顺序提供程序，以在**Recordset**上启用书签。
+\*必须在提供程序上启用书签, 此功能才存在于**Recordset**中。
 
 标准 ADO **Recordset** 方法的可用性：
 
@@ -197,7 +197,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 <thead>
 <tr class="header">
 <th><p>方法</p></th>
-<th><p>是否可用</p></th>
+<th><p>可用?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -254,7 +254,7 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 <td><p>是</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="resync-method-ado.md">Resync</a></p></td>
+<td><p><a href="resync-method-ado.md">同步</a></p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
@@ -275,5 +275,5 @@ Indexing Service SQL 查询语法包含对 SQL-92 **SELECT** 语句及其 **FROM
 
 ## <a name="see-also"></a>另请参阅
 
-有关具体的实现详细信息和有关 Microsoft OLE DB Provider for Microsoft Indexing Service 的功能信息，请参阅 Microsoft OLE DB 程序员参考。
+有关 microsoft ole db Provider for microsoft 索引服务的特定实现详细信息和功能信息, 请参阅 Microsoft ole db 程序员参考。
 

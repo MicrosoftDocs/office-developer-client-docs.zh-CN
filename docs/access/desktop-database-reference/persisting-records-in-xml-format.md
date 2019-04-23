@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 10a5651c74580950810211c4f71e19fc80a16a95
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287564"
 ---
 # <a name="persisting-records-in-xml-format"></a>以 XML 格式暂留记录
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 像 ADTG 格式一样，可以通过 Microsoft OLE DB Persistence Provider 用 XML 格式持久化 **Recordset** 。此提供程序可以从保存的 XML 文件或流（它们包含 ADO 生成的架构信息）生成仅向前的只读行集。同样，它可以处理 ADO **Recordset** ，然后生成 XML，并将它保存到文件或任何实现 COM **IStream** 接口的对象（实际上，文件只是支持 **IStream** 的对象的另一个示例）。对于 2.5 和更高版本，ADO 依赖于 Microsoft XML 语法分析程序 (MSXML) 来将 XML 加载到 **Recordset** 中；因此 msxml.dll 是必需的。对于 2.5 版本，这是 Internet Explorer 5 附带的 MSXML。对于 2.6 版本，则是 SQL Server 2000 附带的 MSXML。
 
@@ -55,7 +55,7 @@ rs.Open "titles.sav",,,,adCmdFile
 rs2.open s 
 ```
 
-ADO 始终持久化整个 **Recordset** 对象。 如果希望只持久化 **Recordset** 对象中行的子集，请使用 **Filter** 方法来筛选行或更改选择子句。 但是，您必须使用客户端游标打开**Recordset**对象 (**CursorLocation** = **adUseClient**) 要用于**筛选器**方法保存行的子集。 例如，若要检索以字母"b"开头的标题，可以将筛选器应用于打开的 **Recordset** 对象：
+ADO 始终持久化整个 **Recordset** 对象。 如果希望只持久化 **Recordset** 对象中行的子集，请使用 **Filter** 方法来筛选行或更改选择子句。 但是, 必须使用客户端游标 (**CursorLocation** = **adUseClient**) 打开**Recordset**对象, 才能使用**筛选器**方法保存行的子集。 例如，若要检索以字母"b"开头的标题，可以将筛选器应用于打开的 **Recordset** 对象：
 
 ```vb 
  
@@ -67,22 +67,22 @@ ADO 总是使用客户端游标引擎行集来产生可滚动、可标记书签�
 
 本节包括下列主题：
 
-- [XML 持久化格式](xml-persistence-format.md)
+- [XML 持久性格式](xml-persistence-format.md)
 
 - [命名空间](namespaces.md)
 
 - [架构部分](schema-section.md)
 
-- [数据节](data-section.md)
+- [Data 节](data-section.md)
 
 - [XML 中的层次记录集](hierarchical-recordsets-in-xml.md)
 
-- [Recordset 动态属性在 XML](recordset-dynamic-properties-in-xml.md)
+- [XML 中的记录集动态属性](recordset-dynamic-properties-in-xml.md)
 
 - [XSLT 转换](xslt-transformations.md)
 
 - [保存到 XML DOM 对象](saving-to-the-xml-dom-object.md)
 
-- [XML 安全考虑事项](xml-security-considerations.md)
+- [XML 安全性注意事项](xml-security-considerations.md)
 
-- [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)
+- [XML 记录集持久性方案主题](xml-recordset-persistence-scenario.md)

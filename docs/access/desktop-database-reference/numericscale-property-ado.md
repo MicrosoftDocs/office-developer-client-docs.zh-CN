@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bcb0c1a38108fbd02551df2a3296abe4d9a3791
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288551"
 ---
 # <a name="numericscale-property-ado"></a>NumericScale 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示 [Parameter](parameter-object-ado.md) 或 [Field](field-object-ado.md) 对象中数值的小数位数。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28707105"
 
 设置或返回一个 **Byte** 值，指示数值的小数位数。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **NumericScale** 属性可确定将用于表示数字型 **Parameter** 或 **Field** 对象的小数点后的数字个数。
 

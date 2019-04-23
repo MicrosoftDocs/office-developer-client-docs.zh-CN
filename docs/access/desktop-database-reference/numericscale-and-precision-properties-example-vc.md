@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d452408337ed1aabfb94a224af4c1f1ee84a3961
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288537"
 ---
 # <a name="numericscale-and-precision-properties-example-vc"></a>NumericScale 和 Precision 属性示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示 [Column](numericscale-property-adox.md) 对象的 [NumericScale](precision-property-adox.md) 和 [Precision](column-object-adox.md) 属性。 此代码将显示*Northwind*数据库的**订单明细**表及其值。
+本示例演示 [Column](column-object-adox.md) 对象的 [NumericScale](numericscale-property-adox.md) 和 [Precision](precision-property-adox.md) 属性。此代码针对 *Northwind* 数据库的 **Order Details**（订单明细）表显示这两个属性的值。
 
 ```cpp 
  

@@ -1,5 +1,5 @@
 ---
-title: 参数方法 (DAO)
+title: Parameters 方法 (DAO)
 TOCTitle: Methods
 ms:assetid: 19ff6c34-042c-491c-a082-a80035a4fbf3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123876(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e824b36af319ca66f23f2ce4a442e97a7a359b29
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287858"
 ---
-# <a name="parameters-methods-dao"></a>参数方法 (DAO)
+# <a name="parameters-methods-dao"></a>Parameters 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Parameters.Refresh 方法 (DAO)](parameters-refresh-method-dao.md)
+- [Parameters: Refresh 方法 (DAO)](parameters-refresh-method-dao.md)
 

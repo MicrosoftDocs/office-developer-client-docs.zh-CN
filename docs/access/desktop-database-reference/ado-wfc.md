@@ -1,5 +1,5 @@
 ---
-title: ADO for Windows Foundation Classes (ADO/WFC)
+title: ado for Windows Foundation 类 (ado/WFC)
 TOCTitle: ADO/WFC
 ms:assetid: 73206be8-6515-79e4-e904-cc2d0d59411d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249468(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df9def320274df0eb4636aa237deb566dd5725b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281720"
 ---
 # <a name="adowfc"></a>ADO/WFC
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ADO for Windows Foundation Classes (ADO/WFC) 建立在 ADO 事件模型基础上，它可以提供经过简化的应用程序编程接口。通常，ADO/WFC 可以截获 ADO 事件，并将事件参数合并成单个事件类，然后调用事件处理程序。
 
@@ -62,12 +62,9 @@ ADO for Windows Foundation Classes (ADO/WFC) 建立在 ADO 事件模型基础上
             new ConnectionEventHandler(this.onConnectComplete); 
     ```
     
-    
+    单个参数是对所需的类 (**this**) 以及该类中的方法 (**onConnectComplete**) 的引用。
 
-单个参数是对所需的类 (**this**) 以及该类中的方法 (**onConnectComplete**) 的引用。
-
-
-3.  将事件处理程序添加到指定用于处理特定类型事件的处理程序所组成的列表中。 使用具有名称的方法，如 **addOn *** EventName*（*处理*）。
+3.  将事件处理程序添加到指定用于处理特定类型事件的处理程序所组成的列表中。 使用具有名称的方法, 如 **加载项 * * * 名称*(*处理程序*)。
 
 4.  ADO/WFC 在内部实现了所有 ADO 事件处理程序。因此，由 **Connection** 或 **Recordset** 操作导致的事件将被 ADO/WFC 事件处理程序截获。 ADO/WFC 事件处理程序在 ADO/WFC **ConnectionEvent** 类实例中传递 ADO **ConnectionEvent** 参数，或在 ADO/WFC **RecordsetEvent** 类实例中传递 ADO **RecordsetEvent** 参数。这些 ADO/WFC 类将 ADO 事件参数合并在一起；就是说，对于所有 ADO **ConnectionEvent** 或 **RecordsetEvent** 方法中的每个唯一的参数，每个 ADO/WFC 类都包含一个相应的数据成员。
 
@@ -78,9 +75,9 @@ ADO for Windows Foundation Classes (ADO/WFC) 建立在 ADO 事件模型基础上
         public void onConnectComplete(Object sender,ConnectionEvent e) 
     ```
     
-    第一个参数为发送事件 （[连接](connection-object-ado.md)或[Recordset](recordset-object-ado.md)） 的对象的类型和第二个参数是 ADO/WFC 事件对象 （**ConnectionEvent**或**RecordsetEvent**）。 事件处理程序的签名比 ADO 事件更简单。 但是，仍然必须理解 ADO 事件模型，才能知道什么参数将应用于事件以及如何响应。
+    第一个参数是发送事件的对象（[Connection](connection-object-ado.md) 或 [Recordset](recordset-object-ado.md)）的类型，第二个参数是 ADO/WFC 事件对象（**ConnectionEvent** 或 **RecordsetEvent**）。 事件处理程序的签名比 ADO 事件更简单。 但是，仍然必须理解 ADO 事件模型，才能知道什么参数将应用于事件以及如何响应。
 
 6.  从事件处理程序返回到 ADO 事件的 ADO/WFC 处理程序。ADO/WFC 会将相关的 ADO/WFC 事件数据成员复制回 ADO 事件参数，然后 ADO 事件处理程序返回。
 
-7.  完成处理后，请从 ADO/WFC 事件处理程序列表中删除处理程序。 使用具有名称的方法，如 **removeOn *** EventName*（*处理*）。
+7.  完成处理后，请从 ADO/WFC 事件处理程序列表中删除处理程序。 使用具有名称的方法, 如 **removeOn * * * 名称*(*处理程序*)。
 

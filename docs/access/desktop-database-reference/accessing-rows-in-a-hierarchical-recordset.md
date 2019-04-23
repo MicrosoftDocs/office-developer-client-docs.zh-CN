@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a80b089fa72ef01eb1b4b2f1dae494e002c6a6fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281954"
 ---
 # <a name="accessing-rows-in-a-hierarchical-recordset"></a>访问层次记录集中的行
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例演示访问分层 [Recordset](recordset-object-ado.md) 中的行所必需的步骤：
 
@@ -29,7 +29,7 @@ ms.locfileid: "28698237"
 4. 内循环显示追加的 **Recordset** 中每行的四个字段。
 
 > [!NOTE] 
-> [StayInSync](stayinsync-property-ado.md)属性是设置为 FALSE 的图中，为了，以便您可以看到的外部循环每次迭代中明确更改一章。 但是，该示例将更高效，如果在步骤 2 中的第一行之前移动步骤 3 中的工作分配，以便仅执行一次执行工作分配。 **StayInSync**属性设置为 true，则，以便*rstTitleAuthor*将隐式和自动更改为相应章只要*rst*移动到新行。
+> 将[StayInSync](stayinsync-property-ado.md)属性设置为 FALSE 以进行说明, 以便您可以在外部循环的每个迭代中明确地看到章节更改。 但是, 如果在步骤3中的工作分配移到了步骤2中的第一行之前, 则该示例将更高效, 以便仅执行一次该工作分配。 将**StayInSync**属性设置为 TRUE, 以便在*rst*移动到新行时*rstTitleAuthor*将隐式和自动更改为相应的章节。
 
 **示例**
 

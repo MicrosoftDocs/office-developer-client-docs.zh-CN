@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7fb5302d1c2b8e4eebb6dbe1a5906459834b8e41
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281865"
 ---
 # <a name="address-book-data-binding-object"></a>通讯簿数据绑定对象
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 "通讯簿"应用程序使用 [RDS.DataControl](datacontrol-object-rds.md) 对象将 SQL Server 数据库中的数据绑定到应用程序客户端 HTML 页中的可视化对象（在此例中为 DHTML 表）。事件驱动的 VBScript 程序逻辑使用 [RDS.DataControl](datacontrol-object-rds.md) 执行以下操作：
 
@@ -55,7 +55,7 @@ OBJECT 标记用于定义程序中的 **RDS.DataControl** 组件。此标记包�
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>说明</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -64,7 +64,7 @@ OBJECT 标记用于定义程序中的 **RDS.DataControl** 组件。此标记包�
 <td><p>唯一，128 位数字，用于标识嵌入系统的对象类型。此标识符保存在本地计算机的系统注册表中。（有关 <strong>RDS.DataControl</strong> 对象的类 ID 的信息，请参阅 <a href="datacontrol-object-rds.md">RDS.DataControl 对象</a>。）</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>ID</em></strong></p></td>
+<td><p><strong><em>号</em></strong></p></td>
 <td><p>为嵌入对象定义文档范围内的标识符，以便在代码中标识该对象。</p></td>
 </tr>
 </tbody>
@@ -83,13 +83,13 @@ OBJECT 标记用于定义程序中的 **RDS.DataControl** 组件。此标记包�
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>说明</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">服务器</a></p></td>
-<td><p>如果您使用的 HTTP，则值为前面 https:// 服务器计算机的名称。</p></td>
+<td><p><a href="server-property-rds.md">服务器主板</a></p></td>
+<td><p>如果使用的是 HTTP, 则值是服务器计算机的名称, 后跟 https://。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connect-property-rds.md">连接</a></p></td>

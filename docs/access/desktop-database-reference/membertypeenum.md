@@ -1,5 +1,5 @@
 ---
-title: MemberTypeEnum （访问桌面数据库参考 （英文）
+title: MemberTypeEnum (Access desktop database reference)
 TOCTitle: MemberTypeEnum
 ms:assetid: 3b6f9fff-fe54-b917-9404-927e3a627e0b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249150(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 82d507457d9242daa92cc0218c87bae4d82759a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289201"
 ---
 # <a name="membertypeenum"></a>MemberTypeEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-指定 [Member](type-property-ado-md.md) 对象的 [Type](member-object-ado-md.md) 属性的设置。
+指定 [Member](member-object-ado-md.md) 对象的 [Type](type-property-ado-md.md) 属性的设置。
 
 <br/>
 
@@ -43,12 +43,12 @@ ms.locfileid: "28718501"
 </tr>
 <tr class="even">
 <td><p><strong>adMemberFormula</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>指示 <strong>Member</strong> 对象是使用公式表达式计算的。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMemberMeasure</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>指示 <strong>Member</strong> 对象属于“度量”维，并且表示定量属性。</p></td>
 </tr>
 <tr class="even">

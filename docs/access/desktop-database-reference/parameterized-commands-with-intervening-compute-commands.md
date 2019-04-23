@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4172fba2d9fc08d3cf9f588fe9ace65da7997b19
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287977"
 ---
 # <a name="parameterized-commands-with-intervening-compute-commands"></a>包含介于中间的 COMPUTE 命令的参数化命令
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 典型的参数化 Shape APPEND 命令包含一个用查询命令创建父 **Recordset** 的子句，以及一个用参数化查询命令（即包含参数占位符，即：问号"?"）的命令创建子 **Recordset** 的子句。生成的定形 **Recordset** 为两层，父记录集占据上层，子记录集占据下层。
 

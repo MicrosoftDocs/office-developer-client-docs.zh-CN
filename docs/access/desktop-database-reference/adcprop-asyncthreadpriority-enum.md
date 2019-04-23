@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 53e51f2386658ee975ec8847f7e5550ac22bbd8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281899"
 ---
 # <a name="adcpropasyncthreadpriorityenum"></a>ADCPROP\_ASYNCTHREADPRIORITY\_枚举
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 对于 RDS [Recordset](recordset-object-ado.md) 对象，指定用于检索数据的异步线程的执行优先级。
 
@@ -45,7 +45,7 @@ ms.locfileid: "28700275"
 </tr>
 <tr class="even">
 <td><p><strong>adPriorityBelowNormal</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>设置最低和普通之间的优先级。</p></td>
 </tr>
 <tr class="odd">
@@ -60,15 +60,15 @@ ms.locfileid: "28700275"
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityNormal</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>将优先级设置为普通。</p></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -81,19 +81,19 @@ ms.locfileid: "28700275"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.ABOVENORMAL</p></td>
+<td><p>AdoEnums AdcPropAsyncThreadPriority</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.BELOWNORMAL</p></td>
+<td><p>AdoEnums AdcPropAsyncThreadPriority</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.HIGHEST</p></td>
+<td><p>AdoEnums AdcPropAsyncThreadPriority</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.LOWEST</p></td>
+<td><p>AdoEnums AdcPropAsyncThreadPriority</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.NORMAL</p></td>
+<td><p>AdoEnums AdcPropAsyncThreadPriority</p></td>
 </tr>
 </tbody>
 </table>

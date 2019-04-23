@@ -8,47 +8,47 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 43ca69b9d761629d42138780517f8de806ed7e8c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288334"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于从提供程序获取数据库架构信息。
 
 ## <a name="syntax"></a>语法
 
-**设置 *** recordset* = *连接*。OpenSchema (* QueryType *，*条件*， *SchemaID*)
+**Set * * * recordset* = *连接*。OpenSchema (* QueryType *, *Criteria*, *SchemaID*)
 
 ## <a name="return-values"></a>返回值
 
-返回包含架构信息的 [Recordset](recordset-object-ado.md) 对象。 **Recordset** 将作为只读的静态游标打开。 *QueryType*确定**Recordset**中显示的列。
+返回包含架构信息的 [Recordset](recordset-object-ado.md) 对象。 **Recordset** 将作为只读的静态游标打开。 *QueryType* 确定哪些列显示在 **Recordset** 中。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*QueryType* |任何 [SchemaEnum](schemaenum.md) 值，表示要运行的架构查询类型。|
-|*Criteria* |可选。 每个*QueryType*选项，如**SchemaEnum**中列出的查询约束数组。|
-|*SchemaID* |提供程序架构查询的 GUID 不是由 OLE DB 规范定义的。 此参数是必需的如果*QueryType*设置为**adSchemaProviderSpecific**;否则，它将不使用。|
+|*Criteria* |可选。 针对每个 *QueryType* 选项的查询约束的数组，如 **SchemaEnum** 中所列。|
+|*SchemaID* |提供程序架构查询的 GUID 不是由 OLE DB 规范定义的。如果 *QueryType* 设置为 **adSchemaProviderSpecific**，则该参数是必需的；否则，不使用该参数。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **OpenSchema** 方法返回有关数据源的自描述信息，例如数据源中有哪些表、表中有哪些列以及支持哪些数据类型。
 
-*QueryType*参数是表示的列 （架构） 返回的 GUID。 OLE DB 规范具有架构的完整列表。
+*QueryType* 参数是一个 GUID，用于指示返回的列（架构）。OLE DB 规范具有架构的完整列表。
 
 *Criteria* 参数限制架构查询的结果。*Criteria* 指定生成的 **Recordset** 中相应的列子集（称为*约束列*）中必须出现的值数组。
 
-如果提供程序定义自己的非标准架构查询外部上面列出的那些常量**adSchemaProviderSpecific**用于*QueryType*参数。 使用此常量时， *SchemaID*参数必须通过执行架构查询的 GUID。 如果设置为**adSchemaProviderSpecific** *QueryType*但未提供*SchemaID* ，将导致错误。
+如果提供程序自己定义的非标准架构查询在前面没有列出，则常量 **adSchemaProviderSpecific** 用于 *QueryType* 参数。使用该常量时，必须使用 *SchemaID* 参数才能传递要执行的架构查询的 GUID。如果 *QueryType* 设置为 **adSchemaProviderSpecific** 但未提供 *SchemaID*，将生成错误。
 
-提供程序不需要支持所有 OLE DB 标准架构查询。 具体来说，只有 **adSchemaTables** 、 **adSchemaColumns** 和 **adSchemaProviderTypes** 是 OLE DB 规范所必需的。 但是，提供程序不需要支持这些架构查询上面列出的*条件*约束。
+提供程序不需要支持所有 OLE DB 标准架构查询。具体来说，只有 **adSchemaTables**、**adSchemaColumns** 和 **adSchemaProviderTypes** 是 OLE DB 规范所必需的。但是，对于这些架构查询，提供程序不需要支持上面所列的 *Criteria* 约束。
 
-**远程数据服务用法****OpenSchema**方法不可用在客户端[Connection](connection-object-ado.md)对象上。
+**远程数据服务使用情况****OpenSchema**方法在客户端[Connection](connection-object-ado.md)对象上不可用。
 
 > [!NOTE]
 > 在 Visual Basic 中，从 **Connection** 对象的 **OpenSchema** 方法返回的 **Recordset** 中具有四字节无符号整数 (DBTYPE UI4) 的列不能与其他变量进行比较。有关 OLE DB 数据类型的详细信息，请参阅 *《Microsoft OLE DB 程序员参考》* 的第 13 章和附录 A。

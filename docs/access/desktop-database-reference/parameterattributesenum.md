@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2ded9721eb2af2f409a4b4a6ea261898a4d1b3fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288005"
 ---
 # <a name="parameterattributesenum"></a>ParameterAttributesEnum
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Parameter](parameter-object-ado.md) 对象的属性。
 
@@ -37,7 +37,7 @@ ms.locfileid: "28716318"
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamSigned</strong></p></td>
-<td><p>16</p></td>
+<td><p>位</p></td>
 <td><p>指示参数接受有符号值。</p></td>
 </tr>
 <tr class="even">
@@ -54,9 +54,9 @@ ms.locfileid: "28716318"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -69,13 +69,13 @@ ms.locfileid: "28716318"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ParameterAttributes.SIGNED</p></td>
+<td><p>AdoEnums ParameterAttributes</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ParameterAttributes.NULLABLE</p></td>
+<td><p>AdoEnums 为 ParameterAttributes</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ParameterAttributes.LONG</p></td>
+<td><p>AdoEnums (长 ParameterAttributes)</p></td>
 </tr>
 </tbody>
 </table>

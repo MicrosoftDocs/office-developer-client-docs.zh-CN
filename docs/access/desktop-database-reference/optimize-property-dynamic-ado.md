@@ -1,5 +1,5 @@
 ---
-title: 优化动态属性 (ADO)
+title: Optimize dynamic 属性 (ADO)
 TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11bb7872514a828fdd97fb404f5366c35ff9a883
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288250"
 ---
-# <a name="optimize-dynamic-property-ado"></a>优化动态属性 (ADO)
+# <a name="optimize-dynamic-property-ado"></a>Optimize dynamic 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定是否应在字段上创建索引。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28709409"
 
 设置或返回一个 **Boolean** 值，指示是否应创建索引。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 索引可提高在 [Recordset](recordset-object-ado.md) 中对值进行查找和排序的操作性能。索引由 ADO 内部使用  无法在应用程序中显式访问或使用。
 

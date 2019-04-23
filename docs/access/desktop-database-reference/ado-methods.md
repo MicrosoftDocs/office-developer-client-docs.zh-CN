@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3169b7eaab6ad290bfc385881f5de69edc80111f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283280"
 ---
 # <a name="ado-methods"></a>ADO 方法
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 
@@ -32,7 +32,7 @@ ms.locfileid: "28716178"
 </tr>
 <tr class="odd">
 <td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
-<td><p>用于为可更新的 <strong>Recordset</strong> 对象创建新记录。</p></td>
+<td><p>为可更新的 <strong>Recordset</strong> 对象创建新记录。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="append-method-ado.md">Append</a></p></td>
@@ -43,11 +43,10 @@ ms.locfileid: "28716178"
 <td><p>用于将数据追加到大型文本或二进制数据 <strong>Field</strong> 或 <strong>Parameter</strong> 对象。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans、 CommitTrans 和 RollbackTrans</a></p></td>
-<td><p>用于管理 <strong>Connection</strong> 对象中的事务处理，如下所示：
-<br/><br/><strong>BeginTrans</strong> - 开始新的事务。<br/><br/>
+<td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans、CommitTrans 和 RollbackTrans</a></p></td>
+<td><p>用于管理 <strong>Connection</strong> 对象中的事务处理，如下所示：<br/><br/><strong>BeginTrans</strong> - 开始新的事务。<br/><br/>
 <strong>CommitTrans</strong> - 保存任何更改并结束当前事务。还可以开始一个新的事务。<br/><br/>
-<strong>RollbackTrans</strong> — 取消所有更改并结束当前事务。 还可以开始一个新的事务。</p></td>
+<strong>RollbackTrans</strong> —取消所有更改并结束当前事务。 它也可能开始新事务。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
@@ -67,7 +66,7 @@ ms.locfileid: "28716178"
 </tr>
 <tr class="odd">
 <td><p><a href="clone-method-ado.md">Clone</a></p></td>
-<td><p>用于从现有 <strong>Recordset</strong> 对象创建重复的 <strong>Recordset</strong> 对象。还可以指定克隆为只读状态。</p></td>
+<td><p>用于从现有 <strong>Recordset</strong> 对象创建重复的 <strong>Recordset</strong> 对象。 还可以指定克隆为只读状态。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="close-method-ado.md">Close</a></p></td>
@@ -83,22 +82,22 @@ ms.locfileid: "28716178"
 </tr>
 <tr class="odd">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>用于将 <strong>Stream</strong> 中指定数量的字符或字节（取决于 <strong>类型</strong>）复制到另一个 <strong>Stream</strong> 对象。</p></td>
+<td><p>用于将 <strong>Stream</strong> 中指定数量的字符或字节（取决于<strong>类型</strong>）复制到另一个 <strong>Stream</strong> 对象。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="createparameter-method-ado.md">CreateParameter</a></p></td>
 <td><p>用于创建具有指定属性的新 <strong>Parameter</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-parameters-collection.md">删除 （ADO Parameters 集合）</a></p></td>
+<td><p><a href="delete-method-ado-parameters-collection.md">Delete（ADO Parameters 集合）</a></p></td>
 <td><p>用于从 <strong>Parameters</strong> 集合中删除对象。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="delete-method-ado-fields-collection.md">删除 （ADO Fields 集合）</a></p></td>
+<td><p><a href="delete-method-ado-fields-collection.md">Delete（ADO Fields 集合）</a></p></td>
 <td><p>用于从 <strong>Fields</strong> 集合中删除对象。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">删除 (ADO Recordset)</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete (ADO Recordset)</a></p></td>
 <td><p>用于删除当前记录或一组记录。</p></td>
 </tr>
 <tr class="even">
@@ -106,28 +105,28 @@ ms.locfileid: "28716178"
 <td><p>用于删除文件或目录及其所有子目录。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">执行 (ADO Command)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute (ADO Command)</a></p></td>
 <td><p>用于执行在 <strong>CommandText</strong> 属性中指定的查询、SQL 语句或存储过程。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">执行 (ADO Connection)</a></p></td>
-<td><p>执行指定的查询、SQL 语句、存储过程或提供程序特定的文本。</p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (ADO Connection)</a></p></td>
+<td><p>用于执行指定的查询、SQL 语句、存储过程或提供程序的特定文本。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="find-method-ado.md">查找</a></p></td>
-<td><p>用于在 <strong>Recordset</strong> 中搜索满足指定条件的行。</p></td>
+<td><p>用于在 <strong>Recordset</strong> 中搜索符合指定条件的行。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">刷新</a></p></td>
+<td><p><a href="flush-method-ado.md">对齐</a></p></td>
 <td><p>用于将保留在 ADO 缓冲区中的 <strong>Stream</strong> 的内容强制转移到 <strong>Stream</strong> 所关联的基础对象中。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="getchildren-method-ado.md">GetChildren</a></p></td>
-<td><p>返回一个<strong>Recordset</strong> ，其行表示的文件和此<strong>Record</strong>所表示的目录的子目录中。</p></td>
+<td><p>用于返回一个 <strong>Recordset</strong>，其行表示此 <strong>Record</strong> 所表示的目录中的文件和子目录。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="getchunk-method-ado.md">GetChunk</a></p></td>
-<td><p>返回所有或大型文本或二进制数据<strong>Field</strong>对象的内容的一部分。</p></td>
+<td><p>返回大型文本或二进制数据 <strong>Field</strong> 对象的所有（或部分）内容。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="getrows-method-ado.md">GetRows</a></p></td>
@@ -146,7 +145,7 @@ ms.locfileid: "28716178"
 <td><p>用于移动 <strong>Recordset</strong> 对象中当前记录的位置。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst、 MoveLast、 MoveNext 和 MovePrevious</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst、MoveLast、MoveNext 和 MovePrevious</a></p></td>
 <td><p>用于移动到指定的 <strong>Recordset</strong> 对象中的第一个、最后一个、下一个或上一个记录，并使该记录成为当前记录。</p></td>
 </tr>
 <tr class="even">
@@ -155,22 +154,22 @@ ms.locfileid: "28716178"
 </tr>
 <tr class="odd">
 <td><p><a href="nextrecordset-method-ado.md">NextRecordset</a></p></td>
-<td><p>用于通过执行一系列命令，清除当前 <strong>Recordset</strong> 对象并返回下一个 <strong>Recordset</strong> 。</p></td>
+<td><p>用于通过执行一系列命令，清除当前 <strong>Recordset</strong> 对象并返回下一个 <strong>Recordset</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="open-method-ado-connection.md">打开 (ADO Connection)</a></p></td>
+<td><p><a href="open-method-ado-connection.md">Open (ADO Connection)</a></p></td>
 <td><p>用于打开与数据源的连接。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="open-method-ado-record.md">打开 (ADO Record)</a></p></td>
+<td><p><a href="open-method-ado-record.md">Open (ADO Record)</a></p></td>
 <td><p>用于打开现有的 <strong>Record</strong> 对象，或创建新的文件或目录。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="open-method-ado-recordset.md">打开 (ADO Recordset)</a></p></td>
-<td><p>打开游标。</p></td>
+<td><p><a href="open-method-ado-recordset.md">Open (ADO Recordset)</a></p></td>
+<td><p>可打开游标。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="open-method-ado-stream.md">打开 (ADO Stream)</a></p></td>
+<td><p><a href="open-method-ado-stream.md">Open (ADO Stream)</a></p></td>
 <td><p>用于打开 <strong>Stream</strong> 对象，以操作二进制数据流或文本数据流。</p></td>
 </tr>
 <tr class="even">
@@ -187,14 +186,14 @@ ms.locfileid: "28716178"
 </tr>
 <tr class="odd">
 <td><p><a href="refresh-method-ado.md">Refresh</a></p></td>
-<td><p>更新集合中的对象，以反映提供程序特定的可用对象。</p></td>
+<td><p>用于更新集合中的对象，以反映提供程序的特定可用对象。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="requery-method-ado.md">Requery</a></p></td>
 <td><p>通过重新执行对象所基于的查询，更新 <strong>Recordset</strong> 对象中的数据。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="resync-method-ado.md">Resync</a></p></td>
+<td><p><a href="resync-method-ado.md">同步</a></p></td>
 <td><p>用于从基础数据库刷新当前 <strong>Recordset</strong> 对象中的数据或刷新 <strong>Record</strong> 对象的 <strong>Fields</strong> 集合中的数据。</p></td>
 </tr>
 <tr class="even">

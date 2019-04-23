@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a47cc394cf0bb1c6f5a3d707c1885d0abef0f0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287522"
 ---
 # <a name="position-property-ado"></a>Position 属性 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示 [Stream](stream-object-ado.md) 对象中的当前位置。
 
@@ -24,7 +24,7 @@ ms.locfileid: "28704229"
 
 设置或返回一个 **Long** 值，指定当前位置从流开始处的偏移量（以字节为单位）。默认值为 0，表示流中的第一个字节。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 当前位置可移至流末尾之后的某点。如果在流末尾之后指定当前位置，则 [Stream](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) 对象的 **Size** 也将相应增加。按这种方法添加的任何新字节均将为空。
 

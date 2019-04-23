@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b4f1c46b390e1f059e57f3b7a70fc667da4b09b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288923"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Microsoft OLE DB Provider for Microsoft Jet
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 OLE DB Provider for Microsoft Jet 允许 ADO 访问 Microsoft Jet 数据库。
 
 ## <a name="connection-string-parameters"></a>连接字符串参数
 
-若要连接到此提供程序，请将 *ConnectionString* 属性的 [Provider](connectionstring-property-ado.md) 参数设置为：
+若要连接到此提供程序，请将 [ConnectionString](connectionstring-property-ado.md) 属性的 *Provider* 参数设置为：
 
 ```vb 
  
@@ -60,15 +60,15 @@ Microsoft.Jet.OLEDB.4.0
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong></p></td>
-<td><p>指定数据库路径和文件名称 (例如，c:\Northwind.mdb)。</p></td>
+<td><p>指定数据库路径和文件名 (例如, c:\Northwind.mdb)。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>
-<td><p>指定用户名。 如果未指定此关键字，字符串&quot;管理&quot;，默认情况下使用。</p></td>
+<td><p>指定用户名。 如果未指定此关键字, 则默认使用字符串&quot;"&quot;admin"。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Password</strong></p></td>
-<td><p>指定用户密码。 如果未指定此关键字，则空字符串 (&quot;&quot;)，默认情况下使用。</p></td>
+<td><p>指定用户密码。 如果未指定此关键字, 则默认使用空字符串&quot;&quot;()。</p></td>
 </tr>
 </tbody>
 </table>
@@ -88,29 +88,29 @@ OLE DB Provider for Microsoft Jet 除了支持 ADO 定义的那些属性以外�
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>说明</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Jet OLEDB:Compact 回收的空间量<br />
+<td><p>Jet OLEDB: 压缩回收空间量<br />
 (DBPROP_JETOLEDB_COMPACTFREESPACESIZE)</p></td>
 <td><p>指示空间量的估计值（以字节为单位），可通过压缩数据库来回收空间。仅在建立了数据库连接后，此值才有效。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:Connection 控件<br />
+<td><p>Jet OLEDB: 连接控制<br />
 (DBPROP_JETOLEDB_CONNECTIONCONTROL)</p></td>
 <td><p>指示用户是否可以连接到数据库。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB： 创建系统数据库<br />
+<td><p>Jet OLEDB: 创建系统数据库<br />
 (DBPROP_JETOLEDB_CREATESYSTEMDATABASE)</p></td>
 <td><p>指示在创建新的数据源时是否应该创建系统数据库。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:Database 锁定模式<br />
+<td><p>Jet OLEDB: 数据库锁定模式<br />
 (DBPROP_JETOLEDB_DATABASELOCKMODE)</p></td>
-<td><p>指示此数据库的锁定模式。打开该数据库的第一个用户可以确定数据库打开时使用的模式。</p></td>
+<td><p>指示此数据库的锁定模式。 打开该数据库的第一个用户可以确定数据库打开时使用的模式。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Database Password<br />
@@ -120,12 +120,12 @@ OLE DB Provider for Microsoft Jet 除了支持 ADO 定义的那些属性以外�
 <tr class="even">
 <td><p>Jet OLEDB:Don't Copy Locale on Compact<br />
 (DBPROP_JETOLEDB_COMPACT_DONTCOPYLOCALE)</p></td>
-<td><p>指示压缩数据库时 Jet 是否应该复制区域设置信息。</p></td>
+<td><p>指示在压缩数据库时, Jet 是否应复制区域设置信息。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Encrypt Database<br />
 (DBPROP_JETOLEDB_ENCRYPTDATABASE)</p></td>
-<td><p>指示是否应对压缩的数据库进行加密。如果没有设置此属性，则在对原始数据库进行加密时也会对压缩的数据库加密。</p></td>
+<td><p>指示是否应加密压缩的数据库。 如果未设置该属性, 则在原始数据库也进行加密时将加密压缩的数据库。</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:Engine Type<br />
@@ -135,73 +135,72 @@ OLE DB Provider for Microsoft Jet 除了支持 ADO 定义的那些属性以外�
 <tr class="odd">
 <td><p>Jet OLEDB:Exclusive Async Delay<br />
 (DBPROP_JETOLEDB_EXCLUSIVEASYNCDELAY)</p></td>
-<td><p>指示以独占方式打开数据库时，Jet 可延迟磁盘异步写入的最长时间（以毫秒为单位）。
- 除非将 <strong>Jet OLEDB:Flush Transaction Timeout</strong> 设置为 0，否则将忽略此属性。</p></td>
+<td><p>指示以独占方式打开数据库时, Jet 可以将异步写入延迟到磁盘的最长时间 (以毫秒为单位)。 除非<strong>Jet OLEDB: Flush Transaction Timeout</strong>设置为 0, 否则将忽略此属性。</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:Flush Transaction Timeout<br />
 (DBPROP_JETOLEDB_FLUSHTRANSACTIONTIMEOUT)</p></td>
-<td><p>指示将存储在缓存中要异步写入的数据实际写入磁盘之前等待的时间。此设置将覆盖 <strong>Jet OLEDB:Shared Async Delay</strong> 和 <strong>Jet OLEDB:Exclusive Async Delay</strong> 的值。</p></td>
+<td><p>指示在缓存中存储在异步写入的数据实际写入磁盘之前等待的时间量。 此设置将覆盖 " <strong>Jet oledb: 共享异步延迟</strong>" 和 " <strong>jet oledb: 独占异步延迟</strong>" 的值。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB： 全局批量事务<br />
+<td><p>Jet OLEDB: 全局批量事务<br />
 (DBPROP_JETOLEDB_GLOBALBULKNOTRANSACTIONS)</p></td>
-<td><p>指示是否要处理 SQL 批量事务处理。</p></td>
+<td><p>指示是否对 SQL 批量事务进行事务处理。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB： 全局部分批量操作<br />
+<td><p>Jet OLEDB: 全局部分批量操作数<br />
 (DBPROP_JETOLEDB_GLOBALBULKPARTIAL)</p></td>
 <td><p>指示用于打开数据库的密码。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Implicit Commit Sync<br />
 (DBPROP_JETOLEDB_IMPLICITCOMMITSYNC)</p></td>
-<td><p>指示采用同步模式还是异步模式写入在内部隐式事务处理中所做的更改。</p></td>
+<td><p>指示是否在同步或异步模式下写入内部隐式事务中所做的更改。</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:Lock Delay<br />
 (DBPROP_JETOLEDB_LOCKDELAY)</p></td>
-<td><p>指示在上一次尝试失败后与再次尝试获取锁定之前等待的毫秒数。</p></td>
+<td><p>指示在上一次尝试失败后尝试获取锁定之前等待的毫秒数。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Lock Retry<br />
 (DBPROP_JETOLEDB_LOCKRETRY)</p></td>
-<td><p>指示重复尝试访问已锁定页面的次数。</p></td>
+<td><p>指示重复尝试访问锁定页面的次数。</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:Max Buffer Size<br />
 (DBPROP_JETOLEDB_MAXBUFFERSIZE)</p></td>
-<td><p>指示 Jet 在开始刷新对磁盘所做的更改之前可以使用的最大内存量 (KB)。</p></td>
+<td><p>指示 Jet 在开始刷新对磁盘所做的更改之前可以使用的最大内存量 (以 kb 为单位)。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Max Locks Per File<br />
 (DBPROP_JETOLEDB_MAXLOCKSPERFILE)</p></td>
-<td><p>指示 Jet 可在数据库上放置的最大锁定数目。默认值为 9500。</p></td>
+<td><p>指示 Jet 可以对数据库进行的最大锁定数。 默认值为9500。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB： 新数据库密码<br />
+<td><p>Jet OLEDB: 新数据库密码<br />
 (DBPROP_JETOLEDB_NEWDATABASEPASSWORD)</p></td>
-<td><p>指示要为此数据库设置的新密码。旧密码存储在 <strong>Jet OLEDB:Database Password</strong> 中。</p></td>
+<td><p>指示要为此数据库设置的新密码。 旧密码存储在<strong>Jet OLEDB: 数据库密码</strong>中。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:ODBC Command Time Out<br />
+<td><p>Jet OLEDB: ODBC 命令超时<br />
 (DBPROP_JETOLEDB_ODBCCOMMANDTIMEOUT)</p></td>
-<td><p>指示 Jet 中的远程 ODBC 查询超时之前的毫秒数。</p></td>
+<td><p>指示从 Jet 的远程 ODBC 查询超时前的毫秒数。</p></td>
 </tr>
 <tr class="even">
-<td><p>为表锁定 jet OLEDB:Page 锁定<br />
+<td><p>Jet OLEDB: 页锁定到表锁定<br />
 (DBPROP_JETOLEDB_PAGELOCKSTOTABLELOCK)</p></td>
-<td><p>指示 Jet 尝试将锁定提升到表锁定之前，在事务处理中需要锁定的页数。如果此值为 0，则永远不会提升锁定。</p></td>
+<td><p>指示 Jet 尝试将锁定提升为表锁定之前, 需要在事务中锁定的页面数。 如果此值为 0, 则永远不会提升锁定。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Page Timeout<br />
 (DBPROP_JETOLEDB_PAGETIMEOUT)</p></td>
-<td><p>指示 Jet 在查看其数据文件的缓存是否过期之前等待的毫秒数。</p></td>
+<td><p>指示 Jet 在查看其缓存是否已过期 (如果数据库文件) 之前将等待的毫秒数。</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:Recycle Long-Valued Pages<br />
 (DBPROP_JETOLEDB_RECYCLELONGVALUEPAGES)</p></td>
-<td><p>指示释放 BLOB 页后 Jet 是否应该主动尝试回收这些 BLOB 页。</p></td>
+<td><p>指示在释放 BLOB 页时, Jet 是否应主动尝试回收它们。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Registry Path<br />
@@ -209,29 +208,29 @@ OLE DB Provider for Microsoft Jet 除了支持 ADO 定义的那些属性以外�
 <td><p>指示包含 Jet 数据库引擎的值的 Windows 注册表项。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:Reset ISAM Stats<br />
+<td><p>Jet OLEDB: 重置 ISAM 统计信息<br />
 (DBPROP_JETOLEDB_RESETISAMSTATS)</p></td>
-<td><p>指示返回性能信息后，架构 <strong>Recordset</strong> DBSCHEMA_JETOLEDB_ISAMSTATS 是否应该重新设置其性能计数器。</p></td>
+<td><p>指示架构<strong>Recordset</strong> DBSCHEMA_JETOLEDB_ISAMSTATS 是否应在返回性能信息后重置其性能计数器。</p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:Shared Async Delay<br />
 (DBPROP_JETOLEDB_SHAREDASYNCDELAY)</p></td>
-<td><p>指示以多用户模式打开数据库时，Jet 可以延迟异步磁盘写入的最长时间（以毫秒为单位）。</p></td>
+<td><p>指示在多用户模式下打开数据库时, Jet 可以延迟异步写入到磁盘的最长时间 (以毫秒为单位)。</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:System Database<br />
 (DBPROP_JETOLEDB_SYSDBPATH)</p></td>
-<td><p>指示工作组信息文件（系统数据库）的路径和文件名。</p></td>
+<td><p>指示工作组信息文件 (系统数据库) 的路径和文件名。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:Transaction 提交模式<br />
+<td><p>Jet OLEDB: 事务提交模式<br />
 (DBPROP_JETOLEDB_TXNCOMMITMODE)</p></td>
-<td><p>指示提交事务处理时 Jet 采用同步方式还是异步方式将数据写入磁盘。</p></td>
+<td><p>指示提交事务时, Jet 是同步还是异步地将数据写入磁盘。</p></td>
 </tr>
 <tr class="even">
 <td><p>Jet OLEDB:User Commit Sync<br />
 (DBPROP_JETOLEDB_USERCOMMITSYNC)</p></td>
-<td><p>指示采用同步模式还是异步模式写入在事务处理中所做的更改。</p></td>
+<td><p>指示是否在同步或异步模式下写入在事务中所做的更改。</p></td>
 </tr>
 </tbody>
 </table>
@@ -254,59 +253,59 @@ Jet 提供程序还支持多个提供程序特定的 **Recordset** 和 **Command
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Jet OLEDB:Bulk 事务<br />
+<td><p>Jet OLEDB: 批量事务<br />
 (DBPROP_JETOLEDB_BULKNOTRANSACTIONS)</p></td>
-<td><p>指示是否处理 SQL 批量操作。处理时，由于资源延迟，大量的批量操作可能会失败。</p></td>
+<td><p>指示是否对 SQL 批量操作进行事务处理。 由于资源延迟, 在进行事务处理时, 大型批量操作可能会失败。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:Enable Fat 游标<br />
+<td><p>Jet OLEDB: 启用 Fat 游标<br />
 (DBPROP_JETOLEDB_ENABLEFATCURSOR)</p></td>
-<td><p>指示为远程行源填充记录集时，Jet 是否应该缓存多个行。</p></td>
+<td><p>指示在填充远程行源的 recordset 时, Jet 是否应缓存多行。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:Fat 光标缓存大小<br />
+<td><p>Jet OLEDB: Fat 游标缓存大小<br />
 (DBPROP_JETOLEDB_FATCURSORMAXROWS)</p></td>
-<td><p>指示使用远程数据存储区行缓存时要缓存的行数。除非 <strong>Jet OLEDB:Enable Fat Cursors</strong> 为 True，否则将忽略此值。</p></td>
+<td><p>指示使用远程数据存储行缓存时要缓存的行数。 除非<strong>Jet OLEDB: Enable Fat 游标</strong>为 True, 否则将忽略此值。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB： 不一致<br />
+<td><p>Jet OLEDB: 不一致<br />
 (DBPROP_JETOLEDB_INCONSISTENT)</p></td>
 <td><p>指示查询结果是否允许不一致的更新。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB： 锁定粒度<br />
+<td><p>Jet OLEDB: 锁定粒度<br />
 (DBPROP_JETOLEDB_LOCKGRANULARITY)</p></td>
 <td><p>指示是否使用行级锁定打开表。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB:ODBC 传递语句<br />
+<td><p>Jet OLEDB: ODBC 传递语句<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGH)</p></td>
-<td><p>指示 Jet 是否应该将 <strong>Command</strong> 对象中的 SQL 文本原封不动地传递到后端。</p></td>
+<td><p>指示 Jet 应将<strong>Command</strong>对象中的 SQL 文本原封不动地传递给后端。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:Partial 批量操作<br />
+<td><p>Jet OLEDB: 部分批量操作数<br />
 (DBPROP_JETOLEDB_BULKPARTIAL)</p></td>
 <td><p>指示 SQL DML 操作失败时 Jet 的行为。</p></td>
 </tr>
 <tr class="even">
-<td><p>通过查询批量桌面 jet OLEDB:Pass<br />
+<td><p>Jet OLEDB: 通过查询批量使用查询<br />
 (DBPROP_JETOLEDB_PASSTHROUGHBULKOP)</p></td>
-<td><p>指示是否将不返回 <strong>Recordset</strong> 的查询原封不动地传递到数据源。</p></td>
+<td><p>指示是否将不返回<strong>Recordset</strong>的查询原封不动地传递给数据源。</p></td>
 </tr>
 <tr class="odd">
-<td><p>通过查询 jet OLEDB:Pass 连接字符串<br />
+<td><p>Jet OLEDB: 通过查询连接字符串<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGHCONNECTSTRING)</p></td>
-<td><p>指示用于连接到远程数据存储区的 Jet 连接字符串。除非 <strong>Jet OLEDB:ODBC Pass-Through Statement</strong> 为 True，否则将忽略此值。</p></td>
+<td><p>指示用于连接到远程数据存储区的 Jet 连接字符串。 除非<strong>Jet OLEDB: ODBC 传递语句</strong>为 True, 否则将忽略此值。</p></td>
 </tr>
 <tr class="even">
-<td><p>Jet OLEDB： 存储查询<br />
+<td><p>Jet OLEDB: 存储查询<br />
 (DBPROP_JETOLEDB_STOREDQUERY)</p></td>
-<td><p>指示是否应将命令文本解释为存储查询，而不是解释为 SQL 命令。</p></td>
+<td><p>指示是否应将命令文本解释为存储查询, 而不是解释为 SQL 命令。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB： 验证规则集<br />
+<td><p>Jet OLEDB: 验证设置上的规则<br />
 (DBPROP_JETOLEDB_VALIDATEONSET)</p></td>
-<td><p>指示在设置列数据或将更改提交到数据库时，是否应该评估 Jet 验证规则。</p></td>
+<td><p>指示在设置列数据或将更改提交到数据库时, 是否对 Jet 验证规则进行评估。</p></td>
 </tr>
 </tbody>
 </table>
@@ -320,7 +319,7 @@ Jet 提供程序还支持多个提供程序特定的 **Recordset** 和 **Command
 
 ## <a name="recordset-behavior"></a>Recordset 行为
 
-Microsoft Jet 数据库引擎不支持动态游标。因此，OLE DB Provider for Microsoft Jet 也不支持 **adLockDynamic** 游标类型。请求动态游标时，该提供程序将返回键集游标并重新设置 [CursorType](cursortype-property-ado.md) 属性，以指示返回的 [Recordset](recordset-object-ado.md) 的类型。而且，如果请求可更新的 **Recordset**（**LockType** 是 **adLockOptimistic**、**adLockBatchOptimistic** 或 **adLockPessimistic**），则该提供程序也会返回一个键集游标并重新设置 **CursorType** 属性。
+Microsoft Jet 数据库引擎不支持动态游标。 因此，OLE DB Provider for Microsoft Jet 也不支持 **adLockDynamic** 游标类型。 请求动态游标时，该提供程序将返回键集游标并重新设置 [CursorType](cursortype-property-ado.md) 属性，以指示返回的 [Recordset](recordset-object-ado.md) 的类型。 此外, 如果请求可更新的**Recordset** (**LockType**为**adLockOptimistic**、 **adLockBatchOptimistic**或**adLockPessimistic**), 则提供程序还将返回键集游标并重置**CursorType**财产.
 
 ## <a name="dynamic-properties"></a>动态属性
 
@@ -437,7 +436,7 @@ OLE DB Provider for Microsoft Jet 可以将多个动态属性插入到未打开�
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>模式</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -1186,5 +1185,5 @@ OLE DB Provider for Microsoft Jet 可以将多个动态属性插入到未打开�
 
 ## <a name="see-also"></a>另请参阅
 
-有关具体的实现详细信息以及有关 OLE DB Provider for Microsoft Jet 的功能信息，请参阅 OLE DB Provider for Microsoft Jet MDAC SDK 中的文档。
+有关用于 microsoft jet 的 ole db 提供程序的特定实现详细信息和功能信息, 请参阅 MDAC SDK 中的 ole db provider for microsoft jet 文档。
 

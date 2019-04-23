@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54ea659aa5392dd4404ffb591eba06f1f9c2910b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288902"
 ---
-# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Microsoft OLE DB Remoting Provider（ADO 服务提供程序）
+# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Microsoft OLE DB 远程提供程序（ADO 服务提供程序）
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft OLE DB Remoting Provider 允许客户端计算机的本地用户调用远程计算机上的数据提供程序。您可以像远程计算机的本地用户一样为远程计算机指定数据提供程序参数，然后指定 Remoting Provider 所用的参数以访问远程计算机。于是，您就可以像远程计算机的本地用户一样访问远程计算机。
 
@@ -47,7 +47,7 @@ Microsoft OLE DB Remoting Provider 允许客户端计算机的本地用户调用
 <tbody>
 <tr class="odd">
 <td><p><strong>Data Source</strong></p></td>
-<td><p>指定远程数据源的名称。 它将传递到 OLE DB Remoting Provider 进行处理。 此关键字与 <a href="datacontrol-object-rds.md">RDS.DataControl</a> 对象的 <a href="connect-property-rds.md">Connect</a> 属性等效。</p></td>
+<td><p>指定远程数据源的名称。 该名称将被传递给 OLE DB Remoting Provider 进行处理。 此关键字与 <a href="datacontrol-object-rds.md">RDS.DataControl</a> 对象的 <a href="connect-property-rds.md">Connect</a> 属性等效。</p></td>
 </tr>
 </tbody>
 </table>
@@ -71,13 +71,13 @@ Microsoft OLE DB Remoting Provider 允许客户端计算机的本地用户调用
 <tbody>
 <tr class="odd">
 <td><p><strong>DFMode</strong></p></td>
-<td><p>指示 DataFactory 模式。 一个字符串，指定所需的版本的<a href="datafactory-object-rdsserver.md">DataFactory</a>对象的服务器上。 打开连接请求<strong>DataFactory</strong>的特定版本之前设置该属性。 如果请求的版本不可用，尝试将进行使用以前的版本。 如果没有，则任何以前的版本，则会发生错误。 如果<strong>DFMode</strong>小于的可用版本，将发生错误。 建立连接之后，此属性是只读的。 可为以下有效的字符串值之一：</p>
+<td><p>指示 DataFactory Mode。 一个指定服务器上所需的 <a href="datafactory-object-rdsserver.md">DataFactory</a> 对象版本的字符串。 打开连接来请求特定的 <strong>DataFactory</strong> 版本之前，请先设置此属性。 如果请求的版本不可用，则将尝试使用以前的版本。 如果没有以前的版本，则将发生错误。 如果 <strong>DFMode</strong> 低于可用版本，则也会发生错误。 建立连接后，此属性即为只读形式。 可为以下有效的字符串值之一：</p>
 <p></p>
 <ul>
-<li><p>&quot;25&quot; — 版本 2.5 （默认值）</p></li>
-<li><p>&quot;21&quot; — 2.1 版</p></li>
-<li><p>&quot;20&quot; — 2.0 版</p></li>
-<li><p>&quot;15&quot; — 版本 1.5</p></li>
+<li><p>&quot;25&quot; —版本 2.5 (默认值)</p></li>
+<li><p>&quot;21&quot; -版本2。1</p></li>
+<li><p>&quot;20&quot; —版本2。0</p></li>
+<li><p>&quot;15&quot; —版本1。5</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -87,7 +87,7 @@ Microsoft OLE DB Remoting Provider 允许客户端计算机的本地用户调用
 </tr>
 <tr class="odd">
 <td><p><strong>Current DFMode</strong></p></td>
-<td><p>指示<strong>DataFactory</strong>的服务器上实际的版本号。 检查此属性，以了解是否请求<strong>DFMode</strong>属性中的版本。 可以为以下有效的长整型值之一：</p>
+<td><p>指示服务器上的 <strong>DataFactory</strong> 的实际版本号。 请检查此属性以了解是否已提供在 <strong>DFMode</strong> 属性中请求的版本。 可以为以下有效的长整型值之一：</p>
 <p></p>
 <ul>
 <li><p>25 — 版本 2.5（默认值）</p></li>
@@ -96,7 +96,7 @@ Microsoft OLE DB Remoting Provider 允许客户端计算机的本地用户调用
 <li><p>15 — 版本 1.5</p></li>
 </ul>
 <p></p>
-<p>添加&quot;DFMode = 20;&quot;对您的连接字符串时使用<strong>MSRemote</strong>提供程序可以提高服务器的性能数据更新时。 通过使用此设置，服务器上的 <strong>RDSServer.DataFactory</strong> 对象可使用资源占用量较少的模式。 但是，以下功能在此配置中不可用：</p>
+<p>添加&quot;DFMode = 20;&quot;在您的连接字符串中使用<strong>MSRemote</strong>提供程序时, 可以提高服务器在更新数据时的性能。 通过使用此设置，服务器上的 <strong>RDSServer.DataFactory</strong> 对象可使用资源占用量较少的模式。 但是，以下功能在此配置中不可用：</p>
 <p></p>
 <ul>
 <li><p>使用参数化的查询。</p></li>
@@ -106,13 +106,13 @@ Microsoft OLE DB Remoting Provider 允许客户端计算机的本地用户调用
 <li><p>调用 <strong>Resync</strong> 方法。</p></li>
 <li><p>通过 <strong>Update Resync</strong> 属性刷新（显式或自动）。</p></li>
 <li><p>设置 <strong>Command</strong> 或 <strong>Recordset</strong> 属性。</p></li>
-<li><p>使用 <strong>adCmdTableDirect</strong> 。</p></li>
+<li><p>使用 <strong>adCmdTableDirect</strong>。</p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>处理程序</strong></p></td>
-<td><p>指示扩展<a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>和使用的处理<em>，</em>所有以逗号分隔的任何参数的功能的服务器端自定义程序 （或处理） 的名称 (&quot;，&quot;)。 <strong>字符串型</strong> 值。</p></td>
+<td><p><strong>Handler</strong></p></td>
+<td><p>指示扩展<a href="datafactory-object-rdsserver.md">rdsserver.datafactory</a>的功能的服务器端自定义程序 (或处理程序) 的名称, 以及处理程序使用的任何参数 (以逗号 (<em></em> &quot;,&quot;) 分隔)。 这是一个 <strong>String</strong> 值。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>
@@ -150,13 +150,13 @@ Debug.Print cn.Properties("Internet Timeout")
 cn.Properties("Internet Timeout") = 5000 
 ```
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-在 ADO 2.0 中，OLE DB Remoting Provider 只无法[Recordset](recordset-object-ado.md)对象的**Open**方法的*ActiveConnection*参数中指定。 从开始 ADO 2.1，提供程序可能还指定[Connection](connection-object-ado.md)对象的**Open**方法的*ConnectionString*参数中。
+在 ADO 2.0 中，OLE DB Remoting Provider 只能在 [Recordset](recordset-object-ado.md) 对象的 **Open** 方法的 *ActiveConnection* 参数中指定。从 ADO 2.1 开始，该提供程序还可以在 [Connection](connection-object-ado.md) 对象的 **Open** 方法的 *ConnectionString* 参数中指定。
 
-与 **RDS.DataControl** 对象的 [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) 属性等效的属性不可用。 而使用[Recordset](recordset-object-ado.md)对象的**Open**方法的*Source*参数之后。
+与 **RDS.DataControl** 对象的 [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) 属性等效的属性不可用。 应改用 [Recordset](recordset-object-ado.md) 对象的 **Open** 方法的 *Source* 参数。
 
-通过指定"...;Remote Provider=MS Remote;..."，将创建包含一个四层方案。大于三层的方案均未经过测试，应该不会有此方面的需要。
+通过指定“...;Remote Provider=MS Remote;...”，将创建包含一个四层方案。大于三层的方案均未经过测试，应该不会有此方面的需要。
 
 ## <a name="example"></a>示例
 

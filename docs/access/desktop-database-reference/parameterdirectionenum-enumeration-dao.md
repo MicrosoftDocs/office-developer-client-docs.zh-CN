@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d467f66da41559e607520a4328388c41843bc87
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287985"
 ---
 # <a name="parameterdirectionenum-enumeration-dao"></a>ParameterDirectionEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 与 **Direction** 属性一起用来指定 **Parameter** 对象的类型。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28704047"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -42,12 +42,12 @@ ms.locfileid: "28704047"
 </tr>
 <tr class="even">
 <td><p>dbParamInputOutput</p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>将信息传入和传出过程。</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbParamOutput</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>以 SQL 中输出参数的形式从过程中返回信息。</p></td>
 </tr>
 <tr class="even">

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5065b966608f8d6a3ef1cb05be890b9a1f147dc8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288958"
 ---
-# <a name="microsoft-data-shaping-service-for-ole-db-ado-service-provider"></a>Microsoft Data Shaping Service for OLE DB（ADO 服务提供程序）
+# <a name="microsoft-data-shaping-service-for-ole-db-ado-service-provider"></a>用于 OLE DB 的 Microsoft 数据成型服务（ADO 服务提供程序）
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft Data Shaping Service for OLE DB 服务提供程序支持以下操作，即根据数据提供程序构造分层（定形）的 [Recordset](recordset-object-ado.md) 对象。
 
@@ -48,7 +48,7 @@ Microsoft Data Shaping Service for OLE DB 服务提供程序支持以下操作�
 <tbody>
 <tr class="odd">
 <td><p><strong>Unique Reshape Names</strong></p></td>
-<td><p>指示是否允许的<strong>Reshape Name</strong>属性的重复值的<strong>Recordset</strong>对象。 如果该动态属性为<strong>true，</strong>并创建新的<strong>Recordset</strong>相同用户指定为现有的<strong>Recordset</strong>，reshape 名称，然后修改新的<strong>Recordset</strong>对象 reshape 名称以使其成为唯一。 如果此属性为<strong>False</strong> ，并创建新的<strong>Recordset</strong>相同用户指定 reshape 作为现有<strong>记录集</strong>的名称，这两个<strong>Recordset</strong>对象会具有相同的 reshape 名称。 因此，只要两个记录集存在，则可以改变既<strong>Recordset</strong> 。 该属性的默认值是 <strong>False</strong>。</p></td>
+<td><p>指示是否允许对其<strong>改变名称</strong>属性使用重复值的<strong>Recordset</strong>对象。 如果此动态属性为<strong>True</strong> , 并且使用与现有<strong>recordset</strong>相同的用户指定的重新整形名称创建新的<strong>recordset</strong> , 则会修改新的<strong>recordset</strong>对象的重定名称, 以使其成为唯一的。 如果此属性为<strong>False</strong> , 并且使用与现有<strong>recordset</strong>相同的用户指定的重命名名称创建新的<strong>recordset</strong> , 则这两个<strong>recordset</strong>对象的名称改变名称相同。 因此, 只要两个记录集都存在, 则这两个<strong>recordset</strong>都不能被重整形。 该属性的默认值是 <strong>False</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Data Provider</strong></p></td>

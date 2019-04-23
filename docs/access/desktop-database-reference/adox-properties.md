@@ -1,5 +1,5 @@
 ---
-title: ADOX 属性 （Access 桌面数据库参考 （英文）
+title: ADOX 属性 (Access desktop database reference)
 TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0056764d80b5cfa19bf8e229d33c2c84c8b08c28
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285249"
 ---
 # <a name="adox-properties"></a>ADOX 属性
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 
@@ -34,7 +34,7 @@ ms.locfileid: "28703032"
 <tbody>
 <tr class="odd">
 <td><p><a href="activeconnection-property-adox.md">ActiveConnection</a></p></td>
-<td><p>表示目录所属的 ADO <strong>Connection</strong>对象。</p></td>
+<td><p>表示目录所属的 ADO <strong>Connection</strong> 对象。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="attributes-property-adox.md">Attributes</a></p></td>
@@ -73,7 +73,7 @@ ms.locfileid: "28703032"
 <td><p>指示索引字段具有 null 值的记录是否有索引项。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">项</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>按名称或序号指示集合的特定成员。</p></td>
 </tr>
 <tr class="even">
@@ -89,11 +89,11 @@ ms.locfileid: "28703032"
 <td><p>指定表或列的父目录，以提供对特定于提供程序的属性的访问。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="precision-property-adox.md">精度</a></p></td>
+<td><p><a href="precision-property-adox.md">精密</a></p></td>
 <td><p>指示列中的数据值的最大精度。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="primarykey-property-adox.md">PrimaryKey</a></p></td>
+<td><p><a href="primarykey-property-adox.md">关键字</a></p></td>
 <td><p>指示索引是否表示表的主键。</p></td>
 </tr>
 <tr class="odd">
@@ -109,15 +109,15 @@ ms.locfileid: "28703032"
 <td><p>指示列的排序顺序（仅限索引列）。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">类型 （列）</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (Column)</a></p></td>
 <td><p>指示列的数据类型。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">类型 （键）</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (Key)</a></p></td>
 <td><p>指示键的数据类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">类型 （表）</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Type (Table)</a></p></td>
 <td><p>指示表的类型。</p></td>
 </tr>
 <tr class="odd">

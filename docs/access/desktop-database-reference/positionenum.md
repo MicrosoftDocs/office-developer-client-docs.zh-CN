@@ -1,5 +1,5 @@
 ---
-title: PositionEnum （访问桌面数据库参考 （英文）
+title: PositionEnum (Access desktop database reference)
 TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c791cbd31e346eef5ab8503cb55b0dec5e9fbbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287501"
 ---
 # <a name="positionenum"></a>PositionEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定在 [Recordset](recordset-object-ado.md) 中记录指针的当前位置。
 
@@ -55,9 +55,9 @@ ms.locfileid: "28702836"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -70,13 +70,13 @@ ms.locfileid: "28702836"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Position.BOF</p></td>
+<td><p>AdoEnums 的位置. BOF</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Position.EOF</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Position.UNKNOWN</p></td>
+<td><p>AdoEnums 的位置。未知</p></td>
 </tr>
 </tbody>
 </table>

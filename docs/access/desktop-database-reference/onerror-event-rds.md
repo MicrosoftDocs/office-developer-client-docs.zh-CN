@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fc51522d143306d9625cdc07251edfe1dddf22d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288474"
 ---
 # <a name="onerror-event-rds"></a>onError 事件 (RDS)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 只要在操作期间发生错误，便会调用 **onError** 事件。
 
 ## <a name="syntax"></a>语法
 
-onError*SCode*，*说明*，*源*， *CancelDisplay*
+onError*SCode*、 *Description*、 *Source*、 *CancelDisplay*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*SCode* |指示错误的状态代码的整数。|
 |*Description* |**字符串型** ，指示错误的说明。|

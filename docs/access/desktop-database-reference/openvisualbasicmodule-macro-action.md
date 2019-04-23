@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 55af2ce884b26b4c3df219e7d1986e7dc2e4c8ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288278"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OpenVisualBasicModule 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **OpenVisualBasicModule** 操作在指定的过程处打开指定的 Visual Basic for Applications (VBA) 模块。此过程可以是 Sub 过程、Function 过程或事件过程。
 
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。 
+> 如果数据库不受信任，则不允许执行此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -45,7 +45,7 @@ ms.locfileid: "28701695"
 <tbody>
 <tr class="odd">
 <td><p><strong>模块名称</strong></p></td>
-<td><p>要打开的模块名称。 如果您想要在数据库中的过程中搜索所有的标准模块和打开适当的模块在该过程，您可以将此参数留空。 如果在类库数据库中运行包含 <strong>OpenVisualBasicModule</strong> 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的模块，然后再在当前数据库中查找。</p></td>
+<td><p>要打开的模块的名称。 如果要在数据库中的所有标准模块中搜索某个过程，并在该过程那里打开适当的模块，则可以将此参数留空。 如果在类库数据库中运行包含 <strong>OpenVisualBasicModule</strong> 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的模块，然后再在当前数据库中查找。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>过程名称</strong></p></td>
@@ -55,12 +55,12 @@ ms.locfileid: "28701695"
 </table>
 
 > [!NOTE]
-> 中的**模块名称**或**过程名称**的参数，必须输入一个有效的名称。
+> 必须在“模块名称”**** 或“过程名称”**** 参数中输入一个有效的名称。
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此操作可用于打开事件过程，通过指定**模块名称**参数和**过程名称**参数。 例如，若要打开的窗体订单的 PrintInvoice 按钮的**Click**事件过程，将**模块名称**参数设置为**Form.Orders**和**过程名称**参数设置为**PrintInvoice\_单击**。 若要查看窗体或报表的事件过程，窗体或报表必须打开。
+You can use this action to open an event procedure by specifying the **Module Name** argument and the **Procedure Name** argument. 例如, 若要打开窗体 "订单" 上 "PrintInvoice" 按钮的**Click**事件过程, 请将 "**模块名称**" 参数设置为 " **form** ", 并将 "**过程名称**" 参数设置为**PrintInvoice\_**。 To view the event procedure for a form or report, the form or report must be open.
 
 同样，要在类模块中打开某个过程，必须指定模块名称；不过，不需要打开类模块。
 

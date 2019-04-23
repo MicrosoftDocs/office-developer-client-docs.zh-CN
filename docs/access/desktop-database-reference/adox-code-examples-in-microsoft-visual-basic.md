@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6d48b780a6b9561d5636eea5f2ed393002ec6a1e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282808"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic"></a>Microsoft Visual Basic 中的 ADOX 代码示例
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下列主题提供的代码示例可帮助您理解如何使用 ADOX。所有代码示例都是使用 Microsoft Visual Basic 编写的。
 
@@ -32,7 +32,7 @@ ms.locfileid: "28704873"
 - [GetPermissions 和 SetPermissions 方法示例 (VB)](getpermissions-and-setpermissions-methods-example-vb.md)
 - [Groups 和 Users 的 Append、ChangePassword 方法示例 (VB)](groups-and-users-append-changepassword-methods-example-vb.md)
 - [Indexes 的 Append 方法示例 (VB)](indexes-append-method-example-vb.md)
-- [Keys 的 Append 方法、 密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+- [Keys Append 方法、Key Type、RelatedColumn、RelatedTable 和 UpdateRule 属性示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
 - [Procedures 的 Append 方法示例 (VB)](procedures-append-method-example-vb.md)
 - [Procedures 的 Delete 方法示例 (VB)](procedures-delete-method-example-vb.md)
 - [Procedures 的 Refresh 方法示例 (VB)](procedures-refresh-method-example-vb.md)
@@ -46,23 +46,23 @@ ms.locfileid: "28704873"
 - [Catalog ActiveConnection 属性示例 (VB)](catalog-activeconnection-property-example-vb.md)
 - [Clustered 属性示例 (VB)](clustered-property-example-vb.md)
 - [Command 和 CommandText 属性示例 (VB)](command-and-commandtext-properties-example-vb.md)
-- [Command 属性，参数集合示例 (VB)](parameters-collection-command-property-example-vb.md)
-- [CommandText 属性，视图集合示例 (VB)](views-collection-commandtext-property-example-vb.md)
+- [Command 属性, Parameters 集合示例 (VB)](parameters-collection-command-property-example-vb.md)
+- [CommandText 属性、Views 集合示例 (VB)](views-collection-commandtext-property-example-vb.md)
 - [DateCreated 和 DateModified 属性示例 (VB)](datecreated-and-datemodified-properties-example-vb.md)
 - [DefinedSize 属性示例 (VB)](definedsize-property-example-vb.md)
 - [DeleteRule 属性示例 (VB)](deleterule-property-example-vb.md)
 - [IndexNulls 属性示例 (VB)](indexnulls-property-example-vb.md)
-- [密钥类型、 RelatedColumn、 RelatedTable 和 UpdateRule 属性，Keys 的 Append 方法示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
-- [Name 属性，Columns 和 Tables 的 Append 方法示例 (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
+- [Key Type、RelatedColumn、RelatedTable 和 UpdateRule 属性、Keys 的 Append 方法示例 (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+- [Name 属性、Columns 和 Tables 的 Append 方法示例 (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 - [NumericScale 和 Precision 属性示例 (VB)](numericscale-and-precision-properties-example-vb.md)
 - [ParentCatalog 属性示例 (VB)](parentcatalog-property-example-vb.md)
 - [PrimaryKey 和 Unique 属性示例 (VB)](primarykey-and-unique-properties-example-vb.md)
 - [SortOrder 属性示例 (VB)](sortorder-property-example-vb.md)
-- [表类型属性，连接 Close 方法示例 (VB)](connection-close-method-table-type-property-example-vb.md)
+- [Table Type 属性, Connection Close 方法示例 (VB)](connection-close-method-table-type-property-example-vb.md)
 
-## <a name="collections"></a>集合
+## <a name="collections"></a>收藏
 
 - [Parameters 集合与 Command 属性示例 (VB)](parameters-collection-command-property-example-vb.md)
 - [Views 和 Fields 集合示例 (VB)](views-and-fields-collections-example-vb.md)
-- [Views 集合，CommandText 属性示例 (VB)](views-collection-commandtext-property-example-vb.md)
+- [Views 集合与 CommandText 属性的示例 (VB)](views-collection-commandtext-property-example-vb.md)
 

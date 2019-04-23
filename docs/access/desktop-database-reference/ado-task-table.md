@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ffb9ece91d674e3447f43ae17e2ea9415e2339ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283245"
 ---
 # <a name="ado-task-table"></a>ADO 任务表
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-下表列出了包含*ADO 程序员指南 》* 中的编程任务，并提供每项任务的引用。 这些参考信息可能是文本说明或代码示例，您可以从中找到有关执行相应任务的 ADO 功能的信息。
+下表列出了《 *ADO 程序员指南》* 中包含的编程任务, 并提供了每个任务的参考。 这些参考信息可能是文本说明或代码示例，您可以从中找到有关执行相应任务的 ADO 功能的信息。
 
 <table>
 <colgroup>
@@ -28,7 +28,7 @@ ms.locfileid: "28700176"
 <thead>
 <tr class="header">
 <th><p>ADO 任务</p></th>
-<th><p>参考信息</p></th>
+<th><p>引用</p></th>
 </tr>
 </thead>
 <tbody>
@@ -82,7 +82,7 @@ ms.locfileid: "28700176"
 </tr>
 <tr class="odd">
 <td><p>将记录保存到文件（XML 或二进制）</p></td>
-<td><p><a href="persisting-data.md">保留数据</a></p></td>
+<td><p><a href="persisting-data.md">持久化数据</a></p></td>
 </tr>
 <tr class="even">
 <td><p>处理错误</p></td>

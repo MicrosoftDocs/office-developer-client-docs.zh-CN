@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8dc5684951ce71b5ceb926c3d65008bd14c2ccf1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282494"
 ---
 # <a name="addnew-method-example-vb"></a>AddNew 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具有指定名称的新记录。
+以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。
 
 ```vb 
  

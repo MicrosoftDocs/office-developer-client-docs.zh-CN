@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1d4f4777d904cd9078217e179bcebb31b7b6a1d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288320"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例使用 [OpenSchema](openschema-method-ado.md) 方法来显示 ***Pubs*** 数据库中每个表的名称和类型。
 
@@ -78,7 +78,7 @@ End Sub
 
 <br/>
 
-本示例指定一个表\_类型**OpenSchema**方法***Criteria***参数中的查询约束。 因此，返回仅***Pubs***数据库中指定的视图架构信息。 本示例随后显示每个表的名称和类型。
+本示例在**OpenSchema**方法\_ ***Criteria***参数中指定表类型查询约束。 因此，仅返回在 ***Pubs*** 数据库中指定的视图的架构信息。 本示例随后显示每个表的名称和类型。
 
 ```vb 
  

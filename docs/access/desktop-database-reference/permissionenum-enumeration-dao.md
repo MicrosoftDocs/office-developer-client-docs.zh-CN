@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d4f6741bd6203dbdeffb364650b5e3550ea8b1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715457"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287708"
 ---
 # <a name="permissionenum-enumeration-dao"></a>PermissionEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 与 **Permissions** 属性一起用来指定权限的类型。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28715457"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>值</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -42,7 +42,7 @@ ms.locfileid: "28715457"
 </tr>
 <tr class="even">
 <td><p>dbSecDBAdmin</p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>用户可以复制数据库并更改数据库密码（对于 Document 对象无效）。</p></td>
 </tr>
 <tr class="odd">
@@ -57,7 +57,7 @@ ms.locfileid: "28715457"
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>用户可以打开数据库。</p></td>
 </tr>
 <tr class="even">

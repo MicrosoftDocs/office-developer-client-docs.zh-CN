@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283231"
 ---
 # <a name="ado-properties"></a>ADO 属性
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 
@@ -56,7 +56,7 @@ ms.locfileid: "28704257"
 </tr>
 <tr class="odd">
 <td><p><a href="bof-eof-properties-ado.md">BOF 和 EOF</a></p></td>
-<td><p><strong>BOF</strong> — 指示当前记录位置在<strong>Recordset</strong>对象中的第一个记录之前。 <strong>EOF</strong> — 指示当前记录位置在<strong>Recordset</strong>对象中的最后一个记录之后。</p></td>
+<td><p><strong>BOF</strong> - 指示当前记录位置在 <strong>Recordset</strong> 对象中的第一个记录之前。 <strong>EOF</strong> - 指示当前记录位置在 <strong>Recordset</strong> 对象中的最后一个记录之后。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
@@ -67,7 +67,7 @@ ms.locfileid: "28704257"
 <td><p>指示本地缓存在内存中的 <strong>Recordset</strong> 对象的记录数。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="chapter-property-ado.md">章</a></p></td>
+<td><p><a href="chapter-property-ado.md">第二章</a></p></td>
 <td><p>从 <strong>ADORecordsetConstruction</strong> 对象获取（或对它设置）OLE DB <strong>Chapter</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
@@ -123,7 +123,7 @@ ms.locfileid: "28704257"
 <td><p>指示 <strong>Field</strong> 对象的数据容量。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="description-property-ado.md">说明</a></p></td>
+<td><p><a href="description-property-ado.md">Description</a></p></td>
 <td><p>描述 <strong>Error</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
@@ -135,7 +135,7 @@ ms.locfileid: "28704257"
 <td><p>指示当前记录的编辑状态。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="eos-property-ado.md">EOS</a></p></td>
+<td><p><a href="eos-property-ado.md">电源</a></p></td>
 <td><p>指示当前位置是否位于流的末尾。</p></td>
 </tr>
 <tr class="even">
@@ -144,7 +144,7 @@ ms.locfileid: "28704257"
 </tr>
 <tr class="odd">
 <td><p><a href="helpcontext-helpfile-properties-ado.md">HelpContext 和 HelpFile</a></p></td>
-<td><p>指示与 <strong>Error</strong> 对象关联的帮助文件和主题。 <strong>HelpContextID</strong>  返回帮助文件中主题的上下文 ID，返回值的类型为 <strong>Long</strong> 。 <strong>HelpFile</strong>  返回一个 <strong>String</strong> 类型的值，作为帮助文件完全解析路径的计算结果。</p></td>
+<td><p>指示与 <strong>Error</strong> 对象关联的帮助文件和主题。 <strong>HelpContextID</strong> - 返回帮助文件中主题的上下文 ID，返回值的类型为 <strong>Long</strong>。 <strong>HelpFile</strong> - 返回一个 <strong>String</strong> 类型的值，作为帮助文件完全解析路径的计算结果。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="index-property-ado.md">索引</a></p></td>
@@ -155,7 +155,7 @@ ms.locfileid: "28704257"
 <td><p>指示 <strong>Connection</strong> 对象的隔离级别。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">项</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>按名称或序号指示集合的特定成员。</p></td>
 </tr>
 <tr class="odd">
@@ -219,11 +219,11 @@ ms.locfileid: "28704257"
 <td><p>指示 <strong>Stream</strong> 对象中的当前位置。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="precision-property-ado.md">精度</a></p></td>
+<td><p><a href="precision-property-ado.md">精密</a></p></td>
 <td><p>指示 <strong>Parameter</strong> 对象或数字 <strong>Field</strong> 对象中数值的精度。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="prepared-property-ado.md">只有在准备好</a></p></td>
+<td><p><a href="prepared-property-ado.md">得</a></p></td>
 <td><p>指示是否在执行之前保存命令的已编译版本。</p></td>
 </tr>
 <tr class="even">
@@ -240,22 +240,22 @@ ms.locfileid: "28704257"
 </tr>
 <tr class="odd">
 <td><p><a href="row-property-ado.md">行</a></p></td>
-<td><p>获取或设置 <strong>ADORecordConstruction</strong> 对象的 OLE DB <strong>Row</strong> 对象。</p></td>
+<td><p>从 <strong>ADORecordConstruction</strong> 对象获取（或对它设置）OLE DB <strong>Row</strong> 对象。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
-<td><p>通过 <strong>ADORecordsetConstruction</strong> 对象获取或设置一个 OLE DB <strong>RowPosition</strong> 对象。</p></td>
+<td><p>从 <strong>ADORecordsetConstruction</strong> 对象获取（或对它设置）OLE DB <strong>RowPosition</strong> 对象。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">行集</a></p></td>
-<td><p>通过 <strong>ADORecordsetConstruction</strong> 对象获取或设置一个 OLE DB <strong>Rowset</strong> 对象。</p></td>
+<td><p><a href="rowset-property-ado.md">Rowset</a></p></td>
+<td><p>从 <strong>ADORecordsetConstruction</strong> 对象获得（或对它设置）OLE DB <strong>Rowset</strong> 对象。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="size-property-ado.md">Size</a></p></td>
 <td><p>指示 <strong>Parameter</strong> 对象的最大大小，以字节或字符为单位。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">大小 (ADO Stream)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size (ADO Stream)</a></p></td>
 <td><p>指示流的总计大小（字节数）。</p></td>
 </tr>
 <tr class="even">
@@ -263,15 +263,15 @@ ms.locfileid: "28704257"
 <td><p>指示一个或多个作为 <strong>Recordset</strong> 的排序依据的字段名称，并指定是按升序还是降序对字段进行排序。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="source-property-ado-error.md">源 (ADO Error)</a></p></td>
+<td><p><a href="source-property-ado-error.md">Source（ADO 错误）</a></p></td>
 <td><p>指示最初生成错误的对象或应用程序的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="source-property-ado-record.md">源 (ADO Record)</a></p></td>
+<td><p><a href="source-property-ado-record.md">Source (ADO Record)</a></p></td>
 <td><p>指示 <strong>Record</strong> 对象所表示的实体。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="source-property-ado-recordset.md">源 (ADO Recordset)</a></p></td>
+<td><p><a href="source-property-ado-recordset.md">Source (ADO Recordset)</a></p></td>
 <td><p>指示 <strong>Recordset</strong> 对象中数据的来源</p></td>
 </tr>
 <tr class="even">
@@ -283,11 +283,11 @@ ms.locfileid: "28704257"
 <td><p>对所有适用的对象，指示其状态是打开还是关闭。 指示对象的当前状态是连接、执行还是检索，针对执行异步方法的所有适用对象</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-field.md">状态 (ADO Field)</a></p></td>
+<td><p><a href="status-property-ado-field.md">Status (ADO Field)</a></p></td>
 <td><p>指示 <strong>Field</strong> 对象的状态。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="status-property-ado-recordset.md">状态 (ADO Recordset)</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Status (ADO Recordset)</a></p></td>
 <td><p>指示与批更新或其他批量操作相关的当前记录的状态。</p></td>
 </tr>
 <tr class="even">
@@ -299,7 +299,7 @@ ms.locfileid: "28704257"
 <td><p>指示 <strong>Parameter</strong>、<strong>Field</strong> 或 <strong>Property</strong> 对象的操作类型或数据类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="type-property-ado-stream.md">类型 (ADO Stream)</a></p></td>
+<td><p><a href="type-property-ado-stream.md">Type (ADO Stream)</a></p></td>
 <td><p>指示 <strong>Stream</strong> 中包含的数据类型（二进制或文本）。</p></td>
 </tr>
 <tr class="odd">
@@ -307,7 +307,7 @@ ms.locfileid: "28704257"
 <td><p>指示数据库中 <strong>Field</strong> 对象的当前值。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="value-property-ado.md">Value</a></p></td>
+<td><p><a href="value-property-ado.md">值</a></p></td>
 <td><p>指示赋给 <strong>Field</strong>、<strong>Parameter</strong> 或 <strong>Property</strong> 对象的值。</p></td>
 </tr>
 <tr class="odd">

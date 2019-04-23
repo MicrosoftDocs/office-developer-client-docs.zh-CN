@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23e1cab32fee6103a046219a7cda8c90f02d9f79
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288937"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Microsoft OLE DB Provider for Microsoft Active Directory Service
+# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>用于 Microsoft Active Directory Service 的 Microsoft OLE DB 提供程序
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft Active Directory Service Interfaces (ADSI) 提供程序允许 ADO 通过 ADSI 连接到各种异构目录服务。这样，除可以访问任何 LDAP 兼容目录服务和 Novell 目录服务外，还为 ADO 应用程序提供了对 Microsoft Windows NT 4.0 和 Microsoft Windows 2000 目录服务的只读访问权限。ADSI 本身就基于一个提供程序模型，因此，如果有一个新的提供程序提供了对其他目录的访问权限，ADO 应用程序就可以对该目录进行无缝访问。ADSI 提供程序为自由线程且支持 Unicode。
 
 ## <a name="connection-string-parameters"></a>连接字符串参数
 
-若要连接到此提供程序，请将 **ConnectionString** 属性的 [Provider](connectionstring-property-ado.md) 参数设置为：
+若要连接到此提供程序，请将 [ConnectionString](connectionstring-property-ado.md) 属性的 **Provider** 参数设置为：
 
 ```vb 
  
@@ -60,11 +60,11 @@ ADSDSOObject
 </tr>
 <tr class="even">
 <td><p><strong>User ID</strong></p></td>
-<td><p>指定用户名。如果忽略此关键字，则使用当前的登录用户名。</p></td>
+<td><p>指定用户名。 如果忽略此关键字，则使用当前的登录用户名。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Password</strong></p></td>
-<td><p>指定用户密码。如果忽略此关键字，则使用当前的登录密码。</p></td>
+<td><p>指定用户密码。 如果忽略此关键字，则使用当前的登录密码。</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,7 +89,7 @@ ADSDSOObject
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>根</em></p></td>
+<td><p><em>方根</em></p></td>
 <td><p>指示搜索开始的 <strong>ADsPath</strong> 对象（即搜索的根目录）。</p></td>
 </tr>
 <tr class="even">
@@ -102,9 +102,9 @@ ADSDSOObject
 </tr>
 <tr class="even">
 <td><p><em>Scope</em></p></td>
-<td><p>可选。 指定搜索的作用域的<strong>字符串</strong>。 可以是下列选项之一： 基本 — 搜索基对象 （搜索的根）。<br />
-OneLevel — Search 只有一个级别。<br />
-子树 — 搜索整个子树。</p></td>
+<td><p>可选。 指定搜索范围的 <strong>String</strong>。 可以是下列项之一: Base —仅搜索基本对象 (搜索的根)。<br />
+OneLevel —仅搜索一个级别。<br />
+子树—搜索整个子树。</p></td>
 </tr>
 </tbody>
 </table>
@@ -129,7 +129,7 @@ objectClass='user' AND objectCategory='Person'"
 
 ## <a name="recordset-behavior"></a>Recordset 行为
 
-下面的表列出了使用此提供程序打开的 [Recordset](recordset-object-ado.md) 对象上可用的功能。 仅静态游标类型 (**为 adOpenStatic**) 才可用。
+下面的表列出了使用此提供程序打开的 [Recordset](recordset-object-ado.md) 对象上可用的功能。 仅静态游标类型 (**adOpenStatic**) 可用。
 
 有关提供程序配置的 **Recordset** 行为的详细信息，请运行 [Supports](supports-method-ado.md) 方法并枚举 [Recordset](properties-collection-ado.md) 的 **Properties** 集合，以确定提供程序特定的动态属性是否存在。
 
@@ -143,7 +143,7 @@ objectClass='user' AND objectCategory='Person'"
 <thead>
 <tr class="header">
 <th><p>属性</p></th>
-<th><p>可用性</p></th>
+<th><p>供应情况</p></th>
 </tr>
 </thead>
 <tbody>
@@ -197,7 +197,7 @@ objectClass='user' AND objectCategory='Person'"
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>暂无</p></td>
+<td><p>不可用</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
@@ -241,7 +241,7 @@ objectClass='user' AND objectCategory='Person'"
 <thead>
 <tr class="header">
 <th><p>方法</p></th>
-<th><p>是否可用</p></th>
+<th><p>可用?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -310,7 +310,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>是</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="resync-method-ado.md">Resync</a></p></td>
+<td><p><a href="resync-method-ado.md">同步</a></p></td>
 <td><p>是</p></td>
 </tr>
 <tr class="even">

@@ -8,23 +8,23 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 372dac11500647af75881ae6b4aee22a391a32c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280527"
 ---
 # <a name="activeconnection-property-ado-md"></a>ActiveConnection 属性 (ADO MD)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示当前单元格集或目录当前所属的 ADO [Connection](connection-object-ado.md) 对象。
 
 ## <a name="settings-and-return-values"></a>设置和返回值
 
-设置或返回一个 **Variant** 值，该值包含定义连接的字符串或包含一个 **Connection** 对象。默认值为空。
+设置或返回一个 **Variant** 值，该值包含定义连接的字符串或包含一个 **Connection** 对象。 默认值为空。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可将此属性设置为有效的 ADO **Connection** 对象，或有效的连接字符串。当此属性设置为连接字符串时，提供程序将使用此定义创建一个新的 **Connection** 对象，并打开该连接。
 
@@ -43,7 +43,7 @@ ms.locfileid: "28703186"
 
 `"Data Source=Servername;Initial Catalog=Bobs Video Store;Provider=msolap"`
 
-下面的字符串连接到本地多维数据集文件的位置 c:\\MSDASDK\\示例\\oledb\\olap\\数据\\bobsvid.cub:
+下面的字符串连接到位于 C\\: MSDASDK\\示例\\oledb\\olap\\数据 bobsvid 的本地多维数据\\集文件。 .cub:
 
 `"Location=C:\MSDASDK\samples\oledb\olap\data\bobsvid.cub;Provider=msolap"`
 

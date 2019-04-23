@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e3735147f813d904c206910ff319913f056946e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287715"
 ---
 # <a name="parenturl-property-ado"></a>ParentURL 属性 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示指向当前 [Record](record-object-ado.md) 对象的父 **Record** 的绝对 URL 字符串。
 
@@ -24,7 +24,7 @@ ms.locfileid: "28707813"
 
 返回一个 **String** 值，指示父 **Record** 的 URL。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **ParentURL** 属性由用于打开 **Record** 对象的源决定。例如，可以通过包含 **ActiveConnection** 属性引用的目录的相对路径名称的源打开 [Record](activeconnection-property-ado.md) 。
 
@@ -35,9 +35,9 @@ ms.locfileid: "28707813"
     record.Open "second"
 ```
 
-现在， **ParentURL**属性的值是**ParentURL**属性"https://first"， **activeconnection 的值**相同。
+现在, **ParentURL**属性的值为**ParentURL**属性为 "https://first", 与**ActiveConnection**相同。
 
-源也可能是绝对 URL，例如，"https://first/second"。 **ParentURL**属性值为"https://first"，上面的级别。 **ParentURL**属性值为"https://first"，"第二个"上方的级别。
+源也可以是绝对 URL, 如 "https://first/second"。 然后, **ParentURL**属性为 "https://first", 即上面的级别。 然后, **ParentURL**属性为 "https://first", 级别高于 "秒"。
 
 以下情况下，此属性为空值：
 

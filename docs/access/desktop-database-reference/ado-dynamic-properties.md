@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fae0df2a4cc5c9de585d2b101e9fa31cb6a0a545
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281713"
 ---
 # <a name="ado-dynamic-properties"></a>ADO 动态属性
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以将动态属性添加到 [Connection](properties-collection-ado.md)、[Command](connection-object-ado.md) 或 [Recordset](command-object-ado.md) 对象的 [Properties](recordset-object-ado.md) 集合中。这些属性的源是数据提供程序（例如 [OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md)）或服务提供程序（例如 [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md)）。有关特定动态属性的详细信息，请参考相应的数据提供程序或服务提供程序文档。
 
@@ -53,12 +53,12 @@ ms.locfileid: "28714519"
 <td><p>指定一个用户提供的命令字符串，<strong>Resync</strong> 方法会发出此命令字符串以刷新 <strong>Unique Table</strong> 动态属性中指定的表中的数据。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table、 Unique Schema、 Unique Catalog</a></p></td>
-<td><p><strong>Unique Table</strong> -指定在其允许更新、 插入和删除的基表的名称。<br/><br/><strong>Unique Schema</strong> -指定架构或表的所有者的名称。<br/><br/><strong>Unique Catalog</strong> -指定目录或包含表的数据库的名称。</p></td>
+<td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Unique Table、Unique Schema 和 Unique Catalog</a></p></td>
+<td><p><strong>Unique table</strong> -指定允许在其上进行更新、插入和删除的基表的名称。<br/><br/><strong>Unique schema</strong> -指定表所有者的架构或名称。<br/><br/><strong>Unique catalog</strong> -指定包含该表的数据库的目录或名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="update-resync-property-dynamic-ado.md">Update Resync</a></p></td>
-<td><p>指定是否在 <strong>UpdateBatch</strong> 方法后跟一个隐式 <strong>Resync</strong> 方法操作，如果是，还要指定该操作的范围。</p></td>
+<td><p>指定 <strong>UpdateBatch</strong> 方法后面是否跟随隐式的 <strong>Resync</strong> 方法操作，如果跟随，则指定该操作的范围。</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: cff57a185d226328792bef79072dfc46c6134f98
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288348"
 ---
 # <a name="openreport-macro-action"></a>OpenReport 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **OpenReport** 操作在设计视图或打印预览中打开报表，或者将报表直接发送到打印机。此外还可以限制要从报表中打印的记录。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **OpenReport** 操作具有下列参数。
 
@@ -42,33 +42,33 @@ ms.locfileid: "28707239"
 <tbody>
 <tr class="odd">
 <td><p>报表名称</p></td>
-<td><p>要打开的报表的名称。 <strong>宏生成器</strong>窗格的<strong>报告名称</strong>框在<strong>操作参数</strong>部分中显示当前数据库中的所有报表。 这是必需参数。 如果在类库数据库中运行包含 OpenReport 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的报表，然后再在当前数据库中查找。</p></td>
+<td><p>要打开的报表的名称。 "<strong>宏生成器</strong>" 窗格的 "<strong>操作参数</strong>" 部分的 "<strong>报告名称</strong>" 框中显示了当前数据库中的所有报告。 这是一个必选参数。 如果在类库数据库中运行包含 OpenReport 操作的宏，Microsoft Access 将先在该类库数据库中查找具有此名称的报表，然后再在当前数据库中查找。</p></td>
 </tr>
 <tr class="even">
 <td><p>View</p></td>
 <td><p>打开报表时将使用的视图。请在<strong>“视图”</strong>框中单击<strong>“打印”</strong>（立即打印报表）、<strong>“设计”</strong>或<strong>“打印预览”</strong>。默认值为<strong>“打印”</strong>。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Filter Name</p></td>
-<td><p>限制报表的记录的筛选器。 您可以输入现有查询或筛选器已保存为查询的名称。 但是，查询必须包含要打开或将它<strong>OutputAllFields</strong>属性设置为<strong>是</strong>报表中的所有字段。</p></td>
+<td><p>筛选名称</p></td>
+<td><p>用于限制报表记录的筛选。您可以输入现有查询的名称，也可以输入另存为查询的筛选的名称。但是，该查询必须包括要打开的报表中的所有字段，或必须将其 <strong>OutputAllFields</strong> 属性设置为“是”<strong></strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p>Where Condition</p></td>
-<td><p>关键字的有效 SQL WHERE 子句 (不带有单词其中) 或 Access 使用从报表中选择记录的表达式的基础表或查询。 如果选择筛选器名称参数的筛选器，Access 会将此 WHERE 子句于筛选结果。 要打开报表并将其记录限制为由某个窗体控件的值指定的记录，请使用以下表达式：<br />
+<td><p>Where 条件</p></td>
+<td><p>Access 用于从报表的基础表或查询中选择记录的有效 SQL WHERE 子句（不含单词 WHERE）或表达式。 如果您通过“筛选名称”参数选择筛选，Access 会将此 WHERE 子句应用于筛选的结果。 要打开报表并将其记录限制为由某个窗体控件的值指定的记录，请使用以下表达式：<br />
 <strong>[</strong><em>fieldname</em><strong>] = Forms![</strong><em>formname</em><strong>]![</strong><em>controlname on form</em><strong>]</strong><br />
-<em>Fieldname</em>替换基础表或查询您要打开的报表中字段的名称。 <em>Formname</em>和<em>窗体上的控件名称</em>替换窗体和包含要匹配的报告中的记录的值的窗体上的控件的名称。</p>
-<p><b>注意</b>： Where Condition 参数的最大长度为 255 个字符。 如果您需要输入一个更复杂 SQL WHERE 子句多于此，请改用<b>DoCmd</b>对象的<b>OpenReport</b>方法在 Visual Basic for Applications (VBA) 模块。 您可以在 VBA 中输入 SQL WHERE 子句语句的最多为 32,768 个字符。</p>
+将<em>fieldname</em>替换为要打开的报表的基础表或查询中的字段的名称。 将窗体<em>上</em>的<em>formname</em>和 controlname 替换为窗体的名称和窗体上包含您希望报表中的记录匹配的值的控件。</p>
+<p><b>注意</b>: Where Condition 参数的最大长度为255个字符。 如果需要输入超过此限制的更复杂的 SQL WHERE 子句，请改用 Visual Basic for Applications (VBA) 模块中 <b>DoCmd</b> 对象的 <b>OpenReport</b> 方法。 在 VBA 中，可输入长达 32,768 个字符的 SQL WHERE 子句语句。</p>
 </td>
 </tr>
 <tr class="odd">
 <td><p>窗口模式</p></td>
-<td><p>报表将在其中打开模式。 单击<strong>普通</strong>、<strong>隐藏</strong>、<strong>图标</strong>或<strong>对话框</strong>中<strong>窗口模式</strong>框。 默认值为<strong>Normal</strong>。</p>
-<p><b>注意</b>： 某些窗口模式参数设置不适用时使用选项卡式文档。 若要切换到重叠窗口：
+<td><p>打开报表时将使用的模式。 在<strong>窗口模式</strong>框中单击 "<strong>常规</strong>"、"<strong>隐藏</strong>"、"<strong>图标</strong>" 或 "<strong>对话框</strong>"。 默认值为<strong>“普通”</strong>。</p>
+<p><b>注意</b>: 使用选项卡式文档时, 某些窗口模式参数设置不适用。 要切换到重叠窗口，请执行下列操作：
 <ol>
 <li><p>单击 <strong>"选项"</strong>。</p></li>
 <li><p>在<strong>“Access 选项”</strong>对话框中，单击<strong>“当前数据库”</strong>。</p></li>
 <li><p>在<strong>“应用程序选项”</strong>部分中的<strong>“文档窗口选项”</strong>下，单击<strong>“重叠窗口”</strong>。</p></li>
-<li><p>单击<strong>确定</strong>，然后关闭并重新打开数据库。</p></li>
+<li><p>单击<strong>"确定</strong>", 然后关闭并重新打开数据库。</p></li>
 </ol>
 </td>
 </tr>
@@ -76,24 +76,24 @@ ms.locfileid: "28707239"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**视图**参数的**打印**设置打印报表立即使用当前的打印机设置，不显示**打印**对话框的情况。 您还可以使用**OpenReport**操作打开和设置报表，然后使用 PrintOut 操作打印。 例如，您可能想要修改报表或使用**PrintOut**操作来更改打印机设置打印之前。
+The **Print** setting for the **View** argument prints the report immediately by using the current printer settings, without bringing up the **Print** dialog box. You can also use the **OpenReport** action to open and set up a report and then use the PrintOut action to print it. For example, you may want to modify the report or use the **PrintOut** action to change the printer settings before you print.
 
 所应用的筛选和 WHERE 条件将成为报表的 **Filter** 属性设置。
 
 **OpenReport** 操作类似于在导航窗格中双击报表，或是在导航窗格中右键单击报表并选择视图或 **"打印"** 命令。
 
 > [!TIP] 
-> - 要在类似的报表中打印几组不同的数据，请使用筛选或 WHERE 子句限制要在报表中打印的记录，再通过编辑该宏来应用不同的筛选或更改“Where 条件”参数。
+> - To print similar reports for different sets of data, use a filter or a WHERE clause to restrict the records printed in the report. Then edit the macro to apply a different filter or change the Where Condition argument.
 > 
 > - 您可以将报表从导航窗格拖至宏操作行。这会自动创建一个在"报表"视图中打开该报表的 **OpenReport** 操作。
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用 OpenReport 操作将传递参数筛选报告，因为没有打开它。 **RptChapters**报告通过传递给 SelectedAuthor 参数**cboAuthors**组合框中选定项为指定的作者显示的记录。
+下面的示例演示如何使用 OpenReport 操作在打开时传递筛选报表的参数。 **rptChapters**报告通过将**cboAuthors**组合框中选定的项传递给 SelectedAuthor 参数, 来显示指定作者的记录。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     OpenReport

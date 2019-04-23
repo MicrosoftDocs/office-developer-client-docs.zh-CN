@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2bfe788923d623300edac28f0f27534b3ffd8b32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283399"
 ---
 # <a name="ado-dynamic-property-index"></a>ADO 动态属性索引
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 数据提供程序、服务提供程序及服务组件可以将动态属性添加到未打开的 **Connection** 和 [Recordset](connection-object-ado.md) 对象的 [Properties](recordset-object-ado.md) 集合中。打开这些对象时，给定的提供程序还可以插入其他属性。其中的一些属性在 [ADO 动态属性](ado-dynamic-properties.md) 一节中列出。更多其他属性在 [附录 A：提供程序](appendix-a-providers.md)一节的特定提供程序下列出。
 
@@ -32,13 +32,13 @@ ms.locfileid: "28703550"
 
 - 远程提供程序支持的 OLE DB 属性
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 请注意交叉索引中使用的数字：
 
 (1) 此属性是一个 Boolean 标志，指示是否应使用指定接口。将列出等效的 OLE DB 属性名（如果存在）。
 
-（2） 的"Bookmarkable"ADO 属性是内部生成的向后兼容性和映射到的 OLE DB 属性，需要的 DBPROP\_IROWSETLOCATE。 此属性是与 ADO 属性 IRowsetLocate 对应的同一属性。
+(2) 在内部生成 "Bookmarkable" ADO 属性以实现向后兼容性, 并将其映射到 OLE DB 属性\_DBPROP IROWSETLOCATE。 此属性是与 ADO 属性 IRowsetLocate 对应的同一属性。
 
 (3) ADO 属性名"Hidden Columns"的命名不同于 OLE DB 属性名说明"Hidden Columns Count"。
 
@@ -149,7 +149,7 @@ ms.locfileid: "28703550"
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Location</p></td>
+<td><p>位置</p></td>
 <td><p>DBPROP_INIT_LOCATION</p></td>
 </tr>
 <tr class="even">
@@ -169,7 +169,7 @@ ms.locfileid: "28703550"
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Mode</p></td>
+<td><p>模式</p></td>
 <td><p>DBPROP_INIT_MODE</p></td>
 </tr>
 <tr class="odd">
@@ -338,7 +338,7 @@ ms.locfileid: "28703550"
 </tr>
 <tr class="even">
 <td><p>IChapteredRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IColumnsInfo</p></td>
@@ -354,7 +354,7 @@ ms.locfileid: "28703550"
 </tr>
 <tr class="even">
 <td><p>IConvertType</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>ILockBytes</p></td>
@@ -370,7 +370,7 @@ ms.locfileid: "28703550"
 </tr>
 <tr class="even">
 <td><p>IParentRowset</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetChange</p></td>
@@ -378,7 +378,7 @@ ms.locfileid: "28703550"
 </tr>
 <tr class="even">
 <td><p>IRowsetExactScroll</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetFind</p></td>
@@ -402,7 +402,7 @@ ms.locfileid: "28703550"
 </tr>
 <tr class="even">
 <td><p>IRowsetResynch</p></td>
-<td><p>(1)</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>IRowsetScroll</p></td>
@@ -614,7 +614,7 @@ ms.locfileid: "28703550"
 </tr>
 <tr class="odd">
 <td><p>Private1</p></td>
-<td><p>(5)</p></td>
+<td><p>5</p></td>
 </tr>
 <tr class="even">
 <td><p>Quick Restart</p></td>

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5136c9b07d1d450f7b08d823175febb8716ad4c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288818"
 ---
 # <a name="move-method-example-vc"></a>Move 方法示例 (VC++)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例使用 [Move](move-method-ado.md) 方法基于用户输入来定位记录指针。
 
@@ -257,7 +257,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**MoveX.h**
+**MoveX**
 
 ```cpp
 // BeginMoveH 

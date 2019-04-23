@@ -1,5 +1,5 @@
 ---
-title: Parameters 集合与 Command 属性示例 (VB)
+title: Parameters 集合, Command 属性示例 (VB)
 TOCTitle: Parameters Collection, Command property example (VB)
 ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2653b0917de14fd10e04d866903bd7275a2f38de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287928"
 ---
-# <a name="parameters-collection-command-property-example-vb"></a>Parameters 集合与 Command 属性示例 (VB)
+# <a name="parameters-collection-command-property-example-vb"></a>Parameters 集合, Command 属性示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下面的代码演示如何将 [Command](command-property-adox.md) 属性与 [Command](command-object-ado.md) 对象结合使用，以检索过程的参数信息。
 

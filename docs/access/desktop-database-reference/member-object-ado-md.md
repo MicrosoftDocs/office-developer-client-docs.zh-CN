@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 380fdf6c15f6774e27221e8500100870d22350c4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289420"
 ---
 # <a name="member-object-ado-md"></a>Member 对象 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表多维数据集中某个级别的某个成员、某个级别的某个成员的子级，或者单元格集的轴上某个位置的某个成员。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 每个 **Member** 的属性各有不同，具体取决于所使用的上下文。 **CubeDef** 中的 [Level](level-object-ado-md.md) 的 [Member](cubedef-object-ado-md.md) 具有一个 [Children](children-property-ado-md.md) 属性，该属性返回层次结构中比当前 **Member** 低一个级别的 **Members** 。对于 **Position** 的 [Member](position-object-ado-md.md) ， **Children** 集合始终为空。另外， [Type](type-property-ado-md.md) 属性仅应用于 **Level** 的 **Members** 。
 
@@ -72,7 +72,7 @@ ms.locfileid: "28709577"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -86,11 +86,11 @@ ms.locfileid: "28709577"
 <td><p>成员具有的子级数目。</p></td>
 </tr>
 <tr class="odd">
-<td><p>多维数据集名称</p></td>
+<td><p>CubeName</p></td>
 <td><p>多维数据集的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p>Description</p></td>
+<td><p>说明</p></td>
 <td><p>成员的有意义的说明。</p></td>
 </tr>
 <tr class="odd">
@@ -118,7 +118,7 @@ ms.locfileid: "28709577"
 <td><p>成员的 GUID。</p></td>
 </tr>
 <tr class="odd">
-<td><p>成员名称</p></td>
+<td><p>名称</p></td>
 <td><p>成员的名称。</p></td>
 </tr>
 <tr class="even">
@@ -130,7 +130,7 @@ ms.locfileid: "28709577"
 <td><p>成员的类型。</p></td>
 </tr>
 <tr class="even">
-<td><p>成员的唯一名称</p></td>
+<td><p>MemberUniqueName</p></td>
 <td><p>成员的明确名称。</p></td>
 </tr>
 <tr class="odd">

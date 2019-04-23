@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5df04b1ee06a2224db9e21f67e9c68a3ee5740bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288082"
 ---
 # <a name="parameter-object-dao"></a>Parameter 对象 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Parameter** 对象代表提供给查询的值。此参数与从参数查询创建的 **QueryDef** 对象关联。
+**Parameter** 对象代表提供给查询的值。 此参数与从参数查询创建的 **QueryDef** 对象关联。
 
 ## <a name="remarks"></a>注解
 

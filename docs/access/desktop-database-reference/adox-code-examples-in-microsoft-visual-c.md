@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 67ddc4d6eab70fa8581021704cc8cc76b32357f4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282815"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-c"></a>ADOX Microsoft Visual C++ 代码示例
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下列主题提供的代码示例可帮助您理解如何使用 ADOX。所有代码示例都是使用 Microsoft Visual C++ 编写的。
 
@@ -32,7 +32,7 @@ ms.locfileid: "28711215"
 - [GetPermissions 和 SetPermissions 方法示例 (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
 - [Groups 和 Users 的 Append、ChangePassword 方法示例 (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
 - [Indexes 的 Append 方法示例 (VC++)](indexes-append-method-example-vc.md)
-- [Keys 的 Append 方法、 密钥类型 RelatedColumn、 RelatedTable 和 UpdateRule 属性示例 （VC + +）](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Keys Append 方法、Key Type、RelatedColumn、RelatedTable 和 UpdateRule 属性示例 (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 ## <a name="properties"></a>属性
 
@@ -40,19 +40,19 @@ ms.locfileid: "28711215"
 - [Catalog 的 ActiveConnection 属性示例 (VC++)](catalog-activeconnection-property-example-vc.md)
 - [Clustered 属性示例 (VC++)](clustered-property-example-vc.md)
 - [Command 和 CommandText 属性示例 (VC++)](command-and-commandtext-properties-example-vc.md)
-- [Command 属性，参数集合示例 （VC + +）](parameters-collection-command-property-example-vc.md)
+- [Command 属性, Parameters 集合示例 (VC + +)](parameters-collection-command-property-example-vc.md)
 - [DateCreated 和 DateModified 属性示例 (VC++)](datecreated-and-datemodified-properties-example-vc.md)
 - [DefinedSize 属性示例 (VC++)](definedsize-property-example-vc.md)
 - [DeleteRule 属性示例 (VC++)](deleterule-property-example-vc.md)
 - [IndexNulls 属性示例 (VC++)](indexnulls-property-example-vc.md)
-- [密钥类型、 RelatedColumn、 RelatedTable，UpdateRule 属性，Keys 的 Append 方法示例 （VC + +）](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
-- [Name 属性，Columns 和 Tables 的 Append 方法示例 （VC + +）](columns-and-tables-append-methods-name-property-example-vc.md)
+- [Key Type、RelatedColumn、RelatedTable、UpdateRule 属性、Keys Append 方法示例 (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Name 属性、Columns 和 Tables 的 Append 方法示例 (VC + +)](columns-and-tables-append-methods-name-property-example-vc.md)
 - [NumericScale 和 Precision 属性示例 (VC++)](numericscale-and-precision-properties-example-vc.md)
 - [ParentCatalog 属性示例 (VC++)](parentcatalog-property-example-vc.md)
 - [PrimaryKey 和 Unique 属性示例 (VC++)](primarykey-and-unique-properties-example-vc.md)
-- [表类型属性，连接 Close 方法示例 （VC + +）](connection-close-method-table-type-property-example-vc.md)
+- [Table Type 属性, Connection Close 方法示例 (VC + +)](connection-close-method-table-type-property-example-vc.md)
 
-## <a name="collections"></a>集合
+## <a name="collections"></a>收藏
 
-- [Parameters 集合与 Command 属性示例 （VC + +）](parameters-collection-command-property-example-vc.md)
+- [Parameters 集合与 Command 属性示例 (VC++)](parameters-collection-command-property-example-vc.md)
 

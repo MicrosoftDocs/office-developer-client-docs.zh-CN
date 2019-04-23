@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 38183cd8306f2425a362bd2650639120a2d16845
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699777"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288965"
 ---
-# <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Microsoft OLE DB Provider for Internet Publishing
+# <a name="microsoft-ole-db-provider-for-internet-publishing"></a>用于 Internet 发布的 Microsoft OLE DB 提供程序
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft OLE DB Provider for Internet Publishing 允许 ADO 访问 Microsoft FrontPage 或 Microsoft Internet Information Server 提供的资源。此类资源包括 Web 源文件，如 HTML 文件或 Windows 2000 Web 文件夹。
 
 ## <a name="connection-string-parameters"></a>连接字符串参数
 
-若要连接到此提供程序，请将 *ConnectionString* 属性的 [Provider](connectionstring-property-ado.md) 参数设置为：
+若要连接到此提供程序，请将 [ConnectionString](connectionstring-property-ado.md) 属性的 *Provider* 参数设置为：
 
 ```vb 
  
@@ -40,7 +40,7 @@ MSDAIPP.DSO
 "Provider=MSDAIPP.DSO;Data Source=ResourceURL;User ID=userName;Password=userPassword;" 
 ```
 
-\-或-
+\-和
 
 ```vb 
  
@@ -67,7 +67,7 @@ MSDAIPP.DSO
 </tr>
 <tr class="even">
 <td><p><strong>Data Source</strong> -或- <strong>URL</strong></p></td>
-<td><p>指定文件或目录 web 文件夹中发布的 URL。</p></td>
+<td><p>指定在 web 文件夹中发布的文件或目录的 URL。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>User ID</strong></p></td>
@@ -84,5 +84,5 @@ MSDAIPP.DSO
 如果将连接字符串的“URL=”中的 *ResourceURL* 值设置为无效的值，则默认情况下 Internet Publishing Provider 会呈现一个对话框，提示您输入有效值。对于应用程序中间层中的组件，这是一种不恰当的行为，因为该行为将挂起程序的执行直到清除该对话框为止，而且客户端似乎会冻结，因为它未收到来自组件的响应。
 
 > [!NOTE]
-> 如果 MSDAIPP。DSO 显式指定为提供程序，则可以使用*提供程序*的连接字符串关键字或**Provider**属性，则不能使用"URL ="连接字符串中。 否则，将会发生错误。 只需按照 [将 ADO 与 OLE DB Provider for Internet Publishing 结合使用](the-ole-db-provider-for-internet-publishing.md)主题中所述的方式指定 URL 即可。
+> 如果将 MSDAIPP.DSO 显式指定为提供程序的值（使用 *Provider* 连接字符串关键字或 **Provider** 属性），则您不能在连接字符串中使用“URL=”。否则，将会发生错误。只需按照[将 ADO 与 OLE DB Provider for Internet Publishing 结合使用](the-ole-db-provider-for-internet-publishing.md)主题中所述的方式指定 URL 即可。
 

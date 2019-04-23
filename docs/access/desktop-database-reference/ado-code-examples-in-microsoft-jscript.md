@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5906683354159df144bc31ff0d707658026aa1a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282455"
 ---
 # <a name="ado-code-examples-in-microsoft-jscript"></a>Microsoft JScript 中的 ADO 代码示例
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 使用以下代码示例可以了解在用 JScript 编写程序时如何使用 ADO 方法、属性和事件。
 
@@ -27,16 +27,16 @@ ms.locfileid: "28703163"
 
 - [AddNew 方法示例](addnew-method-example-jscript.md)
 - [Append 和 CreateParameter 方法示例](append-and-createparameter-methods-example-jscript.md)
-- [Execute、 Requery 和 Clear 方法示例](execute-requery-and-clear-methods-example-jscript.md)
+- [Execute、Requery 和 Clear 方法示例](execute-requery-and-clear-methods-example-jscript.md)
 - [Find 方法示例](find-method-example-jscript.md)
 - [GetRows 方法示例](getrows-method-example-vb.md)
 
 ## <a name="properties"></a>属性
 
-- [AbsolutePage、 PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
+- [AbsolutePage、PageCount 和 PageSize 属性示例](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 - [AbsolutePosition 和 CursorLocation 属性示例](absoluteposition-and-cursorlocation-properties-example-jscript.md)
 - [ActiveCommand 属性示例](activecommand-property-example-jscript.md)
-- [ActiveConnection、 CommandText、 CommandTimeout、 CommandType、 大小和 Direction 属性示例](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
+- [ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性示例](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
 - [ActualSize 和 DefinedSize 属性示例](actualsize-and-definedsize-properties-example-jscript.md)
 - [CacheSize 属性示例](cachesize-property-example-jscript.md)
 - [Filter 和 RecordCount 属性示例](filter-and-recordcount-properties-example-jscript.md)

@@ -1,5 +1,5 @@
 ---
-title: Parameters.Refresh 方法 (DAO)
+title: 'Parameters: Refresh 方法 (DAO)'
 TOCTitle: Refresh Method
 ms:assetid: 47db1602-e223-985d-881c-b73e2d26acb7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 29374baf16ec6c296f869b6bbf17bfb153d21bb3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287774"
 ---
-# <a name="parametersrefresh-method-dao"></a>Parameters.Refresh 方法 (DAO)
+# <a name="parametersrefresh-method-dao"></a>Parameters: Refresh 方法 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 更新指定集合中的对象，以反映数据库的当前架构。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。刷新
+*表达式*。恢复
 
 *表达式*一个代表**Parameters**对象的变量。
 

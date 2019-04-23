@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f6fbfbd7008919cc4d784a4d0468d8471d102708
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288663"
 ---
 # <a name="name-property-ado"></a>Name 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示对象的名称。
 
@@ -25,9 +25,9 @@ ms.locfileid: "28721545"
 
 设置或返回一个指示对象名称的 **String** 值。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用 **Name** 属性可指定名称或检索 **Command** 、 **Property** 、 **Field** 或 **Parameter** 对象的名称。
+使用 **Name** 属性可指定名称或检索 **Command**、**Property**、**Field** 或 **Parameter** 对象的名称。
 
 该值在 **Command** 对象上为可读/写，在 **Property** 对象上为只读。
 
@@ -35,5 +35,5 @@ ms.locfileid: "28721545"
 
 对于尚未追加到 **Parameters** 集合的 [Parameter](parameters-collection-ado.md) ， **Name** 属性为可读/写属性。对于已追加的 **Parameter** 对象以及其他所有对象， **Name** 属性为只读属性。Names 在集合中不必唯一。
 
-可以通过序号引用来检索对象的 **Name** 属性，然后可以直接通过名称引用该对象。 例如，如果 rstMain.Properties(20)。名称生成可更新性、 您随后可以参考此属性，如生成可更新性、 您随后可以参考 rstMain.Properties("Updatability") 作为此属性。
+可以通过序号引用来检索对象的 **Name** 属性，然后可以直接通过名称引用该对象。 例如, 如果 rstMain (20)。名称产生了可更新性, 随后可以将此属性引用为可更新的结果, 随后可以将此属性引用为 rstMain ("可更新性")。
 

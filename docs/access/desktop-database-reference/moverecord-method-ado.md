@@ -8,40 +8,40 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c9937f0ab32c5dba0e4435fdc0ba7e111f5651dc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698363"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288677"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
  
 用于将由 [Record](record-object-ado.md) 表示的实体移动到其他位置。
 
 ## <a name="syntax"></a>语法
 
-*记录*。MoveRecord （*源*、 *Destination*、*用户名*、*密码*、*选项*、*异步*）
+*记录*。MoveRecord (*源*、*目标*、*用户名*、*密码*、*选项*、*异步*)
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*Source* |可选。**字符串型**值，包含标识要移动的 **Record** 的 URL。如果忽略 *Source* 或者指定一个空字符串，将删除由该 **Record** 表示的对象。例如，如果 **Record** 代表文件，则将文件的内容移动到由 *Destination* 指定的位置。|
-|*目标* |可选。 一个**字符串**值，包含指定将移*源*到的位置的 URL。|
-|*UserName* |可选。包含用户 ID 的**字符串型**值，如果需要，将授予访问 *Destination* 的权限。|
-|*Password* |可选。包含密码的**字符串型**值，如果需要，将通过该密码验证 *UserName*。|
+|*目标* |可选。 **字符串型**值，包含用于指定 *Source* 将移动到的位置的 URL。|
+|*UserName* |可选。 包含用户 ID 的**字符串型**值，如果需要，将授予访问 *Destination* 的权限。|
+|*Password* |可选。 包含密码的**字符串型**值，如果需要，将通过该密码验证 *UserName*。|
 |*Options* |可选。[MoveRecordOptionsEnum](moverecordoptionsenum.md) 值，其默认值为 **adMoveUnspecified** 。指定该方法的行为。|
-|*Async* |可选。 一个**布尔**值，当**True**，指定此操作应异步。|
+|*Async* |可选。 一个**布尔**值, 如果**为 True, 则**指定此操作应为异步操作。|
 
 ## <a name="return-value"></a>返回值
 
-**字符串型** 值。 通常情况下，则返回的*目标*值。 但是，返回的确切值与提供程序有关。
+**字符串型**值。 通常返回 *Destination* 的值。 但是，返回的确切值与提供程序有关。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-*源*和*目标*值不能相同;否则，将发生运行时错误。 至少服务器、路径和资源名必须不同。
+*Source* 和 *Destination* 的值不能相同；否则，将发生运行时错误。至少服务器、路径和资源名必须不同。
 
 对于使用 Internet Publishing Provider 移动的文件，该方法更新被移动文件中的所有超文本链接，除非 *Options* 另有指定。如果 *Destination* 标识现有的对象（如文件或目录），该方法将失败，除非指定 **adMoveOverWrite**。
 
@@ -53,6 +53,6 @@ ms.locfileid: "28698363"
 如果此 **Record** 是从 [Recordset](recordset-object-ado.md) 获取的，则移动的文件或目录的新位置将不会立即反映到 **Recordset** 中。您可以刷新 **Recordset** ，方法是关闭并重新打开它。
 
 > [!NOTE]
-> [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
+> [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息, 请参阅[绝对和相对 url](absolute-and-relative-urls.md)。
 
 

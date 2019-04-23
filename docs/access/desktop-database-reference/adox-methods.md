@@ -1,5 +1,5 @@
 ---
-title: ADOX 方法 （Access 桌面数据库参考 （英文）
+title: ADOX 方法 (Access desktop database reference)
 TOCTitle: ADOX methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40c4ca85e28813f9827d959ff202e0036e379e96
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270005"
 ---
 # <a name="adox-methods"></a>ADOX 方法
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 
@@ -33,35 +33,35 @@ ms.locfileid: "28721715"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="append-method-adox-columns.md">追加 （列）</a></p></td>
+<td><p><a href="append-method-adox-columns.md">Append (Columns)</a></p></td>
 <td><p>将新的 <strong>Column</strong> 对象添加到 <strong>Columns</strong> 集合。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="append-method-adox-groups.md">追加 （组）</a></p></td>
+<td><p><a href="append-method-adox-groups.md">Append (Groups)</a></p></td>
 <td><p>将新的 <strong>Group</strong> 对象添加到 <strong>Groups</strong> 集合。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="append-method-adox-indexes.md">追加 （索引）</a></p></td>
+<td><p><a href="append-method-adox-indexes.md">Append (Indexes)</a></p></td>
 <td><p>将新的 <strong>Index</strong> 对象添加到 <strong>Indexes</strong> 集合。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="append-method-adox-keys.md">追加 （键）</a></p></td>
+<td><p><a href="append-method-adox-keys.md">Append (Keys)</a></p></td>
 <td><p>将新的 <strong>Key</strong> 对象添加到 <strong>Keys</strong> 集合。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="append-method-adox-procedures.md">追加 （过程）</a></p></td>
+<td><p><a href="append-method-adox-procedures.md">Append (Procedures)</a></p></td>
 <td><p>将新的 <strong>Procedure</strong> 对象添加到 <strong>Procedures</strong> 集合。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="append-method-adox-tables.md">追加 （表）</a></p></td>
+<td><p><a href="append-method-adox-tables.md">Append (Tables)</a></p></td>
 <td><p>将新的 <strong>Table</strong> 对象添加到 <strong>Tables</strong> 集合。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="append-method-adox-users.md">追加 （用户）</a></p></td>
+<td><p><a href="append-method-adox-users.md">Append (Users)</a></p></td>
 <td><p>将新的 <strong>User</strong> 对象添加到 <strong>Users</strong> 集合。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="append-method-adox-views.md">追加 （视图）</a></p></td>
+<td><p><a href="append-method-adox-views.md">Append (Views)</a></p></td>
 <td><p>将新的 <strong>View</strong> 对象添加到 <strong>Views</strong> 集合。</p></td>
 </tr>
 <tr class="odd">

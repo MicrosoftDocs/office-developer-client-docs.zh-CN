@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11a280ffc1434d58b73169231b47f1ff132e1263
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280207"
 ---
 # <a name="addnew-method-example-jscript"></a>AddNew 方法示例 (JScript)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例使用 [AddNew](addnew-method-ado.md) 方法创建一个具指定名称的新记录。将以下代码剪切并粘贴到记事本或其他文本编辑器中，并另存为 **AddNewJS.asp** 。
 

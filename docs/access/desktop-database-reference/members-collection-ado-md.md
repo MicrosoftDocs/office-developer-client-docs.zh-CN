@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: adc8ed771bcba6a4b6532b33b27980f8aab695c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289239"
 ---
 # <a name="members-collection-ado-md"></a>Members 集合 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 包含来自某个级别或轴上某个位置的 [Member](member-object-ado-md.md) 对象。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Members** 集合用于包含下列类型的成员：
 

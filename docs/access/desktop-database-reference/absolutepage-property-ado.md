@@ -8,23 +8,23 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a0ad4caa6e31b6de39904016cd848e12690f72e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280682"
 ---
 # <a name="absolutepage-property-ado"></a>AbsolutePage 属性 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示当前记录驻留在哪一页。
 
 ## <a name="settings-and-return-values"></a>设置和返回值
 
-设置或返回一个**Long**值从 1 到[Recordset](recordset-object-ado.md)对象 ([PageCount](pagecount-property-ado.md)) 中的页面数或返回[PositionEnum](positionenum.md)值之一。
+设置或返回一个**Long**值, 该值介于1到[Recordset](recordset-object-ado.md)对象中的页数 ([PageCount](pagecount-property-ado.md)), 或返回[PositionEnum](positionenum.md)值之一。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 此属性可用于标识当前记录所在的页的页码。它使用 [PageSize](pagesize-property-ado.md) 属性将 **Recordset** 对象的总行集计数逻辑划分为一系列页，每一页中都包含与 **PageSize** 相等的记录数（最后一页除外，该页的记录数可以小于这个数）。提供程序必须支持相应的功能，此属性才可用。
 
@@ -32,7 +32,7 @@ ms.locfileid: "28705258"
 
 - 若要获取 **AbsolutePage** ，ADO 将首先检索 **AbsolutePosition** ，然后用它除以 **PageSize** 。
 
-- 若要设置 **AbsolutePage** ，ADO 将按照以下方式移动 **AbsolutePosition** ：它将 **PageSize** 乘以新 **AbsolutePage** 值，然后向该值加 1。 因此之后成功设置**AbsolutePage** , **Recordset**中的当前位置是该页面中的第一个记录。
+- 若要设置 **AbsolutePage** ，ADO 将按照以下方式移动 **AbsolutePosition** ：它将 **PageSize** 乘以新 **AbsolutePage** 值，然后向该值加 1。 因此, 在成功设置**AbsolutePage**后, **Recordset**中的当前位置是该页面中的第一条记录。
 
 和 **AbsolutePosition** 属性一样， **AbsolutePage** 将从 1 开始，当前记录为 **Recordset** 中的第一条记录时，它等于 1。设置此属性，可以移动到特定页的第一条记录处。可从 **PageCount** 属性获得总页数。
 

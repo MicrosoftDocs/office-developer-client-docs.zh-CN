@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0d16eb5871bfe55af58a89cc06b413e8404df8cb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280214"
 ---
 # <a name="adding-data-to-a-recordset"></a>将数据添加到 Recordset
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Recordset** 可能是最常使用的 ADO 对象。在 ADO 中，最好将 **Recordset** 看作从数据源得到的结果集和与其关联的游标行为的组合。因此，可以将数据放在 **Recordset** 中，然后使用 **Recordset** 的方法和属性在数据行中导航，查看行中的值以及操作结果集。
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a7f756af1422588d99fcffe1ae1413422131b70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283392"
 ---
 # <a name="ado-error-reference"></a>ADO 错误参考
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **ErrorValueEnum** 常量描述 ADO 的错误值。若要获得这些枚举常量（包括值）的完整列表，请参阅 [附录 B：ADO 错误](appendix-b-ado-errors.md)。本部分将分析一些更有意思的错误并说明可能引发这些错误的某些特定情况或解决问题的解决方案。下面列出了 **ErrorValueEnum** 常量和短型正小数。
 
@@ -28,7 +28,7 @@ ms.locfileid: "28717235"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>编号</p></th>
+<th><p>帐号</p></th>
 <th><p>ErrorValueEnum 常量</p></th>
 <th><p>说明/可能的原因</p></th>
 </tr>
@@ -222,7 +222,7 @@ ms.locfileid: "28717235"
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>源 URL 或目标 URL 的父级不存在。 源或目标 URL 中没有发生打字错误。 您可能必须https://mysite/photo/myphoto.jpg时，可能键入了https://mysite/photos/myphoto.jpg相反。 在父 URL （在此情况下，而不是<em>照片</em><em>照片</em>） 发生打字错误已导致错误。</p></td>
+<td><p>Either the source URL or the parent of the destination URL does not exist. There is a typographical error in either the source or destination URL. 你可能会https://mysite/photo/myphoto.jpg在实际使用https://mysite/photos/myphoto.jpg时改为。 父 URL 中的录入错误（在这种情况下，使用了“photo”<em></em>而不是“photos”<em></em>）导致了出错。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>
@@ -292,7 +292,7 @@ ms.locfileid: "28717235"
 <tr class="even">
 <td><p><strong>3749</strong></p></td>
 <td><p><strong>adErrFieldsUpdateFailed</strong></p></td>
-<td><p>字段更新失败。 有关详细信息，请检查单个 field 对象的<strong>Status</strong>属性。 两种情况下会出现此错误： 时更改在更改或添加记录到数据库; 过程中的<strong>Field</strong>对象的值和时更改<strong>Field</strong>对象本身的属性。 由于问题中当前记录的字段的一个失败的<strong>Record</strong>或<strong>Recordset</strong>的更新。 枚举的<strong>字段</strong>集合，并检查每个字段，以确定问题的原因的<strong>状态</strong>属性。</p></td>
+<td><p>Fields update failed. For further information, examine the <strong>Status</strong> property of individual field objects. This error can occur in two situations: when changing a <strong>Field</strong> object's value in the process of changing or adding a record to the database; and when changing the properties of the <strong>Field</strong> object itself. The <strong>Record</strong> or <strong>Recordset</strong> update failed due to a problem with one of the fields in the current record. Enumerate the <strong>Fields</strong> collection and check the <strong>Status</strong> property of each field to determine the cause of the problem.  </p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3750</strong></p></td>

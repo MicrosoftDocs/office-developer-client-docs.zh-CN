@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40ce95c5879f5da9615c66d132d6c4847fae1569
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288642"
 ---
 # <a name="named-commands"></a>Named 命令
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以设置 **Command** 对象的 **Name** 属性，然后通过将该命令视为 **Command** 对象的 **ActiveConnection** 属性的方法来调用它，从而执行该命令。以下示例说明了这种情况，该示例将命令命名为 *GetCustomers*。注意，代码会将一个已声明和实例化的 **Recordset** 对象传递给 GetCustomers“方法”。如果 **Command** 需要参数，还可以向该“方法”传递参数。
 

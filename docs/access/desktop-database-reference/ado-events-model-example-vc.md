@@ -1,5 +1,5 @@
 ---
-title: ADO 事件模型示例 （VC + +）
+title: ADO 事件模型示例 (VC + +)
 TOCTitle: ADO Events Model example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e47e8961436be44a78596498754e01e3b0677d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283350"
 ---
-# <a name="ado-events-model-example-vc"></a>ADO 事件模型示例 （VC + +）
+# <a name="ado-events-model-example-vc"></a>ADO 事件模型示例 (VC + +)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-[ADO 事件实例化（按语言）](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado)的 Visual C++ 部分提供了如何实例化 ADO 事件模型的一般说明。 下面是实例化由创建环境中的事件模型的具体示例**\#导入**指令。
+[ADO 事件实例化（按语言）](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado)的 Visual C++ 部分提供了如何实例化 ADO 事件模型的一般说明。 下面是在由** \#import**指令创建的环境中实例化事件模型的具体示例。
 
-该一般说明使用 **adoint.h** 作为方法签名的参考。 中一般描述的一些细节但是，由于使用略有更改**\#导入**指令：
+该一般说明使用 **adoint.h** 作为方法签名的参考。 但是, 由于使用了** \#import**指令, 一般说明中的一些详细信息会略微变化:
 
-- **\#导入**指令将**typedef**的方法签名数据类型和修饰符解析为其基本窗体。
+- 导入指令可将**typedef**以及方法签名数据类型和修饰符解析为其基本窗体。 ** \#**
 
-- 必须覆盖纯虚方法全部具有前缀通过"**原始\_**"。
+- 必须覆盖的纯虚方法均以 "**raw\_**" 为前缀。
 
 某些代码仅反映编码样式。
 
@@ -34,13 +34,13 @@ ms.locfileid: "28712097"
 
 - 您可能需要对 QueryInterface、AddRef 和 Release 的更强大的实现进行编码。
 
-- ** \_ \_Uuidof()** 指令被扩展用于获取接口 Id。
+- uuidof () 指令被广泛用于获取接口 id。 ** \_ \_**
 
 最后，本示例包含了一些工作代码。
 
 - 本示例是作为控制台应用程序进行编写的。
 
-- 应插入自己的代码在注释，下方"/ / Do 一些工作"。
+- 您应该在注释 "//执行一些工作" 下插入自己的代码。
 
 - 所有事件处理程序默认情况下不执行任何操作，且取消进一步的通知。您应该插入您的应用程序的适当代码，并在需要的情况下允许通知。
 

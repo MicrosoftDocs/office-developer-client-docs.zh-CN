@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283287"
 ---
 # <a name="ado-md-properties"></a>ADO MD 属性
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 
@@ -55,7 +55,7 @@ ms.locfileid: "28716220"
 <td><p>指示 <strong>Level</strong> 和层次结构的根级别之间的级别数。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="description-property-ado-md.md">说明</a></p></td>
+<td><p><a href="description-property-ado-md.md">Description</a></p></td>
 <td><p>返回当前对象的文本说明。</p></td>
 </tr>
 <tr class="even">
@@ -71,11 +71,11 @@ ms.locfileid: "28716220"
 <td><p>指示当前单元格集的筛选信息。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado-md-cellset.md">项</a></p></td>
+<td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
 <td><p>使用单元格的坐标从单元格集中检索单元格。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">项</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>按名称或序号返回集合的某个特定成员。</p></td>
 </tr>
 <tr class="odd">
@@ -95,11 +95,11 @@ ms.locfileid: "28716220"
 <td><p>指示对象的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="ordinal-property-ado-md-cell.md">序数 （单元格）</a></p></td>
+<td><p><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></p></td>
 <td><p>根据单元格在单元格集内的位置唯一标识该单元格。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="ordinal-property-ado-md-position.md">序数 (Position)</a></p></td>
+<td><p><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></p></td>
 <td><p>唯一标识轴上的某个位置。</p></td>
 </tr>
 <tr class="odd">
@@ -123,11 +123,11 @@ ms.locfileid: "28716220"
 <td><p>指示当前成员的类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="uniquename-property-ado-md.md">唯一名称</a></p></td>
+<td><p><a href="uniquename-property-ado-md.md">UniqueName</a></p></td>
 <td><p>指示当前对象的明确的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="value-property-ado-md.md">Value</a></p></td>
+<td><p><a href="value-property-ado-md.md">值</a></p></td>
 <td><p>指示当前单元格的值。</p></td>
 </tr>
 </tbody>

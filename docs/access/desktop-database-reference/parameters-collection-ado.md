@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: feb24e0f498e02bae01ef689a2ad62e487e314bc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287942"
 ---
 # <a name="parameters-collection-ado"></a>Parameters 集合 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 包含 [Command](parameter-object-ado.md) 对象的所有 [Parameter](command-object-ado.md) 对象。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Command** 对象具有一个由 **Parameter** 对象组成的 **Parameters** 集合。
 

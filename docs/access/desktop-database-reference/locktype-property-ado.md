@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d12946a90d61a941bf5ef7d479970c8c96e074f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289841"
 ---
 # <a name="locktype-property-ado"></a>LockType 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示编辑过程中为记录设置的锁定类型。
 
 ## <a name="settings-and-return-values"></a>设置和返回值
 
-设置或返回一个 [LockTypeEnum](locktypeenum.md) 值。默认值为 **adLockReadOnly** 。
+设置或返回一个 [LockTypeEnum](locktypeenum.md) 值。 默认值为 **adLockReadOnly**。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 在打开 **Recordset** 前设置 [LockType](recordset-object-ado.md) 属性可指定在打开该记录集时提供程序应使用的锁定类型。读取该属性将返回在打开的 **Recordset** 对象上使用的锁定类型。
 
@@ -35,5 +35,5 @@ ms.locfileid: "28712475"
 
 **Recordset** 关闭时 **LockType** 属性为可读/写属性，而打开时为只读属性。
 
-**远程数据服务用法**当客户端 Recordset 对象上使用时， **LockType**属性可以仅可设为**adLockBatchOptimistic**。
+**远程数据服务使用情况**在客户端 Recordset 对象上使用时, **LockType**属性仅可设置为**adLockBatchOptimistic**。
 

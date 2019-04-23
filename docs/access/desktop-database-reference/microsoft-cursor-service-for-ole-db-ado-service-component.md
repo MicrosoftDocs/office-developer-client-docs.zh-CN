@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d79d060922c6e7f28209242ebe82821c2ba97bfd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288986"
 ---
-# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Microsoft Cursor Service for OLE DB（ADO 服务组件）
+# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>用于 OLE DB 的 Microsoft 游标服务（ADO 服务组件）
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft Cursor Service for OLE DB 增加了数据提供程序的游标支持功能。因此，用户可以从所有数据提供程序体验相对统一的功能。
 
@@ -27,15 +27,15 @@ Cursor Service 使动态属性可用，并增强了某些方法的行为。例�
 
 ## <a name="keyword"></a>关键字
 
-要调用此服务组件，请将 [Recordset](recordset-object-ado.md) 或 [Connection](connection-object-ado.md) 对象的 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** 。
+要调用此服务组件，请将 [Recordset](recordset-object-ado.md) 或 [Connection](connection-object-ado.md) 对象的 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient**。
 
 `connection.CursorLocation=adUseClientrecordset.CursorLocation=adUseClient`
 
 ## <a name="dynamic-properties"></a>动态属性
 
-调用 Cursor Service for OLE DB 时，会将以下动态属性添加到 **Recordset** 对象的 [Properties](properties-collection-ado.md) 集合中。 **Connection** 和 **Recordset** 对象的动态属性的完整列表在 [ADO 动态属性索引](ado-dynamic-property-index.md)中列出。关联的 OLE DB 属性名称（如果适合）包括在 ADO 属性名后的括号中。
+调用 Cursor Service for OLE DB 时，会将以下动态属性添加到 **Recordset** 对象的 [Properties](properties-collection-ado.md) 集合中。**Connection** 和 **Recordset** 对象的动态属性的完整列表在 [ADO 动态属性索引](ado-dynamic-property-index.md)中列出。关联的 OLE DB 属性名称（如果适合）包括在 ADO 属性名后的括号中。
 
-调用 Cursor Service 后，对某些动态属性所做的更改对基础数据源不可见。 例如，在**Recordset**上设置*命令超时*属性将无法看到基础数据提供程序。
+调用 Cursor Service 后，对某些动态属性所做的更改对基础数据源不可见。例如，对于基础数据提供程序而言，对 **Recordset** 的 *Command Time out* 属性的设置将不可见。
 
 ```vb 
 ... 
@@ -52,7 +52,7 @@ Recordset1.Properties.Item("Command Time out") = 50
 如果应用程序需要 Cursor Service，但您需要在基础提供程序上设置动态属性，则请先设置动态属性，随后调用 Cursor Service。Command 对象属性设置始终会被传递给基础数据提供程序，无论游标所处的位置如何。因此，您还可以随时使用 Command 对象来设置属性。
 
 > [!NOTE]
-> 动态属性 DBPROP_SERVERDATAONINSERT 不受 Cursor Service 支持，即使受基础数据提供程序支持也是如此。
+> [!注释] 动态属性 DBPROP_SERVERDATAONINSERT 不受 Cursor Service 支持，即使受基础数据提供程序支持也是如此。
 
 
 
@@ -99,7 +99,7 @@ Recordset1.Properties.Item("Command Time out") = 50
 </tr>
 <tr class="odd">
 <td><p><a href="reshape-name-property-dynamic-ado.md">Reshape Name</a></p></td>
-<td><p>指示 <strong>Recordset</strong> 的名称。可以在当前 Data Shaping 命令或后续的 Data Shaping 命令中引用该属性。</p></td>
+<td><p>指示 <strong>Recordset</strong> 的名称。 可以在当前 Data Shaping 命令或后续的 Data Shaping 命令中引用该属性。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="resync-command-property-dynamic-ado.md">Resync Command</a></p></td>
@@ -160,7 +160,7 @@ Cursor Service for OLE DB 还会影响某些内置属性的行为。
 </tr>
 <tr class="even">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>补充可用于 <strong>Recordset</strong> 的锁定类型。可启用批更新。</p></td>
+<td><p>补充可用于 <strong>Recordset</strong> 的锁定类型。 可启用批更新。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sort-property-ado.md">Sort</a></p></td>

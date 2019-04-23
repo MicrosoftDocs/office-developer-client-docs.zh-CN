@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f733c574ba7927587c6fcb6305a361ca1070de0f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282511"
 ---
 # <a name="addnew-method-ado"></a>AddNew 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于为可更新的 [Recordset](recordset-object-ado.md) 对象创建新记录。
 
 ## <a name="syntax"></a>语法
 
-*记录集*。AddNew *FieldList**值*
+*recordset*。AddNew *FieldList*,*值*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*recordset* |**Recordset** 对象。|
-|*FieldList* |可选。单个名称，或新记录中字段名称或序号位置的数组。|
-|*Values* |可选。 单个值，或新记录中字段值的数组。 如果*Fieldlist*是一个数组，*值*还必须具有相同数量的成员; 数组否则，将发生错误。 在每个数组中，字段名称的次序必须与字段值的次序匹配。|
+|*FieldList* |可选。 单个名称，或新记录中字段名称或序号位置的数组。|
+|*Values* |可选。 单个值，或新记录中字段值的数组。 如果 *Fieldlist* 为数组，则 *Values* 也必须是具有相同成员数的数组，否则将发生错误。 在每个数组中，字段名称的次序必须与字段值的次序匹配。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **AddNew** 方法用于创建和初始化新记录。可以结合使用 [Supports](supports-method-ado.md) 方法和 **adAddNew** （ [CursorOptionEnum](cursoroptionenum.md) 值），以检验能否在当前 **Recordset** 对象中添加记录。
 
@@ -40,9 +40,9 @@ ms.locfileid: "28703305"
 
 如果在编辑当前记录或添加新记录时调用 **AddNew** ，则 ADO 会调用 **Update** 方法来保存所有更改，然后创建新记录。
 
-**AddNew**方法的行为取决于**Recordset**对象以及是否传递*Fieldlist*和*Values*参数的更新模式。
+**AddNew** 方法的行为取决于 **Recordset** 对象的更新模式以及是否传递 *Fieldlist* 和 *Values* 参数。
 
 在*即时更新模式*下（在该模式下，只要调用 **Update** 方法，提供程序便将更改写入基础数据源），不采用参数调用 **AddNew** 参数会将 [EditMode](editmode-property-ado.md) 属性设置为 **adEditAdd**（[EditModeEnum](editmodeenum.md) 值）。提供程序将任意字段值更改缓存在本地。调用 **Update** 方法会将新记录发布到数据库并将 **EditMode** 属性重置为 **adEditNone**（**EditModeEnum** 值）。如果传递 *Fieldlist* 和 *Values* 参数，则 ADO 立即将新记录发布到数据库（无需调用 **Update**），且 **EditMode** 属性值不变 (**adEditNone**)。
 
-以*批更新模式*（顺序提供程序缓存多个更改和将它们写入到基础数据源，仅在调用[UpdateBatch](updatebatch-method-ado.md)方法），调用不带参数的**AddNew**方法将**EditMode**设置属性设置为**adEditAdd**。 提供程序在本地缓存所有字段值的更改。 调用 **Update** 方法会将新记录添加到当前 **Recordset** 并将 **EditMode** 属性重新设置为 **adEditNone** ，但是在调用 **UpdateBatch** 方法之前，提供程序不会将更改张贴到基础数据库中。 如果传递*Fieldlist*和*Values*参数，ADO 将新记录发送到用于存储缓存; 中的提供程序您需要调用**UpdateBatch**方法发布到基础数据库的新记录。
+在*批更新模式*下（在该模式下，提供程序缓存多处更改，并只有当调用 [UpdateBatch](updatebatch-method-ado.md) 方法时，才将更改写入基础数据源），不采用参数调用 **AddNew** 方法会将 **EditMode** 属性设置为 **adEditAdd**。提供程序将任何字段值更改缓存在本地。调用 **Update** 方法会在当前 **Recordset** 中添加新记录，并将 **EditMode** 属性重置为 **adEditNone**，但在调用 **UpdateBatch** 方法之前，提供程序不会将更改发布到基础数据库。如果传递 *Fieldlist* 和 *Values* 参数，则 ADO 将新记录发送给提供程序，以存储在缓存中。您需要调用 **UpdateBatch** 方法将新记录发布到基础数据库。
 

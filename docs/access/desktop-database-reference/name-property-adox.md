@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5c7021c6f97d1aaa9c82e65eab98a3259d6eb87e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288649"
 ---
 # <a name="name-property-adox"></a>Name 属性 (ADOX)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示对象的名称。
 
@@ -24,7 +24,7 @@ ms.locfileid: "28707981"
 
 设置或返回一个 **String** 值。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 名称在一个集合中不必是唯一的。
 
@@ -33,7 +33,7 @@ ms.locfileid: "28707981"
 对于可读写对象（**Column**、**Group**、**Key**、**Index**, **Table** 以及 **User** 对象），默认值为空字符串 ("")。
 
 > [!NOTE]
-> - [!注释] 对于键，此属性对于已追加到集合中的 **Key** 对象为只读。
+> - 对于键，此属性对于已追加到集合中的 **Key** 对象为只读。
 > - [!注释] 对于表，此属性对于已追加到集合中的 **Table** 对象为只读。
 
 
