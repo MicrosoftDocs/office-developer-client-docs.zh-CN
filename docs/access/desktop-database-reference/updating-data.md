@@ -1,5 +1,5 @@
 ---
-title: 更新数据 （访问桌面数据库参考 （英文）
+title: 更新数据 (Access desktop database reference)
 TOCTitle: Updating Data
 ms:assetid: 02e82066-77c8-cbb2-db28-98e2fc94404c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e6989468e23fc1c9c611eb091172822a6ffe938
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313564"
 ---
 # <a name="updating-data"></a>更新数据
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 更新行为和更新功能在很大程度上取决于更新模式（锁定类型）、游标类型和游标位置。
 
@@ -31,5 +31,5 @@ ms.locfileid: "28726335"
 
 - [直接模式](immediate-mode.md)
 - [事务处理](transaction-processing.md)
-- [批模式 (ADO)](batch-mode.md)
+- [批处理模式 (ADO)](batch-mode.md)
 

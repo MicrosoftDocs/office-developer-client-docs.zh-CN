@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ae9cc65d61416767140572b32d3f2e1b8e4d8eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313977"
 ---
 # <a name="significance-of-cursor-location"></a>游标位置的重要性
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-每个游标都使用临时资源保存其数据。 这些资源可以是内存、磁盘页面文件、临时磁盘文件甚至可以是数据库中的临时存储区。 当这些资源位于客户端计算机上时，光标被称为*客户端*游标。 光标时这些资源位于服务器上调用*服务器端*游标。
+每个游标都使用临时资源保存其数据。这些资源可以是内存、磁盘页面文件、临时磁盘文件甚至可以是数据库中的临时存储区。当这些资源位于客户端计算机上时，游标被称为*客户端*游标。当这些资源位于服务器上时，游标被称为*服务器端*游标。
 
 ## <a name="client-side-cursors"></a>客户端游标
 

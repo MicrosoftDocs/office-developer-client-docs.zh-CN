@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9218f04e587cb9daea9ccb5ad7cce2cbbb9733e3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313151"
 ---
 # <a name="user-interface-commands"></a>用户界面命令
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [AddMenu 宏操作](addmenu-macro-action.md)
 - [BrowseTo 宏操作](browseto-macro-action.md)

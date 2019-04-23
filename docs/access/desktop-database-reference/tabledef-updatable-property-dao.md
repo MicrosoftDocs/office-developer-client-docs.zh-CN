@@ -1,5 +1,5 @@
 ---
-title: TableDef.Updatable 属性 (DAO)
+title: TableDef 属性 (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 0b1ae7e5-416d-06f0-5d74-989c6db67ff2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845128(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a6e6c7409b89058c6be55d9fb83eb85c7af9fb9c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314411"
 ---
-# <a name="tabledefupdatable-property-dao"></a>TableDef.Updatable 属性 (DAO)
+# <a name="tabledefupdatable-property-dao"></a>TableDef 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个值，该值指示是否可以更改 DAO 对象。只读 **Boolean**。
+返回一个值，该值指示是否可以更改 DAO 对象。 只读 **Boolean** 类型。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。可更新
+*表达式*。更新
 
 *表达式*一个代表**TableDef**对象的变量。
 
