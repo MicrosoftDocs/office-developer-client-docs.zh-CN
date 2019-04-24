@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6b875e2b5dff6f3b6927e73105b6732dfaa6fd0b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295441"
 ---
 # <a name="count-property-example-vj"></a>Count 属性示例 (VJ++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-以下示例演示在***员工***数据库中的两个集合的[Count](count-property-ado.md)属性。 该属性获得每个集合中的对象数，并设置枚举这两个集合的循环的上限。 另一种不使用 **Count** 属性枚举这些集合的方式是使用语句。
+此示例使用 ***Employees***（雇员）数据库中的两个集合演示 [Count](count-property-ado.md) 属性。 该属性获得每个集合中的对象数，并设置枚举这两个集合的循环的上限。 另一种不使用 **Count** 属性枚举这些集合的方式是使用语句。
 
 ```java 
  

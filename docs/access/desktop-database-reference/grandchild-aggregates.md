@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a4c50898626488f909616977c6bb50c936434563
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292144"
 ---
 # <a name="grandchild-aggregates"></a>孙级聚合
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-创建 shape 命令的子句中的章节列可能有*章别名*（通常使用 AS 关键字）。 您可能使用的完全限定名称来标识包含的列的子标识任何定形**Recordset**的章节中的任何列。 例如，如果父章，chap1，包含子一章，chap2，具有量列中，主动管理技术，则限定的名称将为 chap1.chap2.amt。限定的名可能然后用作聚合函数 （SUM、 平均、 MAX、 MIN、 计数、 STDEV 和或任何） 之一的参数。
+在 Shape 命令子句中创建的“章节”列可能会被赋予一个 *chapter-alias name*（通常使用 AS 关键字）。您可以用标识包含列的子记录集的完整名称来标识定形 **Recordset** 的任何章节中的任何列。例如，如果父章节 chap1 包含子章节 chap2，而后者具有一个数量列 amt，则限定名称为 chap1.chap2.amt。随后，该限定名称可以用作任一聚合函数（如 SUM、AVG、MAX、MIN、COUNT、STDEV 或 ANY）的参数。
 

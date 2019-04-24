@@ -1,5 +1,5 @@
 ---
-title: DBEngine.BeginTrans 方法 (DAO)
+title: BeginTrans 方法 (DAO) DBEngine
 TOCTitle: BeginTrans Method
 ms:assetid: fdde662f-2472-3af6-67d6-c8ca7fb1dca7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837255(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5672d9a202c6615e4bc1f5c367e3910887ddc7a8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294398"
 ---
-# <a name="dbenginebegintrans-method-dao"></a>DBEngine.BeginTrans 方法 (DAO)
+# <a name="dbenginebegintrans-method-dao"></a>BeginTrans 方法 (DAO) DBEngine
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-开始新的事务。可读写 **Database**。
+开始新的事务。 可读写 **Database**。
 
 ## <a name="syntax"></a>语法
 

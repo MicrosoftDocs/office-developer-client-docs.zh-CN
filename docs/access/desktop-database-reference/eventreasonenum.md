@@ -1,5 +1,5 @@
 ---
-title: EventReasonEnum （访问桌面数据库参考 （英文）
+title: EventReasonEnum (Access desktop database reference)
 TOCTitle: EventReasonEnum
 ms:assetid: 0639928e-d0ef-3db3-887e-f3da03913bc7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248815(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4948cd9a5f1436e4e1afc61bef87b63675e115ff
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293327"
 ---
 # <a name="eventreasonenum"></a>EventReasonEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定导致事件发生的原因。
 
@@ -43,17 +43,17 @@ ms.locfileid: "28707414"
 </tr>
 <tr class="even">
 <td><p><strong>adRsnClose</strong></p></td>
-<td><p>9</p></td>
+<td><p>第</p></td>
 <td><p>操作关闭了 <strong>Recordset</strong>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnDelete</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>操作删除了记录。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnFirstChange</strong></p></td>
-<td><p>11</p></td>
+<td><p>11x17</p></td>
 <td><p>操作对某个记录做了第一次更改。</p></td>
 </tr>
 <tr class="odd">
@@ -68,7 +68,7 @@ ms.locfileid: "28707414"
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMoveLast</strong></p></td>
-<td><p>15</p></td>
+<td><p>个</p></td>
 <td><p>操作将 <strong>Recordset</strong> 中的记录指针移到最后一个记录。</p></td>
 </tr>
 <tr class="even">
@@ -78,17 +78,17 @@ ms.locfileid: "28707414"
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMovePrevious</strong></p></td>
-<td><p>14</p></td>
+<td><p>日</p></td>
 <td><p>操作将 <strong>Recordset</strong> 中的记录指针移到上一个记录。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnRequery</strong></p></td>
-<td><p>7</p></td>
+<td><p>步</p></td>
 <td><p>操作重新查询 <a href="recordset-object-ado.md">Recordset</a>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnResynch</strong></p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>操作将 <strong>Recordset</strong> 与数据库重新同步。</p></td>
 </tr>
 <tr class="even">
@@ -98,7 +98,7 @@ ms.locfileid: "28707414"
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnUndoDelete</strong></p></td>
-<td><p>6</p></td>
+<td><p>型</p></td>
 <td><p>操作恢复了记录的删除。</p></td>
 </tr>
 <tr class="even">
@@ -108,16 +108,16 @@ ms.locfileid: "28707414"
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnUpdate</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>操作更新了现有记录。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -130,49 +130,49 @@ ms.locfileid: "28707414"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.ADDNEW</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventReason.CLOSE</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.DELETE</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventReason.FIRSTCHANGE</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.MOVE</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventReason.MOVEFIRST</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.MOVELAST</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventReason.MOVENEXT</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.MOVEPREVIOUS</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventReason.REQUERY</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.RESYNCH</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventReason.UNDOADDNEW</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.UNDODELETE</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventReason.UNDOUPDATE</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventReason.UPDATE</p></td>
+<td><p>AdoEnums EventReason</p></td>
 </tr>
 </tbody>
 </table>

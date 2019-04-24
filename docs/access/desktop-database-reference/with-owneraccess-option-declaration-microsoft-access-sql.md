@@ -1,5 +1,5 @@
 ---
-title: 与 OWNERACCESS OPTION 声明 (Microsoft Access SQL)
+title: WITH OWNERACCESS OPTION 声明 (Microsoft Access SQL)
 TOCTitle: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 ms:assetid: 82e51071-12b2-e97e-07b4-27ffceda831e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196724(v=office.15)
@@ -14,24 +14,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0882f143f13f6bd6d66c894f242a9cd50ebf9489
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302504"
 ---
-# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>与 OWNERACCESS OPTION 声明 (Microsoft Access SQL)
+# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a>WITH OWNERACCESS OPTION 声明 (Microsoft Access SQL)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 在使用安全工作组的多用户环境中，通过对查询使用这个声明，可以向执行该查询的用户授予与查询所有者同等的权限。
 
 ## <a name="syntax"></a>语法
 
-*sqlstatement*与 OWNERACCESS OPTION
+*sqlstatement*WITH OWNERACCESS 选项
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 WITH OWNERACCESS OPTION 声明是可选的。
 

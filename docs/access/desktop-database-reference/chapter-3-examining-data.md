@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fcf837a02c40d11fecfa56b8aa34ac80a848411
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296456"
 ---
 # <a name="chapter-3-examining-data"></a>第 3 章：检查数据
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 第 2 章介绍了如何从作为 **Recordset** 对象的数据源中检索数据。本章将更深入地讨论 **Recordset** ，包括如何在 **Recordset** 中导航并查看其中的数据。
 
@@ -67,48 +67,48 @@ End Sub
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>字段 0<br />
-名称 = 产品 Id</p></th>
-<th><p>字段 1<br />
-名称 = 产品名</p></th>
-<th><p>字段 2<br />
-名称 = 单价</p></th>
+<th><p>字段0<br />
+Name = ProductID</p></th>
+<th><p>字段1<br />
+Name = ProductName</p></th>
+<th><p>字段2<br />
+Name = 单价</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>7</p></td>
-<td><p>海鲜粉</p></td>
+<td><p>步</p></td>
+<td><p>Uncle Bob's Organic Dried Pears</p></td>
 <td><p>30.0000</p></td>
 </tr>
 <tr class="even">
-<td><p>14</p></td>
-<td><p>沙茶</p></td>
+<td><p>日</p></td>
+<td><p>精</p></td>
 <td><p>23.2500</p></td>
 </tr>
 <tr class="odd">
 <td><p>28</p></td>
-<td><p>烤肉酱</p></td>
+<td><p>Rssle Sauerkraut</p></td>
 <td><p>45.6000</p></td>
 </tr>
 <tr class="even">
 <td><p>51</p></td>
-<td><p>猪肉干</p></td>
+<td><p>Manjimup Dried Apples</p></td>
 <td><p>53.0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>74</p></td>
-<td><p>鸡精</p></td>
+<td><p>Longlife Tofu</p></td>
 <td><p>10.0000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-下一节介绍如何在此示例**Recordset**中找到指针的当前位置。
+下一节介绍如何在此示例**Recordset**中查找游标的当前位置。
 
 本章包含以下主题：
 
-- [定位当前记录 (ADO)](locating-the-current-record.md)
-- [导航数据 (ADO)](navigating-through-the-data.md)
-- [了解记录集结构 (ADO)](understanding-recordset-structure.md)
+- [查找当前记录 (ADO)](locating-the-current-record.md)
+- [在数据中导航 (ADO)](navigating-through-the-data.md)
+- [了解 Recordset 结构 (ADO)](understanding-recordset-structure.md)

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88a84f6fa3604286ca27651cefc999c96ff41d0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290889"
 ---
 # <a name="jscript-ado-programming"></a>JScript ADO 编程
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 ## <a name="creating-an-ado-project"></a>创建 ADO 项目
@@ -26,11 +26,11 @@ Microsoft JScript 不支持类型库，所以不需要在项目中引用 ADO。�
 
 但是，ADO 提供了两个包含文件，其中包含要用于 JScript 的以下定义：
 
-- 对于服务器端脚本，请使用 Adojavas.inc，该文件安装中的 c:\\Program Files\\Common Files\\系统\\ado\\默认情况下的文件夹。
+- 对于服务器端脚本, 请使用 adojavas.inc, 它在默认情况下安装在 c\\: Program\\files 常见\\文件\\系统\\ ado 文件夹中。
 
-- 客户端脚本，请使用 Adcjavas.inc，其安装在 c:\\Program Files\\Common Files\\系统\\msdac\\默认情况下的文件夹。
+- 对于客户端脚本, 请使用 Adcjavas, 它在默认情况下安装在 c\\: Program\\files Common\\files\\System\\ msdac 文件夹中。
 
-您可以复制和粘贴 ASP 页中，从这些文件常量定义或者，如果执行服务器端脚本，将 Adojavas.inc 文件复制到您的网站上的文件夹和引用从 ASP 页如下所示：
+您可以将常量定义从这些文件复制并粘贴到 ASP 页中, 或者, 如果您正在执行服务器端脚本, 请将 adojavas.inc 文件复制到网站上的文件夹中, 并从 ASP 页引用它, 如下所示:
 
 ```javascript  
  

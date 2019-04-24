@@ -1,5 +1,5 @@
 ---
-title: Containers 集合 (DAO)
+title: 容器集合 (DAO)
 TOCTitle: Containers Object
 ms:assetid: 4996ee39-ea13-f560-3069-dd7bc6022119
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9c874a1555fa6a6f5f948275176c57b5fb1c48bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295602"
 ---
-# <a name="containers-collection-dao"></a>Containers 集合 (DAO)
+# <a name="containers-collection-dao"></a>容器集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Containers**集合包含所有数据库中定义的**容器**对象。
+**分枝**集合包含在数据库中定义的所有**Container**对象。
 
 ## <a name="remarks"></a>注解
 

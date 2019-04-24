@@ -1,5 +1,5 @@
 ---
-title: Field.DataUpdatable 属性 (DAO)
+title: DataUpdatable 属性 (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: 08ca57b6-2d7c-36b4-7d51-b76ac5467163
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845029(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8678b825f509f483bf70d3aa2f3d767dbf7b0e32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293131"
 ---
-# <a name="fielddataupdatable-property-dao"></a>Field.DataUpdatable 属性 (DAO)
+# <a name="fielddataupdatable-property-dao"></a>DataUpdatable 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 返回一个值，该值指示是否可更新 **[Field](field-object-dao.md)** 对象所代表的字段中的数据。
@@ -34,9 +34,9 @@ ms.locfileid: "28698279"
 
 ## <a name="remarks"></a>注解
 
-使用该属性可以确定是否可更改 [Field](field-value-property-dao.md) 对象的 ****Value**** 属性设置。对于 ****Attributes**** 属性为 [dbAutoIncrField](field-attributes-property-dao.md) 的 **Field** 对象，该属性始终为 **False**。
+使用此属性可确定是否可以更改**Field**对象的**[Value](field-value-property-dao.md)** 属性设置。 对于 **[Attributes](field-attributes-property-dao.md)** 属性为 **dbAutoIncrField** 的 **Field** 对象，该属性始终为 **False**。
 
-**DataUpdatable** 属性可用于已追加到 [**QueryDef**](fields-collection-dao.md) 、 [**Recordset**](querydef-object-dao.md) 和 [**Relation**](recordset-object-dao.md) 对象的 [**Fields**](relation-object-dao.md) 集合（但不是 ****Index**** 或 **[TableDef](index-object-dao.md)** 对象的 [Fields](tabledef-object-dao.md) 集合）中的 **Field** 对象。
+您可以使用追加到**[QueryDef](querydef-object-dao.md)**、 **[Recordset](recordset-object-dao.md)** 和**[Relation](relation-object-dao.md)** 对象的**[fields](fields-collection-dao.md)** 集合中的 Field 对象的**DataUpdatable**属性, 但不能使用索引的**fields**集合中的**Field**对象**[](index-object-dao.md)** 或**[TableDef](tabledef-object-dao.md)** 对象。
 
 ## <a name="example"></a>示例
 

@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: acf541bde41c282b752532cb74d5ec4fa4a13ca9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308657"
 ---
 # <a name="setwarnings-macro-action"></a>SetWarnings 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **SetWarnings** 操作打开或者关闭系统消息。
 
@@ -51,11 +51,11 @@ ms.locfileid: "28710403"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-可以使用此操作防止模式警告框和消息框使宏停止执行。不过，始终都会显示错误消息。另外，Microsoft Access 除了不显示只需选择一个按钮（例如， **"确定"**、 **"取消"**、 **"是"** 或 **"否"**）的对话框外，会显示任何需要输入的对话框，例如任何需要您输入文本或者选择多个选项之一的对话框。
+可以使用此操作防止模式警告框和消息框使宏停止执行。不过，始终都会显示错误消息。另外，Microsoft Access 除了不显示只需选择一个按钮（例如，**“确定”**、**“取消”**、**“是”** 或 **“否”**）的对话框外，会显示任何需要输入的对话框，例如任何需要您输入文本或者选择多个选项之一的对话框。
 
-执行此操作与**警告**参数设置为**否**时显示警告或消息框中，按 ENTER 的效果相同。 通常，响应警告或消息是选择**确定**或**是**按钮。
+Carrying out this action with the **Warnings On** argument set to **No** has the same effect as pressing ENTER whenever a warning or message box is displayed. Typically, an **OK** or **Yes** button is chosen in response to the warning or message.
 
 在宏执行完后，Access 会自动打开系统消息的显示。
 

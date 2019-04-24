@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a85faf900860dabb809a10a92985559b7a7cf2ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297128"
 ---
 # <a name="append-method-ado"></a>Append 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于将对象追加到集合。如果集合为 [Fields](fields-collection-ado.md)，则在将对象追加到集合之前，可能会创建新的 [Field](field-object-ado.md) 对象。
 
 ## <a name="syntax"></a>语法
 
-*集合*。将*对象*追加
+*集合*。Append*对象*
 
-*字段*。追加*名称*、*类型*、 *DefinedSize*、 *Attrib*、 *FieldValue*
+*字段*。Append *Name*、 *Type*、 *DefinedSize*、 *Attrib*、 *FieldValue*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*collection* |集合对象。|
 |*fields* |**Fields** 集合。|
@@ -39,7 +39,7 @@ ms.locfileid: "28706077"
 |*Attrib* |可选。[FieldAttributeEnum](fieldattributeenum.md) 值，其默认值为 **adFldDefault**，用于指定新字段的属性。如果未指定此值，则字段所包含的属性由 *Type* 决定。|
 |*FieldValue* |可选。 **变量型** ，表示新字段的值。如果未指定此值，则为字段追加一个 Null 值。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 ### <a name="parameters-collection"></a>Parameters 集合
 
@@ -51,7 +51,7 @@ ms.locfileid: "28706077"
 
 ### <a name="fields-collection"></a>Fields 集合
 
-添加**Field**对象的[Record](record-object-ado.md)对象，而不**Recordset**对象时， *FieldValue*参数才有效。 通过 **Record** 对象，可以同时追加字段和提供值。 而对于 **Recordset** 对象，当 **Recordset** 关闭时必须创建字段，然后打开 **Recordset** 并为字段赋值。
+只有在将 **Field** 对象添加到 [Record](record-object-ado.md) 对象（而非 **Recordset** 对象）时，*FieldValue* 参数才有效。通过 **Record** 对象，可以同时追加字段和提供值。而对于 **Recordset** 对象，当 **Recordset** 关闭时必须创建字段，然后打开 **Recordset** 并为字段赋值。
 
 
 > [!NOTE]
@@ -62,7 +62,7 @@ ms.locfileid: "28706077"
 
 ### <a name="recordset"></a>Recordset
 
-如果在调用 [Append](cursorlocation-property-ado.md) 方法之前未设置 **CursorLocation** 属性，则当调用 **Recordset** 对象的 **Open** 方法时， [CursorLocation](cursorlocationenum.md) 将自动设置为 [adUseClient](recordset-object-ado.md) （ [CursorLocationEnum](open-method-ado-recordset.md) 值）。
+如果在调用 **Append** 方法之前未设置 [CursorLocation](cursorlocation-property-ado.md) 属性，则当调用 [Recordset](recordset-object-ado.md) 对象的 [Open](open-method-ado-recordset.md) 方法时，**CursorLocation** 将自动设置为 **adUseClient**（[CursorLocationEnum](cursorlocationenum.md) 值）。
 
 如果对打开的 **Recordset** 的 **Fields** 集合调用 **Append** 方法，或对设置了 **ActiveConnection** 属性的 [Recordset](activeconnection-property-ado.md) 调用该方法，则将发生运行时错误。只能将字段追加到未打开且尚未连接到数据源的 **Recordset** 。当 **Recordset** 对象用 [CreateRecordset](createrecordset-method-rds.md) 方法构成，或被分配给某对象变量时，通常为这种情况。
 

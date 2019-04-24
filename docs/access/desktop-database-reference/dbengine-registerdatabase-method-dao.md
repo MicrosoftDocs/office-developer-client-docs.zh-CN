@@ -1,5 +1,5 @@
 ---
-title: DBEngine.RegisterDatabase 方法 (DAO)
+title: RegisterDatabase 方法 (DAO) DBEngine
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715604"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294223"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase 方法 (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>RegisterDatabase 方法 (DAO) DBEngine
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 在 Windows 注册表中输入 ODBC 数据源的连接信息。在会话期间如果 ODBC 数据源已打开，则 ODBC 驱动程序需要连接信息。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。RegisterDatabase （***Dsn***、***驱动程序***、***无提示***、***属性***）
+*表达式*。RegisterDatabase (***Dsn***、***驱动程序***、***无提示***、***属性***)
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28715604"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -49,28 +49,28 @@ ms.locfileid: "28715604"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Dsn</em></p></td>
+<td><p><em>描述</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong> 方法中使用的名称。该名称引用与数据源有关的描述性信息块。例如，如果数据源为 ODBC 远程数据库，则该名称可能是服务器的名称。</p></td>
+<td><p>在<strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>方法中使用的名称。 该名称引用与数据源有关的描述性信息块。 例如，如果数据源为 ODBC 远程数据库，则该名称可能是服务器的名称。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>ODBC 驱动程序的名称。这不是 ODBC 驱动程序 DLL 文件的名称。</p></td>
+<td><p>ODBC 驱动程序的名称。 这不是 ODBC 驱动程序 DLL 文件的名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>无提示</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Boolean</strong></p></td>
-<td><p><strong>True</strong>如果您不想要显示提示驱动程序特定信息; ODBC 驱动程序对话框或<strong>False</strong>如果您想要显示 ODBC 驱动程序对话框。 如果无提示是<strong>True</strong>、 属性必须包含所有必需的驱动程序特定信息或仍然显示的对话框。</p></td>
+<td><p>如果不需要显示用于提示输入驱动程序专用信息的 ODBC 驱动程序对话框，则此值为 <strong>True</strong>；如果需要显示 ODBC 驱动程序对话框，则此值为 <strong>False</strong>。 如果缄默为<strong>True</strong>, 则属性必须包含所有必需的驱动程序特定的信息, 否则仍显示对话框。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Attributes</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>要添加到 Windows 注册表的关键字列表。这些关键字是由回车符分隔的字符串。</p></td>
+<td><p>要添加到 Windows 注册表的关键字列表。 这些关键字是由回车符分隔的字符串。</p></td>
 </tr>
 </tbody>
 </table>

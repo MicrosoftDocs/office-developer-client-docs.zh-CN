@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Clone 方法 (DAO)
+title: Recordset2 方法 (DAO)
 TOCTitle: Clone Method
 ms:assetid: f0d32cb1-03f6-395d-2509-b2139a5fdc68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6780a27d573f5ff7ff41060074fb8abb9f8e2b80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307390"
 ---
-# <a name="recordset2clone-method-dao"></a>Recordset2.Clone 方法 (DAO)
+# <a name="recordset2clone-method-dao"></a>Recordset2 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-创建一个引用原始 [Recordset2](recordset-object-dao.md) 对象的复制 ****Recordset**** 对象。
+创建一个引用原始**Recordset2**对象的重复**[Recordset](recordset-object-dao.md)** 对象。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。克隆
+*表达式*。池
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="return-value"></a>返回值
 

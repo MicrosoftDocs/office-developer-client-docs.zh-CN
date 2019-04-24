@@ -1,5 +1,5 @@
 ---
-title: IsolationLevelEnum （访问桌面数据库参考 （英文）
+title: IsolationLevelEnum (Access desktop database reference)
 TOCTitle: IsolationLevelEnum
 ms:assetid: 438af3f3-65ed-237d-94d8-f3aff6addd3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f0176772b366b39d368f8bae1e402d420f0136c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291154"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Connection](connection-object-ado.md) 对象的事务隔离级别。
 
@@ -43,7 +43,7 @@ ms.locfileid: "28707182"
 </tr>
 <tr class="even">
 <td><p><strong>adXactChaos</strong></p></td>
-<td><p>16</p></td>
+<td><p>位</p></td>
 <td><p>指示无法覆盖来自隔离程度更高的事务的挂起更改。</p></td>
 </tr>
 <tr class="odd">
@@ -85,9 +85,9 @@ ms.locfileid: "28707182"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -100,31 +100,31 @@ ms.locfileid: "28707182"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.UNSPECIFIED</p></td>
+<td><p>AdoEnums 不指定 IsolationLevel</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.CHAOS</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.BROWSE</p></td>
+<td><p>AdoEnums IsolationLevel</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.READUNCOMMITTED</p></td>
+<td><p>AdoEnums IsolationLevel</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.CURSORSTABILITY</p></td>
+<td><p>AdoEnums IsolationLevel</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.READCOMMITTED</p></td>
+<td><p>AdoEnums IsolationLevel</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.REPEATABLEREAD</p></td>
+<td><p>AdoEnums IsolationLevel</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.IsolationLevel.ISOLATED</p></td>
+<td><p>IsolationLevel AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.IsolationLevel.SERIALIZABLE</p></td>
+<td><p>AdoEnums IsolationLevel</p></td>
 </tr>
 </tbody>
 </table>

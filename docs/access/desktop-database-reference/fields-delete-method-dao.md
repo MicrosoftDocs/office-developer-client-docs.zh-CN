@@ -1,5 +1,5 @@
 ---
-title: Fields.Delete 方法 (DAO)
+title: Fields 方法 (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8200d8ec7b10f33fe8bc1ef9faea122d3ff65409
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292557"
 ---
-# <a name="fieldsdelete-method-dao"></a>Fields.Delete 方法 (DAO)
+# <a name="fieldsdelete-method-dao"></a>Fields 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 从 **[Fields](field-object-dao.md)** 集合中删除 **[Field](fields-collection-dao.md)** 。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。删除 （***名称***）
+*表达式*。Delete (***Name***)
 
 *表达式*一个代表**Fields**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28720987"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

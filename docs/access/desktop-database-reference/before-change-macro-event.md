@@ -14,26 +14,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296855"
 ---
 # <a name="before-change-macro-event"></a>Before Change 宏事件
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-当记录更改，但未提交更改之前，发生此事件的**更改前**事件。
+当记录更改但未提交更改时会发生“更改前”**** 事件。
 
 > [!NOTE]
-> 仅适用于数据宏的**Before Change**事件。
+> “更改前”**** 事件仅适用于数据宏。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用**Before Change**事件，以执行任何操作所需记录之前，需要进行更改。 **Before Change**常用来执行验证并将引发自定义错误消息。
+使用“更改前”**** 事件可以执行您希望在更改记录前发生的任何操作。“更改前”**** 通常用于执行验证和引发自定义错误消息。
 
-**更新了 （"*字段名*"）** 函数可用于确定是否已更改字段。 下面的代码示例演示如何使用**If**语句确定是否已更改 PaidInFull 字段。
+您可以使用**更新的 ("*Field Name*")** 函数来确定字段是否已更改。 下面的代码示例演示如何使用**If**语句来确定 PaidInFull 字段是否已更改。
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -43,7 +43,7 @@ ms.locfileid: "28703956"
     End If 
 ```
 
-使用**IsInsert**属性来确定是否在**更改前**事件触发正在创建的新记录或对现有记录的更改。 他们**IsInsert**属性包含 **，则返回 True** ，如果通过对 en 现有记录的更改触发事件，新记录， **False**已触发该事件。
+使用 **IsInsert** 属性可确定“更改前”**** 事件是由正在创建的新记录触发，还是由对现有记录的更改触发。如果该事件由新记录触发，**IsInsert** 属性将包含 **True**；如果该事件由对现有记录的更改触发，则该属性将包含 **False**。
 
 下面的代码示例演示使用**IsInsert**属性的语法。
 
@@ -65,17 +65,17 @@ ms.locfileid: "28703956"
     [Old].[Field Name]
 ```
 
-例如，若要访问 QuantityInStock 字段的以前的值，请使用以下语法。
+例如, 若要访问 QuantityInStock 字段的以前的值, 请使用以下语法。
 
 ```vb
     [Old].[QuantityInStock]
 ```
 
-在**更改前**事件结束时，以前的值将被永久删除。
+当“更改前”**** 事件结束时，以前的值将被永久删除。
 
-您可以通过使用**RaiseError**操作取消**Before Change**事件。 时引发错误**Before Change**事件中包含的更改将被丢弃。
+您可以使用 **RaiseError** 操作取消“更改前”**** 事件。当引发错误时，将放弃“更改前”**** 事件中包含的更改。
 
-下表列出了可在**Before Change**事件中使用的宏命令。
+下表列出了可在“更改前”**** 事件中使用的宏命令。
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ ms.locfileid: "28703956"
 <thead>
 <tr class="header">
 <th><p>命令类型</p></th>
-<th><p>命令</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>
@@ -133,9 +133,9 @@ ms.locfileid: "28703956"
 </table>
 
 
-若要创建可捕获**更改前**事件的数据宏，请使用以下步骤：
+若要创建可捕获“更改前”**** 事件的数据宏，请执行以下步骤：
 
-1.  打开要为其捕获**Before Change**事件的表格。
+1.  打开要捕获其“更改前”**** 事件的表格。
 
 2.  在 **“表格”** 选项卡上的 **“前期事件”** 组中，单击 **“更改前”**。
 
@@ -143,7 +143,7 @@ ms.locfileid: "28703956"
 
 ## <a name="example"></a>示例
 
-下面的代码示例使用**Before Change**事件来验证状态域。 如果在解决方案字段包含不正确的值，则，引发错误。
+下面的代码示例使用**Before Change**事件验证状态字段。 如果“解决方案”(Resolution) 字段中包含不合适的值，将会引发错误。
 
 ```vb 
  
@@ -174,13 +174,13 @@ End If
 
 若要在宏设计器查看此示例，请执行以下步骤。
 
-1.  打开要为其捕获**Before Change**事件的表格。
+1.  打开要捕获其“更改前”**** 事件的表格。
 
 2.  在 **“表格”** 选项卡上的 **“前期事件”** 组中，单击 **“更改前”**。
 
-3.  下面的代码示例中选择的代码，然后按**CTRL + C**将其复制到剪贴板。
+3.  在下面的代码示例中选择代码, 然后按**CTRL + C**将其复制到剪贴板。
 
-4.  激活宏设计器窗口，然后按**CTRL + V**。
+4.  激活宏设计器窗口, 然后按**CTRL + V**。
 
 
 
@@ -228,9 +228,9 @@ End If
 </DataMacros>
 ```
 
-下面的示例演示如何使用 RaiseError 操作取消 Before Change 数据宏事件。 更新 AssignedTo 字段时，LookupRecord 数据块用于确定是否已分配的技术人员当前分配给打开服务请求。 如果是这样，然后取消 Before Change 事件并不会更新记录。
+下面的示例演示如何使用 RaiseError 操作取消 Before Change data 宏事件。 更新 "分配" 字段后, 将使用 LookupRecord 数据块确定分配的技术人员当前是否已分配给打开的服务请求。 如果为 true, 则取消前更改事件, 且不更新记录。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     /* Get the name of the technician  */

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 182fa7d7258c19d5460202ae8425a013ab7b9437
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296232"
 ---
 # <a name="columnattributesenum"></a>ColumnAttributesEnum
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Column](column-object-adox.md) 的特征。
 
@@ -42,7 +42,7 @@ ms.locfileid: "28712125"
 </tr>
 <tr class="even">
 <td><p><strong>adColNullable</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>列可包含 null 值。</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: Field2.AppendChunk 方法 (DAO)
+title: AppendChunk 方法 (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: 540cd02d-1fc6-81d1-ac08-1e3df72a7208
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194088(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fda1ab5a3e339d951225f4f43ab4275cce2cdb80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292879"
 ---
-# <a name="field2appendchunk-method-dao"></a>Field2.AppendChunk 方法 (DAO)
+# <a name="field2appendchunk-method-dao"></a>AppendChunk 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 将字符串表达式中的数据追加到 [**Recordset**](recordset-object-dao.md) 中的"备注"或"长二进制"型 **Field2** 对象。
 
@@ -30,7 +30,7 @@ ms.locfileid: "28705433"
 
 *表达式*一个代表**Field2**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28705433"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>

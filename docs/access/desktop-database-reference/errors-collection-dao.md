@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cf8e891936d4f8bd03535fa199026bc4ad8ff9ba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293411"
 ---
 # <a name="errors-collection-dao"></a>Errors 集合 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Errors** 集合包含所有存储的 **Error** 对象，这些对象中的每一个都与一个涉及 DAO 的操作有关。
 
 ## <a name="remarks"></a>注解
 
-任何涉及 DAO 对象的操作都可以生成一个或多个错误。每个错误发生时，系统会将一个或多个 **Error** 对象放在 **DBEngine** 对象的 **Errors** 集合中。当另一个 DAO 操作生成错误时，将清除 **Errors** 集合，并将一组新的 **Error** 对象放在 **Errors** 集合中。**Errors** 集合中编号最高的对象 (DBEngine.Errors.Count - 1) 对应于由 Microsoft Visual Basic for Applications (VBA) 的 **Err** 对象报告的错误。
+任何涉及 DAO 对象的操作都可以生成一个或多个错误。 每个错误发生时，系统会将一个或多个 **Error** 对象放在 **DBEngine** 对象的 **Errors** 集合中。 当另一个 DAO 操作生成错误时，将清除 **Errors** 集合，并将一组新的 **Error** 对象放在 **Errors** 集合中。 **Errors** 集合中编号最高的对象 (DBEngine.Errors.Count - 1) 对应于由 Microsoft Visual Basic for Applications (VBA) 的 **Err** 对象报告的错误。
 
 不生成错误的 DAO 操作对 **Errors** 集合没有影响。
 
@@ -39,7 +39,7 @@ ms.locfileid: "28704565"
 
 ## <a name="example"></a>示例
 
-以下示例强制生成一个错误，然后捕获错误，并显示生成的 **Error** 对象的 **Description**、 **Number**、 **Source**、 **HelpContext** 和 **HelpFile** 属性。
+以下示例强制生成一个错误，然后捕获错误，并显示生成的 **Error** 对象的 **Description**、**Number**、**Source**、**HelpContext** 和 **HelpFile** 属性。
 
 ```vb 
 Sub DescriptionX() 

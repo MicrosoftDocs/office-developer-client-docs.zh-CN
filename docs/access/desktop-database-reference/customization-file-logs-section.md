@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a9af5d09a7a7a7a7ec97d757d502efbf2402900
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295147"
 ---
 # <a name="customization-file-logs-section"></a>自定义文件 Logs 部分
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **logs** 节包含日志文件项，该项指定用于在 **DataFactory** 的操作期间记录错误的文件的名称。
 
@@ -35,7 +35,7 @@ ms.locfileid: "28715632"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -46,7 +46,7 @@ ms.locfileid: "28715632"
 </tr>
 <tr class="even">
 <td><p><em>FileName</em></p></td>
-<td><p>完整路径和文件名。典型的文件名是 <strong>c:\msdfmap.log</strong>。</p></td>
+<td><p>完整路径和文件名。 典型的文件名是 <strong>c:\msdfmap.log</strong>。</p></td>
 </tr>
 </tbody>
 </table>

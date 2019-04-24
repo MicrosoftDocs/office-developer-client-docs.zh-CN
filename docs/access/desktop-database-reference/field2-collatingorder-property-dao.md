@@ -1,5 +1,5 @@
 ---
-title: Field2.CollatingOrder 属性 (DAO)
+title: CollatingOrder 属性 (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: cb1d6fc9-a2a6-54c2-abf5-48b609e38738
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834380(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 02711fbbf39b058bb88e9568716169825ae4a923
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292865"
 ---
-# <a name="field2collatingorder-property-dao"></a>Field2.CollatingOrder 属性 (DAO)
+# <a name="field2collatingorder-property-dao"></a>CollatingOrder 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个值，该值指定用于字符串比较或排序的文本中排序次序的序列（仅适用于 Microsoft Access 工作区）。只读 **Long**。
 
@@ -166,16 +166,16 @@ ms.locfileid: "28700729"
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong>对象</p></td>
+<td><p><strong>QueryDef</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong>对象</p></td>
+<td><p><strong>Recordset</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong>对象</p></td>
-<td><p>不支持</p></td>
+<td><p><strong>Relation</strong> 对象</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong> 对象</p></td>
@@ -185,7 +185,7 @@ ms.locfileid: "28700729"
 </table>
 
 
-最近压缩数据库时， **CollatingOrder**属性设置对应于**CreateDatabase**方法创建数据库时或**CompactDatabase**方法的 locale 参数。
+创建数据库时, **CollatingOrder**属性设置对应于**CreateDatabase**方法的 locale 参数, 或者数据库最近压缩时的**CompactDatabase**方法。
 
 **Index** 对象的 **Fields** 集合中的 **Field2** 对象的 **CollatingOrder** 和 **Attributes** 属性设置共同确定索引中排序次序的序列和方向。但是，不能设置单个索引的整理顺序 - 只能设置整个表的整理顺序。
 

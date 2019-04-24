@@ -1,5 +1,5 @@
 ---
-title: Field.FieldSize 属性 (DAO)
+title: Field 字段 FieldSize 属性 (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: c81bd5cb-6b7c-5390-2d6b-049143f2f3b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823165(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68a1b354b27515dd855703b9bf6344e4a9e90d7b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293110"
 ---
-# <a name="fieldfieldsize-property-dao"></a>Field.FieldSize 属性 (DAO)
+# <a name="fieldfieldsize-property-dao"></a>Field 字段 FieldSize 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 返回 **[Recordset](field-object-dao.md)** 对象的 **[Fields](fields-collection-dao.md)** 集合中"备注"或"长二进制"类型 **[Field](recordset-object-dao.md)** 对象的数据库（而不是内存）中使用的字节数。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。字段大小
+*表达式*。FieldSize
 
 *表达式*一个代表**Field**对象的变量。
 

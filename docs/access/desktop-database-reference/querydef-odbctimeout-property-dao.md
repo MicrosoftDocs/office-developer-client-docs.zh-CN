@@ -1,5 +1,5 @@
 ---
-title: QueryDef.ODBCTimeout 属性 (DAO)
+title: ODBCTimeout 属性 (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d34aee30e649b1c25ddc6af8078da2af9dd3b84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300999"
 ---
-# <a name="querydefodbctimeout-property-dao"></a>QueryDef.ODBCTimeout 属性 (DAO)
+# <a name="querydefodbctimeout-property-dao"></a>ODBCTimeout 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示在开放式数据库连接 (ODBC) 数据库上执行 **[QueryDef](querydef-object-dao.md)** 时，发生超时错误之前等待的秒数。
 
@@ -33,7 +33,7 @@ ms.locfileid: "28715520"
 
 ## <a name="remarks"></a>注解
 
-如果 **ODBCTimeout** 属性设置为 -1，则超时默认为包含 [QueryDef](database-querytimeout-property-dao.md) 的 [**Connection**](connection-object-dao.md) 或 [**Database**](database-object-dao.md) 对象的 ****QueryTimeout**** 属性的当前设置。如果 **ODBCTimeout** 属性设置为 0，则不发生超时错误。
+如果 **ODBCTimeout** 属性设置为 -1，则超时默认为包含 **QueryDef** 的 **[Connection](database-querytimeout-property-dao.md)** 或 **[Database](connection-object-dao.md)** 对象的 **[QueryTimeout](database-object-dao.md)** 属性的当前设置。 如果 **ODBCTimeout** 属性设置为 0，则不发生超时错误。
 
 如果使用的是 ODBC 数据库（如 Microsoft SQL Server），可能会由于网络阻塞或大量使用 ODBC 服务器而导致延迟。不需要无限期地等待，您可以指定返回错误前的等待时间。
 

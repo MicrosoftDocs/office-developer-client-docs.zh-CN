@@ -1,5 +1,5 @@
 ---
-title: Field2.Expression 属性 (DAO)
+title: Field2 属性 (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 603dfaa9a54ddfe769b96a57b790b4657abbeb14
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292816"
 ---
-# <a name="field2expression-property-dao"></a>Field2.Expression 属性 (DAO)
+# <a name="field2expression-property-dao"></a>Field2 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-获取或设置代表计算字段的公式的表达式。 读/写 **String**。
+获取或设置一个表达式, 该表达式代表计算字段的公式。 读/写 **String**。
 
 ## <a name="version-information"></a>版本信息
 
-添加的版本： Access 2010
+添加的版本: Access 2010
 
 ## <a name="syntax"></a>语法
 
@@ -30,19 +30,19 @@ ms.locfileid: "28720084"
 
 *表达式*一个代表**Field2**对象的变量。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-您可以在 Access 2013 中创建计算值的表字段。 计算可以包括在同一个表以及内置访问函数从字段的值。
+在 Access 2013 中, 可以创建用于计算值的表字段。 计算可以包含来自同一个表中的字段以及内置的 Access 函数的值。
 
 计算不能包含其他表或查询中的字段。
 
-计算的结果是只读的。
+计算结果为只读。
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何创建计算的字段。 CreateField 方法创建一个名为**FullName**字段。 然后表达式属性设置为计算字段的值的表达式。
+以下示例显示了如何创建计算字段。 CreateField 方法将创建名为 **FullName** 的字段。 Expression 属性随后将被设为用于计算字段值的表达式。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Sub CreateCalculatedField()

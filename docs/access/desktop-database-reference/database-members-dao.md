@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713049"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294923"
 ---
 # <a name="database-members-dao"></a>数据库成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Database 对象代表打开的数据库。
 
@@ -41,7 +41,7 @@ Database 对象代表打开的数据库。
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>创建一个新的用户定义的 <strong><a href="property-object-dao.md">Property</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>创建一个新的用户定义的 <strong><a href="property-object-dao.md">Property</a></strong> 对象（仅适用于 Microsoft Access 工作区）。 .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
@@ -49,11 +49,11 @@ Database 对象代表打开的数据库。
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></p></td>
-<td><p>创建一个新的 <strong><a href="relation-object-dao.md">Relation</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>创建新的<strong><a href="relation-object-dao.md">Relation</a></strong>对象 (仅适用于 Microsoft Access 工作区)。 .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></p></td>
-<td><p>创建一个新的 <strong><a href="tabledef-object-dao.md">TableDef</a></strong> 对象（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>创建一个新的<strong><a href="tabledef-object-dao.md">TableDef</a></strong>对象 (仅适用于 Microsoft Access 工作区)。 .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
@@ -64,7 +64,7 @@ Database 对象代表打开的数据库。
 <td><p>根据另一个数据库副本制作一个新的副本（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-newpassword-method-dao.md">新密码</a></strong></p></td>
+<td><p><strong><a href="database-newpassword-method-dao.md">NewPassword</a></strong></p></td>
 <td><p>更改现有 Microsoft Access 数据库引擎数据库的密码（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="odd">
@@ -76,8 +76,8 @@ Database 对象代表打开的数据库。
 <td><p>将部分副本中的任何更改与完全副本同步，清除部分副本中的所有记录，然后根据当前副本筛选器重新填充部分副本。（仅适用于 Microsoft Access 数据库引擎数据库。）</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-synchronize-method-dao.md">同步</a></strong></p></td>
-<td><p>同步两个副本。（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p><strong><a href="database-synchronize-method-dao.md">Synchronize</a></strong></p></td>
+<td><p>同步两个副本。 （仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,16 +103,16 @@ Database 对象代表打开的数据库。
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-connect-property-dao.md">Connect</a></strong></p></td>
-<td><p>设置或返回一个值，该值提供与已打开数据库的源有关的信息。可读/写 <strong>String</strong> 类型。</p></td>
+<td><p>设置或返回一个值，该值提供与已打开数据库的源有关的信息。 可读/写 <strong>String</strong> 类型。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
+<td><p><strong>注意</strong>: Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>返回与数据库对应的 <strong><a href="connection-object-dao.md">Connection</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-containers-property-dao.md">Containers</a></strong></p></td>
-<td><p>返回一个 <strong>Containers</strong> 集合，该集合代表指定数据库中的所有 <strong>Container</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>Containers</strong> 集合，该集合代表指定数据库中的所有 <strong>Container</strong> 对象。 只读。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-designmasterid-property-dao.md">DesignMasterID</a></strong></p></td>
@@ -120,15 +120,15 @@ Database 对象代表打开的数据库。
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
-<td><p>返回指定对象的名称。只读 <strong>String</strong>。</p></td>
+<td><p>返回指定对象的名称。 只读的 <strong>字符串</strong> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-properties-property-dao.md">属性</a></strong></p></td>
-<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
+<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
-<td><p>返回一个 <strong>QueryDefs</strong> 集合，该集合包含指定数据库的所有 <strong>QueryDef</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>QueryDefs</strong> 集合，该集合包含指定数据库的所有 <strong>QueryDef</strong> 对象。 只读。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-querytimeout-property-dao.md">QueryTimeout</a></strong></p></td>
@@ -140,11 +140,11 @@ Database 对象代表打开的数据库。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-recordsets-property-dao.md">Recordsets</a></strong></p></td>
-<td><p>返回一个 <strong>Recordsets</strong> 集合，该集合包含指定数据库的所有已打开的记录集。只读。</p></td>
+<td><p>返回一个 <strong>Recordsets</strong> 集合，该集合包含指定数据库的所有已打开的记录集。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-relations-property-dao.md">Relations</a></strong></p></td>
-<td><p>返回一个 <strong>Relations</strong> 集合，该集合包含指定数据库的所有存储的 <strong>Relation</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>Relations</strong> 集合，该集合包含指定数据库的所有存储的 <strong>Relation</strong> 对象。 只读。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-replicaid-property-dao.md">ReplicaID</a></strong></p></td>
@@ -152,15 +152,15 @@ Database 对象代表打开的数据库。
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-tabledefs-property-dao.md">TableDefs</a></strong></p></td>
-<td><p>返回一个 <strong>TableDefs</strong> 集合，该集合包含指定数据库中存储的所有 <strong>TableDef</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>TableDefs</strong> 集合，该集合包含指定数据库中存储的所有 <strong>TableDef</strong> 对象。 只读。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-transactions-property-dao.md">事务</a></strong></p></td>
-<td><p>返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</p></td>
+<td><p><strong><a href="database-transactions-property-dao.md">Transactions</a></strong></p></td>
+<td><p>返回一个值，该值指示对象是否支持事务。 只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>返回一个值，该值指示是否可以更改 DAO 对象。只读 <strong>Boolean</strong>。</p></td>
+<td><p>返回一个值，该值指示是否可以更改 DAO 对象。 只读 <strong>Boolean</strong>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>

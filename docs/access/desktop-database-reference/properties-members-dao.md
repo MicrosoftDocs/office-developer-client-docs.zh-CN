@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 137616721dab202e0122ccf8947d2a20a7a0509d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301258"
 ---
 # <a name="properties-members-dao"></a>Properties 成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-Properties 集合包含对象的特定实例的所有 **[Property](property-object-dao.md)** 对象。
+Properties 集合包含对象的特定实例的所有**[Property](property-object-dao.md)** 对象。
 
 ## <a name="methods"></a>方法
 
@@ -36,7 +36,7 @@ Properties 集合包含对象的特定实例的所有 **[Property](property-obje
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="properties-append-method-dao.md">追加</a></strong></p></td>
+<td><p><strong><a href="properties-append-method-dao.md">置</a></strong></p></td>
 <td><p>将新的 <strong>Property</strong> 添加到 <strong>Properties</strong> 集合。</p></td>
 </tr>
 <tr class="even">

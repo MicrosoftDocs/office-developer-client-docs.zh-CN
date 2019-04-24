@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b6da2dc9ff721adbb4bc0e533a02085adb534b0b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292228"
 ---
 # <a name="getrows-method-example-jscript"></a>GetRows 方法示例 (JScript)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-若要从[Recordset](recordset-object-ado.md)中检索*Custiomers*表的所有行并填充生成的数据的数组，则此示例使用[GetRows](getrows-method-ado.md)方法。 **GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 [EOF](bof-eof-properties-ado.md)，或 **GetRows** 尝试检索已被其他用户删除的记录。 仅当发生第二种情况时，函数才返回 **False** 。 请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **GetRowsJS.asp** 。
+本示例使用 [GetRows](getrows-method-ado.md) 方法从 [Recordset](recordset-object-ado.md) 中检索 *Custiomers* 表的所有行，并使用生成的数据填充数组。**GetRows** 方法在以下两种情况下返回的行数少于所需的行数：已到达 [EOF](bof-eof-properties-ado.md)，或 **GetRows** 尝试检索已被其他用户删除的记录。仅当发生第二种情况时，函数才返回 **False**。请将以下代码剪切并粘贴到记事本或其他文本编辑器中，然后将其保存为 **GetRowsJS.asp**。
 
 ```javascript 
  

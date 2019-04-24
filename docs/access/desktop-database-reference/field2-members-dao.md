@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cf3deac487f1e114bea2a69d5423a210a51a5944
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292795"
 ---
 # <a name="field2-members-dao"></a>Field2 成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Field2 对象代表具有普通数据类型和普通属性集的数据列。
 
@@ -45,7 +45,7 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>返回所有或一部分的<strong><a href="recordset-object-dao.md">Recordset</a></strong>对象的<strong><a href="fields-collection-dao.md">Fields</a></strong>集合中的<strong>Memo</strong>或<strong>Long BinaryField2</strong>对象的内容。</p></td>
+<td><p>返回<strong><a href="recordset-object-dao.md">Recordset</a></strong>对象的<strong><a href="fields-collection-dao.md">Fields</a></strong>集合中的<strong>Memo</strong>或<strong>Long BinaryField2</strong>对象的全部或部分内容。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-loadfromfile-method-dao.md">LoadFromFile</a></strong></p></td>
@@ -75,7 +75,7 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="field2-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
-<td><p>设置或返回一个值，指示是否为零长度字符串 (&quot;&quot;) 是<strong>Field2</strong>对象的<strong><a href="field-value-property-dao.md">Value</a></strong>属性的有效设置与文本或备注数据类型 （仅限 Microsoft Access 工作区）。</p></td>
+<td><p>设置或返回一个值, 该值指示零长度&quot;&quot;字符串 () 是否为具有文本或备注数据类型的<strong>Field2</strong>对象的<strong><a href="field-value-property-dao.md">value</a></strong>属性的有效设置 (仅适用于 Microsoft Access 工作区)。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-appendonly-property-dao.md">AppendOnly</a></strong></p></td>
@@ -91,7 +91,7 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-complextype-property-dao.md">ComplexType</a></strong></p></td>
-<td><p>返回一个 <strong><a href="complextype-object-dao.md">ComplexType</a></strong> 对象，该对象代表一个多值字段。只读。</p></td>
+<td><p>返回一个 <strong><a href="complextype-object-dao.md">ComplexType</a></strong> 对象，该对象代表一个多值字段。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-dataupdatable-property-dao.md">DataUpdatable</a></strong></p></td>
@@ -106,7 +106,7 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 <td><p>读/写</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-fieldsize-property-dao.md">字段大小</a></strong></p></td>
+<td><p><strong><a href="field2-fieldsize-property-dao.md">FieldSize</a></strong></p></td>
 <td><p>返回 <a href="fields-collection-dao.md"><strong>Recordset</strong></a> 对象的 <a href="recordset-object-dao.md"><strong>Fields</strong></a> 集合中的"备注"或"长二进制"类型 <strong>Field2</strong> 对象的数据库（而不是内存）中使用的字节数。</p></td>
 </tr>
 <tr class="even">
@@ -115,7 +115,7 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-iscomplex-property-dao.md">IsComplex</a></strong></p></td>
-<td><p>返回 <strong>Boolean</strong> 类型的值，该值指示指定字段是否是多值数据类型。只读。</p></td>
+<td><p>返回 <strong>Boolean</strong> 类型的值，该值指示指定字段是否是多值数据类型。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-name-property-dao.md">Name</a></strong></p></td>
@@ -123,17 +123,17 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>设置或返回 <strong>Field2</strong> 对象在 <strong><a href="fields-collection-dao.md">Fields</a></strong> 集合中的相对位置。</p></td>
+<td><p>设置或返回<strong>Field2</strong>对象在<strong><a href="fields-collection-dao.md">Fields</a></strong>集合中的相对位置。 .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
 <td><p><strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong>值之一。</p>
-<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
+<td><p><strong>注意</strong>: Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>返回数据库中的 <strong>Field2</strong> 的值，该值在上一次批更新开始时已经存在（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-properties-property-dao.md">属性</a></strong></p></td>
-<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
+<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-required-property-dao.md">Required</a></strong></p></td>
@@ -153,7 +153,7 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-type-property-dao.md">Type</a></strong></p></td>
-<td><p>设置或返回一个值，该值指示对象的操作类型或数据类型。可读写 <strong>Integer</strong>。</p></td>
+<td><p>设置或返回一个值，该值指示对象的操作类型或数据类型。 可读/写 <strong>Integer</strong> 类型。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -168,13 +168,13 @@ Field2 对象代表具有普通数据类型和普通属性集的数据列。
 <td><p>设置或返回一个值，该值指定当 <strong>Field2</strong> 对象的值不符合 <strong>ValidationRule</strong> 属性设置指定的验证规则时，应用程序显示的消息文本（仅适用于 Microsoft Access 工作区）。可读写 <strong>String</strong>。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-value-property-dao.md">Value</a></strong></p></td>
-<td><p>设置或返回对象的值。可读/写 <strong>Variant</strong> 类型。</p></td>
+<td><p><strong><a href="field2-value-property-dao.md">值</a></strong></p></td>
+<td><p>设置或返回对象的值。 可读/写 <strong>Variant</strong> 类型。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
 <td><p><strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong>值之一。</p>
-<td><p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
+<td><p><strong>注意</strong>: Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p>
 <p>返回数据库中现有的一个值，批更新冲突确定该值比 <strong>OriginalValue</strong> 属性新（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 </tbody>

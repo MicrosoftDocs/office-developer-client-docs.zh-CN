@@ -1,5 +1,5 @@
 ---
-title: DBEngine.Idle 方法 (DAO)
+title: DBEngine 方法 (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7a84e3cc4b35886a12b2e6b4cf92b7483fea293a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294328"
 ---
-# <a name="dbengineidle-method-dao"></a>DBEngine.Idle 方法 (DAO)
+# <a name="dbengineidle-method-dao"></a>DBEngine 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 挂起数据处理，使 Microsoft Access 数据库引擎完成任何待定任务，例如内存优化或页面超时（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。空闲 （***操作***）
+*表达式*。空闲 (***操作***)
 
 *表达式*一个代表**DBEngine**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28705111"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -52,7 +52,7 @@ ms.locfileid: "28705111"
 <td><p><em>Action</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>指定要执行的操作。可以是 <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> 常量之一。</p></td>
+<td><p>指定要执行的操作。 可以是<strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong>常量之一。</p></td>
 </tr>
 </tbody>
 </table>

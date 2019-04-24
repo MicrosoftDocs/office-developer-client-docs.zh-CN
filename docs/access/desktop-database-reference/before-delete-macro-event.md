@@ -12,38 +12,38 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2b2a4f978a4af2ba79cab7807f0142d35d7d30c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296911"
 ---
 # <a name="before-delete-macro-event"></a>Before Delete 宏事件
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-当记录被删除，但未提交更改时会发生的**删除前**事件。
+当记录被删除但未提交更改时会发生“删除前”**** 事件。
 
 > [!NOTE]
-> **删除前**事件仅适用于数据宏。
+> ****“删除前”事件仅适用于数据宏。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-删除使用的**删除前**事件执行所需记录之前，需要进行任何操作。 **Before Change**常用来执行验证并将引发自定义错误消息。
+使用“删除前”**** 事件可以执行您希望在删除记录前发生的任何操作。 “更改前”**** 通常用于执行验证和引发自定义错误消息。
 
-您可以访问中使用以下语法删除的记录的值：
+您可以使用以下语法访问要删除的记录中的值:
 
 `[Old].[Field Name]`
 
-例如，若要访问要删除的记录中 QuantityInStock 字段的值，请使用以下语法：
+例如, 若要访问要删除的记录中的 QuantityInStock 字段的值, 请使用以下语法:
 
 `[Old].[QuantityInStock]`
 
-在**删除前**事件结束时，包含要删除的记录中的值将被永久删除。
+当“删除前”**** 事件结束时，要删除的记录中包含的值将被永久删除。
 
-您可以通过使用**RaiseError**操作取消的**删除前**事件。 引发错误时，将丢弃的**删除前**事件中包含的更改。
+您可以使用 **RaiseError** 操作取消“删除前”**** 事件。 在引发错误时, 将放弃**Before Delete**事件中包含的更改。
 
-下表列出了可在**删除前**事件中使用的宏命令。
+下表列出了可在**Before Delete**事件中使用的宏命令。
 
 <table>
 <colgroup>
@@ -53,7 +53,7 @@ ms.locfileid: "28704999"
 <thead>
 <tr class="header">
 <th><p>命令类型</p></th>
-<th><p>命令</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>
@@ -97,9 +97,9 @@ ms.locfileid: "28704999"
 </table>
 
 
-若要创建可捕获**删除前**事件的数据宏，请使用以下步骤。
+若要创建可捕获“删除前”**** 事件的数据宏，请执行以下步骤。
 
-1.  打开要为其捕获**删除前**事件的表格。
+1.  打开要捕获其“删除前”**** 事件的表格。
 
-2.  在**表**选项卡中的**前期事件**组中，选择**删除前**。
+2.  在 "**表**" 选项卡上的 "前期**事件**" 组中, 选择 "**之前删除**"。
 

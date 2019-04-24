@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2dc25621a49d8fd23078a926d6ec6c5de54e54d9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292109"
 ---
 # <a name="group-macro-statement"></a>Group 宏语句
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**使用 Group**语句，可以指定一个块中的宏，您可以展开或折叠的操作。
+**Group**语句使您能够指定宏内可展开或折叠的操作块。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **Group** 操作具有以下参数。
 
@@ -34,13 +34,13 @@ ms.locfileid: "28713994"
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>是否必需</p></th>
+<th><p>必需</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Description</strong></p></td>
+<td><p><strong>说明</strong></p></td>
 <td><p>否</p></td>
 <td><p>一个在折叠时显示为组标题的字符串。</p></td>
 </tr>
@@ -48,7 +48,7 @@ ms.locfileid: "28713994"
 </table>
 
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 **Group** 语句不定义可以单独执行的宏区域。使用 **[Submacro](submacro-macro-statement.md)** 语句可定义要在 **"宏设计器"** 窗口中单独执行的一组操作。
 

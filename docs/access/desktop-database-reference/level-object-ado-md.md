@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 70fb359aa4faa0bcfc99f0b1700b0eb51f665bc0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290112"
 ---
 # <a name="level-object-ado-md"></a>Level 对象 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 包含一组成员，其中每个成员在层次结构中有相同的等级。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用 **Level** 对象的集合和属性，可以执行下列操作：
 
@@ -46,7 +46,7 @@ ms.locfileid: "28722058"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -56,11 +56,11 @@ ms.locfileid: "28722058"
 <td><p>此多维数据集所属的目录的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p>多维数据集名称</p></td>
+<td><p>CubeName</p></td>
 <td><p>多维数据集的名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p>Description</p></td>
+<td><p>说明</p></td>
 <td><p>级别的有意义的说明。</p></td>
 </tr>
 <tr class="even">

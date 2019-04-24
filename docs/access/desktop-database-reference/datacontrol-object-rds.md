@@ -1,5 +1,5 @@
 ---
-title: DataControl 对象 (RDS)
+title: rds.datacontrol 对象 (RDS)
 TOCTitle: DataControl object (RDS)
 ms:assetid: ac430669-7628-696c-c036-b5d35405d788
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2ffe674f3aa02e5cc8b1f89375ca66b4efa623f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294517"
 ---
-# <a name="datacontrol-object-rds"></a>DataControl 对象 (RDS)
+# <a name="datacontrol-object-rds"></a>rds.datacontrol 对象 (RDS)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-将数据查询[Recordset](recordset-object-ado.md)绑定到一个或多个控件 （如文本框、 网格控件或组合框） 以便在网页上显示**Recordset**数据。
+将数据查询[Recordset](recordset-object-ado.md)绑定到一个或多个控件 (例如, 文本框、网格控件或组合框), 以便在网页上显示**Recordset**数据。
 
 ## <a name="syntax"></a>语法
 
@@ -30,7 +30,7 @@ ms.locfileid: "28709780"
     </OBJECT>
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **RDS.DataControl** 对象的类 ID 为 BD96C556-65A3-11D0-983A-00C04FC29E33。
 
@@ -44,7 +44,7 @@ ms.locfileid: "28709780"
 > [!NOTE]
 > [!注释] 如果查询多个结果，则仅返回第一个 [Recordset](recordset-object-ado.md)。 如果需要多个结果集，可将每个结果集分配给它自己的 **DataControl** 。 
 > 
-> 针对多个结果的查询的示例可以是以下： `"Select * from Authors, Select * from Topics"`。
+> 以下是一个查询多个结果的示例: `"Select * from Authors, Select * from Topics"`
 
 如果在使用 **RDS.DataControl** 对象时将"DFMode=20;"添加到连接字符串中，则可以提高服务器更新数据时的性能。通过使用此设置，服务器上的 **RDSServer.DataFactory** 对象可使用资源占用量较少的模式。但是，以下功能在此配置中不可用：
 
@@ -81,19 +81,19 @@ ms.locfileid: "28709780"
 
 使用不同的 **RDS.DataControl** 对象将多个查询的结果链接到不同的可视控件。例如，假设您使用一个查询获取有关客户的信息，使用第二个查询获取有关客户已购商品的信息。您希望在三个文本框和一个复选框中显示第一个查询的结果，在网格控件中显示第二个查询的结果。如果使用默认业务对象（**RDSServer.DataFactory**），您需要执行以下操作：
 
-  - 添加两个**rds.DataControl**对象与您的网页。
+  - 添加两个**RDS。** 将对象 rds.datacontrol 到您的网页。
 
   - 编写两个查询，分别用于两个 **RDS.DataControl** 对象的每个 **SQL** 属性。一个 **RDS.DataControl** 对象将包含请求客户信息的 SQL 查询；另一个对象将包含请求客户已购商品列表的查询。
 
   - 在绑定控件各个 OBJECT 标记中，指定 DATAFLD 值以设置要在每个可视控件中显示的数据的值。
 
-Rds.**的数量没有计数限制DataControl**可以通过 OBJECT 标记单个网页上嵌入的对象。
+RDS 的数量不受计数限制 **。** 可通过单个网页上的对象标记嵌入的 rds.datacontrol 对象。
 
-当您定义**rds.DataControl**网页上对象，请使用如 1 的非零**Height**和**Width**值 （以避免包含额外空间）。
+在定义 RDS 时 **。rds.datacontrol**对象在网页上, 使用非零**高度**和**宽度**值 (如 1), 以避免包含额外的空间。
 
 远程数据服务客户端组件已作为 Internet Explorer 4.0 的一部分提供，因此不需要在 **RDS.DataControl** 对象标记中包括 CODEBASE 参数。
 
-Internet Explorer 4.0 或更高版本，您可以使用 HTML 控件和 ActiveX 控件，仅当它们标记为单元模型控件绑定到数据。
+使用 Internet Explorer 4.0 或更高版本, 只有在将 HTML 控件和 ActiveX 控件标记为单元模型控件时, 才能将其绑定到数据。
 
-**Microsoft Visual Basic 用户****Rds.DataControl**仅在基于 web 的应用程序中使用。 Visual Basic 客户端应用程序不需要它。
+**Microsoft Visual Basic 用户****RDS。rds.datacontrol**仅用于基于 web 的应用程序。 Visual Basic 客户端应用程序不需要它。
 

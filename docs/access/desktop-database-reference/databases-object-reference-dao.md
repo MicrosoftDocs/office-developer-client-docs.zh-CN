@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3787ea608625f8baa34121fbb1c86cabe49efcdd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294595"
 ---
 # <a name="databases-object-reference-dao"></a>数据库对象引用 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Databases 集合 (DAO)](databases-collection-dao.md)
+- [数据库集合 (DAO)](databases-collection-dao.md)
 - [数据库成员 (DAO)](databases-members-dao.md)
 - [数据库属性 (DAO)](databases-properties-dao.md)
 - [数据库方法 (DAO)](databases-methods-dao.md)

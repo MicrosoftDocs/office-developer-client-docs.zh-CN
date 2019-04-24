@@ -1,5 +1,5 @@
 ---
-title: Connection.Execute 方法 (DAO)
+title: Connection 方法 (DAO)
 TOCTitle: Execute Method
 ms:assetid: d6140d4e-fa14-6455-525e-49d8aab3dff7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8140dbe9bc0c68d467c011d77bc0c00cec7ad560
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295910"
 ---
-# <a name="connectionexecute-method-dao"></a>Connection.Execute 方法 (DAO)
+# <a name="connectionexecute-method-dao"></a>Connection 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 对指定的对象运行动作查询，或执行 SQL 语句。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。执行 （***查询***，***选项***）
+*表达式*。执行 (***查询***、***选项***)
 
-*表达式*代表**Connection**对象的变量。
+*表达式*一个代表**Connection**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28709927"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -62,7 +62,7 @@ ms.locfileid: "28709927"
 
 ## <a name="remarks"></a>注解
 
-选项，可以使用以下**[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** 常量。
+您可以对选项使用以下**[RecordsetOptionEnum](recordsetoptionenum-enumeration-dao.md)** 常量。
 
 <table>
 <colgroup>
@@ -90,7 +90,7 @@ ms.locfileid: "28709927"
 </tr>
 <tr class="even">
 <td><p><strong>dbSQLPassThrough</strong></p></td>
-<td><p>执行 SQL 传递查询。设置此选项会将 SQL 语句传递给 ODBC 数据库以进行处理（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>执行 SQL 传递查询。 设置此选项会将 SQL 语句传递给 ODBC 数据库以进行处理（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFailOnError</strong></p></td>
@@ -101,18 +101,18 @@ ms.locfileid: "28709927"
 <td><p>如果其他用户更改您正编辑的数据，则生成运行时错误（仅适用于 Microsoft Access 工作区）。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbRunAsync</strong></p></td>
+<td><p><strong>即用 dbrunasync</strong></p></td>
 <td><p>异步执行查询（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>一设置</strong></p></td>
+<td><p><strong>这一设置</strong></p></td>
 <td><p>在不首先调用 SQLPrepare ODBC API 函数的情况下，执行语句（仅适用于 ODBCDirect Connection 和 QueryDef 对象）。</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
+> Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 > [!NOTE]
 > [!注释] 常量 **dbConsistent** 和 **dbInconsistent** 是互斥的。可以在 **OpenRecordset** 的给定实例中使用其中的某一个，但不能同时使用此两者。同时使用 **dbConsistent** 和 **dbInconsistent** 会导致出错。

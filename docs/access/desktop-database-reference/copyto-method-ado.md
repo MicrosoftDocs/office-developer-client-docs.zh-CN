@@ -8,34 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2e8de2caf2abc53b0dbd014f21a85a6d54749033
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295476"
 ---
 # <a name="copyto-method-ado"></a>CopyTo 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-用于将 [Stream](type-property-ado-stream.md) 中指定数量的字符或字节（取决于 [类型](stream-object-ado.md)）复制到另一个 **Stream** 对象。
+用于将 [Stream](stream-object-ado.md) 中指定数量的字符或字节（取决于[类型](type-property-ado-stream.md)）复制到另一个 **Stream** 对象。
 
 ## <a name="syntax"></a>语法
 
-*流*。CopyTo *DestStream* *NumChars*
+*Stream*。CopyTo *DestStream*、 *NumChars*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
-|*DestStream* |对象变量值，包含对打开的 **Stream** 对象的引用。当前 **Stream** 复制到由 *DestStream* 指定的目标 **Stream**。目标 **Stream** 必须已经打开。否则，将发生运行时错误。
+|*DestStream* |对象变量值，包含对打开的 **Stream** 对象的引用。 当前 **Stream** 复制到由 *DestStream* 指定的目标 **Stream**。 目标 **Stream** 必须已经打开。 否则，将发生运行时错误。<br/><br/>**注意**: *DestStream*参数可能不是**stream**对象的代理, 因为这需要访问**stream**对象上无法远程访问客户端的专用接口。|
+|*NumChars* |可选。**整型**值，指定要从源 **Stream** 中的当前位置复制到目标 **Stream** 的字节或字符的数量。默认值为 –1，指定复制从当前位置到 [EOS](eos-property-ado.md) 之间的所有字符或字节。|
 
-<br/><br/>**注意**： *DestStream*参数可能无法**Stream**对象的代理，因为这将需要访问**Stream**对象的无法远程传输到客户端上的专用接口。|
-|*NumChars* |可选。 **整型** 值，指定要从源 **Stream** 中的当前位置复制到目标 **Stream** 的字节或字符的数量。 默认值为-1，指定的所有字符或字节都复制从当前位置到[EOS](eos-property-ado.md)。|
+## <a name="remarks"></a>注解
 
-## <a name="remarks"></a>备注
-
-该方法从当前位置（由 [Position](position-property-ado.md) 属性指定）开始复制指定数量的字符或字节。 如果指定的数目超过了 **EOS** 之前的可用字节数，则仅复制从当前位置到 **EOS** 之间的字符或字节。 如果*NumChars*的值为-1，或被省略，复制所有字符或字节从当前位置开始。
+该方法从当前位置（由 [Position](position-property-ado.md) 属性指定）开始复制指定数量的字符或字节。如果指定的数目超过了 **EOS** 之前的可用字节数，则仅复制从当前位置到 **EOS** 之间的字符或字节。如果 *NumChars* 的值为 –1，或者省略该值，则从当前位置开始复制所有字符或字节。
 
 如果目标流中已经有字符或字节，则复制内容末尾以外的所有内容将保留而不会被截去。 **Position** 成为紧跟在所复制的最后一个字节之后的字节。如果要截去这些字节，请调用 [SetEOS](seteos-method-ado.md)。
 

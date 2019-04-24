@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 63e189143e77f9fcc42fa8d48c3ebfb2feda6633
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295350"
 ---
 # <a name="createrecord-data-block"></a>CreateRecord 数据块
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 您可以使用 **CreateRecord** 数据块在指定表中创建新记录。
 
 > [!NOTE]
-> [!注释] **CreateRecord** 数据块仅适用于数据宏。
+> **CreateRecord** 数据块仅适用于数据宏。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **DeleteRecord** 数据块具有以下参数。
 
@@ -37,7 +37,7 @@ ms.locfileid: "28719812"
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>是否必需</p></th>
+<th><p>必需</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -56,11 +56,11 @@ ms.locfileid: "28719812"
 </table>
 
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 **CreateRecord** 创建的记录会自动成为当前记录。
 
-**CreateRecord**语句之后，您可以插入提交新记录之前将执行的命令的块。 以下操作适用于 **CreateRecord** 数据块。
+在**CreateRecord**语句后, 可以插入一个在新记录提交之前执行的命令块。 以下操作适用于 **CreateRecord** 数据块。
 
 <table>
 <colgroup>
@@ -77,7 +77,7 @@ ms.locfileid: "28719812"
 <td><p><a href="group-macro-statement.md">Group 宏语句</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">如果...然后...Else 宏语句</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If .。。然后 .。。Else 宏语句</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="setfield-macro-action.md">SetField 宏操作</a></p></td>
@@ -95,7 +95,7 @@ ms.locfileid: "28719812"
 
 若要取消创建记录，可使用 **CancelRecordChange** 操作。此操作将阻止提交更改并退出 **CreateRecord** 数据块。
 
-提交新记录后，可以使用 **LastCreateRecordIdentity** 本地变量来处理该记录。 例如，使用以下语法引用 AssignedTo 字段的最近创建的记录。
+提交新记录后，可以使用 **LastCreateRecordIdentity** 本地变量来处理该记录。 例如, 使用以下语法来引用最近创建的记录的 "分配给" 字段。
 
 `[LastCreateRecordIdentity].[AssignedTo]`
 

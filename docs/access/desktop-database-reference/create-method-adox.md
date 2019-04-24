@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e98854665185d682b9049b000bf4b600040ba624
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718313"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295420"
 ---
 # <a name="create-method-adox"></a>Create 方法 (ADOX)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 创建新目录。
 
@@ -24,13 +24,13 @@ ms.locfileid: "28718313"
 
 *目录*。创建*ConnectString*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*ConnectString* |一个用来连接数据源的 **String** 值。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Create** 方法创建一个新 ADO [Connection](connection-object-ado.md) 并打开它，该对象连接到在 *ConnectString* 中指定的数据源。如果成功，该新 **Connection** 对象将被分配给 [ActiveConnection](activeconnection-property-adox.md) 属性。
 

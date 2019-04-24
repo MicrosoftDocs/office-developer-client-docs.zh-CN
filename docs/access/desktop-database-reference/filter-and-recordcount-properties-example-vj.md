@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7b4b12fb7a9bbe8d3363574936d63d1c5f175665
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292459"
 ---
 # <a name="filter-and-recordcount-properties-example-vj"></a>Filter 和 RecordCount 属性示例 (VJ++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例使用 [Filter](filter-property-ado.md) 属性根据应用于现有 [Recordset](recordset-object-ado.md) 的指定条件打开一个新的 **Recordset**。使用 [RecordCount](recordcount-property-ado.md) 属性来显示两个 **Recordset** 中的记录数。运行此过程需要使用 FilterField 函数。
 

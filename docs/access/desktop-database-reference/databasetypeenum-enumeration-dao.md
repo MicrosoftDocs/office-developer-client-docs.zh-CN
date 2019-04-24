@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b58a36ca581b7c932aeff0e36391827a27d865b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294559"
 ---
 # <a name="databasetypeenum-enumeration-dao"></a>DatabaseTypeEnum 枚举 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定压缩数据库的数据格式版本。
 
@@ -42,7 +42,7 @@ ms.locfileid: "28712643"
 </tr>
 <tr class="even">
 <td><p>dbEncrypt</p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>解密数据库</p></td>
 </tr>
 <tr class="odd">
@@ -52,7 +52,7 @@ ms.locfileid: "28712643"
 </tr>
 <tr class="even">
 <td><p>dbVersion11</p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>Microsoft Jet 数据库引擎 1.1 版</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ ms.locfileid: "28712643"
 </tr>
 <tr class="even">
 <td><p>dbVersion20</p></td>
-<td><p>16</p></td>
+<td><p>位</p></td>
 <td><p>Microsoft Jet 数据库引擎 2.0 版</p></td>
 </tr>
 <tr class="odd">

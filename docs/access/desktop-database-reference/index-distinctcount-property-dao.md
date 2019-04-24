@@ -1,5 +1,5 @@
 ---
-title: Index.DistinctCount 属性 (DAO)
+title: DistinctCount 属性 (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191836(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3264ea010db12f3fee6c16bd82fb19ed9bda1992
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291843"
 ---
-# <a name="indexdistinctcount-property-dao"></a>Index.DistinctCount 属性 (DAO)
+# <a name="indexdistinctcount-property-dao"></a>DistinctCount 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个值，该值指示 **[Index](index-object-dao.md)** 对象中的、包含在关联表中的唯一值的数目（仅适用于 Microsoft Access 工作区）。
 

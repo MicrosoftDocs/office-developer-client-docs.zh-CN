@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41a42aa3b0c49a5d871fa7b079a26c7d8076116a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295287"
 ---
 # <a name="cursor-and-lock-characteristics"></a>游标和锁定特征
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 尽管游标的特征依赖于提供程序的功能，但以下优点和缺点通常适用于各种游标和锁定。
 
@@ -49,10 +49,10 @@ ms.locfileid: "28704614"
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>为 adOpenStatic</strong></p></td>
+<td><p><strong>adOpenStatic</strong></p></td>
 <td><p></p>
 <ul>
-<li><p>可滚动</p></li>
+<li><p>可</p></li>
 </ul>
 <p></p></td>
 <td><p></p>
@@ -66,7 +66,7 @@ ms.locfileid: "28704614"
 <td><p></p>
 <ul>
 <li><p>有数据并发</p></li>
-<li><p>可滚动</p></li>
+<li><p>可</p></li>
 </ul>
 <p></p></td>
 <td><p></p>
@@ -81,7 +81,7 @@ ms.locfileid: "28704614"
 <td><p></p>
 <ul>
 <li><p>高数据并发</p></li>
-<li><p>可滚动</p></li>
+<li><p>可</p></li>
 </ul>
 <p></p></td>
 <td><p></p>

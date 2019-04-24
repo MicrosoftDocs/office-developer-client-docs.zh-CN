@@ -1,5 +1,5 @@
 ---
-title: Index.Fields 属性 (DAO)
+title: Fields 属性 (DAO)
 TOCTitle: Fields Property
 ms:assetid: c79adede-361f-c0eb-13a1-18625bd9141f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823154(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7f3e488511794781d25434bcd3cb40bf1551c252
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701639"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291822"
 ---
-# <a name="indexfields-property-dao"></a>Index.Fields 属性 (DAO)
+# <a name="indexfields-property-dao"></a>Fields 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个 **Fields** 集合，该集合代表指定对象的所有存储的 **Field** 对象。可读/写。
+返回一个 **Fields** 集合，该集合代表指定对象的所有存储的 **Field** 对象。 读/写。
 
 ## <a name="syntax"></a>语法
 

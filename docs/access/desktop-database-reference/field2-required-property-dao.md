@@ -1,5 +1,5 @@
 ---
-title: Field2.Required 属性 (DAO)
+title: Field2 属性 (DAO)
 TOCTitle: Required Property
 ms:assetid: 7d14dfd7-a50d-6044-469e-1511c74c148d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6b1950c8a864fbf23bee26be89e07e49357840b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292718"
 ---
-# <a name="field2required-property-dao"></a>Field2.Required 属性 (DAO)
+# <a name="field2required-property-dao"></a>Field2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 设置或返回一个值，该值指示 **Field2** 对象是否需要非 Null 值。
@@ -51,19 +51,19 @@ ms.locfileid: "28709045"
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong>对象</p></td>
+<td><p><strong>QueryDef</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong>对象</p></td>
+<td><p><strong>Recordset</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong>对象</p></td>
-<td><p>不支持</p></td>
+<td><p><strong>Relation</strong> 对象</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong>对象</p></td>
+<td><p><strong>TableDef</strong> 对象</p></td>
 <td><p>读/写</p></td>
 </tr>
 </tbody>
@@ -80,7 +80,7 @@ ms.locfileid: "28709045"
 
 ## <a name="example"></a>示例
 
-以下示例使用 **Required** 属性报告为了添加新记录，三个不同表中的哪些字段必须包含数据。若要使该过程运行，需要使用 RequiredOutput 过程。
+以下示例使用 **Required** 属性来报告为了添加新记录，三个不同表中的哪些字段必须包含数据。若要使该过程运行，需要使用 RequiredOutput 过程。
 
 ```vb 
 Sub RequiredX() 

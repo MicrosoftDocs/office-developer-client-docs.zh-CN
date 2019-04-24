@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ebbfeb303bb575928f09858db5d3a34cf2171ce0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300754"
 ---
 # <a name="records-and-provider-supplied-fields"></a>记录和提供程序提供的字段
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-打开 [Record](record-object-ado.md) 对象时，它的数据源可以是与打开的 [Connection](recordset-object-ado.md) 对象结合使用的打开的 [Recordset](connection-object-ado.md) 的当前行、绝对 URL 或相对 URL。
+打开 [Record](record-object-ado.md) 对象时，它的数据源可以是与打开的 [Connection](connection-object-ado.md) 对象结合使用的打开的 [Recordset](recordset-object-ado.md) 的当前行、绝对 URL 或相对 URL。
 
-如果从 **Recordset** 打开 **Record** ，则 **Record** 对象的 [Fields](fields-collection-ado.md) 集合将包含 **Recordset** 的所有字段，还包含基础提供程序添加的所有字段。
+如果从 **Recordset** 打开 **Record**，则 **Record** 对象的 [Fields](fields-collection-ado.md) 集合将包含 **Recordset** 的所有字段，还包含基础提供程序添加的所有字段。
 
-提供程序可能插入其他字段作为 **Record** 的补充特征。因此， **Record** 可能具有不作为整体的 **Recordset** 中的独特字段，或者有从该 **Recordset** 的其他行派生得到的任何 **Record** 。
+提供程序可能插入其他字段作为 **Record** 的补充特征。因此，**Record** 可能具有不作为整体的 **Recordset** 中的独特字段，或者有从该 **Recordset** 的其他行派生得到的任何 **Record**。
 
-例如， **Recordset**派生自的电子邮件数据源中的所有行可能为，对此类作为从列以及主题。 从 **Recordset** 派生的 **Record** 将有相同的字段。 但是， **Record** 还可能具有由该 **Record** 表示的针对特定邮件的其他字段，例如"附件"和"抄送"。
+例如, 从电子邮件数据源派生的**Recordset**的所有行都可能包含 from、To 和 Subject 等列。 从 **Recordset** 派生的 **Record** 将有相同的字段。 但是，**Record** 还可能具有由该 **Record** 表示的针对特定邮件的其他字段，例如“附件”和“抄送”。
 
 尽管 **Record** 对象与 **Recordset** 当前行具有相同字段，但它们是不同的，因为 **Record** 和 **Recordset** 对象有不同的方法和属性。
 
@@ -38,7 +38,7 @@ ms.locfileid: "28726020"
 
 一种特殊的提供程序（称为*文档源提供程序*）用来管理文件夹和文档。当 **Record** 对象表示文档，或者 **Recordset** 对象表示文档文件夹时，文档源提供程序将以一组用来描述文档特征的独特字段（而不是实际文档本身）来填充这些对象。通常，一个字段会包含对表示该文档的 **Stream** 的引用。
 
-这些字段构成了资源 **record** 或 **recordset** ， [附录 A：提供程序](appendix-a-providers.md)中针对支持它们的特定提供程序列出了这些字段。
+这些字段构成了资源 **record** 或 **recordset**，[附录 A：提供程序](appendix-a-providers.md)中针对支持它们的特定提供程序列出了这些字段。
 
 两个常量将对资源 **Record** 或 **Recordset** 的 **Fields** 集合编制索引，以便检索一对常用的字段。 **Field** 对象的 [Value](value-property-ado.md) 属性将返回所需内容。
 
@@ -62,7 +62,7 @@ ms.locfileid: "28726020"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>列名称</p></th>
+<th><p>列名</p></th>
 <th><p>类型</p></th>
 <th><p>说明</p></th>
 </tr>
@@ -96,12 +96,12 @@ ms.locfileid: "28726020"
 <tr class="even">
 <td><p>RESOURCE_CONTENTTYPE</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>指示文档的可能使用 — 例如，律师的简短。 这可能对应于用来创建文档的 Office 模板。&quot;&quot;</p></td>
+<td><p>指示文档的可能用法，例如，律师的简介。 这可能与用于创建文档的 Office 模板相对应。&quot;&quot;</p></td>
 </tr>
 <tr class="odd">
 <td><p>RESOURCE_CONTENTCLASS</p></td>
 <td><p>AdVarWChar</p></td>
-<td><p>指示文档，如指示格式的 MIME 类型&quot;text/html&quot;。</p></td>
+<td><p>指示文档的 MIME 类型, 指示格式 (如&quot;text/html&quot;)。</p></td>
 </tr>
 <tr class="even">
 <td><p>RESOURCE_CONTENTLANGUAGE</p></td>

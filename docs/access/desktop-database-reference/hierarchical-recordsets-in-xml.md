@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0aafaa1f7f49d34d647ec0f733e68de21cb5369
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292011"
 ---
-# <a name="hierarchical-recordsets-in-xml"></a>XML 中的分层记录集
+# <a name="hierarchical-recordsets-in-xml"></a>XML 中的层次记录集
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-## <a name="hierarchical-recordsets-in-xml"></a>XML 中的层次记录集
+## <a name="hierarchical-recordsets-in-xml"></a>XML 中的分层记录集
 
 ADO 允许将分层 **Recordset** 对象持久化到 XML 中。使用分层 **Recordset** 对象，父 **Recordset** 中的字段值将是另一个 **Recordset** 。这样的字段在 XML 流中将表示为子元素而不是属性。以下示例演示了这种情况：
 

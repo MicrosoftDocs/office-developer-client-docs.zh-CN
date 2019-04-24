@@ -1,5 +1,5 @@
 ---
-title: DBEngine.DefaultPassword 属性 (DAO)
+title: DefaultPassword 属性 (DAO) DBEngine
 TOCTitle: DefaultPassword Property
 ms:assetid: 189e34f3-d573-c75f-8be2-d98c50df8a52
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845616(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 72e73d29129c749d5479e2c7b17827f13adb4847
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704733"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294356"
 ---
-# <a name="dbenginedefaultpassword-property-dao"></a>DBEngine.DefaultPassword 属性 (DAO)
+# <a name="dbenginedefaultpassword-property-dao"></a>DefaultPassword 属性 (DAO) DBEngine
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置初始化 **Workspace** 时创建其默认值所使用的密码。可读/写 **String** 类型。
+设置初始化 **Workspace** 时创建其默认值所使用的密码。 可读/写 **String** 类型。
 
 ## <a name="syntax"></a>语法
 

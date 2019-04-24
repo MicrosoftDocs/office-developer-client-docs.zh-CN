@@ -1,5 +1,5 @@
 ---
-title: Indexes 集合 (DAO)
+title: 索引集合 (DAO)
 TOCTitle: Indexes Collection
 ms:assetid: 26450e85-c79d-b12a-d760-dfc89c37f36c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f731862e12a75f91d07ea7d012cc33dad5be0b55
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291564"
 ---
-# <a name="indexes-collection-dao"></a>Indexes 集合 (DAO)
+# <a name="indexes-collection-dao"></a>索引集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Indexes** 对象包含 **TableDef** 对象的所有存储的 **Index** 对象（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="remarks"></a>注解
 
-访问表类型的 Recordset 对象时，使用对象的 **Index** 属性来指定记录的顺序。将该属性设置为 ****Recordset**** 对象的基础 [**TableDef**](tabledef-object-dao.md) 对象的 **Indexes** 集合中现有 [Index](recordset-object-dao.md) 对象的 **Name** 属性设置。
+访问表类型的 Recordset 对象时，使用对象的 **Index** 属性来指定记录的顺序。 将此属性设置为**[Recordset](recordset-object-dao.md)** 对象所基于的**[TableDef](tabledef-object-dao.md)** 对象的**索引**集合中的现有**Index**对象的**Name**属性设置。
 
 > [!NOTE]
 > [!注释] 仅当包含 **Indexes** 集合的 **TableDef** 对象的 [**Updatable**](connection-updatable-property-dao.md) 属性设置为 **True** 时，才能对该集合使用 **Append** 或 **Delete** 方法。

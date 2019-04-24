@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23fdb0d9ba636ae58fa19b42d5a8a47cb01d4ab2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296897"
 ---
 # <a name="axis-object-ado-md"></a>Axis 对象 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表单元格集的位置轴或筛选轴，包含一维或多维的选定成员。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**Axis** 对象可以由 [Axes](axes-collection-ado-md.md) 集合包含，或者由 [Cellset](filteraxis-property-ado-md.md) 的 [FilterAxis](cellset-object-ado-md.md) 属性返回。
+**Axis** 对象可以由 [Axes](axes-collection-ado-md.md) 集合包含，或者由 [Cellset](cellset-object-ado-md.md) 的 [FilterAxis](filteraxis-property-ado-md.md) 属性返回。
 
 使用 **Axis** 对象的集合和属性，可以执行下列操作：
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f892349d2ddb9c8fc5063d3fbec37ca9ef0d469f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292480"
 ---
 # <a name="filter-and-recordcount-properties-example-vb"></a>Filter 和 RecordCount 属性示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例打开**记录集**上的发布者表***Pubs***数据库中。 然后使用 [Filter](filter-property-ado.md) 属性将可见的记录数限制为发行商属于特定国家/地区的记录。 **RecordCount** 属性用于显示筛选和未筛选的记录集之间的差值。
+本示例打开 **Pubs** 数据库 Publishers（发行商）表上的一个 ***Recordset***。 然后使用 [Filter](filter-property-ado.md) 属性将可见的记录数限制为发行商属于特定国家/地区的记录。 **RecordCount** 属性用于显示筛选和未筛选的记录集之间的差值。
 
 ```vb 
  

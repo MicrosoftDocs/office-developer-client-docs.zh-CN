@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3dda0840617c32e9dceea3bd1baa362c5652a373
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703018"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295336"
 ---
 # <a name="createrecordset-method-rds"></a>CreateRecordset 方法 (RDS)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于创建断开连接的空 [Recordset](recordset-object-ado.md)。
 
@@ -24,26 +24,26 @@ ms.locfileid: "28703018"
 
 *对象*。CreateRecordset (*ColumnInfos*)
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*Object* |一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 或 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
-|*ColumnsInfos* |属性的 **变量型** 数组，用于定义所创建的 **Recordset** 中的各个列。 每个列定义都包含一个数组，其中包含四个必需属性和一个可选属性。 列数组集合随后组合到定义 **Recordset** 的数组中。 属性的列表，请参阅下表。|
+|*ColumnsInfos* |属性的 **变量型** 数组，用于定义所创建的 **Recordset** 中的各个列。 每个列定义都包含一个数组，其中包含四个必需属性和一个可选属性。 列数组集合随后组合到定义 **Recordset** 的数组中。 有关属性的列表, 请参阅下表。|
 
 ### <a name="variant-array-attributes"></a>Variant 数组属性
 
 |属性|说明|
 |:--------|:----------|
 |Name |列标题的名称。|
-|Type |代表数据类型的整数。|
-|Size |代表宽度的整数（以字符为单位），与数据类型无关。|
-|Nullability |布尔值。|
-|Scale （可选） |此可选属性定义数值字段的位数。如果未指定此值，数值将被截取为三位。精度不会受影响，但小数点之后的位数将截取为三位。|
+|类型 |代表数据类型的整数。|
+|大小 |代表宽度的整数（以字符为单位），与数据类型无关。|
+|null |布尔值。|
+|小数位数 (可选) |此可选属性定义数值字段的位数。如果未指定此值，数值将被截取为三位。精度不会受影响，但小数点之后的位数将截取为三位。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-服务器端业务对象可以使用来自非 OLE DB 数据提供程序（例如，包含股票报价的操作系统文件）的数据来填充生成的 **Recordset** 。
+服务器端业务对象可以使用来自非 OLE DB 数据提供程序（例如，包含股票报价的操作系统文件）的数据来填充生成的 **Recordset**。
 
 下表列出了 [CreateRecordset](datatypeenum.md) 方法支持的 **DataTypeEnum** 值。所列的数字是用于定义字段的引用编号。
 
@@ -60,189 +60,189 @@ ms.locfileid: "28703018"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>长度</p></th>
+<th><p>Length</p></th>
 <th><p>常量</p></th>
-<th><p>编号</p></th>
-<th><p>替换</p></th>
+<th><p>帐号</p></th>
+<th><p>置换</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>16</p></td>
+<td><p>位</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adBigInt</strong></p></td>
 <td><p>20</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>17</p></td>
+<td><p>×</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adUnsignedSmallInt</strong></p></td>
 <td><p>18</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adUnsignedInt</strong></p></td>
-<td><p>19</p></td>
+<td><p>合</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adUnsignedBigInt</strong></p></td>
-<td><p>21</p></td>
+<td><p>不足</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adSingle</strong></p></td>
 <td><p>4</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adDouble</strong></p></td>
 <td><p>5</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adCurrency</strong></p></td>
-<td><p>6</p></td>
+<td><p>型</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
-<td><p><strong>为 adDecimal</strong></p></td>
-<td><p>14</p></td>
+<td><p>Fixed</p></td>
+<td><p><strong>adDecimal</strong></p></td>
+<td><p>日</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adNumeric</strong></p></td>
 <td><p>131</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adBoolean</strong></p></td>
-<td><p>11</p></td>
+<td><p>11x17</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adError</strong></p></td>
 <td><p>10</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adGuid</strong></p></td>
 <td><p>72</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adDate</strong></p></td>
-<td><p>7</p></td>
+<td><p>步</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adDBDate</strong></p></td>
 <td><p>133</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adDBTime</strong></p></td>
 <td><p>134</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>固定</p></td>
+<td><p>Fixed</p></td>
 <td><p><strong>adDBTimestamp</strong></p></td>
 <td><p>135</p></td>
-<td><p>7</p></td>
+<td><p>步</p></td>
 </tr>
 <tr class="odd">
-<td><p>可变</p></td>
+<td><p>变量</p></td>
 <td><p><strong>adBSTR</strong></p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="even">
-<td><p>可变</p></td>
-<td><p><strong>每</strong></p></td>
+<td><p>变量</p></td>
+<td><p><strong>adChar</strong></p></td>
 <td><p>129</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="odd">
-<td><p>可变</p></td>
-<td><p><strong>以便您可以排除</strong></p></td>
+<td><p>变量</p></td>
+<td><p><strong>adVarChar</strong></p></td>
 <td><p>200</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>可变</p></td>
+<td><p>变量</p></td>
 <td><p><strong>adLongVarChar</strong></p></td>
 <td><p>201</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="odd">
-<td><p>可变</p></td>
+<td><p>变量</p></td>
 <td><p><strong>adWChar</strong></p></td>
 <td><p>130</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>可变</p></td>
+<td><p>变量</p></td>
 <td><p><strong>adVarWChar</strong></p></td>
 <td><p>202</p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="odd">
-<td><p>可变</p></td>
+<td><p>变量</p></td>
 <td><p><strong>adLongVarWChar</strong></p></td>
 <td><p>203</p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="even">
-<td><p>可变</p></td>
+<td><p>变量</p></td>
 <td><p><strong>adBinary</strong></p></td>
 <td><p>128</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>可变</p></td>
-<td><p><strong>感</strong></p></td>
+<td><p>变量</p></td>
+<td><p><strong>adVarBinary</strong></p></td>
 <td><p>204</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>可变</p></td>
+<td><p>变量</p></td>
 <td><p><strong>adLongVarBinary</strong></p></td>
 <td><p>205</p></td>
 <td><p>204</p></td>

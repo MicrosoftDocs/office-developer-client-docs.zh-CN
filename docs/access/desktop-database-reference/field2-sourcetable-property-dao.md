@@ -1,5 +1,5 @@
 ---
-title: Field2.SourceTable 属性 (DAO)
+title: SourceTable 属性 (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 24d2fdda-d924-d95e-8458-063dd1d36d5d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191839(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a3ecf8b6655bb9f1dd2b25d264708112834e8a90
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292669"
 ---
-# <a name="field2sourcetable-property-dao"></a>Field2.SourceTable 属性 (DAO)
+# <a name="field2sourcetable-property-dao"></a>SourceTable 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个值，该值指示作为 **Field2** 对象的原始数据源的表的名称。只读 **String**。
 
@@ -57,7 +57,7 @@ ms.locfileid: "28717942"
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>不支持</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>

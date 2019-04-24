@@ -1,5 +1,5 @@
 ---
-title: Index.Required 属性 (DAO)
+title: Index。 Required 属性 (DAO)
 TOCTitle: Required Property
 ms:assetid: ec8fafc4-8155-c48e-b3c8-2d9be425175a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836310(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2660a4cb422d91cf46b98a8d3870d2ab2db73fc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291697"
 ---
-# <a name="indexrequired-property-dao"></a>Index.Required 属性 (DAO)
+# <a name="indexrequired-property-dao"></a>Index。 Required 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回一个值，该值指示 **[Field](field-object-dao.md)** 对象是否需要一个非 Null 值。
 
@@ -54,19 +54,19 @@ ms.locfileid: "28703130"
 <td><p>不支持</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>QueryDef</strong>对象</p></td>
+<td><p><strong>QueryDef</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Recordset</strong>对象</p></td>
+<td><p><strong>Recordset</strong> 对象</p></td>
 <td><p>只读</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Relation</strong>对象</p></td>
-<td><p>不支持</p></td>
+<td><p><strong>Relation</strong> 对象</p></td>
+<td><p>不受支持</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>TableDef</strong>对象</p></td>
+<td><p><strong>TableDef</strong> 对象</p></td>
 <td><p>读/写</p></td>
 </tr>
 </tbody>

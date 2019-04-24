@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 832b367824fd8043486ff85f63739c3288696774
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296638"
 ---
 # <a name="cancelbatch-method-ado"></a>CancelBatch 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于取消挂起的批更新。
 
 ## <a name="syntax"></a>语法
 
-*记录集*。CancelBatch *AffectRecords*
+*recordset*。CancelBatch *AffectRecords*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*AffectRecords* |可选。[AffectEnum](affectenum.md) 值，用于指示 **CancelBatch** 方法将影响的记录数。 |
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **CancelBatch** 方法用于取消处于批更新模式下的 [Recordset](recordset-object-ado.md) 中的任何挂起的更新。如果 **Recordset** 处于即时更新模式下，则调用无 **adAffectCurrent** 的 **CancelBatch** 将产生错误。
 

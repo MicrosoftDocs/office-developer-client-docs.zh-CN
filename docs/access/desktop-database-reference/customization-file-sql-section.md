@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ae259589cc8d4945068901c59105425599edc64
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295133"
 ---
 # <a name="customization-file-sql-section"></a>自定义文件 SQL 部分
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **sql** 节可以包含新的 SQL 字符串，该字符串用于替换客户端命令字符串。如果节中没有 SQL 字符串，将忽略该节。
 
 新的 SQL 字符串可能是*参数化的*。就是说，**sql** 节 SQL 字符串（由“?”字符指定）中的参数可以替换为客户端命令字符串（由括号中的以逗号分隔的列表指定）中的 *identifier* 中的相应参数。标识符和参数列表的行为类似函数调用。
 
-例如，假定客户端命令字符串为"CustomerByID(4)"，SQL 节标头为\[SQL CustomerByID\] ，和新的 SQL 节字符串是"选择\*FROM Customers WHERE CustomerID = ?"。 处理程序将生成、 SQL 节标头是\[SQL CustomerByID\] ，和新的 SQL 节字符串是"选择\*FROM Customers WHERE CustomerID = ?"。 处理程序将生成"选择\*FROM Customers WHERE CustomerID = 4"并使用该字符串来查询数据源。
+例如, 假设客户端命令字符串是 "CustomerByID (4)", 则 sql 节标头为\[sql CustomerByID\] , 而新的 SQL 部分字符串为 "从\* CustomerID = ? 的客户中选择"。 该处理程序将生成, sql 节标头\[为 sql\] CustomerByID, 新的 sql 节字符串为 "从\* CustomerID = ? 的客户中选择"。 该处理程序将生成 " \*从客户 id 中选择, 其中的客户 id 为 4", 并使用该字符串查询数据源。
 
 如果新的 SQL 语句是空字符串 ("")，将忽略该节。
 
@@ -48,7 +48,7 @@ SQL = " "
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>

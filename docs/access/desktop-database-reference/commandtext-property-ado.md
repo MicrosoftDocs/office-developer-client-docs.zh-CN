@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 66797accb24cead7d7ba5732f0a9c58ee31049e5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296134"
 ---
 # <a name="commandtext-property-ado"></a>CommandText 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示要对提供程序发出的命令的文本。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28725978"
 
 设置或返回一个包含提供程序命令的 **String** 值，如 SQL 语句、表名称、相对 URL 或存储过程调用。默认值为 ""（零长度字符串）。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **CommandText** 属性可以设置或返回 [Command](command-object-ado.md) 对象所表示的命令的文本。通常，这将是 SQL 语句，但也可以是提供程序能识别的任何其他类型的命令语句，如存储过程调用。SQL 语句必须是提供程序的查询处理器支持的特定语句或版本。
 
@@ -41,6 +41,6 @@ ms.locfileid: "28725978"
 
 
 > [!NOTE]
-> [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
+> [!注释] 使用 HTTP 架构的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息, 请参阅[绝对和相对 url](absolute-and-relative-urls.md)。
 
 

@@ -1,5 +1,5 @@
 ---
-title: Errors.Refresh 方法 (DAO)
+title: Errors。 Refresh 方法 (DAO)
 TOCTitle: Refresh Method
 ms:assetid: dc352c5f-09d0-bfb3-b24a-4c3454dbf5aa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835359(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fcc87659fcc69f6e7b9affe27dad6f901f4bc88
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721435"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293348"
 ---
-# <a name="errorsrefresh-method-dao"></a>Errors.Refresh 方法 (DAO)
+# <a name="errorsrefresh-method-dao"></a>Errors。 Refresh 方法 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 更新指定集合中的对象，以反映数据库的当前架构。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。刷新
+*表达式*。恢复
 
 *表达式*一个代表**Errors**对象的变量。
 

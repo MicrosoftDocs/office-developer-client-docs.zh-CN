@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ae3358c499e4f730758f9c3aaf420725cc6efd96
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291536"
 ---
 # <a name="indexes-members-dao"></a>索引成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Indexes 对象包含 TableDef 对象的所有存储的 Index 对象（仅适用于 Microsoft Access 工作区）。
 
@@ -36,7 +36,7 @@ Indexes 对象包含 TableDef 对象的所有存储的 Index 对象（仅适用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="indexes-append-method-dao.md">追加</a></strong></p></td>
+<td><p><strong><a href="indexes-append-method-dao.md">置</a></strong></p></td>
 <td><p>将新的 <strong>Index</strong> 添加到 <strong>Indexes</strong> 集合。</p></td>
 </tr>
 <tr class="even">
@@ -66,8 +66,8 @@ Indexes 对象包含 TableDef 对象的所有存储的 Index 对象（仅适用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="indexes-count-property-dao.md">计数</a></strong></p></td>
-<td><p>返回指定集合中的对象数。只读。</p></td>
+<td><p><strong><a href="indexes-count-property-dao.md">Count</a></strong></p></td>
+<td><p>返回指定集合中的对象数。 只读。</p></td>
 </tr>
 </tbody>
 </table>

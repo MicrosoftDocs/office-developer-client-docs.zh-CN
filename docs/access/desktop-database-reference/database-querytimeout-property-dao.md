@@ -1,5 +1,5 @@
 ---
-title: Database.QueryTimeout 属性 (DAO)
+title: QueryTimeout 属性 (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: c83ca852-715a-c853-429b-80a15c3fc39b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f47d6c51079bf36cb7e1ca596a3476f1a7219c5d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713511"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294736"
 ---
-# <a name="databasequerytimeout-property-dao"></a>Database.QueryTimeout 属性 (DAO)
+# <a name="databasequerytimeout-property-dao"></a>QueryTimeout 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 设置或返回一个值，该值指定对 ODBC 数据源执行查询时发生超时错误之前等待的秒数。
@@ -32,7 +32,7 @@ ms.locfileid: "28713511"
 
 默认值为 60。
 
-在使用 ODBC 数据库（如 Microsoft SQL Server）时，由于网络阻塞或频繁使用 ODBC 服务器的原因，可能会有延迟。不需要无限期地等待，您可以指定等待时间。
+在使用 ODBC 数据库（如 Microsoft SQL Server）时，由于网络阻塞或大量使用 ODBC 服务器的原因，可能会有延迟。不需要无限期地等待，您可以指定等待时间。
 
 将 **QueryTimeout** 用于 **[Connection](connection-object-dao.md)** 或 **[Database](database-object-dao.md)** 对象时，它为所有与数据库关联的查询指定了全局值。可以通过设置特定 [**QueryDef**](querydef-object-dao.md) 对象的 **ODBCTimeout** 属性来重写特定查询的这个值。
 

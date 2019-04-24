@@ -1,5 +1,5 @@
 ---
-title: BeginTransComplete、 CommitTransComplete RollbackTransComplete 事件 (ADO)
+title: BeginTransComplete、CommitTransComplete、RollbackTransComplete 事件 (ADO)
 TOCTitle: BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)
 ms:assetid: 9d0ae38e-530a-7a89-a344-f3ab401c2e35
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a6f86e17a44ec0813176a023a02710fded627488
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296820"
 ---
 # <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>BeginTransComplete、CommitTransComplete 和 RollbackTransComplete 事件 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 这些事件将在对 [Connection](connection-object-ado.md) 对象的关联操作执行完毕之后调用。
 
@@ -28,22 +28,22 @@ ms.locfileid: "28702892"
 
 ## <a name="syntax"></a>语法
 
-BeginTransComplete*TransactionLevel*， *pError* *adStatus*、 *pConnection*
+BeginTransComplete*TransactionLevel*、 *pError*、 *adStatus*、 *pConnection*
 
-CommitTransComplete*pError*， *adStatus* *pConnection*
+CommitTransComplete*pError*、 *adStatus*、 *pConnection*
 
-RollbackTransComplete*pError*， *adStatus* *pConnection*
+RollbackTransComplete*pError*、 *adStatus*、 *pConnection*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*TransactionLevel* |**长整型** 值，包含导致该事件的新事务级别的 **BeginTrans** 。|
-|*pError* |[Error](error-object-ado.md) 对象。 它介绍**adStatusErrorsOccurred**; EventStatusEnum 的值是否发生的错误否则，它将不设置。|
+|*pError* |[Error](error-object-ado.md) 对象。 它描述了 EventStatusEnum 的值为**adStatusErrorsOccurred**时所发生的错误;否则, 它将不会设置。|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md)。 通过在事件返回之前将该参数设置为 **adStatusUnwantedEvent** ，这些事件可以阻止随后进行通知。|
 |*pConnection* |发生此事件的 **Connection** 对象。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 在 Visual C++ 中，多个 **Connection** 可以共享相同的事件处理方法。方法使用返回的 **Connection** 对象来确定导致事件发生的对象。
 
