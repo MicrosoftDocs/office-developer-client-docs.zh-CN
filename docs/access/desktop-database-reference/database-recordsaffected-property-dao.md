@@ -1,5 +1,5 @@
 ---
-title: Database.RecordsAffected 属性 (DAO)
+title: RecordsAffected 属性 (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 1c591231-21dd-f0b1-4ba6-87784c5890d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a1bcb9ac1140b275d0c7a2441f58d2ced0e0f82c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294735"
 ---
-# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="2d53d-102">Database.RecordsAffected 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="2d53d-102">Database.RecordsAffected property (DAO)</span></span>
+# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="73c35-102">RecordsAffected 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="73c35-102">Database.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="2d53d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d53d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="73c35-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="73c35-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d53d-104">返回最近调用的 **[Execute](connection-execute-method-dao.md)** 方法所影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="2d53d-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="73c35-104">返回最近调用的 **[Execute](connection-execute-method-dao.md)** 方法所影响的记录数。</span><span class="sxs-lookup"><span data-stu-id="73c35-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2d53d-105">语法</span><span class="sxs-lookup"><span data-stu-id="2d53d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="73c35-105">语法</span><span class="sxs-lookup"><span data-stu-id="73c35-105">Syntax</span></span>
 
-<span data-ttu-id="2d53d-106">*表达式*。RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="2d53d-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="73c35-106">*表达式*。RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="73c35-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="2d53d-107">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="2d53d-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="73c35-107">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="73c35-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2d53d-108">示例</span><span class="sxs-lookup"><span data-stu-id="2d53d-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="73c35-108">示例</span><span class="sxs-lookup"><span data-stu-id="73c35-108">Example</span></span>
 
-<span data-ttu-id="2d53d-p101">以下示例将 **RecordsAffected** 属性用于从 **Database** 对象和 **QueryDef** 对象执行的查询。若要使该过程运行，需要使用 RecordsAffectedOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="2d53d-p101">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="73c35-p101">以下示例将 **RecordsAffected** 属性用于从 **Database** 对象和 **QueryDef** 对象执行的查询。若要使该过程运行，需要使用 RecordsAffectedOutput 函数。</span><span class="sxs-lookup"><span data-stu-id="73c35-p101">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

@@ -8,40 +8,40 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296407"
 ---
-# <a name="chapter-6-error-handling"></a><span data-ttu-id="6b742-102">第 6 章：错误处理</span><span class="sxs-lookup"><span data-stu-id="6b742-102">Chapter 6: Error handling</span></span>
+# <a name="chapter-6-error-handling"></a><span data-ttu-id="f5553-102">第 6 章：错误处理</span><span class="sxs-lookup"><span data-stu-id="f5553-102">Chapter 6: Error handling</span></span>
 
-<span data-ttu-id="6b742-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b742-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f5553-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5553-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6b742-p101">ADO 使用几种不同的方法来将发生的错误通知应用程序。本章讨论在使用 ADO 时可能发生的错误类型，以及如何通知应用程序。本章最后提供了有关如何处理这些错误的建议。</span><span class="sxs-lookup"><span data-stu-id="6b742-p101">ADO uses several different methods to notify an application of errors that occur. This chapter discusses the types of errors that can occur when you are using ADO and how your application is notified. It concludes by making suggestions about how to handle those errors.</span></span>
+<span data-ttu-id="f5553-p101">ADO 使用几种不同的方法来将发生的错误通知应用程序。本章讨论在使用 ADO 时可能发生的错误类型，以及如何通知应用程序。本章最后提供了有关如何处理这些错误的建议。</span><span class="sxs-lookup"><span data-stu-id="f5553-p101">ADO uses several different methods to notify an application of errors that occur. This chapter discusses the types of errors that can occur when you are using ADO and how your application is notified. It concludes by making suggestions about how to handle those errors.</span></span>
 
-## <a name="how-does-ado-report-errors"></a><span data-ttu-id="6b742-107">ADO 如何报告错误？</span><span class="sxs-lookup"><span data-stu-id="6b742-107">How does ADO report errors?</span></span>
+## <a name="how-does-ado-report-errors"></a><span data-ttu-id="f5553-107">ADO 如何报告错误？</span><span class="sxs-lookup"><span data-stu-id="f5553-107">How does ADO report errors?</span></span>
 
-<span data-ttu-id="6b742-108">ADO 按以下几种方式通知错误：</span><span class="sxs-lookup"><span data-stu-id="6b742-108">ADO notifies you about errors in several ways:</span></span>
+<span data-ttu-id="f5553-108">ADO 按以下几种方式通知错误：</span><span class="sxs-lookup"><span data-stu-id="f5553-108">ADO notifies you about errors in several ways:</span></span>
 
-- <span data-ttu-id="6b742-p102">ADO 错误生成运行时错误。请以处理其他任何运行时错误的相同方式来处理这类 ADO 错误，例如，在 Visual Basic 中使用 **On Error** 语句。</span><span class="sxs-lookup"><span data-stu-id="6b742-p102">ADO errors generate a run-time error. Handle an ADO error the same way you would any other run-time error, such as using an **On Error** statement in Visual Basic.</span></span>
+- <span data-ttu-id="f5553-p102">ADO 错误生成运行时错误。请以处理其他任何运行时错误的相同方式来处理这类 ADO 错误，例如，在 Visual Basic 中使用 **On Error** 语句。</span><span class="sxs-lookup"><span data-stu-id="f5553-p102">ADO errors generate a run-time error. Handle an ADO error the same way you would any other run-time error, such as using an **On Error** statement in Visual Basic.</span></span>
 
-- <span data-ttu-id="6b742-p103">程序可以从 OLE DB 接收错误。OLE DB 错误也会生成运行时错误。</span><span class="sxs-lookup"><span data-stu-id="6b742-p103">Your program can receive errors from OLE DB. An OLE DB error generates a run-time error as well.</span></span>
+- <span data-ttu-id="f5553-p103">程序可以从 OLE DB 接收错误。OLE DB 错误也会生成运行时错误。</span><span class="sxs-lookup"><span data-stu-id="f5553-p103">Your program can receive errors from OLE DB. An OLE DB error generates a run-time error as well.</span></span>
 
-- <span data-ttu-id="6b742-113">如果错误是数据提供程序特有的，则在发生错误时，系统会将一个或多个 **Error** 对象放在用来访问数据存储的 **Connection** 对象的 **Errors** 集合中。</span><span class="sxs-lookup"><span data-stu-id="6b742-113">If the error is specific to your data provider, one or more **Error** objects are placed in the **Errors** collection of the **Connection** object that was used to access the data store when the error occurred.</span></span>
+- <span data-ttu-id="f5553-113">如果错误是数据提供程序特有的，则在发生错误时，系统会将一个或多个 **Error** 对象放在用来访问数据存储的 **Connection** 对象的 **Errors** 集合中。</span><span class="sxs-lookup"><span data-stu-id="f5553-113">If the error is specific to your data provider, one or more **Error** objects are placed in the **Errors** collection of the **Connection** object that was used to access the data store when the error occurred.</span></span>
 
-- <span data-ttu-id="6b742-p104">如果引发事件的进程也产生了错误，则错误信息将放在 **Error** 对象中，并作为参数传递给事件。有关事件的详细信息，请参阅 [第 7 章：处理 ADO 事件](chapter-7-handling-ado-events.md)。</span><span class="sxs-lookup"><span data-stu-id="6b742-p104">If the process that raised an event also produced an error, error information is placed in an **Error** object and passed as a parameter to the event. See [Chapter 7: Handling ADO Events](chapter-7-handling-ado-events.md) for more information about events.</span></span>
+- <span data-ttu-id="f5553-p104">如果引发事件的进程也产生了错误，则错误信息将放在 **Error** 对象中，并作为参数传递给事件。有关事件的详细信息，请参阅 [第 7 章：处理 ADO 事件](chapter-7-handling-ado-events.md)。</span><span class="sxs-lookup"><span data-stu-id="f5553-p104">If the process that raised an event also produced an error, error information is placed in an **Error** object and passed as a parameter to the event. See [Chapter 7: Handling ADO Events](chapter-7-handling-ado-events.md) for more information about events.</span></span>
 
-- <span data-ttu-id="6b742-p105">**Recordset** 的 **Status** 属性可以指示在处理涉及 **Recordset** 的批更新或其他批量操作时所发生的问题。例如， **RecordStatusEnum** 值可以指示架构约束冲突或权限不足。</span><span class="sxs-lookup"><span data-stu-id="6b742-p105">Problems that occur when processing batch updates or other bulk operations involving a **Recordset** can be indicated by the **Status** property of the **Recordset**. For example, schema constraint violations or insufficient permissions can be specified by **RecordStatusEnum** values.</span></span>
+- <span data-ttu-id="f5553-p105">**Recordset** 的 **Status** 属性可以指示在处理涉及 **Recordset** 的批更新或其他批量操作时所发生的问题。例如， **RecordStatusEnum** 值可以指示架构约束冲突或权限不足。</span><span class="sxs-lookup"><span data-stu-id="f5553-p105">Problems that occur when processing batch updates or other bulk operations involving a **Recordset** can be indicated by the **Status** property of the **Recordset**. For example, schema constraint violations or insufficient permissions can be specified by **RecordStatusEnum** values.</span></span>
 
-- <span data-ttu-id="6b742-p106">**Record** 或 **Recordset** 的 **Fields** 集合中的每个 **Field** 的 **Status** 属性还可以指示当前记录中特定 **Field** 的问题。例如， **FieldStatusEnum** 值可以指定无法完成的更新或不兼容的数据类型。</span><span class="sxs-lookup"><span data-stu-id="6b742-p106">Problems that occur involving a particular **Field** in the current record are also indicated by the **Status** property of each **Field** in the **Fields** collection of the **Record** or **Recordset**. For example, updates that could not be completed or incompatible data types can be specified by **FieldStatusEnum** values.</span></span>
+- <span data-ttu-id="f5553-p106">**Record** 或 **Recordset** 的 **Fields** 集合中的每个 **Field** 的 **Status** 属性还可以指示当前记录中特定 **Field** 的问题。例如， **FieldStatusEnum** 值可以指定无法完成的更新或不兼容的数据类型。</span><span class="sxs-lookup"><span data-stu-id="f5553-p106">Problems that occur involving a particular **Field** in the current record are also indicated by the **Status** property of each **Field** in the **Fields** collection of the **Record** or **Recordset**. For example, updates that could not be completed or incompatible data types can be specified by **FieldStatusEnum** values.</span></span>
 
-<span data-ttu-id="6b742-120">以下几节更详细地逐一描述了这些通知方法。</span><span class="sxs-lookup"><span data-stu-id="6b742-120">The following sections describe each of these notification methods in more detail.</span></span>
+<span data-ttu-id="f5553-120">以下几节更详细地逐一描述了这些通知方法。</span><span class="sxs-lookup"><span data-stu-id="f5553-120">The following sections describe each of these notification methods in more detail.</span></span>
 
-- [<span data-ttu-id="6b742-121">ADO 错误</span><span class="sxs-lookup"><span data-stu-id="6b742-121">ADO errors</span></span>](ado-errors.md)
-- [<span data-ttu-id="6b742-122">ADO 错误参考</span><span class="sxs-lookup"><span data-stu-id="6b742-122">ADO error reference</span></span>](ado-error-reference.md)
-- [<span data-ttu-id="6b742-123">提供程序错误</span><span class="sxs-lookup"><span data-stu-id="6b742-123">Provider errors</span></span>](provider-errors.md)
-- [<span data-ttu-id="6b742-124">与字段相关的错误信息</span><span class="sxs-lookup"><span data-stu-id="6b742-124">Field-related error information</span></span>](field-related-error-information.md)
-- [<span data-ttu-id="6b742-125">与记录集相关的错误信息</span><span class="sxs-lookup"><span data-stu-id="6b742-125">Recordset-related error information</span></span>](recordset-related-error-information.md)
-- [<span data-ttu-id="6b742-126">预测错误</span><span class="sxs-lookup"><span data-stu-id="6b742-126">Anticipating errors</span></span>](anticipating-errors.md)
-- [<span data-ttu-id="6b742-127">处理错误用其他语言 (ADO)</span><span class="sxs-lookup"><span data-stu-id="6b742-127">Handling errors in other languages (ADO)</span></span>](handling-errors-in-other-languages.md)
+- [<span data-ttu-id="f5553-121">ADO 错误</span><span class="sxs-lookup"><span data-stu-id="f5553-121">ADO errors</span></span>](ado-errors.md)
+- [<span data-ttu-id="f5553-122">ADO 错误参考</span><span class="sxs-lookup"><span data-stu-id="f5553-122">ADO error reference</span></span>](ado-error-reference.md)
+- [<span data-ttu-id="f5553-123">提供程序错误</span><span class="sxs-lookup"><span data-stu-id="f5553-123">Provider errors</span></span>](provider-errors.md)
+- [<span data-ttu-id="f5553-124">与字段相关的错误信息</span><span class="sxs-lookup"><span data-stu-id="f5553-124">Field-related error information</span></span>](field-related-error-information.md)
+- [<span data-ttu-id="f5553-125">与记录集相关的错误信息</span><span class="sxs-lookup"><span data-stu-id="f5553-125">Recordset-related error information</span></span>](recordset-related-error-information.md)
+- [<span data-ttu-id="f5553-126">预测错误</span><span class="sxs-lookup"><span data-stu-id="f5553-126">Anticipating errors</span></span>](anticipating-errors.md)
+- [<span data-ttu-id="f5553-127">处理其他语言的错误 (ADO)</span><span class="sxs-lookup"><span data-stu-id="f5553-127">Handling errors in other languages (ADO)</span></span>](handling-errors-in-other-languages.md)

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68530f060b0c3662e53e927d7e2fda6cfd7c6957
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308524"
 ---
-# <a name="state-property-example-vc"></a><span data-ttu-id="732c1-102">State 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="732c1-102">State property example (VC++)</span></span>
+# <a name="state-property-example-vc"></a><span data-ttu-id="af119-102">State 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="af119-102">State property example (VC++)</span></span>
 
 
-<span data-ttu-id="732c1-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="732c1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="af119-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="af119-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="732c1-104">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="732c1-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="af119-104">本示例使用 [State](state-property-ado.md) 属性在异步打开连接和异步执行命令时显示一条消息。</span><span class="sxs-lookup"><span data-stu-id="af119-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```cpp 
  

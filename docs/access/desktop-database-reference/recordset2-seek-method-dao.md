@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Seek 方法 (DAO)
+title: Recordset2 方法 (DAO)
 TOCTitle: Seek Method
 ms:assetid: 9871619b-a303-c97d-54c0-defc8d9b87f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9510faab9035f2b2cbcccae0a8ddefa484a95cb1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307187"
 ---
-# <a name="recordset2seek-method-dao"></a><span data-ttu-id="4da34-102">Recordset2.Seek 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="4da34-102">Recordset2.Seek method (DAO)</span></span>
+# <a name="recordset2seek-method-dao"></a><span data-ttu-id="76edc-102">Recordset2 方法 (DAO)</span><span class="sxs-lookup"><span data-stu-id="76edc-102">Recordset2.Seek method (DAO)</span></span>
 
-<span data-ttu-id="4da34-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="4da34-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76edc-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="76edc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4da34-104">在已建立索引的表类型 **Recordset** 对象中查找符合当前索引的指定条件的记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="4da34-104">Locates the record in an indexed table-type **Recordset** object that satisfies the specified criteria for the current index and makes that record the current record (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="76edc-104">在已建立索引的表类型 **Recordset** 对象中查找符合当前索引的指定条件的记录，并使该记录成为当前记录（仅适用于 Microsoft Access 工作区）。</span><span class="sxs-lookup"><span data-stu-id="76edc-104">Locates the record in an indexed table-type **Recordset** object that satisfies the specified criteria for the current index and makes that record the current record (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4da34-105">语法</span><span class="sxs-lookup"><span data-stu-id="4da34-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="76edc-105">语法</span><span class="sxs-lookup"><span data-stu-id="76edc-105">Syntax</span></span>
 
-<span data-ttu-id="4da34-106">*表达式*。Seek （***比较*** ***Key1***、 ***Key2***、 ***Key3***、 ***Key4***、 ***Key5***、 ***Key6***、 ***Key7***、 ***Key8***、 ***Key9***、 ***Key10***、 ***Key11***、 ***Key12***、 ***Key13***）</span><span class="sxs-lookup"><span data-stu-id="4da34-106">*expression* .Seek(***Comparison***, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)</span></span>
+<span data-ttu-id="76edc-106">*表达式*。Seek (***Comparison***、 ***Key1***、 ***Key2***、 ***Key3***、 ***Key4***、 ***Key5***、 ***Key6***、 ***Key7***、 ***Key8***、 ***Key9***、 ***Key10***、 ***Key11***、 \*\*\*\*\*\* Key12、 ***Key13***)</span><span class="sxs-lookup"><span data-stu-id="76edc-106">*expression* .Seek(***Comparison***, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)</span></span>
 
-<span data-ttu-id="4da34-107">*表达式*一个表示**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="4da34-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="76edc-107">*表达式*一个代表**Recordset2**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="76edc-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="4da34-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="4da34-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="76edc-108">参数</span><span class="sxs-lookup"><span data-stu-id="76edc-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,54 +37,54 @@ ms.locfileid: "28700645"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4da34-109">Name</span><span class="sxs-lookup"><span data-stu-id="4da34-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="4da34-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="4da34-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="4da34-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="4da34-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="4da34-112">说明</span><span class="sxs-lookup"><span data-stu-id="4da34-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="76edc-109">名称</span><span class="sxs-lookup"><span data-stu-id="76edc-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="76edc-110">必需/可选</span><span class="sxs-lookup"><span data-stu-id="76edc-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="76edc-111">数据类型</span><span class="sxs-lookup"><span data-stu-id="76edc-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="76edc-112">说明</span><span class="sxs-lookup"><span data-stu-id="76edc-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4da34-113"><em>Comparison</em></span><span class="sxs-lookup"><span data-stu-id="4da34-113"><em>Comparison</em></span></span></p></td>
-<td><p><span data-ttu-id="4da34-114">必需</span><span class="sxs-lookup"><span data-stu-id="4da34-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="4da34-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="4da34-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="4da34-116">下列字符串表达式之一： &lt;， &lt;=、 =、 &gt;=，或&gt;。</span><span class="sxs-lookup"><span data-stu-id="4da34-116">One of the following string expressions: &lt;, &lt;=, =, &gt;=, or &gt;.</span></span></p></td>
+<td><p><span data-ttu-id="76edc-113"><em>Comparison</em></span><span class="sxs-lookup"><span data-stu-id="76edc-113"><em>Comparison</em></span></span></p></td>
+<td><p><span data-ttu-id="76edc-114">必需</span><span class="sxs-lookup"><span data-stu-id="76edc-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="76edc-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="76edc-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="76edc-116">以下字符串表达式之一&lt;:、 &lt;=、=、 &gt;= 或。 &gt;</span><span class="sxs-lookup"><span data-stu-id="76edc-116">One of the following string expressions: &lt;, &lt;=, =, &gt;=, or &gt;.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4da34-117"><em>Key1，Key2...Key13</em></span><span class="sxs-lookup"><span data-stu-id="4da34-117"><em>Key1, Key2...Key13</em></span></span></p></td>
-<td><p><span data-ttu-id="4da34-118">必需</span><span class="sxs-lookup"><span data-stu-id="4da34-118">Required</span></span></p></td>
-<td><p><span data-ttu-id="4da34-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="4da34-119"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="4da34-p101">与 <strong>Recordset</strong> 对象当前索引中的字段对应的一个或多个值，该索引由它的 <strong>Index</strong> 属性设置指定。最多可使用 13 个 key 参数。</span><span class="sxs-lookup"><span data-stu-id="4da34-p101">One or more values corresponding to fields in the <strong>Recordset</strong> object's current index, as specified by its <strong>Index</strong> property setting. You can use up to 13 key arguments.</span></span></p></td>
+<td><p><span data-ttu-id="76edc-117"><em>Key1, Key2 .。。Key13</em></span><span class="sxs-lookup"><span data-stu-id="76edc-117"><em>Key1, Key2...Key13</em></span></span></p></td>
+<td><p><span data-ttu-id="76edc-118">必需</span><span class="sxs-lookup"><span data-stu-id="76edc-118">Required</span></span></p></td>
+<td><p><span data-ttu-id="76edc-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="76edc-119"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="76edc-120">与 <strong>Recordset</strong> 对象当前索引中的字段对应的一个或多个值，该索引由它的 <strong>Index</strong> 属性设置指定。</span><span class="sxs-lookup"><span data-stu-id="76edc-120">One or more values corresponding to fields in the <strong>Recordset</strong> object's current index, as specified by its <strong>Index</strong> property setting.</span></span> <span data-ttu-id="76edc-121">最多可使用 13 个 key 参数。</span><span class="sxs-lookup"><span data-stu-id="76edc-121">You can use up to 13 key arguments.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="4da34-122">注解</span><span class="sxs-lookup"><span data-stu-id="4da34-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="76edc-122">注解</span><span class="sxs-lookup"><span data-stu-id="76edc-122">Remarks</span></span>
 
-<span data-ttu-id="4da34-p102">在使用 **Seek** 之前，必须使用 **Index** 属性设置当前索引。如果索引标识了一个非唯一的键字段， **Seek** 将查找第一个符合条件的记录。</span><span class="sxs-lookup"><span data-stu-id="4da34-p102">You must set the current index with the **Index** property before you use **Seek**. If the index identifies a nonunique key field, **Seek** locates the first record that satisfies the criteria.</span></span>
+<span data-ttu-id="76edc-p102">在使用 **Seek** 之前，必须使用 **Index** 属性设置当前索引。如果索引标识了一个非唯一的键字段， **Seek** 将查找第一个符合条件的记录。</span><span class="sxs-lookup"><span data-stu-id="76edc-p102">You must set the current index with the **Index** property before you use **Seek**. If the index identifies a nonunique key field, **Seek** locates the first record that satisfies the criteria.</span></span>
 
-<span data-ttu-id="4da34-125">**Seek**方法通过指定的键字段搜索，并查找满足指定相比较的条件和 key1 的第一个记录。</span><span class="sxs-lookup"><span data-stu-id="4da34-125">The **Seek** method searches through the specified key fields and locates the first record that satisfies the criteria specified by comparison and key1.</span></span> <span data-ttu-id="4da34-126">一旦找到，它就会使该记录成为当前记录，同时将 **NoMatch** 属性设置为 **False**。</span><span class="sxs-lookup"><span data-stu-id="4da34-126">Once found, it makes that record current and sets the **NoMatch** property to **False**.</span></span> <span data-ttu-id="4da34-127">如果 **Seek** 方法未能找到匹配项， **NoMatch** 属性将设置为 **True**，并且当前记录不确定。</span><span class="sxs-lookup"><span data-stu-id="4da34-127">If the **Seek** method fails to locate a match, the **NoMatch** property is set to **True**, and the current record is undefined.</span></span>
+<span data-ttu-id="76edc-125">**Seek**方法搜索指定的键字段, 并找到满足由 comparison 和 key1 指定的条件的第一条记录。</span><span class="sxs-lookup"><span data-stu-id="76edc-125">The **Seek** method searches through the specified key fields and locates the first record that satisfies the criteria specified by comparison and key1.</span></span> <span data-ttu-id="76edc-126">一旦找到，它就会使该记录成为当前记录，同时将 **NoMatch** 属性设置为 **False**。</span><span class="sxs-lookup"><span data-stu-id="76edc-126">Once found, it makes that record current and sets the **NoMatch** property to **False**.</span></span> <span data-ttu-id="76edc-127">如果 **Seek** 方法未能找到匹配项， **NoMatch** 属性将设置为 **True**，并且当前记录不确定。</span><span class="sxs-lookup"><span data-stu-id="76edc-127">If the **Seek** method fails to locate a match, the **NoMatch** property is set to **True**, and the current record is undefined.</span></span>
 
-<span data-ttu-id="4da34-128">如果 comparison 是等于 （=），大于或等于 (\>=)，或大于 (\>)、 从索引的开头开始**Seek**和向前搜索。</span><span class="sxs-lookup"><span data-stu-id="4da34-128">If comparison is equal (=), greater than or equal (\>=), or greater than (\>), **Seek** starts at the beginning of the index and searches forward.</span></span>
+<span data-ttu-id="76edc-128">如果比较等于 (=)、大于或等于 (\>=) 或大于 (\>), 则**Seek**将从索引的开头开始, 并向前搜索。</span><span class="sxs-lookup"><span data-stu-id="76edc-128">If comparison is equal (=), greater than or equal (\>=), or greater than (\>), **Seek** starts at the beginning of the index and searches forward.</span></span>
 
-<span data-ttu-id="4da34-129">如果 comparison 是小于 (\<) 或小于或等于 (\<=)， **Seek**启动末尾的索引和往回搜索。</span><span class="sxs-lookup"><span data-stu-id="4da34-129">If comparison is less than (\<) or less than or equal (\<=), **Seek** starts at the end of the index and searches backward.</span></span> <span data-ttu-id="4da34-130">但是，如果索引的末尾有重复的索引项， **Seek** 将从重复项中的任一项开始往后搜索。</span><span class="sxs-lookup"><span data-stu-id="4da34-130">However, if there are duplicate index entries at the end of the index, **Seek** starts at an arbitrary entry among the duplicates and then searches backward.</span></span>
+<span data-ttu-id="76edc-129">如果 comparison 小于 (\<) 或小于或等于 (\<=), **Seek**将从索引的末尾开始向后搜索。</span><span class="sxs-lookup"><span data-stu-id="76edc-129">If comparison is less than (\<) or less than or equal (\<=), **Seek** starts at the end of the index and searches backward.</span></span> <span data-ttu-id="76edc-130">但是，如果索引的末尾有重复的索引项， **Seek** 将从重复项中的任一项开始往后搜索。</span><span class="sxs-lookup"><span data-stu-id="76edc-130">However, if there are duplicate index entries at the end of the index, **Seek** starts at an arbitrary entry among the duplicates and then searches backward.</span></span>
 
-<span data-ttu-id="4da34-131">必须为索引中定义的所有字段指定值。</span><span class="sxs-lookup"><span data-stu-id="4da34-131">You must specify values for all fields defined in the index.</span></span> <span data-ttu-id="4da34-132">如果将 **Seek** 用于多列索引，并且没有为索引中的每个字段指定 comparison 值，则无法在 comparison 中使用等于 (=) 运算符。</span><span class="sxs-lookup"><span data-stu-id="4da34-132">If you use **Seek** with a multiple-column index, and you don't specify a comparison value for every field in the index, then you cannot use the equal (=) operator in the comparison.</span></span> <span data-ttu-id="4da34-133">这是因为某些条件字段 （key2、 key3，等等） 将默认为 Null，可能不匹配。</span><span class="sxs-lookup"><span data-stu-id="4da34-133">That's because some of the criteria fields (key2, key3, and so on) will default to Null, which will probably not match.</span></span> <span data-ttu-id="4da34-134">因此，仅当除查找的键字段外，所有字段均为 **null** 的记录时，等于运算符才能正常工作。</span><span class="sxs-lookup"><span data-stu-id="4da34-134">Therefore, the equal operator will work correctly only if you have a record which is all **null** except the key you're looking for.</span></span> <span data-ttu-id="4da34-135">建议您使用大于或等于 (\>=) 运算符相反。</span><span class="sxs-lookup"><span data-stu-id="4da34-135">It's recommended that you use the greater than or equal (\>=) operator instead.</span></span>
+<span data-ttu-id="76edc-131">必须为索引中定义的所有字段指定值。</span><span class="sxs-lookup"><span data-stu-id="76edc-131">You must specify values for all fields defined in the index.</span></span> <span data-ttu-id="76edc-132">如果将 **Seek** 用于多列索引，并且没有为索引中的每个字段指定 comparison 值，则无法在 comparison 中使用等于 (=) 运算符。</span><span class="sxs-lookup"><span data-stu-id="76edc-132">If you use **Seek** with a multiple-column index, and you don't specify a comparison value for every field in the index, then you cannot use the equal (=) operator in the comparison.</span></span> <span data-ttu-id="76edc-133">这是因为某些条件字段（key2、key3 等）将默认为 Null，从而可能不会进行匹配。</span><span class="sxs-lookup"><span data-stu-id="76edc-133">That's because some of the criteria fields (key2, key3, and so on) will default to Null, which will probably not match.</span></span> <span data-ttu-id="76edc-134">因此，仅当除查找的键字段外，所有字段均为 **null** 的记录时，等于运算符才能正常工作。</span><span class="sxs-lookup"><span data-stu-id="76edc-134">Therefore, the equal operator will work correctly only if you have a record which is all **null** except the key you're looking for.</span></span> <span data-ttu-id="76edc-135">建议您改为使用大于或等于 (\>=) 运算符。</span><span class="sxs-lookup"><span data-stu-id="76edc-135">It's recommended that you use the greater than or equal (\>=) operator instead.</span></span>
 
-<span data-ttu-id="4da34-136">在 key1 参数必须是当前索引中的对应字段的字段数据类型相同。</span><span class="sxs-lookup"><span data-stu-id="4da34-136">The key1 argument must be of the same field data type as the corresponding field in the current index.</span></span> <span data-ttu-id="4da34-137">例如，如果当前索引引用 （如雇员 ID) 的数字字段，key1 必须为数字。</span><span class="sxs-lookup"><span data-stu-id="4da34-137">For example, if the current index refers to a number field (such as Employee ID), key1 must be numeric.</span></span> <span data-ttu-id="4da34-138">同样，如果当前索引引用 （如姓氏） 的文本字段，key1 必须是字符串。</span><span class="sxs-lookup"><span data-stu-id="4da34-138">Similarly, if the current index refers to a Text field (such as Last Name), key1 must be a string.</span></span>
+<span data-ttu-id="76edc-136">key1 参数的字段数据类型必须与当前索引中对应字段的字段数据类型相同。</span><span class="sxs-lookup"><span data-stu-id="76edc-136">The key1 argument must be of the same field data type as the corresponding field in the current index.</span></span> <span data-ttu-id="76edc-137">例如，如果当前索引引用了一个数字字段（例如“雇员 ID”），key1 必须为数字。</span><span class="sxs-lookup"><span data-stu-id="76edc-137">For example, if the current index refers to a number field (such as Employee ID), key1 must be numeric.</span></span> <span data-ttu-id="76edc-138">同样, 如果当前索引引用的是文本字段 (如 "姓"), key1 必须是字符串。</span><span class="sxs-lookup"><span data-stu-id="76edc-138">Similarly, if the current index refers to a Text field (such as Last Name), key1 must be a string.</span></span>
 
-<span data-ttu-id="4da34-139">使用 **Seek** 时不一定要有当前记录。</span><span class="sxs-lookup"><span data-stu-id="4da34-139">There doesn't have to be a current record when you use **Seek**.</span></span>
+<span data-ttu-id="76edc-139">使用 **Seek** 时不一定要有当前记录。</span><span class="sxs-lookup"><span data-stu-id="76edc-139">There doesn't have to be a current record when you use **Seek**.</span></span>
 
-<span data-ttu-id="4da34-140">可以使用 **[Indexes](indexes-collection-dao.md)** 集合枚举现有索引。</span><span class="sxs-lookup"><span data-stu-id="4da34-140">You can use the **[Indexes](indexes-collection-dao.md)** collection to enumerate the existing indexes.</span></span>
+<span data-ttu-id="76edc-140">可以使用 **[Indexes](indexes-collection-dao.md)** 集合枚举现有索引。</span><span class="sxs-lookup"><span data-stu-id="76edc-140">You can use the **[Indexes](indexes-collection-dao.md)** collection to enumerate the existing indexes.</span></span>
 
-<span data-ttu-id="4da34-p107">要在动态集类型或快照类型的 **Recordset** 中查找一个符合特定条件且没有被现有索引覆盖的记录，请使用 **[Find](recordset2-findfirst-method-dao.md)** 方法。要包括所有记录而不仅仅是符合特定条件的那些记录，请使用 **[Move](recordset-movefirst-method-dao.md)** 方法在记录间移动。</span><span class="sxs-lookup"><span data-stu-id="4da34-p107">To locate a record in a dynaset- or snapshot-type **Recordset** that satisfies a specific condition that is not covered by existing indexes, use the **[Find](recordset2-findfirst-method-dao.md)** methods. To include all records, not just those that satisfy a specific condition, use the **[Move](recordset-movefirst-method-dao.md)** methods to move from record to record.</span></span>
+<span data-ttu-id="76edc-p107">要在动态集类型或快照类型的 **Recordset** 中查找一个符合特定条件且没有被现有索引覆盖的记录，请使用 **[Find](recordset2-findfirst-method-dao.md)** 方法。要包括所有记录而不仅仅是符合特定条件的那些记录，请使用 **[Move](recordset-movefirst-method-dao.md)** 方法在记录间移动。</span><span class="sxs-lookup"><span data-stu-id="76edc-p107">To locate a record in a dynaset- or snapshot-type **Recordset** that satisfies a specific condition that is not covered by existing indexes, use the **[Find](recordset2-findfirst-method-dao.md)** methods. To include all records, not just those that satisfy a specific condition, use the **[Move](recordset-movefirst-method-dao.md)** methods to move from record to record.</span></span>
 
-<span data-ttu-id="4da34-p108">不能对链接表使用 **Seek** 方法，原因是不能将链接表打开为表类型 **Recordset** 对象。但是，如果使用 **[OpenDatabase](dbengine-opendatabase-method-dao.md)** 方法直接打开一个可安装的 ISAM（非 ODBC）数据库，则可以对该数据库中的表使用 **Seek**。</span><span class="sxs-lookup"><span data-stu-id="4da34-p108">You can't use the **Seek** method on a linked table because you can't open linked tables as table-type **Recordset** objects. However, if you use the **[OpenDatabase](dbengine-opendatabase-method-dao.md)** method to directly open an installable ISAM (non-ODBC) database, you can use **Seek** on tables in that database.</span></span>
+<span data-ttu-id="76edc-p108">不能对链接表使用 **Seek** 方法，原因是不能将链接表打开为表类型 **Recordset** 对象。但是，如果使用 **[OpenDatabase](dbengine-opendatabase-method-dao.md)** 方法直接打开一个可安装的 ISAM（非 ODBC）数据库，则可以对该数据库中的表使用 **Seek**。</span><span class="sxs-lookup"><span data-stu-id="76edc-p108">You can't use the **Seek** method on a linked table because you can't open linked tables as table-type **Recordset** objects. However, if you use the **[OpenDatabase](dbengine-opendatabase-method-dao.md)** method to directly open an installable ISAM (non-ODBC) database, you can use **Seek** on tables in that database.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4da34-145">示例</span><span class="sxs-lookup"><span data-stu-id="4da34-145">Example</span></span>
+## <a name="example"></a><span data-ttu-id="76edc-145">示例</span><span class="sxs-lookup"><span data-stu-id="76edc-145">Example</span></span>
 
-<span data-ttu-id="4da34-146">以下示例通过允许用户根据 ID 编号搜索产品，来演示 **Seek** 方法。</span><span class="sxs-lookup"><span data-stu-id="4da34-146">This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.</span></span>
+<span data-ttu-id="76edc-146">以下示例通过允许用户根据 ID 编号搜索产品，来演示 **Seek** 方法。</span><span class="sxs-lookup"><span data-stu-id="76edc-146">This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.</span></span>
 
 ```vb
     Sub SeekX() 
@@ -146,7 +146,7 @@ ms.locfileid: "28700645"
 
 <br/>
 
-<span data-ttu-id="4da34-p109">以下示例使用 **NoMatch** 属性确定 **Seek** 和 **FindFirst** 是否成功，如果未成功，则提供相应的反馈。若要使该过程运行，需要使用 SeekMatch 和 FindMatch 过程。</span><span class="sxs-lookup"><span data-stu-id="4da34-p109">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="76edc-p109">以下示例使用 **NoMatch** 属性确定 **Seek** 和 **FindFirst** 是否成功，如果未成功，则提供相应的反馈。若要使该过程运行，需要使用 SeekMatch 和 FindMatch 过程。</span><span class="sxs-lookup"><span data-stu-id="76edc-p109">This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.</span></span>
 
 ```vb
     Sub NoMatchX() 

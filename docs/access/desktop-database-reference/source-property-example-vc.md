@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9316f9360ff7a08300ebb379a4ebf7b01e2fb5f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308573"
 ---
-# <a name="source-property-example-vc"></a><span data-ttu-id="2c12d-102">Source 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="2c12d-102">Source property example (VC++)</span></span>
+# <a name="source-property-example-vc"></a><span data-ttu-id="47685-102">Source 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="47685-102">Source property example (VC++)</span></span>
 
 
-<span data-ttu-id="2c12d-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c12d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="47685-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="47685-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2c12d-104">本示例通过打开三个基于不同数据源的 [Recordset](source-property-ado-recordset.md) 对象来演示 [Source](recordset-object-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="2c12d-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="47685-104">本示例通过打开三个基于不同数据源的 [Recordset](recordset-object-ado.md) 对象来演示 [Source](source-property-ado-recordset.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="47685-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```cpp 
  

@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 82075a2421632c08daf40903aa389774e65231e4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718838"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307054"
 ---
-# <a name="relationname-property-dao"></a><span data-ttu-id="ecf8e-102">Relation.Name 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="ecf8e-102">Relation.Name property (DAO)</span></span>
+# <a name="relationname-property-dao"></a><span data-ttu-id="52e1b-102">Relation.Name 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="52e1b-102">Relation.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="ecf8e-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecf8e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="52e1b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="52e1b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ecf8e-p101">返回或设置指定对象的名称。对于尚未追加到集合中的对象，该属性为可读/写 **String** 类型；对于已追加到集合中的对象，该属性为只读 **String** 类型。</span><span class="sxs-lookup"><span data-stu-id="ecf8e-p101">Returns or sets the name of the specified object. Read/write **String** if the object has not been appended to a collection. Read-only **String** if the object has been appended to a collection.</span></span>
+<span data-ttu-id="52e1b-p101">返回或设置指定对象的名称。对于尚未追加到集合中的对象，该属性为可读/写 **String** 类型；对于已追加到集合中的对象，该属性为只读 **String** 类型。</span><span class="sxs-lookup"><span data-stu-id="52e1b-p101">Returns or sets the name of the specified object. Read/write **String** if the object has not been appended to a collection. Read-only **String** if the object has been appended to a collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ecf8e-107">语法</span><span class="sxs-lookup"><span data-stu-id="ecf8e-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="52e1b-107">语法</span><span class="sxs-lookup"><span data-stu-id="52e1b-107">Syntax</span></span>
 
-<span data-ttu-id="ecf8e-108">*表达式*。名称</span><span class="sxs-lookup"><span data-stu-id="ecf8e-108">*expression* .Name</span></span>
+<span data-ttu-id="52e1b-108">*表达式*。别名</span><span class="sxs-lookup"><span data-stu-id="52e1b-108">*expression* .Name</span></span>
 
-<span data-ttu-id="ecf8e-109">*表达式*一个代表**Relation**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="ecf8e-109">*expression* A variable that represents a **Relation** object.</span></span>
+<span data-ttu-id="52e1b-109">*表达式*一个代表**Relation**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="52e1b-109">*expression* A variable that represents a **Relation** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ecf8e-110">注解</span><span class="sxs-lookup"><span data-stu-id="ecf8e-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="52e1b-110">注解</span><span class="sxs-lookup"><span data-stu-id="52e1b-110">Remarks</span></span>
 
-<span data-ttu-id="ecf8e-111">**Relation** 对象名称的最大长度为 64 个字符。</span><span class="sxs-lookup"><span data-stu-id="ecf8e-111">The maximum length for the name of a **Relation** object is 64 characters.</span></span>
+<span data-ttu-id="52e1b-111">**Relation** 对象名称的最大长度为 64 个字符。</span><span class="sxs-lookup"><span data-stu-id="52e1b-111">The maximum length for the name of a **Relation** object is 64 characters.</span></span>
 

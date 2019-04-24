@@ -1,5 +1,5 @@
 ---
-title: Recordset.LastModified 属性 (DAO)
+title: LastModified 属性 (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
@@ -12,32 +12,32 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 232a87b1d34cacccaeb7c380ec522f5ba1def028
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300495"
 ---
-# <a name="recordsetlastmodified-property-dao"></a><span data-ttu-id="89b4f-102">Recordset.LastModified 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="89b4f-102">Recordset.LastModified property (DAO)</span></span>
+# <a name="recordsetlastmodified-property-dao"></a><span data-ttu-id="08d51-102">LastModified 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="08d51-102">Recordset.LastModified property (DAO)</span></span>
 
 
-<span data-ttu-id="89b4f-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="89b4f-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="08d51-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="08d51-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="89b4f-104">返回一个书签，该书签指示最近添加或更改的记录。</span><span class="sxs-lookup"><span data-stu-id="89b4f-104">Returns a bookmark indicating the most recently added or changed record.</span></span>
+<span data-ttu-id="08d51-104">返回一个书签, 该书签指示最近添加或更改的记录。</span><span class="sxs-lookup"><span data-stu-id="08d51-104">Returns a bookmark indicating the most recently added or changed record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="89b4f-105">语法</span><span class="sxs-lookup"><span data-stu-id="89b4f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="08d51-105">语法</span><span class="sxs-lookup"><span data-stu-id="08d51-105">Syntax</span></span>
 
-<span data-ttu-id="89b4f-106">*表达式*。LastModified</span><span class="sxs-lookup"><span data-stu-id="89b4f-106">*expression* .LastModified</span></span>
+<span data-ttu-id="08d51-106">*表达式*。LastModified</span><span class="sxs-lookup"><span data-stu-id="08d51-106">*expression* .LastModified</span></span>
 
-<span data-ttu-id="89b4f-107">*表达式*一个表示**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="89b4f-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="08d51-107">*表达式*一个代表**Recordset**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="08d51-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="89b4f-108">注解</span><span class="sxs-lookup"><span data-stu-id="89b4f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="08d51-108">注解</span><span class="sxs-lookup"><span data-stu-id="08d51-108">Remarks</span></span>
 
-<span data-ttu-id="89b4f-p101">可以使用 **LastModified** 属性移动到最近添加或删除的记录。可以将 **LastModified** 属性用于表类型和动态集类型的 **[Recordset](recordset-object-dao.md)** 对象。必须在 **Recordset** 对象自身中添加或修改记录， **LastModified** 属性才能有值。</span><span class="sxs-lookup"><span data-stu-id="89b4f-p101">You can use the **LastModified** property to move to the most recently added or updated record. Use the **LastModified** property with table- and dynaset-type **[Recordset](recordset-object-dao.md)** objects. A record must be added or modified in the **Recordset** object itself in order for the **LastModified** property to have a value.</span></span>
+<span data-ttu-id="08d51-p101">可以使用 **LastModified** 属性移动到最近添加或删除的记录。可以将 **LastModified** 属性用于表类型和动态集类型的 **[Recordset](recordset-object-dao.md)** 对象。必须在 **Recordset** 对象自身中添加或修改记录， **LastModified** 属性才能有值。</span><span class="sxs-lookup"><span data-stu-id="08d51-p101">You can use the **LastModified** property to move to the most recently added or updated record. Use the **LastModified** property with table- and dynaset-type **[Recordset](recordset-object-dao.md)** objects. A record must be added or modified in the **Recordset** object itself in order for the **LastModified** property to have a value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="89b4f-112">示例</span><span class="sxs-lookup"><span data-stu-id="89b4f-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="08d51-112">示例</span><span class="sxs-lookup"><span data-stu-id="08d51-112">Example</span></span>
 
-<span data-ttu-id="89b4f-113">以下示例使用 **LastModified** 属性将当前记录指针移动到已修改的记录和新创建的记录。</span><span class="sxs-lookup"><span data-stu-id="89b4f-113">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
+<span data-ttu-id="08d51-113">以下示例使用 **LastModified** 属性将当前记录指针移动到已修改的记录和新创建的记录。</span><span class="sxs-lookup"><span data-stu-id="08d51-113">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
 
 ```vb
     Sub LastModifiedX() 
@@ -98,7 +98,7 @@ ms.locfileid: "28725929"
 
 <br/>
 
-<span data-ttu-id="89b4f-p102">以下示例使用 **AddNew** 方法创建一个具有指定名称的新记录。若要使该过程运行，需要使用 AddName 函数。</span><span class="sxs-lookup"><span data-stu-id="89b4f-p102">This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.</span></span>
+<span data-ttu-id="08d51-p102">以下示例使用 **AddNew** 方法创建一个具有指定名称的新记录。若要使该过程运行，需要使用 AddName 函数。</span><span class="sxs-lookup"><span data-stu-id="08d51-p102">This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.</span></span>
 
 ```vb
     Sub AddNewX() 

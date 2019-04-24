@@ -1,5 +1,5 @@
 ---
-title: Property.Inherited 属性 (DAO)
+title: 属性。继承属性 (DAO)
 TOCTitle: Inherited Property
 ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845349(v=office.15)
@@ -12,34 +12,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: cf3aef6d04c7d7cc573ec1d6efaca7d5238f5125
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302924"
 ---
-# <a name="propertyinherited-property-dao"></a><span data-ttu-id="ee07a-102">Property.Inherited 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="ee07a-102">Property.Inherited property (DAO)</span></span>
+# <a name="propertyinherited-property-dao"></a><span data-ttu-id="37afa-102">属性。继承属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="37afa-102">Property.Inherited property (DAO)</span></span>
 
 
-<span data-ttu-id="ee07a-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="ee07a-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="37afa-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="37afa-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="ee07a-104">返回一个值，该值指示某个 **[Property](property-object-dao.md)** 对象是否是从基础对象中继承的。</span><span class="sxs-lookup"><span data-stu-id="ee07a-104">Returns a value that indicates whether a **[Property](property-object-dao.md)** object is inherited from an underlying object.</span></span>
+<span data-ttu-id="37afa-104">返回一个值，该值指示某个 **[Property](property-object-dao.md)** 对象是否是从基础对象中继承的。</span><span class="sxs-lookup"><span data-stu-id="37afa-104">Returns a value that indicates whether a **[Property](property-object-dao.md)** object is inherited from an underlying object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ee07a-105">语法</span><span class="sxs-lookup"><span data-stu-id="ee07a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="37afa-105">语法</span><span class="sxs-lookup"><span data-stu-id="37afa-105">Syntax</span></span>
 
-<span data-ttu-id="ee07a-106">*表达式*。继承</span><span class="sxs-lookup"><span data-stu-id="ee07a-106">*expression* .Inherited</span></span>
+<span data-ttu-id="37afa-106">*表达式*。继承</span><span class="sxs-lookup"><span data-stu-id="37afa-106">*expression* .Inherited</span></span>
 
-<span data-ttu-id="ee07a-107">*表达式*一个代表**Property**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="ee07a-107">*expression* A variable that represents a **Property** object.</span></span>
+<span data-ttu-id="37afa-107">*表达式*一个代表**Property**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="37afa-107">*expression* A variable that represents a **Property** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ee07a-108">注解</span><span class="sxs-lookup"><span data-stu-id="ee07a-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="37afa-108">注解</span><span class="sxs-lookup"><span data-stu-id="37afa-108">Remarks</span></span>
 
-<span data-ttu-id="ee07a-109">对于代表预定义属性的内置 **Property** 对象，唯一可能的返回值是 **False**。</span><span class="sxs-lookup"><span data-stu-id="ee07a-109">For built-in **Property** objects that represent predefined properties, the only possible return value is **False**.</span></span>
+<span data-ttu-id="37afa-109">对于代表预定义属性的内置 **Property** 对象，唯一可能的返回值是 **False**。</span><span class="sxs-lookup"><span data-stu-id="37afa-109">For built-in **Property** objects that represent predefined properties, the only possible return value is **False**.</span></span>
 
-<span data-ttu-id="ee07a-p101">可以使用 **Inherited** 属性确定某个用户定义的 **Property** 是否是为其应用到的对象创建的，或者 **Property** 是否是从另一个对象继承的。例如，假设您为 [**QueryDef**](querydef-object-dao.md) 对象创建了一个新的 **Property**，然后从 [QueryDef](recordset-object-dao.md) 对象打开了一个 \*\*\*\*Recordset\*\*\*\* 对象。此新的 **Property** 将是 **Recordset** 对象的 **[Properties](properties-collection-dao.md)** 集合的一部分，并且其 **Inherited** 属性将设置为 **True**，这是因为该属性是为 **QueryDef** 对象（而不是为 **Recordset** 对象）创建的。</span><span class="sxs-lookup"><span data-stu-id="ee07a-p101">You can use the **Inherited** property to determine whether a user-defined **Property** was created for the object it applies to, or whether the **Property** was inherited from another object. For example, suppose you create a new **Property** for a **[QueryDef](querydef-object-dao.md)** object and then open a **[Recordset](recordset-object-dao.md)** object from the **QueryDef** object. This new **Property** will be part of the **Recordset** object's **[Properties](properties-collection-dao.md)** collection, and its **Inherited** property will be set to **True** because the property was created for the **QueryDef** object, not the **Recordset** object.</span></span>
+<span data-ttu-id="37afa-110">可以使用 **Inherited** 属性确定某个用户定义的 **Property** 是否是为其应用到的对象创建的，或者 **Property** 是否是从另一个对象继承的。</span><span class="sxs-lookup"><span data-stu-id="37afa-110">You can use the **Inherited** property to determine whether a user-defined **Property** was created for the object it applies to, or whether the **Property** was inherited from another object.</span></span> <span data-ttu-id="37afa-111">例如，假设您为 **[QueryDef](querydef-object-dao.md)** 对象创建了一个新的 **Property**，然后从 **QueryDef** 对象打开了一个 **[Recordset](recordset-object-dao.md)** 对象。</span><span class="sxs-lookup"><span data-stu-id="37afa-111">For example, suppose you create a new **Property** for a **[QueryDef](querydef-object-dao.md)** object and then open a **[Recordset](recordset-object-dao.md)** object from the **QueryDef** object.</span></span> <span data-ttu-id="37afa-112">此新的 **Property** 将是 **Recordset** 对象的 **[Properties](properties-collection-dao.md)** 集合的一部分，并且其 **Inherited** 属性将设置为 **True**，这是因为该属性是为 **QueryDef** 对象（而不是为 **Recordset** 对象）创建的。</span><span class="sxs-lookup"><span data-stu-id="37afa-112">This new **Property** will be part of the **Recordset** object's **[Properties](properties-collection-dao.md)** collection, and its **Inherited** property will be set to **True** because the property was created for the **QueryDef** object, not the **Recordset** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="ee07a-113">示例</span><span class="sxs-lookup"><span data-stu-id="ee07a-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="37afa-113">示例</span><span class="sxs-lookup"><span data-stu-id="37afa-113">Example</span></span>
 
-<span data-ttu-id="ee07a-114">以下示例使用 **Inherited** 属性确定用户定义的 **Property** 对象是为 **Recordset** 对象创建的，还是为某个基础对象创建的。</span><span class="sxs-lookup"><span data-stu-id="ee07a-114">This example use the **Inherited** property to determine if a user-defined **Property** object was created for a **Recordset** object or for some underlying object.</span></span>
+<span data-ttu-id="37afa-114">以下示例使用 **Inherited** 属性确定用户定义的 **Property** 对象是为 **Recordset** 对象创建的，还是为某个基础对象创建的。</span><span class="sxs-lookup"><span data-stu-id="37afa-114">This example use the **Inherited** property to determine if a user-defined **Property** object was created for a **Recordset** object or for some underlying object.</span></span>
 
 ```vb 
 Sub InheritedX() 
