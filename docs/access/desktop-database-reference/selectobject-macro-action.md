@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6287bc8a66858d51d65c37477eed7a86cd7839af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308727"
 ---
-# <a name="selectobject-macro-action"></a><span data-ttu-id="190fe-102">SelectObject 宏操作</span><span class="sxs-lookup"><span data-stu-id="190fe-102">SelectObject macro action</span></span>
+# <a name="selectobject-macro-action"></a><span data-ttu-id="88cde-102">SelectObject 宏操作</span><span class="sxs-lookup"><span data-stu-id="88cde-102">SelectObject macro action</span></span>
 
-<span data-ttu-id="190fe-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="190fe-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="88cde-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="88cde-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="190fe-104">可以使用 **SelectObject** 操作选择指定的数据库对象。</span><span class="sxs-lookup"><span data-stu-id="190fe-104">You can use the **SelectObject** action to select a specified database object.</span></span>
+<span data-ttu-id="88cde-104">可以使用 **SelectObject** 操作选择指定的数据库对象。</span><span class="sxs-lookup"><span data-stu-id="88cde-104">You can use the **SelectObject** action to select a specified database object.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="190fe-105">设置</span><span class="sxs-lookup"><span data-stu-id="190fe-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="88cde-105">Setting</span><span class="sxs-lookup"><span data-stu-id="88cde-105">Setting</span></span>
 
-<span data-ttu-id="190fe-106">**SelectObject** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="190fe-106">The **SelectObject** action has the following arguments.</span></span>
+<span data-ttu-id="88cde-106">**SelectObject** 操作具有下列参数。</span><span class="sxs-lookup"><span data-stu-id="88cde-106">The **SelectObject** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -35,36 +35,36 @@ ms.locfileid: "28721848"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="190fe-107">操作参数</span><span class="sxs-lookup"><span data-stu-id="190fe-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="190fe-108">说明</span><span class="sxs-lookup"><span data-stu-id="190fe-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="88cde-107">操作参数</span><span class="sxs-lookup"><span data-stu-id="88cde-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="88cde-108">说明</span><span class="sxs-lookup"><span data-stu-id="88cde-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="190fe-109"><strong>对象类型</strong></span><span class="sxs-lookup"><span data-stu-id="190fe-109"><strong>Object Type</strong></span></span></p></td>
-<td><p><span data-ttu-id="190fe-p101">要选择的数据库对象的类型。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“对象类型”</strong>框中单击<strong>“表”</strong>、<strong>“查询”</strong>、<strong>“窗体”</strong>、<strong>“报表”</strong>、<strong>“宏”</strong>、<strong>“模块”</strong>、<strong>“数据访问页”</strong>、<strong>“服务器视图”</strong>、<strong>“图表”</strong>、<strong>“存储过程”</strong>或<strong>“函数”</strong>。这是一个必选参数。</span><span class="sxs-lookup"><span data-stu-id="190fe-p101">The type of database object to select. Click <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, <strong>Report</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Data Access Page</strong>, <strong>Server View</strong>, <strong>Diagram</strong>, <strong>Stored Procedure</strong>, or <strong>Function</strong> in the <strong>Object Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</span></span></p></td>
+<td><p><span data-ttu-id="88cde-109"><strong>对象类型</strong></span><span class="sxs-lookup"><span data-stu-id="88cde-109"><strong>Object Type</strong></span></span></p></td>
+<td><p><span data-ttu-id="88cde-p101">要选择的数据库对象的类型。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“对象类型”</strong>框中单击<strong>“表”</strong>、<strong>“查询”</strong>、<strong>“窗体”</strong>、<strong>“报表”</strong>、<strong>“宏”</strong>、<strong>“模块”</strong>、<strong>“数据访问页”</strong>、<strong>“服务器视图”</strong>、<strong>“图表”</strong>、<strong>“存储过程”</strong>或<strong>“函数”</strong>。这是一个必选参数。</span><span class="sxs-lookup"><span data-stu-id="88cde-p101">The type of database object to select. Click <strong>Table</strong>, <strong>Query</strong>, <strong>Form</strong>, <strong>Report</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Data Access Page</strong>, <strong>Server View</strong>, <strong>Diagram</strong>, <strong>Stored Procedure</strong>, or <strong>Function</strong> in the <strong>Object Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="190fe-113"><strong>对象名称</strong></span><span class="sxs-lookup"><span data-stu-id="190fe-113"><strong>Object Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="190fe-114">要选择的对象的名称。</span><span class="sxs-lookup"><span data-stu-id="190fe-114">The name of the object to select.</span></span> <span data-ttu-id="190fe-115"><strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。</span><span class="sxs-lookup"><span data-stu-id="190fe-115">The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument.</span></span> <span data-ttu-id="190fe-116">这是一个必需的参数，除非您将在导航窗格中参数设置为<strong>是</strong>。</span><span class="sxs-lookup"><span data-stu-id="190fe-116">This is a required argument, unless you set the In Navigation Pane argument to <strong>Yes</strong>.</span></span></p><p><span data-ttu-id="190fe-117"><strong>注意</strong>：<STRONG>服务器视图</STRONG>、<STRONG>图表</STRONG>或<STRONG>存储过程</STRONG>的对象的对象名称并不会显示在<STRONG>对象名称</STRONG>框中的 Access 项目 (.adp)。</span><span class="sxs-lookup"><span data-stu-id="190fe-117"><strong>NOTE</strong>: The object names for <STRONG>Server View</STRONG>, <STRONG>Diagram</STRONG>, or <STRONG>Stored Procedure</STRONG> objects are not displayed in the <STRONG>Object Name</STRONG> box of an Access project (.adp).</span></span></p></td>
+<td><p><span data-ttu-id="88cde-113"><strong>对象名称</strong></span><span class="sxs-lookup"><span data-stu-id="88cde-113"><strong>Object Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="88cde-p102">要选择的对象的名称。<strong>“对象名称”</strong>框会显示数据库中属于“对象类型”<strong></strong>参数所选的类型的所有对象。除非您将“在导航窗格中”参数设置为<strong>“是”</strong>，否则此参数是必选参数。</span><span class="sxs-lookup"><span data-stu-id="88cde-p102">The name of the object to select. The <strong>Object Name</strong> box shows all objects in the database of the type selected by the <strong>Object Type</strong> argument. This is a required argument, unless you set the In Navigation Pane argument to <strong>Yes</strong>.</span></span></p><p><span data-ttu-id="88cde-117"><strong>注意</strong>:<STRONG>服务器视图</STRONG>、<STRONG>图表</STRONG>或<STRONG>存储过程</STRONG>对象的对象名称不会显示在 Access 项目 (.adp) 的 "<STRONG>对象名称</STRONG>" 框中。</span><span class="sxs-lookup"><span data-stu-id="88cde-117"><strong>NOTE</strong>: The object names for <STRONG>Server View</STRONG>, <STRONG>Diagram</STRONG>, or <STRONG>Stored Procedure</STRONG> objects are not displayed in the <STRONG>Object Name</STRONG> box of an Access project (.adp).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="190fe-118"><strong>在导航窗格中</strong></span><span class="sxs-lookup"><span data-stu-id="190fe-118"><strong>In Navigation Pane</strong></span></span></p></td>
-<td><p><span data-ttu-id="190fe-p103">指定 Microsoft Access 是否选择导航窗格中的对象。请单击<strong>“是”</strong>（选择导航窗格中的对象）或<strong>“否”</strong>（不选择导航窗格中的对象）。默认值为<strong>“否”</strong>。</span><span class="sxs-lookup"><span data-stu-id="190fe-p103">Specifies whether Microsoft Access selects the object in the Navigation Pane. Click <strong>Yes</strong> (to select the object in the Navigation Pane) or <strong>No</strong> (not to select the object in the Navigation Pane). The default is <strong>No</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="88cde-118"><strong>在导航窗格中</strong></span><span class="sxs-lookup"><span data-stu-id="88cde-118"><strong>In Navigation Pane</strong></span></span></p></td>
+<td><p><span data-ttu-id="88cde-p103">指定 Microsoft Access 是否选择导航窗格中的对象。请单击<strong>“是”</strong>（选择导航窗格中的对象）或<strong>“否”</strong>（不选择导航窗格中的对象）。默认值为<strong>“否”</strong>。</span><span class="sxs-lookup"><span data-stu-id="88cde-p103">Specifies whether Microsoft Access selects the object in the Navigation Pane. Click <strong>Yes</strong> (to select the object in the Navigation Pane) or <strong>No</strong> (not to select the object in the Navigation Pane). The default is <strong>No</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="190fe-122">说明</span><span class="sxs-lookup"><span data-stu-id="190fe-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="88cde-122">注解</span><span class="sxs-lookup"><span data-stu-id="88cde-122">Remarks</span></span>
 
-<span data-ttu-id="190fe-123">**SelectObject**操作适用于可接收焦点任何访问对象。</span><span class="sxs-lookup"><span data-stu-id="190fe-123">The **SelectObject** action works with any Access object that can receive the focus.</span></span> <span data-ttu-id="190fe-124">此操作使指定的对象获得焦点，显示对象如果它处于隐藏状态。</span><span class="sxs-lookup"><span data-stu-id="190fe-124">This action gives the specified object the focus and shows the object if it's hidden.</span></span> <span data-ttu-id="190fe-125">如果对象是窗体， **SelectObject**操作将窗体的**Visible**属性设置为**是**，并让窗体返回其窗体属性 （例如，为模式或弹出式窗体） 设置的模式。</span><span class="sxs-lookup"><span data-stu-id="190fe-125">If the object is a form, the **SelectObject** action sets the form's **Visible** property to **Yes** and returns the form to the mode set by its form properties (for example, as a modal or pop-up form).</span></span>
+<span data-ttu-id="88cde-p104">**SelectObject** 操作适用于可以接收焦点的任何 Access 对象。此操作将焦点移到指定的对象上，如果对象是隐藏的，还将显示该对象。如果该对象为窗体，**SelectObject** 操作会将窗体的“可见”\*\*\*\* 属性设置为“是”\*\*\*\*，并将窗体返回到通过其窗体属性设置的模式（例如，模式或弹出式窗体）。</span><span class="sxs-lookup"><span data-stu-id="88cde-p104">The **SelectObject** action works with any Access object that can receive the focus. This action gives the specified object the focus and shows the object if it's hidden. If the object is a form, the **SelectObject** action sets the form's **Visible** property to **Yes** and returns the form to the mode set by its form properties (for example, as a modal or pop-up form).</span></span>
 
-<span data-ttu-id="190fe-126">如果在一个其他 Access 窗口中，该对象未打开，您可以通过**在导航窗格中**参数设置为**是**导航窗格中选择它。</span><span class="sxs-lookup"><span data-stu-id="190fe-126">If the object isn't open in one of the other Access windows, you can select it in the Navigation Pane by setting the **In Navigation Pane** argument to **Yes**.</span></span> <span data-ttu-id="190fe-127">如果将**在导航窗格中**参数设置为**否**，，当您尝试选择未打开对象时，但未出现错误消息。</span><span class="sxs-lookup"><span data-stu-id="190fe-127">If you set the **In Navigation Pane** argument to **No**, an error message appears when you try to select an object that isn't open.</span></span>
+<span data-ttu-id="88cde-p105">If the object isn't open in one of the other Access windows, you can select it in the Navigation Pane by setting the **In Navigation Pane** argument to **Yes**. If you set the **In Navigation Pane** argument to **No**, an error message appears when you try to select an object that isn't open.</span><span class="sxs-lookup"><span data-stu-id="88cde-p105">If the object isn't open in one of the other Access windows, you can select it in the Navigation Pane by setting the **In Navigation Pane** argument to **Yes**. If you set the **In Navigation Pane** argument to **No**, an error message appears when you try to select an object that isn't open.</span></span>
 
-<span data-ttu-id="190fe-p106">通常，您可能会使用此操作来选择要对其执行其他操作的对象。例如，如果您将 Access 配置为使用重叠窗口，而不是使用选项卡式文档，您可能需要还原已经最小化的对象（使用 **RestoreWindow** 操作）或最大化包含您要使用的对象的窗口（使用 **MaximizeWindow** 操作）。</span><span class="sxs-lookup"><span data-stu-id="190fe-p106">Often, you might use this action to select an object on which you want to perform additional actions. For example, if you have Access configured to use overlapping windows instead of tabbed documents, you may want to restore an object that has been minimized (by using the **RestoreWindow** action) or maximize a window that contains an object you want to work with (by using the **MaximizeWindow** action).</span></span>
+<span data-ttu-id="88cde-p106">通常，您可能会使用此操作来选择要对其执行其他操作的对象。例如，如果您将 Access 配置为使用重叠窗口，而不是使用选项卡式文档，您可能需要还原已经最小化的对象（使用 **RestoreWindow** 操作）或最大化包含您要使用的对象的窗口（使用 **MaximizeWindow** 操作）。</span><span class="sxs-lookup"><span data-stu-id="88cde-p106">Often, you might use this action to select an object on which you want to perform additional actions. For example, if you have Access configured to use overlapping windows instead of tabbed documents, you may want to restore an object that has been minimized (by using the **RestoreWindow** action) or maximize a window that contains an object you want to work with (by using the **MaximizeWindow** action).</span></span>
 
-<span data-ttu-id="190fe-p107">如果您选择了窗体，则可以使用 **GoToControl** 、 **GoToRecord** 和 **GoToPage** 操作移动至窗体上的特定区域。 **GoToRecord** 操作也适用于数据表。</span><span class="sxs-lookup"><span data-stu-id="190fe-p107">If you select a form, you can use the **GoToControl**, **GoToRecord**, and **GoToPage** actions to move to specific areas on the form. The **GoToRecord** action also works for datasheets.</span></span>
+<span data-ttu-id="88cde-p107">如果您选择了窗体，则可以使用 **GoToControl** 、 **GoToRecord** 和 **GoToPage** 操作移动至窗体上的特定区域。 **GoToRecord** 操作也适用于数据表。</span><span class="sxs-lookup"><span data-stu-id="88cde-p107">If you select a form, you can use the **GoToControl**, **GoToRecord**, and **GoToPage** actions to move to specific areas on the form. The **GoToRecord** action also works for datasheets.</span></span>
 
-<span data-ttu-id="190fe-132">要在 Visual Basic for Applications (VBA) 模块中运行 **SelectObject** 操作，请使用 **DoCmd** 对象的 **SelectObject** 方法。</span><span class="sxs-lookup"><span data-stu-id="190fe-132">To run the **SelectObject** action in a Visual Basic for Applications (VBA) module, use the **SelectObject** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="88cde-132">要在 Visual Basic for Applications (VBA) 模块中运行 **SelectObject** 操作，请使用 **DoCmd** 对象的 **SelectObject** 方法。</span><span class="sxs-lookup"><span data-stu-id="88cde-132">To run the **SelectObject** action in a Visual Basic for Applications (VBA) module, use the **SelectObject** method of the **DoCmd** object.</span></span>
 

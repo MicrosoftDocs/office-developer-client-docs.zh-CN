@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3aff68df09f211e4e87a9dbdf6848ddf7ec8f975
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293691"
 ---
-# <a name="documents-properties-dao"></a><span data-ttu-id="e77ad-102">文档属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="e77ad-102">Documents properties (DAO)</span></span>
+# <a name="documents-properties-dao"></a><span data-ttu-id="bee77-102">文档属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee77-102">Documents properties (DAO)</span></span>
 
-<span data-ttu-id="e77ad-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e77ad-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bee77-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="bee77-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e77ad-104">Documents.Count 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="e77ad-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
+- [<span data-ttu-id="bee77-104">Documents 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="bee77-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
 

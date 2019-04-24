@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3046917d41be9c3fa9934931765048ef4558345a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293957"
 ---
-# <a name="deleterule-property-example-vc"></a><span data-ttu-id="e3167-102">DeleteRule 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="e3167-102">DeleteRule property example (VC++)</span></span>
+# <a name="deleterule-property-example-vc"></a><span data-ttu-id="a720b-102">DeleteRule 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="a720b-102">DeleteRule property example (VC++)</span></span>
 
 
-<span data-ttu-id="e3167-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="e3167-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a720b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="a720b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e3167-p101">本示例演示 [Key](deleterule-property-adox.md) 对象的 [DeleteRule](key-object-adox.md) 属性。代码将追加一个新 [Table](table-object-adox.md)，然后定义一个新主键，同时将 **DeleteRule** 设置为 **adRICascade** 。</span><span class="sxs-lookup"><span data-stu-id="e3167-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
+<span data-ttu-id="a720b-p101">本示例演示 [Key](deleterule-property-adox.md) 对象的 [DeleteRule](key-object-adox.md) 属性。代码将追加一个新 [Table](table-object-adox.md)，然后定义一个新主键，同时将 **DeleteRule** 设置为 **adRICascade** 。</span><span class="sxs-lookup"><span data-stu-id="a720b-p101">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object. The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
 
 ```cpp 
  

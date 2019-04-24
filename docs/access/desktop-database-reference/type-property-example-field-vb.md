@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a0023eddf98acdfbcdc38095276342010e153321
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306298"
 ---
-# <a name="type-property-example-field-vb"></a><span data-ttu-id="bdb15-102">Type 属性示例 (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="bdb15-102">Type property example (Field) (VB)</span></span>
+# <a name="type-property-example-field-vb"></a><span data-ttu-id="f8ec8-102">Type 属性示例 (Field) (VB)</span><span class="sxs-lookup"><span data-stu-id="f8ec8-102">Type property example (Field) (VB)</span></span>
 
 
-<span data-ttu-id="bdb15-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="bdb15-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8ec8-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8ec8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bdb15-p101">此示例通过显示与 ***Employees***（雇员）表中的所有 [Field](field-object-ado.md) 对象的 [Type](type-property-ado.md) 属性值对应的常量名称来演示 [Type](type-property-ado.md) 属性。若要运行此过程，必须使用 FieldType 函数。</span><span class="sxs-lookup"><span data-stu-id="bdb15-p101">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table. The FieldType function is required for this procedure to run.</span></span>
+<span data-ttu-id="f8ec8-104">此示例通过显示与 ***Employees***（雇员）表中的所有 [Field](field-object-ado.md) 对象的 [Type](type-property-ado.md) 属性值对应的常量名称来演示 [Type](type-property-ado.md) 属性。</span><span class="sxs-lookup"><span data-stu-id="f8ec8-104">This example demonstrates the [Type](type-property-ado.md) property by displaying the name of the constant that corresponds to the value of the [Type](type-property-ado.md) property of all the [Field](field-object-ado.md) objects in the ***Employees*** table.</span></span> <span data-ttu-id="f8ec8-105">若要运行此过程，必须使用 FieldType 函数。</span><span class="sxs-lookup"><span data-stu-id="f8ec8-105">The FieldType function is required for this procedure to run.</span></span>
 
 ```vb 
  

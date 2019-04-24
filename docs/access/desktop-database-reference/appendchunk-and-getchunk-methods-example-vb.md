@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ae6adc835a75472570282650d1c9b86133a15ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297051"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vb"></a><span data-ttu-id="468ad-102">AppendChunk 和 GetChunk 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="468ad-102">AppendChunk and GetChunk methods example (VB)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vb"></a><span data-ttu-id="cf6b4-102">AppendChunk 和 GetChunk 方法示例 (VB)</span><span class="sxs-lookup"><span data-stu-id="cf6b4-102">AppendChunk and GetChunk methods example (VB)</span></span>
 
 
-<span data-ttu-id="468ad-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="468ad-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cf6b4-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf6b4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="468ad-104">以下示例使用 [AppendChunk](appendchunk-method-ado.md) 和 [GetChunk](getchunk-method-ado.md) 方法，用来自其他记录的数据填充图像字段。</span><span class="sxs-lookup"><span data-stu-id="468ad-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="cf6b4-104">以下示例使用 [AppendChunk](appendchunk-method-ado.md) 和 [GetChunk](getchunk-method-ado.md) 方法，用来自其他记录的数据填充图像字段。</span><span class="sxs-lookup"><span data-stu-id="cf6b4-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```vb 
  

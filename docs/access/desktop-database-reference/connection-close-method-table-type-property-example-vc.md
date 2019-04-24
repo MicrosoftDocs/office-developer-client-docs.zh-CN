@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b8e817557c882a28365677a8f5e5ae7f677f4fc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720910"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295952"
 ---
-# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="5033c-102">Connection 的 Close 方法，Table 的 Type 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="5033c-102">Connection Close method, Table Type property example (VC++)</span></span>
+# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="0b71b-102">Connection 的 Close 方法，Table 的 Type 属性示例 (VC++)</span><span class="sxs-lookup"><span data-stu-id="0b71b-102">Connection Close method, Table Type property example (VC++)</span></span>
 
 
-<span data-ttu-id="5033c-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="5033c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0b71b-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="0b71b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5033c-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为 **Nothing** 会"关闭"目录。关联的集合将为空。利用该目录中的架构对象创建的任何对象都将孤立。已被缓存的那些对象的属性仍然可用，但是试图读取需要调用提供程序的属性时会失败。</span><span class="sxs-lookup"><span data-stu-id="5033c-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="0b71b-p101">将 [ActiveConnection](activeconnection-property-adox.md) 属性设置为 **Nothing** 会"关闭"目录。关联的集合将为空。利用该目录中的架构对象创建的任何对象都将孤立。已被缓存的那些对象的属性仍然可用，但是试图读取需要调用提供程序的属性时会失败。</span><span class="sxs-lookup"><span data-stu-id="0b71b-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```cpp 
  

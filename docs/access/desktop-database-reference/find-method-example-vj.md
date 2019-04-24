@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 33f34a657f483a406c1e0c61707b6eeaa9cf2bee
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726146"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292354"
 ---
-# <a name="find-method-example-vj"></a><span data-ttu-id="71499-102">Find 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="71499-102">Find method example (VJ++)</span></span>
+# <a name="find-method-example-vj"></a><span data-ttu-id="96b03-102">Find 方法示例 (VJ++)</span><span class="sxs-lookup"><span data-stu-id="96b03-102">Find method example (VJ++)</span></span>
 
 
-<span data-ttu-id="71499-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="71499-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="96b03-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="96b03-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="71499-104">此示例使用[Recordset](recordset-object-ado.md)对象的[Find](find-method-ado.md)方法找到并***Pubs***数据库中的业务标题的计数。</span><span class="sxs-lookup"><span data-stu-id="71499-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="71499-105">本示例假设基础提供程序不支持类似功能。</span><span class="sxs-lookup"><span data-stu-id="71499-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="96b03-104">本示例使用 [Recordset](recordset-object-ado.md) 对象的 [Find](find-method-ado.md) 方法来查找 ***Pubs*** 数据库中的职务并统计它们的数量。</span><span class="sxs-lookup"><span data-stu-id="96b03-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="96b03-105">本示例假设基础提供程序不支持类似功能。</span><span class="sxs-lookup"><span data-stu-id="96b03-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```java 
  

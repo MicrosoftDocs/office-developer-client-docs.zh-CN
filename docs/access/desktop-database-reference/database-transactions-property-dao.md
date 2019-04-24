@@ -1,5 +1,5 @@
 ---
-title: Database.Transactions 属性 (DAO)
+title: Database. 事务属性 (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192293(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2f1c45d6c051a0ef7dc8fe878cb0f0764a224949
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294699"
 ---
-# <a name="databasetransactions-property-dao"></a><span data-ttu-id="67ebd-102">Database.Transactions 属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="67ebd-102">Database.Transactions property (DAO)</span></span>
+# <a name="databasetransactions-property-dao"></a><span data-ttu-id="a9223-102">Database. 事务属性 (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9223-102">Database.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="67ebd-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="67ebd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a9223-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9223-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="67ebd-p101">返回一个值，该值指示对象是否支持事务。只读 **Boolean** 类型。</span><span class="sxs-lookup"><span data-stu-id="67ebd-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
+<span data-ttu-id="a9223-104">返回一个值，该值指示对象是否支持事务。</span><span class="sxs-lookup"><span data-stu-id="a9223-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="a9223-105">只读 **Boolean** 类型。</span><span class="sxs-lookup"><span data-stu-id="a9223-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="67ebd-106">语法</span><span class="sxs-lookup"><span data-stu-id="67ebd-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a9223-106">语法</span><span class="sxs-lookup"><span data-stu-id="a9223-106">Syntax</span></span>
 
-<span data-ttu-id="67ebd-107">*表达式*。事务</span><span class="sxs-lookup"><span data-stu-id="67ebd-107">*expression* .Transactions</span></span>
+<span data-ttu-id="a9223-107">*表达式*。处理</span><span class="sxs-lookup"><span data-stu-id="a9223-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="67ebd-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="67ebd-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="a9223-108">*表达式*一个代表**Database**对象的变量。</span><span class="sxs-lookup"><span data-stu-id="a9223-108">*expression* A variable that represents a **Database** object.</span></span>
 

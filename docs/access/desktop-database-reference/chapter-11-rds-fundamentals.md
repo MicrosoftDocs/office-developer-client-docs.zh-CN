@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c38c0fc323c0cbed4ea344fe86cab88a17d669da
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296505"
 ---
-# <a name="chapter-11-rds-fundamentals"></a><span data-ttu-id="a2f82-102">第 11 章：RDS 基础知识</span><span class="sxs-lookup"><span data-stu-id="a2f82-102">Chapter 11: RDS fundamentals</span></span>
+# <a name="chapter-11-rds-fundamentals"></a><span data-ttu-id="9def8-102">第 11 章：RDS 基础知识</span><span class="sxs-lookup"><span data-stu-id="9def8-102">Chapter 11: RDS fundamentals</span></span>
 
-<span data-ttu-id="a2f82-103">**适用于**： Access 2013、 Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2f82-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9def8-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="9def8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2f82-p101">本部分包含一系列可以按预定顺序阅读的主题。包括以下主题：</span><span class="sxs-lookup"><span data-stu-id="a2f82-p101">This section contains a series of topics that you can read in a prescribed order. The following topics are included:</span></span>
+<span data-ttu-id="9def8-p101">本部分包含一系列可以按预定顺序阅读的主题。包括以下主题：</span><span class="sxs-lookup"><span data-stu-id="9def8-p101">This section contains a series of topics that you can read in a prescribed order. The following topics are included:</span></span>
 
-- [<span data-ttu-id="a2f82-106">远程数据访问解决方案</span><span class="sxs-lookup"><span data-stu-id="a2f82-106">Solutions for Remote Data Access</span></span>](solutions-for-remote-data-access.md)
-- [<span data-ttu-id="a2f82-107">基本 RDS 编程模型</span><span class="sxs-lookup"><span data-stu-id="a2f82-107">Basic RDS programming model</span></span>](basic-rds-programming-model.md)
-- [<span data-ttu-id="a2f82-108">RDS 编程模型详述</span><span class="sxs-lookup"><span data-stu-id="a2f82-108">RDS programming model in detail</span></span>](rds-programming-model-in-detail.md)
-- [<span data-ttu-id="a2f82-109">包含对象的 RDS 编程模型</span><span class="sxs-lookup"><span data-stu-id="a2f82-109">RDS programming model with objects</span></span>](rds-programming-model-with-objects.md)
-- [<span data-ttu-id="a2f82-110">RDS 对象模型摘要</span><span class="sxs-lookup"><span data-stu-id="a2f82-110">RDS object model summary</span></span>](rds-object-model-summary.md)
-- [<span data-ttu-id="a2f82-111">RDS 方案</span><span class="sxs-lookup"><span data-stu-id="a2f82-111">RDS scenario</span></span>](rds-scenario.md)
+- [<span data-ttu-id="9def8-106">远程数据访问解决方案</span><span class="sxs-lookup"><span data-stu-id="9def8-106">Solutions for Remote Data Access</span></span>](solutions-for-remote-data-access.md)
+- [<span data-ttu-id="9def8-107">基本 RDS 编程模型</span><span class="sxs-lookup"><span data-stu-id="9def8-107">Basic RDS programming model</span></span>](basic-rds-programming-model.md)
+- [<span data-ttu-id="9def8-108">RDS 编程模型详述</span><span class="sxs-lookup"><span data-stu-id="9def8-108">RDS programming model in detail</span></span>](rds-programming-model-in-detail.md)
+- [<span data-ttu-id="9def8-109">包含对象的 RDS 编程模型</span><span class="sxs-lookup"><span data-stu-id="9def8-109">RDS programming model with objects</span></span>](rds-programming-model-with-objects.md)
+- [<span data-ttu-id="9def8-110">RDS 对象模型摘要</span><span class="sxs-lookup"><span data-stu-id="9def8-110">RDS object model summary</span></span>](rds-object-model-summary.md)
+- [<span data-ttu-id="9def8-111">RDS 方案</span><span class="sxs-lookup"><span data-stu-id="9def8-111">RDS scenario</span></span>](rds-scenario.md)
 
-<span data-ttu-id="a2f82-112">本部分还包含[RDS 教程](chapter-12-rds-tutorial.md)演示如何访问和更新数据源和一系列有关[使用 RDS](chapter-13-rds-usage-and-security.md)，将讨论更高级的 RDS 主题的主题。</span><span class="sxs-lookup"><span data-stu-id="a2f82-112">This section also contains the [RDS tutorial](chapter-12-rds-tutorial.md) which demonstrates how to access and update a data source, and a series of topics about [Using RDS](chapter-13-rds-usage-and-security.md), which discusses more advanced RDS topics.</span></span>
+<span data-ttu-id="9def8-112">本节还包含[rds 教程](chapter-12-rds-tutorial.md), 演示如何访问和更新数据源, 以及有关如何[使用 RDS](chapter-13-rds-usage-and-security.md)的一系列主题, 其中讨论了更高级的 rds 主题。</span><span class="sxs-lookup"><span data-stu-id="9def8-112">This section also contains the [RDS tutorial](chapter-12-rds-tutorial.md) which demonstrates how to access and update a data source, and a series of topics about [Using RDS](chapter-13-rds-usage-and-security.md), which discusses more advanced RDS topics.</span></span>
 
