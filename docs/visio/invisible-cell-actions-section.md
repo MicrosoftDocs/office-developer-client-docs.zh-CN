@@ -9,39 +9,39 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 070b4468-c907-b201-1633-1d3e10ecc2b2
 description: 指示动作标记或快捷菜单上是否显示动作。
-ms.openlocfilehash: 8749b7d6db4a932b97c68ab5cf30b879a57d28f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69bc96e76f27a64d6e1443f045c27566f598c1db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297240"
 ---
-# <a name="invisible-cell-actions-section"></a><span data-ttu-id="4b3dd-103">Invisible 单元格（“Actions”部分）</span><span class="sxs-lookup"><span data-stu-id="4b3dd-103">Invisible Cell (Actions Section)</span></span>
+# <a name="invisible-cell-actions-section"></a><span data-ttu-id="65d02-103">Invisible 单元格（“Actions”内容）</span><span class="sxs-lookup"><span data-stu-id="65d02-103">Invisible Cell (Actions Section)</span></span>
 
-<span data-ttu-id="4b3dd-104">指示动作标记或快捷菜单上是否显示动作。</span><span class="sxs-lookup"><span data-stu-id="4b3dd-104">Indicates whether the action is visible on the action tag or shortcut menu.</span></span> 
+<span data-ttu-id="65d02-104">指示动作标记或快捷菜单上是否显示动作。</span><span class="sxs-lookup"><span data-stu-id="65d02-104">Indicates whether the action is visible on the action tag or shortcut menu.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="4b3dd-105">在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。</span><span class="sxs-lookup"><span data-stu-id="4b3dd-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="65d02-105">在以前版本的 Microsoft Visio 中，动作标记称为“智能标记”。</span><span class="sxs-lookup"><span data-stu-id="65d02-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-|<span data-ttu-id="4b3dd-106">**值**</span><span class="sxs-lookup"><span data-stu-id="4b3dd-106">**Value**</span></span>|<span data-ttu-id="4b3dd-107">**说明**</span><span class="sxs-lookup"><span data-stu-id="4b3dd-107">**Description**</span></span>|
+|<span data-ttu-id="65d02-106">**Value**</span><span class="sxs-lookup"><span data-stu-id="65d02-106">**Value**</span></span>|<span data-ttu-id="65d02-107">**说明**</span><span class="sxs-lookup"><span data-stu-id="65d02-107">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="4b3dd-108">TRUE</span><span class="sxs-lookup"><span data-stu-id="4b3dd-108">TRUE</span></span>  <br/> |<span data-ttu-id="4b3dd-109">菜单上不显示动作。</span><span class="sxs-lookup"><span data-stu-id="4b3dd-109">The action is not visible on the menu.</span></span>  <br/> |
-|<span data-ttu-id="4b3dd-110">FALSE</span><span class="sxs-lookup"><span data-stu-id="4b3dd-110">FALSE</span></span>  <br/> |<span data-ttu-id="4b3dd-111">菜单上显示动作（默认值）。</span><span class="sxs-lookup"><span data-stu-id="4b3dd-111">The action is visible on the menu (the default).</span></span>  <br/> |
+|<span data-ttu-id="65d02-108">TRUE</span><span class="sxs-lookup"><span data-stu-id="65d02-108">TRUE</span></span>  <br/> |<span data-ttu-id="65d02-109">菜单上不显示动作。</span><span class="sxs-lookup"><span data-stu-id="65d02-109">The action is not visible on the menu.</span></span>  <br/> |
+|<span data-ttu-id="65d02-110">FALSE</span><span class="sxs-lookup"><span data-stu-id="65d02-110">FALSE</span></span>  <br/> |<span data-ttu-id="65d02-111">菜单上显示动作（默认值）。</span><span class="sxs-lookup"><span data-stu-id="65d02-111">The action is visible on the menu (the default).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4b3dd-112">注解</span><span class="sxs-lookup"><span data-stu-id="4b3dd-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="65d02-112">注解</span><span class="sxs-lookup"><span data-stu-id="65d02-112">Remarks</span></span>
 
-<span data-ttu-id="4b3dd-113">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Invisible 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="4b3dd-113">To get a reference to the Invisible cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="65d02-113">若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 Invisible 单元格的引用，请使用：</span><span class="sxs-lookup"><span data-stu-id="65d02-113">To get a reference to the Invisible cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4b3dd-114">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="4b3dd-114">Cell name:</span></span>  <br/> |<span data-ttu-id="4b3dd-115">操作。</span><span class="sxs-lookup"><span data-stu-id="4b3dd-115">Actions.</span></span> <span data-ttu-id="4b3dd-116">*名称*。Invisiblewhere 操作。</span><span class="sxs-lookup"><span data-stu-id="4b3dd-116">*name*  .Invisiblewhere Actions.</span></span>  <span data-ttu-id="4b3dd-117">*name*是 Actions 行的名称</span><span class="sxs-lookup"><span data-stu-id="4b3dd-117">*name*  is the name of the Actions row</span></span>  <br/> |
+|<span data-ttu-id="65d02-114">单元格名称：</span><span class="sxs-lookup"><span data-stu-id="65d02-114">Cell name:</span></span>  <br/> |<span data-ttu-id="65d02-115">操作.</span><span class="sxs-lookup"><span data-stu-id="65d02-115">Actions.</span></span> <span data-ttu-id="65d02-116">*名称*。Invisiblewhere 操作。</span><span class="sxs-lookup"><span data-stu-id="65d02-116">*name*  .Invisiblewhere Actions.</span></span>  <span data-ttu-id="65d02-117">*name*是操作行的名称</span><span class="sxs-lookup"><span data-stu-id="65d02-117">*name*  is the name of the Actions row</span></span>  <br/> |
    
-<span data-ttu-id="4b3dd-118">若要从某个程序按索引获取对 Invisible 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="4b3dd-118">To get a reference to the Invisible cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="65d02-118">若要从某个程序按索引获取对 Invisible 单元格的引用，请使用带下列参数的 **CellsSRC** 属性：</span><span class="sxs-lookup"><span data-stu-id="65d02-118">To get a reference to the Invisible cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4b3dd-119">内容索引：</span><span class="sxs-lookup"><span data-stu-id="4b3dd-119">Section index:</span></span>  <br/> |<span data-ttu-id="4b3dd-120">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="4b3dd-120">**visSectionAction**</span></span> <br/> |
-|<span data-ttu-id="4b3dd-121">行索引：</span><span class="sxs-lookup"><span data-stu-id="4b3dd-121">Row index:</span></span>  <br/> |<span data-ttu-id="4b3dd-122">**visRowAction** +  *i*其中*i* = 0、 1、 2...</span><span class="sxs-lookup"><span data-stu-id="4b3dd-122">**visRowAction** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="4b3dd-123">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="4b3dd-123">Cell index:</span></span>  <br/> |<span data-ttu-id="4b3dd-124">**visActionInvisible**</span><span class="sxs-lookup"><span data-stu-id="4b3dd-124">**visActionInvisible**</span></span> <br/> |
+|<span data-ttu-id="65d02-119">内容索引：</span><span class="sxs-lookup"><span data-stu-id="65d02-119">Section index:</span></span>  <br/> |<span data-ttu-id="65d02-120">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="65d02-120">**visSectionAction**</span></span> <br/> |
+|<span data-ttu-id="65d02-121">行索引：</span><span class="sxs-lookup"><span data-stu-id="65d02-121">Row index:</span></span>  <br/> |<span data-ttu-id="65d02-122">**visRowAction** +  *i* = \*\* 0、1、2 .。。</span><span class="sxs-lookup"><span data-stu-id="65d02-122">**visRowAction** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="65d02-123">单元格索引：</span><span class="sxs-lookup"><span data-stu-id="65d02-123">Cell index:</span></span>  <br/> |<span data-ttu-id="65d02-124">**visActionInvisible**</span><span class="sxs-lookup"><span data-stu-id="65d02-124">**visActionInvisible**</span></span> <br/> |
    
 

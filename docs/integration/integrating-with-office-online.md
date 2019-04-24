@@ -6,15 +6,15 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07cfa909-336f-466f-ab0a-acb642a78ba7
 description: 此位置不再提供此内容。若要继续，请参阅 GitHub 上的与 Office Online 集成。
-ms.openlocfilehash: 7b3fced36d0539ab0c51b03f1ebf3933f0ca225c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 8b8ec11e979b89e6f7175e67687743682025896a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299753"
 ---
-# <a name="integrating-with-office-online"></a><span data-ttu-id="99114-104">与 Office Online 集成</span><span class="sxs-lookup"><span data-stu-id="99114-104">Integrating with Office Online</span></span>
+# <a name="integrating-with-office-online"></a><span data-ttu-id="f8a73-104">与 Office Online 集成</span><span class="sxs-lookup"><span data-stu-id="f8a73-104">Integrating with Office Online</span></span>
 
-<span data-ttu-id="99114-p102">此位置不再提供此内容。若要继续，请参阅 GitHub 上的[与 Office Online 集成](https://wopi.readthedocs.org/en/latest/)。</span><span class="sxs-lookup"><span data-stu-id="99114-p102">This content is no longer available at this location. To continue, see [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/) on GitHub.</span></span> 
+<span data-ttu-id="f8a73-p102">此位置不再提供此内容。若要继续，请参阅 GitHub 上的[与 Office Online 集成](https://wopi.readthedocs.org/en/latest/)。</span><span class="sxs-lookup"><span data-stu-id="f8a73-p102">This content is no longer available at this location. To continue, see [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/) on GitHub.</span></span> 
   
 

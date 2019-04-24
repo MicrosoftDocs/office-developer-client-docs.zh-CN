@@ -11,40 +11,40 @@ keywords:
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3d3c6bbd529f43bd75b31b9348498928390a8f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304079"
 ---
-# <a name="func1"></a><span data-ttu-id="7f314-104">Func1</span><span class="sxs-lookup"><span data-stu-id="7f314-104">Func1</span></span>
+# <a name="func1"></a><span data-ttu-id="322b3-104">Func1</span><span class="sxs-lookup"><span data-stu-id="322b3-104">Func1</span></span>
 
- <span data-ttu-id="7f314-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="7f314-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="322b3-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="322b3-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="7f314-106">示例用户定义的工作表函数演示的静态的字符串值返回。</span><span class="sxs-lookup"><span data-stu-id="7f314-106">Example user-defined worksheet function demonstrates the return of a static string value.</span></span> <span data-ttu-id="7f314-107">加载 GENERIC.xll 时，以便它可以调用从工作表中注册此函数。</span><span class="sxs-lookup"><span data-stu-id="7f314-107">When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet.</span></span>
+<span data-ttu-id="322b3-106">用户定义的工作表函数示例演示了静态字符串值的返回。</span><span class="sxs-lookup"><span data-stu-id="322b3-106">Example user-defined worksheet function demonstrates the return of a static string value.</span></span> <span data-ttu-id="322b3-107">当加载了 GENERIC xll 时, 它将注册此函数, 以便可以从工作表中调用它。</span><span class="sxs-lookup"><span data-stu-id="322b3-107">When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet.</span></span>
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7f314-108">参数</span><span class="sxs-lookup"><span data-stu-id="7f314-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="322b3-108">参数</span><span class="sxs-lookup"><span data-stu-id="322b3-108">Parameters</span></span>
 
- <span data-ttu-id="7f314-109">_像素_(**LPXLOPER**)</span><span class="sxs-lookup"><span data-stu-id="7f314-109">_px_ (**LPXLOPER**)</span></span>
+ <span data-ttu-id="322b3-109">_px_(**LPXLOPER**)</span><span class="sxs-lookup"><span data-stu-id="322b3-109">_px_ (**LPXLOPER**)</span></span>
   
-<span data-ttu-id="7f314-110">此参数被忽略，并且可仅对触发器 Microsoft Excel 将调用的函数。</span><span class="sxs-lookup"><span data-stu-id="7f314-110">This argument is ignored, and serves only to trigger Microsoft Excel to call the function.</span></span>
+<span data-ttu-id="322b3-110">此参数将被忽略, 并且仅用于触发 Microsoft Excel 以调用函数。</span><span class="sxs-lookup"><span data-stu-id="322b3-110">This argument is ignored, and serves only to trigger Microsoft Excel to call the function.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="7f314-111">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="7f314-111">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="322b3-111">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="322b3-111">Property value/Return value</span></span>
 
- <span data-ttu-id="7f314-112">**LPXLOPER12**： 始终字符串"Func1"</span><span class="sxs-lookup"><span data-stu-id="7f314-112">**LPXLOPER12**: Always the string "Func1"</span></span>
+ <span data-ttu-id="322b3-112">**LPXLOPER12**: 始终是字符串 "Func1"</span><span class="sxs-lookup"><span data-stu-id="322b3-112">**LPXLOPER12**: Always the string "Func1"</span></span>
   
-### <a name="example"></a><span data-ttu-id="7f314-113">示例</span><span class="sxs-lookup"><span data-stu-id="7f314-113">Example</span></span>
+### <a name="example"></a><span data-ttu-id="322b3-113">示例</span><span class="sxs-lookup"><span data-stu-id="322b3-113">Example</span></span>
 
-<span data-ttu-id="7f314-114">请参阅`\SAMPLES\GENERIC\GENERIC.C`的此函数的源代码。</span><span class="sxs-lookup"><span data-stu-id="7f314-114">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="322b3-114">有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。</span><span class="sxs-lookup"><span data-stu-id="322b3-114">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="7f314-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="7f314-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="322b3-115">另请参阅</span><span class="sxs-lookup"><span data-stu-id="322b3-115">See also</span></span>
 
 
 
-[<span data-ttu-id="7f314-116">通用 DLL 中的函数</span><span class="sxs-lookup"><span data-stu-id="7f314-116">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="322b3-116">通用 DLL 中的函数</span><span class="sxs-lookup"><span data-stu-id="322b3-116">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 

@@ -8,77 +8,77 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 6e1182427c688e7c8b5ca53c1f5f4bb208b3609a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726342"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308370"
 ---
-# <a name="tabledef-object-dao"></a><span data-ttu-id="b1d39-102">TableDef 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="b1d39-102">TableDef Object (DAO)</span></span>
+# <a name="tabledef-object-dao"></a><span data-ttu-id="5e375-102">TableDef 对象 (DAO)</span><span class="sxs-lookup"><span data-stu-id="5e375-102">TableDef object (DAO)</span></span>
 
-<span data-ttu-id="b1d39-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1d39-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5e375-103">**适用于**：Access 2013、Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e375-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1d39-104">**TableDef** 对象代表已存储的基表或链接表（仅限 Microsoft Access 工作区）定义。</span><span class="sxs-lookup"><span data-stu-id="b1d39-104">A **TableDef** object represents the stored definition of a base table or a linked table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="5e375-104">**TableDef** 对象代表已存储的基表或链接表（仅限 Microsoft Access 工作区）定义。</span><span class="sxs-lookup"><span data-stu-id="5e375-104">A **TableDef** object represents the stored definition of a base table or a linked table (Microsoft Access workspaces only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b1d39-105">备注</span><span class="sxs-lookup"><span data-stu-id="b1d39-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5e375-105">备注</span><span class="sxs-lookup"><span data-stu-id="5e375-105">Remarks</span></span>
 
-<span data-ttu-id="b1d39-p101">通过使用 **TableDef** 对象及其方法和属性来操作表定义。例如，您可以进行下列操作：</span><span class="sxs-lookup"><span data-stu-id="b1d39-p101">You manipulate a table definition using a **TableDef** object and its methods and properties. For example, you can:</span></span>
+<span data-ttu-id="5e375-p101">通过使用 **TableDef** 对象及其方法和属性来操作表定义。例如，您可以进行下列操作：</span><span class="sxs-lookup"><span data-stu-id="5e375-p101">You manipulate a table definition using a **TableDef** object and its methods and properties. For example, you can:</span></span>
 
-- <span data-ttu-id="b1d39-108">检查数据库中的任何本地表、链接表或外部表的字段和索引结构。</span><span class="sxs-lookup"><span data-stu-id="b1d39-108">Examine the field and index structure of any local, linked, or external table in a database.</span></span>
+- <span data-ttu-id="5e375-108">检查数据库中的任何本地表、链接表或外部表的字段和索引结构。</span><span class="sxs-lookup"><span data-stu-id="5e375-108">Examine the field and index structure of any local, linked, or external table in a database.</span></span>
 
-- <span data-ttu-id="b1d39-109">使用 **Connect** 和 **SourceTableName** 属性设置或返回有关链接表的信息，并使用 **RefreshLink** 方法更新与链接表的连接。</span><span class="sxs-lookup"><span data-stu-id="b1d39-109">Use the **Connect** and **SourceTableName** properties to set or return information about linked tables, and use the **RefreshLink** method to update connections to linked tables.</span></span>
+- <span data-ttu-id="5e375-109">使用 **Connect** 和 **SourceTableName** 属性设置或返回有关链接表的信息，并使用 **RefreshLink** 方法更新与链接表的连接。</span><span class="sxs-lookup"><span data-stu-id="5e375-109">Use the **Connect** and **SourceTableName** properties to set or return information about linked tables, and use the **RefreshLink** method to update connections to linked tables.</span></span>
 
-- <span data-ttu-id="b1d39-110">使用 **ValidationRule** 和 **ValidationText** 属性设置或返回验证条件。</span><span class="sxs-lookup"><span data-stu-id="b1d39-110">Use the **ValidationRule** and **ValidationText** properties to set or return validation conditions.</span></span>
+- <span data-ttu-id="5e375-110">使用 **ValidationRule** 和 **ValidationText** 属性设置或返回验证条件。</span><span class="sxs-lookup"><span data-stu-id="5e375-110">Use the **ValidationRule** and **ValidationText** properties to set or return validation conditions.</span></span>
 
-- <span data-ttu-id="b1d39-111">使用 **OpenRecordset** 方法基于表定义创建 table–、dynaset–、dynamic–、snapshot– 或 forward–only–type **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="b1d39-111">Use the **OpenRecordset** method to create a table-, dynaset-, dynamic-, snapshot-, or forward-only-type **Recordset** object, based on the table definition.</span></span>
+- <span data-ttu-id="5e375-111">使用 **OpenRecordset** 方法基于表定义创建 table–、dynaset–、dynamic–、snapshot– 或 forward–only–type **Recordset** 对象。</span><span class="sxs-lookup"><span data-stu-id="5e375-111">Use the **OpenRecordset** method to create a table–, dynaset–, dynamic–, snapshot–, or forward–only–type **Recordset** object, based on the table definition.</span></span>
 
-<span data-ttu-id="b1d39-112">在基表中，**RecordCount** 属性包含指定数据库表中的记录数量。</span><span class="sxs-lookup"><span data-stu-id="b1d39-112">For base tables, the **RecordCount** property contains the number of records in the specified database table.</span></span> <span data-ttu-id="b1d39-113">在链接表中，**RecordCount** 属性设置始终为 –1。</span><span class="sxs-lookup"><span data-stu-id="b1d39-113">For linked tables, the **RecordCount** property setting is always -1.</span></span>
+<span data-ttu-id="5e375-112">在基表中，**RecordCount** 属性包含指定数据库表中的记录数量。</span><span class="sxs-lookup"><span data-stu-id="5e375-112">For base tables, the **RecordCount** property contains the number of records in the specified database table.</span></span> <span data-ttu-id="5e375-113">在链接表中，**RecordCount** 属性设置始终为 –1。</span><span class="sxs-lookup"><span data-stu-id="5e375-113">For linked tables, the **RecordCount** property setting is always –1.</span></span>
 
-<span data-ttu-id="b1d39-114">若要新建 **TableDef** 对象，请使用 **[CreateTableDef](database-createtabledef-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="b1d39-114">To create a new **TableDef** object, use the **[CreateTableDef](database-createtabledef-method-dao.md)** method.</span></span>
+<span data-ttu-id="5e375-114">若要新建 **TableDef** 对象，请使用 **[CreateTableDef](database-createtabledef-method-dao.md)** 方法。</span><span class="sxs-lookup"><span data-stu-id="5e375-114">To create a new **TableDef** object, use the **[CreateTableDef](database-createtabledef-method-dao.md)** method.</span></span>
 
-### <a name="to-add-a-field-to-a-table"></a><span data-ttu-id="b1d39-115">向表中添加字段</span><span class="sxs-lookup"><span data-stu-id="b1d39-115">To add a field to a table</span></span>
+### <a name="to-add-a-field-to-a-table"></a><span data-ttu-id="5e375-115">向表中添加字段</span><span class="sxs-lookup"><span data-stu-id="5e375-115">To add a field to a table</span></span>
 
-1.  <span data-ttu-id="b1d39-116">确保基于表的任何 **[Recordset](recordset-object-dao.md)** 对象全都已关闭。</span><span class="sxs-lookup"><span data-stu-id="b1d39-116">Make sure any **[Recordset](recordset-object-dao.md)** objects based on the table are all closed.</span></span>
+1.  <span data-ttu-id="5e375-116">确保基于表的任何 **[Recordset](recordset-object-dao.md)** 对象全都已关闭。</span><span class="sxs-lookup"><span data-stu-id="5e375-116">Make sure any **[Recordset](recordset-object-dao.md)** objects based on the table are all closed.</span></span>
 
-2.  <span data-ttu-id="b1d39-117">使用 **CreateField** 方法创建 **Field** 对象变量，然后设置其属性。</span><span class="sxs-lookup"><span data-stu-id="b1d39-117">Use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
+2.  <span data-ttu-id="5e375-117">使用 **CreateField** 方法创建 **Field** 对象变量，然后设置其属性。</span><span class="sxs-lookup"><span data-stu-id="5e375-117">Use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
 
-3.  <span data-ttu-id="b1d39-118">使用 **Append** 方法将 **Field** 对象添加到 **TableDef** 对象的 **Fields** 集合。</span><span class="sxs-lookup"><span data-stu-id="b1d39-118">Use the **Append** method to add the **Field** object to the **Fields** collection of the **TableDef** object.</span></span>
+3.  <span data-ttu-id="5e375-118">使用 **Append** 方法将 **Field** 对象添加到 **TableDef** 对象的 **Fields** 集合。</span><span class="sxs-lookup"><span data-stu-id="5e375-118">Use the **Append** method to add the **Field** object to the **Fields** collection of the **TableDef** object.</span></span>
 
-<span data-ttu-id="b1d39-119">如果没有给 **TableDefs** 集合中的 **Field** 对象分配任何索引，则可以将其删除，但是会丢失字段的数据。</span><span class="sxs-lookup"><span data-stu-id="b1d39-119">You can delete a **Field** object from a **TableDefs** collection if it doesn't have any indexes assigned to it, but you will lose the field's data.</span></span>
+<span data-ttu-id="5e375-119">如果没有给 **TableDefs** 集合中的 **Field** 对象分配任何索引，则可以将其删除，但是会丢失字段的数据。</span><span class="sxs-lookup"><span data-stu-id="5e375-119">You can delete a **Field** object from a **TableDefs** collection if it doesn't have any indexes assigned to it, but you will lose the field's data.</span></span>
 
-### <a name="to-create-a-table-that-is-ready-for-new-records-in-a-database"></a><span data-ttu-id="b1d39-120">创建可随时用作数据库中新记录的表</span><span class="sxs-lookup"><span data-stu-id="b1d39-120">To create a table that is ready for new records in a database</span></span>
+### <a name="to-create-a-table-that-is-ready-for-new-records-in-a-database"></a><span data-ttu-id="5e375-120">创建可随时用作数据库中新记录的表</span><span class="sxs-lookup"><span data-stu-id="5e375-120">To create a table that is ready for new records in a database</span></span>
 
-1.  <span data-ttu-id="b1d39-121">使用 **CreateTableDef** 方法创建 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="b1d39-121">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
+1.  <span data-ttu-id="5e375-121">使用 **CreateTableDef** 方法创建 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="5e375-121">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
 
-2.  <span data-ttu-id="b1d39-122">设置该对象的属性。</span><span class="sxs-lookup"><span data-stu-id="b1d39-122">Set its properties.</span></span>
+2.  <span data-ttu-id="5e375-122">设置该对象的属性。</span><span class="sxs-lookup"><span data-stu-id="5e375-122">Set its properties.</span></span>
 
-3.  <span data-ttu-id="b1d39-123">对于表中的每个字段，使用 **CreateField** 方法创建 **Field** 对象变量，然后设置其属性。</span><span class="sxs-lookup"><span data-stu-id="b1d39-123">For each field in the table, use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
+3.  <span data-ttu-id="5e375-123">对于表中的每个字段，使用 **CreateField** 方法创建 **Field** 对象变量，然后设置其属性。</span><span class="sxs-lookup"><span data-stu-id="5e375-123">For each field in the table, use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
 
-4.  <span data-ttu-id="b1d39-124">使用 **Append** 方法，将字段添加到 **TableDef** 对象的 **Fields** 集合。</span><span class="sxs-lookup"><span data-stu-id="b1d39-124">Use the **Append** method to add the fields to the **Fields** collection of the **TableDef** object.</span></span>
+4.  <span data-ttu-id="5e375-124">使用 **Append** 方法，将字段添加到 **TableDef** 对象的 **Fields** 集合。</span><span class="sxs-lookup"><span data-stu-id="5e375-124">Use the **Append** method to add the fields to the **Fields** collection of the **TableDef** object.</span></span>
 
-5.  <span data-ttu-id="b1d39-125">使用 **Append** 方法，将新的 **TableDef** 对象添加到 **Database** 对象的 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="b1d39-125">Use the **Append** method to add the new **TableDef** object to the **TableDefs** collection of the **Database** object.</span></span>
+5.  <span data-ttu-id="5e375-125">使用 **Append** 方法，将新的 **TableDef** 对象添加到 **Database** 对象的 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="5e375-125">Use the **Append** method to add the new **TableDef** object to the **TableDefs** collection of the **Database** object.</span></span>
 
-<span data-ttu-id="b1d39-126">链接表由 **TableDef** 对象的 **SourceTableName** 和 **Connect** 属性连接到数据库。</span><span class="sxs-lookup"><span data-stu-id="b1d39-126">A linked table is connected to the database by the **SourceTableName** and **Connect** properties of the **TableDef** object.</span></span>
+<span data-ttu-id="5e375-126">链接表由 **TableDef** 对象的 **SourceTableName** 和 **Connect** 属性连接到数据库。</span><span class="sxs-lookup"><span data-stu-id="5e375-126">A linked table is connected to the database by the **SourceTableName** and **Connect** properties of the **TableDef** object.</span></span>
 
-### <a name="to-link-a-table-to-a-database"></a><span data-ttu-id="b1d39-127">将表链接到数据库</span><span class="sxs-lookup"><span data-stu-id="b1d39-127">To link a table to a database</span></span>
+### <a name="to-link-a-table-to-a-database"></a><span data-ttu-id="5e375-127">将表链接到数据库</span><span class="sxs-lookup"><span data-stu-id="5e375-127">To link a table to a database</span></span>
 
-1.  <span data-ttu-id="b1d39-128">使用 **CreateTableDef** 方法创建 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="b1d39-128">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
+1.  <span data-ttu-id="5e375-128">使用 **CreateTableDef** 方法创建 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="5e375-128">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
 
-2.  <span data-ttu-id="b1d39-129">设置该对象的 **Connect** 和 **SourceTableName** 属性（并且有选择地设置它的 **Attributes** 属性）。</span><span class="sxs-lookup"><span data-stu-id="b1d39-129">Set its **Connect** and **SourceTableName** properties (and optionally, its **Attributes** property).</span></span>
+2.  <span data-ttu-id="5e375-129">设置该对象的 **Connect** 和 **SourceTableName** 属性（并且有选择地设置它的 **Attributes** 属性）。</span><span class="sxs-lookup"><span data-stu-id="5e375-129">Set its **Connect** and **SourceTableName** properties (and optionally, its **Attributes** property).</span></span>
 
-3.  <span data-ttu-id="b1d39-130">使用 **Append** 方法，将该对象添加到 **Database** 的 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="b1d39-130">Use the **Append** method to add it to the **TableDefs** collection of a **Database**.</span></span>
+3.  <span data-ttu-id="5e375-130">使用 **Append** 方法，将该对象添加到 **Database** 的 **TableDefs** 集合。</span><span class="sxs-lookup"><span data-stu-id="5e375-130">Use the **Append** method to add it to the **TableDefs** collection of a **Database**.</span></span>
 
-<span data-ttu-id="b1d39-131">若要按照序号或 **Name** 属性设置来引用集合中的 **TableDef** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="b1d39-131">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="5e375-131">若要按照序号或 **Name** 属性设置来引用集合中的 **TableDef** 对象，可以使用下列任何一种语法形式：</span><span class="sxs-lookup"><span data-stu-id="5e375-131">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="b1d39-132">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="b1d39-132">**TableDefs**(0)</span></span>
+<span data-ttu-id="5e375-132">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="5e375-132">**TableDefs**(0)</span></span>
 
-<span data-ttu-id="b1d39-133">**TableDefs**("name")</span><span class="sxs-lookup"><span data-stu-id="b1d39-133">**TableDefs**("name")</span></span>
+<span data-ttu-id="5e375-133">**TableDefs**("name")</span><span class="sxs-lookup"><span data-stu-id="5e375-133">**TableDefs**("name")</span></span>
 
-<span data-ttu-id="b1d39-134">**TableDefs**\!\[name\]</span><span class="sxs-lookup"><span data-stu-id="b1d39-134">**TableDefs**\!\[name\]</span></span>
+<span data-ttu-id="5e375-134">**TableDefs**\!\[name\]</span><span class="sxs-lookup"><span data-stu-id="5e375-134">**TableDefs**\!\[name\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="b1d39-135">示例</span><span class="sxs-lookup"><span data-stu-id="b1d39-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5e375-135">示例</span><span class="sxs-lookup"><span data-stu-id="5e375-135">Example</span></span>
 
-<span data-ttu-id="b1d39-p103">以下示例创建一个新的 **TableDef** 对象，并将其追加到 Northwind Database 对象的 **TableDefs** 集合。然后，该示例枚举 **TableDefs** 集合和新 **TableDef** 的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="b1d39-p103">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
+<span data-ttu-id="5e375-p103">以下示例创建一个新的 **TableDef** 对象，并将其追加到 Northwind Database 对象的 **TableDefs** 集合。然后，该示例枚举 **TableDefs** 集合和新 **TableDef** 的 **Properties** 集合。</span><span class="sxs-lookup"><span data-stu-id="5e375-p103">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
 
 ```vb
     Sub TableDefX() 
@@ -131,7 +131,7 @@ ms.locfileid: "28726342"
 
 <br/>
 
-<span data-ttu-id="b1d39-138">此示例将在 Northwind 数据库中新建一个 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="b1d39-138">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="5e375-138">此示例将在 Northwind 数据库中新建一个 **TableDef** 对象。</span><span class="sxs-lookup"><span data-stu-id="5e375-138">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb 
 Sub CreateTableDefX() 
@@ -194,9 +194,9 @@ Sub CreateTableDefX()
 
 <br/>
 
-<span data-ttu-id="b1d39-139">以下示例显示了如何创建计算字段。</span><span class="sxs-lookup"><span data-stu-id="b1d39-139">The following example shows how to create a custom field for a list.</span></span> <span data-ttu-id="b1d39-140">CreateField 方法将创建名为 **FullName** 的字段。</span><span class="sxs-lookup"><span data-stu-id="b1d39-140">The CreateField method creates a field named **FullName**.</span></span> <span data-ttu-id="b1d39-141">Expression 属性随后将被设为用于计算字段值的表达式。</span><span class="sxs-lookup"><span data-stu-id="b1d39-141">The Expression property is then set to the expression that calculates the value of the field.</span></span>
+<span data-ttu-id="5e375-139">以下示例显示了如何创建计算字段。</span><span class="sxs-lookup"><span data-stu-id="5e375-139">The following example shows how to create a calculated field.</span></span> <span data-ttu-id="5e375-140">CreateField 方法将创建名为 **FullName** 的字段。</span><span class="sxs-lookup"><span data-stu-id="5e375-140">The CreateField method creates a field named **FullName**.</span></span> <span data-ttu-id="5e375-141">Expression 属性随后将被设为用于计算字段值的表达式。</span><span class="sxs-lookup"><span data-stu-id="5e375-141">The Expression property is then set to the expression that calculates the value of the field.</span></span>
 
-<span data-ttu-id="b1d39-142">**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="b1d39-142">**Sample code provided by** The [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="5e375-142">**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。</span><span class="sxs-lookup"><span data-stu-id="5e375-142">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub CreateCalculatedField()

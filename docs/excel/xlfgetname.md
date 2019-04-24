@@ -9,53 +9,53 @@ keywords:
 localization_priority: Normal
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 63bfc6e94950a621c2367b2d35d25e3de48b344f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fdee0146ae2199097828e98abb96ffe43a64fc80
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303883"
 ---
-# <a name="xlfgetname"></a><span data-ttu-id="0f97c-104">xlfGetName</span><span class="sxs-lookup"><span data-stu-id="0f97c-104">xlfGetName</span></span>
+# <a name="xlfgetname"></a><span data-ttu-id="e6b00-104">xlfGetName</span><span class="sxs-lookup"><span data-stu-id="e6b00-104">xlfGetName</span></span>
 
-<span data-ttu-id="0f97c-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="0f97c-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="e6b00-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="e6b00-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="0f97c-106">返回的**名称管理器**对话框中，单击**公式**选项卡**定义名称**部分中的**名称管理器**时显示**引用位置**列中显示名称的定义。如果定义中包含的引用，它们可作为 R1C1-样式引用。</span><span class="sxs-lookup"><span data-stu-id="0f97c-106">Returns the definition of a name as it appears in the **Refers to** column of the **Name Manager** dialog box, which is displayed when you click **Name Manager** in the **Defined Names** section on the **Formulas** tab. If the definition contains references, they are given as R1C1-style references.</span></span> <span data-ttu-id="0f97c-107">使用**xlfGetName**检查由 name 定义的值。</span><span class="sxs-lookup"><span data-stu-id="0f97c-107">Use **xlfGetName** to check the value defined by a name.</span></span> <span data-ttu-id="0f97c-108">若要获取对应于定义的名称，请使用[xlfGetDef](xlfgetdef.md)。</span><span class="sxs-lookup"><span data-stu-id="0f97c-108">To get the name that corresponds to a definition, use [xlfGetDef](xlfgetdef.md).</span></span>
+<span data-ttu-id="e6b00-106">返回名称显示在 "**名称管理器**" 对话框 (在 "**公式**" 选项卡上 "**定义的名称**" 部分中单击 "**名称管理器**" 时显示) 中的 "**引用**" 列中显示的名称定义。如果定义中包含引用, 则将它们作为 R1C1 样式的引用提供。</span><span class="sxs-lookup"><span data-stu-id="e6b00-106">Returns the definition of a name as it appears in the **Refers to** column of the **Name Manager** dialog box, which is displayed when you click **Name Manager** in the **Defined Names** section on the **Formulas** tab. If the definition contains references, they are given as R1C1-style references.</span></span> <span data-ttu-id="e6b00-107">使用**xlfGetName**检查名称定义的值。</span><span class="sxs-lookup"><span data-stu-id="e6b00-107">Use **xlfGetName** to check the value defined by a name.</span></span> <span data-ttu-id="e6b00-108">若要获取与定义对应的名称, 请使用[xlfGetDef](xlfgetdef.md)。</span><span class="sxs-lookup"><span data-stu-id="e6b00-108">To get the name that corresponds to a definition, use [xlfGetDef](xlfgetdef.md).</span></span>
   
 ```cpp
 Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInfoType);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0f97c-109">参数</span><span class="sxs-lookup"><span data-stu-id="0f97c-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e6b00-109">参数</span><span class="sxs-lookup"><span data-stu-id="e6b00-109">Parameters</span></span>
 
-<span data-ttu-id="0f97c-110">_pxNameText_(**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="0f97c-110">_pxNameText_ (**xltypeStr**)</span></span>
+<span data-ttu-id="e6b00-110">_pxNameText_(**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="e6b00-110">_pxNameText_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="0f97c-111">可以名称定义了工作表;对活动工作簿，例如上, 定义的名称的外部引用`"!Sales"`;外部引用特定打开工作簿，例如，已定义的名称或`"[Book1]SHEET1!Sales"`。</span><span class="sxs-lookup"><span data-stu-id="0f97c-111">Can be a name defined on the sheet; an external reference to a name defined on the active workbook, for example,  `"!Sales"`; or an external reference to a name defined on a particular open workbook, for example,  `"[Book1]SHEET1!Sales"`.</span></span>  <span data-ttu-id="0f97c-112">_pxNameText_也可能是隐藏的名称。</span><span class="sxs-lookup"><span data-stu-id="0f97c-112">_pxNameText_ can also be a hidden name.</span></span> 
+<span data-ttu-id="e6b00-111">可以是在工作表上定义的名称;对在活动工作簿上定义的名称的外部引用, 例如`"!Sales"`;或对在特定打开的工作簿上定义的名称的外部引用, 例如`"[Book1]SHEET1!Sales"`。</span><span class="sxs-lookup"><span data-stu-id="e6b00-111">Can be a name defined on the sheet; an external reference to a name defined on the active workbook, for example,  `"!Sales"`; or an external reference to a name defined on a particular open workbook, for example,  `"[Book1]SHEET1!Sales"`.</span></span>  <span data-ttu-id="e6b00-112">_pxNameText_也可以是一个隐藏的名称。</span><span class="sxs-lookup"><span data-stu-id="e6b00-112">_pxNameText_ can also be a hidden name.</span></span> 
   
-<span data-ttu-id="0f97c-113">_pxInfoType_(**xltypeBool**)</span><span class="sxs-lookup"><span data-stu-id="0f97c-113">_pxInfoType_ (**xltypeBool**)</span></span>
+<span data-ttu-id="e6b00-113">_pxInfoType_(**xltypeBool**)</span><span class="sxs-lookup"><span data-stu-id="e6b00-113">_pxInfoType_ (**xltypeBool**)</span></span>
   
-<span data-ttu-id="0f97c-114">指定要返回的有关名称的信息类型。</span><span class="sxs-lookup"><span data-stu-id="0f97c-114">Specifies the type of information to return about the name.</span></span> <span data-ttu-id="0f97c-115">如果**FALSE**或省略，则返回的定义。</span><span class="sxs-lookup"><span data-stu-id="0f97c-115">If **FALSE** or omitted, the definition is returned.</span></span> <span data-ttu-id="0f97c-116">如果 **，则返回 TRUE**，则返回**TRUE**如果整个工作簿定义名称，如果为只工作表， **FALSE**定义名称。</span><span class="sxs-lookup"><span data-stu-id="0f97c-116">If **TRUE**, returns **TRUE** if the name is defined for just the sheet, **FALSE** if the name is defined for the entire workbook.</span></span> 
+<span data-ttu-id="e6b00-114">指定要返回的有关名称的信息类型。</span><span class="sxs-lookup"><span data-stu-id="e6b00-114">Specifies the type of information to return about the name.</span></span> <span data-ttu-id="e6b00-115">如果**为 FALSE**或省略, 则返回定义。</span><span class="sxs-lookup"><span data-stu-id="e6b00-115">If **FALSE** or omitted, the definition is returned.</span></span> <span data-ttu-id="e6b00-116">如果**为 true**, 则如果只为工作表定义名称, 则返回**true** ; 如果为整个工作簿定义了名称, 则返回**FALSE** 。</span><span class="sxs-lookup"><span data-stu-id="e6b00-116">If **TRUE**, returns **TRUE** if the name is defined for just the sheet, **FALSE** if the name is defined for the entire workbook.</span></span> 
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="0f97c-117">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="0f97c-117">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="e6b00-117">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="e6b00-117">Property value/Return value</span></span>
 
-<span data-ttu-id="0f97c-118">_pxRes_（**xltypeStr**、 **xltypeBool**或**xltypeErr**）</span><span class="sxs-lookup"><span data-stu-id="0f97c-118">_pxRes_ (**xltypeStr**, **xltypeBool**, or **xltypeErr**)</span></span>
+<span data-ttu-id="e6b00-118">_pxRes_(**xltypeStr**、 **xltypeBool**或**xltypeErr**)</span><span class="sxs-lookup"><span data-stu-id="e6b00-118">_pxRes_ (**xltypeStr**, **xltypeBool**, or **xltypeErr**)</span></span>
   
-<span data-ttu-id="0f97c-119">根据为_pxInfoType_传递的值，将返回指定的名称 (**xltypeStr**)，或**TRUE**或**FALSE** (**xltypeBool**) 的定义。</span><span class="sxs-lookup"><span data-stu-id="0f97c-119">Depending on the value passed for  _pxInfoType_, returns the definition of the specified name (**xltypeStr**), or **TRUE** or **FALSE** (**xltypeBool**).</span></span>
+<span data-ttu-id="e6b00-119">根据为_pxInfoType_传递的值, 返回指定名称 (**xltypeStr**) 的定义, 或者**TRUE**或**FALSE** (**xltypeBool**)。</span><span class="sxs-lookup"><span data-stu-id="e6b00-119">Depending on the value passed for  _pxInfoType_, returns the definition of the specified name (**xltypeStr**), or **TRUE** or **FALSE** (**xltypeBool**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0f97c-120">说明</span><span class="sxs-lookup"><span data-stu-id="0f97c-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e6b00-120">注解</span><span class="sxs-lookup"><span data-stu-id="e6b00-120">Remarks</span></span>
 
-<span data-ttu-id="0f97c-121">如果**保护工作表和锁定的单元格的内容**复选框已选择了**保护工作表**对话框中来保护包含名称的工作簿**xlfGetName**返回`#N/A`错误值。</span><span class="sxs-lookup"><span data-stu-id="0f97c-121">If the **Protect worksheet and contents of locked cells** check box has been selected in the **Protect Sheet** dialog box to protect the workbook containing the name, **xlfGetName** returns the  `#N/A` error value.</span></span> <span data-ttu-id="0f97c-122">若要查看**保护工作表**对话框中，单击**保护工作表**的**更改**部分的**审阅**选项卡。</span><span class="sxs-lookup"><span data-stu-id="0f97c-122">To see the **Protect Sheet** dialog box, click **Protect Sheet** in the **Changes** section of the **Review** tab.</span></span> 
+<span data-ttu-id="e6b00-121">如果已在 "**保护工作表**" 对话框中选中 "**保护工作表和锁定的单元格内容**" 复选框, 以保护包含该名称的`#N/A`工作簿, 则**xlfGetName**将返回错误值。</span><span class="sxs-lookup"><span data-stu-id="e6b00-121">If the **Protect worksheet and contents of locked cells** check box has been selected in the **Protect Sheet** dialog box to protect the workbook containing the name, **xlfGetName** returns the  `#N/A` error value.</span></span> <span data-ttu-id="e6b00-122">若要查看**保护工作表**对话框, 请单击 "**审阅**" 选项卡的 "**更改**" 部分中的 "**保护工作表**"。</span><span class="sxs-lookup"><span data-stu-id="e6b00-122">To see the **Protect Sheet** dialog box, click **Protect Sheet** in the **Changes** section of the **Review** tab.</span></span> 
   
-<span data-ttu-id="0f97c-123">下表列出了通过调用**xlfGetDef**指定的_pxNameText_参数返回的值的三个示例。</span><span class="sxs-lookup"><span data-stu-id="0f97c-123">The following table lists three examples of the values returned by a call to **xlfGetDef** with the specified  _pxNameText_ argument.</span></span> 
+<span data-ttu-id="e6b00-123">下表列出了使用指定的_pxNameText_参数调用**xlfGetDef**时返回的值的三个示例。</span><span class="sxs-lookup"><span data-stu-id="e6b00-123">The following table lists three examples of the values returned by a call to **xlfGetDef** with the specified  _pxNameText_ argument.</span></span> 
   
-|<span data-ttu-id="0f97c-124">**在 Excel 中的定义**</span><span class="sxs-lookup"><span data-stu-id="0f97c-124">**Definition in Excel**</span></span>|<span data-ttu-id="0f97c-125">**_pxNameText_**</span><span class="sxs-lookup"><span data-stu-id="0f97c-125">**_pxNameText_**</span></span>|<span data-ttu-id="0f97c-126">**返回值**</span><span class="sxs-lookup"><span data-stu-id="0f97c-126">**Value Returned**</span></span>|
+|<span data-ttu-id="e6b00-124">**Excel 中的定义**</span><span class="sxs-lookup"><span data-stu-id="e6b00-124">**Definition in Excel**</span></span>|<span data-ttu-id="e6b00-125">**_pxNameText_**</span><span class="sxs-lookup"><span data-stu-id="e6b00-125">**_pxNameText_**</span></span>|<span data-ttu-id="e6b00-126">**返回的值**</span><span class="sxs-lookup"><span data-stu-id="e6b00-126">**Value Returned**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="0f97c-127">工作表上的名称销售被定义为 523 的号码。</span><span class="sxs-lookup"><span data-stu-id="0f97c-127">The name Sales on a sheet is defined as the number 523.</span></span>  <br/> |<span data-ttu-id="0f97c-128">"Sales"</span><span class="sxs-lookup"><span data-stu-id="0f97c-128">"Sales"</span></span>  <br/> |<span data-ttu-id="0f97c-129">"= 523"</span><span class="sxs-lookup"><span data-stu-id="0f97c-129">"=523"</span></span>  <br/> |
-|<span data-ttu-id="0f97c-130">活动工作表的名称利润定义为公式 = 销售成本。</span><span class="sxs-lookup"><span data-stu-id="0f97c-130">The name Profit on the active sheet is defined as the formula =Sales-Costs.</span></span>  <br/> |<span data-ttu-id="0f97c-131">"!利润"</span><span class="sxs-lookup"><span data-stu-id="0f97c-131">"!Profit"</span></span>  <br/> |<span data-ttu-id="0f97c-132">"= 销售成本"</span><span class="sxs-lookup"><span data-stu-id="0f97c-132">"=Sales-Costs"</span></span>  <br/> |
-|<span data-ttu-id="0f97c-133">在活动工作表上的数据库名称定义为 A1:F500 的范围。</span><span class="sxs-lookup"><span data-stu-id="0f97c-133">The name Database on the active sheet is defined as the range A1:F500.</span></span>  <br/> |<span data-ttu-id="0f97c-134">"!数据库"</span><span class="sxs-lookup"><span data-stu-id="0f97c-134">"!Database"</span></span>  <br/> |<span data-ttu-id="0f97c-135">"= R1C1:R500C6"</span><span class="sxs-lookup"><span data-stu-id="0f97c-135">"=R1C1:R500C6"</span></span>  <br/> |
+|<span data-ttu-id="e6b00-127">工作表上的名称 Sales 定义为数字523。</span><span class="sxs-lookup"><span data-stu-id="e6b00-127">The name Sales on a sheet is defined as the number 523.</span></span>  <br/> |<span data-ttu-id="e6b00-128">销售</span><span class="sxs-lookup"><span data-stu-id="e6b00-128">"Sales"</span></span>  <br/> |<span data-ttu-id="e6b00-129">"= 523"</span><span class="sxs-lookup"><span data-stu-id="e6b00-129">"=523"</span></span>  <br/> |
+|<span data-ttu-id="e6b00-130">活动工作表上的名称利润定义为公式 = Sales-成本。</span><span class="sxs-lookup"><span data-stu-id="e6b00-130">The name Profit on the active sheet is defined as the formula =Sales-Costs.</span></span>  <br/> |<span data-ttu-id="e6b00-131">"!盈利</span><span class="sxs-lookup"><span data-stu-id="e6b00-131">"!Profit"</span></span>  <br/> |<span data-ttu-id="e6b00-132">"= 销售-成本"</span><span class="sxs-lookup"><span data-stu-id="e6b00-132">"=Sales-Costs"</span></span>  <br/> |
+|<span data-ttu-id="e6b00-133">活动工作表上的名称数据库定义为区域 A1: F500。</span><span class="sxs-lookup"><span data-stu-id="e6b00-133">The name Database on the active sheet is defined as the range A1:F500.</span></span>  <br/> |<span data-ttu-id="e6b00-134">"!数据库</span><span class="sxs-lookup"><span data-stu-id="e6b00-134">"!Database"</span></span>  <br/> |<span data-ttu-id="e6b00-135">"= R1C1: R500C6"</span><span class="sxs-lookup"><span data-stu-id="e6b00-135">"=R1C1:R500C6"</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="0f97c-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="0f97c-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e6b00-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e6b00-136">See also</span></span>
 
-- [<span data-ttu-id="0f97c-137">xlfGetDef</span><span class="sxs-lookup"><span data-stu-id="0f97c-137">xlfGetDef</span></span>](xlfgetdef.md)
-- [<span data-ttu-id="0f97c-138">基本的有用 C API XLM 函数</span><span class="sxs-lookup"><span data-stu-id="0f97c-138">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
+- [<span data-ttu-id="e6b00-137">xlfGetDef</span><span class="sxs-lookup"><span data-stu-id="e6b00-137">xlfGetDef</span></span>](xlfgetdef.md)
+- [<span data-ttu-id="e6b00-138">实用的基本 C API XLM 函数</span><span class="sxs-lookup"><span data-stu-id="e6b00-138">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
 

@@ -1,29 +1,29 @@
 ---
-title: 缓存 Exchange 模式 Outlook 时访问远程服务器上的存储
+title: 当 Outlook 处于缓存 Exchange 模式下时, 访问远程服务器上的存储区
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
-description: 上次修改时间： 2012 年 7 月 2 日
-ms.openlocfilehash: c7994366000e323cc7d14a9c3a02b5229c5f08e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2012 年7月2日'
+ms.openlocfilehash: cfc20c1a9ca4510ffec86bf16666f1fc50822321
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299438"
 ---
-# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a><span data-ttu-id="df9ea-103">缓存 Exchange 模式 Outlook 时访问远程服务器上的存储</span><span class="sxs-lookup"><span data-stu-id="df9ea-103">Access a store on the remote server when Outlook is in Cached Exchange Mode</span></span>
+# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a><span data-ttu-id="963f0-103">当 Outlook 处于缓存 Exchange 模式下时, 访问远程服务器上的存储区</span><span class="sxs-lookup"><span data-stu-id="963f0-103">Access a store on the remote server when Outlook is in Cached Exchange Mode</span></span>
  
-<span data-ttu-id="df9ea-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="df9ea-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="963f0-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="963f0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="df9ea-105">本主题包含演示如何使用**MAPI_NO_CACHE**标志 Microsoft Office Outlook 时在缓存 Exchange 模式下打开文件夹或远程服务器上的消息存储上一条消息的 c + + 中的代码示例。</span><span class="sxs-lookup"><span data-stu-id="df9ea-105">This topic contains a code sample in C++ that shows how to use the **MAPI_NO_CACHE** flag to open a folder or a message on a message store on the remote server when Microsoft Office Outlook is in Cached Exchange Mode.</span></span> 
+<span data-ttu-id="963f0-105">本主题包含 c + + 中的代码示例, 演示如何使用**MAPI_NO_CACHE**标志在 Microsoft Office Outlook 处于缓存 Exchange 模式下时, 在远程服务器上的邮件存储区中打开文件夹或邮件。</span><span class="sxs-lookup"><span data-stu-id="963f0-105">This topic contains a code sample in C++ that shows how to use the **MAPI_NO_CACHE** flag to open a folder or a message on a message store on the remote server when Microsoft Office Outlook is in Cached Exchange Mode.</span></span> 
   
-<span data-ttu-id="df9ea-106">缓存的 Exchange 模式允许 Outlook 使用用户的邮箱的本地副本，而 Outlook 保持联机连接到的远程副本的远程 Exchange 服务器上的用户的邮箱。</span><span class="sxs-lookup"><span data-stu-id="df9ea-106">Cached Exchange Mode permits Outlook to use a local copy of a user's mailbox while Outlook maintains an online connection to a remote copy of the user's mailbox on the remote Exchange server.</span></span> <span data-ttu-id="df9ea-107">默认情况下，在缓存 Exchange 模式下运行 Outlook 时登录到同一个会话任何 MAPI 解决方案还会连接到缓存的邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="df9ea-107">When Outlook is running in Cached Exchange Mode, by default, any MAPI solutions that log on to the same session are also connected to the cached message store.</span></span> <span data-ttu-id="df9ea-108">对邮箱的本地副本进行访问的任何数据和所做的任何更改。</span><span class="sxs-lookup"><span data-stu-id="df9ea-108">Any data that is accessed and any changes that are made are made against the local copy of the mailbox.</span></span>
+<span data-ttu-id="963f0-106">缓存 Exchange 模式允许 outlook 在 outlook 维护与远程 Exchange 服务器上的用户邮箱远程副本的联机连接时使用该用户邮箱的本地副本。</span><span class="sxs-lookup"><span data-stu-id="963f0-106">Cached Exchange Mode permits Outlook to use a local copy of a user's mailbox while Outlook maintains an online connection to a remote copy of the user's mailbox on the remote Exchange server.</span></span> <span data-ttu-id="963f0-107">当 Outlook 在缓存 Exchange 模式下运行时, 默认情况下, 登录到同一会话的任何 MAPI 解决方案也将连接到缓存的邮件存储区。</span><span class="sxs-lookup"><span data-stu-id="963f0-107">When Outlook is running in Cached Exchange Mode, by default, any MAPI solutions that log on to the same session are also connected to the cached message store.</span></span> <span data-ttu-id="963f0-108">访问的任何数据和所做的任何更改都将针对邮箱的本地副本进行。</span><span class="sxs-lookup"><span data-stu-id="963f0-108">Any data that is accessed and any changes that are made are made against the local copy of the mailbox.</span></span>
   
-<span data-ttu-id="df9ea-109">客户端或服务提供程序可以重写与本地消息存储库的连接并通过调用**[IMsgStore::OpenEntry](imsgstore-openentry.md)** 时为**MAPI_NO_CACHE** *ulFlags*参数中设置了位打开一条消息或远程存储上的文件夹。</span><span class="sxs-lookup"><span data-stu-id="df9ea-109">A client or service provider can override the connection to the local message store and open a message or a folder on the remote store by setting the bit for **MAPI_NO_CACHE** in the  *ulFlags*  parameter when calling **[IMsgStore::OpenEntry](imsgstore-openentry.md)**.</span></span> 
+<span data-ttu-id="963f0-109">在调用**[IMsgStore:: OpenEntry](imsgstore-openentry.md)** 时, 客户端或服务提供程序可以通过在*ulFlags*参数中设置**MAPI_NO_CACHE**的位来覆盖本地邮件存储的连接并在远程存储中打开邮件或文件夹。</span><span class="sxs-lookup"><span data-stu-id="963f0-109">A client or service provider can override the connection to the local message store and open a message or a folder on the remote store by setting the bit for **MAPI_NO_CACHE** in the  *ulFlags*  parameter when calling **[IMsgStore::OpenEntry](imsgstore-openentry.md)**.</span></span> 
   
-<span data-ttu-id="df9ea-110">下面的代码示例演示如何使用*ulFlags*参数中的设置以打开上的远程邮件存储区的根文件夹**MAPI_NO_CACHE**标志调用**IMsgStore::OpenEntry** 。</span><span class="sxs-lookup"><span data-stu-id="df9ea-110">The following code sample shows how to call **IMsgStore::OpenEntry** with the **MAPI_NO_CACHE** flag set in the  *ulFlags*  parameter to open the root folder on the remote message store.</span></span> 
+<span data-ttu-id="963f0-110">下面的代码示例演示如何使用*ulFlags*参数中设置的**MAPI_NO_CACHE**标志调用**IMsgStore:: OpenEntry** , 以打开远程邮件存储区上的根文件夹。</span><span class="sxs-lookup"><span data-stu-id="963f0-110">The following code sample shows how to call **IMsgStore::OpenEntry** with the **MAPI_NO_CACHE** flag set in the  *ulFlags*  parameter to open the root folder on the remote message store.</span></span> 
   
 ```cpp
 HRESULT HrOpenRootFolder ( 
@@ -44,11 +44,11 @@ HRESULT HrOpenRootFolder (
 }
 ```
 
-<span data-ttu-id="df9ea-111">如果使用远程服务器上的**MDB_ONLINE**标志中打开的消息存储，您不必使用**MAPI_NO_CACHE**标志。</span><span class="sxs-lookup"><span data-stu-id="df9ea-111">If you opened the message store with the **MDB_ONLINE** flag on the remote server, you do not have to use the **MAPI_NO_CACHE** flag.</span></span> 
+<span data-ttu-id="963f0-111">如果使用远程服务器上的**MDB_ONLINE**标志打开邮件存储区, 则无需使用**MAPI_NO_CACHE**标志。</span><span class="sxs-lookup"><span data-stu-id="963f0-111">If you opened the message store with the **MDB_ONLINE** flag on the remote server, you do not have to use the **MAPI_NO_CACHE** flag.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="df9ea-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="df9ea-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="963f0-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="963f0-112">See also</span></span>
 
-- [<span data-ttu-id="df9ea-113">关于 MAPI 添加件</span><span class="sxs-lookup"><span data-stu-id="df9ea-113">About MAPI Additions</span></span>](about-mapi-additions.md) 
-- [<span data-ttu-id="df9ea-114">当 Outlook 处于缓存 Exchange 模式下时，打开远程服务器上的存储区</span><span class="sxs-lookup"><span data-stu-id="df9ea-114">Open a Store on the Remote Server When Outlook is in Cached Exchange Mode</span></span>](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [<span data-ttu-id="df9ea-115">在缓存 Exchange 模式下管理 OST 中的邮件（不调用同步）</span><span class="sxs-lookup"><span data-stu-id="df9ea-115">Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode</span></span>](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [<span data-ttu-id="963f0-113">关于 MAPI 添加件</span><span class="sxs-lookup"><span data-stu-id="963f0-113">About MAPI Additions</span></span>](about-mapi-additions.md) 
+- [<span data-ttu-id="963f0-114">当 Outlook 处于缓存 Exchange 模式下时，打开远程服务器上的存储区</span><span class="sxs-lookup"><span data-stu-id="963f0-114">Open a Store on the Remote Server When Outlook is in Cached Exchange Mode</span></span>](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [<span data-ttu-id="963f0-115">在缓存 Exchange 模式下管理 OST 中的邮件（不调用同步）</span><span class="sxs-lookup"><span data-stu-id="963f0-115">Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode</span></span>](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

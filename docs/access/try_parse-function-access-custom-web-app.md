@@ -1,39 +1,39 @@
 ---
-title: Try_Parse 函数 （访问自定义 web 应用程序）
+title: Try_Parse 函数 (Access 自定义 web 应用程序)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ed35263c-b0ad-4269-9caa-c0164015e980
-description: 分析到指定的数据类型的区域性中的应用程序的文本值或返回 Null，如果转换无效。
-ms.openlocfilehash: 3446e928d9772641f9aea7b956e142f995824b1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 将文本值分析为应用程序的区域性中的指定数据类型, 如果转换无效, 则返回 Null。
+ms.openlocfilehash: 5d201557607d2d18c36238d9658b705a6a49fda8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307796"
 ---
-# <a name="tryparse-function-access-custom-web-app"></a><span data-ttu-id="b5164-103">Try_Parse 函数 （访问自定义 web 应用程序）</span><span class="sxs-lookup"><span data-stu-id="b5164-103">Try_Parse Function (Access custom web app)</span></span>
+# <a name="tryparse-function-access-custom-web-app"></a><span data-ttu-id="fa7a5-103">Try_Parse 函数 (Access 自定义 web 应用程序)</span><span class="sxs-lookup"><span data-stu-id="fa7a5-103">Try_Parse Function (Access custom web app)</span></span>
 
-<span data-ttu-id="b5164-104">分析到指定的数据类型的区域性中的应用程序的文本值或返回 Null，如果转换无效。</span><span class="sxs-lookup"><span data-stu-id="b5164-104">Parses a text value to the specified data type in the culture of the application or returns Null if the conversion is not valid.</span></span>
+<span data-ttu-id="fa7a5-104">将文本值分析为应用程序的区域性中的指定数据类型, 如果转换无效, 则返回 Null。</span><span class="sxs-lookup"><span data-stu-id="fa7a5-104">Parses a text value to the specified data type in the culture of the application or returns Null if the conversion is not valid.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="b5164-105">本文中所述的云存储功能不再支持在 Office 2013 和 Office 2016 中，可能会导致以下错误： >*对不起，我们在遇到服务器问题，因此我们不能添加\<服务\>立即。请稍后重试。*</span><span class="sxs-lookup"><span data-stu-id="b5164-105">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*</span></span> <span data-ttu-id="b5164-106">> 的 Office Online、 iOS，面向 Office 和 Office for Android 云存储，您可以查看到我们[Office 云存储合作伙伴计划](https://dev.office.com/programs/officecloudstorage)。</span><span class="sxs-lookup"><span data-stu-id="b5164-106">> For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
+> <span data-ttu-id="fa7a5-105">本文介绍的云存储功能在 Office 2013 和 Office 2016 中不再受支持，并且可能会导致以下错误：> *抱歉，遇到服务器问题，暂时无法添加 \<service\>。请稍后重试。*</span><span class="sxs-lookup"><span data-stu-id="fa7a5-105">The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*</span></span> <span data-ttu-id="fa7a5-106">> 对于面向 Office Online、Office for iOS 和 Office for Android 的云存储，可以查看我们的 [Office 云存储合作伙伴计划](https://dev.office.com/programs/officecloudstorage)。</span><span class="sxs-lookup"><span data-stu-id="fa7a5-106">> For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="b5164-107">语法</span><span class="sxs-lookup"><span data-stu-id="b5164-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fa7a5-107">语法</span><span class="sxs-lookup"><span data-stu-id="fa7a5-107">Syntax</span></span>
 
- <span data-ttu-id="b5164-108">**Try_Parse**(*TextExpression*，*数据类型*)</span><span class="sxs-lookup"><span data-stu-id="b5164-108">**Try_Parse** (*TextExpression*, *DataType*)</span></span> 
+ <span data-ttu-id="fa7a5-108">**Try_Parse**(*TextExpression*, *DataType*)</span><span class="sxs-lookup"><span data-stu-id="fa7a5-108">**Try_Parse** (*TextExpression*, *DataType*)</span></span> 
   
-<span data-ttu-id="b5164-109">**Try_Parse**函数包含以下参数。</span><span class="sxs-lookup"><span data-stu-id="b5164-109">The **Try_Parse** function contains the following arguments.</span></span> 
+<span data-ttu-id="fa7a5-109">**Try_Parse**函数包含以下参数。</span><span class="sxs-lookup"><span data-stu-id="fa7a5-109">The **Try_Parse** function contains the following arguments.</span></span> 
   
-|<span data-ttu-id="b5164-110">**参数名称**</span><span class="sxs-lookup"><span data-stu-id="b5164-110">**Argument name**</span></span>|<span data-ttu-id="b5164-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="b5164-111">**Description**</span></span>|
+|<span data-ttu-id="fa7a5-110">**参数名称**</span><span class="sxs-lookup"><span data-stu-id="fa7a5-110">**Argument name**</span></span>|<span data-ttu-id="fa7a5-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="fa7a5-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="b5164-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="b5164-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="b5164-113">一个文本表达式，表示要分析到指定的数据类型的格式化的值。</span><span class="sxs-lookup"><span data-stu-id="b5164-113">A text expression representing the formatted value to parse into the specified data type.</span></span>  <br/> |
-| <span data-ttu-id="b5164-114">*DataType*</span><span class="sxs-lookup"><span data-stu-id="b5164-114">*DataType*</span></span>  <br/> |<span data-ttu-id="b5164-115">要分析*TextExpression*将数据类型。</span><span class="sxs-lookup"><span data-stu-id="b5164-115">The data type into which to parse  *TextExpression*  .</span></span>  <br/> |
+| <span data-ttu-id="fa7a5-112">*TextExpression*</span><span class="sxs-lookup"><span data-stu-id="fa7a5-112">*TextExpression*</span></span>  <br/> |<span data-ttu-id="fa7a5-113">表示要分析为指定数据类型的格式化值的文本表达式。</span><span class="sxs-lookup"><span data-stu-id="fa7a5-113">A text expression representing the formatted value to parse into the specified data type.</span></span>  <br/> |
+| <span data-ttu-id="fa7a5-114">*DataType*</span><span class="sxs-lookup"><span data-stu-id="fa7a5-114">*DataType*</span></span>  <br/> |<span data-ttu-id="fa7a5-115">要在其中分析*TextExpression*的数据类型。</span><span class="sxs-lookup"><span data-stu-id="fa7a5-115">The data type into which to parse  *TextExpression*  .</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b5164-116">说明</span><span class="sxs-lookup"><span data-stu-id="b5164-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fa7a5-116">注解</span><span class="sxs-lookup"><span data-stu-id="fa7a5-116">Remarks</span></span>
 
-<span data-ttu-id="b5164-117">**Try_Parse**仅用于从字符串转换为日期/时间和号码的类型。</span><span class="sxs-lookup"><span data-stu-id="b5164-117">Use **Try_Parse** only for converting from string to date/time and number types.</span></span> <span data-ttu-id="b5164-118">常规类型转换，继续使用**转换**。</span><span class="sxs-lookup"><span data-stu-id="b5164-118">For general type conversions, continue to use **Convert**.</span></span> 
+<span data-ttu-id="fa7a5-117">仅使用**Try_Parse**将字符串转换为日期/时间和数字类型。</span><span class="sxs-lookup"><span data-stu-id="fa7a5-117">Use **Try_Parse** only for converting from string to date/time and number types.</span></span> <span data-ttu-id="fa7a5-118">对于常规类型转换, 请继续使用**Convert**。</span><span class="sxs-lookup"><span data-stu-id="fa7a5-118">For general type conversions, continue to use **Convert**.</span></span> 
   
 

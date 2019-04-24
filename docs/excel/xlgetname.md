@@ -11,32 +11,32 @@ keywords:
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 069676957d280a0bf3b398bb23b27f0e654bc655
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 350ae99baf088a36fa3e1159caa1805cdd623276
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303827"
 ---
-# <a name="xlgetname"></a><span data-ttu-id="8dec2-104">xlGetName</span><span class="sxs-lookup"><span data-stu-id="8dec2-104">xlGetName</span></span>
+# <a name="xlgetname"></a><span data-ttu-id="c76d9-104">xlGetName</span><span class="sxs-lookup"><span data-stu-id="c76d9-104">xlGetName</span></span>
 
-<span data-ttu-id="8dec2-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8dec2-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="c76d9-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c76d9-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="8dec2-106">字符串的形式返回的 dll 的完整路径和文件名称。</span><span class="sxs-lookup"><span data-stu-id="8dec2-106">Returns the full path and file name of the DLL in the form of a string.</span></span>
+<span data-ttu-id="c76d9-106">以字符串的形式返回 DLL 的完整路径和文件名。</span><span class="sxs-lookup"><span data-stu-id="c76d9-106">Returns the full path and file name of the DLL in the form of a string.</span></span>
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8dec2-107">参数</span><span class="sxs-lookup"><span data-stu-id="8dec2-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c76d9-107">参数</span><span class="sxs-lookup"><span data-stu-id="c76d9-107">Parameters</span></span>
 
-<span data-ttu-id="8dec2-108">此函数具有任何参数。</span><span class="sxs-lookup"><span data-stu-id="8dec2-108">This function has no arguments.</span></span>
+<span data-ttu-id="c76d9-108">此函数没有参数。</span><span class="sxs-lookup"><span data-stu-id="c76d9-108">This function has no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="8dec2-109">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="8dec2-109">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="c76d9-109">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="c76d9-109">Property value/Return value</span></span>
 
-<span data-ttu-id="8dec2-110">返回路径和文件名称 (**xltypeStr**)。</span><span class="sxs-lookup"><span data-stu-id="8dec2-110">Returns the path and file name (**xltypeStr**).</span></span> 
+<span data-ttu-id="c76d9-110">返回路径和文件名 (**xltypeStr**)。</span><span class="sxs-lookup"><span data-stu-id="c76d9-110">Returns the path and file name (**xltypeStr**).</span></span> 
   
-## <a name="example"></a><span data-ttu-id="8dec2-111">示例</span><span class="sxs-lookup"><span data-stu-id="8dec2-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c76d9-111">示例</span><span class="sxs-lookup"><span data-stu-id="c76d9-111">Example</span></span>
 
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -51,7 +51,7 @@ short WINAPI xlGetNameExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8dec2-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8dec2-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c76d9-112">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c76d9-112">See also</span></span>
 
-- [<span data-ttu-id="8dec2-113">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="8dec2-113">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="c76d9-113">只能从 DLL 或 XLL 调用的 C API 函数</span><span class="sxs-lookup"><span data-stu-id="c76d9-113">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 
