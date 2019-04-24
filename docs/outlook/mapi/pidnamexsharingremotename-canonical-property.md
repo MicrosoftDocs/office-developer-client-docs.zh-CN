@@ -13,55 +13,55 @@ api_type:
 ms.assetid: a9bba733-ee78-4878-aabd-ee70af7db96f
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7cc422b88e64cf02d37922277d4f8c263bd6e372
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384526"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315853"
 ---
-# <a name="pidnamexsharingremotename-canonical-property"></a><span data-ttu-id="571e8-103">PidNameXSharingRemoteName 规范属性</span><span class="sxs-lookup"><span data-stu-id="571e8-103">PidNameXSharingRemoteName Canonical Property</span></span>
+# <a name="pidnamexsharingremotename-canonical-property"></a><span data-ttu-id="9c2a6-103">PidNameXSharingRemoteName 规范属性</span><span class="sxs-lookup"><span data-stu-id="9c2a6-103">PidNameXSharingRemoteName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="571e8-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="571e8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9c2a6-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9c2a6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="571e8-105">代表**dispidSharingRemoteName** ([PidLidSharingRemoteName](pidlidsharingremotename-canonical-property.md)) 属性的值。</span><span class="sxs-lookup"><span data-stu-id="571e8-105">Represents the value of the **dispidSharingRemoteName** ([PidLidSharingRemoteName](pidlidsharingremotename-canonical-property.md)) property.</span></span>
+<span data-ttu-id="9c2a6-105">表示**dispidSharingRemoteName** ([PidLidSharingRemoteName](pidlidsharingremotename-canonical-property.md)) 属性的值。</span><span class="sxs-lookup"><span data-stu-id="9c2a6-105">Represents the value of the **dispidSharingRemoteName** ([PidLidSharingRemoteName](pidlidsharingremotename-canonical-property.md)) property.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="571e8-106">友好名称：</span><span class="sxs-lookup"><span data-stu-id="571e8-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="571e8-107">无</span><span class="sxs-lookup"><span data-stu-id="571e8-107">None</span></span>  <br/> |
-|<span data-ttu-id="571e8-108">属性进行设置：</span><span class="sxs-lookup"><span data-stu-id="571e8-108">Property set:</span></span>  <br/> |<span data-ttu-id="571e8-109">PS_INTERNET_HEADERS</span><span class="sxs-lookup"><span data-stu-id="571e8-109">PS_INTERNET_HEADERS</span></span>  <br/> |
-|<span data-ttu-id="571e8-110">属性名称：</span><span class="sxs-lookup"><span data-stu-id="571e8-110">Property name:</span></span>  <br/> |<span data-ttu-id="571e8-111">X-共享-远程-Name</span><span class="sxs-lookup"><span data-stu-id="571e8-111">X-Sharing-Remote-Name</span></span>  <br/> |
-|<span data-ttu-id="571e8-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="571e8-112">Data type:</span></span>  <br/> |<span data-ttu-id="571e8-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="571e8-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="571e8-114">区域：</span><span class="sxs-lookup"><span data-stu-id="571e8-114">Area:</span></span>  <br/> |<span data-ttu-id="571e8-115">共享</span><span class="sxs-lookup"><span data-stu-id="571e8-115">Sharing</span></span>  <br/> |
+|<span data-ttu-id="9c2a6-106">友好名称:</span><span class="sxs-lookup"><span data-stu-id="9c2a6-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="9c2a6-107">无</span><span class="sxs-lookup"><span data-stu-id="9c2a6-107">None</span></span>  <br/> |
+|<span data-ttu-id="9c2a6-108">属性集:</span><span class="sxs-lookup"><span data-stu-id="9c2a6-108">Property set:</span></span>  <br/> |<span data-ttu-id="9c2a6-109">PS_INTERNET_HEADERS</span><span class="sxs-lookup"><span data-stu-id="9c2a6-109">PS_INTERNET_HEADERS</span></span>  <br/> |
+|<span data-ttu-id="9c2a6-110">属性名称:</span><span class="sxs-lookup"><span data-stu-id="9c2a6-110">Property name:</span></span>  <br/> |<span data-ttu-id="9c2a6-111">X 共享-远程名称</span><span class="sxs-lookup"><span data-stu-id="9c2a6-111">X-Sharing-Remote-Name</span></span>  <br/> |
+|<span data-ttu-id="9c2a6-112">数据类型：</span><span class="sxs-lookup"><span data-stu-id="9c2a6-112">Data type:</span></span>  <br/> |<span data-ttu-id="9c2a6-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="9c2a6-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="9c2a6-114">区域：</span><span class="sxs-lookup"><span data-stu-id="9c2a6-114">Area:</span></span>  <br/> |<span data-ttu-id="9c2a6-115">共享</span><span class="sxs-lookup"><span data-stu-id="9c2a6-115">Sharing</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="571e8-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="571e8-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="9c2a6-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="9c2a6-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="571e8-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="571e8-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="9c2a6-117">协议规范</span><span class="sxs-lookup"><span data-stu-id="9c2a6-117">Protocol specifications</span></span>
 
-<span data-ttu-id="571e8-118">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="571e8-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="9c2a6-118">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9c2a6-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="571e8-119">提供属性集定义和相关的 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="571e8-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="9c2a6-119">提供属性集定义和对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="9c2a6-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="571e8-120">[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="571e8-120">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="9c2a6-120">[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9c2a6-120">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="571e8-121">共享客户端之间的邮箱文件夹。</span><span class="sxs-lookup"><span data-stu-id="571e8-121">Shares mailbox folders between clients.</span></span>
+> <span data-ttu-id="9c2a6-121">在客户端之间共享邮箱文件夹。</span><span class="sxs-lookup"><span data-stu-id="9c2a6-121">Shares mailbox folders between clients.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="571e8-122">头文件</span><span class="sxs-lookup"><span data-stu-id="571e8-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="9c2a6-122">头文件</span><span class="sxs-lookup"><span data-stu-id="9c2a6-122">Header files</span></span>
 
-<span data-ttu-id="571e8-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="571e8-123">Mapidefs.h</span></span>
+<span data-ttu-id="9c2a6-123">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="9c2a6-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="571e8-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="571e8-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="9c2a6-124">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="9c2a6-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="571e8-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="571e8-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9c2a6-125">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9c2a6-125">See also</span></span>
 
 
 
-[<span data-ttu-id="571e8-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="571e8-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="9c2a6-126">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="9c2a6-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="571e8-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="571e8-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="9c2a6-127">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="9c2a6-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="571e8-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="571e8-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="9c2a6-128">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="9c2a6-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="571e8-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="571e8-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="9c2a6-129">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="9c2a6-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,48 +11,48 @@ keywords:
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 48ce927f6bcb328a90779948a660cf9d0b460205
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310274"
 ---
-# <a name="xlfsetname"></a><span data-ttu-id="206c7-104">xlfSetName</span><span class="sxs-lookup"><span data-stu-id="206c7-104">xlfSetName</span></span>
+# <a name="xlfsetname"></a><span data-ttu-id="b52a3-104">xlfSetName</span><span class="sxs-lookup"><span data-stu-id="b52a3-104">xlfSetName</span></span>
 
-<span data-ttu-id="206c7-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="206c7-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="b52a3-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="b52a3-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="206c7-106">用于创建和删除已定义的名称 DLL 相关联。</span><span class="sxs-lookup"><span data-stu-id="206c7-106">Used to create and delete defined names associated with the DLL.</span></span>
+<span data-ttu-id="b52a3-106">用于创建和删除与 DLL 相关联的已定义名称。</span><span class="sxs-lookup"><span data-stu-id="b52a3-106">Used to create and delete defined names associated with the DLL.</span></span>
   
 ```cs
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="206c7-107">参数</span><span class="sxs-lookup"><span data-stu-id="206c7-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b52a3-107">参数</span><span class="sxs-lookup"><span data-stu-id="b52a3-107">Parameters</span></span>
 
-<span data-ttu-id="206c7-108">_pxNameText_(**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="206c7-108">_pxNameText_ (**xltypeStr**)</span></span>
+<span data-ttu-id="b52a3-108">_pxNameText_(**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="b52a3-108">_pxNameText_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="206c7-109">有效的名称通常限制在 Microsoft Excel 中应符合范围的名称。</span><span class="sxs-lookup"><span data-stu-id="206c7-109">The name of the range, which should conform to the usual limitations in Microsoft Excel on valid names.</span></span>
+<span data-ttu-id="b52a3-109">区域名称, 应符合 Microsoft Excel 对有效名称的常用限制。</span><span class="sxs-lookup"><span data-stu-id="b52a3-109">The name of the range, which should conform to the usual limitations in Microsoft Excel on valid names.</span></span>
   
-<span data-ttu-id="206c7-110">_pxNameDefinition_（**xltypeStr**、 **xltypeNum**、 **xltypeBool**、 **xltypeErr**、 **xltypeMulti**、 **xltypeSRef**、 **xltypeRef**或**xltypeInt**）</span><span class="sxs-lookup"><span data-stu-id="206c7-110">_pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef**, or **xltypeInt**)</span></span>
+<span data-ttu-id="b52a3-110">_pxNameDefinition_(**xltypeStr**、 **xltypeNum**、 **xltypeBool**、 **xltypeErr**、 **xltypeMulti**、 **xltypeSRef**、 **xltypeRef**或**xltypeInt**)</span><span class="sxs-lookup"><span data-stu-id="b52a3-110">_pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef**, or **xltypeInt**)</span></span>
   
-<span data-ttu-id="206c7-111">（可选）。</span><span class="sxs-lookup"><span data-stu-id="206c7-111">(Optional).</span></span> <span data-ttu-id="206c7-112">值、 值、 单元格或单元格区域的设置的_pxNameText_被定义为。</span><span class="sxs-lookup"><span data-stu-id="206c7-112">The value, set of values, cell, or range of cells that  _pxNameText_ is defined as.</span></span> <span data-ttu-id="206c7-113">如果省略，则删除名称。</span><span class="sxs-lookup"><span data-stu-id="206c7-113">If omitted, the name is deleted.</span></span> 
+<span data-ttu-id="b52a3-111">(可选)。</span><span class="sxs-lookup"><span data-stu-id="b52a3-111">(Optional).</span></span> <span data-ttu-id="b52a3-112">_pxNameText_定义为的值、值、单元格或单元格区域的集合。</span><span class="sxs-lookup"><span data-stu-id="b52a3-112">The value, set of values, cell, or range of cells that  _pxNameText_ is defined as.</span></span> <span data-ttu-id="b52a3-113">如果省略, 则删除该名称。</span><span class="sxs-lookup"><span data-stu-id="b52a3-113">If omitted, the name is deleted.</span></span> 
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="206c7-114">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="206c7-114">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="b52a3-114">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="b52a3-114">Property value/Return value</span></span>
 
-<span data-ttu-id="206c7-115">_pxRes_（**xltypeBool**或**xltypeErr**）</span><span class="sxs-lookup"><span data-stu-id="206c7-115">_pxRes_ (**xltypeBool** or **xltypeErr**)</span></span>
+<span data-ttu-id="b52a3-115">_pxRes_(**xltypeBool**或**xltypeErr**)</span><span class="sxs-lookup"><span data-stu-id="b52a3-115">_pxRes_ (**xltypeBool** or **xltypeErr**)</span></span>
   
-<span data-ttu-id="206c7-116">如果操作成功，则返回 TRUE 或 FALSE，如果无法创建或删除名称。</span><span class="sxs-lookup"><span data-stu-id="206c7-116">TRUE if the operation succeeded or FALSE if the name could not be created or deleted.</span></span> <span data-ttu-id="206c7-117">返回 #VALUE ！</span><span class="sxs-lookup"><span data-stu-id="206c7-117">Returns #VALUE!</span></span> <span data-ttu-id="206c7-118">如果一个或多个参数无效。</span><span class="sxs-lookup"><span data-stu-id="206c7-118">if one or more of the arguments was invalid.</span></span>
+<span data-ttu-id="b52a3-116">如果操作成功, 则为 TRUE; 如果无法创建或删除此名称, 则为 FALSE。</span><span class="sxs-lookup"><span data-stu-id="b52a3-116">TRUE if the operation succeeded or FALSE if the name could not be created or deleted.</span></span> <span data-ttu-id="b52a3-117">返回 #VALUE!</span><span class="sxs-lookup"><span data-stu-id="b52a3-117">Returns #VALUE!</span></span> <span data-ttu-id="b52a3-118">如果一个或多个参数无效。</span><span class="sxs-lookup"><span data-stu-id="b52a3-118">if one or more of the arguments was invalid.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="206c7-119">说明</span><span class="sxs-lookup"><span data-stu-id="206c7-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b52a3-119">注解</span><span class="sxs-lookup"><span data-stu-id="b52a3-119">Remarks</span></span>
 
-<span data-ttu-id="206c7-120">使用有效_pxFunctionText_参数**xlfRegister**注册函数或命令，Excel 将新建关联的 DLL 资源的名称。</span><span class="sxs-lookup"><span data-stu-id="206c7-120">When a function or command is registered using **xlfRegister** with a valid  _pxFunctionText_ argument, Excel creates a name associated with the DLL resource.</span></span> <span data-ttu-id="206c7-121">当正在卸载 DLL 时，应使用[xlfSetName 函数](xlfsetname.md)删除此类名称。</span><span class="sxs-lookup"><span data-stu-id="206c7-121">When your DLL is being unloaded, such names should be deleted using the [xlfSetName function](xlfsetname.md).</span></span> <span data-ttu-id="206c7-122">但是，由于在 Excel 中的已知问题，此删除操作失败。</span><span class="sxs-lookup"><span data-stu-id="206c7-122">However, due to a known issue in Excel, this deletion operation fails.</span></span> <span data-ttu-id="206c7-123">有关详细信息，请参阅[Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。</span><span class="sxs-lookup"><span data-stu-id="206c7-123">For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
+<span data-ttu-id="b52a3-120">使用**xlfRegister**和有效的_pxFunctionText_参数注册函数或命令时, Excel 将创建与 DLL 资源相关联的名称。</span><span class="sxs-lookup"><span data-stu-id="b52a3-120">When a function or command is registered using **xlfRegister** with a valid  _pxFunctionText_ argument, Excel creates a name associated with the DLL resource.</span></span> <span data-ttu-id="b52a3-121">卸载 DLL 时, 应使用[xlfSetName 函数](xlfsetname.md)删除此类名称。</span><span class="sxs-lookup"><span data-stu-id="b52a3-121">When your DLL is being unloaded, such names should be deleted using the [xlfSetName function](xlfsetname.md).</span></span> <span data-ttu-id="b52a3-122">但是, 由于 Excel 中的已知问题, 此删除操作将失败。</span><span class="sxs-lookup"><span data-stu-id="b52a3-122">However, due to a known issue in Excel, this deletion operation fails.</span></span> <span data-ttu-id="b52a3-123">有关详细信息，请参阅 [Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)。</span><span class="sxs-lookup"><span data-stu-id="b52a3-123">For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
   
-### <a name="example"></a><span data-ttu-id="206c7-124">示例</span><span class="sxs-lookup"><span data-stu-id="206c7-124">Example</span></span>
+### <a name="example"></a><span data-ttu-id="b52a3-124">示例</span><span class="sxs-lookup"><span data-stu-id="b52a3-124">Example</span></span>
 
-<span data-ttu-id="206c7-125">请参阅**xlAutoClose**函数中的代码`\SAMPLES\GENERIC\GENERIC.C`。</span><span class="sxs-lookup"><span data-stu-id="206c7-125">See the code for the **xlAutoClose** function in  `\SAMPLES\GENERIC\GENERIC.C`.</span></span>
+<span data-ttu-id="b52a3-125">请参阅中`\SAMPLES\GENERIC\GENERIC.C`的**xlAutoClose**函数的代码。</span><span class="sxs-lookup"><span data-stu-id="b52a3-125">See the code for the **xlAutoClose** function in  `\SAMPLES\GENERIC\GENERIC.C`.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="206c7-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="206c7-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b52a3-126">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b52a3-126">See also</span></span>
 
-- [<span data-ttu-id="206c7-127">基本的有用 C API XLM 函数</span><span class="sxs-lookup"><span data-stu-id="206c7-127">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
+- [<span data-ttu-id="b52a3-127">实用的基本 C API XLM 函数</span><span class="sxs-lookup"><span data-stu-id="b52a3-127">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
 

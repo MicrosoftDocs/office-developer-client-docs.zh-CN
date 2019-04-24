@@ -7,38 +7,38 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0de9d4e2-eb3f-40e7-aa24-f430892eb9ec
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 65d4257037b18c8fa68cabe0c08091ec67343fa5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 882458ab096cbced8e0635dab65fe0b1d680388f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773634"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310995"
 ---
-# <a name="canceloutstandingrequests"></a><span data-ttu-id="d1703-103">CancelOutstandingRequests</span><span class="sxs-lookup"><span data-stu-id="d1703-103">CancelOutstandingRequests</span></span>
+# <a name="canceloutstandingrequests"></a><span data-ttu-id="40231-103">CancelOutstandingRequests</span><span class="sxs-lookup"><span data-stu-id="40231-103">CancelOutstandingRequests</span></span>
 
-<span data-ttu-id="d1703-104">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d1703-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="40231-104">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="40231-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="d1703-105">通知的 Excel 计算已被取消，因此所有挂起的会话中的函数调用可能会取消以及群集连接器 （和 Excel 并不需要其结果的回调）。</span><span class="sxs-lookup"><span data-stu-id="d1703-105">Informs the cluster connector that an Excel calculation has been canceled, and therefore all pending function calls within that session may be cancelled as well (and that Excel does not expect callbacks with their results).</span></span>
+<span data-ttu-id="40231-105">通知群集连接器已取消某个 Excel 计算, 因此该会话中的所有挂起的函数调用也可能会被取消 (并且 Excel 不希望回调与其结果一起)。</span><span class="sxs-lookup"><span data-stu-id="40231-105">Informs the cluster connector that an Excel calculation has been canceled, and therefore all pending function calls within that session may be cancelled as well (and that Excel does not expect callbacks with their results).</span></span>
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d1703-106">参数</span><span class="sxs-lookup"><span data-stu-id="d1703-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="40231-106">参数</span><span class="sxs-lookup"><span data-stu-id="40231-106">Parameters</span></span>
 
-<span data-ttu-id="d1703-107">_SessionID_</span><span class="sxs-lookup"><span data-stu-id="d1703-107">_SessionID_</span></span>
+<span data-ttu-id="40231-107">_SessionID_</span><span class="sxs-lookup"><span data-stu-id="40231-107">_SessionID_</span></span>
   
-> <span data-ttu-id="d1703-108">使用已取消计算会话的 ID。</span><span class="sxs-lookup"><span data-stu-id="d1703-108">The ID of the session used by the canceled calculation.</span></span> <span data-ttu-id="d1703-109">此值匹配[OpenSession](opensession.md)返回的值。</span><span class="sxs-lookup"><span data-stu-id="d1703-109">This value matches the value returned by [OpenSession](opensession.md).</span></span>
+> <span data-ttu-id="40231-108">已取消的计算所使用的会话的 ID。</span><span class="sxs-lookup"><span data-stu-id="40231-108">The ID of the session used by the canceled calculation.</span></span> <span data-ttu-id="40231-109">此值与[OpenSession](opensession.md)返回的值相匹配。</span><span class="sxs-lookup"><span data-stu-id="40231-109">This value matches the value returned by [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d1703-110">返回值</span><span class="sxs-lookup"><span data-stu-id="d1703-110">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="40231-110">返回值</span><span class="sxs-lookup"><span data-stu-id="40231-110">Return value</span></span>
 
-<span data-ttu-id="d1703-111">**xlHpcRetSuccess** _SessionId_参数是否有效;**xlHpcRetInvalidSessionId** _SessionId_参数无效; 如果有关其他故障**xlHpcRetCallFailed** 。</span><span class="sxs-lookup"><span data-stu-id="d1703-111">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
+<span data-ttu-id="40231-111">如果_SessionId_参数有效, 则为**xlHpcRetSuccess** , 否则为 false。**xlHpcRetInvalidSessionId**如果_SessionId_参数无效, 则为有关其他故障的**xlHpcRetCallFailed** 。</span><span class="sxs-lookup"><span data-stu-id="40231-111">**xlHpcRetSuccess** if the  _SessionId_ argument is valid; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="d1703-112">说明</span><span class="sxs-lookup"><span data-stu-id="d1703-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="40231-112">注解</span><span class="sxs-lookup"><span data-stu-id="40231-112">Remarks</span></span>
 
-<span data-ttu-id="d1703-113">实施应以提高性能，作为此呼叫将被丢弃由 Excel 之后收到任何结果会话停止所有进程。</span><span class="sxs-lookup"><span data-stu-id="d1703-113">Implementers should stop all processes for the session for improved performance, as any results received after this call will be discarded by Excel.</span></span>
+<span data-ttu-id="40231-113">实施者应停止会话的所有进程以提高性能, 因为 Excel 将放弃在此调用之后收到的任何结果。</span><span class="sxs-lookup"><span data-stu-id="40231-113">Implementers should stop all processes for the session for improved performance, as any results received after this call will be discarded by Excel.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d1703-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="d1703-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="40231-114">另请参阅</span><span class="sxs-lookup"><span data-stu-id="40231-114">See also</span></span>
 
-- [<span data-ttu-id="d1703-115">Excel 群集连接器函数</span><span class="sxs-lookup"><span data-stu-id="d1703-115">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
+- [<span data-ttu-id="40231-115">Excel 群集连接器函数</span><span class="sxs-lookup"><span data-stu-id="40231-115">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
 

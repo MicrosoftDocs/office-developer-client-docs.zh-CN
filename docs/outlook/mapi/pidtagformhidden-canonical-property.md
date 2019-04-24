@@ -12,53 +12,53 @@ api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 89eb6f0b8248fb0113356e60e0b94e4762c2a11a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cda969b43cba9431b986b24ec64ca26f245b7676
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316238"
 ---
-# <a name="pidtagformhidden-canonical-property"></a><span data-ttu-id="84ead-103">PidTagFormHidden 规范属性</span><span class="sxs-lookup"><span data-stu-id="84ead-103">PidTagFormHidden Canonical Property</span></span>
+# <a name="pidtagformhidden-canonical-property"></a><span data-ttu-id="f1136-103">PidTagFormHidden 规范属性</span><span class="sxs-lookup"><span data-stu-id="f1136-103">PidTagFormHidden Canonical Property</span></span>
 
   
   
-<span data-ttu-id="84ead-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="84ead-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f1136-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f1136-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="84ead-105">如果窗体是要取消显示从包含 TRUE 的撰写菜单和对话框。</span><span class="sxs-lookup"><span data-stu-id="84ead-105">Contains TRUE if a form is to be suppressed from display by compose menus and dialog boxes.</span></span> 
+<span data-ttu-id="f1136-105">如果要通过撰写菜单和对话框禁止显示窗体, 则该参数为 TRUE。</span><span class="sxs-lookup"><span data-stu-id="f1136-105">Contains TRUE if a form is to be suppressed from display by compose menus and dialog boxes.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="84ead-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="84ead-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="84ead-107">PR_FORM_HIDDEN</span><span class="sxs-lookup"><span data-stu-id="84ead-107">PR_FORM_HIDDEN</span></span>  <br/> |
-|<span data-ttu-id="84ead-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="84ead-108">Identifier:</span></span>  <br/> |<span data-ttu-id="84ead-109">0x3307</span><span class="sxs-lookup"><span data-stu-id="84ead-109">0x3307</span></span>  <br/> |
-|<span data-ttu-id="84ead-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="84ead-110">Data type:</span></span>  <br/> |<span data-ttu-id="84ead-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="84ead-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="84ead-112">区域：</span><span class="sxs-lookup"><span data-stu-id="84ead-112">Area:</span></span>  <br/> |<span data-ttu-id="84ead-113">常见的 MAPI</span><span class="sxs-lookup"><span data-stu-id="84ead-113">MAPI common</span></span>  <br/> |
+|<span data-ttu-id="f1136-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="f1136-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f1136-107">PR_FORM_HIDDEN</span><span class="sxs-lookup"><span data-stu-id="f1136-107">PR_FORM_HIDDEN</span></span>  <br/> |
+|<span data-ttu-id="f1136-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="f1136-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f1136-109">0x3307</span><span class="sxs-lookup"><span data-stu-id="f1136-109">0x3307</span></span>  <br/> |
+|<span data-ttu-id="f1136-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="f1136-110">Data type:</span></span>  <br/> |<span data-ttu-id="f1136-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="f1136-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="f1136-112">区域：</span><span class="sxs-lookup"><span data-stu-id="f1136-112">Area:</span></span>  <br/> |<span data-ttu-id="f1136-113">MAPI 通用</span><span class="sxs-lookup"><span data-stu-id="f1136-113">MAPI common</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="84ead-114">注解</span><span class="sxs-lookup"><span data-stu-id="84ead-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f1136-114">注解</span><span class="sxs-lookup"><span data-stu-id="f1136-114">Remarks</span></span>
 
-<span data-ttu-id="84ead-115">与表单相关的属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="84ead-115">Form-related properties are read-only.</span></span> 
+<span data-ttu-id="f1136-115">与窗体相关的属性是只读的。</span><span class="sxs-lookup"><span data-stu-id="f1136-115">Form-related properties are read-only.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="84ead-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="84ead-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="f1136-116">相关资源</span><span class="sxs-lookup"><span data-stu-id="f1136-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="84ead-117">头文件</span><span class="sxs-lookup"><span data-stu-id="84ead-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="f1136-117">头文件</span><span class="sxs-lookup"><span data-stu-id="f1136-117">Header files</span></span>
 
-<span data-ttu-id="84ead-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="84ead-118">Mapidefs.h</span></span>
+<span data-ttu-id="f1136-118">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="f1136-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="84ead-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="84ead-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="f1136-119">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="f1136-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="84ead-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="84ead-120">Mapitags.h</span></span>
+<span data-ttu-id="f1136-120">Mapitags</span><span class="sxs-lookup"><span data-stu-id="f1136-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="84ead-121">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="84ead-121">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="f1136-121">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="f1136-121">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="84ead-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="84ead-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f1136-122">另请参阅</span><span class="sxs-lookup"><span data-stu-id="f1136-122">See also</span></span>
 
 
 
-[<span data-ttu-id="84ead-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="84ead-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f1136-123">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="f1136-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="84ead-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="84ead-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f1136-124">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="f1136-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="84ead-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="84ead-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f1136-125">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="f1136-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="84ead-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="84ead-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f1136-126">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="f1136-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

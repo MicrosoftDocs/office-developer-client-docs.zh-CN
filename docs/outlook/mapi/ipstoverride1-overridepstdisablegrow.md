@@ -11,37 +11,37 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d32f5c7c25b2569a23bed77d48257f4d0394cb1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 9681a2af2997ad03b73ae07bc7bac05e5f0c780e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315461"
 ---
-# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="44da6-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="44da6-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
+# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="a7765-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="a7765-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
 
   
   
-<span data-ttu-id="44da6-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="44da6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a7765-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a7765-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="44da6-105">会话，覆盖该 PSTDisableGrow 策略来解锁个人文件夹 (.pst) 文件。</span><span class="sxs-lookup"><span data-stu-id="44da6-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
+<span data-ttu-id="a7765-105">为会话解锁个人文件夹 (.pst) 文件, 替代 pstdisablegrow 可策略。</span><span class="sxs-lookup"><span data-stu-id="a7765-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="44da6-106">返回值</span><span class="sxs-lookup"><span data-stu-id="44da6-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a7765-106">返回值</span><span class="sxs-lookup"><span data-stu-id="a7765-106">Return value</span></span>
 
-<span data-ttu-id="44da6-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="44da6-107">S_OK</span></span>
+<span data-ttu-id="a7765-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="a7765-107">S_OK</span></span>
   
-> <span data-ttu-id="44da6-108">函数调用成功。</span><span class="sxs-lookup"><span data-stu-id="44da6-108">The function call was successful.</span></span>
+> <span data-ttu-id="a7765-108">函数调用成功。</span><span class="sxs-lookup"><span data-stu-id="a7765-108">The function call was successful.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="44da6-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="44da6-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a7765-109">另请参阅</span><span class="sxs-lookup"><span data-stu-id="a7765-109">See also</span></span>
 
 
 
-[<span data-ttu-id="44da6-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="44da6-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
+[<span data-ttu-id="a7765-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a7765-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
   
-[<span data-ttu-id="44da6-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="44da6-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
+[<span data-ttu-id="a7765-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a7765-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
 

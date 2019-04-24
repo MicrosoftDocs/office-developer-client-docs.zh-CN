@@ -13,68 +13,68 @@ api_type:
 ms.assetid: 81c2e479-84a1-42ba-a9ce-25e3fc8d80cb
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f8a2c92e47c2f309cd52f80c0cb5cf5d1f3518e5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316133"
 ---
-# <a name="pidtaggeneration-canonical-property"></a><span data-ttu-id="c7948-103">PidTagGeneration 规范属性</span><span class="sxs-lookup"><span data-stu-id="c7948-103">PidTagGeneration Canonical Property</span></span>
+# <a name="pidtaggeneration-canonical-property"></a><span data-ttu-id="51940-103">PidTagGeneration 规范属性</span><span class="sxs-lookup"><span data-stu-id="51940-103">PidTagGeneration Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c7948-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c7948-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="51940-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="51940-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c7948-105">包含的代缩写，遵循收件人的完整名称。</span><span class="sxs-lookup"><span data-stu-id="c7948-105">Contains a generational abbreviation that follows the full name of the recipient.</span></span> 
+<span data-ttu-id="51940-105">包含遵循收件人全名的代缩写。</span><span class="sxs-lookup"><span data-stu-id="51940-105">Contains a generational abbreviation that follows the full name of the recipient.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c7948-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="c7948-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c7948-107">PR_GENERATION，PR_GENERATION_A，PR_GENERATION_W</span><span class="sxs-lookup"><span data-stu-id="c7948-107">PR_GENERATION, PR_GENERATION_A, PR_GENERATION_W</span></span>  <br/> |
-|<span data-ttu-id="c7948-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="c7948-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c7948-109">0x3A05</span><span class="sxs-lookup"><span data-stu-id="c7948-109">0x3A05</span></span>  <br/> |
-|<span data-ttu-id="c7948-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="c7948-110">Data type:</span></span>  <br/> |<span data-ttu-id="c7948-111">PT_STRING8 PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c7948-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="c7948-112">区域：</span><span class="sxs-lookup"><span data-stu-id="c7948-112">Area:</span></span>  <br/> |<span data-ttu-id="c7948-113">MAPI 邮件用户</span><span class="sxs-lookup"><span data-stu-id="c7948-113">MAPI mail user</span></span>  <br/> |
+|<span data-ttu-id="51940-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="51940-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="51940-107">PR_GENERATION、PR_GENERATION_A、PR_GENERATION_W</span><span class="sxs-lookup"><span data-stu-id="51940-107">PR_GENERATION, PR_GENERATION_A, PR_GENERATION_W</span></span>  <br/> |
+|<span data-ttu-id="51940-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="51940-108">Identifier:</span></span>  <br/> |<span data-ttu-id="51940-109">0x3A05</span><span class="sxs-lookup"><span data-stu-id="51940-109">0x3A05</span></span>  <br/> |
+|<span data-ttu-id="51940-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="51940-110">Data type:</span></span>  <br/> |<span data-ttu-id="51940-111">PT_STRING8、PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="51940-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="51940-112">区域：</span><span class="sxs-lookup"><span data-stu-id="51940-112">Area:</span></span>  <br/> |<span data-ttu-id="51940-113">MAPI 邮件用户</span><span class="sxs-lookup"><span data-stu-id="51940-113">MAPI mail user</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c7948-114">说明</span><span class="sxs-lookup"><span data-stu-id="c7948-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="51940-114">注解</span><span class="sxs-lookup"><span data-stu-id="51940-114">Remarks</span></span>
 
-<span data-ttu-id="c7948-115">这些属性提供标识和访问有关收件人的信息。</span><span class="sxs-lookup"><span data-stu-id="c7948-115">These properties provide identification and access information about a recipient.</span></span> <span data-ttu-id="c7948-116">它们是按收件人和组织定义的。</span><span class="sxs-lookup"><span data-stu-id="c7948-116">They are defined by the recipient and their organization.</span></span> 
+<span data-ttu-id="51940-115">这些属性提供有关收件人的标识和访问信息。</span><span class="sxs-lookup"><span data-stu-id="51940-115">These properties provide identification and access information about a recipient.</span></span> <span data-ttu-id="51940-116">它们由收件人及其组织定义。</span><span class="sxs-lookup"><span data-stu-id="51940-116">They are defined by the recipient and their organization.</span></span> 
   
-<span data-ttu-id="c7948-117">常见的值包括先生，sr。 和 III。</span><span class="sxs-lookup"><span data-stu-id="c7948-117">Common values include Jr., Sr., and III.</span></span>
+<span data-ttu-id="51940-117">常见值包括先生、Sr. 和 III。</span><span class="sxs-lookup"><span data-stu-id="51940-117">Common values include Jr., Sr., and III.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="c7948-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="c7948-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="51940-118">相关资源</span><span class="sxs-lookup"><span data-stu-id="51940-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="c7948-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="c7948-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="51940-119">协议规范</span><span class="sxs-lookup"><span data-stu-id="51940-119">Protocol specifications</span></span>
 
-<span data-ttu-id="c7948-120">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c7948-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="51940-120">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="51940-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c7948-121">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="c7948-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="51940-121">提供对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="51940-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="c7948-122">[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c7948-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="51940-122">[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="51940-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c7948-123">指定的属性和操作所允许的联系人和个人通讯组列表。</span><span class="sxs-lookup"><span data-stu-id="c7948-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="51940-123">指定允许用于联系人和个人通讯组列表的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="51940-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-<span data-ttu-id="c7948-124">[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c7948-124">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="51940-124">[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="51940-124">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c7948-125">指定的属性和用户、 联系人、 组和资源的操作列表。</span><span class="sxs-lookup"><span data-stu-id="c7948-125">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="51940-125">指定用户、联系人、组和资源列表的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="51940-125">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="c7948-126">头文件</span><span class="sxs-lookup"><span data-stu-id="c7948-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="51940-126">头文件</span><span class="sxs-lookup"><span data-stu-id="51940-126">Header files</span></span>
 
-<span data-ttu-id="c7948-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c7948-127">Mapidefs.h</span></span>
+<span data-ttu-id="51940-127">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="51940-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c7948-128">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="c7948-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="51940-128">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="51940-128">Provides data type definitions.</span></span>
     
-<span data-ttu-id="c7948-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c7948-129">Mapitags.h</span></span>
+<span data-ttu-id="51940-129">Mapitags</span><span class="sxs-lookup"><span data-stu-id="51940-129">Mapitags.h</span></span>
   
-> <span data-ttu-id="c7948-130">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="c7948-130">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="51940-130">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="51940-130">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c7948-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c7948-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="51940-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="51940-131">See also</span></span>
 
 
 
-[<span data-ttu-id="c7948-132">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="c7948-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="51940-132">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="51940-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c7948-133">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="c7948-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="51940-133">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="51940-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c7948-134">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="c7948-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="51940-134">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="51940-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c7948-135">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="c7948-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="51940-135">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="51940-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

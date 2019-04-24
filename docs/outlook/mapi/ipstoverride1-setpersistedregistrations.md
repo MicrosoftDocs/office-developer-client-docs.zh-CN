@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: 上次修改时间： 2011 年 11 月 8 日
-ms.openlocfilehash: 3592584a08bf14725c0289831740e91fb8f1a5b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2011 年11月8日'
+ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315475"
 ---
-# <a name="ipstoverride1setpersistedregistrations"></a><span data-ttu-id="9c126-103">IPSTOVERRIDE1::SetPersistedRegistrations</span><span class="sxs-lookup"><span data-stu-id="9c126-103">IPSTOVERRIDE1::SetPersistedRegistrations</span></span>
+# <a name="ipstoverride1setpersistedregistrations"></a><span data-ttu-id="bc3c1-103">IPSTOVERRIDE1::SetPersistedRegistrations</span><span class="sxs-lookup"><span data-stu-id="bc3c1-103">IPSTOVERRIDE1::SetPersistedRegistrations</span></span>
 
-<span data-ttu-id="9c126-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9c126-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bc3c1-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bc3c1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9c126-105">避免进一步调用 HrTrustedPSTOverrideHandlerCallback 注册自动解锁个人文件夹 (.pst) 文件。</span><span class="sxs-lookup"><span data-stu-id="9c126-105">Registers Personal Folders (.pst) files for automatic unlocking, avoiding further calls to the HrTrustedPSTOverrideHandlerCallback.</span></span>
+<span data-ttu-id="bc3c1-105">为自动解锁注册个人文件夹 (.pst) 文件, 以避免对 HrTrustedPSTOverrideHandlerCallback 的进一步调用。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-105">Registers Personal Folders (.pst) files for automatic unlocking, avoiding further calls to the HrTrustedPSTOverrideHandlerCallback.</span></span>
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -31,34 +31,34 @@ HRESULT SetPersistedRegistrations(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9c126-106">参数</span><span class="sxs-lookup"><span data-stu-id="9c126-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bc3c1-106">参数</span><span class="sxs-lookup"><span data-stu-id="bc3c1-106">Parameters</span></span>
 
-<span data-ttu-id="9c126-107">_pmval_</span><span class="sxs-lookup"><span data-stu-id="9c126-107">_pmval_</span></span>
+<span data-ttu-id="bc3c1-107">_pmval_</span><span class="sxs-lookup"><span data-stu-id="bc3c1-107">_pmval_</span></span>
   
-> <span data-ttu-id="9c126-108">[in][SPropValue](spropvalue.md)结构，其中包含一个指向动态链接库 (DLL) 注册的路径。</span><span class="sxs-lookup"><span data-stu-id="9c126-108">[in] An [SPropValue](spropvalue.md) structure that contains a pointer to the path of the dynamic-link library (DLL) to register.</span></span> <span data-ttu-id="9c126-109">结构具有以下特征：</span><span class="sxs-lookup"><span data-stu-id="9c126-109">The structure has the following characteristics:</span></span> 
+> <span data-ttu-id="bc3c1-108">实时一个[SPropValue](spropvalue.md)结构, 其中包含指向要注册的动态链接库 (DLL) 的路径的指针。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-108">[in] An [SPropValue](spropvalue.md) structure that contains a pointer to the path of the dynamic-link library (DLL) to register.</span></span> <span data-ttu-id="bc3c1-109">结构具有以下特征:</span><span class="sxs-lookup"><span data-stu-id="bc3c1-109">The structure has the following characteristics:</span></span> 
     
-   - <span data-ttu-id="9c126-110">[PROP_TAG](prop_tag.md)（PT_MV_UNICODE、 PROP_ID_NULL） ulPropTag。</span><span class="sxs-lookup"><span data-stu-id="9c126-110">A ulPropTag of [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).</span></span>
+   - <span data-ttu-id="bc3c1-110">[PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL) 的 ulPropTag。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-110">A ulPropTag of [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).</span></span>
     
-   - <span data-ttu-id="9c126-111">设置为 null 结尾的 Unicode 字符字符串数组 MVszW value 属性。</span><span class="sxs-lookup"><span data-stu-id="9c126-111">An MVszW value property that is set to an array of null-terminated Unicode character strings.</span></span> <span data-ttu-id="9c126-112">有关详细信息，请参阅[SWStringArray](swstringarray.md)主题。</span><span class="sxs-lookup"><span data-stu-id="9c126-112">For more information see the [SWStringArray](swstringarray.md) topic.</span></span> 
+   - <span data-ttu-id="bc3c1-111">一个 MVszW 值属性, 该属性设置为以 null 结尾的 Unicode 字符串的数组。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-111">An MVszW value property that is set to an array of null-terminated Unicode character strings.</span></span> <span data-ttu-id="bc3c1-112">有关详细信息, 请参阅[SWStringArray](swstringarray.md)主题。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-112">For more information see the [SWStringArray](swstringarray.md) topic.</span></span> 
     
 > [!NOTE]
-> <span data-ttu-id="9c126-113">SPropValue 存储在 PST 的内部区域中的 MAPI 属性中。</span><span class="sxs-lookup"><span data-stu-id="9c126-113">The SPropValue is stored in a MAPI property in the PST's internal range.</span></span> <span data-ttu-id="9c126-114">此属性为普通的 MAPI 应用程序无法访问。</span><span class="sxs-lookup"><span data-stu-id="9c126-114">This property is inaccessible to ordinary MAPI applications.</span></span> 
+> <span data-ttu-id="bc3c1-113">SPropValue 存储在 PST 的内部范围内的 MAPI 属性中。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-113">The SPropValue is stored in a MAPI property in the PST's internal range.</span></span> <span data-ttu-id="bc3c1-114">普通 MAPI 应用程序无法访问此属性。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-114">This property is inaccessible to ordinary MAPI applications.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="9c126-115">返回值</span><span class="sxs-lookup"><span data-stu-id="9c126-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bc3c1-115">返回值</span><span class="sxs-lookup"><span data-stu-id="bc3c1-115">Return value</span></span>
 
-<span data-ttu-id="9c126-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="9c126-116">S_OK</span></span> 
+<span data-ttu-id="bc3c1-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="bc3c1-116">S_OK</span></span> 
   
-> <span data-ttu-id="9c126-117">函数调用成功。</span><span class="sxs-lookup"><span data-stu-id="9c126-117">The function call was successful.</span></span>
+> <span data-ttu-id="bc3c1-117">函数调用成功。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-117">The function call was successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="9c126-118">注解</span><span class="sxs-lookup"><span data-stu-id="9c126-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc3c1-118">注解</span><span class="sxs-lookup"><span data-stu-id="bc3c1-118">Remarks</span></span>
 
-<span data-ttu-id="9c126-119">持久化的注册可能会影响应用程序的性能，如 Outlook 和 Windows 桌面搜索，打开 Pst 的。</span><span class="sxs-lookup"><span data-stu-id="9c126-119">Persisted registrations may adversely affect the performance of applications, such as Outlook and Windows Desktop Search, that open PSTs.</span></span> <span data-ttu-id="9c126-120">请考虑使用或展开持久化注册的使用情况时的性能影响。</span><span class="sxs-lookup"><span data-stu-id="9c126-120">Consider the performance effect when using or expanding the usage of persisted registrations.</span></span>
+<span data-ttu-id="bc3c1-119">持久化注册可能会对打开 pst 的应用程序 (如 Outlook 和 Windows 桌面搜索) 的性能产生不利影响。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-119">Persisted registrations may adversely affect the performance of applications, such as Outlook and Windows Desktop Search, that open PSTs.</span></span> <span data-ttu-id="bc3c1-120">在使用或扩展持久化注册的使用情况时, 请考虑性能影响。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-120">Consider the performance effect when using or expanding the usage of persisted registrations.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="9c126-121">此方法仅实现为 Unicode。</span><span class="sxs-lookup"><span data-stu-id="9c126-121">This method is implemented for Unicode only.</span></span> <span data-ttu-id="9c126-122">此外，它将预先失败如果任何路径数组中没有的.dll 文件扩展名。</span><span class="sxs-lookup"><span data-stu-id="9c126-122">Further, it will preemptively fail if any of the paths in the array do not have a file name extension of .dll.</span></span> 
+> <span data-ttu-id="bc3c1-121">仅为 Unicode 实现此方法。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-121">This method is implemented for Unicode only.</span></span> <span data-ttu-id="bc3c1-122">此外, 如果数组中的任何路径的文件扩展名均不为 .dll, 则 preemptively 将失败。</span><span class="sxs-lookup"><span data-stu-id="bc3c1-122">Further, it will preemptively fail if any of the paths in the array do not have a file name extension of .dll.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="9c126-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="9c126-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc3c1-123">另请参阅</span><span class="sxs-lookup"><span data-stu-id="bc3c1-123">See also</span></span>
 
-- [<span data-ttu-id="9c126-124">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9c126-124">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md) 
-- [<span data-ttu-id="9c126-125">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9c126-125">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
+- [<span data-ttu-id="bc3c1-124">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bc3c1-124">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md) 
+- [<span data-ttu-id="bc3c1-125">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bc3c1-125">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
 

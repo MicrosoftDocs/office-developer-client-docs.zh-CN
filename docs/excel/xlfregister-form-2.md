@@ -11,44 +11,44 @@ keywords:
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: a535018e2b644966d183ba9ae862ce83670c9231
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66af741456ab763ef346a8777429f0ae1be77c11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310120"
 ---
-# <a name="xlfregister-form-2"></a><span data-ttu-id="c6ea7-104">xlfRegister（窗体 2）</span><span class="sxs-lookup"><span data-stu-id="c6ea7-104">xlfRegister (Form 2)</span></span>
+# <a name="xlfregister-form-2"></a><span data-ttu-id="70cf0-104">xlfRegister（窗体 2）</span><span class="sxs-lookup"><span data-stu-id="70cf0-104">xlfRegister (Form 2)</span></span>
 
- <span data-ttu-id="c6ea7-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c6ea7-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="70cf0-105">**适用于** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="70cf0-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="c6ea7-106">可从 DLL 或 XLL 命令的本身已调用由 Microsoft Excel 进行调用。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-106">Can be called from a DLL or XLL command that has itself been called by Microsoft Excel.</span></span> <span data-ttu-id="c6ea7-107">这是等效于从 Excel XLM 宏工作表调用**注册**。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-107">This is equivalent to calling **REGISTER** from an Excel XLM macro sheet.</span></span> 
+<span data-ttu-id="70cf0-106">可从 DLL 或 XLL 命令调用, 该命令本身已由 Microsoft Excel 调用。</span><span class="sxs-lookup"><span data-stu-id="70cf0-106">Can be called from a DLL or XLL command that has itself been called by Microsoft Excel.</span></span> <span data-ttu-id="70cf0-107">这相当于从 Excel XLM 宏表调用**REGISTER** 。</span><span class="sxs-lookup"><span data-stu-id="70cf0-107">This is equivalent to calling **REGISTER** from an Excel XLM macro sheet.</span></span> 
   
-<span data-ttu-id="c6ea7-108">可在两个窗体中调用**xlfRegister**函数：</span><span class="sxs-lookup"><span data-stu-id="c6ea7-108">The **xlfRegister** function can be called in two forms:</span></span> 
+<span data-ttu-id="70cf0-108">可以在两种形式中调用**xlfRegister**函数:</span><span class="sxs-lookup"><span data-stu-id="70cf0-108">The **xlfRegister** function can be called in two forms:</span></span> 
   
-- <span data-ttu-id="c6ea7-109">[xlfRegister (窗体 1)](xlfregister-form-1.md): 注册单个命令或函数。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-109">[xlfRegister (Form 1)](xlfregister-form-1.md): Registers an individual command or function.</span></span>
+- <span data-ttu-id="70cf0-109">[xlfRegister (窗体 1)](xlfregister-form-1.md): 注册单个命令或函数。</span><span class="sxs-lookup"><span data-stu-id="70cf0-109">[xlfRegister (Form 1)](xlfregister-form-1.md): Registers an individual command or function.</span></span>
     
-- <span data-ttu-id="c6ea7-110">xlfRegister (窗体 2): 加载并激活 XLL。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-110">xlfRegister (Form 2): Loads and activates an XLL.</span></span>
+- <span data-ttu-id="70cf0-110">xlfRegister (窗体 2): 加载并激活 XLL。</span><span class="sxs-lookup"><span data-stu-id="70cf0-110">xlfRegister (Form 2): Loads and activates an XLL.</span></span>
     
-<span data-ttu-id="c6ea7-111">调用窗体 2 中，此函数可以仅用于加载和激活包含[xlAutoOpen](xlautoopen.md)过程 XLL。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-111">Called in Form 2, this function can only be used to load and activate an XLL containing an [xlAutoOpen](xlautoopen.md) procedure.</span></span> 
+<span data-ttu-id="70cf0-111">在表单2中调用, 此函数仅可用于加载和激活包含[xlAutoOpen](xlautoopen.md)过程的 XLL。</span><span class="sxs-lookup"><span data-stu-id="70cf0-111">Called in Form 2, this function can only be used to load and activate an XLL containing an [xlAutoOpen](xlautoopen.md) procedure.</span></span> 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c6ea7-112">参数</span><span class="sxs-lookup"><span data-stu-id="c6ea7-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="70cf0-112">参数</span><span class="sxs-lookup"><span data-stu-id="70cf0-112">Parameters</span></span>
 
- <span data-ttu-id="c6ea7-113">_pxModuleText_(**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="c6ea7-113">_pxModuleText_ (**xltypeStr**)</span></span>
+ <span data-ttu-id="70cf0-113">_pxModuleText_(**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="70cf0-113">_pxModuleText_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="c6ea7-114">要加载并激活的 dll 名称。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-114">The name of the DLL to be loaded and activated.</span></span>
+<span data-ttu-id="70cf0-114">要加载并激活的 DLL 的名称。</span><span class="sxs-lookup"><span data-stu-id="70cf0-114">The name of the DLL to be loaded and activated.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="c6ea7-115">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="c6ea7-115">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="70cf0-115">属性值/返回值</span><span class="sxs-lookup"><span data-stu-id="70cf0-115">Property value/Return value</span></span>
 
-<span data-ttu-id="c6ea7-116">如果成功，这将返回 DLL (**xltypeStr**) 的名称。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-116">If successful, this returns the name of the DLL (**xltypeStr**).</span></span> <span data-ttu-id="c6ea7-117">否则，它返回 #VALUE ！</span><span class="sxs-lookup"><span data-stu-id="c6ea7-117">Otherwise it returns a #VALUE!</span></span> <span data-ttu-id="c6ea7-118">错误。</span><span class="sxs-lookup"><span data-stu-id="c6ea7-118">error.</span></span>
+<span data-ttu-id="70cf0-116">如果成功, 则返回 DLL 的名称 (**xltypeStr**)。</span><span class="sxs-lookup"><span data-stu-id="70cf0-116">If successful, this returns the name of the DLL (**xltypeStr**).</span></span> <span data-ttu-id="70cf0-117">否则, 它将返回一个 #VALUE!</span><span class="sxs-lookup"><span data-stu-id="70cf0-117">Otherwise it returns a #VALUE!</span></span> <span data-ttu-id="70cf0-118">误差.</span><span class="sxs-lookup"><span data-stu-id="70cf0-118">error.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c6ea7-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="c6ea7-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="70cf0-119">另请参阅</span><span class="sxs-lookup"><span data-stu-id="70cf0-119">See also</span></span>
 
 
 
-[<span data-ttu-id="c6ea7-120">基本的有用 C API XLM 函数</span><span class="sxs-lookup"><span data-stu-id="c6ea7-120">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
+[<span data-ttu-id="70cf0-120">实用的基本 C API XLM 函数</span><span class="sxs-lookup"><span data-stu-id="70cf0-120">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
 
