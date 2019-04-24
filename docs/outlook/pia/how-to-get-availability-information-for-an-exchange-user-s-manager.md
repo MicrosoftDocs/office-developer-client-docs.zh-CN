@@ -8,21 +8,21 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df3779a3b92368af75d152e662eedec1a30a97bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349481"
 ---
-# <a name="get-availability-information-for-an-exchange-users-manager"></a><span data-ttu-id="092b4-102">获取 Exchange 用户的经理闲/忙状态信息</span><span class="sxs-lookup"><span data-stu-id="092b4-102">Get availability information for an Exchange user's manager</span></span>
+# <a name="get-availability-information-for-an-exchange-users-manager"></a><span data-ttu-id="1b77b-102">获取 Exchange 用户的经理闲/忙状态信息</span><span class="sxs-lookup"><span data-stu-id="1b77b-102">Get availability information for an Exchange user's manager</span></span>
 
-<span data-ttu-id="092b4-103">此示例在日历中显示用户的经理的下一个空闲 60 分钟时间段。</span><span class="sxs-lookup"><span data-stu-id="092b4-103">This example displays the next free 60-minute time slot in the calendar for a user's manager.</span></span>
+<span data-ttu-id="1b77b-103">此示例在日历中显示用户的经理的下一个空闲 60 分钟时间段。</span><span class="sxs-lookup"><span data-stu-id="1b77b-103">This example displays the next free 60-minute time slot in the calendar for a user's manager.</span></span>
 
-## <a name="example"></a><span data-ttu-id="092b4-104">示例</span><span class="sxs-lookup"><span data-stu-id="092b4-104">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1b77b-104">示例</span><span class="sxs-lookup"><span data-stu-id="1b77b-104">Example</span></span>
 
-<span data-ttu-id="092b4-105">该代码示例检查当前用户是不是 Exchange 用户。</span><span class="sxs-lookup"><span data-stu-id="092b4-105">This code sample checks whether the current user is an Exchange user.</span></span> <span data-ttu-id="092b4-106">如果是，并且当前用户有一个经理，则它通过调用 [AddressEntry](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) 对象的 [GetExchangeUser](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) 方法和 [ExchangeUser](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) 对象的 [GetExchangeUserManager](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) 方法来获取经理信息。</span><span class="sxs-lookup"><span data-stu-id="092b4-106">If so, and if the current user has a manager, it obtains the manager's information by calling the [GetExchangeUser](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) method of the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object and the [GetExchangeUserManager](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) method of the [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) object.</span></span> <span data-ttu-id="092b4-107">经理信息包含在 **ExchangeUser** 对象中，其中包括经理的闲/忙日程安排。</span><span class="sxs-lookup"><span data-stu-id="092b4-107">The manager's information is contained in an **ExchangeUser** object that includes the manager's Free/Busy schedule.</span></span>
+<span data-ttu-id="1b77b-105">该代码示例检查当前用户是不是 Exchange 用户。</span><span class="sxs-lookup"><span data-stu-id="1b77b-105">This code sample checks whether the current user is an Exchange user.</span></span> <span data-ttu-id="1b77b-106">如果是，并且当前用户有一个经理，则它通过调用 [AddressEntry](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) 对象的 [GetExchangeUser](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) 方法和 [ExchangeUser](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) 对象的 [GetExchangeUserManager](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) 方法来获取经理信息。</span><span class="sxs-lookup"><span data-stu-id="1b77b-106">If so, and if the current user has a manager, it obtains the manager's information by calling the [GetExchangeUser](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) method of the [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object and the [GetExchangeUserManager](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) method of the [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) object.</span></span> <span data-ttu-id="1b77b-107">经理信息包含在 **ExchangeUser** 对象中，其中包括经理的闲/忙日程安排。</span><span class="sxs-lookup"><span data-stu-id="1b77b-107">The manager's information is contained in an **ExchangeUser** object that includes the manager's Free/Busy schedule.</span></span>
 
-<span data-ttu-id="092b4-108">如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。</span><span class="sxs-lookup"><span data-stu-id="092b4-108">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="092b4-109">不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。</span><span class="sxs-lookup"><span data-stu-id="092b4-109">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="092b4-110">下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。</span><span class="sxs-lookup"><span data-stu-id="092b4-110">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
+<span data-ttu-id="1b77b-108">如果使用 Visual Studio 测试此代码示例，必须先添加对 Microsoft Outlook 15.0 对象库组件的引用，并在导入 **Microsoft.Office.Interop.Outlook** 命名空间时指定 Outlook 变量。</span><span class="sxs-lookup"><span data-stu-id="1b77b-108">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the Outlook variable when you import the **Microsoft.Office.Interop.Outlook** namespace.</span></span> <span data-ttu-id="1b77b-109">不得将 **Imports** 或 **using** 语句直接添加到此代码示例中的函数前面，这两个语句必须后跟公共类声明。</span><span class="sxs-lookup"><span data-stu-id="1b77b-109">The **Imports** or **using** statement must not occur directly before the functions in the code example but must be added before the public Class declaration.</span></span> <span data-ttu-id="1b77b-110">下面几段代码行展示了如何在 Visual Basic 和 C\# 中执行导入和分配操作。</span><span class="sxs-lookup"><span data-stu-id="1b77b-110">The following lines of code show how to do the import and assignment in Visual Basic and C\#.</span></span>
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -122,7 +122,7 @@ private void GetManagerOpenInterval()
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="092b4-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="092b4-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1b77b-111">另请参阅</span><span class="sxs-lookup"><span data-stu-id="1b77b-111">See also</span></span>
 
-- [<span data-ttu-id="092b4-112">Exchange 用户</span><span class="sxs-lookup"><span data-stu-id="092b4-112">Exchange users</span></span>](exchange-users.md)
+- [<span data-ttu-id="1b77b-112">Exchange 用户</span><span class="sxs-lookup"><span data-stu-id="1b77b-112">Exchange users</span></span>](exchange-users.md)
 

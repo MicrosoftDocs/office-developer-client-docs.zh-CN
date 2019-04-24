@@ -13,80 +13,80 @@ api_type:
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: eab8ce71d28a672d7069a1c16da5cd2cc2e149f7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342502"
 ---
-# <a name="pidtagsensitivity-canonical-property"></a><span data-ttu-id="5525d-103">PidTagSensitivity 规范属性</span><span class="sxs-lookup"><span data-stu-id="5525d-103">PidTagSensitivity Canonical Property</span></span>
+# <a name="pidtagsensitivity-canonical-property"></a><span data-ttu-id="8a6d6-103">PidTagSensitivity 规范属性</span><span class="sxs-lookup"><span data-stu-id="8a6d6-103">PidTagSensitivity Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5525d-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5525d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8a6d6-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8a6d6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5525d-105">包含一个值，指示邮件发件人的邮件的敏感度的平均意见。</span><span class="sxs-lookup"><span data-stu-id="5525d-105">Contains a value that indicates the message sender's opinion of the sensitivity of a message.</span></span>
+<span data-ttu-id="8a6d6-105">包含一个值, 该值指示邮件发件人对邮件敏感度的评价。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-105">Contains a value that indicates the message sender's opinion of the sensitivity of a message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5525d-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="5525d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5525d-107">PR_SENSITIVITY</span><span class="sxs-lookup"><span data-stu-id="5525d-107">PR_SENSITIVITY</span></span>  <br/> |
-|<span data-ttu-id="5525d-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="5525d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5525d-109">0x0036</span><span class="sxs-lookup"><span data-stu-id="5525d-109">0x0036</span></span>  <br/> |
-|<span data-ttu-id="5525d-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="5525d-110">Data type:</span></span>  <br/> |<span data-ttu-id="5525d-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="5525d-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="5525d-112">区域：</span><span class="sxs-lookup"><span data-stu-id="5525d-112">Area:</span></span>  <br/> |<span data-ttu-id="5525d-113">常规消息</span><span class="sxs-lookup"><span data-stu-id="5525d-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="8a6d6-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="8a6d6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8a6d6-107">PR_SENSITIVITY</span><span class="sxs-lookup"><span data-stu-id="8a6d6-107">PR_SENSITIVITY</span></span>  <br/> |
+|<span data-ttu-id="8a6d6-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="8a6d6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8a6d6-109">0x0036</span><span class="sxs-lookup"><span data-stu-id="8a6d6-109">0x0036</span></span>  <br/> |
+|<span data-ttu-id="8a6d6-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="8a6d6-110">Data type:</span></span>  <br/> |<span data-ttu-id="8a6d6-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="8a6d6-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="8a6d6-112">区域：</span><span class="sxs-lookup"><span data-stu-id="8a6d6-112">Area:</span></span>  <br/> |<span data-ttu-id="8a6d6-113">常规邮件</span><span class="sxs-lookup"><span data-stu-id="8a6d6-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5525d-114">说明</span><span class="sxs-lookup"><span data-stu-id="5525d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8a6d6-114">注解</span><span class="sxs-lookup"><span data-stu-id="8a6d6-114">Remarks</span></span>
 
-<span data-ttu-id="5525d-115">建议消息对象公开此属性。</span><span class="sxs-lookup"><span data-stu-id="5525d-115">It is recommended that message objects expose this property.</span></span>
+<span data-ttu-id="8a6d6-115">建议邮件对象公开此属性。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-115">It is recommended that message objects expose this property.</span></span>
   
-<span data-ttu-id="5525d-116">此属性可以具有完全下列值之一：</span><span class="sxs-lookup"><span data-stu-id="5525d-116">This property can have exactly one of the following values:</span></span>
+<span data-ttu-id="8a6d6-116">此属性可以具有下列值之一:</span><span class="sxs-lookup"><span data-stu-id="8a6d6-116">This property can have exactly one of the following values:</span></span>
   
-<span data-ttu-id="5525d-117">SENSITIVITY_NONE</span><span class="sxs-lookup"><span data-stu-id="5525d-117">SENSITIVITY_NONE</span></span> 
+<span data-ttu-id="8a6d6-117">SENSITIVITY_NONE</span><span class="sxs-lookup"><span data-stu-id="8a6d6-117">SENSITIVITY_NONE</span></span> 
   
-> <span data-ttu-id="5525d-118">邮件有任何特殊的敏感度。</span><span class="sxs-lookup"><span data-stu-id="5525d-118">The message has no special sensitivity.</span></span>
+> <span data-ttu-id="8a6d6-118">邮件没有特殊敏感度。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-118">The message has no special sensitivity.</span></span>
     
-<span data-ttu-id="5525d-119">SENSITIVITY_PERSONAL</span><span class="sxs-lookup"><span data-stu-id="5525d-119">SENSITIVITY_PERSONAL</span></span> 
+<span data-ttu-id="8a6d6-119">SENSITIVITY_PERSONAL</span><span class="sxs-lookup"><span data-stu-id="8a6d6-119">SENSITIVITY_PERSONAL</span></span> 
   
-> <span data-ttu-id="5525d-120">消息为个人。</span><span class="sxs-lookup"><span data-stu-id="5525d-120">The message is personal.</span></span>
+> <span data-ttu-id="8a6d6-120">邮件是个人邮件。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-120">The message is personal.</span></span>
     
-<span data-ttu-id="5525d-121">SENSITIVITY_PRIVATE</span><span class="sxs-lookup"><span data-stu-id="5525d-121">SENSITIVITY_PRIVATE</span></span> 
+<span data-ttu-id="8a6d6-121">SENSITIVITY_PRIVATE</span><span class="sxs-lookup"><span data-stu-id="8a6d6-121">SENSITIVITY_PRIVATE</span></span> 
   
-> <span data-ttu-id="5525d-122">邮件是专用的。</span><span class="sxs-lookup"><span data-stu-id="5525d-122">The message is private.</span></span>
+> <span data-ttu-id="8a6d6-122">邮件是私有的。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-122">The message is private.</span></span>
     
-<span data-ttu-id="5525d-123">SENSITIVITY_COMPANY_CONFIDENTIAL</span><span class="sxs-lookup"><span data-stu-id="5525d-123">SENSITIVITY_COMPANY_CONFIDENTIAL</span></span> 
+<span data-ttu-id="8a6d6-123">SENSITIVITY_COMPANY_CONFIDENTIAL</span><span class="sxs-lookup"><span data-stu-id="8a6d6-123">SENSITIVITY_COMPANY_CONFIDENTIAL</span></span> 
   
-> <span data-ttu-id="5525d-124">邮件被指定公司机密。</span><span class="sxs-lookup"><span data-stu-id="5525d-124">The message is designated company confidential.</span></span>
+> <span data-ttu-id="8a6d6-124">邮件被指定为公司机密。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-124">The message is designated company confidential.</span></span>
     
-## <a name="related-resources"></a><span data-ttu-id="5525d-125">相关资源</span><span class="sxs-lookup"><span data-stu-id="5525d-125">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="8a6d6-125">相关资源</span><span class="sxs-lookup"><span data-stu-id="8a6d6-125">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="5525d-126">协议规范</span><span class="sxs-lookup"><span data-stu-id="5525d-126">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="8a6d6-126">协议规范</span><span class="sxs-lookup"><span data-stu-id="8a6d6-126">Protocol specifications</span></span>
 
-<span data-ttu-id="5525d-127">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5525d-127">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="8a6d6-127">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8a6d6-127">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5525d-128">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="5525d-128">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="8a6d6-128">提供对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-128">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="5525d-129">[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5525d-129">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="8a6d6-129">[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8a6d6-129">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5525d-130">处理邮件和附件的对象。</span><span class="sxs-lookup"><span data-stu-id="5525d-130">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="8a6d6-130">处理邮件和附件对象。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-130">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="5525d-131">头文件</span><span class="sxs-lookup"><span data-stu-id="5525d-131">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="8a6d6-131">头文件</span><span class="sxs-lookup"><span data-stu-id="8a6d6-131">Header files</span></span>
 
-<span data-ttu-id="5525d-132">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5525d-132">Mapidefs.h</span></span>
+<span data-ttu-id="8a6d6-132">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="8a6d6-132">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5525d-133">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="5525d-133">Provides data type definitions.</span></span>
+> <span data-ttu-id="8a6d6-133">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-133">Provides data type definitions.</span></span>
     
-<span data-ttu-id="5525d-134">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="5525d-134">Mapitags.h</span></span>
+<span data-ttu-id="8a6d6-134">Mapitags</span><span class="sxs-lookup"><span data-stu-id="8a6d6-134">Mapitags.h</span></span>
   
-> <span data-ttu-id="5525d-135">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="5525d-135">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="8a6d6-135">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="8a6d6-135">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5525d-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="5525d-136">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8a6d6-136">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8a6d6-136">See also</span></span>
 
 
 
-[<span data-ttu-id="5525d-137">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="5525d-137">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="8a6d6-137">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="8a6d6-137">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5525d-138">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="5525d-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="8a6d6-138">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="8a6d6-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5525d-139">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="5525d-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="8a6d6-139">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="8a6d6-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5525d-140">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="5525d-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="8a6d6-140">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="8a6d6-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

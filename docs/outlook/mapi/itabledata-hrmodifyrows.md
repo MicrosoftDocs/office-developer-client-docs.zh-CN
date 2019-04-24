@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 06356d60b43d7e5be61d944c07001570bdd5c678
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348669"
 ---
-# <a name="itabledatahrmodifyrows"></a><span data-ttu-id="b9b8e-103">ITableData::HrModifyRows</span><span class="sxs-lookup"><span data-stu-id="b9b8e-103">ITableData::HrModifyRows</span></span>
+# <a name="itabledatahrmodifyrows"></a><span data-ttu-id="72a94-103">ITableData::HrModifyRows</span><span class="sxs-lookup"><span data-stu-id="72a94-103">ITableData::HrModifyRows</span></span>
 
   
   
-<span data-ttu-id="b9b8e-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b9b8e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="72a94-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="72a94-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b9b8e-105">插入多个表行，原因可能替换现有行。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-105">Inserts multiple table rows, possibly replacing existing rows.</span></span>
+<span data-ttu-id="72a94-105">插入多个表行, 这些行可能会替换现有行。</span><span class="sxs-lookup"><span data-stu-id="72a94-105">Inserts multiple table rows, possibly replacing existing rows.</span></span>
   
 ```cpp
 HRESULT HrModifyRows(
@@ -34,41 +34,41 @@ HRESULT HrModifyRows(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b9b8e-106">参数</span><span class="sxs-lookup"><span data-stu-id="b9b8e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="72a94-106">参数</span><span class="sxs-lookup"><span data-stu-id="72a94-106">Parameters</span></span>
 
- <span data-ttu-id="b9b8e-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="b9b8e-107">_ulFlags_</span></span>
+ <span data-ttu-id="72a94-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="72a94-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="b9b8e-108">[in]保留;必须为零。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="72a94-108">实时保留必须为零。</span><span class="sxs-lookup"><span data-stu-id="72a94-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="b9b8e-109">_lpSRowSet_</span><span class="sxs-lookup"><span data-stu-id="b9b8e-109">_lpSRowSet_</span></span>
+ <span data-ttu-id="72a94-109">_lpSRowSet_</span><span class="sxs-lookup"><span data-stu-id="72a94-109">_lpSRowSet_</span></span>
   
-> <span data-ttu-id="b9b8e-110">[in]指向[SRowSet](srowset.md)结构的指针，包含要添加的行集替换现有行，如有必要。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-110">[in] A pointer to an [SRowSet](srowset.md) structure that contains the set of rows to be added, replacing existing rows if necessary.</span></span> <span data-ttu-id="b9b8e-111">一个指向按行中每个[SRow](srow.md)结构的**lpProps**成员设置的属性值结构应包含索引列中，已对[的调用中的_ulPropTagIndexColumn_参数中指定的相同值CreateTable](createtable.md)函数。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-111">One of the property value structures pointed to by the **lpProps** member of each [SRow](srow.md) structure in the row set should contain the index column, the same value that was specified in the  _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function.</span></span> 
+> <span data-ttu-id="72a94-110">实时指向包含要添加的行集的[SRowSet](srowset.md)结构的指针, 如有必要, 替换现有行。</span><span class="sxs-lookup"><span data-stu-id="72a94-110">[in] A pointer to an [SRowSet](srowset.md) structure that contains the set of rows to be added, replacing existing rows if necessary.</span></span> <span data-ttu-id="72a94-111">行集中每个[SRow](srow.md)结构的**lpProps**成员所指向的某个属性值结构中应包含索引列, 该值与调用__ [中的 ulPropTagIndexColumn 参数中指定的值相同。CreateTable](createtable.md)函数。</span><span class="sxs-lookup"><span data-stu-id="72a94-111">One of the property value structures pointed to by the **lpProps** member of each [SRow](srow.md) structure in the row set should contain the index column, the same value that was specified in the  _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="b9b8e-112">返回值</span><span class="sxs-lookup"><span data-stu-id="b9b8e-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="72a94-112">返回值</span><span class="sxs-lookup"><span data-stu-id="72a94-112">Return value</span></span>
 
-<span data-ttu-id="b9b8e-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="b9b8e-113">S_OK</span></span> 
+<span data-ttu-id="72a94-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="72a94-113">S_OK</span></span> 
   
-> <span data-ttu-id="b9b8e-114">已成功插入或修改行。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-114">The rows were successfully inserted or modified.</span></span>
+> <span data-ttu-id="72a94-114">行已成功插入或修改。</span><span class="sxs-lookup"><span data-stu-id="72a94-114">The rows were successfully inserted or modified.</span></span>
     
-<span data-ttu-id="b9b8e-115">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="b9b8e-115">MAPI_E_INVALID_PARAMETER</span></span> 
+<span data-ttu-id="72a94-115">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="72a94-115">MAPI_E_INVALID_PARAMETER</span></span> 
   
-> <span data-ttu-id="b9b8e-116">一个或多个传入的行不具有索引列。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-116">One or more of the passed-in rows does not have an index column.</span></span> <span data-ttu-id="b9b8e-117">如果将返回此错误，不更改任何行。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-117">If this error is returned, no rows are changed.</span></span>
+> <span data-ttu-id="72a94-116">一个或多个传入的行没有索引列。</span><span class="sxs-lookup"><span data-stu-id="72a94-116">One or more of the passed-in rows does not have an index column.</span></span> <span data-ttu-id="72a94-117">如果返回此错误, 则不会更改任何行。</span><span class="sxs-lookup"><span data-stu-id="72a94-117">If this error is returned, no rows are changed.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="b9b8e-118">注解</span><span class="sxs-lookup"><span data-stu-id="b9b8e-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="72a94-118">注解</span><span class="sxs-lookup"><span data-stu-id="72a94-118">Remarks</span></span>
 
-<span data-ttu-id="b9b8e-119">**ITableData::HrModifyRows**方法插入_lpSRowSet_参数指向[SRowSet](srowset.md)结构所描述的行。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-119">The **ITableData::HrModifyRows** method inserts the rows described by the [SRowSet](srowset.md) structure pointed to by the  _lpSRowSet_ parameter.</span></span> <span data-ttu-id="b9b8e-120">如果在行集中的行的索引列值与现有行表中的值相匹配，将替换现有行。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-120">If the index column value of a row in the row set matches the value for an existing row in the table, the existing row is replaced.</span></span> <span data-ttu-id="b9b8e-121">如果没有行存在相匹配的**SRowSet**结构中包含的一个， **HrModifyRows**表末尾添加行。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-121">If no row exists that matches the one included in the **SRowSet** structure, **HrModifyRows** adds the row to the end of the table.</span></span> 
+<span data-ttu-id="72a94-119">**ITableData:: HrModifyRows**方法插入由_lpSRowSet_参数指向的[SRowSet](srowset.md)结构所描述的行。</span><span class="sxs-lookup"><span data-stu-id="72a94-119">The **ITableData::HrModifyRows** method inserts the rows described by the [SRowSet](srowset.md) structure pointed to by the  _lpSRowSet_ parameter.</span></span> <span data-ttu-id="72a94-120">如果行中某一行的索引列值与表中现有行的值相匹配, 则将替换现有行。</span><span class="sxs-lookup"><span data-stu-id="72a94-120">If the index column value of a row in the row set matches the value for an existing row in the table, the existing row is replaced.</span></span> <span data-ttu-id="72a94-121">如果不存在与**SRowSet**结构中包含的行相匹配的行, 则**HrModifyRows**会将该行添加到表的末尾。</span><span class="sxs-lookup"><span data-stu-id="72a94-121">If no row exists that matches the one included in the **SRowSet** structure, **HrModifyRows** adds the row to the end of the table.</span></span> 
   
-<span data-ttu-id="b9b8e-122">修改表的所有视图以包括指向_lpSRowSet_的行。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-122">All views of the table are modified to include the rows pointed to by  _lpSRowSet_.</span></span> <span data-ttu-id="b9b8e-123">但是，如果视图中排除行的位置有限制，则它可能不对用户可见。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-123">However, if a view has a restriction in place that excludes a row, it may not be visible to the user.</span></span> 
+<span data-ttu-id="72a94-122">将修改表的所有视图, 以包括由_lpSRowSet_指向的行。</span><span class="sxs-lookup"><span data-stu-id="72a94-122">All views of the table are modified to include the rows pointed to by  _lpSRowSet_.</span></span> <span data-ttu-id="72a94-123">但是, 如果视图具有排除行的限制, 则用户可能对其不可见。</span><span class="sxs-lookup"><span data-stu-id="72a94-123">However, if a view has a restriction in place that excludes a row, it may not be visible to the user.</span></span> 
   
-<span data-ttu-id="b9b8e-124">指向_lpSRowSet_的行中的列不需要在表中的列的顺序相同。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-124">The columns in the rows pointed to by  _lpSRowSet_ do not have to be in the same order as the columns in the table.</span></span> <span data-ttu-id="b9b8e-125">呼叫者还可以包括为当前不是表中的列属性。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-125">The caller can also include as columns properties that are not currently in the table.</span></span> <span data-ttu-id="b9b8e-126">对于现有视图， **HrModifyRows**使这些新列可用，但不包括其当前列集合中。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-126">For existing views, **HrModifyRows** makes these new columns available but does not include them in the current column set.</span></span> <span data-ttu-id="b9b8e-127">对于将来视图**HrModifyRows**列设置中包括的新列。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-127">For future views, **HrModifyRows** includes the new columns in the column set.</span></span> 
+<span data-ttu-id="72a94-124">_lpSRowSet_指向的行中的列不必与表中的列的顺序相同。</span><span class="sxs-lookup"><span data-stu-id="72a94-124">The columns in the rows pointed to by  _lpSRowSet_ do not have to be in the same order as the columns in the table.</span></span> <span data-ttu-id="72a94-125">调用方还可以包含表中当前不包含的列属性。</span><span class="sxs-lookup"><span data-stu-id="72a94-125">The caller can also include as columns properties that are not currently in the table.</span></span> <span data-ttu-id="72a94-126">对于现有视图, **HrModifyRows**使这些新列可用, 但不将其包含在当前列集中。</span><span class="sxs-lookup"><span data-stu-id="72a94-126">For existing views, **HrModifyRows** makes these new columns available but does not include them in the current column set.</span></span> <span data-ttu-id="72a94-127">对于将来的视图, **HrModifyRows**包含列集中的新列。</span><span class="sxs-lookup"><span data-stu-id="72a94-127">For future views, **HrModifyRows** includes the new columns in the column set.</span></span> 
   
-<span data-ttu-id="b9b8e-128">**HrModifyRows**已添加行之后，通知便发送至所有客户端或服务提供商的具有查看表的和已在调用表的[IMAPITable::Advise](imapitable-advise.md)方法注册的通知。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-128">After **HrModifyRows** has added the rows, notifications are sent to all clients or service providers that have a view of the table and that have called the table's [IMAPITable::Advise](imapitable-advise.md) method to register for notifications.</span></span> <span data-ttu-id="b9b8e-129">MAPI 发送每一行，最多八个行的 TABLE_ROW_ADDED 或 TABLE_ROW_MODIFIED 的通知。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-129">MAPI sends TABLE_ROW_ADDED or TABLE_ROW_MODIFIED notifications for each row, up to eight rows.</span></span> <span data-ttu-id="b9b8e-130">如果不会影响八个以上的行由**HrModifyRows**呼叫，MAPI 发送单个 TABLE_CHANGED 通知相反。</span><span class="sxs-lookup"><span data-stu-id="b9b8e-130">If more than eight rows are affected by the **HrModifyRows** call, MAPI sends a single TABLE_CHANGED notification instead.</span></span> 
+<span data-ttu-id="72a94-128">在**HrModifyRows**添加行后, 通知将发送到具有表视图且已调用表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册通知的所有客户端或服务提供程序。</span><span class="sxs-lookup"><span data-stu-id="72a94-128">After **HrModifyRows** has added the rows, notifications are sent to all clients or service providers that have a view of the table and that have called the table's [IMAPITable::Advise](imapitable-advise.md) method to register for notifications.</span></span> <span data-ttu-id="72a94-129">MAPI 为每个行 (最多八行) 发送 TABLE_ROW_ADDED 或 TABLE_ROW_MODIFIED 通知。</span><span class="sxs-lookup"><span data-stu-id="72a94-129">MAPI sends TABLE_ROW_ADDED or TABLE_ROW_MODIFIED notifications for each row, up to eight rows.</span></span> <span data-ttu-id="72a94-130">如果**HrModifyRows**调用影响八行以上, MAPI 将发送单个 TABLE_CHANGED 通知。</span><span class="sxs-lookup"><span data-stu-id="72a94-130">If more than eight rows are affected by the **HrModifyRows** call, MAPI sends a single TABLE_CHANGED notification instead.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="b9b8e-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="b9b8e-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="72a94-131">另请参阅</span><span class="sxs-lookup"><span data-stu-id="72a94-131">See also</span></span>
 
 
 
-[<span data-ttu-id="b9b8e-132">SRowSet</span><span class="sxs-lookup"><span data-stu-id="b9b8e-132">SRowSet</span></span>](srowset.md)
+[<span data-ttu-id="72a94-132">SRowSet</span><span class="sxs-lookup"><span data-stu-id="72a94-132">SRowSet</span></span>](srowset.md)
   
-[<span data-ttu-id="b9b8e-133">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b9b8e-133">ITableData : IUnknown</span></span>](itabledataiunknown.md)
+[<span data-ttu-id="72a94-133">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="72a94-133">ITableData : IUnknown</span></span>](itabledataiunknown.md)
 

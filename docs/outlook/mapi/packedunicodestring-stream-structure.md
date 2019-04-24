@@ -5,43 +5,43 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 00791ab47cc3c6bd435d6f581e5ada53ae59d73b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: fc20c259f30ded2f96f3bf314e74207bebcac980
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348473"
 ---
-# <a name="packedunicodestring-stream-structure"></a><span data-ttu-id="8f104-103">PackedUnicodeString 流结构</span><span class="sxs-lookup"><span data-stu-id="8f104-103">PackedUnicodeString Stream Structure</span></span>
+# <a name="packedunicodestring-stream-structure"></a><span data-ttu-id="34273-103">PackedUnicodeString 流结构</span><span class="sxs-lookup"><span data-stu-id="34273-103">PackedUnicodeString Stream Structure</span></span>
 
   
   
-<span data-ttu-id="8f104-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8f104-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="34273-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="34273-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8f104-105">PackedUnicodeString 流结构包含 Unicode (utf-16) 字符串表示形式。</span><span class="sxs-lookup"><span data-stu-id="8f104-105">The PackedUnicodeString stream structure contains a Unicode (UTF-16) representation of a string.</span></span> <span data-ttu-id="8f104-106">未通过空字符终止此字符串。</span><span class="sxs-lookup"><span data-stu-id="8f104-106">This string is not terminated by a null character.</span></span> <span data-ttu-id="8f104-107">此流中的数据元素存储在-little-endian 字节的顺序，紧跟彼此下面列出的顺序。</span><span class="sxs-lookup"><span data-stu-id="8f104-107">Data elements in this stream are stored in little-endian byte order, immediately following each other in the order listed below.</span></span> <span data-ttu-id="8f104-108">存在的实际数据元素取决于中 utf-16 表示形式的字符串的长度。</span><span class="sxs-lookup"><span data-stu-id="8f104-108">The actual data elements that exist depend on the length of the string in UTF-16 representation.</span></span>
+<span data-ttu-id="34273-105">PackedUnicodeString 流结构包含字符串的 Unicode (UTF-16) 表示形式。</span><span class="sxs-lookup"><span data-stu-id="34273-105">The PackedUnicodeString stream structure contains a Unicode (UTF-16) representation of a string.</span></span> <span data-ttu-id="34273-106">此字符串不是由 null 字符终止的。</span><span class="sxs-lookup"><span data-stu-id="34273-106">This string is not terminated by a null character.</span></span> <span data-ttu-id="34273-107">此流中的数据元素存储在小端字节序的字节顺序中, 紧跟在下面列出的顺序后续。</span><span class="sxs-lookup"><span data-stu-id="34273-107">Data elements in this stream are stored in little-endian byte order, immediately following each other in the order listed below.</span></span> <span data-ttu-id="34273-108">现有的实际数据元素取决于 UTF-16 表示形式的字符串的长度。</span><span class="sxs-lookup"><span data-stu-id="34273-108">The actual data elements that exist depend on the length of the string in UTF-16 representation.</span></span>
   
-- <span data-ttu-id="8f104-109">一个字符串，其 utf-16 表示包含少于 255 个 WCHARs，数据要素如下所示：</span><span class="sxs-lookup"><span data-stu-id="8f104-109">For a string whose UTF-16 representation contains less than 255 WCHARs, the data elements are as follows:</span></span>
+- <span data-ttu-id="34273-109">对于其 UTF-16 表示形式包含小于 255 WCHARs 的字符串, 数据元素如下所示:</span><span class="sxs-lookup"><span data-stu-id="34273-109">For a string whose UTF-16 representation contains less than 255 WCHARs, the data elements are as follows:</span></span>
     
-  - <span data-ttu-id="8f104-110">时长： 字节 （1 个字节），utf-16 字符串表示形式的长度，以 WCHARs，数。</span><span class="sxs-lookup"><span data-stu-id="8f104-110">Length: BYTE (1 byte), the length, in number of WCHARs, of the UTF-16 representation of the string.</span></span>
+  - <span data-ttu-id="34273-110">长度: 字节 (1 个字节), 字符串的 utf-16 表示形式的长度 (以 WCHARs 为单位)。</span><span class="sxs-lookup"><span data-stu-id="34273-110">Length: BYTE (1 byte), the length, in number of WCHARs, of the UTF-16 representation of the string.</span></span>
     
-  - <span data-ttu-id="8f104-111">字符数： WCHAR 数组。</span><span class="sxs-lookup"><span data-stu-id="8f104-111">Characters: An array of WCHAR.</span></span> <span data-ttu-id="8f104-112">此数组的计数等于长度数据元素。</span><span class="sxs-lookup"><span data-stu-id="8f104-112">The count of this array is equal to the Length data element.</span></span> <span data-ttu-id="8f104-113">数组中的数据是 utf-16 字符串表示形式。</span><span class="sxs-lookup"><span data-stu-id="8f104-113">The data in the array is the UTF-16 representation of the string.</span></span>
+  - <span data-ttu-id="34273-111">字符: WCHAR 数组。</span><span class="sxs-lookup"><span data-stu-id="34273-111">Characters: An array of WCHAR.</span></span> <span data-ttu-id="34273-112">此数组的计数等于 Length 数据元素。</span><span class="sxs-lookup"><span data-stu-id="34273-112">The count of this array is equal to the Length data element.</span></span> <span data-ttu-id="34273-113">数组中的数据是字符串的 UTF-16 表示形式。</span><span class="sxs-lookup"><span data-stu-id="34273-113">The data in the array is the UTF-16 representation of the string.</span></span>
     
-- <span data-ttu-id="8f104-114">一个字符串，其 utf-16 表示包含 255 到 65535 WCHARs，数据要素如下所示：</span><span class="sxs-lookup"><span data-stu-id="8f104-114">For a string whose UTF-16 representation contains 255 to 65535 WCHARs, the data elements are as follows:</span></span>
+- <span data-ttu-id="34273-114">对于其 UTF-16 表示形式包含255到 65535 WCHARs 的字符串, 数据元素如下所示:</span><span class="sxs-lookup"><span data-stu-id="34273-114">For a string whose UTF-16 representation contains 255 to 65535 WCHARs, the data elements are as follows:</span></span>
     
-  - <span data-ttu-id="8f104-115">前缀： 字节 （1 个字节），255 之间的值 (0xff)。</span><span class="sxs-lookup"><span data-stu-id="8f104-115">Prefix: BYTE (1 byte), the value of 255 (0xff).</span></span>
+  - <span data-ttu-id="34273-115">Prefix: BYTE (1 个字节), 值为 255 (0xff)。</span><span class="sxs-lookup"><span data-stu-id="34273-115">Prefix: BYTE (1 byte), the value of 255 (0xff).</span></span>
     
-  - <span data-ttu-id="8f104-116">时长： 单词 （2 个字节），utf-16 字符串表示形式的长度，以 WCHARs，数。</span><span class="sxs-lookup"><span data-stu-id="8f104-116">Length: WORD (2 bytes), the length, in number of WCHARs, of the UTF-16 representation of the string.</span></span>
+  - <span data-ttu-id="34273-116">length: WORD (2 个字节), 字符串的 utf-16 表示形式的长度 (以 WCHARs 为单位)。</span><span class="sxs-lookup"><span data-stu-id="34273-116">Length: WORD (2 bytes), the length, in number of WCHARs, of the UTF-16 representation of the string.</span></span>
     
-  - <span data-ttu-id="8f104-117">字符数： WCHAR 数组。</span><span class="sxs-lookup"><span data-stu-id="8f104-117">Characters: An array of WCHAR.</span></span> <span data-ttu-id="8f104-118">此数组的计数等于长度数据元素。</span><span class="sxs-lookup"><span data-stu-id="8f104-118">The count of this array is equal to the Length data element.</span></span> <span data-ttu-id="8f104-119">数组中的数据是 utf-16 字符串表示形式。</span><span class="sxs-lookup"><span data-stu-id="8f104-119">The data in the array is the UTF-16 representation of the string.</span></span>
+  - <span data-ttu-id="34273-117">字符: WCHAR 数组。</span><span class="sxs-lookup"><span data-stu-id="34273-117">Characters: An array of WCHAR.</span></span> <span data-ttu-id="34273-118">此数组的计数等于 Length 数据元素。</span><span class="sxs-lookup"><span data-stu-id="34273-118">The count of this array is equal to the Length data element.</span></span> <span data-ttu-id="34273-119">数组中的数据是字符串的 UTF-16 表示形式。</span><span class="sxs-lookup"><span data-stu-id="34273-119">The data in the array is the UTF-16 representation of the string.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8f104-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="8f104-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="34273-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="34273-120">See also</span></span>
 
 
 
-[<span data-ttu-id="8f104-121">Outlook 项和字段</span><span class="sxs-lookup"><span data-stu-id="8f104-121">Outlook Items and Fields</span></span>](outlook-items-and-fields.md)
+[<span data-ttu-id="34273-121">Outlook 项目和字段</span><span class="sxs-lookup"><span data-stu-id="34273-121">Outlook Items and Fields</span></span>](outlook-items-and-fields.md)
   
-[<span data-ttu-id="8f104-122">流结构</span><span class="sxs-lookup"><span data-stu-id="8f104-122">Stream Structures</span></span>](stream-structures.md)
+[<span data-ttu-id="34273-122">流结构</span><span class="sxs-lookup"><span data-stu-id="34273-122">Stream Structures</span></span>](stream-structures.md)
   
-[<span data-ttu-id="8f104-123">FieldDefinition 流结构</span><span class="sxs-lookup"><span data-stu-id="8f104-123">FieldDefinition Stream Structure</span></span>](fielddefinition-stream-structure.md)
+[<span data-ttu-id="34273-123">FieldDefinition 流结构</span><span class="sxs-lookup"><span data-stu-id="34273-123">FieldDefinition Stream Structure</span></span>](fielddefinition-stream-structure.md)
 

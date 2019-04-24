@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 923864c625cb032c3b351bb999ff7cc782eae588
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f5298620239d1e42e4ba613c22a98f0cf6f7d457
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351369"
 ---
-# <a name="sccountnotifications"></a><span data-ttu-id="1c19f-103">ScCountNotifications</span><span class="sxs-lookup"><span data-stu-id="1c19f-103">ScCountNotifications</span></span>
+# <a name="sccountnotifications"></a><span data-ttu-id="f618c-103">ScCountNotifications</span><span class="sxs-lookup"><span data-stu-id="f618c-103">ScCountNotifications</span></span>
 
   
   
-<span data-ttu-id="1c19f-104">**适用于**： Outlook 2013 |Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1c19f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f618c-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f618c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1c19f-105">确定大小，以字节为单位的数组的事件通知，并验证与数组关联的内存。</span><span class="sxs-lookup"><span data-stu-id="1c19f-105">Determines the size, in bytes, of an array of event notifications, and validates the memory associated with the array.</span></span>
+<span data-ttu-id="f618c-105">确定事件通知数组的大小 (以字节为单位), 并验证与该数组关联的内存。</span><span class="sxs-lookup"><span data-stu-id="f618c-105">Determines the size, in bytes, of an array of event notifications, and validates the memory associated with the array.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1c19f-106">头文件：</span><span class="sxs-lookup"><span data-stu-id="1c19f-106">Header file:</span></span>  <br/> |<span data-ttu-id="1c19f-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="1c19f-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="1c19f-108">通过实现：</span><span class="sxs-lookup"><span data-stu-id="1c19f-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="1c19f-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="1c19f-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="1c19f-110">调用：</span><span class="sxs-lookup"><span data-stu-id="1c19f-110">Called by:</span></span>  <br/> |<span data-ttu-id="1c19f-111">客户端应用程序和服务提供商</span><span class="sxs-lookup"><span data-stu-id="1c19f-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="f618c-106">标头文件：</span><span class="sxs-lookup"><span data-stu-id="f618c-106">Header file:</span></span>  <br/> |<span data-ttu-id="f618c-107">Mapiutil</span><span class="sxs-lookup"><span data-stu-id="f618c-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="f618c-108">实现者：</span><span class="sxs-lookup"><span data-stu-id="f618c-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="f618c-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="f618c-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="f618c-110">调用者：</span><span class="sxs-lookup"><span data-stu-id="f618c-110">Called by:</span></span>  <br/> |<span data-ttu-id="f618c-111">客户端应用程序和服务提供程序</span><span class="sxs-lookup"><span data-stu-id="f618c-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScCountNotifications(
@@ -41,32 +41,32 @@ SCODE ScCountNotifications(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1c19f-112">参数</span><span class="sxs-lookup"><span data-stu-id="1c19f-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f618c-112">参数</span><span class="sxs-lookup"><span data-stu-id="f618c-112">Parameters</span></span>
 
- <span data-ttu-id="1c19f-113">_cntf_</span><span class="sxs-lookup"><span data-stu-id="1c19f-113">_cntf_</span></span>
+ <span data-ttu-id="f618c-113">_cntf_</span><span class="sxs-lookup"><span data-stu-id="f618c-113">_cntf_</span></span>
   
-> <span data-ttu-id="1c19f-114">[in][通知](notification.md)结构由_rgntf_参数指示在阵列中的计数。</span><span class="sxs-lookup"><span data-stu-id="1c19f-114">[in] Count of [NOTIFICATION](notification.md) structures in the array indicated by the  _rgntf_ parameter.</span></span> 
+> <span data-ttu-id="f618c-114">实时由_rgntf_参数指示的数组中的[通知](notification.md)结构的计数。</span><span class="sxs-lookup"><span data-stu-id="f618c-114">[in] Count of [NOTIFICATION](notification.md) structures in the array indicated by the  _rgntf_ parameter.</span></span> 
     
- <span data-ttu-id="1c19f-115">_rgntf_</span><span class="sxs-lookup"><span data-stu-id="1c19f-115">_rgntf_</span></span>
+ <span data-ttu-id="f618c-115">_rgntf_</span><span class="sxs-lookup"><span data-stu-id="f618c-115">_rgntf_</span></span>
   
-> <span data-ttu-id="1c19f-116">[in]指向其大小是确定**通知**结构的数组的指针。</span><span class="sxs-lookup"><span data-stu-id="1c19f-116">[in] Pointer to the array of **NOTIFICATION** structures whose size is to be determined.</span></span> 
+> <span data-ttu-id="f618c-116">实时指向要确定其大小的**通知**结构数组的指针。</span><span class="sxs-lookup"><span data-stu-id="f618c-116">[in] Pointer to the array of **NOTIFICATION** structures whose size is to be determined.</span></span> 
     
- <span data-ttu-id="1c19f-117">_pcb_</span><span class="sxs-lookup"><span data-stu-id="1c19f-117">_pcb_</span></span>
+ <span data-ttu-id="f618c-117">_pcb_</span><span class="sxs-lookup"><span data-stu-id="f618c-117">_pcb_</span></span>
   
-> <span data-ttu-id="1c19f-118">[输出]指向的大小，以字节为单位的数组_rgntf_参数指向的可选指针。</span><span class="sxs-lookup"><span data-stu-id="1c19f-118">[out] Optional pointer to the size, in bytes, of the array pointed to by the  _rgntf_ parameter.</span></span> <span data-ttu-id="1c19f-119">如果为空，则**ScCountNotifications**验证通知的数组。</span><span class="sxs-lookup"><span data-stu-id="1c19f-119">If NULL, **ScCountNotifications** validates the array of notifications.</span></span> 
+> <span data-ttu-id="f618c-118">排除可选指针, 指向由_rgntf_参数指向的数组的大小 (以字节为单位)。</span><span class="sxs-lookup"><span data-stu-id="f618c-118">[out] Optional pointer to the size, in bytes, of the array pointed to by the  _rgntf_ parameter.</span></span> <span data-ttu-id="f618c-119">如果为 NULL, 则**ScCountNotifications**验证通知数组。</span><span class="sxs-lookup"><span data-stu-id="f618c-119">If NULL, **ScCountNotifications** validates the array of notifications.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="1c19f-120">返回值</span><span class="sxs-lookup"><span data-stu-id="1c19f-120">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f618c-120">返回值</span><span class="sxs-lookup"><span data-stu-id="f618c-120">Return value</span></span>
 
-<span data-ttu-id="1c19f-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="1c19f-121">S_OK</span></span>
+<span data-ttu-id="f618c-121">S_OK</span><span class="sxs-lookup"><span data-stu-id="f618c-121">S_OK</span></span>
   
-> <span data-ttu-id="1c19f-122">已成功确定计数。</span><span class="sxs-lookup"><span data-stu-id="1c19f-122">Count was determined successfully.</span></span>
+> <span data-ttu-id="f618c-122">已成功确定 Count。</span><span class="sxs-lookup"><span data-stu-id="f618c-122">Count was determined successfully.</span></span>
     
-<span data-ttu-id="1c19f-123">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="1c19f-123">MAPI_E_INVALID_PARAMETER</span></span>
+<span data-ttu-id="f618c-123">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="f618c-123">MAPI_E_INVALID_PARAMETER</span></span>
   
-> <span data-ttu-id="1c19f-124">遇到无效的通知。</span><span class="sxs-lookup"><span data-stu-id="1c19f-124">An invalid notification was encountered.</span></span>
+> <span data-ttu-id="f618c-124">遇到无效的通知。</span><span class="sxs-lookup"><span data-stu-id="f618c-124">An invalid notification was encountered.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1c19f-125">注解</span><span class="sxs-lookup"><span data-stu-id="1c19f-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f618c-125">注解</span><span class="sxs-lookup"><span data-stu-id="f618c-125">Remarks</span></span>
 
-<span data-ttu-id="1c19f-126">如果_pcb_参数中传递 NULL，则**ScCountNotifications**函数仅验证通知的数组，但没有计数完成;如果在_pcb_传递一个非空值，则**ScCountNotifications**确定数组的大小，并将存储原因_pcb_。</span><span class="sxs-lookup"><span data-stu-id="1c19f-126">If NULL is passed in the  _pcb_ parameter, the **ScCountNotifications** function only validates the array of notifications but no counting is done; if a non-null value is passed in  _pcb_, **ScCountNotifications** determines the size of the array and stores the cause  _pcb_.</span></span> <span data-ttu-id="1c19f-127">_Pcb_参数必须为足够大，使其包含整个数组。</span><span class="sxs-lookup"><span data-stu-id="1c19f-127">The  _pcb_ parameter must be large enough to contain the entire array.</span></span> 
+<span data-ttu-id="f618c-126">如果在_pcb_参数中传递 NULL, 则**ScCountNotifications**函数仅验证通知数组, 但不会进行计数。如果在_pcb_中传递非 null 值, **ScCountNotifications**将确定数组的大小并存储原因_pcb_。</span><span class="sxs-lookup"><span data-stu-id="f618c-126">If NULL is passed in the  _pcb_ parameter, the **ScCountNotifications** function only validates the array of notifications but no counting is done; if a non-null value is passed in  _pcb_, **ScCountNotifications** determines the size of the array and stores the cause  _pcb_.</span></span> <span data-ttu-id="f618c-127">_pcb_参数的大小必须足以包含整个数组。</span><span class="sxs-lookup"><span data-stu-id="f618c-127">The  _pcb_ parameter must be large enough to contain the entire array.</span></span> 
   
 

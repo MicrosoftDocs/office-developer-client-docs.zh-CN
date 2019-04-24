@@ -1,5 +1,5 @@
 ---
-title: 在 Outlook 中以编程方式创建配置文件
+title: 以编程方式创建 Outlook 配置文件
 manager: soliver
 ms.date: 06/02/2016
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: 本主题介绍如何以编程方式通过向配置文件对象的 emsuid 部分添加 MAPI 属性来更新 Outlook 2016 中的配置文件。
 ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345939"
 ---
-# <a name="programmatically-create-a-profile-in-outlook"></a><span data-ttu-id="adfbc-103">在 Outlook 中以编程方式创建配置文件</span><span class="sxs-lookup"><span data-stu-id="adfbc-103">Programmatically create a profile in Outlook</span></span>
+# <a name="programmatically-create-a-profile-in-outlook"></a><span data-ttu-id="31717-103">在 Outlook 中以编程方式创建配置文件</span><span class="sxs-lookup"><span data-stu-id="31717-103">Programmatically create a profile in Outlook</span></span>
 
-<span data-ttu-id="adfbc-104">**适用于**：Office 365 | Outlook | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="adfbc-104">**Applies to**: Office 365 | Outlook | Outlook 2016</span></span> 
+<span data-ttu-id="31717-104">**适用于**：Office 365 | Outlook | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="31717-104">**Applies to**: Office 365 | Outlook | Outlook 2016</span></span> 
 
-<span data-ttu-id="adfbc-105">本主题介绍如何以编程方式通过向配置文件对象的 **emsuid** 部分添加 MAPI 属性来更新 Outlook 2016 中的配置文件。</span><span class="sxs-lookup"><span data-stu-id="adfbc-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span></span> 
+<span data-ttu-id="31717-105">本主题介绍如何以编程方式通过向配置文件对象的 **emsuid** 部分添加 MAPI 属性来更新 Outlook 2016 中的配置文件。</span><span class="sxs-lookup"><span data-stu-id="31717-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span></span> 
 
-<span data-ttu-id="adfbc-106">在 MAPI 中，你可以通过设置属性**PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)** 来更新配置文件，如以下步骤所示。</span><span class="sxs-lookup"><span data-stu-id="adfbc-106">In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below.</span></span> 
+<span data-ttu-id="31717-106">在 MAPI 中，你可以通过设置属性**PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)** 来更新配置文件，如以下步骤所示。</span><span class="sxs-lookup"><span data-stu-id="31717-106">In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below.</span></span> 
   
-### <a name="set-the-property-for-outlook-2016"></a><span data-ttu-id="adfbc-107">设置 Outlook 2016 的属性</span><span class="sxs-lookup"><span data-stu-id="adfbc-107">Set the property for Outlook 2016</span></span>
+### <a name="set-the-property-for-outlook-2016"></a><span data-ttu-id="31717-107">设置 Outlook 2016 的属性</span><span class="sxs-lookup"><span data-stu-id="31717-107">Set the property for Outlook 2016</span></span>
 
-1. <span data-ttu-id="adfbc-108">确保正确配置 Outlook 2016 的属性。</span><span class="sxs-lookup"><span data-stu-id="adfbc-108">Make sure Outlook 2016 is property configured.</span></span>
+1. <span data-ttu-id="31717-108">确保正确配置 Outlook 2016 的属性。</span><span class="sxs-lookup"><span data-stu-id="31717-108">Make sure Outlook 2016 is property configured.</span></span>
     
-2. <span data-ttu-id="adfbc-109">使用[IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx)界面，转到 Outlook 配置文件部分。</span><span class="sxs-lookup"><span data-stu-id="adfbc-109">Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section.</span></span> 
+2. <span data-ttu-id="31717-109">使用[IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx)界面，转到 Outlook 配置文件部分。</span><span class="sxs-lookup"><span data-stu-id="31717-109">Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section.</span></span> 
     
-   <span data-ttu-id="adfbc-110">这在 Outlook 的 MAPI 中可能有困难，因为在 2010 及以上版本均不再设有全局配置文件部分。</span><span class="sxs-lookup"><span data-stu-id="adfbc-110">This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section.</span></span> <span data-ttu-id="adfbc-111">要找到配置文件部分，需找到属性 PR_EMSMDB_SECTION_UID (0x3D150102)。</span><span class="sxs-lookup"><span data-stu-id="adfbc-111">To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102).</span></span> <span data-ttu-id="adfbc-112">该值为配置文件部分的 GUID，采用二进制形式，后续步骤将使用该值。</span><span class="sxs-lookup"><span data-stu-id="adfbc-112">The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps.</span></span> <span data-ttu-id="adfbc-113">您需要记住此值。</span><span class="sxs-lookup"><span data-stu-id="adfbc-113">You will need to remember this value.</span></span> 
+   <span data-ttu-id="31717-110">这在 Outlook 的 MAPI 中可能有困难，因为在 2010 及以上版本均不再设有全局配置文件部分。</span><span class="sxs-lookup"><span data-stu-id="31717-110">This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section.</span></span> <span data-ttu-id="31717-111">要找到配置文件部分，需找到属性 PR_EMSMDB_SECTION_UID (0x3D150102)。</span><span class="sxs-lookup"><span data-stu-id="31717-111">To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102).</span></span> <span data-ttu-id="31717-112">该值为配置文件部分的 GUID，采用二进制形式，后续步骤将使用该值。</span><span class="sxs-lookup"><span data-stu-id="31717-112">The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps.</span></span> <span data-ttu-id="31717-113">您需要记住此值。</span><span class="sxs-lookup"><span data-stu-id="31717-113">You will need to remember this value.</span></span> 
     
-3. <span data-ttu-id="adfbc-114">添加属性**PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**。</span><span class="sxs-lookup"><span data-stu-id="adfbc-114">Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span></span> 
+3. <span data-ttu-id="31717-114">添加属性**PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**。</span><span class="sxs-lookup"><span data-stu-id="31717-114">Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span></span> 
     
-4. <span data-ttu-id="adfbc-115">设置存储上的属性**0x6641001F**以及所有提供程序的**emsuid**部分。</span><span class="sxs-lookup"><span data-stu-id="adfbc-115">Set the property **0x6641001F** on the store and the **emsuid** section for all providers.</span></span> 
+4. <span data-ttu-id="31717-115">设置存储上的属性**0x6641001F**以及所有提供程序的**emsuid**部分。</span><span class="sxs-lookup"><span data-stu-id="31717-115">Set the property **0x6641001F** on the store and the **emsuid** section for all providers.</span></span> 
     
-5. <span data-ttu-id="adfbc-116">设置属性**PR_DISPLAY_NAME**。</span><span class="sxs-lookup"><span data-stu-id="adfbc-116">Set the property **PR_DISPLAY_NAME**.</span></span> 
+5. <span data-ttu-id="31717-116">设置属性**PR_DISPLAY_NAME**。</span><span class="sxs-lookup"><span data-stu-id="31717-116">Set the property **PR_DISPLAY_NAME**.</span></span> 
     
-## <a name="code-example"></a><span data-ttu-id="adfbc-117">代码示例：</span><span class="sxs-lookup"><span data-stu-id="adfbc-117">Code example</span></span>
+## <a name="code-example"></a><span data-ttu-id="31717-117">代码示例：</span><span class="sxs-lookup"><span data-stu-id="31717-117">Code example</span></span>
 
 ```cpp
 // CreateProfile.cpp : Defines the entry point for the console application.
@@ -314,12 +314,12 @@ Cleanup:
 }
 ```
 
-## <a name="use-mfcmapi-to-configure-outlook-profiles"></a><span data-ttu-id="adfbc-118">使用 MFCMAPI 配置 Outlook 配置文件</span><span class="sxs-lookup"><span data-stu-id="adfbc-118">Use MFCMAPI to configure Outlook profiles</span></span>
+## <a name="use-mfcmapi-to-configure-outlook-profiles"></a><span data-ttu-id="31717-118">使用 MFCMAPI 配置 Outlook 配置文件</span><span class="sxs-lookup"><span data-stu-id="31717-118">Use MFCMAPI to configure Outlook profiles</span></span>
 
-<span data-ttu-id="adfbc-119">[MFCMAPI](https://mfcmapi.codeplex.com)提供对 MAPI 存储的访问权限，以促进 Exchange 和 Outlook 问题的调查，并对 MAPI 开发提供开发者支持。</span><span class="sxs-lookup"><span data-stu-id="adfbc-119">[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span></span> 
+<span data-ttu-id="31717-119">[MFCMAPI](https://mfcmapi.codeplex.com)提供对 MAPI 存储的访问权限，以促进 Exchange 和 Outlook 问题的调查，并对 MAPI 开发提供开发者支持。</span><span class="sxs-lookup"><span data-stu-id="31717-119">[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="adfbc-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="adfbc-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="31717-120">另请参阅</span><span class="sxs-lookup"><span data-stu-id="31717-120">See also</span></span>
 
-- [<span data-ttu-id="adfbc-121">使用 MFCMAPI 创建 Outlook 配置文件</span><span class="sxs-lookup"><span data-stu-id="adfbc-121">Create an Outlook profile using MFCMAPI</span></span>](https://msdn.microsoft.com/library/office/mt723322.aspx)
+- [<span data-ttu-id="31717-121">使用 MFCMAPI 创建 Outlook 配置文件</span><span class="sxs-lookup"><span data-stu-id="31717-121">Create an Outlook profile using MFCMAPI</span></span>](https://msdn.microsoft.com/library/office/mt723322.aspx)
   
 

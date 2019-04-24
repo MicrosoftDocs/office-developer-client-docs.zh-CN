@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
 description: 返回一个点的 x 坐标。
-ms.openlocfilehash: e42aa3c8d80526b11d325ba80acba9de6f4130e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a751fc440457fe11c829319d4b56e64dd9683ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348361"
 ---
-# <a name="pntx-function"></a><span data-ttu-id="f697e-103">PNTX 函数</span><span class="sxs-lookup"><span data-stu-id="f697e-103">PNTX Function</span></span>
+# <a name="pntx-function"></a><span data-ttu-id="e1f01-103">PNTX 函数</span><span class="sxs-lookup"><span data-stu-id="e1f01-103">PNTX Function</span></span>
 
-<span data-ttu-id="f697e-104">返回_x_-点的坐标。</span><span class="sxs-lookup"><span data-stu-id="f697e-104">Returns the  _x_-coordinate of a point.</span></span>
+<span data-ttu-id="e1f01-104">返回一个点的_x_坐标。</span><span class="sxs-lookup"><span data-stu-id="e1f01-104">Returns the  _x_-coordinate of a point.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="f697e-105">语法</span><span class="sxs-lookup"><span data-stu-id="f697e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e1f01-105">语法</span><span class="sxs-lookup"><span data-stu-id="e1f01-105">Syntax</span></span>
 
-<span data-ttu-id="f697e-106">PNTX (* **指向** *)</span><span class="sxs-lookup"><span data-stu-id="f697e-106">PNTX(** *point* ** )</span></span> 
+<span data-ttu-id="e1f01-106">PNTX (\* **点** \*)</span><span class="sxs-lookup"><span data-stu-id="e1f01-106">PNTX(\*\* *point* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="f697e-107">参数</span><span class="sxs-lookup"><span data-stu-id="f697e-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="e1f01-107">参数</span><span class="sxs-lookup"><span data-stu-id="e1f01-107">Parameters</span></span>
 
-|<span data-ttu-id="f697e-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="f697e-108">**Name**</span></span>|<span data-ttu-id="f697e-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="f697e-109">**Required/Optional**</span></span>|<span data-ttu-id="f697e-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="f697e-110">**Data Type**</span></span>|<span data-ttu-id="f697e-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="f697e-111">**Description**</span></span>|
+|<span data-ttu-id="e1f01-108">**名称**</span><span class="sxs-lookup"><span data-stu-id="e1f01-108">**Name**</span></span>|<span data-ttu-id="e1f01-109">**必需/可选**</span><span class="sxs-lookup"><span data-stu-id="e1f01-109">**Required/Optional**</span></span>|<span data-ttu-id="e1f01-110">**数据类型**</span><span class="sxs-lookup"><span data-stu-id="e1f01-110">**Data Type**</span></span>|<span data-ttu-id="e1f01-111">**说明**</span><span class="sxs-lookup"><span data-stu-id="e1f01-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="f697e-112">_磅_</span><span class="sxs-lookup"><span data-stu-id="f697e-112">_point_</span></span> <br/> |<span data-ttu-id="f697e-113">必需</span><span class="sxs-lookup"><span data-stu-id="f697e-113">Required</span></span>  <br/> |<span data-ttu-id="f697e-114">**编号**</span><span class="sxs-lookup"><span data-stu-id="f697e-114">**Number**</span></span> <br/> |<span data-ttu-id="f697e-115">_X_-点的坐标。</span><span class="sxs-lookup"><span data-stu-id="f697e-115">The  _x_-coordinate of the point.</span></span>  <br/> |
+| <span data-ttu-id="e1f01-112">_鼠标_</span><span class="sxs-lookup"><span data-stu-id="e1f01-112">_point_</span></span> <br/> |<span data-ttu-id="e1f01-113">必需</span><span class="sxs-lookup"><span data-stu-id="e1f01-113">Required</span></span>  <br/> |<span data-ttu-id="e1f01-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="e1f01-114">**Number**</span></span> <br/> |<span data-ttu-id="e1f01-115">点的_x_坐标。</span><span class="sxs-lookup"><span data-stu-id="e1f01-115">The  _x_-coordinate of the point.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="f697e-116">返回值</span><span class="sxs-lookup"><span data-stu-id="f697e-116">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="e1f01-116">返回值</span><span class="sxs-lookup"><span data-stu-id="e1f01-116">Return value</span></span>
 
-<span data-ttu-id="f697e-117">Number</span><span class="sxs-lookup"><span data-stu-id="f697e-117">Number</span></span>
+<span data-ttu-id="e1f01-117">帐号</span><span class="sxs-lookup"><span data-stu-id="e1f01-117">Number</span></span>
   
-## <a name="example"></a><span data-ttu-id="f697e-118">示例</span><span class="sxs-lookup"><span data-stu-id="f697e-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e1f01-118">示例</span><span class="sxs-lookup"><span data-stu-id="e1f01-118">Example</span></span>
 
-<span data-ttu-id="f697e-119">PNTX(PNT(7,12))</span><span class="sxs-lookup"><span data-stu-id="f697e-119">PNTX(PNT(7,12))</span></span> 
+<span data-ttu-id="e1f01-119">PNTX (PNT (7, 12))</span><span class="sxs-lookup"><span data-stu-id="e1f01-119">PNTX(PNT(7,12))</span></span> 
   
-<span data-ttu-id="f697e-120">返回 7。</span><span class="sxs-lookup"><span data-stu-id="f697e-120">Returns 7.</span></span> 
+<span data-ttu-id="e1f01-120">返回 7。</span><span class="sxs-lookup"><span data-stu-id="e1f01-120">Returns 7.</span></span> 
   
 

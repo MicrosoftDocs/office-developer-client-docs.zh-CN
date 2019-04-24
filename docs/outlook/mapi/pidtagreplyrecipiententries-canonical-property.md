@@ -13,70 +13,70 @@ api_type:
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 000132f052abb666ae844ec7d21b59c85ab43613
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355053"
 ---
-# <a name="pidtagreplyrecipiententries-canonical-property"></a><span data-ttu-id="e96ca-103">PidTagReplyRecipientEntries 规范属性</span><span class="sxs-lookup"><span data-stu-id="e96ca-103">PidTagReplyRecipientEntries Canonical Property</span></span>
+# <a name="pidtagreplyrecipiententries-canonical-property"></a><span data-ttu-id="344d2-103">PidTagReplyRecipientEntries 规范属性</span><span class="sxs-lookup"><span data-stu-id="344d2-103">PidTagReplyRecipientEntries Canonical Property</span></span>
 
   
   
-<span data-ttu-id="e96ca-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e96ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="344d2-104">**适用于**：Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="344d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e96ca-105">包含要获取回复的收件人的项标识符的大小的数组。</span><span class="sxs-lookup"><span data-stu-id="e96ca-105">Contains a sized array of entry identifiers for recipients that are to get a reply.</span></span>
+<span data-ttu-id="344d2-105">包含要获取答复的收件人的大小为的条目标识符数组。</span><span class="sxs-lookup"><span data-stu-id="344d2-105">Contains a sized array of entry identifiers for recipients that are to get a reply.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e96ca-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="e96ca-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e96ca-107">PR_REPLY_RECIPIENT_ENTRIES</span><span class="sxs-lookup"><span data-stu-id="e96ca-107">PR_REPLY_RECIPIENT_ENTRIES</span></span>  <br/> |
-|<span data-ttu-id="e96ca-108">标识符：</span><span class="sxs-lookup"><span data-stu-id="e96ca-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e96ca-109">0x004F</span><span class="sxs-lookup"><span data-stu-id="e96ca-109">0x004F</span></span>  <br/> |
-|<span data-ttu-id="e96ca-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="e96ca-110">Data type:</span></span>  <br/> |<span data-ttu-id="e96ca-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="e96ca-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="e96ca-112">区域：</span><span class="sxs-lookup"><span data-stu-id="e96ca-112">Area:</span></span>  <br/> |<span data-ttu-id="e96ca-113">MAPI 信封</span><span class="sxs-lookup"><span data-stu-id="e96ca-113">MAPI envelope</span></span>  <br/> |
+|<span data-ttu-id="344d2-106">相关属性：</span><span class="sxs-lookup"><span data-stu-id="344d2-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="344d2-107">PR_REPLY_RECIPIENT_ENTRIES</span><span class="sxs-lookup"><span data-stu-id="344d2-107">PR_REPLY_RECIPIENT_ENTRIES</span></span>  <br/> |
+|<span data-ttu-id="344d2-108">标识符:</span><span class="sxs-lookup"><span data-stu-id="344d2-108">Identifier:</span></span>  <br/> |<span data-ttu-id="344d2-109">0x004F</span><span class="sxs-lookup"><span data-stu-id="344d2-109">0x004F</span></span>  <br/> |
+|<span data-ttu-id="344d2-110">数据类型：</span><span class="sxs-lookup"><span data-stu-id="344d2-110">Data type:</span></span>  <br/> |<span data-ttu-id="344d2-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="344d2-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="344d2-112">区域：</span><span class="sxs-lookup"><span data-stu-id="344d2-112">Area:</span></span>  <br/> |<span data-ttu-id="344d2-113">MAPI 信封</span><span class="sxs-lookup"><span data-stu-id="344d2-113">MAPI envelope</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="e96ca-114">说明</span><span class="sxs-lookup"><span data-stu-id="e96ca-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="344d2-114">注解</span><span class="sxs-lookup"><span data-stu-id="344d2-114">Remarks</span></span>
 
-<span data-ttu-id="e96ca-115">此属性包含一个[FLATENTRYLIST](flatentrylist.md)结构，并不是多值的属性。</span><span class="sxs-lookup"><span data-stu-id="e96ca-115">This property contains a [FLATENTRYLIST](flatentrylist.md) structure and is not a multivalued property.</span></span> 
+<span data-ttu-id="344d2-115">此属性包含[FLATENTRYLIST](flatentrylist.md)结构, 而不是多值属性。</span><span class="sxs-lookup"><span data-stu-id="344d2-115">This property contains a [FLATENTRYLIST](flatentrylist.md) structure and is not a multivalued property.</span></span> 
   
-<span data-ttu-id="e96ca-116">当此属性不存在时，仅对**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 属性标识的用户发送答复。</span><span class="sxs-lookup"><span data-stu-id="e96ca-116">When this property is not present, a reply is sent only to the user identified by the **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) property.</span></span> <span data-ttu-id="e96ca-117">定义了这和**PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) 属性，向所有由这两个属性标识的收件人发送答复。</span><span class="sxs-lookup"><span data-stu-id="e96ca-117">When this and the **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) properties are defined, the reply is sent to all of the recipients identified by these two properties.</span></span> <span data-ttu-id="e96ca-118">传输提供程序使用这些属性重写通常的应答逻辑。</span><span class="sxs-lookup"><span data-stu-id="e96ca-118">A transport provider uses these properties to override the usual reply logic.</span></span>
+<span data-ttu-id="344d2-116">如果此属性不存在, 则会将答复仅发送给**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) 属性所标识的用户。</span><span class="sxs-lookup"><span data-stu-id="344d2-116">When this property is not present, a reply is sent only to the user identified by the **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) property.</span></span> <span data-ttu-id="344d2-117">如果定义了此属性和**PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) 属性, 则会将答复发送给由这两个属性标识的所有收件人。</span><span class="sxs-lookup"><span data-stu-id="344d2-117">When this and the **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md)) properties are defined, the reply is sent to all of the recipients identified by these two properties.</span></span> <span data-ttu-id="344d2-118">传输提供程序使用这些属性替代常见的答复逻辑。</span><span class="sxs-lookup"><span data-stu-id="344d2-118">A transport provider uses these properties to override the usual reply logic.</span></span>
   
-<span data-ttu-id="e96ca-119">如果设置此属性或**PR_REPLY_RECIPIENT_NAMES**属性，还必须设置其他属性。</span><span class="sxs-lookup"><span data-stu-id="e96ca-119">If either this property or the **PR_REPLY_RECIPIENT_NAMES** property is set, the other property must be set also.</span></span> <span data-ttu-id="e96ca-120">这些属性必须包含相同数量的收件人，并且它们必须包含它们的顺序。</span><span class="sxs-lookup"><span data-stu-id="e96ca-120">These properties must contain the same number of recipients, and they must contain them in the same order.</span></span> <span data-ttu-id="e96ca-121">遵守这些要求会导致无法预料的结果。</span><span class="sxs-lookup"><span data-stu-id="e96ca-121">Failure to observe these requirements can cause unpredictable results.</span></span> 
+<span data-ttu-id="344d2-119">如果设置了此属性或**PR_REPLY_RECIPIENT_NAMES**属性, 则还必须设置另一个属性。</span><span class="sxs-lookup"><span data-stu-id="344d2-119">If either this property or the **PR_REPLY_RECIPIENT_NAMES** property is set, the other property must be set also.</span></span> <span data-ttu-id="344d2-120">这些属性必须包含相同数量的收件人, 并且必须以相同的顺序包含它们。</span><span class="sxs-lookup"><span data-stu-id="344d2-120">These properties must contain the same number of recipients, and they must contain them in the same order.</span></span> <span data-ttu-id="344d2-121">如果无法遵守这些要求, 可能会导致不可预知的结果。</span><span class="sxs-lookup"><span data-stu-id="344d2-121">Failure to observe these requirements can cause unpredictable results.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="e96ca-122">相关资源</span><span class="sxs-lookup"><span data-stu-id="e96ca-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="344d2-122">相关资源</span><span class="sxs-lookup"><span data-stu-id="344d2-122">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="e96ca-123">协议规范</span><span class="sxs-lookup"><span data-stu-id="e96ca-123">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="344d2-123">协议规范</span><span class="sxs-lookup"><span data-stu-id="344d2-123">Protocol specifications</span></span>
 
-<span data-ttu-id="e96ca-124">[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e96ca-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="344d2-124">[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="344d2-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e96ca-125">提供了相关的 Exchange Server 协议规范参考。</span><span class="sxs-lookup"><span data-stu-id="e96ca-125">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="344d2-125">提供对相关 Exchange Server 协议规范的引用。</span><span class="sxs-lookup"><span data-stu-id="344d2-125">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="e96ca-126">[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e96ca-126">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="344d2-126">[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="344d2-126">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e96ca-127">指定的属性和电子邮件中允许的操作。</span><span class="sxs-lookup"><span data-stu-id="e96ca-127">Specifies the properties and operations that are permissible on email messages.</span></span>
+> <span data-ttu-id="344d2-127">指定在电子邮件中允许的属性和操作。</span><span class="sxs-lookup"><span data-stu-id="344d2-127">Specifies the properties and operations that are permissible on email messages.</span></span>
     
-<span data-ttu-id="e96ca-128">[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e96ca-128">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="344d2-128">[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="344d2-128">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="e96ca-129">从 Internet 标准电子邮件约定转换为消息对象。</span><span class="sxs-lookup"><span data-stu-id="e96ca-129">Converts from Internet standard email conventions to message objects.</span></span>
+> <span data-ttu-id="344d2-129">从 Internet 标准电子邮件约定转换为邮件对象。</span><span class="sxs-lookup"><span data-stu-id="344d2-129">Converts from Internet standard email conventions to message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="e96ca-130">头文件</span><span class="sxs-lookup"><span data-stu-id="e96ca-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="344d2-130">头文件</span><span class="sxs-lookup"><span data-stu-id="344d2-130">Header files</span></span>
 
-<span data-ttu-id="e96ca-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e96ca-131">Mapidefs.h</span></span>
+<span data-ttu-id="344d2-131">mapidefs。h</span><span class="sxs-lookup"><span data-stu-id="344d2-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="e96ca-132">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="e96ca-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="344d2-132">提供数据类型定义。</span><span class="sxs-lookup"><span data-stu-id="344d2-132">Provides data type definitions.</span></span>
     
-<span data-ttu-id="e96ca-133">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e96ca-133">Mapitags.h</span></span>
+<span data-ttu-id="344d2-133">Mapitags</span><span class="sxs-lookup"><span data-stu-id="344d2-133">Mapitags.h</span></span>
   
-> <span data-ttu-id="e96ca-134">包含作为替代名称列出的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="e96ca-134">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="344d2-134">包含列为替换名称的属性的定义。</span><span class="sxs-lookup"><span data-stu-id="344d2-134">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="e96ca-135">另请参阅</span><span class="sxs-lookup"><span data-stu-id="e96ca-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="344d2-135">另请参阅</span><span class="sxs-lookup"><span data-stu-id="344d2-135">See also</span></span>
 
 
 
-[<span data-ttu-id="e96ca-136">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="e96ca-136">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="344d2-136">MAPI 属性</span><span class="sxs-lookup"><span data-stu-id="344d2-136">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="e96ca-137">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="e96ca-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="344d2-137">MAPI 规范属性</span><span class="sxs-lookup"><span data-stu-id="344d2-137">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="e96ca-138">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="e96ca-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="344d2-138">将规范属性名称映射到 MAPI 名称</span><span class="sxs-lookup"><span data-stu-id="344d2-138">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="e96ca-139">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="e96ca-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="344d2-139">将 MAPI 名称映射到规范属性名称</span><span class="sxs-lookup"><span data-stu-id="344d2-139">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
