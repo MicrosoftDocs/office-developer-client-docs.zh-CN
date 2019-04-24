@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b64ed19c268874e0e52a87bc2e05aacb6083422
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306900"
 ---
 # <a name="solutions-for-remote-data-access"></a>远程数据访问解决方案
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-## <a name="the-issue"></a>问题
+## <a name="the-issue"></a>此问题
 
 应用程序可以通过 ADO 直接访问并修改数据源（有时称为双层系统）。例如，如果应用程序与包含数据的数据源连接，那么这就是双层系统中的直接连接。
 
-但是，您可能要通过如 Microsoft Internet 信息服务 (IIS) 中间间接访问数据源。 这种安排有时称为三层系统。 IIS 是一种客户端/服务器系统，为本地（或客户端）应用程序通过 Internet 或 Intranet 调用远程（或服务器）程序提供了有效的方式。 服务器程序获取数据源的访问权，并可以选择对获得的数据进行处理。
+但是, 您可能希望通过中间 (如 Microsoft Internet information Services (IIS)) 间接访问数据源。 这种安排有时称为三层系统。 IIS 是一种客户端/服务器系统，为本地（或客户端）应用程序通过 Internet 或 Intranet 调用远程（或服务器）程序提供了有效的方式。 服务器程序获取数据源的访问权，并可以选择对获得的数据进行处理。
 
-例如，intranet 网页包含在 Microsoft Visual Basic Scripting Edition (VBScript) 中，将连接到 IIS 编写的应用程序。 IIS 检索数据，并采用某种方式对数据进行处理，然后将处理过的信息返回给应用程序。
+例如, intranet 网页包含一个使用 Microsoft Visual Basic 脚本版本 (VBScript) 编写的应用程序, 该应用程序将连接到 IIS。 IIS 检索数据，并采用某种方式对数据进行处理，然后将处理过的信息返回给应用程序。
 
-在本例中，应用程序始终都不与数据源直接连接，与数据源直接连接的是 IIS。且 IIS 通过 ADO 来访问数据。
+在本例中，应用程序始终都不与数据源直接连接，与数据源直接连接的是 IIS。 且 IIS 通过 ADO 来访问数据。
 
 > [!NOTE]
-> 不需要基于 Internet 或 intranet 上的客户端/服务器应用程序 (即，基于 web 的) — 它可以包含单独的局域网上编译的程序。 但是，典型情况是基于 web 的应用程序。
+> 客户端/服务器应用程序不一定基于 Internet 或 intranet (即基于 web 的), 它可以仅在本地网络上包含编译的程序。 不过, 通常情况下是基于 web 的应用程序。
 
 由于某些可视控件（如网格、复选框或列表）可能使用返回的信息，因此可视控件必须能方便地使用返回的信息。
 
@@ -37,5 +37,5 @@ ms.locfileid: "28711502"
 
 ## <a name="the-solution"></a>解决方案
 
-RDS 定义编程模型 — 活动需要访问和更新数据源的顺序 — 即可通过中间，如 Internet 信息服务 (IIS) 中的数据访问。 编程模型中囊括了 RDS 的全部功能。
+RDS 定义了编程模型, 即获取访问和更新数据源所需的活动序列, 以通过中介 (如 Internet 信息服务 (IIS)) 访问数据。 编程模型中囊括了 RDS 的全部功能。
 

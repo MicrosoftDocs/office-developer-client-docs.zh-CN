@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e1df7d4914a247dac6f96a3709f0930bceea0ea
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301370"
 ---
 # <a name="procedures-append-method-example-vb"></a>Procedures 的 Append 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下面的代码演示如何使用 [Command](command-object-ado.md) 对象和 [Procedures](procedures-collection-adox.md) 集合的 [Append](append-method-adox-procedures.md) 方法在基础数据源中创建一个新过程。
 

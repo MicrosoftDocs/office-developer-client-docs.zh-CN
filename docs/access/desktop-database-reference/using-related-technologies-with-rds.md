@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3e58978145a59a0057f5c7218afe417f8455fcb3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305973"
 ---
 # <a name="using-related-technologies-with-rds"></a>将相关技术与 RDS 结合使用
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本部分包含有关将 RDS 与下列技术中的多个方面一起使用的特定信息：
 
-- [使用 RDS 与 ODBC 连接池](using-rds-with-odbc-connection-pooling.md)
+- [将 RDS 与 ODBC 连接池结合使用](using-rds-with-odbc-connection-pooling.md)
 
 - [在组件服务中运行业务对象](running-business-objects-in-component-services.md)
 
-**Internet 信息服务**有关 Microsoft Internet 信息服务 (IIS) 的详细信息，请参阅 Microsoft Internet Information Services 网站。
+**Internet information Services**有关 microsoft internet information services (IIS) 的详细信息, 请参阅 microsoft internet information services 网站。
 
-**Active Server Pages**有关 Microsoft Active Server Pages (ASP) 的详细信息，请参阅 Microsoft Active Server Pages 网站。
+**Active Server Pages**有关 microsoft active server pages (ASP) 的详细信息, 请参阅 microsoft active server pages 网站。
 
-**Microsoft 组件服务**有关组件服务的详细信息，请参阅 Microsoft 事务 Server 网站。
+**Microsoft 组件服务**有关组件服务的详细信息, 请参阅 Microsoft Transaction Server 网站。
 
-**Microsoft SQL Server**有关 Microsoft SQL Server 的详细信息，请参阅 Microsoft SQL Server 网站。
+**Microsoft SQL Server**有关 microsoft sql server 的详细信息, 请参阅 microsoft sql server 网站。
 
-**Microsoft Internet Explorer**有关 Microsoft Internet Explorer 的详细信息，请参阅 Microsoft Internet Explorer 网站和 MSDN 库及 Web Workshop 网站。
+**Microsoft Internet Explorer**有关 microsoft internet explorer 的详细信息, 请参阅 microsoft internet explorer 网站和 MSDN 库和 Web 研讨会网站。
 
-**Microsoft Windows NT Server/Windows 2000 Server**有关 Microsoft Windows NT Server 或 Windows 2000 Server 中的安全性的详细信息，请参阅 Microsoft Windows 网站。
+**Microsoft Windows NT Server/Windows 2000 Server**有关 microsoft windows NT server 或 Windows 2000 Server 中的安全性的详细信息, 请参阅 microsoft windows 网站。
 

@@ -1,5 +1,5 @@
 ---
-title: RuleEnum （访问桌面数据库参考 （英文）
+title: RuleEnum (Access desktop database reference)
 TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d01e685857c78ec33c82ca56943249488bf7d14
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306676"
 ---
 # <a name="ruleenum"></a>RuleEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定删除 [Key](key-object-adox.md) 时应遵循的规则。
 
@@ -48,12 +48,12 @@ ms.locfileid: "28718789"
 </tr>
 <tr class="odd">
 <td><p><strong>adRISetDefault</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>外键值设置为默认值。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRISetNull</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>外键值设置为 null。</p></td>
 </tr>
 </tbody>

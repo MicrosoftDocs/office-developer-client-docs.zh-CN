@@ -1,5 +1,5 @@
 ---
-title: Recordset.CopyQueryDef 方法 (DAO)
+title: CopyQueryDef 方法 (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: fee8c2fe-500e-dfb3-21ce-211e54ff334b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837296(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa6c5aab5f357eef8c62c63c6fca873e64031411
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300558"
 ---
-# <a name="recordsetcopyquerydef-method-dao"></a>Recordset.CopyQueryDef 方法 (DAO)
+# <a name="recordsetcopyquerydef-method-dao"></a>CopyQueryDef 方法 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个**QueryDef**的副本的**[QueryDef](querydef-object-dao.md)** 对象用于创建**[Recordset](recordset-object-dao.md)** 对象表示由 recordset 占位符 （仅限 Microsoft Access 工作区）。 .
+返回一个**[querydef](querydef-object-dao.md)** 对象, 该对象是用于创建 recordset 占位符表示的**[recordset](recordset-object-dao.md)** 对象的**querydef**副本 (仅适用于 Microsoft Access 工作区)。 .
 
 ## <a name="syntax"></a>语法
 
 *表达式*。CopyQueryDef
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式*一个代表**Recordset**对象的变量。
 
 ## <a name="return-value"></a>返回值
 

@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b706ffed14fdb440f3c3192c7c36015343f2e134
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300922"
 ---
 # <a name="raiseerror-macro-action"></a>RaiseError 宏操作
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 **RaiseError** 操作会引发 **[OnError](onerror-macro-action.md)** 宏操作可以处理的异常。
 
 > [!NOTE]
-> [!注释] **RaiseError** 操作仅适用于数据宏。
+> **RaiseError** 操作仅适用于数据宏。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **RaiseError** 操作具有以下参数。
 
@@ -36,7 +36,7 @@ ms.locfileid: "28726034"
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>是否必需</p></th>
+<th><p>必需</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
@@ -55,15 +55,15 @@ ms.locfileid: "28726034"
 </table>
 
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 如果在 [**更改前**](before-change-macro-event.md) 或 [**删除前**](before-delete-macro-event.md) 宏事件中调用 **RaiseError** 操作，将取消该事件。
 
-如果不处理错误的活动**OnError**语句，则会将通过**RaiseError**操作引发的错误： 添加到**USysApplicationLog**系统表。 当**RaiseError**操作写入**USysApplicationLog**表时，**类别**列是自动设置为**执行**。
+If there is not an active **OnError** statment that is handling errors, then the error thrown by the **RaiseError** action is added to the **USysApplicationLog** system table. When the **RaiseError** action to writes to the **USysApplicationLog** table, the **Category** column is automatically set to **Execution**.
 
 若要查看 **USysApplicationLog** 表，请执行以下步骤：
 
-1.  单击**文件**菜单，然后单击**选项**。
+1.  单击 "**文件**" 菜单, 然后单击 "**选项**"。
 
 2.  在 **"Access 选项"** 对话框中，单击 **"当前数据库"** 选项卡。
 
@@ -75,9 +75,9 @@ ms.locfileid: "28726034"
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用 RaiseError 操作取消 Before Change 数据宏事件。 更新 AssignedTo 字段时，LookupRecord 数据块用于确定是否已分配的技术人员当前分配给打开服务请求。 如果是这样，然后取消 Before Change 事件并不会更新记录。
+下面的示例演示如何使用 RaiseError 操作取消 Before Change data 宏事件。 更新 "分配" 字段后, 将使用 LookupRecord 数据块确定分配的技术人员当前是否已分配给打开的服务请求。 如果为 true, 则取消前更改事件, 且不更新记录。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     /* Get the name of the technician  */

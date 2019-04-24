@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bc0d378428c00882c49f7783892ca2bf4d4638c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300691"
 ---
 # <a name="recordcreateoptionsenum"></a>RecordCreateOptionsEnum
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-指定应该打开现有的 **Record** 还是应该为 **Record** 对象 [Open](record-object-ado.md) 方法创建一个新 [Record](open-method-ado-record.md) 。可以使用 AND 运算符来组合使用这些值。
+指定应该打开现有的 **Record** 还是应该为 [Record](record-object-ado.md) 对象 [Open](open-method-ado-record.md) 方法创建一个新 **Record**。可以使用 AND 运算符来组合使用这些值。
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ ms.locfileid: "28702857"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
 这些常量没有 ADO/WFC 等效值。
 

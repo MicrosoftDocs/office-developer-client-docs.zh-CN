@@ -1,5 +1,5 @@
 ---
-title: 表格属性、 方法和事件 (ADOX)
+title: 表属性、方法和事件 (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1bb1a4b-92dc-25ee-5ab2-be6bbe713e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249942(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c7bda00e757a17c973c650361c5caff5d702cee0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714925"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308433"
 ---
-# <a name="table-properties-methods-and-events-adox"></a>表格属性、 方法和事件 (ADOX)
+# <a name="table-properties-methods-and-events-adox"></a>表属性、方法和事件 (ADOX)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="propertiescollections"></a>属性/集合
 

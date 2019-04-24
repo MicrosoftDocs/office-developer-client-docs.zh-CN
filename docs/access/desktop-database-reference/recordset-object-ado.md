@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 636681cf8e0c20f078387b21974141a9cb66cfcd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719993"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300474"
 ---
 # <a name="recordset-object-ado"></a>Recordset 对象 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-表示从基表得到的整个记录集，或执行命令的结果。在任何时候， **Recordset** 对象只引用该集合中的单个记录作为当前记录。
+表示从基表得到的整个记录集，或执行命令的结果。在任何时候，**Recordset** 对象只引用该集合中的单个记录作为当前记录。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 可以使用 **Recordset** 对象处理来自提供程序的数据。使用 ADO 时，几乎可以完全使用 **Recordset** 对象处理数据。所有 **Recordset** 对象都是由记录（行）和字段（列）构成的。取决于提供程序支持的功能，某些 **Recordset** 方法或属性可能不可用。
 
@@ -36,13 +36,13 @@ ADODB.Recordset 是创建 **Recordset** 对象应使用的 ProgID。引用过时
 
   - **仅向前型游标** - 允许您在 **Recordset** 中仅向前滚动。其他用户所做的添加、更改或删除不可见。如果只需遍历 **Recordset** 一次，这样可提高性能。
 
-将打开**Recordset**的游标类型，选择之前[CursorType](cursortype-property-ado.md)属性设置或使用[Open](open-method-ado-recordset.md)方法传递*CursorType*参数。 某些提供程序不支持所有游标类型。 请参考提供程序的文档。 如果未指定游标类型，ADO 会默认打开仅向前型游标。
+在打开 **Recordset** 之前，设置 [CursorType](cursortype-property-ado.md) 属性以选择游标类型，或使用 [Open](open-method-ado-recordset.md) 方法传递 *CursorType* 参数。某些提供程序不支持所有游标类型。请参考提供程序的文档。如果未指定游标类型，ADO 会默认打开仅向前型游标。
 
 如果将 [CursorLocation](cursorlocation-property-ado.md) 属性设置为 **adUseClient** 来打开 **Recordset** ，则 **Field** 对象的 [UnderlyingValue](field-object-ado.md) 属性在返回的 **Recordset** 对象中不可用。当用于某些提供程序（例如，将 Microsoft ODBC Provider for OLE DB 与 Microsoft SQL Server 结合使用）时，您可以使用 **Open** 方法传递连接字符串，独立于以前定义的 [Connection](connection-object-ado.md) 对象来创建 **Recordset** 对象。ADO 仍然创建 [Connection](connection-object-ado.md) 对象，但不将该对象分配给对象变量。不过，若要通过相同的连接打开多个 **Recordset** 对象，则应显式创建和打开 **Connection** 对象；这样就会将 **Connection** 对象分配给对象变量。如果打开 **Recordset** 对象时不使用该对象变量，ADO 会为每个新 **Recordset** 创建一个新 **Connection** 对象，即使您传递的是同一个连接字符串。
 
 可根据需要创建任意数目的 **Recordset** 对象。
 
-当您打开 **Recordset** 时，当前记录会位于第一条记录（如果有）的位置，并且 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性设置为 **False** 。如果没有任何记录， **BOF** 和 **EOF** 属性设置为 **True** 。
+当您打开 **Recordset** 时，当前记录会位于第一条记录（如果有）的位置，并且 [BOF](bof-eof-properties-ado.md) 和 [EOF](bof-eof-properties-ado.md) 属性设置为 **False**。如果没有任何记录，**BOF** 和 **EOF** 属性设置为 **True**。
 
 可以使用 [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)、**MoveLast**、**MoveNext** 和 **MovePrevious** 方法；[Move](move-method-ado.md) 方法；以及 [AbsolutePosition](absoluteposition-property-ado.md)、[AbsolutePage](absolutepage-property-ado.md) 和 [Filter](filter-property-ado.md) 属性来重新定位当前记录，前提是提供程序支持相关功能。仅向前型 **Recordset** 对象仅支持 [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) 方法。当使用 **Move** 方法访问每条记录（或枚举 **Recordset**）时，可以使用 **BOF** 和 **EOF** 确定是否移到了 **Recordset** 的开头或结尾之外。
 

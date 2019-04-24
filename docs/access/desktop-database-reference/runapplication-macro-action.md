@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e7bf54934c6be215b2be5f32160d74fc2b4ab346
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721785"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306837"
 ---
 # <a name="runapplication-macro-action"></a>RunApplication 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="安全说明" alt="Security note" /><strong>安全注释</strong></th>
+<th><img src="media/access-alert-security.gif" title="安全注释" alt="Security note" /><strong>安全说明</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -38,7 +38,7 @@ ms.locfileid: "28721785"
 可以使用 **RunApplication** 操作在 Microsoft Access 内部运行基于 Microsoft Windows 或基于 MS-DOS 的应用程序，例如 Microsoft Excel、Microsoft Word 或 Microsoft PowerPoint。例如，您可能想将 Excel 电子表格数据贴粘到 Access 数据库中。
 
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。 
+> 如果数据库不受信任，则不允许执行此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -64,7 +64,7 @@ ms.locfileid: "28721785"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 通过此操作选择的应用程序在前台加载和运行。启动应用程序后，包含此操作的宏将继续运行。
 

@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: eade809a6e3982dc0dc4cf94ae382af72e8f454e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306795"
 ---
 # <a name="removealltempvars-macro-action"></a>RemoveAllTempVars 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 可以使用 **RemoveAllTempVars** 操作删除用 **SetTempVar** 操作创建的所有临时变量。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **RemoveAllTempVars** 操作不具有任何参数。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
   - 一次最多可以定义 255 个临时变量。如果您不删除临时变量，它将一直保留在内存中，直到您关闭数据库或项目。在使用完临时变量后，最好将它们删除。
 
@@ -61,12 +61,12 @@ ms.locfileid: "28705074"
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>SetTempVar</strong></p></td>
-<td><p><strong>名称</strong>： MyVar<strong>表达式</strong>： InputBox (&quot;输入非零数。&quot;)</p></td>
+<td><p><strong>Name</strong>: MyVar<strong>表达式</strong>: InputBox (&quot;输入一个非零数字。&quot;)</p></td>
 </tr>
 <tr class="even">
-<td><p>[TempVars] ！[MyVar]&lt; &gt;0</p></td>
+<td><p>[TempVars]!MyVar&lt; &gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>消息</strong>: =&quot;您输入&quot; &amp; [TempVars] ！[MyVar]&amp; &quot;.&quot;<strong>发嘟嘟声</strong>： <strong>YesType</strong>：<strong>信息</strong></p></td>
+<td><p><strong>邮件</strong>: =&quot;您输入&quot; &amp; [TempVars]!MyVar&amp; &quot;.&quot;<strong>嘟嘟声</strong>: <strong>YesType</strong>:<strong>信息</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

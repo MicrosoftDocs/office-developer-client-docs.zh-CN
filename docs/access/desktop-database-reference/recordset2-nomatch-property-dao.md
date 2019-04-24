@@ -1,5 +1,5 @@
 ---
-title: Recordset2.NoMatch 属性 (DAO)
+title: NoMatch 属性 (DAO) Recordset2
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c3168dcce9fb13d057380e7a1a4ef89f8814e02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309392"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Recordset2.NoMatch 属性 (DAO)
+# <a name="recordset2nomatch-property-dao"></a>NoMatch 属性 (DAO) Recordset2
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-指示在使用 **[Seek](recordset2-seek-method-dao.md)** 方法或 **[Find](recordset2-findfirst-method-dao.md)** 方法之一后，是否找到了特定的记录（仅适用于 Microsoft Access 工作区）。
+通过使用 **[Seek](recordset2-seek-method-dao.md)** 方法或 **[Find](recordset2-findfirst-method-dao.md)** 方法之一，指示是否找到了特定记录（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
 *表达式*。NoMatch
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -35,7 +35,7 @@ ms.locfileid: "28706686"
 如果 **Seek** 或 **Find** 方法不成功，且 **NoMatch** 属性为 **True**，则当前记录将不再有效。如果需要返回到当前记录，请在使用 **Seek** 方法或 **Find** 方法之前获取当前记录的书签。
 
 > [!NOTE]
-> [!注释] 对 [Recordset](recordset-movefirst-method-dao.md) 对象使用任何 ****Move**** 方法将不会影响其 **NoMatch** 属性设置。
+> 对**Recordset**对象使用任何**[Move](recordset-movefirst-method-dao.md)** 方法不会影响其**NoMatch**属性设置。
 
 ## <a name="example"></a>示例
 

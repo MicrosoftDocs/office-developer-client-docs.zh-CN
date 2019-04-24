@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4397846abdc0d10b6bfa0e6a1eb5c0c435fc862a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296288"
 ---
 # <a name="closewindow-macro-action"></a>CloseWindow 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-您可以使用**CloseWindow**操作关闭指定的访问文档选项卡或活动文档选项卡，如果未指定。
+您可以使用**CloseWindow**操作关闭指定的 Access 文档选项卡或活动文档选项卡 (如果未指定)。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **CloseWindow** 操作具有下列参数。
 
@@ -43,19 +43,17 @@ ms.locfileid: "28709850"
 <tbody>
 <tr class="odd">
 <td><p><strong>对象类型</strong></p></td>
-<td><p>要关闭其文档选项卡的数据库对象的类型。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“对象类型”</strong>框中单击<strong>“表”</strong>、<strong>“查询”</strong>、<strong>“窗体”</strong>、<strong>“报表”</strong>、<strong>“宏”</strong>、<strong>“模块”</strong>、<strong>“数据访问页”</strong>、<strong>“服务器视图”</strong>、<strong>“图表”</strong>、<strong>“存储过程”</strong>或<strong>“函数”</strong>。要选择活动的文档选项卡，请将此参数留空。 
-
-</p>
+<td><p>要关闭其文档选项卡的数据库对象的类型。 请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“对象类型”</strong>框中单击<strong>“表”</strong>、<strong>“查询”</strong>、<strong>“窗体”</strong>、<strong>“报表”</strong>、<strong>“宏”</strong>、<strong>“模块”</strong>、<strong>“数据访问页”</strong>、<strong>“服务器视图”</strong>、<strong>“图表”</strong>、<strong>“存储过程”</strong>或<strong>“函数”</strong>。 要选择活动的文档选项卡，请将此参数留空。</p>
 
 > [!NOTE]
-> 如果您正在关闭模块在 Visual Basic 编辑器中，您必须在**对象类型**参数中使用**模块**。
+> 如果要在 Visual Basic 编辑器中关闭模块，则必须在“对象类型”**** 参数中使用 **“模块”**。
 
 
 <p></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>对象名称</strong></p></td>
-<td><p>要关闭的对象的名称。 <strong>对象名称</strong>框中显示<strong>对象类型</strong>参数所选类型的数据库中的所有对象。 单击要关闭的对象。 如果将<strong>对象类型</strong>参数留空，还应将此参数留空。</p></td>
+<td><p>要关闭的对象的名称。<strong>“对象名称”</strong>框会显示数据库中属于“对象类型”<strong></strong>参数所选的类型的所有对象。单击该对象可将其关闭。如果将“对象类型”<strong></strong>参数留空，则也要将此参数留空。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Save</strong></p></td>
@@ -65,11 +63,11 @@ ms.locfileid: "28709850"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **CloseWindow** 操作适用于用户可显式打开或关闭的所有数据库对象。此操作等效于选择某个对象，然后通过右键单击该对象的文档选项卡并单击快捷菜单上的 **"关闭"** 来关闭该对象，也等效于单击对象的 **"关闭"** 按钮。
 
-如果**保存**参数设置为**提示**并执行**CloseWindow**操作之前不起作用已经保存了对象，一个对话框，提示用户宏关闭之前保存的对象。 如果已将**SetWarnings**操作**警告**参数设置为**No**，不显示对话框，并自动保存的对象。
+If the **Save** argument is set to **Prompt** and the object hasn't already been saved before the **CloseWindow** action is carried out, a dialog box prompts the user to save the object before the macro closes it. If you have set the **Warnings On** argument of the **SetWarnings** action to **No**, the dialog box is not displayed and the object is automatically saved.
 
 若要在 Visual Basic for Applications (VBA) 模块中运行 **CloseWindow** 操作，请使用 **DoCmd** 对象的 **CloseWindow** 方法。
 

@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e0c849fc507d535807bc088e667acd74410ddd8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308671"
 ---
 # <a name="setreturnvar-macro-action"></a>SetReturnVar 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**SetReturnVar**操作创建返回变量，并将其设置为特定值。
+**SetReturnVar**操作将创建一个返回变量并将其设置为特定值。
 
 > [!NOTE]
 > **SetReturnVar**操作仅适用于数据宏。
@@ -36,42 +36,42 @@ ms.locfileid: "28708156"
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>是否必需</p></th>
+<th><p>必需</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p>Name</p></td>
 <td><p>是</p></td>
 <td><p>一个用于指定变量名称的字符串。</p></td>
 </tr>
 <tr class="even">
 <td><p>表达式</p></td>
 <td><p>是</p></td>
-<td><p>一个表达式，用于设置为临时变量的值。 不在表达式前面放等号 （=）。 您可以单击<strong>生成</strong>按钮以使用<strong>表达式生成器</strong>设置此参数。</p></td>
+<td><p>一个用于设置该临时变量的值的表达式。 该表达式不能以等号 (=) 开头。 可以单击 "<strong>生成</strong>" 按钮以使用<strong>表达式生成器</strong>设置此参数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**SetReturnVar**操作用于创建**ReturnVar**，这是可供使用**RunDataMacro**操作调用的数据宏的宏的变量。
+**SetReturnVar**操作用于创建**ReturnVar**, 它是一个变量, 可供使用**RunDataMacro**操作调用数据宏的宏使用。
 
-**SetReturnVar**操作创建**ReturnVar**后，调用宏可以使用它在表达式中。 例如，如果您创建名为**UpdateSuccess** **ReturnVar** ，您可以使用该变量使用以下语法：
+一旦**ReturnVar**由**SetReturnVar**操作创建, 调用宏便可以在表达式中使用它。 例如, 如果您创建了一个名为**UpdateSuccess**的**ReturnVar** , 则可以使用以下语法来使用变量:
 
 ```vb
     =[ReturnVars]![UpdateSuccess]
 ```
 
-**SetReturnVar**操作可仅在命名的数据宏。 不适用于数据宏附加到的数据宏事件。
+**SetReturnVar**操作只能在已命名的数据宏中使用。 它在附加到数据宏事件的数据宏中不可用。
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用 SetReturnVar 操作从已命名的数据宏返回值。 名为**CurrentServiceRequest** ReturnVar 调用已命名的数据宏的 Applications (VBA) 子例程返回到宏或 Visual Basic。
+下面的示例演示如何使用 SetReturnVar 操作从已命名的数据宏中返回值。 名为**CurrentServiceRequest**的 ReturnVar 返回给宏或 Visual Basic for Applications (VBA) 子例程, 该子例程称为已命名的数据宏。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     RunDataMacro

@@ -1,5 +1,5 @@
 ---
-title: BeginTrans，CommitTrans RollbackTrans 方法示例 （VC + +）
+title: BeginTrans、CommitTrans、RollbackTrans 方法示例 (VC + +)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)
 ms:assetid: b2e53b79-4f10-f9cc-59f7-61c9557e5ef2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 37a716a60b902556c1e392fe9df5f1e104acffcd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296834"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a>BeginTrans、CommitTrans 和 RollbackTrans 方法示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-以下示例更改数据库 ***Titles（标题）*** 表中所有心理学书籍的书籍类型。首先用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法启动一个事务，隔离对 ***Titles（标题）*** 表进行的所有更改，然后用 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法保存更改。可以使用 [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法撤消用 [Update](update-method-ado.md) 方法保存的更改。
+以下示例更改数据库 ***Titles（标题）*** 表中所有心理学书籍的书籍类型。 首先用 [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法启动一个事务，隔离对 ***Titles（标题）*** 表进行的所有更改，然后用 [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法保存更改。 可以使用 [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) 方法撤消用 [Update](update-method-ado.md) 方法保存的更改。
 
 ```cpp 
  
@@ -277,7 +277,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBeginTransCpp 
 ```
 
-**BeginTransX.h**
+**BeginTransX**
 
 ```cpp 
  

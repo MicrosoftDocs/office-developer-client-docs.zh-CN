@@ -1,5 +1,5 @@
 ---
-title: Recordset2.FillCache 方法 (DAO)
+title: FillCache 方法 (DAO) Recordset2
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192007(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2098df82375ac47b7d5abe0bd63b0af2bb29ba40
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309700"
 ---
-# <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache 方法 (DAO)
+# <a name="recordset2fillcache-method-dao"></a>FillCache 方法 (DAO) Recordset2
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 为某个 **Recordset** 对象填充所有或一部分本地缓存，该对象包含来自 Microsoft Access 数据库引擎连接的 ODBC 数据源中的数据（仅适用于 Microsoft Access 数据库引擎连接的 ODBC 数据库）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。FillCache （***行***、 ***StartBookmark***）
+*表达式*。FillCache (***Rows***, ***StartBookmark***)
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28726111"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -52,13 +52,13 @@ ms.locfileid: "28726111"
 <td><p><em>Rows</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个 <strong>Variant</strong>（<strong>Integer</strong> 子类型），用于指定要存储在缓存中的行数。如果省略此参数，值将由 <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong> 属性设置确定。</p></td>
+<td><p>一个 <strong>Variant</strong>（<strong>Integer</strong> 子类型），用于指定要存储在缓存中的行数。 如果省略此参数, 则值由<strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong>属性设置决定。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于指定书签。将从此书签指示的记录开始填充缓存。如果省略此参数，将从 <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong> 属性指示的记录开始填充缓存。</p></td>
+<td><p>一个 <strong>Variant</strong>（<strong>String</strong> 子类型），用于指定书签。 将从此书签指示的记录开始填充缓存。 如果省略此参数, 则将从<strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong>属性指示的记录开始填充缓存。</p></td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +72,7 @@ ms.locfileid: "28726111"
 
 使用 **Recordset** 对象访问的、Microsoft Access 数据库引擎连接的任何 ODBC 数据源都可能具有本地缓存。若要创建此缓存，请打开远程数据源中的某个 **Recordset** 对象，然后设置 **Recordset** 的 **CacheSize** 和 **CacheStart** 属性。
 
-如果行和 startbookmark 创建范围的记录的部分或完全由**CacheSize**和**CacheStart**属性所指定记录的范围之外，则会忽略此范围之外的记录集的部分，并将不会加载到缓存中。
+如果 rows 和 startbookmark 创建的记录范围部分或全部超出**CacheSize**和**CacheStart**属性指定的记录范围, 则忽略此范围之外的 recordset 部分, 且不会加载该部分。到缓存中。
 
 如果 **FillCache** 请求的记录数多于远程数据源中剩余记录的数目，Microsoft Access 数据库引擎只检索剩余的记录，并且不发生错误。
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e4549c8817361cfb5b9fa730ee37ca6a07edc98b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297058"
 ---
 # <a name="appendix-a-providers"></a>附录 A：提供程序
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 本节论述三种提供程序：数据提供程序、服务提供程序和服务组件。提供程序分为两类：提供数据的提供程序和提供服务的提供程序。*数据提供程序*拥有自己的数据并以表格形式向应用程序公开这些数据。*服务提供程序*生成并使用数据，增加 ADO 应用程序中的功能，从而对服务进行封装。可以将服务提供程序进一步定义为*服务组件*，服务组件必须与其他服务提供程序或组件结合使用。
@@ -50,15 +50,15 @@ ADO 功能强大而又灵活，因为它可以连接到若干个不同数据提�
 <tbody>
 <tr class="odd">
 <td><p>ODBC 数据库</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-odbc.md">用于 ODBC 的 Microsoft OLE DB 提供程序</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft 索引服务</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">用于 Microsoft 索引服务的 Microsoft OLE DB 提供程序</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Microsoft OLE DB Provider for Microsoft Indexing Service</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Active Directory Service</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">用于 Microsoft Active Directory Service 的 Microsoft OLE DB 提供程序</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Microsoft OLE DB Provider for Microsoft Active Directory Service</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet 数据库</p></td>
@@ -74,7 +74,7 @@ ADO 功能强大而又灵活，因为它可以连接到若干个不同数据提�
 </tr>
 <tr class="odd">
 <td><p>Internet 发布</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">用于 Internet 发布的 Microsoft OLE DB 提供程序</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -104,5 +104,5 @@ ADO 功能强大而又灵活，因为它可以连接到若干个不同数据提�
 
 ## <a name="provider-commands"></a>提供程序命令
 
-每个提供程序列出在这里，如果您的应用程序允许用户为提供程序命令输入的 SQL 语句，您必须始终验证用户输入并要小心使用有潜在危险的 SQL 语句，如，作为的一部分的可能的黑客攻击的用户输入。
+对于此处列出的每个提供程序, 如果您的应用程序允许用户输入 SQL 语句作为提供程序命令, 则必须始终验证用户输入, 并使用潜在的危险 SQL 语句 (例如,) 来警惕可能的黑客攻击。用户输入。
 

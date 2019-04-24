@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 04212a8bf63d5039c6548463612f006f0d116229
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301405"
 ---
 # <a name="printout-macro-action"></a>PrintOut 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **PrintOut** 操作来打印打开的数据库中的活动对象。可以打印数据表、报表、窗体、数据访问页和模块。
 
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。 
+> 如果数据库不受信任，则不允许执行此操作。 
 
 ## <a name="setting"></a>设置
 
@@ -45,7 +45,7 @@ ms.locfileid: "28718593"
 <tbody>
 <tr class="odd">
 <td><p><strong>打印范围</strong></p></td>
-<td><p>要打印的范围。 单击<strong>中的<strong>所有</strong>（用户可以打印对象的所有）、<strong>选定内容</strong>（用户可以打印所选的对象的一部分） 或<strong>网页</strong>（用户可以在<strong>页面</strong>和结束<strong>页码</strong>参数中指定的页面范围）打印范围</strong>框在宏生成器窗格的<strong>操作参数</strong>部分。 默认值为 <strong>"全部"</strong>。</p></td>
+<td><p>要打印的范围。请在“宏生成器”窗格<strong>“操作参数”</strong>部分的<strong>“打印范围”</strong>框中单击<strong>“全部”</strong>（用户可以打印所有对象）、<strong>“选中内容”</strong>（用户可以打印该对象的选定部分）或<strong>“页”</strong>（用户可以在“开始页码”<strong></strong>和“结束页码”<strong></strong>参数中指定页范围）。默认值为<strong>“全部”</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>开始页码</strong></p></td>
@@ -56,12 +56,12 @@ ms.locfileid: "28718593"
 <td><p>要打印的最后一页。打印在此页底部结束。如果在<strong>“打印范围”</strong>框中选择<strong>“页”</strong>，则此参数是必选参数。</p></td>
 </tr>
 <tr class="even">
-<td><p>“打印质量”<strong></strong></p></td>
-<td><p>打印质量。请单击<strong>“高品质”</strong>、<strong>“中品质”</strong>、<strong>“低品质”</strong>或<strong>“草稿”</strong>。质量越低，对象的打印速度就越快。默认值为<strong>“高品质”</strong>。</p></td>
+<td><p><strong>Print Quality</strong></p></td>
+<td><p>打印质量。 请单击<strong>“高品质”</strong>、<strong>“中品质”</strong>、<strong>“低品质”</strong>或<strong>“草稿”</strong>。 质量越低，对象的打印速度就越快。 默认值为<strong>“高品质”</strong>。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Copies</strong></p></td>
-<td><p>要打印的份数。默认值为 1。</p></td>
+<td><p>要打印的份数。 默认值为 1。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>逐份打印</strong></p></td>
@@ -71,7 +71,7 @@ ms.locfileid: "28718593"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此操作类似于选择某个对象，单击 **"文件"** 选项卡，然后单击 **"打印"**。但是，在执行此操作时，不会出现 **"打印"** 对话框。
 

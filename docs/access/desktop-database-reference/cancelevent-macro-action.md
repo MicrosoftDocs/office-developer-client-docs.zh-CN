@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b55fc51f70bcc2c9d2f7e93cf9c79228cd2fe440
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296631"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-您可以使用**CancelEvent**操作取消导致访问权限才能运行包含此操作的宏的事件。 宏名称是 **BeforeUpdate** 、 **OnOpen** 、 **OnUnload** 或 **OnPrint** 等事件属性的设置。
+您可以使用**CancelEvent**操作来取消导致 Access 运行包含此操作的宏的事件。 宏名称是 **BeforeUpdate**、**OnOpen**、**OnUnload** 或 **OnPrint** 等事件属性的设置。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **CancelEvent** 操作不具有任何参数。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在窗体中，通常是在验证宏中将 **CancelEvent** 操作与 **BeforeUpdate** 事件属性搭配使用。当用户在控件或记录中输入数据时，Access 会先运行该宏，然后再将数据添加到数据库中。如果数据不符合该宏中的验证条件， **CancelEvent** 操作将在更新进程开始前将其取消。
 
@@ -90,9 +90,9 @@ ms.locfileid: "28710172"
 
 ## <a name="example"></a>示例
 
- 使用宏验证数据
+使用宏验证数据
 
-下面的验证宏会检查在"供应商"窗体中输入的邮政编码。它演示如何使用 **StopMacro** 、 **MessageBox** 、 **CancelEvent** 和 **GoToControl** 操作。其条件表达式检查在窗体的记录中输入的国家/地区和邮政编码。如果邮政编码的格式与国家/地区不符，该宏将显示一个消息框并取消对该记录的保存操作。随后将返回到"邮政编码"控件，以便您更正错误。此宏应附加到"供应商"窗体的 **BeforeUpdate** 属性。
+下面的验证宏会检查在“供应商”窗体中输入的邮政编码。它演示如何使用 **StopMacro**、**MessageBox**、**CancelEvent** 和 **GoToControl** 操作。其条件表达式检查在窗体的记录中输入的国家/地区和邮政编码。如果邮政编码的格式与国家/地区不符，该宏将显示一个消息框并取消对该记录的保存操作。随后将返回到“邮政编码”控件，以便您更正错误。此宏应附加到“供应商”窗体的 **BeforeUpdate** 属性。
 
 <table>
 <colgroup>
@@ -106,22 +106,20 @@ ms.locfileid: "28710172"
 <th><p>条件</p></th>
 <th><p>操作</p></th>
 <th><p>参数：设置</p></th>
-<th><p>注释</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull([CountryRegion])</p></td>
+<td><p>IsNull ([国家/地区])</p></td>
 <td><p>StopMacro</p></td>
 <td><p></p></td>
-<td><p>国家/地区为<strong>Null</strong>，如果无法验证邮政编码。</p></td>
+<td><p>如果“国家/地区”为“Null”<strong></strong>，则无法验证邮政编码。</p></td>
 </tr>
 <tr class="even">
-<td><p>[国家/地区]中 (&quot;法国&quot;，&quot;意大利&quot;，&quot;西班牙&quot;) And Len （[邮政编码]） &lt; &gt; 5</p></td>
+<td><p>国家/地区In (&quot;法国&quot;,&quot;意大利&quot;,&quot;西班牙&quot;) 和 Len ([邮政编码]) &lt; &gt; 5</p></td>
 <td><p>MessageBox</p></td>
-<td><p>消息：邮政编码必须为 5 个字符。 
-
- 发嘟嘟声:<strong>是</strong>类型：<strong>信息</strong>标题： 邮政编码错误</p></td>
+<td><p>消息：邮政编码必须为 5 个字符。 嘟嘟声:<strong>是</strong>类型:<strong>信息</strong>标题: 邮政编码错误</p></td>
 <td><p>如果邮政编码不是 5 个字符，则显示一条消息。</p></td>
 </tr>
 <tr class="odd">
@@ -137,11 +135,9 @@ ms.locfileid: "28710172"
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[国家/地区]中 (&quot;澳大利亚&quot;，&quot;新加坡&quot;) And Len （[邮政编码]） &lt; &gt; 4</p></td>
+<td><p>国家/地区In (&quot;澳大利亚&quot;,&quot;新加坡&quot;) 和 Len ([邮政编码]) &lt; &gt; 4</p></td>
 <td><p>MessageBox</p></td>
-<td><p>消息：邮政编码必须为 4 个字符。 
-
- 发嘟嘟声:<strong>是</strong>类型：<strong>信息</strong>标题： 邮政编码错误</p></td>
+<td><p>消息：邮政编码必须为 4 个字符。 嘟嘟声:<strong>是</strong>类型:<strong>信息</strong>标题: 邮政编码错误</p></td>
 <td><p>如果邮政编码不是 4 个字符，则显示一条消息。</p></td>
 </tr>
 <tr class="even">
@@ -157,10 +153,10 @@ ms.locfileid: "28710172"
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([国家/地区] =&quot;加拿大&quot;)和 ([邮政编码] Not Like&quot;[A-Z] [0-9] [A-Z] [0-9] [A-Z] [0-9]&quot;)</p></td>
+<td><p>([国家/地区&quot;]&quot;= 加拿大)和 ([邮政编码] 不喜欢&quot;[a-z] [0-9] [a-z] [0-9] [a-z] [0-9])&quot;</p></td>
 <td><p>MessageBox</p></td>
-<td><p>消息： 邮政编码不是有效的。 加拿大代码示例： H1J 1c3 发嘟嘟声:<strong>是</strong>类型：<strong>信息</strong>标题： 邮政编码代码错误</p></td>
-<td><p>如果邮政编码不符合加拿大格式，则显示一条消息。（加拿大邮政编码示例：H1J 1C3）</p></td>
+<td><p>消息：邮政编码无效。 加拿大代码示例: H1J 1C3 嘟嘟声:<strong>是</strong>类型:<strong>信息</strong>标题: 邮政编码错误</p></td>
+<td><p>如果邮政编码不符合加拿大格式，则显示一条消息。 （加拿大邮政编码示例：H1J 1C3）</p></td>
 </tr>
 <tr class="odd">
 <td><p>...</p></td>

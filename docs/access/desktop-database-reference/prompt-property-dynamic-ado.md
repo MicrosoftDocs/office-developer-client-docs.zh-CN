@@ -1,5 +1,5 @@
 ---
-title: 提示动态属性 (ADO)
+title: Prompt dynamic 属性 (ADO)
 TOCTitle: Prompt dynamic property (ADO)
 ms:assetid: 6c899b03-1d1f-a81f-dc17-7205a0230af9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249428(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 261ac5640b5239f27ad91e01d1cb23794f88740a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301321"
 ---
-# <a name="prompt-dynamic-property-ado"></a>提示动态属性 (ADO)
+# <a name="prompt-dynamic-property-ado"></a>Prompt dynamic 属性 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 OLE DB 提供程序是否应当提示用户输入初始化信息。
 
@@ -24,7 +24,7 @@ ms.locfileid: "28715184"
 
 设置和返回 [ConnectPromptEnum](connectpromptenum.md) 值。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **Prompt** 是一个动态属性，可以由 OLE DB 提供程序追加到 [Connection](connection-object-ado.md) 对象的 [Properties](properties-collection-ado.md) 集合中。若要提示初始化信息，OLE DB 提供程序通常会向用户显示一个对话框。
 

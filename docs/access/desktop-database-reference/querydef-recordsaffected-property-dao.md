@@ -1,5 +1,5 @@
 ---
-title: QueryDef.RecordsAffected 属性 (DAO)
+title: RecordsAffected 属性 (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192040(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ad3759be1bcb60052111a4e7d27419aff08d510a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300964"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a>QueryDef.RecordsAffected 属性 (DAO)
+# <a name="querydefrecordsaffected-property-dao"></a>RecordsAffected 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回最近调用的 **[Execute](querydef-execute-method-dao.md)** 方法所影响的记录数。
 

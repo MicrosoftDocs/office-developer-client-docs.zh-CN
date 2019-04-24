@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5ed20555726d0a6f63f0e48fb154cedb411ef8cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306844"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferSQLDatabase 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-在 Microsoft Access 项目中，可以使用 **TransferSQLDatabase** 操作将 Microsoft SQL Server 7.0 或更高版本的数据库迁移到另一个 SQL Server 7.0 或更高版本的数据库。 关于迁移数据库的详细信息，请参阅 SQL Server 文档。
+在 Microsoft Access 项目中，可以使用 **TransferSQLDatabase** 操作将 Microsoft SQL Server 7.0 或更高版本的数据库迁移到另一个 SQL Server 7.0 或更高版本的数据库。 有关传输数据库的详细信息, 请参阅 SQL Server 文档。
 
 > [!NOTE]
-> [!注释] 如果数据库不受信任，将不允许此操作。
+> 如果数据库不受信任，则不允许执行此操作。
 
 ## <a name="setting"></a>设置
 
@@ -48,20 +48,20 @@ ms.locfileid: "28711488"
 <td><p>要复制到的 SQL Server 7.0 或更高版本的数据库服务器的名称。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Database</strong></p></td>
+<td><p><strong>数据库</strong></p></td>
 <td><p>将在目标服务器上创建的新数据库的名称。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>使用可信连接</strong></p></td>
-<td><p>指定是否存在是受信任的连接到 SQL Server。 如果设置为<strong>是</strong>，则没有受信任的连接和<strong>登录名</strong>和<strong>密码</strong>参数不是必需的。 如果设置为<strong>无</strong>、<strong>登录名</strong>和<strong>密码</strong>参数是必需的。 默认值为 <strong>"是"</strong>。 使用可信的连接时，具有 Windows 操作系统安全提供单一登录网络和数据库集成了 SQL Server 安全。</p></td>
+<td><p>指定是否有到 SQL Server 的可信连接。 如果设置为<strong>“是”</strong>，则有可信连接，而且“登录”<strong></strong>和“密码”<strong></strong>参数不是必选的。 如果设置为<strong>“否”</strong>，“登录”<strong></strong>和“密码”<strong></strong>参数则是必选的。 默认值为<strong>“是”</strong>。 当您使用受信任的连接时, SQL Server 安全性将与 Windows 操作系统安全性集成, 以提供网络和数据库的单一登录。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>登录</strong></p></td>
+<td><p><strong>[</strong></p></td>
 <td><p>目标服务器的登录名。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Password</strong></p></td>
-<td><p><strong>登录</strong>参数的密码。 此密码存储为文本中的 Access 项目，但在传输数据库操作过程中隐藏。</p></td>
+<td><p>“登录”<strong></strong>参数的密码。此密码在 Access 项目中作为文本存储，但在数据库迁移操作过程中是隐藏的。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>传输复制数据</strong></p></td>
@@ -71,11 +71,11 @@ ms.locfileid: "28711488"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 在数据库迁移过程中不能执行其他操作。
 
-默认情况下， **TransferSQLDatabase** 操作会复制数据、数据定义、数据库对象和扩展属性，例如默认值、文本约束和查阅值。
+默认情况下，**TransferSQLDatabase** 操作会复制数据、数据定义、数据库对象和扩展属性，例如默认值、文本约束和查阅值。
 
 下面是关于迁移数据库的一些要求：
 
@@ -84,7 +84,7 @@ ms.locfileid: "28711488"
 - 当前连接到 Access 项目的 SQL 服务器和要向其迁移数据库的目标服务器必须为 SQL Server 7.0 版或更高版本。
 
   > [!NOTE]
-  > [!注释] 在数据库迁移操作过程中，不迁移链接服务器。
+  > 在数据库迁移操作过程中，不迁移链接服务器。
 
 要在 Visual Basic for Applications (VBA) 模块中运行 **TransferSQLDatabase** 操作，请使用 **DoCmd** 对象的 **TransferSQLDatabase** 方法。
 

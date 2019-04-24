@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0dc7219eca56ba155eb3c1d00361afabaf003ee2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295651"
 ---
 # <a name="container-members-dao"></a>容器成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Container 对象可将相似类型的 Document 对象组合在一起。
 
@@ -36,16 +36,16 @@ Container 对象可将相似类型的 Document 对象组合在一起。
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="container-documents-property-dao.md">Documents</a></strong></p></td>
-<td><p>返回一个 <strong>Documents</strong> 集合，该集合包含指定对象中存储的所有文档。只读。</p></td>
+<td><p><strong><a href="container-documents-property-dao.md">文档</a></strong></p></td>
+<td><p>返回一个 <strong>Documents</strong> 集合，该集合包含指定对象中存储的所有文档。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>
-<td><p>返回指定对象的名称。只读 <strong>String</strong>。</p></td>
+<td><p>返回指定对象的名称。 只读的 <strong>字符串</strong> 。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="container-properties-property-dao.md">属性</a></strong></p></td>
-<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
+<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。 只读。</p></td>
 </tr>
 </tbody>
 </table>

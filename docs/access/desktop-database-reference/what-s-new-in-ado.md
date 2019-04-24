@@ -1,5 +1,5 @@
 ---
-title: What's new 中 ActiveX 数据对象 (ADO)
+title: ActiveX 数据对象 (ADO) 中的新增功能
 TOCTitle: What's new in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 593daf08da1b4ce435d17f2a6deedfa3e89dbd32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302609"
 ---
 # <a name="whats-new-in-ado"></a>ADO 中的新增功能
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
  
-ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO、ADO MD 和 ADOX。
+ADO 2.5 版中包括以下新功能和增强的文档。 此列表涵盖了 ADO、ADO MD 和 ADOX。
 
 ## <a name="new-features"></a>新增功能
 
 - **[记录和流](chapter-10-records-and-streams.md)**
 
-  此版本的 ADO 介绍[Record](record-object-ado.md)对象，其中可以表示和管理等目录和文件中的文件系统文件夹和邮件中的电子邮件系统。 **Record** 还可以表示 [Recordset](recordset-object-ado.md) 中的行，虽然 **Record** 和 **Recordset** 对象具有不同的方法和属性。
+  此版本的 ADO 引入了[Record](record-object-ado.md)对象, 该对象可以表示和管理文件系统中的目录和文件等内容, 以及电子邮件系统中的文件夹和邮件。 **Record** 还可以表示 [Recordset](recordset-object-ado.md) 中的行，虽然 **Record** 和 **Recordset** 对象具有不同的方法和属性。
 
   新增的 [Stream](stream-object-ado.md) 对象为读、写和管理构成文件或消息流的二进制字节流或文本提供了方法。
 
-- **[URL 使用情况](absolute-and-relative-urls.md)**
+- **[URL 用法](absolute-and-relative-urls.md)**
 
   此版本还引入了统一资源定位器 (URL) 作为连接字符串和命令文本的替代，以命名数据存储对象。URL 可用于现有的 [Connection](connection-object-ado.md) 和 **Recordset** 对象以及新的 **Record** 和 **Stream** 对象。
 
@@ -36,9 +36,9 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 
 - **[文档源提供程序的特殊字段](records-and-provider-supplied-fields.md)**
 
-  一个特殊的提供程序，称为*文档源*提供程序类管理文件夹和文档。 当 **Record** 对象表示文档或 **Recordset** 对象表示文档的文件夹时，文档源提供程序用描述文档特性的唯一字段集来填充这些字段。 这些字段构成了*资源* **Record**或**Recordset**。
+  提供程序的特殊类，称为*文档源*提供程序，用于管理文件夹和文档。 当 **Record** 对象表示文档或 **Recordset** 对象表示文档的文件夹时，文档源提供程序用描述文档特性的唯一字段集来填充这些字段。 这些字段构成了一个*资源***记录**或**记录集**。
 
-## <a name="new-reference-topics"></a>新引用主题
+## <a name="new-reference-topics"></a>新的参考主题
 
 ### <a name="properties"></a>属性
 
@@ -57,11 +57,11 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="charset-property-ado.md">字符集</a></p></td>
+<td><p><a href="charset-property-ado.md">Charset</a></p></td>
 <td><p>指示文本 <strong>Stream</strong> 对象的内容应当转换为的字符集。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="eos-property-ado.md">EOS</a></p></td>
+<td><p><a href="eos-property-ado.md">电源</a></p></td>
 <td><p>指示当前位置是否位于流的末尾。</p></td>
 </tr>
 <tr class="odd">
@@ -94,7 +94,7 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 </tr>
 <tr class="even">
 <td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>对所有适用的对象，指示其状态是打开还是关闭。 对执行异步方法的所有适用对象，指示其当前状态是正在连接、正在执行还是正在检索。</p></td>
+<td><p>对所有适用的对象，指示其状态是打开还是关闭。 指示执行异步方法的所有适用对象，无论对象的当前状态是正在连接、执行还是检索。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="type-property-ado-stream.md">Type</a></p></td>
@@ -125,14 +125,14 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 </tr>
 <tr class="even">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p><strong>Stream</strong> <strong>对象</strong>中的指定的数量的字符或字节 （取决于<strong>类型</strong>） 复制到另一个<strong>Stream</strong>对象。</p></td>
+<td><p>将<strong>stream</strong> <strong>对象</strong>中指定数量的字符或字节 (取决于<strong>类型</strong>) 复制到另一个<strong>stream</strong>对象。</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterecord-method-ado.md">DeleteRecord</a></p></td>
 <td><p>用于删除文件或目录及其所有子目录。</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">刷新</a></p></td>
+<td><p><a href="flush-method-ado.md">对齐</a></p></td>
 <td><p>用于将保留在 ADO 缓冲区中的 <strong>Stream</strong> 对象的内容强制转移到 <strong>Stream</strong> 对象所关联的基础对象中。</p></td>
 </tr>
 <tr class="odd">
@@ -187,11 +187,11 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 </table>
 
 
-## <a name="new-and-enhanced-documentation"></a>新增和增强文档
+## <a name="new-and-enhanced-documentation"></a>新文档和增强文档
 
 - **[代码示例主题](ado-code-examples.md)**
 
-  示例已扩展以包含在 Microsoft Visual c + + 和 Microsoft Visual J + + 中编写的代码示例。 您可以将这些示例复制并粘贴到自己的编辑器中。
+  示例已扩展为包含在 microsoft visual c + + 和 microsoft visual j + + 中编写的代码示例。 您可以将这些示例复制并粘贴到自己的编辑器中。
 
 - **[提供程序主题](appendix-a-providers.md)**
 
@@ -199,5 +199,5 @@ ADO 2.5 版中包括以下新功能和增强的文档。此列表涵盖了 ADO�
 
 - **[用 ADO 编程](appendix-c-programming-with-ado.md)**
 
-  这是一个新的部分，包含在各种编程语言中使用 ADO 的提示和技巧。 它包含 Visual c + + Extensions for ADO 和 ADO/WFC，以及特定于使用 Microsoft Visual Basic、 Microsoft Visual Basic Scripting Edition、 Microsoft JScript、 Microsoft Visual c + + 中，开发人员的新信息的现有语法索引或Microsoft Visual J + + 中。
+  这是一个新的部分，包含在各种编程语言中使用 ADO 的提示和技巧。 它包含 Visual c + + 扩展的现有语法索引, 用于 ado 和 ADO/WFC, 以及特定于使用 microsoft visual basic、microsoft visual basic 脚本编写版、microsoft JScript、microsoft visual c + + 或的开发人员的新信息。Microsoft Visual j + +。
 

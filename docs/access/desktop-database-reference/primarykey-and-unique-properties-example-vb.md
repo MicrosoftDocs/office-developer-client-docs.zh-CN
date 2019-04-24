@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bab87e8bfa2ac69adbfdbaff44e1e8e08f58223a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301419"
 ---
 # <a name="primarykey-and-unique-properties-example-vb"></a>PrimaryKey 和 Unique 属性示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例演示 [Index](primarykey-property-adox.md) 的 [PrimaryKey](unique-property-adox.md) 和 [Unique](index-object-adox.md) 属性。代码创建一个带有两个列的新表。 **PrimaryKey** 和 **Unique** 属性用于使其中一列成为不允许出现重复值的主键。
 

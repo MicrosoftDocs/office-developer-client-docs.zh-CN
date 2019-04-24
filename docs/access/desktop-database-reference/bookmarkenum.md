@@ -1,5 +1,5 @@
 ---
-title: BookmarkEnum （访问桌面数据库参考 （英文）
+title: BookmarkEnum (Access desktop database reference)
 TOCTitle: BookmarkEnum
 ms:assetid: 75cf5edd-bcb6-ab61-8703-73775cce91de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df80ff40a83c6aab1fc4657ac23d2e0ec1b28b01
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296778"
 ---
 # <a name="bookmarkenum"></a>BookmarkEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定一个书签，以指示操作应开始的位置。
 
@@ -48,16 +48,16 @@ ms.locfileid: "28716885"
 </tr>
 <tr class="odd">
 <td><p><strong>adBookmarkLast</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>从最后一个记录开始。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -70,13 +70,13 @@ ms.locfileid: "28716885"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Bookmark.CURRENT</p></td>
+<td><p>当前 AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Bookmark.FIRST</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Bookmark.LAST</p></td>
+<td><p>AdoEnums</p></td>
 </tr>
 </tbody>
 </table>

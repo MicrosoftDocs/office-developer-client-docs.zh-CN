@@ -1,5 +1,5 @@
 ---
-title: Using the Connection Object (Access)
+title: 使用 Connection 对象 (Access)
 TOCTitle: Using the Connection Object
 ms:assetid: e8786411-2be4-8d75-9df7-e345d5a6a7e8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250177(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d16b802140e2dcbbd85988bee316ae27236c3235
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305920"
 ---
 # <a name="using-the-connection-object-access"></a>使用 Connection 对象 (Access)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Connection** 对象表示与数据源的唯一会话。对于客户端/服务器数据库系统，该对象等效于与服务器的实际网络连接。根据提供程序所支持的功能， **Connection** 对象的某些集合、方法或属性可能不可用。
+**Connection** 对象表示与数据源的唯一会话。对于客户端/服务器数据库系统，该对象等效于与服务器的实际网络连接。根据提供程序所支持的功能，**Connection** 对象的某些集合、方法或属性可能不可用。
 
-在打开 **Connection** 对象之前，必须定义有关数据源和连接类型的某些信息。 **Connection**对象的**Open**方法的*ConnectionString*参数 — 或**Connection**对象的**ConnectionString**属性 — 通常包含大部分此信息。 连接字符串是用来定义参数的可变数量的字符串。 参数中包含 **Connection** 对象执行其工作所必需的信息，一些参数是 ADO 必需的，而另一些参数是特定于提供程序的。 用分号 （;） 分隔组成的*ConnectionString*参数的参数。
+在打开 **Connection** 对象之前，必须定义有关数据源和连接类型的某些信息。**Connection** 对象 **Open** 方法的 *ConnectionString* 参数或者 **Connection** 对象的 **ConnectionString** 属性通常包含这样的信息。连接字符串是用来定义参数的可变数量的字符串。参数中包含 **Connection** 对象执行其工作所必需的信息，一些参数是 ADO 必需的，而另一些参数是特定于提供程序的。组成 *ConnectionString* 参数的参数用分号 (;) 隔开。
 
 > [!NOTE]
 > 还可以在连接字符串中指定 ODBC 数据源名称 (DSN) 或数据链接 (UDL) 文件。有关 DSN 的详细信息，请参阅 *《ODBC 程序员参考》* 第 1 部分中的“数据源”。有关 UDL 的详细信息，请参阅 *《OLE DB 程序员参考》* 中的“数据链接 API 概述”。

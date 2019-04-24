@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6fc6573418afc8f20774c6ae523da8f4f32c0f37
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301146"
 ---
 # <a name="provider-and-defaultdatabase-properties-example-vc"></a>Provider 和 DefaultDatabase 属性示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例演示 [Provider](provider-property-ado.md) 属性，将打开三个使用不同提供程序的 [Connection](connection-object-ado.md) 对象。它还使用 [DefaultDatabase](defaultdatabase-property-ado.md) 属性来设置 Microsoft ODBC Provider 的默认数据库。
 

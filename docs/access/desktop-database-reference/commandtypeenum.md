@@ -1,5 +1,5 @@
 ---
-title: CommandTypeEnum （访问桌面数据库参考 （英文）
+title: CommandTypeEnum (Access desktop database reference)
 TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9114128771d4753265208dada763ac0c9f796d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296113"
 ---
 # <a name="commandtypeenum"></a>CommandTypeEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定应当如何解释命令参数。
 
@@ -48,7 +48,7 @@ ms.locfileid: "28714274"
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdTable</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>将 <strong>CommandText</strong> 求值为表名，该表中的列全部由内部生成的 SQL 查询返回。</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ ms.locfileid: "28714274"
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdUnknown</strong></p></td>
-<td><p>8</p></td>
+<td><p>utf-8</p></td>
 <td><p>默认值。指示 <strong>CommandText</strong> 属性中的命令类型未知。</p></td>
 </tr>
 <tr class="even">
@@ -69,15 +69,15 @@ ms.locfileid: "28714274"
 <tr class="odd">
 <td><p><strong>adCmdTableDirect</strong></p></td>
 <td><p>512</p></td>
-<td><p><strong>将 CommandText</strong>求为所有返回的列的表名。 仅与<strong>Recordset.Open</strong>或<strong>Requery</strong>一起使用。 若要使用<a href="seek-method-ado.md">Seek</a>方法，必须使用<strong>adCmdTableDirect</strong>打开<strong>记录集</strong>。 此值不能与 <a href="executeoptionenum.md">ExecuteOptionEnum</a> 值 <strong>adAsyncExecute</strong> 组合使用。</p></td>
+<td><p>将 <strong>CommandText</strong> 求值为表名，该表中的列全部返回。 仅与 <strong>Recordset.Open</strong> 或 <strong>Requery</strong> 一起使用。 要使用 <a href="seek-method-ado.md">Seek</a> 方法，必须使用 <strong>adCmdTableDirect</strong> 打开 <strong>Recordset</strong>。 此值不能与 <a href="executeoptionenum.md">ExecuteOptionEnum</a> 值 <strong>adAsyncExecute</strong> 组合使用。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -90,25 +90,25 @@ ms.locfileid: "28714274"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.UNSPECIFIED</p></td>
+<td><p>AdoEnums 不指定 CommandType</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CommandType.TEXT</p></td>
+<td><p>AdoEnums 的 CommandType</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.TABLE</p></td>
+<td><p>AdoEnums CommandType</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CommandType.STOREDPROC</p></td>
+<td><p>AdoEnums CommandType</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.UNKNOWN</p></td>
+<td><p>AdoEnums CommandType</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CommandType.FILE</p></td>
+<td><p>AdoEnums CommandType</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CommandType.TABLEDIRECT</p></td>
+<td><p>AdoEnums CommandType</p></td>
 </tr>
 </tbody>
 </table>

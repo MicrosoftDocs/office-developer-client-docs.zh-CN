@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bf55574880378b9c60b722262cdaa626aa4be4d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302532"
 ---
 # <a name="workspace-object-reference-dao"></a>Workspace 对象引用 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [Workspace 对象 (DAO)](workspace-object-dao.md)
-- [工作区成员 (DAO)](workspace-members-dao.md)
-- [工作区属性 (DAO)](workspace-properties-dao.md)
-- [工作区方法 (DAO)](workspace-methods-dao.md)
+- [Workspace 成员 (DAO)](workspace-members-dao.md)
+- [Workspace 属性 (DAO)](workspace-properties-dao.md)
+- [Workspace 方法 (DAO)](workspace-methods-dao.md)
 

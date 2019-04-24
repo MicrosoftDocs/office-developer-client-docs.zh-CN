@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7357cc60a3bddbf96c2abae39fecfb7107025e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296400"
 ---
 # <a name="chapter-7-handling-ado-events"></a>第 7 章：处理 ADO 事件
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ADO 事件模型支持某些可在操作开始之前或在完成之后发出*事件*（即通知）的同步和异步 ADO 操作。事件实际上是对应用程序中所定义的事件处理程序例程的调用。
 
@@ -32,4 +32,4 @@ ADO 事件模型支持某些可在操作开始之前或在完成之后发出*事
 - [事件类型](types-of-events.md)
 - [事件参数](event-parameters.md)
 - [事件处理程序如何协同工作](how-event-handlers-work-together.md)
-- [ADO 事件实例化按语言 (ADO)](ado-event-instantiation-by-language-ado.md)
+- [ado 事件实例化 (按语言) (ado)](ado-event-instantiation-by-language-ado.md)

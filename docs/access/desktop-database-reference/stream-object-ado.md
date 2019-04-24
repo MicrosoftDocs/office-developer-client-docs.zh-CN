@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f6d7e8f64f6b14ea699006fc0461cdf0ded2a06
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308482"
 ---
 # <a name="stream-object-ado"></a>Stream 对象 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表二进制数据流或文本流。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-树状层次结构例如文件系统或电子邮件系统，[记录](record-object-ado.md)可能包含的文件或电子邮件的内容与之关联的二进制文件的默认二进制流。 **Stream** 对象可以用来处理包含这些数据流的字段或记录。 可以通过以下方式获得 **Stream** 对象：
+在文件系统或电子邮件系统等树结构化层次结构中,[记录](record-object-ado.md)可能具有与其关联的默认二进制位流, 其中包含文件或电子邮件的内容。 **Stream** 对象可以用来处理包含这些数据流的字段或记录。 可以通过以下方式获得 **Stream** 对象：
 
   - 从指向包含二进制数据或文本数据的对象（通常为文件）的 URL 获得。该对象可以是简单文档、表示结构化文档的 **Record** 对象或文件夹。
 
@@ -33,17 +33,17 @@ ms.locfileid: "28704425"
 
 使用 **Stream** 对象的方法和属性，可以执行下列操作：
 
-  - 使用 **Open** 方法通过 **Record** 或 URL 打开 [Stream](open-method-ado-stream.md) 对象。
+  - 使用 [Open](open-method-ado-stream.md) 方法通过 **Record** 或 URL 打开 **Stream** 对象。
 
-  - 使用 **Close** 方法关闭 [Stream](close-method-ado.md) 。
+  - 使用 [Close](close-method-ado.md) 方法关闭 **Stream**。
 
-  - 使用 **Write** 和 [WriteText](write-method-ado.md) 方法向 [Stream](writetext-method-ado.md) 输入字节或文本。
+  - 使用 [Write](write-method-ado.md) 和 [WriteText](writetext-method-ado.md) 方法向 **Stream** 输入字节或文本。
 
-  - 使用 **Read** 和 [ReadText](read-method-ado.md) 方法从 [Stream](readtext-method-ado.md) 读取字节。
+  - 使用 [Read](read-method-ado.md) 和 [ReadText](readtext-method-ado.md) 方法从 **Stream** 读取字节。
 
-  - 使用 **Flush** 方法将仍在 ADO 缓冲区中的任何 [Stream](flush-method-ado.md) 数据写入基础对象。
+  - 使用 [Flush](flush-method-ado.md) 方法将仍在 ADO 缓冲区中的任何 **Stream** 数据写入基础对象。
 
-  - 使用 **CopyTo** 方法将一个 **Stream** 中的内容复制到其他 [Stream](copyto-method-ado.md) 中。
+  - 使用 [CopyTo](copyto-method-ado.md) 方法将一个 **Stream** 中的内容复制到其他 **Stream** 中。
 
   - 使用 [SkipLine](skipline-method-ado.md) 方法和 [LineSeparator](lineseparator-property-ado.md) 属性控制从源文件读取行的方式。
 
@@ -51,21 +51,21 @@ ms.locfileid: "28704425"
 
   - 使用 [SaveToFile](savetofile-method-ado.md) 和 [LoadFromFile](loadfromfile-method-ado.md) 方法保存和还原文件中的数据。
 
-  - 使用 **Charset** 属性指定用于存储 [Stream](charset-property-ado.md) 的字符集。
+  - 使用 [Charset](charset-property-ado.md) 属性指定用于存储 **Stream** 的字符集。
 
-  - 使用 **Cancel** 方法中止异步 [Stream](cancel-method-ado.md) 操作。
+  - 使用 [Cancel](cancel-method-ado.md) 方法中止异步 **Stream** 操作。
 
-  - 使用 **Size** 属性确定 [Stream](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) 中的字节数。
+  - 使用 [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) 属性确定 **Stream** 中的字节数。
 
-  - 使用 **Position** 属性控制 [Stream](position-property-ado.md) 中的当前位置。
+  - 使用 [Position](position-property-ado.md) 属性控制 **Stream** 中的当前位置。
 
-  - 使用 **Type** 属性确定 [Stream](type-property-ado-stream.md) 中的数据类型。
+  - 使用 [Type](type-property-ado-stream.md) 属性确定 **Stream** 中的数据类型。
 
-  - 使用 **State** 属性确定 [Stream](state-property-ado.md) 的当前状态（关闭、打开和正在执行）。
+  - 使用 [State](state-property-ado.md) 属性确定 **Stream** 的当前状态（关闭、打开和正在执行）。
 
   - 使用 **Mode** 属性指定 [Stream](mode-property-ado.md) 的访问模式。
 
 > [!NOTE]
-> [!注释] 使用 http 方案的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
+> [!注释] 使用 http 方案的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息, 请参阅[绝对和相对 url](absolute-and-relative-urls.md)。
 
 

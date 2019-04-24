@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9bd1e1259eb7b089d0387dd385ee5157eeac2f34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698734"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314551"
 ---
 # <a name="source-property-ado-record"></a>Source 属性（ADO 记录）
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示由 [Record](record-object-ado.md) 表示的数据源或对象。
 
@@ -25,9 +25,9 @@ ms.locfileid: "28698734"
 
 设置或返回一个 **Variant** 值，指示 **Record** 表示的实体。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**Source**属性返回**Record**对象的[Open](open-method-ado-record.md)方法的*Source*参数。 该属性可包含一个绝对或相对 URL 字符串。 使用绝对 URL 可直接打开 [Record](activeconnection-property-ado.md) 对象，而无需设置 **ActiveConnection** 属性。 此时将创建一个隐式 **Connection** 对象。
+**Source** 属性返回 **Record** 对象 [Open](open-method-ado-record.md) 方法的 *Source* 参数。 该属性可包含一个绝对或相对 URL 字符串。 使用绝对 URL 可直接打开 [Record](activeconnection-property-ado.md) 对象，而无需设置 **ActiveConnection** 属性。 此时将创建一个隐式 **Connection** 对象。
 
 **Source** 属性还可包含对已打开的 **Recordset** 的引用，这将打开一个表示该 **Recordset** 中当前行的 **Record** 对象。
 
@@ -38,6 +38,6 @@ ms.locfileid: "28698734"
 **Record** 对象关闭时， **Source** 属性为可读/写属性， **Record** 对象打开时为只读属性。
 
 > [!NOTE]
-> [!注释] 使用 http 方案的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息，请参阅[绝对和相对 Url](absolute-and-relative-urls.md)。
+> [!注释] 使用 http 方案的 URL 将自动调用 [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md)。 有关详细信息, 请参阅[绝对和相对 url](absolute-and-relative-urls.md)。
 
 

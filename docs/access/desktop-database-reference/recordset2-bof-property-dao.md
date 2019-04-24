@@ -1,5 +1,5 @@
 ---
-title: Recordset2.BOF 属性 (DAO)
+title: Recordset2 属性 (DAO)
 TOCTitle: BOF Property
 ms:assetid: d97d0507-0d5a-e3f1-fa30-40caec9f3ffa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835098(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5ffe9c679da3f11666799caa070f51f384729cc1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307460"
 ---
-# <a name="recordset2bof-property-dao"></a>Recordset2.BOF 属性 (DAO)
+# <a name="recordset2bof-property-dao"></a>Recordset2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个值，该值指示当前记录的位置是否在 **Recordset** 对象中的第一条记录之前。只读 **Boolean** 类型。
+返回一个值，该值指示当前记录的位置是否在 **Recordset** 对象中的第一条记录之前。 只读 **Boolean** 类型。
 
 ## <a name="syntax"></a>语法
 
 *表达式*。BOF
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -58,46 +58,46 @@ ms.locfileid: "28703606"
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst，<br />
+<th><p>MoveFirst<br />
 MoveLast</p></th>
-<th><p>MovePrevious、<br />
-移动&lt;0</p></th>
+<th><p>MovePrevious<br />
+移动&lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext、<br />
-移动&gt;0</p></th>
+<th><p>MoveNext<br />
+移动&gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true，则</strong><br />
+<td><p><strong>BOF = True,</strong><br />
 <strong>EOF = False</strong></p></td>
 <td><p>允许</p></td>
-<td><p>错误</p></td>
-<td><p>错误</p></td>
-<td><p>允许</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
+<td><p>Allowed</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False，</strong><br />
+<td><p><strong>BOF = False,</strong><br />
 <strong>EOF = True</strong></p></td>
+<td><p>Allowed</p></td>
 <td><p>允许</p></td>
-<td><p>允许</p></td>
-<td><p>错误</p></td>
-<td><p>错误</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 </tr>
 <tr class="odd">
 <td><p>均为 <strong>True</strong></p></td>
 <td><p>错误</p></td>
-<td><p>错误</p></td>
-<td><p>错误</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>错误</p></td>
 </tr>
 <tr class="even">
 <td><p>均为 <strong>False</strong></p></td>
 <td><p>允许</p></td>
-<td><p>允许</p></td>
-<td><p>允许</p></td>
-<td><p>允许</p></td>
+<td><p>Allowed</p></td>
+<td><p>Allowed</p></td>
+<td><p>Allowed</p></td>
 </tr>
 </tbody>
 </table>
@@ -130,7 +130,7 @@ Move 0</p></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong> <strong>MoveLast</strong></p></td>
+<td><p><strong>MoveFirst</strong>、 <strong>MoveLast</strong></p></td>
 <td><p><strong>True</strong></p></td>
 <td><p><strong>True</strong></p></td>
 </tr>
@@ -140,12 +140,12 @@ Move 0</p></th>
 <td><p>没有变化</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>、<strong>移动</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>,<strong>移动</strong> &lt; 0</p></td>
 <td><p><strong>True</strong></p></td>
 <td><p>没有变化</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>、<strong>移动</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>,<strong>移动</strong> &gt; 0</p></td>
 <td><p>没有变化</p></td>
 <td><p><strong>True</strong></p></td>
 </tr>

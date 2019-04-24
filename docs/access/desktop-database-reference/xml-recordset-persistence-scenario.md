@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5bae48f3e9b2b5c3967b955c41ba01c634546164
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302590"
 ---
 # <a name="xml-recordset-persistence-scenario"></a>XML 记录集暂留方案
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 在该方案中，您将创建一个 Active Server Pages (ASP) 应用程序，该应用程序将 **Recordset** 对象的内容直接保存到 ASP **Response** 对象中。
 
 > [!NOTE]
-> [!注释] 该方案要求您的服务器上装有 Internet Information Server 5.0 (IIS) 或更高版本。
+> 该方案要求您的服务器上装有 Internet Information Server 5.0 (IIS) 或更高版本。
 
 返回的 **Recordset** 使用 [RDS.DataControl](datacontrol-object-rds.md) 显示在 Internet Explorer 中。
 
@@ -32,14 +32,14 @@ ms.locfileid: "28711530"
 3.  发送数据。
 4.  接收和显示数据。
 
-## <a name="step-1-set-up-the-application"></a>步骤 1： 设置应用程序
+## <a name="step-1-set-up-the-application"></a>步骤 1: 设置应用程序
 
-1. 创建名为脚本权限**XMLPersist**的 IIS 虚拟目录。 
+1. 使用脚本权限创建名为**XMLPersist**的 IIS 虚拟目录。 
 
-2. 在向其虚拟目录点，一个命名的**XMLResponse.asp**，另一个名为**Default.htm**的文件夹中创建两个新的文本文件。
+2. 在虚拟目录指向的文件夹中创建两个新的文本文件, 一个名为**xmlresponse.asp**, 另一个名为**index.htm**。
 
 
-## <a name="step-2-get-the-data"></a>步骤 2： 获取数据
+## <a name="step-2-get-the-data"></a>步骤 2: 获取数据
 
 在该步骤中，您将编写用来打开 ADO **Recordset** 的代码，并准备将其发送到客户端。 
 
@@ -68,13 +68,13 @@ ms.locfileid: "28711530"
         adoRec.Open strSQL, adoCon, adOpenStatic, adLockOptimistic, adCmdText 
    ```
 
-2. 请务必 strCon 中的数据源参数值更改为 Microsoft SQL Server 计算机的名称。
+2. 请务必将 strCon 中的数据源参数的值更改为 Microsoft SQL Server 计算机的名称。
 
 3. 使该文件保持打开状态并转至下一步。
 
-## <a name="step-3-send-the-data"></a>步骤 3： 发送数据
+## <a name="step-3-send-the-data"></a>步骤 3: 发送数据
 
-现在您已经拥有一个 **Recordset** ，您将需要通过将它作为 XML 保存到 ASP **Response** 对象中来将其发送到客户端。 
+现在您已经拥有一个 **Recordset**，您将需要通过将它作为 XML 保存到 ASP **Response** 对象中来将其发送到客户端。 
 
 1. 请将以下代码添加到 XMLResponse.asp 的底部：
 
@@ -92,15 +92,15 @@ ms.locfileid: "28711530"
     %> 
    ```
 
-   请注意，ASP**响应**对象的指定为**Recordset** [保存](save-method-ado.md)方法的目标。 **Save** 方法的目标可以是支持 **IStream** 接口的任何对象（如 ADO [Stream](stream-object-ado.md) 对象），也可以是包括要将 **Recordset** 保存到的完整路径的文件名。
+   请注意, ASP **Response**对象被指定为**Recordset** [Save](save-method-ado.md)方法的目标。 **Save** 方法的目标可以是支持 **IStream** 接口的任何对象（如 ADO [Stream](stream-object-ado.md) 对象），也可以是包括要将 **Recordset** 保存到的完整路径的文件名。
 
-2. 在转至下一步之前请保存并关闭 XMLResponse.asp。 此外将 adovbs.inc 文件复制从 c:\\Program Files\\Common Files\\系统\\Ado 文件夹到了 XMLResponse.asp 文件的同一个文件夹。
+2. 在转至下一步之前请保存并关闭 XMLResponse.asp。 此外,\\将 adovbs.inc 文件从 C: Program files\\公共文件\\系统\\Ado 文件夹复制到您具有 xmlresponse.asp 文件的同一文件夹中。
 
-## <a name="step-4-receive-and-display-the-data"></a>步骤 4： 接收和显示数据
+## <a name="step-4-receive-and-display-the-data"></a>步骤 4: 接收和显示数据
 
-在此步骤中，将 HTML 文件创建与嵌入[rds.DataControl](datacontrol-object-rds.md)对象的 points XMLResponse.asp 文件以获取**记录集**。 
+在此步骤中, 将创建一个 HTML 文件, 其中包含嵌入的[RDS。](datacontrol-object-rds.md)指向 xmlresponse.asp 文件的 rds.datacontrol 对象, 以获取**Recordset**。 
 
-1. 使用 Windows 记事本等文本编辑器，打开 default.htm 并添加以下代码。 将该 URL 中的"sqlserver"替换为您的服务器计算机的名称。
+1. 使用文本编辑器 (如 Windows 记事本) 打开默认的 .htm, 并添加以下代码。 将该 URL 中的"sqlserver"替换为您的服务器计算机的名称。
 
    ```html 
     
@@ -125,9 +125,9 @@ ms.locfileid: "28711530"
 
 2. 关闭 default.htm 文件并将其保存到 XMLResponse.asp 所在的同一文件夹中。 
 
-3. 使用 Internet Explorer 4.0 或更高版本，打开 URL`https://<sqlserver>/XMLPersist/default.htm`并观察结果。 数据将显示在绑定的 DHTML 表中。 
+3. 使用 Internet Explorer 4.0 或更高版本, 打开`https://<sqlserver>/XMLPersist/default.htm` URL 并观察结果。 数据将显示在绑定的 DHTML 表中。 
 
-4. 现在打开 URL`https://<sqlserver>/XMLPersist/XMLResponse.asp`并观察结果。 此时将显示 XML。
+4. 现在打开 URL `https://<sqlserver>/XMLPersist/XMLResponse.asp`并观察结果。 此时将显示 XML。
 
 
 

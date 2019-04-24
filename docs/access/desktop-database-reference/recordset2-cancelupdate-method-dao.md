@@ -1,5 +1,5 @@
 ---
-title: Recordset2.CancelUpdate 方法 (DAO)
+title: CancelUpdate 方法 (DAO) Recordset2
 TOCTitle: CancelUpdate Method
 ms:assetid: f741dec1-b9a4-506e-74ec-2bc309b0918e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 90378dc61d12485a290bbd7857d026a46cd9da96
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307397"
 ---
-# <a name="recordset2cancelupdate-method-dao"></a>Recordset2.CancelUpdate 方法 (DAO)
+# <a name="recordset2cancelupdate-method-dao"></a>CancelUpdate 方法 (DAO) Recordset2
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 取消 **[Recordset](recordset-object-dao.md)** 对象的任何待定更新。
 
@@ -24,9 +24,9 @@ ms.locfileid: "28721372"
 
 *表达式*。CancelUpdate (***UpdateType***)
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28721372"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -48,7 +48,7 @@ ms.locfileid: "28721372"
 <td><p><em>UpdateType</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>设置为<strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong>值之一。</p><p><strong>注意</strong>： <EM>dbUpdateRegular</EM>和<EM>dbUpdateBatch</EM>值是仅当批更新启用有效。</p>
+<td><p>设置为<strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong>值之一。</p><p><strong>注意</strong>: <EM>dbUpdateRegular</EM>和<EM>dbUpdateBatch</EM>值仅在启用批更新时有效。</p>
 </td>
 </tr>
 </tbody>
@@ -59,7 +59,7 @@ ms.locfileid: "28721372"
 
 可以使用 **CancelUpdate** 方法取消执行 **[Edit](recordset2-edit-method-dao.md)** 或 **[AddNew](recordset2-addnew-method-dao.md)** 操作后得到的任何待定更新。例如，如果用户调用了 **Edit** 或 **AddNew** 方法，但尚未调用 **Update** 方法， **CancelUpdate** 将取消 **Edit** 或 **AddNew** 被调用之后所做的任何更改。
 
-检查 [Recordset](recordset2-editmode-property-dao.md) 的 ****EditMode**** 属性，以确定是否存在可以取消的待定操作。
+检查**Recordset**的**[EditMode](recordset2-editmode-property-dao.md)** 属性, 以确定是否存在可以取消的挂起操作。
 
 > [!NOTE]
 > [!注释] 使用 **CancelUpdate** 方法的效果与在不使用 **[Update](recordset2-update-method-dao.md)** 方法的情况下移到另一条记录的效果相同，但是当前记录不发生更改，且不更新各个属性（例如 **[BOF](recordset2-bof-property-dao.md)** 和 **[EOF](recordset2-eof-property-dao.md)** ）。

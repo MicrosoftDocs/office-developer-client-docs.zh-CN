@@ -1,5 +1,5 @@
 ---
-title: RDS 属性 （Access 桌面数据库参考 （英文）
+title: RDS 属性 (Access desktop database reference)
 TOCTitle: RDS properties
 ms:assetid: 002989dc-0022-d3a2-ddd2-2230837b3a63
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 35d3552705ff358f34a40aa51a2ec13b4b80f6d2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300838"
 ---
 # <a name="rds-properties"></a>RDS 属性
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <br/>
 
@@ -55,8 +55,8 @@ ms.locfileid: "28716048"
 <td><p>指示用于筛选记录的值。</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="handler-property-rds.md">处理程序</a></p></td>
-<td><p>指示扩展<strong>RDSServer.DataFactory</strong>和使用<em>处理程序</em>的任何参数的功能的服务器端自定义程序 （<em>处理</em>） 的名称。</p></td>
+<td><p><a href="handler-property-rds.md">Handler</a></p></td>
+<td><p>指示扩展 <strong>RDSServer.DataFactory</strong> 功能的服务器端自定义程序（<em>处理程序</em>）的名称和该<em>处理程序</em>使用的任何参数。</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="internettimeout-property-rds.md">InternetTimeout</a></p></td>

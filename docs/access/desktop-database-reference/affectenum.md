@@ -1,5 +1,5 @@
 ---
-title: AffectEnum （访问桌面数据库参考 （英文）
+title: AffectEnum (Access desktop database reference)
 TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0183cde0862e947f686bed9821e447abc117d205
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297198"
 ---
 # <a name="affectenum"></a>AffectEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定操作会影响哪些记录。
 
@@ -38,9 +38,8 @@ ms.locfileid: "28720581"
 <tbody>
 <tr class="odd">
 <td><p><strong>adAffectAll</strong></p></td>
-<td><p>3</p></td>
-<td><p>如果未对 <strong>Recordset</strong> 应用任何 <a href="filter-property-ado.md">Filter</a>，则所有记录都受影响。
- 如果将<strong>Filter</strong>属性设置为字符串条件 (如&quot;作者 = 'Smith'&quot;)，该操作将影响当前章节中的可见记录。 如果将<strong>Filter</strong>属性设置为<a href="filtergroupenum.md">FilterGroupEnum</a>的成员或书签数组，该操作将影响<strong>Recordset</strong>的所有行。</p><p><strong>注意</strong>： adAffectAll 在 Visual Basic 对象浏览器中处于隐藏状态。</p>
+<td><p>第三章</p></td>
+<td><p>如果未对 <strong>Recordset</strong> 应用任何 <a href="filter-property-ado.md">Filter</a>，则所有记录都受影响。 如果<strong>Filter</strong>属性设置为字符串条件 (例如&quot;Author = ' Smith '&quot;), 则该操作将影响当前章节中的可见记录。 如果<strong>Filter</strong>属性设置为<a href="filtergroupenum.md">FilterGroupEnum</a>或书签数组的成员, 则该操作将影响<strong>Recordset</strong>的所有行。</p><p><strong>注意</strong>: adAffectAll 在 Visual Basic 对象浏览器中处于隐藏状态。</p>
 </td>
 </tr>
 <tr class="even">
@@ -49,22 +48,22 @@ ms.locfileid: "28720581"
 <td><p>影响 <strong>Recordset</strong> 的所有同级章节中的全部记录，包括通过当前所应用的任何 <strong>Filter</strong> 都看不到的记录。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adaffectcurrent:</strong></p></td>
+<td><p><strong>adAffectCurrent</strong></p></td>
 <td><p>1</p></td>
 <td><p>只影响当前的记录。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAffectGroup</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>只影响满足当前 <a href="filter-property-ado.md">Filter</a> 属性设置的记录。必须将 <strong>Filter</strong> 属性设置为 <strong>FilterGroupEnum</strong> 值或 <strong>Bookmarks</strong> 数组，才能使用此选项。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -77,16 +76,16 @@ ms.locfileid: "28720581"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Affect.ALL</p></td>
+<td><p>AdoEnums 影响。所有</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Affect.ALLCHAPTERS</p></td>
+<td><p>AdoEnums 影响 ALLCHAPTERS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Affect.CURRENT</p></td>
+<td><p>AdoEnums 影响。当前</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Affect.GROUP</p></td>
+<td><p>AdoEnums 影响。组</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 提供程序错误 （访问桌面数据库参考 （英文）
+title: 提供程序错误 (Access desktop database reference)
 TOCTitle: Provider errors
 ms:assetid: 9c39d450-6e67-b2fd-aeb5-849e6b65fd54
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d175cdaa007a354d12304dceff0352a923de2291
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301125"
 ---
 # <a name="provider-errors"></a>提供程序错误
 
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 发生提供程序错误时，将返回运行时错误 -2147467259。收到此错误时，请检查活动 **Connection** 对象的 **Errors** 集合，该集合将包含描述所发生情况的一个或多个错误。
 
@@ -62,7 +62,7 @@ End Function
 
 ## <a name="the-error-object"></a>Error 对象
 
-通过检查 **Error** 对象，可以确定发生了什么错误，更重要的是，可以确定什么应用程序或对象导致了错误。 **Error** 对象有以下属性：
+通过检查 **Error** 对象，可以确定发生了什么错误，更重要的是，可以确定什么应用程序或对象导致了错误。**Error** 对象有以下属性：
 
 <table>
 <colgroup>
@@ -71,17 +71,17 @@ End Function
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>属性名称</p></th>
+<th><p>属性名</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Description</strong></p></td>
+<td><p><strong>说明</strong></p></td>
 <td><p>所发生的错误的文本说明。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>HelpContext HelpFile</strong></p></td>
+<td><p><strong>HelpContext、帮助帮助</strong></p></td>
 <td><p>指的是帮助主题和帮助文件（其中包含对所发生的错误的说明）。</p></td>
 </tr>
 <tr class="odd">
@@ -104,7 +104,7 @@ End Function
 </table>
 
 
-ADO **Error** 对象与标准的 Visual Basic **Err** 对象很相似。它的属性描述了发生的错误。除了错误号外，您还会收到两个相关的信息片段。 **NativeError** 属性包含您正在使用的提供程序特有的错误号。在上一个示例中，提供程序是 Microsoft OLE DB Provider for SQL Server，所以 **NativeError** 将包含特定于 SQL Server 的错误。 **SQLState** 属性有五个字母组成的代码，用于描述 SQL 语句中的错误。
+ADO **Error** 对象与标准的 Visual Basic **Err** 对象很相似。它的属性描述了发生的错误。除了错误号外，您还会收到两个相关的信息片段。**NativeError** 属性包含您正在使用的提供程序特有的错误号。在上一个示例中，提供程序是 Microsoft OLE DB Provider for SQL Server，所以 **NativeError** 将包含特定于 SQL Server 的错误。**SQLState** 属性有五个字母组成的代码，用于描述 SQL 语句中的错误。
 
 ## <a name="event-related-errors"></a>与事件相关的错误
 

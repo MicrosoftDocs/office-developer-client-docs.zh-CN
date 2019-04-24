@@ -12,28 +12,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f524a544736f68bcfa6bd15e3bcc720ffa2bc4d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297212"
 ---
 # <a name="after-delete-macro-event"></a>After Delete 宏事件
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-删除记录之后，发生此事件**后删除**事件。
+在删除记录之后会发生“删除后”**** 事件。
 
 > [!NOTE]
-> **删除后**事件仅适用于数据宏。
+> ****“删除后”事件仅适用于数据宏。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用**删除后**事件执行您想要删除记录时，会发生任何操作。 **删除后**的常见用途包括强制实施业务规则，工作流、 更新聚合总数，以及发送通知。
+使用“删除后”**** 事件可以执行您希望在删除记录时发生的任何操作。“删除后”**** 通常用于强制实施业务规则、工作流，更新聚合总计和发送通知。
 
-**删除后**事件发生时，已删除记录中包含的值是仍然可用。 您可能要删除的值用于递增或递减总共、 创建审计线索，或与*WhereCondition*参数中的现有值进行比较。
+当发生 "**删除后**" 事件时, 已删除记录中包含的值仍可用。 您可能需要使用已删除的值来增加或减少总计、创建审核跟踪或与*WhereCondition*参数中的现有值进行比较。
 
-可以使用 **Updated("*Field Name*")** 函数确定某个字段是否已更改。下面的代码示例演示了如何使用 If 语句来确定 PaidInFull 字段是否已更改。
+您可以使用**更新的 ("*Field Name*")** 函数来确定字段是否已更改。 下面的代码示例演示了如何使用 If 语句来确定 PaidInFull 字段是否已更改。
 
 ```vb 
  
@@ -49,13 +49,13 @@ End If
 
 `[Old].[Field Name]`
 
-例如，若要访问已删除记录中 QuantityInStock 字段的值，请使用以下语法。
+例如, 若要访问已删除记录中的 QuantityInStock 字段的值, 请使用以下语法。
 
 `[Old].[QuantityInStock]`
 
-在**删除后**事件结束时，已删除记录中包含的值将被永久删除。
+当“删除后”**** 事件结束时，已删除记录中包含的值将被永久删除。
 
-以下宏命令可中的**删除后**事件。
+可以在 "**删除后**" 事件中使用以下宏命令。
 
 <table>
 <colgroup>
@@ -65,7 +65,7 @@ End If
 <thead>
 <tr class="header">
 <th><p>命令类型</p></th>
-<th><p>命令</p></th>
+<th><p>Command</p></th>
 </tr>
 </thead>
 <tbody>
@@ -153,9 +153,9 @@ End If
 </table>
 
 
-若要创建可捕获**删除后**事件的数据宏，请使用以下步骤。
+若要创建可捕获“删除后”**** 事件的数据宏，请执行以下步骤。
 
-1.  打开要为其捕获**删除后**事件的表格。
+1.  打开要捕获其“删除后”**** 事件的表格。
 
 2.  在 **“表格”** 选项卡上的 **“后期事件”** 组中，单击 **“删除后”**。
 
@@ -163,13 +163,13 @@ End If
 
 ## <a name="example"></a>示例
 
-下面的代码示例使用**删除后**事件执行一些处理时从捐赠表中删除一条记录。 当删除记录时，捐赠量 subracted 窗体 DonationsReceived 表中的 DonationsReceived 字段和 TotalDonatedField 赞助商表中。
+下面的代码示例使用“删除后”**** 事件来在从“捐赠”(Donations) 表中删除记录时执行一些处理。 当记录被删除时, 捐赠量将 subracted 在 DonationsReceived 表中的 DonationsReceived 字段和捐赠人表中的 TotalDonatedField 组成。
 
-**单击此处查看您可以将其粘贴到宏设计器的宏副本。**
+**单击此处查看可粘贴到宏设计器中的宏副本。**
 
 若要在宏设计器查看此示例，请执行以下步骤。
 
-1.  打开要为其捕获**删除后**事件的表格。
+1.  打开要捕获其“删除后”**** 事件的表格。
 
 2.  在 **“表格”** 选项卡上的 **“后期事件”** 组中，单击 **“删除后”**。
 

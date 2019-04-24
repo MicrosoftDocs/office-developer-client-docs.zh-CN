@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 515d28f0d7d99359c36df79cf3b8769d8f71e06d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301279"
 ---
 # <a name="properties-collection-dao"></a>Properties 集合 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Properties** 集合包含对象的特定实例的所有 **[Property](property-object-dao.md)** 对象。
 
@@ -33,18 +33,18 @@ ms.locfileid: "28715513"
 
 若要按照序号或 **Name** 属性设置来引用集合中的内置 **Property** 对象，可以使用下列任何一种语法形式：
 
-- 对象。**属性**(0)
+- 对象.**属性**0
 
-- 对象。**属性**("name")
+- 对象.**属性**("名称")
 
-- 对象。**属性**\!\[名称\]
+- 对象.**属性**\! \[名称\]
 
 对于内置属性，还可以使用以下语法：
 
 - object.name
 
 > [!NOTE]
-> 对于用户定义的属性，您必须使用完整的对象。**属性**("name") 语法。
+> 对于用户定义的属性, 必须使用完整的对象。**属性**("name") 语法。
 
 使用同样的语法格式，还可以引用 **Property** 对象的 **Value** 属性。引用的上下文将确定是引用 **Property** 对象自身，还是引用 **Property** 对象的 **Value** 属性。
 

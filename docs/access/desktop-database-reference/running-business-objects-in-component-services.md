@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23cb90161e5e0728aa652ae5d496216676f781a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309203"
 ---
 # <a name="running-business-objects-in-component-services"></a>在组件服务中运行业务对象
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 业务对象可以是可执行文件 (.exe) 或动态链接库 (.dll)。采用何种配置来运行业务对象取决于该对象是 .dll 还是 .exe 文件：
 
@@ -26,11 +26,11 @@ ms.locfileid: "28719335"
 
 
 > [!NOTE]
-> 中间层上的业务对象是作为组件服务组件 （使用**GetObjectContext**、 **SetComplete**和**异常**） 实施的它们可以使用组件服务 （或 MTS，如果您使用的 Windows NT） 上下文对象添加到跨多个客户端呼叫维护其状态。 此方案可以通过 DCOM 来实施，DCOM 通常在可信客户端与服务器 (Intranet) 之间实现。 
+> 当中间层上的业务对象作为组件服务组件实现时 (使用**GetObjectContext**、 **SetComplete**和**SetAbort**), 它们可以使用组件服务 (如果使用的是 Windows NT) context 对象, 则可以使用 "组件服务" (如果使用的是 MTS)跨多个客户端调用维护其状态。 此方案可以通过 DCOM 来实施，DCOM 通常在可信客户端与服务器 (Intranet) 之间实现。 
 >
 > 此时，客户端上的 [RDS.DataSpace](dataspace-object-rds.md) 对象和 [CreateObject](createobject-method-rds.md) 方法被事务上下文对象和 **CreateInstance** 方法（由 **ITransactionContext** 接口提供）所取代，并由组件服务实现。
 
 
 ## <a name="see-also"></a>另请参阅
 
-- [组件服务 (SQL Server) 中运行业务对象](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [在组件服务中运行业务对象 (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)

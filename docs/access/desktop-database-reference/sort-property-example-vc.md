@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e23cf573d51e52c74f4bbf24801f4bd6f47ea22a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306921"
 ---
 # <a name="sort-property-example-vc"></a>Sort 属性示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-此示例使用[Recordset](recordset-object-ado.md)对象的[Sort](sort-property-ado.md)属性重新排列**Recordset**派生自**Pubs**数据库的***Authors***表的行。 由辅助实用程序例程打印每行。
+本示例使用[Recordset](recordset-object-ado.md)对象的[Sort](sort-property-ado.md)属性对从**Pubs**数据库的***Authors***表中派生的**Recordset**的行进行重新排序。 由辅助实用程序例程打印每行。
 
 ```cpp 
  

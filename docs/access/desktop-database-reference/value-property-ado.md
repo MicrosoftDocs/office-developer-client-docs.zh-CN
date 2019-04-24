@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 00b82706d934356621ac1e41fffca61ec88e081f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305892"
 ---
 # <a name="value-property-ado"></a>Value 属性 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示赋给 [Field](field-object-ado.md)、[Parameter](parameter-object-ado.md) 或 [Property](property-object-ado.md) 对象的值。
 
 ## <a name="settings-and-return-values"></a>设置和返回值
 
-设置或返回一个指示对象的值的 **Variant** 值。默认值取决于 [Type](type-property-ado.md) 属性。
+设置或返回一个指示对象的值的 **Variant** 值。 默认值取决于 [Type](type-property-ado.md) 属性。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用 **Value** 属性可以设置或返回来自 **Field** 对象的数据，设置或返回 **Parameter** 对象的参数值，或者设置或返回 **Property** 对象的属性设置。 **Value** 属性为可读/写还是只读属性取决于许多因素，有关详细信息，请参阅各个对象主题。
+使用 **Value** 属性可以设置或返回来自 **Field** 对象的数据，设置或返回 **Parameter** 对象的参数值，或者设置或返回 **Property** 对象的属性设置。**Value** 属性为可读/写还是只读属性取决于许多因素，有关详细信息，请参阅各个对象主题。
 
 ADO 允许设置和返回 **Value** 属性的长二进制数据。
 

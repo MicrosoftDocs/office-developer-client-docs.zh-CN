@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 91c279c695b72c1b60c5ae05a6f046ef116da551
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301433"
 ---
 # <a name="prepared-property-example-vj"></a>Prepared 属性示例 (VJ++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 本示例演示 [Prepared](prepared-property-ado.md) 属性，将打开两个 [Command](command-object-ado.md) 对象  一个要进行准备，一个不进行准备。
 

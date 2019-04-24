@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4f8e0fc98d7868eb5462bd7d8714e1a8eda1cfcf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296379"
 ---
 # <a name="childcount-property-ado-md"></a>ChildCount 属性 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示在层次结构中将当前 [Member](member-object-ado-md.md) 对象作为父级的成员的数量。
 
@@ -25,7 +25,7 @@ ms.locfileid: "28720749"
 
 返回一个 **Long** 整数值，并且该值为只读。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用 **ChildCount** 属性可返回某个 **Member** 大致拥有的子级的数量。通过 **Children** 属性可返回 [Member](children-property-ado-md.md) 的实际子级。
 

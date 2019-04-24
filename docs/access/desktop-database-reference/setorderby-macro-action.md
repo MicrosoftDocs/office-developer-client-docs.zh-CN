@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 86834cd8b6132e8939067c0e34037ca1b0ef8bad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314607"
 ---
 # <a name="setorderby-macro-action"></a>SetOrderBy 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 您可以使用 **SetOrderBy** 操作指定希望如何筛选窗体、报表、表或查询结果中的记录。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetOrderBy** 操作具有下列参数。
 
@@ -46,14 +46,14 @@ ms.locfileid: "28704418"
 <td><p>一个字符串表达式，包含作为记录排序依据的一个或多个字段的名称或可选的 ASC 或 DESC 关键字。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>控件名称</strong></p></td>
+<td><p><strong>Control Name</strong></p></td>
 <td><p>如果提供该参数并且活动对象是窗体或报表，则为与将要排序的子窗体或子报表对应的控件的名称。如果为空并且活动对象是窗体或报表，则对父窗体或报表进行排序。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 在运行该宏操作时，将对处于活动状态且具有焦点的表、窗体、报表或数据表（如查询结果）进行排序。
 

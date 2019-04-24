@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 399836158084f07b30b06a9fb099da74527d0cb0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308650"
 ---
 # <a name="shape-commands-in-general"></a>Shape 命令概述
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 数据定形用于定义已构形 **Recordset** 的列、列所表示的实体之间的关系以及用数据填充 **Recordset** 的方式。
 
@@ -39,7 +39,7 @@ ms.locfileid: "28721862"
 <td><p>由查询命令返回给数据提供程序、表或以前定形的 <strong>Recordset</strong> 的 <strong>Recordset</strong> 中的字段。</p></td>
 </tr>
 <tr class="even">
-<td><p>章节</p></td>
+<td><p>第二章</p></td>
 <td><p>对另一个称为<em>章节</em>的 <strong>Recordset</strong> 的引用。章节列使您可以定义<em>父子</em>关系，其中<em>父</em>是包含章节列的 <strong>Recordset</strong>，而<em>子</em>是章节所表示的 <strong>Recordset</strong>。</p></td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ ms.locfileid: "28721862"
 <td><p>列的值是通过对 <strong>Recordset</strong> 的同一行中的列计算 Visual Basic for Applications 表达式而产生的。表达式是 CALC 函数的参数。（请参阅以下主题中的“计算表达式”：<a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">聚合函数、CALC 函数和 NEW 关键字</a>以及 <a href="visual-basic-for-applications-functions.md">Visual Basic for Applications 函数</a>）。</p></td>
 </tr>
 <tr class="odd">
-<td><p>新建</p></td>
+<td><p>新增功能</p></td>
 <td><p>构造的空字段，可以随后用数据填充这些字段。列用是用 NEW 关键字进行定义的。（请参阅以下主题中的“NEW 关键字”：<a href="aggregate-functions-the-calc-function-and-the-new-keyword.md">聚合函数、CALC 函数和 NEW 关键字</a>）。</p></td>
 </tr>
 </tbody>
@@ -62,9 +62,9 @@ shape 命令可能包含子句，用于指定针对基础数据提供程序的�
 
 可以使用 SQL JOIN 子句来使两个表相关；但是，分层 **Recordset** 可能会更有效地表示信息。由 JOIN 创建的 **Recordset** 的每个行会冗余地重复一个表中的信息。对于每个多子 **Recordset** 对象，分层 **Recordset** 只有一个父 **Recordset** 。
 
-Shape 命令可以由 **Recordset** 对象发出，或通过设置 [Command](commandtext-property-ado.md) 对象的 [CommandText](command-object-ado.md) 属性，然后调用 [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 方法来发出。
+Shape 命令可以由 **Recordset** 对象发出，或通过设置 [Command](command-object-ado.md) 对象的 [CommandText](commandtext-property-ado.md) 属性，然后调用 [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) 方法来发出。
 
-Shape 命令可以嵌套。 即*父命令*或*子命令*本身可能是另一个 shape 命令。
+Shape 命令可以嵌套。就是说，*parent-command* 或 *child-command* 本身可能是另一个 Shape 命令。
 
 即使用户指定了 **adUseServer** 的游标位置，构形提供程序也会始终返回客户端游标。
 

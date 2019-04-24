@@ -1,5 +1,5 @@
 ---
-title: Recordset2.LockEdits 属性 (DAO)
+title: LockEdits 属性 (DAO) Recordset2
 TOCTitle: LockEdits Property
 ms:assetid: 77055f44-f8e9-ac64-ecc3-144ddb4a4558
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ff2db22dcb0119792eb57a971d3cf36e763d3049
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309644"
 ---
-# <a name="recordset2lockedits-property-dao"></a>Recordset2.LockEdits 属性 (DAO)
+# <a name="recordset2lockedits-property-dao"></a>LockEdits 属性 (DAO) Recordset2
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回一个值，该值指示编辑时生效的锁定的类型。
 
@@ -24,7 +24,7 @@ ms.locfileid: "28701121"
 
 *表达式*。LockEdits
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -48,7 +48,7 @@ ms.locfileid: "28701121"
 </tr>
 <tr class="even">
 <td><p>False</p></td>
-<td><p>对编辑有效时开放式锁定。 包含记录的页面未锁定之前执行 Update 方法。</p></td>
+<td><p>乐观锁定生效以便进行编辑。 在执行 Update 方法之前, 不会锁定包含该记录的页面。</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,12 +58,12 @@ ms.locfileid: "28701121"
 
 如果锁定了某页，其他用户不能编辑同一页上的记录。如果您将 **LockEdits** 设置为 **True**，而另一个用户已经锁定了该页，则当您使用 **Edit** 方法时会发生错误。其他用户可以从锁定的页中读取数据。
 
-如果将 **LockEdits** 属性设置为 **False**，此后又使用 **Update** 方法，而此时另一个用户已经锁定了该页，则会发生错误。若要查看另一个用户对您的记录的更改，请使用将 0 作为参数的 **[Move](recordset2-move-method-dao.md)** 方法；但是如果这样做，您将丢失所做的更改。
+如果将 **LockEdits** 属性设置为 **False**，此后又使用 **Update** 方法，而此时另一个用户已经锁定了该页，则会发生错误。若要查看另一个用户对您的记录的更改，请使用包含 0 的 **[Move](recordset2-move-method-dao.md)** 方法作为参数；但是如果这样做，您将丢失所做的更改。
 
-当使用 Microsoft Access 数据库引擎连接的 ODBC 数据源时， **LockEdits** 属性始终设置为 **False** 或乐观锁定。Microsoft Access 数据库引擎对外部数据库服务器中使用的锁定机制没有控制权限。
+当使用 Microsoft Access 数据库引擎连接的 ODBC 数据源时， **LockEdits** 属性始终设置为 **False** 或乐观锁定。Microsoft Access 数据库引擎不对外部数据库服务器中使用的锁定机制进行控制。
 
 > [!NOTE]
-> 首先通过设置**[OpenRecordset](connection-openrecordset-method-dao.md)** 方法的 lockedits 参数打开**Recordset**时，您可以预设**LockEdits**的值。 将 lockedits 参数设置为**dbPessimistic**会将**LockEdits**属性设置为**True**，并设置为任何其他值的 lockedits 会将**LockEdits**属性设置为**False**。
+> 可以通过设置 **[OpenRecordset](connection-openrecordset-method-dao.md)** 方法的 lockedits 参数，在第一次打开 **Recordset** 时重置 **LockEdits** 的值。 将 lockedits 参数设置为 **dbPessimistic** 会将 **LockEdits** 属性设置为 **True**，将 lockedits 设置为任何其他值会将 **LockEdits** 属性设置为 **False**。
 
 ## <a name="example"></a>示例
 

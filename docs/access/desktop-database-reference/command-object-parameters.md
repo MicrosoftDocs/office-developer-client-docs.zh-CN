@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4be654479ec4e447a77b6c03f8bb1b7ac3616544
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296155"
 ---
 # <a name="command-object-parameters"></a>Command 对象参数
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下示例显示了 **Command** 对象的一个更有趣的用法，其中 SQL 命令的文本已经修改为使其可以参数化。这样就可以重复使用命令，每次传递参数的不同值。由于 **Command** 对象的 **Prepared** 属性设置为 **True** ，ADO 将要求提供程序在首次执行 **CommandText** 中指定的命令前编译该命令。它还会将编译后的命令保留在内存中。由于准备工作需要开销，这会略微减慢命令首次执行速度，但以后每次调用该命令时会有一个性能增益。因此，只有在多次使用命令时才应准备命令。
 

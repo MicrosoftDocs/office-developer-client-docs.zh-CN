@@ -1,5 +1,5 @@
 ---
-title: Cellset 对象 (ADO MD)
+title: 单元格集对象 (ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 28d4b3b9-f907-9ec0-00e1-9666c887cdf0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249047(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c8cb75ad7277386cfe81b2edcffa234498318444
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296512"
 ---
-# <a name="cellset-object-ado-md"></a>Cellset 对象 (ADO MD)
+# <a name="cellset-object-ado-md"></a>单元格集对象 (ADO MD)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-代表多维查询的结果。它是从多维数据集或其他单元格集中选择的单元格的集合。
+代表多维查询的结果。 它是从多维数据集或其他单元格集中选择的单元格的集合。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Cellset** 中的数据是使用直接、类似数组的访问方式检索的。您可以"向下钻取"到特定成员以获取有关该成员的信息。例如，以下代码返回名为 cst 的单元格集的第一个轴上第一个位置中第一个成员的标题：
 

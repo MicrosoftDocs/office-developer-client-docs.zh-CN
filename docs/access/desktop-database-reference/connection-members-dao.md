@@ -1,5 +1,5 @@
 ---
-title: 连接成员 (DAO)
+title: Connection 成员 (DAO)
 TOCTitle: Connection Members
 ms:assetid: 94fc60ee-b6f2-cf08-b008-ed51bf7e7f8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295903"
 ---
-# <a name="connection-members-dao"></a>连接成员 (DAO)
+# <a name="connection-members-dao"></a>Connection 成员 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 > [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。 Connection 对象代表与 ODBC 数据库的连接（仅适用于 ODBCDirect 工作区）。
+> Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。 Connection 对象代表与 ODBC 数据库的连接（仅适用于 ODBCDirect 工作区）。
  
 ## <a name="methods"></a>方法
 
@@ -74,11 +74,11 @@ ms.locfileid: "28703900"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connection-connect-property-dao.md">连接</a></strong></p></td>
-<td><p>设置或返回一个值，该值提供与已打开连接的源有关的信息。可读/写 <strong>String</strong> 类型。</p></td>
+<td><p><strong><a href="connection-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p>设置或返回一个值，该值提供与已打开连接的源有关的信息。 可读/写 <strong>String</strong> 类型。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-database-property-dao.md">数据库</a></strong></p></td>
+<td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
 <td><p>返回对应于此连接的 <strong><a href="database-object-dao.md">Database</a></strong> 对象（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
@@ -87,7 +87,7 @@ ms.locfileid: "28703900"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
-<td><p>返回一个 <strong>QueryDefs</strong> 集合，该集合包含指定连接的所有 <strong>QueryDef</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>QueryDefs</strong> 集合，该集合包含指定连接的所有 <strong>QueryDef</strong> 对象。 只读。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-querytimeout-property-dao.md">QueryTimeout</a></strong></p></td>
@@ -99,15 +99,15 @@ ms.locfileid: "28703900"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-recordsets-property-dao.md">Recordsets</a></strong></p></td>
-<td><p>返回一个 <strong>Recordsets</strong> 集合，该集合包含指定连接的所有已打开的记录集。只读。</p></td>
+<td><p>返回一个 <strong>Recordsets</strong> 集合，该集合包含指定连接的所有已打开的记录集。 只读。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
 <td><p>指示异步操作（即用 <strong>dbRunAsync</strong> 选项调用的方法）是否已执行完毕（仅适用于 ODBCDirect 工作区）。</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="connection-transactions-property-dao.md">事务</a></strong></p></td>
-<td><p>返回一个值，该值指示对象是否支持事务。只读 <strong>Boolean</strong> 类型。</p></td>
+<td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>
+<td><p>返回一个值，该值指示对象是否支持事务。 只读 <strong>Boolean</strong> 类型。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></p></td>

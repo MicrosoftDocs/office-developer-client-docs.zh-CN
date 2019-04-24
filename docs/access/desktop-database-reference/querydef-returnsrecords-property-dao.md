@@ -1,5 +1,5 @@
 ---
-title: QueryDef.ReturnsRecords 属性 (DAO)
+title: ReturnsRecords 属性 (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7d2202aa506750cd0a0d2a84eea5c507c3bb1147
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303337"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>QueryDef.ReturnsRecords 属性 (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>ReturnsRecords 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回一个值，该值指示针对外部数据库的 SQL 传递查询是否返回记录（仅适用于 Microsoft Access 工作区）。
 
@@ -35,7 +35,7 @@ ms.locfileid: "28704936"
 并非所有针对外部数据库的 SQL 传递查询都返回记录。例如，SQL UPDATE 语句更新记录但不返回记录，而 SQL SELECT 语句则返回记录。如果查询返回记录，则将 **ReturnsRecords** 属性设置为 **True**；如果查询不返回记录，则 **ReturnsRecords** 属性设置为 **False**。
 
 > [!NOTE]
-> [!注释] 在设置 [ReturnsRecords](querydef-connect-property-dao.md) 属性之前，必须先设置 ****Connect**** 属性。
+> 在设置**ReturnsRecords**属性之前, 必须设置**[Connect](querydef-connect-property-dao.md)** 属性。
 
 ## <a name="example"></a>示例
 

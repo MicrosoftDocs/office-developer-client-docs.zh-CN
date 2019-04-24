@@ -1,5 +1,5 @@
 ---
-title: Workspace.BeginTrans 方法 (DAO)
+title: BeginTrans 方法 (DAO)
 TOCTitle: BeginTrans Method
 ms:assetid: aa7c3bf8-fb08-9360-5998-4bf3f721ecbb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821457(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c143d91c3dfe786c3245c2b67768c57379869e75
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302546"
 ---
-# <a name="workspacebegintrans-method-dao"></a>Workspace.BeginTrans 方法 (DAO)
+# <a name="workspacebegintrans-method-dao"></a>BeginTrans 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-开始新的事务。可读写 **Database**。
+开始新的事务。 可读写 **Database**。
 
 ## <a name="syntax"></a>语法
 
@@ -58,9 +58,9 @@ Microsoft Access 工作区中使用的某些 ISAM 数据库可能不支持事务
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用数据访问对象 (DAO) 工作区中的事务处理。
+下面的示例演示如何在数据访问对象 (DAO) 工作区中使用事务。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     Public Sub TransferFunds()

@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c978a6a227266fa43c1102fc109be2b81262de8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296120"
 ---
 # <a name="commandtype-property-ado"></a>CommandType 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示 [Command](command-object-ado.md) 对象的类型。
 
@@ -33,7 +33,7 @@ ms.locfileid: "28717144"
 > [!注释] 不要将 **adCmdFile** 或 **adCmdTableDirect** 的 **CommandTypeEnum** 值与 **CommandType** 一起使用。这些值仅可作为 [Recordset](open-method-ado-recordset.md) 的 [Open](requery-method-ado.md) 和 [Requery](recordset-object-ado.md) 方法的选项使用。
 
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **CommandType** 属性可以优化 [CommandText](commandtext-property-ado.md) 属性的求值过程。
 

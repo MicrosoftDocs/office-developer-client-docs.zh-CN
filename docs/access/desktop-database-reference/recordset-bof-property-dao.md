@@ -1,5 +1,5 @@
 ---
-title: Recordset.BOF 属性 (DAO)
+title: Recordset 属性 (DAO)
 TOCTitle: BOF Property
 ms:assetid: c50a0c5f-1b26-33ea-4cf2-311f9514a94a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: babd2351775a9a3cf3128a55627be291a29ea025
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300586"
 ---
-# <a name="recordsetbof-property-dao"></a>Recordset.BOF 属性 (DAO)
+# <a name="recordsetbof-property-dao"></a>Recordset 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回一个值，该值指示当前记录的位置是否在 **Recordset** 对象中的第一条记录之前。只读 **Boolean** 类型。
+返回一个值，该值指示当前记录的位置是否在 **Recordset** 对象中的第一条记录之前。 只读 **Boolean** 类型。
 
 ## <a name="syntax"></a>语法
 
 *表达式*。BOF
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式*一个代表**Recordset**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -35,7 +35,7 @@ ms.locfileid: "28699672"
 
 如果 **BOF** 或 **EOF** 属性为 **True**，则没有当前记录。
 
-如果打开的 **Recordset** 对象不包含记录，则 **BOF** 和 **EOF** 属性设置为 **True**，且 **Recordset** 对象的 **RecordCount** 属性设置为 0。当打开的 **Recordset** 对象至少包含一条记录时，则第一条记录即是当前记录， **BOF** 和 **EOF** 属性都为 **False**；它们一直保持 **False**，直到您分别使用 **MovePrevious** 或 **MoveNext** 方法移动到 **Recordset** 对象的开头或末尾之外的位置为止。如果您移动到 **Recordset** 的开头或末尾之外，则没有当前记录或不存在记录。
+如果打开的 **Recordset** 对象不包含记录，则 **BOF** 和 **EOF** 属性设置为 **True**，且 **Recordset** 对象的 **RecordCount** 属性设置为 0。当打开的 **Recordset** 对象至少包含一条记录时，则第一条记录即是当前记录， **BOF** 和 **EOF** 属性都为 **False**；它们一直保持 **False**，直到您分别使用 **MovePrevious** 或 **MoveNext** 方法移动到 **Recordset** 对象的开头或末尾之外为止。如果您移动到 **Recordset** 的开头或末尾之外，则没有当前记录或不存在记录。
 
 如果删除了 **Recordset** 对象中剩下的最后一条记录，则在尝试重新定位当前记录之前， **BOF** 和 **EOF** 属性都会保持为 **False**。
 
@@ -58,46 +58,46 @@ ms.locfileid: "28699672"
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst，<br />
+<th><p>MoveFirst<br />
 MoveLast</p></th>
-<th><p>MovePrevious、<br />
-移动&lt;0</p></th>
+<th><p>MovePrevious<br />
+移动&lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext、<br />
-移动&gt;0</p></th>
+<th><p>MoveNext<br />
+移动&gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = true，则</strong><br />
+<td><p><strong>BOF = True,</strong><br />
 <strong>EOF = False</strong></p></td>
 <td><p>允许</p></td>
-<td><p>错误</p></td>
-<td><p>错误</p></td>
-<td><p>允许</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
+<td><p>Allowed</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False，</strong><br />
+<td><p><strong>BOF = False,</strong><br />
 <strong>EOF = True</strong></p></td>
+<td><p>Allowed</p></td>
 <td><p>允许</p></td>
-<td><p>允许</p></td>
-<td><p>错误</p></td>
-<td><p>错误</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 </tr>
 <tr class="odd">
 <td><p>均为 <strong>True</strong></p></td>
 <td><p>错误</p></td>
-<td><p>错误</p></td>
-<td><p>错误</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>错误</p></td>
 </tr>
 <tr class="even">
 <td><p>均为 <strong>False</strong></p></td>
 <td><p>允许</p></td>
-<td><p>允许</p></td>
-<td><p>允许</p></td>
-<td><p>允许</p></td>
+<td><p>Allowed</p></td>
+<td><p>Allowed</p></td>
+<td><p>Allowed</p></td>
 </tr>
 </tbody>
 </table>
@@ -130,7 +130,7 @@ Move 0</p></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong> <strong>MoveLast</strong></p></td>
+<td><p><strong>MoveFirst</strong>、 <strong>MoveLast</strong></p></td>
 <td><p><strong>True</strong></p></td>
 <td><p><strong>True</strong></p></td>
 </tr>
@@ -140,12 +140,12 @@ Move 0</p></th>
 <td><p>没有变化</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>、<strong>移动</strong> &lt; 0</p></td>
+<td><p><strong>MovePrevious</strong>,<strong>移动</strong> &lt; 0</p></td>
 <td><p><strong>True</strong></p></td>
 <td><p>没有变化</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>、<strong>移动</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>,<strong>移动</strong> &gt; 0</p></td>
 <td><p>没有变化</p></td>
 <td><p><strong>True</strong></p></td>
 </tr>

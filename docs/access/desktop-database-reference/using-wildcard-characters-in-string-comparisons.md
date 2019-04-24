@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e6a013865b9615701b1d99678fc2392e0a896c54
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305934"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>在字符串比较中使用通配符
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 内置的模式匹配方法提供了一个用于字符串比较的通用工具。下表中展示了可以用于 **Like** 运算符的通配符，以及与它们匹配的数字和字符串。
 
@@ -27,7 +27,7 @@ ms.locfileid: "28716899"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Pattern<em>中</em>的字符</p></th>
+<th><p><em>pattern</em> 中的字符</p></th>
 <th><p><em>expression</em> 中的匹配项</p></th>
 </tr>
 </thead>
@@ -37,7 +37,7 @@ ms.locfileid: "28716899"
 <td><p>任意单个字符</p></td>
 </tr>
 <tr class="even">
-<td><p>*或 %</p></td>
+<td><p>*和</p></td>
 <td><p>零个或多个字符</p></td>
 </tr>
 <tr class="odd">
@@ -46,29 +46,29 @@ ms.locfileid: "28716899"
 </tr>
 <tr class="even">
 <td><p>[<em>charlist</em>]</p></td>
-<td><p><em>charlist</em> 中的任何单个字符</p></td>
+<td><p>在 <em>charlist</em> 中的任何单个字符。</p></td>
 </tr>
 <tr class="odd">
 <td><p>[!<em>charlist</em>]</p></td>
-<td><p>不在 <em>charlist</em> 中的任何单个字符</p></td>
+<td><p>不在 <em>charlist</em> 中的任何单个字符。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-您可以使用一组一个或多个字符 (*charlist*) 括在方括号 (\[ \]) 以匹配*表达式*和*charlist*中的任意单个字符可以包括几乎任何中字符的 ANSI 字符集字符设置，包括数字。 您可以使用特殊字符打开括号 (\[ )、 问号 (?)、 数字记号 (\#)，和星号 (\*) 自身进行匹配直接才括在方括号内。 不能使用右括号 ( \]) 在某个组将匹配本身，但您可以使用它在组外作为单个字符。
+可以使用括在方括号 (\[ \]) 中的一个或多个字符 (*charlist*) 组成的组, 以匹配表达式中的任何单个字符 *,* 并且*charlist*可以包含 ANSI 字符集中的几乎所有字符, 包括进制. 您可以使用左括号 (\[ )、问号 (?)、数字符号 (\#) 和星号 (\*) 等特殊字符仅当括在方括号中时才直接与自身匹配。 不能在组中使用右\]括号 () 来匹配自身, 但可以将其作为单个字符用于组之外。
 
-括在方括号中的字符的简单列表，除了*charlist*可以通过使用连字符 （-） 分隔上限和下限范围的指定范围的字符。 例如，使用\[A-Z\] *模式*如果*表达式*中的相应字符位置包含任何范围 A 到 Z 中大写字母匹配的结果中。没有分隔的范围可以包含在方括号中的多个区域。 例如， \[a-zA-Z0-9\]匹配任何字母数字字符。
+除了括在方括号中的简单字符列表之外, *charlist*可以通过使用连字符 (-) 分隔范围的上限和下限来指定字符的范围。 例如, 如果*表达式*中的对应\]字符位置包含从 A 到 Z 范围内的任何大写字母, 则在*模式*中使用\[a-z 将导致匹配。可以在括号中包含多个区域, 而无需界定区域。 例如, \[Z0-9\]匹配任何字母数字字符。
 
-请注意，务必 ANSI SQL 通配符 （%） 和 (\_) 才可用与 Microsoft jet 4.X 和 Microsoft OLE DB Provider for Jet。 如果用于 Microsoft Access 或 DAO，则被视为文本。
+需要注意的重要一点是, ANSI SQL 通配符 (%)和 (\_) 仅适用于 microsoft jet 版本 4. X 和 microsoft OLE DB Provider for Jet。 如果用于 Microsoft Access 或 DAO，则被视为文本。
 
 用于模式匹配的其他重要规则如下所示：
 
-- 感叹号 (\!) *charlist*意味着除了*charlist 外*的那些*表达式*中发现的任何字符进行匹配的开头。 感叹号用在方括号外面时，将与自身匹配。
+- *charlist*开头的感叹号\!() 表示在*expression*中发现除*charlist*中的字符之外的任何字符时进行匹配。 感叹号用在方括号外面时，将与自身匹配。
 
-- 您可以使用连字符 （-） 开头 （感叹号之后如果使用了） 或末尾的*字符列表*匹配本身。 如果用于任何其他位置，则标识 ANSI 字符的范围。
+- 可以将连字符 (-) 用于 *charlist* 的开头（如果用了感叹号，则放在感叹号之后）或末尾以便与其自身匹配。如果用于任何其他位置，则标识 ANSI 字符的范围。
 
-- 指定一系列字符时，这些字符必须以升序排序次序显示（A-Z 或 0-100）。 \[A 到 Z\]是有效的模式，但\[Z 到 A\]不是。
+- 指定一系列字符时，这些字符必须以升序排序次序显示（A-Z 或 0-100）。 \[a-z\]是有效的模式, 但\[Z-a\]不是。
 
-- 字符序列\[\]将被忽略;它被视为一个零长度字符串 ("")。
+- 忽略该字符\[ \]序列;它被视为零长度字符串 ("")。
 

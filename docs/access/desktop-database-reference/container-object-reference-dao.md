@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dc19f2a273c0a0ef5fd22f41516e0e3214d4eb33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295623"
 ---
 # <a name="container-object-reference-dao"></a>容器对象引用 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Container 对象 (DAO)](container-object-dao.md)
+- [容器对象 (DAO)](container-object-dao.md)
 - [容器成员 (DAO)](container-members-dao.md)
 - [容器属性 (DAO)](container-properties-dao.md)
 

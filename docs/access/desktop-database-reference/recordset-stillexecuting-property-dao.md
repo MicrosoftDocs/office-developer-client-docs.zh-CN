@@ -1,5 +1,5 @@
 ---
-title: Recordset.StillExecuting 属性 (DAO)
+title: StillExecuting 属性 (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0e53c98f-17ac-3569-d780-540a6932013e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845245(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1195a45c3846cf79a45c16cda8e23bc95ef8156d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307565"
 ---
-# <a name="recordsetstillexecuting-property-dao"></a>Recordset.StillExecuting 属性 (DAO)
+# <a name="recordsetstillexecuting-property-dao"></a>StillExecuting 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="syntax"></a>语法
 
 *表达式*。StillExecuting
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式*一个代表**Recordset**对象的变量。
 
 ## <a name="remarks"></a>注解
 

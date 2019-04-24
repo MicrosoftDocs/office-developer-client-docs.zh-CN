@@ -1,5 +1,5 @@
 ---
-title: RecordStatusEnum （访问桌面数据库参考 （英文）
+title: RecordStatusEnum (Access desktop database reference)
 TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a83de7730224c5ecd5080c795d38cf2e9a3305a9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309378"
 ---
 # <a name="recordstatusenum"></a>RecordStatusEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定记录的批更新和其他批量操作的状态。
 
@@ -53,7 +53,7 @@ ms.locfileid: "28722709"
 </tr>
 <tr class="even">
 <td><p><strong>adRecDBDeleted</strong></p></td>
-<td><p>而 0x40000 可</p></td>
+<td><p>0x40000</p></td>
 <td><p>指示已经从数据源删除记录。</p></td>
 </tr>
 <tr class="odd">
@@ -130,11 +130,11 @@ ms.locfileid: "28722709"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-AdoEnums.RecordStatus。
+AdoEnums. RecordStatus。
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -147,58 +147,58 @@ AdoEnums.RecordStatus。
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.CANCELED</p></td>
+<td><p>AdoEnums。已取消 RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.CANTRELEASE</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.CONCURRENCYVIOLATION</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.DBDELETED</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.DELETED</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.INTEGRITYVIOLATION</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.INVALID</p></td>
+<td><p>AdoEnums RecordStatus 无效</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.MODIFIED</p></td>
+<td><p>AdoEnums 修改的 RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.MULTIPLECHANGES</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.NEW</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.OBJECTOPEN</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.OK</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.OUTOFMEMORY</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.PENDINGCHANGES</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.PERMISSIONDENIED</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.RecordStatus.SCHEMAVIOLATION</p></td>
+<td><p>AdoEnums RecordStatus</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.UNMODIFIED</p></td>
+<td><p>AdoEnums 不修改的 RecordStatus</p></td>
 </tr>
 </tbody>
 </table>

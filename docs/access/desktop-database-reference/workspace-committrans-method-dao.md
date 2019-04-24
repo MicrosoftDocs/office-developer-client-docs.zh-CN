@@ -1,5 +1,5 @@
 ---
-title: Workspace.CommitTrans 方法 (DAO)
+title: CommitTrans 方法 (DAO)
 TOCTitle: CommitTrans Method
 ms:assetid: e6d129fb-a578-5c79-9c16-6444519f0daf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835985(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 52af229f03b7ea10510f3e580ba2c4e12784e461
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306032"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Workspace.CommitTrans 方法 (DAO)
+# <a name="workspacecommittrans-method-dao"></a>CommitTrans 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 结束当前的事务并保存更改。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。CommitTrans （***选项***）
+*表达式*。CommitTrans (***选项***)
 
 *表达式*一个代表**Workspace**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28712321"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -48,7 +48,7 @@ ms.locfileid: "28712321"
 <td><p><em>选项</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>在 Microsoft Access 工作区中，可以在 <strong>CommitTrans</strong> 中包括 <strong>dbForceOSFlush</strong> 常量。这将强制数据库引擎立即刷新对磁盘执行所有更新，而不是临时缓存更新。如果不使用此选项，在应用程序调用 <strong>CommitTrans</strong> 后，用户可立即取回控制权，并且可关闭计算机，同时不会向磁盘写入数据。尽管使用此选项会影响应用程序的性能，但是，如果将缓存的更新保存到磁盘之前计算机可能会关闭，则使用此选项将非常有帮助。</p></td>
+<td><p>在 Microsoft Access 工作区中，可以在 <strong>CommitTrans</strong> 中包括 <strong>dbForceOSFlush</strong> 常量。 这将强制数据库引擎立即刷新对磁盘执行所有更新，而不是临时缓存更新。 如果不使用此选项，在应用程序调用 <strong>CommitTrans</strong> 后，用户可立即取回控制权，并且可关闭计算机，同时不会向磁盘写入数据。 尽管使用此选项会影响应用程序的性能，但是，如果将缓存的更新保存到磁盘之前计算机可能会关闭，则使用此选项将非常有帮助。</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,9 +86,9 @@ Microsoft Access 工作区中使用的某些 ISAM 数据库可能不支持事务
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用数据访问对象 (DAO) 工作区中的事务处理。
+下面的示例演示如何在数据访问对象 (DAO) 工作区中使用事务。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 
 ```vb

@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f83ab385b1fab511ab71ea9ff3456fe466efa17c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307586"
 ---
 # <a name="recordset-sourcerecordset-properties-rds"></a>Recordset、SourceRecordset 属性 (RDS)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示从自定义业务对象返回的 **Recordset** 对象。
 
 ## <a name="syntax"></a>语法
 
-*DataControl*。SourceRecordset = *Recordset*
+*rds.datacontrol*。SourceRecordset = *Recordset*
 
-*Recordset* = *DataControl*。记录集
+*Recordset* = *rds.datacontrol*。集
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*DataControl* |一个代表 [RDS.DataControl](datacontrol-object-rds.md) 对象的对象变量。|
 |*Recordset* |一个代表 **Recordset** 对象的对象变量。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 可以将 **SourceRecordset** 属性设置为从自定义业务对象返回的 [Recordset](recordset-object-ado.md)。
 

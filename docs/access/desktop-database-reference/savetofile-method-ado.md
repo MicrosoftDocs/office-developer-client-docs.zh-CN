@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f3b08c9df435c7ce995a40af7b8ad5466b79245d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308923"
 ---
 # <a name="savetofile-method-ado"></a>SaveToFile 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可将 [Stream](stream-object-ado.md) 的二进制内容保存到文件。
 
 ## <a name="syntax"></a>语法
 
-*流*。SaveToFile*文件名* *SaveOptions*
+*Stream*。SaveToFile*FileName*, *SaveOptions*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 |参数|说明|
 |:--------|:----------|
@@ -32,11 +32,11 @@ ms.locfileid: "28706539"
 |*SaveOptions* |[SaveOptionsEnum](saveoptionsenum.md) 值，指定 **SaveToFile** 是否应在文件不存在时创建新文件。默认值为 **adSaveCreateNotExists** 。通过这些选项，可以指定当指定文件不存在时引发错误。还可以指定 **SaveToFile** 覆盖现有文件的当前内容。|
 
 > [!NOTE]
-> [!注释] 如果覆盖现有文件（在设置 **adSaveCreateOverwrite** 时），则 **SaveToFile** 会从覆盖之前的原文件中截去新的 [EOS](eos-property-ado.md) 之后的所有字节。
+> 如果覆盖现有文件（在设置 **adSaveCreateOverwrite** 时），则 **SaveToFile** 会从覆盖之前的原文件中截去新的 [EOS](eos-property-ado.md) 之后的所有字节。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-**SaveToFile** 可以用于将 **Stream** 对象的内容复制到本地文件。 **Stream** 对象的内容或属性都不会发生变化。在调用 **SaveToFile** 之前，必须打开 **Stream** 对象。
+**SaveToFile** 可以用于将 **Stream** 对象的内容复制到本地文件。**Stream** 对象的内容或属性都不会发生变化。在调用 **SaveToFile** 之前，必须打开 **Stream** 对象。
 
 此方法不会更改 **Stream** 对象与其基础源之间的关联性。 **Stream** 对象将仍与打开时作为其来源的原始 URL 或 **Record** 相关联。
 

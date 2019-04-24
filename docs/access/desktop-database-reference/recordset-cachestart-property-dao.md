@@ -1,5 +1,5 @@
 ---
-title: Recordset.CacheStart 属性 (DAO)
+title: CacheStart 属性 (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 03814312-660a-d8e9-8a7b-bc14d66e05ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844802(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 514f109f0eed902287e519bcd7a729397e70eaa5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699982"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300614"
 ---
-# <a name="recordsetcachestart-property-dao"></a>Recordset.CacheStart 属性 (DAO)
+# <a name="recordsetcachestart-property-dao"></a>CacheStart 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回一个值，该值指定动态集类型 Recordset 对象（包含从 ODBC 数据源本地缓存的数据）中的第一条记录的书签（仅适用于 Microsoft Access 工作区）。
 
@@ -29,7 +29,7 @@ ms.locfileid: "28699982"
 
 *表达式*。CacheStart
 
-*表达式*一个表示**Recordset**对象的变量。
+*表达式*一个代表**Recordset**对象的变量。
 
 ## <a name="remarks"></a>注解
 

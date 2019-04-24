@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1ac2613bb0bd60bffb6e547c7372e76e32f4b6ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307077"
 ---
 # <a name="refresh-method-example-vb"></a>Refresh 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-以下示例演示了如何使用 [Refresh](refresh-method-ado.md) 方法刷新存储过程的 [Command](parameters-collection-ado.md) 对象的 [Parameters](command-object-ado.md) 集合。
+以下示例演示了如何使用 [Refresh](refresh-method-ado.md) 方法刷新存储过程的 [Command](command-object-ado.md) 对象的 [Parameters](parameters-collection-ado.md) 集合。
 
 ```vb 
  

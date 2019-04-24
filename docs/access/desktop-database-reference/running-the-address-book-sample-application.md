@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0706f216eed6f40c313bc93541aae9d715efd2f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309062"
 ---
 # <a name="running-the-address-book-sample-application"></a>运行通讯簿示例应用程序
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 若要运行通讯簿应用程序，请按照如下过程操作。
 
 **运行此应用程序**
 
-1.  请确保正在运行 Microsoft SQL Server。 单击**开始**，指向**程序**，指向**Microsoft SQL Server 7.0**，，然后单击**服务管理器**。 如果在白色圆圈绿色箭头，然后运行 SQL Server。 如果不是绿色箭头 （在白色的圆内将有一个红色方形），单击**开始 / 继续**。
+1.  Make sure that Microsoft SQL Server is running. Click **Start**, point to **Programs**, point to **Microsoft SQL Server 7.0**, and then click **Service Manager**. If there is a green arrow in the white circle, then SQL Server is running. If it is not (there will be a red square in the white circle), click **Start/Continue**.
 
-2.  在 Microsoft Internet Explorer 4.0 或更高版本中，键入以下地址： **https://***webserver***/RDS/AddressBook/AddrBook.asp**其中， *webserver*是装有 RDS 服务器组件的 web 服务器的名称。
+2.  在 Microsoft Internet Explorer 4.0 或更高版本中, 键入以下地址: https://web ** 服务器 **/RDS/AddressBook/AddrBook.asp******** , 其中 web 服务器是安装 RDS 服务器组件的 web 服务器的名称。
 
-3.  然后，您可以尝试各种方案中的通讯簿示例应用程序，如搜索某个人根据他/她列出具有标题"项目经理，"所有人的电子邮件名称或编辑现有记录。 单击**查找**用来填充数据网格所有可用的姓名。
+3.  然后, 您可以尝试使用通讯簿示例应用程序中的各种方案, 例如, 基于他/她的电子邮件名称搜索人员, 列出标题为 "项目经理" 的所有人员或编辑现有记录。 单击****“查找”可以用所有可用的姓名填充数据网格。
 

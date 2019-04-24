@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c929bcf5dc7f5267c2e7d3a8dac5ed6bfb55b20b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717263"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302875"
 ---
 # <a name="propertyattributesenum"></a>PropertyAttributesEnum
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定 [Property](property-object-ado.md) 对象的属性。
 
@@ -47,7 +47,7 @@ ms.locfileid: "28717263"
 </tr>
 <tr class="odd">
 <td><p><strong>adPropOptional</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>指示在初始化数据源之前，用户不必为该属性指定值。</p></td>
 </tr>
 <tr class="even">
@@ -64,9 +64,9 @@ ms.locfileid: "28717263"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -79,19 +79,19 @@ ms.locfileid: "28717263"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.NOTSUPPORTED</p></td>
+<td><p>AdoEnums PropertyAttributes</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PropertyAttributes.REQUIRED</p></td>
+<td><p>AdoEnums 的必需 PropertyAttributes</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.OPTIONAL</p></td>
+<td><p>PropertyAttributes。可选 AdoEnums</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PropertyAttributes.READ</p></td>
+<td><p>AdoEnums。请参阅 PropertyAttributes</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.PropertyAttributes.WRITE</p></td>
+<td><p>AdoEnums PropertyAttributes</p></td>
 </tr>
 </tbody>
 </table>

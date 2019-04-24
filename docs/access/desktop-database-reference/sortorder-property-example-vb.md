@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 58bde31a3386e3c129933d02e6464de5bc18fd68
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308622"
 ---
 # <a name="sortorder-property-example-vb"></a>SortOrder 属性示例 (VB)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-本示例演示追加到 [Index](sortorder-property-adox.md) 的 [Columns](column-object-adox.md) 集合中的 [Column](columns-collection-adox.md) 的 [SortOrder](index-object-adox.md) 属性。代码为 **Employees** （雇员）表中的 Country（国家）列追加一个升序索引，然后显示记录。接下来，代码为 **Employees** （雇员）表中的 Country（国家）列追加一个降序索引，并再次显示记录。升序索引和降序索引之间的区别即会显示出来。
+本示例演示追加到 [Index](index-object-adox.md) 的 [Columns](columns-collection-adox.md) 集合中的 [Column](column-object-adox.md) 的 [SortOrder](sortorder-property-adox.md) 属性。代码为 **Employees**（雇员）表中的 Country（国家）列追加一个升序索引，然后显示记录。接下来，代码为 **Employees**（雇员）表中的 Country（国家）列追加一个降序索引，并再次显示记录。升序索引和降序索引之间的区别即会显示出来。
 
 
 ```vb 

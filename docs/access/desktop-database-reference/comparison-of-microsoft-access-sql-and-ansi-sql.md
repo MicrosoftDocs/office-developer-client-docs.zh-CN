@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 195d9f5d882fd252b1b10e937fe851c4830c52d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296050"
 ---
-# <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Microsoft Access SQL 和 ANSI SQL 的比较
+# <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>比较 Microsoft Access SQL 和 ANSI SQL
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-Microsoft Access 数据库引擎 SQL 通常是 ANSI 89 1 级。 但是，某些 ANSI SQL 功能未在 Microsoft Access SQL 中实现。 相反，Microsoft Access SQL 包括保留的字和 ANSI SQL 中不支持的功能。
+Microsoft Access 数据库引擎 SQL 的兼容性通常为 ANSI-89 级别1。 但是, 某些 ANSI SQL 功能未在 Microsoft Access SQL 中实现。 相反, Microsoft Access SQL 包含 ANSI SQL 中不支持的保留字和功能。
 
-## <a name="major-differences"></a>主要区别
+## <a name="major-differences"></a>主要差异
 
 - Microsoft Access SQL 和 ANSI SQL 各自拥有不同的保留字和数据类型。有关详细信息，请参阅 [Microsoft Access 数据库引擎 SQL 保留字](sql-reserved-words.md)和[等价的 ANSI SQL 数据类型](equivalent-ansi-sql-data-types.md)。使用 Microsoft Access 数据库引擎 OLE DB 提供程序时，还提供其他保留字。
 
 - **[Between...And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
     
-  *expr1*\[不\]**之间** *value1* **和** *value2*
+  *表达式 1*\[不\] **介于** *value1* **和** *value2*之间
     
   在 Microsoft Access SQL 中，*value1* 可以大于 *value2*；在 ANSI SQL 中，*value1* 必须小于或等于 *value2*。
 
@@ -64,7 +64,7 @@ Microsoft Access 数据库引擎 SQL 通常是 ANSI 89 1 级。 但是，某些 
 
 - Microsoft Access SQL 支持更加强大的表达式。
 
-## <a name="enhanced-features-of-microsoft-access-sql"></a>Microsoft Access SQL 的增强的功能
+## <a name="enhanced-features-of-microsoft-access-sql"></a>Microsoft Access SQL 的增强功能
 
 Microsoft Access SQL 提供了以下增强功能：
 
@@ -74,11 +74,11 @@ Microsoft Access SQL 提供了以下增强功能：
 
 - [PARAMETERS](parameters-declaration-microsoft-access-sql.md) 声明，用于定义参数查询。
 
-## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>在 Microsoft Access SQL 不支持的 ANSI SQL 功能
+## <a name="ansi-sql-features-not-supported-in-microsoft-access-sql"></a>Microsoft Access SQL 中不支持 ANSI SQL 功能
 
 Microsoft Access SQL 不支持以下 ANSI SQL 功能：
 
 - DISTINCT 聚合函数引用。例如，Microsoft Access SQL 不允许 SUM(DISTINCT *columnname*)。
 
-- 限制为*nn*行子句用于限制的查询所返回的行数。 只能使用 [WHERE 子句](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql)来限制查询的范围。
+- 用于限制查询返回的行数的 LIMIT TO *nn* ROWS 子句。只能使用 [WHERE 子句](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql)来限制查询的范围。
 

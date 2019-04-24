@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68583b1ee211802a3cade63e85f0f62bbf3cb686
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308503"
 ---
 # <a name="status-property-example-field-vb"></a>Status 属性示例 (Field) (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下面的示例使用 [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md) 从可读写的文件夹中打开一个文档。首先将 [Record](status-property-ado-field.md) 的 [Field](field-object-ado.md) 对象的 [Status](record-object-ado.md) 属性设置为 **adFieldPendingInsert** ，然后更新为 **adFieldOk** 。
 

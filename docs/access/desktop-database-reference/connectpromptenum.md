@@ -1,5 +1,5 @@
 ---
-title: ConnectPromptEnum （访问桌面数据库参考 （英文）
+title: ConnectPromptEnum (Access desktop database reference)
 TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54643a66316d7f534553c20ecc3aafdf755fb857
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295665"
 ---
 # <a name="connectpromptenum"></a>ConnectPromptEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 用于指定在打开到数据源的连接时是否应显示对话框，以提示缺少的参数。
 
@@ -43,12 +43,12 @@ ms.locfileid: "28701107"
 </tr>
 <tr class="even">
 <td><p><strong>adPromptComplete</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>当需要更多信息时提示。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPromptCompleteRequired</strong></p></td>
-<td><p>3</p></td>
+<td><p>第三章</p></td>
 <td><p>当需要更多信息但不允许可选参数时提示。</p></td>
 </tr>
 <tr class="even">
@@ -60,9 +60,9 @@ ms.locfileid: "28701107"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -75,16 +75,16 @@ ms.locfileid: "28701107"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ConnectPrompt.ALWAYS</p></td>
+<td><p>AdoEnums ConnectPrompt。始终</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectPrompt.COMPLETE</p></td>
+<td><p>AdoEnums 的完整 ConnectPrompt</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectPrompt.COMPLETEREQUIRED</p></td>
+<td><p>AdoEnums ConnectPrompt</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectPrompt.NEVER</p></td>
+<td><p>AdoEnums ConnectPrompt。从不</p></td>
 </tr>
 </tbody>
 </table>

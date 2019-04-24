@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2536dd76c6080590852cba00eef9adca0e18d2cb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308958"
 ---
 # <a name="save-and-open-methods-example-vj"></a>Save 和 Open 方法示例 (VJ++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下三个示例演示了如何将 [Save](save-method-ado.md) 和 **Open** 方法结合起来使用。
 

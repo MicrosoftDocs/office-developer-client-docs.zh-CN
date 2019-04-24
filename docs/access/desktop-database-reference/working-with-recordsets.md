@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0d4b877b680c80a10067e19065facd4ce9e4819d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705181"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305970"
 ---
 # <a name="working-with-recordsets"></a>使用记录集
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 使用 **Recordset** 对象中的内置功能，可以对结果集内的数据重新排序，可以基于所提供的条件搜索特定记录，甚至还可以使用索引来优化这些搜索操作。这些功能是否可用取决于提供程序，在某些情况下，诸如 [Index](index-property-ado.md) 属性的功能等取决于数据源本身的结构。
 
@@ -54,9 +54,9 @@ ADO 提供了用来在 [Recordset](find-method-ado.md) 中查找特定记录的 
 
 只能为搜索条件指定一个单列名称。换言之，此方法不支持多列搜索。
 
-比较运算符条件可能"**\>**"（大于），"**\<**"（小于），"="（等于），"\>="（大于或等于），"\<="（小于或等于），"\<\>"（不等于），或"LIKE"（模式匹配）。
+条件的比较运算符可以**\>** 是 "" (大于)、**\<**"(小于号)、" = "(等)、"\>= "(大于或等于)、"\<= "(小于或等于)、" = "(小于或等于\<\>)、" "(不等于) 或" LIKE "(模式匹配)。
 
-条件值可以是字符串、浮点数或日期。 用单引号分隔字符串值或"\#"（数字标记） 标记 (例如，"状态 WA ="或"状态 = \#WA\#")。 日期值分隔与"\#"（数字标记） 标记 (例如，"启动\_日期\> \#97-7-22\#")。
+条件值可以是字符串、浮点数或日期。 字符串值用单引号或 "\#" (数字符号) 标记分隔 (例如, "state = ' WA '" 或 "state = \#WA\#")。 日期值使用\#"" (数字符号) 标记 (例如, "开始\_日期\> \#7/22/97\#") 进行分隔。
 
 如果比较运算符是"like"，则字符串值中可以包含星号 (\*)，以查找一次或多次出现的任何字符或子字符串。例如，"state like 'M\*'"与 Maine 和 Massachusetts 相匹配。还可以使用前导和尾随星号来查找包含在值中的子字符串。例如，"state like '\*as\*'"与 Alaska、Arkansas 和 Massachusetts 相匹配。
 
@@ -72,7 +72,7 @@ ADO 提供了用来在 [Recordset](find-method-ado.md) 中查找特定记录的 
 
 只有当 **Recordset** 对象是用 [adCmdTableDirect](commandtypeenum.md) 的 **CommandTypeEnum** 值打开时，才能使用 Seek 方法。
 
-## <a name="filtering-the-results"></a>对结果进行筛选
+## <a name="filtering-the-results"></a>筛选结果
 
 **Find** 方法将搜索限制为一个字段的内容。 **Seek** 方法要求有索引和其他限制。如果您需要搜索不作为索引基础的多个字段，或者您的提供程序不支持索引，则可以使用 **Recordset** 对象的 **Filter** 属性来限制结果。
 
@@ -85,20 +85,20 @@ ADO 提供了用来在 [Recordset](find-method-ado.md) 中查找特定记录的 
 
 若要从 **Recordset** 中删除筛选，请使用 **adFilterNone** 常量。将 **Filter** 属性设置为零长度字符串 ("") 与使用 **adFilterNone** 常量等效。
 
-### <a name="filtering-with-a-criteria-string"></a>用条件字符串筛选
+### <a name="filtering-with-a-criteria-string"></a>使用条件字符串进行筛选
 
-条件字符串由*FieldName 运算符值*形式的子句组成 (例如，"LastName = 'Smith'")。 您可以通过将单个子句与创建复合子句 AND (例如，"LastName = 'Smith' 和 FirstName = John") 和或 （例如，）。 您可以通过将单个子句与创建复合子句 AND (例如，"LastName = 'Smith' 和 FirstName = John") 和或 (例如，"LastName = 'Smith' 或姓氏 = Jones")。 对条件字符串使用以下准则：
+条件字符串由*FieldName 运算符值*形式的子句组成 (例如, "LastName = ' Smith '")。 您可以使用 AND（例如 "LastName = 'Smith' AND FirstName = 'John'"）和 OR 来连接各个子句。 您可以通过使用 AND（例如 "LastName = 'Smith' AND FirstName = 'John'"）和 OR（例如 "LastName = 'Smith' OR LastName = 'Jones'"）来连接各个子句，以创建复合子句。 条件字符串的使用准则如下：
 
-- *FieldName*必须是有效的字段名称从**记录集**。 如果字段名中包含空格，则必须用方括号将字段名括起来。
+- *FieldName* 必须是 **Recordset** 中的有效字段名。如果字段名中包含空格，则必须用方括号将字段名括起来。
 
-- *Operator*必须是以下项之一： \<， \>， \<= \>= \< \>、 = 或 LIKE。
+- *运算符*必须为以下项\<之一:、 \>、 \<=、 \>=、 \< \>、= 或 LIKE。
 
-- *值*是将与其比较的字段值的值 (例如，'Smith'， \#8/24/95\#，12.345 或 $50.00)。 使用字符串单引号 （'） 和井号 (\#) 与日期。 对于数字，可以使用小数点、美元符号和科学记数法。 如果*运算符*是像*值*可以使用通配符。 仅星号 (\*) 和百分号 （%），允许使用通配符，并且它们必须在字符串中的最后一个字符。 *值*不能为 null。
+- *value*是用于比较字段值的值 (例如, "Smith"、 \#8/24/95\#、12.345 或 $50.00)。 对字符串使用单引号 ('), 并对日期使用井\#号 ()。 对于数字，可以使用小数点、美元符号和科学记数法。 如果 *Operator* 是 LIKE，则 *Value* 可以使用通配符。 仅星号 (\*) 和百分比符号 (%)允许使用通配符, 并且它们必须是字符串中的最后一个字符。 *Value* 不能是 null。
     
   > [!NOTE]
-  > 若要在筛选器*值*包括单引号 （'），请使用两个单引号来表示一个。 例如，要进行筛选*O'Malley*，criteria 字符串应为"第 1 列 = 'O' Malley'"。 
+  > 若要在筛选*值*中包含单引号 ('), 请使用两个单引号表示一个。 例如, 若要在*O'Malley*上进行筛选, 则条件字符串应为 "col1 = ' O ' ' Malley '"。 
   > 
-  > 若要包括单引号开头和筛选器值的末尾，将字符串中井号 （#）。 例如， *"1"* 的筛选器，则条件字符串应为"第 1 列 ="1"# #"。
+  > 若要在筛选值的开头和结尾包含单引号, 请将字符串括在井号 (#) 中。 例如, 若要筛选 *"1"*, 条件字符串应为 "col1 = # ' 1 ' #"。
 
 AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分组。但是不能先将由 OR 连接的子句分组然后通过 AND 将该组与其他子句连接，如下所示：
 
@@ -114,11 +114,11 @@ AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分
 (LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John') 
 ```
 
-在 LIKE 子句中，您可以使用的开头和模式的末尾使用通配符 (例如，LastName Like '\*mit\*) 仅在模式的末尾 （例如，） 或仅在模式的结尾 (例如，LastName Like' Smit\*)。
+在 LIKE 子句中, 可以在模式的开头和结尾使用通配符 (例如, "我喜欢 '\*mit\*'"), 也可以在模式的结尾处使用通配符 (例如,), 或者仅在模式的结尾处使用通配符 (例如, lastname 类似于 "Smit\*")。
 
-### <a name="filtering-with-a-constant"></a>筛选与常量
+### <a name="filtering-with-a-constant"></a>使用常量进行筛选
 
-可以使用下列常量来筛选 **Recordset** 。
+可以使用下列常量来筛选 **Recordset**。
 
 <table>
 <colgroup>
@@ -190,9 +190,9 @@ AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分
 'EndDeleteGroup 
 ```
 
-### <a name="filtering-with-bookmarks"></a>用书签筛选
+### <a name="filtering-with-bookmarks"></a>使用书签进行筛选
 
-最后，您可以将书签的 variant 数组传递给**Filter**属性。 生成光标将只包含的记录其书签传递给属性。 下面的代码示例创建从其*ProductName*字段中具有"B" **Recordset**中记录的书签数组。 然后将该数组传递给**筛选器**属性，并显示生成的已筛选**记录集**的信息。
+最后，可以将变量型书签数组传递给 **Filter** 属性。所得到的游标将只包含将书签传递给该属性的记录。以下代码示例从 **Recordset** 中 *ProductName* 字段中具有“B”的记录创建一个书签数组，然后将该数组传递给 **Filter** 属性，并显示有关所得到的筛选 **Recordset** 的信息。
 
 ```vb 
  
@@ -225,7 +225,7 @@ AND 和 OR 之间并没有优先级的区别。可以使用圆括号将子句分
     'EndFilterBkmk 
 ```
 
-## <a name="creating-a-clone-of-a-recordset"></a>创建记录集克隆
+## <a name="creating-a-clone-of-a-recordset"></a>创建 Recordset 的复本
 
 可以使用 **Clone** 方法创建多个重复的 **Recordset** 对象，尤其是要在给定记录集中保留多个当前记录时。使用 **Clone** 方法比采用与原始对象相同的定义创建和打开一个新的 **Recordset** 对象效率更高。
 

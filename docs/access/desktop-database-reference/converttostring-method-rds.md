@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2c589339eb838f944ce4443c19a787eafb01c3dd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295511"
 ---
 # <a name="converttostring-method-rds"></a>ConvertToString 方法 (RDS)
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 将 [Recordset](recordset-object-ado.md) 转换为代表记录集数据的 MIME 字符串。
 
@@ -24,14 +24,14 @@ ms.locfileid: "28717725"
 
 *DataFactory*。ConvertToString (*Recordset*)
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*DataFactory* |一个代表 [RDSServer.DataFactory](datafactory-object-rdsserver.md) 对象的对象变量。|
 |*Recordset* |一个代表 **Recordset** 对象的对象变量。|
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 利用 .asp 文件，使用 **ConvertToString** 将 **Recordset** 嵌入到服务器上生成的 HTML 页，以将该记录集传输到客户端计算机。
 

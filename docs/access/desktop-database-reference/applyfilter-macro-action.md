@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e79ab56778f9429e7f1a985f0f81864ae4363606
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296995"
 ---
 # <a name="applyfilter-macro-action"></a>ApplyFilter 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **ApplyFilter** 操作对表、窗体或报表应用筛选、查询或 SQL WHERE 子句，以便对表、基础表或是窗体或报表查询中的记录进行限制或排序。对于报表，只能在由报表的 **OnOpen** 事件属性所指定的宏中使用此操作。
 
 > [!NOTE]
 > [!注释] 只有在应用服务器筛选时，才可以使用该操作以应用 SQL WHERE 子句。服务器筛选不能应用于存储过程记录源。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **ApplyFilter** 操作具有下列参数。
 
@@ -45,21 +45,19 @@ ms.locfileid: "28716845"
 <tbody>
 <tr class="odd">
 <td><p>Filter Name</p></td>
-<td><p>筛选或查询的限制或排序记录的表、 窗体或报表的名称。 您可以输入现有查询或筛选器的已保存为<strong>宏生成器</strong>窗格的<strong>操作参数</strong>部分的<strong>筛选器名称</strong>框中的查询的名称。</p><p><strong>注意</strong>： 当您使用此操作应用服务器筛选时，筛选器名称参数必须为空。</p></td>
+<td><p>用于对表、窗体或报表中的记录进行限制或排序的筛选或查询的名称。 可以在 "<strong>宏生成器</strong>" 窗格的 "<strong>操作参数</strong>" 部分的 "<strong>筛选名称</strong>" 框中输入已作为查询保存的现有查询或筛选器的名称。</p><p><strong>注意</strong>: 使用此操作应用服务器筛选器时, 筛选器名称参数必须为空。</p></td>
 </tr>
 <tr class="even">
-<td><p>Where Condition</p></td>
-<td><p>用于限制表、窗体或报表中的记录的有效 SQL WHERE 子句（不含单词 WHERE）或表达式。 
-
-</p>
-<p><b>注意</b>： 在 Where 条件参数表达式，该表达式的左边界通常包含窗体或报表基础表或查询中的字段名称。 在表达式右侧通常包含您要应用于该字段，若要限制或记录的排序的条件。 例如，条件可以是包含要匹配的第一个窗体的记录的值的另一个窗体上控件的名称。 控件的名称必须完全限定，例如：</p>
-<p><strong>表单</strong>！<em>formname</em>！<em>控件名称</em>两侧应使用双引号字段名和字符串两侧应使用单引号。 Where 条件参数的最大长度为 255 个字符。 如果您需要输入的更长时间 SQL WHERE 子句，请使用 Visual Basic 中的<strong>DoCmd</strong>对象的<strong>ApplyFilter</strong>方法 for Applications (VBA) 模块。 您可以在 VBA 中输入 SQL WHERE 子句语句的最多为 32,768 个字符。</p></td>
+<td><p>Where 条件</p></td>
+<td><p>用于限制表、窗体或报表中的记录的有效 SQL WHERE 子句（不含单词 WHERE）或表达式。</p>
+<p><b>注意</b>: 在 Where 条件参数表达式中, 表达式的左侧通常包含来自窗体或报表的基础表或查询中的字段名称。 表达式的右侧则通常包含要向此字段应用以对记录进行限制或排序的条件。 例如，条件可以是另一个窗体上某个控件的名称，该控件包含要让第一个窗体中的记录与之匹配的值。 该控件的名称应完全限定，例如：</p>
+<p><strong>Forms</strong>!<em>formname</em>!<em>controlname</em>字段名应括在双引号中, 而字符串文本应括在单引号中。 “Where 条件”参数的最大长度为 255 个字符。 如果需要输入更长的 SQL WHERE 子句，请使用 Visual Basic for Applications (VBA) 模块中 <strong>DoCmd</strong> 对象的 <strong>ApplyFilter</strong> 方法。 在 VBA 中，可输入长达 32,768 个字符的 SQL WHERE 子句语句。</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> 如果已定义提供适当数据的筛选，则可以使用“筛选名称”参数。可以使用“Where 条件”参数直接输入限制条件。如果同时使用这两个参数，Microsoft Office Access 2007 将会向筛选结果应用 WHERE 子句。必须使用这两个参数之一，或同时使用它们。
+> You can use the Filter Name argument if you have already defined a filter that provides the appropriate data. 也可以直接使用“Where 条件”参数来输入限制条件。 If you use both arguments, Microsoft Office Access 2007 applies the WHERE clause to the results of the filter. 必须使用这两个参数之一，或同时使用它们。
 
 ## <a name="remarks"></a>注解
 
@@ -77,9 +75,9 @@ ms.locfileid: "28716845"
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用 ApplyFilter 操作筛选 frmFoods 窗体，因为没有打开它。
+下面的示例演示如何使用 ApplyFilter 操作在 frmFoods 表单打开时对其进行筛选。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     OpenForm

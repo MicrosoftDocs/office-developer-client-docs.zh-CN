@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5b7d0bab179cd7ec658bc04cee05f486947f38c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306018"
 ---
 # <a name="what-you-can-do-with-ado"></a>ADO 有何用途
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ADO 旨在向开发人员提供一个功能强大的逻辑对象模型，使用该模型，可以通过 OLE DB 系统接口以编程方式访问、编辑和更新广泛的数据源。ADO 最常见的用法是：在关系数据库中查询表，在应用程序中检索记录并显示结果，有可能允许用户更改数据并保存所做的更改。使用 ADO，还能够以编程方式执行下列操作：
 
@@ -45,7 +45,7 @@ ADO 旨在向开发人员提供一个功能强大的逻辑对象模型，使用�
 
 - 将数据库中的字段绑定到能够识别数据的组件。
 
-- 创建已断开连接的远程 **Recordset** 。
+- 创建已断开连接的远程 **Recordset**。
 
 ADO 必须公开广泛的选项和设置，才能提供这样的灵活性。因此，一定要采取系统的方法来了解如何在应用程序中使用 ADO，并将每个目标都分成可管理的部分。
 

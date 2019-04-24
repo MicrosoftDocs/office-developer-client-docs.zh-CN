@@ -1,5 +1,5 @@
 ---
-title: Property.Value 属性 (DAO)
+title: 属性 Value 属性 (DAO)
 TOCTitle: Value Property
 ms:assetid: 26e47b3a-4f70-27b5-2498-b44ce4dfc99f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191905(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3e7c79fe12b3b7bfe98e0c7547f4ed2d12b148ba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301167"
 ---
-# <a name="propertyvalue-property-dao"></a>Property.Value 属性 (DAO)
+# <a name="propertyvalue-property-dao"></a>属性 Value 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置或返回对象的值。可读/写 **Variant** 类型。
+设置或返回对象的值。 读/写 **Variant**。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。值
+*表达式*。增值
 
 *表达式*一个代表**Property**对象的变量。
 

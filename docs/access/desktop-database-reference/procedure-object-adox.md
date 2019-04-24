@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ad8f87aa78fbc05694fc53f0d4a55dce43315077
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301391"
 ---
 # <a name="procedure-object-adox"></a>Procedure 对象 (ADOX)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表存储过程。与 ADO [Command](command-object-ado.md) 对象一起使用时， **Procedure** 对象可用于添加、删除或修改存储过程。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-使用 **Procedure** 对象，无需了解或使用提供程序的"CREATE PROCEDURE"语法，即可创建存储过程。
+使用 **Procedure** 对象，无需了解或使用提供程序的“CREATE PROCEDURE”语法，即可创建存储过程。
 
 使用 **Procedure** 对象的属性和集合，可以执行下列操作：
 

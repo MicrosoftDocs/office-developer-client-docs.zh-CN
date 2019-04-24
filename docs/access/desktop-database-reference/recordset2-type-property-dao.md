@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Type 属性 (DAO)
+title: Recordset2 属性 (DAO)
 TOCTitle: Type Property
 ms:assetid: 9bec543e-7f59-ea59-dc79-41d0e08b5ab6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198080(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6646658daf482373ef8b62f6d3420b1d11152cac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704537"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307173"
 ---
-# <a name="recordset2type-property-dao"></a>Recordset2.Type 属性 (DAO)
+# <a name="recordset2type-property-dao"></a>Recordset2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置或返回一个值，该值指示对象的操作类型或数据类型。只读 **Integer**。
+设置或返回一个值，该值指示对象的操作类型或数据类型。 只读 **Integer**。
 
 ## <a name="syntax"></a>语法
 
 *表达式*。类型
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
@@ -54,15 +54,15 @@ ms.locfileid: "28704537"
 <tr class="even">
 <td><p><strong>dbOpenDynamic</strong></p></td>
 <td><p>动态（仅适用于 ODBCDirect 工作区）</p>
-<p><strong>注意</strong>： Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p></td>
+<p><strong>注意</strong>: Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenDynaset</strong></p></td>
-<td><p>动态集</p></td>
+<td><p>可见</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbOpenSnapshot</strong></p></td>
-<td><p>快照</p></td>
+<td><p>概述</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenForwardOnly</strong></p></td>

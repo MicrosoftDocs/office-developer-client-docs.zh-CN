@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d297d019602cef7b6fbc4f5b0125b87ef642213f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305991"
 ---
 # <a name="using-the-microsoft-sdk-for-java"></a>使用 Microsoft SDK for Java
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Microsoft SDK for Java 是一个针对 Microsoft Internet Explorer 环境的开发包。其中提供了工具、信息和示例，以帮助您基于 JDK 1.1 和 Microsoft Win32 虚拟机 (Microsoft VM) 开发 Java 程序和小程序。Microsoft SDK for Java 未与 Microsoft Visual J++ 绑定。
 
 Jactivex.exe 实用工具从类型库生成类，但只能在命令行中调用。此工具未与 Visual J++ 开发环境集成。与 [Java 类型库向导](using-the-java-type-library-wizard.md)不同，您可以进入 SDK 所创建的类包装中。此功能对于调试代码如何使用 ADO 包装类很有帮助。
 
-此机制读取 ADO 类型库并生成类，您可以在应用程序中对类进行实例化。 将这些类生成在以下位置： \\ \<windows 目录\>\\Java\\trustlib\\msado15。
+此机制读取 ADO 类型库并生成类，您可以在应用程序中对类进行实例化。 它将在以下位置生成这些类: \\ \<windows directory\>\\Java\\trustlib\\msado15.dll。
 
 从源代码角度来看，使用 Microsoft SDK for Java 在 Java 中创建 ADO 应用程序与使用 Java 类型库向导基本相同。对于示例代码，请参阅 [ADO Java 类包装](ado-java-class-wrappers.md)。唯一的真正区别是在开始时生成包装类的方式，如以下步骤所示。
 
@@ -43,5 +43,5 @@ Jactivex.exe 实用工具从类型库生成类，但只能在命令行中调用�
     jvc /g:t c:\<windows>\Java\trustlib\msado15\*.Java 
     ```
 
-3.  若要使用这些文件，打开您的项目在 Visual J + + 中。 从**项目**菜单中，选择**添加到项目**。 选择**文件**，然后添加的所有。在 trustlib 中生成的 JAVA 文件\\msado15 目录到您的项目。
+3.  若要使用这些文件，请在 Visual J++ 中打开项目。 从“工程”**** 菜单中，选择“添加到工程”****。 选择 "**文件**", 并将所有。在 trustlib\\msado15.dll 目录中为项目生成的 JAVA 文件。
 

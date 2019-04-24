@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Bookmark 属性 (DAO)
+title: Recordset2 属性 (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: 7366d550-2f72-ed10-b230-eb144a6f874b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195857(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 31791e9fb3c7081989232e36a90b184ed7e31866
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307446"
 ---
-# <a name="recordset2bookmark-property-dao"></a>Recordset2.Bookmark 属性 (DAO)
+# <a name="recordset2bookmark-property-dao"></a>Recordset2 属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回一个书签，该书签唯一地标识 **Recordset** 对象中的当前记录。
 
@@ -25,23 +25,23 @@ ms.locfileid: "28699252"
 
 *表达式*。书签
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-对于**Recordset**对象完全基于 Microsoft Access 数据库引擎表， **Bookmarkable**属性的值为 True，并使用该记录集，可以使用**Bookmark**属性。 但是，其他数据库产品可能不支持书签。 例如，如果有任何 **Recordset2** 对象基于链接的 Paradox 表，而该表没有主键，则您不能在此对象中使用书签。
+对于完全基于 Microsoft Access 数据库引擎表的**Recordset**对象, **Bookmarkable**属性的值为 True, 您可以将**Bookmark**属性与该 recordset 一起使用。 但是，其他数据库产品可能不支持书签。 例如，如果有任何 **Recordset2** 对象基于链接的 Paradox 表，而该表没有主键，则您不能在此对象中使用书签。
 
-在创建或打开 **Recordset** 对象时，它的每条记录都有一个唯一的书签。可以通过将 **Bookmark** 属性的值赋给一个变量，来保存当前记录的书签。要在移到另一个记录后随时快速地返回到该记录，请将 **Recordset** 对象的 **Bookmark** 属性设置为该变量的值。
+当创建或打开 **Recordset** 对象时，它的每条记录都已经有一个唯一的书签。可以通过将 **Bookmark** 属性的值赋给一个变量，来保存当前记录的书签。若要在移动到不同的记录后随时快速返回到该记录，请将 **Recordset** 对象的 **Bookmark** 属性设置为该变量的值。
 
 可建立的书签数没有限制。若要为当前记录以外的其他记录创建书签，需移到相应的记录，然后将 **Bookmark** 属性的值分配给标识此记录的 **String** 变量。
 
-若要确保 **Recordset** 对象支持书签，请在使用 [Bookmark](recordset2-bookmarkable-property-dao.md) 属性之前，检查该对象的 ****Bookmarkable**** 属性的值。 如果**Bookmarkable**属性为 False， **Recordset**对象不支持书签，并使用**Bookmark**属性会导致可捕获的错误。
+若要确保 **Recordset** 对象支持书签，请在使用 **Bookmark** 属性之前，检查该对象的 **[Bookmarkable](recordset2-bookmarkable-property-dao.md)** 属性的值。 如果**Bookmarkable**属性为 False, 则**Recordset**对象不支持书签, 并且使用**Bookmark**属性将导致可捕获的错误。
 
-如果使用 **[Clone](recordset2-clone-method-dao.md)** 方法创建 **Recordset** 对象的副本，则原始和复制的 **Recordset** 对象的 **Bookmark** 属性设置将会相同，并且可交换使用。不过，不能将不同 **Recordset** 对象的书签交换使用，即使它们是使用相同的对象或 SQL 语句创建的也不行。
+如果使用 **[Clone](recordset2-clone-method-dao.md)** 方法创建 **Recordset** 对象的副本，原始和重复 **Recordset** 对象的 **Bookmark** 属性设置是完全相同的，二者可以互换。不过，不能将不同 **Recordset** 对象的书签交换使用，即使它们是使用相同的对象或 SQL 语句创建的也不行。
 
-如果将 **Bookmark** 属性设置为表示已删除记录的值，将发生可捕获的错误。
+如果将 **Bookmark** 属性设置为表示已删除的记录的值，则会发生可捕获的错误。
 
-**Bookmark** 属性值不同于记录编号。
+**Bookmark** 属性值的不同于记录编号。
 
 ## <a name="example"></a>示例
 

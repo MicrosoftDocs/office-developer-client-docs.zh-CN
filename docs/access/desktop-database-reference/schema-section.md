@@ -1,5 +1,5 @@
 ---
-title: 架构部分 （访问桌面数据库参考 （英文）
+title: 架构部分 (Access desktop database reference)
 TOCTitle: Schema Section
 ms:assetid: 59b42ffb-0524-adc3-8bcd-6e4cd2c505ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249304(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f8c479c430dd6d0ca742fefb4948544d31ba2e61
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308937"
 ---
 # <a name="schema-section"></a>架构部分
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="schema-section"></a>Schema 节
 
@@ -148,7 +148,7 @@ Schema 节是必需的。如上例所示，ADO 会写出有关每一列的详细
 <s:AttributeType name="title_id" dt:type="int"/> 
 ```
 
-在第二个示例中，巧妙地使用了 **rs:fixedlength** 属性。 **rs:fixedlength** 属性设置为 true 的列表示必须在架构中定义数据的长度。 法律在这种情况下，对于标题值\_id 是"123456，"按原样"123。" 但是，"123"将无效，因为它的长度为 3（而非 6）。 有关 **fixedlength** 属性的更完整说明，请参阅《OLE DB 程序员指南》。
+在第二个示例中，巧妙地使用了 **rs:fixedlength** 属性。 **rs:fixedlength** 属性设置为 true 的列表示必须在架构中定义数据的长度。 在这种情况下, 标题\_id 的合法值是 "123456", 如 "123"。 但是，"123"将无效，因为它的长度为 3（而非 6）。 有关 **fixedlength** 属性的更完整说明，请参阅《OLE DB 程序员指南》。
 
 ## <a name="handling-nulls"></a>处理 Null
 
@@ -164,14 +164,14 @@ Null 值由 **rs:maybenull** 属性进行处理。如果将此属性设置为 tr
 </s:AttributeType> 
 ```
 
-该定义允许 CompanyName（公司名称）为 null，但是 ShipperID（货主ID）不能包含 null 值。 如果数据部分包含以下行，Persistence Provider 将公司名称列的数据的状态设置为 OLE DB 状态常数 DBSTATUS\_S\_ISNULL:
+该定义允许 CompanyName（公司名称）为 null，但是 ShipperID（货主ID）不能包含 null 值。 如果数据节包含以下行, 则持久性提供器会将 "公司名称" 列的数据的状态设置为 OLE DB 状态常量 DBSTATUS\_S\_ISNULL:
 
 ```xml 
  
 <z:row ShipperID="1"/> 
 ```
 
-如果该行是全部为空，，如下所示，Persistence Provider 将返回 OLE DB 状态的 DBSTATUS\_E\_不可用的 DBSTATUS 货主 Id\_S\_ISNULL 的公司名称。
+如果行完全为空, 则持久性提供程序将返回\_DBSTATUS E\_不可用于 ShipperID 和 DBSTATUS\_S\_的 OLE DB 状态。公司名称。
 
 ```xml 
  
@@ -185,7 +185,7 @@ Null 值由 **rs:maybenull** 属性进行处理。如果将此属性设置为 tr
 <z:row ShipperID="1" CompanyName=""/> 
 ```
 
-对于上述的行，Persistence Provider 将返回 OLE DB 状态的 DBSTATUS\_S\_确定两个列。 在这种情况下，CompanyName（公司名称）只是 ""（零长度字符串）。
+对于前面的行, 持久性提供程序将为这两列返回 OLE DB\_状态\_DBSTATUS S OK。 在这种情况下，CompanyName（公司名称）只是 ""（零长度字符串）。
 
 有关可用在 OLE DB XML 文档架构中的 OLE DB 结构的进一步信息，请参阅"urn:schemas-microsoft-com:rowset"的定义和《OLE DB 程序员指南》。
 

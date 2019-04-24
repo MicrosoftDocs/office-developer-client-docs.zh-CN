@@ -1,5 +1,5 @@
 ---
-title: QueryDef.MaxRecords 属性 (DAO)
+title: MaxRecords 属性 (DAO)
 TOCTitle: MaxRecords Property
 ms:assetid: 7492cde9-be30-3473-dabc-9602465910d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195877(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6738762ba18289293c67392d47e278066ead071d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301076"
 ---
-# <a name="querydefmaxrecords-property-dao"></a>QueryDef.MaxRecords 属性 (DAO)
+# <a name="querydefmaxrecords-property-dao"></a>MaxRecords 属性 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 设置或返回针对 ODBC 数据源的查询所返回的最大记录数。
 

@@ -1,5 +1,5 @@
 ---
-title: TableDef.ConflictTable 属性 (DAO)
+title: ConflictTable 属性 (DAO) TableDef
 TOCTitle: ConflictTable Property
 ms:assetid: 0db8b975-eb6d-19c6-cfb7-6ce01230ebe4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845218(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0189a5163dd5e225ad34841264cf84e85785d7fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308426"
 ---
-# <a name="tabledefconflicttable-property-dao"></a>TableDef.ConflictTable 属性 (DAO)
+# <a name="tabledefconflicttable-property-dao"></a>ConflictTable 属性 (DAO) TableDef
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回冲突表（其中包含同步两个副本的过程中发生冲突的数据库记录）的名称（仅适用于 Microsoft Access 工作区）。只读 **String**。
 
@@ -41,5 +41,5 @@ ms.locfileid: "28718915"
 
 同步机制通过创建冲突表来处理记录冲突。冲突表包含本应在更改成功后放入到表中的信息。您可以检查这些冲突表，并逐行处理，修复一切适用的项目。
 
-所有冲突表已都命名表\_冲突，其中 table 是表中，截断为最大的表名称长度的原始名称。
+所有冲突表都命名为\_table 冲突, 其中 table 是表的原始名称, 被截断为表的最大名称长度。
 

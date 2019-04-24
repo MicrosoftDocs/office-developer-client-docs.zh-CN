@@ -1,5 +1,5 @@
 ---
-title: DBEngine.SetOption 方法 (DAO)
+title: DBEngine 方法 (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5875a8935b1b44c3c36b29344af32df552f6e01c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294195"
 ---
-# <a name="dbenginesetoption-method-dao"></a>DBEngine.SetOption 方法 (DAO)
+# <a name="dbenginesetoption-method-dao"></a>DBEngine 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 暂时替代 Windows 注册表中的 Microsoft Access 数据库引擎项的值（仅适用于 Microsoft Access 工作区）。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。SetOption （***选项***，***值***）
+*表达式*。SetOption (***Option***, ***Value***)
 
 *表达式*一个返回**DBEngine**对象的表达式。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -41,7 +41,7 @@ ms.locfileid: "28699889"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -58,15 +58,15 @@ ms.locfileid: "28699889"
 <td><p><em>Value</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>您想要将选项设置为值。</p></td>
+<td><p>要设置选项的值。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-每个常量引用路径 HKEY 中相应的注册表项\_本地\_计算机\\软件\\Microsoft\\Office\\12.0\\Access Connectivity 引擎\\引擎\\（即，ACE**dbSharedAsyncDelay**对应于键 HKEY\_本地\_计算机\\软件\\Microsoft\\Office\\12.0\\Access Connectivity 引擎\\引擎\\ACE\\SharedAsyncDelay，等等)。
+每个常量\_都是指 path HKEY LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\引擎引擎\\ACE 中相应的注册表项 (即**dbSharedAsyncDelay**对应于注册表项 HKEY\_本地\_机器\\软件\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\引擎\\ACE\\SharedAsyncDelay 等)。
 
 <table>
 <colgroup>

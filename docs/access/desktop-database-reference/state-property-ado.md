@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0bce3f87a6530315a128396fe0e4de5390e0f47e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308531"
 ---
 # <a name="state-property-ado"></a>State 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 对所有适用的对象，指示其状态是打开还是关闭。
 
-对执行异步方法的所有适用对象，指示其当前状态是正在连接、正在执行还是正在检索。
+指示执行异步方法的所有适用对象，无论对象的当前状态是正在连接、执行还是检索。
 
 ## <a name="return-value"></a>返回值
 
-返回一个 **Long** 值，该值可以为 [ObjectStateEnum](objectstateenum.md) 值之一。默认值是 **adStateClosed** 。
+返回一个 **Long** 值，该值可以为 [ObjectStateEnum](objectstateenum.md) 值之一。 默认值是 **adStateClosed**。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 可以随时使用 **State** 属性确定给定对象的当前状态。
 

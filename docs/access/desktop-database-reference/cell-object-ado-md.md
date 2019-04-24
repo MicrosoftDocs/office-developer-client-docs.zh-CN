@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7bb2a479789a8c5bd1825b6cb04e602e0b829dfb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296547"
 ---
 # <a name="cell-object-ado-md"></a>Cell 对象 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 代表处于单元格集中包含的坐标轴交点处的数据。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**Cell** 对象由 [Cellset](item-property-ado-md-cellset.md) 对象的 [Item](cellset-object-ado-md.md) 属性返回。
+**Cell** 对象由 [Cellset](cellset-object-ado-md.md) 对象的 [Item](item-property-ado-md-cellset.md) 属性返回。
 
 使用 **Cell** 对象的集合和属性，可以执行下列操作：
 
@@ -46,7 +46,7 @@ ms.locfileid: "28725985"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>

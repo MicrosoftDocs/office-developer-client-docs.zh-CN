@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d9e86fb7d60af94d6ecde71b2a857a3cc5b9bcb8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306851"
 ---
 # <a name="runmacro-macro-action"></a>RunMacro 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **RunMacro** 操作运行宏。宏可以包括在宏组中。
 
@@ -32,7 +32,7 @@ ms.locfileid: "28712335"
 
 - 将宏附加到自定义菜单命令中。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **RunMacro** 操作具有下列参数。
 
@@ -50,11 +50,11 @@ ms.locfileid: "28712335"
 <tbody>
 <tr class="odd">
 <td><p><strong>宏名</strong></p></td>
-<td><p>要运行的宏的名称。 宏生成器窗格的<strong>宏名称</strong>框在<strong>操作参数</strong>部分中显示当前数据库中的所有宏 （和宏组）。 如果宏组中的宏，它是否列出在列表中的宏组名称下为<em>macrogroupname</em>。<em>macroname</em>。 这是必需参数。 如果在类库数据库中运行包含 <strong>RunMacro</strong> 操作的宏，Microsoft Access 将在该类库数据库中查找具有此名称的宏，而不会在当前数据库中查找。</p></td>
+<td><p>要运行的宏的名称。 "宏生成器" 窗格的 "<strong>操作参数</strong>" 部分的 "<strong>宏名</strong>" 框中显示了当前数据库中的所有宏 (和宏组)。 如果宏在宏组中, 则会在列表中的宏组名称下面列出为<em>macrogroupname</em>。<em>macroname</em>。 这是一个必选参数。 如果在类库数据库中运行包含 <strong>RunMacro</strong> 操作的宏，Microsoft Access 将在该类库数据库中查找具有此名称的宏，而不会在当前数据库中查找。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>重复次数</strong></p></td>
-<td><p>宏将运行最大次数。 如果将此参数留空 （和<strong>重复表达式</strong>参数也是空），宏将运行一次。</p></td>
+<td><p>宏将要运行的最大次数。如果将此参数留空（并将“重复表达式”<strong></strong>参数也留空），宏将运行一次。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>重复表达式</strong></p></td>
@@ -63,18 +63,18 @@ ms.locfileid: "28712335"
 </tbody>
 </table>
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果您输入宏组名为**宏名称**参数，Access 将运行宏组中的第一个宏。
+如果为“宏名”**** 参数输入宏组名，Access 将运行宏组中的第一个宏。
 
 此操作类似于单击 **"数据库工具"** 选项卡上的 **"运行宏"**，选择宏，然后单击 **"确定"**。但是，此命令仅运行一次宏，而 **RunMacro** 操作则可以将宏运行任意次。
 
 > [!TIP]
-> 您可以使用的**重复次数**和**重复表达式**参数确定宏将运行的次数：
+> You can use the **Repeat Count** and **Repeat Expression** arguments to determine how many times the macro runs:
 > - 如果将这两个参数均留空，宏将运行一次。
-> - 如果您的**重复次数**输入号码，但保留**重复表达式**为空，宏将运行指定的次数。
-> - 如果您将**重复次数**保留为空，但为**重复表达式**输入一个表达式，宏将运行，直到该表达式的计算结果为**False**。
-> - 如果为这两个参数，则宏将运行的次数指定在**重复次数**或直到**重复表达式**计算结果为**False**，输入值前进哪个事件首先发生。
+> - 如果为“重复次数”**** 输入一个数而将“重复表达式”**** 留空，宏将运行指定的次数。
+> - 如果将“重复次数”**** 留空而为“重复表达式”**** 输入一个表达式，则宏将一直运行，直到该表达式的计算结果为 **“False”**。
+> - 如果为这两个参数都输入值，宏将运行“重复次数”**** 中指定的次数，或者一直运行，直到“重复表达式”**** 的计算结果为 **“False”**，以先到者为准。
 
 在运行包含 **RunMacro** 操作的宏并且该宏执行到 **RunMacro** 操作时，Access 将运行被调用的宏。在被调用的宏运行完后，Access 将继续运行原来的宏并运行下一个操作。
 

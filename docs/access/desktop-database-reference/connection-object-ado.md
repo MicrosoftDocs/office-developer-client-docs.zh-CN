@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ed736a0e52ff45cd0fed63f1ba5bd7060d7a2380
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295875"
 ---
 # <a name="connection-object-ado"></a>Connection 对象 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 表示指向数据源的打开的连接。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 **Connection** 对象表示与数据源的唯一会话。对于客户端/服务器数据库系统，该对象可能等效于与服务器的实际网络连接。取决于提供程序所支持的功能， **Connection** 对象的某些集合、方法或属性可能不可用。
 
@@ -61,7 +61,7 @@ ms.locfileid: "28718411"
 
 ### <a name="execute-a-command-as-a-native-method-of-a-connection-object"></a>将命令作为 Connection 对象的本地方法执行
 
-若要执行某个命令，请使用 **Command** 对象的 [Name](name-property-ado.md) 属性给命令命名。将 **Command** 对象的 **ActiveConnection** 属性设置为该连接。然后将使用该命令名的语句作为 **Connection** 对象的方法发出，后跟任何参数，如果返回了任何行，则后面再跟随 **Recordset** 对象。设置 **Recordset** 属性以便自定义生成的 **Recordset** 。例如：
+若要执行某个命令，请使用 **Command** 对象的 [Name](name-property-ado.md) 属性给命令命名。将 **Command** 对象的 **ActiveConnection** 属性设置为该连接。然后将使用该命令名的语句作为 **Connection** 对象的方法发出，后跟任何参数，如果返回了任何行，则后面再跟随 **Recordset** 对象。设置 **Recordset** 属性以便自定义生成的 **Recordset**。例如：
 
 ```vb
     Dim cnn As New ADODB.Connection
@@ -78,7 +78,7 @@ ms.locfileid: "28718411"
 
 ### <a name="execute-a-stored-procedure-as-a-native-method-of-a-connection-object"></a>将存储过程作为 Connection 对象的本地方法执行
 
-若要执行某个存储过程，请将使用该存储过程的语句作为 **Connection** 对象的方法发出，后跟任何参数。ADO 将"尽量推测"参数的类型。例如：
+若要执行某个存储过程，请将使用该存储过程的语句作为 **Connection** 对象的方法发出，后跟任何参数。ADO 将“尽量推测”参数的类型。例如：
 
 ```vb
     Dim cnn As New ADODB.Connection
