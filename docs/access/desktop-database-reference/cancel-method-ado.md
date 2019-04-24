@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 791803bb8935ffab24e5aed7e4e6a77360e82b65
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296673"
 ---
 # <a name="cancel-method-ado"></a>Cancel 方法 (ADO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-用于取消执行挂起的异步方法调用。
+取消执行挂起的异步方法调用。
 
 ## <a name="syntax"></a>语法
 
 *对象*。取消
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**Cancel** 方法用于终止异步方法调用（即用 **adAsyncConnect** 、 **adAsyncExecute** 或 **adAsyncFetch** 选项调用的方法）的执行。
+**Cancel** 方法用于终止异步方法调用（即用 **adAsyncConnect**、**adAsyncExecute** 或 **adAsyncFetch** 选项调用的方法）的执行。
 
 下表显示了对特定对象类型使用 **Cancel** 方法时终止的任务。
 

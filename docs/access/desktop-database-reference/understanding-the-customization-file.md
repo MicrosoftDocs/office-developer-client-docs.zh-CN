@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b977fc4273068ac52efe8960761a9e28a6234e2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314068"
 ---
 # <a name="understanding-the-customization-file"></a>了解自定义文件
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-自定义文件中的每个节标头包含方括号 (**\[**) 包含类型和参数。 节分为四种类型，分别用字面字符串 **connect** 、 **sql** 、 **userlist** 或 **logs** 表示。 参数可以是字面字符串、默认值、用户指定的标识符或为空。
+自定义文件中的每个节标头由方括号**\[**() 组成, 其中包含一个类型和参数。 节分为四种类型，分别用字面字符串 **connect**、**sql**、**userlist** 或 **logs** 表示。 参数可以是字面字符串、默认值、用户指定的标识符或为空。
 
 因此，每节用以下节标头中的一种进行标记：
 
@@ -42,13 +42,13 @@ ms.locfileid: "28721883"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>部分</p></th>
+<th><p>Part</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>connect</strong></p></td>
+<td><p><strong>连接</strong></p></td>
 <td><p>修改连接字符串的字面字符串。</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +60,7 @@ ms.locfileid: "28721883"
 <td><p>修改特定用户访问权限的字面字符串。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>logs</strong></p></td>
+<td><p><strong>日志</strong></p></td>
 <td><p>指定记录操作错误的日志文件的字面字符串。</p></td>
 </tr>
 <tr class="odd">
@@ -68,9 +68,8 @@ ms.locfileid: "28721883"
 <td><p>当未指定或未找到标识符时所使用的字面字符串。</p></td>
 </tr>
 <tr class="even">
-<td><p><em>identifier</em></p></td>
-<td><p>与 <strong>connect</strong> 字符串或 <strong>command</strong> 字符串中的字符串匹配的字符串。
-</p>
+<td><p><em>标识符</em></p></td>
+<td><p>与 <strong>connect</strong> 字符串或 <strong>command</strong> 字符串中的字符串匹配的字符串。</p>
 <p></p>
 <ul>
 <li><p>如果节标头中包含 <strong>connect</strong> 且在连接字符串中找到标识符字符串，则使用此节。</p></li>
@@ -87,7 +86,7 @@ ms.locfileid: "28721883"
 
 以上各节用在以下不同情况中：
 
-  - 如果客户端的值部分的连接字符串关键字，则使用**连接**节"**数据源 = *** 值*"，与 *。* **连接**节标识符匹配
+  - 如果客户端连接字符串关键字的值部分 "**Data Source = *** * * value" 与**connect**节标识符匹配, 则使用**connect**节 *。*
 
   - 如果客户端命令字符串中包含与 **sql** 节标识符匹配的字符串，则使用 **sql** 节。
 

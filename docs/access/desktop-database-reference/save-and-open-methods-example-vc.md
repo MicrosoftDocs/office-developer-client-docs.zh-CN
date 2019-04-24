@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54fb42ade164ce49cd09ce5a71b342342026a0a2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308972"
 ---
 # <a name="save-and-open-methods-example-vc"></a>Save 和 Open 方法示例 (VC++)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 以下三个示例演示了如何将 [Save](save-method-ado.md) 和 **Open** 方法结合起来使用。
 

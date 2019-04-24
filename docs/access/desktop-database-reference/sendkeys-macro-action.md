@@ -12,27 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f8c45cdf0d9cf588f61d1b51b728a8a15f6d7e12
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308748"
 ---
 # <a name="sendkeys-macro-action"></a>SendKeys 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="media/access-alert-security.gif" title="安全说明" alt="Security note" /><strong>安全注释</strong></th>
+<th><img src="media/access-alert-security.gif" title="安全注释" alt="Security note" /><strong>安全说明</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>
-      避免使用 <strong>SendKeys</strong> 语句或带敏感或机密信息的 AutoKeys 宏。恶意用户可能会拦截键击并损害您的计算机和数据的安全性。
-</td>
+<td>避免使用带敏感信息或机密信息的 <strong>SendKeys</strong> 语句或 AutoKeys 宏。恶意用户会截取键击，从而危及计算机和数据的安全性。</td>
 </tr>
 </tbody>
 </table>
@@ -70,19 +68,19 @@ ms.locfileid: "28722373"
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 Access 处理通过 **SendKeys** 操作接收的键击，就好像您已经直接在 Access 窗口中键入它们一样。
 
 要指定键击，请使用用于 **SendKeys** 语句的语法。
 
 > [!NOTE]
-> 如果**键击**参数包含不正确的语法、 拼写错误的文本或其他不适合键击发送到的窗口的值，则可以发生错误。
+> 如果“键击”**** 参数包含不正确的语法、拼写错误的文本或者其他不适合键击要发送到的窗口的值，则可能发生错误。
 
 可以使用此操作在对话框中输入信息，尤其是在您不想中断宏的执行来手动响应对话框时。有些 Access 操作（例如 **PrintOut** 和 **FindRecord** ）会自动选择某些常用对话框中的选项。可以使用 **SendKeys** 操作选择不常用的对话框中的选项。
 
 > [!NOTE]
-> - 由于对话框会暂停宏，您必须将**SendKeys**操作之前，导致对话框打开并将**等待**参数设置为**否**。
+> - Because the dialog box suspends the macro, you must put the **SendKeys** action before the action that causes the dialog box to open and set the **Wait** argument to **No**.
 > - 键击到达 Access 或其他应用程序的时间难以确定。因此，在有其他方法（如 **FindRecord** 操作）可用来完成需要的任务时，建议您使用其他方法，而不要使用 **SendKeys** 操作来填写对话框中的选项。
 
 如果希望向 Access 或其他基于 Windows 的应用程序发送 255 个以上字符，可以在宏中连续使用多个 **SendKeys** 操作。

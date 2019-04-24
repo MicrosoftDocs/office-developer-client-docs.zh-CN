@@ -1,5 +1,5 @@
 ---
-title: 使用 CacheSize （访问桌面数据库参考 （英文）
+title: 使用 CacheSize (Access desktop database reference)
 TOCTitle: Using CacheSize
 ms:assetid: b1677a9f-f22f-9456-0d2a-1ef7cf81bbdf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 94e84ad8c8a87a6537c1abefe12427ecad0c0187
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312122"
 ---
 # <a name="using-cachesize"></a>使用 CacheSize
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 使用 **CacheSize** 属性可以控制一次从提供程序检索到本地内存中的记录数。例如，如果 **CacheSize** 为 10，则在首次打开 **Recordset** 对象后，提供程序会将前 10 条记录检索到本地内存中。在 **Recordset** 对象中移动时，提供程序将从本地内存缓冲区中返回数据。在通过缓存中的最后一条记录后，提供程序将立即从数据源中将接下来的 10 条记录检索到缓存中。
 

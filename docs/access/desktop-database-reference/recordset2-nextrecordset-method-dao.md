@@ -1,5 +1,5 @@
 ---
-title: Recordset2.NextRecordset 方法 (DAO)
+title: NextRecordset 方法 (DAO) Recordset2
 TOCTitle: NextRecordset Method
 ms:assetid: 33288131-d4f3-0159-1736-f401346087f3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192318(v=office.15)
@@ -12,30 +12,30 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 54d0e49dfbe9dc3fb87eb10af9eefe3aa2f83709
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307236"
 ---
-# <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset 方法 (DAO)
+# <a name="recordset2nextrecordset-method-dao"></a>NextRecordset 方法 (DAO) Recordset2
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="syntax"></a>语法
 
 *表达式*。NextRecordset
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="return-value"></a>返回值
 
 布尔值
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-在适用于 ODBCDirect 工作区中，您可以打开**Recordset** ，其中包含多个源参数的**OpenRecordset**或选择查询**[QueryDef](querydef-object-dao.md)** 对象，如以下示例所示的**[SQL](querydef-sql-property-dao.md)** 属性中的选择查询。
+在 ODBCDirect 工作区中, 可以在**OpenRecordset**的 source 参数中打开包含多个 select 查询的**Recordset** , 或选择查询**[QueryDef](querydef-object-dao.md)** 对象的**[SQL](querydef-sql-property-dao.md)** 属性, 如以下示例所示。
 
 ```sql
     SELECT LastName, FirstName FROM Authors 

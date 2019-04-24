@@ -1,5 +1,5 @@
 ---
-title: Workspaces 集合 (DAO)
+title: workspace 集合 (DAO)
 TOCTitle: Workspaces Collection
 ms:assetid: 88b851ce-4180-964f-582e-bc9571bf554c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197057(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c615be9e92a936486c15377514c2b695f68bb5b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308321"
 ---
-# <a name="workspaces-collection-dao"></a>Workspaces 集合 (DAO)
+# <a name="workspaces-collection-dao"></a>workspace 集合 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Workspaces** 集合包含 **DBEngine** 对象的所有活动、未隐藏的 **Workspace** 对象。（隐藏的 **Workspace** 对象并不追加到集合中，而是通过它们分配到的变量进行引用）。
 
@@ -25,21 +25,21 @@ ms.locfileid: "28698412"
 
 使用 **Workspace** 对象可以管理当前会话或启动其他会话。
 
-当您首次引用，或者使用**Workspace**对象时，您将自动创建默认工作区，DBEngine.Workspaces(0)。 默认工作区的**名称**和**UserName**属性的设置"\#默认工作区\#"和"Admin，"分别。 如果启用了安全性，则 **UserName** 属性设置就是登录用户的名称。
+当您首次引用或使用**Workspace**对象时, 将自动创建默认的工作区 DBEngine (0)。 默认工作区的 "**名称**" 和 "**用户名**" 属性的设置\#分别为\#"默认工作区" 和 "管理员"。 如果启用了安全性，则 **UserName** 属性设置就是登录用户的名称。
 
 您可以使用 [**CreateWorkspace**](dbengine-createworkspace-method-dao.md) 方法创建新的 **Workspace** 对象。创建新的 **Workspace** 对象后，如果需要从 **Workspaces** 集合引用该对象，则必须将其追加到 **Workspaces** 集合。不过，您无需将新创建的 **Workspace** 对象追加到 **Workspaces** 集合，便可以使用该对象。
 
 若要按照序号或 **Name** 属性设置来引用集合中的 **Workspace** 对象，可以使用下列任何一种语法形式：
 
-**DBEngine**。**工作区**(0)
+**DBEngine**。**工作区**0
 
-**DBEngine**。**工作区**("name")
+**DBEngine**。**工作区**("名称")
 
-**DBEngine**。**工作区**\!\[名称\]
+**DBEngine**。**工作区**\! \[名称\]
 
 
 > [!NOTE]
-> Microsoft Access 2013 中不支持适用于 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
+> Microsoft Access 2013 中不支持 ODBCDirect 工作区。 如果要在不使用 Microsoft Access 数据库引擎的情况下访问外部数据源，请使用 ADO。
 
 
 

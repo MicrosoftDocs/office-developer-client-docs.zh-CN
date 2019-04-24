@@ -1,5 +1,5 @@
 ---
-title: 个 CursorOptionEnum （访问桌面数据库参考 （英文）
+title: CursorOptionEnum (Access desktop database reference)
 TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7443e0cb29954fae9dfc193ffc6aa8dee9886089
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295196"
 ---
 # <a name="cursoroptionenum"></a>CursorOptionEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定应针对哪项功能来测试 [Supports](supports-method-ado.md) 方法。
 
@@ -72,13 +72,13 @@ ms.locfileid: "28701065"
 <td><p>支持 <a href="index-property-ado.md">Index</a> 属性以命名索引。</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adMovePrevious</strong></p></td>
+<td><p><strong>带有 admoveprevious</strong></p></td>
 <td><p>0x200</p></td>
 <td><p>支持 <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> 和 <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious</a> 方法，以及 <a href="move-method-ado.md">Move</a> 或 <a href="getrows-method-ado.md">GetRows</a> 方法，以便向后移动当前记录位置而不需要书签。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adNotify</strong></p></td>
-<td><p>而 0x40000 可</p></td>
+<td><p>0x40000</p></td>
 <td><p>指示基础数据提供程序支持通知（用于确定是否支持 <strong>Recordset</strong> 事件）。</p></td>
 </tr>
 <tr class="even">
@@ -105,9 +105,9 @@ ms.locfileid: "28701065"
 </table>
 
 
-### <a name="adowfc-equivalent"></a>ADO/WFC 等效值
+### <a name="adowfc-equivalent"></a>ADO/WFC 等效项
 
-包： **com.ms.wfc.data**
+包：**com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -120,43 +120,43 @@ ms.locfileid: "28701065"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.CursorOption.ADDNEW</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorOption.APPROXPOSITION</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorOption.BOOKMARK</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorOption.DELETE</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorOption.FIND</p></td>
+<td><p>AdoEnums. CursorOption</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorOption.HOLDRECORDS</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorOption.INDEX</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorOption.MOVEPREVIOUS</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorOption.NOTIFY</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorOption.RESYNC</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorOption.SEEK</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorOption.UPDATE</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorOption.UPDATEBATCH</p></td>
+<td><p>AdoEnums CursorOption</p></td>
 </tr>
 </tbody>
 </table>

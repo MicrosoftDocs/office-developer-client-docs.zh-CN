@@ -1,5 +1,5 @@
 ---
-title: Recordset2.BatchCollisions 属性 (DAO)
+title: BatchCollisions 属性 (DAO) Recordset2
 TOCTitle: BatchCollisions Property
 ms:assetid: 07d6c25f-baf5-f7d6-d225-0447e0f78fe6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844993(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ea75da06c0db4eeb4e846bacfddc9f125c03fc84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307488"
 ---
-# <a name="recordset2batchcollisions-property-dao"></a>Recordset2.BatchCollisions 属性 (DAO)
+# <a name="recordset2batchcollisions-property-dao"></a>BatchCollisions 属性 (DAO) Recordset2
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ## <a name="syntax"></a>语法
 
 *表达式*。BatchCollisions
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 

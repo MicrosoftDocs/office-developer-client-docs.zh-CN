@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a53b7170568c535ed2321a902796af2f942f6808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709815"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306949"
 ---
 # <a name="relations-members-dao"></a>关系成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Relations 集合包含 Database 对象的存储的 Relation 对象（仅适用于 Microsoft Access 数据库引擎数据库）。
 
@@ -36,7 +36,7 @@ Relations 集合包含 Database 对象的存储的 Relation 对象（仅适用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-append-method-dao.md">追加</a></strong></p></td>
+<td><p><strong><a href="relations-append-method-dao.md">置</a></strong></p></td>
 <td><p>将新的 <strong>Relation</strong> 添加到 <strong>Relations</strong> 集合。</p></td>
 </tr>
 <tr class="even">
@@ -66,8 +66,8 @@ Relations 集合包含 Database 对象的存储的 Relation 对象（仅适用�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-count-property-dao.md">计数</a></strong></p></td>
-<td><p>返回指定集合中的对象数。只读。</p></td>
+<td><p><strong><a href="relations-count-property-dao.md">Count</a></strong></p></td>
+<td><p>返回指定集合中的对象数。 只读。</p></td>
 </tr>
 </tbody>
 </table>

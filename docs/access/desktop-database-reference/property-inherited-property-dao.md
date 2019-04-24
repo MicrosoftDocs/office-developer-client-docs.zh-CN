@@ -1,5 +1,5 @@
 ---
-title: Property.Inherited 属性 (DAO)
+title: 属性。继承属性 (DAO)
 TOCTitle: Inherited Property
 ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845349(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: cf3aef6d04c7d7cc573ec1d6efaca7d5238f5125
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302924"
 ---
-# <a name="propertyinherited-property-dao"></a>Property.Inherited 属性 (DAO)
+# <a name="propertyinherited-property-dao"></a>属性。继承属性 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013 
+**适用于**：Access 2013、Office 2013 
 
 返回一个值，该值指示某个 **[Property](property-object-dao.md)** 对象是否是从基础对象中继承的。
 
@@ -35,7 +35,7 @@ ms.locfileid: "28709528"
 
 对于代表预定义属性的内置 **Property** 对象，唯一可能的返回值是 **False**。
 
-可以使用 **Inherited** 属性确定某个用户定义的 **Property** 是否是为其应用到的对象创建的，或者 **Property** 是否是从另一个对象继承的。例如，假设您为 [**QueryDef**](querydef-object-dao.md) 对象创建了一个新的 **Property**，然后从 [QueryDef](recordset-object-dao.md) 对象打开了一个 ****Recordset**** 对象。此新的 **Property** 将是 **Recordset** 对象的 **[Properties](properties-collection-dao.md)** 集合的一部分，并且其 **Inherited** 属性将设置为 **True**，这是因为该属性是为 **QueryDef** 对象（而不是为 **Recordset** 对象）创建的。
+可以使用 **Inherited** 属性确定某个用户定义的 **Property** 是否是为其应用到的对象创建的，或者 **Property** 是否是从另一个对象继承的。 例如，假设您为 **[QueryDef](querydef-object-dao.md)** 对象创建了一个新的 **Property**，然后从 **QueryDef** 对象打开了一个 **[Recordset](recordset-object-dao.md)** 对象。 此新的 **Property** 将是 **Recordset** 对象的 **[Properties](properties-collection-dao.md)** 集合的一部分，并且其 **Inherited** 属性将设置为 **True**，这是因为该属性是为 **QueryDef** 对象（而不是为 **Recordset** 对象）创建的。
 
 ## <a name="example"></a>示例
 

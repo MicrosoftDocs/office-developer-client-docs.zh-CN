@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Move 方法 (DAO)
+title: Recordset2 方法 (DAO)
 TOCTitle: Move Method
 ms:assetid: df39c05e-c5f8-3b66-fa5f-c91b687c147d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d57e73c52ca515f13d613ed3aeb9cf361054396e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307264"
 ---
-# <a name="recordset2move-method-dao"></a>Recordset2.Move 方法 (DAO)
+# <a name="recordset2move-method-dao"></a>Recordset2 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 移动 **[Recordset](recordset-object-dao.md)** 对象中的当前记录的位置。
 
 ## <a name="syntax"></a>语法
 
-*表达式*。移动 （***行***、 ***StartBookmark***）
+*表达式*。Move (***Rows***, ***StartBookmark***)
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "28707113"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>名称</p></th>
 <th><p>必需/可选</p></th>
 <th><p>数据类型</p></th>
 <th><p>说明</p></th>
@@ -48,13 +48,13 @@ ms.locfileid: "28707113"
 <td><p><em>Rows</em></p></td>
 <td><p>必需</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>位置移动的行数。如果 rows 大于 0，则位置向前移（向文件的末尾处移动）。如果 rows 小于 0，则位置向后移（向文件的开头处移动）。</p></td>
+<td><p>位置移动的行数。 如果 rows 大于 0，则位置向前移（向文件的末尾处移动）。 如果 rows 小于 0，则位置向后移（向文件的开头处移动）。</p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>可选</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>一个标识书签的值。如果指定了 startbookmark，则相对于此书签开始移动。否则，从当前记录开始移动。</p></td>
+<td><p>一个标识书签的值。 如果指定了 startbookmark，则相对于此书签开始移动。 否则，从当前记录开始移动。</p></td>
 </tr>
 </tbody>
 </table>

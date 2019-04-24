@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f62bb4578cfcad978bf596648ad040552edd1a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726195"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306277"
 ---
 # <a name="troubleshooting-rds"></a>RDS 疑难解答
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-请参考本节中的特定错误或与 RDS 问题的解决方案：
+有关 RDS 的特定错误或问题的解决方案, 请参阅本部分:
 
 - [在 Windows 2000 上配置 RDS](configuring-rds-on-windows-2000.md)
-- [具有可重复读取的隔离级别死锁](deadlocks-with-read-repeatable-isolation-level.md)
+- [具有可重复读取隔离级别的死锁](deadlocks-with-read-repeatable-isolation-level.md)
 - [确保有足够的 TempDB 空间](ensuring-sufficient-tempdb-space.md)
-- [Internet 服务器错误： 访问被拒绝](internet-server-error-access-denied.md)
+- [Internet 服务器错误: 访问被拒绝](internet-server-error-access-denied.md)
 - [最大限度地降低日志文件空间使用](minimizing-log-file-space-usage.md)
-- [RDS 返回"Stream Not Read"错误](rds-returns-stream-not-read-error.md)
+- [RDS 返回“未读取流”错误](rds-returns-stream-not-read-error.md)
 
 

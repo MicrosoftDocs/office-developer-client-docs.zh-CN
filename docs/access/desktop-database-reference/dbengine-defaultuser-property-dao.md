@@ -1,5 +1,5 @@
 ---
-title: DBEngine.DefaultUser 属性 (DAO)
+title: DefaultUser 属性 (DAO) DBEngine
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192905(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c29f9663ce3591fe5b1633239e8ec0d8866ee16a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294343"
 ---
-# <a name="dbenginedefaultuser-property-dao"></a>DBEngine.DefaultUser 属性 (DAO)
+# <a name="dbenginedefaultuser-property-dao"></a>DefaultUser 属性 (DAO) DBEngine
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-设置初始化 **Workspace** 时创建其默认值所使用的用户名。可读/写 **String** 类型。
+设置初始化 **Workspace** 时创建其默认值所使用的用户名。 可读/写 **String** 类型。
 
 ## <a name="syntax"></a>语法
 
@@ -33,7 +33,7 @@ ms.locfileid: "28717536"
 
 ## <a name="remarks"></a>注解
 
-**DefaultUser**的设置是一个 String 数据类型。 它可以是 1 到 20 个字符长在 Microsoft Access 工作区和它可以包含字母字符、 重音的字符、 数字、 空格和符号除外:"（引号） / （正斜杠）、 \\ （反斜杠）， \[ \] （方括号）: （冒号） |（管道） \< (较少-号)， \> (大于-号)，+ （加号） = （等于登录），;（分号），（逗号）？ （问号） \* （星号），前导空格和控制字符 (ASCII 00 到 ASCII 31)。
+The setting for **DefaultUser** is a String data type. 在 Microsoft Access 工作区中, 它的长度可以是1–20个字符, 并且可以包括字母字符、重音字符、数字、空格和符号, 但以下字符除外: "(引号)、 \\ /(正斜杠\[ \] )、(反斜杠) (括号)、: (冒号)、|(管道)、 \< (小于号)、 \> (大于号)、+ (加号)、= (等号),;(分号)、、(逗号)、？ (问号)、 \* (星号)、前导空格和控制字符 (ascii 00 到 ascii 31)。
 
 
 > [!NOTE]

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f03dcc8049113df13ff8654aee340d1e2d6e502
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308594"
 ---
 # <a name="source-property-ado-error"></a>Source 属性（ADO 错误）
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示最初生成错误的对象或应用程序的名称。
 
@@ -25,11 +25,11 @@ ms.locfileid: "28722891"
 
 返回一个 **String** 值，指示对象或应用程序的名称。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-使用 **Error** 对象上的 [Source](error-object-ado.md) 属性可以确定生成错误的原始对象或应用程序的名称。 这可以是对象的类名或编程 ID。 对于在 ADO 中的错误，属性值将 **ADODB。 *** ObjectName*，其中*ObjectName*是触发错误对象的名称。 ADOX 和 ADO MD，则值将为 **ADOX。 *** ObjectName*和 **ADOMD。 *** ObjectName，* 分别。
+使用 [Error](error-object-ado.md) 对象上的 **Source** 属性可以确定生成错误的原始对象或应用程序的名称。 这可以是对象的类名或编程 ID。 对于 ADO 中的错误, 属性值将为 **ADODB。 * * * objectname*, 其中*ObjectName*是触发错误的对象的名称。 对于 ADOX 和 ADO MD, 值将分别为 **ADOX. * * *-objectname*和 **ADOMD. * * * objectname* 。
 
-可以根据 **Error** 对象的 [Source](number-property-ado.md) 、 [Number](description-property-ado.md) 和 **Description** 属性的错误文档编写代码，以恰当地处理错误。
+可以根据 **Error** 对象的 **Source**、[Number](number-property-ado.md) 和 [Description](description-property-ado.md) 属性的错误文档编写代码，以恰当地处理错误。
 
-对于 **Error** 对象， **Source** 属性为只读属性。
+对于 **Error** 对象，**Source** 属性为只读属性。
 

@@ -1,5 +1,5 @@
 ---
-title: AllowNullsEnum （访问桌面数据库参考 （英文）
+title: AllowNullsEnum (Access desktop database reference)
 TOCTitle: AllowNullsEnum
 ms:assetid: 7bb42b38-6b3b-5930-b1d7-16323a3bdf37
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249515(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c184253551fa3f974de1840d47654af597881cb8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297163"
 ---
 # <a name="allownullsenum"></a>AllowNullsEnum
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指定是否对含有 null 值的记录进行索引。
 
@@ -48,7 +48,7 @@ ms.locfileid: "28701429"
 </tr>
 <tr class="odd">
 <td><p><strong>adIndexNullsIgnore</strong></p></td>
-<td><p>2</p></td>
+<td><p>双面</p></td>
 <td><p>索引不插入包含 null 键的项。如果 null 值输入键列中，则该项被忽略并且不会发生错误。</p></td>
 </tr>
 <tr class="even">

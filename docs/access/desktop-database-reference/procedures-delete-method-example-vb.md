@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b39dc5d45ce1050190c5a7e72ccba51ccc87729e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301328"
 ---
 # <a name="procedures-delete-method-example-vb"></a>Procedures 的 Delete 方法示例 (VB)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 下面的代码演示如何使用 [Procedures](procedures-collection-adox.md) 集合的 [Delete](delete-method-adox-collections.md) 方法删除过程。
 

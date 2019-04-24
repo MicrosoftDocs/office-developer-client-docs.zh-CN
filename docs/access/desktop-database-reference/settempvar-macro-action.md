@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b630304774e521162687d4c78a6a97cf18ddb419
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306516"
 ---
 # <a name="settempvar-macro-action"></a>SetTempVar 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
 
 可以使用 **SetTempVar** 操作创建一个临时变量并将其设置为一个特定值。然后，该变量可以在后续操作中作为条件或参数使用，也可以在其他宏、事件过程中或者窗体或报表上使用该变量。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetTempVar** 操作具有下列参数。
 
@@ -49,22 +49,22 @@ ms.locfileid: "28705224"
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>输入将用于设置为临时变量的值的表达式。 不要在前对表达式与等 (<strong>=</strong>) 登录。 您可以单击<strong>生成</strong>按钮 <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> ，以便使用表达式生成器设置此参数。</p></td>
+<td><p>请输入将用来设置此临时变量的值的表达式。 不要在表达式前面加等号 (<strong>=</strong>)。 您可以单击 "<strong>生成</strong>" 按钮 <img src="media/access-build-button.gif" title="buildbut_ZA06047218" alt="buildbut_ZA06047218" /> 使用表达式生成器设置此参数。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 - 一次最多可以定义 255 个临时变量。如果您不删除临时变量，它将一直保留在内存中，直到您关闭数据库。在使用完临时变量后，最好将它们删除。要删除单个临时变量，请使用 **[RemoveTempVar](removetempvar-macro-action.md)** 操作，并将其参数设置为要删除的临时变量的名称。如果您有多个临时变量，并且想同时将它们全部删除，请使用 **RemoveAllTempVars** 操作。
 
-- 临时变量是全局性的。 在创建了一个临时变量后，可以在事件过程、Visual Basic for Applications (VBA) 模块、查询或表达式中引用它。 例如，如果您创建一个名为*MyVar*的临时变量，您可以使用变量作为控件源对于文本框使用以下语法：
+- 临时变量是全局性的。 在创建了一个临时变量后，可以在事件过程、Visual Basic for Applications (VBA) 模块、查询或表达式中引用它。 例如, 如果创建了一个名为*MyVar*的临时变量, 则可以使用以下语法将该变量用作文本框的控件来源:
     
   `=[TempVars]![MyVar]`
     
   > [!NOTE]
-  > [!注释] 在宏、查询和事件过程中，不需要在表达式前面放等号。
+  > 在宏、查询和事件过程中，不需要在表达式前面放等号。
  
   还可以在任何加载项或被引用的数据库中引用临时变量。
 
@@ -91,12 +91,12 @@ ms.locfileid: "28705224"
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>SetTempVar</strong></p></td>
-<td><p><strong>名称</strong>： MyVar<strong>表达式</strong>： InputBox (&quot;输入非零数。&quot;)</p></td>
+<td><p><strong>Name</strong>: MyVar<strong>表达式</strong>: InputBox (&quot;输入一个非零数字。&quot;)</p></td>
 </tr>
 <tr class="even">
-<td><p>[TempVars] ！[MyVar]&lt; &gt;0</p></td>
+<td><p>[TempVars]!MyVar&lt; &gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>消息</strong>: =&quot;您输入&quot; &amp; [TempVars] ！[MyVar]&amp; &quot;.&quot;<strong>发嘟嘟声</strong>： <strong>YesType</strong>：<strong>信息</strong></p></td>
+<td><p><strong>邮件</strong>: =&quot;您输入&quot; &amp; [TempVars]!MyVar&amp; &quot;.&quot;<strong>嘟嘟声</strong>: <strong>YesType</strong>:<strong>信息</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

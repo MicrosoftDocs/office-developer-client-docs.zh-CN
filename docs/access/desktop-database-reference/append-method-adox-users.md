@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d05cf352515d8fe4faa868088c9ba9cc8a024145
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297065"
 ---
 # <a name="append-method-adox-users"></a>Append 方法（ADOX 用户）
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 将新的 [User](user-object-adox.md) 对象添加到 [Users](users-collection-adox.md) 集合。
 
 ## <a name="syntax"></a>语法
 
-*用户*。追加*用户*\[，*密码*\]
+*用户*。追加*用户*\[、*密码*\]
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
-|参数|说明|
+|参数|描述|
 |:--------|:----------|
 |*User* |一个 **Variant** 值，包含对要追加的 **User** 对象的引用，或者是要创建并追加的用户的名称。|
-|*Password* |可选。 包含该用户的密码的 **String** 值。 *Password*参数对应于指定的**用户**对象的[ChangePassword](changepassword-method-adox.md)方法的值。|
+|*Password* |可选。包含该用户的密码的 **String** 值。*Password* 参数对应于 **User** 对象的 [ChangePassword](changepassword-method-adox.md) 方法所指定的值。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **Catalog** 的 [Users](catalog-object-adox.md) 集合表示该目录的所有用户。 **Group** 的 [Users](group-object-adox.md) 集合仅表示在该特定组中有成员资格的用户。
 

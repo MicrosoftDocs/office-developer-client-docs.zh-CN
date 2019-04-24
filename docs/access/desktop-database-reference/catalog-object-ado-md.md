@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0ee7d2e68df90c8eee4227f949f93ea074b7df97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296589"
 ---
 # <a name="catalog-object-ado-md"></a>Catalog 对象 (ADO MD)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 包含特定于多维数据提供程序 (MDP) 的多维架构信息（即，多维数据集和基础维、层次结构、级别和成员）。
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用 **Catalog** 对象的集合和属性，可以执行下列操作：
 

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c7a5759e6ca39f59a030f1d591f82843d98c7ee
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314138"
 ---
 # <a name="tabledefs-object-reference-dao"></a>TableDefs 对象引用 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 - [TableDefs 集合 (DAO)](tabledefs-collection-dao.md)
 - [TableDefs 成员 (DAO)](tabledefs-members-dao.md)

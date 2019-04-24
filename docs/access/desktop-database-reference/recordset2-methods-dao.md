@@ -8,37 +8,37 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cd68aec9347ee578f0bb70eb4674e20051fbc107
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309399"
 ---
 # <a name="recordset2-methods-dao"></a>Recordset2 方法 (DAO)
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-- [Recordset2.AddNew 方法 (DAO)](recordset2-addnew-method-dao.md)
-- [Recordset2.Cancel 方法 (DAO)](recordset2-cancel-method-dao.md)
-- [Recordset2.CancelUpdate 方法 (DAO)](recordset2-cancelupdate-method-dao.md)
-- [Recordset2.Clone 方法 (DAO)](recordset2-clone-method-dao.md)
-- [Recordset2.Close 方法 (DAO)](recordset2-close-method-dao.md)
-- [Recordset2.CopyQueryDef 方法 (DAO)](recordset2-copyquerydef-method-dao.md)
-- [Recordset2.Delete 方法 (DAO)](recordset2-delete-method-dao.md)
-- [Recordset2.Edit 方法 (DAO)](recordset2-edit-method-dao.md)
-- [Recordset2.FillCache 方法 (DAO)](recordset2-fillcache-method-dao.md)
-- [Recordset2.FindFirst 方法 (DAO)](recordset2-findfirst-method-dao.md)
-- [Recordset2.FindLast 方法 (DAO)](recordset2-findlast-method-dao.md)
-- [Recordset2.FindNext 方法 (DAO)](recordset2-findnext-method-dao.md)
-- [Recordset2.FindPrevious 方法 (DAO)](recordset2-findprevious-method-dao.md)
-- [Recordset2.GetRows 方法 (DAO)](recordset2-getrows-method-dao.md)
-- [Recordset2.Move 方法 (DAO)](recordset2-move-method-dao.md)
-- [Recordset2.MoveFirst 方法 (DAO)](recordset2-movefirst-method-dao.md)
-- [Recordset2.MoveLast 方法 (DAO)](recordset2-movelast-method-dao.md)
-- [Recordset2.MoveNext 方法 (DAO)](recordset2-movenext-method-dao.md)
-- [Recordset2.MovePrevious 方法 (DAO)](recordset2-moveprevious-method-dao.md)
-- [Recordset2.NextRecordset 方法 (DAO)](recordset2-nextrecordset-method-dao.md)
-- [Recordset2.OpenRecordset 方法 (DAO)](recordset2-openrecordset-method-dao.md)
-- [Recordset2.Requery 方法 (DAO)](recordset2-requery-method-dao.md)
-- [Recordset2.Seek 方法 (DAO)](recordset2-seek-method-dao.md)
-- [Recordset2.Update 方法 (DAO)](recordset2-update-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-addnew-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-cancel-method-dao.md)
+- [CancelUpdate 方法 (DAO) Recordset2](recordset2-cancelupdate-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-clone-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-close-method-dao.md)
+- [CopyQueryDef 方法 (DAO) Recordset2](recordset2-copyquerydef-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-delete-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-edit-method-dao.md)
+- [FillCache 方法 (DAO) Recordset2](recordset2-fillcache-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-findfirst-method-dao.md)
+- [FindLast 方法 (DAO) Recordset2](recordset2-findlast-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-findnext-method-dao.md)
+- [FindPrevious 方法 (DAO) Recordset2](recordset2-findprevious-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-getrows-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-move-method-dao.md)
+- [MoveFirst 方法 (DAO) Recordset2](recordset2-movefirst-method-dao.md)
+- [MoveLast 方法 (DAO) Recordset2](recordset2-movelast-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-movenext-method-dao.md)
+- [MovePrevious 方法 (DAO) Recordset2](recordset2-moveprevious-method-dao.md)
+- [NextRecordset 方法 (DAO) Recordset2](recordset2-nextrecordset-method-dao.md)
+- [OpenRecordset 方法 (DAO) Recordset2](recordset2-openrecordset-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-requery-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-seek-method-dao.md)
+- [Recordset2 方法 (DAO)](recordset2-update-method-dao.md)

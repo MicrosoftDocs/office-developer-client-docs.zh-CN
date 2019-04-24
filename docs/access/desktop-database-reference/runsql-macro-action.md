@@ -12,17 +12,17 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f3ef598ad50747d99ca884043e03ebfabfef8f63
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308993"
 ---
 # <a name="runsql-macro-action"></a>RunSQL 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**RunSQL**操作可用于通过使用相应的 SQL 语句中运行访问动作查询。 还可以运行数据定义查询。
+您可以使用**RunSQL**操作来运行 Access 操作查询, 方法是使用相应的 SQL 语句。 还可以运行数据定义查询。
 
 > [!NOTE]
 > [!注释] 如果数据库不受信任，将不允许此操作。 
@@ -49,13 +49,13 @@ ms.locfileid: "28704579"
 </tr>
 <tr class="even">
 <td><p><strong>使用事务</strong></p></td>
-<td><p>选择<strong>“是”</strong>可将此查询包括在事务中。如果不想使用事务，请选择<strong>“否”</strong>。默认值为<strong>“是”</strong>。如果为此参数选择<strong>“否”</strong>，查询可能运行得更快。</p></td>
+<td><p>选择<strong>"是"</strong>将此查询包含在事务中。 如果您不想使用事务处理, 请选择 "<strong>否</strong>"。 默认值为 <strong>"是"</strong>。 如果为此参数选择 "<strong>否</strong>", 则查询可能会运行得更快。</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 使用动作查询可以追加、删除和更新记录并将查询的结果集另存为新表。使用数据定义查询可以创建、更改和删除表，还可以创建和删除索引。使用 **RunSQL** 操作可以从宏中直接执行这些操作，而无需使用存储的查询。
 
@@ -80,28 +80,28 @@ Access 查询实际上是 SQL 语句，这些语句是在您使用查询窗口�
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>追加查询</p></td>
+<td><p>Append</p></td>
 <td><p>INSERT INTO</p></td>
 </tr>
 <tr class="odd">
-<td><p>删除查询</p></td>
+<td><p>删除</p></td>
 <td><p>DELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>生成表查询</p></td>
-<td><p>选择...到</p></td>
+<td><p>生成表</p></td>
+<td><p>选择 .。。了解</p></td>
 </tr>
 <tr class="odd">
-<td><p>更新查询</p></td>
-<td><p>UPDATE</p></td>
+<td><p>Update</p></td>
+<td><p>更新</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>数据定义（特定于 SQL）</strong></p></td>
+<td><p><strong>数据定义 (特定于 SQL)</strong></p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>创建表</p></td>
-<td><p>CREATE TABLE</p></td>
+<td><p>创建表</p></td>
 </tr>
 <tr class="even">
 <td><p>更改表</p></td>
@@ -109,15 +109,15 @@ Access 查询实际上是 SQL 语句，这些语句是在您使用查询窗口�
 </tr>
 <tr class="odd">
 <td><p>删除表</p></td>
-<td><p>DROP TABLE</p></td>
+<td><p>删除表</p></td>
 </tr>
 <tr class="even">
 <td><p>创建索引</p></td>
-<td><p>CREATE INDEX</p></td>
+<td><p>创建索引</p></td>
 </tr>
 <tr class="odd">
 <td><p>删除索引</p></td>
-<td><p>DROP INDEX</p></td>
+<td><p>删除索引</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f0e7731777e3d82e3746c3886bdbddb3e43db66
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297100"
 ---
 # <a name="append-method-adox-groups"></a>Append 方法（ADOX 组）
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 将新的 [Group](group-object-adox.md) 对象添加到 [Groups](groups-collection-adox.md) 集合。
 
@@ -24,13 +24,13 @@ ms.locfileid: "28709024"
 
 *组*。追加*组*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
 |参数|说明|
 |:--------|:----------|
 |*Group* |要追加的 **Group** 对象，或者要创建并追加的组的名称。|
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 **Catalog** 的 [Groups](catalog-object-adox.md) 集合表示该目录的所有组帐户。 **User** 的 [Groups](user-object-adox.md) 集合仅表示该用户所属的组。
 

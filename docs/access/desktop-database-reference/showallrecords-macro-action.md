@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 201b284a56fbd3030b41a95424b41c73ee13e385
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308643"
 ---
 # <a name="showallrecords-macro-action"></a>ShowAllRecords 宏操作
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 
-您可以使用**ShowAllRecords**操作从活动表、 查询结果集或窗体中，删除任何应用的筛选和显示在表或结果集或窗体的基础表或查询中的所有记录的所有记录。
+您可以使用**ShowAllRecords**操作从活动表、查询结果集或窗体中删除任何已应用的筛选, 并显示表或结果集中的所有记录, 或者窗体的基础表或查询中的所有记录。
 
 ## <a name="setting"></a>Setting
 
 **ShowAllRecords**操作不具有任何参数。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-此操作可用于确保表、 查询结果集，或窗体显示 （包括任何已更改或新记录） 的所有记录。 此操作会重新查询窗体或子窗体的记录。
+您可以使用此操作来确保为表、查询结果集或窗体显示所有记录 (包括任何已更改或新记录)。 此操作会对窗体或子窗体的记录进行重新查询。
 
-您还可以使用此操作删除与**ApplyFilter**操作，**主页**选项卡或**筛选器名称**或**Where Condition**参数**OpenForm**操作的**筛选器**命令应用的任何筛选器。
+您还可以使用此操作删除应用于**ApplyFilter**操作的任何筛选器、"**开始**" 选项卡上的 "**筛选**" 命令或 "**筛选器名称**" 或 "在**OpenForm** " 操作的 " **Where 条件**" 参数。
 
-此操作的效果为单击的**主页**选项卡上，**切换筛选**或右键单击筛选的字段和窗体视图、 布局视图或数据表视图中，单击 **...清除从筛选器**。
+此操作等效于单击 "**开始**" 选项卡上的 "**切换筛选**", 或右键单击筛选字段, 然后单击 "窗体" 视图、"布局视图" 或 "数据表视图" 中的 "**清除筛选 ...** "。
 
-若要在 Visual Basic for Applications (VBA) 模块中运行**ShowAllRecords**操作，请使用**DoCmd**对象的**ShowAllRecords**方法。
+若要在 Visual Basic for Applications (VBA) 模块中运行**ShowAllRecords**操作, 请使用**DoCmd**对象的**ShowAllRecords**方法。
 
 ## <a name="example"></a>示例
 
@@ -54,26 +54,26 @@ ms.locfileid: "28721057"
 <th><p>条件</p></th>
 <th><p>操作</p></th>
 <th><p>参数：设置</p></th>
-<th><p>注释</p></th>
+<th><p>Comment</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>[公司名称筛选] = 1</p></td>
+<td><p>[公司名称筛选器] = 1</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Where 条件</strong>: [公司名称] 像&quot;[AÀÁÂÃÄ] *&quot;</p></td>
+<td><p><strong>Where 条件</strong>: [公司名称] Like &quot;[AÀÁÂÃÄ] *&quot;</p></td>
 <td><p>筛选以 A、À、Á、Â、Ã 或 Ä 开头的公司名称。</p></td>
 </tr>
 <tr class="even">
-<td><p>[公司名称筛选] = 2</p></td>
+<td><p>[公司名称筛选器] = 2</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Where 条件</strong>: [公司名称] 像&quot;B *&quot;</p></td>
+<td><p><strong>Where 条件</strong>: [公司名称] Like &quot;B *&quot;</p></td>
 <td><p>筛选以 B 开头的公司名称。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[公司名称筛选] = 3</p></td>
+<td><p>[公司名称筛选器] = 3</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Where 条件</strong>: [公司名称] 像&quot;[CÇ] *&quot;</p></td>
+<td><p><strong>Where 条件</strong>: [公司名称] Like &quot;[CÇ] *&quot;</p></td>
 <td><p>筛选以 C 或 Ç 开头的公司名称。</p></td>
 </tr>
 <tr class="even">
@@ -83,21 +83,21 @@ ms.locfileid: "28721057"
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>[公司名称筛选] = 26</p></td>
+<td><p>[公司名称筛选器] = 26</p></td>
 <td><p><strong>ApplyFilter</strong></p></td>
-<td><p><strong>Where 条件</strong>: [公司名称] 像&quot;[ZÆØÅ] *&quot;</p></td>
+<td><p><strong>Where 条件</strong>: [公司名称] Like &quot;[ZÆØÅ] *&quot;</p></td>
 <td><p>筛选以 Z、Æ、Ø 或 Å 开头的公司名称。</p></td>
 </tr>
 <tr class="even">
-<td><p>[公司名称筛选] = 27</p></td>
+<td><p>[公司名称筛选器] = 27</p></td>
 <td><p><strong>ShowAllRecords</strong></p></td>
 <td><p></p></td>
 <td><p>显示所有记录。</p></td>
 </tr>
 <tr class="odd">
-<td><p>[RecordsetClone]。[RecordCount]&gt;0</p></td>
+<td><p>[RecordsetClone]。RecordCount&gt;0</p></td>
 <td><p><strong>GoToControl</strong></p></td>
-<td><p><strong>控件名称</strong>： 公司名称</p></td>
+<td><p><strong>控件名称</strong>: 公司名称</p></td>
 <td><p>如果返回了针对所选字母的记录，则将焦点移到“公司名称”控件上。</p></td>
 </tr>
 </tbody>

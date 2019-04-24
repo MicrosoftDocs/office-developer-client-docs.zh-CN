@@ -1,5 +1,5 @@
 ---
-title: TableDef.LastUpdated 属性 (DAO)
+title: LastUpdated 属性 (DAO) TableDef
 TOCTitle: LastUpdated Property
 ms:assetid: fafe54e2-2cf0-5874-92b9-6e20a65e77ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837164(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 994543132fb5323566bd876da066419d0986bd91
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308412"
 ---
-# <a name="tabledeflastupdated-property-dao"></a>TableDef.LastUpdated 属性 (DAO)
+# <a name="tabledeflastupdated-property-dao"></a>LastUpdated 属性 (DAO) TableDef
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-返回对象的最近更改日期和时间。只读 **Variant**。
+返回对象的最近更改日期和时间。 只读 **Variant** 类型。
 
 ## <a name="syntax"></a>语法
 

@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ac1a2c8a603fb74b56d71f73605455ecdbc87035
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698678"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308692"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter 宏操作
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 可以使用 **SetFilter** 操作向活动数据表、窗体、报表或表中的记录应用筛选器。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **SetFilter** 操作具有下列参数。
 
@@ -42,11 +42,11 @@ ms.locfileid: "28698678"
 <tbody>
 <tr class="odd">
 <td><p>Filter Name</p></td>
-<td><p>如果提供该参数，则会将查询或筛选器的名称另存为查询。 客户端数据库中需要此参数或 WhereCondition 参数。 在 web 数据库中，此参数不可用。</p></td>
+<td><p>如果提供该参数，则会将查询或筛选器的名称另存为查询。 客户端数据库中必须包含该参数或 WhereCondition 参数。 在 web 数据库中, 此参数不可用。</p></td>
 </tr>
 <tr class="even">
-<td><p>Where Condition</p></td>
-<td><p>如果提供该参数，则为可限制数据表、窗体、报表或表中记录的 SQL WHERE 子句。 在 web 数据库中，此参数是必需的。</p></td>
+<td><p>Where 条件</p></td>
+<td><p>如果提供该参数，则为可限制数据表、窗体、报表或表中记录的 SQL WHERE 子句。 在 web 数据库中, 此参数是必需的。</p></td>
 </tr>
 <tr class="odd">
 <td><p>控件名称</p></td>
@@ -56,9 +56,9 @@ ms.locfileid: "28698678"
 </table>
 
 
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
-在 Web 数据库中，"Where Condition"参数不能以等号 (=) 开头。
+在 Web 数据库中，“Where Condition”参数不能以等号 (=) 开头。
 
 在运行该操作时，将对处于活动状态且具有焦点的表、窗体、报表或数据表（如查询结果）应用筛选器。
 
@@ -70,9 +70,9 @@ ms.locfileid: "28698678"
 
 ## <a name="example"></a>示例
 
-下面的示例演示如何使用 SetFilter 操作筛选在其中定义为宏的窗体。
+下面的示例演示如何使用 SetFilter 操作筛选在其中定义宏的窗体。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     OpenForm

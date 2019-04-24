@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: caabfb0f4e90134c10d5ab728f19e1fd2a4437dd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308468"
 ---
 # <a name="submacro-macro-statement"></a>Submacro 宏语句
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
-**Submacro**语句在宏设计器窗口中定义单独的宏。
+**Submacro**语句在宏设计器窗口中定义一个单独的宏。
 
-## <a name="setting"></a>设置
+## <a name="setting"></a>Setting
 
 **Submacro** 操作具有下列参数。
 
@@ -33,13 +33,13 @@ ms.locfileid: "28716192"
 <thead>
 <tr class="header">
 <th><p>参数</p></th>
-<th><p>是否必需</p></th>
+<th><p>必需</p></th>
 <th><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>名称</p></td>
+<td><p>Name</p></td>
 <td><p>是</p></td>
 <td><p>一个显示为宏名称的字符串。</p></td>
 </tr>
@@ -49,9 +49,9 @@ ms.locfileid: "28716192"
 
 ## <a name="example"></a>示例
 
-下面的宏演示如何使用 **OnError** 操作。 在此示例中， **OnError** 操作指定 Access 在发生错误时运行名为 ErrorHandler 的自定义错误处理宏。 发生错误时，调用 CatchErrors submacro。 如果错误号，2102年显示特定的邮件和暂停宏执行。 否则为显示一条描述错误消息，并将暂停该宏，以便您可以执行其他故障排除。 ErrorHandler 宏会显示一个引用 **MacroError** 对象的消息框，以显示有关该错误的信息。
+下面的宏演示如何使用 **OnError** 操作。 在此示例中， **OnError** 操作指定 Access 在发生错误时运行名为 ErrorHandler 的自定义错误处理宏。 发生错误时, 将调用 CatchErrors submacro。 如果错误号为 2102, 则显示一条特定消息, 并停止宏的执行。 否则, 将显示描述错误的消息, 并暂停宏, 以便您可以执行其他故障排除。 ErrorHandler 宏会显示一个引用 **MacroError** 对象的消息框，以显示有关该错误的信息。
 
-**示例代码提供者** [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
+**示例代码提供方：**[Microsoft Access 2010 程序员参考](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)。
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

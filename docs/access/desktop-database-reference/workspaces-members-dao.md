@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6be2aba5ab072e40193aff11ab6be54ba6c94f34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302602"
 ---
 # <a name="workspaces-members-dao"></a>工作区成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Workspaces 集合包含 DBEngine 对象的所有活动、未隐藏的 Workspace 对象。（隐藏的 Workspace 对象并不追加到集合中，而是通过它们分配到的变量进行引用）。
 
@@ -36,7 +36,7 @@ Workspaces 集合包含 DBEngine 对象的所有活动、未隐藏的 Workspace 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-append-method-dao.md">追加</a></strong></p></td>
+<td><p><strong><a href="workspaces-append-method-dao.md">置</a></strong></p></td>
 <td><p>将新的 <strong>Workspace</strong> 添加到 <strong>Workspaces</strong> 集合。</p></td>
 </tr>
 <tr class="even">
@@ -66,8 +66,8 @@ Workspaces 集合包含 DBEngine 对象的所有活动、未隐藏的 Workspace 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-count-property-dao.md">计数</a></strong></p></td>
-<td><p>返回指定集合中的对象数。只读。</p></td>
+<td><p><strong><a href="workspaces-count-property-dao.md">Count</a></strong></p></td>
+<td><p>返回指定集合中的对象数。 只读。</p></td>
 </tr>
 </tbody>
 </table>

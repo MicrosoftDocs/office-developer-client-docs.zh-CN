@@ -1,5 +1,5 @@
 ---
-title: Recordset2.Bookmarkable 属性 (DAO)
+title: Bookmarkable 属性 (DAO) Recordset2
 TOCTitle: Bookmarkable Property
 ms:assetid: 9c93d04d-ca10-acf5-122a-58625ed93424
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198125(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 26b8b60255b4e50a2288dedb8e27906476926e8c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307453"
 ---
-# <a name="recordset2bookmarkable-property-dao"></a>Recordset2.Bookmarkable 属性 (DAO)
+# <a name="recordset2bookmarkable-property-dao"></a>Bookmarkable 属性 (DAO) Recordset2
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 返回一个值，该值表示 **Recordset** 对象是否支持书签（可以使用 **[Bookmark](recordset2-bookmark-property-dao.md)** 属性来设置书签）。
 
@@ -29,13 +29,13 @@ ms.locfileid: "28714680"
 
 *表达式*。Bookmarkable
 
-*表达式*一个表示**Recordset2**对象的变量。
+*表达式*一个代表**Recordset2**对象的变量。
 
 ## <a name="remarks"></a>注解
 
-在尝试设置或检查 **Bookmark** 属性之前，请检查 **Recordset** 对象的 **Bookmarkable** 属性设置。
+在设置或检查 **Bookmark** 属性之前，检查 **Recordset** 对象的 **Bookmarkable** 属性设置。
 
-对于**Recordset**对象完全基于 Microsoft Access 数据库引擎表， **Bookmarkable**属性的值为 True，并可以使用书签。 但是，其他数据库产品可能不支持书签。 例如，在基于 Paradox 链接表（没有主键）的任何 **Recordset** 对象中，都不能使用书签。
+对于完全基于 Microsoft Access 数据库引擎表的**Recordset**对象, **Bookmarkable**属性的值为 True, 您可以使用书签。 但是，其他数据库产品可能不支持书签。 例如，不能在基于 Paradox 链接表（没有主键）的任何 **Recordset** 对象中使用书签。
 
 ## <a name="example"></a>示例
 

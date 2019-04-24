@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7cdb32bb8ff9bb6e0556a87de0efe82cd919dbe2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295182"
 ---
 # <a name="cursortype-property-ado"></a>CursorType 属性 (ADO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 指示在 [Recordset](recordset-object-ado.md) 对象中使用的游标类型。
 
 ## <a name="settings-and-return-values"></a>设置和返回值
 
-设置或返回 [CursorTypeEnum](cursortypeenum.md) 值。默认值为 **adOpenForwardOnly** 。
+设置或返回 [CursorTypeEnum](cursortypeenum.md) 值。 默认值为 **adOpenForwardOnly**。
 
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 使用 **CursorType** 属性可以指定打开 **Recordset** 对象时应使用的游标类型。
 
@@ -53,15 +53,15 @@ ms.locfileid: "28700757"
 </tr>
 <tr class="even">
 <td><p><strong>adOpenKeyset</strong></p></td>
-<td><p><strong>adBookmark</strong> <strong>adHoldRecords</strong>、 <strong>adMovePrevious</strong>、 <strong>adResync</strong></p></td>
+<td><p><strong>adBookmark</strong>、 <strong>adHoldRecords</strong>、<strong>带有 admoveprevious</strong>、 <strong>adResync</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adOpenDynamic</strong></p></td>
-<td><p><strong>adMovePrevious</strong></p></td>
+<td><p><strong>带有 admoveprevious</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>为 adOpenStatic</strong></p></td>
-<td><p><strong>adBookmark</strong> <strong>adHoldRecords</strong>、 <strong>adMovePrevious</strong>、 <strong>adResync</strong></p></td>
+<td><p><strong>adOpenStatic</strong></p></td>
+<td><p><strong>adBookmark</strong>、 <strong>adHoldRecords</strong>、<strong>带有 admoveprevious</strong>、 <strong>adResync</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -72,5 +72,5 @@ ms.locfileid: "28700757"
 
 当 **Recordset** 关闭时， **CursorType** 属性为可读/写属性，而当其打开时为只读属性。
 
-**远程数据服务用法**当客户端 Recordset 对象上使用时， **CursorType**属性可以设置仅为**adOpenStatic**。
+**远程数据服务使用情况**在客户端 Recordset 对象上使用时, **CursorType**属性只能设置为**adOpenStatic**。
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307035"
 ---
 # <a name="relation-members-dao"></a>关系成员 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 Relation 对象表示表或查询中的字段之间的关系（仅适用于 Microsoft Access 数据库引擎数据库）。
 
@@ -59,15 +59,15 @@ Relation 对象表示表或查询中的字段之间的关系（仅适用于 Micr
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="relation-attributes-property-dao.md">Attributes</a></strong></p></td>
-<td><p>设置或返回一个值，该值指示 <strong>Relation</strong> 对象的一个或多个特征。可读写 <strong>Long</strong>。</p></td>
+<td><p>设置或返回一个值，该值指示 <strong>Relation</strong> 对象的一个或多个特征。 可读写 <strong>Long</strong>。</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="relation-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。只读。</p></td>
+<td><p>返回一个 <strong>Fields</strong> 集合，该集合表示指定对象的所有存储 <strong>Field</strong> 对象。 只读。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></p></td>
-<td><p>设置或返回某个关系中的外表的名称（仅适用于 Microsoft Access 工作区）。</p></td>
+<td><p>设置或返回关系中外表的名称 (仅适用于 Microsoft Access 工作区)。 .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>
@@ -79,7 +79,7 @@ Relation 对象表示表或查询中的字段之间的关系（仅适用于 Micr
 </tr>
 <tr class="even">
 <td><p><strong><a href="relation-properties-property-dao.md">属性</a></strong></p></td>
-<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。只读。</p></td>
+<td><p>返回指定对象的 <strong><a href="properties-collection-dao.md">Properties</a></strong> 集合。 只读。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="relation-table-property-dao.md">Table</a></strong></p></td>

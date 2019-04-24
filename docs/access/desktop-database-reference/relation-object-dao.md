@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3eeaf8bf46d8673731243a1161ac578062a01f89
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307033"
 ---
 # <a name="relation-object-dao"></a>Relation 对象 (DAO)
 
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 **Relation** 对象表示表或查询中的字段之间的关系（仅适用于 Microsoft Access 数据库引擎数据库）。
 
@@ -51,9 +51,9 @@ ms.locfileid: "28716276"
 
 **Relations**(0)
 
-**关系**("name")
+**关系**("名称")
 
-**关系**\!\[名称\]
+****\!关系\[名称\]
 
 ## <a name="example"></a>示例
 
@@ -118,7 +118,7 @@ ms.locfileid: "28716276"
 
 <br/>
 
-以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。 它还演示了如何创建新的**Relation**还将创建任何必要的**索引**中的外表 （DepartmentsEmployees Employees 表中的索引）。
+以下示例使用 **CreateRelation** 方法在 Employees **TableDef** 和名为 Departments 的新的 **TableDef** 之间创建一个 **Relation**。 它还演示了如何创建新**关系**也将在外表 (Employees 表中的 DepartmentsEmployees 索引) 中创建任何必要的**索引**。
 
 ```vb
     Sub CreateRelationX() 

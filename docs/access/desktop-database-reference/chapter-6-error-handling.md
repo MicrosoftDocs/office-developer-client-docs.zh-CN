@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296407"
 ---
 # <a name="chapter-6-error-handling"></a>第 6 章：错误处理
 
-**适用于**： Access 2013、 Office 2013
+**适用于**：Access 2013、Office 2013
 
 ADO 使用几种不同的方法来将发生的错误通知应用程序。本章讨论在使用 ADO 时可能发生的错误类型，以及如何通知应用程序。本章最后提供了有关如何处理这些错误的建议。
 
@@ -44,4 +44,4 @@ ADO 按以下几种方式通知错误：
 - [与字段相关的错误信息](field-related-error-information.md)
 - [与记录集相关的错误信息](recordset-related-error-information.md)
 - [预测错误](anticipating-errors.md)
-- [处理错误用其他语言 (ADO)](handling-errors-in-other-languages.md)
+- [处理其他语言的错误 (ADO)](handling-errors-in-other-languages.md)
