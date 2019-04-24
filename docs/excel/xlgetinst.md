@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 9484f7bbc1f5e0fc5b0def17f2ce79ef226dcd17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e113ddbf55e2b4651d578549802c44e2c6413a18
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303848"
 ---
 # <a name="xlgetinst"></a>xlGetInst
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-返回当前正在呼叫 DLL 的 Microsoft Excel 实例的实例句柄。
+返回当前正在调用 DLL 的 Microsoft Excel 实例的实例句柄。
   
 ```cs
 Excel4(xlGetInst, LPXLOPER pxRes, 0); /* returns low part only */
@@ -31,24 +31,24 @@ Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 
 ## <a name="parameters"></a>参数
 
-此函数具有任何参数。
+此函数没有参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-在**val.w**字段将实例句柄 (**xltypeInt**)。 
+实例句柄 (**xltypeInt**) 将位于 " **w** " 字段中。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-用于区分多个运行实例 Excel 的 DLL 调用此函数。
+此函数可用于区分调用 DLL 的 Excel 的多个运行实例。
   
-返回的 XLOPER integer 变量时要调用此函数使用[Excel4](excel4-excel12.md)或[Excel4v](excel4v-excel12v.md)，为签名的 16 位短 int。这是只可以包含低 16 位的 32 位 Windows 句柄。 从 Excel 2007 开始， **XLOPER12**整数变量是带符号的 32 位 int 和因此包含整个窗口的句，而不必循环访问所有打开的窗口。 
+使用[Excel4](excel4-excel12.md)或[Excel4v](excel4v-excel12v.md)调用此函数时, 返回的 XLOPER 整数变量是带符号的16位短整型。这只能包含32位 Windows 句柄的低16位。 从 Excel 2007 开始, **XLOPER12**的整数变量是一个有符号的32位 int, 因此包含整个句柄, 从而消除了对所有打开的窗口进行迭代的需求。 
   
 > [!IMPORTANT]
-> 如果与 64 位版本的 Microsoft Excel 使用**xlGetInst**函数，则将失败函数。 这是因为**xltypeInt**值类型不宽到足以容纳在这种情况下返回 Excel 的 64 位长句柄。 为此，Excel 2010 引入了新的函数名为[xlGetInstPtr](xlgetinstptr.md)，与 Excel 的 32 位和 64 位版本正确运行。 
+> 如果将**xlGetInst**函数与64位版本的 Microsoft Excel 一起使用, 则函数将失败。 这是因为**xltypeInt**值类型的宽度不足以容纳 Excel 在这种情况下返回的64位长句柄。 为了实现此目的, excel 2010 引入了一个名为[xlGetInstPtr](xlgetinstptr.md)的新函数, 该函数可以使用32位和64位版本的 Excel 来正常运行。 
   
 ## <a name="example"></a>示例
 
-下面的示例将实例调用于调用它的 Excel 的当前副本的 Excel 的最后一个副本进行比较。 如果它们是相同的则将返回 1;如果没有，则返回 0;如果函数失败，则返回-1。
+下面的示例将调用它的 excel 的最后一个副本的实例与调用它的 excel 的当前副本进行比较。 如果它们相同, 则返回 1; 否则返回1。如果不是, 则返回 0;如果函数失败, 则返回-1。
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

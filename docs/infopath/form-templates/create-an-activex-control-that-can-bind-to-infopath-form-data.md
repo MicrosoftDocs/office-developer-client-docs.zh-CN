@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: 您可以在 InfoPath 表单中承载设计为要在 InfoPath 编辑器中打开的 ActiveX 控件。这些控件可以预先存在（带有某些限制），也可以专门针对 InfoPath 编写。
 ms.openlocfilehash: 70ac6a16b305403ffa99d8fe840a165913642f57
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300187"
 ---
 # <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>创建可绑定到 InfoPath 表单数据的 ActiveX 控件
 
@@ -57,7 +57,7 @@ ms.locfileid: "25392793"
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>向 InfoPath 设计环境中添加 ActiveX 控件
 
-利用“控件”**** 任务窗格中的“添加或删除自定义控件”**** 命令，您可以使用“添加自定义控件向导”**** 来添加自定义控件。通过使用该向导，您可以选择已注册的 ActiveX 控件，或在 Office 市场上查找其他自定义控件。选择控件之后，您可以指定以下各项。 
+The **Add or Remove Custom Controls** command on the **Controls** task pane enables you to use the **Add Custom Control Wizard** to add a custom control. By using the wizard, you can select an ActiveX control that has already been registered or find additional custom controls on Office Marketplace. After you select a control, you can specify the following items. 
   
 - 指定 CAB 以随表单模板一起安装 ActiveX 控件。
     

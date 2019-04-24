@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: Web 服务可以向描述 Web 服务的 Web 服务描述语言 (WSDL) 协定中的 Web 方法公开两种绑定样式中的一种：Document 或 RPC。
 ms.openlocfilehash: 0eacf013c9cdf74f18f3de1d4412ca4ca165a960
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303526"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath、RPC 编码和 Web 服务
 
@@ -41,7 +41,7 @@ Web 服务可以向描述 Web 服务的 Web 服务描述语言 (WSDL) 协定中�
     
 5. 打开 Web 服务的 .asmx 文件，并添加一个 Web 服务方法，以便从引用的 RPC/encoded Web 服务调用每种 Web 服务方法。
     
-6. 要在引用 RPC/已编码 Web 服务器中查看方法列表，请显示****“类视图”窗口。 对于每个 Web 服务方法，你将看到三个方法。 例如，如果 Web 服务方法称为 `doSearch`，则你将看到分别称为 `doSearch`、`BegindoSearch` 和 `EnddoSearch` 的三个方法。 只需为 `doSearch` 方法创建包装 Web 服务方法。 请务必匹配确切的方法签名和返回类型。 
+6. To view a list of the methods in the reference RPC/encoded Web server, display the **Class View** window. For each Web Service method, you will see three methods. For example, if the Web Service method is called  `doSearch`, then you will see three methods called  `doSearch`,  `BegindoSearch`, and  `EnddoSearch`. You only have to create a wrapper Web Service method for the  `doSearch` method. Be sure to match the exact method signature and return type. 
     
 7. 在每个包装方法中，您必须编写代码，以调用引用的 RPC/encoded Web 服务，如下例所示。 
     

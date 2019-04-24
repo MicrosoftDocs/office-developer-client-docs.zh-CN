@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4690028e-20ac-297b-4651-801f5159c747
 description: 阅读本主题之前，请先参阅 更多 InfoPath 表单安全性概念，以便对 InfoPath 安全模型有一个大概了解。
-ms.openlocfilehash: 3a72421882e655f34abd1eda30fe7e4fb42c45c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 5108d8b1967b72ac4805f892bcf3bbae3aecccbe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299921"
 ---
 # <a name="security-guidelines-for-developing-infopath-forms"></a>开发 InfoPath 表单的安全指南
 
@@ -33,13 +33,13 @@ InfoPath 可帮助用户抵御由恶意编写的表单模板所引发的下列�
 
 如果某个恶意表单编写者创建了一个表单，该表单利用当前用户的安全凭据访问某个域上的数据源，而该域并非部署该表单所在的域，这时，就会发生最为常见的敏感信息泄露情况。 例如，一个恶意用户可能通过电子邮件或使用 URL（指向私人共享或 Web 服务器上的表单）发送一个表单。 该表单中可能含有脚本，该脚本利用当前用户的凭据执行数据访问请求，从该恶意用户原本无权访问的另一个域中的数据源（例如薪资或其他敏感信息的数据库）中检索数据。 此类安全风险情况被称为跨域访问数据。
   
-基于其构建 InfoPath 的 Internet Explorer 安全模型提供称为“跨域访问数据源”**** 的设置，此设置在默认情况下为驻留在“Internet”**** 和“受限站点”**** 安全区域的 InfoPath 表单禁用跨域访问。 此设置还会提示用户为驻留在“本地 Intranet”**** 安全区域的 InfoPath 表单允许或禁止跨域访问，并且为驻留在“可信站点”**** 或“本地计算机”**** 区域的 InfoPath 表单启用跨域访问。 
+InfoPath 建立在 Internet Explorer 安全模型基础之上。该模型提供了一项称为“跨域访问数据源”**** 的设置，默认情况下，该设置禁止对位于“Internet”**** 和“受限制的站点”**** 安全区域内的 InfoPath 表单执行跨域访问。此外，该设置还提示用户允许或禁止对位于“本地 Intranet”**** 安全区域内的 InfoPath 表单执行跨域访问，它允许对位于“受信任的站点”**** 或“本地计算机”**** 区域内的 InfoPath 表单执行跨域访问。 
   
 ## <a name="malicious-use-of-activex-controls"></a>恶意使用 ActiveX 控件
 
 当恶意表单编写者针对可访问文件系统的 ActiveX 控件编写代码，以检索个人文件和密码列表、删除文件或禁用用户的系统时，主要就会发生恶意使用 ActiveX 控件的情况。InfoPath 表单只能通过业务逻辑或在任务窗格中运行的脚本来运行针对 ActiveX 控件的代码。InfoPath 不允许 InfoPath 视图中的脚本运行 ActiveX 控件。
   
-基于其构建 InfoPath 的 Internet Explorer 安全模型提供称为“初始化标记为不安全的 ActiveX 控件并为其创建脚本”**** 的设置。 此设置在默认情况下为驻留在“本地 Intranet”****、“Internet”**** 和“受限站点”**** 安全区域的 InfoPath 表单禁用“初始化标记为不安全的 ActiveX 控件并为其创建脚本”。 还会提示用户为驻留在“可信站点”**** 或“本地计算机”**** 的 InfoPath 表单允许或禁止为标记为不安全的 ActiveX 控件创建脚本，并且为完全可信的 InfoPath 表单启用为标记为不安全的 ActiveX 控件创建脚本。 
+The Internet Explorer security model that InfoPath is built upon provides a setting called **Initialize and script ActiveX controls marked as unsafe**. This setting, by default, disables initializing and scripting ActiveX controls marked as unsafe for InfoPath forms that reside in the **Local intranet**, **Internet**, and **Restricted sites** security zones. It prompts the user to allow or disallow scripting of ActiveX controls marked as unsafe for InfoPath forms that reside in the **Trusted sites** or the **Local Machine** security zones, and it enables scripting of ActiveX controls marked as unsafe for InfoPath forms that are fully trusted. 
   
 此外，无论您位于哪个安全区域，也无论表单的信任级别如何，在设计模式下，您都无法在控件任务窗格中插入那些标记为不能安全地进行初始化和编写脚本的 ActiveX 控件。
   
@@ -73,7 +73,7 @@ InfoPath 可帮助用户抵御由恶意编写的表单模板所引发的下列�
 
  **将表单及其数据源部署在同一域中**
   
-大多数用户并没有清楚地了解跨域访问数据的安全风险。 部署不断警告并提示用户是否允许跨域访问数据的表单，会将许多用户训练成批准所有跨域访问请求，或将原始域添加到其“可信站点”**** 列表，而不会严肃对待安全风险。 若要避免这种情况，请将同一服务器上的 InfoPath 表单部署为它们所依赖的数据源。 
+The security risk of cross-domain data access is not clearly understood by most users. Deploying forms that continually warn and prompt users about allowing cross-domain data access has the effect of training many users to approve all cross-domain access requests, or to add the originating domain to their **Trusted sites** list, without taking the security risks seriously. To avoid this situation, deploy InfoPath forms on the same server as any data sources on which they depend. 
   
  **避免使用那些没有标记为可安全编写脚本的 ActiveX 控件**
   

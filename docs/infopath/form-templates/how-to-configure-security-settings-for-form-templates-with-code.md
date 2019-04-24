@@ -7,13 +7,13 @@ keywords:
 - security policy deployment package [infopath 2007],URLs [InfoPath 2007], assigning FullTrust,code access security [InfoPath 2007],UNCs [InfoPath 2007], assigning FullTrust,CAS [InfoPath 2007],security [InfoPath 2007], configuring,code groups [InfoPath 2007],FullTrust [InfoPath 2007], assigning to UNCs,FullTrust [InfoPath 2007], assigning to URLs
 localization_priority: Normal
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
-description: 可以通过使用 .NET 配置管理单元自定义应用于 InfoPath 托管代码表单模板的权限集。
+description: 可以使用 .NET 配置管理单元自定义应用于 InfoPath 托管代码表单模板的权限集。
 ms.openlocfilehash: 77f3546d976bb5ea353aa3fbe58ba7af6cd92a6d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300156"
 ---
 # <a name="configure-security-settings-for-form-templates-with-code"></a>为包含代码的表单模板配置安全设置
 
@@ -100,7 +100,7 @@ ms.locfileid: "25391414"
 
 1. 在 **"开始"** 菜单中，指向 **"管理工具"**，然后单击 **"Microsoft .NET Framework 2.0 Configuration"**。
     
-    如果“开始”**** 菜单上没有“管理工具”****，请在“控制面板”**** 中打开“管理工具”****，然后双击“Microsoft .NET Framework 2.0 Configuration”****。
+    If you do not have **Administrative Tools** on the **Start** menu, from the **Control Panel** open **Administrative Tools**, and then double-click **Microsoft .NET Framework 2.0 Configuration**.
     
 2. 右键单击 **"运行库安全策略"**，再单击 **"创建部署包"**。
     

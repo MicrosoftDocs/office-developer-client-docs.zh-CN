@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9e17e8ef7df33ffa248eec4195c00c77d0c49f94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 16e85eabc067bd82f5fb89c917afaf2831c75673
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300467"
 ---
 # <a name="getattribimsgonistg"></a>GetAttribIMsgOnIStg
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索上提供[OpenIMsgOnIStg](openimsgonistg.md)函数的[IMessage](imessageimapiprop.md)对象的属性的属性。 
+检索[OpenIMsgOnIStg](openimsgonistg.md)函数提供的[IMessage](imessageimapiprop.md)对象上属性的属性。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Imessage.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和消息存储提供程序  <br/> |
+|标头文件：  <br/> |Imessage  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和邮件存储提供程序  <br/> |
    
 ```cpp
 HRESULT GetAttribIMsgOnIStg(
@@ -45,33 +45,33 @@ HRESULT GetAttribIMsgOnIStg(
 
  _lpObject_
   
-> [in]对从[OpenIMsgOnIStg](openimsgonistg.md)函数获取**IMessage**对象的指针。 
+> 实时指向从[OpenIMsgOnIStg](openimsgonistg.md)函数获取的**IMessage**对象的指针。 
     
  _lpPropTagArray_
   
-> [in]指向[SPropTagArray](sproptagarray.md)结构，其中包含数组属性标记，指示要为其检索属性的属性。 
+> 实时指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含一个指明要检索其属性的属性的属性标记数组。 
     
  _lppPropAttrArray_
   
-> [输出]为包含检索的 property 属性的返回[SPropAttrArray](spropattrarray.md)结构指针的指针。 
+> 排除指向指向包含检索到的属性属性的返回[SPropAttrArray](spropattrarray.md)结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。 
+> 调用成功, 并返回了所需的值或值。 
     
 MAPI_W_ERRORS_RETURNED 
   
-> 调用成功总体上讲，但无法访问并已返回与 PT_ERROR 属性类型的一个或多个属性。
+> 调用全部成功, 但无法访问一个或多个属性, 并使用 PT_ERROR 的属性类型返回。
     
 ## <a name="remarks"></a>注解
 
-Property 属性只能在 property 对象，即，实现的对象上访问[IMAPIProp: IUnknown](imapipropiunknown.md)接口。 使 MAPI 属性 OLE 结构化的存储对象上可用， [OpenIMsgOnIStg](openimsgonistg.md)生成[IMessage: IMAPIProp](imessageimapiprop.md) OLE **IStorage**对象上的对象。 此类对象上的属性属性可以设置或更改与[SetAttribIMsgOnIStg](setattribimsgonistg.md)和检索与**GetAttribIMsgOnIStg**。 
+只能在属性对象 (即实现[IMAPIProp: IUnknown](imapipropiunknown.md)接口的对象) 上访问属性属性。 若要使 MAPI 属性在 ole 结构化存储对象上可用, [OpenIMsgOnIStg](openimsgonistg.md)在 ole **IStorage**对象的顶部生成[IMessage: IMAPIProp](imessageimapiprop.md)对象。 此类对象上的属性属性可以使用[SetAttribIMsgOnIStg](setattribimsgonistg.md)进行设置或更改, 并可使用**GetAttribIMsgOnIStg**进行检索。 
   
 > [!NOTE]
-> **GetAttribIMsgOnIStg**和**SetAttribIMsgOnIStg**请勿对所有**IMessage**对象。 它们只是有效的**IMessage**上返回**OpenIMsgOnIStg** **IStorage**对象。 
+> **GetAttribIMsgOnIStg**和**SetAttribIMsgOnIStg**不对所有**IMessage**对象进行操作。 它们仅对**OpenIMsgOnIStg**返回的**IMessage** **IStorage**对象有效。 
   
-数目和_lppPropAttrArray_参数中的位置的属性对应于的数量和_lpPropTagArray_参数中的属性标记的位置。 
+_lppPropAttrArray_参数中属性的数目和位置对应于_lpPropTagArray_参数中的属性标记的编号和位置。 
   
 

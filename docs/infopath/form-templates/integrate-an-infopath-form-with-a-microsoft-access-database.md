@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ec9a9c0-b348-4a31-b377-e95db2f92455
 description: Microsoft InfoPath 支持将 Microsoft Access 2010 数据库用作表单的主要数据源，或者用作表单或控件的辅助数据源。本文介绍如何使用 Access 2010 数据库作为数据源。
-ms.openlocfilehash: 30aea15a5e9a8d19f64b3f089b71e859cff93e0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: dbc39e0d0908214904d77b8955f3d231f0bfb20b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303512"
 ---
 # <a name="integrate-an-infopath-form-with-a-microsoft-access-database"></a>将 InfoPath 表单与 Microsoft Access 数据库集成
 
@@ -21,47 +21,47 @@ Microsoft InfoPath 支持将 Microsoft Access 2010 数据库用作表单的主�
 
 ### <a name="setting-up-a-microsoft-access-database-as-a-forms-primary-data-source"></a>将 Microsoft Access 数据库设置为表单的主要数据源
 
-在 InfoPath 中使用“数据连接向导”**** 建立数据库连接。 在 Microsoft Office Backstage 的“新建”**** 选项卡上的“高级表单模板”**** 部分中选择“数据库”****，然后单击“设计此表单”****，由此可打开此向导。
+Database connections are established in InfoPath by using the **Data Connection Wizard**. This wizard is opened by selecting **Database** in the **Advanced Form Templates** section on the **New** tab of the Microsoft Office Backstage, and then clicking pressing **Design This Form**.
   
 通过单击“选择数据库”****，可以选择现有数据源或直接连接到特定数据库文件。
   
-选择数据库后，向导会提示你从数据库中选择一个表来用作表单的数据源。 添加表时，它们相互之间的关系随之建立，向导会在“数据源结构”**** 列表中显示表及其分层关系。 如果选中“显示表列”**** 复选框，向导会在数据源结构列表中显示每个表的字段名称。可以使用每个字段名称旁边的复选框指定字段是否包含在向导构造的 SQL 语句中。 
+After you select a database, the wizard prompts you to select a table from the database to use as the data source for the form. As you add tables, their relationships to each other are established, and the wizard displays the tables and their hierarchical relationships in the **Data source structure** list. If you select the **Show table columns** check box, the wizard displays the field names of each table in the Data source structure list; you use the check boxes next to each field name to specify whether a field is included in the SQL statement that the wizard constructs. 
   
 > [!NOTE]
 > 每个表中的主键字段会始终被选中，并且无法删除。 
   
-使用“数据连接向导”**** 指定表、关系和字段后，可以单击“编辑 SQL”**** 查看将用于为表单建立数据源的 SQL 语句。 在“编辑 SQL”**** 对话框中，可以单击“测试 SQL 语句”**** 以验证 InfoPath 是否能够根据提供的信息创建数据源。 你还可以使用“编辑 SQL”**** 对话框修改 SQL 语句以创建更复杂的查询。 
+When the tables, relationships, and fields have been specified using the **Data Connection Wizard**, you can click **Edit SQL** to view the SQL statement that will be used to establish the data source for the form. In the **Edit SQL** dialog box, you can click **Test SQL Statement** to verify that InfoPath will be able to create the data source from the information provided. You can also use the **Edit SQL** dialog box to modify the SQL statement to create more complex queries. 
   
 > [!NOTE]
 > InfoPath 使用的 SQL 语句是数据构形查询。数据构形查询允许在查询中的两个或多个逻辑实体之间建立层次关系。可以使用 SQL JOIN 语句，但不建议这么做，因为这样做将会禁用表单提交。有关数据构形查询的详细信息，请参阅 Microsoft Developer Network (MSDN) 上的文档。 
   
-“数据连接向导”**** 的最后一页显示有关数据源的摘要信息，其中包括数据源的名称和文件位置、主父表的名称、所用表的数量以及提交状态。 提交状态会提示生成的 SQL 语句是否允许将数据成功提交到数据源。 
+The last page of the **Data Connection Wizard** displays summary information about the data source, including the name and file location of the data source, the name of the primary parent table, the number of tables used, and the submit status. The submit status tells you whether the generated SQL statement will allow for successful submission of data to the data source. 
   
 ### <a name="setting-up-a-microsoft-access-database-as-a-secondary-data-source"></a>设置 Microsoft Access 数据库作为辅助数据源
 
-辅助数据源可用来为列表框或下拉列表框提供条目，也可以编写代码将辅助数据源中的数据添加到表单中。 若要在表单中使用辅助数据源，请在设计表单时单击“数据”**** 选项卡上的“数据连接”****。 
+Secondary data sources can be used to provide the entries for a list box or drop-down list box, or you can write code to add data from a secondary data source to your form. To work with secondary data sources in your form, click **Data Connections** on the **Data** tab when designing a form. 
   
-当启动“数据连接向导”**** 时，系统会提示是选择接收要在表单中使用的数据，还是选择在表单中提交数据。 选择“接收数据”****，然后单击“下一步”****。 若要从数据库创建辅助数据源，请选择“数据库(仅限 Microsoft SQL Server 或 Microsoft Office Access)”****。 在向导的下一页上，单击“选择数据库”**** 以选择现有数据源或直接连接到特定数据库文件。 
+When you start the **Data Connection Wizard**, you are prompted to select whether to receive data to use in the form, or to submit data in the form. Choose **Receive data**, and then click **Next**. To create a secondary data source from a database, select **Database (Microsoft SQL Server or Microsoft Office Access only)**. On the next page of the wizard, click **Select Database** to choose an existing data source or connect directly to a specific database file. 
   
-选择数据库后，向导会提示你从数据中选择一个表或查询来用作表单的数据源。 必须首先选择一个表或查询，但如果要包含其他表，可以稍后进行选择。 选择表或查询后，向导会允许你选择要在“数据源结构”**** 列表中使用的字段。 默认情况下，表的所有字段处于选中状态，但是如果你的表单不需要这些字段，可以将其删除。 你还可以控制从表中返回的记录的排序方式，以及是否允许多个记录。 为此，请单击“修改表”****，然后在“排序顺序”**** 对话框中最多选择三个排序条件。 如果满意此配置，则单击“完成”****。
+After you select a database, the wizard prompts you to select a table or query from the database to use as the data source for the form. You must select one table or query to begin with, but you can select additional tables later if you want to include them. After you've selected a table or query, the wizard allows you to select the fields you want to use in the **Data source structure** list. By default, all the fields of the table are selected, but you can remove fields if they aren't necessary for your form. You can also control how the records returned from the table are sorted, and whether multiple records are allowed. To do so, click **Modify Table**, and then select up to three sorting criteria in the **Sort Order** dialog box. When you're satisfied, click **Finish**.
   
 > [!NOTE]
 > 每个表中的主键字段会始终被选中，并且无法删除。 
   
-InfoPath 还允许你从多个表或查询中同时检索数据。 从多个表或查询中检索数据时，必须能够在与“数据连接向导”**** 中选择的原始表或查询相关的所有表或查询之间建立关系。 例如，如果要从 Northwind 数据库的 Customers 表中检索数据，则可以添加 Orders 表以检索有关该客户的所有订单的数据，并且可以添加 Order Details 表以检索每个订单的详细信息。
+InfoPath also enables you to retrieve data from multiple tables or queries at the same time. When you retrieve data from multiple tables or queries, you must be able to establish a relationship between all of the tables or queries involved with the original table or query you selected in the **Data Connection Wizard**. For example, if you were retrieving data from the Customers table of the Northwind database, you could add the Orders table to retrieve data about all the orders for that customer, and you could add the Order Details table to retrieve the details of each order.
   
-若要将其他表添加到数据源，请在“数据源结构”**** 列表中选择要添加子表的表，然后单击“添加表”****。 选择要添加的表或查询，然后单击“下一步”****。 InfoPath 会提示你选择要使用的关系。 如果两个表中的字段具有相同的名称，InfoPath 会自动将这些字段添加为关系，但如果不具有相同的名称，或者如果想要使用自定义关系，则可以单击“添加关系”**** 以指定父表中的哪些字段与子表中的字段相对应。 此外还可以通过单击“编辑关系”**** 对话框中的“删除关系”**** 删除现有关系。 
+To add an additional table to the data source, select the table you want to add a child table to in the **Data source structure** list, and then click **Add Table**. Select the table or query you want to add, and then click **Next**. InfoPath prompts you to select the relationship or relationships you want to use. If fields in the two tables have the same name, InfoPath automatically adds those fields as a relationship, but if not, or if you want to use a custom relationship, you can click **Add Relationship** to specify which fields in the parent table correspond to fields in the child table. You can also remove existing relationships by clicking **Remove Relationship** in the **Edit Relationship** dialog box. 
   
-如果对关系感到满意，请单击“完成”****。 与主表一样，可以指定从子表返回哪些字段。 但是无法使用“修改表”**** 按钮编辑返回记录的顺序。 
+When you're satisfied with the relationships, click **Finish**. As with the main table, you can specify which fields are returned from the child table. You cannot, however, use the **Modify Table** button to edit the order in which the records are returned. 
   
-指定表、关系和字段后，可以单击“编辑 SQL”**** 以查看将用于为表单建立数据源的 SQL 查询语句。 在“编辑 SQL”**** 对话框中，可以单击“测试 SQL 语句”**** 以验证 InfoPath 是否能够根据提供的信息创建数据源。 你还可以使用“编辑 SQL”**** 对话框修改 SQL 语句以创建更复杂的查询。 
+When the tables, relationships, and fields have been specified, you can click **Edit SQL** to view the SQL query statement that will be used to establish the data source for the form. In the **Edit SQL** dialog box, you can click **Test SQL Statement** to verify that InfoPath will be able to create the data source from the information provided. You can also use the **Edit SQL** dialog box to modify the SQL statement to create more complex queries. 
   
 > [!NOTE]
 > InfoPath 使用的 SQL 语句是数据构形查询。数据构形查询允许在查询中的两个或多个逻辑实体之间建立层次关系。可以使用 SQL JOIN 语句，但不建议这么做，因为这样做将会禁用表单提交。有关数据构形查询的详细信息，请参阅 Microsoft Developer Network (MSDN) 上的文档。 
   
 ## <a name="enabling-form-submission"></a>启用表单提交
 
-除了从 Access 数据库接收数据外，InfoPath 还可以将新数据或更改过的数据提交回数据库。 当使用“主页”**** 选项卡或 Microsoft Office Backstage 上的“提交”**** 命令将更改提交到数据库时，InfoPath 使用 ActiveX 数据对象 (ADO) 更新数据库中的记录。 当满足以下所有条件时启用表单提交： 
+In addition to receiving data from an Access database, InfoPath can submit new or changed data back to the database. When you use the **Submit** command on the **Home** tab or the Microsoft Office Backstage to submit changes to the database, InfoPath uses ActiveX Data Objects (ADO) to update the records in the database. Form submission is enabled when all of the following conditions are met: 
   
 - 表单查询中使用的每个列必须都有一个基础列。
     
@@ -75,6 +75,6 @@ InfoPath 还允许你从多个表或查询中同时检索数据。 从多个表�
     
 - 在表单查询所使用的 SELECT 子句中，所有列只有一个基表。
     
-在某些情况下，InfoPath 无法将表单更改提交到数据库。 例如，如果创建的表单是从查询而不是表中提取数据，或者如果自定义的 SQL 语句被 InfoPath 用来包含 JOIN 语句，则 InfoPath 将无法提交更改。 另一种阻止 InfoPath 提交更改的情况是，你要将表添加到与其父表具有多对一关系的表单中。 在 InfoPath 无法将更改提交到数据库的情况下，“数据连接向导”**** 最后一页上的“提交状态”**** 字段将显示限制提交的原因。 
+There are some circumstances under which InfoPath cannot submit form changes to a database. For example, if you create a form that draws data from a query instead of a table, or if you customize the SQL statement that is used by InfoPath to include a JOIN statement, InfoPath will be unable to submit changes. Another circumstance that would prevent InfoPath from submitting changes is if you were to add tables to the form that have a many-to-one relationship with their parent table. In situations where InfoPath will be unable to submit changes to the database, the **Submit status** field on the last page of the **Data Connection Wizard** will display the reason for the limitation. 
   
 

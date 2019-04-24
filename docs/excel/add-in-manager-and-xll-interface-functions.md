@@ -1,26 +1,26 @@
 ---
-title: 加载项管理器和 XLL 接口函数
+title: 外接程序管理器和 XLL 接口函数
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- 函数 [excel 2007]、 加载项管理器、 函数 [Excel 2007]、 XLL 接口
+- 函数 [excel 2007], 外接程序管理器, 函数 [excel 2007], XLL 接口
 localization_priority: Normal
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: a70eb2021b464352238699b2606d2d7d4c378f0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab8cf5b58bc8a482b0dda103e0ec0ef37fc5f01f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301671"
 ---
-# <a name="add-in-manager-and-xll-interface-functions"></a>加载项管理器和 XLL 接口函数
+# <a name="add-in-manager-and-xll-interface-functions"></a>外接程序管理器和 XLL 接口函数
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-此部分包含 Microsoft Excel 和加载项管理器中查找的 XLL 的功能的参考文档。
+本节包含 Microsoft Excel 和外接程序管理器在 XLL 中查找的函数的参考文档。
   
 ## <a name="in-this-section"></a>本节内容
 

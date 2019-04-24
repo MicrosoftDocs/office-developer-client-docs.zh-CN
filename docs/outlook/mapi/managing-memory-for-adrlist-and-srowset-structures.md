@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: ef20cf8460aa7d3d160208109e42b2de66658d54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: a5636cad7cad23bb5114bdbd34aff48c3639773b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298124"
 ---
-# <a name="managing-memory-for-adrlist-and-srowset-structures"></a>管理内存 ADRLIST 和 SRowSet 结构"
+# <a name="managing-memory-for-adrlist-and-srowset-structures"></a>管理 ADRLIST 和 SRowSet 结构的内存
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-为尽可能使用单个**MAPIAllocateBuffer**呼叫缓冲区分配所有内存要求不适用于时使用的地址列表中或**ADRLIST**，和行集或**SRowSet**，结构。 
+如果使用单个**MAPIAllocateBuffer**调用时, 需要为缓冲区分配所有内存, 如果使用地址列表、 **ADRLIST**、行集或**SRowSet**, 则不适用。 
   
-以下两个结构是分配和释放内存的标准规则例外。 它们包含多个层次结构的旨在使单个成员都能添加或删除。 因此，每个属性必须单独分配。 
+这两个结构是用于分配和释放内存的标准规则的例外。 它们包含多个级别的结构, 旨在允许添加或删除单个成员。 因此, 每个属性都必须是单独的分配。 
 
-其中大多数结构释放调用一次**MAPIFreeBuffer**，每个**ADRLIST**或**SRowSet**结构中的各个条目，必须释放自己调用**MAPIFreeBuffer**或单个调用**FreeProws**或**FreePadrlist**。 有关详细信息，请参阅[MAPIFreeBuffer](mapifreebuffer.md)、 [ADRLIST](adrlist.md)和[SRowSet](srowset.md)。 
+在使用一次调用**MAPIFreeBuffer**释放大部分结构后, **ADRLIST**或**SRowSet**结构中的每个单独条目都必须使用自己的**MAPIFreeBuffer**调用或对**FreeProws** **的单个调用进行释放, 或者FreePadrlist**。 有关详细信息, 请参阅[MAPIFreeBuffer](mapifreebuffer.md)、 [ADRLIST](adrlist.md)和[SRowSet](srowset.md)。 
 
-**FreeProws**和**FreePadrlist**是由 MAPI 提供的用于简化这些数据结构释放的功能。 有关详细信息，请参阅[FreeProws](freeprows.md)和[FreePadrlist](freepadrlist.md)。 **FreePadrlist**释放**ADRLIST**结构内存以及所有关联的结构成员; 内存**FreeProws**执行相同的**SRowSet**结构。 
+**FreeProws**和**FreePadrlist**是 MAPI 提供的用于简化这些数据结构的释放的函数。 有关详细信息, 请参阅[FreeProws](freeprows.md)和[FreePadrlist](freepadrlist.md)。 **FreePadrlist**释放**ADRLIST**结构的内存以及结构成员的所有关联内存;**FreeProws**对**SRowSet**结构进行相同的工作。 
   
-下图显示了指示所需的单独的内存分配**ADRLIST**数据结构的布局。 灰色框中显示可以分配和释放调用一次使用的内存。 
+下图显示了**ADRLIST**数据结构的布局, 指示需要单独的内存分配。 灰色框显示可通过一次调用分配和释放的内存。 
   
 **ADRLIST 内存分配**
   

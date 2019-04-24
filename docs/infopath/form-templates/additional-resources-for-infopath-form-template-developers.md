@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 6d29e3ed-80a2-4879-a2a5-3855992bec1d
 description: 处理 Microsoft InfoPath 托管代码项目的开发人员可以从下列资源找到更多信息。
 ms.openlocfilehash: 3f46ac3754a3cc09d1c6cabbbc6e2fec8d391701
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300453"
 ---
 # <a name="additional-resources-for-infopath-form-template-developers"></a>面向 InfoPath 表单模板开发人员的其他资源
 

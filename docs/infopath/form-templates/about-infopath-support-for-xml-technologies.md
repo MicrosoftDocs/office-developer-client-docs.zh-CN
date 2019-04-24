@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
 description: Microsoft InfoPath 是一种混合式工具，它结合了传统文档编辑体验（例如字处理器或电子邮件应用程序）的优点，以及表单数据包精确的数据捕获功能。 本文描述了 InfoPath 可解决的问题，并介绍了用于解决这些问题的设计原则和 XML 行业标准。
-ms.openlocfilehash: 5d7b0bd0de045bdb9ada6946b7142993cd80df0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300334"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>关于 InfoPath 对 XML 技术的支持
 
@@ -41,9 +41,9 @@ InfoPath 通过提供可随着添加使用 XML 分层数据模型的域组而增
 
 一个必须要解决的重要技术设计问题是：如何提供一个易于使用的用户界面，用于在不显示元素和属性的情况下添加和移除 XML 元素和属性，但要使 DOM 树依照自定义 XML 架构保持有效。该用户界面需要提供一种自然的方式来编辑 DOM 树，包括插入可选的子树、替换子树选项，以及扩展现有子树。
   
-为了提供这种简单的用户界面，DOM 子树显示为字段组或节。 字段组是一组 UI 控件（如文本框和下拉列表），被用作简单的用户界面，使用户能够可视化和编辑分层的 XML 数据。 字段组可以包含其他字段组，可以是可选的或重复的，就像 DOM 子树可以包含其他子树且可以是可选的或重复的一样。 当用户将鼠标指针停留在字段组上时，会将子树添加到 DOM 树中，单击字段组上出现的下拉菜单，然后选择“插入\<字段组名称\>”****。
+To provide this easy user interface, a DOM subtree is displayed as a field group, or section. A field group is a group of UI controls, such as text boxes and drop-down lists, and serves as an easy user interface that enables the user to visualize and edit hierarchical XML data. A field group can contain other field groups and can be optional or repeating, just as a DOM subtree can contain other subtrees and can be optional or repeating. A subtree is added to the DOM tree when the user rests the mouse pointer over a field group, clicks the drop-down menu that appears on the field group, and then selects **Insert \<field group name\>**.
   
-InfoPath 通过使用指定的 XML 架构来约束和指导编辑，从而提供 XML 数据的这种结构化编辑。 此架构控制是否在字段组的下拉菜单中显示 **Insert** 和 **Remove** 命令。 此架构还用于验证。 为了能够编辑没有 XML 架构的 XML 文档，InfoPath 可以从 XML 文档生成架构。 
+InfoPath provides this structured editing of XML data by using the specified XML schema to constrain and guide editing. The schema controls whether the **Insert** and **Remove** commands appear on the drop-down menu for a field group. The schema is also used for validation. To enable editing of an XML document for which there is no XML schema, InfoPath can generate a schema from the XML document. 
   
 ## <a name="providing-easy-to-use-views-of-xml-data-by-using-xslt-transformations"></a>通过使用 XSLT 转换提供易于使用的 XML 数据视图
 
@@ -85,7 +85,7 @@ InfoPath 完全是依据 XML 标准构建的，这些标准包括：
     
 例如，InfoPath 使用并生成可在各种业务流程中重用的标准 XML、XSLT 和 XSD 文件。InfoPath 使用 MSXML、SOAP 工具包和 .NET System.XML 命名空间来支持这些标准，并提供对 XML Web 服务的完整集成支持。
   
-图 1 显示了 **customer** 域组的上下文相关下拉菜单，用户可利用此下拉菜单来添加另一个 **customer** 域组、移除此 **customer** 域组、在此域组中的采购物品表中插入 **item** 行，或在此域组内插入可选的 **actions** 域组。 “单击此处”**** 链接提供了另一种插入 **actions** 域组的方式。 每个采购项目行上会出现一个较短的下拉菜单。 
+Figure 1 shows the context-sensitive drop-down menu for a **customer** field group, which enables the user to add another **customer** field group, remove this **customer** field group, insert an **item** row in the table of purchase items in this field group, or insert an optional **actions** field group within this field group. The **Click here** link provides another way to insert the **actions** field group. A shorter drop-down menu appears on each purchase-item row. 
   
 1. 在 InfoPath 中，用户基于 InfoPath 表单模板创建新 XML 文档，或打开基于表单模板的现有 XML 文档。XML 文档是一个 XML 数据文件，其中包含对表单模板的引用，并可使用 XML 命名空间。 
     
@@ -111,7 +111,7 @@ InfoPath 完全是依据 XML 标准构建的，这些标准包括：
 
 您可以通过以下方式设计表单：从现有 XML 架构开始、连接到 XML Web Services 或数据库并获取其 XML 架构，或者依据新表单或 XML 数据文件自动生成架构。下面的过程中描述了这些方案。图 3 显示了用于设计表单模板的基本用户界面。
   
-1. 在 InfoPath Designer 中，通过选择“XML 或架构”**** 表单模板创建新的表单，然后选择现有 XML 架构文件作为数据源。 XML 架构将加载到任务窗格中，并显示为树控件。 
+1. Create a new form in the InfoPath Designer by selecting the **XML or Schema** form template, and then select an existing XML schema file as the data source. The XML schema is loaded into the task pane and shown as a tree control. 
     
 2. 使用设计布局工具在一个或多个视图中安排 UI 控件的布局，例如行和背景设计。此操作将生成某些 XSLT 元素。XSLT 视图和 XML 架构将自动与表单模板关联。
     
@@ -137,17 +137,17 @@ InfoPath 完全是依据 XML 标准构建的，这些标准包括：
     
 如果要从头开始设计表单并自动生成 XML 架构：
   
-1. 在“文件”**** 标签上，选择“空白表单”**** 或“空白表单 (InfoPath Filler)”**** 表单模板，然后单击“设计表单”****。
+1. On the **File** tab, select either the **Blank Form** or **Blank Form (InfoPath Filler)** form template, and then click **Design Form**.
     
-2. 在“主页”**** 选项卡上，单击“控件”**** 组右下角的箭头以显示“控件”**** 任务窗格，然后确保选中“自动创建数据源”**** 复选框。 （默认情况下，此复选框处于选中状态。） 
+2. On the **Home** tab, click the arrow in the lower-right corner of the **Controls** group to display the **Controls** task pane, and then make sure that the **Automatically create the data source** check box is selected. (By default, this check box is selected.) 
     
 3. 安排 UI 控件的布局。当您安排这些控件的布局时，InfoPath 将自动创建 XML 架构并将其元素和属性映射到 UI 控件。
     
 若要从任何格式标准的 XML 数据文件开始设计表单：
   
-1. 在“文件”**** 标签上，选择“XML 或架构”**** 表单模板，然后单击“设计表单”****。
+1. On the **File** tab, select the **XML or Schema** form template, and then click **Design Form**.
     
-2. 在“数据源向导”**** 窗口中，选择要用作数据源的 XML 文件。 会基于 XML 数据文件自动创建 XML 架构。
+2. In the **Data Source Wizard**, select the XML file that you want to use as the data source. An XML schema is automatically created, based on the XML data file.
     
 3. 按本节中前面所述的方式安排 UI 控件的布局。
     

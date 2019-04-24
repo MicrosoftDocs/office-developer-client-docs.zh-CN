@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: 通过 Microsoft.Office.Interop.InfoPath.dll、Microsoft.Office.Interop.InfoPath.SemiTrust.dll 和 Microsoft.Office.Interop.InfoPath.Xml.dll 互操作程序集（由 Microsoft InfoPath 安装）访问的 COM 对象不支持在多个线程上进行调用。这包括由 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间封装的 Microsoft XML Core Services (MSXML) 对象的接口（多数接口的名称都以 IXMLDOM 开头），以及由 Microsoft.Office.Interop.InfoPath.Xml 命名空间公开的所有接口（这些接口都不是线程安全的）。
 ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299837"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型的 InfoPath 项目中的线程支持
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
 description: Microsoft.Office.InfoPath 命名空间的对象模型提供了以编程方式使用数字签名的功能。
-ms.openlocfilehash: 1277998edf4feb94da40d82372fd4d96fedf2d54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: ea657f80f6e38a06a91e19c245eadc203c7c580c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19774038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303582"
 ---
 # <a name="work-with-digital-signatures"></a>使用数字签名
 
@@ -31,7 +31,7 @@ ms.locfileid: "19774038"
     
 - 在文档中插入和查看签名。 
     
-- 查看已添加到每个签名来提高安全性的可验证的不可否认性信息。 此额外信息（其中包含表单的视图，因为它呈现给每个签名者）是签名的一部分，未使签名无效的情况下不可删除。 可以通过单击表单中的签名以显示****“验证数字签名”对话框来随时撤回此数据。 
+- View verifiable non-repudiation information that has been added to each signature for increased security. This additional information, which includes a view of the form as it was presented to each signer, is part of the signature and cannot be removed without invalidating the signature. At any time, you can recall this data by clicking on the signature in the form to display the **Verify Digital Signature** dialog box. 
     
 - 利用对象模型来处理数字签名。通过数字签名对象模型来将自定义信息添加到完全信任表单中的签名块。 
     

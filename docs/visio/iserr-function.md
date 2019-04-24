@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251448
 localization_priority: Normal
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
-description: '将返回 TRUE 如果 cellreference 的值是任何错误类型除外 # n/A;否则，将返回 FALSE。 ISERR 函数可以用于引用另一个单元格的公式。'
-ms.openlocfilehash: 651b095e53b7f2690aa9c8774d87d5afcede75be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: '如果 cellreference 的值是除 #N/a 之外的任何错误类型, 则返回 TRUE; 否则, 返回 false。否则, 它将返回 FALSE。 ISERR 函数在引用其他单元格的公式中使用。'
+ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297247"
 ---
 # <a name="iserr-function"></a>ISERR 函数
 
-返回_cellreference_的值为任何错误类型时为 TRUE 除外 # n/A;否则，将返回 FALSE。 ISERR 函数可以用于引用另一个单元格的公式。 
+如果_cellreference_的值是除 #N/a 之外的任何错误类型, 则返回 TRUE; 否则, 返回 false。否则, 它将返回 FALSE。 ISERR 函数在引用其他单元格的公式中使用。 
   
 ## <a name="syntax"></a>语法
 
@@ -28,14 +28,14 @@ ISERR (* * *cellreference* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |必需  <br/> |**字符串** <br/> |对单元格的引用。  <br/> |
+| _cellreference_ <br/> |必需  <br/> |**String** <br/> |对单元格的引用。  <br/> |
    
 ## <a name="example-1"></a>示例 1
 
 |**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
-|Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
-|Scratch.B1  <br/> |=ISERR(Scratch.A1)  <br/> |FALSE  <br/> |
+|草稿。 A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
+|草稿 B1  <br/> |= ISERR (的 A1)  <br/> |FALSE  <br/> |
    
 返回 FALSE，因为 ISERR 函数不能识别 #N/A! 错误。使用 ISERROR 可查找所有错误类型。
   
@@ -43,8 +43,8 @@ ISERR (* * *cellreference* * *)
 
 |**Cell**|**Formula**|**返回的值**|
 |:-----|:-----|:-----|
-|Scratch.X1  <br/> |="House"  <br/> |#VALUE!  <br/> |
-|Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |
+|暂存. X1  <br/> |= "房子"  <br/> |#VALUE!  <br/> |
+|草稿。 A1  <br/> |= ISERR (X1)  <br/> |TRUE  <br/> |
    
 返回 TRUE，因为 ISERR 函数可以识别 #VALUE! 错误。
   

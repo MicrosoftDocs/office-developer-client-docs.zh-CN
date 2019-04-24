@@ -11,25 +11,25 @@ keywords:
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: e6430a54b0c0ed3b6e08d3c9256cae7dcde926ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f043558f3f642001e9ba11ee5b18a2721c3dddfb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19773830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303946"
 ---
 # <a name="xlautoregisterxlautoregister12"></a>xlAutoRegister/xlAutoRegister12
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-每当呼叫对进行了**注册**，XLM 函数或 C API 等效[xlfRegister 函数](xlfregister-form-1.md)，要所注册的函数的返回和参数类型与丢失，Excel 将调用[xlAutoRegister 函数](xlautoregister-xlautoregister12.md)。 它允许 XLL 搜索其内部导出的函数和命令来注册功能使用参数并返回指定类型的列表。
+每当对 XLM 函数**REGISTER**或 C API 等效的[xlfRegister 函数](xlfregister-form-1.md)进行了调用时, Excel 将调用[xlAutoRegister 函数](xlautoregister-xlautoregister12.md), 其中包含要注册的函数的返回和参数类型。 它允许 XLL 搜索其导出函数和命令的内部列表, 以使用指定的参数和返回类型注册函数。
   
-从 Excel 2007 开始，Excel 调用优先于**xlAutoRegister**函数**xlAutoRegister12**函数的操作，如果它通过 XLL 导出。 
+从 excel 2007 开始, 如果 XLL 导出了**xlAutoRegister**函数, excel 会在首选项中调用**xlAutoRegister12**函数。 
   
-Excel 不需要 XLL 实施和导出其中任一函数。
+Excel 不需要 XLL 即可实现和导出这两个函数中的任何一个。
   
 > [!NOTE]
-> 如果**xlAutoRegister**/ **xlAutoRegister12**尝试函数注册无需提供参数和返回类型、 递归调用循环发生最终溢出调用堆栈和崩溃 Excel。 
+> 如果**xlAutoRegister**/ **xlAutoRegister12**尝试在不提供参数和返回类型的情况下注册函数, 则会发生递归调用循环, 该循环最终会溢出调用堆栈并导致 Excel 崩溃。 
   
 ```cs
 LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
@@ -40,25 +40,25 @@ LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 
  _pxName_(**xltypeStr**)
   
-正在注册 XLL 函数的名称。
+正在注册的 XLL 函数的名称。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-函数应返回尝试注册 XLL 函数_pxName_使用**xlfRegister**函数的结果。 如果指定的函数不是 XLL 的导出之一，则应返回 **#VALUE ！** 错误，或**NULL** Excel 会将解释在 **#VALUE ！**。
+函数应返回尝试使用**xlfRegister**函数注册 XLL 函数_pxName_的结果。 如果指定的函数不是 XLL 的导出之一, 它应返回 **#VALUE!** 错误或**NULL** , Excel 会将其解释 **#VALUE!**。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**XlAutoRegister**的实现应执行不区分大小写搜索通过 XLL 的内部函数和它导出查找具有传入的名称匹配的命令列表。 如果找到函数或命令，则**xlAutoRegister**应尝试注册它，使用**xlfRegister**函数，并确保提供告诉返回和参数的函数，以及任何其他所需类型的 Excel 的字符串有关函数的信息。 它应将返回到 Excel 到**xlfRegister**的调用返回的任何内容。 如果已成功注册的函数， **xlfRegister**将返回包含的函数的注册 ID **xltypeNum**值。 
+您的**xlAutoRegister**实现应通过您在 XLL 的函数和命令导出的函数和命令的内部列表中执行不区分大小写的搜索, 以查找与传入的名称相匹配的函数和命令。 如果找到了函数或命令, **xlAutoRegister**应尝试使用**xlfRegister**函数注册它, 以确保提供一个字符串, 该字符串告诉 Excel 函数的返回类型和参数类型, 以及任何其他必需的有关函数的信息。 然后, 它应返回到 Excel 调用**xlfRegister**返回的任何内容。 如果函数已成功注册, **xlfRegister**将返回一个**xltypeNum**值, 其中包含函数的寄存器 ID。 
   
 ### <a name="example"></a>示例
 
-请参阅文件`SAMPLES\EXAMPLE\EXAMPLE.C`示例实现的此函数。 
+有关此函数`SAMPLES\EXAMPLE\EXAMPLE.C`的示例实现, 请参阅文件。 
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[注册](xlfregister-form-1.md)
+[注册表](xlfregister-form-1.md)
   
 [注销](xlfunregister-form-1.md)
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
 description: 如果您使用某个 InfoPath 2003 Toolkits for Visual Studio 创建了 InfoPath 2003 托管代码表单模板，并且希望保持与 InfoPath 2003 的兼容性，只需在 Microsoft InfoPath 和 Visual Studio 2008 中打开您的表单模板项目，即可继续处理和进一步开发该项目。
-ms.openlocfilehash: 7ca6a676c9db740b6b176783273a523715032387
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 0acbfab4a83a71d94a1c70a667a963056f5b9a38
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300110"
 ---
 # <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>打开或转换用 InfoPath 工具包创建的表单模板
 
@@ -35,15 +35,15 @@ ms.locfileid: "19774000"
     
 4. 在“开发工具”**** 选项卡上，单击“代码编辑器”****。
     
-5. 将显示消息“必须先保存此表单模板才能向其添加 Visual Basic 或 C# 代码”。 单击“确定”**** 以继续。 
+5. The message "This form template must be saved before you can add Visual Basic or C# code to it" is displayed. Click **OK** to continue. 
     
 6. 导航到要保存文件的位置，命名该文件，然后单击 **"保存"**。
     
-7. 将显示消息“此代码是使用适用于 Microsoft Visual Studio 的 InfoPath 2003 工具包之一创建的。 InfoPath 需要将工具包项目迁移到新格式”。 单击“确定”**** 以继续。 
+7. The message "This code was created with one of the InfoPath 2003 Toolkits for Microsoft Visual Studio. InfoPath needs to migrate the toolkit project to a new format" is displayed. Click **OK** to continue. 
     
 8. 选择项目的 Visual Studio 解决方案 (.sln) 文件，然后单击“打开”****。
     
-9. 迁移过程完成时，将显示消息“你的项目已被迁移”。 单击“确定”**** 以继续。 
+9. The message "Your project has been migrated" is displayed when the migration process is complete. Click **OK** to continue. 
     
 10. 将显示消息"此表单中的代码使用 InfoPath 2003 对象模型"，并显示提示"是否升级代码，以使用 Microsoft Office InfoPath 对象模型?"。单击 **"否"** 将保持与 InfoPath 2003 的兼容性，并继续使用由 [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 命名空间提供的对象模型。 
     
@@ -63,17 +63,17 @@ ms.locfileid: "19774000"
     
 5. 在“开发工具”**** 选项卡上，单击“代码编辑器”****。
     
-6. 将显示消息“必须先保存此表单模板才能向其添加 Visual Basic 或 C# 代码”。 单击“确定”**** 以继续。 
+6. The message "This form template must be saved before you can add Visual Basic or C# code to it" is displayed. Click **OK** to continue. 
     
 7. 导航到要保存文件的位置，命名该文件，然后单击 **"保存"**。
     
-8. 将显示消息“此代码是使用适用于 Microsoft Visual Studio 的 InfoPath 2003 工具包之一创建的。 InfoPath 需要将工具包项目迁移到新格式”。 单击“确定”**** 以继续。 
+8. The message "This code was created with one of the InfoPath 2003 Toolkits for Microsoft Visual Studio. InfoPath needs to migrate the toolkit project to a new format" is displayed. Click **OK** to continue. 
     
 9. 选择项目的 Visual Studio 解决方案 (.sln) 文件，然后单击“打开”****。
     
-10. 迁移过程完成时，将显示消息“你的项目已被迁移”。 单击“确定”**** 以继续。 
+10. The message "Your project has been migrated" is displayed when the migration process is complete. Click **OK** to continue. 
     
-11. 将显示消息"此表单中的代码使用 InfoPath 2003 对象模型"，并显示提示"是否升级代码，以使用 Microsoft Office InfoPath 对象模型?"。 单击“是”**** 将表单模板升级为使用由 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间提供的新托管的代码对象模型。 
+11. The message "The code in this form uses the InfoPath 2003 object model" is displayed with the prompt "Do you want to upgrade your code to use the Microsoft Office InfoPath object model?" Click **Yes** to upgrade the form template to use the new managed code object model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace. 
     
     将在 Visual Studio 2008 代码编辑器中打开您的表单代码，并且以前项目中的所有代码都用 **#if** **InfoPathManagedObjectModel** 和 **#endif** (C#) 或者 **#If InfoPathManagedObjectModel** 和 **#End If** (Visual Basic) 语句围起来，以供您参考。将需要重新编写所有这些代码，以使用由 **Microsoft.Office.InfoPath** 命名空间提供的对象模型的成员。 
     

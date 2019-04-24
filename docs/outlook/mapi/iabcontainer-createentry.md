@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2f8a6baa9a910b91e633084f1d9cd8ac52b24d5b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 9f80130279e3437dd9be947de97d3f0d4181165e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287026"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个新项，可以是邮件用户、 通讯组列表或其他容器。
+创建一个新的条目, 该条目可以是邮件用户、通讯组列表或其他容器。
   
 ```cpp
 HRESULT CreateEntry(
@@ -40,31 +40,31 @@ HRESULT CreateEntry(
 
  _cbEntryID_
   
-> [in]中_lpEntryID_参数指向的项标识符的字节数。 
+> 实时由_lpEntryID_参数指向的条目标识符中的字节数。 
     
  _lpEntryID_
   
-> [in]指向用于创建特定类型的新条目的模板的项标识符的指针。 
+> 实时一个指针, 指向用于创建特定类型的新条目的模板的条目标识符。 
     
  _ulCreateFlags_
   
-> [in]位掩码的标志控制如何执行项创建的。 可以设置以下标志：
+> 实时用于控制如何执行条目创建的标志的位掩码。 可以设置以下标志:
     
 CREATE_CHECK_DUP_LOOSE 
   
-> 应执行的重复项检查松散级别。 提供程序特定的松散重复项检查实现。 例如，提供程序可以定义松散匹配项，如任何具有相同的两个条目的显示名称。
+> 应执行重复项检查的松散级别。 松散重复项检查的实现是特定于提供程序的。 例如, 提供程序可以将松散匹配定义为任意两个具有相同显示名称的条目。
     
 CREATE_CHECK_DUP_STRICT 
   
-> 应执行的重复项检查严格级别。 提供程序特定的严格的重复项检查实现。 例如，提供程序可以定义严格匹配项，如任何具有两个相同的两个条目显示名称和消息地址。
+> 应执行严格的重复项检查级别。 严格的重复项检查实现是特定于提供程序的。 例如, 提供程序可以将一个严格的匹配定义为两个具有相同的显示名称和邮件地址的条目。
     
 CREATE_REPLACE 
   
-> 如果确定两个是重复项，新条目应替换现有。
+> 如果确定两个是重复的, 则新条目应替换现有条目。
     
  _lppMAPIPropEntry_
   
-> [输出]为指向新创建的项的指针。
+> 排除指向新创建的项的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -74,35 +74,35 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-**IABContainer::CreateEntry**方法会返回一个指针接口实现进一步访问该条目指定容器中创建特定类型的新条目。 使用已发布其一次性表中的可用模板的容器的列表中选择一个模板创建新条目。 呼叫者通过调用其[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法并请求**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性来访问容器的一次性表。 
+**IABContainer:: CreateEntry**方法在指定的容器中创建特定类型的新条目, 返回指向接口实现的指针, 以便进一步访问该条目。 通过使用已从其一次性表中发布的容器列表中选择的模板来创建新条目。 调用方通过调用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法并请求**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性来访问容器的一次性表。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-所有容器都支持**IABContainer::CreateEntry**方法必须都进行修改。 指示可修改其**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) 属性中设置您的容器 AB_MODIFIABLE 标志。 
+支持**IABContainer:: CreateEntry**方法的所有容器都必须是可修改的。 在其**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) 属性中设置容器的 AB_MODIFIABLE 标志, 以指示它是可修改的。 
   
-您应支持的所有_ulCreateFlags_标志。 但是，解释和使用这些标志是实现特定 — 即，您可以确定 CREATE_CHECK_DUP_LOOSE 和 CREATE_CHECK_DUP_STRICT 的语义实现的上下文中的含义。 如果您不能或不确定条目是否重复，始终允许创建的条目。 
+您应支持所有_ulCreateFlags_标志。 但是, 这些标志的解释和使用是特定于实现的, 也就是说, 您可以确定 CREATE_CHECK_DUP_LOOSE 和 CREATE_CHECK_DUP_STRICT 的语义在实现的上下文中的含义。 如果不能或不确定某个条目是否重复, 则始终允许创建该条目。 
   
-某些提供程序实现严格条目匹配的显示名称，检查消息地址和中条目; 搜索键其他提供程序限制显示名称和地址匹配。 通常，通过检查的显示名称实现松散条目检查。 
+某些提供程序通过在条目中匹配显示名称、邮件地址和搜索关键字来实现严格的条目检查。其他提供程序将匹配项限制为显示名称和地址。 通常只通过检查显示名称来实现松散条目检查。 
   
-## <a name="notes-to-host-address-book-provider-implementers"></a>承载通讯簿提供程序实施者说明
+## <a name="notes-to-host-address-book-provider-implementers"></a>主机通讯簿提供程序实施者注意事项
 
-如果您的容器可以从其他提供程序的模板创建条目， **CreateEntry**的实现应提供存储为部分或全部与创建条目关联的属性。 例如，如果您提供存储条目**PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 属性，则可以而无需依赖于外的提供程序生成其详细信息对话框。 
+如果您的容器可以从其他提供程序的模板中创建条目, 则**CreateEntry**的实现应为与创建的条目关联的部分或所有属性提供存储空间。 例如, 如果为条目的**PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 属性提供存储空间, 则可以生成其详细信息对话框, 而无需依赖于外部提供程序。 
   
-如果您的容器，可以创建支持**PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) 属性的条目的**CreateEntry**实现必须执行以下操作： 
+如果您的容器可以创建支持**PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) 属性的条目, 则您的**CreateEntry**实现必须执行以下操作: 
   
-1. 调用[IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md)方法。 **OpenTemplateID**使外提供程序的代码要绑定到正在创建的新条目的条目。 外的提供程序支持此绑定进程控制通过其模板创建到主机地址簿提供程序的容器的条目。 
+1. 调用[IMAPISupport:: OpenTemplateID](imapisupport-opentemplateid.md)方法。 **OpenTemplateID**为项启用外部提供程序的代码, 以便绑定到要创建的新项。 外部提供程序支持此绑定过程, 以保持对从其模板中创建的条目的控制, 使其成为主机通讯簿提供程序的容器。 
     
-2. 执行任何必要的初始化，并填充的所有属性从项目中的外的提供程序从**OpenTemplateID** _lppMAPIPropNew_参数中返回的对象的新对象。
+2. 执行任何必要的初始化, 并使用来自外部提供程序中的条目的所有属性填充新对象, 该对象从**OpenTemplateID**的_lppMAPIPropNew_参数中返回。
     
-如果**OpenTemplateID**成功，则将属性复制_lppMAPIPropNew_参数指向的实现，而不是直接向_lpMAPIPropData_参数指向的实现。 初始化脱机使用的新条目，就像外提供程序的任何其他项。 
+如果**OpenTemplateID**成功, 请将属性复制到_lppMAPIPropNew_参数所指向的实现, 而不是直接指向_lpMAPIPropData_参数指向的实现。 像对待外部提供程序中的任何其他条目一样, 初始化新条目以供脱机使用。 
   
-如果**OpenTemplateID**返回一个错误， **CreateEntry**应该会失败。 不允许创建的条目。 因为外的提供程序可以使数据作出假设您的提供商，不要创建一个条目具有不到外的提供程序成功绑定的模板标识符。 
+如果**OpenTemplateID**返回一个错误, **CreateEntry**应失败。 不允许创建该条目。 由于外部提供程序可以对提供程序中的数据进行假设, 因此不要创建具有未成功绑定到外部提供程序的模板标识符的条目。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-当**CreateEntry**返回时，则可能或可能无法立即访问新条目的项标识符。 某些通讯簿提供程序后，不要做出它才可用以前呼叫过该新条目[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法。 
+当**CreateEntry**返回时, 您可能会 (也可能不能) 立即访问新条目的条目标识符。 在您调用新条目的[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法之前, 一些通讯簿提供程序不会使其可用。 
   
-尽管重复检查标志作为参数传递给**CreateEntry**，直到调用**SaveChanges**不会发生复制检查操作。 因此，返回的**SaveChanges** ，而不是**CreateEntry**MAPI_E_COLLISION，这表明尝试创建现有条目，如相关的错误。
+尽管将重复的检查标志作为参数传递给**CreateEntry**, 但在调用**SaveChanges**之前不会发生重复的检查操作。 因此, 诸如 MAPI_E_COLLISION 的相关错误 (表示试图创建已有条目) 由**SaveChanges**而不是**CreateEntry**返回。
   
 ## <a name="see-also"></a>另请参阅
 

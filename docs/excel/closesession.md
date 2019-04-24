@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: af8f7398ed9d5edfbf1615930874a800d8835487
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9186fb14c33d507b8c9ae709a67f1b43e6206d5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304135"
 ---
 # <a name="closesession"></a>CloseSession
 
@@ -28,11 +28,11 @@ int CloseSession(int SessionId)
 
 _SessionId_
   
-> 要关闭的会话 ID。 此值必须匹配[OpenSession](opensession.md)返回的值。
+> 要关闭的会话的 ID。 此值必须与[OpenSession](opensession.md)返回的值相匹配。
     
 ## <a name="return-value"></a>返回值
 
-**xlHpcRetSuccess**会话关闭; 如果**xlHpcRetInvalidSessionId** _SessionId_参数无效; 如果有关其他故障**xlHpcRetCallFailed** 。 
+如果会话已关闭, 则为**xlHpcRetSuccess** ;**xlHpcRetInvalidSessionId**如果_SessionId_参数无效, 则为有关其他故障的**xlHpcRetCallFailed** 。 
   
 ## <a name="see-also"></a>另请参阅
 

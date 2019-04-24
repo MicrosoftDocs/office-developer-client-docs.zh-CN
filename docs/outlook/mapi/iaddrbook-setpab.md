@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 461b59ff4f4c8a93f3a9945b05e31aef9a2997bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 29677ce74f405e8ca03f1639f3d98288532e9653
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287012"
 ---
 # <a name="iaddrbooksetpab"></a>IAddrBook::SetPAB
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定为个人通讯簿 (PAB) 特定的容器。
+指定特定的容器作为个人通讯簿 (PAB)。
   
 ```cpp
 HRESULT SetPAB(
@@ -38,33 +38,33 @@ HRESULT SetPAB(
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向要指定为 PAB 的容器的项标识符的指针。 _LpEntryID_参数不能为 NULL。 
+> 实时指向要指定为 PAB 的容器的条目标识符的指针。 _lpEntryID_参数不能为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 作为 PAB 建立了指定的容器。
+> 指定的容器已被建立为 PAB。
     
 ## <a name="remarks"></a>注解
 
-客户端和服务提供商调用**SetPAB**方法将指定为 PAB 某个特定的容器。 PAB 是从其他容器以及新条目复制的项组成的容器。 
+客户端和服务提供程序调用**SetPAB**方法, 以将特定容器指定为 PAB。 PAB 是一个容器, 它由从其他容器复制的条目以及新条目组成。 
   
-调用**SetPAB**建立容器作为 PAB，直到该容器进行不可用或新容器成为通过后续调用**SetPAB**PAB。 
+对**SetPAB**的调用在将容器用作 PAB 之前将其建立, 直到将容器变为不可用, 或者新的容器通过对**SetPAB**的后续调用成为 pab。 
   
-客户端和提供程序不需要调用[IMAPIProp::SaveChanges](imapiprop-savechanges.md)方法进行永久 PAB 更改。 
+客户端和提供程序无需调用[IMAPIProp:: SaveChanges](imapiprop-savechanges.md)方法来使 PAB 更改永久。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI 使用**SetPAB**方法使指定的容器 PAB。  <br/> |
+|AbContDlg  <br/> |CAbContDlg:: OnSetPAB  <br/> |MFCMAPI 使用**SetPAB**方法使指定容器成为 PAB。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

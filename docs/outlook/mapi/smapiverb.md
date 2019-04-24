@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 11f11ae2d90a951a119895f3e0e3e3ca0dbc0fc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3ef284a2c036abb9eac10ecf33de4adbf61f3c54
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309483"
 ---
 # <a name="smapiverb"></a>SMAPIVerb
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-描述 MAPI 动词。
+描述 MAPI 谓词。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
    
 ```cpp
 typedef struct
@@ -47,11 +47,11 @@ typedef struct
 
  **lVerb**
   
-> 表示传递给[IMAPIForm::DoVerb](imapiform-doverb.md)的动作代码。 标准谓词 Exchform.h 的头文件中定义。
+> 表示传递给 IMAPIForm 的谓词的代码[::D overb](imapiform-doverb.md)。 标准动作是在头文件 Exchform 中定义的。
     
  **szVerbname**
   
-> 显示在窗体菜单上显示动作的名称。
+> 显示在 "表单" 菜单上的动作的显示名称。
     
  **fuFlags**
   
@@ -63,15 +63,15 @@ typedef struct
     
  **ulFlags**
   
-> 标志指示谓词的显示名称的格式。 可以设置以下标记：
+> 指示谓词的显示名称格式的标志。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> Unicode 格式的显示名称。 如果未设置 MAPI_UNICODE 标志的显示名称是 ANSI 格式。
+> 显示名称为 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则显示名称为 ANSI 格式。
     
 ## <a name="remarks"></a>注解
 
-**SMAPIVerb**结构作为中的以下方法的参数传递： 
+在以下方法中, **SMAPIVerb**结构作为参数传递: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

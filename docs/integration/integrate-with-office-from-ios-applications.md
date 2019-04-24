@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: Office for iOS 提供了一个可扩展的解决方案，以便能够与第三方应用程序集成。本文介绍如何从 iOS 应用程序与 Office 集成，如何通过将用户从您的应用程序传递到 Office 然后再将他们返回到您的应用程序来实现集成。
-ms.openlocfilehash: 2ba8e1a157953705b60ff0cac7d62bafade0c469
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: d17a096c17eadab0cd94ee1dce18e979e80fa65d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299745"
 ---
 # <a name="integrate-with-office-from-ios-applications"></a>从 iOS 应用程序与 Office 集成
 
@@ -42,7 +42,6 @@ Office for iOS 提供了一个可扩展的解决方案，以便能够与第三�
 |**Office 应用程序**|**iTunes 标识符**|
 |:-----|:-----|
 |Excel  <br/> |[https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-excel/id586683407?mt=8&amp;uo=4) <br/> |
-|OneNote (iPad)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-ipad/id478105721?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-onenote-for-ipad/id478105721?mt=8&amp;uo=4) <br/> |
 |OneNote (iPhone)  <br/> |[https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-onenote-for-iphone/id410395246?mt=8&amp;uo=4) <br/> |
 |PowerPoint  <br/> |[https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-powerpoint/id586449534?mt=8&amp;uo=4) <br/> |
 |Word  <br/> |[https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp;uo=4](https://itunes.apple.com/us/app/microsoft-word/id586447913?mt=8&amp;uo=4) <br/> |

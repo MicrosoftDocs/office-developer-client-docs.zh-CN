@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 23d68d8b-b0b6-4c32-8404-6acd23802db0
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 82f37e2a6f6834c7a8553a3d9d364f7e657d81da
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 1dc676101d4c39544c9dd1fae94000db9963ea02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299384"
 ---
 # <a name="handling-mapi-property-errors"></a>处理 MAPI 属性错误
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-而不是完整故障或成功时，以下**IMAPIProp**方法报告部分成功： 
+以下**IMAPIProp**方法报告部分成功, 而不是完全失败或成功: 
   
 [GetProps](imapiprop-getprops.md)
   
@@ -31,13 +31,13 @@ ms.locfileid: "22579506"
   
 [CopyProps](imapiprop-copyprops.md)
   
-**GetProps**报告部分成功时能够检索在至少一个对象的请求属性。 **GetProps**指示部分成功返回警告 MAPI_W_ERRORS_RETURNED 和**lppPropArray**参数指向属性值数组中发出有关不可用的属性的信息。 该数组中的不可用属性条目包含 PT_ERROR **ulPropTag**成员和 MAPI_E_NOT_FOUND 或另一个相应的错误值中的属性类型的**值**成员。 例如，如果要检索三个属性的某个文件夹的**GetProps**方法在客户端调用和第三个不可用，消息存储提供程序 PT_ERROR 中放置属性值数组中的第三个属性类型和在第三 MAPI_E_NOT_FOUND属性值。 
+**GetProps**报告在至少能够检索到某个对象的请求属性之一时, 这是完全成功的。 **GetProps**通过返回警告 MAPI_W_ERRORS_RETURNED 并在由**lppPropArray**参数指向的属性值数组中放置有关不可用属性的信息, 来指示部分成功。 此数组中不可用的属性条目包含**ulPropTag**成员中的属性类型的 PT_ERROR, 以及**值**成员的其他适当的错误值。 例如, 如果客户端调用文件夹的**GetProps**方法来检索三个属性, 而第三个属性不可用, 则邮件存储提供程序会将 PT_ERROR 放在属性值数组中的第三个属性类型中, 并在第三个属性中放置 MAPI_E_NOT_FOUND属性值。 
   
-其他**IMAPIProp**方法报告部分成功各不相同。 这些方法通过返回 S_OK 和[SPropProblemArray](spropproblemarray.md)结构中发出错误信息报告部分成功。 与**GetProps**包含数据，而不管方法成功还是失败，这些方法中的属性问题数组才会存在错误和仅当呼叫者已注册的兴趣了解中的属性值数组不同出现错误。 呼叫者必须指定一个有效的**SPropProblemArray**指针注册错误信息。 
+其他**IMAPIProp**方法以不同的方式报告部分成功。 这些方法通过返回 S_OK 并将错误信息放在[SPropProblemArray](spropproblemarray.md)结构中来报告部分成功。 与包含数据的**GetProps**中的属性值数组 (无论方法是成功还是失败) 不同, 这些方法中的属性问题数组仅在出现错误时才存在, 并且只有当调用方已注册相关知识时才存在。错误。 调用方必须指定有效的**SPropProblemArray**指针以注册错误消息。 
   
-从**SetProps**、 **DeleteProps**、 **CopyTo**或**CopyProps**返回错误值时，这表明失败而不是部分成功。 属性问题数组，如果可用，无效。 客户端不应尝试访问数据结构中保留也应尝试忙结构本身。 相应的响应是调用[IMAPIProp::GetLastError](imapiprop-getlasterror.md)。 
+当**SetProps**、 **DeleteProps**、 **CopyTo**或**CopyProps**返回错误值时, 这表示失败而不是部分成功。 属性问题数组 (如果可用) 无效。 客户端不应尝试访问结构中保留的数据, 也不应尝试释放结构本身。 相应的响应是调用[IMAPIProp:: GetLastError](imapiprop-getlasterror.md)。 
   
-类似于 Windows SDK 中提供的相同名称的函数**时出错**。 同时提供更详细的有关错误的信息比可用的返回值。 都返回前面发生的错误有关的信息。 区别在于 Win32 **GetLastError**函数的调用线程生成错误报告和**IMAPIProp::GetLastError**方法报告当前对象生成一个错误。 也就是说，如果客户端上的邮件和 MAPI_E_NO_ACCESS 调用**DeleteProps**返回以指示邮件是只读的**GetLastError**返回提供的邮件数据。 
+**GetLastError**类似于 Windows SDK 中提供的相同名称的函数。 同时提供了有关错误的详细信息, 而不是返回值中提供的值。 它们都返回有关以前发生的错误的信息。 区别在于, Win32 **GetLastError**函数报告由调用线程生成的错误和**IMAPIProp:: GetLastError**方法报告由当前对象生成的错误。 也就是说, 如果客户端对邮件调用**DeleteProps** , 并返回 MAPI_E_NO_ACCESS 以指示该邮件是只读的, 则**GetLastError**将返回该邮件提供的数据。 
   
 ## <a name="see-also"></a>另请参阅
 

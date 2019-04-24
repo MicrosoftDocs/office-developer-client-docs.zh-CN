@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 348555d3-3cd4-4e4a-b5ad-436571c25251
 description: 将第三方 Win32 同步客户端与 Excel Mobile、PowerPoint Mobile 和 Word Mobile Office 应用程序集成。
 ms.openlocfilehash: 83bc6e4cddc17e539b371999fff620c72c595534
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401165"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303134"
 ---
 # <a name="integrate-with-office-from-win32-sync-clients"></a>从 Win32 同步客户端与 Office 集成
 

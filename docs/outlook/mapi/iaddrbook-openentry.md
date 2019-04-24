@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
-description: 上次修改时间： 2013 年 2 月 1 日
-ms.openlocfilehash: 4d380f784094064232cdb7369080612ba9ccac0e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2013 年 2 月 1 日
+ms.openlocfilehash: 293fe5a65c760f61ab0073e0eafc1a606c69050f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287019"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-打开的通讯簿条目，并返回可用于访问该条目的接口的指针。
+打开通讯簿条目并返回指向可用于访问该条目的接口的指针。
   
 ```cpp
 HRESULT OpenEntry(
@@ -40,78 +40,78 @@ HRESULT OpenEntry(
 
 _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
 _lpEntryID_
   
-> [in]一个指向代表打开的通讯簿条目的项标识符。
+> 实时指向表示要打开的通讯簿条目的条目标识符的指针。
     
 _lpInterface_
   
-> [in]指向要用于访问打开条目的接口的接口标识符 (IID) 的指针。 如果传递 NULL 返回对象的标准接口。 对于邮件用户，标准接口是[IMailUser: IMAPIProp](imailuserimapiprop.md)。 对于通讯组列表，它是[IDistList: IMAPIContainer](idistlistimapicontainer.md)而容器，则为： [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)。 呼叫者可以设置_lpInterface_为相应的标准接口或继承层次结构中的接口。 
+> 实时指向接口标识符 (IID) 的指针, 该接口用于访问打开的条目。 传递 NULL 将返回对象的标准接口。 对于邮件用户, 标准接口为[IMailUser: IMAPIProp](imailuserimapiprop.md)。 对于通讯组列表, 它是[IDistList: IMAPIContainer](idistlistimapicontainer.md)和容器, 它是[IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)。 呼叫者可将_lpInterface_设置为相应的标准接口或继承层次结构中的接口。 
     
 _ulFlags_
   
-> [in]位掩码的标志，控制如何打开该条目。 可以设置以下标志。
+> 实时用于控制条目打开方式的标志的位掩码。 可以设置以下标志。
     
 MAPI_BEST_ACCESS 
   
-> 与最大允许网络和客户端权限打开的条目的请求。 例如，如果客户端具有读/写权限，通讯簿提供程序应尝试打开具有读/写权限条目。 客户端可以检索通过调用打开条目的[IMAPIProp::GetProps](imapiprop-getprops.md)方法并检索**PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) 属性授予的访问级别。
+> 请求使用最大允许的网络和客户端权限打开条目。 例如, 如果客户端具有读/写权限, 则通讯簿提供程序应尝试打开具有读/写权限的条目。 客户端可以通过调用 open 项的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法和检索**PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) 属性来检索已授予的访问级别。
     
 MAPI_CACHE_ONLY
   
-> 打开的通讯簿条目，并访问仅从缓存。 例如，您可以使用此标志以允许将客户端应用程序在缓存的 exchange 模式下打开全局地址列表 (GAL)，而不创建客户端和服务器之间的流量从缓存中访问该通讯簿中的条目。 此标志仅受 Exchange 通讯簿提供程序支持。
+> 打开通讯簿条目并仅从缓存访问。 例如, 可以使用此标志允许客户端应用程序在缓存 exchange 模式中打开全局地址列表 (GAL), 并从缓存中访问该通讯簿中的条目, 而无需在客户端和服务器之间创建流量。 仅 Exchange 通讯簿提供程序支持此标志。
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许的调用成功，可能之前该条目是完全打开且可用，这意味着更高版本调用条目可能会返回错误。
+> 允许调用成功 (可能是在条目完全打开且可用之前), 这意味着稍后对该条目的调用可能会返回错误。
     
 MAPI_GAL_ONLY
   
-> 使用仅 GAL 执行名称解析。 此标志仅受 Exchange 通讯簿提供程序支持。
+> 仅使用 GAL 执行名称解析。 仅 Exchange 通讯簿提供程序支持此标志。
     
   > [!NOTE]
-  > _UlFlags_ MAPI_GAL_ONLY 可能未定义当前具有可下载头文件中，在这种情况下您可以将其添加到代码中使用以下值： >`#define MAPI_GAL_ONLY (0x00000080)`
+  > _ulFlags_ MAPI_GAL_ONLY 可能未在您当前拥有的可下载头文件中定义, 在这种情况下, 您可以使用以下值将其添加到代码中: >`#define MAPI_GAL_ONLY (0x00000080)`
   
 MAPI_MODIFY 
   
-> 请求项打开的读/写权限。 因为条目具有只读访问权限打开默认情况下，客户端不应假定无论是否设置 MAPI_MODIFY 授予了读/写权限。
+> 请求以读/写权限打开条目。 由于默认情况下会打开具有只读访问权限的条目, 因此客户端不应假定已授予读/写权限, 而不管是否设置了 MAPI_MODIFY。
     
 MAPI_NO_CACHE
   
-> 不使用脱机通讯簿执行名称解析。 此标志仅受 Exchange 通讯簿提供程序支持。
+> 请勿使用脱机通讯簿执行名称解析。 仅 Exchange 通讯簿提供程序支持此标志。
     
 _lpulObjType_
   
-> [输出]一个指向打开条目的类型。
+> 排除指向已打开条目的类型的指针。
     
 _lppUnk_
   
-> [输出]指向于打开项的指针的指针。
+> 排除指向打开的项的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功打开该条目。
+> 已成功打开条目。
     
 MAPI_E_NO_ACCESS 
   
-> 尝试打开其用户没有足够的权限条目。
+> 试图打开用户没有足够权限的条目。
     
 MAPI_E_NOT_FOUND 
   
-> 由_lpEntryID_项不存在。 
+> _lpEntryID_所代表的条目不存在。 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> 无法识别_lpEntryID_中指定的项标识符。 如果负责的相应条目的地址簿提供程序未打开，则通常会返回此值。 
+> 无法识别_lpEntryID_中指定的条目标识符。 如果负责相应条目的通讯簿提供程序未打开, 则通常会返回此值。 
     
 ## <a name="remarks"></a>注解
 
-客户端和服务提供商调用**IAddrBook::OpenEntry**方法打开的通讯簿条目。 MAPI 转发到适当的地址簿提供程序，基于[MAPIUID](mapiuid.md)结构包含传递_lpEntryID_参数中的项标识符的调用。 通讯簿提供程序将打开以只读方式条目，除非设置了_ulFlags_参数中的 MAPI_MODIFY 或 MAPI_BEST_ACCESS 标志。 但是，这些标志为建议。 如果通讯簿提供程序不允许请求的项的修改，则将返回 MAPI_E_NO_ACCESS。 
+客户端和服务提供程序调用**IAddrBook:: OpenEntry**方法以打开通讯簿条目。 MAPI 将根据在_lpEntryID_参数中传递的条目标识符中包含的[MAPIUID](mapiuid.md)结构, 将呼叫转发到相应的通讯簿提供程序。 除非设置了_ulFlags_参数中的 MAPI_MODIFY 或 MAPI_BEST_ACCESS 标志, 否则通讯簿提供程序将以只读方式打开该条目。 但是, 这些标志是建议的。 如果通讯簿提供程序不允许对所请求的条目进行修改, 则返回 MAPI_E_NO_ACCESS。 
   
-_LpInterface_参数指示应使用哪个接口访问打开的条目。 在_lpInterface_传递 NULL 指示应使用标准的 MAPI 接口，该类型的项。 因为通讯簿提供程序可能返回不同的接口，建议_lpInterface_参数比，呼叫者应检查以确定是否返回的对象类型是在_lpulObjType_参数中返回的值预期的。 如果对象类型不是预期的类型，调用方可以强制转换更适合的类型_lppUnk_参数。 
+_lpInterface_参数指示应使用哪个接口来访问打开的条目。 在_lpInterface_中传递 NULL 表示应使用该类型条目的标准 MAPI 接口。 由于通讯簿提供程序可能返回一个与_lpInterface_参数所建议的接口不同的接口, 因此调用方应检查_lpulObjType_参数中返回的值, 以确定返回的对象类型是否为预期的内容。 如果对象类型不是预期的类型, 则调用方可以将_lppUnk_参数转换为更合适的类型。 
   
 ## <a name="see-also"></a>另请参阅
 

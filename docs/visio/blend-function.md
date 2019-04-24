@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67b46bb-0eb2-f094-2870-c320bd488705
-description: 混合两种颜色按 float 参数指定的比例。
-ms.openlocfilehash: 61993cea9eed6583d62004e1c756368b67c7bb33
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 按 float 参数指定的比例混合两种颜色。
+ms.openlocfilehash: 0a231954370416be201183026424c79942204e12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303295"
 ---
 # <a name="blend-function"></a>BLEND 函数
 
-混合两种颜色按_float_参数指定的比例。 
+按_float_参数指定的比例混合两种颜色。 
   
 ## <a name="syntax"></a>语法
 
-混合 (* * *color1* * *，* * *color2* * *，* * *float [0，1]* * *) 
+BLEND (* * *color1* * *, * * *color2* * *, * * *float [0, 1]* * *) 
   
 ### <a name="parameters"></a>参数
 
@@ -28,16 +28,16 @@ ms.locfileid: "19779768"
 |:-----|:-----|:-----|:-----|
 | _color1_ <br/> |必需  <br/> |**Numeric** <br/> |Visio 第一种颜色的颜色索引或 RGB 值。  <br/> |
 | _color2_ <br/> |必需  <br/> |**Numeric** <br/> |Visio 第二种颜色的颜色索引或 RGB 值。  <br/> |
-| _float [0，1]_ <br/> |必需  <br/> |**Float** <br/> |用于混合_color2_和_color1_，分别比例。 实数从 0 到 1 之间。  <br/> |
+| _float [0, 1]_ <br/> |必需  <br/> |**Float** <br/> |分别混合_color2_和_color1_的比例。 0 到 1 之间的实数（包括这两个值）。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
  **RGB**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-返回的颜色由用于混合_color2_和_color1_，分别，按_float_参数指定的相对比例决定。 例如，如果_float_为 0.25，返回的颜色是 color1 的组合的 75%__ 和_color2_的 25%。 
+返回的颜色由_float_参数所指定的相对比例, 分别与_color2_和_color1_混合而成。 例如, 如果_float_为 0.25, 则返回的颜色由_color1_的 75% 和 25% 的_color2_组成。 
   
-另一种方法需要考虑的事项它是对应于沿颜色彩虹的点的_浮点_值从_color1_到_color2_。 因此，较小数字 （接近零） 的接近_float_生成混合_color1_，对大数字 （接近 1） 时生成混合接近到_color2_。
+要考虑的另一种方法是, _float_值与色谱从_color1_到_color2_的点相对应。 因此, _float_的较小数字 (更接近零) 会产生更接近_color1_的混合, 而较大的数字 (更接近于 1) 产生的融合更接近于_color2_。
   
 

@@ -1,5 +1,5 @@
 ---
-title: Exp 函数 （访问自定义 web 应用程序）
+title: Exp 函数 (Access 自定义 web 应用程序)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09385b75-ec0e-4dde-b9c3-9ade4a7a2b74
 description: 返回指定表达式的指数值。
-ms.openlocfilehash: 9c4929a25da6a8eec5984f9e9a1a6695a049614d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 30777c41005dfcf1caad896e9e60f0bcfd9d4361
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308195"
 ---
-# <a name="exp-function-access-custom-web-app"></a>Exp 函数 （访问自定义 web 应用程序）
+# <a name="exp-function-access-custom-web-app"></a>Exp 函数 (Access 自定义 web 应用程序)
 
 返回指定表达式的指数值。
   
@@ -29,14 +29,14 @@ ms.locfileid: "19773427"
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Double 类型时，或者可以隐式转换为 Double 类型的表达式。  <br/> |
+| *NumericExpression*  <br/> |一种类型为 double 的表达式, 或可隐式转换为双精度型的类型的表达式。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**E** (2.718281...)，该常量是自然对数的。 
+常量**e** (2.718281 ...) 是自然对数的底数。 
   
-一个数指数是常量**e**号码的幂。 例如**Exp** (1.0) = e ^1.0 = 2.71828182845905 和**Exp** (10) = e ^10 = 22026.4657948067。 
+数字的指数表示的是常量**e**的幂的乘号。 例如**Exp** (1.0) = e ^ 1.0 = 2.71828182845905 and **Exp** (10) = e ^ 10 = 22026.4657948067。 
   
-数字的自然对数的指数是号本身： **Exp** （日志 (n)） = n。 指数的数字的自然对数，数本身： 日志 (**Exp** (n)) = n。 
+数字的自然对数的指数是数字本身: **Exp** (LOG (n)) = n。 数字的指数的自然对数是数字本身: LOG (**Exp** (n)) = n。 
   
 

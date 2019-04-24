@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a86cb847-5d49-44b8-b2bc-0e35e70395b4
-description: 获取一个值，该值代表一个或多个人员 userID 参数匹配的字符串。
-ms.openlocfilehash: 0b7525f853f7d97a991e2996a4e715cc53756d4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取一个字符串, 表示与 userID 参数匹配的一个或多个人员。
+ms.openlocfilehash: 1aa6478126e509c8d707d6a8d11b2c8428177bbd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779229"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285369"
 ---
 # <a name="isocialsessionfindperson"></a>ISocialSession::FindPerson
 
-获取一个值，该值代表一个或多个人员_userID_参数匹配的字符串。 
+获取一个字符串, 表示与_userID_参数匹配的一个或多个人员。 
   
 ```cpp
 HRESULT _stdcall FindPerson([in] BSTR userId, [out, retval] BSTR* result);
@@ -27,15 +27,15 @@ HRESULT _stdcall FindPerson([in] BSTR userId, [out, retval] BSTR* result);
 
 _userId_
   
-> [in]社交网络用户 ID，SMTP 地址或某个人的显示名称。
+> 实时社交网络用户 ID、SMTP 地址或用户的显示名称。
     
 _result_
   
-> [输出]一个 XML 字符串值，该值代表一个或多个人员匹配_userId_参数指定的标识信息。 
+> 排除一个 XML 字符串, 表示与_userId_参数指定的标识信息匹配的一个或多个人员。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果一个或多个人员匹配**FindPerson**请求，此方法将返回_结果_参数中的人员的信息。 Outlook Social Connector (OSC) 提供程序扩展性的架构中定义，_结果_XML 字符串必须符合**朋友**架构定义。 
+如果一个或多个人员与**FindPerson**请求匹配, 此方法将在_result_参数中返回这些人员的信息。 _结果_XML 字符串必须符合**友元**的架构定义, 如 Outlook Social Connector (.osc) 提供程序可扩展性架构中所定义。 
   
 ## <a name="see-also"></a>另请参阅
 

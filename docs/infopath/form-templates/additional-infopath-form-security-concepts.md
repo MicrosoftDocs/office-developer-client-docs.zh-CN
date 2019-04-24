@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: Microsoft InfoPath 安全模型基于 Internet Explorer 实现的安全模型。Internet Explorer 安全模型可使用安全区域和级别来帮助保护计算机免受不安全操作的危害。通过与 Internet Explorer 安全模型协同工作，InfoPath 可提供两种类型的表单部署，这些部署将影响 InfoPath 表单在此安全模型中的工作方式。
 ms.openlocfilehash: 00b0e306507db19f55059fba91277af1ad1714b9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303771"
 ---
 # <a name="additional-infopath-form-security-concepts"></a>更多 InfoPath 表单安全性概念
 
@@ -29,7 +29,7 @@ Internet Explorer 实现了安全区域，这使您能够控制所打开的网�
   
 InfoPath 缓存表单由该表单的表单定义文件 (.xsf) 中指定的 URL 或 URN 来标识。使用的标识种类以及从中打开表单模板的域（位置）确定表单将继承哪些 Internet Explorer 安全区域权限。由 URL 标识的表单将缓存到可脱机使用表单的用户计算机。这些基于 URL 的表单通过适用于表单模板原始位置的 Internet Explorer 安全设置继承其安全权限和特定访问权限（如跨域访问权限）。存储在 Web 服务器上或运行 SharePoint Foundation 的服务器上的表单模板在 Internet 上或本地 Intranet 区域运行，具体取决于服务器所在的域。另一方面，由 URN 标识的已安装表单从本地计算机区域继承其权限，该区域所授予的权限级别类似于为 HTML 应用程序文件 (.hta) 授予的权限级别。
   
-完全受信任的表单由其 URN 和表单定义 (.xsf) 文件中 **xDocumentClass** 元素的 **requireFullTrust** 属性是否设置为 `"yes"` 标识。 在 InfoPath 中，安装完全受信任的表单后，它们将显示在 InfoPath 编辑器的 Microsoft Office Backstage 的“新建”**** 选项卡上。 
+Fully trusted forms are identified by their URN and whether the **requireFullTrust** attribute of the **xDocumentClass** element in the form definition (.xsf) file is set to  `"yes"`. In InfoPath, after fully trusted forms are installed, they appear on the **New** tab in the Microsoft Office Backstage of InfoPath editor. 
   
 有关完全信任的表单的工作方式以及如何创建和部署这些表单的详细讨论，请参阅[了解完全信任的表单](understanding-fully-trusted-forms.md)。
   
@@ -53,7 +53,7 @@ InfoPath 安全模型可帮助用户抵御恶意创建的模板造成的以下�
 
 跨域数据访问 是一种安全风险。
   
-基于其构建 InfoPath 的 Internet Explorer 安全模型提供称为“跨域访问数据源”**** 的设置。 默认情况下，此设置禁用驻留在 Internet 和受限制站点安全区域中的 InfoPath 表单的跨域访问。 此设置还会提示用户为驻留在本地 Intranet 安全区域的 InfoPath 表单允许或禁止跨域访问，并且为驻留在“可信站点”**** 或“本地计算机”**** 区域的 InfoPath 表单启用跨域访问。 
+The Internet Explorer security model that InfoPath is built upon provides a setting called **Access data sources across domains**. By default, this setting disables cross-domain access for InfoPath forms that reside in the Internet and Restricted sites security zones. It prompts the user to allow or disallow cross-domain access for InfoPath forms that reside in the Local intranet security zone, and it enables cross-domain access for InfoPath forms that reside in the **Trusted sites** or **Local Machine** zones. 
   
 ## <a name="use-of-the-infopath-html-task-pane"></a>使用 InfoPath HTML 任务窗格
 
@@ -78,10 +78,10 @@ InfoPath HTML 任务窗格能够呈现网页，例如 .htm, .asp 和 .hta 文件
 |**安全区域/部署**|**操作**|
 |:-----|:-----|
 |Internet  <br/> |已禁用  <br/> |
-|本地 intranet  <br/> |已禁用  <br/> |
+|本地 Intranet  <br/> |已禁用  <br/> |
 |受限制的站点  <br/> |已禁用  <br/> |
-|受信任网站  <br/> |提示  <br/> |
-|我的电脑  <br/> |提示  <br/> |
+|受信任的站点  <br/> |Prompt  <br/> |
+|我的电脑  <br/> |Prompt  <br/> |
 |完全信任的表单  <br/> |启用  <br/> |
    
 ## <a name="malicious-use-of-the-infopath-object-model"></a>InfoPath 对象模型的恶意使用
@@ -108,15 +108,15 @@ InfoPath HTML 任务窗格能够呈现网页，例如 .htm, .asp 和 .hta 文件
 |:-----|:-----|:-----|
 ||**基于 URL** <br/> |**基于 URN** <br/> |**将脚本标记为不安全的 ActiveX** <br/> |**跨域数据访问** <br/> |**对象模型安全级别** <br/> |
 |受限站点  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |不适用  <br/> |
-|Internet  <br/> |X  <br/> ||禁用  <br/> |禁用  <br/> |2  <br/> |
-|本地 intranet  <br/> |X  <br/> ||禁用  <br/> |提示  <br/> |2  <br/> |
-|受信任网站  <br/> |X  <br/> ||提示  <br/> |启用  <br/> |2  <br/> |
-|本地计算机  <br/> |X  <br/> |X  <br/> |禁用  <br/> |提示  <br/> |2  <br/> |
-|完全信任的表单  <br/> |X（经受信任的发布者签名）  <br/> |X  <br/> |启用  <br/> |启用  <br/> |3  <br/> |
-|完全信任的表单  <br/> ||X  <br/> |启用  <br/> |启用  <br/> |3  <br/> |
-|受限  <br/> ||X  <br/> |无 ActiveX（除受限制的硬编码列表外）  <br/> |禁用  <br/> |2  <br/> |
-|受限  <br/> |X  <br/> ||无 ActiveX（除受限制的硬编码列表外）  <br/> |禁用  <br/> |2  <br/> |
-|受限  <br/> |X  <br/> |X  <br/> |无 ActiveX（除受限制的硬编码列表外）  <br/> |禁用  <br/> |2  <br/> |
+|Internet  <br/> |X  <br/> ||禁用  <br/> |禁用  <br/> |双面  <br/> |
+|本地 intranet  <br/> |X  <br/> ||禁用  <br/> |提示  <br/> |双面  <br/> |
+|受信任网站  <br/> |X  <br/> ||提示  <br/> |启用  <br/> |双面  <br/> |
+|本地计算机  <br/> |X  <br/> |X  <br/> |禁用  <br/> |提示  <br/> |双面  <br/> |
+|完全信任的表单  <br/> |X（经受信任的发布者签名）  <br/> |X  <br/> |启用  <br/> |启用  <br/> |第三章  <br/> |
+|完全信任的表单  <br/> ||X  <br/> |启用  <br/> |启用  <br/> |第三章  <br/> |
+|受限  <br/> ||X  <br/> |无 ActiveX（除受限制的硬编码列表外）  <br/> |禁用  <br/> |双面  <br/> |
+|受限  <br/> |X  <br/> ||无 ActiveX（除受限制的硬编码列表外）  <br/> |禁用  <br/> |双面  <br/> |
+|受限  <br/> |X  <br/> |X  <br/> |无 ActiveX（除受限制的硬编码列表外）  <br/> |禁用  <br/> |双面  <br/> |
    
 有关开发表单时使用的一般安全指南的信息，请参阅[开发 InfoPath 表单的安全指南](security-guidelines-for-developing-infopath-forms.md)。
   
@@ -128,7 +128,7 @@ InfoPath 为表单提供的其他安全措施包括使用数字签名保护表�
 
 可以对表单中包含的数据进行数字签名，以帮助确保数据内容不会被更改。
   
-你可以通过选择“表单选项”**** 对话框的“数字签名”**** 部分中的“允许对整个表单进行签名”**** 或“允许对表单的某些部分进行签名”**** 选项来配置表单以使用数字签名，该对话框可在 InfoPath 表单设计器中的 Microsoft Office Backstage 中找到。 填写表单时，用户可以通过单击 Microsoft Office Backstage 的“信息”**** 选项卡上的“签名表单”**** 按钮来签名和验证表单。 当再次打开表单时，如果表单的内容已被更改，系统将提醒用户。 
+You configure a form to use digital signatures by selecting the **Allow signing the entire form** or **Allow signing parts of the form** option on the **Digital Signatures** section of the **Form Options** dialog box, which is available from the Microsoft Office Backstage in the InfoPath form designer. When filling out the form, users can then sign and verify forms by clicking the **Sign Form** button on the **Info** tab of the Microsoft Office Backstage. When the form is opened again, the user will be alerted if the contents of the form have been altered. 
   
 -  可以对整个表单进行数字签名，也可以对表单中可单独签名的特定数据集进行数字签名。 
     
@@ -173,7 +173,7 @@ InfoPath 支持在使用 InfoPath 编辑器打开的表单中托管 ActiveX 控�
 
 您可以禁用表单合并功能，以防止用户将数据从多个表单导入一个表单中。
   
-可以使用“表单选项”**** 对话框的“高级”**** 部分中的“启用表单合并”**** 复选框启用或禁用表单合并，该对话框可在设计表单时从 Microsoft Office Backstage 的“信息”**** 选项卡中找到。 禁用表单合并时，用户在填写表单时无法单击 Microsoft Office Backstage 的“共享”**** 选项卡上的“合并表单”****。 
+You enable or disable form merging by using the **Enable form merging** check box on the **Advanced** section of the **Form Options** dialog box, which is available from the **Info** tab of the Microsoft Office Backstage when you design the form. When form merging is disabled, users cannot click **Merge Forms** on the **Share** tab of the Microsoft Office Backstage when filling out a form. 
   
 ## <a name="submitting-forms"></a>提交表单
 

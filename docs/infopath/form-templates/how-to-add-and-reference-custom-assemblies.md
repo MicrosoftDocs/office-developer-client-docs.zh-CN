@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: 如果在托管代码表单模板项目中添加一个对自定义程序集的引用，则编译和发布项目时，该程序集将包含在表单模板文件 (.xsn) 内。
-ms.openlocfilehash: e182930ebe14b6f64d1b90509fe400cc1fb1b26e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 19b5f06231bb03cfac8b32b157e03956b5fc334e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303659"
 ---
 # <a name="add-and-reference-custom-assemblies"></a>添加和引用自定义程序集
 

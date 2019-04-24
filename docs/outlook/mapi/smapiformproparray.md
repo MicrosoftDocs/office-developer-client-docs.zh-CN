@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 389984f9d98ece6b2040edd741e3028fd7d766ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50b6581dec8211968a49b204c6d9b1ba1c65bb62
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309511"
 ---
 # <a name="smapiformproparray"></a>SMAPIFormPropArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个[SMAPIFormProp](smapiformprop.md)结构数组。 
+包含[SMAPIFormProp](smapiformprop.md)结构的数组。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
-|相关的宏：  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
+|相关宏:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -46,19 +46,19 @@ typedef struct
 
  **cProps**
   
-> 在**aFormProp**成员数组中的命名属性的计数。 
+> **aFormProp**成员中的数组中的命名属性的计数。 
     
  **ulPad**
   
->  8 个字节用于保证正确的对齐方式的边距。 
+>  用来保证正确对齐的填充量为8个字节。 
     
  **aFormProp**
   
-> 窗体属性的数组。
+> 表单属性的数组。
     
 ## <a name="remarks"></a>注解
 
-**SMAPIFormPropArray**结构作为参数传递给以下方法： 
+**SMAPIFormPropArray**结构作为参数传递给以下方法: 
   
 - [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md)
     

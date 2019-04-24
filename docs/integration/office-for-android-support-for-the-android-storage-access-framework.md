@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office for Android 与 Android 存储访问框架集成，使 Office 能够打开其他文档提供程序存储的文件。
 ms.openlocfilehash: 24d7e48106aeb5e58a668b94cbde00eaa9175230
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300348"
 ---
 # <a name="office-for-android-support-for-the-android-storage-access-framework"></a>Android 存储访问框架的 Office for Android 支持
 

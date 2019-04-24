@@ -10,31 +10,31 @@ api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 85b31361ad39370cf4c935363b341c8378f85e19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e09e77020d3f2c45ec4033c6945c21850aa1a5bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307789"
 ---
 # <a name="mapi-data-types"></a>MAPI 数据类型
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-按字母顺序排列的以下项包含文档的 MAPI 方法、 函数和结构中使用的数据类型。 
+以下按字母顺序排列的条目包含有关 MAPI 方法、函数和结构中使用的数据类型的文档。 
   
 ||
 |:-----|
-|[BOOKMARK](bookmark.md) <br/> |
+|[书签](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |
 |[EXCHANGE_STORE_VERSION_NUM](exchange_store_version_num.md) <br/> |
 |[FEID](feid.md) <br/> |
 |[FollowUpStatus](followupstatus.md) <br/> |
-|[性别](gender.md) <br/> |
+|[Gender](gender.md) <br/> |
 |[HDRSYNC](hdrsync.md) <br/> |
 |[[HRESULT]](hresult.md) <br/> |
 |[LTID](ltid.md) <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "22572738"
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SYNC](sync.md) <br/> |
+|[同步](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
 |[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |

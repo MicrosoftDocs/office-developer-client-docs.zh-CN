@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: 可以编写代码来响应用户在填写表单时可能发生的各种事件。若要在 InfoPath 中处理事件，则应在设计模式下使用表单模板时添加事件处理程序。
-ms.openlocfilehash: 7968837fe0ed524104111bc3f2960860af51c75a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 0db3209dfe005f2a87ad65f3fc89b1714ec7d95c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300103"
 ---
 # <a name="respond-to-form-events"></a>响应表单事件
 
@@ -27,7 +27,7 @@ ms.locfileid: "19774024"
 
 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间提供的 InfoPath 模型可实现三个类，这些类又实现可由表单模板业务逻辑引发并处理的 12 个事件。下表列出了每个 InfoPath 事件对象及其关联的事件，并对它们提供的功能进行了说明。 
   
-|**名称**|**事件**|**说明**|
+|**名称**|**事件**|**Description**|
 |:-----|:-----|:-----|
 |[ButtonEvent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.aspx) <br/> |[Clicked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) <br/> |**ButtonEvent** 类用于实现在点击表单上的 **Button** 控件时所引发的 **Clicked** 事件。  <br/> |
 |[FormEvents](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.aspx) <br/> |[ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) <br/> [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) <br/> [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) <br/> [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) <br/> [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) <br/> [VersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.VersionUpgrade.aspx) <br/> [ViewSwitched](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ViewSwitched.aspx) <br/> |**FormEvents** 类实现特定于 InfoPath 表单模板本身的事件：  <br/> **ContextChanged** <br/> 在上下文节点更改之后发生。  <br/> **Loading** <br/> 在加载了表单模板之后、初始化任何视图之前发生。  <br/> **Merge** <br/> 在从用户界面上调用了“**合并表单**”命令时发生，或者在用 `/aggregate` 命令行开关启动 InfoPath 时发生。  <br/> **Save** <br/> 在从用户界面使用“**保存**”或“**保存为**”命令时发生，或者在使用 [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) 类的 [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx) 和 [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) 方法时发生。  <br/> **Sign** <br/> 在选定一组要通过“**数字签名**”对话框进行签名的签名数据后发生。  <br/> **Submit** <br/> 在用户界面中使用“**提交**”命令时发生，或者在使用 **XmlForm** 类的 [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx) 方法时发生。  <br/> **VersionUpgrade** <br/> 在当前打开的表单的版本号小于该表单所基于的表单模板的版本号时发生。  <br/> **ViewSwitched** <br/> 在成功切换了表单视图之后发生。  <br/> |

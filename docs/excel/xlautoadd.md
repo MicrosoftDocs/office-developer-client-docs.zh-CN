@@ -11,22 +11,22 @@ keywords:
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: ae0b4ae2d5f5fc58c3e18ffa9d79ec4128cb4639
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a38d5dafd30fda87dda5eadf8fa97ab6e6768a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773825"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303988"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-添加 Microsoft excel 每当用户激活 Excel 会话期间 XLL 使用加载项管理器。 Excel 启动和加载预安装的加载项时，不会调用此函数。
+每当用户在 Excel 会话过程中使用外接程序管理器激活 XLL 时, 都会添加 Microsoft Excel。 当 Excel 启动并加载预安装的加载项时, 不会调用此函数。
   
-可以使用此函数以显示自定义对话框中，告知用户的外接程序已被激活，或要读取或写入注册表，例如检查许可信息。
+此函数可用于显示一个自定义对话框, 该对话框告知用户外接程序已激活, 或者读取或写入注册表, 或者检查许可信息 (例如)。
   
-Excel 不需要 XLL 实施和导出此函数。
+Excel 不需要 XLL 即可实现和导出此函数。
   
 ```cs
 int WINAPI xlAutoAdd(void);
@@ -38,15 +38,15 @@ int WINAPI xlAutoAdd(void);
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-此函数的实现应返回 1。 (**int**)。
+此函数的实现应返回1。 (**int**)。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果没有任何您 XLL 需要执行添加由加载项管理器时，请使用此函数。
+如果 XLL 在加载项管理器添加时需要执行的操作, 请使用此函数。
   
 ## <a name="example"></a>示例
 
-请参阅`\SAMPLES\EXAMPLE\EXAMPLE.C`和`\SAMPLES\GENERIC\GENERIC.C`，例如此函数的实现。 以下代码来自 `\SAMPLES\EXAMPLE\EXAMPLE.C`。
+请`\SAMPLES\EXAMPLE\EXAMPLE.C`参阅`\SAMPLES\GENERIC\GENERIC.C`和, 以了解此函数的示例实现。 以下代码来自 `\SAMPLES\EXAMPLE\EXAMPLE.C`。
   
 ```cs
 int WINAPI xlAutoAdd(void)

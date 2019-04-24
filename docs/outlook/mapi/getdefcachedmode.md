@@ -8,28 +8,28 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 91a56acf4afc7453496fa89becd905184101c910
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8e8a6ac07e14af52337b6e280fa58274df453c65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299704"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示是否启用了专用的 Exchange 存储的缓存 Exchange 模式，并且这是否按策略强制实施。
+指示是否启用专用 exchange 存储的缓存 Exchange 模式, 以及是否通过策略强制实施。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|导出：  <br/> |msmapi32.dll  <br/> |
-|调用：  <br/> |客户端  <br/> |
-|通过实现：  <br/> |Outlook  <br/> |
+|导出者:  <br/> |msmapi32  <br/> |
+|调用者：  <br/> |客户端  <br/> |
+|实现者：  <br/> |Outlook  <br/> |
    
 ```cpp
 BOOL GetDefCachedMode(BOOL *pfPolicy); 
@@ -40,7 +40,7 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
 
  _pfPolicy_
   
-> [输出]如果为**true**如果它不返回值强制实施策略， **false** 。 
+> 排除如果返回值由策略强制, 则**为 true** ; 如果不是, 则为**false** 。 
     
 ## <a name="return-values"></a>返回值
 
@@ -48,9 +48,9 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
   
 - 启用缓存。
     
- **false**
+ **该值**
   
-- 禁用缓存。
+- 缓存被禁用。
     
 ## <a name="see-also"></a>另请参阅
 

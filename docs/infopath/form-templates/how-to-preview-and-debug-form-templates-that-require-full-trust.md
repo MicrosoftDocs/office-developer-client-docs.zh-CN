@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 5c491666-06f0-42ec-967e-1c70cd5e03a0
 description: 默认情况下，如果您尝试调试或预览的托管代码项目所包含的代码调用需要完全信任的对象模型成员（例如 LoginName 属性，它需要访问有关用户登录域的信息），Microsoft InfoPath 将显示下列错误消息。
-ms.openlocfilehash: e9077b4ec0f8369b869e986020e4860f325fc023
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 0780db286e2ca9cef381c2d24cb621c7c243dcb7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303596"
 ---
 # <a name="preview-and-debug-form-templates-that-require-full-trust"></a>预览和调试需要完全信任的表单模板
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
-description: 定义夏时制时间启动时，返回到标准时间发生时，和多少个小时夏 shift 是。
-ms.openlocfilehash: 85812ab053d77c07f9360b6bf3a1faaf72cae573
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 定义夏时制的开始时间、何时返回标准时间以及夏时制转换的小时数。
+ms.openlocfilehash: 136ff6ad0c1a9bc2ad61ef7ba698d66d645165d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307838"
 ---
 # <a name="tzreg"></a>TZREG
 
-定义夏时制时间启动时，返回到标准时间发生时，和多少个小时夏 shift 是。
+定义夏时制的开始时间、何时返回标准时间以及夏时制转换的小时数。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -31,31 +31,31 @@ typedef struct RenTimeZone {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
 _lBias_
   
-> 从格林威治标准时间 (GMT) 偏移量。
+> 格林威治标准时间 (GMT) 的偏移量。
     
 _lStandardBias_
   
-> 从标准时间的偏向的偏移量。
+> 标准时间内偏置的偏移量。
     
 _lDaylightBias_
   
-> 从偏向期间夏时制的偏移量。
+> 夏时制中偏移偏差。
     
 _stStandardDate_
   
-> 要切换到标准时间的时间。
+> 切换到标准时间的时间。
     
 _stDaylightDate_
   
-> 要切换到夏时制的时间。
+> 切换到夏时制的时间。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-类似于**TIME_ZONE_INFORMATION**此结构。 这是旧客户端用于存储所在的时区定期会议信息的结构。
+此结构类似于**TIME_ZONE_INFORMATION**。 这是旧版客户端用来存储定期会议的时区信息的结构。
   
 ## <a name="see-also"></a>另请参阅
 

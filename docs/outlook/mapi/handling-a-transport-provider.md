@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 00ae0f4be9818e0e9e4562784b4d5bf44eefe308
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 0fe21cea26c956f8a03a51e2f302b040fc89e751
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299494"
 ---
 # <a name="handling-a-transport-provider"></a>处理传输提供程序
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-客户端与通过状态对象由传输提供程序和 MAPI 后台处理程序提供的传输提供程序进行通信。 客户端访问通过调用[IMAPISession::GetStatusTable](imapisession-getstatustable.md)检索状态表的状态的对象。 状态对象实现[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口，其中包含方法的配置提供程序、 刷新传入和传出消息队列、 设置密码和状态验证。 有关状态的对象的详细信息，请参阅[状态表和状态对象](status-table-and-status-objects.md)。
+客户端通过传输提供程序和 MAPI 后台处理程序提供的状态对象与传输提供程序进行通信。 客户端通过调用[IMAPISession:: GetStatusTable](imapisession-getstatustable.md)以检索状态表来访问 status 对象。 Status 对象实现[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口, 该接口具有用于配置提供程序、刷新传入和传出邮件队列、设置密码和状态验证的方法。 有关 status 对象的详细信息, 请参阅[status Table 和 status 对象](status-table-and-status-objects.md)。
 
 
-- [发送或接收 on Demand 消息](sending-or-receiving-a-message-on-demand.md)： 介绍如何发送或接收按需型一条消息。
+- [按需发送或接收邮件](sending-or-receiving-a-message-on-demand.md): 介绍如何按需发送或接收邮件。
     
-- [设置传输顺序](setting-transport-order.md)： 介绍如何设置传输顺序。
+- [设置传输顺序](setting-transport-order.md): 介绍如何设置传输顺序。
     
-- [重新配置传输提供程序](reconfiguring-a-transport-provider.md)： 介绍如何重新配置的传输提供程序以及哪些属性可设置。
+- 重新[配置传输提供程序](reconfiguring-a-transport-provider.md): 介绍如何重新配置传输提供程序以及可设置的属性。
     
 

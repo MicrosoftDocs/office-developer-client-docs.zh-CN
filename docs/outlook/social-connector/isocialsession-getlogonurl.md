@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d61bab07-acb3-433b-8783-c3fe110a5582
-description: 获取一个字符串，表示用于 web 身份验证过程中显示给用户的基于浏览器的表单的 URL。
-ms.openlocfilehash: 343919f194b238fc519bb8f6d808b44a8ab6e7b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取一个字符串, 表示用于在 web 身份验证期间向用户呈现基于浏览器的表单的 URL。
+ms.openlocfilehash: 83867282922ea136b9673609cc2ba2f1a206f6ab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285376"
 ---
 # <a name="isocialsessiongetlogonurl"></a>ISocialSession::GetLogonUrl
 
-获取一个字符串，表示用于 web 身份验证过程中显示给用户的基于浏览器的表单的 URL。
+获取一个字符串, 表示用于在 web 身份验证期间向用户呈现基于浏览器的表单的 URL。
   
 ```cpp
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
@@ -27,11 +27,11 @@ HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 
 _url_
   
-> [输出]一个字符串，包含 web 身份验证中使用的格式的 URL。
+> 排除包含用于 web 身份验证的表单的 URL 的字符串。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-向用户显示窗体后，则[ISocialSession::LogonWeb](isocialsession-logonweb.md)方法_connectIn_参数调用与为空字符串。 
+将窗体呈现给用户后, 将调用[ISocialSession:: LogonWeb](isocialsession-logonweb.md)方法, 并将空字符串用于_connectIn_参数。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 634ccd8c-0b5f-4161-875c-0e546a517377
 description: InfoPath 2003 兼容对象模型提供了 Application 对象的 MachineOnlineState 属性，该属性使您的表单代码可以检查用户的计算机是否已连接至网络。根据连接状态的不同，表单代码可以执行不同的操作。
-ms.openlocfilehash: 858b5d317cf5245dbfb447fa9e118a11ecbe7eb3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 452eb0d92b09dc0c3f9b2c247f7cda243dc8eb13
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303568"
 ---
 # <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>使用 InfoPath 对象模型处理脱机解决方案
 
@@ -119,8 +119,8 @@ InfoPath 2003 兼容对象模型提供了 [Application](https://msdn.microsoft.c
     
 4. 在 Internet Explorer 中，单击“文件”**** 菜单上的“脱机工作”****。 
     
-5. 在 InfoPath 中，单击“提交”****。 你应当看到一条消息，指出表单将作为电子邮件提交。
+5. 在 InfoPath 中，单击“提交”****。 应该会看到一条消息，指出表单将作为电子邮件提交。
     
-6. 单击“发送”****。 你应当看到一条指出表单已脱机提交的消息。
+6. Click **Send**. You should see a message stating that the form has been submitted offline.
     
 

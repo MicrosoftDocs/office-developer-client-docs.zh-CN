@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlSet
 keywords:
-- xlset，则函数 [excel 2007]
+- xlset 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 63f50e441f5d851677f36754a17bcd6403705239
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0912c1d40882933778d0df927ceb9de773063444
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303855"
 ---
 # <a name="xlset"></a>xlSet
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-很快将常量值放入单元格或区域。 有关详细信息，请参阅[Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)中的"xlset，则和带数组公式的工作簿"。
+快速将常量值放入单元格或区域。 有关详细信息, 请参阅[Excel XLL 开发中的已知问题](known-issues-in-excel-xll-development.md)中的 "xlSet 和包含数组公式的工作簿"。
   
 ```cs
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
@@ -30,37 +30,37 @@ Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 
 ## <a name="parameters"></a>参数
 
-_pxReference_（**xltypeRef**或**xltypeSRef**）
+_pxReference_(**xltypeRef**或**xltypeSRef**)
   
-一个描述目标单元格的矩形引用。 引用必须描述相邻单元格，因此，在**xltypeRef** `val.mref.lpmref->count`必须设置为 1。 
+描述目标单元格或单元格的矩形引用。 该引用必须描述相邻单元格, 因此在**xltypeRef** `val.mref.lpmref->count`中必须设置为1。 
   
 _pxValue_
   
-值或值放入单元格或单元格。 有关详细信息，请参阅"备注"部分。
+要放入一个或多个单元格中的值。 有关详细信息，请参阅“注解”部分。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 ### <a name="pxvalue-argument"></a>pxValue 参数
 
-_pxValue_可以是一个值或数组。 如果它是一个值，该值与填充整个目标区域。 如果它是一个数组 (**xltypeMulti**)，该数组的元素放入该矩形中的相应位置。
+_pxValue_可以是一个值, 也可以是一个数组。 如果是一个值, 则使用该值填充整个目标区域。 如果是数组 (**xltypeMulti**), 则将数组的元素放在矩形中的相应位置。
   
-如果您的第二个参数中使用水平数组，它被重复下以填满整个矩形。 如果您使用垂直数组，它被重复右以填满整个矩形。 如果您使用的矩形的数组，并且它是要放入该矩形区域太小，则用 **# n/A**s 填充该区域。
+如果对第二个参数使用水平数组, 则将其向下复制以填充整个矩形。 如果使用垂直数组, 则填充整个矩形的权限是重复的。 如果使用的是矩形数组, 并且对于要将其放入的矩形区域而言太小, 该范围将填充 **#N/a**s。
   
-如果目标区域小于源数组，值将被复制中最多的目标区域的限制和额外数据将被忽略。
+如果目标区域小于源数组, 则会将这些值复制到目标区域的限制中, 并忽略额外的数据。
   
-若要清除的目标矩形元素，请使用源数组中的**xltypeNil**类型数组元素。 若要清除整个目标矩形，省略第二个参数。 
+若要清除目标矩形的元素, 请在源数组中使用**xltypeNil**类型数组元素。 若要清除整个目标矩形, 请省略第二个参数。 
   
-### <a name="restrictions"></a>限制
+### <a name="restrictions"></a>条件
 
-**xlset，则**无法撤消。 此外，它销毁可能已前可用的任何撤消信息。 
+**xlSet**无法撤消。 此外, 它还会销毁可能以前可用的任何撤消信息。 
   
-**xlset，则**可以将仅常量，不公式放入单元格。 
+**xlSet**只能将常量 (而不是公式) 放入单元格。 
   
-作为类 3 命令等效函数; **xlset，则**行为即，它是仅在 DLL 可用，DLL 调用从对象、 宏、 菜单、 工具栏、 快捷键或在 （从开始在 Excel 2007 和**工具功能区上的**视图**选项卡访问**宏**对话框的**运行**按钮时**菜单早期版本中的)。 
+**xlSet**的行为与 Class 3 命令等效的函数;也就是说, 在 dll 中的对象、宏、菜单、工具栏、快捷键或 "**运行**" 按钮 (从 Excel 2007 启动的功能区上的 "**视图**" 选项**** 卡中访问该对话框) 中调用 dll 时, 它将仅在 dll 内可用, 并且这些**工具**早期版本中的菜单)。 
   
 ## <a name="example"></a>示例
 
-下面的示例填充 B205:B206 从宏中传递的值。 此命令函数示例需要一个参数，并因此只能如果从 XLM 宏工作表，或从使用**Application.Run**方法 VBA 模块中调用。 
+下面的示例使用从宏传入的值填充 B205: B206。 此命令函数示例需要一个参数, 因此仅当从 XLM 宏工作表调用, 或使用**Application. Run**方法从 VBA 模块中调用时, 才会执行此操作。 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: aa3c010eafeba7908498965bc0491c993a4a9120
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8aafb849a98028efb37646752a7b49fa5e6ef2ff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309560"
 ---
 # <a name="iprofadmindeleteprofile"></a>IProfAdmin::DeleteProfile
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 删除配置文件。
   
@@ -38,11 +38,11 @@ HRESULT DeleteProfile(
 
  _lpszProfileName_
   
-> [in]指针，指向要删除的配置文件的名称。
+> 实时指向要删除的配置文件的名称的指针。
     
  _ulFlags_
   
-> [in]始终为 NULL。 
+> 实时始终为 NULL。 
     
 ## <a name="return-value"></a>返回值
 
@@ -56,19 +56,19 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>注解
 
-**IProfAdmin::DeleteProfile**方法删除配置文件。 如果要删除的配置文件正在使用中，调用**DeleteProfile**时， **DeleteProfile** ，则返回 S_OK，但不会立即删除配置文件。 相反， **DeleteProfile**标记为删除的配置文件并将不再正在时使用它，所有其活动会话结束后将其删除。 
+**IProfAdmin::D eleteprofile**方法删除配置文件。 如果调用**DeleteProfile**时正在使用要删除的配置文件, 则**DeleteProfile**将返回 S_OK, 但不会立即删除该配置文件。 相反, **DeleteProfile**将该配置文件标记为删除, 并在它不再使用后将其删除, 并在所有活动会话结束后将其删除。 
   
-使用_ulContext_参数中设置的 MSG_SERVICE_DELETE 值调用入口点函数的配置文件中的每个邮件服务。 首先，此函数删除该服务，，然后它删除该服务的配置文件一节。 删除服务后邮件服务入口点函数不再次调用。 
+将使用_ulContext_参数中设置的 MSG_SERVICE_DELETE 值调用配置文件中每个邮件服务的入口点函数。 首先, 函数删除该服务, 然后删除该服务的配置文件部分。 删除服务后, 不会再次调用邮件服务入口点函数。 
   
-不需要密码删除配置文件。
+删除配置文件不需要密码。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI 使用**IProfAdmin::DeleteProfile**方法删除选定的配置文件。  <br/> |
+|MAPIProfileFunctions  <br/> |HrRemoveProfile  <br/> |MFCMAPI 使用**IProfAdmin::D eleteprofile**方法删除选定的配置文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

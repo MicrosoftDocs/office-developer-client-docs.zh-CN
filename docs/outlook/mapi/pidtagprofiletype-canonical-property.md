@@ -12,35 +12,35 @@ api_type:
 - COM
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f87ac0be4d4fcbb1c1a3dd9d407de5461eb556bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e2d69a7d67d0a09f2155bcfc255c3e0bf8cb0ebe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584273"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286547"
 ---
 # <a name="pidtagprofiletype-canonical-property"></a>PidTagProfileType 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含信息存储的类型。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROFILE_TYPE  <br/> |
-|标识符：  <br/> |0x660A  <br/> |
+|标识符:  <br/> |0x660A  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 配置文件配置  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性的可能值包括：
+此属性的可能值为：
   
-- 1-主用户
+- 1-主要用户
     
-- 2-委托
+- 2-代理
     
 - 3-公用存储
     
@@ -50,13 +50,13 @@ ms.locfileid: "22584273"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: da604c72-c760-4aa3-9574-d59c392753df
 description: InfoPath 2003 兼容对象模型所提供的对象和集合能够用于访问有关 InfoPath 应用程序的信息，其中包括有关表单的基础 XML 文档以及表单定义 (.xsf) 文件的信息。该数据通过 InfoPath 对象模型层次结构的顶级对象（该对象使用 Application 接口实例化）来访问。
-ms.openlocfilehash: e9cf01ff2ffa939fce5af277e756e679478f8b39
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 849882a97109d91a5807a6798d5a62457ab971fd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303680"
 ---
 # <a name="access-application-data-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型访问应用程序数据
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 9e22111ec920d89e0874baf71946681c204cacd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: c3c4ac10003aad8949de94e0f144410af10078b1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309567"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-一个配置文件的副本。
+复制配置文件。
   
 ```cpp
 HRESULTCopyProfile(
@@ -41,41 +41,41 @@ HRESULTCopyProfile(
 
  _lpszOldProfileName_
   
-> [in]一个指向要复制的配置文件的名称。
+> 实时指向要复制的配置文件的名称的指针。
     
  _lpszOldPassword_
   
-> [in]指向要复制的配置文件的密码的指针。
+> 实时指向要复制的配置文件的密码的指针。
     
  _lpszNewProfileName_
   
-> [in]一个指向复制的配置文件的新名称。
+> 实时指向复制的配置文件的新名称的指针。
     
  _ulUIParam_
   
-> [in]任何对话框的父窗口或该方法显示的窗口句柄。
+> 实时此方法显示的任何对话框或窗口的父窗口的句柄。
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何复制配置文件。 可以设置以下标志：
+> 实时用于控制如何复制配置文件的标志的位掩码。 可以设置以下标志:
     
 MAPI_DIALOG 
   
-> 显示一个对话框，提示用户输入正确的密码的配置文件复制。 如果未设置此标志，则不显示任何对话框。
+> 显示一个对话框, 提示用户输入要复制的配置文件的正确密码。 如果未设置此标志, 则不会显示任何对话框。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 配置文件成功复制。
+> 已成功复制配置文件。
     
 MAPI_E_ACCESS_DENIED 
   
-> 与现有的配置文件的相同的新配置文件名称。
+> 新配置文件的名称与现有配置文件的名称相同。
     
 MAPI_E_LOGON_FAILED 
   
-> 要复制的配置文件的密码不正确，并向用户请求正确的密码，因为_ulFlags_参数中未设置 MAPI_DIALOG 无法显示一个对话框。 
+> 要复制的配置文件的密码不正确, 并且无法向用户显示对话框来请求正确的密码, 因为未在_ulFlags_参数中设置 MAPI_DIALOG。 
     
 MAPI_E_NOT_FOUND 
   
@@ -83,21 +83,21 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消操作，通常通过单击对话框中的**取消**按钮。 
+> 用户取消了操作, 通常是单击对话框中的 "**取消**" 按钮。 
     
 ## <a name="remarks"></a>注解
 
-由指向_lpszOldProfileName_，将其命名配置文件的副本所指的_lpszNewProfileName_ **IProfAdmin::CopyProfile**方法使。 将配置文件复制留副本与原始相同的密码。
+**IProfAdmin:: CopyProfile**方法创建由_lpszOldProfileName_指向的配置文件的副本, 并为其提供_lpszNewProfileName_指向的名称。 复制配置文件会保留副本与原始文件相同的密码。
   
-原始的配置文件、 其密码和副本的名称的长度最多为 64 个字符，并可以包含下列字符：
+原始配置文件的名称、其密码和副本的长度最高为64个字符, 并且可以包含以下字符:
   
-- 所有字母数字字符，包括重音字符和下划线字符。
+- 所有字母数字字符, 包括重音字符和下划线字符。
     
-- 嵌入的空格，但不是前导或尾随空格。
+- 嵌入空格, 但不能是前导空格或尾随空格。
     
-在所有操作系统上不支持配置文件密码。 在操作系统上不支持配置文件密码， _lpszOldPassword_可以为 NULL 或为零长度字符串的指针。 
+配置文件密码在所有操作系统上均不受支持。 在不支持配置文件密码的操作系统上, _lpszOldPassword_可以是 NULL, 也可以是指向零长度字符串的指针。 
   
-_LpszOldPassword_设置为 NULL，如果要复制的配置文件需要密码，并设置了 MAPI_DIALOG 标志;显示一个对话框，提示用户提供密码。 如果密码是必需的但_lpszOldPassword_设置为 NULL，未设置 MAPI_DIALOG 标志**CopyProfile**返回 MAPI_E_LOGON_FAILED。 
+如果将_lpszOldPassword_设置为 NULL, 要复制的配置文件需要密码, 并且设置了 MAPI_DIALOG 标志;将显示一个对话框, 提示用户提供密码。 如果需要密码, 但_lpszOldPassword_设置为 NULL, 并且未设置 MAPI_DIALOG 标志, 则**CopyProfile**将返回 MAPI_E_LOGON_FAILED。 
   
 ## <a name="see-also"></a>另请参阅
 

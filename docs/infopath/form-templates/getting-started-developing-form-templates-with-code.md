@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 66468447-2012-4497-b371-c61f64a8bb49
 description: 本节提供有关如何开始创建托管代码表单模板的信息，这些模板可以处理由 Microsoft.Office.InfoPath 命名空间的成员提供的 InfoPath 对象模型。
-ms.openlocfilehash: a4e4e8a4e01dc8d0fbfe9c5cbed0ae4b85b51e94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 59167533eba6dd3537b6c5c0170ef32b795b02cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19773980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303701"
 ---
 # <a name="getting-started-developing-form-templates-with-code"></a>开发包含代码的表单模板入门
 

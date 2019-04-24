@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 4ad91898-b23e-4410-8839-a65259e53d37
 description: Microsoft InfoPath 中提供了两种信息权限管理 (IRM) 设置：一种用于保护对 InfoPath 表单模板的访问，另一种用于控制对已填好表单中包含的表单数据的访问和操作。
-ms.openlocfilehash: 4e6fdac6a0b2b5cd6a29de948cc9dbbd01a407d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 6f7317cfdc4e6bfc89482e813b1670c8b8861a6b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299788"
 ---
 # <a name="work-with-information-rights-management-settings"></a>使用信息权限管理设置
 
@@ -24,7 +24,7 @@ Microsoft InfoPath 中提供了两种信息权限管理 (IRM) 设置：一种用
   
 ## <a name="adding-the-manage-credentials-command-to-the-quick-access-toolbar"></a>将"管理凭据"命令添加到快速访问工具栏中
 
-默认情况下，用于处理 IRM 设置的“管理凭据”**** 命令在设计表单模板时不可用。 可使用以下步骤将其添加到“快速访问工具栏”**** 中。
+默认情况下，用于处理 IRM 设置的“管理凭据”**** 命令在设计表单模板时不可用。可使用以下步骤将其添加到“快速访问工具栏”**** 中。
   
 ### <a name="add-the-manage-credentials-command-to-the-quick-access-toolbar"></a>将"管理凭据"命令添加到快速访问工具栏中
 
@@ -34,7 +34,7 @@ Microsoft InfoPath 中提供了两种信息权限管理 (IRM) 设置：一种用
     
 3. 将列表向下滚动到“管理凭据”****，然后单击“添加”****。
     
-4. 单击“确定”****。
+4. Click **OK**.
     
 有关使用 InfoPath 中的“管理凭据”**** 命令和“权限”**** 对话框的详细信息，请参阅 InfoPath 帮助中的“创建具有受限权限的表单模板”主题。 
   
@@ -61,7 +61,7 @@ Microsoft InfoPath 中提供了两种信息权限管理 (IRM) 设置：一种用
   
 要以编程方式使用表单中各个用户的 IRM 设置，请使用 **UserPermissionCollection** 和 **UserPermission** 类。 
   
-**UserPermission** 对象将当前表单的一组权限与单一用户和一个可选的到期日期关联。 使用 **UserPermissionCollection** 类的 [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) 方法在当前表单上添加并授予用户一组权限。 使用 **UserPermissionCollection** 类的 [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx) 方法删除用户和用户的权限。 虽然通过用户界面授予的某些权限（如打印和到期日期）适用于所有用户，但可以使用 **UserPermission** 和 **UserPermissionCollection** 类为各个用户单独指定权限及到期日期。 对象模型允许开发人员枚举表单中的权限设置，并提供允许表单用户向表单添加权限的功能，而无需使用“表单权限”**** 任务窗格或“权限”**** 对话框。 
+A **UserPermission** object associates a set of permissions for the current form with a single user and an optional expiration date. Use the [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) method of the **UserPermissionCollection** class to add and grant a user a set of permissions on the current form. Use the [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx) method of the **UserPermissionCollection** class to remove a user and the user's permissions. While some permissions granted through the user interface apply to all users, such as printing and expiration date, you can use the **UserPermission** and **UserPermissionCollection** classes to assign them on a per-user basis with per-user expiration dates. The object model allows developers to enumerate permission settings in a form and to provide functionality that allows form users to add permissions to the form without having to use the **Form Permission** task pane or the **Permission** dialog box. 
   
 > [!NOTE]
 > 在表单处于预览模式时，无法应用权限。因此，在预览表单时， **Permission** 类的所有属性都是只读的。在预览模式下， **Enabled** 属性将始终返回 **false**，如果代码尝试更改此设置，则会引发 **System.Runtime.InteropServices.COMException**，并返回"该属性/方法在预览模式下不可用"错误。同样，当在预览模式下使用时，与 **UserPermission** 和 **UserPermissionCollection** 类关联的方法也将返回此错误消息。 

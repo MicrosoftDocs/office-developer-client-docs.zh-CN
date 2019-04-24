@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 支持两种用于在表单模板中开发业务逻辑的编程模型，并且支持通过托管代码实现的外部自动化。
 ms.openlocfilehash: c2ed1254acf86136ab7144c732aef91ac4c14c53
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303456"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>了解 InfoPath 对象模型和开发环境
 
@@ -49,10 +49,10 @@ InfoPath 2013 托管代码对象模型在两个名称均为 Microsoft.Office.Inf
 > [!NOTE]
 > 可以编写条件逻辑，以使用 [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) 类的属性来确定表单模板在哪个环境（InfoPath Filler 或 Web 浏览器）中运行。 通过使用此条件逻辑，业务逻辑可以在以下两种代码之间分支：在 Web 浏览器中工作的代码，以及依据只在 InfoPath Filler 编辑器中工作的类和成员编写的代码。 有关详细信息，请参阅[编写确定运行时环境的条件逻辑](how-to-write-conditional-logic-that-determines-the-run-time-environment.md)
   
-当你添加和编译表单模板的业务逻辑时，InfoPath 使用的程序集取决于你在 InfoPath Designer 中开始设计新表单时，在 Microsoft Office Backstage 的“新建”**** 选项卡上选择了“空白表单”**** 还是“空白表单 (InfoPath Filler)”**** 表单模板。 使用“空白表单”**** 表单模板创建的表单使用这样的程序集：仅包含在部署为启用浏览器的表单模板的表单模板的业务逻辑中支持的类型和成员。 使用“空白表单”**** 表单模板创建的表单可以使用 Web 浏览器和 InfoPath Filler 打开。 使用“空白表单 (InfoPath Filler)”**** 表单模板创建的表单使用这样的程序集：实现提供启用浏览器的表单模板的业务逻辑中不支持的功能的其他类型和成员，并且此类表单只能使用 InfoPath Filler 打开。 
+The assembly that InfoPath uses when you add and compile business logic for the form template depends on whether you select the **Blank Form** or **Blank Form (InfoPath Filler)** form template on the **New** tab of the Microsoft Office Backstage when you start to design a new form in the InfoPath Designer. Forms created by using the **Blank Form** form template use the assembly that contains only the types and members that are supported in the business logic of form templates deployed as browser-enabled form templates. Forms created by using the **Blank Form** form template can be opened in both the Web browser and the InfoPath Filler. Forms created by using the **Blank Form (InfoPath Filler)** form template use the assembly that implements additional types and members that provide functionality that is not supported in the business logic of browser-enabled form templates, and can only be opened in the InfoPath Filler. 
   
 > [!TIP]
-> 开始设计表单模板后，可以通过更改表单兼容性设置更改使用的程序集。 为此，请单击“开发者”**** 选项卡上的“语言”****，然后单击“类别”**** 列表中的“兼容性”****。 在“表单类型”**** 列表中，选择“Web 浏览器表单”**** 创建一个可以在 SharePoint Server 2013 上部署为浏览器兼容表单的表单。 选择“InfoPath Filler 表单”**** 创建一个只能在 InfoPath Filler 编辑器中运行的表单。 “表单类型”**** 列表中的其他选择为与 InfoPath 2007 和 InfoPath 2003 兼容提供支持。 
+> After you start to design a form template, you can change which assembly is used by changing the form compatibility settings. To do that, click **Language** on the **Developer** tab, and then click **Compatibility** in the **Category** list. In the **Form type** list, select **Web Browser Form** to create a form that can be deployed as a browser-compatible form on SharePoint Server 2013. Select **InfoPath Filler Form** to create a form that can run only in the InfoPath Filler editor. The other selections in the **Form type** list provide support for compatibility with InfoPath 2007 and InfoPath 2003. 
   
 此对象模型的两个版本的类和成员均通过 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间公开。下表列出了这些程序集在 InfoPath 2013 安装的目录中所处的位置。 
   

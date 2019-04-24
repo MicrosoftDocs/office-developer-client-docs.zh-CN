@@ -7,20 +7,20 @@ keywords:
 - infopath 2003-compatible form templates,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2007, creating InfoPath 2003-compatible form templates
 localization_priority: Normal
 ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
-description: 本主题中的过程介绍了如何创建使用 InfoPath 2003 兼容对象模型的表单模板。
-ms.openlocfilehash: 0cea526c2d41674afc6fee152c3e0584e6b69564
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+description: 本主题中的过程介绍如何创建使用 InfoPath 2003 兼容对象模型的表单模板。
+ms.openlocfilehash: 35a9fcfbb0d93a19e013bde6980bc94af3bb5dd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303638"
 ---
 # <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型创建表单模板
 
 本主题中的过程介绍了如何创建使用 InfoPath 2003 兼容对象模型的表单模板。
   
 > [!IMPORTANT]
-> 除了下面的过程以外，还必须单击“文件”**** 选项卡，单击“另存为”****，然后选择“另存为类型”**** 框中的“InfoPath 2003 表单模板”****，以将表单模板保存为 InfoPath 2003 兼容文件格式。 此外，若要打开使用 InfoPath 创建的 InfoPath 2003 兼容表单模板，所有 InfoPath 2003 用户都必须在其计算机上安装 .NET Framework 2.0 或更高版本。 
+> In addition to the procedures below, you must also click the **File** tab, click **Save As**, and then select **InfoPath 2003 Form Template** in the **Save as type** box to save the form template to the InfoPath 2003-compatible file format. Also, to open InfoPath 2003-compatible form templates created with InfoPath, all InfoPath 2003 users must have the .NET Framework 2.0 or later installed on their computers. 
   
 ### <a name="to-create-an-infopath-2003-compatible-form-template-in-infopath-with-visual-studio-tools-for-applications"></a>在含有 Visual Studio Tools for Applications 的 InfoPath 中创建 InfoPath 2003 兼容表单模板
 

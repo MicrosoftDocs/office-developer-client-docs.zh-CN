@@ -1,46 +1,46 @@
 ---
-title: 从 Dll 调用用户定义函数
+title: 从 DLL 调用用户定义的函数
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- udf [excel 2007]，从 dll，用户定义的函数 [Excel 2007] 中，从 Dll，Dll [Excel 2007] 中，调用 Udf 调用调用
+- udf [excel 2007], 从 dll 调用, 用户定义的函数 [excel 2007], 从 dll 调用, dll [excel 2007], 调用 udf
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 4e893cf1e54489610315dd5c5d57bd78c3c936d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301643"
 ---
-# <a name="calling-user-defined-functions-from-dlls"></a>从 Dll 调用用户定义函数
+# <a name="calling-user-defined-functions-from-dlls"></a>从 DLL 调用用户定义的函数
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-从工作表中调用用户定义函数 (Udf) 是像调用内置函数一样简单： 通过单元格公式输入函数。 但是，从 C API，没有预定义的函数代码用于回电。 若要使您能够调用 Udf，C API 导出的仅 XLL 函数， [xlUDF](xludf.md)函数。 函数的第一个参数是字符串形式的函数名称和后续参数是那些通常会所有 UDF。 
+从工作表调用用户定义的函数 (udf) 就像调用内置函数一样简单: 通过单元格公式输入函数。 但是, 从 C API, 没有预定义的函数代码可用于回调。 为了使您能够调用 udf, C API 将导出仅 XLL 函数, 即[xlUDF](xludf.md)函数。 函数的第一个参数是一个字符串形式的函数名称, 而后面的参数是 UDF 通常需要的参数。 
   
-可以通过使用参数 44 **xlfGetWorkspace**函数来获取当前注册的 XLL 加载项函数和命令的列表。 这将返回一个三列的数组，列表示下列： 
+您可以通过使用带参数44的**xlfGetWorkspace**函数来获取当前注册的 XLL 加载项函数和命令的列表。 这将返回一个包含三列的数组, 其中的列表示以下内容: 
   
-- 完整路径和的 XLL 的名称
+- XLL 的完整路径和名称
     
-- UDF 或命令，从 XLL 导出的名称
+- 从 XLL 导出的 UDF 或命令的名称
     
-- 返回和参数的代码字符串
+- return 和参数代码字符串
     
 > [!NOTE]
-> 从 XLL 导出名称可能不是按其 Excel 知道的 UDF 或命令的已注册名称相同。 
+> 从 XLL 导出的名称可能与 Excel 知道 UDF 或命令的注册名称不相同。 
   
-从 Excel 2007 开始，全面集成，分析工具库 (ATP) 函数，具有 C API 函数，如价格， **xlfPrice**自己枚举。 在早期版本中，您必须使用**xlUDF**调用这些函数。 如果加载项需要使用 Excel 2003 和 Excel 2007 或更高版本，并使用这些功能，应检测当前版本，并以相应的方式调用的函数。 
+从 Excel 2007 开始, 分析工具库 (ATP) 函数是完全集成的, 而 C API 对 PRICE、 **xlfPrice**等函数有自己的枚举。 在早期版本中, 您必须使用**xlUDF**调用这些函数。 如果你的外接程序需要使用 excel 2003 和 excel 2007 或更高版本, 并且它使用了这些函数, 则应检测当前版本并以适当的方式调用函数。 
   
 ## <a name="examples"></a>示例
 
-下面的示例演示用于运行版本的 Excel 2003 或更早版本时调用 ATP 函数**PRICE** **xlUDF**函数。 有关设置的全局版本变量，如**gExcelVersion12plus**在此示例中，请参阅[向后兼容性](backward-compatibility.md)。
+下面的示例演示在 Excel 的运行版本为2003或更早版本时, 用于调用 ATP 函数**价格**的**xlUDF**函数。 有关全局版本变量的设置的信息 (如本示例中的**gExcelVersion12plus** ), 请参阅[向后兼容](backward-compatibility.md)。
   
 > [!NOTE]
-> 此示例使用框架函数**TempNum**， **TempStrConst**设置参数和 Excel 调用 C API。 
+> 此示例使用 Framework 函数**TempNum**、 **TempStrConst**设置参数和 Excel, 以调用 C API。 
   
 ```C
 LPXLOPER TempNum(double d);
@@ -86,7 +86,7 @@ double call_ATP_example(void)
 
 <br/>
 
-其中您正在呼叫通过修改就地**xlUDF**函数参数返回一个值，XLL 函数的结果**XLOPER/XLOPER12**地址通过仍然返回的值。 换句话说，就好像通过普通返回语句返回的结果。 对应于用于返回值的参数**XLOPER/XLOPER12**被修改。 例如，请考虑以下两个 Udf。 
+在调用通过就地修改参数返回值的 XLL 函数时, **xlUDF**函数仍通过 result **XLOPER/XLOPER12**的地址返回值。 换言之, 返回的结果就像通过正常的 return 语句那样。 与用于返回值的参数对应的**XLOPER/XLOPER12**不会被修改。 例如, 请考虑下面两个 udf。 
   
 ```C
 // Registered as "1E". Returns its argument incremented by 1.
@@ -109,13 +109,13 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-当**UDF\_2**呼叫**UDF\_1**、 到**Excel12**，在调用后**pxArg**的值不变，且由**UDF_1**返回的值包含在**xRetVal**。
+**\_udf 2**调用**udf\_1**时, **pxArg**的值在调用**Excel12**后保持不变, **UDF_1**返回的值包含在**xRetVal**中。
   
-在您调用 UDF 的大量这种方式，您可以使用[xlfEvaluate 函数](xlfevaluate.md)首先评估函数名称。 产生的号码，这是由**xlfRegister**函数返回的注册 ID 相同，可以传递代替函数名作为第一个参数给**xlUDF**函数。 这使 Excel 查找和速度比它具有要查找的函数名称每次调用的函数。 
+以这种方式对 UDF 进行大量调用时, 可以先使用[xlfEvaluate 函数](xlfevaluate.md)计算函数名称。 生成的数字与**xlfRegister**函数返回的注册 ID 相同, 可以传递给函数名称, 将其作为**xlUDF**函数的第一个参数。 这使 Excel 能够更快地查找和调用函数, 而不是每次都需要查找函数名称。 
   
 ## <a name="see-also"></a>另请参阅
 
-- [在长时间的操作中允许用户中断](permitting-user-breaks-in-lengthy-operations.md)
+- [允许用户中断冗长操作](permitting-user-breaks-in-lengthy-operations.md)
 - [只能从 DLL 或 XLL 调用的 C API 函数](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-- [Excel XLL SDK 入门](getting-started-with-the-excel-xll-sdk.md)
+- [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
 

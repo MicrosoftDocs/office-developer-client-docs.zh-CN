@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b51361fe-cf29-f890-9876-5aebe15c73e1
 description: Microsoft InfoPath 表单模板由结合使用的多个文件和组件组成，它们共同提供特定的功能以满足特定的最终用户方案或业务需求。InfoPath 表单在复杂性方面可能会有所变化，这取决于它们所服务的需求的类型。
-ms.openlocfilehash: 4ef90d3fb55ee38018d2c1226bef5fd59e277186
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 3c5adc7ec1e24af481dff7f4a8d009b2dcb6ba8a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303792"
 ---
 # <a name="about-form-template-components"></a>关于表单模板组件
 
@@ -29,7 +29,7 @@ Microsoft InfoPath 表单模板由结合使用的多个文件和组件组成，�
 |XML 模板  <br/> |.xml  <br/> |.xml 文件，包含新建表单时显示在视图中的默认数据。  <br/> |
 |演示文稿  <br/> |.htm, .gif, .bmp 及其他  <br/> |结合视图文件使用以创建自定义用户界面的文件。  <br/> |
 |业务逻辑  <br/> |.dll  <br/> |用于实现特定的编辑行为、数据有效性、事件处理程序、数据流的控制以及其他自定义业务逻辑的已编译编程代码。可以使用 Visual Basic 和 C# .NET 编程语言来编写 InfoPath 业务逻辑，这些语言是经过编译的，并且以二进制文件形式提供。  <br/> |
-|二进制数  <br/> |.dll, .exe  <br/> | 提供附加业务逻辑的任何自定义组件。  <br/> |
+|二进制组件  <br/> |.dll, .exe  <br/> | 提供附加业务逻辑的任何自定义组件。  <br/> |
 |表单模板  <br/> |.xsn  <br/> |将所有表单文件打包成一个文件的压缩文件格式 (.cab)。  <br/> |
    
 

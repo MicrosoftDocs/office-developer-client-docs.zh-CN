@@ -7,26 +7,26 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: b67fcb83-a0e2-4349-88f5-bcc181306eac
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: c5508df8466932b6fb5c7e04164aa00a5ea31a8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c989bc39c22f4e566c18feb4fdeaa8582c5525f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304037"
 ---
 # <a name="handling-events"></a>处理事件
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-启动在 Excel 2010 xll （英文） 可以接收旨在管理的异步函数生命周期的事件。 事件如下所示：
+从 Excel 2010 开始, xll 可以接收旨在管理异步函数生命周期的事件。 这些事件如下所示:
   
-- **CalculationEnded**： 引发完成 Excel 计算。 此事件之后，您可以释放计算过程中分配资源。
+- **CalculationEnded**: 在 Excel 完成计算时引发。 在此事件发生之后, 您可以释放计算过程中分配的资源。
     
-- **CalculationCanceled**： 用户中断计算时引发。 XLL 停止任何异步活动。 紧接此事件， **CalculationEnded**引发该事件。 
+- **CalculationCanceled**: 用户中断计算时引发。 XLL 将停止所有异步活动。 紧接在此事件之后, 将引发**CalculationEnded**事件。 
     
-若要处理这些事件，XLL，请使用 C API 函数[xlEventRegister](xleventregister.md)。 
+XLL 使用 C API 函数[xlEventRegister](xleventregister.md)来处理这些事件。 
   
 > [!NOTE]
-> **CalculationEnded**和**CalculationCanceled**不会引发编程重新计算过程中。 
+> 在编程重新计算过程中不会引发**CalculationEnded**和**CalculationCanceled** 。 
   
 

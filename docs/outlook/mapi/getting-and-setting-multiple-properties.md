@@ -1,5 +1,5 @@
 ---
-title: 获取和设置多个属性
+title: 获取并设置多个属性
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,20 +7,20 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 88c3e0bdb3cc6660e35faf62c5bb63ec2f6352bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: dd25751978eb036531238e6372e35934b3ec145a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299375"
 ---
-# <a name="getting-and-setting-multiple-properties"></a>获取和设置多个属性
+# <a name="getting-and-setting-multiple-properties"></a>获取并设置多个属性
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-获取和设置尽可能使用最少的多个属性的呼叫，远程 curtailed 活动并减少了开销涉及与每个属性数。 尽管服务提供商尝试进行远程过程调用的检索或修改之前收集属性，您可以通过首先请求多个属性来优化这项成果。
+通过使用最少的调用数获取和设置尽可能多的属性, 远程活动是 curtailed 的, 并且降低每个属性所需的开销。 虽然服务提供程序在进行远程过程调用以进行检索或修改之前尝试收集属性, 但您可以通过请求使用多个属性开始来优化这一工作。
   
-例如，如果您使用路由描述将来收件人属于特定的属性集的命名属性的列表，可处理所有的收件人的两个通话。 一次调用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)用于检索所有收件人的属性和其他调用[IMAPIProp::GetProps](imapiprop-getprops.md)以检索的所有值的标识符。 或者，对于每个收件人后, 跟**GetProps**调用**GetIDsFromNames**调用是效率显著降低。 
+例如, 如果您使用的路由列表描述了具有属于特定属性集的命名属性的后续收件人, 请处理两个呼叫的所有收件人。 使用一个调用[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)检索所有收件人属性的标识符, 以及对[IMAPIProp:: GetProps](imapiprop-getprops.md)的其他调用, 以检索所有值。 另一种方法是, 在调用**GetIDsFromNames**后, 对每个收件人调用**GetProps** , 效率要低得多。 
   
 

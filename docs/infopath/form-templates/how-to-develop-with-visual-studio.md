@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: 通过使用在 Visual Studio 2008 中开发的托管代码扩展 InfoPath 表单，您可以大大增强这些表单的功能。随后，您可以将包含代码的表单发布到 SharePoint Server 2013 中的表单库。
 ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300285"
 ---
 # <a name="develop-with-visual-studio"></a>使用 Visual Studio 进行开发
 
@@ -45,10 +45,10 @@ InfoPath 提供了使用用两种语言（Visual Basic 和 C#）编写的四种�
 
 1. 当表单模板项目在 InfoPath 设计器中处于打开状态时，在“开发工具”**** 选项卡上单击“语言”****。 
     
-2. 在“表单选项”**** 对话框的“编程”**** 类别中，从“表单模板代码语言”**** 下拉列表中选择你想要使用的语言。 然后，从“目标版本”**** 下拉列表中选择对象模型的版本。 仅与 InfoPath 2013 兼容的“目标版本”**** 选项没有后跟“InfoPath”**** 名称的版本年。 
+2. In the **Programming** category of the **Form Options** dialog box, select the language that you want to work with from the **Form template code language** drop-down list. Then, select the version of the object model from the **Target version** drop-down list. The **Target version** option that is compatible only with InfoPath 2013 does not have a version year following the **InfoPath** name. 
     
     > [!NOTE]
-    > 并非所有表单模板类型都支持代码。 例如，“SharePoint 列表”**** 表单模板类型和“模板部件”**** 不支持表单代码。 当设计不支持代码的表单模板类型时，“开发工具”**** 选项卡将不可用。 此外，只有某些表单模板类型才支持所有四种版本的对象模型。 例如，“空白表单 (InfoPath Filler)”**** 模板类型支持所有四种版本的对象模型（并创建仅与这些版本中的 InfoPath Filler 兼容的表单模板），而“空白表单”**** 模板仅支持 InfoPath 2013 和 InfoPath（并创建与 InfoPath Filler 和浏览器都兼容的表单模板）。 
+    > Not all form template types support code. For example, the **SharePoint List** form template type and **Template Parts** do not support form code. When designing a form template type that does not support code, the **Developer** tab will not be available. Also, only some form template types support all four versions of the object model. For example, the **Blank Form (InfoPath Filler)** template type supports all four versions of the object model (and creates form template that are compatible only with the InfoPath Filler in those versions), but the **Blank Form** template supports only InfoPath 2013 and InfoPath (and creates form templates that are compatible with both the InfoPath Filler and the browser). 
   
     您可以设置默认编程语言，以便 InfoPath 表单设计器在启动时将始终使用您选择的语言和对象模型版本。
     

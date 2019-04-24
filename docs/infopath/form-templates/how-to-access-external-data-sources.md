@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: 使用 InfoPath 表单模板时，可以编写代码以访问表单的辅助数据源和操作这些数据源所包含的数据。
-ms.openlocfilehash: e26708e0033bbfe4110ac522dd1e0a0dd037c31e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: f6957c561231eef0e3e4df6deb09ae89f85afcc5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300194"
 ---
 # <a name="access-external-data-sources"></a>访问外部数据源
 

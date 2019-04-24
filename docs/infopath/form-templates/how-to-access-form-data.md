@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: 如果要扩展 InfoPath 表单的功能，通常必须以编程方式访问有关表单的基础 XML 文档的信息，访问 XML 文档所包含的数据或对 XML 文档执行某操作。InfoPath 对象模型通过结合使用 XmlForm 类和 XmlFormCollection 类来支持对表单的基础 XML 文档的访问和操作。
 ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300208"
 ---
 # <a name="access-form-data"></a>访问表单数据
 

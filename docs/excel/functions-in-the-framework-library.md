@@ -5,24 +5,24 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- '[excel 2007] framework 库函数，函数 [Excel 2007，] Framework 库'
+- 框架库函数 [excel 2007], 函数 [excel 2007], 框架库
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 1d3878e376f95be3b277f1bb1a59545eb0a631ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4eeb9e5db09592e98e9afb763efaa6be18eb2f7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304051"
 ---
 # <a name="functions-in-the-framework-library"></a>框架库中的函数
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-创建框架库是为了帮助确保编写 Xll 更轻松。 它包括用于管理**XLOPER**简单函数/ **XLOPER12**内存，创建临时**XLOPER**/ **XLOPER12**，始终能够调用 Microsoft Excel 回调函数 （**Excel4**、 **Excel4v*** * Excel12 * *，* * Excel12v * *) 和打印调试上附加终端的字符串。
+创建框架库旨在帮助简化编写 xll。 它包括用于管理**XLOPER**/ **XLOPER12**内存的简单函数、创建临时**XLOPER**/ **XLOPER12**、可靠地调用 Microsoft Excel 回调函数 (**Excel4**、 **Excel4v**、* * Excel12 * *、* * Excel12v * *), 并在附加的终端上打印调试字符串。
   
-在此库中包含的功能有助于简化与以下内容类似的代码段。
+此库中包含的函数有助于简化如下所示的一段代码。
   
 ```cs
 XLOPER12 xMissing, xBool;
@@ -32,13 +32,13 @@ xBool.val.xbool = 0;
 Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &xMissing, (LPXLOPER12) &xBool);
 ```
 
-简化的代码类似于下面的示例。
+简化的代码如以下示例所示。
   
 ```cs
 Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 ```
 
-Framework 库中包含以下功能：
+框架库中包含以下函数:
   
 ||
 |:-----|
@@ -48,7 +48,7 @@ Framework 库中包含以下功能：
 |[InitFramework](initframework.md) <br/> |
 |[QuitFramework](quitframework.md) <br/> |
    
-|**用于 XLOPERs 函数**|**用于 XLOPER12s 函数**|
+|**用于 XLOPERs 的函数**|**用于 XLOPER12s 的函数**|
 |:-----|:-----|
 |[Excel](excel-excel12f.md) <br/> |[Excel12f](excel-excel12f.md) <br/> |
 |[TempNum](tempnum-tempnum12.md) <br/> |[TempNum12](tempnum-tempnum12.md) <br/> |
@@ -63,11 +63,11 @@ Framework 库中包含以下功能：
 |[TempActiveColumn](tempactivecolumn-tempactivecolumn12.md) <br/> |[TempActiveColumn12](tempactivecolumn-tempactivecolumn12.md) <br/> |
 |[TempMissing](tempmissing-tempmissing12.md) <br/> |[TempMissing12](tempmissing-tempmissing12.md) <br/> |
    
-使用这些函数缩短编写 DLL 或 XLL 所需的时间量。 示例应用程序从开始开发泛型还缩短了开发时间。 使用通用。C 作为模板帮助设置 XLL 的框架，然后用您自己中替换现有代码。
+使用这些函数可缩短写入 DLL 或 XLL 所需的时间量。 从示例应用程序开始开发一般也缩短了开发时间。 使用 GENERIC。C 作为模板来帮助设置 XLL 框架, 然后将现有代码替换为您自己的代码。
   
-临时**XLOPER**/ **XLOPER12**函数创建**XLOPER**/ **XLOPER12**值使用的内存从本地堆由 Framework 库。 **XLOPER**/ **XLOPER12**值保持有效，直到您调用**FreeAllTempMemory**函数或任一**Excel**或**Excel12f**函数。 （的**Excel**和**Excel12f**函数释放所有临时内存返回之前。） 
+临时**XLOPER**/ **XLOPER12**函数使用由框架库管理的本地堆中的内存创建**XLOPER**/ **XLOPER12**值。 在调用**FreeAllTempMemory**函数或任一**Excel**或**Excel12f**函数之前, **XLOPER**/ **XLOPER12**值始终有效。 ( **Excel**和**Excel12f**函数在返回之前释放所有临时内存。) 
   
-若要使用的框架库函数，您必须包括 FRAMEWRK。H C 代码文件，并添加 FRAMEWRK。C 或 FRMWRK32。LIB 文件复制到您的代码项目。
+若要使用框架库函数, 必须包含 FRAMEWRK。H 文件, 并添加 FRAMEWRK。C 或 FRMWRK32。LIB 文件到代码项目。
   
 ## <a name="see-also"></a>另请参阅
 

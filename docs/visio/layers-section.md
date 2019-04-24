@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 89bcde81-4530-bd00-6e2e-fab7deec175b
 description: 显示为某一页定义的所有图层和为各图层设置的属性。
-ms.openlocfilehash: 36be01460351ae9934bc0c94910b252095fca1d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 058c8cbe2ee38a0ebc52935f7108d51ec4f2aef5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309469"
 ---
-# <a name="layers-section"></a>“Layers”部分
+# <a name="layers-section"></a>“Layers”内容
 
 显示为某一页定义的所有图层和为各图层设置的属性。 
   

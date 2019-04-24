@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: 使用 Microsoft InfoPath 创建的表单模板可以通过 XML 架构 (XSD)，对从 InfoPath 表单输入、编辑和输出的 XML 执行结构和数据验证。在 InfoPath 表单设计器中创建的每个表单模板都至少包含一个 XSD 架构文件 (.xsd)，该架构文件用于在运行时进行验证。
 ms.openlocfilehash: 25828c3ec21d22a9952452d5a82fe1a3b4bab54c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303162"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>在 InfoPath 中使用 XML 架构
 
@@ -43,7 +43,7 @@ ms.locfileid: "25395502"
   
 ## <a name="required-xsdany-element"></a>必需的 xsd:any 元素
 
-如果存在 **xsd:any** 通配符元素，即存在 **minOccurs** 属性值大于零（“required any”）的 **xsd:any** 元素，则会明确阻止 InfoPath 创建此架构片段的有效实例。InfoPath 必须能够创建此架构片段的有效实例，才能生成使用此架构片段的表单。在运行“数据源向导”**** 的过程中，包含必需的 **xsd:any** 元素的架构要求您选择要使用的架构元素，以代替必需的 **xsd:any** 元素。 
+An occurrence of an **xsd:any** wildcard element, that is, an occurrence of an **xsd:any** element with a **minOccurs** attribute value greater than zero ("required any"), prevents InfoPath from deterministically creating a valid instance for this schema fragment. InfoPath must be able to create a valid instance when generating a form that uses this schema fragment. As part of running the **Data Source Wizard**, schemas with required **xsd:any** elements require you to choose which schema element you want to use in place of the required **xsd:any** element. 
   
 ## <a name="elements-with-an-abstract-complex-type"></a>具有抽象复杂类型的元素
 
@@ -69,7 +69,7 @@ InfoPath 设计模式支持根据使用抽象复杂类型的架构设计表单�
 
 ```
 
-InfoPath 将重复选项元素作为重复选项显示在“域”**** 任务窗格中。这里有一个“重复选项组”**** 控件，可以用来表示由 XSD 中的重复选项元素所定义的异类列表。 
+InfoPath displays repeating choice elements as repeating choices in the **Fields** task pane. There is a **Repeating Choice Group** control that you can use to represent the heterogeneous list defined by the repeating choice element in the XSD. 
   
 ## <a name="repeating-sequence"></a>重复序列
 
@@ -100,7 +100,7 @@ InfoPath 将重复选项元素作为重复选项显示在“域”**** 任务窗
 
 ```
 
-InfoPath 设计模式支持此类 XSD 构造，并且不要求表单设计人员做任何修改。尽管 InfoPath 不会修改架构的含义，但是它会将上述选项构造简化为“域”**** 任务窗格中折叠起来的单个对等选项。 
+InfoPath design mode supports such XSD constructs without requiring any modification by the form designer. While InfoPath does not modify the meaning of the schema, it simplifies the choice construct above into an equivalent collapsed single choice in the **Fields** task pane. 
   
 ## <a name="optional-sibling-with-same-qualified-name"></a>具有相同限定名称的可选同级元素
 
@@ -123,7 +123,7 @@ InfoPath 设计模式支持此类 XSD 构造，并且不要求表单设计人员
   
 ## <a name="adding-new-element-fields-and-groups-with-the-fields-task-pane"></a>使用"域"任务窗格添加新的元素域和组
 
-您可以对架构进行设计，以便可以使用“域”**** 任务窗格，在设计时向元素中添加新的元素域和组。为此，需要使用通过 **##any** 通配符指定命名空间属性的、可选的无限次 **xsd:any** 元素在架构中声明一个元素。然后，在设计模式下，可以使用“域”**** 任务窗格将新的元素域和组添加到该元素中。例如，可以将新内容添加到以下元素中： 
+You can construct your schema so that you can use the **Fields** task pane to add new element fields and groups to an element at design time. To do so, you declare an element in your schema with an optional, unbounded **xsd:any** element that specifies the namespace attribute with the **##any** wildcard. Then, in design mode, you can use the **Fields** task pane to add new element fields and groups to that element. For example, you could add new content to the following element: 
   
 ```XML
 <xsd:element name="open"> 
@@ -138,7 +138,7 @@ InfoPath 设计模式支持此类 XSD 构造，并且不要求表单设计人员
 
 ## <a name="adding-new-attribute-fields-with-the-fields-task-pane"></a>使用"域"任务窗格添加新的属性域
 
-与元素的情况类似，您也可以使用将命名空间属性指定为 **##any** 通配符的 **anyAttribute** 元素来声明一个属性。在设计时，可以使用“域”**** 任务窗格将新的内容添加到该架构属性中。 
+Similarly to the element case, you can declare an attribute with an **anyAttribute** element that has the namespace attribute specified as the **##any** wildcard. At design time, you can use the **Fields** task pane to add new content to that schema attribute. 
   
 ```XML
 <xsd:element name="open"> 
@@ -167,7 +167,7 @@ InfoPath 设计模式支持此类 XSD 构造，并且不要求表单设计人员
 
 ## <a name="binding-a-field-to-a-rich-text-box-control"></a>将域绑定到格式文本框控件
 
- InfoPath 中的“格式文本框”**** 控件会生成通用 XHTML；因此，您的架构必须指定任意数量的文本和 XHTML 节点在表单实例的 XML 中都有效。可以使用以下 XSD 构造进行指定： 
+ **Rich Text Box** controls in InfoPath generate generic XHTML; consequently, your schema must specify that any number of text and XHTML nodes is valid in the XML of the form instance. You can achieve this specification with the following XSD construct: 
   
 ```XML
 <xsd:element name="xhtml"> 
@@ -450,7 +450,7 @@ XML 仅支持 Unicode 字符集。因此，如果保存采用 ANSII 字符的文
 xml version="1.0" encoding="UTF-8"
 ```
 
-此处理指令标记指定文件的编码为 UTF-8。必须确保文件编码与处理指令标记中声明的编码相同，可以通过查看文件的字节数和 Unicode 字节顺序标记来确定编码。但还有一种更简单的方法。如果您在打开 XSD 架构时遇到问题，请将编码指定为“UTF-8”，在文本编辑器（如记事本）中打开它，然后使用 UTF-8 编码保存文件（记事本在“另存为”**** 对话框中提供了“编码”**** 下拉列表）。如果在打开文件时仍遇到问题，则说明不是编码问题。 
+This processing instruction tag specifies that the encoding of the file is UTF-8. You must ensure that the file encoding is the same as the encoding stated in the processing instruction tag. You can determine the encoding by looking at the bytes of the file and looking for the Unicode byte order marks. But there is an easier way. If you have problems opening an XSD schema, specify the encoding as "UTF-8", open it in a text editor such as Notepad, and then save the file by using UTF-8 encoding (Notepad provides the **Encoding** drop-down list in the **Save As** dialog box). If you still have problems opening the file, it is not an encoding issue. 
   
 ## <a name="maxoccurs-attribute-inside-the-xsdall-element"></a>xsd:all 元素内的 maxOccurs 属性
 
@@ -492,7 +492,7 @@ xml version="1.0" encoding="UTF-8"
   
 ## <a name="allowing-user-defined-elements-to-be-inserted-in-the-fields-task-pane"></a>允许将用户定义的元素插入"域"任务窗格
 
-要允许用户定义的元素显示在“域”**** 任务窗格中的父元素下，必须在父元素下插入 **xsd:any** 元素。 要允许用户定义的元素插入到 `<your_node_name>` 中，XSD 声明应类似如下。 
+To allow user-defined elements to appear under a parent element in the **Fields** task pane, you must insert an **xsd:any** element under the parent element. To allow user-defined elements to be inserted inside  `<your_node_name>` , the XSD declaration should resemble the following. 
   
 ```XML
 <xsd:element name="your_node_name"> 

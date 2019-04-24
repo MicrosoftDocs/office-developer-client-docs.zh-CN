@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299431"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
@@ -25,9 +25,9 @@ ms.locfileid: "25399653"
   
 |||
 |:-----|:-----|
-|标头文件：  <br/> |tnef.h  <br/> |
+|标头文件：  <br/> |tnef  <br/> |
 |实现者：  <br/> |MAPI  <br/> |
-|调用者：  <br/> |客户端应用程序和服务提供商。  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序。  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -41,33 +41,33 @@ HRESULT GetTnefStreamCodepage(
 
  _lpStream_
   
-> [in]指向提供源 TNEF 流邮件存储 stream 对象 OLE **IStream**接口的指针。 
+> 实时指向存储流对象 OLE **IStream**接口的指针, 该接口提供 TNEF 流消息的源。 
     
  _lpulCodepage_
   
-> [输出]到流的代码页的指针。
+> 排除指向流的代码页的指针。
     
  _lpulSubCodepage_
   
-> [输出]到的流 subcode 页的指针。
+> 排除指向流的子代码页的指针。
     
 ## <a name="return-value"></a>返回值
 
  **S_OK**
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
  **MAPI_E_NOT_ENOUGH_DISK**
   
-> 读取流中的 TNEF 属性时出错。
+> 读取 TNEF 流中的属性时出错。
     
  **MAPI_E_CORRUPT_DATA**
   
-> 流未 TNEF 流，或时出错读取 attOemCodepage 属性。
+> 流不是 TNEF 流, 或者读取 attOemCodepage 属性时出错。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-使用**GetTnefStreamCodepage**函数读取 TNEF 流来确定的代码页和子代码页的**attOemCodepage**属性。 如果找不到**attOemCodepage** ， **GetTnefStreamCodepage**返回 437 代码页和 subcode 页为 0。 
+使用**GetTnefStreamCodepage**函数可读取 TNEF 流的**attOemCodepage**属性, 以确定 "代码页" 和 "子代码" 页。 如果找不到**attOemCodepage** , 则**GetTnefStreamCodepage**将返回437和子代码页面0的代码页。 
   
 ## <a name="see-also"></a>另请参阅
 

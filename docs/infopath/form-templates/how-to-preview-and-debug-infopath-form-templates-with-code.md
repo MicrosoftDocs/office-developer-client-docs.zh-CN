@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: 使用带有 Visual Studio 2008 的 Microsoft InfoPath，您可以通过在预览模式下运行表单代码来进行调试。在开始调试表单代码时，系统将对项目进行编译，InfoPath 将在 InfoPath 预览窗口中显示表单。当遇到设置了断点的代码行时，焦点将移动到代码编辑器。当越过断点继续调试时，焦点将移回预览窗口。关闭预览窗口时调试也将停止。
-ms.openlocfilehash: c33a7740d5f5dba1f8443f020007a2942bc0fc3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300432"
 ---
 # <a name="preview-and-debug-infopath-form-templates-with-code"></a>预览和调试包含代码的 InfoPath 表单模板
 
@@ -72,7 +72,7 @@ ms.locfileid: "19773986"
 如果正在使用的表单已定义了用户角色，则可以指定在调试或预览表单时使用的用户角色。有关如何定义用户角色的信息，请在 InfoPath 帮助中搜索"用户角色"。
   
 > [!NOTE]
-> 如果你的表单模板的兼容性设置被设置为“Web 浏览器表单”****，则指定用户角色的选项将不可用。 在从 InfoPath Forms Services 中的浏览器中打开的表单模板中不支持用户角色。 
+> The option to specify a user role is not available if the compatibility setting for your form template is set to **Web Browser Form**. User roles are not supported in form templates opened in the browser from InfoPath Forms Services. 
   
 ### <a name="to-specify-a-role-to-use-while-debugging-or-previewing"></a>指定在调试或预览过程中使用的角色
 
@@ -84,7 +84,7 @@ ms.locfileid: "19773986"
     
 ## <a name="specifying-a-domain-to-use-while-debugging-or-previewing"></a>指定在调试或预览过程中使用的域
 
-可以预览表单，就像它被发布到特定域一样。 只有在表单模板的安全级别被显式设置为“域”**** 时，此设置才适用。
+可以预览表单，就像该表单已发布到某个特定域一样。仅当表单模板的安全级别明确设置为“域”**** 时，此设置才适用。
   
 ### <a name="to-specify-a-domain-to-use-while-debugging-or-previewing"></a>指定在调试或预览过程中要使用的域
 

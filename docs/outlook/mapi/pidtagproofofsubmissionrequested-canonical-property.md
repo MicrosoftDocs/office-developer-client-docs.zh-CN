@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 427eed260dbe56e2a83d7ddccff3eb2cebe8c27c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0617029fd13cf6968936c97faacedeb333ede9e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589985"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286513"
 ---
 # <a name="pidtagproofofsubmissionrequested-canonical-property"></a>PidTagProofOfSubmissionRequested 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 ASN.1 证明提交值。
+包含 ASN. 1 提交价值证明。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROOF_OF_SUBMISSION_REQUESTED  <br/> |
-|标识符：  <br/> |0x0028  <br/> |
+|标识符:  <br/> |0x0028  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性对应于 X.400 提交信封每封邮件属性。
+此属性对应于每封邮件一个 X 400 提交信封属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

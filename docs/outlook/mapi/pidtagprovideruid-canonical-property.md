@@ -12,31 +12,31 @@ api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cca22b466b1e0d2da9ca9cc009586df08316270c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0d79075ea1db451e0c3d327df9a662e5032ebb22
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286413"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>PidTagProviderUid 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含正在处理一条消息的服务提供商**MAPIUID**结构。 
+包含正在处理邮件的服务提供程序的**MAPIUID**结构。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROVIDER_UID  <br/> |
-|标识符：  <br/> |0x300C  <br/> |
+|标识符:  <br/> |0x300C  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性由所有服务提供商计算。 它包含提供商的[MAPIUID](mapiuid.md)结构相关联，且通常硬编码。 通常使用感仅特定的提供商所提供的通讯簿容器中的客户端应用程序。 
+此属性由所有服务提供程序计算。 它包含与提供程序关联的[MAPIUID](mapiuid.md)结构, 并且通常由该提供程序进行硬编码。 它通常由仅对特定提供程序所提供的通讯簿容器感兴趣的客户端应用程序使用。 
   
 此属性仅显示为提供程序表中的列条目。
   
@@ -44,13 +44,13 @@ ms.locfileid: "22581053"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

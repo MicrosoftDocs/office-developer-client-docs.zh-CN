@@ -1,291 +1,291 @@
 ---
-title: 保留的关键字 （访问自定义 web 应用程序）
+title: 保留关键字 (Access 自定义 web 应用)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
-description: Microsoft Access 定义、 操作和访问数据库中用于保留的关键字。 保留的关键字属于的语言的由访问用于分析和了解 SQL 语句的语法。
-ms.openlocfilehash: 9d304430a9c727cf223e046748a84c4206ffb4f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Microsoft Access 使用保留关键字来定义、处理和访问数据库。 保留关键字是用于分析和理解 SQL 语句的 Access 所使用的语言的语法的一部分。
+ms.openlocfilehash: 132f912d2b6b5a65980355b18c0a23eaa8c24cbc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307971"
 ---
-# <a name="reserved-keywords-access-custom-web-app"></a>保留的关键字 （访问自定义 web 应用程序）
+# <a name="reserved-keywords-access-custom-web-app"></a>保留关键字 (Access 自定义 web 应用)
 
-Microsoft Access 定义、 操作和访问数据库中用于保留的关键字。 保留的关键字属于的语言的由访问用于分析和了解 SQL 语句的语法。 
+Microsoft Access 使用保留关键字来定义、处理和访问数据库。 保留关键字是用于分析和理解 SQL 语句的 Access 所使用的语言的语法的一部分。 
   
 > [!IMPORTANT]
-> Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
+> [!重要信息] Microsoft 不再建议在 SharePoint 中创建和使用 Access Web 应用程序。作为备选方法，请考虑使用 [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/)，生成适用于 Web 和移动设备的无代码业务解决方案。 
   
 ## <a name="access-reserved-keywords"></a>访问保留关键字
 
-下表列出了访问保留的关键字。
+下表列出了 Access 保留的关键字。
   
 ||||
 |:-----|:-----|:-----|
-|添加  <br/> |填充因子  <br/> |季度  <br/> |
-|ALL  <br/> |Float  <br/> |RAISERROR  <br/> |
-|更改  <br/> |为  <br/> |读取  <br/> |
-|AND  <br/> |外  <br/> |READTEXT  <br/> |
-|ANY  <br/> |FREETEXT  <br/> |重新配置  <br/> |
-|AS  <br/> |不对  <br/> |引用  <br/> |
-|ASC  <br/> |从  <br/> |复制  <br/> |
-|AUTHORIZATION  <br/> |完整  <br/> |还原  <br/> |
-|备份  <br/> |函数  <br/> |RESTRICT  <br/> |
-|开始  <br/> |转到  <br/> |Return  <br/> |
-|BETWEEN  <br/> |授予  <br/> |还原  <br/> |
-|Break  <br/> |组  <br/> |REVOKE  <br/> |
-|浏览  <br/> |无  <br/> |RIGHT  <br/> |
-|批量  <br/> |HOLDLOCK  <br/> |回滚  <br/> |
-|通过  <br/> |小时  <br/> |ROWCOUNT  <br/> |
-|级联  <br/> |标识  <br/> |ROWGUIDCOL  <br/> |
-|案例  <br/> |IDENTITY_INSERT  <br/> |规则  <br/> |
-|CHECK  <br/> |IDENTITYCOL  <br/> |保存  <br/> |
-|检查点  <br/> |如果  <br/> |架构  <br/> |
-|CLOSE  <br/> |IN  <br/> |第二节  <br/> |
-|CLUSTERED  <br/> |索引  <br/> |SECURITYAUDIT  <br/> |
-|COALESCE  <br/> |内部  <br/> |SELECT  <br/> |
+|接  <br/> |起始  <br/> |季度  <br/> |
+|全部  <br/> |点数  <br/> |RAISERROR  <br/> |
+|ALTER  <br/> |。  <br/> |读取  <br/> |
+|AND  <br/> |对外  <br/> |READTEXT  <br/> |
+|ANY  <br/> |FREETEXT  <br/> |重新  <br/> |
+|AS  <br/> |FREETEXTTABLE  <br/> |参照  <br/> |
+|ASC  <br/> |FROM  <br/> |复制  <br/> |
+|批准  <br/> |全  <br/> |存储  <br/> |
+|后备  <br/> |FUNCTION  <br/> |限制  <br/> |
+|启动  <br/> |语句  <br/> |Return  <br/> |
+|BETWEEN  <br/> |授  <br/> |回  <br/> |
+|Break  <br/> |该组  <br/> |REVOKE  <br/> |
+|定位  <br/> |拥有  <br/> |左向右  <br/> |
+|BULK  <br/> |HOLDLOCK  <br/> |混淆  <br/> |
+|BY  <br/> |小时  <br/> |ROWCOUNT  <br/> |
+|近  <br/> |窃取  <br/> |ROWGUIDCOL  <br/> |
+|案例  <br/> |IDENTITY_INSERT  <br/> |标尺  <br/> |
+|复选  <br/> |IDENTITYCOL  <br/> |存  <br/> |
+|CHECKPOINT  <br/> |即使  <br/> |SCHEMA  <br/> |
+|关闭  <br/> |IN  <br/> |秒  <br/> |
+|状  <br/> |INDEX  <br/> |SECURITYAUDIT  <br/> |
+|联合  <br/> |INNER  <br/> |SELECT  <br/> |
 |COLLATE  <br/> |插入  <br/> |SEMANTICKEYPHRASETABLE  <br/> |
-|列  <br/> |整数  <br/> |SEMANTICSIMILARITYDETAILSTABLE  <br/> |
-|提交  <br/> |相交  <br/> |SEMANTICSIMILARITYTABLE  <br/> |
-|计算  <br/> |到  <br/> |SESSION_USER  <br/> |
-|约束  <br/> |是  <br/> |设置  <br/> |
-|CONTAINS  <br/> |ISO_Week  <br/> |SETUSER  <br/> |
-|请考虑  <br/> |加入  <br/> |ShortText  <br/> |
-|继续  <br/> |键  <br/> |关闭  <br/> |
-|CONVERT  <br/> |消除  <br/> |某些  <br/> |
-|创建  <br/> |LEFT  <br/> |统计信息  <br/> |
-|跨  <br/> |LIKE  <br/> |SYSTEM_USER  <br/> |
-|货币  <br/> |LINENO  <br/> |表  <br/> |
-|当前  <br/> |负载  <br/> |TABLESAMPLE  <br/> |
+|COLUMN  <br/> |整数  <br/> |SEMANTICSIMILARITYDETAILSTABLE  <br/> |
+|立即  <br/> |相交  <br/> |SEMANTICSIMILARITYTABLE  <br/> |
+|计算  <br/> |INTO  <br/> |SESSION_USER  <br/> |
+|CONSTRAINT  <br/> |是  <br/> |为  <br/> |
+|包含  <br/> |ISO_Week  <br/> |SETUSER  <br/> |
+|CONTAINSTABLE  <br/> |加入  <br/> |ShortText  <br/> |
+|依然  <br/> |主键  <br/> |关闭  <br/> |
+|转换  <br/> |终止  <br/> |一些  <br/> |
+|创建  <br/> |左至右  <br/> |栏  <br/> |
+|删  <br/> |LIKE  <br/> |SYSTEM_USER  <br/> |
+|货币  <br/> |LINENO  <br/> |TABLE  <br/> |
+|目前  <br/> |负载  <br/> |TABLESAMPLE  <br/> |
 |CURRENT_DATE  <br/> |LongText  <br/> |文本  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTSIZE  <br/> |
-|CURRENT_TIMESTAMP  <br/> |毫秒  <br/> |然后  <br/> |
+|CURRENT_TIMESTAMP  <br/> |加  <br/> |请  <br/> |
 |CURRENT_USER  <br/> |分钟  <br/> |Time  <br/> |
-|CURSOR  <br/> |Month  <br/> |自  <br/> |
-|数据库  <br/> |国家/地区  <br/> |TOP  <br/> |
-|Date  <br/> |否  <br/> |事务  <br/> |
-|DateWithTime  <br/> |NOCHECK  <br/> |事务  <br/> |
-|Day  <br/> |NONCLUSTERED  <br/> |触发器  <br/> |
-|DayofYear  <br/> |NOT  <br/> |截断  <br/> |
-|DBCC  <br/> |NULL  <br/> |TRY_CONVERT  <br/> |
-|解除分配  <br/> |则 NULLIF  <br/> |TSEQUAL  <br/> |
-|DECLARE  <br/> |的  <br/> |联合  <br/> |
-|默认值  <br/> |关闭  <br/> |唯一  <br/> |
-|DELETE  <br/> |偏移量  <br/> |逆透视  <br/> |
-|拒绝  <br/> |ON  <br/> |更新  <br/> |
+|临时  <br/> |Month  <br/> |TO  <br/> |
+|数据库  <br/> |文字  <br/> |返回页首  <br/> |
+|日期  <br/> |否  <br/> |事务  <br/> |
+|DateWithTime  <br/> |NOCHECK  <br/> |TRANSACTION  <br/> |
+|Day  <br/> |是非  <br/> |触发  <br/> |
+|DayofYear  <br/> |NOT  <br/> |减少  <br/> |
+|DBCC  <br/> |不适  <br/> |TRY_CONVERT  <br/> |
+|解除分配  <br/> |NULLIF  <br/> |TSEQUAL  <br/> |
+|把  <br/> |底部  <br/> |积分  <br/> |
+|设置  <br/> |停  <br/> |唯一  <br/> |
+|DELETE  <br/> |\d  <br/> |UNPIVOT  <br/> |
+|他们  <br/> |ON（打开）  <br/> |更新  <br/> |
 |DESC  <br/> |OPEN  <br/> |UPDATETEXT  <br/> |
-|磁盘  <br/> |OPENDATASOURCE  <br/> |使用  <br/> |
-|DISTINCT  <br/> |OPENQUERY  <br/> |用户  <br/> |
-|分布式  <br/> |OPENROWSET  <br/> |值  <br/> |
-|DOUBLE  <br/> |OPENXML  <br/> |VARYING  <br/> |
-|拖放  <br/> |选项  <br/> |视图  <br/> |
+|磁盘  <br/> |OPENDATASOURCE  <br/> |改用  <br/> |
+|独一无二  <br/> |OPENQUERY  <br/> |USER  <br/> |
+|一起  <br/> |OPENROWSET  <br/> |值  <br/> |
+|加倍  <br/> |OPENXML  <br/> |改变  <br/> |
+|DROP  <br/> |可选  <br/> |VIEW  <br/> |
 |转储  <br/> |OR  <br/> |WAITFOR  <br/> |
-|其他人  <br/> |顺序  <br/> |周  <br/> |
-|End  <br/> |外部  <br/> |Weekday  <br/> |
-|ERRLVL  <br/> |通过  <br/> |WHEN  <br/> |
-|转义  <br/> |%  <br/> |其中  <br/> |
-|除外  <br/> |数据透视表  <br/> |WHILE  <br/> |
-|EXEC  <br/> |规划  <br/> |使用  <br/> |
-|执行  <br/> |PRECISION  <br/> |在组  <br/> |
-|存在  <br/> |主  <br/> |WRITETEXT  <br/> |
-|退出  <br/> |打印  <br/> |Year  <br/> |
-|外部  <br/> |进程内  <br/> |可访问  <br/> |
-|FETCH  <br/> |过程  <br/> |YesNo  <br/> |
-|文件  <br/> |PUBLIC  <br/> ||
+|ELSE  <br/> |顺序  <br/> |周  <br/> |
+|结束  <br/> |外径  <br/> |工作日  <br/> |
+|ERRLVL  <br/> |通过  <br/> |如果  <br/> |
+|过  <br/> |PERCENT  <br/> |WHERE  <br/> |
+|除外  <br/> |切换  <br/> |时  <br/> |
+|EXEC  <br/> |制定  <br/> |WITH  <br/> |
+|实施  <br/> |精密  <br/> |组内  <br/> |
+|存在  <br/> |基本  <br/> |WRITETEXT  <br/> |
+|退出  <br/> |显示  <br/> |Year  <br/> |
+|对外  <br/> |PROC  <br/> |是  <br/> |
+|产生  <br/> |程序  <br/> |YesNo  <br/> |
+|文本文件  <br/> |公  <br/> ||
    
 
   
 ## <a name="odbc-reserved-keywords"></a>ODBC 保留关键字
 
-此外，ISO 标准定义保留关键字列表。 避免使用 ISO 保留关键字的对象名称和标识符。 ISO 保留的关键字列表相同的 ODBC 保留的关键字列表中下, 表中，所示。
+此外, ISO 标准还定义了保留关键字的列表。 避免对对象名称和标识符使用 ISO 保留关键字。 下表中显示的 "ODBC 保留关键字" 列表与 "ISO 保留关键字" 列表相同。
 
-在 ODBC 函数调用中使用的情况下，会保留以下字。 这些单词不限制的最小的 SQL 语法;但是，以确保与支持核心 SQL 语法的驱动程序的兼容性，应用程序应避免使用这些关键字。
+保留以下词语以在 ODBC 函数调用中使用。 这些词不会限制最基本的 SQL 语法;但是, 为了确保与支持核心 SQL 语法的驱动程序兼容性, 应用程序应避免使用这些关键字。
   
-这是当前的 ODBC 保留关键字列表。
+这是 ODBC 保留关键字的当前列表。
   
 ||||
 |:-----|:-----|:-----|
-|ABSOLUTE  <br/> |EXEC  <br/> |重叠  <br/> |
-|操作  <br/> |执行  <br/> |PAD  <br/> |
-|ADA  <br/> |存在  <br/> |PARTIAL  <br/> |
-|添加  <br/> |外部  <br/> |PASCAL  <br/> |
-|ALL  <br/> |EXTRACT  <br/> |POSITION  <br/> |
-|分配  <br/> |FALSE  <br/> |PRECISION  <br/> |
-|更改  <br/> |FETCH  <br/> |PREPARE  <br/> |
-|AND  <br/> |第一个  <br/> |保留  <br/> |
-|ANY  <br/> |FLOAT  <br/> |主  <br/> |
-|ARE  <br/> |为  <br/> |之前  <br/> |
-|AS  <br/> |外  <br/> |PRIVILEGES  <br/> |
-|ASC  <br/> |FORTRAN  <br/> |过程  <br/> |
-|ASSERTION  <br/> |找到  <br/> |PUBLIC  <br/> |
-|在  <br/> |从  <br/> |读取  <br/> |
-|AUTHORIZATION  <br/> |完整  <br/> |REAL  <br/> |
-|平均  <br/> |GET  <br/> |引用  <br/> |
-|开始  <br/> |全局  <br/> |相对  <br/> |
-|BETWEEN  <br/> |转到  <br/> |RESTRICT  <br/> |
-|BIT  <br/> |转到  <br/> |REVOKE  <br/> |
-|BIT_LENGTH  <br/> |授予  <br/> |RIGHT  <br/> |
-|BOTH  <br/> |组  <br/> |回滚  <br/> |
-|通过  <br/> |无  <br/> |行  <br/> |
-|级联  <br/> |HOUR  <br/> |架构  <br/> |
-|级联  <br/> |标识  <br/> |滚动  <br/> |
-|案例  <br/> |立即  <br/> |SECOND  <br/> |
-|强制转换  <br/> |IN  <br/> |部分  <br/> |
-|CATALOG  <br/> |包括  <br/> |SELECT  <br/> |
-|CHAR  <br/> |索引  <br/> |会话  <br/> |
+|绝对  <br/> |EXEC  <br/> |寄存器  <br/> |
+|退货  <br/> |实施  <br/> |式  <br/> |
+|ADA  <br/> |存在  <br/> |环  <br/> |
+|接  <br/> |对外  <br/> |PASCAL  <br/> |
+|全部  <br/> |获取  <br/> |距离  <br/> |
+|分派  <br/> |FALSE  <br/> |精密  <br/> |
+|ALTER  <br/> |产生  <br/> |份  <br/> |
+|AND  <br/> |FIRST  <br/> |防止  <br/> |
+|ANY  <br/> |FLOAT  <br/> |基本  <br/> |
+|了  <br/> |。  <br/> |先前  <br/> |
+|AS  <br/> |对外  <br/> |权限  <br/> |
+|ASC  <br/> |FORTRAN  <br/> |程序  <br/> |
+|声明  <br/> |找到  <br/> |公  <br/> |
+|AT  <br/> |FROM  <br/> |读取  <br/> |
+|批准  <br/> |全  <br/> |实时  <br/> |
+|AVG  <br/> |GET  <br/> |参照  <br/> |
+|启动  <br/> |全局性  <br/> |彼此  <br/> |
+|BETWEEN  <br/> |超越  <br/> |限制  <br/> |
+|位  <br/> |语句  <br/> |REVOKE  <br/> |
+|BIT_LENGTH  <br/> |授  <br/> |左向右  <br/> |
+|双方  <br/> |该组  <br/> |混淆  <br/> |
+|BY  <br/> |拥有  <br/> |成行  <br/> |
+|近  <br/> |七点  <br/> |SCHEMA  <br/> |
+|级  <br/> |窃取  <br/> |移动  <br/> |
+|案例  <br/> |迫切  <br/> |第二个  <br/> |
+|演员  <br/> |IN  <br/> |部分  <br/> |
+|目录  <br/> |含  <br/> |SELECT  <br/> |
+|资料  <br/> |INDEX  <br/> |本次  <br/> |
 |CHAR_LENGTH  <br/> |指示器  <br/> |SESSION_USER  <br/> |
-|CHARACTER  <br/> |最初  <br/> |设置  <br/> |
-|CHARACTER_LENGTH  <br/> |内部  <br/> |SIZE  <br/> |
-|CHECK  <br/> |INPUT  <br/> |SMALLINT  <br/> |
-|CLOSE  <br/> |INSENSITIVE  <br/> |某些  <br/> |
-|COALESCE  <br/> |插入  <br/> |SPACE  <br/> |
+|通配符  <br/> |原来  <br/> |为  <br/> |
+|CHARACTER_LENGTH  <br/> |INNER  <br/> |字体  <br/> |
+|复选  <br/> |输入  <br/> |SMALLINT  <br/> |
+|关闭  <br/> |分  <br/> |一些  <br/> |
+|联合  <br/> |插入  <br/> |SPACE  <br/> |
 |COLLATE  <br/> |INT  <br/> |SQL  <br/> |
-|COLLATION  <br/> |INTEGER  <br/> |SQLCA  <br/> |
-|列  <br/> |相交  <br/> |SQLCODE  <br/> |
-|提交  <br/> |INTERVAL  <br/> |SQLERROR  <br/> |
-|CONNECT  <br/> |到  <br/> |SQLSTATE  <br/> |
-|CONNECTION  <br/> |是  <br/> |SQLWARNING  <br/> |
-|约束  <br/> |ISOLATION  <br/> |SUBSTRING  <br/> |
-|约束  <br/> |加入  <br/> |SUM  <br/> |
-|继续  <br/> |键  <br/> |SYSTEM_USER  <br/> |
-|CONVERT  <br/> |LANGUAGE  <br/> |表  <br/> |
-|对应  <br/> |上一次  <br/> |临时  <br/> |
-|COUNT  <br/> |前导  <br/> |然后  <br/> |
-|创建  <br/> |LEFT  <br/> |时间  <br/> |
-|跨  <br/> |级别  <br/> |时间戳  <br/> |
-|当前  <br/> |LIKE  <br/> |TIMEZONE_HOUR  <br/> |
+|排序  <br/> |整除  <br/> |SQLCA  <br/> |
+|COLUMN  <br/> |相交  <br/> |SQLCODE  <br/> |
+|立即  <br/> |隔  <br/> |SQLERROR  <br/> |
+|连接  <br/> |INTO  <br/> |SQLSTATE  <br/> |
+|联系  <br/> |是  <br/> |SQLWARNING  <br/> |
+|CONSTRAINT  <br/> |分开  <br/> |取  <br/> |
+|施加  <br/> |加入  <br/> |总值  <br/> |
+|依然  <br/> |主键  <br/> |SYSTEM_USER  <br/> |
+|转换  <br/> |LANGUAGE  <br/> |TABLE  <br/> |
+|对应  <br/> |LAST  <br/> |TEMPORARY  <br/> |
+|COUNT  <br/> |一路  <br/> |请  <br/> |
+|创建  <br/> |左至右  <br/> |时候  <br/> |
+|删  <br/> |块级  <br/> |TIMESTAMP  <br/> |
+|目前  <br/> |LIKE  <br/> |TIMEZONE_HOUR  <br/> |
 |CURRENT_DATE  <br/> |本地  <br/> |TIMEZONE_MINUTE  <br/> |
-|CURRENT_TIME  <br/> |LOWER  <br/> |自  <br/> |
-|CURRENT_TIMESTAMP  <br/> |MATCH  <br/> |TRAILING  <br/> |
-|CURRENT_USER  <br/> |MAX  <br/> |事务  <br/> |
-|CURSOR  <br/> |MIN  <br/> |TRANSLATE  <br/> |
-|DATE  <br/> |MINUTE  <br/> |TRANSLATION  <br/> |
-|DAY  <br/> |模块  <br/> |TRIM  <br/> |
-|解除分配  <br/> |MONTH  <br/> |TRUE  <br/> |
-|12 月  <br/> |名称  <br/> |联合  <br/> |
-|DECIMAL  <br/> |国家/地区  <br/> |唯一  <br/> |
-|DECLARE  <br/> |自然  <br/> |UNKNOWN  <br/> |
-|默认值  <br/> |NCHAR  <br/> |更新  <br/> |
-|可延迟  <br/> |下一步  <br/> |UPPER  <br/> |
-|延迟  <br/> |否  <br/> |USAGE  <br/> |
-|DELETE  <br/> |无  <br/> |用户  <br/> |
-|DESC  <br/> |NOT  <br/> |USING  <br/> |
-|描述  <br/> |NULL  <br/> |VALUE  <br/> |
-|描述符  <br/> |则 NULLIF  <br/> |值  <br/> |
-|诊断  <br/> |数字  <br/> |VARCHAR  <br/> |
-|DISCONNECT  <br/> |OCTET_LENGTH  <br/> |VARYING  <br/> |
-|DISTINCT  <br/> |的  <br/> |视图  <br/> |
-|DOMAIN  <br/> |ON  <br/> |WHEN  <br/> |
-|DOUBLE  <br/> |仅  <br/> |WHENEVER  <br/> |
-|拖放  <br/> |OPEN  <br/> |其中  <br/> |
-|其他人  <br/> |选项  <br/> |使用  <br/> |
-|End  <br/> |OR  <br/> |工作  <br/> |
-|结束 EXEC  <br/> |顺序  <br/> |写入  <br/> |
-|转义  <br/> |外部  <br/> |YEAR  <br/> |
-|除外  <br/> |OUTPUT  <br/> |ZONE  <br/> |
+|CURRENT_TIME  <br/> |小写  <br/> |TO  <br/> |
+|CURRENT_TIMESTAMP  <br/> |区分  <br/> |尾随  <br/> |
+|CURRENT_USER  <br/> |MAX  <br/> |TRANSACTION  <br/> |
+|临时  <br/> |MIN  <br/> |翻译  <br/> |
+|结束  <br/> |还要  <br/> |转译  <br/> |
+|为期  <br/> |板  <br/> |候选  <br/> |
+|解除分配  <br/> |本月  <br/> |TRUE  <br/> |
+|04  <br/> |名称  <br/> |积分  <br/> |
+|DECIMAL  <br/> |文字  <br/> |唯一  <br/> |
+|把  <br/> |固有  <br/> |陌生  <br/> |
+|设置  <br/> |NCHAR  <br/> |更新  <br/> |
+|推迟  <br/> |下一步  <br/> |高  <br/> |
+|关联表  <br/> |不  <br/> |使用率  <br/> |
+|DELETE  <br/> |全都  <br/> |USER  <br/> |
+|DESC  <br/> |NOT  <br/> |使用  <br/> |
+|描述  <br/> |不适  <br/> |增值  <br/> |
+|描述符  <br/> |NULLIF  <br/> |值  <br/> |
+|过程  <br/> |位数  <br/> |VARCHAR  <br/> |
+|卸下  <br/> |OCTET_LENGTH  <br/> |改变  <br/> |
+|独一无二  <br/> |底部  <br/> |VIEW  <br/> |
+|域  <br/> |ON（打开）  <br/> |如果  <br/> |
+|加倍  <br/> |不仅  <br/> |只要  <br/> |
+|DROP  <br/> |OPEN  <br/> |WHERE  <br/> |
+|ELSE  <br/> |可选  <br/> |WITH  <br/> |
+|结束  <br/> |OR  <br/> |工作  <br/> |
+|END-EXEC  <br/> |顺序  <br/> |销帐  <br/> |
+|过  <br/> |外径  <br/> |本年  <br/> |
+|除外  <br/> |输出  <br/> |ZONE  <br/> |
 |异常  <br/> |||
    
-## <a name="future-keywords"></a>将来的关键字
+## <a name="future-keywords"></a>后续关键字
 
-以下关键字无法保留 SQL Server 的未来版本中，如实现新功能。 请考虑避免使用这些字用作标识符。
+在 SQL Server 将来的版本中, 在实现新功能时, 可以保留以下关键字。 请考虑避免将这些词用作标识符。
   
 ||||
 |:-----|:-----|:-----|
-|ABSOLUTE  <br/> |主机  <br/> |相对  <br/> |
-|操作  <br/> |HOUR  <br/> |发行版  <br/> |
-|管理  <br/> |忽略  <br/> |结果  <br/> |
-|后  <br/> |立即  <br/> |返回  <br/> |
-|AGGREGATE  <br/> |指示器  <br/> |角色  <br/> |
-|别名  <br/> |初始化  <br/> |汇总  <br/> |
-|分配  <br/> |最初  <br/> |例程  <br/> |
-|ARE  <br/> |INOUT  <br/> |行  <br/> |
-|数组  <br/> |INPUT  <br/> |行  <br/> |
-|定型  <br/> |INT  <br/> |保存点  <br/> |
-|ASSERTION  <br/> |INTEGER  <br/> |滚动  <br/> |
-|不对称  <br/> |交集  <br/> |范围  <br/> |
-|在  <br/> |INTERVAL  <br/> |SEARCH  <br/> |
-|原子  <br/> |ISOLATION  <br/> |SECOND  <br/> |
-|之前  <br/> |循环访问  <br/> |部分  <br/> |
-|BINARY  <br/> |LANGUAGE  <br/> |敏感  <br/> |
-|BIT  <br/> |LARGE  <br/> |序列  <br/> |
-|BLOB  <br/> |上一次  <br/> |会话  <br/> |
-|布尔值  <br/> |支  <br/> |设置  <br/> |
-|BOTH  <br/> |前导  <br/> |类似  <br/> |
-|广度  <br/> |小于  <br/> |SIZE  <br/> |
-|呼叫  <br/> |级别  <br/> |SMALLINT  <br/> |
-|调用  <br/> |LIKE_REGEX  <br/> |SPACE  <br/> |
-|基数  <br/> |限制  <br/> |特定  <br/> |
-|级联  <br/> |LN  <br/> |SPECIFICTYPE  <br/> |
-|强制转换  <br/> |本地  <br/> |SQL  <br/> |
-|CATALOG  <br/> |本地时间  <br/> |SQLEXCEPTION  <br/> |
-|CHAR  <br/> |LOCALTIMESTAMP  <br/> |SQLSTATE  <br/> |
-|CHARACTER  <br/> |定位符  <br/> |SQLWARNING  <br/> |
-|类  <br/> |映射  <br/> |启动  <br/> |
-|CLOB  <br/> |MATCH  <br/> |状态  <br/> |
-|COLLATION  <br/> |成员  <br/> |语句  <br/> |
-|收集  <br/> |方法  <br/> |静态  <br/> |
-|完成  <br/> |MINUTE  <br/> |STDDEV_POP  <br/> |
-|条件  <br/> |MOD  <br/> |STDDEV_SAMP  <br/> |
-|CONNECT  <br/> |修改  <br/> |STRUCTURE  <br/> |
-|CONNECTION  <br/> |修改  <br/> |SUBMULTISET  <br/> |
-|约束  <br/> |模块  <br/> |SUBSTRING_REGEX  <br/> |
-|构造函数  <br/> |MONTH  <br/> |对称  <br/> |
-|CORR  <br/> |多集  <br/> |系统  <br/> |
-|对应  <br/> |名称  <br/> |临时  <br/> |
-|COVAR_POP  <br/> |自然  <br/> |终止  <br/> |
-|COVAR_SAMP  <br/> |NCHAR  <br/> |比  <br/> |
-|多维数据集  <br/> |NCLOB  <br/> |时间  <br/> |
-|CUME_DIST  <br/> |新增功能  <br/> |时间戳  <br/> |
+|绝对  <br/> |HOST  <br/> |彼此  <br/> |
+|退货  <br/> |七点  <br/> |7。2  <br/> |
+|ADMIN  <br/> |忽略  <br/> |把  <br/> |
+|紧跟  <br/> |迫切  <br/> |回报  <br/> |
+|聚合  <br/> |指示器  <br/> |职位  <br/> |
+|ALIAS  <br/> |格式化  <br/> |871260  <br/> |
+|分派  <br/> |原来  <br/> |例  <br/> |
+|了  <br/> |INOUT  <br/> |行  <br/> |
+|数组  <br/> |输入  <br/> |成行  <br/> |
+|未定  <br/> |INT  <br/> |点  <br/> |
+|声明  <br/> |整除  <br/> |移动  <br/> |
+|是非  <br/> |重叠  <br/> |范围  <br/> |
+|AT  <br/> |隔  <br/> |查询  <br/> |
+|原子  <br/> |分开  <br/> |第二个  <br/> |
+|早  <br/> |加入  <br/> |部分  <br/> |
+|数字  <br/> |LANGUAGE  <br/> |敏感度  <br/> |
+|位  <br/> |超大型  <br/> |按  <br/> |
+|块  <br/> |LAST  <br/> |本次  <br/> |
+|布尔  <br/> |侧向  <br/> |下例  <br/> |
+|双方  <br/> |一路  <br/> |类似  <br/> |
+|丰富  <br/> |小于  <br/> |字体  <br/> |
+|对  <br/> |块级  <br/> |SMALLINT  <br/> |
+|称之为  <br/> |LIKE_REGEX  <br/> |SPACE  <br/> |
+|基数  <br/> |数  <br/> |特定  <br/> |
+|级  <br/> |LN  <br/> |SPECIFICTYPE  <br/> |
+|演员  <br/> |本地  <br/> |SQL  <br/> |
+|目录  <br/> |LOCALTIME  <br/> |SQLEXCEPTION  <br/> |
+|资料  <br/> |LOCALTIMESTAMP  <br/> |SQLSTATE  <br/> |
+|通配符  <br/> |定位器  <br/> |SQLWARNING  <br/> |
+|静态类  <br/> |对应  <br/> |起步  <br/> |
+|CLOB  <br/> |区分  <br/> |状态  <br/> |
+|排序  <br/> |成员  <br/> |语句  <br/> |
+|收集  <br/> |种  <br/> |静止  <br/> |
+|直到  <br/> |还要  <br/> |STDDEV_POP  <br/> |
+|表达式  <br/> |模块  <br/> |STDDEV_SAMP  <br/> |
+|连接  <br/> |修改  <br/> |表示  <br/> |
+|联系  <br/> |MODIFY  <br/> |SUBMULTISET  <br/> |
+|施加  <br/> |板  <br/> |SUBSTRING_REGEX  <br/> |
+|构造函数  <br/> |本月  <br/> |余  <br/> |
+|CORR  <br/> |集  <br/> |系统  <br/> |
+|对应  <br/> |名称  <br/> |TEMPORARY  <br/> |
+|COVAR_POP  <br/> |固有  <br/> |断开  <br/> |
+|COVAR_SAMP  <br/> |NCHAR  <br/> |长于  <br/> |
+|集  <br/> |NCLOB  <br/> |时候  <br/> |
+|CUME_DIST  <br/> |新增功能  <br/> |TIMESTAMP  <br/> |
 |CURRENT_CATALOG  <br/> |下一步  <br/> |TIMEZONE_HOUR  <br/> |
-|CURRENT_DEFAULT_TRANSFORM_GROUP  <br/> |否  <br/> |TIMEZONE_MINUTE  <br/> |
-|CURRENT_PATH  <br/> |无  <br/> |TRAILING  <br/> |
-|CURRENT_ROLE  <br/> |规范化  <br/> |TRANSLATE_REGEX  <br/> |
-|CURRENT_SCHEMA  <br/> |数字  <br/> |TRANSLATION  <br/> |
-|CURRENT_TRANSFORM_GROUP_FOR_TYPE  <br/> |对象  <br/> |视为  <br/> |
+|CURRENT_DEFAULT_TRANSFORM_GROUP  <br/> |不  <br/> |TIMEZONE_MINUTE  <br/> |
+|CURRENT_PATH  <br/> |全都  <br/> |尾随  <br/> |
+|CURRENT_ROLE  <br/> |化  <br/> |TRANSLATE_REGEX  <br/> |
+|CURRENT_SCHEMA  <br/> |位数  <br/> |转译  <br/> |
+|CURRENT_TRANSFORM_GROUP_FOR_TYPE  <br/> |对象  <br/> |像  <br/> |
 |周期  <br/> |OCCURRENCES_REGEX  <br/> |TRUE  <br/> |
-|数据  <br/> |旧  <br/> |UESCAPE  <br/> |
-|DATE  <br/> |仅  <br/> |下  <br/> |
-|DAY  <br/> |操作  <br/> |UNKNOWN  <br/> |
-|12 月  <br/> |ORDINALITY  <br/> |UNNEST  <br/> |
-|DECIMAL  <br/> |输出  <br/> |USAGE  <br/> |
-|可延迟  <br/> |覆盖  <br/> |USING  <br/> |
-|延迟  <br/> |OUTPUT  <br/> |VALUE  <br/> |
-|深度  <br/> |PAD  <br/> |VAR_POP  <br/> |
+|数据  <br/> |OLD  <br/> |UESCAPE  <br/> |
+|结束  <br/> |不仅  <br/> |属于  <br/> |
+|为期  <br/> |操作  <br/> |陌生  <br/> |
+|04  <br/> |ORDINALITY  <br/> |UNNEST  <br/> |
+|DECIMAL  <br/> |排除  <br/> |使用率  <br/> |
+|推迟  <br/> |物  <br/> |使用  <br/> |
+|关联表  <br/> |输出  <br/> |增值  <br/> |
+|详细  <br/> |式  <br/> |VAR_POP  <br/> |
 |DEREF  <br/> |参数  <br/> |VAR_SAMP  <br/> |
-|描述  <br/> |参数  <br/> |VARCHAR  <br/> |
-|描述符  <br/> |PARTIAL  <br/> |变量  <br/> |
-|销毁  <br/> |分区  <br/> |WHENEVER  <br/> |
-|对析构函数  <br/> |路径  <br/> |WIDTH_BUCKET  <br/> |
-|确定性  <br/> |后缀  <br/> |不带  <br/> |
-|词典  <br/> |前缀  <br/> |窗口  <br/> |
-|诊断  <br/> |PREORDER  <br/> |中  <br/> |
-|DISCONNECT  <br/> |PREPARE  <br/> |工作  <br/> |
-|DOMAIN  <br/> |PERCENT_RANK  <br/> |写入  <br/> |
+|描述  <br/> |实参  <br/> |VARCHAR  <br/> |
+|描述符  <br/> |环  <br/> |可变  <br/> |
+|销毁  <br/> |分区  <br/> |只要  <br/> |
+|函  <br/> |路经  <br/> |WIDTH_BUCKET  <br/> |
+|确定性  <br/> |后缀  <br/> |不  <br/> |
+|辞典  <br/> |加  <br/> |时段  <br/> |
+|过程  <br/> |PREORDER  <br/> |之内  <br/> |
+|卸下  <br/> |份  <br/> |工作  <br/> |
+|域  <br/> |PERCENT_RANK  <br/> |销帐  <br/> |
 |动态  <br/> |PERCENTILE_CONT  <br/> |XMLAGG  <br/> |
 |每个  <br/> |PERCENTILE_DISC  <br/> |XMLATTRIBUTES  <br/> |
-|元素  <br/> |POSITION_REGEX  <br/> |XMLBINARY  <br/> |
-|结束 EXEC  <br/> |保留  <br/> |XMLCAST  <br/> |
-|EQUALS  <br/> |之前  <br/> |XMLCOMMENT  <br/> |
-|每个  <br/> |PRIVILEGES  <br/> |XMLCONCAT  <br/> |
-|异常  <br/> |RANGE  <br/> |XMLDOCUMENT  <br/> |
-|FALSE  <br/> |读取  <br/> |XMLELEMENT  <br/> |
-|FILTER  <br/> |REAL  <br/> |XMLEXISTS  <br/> |
-|第一个  <br/> |递归  <br/> |XMLFOREST  <br/> |
+|网元  <br/> |POSITION_REGEX  <br/> |XMLBINARY  <br/> |
+|END-EXEC  <br/> |防止  <br/> |XMLCAST  <br/> |
+|EQUALS  <br/> |先前  <br/> |XMLCOMMENT  <br/> |
+|每天  <br/> |权限  <br/> |XMLCONCAT  <br/> |
+|异常  <br/> |部分  <br/> |XMLDOCUMENT  <br/> |
+|FALSE  <br/> |读  <br/> |XMLELEMENT  <br/> |
+|FILTER  <br/> |实时  <br/> |XMLEXISTS  <br/> |
+|FIRST  <br/> |递归  <br/> |XMLFOREST  <br/> |
 |FLOAT  <br/> |REF  <br/> |XMLITERATE  <br/> |
-|找到  <br/> |引用  <br/> |XMLNAMESPACES  <br/> |
-|免费  <br/> |REGR_AVGX  <br/> |XMLPARSE  <br/> |
+|找到  <br/> |充当  <br/> |XMLNAMESPACES  <br/> |
+|任意  <br/> |REGR_AVGX  <br/> |XMLPARSE  <br/> |
 |FULLTEXTTABLE  <br/> |REGR_AVGY  <br/> |XMLPI  <br/> |
 |合成  <br/> |REGR_COUNT  <br/> |XMLQUERY  <br/> |
-|常规  <br/> |REGR_INTERCEPT  <br/> |XMLSERIALIZE  <br/> |
+|概要  <br/> |REGR_INTERCEPT  <br/> |XMLSERIALIZE  <br/> |
 |GET  <br/> |REGR_R2  <br/> |XMLTABLE  <br/> |
-|全局  <br/> |REGR_SLOPE  <br/> |XMLTEXT  <br/> |
-|转到  <br/> |REGR_SXX  <br/> |XMLVALIDATE  <br/> |
-|分组  <br/> |REGR_SXY  <br/> |YEAR  <br/> |
-|保留  <br/> |REGR_SYY  <br/> |ZONE  <br/> |
+|全局性  <br/> |REGR_SLOPE  <br/> |XMLTEXT  <br/> |
+|超越  <br/> |REGR_SXX  <br/> |XMLVALIDATE  <br/> |
+|分组  <br/> |REGR_SXY  <br/> |本年  <br/> |
+|同时  <br/> |REGR_SYY  <br/> |ZONE  <br/> |
    
 

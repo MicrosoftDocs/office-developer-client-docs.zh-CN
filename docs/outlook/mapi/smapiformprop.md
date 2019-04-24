@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4e8e2474d2adb882dd0ba43aeb0d8b05044a6ce6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 968f9e1dad3a233b31f0ce29d3ce935b1257948c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309497"
 ---
 # <a name="smapiformprop"></a>SMAPIFormProp
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-描述用于窗体的命名的属性。 
+介绍用于窗体的命名属性。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiform.h  <br/> |
+|标头文件：  <br/> |Mapiform  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormProp
@@ -52,59 +52,59 @@ typedef struct _SMAPIFormProp
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
  **ulFlags**
   
-> 用于区分**SMAPIFormProp**结构中的字符串格式的标志。 可以设置以下标记： 
+> 用于区分**SMAPIFormProp**结构中的字符串格式的标志。 可以设置以下标志: 
     
 MAPI_UNICODE 
   
-> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 的字符串是以 ANSI 格式。
+> 返回的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE, 则字符串将采用 ANSI 格式。
     
  **nPropType**
   
-> 命名属性，设置为零的最大单词的类型。 
+> 命名属性的类型, 最重要的单词设置为零。 
     
  **nmid**
   
-> 包含标识表示接口标识符和窗体名称的属性集和数字或字符串值的**GUID**结构的命名属性的名称。 
+> 命名属性的名称, 其中包括标识属性集的**GUID**结构, 或者是表示接口标识符和表单名称的数值或字符串值。 
     
  **pszDisplayName**
   
-> 指向的命名属性的显示名称。
+> 指向命名属性的显示名称的指针。
     
  **nSpecialType**
   
-> 描述**u**成员中包含的数据类型的值。 可能值如下所示： 
+> 描述**u**成员中包含的数据类型的值。 可能的值如下所示: 
     
 FPST_VANILLA 
   
-> **U**成员不包含枚举。 
+> **u**成员不包含枚举。 
     
 FPST_ENUM_PROP 
   
-> **U**成员包含描述枚举的结构。 
+> **u**成员包含描述枚举的结构。 
     
  **u**
   
-> 联合描述的名称和数量的命名属性之间的关联。 通过使用一些属性， **u**成员为空。 与其他属性，它表示在结构包含的以下成员： 
+> 描述命名属性的名称和编号之间的关联的联合。 通过使用某些属性, **u**成员是空的。 使用其他属性, 它在由以下成员组成的结构中表示: 
     
  **nmidIdx**
   
-> 包含的属性集和命名属性标识符的[MAPINAMEID](mapinameid.md)结构。 
+> 包含命名属性的属性集和标识符的[MAPINAMEID](mapinameid.md)结构。 
     
  **cfpevAvailable**
   
-> 由**pfpevAvailable**成员指向[SMAPIFormPropEnumVal](smapiformpropenumval.md)结构数组中的计数。 
+> 由**pfpevAvailable**成员指向的数组中的[SMAPIFormPropEnumVal](smapiformpropenumval.md)结构的计数。 
     
  **pfpevAvailable**
   
-> 指向数组**SMAPIFormPropEnumVal**结构，其中每个保留的命名属性的值。 
+> 指向**SMAPIFormPropEnumVal**结构的数组的指针, 其中每个结构都保留命名属性的值。 
     
 ## <a name="remarks"></a>注解
 
-**SMAPIFormProp**结构包含有关用作[IMAPIFormInfo](imapiforminfoimapiprop.md)接口; 的定义的一部分的窗体属性的信息**nSpecialType**包含适用于**u**联合**SMAPIFormProp**的一部分的标记。
+**SMAPIFormProp**结构包含有关用作[IMAPIFormInfo](imapiforminfoimapiprop.md)接口定义的一部分的窗体属性的信息;**nSpecialType**包含适用于**u** union 的标记, 该标记是**SMAPIFormProp**的一部分。
   
 ## <a name="see-also"></a>另请参阅
 

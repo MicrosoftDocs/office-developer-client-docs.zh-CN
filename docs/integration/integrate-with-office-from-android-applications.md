@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: Office for Android 提供了一个可扩展的的解决方案，可与第三方应用程序集成。您可以将用户从您的应用程序传递到 Office，从 Android 应用程序与 Office 集成。
 ms.openlocfilehash: 4e674b3d66f3acba7e9c9c19e716ff0d73d803b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303148"
 ---
 # <a name="integrate-with-office-from-android-applications"></a>从 Android 应用程序与 Office 集成
 
@@ -33,7 +33,7 @@ Office for Android 提供了一个可扩展的的解决方案，可与第三方�
     
 使用 Android PackageManager 确定设备上是否已安装特定的 Office 应用程序。下表列出了您在此过程中可使用的 Office 应用程序包的名称。
   
-|**应用程序**|**包名称**|
+|**Application**|**包名称**|
 |:-----|:-----|
 |Excel  <br/> |com.microsoft.office.excel  <br/> |
 |PowerPoint  <br/> |com.microsoft.office.powerpoint  <br/> |

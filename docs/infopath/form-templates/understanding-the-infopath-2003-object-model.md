@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: cd0a890b-5a8b-42c0-abdd-5ce28aff1ba1
 description: 本节讨论 InfoPath 托管代码解决方案的对象模型，并介绍常见编程任务。
-ms.openlocfilehash: 6fe649d068fd21b46e2a4d2824c1afbf8d9474ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 0c07201475bb7bfe24182faf61cc1bf6df733709
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774095"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299780"
 ---
 # <a name="understanding-the-infopath-2003-object-model"></a>了解 InfoPath 2003 对象模型
 

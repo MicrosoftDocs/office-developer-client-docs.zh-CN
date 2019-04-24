@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 5e1c1c72-f98d-4871-9c57-82c315277aa1
 description: InfoPath 托管代码表单模板与非托管表单模板中运行的脚本支持相同的安全级别，它们还支持适用于 .NET Framework 公共语言运行库 (CLR) 下运行的托管代码的其他代码访问安全功能。
-ms.openlocfilehash: cfeb2117232d041cef43d282ff5aab482609f512
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 97f0239a5bd6699b539ddaebf4d1d2ed7d1394db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303764"
 ---
 # <a name="about-the-security-model-for-form-templates-with-code"></a>关于具有代码的表单模板的安全模型
 
@@ -26,8 +26,8 @@ InfoPath 托管代码表单模板与非托管表单模板中运行的脚本支�
 |**对象模型安全级别**|**说明**|**所需的权限集**|
 |:-----|:-----|:-----|
 |0  <br/> |可以无限制访问。  <br/> |无  <br/> |
-|2  <br/> |只能由与当前打开的表单运行在相同域中的表单或者已被授予跨域权限的表单访问。  <br/> |无  <br/> |
-|3  <br/> |只能由完全受信任的表单访问。  <br/> |FullTrust  <br/> |
+|双面  <br/> |只能由与当前打开的表单运行在相同域中的表单或者已被授予跨域权限的表单访问。  <br/> |无  <br/> |
+|第三章  <br/> |只能由完全受信任的表单访问。  <br/> |FullTrust  <br/> |
    
 > [!NOTE]
 > 安全级别"1"未由当前 InfoPath COM 服务器使用，而是保留以供将来使用。 
@@ -70,13 +70,13 @@ InfoPath 托管代码表单模板与非托管表单模板中运行的脚本支�
 |受限  <br/> ||X  <br/> |根本没有 ActiveX  <br/> |失败  <br/> |加载表单，但不运行托管代码  <br/> |0  <br/> |
 |域（Internet Explorer **受限制的站点**区域）  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |根本不运行  <br/> |
 |域（Internet Explorer **Internet** 区域）  <br/> |X  <br/> ||失败  <br/> |失败  <br/> |根本不运行  <br/> |0  <br/> |
-|域（Internet Explorer **本地 Intranet** 区域）  <br/> |X  <br/> ||失败  <br/> |提示  <br/> |托管代码使用**本地 Intranet** 权限运行。  <br/> |2  <br/> |
-|域（Internet Explorer **受信任的站点**区域）  <br/> |X  <br/> ||提示  <br/> |确定  <br/> |托管代码使用 **Internet** 权限运行。 允许跨域访问。 请注意，即使表单位于**受信任的站点**区域，也会应用 **Internet** 区域权限。  <br/> |2  <br/> |
-|域（Internet Explorer **本地计算机**区域）  <br/> |X  <br/> |X  <br/> |提示  <br/> |失败  <br/> |托管代码使用**本地 Intranet** 权限运行。  <br/> |2  <br/> |
-|完全信任  <br/> |X  <br/> |X  <br/> |确定  <br/> |确定  <br/> |完全信任  <br/> |3  <br/> |
+|域（Internet Explorer **本地 Intranet** 区域）  <br/> |X  <br/> ||失败  <br/> |Prompt  <br/> |托管代码使用**本地 Intranet** 权限运行。  <br/> |双面  <br/> |
+|域（Internet Explorer **受信任的站点**区域）  <br/> |X  <br/> ||提示  <br/> |确定  <br/> |Managed code runs with **Internet** permissions. Cross-domain access is allowed. Note that even though the form is in the **Trusted sites** zone, **Internet** zone permissions are applied.  <br/> |双面  <br/> |
+|域（Internet Explorer **本地计算机**区域）  <br/> |X  <br/> |X  <br/> |提示  <br/> |失败  <br/> |托管代码使用**本地 Intranet** 权限运行。  <br/> |双面  <br/> |
+|完全信任  <br/> |X  <br/> |X  <br/> |确定  <br/> |确定  <br/> |完全信任  <br/> |第三章  <br/> |
    
 > [!IMPORTANT]
-> “将脚本标记为不安全的 ActiveX”和“跨域访问”列中的上述说明假定适用于 Microsoft Internet Explorer 的默认安全设置。 如果用户更改了他们的安全设置，InfoPath 将给出相应的表现。 例如，如果在**本地 Intranet** 区域中将“跨域访问数据源”**** 设置为“启用”****，则如表中所述，系统将不会提示用户允许跨域访问。 
+> The descriptions above in the "ActiveX marked unsafe for scripting" and "Cross-Domain Access" columns assume the default security settings for Microsoft Internet Explorer. If a user changes their security settings, InfoPath will behave accordingly. For example, if in the **Local intranet** zone, **Access data sources across domains** is set to **Enable**, then users will not be prompted to allow cross-domain access as described in the table. 
   
 ## <a name="common-language-runtime-code-access-security-features"></a>公共语言运行库代码访问安全功能
 

@@ -7,124 +7,124 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
-description: 本主题介绍成功安装 Outlook Social Connector (OSC) 提供程序的先决条件和安装检查提供程序安装程序应完成正常工作。
+description: 本主题介绍成功安装 Outlook Social Connector (.osc) 提供程序的先决条件, 并且安装将检查提供程序安装程序是否应完成正常工作。
 ms.openlocfilehash: 8fec8523e57ad2678d02a0c5cbc1ad57340e5267
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286336"
 ---
 # <a name="installation-checklist"></a>安装清单
 
-本主题介绍成功安装 Outlook Social Connector (OSC) 提供程序的先决条件和安装检查提供程序安装程序应完成正常工作。
+本主题介绍成功安装 Outlook Social Connector (.osc) 提供程序的先决条件, 并且安装将检查提供程序安装程序是否应完成正常工作。
   
 ## <a name="installation-overview"></a>安装概述
 
-用户应安装 OSC 提供程序，才支持版本的 Outlook 存在和 OSC 已安装并启用客户端计算机上。 支持版本的 Outlook 的 Office Outlook 2003、 Office Outlook 2007、 Outlook 2010 和 Outlook 2013 （安装在客户端计算机，或者，对于 Outlook 2010 和 Outlook 2013，由单击即点即用分发客户端计算机上）。 若要确保成功安装，提供程序安装程序应执行以下操作：
+仅当存在支持的 Outlook 版本且在客户端计算机上安装并启用了 .osc 时, 用户才应安装 .osc 提供程序。 支持的 outlook 版本包括 office outlook 2003、office outlook 2007、Outlook 2010 和 outlook 2013 (安装在客户端计算机上, 或者在客户端计算机上由即点即用的 outlook 2010 提供)。 若要确保成功安装, 提供程序安装程序应执行以下操作:
   
-- 验证受支持的版本的 Outlook 是否存在。
+- 验证是否存在受支持的 Outlook 版本。
     
-- 验证是否已安装 OSC。
+- 验证是否已安装 .osc。
     
 > [!NOTE]
-> 单击即点即用是 Outlook 2010 （32 位） 或 Outlook 2013 (32-bit) 可以运行的虚拟环境。 Outlook 2013 的验证 HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook Windows 注册表中是否存在 VirtualOutlook 项。 有关以客户端计算机上单击即点即用产品形式提供 Outlook 的详细信息，请参阅[如何验证 Outlook 是否以即点即用产品形式的计算机上提供](https://blogs.msdn.com/b/officedevdocs/archive/2010/03/09/how-to-verify-if-outlook-is-available-on-a-computer-as-a-click-to-run-product.aspx)。 
+> 即点即用是一种虚拟环境, 在该环境中, outlook 2010 (32 位) 或 outlook 2013 (32-bit) 可以运行。 对于 Outlook 2013, 请验证 VirtualOutlook 项是否存在于 HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook 的 Windows 注册表中。 有关在客户端计算机上将 outlook 作为即点即用产品进行传递的详细信息, 请参阅[如何验证 outlook 在计算机上是否可用作即点](https://blogs.msdn.com/b/officedevdocs/archive/2010/03/09/how-to-verify-if-outlook-is-available-on-a-computer-as-a-click-to-run-product.aspx)即用产品。 
   
-但是，用户必须确保 OSC 提供程序在安装之前已启用。
+但是, 用户必须确保在安装提供程序之前启用了 .osc。
   
-第三方，包括 OSC 提供程序不能重新发布 OSC。 但是，如果未安装 OSC，提供程序安装程序可以使用适当的 g 链接客户端计算机上安装 OSC。 G 链接专门构建的 URL 位于https://g.live.com的转发到相应的网页用户下载 OSC。 OSC g 链接的格式设置为https://g.live.com/0CR _LCID_/ _Glink_，其中_LCID_和_Glink_指定区域设置、 版本和 Outlook 客户端计算机上的位数。 每个 g 链接指向可执行文件和特定于指定的_LCID_和_Glink_值。 
+第三方 (包括 .osc 提供程序) 无法重新发布 .osc。 但是, 如果未安装 .osc, 则提供程序安装程序可以使用适当的 g 链接在客户端计算机上安装 .osc。 g-链接是中https://g.live.com的专门构造的 URL, 可将用户转发到相应的网页以下载 .osc。 .osc g 链接的格式为https://g.live.com/0CR _lcid_/ _Glink_, 其中_LCID_和_Glink_指定客户端计算机上的 Outlook 的区域设置、版本和位数。 每个 g 链接指向一个可执行文件, 并特定于指定的_LCID_和_Glink_值。 
   
-例如，g 链接以安装用于 Outlook 2003 OSC 或 LCID 1033 英语 （美国） 的 Outlook 2007 的最新版本的是，如下所示：
+例如, 将最新版本的 .osc for outlook 2003 或 outlook 2007 for LCID 1033 (美国英语) 的 g-链接安装如下:
   
 https://g.live.com/0CR1033/80
   
-有关不同版本和位数的 Outlook， _Glink_值和支持的区域设置的_LCID_值的详细信息，请参阅[安装清单](#olosc_InstallationOverview_InstallationChecklist)下面一节中的 #7。 
+有关 Outlook 的不同版本和位数以及受支持的区域设置的_LCID_值的详细信息, 请参阅下面的[安装清单](#olosc_InstallationOverview_InstallationChecklist)一节中的 #7 _Glink_ 。 
 
 <a name="olosc_InstallationOverview_InstallationChecklist"> </a>
 
 ## <a name="installation-checklist"></a>安装清单
 
-提供程序安装程序包应执行一系列安装检查以确保提供程序成功安装图 1 中所示。
+提供程序安装程序包应执行一系列安装检查 (如图1中所示), 以确保提供程序成功安装。
   
-**图 1。提供程序安装逻辑**
+**图1。提供程序安装逻辑**
 
 ![安装清单](media/odc_ol14_ta_OSC_Fig07.gif)
   
-以下过程介绍安装检查图 1 所示。
+以下过程介绍了图1中概述的安装检查。
   
-1. 作为先决条件，检测是否安装了 Outlook 或存在，并且如果已安装或存在此参数，确定 Outlook 版本是否支持 OSC。 检测已安装的 Outlook 版本的详细信息，请参阅[检查 Outlook 版本](https://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx)。
+1. 作为先决条件, 请检测 outlook 是否已安装或存在, 如果已安装或存在, 则确定 outlook 版本是否支持 .osc。 有关检测已安装的 outlook 版本的详细信息, 请参阅[检查 outlook 的版本](https://msdn.microsoft.com/library/672fc380-a29b-4e99-9211-949fd5065723%28Office.15%29.aspx)。
     
-   - 如果安装的 Outlook 版本早于 Outlook 2003，无法完成的提供程序安装过程。 通知用户获取 Outlook 和然后再继续 OSC 安装 OSC 提供程序的受支持的版本。
+   - 如果安装的 outlook 版本早于 outlook 2003, 则提供程序安装过程将无法完成。 通知用户在继续安装 .osc 提供程序之前, 先获取受支持的 Outlook 和 .osc 版本。
     
-   - 如果未安装 Outlook，继续执行步骤 2。
+   - 如果未安装 Outlook, 请继续执行步骤2。
     
-   - 如果安装了 Outlook 2003 或 Outlook 2007，继续执行步骤 3。 
+   - 如果安装了 outlook 2003 或 outlook 2007, 请继续执行步骤3。 
     
-   - 如果安装了 Outlook 2010 或 Outlook 2013，请继续步骤 4。
+   - 如果安装了 outlook 2010 或 outlook 2013, 请继续执行步骤4。
     
-2. **如果客户端计算机上未安装 Outlook，则继续此步骤：**
+2. **如果客户端计算机上未安装 Outlook, 请继续执行此步骤:**
     
-   1. 检查是否为默认组件单击即点即用安装 Outlook 2010 或 Outlook 2013 的安装 OSC。 检查`VirtualOutlook`Windows 注册表中的以下位置中的键： 
+   1. 检查是否已将 .osc 安装为 Outlook 2010 或 outlook 2013 的即点即用安装的默认组件。 检查 Windows `VirtualOutlook`注册表中以下位置中的项: 
       
-      - Outlook 2010`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\14.0\Common\InstallRoot\Virtual\VirtualOutlook`
+      - 对于 Outlook 2010,`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\14.0\Common\InstallRoot\Virtual\VirtualOutlook`
       
-      - 为 Outlook Social Connector 2013`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook`
+      - 对于 Outlook Social Connector 2013,`HKEY_LOCAL_MACHINE\Software\Microsoft\Office\15.0\Common\InstallRoot\Virtual\VirtualOutlook`
       
-      `VirtualOutlook`项是一个 REG_SZ 值，包含区域设置标记，如"en-我们"，已安装的产品。 
+      `VirtualOutlook`键是一个 REG_SZ 值, 它包含已安装产品的区域设置标记, 如 "en-us"。 
       
-   2. 如果`VirtualOutlook`项不存在，Outlook 不存在的客户端计算机上，并提供程序安装过程无法完成。 通知用户获取 Outlook 和然后再继续 OSC 安装 OSC 提供程序的受支持的版本。 
+   2. 如果`VirtualOutlook`该项不存在, 则客户端计算机上不存在 Outlook, 并且提供程序安装过程无法完成。 通知用户在继续安装 .osc 提供程序之前, 先获取受支持的 Outlook 和 .osc 版本。 
       
-   3. 如果`VirtualOutlook`密钥是否存在、 Outlook 已由单击即点即用分发客户端计算机上。 继续通过检查检查安装的 OSC 类型库的版本`OSCVersion`Windows 注册表中的以下位置中的键： 
+   3. 如果`VirtualOutlook`该项确实存在, 则通过客户端计算机上的即点即用来传递 Outlook。 通过检查 Windows 注册表中以下位置中的项, `OSCVersion`继续检查已安装的 .osc 类型库的版本: 
       
       `HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\OSCVersion`
       
-      值`OSCVersion`是一个字符串，指定 Socialprovider.dll （例如，"1.0"、"1.1"或"15"） 的类型库版本号。 
+      的值`OSCVersion`是一个字符串, 它指定类型库 Socialprovider 的版本编号 (例如, "1.0"、"1.1" 或 "15")。 
       
-   4. 如果`OSCVersion`"1.0"、"1.1"15"，安装相应版本的 OSC。 继续执行步骤 6 以查找当前的 Outlook 用户界面区域，准备安装 OSC 的最新版本。 
+   4. 如果`OSCVersion`是 "1.0"、"1.1" 或 "15", 则安装了适当版本的 .osc。 继续执行步骤6以查找当前的 Outlook 用户界面区域设置, 以准备安装最新版本的 .osc。 
       
-   5. 否则为`OSCVersion`不包含预期值。 继续执行步骤 6 以查找当前的 Outlook 用户界面区域，准备安装相应版本 OSC。 
+   5. 否则, `OSCVersion`不包含预期值。 继续执行步骤6以查找当前 Outlook 用户界面区域设置, 以准备安装适当版本的 .osc。 
     
-3. **如果客户端计算机上安装了 Outlook 2003 或 Outlook 2007，则继续此步骤：**
+3. **如果客户端计算机上安装了 outlook 2003 或 outlook 2007, 请继续执行此步骤:**
     
-   1. 验证是否安装了 OSC 通过编写安装程序测试是否存在以下限定的组件 ID 的自定义操作：
+   1. 通过编写安装程序自定义操作来验证 .osc 是否已安装, 以测试是否存在以下限定的组件 ID:
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      限定的组件 ID 是一种方法的单级间接寻址，类似于指针的 GUID。 有关 Windows Installer 的详细信息，请参阅[Windows Installer 文档路线图](https://docs.microsoft.com/windows/desktop/msi/roadmap-to-windows-installer-documentation)。
+      限定的组件 ID 是提供单层间接寻址方法的 GUID, 类似于指针。 有关 windows installer 的详细信息, 请参阅[windows installer 文档的路线图](https://docs.microsoft.com/windows/desktop/msi/roadmap-to-windows-installer-documentation)。
       
-   2. 如果存在指定合格的组件，安装 OSC 的版本。 继续执行步骤 5 以查找当前的 Outlook 用户界面区域，准备安装 OSC 的最新版本。
+   2. 如果指定的限定组件存在, 则会安装某个版本的 .osc。 继续执行步骤5以查找当前的 Outlook 用户界面区域设置, 以准备安装最新版本的 .osc。
       
-   3. 否则，未安装 OSC。 继续执行步骤 6 以查找当前的 Outlook 用户界面区域，准备安装相应版本 OSC。
+   3. 否则, 将不会安装 .osc。 继续执行步骤6以查找当前 Outlook 用户界面区域设置, 以准备安装适当版本的 .osc。
       
-4. **如果客户端计算机上安装了 Outlook 2010 或 Outlook 2013，继续此步骤：**
+4. **如果客户端计算机上安装了 outlook 2010 或 outlook 2013, 请继续执行此步骤:**
     
-   1. 通过检查确定安装的 Outlook 版本位数`Bitness`Windows 注册表中的以下位置中的键： 
+   1. 通过检查 Windows 注册表中以下位置中的`Bitness`项来确定已安装的 Outlook 版本的位数: 
       
-      - 为 Outlook 2010 中，查看`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\14.0\Outlook`
+      - 对于 Outlook 2010, 请查看`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\14.0\Outlook`
       
-      - 为 Outlook 2013 一下`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Outlook`
+      - 对于 Outlook 2013, 请查看`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Outlook`
       
-      `Bitness`密钥是 32 位 Outlook 或 64 位 outlook 的"x64"的"x86"。 
+      对于`Bitness` 32 位 outlook, 此项为 "x86", 对于64位 outlook 为 "x64"。 
       
-   2. 如果您的提供商托管提供程序，并且编译为**任何 CPU**指定目标平台的提供程序组件，继续执行步骤 6 以查找当前的 Outlook 用户界面区域，准备安装 OSC 的最新版本。 将用于 32 位和 64 位版本的 OSC 提供程序。
+   2. 如果提供程序是托管提供程序, 并且您已将提供程序组件指定为 "**任何 CPU**" 的目标平台, 请继续执行步骤6以查找当前 Outlook 用户界面区域设置, 以准备安装最新版本的 .osc。 提供程序将在32位和64位版本的 .osc 上运行。
       
-   3. 如果您的提供商是本机 COM 组件，检查安装的 Outlook 版本的位：
+   3. 如果提供程序是本机 COM 组件, 请检查已安装的 Outlook 版本的位数:
       
-      - 如果安装的 Outlook 版本，32 位安装过程将需要确保安装了相应 OSC 后安装 32 位 （在步骤 8），提供程序。
+      - 如果安装的 Outlook 版本是32位, 则安装过程将需要安装32位提供程序 (在步骤8中), 然后再确保安装了适当的 .osc。
       
-      - 否则为安装的 Outlook 版本是 64 位，并且安装过程必须确保安装了相应 OSC 后安装 64 位 （在步骤 8），提供程序。 
+      - 否则, 已安装的 Outlook 版本为64位, 安装过程将必须安装64位提供程序 (在步骤8中), 然后才能确保安装了适当的 .osc。 
       
-   4. 继续执行步骤 6 以查找当前的 Outlook 用户界面区域，准备安装相应版本 OSC。
+   4. 继续执行步骤6以查找当前 Outlook 用户界面区域设置, 以准备安装适当版本的 .osc。
     
-5. **继续此步骤，如果安装了 Outlook 2003 或 Outlook 2007，并且客户端计算机上安装 OSC:** 通过检查检查当前 Outlook 用户界面的区域设置`OSCLcid`Windows 注册表中的以下位置中的键： 
+5. **如果安装了 outlook 2003 或 outlook 2007, 并且在客户端计算机上安装了 .osc, 请继续执行此步骤:** 检查 Windows 注册表中以下位置的`OSCLcid`键, 以检查当前 Outlook 用户界面区域设置: 
     
    `HKEY_LOCAL_MACHINE\Software\Microsoft\Office\Outlook\SocialConnector\OSCLcid`
     
-   `OSCLcid`项是一个 DWORD 值，该值指定 （由[[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt)和[[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)定义） 的 Internet 工程任务组 (IETF) 区域设置标记，表示当前 Outlook 用户界面的区域设置。 继续步骤 7 客户端计算机上安装最新 OSC。
+   `OSCLcid` key 是一个 DWORD 值, 它指定表示当前 Outlook 用户界面区域设置的 Internet 工程任务组 (IETF) 区域设置标记 (由[[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt)和[[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)定义)。 继续执行第7步, 以在客户端计算机上安装最新的 .osc。
     
-6. **如果安装了 Outlook 2003 或 Outlook 2007，或 Outlook 2010 或 Outlook 2013 已存在此参数，但未最新 OSC 一定客户端计算机上安装，则继续此步骤：**
+6. **如果安装了 outlook 2003 或 outlook 2007, 或者 outlook 2010 或 outlook 2013 存在, 则继续执行此步骤, 但不一定要在客户端计算机上安装最新的 .osc:**
     
-   使用**LanguageSettings**对象确定 Outlook 用户界面区域设置的 LCID。 下面的 Visual Basic Scripting Edition (VBScript) 代码段演示如何获取 Outlook 用户界面区域设置的 LCID。 
+   使用**LanguageSettings**对象来确定 Outlook 用户界面区域设置的 LCID。 下面的 Visual Basic 脚本编写版 (VBScript) 代码段演示如何获取 Outlook 用户界面区域设置的 LCID。 
     
    ```vb
     Function GetOutlookUI_LCID()
@@ -137,25 +137,25 @@ https://g.live.com/0CR1033/80
     End Function
    ```
 
-7. **如果安装程序已安装的 Outlook 版本的 LCID 但未最新 OSC 一定客户端计算机上安装，则继续此步骤：**
+7. **如果安装程序具有已安装的 Outlook 版本的 LCID, 但不一定要在客户端计算机上安装最新的 .osc, 请继续执行此步骤:**
     
-   链接到您安装的程序包以确保客户端计算机上安装了最新版本的 OSC g 链接。 G 链接格式如下所示：
+   将 g 链接链接到安装包, 以确保客户端计算机上安装了最新版本的 .osc。 g 链接格式如下所示:
     
    https://g.live.com/0CR_LCID_/  _Glink_
     
-   请参阅下面的受支持的_LCID_值的表 1 和表 2 的受支持的_Glink_值。 例如，g 链接以安装 32 位 Outlook Social Connector 2013 英语 （美国） 的最新版本的 32 位 OSC 如下所示： 
+   有关支持的_LCID_值, 请参阅下面的表1和表2以获得支持的_Glink_值。 例如, 将最新版本的32位 .osc 安装为32位 Outlook Social Connector 2013 (美国英语) 的 g-链接如下所示: 
     
    https://g.live.com/0CR1033/82
     
-8. 安装提供程序。 提供程序安装过程必须在相应的 Windows 注册表位置中注册的编程标识符 (ProgID)。 有关详细信息，请参阅[注册提供程序](registering-a-provider.md)。 另外，确保要安装的提供程序的位数是相同的客户端计算机上存在的 Outlook 版本的位数。 例如，如果安装 64 位 Outlook 2013 安装 32 位提供程序是否存在此参数，32 位 Outlook 2013 和 64 位提供程序。 对于 Outlook 2003 或 2007年，您的提供商的 32 位版本适用。 
+8. 安装提供程序。 提供程序安装过程必须在相应的 Windows 注册表位置中注册编程标识符 (ProgID)。 有关详细信息, 请参阅[注册提供程序](registering-a-provider.md)。 此外, 请确保要安装的提供程序的位数与客户端计算机上存在的 Outlook 版本的位数相同。 例如, 如果存在32位 outlook 2013, 则安装32位提供程序, 如果安装了64位 outlook 2013, 则为64位提供程序。 对于 Outlook 2003 或 2007, 仅适用于32位版本的提供程序。 
     
-**表 1： 支持的区域设置和 OSC 的十六进制数中相应的 LCID 值**
+**表 1: 针对 .osc 的十六进制支持的区域设置和对应的 LCID 值**
   
-|**区域设置**|**LCID**|
+|**位置**|**LCID**|
 |:-----|:-----|
 |ar-sa  <br/> |1025  <br/> |
 |bg-bg  <br/> |1026  <br/> |
-|ca es  <br/> |1027  <br/> |
+|ca-es  <br/> |1027  <br/> |
 |cs-cz  <br/> |1029  <br/> |
 |da-dk  <br/> |1030  <br/> |
 |de-de  <br/> |1031  <br/> |
@@ -163,10 +163,10 @@ https://g.live.com/0CR1033/80
 |en-us  <br/> |1033  <br/> |
 |es-es  <br/> |3082  <br/> |
 |et-ee  <br/> |1061  <br/> |
-|欧盟 es  <br/> |1069  <br/> |
+|eu-es  <br/> |1069  <br/> |
 |fi-fi  <br/> |1035  <br/> |
 |fr-fr  <br/> |1036  <br/> |
-|总帐 es  <br/> |1110  <br/> |
+|gl-es  <br/> |1110  <br/> |
 |he-il  <br/> |1037  <br/> |
 |hi-in  <br/> |1081  <br/> |
 |hr-hr  <br/> |1050  <br/> |
@@ -186,8 +186,8 @@ https://g.live.com/0CR1033/80
 |ru-ru  <br/> |1049  <br/> |
 |sk-sk  <br/> |1051  <br/> |
 |sl-si  <br/> |1060  <br/> |
-|sr-符号 cs  <br/> |3098  <br/> |
-|sr-latn cs  <br/> |2074  <br/> |
+|cyrl-cs  <br/> |3098  <br/> |
+|即将-cs  <br/> |2074  <br/> |
 |sv-se  <br/> |1053  <br/> |
 |th-th  <br/> |1054  <br/> |
 |tr-tr  <br/> |1055  <br/> |
@@ -195,17 +195,17 @@ https://g.live.com/0CR1033/80
 |zh-cn  <br/> |2052  <br/> |
 |zh-tw  <br/> |1028  <br/> |
    
-**表 2： 支持 OSC Glink 值**
+**表 2: 受支持的 .osc Glink 值**
   
-|**Glink 值**|**函数**|
+|**Glink 值**|**Function**|
 |:-----|:-----|
-|80  <br/> |安装最新版本的 Outlook 2003 或 Outlook 2007 的 OSC。  <br/> |
-|82  <br/> |安装 Outlook 2007、 Outlook 2010 或 Outlook Social Connector 2013 32 位 OSC 最新修补程序。  <br/> |
-|83  <br/> |安装最新的 Outlook 2010 或 Outlook Social Connector 2013 的 64 位 OSC 修补程序。  <br/> |
+|80  <br/> |安装适用于 outlook 2003 或 outlook 2007 的最新版本的 .osc。  <br/> |
+|82  <br/> |安装适用于 Outlook 2007、outlook 2010 或 outlook Social Connector 2013 的32位 .osc 的最新修补程序。  <br/> |
+|83  <br/> |安装适用于 Outlook 2010 或 outlook Social Connector 2013 的64位 .osc 的最新修补程序。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
 - [注册提供程序](registering-a-provider.md) 
-- [快速学习开发提供程序的步骤](quick-steps-for-learning-to-develop-a-provider.md)
+- [学习开发提供程序的快速步骤](quick-steps-for-learning-to-develop-a-provider.md)
 - [部署提供程序](deploying-a-provider.md)
 

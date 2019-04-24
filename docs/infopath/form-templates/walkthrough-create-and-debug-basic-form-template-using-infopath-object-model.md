@@ -1,31 +1,31 @@
 ---
-title: 演练： 创建和调试使用 InfoPath 对象模型的基本表单模板
+title: '演练: 使用 InfoPath 对象模型创建和调试基本表单模板'
 manager: soliver
 ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
-- form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
+- 表单模板 [infopath 2007], 演练, 表单模板 [infopath 2007], 创建 infopath 2003 兼容的 infopath 2003 兼容表单模板、演练
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
-description: 本主题演练如何创建基本 InfoPath 托管代码表单模板，该模板用来处理由 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间提供的与 InfoPath 2003 兼容对象模型。
-ms.openlocfilehash: 3939cfcfdf2a8683fe614c5f49cc8b2719484ff7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 本主题提供了创建基本的 InfoPath 托管代码表单模板的演练, 该表单模板使用由 Microsoft SemiTrust 命名空间提供的 InfoPath 2003 兼容对象模型。
+ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303197"
 ---
-# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>演练： 创建和调试使用 InfoPath 对象模型的基本表单模板
+# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>演练: 使用 InfoPath 对象模型创建和调试基本表单模板
 
-本主题演练如何创建基本 InfoPath 托管代码表单模板，该模板用来处理由 [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 命名空间提供的与 InfoPath 2003 兼容对象模型。 
+本主题提供了创建基本的 InfoPath 托管代码表单模板的演练, 该表单模板使用由[Microsoft SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx)命名空间提供的 InfoPath 2003 兼容对象模型。 
   
-## <a name="hello-world"></a>Hello World
+## <a name="hello-world"></a>世界你好
 
-在下面的示例中，您将了解如何通过使用 InfoPath 2003 兼容对象模型的 [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) 方法来显示简单的警告对话框。 
+在下面的示例中, 您将了解如何通过使用 InfoPath 2003 兼容对象模型的[alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx)方法显示简单的警告对话框。 
   
 ### <a name="create-a-new-infopath-form-template-that-works-with-the-infopath-2003-compatible-object-model"></a>新建使用 InfoPath 2003 兼容对象模型的 InfoPath 表单模板
 
-1. 创建新的表单模板使用 InfoPath 2003 兼容对象模型，[创建一个表单模板使用 InfoPath 2003 对象模型](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)中所述。
+1. 创建一个与 infopath 2003 兼容的对象模型一起使用的新表单模板, 如[使用 infopath 2003 对象模型创建表单模板](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)中所述。
     
 2. 将该表单模板项目命名为 HelloWorld 并保存它。 
     
@@ -37,13 +37,13 @@ ms.locfileid: "19774088"
     
 2. 右键单击该控件，然后单击“按钮属性”****。
     
-3. **标签**更改为 Alert。
+3. 将 "**标签**" 更改为 "警报"。
     
 4. 将**ID**更改为 AlertID。
     
 5. 单击“编辑表单代码”****。
     
-   此时会创建 [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) 事件的事件处理程序框架，同时焦点将移至 Visual Studio 2008 中的代码编辑器。 使用事件处理程序的详细信息，请参阅[添加事件处理程序使用的 InfoPath 2003 对象模型](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)。 
+   将创建[OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx)事件的事件处理程序主干, 并将焦点移到 Visual Studio 2012 中的代码编辑器。 有关使用事件处理程序的详细信息, 请参阅[使用 InfoPath 2003 对象模型添加事件处理程序](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)。 
     
    现在可以向该按钮的事件处理程序中添加表单代码了。
     
@@ -77,13 +77,13 @@ ms.locfileid: "19774088"
    ```
 
    > [!NOTE]
-   > [!注释] 除了 **Alert** 方法，还可以使用 **System.Windows.Forms** 命名空间的 **MessageBox.Show** 方法来显示消息框。为此，必须添加一个对 System.Windows.Forms 程序集的引用，在代码文件开头的指令中添加  `using System.Windows.Forms;` 或  `Imports System.Windows.Forms`，然后键入一行如下所示的代码： `MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
+   > 除了 **Alert** 方法，还可以使用 **System.Windows.Forms** 命名空间的 **MessageBox.Show** 方法来显示消息框。 若要执行此操作, 您必须添加对 system.web 程序集的引用, 添加或`using System.Windows.Forms;` `Imports System.Windows.Forms`添加到代码文件开头的指令, 然后键入一行代码, 如下所示:`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
   
 2. 切换到 InfoPath 设计模式窗口，然后单击“主页”**** 选项卡上的“预览”**** 按钮。 
     
 3. 在“预览”**** 窗口中，单击“Alert”**** 按钮。 
     
-   将显示一个消息框，其中包含"Hello World!"文本。
+   将显示一个消息框，其中包含“Hello World!”文本。
     
    下一个过程演示如何向表单代码中添加调试断点。
     
@@ -107,9 +107,9 @@ ms.locfileid: "19774088"
     
    代码编辑器将获得焦点，并且断点行突出显示。
     
-4. 在“调试”**** 菜单上，单击“逐步执行”****（或按 Shift+F8）以继续逐步执行代码。 
+4. 在“调试”**** 菜单上，单击“单步执行(跳过过程)”****（或按 Shift+F8）继续单步执行代码。 
     
-   将执行 **Alert** 方法代码，并在 InfoPath 的“预览”**** 窗口中显示“Hello World!”警告。 
+   将执行**警报**方法代码和 "Hello World!" 通知显示在 InfoPath **Preview**窗口中。 
     
 ## <a name="getting-the-current-users-name"></a>获取当前用户的名称
 
@@ -129,7 +129,7 @@ ms.locfileid: "19774088"
     
 6. 在“开发工具”**** 选项卡上，单击“OnLoad 事件”****。
     
-   这将为 [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) 事件创建事件处理程序，并且焦点将移到代码编辑器。每次加载表单时，都将调用该事件处理程序中的代码。下一个过程演示如何将检索用户名的表单代码添加到事件处理程序中。 
+   这将为[OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx)事件创建事件处理程序, 并将焦点移到代码编辑器。 每次加载表单时，都将调用该事件处理程序中的代码。 下一个过程演示如何将检索用户名的表单代码添加到事件处理程序中。 
     
 ### <a name="add-form-code"></a>添加表单代码
 
@@ -166,7 +166,7 @@ ms.locfileid: "19774088"
     
    employee 文本框现在应当填写了您的用户名。 
     
-有关如何部署托管的代码表单模板的信息，请参阅[替换代码中部署 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md)。 有关 InfoPath 对象模型以及创建使用 InfoPath 2003 兼容对象模型的托管代码表单模板的常见编程任务的信息，请参阅[了解 InfoPath 2003 对象模型](understanding-the-infopath-2003-object-model.md)。 
+有关如何部署托管代码表单模板的信息, 请参阅[部署包含代码的 InfoPath 表单模板](how-to-deploy-infopath-form-templates-with-code.md)。 有关使用 infopath 2003 兼容对象模型的托管代码表单模板中的 InfoPath 对象模型和常见编程任务的信息, 请参阅[了解 infopath 2003 对象模型](understanding-the-infopath-2003-object-model.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

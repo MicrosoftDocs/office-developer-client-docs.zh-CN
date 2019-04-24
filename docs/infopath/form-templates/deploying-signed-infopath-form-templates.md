@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8345a4bc-ad7b-d0b0-7615-f77ade35006d
 description: 在阅读本主题之前，请先查看 更多 InfoPath 表单安全性概念中的经过签名的表单模板一节，以了解已签名表单模板的安全性。还需查看安全级别、电子邮件部署和远程表单模板主题中的相关信息和讨论内容。
-ms.openlocfilehash: de64cb0efdbbdd11a301d89ced03e63454849adb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 76cc6dfdbd2c01827182c348281a98ad7cd17b69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303715"
 ---
 # <a name="deploying-signed-infopath-form-templates"></a>部署已签署的 InfoPath 表单模板
 
@@ -27,14 +27,14 @@ ms.locfileid: "19773967"
     
 2. 在“表单选项”**** 对话框中单击“安全和信任”**** 类别。 
     
-3. 在“表单模板签名”**** 下，选中“对此表单进行签名”**** 复选框。 
+3. Under **Form Template Signature**, select the **Sign this form template** check box. 
     
-4. 单击“选择证书”****。
+4. Click **Select Certificate**.
     
-5. 在“选择证书”**** 对话框中，单击要用于对表单进行数字签名的证书。 
+5. In the **Select Certificate** dialog box, click the certificate that you want to use to digitally sign the form. 
     
 > [!NOTE]
-> 可使用“表单选项”**** 对话框中的“创建证书”**** 按钮生成测试证书以便对表单模板进行签名。 应仅出于测试目的使用测试证书对表单模板进行签名。 不应使用测试证书对将公开分发的表单模板进行签名。 由于证书不是由其根证书已在用户计算机上受信任的证书颁发机构所颁发，因此将无法在用户计算机上正确验证测试证书。 如果部署使用测试证书进行签名的表单模板，表单模板的用户极有可能无法将其打开。 
+> The **Create Certificate** button in the **Form Options** dialog box can be used to generate a test certificate to sign a form template. The test certificate should be used to sign form templates for testing only. Test certificates should not be used to sign form templates that will be distributed publicly. Because the certificates are not issued by a Certificate Authority whose root certificate is already trusted on a user's computer, the test certificate will not validate correctly on the user's computer. If you deploy a form template signed with a test certificate, users of your form template will most likely be unable to open it. 
   
 ## <a name="establishing-a-trusted-root-certificate-and-publisher"></a>创建受信任的根证书和发布者
 

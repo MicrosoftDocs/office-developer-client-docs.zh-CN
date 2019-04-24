@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 322ea2e9-d6c9-48f9-a927-7162346d16a4
-description: 返回一个 Outlook Social Connector (OSC) 提供程序指定网站 Url 的字符串数组。
-ms.openlocfilehash: a2b2e0397c7c67476ac8067a53e2acbd4eddf270
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个字符串数组, 这些字符串指定 Outlook Social Connector (.osc) 提供程序的网站 url。
+ms.openlocfilehash: 34d779d5eb42b81a14c5236685104e9ef4fe36f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285854"
 ---
 # <a name="isocialproviderdefaultsiteurls"></a>ISocialProvider::DefaultSiteUrls
 
-返回一个 Outlook Social Connector (OSC) 提供程序指定网站 Url 的字符串数组。
+返回一个字符串数组, 这些字符串指定 Outlook Social Connector (.osc) 提供程序的网站 url。
   
 ```cpp
 [propget] HRESULT _stdcall DefaultSiteUrls([out, retval] SAFEARRAY(BSTR)* siteUrls);
@@ -25,13 +25,13 @@ ms.locfileid: "19779211"
 
 ## <a name="property-value"></a>属性值
 
-一个指向结构，它指定一个表示 OSC 提供程序网站 Url 的字符串数组。
+指向结构的指针, 该结构指定代表 .osc 提供程序的网站 url 的字符串数组。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-提供程序可以支持多个网站 Url。 OSC 设置[ISocialSession::SiteUrl](isocialsession-siteurl.md)属性，告知所选的网站 url 的提供程序。 
+提供程序可支持多个网站 url。 .osc 将[ISocialSession:: SiteUrl](isocialsession-siteurl.md)属性设置为通知提供程序所选的网站 URL。 
   
-OSC 用作默认网站 URL 的第一个元素的数组。 在网站的 URL 数组中，提供可以返回其他元素，但 OSC 不使用它们。 
+.osc 使用数组的第一个元素作为默认网站 URL。 提供程序可以返回网站 URL 数组中的其他元素, 但 .osc 不使用它们。 
   
 ## <a name="see-also"></a>另请参阅
 

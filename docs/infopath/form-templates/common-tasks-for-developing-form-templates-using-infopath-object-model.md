@@ -4,16 +4,16 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- infopath 2003-compatible form templates, common tasks,form templates [InfoPath 2007], common tasks for developing 2003-compatible
+- infopath 2003-兼容的表单模板、常见任务、表单模板 [infopath 2007]、开发2003兼容的常见任务
 localization_priority: Normal
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
 description: 此主题旨在帮助您快速找到解决之道，以解决有关利用表单代码（依据 Microsoft.Office.Interop.InfoPath.SemiTrust 程序集工作）开发表单模板的常见问题。
-ms.openlocfilehash: 902df2e7ca27b0d7760ac01e3f6c2a0c45cd61d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c5f72a3fa22cbe54b1290357aae1d2a68dff5b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303757"
 ---
 # <a name="common-tasks-for-developing-form-templates-using-the-infopath-object-model"></a>使用 InfoPath 对象模型开发表单模板的常见任务
 
@@ -53,7 +53,7 @@ ms.locfileid: "19773957"
     
 - [使用 InfoPath 2003 对象模型处理 MSXML 和 System.Xml](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
     
-## <a name="data"></a>数据
+## <a name="data"></a>Data
 
 使用数据时执行的常见任务。
   

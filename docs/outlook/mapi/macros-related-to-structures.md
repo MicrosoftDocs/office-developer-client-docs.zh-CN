@@ -10,22 +10,22 @@ api_type:
 - COM
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 177a453f64dd41197b18418eefbfdf9868ad2849
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b334ad61f75e9c27f8981d96a19e1246eef5ed65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298500"
 ---
 # <a name="macros-related-to-structures"></a>与结构相关的宏
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-本节中的主题介绍与 MAPI 结构相关的宏。 有关详细信息，，还提供其他出版物或本文档中的其他主题的交叉引用。 
+本节中的主题介绍与 MAPI 结构相关的宏。 有关更多详细信息, 请参阅本文档中对其他出版物或其他主题的交叉引用。 
   
-下表列出了与 MAPI 结构相关的宏：
+下表列出了与 MAPI 结构相关的宏:
   
 |||
 |:-----|:-----|
@@ -59,5 +59,5 @@ ms.locfileid: "22571638"
 [MAPI 结构](mapi-structures.md)
 
 
-[MAPI 引用](mapi-reference.md)
+[MAPI 参考](mapi-reference.md)
 

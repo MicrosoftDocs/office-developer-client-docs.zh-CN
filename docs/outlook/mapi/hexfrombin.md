@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8f68de5e18d84c728241c188b932f99456f5be8c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1bf02de914865e27c8c018aba8695c858888ae2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299459"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 将二进制数转换为十六进制数的字符串表示形式。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 void HexFromBin(
@@ -45,15 +45,15 @@ void HexFromBin(
 
  _pb_
   
-> [in]指向要转换的二进制数据的指针。 
+> 实时指向要转换的二进制数据的指针。 
     
  _cb_
   
-> [in]大小 （以字节为单位， _pb_参数指向的二进制数据）。 
+> 实时_pb_参数指向的二进制数据的大小 (以字节为单位)。 
     
  _sz_
   
-> [输出]以 null 结尾的 ASCII 字符串表示的十六进制数字中的二进制数据的指针。
+> 排除指向以十六进制数字表示二进制数据的以 null 结尾的 ASCII 字符串的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -61,6 +61,6 @@ void HexFromBin(
   
 ## <a name="remarks"></a>注解
 
-**HexFromBin**函数对其大小由_cb_参数的二进制数据的单位采用一个指针。 它在返回_sz_字符串中 (2 * _cb_) + 1 字节的内存，用十六进制数字此二进制信息的表示形式。 如果字节值为小数 10，例如的十六进制字符串将 0A，这样一个字节转换为字符串中的两个字节。 
+**HexFromBin**函数获取指向二进制数据单位的指针, 该数据单位的大小由_cb_参数指示。 它在_sz_字符串中返回 (2 * _cb_) + 1 字节的内存, 这是十六进制数中的此二进制信息的表示形式。 例如, 如果字节值为十进制数 10, 则十六进制字符串将为 0A, 因此一个字节将转换为字符串中的两个字节。 
   
 

@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 6adb8e85-ae56-4542-8b19-ed3cfe7fe522
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: d0ec4e793a5b7940802ee159c2e869695166ce93
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0f99cf38e65c75ce1ba74bf72d88e19f4fbfa03a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563280"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286444"
 ---
 # <a name="pidtagproviderparentitemid-canonical-property"></a>PidTagProviderParentItemId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定父文件夹或存储中的项的标识符。
+指定文件夹的父级或存储区中项的标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROVIDER_PARENT_ITEMID  <br/> |
-|标识符：  <br/> |0x0EA4  <br/> |
+|标识符:  <br/> |0x0EA4  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
 ## <a name="remarks"></a>注解
 
-存储提供程序的文件夹或项目的父对象可以指定此属性的值，但应保留值之间会话相同。 存储提供程序使用此属性标识的搜索引擎从返回的搜索结果。
+存储提供程序可以为文件夹或项目的父级的此属性指定值, 但应在会话之间保持值不变。 存储提供程序使用此属性可标识从搜索引擎返回的搜索结果。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

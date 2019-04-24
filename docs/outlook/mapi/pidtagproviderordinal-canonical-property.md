@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4cd865fbc443a20ebf4b4cd9722fe52c44d5eddc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fbeb63bbae23f8f7f78c92d3abed6bea1c3ac85d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573808"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286437"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>PidTagProviderOrdinal 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含服务提供商的提供程序表中的位置的从零开始的索引。
+包含服务提供程序在提供程序表中的位置的从零开始的索引。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROVIDER_ORDINAL  <br/> |
-|标识符：  <br/> |0x300D  <br/> |
+|标识符:  <br/> |0x300D  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-通过 MAPI 计算此属性。
+此属性由 MAPI 计算。
   
-通过调用[IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md)方法来获取提供程序表中。 此属性以显示传输顺序在提供程序表格进行排序。 
+通过调用[IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md)方法获取 provider 表。 对此属性中的提供程序表进行排序, 以显示传输顺序。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
 description: 任何网站集管理员都可以直接从 InfoPath Designer 发布向导中将包含代码的表单发布到 SharePoint 上的表单库。代码将在沙盒环境中执行，以使恶意代码无法损害服务器。这称为发布沙盒解决方案或发布到 SharePoint 沙盒基础结构。
-ms.openlocfilehash: c25243a966bc1dc1a559ccf2ba58fabfadbd94a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: f8f8a48ea6810b5331198f6ddc112b3bd38ab886
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303505"
 ---
 # <a name="publishing-forms-with-code"></a>发布包含代码的表单
 
@@ -65,13 +65,13 @@ InfoPath 2010 和 SharePoint Server 2010 也支持管理员部署的解决方案
 3. 输入要将内容发布到的 SharePoint 站点的 URL ，然后单击“**下一步**”。 
     
     > [!IMPORTANT]
-    > [!重要信息] 您必须是此网站上的网站集管理员才能以 沙盒解决方案 的形式发布此表单模板。 
+    > 您必须是此网站上的网站集管理员才能以 沙盒解决方案 的形式发布此表单模板。 
   
-4. 选择“**表单库**”，然后单击“**下一步**”。
+4. 选择“表单库”****，然后单击“下一步”****。
     
-5. 选择“**创建新的表单库**”，然后单击“**下一步**”。
+5. 选择“新建表单库”****，然后单击“下一步”****。
     
-6. 输入表单库的名称和描述，然后单击“**下一步**”。
+6. 输入表单库的名称和描述，然后单击“下一步”****。
     
 7. 单击“**发布**”。
     
@@ -101,7 +101,7 @@ InfoPath 2010 和 SharePoint Server 2010 也支持管理员部署的解决方案
 
 1. 在“**发布向导**”的第一页中，指定 SharePoint Server 2010 或 SharePoint Foundation 2010 站点的位置，然后单击“**下一步**”。
     
-2. InfoPath 将自动选中向导第二页上的“**经管理员核准的表单模板**”复选框。 单击 **“下一步”**。
+2. InfoPath will automatically select the **Administrator-approved form template** check box on the second page of the wizard. Click **Next**.
     
 3. 第三页是管理员部署的解决方案所特有的。请将表单发布到本地存储，而不要选择 SharePoint Server。SharePoint 管理员在管理员部署过程中将从此位置上载文件。
     

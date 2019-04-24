@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6546be99-aee4-41a6-8297-ace378776503
-description: OSC 1.1 中已弃用此方法。
-ms.openlocfilehash: dc5fe25e4c4f83717309d407963d0046aa6063ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 在 .osc 1.1 中已弃用此方法。
+ms.openlocfilehash: 29a7cdc9895dcfa2bd926d95dbd2089b7a5dc778
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285453"
 ---
 # <a name="isocialsessiongetactivities"></a>ISocialSession::GetActivities
 
-OSC 1.1 中已弃用此方法。
+在 .osc 1.1 中已弃用此方法。
   
 ```cpp
 HRESULT GetActivities([in] SAFEARRAY(BSTR) emailAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
 ```
 
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-OSC 1.1 中启动 OSC 不再调用**GetActivities**。 OSC 忽略**dynamicActivitiesLookup**的值。 若要支持动态活动查找，实现[ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md)方法。 设置为**false**，和**getActivities**和为**true**，这将会进行提示 OSC 改为呼叫**ISocialSession2::GetActivitiesEx** **dynamicActivitiesLookupEx** **cacheActivities** 。 
+从 .osc 1.1 开始, .osc 将不再调用**GetActivities**。 .osc 忽略**dynamicActivitiesLookup**的值。 若要支持动态活动查找, 请实现[ISocialSession2:: GetActivitiesEx](isocialsession2-getactivitiesex.md)方法。 将**cacheActivities**设置为**false**, 并将**getActivities**和**dynamicActivitiesLookupEx**设置为**true**, 这将提示 .osc 调用**ISocialSession2:: GetActivitiesEx**而不是。 
   
 ## <a name="see-also"></a>另请参阅
 

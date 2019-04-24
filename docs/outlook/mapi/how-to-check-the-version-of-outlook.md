@@ -5,21 +5,21 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
-description: 上次修改时间： 2015年12月7日
+description: 上次修改时间：2015 年 12 月 7 日
 ms.openlocfilehash: 0a24ae43c84a0631f355a4d7d8dc98a76519563b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298472"
 ---
 # <a name="check-the-version-of-outlook"></a>检查 Outlook 版本
 
 **适用于**：Outlook 2013 | Outlook 2016 
   
-本主题提供的代码示例，如果已安装的版本为 Microsoft Outlook 2013、 Microsoft Outlook 2010、 Microsoft Office Outlook 2007 中，或 Microsoft Outlook 2003 检查安装版本的 Microsoft Outlook 的版本信息。 检查 Outlook 版本有时是 outlook 的确保当前运行版本所支持的 MAPI 应用程序调用 API 元素所必需的。
+本主题提供了一个代码示例, 该示例检查已安装版本的 microsoft outlook 2013、microsoft outlook 2010、microsoft Office Outlook 2007 或 Microsoft outlook 2003 中已安装的 microsoft outlook 版本的版本信息。 检查 outlook 的版本有时是必需的, 以确保 MAPI 应用程序调用的是当前运行的 Outlook 版本所支持的 API 元素。
 
-下面的代码示例中， `PrintOutlookVersionString`，在 Msi.h 文件中 Microsoft Windows 软件开发工具包 (SDK) 中声明使用**MsiProvideQualifiedComponent**和**MsiGetFileVersion**函数获取完整版本字符串。  `PrintOutlookVersionString`此外返回指向指示 64 位版本的 Outlook 是否已安装的 Boolean 变量的指针。 有关某些发行版本的 Outlook 版本字符串的不同部分所需要的值的信息，请参阅[如何确定 Outlook 版本信息](https://support.microsoft.com/kb/870929)。
+下面的代码示例`PrintOutlookVersionString`通过使用**MsiProvideQualifiedComponent**和**MsiGetFileVersion**函数获取完整版本字符串, 如 Microsoft Windows 软件开发工具包 (SDK) 中的 Msi 文件中所声明的那样。  `PrintOutlookVersionString`此外, 还返回一个指向 Boolean 变量的指针, 该变量指示是否已安装64位版本的 Outlook。 有关某些发布版本的 outlook 的版本字符串的不同部分的预期值的信息, 请参阅[如何确定 outlook 版本信息](https://support.microsoft.com/kb/870929)。
   
 ```cpp
 void PrintOutlookVersionString()

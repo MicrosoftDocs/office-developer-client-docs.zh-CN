@@ -1,22 +1,22 @@
 ---
-title: ProtectStyles 元素 （DocumentSettings_Type 复杂类型） (Visio XML)
+title: ProtectStyles 元素 (DocumentSettings_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 041c1b07-7ad4-f786-c6dc-32a41d4d5e04
-description: 指定是否禁止用户创建或编辑样式。
+description: 指定是否阻止用户创建或编辑样式。
 ms.openlocfilehash: e3d74a5b3af964caad62a79b4c4958661ea101b0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302994"
 ---
-# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>ProtectStyles 元素 （DocumentSettings_Type 复杂类型） (Visio XML)
+# <a name="protectstyles-element-documentsettingstype-complextype-visio-xml"></a>ProtectStyles 元素 (DocumentSettings_Type 复杂类型) ("Visio XML")
 
-指定是否禁止用户创建或编辑样式。
+指定是否阻止用户创建或编辑样式。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25400241"
 |:-----|:-----|
 |**元素类型** <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |document.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |document .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "25400241"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -48,7 +48,7 @@ ms.locfileid: "25400241"
 
 无。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

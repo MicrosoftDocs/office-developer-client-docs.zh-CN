@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6356f7bf-e3a1-4294-ad6e-df77bdd0356c
-description: 初始化 Outlook Social Connector (OSC) 提供程序。
+description: 初始化 Outlook Social Connector (.osc) 提供程序。
 ms.openlocfilehash: 73d14f66785417e80448f622256d0b9cb059b83c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285756"
 ---
 # <a name="isocialproviderload"></a>ISocialProvider::Load
 
-初始化 Outlook Social Connector (OSC) 提供程序。
+初始化 Outlook Social Connector (.osc) 提供程序。
   
 ```cpp
 HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR languageTag);
@@ -27,15 +27,15 @@ HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR langua
 
 _socialProviderInterfaceVersion_
   
-> [in]所需的 OSC OSC 提供程序接口的版本。
+> 实时.osc 所需的 .osc 提供程序接口的版本。
     
 _languageTag_
   
-> [in]Internet 工程任务组 (IETF) 语言标记，由[[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt)和[[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)，值，该值代表当前 Outlook 用户界面语言。
+> 实时由[[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt)和[[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)定义的 Internet 工程任务组 (IETF) 语言标记, 代表当前的 Outlook 用户界面语言。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-_SocialProviderInterfaceVersion_参数的版本格式为_X_。_格式_，其中_X_是主要版本和_格式_是 OSC 的次要版本。 Office 2013 的检查正在 15 的主要版本。 
+_socialProviderInterfaceVersion_参数的版本格式是_X_。_xxxx_, 其中_X_是主要版本, _xxxx_是 .osc 的次要版本。 对于 Office 2013, 请检查主要版本是否为15。 
   
 ## <a name="see-also"></a>另请参阅
 

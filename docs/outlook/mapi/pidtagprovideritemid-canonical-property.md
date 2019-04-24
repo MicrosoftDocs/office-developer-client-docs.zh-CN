@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e0f13b0b8d2f7eb6fd7ba60e9e351b62251aa13d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 48653b86d625da963b655dbd1acc01a46f4687dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286472"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>PidTagProviderItemId 规范属性
 
@@ -30,25 +30,25 @@ ms.locfileid: "22572835"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROVIDER_ITEMID  <br/> |
-|标识符：  <br/> |0x0EA3  <br/> |
+|标识符:  <br/> |0x0EA3  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MapiNonTransmittable  <br/> |
    
 ## <a name="remarks"></a>注解
 
-存储提供程序可以指定的文件夹或项目，此属性的值，但应保留值之间会话相同。 存储提供程序使用此属性标识的搜索引擎从返回的搜索结果。
+存储提供程序可以为文件夹或项目的此属性指定值, 但应保持会话之间的值相同。 存储提供程序使用此属性可标识从搜索引擎返回的搜索结果。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

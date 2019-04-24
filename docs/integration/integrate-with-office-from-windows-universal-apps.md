@@ -1,5 +1,5 @@
 ---
-title: 从 Windows 通用应用程序与 Office 集成
+title: 从 Windows 通用应用与 Office 集成
 manager: soliver
 ms.date: 02/06/2017
 ms.audience: Developer
@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: 您可以将 Windows 通用应用程序平台第三方应用程序与 Excel Mobile、PowerPoint Mobile 和 Word Mobile 集成。通用应用程序将通过 Windows 文件选取器合约、expando 属性和缓存文件更新程序合约与 Office 应用程序集成在一起。
 ms.openlocfilehash: ad04ccc3ceb6e0f1d53e4aebc12cf9724ab8ab66
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299762"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>从 Windows 通用应用程序与 Office 集成
 
@@ -39,7 +39,7 @@ Windows 通用应用程序可以使用 Expando 属性沟通与文件相关联的
 |:-----|:-----|:-----|:-----|
 |**AppDisplayName** <br/> |向用户显示的提供程序名称。将出现在 Office 中的多个位置，如最近的文档列表。  <br/> |String  <br/> |Contoso  <br/> |
 |**MicrosoftOfficeOwnershipType** <br/> |对于许可，则表示文档/位置是个人/使用者还是工作/企业。允许值为 1（个人）和 2（企业）。例如，如果用户的文件存储在 Contoso Business 中，则可使用值"2"来表示企业。  <br/> |Unit32  <br/> | 1 或 2  <br/> 例如，如果用户的文件存储在 Contoso Business 中，则应将此文件标记为"2"来表示企业。  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |声明您提供的信息准确对应于每条使用条款的法律文本。此文本不向用户进行显示。它是在您、应用程序供应商和 Microsoft 之间拟定的协议。  <br/> 有关示例，请参阅以下内容。  <br/> | String  <br/> | 我同意 [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) 中的条款 <br/> |
+|**MicrosoftOfficeTermsOfUse** <br/> |声明您提供的信息准确对应于每条使用条款的法律文本。此文本不向用户进行显示。它是在您、应用程序供应商和 Microsoft 之间拟定的协议。  <br/> 有关示例，请参阅以下内容。  <br/> | 字符串  <br/> | 我同意 [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) 中的条款 <br/> |
    
 以下代码示例演示如何设置这些属性。
   

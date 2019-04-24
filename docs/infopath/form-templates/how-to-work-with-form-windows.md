@@ -8,19 +8,19 @@ keywords:
 localization_priority: Normal
 ms.assetid: 32ae2427-882b-45f8-8754-0e8c27fc23ba
 description: 以编程方式处理 InfoPath 表单时，您可以编写代码来访问该表单的窗口，然后自定义窗口中包含的某些项目。由 Microsoft.Office.InfoPath 命名空间提供的 InfoPath 对象模型通过结合使用 Window 类和 WindowCollection 类来支持对表单窗口进行访问。
-ms.openlocfilehash: 5b24798e92849a2d79bf836e12dd91845ee58942
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 018357519e27629c29b2611bd0a88b8d64f0a1eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303554"
 ---
 # <a name="work-with-form-windows"></a>使用表单窗口
 
 以编程方式处理 InfoPath 表单时，您可以编写代码来访问该表单的窗口，然后自定义窗口中包含的某些项目。由 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间提供的 InfoPath 对象模型通过结合使用 [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) 类和 [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) 类来支持对表单窗口进行访问。 
   
 > [!NOTE]
-> 仅当使用“InfoPath 编辑器表单”**** 时，用于使用表单窗口的类才可用。 如果表单模板的****“兼容性”设置是****“Web 浏览器表单”，则这些类不可用。 
+> The classes for working with a form's windows are available only when working with an **InfoPath Editor Form**. If a form template's **Compatibility** setting is **Web Browser Form**, these classes are not available. 
   
 InfoPath 中有两类窗口： 
   

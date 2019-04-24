@@ -1,17 +1,17 @@
 ---
-title: 将 InfoPath 作为 XML 编辑器托管在另一个应用程序中
+title: 将 InfoPath 作为 XML 编辑器放置到另一个应用程序中
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ae24b317-f486-763a-7009-e32c5cb85b59
 description: Microsoft InfoPath 表单编辑环境可以托管在自定义 Windows 应用程序中，这样开发人员可以将 InfoPath 表单编辑环境集成到业务线应用程序中。
-ms.openlocfilehash: dd87cba7219b5647bd2b20dd67c6eb0f1811cc59
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: b85e47d506b17982bb883c9d56ea13131807d1cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303687"
 ---
 # <a name="hosting-infopath-as-an-xml-editor-in-another-application"></a>将 InfoPath 作为 XML 编辑器托管在另一个应用程序中
 

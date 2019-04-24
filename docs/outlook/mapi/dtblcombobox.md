@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 73b68614-6aca-4669-b879-5631c5d6483c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a8d2f2c82c61280bae88c715f8ffae19e10f00f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5256efbff734d4555ac263dd330e3349c789cd74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287466"
 ---
 # <a name="dtblcombobox"></a>DTBLCOMBOBOX
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-描述将显示表中生成的对话框中使用的组合框控件。
+介绍将在从显示表生成的对话框中使用的组合框控件。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[SizedDtblComboBox](sizeddtblcombobox.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[SizedDtblComboBox](sizeddtblcombobox.md) <br/> |
    
 ```cpp
 typedef struct _DTBLCOMBOBOX
@@ -48,47 +48,47 @@ typedef struct _DTBLCOMBOBOX
 
  **ulbLpszCharsAllowed**
   
-> 从**DTBLCOMBOBOX**结构开始到字符的字符串筛选器，描述限制，如果任何，可以在组合框中输入的字符编辑控件的偏移量。 筛选器将不被解释为一个正则表达式和相同的筛选器应用于输入每个字符。 筛选器的格式如下所示： 
+> 从**DTBLCOMBOBOX**结构的开头到一个字符字符串筛选器的偏移量, 该字符串筛选器描述可在组合框的编辑控件中输入的字符的限制 (如果有)。 筛选器不会解释为正则表达式, 并且将相同的筛选器应用于每个输入的字符。 筛选器的格式如下所示: 
     
 |**字符**|**说明**|
 |:-----|:-----|
-| `*` <br/> |允许任何字符 (例如， `"*"`)。  <br/> |
-| `[ ]` <br/> |定义一组字符 (例如， `"[0123456789]"`)。  <br/> |
-| `-` <br/> |指示某个范围的字符 (例如， `"[a-z]"`)。  <br/> |
-| `~` <br/> |指示不允许这些字符。 (例如， `"[~0-9]"`)。  <br/> |
-| `\` <br/> |用于 quote 任何以前符号 (例如，`"[\-\\\[\]]"`是指-， \, [，和] 允许字符)。  <br/> |
+| `*` <br/> |允许使用任何字符 (例如, `"*"`)。  <br/> |
+| `[ ]` <br/> |定义一组字符 (例如`"[0123456789]"`)。  <br/> |
+| `-` <br/> |指示字符的范围 (例如, `"[a-z]"`)。  <br/> |
+| `~` <br/> |指示不允许使用这些字符。 (例如, `"[~0-9]"`)。  <br/> |
+| `\` <br/> |用于引用前面的任何符号 (例如, `"[\-\\\[\]]"`允许-、 \, [和] 字符)。  <br/> |
    
  **ulFlags**
   
-> 用于指定格式的字符的字符串筛选器的标志位掩码。 可以设置以下标记：
+> 用于指定字符字符串筛选器格式的标志的位掩码。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 筛选器在 Unicode 格式。 如果未设置 MAPI_UNICODE 标志，筛选器为 ANSI 格式。
+> 筛选器采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则筛选器将采用 ANSI 格式。
     
  **ulNumCharsAllowed**
   
-> 可以在组合框的文本框中输入的字符的最大数量。
+> 可在组合框的文本框中输入的最大字符数。
     
  **ulPRPropertyName**
   
-> 属性标记类型 PT_TSTRING 的属性。 
+> 类型为 PT_TSTRING 的属性的属性标记。 
     
  **ulPRTableName**
   
-> 属性标记类型 PT_OBJECT 在其可以使用**OpenProperty**呼叫打开**IMAPITable**接口的属性。 表中必须包含一个列是由**ulPRPropertyName**成员标识的属性类型相同的属性。 Table 的行用于填充列表。 
+> PT_OBJECT 类型的属性的属性标记, 可以通过**OpenProperty**调用使用**IMAPITable**接口打开该属性。 该表必须有一列的属性与**ulPRPropertyName**成员标识的属性的类型相同。 该表的行用于填充列表。 
     
 ## <a name="remarks"></a>注解
 
-**DTBLCOMBOBOX**结构介绍组合框列表和选择字段组成的控件。 列表呈现从中可以选择用户，并选择字段显示当前选定内容的信息。 选择字段是还可用于在列表中尚未输入文本编辑控件。 
+**DTBLCOMBOBOX**结构描述一个组合框, 该控件由一个列表和一个选择字段组成。 该列表显示用户可以从中选择的信息, 并且选择字段显示当前所选内容。 选择字段是一个编辑控件, 还可用于输入列表中尚未存在的文本。 
   
-两个属性标记成员协同工作来协调列表显示与编辑控件。 当 MAPI 首次显示组合框中时，它会调用与要检索表示由**ulPRTableName**成员的表的显示表相关联的**IMAPIProp**实现**OpenProperty**方法。 此表有一个列包含由**ulPRPropertyName**成员属性的值的列。 因此，此列必须**ulPRPropertyName**属性类型相同的并且这两个列必须字符的字符串。 
+这两个属性标记成员协同工作, 以使用编辑控件来协调列表显示。 当 MAPI 首次显示组合框时, 它会调用与显示表相关联的**IMAPIProp**实现的**OpenProperty**方法, 以检索**ulPRTableName**成员所表示的表。 此表包含一个列, 该列包含**ulPRPropertyName**成员所表示的属性的值。 因此, 此列的类型必须与**ulPRPropertyName**属性的类型相同, 并且这两个列都必须是字符串。 
   
-组合框列表部分中显示的列的值。 因此， **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 不是有效属性标记为**ulPRPropertyName**。 当用户选择行之一，或在文本框中输入新的数据时， **ulPRPropertyName**属性设置为所选或输入值。 
+该列的值将显示在组合框的列表部分。 因此, **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 不是**ulPRPropertyName**的有效属性标记。 当用户选择其中一个行或在文本框中输入新数据时, **ulPRPropertyName**属性设置为所选或输入的值。 
   
-若要显示的编辑控件的初始值，MAPI 调用[IMAPIProp::GetProps](imapiprop-getprops.md)检索显示表的属性值。 如果检索到的属性之一与匹配由**ulPRPropertyName**成员的属性，则其值成为的初始值。 
+若要显示编辑控件的初始值, MAPI 调用[IMAPIProp:: GetProps](imapiprop-getprops.md)检索显示表的属性值。 如果其中一个检索的属性与**ulPRPropertyName**成员所表示的属性相匹配, 则其值将成为初始值。 
   
-显示表的概述，请参阅[显示表](display-tables.md)。 有关如何实施显示表的信息，请参阅[实现显示表](display-table-implementation.md)。
+有关显示表的概述, 请参阅[显示表](display-tables.md)。 有关如何实现显示表的信息, 请参阅[实现显示表](display-table-implementation.md)。
   
 ## <a name="see-also"></a>另请参阅
 

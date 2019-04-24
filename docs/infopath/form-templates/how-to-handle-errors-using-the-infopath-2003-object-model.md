@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
 description: 创建自定义应用程序时，开发人员必须经常执行错误处理，这包括通过编写程序代码，检查是否存在应用程序引起的错误，或者创建和引发自定义错误。InfoPath 2003 兼容对象模型通过使用与 ErrorsCollection 集合关联的 ErrorObject 对象，来支持错误处理。
-ms.openlocfilehash: 577e531d8943dc8fc3884cd81f68b11ca285c5d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 93991e33d8867f89454bec08b41ba83e98ab0a17
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300124"
 ---
 # <a name="handle-errors-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型处理错误
 

@@ -7,11 +7,11 @@ ms.assetid: 71d3ae83-3b5d-47c1-b618-4acf13470afb
 description: 查找开发解决方案和自定义项目的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
 localization_priority: Priority
 ms.openlocfilehash: 723de79427c8507c4f849546e8a6b2d72ac5e18c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301503"
 ---
 # <a name="project"></a>Project 
 

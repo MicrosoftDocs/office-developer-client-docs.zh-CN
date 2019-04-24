@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: b2b5d6e6-201b-4ad7-8de2-e40f09165e62
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: df3a872aedcba79613a8f2ca2b970069d372eb07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f4d2c8460e5baf484d30f4861e15a56fcd8d491b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287080"
 ---
 # <a name="entrylist"></a>ENTRYLIST
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-代表作为[SBinaryArray](sbinaryarray.md)结构使用相同的实现的 MAPI 对象的项标识符的数组。 
+表示 MAPI 对象的条目标识符的数组, 该对象使用与[SBinaryArray](sbinaryarray.md)结构相同的实现。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
@@ -38,7 +38,7 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ## <a name="members"></a>Members
 
-成员，请参阅**SBinaryArry**结构。 
+请参阅**SBinaryArry**结构的成员。 
   
 ## <a name="see-also"></a>另请参阅
 

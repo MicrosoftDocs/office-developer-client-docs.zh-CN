@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: InfoPath 托管代码表单模板的表单代码编译为在公共语言运行库 (CLR) 下运行的程序集。这意味着只要您需要对表单代码进行更改，就必须在 Visual Studio 2008 中打开其项目，在代码编辑器中进行更改，重新编译表单模板，然后重新部署该表单模板。此外，由于托管代码表单模板的专用程序集是在托管的 CLR 应用程序域中运行的，因此需要完全信任的表单的安全设置与不需要完全信任的表单模板稍有不同。
-ms.openlocfilehash: 56af865a80df75c7e1d973767066a03310cdde1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: ba3629e786a224ea950e78bbec9a9fe94d4499de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303624"
 ---
 # <a name="deploy-infopath-form-templates-with-code"></a>部署包含代码的 InfoPath 表单模板
 
@@ -29,7 +29,7 @@ InfoPath 托管代码表单模板的表单代码编译为在公共语言运行�
     
 2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，单击“文件”**** 选项卡，然后在“发布”**** 选项卡上单击所需发布位置的按钮。（如果之前已发布该表单模板，则可单击“文件”**** 选项卡，再单击“快速发布”**** 将该表单模板重新发布到同一位置。） 
     
-    将编译表单模板并启动“发布向导”****。 按照“发布向导”**** 中的步骤将你的表单部署到你所选的位置。 有关使用“发布向导”**** 的详细信息，请搜索“发布表单模板”的 InfoPath 帮助。
+    The form template is compiled and the **Publishing Wizard** is launched. Follow the steps in the **Publishing Wizard** to deploy your form to the location of your choice. For more information about using the **Publishing Wizard**, search InfoPath Help for "Publish a form template".
     
 ## <a name="deploying-form-templates-that-require-full-trust"></a>部署需要完全信任的表单模板
 
@@ -51,7 +51,7 @@ InfoPath 托管代码表单模板的表单代码编译为在公共语言运行�
     
 7. 单击“发布”**** 选项卡，然后单击所需的发布位置的按钮。 
     
-8. 将编译表单模板并启动“发布向导”****。 按照“发布向导”**** 中的步骤来部署你的表单模板。 有关使用“发布向导”**** 来部署需要完全信任的表单模板的详细信息，请搜索“发布包含完全信任的表单模板”的 InfoPath 帮助。 
+8. The form template is compiled and the **Publishing Wizard** is launched. Follow the steps in the **Publishing Wizard** to deploy your form template. For more information about using the **Publishing Wizard** to deploy a form template that requires full trust, search InfoPath Help for "Publish a form template with full trust". 
     
  **备注**
 - 要对表单进行数字签名，计算机上必须安装了经过验证的代码签名证书。要获取这样的证书，必须与证书颁发机构或网络管理员联系。
@@ -71,7 +71,7 @@ InfoPath 托管代码表单模板的表单代码编译为在公共语言运行�
     
 2. 如果你在 Visual Studio 2012 代码编辑器中工作，请切换到 InfoPath，依次单击“文件”**** 选项卡和“发布”****，然后单击所需发布位置的按钮。
     
-    将编译表单模板并启动“发布向导”****。 按照“发布向导”**** 中的步骤来部署你的表单模板。 有关使用“发布向导”**** 的详细信息，请搜索“发布表单模板”的 InfoPath 帮助。
+    The form template is compiled and the **Publishing Wizard** is launched. Follow the steps in the **Publishing Wizard** to deploy your form template. For more information about using the **Publishing Wizard**, search InfoPath Help for "Publish a form template".
     
 3. 执行[为包含代码的表单模板配置安全设置](how-to-configure-security-settings-for-form-templates-with-code.md)的“为位于特定 URL 或 UNC 的表单指定 FullTrust”一节中所述的步骤。
     

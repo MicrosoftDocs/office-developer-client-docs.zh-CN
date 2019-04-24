@@ -7,13 +7,13 @@ keywords:
 - 数字签名 [infopath 2007]，infopath 2003 兼容的表单模板，InfoPath 2003 兼容的表单模板，数字签名
 localization_priority: Normal
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
-description: InfoPath 2003 兼容的对象模型提供以编程方式处理数字签名的功能。
-ms.openlocfilehash: ae9934e36766b7e783d1404a12a49e9b0b08543a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+description: InfoPath 2003 兼容对象模型提供了以编程方式处理数字签名的功能。
+ms.openlocfilehash: 86e2c85c7515c896612df09b6186462480ceff61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299906"
 ---
 # <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型处理数字签名
 
@@ -31,7 +31,7 @@ InfoPath 2003 兼容的对象模型提供以编程方式处理数字签名的功
     
 - 在文档中插入和查看签名。 
     
-- 查看为了提高安全性而添加到每个签名的可验证且不可否认的信息。 此附加信息包含呈现给每个签名者的表单视图，是签名的一部分，只有签名失效时才能移除该信息。 可通过单击表单中的签名以显示“**验证数字签名**”对话框，来随时调用此数据。 
+- View verifiable non-repudiation information that has been added to each signature for increased security. This additional information, which includes a view of the form as it was presented to each signer, is part of the signature and cannot be removed without invalidating the signature. At any time, you can recall this data by clicking on the signature in the form to display the **Verify Digital Signature** dialog box. 
     
 - 利用对象模型来处理数字签名。通过数字签名对象模型来将自定义信息添加到完全信任表单中的签名块。 
     

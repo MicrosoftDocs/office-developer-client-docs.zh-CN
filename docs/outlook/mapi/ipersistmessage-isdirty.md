@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 0d2ae556f4dd98b5f6e274a21c608d4ea364d4ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 91985d3dc8a7816c3da3215e505097c57c63e035
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309609"
 ---
 # <a name="ipersistmessageisdirty"></a>IPersistMessage::IsDirty
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检查自上次保存以来所做的更改的表单。
+检查表单的上次保存以来所做的更改。
   
 ```cpp
 HRESULT IsDirty( void );
@@ -39,15 +39,15 @@ HRESULT IsDirty( void );
 
 S_OK 
   
-> 窗体有自上次保存以来所做的更改。
+> 表单包含自上次保存以来所做的更改。
     
 S_FALSE 
   
-> 窗体不具有自上次保存以来所做的更改。
+> 表单不包含自上次保存以来所做的更改。
     
 ## <a name="remarks"></a>注解
 
-表单查看器调用**IPersistMessage::IsDirty**方法以确定是否邮件有未保存的数据。 
+表单查看者调用**IPersistMessage:: IsDirty**方法, 以确定邮件是否有未保存的数据。 
   
 ## <a name="see-also"></a>另请参阅
 

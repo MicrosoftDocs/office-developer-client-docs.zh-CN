@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: 如果 InfoPath 表单模板使用了 InfoPath 2003 兼容对象模型，则在使用此表单模板时，可以编写代码以访问表单的辅助数据源和处理它们包含的数据。
-ms.openlocfilehash: cf06cdc6a02eba855442cdab4c3c698ed3f4425f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303694"
 ---
 # <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型访问外部数据源
 

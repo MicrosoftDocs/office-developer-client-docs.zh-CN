@@ -7,31 +7,31 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: b9166090321aa24e35fe1c82908aec0c403095cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 439927dc78941f086c025d77c76236497d3f4a15
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593737"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307810"
 ---
 # <a name="launching-a-form-to-read-a-message"></a>启动要读取邮件的表单
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-客户端应用程序加载一条消息时，窗体服务器实施应产生预期方法调用其窗体服务器和窗体对象的以下序列：
+表单服务器实施者在客户端应用程序加载消息时, 应预计对其表单服务器和表单对象使用以下一系列方法调用:
   
-1. 客户端应用程序调用[MAPIOpenFormMgr](mapiopenformmgr.md)函数打开的窗体管理器。 
+1. 客户端应用程序使用调用[MAPIOpenFormMgr](mapiopenformmgr.md)函数打开表单管理器。 
     
-2. 客户端应用程序调用[IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md)方法，它返回[IMAPIForm](imapiformiunknown.md)对象。 窗体管理器可能会立即发布，如果它将不用于进一步表单激活。 请注意**LoadForm**调用可能需要一些时间，因为窗体管理器可能必须安装该窗体服务器的可执行文件，然后再继续。 
+2. 客户端应用程序调用[IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md)方法, 该方法返回具有[IMAPIForm](imapiformiunknown.md)的对象。 如果窗体管理器将不用于进一步的窗体激活, 现在就可以发布它。 请注意, 对**LoadForm**的调用可能需要一段时间, 因为在继续之前, 表单管理器可能必须安装表单服务器的可执行文件。 
     
-3. （可选） 客户端应用程序可以准备[IMAPIViewContext](imapiviewcontextiunknown.md)控制操作可能会导致加载文件夹中的上一个或下一步邮件的 form 对象。 客户端应用程序可以使用[IMAPIForm::SetViewContext](imapiform-setviewcontext.md)方法以更改已设置的默认视图上下文**LoadForm**呼叫中。 
+3. (可选) 客户端应用程序可以准备[IMAPIViewContext](imapiviewcontextiunknown.md) , 以控制可能导致 form 对象加载该文件夹中的上一个或下一个邮件的操作。 客户端应用程序可以使用[IMAPIForm:: SetViewContext](imapiform-setviewcontext.md)方法更改在**LoadForm**调用中设置的默认视图上下文。 
     
-4. 客户端应用程序调用[IPersistMessage::Load](ipersistmessage-load.md)方法来将消息数据加载到 form 对象。 
+4. 客户端应用程序调用[IPersistMessage:: load](ipersistmessage-load.md)方法将邮件数据加载到 form 对象中。 
     
-5. 客户端应用程序调用[IMAPIForm::DoVerb](imapiform-doverb.md)调用传递可选[IMAPIViewContext](imapiviewcontextiunknown.md)接口指针打开动词。 
+5. 客户端应用程序调用[IMAPIForm::D overb](imapiform-doverb.md)调用 open 谓词, 以传递可选的[IMAPIViewContext](imapiviewcontextiunknown.md)接口指针。 
     
 ## <a name="see-also"></a>另请参阅
 

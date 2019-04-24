@@ -12,49 +12,49 @@ api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 61dc61872e8d1ed525d5ac3c46c56ccc3e45ea5e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55e6c8fb013e544ae04740aeaeb23ac23949cffb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286458"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>PidTagProviderIcon 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含指定自定义图标或图标以显示在 Microsoft Office Outlook 的状态栏中联机和脱机状态 MAPI 提供程序的 Unicode 字符串。
+包含一个 Unicode 字符串, 该字符串指定要在联机和脱机状态的 Microsoft Office Outlook 状态栏中为 MAPI 提供程序显示的自定义图标或图标。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_PROVIDER_ICON PR_PROVIDER_ICON_W  <br/> |
-|标识符：  <br/> |0x3417  <br/> |
+|相关属性：  <br/> |PR_PROVIDER_ICON、PR_PROVIDER_ICON_W  <br/> |
+|标识符:  <br/> |0x3417  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性指定资源文件包含自定义图标表示处于联机状态，MAPI 提供程序和 （可选），另一个自定义图标处于脱机状态。 Outlook 始终请求 Unicode 表示这些属性。 
+这些属性指定的资源文件中包含一个自定义图标, 该图标表示处于联机状态的 MAPI 提供程序, 也可以选择另一个自定义图标处于脱机状态。 Outlook 始终请求 Unicode 表示形式的这些属性。 
   
-例如，以下属性值指示 Outlook 从模块 mymod32.dll 加载图标 ID 1001 并该图标用于联机状态： `mymod32.dll,#1001`。 没有为脱机状态提供程序特定的图标，因为在这种情况下，标准的 Outlook 脱机图标使用在状态栏中。 
+例如, 以下属性值指示 Outlook 从模块 mymod32 加载图标 ID 1001, 并将该图标用于联机状态: `mymod32.dll,#1001`。 由于脱机状态没有提供程序特定的图标, 在这种情况下, 将在状态栏中使用标准的 Outlook 脱机图标。 
   
-以下属性值指示 Outlook 从模块 mymod32.dll 加载图标 ID 1001 和该图标用于联机状态，并为还从这一相同模块用于脱机状态加载图标 ID 1002: `mymod32.dll,#1001,#1002`。 在状态栏中不使用任何 Outlook 图标。 
+下面的属性值指示 Outlook 从模块 mymod32 加载图标 id 1001, 并将该图标用于联机状态, 并从该相同的模块加载图标 id 1002, 以用于脱机状态: `mymod32.dll,#1001,#1002`。 状态栏中不使用 Outlook 图标。 
   
-默认情况下，如果未不指定任何自定义图标，则提供程序是由联机状态和脱机状态的 Outlook 默认图标表示。 提供程序 （可选） 可以指定要在状态栏中显示图标旁边显示名称。 有关详细信息，请参阅**PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md))。
+默认情况下, 如果未指定任何自定义图标, 提供程序将由 Outlook 默认图标用于联机状态和脱机状态。 提供程序可以根据需要指定显示名称, 该显示名称将显示在状态栏中的图标旁边。 有关详细信息, 请参阅**PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md))。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

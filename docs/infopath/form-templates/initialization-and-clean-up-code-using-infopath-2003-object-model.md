@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: 默认情况下，为与 InfoPath 2003 兼容的表单模板项目创建的 FormCode.cs 或 FormCode.vb 文件包含表单编程逻辑的所有源代码。项目的模板在 FormCode.cs 或 FormCode.vb 文件中生成的类与以下示例中的类非常类似，您可以在其中定义初始化和清理代码以及表单事件的处理程序。FormCode.cs 和 FormCode.vb 文件应用一个程序集级别的 System.ComponentModel.DescriptionAttribute 属性，此属性将该类标识为实现事件处理程序的唯一类。将 InfoPathNamespace 属性（由 InfoPathNamespaceAttribute 类型实现）应用于类以标识在该类内部使用的 XML DOM 选项命名空间。在 InfoPathNamespace 中引用的命名空间由 InfoPath 项目系统来维护。
 ms.openlocfilehash: 1ae81c261ad9927195c0a4ac6d80f58a16a6ebf1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299739"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型初始化和清理代码
 
@@ -145,7 +145,7 @@ End Sub
 
 ## <a name="initialization-and-clean-up-code-example"></a>初始化和清理代码示例
 
-下面的示例演示如何在 `_Startup` 方法中初始化与 Microsoft SQL Server 数据库的连接以及如何在 `_Shutdown` 方法中关闭连接。 为了使此示例正常工作，你必须先设置对 .NET Framework 的 System.Data 程序集的引用，方法是单击“项目”**** 菜单上的“添加引用”****，然后选择 .NET**** 选项卡上的 System.Data.dll 组件。另请注意，`using System.Data.SqlClient`（或 `Imports System.Data.SqlClient)`）指令已添加在表单代码文件的顶部以减少击键。 
+The following example shows how to initialize a connection to a Microsoft SQL Server database in the  `_Startup` method and close the connection in the  `_Shutdown` method. In order for this example to work correctly, you must first set a reference to the System.Data assembly of the .NET Framework by clicking **Add Reference** on the **Project** menu, and then selecting the System.Data.dll component on the **.NET** tab. Also note that the  `using System.Data.SqlClient` (or  `Imports System.Data.SqlClient)` directive was added at the top of the form code file to reduce keystrokes. 
   
 > [!NOTE]
 > 包含连接到 SQL Server 数据库的表单代码的 InfoPath 表单的用户可能需要安全权限，具体取决于表单的部署方式以及安全策略的定义。 有关安全性的详细信息，请参阅[关于具有代码的表单模板的安全模型](about-the-security-model-for-form-templates-with-code.md)和[为具有代码的表单模板配置安全设置](how-to-configure-security-settings-for-form-templates-with-code.md)。 

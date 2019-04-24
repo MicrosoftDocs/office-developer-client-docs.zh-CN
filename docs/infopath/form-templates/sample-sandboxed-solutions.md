@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 415fa0fa-b7b7-4acb-a437-f54c34064004
 description: 本主题提供了两个示例，演示您可在 InfoPath 沙盒解决方案 中编写的代码种类，以及如何发布表单模板。
-ms.openlocfilehash: b0874e34d843850df55eee87d689ce0d01112635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 56a9a2a765100ef327790265c7cf734903268bed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303498"
 ---
 # <a name="sample-sandboxed-solutions"></a>示例沙盒解决方案
 
@@ -33,11 +33,11 @@ ms.locfileid: "19774083"
   
 ### <a name="to-create-a-form-template-that-programmatically-sorts-data-in-the-form"></a>创建以编程方式对表单中的数据进行排序的表单模板
 
-1. 在 InfoPath Designer 中新建一个表单模板，并向该表单添加“重复表”**** 控件。 此示例中的示例代码根据表中的第一列对行进行排序，但可以轻松修改代码以使用任何列。 
+1. Create a new form template in the InfoPath designer, and add a **Repeating Table** control to the form. The sample code for this example sorts the rows based on the first column in the table, but you can easily modify the code to work with any column. 
     
-2. 向该表单添加“按钮”**** 控件。 将向按钮的 **Clicked** 事件的事件处理程序中添加对表进行排序的代码，但也可以用另一个事件来实现此目的。 
+2. Add a **Button** control to the form. The code to sort the table will be added to the event handler for the button's **Clicked** event, but you could also use another event for this purpose. 
     
-3. 选择按钮，单击“属性”**** 选项卡，然后单击“自定义代码”****。 如果表单尚未保存，则会提示你保存表单，然后代码编辑器将打开，光标位于按钮的事件处理程序中。
+3. Select the button, click the **Properties** tab, and then click **Custom Code**. If your form hasn't been saved yet, you are prompted to save it, and then the Code Editor will open with the cursor in the button's event handler.
     
 4. 将以下代码粘贴到按钮的事件处理程序中。该代码会将第一个列中的元素置于一个数组中，对该数组进行排序，然后基于经过排序的数组对表进行重新排序。此代码假定所排序的数据是字符串数据。
     
@@ -144,17 +144,17 @@ ms.locfileid: "19774083"
     
     3. 选择“表单库”****，然后单击“下一步”****。
         
-    4. 选择“新建表单库”****，然后单击“下一步”****。
+    4. 选择“**创建新的表单库**”，然后单击“**下一步**”。
         
     5. 输入表单库的名称和描述，然后单击“下一步”****。
         
-    6. 单击“发布”****。
+    6. 单击“**发布**”。
     
 ## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>示例 2：在 SharePoint 列表中管理供应商
 
 此示例涉及到针对 Microsoft SharePoint Foundation 2010 对象模型进行编程。为此，您必须建立对 Microsoft.SharePoint.dll 程序集的引用，该程序集随 SharePoint Server 2010 的许可副本一起安装。
   
-Microsoft.SharePoint.Server.dll 默认安装于 C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI。 此 DLL 必须包含在针对 SharePoint 对象模型进行编程的项目中。 若要在 Visual Studio 2012 项目中建立对 Microsoft.SharePoint.dll 的引用，打开“代码编辑器”****，然后单击“工具”**** 菜单上的“添加引用”****。 在“添加引用”**** 对话框中，单击“浏览”**** 选项卡，指定 Microsoft.SharePoint.dll 文件的位置，然后单击“确定”****。 此操作会将 Microsoft.SharePoint.dll 复制到项目目录中，以便可以在 InfoPath 解决方案中使用 SharePoint Foundation 2010 对象模型成员。
+Microsoft.SharePoint.Server.dll is installed in C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\ISAPI by default. This DLL must be included in projects where you program against the SharePoint object model. To establish a reference to the Microsoft.SharePoint.dll in a Visual Studio 2012 project, open the **Code Editor**, and then click **Add Reference** on the **Tools** menu. In the **Add Reference** dialog box, click the **Browse** tab, specify the location of the Microsoft.SharePoint.dll file, and then click **OK**. This will copy the Microsoft.SharePoint.dll into the project directory so that you can use SharePoint Foundation 2010 object model members in your InfoPath solution.
   
 ### <a name="designing-the-form-and-developing-the-code"></a>设计表单并开发代码
 
@@ -162,7 +162,7 @@ Microsoft.SharePoint.Server.dll 默认安装于 C:\Program Files\Common Files\Mi
   
 ### <a name="to-create-a-form-template-that-can-add-new-items-to-a-combo-box-based-on-a-sharepoint-list"></a>创建可基于 SharePoint 列表向组合框中添加新项的表单模板
 
-1. 在 SharePoint Server 2010 服务器上创建一个简单的自定义列表，并将其命名为 MyList。 以下示例使用绑定到此列表的“Title”**** 字段的“组合框”****。 
+1. Create a simple custom list on a SharePoint Server 2010 server, and name it MyList. The following example uses a **Combo Box** bound to the **Title** field of this list. 
     
 2. 在 InfoPath Designer 中新建一个“空白表单”****，在表单上插入“组合框”**** 控件，并将绑定到组合框的字段重命名为 myCombo。
     
@@ -174,7 +174,7 @@ Microsoft.SharePoint.Server.dll 默认安装于 C:\Program Files\Common Files\Mi
         
     3. 选择该列表，然后单击“下一步”****。
         
-    4. 为此示例选择要包括的字段，选择 Title 和 ID。 Title 包含查找的值。 单击“下一步”****。
+    4. Select the fields that you want to include, for this example, select Title and ID. Title contains the values for lookup. Click **Next**.
         
     5. 在以下屏幕中单击“下一步”****。 
         

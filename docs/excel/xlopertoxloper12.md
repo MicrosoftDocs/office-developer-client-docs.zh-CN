@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: b2d4581b-ebf6-4eba-aa95-69a5a9ee8028
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 76c78e5a2ad62b1a3d1aa23748b10e49e07f6543
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c881f5d03c732b6594e0750808cfa35a65127ed0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303904"
 ---
 # <a name="xlopertoxloper12"></a>XLOperToXLOper12
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-用于从旧**XLOPER**转换为新**XLOPER12**转换例程。
+用于将旧**XLOPER**转换为新**XLOPER12**的转换例程。
   
 ```cs
 BOOL XLOperToXLOper12(LPXLOPER pxloper, LPXLOPER12 pxloper12);
@@ -32,28 +32,28 @@ BOOL XLOperToXLOper12(LPXLOPER pxloper, LPXLOPER12 pxloper12);
 
 _pxloper_(**LPXLOPER**)
   
-对源**XLOPER**要转换的指针。 
+指向要转换的源**XLOPER**的指针。 
   
 _pxloper12_(**LPXLOPER12**)
   
-指向目标**XLOPER12**包含转换的值。 
+指向目标**XLOPER12**的指针, 以包含转换后的值。 
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果为**TRUE**转换成功， **FALSE**否则。 
+如果转换成功,**则为 TRUE** , 否则为**FALSE** 。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-根据**XLOPER**类型，此函数为转换后的值，指向目标**XLOPER12**中分配新内存缓冲区。 呼叫者负责释放转换为成功; 如果与副本关联任何内存可以使用**FreeXLOper12T** ，或直接使用**免费**即可完成。
+根据**XLOPER**的类型, 此函数为转换的值分配一个新的内存缓冲区, 这些值指向目标**XLOPER12**中的。 如果转换成功, 则呼叫者负责释放与副本关联的任何内存;可以使用**FreeXLOper12T** , 也可以直接使用**free**执行。
   
-如果转换失败，则不需要释放的任何内存呼叫者。
+如果转换失败, 则呼叫者无需释放任何内存。
   
-一般情况下，从任何**XLOPER**转换为**XLOPER12**时可能。 相比之下，从**XLOPER12**到**XLOPER**转换可能会失败时**XLOPER12**包含数组或引用太大或对于**XLOPER**包含太长字符串。 
+通常情况下, 可以从任何**XLOPER**转换为**XLOPER12** 。 相比之下, 当**XLOPER12**包含的数组或引用过大或字符串太长而无法包含的**XLOPER**时, 从**XLOPER12**到**XLOPER**的转换可能会失败。 
   
-**XLOPER**ASCII 字节字符串转换为**XLOPER12** Unicode 宽字符字符串是区域设置相关的方式。 
+**XLOPER**ASCII 字节字符串将以与区域设置相关的方式转换为**XLOPER12** Unicode 宽字符字符串。 
   
 ### <a name="example"></a>示例
 
-请参阅文件`\SAMPLES\FRAMEWRK\FRAMEWRK.C`的此函数的代码。 
+有关此函数`\SAMPLES\FRAMEWRK\FRAMEWRK.C`的代码, 请参阅文件。 
   
 

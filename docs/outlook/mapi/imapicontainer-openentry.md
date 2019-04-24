@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: cd93866ae8823eb5897318fc2dda4e8432d974b0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 9598e0c90c16db14cdc3a46d2b2ae74e0d9a9300
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286930"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-在该容器，返回进一步访问的接口指针中打开一个对象。
+打开容器中的一个对象, 返回一个接口指针以供进一步访问。
   
 ```cpp
 HRESULT OpenEntry(
@@ -42,71 +42,71 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
  _lpEntryID_
   
-> [in]指向要打开的对象的项标识符的指针。 如果_lpEntryID_设置为 NULL，则打开容器的层次结构中的顶级容器。 
+> 实时指向要打开的对象的条目标识符的指针。 如果将_lpEntryID_设置为 NULL, 则会打开容器层次结构中的顶级容器。 
     
  _lpInterface_
   
-> [in]指向接口标识 (IID) 值，该值代表要用于访问该对象的接口的指针。 传递空结果中要返回的对象的标准接口的标识符。 对于消息，标准接口是[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md);对于文件夹，它是[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)。 标准接口的地址簿对象是[IDistList: IMAPIContainer](idistlistimapicontainer.md)通讯组列表和[IMailUser: IMAPIProp](imailuserimapiprop.md)消息用户。 
+> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问对象的接口。 在返回的对象的标准接口的标识符中传递 NULL 结果。 对于邮件, 标准接口为[IMAPIMessageSite: IUnknown](imapimessagesiteiunknown.md);对于文件夹, 它是[IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md)。 通讯簿对象的标准接口为[IDistList: IMAPIContainer](idistlistimapicontainer.md)对于邮件用户的通讯组列表和[IMailUser: IMAPIProp](imailuserimapiprop.md) 。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何打开对象。 可以设置以下标志：
+> 实时用于控制对象打开方式的标志的位掩码。 可以设置以下标志:
     
 MAPI_BEST_ACCESS 
   
-> 请求将使用用户和最大客户端应用程序访问允许的最大网络权限打开对象。 例如，如果客户端具有读/写权限，该对象应打开具有读/写权限;如果客户端具有只读访问权限，则应具有只读访问权限打开对象。 
+> 请求将使用用户允许的最大网络权限和最大客户端应用程序访问权限打开对象。 例如, 如果客户端具有读/写权限, 则应以读/写权限打开该对象;如果客户端具有只读访问权限, 则应以只读访问权限打开该对象。 
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**OpenEntry**返回成功，原因可能是完全可调用客户端对象之前。 如果对象不可用，则进行后续对象呼叫会引发错误。 
+> 允许**OpenEntry**成功返回, 这可能是在对象完全可用于调用客户端之前。 如果该对象不可用, 则进行后续的对象调用可能会引发错误。 
     
 MAPI_MODIFY 
   
-> 请求读/写权限。 默认情况下，对象打开具有只读访问权限和客户端不应以为，读/写权限授予起作用。 
+> 请求读取/写入权限。 默认情况下, 将使用只读访问权限打开对象, 并且客户端不应在假定已授予读/写权限时才起作用。 
     
 SHOW_SOFT_DELETES
   
-> 显示项目的当前标记为软删除 — 即，它们是中已删除的邮件保留时间阶段。
+> 显示当前标记为软删除的项目, 即它们处于 "已删除邮件" 保留时间阶段。
     
  _lpulObjType_
   
-> [输出]一个指向打开的对象的类型。
+> 排除指向打开的对象的类型的指针。
     
  _lppUnk_
   
-> [输出]指向该接口实现用于访问打开的对象的指针的指针。
+> 排除指向指向用于访问 open 对象的接口实现的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功打开对象。
+> 已成功打开对象。
     
 MAPI_E_NO_ACCESS 
   
-> 用户具有权限不足，无法打开的对象，或尝试打开只读对象具有读/写权限。
+> 用户的权限不足, 无法打开该对象, 或试图打开具有读/写权限的只读对象。
     
 MAPI_E_NOT_FOUND 
   
-> 指定_lpEntryID_的项标识符不代表一个对象。 
+> _lpEntryID_指定的条目标识符不代表对象。 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> _LpEntryID_参数中的项标识符不是格式的容器识别。 
+> _lpEntryID_参数中的条目标识符不是容器可识别的格式。 
     
 ## <a name="remarks"></a>注解
 
-**IMAPIContainer::OpenEntry**方法打开整个容器对象，并返回到接口实现用于进一步访问的指针。 
+**IMAPIContainer:: OpenEntry**方法在整个容器中打开一个对象, 并返回指向接口实现的指针, 以供进一步访问。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-由于无需服务提供程序返回的接口标识符_lpInterface_参数中指定的类型的接口实现，检查指向_lpulObjType_参数的值。 如有必要，强制转换中_lppUnk_返回到适当类型的指针的指针。 
+由于服务提供程序不需要返回由_lpInterface_参数中的接口标识符指定的类型的接口实现, 因此请检查_lpulObjType_参数所指向的值。 如有必要, 将_lppUnk_中返回的指针转换为适当类型的指针。 
   
-默认情况下，服务提供商对象使用只读访问权限打开如果设置 MAPI_MODIFY 或 MAPI_BEST_ACCESS 标志。 当这些标志之一设置时，服务提供商将尝试返回可修改对象。 但是，不假定，因为请求一个可修改的对象，该对象打开的对象具有读/写权限。 通过规划的后续修改失败或检索对象的**PR_ACCESS_LEVEL**属性确定**OpenEntry**授予的访问级别的机会。
+默认情况下, 服务提供程序打开具有只读访问的对象, 除非您设置 MAPI_MODIFY 或 MAPI_BEST_ACCESS 标志。 如果设置了其中一个标志, 则服务提供程序将尝试返回一个可修改的对象。 但是, 不要假定, 因为您请求了一个可修改的对象, 而该对象已打开对象具有读/写权限。 计划后续修改失败或检索对象的**PR_ACCESS_LEVEL**属性以确定**OpenEntry**授予的访问级别的机会。
   
 ## <a name="see-also"></a>另请参阅
 

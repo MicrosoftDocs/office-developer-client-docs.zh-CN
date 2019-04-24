@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: 为了访问和操作表单模板数据源中的 XML 数据，可以让 Microsoft.Office.InfoPath 命名空间提供的许多托管代码对象模型成员创建 System.Xml.XPath 命名空间的 XPathNavigator 类的一个实例，或者可以向它们传递一个这样的实例。在您具有 InfoPath 对象模型成员所返回的 XPathNavigator 对象的访问权限后，可以使用 XPathNavigator 类的属性和方法处理数据。
 ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303547"
 ---
 # <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>使用 XPathNavigator 和 XPathNodeIterator 类
 
@@ -55,7 +55,7 @@ MessageBox.Show("Main data source XML: " &amp; _
 您必须使用的重载的 **SelectSingleNode** 方法具有以下两个参数：一个采用 XPath 表达式作为字符串的  _xpath_ 参数，以及一个采用 _XmlNamespaceManager_ 对象来解析命名空间前缀的  **resolver** 参数。若要选择表单的主数据源中的单个节点，请为  _xpath_ 参数传入指定要选择的域或组的 XPath 表达式，以及由 **XmlForm** 对象的 [NamespaceManager](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NamespaceManager.aspx) 属性返回的 **XmlNamespaceManager** 对象。返回的 **XmlNamespaceManager** 对象在加载时通过表单模板的表单定义文件 (.xsf) 所定义的所有命名空间进行初始化。 
   
 > [!TIP]
-> 创建用于在表单数据源中选择节点的 XPath 表达式的最简单方法是：在“域”**** 任务窗格中右键单击相应域或组，然后单击“复制 XPath”****。若要创建和测试手动编辑的 XPath 表达式，以访问复杂或重重嵌套的 XML 架构中的节点，请将一个“表达式框”**** 控件添加到表单中，为该控件指定 XPath 表达式，然后预览表单以显示结果。 
+> The easiest way to create an XPath expression for selecting a node in the form's data source is to right-click the field or group in the **Fields** task pane, and then click **Copy XPath**. To create and test hand-edited XPath expressions for accessing nodes in a complex or heavily nested XML schema, add an **Expression Box** control to the form, specify the XPath expression for the control, and then preview the form to display the results. 
   
 下面的示例使用 **SelectSingleNode** 方法选择  `EmailAlias` 域的单一节点。然后，它使用 **XPathNavigator** 类的 **SetValue** 方法和 [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) 类的 [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) 属性将该域的值设置为当前用户的别名。 
   
@@ -151,7 +151,7 @@ myDate.SetValue(strCurDate)
   
 ### <a name="selecting-and-setting-a-set-of-repeating-nodes"></a>选择和设置一组重复节点
 
-若要指定一组不定数量的重复域或组，请使用 **XPathNavigator** 类的 **Select** 方法。此方法返回一个 XPathNodeIterator 对象，您可使用该对象来循环访问指定的节点集合。 
+若要指定一组为不确定数字的重复字段或组，请使用 **XPathNavigator** 类的 **Select** 方法。 此方法会返回一个 XPathNodeIterator 对象，你可以使用该对象迭代指定的节点集合。 
   
 下面的示例假定你的表单模板包含一个绑定到名为 `field1` 的重复元素的**项目符号列表**或类似的重复控件。 字段的 XPath 传递给 **Select** 方法，返回的 **XPathNodeIterator** 分配给 `nodes` 变量。 使用 MoveNext 方法迭代节点集合，使用 Current 属性返回位于当前节点上的 **XPathNavigator** 对象。 最后，使用 **Value** 属性检索并显示每个重复字段的值。 
   
@@ -208,7 +208,7 @@ Loop
 ## <a name="using-the-xpathnavigator-class-to-access-an-external-data-source"></a>使用 XPathNavigator 类访问外部数据源
 <a name="InfoPath2007XPathNavigatorClassFormTemplates_SelectingXMLNodes"> </a>
 
-若要访问与表单关联的外部数据源，请将数据源的名称传递给 [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) 类的 [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) 属性。 若要创建与新外部数据源的连接，或查看现有外部数据源连接的名称列表，请单击功能区的“数据”**** 选项卡上的“数据连接”****。 
+To access an external data source associated with the form, pass the name of the data source to the [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) property of the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) class. To create a connection to a new external data source, or to view a list of the names of existing external data source connections, click **Data Connections** on the **Data** tab of the ribbon. 
   
 下面的代码示例演示如何使用 **CreateNavigator** 方法创建一个位于名为"CityList"的外部数据源的根节点处的 **XPathNavigator** 对象，然后使用 **XPathNavigator** 类的 **OuterXml** 属性在一个消息框中显示返回的 XML。该代码示例假定您创建了一个与存储在外部数据源（如 XML 文档或 SharePoint 列表）中的城市名称列表的连接，并将该数据连接命名为"CityList"。 
   

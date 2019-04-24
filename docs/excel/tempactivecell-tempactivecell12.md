@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveCell
 - TempActiveCell12
 keywords:
-- tempactivecell12 函数 [excel 2007，] TempActiveCell 函数 [Excel 2007]
+- tempactivecell12 函数 [excel 2007], TempActiveCell 函数 [excel 2007]
 localization_priority: Normal
 ms.assetid: ac5a200d-32d5-4313-9a6d-d730032aaf10
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 8ad409a76195d67fa61e7991ce6527c40e0a3265
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9bdb4cd9919d0e52654a3996ede99c4d1b35cc6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301573"
 ---
 # <a name="tempactivecelltempactivecell12"></a>TempActiveCell/TempActiveCell12
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-创建临时**XLOPER**的框架库函数/ **XLOPER12**包含外部活动工作表的单元格引用。 
+框架库函数, 用于创建一个临时的**XLOPER**/ **XLOPER12** , 其中包含对活动工作表上的单元格的外部引用。 
   
 ```cs
 LPXLOPER TempActiveCell(WORD row, BYTE col);
@@ -32,13 +32,13 @@ LPXLOPER12 TempActiveCell12(RW row, COL co);
 
 ## <a name="parameters"></a>参数
 
- _row_
+ _行_
   
-要引用的行。 行参数是从零开始的所以第 1 行传递为 0。 在 Microsoft Office Excel 2003 和早期版本，以及开始在兼容模式下运行的工作簿的 Excel 2007 中的最大值是 65535 = 2 ^16-1，WORD 整数可以采取的最大值。 启动运行工作簿的 Excel 2007 中的最大值是 1048575 = 2 ^20-1。 RW 被定义为 XLCALL 中的 32 位有符号整数。H。
+要引用的行。 行参数从零开始, 以便将行1作为0传递。 在 Microsoft Office Excel 2003 及更早版本中, 在兼容模式下运行工作簿的 excel 2007 中, 最大值为 65535 = 2 ^ 16-1, 是单词整数可以采用的最大值。 从运行工作簿的 Excel 2007 开始, 最大值为 1048575 = 2 ^ 20-1。 RW 在 xlcall.h 中定义为32位有符号整数。水平.
   
- _col_
+ _均值_
   
-要引用的列。 这是从零开始的因此，列 A 传递为 0。 在 Excel 2003 和早期版本，以及开始在兼容模式下运行的工作簿的 Excel 2007 中的最大值是 255 = 2 ^8-1，字节整数可以采取的最大值。 启动运行工作簿的 Excel 2007 中的最大值是 16,383 = 2 ^14-1。 COL 被定义为 XLCALL 中的 32 位有符号整数。H。
+要引用的列。 这是从零开始的, 以便将列 A 作为0传递。 在 excel 2003 和早期版本中, 并且在兼容模式下运行工作簿的 excel 2007 中, 最大值为 255 = 2 ^ 8-1, 是字节整数可以采用的最大值。 从运行工作簿的 Excel 2007 开始, 最大值为 16383 = 2 ^ 14-1。 COL 在 xlcall.h 中定义为32位有符号整数。水平.
   
 ## <a name="return-value"></a>返回值
 
@@ -46,7 +46,7 @@ LPXLOPER12 TempActiveCell12(RW row, COL co);
   
 ## <a name="example"></a>示例
 
-下面的示例使用**TempActiveCell12**活动工作表中显示的 B94 内容。 
+下面的示例使用**TempActiveCell12**显示活动工作表上的 B94 的内容。 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

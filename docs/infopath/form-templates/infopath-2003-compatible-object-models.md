@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: Microsoft InfoPath 是作为组件对象模型 (COM) 应用程序而编写的，它将可编程性接口作为 COM 接口同时向外部自动化和表单模板脚本公开。
 ms.openlocfilehash: f3351a0fee6e23de0785aa28b0970c6a90361f16
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303519"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>InfoPath 2003 兼容对象模型
 
@@ -33,9 +33,9 @@ InfoPath 安装的三个互操作程序集的文件命名为：
   
 ## <a name="important-installation-information"></a>重要安装信息
 
-默认情况下，InfoPath 安装程序的“典型”**** 安装选项将 Microsoft.Office.Interop.InfoPath.SemiTrust 和 Microsoft.Office.Interop.InfoPath.Xml 程序集的副本安装到 C:\Program Files\Microsoft Office\Office14 文件夹中。Microsoft.Office.Interop.InfoPath 和 Microsoft.Office.Interop.InfoPath.Xml 程序集也会安装到全局程序集缓存 (GAC) 中，可从 C:\Windows\Assembly 文件夹中查看其内容。 
+By default, the **Typical** installation option of the InfoPath setup program installs copies of the Microsoft.Office.Interop.InfoPath.SemiTrust and Microsoft.Office.Interop.InfoPath.Xml assemblies in the C:\Program Files\Microsoft Office\Office14 folder. The Microsoft.Office.Interop.InfoPath and Microsoft.Office.Interop.InfoPath.Xml assemblies are also installed in the Global Assembly Cache (GAC), the contents of which can be viewed from the C:\Windows\Assembly folder. 
   
-如果未安装这些程序集，则应确认已正确安装 Microsoft InfoPath。 只要在运行安装程序之前安装了 .NET Framework 2.0 或更高版本，InfoPath 安装程序中的 **.NET 可编程性支持**选项就会设置为**从本机运行**，实现 InfoPath 的**典型**安装。 如果计算机上没有这些互操作程序集，则必须确认已安装 .NET Framework 2.0 或更高版本，然后从**控制面板**运行**添加或删除程序**并设置 **.NET 可编程性支持**选项为**从本机运行**。
+If these assemblies are not installed, you should confirm that Microsoft InfoPath was installed correctly. As long as the .NET Framework 2.0 or later is installed before running setup, the **.NET Programmability Support** option in the InfoPath setup program is set to **Run from My Computer** for a **Typical** installation of InfoPath. If these interop assemblies are not available on your computer, you must confirm that the .NET Framework 2.0 or later is installed, and then run **Add or Remove Programs** from the **Control Panel** and set the **.NET Programmability Support** option to **Run from My Computer**.
   
 有关下载 .NET Framework 2.0 Redistributable 的信息，请参阅 [.NET Framework 2.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5)。
   
@@ -45,7 +45,7 @@ InfoPath 安装的三个互操作程序集的文件命名为：
   
 为了支持为编程逻辑创建使用 Visual C# 和 Visual Basic 等托管代码语言的表单模板，向 InfoPath 增加了功能以便允许承载公共语言运行库 (CLR)，同时创建了 Microsoft.Office.Interop.InfoPath.SemiTrust 互操作程序集，来允许托管代码以一种安全的方式与 InfoPath 公开的 COM 对象模型进行互操作。有关应用于 InfoPath 托管代码表单模板的安全模型的信息，请参阅[关于具有代码的表单模板的安全模型](about-the-security-model-for-form-templates-with-code.md)。 
   
-虽然在 InfoPath 表单模板中为给定任务编写托管代码的过程与通过编写脚本执行相同编程任务非常相似，但在从 Visual Studio 2012 中通过**对象浏览器**查看 **Microsoft.Office.Interop.InfoPath.SemiTrust** 命名空间时所公开的 InfoPath 2003 兼容对象模型看起来要复杂得多。 这是因为用于支持 InfoPath 2003 兼容对象模型的 .NET Framework 互操作性技术需要 COM 服务器公开其所有公共接口，以及 .NET Framework 本身所需的一些其他构造。 
+Although the process of writing managed code for a given task in an InfoPath form template is very similar to performing the same programming task by writing script, the InfoPath 2003-compatible object model exposed when viewing the **Microsoft.Office.Interop.InfoPath.SemiTrust** namespace from the **Object Browser** in Visual Studio 2012 looks much more complex. This is because the .NET Framework interoperability technology used to support the InfoPath 2003-compatible object model requires a COM server to expose all of its public interfaces, as well as some additional constructs required by the .NET Framework itself. 
   
 ### <a name="how-com-objects-are-exposed-to-the-infopath-2003-compatible-object-model"></a>COM 对象如何向 InfoPath 2003 兼容对象模型公开
 
@@ -63,9 +63,9 @@ InfoPath 安装的三个互操作程序集的文件命名为：
     
 - [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) coclass 接口 
     
-虽然这三个接口都会在**对象浏览器**中公开，并且包含在命名空间的类库文档中，但你只能使用执行 **UI** 对象的 **UIObject** coclass 接口，或使用 **UI2** 接口成员（由 **UIObject** coclass 接口执行的最新版本的接口）。 要从其父 [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) 对象访问 **UIObject** coclass 接口（就像在脚本中一样），请使用 [UI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) 访问器属性。 除了一些值得注意的异常外，这是 InfoPath Service Pack 1 发布时更新的 InfoPath 原始版本中所有对象的模式。 
+Although all three of these interfaces are exposed in the **Object Browser** and are contained in the Class Library documentation for the namespace, you only work with the **UIObject** coclass interface, which implements the **UI** object, and with the members of the **UI2** interface, which is the most current version of the interface that is implemented by the **UIObject** coclass interface. To access the **UIObject** coclass interface from its parent [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) object, just as in script, you use the [UI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) accessor property. Except for a few notable exceptions, this is the pattern for all objects from the original release of InfoPath that were updated when InfoPath Service Pack 1 was released. 
   
-虽然模式基本相同，但 InfoPath Service Pack 1 中添加的全新对象（例如 **Certificate** 对象）的情况稍微简单一些。 在这种情况下，只需要关注两个项目：[ CertificateObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) coclass 接口和 [Certificate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Certificate.aspx) 接口的成员，这是 **CertificateObject** coclass 接口执行的最新且唯一的接口。 就像在脚本中使用 InfoPath COM 对象一样，[Certificate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Certificate.aspx) 访问器属性用于从其父访问对象。 
+While the pattern is basically the same, the situation is slightly simpler for the entirely new objects that were added in InfoPath Service Pack 1, such as the **Certificate** object. In this case, there are only two items to be concerned with: the [CertificateObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) coclass interface and the members of the [Certificate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Certificate.aspx) interface, which is the most recent and only interface implemented by the **CertificateObject** coclass interface. Just as when using InfoPath COM objects from script, the [Certificate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Certificate.aspx) accessor property is used to access the object from its parent. 
   
 此相同模式适用于集合的接口，不同之处在于集合的 coclass 接口的名称中追加了"Collection"而不是"Object"。例如，COM **DataAdapters** 集合的 coclass 接口被命名为 [DataAdaptersCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataAdaptersCollection.aspx) ，并且它实现的接口是 [DataAdapters](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataAdapters.aspx) 接口。同样，使用 [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataAdapters.aspx) 父对象的 **DataAdapters** accessor 属性访问该集合。 
   

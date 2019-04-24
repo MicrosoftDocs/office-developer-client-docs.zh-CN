@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7a6f8975-f052-39e9-9dbc-4698852fe5e1
 description: 文档工作流是 Microsoft SharePoint Server 2010 和 Microsoft SharePoint Foundation 2010 的一种功能，它使您能够定义工作流并将其用于文档库。内置工作流应用场景（例如传送文档供审批或收集有关文档的反馈）是常见的工作流模板，可自定义这些模板以符合您的特定需要。Office 文档可具有与其相关联的工作流，但也可以将 Microsoft InfoPath 表单模板设计为使工作流信息能够合并到 InfoPath 表单模板中。
 ms.openlocfilehash: f34e01ad1e1b9851ee8281bc2580cb5d5d270c88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303463"
 ---
 # <a name="sharepoint-workflow-support-in-infopath-forms"></a>InfoPath 表单中的 SharePoint 工作流支持
 

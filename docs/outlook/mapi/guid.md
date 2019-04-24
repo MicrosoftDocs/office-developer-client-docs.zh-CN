@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 94bafdf0ca84fa31a7df2f022265d5d5d1a99a37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12c50ab5936d7fffd364c276ba07ca69d3459ae7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299515"
 ---
 # <a name="guid"></a>GUID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-介绍的全局唯一标识符 (GUID)。 
+描述全局唯一标识符 (GUID)。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiguid.h  <br/> |
+|标头文件：  <br/> |Mapiguid  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -46,15 +46,15 @@ typedef struct _GUID
 
  **Data1**
   
-> 无符号的长整型数据值。
+> 无符号长整型数据值。
     
  **Data2**
   
-> 无符号短整数数据值。
+> 无符号短整型数据值。
     
  **Data3**
   
-> 无符号短整数数据值。
+> 无符号短整型数据值。
     
  **Data4**
   
@@ -62,19 +62,19 @@ typedef struct _GUID
     
 ## <a name="remarks"></a>注解
 
- **GUID**结构中将使用 MAPI，如下所示： 
+ **GUID**结构在 MAPI 中使用, 如下所示: 
   
-- [MAPIUID](mapiuid.md)结构中的唯一标识服务提供商。 
+- 在唯一标识服务提供程序的[MAPIUID](mapiuid.md)结构中。 
     
-- 接口标识符。
+- 对于接口标识符。
     
-- 属性中设置命名属性的名称。 
+- 在命名属性的属性集名称中。 
     
-消息存储和地址簿提供程序生成的**GUID**结构使用其**MAPIUID**结构中。 通过将生成**MAPIUID**传递给[IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md)，这些服务提供商告知 MAPI，其唯一标识符。
+邮件存储和通讯簿提供程序生成要在其**MAPIUID**结构中使用的**GUID**结构。 通过将生成的**MAPIUID**传递给[IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md), 这些服务提供程序会通知 MAPI 其唯一标识符。
   
-另外，他们的 Microsoft 远程过程调用 (RPC) 和对象描述语言 (ODL) 实现中使用。 有关这些使用的详细信息，请参阅*Microsoft RPC 程序员指南和参考 （英文）*、 *OLE 程序员参考*和*内部 OLE*，*第二版*。 
+此外, 它们还用于 Microsoft 远程过程调用 (RPC) 和对象描述语言 (ODL) 的实现。 有关这些用途的详细信息, 请参阅*Microsoft RPC 程序员指南和参考*、 *ole 程序员参考*和*内部 ole*,*第二版*。 
   
-**GUID**结构是*Win32 程序员参考*中定义的。 MAPI 头文件 Mapiguid.h 中定义的**GUID**结构 MAPI 内使用的特定值。 
+**GUID**结构是在*Win32 程序员参考*中定义的。 mapi 中使用的**GUID**结构的特定值是在 mapi 头文件 Mapiguid 中定义的。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: InfoPath 对象模型提供 Application 类的 MachineOnlineState 属性，该属性使您的表单代码能够检查用户的计算机是否已连接至网络。通过检查 MachineOnlineState 属性的值，您的表单代码可以根据连接状态执行不同的操作。
-ms.openlocfilehash: ab149b488d2b2df1e91ba2cb435960c6749ecefb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: HT
+ms.openlocfilehash: eb2903c2445a61be803c0d7a2f5ddd7ac7a912ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299815"
 ---
 # <a name="work-with-offline-solutions"></a>使用脱机解决方案
 
@@ -160,5 +160,5 @@ InfoPath 对象模型提供 [Application](https://msdn.microsoft.com/library/Mic
     
 ## <a name="see-also"></a>另请参阅
 
-- [设计供脱机时使用的表单模板](https://support.office.com/zh-CN/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
+- [设计供脱机时使用的表单模板](https://support.office.com/en-us/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

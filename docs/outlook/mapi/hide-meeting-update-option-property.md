@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 65255e14fd849d730e92bd86027642eef2c687bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ac7c891fa05560231a257f9bd52ccbbfe564b49d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584973"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299508"
 ---
 # <a name="hide-meeting-update-option-property"></a>隐藏会议更新选项属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-隐藏该选项发送给仅添加或删除的与会者的会议更新。
+隐藏将会议更新仅发送给已添加或已删除的与会者的选项。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|公开上：  <br/> |[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)对象  <br/> |
-|通过创建：  <br/> |存储提供程序  <br/> |
-|通过来访问：  <br/> |Outlook 和其他客户端  <br/> |
+|公开于:  <br/> |[IMsgStore: IMAPIProp](imsgstoreimapiprop.md)对象  <br/> |
+|创建者:  <br/> |存储提供程序  <br/> |
+|访问者:  <br/> |Outlook 和其他客户端  <br/> |
 |属性类型  <br/> |PT_BOOLEAN  <br/> |
-|访问类型：  <br/> |读/写  <br/> |
+|访问类型:  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
-若要提供的任何存储功能，存储提供程序必须实现[IMAPIProp: IUnknown](imapipropiunknown.md)并返回任何传递给[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)调用这些属性的有效属性标记。 当属性标记为任何这些属性传递给[IMAPIProp::GetProps](imapiprop-getprops.md)时，存储提供程序必须也会返回正确的属性值。 [HrGetOneProp](hrgetoneprop.md)和[HrSetOneProp](hrsetoneprop.md)用于获取或设置这些属性，可以调用存储提供程序。 
+若要提供任何存储功能, 存储提供程序必须实现[IMAPIProp: IUnknown](imapipropiunknown.md) , 并返回传递给[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)调用的任何这些属性的有效属性标记。 当这些属性中任一属性的属性标记传递给[IMAPIProp:: GetProps](imapiprop-getprops.md)时, 存储提供程序还必须返回正确的属性值。 存储提供程序可以调用[HrGetOneProp](hrgetoneprop.md)和[HrSetOneProp](hrsetoneprop.md)以获取或设置这些属性。 
   
-若要检索此属性的值，客户应首先使用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)获取该属性标记，然后[IMAPIProp::GetProps](imapiprop-getprops.md)获取值中指定此属性标记。 调用[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)时, 指定的输入的参数_lppPropNames_指向[MAPINAMEID](mapinameid.md)结构的以下值：
+若要检索此属性的值, 客户端应首先使用[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)获取属性标记, 然后在[IMAPIProp:: GetProps](imapiprop-getprops.md)中指定此属性标记以获取值。 调用[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)时, 请为输入参数_lppPropNames_所指向的[MAPINAMEID](mapinameid.md)结构指定以下值:
   
 |||
 |:-----|:-----|
 |lpGuid:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName:  <br/> |L"urn： 架构-microsoft-com:office:outlook #allornonemtgupdatedlg"  <br/> |
+|类型 lpwstrName:  <br/> |L "urn: 架构-microsoft-com: office: outlook # allornonemtgupdatedlg"  <br/> |
    
-使用服务器发送会议更新存储提供程序可以修改**向与会者发送更新**对话框。 此功能很有用，因为当服务器发送会议更新时，服务器不知道哪些与会者已添加或删除以来初始会议请求的用户。 当此属性为**true**时，**发送给添加或删除的与会者仅更新**选项不会显示在**向与会者发送更新**对话框。 
+使用服务器发送会议更新的存储提供程序可以修改 "**将更新发送到与会者**" 对话框。 此功能很有用, 因为当服务器发送会议更新时, 服务器不知道自最初会议请求以来用户添加或删除了哪些与会者。 当此属性为**true**时, "发送**或删除的与会者发送或删除的与会者**" 选项不会显示在 "**发送到与会者的更新**" 对话框中。 
   
-如果 Outlook 版本早于 Microsoft Office Outlook 2003 Service Pack 1，或如果其值为**false**，则忽略此属性。
+如果 Outlook 的版本早于 Microsoft Office Outlook 2003 Service Pack 1, 或者其值为**false**, 则忽略此属性。
   
 

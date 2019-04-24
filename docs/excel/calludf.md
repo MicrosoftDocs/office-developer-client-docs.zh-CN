@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 1d55f22de88b274d0403f81717d0fddefbea0219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 096f57335572c3788fdf129dd3bcf4a76cf62b01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304163"
 ---
 # <a name="calludf"></a>CallUDF
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-在高性能计算环境中调用用户定义函数。
+在高性能计算环境中调用用户定义的函数。
   
 ```cpp
 int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHandle, int (*CallBackAddr)(), int ArgCount, LPXLOPER12 Parameter1, ...)
@@ -28,7 +28,7 @@ int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHan
 
 _SessionId_
   
-> 要在其中进行呼叫的会话 ID。
+> 要在其中进行调用的会话的 ID。
     
 _XLLName_
   
@@ -36,31 +36,31 @@ _XLLName_
     
 _UDFName_
   
-> 用户定义函数的名称。
+> 用户定义的函数的名称。
     
 _CallBackAddr_
   
-> 连接器应调用用户定义函数完成函数。
+> 用户定义的函数完成时, 连接器应调用的函数。
     
 _pxAsyncHandle_
   
-> 使用 Excel 和连接器以跟踪待处理的用户定义的函数调用异步句柄。 连接器稍后使用完成呼叫后，当它回拨入 Excel 使用函数指针_CallBackAddr_参数中传递。 
+> Excel 和连接器用来跟踪挂起的用户定义函数调用的异步句柄。 连接器在以后使用在_CallBackAddr_参数中传递的函数指针回调 Excel 时使用它。 
     
 _ArgCount_
   
-> 要传递给的用户定义的函数的参数数目。 允许的最大值是 255。
+> 要传递给用户定义函数的参数的数目。 允许的最大值为255。
     
 _Parameter1_
   
-> 要传递给的用户定义的函数值。 重复的每个参数由_ArgCount_此参数。
+> 要传递给用户定义的函数的值。 为_ArgCount_指示的每个参数重复此参数。
     
 ## <a name="return-value"></a>返回值
 
-**xlHpcRetSuccess** UDF 调用成功启动; 如果**xlHpcRetInvalidSessionId** _SessionId_参数无效; 如果在其他失败时，包括超时**xlHpcRetCallFailed** 。如果调用返回任何错误代码 （任何**xlHpcRetSuccess**除外），然后 Excel 认为已失败的 UDF 调用，使无效_pxAsyncHandle_，并不需要执行的回调。
+如果 UDF 调用已成功启动, 则为**xlHpcRetSuccess** 。**xlHpcRetInvalidSessionId**如果_SessionId_参数无效, 则为有关其他故障 (包括超时) 的**xlHpcRetCallFailed** 。如果调用返回任何错误代码 (除**xlHpcRetSuccess**之外的任何错误代码), 则 Excel 会认为 UDF 调用失败, 从而使_pxAsyncHandle_无效, 并且不希望发生回调。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此函数异步执行。
+此函数以异步方式执行。
   
 ## <a name="see-also"></a>另请参阅
 

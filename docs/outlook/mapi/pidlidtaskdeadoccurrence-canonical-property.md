@@ -13,11 +13,11 @@ api_type:
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0b740368aae43549e81cf3f4f6de40526c505b6b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303428"
 ---
 # <a name="pidlidtaskdeadoccurrence-canonical-property"></a>PidLidTaskDeadOccurrence 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25401509"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示是否必须生成新的匹配项。
+指示是否必须生成新的事件。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskDeadOccur  <br/> |
-|属性进行设置：  <br/> |PSETID_Task  <br/> |
-|长 ID （盖）：  <br/> |0x00008109  <br/> |
+|属性集:  <br/> |PSETID_Task  <br/> |
+|长 ID (盖子):  <br/> |0x00008109  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |Task  <br/> |
+|区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-定期模式时不再有效其最后一个实例是在过去或其指定的实例数已生成。 客户端将该属性设置为 false，则新任务或为 TRUE 时，它将生成一个周期性任务的最后一个实例。 复制要生成的新实例的任务时，此属性设置为 TRUE 的副本，即已完成的实例上。
+定期模式在其最终实例过期或其指定的实例数已生成时不再有效。 客户端将新任务的该属性设置为 FALSE, 或者在生成定期任务的最后一个实例时将该属性设置为 TRUE。 复制任务以生成新实例时, 副本上的此属性设置为 TRUE, 即已完成的实例。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义模型的任务、 任务分配和任务更新电子等效项的多个对象。 
+> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。 
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

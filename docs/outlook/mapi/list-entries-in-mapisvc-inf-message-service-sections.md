@@ -1,5 +1,5 @@
 ---
-title: MapiSvc.inf 邮件服务部分中的列表条目
+title: mapisvc.inf 邮件服务部分中的列表条目
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f4f052d6-ef63-421a-9d8c-4f3c6df83863
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: c5b5c468b56e5b34d265e7f00bbee96142a88e1c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: b6b641a288cea8bac5a1990e85520f3583c02f22
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307831"
 ---
-# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>MapiSvc.inf 邮件服务部分中的列表条目
+# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>mapisvc.inf 邮件服务部分中的列表条目
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-有两种类型的部分列表条目： 一个列出了服务提供程序部分和一列中列出 miscellaneous 消息特定于服务的部分。 使用以下格式的 mapisvc.inf 中出现以下两种类型的项：
+有两种类型的节列表条目: 一个列出了服务提供程序部分, 另一个列出了其他特定于邮件服务的节。 这两种类型的条目显示在 mapisvc.inf 中, 使用以下格式:
   
 ```cpp
 Providersprovider section1, provider section2, ...... provider sectionX
@@ -29,9 +29,9 @@ Sectionssection name1, section name2, ......section nameX
 
 ```
 
-**提供程序**条目中的每一节将映射到单个节提供属于邮件服务的服务提供商的配置信息。 每节中的**各节**项映射到包含额外的配置信息消息服务所需的内容。 消息服务实施定义多余的部分时要包括特殊不符合标准的各节中的信息。 通常具有复杂的配置的消息服务使用的**各节**条目添加额外信息。 每个邮件服务部分包含在列表中至少一个部分的**提供程序**条目并非所有消息服务部分都有一个**部分**条目。 
+**提供程序**条目中的每个部分都映射到单个部分, 为属于邮件服务的服务提供程序提供配置信息。 **各**部分条目中的每个部分都映射到包含邮件服务所需的额外配置信息的部分。 邮件服务实现者在希望包含不能容纳在标准节中的特殊信息时, 可以定义额外的部分。 具有复杂配置的邮件服务通常使用**节**条目添加额外信息。 每个邮件服务部分都有一个**提供程序**条目, 列表中至少有一个部分;并不是所有的邮件服务部分都有**节**条目。 
   
-消息服务节的两个示例。 从早期的图中，单个服务提供商的简单消息服务默认通讯簿服务的第一节。 在第二个部分，对于 MsgService 服务，更复杂的示例邮件服务三种服务提供商使用。 
+以下是邮件服务节的两个示例。 第一部分是前面的图示中的默认通讯簿服务, 具有单个服务提供商的简单邮件服务。 第二部分是针对 MsgService 服务的, 它是一个包含三个服务提供商的更复杂的示例邮件服务。 
   
 ```cpp
 [AB]
@@ -53,7 +53,7 @@ PR_RESOURCE_FLAGS=SERVICE_SINGLE_COPY
 
 ```
 
-**[MsgService]** 节中的**各节**项列出两个其他部分，一个称为 **[First_Special_Section]** 并另调用 **[Second_Special_Section]**。 可能会出现额外的各节中的数据有意义的特定邮件服务。 以下各节显示以下说明多余的部分。 
+**[MsgService]** 一节中的**section**条目列出了两个附加部分, 称为 **[First_Special_Section]** , 另一个称为 **[Second_Special_Section]**。 可能出现在额外节中的数据对特定的邮件服务有意义。 以下各节将显示出来, 以阐释额外的部分。 
   
 ```cpp
 [First_Special_Section]

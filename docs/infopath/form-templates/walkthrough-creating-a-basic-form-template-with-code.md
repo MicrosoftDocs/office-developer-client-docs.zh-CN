@@ -8,18 +8,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: 在 Microsoft InfoPath 中，可以使用 Visual Basic 或 C# 编写业务逻辑，方法是在 InfoPath 设计器中打开表单模板，然后使用某个用户界面命令添加事件处理程序。这将打开 Visual Studio 2012 开发环境供你编写代码。
-ms.openlocfilehash: 8c98d71c26f8e56c532b2a4467218c366072b2ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299732"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>演练：创建包含代码的基本表单模板
 
 在 Microsoft InfoPath 中，您可以使用 Visual Basic 或 C# 编写业务逻辑，方法是在 InfoPath 设计器中打开表单模板，然后使用某个用户界面命令添加事件处理程序。这将打开 Visual Studio 2008 开发环境供您编写代码。默认情况下，使用 Visual Studio 2008 创建的表单模板项目依据 [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 命名空间所提供的托管代码对象模型进行工作。 
   
-此演练首先演示了如何在 Visual Studio 2012 开发环境中使用 C# 或 Visual Basic 创建简单的 Hello World 应用程序。 最后用代码示例演示了如何使用 [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) 类的 [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) 属性检索当前用户的名称以及如何使用该值填充“文本框”****。 
+This walkthrough first shows you how to create a simple Hello World application using C# or Visual Basic in the Visual Studio 2012 development environment. The walkthrough concludes with a code sample that shows you how to use the [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) property of the [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) class to retrieve the current user's name and populate a **Text Box** control with that value. 
   
 ## <a name="prerequisites"></a>必备组件
 
@@ -38,7 +38,7 @@ ms.locfileid: "19774106"
 2. 若要指定要使用的编程语言，请依次单击“Office 按钮”****、“表单选项”**** 和“类别”**** 列表中的“编程”****，然后从“表单模板代码语言”**** 下拉列表中选择“Visual Basic”**** 或“C#”****。 
     
    > [!NOTE]
-   > ****“表单模板代码语言”下拉列表中的其他编程语言选项提供与早期版本的 InfoPath 的兼容性。 “C# (InfoPath 2007 兼容)”**** 和“Visual Basic (InfoPath 2007 兼容)”**** 选项将适用于本主题中的过程。 但是，若要使用“C# (InfoPath 2003 兼容)”**** 和“Visual Basic (InfoPath 2003 兼容)”**** 选项，请参阅[演练：使用 InfoPath 2003 对象模型创建和调试基本表单模板](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)。 
+   > The other programming language options in the **Form template code language** drop-down list provide compatibility with previous versions of InfoPath. The **C# (InfoPath 2007 Compatible)** and **Visual Basic (InfoPath 2007 Compatible)** options will work with the procedures in this topic. However, to use the **C# (InfoPath 2003 Compatible)** and **Visual Basic (InfoPath 2003 Compatible)** options, see [Walkthrough: Creating and Debugging a Basic Form Template Using the InfoPath 2003 Object Model](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md). 
   
     现在可以添加“按钮”**** 控件并创建其事件处理程序了。 
     
@@ -46,7 +46,7 @@ ms.locfileid: "19774106"
 
 1. 在“控件”**** 组中，单击“按钮”**** 控件以添加表单。 
     
-2. 双击“按钮”**** 控件，在功能区的“属性”**** 选项卡上，为“标签”**** 属性键入 Hello，然后单击“自定义代码”****。 当出现提示时，保存表单并将其命名为 HelloWorld。
+2. Double-click the **Button** control, type Hello for the **Label** property on the **Properties** tab of the ribbon, and then click **Custom Code**. When prompted, save the form and name it HelloWorld.
     
    这将会打开“Visual Studio Tools for Applications”**** 环境，而且光标出现在“按钮”**** 控件的 [Clicked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) 事件的事件处理程序中。 
     

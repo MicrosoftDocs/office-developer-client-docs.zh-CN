@@ -6,11 +6,11 @@ localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: 查找开发解决方案和自定义 Office 的操作方法内容、示例代码、SDK 和 API 文档、VBA 参考、培训和文章。
 ms.openlocfilehash: 92e4da3d6e04082ea3bceb901989ddf134b54c07
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303120"
 ---
 # <a name="office-client-development"></a>Office 客户端开发
 

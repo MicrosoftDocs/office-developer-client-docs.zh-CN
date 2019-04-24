@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: 3f0d98b8ffa13fe238fc0fcf8ff0ec76a3a284eb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309623"
 ---
 # <a name="ipersistmessagegetclassid"></a>IPersistMessage::GetClassID
 
@@ -25,7 +25,7 @@ ms.locfileid: "25390455"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-返回表示可以管理窗体的窗体服务器的标识符。 
+返回一个标识符, 表示可以管理窗体的窗体服务器。 
   
 ```cpp
 HRESULT GetClassID(
@@ -37,19 +37,19 @@ HRESULT GetClassID(
 
  _lpClassID_
   
-> [传入、 传出]指向该窗体的类标识符 (CLSID) 的指针。
+> [in, out]指向表单的类标识符 (CLSID) 的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回的类标识符。
+> 已成功返回类标识符。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**IPersistMessge::GetClassID**方法设置为窗体服务器的类标识符的_lpClassID_参数的内容，并返回 S_OK。 当窗体查看器调用**GetClassID**和它成功返回时，窗体处于[未初始化](uninitialized-state.md)状态。 
+**IPersistMessge:: GetClassID**方法将_lpClassID_参数的内容设置为窗体服务器的类标识符, 并返回 S_OK。 当表单查看器调用**GetClassID**并成功返回时, 窗体将置于[未初始化](uninitialized-state.md)状态。 
   
-有关如何使用结构化的存储对象使用的类标识符的详细信息，请参阅[IPersist::GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx)方法的文档。 
+有关如何将类标识符与结构化存储对象结合使用的详细信息, 请参阅[IPersist:: GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx)方法的相关文档。 
   
 ## <a name="see-also"></a>另请参阅
 

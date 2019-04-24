@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: 53fddc3f-e9d9-db76-6b84-11befdb23fb0
 description: Microsoft InfoPath 支持将表单中的格式文本框控件绑定到从 Web 服务收到的 XML 元素，以及通过 Web 服务将数据从格式文本框控件提交到 XML 元素。该元素必须遵循可扩展超文本标记语言 (XHTML) 格式。例如，名为 MyRichTextElement 的元素（包含格式文本）的架构将具有以下 XML 架构定义：
 ms.openlocfilehash: d10f4a8cedcff43d1c351068859aee0edf607c81
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299844"
 ---
 # <a name="rich-text-and-web-services"></a>格式文本和 Web 服务
 
-Microsoft InfoPath 支持将表单中的“格式文本框”**** 控件绑定到从 Web 服务收到的 XML 元素，以及通过 Web 服务将数据从格式文本框控件提交到 XML 元素。 该元素必须遵循可扩展超文本标记语言 (XHTML) 格式。 例如，名为 `MyRichTextElement` 的元素（包含格式文本）的架构将具有以下 XML 架构定义： 
+Microsoft InfoPath supports binding a **Rich Text Box** control in a form to an XML element that is received from a Web service, and submitting data from a rich text box control to an XML element through a Web service. The element must adhere to the Extensible HyperText Markup Language (XHTML) format. For example, the schema for an element named  `MyRichTextElement` that contains rich text would have the following XML schema definition: 
   
 ```XML
 <xsd:element name="MyRichTextElement"> 
@@ -28,7 +28,7 @@ Microsoft InfoPath 支持将表单中的“格式文本框”**** 控件绑定�
 </xsd:element>
 ```
 
-应使用包装节点包装 XHTML 元素，然后才能将“格式文本框”**** 控件与该元素绑定；此包装节点可属于任何命名空间。包装节点看起来可能类似于： 
+Before a **Rich Text Box** control can be bound with the XHTML element, the element should be wrapped with a wrapper node; this wrapper node can belong to any arbitrary namespace. The wrapper node can look like this: 
   
 ```xml
 <xhtmlNode xmlns="https:// someNamespace"> 
@@ -81,9 +81,9 @@ public XmlNode getXhtml()
 
 ```
 
-`setXhtml` Web 服务方法接受出自 InfoPath 表单上的“格式文本框”**** 控件的 XHTML。 由于 Web 服务不支持节点列表，因此，在将包含多行的格式文本字段发送到 Web 服务时，Web 服务将仅接受第一行，并忽略其余各行。 
+The  `setXhtml` Web Service method accepts XHTML from a **Rich Text Box** control on an InfoPath form. Because Web services do not support a node list, when a rich text field that contains multiple lines is sent to a Web service, the Web service only accepts the first line and ignores the rest. 
   
-示例 `setXhtml` 方法假定它将接收顶级 XML 节点，在大多数情况下，该节点将包含在 **DIV** 元素中。 如果接收到的 XML 不包含包装元素，例如，当“格式文本框”**** 控件中的文本没有格式设置时，此方法将通过检查 **NodeType** 属性是否指示传入的 XML 为一个文本节点对其进行检测。 如果 XML 是文本节点，则该方法将创建 **DIV** 元素并将文本节点内容复制到 **DIV**，以便 **DIV** 包含文本子节点（包含发送到 Web 服务的文本）。 此方法接收的 XML 将写入驱动器 C 上数据文件夹中的 out.xml 文件。 
+The sample  `setXhtml` method assumes that it will receive a top-level XML node, which in most cases will be wrapped in a **DIV** element. If the XML received does not contain a wrapping element, for example when text within the **Rich Text Box** control has no formatting, this method will detect this by checking whether the **NodeType** property indicates that the XML passed in is a text node. If the XML is a text node, the method creates a **DIV** element and copies the text node contents to the **DIV** so that the **DIV** contains a text node child with the text that was sent to the Web service. The XML received by this method is written to the out.xml file in the Data folder on the drive C. 
   
 > [!NOTE]
 > 编写示例  `setXhtml` 方法的目的是为了接受任何大小的 XHTML 数据。在实际应用中，您应始终检查以确定所提交的数据量，并为可提交的数据量设置一个上限。 
@@ -156,10 +156,10 @@ public void setXhtml(XmlNode xn)
     
 13. 在“字段”**** 任务窗格中，展开“dataFields”**** 文件夹。 
     
-14. 展开“s0:getXhtmlResponse”**** 和“getXhtmlResult”**** 文件夹，然后将“MyRichTextElement”**** 元素拖到表单中。 InfoPath 将识别“MyRichTextElement”**** 元素为 XHTML 元素，并将使用格式文本框控件绑定到其中。 
+14. Expand the **s0:getXhtmlResponse** and **getXhtmlResult** folders, and then drag the **MyRichTextElement** element onto the form. InfoPath will recognize that the **MyRichTextElement** element is an XHTML element and will use a rich text box control to bind to it. 
     
 15. 保存或发布表单。
     
-若要测试表单，请打开表单，输入一些格式文本内容，例如图片、表和带格式文本。在功能区上单击“提交”**** 以将格式文本内容存储在服务器上的 out.xml 文件中。在“视图”**** 选项卡上单击“查询”****，然后单击表单上的“运行查询”**** 按钮。“格式文本框”**** 控件应显示 out.xml 文件中的 XHTML 内容。如果格式文本域包含多个行，Web 服务将接受接受第一行，并忽略其余各行。 
+To test the form, open the form, enter some rich text content such as pictures, tables, and formatted text. Click **Submit** on the ribbon to store the rich text content in the out.xml file on the server. Click **Query** on the **View** tab, and then click the **Run Query** button on the form. The **Rich Text Box** control should display the XHTML content from the out.xml file. If the rich text field contains multiple lines, the Web service will only accept the first line and ignore the rest. 
   
 

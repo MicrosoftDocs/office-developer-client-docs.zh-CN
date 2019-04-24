@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f40d5405-12e3-475b-b731-d2223ab70c1d
-description: 获取一个字符串，描述提供程序功能。
-ms.openlocfilehash: 54e28f22f2dc8fdbe19821d8188087b78c327518
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取描述提供程序功能的字符串。
+ms.openlocfilehash: cf3d1418ac0ecbfc3f67bb550a24ec71781f2637
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285761"
 ---
 # <a name="isocialprovidergetcapabilities"></a>ISocialProvider::GetCapabilities
 
-获取一个字符串，描述提供程序功能。
+获取描述提供程序功能的字符串。
   
 ```cpp
 HRESULT _stdcall GetCapabilities([out, retval] BSTR* result);
@@ -27,13 +27,13 @@ HRESULT _stdcall GetCapabilities([out, retval] BSTR* result);
 
 _result_
   
-> [输出]一个 XML 字符串值，该值代表 Outlook Social Connector (OSC) 提供程序的功能。
+> 排除一个代表 Outlook Social Connector (.osc) 提供程序的功能的 XML 字符串。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-返回的_结果_XML 字符串必须符合**capabilities**元素中，架构定义中的 OSC 提供程序扩展性的 XML 架构定义。 
+返回的_结果_XML 字符串必须符合 "**功能**" 元素的架构定义 (如在用于 .osc 提供程序扩展性的 XML 架构中定义)。 
   
-提供程序必须返回_结果_字符串要启用对后续调用从 OSC 提供程序才能正常运行。 
+提供程序必须返回_结果_字符串, 才能使来自 .osc 的后续调用能够正常运行。 
   
 ## <a name="see-also"></a>另请参阅
 

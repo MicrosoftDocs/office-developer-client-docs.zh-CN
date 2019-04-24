@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: e5036638-8350-464f-ab44-19c4a1bf50b3
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 08dadc1de8e827d997dd8a00c56466c0109e79ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb82d139caf0f868a12ab669e10f89b8a7430d8c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286578"
 ---
 # <a name="pidtagproofofdelivery-canonical-property"></a>PidTagProofOfDelivery 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-此属性包含 ASN.1 证明传递值。
+此属性包含一个 ASN. 1 个交货价值证明。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PROOF_OF_DELIVERY  <br/> |
-|标识符：  <br/> |0x0C11  <br/> |
+|标识符:  <br/> |0x0C11  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22585869"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

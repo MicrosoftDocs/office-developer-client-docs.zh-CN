@@ -9,15 +9,15 @@ localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
 description: 与 InfoPath 2003 对象模型兼容的表单模板项目中用于添加事件处理程序函数的菜单命令在本质上与其他类型的表单模板相同。
 ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303666"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>使用 InfoPath 对象模型添加事件处理程序
 
-与 InfoPath 2003 对象模型兼容的表单模板项目中用于添加事件处理程序函数的菜单命令在本质上与其他类型的表单模板相同。 例如，为了添加“OnLoad”**** 事件处理程序，在 InfoPath 设计器中的表单模板打开的状态下，单击“开发工具”**** 选项卡上的“On Load Event”**** 命令。焦点将自动切换到 Visual Studio 2012 代码编辑器中的“OnLoad”**** 事件处理程序的表单代码。 
+The menu commands for adding event handler functions in a form template project that is compatible with the InfoPath 2003 object model are essentially the same as those for other types of form templates. For example, in order to add an **OnLoad** event handler, with the form template open in the InfoPath designer, click the **On Load Event** command on the **Developer** tab. The focus automatically switches to the form code for the **OnLoad** event handler in the Visual Studio 2012 code editor. 
   
 在与 InfoPath 2003 兼容的托管代码表单模板项目中，包含事件处理程序函数和事件处理程序本身的类都用代码模块中专用于 InfoPath 的属性来标识。
 

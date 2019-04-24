@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: Microsoft InfoPath 继续支持利用 Microsoft Office InfoPath 2003 Toolkit for Visual Studio .NET 或 Visual Studio 2005 Tools for the Microsoft Office System 创建的、且具有依据 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间的成员编写的业务逻辑的表单模板项目。本节中的主题将此命名空间的类型和成员称为 InfoPath 2003 兼容对象模型，或简称为 InfoPath 2003 对象模型。InfoPath 还支持通过 Microsoft Office InfoPath 2007 创建的、使用 InfoPath 2003 兼容对象模型的表单模板项目。此外，还可以利用 InfoPath 创建使用 InfoPath 2003 兼容对象模型的新表单模板对象，以便为 Office InfoPath 2007 用户保留向后兼容性。本节中的所有主题专门讲述如何创建和开发使用 Microsoft.Office.Interop.InfoPath.SemiTrust 命名空间提供的 InfoPath 2003 兼容对象模型的表单模板。
 ms.openlocfilehash: a39f921f6c7465dbcf469062b866c808fa222851
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300362"
 ---
 # <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型开发表单模板
 

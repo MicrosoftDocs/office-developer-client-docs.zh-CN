@@ -1,81 +1,81 @@
 ---
-title: Excel 中的多线程处理和内存争用
+title: Excel 中的多线程和内存争用
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 keywords:
-- 多线程中的 excel、 Excel、 函数 [Excel 2007]、 线程安全、 线程安全的内存争用函数 [Excel 2007]，线程本地内存 [Excel 2007]
+- excel 中的多线程, excel 中的内存争用, 函数 [excel 2007], 线程安全, 线程安全函数 [excel 2007], 线程-本地内存 [excel 2007]
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
 ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384421"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301636"
 ---
-# <a name="multithreading-and-memory-contention-in-excel"></a>Excel 中的多线程处理和内存争用
+# <a name="multithreading-and-memory-contention-in-excel"></a>Excel 中的多线程和内存争用
 
- **适用于**：Excel 2013 | Office 2013 | Visual Studio 
+ **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-早版本的 Microsoft Excel 比在 Excel 2007 使用单个线程的所有工作表计算。 但是，从 Excel 2007 开始，Excel 可以配置用于介于 1 到 1024年并发线程工作表计算。 多处理器或多核计算机上, 默认的线程数等于内核处理器的数量。 因此，线程安全单元格或仅包含线程安全的函数的单元格都可以分配给并发线程，受到需要计算其引用单元格后的常用重新计算逻辑。
+早于 excel 2007 的 Microsoft Excel 版本在所有工作表计算中使用一个线程。 但是, 从 excel 2007 开始, 可以将 excel 配置为使用1到1024并发线程来计算工作表。 在多处理器或多核计算机上, 默认线程数等于处理器或内核数。 因此, 只有包含线程安全的函数的线程安全单元格或单元格可以分配给并发线程, 这取决于需要在引用单元格之后计算的常见重新计算逻辑。
   
-## <a name="thread-safe-functions"></a>线程安全功能
+## <a name="thread-safe-functions"></a>线程安全函数
 
-线程安全了大部分启动 Excel 2007 中内置的工作表函数。 您还可以编写并注册为正在线程安全的 XLL 函数。 Excel 使用一个线程 （其主线程） 呼叫所有命令、 线程不安全的功能、 **xlAuto**函数 （除了[xlAutoFree](xlautofree-xlautofree12.md)和**xlAutoFree12**） 和 COM 和 Visual Basic for Applications (VBA) 函数。
+在 Excel 2007 中启动的大多数内置工作表函数都是线程安全的。 您还可以将 XLL 函数编写并注册为线程安全。 Excel 使用一个线程 (它的主线程) 调用所有命令、线程不安全函数、 **xlAuto**函数 (除了[xlAutoFree](xlautofree-xlautofree12.md)和**xlAutoFree12**) 以及 COM 和 Visual Basic for Applications (VBA) 函数。
   
-其中 XLL 函数返回**XLOPER**或**XLOPER12** **xlbitDLLFree**设置，Excel 将使用相同的线程进行函数调用来调用**xlAutoFree**或**xlAutoFree12**。 调用**xlAutoFree**或**xlAutoFree12**由该线程上的下一个函数调用之前。 
+当 XLL 函数返回具有**xlbitDLLFree**集的**XLOPER**或**XLOPER12**时, Excel 将使用对其进行函数调用的线程, 以调用**xlAutoFree**或**xlAutoFree12**。 对**xlAutoFree**或**xlAutoFree12**的调用是在该线程上的下一个函数调用之前进行的。 
   
-对于 XLL 开发人员，有以下好处创建线程安全功能：
+对于 XLL 开发人员, 创建线程安全函数有一些好处:
   
-- 它们允许 Excel 充分利用多处理器或多核计算机。
+- 它们使 Excel 可以充分利用多处理器或多核计算机。
     
-- 他们打开比可以进行更有效地使用远程服务器的可能性使用单个线程。
+- 他们打开远程服务器的可能性远远高于使用单个线程完成的效率。
     
-假设您有已配置为使用，请说， *N*线程的单处理器计算机。 假设电子表格正在运行，使大量对 XLL 函数的调用，以打开发送请求数据或计算执行到远程服务器或服务器群集。 受到相关性树的拓扑，Excel 无法几乎同时调用的函数 N 时间。 假设或多个服务器都充分 fast 或并行，可减少电子表格的重新计算时间为 1/从一个因子得多 
+假设您有一个已配置为使用的单处理器计算机, 例如*N*个线程。 假设正在运行的电子表格会对 XLL 函数进行大量调用, 进而发送对数据的请求或对远程服务器或服务器群集执行的计算。 根据依赖关系树的拓扑, Excel 几乎可以同时调用函数 N 次。 如果服务器或服务器的速度足够快或平行, 则电子表格的重新计算时间可能会降低为 1/N 的系数。 
   
-编写线程安全函数中的关键问题正确处理争夺资源。 这通常意味着内存争用，它可以分为两个问题：
+编写线程安全函数的关键问题是正确处理资源的争用。 这通常意味着内存争用, 并且可以分为两个问题:
   
-- 仅将此线程使用如何创建您知道的内存。
+- 如何创建您已知将仅由此线程使用的内存。
     
-- 如何确保共享的内存安全地访问由多个线程。
+- 如何确保多个线程安全地访问共享内存。
     
-首先要注意的是 XLL 哪些内存访问所有线程，且新增仅可访问当前执行的线程。
+首先要注意的一点是, XLL 中的内存是所有线程都可访问的, 并且只能由当前正在执行的线程访问。
   
- **访问所有线程**
+ **所有线程都可访问**
   
-- 变量、 结构和类实例外函数的主体的声明。
+- 在函数体外部声明的变量、结构和类实例。
     
-- 函数的正文内声明的静态变量。
+- 在函数体中声明的静态变量。
     
-在这两种情况，内存设置留出中创建的此实例的 DLL 的 DLL 的内存块。 如果另一个应用程序实例加载 DLL，它获取其自己的内存副本，以便不会从外部 DLL 此实例，这些资源争用。
+在这两种情况下, 将在为此 dll 实例创建的 dll 内存块中留出内存。 如果另一个应用程序实例加载 DLL, 它将获取该内存的自己的副本, 以便不会对此 dll 实例之外的这些资源进行争用。
   
  **只能由当前线程访问**
   
-- （包括函数参数） 的函数代码中的自动变量。
+- 函数代码 (包括函数参数) 中的自动变量。
     
-在这种情况下，在每个实例函数调用堆栈留出设置内存。
+在这种情况下, 堆栈上为函数调用的每个实例留出内存。
   
 > [!NOTE]
-> 动态分配的内存范围取决于指向它的指针的范围： 如果将指针是可访问所有线程，也是内存。 指针是自动变量函数中的，如果是有效地专用于该线程分配的内存。 
+> 动态分配内存的作用域取决于指向它的指针的作用域: 如果指针可由所有线程访问, 则内存也是如此。 如果指针是函数中的自动变量, 则分配给该线程的内存实际上是私有的。 
   
-## <a name="memory-accessible-by-only-one-thread-thread-local-memory"></a>只能由一个线程可访问的内存： 线程本地内存
+## <a name="memory-accessible-by-only-one-thread-thread-local-memory"></a>仅有一个线程可访问的内存: 线程本地内存
 
-静态变量的函数的正文内都可以访问所有线程，使用它们的函数不清楚地线程安全。 一个线程上函数实例无法值更改时另一个线程上的另一个实例假定它为完全不同。 
+假定函数主体中的静态变量可由所有线程访问, 但使用它们的函数显然不是线程安全的。 一个线程上的函数的一个实例可以更改值, 而另一个线程上的另一个实例假设它是完全不同的内容。 
   
-有两个声明函数中的静态变量原因：
+在函数中声明静态变量的原因有两个:
   
-1. 静态数据保留从到下一个呼叫。
+1. 静态数据将从一个调用保留到下一个调用。
     
-2. 安全地可以由函数返回对静态数据的指针。
+2. 函数可安全返回指向静态数据的指针。
     
-对于第一个原因，您可能希望具有仍然存在，并且有意义的函数的所有呼叫的数据： 或许就会增加每次上任何线程，调用该函数的简单的计数器或收集前夕的使用情况和性能数据结构ry 呼叫。 此问题是如何保护数据结构的共享的数据。 最佳这是下一节介绍使用关键部分。
+在第一种原因的情况下, 您可能希望具有对函数的所有调用的持续和意义的数据: 可能是在每次调用函数时递增的简单计数器, 或者是在前夕上收集使用率和性能数据的结构ry 调用。 问题是如何保护共享数据或数据结构。 最好是通过在下一节中介绍的关键部分来完成此操作。
   
-如果数据旨在通过此线程，其原因 1 的情况，始终是原因 2 这种情况，仅用于问题是如何创建仍然存在但才可以访问从此线程的内存。 一个解决方案是使用的线程本地存储区 (TLS) API。
+如果数据仅供此线程使用, 则原因可能是原因1的情况, 并且是原因2的总大小写, 问题是如何创建持续存在但只能从此线程访问的内存。 一种解决方案是使用线程本地存储 (TLS) API。
   
-例如，请考虑将指针返回到**XLOPER**函数。
+例如, 请考虑一个返回指向**XLOPER**的指针的函数。
   
 ```cs
 LPXLOPER12 WINAPI mtr_unsafe_example(LPXLOPER12 pxArg)
@@ -86,7 +86,7 @@ LPXLOPER12 WINAPI mtr_unsafe_example(LPXLOPER12 pxArg)
 }
 ```
 
-此函数不是线程安全，因为一个线程可以返回静态**XLOPER12** ，而另一个覆盖它。 更高版本仍然如果**XLOPER12**需要传递给**xlAutoFree12**出现这种情况的可能性。 一种解决方案是分配**XLOPER12**、，返回一个指针和实现**xlAutoFree12** ，以便释放**XLOPER12**内存本身。 在[Excel 中进行内存管理](memory-management-in-excel.md)中所示的示例功能的许多情况下使用此方法。
+此函数不是线程安全的, 因为一个线程可以返回静态**XLOPER12** , 而另一个线程会将其覆盖。 发生这种情况的可能性更大, 但如果需要将**XLOPER12**传递给**xlAutoFree12**。 一种解决方案是分配一个**XLOPER12**, 返回指向它的指针, 并实现**xlAutoFree12** , 以便释放**XLOPER12**内存本身。 在 Excel 中的[内存管理](memory-management-in-excel.md)中显示的许多示例函数中使用此方法。
   
 ```cs
 LPXLOPER12 WINAPI mtr_safe_example_1(LPXLOPER12 pxArg)
@@ -99,9 +99,9 @@ LPXLOPER12 WINAPI mtr_safe_example_1(LPXLOPER12 pxArg)
 }
 ```
 
-简单比依赖 TLS API，下一节所述的方法实现此方法，但它有一些缺点。 首先，Excel 必须调用**xlAutoFree**/ **xlAutoFree12**任何类型的返回**XLOPER**/ **XLOPER12**。 其次，没有问题时返回**XLOPER**/ **XLOPER12**s 的调用的 C API 回调函数的返回值。 **XLOPER**/ **XLOPER12**可能会导致内存需要释放的 Excel，但**XLOPER**/ **XLOPER12**本身，必须释放被分配方式相同。 如果此类**XLOPER**/ **XLOPER12**是要用作 XLL 工作表函数的返回值，没有简单方法，告知**xlAutoFree**/ **xlAutoFree12**的需要两个指针忙以相应的方式。 （设置**xlbitXLFree**和**xlbitDLLFree**未解决此问题，请在两个设置**XLOPER/XLOPER12s**在 Excel 中的处理未和可能更改版本之间的差异。）若要解决此问题，XLL 可以进行深入的所有 Excel 分配**XLOPER/XLOPER12s**它返回到工作表的副本。 
+此方法更易于实现, 而不是下一节中介绍的方法, 它依赖于 TLS API, 但有一些缺点。 首先, Excel 必须调用**xlAutoFree**/ **xlAutoFree12** , 无论返回的是哪种类型的**XLOPER**/ **XLOPER12**。 其次, 返回**XLOPER**/ **XLOPER12**s 时出现问题, 即对 C API 回调函数的调用的返回值。 **XLOPER**/ **XLOPER12**可能指向需要由 Excel 释放的内存, 但**XLOPER**/ **XLOPER12**本身必须按其分配的相同方式进行释放。 如果将此类**XLOPER**/ **XLOPER12**用作 XLL 工作表函数的返回值, 则没有简单的方法来通知**xlAutoFree**/ **xlAutoFree12**是否需要以适当的方式释放这两个指针。 (同时设置**xlbitXLFree**和**xlbitDLLFree**不能解决问题, 因为在 Excel 中对**XLOPER/XLOPER12s**的处理未定义, 并且可能会从版本更改为版本。为了解决此问题, XLL 可以制作所有 Excel 分配的**XLOPER/XLOPER12s**的深层副本, 并将其返回到工作表中。 
   
-避免了这些限制的解决方案是填充并返回线程本地**XLOPER/XLOPER12**，需要**xlAutoFree/xlAutoFree12**该方法不会释放**XLOPER/XLOPER12**指针本身。 
+避免这些限制的解决方案是填充和返回一个线程本地**XLOPER/XLOPER12**, 这是一种需要该**xlAutoFree/xlAutoFree12**不会释放**XLOPER/XLOPER12**指针本身的方法。 
   
 ```cs
 LPXLOPER12 get_thread_local_xloper12(void);
@@ -115,7 +115,7 @@ LPXLOPER12 WINAPI mtr_safe_example_2(LPXLOPER12 pxArg)
 
 ```
 
-下一个问题是如何设置和检索的线程本地内存，换句话说，如何实现函数**get_thread_local_xloper12**在上面的示例。 这是使用线程本地存储 (TLS) API。 第一步是使用**TlsAlloc**，最终必须通过使用**TlsFree**释放其获取 TLS 索引。 这两最佳完成从**DllMain**。
+下一个问题是如何设置和检索线程本地内存, 换句话说, 如何在上一示例中实现函数**get_thread_local_xloper12** 。 这是使用线程本地存储 (TLS) API 完成的。 第一步是使用**TlsAlloc**获取 TLS 索引, 它最终必须使用**TlsFree**发布。 这两个最佳实现都是通过**DllMain**实现的。
   
 ```cs
 // This implementation just calls a function to set up
@@ -142,9 +142,9 @@ BOOL TLS_Action(DWORD DllMainCallReason)
 }
 ```
 
-获取索引后下, 一步是内存的为每个线程分配块。 [Windows 开发文档](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx)建议这样做，每次**DllMain**回调函数调用与**DLL_THREAD_ATTACH**事件，以及在每个**DLL_THREAD_DETACH**内存。 但是，关注此建议将导致 DLL 执行不必要的工作线程在不用于重新计算。 
+获取索引后, 下一步是为每个线程分配内存块。 [Windows 开发文档](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx)建议在每次使用**DLL_THREAD_ATTACH**事件调用**DllMain**回调函数, 并在每个**DLL_THREAD_DETACH**上释放内存时执行此操作。 但是, 遵循此建议将导致 DLL 对不用于重新计算的线程执行不必要的工作。 
   
-相反，则最好使用分配上第一个使用策略。 首先，您需要定义要为每个线程分配结构。 返回**XLOPERs**或**XLOPER12s**的上一个示例，以下足够了，但您可以创建任何结构符合您的需求。
+相反, 最好使用 "首次使用时分配" 策略。 首先, 需要定义要为每个线程分配的结构。 对于前面返回**XLOPERs**或**XLOPER12s**的示例, 以下 suffices, 但您可以创建满足您的需求的任何结构。
   
 ```cs
 struct TLS_data
@@ -155,7 +155,7 @@ struct TLS_data
 };
 ```
 
-下面的函数获取一个指针指向线程本地实例，或如果这是首次调用分配一个。
+下面的函数获取指向线程本地实例的指针, 如果这是第一个调用, 则分配一个指针。
   
 ```cs
 TLS_data *get_TLS_data(void)
@@ -173,7 +173,7 @@ TLS_data *get_TLS_data(void)
 }
 ```
 
-现在您可以查看如何获取线程本地**XLOPER/XLOPER12**内存： 首先，指针进入**TLS_data**的线程的实例，然后将您返回到**XLOPER/XLOPER12** ，如下所示，其中包含一个指针。 
+现在, 您可以了解如何获取线程本地**XLOPER/XLOPER12**内存: 首先, 您会收到指向线程的**TLS_data**实例的指针, 然后您将返回指向包含在其中的**XLOPER/XLOPER12**的指针, 如下所示。 
   
 ```cs
 LPXLOPER get_thread_local_xloper(void)
@@ -193,13 +193,13 @@ LPXLOPER12 get_thread_local_xloper12(void)
 
 ```
 
-运行 Excel 时，可以将**mtr_safe_example_1**和**mtr_safe_example_2**函数注册为线程安全工作表函数。 但是，不能混合一个 XLL 中的两种方法。 您 XLL 只能导出一个实现**xlAutoFree**和**xlAutoFree12**，并且每个内存策略需要不同的方法。 与**mtr_safe_example_1**，以及它指向的任何数据，必须释放传递给**xlAutoFree/xlAutoFree12**的指针。 与**mtr_safe_example_2**，应释放仅指向的数据。
+在运行 Excel 时, 可以将**mtr_safe_example_1**和**mtr_safe_example_2**函数注册为线程安全工作表函数。 但是, 不能在一个 XLL 中混合使用这两种方法。 XLL 只能导出**xlAutoFree**和**xlAutoFree12**的一种实现, 并且每个内存策略都需要不同的方法。 对于**mtr_safe_example_1**, 传递给**xlAutoFree/xlAutoFree12**的指针必须与它所指向的任何数据一起释放。 使用**mtr_safe_example_2**时, 只应释放指向的数据。
   
-Windows 还提供了一个函数**GetCurrentThreadId**，它返回当前线程的唯一系统范围 id。 这将为开发人员提供使代码线程安全的或者使其行为线程特定的另一种方法。
+Windows 还提供了一个函数**GetCurrentThreadId**, 它返回当前线程的唯一系统范围的 ID。 这为开发人员提供了另一种使代码线程安全的方法, 或使其具有特定的行为线程。
   
-## <a name="memory-accessible-only-by-more-than-one-thread-critical-sections"></a>只能由多个线程可访问的内存： 关键节
+## <a name="memory-accessible-only-by-more-than-one-thread-critical-sections"></a>仅可由多个线程访问的内存: 临界节
 
-您应该保护可以通过使用关键节的多个线程的读/写内存。 对于每个要保护的内存块中需要命名的关键部分。 您可以初始化在**xlAutoOpen**函数中，调用过程和释放其期间对**xlAutoClose**函数的调用将它们设置为 null。 然后，您需要包含对受保护的块内调用**EnterCriticalSection**和**LeaveCriticalSection**的一对每个访问。 只有一个线程允许到关键部分中，在任何时间。 下面是部分的初始化、 非初始化，并使用调用**g_csSharedTable**的一个示例。
+应使用关键部分保护可由多个线程访问的读/写内存。 对于要保护的每个内存块, 您都需要一个已命名的临界区。 您可以在调用**xlAutoOpen**函数期间对这些函数进行初始化, 并在调用**xlAutoClose**函数期间将其释放并将其设置为 null。 然后, 您需要在对**EnterCriticalSection**和**LeaveCriticalSection**的一对受保护的块中包含每个访问权限。 任何时候都只允许一个线程进入临界区。 下面是一个初始化、uninitialization 和使用名为**g_csSharedTable**的节的示例。
   
 ```cs
 CRITICAL_SECTION g_csSharedTable; // global scope (if required)
@@ -241,9 +241,9 @@ bool set_shared_table_element(unsigned int index, double d)
 }
 ```
 
-保护内存块的另一个、 也许更安全的方式是创建一个类，其中包含自己**CRITICAL_SECTION**其构造函数、 析构函数，并使用解决访问器方法。 此方法的优点添加了保护之前**xlAutoOpen**运行或排除后调用**xlAutoClose**时，可能初始化的对象，但您应注意有关创建太多的关键部分和操作系统这将创建的开销。 
+另一种方法是, 保护内存块的安全方法是创建一个类, 其中包含自己的**CRITICAL_SECTION** , 其构造函数、析构函数和访问器方法负责使用它。 此方法增加了以下优势: 保护在**xlAutoOpen**运行之前可以初始化的对象, 或在调用**xlAutoClose**后继续运行的对象, 但在创建过多的关键部分和操作系统时应谨慎。这将创建的开销。 
   
-同时需要访问受保护的内存的多个块的代码后，您需要非常仔细考虑的关键部分进行输入和退出的顺序。 例如，以下两个功能还可以创建死锁。
+当您的代码需要同时访问多个受保护的内存块时, 您需要仔细考虑关键节的输入和退出顺序。 例如, 以下两个函数可能会产生死锁。
   
 ```cs
 // WARNING: Do not copy this code. These two functions
@@ -274,7 +274,7 @@ bool copy_shared_table_element_B_to_A(unsigned int index)
 }
 ```
 
-如果一个线程上的第一个函数输入**g_csSharedTableA**当另一个线程上的第二个进入**g_csSharedTableB**时，这两个线程挂起。 正确的方法是一致的顺序进入和退出的相反顺序，如下所示。
+如果一个线程中的第一个函数进入**g_csSharedTableA** , 而另一个线程上的第二个线程进入**g_csSharedTableB**, 则这两个线程都挂起。 正确的方法是按一致的顺序输入并按相反顺序退出, 如下所示。
   
 ```cs
     EnterCriticalSection(&g_csSharedTableA);
@@ -284,7 +284,7 @@ bool copy_shared_table_element_B_to_A(unsigned int index)
     LeaveCriticalSection(&g_csSharedTableA);
 ```
 
-在可能的情况下，最好是从线程共同操作角度隔离访问不同块，如下所示。
+在可能的情况下, 最好从线程协作操作点来隔离对不同块的访问, 如下所示。
   
 ```cs
 bool copy_shared_table_element_A_to_B(unsigned int index)
@@ -300,7 +300,7 @@ bool copy_shared_table_element_A_to_B(unsigned int index)
 }
 ```
 
-其中没有大量争用共享资源，如常用 short 持续时间访问请求，您应考虑使用关键部分中的功能旋转。 这是一种使较少的处理器密集型等待资源的技术。 若要执行此操作，您可以使用任一**InitializeCriticalSectionAndSpinCount**初始化节或**SetCriticalSectionSpinCount**一旦初始化，若要设置的次数之前等待资源成为循环线程时可用。 等待操作很高，，因此旋转可避免这，如果同时会释放资源。 在单个处理器系统上，实际上会忽略调节计数，但不进行任何损害，仍可以所指定。 内存堆管理器使用 4000 调节计数。 有关如何使用的关键部分的详细信息，请参阅 Windows SDK 文档。 
+如果有大量争用共享资源 (例如频繁的短时间访问请求), 则应考虑使用临界区的旋转能力。 这是一项技术, 可使资源等待更少的占用处理器的资源。 若要执行此操作, 您可以在初始化节或**SetCriticalSectionSpinCount**时使用任一**InitializeCriticalSectionAndSpinCount** , 以设置在等待资源变为前线程循环的次数可用. 等待操作成本较高, 因此如果在同时释放资源, 将会避免这种情况。 在单处理器系统上, 将有效地忽略自旋计数, 但仍可以指定它, 而不会造成任何损害。 内存堆管理器使用的数值调节计数为4000。 有关使用关键部分的详细信息, 请参阅 Windows SDK 文档。 
   
 ## <a name="see-also"></a>另请参阅
 

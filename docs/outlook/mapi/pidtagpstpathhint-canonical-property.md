@@ -10,49 +10,49 @@ api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 6b71feb6d5967eab3aa490a256825a2803381f40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286355"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>PidTagPstPathHint 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供用于配置对话框的用户可以编辑的个人存储表 （.pst 文件） 名称。 
+为 "配置" 对话框提供用户可以编辑的个人存储表 (.pst 文件) 名称。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_PST_PATH_HINT，PR_PST_PATH_HINT_A，PR_PST_PATH_HINT_W  <br/> |
-|标识符：  <br/> |0x6771  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_PST_PATH_HINT、PR_PST_PATH_HINT_A、PR_PST_PATH_HINT_W  <br/> |
+|标识符:  <br/> |0x6771  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |个人存储表 (.pst) 内部  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果改为使用**PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) 属性，则配置对话框将打开，但不是将允许用户编辑的路径和多个其他属性。
+如果改为使用**PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-property.md)) 属性, 则将打开 "配置" 对话框, 但不允许用户编辑路径和许多其他属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

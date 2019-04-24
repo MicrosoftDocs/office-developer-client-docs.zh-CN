@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: eb96d198-0003-4a19-9441-42eaa4eba15a
 description: 本节讨论使用托管代码的 Microsoft InfoPath 表单模板的安全模型。
-ms.openlocfilehash: abd92a3a8e883f5fcb56d24f05d9fd16bdd91c49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: fc0c490346ca25cce495c7a174cf8a0464c712fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303484"
 ---
 # <a name="security-in-infopath-form-templates-with-code"></a>具有代码的 InfoPath 表单模板中的安全性
 

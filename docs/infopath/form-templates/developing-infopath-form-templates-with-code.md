@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: 本节中的主题提供有关依据 Microsoft.Office.InfoPath 命名空间的成员，创建具有用托管代码（Visual Basic 或 C#）编写的业务逻辑的表单模板的信息。
 ms.openlocfilehash: 386542b5c5f4e502f48d97c2a18194638e8e1536
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303729"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>开发包含代码的 InfoPath 表单模板
 

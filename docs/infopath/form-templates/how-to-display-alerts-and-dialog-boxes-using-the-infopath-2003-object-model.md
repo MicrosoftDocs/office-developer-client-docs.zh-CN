@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: 编写代码以扩展使用 InfoPath 2003 对象模型的表单模板的功能时，通过对话框向用户提供信息是非常有帮助的。
-ms.openlocfilehash: 1cc0f4c7a6696eae2d3b7058898b4119cede79e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 12088747250037e53a3b7d8d0577936e30d6292c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303610"
 ---
 # <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型显示警报和对话框
 
@@ -25,7 +25,7 @@ ms.locfileid: "19773990"
   
 |名称|说明|
 |:-----|:-----|
-|[Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |显示一个包含指定消息字符串的简单消息框。 无需用户输入任何内容而仅需显示消息时，应使用此方法。 通过单击“确定”**** 按钮将关闭显示的对话框。  <br/> |
+|[Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Displays a simple message box that contains a specified message string. This method should be used when no input is required from the user and only a message needs to be displayed. The dialog box displayed is closed by clicking the **OK** button.  <br/> |
 |[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |显示一个带有用户输入按钮的消息框。返回值是 [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) 枚举常量之一。  <br/> |
 |[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |在“另存为”**** 对话框中设置表单的默认文件名。  <br/> |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |设置“另存为”**** 对话框在打开时开始浏览的初始位置。  <br/> |

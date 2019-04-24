@@ -1,19 +1,19 @@
 ---
-title: EditRecord 宏操作 （访问自定义 web 应用程序）
+title: EditRecord 宏操作 (Access 自定义 web 应用)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2096da45-4269-4a6d-a2bd-a3e1e510b071
 description: 将当前记录置于编辑模式。
-ms.openlocfilehash: 643159ec11111c5b6f33aa00e3bf7fbce80db4a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8cd2dbb388d7fe0111d6112ace8be53ad8fef9f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308237"
 ---
-# <a name="editrecord-macro-action-access-custom-web-app"></a>EditRecord 宏操作 （访问自定义 web 应用程序）
+# <a name="editrecord-macro-action-access-custom-web-app"></a>EditRecord 宏操作 (Access 自定义 web 应用)
 
 将当前记录置于编辑模式。
   
@@ -24,10 +24,10 @@ ms.locfileid: "19773444"
 
  **EditRecord**
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-使用**SaveRecord**操作，以保存所做的记录或要放弃所做的更改的**UndoRecord**操作。 
+使用**SaveRecord**操作保存对记录所做的更改, 或使用**UndoRecord**操作来放弃更改。 
   
-**EditRecord**操作等效于选中操作栏上的**编辑**按钮。 
+**EditRecord**操作等效于在操作栏上选择 "**编辑**" 按钮。 
   
 

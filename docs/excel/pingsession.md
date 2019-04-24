@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 165be9eada54b2030471fc10e7a0bf0c7dcc7c8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fa5fe57e537a7b8c7d880b934809a6f68ce27a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301615"
 ---
 # <a name="pingsession"></a>PingSession
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-检查会话是否有效。 当需要确定是否以前返回的会话 ID 仍处于活动状态，可以使用 Excel 通常调用此函数。
+检查会话是否有效。 当 Excel 需要确定以前返回的会话 ID 是否仍处于活动状态且可以使用时, 通常会调用此函数。
   
 ```cpp
 int PingSession(int SessionId)
@@ -28,11 +28,11 @@ int PingSession(int SessionId)
 
 _SessionID_
   
-> Ping 会话的 ID。 此值必须匹配由[OpenSession](opensession.md)以前调用返回的 ID。
+> 要 ping 的会话的 ID。 此值必须与上一次调用[OpenSession](opensession.md)所返回的 ID 相匹配。
     
 ## <a name="return-value"></a>返回值
 
-**xlHpcRetSuccess** _SessionId_参数是否有效;否则为**xlHpcRetInvalidSessionId**。
+如果_SessionId_参数有效, 则为**xlHpcRetSuccess** , 否则为 false。否则**xlHpcRetInvalidSessionId**。
   
 ## <a name="see-also"></a>另请参阅
 

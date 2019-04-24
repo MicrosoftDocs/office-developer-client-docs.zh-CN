@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: e0513178-ddcb-4086-ab19-1bc80cf114cc
 description: 本节讨论初始化和清理代码、如何添加事件处理程序、如何调试和部署使用 InfoPath 2003 兼容对象模型的 InfoPath 表单模板、线程支持，以及如何使用 InfoPath 托管代码解决方案中的 Microsoft XML Core Services (MSXML)。
-ms.openlocfilehash: 16d49b24b2eed3b7fe15621d47663a94f1958cfa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 5069636dde87eb473a2b8bef4b58a6006d557085
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303743"
 ---
 # <a name="creating-form-templates-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型创建表单模板
 

@@ -11,24 +11,24 @@ keywords:
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: e42cca809c4426ddf9a98b3b275d08490d31c8db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66d2ac05b9603d6bb587a3898bde2545c1bb844a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303994"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-由 Microsoft Excel 加载项管理器调用 Excel 会话中第一次时调用。 此函数用于外接程序经理提供有关加载项的信息。
+在 excel 会话中首次调用外接程序管理器时, 由 Microsoft Excel 调用。 此函数用于向外接程序管理器提供有关外接程序的信息。
   
-如果导出 XLL，Excel 2007 和更高版本调用**xlAddInManagerInfo12**优先于**xlAddInManagerInfo** 。 **XlAddInManagerInfo12**函数应从事方式相同**xlAddInManagerInfo**以避免 XLL 的行为的特定于版本的差异。 Excel 希望**xlAddInManagerInfo12**返回**XLOPER12**数据类型，而**xlAddInManagerInfo**应返回**XLOPER**。
+如果 XLL 导出了 Excel 2007 及更高版本, 则将首选项中的**xlAddInManagerInfo12**调用**xlAddInManagerInfo** 。 **xlAddInManagerInfo12**函数应以与**xlAddInManagerInfo**相同的方式工作, 以避免 XLL 行为中特定于版本的差异。 Excel 要求**xlAddInManagerInfo12**返回**XLOPER12**数据类型, 而**xlAddInManagerInfo**应返回一个**XLOPER**。
   
-因为这些不支持**XLOPER12**早于 Excel 2007 版本的 Excel 不调用**xlAddInManagerInfo12**函数。
+excel 2007 之前的 excel 版本不会调用**xlAddInManagerInfo12**函数, 因为它们不支持**XLOPER12**。
   
-Excel 不需要 XLL 实施和导出其中任一函数。
+Excel 不需要 XLL 即可实现和导出这两个函数中的任何一个。
   
 ```cs
 LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
@@ -37,19 +37,19 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 
 ## <a name="parameters"></a>参数
 
- _pxAction:_ 指向 （**xltypeInt**或**xltypeNum**） 数字**XLOPER/XLOPER12**的指针。
+ _pxAction:_ 指向数字**XLOPER/XLOPER12** (**xltypeInt**或**xltypeNum**) 的指针。
   
-Excel 要求的信息。
+Excel 所要求的信息。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果_pxAction_ ，或可以强制为，数字 1，此函数的实现应返回包含一些有关外接程序、 通常其名称和可能的版本号的字符串。 否则，它应返回 #VALUE ！。 
+如果_pxAction_为或可以强制为数字 1, 则此函数的实现应返回一个字符串, 其中包含有关外接程序的一些信息, 通常是它的名称, 也可能是版本号。 否则, 它应返回 #VALUE!。 
   
-如果不返回一个字符串，Excel 会尝试将返回的值转换为字符串。
+如果不返回字符串, Excel 将尝试将返回的值转换为字符串。
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果返回的字符串指向动态分配缓冲区，您必须确保最终释放的此缓冲区。 如果该字符串由 Excel 分配，您需要执行此操作通过设置**xlbitXLFree**。 如果字符串已分配 DLL，设置**xlbitDLLFree**，通过实现此目的，您还必须实现[xlAutoFree](xlautofree-xlautofree12.md) （如果您返回**XLOPER**） 或**xlAutoFree12**中 （如果您返回**XLOPER12**）。
+如果返回的字符串指向动态分配的缓冲区, 则必须确保最终释放此缓冲区。 如果该字符串是由 Excel 分配的, 则可以通过设置**xlbitXLFree**来执行此操作。 如果该字符串是由 DLL 分配的, 则可以通过设置**xlbitDLLFree**来执行此操作, 此外, 还必须在[xlAutoFree](xlautofree-xlautofree12.md)中实现 (如果要返回**XLOPER**) 或**xlAutoFree12** (如果要返回**XLOPER12**)。
   
 ## <a name="example"></a>示例
 

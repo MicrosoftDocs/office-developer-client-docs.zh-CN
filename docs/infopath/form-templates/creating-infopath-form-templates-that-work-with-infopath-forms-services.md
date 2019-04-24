@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 7bd4fbbb-49c6-46a1-9584-895e5aa9a772
 description: 部署到 Microsoft SharePoint Server 2013（带有 InfoPath Forms Services）且与浏览器兼容的表单支持大多数 InfoPath 表单使用方案中的功能和控件。但是，由 InfoPath Forms Services 提供的与浏览器兼容的表单不支持所有 InfoPath 功能。其中某些功能和控件未在服务器上实现，其他功能在服务器上不具有有意义的表示形式。
-ms.openlocfilehash: 65201358fc651325920bd3eefc863e839bb1f1a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: e2db35dc535af58b5f5116448f346cd7a527b681
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300145"
 ---
 # <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>创建使用 InfoPath Forms Services 的 InfoPath 表单模板
 
@@ -87,7 +87,7 @@ ms.locfileid: "19774007"
 
 在 InfoPath 和浏览器中都能工作的其他声明性功能：
   
-- Rules
+- 规则
     
 - 计算
     
@@ -156,7 +156,7 @@ InfoPath Forms Services 上不支持的其他功能：
     
 - Outlook 集成
     
-- COM 外接程序
+- COM 加载项
     
 - 合并表单
     
@@ -164,7 +164,7 @@ InfoPath Forms Services 上不支持的其他功能：
     
 - 邮件信封
     
-- 导出到 Excel
+- 导出至 Excel
     
 - 包括 **"墨迹图片"** 控件的 Tablet/墨迹功能 
     
@@ -191,7 +191,7 @@ InfoPath Forms Services 上不支持的其他功能：
 
 InfoPath 提供了新的托管代码对象模型，它具有一组用于在表单模板中创建自定义业务逻辑的核心功能。将使用这一新的对象模型创建的业务逻辑部署到 SharePoint Server 2010（带有 InfoPath Forms Services）中时，它将在 Web 浏览器和 InfoPath 中运行。您可以根据需要编写业务逻辑，以使用此对象模型提供的额外功能级别，这些功能将仅在表单模板于 InfoPath 中打开以供编辑时运行。
   
-若要编写当表单在 Web 浏览器和 InfoPath 中同时打开时所运行的业务逻辑，创建新的表单模板时请勾选位于**设计表单模板**对话框的**仅启用浏览器兼容功能**复选框。 若要编写仅在 InfoPath 中打开时可使用其他功能的业务逻辑，创建新的表单模板时请取消勾选**仅启用浏览器兼容功能**复选框。 此外可以在创建表单模板之后更改此设置，点击 **“检查设计方案”** 任务窗格上的**更改兼容性设置**，然后勾选或取消勾选**设计可在浏览器或 InfoPath 中打开的表单模板**复选框。 如果选择创建浏览器兼容的表单模板，如果您使用过任何与 InfoPath Forms Services 不兼容的类或成员，编译器会提示错误。 
+To write business logic that will run when a form is opened in both a Web browser and in InfoPath, select the **Enable browser-compatible features only** check box on the **Design a Form Template** dialog box when creating a new form template. To write business logic that can use additional functionality only when opened in InfoPath, clear the **Enable browser-compatible features only** check box when creating a new form template. You can also change this setting after creating a form template, by clicking **Change Compatibility Settings** on the **Design Checker** task pane, and then selecting or clearing the **Design a form template that can be opened in a browser or InfoPath** check box. If you choose to create a browser-compatible form template, the compiler will display an error if you have used any classes or members that are not compatible with InfoPath Forms Services. 
   
 > [!NOTE]
 > [!注释] 将包含托管代码且启用浏览器功能的表单模板发布到 SharePoint Server 2010（带有 InfoPath Forms Services）或某个共享位置后，服务器管理员必须上载并批准该表单模板，然后它才能运行。 
@@ -260,7 +260,7 @@ InfoPath 和 InfoPath Forms Services 都支持以下由 [Microsoft.Office.InfoPa
 |[FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) <br/> |[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) <br/> |
 ||[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) <br/> |
 ||[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx) <br/> |
-||[Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) <br/> |
+||[删除](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) <br/> |
 ||[Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) <br/> |
 ||[DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx) <br/> |
 ||[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetEnumerator.aspx) <br/> |
@@ -362,7 +362,7 @@ InfoPath 和 InfoPath Forms Services 都支持以下由 [Microsoft.Office.InfoPa
 |:-----|:-----|
 |[ActionType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.aspx) <br/> |[Copy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Copy.aspx) <br/> |
 ||[Cut](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Cut.aspx) <br/> |
-||[Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Delete.aspx) <br/> |
+||[删除](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Delete.aspx) <br/> |
 ||[Paste](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Paste.aspx) <br/> |
 ||[XCollectionInsert](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.XCollectionInsert.aspx) <br/> |
 ||[XCollectionInsertAfter](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.XCollectionInsertAfter.aspx) <br/> |
@@ -435,7 +435,7 @@ InfoPath 和 InfoPath Forms Services 都支持以下由 [Microsoft.Office.InfoPa
 ||[Visible](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MailEnvelope.Visible.aspx) <br/> |
 |[MergeEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.aspx) <br/> |[CancelableArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.CancelableArgs.aspx) <br/> |
 ||[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Count.aspx) <br/> |
-||[Index](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Index.aspx) <br/> |
+||[索引](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Index.aspx) <br/> |
 ||[Rollback](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Rollback.aspx) <br/> |
 ||[Xml](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MergeEventArgs.Xml.aspx) <br/> |
 |[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.aspx) <br/> |[ApplyPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx) <br/> |
@@ -584,7 +584,7 @@ InfoPath 和 InfoPath Forms Services 都支持以下由 [Microsoft.Office.InfoPa
 ||[UserRole](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.UserRole.aspx) <br/> |
 |[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx) <br/> |
 |[XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) <br/> |[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.GetEnumerator.aspx) <br/> |
-||[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx) <br/> |
+||[项](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx) <br/> |
 ||[New](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) <br/> |
 ||[New](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) <br/> |
 ||[NewFromFormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) <br/> |

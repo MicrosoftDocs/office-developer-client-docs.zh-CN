@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: 使用 InfoPath 表单模板时，您可以编写代码来访问表单的视图，然后对视图包含的数据执行各种操作。Microsoft.Office.InfoPath 命名空间提供的 InfoPath 对象模型支持通过使用 View 类的成员来访问表单的视图。
-ms.openlocfilehash: 84c32244454e388e50433922c007d556fbef806a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 829375a87513634ef0b38b6d92de9f33a605e89f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303540"
 ---
 # <a name="work-with-views"></a>使用视图
 
@@ -85,7 +85,7 @@ Me.ViewInfos.Initial = Me.ViewInfos["MyInitialView"];
 
 ## <a name="selecting-controls-in-a-view"></a>选择视图中的控件
 
-InfoPath 提供了 [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) 类的下面两种方法（均为重载方法），用于以编程方式选择当前视图中的控件：[SelectText()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) 和 [SelectNodes()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) 方法。 [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) 方法用于数据输入控件（如**文本框**），而 **SelectNodes** 方法则用于结构控件（如**可选节**）。 若要选择视图中的特定控件，需要提供节点，并视情况提供控件的 ViewContext ID。 若有多个控件绑定到数据源中的相同节点，就需要提供 ViewContext ID。 设计窗体时，InfoPath 用于提供 ViewContext ID 信息。
+InfoPath provides two methods of the [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) class, both of which are overloaded, to programmatically select a control in the current view: the [SelectText()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) and [SelectNodes()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) methods. The [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) method is used for data entry controls, such as a **Text Box**, while the **SelectNodes** method is used for structural controls, such as an **Optional Section**. To select a particular control in the view, you need to provide the node and, optionally, the control's ViewContext ID. The ViewContext ID is needed when you have multiple controls bound to the same node in the data source. InfoPath provides the ViewContext ID information when you design the form.
   
 控件的 ViewContext ID 显示在控件属性对话框的“高级”**** 选项卡上，访问方法为右键单击控件，再依次单击“ControlName 属性”__**** 和“高级”**** 选项卡。“高级”**** 选项卡的“代码”**** 部分中列出了控件的 ViewContext ID。 
   
@@ -154,7 +154,7 @@ XPathNavigator textNode =
 CurrentView.SelectText(textNode);
 ```
 
-若有多个控件绑定到“my:field1”，必须使用 **SelectText** 方法的 [SelectText(XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) 重载，其中额外提供了可用于选择特定控件的 _viewContext_ 参数。 下面的示例假定有两个**文本框**控件绑定到“my:field1”，第一个控件的 ViewContext ID 为“CTRL1”，第二个控件的 ViewContext ID 为“CTRL8”。 选择的是第二个控件。 
+If you have multiple controls bound to "my:field1", you must use the [SelectText(XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) overload of the **SelectText** method, which provides an additional  _viewContext_ parameter to select a specific control. The following example assumes that there are two **Text Box** controls bound to "my:field1", with the first control having a ViewContext ID of "CTRL1" and the second control having a ViewContext ID of "CTRL8". The second control is selected. 
   
 ```cs
 // Create XPathNavigator and select field.

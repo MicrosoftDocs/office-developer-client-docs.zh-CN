@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8140fc7b-b99c-54bb-7af3-7de6fcdae7d3
 description: 确定组合是否允许您通过将形状放在该组合上来添加形状。
-ms.openlocfilehash: 326ead15bcdc72797853daee797d8f08d459a638
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 50f545b3cbd4f7e1541a7f5e8ca32c34d0429c5e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297226"
 ---
-# <a name="isdroptarget-cell-group-properties-section"></a>IsDropTarget 单元格（“Group Properties”部分）
+# <a name="isdroptarget-cell-group-properties-section"></a>IsDropTarget 单元格（“Group Properties”内容）
 
 确定组合是否允许您通过将形状放在该组合上来添加形状。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |可以通过将形状放在组合上来将形状添加到其中。  <br/> |
 |FALSE  <br/> |不能将形状拖放在组合上。  <br/> |

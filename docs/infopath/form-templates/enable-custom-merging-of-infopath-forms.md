@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: Microsoft InfoPath 编辑器的“合并表单”功能旨在将多个表单中的数据合并到一个表单。
 ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303722"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>启用 InfoPath 表单的自定义合并
 
-Microsoft InfoPath 编辑器的“合并表单”**** 功能旨在将多个表单中的数据合并到一个表单。 这也称为“数据聚合”。 如果启用了合并表单功能，则可以单击“文件”**** 选项卡，单击“保存并发送”****，单击“导入和链接”**** 下的“合并表单”****，然后单击“合并表单”**** 按钮以选择一个或多个要与当前打开的表单合并的表单。 当前处于打开状态的表单是目标表单，在“合并表单”**** 对话框中选择的表单称为源表单。
+The **Merge Forms** feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form. This is also known as data aggregation. If merging forms is enabled, you can click the **File** tab, click **Save &amp; Send**, click **Merge Forms** under **Import &amp; Link**, and then click the **Merge Forms** button to select one or more forms to merge with the currently opened form. The form that is currently open is the target form and the forms selected in the **Merge Forms** dialog box are known as the source forms.
   
 通过合并表单生成的数据的聚合可以包括源表单和目标表单中包含的所有数据，或者仅包括原始数据的一部分。默认操作如下。
   
@@ -90,7 +90,7 @@ Microsoft InfoPath 编辑器的“合并表单”**** 功能旨在将多个表�
 
 1. 选择要从中合并数据的 XML 源文档的种类。收集每种源文档的代表性示例。
     
-2. 为现有 InfoPath 表单的每种 XML 源文档派生 XML 模式。 通过使用 Backstage 的“发布”**** 选项卡上的“导出源文件”**** 命令导出 XML 架构，可以轻松完成此步骤。 对于不是在 InfoPath 中创建的 XML 文档，可以使用 Microsoft Visual Studio 等工具从示例 XML 文档创建架构，也可以从 InfoPath 中的 XML 文档创建示例表单，然后导出 InfoPath 从文档结构派生出来的架构。 
+2. Derive the XML schema for each kind of XML source document for an existing InfoPath form. This step is easily accomplished by exporting the XML schema with the **Export Source Files** command on the **Publish** tab of the Backstage. For XML documents that were not created in InfoPath, you can use a tool such as Microsoft Visual Studio to create a schema from the sample XML document, or you can create a sample form from the XML document in InfoPath, and then export the schema that InfoPath derives from the document structure. 
     
 3. 确定要从每种 XML 源文档中合并的数据。此步骤将几乎完全取决于源表单和目标表单的要求。对于某些表单，您可能需要从源表单中复制所有数据。对于其他表单，则可能只需要从表单的基础 XML 文档中复制一两个元素。在确定要合并什么数据时，要格外留意源文档和目标文档，以确保元素在两个表单之间有逻辑地映射。
     
@@ -129,9 +129,9 @@ Microsoft InfoPath 编辑器的“合并表单”**** 功能旨在将多个表�
         </xsl:template>
     ```
 
-5. 在表单模板中添加 XSL 转换文件和架构文件。 为每种源文档派生架构并创建 XSL 转换以转换每种文档类型以便 InfoPath 可以合并其数据后，将它们作为资源添加到表单中。 单击“数据”**** 选项卡上的“资源文件”****，然后单击“资源文件”**** 对话框中的“添加”****，浏览到你的架构或 XSL 转换文件，然后单击“确定”****。 对创建的每个架构文件和 XSL 转换文件执行此操作。
+5. Add the XSL transform files and schema files in the form template. After you have derived schemas for each kind of source document and created an XSL transform to convert each document type so that InfoPath can merge its data, add them to as resources to your form. Click **Resource Files** on the **Data** tab, and then click **Add** in the **Resource Files** dialog box, browse to your schema or XSL transform file, and then click **OK**. Do this to for each schema file and XSL transform file that you created.
     
-    如果所添加的架构使用 **targetNamespace** 属性，则必须将一个属性元素添加到表单的 .xsf 文件中，以便 InfoPath 知道架构的命名空间。 若要访问此文件，请单击“文件”**** 选项卡，单击“发布”****，然后单击“导出源文件”****。 选择文件的位置，然后单击“确定”****。 然后关闭你正在设计的 InfoPath 表单模板。
+    If the schemas that you add use the **targetNamespace** attribute, you must add a property element to the form's .xsf file so that InfoPath knows the namespace of the schema. To access this file, click the **File** tab, click **Publish**, and then click **Export Source Files**. Select a location for the files, and then click **OK**. Then close the InfoPath form template that you are designing.
     
     浏览到您为提取的文件指定的位置，并查找具有 .xsf 文件扩展名的文件。通常，此文件名为 manifest.xsf。在记事本中打开该文件，查找与您的架构对应的  `<xsf:file>` 标记，并添加"namespace"属性元素以指定 **targetNamespace**，如下面的示例所示。 
     
@@ -157,6 +157,6 @@ Microsoft InfoPath 编辑器的“合并表单”**** 功能旨在将多个表�
 
 通过使用 [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) 事件处理程序可以支持自定义与代码的合并，其中 .xsf 文件中 **importParameters** 元素的相应的 **useScriptHandler** 属性与表单相关联。 
 
-在托管代码中，可以通过选中“使用自定义代码合并”**** 框，然后单击 Backstage 中“表单选项”**** 对话框的“高级”**** 类别中的“编辑”**** 按钮来启用 [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) 事件。 
+In managed code, you can enable the [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) event by checking the box **Merge using custom code**, and then clicking the **Edit** button, in the **Advanced** category of the **Form Options** dialog box available from the Backstage. 
   
 

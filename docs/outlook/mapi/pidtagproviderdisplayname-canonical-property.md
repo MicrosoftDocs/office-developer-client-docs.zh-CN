@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 6aaf4b2c-2e78-47f0-a2df-53738c36cbb9
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4629e4e932151978f551e4a89c6682a26a91eafe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41c255da456483695f43e06e4ae07cd1643d0733
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591449"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286479"
 ---
 # <a name="pidtagproviderdisplayname-canonical-property"></a>PidTagProviderDisplayName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 包含提供程序的显示名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_PROVIDER_DISPLAY_NAME，PR_PROVIDER_DISPLAY_NAME_A，PR_PROVIDER_DISPLAY_NAME_W  <br/> |
-|标识符：  <br/> |0x3418  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_PROVIDER_DISPLAY_NAME、PR_PROVIDER_DISPLAY_NAME_A、PR_PROVIDER_DISPLAY_NAME_W  <br/> |
+|标识符:  <br/> |0x3418  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |MAPI 邮件存储  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

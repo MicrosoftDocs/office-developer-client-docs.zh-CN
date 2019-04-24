@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 8f45f800ca50d2a46792e7cf5e00ac25bd099e8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569334847c7612b86f6ddc967f159e2ef425cbbb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303813"
 ---
 # <a name="xludf"></a>xlUDF
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-调用用户定义函数 (UDF)。 此功能允许 DLL 调用 Visual Basic for Applications (VBA) 用户定义的函数、 XLM 宏语言函数和注册其他加载项中包含的函数。
+调用用户定义的函数 (UDF)。 此函数允许 DLL 调用 Visual Basic for Applications (VBA) 用户定义的函数、XLM 宏语言函数和其他加载项中包含的已注册函数。
   
 ```cs
 Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
@@ -31,21 +31,21 @@ LPXLOPER12 pxArg1, ...);
 
 ## <a name="parameters"></a>参数
 
-_pxFnRef_（**xltypeRef**、 **xltypeSRef**、 **xltypeStr**或**xltypeNum**）
+_pxFnRef_(**xltypeRef**、 **xltypeSRef**、 **xltypeStr**或**xltypeNum**)
   
-要调用的函数的引用。 这可以是宏工作表单元格引用，作为字符串函数的已注册名称或注册 ID 的函数。 对于 XLL 加载项函数注册使用提供的参数_pxFunctionText_ **xlfRegister**或**注册**，可以通过使用**xlfEvaluate**查找名称获得 ID。 
+要调用的函数的引用。 它可以是宏工作表单元格引用、作为字符串的函数的注册名称或函数的 register ID。 对于使用**xlfRegister**注册的 XLL 加载项函数或在提供参数_pxFunctionText_的情况下**注册**时, 可以使用**xlfEvaluate**来查找该名称, 从而获取 ID。 
   
-_pxArg1..._
+_pxArg1 .。。_
   
-零个或多个用户定义函数的参数。 时要调用此函数中版本早于 Excel 2007，可以传递的其他参数的最大数量为 29，这是 30 包括_pxFnRef_。 从 Excel 2007 开始，此限制增加到 254，这是 255 包括_pxFnRef_。
+对用户定义函数的零个或多个参数。 在 Excel 2007 之前的版本中调用此函数时, 可以传递的其他参数的最大数目为 29, 即 30 (包括_pxFnRef_)。 从 Excel 2007 开始, 此限制将提升到 254, 其中为 255, 其中包括_pxFnRef_。
   
 ## <a name="return-value"></a>返回值
 
-返回任何值返回的用户定义函数。
+返回用户定义的函数返回的任何值。
   
 ## <a name="example"></a>示例
 
-下面的示例表 Macro1 BOOK1 中运行**TestMacro** 。XLS。 请确保为宏名为 Macro1 工作表上。 
+下面的示例在 book1.xls 中的 sheet Macro1 上运行**TestMacro** 。.xls. 请确保该宏位于名为 Macro1 的工作表上。 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

@@ -1,22 +1,22 @@
 ---
-title: tp 元素 （Text_Type 复杂类型） (Visio XML)
+title: tp 元素 (Text_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
-description: 指定运行选项卡属性的开头。 到末尾的文字或直到下一个标记定义运行。
+description: 指定要运行的选项卡属性的开头。 运行被定义为文本的末尾或直到下一个标记。
 ms.openlocfilehash: 3f27ea0babefa0ea69cbbc361031c57602649107
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307698"
 ---
-# <a name="tp-element-texttype-complextype-visio-xml"></a>tp 元素 （Text_Type 复杂类型） (Visio XML)
+# <a name="tp-element-texttype-complextype-visio-xml"></a>tp 元素 (Text_Type 复杂类型) ("Visio XML")
 
-指定运行选项卡属性的开头。 到末尾的文字或直到下一个标记定义运行。
+指定要运行的选项卡属性的开头。 运行被定义为文本的末尾或直到下一个标记。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25397546"
 |:-----|:-----|
 |**元素类型** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |页面 #.xml、 母版页 #.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |页面 # .xml、master # .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -35,7 +35,7 @@ ms.locfileid: "25397546"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -49,8 +49,8 @@ ms.locfileid: "25397546"
   
 ### <a name="attributes"></a>属性
 
-|**属性**|**类型**|**必需**|**说明**|**可能的值**|
+|**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |必需  <br/> |其父元素中的元素的从零开始的索引。  <br/> |Xsd:unsignedInt 类型的值。  <br/> |
+|IX  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |元素在其父元素中的从零开始的索引。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
    
 

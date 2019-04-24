@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 069676957d280a0bf3b398bb23b27f0e654bc655
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 350ae99baf088a36fa3e1159caa1805cdd623276
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773848"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303827"
 ---
 # <a name="xlgetname"></a>xlGetName
 
 **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-字符串的形式返回的 dll 的完整路径和文件名称。
+以字符串的形式返回 DLL 的完整路径和文件名。
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
@@ -30,11 +30,11 @@ Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 
 ## <a name="parameters"></a>参数
 
-此函数具有任何参数。
+此函数没有参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-返回路径和文件名称 (**xltypeStr**)。 
+返回路径和文件名 (**xltypeStr**)。 
   
 ## <a name="example"></a>示例
 

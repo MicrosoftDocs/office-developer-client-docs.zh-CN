@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 07be8da4a07b988d5e848048a088859b58ea3a14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d3cc41487f0cae31e110249fe148f5370319a39a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304093"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-通过 Microsoft Excel 窗口显示一个模式对话框时，光标通过 Excel 窗口是忙游标。 此**WndProc**陷阱 WM_SETCURSOR 键入 Windows 消息和更改光标回正常的箭头。 
+当在 Microsoft Excel 窗口上显示模式对话框时, 光标在 Excel 窗口上是一个繁忙的光标。 此**WndProc**陷阱 WM_SETCURSOR 键入 Windows 消息, 并将光标更改回正常箭头。 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
@@ -32,25 +32,25 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
 
  _hWndDlg_(**HWND**)
   
-包含对话框的 HWND Windows 句柄。
+包含对话框的 HWND 窗口句柄。
   
- _消息_(**UINT**)
+ _邮件_(**UINT**)
   
-要回复的消息。
+要响应的邮件。
   
  _wParam_(**WPARAM**)
   
  _lParam_(**LPARAM**)
   
-通过 Windows 传递的参数。
+由 Windows 传递的参数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-Lresult 替换： 如果消息处理 0，否则返回的结果由默认**WndProc**。
+LRESULT: 0 如果已处理邮件, 否则由默认**WndProc**返回的结果。
   
 ### <a name="example"></a>示例
 
-请参阅`\SAMPLES\GENERIC\GENERIC.C`的此函数的源代码。 
+有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
   
 ## <a name="see-also"></a>另请参阅
 

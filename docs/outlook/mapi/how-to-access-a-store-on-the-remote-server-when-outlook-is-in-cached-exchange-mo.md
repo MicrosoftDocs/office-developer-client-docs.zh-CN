@@ -1,29 +1,29 @@
 ---
-title: 缓存 Exchange 模式 Outlook 时访问远程服务器上的存储
+title: 当 Outlook 处于缓存 Exchange 模式下时, 访问远程服务器上的存储区
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
-description: 上次修改时间： 2012 年 7 月 2 日
-ms.openlocfilehash: c7994366000e323cc7d14a9c3a02b5229c5f08e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '上次修改时间: 2012 年7月2日'
+ms.openlocfilehash: cfc20c1a9ca4510ffec86bf16666f1fc50822321
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299438"
 ---
-# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>缓存 Exchange 模式 Outlook 时访问远程服务器上的存储
+# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>当 Outlook 处于缓存 Exchange 模式下时, 访问远程服务器上的存储区
  
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-本主题包含演示如何使用**MAPI_NO_CACHE**标志 Microsoft Office Outlook 时在缓存 Exchange 模式下打开文件夹或远程服务器上的消息存储上一条消息的 c + + 中的代码示例。 
+本主题包含 c + + 中的代码示例, 演示如何使用**MAPI_NO_CACHE**标志在 Microsoft Office Outlook 处于缓存 Exchange 模式下时, 在远程服务器上的邮件存储区中打开文件夹或邮件。 
   
-缓存的 Exchange 模式允许 Outlook 使用用户的邮箱的本地副本，而 Outlook 保持联机连接到的远程副本的远程 Exchange 服务器上的用户的邮箱。 默认情况下，在缓存 Exchange 模式下运行 Outlook 时登录到同一个会话任何 MAPI 解决方案还会连接到缓存的邮件存储区。 对邮箱的本地副本进行访问的任何数据和所做的任何更改。
+缓存 Exchange 模式允许 outlook 在 outlook 维护与远程 Exchange 服务器上的用户邮箱远程副本的联机连接时使用该用户邮箱的本地副本。 当 Outlook 在缓存 Exchange 模式下运行时, 默认情况下, 登录到同一会话的任何 MAPI 解决方案也将连接到缓存的邮件存储区。 访问的任何数据和所做的任何更改都将针对邮箱的本地副本进行。
   
-客户端或服务提供程序可以重写与本地消息存储库的连接并通过调用**[IMsgStore::OpenEntry](imsgstore-openentry.md)** 时为**MAPI_NO_CACHE** *ulFlags*参数中设置了位打开一条消息或远程存储上的文件夹。 
+在调用**[IMsgStore:: OpenEntry](imsgstore-openentry.md)** 时, 客户端或服务提供程序可以通过在*ulFlags*参数中设置**MAPI_NO_CACHE**的位来覆盖本地邮件存储的连接并在远程存储中打开邮件或文件夹。 
   
-下面的代码示例演示如何使用*ulFlags*参数中的设置以打开上的远程邮件存储区的根文件夹**MAPI_NO_CACHE**标志调用**IMsgStore::OpenEntry** 。 
+下面的代码示例演示如何使用*ulFlags*参数中设置的**MAPI_NO_CACHE**标志调用**IMsgStore:: OpenEntry** , 以打开远程邮件存储区上的根文件夹。 
   
 ```cpp
 HRESULT HrOpenRootFolder ( 
@@ -44,7 +44,7 @@ HRESULT HrOpenRootFolder (
 }
 ```
 
-如果使用远程服务器上的**MDB_ONLINE**标志中打开的消息存储，您不必使用**MAPI_NO_CACHE**标志。 
+如果使用远程服务器上的**MDB_ONLINE**标志打开邮件存储区, 则无需使用**MAPI_NO_CACHE**标志。 
   
 ## <a name="see-also"></a>另请参阅
 

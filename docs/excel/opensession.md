@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6cfd3513-800f-4602-b3e6-6430920718d6
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 782843f11643e203488b313181d224443a1d36c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e4df0c5772f28ab4ab8d84eaddfe4409a88061b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301629"
 ---
 # <a name="opensession"></a>OpenSession
 
@@ -28,11 +28,11 @@ int OpenSession(WCHAR *Params)
 
 _参数_
   
-> 一个指向以分号分隔的会话的参数的 UNICODE 字符串。 Excel 不使用此参数。
+> 指向会话的参数的以分号分隔的 UNICODE 字符串的指针。 Excel 不使用此参数。
     
 ## <a name="return-value"></a>返回值
 
-要会话已成功创建; 如果在到群集连接器，而其他呼叫中使用的会话 ID否则为**xlHpcRetCallFailed**。
+在对群集连接器的其他调用中使用的会话 ID (如果已成功创建会话);否则**xlHpcRetCallFailed**。
   
 ## <a name="see-also"></a>另请参阅
 

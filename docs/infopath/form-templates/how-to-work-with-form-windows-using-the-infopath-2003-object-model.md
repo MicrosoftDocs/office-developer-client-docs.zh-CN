@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: 以编程方式处理 InfoPath 表单时，您可以编写代码来访问该表单的窗口，然后自定义窗口中包含的某些项目。通过结合使用 WindowObject 接口和 WindowsCollection 接口，InfoPath 2003 兼容对象模型支持对表单的窗口进行访问。
-ms.openlocfilehash: 4ca0fb53fd8502773d3e770814a5a24c40b2d79f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: f8939fc562cf16c1bce0f6f88bba659e895254f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299893"
 ---
 # <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>使用 InfoPath 2003 对象模型处理表单窗口
 

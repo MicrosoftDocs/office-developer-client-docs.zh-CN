@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9a37382cda1a96025f950d941f83fb5b6a0497bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 58db944720817491420f2bcb1774e51e3842b4a6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286465"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>PidTagProviderDisplay 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含服务提供商的供应商定义的显示名称。
+包含供应商定义的服务提供商的显示名称。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_PROVIDER_DISPLAY，PR_PROVIDER_DISPLAY_A，PR_PROVIDER_DISPLAY_W  <br/> |
-|标识符：  <br/> |0x3006  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|相关属性：  <br/> |PR_PROVIDER_DISPLAY、PR_PROVIDER_DISPLAY_A、PR_PROVIDER_DISPLAY_W  <br/> |
+|标识符:  <br/> |0x3006  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
 ## <a name="remarks"></a>注解
 
-仅在属于服务提供商的配置文件部分定义这些属性和**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))。 它们必须存在于 MAPISVC.INF 中。
+这些属性和**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) 仅在属于服务提供程序的配置文件节中进行定义。 它们必须存在于 mapisvc.inf 中。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -1,38 +1,38 @@
 ---
-title: Year 函数 （访问自定义 web 应用程序）
+title: Year 函数 (Access 自定义 web 应用)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a70751eb-bfde-4f7d-ad90-a1e4cca25dbc
-description: 返回一个代表公历日历中的指定日期的年的数字值。
-ms.openlocfilehash: f9d72343637734257a2ed9589e5539b845933826
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回一个数值, 表示公历中指定日期的年份。
+ms.openlocfilehash: 1400c352bcc070035d15b46f8e547e4637364299
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301664"
 ---
-# <a name="year-function-access-custom-web-app"></a>Year 函数 （访问自定义 web 应用程序）
+# <a name="year-function-access-custom-web-app"></a>Year 函数 (Access 自定义 web 应用)
 
-返回一个代表公历日历中的指定日期的年的数字值。
+返回一个数值, 表示公历中指定日期的年份。
   
 > [!NOTE]
-> 本文中所述的云存储功能不再支持在 Office 2013 和 Office 2016 中，可能会导致以下错误： >*对不起，我们在遇到服务器问题，因此我们不能添加\<服务\>立即。请稍后重试。* > 的 Office Online、 iOS，面向 Office 和 Office for Android 云存储，您可以查看到我们[Office 云存储合作伙伴计划](https://dev.office.com/programs/officecloudstorage)。 
+> 本文介绍的云存储功能在 Office 2013 和 Office 2016 中不再受支持，并且可能会导致以下错误：> *抱歉，遇到服务器问题，暂时无法添加 \<service\>。请稍后重试。* > 对于面向 Office Online、Office for iOS 和 Office for Android 的云存储，可以查看我们的 [Office 云存储合作伙伴计划](https://dev.office.com/programs/officecloudstorage)。 
   
 ## <a name="syntax"></a>语法
 
- **年**(*日期*) 
+ **年**(*Date*) 
   
-**Year**函数包含以下参数。 
+**Year**函数包含下列参数。 
   
 |**参数名称**|**说明**|
 |:-----|:-----|
-| *Date*  <br/> |一个可解析为日期/时间值的表达式。 *日期*参数表达式、 列表达式、 用户定义的变量或字面字符串。  <br/> |
+| *Date*  <br/> |可以解析为日期/时间值的表达式。 *日期*参数表达式、列表达式、用户定义的变量或字符串文本。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**年**、**月**和**日**函数返回值将是公历-无论提供的日期值的显示格式的值。 例如，如果提供的日期使用的显示格式回历、**年**、**月**和**日**函数的返回的值将为值与等效公历日期关联。 
+由**Year**、 **Month**和**Day**函数返回的值将为公历值, 而不考虑提供的日期值的显示格式。 例如, 如果所提供日期的显示格式使用阿拉伯回历日历, 则**Year**、 **Month**和**Day**函数的返回值将是与等效公历日期相关联的值。 
   
 

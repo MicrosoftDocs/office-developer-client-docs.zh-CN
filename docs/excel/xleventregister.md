@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: d837d87c479f70f0184a7cf1612dea5ab8c99e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 869122954ffe3928dfea72b8fc9fb432b9979e42
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303932"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
@@ -28,26 +28,26 @@ Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12
 
  _pxProcedure_(**xltypeStr**)
   
-在 DLL 的代码中显示它的事件处理程序函数的名称。
+在 DLL 代码中显示的事件处理程序函数的名称。
   
  _pxEvent_(**xltypeInt**)
   
-通过_pxProcedure_参数中指定的函数处理的事件。 
+由_pxProcedure_参数中指定的函数处理的事件。 
   
-Excel 启动 Excel 2010 中支持以下事件：
+从 excel 2010 开始, excel 支持以下事件:
   
-|"事件"|**说明**|
+|**Event**|**Description**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Excel 完成计算时引发。 您可以释放分配此事件后在计算过程中的任何资源。  <br/> |
-|**xleventCalculationCanceled** <br/> |当用户中断计算时引发。 XLL 应停止任何异步活动。 紧跟此事件时引发 CalculationEnded 事件。  <br/> |
+|**xleventCalculationEnded** <br/> |在 Excel 完成计算时引发。 在此事件发生之后, 您可以释放在计算过程中分配的任何资源。  <br/> |
+|**xleventCalculationCanceled** <br/> |当用户中断计算时引发。 XLL 应停止任何异步活动。 在此事件之后立即引发 CalculationEnded 事件。  <br/> |
    
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
-如果成功，则返回**TRUE** (**xltypeBool**)。 如果不成功，则返回**FALSE**。
+如果成功,**则返回 TRUE** (**xltypeBool**)。 如果不成功, 则返回**FALSE**。
   
 ## <a name="see-also"></a>另请参阅
 
 
 
-[用户定义的异步函数](asynchronous-user-defined-functions.md)
+[用户定义异步函数](asynchronous-user-defined-functions.md)
 

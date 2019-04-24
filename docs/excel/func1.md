@@ -11,18 +11,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 适用于： Excel 2013 | Office 2013 | Visual Studio
-ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3d3c6bbd529f43bd75b31b9348498928390a8f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19773749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304079"
 ---
 # <a name="func1"></a>Func1
 
  **适用于** Excel 2013 | Office 2013 | Visual Studio 
   
-示例用户定义的工作表函数演示的静态的字符串值返回。 加载 GENERIC.xll 时，以便它可以调用从工作表中注册此函数。
+用户定义的工作表函数示例演示了静态字符串值的返回。 当加载了 GENERIC xll 时, 它将注册此函数, 以便可以从工作表中调用它。
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
@@ -30,17 +30,17 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## <a name="parameters"></a>参数
 
- _像素_(**LPXLOPER**)
+ _px_(**LPXLOPER**)
   
-此参数被忽略，并且可仅对触发器 Microsoft Excel 将调用的函数。
+此参数将被忽略, 并且仅用于触发 Microsoft Excel 以调用函数。
   
 ## <a name="property-valuereturn-value"></a>属性值/返回值
 
- **LPXLOPER12**： 始终字符串"Func1"
+ **LPXLOPER12**: 始终是字符串 "Func1"
   
 ### <a name="example"></a>示例
 
-请参阅`\SAMPLES\GENERIC\GENERIC.C`的此函数的源代码。 
+有关`\SAMPLES\GENERIC\GENERIC.C`此函数的源代码, 请参阅。 
   
 ## <a name="see-also"></a>另请参阅
 

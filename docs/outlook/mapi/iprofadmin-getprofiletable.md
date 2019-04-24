@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8b1b037cf24c1bb5a0c84da3d59892ab15763f37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2db7dba67e7b71df6921ecd97189255a0ef7823a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588242"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309546"
 ---
 # <a name="iprofadmingetprofiletable"></a>IProfAdmin::GetProfileTable
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供对配置文件表中，一个表，包含有关所有可用的配置文件信息的访问。
+提供对配置文件表 (包含所有可用配置文件的相关信息的表) 的访问权限。
   
 ```cpp
 HRESULT GetProfileTable(
@@ -38,11 +38,11 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> [in]始终为 NULL。
+> 实时始终为 NULL。
     
  _lppTable_
   
-> [输出]指向配置文件表格的指针的指针。
+> 排除指向指向配置文件表的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
@@ -52,21 +52,21 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-**IProfAdmin::GetProfileTable**方法提供了对配置文件表，其中包含一行，每个可用的配置文件的访问。 在每行中有只有两个列： 配置文件的显示名称和一个指示的配置文件是否是默认的标志。 
+**IProfAdmin:: GetProfileTable**方法提供对配置文件表的访问, 其中每个可用的配置文件在其中占一行。 每行中仅有两列: 配置文件的显示名称和指示是否为默认配置文件的标志。 
   
-配置文件已被删除，或的仍在使用，但已标记为删除，不包括在配置文件表。 配置文件表是静态;后续的添加和配置文件的删除操作不会反映表中。 
+配置文件表中不包含已删除或正在使用但已标记为删除的配置文件。 配置文件表是静态的;后续的配置文件添加和删除不会反映在表中。 
   
-如果没有配置文件存在，则**GetProfileTable**将返回具有零个行的表。 
+如果不存在任何配置文件, **GetProfileTable**将返回一个包含零行的表。 
   
-有关配置文件表的详细信息，请参阅[配置文件表](profile-tables.md)。 
+有关配置文件表的详细信息, 请参阅[profile Tables 表](profile-tables.md)。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI 使用**IProfAdmin::GetProfileTable**方法来获取要在新的对话框中显示的配置文件表。  <br/> |
+|MainDlg  <br/> |CMainDlg:: OnShowProfiles  <br/> |MFCMAPI 使用**IProfAdmin:: GetProfileTable**方法获取要在新对话框中显示的配置文件表。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

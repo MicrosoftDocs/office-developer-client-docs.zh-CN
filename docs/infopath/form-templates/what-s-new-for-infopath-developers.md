@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: InfoPath 旨在让您轻松地在 Microsoft SharePoint Server 平台上构建各种基于表单的应用程序。Microsoft SharePoint Server 2013 与 InfoPath Forms Services 和 Microsoft InfoPath 2013 结合使用可提供面向开发人员的许多功能。利用 SharePoint Server 2013 中提供的 InfoPath Forms Services，您可以将 InfoPath 表单模板部署到 SharePoint Server，以便没有 InfoPath 富客户端的用户可以在 Web 浏览器中打开并填写 InfoPath 表单。
 ms.openlocfilehash: 5d469dfb99290054008271867f24d947a42efeee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303190"
 ---
 # <a name="whats-new-for-infopath-developers"></a>为 InfoPath 开发人员提供的新功能
 
@@ -55,11 +55,11 @@ InfoPath 旨在让您轻松地在 Microsoft SharePoint Server 平台上构建各
   
 ## <a name="publish-forms-with-one-click"></a>只需单击一次即可发布表单
 
-InfoPath 旨在使发布对表单的更新比以前更为轻松。 首次发布表单模板后，你只需单击新的“快速发布”**** 按钮（可在“快速访问工具栏”**** 和新的 Microsoft Office Backstage 中找到，后者可通过单击“文件”**** 选项卡找到）一次，即可完成此任务，而无需在若干个对话框中单击。 
+InfoPath is designed to make it easier than ever to publish updates to your forms.. After the first time that you publish a form template, instead of clicking through several dialog boxes, you can complete this task with one click of the new **Quick Publish** button, which is available on the **Quick Access Toolbar**, and in the new Microsoft Office Backstage, which is available by clicking the **File** tab. 
   
 ## <a name="enhance-sharepoint-list-forms"></a>增强 SharePoint 列表表单
 
-使用 InfoPath，现在可以扩展和增强用于创建、编辑和查看 SharePoint 列表中的项目的表单。 通过打开列表，单击“列表工具”**** 下的“列表”**** 选项卡，然后单击“自定义表单”****，可以自动生成类似于默认现成可用的 SharePoint 列表表单的 InfoPath 表单。 然后可以通过修改布局、创建其他视图和在 InfoPath 中添加规则和数据验证来自定义和增强此表单。 修改完改进的列表表单后，可以使用 InfoPath 中新的一键发布功能将其发布到 SharePoint。
+Using InfoPath, you can now extend and enhance the forms used for creating, editing and viewing items in a SharePoint list. By opening a list, clicking the **List** tab under **List Tools**, and then clicking **Customize Form**, you can auto generate an InfoPath form which resembles the default, out-of-the-box SharePoint list form. You can then customize and enhance this form by modifying the layout, creating additional views, and adding rules and data validation in InfoPath. When you are finished modifying your improved list form, you can publish it to SharePoint using the new one-click publish feature in InfoPath.
   
 ## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>使用 InfoPath 表单 Web 部件在门户页上托管表单
 
