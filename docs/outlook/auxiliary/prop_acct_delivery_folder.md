@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a409c49b-b390-021e-2ec1-7a5932a0c8de
 description: 表示该帐户的默认送达文件夹的条目 ID。
-ms.openlocfilehash: 56b648b6a79e7497cab1980a86ca11d1c7a6aa3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1bac4890791edfe661599d383e2cb048bf4c42fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327697"
 ---
 # <a name="propacctdeliveryfolder"></a>PROP_ACCT_DELIVERY_FOLDER
 
@@ -29,7 +29,7 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x00190102  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   

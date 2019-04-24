@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 502bc24ece37c91e2cac23cf8486df96d5a71377
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 2e44d824bbb5cc96c51d7ca91eb639001bc52a71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584336"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328871"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584336"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检索当前表行位置的指针，根据分数的值。
+根据分数值检索游标的当前表行位置。
   
 ```cpp
 HRESULT QueryPosition(
@@ -39,39 +39,39 @@ ULONG FAR * lpulDenominator
 
  _lpulRow_
   
-> [输出]到当前行数的指针。 行号是从零开始;表中的第一行为零。 
+> 排除指向当前行的编号的指针。 行号是从零开始的;表格中的第一行为零。 
     
  _lpulNumerator_
   
-> [输出]指向分子分数标识表位置的指针。
+> 排除指向标识表位置的分数的分子的指针。
     
  _lpulDenominator_
   
-> [输出]指向分母分数标识表位置的指针。 _LpulDenominator_参数不能为零。 
+> 排除指向标识表格位置的分数的分母的指针。 _lpulDenominator_参数不能为零。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 该方法返回_lpulRow_、 _lpulNumerator_和_lpulDenominator_中有效的值。
+> 该方法在_lpulRow_、 _lpulNumerator_和_lpulDenominator_中返回了有效值。
     
 ## <a name="remarks"></a>注解
 
-**IMAPITable::QueryPosition**方法确定当前行位置，并返回这两个当前行和分数的值，该值指示它表末尾的相对位置的数量。 MAPI 将当前行定义为要读取的下一行。 
+**IMAPITable:: QueryPosition**方法确定当前行位置, 并同时返回当前行的编号和表示其在表末尾的相对位置的小数值。 MAPI 将当前行定义为要读取的下一行。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-不需要返回_lpulDenominator_参数; 表中的确切的行数它可以是近似值。 
+您无需为_lpulDenominator_参数返回 table 中的确切行数;它可以是一个近似值。 
   
-如果无法确定当前行，请在_lpulRow_返回 0xFFFFFFFF 值。
+如果无法确定当前行, 则在_lpulRow_中返回值0xffffffff。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以使用**QueryPosition**定位滚动条中的滚动框。 例如，在表包含 100 的行，如果**QueryPosition** _lpulNumerator_参数， _lpulDenominator_参数中的 100 和_lpulRow_参数中的 75 中返回的值为 75 可以定位滚动框的 3/4跨滚动条方式。 
+您可以使用**QueryPosition**在滚动条中定位滚动框。 例如, 在包含100行的表中, 如果**QueryPosition**在_lpulNumerator_参数中返回值 75, 100 在_lpulDenominator_参数中, 在_lpulRow_参数中为 75, 则可以将滚动框3/4 定位滚动条上的方式。 
   
-不依赖中_lpulDenominator_正在的表中的行数的值。 **QueryPosition**始终不能确定将光标定位的确切行。 
+不要依赖_lpulDenominator_中的值作为表中的行数。 **QueryPosition**不能始终识别游标所定位的确切行。 
   
-调用**QueryPosition**可能涉及大量内存，特别是对于大分类表。 如果_lpulRow_参数设置为 0xFFFFFFFF，太多的内存，需要**QueryPosition**以确定当前行。 调用[IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md)方法来定位到由_lpulNumerator_和_lpulDenominator_参数标识的行的表。 但是，不始终希望**SeekRowApprox** **QueryPosition**如果内存不已经因素将具有同一行建立与当前的位置。 
+对**QueryPosition**的调用可能会涉及大量内存, 尤其是对于大型分类的表。 如果将_lpulRow_参数设置为 0xffffffff, 则**QueryPosition**需要过多的内存来确定当前行。 调用[IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md)方法将表定位到由_lpulNumerator_和_lpulDenominator_参数标识的行。 但是, 如果内存不是一个因素, 则不总是认为**SeekRowApprox**是与当前位置相同的行**QueryPosition**的当前位置建立的。 
   
 ## <a name="see-also"></a>另请参阅
 

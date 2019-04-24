@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6a06283e3eb072e1f502d0b1bd303ce9f0733578
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: bb7d49d69fadab54212ff7e8b50ac969e4890c0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327494"
 ---
 # <a name="form-configuration-file-verbs-section"></a>表单配置文件 [谓词] 部分
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-**[谓词]** 节列出了支持表单谓词的完整集合。 **[谓词]** 节的格式为： 
+**[谓词]** 部分列出了窗体支持的完整谓词集。 **[谓词]** 部分的格式为: 
   
- **[谓词]**
+ **谓词**
   
  **Verb1** =  _字符串_
   
-以下是 **[谓词]** 部分的示例。 
+以下是 **[谓词]** 部分的一个示例。 
   
 ```cpp
 [Verbs]
@@ -36,19 +36,19 @@ Verb2=2
 
 ```
 
-每个动作定义在单独 **[动词。** _字符串_**]** 部分。 A **[动词。** _字符串_**]** 部分介绍单个动词形式提供。 中的**DisplayName**条目 **[动词。** _字符串_**]** 节指定在用户界面中显示的命令名称。 [IMAPIForm::DoVerb](imapiform-doverb.md)方法中传递的动词编号相对应的**代码**条目。 语法为 **[动词。** _字符串_**]** 部分是： 
+每个谓词都在一个单独的 **[谓词**中定义。 _string_**]** 部分。 A **[谓词。** _string_**]** 部分介绍由窗体提供的单个谓词。 **[谓词**] 中的**DisplayName**项。 _string_**]** 部分指定在用户界面中显示的命令名称。 **代码**条目对应于[IMAPIForm::D overb](imapiform-doverb.md)方法中传递的动词编号。 **[谓词**] 的语法。 _string_**]** 部分为: 
   
- **[动词。** _字符串_**]**
+ **动词.** _string_**]**
   
  **DisplayName** =  _显示字符串_
   
- **代码** =  _整数_
+ **代码** =  _integer_
   
- **Flags** =  _整数_
+ **Flags** =  _integer_
   
  **Attribs** =  _整数_
   
-下面是示例 **[动词。** _字符串_**]** 部分。 
+下面是一个 **[谓词**的示例。 _string_**]** 部分。 
   
 ```cpp
 [Verb.1]
@@ -64,6 +64,6 @@ Attribs=2
 
 ```
 
-本节中列出的动作将检索客户端使用[IMAPIFormInfo::CalcVerbSet 方法](imapiforminfo-calcverbset.md)。 通过调用窗体的[IMAPIForm::DoVerb](imapiform-doverb.md)方法并将其传递要执行的动作代码号激活动词。 
+客户端使用[IMAPIFormInfo:: CalcVerbSet 方法](imapiforminfo-calcverbset.md)检索本节中列出的谓词。 通过调用窗体的[IMAPIForm::D overb](imapiform-doverb.md)方法并向其传递要执行的谓词的代码编号来激活谓词。 
   
 

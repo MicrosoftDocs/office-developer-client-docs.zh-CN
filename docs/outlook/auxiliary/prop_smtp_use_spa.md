@@ -6,30 +6,30 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
-description: 指定是否为 SMTP 帐户使用安全密码身份验证 (SPA)。
-ms.openlocfilehash: a0bd944f4534f1a18021d1cbf6a1d224e60f9568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 指定是否对 SMTP 帐户使用安全密码身份验证 (SPA)。
+ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328334"
 ---
 # <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
 
-指定是否为 SMTP 帐户使用安全密码身份验证 (SPA)。
+指定是否对 SMTP 帐户使用安全密码身份验证 (SPA)。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|标识符：  <br/> |0x0207  <br/> |
+|标识符:  <br/> |0x0207  <br/> |
 |属性类型  <br/> |PT_DWORD  <br/> |
 |属性标记：  <br/> |0x02070003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-0 值意味着不使用 SPA，否则使用 SPA。
+零值表示不使用 spa, 否则使用 spa。
   
 ## <a name="see-also"></a>另请参阅
 

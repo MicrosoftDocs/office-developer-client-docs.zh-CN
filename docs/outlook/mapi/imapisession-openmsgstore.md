@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: fdf75787153f9a85e6a7bcddff44cf2c468a7975
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 19d3df004676a71e2bf6243d9288efd824d99c33
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325765"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-打开的消息存储并返回进一步访问[IMsgStore](imsgstoreimapiprop.md)指针。 
+打开邮件存储, 并返回一个[IMsgStore](imsgstoreimapiprop.md)指针以供进一步访问。 
   
 ```cpp
 HRESULT OpenMsgStore(
@@ -40,85 +40,85 @@ HRESULT OpenMsgStore(
 
 _ulUIParam_
   
-> [in]通用的地址对话框和其他的父窗口的句柄相关显示。
+> 实时公用地址对话框和其他相关显示的父窗口的句柄。
     
 _cbEntryID_
   
-> [in]在_lpEntryID_参数指向的项标识符的字节数。 
+> 实时条目标识符中由_lpEntryID_参数指向的字节数。 
     
 _lpEntryID_
   
-> [in]指向要打开的消息存储的项标识符的指针。 _LpEntryID_参数不能为 NULL。 
+> 实时指向要打开的邮件存储区的条目标识符的指针。 _lpEntryID_参数不能为 NULL。 
     
 _lpInterface_
   
-> [in]指向接口标识 (IID) 值，该值代表要用于访问邮件存储区的接口的指针。 传递 NULL 会导致_lppMDB_参数来返回指向的消息存储 (**IMsgStore**) 的标准接口的指针。
+> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示要用于访问邮件存储区的接口。 传递 NULL 会导致_lppMDB_参数返回指向邮件存储 (**IMsgStore**) 的标准接口的指针。
     
 _ulFlags_
   
-> [in]位掩码的标志，控制如何打开对象。 可以使用以下标志：
+> 实时用于控制对象打开方式的标志的位掩码。 可以使用以下标志:
     
-  - MAPI_BEST_ACCESS： 请求的最大网络权限打开的消息存储和允许的用户的最大客户端应用程序权限。 例如，如果客户端具有读/写权限，消息存储应打开具有读/写权限;如果客户端具有只读权限，应具有只读权限打开的消息存储。 
+  - MAPI_BEST_ACCESS: 请求使用用户允许的最大网络权限和最大客户端应用程序权限打开邮件存储区。 例如, 如果客户端具有读/写权限, 则应使用读/写权限打开邮件存储区;如果客户端具有只读权限, 则应使用只读权限打开邮件存储区。 
       
-  - MAPI_DEFERRED_ERRORS： 允许**OpenMsgStore**成功返回可能的消息之前存储是完全可调用客户端。 如果消息存储不可用，则进行后续对象呼叫会引发错误。 
+  - MAPI_DEFERRED_ERRORS: 允许**OpenMsgStore**成功返回, 这可能在邮件存储库完全提供给呼叫客户端之前。 如果邮件存储不可用, 则进行后续的对象调用可能会引发错误。 
       
-  - MDB\_NO_DIALOG： 阻止的登录对话框显示。 如果设置此标志，并且**OpenMsgStore**有不足，无法配置的信息来打开消息存储，无需用户的帮助，则将返回 MAPI_E_LOGON_FAILED。 如果未设置此标志，消息存储提供程序可以提示用户更正名或密码或执行其他操作所需的消息存储与建立连接。 
+  - MDB\_NO_DIALOG: 禁止显示登录对话框。 如果设置了此标志, 并且**OpenMsgStore**没有足够的配置信息, 无法在用户帮助下打开邮件存储区, 则将返回 MAPI_E_LOGON_FAILED。 如果未设置此标志, 则邮件存储提供程序可以提示用户更正名称或密码, 或者执行建立与邮件存储的连接所需的其他操作。 
       
-  - MDB\_NO_MAIL： 消息存储不应发送或接收邮件。 当设置此标志时，MAPI 不通知 MAPI 后台处理程序打开的时此消息存储。
+  - MDB\_NO_MAIL: 不应使用邮件存储来发送或接收邮件。 设置此标志后, mapi 将不会通知 mapi 后台处理程序正在打开此邮件存储。
       
-  - MDB\_ONLINE： 在缓存 Exchange 模式，客户端或服务提供程序可以调用此方法与 MDB_ONLINE 覆盖本地消息存储库的连接并打开远程服务器上的存储。 在缓存模式和非缓存模式下在同一 MAPI 会话中的同一时间，您无法打开 Exchange 存储。 如果您已经打开的缓存的消息存储之前，必须也关闭存储打开与此标志，或打开新其中可以使用此标志打开 Exchange 存储的远程服务器上的 MAPI 会话。
+  - MDB\_ONLINE: 在缓存 Exchange 模式中, 客户端或服务提供程序可以使用 MDB_ONLINE 调用此方法, 以覆盖与本地邮件存储区的连接并在远程服务器上打开存储。 无法同时在缓存模式和非缓存模式下打开同一 MAPI 会话中的 Exchange 存储。 如果已经打开缓存的邮件存储区，或者必须使用此标记关闭存储，或打开新的 MAPI 会话，可以使用此标记在远程服务器上打开 Exchange 存储。
       
-  - MDB_TEMPORARY： 指示 MAPI 消息存储不是永久性操作和不应添加到消息存储表。 此标志用于登录到的消息存储，因此可以从配置文件部分以编程方式检索信息。 
+  - MDB_TEMPORARY: 指示 MAPI 邮件存储区不是永久的, 不应将其添加到邮件存储库表中。 此标志用于登录到邮件存储区, 以便可以从 "配置文件" 部分以编程方式检索信息。 
       
-  - MDB_WRITE： 请求读/写权限的邮件存储区。
+  - MDB_WRITE: 请求对邮件存储区的读/写权限。
     
 _lppMDB_
   
-> [输出]为邮件存储的指针的指针。
+> 排除指向邮件存储区的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 消息存储已成功打开。
+> 邮件存储已成功打开。
     
 MAPI_E_NO_ACCESS 
   
-> 尝试访问其用户没有足够的权限的消息存储。
+> 试图访问用户具有的权限不足的邮件存储区。
     
 MAPI_E_NOT_FOUND 
   
-> 由_lpEntryID_的消息存储不存在。 
+> _lpEntryID_指示的邮件存储不存在。 
     
 MAPI_E_UNKNOWN_CPID 
   
-> 将服务器不配置为支持客户端的代码页。
+> 未将服务器配置为支持客户端的代码页。
     
 MAPI_E_UNKNOWN_LCID 
   
-> 将服务器不配置为支持客户端的区域设置信息。
+> 未将服务器配置为支持客户端的区域设置信息。
     
 MAPI_W_ERRORS_RETURNED 
   
-> 调用成功，但消息存储提供程序已经可用的错误信息。 返回此警告时，应处理呼叫为成功。 要从提供程序获取错误的信息，请调用[IMAPISession::GetLastError](imapisession-getlasterror.md)方法。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。
+> 调用成功, 但邮件存储区提供程序有可用的错误信息。 返回此警告时, 应以成功的方式处理该调用。 若要从提供程序获取错误消息, 请调用[IMAPISession:: GetLastError](imapisession-getlasterror.md)方法。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。
     
 ## <a name="remarks"></a>注解
 
-**IMAPISession::OpenMsgStore**方法打开特定邮件存储区。 
+**IMAPISession:: OpenMsgStore**方法打开特定的邮件存储区。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-消息存储库的默认权限级别是只读的。 如果设置 MDB_WRITE 标志，您仍可能不被授予读/写权限。 最终的 MAPI 分配到的消息存储取决于您的权限级别的访问级别，邮件存储本身，和消息存储提供程序。 
+邮件存储区的默认权限级别为只读。 如果设置了 MDB_WRITE 标志, 则仍可能无法授予您读/写权限。 MAPI 为邮件存储分配的最终访问级别取决于您的权限级别、邮件存储区本身和邮件存储提供程序。 
   
-如果调用**OpenMsgStore**具有只读权限打开邮件存储区时，将执行以下操作： 
+如果调用**OpenMsgStore**以打开具有只读权限的邮件存储区, 将发生以下情况: 
   
-- 存储的**PR\_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性不会其存储\_MODIFY_OK 和存储\_CREATE_OK 位设置。 
+- store 的**PR\_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性不会设置其 store\_MODIFY_OK 和 store\_CREATE_OK bits。 
     
-- 设置了 MAPI_MODIFY 标志使用[IMAPISession::OpenEntry](imapisession-openentry.md)打开之一的消息存储的邮件或文件夹的调用将失败。 
+- 通过使用[IMAPISession:: OpenEntry](imapisession-openentry.md)和 MAPI_MODIFY 标志设置来打开邮件存储区中的邮件或文件夹的调用将失败。 
     
-- 若要打开的消息存储库的邮件或文件夹的属性之一的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)使用 MAPI_MODIFY 标志的调用将失败。 
+- 通过使用[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)和 MAPI_MODIFY 标志打开邮件存储的邮件或文件夹的属性之一的调用将失败。 
     
-- 对任何以下方法的调用将失败： 
+- 对以下任一方法的调用将失败: 
     
   - [IMAPIFolder::CreateMessage](imapifolder-createmessage.md)
     
@@ -134,7 +134,7 @@ MAPI_W_ERRORS_RETURNED
     
   - [IMAPIProp::DeleteProps](imapiprop-deleteprops.md)
   
-- 如果复制邮件的目标是只读的目标是源消息存储相同还是是另一个只读的存储，对下列方法的调用将失败。
+- 如果复制的邮件的目标是只读的, 无论目标是与源邮件存储一样还是另一个只读存储, 则对以下方法的调用将失败。
     
   - [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
     
@@ -142,13 +142,13 @@ MAPI_W_ERRORS_RETURNED
     
   - [IMAPIProp::CopyTo](imapiprop-copyto.md)
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI 使用**IMAPISession::OpenMsgStore**方法打开的消息存储。  <br/> |
+|MAPIStoreFunctions  <br/> |CallOpenMsgStore  <br/> |MFCMAPI 使用**IMAPISession:: OpenMsgStore**方法打开邮件存储区。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

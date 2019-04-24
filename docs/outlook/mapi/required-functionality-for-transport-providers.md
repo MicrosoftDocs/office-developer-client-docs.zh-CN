@@ -1,5 +1,5 @@
 ---
-title: 传输提供程序的必需功能
+title: 传输提供程序所需的功能
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,30 +7,30 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: dc1189df1b8ad8f8e613d6813681ed3f4148b122
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 7f9768d47cf740bdf50b439ee3af4b0d2a191602
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328684"
 ---
-# <a name="required-functionality-for-transport-providers"></a>传输提供程序的必需功能
+# <a name="required-functionality-for-transport-providers"></a>传输提供程序所需的功能
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-每个 MAPI 传输提供程序必须：
+每个 MAPI 传输提供程序都必须:
   
-- 遵循使用 MAPI 和其他服务提供商的一般指南。 有关详细信息，请参阅[MAPI 应用程序开发](mapi-application-development.md)和[MAPI 服务提供商](mapi-service-providers.md)。
+- 遵循有关使用 MAPI 和其他服务提供商的一般准则。 有关详细信息, 请参阅[MAPI 应用程序开发](mapi-application-development.md)和[MAPI 服务提供程序](mapi-service-providers.md)。
     
-- 具有其传输提供程序为 MAPI DLL 公开其[XPProviderInit](xpproviderinit.md)初始化函数。 
+- 让其传输提供程序 DLL 向 MAPI 公开其[XPProviderInit](xpproviderinit.md)初始化功能。 
     
-- 为 MAPI 公开其实现[IXPProvider: IUnknown](ixpprovideriunknown.md)和[IXPLogon: IUnknown](ixplogoniunknown.md)接口。 
+- 向 MAPI 公开其[IXPProvider: iunknown](ixpprovideriunknown.md)和[IXPLogon: iunknown](ixplogoniunknown.md)接口的实现。 
     
-- MAPI 和客户端应用程序公开其实现[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口。 有关实现**IMAPIStatus**的详细信息，请参阅[状态对象实现](status-object-implementation.md)。 
+- 向 MAPI 和客户端应用程序公开[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口的实现。 有关实现**IMAPIStatus**的详细信息, 请参阅[Status Object 实现](status-object-implementation.md)。 
     
-- 实现属性表对话框进行配置。 有关实现属性表的详细信息，请参阅[属性表实现](property-sheet-implementation.md)。
+- 为配置实现 "属性表" 对话框。 有关实现属性表的详细信息, 请参阅[property Sheet 实现](property-sheet-implementation.md)。
     
 

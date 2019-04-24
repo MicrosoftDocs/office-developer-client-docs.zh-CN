@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 573f40c5-e0d2-4281-8c22-10a1ae1f0dee
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: d246fc0cfc60d0a2b9ff12ee70eae2366cf9b53a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: a2da3f6851e45a70dcd4604396a85430c539a830
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322391"
 ---
 # <a name="imapisecuremessagegetbasemessage"></a>IMAPISecureMessage::GetBaseMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594836"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-检索基础[IMessage: IMAPIProp](imessageimapiprop.md)这[IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md)封装。 
+检索此[IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md)封装的基础[IMessage: IMAPIProp](imessageimapiprop.md) 。 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -37,13 +37,13 @@ HRESULT GetBaseMessage(
 
  _ppmsg_
   
-> [输出]一个安全邮件对象。
+> 排除安全邮件对象。
     
 ## <a name="return-value"></a>返回值
 
 S_OK
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="see-also"></a>另请参阅
 

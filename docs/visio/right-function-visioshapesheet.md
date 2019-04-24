@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm1027314
 localization_priority: Normal
 ms.assetid: 910f0297-d588-2048-f308-03f3c2389bba
-description: 文本字符串，根据您指定的字符数中返回的最后一个字符。
-ms.openlocfilehash: e35cc4918809d5f134f9519c01cb3c93407258e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 根据指定的字符数, 返回文本字符串中的最后一个字符或多个字符。
+ms.openlocfilehash: faf14ef55b34e51bac11129d6857e381d07357c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326724"
 ---
 # <a name="right-function-visioshapesheet"></a>RIGHT 函数 (VisioShapeSheet)
 
-文本字符串，根据您指定的字符数中返回的最后一个字符。
+根据指定的字符数, 返回文本字符串中的最后一个字符或多个字符。
   
 ## <a name="syntax"></a>语法
 
-右 (* **文本** * [，* * *num_chars_opt* * *]) 
+RIGHT (* * *text* * * [, * * *num_chars_opt* * *]) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |必需  <br/> |**字符串** <br/> | 包含要提取的字符的文本字符串。  <br/> |
-| _num_chars_opt_ <br/> |可选  <br/> |**编号** <br/> |要提取的字符数。默认值为 1。  <br/> |
+| _text_ <br/> |必需  <br/> |**String** <br/> | 包含要提取的字符的文本字符串。  <br/> |
+| _num_chars_opt_ <br/> |可选  <br/> |**Number** <br/> |要提取的字符数。 默认值为 1。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
 字符串
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-_Num_chars_opt_的值必须大于或等于零 (0)。 
+_num_chars_opt_的值必须大于或等于零 (0)。 
   
-如果_num_chars_opt_大于 text 的长度，RIGHT 返回的所有文本。 如果省略_num_chars_opt_ ，则假定为 1。 
+如果_num_chars_opt_大于文本的长度, 则用鼠标右键返回所有文本。 如果省略_num_chars_opt_ , 则假定其为1。 
   
 ## <a name="example"></a>示例
 

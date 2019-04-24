@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 39a184f00ccf54d4fa4477bbdf3086f3e44bddb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 95c2e52760bd7d65351b4dd2091b68a43cd2f97c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328033"
 ---
 # <a name="freepadrlist"></a>FreePadrlist
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-销毁[ADRLIST](adrlist.md)结构并释放关联的内存，包括分配给所有成员数组和结构的内存。 
+销毁[ADRLIST](adrlist.md)结构并释放关联内存, 包括为所有成员数组和结构分配的内存。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 void FreePadrlist(
@@ -43,7 +43,7 @@ void FreePadrlist(
 
  _padrlist_
   
-> [in]指向要销毁**ADRLIST**结构。 
+> 实时指向要销毁的**ADRLIST**结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -51,17 +51,17 @@ void FreePadrlist(
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-作为其实现**FreePadrlist**的一部分，MAPI 调用[MAPIFreeBuffer](mapifreebuffer.md)函数以释放完整结构之前释放**ADRLIST**结构中的每个条目。 因此所有此类条目必须遵循了[ADRLIST](adrlist.md)结构的分配规则，使用个人[MAPIAllocateBuffer](mapiallocatebuffer.md)调用的每个成员数组和结构。 
+在**FreePadrlist**的实现过程中, MAPI 将调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 以释放**ADRLIST**结构中的每个条目, 然后再释放完整的结构。 因此, 所有这样的条目都必须遵循[ADRLIST](adrlist.md)结构的分配规则, 为每个成员数组和结构使用单独的[MAPIAllocateBuffer](mapiallocatebuffer.md)调用。 
   
-有关为**ADRLIST**和**SRowSet**结构分配内存的详细信息，请参阅[管理内存 ADRLIST 和 SRowSet 结构](managing-memory-for-adrlist-and-srowset-structures.md)。 
+有关为**ADRLIST**和**SRowSet**结构分配内存的详细信息, 请参阅[管理 ADRLIST 和 SRowSet 结构的内存](managing-memory-for-adrlist-and-srowset-structures.md)。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI 使用**FreePadrlist**方法释放生成一次性地址添加到一条消息 ADRLIST 结构。  <br/> |
+|MAPIABFunctions  <br/> |AddOneOffAddress  <br/> |MFCMAPI 使用**FreePadrlist**方法来释放为向邮件添加一次性地址而生成的 ADRLIST 结构。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

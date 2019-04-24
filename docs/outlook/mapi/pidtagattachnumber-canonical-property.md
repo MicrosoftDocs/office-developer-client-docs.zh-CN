@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 474ffaf2317cadd214074419f09bb913b1eee4ff
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327249"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>PidTagAttachNumber 规范属性
 
@@ -25,40 +25,40 @@ ms.locfileid: "25401501"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含唯一标识其父消息中的附件数。 
+包含一个在其父邮件中唯一标识附件的编号。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ATTACH_NUM  <br/> |
-|标识符：  <br/> |0x0E21  <br/> |
+|标识符:  <br/> |0x0E21  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-消息存储生成和维护此属性。 附件数是次要排序关键字后的呈现位置，以对附件表。 
+邮件存储将生成和维护此属性。 附件编号是在 "附件" 表中呈现位置之后的次要排序关键字。 
   
- **PR_ATTACH_NUM**用于与[IMessage::OpenAttach](imessage-openattach.md)方法打开附件。 客户端应用程序的会话中的邮件附件的**PR_ATTACH_NUM**属性保持不变，只要附件表处于打开状态。 
+ **PR_ATTACH_NUM**用于使用[IMessage:: OpenAttach](imessage-openattach.md)方法打开附件。 在客户端应用程序的会话中, 只要附件表处于打开状态, 邮件附件的**PR_ATTACH_NUM**属性就保持不变。 
   
-消息存储将更改传播到使用**IMessage::CreateAttach**和**IMessage::DeleteAttach**方法的表。 自行选择消息存储可以生成对打开附件表的表通知，以便客户端可以重新同步到这些更改。 
+邮件存储将使用**IMessage:: CreateAttach**和**IMessage::D eleteattach**方法将更改传播到表。 在其选项中, 邮件存储可以在打开的附件表上生成表通知, 以便客户端可以对这些更改进行重新同步。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 9d441f10a41b2f29f29d6d22a45f3c6f52270a1a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 64f98c8a9f8ab515393bb0fac4bdc10e98d9760f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329300"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>PidTagNonReceiptReason 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含未收到一条消息的原因的窗体未送达报告的一部分的原因。
+包含无法收到未送达报告的一部分的邮件的原因。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NON_RECEIPT_REASON  <br/> |
-|标识符：  <br/> |0x003E  <br/> |
+|标识符:  <br/> |0x003E  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>注解
 
-原因可以包括，例如，消息已被丢弃。
+例如, 原因可能包括邮件已被丢弃。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

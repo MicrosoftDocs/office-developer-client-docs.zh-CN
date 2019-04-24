@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 957aa00f-23d8-4f3b-bbc2-7d54f17b47b5
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 8cf2f08a69ee87c40789b764596e514c91483c2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 29626f49365a0f37f1e13d965c62bfd5ad0fb774
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328182"
 ---
 # <a name="mapi-property-identifier-overview"></a>MAPI 属性标识符概述
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-属性标识符是一个数字，用于指示属性用于和谁负责执行它。 属性标识符可以分为若干通过 MAPI 范围;标识符属于范围中的其中指示其使用情况和所有权。 
+属性标识符是一个数字, 用于指示属性的用途和负责的所有者。 将属性标识符除以 MAPI 到区域中;其中, 标识符位于范围内表示其使用和所有权。 
   
-属性标识符的范围从 0x0001 经过 0xFFFF。 在所有情况下，这意味着，这些标识符必须保持未使用保留 0x0000 和 0xFFFF 属性标识符。 定义的 MAPI 属性的范围从 0x0001 运行，以 0x3FFF。 这些属性被称为自定义 MAPI 的属性。 范围 0x4000 到 0x7FFF 所属消息和收件人属性，并且客户端或服务提供商可以在此范围中定义属性。 0x0001 到 0x7FFF 范围中的属性称为带标记的属性。 超出 0x8000 是被称为命名的属性或包含 32 位的全局唯一标识符 (GUID) 和 Unicode 字符串或数值的属性的范围。 客户端可以使用命名的属性自定义其属性集。
+属性标识符的范围从0x0001 到0xffff 运行。 在所有情况下都会保留属性标识符0x0000 和 0xffff, 这意味着这些标识符必须保持未使用。 MAPI 定义的属性的范围从0x0001 运行到0x3FFF。 这些属性称为 MAPI 定义的属性。 0x4000 到0x7FFF 的范围属于邮件和收件人属性, 客户端或服务提供程序可以在此范围内定义属性。 0x0001 到0x7FFF 的范围中的属性称为 "标记属性"。 大于0x8000 是指称为命名属性的范围, 或者是包含32位全局唯一标识符 (GUID) 的属性, 也可以是 Unicode 字符字符串或数值。 客户端可以使用命名属性来自定义其属性集。
   
-服务提供商可以定义范围通过 0x67FF 0x67F0 中的安全配置文件属性。 安全配置文件属性用于需要额外的保护，如密码的信息。 这些属性可以隐藏和加密。 由[IMAPIProp::GetPropList](imapiprop-getproplist.md)方法返回的属性的默认列表中包含安全属性取决于提供程序的实现。 通常不包括这些属性。 [IProfSect: IMAPIProp](iprofsectimapiprop.md)接口用于访问配置文件部分，包括安全属性的属性。 
+服务提供程序可以在0x67F0 到0x67FF 的范围内定义安全配置文件属性。 安全配置文件属性用于需要其他保护的信息, 如密码。 可以对这些属性进行隐藏和加密。 [IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法返回的默认属性列表中是否包含安全属性？: 方法取决于提供程序的实现。 通常情况下, 这些属性不包括在内。 [IProfSect: IMAPIProp](iprofsectimapiprop.md)接口用于访问配置文件部分的属性, 包括安全属性。 
   
-某些属性区域被限制为可传送属性或 nontransmittable 属性。 一条消息; 会传输可传送属性一条消息，不会传输 nontransmittable 属性。 Nontransmittable 属性通常包含的值仅为客户端和操作系统与当前会话的服务提供商的信息。 这些属性不一定是另一个邮件系统和服务提供商的另一组有用。 可传送属性的概念主要于传输提供程序。 若要确定是否可传送属性，请将其属性标记传递给**FIsTransmittable**宏，Mapitags.h 标头文件中定义。 
+某些属性范围限制为传输属性或 nontransmittable 属性。 传输属性与邮件一起传输;nontransmittable 属性不会与邮件一起传输。 Nontransmittable 属性通常包含仅对在当前会话中运行的客户端和服务提供程序具有价值的信息。 这些属性不一定对其他邮件系统和另一组服务提供商有用。 传输属性的概念主要适用于传输提供程序。 若要确定某个属性是否为传输, 请将其 property 标记传递给 Mapitags 头文件中定义的**FIsTransmittable**宏。 
   
-标识符范围的完整说明，请参阅[属性标识符范围](property-identifier-ranges.md)。
+有关标识符范围的完整说明, 请参阅[属性标识符范围](property-identifier-ranges.md)。
   
 ## <a name="see-also"></a>另请参阅
 

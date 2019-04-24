@@ -13,11 +13,11 @@ api_type:
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 37a0e31ea368f091e3ad9c46473d3d33299d5a21
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325723"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>PidTagAddressBookHierarchicalIsHierarchicalGroup
 
@@ -25,13 +25,13 @@ ms.locfileid: "25396601"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果通讯组列表也是部门组，包含 TRUE。 此属性是仅在通讯组列表上可用。
+如果通讯组列表也是部门组, 则该参数为 TRUE。 此属性仅适用于通讯组列表。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_EMS_AB_HAB_IS_HIERARCHICAL_GROUP  <br/> |
-|属性进行设置：  <br/> |通讯簿  <br/> |
-|长 ID （盖）：  <br/> |0x8CDD  <br/> |
+|属性集:  <br/> |通讯簿  <br/> |
+|长 ID (盖子):  <br/> |0x8CDD  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange 通讯簿  <br/> |
    
@@ -39,17 +39,17 @@ ms.locfileid: "25396601"
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Microsoft Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Microsoft Exchange Server 协议规范的引用。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/cc433489%28v=exchg.80%29)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

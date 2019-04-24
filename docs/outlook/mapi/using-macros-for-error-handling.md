@@ -8,36 +8,36 @@ api_type:
 - COM
 ms.assetid: 351405ca-b72b-4e9e-bc8e-947344588970
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 715cd001c5eab89f40c31200a12deaf6981b9a61
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9e6901d6583e7a7924a4a7c19c0a262bcef74bd3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329656"
 ---
 # <a name="using-macros-for-error-handling"></a>使用宏进行错误处理
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-有几个宏的更方便地处理的 HRESULT 值。
+有几个宏可让您更轻松地使用 HRESULT 值。
   
-有两组测试故障或成功的宏： HR_SUCCEEDED 和 HR_FAILED 和成功和失败。 成功是 HR_SUCCEEDED 和失败相同 HR_FAILED 相同。
+有两组宏可测试是否出现故障或成功: HR_SUCCEEDED 和 HR_FAILED, 并且已成功和失败。 SUCCEEDED 与 HR_SUCCEEDED 相同, 失败与 HR_FAILED 相同。
   
-在这种情况下，使用**ResultFromScode**宏 S_OK HRESULT 变量设置为相应的 HRESULT 值。 
+在这种情况下, 使用**ResultFromScode**宏将 hresult 变量设置为 S_OK 的相应 HRESULT 值。 
   
-下表简要介绍常用的宏。
+常用的宏将在下表中简要说明。
   
-|**宏**|**说明**|
+|**宏**|**Description**|
 |:-----|:-----|
-|**MAKE_HRESULT** <br/> |构造 HRESULT 从及其组件。  <br/> |
-|**HR_SUCCEEDED** <br/> |测试 HRESULT 成功或警告条件。  <br/> |
-|**HR_FAILED** <br/> |测试 HRESULT 错误条件。  <br/> |
+|**MAKE_HRESULT** <br/> |从其组件构造 HRESULT。  <br/> |
+|**HR_SUCCEEDED** <br/> |测试 HRESULT 的成功或警告条件。  <br/> |
+|**HR_FAILED** <br/> |测试错误条件的 HRESULT。  <br/> |
 |**HRESULT_CODE** <br/> |提取 HRESULT 的错误代码部分。  <br/> |
-|**HRESULT_FACILITY** <br/> |从 HRESULT 提取实用工具。  <br/> |
-|**HRESULT_SEVERITY** <br/> |从严重提取严重性位。  <br/> |
-|**成功** <br/> |测试 HRESULT 成功或警告条件。  <br/> |
-|**失败** <br/> |测试 HRESULT 错误条件。  <br/> |
+|**HRESULT_FACILITY** <br/> |从 HRESULT 中提取功能。  <br/> |
+|**HRESULT_SEVERITY** <br/> |从严重性中提取严重度位。  <br/> |
+|**完成** <br/> |测试 HRESULT 的成功或警告条件。  <br/> |
+|**未能** <br/> |测试错误条件的 HRESULT。  <br/> |
    
 

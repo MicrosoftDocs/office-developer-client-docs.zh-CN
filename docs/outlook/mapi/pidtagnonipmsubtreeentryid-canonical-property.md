@@ -12,39 +12,39 @@ api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 52cff2c0738622abf17992b2fc5557afef8e69bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 15243336dd90d75df2b27c8c1de079419412ee5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329321"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>PidTagNonIpmSubtreeEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-在 Exchange 公用文件夹存储区中显示的**NON_IPM_SUBTREE**文件夹的条目 ID。 
+显示 Exchange 公用文件夹存储中**NON_IPM_SUBTREE**文件夹的条目 ID。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NON_IPM_SUBTREE_ENTRYID  <br/> |
-|标识符：  <br/> |0x6620  <br/> |
+|标识符:  <br/> |0x6620  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |消息存储库  <br/> |
+|区域：  <br/> |邮件存储  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

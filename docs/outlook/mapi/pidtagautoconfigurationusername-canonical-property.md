@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 05dfa0e2-4ab1-4f57-9009-6a815aca87bd
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: c061760fd089db0e56c79479d2d095627355d72e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: HT
+ms.openlocfilehash: 519acb46a1401b60c47dfbb764b2e0250fd54f89
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326640"
 ---
 # <a name="pidtagautoconfigurationusername-canonical-property"></a>PidTagAutoConfigurationUserName Canonical Property
 

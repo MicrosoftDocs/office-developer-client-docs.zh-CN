@@ -12,26 +12,26 @@ api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 635525a1c2c3234d724534d225eb07022afc9956
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 827cdb919499a068f7932d8f1f7ec264ddc5b47c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328551"
 ---
 # <a name="propcopymore"></a>PropCopyMore
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 将单个属性值从源位置复制到目标位置。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE PropCopyMore(
@@ -46,19 +46,19 @@ SCODE PropCopyMore(
 
  _lpSPropValueDest_
   
-> [输出]此函数向其中写入定义复制的属性值的[SPropValue](spropvalue.md)结构的位置的指针。 
+> 排除指向此函数将定义复制的属性值的[SPropValue](spropvalue.md)结构写入到的位置的指针。 
     
  _lpSPropValueSrc_
   
-> [in]指向包含属性值将复制的[SPropValue](spropvalue.md)结构的指针。 
+> 实时指向[SPropValue](spropvalue.md)结构的指针, 该结构包含要复制的属性值。 
     
  _lpfAllocMore_
   
-> [in]指向[MAPIAllocateMore](mapiallocatemore.md)函数，以用于分配更多内存，如果目标位置没有足够容纳要复制的属性。 
+> 实时指向[MAPIAllocateMore](mapiallocatemore.md)函数的指针, 该函数用于在目标位置的大小不足以容纳要复制的属性时分配更多内存。 
     
  _lpvObject_
   
-> [in]指向其**MAPIAllocateMore**将分配空间必要对象的指针。 
+> 实时指向**MAPIAllocateMore**将在必要时为其分配空间的对象的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -68,14 +68,14 @@ S_OK
     
 MAPI_E_NO_SUPPORT
   
-> 遇到了未知的属性类型。
+> 遇到未知的属性类型。
     
 ## <a name="remarks"></a>注解
 
-客户端应用程序或服务提供商可以使用**PropCopyMore**函数复制超出将释放才能在其他地方使用它的表的属性。 
+客户端应用程序或服务提供程序可以使用**PropCopyMore**函数复制即将释放的表的属性, 以便在其他位置使用该属性。 
   
- **PropCopyMore**不需要除非复制该属性值的类型，如 PT_STRING8，不适合[SPropValue](spropvalue.md)结构中的分配内存。 对于这些大型属性，该函数分配内存使用指将指针传递_lpfAllocMore_参数中的[MAPIAllocateMore](mapiallocatemore.md)函数。 
+ **PropCopyMore**不需要分配内存, 除非复制的属性值的类型 (如 PT_STRING8) 不能包含在[SPropValue](spropvalue.md)结构中。 对于这些大型属性, 函数使用在_lpfAllocMore_参数中传递指针的[MAPIAllocateMore](mapiallocatemore.md)函数分配内存。 
   
-Injudicious 利用**PropCopyMore**片段内存;考虑使用[ScCopyProps](sccopyprops.md)函数。 
+Injudicious 使用**PropCopyMore**分段内存;请考虑改用[ScCopyProps](sccopyprops.md)函数。 
   
 

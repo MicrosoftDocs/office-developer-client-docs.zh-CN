@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: adccbaf65adec2c517c4890f722198e8262092cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7726811467324242037ec11a69ae0b1b123d7f21
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328068"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-将使用指定的关系运算符的两个属性值进行比较。 
+使用指定的关系运算符比较两个属性值。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 BOOL FPropCompareProp(
@@ -43,15 +43,15 @@ BOOL FPropCompareProp(
 
 _lpSPropValue1_
   
-> [in]定义用于比较的第一个属性值[SPropValue](spropvalue.md)结构的指针。 
+> 实时指向定义要比较的第一个属性值的[SPropValue](spropvalue.md)结构的指针。 
     
 _ulRelOp_
   
-> [in]用于比较关系运算符。 允许的值，请参阅[SComparePropsRestriction](scomparepropsrestriction.md)结构。 
+> 实时要在比较中使用的关系运算符。 有关允许的值, 请参阅[SComparePropsRestriction](scomparepropsrestriction.md)结构。 
     
 _lpSPropValue2_
   
-> [in]定义用于比较的第二个属性值**SPropValue**结构的指针。 
+> 实时指向定义比较的第二个属性值的**SPropValue**结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -65,8 +65,8 @@ FALSE
     
 ## <a name="remarks"></a>注解
 
-比较方法取决于[SPropValue](spropvalue.md)属性定义中指定的属性类型。 **FPropCompareProp**和[FPropContainsProp](fpropcontainsprop.md)函数可以用于准备用于生成表的限制。 
+比较方法取决于在[SPropValue](spropvalue.md)属性定义中指定的属性类型。 **FPropCompareProp**和[FPropContainsProp](fpropcontainsprop.md)函数可用于准备生成表的限制。 
   
-_LpSPropValue1_、 _ ulRelOp _、 _ lpSPropValue2 _ 的比较的顺序。 如果进行比较的属性值的属性类型不匹配，则**FPropCompareProp**函数将返回 FALSE。 
+比较的顺序为_lpSPropValue1_、_ ulRelOp _、_ lpSPropValue2 _。 如果要比较的属性值的属性类型不匹配, 则**FPropCompareProp**函数将返回 FALSE。 
   
 

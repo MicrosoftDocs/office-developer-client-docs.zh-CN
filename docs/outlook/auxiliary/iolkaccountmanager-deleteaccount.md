@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: 删除指定的帐户。
-ms.openlocfilehash: 1c0b246af10dac1af9c61f368d082a92c7b3616a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e39b7b9af57f64dd124e1bf836db68664709b8c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774339"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322209"
 ---
 # <a name="iolkaccountmanagerdeleteaccount"></a>IOlkAccountManager::DeleteAccount
 
@@ -32,13 +32,13 @@ HRESULT IOlkAccountManager::DeleteAccount (
 
 _dwAcctID_
   
-> [in]要删除帐户的帐户 ID。
+> 实时要删除的帐户的帐户 ID。
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
-|S_OK  <br/> |成功呼叫  <br/> |
+|S_OK  <br/> |呼叫成功  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |找不到指定的帐户。  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |帐户管理器已初始化，不能使用。  <br/> |
    

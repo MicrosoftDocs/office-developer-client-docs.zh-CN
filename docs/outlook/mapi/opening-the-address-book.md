@@ -1,5 +1,5 @@
 ---
-title: 打开在通讯簿
+title: 打开通讯簿
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,22 +7,22 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79e0bc93-f37d-4f6a-beed-7519d01e0056
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 62a4e6a09570cc3d71b0797ed7fff162d05ee416
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6d1a7e8e1d9debd7eb715bbe4958657c000f1e6b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326164"
 ---
-# <a name="opening-the-address-book"></a>打开在通讯簿
+# <a name="opening-the-address-book"></a>打开通讯簿
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-调用[IMAPISession::OpenAddressBook](imapisession-openaddressbook.md)打开集成的通讯簿和检索指向 MAPI [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)接口。 **IAddrBook**接口的方法可用于访问所有的配置文件中的地址簿提供程序的每个容器中的条目。 
+调用[IMAPISession:: OpenAddressBook](imapisession-openaddressbook.md)以打开集成的通讯簿, 并检索指向 MAPI [IAddrBook: IMAPIProp](iaddrbookimapiprop.md)接口的指针。 **IAddrBook**接口的方法可用于访问配置文件中每个通讯簿提供程序的所有容器中的条目。 
   
-**OpenAddressBook**可能返回警告，MAPI_W_ERRORS_RETURNED，以指示时出现问题与一个或多个地址簿提供程序。 交互式客户端应调用[IMAPISession::GetLastError](imapisession-getlasterror.md)检索其他错误信息并显示呼叫**OpenAddressBook**返回的信息第一个时间，并返回一条警告。 
+**OpenAddressBook**可能会返回一个警告 MAPI_W_ERRORS_RETURNED, 以指示一个或多个通讯簿提供程序出现问题。 交互客户端应调用[IMAPISession:: GetLastError](imapisession-getlasterror.md)检索其他错误信息, 并在首次调用**OpenAddressBook**时显示返回的信息, 并返回一个警告。 
   
-非交互式客户端应忽略的警告，并继续如同方法成功。 返回的**IAddrBook**接口是有效无论是否所有，一些，或无配置文件中的地址簿提供程序正在运行。 因此，交互式和非交互式客户端必须始终记住要在会话结束时释放**IAddrBook**指针。 
+非交互式客户端应忽略该警告, 然后继续操作, 就像该方法成功一样。 无论是否在配置文件中的所有通讯簿提供程序都运行, 返回的**IAddrBook**接口都是有效的。 因此, 交互和非交互客户端必须始终记住在会话结束时释放**IAddrBook**指针。 
   
 

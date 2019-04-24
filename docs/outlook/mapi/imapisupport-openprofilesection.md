@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 2e1f546d33d4781f60df56b12fce437d1e7bd675
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: e7f13acc34a77b79057d32fd4049db7222dadf49
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326444"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-打开当前配置文件的节并返回进一步访问[IProfSect](iprofsectimapiprop.md)指针。 
+打开当前配置文件的一个部分, 并返回一个[IProfSect](iprofsectimapiprop.md)指针以供进一步访问。 
   
 ```cpp
 HRESULT OpenProfileSection(
@@ -39,51 +39,51 @@ LPPROFSECT FAR * lppProfileObj
 
  _lpUid_
   
-> [in]指向标识配置文件部分，要打开的[MAPIUID](mapiuid.md)结构的指针。 _LpUid_参数传递 NULL 将打开呼叫者的配置文件一节。 
+> 实时指向标识要打开的配置文件部分的[MAPIUID](mapiuid.md)结构的指针。 为_lpUid_参数传递 NULL 将打开调用者的配置文件部分。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何打开配置文件部分。 可以设置以下标志：
+> 实时用于控制如何打开 profile 节的标志的位掩码。 可以设置以下标志:
     
 MAPI_DEFERRED_ERRORS 
   
-> 允许**OpenProfileSection**成功返回可能之前配置文件节是完全访问呼叫者。 如果配置文件部分不可访问，则进行后续对象呼叫会导致错误。 
+> 允许**OpenProfileSection**在配置文件节对调用方完全可访问之前成功返回。 如果 profile 节不可访问, 则进行后续的对象调用可能会导致错误。 
     
 MAPI_MODIFY 
   
-> 请求读/写权限。 默认情况下，以只读方式打开对象和呼叫者以为，读/写权限授予不起作用。 
+> 请求读取/写入权限。 默认情况下, 对象以只读方式打开, 并且在假定已授予读/写权限时, 调用方不应这样做。 
     
  _lppProfileObj_
   
-> [输出]指向打开配置文件部分的指针的指针。
+> 排除指向打开的配置文件部分的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功打开配置文件部分。
+> 已成功打开 "配置文件" 部分。
     
 MAPI_E_NO_ACCESS 
   
-> 尝试来修改只读的配置文件节或访问其呼叫者没有足够的权限的对象。
+> 试图修改只读配置文件部分或访问呼叫者具有的权限不足的对象。
     
 MAPI_E_NOT_FOUND 
   
-> 没有与_lpEntryID_中传递的项标识符的配置文件一节。
+> 没有与_lpEntryID_中传递的条目标识符相关联的配置文件部分。
     
 MAPI_E_UNKNOWN_FLAGS 
   
-> 使用保留或不受支持的标志，而且，因此，该操作未完成。
+> 使用了保留或不受支持的标志, 因此操作未完成。
     
 ## <a name="remarks"></a>注解
 
-对于所有支持对象实现**IMAPISupport::OpenProfileSection**方法。 服务提供商和消息服务调用**OpenProfileSection**以打开配置文件一节并检索指向其**IProfSect**接口实现。 
+**IMAPISupport:: OpenProfileSection**方法是为所有支持对象实现的。 服务提供程序和邮件服务调用**OpenProfileSection**以打开配置文件部分, 并检索指向其**IProfSect**接口实现的指针。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
- **OpenProfileSection**打开配置文件部分作为只读的除非_ulFlags_参数中设置 MAPI_MODIFY 标记和您的权限就足够了。 设置此标志不保证读/写权限;您已被授予的权限取决于您的访问级别和对象。 
+ **OpenProfileSection**将配置文件节以只读方式打开, 除非您在_ulFlags_参数中设置了 MAPI_MODIFY 标志, 并且您的权限已足够。 设置此标志不能保证读/写权限;您授予的权限取决于您的访问级别和对象。 
   
-如果**OpenProfileSection**尝试打开以只读方式不存在配置文件一节，则将返回 MAPI_E_NOT_FOUND。 如果**OpenProfileSection**尝试打开以读/写不存在配置文件部分，它会创建配置文件部分，并返回**IProfSect**指针。 
+如果**OpenProfileSection**尝试以只读方式打开不存在的配置文件节, 则它将返回 MAPI_E_NOT_FOUND。 如果**OpenProfileSection**尝试以读/写方式打开不存在的配置文件节, 则它会创建 "配置文件" 部分并返回**IProfSect**指针。 
   
 ## <a name="see-also"></a>另请参阅
 

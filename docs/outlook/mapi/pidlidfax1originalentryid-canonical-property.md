@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 0e02dfcd-918e-4d0c-b701-505dee1b32d4
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 096d1c785c220b7507e2a178e654b6d54ffea7da
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328747"
 ---
 # <a name="pidlidfax1originalentryid-canonical-property"></a>PidLidFax1OriginalEntryId 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25394690"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指定联系人的业务传真地址的原始 EntryID。
+指定联系人的公司传真地址的原始 EntryID。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidFax1OriginalEntryID  <br/> |
-|属性进行设置：  <br/> |PSETID_Address  <br/> |
-|长 ID （盖）：  <br/> |0x000080B5  <br/> |
+|属性集:  <br/> |PSETID_Address  <br/> |
+|长 ID (盖子):  <br/> |0x000080B5  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |联系人  <br/> |
+|区域：  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果存在此参数，此属性，必须指定此传真地址对应的一次性 EntryId。
+此属性 (如果存在) 必须指定与此传真地址对应的一次性 EntryId。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

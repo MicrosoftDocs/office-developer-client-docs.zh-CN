@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 898876863223aefa868fd37deced2948bd5a5694
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 885cf53de45cfde4079cc2a0e7bfdca09f72b962
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329524"
 ---
 # <a name="cbnewadrlist"></a>CbNewADRLIST
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算应分配的新[ADRLIST](adrlist.md)结构，其中包含的指定由[ADRENTRY](adrentry.md)结构的收件人数量的字节数。 
+计算应为包含由[ADRENTRY](adrentry.md)结构表示的指定数量的收件人的新[ADRLIST](adrlist.md)结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**ADRLIST** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)
@@ -40,7 +40,7 @@ CbNewADRLIST (_centries)
 
  __centries_
   
-> 要包含在新的**ADRLIST**结构**ADRENTRY**结构的计数。 
+> 要包含在新**ADRLIST**结构中的**ADRENTRY**结构的计数。 
     
 ## <a name="see-also"></a>另请参阅
 

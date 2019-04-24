@@ -13,11 +13,11 @@ api_type:
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: adf24bcd02d7efc303f911ee01a64325150339ce
-ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31980451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330063"
 ---
 # <a name="pidtagservicedllname-canonical-property"></a>PidTagServiceDllName 规范属性
 

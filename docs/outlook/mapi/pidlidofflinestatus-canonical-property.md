@@ -12,52 +12,52 @@ api_type:
 - COM
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7d9f8cf4fbdeab70e40447411ed8efd35ef7899e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 537b45420390903d67722c074a1edcc04a0aede8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326297"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>PidLidOfflineStatus 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-确定实现 [MS LISTSWS] 的服务器上的文档文件的状态。
+确定在实现 [LISTSWS] 的服务器上的文档文件的状态。
   
 |||
 |:-----|:-----|
-|相关的属性  <br/> |dispidOfflineStatus  <br/> |
-|属性进行设置：  <br/> |PSETID_Common  <br/> |
-|长 ID （盖）：  <br/> |0x000085B9  <br/> |
+|关联属性  <br/> |dispidOfflineStatus  <br/> |
+|属性集:  <br/> |PSETID_Common  <br/> |
+|长 ID (盖子):  <br/> |0x000085B9  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="remarks"></a>注解
 
 下表显示了此属性的可能值。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|0  <br/> |未签出文档。  <br/> |
-|1  <br/> |文档是当前用户签出。  <br/> |
-|2  <br/> |文档未签出，但当前用户具有用于编辑当前计算机上保存的文件的副本。  <br/> |
+|0  <br/> |文档未签出。  <br/> |
+|1  <br/> |将文档签出给当前用户。  <br/> |
+|双面  <br/> |文档未签出, 但当前用户具有保存为在当前计算机上进行编辑的文件的副本。  <br/> |
    
-此属性的本地计算并不会发送到服务器随时除非用户将项目拖动到另一个帐户。 在这种情况下，将其视为用户定义的自定义属性。
+此属性在本地计算且不会在任何时间发送到服务器, 除非用户将项目拖动到另一个帐户。 在这种情况下, 它将被视为用户定义的自定义属性。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

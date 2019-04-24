@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d63fe874-1027-3436-dbc1-73e722bce22e
 description: 确定在使用“配置布局”对话框（在“设计”选项卡上的“布局”组中，单击“重新布局页面”，然后单击“其他布局选项”）排放形状后是否放大页面以装入绘图。
-ms.openlocfilehash: fab37ee4561ba82ea1f314ad595e513253478b30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d0001ce35808f8c5f11068ed78865ce992af5cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781099"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326822"
 ---
-# <a name="resizepage-cell-page-layout-section"></a>ResizePage 单元格（“Page Layout”部分）
+# <a name="resizepage-cell-page-layout-section"></a>ResizePage 单元格（“Page Layout”内容）
 
-确定是否要放大以包含后使用**配置布局**对话框排放形状绘图页 （**设计**选项卡上，在**布局**组中，单击**重新布局**页面，然后单击**更多布局选项**)。
+确定在使用 "**配置布局**" 对话框 (在 "**设计**" 选项卡上的 "**布局**" 组中, 单击 "**重新布局**页面", 然后单击 "**其他布局") 排放形状后是否放大页面以将绘图放在该对话框的上方。选项**)。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 | TRUE  <br/> | 放大页面。  <br/> |
 | FALSE  <br/> | 不放大页面。  <br/> |

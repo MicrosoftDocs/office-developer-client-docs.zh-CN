@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b8fe0dd61247d3473db4cc728ecfa2c83682b691
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae9b79abea9a1b2b31867b9ed575e16e8f1c4474
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327277"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>PidTagAttachMimeSequence 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含的 MIME 邮件附件的 MIME 序列号。
+包含 mime 邮件附件的 mime 序列号。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ATTACH_MIME_SEQUENCE  <br/> |
-|标识符：  <br/> |0x3710  <br/> |
+|标识符:  <br/> |0x3710  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |附件的邮件属性  <br/> |
+|区域：  <br/> |邮件附件属性  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性用于 MHTML 支持。 它表示在父 MIME 多部分正文部分的 MIME 邮件的附件的序列号。
+此属性用于 MHTML 支持。 它表示 mime 邮件的父 mime 多部分正文部分内附件的序列号。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

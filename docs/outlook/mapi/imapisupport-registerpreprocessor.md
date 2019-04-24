@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b5659ab-2b49-41ab-92ce-ca343e35d670
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 87f5e3f159542359f614a6ab698e6f06a2faf41a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 58215de6cc4e9e68386f8f017839752acc6e1753
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326563"
 ---
 # <a name="imapisupportregisterpreprocessor"></a>IMAPISupport::RegisterPreprocessor
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-注册传输提供程序的预处理器函数 （符合[PreprocessMessage](preprocessmessage.md)原型函数）。 
+注册传输提供程序的预处理器函数 (符合[PreprocessMessage](preprocessmessage.md)原型的函数)。 
   
 ```cpp
 HRESULT RegisterPreprocessor(
@@ -42,45 +42,45 @@ ULONG ulFlags
 
  _lpMuid_
   
-> [in]一个指向[MAPIUID](mapiuid.md)结构，其中包含预处理器的函数处理的标识符。 _LpMuid_参数可以是 NULL。 
+> 实时指向[MAPIUID](mapiuid.md)结构的指针, 该结构包含预处理器函数所处理的标识符。 _lpMuid_参数可以为 NULL。 
     
  _lpszAdrType_
   
-> [in]函数如传真、 SMTP 或 X500 的操作，一个指向邮件的地址类型。 _LpszAdrType_参数可以是 NULL。 
+> 实时指向函数所运行的邮件的地址类型的指针, 例如传真、SMTP 或 X500。 _lpszAdrType_参数可以为 NULL。 
     
  _lpszDLLName_
   
-> [in]一个指向包含预处理器函数的入口点的动态链接库 (DLL) 的名称。
+> 实时指向包含预处理器函数入口点的动态链接库 (DLL) 名称的指针。
     
  _lpszPreprocess_
   
-> [in]一个指向预处理器函数的名称。 _LpszPreprocess_参数可以是 NULL。 
+> 实时指向预处理器函数名称的指针。 _lpszPreprocess_参数可以为 NULL。 
     
  _lpszRemovePreprocessInfo_
   
-> [in]一个指向删除预处理器信息 （符合[RemovePreprocessInfo](removepreprocessinfo.md)原型函数） 函数的名称。 _LpszRemovePreprocessInfo_参数可以是 NULL。 
+> 实时指向删除预处理器信息的函数名称的指针 (符合[RemovePreprocessInfo](removepreprocessinfo.md)原型的函数)。 _lpszRemovePreprocessInfo_参数可以为 NULL。 
     
  _ulFlags_
   
-> 保留;必须为零。
+> 保留必须为零。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 预处理器函数已成功注册。
+> 已成功注册预处理器函数。
     
 ## <a name="remarks"></a>注解
 
-对于传输提供程序支持对象仅实现**IMAPISupport::RegisterPreprocessor**方法。 传输提供程序调用**RegisterPreprocessor**注册预处理器函数 （符合[PreprocessMessage](preprocessmessage.md)原型的函数）。 MAPI 后台处理程序可调用它之前，必须注册预处理器函数。 
+仅为传输提供程序支持对象实现了**IMAPISupport:: RegisterPreprocessor**方法。 传输提供程序调用**RegisterPreprocessor**以注册预处理器函数 (符合[PreprocessMessage](preprocessmessage.md)原型的函数)。 预处理器函数必须先注册, 然后 MAPI 后台处理程序才能调用它。 
   
-_LpszPreprocess_、 _lpszRemovePreprocessInfo_和_lpszDLLName_参数应指向可以与呼叫允许预处理器的 DLL 的 Win32 **GetProcAddress**函数结合使用的字符串正确调用入口点。 
+_lpszPreprocess_、 _lpszRemovePreprocessInfo_和_lpszDLLName_参数都应指向可与 Win32 **GetProcAddress**函数的调用结合使用的字符串, 从而允许预处理器 DLL要正确调用的入口点。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-调用 preprocessors 是特定于传输提供程序的顺序。 这意味着您的提供商之前的另一个传输提供程序是能够处理一条消息，如果您预处理器函数将不会调用该邮件。 只对将处理的消息，将调用您预处理器函数。
+对 preprocessors 的调用特定于传输提供程序的顺序。 这意味着, 如果您的提供程序前面的另一个传输提供程序能够处理邮件, 则不会为该邮件调用预处理程序函数。 将仅调用您要处理的邮件的预处理器函数。
   
-您可以编写预处理器函数来处理存储在[MAPIUID](mapiuid.md)结构或类型的地址中的任一一个特定的标识符。 如果指定这两个**MAPIUID**结构_lpMuid_参数和_lpszAdrType_参数中的地址类型，您的函数将调用**MAPIUID**或地址类型相匹配的邮件收件人。 如果_lpszAdrType_为非 NULL _lpMuid_为 NULL，将只为收件人的地址所指的_lpszAdrType_的类型相匹配的调用您函数。 _LpMuid_非空并且_lpszAdrType_为 NULL，如果您的函数将调用的匹配**MAPIUID**，无论其地址类型的收件人。 如果二者均为空，函数调用的所有收件人的邮件。
+您可以编写预处理器函数来处理存储在[MAPIUID](mapiuid.md)结构或地址类型中的特定标识符。 如果在_lpMuid_参数中指定了**MAPIUID**结构, 并在_lpszAdrType_参数中指定了地址类型, 则将为与**MAPIUID**或地址类型匹配的邮件收件人调用函数。 如果_lpMuid_为 NULL 且_lpszAdrType_为非 NULL, 则仅对其地址与_lpszAdrType_指向的类型相匹配的收件人调用函数。 如果_lpMuid_为非 null, 并且_lpszAdrType_为 null, 则将为匹配**MAPIUID**的收件人调用您的函数, 而不考虑其地址类型。 如果两者都为 NULL, 则为邮件的所有收件人调用函数。
   
 ## <a name="see-also"></a>另请参阅
 

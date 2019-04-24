@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7548a480-4dce-45e0-281b-f6f8bdf05c0b
 description: 确定用于形状的填充图案的前景（划线）颜色。
-ms.openlocfilehash: 27126457963e4e55419b0cac5baf1eab08fe3cc6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 352fecf8d99069cfb5ebd72d295284dc03446364
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780261"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322503"
 ---
-# <a name="fillforegnd-cell-fill-format-section"></a>FillForegnd 单元格（“Fill Format”部分）
+# <a name="fillforegnd-cell-fill-format-section"></a>FillForegnd 单元格（“Fill Format”内容）
 
 确定用于形状的填充图案的前景（划线）颜色。
   
@@ -24,7 +24,7 @@ ms.locfileid: "19780261"
 
 若要设置该颜色，请输入一个介于 0 和 23 之间的数字。
   
-若要输入自定义颜色，使用 RGB 或 HSL 函数。 自定义颜色的值为 RGB 颜色，并且 RGB （ *r、 g、 b*），而不是一个号码，将显示在 ShapeSheet 窗口中。 当使用中的数字运算，自定义颜色具有值将大于或等于，共 24 部分。 
+若要输入自定义颜色，请使用 RGB 或 HSL 函数。 自定义颜色的值是其 RGB 颜色, 而 rgb ( *r, g, b*), 而不是数字, 将显示在 ShapeSheet 窗口中。 在数值运算中使用自定义颜色时，其值将大于或等于 24。 
   
 您可以在 FillForegndTrans 单元格中设置前景填充的透明度。
   

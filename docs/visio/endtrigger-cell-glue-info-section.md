@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8dc6515b-66ab-f1ac-18fd-820209f90991
 description: 包含由应用程序生成的触发器公式，该公式确定是否移动一维形状的终点以便保持其与另一个形状的连接。
-ms.openlocfilehash: 3a2fadd3d00bc23e689bbf22bb3b5db3efcd71f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9093cca782d9262b2511198ed73f512a75bb8994
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329058"
 ---
-# <a name="endtrigger-cell-glue-info-section"></a>EndTrigger 单元格（“Glue Info”部分）
+# <a name="endtrigger-cell-glue-info-section"></a>EndTrigger 单元格（“Glue Info”内容）
 
 包含由应用程序生成的触发器公式，该公式确定是否移动一维形状的终点以便保持其与另一个形状的连接。
   
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 当使用动态粘附将一维形状粘附到另一个形状时，Visio 会生成一个公式，公式中引用其他形状的 EventXFMod 单元格。当更改该形状时，Visio 会重新计算引用其 EventXFMod 单元格的任何公式，包括 EndTrigger 单元格中的公式。该一维形状的其他公式引用 EndTrigger 单元格并根据需要移动一维形状的端点或变更形状。
   

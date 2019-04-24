@@ -6,34 +6,34 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 360854bb-e9be-a784-e80b-3f18418ded1b
-ms.openlocfilehash: f4b57ad1062df9aa1809e8eb422a2c983adcac4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab24feca84e7049a9800b860c332db52d19cf929
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322069"
 ---
 # <a name="iolkaccountnotify"></a>IOlkAccountNotify
 
-为帐户的更改到客户端提供回调。
+为客户端提供对帐户更改的回调。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|继承：  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
+|继承自:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |提供者：  <br/> | 客户端  <br/> |
-|接口标识符：  <br/> |IID_IOlkAccountNotify  <br/> |
+|接口标识符:  <br/> |IID_IOlkAccountNotify  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[Notify](iolkaccountnotify-notify.md) <br/> |通知客户端到指定的帐户的更改。  <br/> |
+|[Notify](iolkaccountnotify-notify.md) <br/> |通知客户端对指定帐户所做的更改。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-设置通知时，该接口被传递给[IOlkAccountManager::Advise](iolkaccountmanager-advise.md) 。 
+在设置通知时, 此接口将传递给[IOlkAccountManager:: Advise](iolkaccountmanager-advise.md) 。 
   
 ## <a name="see-also"></a>另请参阅
 

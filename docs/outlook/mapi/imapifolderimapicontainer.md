@@ -12,46 +12,46 @@ api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1886987515f3cafe38418960baa4b6fd89e3b6f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5e31896354141999e02f2cba117ef9739340be61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329489"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-在文件夹中执行操作的消息和子文件夹。
+对文件夹中的邮件和子文件夹执行操作。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |文件夹对象  <br/> |
-|通过实现：  <br/> |消息存储提供程序  <br/> |
-|调用：  <br/> |客户端应用程序和 MAPI  <br/> |
-|接口标识符：  <br/> |IID_IMAPIFolder  <br/> |
-|指针类型：  <br/> |LPMAPIFOLDER  <br/> |
-|事务模型：  <br/> |Nontransacted  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |Folder 对象  <br/> |
+|实现者：  <br/> |邮件存储区提供程序  <br/> |
+|调用者：  <br/> |客户端应用程序和 MAPI  <br/> |
+|接口标识符:  <br/> |IID_IMAPIFolder  <br/> |
+|指针类型:  <br/> |LPMAPIFOLDER  <br/> |
+|事务模型:  <br/> |Nontransacted  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
 |[CreateMessage](imapifolder-createmessage.md) <br/> |创建新邮件。  <br/> |
-|[CopyMessages](imapifolder-copymessages.md) <br/> |复制或移动一个或多条消息。  <br/> |
+|[CopyMessages](imapifolder-copymessages.md) <br/> |复制或移动一个或多个邮件。  <br/> |
 |[DeleteMessages](imapifolder-deletemessages.md) <br/> |删除一个或多个邮件。  <br/> |
-|[CreateFolder](imapifolder-createfolder.md) <br/> |创建新的子文件夹。  <br/> |
-|[CopyFolder](imapifolder-copyfolder.md) <br/> |复制或移动的子文件夹。  <br/> |
+|[CreateFolder](imapifolder-createfolder.md) <br/> |创建一个新的子文件夹。  <br/> |
+|[CopyFolder](imapifolder-copyfolder.md) <br/> |复制或移动子文件夹。  <br/> |
 |[DeleteFolder](imapifolder-deletefolder.md) <br/> |删除子文件夹。  <br/> |
-|[SetReadFlags](imapifolder-setreadflags.md) <br/> |设置或清除 MSGFLAG_READ 标志中的一个或多个文件夹的邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性并管理阅读报告的发送。  <br/> |
+|[SetReadFlags](imapifolder-setreadflags.md) <br/> |设置或清除一个或多个文件夹的邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中的 MSGFLAG_READ 标记, 并管理读取报告的发送。  <br/> |
 |[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |获取与特定文件夹中的邮件关联的状态。  <br/> |
-|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |设置与消息关联的状态。  <br/> |
-|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |设置某个文件夹的内容表的默认排序次序。  <br/> |
-|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |删除所有消息和子文件夹从文件夹而不删除该文件夹本身。  <br/> |
+|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |设置与邮件关联的状态。  <br/> |
+|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |设置文件夹的内容表的默认排序顺序。  <br/> |
+|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |删除文件夹中的所有邮件和子文件夹, 而不删除该文件夹本身。  <br/> |
    
 |**必需属性**|**Access**|
 |:-----|:-----|

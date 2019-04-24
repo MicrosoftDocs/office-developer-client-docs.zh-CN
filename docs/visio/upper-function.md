@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ef94ee0f-dbb8-a2e1-1805-8a6609830d2a
 description: 返回一个转换为大写的字符串。
-ms.openlocfilehash: df8250ef634b04cb19cbb4e120bd02eb77531a82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b88958526bfb5e08839077217759f7ffb50151b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327326"
 ---
 # <a name="upper-function"></a>UPPER 函数
 
@@ -22,13 +22,13 @@ ms.locfileid: "19781597"
   
 ## <a name="syntax"></a>语法
 
-右上 (* **表达式** *) 
+UPPER (* **表达式** *) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |必需  <br/> |**因情况而异** <br/> | 可以是字符串、单元格引用或表达式；结果转换为字符串，然后再转换为大写形式。  <br/> |
+| _expression_ <br/> |必需  <br/> |**相同** <br/> | 可以是字符串、单元格引用或表达式；结果转换为字符串，然后再转换为大写形式。  <br/> |
    
 ## <a name="remarks"></a>注解
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 3b3499de9446c83cfc3b97b4d6b02e7c430b65f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: cd8727104af694d456074614b5ea7c222c9b91b9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322370"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
 显示配置属性表。
   
@@ -42,43 +42,43 @@ HRESULT DoConfigPropsheet(
 
  _ulUIParam_
   
-> [in]属性表的父窗口句柄。
+> 实时属性表的父窗口的句柄。
     
  _ulFlags_
   
-> [in]保留;必须为零。
+> 实时保留必须为零。
     
  _lpszTitle_
   
-> [in]一个指向属性表的标题。
+> 实时指向属性表的标题的指针。
     
  _lpDisplayTable_
   
-> [in]指向显示表在属性表中描述的控件显示的指针。
+> 实时指向说明要在属性表上显示的控件的显示表的指针。
     
  _lpConfigData_
   
-> [in]指向要用于访问的配置属性用于在属性表中显示的[IMAPIProp](imapipropiunknown.md)实现的指针。 
+> 实时指向[IMAPIProp](imapipropiunknown.md)实现的指针, 该实现将用于访问要显示在属性表上的配置属性。 
     
  _ulTopPage_
   
-> [in]属性表的默认顶级网页到一个从零开始的索引。
+> 实时属性表的默认顶部页面的从零开始的索引。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 显示已配置的属性表。
+> 显示配置属性表。
     
 ## <a name="remarks"></a>注解
 
-对于所有支持对象实现**IMAPISupport::DoConfigPropsheet**方法。 **DoConfigPropSheet**提供标准用户界面，用于显示服务提供商和消息服务的属性。 使用户受益于一致的 Windows 接口，应用于所有配置属性显示此标准的对话框。 
+**IMAPISupport::D oconfigpropsheet**方法是为所有支持对象实现的。 **DoConfigPropSheet**提供了用于显示服务提供程序和邮件服务的属性的标准用户界面。 应将此标准对话框用于显示所有配置属性, 以便用户可以从一致的 Windows 界面中受益。 
   
-服务提供商调用**DoConfigPropSheet**作为其实现[IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md)方法时，或者从用来显示属性的详细信息的按钮的一部分。 消息服务从其消息服务入口点函数调用**DoConfigPropSheet** 。 
+服务提供程序将**DoConfigPropSheet**作为[IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md)方法的实现的一部分或从用于显示属性的详细信息的按钮进行调用。 邮件服务从其邮件服务入口点函数调用**DoConfigPropSheet** 。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以创建通过调用[BuildDisplayTable](builddisplaytable.md)函数或自定义代码_lpDisplayTable_参数指向显示表。 
+您可以通过调用[BuildDisplayTable](builddisplaytable.md)函数或使用自定义代码来创建由_lpDisplayTable_参数指向的显示表。 
   
 ## <a name="see-also"></a>另请参阅
 

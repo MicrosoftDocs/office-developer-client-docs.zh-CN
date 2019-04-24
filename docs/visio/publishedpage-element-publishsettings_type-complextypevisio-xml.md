@@ -1,22 +1,22 @@
 ---
-title: PublishedPage 元素 （PublishSettings_Type 复杂类型） (Visio XML)
+title: PublishedPage 元素 (PublishSettings_Type 复杂类型) ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
-description: 指定绘图页是否在 Microsoft SharePoint Server 2013 中使用 Visio Services 在浏览器中查看。
+description: 指定是否可在使用 Microsoft SharePoint Server 2013 中的 Visio Services 的浏览器中查看绘图页。
 ms.openlocfilehash: 313cabbdd59930df67c807ee3c89df1a6e8c17a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326794"
 ---
-# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>PublishedPage 元素 （PublishSettings_Type 复杂类型） (Visio XML)
+# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>PublishedPage 元素 (PublishSettings_Type 复杂类型) ("Visio XML")
 
-指定绘图页是否在 Microsoft SharePoint Server 2013 中使用 Visio Services 在浏览器中查看。
+指定是否可在使用 Microsoft SharePoint Server 2013 中的 Visio Services 的浏览器中查看绘图页。
   
 ## <a name="element-information"></a>元素信息
 
@@ -24,8 +24,8 @@ ms.locfileid: "25390980"
 |:-----|:-----|
 |**元素类型** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**架构文件** <br/> |VisioSchema15.xsd  <br/> |
-|**文档部件** <br/> |document.xml  <br/> |
+|**架构文件** <br/> |VisioSchema15  <br/> |
+|**文档部件** <br/> |document .xml  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -36,7 +36,7 @@ ms.locfileid: "25390980"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="parent-elements"></a>父元素
 
@@ -50,8 +50,8 @@ ms.locfileid: "25390980"
   
 ### <a name="attributes"></a>属性
 
-|**属性**|**类型**|**必需**|**说明**|**可能的值**|
+|**属性**|**类型**|**必需**|**描述**|**可能的值**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |必需  <br/> |绘图页的标识符。  <br/> |Xsd:unsignedInt 类型的值。  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |必需  <br/> |绘图页的标识符。  <br/> |xsd: unsignedInt 类型的值。  <br/> |
    
 

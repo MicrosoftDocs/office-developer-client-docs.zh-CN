@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: ccc51f33ff681021492949c2180fe70940157f4f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b81f4aebae692d28ed492df102d59ba34debf63
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328460"
 ---
 # <a name="provider-tables"></a>提供程序表
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供程序表包含有关服务提供商的信息。 有两个不同的提供程序表 (由 MAPI 实现和使用的客户端）。 第一个表格，通过调用[IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md)方法访问包含有关当前配置文件的提供程序的所有信息。 通过[IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md)，访问第二个表创建表，用于存储有关消息服务的服务提供程序的所有信息。
+提供程序表包含有关服务提供程序的信息。 有两个不同的提供程序表, 它们都由 MAPI 实现并由客户端使用。 通过调用[IMsgServiceAdmin:: GetProviderTable](imsgserviceadmin-getprovidertable.md)方法访问的第一个表包含有关当前配置文件的所有提供程序的信息。 通过[IProviderAdmin:: GetProviderTable](iprovideradmin-getprovidertable.md)访问的第二个表创建一个表, 该表存储有关邮件服务的所有服务提供程序的信息。
   
-这两个表有另一个差别。 可通过**IMsgServiceAdmin::GetProviderTable**提供程序表包含仅表示服务提供商而可通过**IProviderAdmin::GetProviderTable**表可能包括表示行的行与服务提供程序关联的其他信息。 此额外信息添加到与的 MAPISVC.INF"部分"关键字的配置文件。 当提供程序具有额外的配置文件节时，它**PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)) 属性中存储以下各节的**MAPIUID**值。 **PR_SERVICE_EXTRA_UIDS**保存在邮件服务配置文件部分。 
+这两个表有另一个不同之处。 通过**IMsgServiceAdmin:: GetProviderTable**提供的提供程序表仅包含表示服务提供程序的行, 而通过**IProviderAdmin:: GetProviderTable**提供的表中可能包含表示的行。与服务提供商相关联的其他信息。 此额外信息将添加到配置文件中, 其中包含 mapisvc.inf 的 "节" 关键字。 当提供程序有额外的配置文件节时, 它会将这些节的**MAPIUID**值存储在**PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)) 属性中。 **PR_SERVICE_EXTRA_UIDS**保存在 "邮件服务配置文件" 部分。 
   
-以下属性构成设置两种类型的提供程序表中所需的列：
+以下属性组成两种类型的提供程序表中所需的列集:
   
 |||
 |:-----|:-----|
@@ -35,11 +35,11 @@ ms.locfileid: "22566136"
 |**PR_RESOURCE_FLAGS**([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_RESOURCE_TYPE**([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |
 |**PR_SERVICE_NAME**([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |**PR_SERVICE_UID**([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
-可使用提供程序表，以显示当前传输订单或更改它。 若要显示当前的顺序，生成**PR_RESOURCE_TYPE**属性设置为 MAPI_TRANSPORT_PROVIDER 检索仅这些行限制。 然后用作**PR_PROVIDER_ORDINAL**排序关键字表格进行排序和检索[IMAPITable::QueryRows](imapitable-queryrows.md)方法或[HrQueryAllRows](hrqueryallrows.md)函数使用的所有行。 
+提供程序表可用于显示当前传输订单或对其进行更改。 若要显示当前订单, 请生成限制以仅检索**PR_RESOURCE_TYPE**属性设置为 MAPI_TRANSPORT_PROVIDER 的那些行。 然后, 使用**PR_PROVIDER_ORDINAL**作为排序关键字对表进行排序, 并检索包含[IMAPITable:: QueryRows](imapitable-queryrows.md)方法或[HrQueryAllRows](hrqueryallrows.md)函数的所有行。 
   
-若要更改的传输顺序，应用相同的限制和检索的行。 然后创建从**PR_PROVIDER_UID**属性值，该值代表传输提供程序的唯一标识符的值的数组。 所需的顺序标识符时，将它们传递给[IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md)方法。 
+若要更改传输顺序, 请应用相同的限制并检索行。 然后, 从**PR_PROVIDER_UID**属性中创建值的数组, 该属性表示传输提供程序的唯一标识符。 当标识符采用所需的顺序时, 将它们传递给[IMsgServiceAdmin:: MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md)方法。 
   
-提供程序表中为可用后，将不会反映后续更改，如添加或删除提供程序。
+提供程序表可用后, 它将不会反映后续更改, 如提供程序的添加或删除。
   
 ## <a name="see-also"></a>另请参阅
 

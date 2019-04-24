@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4b02fc316001ae11d64988cc29d0e62e9adde55e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb20469adec938817fedf1b00789304625b388c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328005"
 ---
 # <a name="ftaddft"></a>FtAddFt
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-添加到另一个无符号的 64 位整数。
+将一个无符号64位整数添加到另一个。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 FILETIME FtAddFt(
@@ -44,14 +44,14 @@ FILETIME FtAddFt(
 
  _Addend1_
   
-> [in]包含的第一个无符号的 64 位整数，要添加的[FILETIME](filetime.md)结构。 
+> 实时一个[FILETIME](filetime.md)结构, 其中包含要添加的第一个不带符号的64位整数。 
     
  _Addend2_
   
-> [in]包含的第二个无符号的 64 位整数，要添加的**FILETIME**结构。 
+> 实时一个**FILETIME**结构, 其中包含要添加的第二个带符号的64位整数。 
     
 ## <a name="return-value"></a>返回值
 
-**FtAddFt**函数将返回一个**FILETIME**结构，其中包含两个包含整数的总和。 两个输入的参数保持不变。 
+**FtAddFt**函数返回一个**FILETIME**结构, 其中包含两个整数的和。 这两个输入参数保持不变。 
   
 

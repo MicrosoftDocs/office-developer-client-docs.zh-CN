@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 3d78b4e6a4a0cc3363edefc84e7ae80dbe72c510
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 907984a80dbb6c5464f95def1481d002f9d6638a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329552"
 ---
 # <a name="wizardentry"></a>WIZARDENTRY
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-定义种服务提供程序入口点函数，其配置文件向导调用来检索足够的信息来显示提供程序的配置属性表。 
+定义一个服务提供程序入口点函数, 配置文件向导调用它以检索足够的信息, 以显示提供程序的配置属性表。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiwz.h  <br/> |
-|通过实施定义的函数：  <br/> |服务提供商  <br/> |
-|定义的函数调用：  <br/> |MAPI 配置文件向导  <br/> |
+|标头文件：  <br/> |Mapiwz  <br/> |
+|定义的函数实现者:  <br/> |服务提供程序  <br/> |
+|定义的函数调用者:  <br/> |MAPI 配置文件向导  <br/> |
    
 ```cpp
 ULONG WIZARDENTRY(
@@ -47,46 +47,46 @@ ULONG WIZARDENTRY(
 
  _hProviderDLLInstance_
   
-> [in]服务提供商的 DLL 实例句柄。 
+> 实时服务提供程序的 DLL 的实例句柄。 
     
  _lpcsResourceName_
   
-> [输出]指针指向包含配置过程中配置文件向导应显示对话框资源的完整名称的字符串。 字符串，包括 NULL 终止符，最大大小为 32 个字符。 
+> 排除指向一个字符串的指针, 该字符串包含在配置过程中应由配置文件向导显示的对话框资源的完整名称。 字符串的最大大小 (包括 NULL 终止符) 为32个字符。 
     
  _lppDlgProc_
   
-> [输出]指向标准 Windows 对话框过程将由配置文件向导来通知的提供程序的各种事件调用的指针。 
+> 排除指向标准 Windows 对话框过程的指针, 该过程将由配置文件向导调用以通知提供程序的各种事件。 
     
  _lpMAPIProp_
   
-> [in]提供对的配置属性访问属性接口实现的指针。 
+> 实时指向提供对配置属性的访问权限的属性接口实现的指针。 
     
  _lpMapiSupportObject_
   
-> [in]指向适用于此会话的 MAPI 支持对象的指针。
+> 实时指向适用于此会话的 MAPI 支持对象的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功调用了服务提供商的**WIZARDENTRY**函数。 
+> 成功调用服务提供程序的**WIZARDENTRY**函数。 
     
 MAPI_E_CALL_FAILED 
   
-> 意外或未知的原点出现错误，无法完成操作。
+> 意外或未知来源的错误阻止操作完成。
     
 ## <a name="remarks"></a>注解
 
-配置文件向导调用**WIZARDENTRY**基于函数，以显示服务提供商的配置用户界面的准备就绪时。 完成配置所有提供程序配置文件向导后，它将通过调用[IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)到配置文件写入的配置属性。 
+"配置文件向导" 在准备好显示服务提供商的配置用户界面时调用基于**WIZARDENTRY**的函数。 配置文件向导完成配置所有提供程序后, 通过调用[IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md)将配置属性写入配置文件。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-必须在 MAPISVC.INF WIZARD_ENTRY_NAME 条目中放置**WIZARDENTRY**基于函数的名称。 
+基于**WIZARDENTRY**的函数的名称必须放在 mapisvc.inf 中的 WIZARD_ENTRY_NAME 条目中。 
   
-资源名称是对话框资源的将呈现窗格中的配置文件向导。 传递后需要包含单个对话框资源中的所有页面的资源。 当配置文件向导收到此资源时，它将忽略该对话框样式，但不是的控件样式，并作为子级的配置文件向导页上创建的所有控件。 所有控件最初处于隐藏都状态。 提供程序应进行确保其控件的坐标都零或从零开始，，它们不超过 200 个对话框单位的最大宽度和 150 个对话框单位的最大高度。 下面的 400 控件标识符被保留，供配置文件向导。 配置文件向导加粗文本上方提供程序的用户界面中显示的提供程序的标题。 
+资源名称是将在 "配置文件向导" 窗格中呈现的对话框资源的名称。 传递回的资源需要包含单个对话框资源中的所有页面。 当配置文件向导收到此资源时, 它将忽略对话框样式 (而不是控件样式), 并将所有控件创建为 "配置文件向导" 页的子级。 所有控件最初都处于隐藏状态。 提供程序应确保其控件的坐标为零或从零开始, 并且不超过最大宽度为200的对话框单元, 最大高度为150个对话框单位。 低于400的控制标识符是为配置文件向导保留的。 "配置文件向导" 在提供程序的用户界面上方的加粗文本中显示提供程序的标题。 
   
-_LpMAPIProp_参数中提供的属性接口指针应保留以供将来参考服务提供商。 配置文件向导处理仅最基本的一组属性，并提供程序可以使用该属性接口实现包括其他属性。 在配置期间，提供程序应将其配置属性添加到实现属性接口的对象。 已配置的所有提供商之后，配置文件向导会将这些属性添加到配置文件。 
+_lpMAPIProp_参数中提供的属性接口指针应由提供程序保留, 以供将来参考。 配置文件向导仅处理最基本的一组属性, 并且提供程序可以使用属性接口实现来包含其他属性。 在配置过程中, 提供程序应将其配置属性添加到实现属性接口的对象。 配置完所有提供程序后, 配置文件向导会将这些属性添加到配置文件中。 
   
-有关如何使用此函数的详细信息，请参阅[支持的消息服务配置](supporting-message-service-configuration.md)。 
+有关如何使用此函数的详细信息, 请参阅[支持邮件服务配置](supporting-message-service-configuration.md)。 
   
 

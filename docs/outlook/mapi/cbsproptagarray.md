@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5a4d25651423c697ffed713f82f41d7a5584bcfa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1cfc88b12331e94880feaed22869bd7608fb7ca8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329496"
 ---
 # <a name="cbsproptagarray"></a>CbSPropTagArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算中的现有[SPropTagArray](sproptagarray.md)结构的字节数。 
+计算现有[SPropTagArray](sproptagarray.md)结构中的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**SPropTagArray** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbSPropTagArray (_lparray)
@@ -40,7 +40,7 @@ CbSPropTagArray (_lparray)
 
  __lparray_
   
-> 指向现有**SPropTagArray**结构。 
+> 指向现有**SPropTagArray**结构的指针。 
     
 ## <a name="see-also"></a>另请参阅
 

@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2e113791-891f-6c2a-7981-a6a9a115622a
 description: 包含与每个形状数据项对应的行以及用于将数据与形状相关联的单元格。
-ms.openlocfilehash: 014af2ace442799f753d262ad24818089d94fdf9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3d3924d3087789500bf084da4c795c01fc8e36f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781243"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325842"
 ---
-# <a name="shape-data-section"></a>“Shape Data”部分
+# <a name="shape-data-section"></a>“Shape Data”内容
 
 包含与每个形状数据项对应的行以及用于将数据与形状相关联的单元格。
   
@@ -25,9 +25,9 @@ ms.locfileid: "19781243"
 可以使用 **“形状数据”** 窗口或“Shape Data”内容中的单元格来定义形状数据。 
   
 > [!NOTE]
-> 在 Visio 以前的版本中,**形状数据**部分被称为**自定义属性**。 
+> 在 Visio 的早期版本中, " **Shape Data** " 部分称为 "**自定义属性**"。 
   
-- 在 ShapeSheet 窗口中，您可以定义形状数据**形状数据**部分中。 在 ShapeSheet 窗口中右键单击并单击**插入节**，然后选择**形状数据**复选框。 您可以添加任意多个属性。 *名称*行根据需要为这些行中，指定有意义的名称，并设置单元格的值。 
+- 在 ShapeSheet 窗口中, 可以在 "**形状数据**" 部分定义形状数据。 方法是：在 ShapeSheet 窗口中单击右键，单击 **“插入内容”**，然后选中 **“形状数据”** 复选框。 您可以添加任意多个 ""。 根据需要*命名*行, 为行分配有意义的名称, 并设置单元格的值。 
     
 - 在绘图窗口中，您可以在 **“形状数据”** 窗口中定义形状数据。方法是：在 **“视图”** 选项卡上的 **“显示/隐藏”** 组中，单击 **“任务窗格”**，然后单击 **“形状数据”**。若要访问 **“定义形状数据”** 对话框，请右键单击 **“形状数据”** 窗口，然后单击 **“定义形状数据”**。
     

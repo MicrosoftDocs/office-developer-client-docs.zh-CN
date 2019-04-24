@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b4218aa6-1591-49db-9782-f286135fc79a
 description: 本部分介绍如何Outlook POP3 提供程序使用的唯一 ID 列表 （UIDL) 历史记录 POP3 帐户标识提供程序已下载或删除从 POP3 服务器，以避免多次下载相同的邮件的邮件。
 ms.openlocfilehash: 35c50d83c317ebefa52fd9bfcb348c8411a06f25
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394683"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322244"
 ---
 # <a name="managing-message-downloads-for-pop3-accounts"></a>管理邮件的 POP3 帐户下载
 
@@ -24,9 +24,9 @@ ms.locfileid: "25394683"
   
 POP 帐户的邮件都由唯一标识符 (Uid) 来标识。在服务器保留邮件的电子邮件客户端使用 UIDL 命令检索的 UIDL 映射相关联的每个消息，发送到该邮箱的 UID。客户端还获取已下载或删除在该客户端上的收件箱的邮件的 UIDL 历史记录。根据 UIDL 历史记录，客户机可以确定哪些邮件是新用户并且应下载。
 
-- [查找邮件下载历史记录 POP3 帐户](locating-the-message-download-history-for-a-pop3-account.md)： 本主题介绍如何邮件客户端访问[PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx)属性获取 UIDL 历史记录的客户端的 POP3 帐户的收件箱中的邮件。 
+- [查找 pop3 帐户的邮件下载历史记录](locating-the-message-download-history-for-a-pop3-account.md): 本主题介绍邮件客户端如何访问[PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx)属性, 以获取 pop3 帐户的客户端收件箱中的邮件的 UIDL 历史记录。 
     
-- [分析邮件下载历史记录 POP3 帐户](parsing-the-message-download-history-for-a-pop3-account.md)： 本主题介绍如何分析 POP3 BLOB 值，该值代表在客户端的 POP3 帐户的收件箱中的消息，标识已下载或上的删除的消息的 UIDL 历史记录帐户。
+- [分析 pop3 帐户的邮件下载历史记录](parsing-the-message-download-history-for-a-pop3-account.md): 本主题介绍如何分析 pop3 BLOB, 该 BLOB 代表 pop3 帐户的客户端收件箱中的邮件的 UIDL 历史记录, 以标识已在其上下载或删除的邮件上级.
     
 ## <a name="see-also"></a>另请参阅
 

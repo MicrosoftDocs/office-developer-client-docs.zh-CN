@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
 description: 设置指定的帐户属性的值。
-ms.openlocfilehash: 2bb8a323f5f3399b9eac1cfdf9ac18faddfdb259
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 94134cee7886177ab840a6caff7d70d65bf9d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322251"
 ---
 # <a name="iolkaccountsetprop"></a>IOlkAccount::SetProp
 
@@ -33,22 +33,22 @@ HRESULT IOlkAccount::SetProp(
 
 _dwProp_
   
-> [in]要设置的帐户属性属性标记。
+> 实时要设置的 account 属性的属性标记。
     
 _pVar_
   
-> [in]指定的属性的值。
+> 实时指定属性的值。
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
 |S_OK  <br/> |方法调用成功。  <br/> |
-|E_INVALIDARG  <br/> |指定无效的属性标记。  <br/> |
+|E_INVALIDARG  <br/> |指定了无效的属性标记。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-使用[IOlkAccount::SaveChanges](iolkaccount-savechanges.md)将更改保存到帐户属性的值。 
+使用[IOlkAccount:: SaveChanges](iolkaccount-savechanges.md)保存对 account 属性的值所做的更改。 
   
 ## <a name="see-also"></a>另请参阅
 

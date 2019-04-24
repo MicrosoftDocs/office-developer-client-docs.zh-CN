@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5e9135a52c15c18b70116aaf52e1ee63af413673
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: c251dacce0d4e1743a74f1ba45e395b6e1c05064
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329006"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-在表的当前位置创建一个书签。
+在表格的当前位置创建书签。
   
 ```cpp
 HRESULT CreateBookmark(
@@ -37,35 +37,35 @@ BOOKMARK FAR * lpbkPosition
 
  _lpbkPosition_
   
-> [输出]返回的 32 位书签值的指针。 更高版本可以对[IMAPITable::SeekRow](imapitable-seekrow.md)方法的调用中传递该书签。 
+> 排除指向返回的32位书签值的指针。 稍后可在对[IMAPITable:: SeekRow](imapitable-seekrow.md)方法的调用中传递此书签。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> 无法完成所请求的操作。
+> 无法完成请求的操作。
     
 ## <a name="remarks"></a>注解
 
-**IMAPITable::CreateBookmark**方法通过创建值调用书签标记的表的位置。 可以使用书签以返回到书签标识的位置。 与在表中的行对象相关联的书签的位置。 
+**IMAPITable:: CreateBookmark**方法通过创建一个称为书签的值来标记表位置。 书签可用于返回到由书签标识的位置。 加书签的位置与表中该行的对象相关联。 
   
-附件表上不支持书签和附件的**CreateBookmark**的表实现返回 MAPI_E_NO_SUPPORT。 
+**CreateBookmark**返回 MAPI_E_NO_SUPPORT 的附件表和附件表实现不支持书签。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-由于内存费用的维护光标位置的书签，限制可以创建的书签的数目。 如果看到该号码，返回从所有后续呼叫到**CreateBookmark**MAPI_E_UNABLE_TO_COMPLETE。
+由于使用书签维护光标位置的内存开销, 限制您可以创建的书签的数目。 当您达到该数目时, 将从对**CreateBookmark**的所有后续调用返回 MAPI_E_UNABLE_TO_COMPLETE。
   
-有时书签指向不再在表视图中的行。 如果呼叫者使用如书签，将光标移到下一个可见的行和存在停止。 
+有时, 书签指向的行在表视图中不再存在。 如果呼叫者使用此类书签, 请将光标移到下一个可见的行, 并将其停止。 
   
-当呼叫者尝试使用书签，因为它已被折叠指向不可见的行时，则移动书签后返回 MAPI_W_POSITION_CHANGED。 此时或折叠发生在**SetCollapseState**方法时，可以重新定位到的下一个可见行的书签。 如果将书签移动折叠行时，您必须保留有点指示完全书签已移动时在书签： 由于其上次使用或其从未使用过创建后。 
+当呼叫者尝试使用指向 nonvisible 行的书签, 因为它已被折叠, 请在移动书签后返回 MAPI_W_POSITION_CHANGED。 此时, 可以将该书签重新定位到下一个可见的行, 也可以重新定位在**SetCollapseState**方法中发生折叠的时间。 如果在折叠行时移动书签, 则必须在书签中保留一个指示移动书签的确切时间的位: 自上次使用后, 或者如果自创建以来从未使用过该书签。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
- **CreateBookmark**为其创建的书签分配内存。 通过调用[IMAPITable::FreeBookmark](imapitable-freebookmark.md)方法释放书签的资源。 
+ **CreateBookmark**为其创建的书签分配内存。 通过调用[IMAPITable:: FreeBookmark](imapitable-freebookmark.md)方法释放书签的资源。 
   
 ## <a name="see-also"></a>另请参阅
 

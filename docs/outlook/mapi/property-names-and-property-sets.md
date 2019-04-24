@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
-description: 上次修改时间： 2011 年 7 月 23 日
+description: 上次修改时间：2011 年 7 月 23 日
 ms.openlocfilehash: fa9d6afcaf1b360f37e8c8873c9d1a823fcd4888
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328544"
 ---
 # <a name="property-names-and-property-sets"></a>属性名称和属性集
 
@@ -21,15 +21,15 @@ ms.locfileid: "25391652"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-每个命名属性的名称具有两个部分：
+每个命名属性的名称包含两个部分:
   
-- 全局唯一标识符或用于指定属性集 GUID。
+- 指定属性集的全局唯一标识符 (即 GUID)。
     
-- Unicode 字符串或 32 位数字值。 
+- 一个 Unicode 字符字符串或32位数字值。 
     
-介绍了使用[MAPINAMEID](mapinameid.md)结构的命名属性的名称。 此结构包含属性集成员、 数字或字符串的格式，指定名称的成员和确定使用哪种格式的成员。 由于属性集的属性名称的一部分，它不是可选。 MAPI 定义了供客户端和服务提供商使用的多个属性集，但如果不合适现有属性集，可以定义一组新属性。 客户端和服务提供商可以通过调用[CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx)函数来定义自己的属性集。 通常这些属性集创建自定义客户端应用程序。 
+命名属性的名称使用[MAPINAMEID](mapinameid.md)结构进行描述。 此结构包含一个属性集成员、用于指定数字或字符串格式的名称的成员, 以及用于标识所使用的格式的成员。 由于属性集是属性名称的一部分, 因此它不是可选的。 MAPI 定义了多个用于客户端和服务提供程序的属性集, 但如果现有属性集不合适, 则可以定义新的属性集。 客户端和服务提供程序可以通过调用[CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx)函数来定义其自己的属性集。 通常, 这些属性集是为自定义客户端应用程序创建的。 
   
-MAPI 的属性集由以下常量表示：
+MAPI 的属性集由下列常量表示:
   
 PS_MAPI
   
@@ -45,9 +45,9 @@ PS_ROUTING_DISPLAY_NAME
   
 PS_ROUTING_ENTRYID
   
-专门 PS_MAPI 属性集;服务提供商使用它可生成与范围的命名的属性的标识符的属性的名称。 客户端使用 PS_PUBLIC_STRINGS 属性集 IPM 消息的命名属性。 因为命名 PS_PUBLIC_STRINGS 设置的属性中的属性显示在客户端的用户界面中，不可见的消息如那些属于 IPC 邮件类应避免创建名为该属性设置的属性。 相反，他们应在邮件类特定区域中，通过 0x7FFF 0x6800 创建属性。
+PS_MAPI 属性集是保留的;服务提供程序使用它为具有命名属性范围下的标识符的属性生成名称。 PS_PUBLIC_STRINGS 属性集由客户端用于 IPM 邮件的命名属性。 由于 PS_PUBLIC_STRINGS 属性集中的命名属性将出现在客户端的用户界面中, 因此 nonvisible 邮件 (如属于 IPC 邮件类的邮件) 应避免使用此属性集创建命名属性。 相反, 它们应在特定于邮件类别的范围 (0x6800 到 0x7FFF) 中创建属性。
   
-其他属性集保留描述通常路由列表中的成员的收件人的命名的属性。 包含相同类型的收件人列表属性与关联的属性的信息，这些属性集的属性可理解的网关需要映射的邮件系统的目标。 有五种类型的描述属性的信息，因为 MAPI 定义了五个不同的属性集。 客户端发送一条消息，必须包括地址和地址类型为其路由列表成员分配一个 PS_ROUTING_EMAIL_ADDRESSES 中每个成员的命名的属性和 PS_ROUTING_ADDRTYPE 属性设置。 这样可以确保地址和地址类型保持可行时发送给外部邮件系统。
+其他属性集保留了描述通常是路由列表成员的收件人的命名属性。 包含与收件人列表属性相关联的属性的相同类型的信息, 网关将理解这些属性集中的属性, 以要求对目标邮件系统进行映射。 由于有五种类型的信息可用于描述属性, 因此 MAPI 定义了五个不同的属性集。 发送邮件时, 如果客户端发送的邮件必须包含其路由列表成员的地址和地址类型, 则为 PS_ROUTING_EMAIL_ADDRESSES 和 PS_ROUTING_ADDRTYPE 属性集中的每个成员分配一个命名属性。 这样可确保地址和地址类型在发送到外部邮件系统时仍然可用。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 186afd6a80d0ae3ae0a767456e60b2ebaaa579b9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f6688afde9b36a7722eaaf768f091481c15b7308
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329056"
 ---
 # <a name="imapipropgetnamesfromids"></a>IMAPIProp::GetNamesFromIDs
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供对应于一个或多个属性标识符的属性名称。
+提供与一个或多个属性标识符相对应的属性名称。
   
 ```cpp
 HRESULT GetNamesFromIDs(
@@ -41,105 +41,105 @@ HRESULT GetNamesFromIDs(
 
  _lppPropTags_
   
-> [传入、 传出]在输入指向包含属性的数组[SPropTagArray](sproptagarray.md)结构的标签;否则，为 NULL，指示应返回所有名称。 属性标记数组的**cValues**成员不能为 0。 如果_lppPropTags_上输入, 的有效指针**GetNamesFromIDs**返回包含数组中每个属性标识符的名称。 
+> [in, out]在输入时, 指向包含属性标记数组的[SPropTagArray](sproptagarray.md)结构的指针;否则为 NULL, 表示应返回所有名称。 属性标记数组的**cValues**成员不能为0。 如果_lppPropTags_是有效的输入指针, **GetNamesFromIDs**将返回数组中包含的每个属性标识符的名称。 
     
  _lpPropSetGuid_
   
-> [in]指向的 GUID 或[GUID](guid.md)的结构，标识属性集。 _LpPropSetGuid_参数可以指向有效的属性集，也可以是 NULL。 
+> 实时指向标识属性集的 guid 或[guid](guid.md)结构的指针。 _lpPropSetGuid_参数可指向有效的属性集, 也可以为 NULL。 
     
  _ulFlags_
   
-> [in]位掩码的标志，指示要返回的名称的类型。 可使用以下标志 （如果设置两个标志，没有将返回名称）：
+> 实时标志的位掩码, 指示要返回的名称的类型。 可以使用以下标志 (如果同时设置了这两个标志, 则不会返回任何名称):
     
 MAPI_NO_IDS 
   
-> 返回仅存储为 Unicode 字符串的名称的请求。 
+> 仅返回以 Unicode 字符串形式存储的名称的请求。 
     
 MAPI_NO_STRINGS 
   
-> 返回仅存储为数字标识符的名称的请求。 
+> 仅返回作为数字标识符存储的名称的请求。 
     
  _lpcPropNames_
   
-> [输出]指向数目_lppPropNames_参数指向该数组中的属性名称指针的指针。 
+> 排除一个指针, 指向由_lppPropNames_参数指向的数组中的属性名称指针的计数。 
     
  _lpppPropNames_
   
-> [输出]指向包含属性名称数组指向[MAPINAMEID](mapinameid.md)结构的指针的指针。 
+> 排除指向包含属性名称的[MAPINAMEID](mapinameid.md)结构的指针数组的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回的属性名称。 
+> 成功返回属性名称。 
     
 MAPI_E_NO_SUPPORT 
   
-> 对象不支持命名的属性。 
+> 对象不支持命名属性。 
     
 MAPI_W_ERRORS_RETURNED 
   
-> 调用成功总体上讲，但不是会返回一个或多个属性的名称。 属性标记为失败属性有**PT_ERROR**属性类型。 返回此警告时，应处理呼叫为成功。 若要测试此警告，请使用**HR_FAILED**宏。 有关详细信息，请参阅[使用宏的错误处理](using-macros-for-error-handling.md)。 
+> 呼叫全部成功, 但无法返回一个或多个属性的名称。 失败属性的属性标记的属性类型为**PT_ERROR**。 返回此警告时, 应以成功的方式处理该调用。 若要测试此警告, 请使用**HR_FAILED**宏。 有关详细信息, 请参阅[使用宏进行错误处理](using-macros-for-error-handling.md)。 
     
 MAPI_E_INVALID_PARAMETER 
   
-> 一个或多个所指的_lppPropTags_属性标记数组中的条目的**cValues**成员设置为 0。 
+> 由_lppPropTags_指向的属性标记数组中的一个或多个条目的**cValues**成员设置为0。 
     
 ## <a name="remarks"></a>注解
 
-按属性标识符对大多数属性的访问时，可以通过名称访问某些属性。 **IMAPIProp::GetNamesFromIDs**方法可调用它以执行下列操作： 
+虽然对大多数属性的访问都是通过属性标识符访问, 但某些属性可以通过名称访问。 可以调用**IMAPIProp:: GetNamesFromIDs**方法来执行以下操作: 
   
-- 检索特定的属性集内的特定属性标识符的名称。
+- 检索特定属性集中特定属性标识符的名称。
     
-- 检索设置的任何属性中的特定属性标识符的名称。
+- 在任何属性集中检索特定属性标识符的名称。
     
-- 检索的对象映射中包含的所有命名属性的名称。
+- 检索对象映射中包含的所有命名属性的名称。
     
-如果具有一个或多个属性标识符的有效属性标记数组的_lppPropTags_指向和_lpPropSetGuid_指向有效属性设置， **GetNamesFromIDs**忽略属性集和属性类型，并返回的所有名称映射到指定的标识符。 
+如果_lppPropTags_指向具有一个或多个属性标识符的有效属性标记数组, 并且_lpPropSetGuid_指向有效的属性集, 则**GetNamesFromIDs**将忽略该属性集和属性类型, 并返回所有名称。映射到指定标识符的。 
   
-如果_lppPropTags_指向与一个或多个属性标识符和_lpPropSetGuid_有效属性标记数组为 NULL， **GetNamesFromIDs**返回所有将映射到指定标识符的名称。 
+如果_lppPropTags_指向具有一个或多个属性标识符且_lpPropSetGuid_为 NULL 的有效属性标记数组, 则**GetNamesFromIDs**将返回映射到指定标识符的所有名称。 
   
-如果指定的标识符不具有一个名称， **GetNamesFromIDs** _lpppPropNames_中返回的结构中的该标识符就地返回 NULL，并返回 MAPI_W_ERRORS_RETURNED。 
+如果指定的标识符没有名称, 则**GetNamesFromIDs**将在该标识符在_lpppPropNames_中返回的结构中的位置返回 NULL, 同时还返回 MAPI_W_ERRORS_RETURNED。 
   
-如果_lpPropSetGuid_和_lppPropTags_均为空， **GetNamesFromIDs**分配新的属性标记数组，并返回所有的所有对象的命名属性的名称。 
+如果_lpPropSetGuid_和_lppPropTags_都为 NULL, 则**GetNamesFromIDs**会分配一个新的属性标记数组, 并返回该对象的所有命名属性的所有名称。 
   
-当没有要返回的名称时，可能是因为请求的属性集合中没有任何属性或由标志，排除类型的所有属性都**GetNamesFromIDs**执行以下任务： 
+如果没有要返回的名称, 可能是因为请求的属性集中没有任何属性, 或者所有属性都不是由 flags 排除的类型, **GetNamesFromIDs**将执行以下操作: 
   
 - 返回 S_OK。
     
-- 分配新的**SPropTagArray**结构，并将**cValues**成员设置为 0。 
+- 分配一个新的**SPropTagArray**结构, 并将**cValues**成员设置为0。 
     
-- 将_lpcPropNames_的内容设置为 0。 
+- 将_lpcPropNames_的内容设置为0。 
     
 - 将_lpppPropNames_的内容设置为 NULL。 
     
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果_lpPropSetGuid_指向有效的属性集和_lppPropTags_为 NULL，则结果是未定义。 您可以使用以下策略之一： 
+如果_lpPropSetGuid_指向有效的属性集, 而_lppPropTags_为 NULL, 则结果是不确定的。 您可以使用以下策略之一: 
   
-- 忽略属性集，该属性标记数组中返回标识符的名称。
+- 忽略属性集, 并在属性标记数组中返回标识符的名称。
     
-- 属于指定的属性集属性标记数组中返回仅的标识符的名称。
+- 仅返回属于指定属性集的属性标记数组中的标识符的名称。
     
-- 呼叫，返回 MAPI_E_INVALID_PARAMETER 将失败。 
+- 使呼叫失败, 返回 MAPI_E_INVALID_PARAMETER。 
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-若要检索所有对象的命名属性，必须首先调用该对象的[IMAPIProp::GetPropList](imapiprop-getproplist.md)方法，然后传递到**GetNamesFromIDs**0x8000 范围之上的返回的标识符。
+若要检索对象的所有命名属性, 必须先调用对象的[IMAPIProp:: GetPropList](imapiprop-getproplist.md)方法, 然后将大于0x8000 范围的返回标识符传递给**GetNamesFromIDs**。
   
-如果传递有效的属性集，而不是有效属性标记数组，准备无法预料的结果。 **GetNamesFromIDs**某些实现忽略属性集，该属性标记数组中返回标识符的名称。 某些实现返回 MAPI_E_INVALID_PARAMETER。 仍其他实现设置的属性中返回的所有属性的标识符的名称。 如果属性集，PS_PUBLIC_STRINGS **GetNamesFromIDs**可以返回已创建的所有名称。 服务提供商是否存储在与公共字符串关联的标识符的属性并不重要。 
+如果传递的是有效的属性集, 而不是有效的属性标记数组, 则准备好实现不可预知的结果。 **GetNamesFromIDs**的某些实现将忽略该属性集, 并返回属性标记数组中的标识符的名称。 某些实现返回 MAPI_E_INVALID_PARAMETER。 此外, 其他实现将返回属性集中所有属性的标识符的名称。 如果属性集为 PS_PUBLIC_STRINGS, 则**GetNamesFromIDs**可以返回曾经创建的所有名称。 服务提供程序是否在与公共字符串关联的标识符下存储属性是 immaterial。 
   
-完后，属性名称，则检查_lpcPropNames_参数，以确定是否返回任何名称的内容。 如果是这样，呼叫[MAPIFreeBuffer](mapifreebuffer.md)函数以释放内存指向_lppPropTags_和_lpppPropNames_时返回一个成功的结果。 一次调用**MAPIFreeBuffer**就足以为每个参数;您不必遍历的指针数组和单独释放每个**MAPINAMEID**结构。 
+使用完属性名称后, 请检查_lpcPropNames_参数的内容, 以确定是否返回任何名称。 如果是这样, 则调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 以释放_lppPropTags_和_lpppPropNames_在返回成功的结果时指向的内存。 对每个参数的一次调用**MAPIFreeBuffer**是足够的;您不必遍历指针数组并单独释放每个**MAPINAMEID**结构。 
   
-有关命名属性的详细信息，请参阅[MAPI 命名属性](mapi-named-properties.md)。 
+有关命名属性的详细信息, 请参阅[MAPI 命名属性](mapi-named-properties.md)。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedProps  <br/> |MFCMAPI 使用**IMAPIProp::GetNamesFromIDs**方法查找以前未映射的命名属性。  <br/> |
+|SingleMAPIPropListCtrl  <br/> |CSingleMAPIPropListCtrl:: FindAllNamedProps  <br/> |MFCMAPI 使用**IMAPIProp:: GetNamesFromIDs**方法来查找之前已映射的命名属性。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7605739dd6d0f0205a1a4f09eb8c45d235c0c179
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329734"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>PidTagMessageCcMe 规范属性
 
@@ -25,46 +25,46 @@ ms.locfileid: "25389769"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-如果此消息的用户专门命名为此邮件的抄送 (CC) 收件人，而不是通讯组列表的一部分，包含 TRUE。 
+如果此邮件用户专门指定为此邮件的抄送 (CC) 收件人且不是通讯组列表的一部分, 则该参数为 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MESSAGE_CC_ME  <br/> |
-|标识符：  <br/> |0x0058  <br/> |
+|标识符:  <br/> |0x0058  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性提供方便地确定是否用户名显式中出现抄送收件人列表中，如果不检查列表中的所有条目。 
+此属性提供了一种方便的方法来确定用户名是否显式显示在 "抄送" 收件人列表中, 而不检查列表中的所有条目。 
   
-此属性还可帮助您接收的消息的回执时的自动的处理。 在传输提供程序的选项，此属性包含 FALSE 或未设置如果直接在收件人的表中未列出的消息的用户。 
+此属性还有助于在接收时自动处理收到的邮件。 在传输提供程序的选项中, 如果邮件用户未直接列在收件人表中, 则此属性包含 FALSE 或不设置。 
   
-通讯组列表扩展或密件抄送副本标识生成的邮件传递不会导致要设置此属性。 必须明确名为收件人。 
+由于通讯组列表展开或密件抄送指定导致的邮件传递不会导致设置此属性。 收件人必须显式命名。 
   
-通常未发送的邮件不设置此属性， **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) 或**PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))。 如果它们存在用户可以访问公共消息中的存储区，其他用户的专用存储在磁盘上的文件中或嵌入其他接收的消息，它们通常会包含到他们已设置的值的邮件在上一次传输提供程序发送邮件。 
+未发送的邮件通常不设置此属性、 **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) 或**PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))。 如果用户可以访问公用邮件存储区中的其他用户的私人存储、磁盘上的文件或嵌入到其他已接收邮件中的邮件, 则通常会包含它们在上次传输提供程序中所设置的值。传递了邮件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[毫秒-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> 指定的属性和电子邮件消息对象在允许的操作。
+> 指定在电子邮件对象上允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6a6f8f9d675bee362b4a9f1c5b7fc544fa66d7b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328789"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-通知表单查看器的新的或现有邮件已加载的窗体。
+通知表单查看器新的或现有的邮件已在表单中加载。
   
 ```cpp
 HRESULT OnNewMessage( void );
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-表单对象调用**IMAPIViewAdviseSink::OnNewMessage**方法时使用的[IPersistMessage::InitNew](ipersistmessage-initnew.md)或[IPersistMessage::Load](ipersistmessage-load.md)方法的窗体加载一条消息。 
+当使用[IPersistMessage:: InitNew](ipersistmessage-initnew.md)或[IPersistMessage:: Load](ipersistmessage-load.md)方法在窗体中加载邮件时, form 对象将调用**IMAPIViewAdviseSink:: OnNewMessage**方法。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-释放您指向活动窗体对象，因为它不再指向以前已查看您查看器的邮件。 
+释放指向 form 对象的活动指针, 因为它不再指向您的查看器以前查看的邮件。 
   
-有关窗体通知的详细信息，请参阅[发送和接收窗体通知](sending-and-receiving-form-notifications.md)。
+有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

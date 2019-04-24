@@ -6,35 +6,35 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
-description: 所需的引用的单元格包含自定义的函数，以及一个或多个要作为参数 （可选） 传递给自定义的函数的名称值对。 返回在给定所指定的参数和值的自定义函数的计算的结果。
-ms.openlocfilehash: 03094f644edb29f990f3dda50b0cb4c35e1b07a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取一个对包含自定义函数以及一个或多个作为参数传递给自定义函数的名称值对的单元格的引用 (可选)。 返回给定了指定参数和值的自定义函数的计算结果。
+ms.openlocfilehash: 4ad6645862d620a36b90e4f46d09588d7e83fcc1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329069"
 ---
 # <a name="evalcell-function"></a>EVALCELL 函数
 
-所需的引用的单元格包含自定义的函数，以及一个或多个要作为参数 （可选） 传递给自定义的函数的名称值对。 返回在给定所指定的参数和值的自定义函数的计算的结果。
+获取一个对包含自定义函数以及一个或多个作为参数传递给自定义函数的名称值对的单元格的引用 (可选)。 返回给定了指定参数和值的自定义函数的计算结果。
   
 ## <a name="syntax"></a>语法
 
-EVALCELL (* * *cellRef* * *，[* * *arg1Name、 arg1* * *]，[* * *arg2Name、 arg2* * *]，...) 
+EVALCELL (* * *cellRef* * *, [* * *arg1Name, arg1* * *], [* * *arg2Name, arg2* * *],...) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _cellRef_ <br/> |必需  <br/> |**字符串** <br/> |对包含自定义的函数的单元格的引用。 允许跨工作表引用。  <br/> |
-| _arg1Name_ <br/> |可选  <br/> |**字符串** <br/> |要传递给自定义函数的第一个参数的名称。可以包含空格。  <br/> |
-| _arg1_ <br/> |可选  <br/> |**因情况而异** <br/> |_Arg1_参数的值。  <br/> |
-| _arg2Name_ <br/> |可选  <br/> |**字符串** <br/> |第二个参数传递给自定义的函数的名称。 允许使用空格。  <br/> |
-| _arg2_ <br/> |可选  <br/> |**因情况而异** <br/> |_Arg2_参数的值。  <br/> |
+| _cellRef_ <br/> |必需  <br/> |**String** <br/> |对包含自定义函数的单元格的引用。 允许工作表交叉引用。  <br/> |
+| _arg1Name_ <br/> |可选  <br/> |**字符串** <br/> |要传递给自定义函数的第一个参数的名称。 可以包含空格。  <br/> |
+| _arg1_ <br/> |可选  <br/> |**相同** <br/> |_arg1_参数的值。  <br/> |
+| _arg2Name_ <br/> |可选  <br/> |**字符串** <br/> |要传递给自定义函数的第二个参数的名称。 可以包含空格。  <br/> |
+| _arg2_ <br/> |可选  <br/> |**相同** <br/> |_arg2_参数的值。  <br/> |
    
 ### <a name="return-value"></a>返回值
 
-Number
+帐号
   
 ## <a name="remarks"></a>注解
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75ed353c-7d3e-e148-4057-715e82a0f32c
-description: 指定的时区规则时夏时制开始，以及该所在的时区规则首先会生效的年份的信息。
+description: 指定有关夏时制开始时间的时区规则的信息, 以及该时区规则优先的生效年份。
 ms.openlocfilehash: 71ede7c0061a058c2dd85c7b9b36c42583a6bb84
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328614"
 ---
 # <a name="tzrule"></a>TZRULE
 
-指定的时区规则时夏时制开始，以及该所在的时区规则首先会生效的年份的信息。 
+指定有关夏时制开始时间的时区规则的信息, 以及该时区规则优先的生效年份。 
   
 ## <a name="quick-info"></a>快速信息
 
@@ -28,27 +28,27 @@ typedef struct {
 } TZRULE;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>成员
 
 _wFlags_
   
-> 为此成员的标志确定具体的详细信息，此所在的时区规则。 可能的标志如下所示：
+> 为此成员设置的标志标识了此时区规则的特定详细信息。 可能的标志如下所示:
     
-   - **TZRULE_FLAG_EFFECTIVE_TZREG** — 标识为，应当前使用的规则。 只有一个规则可以标记为有效的规则。 所有其他规则只是为了比较。 
+   - **TZRULE_FLAG_EFFECTIVE_TZREG** —将规则标识为当前应使用的规则。 只能将一个规则标记为有效规则。 所有其他规则仅用于比较目的。 
     
-   - **TZRULE_FLAG_RECUR_CURRENT_TZREG** — 在定期会议标识为匹配[PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)中的规则的规则。 这可以用于检测是否**PidLidTimeZoneStruct**已修改显著旧客户端，否则不知道的新的、 更完整属性将为。 
+   - **TZRULE_FLAG_RECUR_CURRENT_TZREG** —在定期会议中, 标识与[PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)中的规则匹配的规则。 这可用于检测**PidLidTimeZoneStruct**是否已由旧版客户端显著修改, 这将在其他方面不知道新的、更完整的属性。 
     
 _stStart_
   
-> 以协调世界时 (UTC) 时区规则启动的时间。
+> 时区规则启动的协调世界时 (UTC) 时间。
     
 _TZReg_
   
-> 所在的时区规则的时区信息。
+> 时区规则的时区信息。
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此结构补充[TZREG](tzreg.md)提供了指示时所在的时区规则才会生效的其他信息。 
+此结构通过提供其他信息来扩充[TZREG](tzreg.md) , 以指示时区规则何时生效。 
   
 ## <a name="see-also"></a>另请参阅
 

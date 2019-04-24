@@ -7,45 +7,45 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 54cd90cac6c00e8cf274e0b78a1bfec32401bb8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 7419c174c1f68653794c2dbd836577e8dd3e596e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328075"
 ---
 # <a name="address-book-restrictions"></a>通讯簿限制
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-要在其容器的内容表支持三种类型的限制，通讯簿提供程序被必需:
+通讯簿提供程序在其容器的内容表上支持三种类型的限制是必需的:
   
-- 模糊名称属性限制
+- 不明确的名称属性限制
     
-- 实例 key 属性限制
+- 实例键属性限制
     
-- 前缀的显示名称内容限制
+- 带前缀的显示名称内容限制
     
-模糊名称限制是属性限制使用**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性来匹配地址簿容器中条目的收件人姓名。 **PR_ANR**属性限制是"最佳猜测"搜索通讯簿提供程序，从而使得可以选择最适合其容器的匹配属性的类型。 例如，一个通讯簿提供程序可能通过匹配的收件人姓名，针对每个容器条目的**PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 属性来实现**PR_ANR**限制，而其他提供程序可能使用**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))。
+不明确的名称限制是使用**PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) 属性将收件人姓名与通讯簿容器中的条目相匹配的属性限制。 **PR_ANR**属性限制是一种 "最佳推测" 类型的搜索, 使用通讯簿提供程序可以选择最适合其容器的匹配属性。 例如, 一个通讯簿提供程序可以通过针对每个容器条目的**PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 属性匹配收件人名称来实现**PR_ANR**限制, 而另一个提供程序可能会使用**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))。
   
-MAPI 建议的**PR_ANR**限制实现 strike 足够性能和用户满意度之间的平衡。 通讯簿提供程序实现如限制时，可能会破坏用户满意度找到太少或太多的匹配项的方式。 某些通讯簿提供程序支持称为不可显示在对话框中，但可以匹配模糊名称限制的可分辨，或常见，名称。 
+MAPI 建议**PR_ANR**限制的实现在充分的性能和用户满意度之间达到平衡。 当通讯簿提供程序以这样的方式实施限制时, 可能会危及用户满意度, 因为找到的匹配项过少或过多。 某些通讯簿提供程序支持称为可分辨或公用的名称, 该名称在对话框中不可显示, 但可以匹配不明确的名称限制。 
   
-典型的实现可能为单词、 匹配任何项，其中包含的所有单词解析收件人的显示名称。 注意详细信息，如敏感度 word 位置、 是否匹配不连续的单词，和选择分隔符可能不同。 例如，如果解析名称为"Bill L"，典型的**PR_ANR**限制将视为匹配选择以下项： 
+典型的实现可能是将收件人的显示名称解析为词, 并匹配包含所有单词的任何条目。 注意对 word 位置的敏感性、不连续单词是否匹配以及分隔符字符的选择可能不同的详细信息。 例如, 如果要解析的名称为 "Bill L", 则典型的**PR_ANR**限制将选择以下条目作为匹配: 
   
 - Billy Larson
     
-- Bill 李
+- 帐单先生
     
-- Bill 日志职位需求。 
+- 付款人 Logan 先生。 
     
-- Sam Bill 李
+- Sam 帐单先生/
     
-实例键限制或**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性限制的客户端应用程序中使用查看 MAPI 表的列表框实现中使用。 某些列表框实现允许用户进行多个选择，向上滚动或向下，并返回到第一项选择。 若要实现此行为，客户端调用[IMAPITable::FindRow](imapitable-findrow.md)，将属性限制**PR_INSTANCE_KEY**属性传递给方法。 通讯簿提供程序需要支持此限制。 
+在用于查看 MAPI 表的客户端应用程序中使用列表框的实现中使用实例密钥限制或**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性限制。 某些列表框实现允许用户进行多项选择, 向上或向下滚动, 然后返回到选定的第一个项目。 若要实现此行为, 客户端调用[IMAPITable:: FindRow](imapitable-findrow.md), 并将**PR_INSTANCE_KEY**属性上的属性限制传递给方法。 需要通讯簿提供程序来支持此限制。 
   
-用于查看表的列表框的另一个功能是能够将光标基于一的前缀字符。 在用户启动键入前缀字符时，客户端将光标移到这些字符开头的第一项。 客户端与基于**PR_DISPLAY_NAME**属性和 FL_PREFIX 模糊级别内容限制实现此功能。 
+用于表格查看的列表框的另一项功能是能够根据一组前缀字符定位光标。 当用户开始键入前缀字符时, 客户端会将光标移动到第一个以这些字符开头的项。 客户端通过基于**PR_DISPLAY_NAME**属性和 FL_PREFIX 模糊级别的内容限制来实现此功能。 
   
 ## <a name="see-also"></a>另请参阅
 

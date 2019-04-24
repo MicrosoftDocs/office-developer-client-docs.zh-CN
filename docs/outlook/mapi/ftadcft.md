@@ -8,25 +8,25 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f073dbb9655585ee56ab38be35bea4ef320042c0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f308c1f6f3cd2c9904dd94cd6761517bd5b410b6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328019"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-向另一个，（可选） 使用携带标志添加一个无符号的 64 位整数。
+将一个无符号64位整数添加到另一个, 可以选择使用带有标志。
   
 |||
 |:-----|:-----|
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 FILETIME FtAdcFt( 
@@ -40,23 +40,23 @@ FILETIME FtAdcFt(
 
  _ft1_
   
-> [in]包含的第一个无符号的 64 位整数，要添加的[FILETIME](filetime.md)结构。 
+> 实时一个[FILETIME](filetime.md)结构, 其中包含要添加的第一个不带符号的64位整数。 
     
  _ft2_
   
-> [in]包含的第二个无符号的 64 位整数，要添加的 FILETIME 结构。
+> 实时一个 FILETIME 结构, 其中包含要添加的第二个带符号的64位整数。
     
  _pwCarry_
   
-> [传入、 传出，可选]在输入时，指向传入的执行标志。 在输出，指向增加的执行结果的指针。 如果要结果，则不需要此参数可以是 NULL。
+> [in、out、optional]在输入时, 指向传入的传输标志的指针。 在输出时, 指向添加项的承载结果的指针。 如果不需要 "执行" 结果, 则此参数可以为 NULL。
     
 ## <a name="return-value"></a>返回值
 
-**FtAdcFt**函数将返回一个**FILETIME**结构，其中包含两个包含整数的总和。 两个输入的参数保持不变。 如果**pwCarry**为非 NULL，则它包含的执行结果 sum、 0 或 1。 
+**FtAdcFt**函数返回一个**FILETIME**结构, 其中包含两个整数的和。 这两个输入参数保持不变。 如果**pwCarry**为非 NULL, 则它包含总和的包含结果, 即0或1。 
   
 ## <a name="remarks"></a>注解
 
-**FtAdcFt**函数等同于**FtAddFt** _pwCarry_为 NULL 时。 如果_pwCarry_不为 NULL，并指向 0， **FtAdcFt**返回**FtAddFt**返回的同一个**FILETIME**值。 
+当_pwCarry_为 NULL 时, **FtAdcFt**函数等同于**FtAddFt** 。 如果_pwCarry_不为 NULL, 并指向 0, 则**FtAdcFt**将返回**FtAddFt**返回的同一**FILETIME**值。 
   
 ## <a name="see-also"></a>另请参阅
 

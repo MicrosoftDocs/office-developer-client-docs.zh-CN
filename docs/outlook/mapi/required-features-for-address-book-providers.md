@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: e2ccddd7-65e8-41f6-8e21-a4ae98190a96
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 919b21490bb3b4418ba291e8e06198028c995b00
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 56ca15440c8d323dbab1b6a92a01941106b86934
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328691"
 ---
 # <a name="required-features-for-address-book-providers"></a>通讯簿提供程序的必需功能
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-通讯簿提供程序可以使用的临时或永久、 本地或远程、 一个或多个邮件系统，理解和磁盘文件或数据库表的格式化的收件人信息。 有多种通讯簿提供程序可以实现，从而添加值和改进与客户端和其他提供程序的互操作性的功能。 但是，所需的一些功能。
+通讯簿提供程序可处理临时或永久、本地或远程的收件人信息、由一个或多个邮件系统理解的收件人信息, 以及针对磁盘文件或数据库表的格式。 通讯簿提供程序可以实现多种功能, 从而增加价值并提高与客户端和其他提供程序的互操作性。 但是, 有些功能是必需的。
   
-下表介绍所需的所有通讯簿提供程序的功能和需要实现它们所需的步骤。
+下表介绍了所有通讯簿提供程序所需的功能以及实现这些功能需要执行的步骤。
   
 |**功能**|**如何实现**|
 |:-----|:-----|
-|会话登录  <br/> | 实现入口点函数。 有关详细信息，请参阅[实现地址簿提供程序入口点函数](implementing-an-address-book-provider-entry-point-function.md)。  <br/>  实现[IABProvider::Logon](iabprovider-logon.md)方法。 有关详细信息，请参阅[实现通讯簿提供程序登录和注销](implementing-address-book-provider-logon-and-logoff.md)。  <br/> |
-|会话注销  <br/> |实现[IABProvider::Shutdown](iabprovider-shutdown.md)方法。 有关详细信息，请参阅[实现通讯簿提供程序登录和注销](implementing-address-book-provider-logon-and-logoff.md)。  <br/> |
-|创建条目标识符  <br/> |提供支持**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。 有关详细信息，请参阅[MAPI 条目标识符](mapi-entry-identifiers.md)和[通讯簿标识符](address-book-identifiers.md)。  <br/> |
-|参与状态表  <br/> | 实现相应方法的[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口。 有关详细信息，请参阅[状态对象实现](status-object-implementation.md)。  <br/>  支持所需的状态表属性。 有关详细信息，请参阅[状态表](status-tables.md)。  <br/>  调用[IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md)。  <br/> |
-|提供有限的状态对象支持  <br/> | 实现[IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法。  <br/>  从其他**IMAPIStatus**方法返回 MAPI_E_NO_SUPPORT。  <br/> |
-|支持互动模板和编程配置  <br/> | 实现消息服务入口点函数。  <br/>  实现显示表。 有关详细信息，请参阅[显示表](display-tables.md)和[显示表实现](display-table-implementation.md)。  <br/>  实现属性表或调用[IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md)方法。 有关详细信息，请参阅[属性表实现](property-sheet-implementation.md)。  <br/> |
+|会话登录  <br/> | 实现入口点函数。 有关详细信息, 请参阅[实现通讯簿提供程序入口点函数](implementing-an-address-book-provider-entry-point-function.md)。  <br/>  实现[IABProvider:: Logon](iabprovider-logon.md)方法。 有关详细信息, 请参阅[实现通讯簿提供程序登录和注销](implementing-address-book-provider-logon-and-logoff.md)。  <br/> |
+|会话注销  <br/> |实现[IABProvider:: Shutdown](iabprovider-shutdown.md)方法。 有关详细信息, 请参阅[实现通讯簿提供程序登录和注销](implementing-address-book-provider-logon-and-logoff.md)。  <br/> |
+|创建条目标识符  <br/> |提供对**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性的支持。 有关详细信息, 请参阅[MAPI 条目标识符](mapi-entry-identifiers.md)和[通讯簿标识符](address-book-identifiers.md)。  <br/> |
+|对状态表的参与  <br/> | 实现[IMAPIStatus: IMAPIProp](imapistatusimapiprop.md)接口的相应方法。 有关详细信息, 请参阅[Status Object 实现](status-object-implementation.md)。  <br/>  支持所需的状态表属性。 有关详细信息, 请参阅[状态表](status-tables.md)。  <br/>  调用[IMAPISupport:: ModifyStatusRow](imapisupport-modifystatusrow.md)。  <br/> |
+|提供有限的状态对象支持  <br/> | 实现[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法。  <br/>  从其他**IMAPIStatus**方法返回 MAPI_E_NO_SUPPORT。  <br/> |
+|支持交互式和编程配置  <br/> | 实现邮件服务入口点函数。  <br/>  实现显示表。 有关详细信息, 请参阅[显示表](display-tables.md)和[显示表实现](display-table-implementation.md)。  <br/>  实现属性表或调用[IMAPISupport::D oconfigpropsheet](imapisupport-doconfigpropsheet.md)方法。 有关详细信息, 请参阅[Property Sheet 实现](property-sheet-implementation.md)。  <br/> |
    
-此外，如果您的提供商支持收件人的创建，您必须提供创建模板的列表。 通过实现[IABLogon::GetOneOffTable](iablogon-getoneofftable.md)方法，以包括所有支持您的提供程序和每个容器的[IMAPIProp::OpenProperty](imapiprop-openproperty.md)方法打开**PR_CREATE_TEMPLATES** ([模板提供此列表PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性，包括所有支持的容器的模板。 有关详细信息，请参阅[实现一次性表](implementing-one-off-tables.md)。
+此外, 如果您的提供商支持创建收件人, 则必须提供创建模板的列表。 通过实现[IABLogon:: GetOneOffTable](iablogon-getoneofftable.md)方法来提供此列表, 以包括您的提供程序支持的所有模板和每个容器的[IMAPIProp:: OpenProperty](imapiprop-openproperty.md)方法以打开**PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) 属性, 并包含该容器支持的所有模板。 有关详细信息, 请参阅[实现一次性表](implementing-one-off-tables.md)。
   
 

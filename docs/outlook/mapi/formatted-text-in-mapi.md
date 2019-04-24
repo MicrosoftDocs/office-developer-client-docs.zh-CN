@@ -7,50 +7,50 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: bfaa4fd5f561c8138461db6ce8b9033c2a75b96b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 7f37d65e4beb328c2c92cf0c2ab28586af6bee45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327466"
 ---
 # <a name="formatted-text-in-mapi"></a>MAPI 中的格式化文本
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-消息的文本可存储和传输使用纯文本或带格式的文本。 带格式的文本更改其与，例如，一个或多个字体、 字号或文本颜色的外观，从而增强了消息文本。 建议的所有客户端和所有消息存储提供程序，只要有可能，都支持带格式的文本。 支持带格式的文本消息中添加通过改进消息可读性和进行消息处理更容易、 更高效的值。
+可以使用纯文本或带格式的文本来存储和传输邮件的文本。 格式化文本通过更改其外观 (例如, 一个或多个字体、字体大小或文本颜色) 来增强邮件文本。 建议所有的客户端和所有邮件存储提供程序 (如果可能) 都支持格式化文本。 在邮件中支持格式化文本通过提高邮件可读性和简化邮件处理来增加价值。
   
-可以采用多种方式实现格式化的文本。 最常用的方法是使用富文本格式 (RTF)。 MAPI 定义三个可传送属性用于保存消息文本信息： **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 纯文本， **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) HTML，和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 的 RTF 已压缩的文本。 消息文本的格式的版本可以两次版本，而不的格式，因为它是与邮件传输和存储在**PR_RTF_COMPRESSED**属性之前被压缩 RTF 的文本。 在屏幕上显示邮件时，时，未压缩使用 MAPI 提供的实用工具函数。 
+可以通过多种方式实现格式化文本。 最常见的方法是使用格式文本格式 (rtf)。 MAPI 定义了用于保存邮件文本信息的三个传输属性: **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) 用于纯文本、 **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) for HTML 和**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), 用于已压缩的 rtf 文本。 由于邮件文本的格式设置版本的大小可以是不带格式的版本, 因此 RTF 文本在与邮件一起传输并存储在**PR_RTF_COMPRESSED**属性中之前会进行压缩。 在屏幕上显示邮件的时间时, 将使用 MAPI 提供的实用工具函数对其进行解压缩。 
   
-MAPI 定义这两个邮件文本属性和它们之间的转换的机制，以便 RTF 感知客户端可以与客户端和不支持的邮件系统互操作格式化文本。
+MAPI 定义了这两种邮件文本属性和在它们之间进行转换的机制, 以便 RTF 感知客户端可以与不支持格式化文本的客户端和邮件系统进行交互操作。
   
 ### 
 
 [同步文本和格式设置](synchronizing-text-and-formatting.md)
   
-> 介绍如何保留 RTF 邮件文本的格式与同步。
+> 介绍如何将 RTF 邮件文本与格式保持同步。
     
-[支持待发邮件中的格式化文本：客户端责任](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
+[在待发邮件中支持格式化文本: 客户端责任](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
   
-> 介绍在传出消息中支持带格式的文本的客户端应用程序责任。
+> 介绍在传出邮件中支持格式化文本的客户端应用程序责任。
     
-[支持传入邮件中的格式化文本：客户端责任](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
+[在传入邮件中支持格式化文本: 客户端责任](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
   
-> 介绍客户端应用程序接收的邮件中支持带格式的文本的责任。
+> 介绍在传入邮件中支持格式化文本的客户端应用程序责任。
     
-[支持格式化文本：邮件存储区责任](supporting-formatted-text-message-store-responsibilities.md)
+[支持格式化文本: 邮件存储责任](supporting-formatted-text-message-store-responsibilities.md)
   
-> 介绍支持带格式的文本的消息存储责任。
+> 介绍用于支持格式化文本的邮件存储职责。
     
-[支持格式化文本：显示附件](supporting-formatted-text-rendering-attachments.md)
+[支持格式化文本: 呈现附件](supporting-formatted-text-rendering-attachments.md)
   
-> 介绍如何选择其中呈现附件。
+> 介绍如何选择呈现附件的位置。
     
-[支持格式化文本：网关责任](supporting-formatted-text-gateway-responsibilities.md)
+[支持格式化文本: 网关责任](supporting-formatted-text-gateway-responsibilities.md)
   
-> 介绍传出和传入格式化的文本邮件的网关责任。
+> 介绍传出和传入的格式化短信的网关职责。
     
 

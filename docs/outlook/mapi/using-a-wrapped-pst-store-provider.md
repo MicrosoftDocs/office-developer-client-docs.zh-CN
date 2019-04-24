@@ -1,35 +1,35 @@
 ---
-title: 使用换行的 PST 存储提供程序
+title: 使用包装的 PST 存储区提供程序
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
-description: 上次修改时间： 2012 年 7 月 3 日
-ms.openlocfilehash: e74ccd44797bb5629bfe4f390b099771c6932a9b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间:03 月3日, 2012
+ms.openlocfilehash: b7c651044ab7f4cad7032db69e157c9a3589bde9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329685"
 ---
-# <a name="using-a-wrapped-pst-store-provider"></a>使用换行的 PST 存储提供程序
+# <a name="using-a-wrapped-pst-store-provider"></a>使用包装的 PST 存储区提供程序
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-您可以使用换行的个人文件夹文件 (PST) 存储提供程序之前，您必须初始化并配置的换行的 PST 存储提供程序。 配置的换行的 PST 存储提供程序后，您必须实现函数，以便 MAPI 和 MAPI 后台处理程序可以登录到的消息存储提供程序。 有关初始化和登录到换行的 PST 存储提供程序的详细信息，请参阅[初始化自动换行 PST 存储提供程序](initializing-a-wrapped-pst-store-provider.md)和[日志记录上为一个自动换行 PST 存储提供程序](logging-on-to-a-wrapped-pst-store-provider.md)。
+在可以使用包装的个人文件夹文件 (PST) 存储提供程序之前, 您必须初始化和配置打包的 PST 存储提供程序。 在配置包装的 PST 存储区提供程序后, 必须实现功能, 以便 mapi 和 mapi 后台处理程序可以登录到邮件存储提供程序。 有关初始化和登录到包装的 pst 存储区提供程序的详细信息, 请参阅[初始化包装的 pst 存储提供程序](initializing-a-wrapped-pst-store-provider.md), 并[登录到包装的 pst 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)。
   
-**[IMAPISupport::IUnknown](imapisupportiunknown.md)** 接口提供了实现任务的常执行的消息存储提供程序。 必须为示例自动换行 PST 存储提供程序以包装此接口。 **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** 函数需要特殊的实现。 所有其他函数可以将其参数传递给基础被环绕对象。 
+**[IMAPISupport:: IUnknown](imapisupportiunknown.md)** 接口提供通常由邮件存储提供程序执行的任务的实现。 若要使示例包装的 PST 存储区提供程序正常工作, 必须包装此接口。 **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** 函数需要特殊实现。 所有其他函数都可以将其参数传递给基础包装对象。 
   
-本主题中，使用从示例自动换行 PST 存储提供程序的代码示例演示了**IMAPISupport::OpenProfileSection**函数。 本示例实现的换行的太平洋标准时间提供程序旨在与复制 API 结合使用。 有关下载并安装示例自动换行 PST 存储提供程序的详细信息，请参阅[安装示例自动换行 PST 存储提供程序](installing-the-sample-wrapped-pst-store-provider.md)。 有关复制 API 的详细信息，请参阅[有关复制 API](about-the-replication-api.md)。
+在本主题中, 使用示例包装的 PST 存储提供程序中的代码示例演示了**IMAPISupport:: OpenProfileSection**函数。 此示例实现了一个用于与复制 API 结合使用的打包的 PST 提供程序。 有关下载和安装示例包装的 pst 存储区提供程序的详细信息, 请参阅[安装示例包装的 pst 存储提供程序](installing-the-sample-wrapped-pst-store-provider.md)。 有关复制 api 的详细信息, 请参阅[关于复制 api](about-the-replication-api.md)。
   
-当您完成使用换行的 PST 存储提供程序时，您必须正确关闭换行 PST 存储提供程序。 有关详细信息，请参阅[关机的情况下自动换行 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)。
+使用包装的 pst 存储区提供程序完成后, 必须正确关闭包装的 pst 存储区提供程序。 有关详细信息, 请参阅[关闭包装的 PST 存储提供程序](shutting-down-a-wrapped-pst-store-provider.md)。
   
 ## <a name="open-profile-section-routine"></a>打开配置文件部分例程
 
-**[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** 函数将打开当前配置文件的一部分。 该函数需要在换行 PST 存储提供程序实现的专门处理措施。 当`pgNSTGlobalProfileSectionGuid`请求时，此函数返回缓存配置文件一节。 
+**[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** 函数打开当前配置文件的节。 该函数需要在包装的 PST 存储区提供程序实现中进行特殊处理。 `pgNSTGlobalProfileSectionGuid`请求时, 该函数将返回缓存的配置文件部分。 
   
-### <a name="csupportopenprofilesection-example"></a>CSupport::OpenProfileSection() 示例
+### <a name="csupportopenprofilesection-example"></a>CSupport:: OpenProfileSection () 示例
 
 ```cpp
 STDMETHODIMP CSupport::OpenProfileSection( 
@@ -58,7 +58,7 @@ STDMETHODIMP CSupport::OpenProfileSection(
 
 - [关于示例包装的 PST 存储区提供程序](about-the-sample-wrapped-pst-store-provider.md)
 - [安装示例包装的 PST 存储区提供程序](installing-the-sample-wrapped-pst-store-provider.md)
-- [初始化包装的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
-- [登录包装的 PST 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
-- [关闭包装的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
+- [初始化打包的 PST 存储区提供程序](initializing-a-wrapped-pst-store-provider.md)
+- [登录到打包的 PST 存储区提供程序](logging-on-to-a-wrapped-pst-store-provider.md)
+- [关闭打包的 PST 存储区提供程序](shutting-down-a-wrapped-pst-store-provider.md)
 

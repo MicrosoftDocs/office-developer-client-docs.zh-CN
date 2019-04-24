@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 5d3b41d5f694c990be7d9aae61b86b705d1b8e17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0355977b119698fcf2575ec3806878a4ab0c7c39
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329370"
 ---
 # <a name="pidtagnondeliveryreportfromsearchkey-canonical-property"></a>PidTagNonDeliveryReportFromSearchKey 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果原件报表上设置，表示搜索关键字的失败的发送-作为用户。
+如果在 nondelivery 报告上设置, 则表示失败的 "代理发送" 用户的搜索关键字。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NDR_FROM_SEARCH_KEY  <br/> |
-|标识符：  <br/> |0x6906  <br/> |
+|标识符:  <br/> |0x6906  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

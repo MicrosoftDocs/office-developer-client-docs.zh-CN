@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
 description: 确定样式是否包括线条属性。
-ms.openlocfilehash: 0e1eb67528b3e87bcfff5281dd1e0b2db3a0a4d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38964194626be052b2a168fa929b69ebe4b28e01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329104"
 ---
-# <a name="enablelineprops-cell-style-properties-section"></a>EnableLineProps 单元格（“Style Properties”部分）
+# <a name="enablelineprops-cell-style-properties-section"></a>EnableLineProps 单元格（“Style Properties”内容）
 
 确定样式是否包括线条属性。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |包括线条属性。  <br/> |
 |FALSE  <br/> |不包括线条属性。  <br/> |

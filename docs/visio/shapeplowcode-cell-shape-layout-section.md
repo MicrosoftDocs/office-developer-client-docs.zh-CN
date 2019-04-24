@@ -9,28 +9,28 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: acf07fd7-6aa6-1a92-9b7a-bd6fea8a7cb2
 description: 确定在绘图页上在一个可放置形状旁放置另一个可放置形状时此形状是否移开。
-ms.openlocfilehash: 5917abad653e7aaf40da05eafa3f9f1a90a2cf9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6e155103f7bfc70a78826297f441fc9ce78942ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325604"
 ---
-# <a name="shapeplowcode-cell-shape-layout-section"></a>ShapePlowCode 单元格（“Shape Layout”部分）
+# <a name="shapeplowcode-cell-shape-layout-section"></a>ShapePlowCode 单元格（“Shape Layout”内容）
 
 确定在绘图页上在一个可放置形状旁放置另一个可放置形状时此形状是否移开。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 |0  <br/> |按页上指定绘制。  <br/> |**visSLOPlowDefault** <br/> |
 |1  <br/> |不绘制任何形状。  <br/> |**visSLOPlowNever** <br/> |
-|2  <br/> |绘制每一个形状。  <br/> |**visSLOPlowAlways** <br/> |
+|双面  <br/> |绘制每一个形状。  <br/> |**visSLOPlowAlways** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-您还可以在**行为**对话框中的**位置**选项卡上设置为特定形状此单元格的值 (与选定形状，在[开发人员](run-in-developer-mode-display-the-developer-tab.md)选项卡的**形状设计**组中，单击**行为**，然后单击**位置**选项卡）。 
+您还可以在 "行为" 对话框中的 "**放置**" 选项卡上为特定形状设置此单元格的值 (在选定形状的**情况**下, 在 "[开发工具](run-in-developer-mode-display-the-developer-tab.md)" 选项卡上的 "**形状设计**" 组中, 单击 "**行为**", 然后单击"**放置**" 选项卡)。 
   
-若要在绘图页上设置此行为*所有*形状，请用页面布局部分中的 PlowCode 单元格。 
+若要为绘图页上的*所有*形状设置此行为, 请使用 "页面布局" 部分中的 "PlowCode" 单元格。 
   
 若要从另一个公式或使用 **CellsU** 属性从某个程序按名称获取对 ShapePlowCode 单元格的引用，请使用： 
   

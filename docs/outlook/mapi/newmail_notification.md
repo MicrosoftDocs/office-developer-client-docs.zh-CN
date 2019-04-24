@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 779585f73a7032ae0259b30ebfc16868c733c7fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 25af1c1b05618d4f36a43721e71be6ff5c7c597f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326241"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
@@ -25,11 +25,11 @@ ms.locfileid: "22569510"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-介绍与新消息的到达相关的信息。 
+介绍与新邮件到达相关的信息。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
    
 ```cpp
 typedef struct _NEWMAIL_NOTIFICATION
@@ -49,55 +49,55 @@ typedef struct _NEWMAIL_NOTIFICATION
 
  **cbEntryID**
   
-> 由**lpEntryID**成员指向中的项标识符的字节数。 
+> 由**lpEntryID**成员指向的条目标识符中的字节数。 
     
  **lpEntryID**
   
-> 为新到达消息的项标识符的指针。
+> 指向新到达的邮件的条目标识符的指针。
     
  **cbParentID**
   
-> 由**lpParentID**成员指向中的项标识符的字节数。 
+> 由**lpParentID**成员指向的条目标识符中的字节数。 
     
  **lpParentID**
   
-> 为新到达消息的接收文件夹的项标识符的指针。
+> 指向接收文件夹的新到达邮件的条目标识符的指针。
     
  **ulFlags**
   
-> 用于描述消息中包含的字符串属性的格式的标志位掩码。 可以设置以下标记：
+> 标志的位掩码, 用于描述邮件中包含的字符串属性的格式。 可以设置以下标志:
     
 MAPI_UNICODE 
   
-> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志的字符串是以 ANSI 格式。
+> 传入的字符串采用 Unicode 格式。 如果未设置 MAPI_UNICODE 标志, 则字符串将采用 ANSI 格式。
     
  **lpszMessageClass**
   
-> 向新到达消息的邮件类的指针。 
+> 指向新到达的邮件的邮件类的指针。 
     
  **ulMessageFlags**
   
-> 位掩码的标志，描述新到达消息的当前状态。 **UlMessageFlags**成员是**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 消息的副本。
+> 描述新到达的邮件的当前状态的标志的位掩码。 **ulMessageFlags**成员是邮件的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性的副本。
     
 ## <a name="remarks"></a>注解
 
-**NEWMAIL_NOTIFICATION**结构是联合的结构[通知](notification.md)结构的**信息**成员中包含的成员之一。 **通知**结构的**ulEventType**成员时**通知**结构的**信息**成员包含**NEWMAIL_NOTIFICATION**结构，设置为_fnevNewMail。_
+**NEWMAIL_NOTIFICATION**结构是[通知](notification.md)结构的**info**成员中包含的结构联合的成员之一。 当**通知**结构的**info**成员包含**NEWMAIL_NOTIFICATION**结构时,**通知**结构的**ulEventType**成员将设置为_fnevNewMail。_
   
-MAPI 仅将**NEWMAIL_NOTIFICATION**结构用作**通知**结构，其中包含有关通知事件的通知接收器的信息中的成员。 
+MAPI 使用**NEWMAIL_NOTIFICATION**结构作为**通知**结构的成员, 其中包含有关通知接收器通知事件的信息。 
   
-有关通知的详细信息，请参阅下表中所述的主题。
+有关通知的详细信息, 请参阅下表中所述的主题。
   
 |**主题**|**说明**|
 |:-----|:-----|
 |[MAPI 中的事件通知](event-notification-in-mapi.md) <br/> |通知和通知事件的一般概述。  <br/> |
-|[处理通知](handling-notifications.md) <br/> |讨论了客户端应如何处理通知。  <br/> |
-|[支持事件通知](supporting-event-notification.md) <br/> |讨论的服务提供程序如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知。  <br/> |
+|[处理通知](handling-notifications.md) <br/> |讨论客户端应如何处理通知。  <br/> |
+|[支持事件通知](supporting-event-notification.md) <br/> |讨论了如何使用[IMAPISupport](imapisupportiunknown.md)方法生成通知的服务提供商。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 
 
 
-[通知](notification.md)
+[NOTIFICATION](notification.md)
   
 [PidTagMessageFlags 规范属性](pidtagmessageflags-canonical-property.md)
 

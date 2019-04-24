@@ -6,30 +6,30 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1cf5b314-39fa-996f-fd88-00380ffbc4de
-description: 指定辅助 accountsendstamp 的邮件。
+description: 指定邮件的辅助 accountsendstamp。
 ms.openlocfilehash: 3aa88a1fd5a73cc4ae2e990e6dad0697083bb694
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327711"
 ---
 # <a name="pidtagnextsendacct"></a>PidTagNextSendAcct
 
-指定的第二帐户"发送"戳的邮件。
+指定邮件的辅助帐户 "发送" 标记。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NEXT_SEND_ACCT  <br/> |
-|标识符：  <br/> |0x0E29  <br/> |
+|标识符:  <br/> |0x0E29  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |Outlook 应用程序  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性适用于 MAPI message 对象。 收到的邮件，辅助帐户"发送"戳指示转发或答复应发送，使用的帐户，如果不能转发或答复发送与主帐户。 对于传出消息，辅助帐户"发送"戳确定使用哪些帐户发送邮件，如果无法与主帐户发送邮件。 其值是帐户的用于发送邮件的[IOlkAccount](iolkaccount.md)接口的[PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md)值。 
+此属性适用于 MAPI 邮件对象。 对于收到的邮件, 第二个帐户 "发送" 标记指示转发或答复应与之一起发送的帐户 (如果无法使用主帐户发送转发或答复)。 对于传出邮件, 如果无法使用主帐户发送邮件, 则辅助帐户 "发送" 图章将决定发送邮件的帐户。 它的值是要向其发送邮件的帐户的[IOlkAccount](iolkaccount.md)接口中的[PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md)值。 
   
 ## <a name="see-also"></a>另请参阅
 

@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 38b60180ae7c417bf34998e72f96b353ace02859
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ee0ff8d32436f71020be2cdc91d6677bd4ec8e43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325653"
 ---
 # <a name="xpproviderinit"></a>XPProviderInit
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-初始化的传输提供程序操作。
+为操作初始化传输提供程序。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapispi.h  <br/> |
-|通过实现：  <br/> |传输提供程序  <br/> |
-|调用：  <br/> |MAPI  <br/> |
+|标头文件：  <br/> |Mapispi  <br/> |
+|实现者：  <br/> |传输提供程序  <br/> |
+|调用者：  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT XPProviderInit(
@@ -51,67 +51,67 @@ HRESULT XPProviderInit(
 
  _hInstance_
   
-> [in]传输提供程序的动态链接库 (DLL) 的 MAPI 它加载 DLL 时使用的实例。
+> 实时MAPI 加载 DLL 时使用的传输提供程序的动态链接库 (DLL) 的实例。
     
  _lpMalloc_
   
-> [in]对内存分配器对象公开的 OLE **IMalloc**接口的指针。 传输提供程序可能需要使用某些如**IStream**接口时使用此分配方法。 
+> 实时指向用于公开 OLE **IMalloc**接口的内存分配器对象的指针。 在使用某些接口 (如**IStream**) 时, 传输提供程序可能需要使用此分配方法。 
     
  _lpAllocateBuffer_
   
-> [in]指向[MAPIAllocateBuffer](mapiallocatebuffer.md)函数，以用于分配内存。 
+> 实时指向用于分配内存的[MAPIAllocateBuffer](mapiallocatebuffer.md)函数的指针。 
     
  _lpAllocateMore_
   
-> [in]指向[MAPIAllocateMore](mapiallocatemore.md)函数，以用于分配更多内存。 
+> 实时指向[MAPIAllocateMore](mapiallocatemore.md)函数的指针, 该函数用于分配更多内存。 
     
  _lpFreeBuffer_
   
-> [in]指向[MAPIFreeBuffer](mapifreebuffer.md)函数，以用于释放内存。 
+> 实时指向用于释放内存的[MAPIFreeBuffer](mapifreebuffer.md)函数的指针。 
     
  _ulFlags_
   
-> [in]Flags 的位掩码。 可以设置以下标记：
+> 实时标志的位掩码。 可以设置以下标志:
     
 MAPI_NT_SERVICE 
   
-> 提供程序正在加载的一项 Windows 服务，一个特殊类型没有任何用户界面的访问权限的过程的上下文中。 
+> 提供程序在 Windows 服务的上下文中加载, 这是一种特殊类型的过程, 无需访问任何用户界面。 
     
  _ulMAPIVer_
   
-> [in]Mapi.dll 使用的服务提供程序界面 (SPI) 的版本号。 当前版本号，请参阅 Mapispi.h 头文件。 
+> 实时Mapi .dll 使用的服务提供程序接口 (SPI) 的版本号。 有关当前版本号, 请参阅 Mapispi 头文件。 
     
  _lpulProviderVer_
   
-> [输出]指向该传输提供程序使用 SPI 的版本号。 
+> 排除指向此传输提供程序使用的 SPI 版本号的指针。 
     
  _lppXPProvider_
   
-> [输出]指向初始化的传输提供程序对象的指针的指针。
+> 排除指向已初始化的传输提供程序对象的指针的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。 
+> 调用成功, 并返回了所需的值或值。 
     
 MAPI_E_VERSION 
   
-> 正在使用 MAPI 的 SPI 版本不兼容与 SPI 正在使用此提供程序。
+> MAPI 使用的 spi 版本与此提供程序使用的 spi 不兼容。
     
 ## <a name="remarks"></a>注解
 
-MAPI 调用入口点函数**XPProviderInit**初始化关注客户端登录的传输提供程序。 客户端的配置文件中指定每个传输提供程序调用**XPProviderInit**一次。 
+MAPI 调用入口点函数**XPProviderInit** , 以在客户端登录后初始化传输提供程序。 对于客户端配置文件中指定的每个传输提供程序, 将调用**XPProviderInit**一次。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-传输提供程序必须实现**XPProviderInit**作为在提供程序的 DLL 入口点函数。 实现必须基于**XPPROVIDERINIT**函数原型，还中指定 Mapispi.h。 MAPI 定义**XPPROVIDERINIT**使用标准 MAPI 初始化呼叫类型，STDMAPIINITCALLTYPE，这将导致**XPProviderInit**关注 CDECL 调用约定。 利用 CDECL 是即使调用参数数目不符定义参数数目，可以尝试呼叫。 
+传输提供程序必须实现**XPProviderInit**作为提供程序 DLL 中的入口点函数。 实现必须基于**XPPROVIDERINIT**函数原型 (也在 Mapispi 中指定)。 MAPI 将**XPPROVIDERINIT**定义为使用标准 MAPI 初始化呼叫类型 STDMAPIINITCALLTYPE, 这将导致**XPPROVIDERINIT**遵循 CDECL 调用约定。 CDECL 的优势在于, 即使调用参数的数目与定义的参数数量不匹配, 也可以尝试调用。 
   
-提供程序可以初始化多次由于中同时使用或多次出现在相同的配置文件显示在多个配置文件。 由于提供商对象包含上下文， **XPProviderInit**必须中为每个初始化，即使的同一进程中的多个初始化_lppXPProvider_返回不同的提供程序的对象。 
+提供程序可以多次初始化, 这是由于多个配置文件在同一配置文件中同时使用或出现多次。 由于 provider 对象包含上下文, 因此**XPProviderInit**必须在_lppXPProvider_中为每个初始化返回不同的提供程序对象, 即使在同一进程中进行了多次初始化也是如此。 
   
-传输提供程序应使用指向_lpAllocateBuffer_和_lpAllocateMore_，对于大多数内存分配和释放_lpFreeBuffer_的功能。 特别是，提供程序必须使用这些函数用于客户端应用程序分配内存，调用[IMAPIProp::GetProps](imapiprop-getprops.md)等[IMAPITable::QueryRows](imapitable-queryrows.md)对象接口时。 如果还希望使用 OLE 内存分配器提供程序，它应调用_lpMalloc_参数指向分配器对象的**IUnknown::AddRef**方法。 
+传输提供程序应使用由_lpAllocateBuffer_、 _lpAllocateMore_和_lpFreeBuffer_指向的用于大多数内存分配和释放的函数。 特别是, 提供程序必须使用这些函数分配在调用对象接口 (如[IMAPIProp:: GetProps](imapiprop-getprops.md)和[IMAPITable:: QueryRows](imapitable-queryrows.md)) 时供客户端应用程序使用的内存。 如果提供程序还预期使用 OLE 内存分配器, 则它应调用分配器对象的**IUnknown:: AddRef**方法, 该对象由_lpMalloc_参数指向该对象。 
   
-有关编写**XPProviderInit**的详细信息，请参阅[初始化传输提供程序](initializing-the-transport-provider.md)。 有关入口点函数的详细信息，请参阅[实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。 
+有关编写**XPProviderInit**的详细信息, 请参阅[初始化传输提供程序](initializing-the-transport-provider.md)。 有关入口点函数的详细信息, 请参阅[实现服务提供程序入口点函数](implementing-a-service-provider-entry-point-function.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

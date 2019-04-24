@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 251359a98f89c88e707e4f705bd94b1f30b32cbd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 4b18cfc2191ffee936e1056d9bb656a7ad7dd3ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326388"
 ---
 # <a name="imapiprovidershutdownnotifyprocessshutdown"></a>IMAPIProviderShutdown::NotifyProcessShutdown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-表示的 MAPI 提供程序，MAPI 客户端将要执行快速关闭，以便提供程序可以执行操作，以防止数据丢失。
+向 mapi 提供程序指示 mapi 客户端即将执行快速关闭, 以便提供程序可以采取措施来防止数据丢失。
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,7 +35,7 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> MAPI 提供程序采取操作来 MAPI 客户端关闭时防止数据丢失。
+> mapi 提供程序在 mapi 客户端关闭时采取措施来防止数据丢失。
     
 ## <a name="see-also"></a>另请参阅
 

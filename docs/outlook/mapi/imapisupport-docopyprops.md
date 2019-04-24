@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2446ef52-578a-4004-9719-de9b0207ccad
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: a30a323874c847d9a08b00512cfd30ff3cf5c5ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 24107ae1926c8590da6a823a354eeae72d72f248
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322363"
 ---
 # <a name="imapisupportdocopyprops"></a>IMAPISupport::DoCopyProps
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-复制或移动到另一个对象的一个或多个对象的属性。
+将对象的一个或多个属性复制或移动到另一个对象。
   
 ```cpp
 HRESULT DoCopyProps(
@@ -45,35 +45,35 @@ HRESULT DoCopyProps(
 
  _lpSrcInterface_
   
-> [in]指向接口标识 (IID) 值，该值代表要用于访问对象的属性复制或移动的接口的指针。
+> 实时指向接口标识符 (IID) 的指针, 该接口标识符表示用于访问要复制或移动的属性的对象的接口。
     
  _lpSrcObj_
   
-> [in]指向包含属性复制或移动的对象的指针。
+> 实时指向对象的指针, 该对象包含要复制或移动的属性。
     
  _lpIncludeProps_
   
-> [in]指向[SPropTagArray](sproptagarray.md)结构，其中包含指示要复制或移动的属性的属性标记的计数的阵列的指针。 _LpIncludeProps_参数不能为 NULL。 
+> 实时一个指向[SPropTagArray](sproptagarray.md)结构的指针, 该结构包含指明要复制或移动的属性的属性标记的计数数组。 _lpIncludeProps_参数不能为 NULL。 
     
  _ulUIParam_
   
-> [in]进度指示器的父窗口句柄。
+> 实时进度指示器的父窗口的句柄。
     
  _lpProgress_
   
-> [in]一个指向进度指示器的实现。 如果_lpProgress_参数中传递 NULL，则是通过使用 MAPI 实现显示进度指示器。 除非 MAPI_DIALOG 标志设置_ulFlags_参数中，将忽略该_lpProgress_参数。 
+> 实时指向进度指示器的实现的指针。 如果在_lpProgress_参数中传递 NULL, 则将使用 MAPI 实现显示进度指示器。 除非在_ulFlags_参数中设置了 MAPI_DIALOG 标志, 否则将忽略_lpProgress_参数。 
     
  _lpDestInterface_
   
-> [in]指向接口标识符值，该值代表要用于访问对象，以接收属性的复制或移动的接口的指针。
+> 实时指向接口标识符的指针, 该标识符表示要用于访问对象以接收复制或移动的属性的接口。
     
  _lpDestObj_
   
-> [in]指向要接收复制或移动属性的对象的指针。
+> 实时指向接收复制或移动的属性的对象的指针。
     
  _ulFlags_
   
-> [in]位掩码的标志，控制如何执行复制或移动操作。 可以设置以下标志：
+> 实时用于控制如何执行复制或移动操作的标志的位掩码。 可以设置以下标志:
     
 MAPI_DIALOG 
   
@@ -81,47 +81,47 @@ MAPI_DIALOG
     
 MAPI_MOVE 
   
-> **DoCopyProps**应执行移动操作而不是复制操作。 当未设置此标志时， **DoCopyProps**执行复制操作。 
+> **DoCopyProps**应执行移动操作, 而不是复制操作。 如果未设置此标志, **DoCopyProps**将执行复制操作。 
     
 MAPI_NOREPLACE 
   
-> 不应覆盖目标对象中的现有属性。 如果未设置此标志， **DoCopyProps**会覆盖现有属性。 
+> 不应覆盖目标对象中的现有属性。 如果未设置此标志, **DoCopyProps**将覆盖现有属性。 
     
  _lppProblems_
   
-> [传入、 传出]在输入时，为[SPropProblemArray](spropproblemarray.md)结构; 指针的指针否则，为 NULL，表示不需要错误信息。 如果_lppProblems_上输入, 的有效指针**DoCopyProps**中复制一个或多个属性返回有关错误的详细的信息。 
+> [in, out]在输入时, 指向指向[SPropProblemArray](spropproblemarray.md)结构的指针的指针;否则为 NULL, 表示无需提供错误信息。 如果_lppProblems_是有效的输入指针, **DoCopyProps**将返回有关复制一个或多个属性中的错误的详细信息。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 属性已成功复制或移动。
+> 已成功复制或移动属性。
     
 MAPI_E_COLLISION 
   
-> 对目标对象中存在要复制或已移动的属性并且设置 MAPI_NOREPLACE 标志。 
+> 要复制或移动的属性已存在于 destination 对象中, 并且设置了 MAPI_NOREPLACE 标志。 
     
 MAPI_E_FOLDER_CYCLE 
   
-> 源对象直接或间接包含对目标对象。 重要工作可能已执行之前已发现这种情况，所以可能部分修改的源和目标对象。 
+> 源对象直接或间接包含目标对象。 在发现此条件之前, 可能已经执行了大量的工作, 因此源和目标对象可能被部分修改。 
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
-> _LpSrcInterface_参数标识的接口不支持的源对象，或对目标对象不支持_lpDestInterface_参数标识的接口。 
+> 源对象不支持由_lpSrcInterface_参数标识的接口, 或者目标对象不支持由_lpDestInterface_参数标识的接口。 
     
 MAPI_E_NO_ACCESS 
   
-> 尝试访问其呼叫者没有足够的权限的对象。 如果目标对象是对源对象相同，则返回此错误。
+> 试图访问呼叫者没有足够权限的对象。 如果目标对象与源对象相同, 则返回此错误。
     
-可以为**DoCopyProps**中返回在**SPropProblemArray**结构中，但不是返回值是以下值。 这些错误应用于单个属性。
+以下值可在**SPropProblemArray**结构中返回, 但不能在**DoCopyProps**的返回值中返回。 这些错误适用于单个属性。
   
 MAPI_E_BAD_CHARWIDTH 
   
-> 可以设置该 MAPI_UNICODE 标记**DoCopyProps**不支持 Unicode，或未设置 MAPI_UNICODE 和**DoCopyProps**支持仅 Unicode。 
+> 设置了 MAPI_UNICODE 标志, 并且**DoCopyProps**不支持 unicode, 或者未设置 MAPI_UNICODE, 且**DoCopyProps**仅支持 UNICODE。 
     
 MAPI_E_COMPUTED 
   
-> 该属性不能修改呼叫者，因为它是只读属性，计算目标对象的所有者。 此错误不是严重性。呼叫者应允许复制操作继续。
+> 调用程序无法修改该属性, 因为它是由目标对象的所有者计算的只读属性。 此错误不严重;呼叫者应允许复制操作继续进行。
     
 MAPI_E_INVALID_TYPE 
   
@@ -129,29 +129,29 @@ MAPI_E_INVALID_TYPE
     
 MAPI_E_UNEXPECTED_TYPE 
   
-> 属性类型不是呼叫者预期的类型。
+> 属性类型不是调用方预期的类型。
     
 ## <a name="remarks"></a>注解
 
-消息存储提供程序支持对象的实现**IMAPISupport::DoCopyProps**方法。 消息存储提供程序可以调用**DoCopyProps**实现其文件夹和邮件的[IMAPIProp::CopyProps](imapiprop-copyprops.md)方法。 **DoCopyProps**复制或移动的属性所指的_lpIncludeProps_属性标记数组中的标识和指向_lpSrcObj_对象中当前存在。 
+**IMAPISupport::D ocopyprops**方法是为邮件存储提供程序支持对象而实现的。 邮件存储提供程序可以调用**DoCopyProps**以实现其文件夹和邮件的[IMAPIProp:: CopyProps](imapiprop-copyprops.md)方法。 **DoCopyProps**复制或移动在由_lpIncludeProps_指向的属性标记数组中标识的属性, 以及_lpSrcObj_指向的对象中存在的属性。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-复制之间的相同的类型，两条消息，如对象的属性时的_lpSrcInterface_和_lpDestInterface_参数必须包含相同的界面标识符，以及_lpSrcObj_和_lpDestObj_参数必须指向同一类型的对象。 如果_lpDestInterface_设置为 NULL，则**DoCopyProps**返回 MAPI_E_INVALID_PARAMETER。 如果您将_lpDestInterface_设置为可接受的界面标识符，但设置_lpDestObj_到了无效的指针，结果将无法预料。 很可能将失败提供程序。 
+当您在相同类型的对象 (如两条消息) 之间复制属性时, _lpSrcInterface_和_lpDestInterface_参数必须包含相同的接口标识符, 并且_lpSrcObj_和_lpDestObj_参数必须指向相同类型的对象。 如果将_lpDestInterface_设置为 NULL, 则**DoCopyProps**将返回 MAPI_E_INVALID_PARAMETER。 如果将_lpDestInterface_设置为可接受的接口标识符, 但将_lpDestObj_设置为无效的指针, 则结果是不可预知的。 您的提供程序很可能会失败。 
   
-如果您不希望任何目的对象将覆盖的属性，请设置 MAPI_NOREPLACE 标志。 对目标对象中的源对象中存在的且不会被覆盖的属性不被删除或修改。
+如果您不想覆盖 destination 对象中的任何属性, 请设置 MAPI_NOREPLACE 标志。 源对象中存在且不会被覆盖的 destination 对象中的属性不会被删除或修改。
   
-要复制邮件的收件人列表，请_lpIncludeProps_参数指向该属性标记数组中包含的**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性。 若要复制邮件的附件，包括**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 属性。 
+若要复制邮件的收件人列表, 请在由_lpIncludeProps_参数指向的属性标记数组中包含**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) 属性。 若要复制邮件的附件, 请包含**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) 属性。 
   
-若要复制的文件夹或通讯簿容器层次结构或内容表，包括属性标记数组中的**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) 或**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))。 若要包含的文件夹关联的内容表，该数组中包括**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) 属性。
+若要复制文件夹或通讯簿容器的层次结构或内容表, 请在属性标记数组中包含**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) 或**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))。 若要包含文件夹的关联内容表, 请在数组中包含**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) 属性。
   
-如果复制或移动的子文件夹，及其内容复制或移动全部，无论使用了由**SPropTagArray**结构指示的属性。 
+如果复制或移动了子文件夹, 则无论使用的是由**SPropTagArray**结构指示的属性, 它们的内容都会完全复制或移动。 
   
- **DoCopyProps**报告全局作为一个整体，操作发生的错误和各个错误出现的一个或多个属性。 这些单个错误保持**SPropProblemArray**结构中。 您可以隐藏错误属性级别通过传递 NULL，而不是有效的指针，property 问题数组结构参数的报告。 
+ **DoCopyProps**报告作为一个整体的操作发生的全局错误, 以及一个或多个属性发生的各个错误。 这些单独的错误放在**SPropProblemArray**结构中。 您可以通过为属性问题数组结构参数传递 NULL (而不是有效的指针) 来抑制属性级别的错误报告。 
   
-如果您想要接收有关错误的信息，请在_lppProblems_参数中传递一个有效的**SPropProblemArray**结构指针。 时**DoCopyProps** ，则返回 S_OK，检查与结构中的各个属性的可能错误。 当**DoCopyProps**返回错误时， **SPropProblemArray**结构中不返回任何信息。 相反，调用[IMAPISupport::GetLastError](imapisupport-getlasterror.md)方法检索详细的错误信息。 
+如果要接收有关错误的信息, 请在_lppProblems_参数中传递有效的**SPropProblemArray**结构指针。 当**DoCopyProps**返回 S_OK 时, 检查结构中的各个属性可能存在的错误。 当**DoCopyProps**返回错误时, **SPropProblemArray**结构中不返回任何信息。 相反, 请调用[IMAPISupport:: GetLastError](imapisupport-getlasterror.md)方法以检索详细的错误消息。 
   
-如果**DoCopyProps** ，则返回 S_OK，通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放返回的**SPropProblemArray**结构。 
+如果**DoCopyProps**返回 S_OK, 请通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数释放返回的**SPropProblemArray**结构。 
   
 ## <a name="see-also"></a>另请参阅
 

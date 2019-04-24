@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: df842e633f1586d6d77441126d51b2ce44ec3beb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: a60ac0d7ab139f77aea87080e1ce37fee870e97b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589068"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326311"
 ---
 # <a name="imapisupportsetprovideruid"></a>IMAPISupport::SetProviderUID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-注册[MAPIUID](mapiuid.md)结构，它唯一表示服务提供商。 
+注册唯一表示服务提供程序的[MAPIUID](mapiuid.md)结构。 
   
 ```cpp
 HRESULT SetProviderUID(
@@ -38,11 +38,11 @@ ULONG ulFlags
 
  _lpProviderID_
   
-> [in]指向标识的通讯簿或消息存储提供程序的**MAPIUID**结构的指针。 
+> 实时指向标识通讯簿或邮件存储提供程序的**MAPIUID**结构的指针。 
     
  _ulFlags_
   
-> 保留;必须为零。
+> 保留必须为零。
     
 ## <a name="return-value"></a>返回值
 
@@ -52,13 +52,13 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-对于通讯簿和消息存储提供程序支持对象实现**IMAPISupport::SetProviderUID**方法。 这些提供程序调用**SetProviderUID**注册_lpProviderID_所指向的**MAPIUID**结构中所述的唯一标识符。 提供程序中的项标识符为他们创建的所有包含此标识符。 
+为通讯簿和邮件存储提供程序支持对象实现了**IMAPISupport:: SetProviderUID**方法。 这些提供程序调用**SetProviderUID**以注册_lpProviderID_指向的**MAPIUID**结构中描述的唯一标识符。 提供程序在其创建的所有条目标识符中都包含此标识符。 
   
-MAPI 到 MAPI 后台处理程序并确定相应的提供程序，用于处理客户端请求发送出站邮件时使用的**MAPIUID**结构。 例如，当客户端调用[IMAPISession::OpenEntry](imapisession-openentry.md)方法，则 MAPI 将检查的项标识符的**MAPIUID**部分，将其映射到传递给**SetProviderUID**，并调用该提供商的**OpenEntry**的提供程序. 
+mapi 在向 mapi 后台处理程序发送出站邮件时使用**MAPIUID**结构, 并确定处理客户端请求的适当提供程序。 例如, 当客户端调用[IMAPISession:: OpenEntry](imapisession-openentry.md)方法时, MAPI 会检查条目标识符的**MAPIUID**部分, 将其映射到传递给**SetProviderUID**的提供程序, 并调用该提供程序的**OpenEntry**. 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-在登录时，若要注册**MAPIUID**结构调用**SetProviderUID** 。 MAPI 允许通讯簿和消息存储提供程序注册多个标识符。 当您进行多次调用**SetProviderUID**时，它始终向**MAPIUID**结构**MAPIUID**结构的提供程序的设置即使**MAPIUID**副本。 **SetProviderUID**不能删除**MAPIUID**。 
+在登录时调用**SetProviderUID**以注册**MAPIUID**结构。 MAPI 允许通讯簿和邮件存储提供程序注册多个标识符。 当您对**SetProviderUID**进行多次调用时, 它始终会将**MAPIUID**结构添加到提供程序的**MAPIUID**结构集, 即使**MAPIUID**是重复的也是如此。 **SetProviderUID**无法删除**MAPIUID**。 
   
 ## <a name="see-also"></a>另请参阅
 

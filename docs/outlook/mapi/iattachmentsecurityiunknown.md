@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69609f73-5884-9e2b-ab78-a2e0ece3a1d1
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f182610f9cf4874cc18c409960e1f8b23f853d4f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8464c8265ebc1754f7909be5413620e7f76db5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326983"
 ---
 # <a name="iattachmentsecurity--iunknown"></a>IAttachmentSecurity : IUnknown
 
@@ -25,21 +25,21 @@ ms.locfileid: "22574823"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-允许 Microsoft Outlook 2010 和 Microsoft Outlook 2013 的解决方案，以找出是否附件被视为不安全的和阻止的查看和编制索引。
+允许使用 microsoft outlook 2010 和 microsoft outlook 2013 解决方案查看附件是否被视为不安全, 并在查看和编制索引时被阻止。
   
 |||
 |:-----|:-----|
-|接口标识符：  <br/> |IID_IAttachmentSecurity  <br/> |
+|接口标识符:  <br/> |IID_IAttachmentSecurity  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |检查是否指定的附件阻止通过 Outlook 2010 或 Outlook 2013 的查看和编制索引。  <br/> |
+|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |检查指定的附件是否被 outlook 2010 或 outlook 2013 阻止, 以供查看和编制索引。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-Outlook 2010 和 Outlook 2013 解决方案可以查询以确定是否阻止附件此接口。 Outlook 2010 或 Outlook 2013 被阻止的附件取决于已如何配置 Outlook 2010 或 Outlook 2013 和管理员已应用策略。
+outlook 2010 和 outlook 2013 解决方案可以查询此接口, 以查看是否阻止了附件。 outlook 2010 或 outlook 2013 阻止的附件根据 outlook 2010 或 outlook 2013 的配置方式以及管理员已应用的策略的不同而有所不同。
   
 ## <a name="see-also"></a>另请参阅
 
@@ -47,5 +47,5 @@ Outlook 2010 和 Outlook 2013 解决方案可以查询以确定是否阻止附�
 
 [MAPI 常量](mapi-constants.md)
   
-[验证附件是否已遭阻止](how-to-verify-an-attachment-is-blocked.md)
+[验证附件是否已被阻止](how-to-verify-an-attachment-is-blocked.md)
 

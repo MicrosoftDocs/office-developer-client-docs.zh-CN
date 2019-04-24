@@ -7,11 +7,11 @@ ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 本文介绍了如何使用 .NET Framework 4.0 开发 Microsoft Project Online 桌面应用程序。 本文中所述的应用程序将检索托管服务器的信息。
 localization_priority: Priority
 ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322617"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>使用客户端对象模型开发 Project Online 应用程序
 

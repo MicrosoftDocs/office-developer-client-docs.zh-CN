@@ -7,36 +7,36 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1e626714-52dc-4141-9741-4d801f32d294
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6a8b0f8fc8c296fe4022ac28623b83d270472ca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 30cbe49eae7b4a232efb544c7a508a36b326c6b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590692"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328181"
 ---
 # <a name="adding-a-message-service"></a>添加邮件服务
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
- **配置文件中添加一个新的消息服务和访问新邮件服务**
+ **将新的邮件服务添加到配置文件并访问新的邮件服务**
   
-调用[IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md)。 **CreateMsgServiceEx**执行以下任务： 
+调用[IMsgServiceAdmin2:: CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md)。 **CreateMsgServiceEx**执行以下任务: 
   
-1. 复制所有邮件服务正在 MAPISVC 的相关信息。INF 文件中，创建每个提供程序部分的配置文件一节。
+1. 复制 mapisvc.inf 中的邮件服务的所有相关信息。INF 文件, 为每个提供程序部分创建一个配置文件部分。
     
-2. 调用带有_ulContext_参数设置为 MSG_SERVICE_CREATE 消息服务的入口点函数， **MSGSERVICEENTRY**。 
+2. 调用邮件服务的入口点函数**MSGSERVICEENTRY**, 并将_ulContext_参数设置为 MSG_SERVICE_CREATE。 
     
-3. 设置和检索邮件服务**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性。
+3. 设置和检索邮件服务的**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) 属性。
     
- **若要访问任何新添加的消息服务**
+ **访问任何新添加的邮件服务**
   
-1. 调用[IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)检索邮件服务表。 
+1. 调用[IMsgServiceAdmin:: GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md)以检索邮件服务表。 
     
-2. 调用邮件服务表[IMAPITable::Advise](imapitable-advise.md)方法，以注册表通知。 
+2. 调用邮件服务表的[IMAPITable:: Advise](imapitable-advise.md)方法以注册表通知。 
     
-3. MAPI 时发送 TABLE_ROW_ADDED 通知，包括在[TABLE_NOTIFICATION](table_notification.md)结构[SRow](srow.md)结构中找到的新添加的消息服务的项标识符。 
+3. 当 MAPI 发送 TABLE_ROW_ADDED 通知时, 请在[TABLE_NOTIFICATION](table_notification.md)结构中包含的[SRow](srow.md)结构中查找新添加的邮件服务的条目标识符。 
     
 

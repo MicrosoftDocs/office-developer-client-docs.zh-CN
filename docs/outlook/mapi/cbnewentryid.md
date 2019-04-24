@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4397315ef5ebc8009805f911f7d7b549a698b955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329503"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算指定大小的新[ENTRYID](entryid.md)结构应分配的字节数。 
+计算为指定大小的新[ENTRYID](entryid.md)结构分配的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**ENTRYID** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -40,7 +40,7 @@ CbNewENTRYID (_cb)
 
  __cb_
   
-> 存储中的新的**ENTRYID**结构中的项标识符的字节数。 
+> 要存储在新**ENTRYID**结构中的条目标识符中的字节数。 
     
 ## <a name="see-also"></a>另请参阅
 

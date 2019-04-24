@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 1717e30679fb3f6721690db75fb5dd402048eb09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f00a57798b03edb368fb0dc59fead7a2e9f5c8f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329244"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>PidTagObsoletedMessageIds 规范属性
 
@@ -30,25 +30,25 @@ ms.locfileid: "22575047"
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_OBSOLETED_IPMS  <br/> |
-|标识符：  <br/> |0x001F  <br/> |
+|标识符:  <br/> |0x001F  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Server  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性中包含的标识符是标准搜索键使用**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性的格式。
+此属性中包含的标识符是使用**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 属性格式的标准搜索键。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

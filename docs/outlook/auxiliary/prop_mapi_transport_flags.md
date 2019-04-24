@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
-description: 代表 Outlook 使用以确定所需同步任务，并禁用该帐户不支持的用户界面 (UI) 元素的传输设置。
-ms.openlocfilehash: 95b61ea994557be76303f8b9b0541353b6ed13f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 表示 Outlook 用于确定必要的同步任务并禁用该帐户不支持的用户界面 (UI) 元素的传输设置。
+ms.openlocfilehash: 707306c3bfbeebdd18f82bacfc121274be08aa50
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326479"
 ---
 # <a name="propmapitransportflags"></a>PROP_MAPI_TRANSPORT_FLAGS
 
-代表 Outlook 使用以确定所需同步任务，并禁用该帐户不支持的用户界面 (UI) 元素的传输设置。
+表示 Outlook 用于确定必要的同步任务并禁用该帐户不支持的用户界面 (UI) 元素的传输设置。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -29,11 +29,11 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x20100102  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   
-返回**MAPIACCT_SEND_ONLY** ，如果该帐户只能发送消息，但无法接收消息。 在这种情况下，Outlook 禁用不适用于这种类型的帐户 (例如，**发送/接收**的 UI) 的 UI。
+如果帐户只能发送邮件, 但无法接收邮件, 则返回**MAPIACCT_SEND_ONLY** 。 在这种情况下, Outlook 禁用不适用于此类帐户的 ui (例如, 用于 "**发送/接收**" 的 ui)。
   
 ## <a name="see-also"></a>另请参阅
 

@@ -8,61 +8,61 @@ api_type:
 - COM
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a56223e909edf89d0f7fe2ba7f6d281509002429
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aab5c76fb268729f1a50a33e4764905fe3d53405
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329741"
 ---
 # <a name="mapi-report-messages"></a>MAPI 报告邮件
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-报告给其发件人的邮件上存在一条消息有关的状态信息。
+报告邮件向其发件人显示有关邮件的状态信息。
   
-有两种常规报告消息：
+有两种常规类型的报告消息:
   
 - 阅读状态报告。
     
 - 传递状态报告。
     
-## <a name="read-status-reports"></a>读取状态报告
+## <a name="read-status-reports"></a>阅读状态报告
 
-读取状态报告的消息存储提供程序通过调用[IMAPISupport::ReadReceipt](imapisupport-readreceipt.md)方法启动和发送给收件人由**PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)) 中的项标识符属性。 不会自动; 生成读取状态报告要接收这些客户端应用程序必须明确请求它们。
+读取状态报告由邮件存储提供程序通过调用[IMAPISupport:: ReadReceipt](imapisupport-readreceipt.md)方法启动, 并发送给由**PR_REPORT_ENTRYID**中的条目标识符表示的收件人 ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md))财产. 读取状态报告不会自动生成;要接收它们的客户端应用程序必须显式请求它们。
   
-读取的报表指示已会打开、 打印、 移动或复制邮件时设置消息的读取标志。 消息存储提供程序生成阅读的报告以响应移动或复制操作取决于该消息在何处。 如果已发送正在移动或复制到另一个消息存储，很可能读取的报表将始终。 如果它正在移动或复制当前邮件存储区，读取的报表可能或可能不会发送。 
+"已读" 报告指示已设置邮件的读取标志, 在打开、打印、移动或复制邮件时可能会发生这种情况。 邮件存储提供程序是否生成读取报告以响应移动或复制操作取决于邮件的目标位置。 如果要将其移动或复制到另一个邮件存储区, 则可能总是会发送一个阅读报告。 如果要将其移动或复制到当前邮件存储区中, 则可能会发送或不发送阅读报告。 
   
-Nonread 的报告指示邮件的读取标志未设置和之前在已删除邮件文件夹中放置或过期的时间限制，不打开邮件。 客户端可以调用[IMessage::SetReadFlag](imessage-setreadflag.md)或[IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md)方法来设置或清除邮件阅读的标志。 
+未读报告指示邮件的阅读标志未设置, 邮件在被置于 "已删除邮件" 文件夹中之前或在时间限制到期之前未打开。 客户端可以调用[IMessage:: SetReadFlag](imessage-setreadflag.md)或[IMAPIFolder:: SetReadFlags](imapifolder-setreadflags.md)方法来设置或清除邮件的阅读标志。 
   
 ## <a name="delivery-status-reports"></a>传递状态报告
 
-传递状态被反映在送达报告，将它发送一条消息已达到其预期接收人时，和一条消息无法到达收件人时，会发送原件报表。 如果该属性不存在此参数，传递状态报告会发送到由**PR_REPORT_ENTRYID**属性中的项标识符的收件人或发件人。 
+传递状态反映在送达报告中, 在邮件到达其预期收件人时发送, 并且在邮件无法到达收件人时发送的 nondelivery 报告中。 传递状态报告将发送给**PR_REPORT_ENTRYID**属性中的条目标识符表示的收件人, 如果该属性不存在, 则发送给发件人。 
   
-送达报告请求仅发送和不包含原始邮件。 除非发出请求禁止它们，将自动发送未送达报告。 未送达报告包括原始邮件作为附件启用报告的收件人，以防任何阻止传递不再是问题重新发送的邮件。 附加的邮件类似于原始[IMessage::SubmitMessage](imessage-submitmessage.md)方法调用最初发送时存在。 
+传递报告仅按请求发送, 不包括原始邮件。 Nondelivery 报告将自动发送, 除非发出请求禁止显示这些报告。 Nondelivery 报告将原始邮件作为附件包括在内, 以便在阻止传递不再存在问题的情况下, 使报告的收件人能够重新发送邮件。 在最初调用[IMessage:: SubmitMessage](imessage-submitmessage.md)方法时, 附加的邮件类似于原始的邮件。 
   
-[IMAPISupport::StatusRecips](imapisupport-statusrecips.md)方法时由传输提供程序生成一个或多个传递状态报告。 传输提供程序撰写邮件的收件人列表。 收件人收到报表和生成的报告类型取决于以下方面： 
+在调用[IMAPISupport:: StatusRecips](imapisupport-statusrecips.md)方法时, 传输提供程序会生成一个或多个传递状态报告。 传输提供程序撰写邮件的收件人列表。 收件人是否收到报告以及生成的报告类型取决于以下内容: 
   
-- 送达报告转到收件人的邮件发出邮件存储区之前将**邮件已被阅读**([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) 属性设置为 TRUE。
+- 送达报告转到在邮件放入邮件存储区之前将**PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) 属性设置为 TRUE 的收件人。
     
-- 未送达报告转到收件人的未按**PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) 属性设置为 FALSE。 
+- Nondelivery 报告转到未将**PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) 属性设置为 FALSE 的收件人。 
     
-附加的邮件的收件人表中包含几乎所有显示原件报表所需的信息。 从报表本身是几个属性。 送达报告和几个报告属性中报告的收件人表包含所需的信息。 
+显示 nondelivery 报告所需的几乎所有信息都包含在附加邮件的 "收件人" 表中。 有些属性来自报告本身。 对于送达报告, 报告的 "收件人" 表和一些报告属性中包含必要的信息。 
   
-报告是邮件的与不同邮件类，基于已发送类的邮件。 大多数服务提供商使用的命名约定，借此邮件类是多个部分组成句点隔开。 第一部分是"报告"，最后部分是一个常量，代表报表类型。 已发送的邮件类专门的中间部分。 例如，由于送达报告使用常量的灾难恢复，传递的邮件类 IPM 有关报告。注意邮件采用**Report.IPM.Note.DR**。
+报告是具有不同邮件类别的邮件, 基于发送的邮件的类。 大多数服务提供商使用一种命名约定, 通过此约定, 邮件类由用句点分隔的多个部分组成。 第一部分是 "报告", 而最后一部分是代表报告类型的常量。 中间部件是为已发送邮件的类保留的。 例如, 由于送达报告使用常量 DR, 因此关于 IPM 的送达报告的邮件类。注释消息将为 "报告"。 **IPM. dr.**。
   
-下表显示了表示的报告类型的常量。
+下表显示了代表报告类型的常量。
   
 |**报告类型**|**邮件类中使用的常量**|
 |:-----|:-----|
-|Read  <br/> |IPNRN  <br/> |
-|Nonread  <br/> |IPNNRN  <br/> |
-|传递  <br/> |灾难恢复  <br/> |
-|原件  <br/> |NDR  <br/> |
+|读取  <br/> |IPNRN  <br/> |
+|未读  <br/> |IPNNRN  <br/> |
+|Delivery  <br/> |DR  <br/> |
+|Nondelivery  <br/> |发送  <br/> |
    
-交互式客户端可以通过使用由 MAPI，提供的标准窗体或报表的邮件类的窗体管理器与已注册的自定义窗体显示报告消息。 接收 IPM 原件报表的客户端。注意消息，例如，可以显示标准 MAPI 表单提供失败的收件人和建议的失败原因的列表。 如果需要，窗体还允许用户重新发送的邮件。 
+交互客户端可以使用 MAPI 提供的标准窗体或在报表的邮件类的窗体管理器中注册的自定义窗体来显示报告消息。 接收 IPM 的 nondelivery 报告的客户端。例如, 邮件可以显示标准 MAPI 表单, 该窗体显示失败收件人的列表和错误的建议原因。 表单还允许用户根据需要重新发送邮件。 
   
 ## <a name="see-also"></a>另请参阅
 

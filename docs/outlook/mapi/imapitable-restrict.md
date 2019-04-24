@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 924715f26e104739f2e60762511221da5facd5a5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6cca6bc12fa6f100885b7bf705d79fa24a2e2f91
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328845"
 ---
 # <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-筛选器应用于表格，从而减少了设置为仅与指定的条件匹配这些行的行。
+将筛选器应用于表, 将行设置为仅将行设置为与指定条件匹配的行。
   
 ```cpp
 HRESULT Restrict(
@@ -38,19 +38,19 @@ ULONG ulFlags
 
  _lpRestriction_
   
-> [in]定义筛选器的条件[SRestriction](srestriction.md)结构的指针。 传递 NULL _lpRestriction_参数中删除当前的筛选器。 
+> 实时指向定义筛选条件的[SRestriction](srestriction.md)结构的指针。 在_lpRestriction_参数中传递 NULL 将删除当前的筛选器。 
     
  _ulFlags_
   
-> [in]位掩码的标志，控制限制操作的时间。 可以设置以下标志：
+> 实时控制限制操作的时间的标志的位掩码。 可以设置以下标志:
     
 TBL_ASYNC 
   
-> 异步启动操作并返回之前操作完成。
+> 异步启动操作并在操作完成前返回。
     
 TBL_BATCH 
   
-> 延迟的筛选器评估，直到表中的数据，则需要。
+> 推迟对筛选器的求值, 直到表中的数据是必需的。
     
 ## <a name="return-value"></a>返回值
 
@@ -60,48 +60,48 @@ S_OK
     
 MAPI_E_BUSY 
   
-> 阻止限制操作启动的正在进行中是另一个操作。 应允许正在进行的操作完成或应停止。
+> 正在进行另一个操作, 以阻止启动限制操作。 应允许正在进行的操作完成, 或者应已停止。
     
 MAPI_E_TOO_COMPLEX 
   
-> 表无法执行操作，因为太复杂_lpRestriction_参数指向特定筛选器。 
+> 表无法执行此操作, 因为_lpRestriction_参数指向的特定筛选器过于复杂。 
     
 ## <a name="remarks"></a>注解
 
-**IMAPITable::Restrict**方法建立的限制或筛选，请在表。 如果没有前面限制，则它会丢弃并新建一个应用。 应用了限制对基础数据的表; 没有影响它只会改变视图通过限制可以检索到包含满足在限制的数据行的行。 
+**IMAPITable:: Restrict**方法在表上建立限制或筛选器。 如果存在以前的限制, 将丢弃它并应用新的限制。 应用限制对表的基础数据没有影响。它只是通过限制可检索到包含满足限制的数据的行的行来更改视图。 
   
-有几种不同类型的限制，每个具有不同结构所述。 [SRestriction](srestriction.md)结构包含两个成员： 一个值，指示限制和适用于该类型的特定结构的类型。 
+有几种不同类型的限制, 每种类型都有不同的结构说明。 [SRestriction](srestriction.md)结构包含两个成员: 一个值, 该值指示限制的类型以及适用于该类型的特定结构。 
   
-永远不会生成的已**Restrict**呼叫被隐藏视图中的表格行的通知。 
+从不生成通过对**Restrict**的调用而隐藏的表行的通知。 
   
-对多值属性的属性限制的工作方式类似的单值属性限制。 在属性限制中使用的多值的属性必须设置 MVI_FLAG 标志。 如果它没有设置此标志，则将其视为完全有序元组。 两个多值列的比较比较中报告的第一个不相等中的列的关系的顺序的列元素。 仅当比较的列包含相同的顺序相同的值，则返回相等。 如果一个列具有比其他值少，报告的关系是 null 值为其他值。
+对多值属性的属性限制的工作方式类似于对单值属性的限制。 要在属性限制中使用的多值属性必须设置 MVI_FLAG 标志。 如果未设置此标志, 则会将其视为一个完全排序的元组。 两个多值列的比较将按顺序对列元素进行比较, 报告第一个不相等的列关系。 仅当列的比较包含相同顺序的相同值时, 才返回相等性。 如果某一列的值少于其他列的值, 则报告的关系为将 null 值的其他值。
   
-有关限制的详细信息，请参阅[有关限制](about-restrictions.md)。
+有关限制的详细信息, 请参阅[关于限制](about-restrictions.md)。
   
 > [!NOTE]
-> 如果您创建动态查询搜索服务器上的数据，而不是使用**Restrict**方法和**QueryRows**方法一起使用**FindRow**方法。 **Restrict**方法创建的用于评估添加或修改的基文件夹中的所有邮件缓存的视图。 如果客户端应用程序的每个动态查询使用**Restrict**方法，将创建每个查询的缓存的视图。 
+> 如果创建动态查询以在服务器上搜索数据, 请使用**FindRow**方法, 而不是将**Restrict**方法和**QueryRows**方法一起使用。 **Restrict**方法创建一个缓存视图, 用于评估在基文件夹中添加或修改的所有邮件。 如果客户端应用程序对每个动态查询使用**Restrict**方法, 则将为每个查询创建一个缓存视图。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-放弃而无需创建一个新的当前限制，请在_lpRestriction_传递 NULL。
+若要在不创建新限制的情况下放弃当前限制, 请在_lpRestriction_中传递 NULL。
   
-如果另一个异步表呼叫正在进行，导致**Restrict**返回 MAPI_E_BUSY，您可以调用[IMAPITable::Abort](imapitable-abort.md)停止呼叫。 
+如果正在进行另一个异步表调用, 从而导致**限制**返回 MAPI_E_BUSY, 则可以调用[IMAPITable:: Abort](imapitable-abort.md)停止呼叫。 
   
- 除非将其中一个标志设置**限制**进行同步操作。 如果设置 TBL_BATCH 标志， **Restrict**推迟评估版的限制，除非您请求的数据。 如果设置 TBL_ASYNC 标志，则**Restrict**操作以异步方式，可能返回之前完成操作。
+ **限制**同步操作, 除非您设置了其中一个标志。 如果设置了 TBL_BATCH 标志, 则**限制**推迟对限制的评估, 除非您请求数据。 如果设置了 TBL_ASYNC 标志, 则**限制**在完成操作之前异步操作, 可能会返回。
   
-当调用**Restrict**不进行，并且 BOOKMARK_CURRENT，当前光标位置，设置为表的开头，则将被丢弃的表的所有书签。 
+表的所有书签都会在进行**限制**调用时被丢弃, 而将 BOOKMARK_CURRENT 的当前光标位置设置为表的开头。 
   
-如果尝试为多少属性限制中表的列集不是一个属性，则结果是未定义。 只要您不确定来对属性的表中是否受支持，结合使用属性限制存在限制。 存在限制检查尝试实施属性限制之前的属性是否存在。 
+如果尝试对不在表的列集中的属性施加属性限制, 则结果是不确定的。 只要您不确定某个属性是否在表中受支持, 请将该属性限制与存在的限制组合在一起。 在尝试强制实施属性限制之前, 存在限制会检查是否存在该属性。 
   
-不希望接收由于限制表中的已筛选的行上的表通知。
+如果由于限制而从表中筛选出的行上不应收到表通知。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI 使用**IMAPITable::Restrict**方法在表上设置限制。  <br/> |
+|ContentsTableListCtrl  <br/> |CContentsTableListCtrl:: ApplyRestriction  <br/> |MFCMAPI 使用**IMAPITable:: Restrict**方法来设置对表的限制。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

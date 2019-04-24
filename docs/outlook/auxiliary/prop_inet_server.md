@@ -6,23 +6,23 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: cd1bf05a-30df-436f-856b-d5280c20b694
-description: 代表常规的 Internet 邮箱的服务器名称。
-ms.openlocfilehash: 6ed7cd758ae5bfa011c8a6eeed48e4d3870edc47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 表示常规 Internet 邮箱的服务器名称。
+ms.openlocfilehash: fa0ac96249b600b4e42f85a205870a15bd0f700c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327536"
 ---
 # <a name="propinetserver"></a>PROP_INET_SERVER
 
-代表常规的 Internet 邮箱的服务器名称。
+表示常规 Internet 邮箱的服务器名称。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|标识符：  <br/> |0x0100  <br/> |
+|标识符:  <br/> |0x0100  <br/> |
 |属性类型  <br/> |PT_UNICODE  <br/> |
 |属性标记：  <br/> |0x0100001F  <br/> |
 |访问权限  <br/> |只读  <br/> |

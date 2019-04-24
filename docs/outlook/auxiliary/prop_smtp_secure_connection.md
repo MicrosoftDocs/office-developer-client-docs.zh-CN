@@ -6,37 +6,37 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
-description: 指定的加密连接使用的 SMTP 帐户的类型。
-ms.openlocfilehash: e1c8c8dacf953407d4cbb114aa5ee0a4cdb6acf5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 指定要用于 SMTP 帐户的加密连接的类型。
+ms.openlocfilehash: 67eae5c9c5ca1b7f664ceaac0463ef3f3c9a291a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328327"
 ---
 # <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
 
-指定的加密连接使用的 SMTP 帐户的类型。
+指定要用于 SMTP 帐户的加密连接的类型。
   
 ## <a name="quick-info"></a>快速信息
 
 |||
 |:-----|:-----|
-|标识符：  <br/> |0x020A  <br/> |
+|标识符:  <br/> |0x020A  <br/> |
 |属性类型  <br/> |PT_DWORD  <br/> |
 |属性标记：  <br/> |0x020A0003  <br/> |
 |访问权限  <br/> |只读  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-值可以是以下常量之一。 其值，请参阅[常量 （帐户管理 API）](constants-account-management-api.md) 。 
+此值可以是下列常量之一。 有关其值, 请参阅[常量 (帐户管理 API)](constants-account-management-api.md) 。 
   
-|**常量**|**说明**|
+|**Constants**|**Description**|
 |:-----|:-----|
-|**ENCRYPT_CONN_NO_SECURITY** <br/> |不使用任何加密。  <br/> |
+|**ENCRYPT_CONN_NO_SECURITY** <br/> |请勿使用任何加密。  <br/> |
 |**ENCRYPT_CONN_SSL** <br/> |使用安全套接字层 (SSL) 加密。  <br/> |
 |**ENCRYPT_CONN_TLS** <br/> |使用传输层安全性 (TLS) 加密和身份验证协议。  <br/> |
-|**ENCRYPT_CONN_AUTO** <br/> |自动检测并使用支持的邮件服务器的加密方法。  <br/> |
+|**ENCRYPT_CONN_AUTO** <br/> |自动检测和使用邮件服务器支持的加密方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

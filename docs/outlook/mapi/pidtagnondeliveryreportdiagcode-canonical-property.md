@@ -12,31 +12,31 @@ api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 528e18964cacfb59f30667295b792e850353f3ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a3cf1d32ac4c21137e1b1cbb04f64d7efbc0729d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329349"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>PidTagNonDeliveryReportDiagCode 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含诊断代码的表单原件报表中的一部分。
+包含构成 nondelivery 报告的一部分的诊断代码。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NDR_DIAG_CODE  <br/> |
-|标识符：  <br/> |0x0C05  <br/> |
+|标识符:  <br/> |0x0C05  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性可以具有完全下列值之一：
+此属性可以具有下列值之一:
   
 MAPI_DIAG_ALPHABETIC_CHARACTER_LOST 
   
@@ -234,13 +234,13 @@ MAPI_DIAG_TOO_MANY_RECIPIENTS
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

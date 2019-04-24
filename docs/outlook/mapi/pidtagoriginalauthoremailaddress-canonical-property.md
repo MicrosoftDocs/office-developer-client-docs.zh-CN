@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 67cda756-ba71-4f29-a601-55359e44d93b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bd019378a8db7b2e356f0c8b2f30a59e685b9e8a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7918c5d5b585ffb199bfbc140edfb8286b499b40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329237"
 ---
 # <a name="pidtagoriginalauthoremailaddress-canonical-property"></a>PidTagOriginalAuthorEmailAddress 规范属性
 
@@ -25,32 +25,32 @@ ms.locfileid: "22595431"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一条消息，即之前正在转发或答复邮件的第一个版本的作者的电子邮件地址。
+包含邮件第一版的作者的电子邮件地址, 即邮件转发或答复前的邮件地址。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS，PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_A，PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_W  <br/> |
-|标识符：  <br/> |0x007A  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |Server  <br/> |
+|相关属性：  <br/> |PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS、PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_A、PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS_W  <br/> |
+|标识符:  <br/> |0x007A  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="remarks"></a>注解
 
-这些属性是邮件的作者的地址属性的示例。 在首次提交邮件，客户端应用程序应将这些属性设置为**PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) 属性的值。 当转发或答复邮件永远不会更改它。
+这些属性是邮件作者地址属性的示例。 首次提交邮件时, 客户端应用程序应将这些属性设置为**PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)) 属性的值。 转发或答复邮件时, 它永远不会更改。
   
-原始作者属性允许保留来自域外部的本地消息的信息。 当邮件到达从其他邮件的域时，如从 Internet，这些属性提供一种方法，以确保原始信息不会丢失。
+原始作者属性允许保留本地邮件域外部的信息。 当邮件到达其他邮件域 (例如从 Internet) 时, 这些属性提供了一种确保原始信息不会丢失的方法。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a7095907a1fb437e225922d0bef08b4ad79a4b6f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 710e0e2fc334194e33c6d8ba1296e4c7b1938bc0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325625"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-创建一个文本流中未压缩富文本格式 (RTF) 从**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中使用的压缩文件格式。 
+从**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) 属性中使用的压缩格式创建未压缩的 rtf 格式文本流。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序  <br/> |
    
 ```cpp
 HRESULT WrapCompressedRTFStream(
@@ -45,39 +45,39 @@ HRESULT WrapCompressedRTFStream(
 
  _lpCompressedRTFStream_
   
-> [in]到上一条消息的 PR_RTF_COMPRESSED 属性打开流的指针。 
+> 实时指向在邮件的 PR_RTF_COMPRESSED 属性上打开的流的指针。 
     
  _ulFlags_
   
-> [in]函数标记选项的位掩码。 可以设置以下标志：
+> 实时函数的选项标志的位掩码。 可以设置以下标志:
     
 MAPI_MODIFY 
   
-> 是否客户端打算读取或写入返回的换行的流接口。 
+> 客户端是否打算读取或写入返回的已包装流接口。 
     
 STORE_UNCOMPRESSED_RTF 
   
-> 未压缩的 RTF 应写入所指的_lpCompressedRTFStream_流
+> 应将未压缩的 RTF 写入_lpCompressedRTFStream_指向的流。
     
  _lpUncompressedRTFStream_
   
-> [输出]指向**WrapCompressedRTFStream**其中返回 stream 的未压缩 RTF 的位置的指针。 
+> 排除指向**WrapCompressedRTFStream**的位置的指针, 该位置返回未压缩的 RTF 的流。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 呼叫成功或多个预期值返回。
+> 调用成功, 并返回了所需的值或值。
     
 ## <a name="remarks"></a>注解
 
-如果_ulFlags_参数中传递 MAPI_MODIFY 标志，则_lpCompressedRTFStream_参数必须已被打开的读取和写入。 新的、 未压缩 RTF 的文本应写入_lpUncompressedRTFStream_中返回的流接口。 因为它不可能要追加的现有流，必须编写的整个邮件文本。 
+如果在_ulFlags_参数中传递了 MAPI_MODIFY 标志, 则必须已打开_lpCompressedRTFStream_参数以进行读取和写入。 新的、未压缩的 RTF 文本应写入_lpUncompressedRTFStream_中返回的 stream 接口。 由于无法追加现有流, 因此必须写入整个消息文本。 
   
-如果_ulFlags_参数中传递零，则然后_lpCompressedRTFStream_可能是以只读方式打开。 可以利用_lpUncompressedRTFStream_中返回的流接口读取只将整个邮件文本。 不能开始 stream 的中间搜索。 
+如果在_ulFlags_参数中传递零, 则_lpCompressedRTFStream_可能会以只读的打开。 仅可从_lpUncompressedRTFStream_中返回的流接口读取整个邮件文本。 无法在流的中间开始搜索。 
   
- **WrapCompressedRTFStream**假定压缩的流的指针设置为 stream 的开头。 返回未压缩流不支持某些 OLE **IStream**方法。 包括**IStream::Clone**、 **IStream::LockRegion**、 **IStream::Revert**、 **IStream::Seek**、 **IStream::SetSize**、 **IStream::Stat**和**IStream::UnlockRegion**。 若要复制到整个流，需要读/写循环。 
+ **WrapCompressedRTFStream**假定压缩流的指针设置为流的开头。 返回的未压缩流不支持某些 OLE **IStream**方法。 其中包括**IStream:: Clone**、 **istream:: LockRegion**、 **istream:: Revert**、 **IStream:: Seek**、 **IStream:: SetSize**、 **istream:: Stat**和**IStream:: UnlockRegion**。 若要复制到整个流, 需要具有读/写循环。 
   
-客户端未压缩格式写入新 RTF，因为它应使用**WrapCompressedRTFStream**，而不是直接写入到流。 RTF 感知客户端应 STORE_UNCOMPRESSED_RTF 标志**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中搜索，并将其传递给**WrapCompressed RTFStream** ，如果将其设置。 
+由于客户端以未压缩格式写入新 RTF, 因此它应使用**WrapCompressedRTFStream**, 而不是直接写入流。 RTF 感知客户端应在**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性中搜索 STORE_UNCOMPRESSED_RTF 标志, 并将其传递到**WrapCompressed RTFStream** (如果已设置)。 
   
 ## <a name="see-also"></a>另请参阅
 

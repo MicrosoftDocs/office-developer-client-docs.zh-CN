@@ -12,44 +12,44 @@ api_type:
 - COM
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: cfbeb6c60069d57d9a42082e80b2a45fd3410767
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d573916682e4857b367a898d22f2cff5af47ef27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327221"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>PidTagPreprocess 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件需要预处理，包含 TRUE。
+如果邮件需要预处理, 则该参数包含 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PREPROCESS  <br/> |
-|标识符：  <br/> |0x0E22  <br/> |
+|标识符:  <br/> |0x0E22  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
 ## <a name="remarks"></a>注解
 
 > [!IMPORTANT]
-> 不要使用此属性。 它是通过 MAPI 供使用。 
+> 不要使用此属性。 它保留供 MAPI 使用。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

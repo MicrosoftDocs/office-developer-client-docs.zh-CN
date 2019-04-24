@@ -1,5 +1,5 @@
 ---
-title: MapiSvc.inf 邮件服务部分中的属性条目
+title: mapisvc.inf 邮件服务部分中的属性条目
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,49 +7,49 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 714f99e2-80fc-4785-b707-611d8a6c229f
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 038c13d24f3d797f7a4f8f9b7692240ce8004b74
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: ad2732f2f8dba4f506318a1b6faefb617a60584a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328516"
 ---
-# <a name="property-entries-in-mapisvcinf-message-service-sections"></a>MapiSvc.inf 邮件服务部分中的属性条目
+# <a name="property-entries-in-mapisvcinf-message-service-sections"></a>mapisvc.inf 邮件服务部分中的属性条目
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-设置属性的项使用以下格式：
+设置了属性的条目使用以下格式:
   
  **属性标记****=** 属性值 
   
-如果数据不表示的 MAPI 属性，可以标准的 MAPI 属性标记，如果配置数据表示 MAPI，由预定义的属性之一或非标准标记属性标记。 通过将与属性类型组合属性标识符的值进行的非标准标记。 结果是 8 位十六进制数。 该属性值可以是任何有意义属性标记。 
+如果配置数据表示由 MAPI 预定义的属性之一, 则该属性标记可以是标准 MAPI 属性标记, 如果数据不代表 mapi 属性, 则为非标准标记。 通过将属性标识符的值与属性类型相结合来生成非标准标记。 结果是一个8位十六进制数。 属性值可以是对属性标记有意义的任何内容。 
   
-消息服务各节可以包含各种具体取决于要配置的消息服务的条目。 下面的 MAPI 属性通常包括在邮件服务节中列出的格式：
+邮件服务部分可以包含不同的条目, 具体取决于正在配置的邮件服务。 以下 MAPI 属性通常以列出的格式包含在 "邮件服务" 部分中:
   
  **PR_DISPLAY_NAME** =  _字符串_
   
- **PR_SERVICE_DLL_NAME** =  _DLL 文件的名称_
+ **** =  _DLL 文件的 PR_SERVICE_DLL_NAME 名称_
   
- **PR_SERVICE_ENTRY_NAME** =  _的入口点函数名称_
+ **** =  _入口点函数的 PR_SERVICE_ENTRY_NAME 名称_
   
- **PR_SERVICE_SUPPORT_FILES** =  _的文件列表_
+ **PR_SERVICE_SUPPORT_FILES** =  _文件列表_
   
- **PR_SERVICE_DELETE_FILES** =  _的文件列表_
+ **PR_SERVICE_DELETE_FILES** =  _文件列表_
   
  **PR_RESOURCE_FLAGS** =  _位掩码_
   
-**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 字符串是在用户界面中，用户与邮件服务关联的名称显示的消息服务的名称。 显示名称为 mapisvc.inf 中的可选条目。 有时的显示名称将是两个部分组成;消息服务分配的部件和由用户分配一个部分。 如果用户是负责分配的部分之一，这通常是一个特殊的对话框，称为消息服务的客户端应用程序控制下提供的属性表处理。 
+**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 字符串是在用户界面中显示的邮件服务的名称, 该用户与邮件服务关联的名称。 显示名称是 mapisvc.inf 中的可选条目。 显示名称有时由两部分组成;由邮件服务和用户分配的部件分配的部件。 如果用户负责分配其中一个部件, 通常会使用一个特殊的对话框来处理, 该对话框称为属性表 (由邮件服务在客户端应用程序的控制下提供)。 
   
-提供**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) 条目的信息是包含邮件服务的 DLL 的名称。 提供**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) 条目的信息是内 MAPI 调用配置消息服务的 DLL 入口点函数的名称。 
+为**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)) 条目提供的信息是包含邮件服务的 DLL 的名称。 为**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md)) 条目提供的信息是该 DLL 中的入口点函数的名称, MAPI 调用它来配置邮件服务。 
   
-**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md)) 条目中列出的文件都必须安装与消息服务的文件。 同样时删除邮件服务,，则必须删除**PR_SERVICE_DELETE_FILES** ([PidTagServiceDeleteFiles](pidtagservicedeletefiles-canonical-property.md)) 条目中的文件。 
+**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md)) 条目中列出的文件是必须随邮件服务一起安装的文件。 同样, 删除邮件服务时, 必须删除**PR_SERVICE_DELETE_FILES** ([PidTagServiceDeleteFiles](pidtagservicedeletefiles-canonical-property.md)) 条目中的文件。 
   
-**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 条目是定义消息服务选项的集合。 例如，当邮件服务仅可以一次出现在给定配置文件设置 SERVICE_SINGLE_COPY 位。 如果邮件服务不提供标识信息，设置 SERVICE_NO_PRIMARY_IDENTITY 位。 
+**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 条目是为邮件服务定义的选项的集合。 例如, 当邮件服务在给定配置文件中只能出现一次时, 将设置 SERVICE_SINGLE_COPY 位。 如果消息服务不提供标识信息, 则设置 SERVICE_NO_PRIMARY_IDENTITY 位。 
   
-两个非标准属性条目的示例。 第一个条目指定为该属性值; 使用默认通讯簿的文件的路径第二项中指定的数字属性值。 这两个条目具有特定于 AB 消息服务的含义。
+下面是两个非标准属性条目的示例。 第一项指定默认通讯簿使用的文件的路径作为属性值;第二个条目指定数值属性值。 这两个条目都具有对 AB 邮件服务的意义。
   
 ```cpp
 6600001e=full path to file

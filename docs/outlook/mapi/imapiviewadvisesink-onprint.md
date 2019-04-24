@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 202d461d4acefe18e69b47db9319cb328c61406e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: e66315042f8b5cd5aff0e4aa076588c9f312376a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328782"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-通知窗体的打印状态的表单查看器。
+将表单的打印状态通知给表单查看器。
   
 ```cpp
 HRESULT OnPrint(
@@ -38,11 +38,11 @@ HRESULT hrStatus
 
  _dwPageNumber_
   
-> [in]数的最后一页打印。
+> 实时打印的最后一页的编号。
     
  _hrStatus_
   
-> [in]指示打印作业的状态的 HRESULT 值。 可能的值是：
+> 实时一个 HRESULT 值, 指示打印作业的状态。 可能的值是：
     
 S_FALSE 
   
@@ -50,11 +50,11 @@ S_FALSE
     
 S_OK 
   
-> 打印作业正在运行。
+> 正在进行打印作业。
     
-失败 
+未能 
   
-> 打印作业已终止由于失败而导致。
+> 打印作业因故障而终止。
     
 ## <a name="return-value"></a>返回值
 
@@ -64,17 +64,17 @@ S_OK
     
 MAPI_E_USER_CANCEL 
   
-> 用户取消操作，通常通过单击对话框中的取消按钮。 
+> 用户取消了操作, 通常是单击对话框中的 "取消" 按钮。 
     
 ## <a name="remarks"></a>注解
 
-表单对象调用**IMAPIViewAdviseSink::OnPrint**方法时打印，告知打印进度的查看器。 
+表单对象在打印时调用**IMAPIViewAdviseSink:: OnPrint**方法, 以通知查看器打印进度。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果打印作业涉及多个页面，则可以呼叫**OnPrint**后每一页打印。 将_dwPageNumber_到当前打印页面和_hrStatus_设置为返回 S_OK。 打印作业完成时，呼叫与_dwPageNumber_ **OnPrint**设置到最后一页打印和_hrStatus_将设置为 S_FALSE。 
+如果打印作业涉及多个页面, 则可以在打印每个页面后调用**OnPrint** 。 将_dwPageNumber_设置为当前正在打印的页面, 并将_hrStatus_设置为 S_OK。 打印作业完成后, 调用**OnPrint** , 并将_dwPageNumber_设置为打印的最后一页, _hrStatus_设置为 S_FALSE。 
   
-有关窗体通知的详细信息，请参阅[发送和接收窗体通知](sending-and-receiving-form-notifications.md)。
+有关表单通知的详细信息, 请参阅[发送和接收表单通知](sending-and-receiving-form-notifications.md)。
   
 ## <a name="see-also"></a>另请参阅
 

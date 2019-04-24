@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 30aaaaa250155215149a941da7f7e528d65b8dc3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 5f8396ca84192e485d33fb5a96f641361b717584
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328192"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-强制等待发送或接收立即上载或下载的所有邮件。 MAPI 后台处理程序状态对象和传输提供程序实现的状态对象支持此方法。
+强制立即上载或下载所有等待发送或接收的邮件。 传输提供程序实现的 MAPI 后台处理程序状态对象和 status 对象支持此方法。
   
 ```cpp
 HRESULT FlushQueues(
@@ -40,69 +40,69 @@ HRESULT FlushQueues(
 
  _ulUIParam_
   
-> [in]任何对话框的父窗口或该方法显示的窗口句柄。
+> 实时此方法显示的任何对话框或窗口的父窗口的句柄。
     
  _cbTargetTransport_
   
-> [in]在_lpTargetTransport_参数指向的项标识符的字节数。 _CbTargetTransport_参数仅在调用 MAPI 后台处理程序的状态对象上设置。 对于到传输提供程序的调用， _cbTargetTransport_参数设置为 0。 
+> 实时条目标识符中由_lpTargetTransport_参数指向的字节数。 仅在对 MAPI 后台处理程序的状态对象的调用上设置_cbTargetTransport_参数。 对于传输提供程序的调用, _cbTargetTransport_参数设置为0。 
     
  _lpTargetTransport_
   
-> [in]指向的传输提供程序刷新其消息队列的项标识符的指针。 _LpTargetTransport_参数仅在调用 MAPI 后台处理程序的状态对象上设置。 对于到传输提供程序的调用， _lpTargetTransport_参数设置为 NULL。 
+> 实时指向传输提供程序的条目标识符的指针, 该传输提供程序将刷新其邮件队列。 仅在对 MAPI 后台处理程序的状态对象的调用上设置_lpTargetTransport_参数。 对于传输提供程序的调用, _lpTargetTransport_参数设置为 NULL。 
     
  _ulFlags_
   
-> [in]位掩码的标志的控件的刷新操作。 可以设置以下标志：
+> 实时控制刷新操作的标志的位掩码。 可以设置以下标志:
     
 FLUSH_ASYNC_OK 
   
-> 异步出现的刷新操作。 此标志仅适用于 MAPI 后台处理程序的状态对象。 
+> 刷新操作可以异步发生。 此标志仅适用于 MAPI 后台处理程序的状态对象。 
     
 FLUSH_DOWNLOAD 
   
-> 应刷新传入的消息队列。
+> 应刷新传入邮件队列。
     
 FLUSH_FORCE 
   
-> 刷新操作应无论如何，而不考虑的性能降低进行。 目标异步传输提供程序时，必须设置此标志。
+> 应执行刷新操作, 而不考虑性能降低的可能性。 在目标为异步传输提供程序时, 必须设置此标志。
     
 FLUSH_NO_UI 
   
-> 状态对象不应显示进度指示器。
+> status 对象不应显示进度指示器。
     
 FLUSH_UPLOAD 
   
-> 应刷新的传出消息队列。
+> 应刷新传出邮件队列。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 刷新操作已成功。
+> 刷新操作成功。
     
 MAPI_E_BUSY 
   
-> 正在进行; 另一个操作应允许其完成，或者它应停止，可以启动此操作之前。
+> 正在进行另一个操作;应允许完成此操作, 否则应将其停止, 然后才能启动此操作。
     
 MAPI_E_NO_SUPPORT 
   
-> 状态对象不支持此操作，如缺少 STATUS_FLUSH_QUEUES 标志状态对象的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中所示。
+> status 对象不支持此操作, 正如 status 对象的**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 属性中缺少 STATUS_FLUSH_QUEUES 标志所指示的那样。
     
 ## <a name="remarks"></a>注解
 
-**IMAPIStatus::FlushQueues**方法请求的 MAPI 后台处理程序传输提供程序立即发送传出队列中的所有邮件或从传入的队列接收所有的消息。 **FlushQueues**是只能通过 MAPI 后台处理程序状态对象和由传输提供程序提供的状态对象实现的。 
+**IMAPIStatus:: FlushQueues**方法请求 MAPI 后台处理程序或传输提供程序立即发送传出队列中的所有邮件或接收传入队列中的所有邮件。 **FlushQueues**仅由 MAPI 后台处理程序状态对象和传输提供程序提供的 status 对象实现。 
   
-应异步请求返回 MAPI_E_BUSY，以便客户端可以继续工作。 
+应为异步请求返回 MAPI_E_BUSY, 以便客户端可以继续工作。 
   
-默认情况下**FlushQueues**是同步操作;刷新已完成，直到控件不返回到呼叫者。 仅由 MAPI 后台处理程序执行的刷新操作可以是异步的;客户端通过设置 FLUSH_ASYNC_OK 标志请求此行为。 
+默认情况下, **FlushQueues**是同步操作;在刷新完成之前, 控件不会返回到调用方。 只有 MAPI 后台处理程序执行的刷新操作才可以是异步操作。客户端通过设置 FLUSH_ASYNC_OK 标志来请求此行为。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-远程传输提供程序的实现**FlushQueues**登录对象的状态行来控制如何刷新队列中的**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性中设置了位。 如果远程查看器传入 FLUSH_UPLOAD 标志， **FlushQueues**方法应设置 STATUS_INBOUND_ENABLED 和 STATUS_INBOUND_ACTIVE 位。 如果远程查看器传入 FLUSH_DOWNLOAD 标志， **FlushQueues**方法应设置 STATUS_OUTBOUND_ENABLED 和 STATUS_OUTBOUND_ACTIVE 位。 **FlushQueues**然后应返回 S_OK。 然后，MAPI 后台处理程序将启动上载和下载邮件的相应操作。 
+远程传输提供程序的**FlushQueues**实现在登录对象的状态行中的**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) 属性中设置 bits, 以控制队列的刷新方式。 如果远程查看器通过 FLUSH_UPLOAD 标志, 则**FlushQueues**方法应设置 STATUS_INBOUND_ENABLED 和 STATUS_INBOUND_ACTIVE 位。 如果远程查看器通过 FLUSH_DOWNLOAD 标志, 则**FlushQueues**方法应设置 STATUS_OUTBOUND_ENABLED 和 STATUS_OUTBOUND_ACTIVE 位。 **FlushQueues**应返回 S_OK。 然后, MAPI 后台处理程序将启动相应的操作来上载和下载邮件。 
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-MAPI 后台处理程序状态对象调用是指令传输到或从适当的传输提供程序的所有邮件。 在调用的单个传输提供程序的状态对象时，会影响只有该提供程序的邮件。
+对 MAPI 后台处理程序状态对象的调用是一种将所有邮件传输到相应的传输提供程序或从相应的传输提供程序传输的指令。 当您调用单个传输提供程序的状态对象时, 只有该提供程序的消息会受到影响。
   
 ## <a name="see-also"></a>另请参阅
 

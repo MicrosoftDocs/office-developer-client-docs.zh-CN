@@ -11,11 +11,11 @@ ms.assetid: 807d1b76-ccc1-4cbe-bbe3-5d5cadffbef4
 description: 记录 MAPI 编程元素。
 localization_priority: Priority
 ms.openlocfilehash: 9489343e1ea88aa51bdf09ee5b705a9cfa59fafa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329727"
 ---
 # <a name="mapi-reference"></a>MAPI 引用
  

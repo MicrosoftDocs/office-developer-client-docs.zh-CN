@@ -12,49 +12,49 @@ api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 81b7b0c235f610e7aaa0c17ecd1760df5d382552
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 92067b5badfb2aab40f3b3735a164bc09321702c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322402"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-允许 MAPI 子系统通知的 MAPI 客户端，快速关闭 MAPI 提供程序，以便 MAPI 提供程序可以响应关闭。
+允许 mapi 子系统将 mapi 客户端的快速关闭通知给 mapi 提供程序, 以便 mapi 提供程序可以响应关闭操作。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |提供商对象： [IXPProvider](ixpprovideriunknown.md)、 [IABProvider](iabprovideriunknown.md)或[IMSProvider](imsprovideriunknown.md) <br/> |
-|通过实现：  <br/> |MAPI 提供程序  <br/> |
-|调用：  <br/> |MAPI 子系统  <br/> |
-|接口标识符：  <br/> |IID_IMAPIProviderShutdown  <br/> |
-|指针类型：  <br/> |LPMAPIPROVIDERSHUTDOWN  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |Provider 对象: [IXPProvider](ixpprovideriunknown.md)、 [IABProvider](iabprovideriunknown.md)或[IMSProvider](imsprovideriunknown.md) <br/> |
+|实现者：  <br/> |MAPI 提供程序  <br/> |
+|调用者：  <br/> |MAPI 子系统  <br/> |
+|接口标识符:  <br/> |IID_IMAPIProviderShutdown  <br/> |
+|指针类型:  <br/> |LPMAPIPROVIDERSHUTDOWN  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |查询快速关闭 MAPI 提供程序支持。  <br/> |
-|[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |表示的 MAPI 提供程序，MAPI 客户端将要执行快速关闭，以便提供程序可以执行操作，以防止数据丢失。  <br/> |
-|[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |指示到 MAPI 提供程序 MAPI 客户端立即退出以便 MAPI 提供程序将保留更改以防止数据丢失。  <br/> |
+|[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |查询 MAPI 提供程序以获取快速关闭支持。  <br/> |
+|[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |向 mapi 提供程序指示 mapi 客户端即将执行快速关闭, 以便提供程序可以采取措施来防止数据丢失。  <br/> |
+|[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |向 mapi 提供程序指示 mapi 客户端立即退出, 以便 mapi 提供程序将保留所做的更改以防止数据丢失。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-快速关闭允许 MAPI 客户端退出短时间内的其进程，希望客户端后，并加载 MAPI 提供程序已保存 MAPI 设置和数据。 MAPI 客户端始终发起快速关闭，并应查询的 MAPI 子系统的快速关闭加载 MAPI 提供程序的支持。 管理员可以设置在用户级别指定的所需允许快速关闭所有 MAPI 客户端提供程序支持级别的 Windows 注册表。 有关注册表设置的详细信息，请参阅[Fast 关闭用户选项](fast-shutdown-user-options.md)。 但是，对于快速关闭成功发生丢失数据，MAPI 提供程序应实现**IMAPIProviderShutdown**接口。 
+Fast shutdown 允许 MAPI 客户端在短时间内退出其进程, 因此在客户端和加载的 mapi 提供程序保存了 mapi 设置和数据之后, 也是如此。 mapi 客户端总是启动快速关闭, 并应查询 mapi 子系统, 以便从加载的 MAPI 提供程序中快速关闭支持。 管理员可以在用户级别设置 Windows 注册表, 以指定允许快速关闭所有 MAPI 客户端所必需的提供程序支持级别。 有关注册表设置的详细信息, 请参阅[Fast Shutdown User Options](fast-shutdown-user-options.md)。 但是, 为了使快速关闭在不丢失数据的情况下成功进行, MAPI 提供程序应实现**IMAPIProviderShutdown**接口。 
   
-需要支持客户端快速关闭 MAPI 提供程序应到 MAPI 子系统在**IMAPIProviderShutdown::QueryFastShutdown**方法返回 S_OK。 MAPI 提供程序的 MAPI 子系统随后呼叫的**IMAPIProviderShutdown::NotifyProcessShutdown**和**IMAPIProviderShutdown::DoFastShutdown**方法时, 应采取必要的操作以保存 MAPI 设置和数据和准备客户端的退出。 
+需要支持客户端快速关闭的 MAPI 提供程序应将 S_OK 返回到**IMAPIProviderShutdown:: QueryFastShutdown**方法中的 MAPI 子系统。 当 mapi 子系统随后调用**IMAPIProviderShutdown:: NotifyProcessShutdown**和**IMAPIProviderShutdown::D ofastshutdown**方法时, mapi 提供程序应执行必要的操作以保存 MAPI 设置和数据, 并准备客户端退出。 
   
-MAPI 提供程序不需要支持客户端快速关闭仍应实现**IMAPIProviderShutdown**接口，并让 MAPI_E_NO_SUPPORT **IMAPIProviderShutdown::QueryFastShutdown**方法。 对于作为 MAPI 客户端的 Outlook，这会导致 Outlook 等待它退出之前，必须释放的所有外部引用。 
+如果 MAPI 提供程序不需要支持客户端快速关闭, 则仍应实现**IMAPIProviderShutdown**接口, 并让**IMAPIProviderShutdown:: QueryFastShutdown**方法返回 MAPI_E_NO_SUPPORT。 对于 outlook 作为 MAPI 客户端, 这会导致 Outlook 等待所有外部引用在退出之前发布。 
   
-根据用户的 Windows 注册表设置的快速关闭不实现**IMAPIProviderShutdown**接口不一定是阻止客户端快速关闭。 
+根据用户的 Windows 注册表设置快速关闭, 不实现**IMAPIProviderShutdown**接口不一定会阻止客户端快速关闭。 
   
-有关的快速关闭进程的详细信息，请参阅[快速关闭概述](fast-shutdown-overview.md)。 有关如何成功执行快速关闭的信息，请参阅[快速关闭的最佳实践](best-practices-for-fast-shutdown.md)。
+有关快速关机过程的详细信息, 请参阅[fast shutdown 概述](fast-shutdown-overview.md)。 有关如何成功执行快速关机的信息, 请参阅[fast shutdown 的最佳实践](best-practices-for-fast-shutdown.md)。
   
 ## <a name="see-also"></a>另请参阅
 

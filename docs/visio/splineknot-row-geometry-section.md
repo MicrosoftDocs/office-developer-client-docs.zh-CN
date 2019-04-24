@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm3050
 localization_priority: Normal
 ms.assetid: 9fbae27d-4f1b-c5f7-aacb-16f359331e83
-description: 包含 x 和 y-样条控制点和样条节点的坐标。
-ms.openlocfilehash: 297889208e064870dd37ed45a17fef7cb4b333b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 包含样条控件点和样条节点的 x 坐标和 y 坐标。
+ms.openlocfilehash: 432b714772d96e0ab0861bbfb62075258404e607
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328124"
 ---
-# <a name="splineknot-row-geometry-section"></a>SplineKnot 行（“Geometry”部分）
+# <a name="splineknot-row-geometry-section"></a>SplineKnot 行（“Geometry”内容）
 
-包含*x*和*y* -样条控制点和样条节点的坐标。 
+包含样条控件点和样条节点的*x*坐标和*y*坐标。 
   
 SplineKnot 行包含以下单元格。
   
-|**Cell**|**说明**|
+|**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -控制点的坐标。  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |*Y* -控制点的坐标。  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |控制点的*x*坐标。  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |控制点的*y*坐标。  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |样条的节点之一（最后一个节点或前两个节点除外）。  <br/> |
    
 ## <a name="remarks"></a>注解

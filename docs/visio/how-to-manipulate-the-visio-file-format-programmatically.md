@@ -8,11 +8,11 @@ ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: 在 Visual Studio 2012 中创建解决方案以读取 Visio 2013 中的新文件格式包、选择包中的部件、更改部件中的数据以及向包中添加新部件。
 localization_priority: Priority
 ms.openlocfilehash: 7239180f6e8ecf013577bff787b7c3f784971efc
-ms.sourcegitcommit: b9814794fcc929f53892417f2b788f2a7931da87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31903794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330027"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>以编程方式处理 Visio 文件格式
 
@@ -267,7 +267,7 @@ ms.locfileid: "31903794"
     
     ```
 
-3. 选择 F5 键以调试解决方案。 该程序完成运行后，选择任意键退出。
+3. 选择 F5 键以调试解决方案。该程序完成运行后，选择任意键退出。
     
 控制台应用程序生成如下所示的输出（为了简单起见，某些输出已被省略）：
   
@@ -695,7 +695,7 @@ textElement.LastNode.ReplaceWith("Start process")
     
     ```
 
-3. 选择 F5 键以调试解决方案。 该程序完成运行后，选择任意键退出。
+3. 选择 F5 键以调试解决方案。该程序完成运行后，选择任意键退出。
     
 4. 在 Visio 2013 中打开 Visio Package.vsdx 文件。 
     
@@ -972,7 +972,7 @@ Visio 2013 文件格式包括多种用于重新计算文件中数据的技术。
     
     ```
 
-4. 选择 F5 键以调试解决方案。 该程序完成运行后，选择任意键退出。
+4. 选择 F5 键以调试解决方案。该程序完成运行后，选择任意键退出。
     
 5. 在 Visio 2013 中打开 Visio Package.vsdx 文件。 
     

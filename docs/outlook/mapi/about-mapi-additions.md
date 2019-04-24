@@ -1,23 +1,23 @@
 ---
-title: 有关 MAPI 新增功能
+title: 关于附加 MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: fefa77a15cc2b8c72a41b29e6299f159a893cee8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322160"
 ---
-# <a name="about-mapi-additions"></a>有关 MAPI 新增功能
+# <a name="about-mapi-additions"></a>关于附加 MAPI
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如数据类型、 函数和属性，已之前不公开且的记录的 MAPI 程序员参考一部分 Api。 其中包括下列定义和属性。
+mapi 添加项是属于邮件应用程序编程接口 (MAPI) 的 api, 这些接口 (如数据类型、函数和属性) 之前未作为 MAPI 程序员参考的一部分公开和记录。 其中包括以下定义和属性。
   
 ## <a name="constant-definitions"></a>常量定义
 
@@ -39,7 +39,7 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 ## <a name="properties"></a>属性
 
-通常由消息对象公开以下属性。
+以下属性通常由 message 对象公开。
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-由通讯簿内容 table 对象公开以下属性。
+下列属性由通讯簿内容表对象公开。
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-由通讯簿容器对象公开以下属性。
+下列属性由通讯簿容器对象公开。
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,13 +91,13 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-由文件夹对象公开以下属性。
+下列属性由 folder 对象公开。
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
 - **[PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md)**
     
-由消息用户对象公开以下属性。
+以下属性由邮件用户对象公开。
   
 - **[PR_ASSISTANT_TELEPHONE_NUMBER_W](pidtagassistanttelephonenumber-canonical-property.md)**
     
@@ -189,7 +189,7 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-由配置文件部分对象公开以下属性。
+以下属性由 profile 节对象公开。
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-由 store 对象公开以下属性。
+以下属性由存储对象公开。
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ MAPI 的新增功能是属于到消息应用程序编程接口 (MAPI)，例如�
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-以下属性由 store 对象公开，并在搜索特定元素的存储电子邮件中使用。
+以下属性由存储对象公开, 并在存储中搜索电子邮件的特定元素时使用。
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     

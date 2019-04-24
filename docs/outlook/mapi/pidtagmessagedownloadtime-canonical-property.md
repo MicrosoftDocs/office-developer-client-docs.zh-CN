@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: f0d34dd6-7ddb-4843-b848-c89923ff80cc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 43916f540ca324059d53f0413105146985835ffe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8078d31af497a437c983da7447a0aebbdfb643fb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325674"
 ---
 # <a name="pidtagmessagedownloadtime-canonical-property"></a>PidTagMessageDownloadTime 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含要从远程服务器的邮件下载到本地邮件存储的估计的时间。 
+包含从远程服务器到本地邮件存储区下载邮件的估计时间。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MESSAGE_DOWNLOAD_TIME  <br/> |
-|标识符：  <br/> |0x0E18  <br/> |
+|标识符:  <br/> |0x0E18  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性以秒为单位表示并代表时间也很远程传输提供程序从其当前位置的给定的邮件下载到的消息存储本地到客户端查看标头文件夹的最佳估计值。 远程传输提供程序通常由**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 属性的值除以中每秒字节数的 communications 链接的速度计算此属性的值。 如果提供程序无法计算下载时间，例如，如果不知道的链接速度，它应提供此列标题文件夹内容表中如**MAPI_E_NO_SUPPORT** **PT_ERROR**值。 
+此属性以秒为单位表示, 它表示将给定邮件从其当前位置下载到客户端查看头文件夹的本地邮件存储区所需时间的最佳估计。 远程传输提供程序通常通过将**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) 属性的值除以每秒的字节数的通信链路的速度来计算此属性的值。 如果提供程序无法计算下载时间, 例如, 如果不知道链接速度, 它应在头文件夹内容表中为此列提供一个**PT_ERROR**值 (如**MAPI_E_NO_SUPPORT** )。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

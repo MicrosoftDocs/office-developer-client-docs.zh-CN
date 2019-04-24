@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 66bbf49d737c42ecc2f6c765a60540163649f447
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3794386c4461c90f973e4028132cb8220dfaa19b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327854"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>PidTagIpmWastebasketEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含标准人际邮件 (IPM) 已删除邮件文件夹的项标识符。 
+包含标准人际邮件 (IPM) "已删除邮件" 文件夹的条目标识符。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
-|标识符：  <br/> |0x35E3  <br/> |
+|标识符:  <br/> |0x35E3  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>注解
 
-客户端应用程序应将已删除人际邮件移动到已删除邮件文件夹。 如果邮件已在此文件夹中，或不支持此属性，客户端应删除的邮件。 
+客户端应用程序应将已删除的人际邮件移动到 "已删除邮件" 文件夹。 如果邮件已在此文件夹中, 或者如果该属性不受支持, 客户端应删除该邮件。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

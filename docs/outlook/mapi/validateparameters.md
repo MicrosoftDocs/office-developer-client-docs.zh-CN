@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 662330a7b8c665471e9bbe6af27dff84ee68c8cf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3862ea539907bb0570a0e845b09a15e7bed0507
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329566"
 ---
 # <a name="validateparameters"></a>ValidateParameters
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-调用检查参数客户端应用程序已传递给服务提供商的内部函数。 
+调用内部函数以检查客户端应用程序已传递给服务提供程序的参数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapival.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |服务提供商  <br/> |
+|标头文件：  <br/> |Mapival.h  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |服务提供程序  <br/> |
    
 ```cpp
 HRESULT ValidateParameters(
@@ -44,24 +44,24 @@ HRESULT ValidateParameters(
 
  _eMethod_
   
-> [in]通过枚举，指定要验证的方法。 
+> 实时通过枚举指定要验证的方法。 
     
  _第一_
   
-> [in]堆栈上第一个参数的指针。
+> 实时指向堆栈上第一个参数的指针。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 所有参数都是有效的。 
+> 所有参数都有效。 
     
 MAPI_E_CALL_FAILED 
   
-> 一个或多个参数不是有效的。
+> 一个或多个参数无效。
     
 ## <a name="remarks"></a>注解
 
-已由[ValidateParms](validateparms.md)宏取代**ValidateParameters**宏。 **ValidateParameters** RISC 平台上不会无法正常工作，现在将会阻止对它们进行编译。 仍编译，并能够正常运行 Intel 平台上，但**ValidateParms**建议所有平台上。 
+**ValidateParameters**宏已被[ValidateParms](validateparms.md)宏取代。 **ValidateParameters**不能在 RISC 平台上正常运行, 现在无法在其上进行编译。 它仍可在 Intel 平台上正常编译和工作, 但建议在所有平台上使用**ValidateParms** 。 
   
 

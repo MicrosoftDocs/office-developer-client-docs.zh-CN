@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a4572cd2-0dc1-439a-a265-0195766a4013
 description: 此部分包含使用 Outlook 2013 辅助引用中使用的 Api 的示例任务。
 ms.openlocfilehash: 790b6ca3f1432b801044176acd9cebebfcb1dcee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326395"
 ---
 # <a name="sample-tasks"></a>示例任务（英文）
 

@@ -12,39 +12,39 @@ api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7417975ba2263f4604d08b51d70b17af07c8c5a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8c7481657496a0b7c9c3df4ccf37805f587eb82a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325814"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>PidTagMessageDeliveryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含传送到客户端应用程序的消息的邮件传输系统 (MTS) 标识符。
+包含传递给客户端应用程序的邮件的邮件传输系统 (MTS) 标识符。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
-|标识符：  <br/> |0x001B  <br/> |
+|标识符:  <br/> |0x001B  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
-|区域：  <br/> |Server  <br/> |
+|区域：  <br/> |服务器  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

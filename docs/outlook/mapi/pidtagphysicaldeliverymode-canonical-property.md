@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a19c67d7b83c4890c998cd2e53a36bfc34d11386
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a99760e11c34404f48ec193750b1a7f4ac541674
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327823"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>PidTagPhysicalDeliveryMode 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定特定收件人的邮件中包含定义物理传递模式 （例如，特殊传送） 标志位的掩码。
+包含标志的位掩码, 这些标志用于定义为特定收件人指定的邮件的物理传递模式 (例如, 特殊传递)。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_PHYSICAL_DELIVERY_MODE  <br/> |
-|标识符：  <br/> |0x0C0B  <br/> |
+|标识符:  <br/> |0x0C0B  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22583888"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

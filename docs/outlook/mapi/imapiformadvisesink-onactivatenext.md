@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: db621dfd-c6ad-42d2-8089-db40a63cab36
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7e8fb69e7d25420186d7269943c5d957311e813d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d647b41018afbade91dffb2818b48b0738148855
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329433"
 ---
 # <a name="imapiformadvisesinkonactivatenext"></a>IMAPIFormAdviseSink::OnActivateNext
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指示表单是否可以处理的下一条消息以显示的邮件类。
+指示表单是否可以处理要显示的下一封邮件的邮件类。
   
 ```cpp
 HRESULT OnActivateNext(
@@ -40,57 +40,57 @@ HRESULT OnActivateNext(
 
  _lpszMessageClass_
   
-> [in]指向下一条消息的邮件类的指针。
+> 实时指向下一封邮件的邮件类的指针。
     
  _ulMessageStatus_
   
-> [in]客户端或提供程序定义的标志，复制**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性以显示，下一条消息中的位掩码，它提供邮件包含有关内容表的状态信息中。
+> 实时客户端定义或提供程序定义的标志的位掩码, 从下一条消息的**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) 属性复制到显示, 提供有关邮件包含的内容表的状态信息实时.
     
  _ulMessageFlags_
   
-> [in]指向标志复制**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性以显示的下一条消息中的位掩码的指示邮件的当前状态。
+> 实时一个指针, 指向从下一个要显示的消息的**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) 属性中复制的标志位掩码, 该消息表示邮件的当前状态。
     
  _ppPersistMessage_
   
-> [输出]指向用于新窗体，如果需要一个新窗体的窗体对象的[IPersistMessage](ipersistmessageiunknown.md)实现的指针的指针。 如果当前窗体对象可用于显示和保存下一条消息，则可以返回为 NULL 的指针。 
+> 排除一个指针, 指向一个指向用于新表单的 form 对象的[IPersistMessage](ipersistmessageiunknown.md)实现的指针 (如果需要新表单)。 如果当前窗体对象可用于显示并保存下一封邮件, 则可以返回指向 NULL 的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 通知已成功和窗体可以处理下一条消息。
+> 通知已成功, 表单可以处理下一封邮件。
     
 S_FALSE 
   
-> 窗体并不处理的邮件类的下一条消息。
+> 表单不处理下一封邮件的邮件类。
     
 ## <a name="remarks"></a>注解
 
-表单查看器调用**IMAPIFormAdviseSink::OnActivateNext**方法，可帮助确定是否可以在文件夹中显示下一条消息的窗体。 下一条消息可能的任何类中，一条消息，但它通常是相同的类或相关的类。 这样使客户端应用程序能够重复使用表单对象尽可能读取效率同一个类的多个邮件的过程。 
+表单查看者调用**IMAPIFormAdviseSink:: OnActivateNext**方法, 以帮助表单确定是否可以在文件夹中显示下一封邮件。 下一封邮件可能是任何类的消息, 但通常是同一个类或相关类。 这样, 客户端应用程序可以尽可能重用表单对象, 从而使读取相同类的多个邮件的过程更为有效。 
   
-大多数窗体对象将使用_lpszMessageClass_参数指向的邮件类来确定是否能够处理下一条消息。 通常窗体可以处理属于窗体的默认类的子类，除了所属的默认类的邮件类的消息。 但是，表单可以使用其他因素问题不确定是否可以处理消息，如下一条消息的发送或未发送的状态。 
+大多数窗体对象将使用由_lpszMessageClass_参数指向的邮件类来确定它们是否可以处理下一封邮件。 通常情况下, 窗体不仅可以处理属于窗体的默认类的类的邮件, 还可以处理属于默认类的邮件的子类。 但是, 窗体可以使用其他因素来确定是否可以处理邮件, 例如下一封邮件的已发送或未发送状态。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果窗体可以处理的邮件类中_ppPersistMessage_参数中返回 S_OK 和 NULL。 如果窗体可以创建新表单可以处理窗体处于无法处理的消息，请按照下列步骤： 
+如果窗体可以处理邮件类, 则在_ppPersistMessage_参数中返回 S_OK 和 NULL。 如果表单可以创建可处理表单无法处理的邮件的新表单, 请按照以下步骤操作: 
   
-1. 调用窗体的类工厂，以创建新的窗体对象的实例。
+1. 调用表单的类工厂以创建新表单对象的实例。
     
-2. 在_ppPersistMessage_指针参数的内容中存储的实例。 
+2. 将该实例存储在_ppPersistMessage_指针参数的内容中。 
     
 3. 返回 S_OK。
     
-表单查看器将使用指向_ppPersistMessage_对象所属的[IPersistMessage::Load](ipersistmessage-load.md)方法加载邮件。
+表单查看器将使用[IPersistMessage:: load](ipersistmessage-load.md)方法加载邮件, 该对象属于_ppPersistMessage_指向的对象。
   
-如果既没有表单，也可以创建窗体可以处理下一条消息，则返回 S_FALSE。 但是，一般情况下，窗体不应该返回此值，因为它会导致降低表单查看器中的性能。
+如果既不能创建的窗体也不能处理下一封邮件, 则返回 S_FALSE。 不过, 通常情况下, 窗体不应返回此值, 因为它会导致表单查看器中的性能下降。
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI 使用**IMAPIFormAdviseSink::OnActivateNext**方法实现[IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md)方法。  <br/> |
+|MAPIFormFunctions  <br/> |CMyMAPIFormViewer:: ActivateNext  <br/> |MFCMAPI 使用**IMAPIFormAdviseSink:: OnActivateNext**方法实现[IMAPIViewContext:: ActivateNext](imapiviewcontext-activatenext.md)方法。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

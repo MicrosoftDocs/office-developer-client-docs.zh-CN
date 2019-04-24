@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 52f9a53c-1292-4f8a-2a76-82bca650f5ac
-description: 返回 color1 和 color2 之间色调的差异。
-ms.openlocfilehash: e20ed9732621b9c897c674b308fd85e7367a18a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 返回 color1 和 color2 之间的色调差异。
+ms.openlocfilehash: b427be9f6d46f11aaa18b33dab21b10c05e9dda0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780407"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329930"
 ---
 # <a name="huediff-function"></a>HUEDIFF 函数
 
-返回_color1_和_color2_之间色调的差异。
+返回_color1_和_color2_之间的色调差异。
   
 ## <a name="syntax"></a>语法
 
-HUEDIFF (* * *color1* * *，* * *color2* * *) 
+HUEDIFF (* * *color1* * *, * * *color2* * *) 
   
 ### <a name="parameters"></a>参数
 

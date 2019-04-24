@@ -7,34 +7,34 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bb5082fa-8fe3-46fe-b2de-b6dd1af79ea7
-description: 上次修改时间： 2015年12月7日
-ms.openlocfilehash: 67c202e5130bd35e1277c5260bc1702043eadd95
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2015 年 12 月 7 日
+ms.openlocfilehash: 046b537d41b318fa857ef77f1906edcf2c3aa2bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328425"
 ---
 # <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>使用 TNEF 自定义附件处理接收邮件
 
  
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-若要将收到带有自定义的附件处理的 TNEF 邮件：
+若要接收自定义附件处理的 TNEF 邮件, 请执行以下操作:
   
-1. 导入所有可传送的属性-邮件系统支持的那些 — 从到新的 MAPI 邮件的传入消息。 这包括消息文本，其中包含 TNEF 数据流。
+1. 将传入邮件中的所有传输属性 (邮件系统支持的属性) 从传入邮件导入到新 MAPI 邮件中。 这包括包含 TNEF 数据流的邮件文本。
     
-2. 标识并解码特殊附件包含的 TNEF 流。
+2. 标识和解码包含 TNEF 流的特殊附件。
     
-3. 到新的 MAPI 邮件上的 MAPI 附件传入邮件中提取的所有附件。 恢复的文件名或附件，其他标识标记应放置到新附件的**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) 属性，以便的[ITnef::ExtractProps](itnef-extractprops.md)方法更高版本与编码消息文本中的附件标记关联的正确的附件。 
+3. 将传入邮件中的所有附件提取到新 mapi 邮件的 mapi 附件中。 已恢复的文件名或附件上的其他标识标记应放入新附件的**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)) 属性中, 以便[ITnef:: ExtractProps](itnef-extractprops.md)方法以后可以将正确的附件与在邮件文本中编码的附件标记相关联。 
     
-4. 创建一个 OLE **IStream**接口环绕解码 TNEF 流和[OpenTnefStreamEx](opentnefstreamex.md)函数调用中使用新的 MAPI 邮件以及该对象。 
+4. 创建 OLE **IStream**接口以回绕解码的 TNEF 流, 并在调用[OpenTnefStreamEx](opentnefstreamex.md)函数的同时将该对象与新 MAPI 邮件一起使用。 
     
-5. 调用**ITnef::ExtractProps**方法从 TNEF 数据流恢复邮件 nontransmittable 属性。 
+5. 调用**ITnef:: ExtractProps**方法, 从 TNEF 数据流恢复邮件的 nontransmittable 属性。 
     
-6. 调用 MAPI_CREATE 和 MAPI_MODIFY 设置 flags [ITnef::OpenTaggedBody](itnef-opentaggedbody.md)方法。 此呼叫从消息文本中删除附件标记，并将它们转换为附件 MAPI 消息中的位置信息。 
+6. 使用 MAPI_CREATE 和 MAPI_MODIFY 标志集调用[ITnef:: OpenTaggedBody](itnef-opentaggedbody.md)方法。 此调用将从邮件文本中删除附件标记, 并将其转换为 MAPI 邮件中的附件位置信息。 
     
-7. 通过 MAPI 后台处理程序将邮件传递。
+7. 通过 MAPI 后台处理程序传递邮件。
     
 

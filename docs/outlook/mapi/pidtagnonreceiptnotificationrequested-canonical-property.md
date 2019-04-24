@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 896cfa2bf8a1b33fd6dee09649853b71618f31be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c6b56a786ea794587e140c9555cc88cd862b489
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582782"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329307"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>PidTagNonReceiptNotificationRequested 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果邮件发件人的指定收件人的非回执通知，包含 TRUE。
+如果邮件发件人想要通知指定收件人的非接收通知, 则该参数为 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NON_RECEIPT_NOTIFICATION_REQUESTED  <br/> |
-|标识符：  <br/> |0x0C06  <br/> |
+|标识符:  <br/> |0x0C06  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性包含 FALSE 并且**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性包含 TRUE，如果服务提供商可以重写**PR_NON_RECEIPT_NOTIFICATION_REQUESTED**属性，并生成未送达报告。 
+如果此属性包含 FALSE 且**PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) 属性包含 TRUE, 则服务提供程序可以重写**PR_NON_RECEIPT_NOTIFICATION_REQUESTED**属性并生成未送达报告。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 60a8c89afe0d70a1737c6ce694c66359fd6aae4f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329454"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
@@ -25,7 +25,7 @@ ms.locfileid: "25398092"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-请求窗体执行任何任务它将与特定动词。
+请求表单执行与特定谓词相关联的任何任务。
   
 ```cpp
 HRESULT DoVerb(
@@ -40,61 +40,61 @@ HRESULT DoVerb(
 
  _iVerb_
   
-> [in]使用一个窗体的动作相关联的编号。
+> 实时与窗体的一个谓词相关联的数字。
     
  _lpViewContext_
   
-> [in]指向视图上下文对象的指针。 _LpViewContext_参数可以为**null**。
+> 实时指向视图上下文对象的指针。 _lpViewContext_参数可以为**null**。
     
  _hwndParent_
   
-> [in]该方法显示的任何对话框或窗口的父窗口的句柄。 如果对话框或窗口不是模式， _hwndParent_参数应为**null** 。 
+> 实时此方法显示的任何对话框或窗口的父窗口的句柄。 如果对话框或窗口不模式, 则_hwndParent_参数应为**null** 。 
     
  _lprcPosRect_
   
-> [in]指向 Win32[矩形](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx)结构，其中包含的大小和窗体的窗口的位置。 
+> 实时指向 Win32 [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx)结构的指针, 该结构包含窗体的窗口的大小和位置。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 成功调用动词。
+> 已成功调用谓词。
     
 OLEOBJ_S_CANNOT_DOVERB_NOW 
   
-> 由_iVerb_参数表示的动作有效，但表单无法执行与其当前关联的操作。 
+> 由_iVerb_参数表示的谓词是有效的, 但该窗体无法执行当前与之关联的操作。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-表单查看器调用**IMAPIForm::DoVerb**方法以请求窗体执行它将与该窗体支持每个动作相关联的任务。 
+表单查看器调用**IMAPIForm::D overb**方法, 以请求表单执行与表单支持的每个谓词相关联的任务。 
   
-每个受支持的动作由传递给**DoVerb** _iVerb_参数中的数值标识。 **DoVerb**的典型实现包含**switch**语句的测试可用于窗体的_iVerb_参数的值。 
+每个受支持的谓词都通过一个数值标识, 并传递给_iVerb_参数中的**DoVerb** 。 **DoVerb**的典型实现包含一个**switch**语句, 用于测试对窗体的_iVerb_参数有效的值。 
   
 ## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果表单查看器_lpViewContext_参数中指定了视图上下文，则**DoVerb**实现而不是以前[IMAPIForm::SetViewContext](imapiform-setviewcontext.md)方法调用中传递的视图上下文中使用它。 进行任何更改是向内部数据结构所必需的且不保存视图上下文。 
+如果表单查看器在_lpViewContext_参数中指定了视图上下文, 请在**DoVerb**实现中使用它, 而不是在之前调用[IMAPIForm:: SetViewContext](imapiform-setviewcontext.md)方法时传递的视图上下文。 对内部数据结构进行任何所需的更改, 并且不保存视图上下文。 
   
-**DoVerb**实现中执行以下任务： 
+在您的**DoVerb**实现中执行以下任务: 
   
-- 执行任何代码是必要的特定谓词的与_iVerb_参数相关联。 
+- 执行与_iVerb_参数关联的特定谓词所需的任何代码。 
     
-- 如有必要，还原原始视图上下文。
+- 如有必要, 请还原原始的视图上下文。
     
-- 如果中传递了未知的动词数，返回 MAPI_E_NO_SUPPORT。 否则，返回基于是成功还是失败的执行任何操作的结果。
+- 如果传入了未知动词号码, 则返回 MAPI_E_NO_SUPPORT。 否则, 根据执行的任何动作的成功或失败返回结果。
     
-- 关闭窗体。 它始终是您有责任**DoVerb**调用完成后关闭表单。 
+- 关闭窗体。 在**DoVerb**调用完成后, 始终负责关闭窗体。 
     
-某些谓词，如打印，应为模式相对于**DoVerb**呼叫 — 即，指示的操作必须**DoVerb**调用返回之前完成。 
+某些谓词 (如 Print) 应是有关**DoVerb**调用的模式, 也就是说, 在**DoVerb**调用返回之前, 必须完成指示的操作。 
   
-若要获取使用窗体的窗口的**矩形**结构，请调用[GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。 
+若要获取窗体窗口使用的**RECT**结构, 请调用[GetWindowRect](https://msdn.microsoft.com/library/ms633519)函数。 
   
-因为，但它通常保持有效**DoVerb**完成之后，它可以销毁立即的调用返回时，不要_hwndParent_参数中保存句柄。
+请勿将句柄保存在_hwndParent_参数中, 因为尽管它通常在**DoVerb**完成之前一直有效, 但它可以在调用返回时立即销毁。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-您可以通过从其[IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md)方法返回 VCSTATUS_MODAL 标志视图上下文实现指向_lpViewContext_用作模式谓词的非模式动词。 
+通过将_lpViewContext_指向从其[IMAPIViewContext:: GetViewStatus](imapiviewcontext-getviewstatus.md)方法返回 VCSTATUS_MODAL 标志的视图上下文实现, 可以使非模式谓词充当模式谓词。 
   
-有关谓词 MAPI 中的详细信息，请参阅[窗体动词](form-verbs.md)。 有关在 OLE 动作的处理方式的详细信息，请参阅[OLE 和数据传输](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)。
+有关 MAPI 中的动词的详细信息, 请参阅[表单谓词](form-verbs.md)。 有关如何在 ole 中处理谓词的详细信息, 请参阅[ole and Data Transfer](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -102,7 +102,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI 使用**IMAPIForm::DoVerb**方法调用窗体上的动词。  <br/> |
+|MyMAPIFormViewer  <br/> |CMyMAPIFormViewer:: CallDoVerb  <br/> |MFCMAPI 使用**IMAPIForm::D overb**方法调用窗体上的谓词。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

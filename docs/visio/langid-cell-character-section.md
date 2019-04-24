@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c68289b8-ef45-9e1e-12ae-6613587e4990
 description: 指示输入文本所使用的语言。
-ms.openlocfilehash: e503abb2365635fa25a4dbec54b7fe3da4043fa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e1f244d6d8e31201576a9a88ace9701814b0e0a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326920"
 ---
-# <a name="langid-cell-character-section"></a>LangID 单元格（“Character”部分）
+# <a name="langid-cell-character-section"></a>LangID 单元格（“Character”内容）
 
 指示输入文本所使用的语言。 
   
@@ -28,14 +28,14 @@ ms.locfileid: "19780520"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Char.LangID [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+| 单元格名称：  <br/> | LangID [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 若要从某个程序按索引获取对 LangID 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionCharacter** <br/> |
-| 行索引：  <br/> |**visRowCharacter** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowCharacter** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visCharacterLangID** <br/> |
    
 

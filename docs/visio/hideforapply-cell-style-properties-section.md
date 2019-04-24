@@ -8,26 +8,22 @@ f1_keywords:
 - Vis_DSS.chm82251698
 localization_priority: Normal
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
-description: 确定其中 Microsoft Visio 用户界面中显示样式。
-ms.openlocfilehash: 5b0221c54c17a3b9957cce5e890842def0ba7525
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定样式在 Microsoft Visio 用户界面中的显示位置。
+ms.openlocfilehash: 7b3830488770a66d7be35923e1807dbcdcd1f1c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329951"
 ---
-# <a name="hideforapply-cell-style-properties-section"></a>HideForApply 单元格（“Style Properties”部分）
+# <a name="hideforapply-cell-style-properties-section"></a>HideForApply 单元格（“Style Properties”内容）
 
-确定其中 Microsoft Visio 用户界面中显示样式。
+确定样式在 Microsoft Visio 用户界面中的显示位置。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-| TRUE  <br/> | 
-          仅在 **“绘图资源管理器”** 中显示样式。
-  <br/> |
-| FALSE  <br/> | 
-          在 **“绘图资源管理器”** 中显示样式。
-  <br/> |
+| TRUE  <br/> | 仅在 **“绘图资源管理器”** 中显示样式。  <br/> |
+| FALSE  <br/> | 在 **“绘图资源管理器”** 中显示样式。  <br/> |
    
 ## <a name="remarks"></a>注解
 
@@ -39,7 +35,7 @@ ms.locfileid: "19780410"
 |:-----|:-----|
 | 单元格名称：  <br/> | HideForApply  <br/> |
    
-若要从某个程序按索引获取对 HideForApply 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
+要从某个程序按索引获取对 HideForApply 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|

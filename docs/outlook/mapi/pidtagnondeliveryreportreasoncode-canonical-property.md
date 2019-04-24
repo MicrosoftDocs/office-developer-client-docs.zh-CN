@@ -12,39 +12,39 @@ api_type:
 - HeaderDef
 ms.assetid: 4b3ce80c-4245-47b0-ab10-a2e03ccb0b83
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 25b428c084bb49315e940829979602aeb6a38ac4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 639409f33f080aa3369b94060ce249017006f121
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329327"
 ---
 # <a name="pidtagnondeliveryreportreasoncode-canonical-property"></a>PidTagNonDeliveryReportReasonCode 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含诊断代码的表单原件报表中的一部分。
+包含构成 nondelivery 报告的一部分的诊断代码。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NDR_REASON_CODE  <br/> |
-|标识符：  <br/> |0x0C04  <br/> |
+|标识符:  <br/> |0x0C04  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

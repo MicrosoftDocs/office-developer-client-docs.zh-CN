@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
 description: 导航到指定的地址，它可以是文件、UNC 或 URL 路径。
 ms.openlocfilehash: 5e4952c3d56eff0cb1e6518928a7b8259f645046
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329944"
 ---
 # <a name="hyperlink-function"></a>HYPERLINK 函数
 
@@ -22,17 +22,17 @@ ms.locfileid: "25401074"
   
 ## <a name="syntax"></a>语法
 
-超链接 ("* **地址** *"[，"* * *subaddress* * *"，"* * *extrainfo* * *"，* **窗口** *，"* **框架** *"]) 
+超链接 ("* * *address* * *" [, "* * 子*地址** *"、"* * *extrainfo* * *"、* * *window* * *、"* * *frame* * *"]) 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _地址_ <br/> |必需  <br/> |**字符串** <br/> |完整路径或相对路径。  <br/> |
-| _subaddress_ <br/> |可选  <br/> |**字符串** <br/> |指定地址中要链接到的位置。例如，如果地址是一个 Microsoft Visio 文件，则子地址可以是一个页名；如果是一个 Microsoft Excel 文件，则子地址可以是一个工作表或工作表内的某个区域；如果是一个 HTML 页的 URL，则子地址可以是一个定位点。  <br/> |
+| _address_ <br/> |必需  <br/> |**String** <br/> |完整路径或相对路径。  <br/> |
+| _地址_ <br/> |可选  <br/> |**字符串** <br/> |指定地址中要链接到的位置。例如，如果地址是一个 Microsoft Visio 文件，则子地址可以是一个页名；如果是一个 Microsoft Excel 文件，则子地址可以是一个工作表或工作表内的某个区域；如果是一个 HTML 页的 URL，则子地址可以是一个定位点。  <br/> |
 | _extrainfo_ <br/> |可选  <br/> |**字符串** <br/> |传递用于解析 URL 的信息，如图像映射的坐标。  <br/> |
-| _窗口_ <br/> |可选  <br/> |**Boolean** <br/> |指定是否在新窗口中打开超链接。默认值为 FALSE。  <br/> |
-| _框架_ <br/> |可选  <br/> |**字符串** <br/> | 指定当 Visio 作为 ActiveX 浏览器（如 Microsoft Internet Explorer 3.0 或更高版本）中的活动文档打开时，它所针对的框架的名称。默认值是一个空字符串。  <br/> |
+| _时段_ <br/> |可选  <br/> |**Boolean** <br/> |指定是否在新窗口中打开超链接。 默认值为 FALSE。  <br/> |
+| _该框_ <br/> |可选  <br/> |**字符串** <br/> | 指定当 Visio 作为 ActiveX 浏览器（如 Microsoft Internet Explorer 3.0 或更高版本）中的活动文档打开时，它所针对的框架的名称。默认值是一个空字符串。  <br/> |
    
 ## <a name="remarks"></a>注解
 

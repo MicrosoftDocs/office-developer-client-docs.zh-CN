@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c64db8ea-d6ad-4fb9-97aa-958e5a0daf8f
-description: 检索或设置的帐户的地址簿条目 ID。
+description: 检索或设置帐户的通讯簿条目 ID。
 ms.openlocfilehash: 2352f64b46e9884e95b7bf1f3693321f7cd224ca
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326430"
 ---
 # <a name="propmapiidentityentryid"></a>PROP_MAPI_IDENTITY_ENTRYID
 
-检索或设置的帐户的地址簿条目 ID。
+检索或设置帐户的通讯簿条目 ID。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -29,9 +29,9 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x20020102  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
- **属性\_MAPI\_IDENTITY\_ENTRYID**不应存在于每个帐户上。 例如，可以有一个 Exchange 帐户**属性\_MAPI\_IDENTITY\_ENTRYID**设置，而不[属性\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md)，而 SMTP/POP3 帐户的情况下将被颠倒。 **属性\_MAPI_IDENTITY_ENTRYID**返回类似于_lppEntryID_ [IMAPISession::QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx)中返回的值的条目 ID。 
+ 不应在每个帐户上都存在的 "**信息"\_MAPI\_标识\_条目**。 例如, Exchange 帐户可能已设置了[\_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md) **\_MAPI\_标识\_ENTRYID** , 而不是针对 SMTP/POP3 帐户的设置。这种情况将被还原。 **MAPI_IDENTITY_ENTRYID\_** 返回的条目 ID 与[IMAPISession:: QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx)中的_lppEntryID_返回的值类似。 
   
 ## <a name="see-also"></a>另请参阅
 

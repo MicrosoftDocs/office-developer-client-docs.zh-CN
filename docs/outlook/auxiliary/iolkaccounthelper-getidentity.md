@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
 description: 获取帐户的配置文件名称。
 ms.openlocfilehash: d725f309a29b026395e2795a49d31b45a4a49562
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322104"
 ---
 # <a name="iolkaccounthelpergetidentity"></a>IOlkAccountHelper::GetIdentity
 
@@ -33,23 +33,23 @@ HRESULT IOlkAccountHelper::GetIdentity (
 
 _pwszIdentity_
   
-> [in][输出]配置文件的名称。
+> 实时排除配置文件名称。
     
 _pcch_
   
-> [in][输出]时调用此方法，都包含_pwszIdentity_已分配的大小 （以字符数）。 返回时，包含的实际长度，包括 0 终止，返回的配置文件名称字符。 
+> 实时排除调用此方法时, 将包含已分配的_pwszIdentity_的大小 (以字符数为单位)。 返回时, 包含返回的配置文件名称的实际长度, 包括0终止字符。 
     
 ## <a name="return-values"></a>返回值
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
 |S_OK  <br/> |调用成功。  <br/> |
-|E_OUTOFMEMORY  <br/> |返回的配置文件名称的长度超过_pwszIdentity_的大小。  <br/> |
+|E_OUTOFMEMORY  <br/> |返回的配置文件名称的长度大于_pwszIdentity_的大小。  <br/> |
 |E_INVALIDARG  <br/> | _pcch_为 NULL。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果_pwszIdentity_太小，若要保留的配置文件名称，将不会设置返回时，并且_pcch_将指向_pwszIdentity_所需的大小。
+如果_pwszIdentity_太小, 不能容纳配置文件名, 则不会在返回时设置它, 并且_pcch_将指向_pwszIdentity_所需的大小。
   
 ## <a name="see-also"></a>另请参阅
 

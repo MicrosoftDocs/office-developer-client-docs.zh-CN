@@ -9,24 +9,24 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: cafd7589-1c94-b9bc-b1a6-40f7c15fba71
 description: 确定连接线的外观。
-ms.openlocfilehash: 7724466b6ad225fcf39243bc80ba2e440f3b700b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 19fe948daf7aa3d67db858849ecb2b15f40ba02d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327102"
 ---
-# <a name="conlinerouteext-cell-shape-layout-section"></a>ConLineRouteExt 单元格（“Shape Layout”部分）
+# <a name="conlinerouteext-cell-shape-layout-section"></a>ConLineRouteExt 单元格（“Shape Layout”内容）
 
 确定连接线的外观。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 默认值；使用页面设置  <br/> |**visLORouteExtDefault** <br/> |
-| 1  <br/> | 直线  <br/> |**visLORouteExtStraight** <br/> |
-| 2  <br/> | 曲线  <br/> |**visLORouteExtNURBS** <br/> |
+| 1  <br/> | 式  <br/> |**visLORouteExtStraight** <br/> |
+| 双面  <br/> | 带  <br/> |**visLORouteExtNURBS** <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 要从另一个公式或从使用 **CellsU** 属性的某个程序按名称获取对 ConLineRouteExt 单元格的引用，请使用： 
   

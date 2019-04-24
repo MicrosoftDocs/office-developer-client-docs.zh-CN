@@ -12,47 +12,47 @@ api_type:
 - HeaderDef
 ms.assetid: 61a9d403-e0e5-45c3-8d18-4d53207ab927
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a8810b6c39b909ebaa612496824150499cd15165
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 099df2211e87e253ab1be520378b3a2b2ca7d4c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327928"
 ---
 # <a name="pidtagidentityentryid-canonical-property"></a>PidTagIdentityEntryId 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含服务提供商的标识在邮件系统中定义的项标识符。 
+包含在邮件系统中定义的服务提供商标识的条目标识符。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_IDENTITY_ENTRYID  <br/> |
-|标识符：  <br/> |0x3E01  <br/> |
+|标识符:  <br/> |0x3E01  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 状态  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性不显示任何对象的属性但只能作为状态表中的列。 它是标识的公开状态表格行的服务提供程序的一部分。 提供程序的标识通常是指其帐户的服务器上，但可以参考消息系统中定义的提供程序的任何表示。 
+此属性不显示为任何对象的属性, 而只是作为状态表中的一列。 它是公开状态表行的服务提供程序的标识的一部分。 提供程序的标识通常是指它在服务器上的帐户, 但可以引用在邮件系统中提供程序定义的任何表示形式。 
   
-则此属性通常设置为适当的通讯簿条目标识符。 
+此属性通常设置为相应的通讯簿条目标识符。 
   
-Furnishing 任一标识属性的服务提供程序应提供所有这些。 属于同一消息服务的提供程序应公开的 identity 属性相同的值。 
+提供任何标识属性的服务提供商应提供所有这些标识属性。 属于同一邮件服务的提供程序应公开 identity 属性的相同值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

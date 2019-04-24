@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
-description: 将更改保存到指定的帐户。
-ms.openlocfilehash: 87b513659b632e88697fb63d1aeccccb77ed9fd1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 保存对指定帐户所做的更改。
+ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322020"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
-将更改保存到指定的帐户。
+保存对指定帐户所做的更改。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -33,7 +33,7 @@ HRESULT IOlkAccountManager::SaveChanges (
 
 _dwAcctID_
   
-> [in]要保存的帐户 ID。 
+> 实时要保存的帐户 ID。 
     
 _dwFlags_
   
@@ -43,13 +43,13 @@ _dwFlags_
 
 |**[HRESULT]**|**说明**|
 |:-----|:-----|
-|S_OK  <br/> |成功呼叫  <br/> |
+|S_OK  <br/> |呼叫成功  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |找不到指定的帐户。  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |帐户管理器已初始化，不能使用。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-使用[IOlkAccount::SetProp](iolkaccount-setprop.md)更改帐户属性的值后, 使用**IOlkAccountManager::SaveChanges**或[IOlkAccount::SaveChanges](iolkaccount-savechanges.md)保存此更改。 
+使用[IOlkAccount:: SetProp](iolkaccount-setprop.md)更改 account 属性的值后, 请使用**IOlkAccountManager:: savechanges**或[IOlkAccount:: savechanges](iolkaccount-savechanges.md)保存此类更改。 
   
 ## <a name="see-also"></a>另请参阅
 

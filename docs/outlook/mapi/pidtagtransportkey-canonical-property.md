@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8b1fab49f348a76693cc35fd89994419b81f250a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 05db434ddabbd5f60fccdfeb1a2df8b3fcd0d96a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326605"
 ---
 # <a name="pidtagtransportkey-canonical-property"></a>PidTagTransportKey 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含由 MAPI 后台处理程序来跟踪进度的出站邮件通过传出传输提供程序的值。
+包含 MAPI 后台处理程序用来通过传出传输提供程序跟踪出站邮件进度的值。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_TRANSPORT_KEY  <br/> |
-|标识符：  <br/> |0x0E16  <br/> |
+|标识符:  <br/> |0x0E16  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
 ## <a name="remarks"></a>注解
 
-不要使用此属性。 它是通过 MAPI 供使用。
+不要使用此属性。 它保留供 MAPI 使用。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

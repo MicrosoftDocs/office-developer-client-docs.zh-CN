@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5df5c253-f491-7039-ce00-e66417590bb2
 description: ''
-ms.openlocfilehash: 46feb04453025824c2d24358bf82b8e967cba84e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc97a64da977d20d3c76f3d3a083268b4c93bbb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328967"
 ---
 # <a name="enter-an-empty-formula"></a>输入空公式
 
@@ -23,6 +23,6 @@ ms.locfileid: "19780198"
 2. 按 Delete，然后按 Enter。
     
 > [!NOTE]
-> 尝试此操作在**草稿**单元格中插入局部公式之后。 由于没有从主控形状继承的公式，单元格将恢复为无公式。 
+> 请在插入局部公式后在**暂存**单元格中尝试此项。 单元格将恢复为 "无公式", 因为没有要从主控形状继承的公式。 
   
 

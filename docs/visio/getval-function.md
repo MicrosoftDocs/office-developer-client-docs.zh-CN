@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251885
 localization_priority: Normal
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
-description: 获取单元格的值和单元格的值更改时不重新计算公式。
-ms.openlocfilehash: b4c8ea14b7184101a360c9f5ee4af03fd178aa6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 获取单元格的值, 并且在单元格的值发生更改时不重新计算公式。
+ms.openlocfilehash: 9449ccd8f849b23faf08ee25826301a1b6efe6d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327312"
 ---
 # <a name="getval-function"></a>GETVAL 函数
 
-获取单元格的值和单元格的值更改时不重新计算公式。
+获取单元格的值, 并且在单元格的值发生更改时不重新计算公式。
   
 ## <a name="syntax"></a>语法
 
@@ -28,7 +28,7 @@ GETVAL (* * *cellname* * *)
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _cellname_ <br/> |必需  <br/> |**字符串** <br/> |要获取其值的单元格的名称。  <br/> |
+| _cellname_ <br/> |必需  <br/> |**String** <br/> |要获取其值的单元格的名称。  <br/> |
    
 ## <a name="example"></a>示例
 

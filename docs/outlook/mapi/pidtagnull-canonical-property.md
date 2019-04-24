@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 7e9c3340dfad47a811b56c86e8e6104fb6aac7c2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329265"
 ---
 # <a name="pidtagnull-canonical-property"></a>PidTagNull 规范属性
 
@@ -25,38 +25,38 @@ ms.locfileid: "25400794"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表一个 null 值或属性的设置，或保留数组空间。
+表示属性的 null 值或设置或保留数组空间。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NULL  <br/> |
-|标识符：  <br/> |0x0000  <br/> |
+|标识符:  <br/> |0x0000  <br/> |
 |数据类型：  <br/> |PT_NULL  <br/> |
-|区域：  <br/> |Common  <br/> |
+|区域：  <br/> |常见  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性用于保留空间数组中的[SPropValue](spropvalue.md)结构。 使用数组中的[SPropTagArray](sproptagarray.md)结构以告知保留空间返回的数组中的**SPropValue**结构的方法。 这样，计算属性便宜方式填充。 
+此属性用于在[SPropValue](spropvalue.md)结构的数组中保留空间。 它在[SPropTagArray](sproptagarray.md)结构的数组中使用, 以通知方法在返回的**SPropValue**结构数组中保留空间。 这允许以廉价方式填充计算属性。 
   
-有关详细信息，请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。
+有关详细信息, 请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定在 "联系人" 和 "个人通讯组" 列表中允许的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

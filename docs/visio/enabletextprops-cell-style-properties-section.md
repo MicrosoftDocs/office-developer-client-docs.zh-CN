@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8c59abaf-d2cc-94c9-08ba-004bc40efd9e
 description: 确定样式是否包括文本属性。
-ms.openlocfilehash: a51f83624192615e84292129d4788ae1e2779c6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f1d87316955b4e6e40cea16634cff7645a720fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328915"
 ---
-# <a name="enabletextprops-cell-style-properties-section"></a>EnableTextProps 单元格（“Style Properties”部分）
+# <a name="enabletextprops-cell-style-properties-section"></a>EnableTextProps 单元格（“Style Properties”内容）
 
 确定样式是否包括文本属性。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |TRUE  <br/> |包括文本属性。  <br/> |
 |FALSE  <br/> |不包括文本属性。  <br/> |

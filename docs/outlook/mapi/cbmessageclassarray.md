@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: bdba30013bf5adddba78a3c9fa1330b34dd2b4fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c135a5bf5c1a697ddf2b2c85c6d81d6289f6a9e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329594"
 ---
 # <a name="cbmessageclassarray"></a>CbMessageClassArray
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-计算中包含指定的数目的邮件类的字符串指向现有[SMessageClassArray](smessageclassarray.md)结构的字节数。 
+计算包含指定数量的邮件类的字符串指针的现有[SMessageClassArray](smessageclassarray.md)结构中的字节数。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |**SMessageClassArray** <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
@@ -40,7 +40,7 @@ CbMessageClassArray (_c)
 
  __c_
   
-> 指向现有**SMessageClassArray**中包含的邮件类的指针的计数。
+> 包含在现有**SMessageClassArray**中的邮件类的指针计数。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 274dd444-a863-4b53-bdbc-3763c375c43c
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 6bef8b05f2fbf94b74ee126b80dfc6ae0c5e9d11
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327921"
 ---
 # <a name="pidtagimportance-canonical-property"></a>PidTagImportance 规范属性
 
@@ -25,28 +25,28 @@ ms.locfileid: "25400829"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含一个值，指示邮件发件人的邮件的重要性的平均意见。 
+包含一个值, 该值指示邮件发件人对邮件重要性的评价。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_IMPORTANCE  <br/> |
-|标识符：  <br/> |0x0017  <br/> |
+|标识符:  <br/> |0x0017  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性和**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) 属性不能混淆。 重要性表示到用户的值，而优先级表示订单设计 サ 频率邮件应发送的消息的系统软件的速度。 更高的优先级通常指示较高的开销。 更高重要性通常是与用户界面的不同显示相关联。 
+不应混淆此属性和**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md)) 属性。 重要性指示对用户的值, 而 priority 表示邮件系统软件发送邮件的顺序或速度。 较高的优先级通常表示较高的成本。 较高的重要性通常与用户界面中的不同显示相关联。 
   
-此属性可以具有完全下列值之一：
+此属性可以具有下列值之一:
   
 IMPORTANCE_LOW 
   
-> 邮件已低重要性。
+> 邮件的重要性较低。
     
 IMPORTANCE_HIGH 
   
-> 邮件已重要性-高。
+> 邮件重要性较高。
     
 IMPORTANCE_NORMAL 
   
@@ -56,23 +56,23 @@ IMPORTANCE_NORMAL
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

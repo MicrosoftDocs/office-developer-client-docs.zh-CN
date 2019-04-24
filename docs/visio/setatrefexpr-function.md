@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm1027317
 localization_priority: Normal
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
-description: 存储在用户界面 (UI) 或自动化中通过某项操作设置一个值。
-ms.openlocfilehash: c664717afcc2b81e55495fd1957a86ef1b021d0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 存储通过用户界面 (UI) 或自动化中的操作设置的值。
+ms.openlocfilehash: 5ca7b59d0ced9c3da346c416826ac89e6b4001da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326003"
 ---
 # <a name="setatrefexpr-function"></a>SETATREFEXPR 函数
 
-存储在用户界面 (UI) 或自动化中通过某项操作设置一个值。
+存储通过用户界面 (UI) 或自动化中的操作设置的值。
   
 ## <a name="syntax"></a>语法
 
@@ -28,13 +28,13 @@ SETATREFEXPR ([* * *expr_opt* * *])
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _expr_opt_ <br/> |可选  <br/> |**因情况而异** <br/> |表达式，用于替换为其分配到 SETATREF 函数中引用的单元格的表达式的值。 如果未指示，其初始值为 0 （零）。  <br/> |
+| _expr_opt_ <br/> |可选  <br/> |**相同** <br/> |由赋给 SETATREF 函数中引用单元格的值或表达式所替换的表达式。 如果未指明, 其初始值为 0 (零)。  <br/> |
    
 ## <a name="remarks"></a>注解
 
 还可以通过其他单元格（该单元格引用包含 SETATREFEXPR 表达式的单元格）中的 SETATREF 函数设置 SETATREFEXPR 表达式的值。 
   
-您不限于使用 SETATREFEXPR 函数作为 SETATREF 函数的参数。 
+您并不局限于将 SETATREFEXPR 函数用作 SETATREF 函数的参数。 
   
 ## <a name="example-1"></a>示例 1
 
@@ -50,9 +50,9 @@ User.GridX =2 in
   
 User.GridY =2 in
   
-PinX = INT (SETATREFEXPR （) /User.GridX +.5)\*User.GridX
+PinX = INT (SETATREFEXPR ()/User.GridX + .5)\*用户 GridX
   
-PinY = INT (SETATREFEXPR （) /User.GridY +.5)\*User.GridY
+PinY = INT (SETATREFEXPR ()/User.GridY + .5)\*User. GridY
   
 ## <a name="example-3"></a>示例 3
 

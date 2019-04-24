@@ -13,11 +13,11 @@ api_type:
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 0faeb12ee54ec5d1c584bacd51590b157035f4fd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327984"
 ---
 # <a name="pidtagalternaterecipientallowed-canonical-property"></a>PidTagAlternateRecipientAllowed 规范属性
 
@@ -25,48 +25,48 @@ ms.locfileid: "25385954"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，如果发件人允许自动转接的此消息。 
+如果发件人允许自动转发此邮件, 则该参数包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ALTERNATE_RECIPIENT_ALLOWED  <br/> |
-|标识符：  <br/> |0x0002  <br/> |
+|标识符:  <br/> |0x0002  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果不允许自动转接，或者如果已不指定任何备用收件人，应生成原件报告。 
+如果不允许自动转发, 或者未指定备用收件人, 则应生成一个 nondelivery 报告。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[毫秒-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> 处理顺序和客户端和服务器之间的数据传输的流。
+> 处理客户端与服务器之间的数据传输的顺序和流。
     
-[[MS OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[毫秒-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> IETF RFC2445、 RFC2446，和 RFC2447，和约会和会议对象之间进行转换。
+> 在 IETF RFC2445、RFC2446 和 RFC2447 以及约会和会议对象之间进行转换。
     
-[[MS OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[毫秒-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> 进行编码和解码为有效的流表示形式的消息和附件对象。
+> 将邮件和附件对象编码并解码为高效流表示形式。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

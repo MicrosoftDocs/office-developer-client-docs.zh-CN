@@ -1,5 +1,5 @@
 ---
-title: 处理多值列
+title: 使用多值列
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 78f6083cf17bb21152df1a7ea09825f3be7f0e37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 34f19e279c86e0c0856d242cf2aa13d744d46f13
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325801"
 ---
-# <a name="working-with-multivalued-columns"></a>处理多值列
+# <a name="working-with-multivalued-columns"></a>使用多值列
 
   
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-多值的列包含的数据的多值属性，这是该属性的值而不是单个值的基类型的数组。 无表在其默认列集合中包含多值的属性，因为多值的属性包含表格中的表的用户请求时，才。 
+多值列包含多值属性的数据, 这是一个具有基类型的值数组而不是单个值的属性。 由于没有表在其默认列集中包含多值属性, 只有当表的用户请求多值属性时, 才会将这些属性包含在表中。 
   
-可以在表中显示多值的列：
+多值列可在表中显示:
   
-- 在单独一行，与所有显示在单列实例的属性值。 这是默认按钮。
+- 在单个行中, 所有属性值显示在单个列实例中。 此为默认选项。
     
-    - 或者-
+    - 和
     
-- 在一系列的行，通过为每个属性值的一行。 每个唯一值出现在其自己与以下行中的列是因为存在多个行是多值属性中的值。 每个行具有的唯一值**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性，但其他列的相同值。 如果某一行包含多个列与多个值，例如，两个列中的包含_M_ 、 _N_值分别，然后_M\*N_表中显示的行的实例。 
+- 在一系列行中, 每个属性值占一行。 每个唯一值显示在其自己的行中的列中, 其中的行数与多值属性中的值相同。 每行的**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 属性的值都是唯一的, 但其他列的值相同。 如果某行包含多个值的多个列 (例如, 分别具有_M_和_N_个值的两个列), 则在表中显示该行的_M\*N_个实例。 
     
-表用户请求中的多值列的属性类型设置 MVI_FLAG 标志与调用[IMAPITable::SetColumns](imapitable-setcolumns.md)方法来显示的非默认类型。 MVI_FLAG 标志是定义为 MV_FLAG 和 MV_INSTANCE 标志组合与逻辑**OR**运算的结果的常量。 除了中正使用的**SetColumns**，MVI_FLAG 还可传递给[IMAPITable::SortTable](imapitable-sorttable.md) _lpSortCriteria_参数和[IMAPITable::Restrict](imapitable-restrict.md)中_lpRestriction_的**ulPropTag**成员参数。 当传递 MVI_FLAG，则**SortTable**同样执行到**SetColumns**，在多值列中添加的每个值的一行和实例中的单个值排序。 对于每个值添加了一个行。 
+通过调用[IMAPITable:: SetColumns](imapitable-setcolumns.md)方法并在多值列的属性类型中设置 MVI_FLAG 标志, 表用户将请求显示非默认类型的显示。 MVI_FLAG 标志是一个常量, 定义为将 MV_FLAG 和 MV_INSTANCE 标志与逻辑**OR**运算结合使用的结果。 除了在**SetColumns**中使用之外, 还可以将 MVI_FLAG 传递到_lpSortCriteria_参数中的[imapitable:: SortTable](imapitable-sorttable.md)和[imapitable:: Restrict](imapitable-restrict.md) in _ulPropTag_的**lpRestriction**成员参数. 传递 MVI_FLAG 时, **SortTable**的执行方式类似于**SetColumns**, 为多值列中的每个值添加一行, 并对实例中的单个值进行排序。 为每个值添加一个行。 
   
- **限制**，但是，不展开多值的列到其他计算行。 使用 MVI_FLAG 集的多值的列指示的服务提供程序，用于限制表中的列。 如果限制中没有属性值，它必须是相同的列[IMAPITable::QueryRows](imapitable-queryrows.md)将返回一个单值属性标记。 
+ 但是,**限制**不会将多值列展开为其他计算行。 带有 MVI_FLAG 集的多值列指示服务提供程序在限制表时使用该列。 如果限制中有属性值, 则它必须是与将由[IMAPITable:: QueryRows](imapitable-queryrows.md)为列返回的值相同的单个值属性标记。 
   
-表实施只需支持显示的默认类型和呼叫者请求其他替代项时，可以返回 MAPI_E_TOO_COMPLEX 值。 支持两种类型的能力是显示的最重要的消息存储提供程序实现文件夹内容表。 
+表实施者只需支持默认类型的显示, 并且可以在呼叫者请求其他替代项时返回 MAPI_E_TOO_COMPLEX 值。 支持这两种类型的显示对实现文件夹内容表的邮件存储提供程序最重要。 
   
 ## <a name="see-also"></a>另请参阅
 

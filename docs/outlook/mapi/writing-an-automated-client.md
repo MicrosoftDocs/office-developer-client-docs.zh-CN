@@ -1,5 +1,5 @@
 ---
-title: 编写自动化客户端
+title: 编写自动客户端
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,32 +7,32 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 504e10efa4f540d64469f6aaab22b3f9e9e1157d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: f9ce3452bbc2d3297cc67168835a9387235746a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325590"
 ---
-# <a name="writing-an-automated-client"></a>编写自动化客户端
+# <a name="writing-an-automated-client"></a>编写自动客户端
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-自动客户端应用程序是运行无人参与，不显示用户界面的应用程序。
+自动客户端应用程序是无人值守运行的应用程序, 不显示用户界面。
   
- 默认情况下，许多 MAPI 接口方法显示用户界面。 所有这些方法具有允许客户端，以允许或禁止此显示的标志。 尽管 MAPI 预计服务提供商接受这些标志，有一些始终不满足这些期望的提供程序。 不考虑标志的合法原因是服务提供程序，依赖于另一个不允许用户界面禁止显示的服务。 如果要开发的自动客户端，请务必注意您使用的服务提供程序和配置方式。 不要假定所有呼叫禁止在用户界面将会成功。 
+ 默认情况下, 许多 MAPI 接口方法显示一个用户界面。 所有这些方法都有标志, 这些标志允许客户端允许或禁止显示此显示。 虽然 MAPI 要求服务提供商服从这些标志, 但有些提供程序并不总是符合这些要求。 不考虑这些标志的合理原因是, 服务提供商对另一项服务的依赖不允许用户界面抑制。 如果要开发自动客户端, 请注意您正在使用的服务提供商以及它们的配置方式。 请勿假定所有调用以禁止用户界面都将成功。 
   
-自动客户端必须具有所需的信息适用于每一个消息服务的正确配置配置文件中。 有两种方式以提供登录时的配置信息：
+自动客户端必须具有可用于正确配置配置文件中的每个邮件服务的必要信息。 登录时提供了两种提供配置信息的方法:
   
-- 服务提供商可以从配置文件中检索信息。
+- 服务提供程序可以从配置文件中检索信息。
     
-- 服务提供商可以提示用户输入的信息。 
+- 服务提供商可以提示用户输入信息。 
     
-向自动化客户端，第二个选项不可用，因为这些客户端必须使用第一个选项。 客户端必须配置其配置文件仔细以确保始终此选项。
+由于第二个选项对自动客户端不可用, 因此这些客户端必须使用第一个选项。 客户端必须仔细配置其配置文件, 以确保此选项始终有效。
   
-自动客户端始终[MAPILogonEx](mapilogonex.md)函数调用开始 MAPI 会话中设置 MAPI_NO_MAIL 标志。 
+自动客户端总是在[MAPILogonEx](mapilogonex.md)函数调用中设置 MAPI_NO_MAIL 标志以开始 MAPI 会话。 
   
 

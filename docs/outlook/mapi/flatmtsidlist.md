@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0f1495549df751c59ab84e2b16fffbaf2f4f9fa5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bd9bfe4d1411b84a7811235aa68728afaefe64ab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327305"
 ---
 # <a name="flatmtsidlist"></a>FLATMTSIDLIST
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含[MTSID](mtsid.md)结构，其中每个包含 X.400 邮件传输系统 (MTS) 条目标识符数组。 
+包含[MTSID](mtsid.md)结构的数组, 其中每个结构都包含一个 X. 400 邮件传输系统 (MTS) 条目标识符。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md) [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md)、 [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |
    
 ```cpp
 typedef struct
@@ -46,11 +46,11 @@ typedef struct
 
  **cMTSIDs**
   
-> **MTSID**结构由**abMTSIDs**成员描述该数组中的计数。 
+> 由**abMTSIDs**成员描述的数组中的**MTSID**结构的计数。 
     
  **cbMTSIDs**
   
-> 描述**abMTSIDs**数组中的字节数。
+> 由**abMTSIDs**描述的数组中的字节数。
     
  **abMTSIDs**
   
@@ -58,9 +58,9 @@ typedef struct
     
 ## <a name="remarks"></a>注解
 
-X.400 消息中的**FLATMTSIDLIST**结构使用对应于 MAPI 消息中的[FLATENTRYLIST](flatentrylist.md)结构的使用。 MAPI 使用**FLATMTSIDLIST**结构消息处理期间维护 X.400 属性。 服务提供商使用**FLATMTSIDLIST**结构处理传入和传出 X.400 邮件时。 
+X. 400 邮件传递中的**FLATMTSIDLIST**结构与 MAPI 邮件中的[FLATENTRYLIST](flatentrylist.md)结构使用相对应。 MAPI 在邮件处理过程中使用**FLATMTSIDLIST**结构来维护 X. 400 属性。 服务提供程序在处理传入和传出的 X 400 邮件时使用**FLATMTSIDLIST**结构。 
   
-在**abMTSIDs**数组中，每个**MTSID**结构自然地对齐边界上对齐。 额外字节都作为包含填充使任意两个**MTSID**结构之间的确保自然对齐。 该数组中的第一个**MTSID**结构对齐始终正确，因为**abMTSIDs**成员的偏移量为 8。 若要计算的偏移量的下一个结构，使用向上舍入到 4 的下一步的倍数的第一个条目的大小。 使用[CbNewMTSID](cbnewmtsid.md)宏来计算**MTSID**结构的大小。 
+在**abMTSIDs**数组中, 每个**MTSID**结构在自然对齐的边界处对齐。 填充包含额外的字节以确保任意两个**MTSID**结构之间的自然对齐。 数组中的第一个**MTSID**结构始终正确对齐, 因为**abMTSIDs**成员的偏移量为8。 若要计算下一个结构的偏移量, 请使用第一项的大小向上舍入到接下来的4个。 使用[CbNewMTSID](cbnewmtsid.md)宏计算**MTSID**结构的大小。 
   
 ## <a name="see-also"></a>另请参阅
 

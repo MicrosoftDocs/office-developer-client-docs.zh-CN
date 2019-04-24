@@ -7,48 +7,48 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 6ff394c95dfa3166d39dcba4b0c577dcfac7b8d8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 5f6ebd20afc3b8d029fa7c632c55982862664055
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325639"
 ---
 # <a name="writing-a-hierarchy-viewer"></a>编写层次结构查看器
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-层次结构查看器是用于显示文件夹和通讯簿容器层次结构表的用户界面组件。 层次结构查看者可以在不同级别，展开和折叠按需型每个级别显示的层次结构的成员。
+层次结构查看器是一个用户界面组件, 用于显示文件夹和通讯簿容器层次结构表。 层次结构查看者可以显示不同级别的层次结构成员, 根据需要展开和收缩每个级别。
   
-Container 属性， **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))，控件的层次结构成员将显示的级别。 表示顶级通讯簿容器或文件夹项具有其**PR_DEPTH**属性设置为零。 此属性的值将按顺序递增顺序级别的条目。 即，当用户选择的顶级容器展开，显示所有容器都与**PR_DEPTH**都设置为 1。 当用户展开这些子容器之一时，2，向显示**PR_DEPTH**设置的容器，依此类推。 
+container 属性**PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) 控制层次结构成员的显示级别。 表示顶级通讯簿容器或文件夹的条目将其**PR_DEPTH**属性设置为零。 对于连续级别中的条目, 此属性的值按顺序递增。 也就是说, 当用户选择要展开的顶级容器时, 将显示 " **PR_DEPTH** " 设置为1的所有容器。 当用户展开这些子容器之一时, 将显示 " **PR_DEPTH** " 设置为2的容器, 依此类推。 
   
-层次结构查看器支持不同范围的深度。 您可以限制为仅一个或两个级别您查看器或显示大规模层次结构是否优先级，您可以支持多个级别。 
+层次结构查看器支持不同的深度范围。 您可以将查看器限制为仅有一个或两个级别, 如果显示范围较广的层次结构, 则可以支持多个级别。 
   
-通讯簿提供用于在通讯簿中的顶级容器层次结构查看器。 
+通讯簿为通讯簿中的顶级容器提供了层次结构查看器。 
   
- **若要访问通讯簿层次结构表**
+ **访问通讯簿层次结构表**
   
-1. 调用[IAddrBook::OpenEntry](iaddrbook-openentry.md)，传递 null 条目标识符，打开在通讯簿根容器。
+1. 调用[IAddrBook:: OpenEntry](iaddrbook-openentry.md), 传递一个 null 条目标识符, 以打开通讯簿的根容器。
     
-2. 调用根容器[IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md)方法来访问的 MAPI 通讯簿层次结构表。 
+2. 调用根容器的[IMAPIContainer:: GetHierarchyTable](imapicontainer-gethierarchytable.md)方法以访问 MAPI 通讯簿的层次结构表。 
     
- **若要访问的默认邮件存储层次结构表**
+ **访问默认邮件存储的层次结构表**
   
-1. 调用[IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md)消息存储表的访问。 
+1. 调用[IMAPISession:: GetMsgStoresTable](imapisession-getmsgstorestable.md)以访问邮件存储库表。 
     
-2. 构建使用[SPropertyRestriction](spropertyrestriction.md)结构限制表格**PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) 属性设置为 TRUE 的行限制。 
+2. 使用[SPropertyRestriction](spropertyrestriction.md)结构生成限制, 将表限定为**PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) 属性设置为 TRUE 的那些行。 
     
-3. 调用[IMAPITable::FindRow](imapitable-findrow.md)，将其传递**SPropertyRestriction**，以找到表示默认的邮件存储的行。 
+3. 调用[IMAPITable:: FindRow](imapitable-findrow.md), 并将其传递给**SPropertyRestriction**, 以定位表示默认邮件存储的行。 
     
-4. 调用[IMAPISession::OpenEntry](imapisession-openentry.md)，从默认的邮件存储的消息存储表中行传递**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性中。
+4. 调用[IMAPISession:: OpenEntry](imapisession-openentry.md), 从邮件存储库表中的默认邮件存储行传入**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性。
     
-5. 调用的消息存储[IMAPIProp::GetProps](imapiprop-getprops.md)方法来检索**PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) 属性。
+5. 调用邮件存储区的[IMAPIProp:: GetProps](imapiprop-getprops.md)方法以检索**PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)) 属性。
     
-6. 调用的消息存储[IMsgStore::OpenEntry](imsgstore-openentry.md)方法，传递**PR_IPM_SUBTREE_ENTRYID**属性，以打开的消息存储 IPM 子树的根文件夹。 
+6. 调用邮件存储区的[IMsgStore:: OpenEntry](imsgstore-openentry.md)方法, 并传递**PR_IPM_SUBTREE_ENTRYID**属性, 以打开邮件存储的 IPM 子树的根文件夹。 
     
-7. 调用 IPM 根文件夹[IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md)方法，以访问其层次结构表。 
+7. 调用 IPM 根文件夹的[IMAPIContainer:: GetHierarchyTable](imapicontainer-gethierarchytable.md)方法以访问其层次结构表。 
     
 

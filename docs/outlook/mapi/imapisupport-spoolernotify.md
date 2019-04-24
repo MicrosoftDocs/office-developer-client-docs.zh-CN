@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 99377d63b4b5cf8731809446b70770f0c24231ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326283"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-通知状态或服务的请求中的更改 MAPI 后台处理程序。 
+通知 MAPI 后台处理程序的状态更改或服务请求。 
   
 ```cpp
 HRESULT SpoolerNotify(
@@ -38,49 +38,49 @@ LPVOID lpvData
 
  _ulFlags_
   
-> [in]位掩码的标志，指示通知的类型。 传输提供程序可以设置的所有除外 NOTIFY_NEWMAIL_RECEIVED; 标志只有 NOTIFY_NEWMAIL_RECEIVED 和 NOTIFY_READTOSEND 是有效的消息存储提供程序。 以下标志可用于_ulFlags_参数： 
+> 实时指示通知类型的标志的位掩码。 传输提供程序可以设置除 NOTIFY_NEWMAIL_RECEIVED 之外的所有标志;只有 NOTIFY_NEWMAIL_RECEIVED 和 NOTIFY_READTOSEND 对邮件存储提供程序有效。 以下标志对_ulFlags_参数有效: 
     
 NOTIFY_CONFIG_CHANGE 
   
-> 注册请求更改传输提供程序的配置。 
+> 注册更改传输提供程序配置的请求。 
     
 NOTIFY_CRITICAL_ERROR 
   
-> 传输提供程序已发生不可恢复的错误。 因为 NOTIFY_SENTDEFERRED 和 NOTIFY_CRITICAL_ERROR 用于传输提供程序调用_lpvData_参数，这些标志是互斥的。 
+> 传输提供程序发生不可恢复的错误。 由于 NOTIFY_SENTDEFERRED 和 NOTIFY_CRITICAL_ERROR 将_lpvData_参数用于传输提供程序调用, 因此这些标志是互斥的。 
     
 NOTIFY_CRITSEC 
   
-> 传输提供程序请求的关键部分。 _LpvData_参数未定义，并且应为 NULL。 
+> 请求传输提供程序的临界区。 _lpvData_参数未定义, 应为 NULL。 
     
 NOTIFY_NEWMAIL 
   
-> MAPI 后台处理程序应在下一可用时间下载任何新接收的消息。 _LpvData_参数不确定，应设置为 NULL。 
+> MAPI 后台处理程序应在下一个可用时间下载所有新近收到的邮件。 _lpvData_参数未定义, 应设置为 NULL。 
     
 NOTIFY_NEWMAIL_RECEIVED 
   
-> 消息存储库中已收到新消息。 _LpvData_参数指向介绍邮件[NEWMAIL_NOTIFICATION](newmail_notification.md)结构。 此标志用于与传输提供程序紧密耦合的消息存储提供程序，并且如果设置了 MAPI_NO_MAIL 标志登录的存储提供程序，则忽略。 
+> 邮件存储区中已收到新邮件。 _lpvData_参数指向描述邮件的[NEWMAIL_NOTIFICATION](newmail_notification.md)结构。 此标志用于与传输提供程序紧密结合的邮件存储提供程序, 如果存储提供程序使用 MAPI_NO_MAIL 标志集登录, 则将被忽略。 
     
 NOTIFY_NONCRIT 
   
-> 释放与_ulFlags_设置为 NOTIFY_CRITSEC 获取与以前调用**SpoolerNotify**关键部分。 _LpvData_参数不确定，应设置为 NULL。 
+> 释放以前调用**SpoolerNotify**时获取的临界区, _ulFlags_设置为 NOTIFY_CRITSEC。 _lpvData_参数未定义, 应设置为 NULL。 
     
 NOTIFY_READYTOSEND 
   
-> 传输或消息存储提供程序已准备好发送消息。 _LpvData_参数不确定，应设置为 NULL。 
+> 传输或邮件存储提供程序已准备好发送邮件。 _lpvData_参数未定义, 应设置为 NULL。 
     
 NOTIFY_SENTDEFERRED 
   
-> 现在应发送之前延迟的邮件，并已准备好使用[IXPLogon::SubmitMessage](ixplogon-submitmessage.md)方法调用传递邮件时，应通知传输提供程序。 延迟的邮件的项标识符包含在由_lpvData_指向[SBinary](sbinary.md)结构。 因为 NOTIFY_SENTDEFERRED 和 NOTIFY_CRITICAL_ERROR 使用_lpvData_参数，这些标志是互斥的。 
+> 应立即发送以前延迟的邮件, 并在可以通过调用[IXPLogon:: SubmitMessage](ixplogon-submitmessage.md)方法来传递邮件时, 应通知传输提供程序。 延迟邮件的条目标识符包含在由_lpvData_指向的[SBinary](sbinary.md)结构中。 由于 NOTIFY_SENTDEFERRED 和 NOTIFY_CRITICAL_ERROR 都使用_lpvData_参数, 因此这些标志是互斥的。 
     
  _lpvData_
   
-> [in]指向适用于通知关联的数据的指针。 _LpvData_参数仅在设置了以下标志时指向有效的数据 （_lpvData_ _ulFlags_设置为其他通知类型时为 NULL）： 
+> 实时指向适用于通知的关联数据的指针。 仅当设置了以下标志时, _lpvData_参数才指向有效数据 (当_ulFlags_设置为其他通知类型时,_lpvData_为 NULL): 
     
 |**_ulFlags_设置**|**_lpvData_值**|
 |:-----|:-----|
 |NOTIFY_CRITICAL_ERROR  <br/> |有关错误的信息。  <br/> |
-|NOTIFY_NEWMAIL_RECEIVED  <br/> |**NEWMAIL_NOTIFICATION**结构，其中包含有关在新的已发送邮件的信息。  <br/> |
-|NOTIFY_SENTDEFERRED  <br/> |**SBinary**结构，其中包含延迟消息的项标识符。  <br/> |
+|NOTIFY_NEWMAIL_RECEIVED  <br/> |包含有关新传递的邮件的信息的**NEWMAIL_NOTIFICATION**结构。  <br/> |
+|NOTIFY_SENTDEFERRED  <br/> |包含延迟邮件的条目标识符的**SBinary**结构。  <br/> |
    
 ## <a name="return-value"></a>返回值
 
@@ -90,27 +90,27 @@ S_OK
     
 ## <a name="remarks"></a>注解
 
-**IMAPISupport::SpoolerNotify**方法已实现的消息存储和传输提供程序支持对象。 这些提供程序调用**SpoolerNotify**以通知状态或服务的请求中的更改 MAPI 后台处理程序。 **SpoolerNotify**主要由传输提供程序，可能在会话期间随时调用。 
+为邮件存储和传输提供程序支持对象实现了**IMAPISupport:: SpoolerNotify**方法。 这些提供程序调用**SpoolerNotify**以通知 MAPI 后台处理程序的状态更改或服务请求。 **SpoolerNotify**主要由传输提供程序调用, 并可在会话期间的任何时间调用。 
   
-## <a name="notes-to-transport-providers"></a>Notes 传输提供程序
+## <a name="notes-to-transport-providers"></a>传输提供程序注意事项
 
-如果更改了传输提供程序配置后，调用**SpoolerNotify**并设置_ulFlags_为 NOTIFY_CONFIG_CHANGED。 **SpoolerNotify**响应通过调用[IXPLogon::AddressTypes](ixplogon-addresstypes.md)查询中支持的地址类型的更改。 
+如果你更改了传输提供程序配置, 请调用**SpoolerNotify**并将_ulFlags_设置为 NOTIFY_CONFIG_CHANGED。 **SpoolerNotify**通过调用[IXPLogon:: AddressTypes](ixplogon-addresstypes.md)方法来查询受支持的地址类型中的更改, 从而做出响应。 
   
-如果您需要以确保不中断的处理的关键部分，设置为 NOTIFY_CRITSEC _ulFlags_呼叫**SpoolerNotify** 。 设置此标志通知 MAPI 后台处理程序，它不应调用的[IXPLogon::Idle](ixplogon-idle.md)和[IXPLogon::Poll](ixplogon-poll.md)方法。 在您已经打开，只要调用[IMAPIStatus::ValidateState](imapistatus-validatestate.md)方法返回 MAPI_E_BUSY 的关键部分。 当您已完成关键部分时，进行_ulFlags_设置为 NOTIFY_NONCRIT **SpoolerNotify**到另一个呼叫。 
+如果您需要一个临界区来确保不间断地进行处理, 请调用**SpoolerNotify** , 并将_ulFlags_设置为 NOTIFY_CRITSEC。 设置此标志将通知 MAPI 后台处理程序不应调用[IXPLogon:: Idle](ixplogon-idle.md) and [IXPLogon::P oll](ixplogon-poll.md)方法。 当您打开一个关键部分时, 请在调用[IMAPIStatus:: ValidateState](imapistatus-validatestate.md)方法时返回 MAPI_E_BUSY。 完成 "临界" 部分后, 再次调用**SpoolerNotify** , 将_ulFlags_设置为 NOTIFY_NONCRIT。 
   
-例如，如果您的远程传输提供程序的过程中上载邮件，您可能需要允许用户输入要建立远程连接的电话号码。 循环访问的对话框过程之前，您应声明的关键部分。 当用户关闭对话框时，终止的对话框过程，您应释放关键部分。
+例如, 如果您的远程传输提供程序正在上载邮件, 则可能需要允许用户输入电话号码以建立远程连接。 在对话框过程中循环之前, 应声明一个临界区。 当用户关闭对话框时, 终止对话框过程, 应释放临界区。
   
-当到 NOTIFY_CRITICAL_ERROR 设置_ulFlags_时，MAPI 后台处理程序调用没有进一步除若要释放其提供程序。 如果您调用**SpoolerNotify**与 NOTIFY_CRITICAL_ERROR 设置从[IXPLogon::StartMessage](ixplogon-startmessage.md)或[IXPLogon::SubmitMessage](ixplogon-submitmessage.md)方法，返回与相应的错误值从**StartMessage**或 * * SubmitMessage * * 呼叫紧接着**SpoolerNotify**呼叫。 
+当您将_ulFlags_设置为 NOTIFY_CRITICAL_ERROR 时, MAPI 后台处理程序将不会再对提供程序进行任何调用, 除非将其释放。 如果使用 NOTIFY_CRITICAL_ERROR ( [IXPLogon:: StartMessage](ixplogon-startmessage.md)或[IXPLogon:: SubmitMessage](ixplogon-submitmessage.md)方法) 中的设置调用**SpoolerNotify** , 则会从**StartMessage**或 * * SubmitMessage * * 调用中返回适当的错误值紧跟在**SpoolerNotify**调用之后。 
   
-如果您传输提供程序恢复从先前导致失败的情况，呼叫将设置为 NOTIFY_READYTOSEND _ulFlags_ **SpoolerNotify** 。 此标志指示提供程序再次已准备好处理的消息。 
+如果您的传输提供程序从以前导致它失败的条件中恢复, 请调用**SpoolerNotify** with _ulFlags_设置为 NOTIFY_READYTOSEND。 此标志指示提供程序可再次准备好处理邮件。 
   
-## <a name="notes-to-message-store-providers"></a>对消息存储提供程序的说明
+## <a name="notes-to-message-store-providers"></a>邮件存储提供程序注意事项
 
-调用**SpoolerNotify**之前在**IMessage::SubmitMessage**使[IMAPISupport::PrepareSubmit](imapisupport-preparesubmit.md)您首次调用, 中_ulFlags_，传递 NOTIFY_READYTOSEND 标志。 此呼叫到**SpoolerNotify**需要对每个会话仅执行一次进行。 
+先调用**SpoolerNotify**, 在_ulFlags_中传递 NOTIFY_READYTOSEND 标志, 然后再调用 IMAPISupport: reparesubmit **:: IMessage**中的[:P SubmitMessage](imapisupport-preparesubmit.md) 。 对**SpoolerNotify**的此调用在每次会话中需要进行一次。 
   
-如果紧密耦合消息存储提供程序与传输提供程序并调用**SpoolerNotify** _ulFlags_设置为 NOTIFY_NEWMAIL_RECEIVED，MAPI 后台处理程序中打开新的邮件并开始处理新消息挂钩函数。 处理完成后，MAPI 后台处理程序调用[IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md)方法来通知您自己的新消息。 
+如果您的邮件存储提供程序与传输提供程序紧密结合, 并且您调用**SpoolerNotify** _ulFlags_设置为 NOTIFY_NEWMAIL_RECEIVED, MAPI 后台处理程序将打开新邮件并开始处理新的邮件挂钩函数。 处理完成后, MAPI 后台处理程序将调用[IMsgStore:: NotifyNewMail](imsgstore-notifynewmail.md)方法来通知您自己的新邮件。 
   
-有关调用**SpoolerNotify**的详细信息，请参阅以下主题中的任意：
+有关调用**SpoolerNotify**的详细信息, 请参阅以下任一主题:
   
 - [实现 FlushQueues 方法](implementing-the-flushqueues-method.md)
     

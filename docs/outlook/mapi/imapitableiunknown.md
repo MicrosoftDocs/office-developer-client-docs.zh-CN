@@ -12,57 +12,57 @@ api_type:
 - COM
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: a5504711bdeac4ef94cbe47395ceb8163b60ad68
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d6a13799da4ef9315f9c23317fa18853d71c72f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328796"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-提供一个表的只读视图。 客户端和服务提供商使用**IMAPITable**来操作表的显示的方式。 
+提供表的只读视图。 客户端和服务提供程序使用**IMAPITable**来操作表的显示方式。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|由公开：  <br/> |Table 对象  <br/> |
-|通过实现：  <br/> |服务提供商和 MAPI  <br/> |
-|调用：  <br/> |客户端应用程序，服务提供商  <br/> |
-|接口标识符：  <br/> |IID_IMAPITable  <br/> |
-|指针类型：  <br/> |LPMAPITABLE  <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|公开者:  <br/> |Table 对象  <br/> |
+|实现者：  <br/> |服务提供商和 MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序、服务提供商  <br/> |
+|接口标识符:  <br/> |IID_IMAPITable  <br/> |
+|指针类型:  <br/> |LPMAPITABLE  <br/> |
    
-## <a name="vtable-order"></a>Vtable 顺序排列
+## <a name="vtable-order"></a>Vtable 顺序
 
 |||
 |:-----|:-----|
-|[时出错](imapitable-getlasterror.md) <br/> |返回[MAPIERROR](mapierror.md)结构包含有关在表格的上一个错误。  <br/> |
-|[建议](imapitable-advise.md) <br/> |注册接收影响表指定事件的通知。  <br/> |
-|[取消通知](imapitable-unadvise.md) <br/> |取消发送通知之前设置与对**IMAPITable::Advise**方法的调用。  <br/> |
+|[GetLastError](imapitable-getlasterror.md) <br/> |返回一个[MAPIERROR](mapierror.md)结构, 其中包含有关表格上一个错误的信息。  <br/> |
+|[她们](imapitable-advise.md) <br/> |注册以接收影响表的指定事件的通知。  <br/> |
+|[Unadvise](imapitable-unadvise.md) <br/> |取消之前为对**IMAPITable:: Advise**方法的调用而设置的通知发送。  <br/> |
 |[GetStatus](imapitable-getstatus.md) <br/> |返回表的状态和类型。  <br/> |
-|[SetColumns](imapitable-setcolumns.md) <br/> |定义的特定属性和属性的顺序显示为表中的列。  <br/> |
-|[QueryColumns](imapitable-querycolumns.md) <br/> |返回表格列的列表。  <br/> |
+|[SetColumns](imapitable-setcolumns.md) <br/> |定义在表中显示为列的特定属性和属性的顺序。  <br/> |
+|[QueryColumns](imapitable-querycolumns.md) <br/> |返回表的列的列表。  <br/> |
 |[GetRowCount](imapitable-getrowcount.md) <br/> |返回表中的总行数。  <br/> |
 |[SeekRow](imapitable-seekrow.md) <br/> |将光标移到表中的特定位置。  <br/> |
-|[SeekRowApprox](imapitable-seekrowapprox.md) <br/> |将光标移到表中大约小数位置。  <br/> |
-|[QueryPosition](imapitable-queryposition.md) <br/> |检索当前表行位置的指针，根据分数的值。  <br/> |
-|[FindRow](imapitable-findrow.md) <br/> |与特定的搜索条件匹配的表中查找的下一行。  <br/> |
-|[限制](imapitable-restrict.md) <br/> |筛选器应用于表格，从而减少了设置为仅与指定的条件匹配这些行的行。  <br/> |
+|[SeekRowApprox](imapitable-seekrowapprox.md) <br/> |将光标移到表中的近似小数位置。  <br/> |
+|[QueryPosition](imapitable-queryposition.md) <br/> |根据分数值检索游标的当前表行位置。  <br/> |
+|[FindRow](imapitable-findrow.md) <br/> |在表中查找与特定搜索条件相匹配的下一行。  <br/> |
+|[Restrict](imapitable-restrict.md) <br/> |将筛选器应用于表, 将行设置为仅将行设置为与指定条件匹配的行。  <br/> |
 |[CreateBookmark](imapitable-createbookmark.md) <br/> |标记表的当前位置。  <br/> |
-|[FreeBookmark](imapitable-freebookmark.md) <br/> |释放与一个书签关联的内存。  <br/> |
-|[SortTable](imapitable-sorttable.md) <br/> |基于排序条件的表的行进行排序。  <br/> |
-|[QuerySortOrder](imapitable-querysortorder.md) <br/> |检索当前表格排序顺序。  <br/> |
-|[QueryRows](imapitable-queryrows.md) <br/> |从表中，开始在当前光标位置返回一个或多个行。  <br/> |
-|[中止](imapitable-abort.md) <br/> |停止当前正在进行任何异步操作表。  <br/> |
-|[ExpandRow](imapitable-expandrow.md) <br/> |展开折叠的表类别，添加属于到表视图类别的叶行。  <br/> |
-|[CollapseRow](imapitable-collapserow.md) <br/> |折叠的扩展的表类别，删除属于表视图中的类别的叶行。  <br/> |
-|[WaitForCompletion](imapitable-waitforcompletion.md) <br/> |挂起处理，直到完成一个或多个异步正在进行的操作在表上。  <br/> |
-|[GetCollapseState](imapitable-getcollapsestate.md) <br/> |返回要重新生成当前的必需数据折叠或展开分类表的状态。  <br/> |
-|[SetCollapseState](imapitable-setcollapsestate.md) <br/> |重建使用以前**IMAPITable::GetCollapseState**方法调用已保存的数据分类表的当前展开还是折叠状态。  <br/> |
+|[FreeBookmark](imapitable-freebookmark.md) <br/> |释放与书签关联的内存。  <br/> |
+|[SortTable](imapitable-sorttable.md) <br/> |根据排序条件对表中的行进行排序。  <br/> |
+|[QuerySortOrder](imapitable-querysortorder.md) <br/> |检索表的当前排序顺序。  <br/> |
+|[QueryRows](imapitable-queryrows.md) <br/> |从当前游标位置开始, 返回表中的一个或多个行。  <br/> |
+|[中止](imapitable-abort.md) <br/> |停止当前对表进行的所有异步操作。  <br/> |
+|[ExpandRow](imapitable-expandrow.md) <br/> |展开折叠的表类别, 将属于该类别的叶行添加到表视图中。  <br/> |
+|[CollapseRow](imapitable-collapserow.md) <br/> |折叠展开的表类别, 从表视图中删除属于该类别的叶行。  <br/> |
+|[WaitForCompletion](imapitable-waitforcompletion.md) <br/> |在对表进行的一个或多个异步操作完成之前, 挂起处理。  <br/> |
+|[GetCollapseState](imapitable-getcollapsestate.md) <br/> |返回重建已分类表的当前折叠或展开状态所需的数据。  <br/> |
+|[SetCollapseState](imapitable-setcollapsestate.md) <br/> |使用以前对**IMAPITable:: GetCollapseState**方法所保存的数据, 重新生成已分类表的当前展开或折叠状态。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 327516e8-ed3f-40fc-9604-03a70aecef5a
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 93eb98aee19ea3f46a4e01e2c80150c3efe893a5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327459"
 ---
 # <a name="pidlidfexceptionalbody-canonical-property"></a>PidLidFExceptionalBody 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25393899"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-指示例外嵌入对象具有一个不同的定期 calendar 对象的主体的消息。
+指示异常嵌入邮件对象具有与定期日历对象不同的正文。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidFExceptionalBody  <br/> |
-|属性进行设置：  <br/> |PSETID_Appointment  <br/> |
-|长 ID （盖）：  <br/> |0x00008206  <br/> |
+|属性集:  <br/> |PSETID_Appointment  <br/> |
+|长 ID (盖子):  <br/> |0x00008206  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |会议  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果此属性的值为 TRUE，然后例外嵌入的对象必须具有正文的邮件。 如果此属性的值为 FALSE，或者如果属性不存在，客户端或服务器必须获得定期 calendar 对象的正文。
+如果此属性的值为 TRUE, 则异常嵌入邮件对象必须具有正文。 如果此属性的值为 FALSE, 或者属性不存在, 则客户端或服务器必须从定期日历对象中获取正文。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[毫秒-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> 指定的属性和约会、 会议请求和响应消息的操作。
+> 指定约会、会议请求和响应邮件的属性和操作。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

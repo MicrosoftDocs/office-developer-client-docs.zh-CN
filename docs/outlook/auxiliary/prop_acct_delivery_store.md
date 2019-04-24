@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
-description: 表示默认送达存储的帐户的条目 ID。
-ms.openlocfilehash: 72c5325e70a6e8b42ee433d8d674c2b2ea0c8398
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 代表帐户的默认传递存储的条目 ID。
+ms.openlocfilehash: d803c539ec99da4d7fb31063f48237788f3ac3d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327669"
 ---
 # <a name="propacctdeliverystore"></a>PROP_ACCT_DELIVERY_STORE
 
-表示默认送达存储的帐户的条目 ID。
+代表帐户的默认传递存储的条目 ID。
   
 ## <a name="quick-info"></a>快速信息
 
@@ -29,11 +29,11 @@ See [IOlkAccount](iolkaccount.md).
 |属性标记：  <br/> |0x00180102  <br/> |
 |访问权限  <br/> |读/写  <br/> |
    
-## <a name="remarks"></a>备注
+## <a name="remarks"></a>注解
 
 Get or set this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md) or [IOlkAccount::SetProp](iolkaccount-setprop.md), respectively.
   
-设置为帐户的默认传递存储区的存储区之一是副作用的，启动 Outlook，Outlook 将创建搜索文件夹的存储如果用户已不存在，并列出在待办事项栏的存储。
+将存储设置为帐户的默认传递存储的一个副作用是, 当启动 outlook 时, outlook 会为该存储创建搜索文件夹 (如果它们尚不存在), 并在待办栏中列出该存储区。
   
 ## <a name="see-also"></a>另请参阅
 

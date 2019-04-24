@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 60528162917a8a383060adbcadefb610aa42ce32
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326584"
 ---
 # <a name="spropvalue"></a>SPropValue
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-描述的 MAPI 属性。
+描述 MAPI 属性。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的宏：  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md)、 [MVI_PROP](mvi_prop.md)、 [PROP_ID](prop_id.md)、 [PROP_TAG](prop_tag.md)、 [PROP_TYPE](prop_type.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关宏:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md)、 [MVI_PROP](mvi_prop.md)、 [PROP_ID](prop_id.md)、 [PROP_TAG](prop_tag.md)、 [PROP_TYPE](prop_type.md) <br/> |
    
 ```cpp
 typedef struct _SPropValue
@@ -46,32 +46,32 @@ typedef struct _SPropValue
 
  **ulPropTag**
   
-> 属性标记属性。 属性标记是 32 位无符号的整数组成的属性中高阶 16 位的唯一标识符和低序位 16 位中的该属性的类型。
+> 属性的属性标记。 属性标记是32位无符号整数, 由高序位16位中的属性唯一标识符和低序位16位中的属性类型组成。
     
  **dwAlignPad**
   
-> 供 MAPI;不要使用。 
+> 为 MAPI 保留;请勿使用。 
     
  **值**
   
-> 联合的数据值，指明属性类型的特定值。 下表列出了针对每个属性类型、 联合应使用的成员和其关联的数据类型。
+> 数据值的联合, 由属性类型指定的特定值。 下表列出了每个属性类型、应使用的联合的成员及其关联的数据类型。
     
 |**属性类型**|**值**|**值的数据类型**|
 |:-----|:-----|:-----|
-|PT_I2 或 PT_SHORT  <br/> |**我** <br/> |short int  <br/> |
-|PT_I4 或 PT_LONG （签名）  <br/> |**l** <br/> |长  <br/> |
-|PT_I4 或 PT_LONG （无符号）  <br/> |**ul** <br/> |ULONG  <br/> |
+|PT_I2 或 PT_SHORT  <br/> |**得到** <br/> |短整型  <br/> |
+|PT_I4 或 PT_LONG (已签名)  <br/> |**l** <br/> |大量  <br/> |
+|PT_I4 或 PT_LONG (无符号)  <br/> |**列名** <br/> |ULONG  <br/> |
 |PT_R4 或 PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
 |PT_R8 或 PT_DOUBLE  <br/> |**双** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**b** <br/> |未签署的简短 int  <br/> |
-|PT_CURRENCY  <br/> |**当前** <br/> |[CURRENCY](currency.md) <br/> |
-|PT_APPTIME  <br/> |**在** <br/> |double  <br/> |
+|PT_BOOLEAN  <br/> |**黑白** <br/> |无符号短整型  <br/> |
+|PT_CURRENCY  <br/> |**选用** <br/> |[CURRENCY](currency.md) <br/> |
+|PT_APPTIME  <br/> |**个** <br/> |double  <br/> |
 |PT_SYSTIME  <br/> |**ft** <br/> |[FILETIME](filetime.md) <br/> |
 |PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
-|PT_BINARY  <br/> |**回收站** <br/> |字节 [数组]  <br/> |
+|PT_BINARY  <br/> |**区间** <br/> |BYTE [array]  <br/> |
 |PT_UNICODE  <br/> |**lpszW** <br/> |LPWSTR  <br/> |
 |PT_CLSID  <br/> |**lpguid** <br/> |LPGUID  <br/> |
-|PT_I8 或 PT_LONGLONG  <br/> |**li** <br/> |**LARGE_INTEGER** <br/> |
+|PT_I8 或 PT_LONGLONG  <br/> |**i** <br/> |**LARGE_INTEGER** <br/> |
 |PT_MV_I2  <br/> |**MVi** <br/> |[SShortArray](sshortarray.md) <br/> |
 |PT_MV_LONG  <br/> |**MVI** <br/> |[SLongArray](slongarray.md) <br/> |
 |PT_MV_R4  <br/> |**MVflt** <br/> |[SRealArray](srealarray.md) <br/> |
@@ -85,26 +85,26 @@ typedef struct _SPropValue
 |PT_MV_CLSID  <br/> |**MVguid** <br/> |[SGuidArray](sguidarray.md) <br/> |
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
-|PT_NULL 或 PT_OBJECT  <br/> |**x** <br/> |长  <br/> |
-|PT_PTR  <br/> |**lpv** <br/> |VOID\*  <br/> |
+|PT_NULL 或 PT_OBJECT  <br/> |**x** <br/> |大量  <br/> |
+|PT_PTR  <br/> |**lpv** <br/> |作废\*  <br/> |
    
 ## <a name="remarks"></a>注解
 
-**UlPropTag**成员由两部分组成： 
+**ulPropTag**成员由两部分组成: 
   
-- 中高阶 16 位的标识符。
+- 高顺序16位中的标识符。
     
-- 低序位 16 位中的类型。
+- 一个低序位16位的类型。
     
-标识符是一个数值在特定范围内。 MAPI 定义标识符来描述属性用于和谁负责维护它的区域。 MAPI 属性标记它 Mapitags.h 头文件中所支持的每个定义的约束。
+标识符是在特定范围内的一个数字值。 MAPI 为标识符定义范围, 以描述该属性的用途, 以及负责维护该属性的参与者。 MAPI 为在 Mapitags 头文件中支持的每个属性标记定义约束。
   
-该类型指示该属性的值的格式。 MAPI 的属性类型，它支持 Mapidefs.h 头文件中的每个定义的常数。 
+类型指示属性值的格式。 MAPI 为它在 mapidefs.h 头文件中支持的每个属性类型定义常量。 
   
-标识符和属性类型的有效属性范围的完整列表，请参阅附录[属性标识符和类型](property-identifiers-and-types.md)。 
+有关标识符和属性类型的有效属性范围的完整列表, 请参阅[属性标识符和类型](property-identifiers-and-types.md)附录。 
   
-**DwAlignPad**成员作为填充使用，以确保正确的对齐方式为 8 字节值需要 8 字节对齐的计算机上。 开发人员编写代码在该计算机上应使用分配**SPropValue**数组 8 字节边界上的内存分配例程。 
+**dwAlignPad**成员用作填充, 以确保在需要8字节对齐方式的计算机上进行正确的对齐8字节值。 在此类计算机上编写代码的开发人员应使用在8字节边界上分配**SPropValue**数组的内存分配例程。 
   
-有关详细信息，请参阅[MAPI 属性类型概述](mapi-property-type-overview.md)和[更新 MAPI 属性](updating-mapi-properties.md)。 
+有关详细信息, 请参阅[mapi 属性类型概述](mapi-property-type-overview.md)和[更新 mapi 属性](updating-mapi-properties.md)。 
   
 ## <a name="see-also"></a>另请参阅
 

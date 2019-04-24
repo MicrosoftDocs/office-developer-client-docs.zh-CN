@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 6ddaced5-49bb-41fe-95da-4e3300883bf7
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: e1846b4be93bf6300ea89a9ae3133fbba82b344e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 228ea91969b35a1608dd6b3378b751312aa9c665
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573122"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328572"
 ---
 # <a name="propid"></a>PROP_ID
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回指定的属性标记属性标识符。
+返回指定的属性标记的属性标识符。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapidefs.h  <br/> |
-|相关的结构：  <br/> |[SPropValue](spropvalue.md) <br/> |
+|标头文件：  <br/> |mapidefs。h  <br/> |
+|相关结构:  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_ID (ulPropTag)
@@ -44,9 +44,9 @@ PROP_ID (ulPropTag)
     
 ## <a name="remarks"></a>注解
 
-每个属性标记包含低序位 word （0 到 15 位） 中的属性类型和高顺序单词 （通过 31 16 位） 中的属性标识符。 **PROP_ID**宏提取属性标识符，并将其放入位 0 到 15 的整数要返回。 返回值的剩余的位设置为零。 
+每个属性标记都包含低序位字 (0 到 15) 中的属性类型和高序位字 (位16到 31) 中的属性标识符。 **PROP_ID**宏提取属性标识符, 并将其放在要返回的整数的0到15位。 返回值的剩余位设置为零。 
   
-例如， **PROP_ID**宏可用于检索要传递给[IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md)标识符。 **GetNamesFromIDs**检索与命名属性的标识符关联的属性名称。 
+例如, 可以使用**PROP_ID**宏检索要传递给[IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md)的标识符。 **GetNamesFromIDs**检索与命名属性的标识符关联的属性名称。 
   
 ## <a name="see-also"></a>另请参阅
 

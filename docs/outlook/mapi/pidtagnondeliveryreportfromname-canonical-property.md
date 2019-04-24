@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 886b4fdd-5d97-4b66-8329-052301e637fc
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 28eafc29a9d711b7d98444ebb330df1145f86628
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa30a1b07f2b1f3c9ca837b5ddda629b3d8737f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329335"
 ---
 # <a name="pidtagnondeliveryreportfromname-canonical-property"></a>PidTagNonDeliveryReportFromName 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-如果原件报表上设置，则表示失败发送的名称-用户。
+如果在 nondelivery 报告上设置, 则表示失败的 "代理发送" 用户的名称。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_NDR_FROM_NAME  <br/> |
-|标识符：  <br/> |0x6905  <br/> |
+|标识符:  <br/> |0x6905  <br/> |
 |数据类型：  <br/> |PT_STRING8  <br/> |
-|区域：  <br/> |常规消息  <br/> |
+|区域：  <br/> |常规邮件  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS-OXPROPS]] 
+[[毫秒-OXPROPS]] 
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

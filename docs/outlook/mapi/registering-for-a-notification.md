@@ -7,57 +7,57 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 45625387-dbd2-4ca8-926b-ef87998d01d7
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 5a35add66fb685b3c17464269456edf6b456711e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: ccc2758b59a9227afbc50360102e793892bbdc52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570210"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328404"
 ---
 # <a name="registering-for-a-notification"></a>注册通知
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-客户端可以通讯簿或消息存储通知注册为其初始化过程的一部分。
+客户端可以将通讯簿或邮件存储通知注册为其初始化过程的一部分。
   
-MAPI 支持在通讯簿无论是否任何通讯簿提供程序支持通知。 消息存储区上的通知的支持取决于特定消息存储提供程序。 若要确定特定消息存储提供程序是否支持通知，请查看其**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性。 如果消息存储库支持通知，将设置 STORE_NOTIFY_OK 位。 
+MAPI 支持对通讯簿发出通知, 而不管通讯簿提供程序是否支持它。 对邮件存储区的通知支持取决于特定的邮件存储提供程序。 若要确定特定的邮件存储提供程序是否支持通知, 请检查其**PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) 属性。 如果邮件存储区支持通知, 则将设置 STORE_NOTIFY_OK 位。 
   
-通过调用 advise 源对象的**Advise**方法注册通知。 许多对象实现**Advise**和客户端可以注册这些对象中的各种方式。 
+通过调用通知源对象的**advise**方法注册通知。 许多对象都实现了**建议**, 客户端可以通过多种方式向这些对象注册。 
   
- **通知注册**
+ **注册通知**
   
-1. 创建 MAPI 告知接收器对象和增加其引用计数。
+1. 创建一个 MAPI 建议接收器对象并增加其引用计数。
     
-2. 如果合适，呼叫[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)创建您的原始通知接收器的换行 advise 接收器对象然后释放原始建议接收器。. 
+2. 如果需要, 请调用[HrThisThreadAdviseSink](hrthisthreadadvisesink.md)以创建一个包装原始通知接收器的建议接收器对象, 然后释放原始的建议接收器。 
     
-3. 调用以下的**Advise**方法，以完成注册之一： 
+3. 调用以下 "**建议**" 方法之一以完成注册: 
     
-  - 调用[IMAPISession::Advise](imapisession-advise.md)注册会话通知或通讯簿或消息存储对象上的通知。 
+  - 调用[IMAPISession:: 建议](imapisession-advise.md)注册会话通知或通讯簿或邮件存储对象上的通知。 
     
-  - 调用[IAddrBook::Advise](iaddrbook-advise.md)注册地址簿通知或消息的用户、 容器或通讯组列表上的通知。 
+  - 调用[IAddrBook:: 建议](iaddrbook-advise.md)注册通讯簿通知或邮件用户、容器或通讯组列表上的通知。 
     
-  - 调用[IABLogon::Advise](iablogon-advise.md)可直接注册通知消息的用户、 容器或通讯组列表上的通讯簿提供程序。 
+  - 调用[IABLogon:: 建议](iablogon-advise.md)直接为邮件用户、容器或通讯组列表上的通知注册通讯簿提供程序。 
     
-  - 调用[IMsgStore::Advise](imsgstore-advise.md)注册消息存储通知或文件夹或消息的通知。 
+  - 调用[IMsgStore:: 建议](imsgstore-advise.md)注册邮件存储通知或文件夹或邮件上的通知。 
     
-  - 调用[IMSLogon::Advise](imslogon-advise.md)可直接注册的消息存储提供程序上的文件夹或消息的通知。 
+  - 调用[IMSLogon:: 建议](imslogon-advise.md)直接向邮件存储提供程序注册文件夹或邮件中的通知。 
     
-  - 调用[IMAPITable::Advise](imapitable-advise.md)注册表通知。 
+  - 调用[IMAPITable:: 建议](imapitable-advise.md)注册表通知。 
     
-4. 缓存从**Advise**返回连接数。
+4. 缓存从**Advise**返回的连接号码。
     
-5. 如果使用换行的通知接收器，请将其释放。 换行的通知接收器注册后，您不再需要它。
+5. 如果使用包装的建议接收器, 请将其释放。 在注册了包装的通知接收器之后, 您将不再需要它。
     
-调用 * * IMAPISession::Advise * * 使您能够注册总体会话上的错误通知，或在单个对象的各种通知。 会话将严重错误通知发送到客户端登录到共享会话时使用的共享的会话的另一个客户端调用[IMAPISession::Logoff](imapisession-logoff.md)方法。 若要注册会话通知，请为条目标识符参数传递 NULL。 若要注册的单个对象上的通知，请传递对象的项标识符。 **IMAPISession**方法转发到适当的服务提供程序，呼叫与由的项标识符的**MAPIUID**部分。 调用**IMAPISession::Advise**注册对象通知是比调用服务提供商的**Advise**方法更简单。 
+通过调用 * * IMAPISession:: Advise * *, 可以在整个会话或针对单个对象的各种通知中注册关键错误通知。 会话向登录到共享会话的客户端发送关键错误通知。当另一个客户端使用共享会话时, 将调用[IMAPISession:: 注销](imapisession-logoff.md)方法。 若要注册会话通知, 请为条目标识符参数传递 NULL。 若要在单个对象上注册通知, 请传递对象的条目标识符。 **IMAPISession**方法将调用转发给相应的服务提供程序, 由条目标识符的**MAPIUID**部分确定。 调用**IMAPISession:: 建议**注册对象通知比调用服务提供商的**建议**方法更简单。 
   
-注册通讯簿等同于注册会话。 若要注册的通讯簿中的错误通知，请为条目标识符传递 NULL。 若要注册特定地址簿对象上的通知，请指定适当的项标识符和事件或感兴趣的事件。 请注意，许多通讯簿提供程序不支持通知上单个对象。 相反，它们在其内容和层次结构表支持表通知。 
+使用通讯簿注册类似于在会话中注册。 若要从通讯簿中注册关键错误通知, 请为条目标识符传递 NULL。 若要在特定的通讯簿对象上注册通知, 请指定适当的条目标识符和事件或相关事件。 请注意, 许多通讯簿提供程序不支持单个对象上的通知。 相反, 它们支持对其内容和层次结构表的表通知。 
   
-很好的做法发行版的实现，或使用[HrAllocAdviseSink](hrallocadvisesink.md) **Advise**调用的成功返回后立即创建通知接收器。 这是因为可能为服务提供商释放通知接收器在**Advise**调用后，但之前**Unadvise**进行调用。 一旦您已指定 advise 源指针到通知接收器，在此通知接收器上会增加引用计数，最好其释放，除非您有长期使用它。 
+最佳做法是, 在成功返回**通知**调用之后, 释放在[HrAllocAdviseSink](hrallocadvisesink.md)中实现或创建的通知接收器。 这是因为, 服务提供商在发出**通知**调用之后, 但在进行**Unadvise**调用之前, 可以发布您的通知接收器。 在此通知接收器上为通知源提供指向通知接收器和引用计数的指针后, 最好将其释放, 除非您对其使用长期。 
   
 > [!NOTE]
-> 直到**Unadvise**调用，并不会释放表示有效顾问注册的所有连接号码。 
+> 在进行**Unadvise**呼叫之前, 将不会发布表示有效的咨询注册的所有连接号码。 
   
 

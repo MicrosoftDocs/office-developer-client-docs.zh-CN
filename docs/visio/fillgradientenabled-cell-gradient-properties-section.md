@@ -1,37 +1,37 @@
 ---
-title: FillGradientEnabled 单元格（“Gradient Properties”部分）
+title: FillGradientEnabled 单元格 ("渐变属性" 部分)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
-description: 确定是否启用此形状填充渐变。
-ms.openlocfilehash: 20a38d4c45af163bc00364a45dc31269bf97251f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定是否为此形状启用填充渐变。
+ms.openlocfilehash: 17f617c13b632318be22b86a3354a194f0f835f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322489"
 ---
-# <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled 单元格（“Gradient Properties”部分）
+# <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled 单元格 ("渐变属性" 部分)
 
-确定是否启用此形状填充渐变。 
+确定是否为此形状启用填充渐变。 
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
-|TRUE  <br/> |渐变填充形状上显示。  <br/> |
-|FALSE  <br/> |渐变填充形状上不显示。  <br/> |
+|TRUE  <br/> |渐变填充将显示在形状上。  <br/> |
+|FALSE  <br/> |渐变填充不会显示在形状上。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-要从另一个公式，由**N** **单元格**元素的属性的值或使用**CellsU**属性从某个程序按名称获取对**FillGradientEnabled**单元格的引用，请使用： 
+若要从另一个公式按名称获取对**FillGradientEnabled**单元格的引用、 **cell**元素的**N**属性值, 或从使用**CellsU**属性的某个程序获取对该单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
 | 单元格名称：  <br/> | FillGradientEnabled  <br/> |
    
-若要从某个程序按索引获取对**FillGradientEnabled**单元格的引用，请使用带下列参数的**CellsSRC**属性： 
+若要从某个程序按索引获取对**FillGradientEnabled**单元格的引用, 请使用带下列参数的**CellsSRC**属性: 
   
 |||
 |:-----|:-----|

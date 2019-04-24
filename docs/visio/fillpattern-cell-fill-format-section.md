@@ -8,25 +8,25 @@ f1_keywords:
 - vis_sdr.chm375
 localization_priority: Normal
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
-description: 确定形状的填充图案。要指定自定义的填充图案，请使用本单元格中的 USE 函数。
-ms.openlocfilehash: 26429e06ad432eaf7fae9188ac676cb4be3201c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 确定形状的填充图案。 要指定自定义的填充图案，请使用本单元格中的 USE 函数。
+ms.openlocfilehash: 340ccdc9f3819fb29e210832107e270bd302433c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322433"
 ---
-# <a name="fillpattern-cell-fill-format-section"></a>FillPattern 单元格（“Fill Format”部分）
+# <a name="fillpattern-cell-fill-format-section"></a>FillPattern 单元格（“Fill Format”内容）
 
-确定形状的填充图案。要指定自定义的填充图案，请使用本单元格中的 USE 函数。
+确定形状的填充图案。 要指定自定义的填充图案，请使用本单元格中的 USE 函数。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |0  <br/> |无（透明填充）。  <br/> |
 |1  <br/> |前景纯色。  <br/> |
-|2-40  <br/> |各种类型的填充图案，与 **“填充”** 对话框中的索引项相对应。  <br/> |
+|2 - 40  <br/> |各种类型的填充图案，与 **“填充”** 对话框中的索引项相对应。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 您还可以使用 **“填充”** 对话框设置此值（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“填充”**，然后单击 **“填充选项”**）。
   

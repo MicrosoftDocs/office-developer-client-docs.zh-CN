@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 86dfaa8fbc9ff24d38472f1339a22534086d890b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d142e19fc4721cec4dde0df7fc030a001121da63
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328880"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-返回表格列的列表。
+返回表的列的列表。
   
 ```cpp
 HRESULT QueryColumns(
@@ -38,51 +38,51 @@ LPSPropTagArray FAR * lpPropTagArray
 
  _ulFlags_
   
-> [in]应返回的标志，指示哪些列设置的位掩码。 可以设置以下标记：
+> 实时指示应返回哪一列集的标志的位掩码。 可以设置以下标志:
     
 TBL_ALL_COLUMNS 
   
-> 表应返回所有可用的列。
+> 该表应返回所有可用的列。
     
  _lpPropTagArray_
   
-> [输出]指向包含属性标记为列[SPropTagArray](sproptagarray.md)结构设置。 
+> 排除指向包含列集的属性标记的[SPropTagArray](sproptagarray.md)结构的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回列集。
+> 成功返回列集。
     
 MAPI_E_BUSY 
   
-> 另一个操作阻止列的正在进行中设置启动的检索操作。 应允许正在进行的操作完成或应停止。
+> 正在进行另一个操作, 以防止启动列集检索操作。 应允许正在进行的操作完成, 或者应已停止。
     
 ## <a name="remarks"></a>注解
 
-**IMAPITable::QueryColumns**方法可调用它以检索： 
+可以调用**IMAPITable:: QueryColumns**方法来检索: 
   
-- 为表设置默认列。
+- 为表格设置的默认列。
     
-- 由调用[IMAPITable::SetColumns](imapitable-setcolumns.md)方法建立为表，设置当前列。 
+- 为表设置的当前列, 这是通过调用[IMAPITable:: SetColumns](imapitable-setcolumns.md)方法建立的。 
     
-- 完整的列设置的表、 列可用，而不是一定是当前集的一部分。
+- 表的完整列集、可用的列, 但不一定是当前集合的一部分。
     
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-如果未设置 TBL_ALL_COLUMNS 标志， **IMAPITable::QueryColumns**返回表的默认或当前列集，具体取决于是否表已经受到**IMAPITable::SetColumns**调用。 **SetColumns**更改顺序和所选内容中表的列集的列。 
+如果未设置 TBL_ALL_COLUMNS 标志, 则**IMAPITable:: QueryColumns**将返回表的默认值或当前列集, 具体取决于表是否受到对**IMAPITable:: SetColumns**的调用的影响。 **SetColumns**更改表的列集合中列的顺序和选择。 
   
-如果设置 TBL_ALL_COLUMNS 标志， **QueryColumns**返回的所有能够在表的列组列。 
+如果设置 TBL_ALL_COLUMNS 标志, 则**QueryColumns**将返回能够在表的列集中进行的所有列。 
   
-释放内存为通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数_lpPropTagArray_参数指向的属性标记数组。 
+通过调用[MAPIFreeBuffer](mapifreebuffer.md)函数, 释放由_lpPropTagArray_参数指向的属性标记数组的内存。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI 使用**IMAPITable::QueryColumns**方法检索当前为表设置，以便用户可以编辑的列。  <br/> |
+|ContentsTableListCtrl  <br/> |CContentsTableListCtrl::D osetcolumns  <br/> |MFCMAPI 使用**IMAPITable:: QueryColumns**方法检索表的当前列集, 以便用户可以对其进行编辑。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

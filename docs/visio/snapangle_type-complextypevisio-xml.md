@@ -1,5 +1,5 @@
 ---
-title: SnapAngle_Type 复杂类型 (Visio XML)
+title: SnapAngle_Type 复杂类型 ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 25c690a6-98f9-7eab-2a2a-b7d3ab673a6f
 ms.openlocfilehash: 496b4aa11044840a9573b8ca48b0620013640266
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384652"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328117"
 ---
-# <a name="snapangletype-complextype-visio-xml"></a>SnapAngle_Type 复杂类型 (Visio XML)
+# <a name="snapangletype-complextype-visio-xml"></a>SnapAngle_Type 复杂类型 ("Visio XML")
 
 ## <a name="type-information"></a>类型信息
 
 |||
 |:-----|:-----|
 |**命名空间** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**架构文件** <br/> |VisioSchema15 2012 06 05.xsd  <br/> |
-|**扩展基** <br/> |化  <br/> |
+|**架构文件** <br/> |VisioSchema15-2012-06-05  <br/> |
+|**扩展基** <br/> |xsd: double  <br/> |
    
 ## <a name="definition"></a>定义
 
@@ -33,13 +33,13 @@ ms.locfileid: "25384652"
 
 ## <a name="elements-and-attributes"></a>元素和属性
 
-如果此架构定义了具体要求，如**sequence**， **minOccurs**、 **maxOccurs**和**choice**，请参阅定义部分。 
+如果架构定义了具体要求, 如**sequence**、 **minOccurs**、 **maxOccurs**和**choice**, 请参阅 "定义" 部分。 
   
 ### <a name="child-elements"></a>子元素
 
 无。
   
-### <a name="attributes"></a>属性
+### <a name="attributes"></a>Attributes
 
 无。
   

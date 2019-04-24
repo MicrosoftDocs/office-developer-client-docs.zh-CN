@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 356f4470be26ae3803a53af1cec34b3ac6eb0cc9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326927"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -36,52 +36,52 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>参数
 
  _pstm_
   
-> [in]MIME 流[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口。 
+> 实时MIME 流的[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口。 
     
  _pmsg_
   
-> [输出]指向要加载的消息。 请参阅 mapidefs.h **LPMESSAGE**的类型定义。
+> 排除指向要加载的邮件的指针。 有关**LPMESSAGE**的类型定义, 请参阅 mapidefs.h。
     
  _pszSrcSrv_
   
-> [in]此值必须为**空**。
+> 实时此值必须为**null**。
     
  _ulFlags_
   
-> [in]此参数用于标识转换期间执行任何特殊操作。 零 (0) 任何特定操作时要采取或以下值的组合，则必须将它：
+> 实时此参数标识在转换过程中要采取的任何特殊操作。 如果不执行任何特定操作, 则必须为零 (0), 或以下值的组合:
     
 CCSF_EMBEDDED_MESSAGE
   
-> 发送/未发送信息保留在未发送的 X。
+> 发送/发送的信息将保留在 X-未发送中。
     
 CCSF_SMTP
   
-> 简单 MAPI 传输协议 (SMTP) 邮件 MIME 流。
+> MIME 流适用于简单 MAPI 传输协议 (SMTP) 邮件。
     
 CCSF_INCLUDE_BCC
   
-> 应 MAPI 邮件中包含 MIME stream 的密件抄送收件人。
+> MIME 流的密件抄送收件人应包含在 MAPI 邮件中。
     
 CCSF_USE_RTF
   
-> MIME 流的 HTML 正文应转换到富文本格式 (RTF) 中的 MAPI 邮件。
+> MIME 流的 HTML 正文应转换为 MAPI 邮件中的格式文本格式 (rtf)。
 
 CCSF_GLOBAL_MESSAGE
-> 转换器应处理的 MIME 流作为国际邮件 (EAI/RFC6530)。 不支持 Outlook 2013。
+> 转换器应将 MIME 流处理为国际邮件 (EAI/RFC6530)。 在 Outlook 2013 中不受支持。
     
 ## <a name="return-value"></a>返回值
 
 E_INVALIDARG
   
-> 指示_pstm_为**null**， _pmsg_为**null**，或者_ulFlags_无效。 
+> 指示_pstm_为**null**、 _pmsg_为**null**或_ulFlags_无效。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果您指定**CCSF_USE_RTF** _ulFlags_的一部分，目标消息存储库支持 HTML 和 RTF 的 MAPI 邮件将被转换为 HTML 或 RTF。 如果邮件转换为 RTF 时，将压缩转换的格式 RTF，将在压缩的 RTF 字符串中嵌入任何 HTML 和将[PidTagRtfCompressed 规范属性](pidtagrtfcompressed-canonical-property.md)中包含字符串。
+如果已将**CCSF_USE_RTF**指定为_ulFlags_的一部分, 且目标邮件存储库同时支持 html 和 rtf 格式, 则 MAPI 邮件将转换为 html 或 rtf 格式。 如果邮件转换为 rtf 格式, 则转换后的格式将被压缩为 rtf 格式, 任何 HTML 将嵌入在压缩的 RTF 字符串中, 并且该字符串将包含在[PidTagRtfCompressed 规范属性](pidtagrtfcompressed-canonical-property.md)中。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -89,8 +89,8 @@ E_INVALIDARG
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将转换为 EML 文件的 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

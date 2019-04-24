@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 8002698b1644fb63292b4242d4fb3d784a99a03f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 54561450e7d91d8a30695dacf508758623547e39
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327977"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-另一个乘以一个无符号的 32 位整数。
+将一个不带符号的32位整数乘以另一个。
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 FILETIME FtMulDwDw(
@@ -42,16 +42,16 @@ FILETIME FtMulDwDw(
 
 ## <a name="parameters"></a>参数
 
- _被乘数_
+ _Multiplicand_
   
-> [in]双字包含 32 位无符号的整数相乘的_乘数_参数中的值。 
+> 实时包含与_乘数_参数中的值相乘的无符号32位整数的双字。 
     
- _乘子_
+ _乘以_
   
-> [in]双字包含 32 位无符号的整数乘数。
+> 实时包含未签名的32位整数乘数的双字。
     
 ## <a name="return-value"></a>返回值
 
-**FtMulDwDw**函数将返回一个[FILETIME](filetime.md)结构，其中包含两个包含整数的产品。 两个输入的参数保持不变。 
+**FtMulDwDw**函数返回一个[FILETIME](filetime.md)结构, 其中包含两个整数的乘积。 这两个输入参数保持不变。 
   
 

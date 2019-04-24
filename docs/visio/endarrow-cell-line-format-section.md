@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: 指出线条末端是箭头还是其他线端格式。
-ms.openlocfilehash: fa37e4896fdab0f2e8fee6d94aa38c72519a7e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 54ef11125a8774914a60897850fb75cd4ab949a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328901"
 ---
-# <a name="endarrow-cell-line-format-section"></a>EndArrow 单元格（“Line Format”部分）
+# <a name="endarrow-cell-line-format-section"></a>EndArrow 单元格（“Line Format”内容）
 
 指出线条末端是箭头还是其他线端格式。
   
-|**值**|**说明**|
+|**Value**|**说明**|
 |:-----|:-----|
 |0  <br/> |无箭头。  <br/> |
-|1-45  <br/> |各种类型的箭头样式，与 **“线条”** 对话框中的索引项相对应。  <br/> |
+|1 - 45  <br/> |各种类型的箭头样式，与 **“线条”** 对话框中的索引项相对应。  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-您还可以在 **“线条”** 对话框中设置此值（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“线条”**，指向 **“箭头”**，然后单击 **“其他箭头”**）。 EndArrowSize 单元格中设置箭头的大小。
+您还可以在 **“线条”** 对话框中设置此值（在 **“开始”** 选项卡上的 **“形状”** 组中，单击 **“线条”**，指向 **“箭头”**，然后单击 **“其他箭头”**）。 箭头的大小在 EndArrowSize 单元格中设置。
   
 您可以使用 USE 函数在此单元格中指定自定义线端。 
   

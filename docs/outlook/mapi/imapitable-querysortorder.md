@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 48ca692779fb53cab386d8a18b5f0a50e11d531c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 61991972fdf8674a9ffd2b790e26c7fa669df357
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569433"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328859"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-检索当前表格排序顺序。
+检索表的当前排序顺序。
   
 ```cpp
 HRESULT QuerySortOrder(
@@ -37,35 +37,35 @@ LPSSortOrderSet FAR * lppSortCriteria
 
  _lppSortCriteria_
   
-> [输出]为存放当前的排序顺序[SSortOrderSet](ssortorderset.md)结构指针的指针。 
+> 排除指向包含当前排序顺序的[SSortOrderSet](ssortorderset.md)结构的指针的指针。 
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 已成功返回当前的排序顺序。
+> 已成功返回当前排序顺序。
     
 MAPI_E_BUSY 
   
-> 阻止排序顺序检索操作启动的正在进行中是另一个操作。 应允许正在进行的操作完成或应停止。
+> 正在进行另一个操作, 以阻止排序顺序检索操作开始。 应允许正在进行的操作完成, 或者应已停止。
     
 ## <a name="remarks"></a>注解
 
-**IMAPITable::QuerySortOrder**方法检索当前表格排序顺序。 [SSortOrderSet](ssortorderset.md)结构描述都排序次序。 
+**IMAPITable:: QuerySortOrder**方法检索表的当前排序顺序。 排序顺序是使用[SSortOrderSet](ssortorderset.md)结构进行描述的。 
   
-- **SSortOrderSet**结构的**cSorts**成员可以设置为零，如果： 
+- 如果为以下情况, **SSortOrderSet**结构的**cSorts**成员可设置为零: 
     
-- 表未排序。
+- 该表未排序。
     
-- 没有任何信息对表进行排序。
+- 不存在有关如何对表进行排序的信息。
     
-- **SSortOrderSet**结构不适合描述的排序次序。 
+- **SSortOrderSet**结构不适合用于描述排序顺序。 
     
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-如果具有包含零个列的排序关键字**SSortOrderSet**结构进行[IMAPITable::SortTable](imapitable-sorttable.md)方法调用时，删除当前的排序顺序，并应用默认的顺序，如果有。 中到**QuerySortOrder**的后续呼叫，您可以选择是否返回零个或多个列的排序关键字。 您可以返回多于存在视图中的列数。
+如果使用在排序关键字中包含零列的**SSortOrderSet**结构对[IMAPITable:: SortTable](imapitable-sorttable.md)方法进行了调用, 则删除当前排序顺序并应用默认顺序 (如果有)。 在对**QuerySortOrder**的后续调用中, 可以选择是否返回零个或多个用于排序关键字的列。 您可以返回的列数多于当前视图中的列数。
   
-有关排序的详细信息，请参阅[排序和分类](sorting-and-categorization.md)。
+有关排序的详细信息, 请参阅[排序和分类](sorting-and-categorization.md)。
   
 ## <a name="see-also"></a>另请参阅
 

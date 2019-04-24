@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251436
 localization_priority: Normal
 ms.assetid: 5b358c38-6ed1-3fbe-c1d1-1a56ebbaa870
-description: 打开搜索框中的指定关键字的 HTML 帮助文件。
-ms.openlocfilehash: 4671b18333bdae953c487662cd880849233df7f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 打开 HTML 帮助文件, 其中包含指定的关键字在搜索框中。
+ms.openlocfilehash: 639d10bf489d1ad09aef1522d3cbc743bbe66f6f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329972"
 ---
 # <a name="help-function"></a>HELP 函数
 
-打开**搜索**框中的指定*关键字*的 HTML 帮助文件。 
+打开 HTML 帮助文件, 其中包含指定的*关键字*在**搜索**框中。 
   
 ## <a name="syntax"></a>语法
 
-帮助 ("* * *filename.chm!keyword* * *") 
+HELP ("* * *filename .chm! 关键字** *") 
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _filename.chm!keyword_ <br/> |必需  <br/> |**字符串** <br/> | 要搜索的帮助文件的文件名和关键字。  <br/> |
+| _文件名 .chm! 关键字_ <br/> |必需  <br/> |**String** <br/> | 要搜索的帮助文件的文件名和关键字。  <br/> |
    
 ## <a name="remarks"></a>注解
 
-如果未不指定任何*关键字*，则帮助函数将打开的帮助文件的内容页。 
+如果未指定*关键字*, 则帮助函数将打开帮助文件的内容页。 
   
 ## <a name="example"></a>示例
 
-HELP("visio.chm!shapesheet") 
+帮助 ("visio .chm! shapesheet") 
   
 打开文件 Visio 帮助文件，并显示关键字为“shapesheet”的主题列表。 
   

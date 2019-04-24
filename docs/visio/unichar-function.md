@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm60117
 localization_priority: Normal
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
-description: 返回数字的 Unicode 字符。
-ms.openlocfilehash: 06f97717ee4d5965253b0da7cfd5c35faf0ca2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 从数字中返回 Unicode 字符。
+ms.openlocfilehash: 81e76b72da35f79dee9ad6afbde51bc2e228483c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327344"
 ---
 # <a name="unichar-function"></a>UNICHAR 函数
 
-返回数字的 Unicode 字符。 
+从数字中返回 Unicode 字符。 
   
 ## <a name="syntax"></a>语法
 
-UNICHAR (* **数量** *) 
+UNICHAR (* **数字** *) 
   
 ### <a name="parameters"></a>参数
 
@@ -36,8 +36,8 @@ UNICHAR (* **数量** *)
   
 ## <a name="example"></a>示例
 
-UNICHAR(65) 
+UNICHAR (65) 
   
-返回 A （拉丁文大写字母 A） 
+返回 A (拉丁文大写字母 A) 
   
 

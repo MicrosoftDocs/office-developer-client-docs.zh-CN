@@ -10,13 +10,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
-description: 上次修改时间： 2017 年 9 月 20，
+description: '上次修改时间: 2017 年9月20日'
 ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326942"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
@@ -37,65 +37,65 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 
  _pmsg_
   
-> [in]指向要转换的消息的指针。 请参阅 mapidefs.h **LPMESSAGE**的类型定义。
+> 实时指向要转换的邮件的指针。 有关**LPMESSAGE**的类型定义, 请参阅 mapidefs.h。
     
  _pstm_
   
-> [输出]要输出流[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口。 
+> 排除用于输出流的[IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)接口。 
     
  _ulFlags_
   
->  [in]这些标志指示转换器的特定操作： 
+>  实时指示转换器的特定操作的标志: 
     
 CCSF_8BITHEADERS
   
-> 转换器应允许 8 位标头。
+> 转换器应允许8位标头。
     
 CCSF_EMBEDDED_MESSAGE
   
-> 发送/未发送信息保留在未发送的 X。
+> 发送/发送的信息将保留在 X-未发送中。
     
 CCSF_GLOBAL_MESSAGE
   
-> 转换器应该构建国际邮件 (EAI/RFC6530)。
+> 转换器应生成国际邮件 (EAI/RFC6530)。
     
 CCSF_INCLUDE_BCC
   
-> 应 MIME 用于将 stream 中包含的 MAPI 邮件的密件抄送收件人。
+> MAPI 邮件的密件抄送收件人应包含在 MIME 流中。
     
 CCSF_NO_MSGID
   
-> 传出消息中不包括消息 Id 字段。
+> 不在传出邮件中包含邮件 Id 字段。
     
 CCSF_NOHEADERS
   
-> 转换器忽略外部邮件的标头。
+> 转换器应忽略外部邮件的头。
     
 CCSF_PLAIN_TEXT_ONLY
   
-> 转换器应只发送纯文本。
+> 转换器应仅发送纯文本。
     
 CCSF_SMTP
   
-> 转换器所传递的 SMTP 邮件。 必须始终设置此标志。
+> 正在向转换器传递 SMTP 邮件。 必须始终设置此标志。
     
 CCSF_USE_RTF
   
-> 转换器应为 MIME 邮件中的 RTF 格式转换的 HTML。
+> 转换器应在 MIME 邮件中将 HTML 转换为 RTF 格式。
     
 CCSF_USE_TNEF
   
-> 转换器应该 MIME 邮件中使用传输中性封装格式 (TNEF) 格式。
+> 转换器应在 MIME 邮件中使用传输中性封装格式 (TNEF) 格式。
     
 ## <a name="return-values"></a>返回值
 
 E_INVALIDARG
   
-> 传递标志无效，或*pmsg*或*pstm*为 NULL。 
+> 传递了无效的标志, 或者*pmsg*或*pstm*为 NULL。 
     
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-仅支持标准的 Outlook 邮件类型。
+仅对标准 Outlook 邮件类型受支持。
   
 ## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
@@ -103,8 +103,8 @@ E_INVALIDARG
   
 |**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 EML 文件转换为 MAPI 邮件。  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将转换为 EML 文件的 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI 使用 MimeToMAPI 将 .eml 文件转换为 MAPI 邮件。  <br/> |
+|MapiMime  <br/> |ExportIMessageToEML  <br/> |MFCMAPI 使用 MAPIToMIMEStm 将 MAPI 邮件转换为 .eml 文件。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

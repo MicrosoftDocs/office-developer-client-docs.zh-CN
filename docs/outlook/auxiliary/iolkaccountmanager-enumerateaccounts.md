@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: 获取特定类别或类型的帐户。
-ms.openlocfilehash: f9b332c0bbc90b1a8f5f944492448055f23c0668
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d0d383dee0e76dd6310d01bd1482e307c2374856
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19774340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322048"
 ---
 # <a name="iolkaccountmanagerenumerateaccounts"></a>IOlkAccountManager::EnumerateAccounts
 
@@ -77,7 +77,7 @@ _ppEnum_
 
 为类别指定 NULL 返回指定类型的所有帐户的枚举。同样，指定 NULL 类型返回指定的类别的所有帐户的枚举。
   
- **IOlkAccountManager::EnumerateAccounts** 不支持 Exchange 帐户的地址簿类别。 如果该帐户是 Exchange 帐户 （*pclsidType*是**CLSID_OlkMAPIAccount** ），以及您尝试枚举实现通讯簿的帐户 （*prgclsidCategory*是**CLSID_OlkAddressBook** ），调用**IOlkAccountManager::EnumerateAccounts**不会在帐户将枚举器重*ppEnum*返回 Exchange 帐户。 
+ **IOlkAccountManager::EnumerateAccounts** 不支持 Exchange 帐户的地址簿类别。 如果帐户是 Exchange 帐户 (*pclsidType*为**CLSID_OlkMAPIAccount** ), 并且您尝试枚举实现通讯簿的帐户 (*prgclsidCategory*为**CLSID_OlkAddressBook** ), 请调用**IOlkAccountManager:: EnumerateAccounts**将不会返回帐户枚举器*ppEnum*中的 Exchange 帐户。 
   
 ## <a name="see-also"></a>另请参阅
 

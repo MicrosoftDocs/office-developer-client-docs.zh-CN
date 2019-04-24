@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: efeff92f1a21d076c1ee58b82ad3ab25797df014
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: f16ba9164d55fdb7bd688d4068f99dc4407e5413
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328852"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-**IMAPITable::SortTable**方法对行进行排序的表中，具体取决于排序条件。 
+**IMAPITable:: SortTable**方法根据排序条件对表的行进行排序。 
   
 ```cpp
 HRESULT SortTable(
@@ -36,77 +36,77 @@ ULONG ulFlags
 
 _lpSortCriteria_
   
-> [in]指向[SSortOrderSet](ssortorderset.md)结构，其中包含要应用的排序条件。 传递**SSortOrderSet**结构，其中包含零个列指示表不需要任何特定顺序排序。 
+> 实时指向包含要应用的排序条件的[SSortOrderSet](ssortorderset.md)结构的指针。 传递包含零列的**SSortOrderSet**结构表示不必按任何特定的顺序对表进行排序。 
     
 _ulFlags_
   
-> [in]位掩码的标志，控制**IMAPITable::SortTable**操作的时间。 可以设置以下标志： 
+> 实时控制**IMAPITable:: SortTable**操作的计时的标志的位掩码。 可以设置以下标志: 
     
 TBL_ASYNC 
   
-> 异步启动操作并返回才能完成此操作。
+> 异步启动操作并在操作完成前返回。
     
 TBL_BATCH 
   
-> 延迟排序完成，直到表中的数据，则需要。
+> 将完成排序, 直到表中的数据是必需的。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 排序操作已成功。
+> 排序操作成功完成。
     
 MAPI_E_BUSY 
   
-> 正在进行中，可以防止启动排序操作是另一个操作。 应允许正在进行的操作完成或应停止。
+> 正在进行另一个操作, 阻止排序操作启动。 应允许正在进行的操作完成, 或者应已停止。
     
 MAPI_E_NO_SUPPORT 
   
-> 表不支持的排序请求的类型。
+> 该表不支持请求的排序类型。
     
 MAPI_E_TOO_COMPLEX 
   
-> 表无法执行操作，因为太复杂_lpSortCriteria_参数指向的特定的排序条件。 **SortTable**可以在下列情况下返回 MAPI_E_TOO_COMPLEX。 
+> 由于_lpSortCriteria_参数指向的特定排序条件过于复杂, 因此表无法执行该操作。 在下列情况下, **SortTable**可以返回 MAPI_E_TOO_COMPLEX。 
     
-   - 排序操作被请求属性列实现不能进行排序。
+   - 对实现无法排序的属性列请求排序操作。
     
-   - 实现不支持在**SSortOrderSet**结构的**ulOrder**成员中请求的排序次序。 
+   - 该实现不支持在**SSortOrderSet**结构的**ulOrder**成员中请求的排序顺序。 
     
-   - 要进行排序的列数中**SSortOrderSet** **cSorts**成员指定，大于所实现可处理。
+   - 要排序的列数 (在**SSortOrderSet**中的**cSorts**成员中指定) 大于实现可以处理的数量。
     
-   - 请求排序操作，由**SSortOrderSet**，基于不在可用的或活动集中属性中的属性标记和实现不支持排序不在可用集合的属性。
+   - 根据**SSortOrderSet**中的属性标记来请求排序操作, 该操作基于不在可用或活动集内的属性, 且实现不支持对不可用的集合中的属性进行排序。
     
-   - 一个属性是多次集合中指定排序顺序，由多个实例的相同属性标记，并实现无法执行排序操作。
+   - 一个属性按排序顺序集多次指定 (由同一属性标记的多个实例指示), 并且实现无法执行此类排序操作。
     
-   - 基于多值的属性列排序操作请求使用 MVI_FLAG 并实现不支持多值属性排序。 
+   - 基于多值属性列的排序操作是使用 MVI_FLAG 请求的, 而实现不支持对多值属性进行排序。 
     
-   - 属性标记中**SSortOrderSet**为属性指定的属性或实现不支持的类型。 
+   - **SSortOrderSet**中的属性的属性标记指定实现不支持的属性或类型。 
     
-   - 仅支持这种类型的排序附件表指定排序操作以外从头到尾转接**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性中的表。
+   - 除从**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) 属性前进到表的过程之外的排序操作仅为支持此类型排序的附件表指定。
     
 ## <a name="remarks"></a>注解
 
-**IMAPITable::SortTable**方法在表视图中对行进行排序。 某些表格中支持标准和分类键列的排序各种上排序，而其他表在支持更多限制。 通讯簿提供程序通常不支持表排序。 消息存储提供程序通常支持的范围内它们保留文件夹的完整表格 （无限制） 进行排序时结果的排序顺序排序。 
+**IMAPITable:: SortTable**方法对表格视图中的行进行排序。 有些表支持对各种排序键列进行标准和分类排序, 而其他表在支持方面更受限制。 通讯簿提供程序通常不支持表排序。 邮件存储提供程序通常支持对其保存在完整的表 (不受限制的表) 进行排序时结果的排序顺序的范围进行排序。 
   
-某些表格中允许要完成的任何表格列进行排序。 其他表不;不包含在表视图中的列不受**SortTable**呼叫。 某些表格中需要排序关键字构建仅与表的当前列组中的列。 
+某些表格允许对任何表格列进行排序。 其他表不执行;未包含在表视图中的列不受**SortTable**调用的影响。 某些表要求仅使用表的当前列集中的列生成排序键。 
   
-表可以返回 MAPI_E_NO_SUPPORT 或 MAPI_E_TOO_COMPLEX 从**SortTable**它不能完成排序操作时。 此外，存储提供程序不能保证服从设置指定的层次结构表的排序次序。 
+如果表无法完成排序操作, 则表可以从**SortTable**中返回 MAPI_E_NO_SUPPORT 或 MAPI_E_TOO_COMPLEX。 此外, 不能保证存储提供程序遵循为层次结构表指定的排序顺序集。 
   
-当_lpSortCriteria_参数指向[SSortOrderSet](ssortorderset.md)结构中存在零列时，表返回当前的列集。 可以通过调用表的[IMAPITable::QuerySortOrder](imapitable-querysortorder.md)方法来检索当前的排序顺序。 
+如果_lpSortCriteria_参数所指向的[SSortOrderSet](ssortorderset.md)结构中的列数为零, 则该表将返回当前列集。 可以通过调用表的[IMAPITable:: QuerySortOrder](imapitable-querysortorder.md)方法来检索当前排序顺序。 
   
-表的所有书签将无效，并应删除时调用**SortTable**不进行，并且 BOOKMARK_CURRENT 书签，该值指示当前光标位置，应设置为表的开头。 
+表的所有书签都会失效, 应在调用**SortTable**时删除该书签, 并将指示当前光标位置的 BOOKMARK_CURRENT 书签设置为表的开头。 
   
-如果在包含一个多值的属性没有设置 MVI_FLAG 标志的列上排序，列的值将被视为完全有序元组。 两个多值列的比较比较中报告的第一个不相等中的列的关系的顺序的列元素，并返回相等，才进行比较的列包含相同的顺序相同的值。 如果一个列具有比其他值少，报告的关系是 null 值为其他值。
+如果要对包含多值属性的列进行排序, 而不设置 MVI_FLAG 标志, 则该列的值将被视为完全排序的元组。 两个多值列的比较将按顺序对列元素进行比较, 在第一个不相等处报告列的关系, 并在进行比较的列包含相同顺序的相同值时, 仅返回相等性。 如果某一列的值少于其他列的值, 则报告的关系为将 null 值的其他值。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-除非将其中一个标志设置**SortTable**进行同步操作。 如果设置 TBL_BATCH 标志， **SortTable**推迟排序操作，除非您请求的数据。 如果设置了 TBL_ASYNC 标志， **SortTable**操作以异步方式，可能返回之前完成操作。 
+**SortTable**将同步运行, 除非您设置其中一个标志。 如果设置了 TBL_BATCH 标志, 则**SortTable**将推迟排序操作, 除非您请求数据。 如果设置了 TBL_ASYNC 标志, 则**SortTable**以异步方式运行, 在操作完成之前可能会返回。 
   
-调用[IMAPITable::Abort](imapitable-abort.md)方法以停止正在进行的异步操作，如果立即必须进行排序。 如果**SortTable**无法继续，因为一个或多个表的异步操作正在进行，则将返回 MAPI_E_BUSY。 
+如果必须立即执行排序, 请调用[IMAPITable:: Abort](imapitable-abort.md)方法以停止正在进行的异步操作。 如果**SortTable**无法继续, 因为对表进行了一个或多个异步操作, 则它将返回 MAPI_E_BUSY。 
   
-为了获得最佳性能，调用**SetColumns**自定义表的列组并**限制**以限制的表中的行数之前调用**SortTable**执行排序。 
+为了获得最佳性能, 请调用**SetColumns**以自定义表的列**** 集, 并在调用**SortTable**以执行排序之前限制表中的行数。 
   
-只要**SortTable**失败，已起作用之前失败的排序顺序所做的更改。 
+只要**SortTable**发生故障, 在故障之前生效的排序顺序仍有效。 
   
 ## <a name="see-also"></a>另请参阅
 

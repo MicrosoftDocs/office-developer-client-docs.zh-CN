@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b6a27231c8dd2c0796b2dcba268de54fcd93e38d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 897330feb216dbc3ab143378977c77141cf488f0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587906"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328817"
 ---
 # <a name="imapitablesetcolumns"></a>IMAPITable::SetColumns
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587906"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-定义的特定属性和属性的顺序显示为表中的列。
+定义在表中显示为列的特定属性和属性的顺序。
   
 ```cpp
 HRESULT SetColumns(
@@ -38,82 +38,82 @@ ULONG ulFlags
 
  _lpPropTagArray_
   
-> [in]指向属性标记标识属性必须包含作为表中的列的数组。 每个标记的属性类型部分可以设置为有效的类型或**PR_NULL**为后续增加保留空间。 不能_lpPropTagArray_参数设置为 NULL;每个表必须有至少一个列。 
+> 实时指向一个属性标记数组的指针, 这些标记用于标识要作为表中的列包含的属性。 可以将每个标记的属性类型部分设置为有效的类型或**PR_NULL** , 以便为后续添加保留空间。 _lpPropTagArray_参数不能设置为 NULL;每个表必须至少有一列。 
     
  _ulFlags_
   
-> [in]位掩码的标志控制的异步调用**SetColumns**，例如，在通知使用**SetColumns**时返回的。 可以设置以下标志： 
+> 实时标志的位掩码, 用于控制对**SetColumns**的异步调用的返回, 例如, 在通知中使用**SetColumns**时。 可以设置以下标志: 
     
 TBL_ASYNC 
   
-> 列设置操作是请求执行异步导致**SetColumns**可能返回操作完全完成之前。 
+> 请求以异步方式执行列设置操作, 从而导致**SetColumns**在操作完全完成之前可能会返回。 
     
 TBL_BATCH 
   
-> 允许该表推迟列设置操作，直到所实际需要的数据。
+> 允许表将列设置操作延期, 直到实际需要数据。
     
 ## <a name="return-value"></a>返回值
 
 S_OK 
   
-> 列设置操作已成功。
+> 列设置操作成功。
     
 MAPI_E_BUSY 
   
-> 另一个操作正在进行阻止设置启动操作列中。 应允许正在进行的操作完成或应停止。
+> 正在进行另一个操作, 以防止启动列设置操作。 应允许正在进行的操作完成, 或者应已停止。
     
 ## <a name="remarks"></a>注解
 
-表的列集是组的表中的行的列组成的属性。 没有为每种类型的表的默认列。 默认列集由属性表实施自动包含组成。 表的用户可以更改通过调用**IMAPITable::SetColumns**方法设置此默认值。 它们可以请求将其他列添加到默认的设置如果表实施支持其列被删除或更改列的顺序。 **SetColumns**与每个行的行中的这些列顺序指定返回的列。 
+表的列集是组成表中各行的列的一组属性。 为每种类型的表设置了默认列。 默认列集由表实施者自动包括的属性组成。 表用户可以通过调用**IMAPITable:: SetColumns**方法来更改此默认集。 如果表实施者支持将列删除或列的顺序发生更改, 则用户可以请求将其他列添加到默认集。 **SetColumns**指定每行返回的列和行中这些列的顺序。 
   
-**SetColumns**操作成功很明显的仅后所做的后续调用来检索数据的表。 然后是报告了任何错误。 
+仅在随后调用以检索表的数据之后, **SetColumns**操作的成功才会变得明显。 然后, 报告任何错误。 
   
-## <a name="notes-to-implementers"></a>针对实施者的注释
+## <a name="notes-to-implementers"></a>针对实现者的说明
 
-某些提供程序允许**SetColumns**呼叫可仅属于表视图的可用列的表格列进行排序。 其他提供程序允许**SetColumns**呼叫进行排序所有的表格列，包括那些包含不在原始的列集的属性。 
+某些提供程序允许**SetColumns**调用仅对表视图的可用列中的表列进行排序。 其他提供程序允许**SetColumns**调用对表中的所有列进行排序, 包括那些包含不在原始列集中的属性。 
   
-当 TBL_BATCH 设置的异步操作时，提供程序应返回 PT_ERROR 属性类型，并且不受支持的列的空值的属性值。
+当 TBL_BATCH 设置为异步操作时, 提供程序应返回 PT_ERROR 的属性类型和不受支持的列的属性值为 NULL。
   
-不需要响应请求操作将异步 TBL_ASYNC 标志。 如果您不支持异步列集定义，同步执行操作。 您可以支持 TBL_ASYNC 标志，另一个异步操作仍在进度，返回 MAPI_E_BUSY。 否则，返回 S_OK 而不考虑支持所有属性标记数组中包括的属性。 应从的检索数据，如**QueryRows** **IMAPITable**方法返回错误生成不受支持的属性。 
+您无需响应 TBL_ASYNC 标志, 请求操作为异步操作。 如果不支持异步列集定义, 请同步执行该操作。 如果您可以支持 TBL_ASYNC 标志, 而另一个异步操作仍在进行中, 则返回 MAPI_E_BUSY。 否则, 无论是否支持属性标记数组中包含的所有属性, 都将返回 S_OK。 由于不受支持的属性而产生的错误应从检索数据的**IMAPITable**方法 (如**QueryRows**) 中返回。 
   
-不会生成通知处于隐藏状态的表格行从视图通过调用**限制**。 
+不会为通过调用**限制**而隐藏的表行生成通知。 
   
-时发送表通知、 [TABLE_NOTIFICATION](table_notification.md)结构中的**行**成员中的属性的顺序和顺序指定最近**SetColumns**调用必须相同截止通知请求的时间已发送。 
+发送表通知时, [TABLE_NOTIFICATION](table_notification.md)结构的**行**成员中的属性顺序和由最近的**SetColumns**调用指定的顺序必须与通知请求的时间相同。已发送。 
   
-另一个标志，TBL_BATCH，允许呼叫者在指定表实施者可以将推迟评估直到以后操作的结果。 只要有可能，应将设置主叫方此标志，因为批处理的操作可以提高性能。
+另一个标志 TBL_BATCH, 允许呼叫者指定表实施者可以延迟评估操作结果, 直到更晚的时间。 只要有可能, 呼叫者都应设置此标志, 因为批处理操作可提高性能。
   
-通常方便的呼叫者在保留中的值，以后添加检索的行集的某些列。 呼叫者在执行此操作在传递给**SetColumns**; 该属性标记数组中所需的位置设置一道**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md))表将传递回**PR_NULL**所有行中的这些位置检索与**QueryRows**然后。
+通常, 调用方可以在检索到的行中保留一些列, 以便日后添加值。 调用方通过在传递给**SetColumns**的属性标记数组中的所需位置放置**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 来实现此目的。然后, 该表将在使用**QueryRows**检索的所有行中的这些位置上传递 back **PR_NULL** 。
   
 ## <a name="notes-to-callers"></a>给调用方的说明
 
-构建_lpPropTagArray_参数属性标记数组时, 您想要在表视图中显示的列的顺序排序标记。 
+为_lpPropTagArray_参数生成属性标记数组时, 请按照您希望列在表视图中显示的顺序对标记进行排序。 
   
-您可以指定多值的属性包含设置通过将多值的实例标志或 MVI_FLAG 常量应用于属性标记列中。 设置此标志属性标记为单值属性的版本作为参数传递给 MVI_PROP 宏，如下所示：
+通过将多值实例标志 (或 MVI_FLAG 常量) 应用于属性标记, 可以指定要包含在列集中的多值属性。 通过将属性的单值版本的属性标记作为参数传递给 MVI_PROP 宏, 可以设置此标志, 如下所示:
   
 ```
 MVI_PROP(ulPropTag)
 
 ```
 
-MVI_PROP 宏将设置该属性，将转换的多值标记为标记 MVI_FLAG。 如果您错误地尝试调用 MVI_PROP 对单值属性，MAPI 将忽略呼叫并保持不变的属性标记。 
+MVI_PROP 宏将设置属性的 MVI_FLAG, 并将标记转换为多值标记。 如果您错误地尝试在单值属性上调用 MVI_PROP, MAPI 将忽略该调用并保持属性标记不变。 
   
-您可以包括属性设置为**PR_NULL**属性标记数组中保留空间列设置中的标记。 保留空间允许您添加到列设置而无需分配新的属性标记数组。 
+您可以包含设置为**PR_NULL**的属性标记数组中的属性标记, 以在列集中保留空间。 通过保留空间, 可以将添加到列集, 而无需分配新的属性标记数组。 
   
-**SetColumns**您调用使表的列的顺序发生的更改以及一个或多个列表示一个多值的属性时，可能要增加的表中的行数。 如果发生这种情况，将放弃所有表的书签。 详细了解如何多值的列会影响表，请参阅[使用多值列](working-with-multivalued-columns.md)。
+当您对**SetColumns**的调用导致对表的列的顺序的更改, 并且其中的一个或多个列表示多值属性时, 表中的行数可能会增加。 如果出现这种情况, 将丢弃表的所有书签。 有关多值列对表的影响的详细信息, 请参阅[使用多值列](working-with-multivalued-columns.md)。
   
-设置列是默认情况下同步操作。 但是，您可以允许表，直到数据所需通过设置 TBL_BATCH 标志如次推迟操作。 将该标志设置可以提高性能。 另一个标志，TBL_ASYNC，使操作异步，允许**SetColumns**返回才能完成此操作。 若要确定完成发生时，请调用[IMAPITable::GetStatus](imapitable-getstatus.md)。
+默认情况下, 设置列是同步操作。 但是, 可以通过设置 TBL_BATCH 标志, 允许表延迟操作, 直到需要数据时才使用。 设置此标志可以提高性能。 另一个标志 TBL_ASYNC, 使操作成为异步操作, 允许**SetColumns**在操作完成前返回。 若要确定完成发生的时间, 请调用[IMAPITable:: GetStatus](imapitable-getstatus.md)。
   
-如果对**SetColumns**的调用返回 MAPI_E_BUSY，表示另一个操作阻止了您的操作启动，则可以呼叫[IMAPITable::Abort](imapitable-abort.md)停止正在进行的操作。 
+如果对**SetColumns**的调用返回 MAPI_E_BUSY, 表明另一个操作正在阻止您的操作启动, 则可以调用[IMAPITable:: Abort](imapitable-abort.md)停止正在进行的操作。 
   
-您可以调用[HrAddColumnsEx](hraddcolumnsex.md)更改一列。 **HrAddColumnsEx**和**IMAPITable::SetColumns**之间的区别是**HrAddColumnsEx**是较低灵活;它只能添加列。 额外的列的位于列集; 的开头以下这些列将显示所有的现有列。 
+您还可以调用[HrAddColumnsEx](hraddcolumnsex.md)更改列集。 **HrAddColumnsEx**和**IMAPITable:: SetColumns**之间的差异在于, **HrAddColumnsEx**的灵活性较低;它只能添加列。 其他列位于列集的开头;所有现有列都显示在这些列之后。 
   
-## <a name="mfcmapi-reference"></a>MFCMAPI 参考 （英文）
+## <a name="mfcmapi-reference"></a>MFCMAPI 引用
 
-MFCMAPI 示例代码，请参阅下表。
+有关 MFCMAPI 示例代码，请参阅下表。
   
-|**文件**|**函数**|**Comment**|
+|**文件**|**函数**|**备注**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI 使用**IMAPITable::SetColumns**方法设置所需的表的列。  <br/> |
+|ContentsTableListCtrl  <br/> |CContentsTableListCtrl::D osetcolumns  <br/> |MFCMAPI 使用**IMAPITable:: SetColumns**方法为表设置所需的列。  <br/> |
    
 ## <a name="see-also"></a>另请参阅
 

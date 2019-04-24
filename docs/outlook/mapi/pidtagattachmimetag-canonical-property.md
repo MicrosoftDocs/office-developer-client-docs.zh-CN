@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327242"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>PidTagAttachMimeTag 规范属性
 
@@ -25,42 +25,42 @@ ms.locfileid: "25389097"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含有关多用途 Internet 邮件扩展 (MIME) 附件格式信息。 
+包含有关多用途 Internet 邮件扩展 (MIME) 附件的格式信息。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ATTACH_MIME_TAG，PR_ATTACH_MIME_TAG_A，PR_ATTACH_MIME_TAG_W  <br/> |
-|标识符：  <br/> |0x370E  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_ATTACH_MIME_TAG、PR_ATTACH_MIME_TAG_A、PR_ATTACH_MIME_TAG_W  <br/> |
+|标识符:  <br/> |0x370E  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-如果**PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) 属性包含值**OID_MIMETAG**，这些属性来确定如何设置附件的格式应查看传输提供程序。 
+如果**PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) 属性包含值**OID_MIMETAG**, 则传输提供程序应查看这些属性以确定如何设置附件格式。 
   
-入站 MIME 标头的内容类型参数复制这些属性。 RFC 1521 文档中定义的字符串组成。 格式为类型/子类型，如应用程序中的二进制或 text/plain。 
+这些属性是从入站 MIME 标头的 Content type 参数中复制的。 字符串的组成定义在 RFC 1521 文档中。 格式为类型/子类型, 如应用程序/二进制或文本/纯文本。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[毫秒-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > 指定权限管理编码邮件的属性。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

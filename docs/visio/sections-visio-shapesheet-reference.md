@@ -1,39 +1,39 @@
 ---
-title: 部分 （Visio ShapeSheet 参考 （英文）
+title: 节 (Visio ShapeSheet 参考)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 982ed30a-bdf3-4c1a-9788-43b5933ff631
-ms.openlocfilehash: f08441035eee81c8e5b4059626759c68e74f9d70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbfb770b86f768bf4860c7298f27b7b79413fd5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326031"
 ---
-# <a name="sections-visio-shapesheet-reference"></a>部分 （Visio ShapeSheet 参考 （英文）
+# <a name="sections-visio-shapesheet-reference"></a>节 (Visio ShapeSheet 参考)
 
 ## <a name="in-this-section"></a>本节内容
 
 - [1-D Endpoints Section](1-d-endpoints-section.md)
     
-- [“3-D Rotation Properties”部分](3-d-rotation-properties-section.md)
+- ["三维旋转属性" 部分](3-d-rotation-properties-section.md)
     
 - [Action Tag Section](action-tag-section.md)
     
 - [Actions Section](actions-section.md)
     
-- [“Additional Effect Properties”部分](additional-effect-properties-section.md)
+- ["其他效果属性" 部分](additional-effect-properties-section.md)
     
 - [Alignment Section](alignment-section.md)
     
 - [Annotation Section](annotation-section.md)
     
-- [“Bevel Properties”部分](bevel-properties-section.md)
+- ["棱台属性" 部分](bevel-properties-section.md)
     
-- [“Change Shape Behavior”部分](change-shape-behavior-section.md)
+- ["更改形状行为" 部分](change-shape-behavior-section.md)
     
 - [Character Section](character-section.md)
     
@@ -47,7 +47,7 @@ ms.locfileid: "19781226"
     
 - [Fill Format Section](fill-format-section.md)
     
-- [“Fill Gradient”部分](fill-gradient-section.md)
+- ["填充渐变" 部分](fill-gradient-section.md)
     
 - [Foreign Image Info Section](foreign-image-info-section.md)
     
@@ -55,7 +55,7 @@ ms.locfileid: "19781226"
     
 - [Glue Info Section](glue-info-section.md)
     
-- [“Gradient Properties”部分](gradient-properties-section.md)
+- ["渐变属性" 部分](gradient-properties-section.md)
     
 - [Group Properties Section](group-properties-section.md)
     
@@ -69,7 +69,7 @@ ms.locfileid: "19781226"
     
 - [Line Format Section](line-format-section.md)
     
-- [“Line Gradient”部分](line-gradient-section.md)
+- ["线条渐变" 部分](line-gradient-section.md)
     
 - [Miscellaneous Section](miscellaneous-section.md)
     
@@ -83,7 +83,7 @@ ms.locfileid: "19781226"
     
 - [Protection Section](protection-section.md)
     
-- [“Quick Style”部分](quick-style-section.md)
+- ["快速样式" 部分](quick-style-section.md)
     
 - [Reviewer Section](reviewer-section.md)
     
@@ -107,7 +107,7 @@ ms.locfileid: "19781226"
     
 - [Text Transform Section](text-transform-section.md)
     
-- [“Theme Properties”部分](theme-properties-section.md)
+- ["主题属性" 部分](theme-properties-section.md)
     
 - [User-defined Cells Section](user-defined-cells-section.md)
     

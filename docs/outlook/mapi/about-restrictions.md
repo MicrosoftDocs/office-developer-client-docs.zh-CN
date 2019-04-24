@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 003655354ecac8e2910b3e6851da32c28ce31cfc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 139526937380273703a96f91f2bae02a79debc76
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322118"
 ---
 # <a name="about-restrictions"></a>关于限制
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-限制是一种方法来限制为仅与特定条件匹配的列的值这些行视图中的行数。 有许多不同的机会，使用的表的限制。 客户端应用程序可用于限制，例如，筛选搜索行的不支持属性，或具有属性设置为特定值，或查找内的重复收件人由特定人员，发送的邮件内容表消息。 
+限制是一种将视图中的行数限制为仅包含与特定条件匹配的列的行数的方法。 对表格使用限制有许多不同的机会。 例如, 客户端应用程序可以使用限制来筛选由特定人员发送的邮件的内容表, 以搜索不支持属性或已将属性设置为特定值的行, 或查找中的重复收件人消息。 
   
-[IMAPITable::Restrict](imapitable-restrict.md)和[IMAPITable::FindRow](imapitable-findrow.md)方法用于设置对表格的限制。 **限制**对表格中应用此限制，而不检索任何行。 若要检索满足限制的行，则需要后续调用[IMAPITable::QueryRows](imapitable-queryrows.md)或类似的方法。 **FindRow**应用此限制，并检索与条件匹配的表中的第一行。 **FindRow**应用临时限制，这是中存在仅用于呼叫的持续时间，而**Restrict**应用更永久限制。 
+[IMAPITable:: Restrict](imapitable-restrict.md)和[IMAPITable:: FindRow](imapitable-findrow.md)方法用于设置对表的限制。 **限制**对表应用限制, 而不检索任何行。 若要仅检索那些符合限制的行, 则需要对[IMAPITable:: QueryRows](imapitable-queryrows.md)或类似的方法进行后续调用。 **FindRow**应用限制, 并检索表中与条件匹配的第一行。 **FindRow**应用临时限制, 这仅在呼叫期间存在, 而**限制**应用更永久的限制。 
   
-某些客户端可以构建限制使用当前列中不包含的列。 支持这样的限制是可选的支持它的表实施添加值，特别是对于内容表。 不支持的表实施可以从**Restrict**呼叫或从**FindRow**呼叫 MAPI_E_NOT_FOUND 值返回 MAPI_E_TOO_COMPLEX 值。 
+某些客户端可以使用不在当前列集中的列生成限制。 支持这种限制是可选的, 并且支持它的表实施者添加值, 尤其是对于内容表。 不支持它的表实施者可以从**FindRow**调用中返回**限制**调用或 MAPI_E_NOT_FOUND 值中的 MAPI_E_TOO_COMPLEX 值。 
   
-客户端应注意，即使不在当前的列组列上提供程序支持的限制，他们将得到更好的总体性能，通过指定他们想要在其限制与[IMAPITable::SetColumns](imapitable-setcolumns.md)中使用的列.
+客户端应注意, 即使提供程序对不在当前列集中的列支持限制, 它们也会获得更好的性能, 具体方法是通过在其对[IMAPITable:: SetColumns](imapitable-setcolumns.md)的限制中指定要使用的列来获得更好的性能。.
   
 ## <a name="see-also"></a>另请参阅
 

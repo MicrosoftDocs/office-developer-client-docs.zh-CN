@@ -8,36 +8,36 @@ api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 7b8690871dbe5b7234645f00cabab9c65706141e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2f389d26ec80b9af3ed28c5eb85b589c9cbb26c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328656"
 ---
 # <a name="retrieving-data-from-table-rows"></a>从表行检索数据
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-从表中检索行包括：
+检索表中的行涉及:
   
 - 获取所有列的属性值。
     
-- 修改当前的位置。
+- 修改当前位置。
     
-大多数表中所需的列之一是条目标识符 — **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性 — 可用于打开代表行的对象。 此条目标识符通常为短期条目标识符，一个将不会过表的生存期。 但是，它可以是长期标识符，如果服务提供商实现表仅支持一种类型的项标识符。
+大多数表中的必需列之一是条目标识符 ( **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 属性), 可用于打开代表该行的对象。 此条目标识符通常是短期条目标识符, 不会保留在表的生存期之后。 但是, 如果实现表的服务提供程序仅支持一种类型的条目标识符, 则它可以是长期标识符。
   
-客户端和服务提供商可以进行以下呼叫检索行之一：
+客户端和服务提供商可以执行以下调用之一来检索行:
   
 |||
 |:-----|:-----|
-|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |检索指定的开头中向前或向后方向的当前行的行数。  <br/> |
-|[HrQueryAllRows](hrqueryallrows.md) <br/> |检索所有表中的行。  <br/> |
-|[ITableData::HrQueryRow](itabledata-hrqueryrow.md) <br/> |检索其索引列的值根据表中的行。 **PR_INSTANCE_KEY**([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 通常是表的索引列。  <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |检索以正向或向后方向从当前行开始的指定数量的行。  <br/> |
+|[HrQueryAllRows](hrqueryallrows.md) <br/> |检索表中的所有行。  <br/> |
+|[ITableData::HrQueryRow](itabledata-hrqueryrow.md) <br/> |根据索引列的值检索表中的行。 **PR_INSTANCE_KEY**([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) 通常是表的索引列。  <br/> |
    
-可选属性，包含作为一个表中的列时，某些行时其他人也可能不，可能有列的有效值。 一个有效的值是否存在列取决于是否提供行的信息的对象设置属性。 根据对象的实现，不存在属性可以表示为**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 表或任意值中。 必须注意区分属性不存在且具有无意义的值和属性存在且具有有效的值的表的用户。 
+如果可选属性作为表中的列之一包含, 则某些行可能具有列值的有效值, 而其他可能不是。 是否存在列值的有效值取决于提供行信息的对象是否设置属性。 根据对象的实现方式, 不存在的属性可以在表中表示为**PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) 或任意值。 表的用户必须小心区分不存在的属性以及确实存在无意义的值和属性, 并使其具有有效的值。 
   
 ## <a name="see-also"></a>另请参阅
 
