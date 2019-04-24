@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251442
 localization_priority: Normal
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
-description: 如果 logicalexpression 为 TURE，则返回 valueiftrue。否则，将返回 valueiffalse。
+description: 如果 logicalexpression 为 TRUE，则返回 valueiftrue。否则，将返回 valueiffalse。
 ms.openlocfilehash: 55938e8bd78c02badb98f90665c5c26cdd70f3b7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
