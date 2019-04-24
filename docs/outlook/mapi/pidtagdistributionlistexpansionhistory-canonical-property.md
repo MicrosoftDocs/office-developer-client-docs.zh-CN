@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 0ba27e1eefa85e1651dbd24fa0540f8b1108588a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a172fa1e04f1ea50c29955febda47be6e52663b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360751"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>PidTagDistributionListExpansionHistory 规范属性
 
@@ -25,30 +25,30 @@ ms.locfileid: "22588466"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含显示如何了通讯组列表扩展期间邮件传输历史记录。 
+包含演示如何在邮件传输过程中扩展通讯组列表的历史记录。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
-|标识符：  <br/> |0x0013  <br/> |
+|标识符:  <br/> |0x0013  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性可供如果传输提供程序已将其设置接收客户端应用程序。 如果报表返回邮件内容，则也可以发送的客户端可用的。 
+如果传输提供程序已对其进行设置, 则可使用此属性接收客户端应用程序。 如果邮件内容随报告一起返回, 则发送客户端也可使用它。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

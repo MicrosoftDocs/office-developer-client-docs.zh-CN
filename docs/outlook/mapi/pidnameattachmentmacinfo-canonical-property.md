@@ -13,11 +13,11 @@ api_type:
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d2a7fcf06c4e09f46c0d50f9e5f8897874c5f9a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360926"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>PidNameAttachmentMacInfo 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25387431"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含组成基于 Macintosh 的电子邮件客户端使用的相应标头和资源的分叉数据 [RFC3282] 附件值。
+包含由基于 Macintosh 的电子邮件客户端使用的适当标头和资源分叉数据组成的 [RFC3282] 附件值。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |无  <br/> |
-|属性进行设置：  <br/> |PSETID_Attachment  <br/> |
-|属性名称：  <br/> |AttachmentMacInfo  <br/> |
+|友好名称:  <br/> |无  <br/> |
+|属性集:  <br/> |PSETID_Attachment  <br/> |
+|属性名称:  <br/> |AttachmentMacInfo  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-有关详细信息，请参阅 MS OXCMAIL 部分 2.2.4.2 Apple 文件格式。
+有关详细信息, 请参阅 MS-OXCMAIL section 2.2.4.2 Apple File Formats。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251471
 localization_priority: Normal
 ms.assetid: ff59ab04-a589-cf9e-db3b-20658a7dffdc
-description: 如果其尚未打开，并激活文档窗口，请打开 Microsoft Visio 文档。
-ms.openlocfilehash: 7d4778fc4641465e88303b8515365172fd8be0ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 如果 Microsoft Visio 文档尚未打开, 则将其打开, 并激活文档窗口。
+ms.openlocfilehash: 5a89a658e560d144007ec19796de82b9949bea82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360954"
 ---
 # <a name="openfile-function"></a>OPENFILE 函数
 
-如果其尚未打开，并激活文档窗口，请打开 Microsoft Visio 文档。
+如果 Microsoft Visio 文档尚未打开, 则将其打开, 并激活文档窗口。
   
 ## <a name="syntax"></a>语法
 
- **OPENFILE**( _"文件名"_)
+ **OPENFILE**( _"filename"_)
   
 ### <a name="parameters"></a>参数
 
 |**名称**|**必需/可选**|**数据类型**|**说明**|
 |:-----|:-----|:-----|:-----|
-| _文件名_ <br/> |必需  <br/> |**字符串** <br/> |要打开该文件，包括文件路径的名称。  <br/> |
+| _filename_ <br/> |必需  <br/> |**String** <br/> |要打开的文件的名称, 包括文件路径。  <br/> |
    
 ## <a name="remarks"></a>注解
 
@@ -42,6 +42,6 @@ ms.locfileid: "19780811"
 
  `OPENFILE("C:/MyFile.vsdx")`
   
-在新窗口中，打开指定的文件"MyFile.vsdx"，或如果文件已打开，则激活窗口。 
+在新窗口中打开指定的文件 "MyFile", 如果该文件已打开, 则激活该窗口。 
   
 

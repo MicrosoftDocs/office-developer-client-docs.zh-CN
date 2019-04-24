@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 5a908b3543dff5cf011c9bd4d5d05b3a07004ead
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361080"
 ---
 # <a name="pidtagattachtag-canonical-property"></a>PidTagAttachTag 规范属性
 
@@ -25,42 +25,42 @@ ms.locfileid: "25400451"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含指定的应用程序提供附件 ASN.1 对象标识符。 
+包含一个 ASN. 1 对象标识符, 用于指定提供附件的应用程序。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ATTACH_TAG  <br/> |
-|标识符：  <br/> |0x370A  <br/> |
+|标识符:  <br/> |0x370A  <br/> |
 |数据类型：  <br/> |PT_BINARY  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此属性标识最初生成附件的应用程序。
   
- **注释**不能混淆**PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) 和**PR_ATTACH_TAG**属性。 它们不是配对或相关。 **PR_ATTACH_ENCODING**标识用于转换附件中的数据的算法。 "对象"具有更常规的含义和 X.400 使用率中的术语对象标识符，比在面向对象的编程。 
+ **注释**不应混淆**PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) 和**PR_ATTACH_TAG**属性。 它们不是成对的, 也不是相关的。 **PR_ATTACH_ENCODING**标识用于转换附件中的数据的算法。 "对象" 在术语对象标识符中具有更常见的含义, 在与面向对象的编程中使用的是 X-400。 
   
-MAPIOID 中定义的对象标识符语法和示例对象标识符。H 头文件。 **PR_ATTACH_TAG**值不限于 MAPIOID 中定义的值。H。 
+对象标识符语法和示例对象标识符是在 MAPIOID 中定义的。H 头文件。 **PR_ATTACH_TAG**的值不限于在 MAPIOID 中定义的那些值。水平. 
   
-有关这些对象标识符的完整信息，请参阅 ASN.1、 X.208 和 X.209 上的文档。 文件传输正文部分 (FTBP) 环境的应用程序引用元素中找到对象标识符。 
+有关这些对象标识符的完整信息, 请参阅 ASN. 1、x 208 和209个的相关文档。 对象标识符位于文件传输正文部件 (FTBP) 环境的应用程序引用元素中。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

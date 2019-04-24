@@ -7,11 +7,11 @@ ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f
 description: Project Server 2013 客户端对象模型 (CSOM) 可用于通过 .NET Framework 4 开发 Project Online 和本地解决方案。 本文介绍了如何创建使用 CSOM 创建并发布项目的控制台应用程序。 发布项目之后，应用程序等待 Project Server 队列服务完成发布操作，然后列出已发布的项目。
 localization_priority: Priority
 ms.openlocfilehash: b53587ca1959faefdc1b40f08c4adfda4ee11d70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710459"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360567"
 ---
 # <a name="getting-started-with-the-project-server-csom-and-net"></a>Project Server CSOM 和 .NET 入门
 

@@ -12,47 +12,47 @@ api_type:
 - HeaderDef
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: f1aa54c3364185d322137ef41f6aface31c5c556
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6d6974302e3413db3590abbbd3e6567976c6ac72
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360821"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>PidTagDiscreteValues 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则原件报表适用的通讯组列表，而不是整个列表仅为离散成员。 
+如果 nondelivery 报表仅适用于通讯组列表的离散成员而不是整个列表, 则该参数包含 TRUE。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DISCRETE_VALUES  <br/> |
-|标识符：  <br/> |0x0E0E  <br/> |
+|标识符:  <br/> |0x0E0E  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
-|区域：  <br/> |MAPI 非可传送  <br/> |
+|区域：  <br/> |MAPI 非传输  <br/> |
    
 ## <a name="remarks"></a>注解
 
-邮件无法传递给一个或多个成员的通讯组列表时，将原件报告中使用此属性。 其目的是限制重新传输尝试只有的单个成员和不是作为一个整体的通讯组列表。 
+当无法将邮件传递给通讯组列表的一个或多个成员时, 将在 nondelivery 报告中使用此属性。 其目的是将重新传输尝试限制为仅对单个成员进行, 而不是将通讯组列表限制为一个整体。 
   
-原件报告收件人表包含条目的所有收件人添加到其消息无法送达，以及通讯组列表中，如果有，它们属于。 传输提供程序应将此属性设置为 TRUE 为每个通讯组列表项，它应**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))、 和复制**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))， **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 从**PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md))、 **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) 和**PR_ORIGINAL_SEARCH_KEY** ([通讯组列表PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) 的每个成员的通讯组列表的属性。 
+nondelivery 报表的 "收件人" 表包含邮件无法传递到的所有收件人的条目, 以及它们所属的通讯组列表 (如果有)。 对于每个通讯组列表条目, 传输提供程序应将此属性设置为 TRUE, 并且应复制**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))、 **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 和**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) 从通讯组列表到**PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md))、 **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) 和**PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) 属性分配给该通讯组列表中的每个成员。 
   
- 不应为通讯组列表之外任何原件报告收件人条目设置**PR_DISCRETE_VALUES** 。 
+ 不应为除通讯组列表之外的任何 nondelivery 报告收件人条目设置**PR_DISCRETE_VALUES** 。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

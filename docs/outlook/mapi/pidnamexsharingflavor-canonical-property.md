@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 7757fde1-564b-4f3a-9b9e-f80a143690ea
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: d2afa598bf9b7949f2e9142611570ebbd048f7e3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360884"
 ---
 # <a name="pidnamexsharingflavor-canonical-property"></a>PidNameXSharingFlavor 规范属性
 
@@ -25,44 +25,44 @@ ms.locfileid: "25392121"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-代表**dispidSharingFlavor** ([PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md)) 属性的值。
+表示**dispidSharingFlavor** ([PidLidSharingFlavor](pidlidsharingflavor-canonical-property.md)) 属性的值。
   
 |||
 |:-----|:-----|
-|友好名称：  <br/> |无  <br/> |
-|属性进行设置：  <br/> |PS_INTERNET_HEADERS  <br/> |
-|属性名称：  <br/> |X 共享风格  <br/> |
+|友好名称:  <br/> |无  <br/> |
+|属性集:  <br/> |PS_INTERNET_HEADERS  <br/> |
+|属性名称:  <br/> |X 共享-风格  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
 |区域：  <br/> |共享  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-**DispidSharingFlavor**属性必须为下列值之一。 
+**dispidSharingFlavor**属性必须为下列值之一。 
   
-|**值**|**类型的共享邮件**|
+|**值**|**共享邮件的类型**|
 |:-----|:-----|
 |0x00020310  <br/> |特殊文件夹的共享邀请。  <br/> |
-|0x00000310  <br/> |不是一个特殊文件夹的文件夹共享邀请。  <br/> |
+|0x00000310  <br/> |对不是特殊文件夹的文件夹的共享邀请。  <br/> |
 |0x00020500  <br/> |共享请求。  <br/> |
-|0x00020710  <br/> |这两个共享邀请的特殊文件夹和共享请求收件人的等效的特殊文件夹。  <br/> |
-|0x00025100  <br/> |一个共享响应，其中将拒绝请求。  <br/> |
-|0x00023310  <br/> |接受的请求 （还一类型的共享邀请） 共享响应。  <br/> |
+|0x00020710  <br/> |一个特殊文件夹的共享邀请和收件人的等效特殊文件夹的共享请求。  <br/> |
+|0x00025100  <br/> |拒绝请求的共享响应。  <br/> |
+|0x00023310  <br/> |接受请求的共享响应 (也是一种共享邀请)。  <br/> |
    
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[毫秒-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> 共享客户端之间的邮箱文件夹。
+> 在客户端之间共享邮箱文件夹。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

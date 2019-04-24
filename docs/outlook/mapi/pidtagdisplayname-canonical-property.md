@@ -13,11 +13,11 @@ api_type:
 ms.assetid: bd094e00-5c60-4bb3-9a45-b943fab52876
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 834141fe3e57fde5e6404776e0ad5ce3b438450e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360800"
 ---
 # <a name="pidtagdisplayname-canonical-property"></a>PidTagDisplayName 规范属性
 
@@ -25,73 +25,73 @@ ms.locfileid: "25386416"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含给定的 MAPI 对象的显示名称。 
+包含给定 MAPI 对象的显示名称。 
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_DISPLAY_NAME，PR_DISPLAY_NAME_A，PR_DISPLAY_NAME_W  <br/> |
-|标识符：  <br/> |0x3001  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|区域：  <br/> |常见的 MAPI  <br/> |
+|相关属性：  <br/> |PR_DISPLAY_NAME、PR_DISPLAY_NAME_A、PR_DISPLAY_NAME_W  <br/> |
+|标识符:  <br/> |0x3001  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
+|区域：  <br/> |MAPI 通用  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-文件夹要求同级子文件夹具有唯一的显示名称。 例如，如果文件夹包含两个子文件夹，两个子文件夹无法对此属性使用相同的值。 此限制不适用于其他容器，如通讯簿和通讯组列表。 
+文件夹需要同级子文件夹具有唯一的显示名称。 例如, 如果一个文件夹包含两个子文件夹, 则这两个子文件夹不能对该属性使用相同的值。 此限制不会应用于其他容器, 如通讯簿和通讯组列表。 
   
-服务提供商应将此属性的值，以使其包含的提供程序类型和配置信息。 其他信息有助于区分同一类型的提供程序的实例。 未配置提供程序应使用命名提供程序的字符串。 配置提供程序应使用括号的区分字符串后跟相同的字符串。 例如，未配置的消息存储提供程序可能会将这些属性设置为： 
+服务提供程序应设置此属性的值, 以便它同时包含提供程序类型和配置信息。 其他信息有助于区分相同类型的提供程序的实例。 未配置的提供程序应使用一个命名提供程序的字符串。 配置的提供程序应使用后面带括号中的区分字符串的相同字符串。 例如, 未配置的邮件存储提供程序可能会将这些属性设置为: 
   
 个人信息存储
   
-已配置的版本然后无法将这些属性设置为： 
+配置的版本随后会将这些属性设置为: 
   
-个人信息存储 （1998 年 2 月 6日日）
+个人信息存储 (1998 年2月6日)
   
-对于状态对象，这些属性包含可显示用户界面组件的名称。 
+对于 status 对象, 这些属性包含可由用户界面显示的组件的名称。 
   
 > [!NOTE]
-> MAPI 消息中的收件人姓名中不能使用分号。 
+> MAPI 邮件中的收件人名称中不能使用分号。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[毫秒-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> 处理文件夹的操作。
+> 处理文件夹操作。
     
-[[MS OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[毫秒-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的联系人和个人通讯组列表。
+> 指定允许用于联系人和个人通讯组列表的属性和操作。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和用户、 联系人、 组和资源的操作列表。
+> 指定用户、联系人、组和资源列表的属性和操作。
     
-[[MS OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[毫秒-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> 从 Internet 标准电子邮件约定转换为消息对象。
+> 从 Internet 标准电子邮件约定转换为邮件对象。
     
-[[MS XWDVSEC]](https://msdn.microsoft.com/library/dc043d09-6b76-4392-aea3-68f8e81c64d8%28Office.15%29.aspx)
+[[毫秒-XWDVSEC]](https://msdn.microsoft.com/library/dc043d09-6b76-4392-aea3-68f8e81c64d8%28Office.15%29.aspx)
   
-> 扩展指定如何请求和设置通过 WebDAV 方法的 Exchange 安全描述符的 WebDAV 协议。
+> 扩展了 webdav 协议, 该协议指定如何通过 WebDAV 方法请求和设置 Exchange 安全描述符。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

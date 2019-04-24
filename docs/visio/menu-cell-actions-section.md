@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 29af746c-b081-24cf-a30d-a56353ee849e
 description: 定义形状或页的快捷菜单或动作标记菜单上显示的菜单项的名称。
-ms.openlocfilehash: 195af94c4c36bb3c29a4fadab3c68f8334742952
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: adb6915c34946472ada8c4ab4d02fa88bab6651a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360653"
 ---
-# <a name="menu-cell-actions-section"></a>Menu 单元格（“Actions”部分）
+# <a name="menu-cell-actions-section"></a>Menu 单元格（“Actions”内容）
 
 定义形状或页的快捷菜单或动作标记菜单上显示的菜单项的名称。 
   
@@ -27,18 +27,18 @@ ms.locfileid: "19780795"
 
 若要在此项之上将分隔符插入菜单，请使用 BeginGroup 单元格。要在菜单底部显示命令，请在命令名之前加百分号字符 (%) 前缀。
   
-若要获取对 Menu 单元格的引用按名称从另一个公式或从程序使用**CellsU**属性，请使用： 
+若要从另一个公式或从使用**CellsU**属性的某个程序按名称获取对 Menu 单元格的引用, 请使用: 
   
 |||
 |:-----|:-----|
-|单元格名称：  <br/> |操作。 *名称*。Menuwhere 操作。  *name*是 Actions 行的名称  <br/> |
+|单元格名称：  <br/> |操作. *名称*。Menuwhere 操作。  *name*是操作行的名称  <br/> |
    
 若要从某个程序按索引获取对 Menu 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 |内容索引：  <br/> |**visSectionAction** <br/> |
-|行索引：  <br/> |**visRowAction** +  *i*其中 i = 0、 1、 2...  <br/> |
+|行索引：  <br/> |**visRowAction** +  *i* = 0、1、2 .。。  <br/> |
 |单元格索引：  <br/> |**visActionMenu** <br/> |
    
 

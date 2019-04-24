@@ -1,5 +1,5 @@
 ---
-title: 元素 （Outlook 天气信息架构）
+title: 元素 (Outlook 天气信息架构)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45fbc451-06f0-133d-9818-55574e202091
 description: 本主题列出了 Outlook 天气信息 XML 架构中的元素。
-ms.openlocfilehash: 6964b4493e287b85a690311e7adb2c9e1e3d7c8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c04fce7c3b4da405e141f7acc1d0ae6faa3dd0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19779340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361171"
 ---
-# <a name="elements-outlook-weather-information-schema"></a>元素 （Outlook 天气信息架构）
+# <a name="elements-outlook-weather-information-schema"></a>元素 (Outlook 天气信息架构)
 
 本主题列出了 Outlook 天气信息 XML 架构中的元素。
   

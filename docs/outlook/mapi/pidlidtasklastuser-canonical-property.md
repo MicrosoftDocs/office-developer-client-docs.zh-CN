@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 914c55e9-cb36-46a4-b5ee-382413fa25f9
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: 76311a76001b122bdfd984b9dedc37c2ff878fc7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360443"
 ---
 # <a name="pidlidtasklastuser-canonical-property"></a>PidLidTaskLastUser 规范属性
 
@@ -25,35 +25,35 @@ ms.locfileid: "25390931"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-名称最新用户的任务所有者。
+将最近的用户命名为任务所有者。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |dispidTaskLastUser  <br/> |
-|属性进行设置：  <br/> |PSETID_Task  <br/> |
-|长 ID （盖）：  <br/> |0x00008122  <br/> |
+|属性集:  <br/> |PSETID_Task  <br/> |
+|长 ID (盖子):  <br/> |0x00008122  <br/> |
 |数据类型：  <br/> |PT_UNICODE  <br/> |
-|区域：  <br/> |Task  <br/> |
+|区域：  <br/> |任务  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-客户端发送任务请求之前，请将该属性设置为任务分配人的名称。 客户端发送接受任务之前，请将该属性设置为任务受理人的名称。 客户端发送任务拒绝之前，请将该属性设置为任务分配人的名称。
+在客户端发送任务请求之前, 它会将此属性设置为任务 assigner 的名称。 在客户端发送任务接受前, 它会将此属性设置为任务受理人的姓名。 在客户端发送任务拒绝之前, 它会将此属性设置为任务 assigner 的名称。
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供属性集定义和相关的 Exchange Server 协议规范的引用。
+> 提供属性集定义和对相关 Exchange Server 协议规范的引用。
     
-[[MS OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[毫秒-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> 定义模型的任务、 任务分配和任务更新电子等效项的多个对象。
+> 定义为任务、任务分配和任务更新的电子等效项建模的多个对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     

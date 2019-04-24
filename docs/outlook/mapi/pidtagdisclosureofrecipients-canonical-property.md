@@ -12,25 +12,25 @@ api_type:
 - HeaderDef
 ms.assetid: d77d46cd-6e21-485a-bb0d-dffece562a28
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: b3a109f87ffc7c0e4c1860b779c9447596253a17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c047a5972ca475576a3325cef30ebc090a2b3fa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360828"
 ---
 # <a name="pidtagdisclosureofrecipients-canonical-property"></a>PidTagDisclosureOfRecipients 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-包含 TRUE，则允许的收件人的泄漏。
+如果允许泄露收件人, 则该参数包含 TRUE。
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DISCLOSURE_OF_RECIPIENTS  <br/> |
-|标识符：  <br/> |0x0012  <br/> |
+|标识符:  <br/> |0x0012  <br/> |
 |数据类型：  <br/> |PT_BOOLEAN  <br/> |
 |区域：  <br/> |MAPI 信封  <br/> |
    
@@ -38,13 +38,13 @@ ms.locfileid: "22593443"
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
-description: 上次修改时间： 2011 年 7 月 23 日
-ms.openlocfilehash: 172abe64073b11d98bfb5f76999237218ef8944a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 上次修改时间：2011 年 7 月 23 日
+ms.openlocfilehash: 6c2c733b87b85971fad8060040e713b41b0f5616
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581347"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360513"
 ---
 # <a name="updating-mapi-properties"></a>更新 MAPI 属性
 
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-客户端和服务提供商可以通过调用更新的属性值：
+客户端和服务提供程序可以通过调用以下内容来更新属性值:
   
-- 若要更新的一个或多个对象的属性值的对象的[IMAPIProp::SetProps](imapiprop-setprops.md)方法。 
+- 一个对象的[IMAPIProp:: SetProps](imapiprop-setprops.md)方法, 用于更新一个或多个对象属性的值。 
     
-- 用于更新一次只有一个属性的[HrSetOneProp](hrsetoneprop.md)函数。 仅在本地; 目标对象是否使用**HrSetOneProp**此函数可能会导致与远程对象一起使用时的性能下降。 
+- [HrSetOneProp](hrsetoneprop.md)函数一次只更新一个属性。 仅当目标对象是本地对象时, 才使用**HrSetOneProp** ;在与远程对象一起使用时, 此函数可能会导致性能下降。 
     
-下面的过程说明如何使用**SetProps**更新的邮件类或 PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性，一条消息。 
+下面的过程演示如何使用**SetProps**更新邮件的邮件类或 PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性。 
   
-### <a name="to-update-the-message-class-of-a-message"></a>若要更新的邮件的邮件类 
+### <a name="to-update-the-message-class-of-a-message"></a>更新邮件的邮件类别 
   
-1. 为邮件类分配[SPropValue](spropvalue.md)结构，并根据需要设置及其成员。 
+1. 为邮件类分配一个[SPropValue](spropvalue.md)结构, 并根据需要设置其成员。 
     
   ```cpp
     SPropValue spvMsgClass;
@@ -38,7 +38,7 @@ ms.locfileid: "22581347"
     
   ```
 
-2. 调用消息的**IMAPIProp::SetProps**方法，以设置新的邮件类。 
+2. 调用邮件的**IMAPIProp:: SetProps**方法来设置新的邮件类别。 
     
   ```cpp
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);

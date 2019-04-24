@@ -9,21 +9,21 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b6f5ea5e-b350-0817-d631-f059b9b95c23
 description: 指示输入注释所使用的语言。
-ms.openlocfilehash: 0de5ed8136a3fb1bbdca9fea0ebb5894e62cf907
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b3b2cba3d0a04f75ef2d87f0ee8dcd1f8115e15e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360548"
 ---
-# <a name="langid-cell-annotation-section"></a>LangID 单元格（“Annotation”部分）
+# <a name="langid-cell-annotation-section"></a>LangID 单元格（“Annotation”内容）
 
 指示输入注释所使用的语言。
   
 > [!NOTE]
-> 此单元格用于跟踪注释，仅当打开 Microsoft Visio 2013 中的.vsd 文件或.vsd 文件格式保存.vsdx 文件时。 它不用于跟踪.vsdx Visio 2013 中的文档中的注释。 
+> 仅当在 Microsoft Visio 2013 中打开 .vsd 文件或以 .vsd 文件格式保存 .vsdx 文件时, 才会使用此单元格进行跟踪注释。 它不用于跟踪在 Visio 2013 中的 .vsdx 文档中的注释。 
   
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
 此值是输入注释时在语言栏上激活的语言的区域设置 ID (LCID)。有关 Microsoft Office 应用程序所支持的语言的列表，请参阅“[DocLangID](doclangid-cell-document-properties-section.md) 单元格（‘Document Properties’内容）”这一主题。 
   
@@ -31,14 +31,14 @@ ms.locfileid: "19780524"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Annotation.LangID [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+| 单元格名称：  <br/> | LangID [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 若要从某个程序按索引获取对 LangID 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionAnnotation** <br/> |
-| 行索引：  <br/> |**visRowAnnotation** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowAnnotation** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visAnnotationLangID** <br/> |
    
 

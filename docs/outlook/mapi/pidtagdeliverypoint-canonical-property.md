@@ -12,73 +12,73 @@ api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 2d8157c761cd21d5c8fcdf04948646d8102e774a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e18b08bcbd76cacf7dbb5b5fd36d80d5f266364d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360877"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>PidTagDeliveryPoint 规范属性
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-指定一条消息已通过其或已传递给收件人功能实体的特性。 
+指定功能实体的性质, 方法是通过邮件是由邮件传递的, 还是已传递给收件人。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DELIVERY_POINT  <br/> |
-|标识符：  <br/> |0x0C07  <br/> |
+|标识符:  <br/> |0x0C07  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 收件人  <br/> |
    
 ## <a name="remarks"></a>注解
 
-此属性可以具有完全下列值之一： 
+此属性可以具有下列值之一: 
   
 MAPI_MH_DP_ML 
   
-> 传递给通讯组列表，收信人地址的反过来可能分发很多个收件人的邮件。
+> 传递到通讯组列表, 这一传递点又可能将邮件分发给多个收件人。
     
 MAPI_MH_DP_MS 
   
-> 传递给而不是直接向收件人的消息存储。
+> 传递到邮件存储, 而不是直接传递给收件人。
     
 MAPI_MH_DP_OTHER_AU 
   
-> 物理传递访问单位 (PDAU)，如传真系统之外送达访问单元 (AU)。
+> 传递给除物理传递访问单元 (PDAU) 以外的访问单元 (AU), 例如传真系统。
     
 MAPI_MH_DP_PDAU 
   
-> 发送到物理传递访问单位，如 human 邮政运营商。
+> 传递给物理传递访问单元, 如 "人体邮政" 运营商。
     
 MAPI_MH_DP_PDS_PATRON 
   
-> 发送到物理传递系统记录，如传统的邮政邮箱。
+> 传递到物理传递系统 patron, 如常规邮政邮箱。
     
 MAPI_MH_DP_PRIVATE_UA 
   
-> 例如，内部邮件系统中的客户端送达专用用户代理 (UA)。
+> 传递给私有用户代理 (UA), 例如内部邮件系统中的客户端。
     
 MAPI_MH_DP_PUBLIC_UA 
   
-> 传递到公共用户代理或公共服务提供商。
+> 传递给公用用户代理或公共服务提供商。
     
-默认值是 MAPI_MH_DP_PRIVATE_UA，即，MAPI 客户端。 
+默认值为 MAPI_MH_DP_PRIVATE_UA, 即 MAPI 客户端。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含列为相关属性的属性的定义。
+> 包含列为关联属性的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

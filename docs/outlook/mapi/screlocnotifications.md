@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
 description: 上次修改时间：2015 年 3 月 9 日
-ms.openlocfilehash: 4117558d27d64444cdac62651584fe6cfe8ff061
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 81da4b77f0d2162a1119b7945b1e0ceb87ba9fb8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360709"
 ---
 # <a name="screlocnotifications"></a>ScRelocNotifications
 
   
   
-**适用于**： Outlook 2013 |Outlook 2016 
+**适用于**：Outlook 2013 | Outlook 2016 
   
-调整指定的事件通知阵列中的指针。 
+在指定的事件通知数组中调整指针。 
   
 |||
 |:-----|:-----|
-|头文件：  <br/> |Mapiutil.h  <br/> |
-|通过实现：  <br/> |MAPI  <br/> |
-|调用：  <br/> |客户端应用程序和服务提供商  <br/> |
+|标头文件：  <br/> |Mapiutil  <br/> |
+|实现者：  <br/> |MAPI  <br/> |
+|调用者：  <br/> |客户端应用程序和服务提供程序  <br/> |
    
 ```cpp
 SCODE ScRelocNotifications(
@@ -47,23 +47,23 @@ SCODE ScRelocNotifications(
 
  _cntf_
   
-> [in][通知](notification.md)结构由_rgntf_参数指示在阵列中的计数。 
+> 实时由_rgntf_参数指示的数组中的[通知](notification.md)结构的计数。 
     
  _rgntf_
   
-> [in]定义在其中指针是要调整的事件通知的**通知**结构的数组的指针。 
+> 实时指向用于定义要在其中调整指针的事件通知的**通知**结构数组的指针。 
     
  _pvBaseOld_
   
-> [in]指向原始基址_rgntf_参数指示的数组。 
+> 实时指向由_rgntf_参数指示的数组的原始基址的指针。 
     
  _pvBaseNew_
   
-> [in]**ScRelocNotifications**向其中写入_rgntf_参数指示的数组的新基址位置。 
+> 实时**ScRelocNotifications**写入由_rgntf_参数指示的数组的新基址的位置。 
     
  _pcb_
   
-> [输出]指向的大小，以字节为单位指示_pvBaseNew_参数的数组。 
+> 排除指向由_pvBaseNew_参数指示的数组的大小 (以字节为单位) 的指针。 
     
 ## <a name="return-value"></a>返回值
 
@@ -77,7 +77,7 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>注解
 
-**ScRelocNotifications**函数_pcb_参数是可选的。 
+**ScRelocNotifications**函数的_pcb_参数是可选的。 
   
 ## <a name="see-also"></a>另请参阅
 

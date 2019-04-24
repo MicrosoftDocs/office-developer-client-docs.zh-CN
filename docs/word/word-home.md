@@ -7,11 +7,11 @@ ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4
 description: 查找与开发解决方案和自定义 Word 相关的操作说明内容、示例代码、SDK 和 API 文档、VBA 参考、培训和技术文章。
 localization_priority: Priority
 ms.openlocfilehash: acd9fab9c09c88100ec473b0d456f90652643457
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360520"
 ---
 # <a name="word"></a>Word
 

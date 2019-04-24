@@ -13,11 +13,11 @@ api_type:
 ms.assetid: ee2bc6ca-3769-4b56-a77d-81418d28f768
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: da26fd2a8643817cf60adbfa6f4e85da345b875c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360779"
 ---
 # <a name="pidtagdisplaytype-canonical-property"></a>PidTagDisplayType 规范属性
 
@@ -25,26 +25,26 @@ ms.locfileid: "25393466"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含用于将图标与特定的表格行关联的值。 
+包含一个值, 该值用于将图标与表中的特定行相关联。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_DISPLAY_TYPE  <br/> |
-|标识符：  <br/> |0x3900  <br/> |
+|标识符:  <br/> |0x3900  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |MAPI 通讯簿  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-此属性包含长整型，从而便于在其类型基于的表项的特殊处理。 显示的图标或其他 display 元素的显示类型相关联的通常包含此特殊处理。 
+此属性包含一个长整数, 便于根据表项的类型对表项进行特殊处理。 此特殊处理通常由显示与显示类型关联的图标或其他显示元素组成。 
   
-文件夹内容表中不使用此属性。 客户端应用程序应使用消息的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性和相应的[IMAPIFormInfo](imapiforminfoimapiprop.md)接口要获取的**PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) 和**PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) 的邮件的属性。 
+文件夹内容表中不使用此属性。 客户端应用程序应使用消息的**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 属性和相应的[IMAPIFormInfo](imapiforminfoimapiprop.md)接口来获取**PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) 和**PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) 属性的信息。 
   
-此属性可以具有完全下列值之一：
+此属性可以具有下列值之一:
   
 DT_AGENT 
   
-> 自动的代理，如天报价单或天气图表的显示。
+> 自动代理, 如 "一天的报价单" 或 "天气" 图表显示。
     
 DT_DISTLIST 
   
@@ -52,19 +52,19 @@ DT_DISTLIST
     
 DT_FOLDER 
   
-> 显示默认文件夹图标紧邻文件夹。
+> 显示文件夹旁边的默认文件夹图标。
     
 DT_FOLDER_LINK 
   
-> 显示默认文件夹链接图标紧邻文件夹，而不是默认文件夹图标。
+> 显示文件夹旁边的默认文件夹链接图标, 而不是默认文件夹图标。
     
 DT_FOLDER_SPECIAL 
   
-> 显示特定于应用程序的差异，如一个特殊类型的公用文件夹的文件夹的图标。
+> 显示具有特定于应用程序的区别的文件夹图标, 如特殊类型的公用文件夹。
     
 DT_FORUM 
   
-> 论坛，如布告栏服务或公共或共享文件夹。
+> 论坛, 如公告牌服务或公用或共享文件夹。
     
 DT_GLOBAL 
   
@@ -72,71 +72,71 @@ DT_GLOBAL
     
 DT_LOCAL 
   
-> 与小型工作组共享本地通讯簿。
+> 与小型工作组共享的本地通讯簿。
     
 DT_MAILUSER 
   
-> 典型的消息用户。
+> 典型的邮件用户。
     
 DT_MODIFIABLE 
   
-> 可修改;在用户界面中，应为可修改表示容器。
+> 可容器应在用户界面中表示为可修改的。
     
 DT_NOT_SPECIFIC 
   
-> 不匹配的任何其他设置。
+> 与任何其他设置都不匹配。
     
 DT_ORGANIZATION 
   
-> 定义一大组，如帮助台、 accounting 或血驱动器协调特殊别名。
+> 为大型组 (例如, 支持人员、会计或血糖驱动器协调器) 定义的特殊别名。
     
 DT_PRIVATE_DISTLIST 
   
-> 专用的个人管理通讯组列表。
+> 专用的、个人管理的通讯组列表。
     
 DT_REMOTE_MAILUSER 
   
-> 已知要从外部或远程邮件系统的收件人。
+> 已知来自外部或远程邮件系统的收件人。
     
 DT_WAN 
   
-> 广域网网络通讯簿。
+> 广域网络通讯簿。
     
-通讯簿内容表使用 DT_AGENT、 DT_DISTLIST、 DT_FORUM、 DT_MAILUSER、 DT_ORGANIZATION、 DT_PRIVATE_DISTLIST 和 DT_REMOTE_MAILUSER 值。 通讯簿层次结构表和一次性表使用 DT_GLOBAL、 DT_LOCAL、 DT_MODIFIABLE、 DT_NOT_SPECIFIC 和 DT_WAN 值。 文件夹层次结构表使用 DT_FOLDER、 DT_FOLDER_LINK 和 DT_FOLDER_SPECIAL 值。 
+通讯簿内容表使用 DT_AGENT、DT_DISTLIST、DT_FORUM、DT_MAILUSER、DT_ORGANIZATION、DT_PRIVATE_DISTLIST 和 DT_REMOTE_MAILUSER 值。 通讯簿层次结构表和一次性表使用 DT_GLOBAL、DT_LOCAL、DT_MODIFIABLE、DT_NOT_SPECIFIC 和 DT_WAN 值。 文件夹层次结构表使用 DT_FOLDER、DT_FOLDER_LINK 和 DT_FOLDER_SPECIAL 值。 
   
-如果未设置此属性，客户端应采用默认类型适用于表、 通常 DT_FOLDER、 DT_LOCAL 或 DT_MAILUSER。 
+如果未设置此属性, 则客户端应假定适用于表的默认类型, 通常为 DT_FOLDER、DT_LOCAL 或 DT_MAILUSER。 
   
- **注释**MAPI 的保留未进行归档的所有值。 客户端应用程序无需定义的任何新值，必须在准备好处理一个未记录的值。 
+ **注释**未记录的所有值都是为 MAPI 保留的。 客户端应用程序不得定义任何新值, 并且必须准备处理未记录的值。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[毫秒-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> 提供了相关的 Exchange Server 协议规范参考。
+> 提供对相关 Exchange Server 协议规范的引用。
     
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
-[[MS OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[毫秒-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> 指定的属性和操作所允许的地址簿模板。
+> 指定允许用于通讯簿模板的属性和操作。
     
-[[MS OXLDAP]](https://msdn.microsoft.com/library/727c090a-f05c-4eed-94aa-565724cfc550%28Office.15%29.aspx)
+[[毫秒-OXLDAP]](https://msdn.microsoft.com/library/727c090a-f05c-4eed-94aa-565724cfc550%28Office.15%29.aspx)
   
 > 启用目录访问。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

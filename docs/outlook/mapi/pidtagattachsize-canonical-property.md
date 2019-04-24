@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: f3e4f19ab43a3da7c4840d762d5131813c83d996
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361087"
 ---
 # <a name="pidtagattachsize-canonical-property"></a>PidTagAttachSize 规范属性
 
@@ -25,38 +25,38 @@ ms.locfileid: "25399744"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含附件上的所有属性的大小的总和，以字节为单位。 
+包含附件中所有属性的大小的总和 (以字节为单位)。 
   
 |||
 |:-----|:-----|
 |相关属性：  <br/> |PR_ATTACH_SIZE  <br/> |
-|标识符：  <br/> |0x0E20  <br/> |
+|标识符:  <br/> |0x0E20  <br/> |
 |数据类型：  <br/> |PT_LONG  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-建议附件子对象公开**PR_ATTACH_SIZE**属性。 包含在**PR_ATTACH_SIZE**总和包括**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 或**PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 属性的大小。 因此， **PR_ATTACH_SIZE**大于通常表达附件的内容。 
+建议附件子类型公开**PR_ATTACH_SIZE**属性。 包含在**PR_ATTACH_SIZE**中的总和包括**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) 或**PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) 属性的大小。 因此, **PR_ATTACH_SIZE**通常比单独的附件的内容大。 
   
-可以使用此属性，以检查的附件之前执行调制解调器远程传输大致大小并保存到磁盘上的附件时显示进度指示器。 它是附加的 OLE 对象特别有用。 
+此属性可用于在通过调制解调器执行远程传输之前检查附件的近似大小, 并在将附件保存到磁盘时显示进度指示器。 它对附加的 OLE 对象尤其有用。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-mapitags.h
+mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 

@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: cc4c373c-f073-e3c9-3aaa-a4abf050cd20
 description: 指示文本域的类型。
-ms.openlocfilehash: d4b94b46e83935de14400468957adbdc8f6cb171
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c2f891620f704a3c48861124b886e49d356960ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19780798"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360989"
 ---
-# <a name="objectkind-cell-text-fields-section"></a>ObjectKind 单元格（“Text Fields”部分）
+# <a name="objectkind-cell-text-fields-section"></a>ObjectKind 单元格（“Text Fields”内容）
 
 指示文本域的类型。
   
-|**值**|**说明**|**自动常量**|
+|**Value**|**说明**|**自动常量**|
 |:-----|:-----|:-----|
 | 0  <br/> | 标准  <br/> |**visTFOKStandard** <br/> |
 | 1  <br/> |纵横混排  <br/> |**visTFOKHorizontaInVertical** <br/> |
    
-## <a name="remarks"></a>注释
+## <a name="remarks"></a>注解
 
 文本域可以是以下类型之一：
   
@@ -37,14 +37,14 @@ ms.locfileid: "19780798"
   
 |||
 |:-----|:-----|
-| 单元格名称：  <br/> | Fields.ObjectKind [ *i* ] 其中*i* = < 1 >，2，3...  <br/> |
+| 单元格名称：  <br/> | ObjectKind [ *i* ] 其中*i* = <1>, 2, 3 .。。  <br/> |
    
 要从某个程序按索引获取对 ObjectKind 单元格的引用，请使用带下列参数的 **CellsSRC** 属性： 
   
 |||
 |:-----|:-----|
 | 内容索引：  <br/> |**visSectionTextField** <br/> |
-| 行索引：  <br/> |**visRowField** +  *i*其中*i* = 0、 1、 2...  <br/> |
+| 行索引：  <br/> |**visRowField** +  *i* = ** 0、1、2 .。。  <br/> |
 | 单元格索引：  <br/> |**visFieldObjectKind** <br/> |
    
 

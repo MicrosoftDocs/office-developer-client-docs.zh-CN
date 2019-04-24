@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 35c10264-6998-4c46-8cef-82708c96d9c7
 description: 上次修改时间：2015 年 3 月 9 日
 ms.openlocfilehash: ec1db68d9168e7260a32aaf7708897df6124725a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360506"
 ---
 # <a name="pidtagattachcontentbase-canonical-property"></a>PidTagAttachContentBase 规范属性
 
@@ -25,36 +25,36 @@ ms.locfileid: "25398974"
   
 **适用于**：Outlook 2013 | Outlook 2016 
   
-包含多用途 Internet 邮件扩展 (MIME) 邮件附件的内容的基本标头。
+包含多用途 Internet 邮件扩展 (MIME) 邮件附件的内容基标头。
   
 |||
 |:-----|:-----|
-|相关属性：  <br/> |PR_ATTACH_CONTENT_BASE，PR_ATTACH_CONTENT_BASE_A，PR_ATTACH_CONTENT_BASE_W  <br/> |
-|标识符：  <br/> |0x3711  <br/> |
-|数据类型：  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|相关属性：  <br/> |PR_ATTACH_CONTENT_BASE、PR_ATTACH_CONTENT_BASE_A、PR_ATTACH_CONTENT_BASE_W  <br/> |
+|标识符:  <br/> |0x3711  <br/> |
+|数据类型：  <br/> |PT_STRING8、PT_UNICODE  <br/> |
 |区域：  <br/> |邮件附件  <br/> |
    
-## <a name="remarks"></a>说明
+## <a name="remarks"></a>注解
 
-使用这些属性 MHTML 支持。 它们表示的适当的 MIME 正文部分内容的基本标头。 
+这些属性用于 MHTML 支持。 它们表示相应 MIME 正文部分的内容基头。 
   
 ## <a name="related-resources"></a>相关资源
 
 ### <a name="protocol-specifications"></a>协议规范
 
-[[MS OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[毫秒-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> 处理邮件和附件的对象。
+> 处理邮件和附件对象。
     
 ### <a name="header-files"></a>头文件
 
-Mapidefs.h
+mapidefs。h
   
 > 提供数据类型定义。
     
-Mapitags.h
+Mapitags
   
-> 包含作为替代名称列出的属性的定义。
+> 包含列为替换名称的属性的定义。
     
 ## <a name="see-also"></a>另请参阅
 
